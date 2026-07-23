@@ -57,6 +57,7 @@ assets/
 # ------------------------------------------------------------------------------
 # Ignore locally downloaded or symlinked agent skills (re-creatable via skills-lock.json)
 .agents/skills/
+.claude/
 
 # ------------------------------------------------------------------------------
 # IDEs, Editors & System Files
