@@ -1,9 +1,13 @@
 import { test, expect } from '@playwright/test';
+import { revealLazyContent } from './support/lazy';
 
 test.describe('Equipment Page Enhancements E2E Tests', () => {
 	test.beforeEach(async ({ page }) => {
 		await page.goto('/equipment/');
 		await page.waitForLoadState('networkidle');
+		// Image marquees and the testimonials block mount their content only on
+		// scroll (IntersectionObserver / LazyMount). Reveal it before asserting.
+		await revealLazyContent(page);
 	});
 
 	test('should render the image marquee strip on the equipment page', async ({ page }) => {
@@ -11,10 +15,10 @@ test.describe('Equipment Page Enhancements E2E Tests', () => {
 		await expect(marquees.first()).toBeVisible();
 		await expect(marquees).toHaveCount(2);
 
-		// Verify they contain images
+		// Verify they contain images (mounted once the marquee scrolled into view)
 		const images = marquees.first().locator('img');
-		const count = await images.count();
-		expect(count).toBeGreaterThan(0);
+		await expect(images.first()).toBeVisible();
+		expect(await images.count()).toBeGreaterThan(0);
 	});
 
 	test('should render the testimonials (Google My Business reviews) on the equipment page', async ({ page }) => {

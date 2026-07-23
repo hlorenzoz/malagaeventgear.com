@@ -220,9 +220,10 @@ test.describe('Blog SEO — Article schema enrichment', () => {
 		expect(article).toBeTruthy();
 		// inLanguage must be 'en'
 		expect(article?.inLanguage).toBe('en');
-		// author.url and publisher.url should be present
+		// author.url present; publisher references the canonical #organization node by
+		// @id (commit 5698ed1: "Article publisher by @id"), not an inline org copy.
 		expect(article?.author?.url).toBe('https://malagaeventgear.com/blog/author/hector-luis-lorenzo/');
-		expect(article?.publisher?.url).toBe('https://malagaeventgear.com');
+		expect(article?.publisher?.['@id']).toBe('https://malagaeventgear.com/#organization');
 
 		const faqPage = schemas.find((s: any) => s['@type'] === 'FAQPage');
 		expect(faqPage).toBeTruthy();
@@ -261,7 +262,8 @@ test.describe('Blog SEO — Article schema enrichment', () => {
 		expect(article).toBeTruthy();
 		expect(article?.inLanguage).toBe('en');
 		expect(article?.author?.url).toBe('https://malagaeventgear.com/blog/author/hector-luis-lorenzo/');
-		expect(article?.publisher?.url).toBe('https://malagaeventgear.com');
+		// publisher by @id — same canonical-org reference as BlogPosting (commit 5698ed1).
+		expect(article?.publisher?.['@id']).toBe('https://malagaeventgear.com/#organization');
 	});
 
 	test('non-news post has BlogPosting (not NewsArticle)', async ({ page }) => {

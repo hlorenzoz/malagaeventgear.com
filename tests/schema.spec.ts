@@ -64,10 +64,12 @@ test.describe('Structured Data (Schema.org) E2E Validation Tests', () => {
 			expect(breadcrumbs.itemListElement[1].item).toBe('https://malagaeventgear.com/packages/');
 			expect(breadcrumbs.itemListElement[2].item).toContain(`/packages/${slug}/`);
 
-			// Verificar esquema Service local
+			// Verificar esquema Service local. El provider NO se redefine aquí: referencia
+			// el nodo canónico #organization por @id (commit 865df66, para no emitir un
+			// LocalBusiness duplicado que GSC marcaba). Verificamos esa referencia.
 			const service = schemas.find(s => s['@type'] === 'Service');
 			expect(service).toBeDefined();
-			expect(service.provider.name).toBe('Malaga Event Gear');
+			expect(service.provider['@id']).toBe('https://malagaeventgear.com/#organization');
 			expect(service.offers).toBeDefined();
 			expect(parseFloat(service.offers.price)).toBeGreaterThan(0);
 			expect(service.offers.priceCurrency).toBe('EUR');
@@ -85,8 +87,15 @@ test.describe('Structured Data (Schema.org) E2E Validation Tests', () => {
 		expect(itemList).toBeDefined();
 		expect(itemList.name).toBe('Audiovisual Rental Packages - Malaga Event Gear');
 		expect(itemList.itemListElement.length).toBe(5); // Los 5 paquetes principales
-		expect(itemList.itemListElement[0].name).toBe('Eco Pack');
-		expect(itemList.itemListElement[0].url).toBe('https://malagaeventgear.com/packages/eco/');
+		// Cada elemento es un ListItem que ENVUELVE la entidad Service del paquete con
+		// su Offer (commit f1eb723: ItemList plano → Service+Offer). El name/url viven
+		// en `.item`, y verificamos también que la entidad es un Service con precio.
+		const firstItem = itemList.itemListElement[0].item;
+		expect(firstItem['@type']).toBe('Service');
+		expect(firstItem.name).toBe('Eco Pack');
+		expect(firstItem.url).toBe('https://malagaeventgear.com/packages/eco/');
+		expect(parseFloat(firstItem.offers.price)).toBeGreaterThan(0);
+		expect(firstItem.offers.priceCurrency).toBe('EUR');
 
 		// 2. Buscar y verificar FAQPage de IVA
 		const faqPage = schemas.find(s => s['@type'] === 'FAQPage');
@@ -133,7 +142,9 @@ test.describe('Structured Data (Schema.org) E2E Validation Tests', () => {
 		// 1. ContactPage schema (page-level)
 		const contactPage = schemas.find(s => s['@type'] === 'ContactPage');
 		expect(contactPage).toBeDefined();
-		expect(contactPage.url).toBe('https://malagaeventgear.com/contact');
+		// Trailing slash: el sitio canonicaliza toda URL con '/' final (trailingSlash:
+		// 'always', AGENTS.md §2). El JSON-LD debe coincidir con la canónica.
+		expect(contactPage.url).toBe('https://malagaeventgear.com/contact/');
 
 		// 2. FAQPage schema, sourced from the centralized FAQ store (inquiry-oriented set)
 		const faqPage = schemas.find(s => s['@type'] === 'FAQPage');
