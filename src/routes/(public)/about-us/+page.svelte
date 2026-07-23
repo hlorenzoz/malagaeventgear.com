@@ -2,47 +2,26 @@
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
 	import Icon from '$lib/components/navigation/Icon.svelte';
 	import { i18n } from '$lib/i18n.svelte';
+	import { siteConfig } from '$lib/data/site';
 
+	// Este grafo NO redefine la empresa ni el sitio: los referencia por @id.
+	// Antes emitía un segundo nodo #organization con su propia dirección
+	// ('Avenida de Barcelona, 34', distinta al NAP de site.ts), su propio teléfono
+	// y su propio priceRange ('290€ - 650€' vs el '€€' de schema.ts) — dos verdades
+	// para una sola entidad. Misma convención que buildServiceSchema (schema.ts).
 	let aboutSchema = $derived({
 		'@context': 'https://schema.org',
 		'@graph': [
 			{
-				'@type': 'Place',
-				'@id': 'https://malagaeventgear.com/#place',
-				'address': {
-					'@type': 'PostalAddress',
-					'streetAddress': 'Avenida de Barcelona, 34',
-					'addressRegion': 'Malaga',
-					'postalCode': '29009',
-					'addressCountry': 'ES',
-					'addressLocality': 'Distrito Centro'
-				}
-			},
-			{
-				'@type': 'LocalBusiness',
-				'@id': 'https://malagaeventgear.com/#organization',
-				'name': 'Malaga Event Gear',
-				'url': 'https://malagaeventgear.com',
-				'email': 'contact@malagaeventgear.com',
-				'telephone': '+34 600 42 87 50',
-				'priceRange': '290€ - 650€',
-				'openingHours': ['Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 08:00-20:00'],
-				'location': { '@id': 'https://malagaeventgear.com/#place' }
-			},
-			{
 				'@type': 'AboutPage',
-				'@id': 'https://malagaeventgear.com/about-us/#webpage',
-				'url': 'https://malagaeventgear.com/about-us/',
+				'@id': `${siteConfig.url}/about-us/#webpage`,
+				'url': `${siteConfig.url}/about-us/`,
 				'name': i18n.lang === 'en' ? 'About Us - Malaga Event Gear (MEG)' : 'Sobre Nosotros - Malaga Event Gear (MEG)',
 				'description': i18n.lang === 'en'
 					? 'Meet the experts at Malaga Event Gear! We are dedicated to making your weddings, corporate events, and parties unforgettable with top-tier gear.'
 					: 'Conocé a los expertos de Malaga Event Gear. Nos dedicamos a hacer que tus bodas, eventos corporativos y fiestas sean inolvidables con equipos de primer nivel.',
-				'isPartOf': {
-					'@type': 'WebSite',
-					'@id': 'https://malagaeventgear.com/#website',
-					'url': 'https://malagaeventgear.com',
-					'name': 'Malaga Event Gear'
-				}
+				'about': { '@id': `${siteConfig.url}/#organization` },
+				'isPartOf': { '@id': `${siteConfig.url}/#website` }
 			}
 		]
 	});

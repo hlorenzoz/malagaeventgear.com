@@ -171,29 +171,16 @@ export const translations = {
 			successButton: 'Send another request',
 			faqTitle: 'Frequently Asked Questions'
 		},
-		// Packages Showcase
+		// Packages Showcase.
+		// Solo copy genérico: nombres, precios, descripciones y features de cada pack
+		// se derivan de packages.ts (AGENTS.md §7). Este bloque llegó a tener
+		// `ecoPrice: '€290'`, `weddingTitle`, `ecoF1`… duplicados en EN y ES; nadie los
+		// consumía y ya divergían del catálogo (p. ej. no existían las claves de los
+		// packs Product Presentation y Basic MICE).
 		packages: {
 			badge: 'Featured Packages',
 			title: 'Choose Your Perfect Pack',
 			subtitle: 'Tailored for every occasion. All packages include transport, setup, and on-site technical support.',
-			ecoTitle: 'Eco Pack',
-			ecoPrice: '€290',
-			ecoDesc: 'For private parties and small events up to 50 guests. Solid sound and ambient lighting.',
-			ecoF1: '2 Active speakers',
-			ecoF2: '1 Wired microphone',
-			ecoF3: '2 RGBW LED light bars',
-			weddingTitle: 'Wedding Pack',
-			weddingPrice: '€650',
-			weddingDesc: 'Magical sound and romantic lighting for up to 80 guests. Our most-loved celebration package.',
-			weddingF1: 'High-end acoustic system',
-			weddingF2: 'Romantic ambient lighting',
-			weddingF3: 'Wireless microphones',
-			miceTitle: 'MICE Pack',
-			micePrice: '€490',
-			miceDesc: 'Professional AV for conferences and corporate events. Includes a 60" LED screen and on-site technician.',
-			miceF1: '60" LED screen',
-			miceF2: 'Wireless audio system',
-			miceF3: 'On-site technical support',
 			enquire: 'Get a Quote'
 		},
 		// How It Works
@@ -447,29 +434,11 @@ export const translations = {
 			successButton: 'Enviar otra solicitud',
 			faqTitle: 'Preguntas Frecuentes'
 		},
-		// Packages Showcase
+		// Packages Showcase — ver comentario en el bloque EN.
 		packages: {
 			badge: 'Packs Destacados',
 			title: 'Elegí Tu Pack Ideal',
 			subtitle: 'Personalizados para cada ocasión. Todos incluyen transporte, montaje y soporte técnico en sitio.',
-			ecoTitle: 'Eco Pack',
-			ecoPrice: '€290',
-			ecoDesc: 'Para fiestas privadas y eventos pequeños de hasta 50 personas. Sonido sólido e iluminación ambiental.',
-			ecoF1: '2 Altavoces activos',
-			ecoF2: '1 Micrófono de cable',
-			ecoF3: '2 Barras de luz LED RGBW',
-			weddingTitle: 'Pack Bodas',
-			weddingPrice: '€650',
-			weddingDesc: 'Sonido mágico e iluminación romántica para hasta 80 invitados. Nuestro pack de celebración más elegido.',
-			weddingF1: 'Sistema acústico de alta gama',
-			weddingF2: 'Iluminación ambiental romántica',
-			weddingF3: 'Micrófonos inalámbricos',
-			miceTitle: 'Pack MICE',
-			micePrice: '€490',
-			miceDesc: 'AV profesional para conferencias y eventos corporativos. Incluye pantalla LED 60" y técnico en sitio.',
-			miceF1: 'Pantalla LED 60"',
-			miceF2: 'Sistema de audio inalámbrico',
-			miceF3: 'Soporte técnico en sitio',
 			enquire: 'Solicitar Presupuesto'
 		},
 		// How It Works

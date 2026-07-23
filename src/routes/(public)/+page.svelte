@@ -2,7 +2,7 @@
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
 	import LazyMount from '$lib/components/util/LazyMount.svelte';
 	import { i18n } from '$lib/i18n.svelte';
-	import { packages } from '$lib/data/packages';
+	import { packages, getPriceRange } from '$lib/data/packages';
 	import { getHomepageFaqs, buildFaqSchema } from '$lib/data/faq';
 	import { getArticlePosts, getNewsPosts } from '$lib/data/blog';
 	import LatestPostsRow from '$lib/components/home/LatestPostsRow.svelte';
@@ -18,8 +18,8 @@
 	const latestPosts = getArticlePosts().slice(0, 5);
 	const latestNews = getNewsPosts().slice(0, 5);
 
-	// Cheapest package price for the "What does it cost?" answer (kept in sync with packages data)
-	let minPrice = $derived(Math.min(...packages.map((p) => p.price)));
+	// Cheapest package price for the "What does it cost?" answer (derived — see AGENTS.md §7)
+	let minPrice = $derived(getPriceRange().min);
 
 	// "At a Glance" Q&A block (answer-engine optimization). Question text rendered as <h2>.
 	let overview = $derived([

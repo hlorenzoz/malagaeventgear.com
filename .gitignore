@@ -57,7 +57,18 @@ assets/
 # ------------------------------------------------------------------------------
 # Ignore locally downloaded or symlinked agent skills (re-creatable via skills-lock.json)
 .agents/skills/
-.claude/
+
+# Scraped/downloaded research context — NOT re-creatable, but never belongs in git
+# (contains multi-MB screenshots that would bloat history permanently).
+.agents/context/
+
+# Claude Code config: machine-local by default, EXCEPT the shared slash commands.
+# settings.json holds a per-machine permission allowlist with absolute /Users paths
+# and temp-dir globs, so it must stay untracked. .claude/commands/ is team workflow
+# (e.g. /test-lighthouse, mandated by AGENTS.md §10) and Claude Code only reads it
+# from .claude/ — the .agents/commands/ copy is documentation, not a working mirror.
+.claude/*
+!.claude/commands/
 
 # ------------------------------------------------------------------------------
 # IDEs, Editors & System Files

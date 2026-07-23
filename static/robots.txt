@@ -3,3 +3,8 @@ User-agent: *
 Allow: /
 
 Sitemap: https://malagaeventgear.com/sitemap_index.xml
+
+# AI/LLM guidance file (llmstxt.org standard). Deliberately NOT listed in the XML
+# sitemaps: those declare indexable HTML content, and this is a machine-guidance
+# resource fetched by well-known path, not a page we want ranking in Search.
+# https://malagaeventgear.com/llms.txt

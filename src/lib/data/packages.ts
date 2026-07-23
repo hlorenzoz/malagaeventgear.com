@@ -56,6 +56,8 @@ export const PackageSchema = z.object({
 	maxGuests: z.number().optional(),
 	popular: z.boolean().optional(),
 	image: z.string().optional(),
+	/** Icon name used wherever the package appears in a navigation list (HTML sitemap, menus). */
+	navIcon: z.string(),
 	seo: SeoSchema,
 	landing: LandingSchema,
 	category: z.enum(['social', 'corporate']),
@@ -77,6 +79,7 @@ const packagesData: EventPackage[] = [
 		id: 'eco',
 		slug: 'eco',
 		route: '/packages/eco/',
+		navIcon: 'eco',
 		name: 'Eco Pack',
 		price: 290,
 		image: '/images/packages/eco.webp',
@@ -151,6 +154,7 @@ const packagesData: EventPackage[] = [
 		id: 'wedding',
 		slug: 'wedding',
 		route: '/packages/wedding/',
+		navIcon: 'favorite',
 		name: 'Wedding Pack',
 		price: 650,
 		desc: {
@@ -226,6 +230,7 @@ const packagesData: EventPackage[] = [
 		id: 'presentation',
 		slug: 'product-presentation',
 		route: '/packages/product-presentation/',
+		navIcon: 'co_present',
 		name: 'Product Presentation Pack',
 		price: 310,
 		image: '/images/packages/product-presentation.webp',
@@ -300,6 +305,7 @@ const packagesData: EventPackage[] = [
 		id: 'mice-basic',
 		slug: 'basic-mice',
 		route: '/packages/basic-mice/',
+		navIcon: 'groups',
 		name: 'Basic MICE Pack',
 		price: 295,
 		image: '/images/packages/basic-mice.webp',
@@ -374,6 +380,7 @@ const packagesData: EventPackage[] = [
 		id: 'mice-full',
 		slug: 'mice',
 		route: '/packages/mice/',
+		navIcon: 'corporate_fare',
 		name: 'MICE Pack',
 		price: 490,
 		image: '/images/packages/mice.webp',
@@ -470,6 +477,83 @@ export const packages: EventPackage[] = packagesData.map((pkg) => {
 export const getPackageBySlug = (slug: string): EventPackage | undefined => {
 	return packages.find((pkg) => pkg.slug === slug);
 };
+
+/* -------------------------------------------------------------------------- */
+/* Pricing — Single Source of Truth (AGENTS.md §7)                            */
+/* -------------------------------------------------------------------------- */
+
+/** ISO 4217 currency every package price is denominated in. */
+export const CURRENCY = 'EUR' as const;
+
+/** Currency symbol used across UI, JSON-LD and machine-readable outputs. */
+export const CURRENCY_SYMBOL = '€' as const;
+
+/** Spanish VAT rate applied on top of every listed price (prices are ex-VAT). */
+export const VAT_RATE = 0.21;
+
+/**
+ * Formats a package price using the locale's own currency convention:
+ * English puts the symbol first (`€290`), Spanish puts it last (`290 €`).
+ *
+ * Every price string rendered anywhere on the site MUST come from here — a
+ * literal like `'€290'` in a component silently outlives the next price change.
+ */
+export function formatPrice(amount: number, lang: 'en' | 'es' = 'en'): string {
+	return lang === 'es' ? `${amount} ${CURRENCY_SYMBOL}` : `${CURRENCY_SYMBOL}${amount}`;
+}
+
+/** Cheapest and most expensive package prices, derived from the catalog. */
+export function getPriceRange(): { min: number; max: number } {
+	const prices = packages.map((pkg) => pkg.price);
+	return { min: Math.min(...prices), max: Math.max(...prices) };
+}
+
+/** Human-facing price range, e.g. `€290 - €650` (en) / `290 € - 650 €` (es). */
+export function formatPriceRange(lang: 'en' | 'es' = 'en'): string {
+	const { min, max } = getPriceRange();
+	return `${formatPrice(min, lang)} - ${formatPrice(max, lang)}`;
+}
+
+/**
+ * `priceRange` value for schema.org LocalBusiness.
+ *
+ * Google accepts either a vague indicator (`€€`) or a concrete range; we publish
+ * the concrete one because it is verifiable against the packages page, which is
+ * what E-E-A-T rewards. Symbol-suffixed on both sides to match the es-ES
+ * convention of the business's own locale.
+ */
+export function getSchemaPriceRange(): string {
+	const { min, max } = getPriceRange();
+	return `${min}${CURRENCY_SYMBOL} - ${max}${CURRENCY_SYMBOL}`;
+}
+
+/**
+ * The packages featured in the homepage showcase, in display order.
+ *
+ * Kept here rather than in the i18n dictionary so the showcase can never list a
+ * price, name or capacity that disagrees with the package's own landing page.
+ */
+export const HOMEPAGE_SHOWCASE_SLUGS = ['eco', 'wedding', 'mice'] as const;
+
+/** Resolves {@link HOMEPAGE_SHOWCASE_SLUGS} to full package records. */
+export function getHomepageShowcasePackages(): EventPackage[] {
+	return HOMEPAGE_SHOWCASE_SLUGS.map((slug) => {
+		const pkg = getPackageBySlug(slug);
+		if (!pkg) throw new Error(`Homepage showcase references unknown package slug: ${slug}`);
+		return pkg;
+	});
+}
+
+/**
+ * One-line `Name (price)` label per package, for compact listings such as the
+ * HTML sitemap. Never hand-write these — see {@link formatPrice}.
+ */
+export function getPackageLabels(lang: 'en' | 'es' = 'en'): { pkg: EventPackage; label: string }[] {
+	return packages.map((pkg) => ({
+		pkg,
+		label: `${pkg.name} (${formatPrice(pkg.price, lang)})`
+	}));
+}
 
 /**
  * Category/keyword → package slug mapping table.

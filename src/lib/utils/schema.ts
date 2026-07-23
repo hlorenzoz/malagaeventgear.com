@@ -1,4 +1,5 @@
 import { siteConfig } from '../data/site';
+import { getSchemaPriceRange } from '../data/packages';
 import type { 
 	BaseLdContext, 
 	OrganizationSchema, 
@@ -23,7 +24,10 @@ export function buildLocalBusinessSchema(): Record<string, any> {
 		'image': siteConfig.logoUrl,
 		'telephone': siteConfig.contactPhone,
 		'email': siteConfig.contactEmail,
-		'priceRange': '€€',
+		// Derivado del catálogo (packages.ts), NO literal: antes este nodo publicaba
+		// el vago '€€' mientras /about-us/ publicaba '290€ - 650€' para el MISMO
+		// @id #organization — dos precios distintos para una sola entidad.
+		'priceRange': getSchemaPriceRange(),
 		'foundingDate': siteConfig.foundingYear.toString(),
 		// sameAs = perfiles oficiales que confirman la identidad de la entidad (Google guidelines).
 		'sameAs': [

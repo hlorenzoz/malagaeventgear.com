@@ -1,5 +1,19 @@
 import { z } from 'zod';
 import type { FaqPageSchema } from '$lib/types/seo';
+import { packages, formatPrice } from '$lib/data/packages';
+
+/**
+ * `Eco Pack (€290), Wedding Pack (€650), …` built from the catalog.
+ *
+ * Esta FAQ se publica también como JSON-LD `FAQPage`, así que un precio viejo acá
+ * llega directo a los resultados enriquecidos de Google. Ver AGENTS.md §7.
+ */
+function packagesWithPrices(lang: 'en' | 'es'): string {
+	const list = packages.map((pkg) => `${pkg.name} (${formatPrice(pkg.price, lang)})`);
+	const last = list.pop();
+	const conjunction = lang === 'es' ? 'y' : 'and';
+	return `${list.join(', ')}, ${conjunction} ${last}`;
+}
 
 // Localized string schema (reused pattern from packages.ts)
 const LocalizedTextSchema = z.object({
@@ -103,8 +117,8 @@ const faqData: FaqItem[] = [
 			es: '¿Cuáles son algunos de los paquetes populares de Malaga Event Gear?'
 		},
 		answer: {
-			en: 'Our most popular pre-designed packages include the Eco Pack (€290), Wedding Pack (€650), Product Presentation Pack (€310), Basic MICE Pack (€295), and MICE Pack (€490), each with different equipment and features. Visit our Pricing page for the full breakdown of what each one includes.',
-			es: 'Nuestros paquetes prediseñados más populares incluyen el Eco Pack (290 €), Wedding Pack (650 €), Product Presentation Pack (310 €), Basic MICE Pack (295 €) y MICE Pack (490 €), cada uno con distinto equipamiento y prestaciones. Visitá nuestra página de Precios para ver el detalle completo de lo que incluye cada uno.'
+			en: `Our most popular pre-designed packages include the ${packagesWithPrices('en')}, each with different equipment and features. Visit our Pricing page for the full breakdown of what each one includes.`,
+			es: `Nuestros paquetes prediseñados más populares incluyen el ${packagesWithPrices('es')}, cada uno con distinto equipamiento y prestaciones. Visitá nuestra página de Precios para ver el detalle completo de lo que incluye cada uno.`
 		}
 	},
 	{

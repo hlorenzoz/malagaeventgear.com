@@ -141,8 +141,24 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
 - **Prohibido el código inmediato:** Bajo ninguna circunstancia se debe saltar a escribir código directamente sin antes haber definido y aprobado las especificaciones técnicas pertinentes.
 
 ### 7. Almacenamiento Centralizado de Paquetes (Mandatorio)
-- **Estructura homogénea y validación:** Toda la información sobre paquetes de servicios (precios, inclusiones, opcionales, descripciones, y límites de invitados) debe almacenarse centralizadamente en `src/lib/data/packages.ts`, empleando esquemas de validación Zod.
-- **Prohibido duplicar datos:** Ningún componente o página debe harcodear o duplicar datos de paquetes; siempre se debe consultar este sistema de almacenamiento unificado.
+- **Estructura homogénea y validación:** Toda la información sobre paquetes de servicios (precios, inclusiones, opcionales, descripciones, límites de invitados e iconos de navegación) debe almacenarse centralizadamente en `src/lib/data/packages.ts`, empleando esquemas de validación Zod.
+- **Prohibido duplicar datos:** Ningún componente, página, endpoint, diccionario i18n, FAQ ni bloque JSON-LD debe harcodear o duplicar datos de paquetes; siempre se debe consultar este sistema de almacenamiento unificado. Esto incluye **cadenas de precio formateadas** (`'€290'`, `'290 €'`), **rangos** (`'290€ - 650€'`) y el **porcentaje de IVA**.
+- **API de precios (usar SIEMPRE, nunca literales):** `packages.ts` expone la capa derivada. No reimplementes ninguna de estas operaciones a mano:
+
+  | Necesidad | Helper |
+  | :--- | :--- |
+  | Precio formateado según idioma (`€290` en / `290 €` es) | `formatPrice(amount, lang)` |
+  | Precio mínimo / máximo del catálogo | `getPriceRange()` |
+  | Rango legible para UI | `formatPriceRange(lang)` |
+  | `priceRange` de schema.org LocalBusiness | `getSchemaPriceRange()` |
+  | Etiquetas `Nombre (precio)` para listados | `getPackageLabels(lang)` |
+  | Packs destacados de la home | `getHomepageShowcasePackages()` |
+  | Moneda / símbolo / IVA | `CURRENCY`, `CURRENCY_SYMBOL`, `VAT_RATE` |
+
+- **Un único nodo `#organization`:** el `priceRange` (y todo el NAP) se emite **solo** desde `buildLocalBusinessSchema()` en `src/lib/utils/schema.ts`, que lo deriva del catálogo. Las páginas que necesiten referirse a la empresa lo hacen **por `@id`** (`{'@id': '…/#organization'}`), nunca redefiniendo el nodo. Redefinirlo ya produjo dos verdades simultáneas (`'€€'` en `schema.ts` vs `'290€ - 650€'` en `/about-us/`, con direcciones distintas).
+- **Guard automático:** `src/lib/data/no-hardcoded-prices.test.ts` escanea todo `src/**` (excepto `src/content/**`, que es copy editorial) y **falla la suite** ante cualquier literal `€290` / `290 €` / `290 EUR`. Si tu cambio lo rompe, la solución es importar el helper — **no** ampliar el allowlist.
+
+**Excepción documentada — contenido editorial:** los posts del blog (`src/content/blog/*.svx`) y sus FAQs extraídas (`src/lib/data/post-faqs.json`) contienen precios orientativos históricos (`desde €290+`). Son prosa firmada con su propia fecha de publicación, no datos de catálogo, y quedan **fuera** del guard. Si cambian las tarifas, revisalos a mano.
 
 ### 8. Pruebas E2E Obligatorias (Mandatorio)
 - **Pruebas de integración:** Para cada nueva implementación, diseño, refactorización o adición de páginas, se deben crear o actualizar las pruebas E2E correspondientes (usando Playwright bajo la carpeta `tests/`) para asegurar la completa integridad, responsividad y correcto funcionamiento libre de regresiones.
