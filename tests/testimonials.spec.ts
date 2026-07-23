@@ -1,9 +1,14 @@
 import { test, expect } from '@playwright/test';
+import { revealLazyContent } from './support/lazy';
 
 test.describe('Testimonials Section (Google Reviews) E2E Tests', () => {
 	test.beforeEach(async ({ page }) => {
 		await page.goto('/');
 		await page.waitForLoadState('networkidle');
+		// The testimonials block is wrapped in LazyMount and only mounts once its
+		// placeholder scrolls near the viewport. Trip that observer before the tests
+		// assert on [data-testid="testimonials"], which otherwise never attaches.
+		await revealLazyContent(page);
 	});
 
 	test('should render the testimonials section below the fold on the home page', async ({ page }) => {
