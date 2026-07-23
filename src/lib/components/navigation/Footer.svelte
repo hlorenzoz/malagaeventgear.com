@@ -197,9 +197,25 @@
 
 		<!-- Bottom Row: Copyright & Socials -->
 		<div class="pt-8 border-t border-border-glass/50 flex flex-col md:flex-row justify-between items-center gap-4 text-center">
-			<span class="font-body-md text-body-md text-on-surface-variant text-sm">
-				© {new Date().getFullYear()} {i18n.t.nav.brand}. {i18n.lang === 'en' ? 'All rights reserved.' : 'Todos los derechos reservados.'}
-			</span>
+			<div class="flex flex-col items-center md:items-start gap-1">
+				<span class="font-body-md text-body-md text-on-surface-variant text-sm">
+					© {new Date().getFullYear()} {i18n.t.nav.brand}. {i18n.lang === 'en' ? 'All rights reserved.' : 'Todos los derechos reservados.'}
+				</span>
+				<span class="font-body-md text-body-md text-on-surface-variant text-sm">
+					Developed by
+					<a
+						class="text-on-surface underline underline-offset-4 hover:text-electric-blue transition-colors duration-200"
+						href="https://hlorenzoz.com/"
+						target="_blank"
+						rel="noopener"
+						title={i18n.lang === 'en'
+							? 'Lorenzoz Agency: web development agency and business solutions'
+							: 'Lorenzoz Agency: agencia de desarrollo web y soluciones para negocios'}
+					>
+						Lorenzoz Agency
+					</a>
+				</span>
+			</div>
 			<div class="flex items-center gap-4">
 				<a 
 					class="w-10 h-10 rounded-full glass-panel flex items-center justify-center text-primary hover:text-electric-blue hover:bg-white/10 active:scale-95 transition-all duration-300" 
