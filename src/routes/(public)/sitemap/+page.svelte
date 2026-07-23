@@ -2,8 +2,20 @@
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
 	import Icon from '$lib/components/navigation/Icon.svelte';
 	import { i18n } from '$lib/i18n.svelte';
+	import { packages, formatPrice } from '$lib/data/packages';
 
 	let { data } = $props();
+
+	// Nombres y precios derivados del catálogo (AGENTS.md §7). Estas dos listas
+	// hardcodeaban los 5 packs con su precio, duplicados en el bloque EN y en el ES:
+	// diez sitios donde un cambio de tarifa se olvidaba.
+	let packageLinks = $derived(
+		packages.map((pkg) => ({
+			href: pkg.route,
+			icon: pkg.navIcon,
+			label: `${pkg.name} (${formatPrice(pkg.price, i18n.lang)})`
+		}))
+	);
 
 	let sitemapSchema = $derived({
 		'@context': 'https://schema.org',
@@ -88,26 +100,12 @@
 						Event Packs
 					</h3>
 					<nav class="flex flex-col gap-3 font-body-md text-body-md text-on-surface-variant">
-						<a class="hover:text-electric-blue transition-colors flex items-center gap-2" href="/packages/eco/">
-							<Icon name="eco" size="18" />
-							Eco Pack (290 €)
-						</a>
-						<a class="hover:text-electric-blue transition-colors flex items-center gap-2" href="/packages/wedding/">
-							<Icon name="favorite" size="18" />
-							Wedding Pack (650 €)
-						</a>
-						<a class="hover:text-electric-blue transition-colors flex items-center gap-2" href="/packages/product-presentation/">
-							<Icon name="co_present" size="18" />
-							Product Presentation (310 €)
-						</a>
-						<a class="hover:text-electric-blue transition-colors flex items-center gap-2" href="/packages/basic-mice/">
-							<Icon name="groups" size="18" />
-							Basic MICE Pack (295 €)
-						</a>
-						<a class="hover:text-electric-blue transition-colors flex items-center gap-2" href="/packages/mice/">
-							<Icon name="corporate_fare" size="18" />
-							MICE Pack (490 €)
-						</a>
+						{#each packageLinks as link (link.href)}
+							<a class="hover:text-electric-blue transition-colors flex items-center gap-2" href={link.href}>
+								<Icon name={link.icon} size="18" />
+								{link.label}
+							</a>
+						{/each}
 					</nav>
 				</div>
 
@@ -198,26 +196,12 @@
 						Paquetes de Eventos
 					</h3>
 					<nav class="flex flex-col gap-3 font-body-md text-body-md text-on-surface-variant">
-						<a class="hover:text-electric-blue transition-colors flex items-center gap-2" href="/packages/eco/">
-							<Icon name="eco" size="18" />
-							Eco Pack (290 €)
-						</a>
-						<a class="hover:text-electric-blue transition-colors flex items-center gap-2" href="/packages/wedding/">
-							<Icon name="favorite" size="18" />
-							Wedding Pack (650 €)
-						</a>
-						<a class="hover:text-electric-blue transition-colors flex items-center gap-2" href="/packages/product-presentation/">
-							<Icon name="co_present" size="18" />
-							Product Presentation (310 €)
-						</a>
-						<a class="hover:text-electric-blue transition-colors flex items-center gap-2" href="/packages/basic-mice/">
-							<Icon name="groups" size="18" />
-							Basic MICE Pack (295 €)
-						</a>
-						<a class="hover:text-electric-blue transition-colors flex items-center gap-2" href="/packages/mice/">
-							<Icon name="corporate_fare" size="18" />
-							MICE Pack (490 €)
-						</a>
+						{#each packageLinks as link (link.href)}
+							<a class="hover:text-electric-blue transition-colors flex items-center gap-2" href={link.href}>
+								<Icon name={link.icon} size="18" />
+								{link.label}
+							</a>
+						{/each}
 					</nav>
 				</div>
 
