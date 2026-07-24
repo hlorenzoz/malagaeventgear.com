@@ -1,0 +1,132 @@
+/**
+ * Tests de site-map.ts.
+ *
+ * (1) Dientes del reverse silo: todos los posts reales (.svx) declaran metadata válida.
+ *     Reemplaza al viejo guard de scripts/site-graph — la validación sobrevive, la
+ *     comparación byte-a-byte del artefacto committeado ya no (el mapa deriva en vivo en /map).
+ * (2) View-model determinista y bien formado a partir de fixtures sintéticos.
+ */
+import { describe, it, expect } from 'vitest';
+import matter from 'gray-matter';
+import type { BlogPost, Category, Author } from '$lib/types/blog';
+import type { EventPackage } from '$lib/data/packages';
+import { validateSiloGraph, buildSiteMap } from './site-map';
+
+// Contenido real leído con import.meta.glob (?raw) — no node:fs (AGENTS.md §3). No podemos
+// importar $lib/data/blog en un unit test: arrastra el módulo virtual `virtual:blog-meta`.
+const rawPosts = import.meta.glob('../../content/blog/*.svx', {
+	query: '?raw',
+	import: 'default',
+	eager: true
+}) as Record<string, string>;
+
+const FIXTURES = new Set(['draft-post-test-fixture', 'future-post-test-fixture']);
+
+/** BlogPost mínimos (solo campos de silo + url) desde el frontmatter real de cada .svx. */
+function realPosts(): BlogPost[] {
+	const s = (v: unknown) => (v == null ? undefined : String(v));
+	return Object.entries(rawPosts)
+		.map(([path, src]) => ({ slug: path.split('/').pop()!.replace(/\.svx$/, ''), src }))
+		.filter(({ slug }) => !FIXTURES.has(slug))
+		.map(({ slug, src }) => {
+			const fm = matter(src).data as Record<string, unknown>;
+			return {
+				slug,
+				url: `/blog/${slug}/`,
+				siloRole: s(fm.siloRole),
+				targetPage: s(fm.targetPage),
+				keyword: s(fm.keyword)
+			} as BlogPost;
+		});
+}
+
+describe('validateSiloGraph', () => {
+	it('every non-fixture post declares valid reverse silo metadata', () => {
+		// Reemplaza al viejo guard de scripts/site-graph: los dientes de validación sobreviven;
+		// la comparación byte-a-byte del artefacto committeado ya no aplica (el mapa deriva en vivo).
+		expect(validateSiloGraph(realPosts())).toEqual([]);
+	});
+
+	it('flags a supporting post that points at the homepage instead of a pillar', () => {
+		const posts = [
+			{ slug: 'p', url: '/blog/p/', siloRole: 'supporting', targetPage: '/' }
+		] as BlogPost[];
+		expect(validateSiloGraph(posts)[0]).toContain('apunta al home');
+	});
+
+	it('flags a targetPage that resolves to no node', () => {
+		const posts = [
+			{ slug: 'p', url: '/blog/p/', siloRole: 'supporting', targetPage: '/blog/ghost/' }
+		] as BlogPost[];
+		expect(validateSiloGraph(posts)[0]).toContain('no resuelve');
+	});
+});
+
+// --- Fixtures sintéticos para el view-model --------------------------------
+
+function post(slug: string, siloRole: string, targetPage?: string, keyword?: string): BlogPost {
+	return { slug, url: `/blog/${slug}/`, siloRole, targetPage, keyword: keyword ?? slug } as BlogPost;
+}
+
+const FIXTURE_INPUT = {
+	posts: [
+		post('av-rental', 'pillar', '/', 'audio visual rental'),
+		post('av-conferences', 'supporting', '/blog/av-rental/', 'av for conferences'),
+		post('news-item', 'standalone')
+	],
+	packages: [
+		{ name: 'Eco Pack', route: '/packages/eco/', price: 290 },
+		{ name: 'Wedding Pack', route: '/packages/wedding/', price: 650 }
+	] as EventPackage[],
+	categories: [{ name: 'Weddings', slug: 'weddings', count: 3 }] as Category[],
+	authors: [{ name: 'Hector Lorenzo', slug: 'hector-lorenzo', count: 5 }] as Author[],
+	staticPages: ['', 'about-us', 'contact', 'privacy-policy', 'sitemap', 'packages', 'blog'] as const
+};
+
+describe('buildSiteMap', () => {
+	it('groups static pages into core / legal / utility (hubs excluded)', () => {
+		const v = buildSiteMap(FIXTURE_INPUT);
+		expect(v.corePages.map((p) => p.url)).toEqual(['/', '/about-us/', '/contact/']);
+		expect(v.legalPages.map((p) => p.url)).toEqual(['/privacy-policy/']);
+		expect(v.utilityPages.map((p) => p.url)).toEqual(['/sitemap/']);
+	});
+
+	it('funnels supporting posts under their pillar and separates standalone', () => {
+		const v = buildSiteMap(FIXTURE_INPUT);
+		expect(v.counts.pillars).toBe(1);
+		expect(v.counts.supporting).toBe(1);
+		expect(v.counts.standalone).toBe(1);
+		expect(v.silos[0].kids.map((k) => k.url)).toEqual(['/blog/av-conferences/']);
+		expect(v.standalone.map((s) => s.url)).toEqual(['/blog/news-item/']);
+	});
+
+	it('includes packages, categories and authors in the model', () => {
+		const v = buildSiteMap(FIXTURE_INPUT);
+		expect(v.packages.map((p) => p.url)).toEqual(['/packages/eco/', '/packages/wedding/']);
+		expect(v.categories[0].url).toBe('/blog/category/weddings/');
+		expect(v.authors[0].url).toBe('/blog/author/hector-lorenzo/');
+	});
+
+	it('emits a mermaid mindmap with root, pillar, a package and the blog branch', () => {
+		const { mermaid } = buildSiteMap(FIXTURE_INPUT);
+		expect(mermaid).toMatch(/^mindmap\n/);
+		expect(mermaid).toContain('root((MEG · malagaeventgear.com))');
+		expect(mermaid).toContain('audio visual rental · pillar');
+		expect(mermaid).toContain('Eco Pack');
+		expect(mermaid).toContain('Blog');
+	});
+
+	it('neutralises parentheses in node labels so mindmap shape syntax is not triggered', () => {
+		const input = {
+			...FIXTURE_INPUT,
+			posts: [post('p', 'standalone', undefined, 'gear (av) rental')]
+		};
+		const { mermaid } = buildSiteMap(input);
+		expect(mermaid).toContain('gear ·av· rental');
+		expect(mermaid).not.toContain('gear (av) rental');
+	});
+
+	it('is deterministic (pure function of its inputs)', () => {
+		expect(buildSiteMap(FIXTURE_INPUT).mermaid).toBe(buildSiteMap(FIXTURE_INPUT).mermaid);
+	});
+});

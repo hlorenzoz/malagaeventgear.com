@@ -258,7 +258,8 @@ async function main(): Promise<void> {
 	console.log('     y targetPage. Dejalo en standalone solo si NO pertenece a ningún silo.');
 	console.log('  3. Escribí el contenido del post.');
 	console.log('  4. Cuando esté listo, cambiá "draft: true" a "draft: false".');
-	console.log('  5. Regenerá el mapa del sitio: just site-map (el guard lo verifica).');
+	console.log('  5. El mapa del sitio se ve en /map (deriva en vivo); la suite valida la');
+	console.log('     metadata de silo (src/lib/data/site-map.test.ts).');
 	console.log(
 		`  6. Para actualizar la fecha de modificación: bun scripts/post-touch.ts ${slug}\n`
 	);

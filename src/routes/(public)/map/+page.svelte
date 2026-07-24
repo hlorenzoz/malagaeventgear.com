@@ -1,0 +1,347 @@
+<script lang="ts">
+	import { onMount } from 'svelte';
+	import SeoHead from '$lib/components/seo/SeoHead.svelte';
+	import { i18n } from '$lib/i18n.svelte';
+
+	let { data } = $props();
+	const view = $derived(data.view);
+
+	// --- Filtro en vivo sobre todos los nodos con enlace ---
+	let query = $state('');
+	let q = $derived(query.trim().toLowerCase());
+	const match = (s: string) => !q || s.toLowerCase().includes(q);
+
+	let filteredSilos = $derived(
+		view.silos.map((s) => ({ ...s, kids: s.kids.filter((k) => match(k.key)) }))
+	);
+	let filteredStandalone = $derived(view.standalone.filter((p) => match(p.key)));
+	let filteredPackages = $derived(view.packages.filter((p) => match(p.name)));
+	let filteredCore = $derived(view.corePages.filter((p) => match(p.label)));
+	let filteredLegal = $derived(view.legalPages.filter((p) => match(p.label)));
+	let filteredCategories = $derived(view.categories.filter((c) => match(c.name)));
+	let filteredAuthors = $derived(view.authors.filter((a) => match(a.name)));
+
+	let shownCount = $derived(
+		filteredSilos.reduce((n, s) => n + s.kids.length, 0) +
+			filteredStandalone.length +
+			filteredPackages.length +
+			filteredCore.length +
+			filteredLegal.length +
+			view.utilityPages.filter((p) => match(p.label)).length +
+			filteredCategories.length +
+			filteredAuthors.length
+	);
+
+	// --- Mindmap Mermaid (carga diferida, sólo en esta ruta) ---
+	let graphEl: HTMLDivElement;
+	let graphState = $state<'loading' | 'ready' | 'error'>('loading');
+	let renderSeq = 0;
+
+	let copied = $state(false);
+	async function copySource() {
+		try {
+			await navigator.clipboard.writeText(view.mermaid);
+			copied = true;
+			setTimeout(() => (copied = false), 1600);
+		} catch {
+			copied = false;
+		}
+	}
+
+	onMount(() => {
+		let cancelled = false;
+
+		async function render() {
+			graphState = 'loading';
+			try {
+				const mermaid = (await import('mermaid')).default;
+				const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+				mermaid.initialize({
+					startOnLoad: false,
+					theme: isLight ? 'default' : 'dark',
+					securityLevel: 'strict',
+					fontFamily: 'inherit'
+				});
+				const id = `site-mindmap-${++renderSeq}`;
+				const { svg } = await mermaid.render(id, view.mermaid);
+				if (cancelled || !graphEl) return;
+				graphEl.innerHTML = svg;
+				graphState = 'ready';
+			} catch {
+				if (!cancelled) graphState = 'error';
+			}
+		}
+
+		render();
+
+		// Re-render cuando el usuario cambia el tema (data-theme en <html>).
+		const observer = new MutationObserver((muts) => {
+			if (muts.some((m) => m.attributeName === 'data-theme')) render();
+		});
+		observer.observe(document.documentElement, { attributes: true });
+
+		return () => {
+			cancelled = true;
+			observer.disconnect();
+		};
+	});
+
+	const title =
+		i18n.lang === 'es'
+			? 'Mapa del Sitio (grafo) - Malaga Event Gear'
+			: 'Site Map (graph) - Malaga Event Gear';
+	const description =
+		i18n.lang === 'es'
+			? 'Mapa interno del sitio completo de Malaga Event Gear: páginas, paquetes y el reverse silo del blog como mindmap.'
+			: 'Internal full site map of Malaga Event Gear: pages, packages and the blog reverse silo as a mindmap.';
+</script>
+
+<SeoHead {title} {description} canonicalUrl="https://malagaeventgear.com/map/" noindex={true} />
+
+<div class="map">
+	<header class="hero">
+		<p class="eyebrow">Reverse silo · internal linking</p>
+		<h1>Site map</h1>
+		<p class="lede">
+			The whole site as one graph — static pages, package catalogue and the blog reverse silo,
+			derived live from content. Supporting posts funnel down to their pillar; each pillar links up
+			to the homepage. Internal tool: excluded from sitemaps and set to <code>noindex</code>.
+		</p>
+	</header>
+
+	<section class="stats" aria-label="Summary">
+		<div class="stat"><span class="rail rl-blue"></span><div class="n">{view.counts.pages}</div><div class="l">Pages</div></div>
+		<div class="stat"><span class="rail rl-blue"></span><div class="n">{view.counts.packages}</div><div class="l">Packages</div></div>
+		<div class="stat"><span class="rail rl-support"></span><div class="n">{view.counts.posts}</div><div class="l">Posts</div></div>
+		<div class="stat"><span class="rail rl-blue"></span><div class="n">{view.counts.pillars}</div><div class="l">Pillars</div></div>
+		<div class="stat"><span class="rail rl-support"></span><div class="n">{view.counts.supporting}</div><div class="l">Supporting</div></div>
+		<div class="stat"><span class="rail rl-standalone"></span><div class="n">{view.counts.standalone}</div><div class="l">Standalone</div></div>
+		<div class="stat"><span class="rail rl-line"></span><div class="n">{view.counts.total}</div><div class="l">Total nodes</div></div>
+	</section>
+
+	<!-- El grafo: mindmap Mermaid -->
+	<section class="graph-panel" aria-label="Site mindmap">
+		<div class="graph-head">
+			<span class="dot"></span><b>Full site mindmap</b>
+			<span class="g-tag">mermaid · mindmap</span>
+		</div>
+		<div class="graph-scroll">
+			{#if graphState === 'loading'}
+				<p class="graph-msg">Rendering diagram…</p>
+			{:else if graphState === 'error'}
+				<p class="graph-msg">Couldn’t render the diagram — the source is available below.</p>
+			{/if}
+			<div class="mermaid-out" bind:this={graphEl} class:hidden={graphState !== 'ready'}></div>
+		</div>
+	</section>
+
+	<div class="toolbar">
+		<div class="search">
+			<svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg>
+			<input type="search" placeholder="Filter every node by name…" bind:value={query} aria-label="Filter nodes" />
+		</div>
+		<span class="count-tag">{shownCount} shown</span>
+	</div>
+
+	<!-- Blog reverse silo -->
+	<section class="silos">
+		{#each filteredSilos as silo (silo.url)}
+			<div class="silo">
+				<div class="pillar-head">
+					<span class="pillar-tag"><span class="dot"></span>Pillar · target page</span>
+					<h2><a href={silo.url}>{silo.key}</a></h2>
+					<div class="pillar-meta">
+						<span class="up">↑ links to /</span> · <span class="mono">{silo.kids.length} shown</span>
+						{#if silo.updated} · updated {silo.updated}{/if}
+					</div>
+				</div>
+				<ul class="kids">
+					{#each silo.kids as kid (kid.url)}
+						<li><a href={kid.url}><span class="k-dot support"></span><span class="k-key">{kid.key}</span>{#if kid.updated}<span class="k-date">{kid.updated}</span>{:else}<span class="k-date stale">— never</span>{/if}</a></li>
+					{/each}
+					{#if silo.kids.length === 0}<li class="empty">No matches</li>{/if}
+				</ul>
+			</div>
+		{/each}
+	</section>
+
+	<!-- Pages + Packages -->
+	<div class="cols">
+		<section class="card">
+			<div class="card-head"><span class="dot blue"></span><h2>Site pages</h2></div>
+			<ul class="flat">
+				{#each filteredCore as p (p.url)}
+					<li><a href={p.url}><span class="k-dot blue"></span>{p.label}</a></li>
+				{/each}
+			</ul>
+			{#if filteredLegal.length}
+				<div class="sub-head">Legal</div>
+				<ul class="flat">
+					{#each filteredLegal as p (p.url)}
+						<li><a href={p.url}><span class="k-dot blue"></span>{p.label}</a></li>
+					{/each}
+				</ul>
+			{/if}
+		</section>
+
+		<section class="card">
+			<div class="card-head"><span class="dot blue"></span><h2>Packages</h2></div>
+			<ul class="flat">
+				{#each filteredPackages as pk (pk.url)}
+					<li><a href={pk.url}><span class="k-dot blue"></span><span class="k-key">{pk.name}</span><span class="k-date">€{pk.price}</span></a></li>
+				{/each}
+			</ul>
+		</section>
+	</div>
+
+	<!-- Standalone + taxonomías -->
+	<div class="cols">
+		<section class="card">
+			<div class="card-head"><span class="dot standalone"></span><h2>Standalone</h2><span class="sub">not in any silo</span></div>
+			<ul class="flat">
+				{#each filteredStandalone as p (p.url)}
+					<li><a href={p.url}><span class="k-dot standalone"></span>{p.key}</a></li>
+				{/each}
+			</ul>
+		</section>
+
+		<section class="card">
+			<div class="card-head"><span class="dot support"></span><h2>Taxonomies</h2></div>
+			{#if filteredCategories.length}
+				<div class="sub-head">Categories</div>
+				<ul class="flat">
+					{#each filteredCategories as c (c.url)}
+						<li><a href={c.url}><span class="k-dot support"></span><span class="k-key">{c.name}</span><span class="k-date">{c.count}</span></a></li>
+					{/each}
+				</ul>
+			{/if}
+			{#if filteredAuthors.length}
+				<div class="sub-head">Authors</div>
+				<ul class="flat">
+					{#each filteredAuthors as a (a.url)}
+						<li><a href={a.url}><span class="k-dot support"></span><span class="k-key">{a.name}</span><span class="k-date">{a.count}</span></a></li>
+					{/each}
+				</ul>
+			{/if}
+		</section>
+	</div>
+
+	<details class="source">
+		<summary>Mermaid source <span class="g-tag">paste into mermaid.live</span> <span class="chev">›</span></summary>
+		<div class="source-body">
+			<button class="copy" onclick={copySource}>{copied ? 'Copied ✓' : 'Copy'}</button>
+			<pre>{view.mermaid}</pre>
+		</div>
+	</details>
+
+	<footer>Derived live from post frontmatter + the package catalogue · malagaeventgear.com</footer>
+</div>
+
+<style>
+	.map {
+		--blue: var(--electric-blue, #4d8cff);
+		--blue-strong: var(--electric-blue-strong, #2563eb);
+		--ink: var(--on-surface, #e6e7ea);
+		--ink-dim: var(--on-surface-variant, #a8adb2);
+		--ink-faint: var(--outline, #6f7479);
+		--panel: var(--surface-container, #1a1d1d);
+		--panel-2: var(--surface-container-high, #23272a);
+		--line: var(--outline-variant, #2c3030);
+		--support: #8fb3c9;
+		--standalone: #d6b072;
+		--support-bg: color-mix(in srgb, var(--support) 16%, transparent);
+		--standalone-bg: color-mix(in srgb, var(--standalone) 16%, transparent);
+
+		max-width: 1120px;
+		margin: 0 auto;
+		padding: 48px 20px 80px;
+		color: var(--ink);
+		font-family: inherit;
+	}
+	:global([data-theme='light']) .map {
+		--support: #3d6f88;
+		--standalone: #9a6f28;
+	}
+
+	.mono { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; }
+	code { font-family: ui-monospace, monospace; font-size: 0.86em; background: var(--panel-2); border: 1px solid var(--line); padding: 1px 6px; border-radius: 5px; }
+
+	.eyebrow { font-family: ui-monospace, monospace; font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--blue); margin: 0 0 10px; display: flex; align-items: center; gap: 10px; }
+	.eyebrow::before { content: ''; width: 26px; height: 1px; background: var(--blue); }
+	h1 { font-size: clamp(30px, 5vw, 44px); margin: 0 0 12px; letter-spacing: -0.02em; text-wrap: balance; }
+	.lede { color: var(--ink-dim); max-width: 66ch; margin: 0; font-size: 15.5px; line-height: 1.55; }
+
+	.stats { display: grid; grid-template-columns: repeat(7, 1fr); gap: 10px; margin: 34px 0 26px; }
+	.stat { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 14px 12px; position: relative; overflow: hidden; }
+	.stat .n { font-size: 30px; font-weight: 640; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; line-height: 1; }
+	.stat .l { font-size: 11px; color: var(--ink-dim); margin-top: 6px; letter-spacing: 0.04em; text-transform: uppercase; }
+	.rail { position: absolute; left: 0; top: 0; bottom: 0; width: 3px; }
+	.rl-blue { background: var(--blue); } .rl-support { background: var(--support); } .rl-standalone { background: var(--standalone); } .rl-line { background: var(--line); }
+
+	.graph-panel, .card, .silo, .source { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+	.graph-panel { margin-bottom: 26px; }
+	.graph-head { padding: 15px 18px; display: flex; align-items: center; gap: 10px; border-bottom: 1px solid var(--line); font-size: 14px; }
+	.graph-head .g-tag { margin-left: auto; }
+	.g-tag { font-family: ui-monospace, monospace; font-size: 11px; color: var(--ink-faint); }
+	.graph-scroll { overflow: auto; max-height: 560px; padding: 14px; }
+	.graph-msg { color: var(--ink-dim); font-size: 14px; padding: 28px; text-align: center; }
+	.mermaid-out { display: flex; justify-content: center; min-width: 640px; }
+	.mermaid-out.hidden { display: none; }
+	.mermaid-out :global(svg) { max-width: none; height: auto; }
+
+	.toolbar { display: flex; gap: 12px; align-items: center; margin: 6px 0 16px; flex-wrap: wrap; }
+	.search { flex: 1; min-width: 220px; position: relative; }
+	.search input { width: 100%; background: var(--panel); border: 1px solid var(--line); color: var(--ink); border-radius: 10px; padding: 11px 12px 11px 38px; font-size: 14px; font-family: inherit; outline: none; }
+	.search input:focus-visible { border-color: var(--blue); box-shadow: 0 0 0 3px color-mix(in srgb, var(--blue) 24%, transparent); }
+	.search svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; stroke: var(--ink-faint); }
+	.count-tag { font-family: ui-monospace, monospace; font-size: 13px; color: var(--ink-dim); white-space: nowrap; }
+
+	.silos { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 26px; }
+	.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 26px; }
+
+	.pillar-head { padding: 16px 18px 14px; border-bottom: 1px dashed var(--line); background: linear-gradient(180deg, color-mix(in srgb, var(--blue) 9%, transparent), transparent); }
+	.pillar-tag { font-family: ui-monospace, monospace; font-size: 11px; letter-spacing: 0.13em; text-transform: uppercase; color: var(--blue); display: inline-flex; align-items: center; gap: 7px; }
+	.pillar-head h2 { margin: 8px 0 4px; font-size: 19px; }
+	.pillar-head h2 a { color: var(--ink); text-decoration: none; }
+	.pillar-head h2 a:hover { color: var(--blue); }
+	.pillar-meta { font-size: 12.5px; color: var(--ink-dim); font-family: ui-monospace, monospace; }
+	.pillar-meta .up { color: var(--blue); }
+
+	.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--blue); flex: none; }
+	.dot.support { background: var(--support); } .dot.standalone { background: var(--standalone); } .dot.blue { background: var(--blue); }
+
+	.card-head { padding: 15px 18px; display: flex; align-items: center; gap: 10px; border-bottom: 1px dashed var(--line); }
+	.card-head h2 { margin: 0; font-size: 16px; }
+	.card-head .sub { margin-left: auto; font-size: 12px; color: var(--ink-dim); font-family: ui-monospace, monospace; }
+	.sub-head { padding: 10px 18px 2px; font-family: ui-monospace, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faint); }
+
+	ul.kids, ul.flat { list-style: none; margin: 0; padding: 8px; display: flex; flex-direction: column; gap: 2px; }
+	ul.kids { max-height: 520px; overflow-y: auto; }
+	.kids a, .flat a { display: flex; align-items: center; gap: 10px; padding: 8px 10px; text-decoration: none; color: var(--ink); border-radius: 8px; font-size: 13.5px; }
+	.kids a:hover { background: var(--support-bg); }
+	.flat a:hover { background: color-mix(in srgb, var(--blue) 12%, transparent); }
+	.k-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--support); flex: none; }
+	.k-dot.blue { background: var(--blue); } .k-dot.standalone { background: var(--standalone); } .k-dot.support { background: var(--support); }
+	.k-key { flex: 1; } a > :not(.k-dot):not(.k-key):not(.k-date) { flex: 1; }
+	.k-date { font-family: ui-monospace, monospace; font-size: 11px; color: var(--ink-faint); }
+	.k-date.stale { color: var(--standalone); }
+	.empty { padding: 10px; color: var(--ink-faint); font-size: 13px; font-style: italic; }
+
+	.source { margin-top: 8px; }
+	.source > summary { list-style: none; cursor: pointer; padding: 15px 18px; display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 550; }
+	.source > summary::-webkit-details-marker { display: none; }
+	.source .chev { margin-left: auto; transition: transform 0.2s ease; color: var(--ink-faint); }
+	.source[open] .chev { transform: rotate(90deg); }
+	.source-body { position: relative; border-top: 1px solid var(--line); }
+	.source-body pre { margin: 0; padding: 16px 18px; overflow-x: auto; font-family: ui-monospace, monospace; font-size: 12.5px; line-height: 1.5; color: var(--ink-dim); }
+	.copy { position: absolute; top: 12px; right: 12px; background: var(--panel-2); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 6px 12px; font-size: 12px; cursor: pointer; font-family: ui-monospace, monospace; }
+	.copy:hover { border-color: var(--blue); }
+
+	footer { margin-top: 30px; text-align: center; font-size: 12px; color: var(--ink-faint); font-family: ui-monospace, monospace; }
+
+	@media (max-width: 820px) {
+		.stats { grid-template-columns: repeat(3, 1fr); }
+		.silos, .cols { grid-template-columns: 1fr; }
+	}
+	@media (prefers-reduced-motion: reduce) { .source .chev { transition: none; } }
+</style>
