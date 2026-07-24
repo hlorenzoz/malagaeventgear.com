@@ -1,42 +1,32 @@
 import type { RequestHandler } from './$types';
 import { packages } from '$lib/data/packages';
+import { toLastmod, STATIC_SITEMAP_PAGES, getStaticPageFreshness } from '$lib/utils/sitemap';
 
 export const GET: RequestHandler = async () => {
-	const staticPages = [
-		'',
-		'about-us',
-		'contact',
-		'faq',
-		'privacy-policy',
-		'terms-of-service',
-		'gdpr',
-		'cookie-policy',
-		'meet-the-team',
-		'sitemap',
-		'equipment',
-		'packages',
-		'blog',
-		'blog/categories'
-	];
-
 	// Base URL of the website
 	const baseUrl = 'https://malagaeventgear.com';
 
-	const pagesXml = staticPages
-		.map((page) => {
-			const loc = `${baseUrl}/${page}${page ? '/' : ''}`;
-			return `	<url>
-		<loc>${loc}</loc>
-		<lastmod>${new Date().toISOString().split('T')[0]}T00:00:00+00:00</lastmod>
+	// <lastmod> comes from each page's colocated meta.ts (getStaticPageFreshness),
+	// never from `new Date()`. A build timestamp teaches crawlers the field is
+	// meaningless (AGENTS.md, regla de frescura). The freshness guard
+	// (src/lib/data/sitemap-freshness.test.ts) fails the suite if a route lacks its date.
+	const freshness = getStaticPageFreshness();
+
+	const pagesXml = STATIC_SITEMAP_PAGES.map((page) => {
+		const loc = `${baseUrl}/${page}${page ? '/' : ''}`;
+		const updated = freshness.get(page);
+		// Omit <lastmod> rather than emit a fake date if a meta.ts is ever missing.
+		const lastmodBlock = updated ? `\n		<lastmod>${toLastmod(updated)}</lastmod>` : '';
+		return `	<url>
+		<loc>${loc}</loc>${lastmodBlock}
 	</url>`;
-		})
-		.join('\n');
+	}).join('\n');
 
 	const packagesXml = packages
 		.map((pkg) => {
 			const loc = `${baseUrl}${pkg.route}`;
 			// image:loc MUST be an absolute URL (sitemap protocol). pkg.image is a
-			// site-relative path (e.g. /images/packages/eco.webp), so prefix baseUrl —
+			// site-relative path (e.g. /images/packages/eco.webp), so prefix baseUrl -
 			// otherwise GSC reports "URL no válida" on every package image.
 			const imageBlock = pkg.image
 				? `\n		<image:image>
@@ -46,7 +36,7 @@ export const GET: RequestHandler = async () => {
 
 			return `	<url>
 		<loc>${loc}</loc>
-		<lastmod>${new Date().toISOString().split('T')[0]}T00:00:00+00:00</lastmod>${imageBlock}
+		<lastmod>${toLastmod(pkg.updated)}</lastmod>${imageBlock}
 	</url>`;
 		})
 		.join('\n');

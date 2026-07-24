@@ -12,7 +12,7 @@ const LocalizedListSchema = z.object({
 	es: z.array(z.string())
 });
 
-// Per-package landing page copy — every piece of bespoke, localized presentational
+// Per-package landing page copy - every piece of bespoke, localized presentational
 // content lives here so the single dynamic /packages/[slug] route stays data-driven
 // while preserving full SEO/content parity with the original standalone pages.
 const LandingSchema = z.object({
@@ -48,6 +48,12 @@ export const PackageSchema = z.object({
 	id: z.string(),
 	slug: z.string(),
 	route: z.string(),
+	/**
+	 * Fecha del ultimo cambio de contenido del paquete (YYYY-MM-DD). Alimenta el
+	 * <lastmod> de /packages/[slug]/ en page-sitemap.xml. Regla de frescura (AGENTS.md):
+	 * se bumpea solo ante un cambio real (precio, inclusiones, copy), nunca por build.
+	 */
+	updated: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'updated debe ser YYYY-MM-DD'),
 	name: z.string(),
 	price: z.number(), // in EUR (excluding VAT)
 	desc: LocalizedTextSchema,
@@ -79,6 +85,7 @@ const packagesData: EventPackage[] = [
 		id: 'eco',
 		slug: 'eco',
 		route: '/packages/eco/',
+		updated: '2026-05-31',
 		navIcon: 'eco',
 		name: 'Eco Pack',
 		price: 290,
@@ -126,8 +133,8 @@ const packagesData: EventPackage[] = [
 			badge: { en: 'Small Events & Parties', es: 'Eventos Pequeños y Fiestas' },
 			rateLabel: { en: 'Affordable All-Inclusive Rate', es: 'Tarifa Todo Incluido Asequible' },
 			vatNote: {
-				en: '(+21% VAT) — Setup & transport included',
-				es: '(+21% IVA) — Montaje y transporte incluidos'
+				en: '(+21% VAT) - Setup & transport included',
+				es: '(+21% IVA) - Montaje y transporte incluidos'
 			},
 			specIcon: 'group',
 			specTitle: { en: 'Up to 50 Guests', es: 'Hasta 50 Personas' },
@@ -154,6 +161,7 @@ const packagesData: EventPackage[] = [
 		id: 'wedding',
 		slug: 'wedding',
 		route: '/packages/wedding/',
+		updated: '2026-05-31',
 		navIcon: 'favorite',
 		name: 'Wedding Pack',
 		price: 650,
@@ -202,8 +210,8 @@ const packagesData: EventPackage[] = [
 			},
 			rateLabel: { en: 'Premium All-Inclusive Rate', es: 'Tarifa Todo Incluido Premium' },
 			vatNote: {
-				en: '(+21% VAT) — Setup & live support included',
-				es: '(+21% IVA) — Montaje y técnico incluidos'
+				en: '(+21% VAT) - Setup & live support included',
+				es: '(+21% IVA) - Montaje y técnico incluidos'
 			},
 			specIcon: 'group',
 			specTitle: { en: 'Up to 80 Guests', es: 'Hasta 80 Personas' },
@@ -230,6 +238,7 @@ const packagesData: EventPackage[] = [
 		id: 'presentation',
 		slug: 'product-presentation',
 		route: '/packages/product-presentation/',
+		updated: '2026-05-31',
 		navIcon: 'co_present',
 		name: 'Product Presentation Pack',
 		price: 310,
@@ -271,8 +280,8 @@ const packagesData: EventPackage[] = [
 			},
 			rateLabel: { en: 'Presentation Pack Flat Rate', es: 'Tarifa Plana de Pack Lanzamientos' },
 			vatNote: {
-				en: '(+21% VAT) — Laser projector & screen included',
-				es: '(+21% IVA) — Proyector láser y pantalla incluidos'
+				en: '(+21% VAT) - Laser projector & screen included',
+				es: '(+21% IVA) - Proyector láser y pantalla incluidos'
 			},
 			specIcon: 'videocam',
 			specTitle: { en: 'High-Brightness Laser', es: 'Láser de Alto Brillo' },
@@ -305,6 +314,7 @@ const packagesData: EventPackage[] = [
 		id: 'mice-basic',
 		slug: 'basic-mice',
 		route: '/packages/basic-mice/',
+		updated: '2026-05-31',
 		navIcon: 'groups',
 		name: 'Basic MICE Pack',
 		price: 295,
@@ -352,8 +362,8 @@ const packagesData: EventPackage[] = [
 			},
 			rateLabel: { en: 'Corporate Meeting Flat Rate', es: 'Tarifa Plana de Reuniones Corporativas' },
 			vatNote: {
-				en: '(+21% VAT) — Setup & transport included',
-				es: '(+21% IVA) — Montaje y transporte incluidos'
+				en: '(+21% VAT) - Setup & transport included',
+				es: '(+21% IVA) - Montaje y transporte incluidos'
 			},
 			specIcon: 'group',
 			specTitle: { en: 'Up to 40 Guests', es: 'Hasta 40 Personas' },
@@ -380,6 +390,7 @@ const packagesData: EventPackage[] = [
 		id: 'mice-full',
 		slug: 'mice',
 		route: '/packages/mice/',
+		updated: '2026-05-31',
 		navIcon: 'corporate_fare',
 		name: 'MICE Pack',
 		price: 490,
@@ -437,8 +448,8 @@ const packagesData: EventPackage[] = [
 			},
 			rateLabel: { en: 'All-Inclusive Corporate Rate', es: 'Tarifa Corporativa Todo Incluido' },
 			vatNote: {
-				en: '(+21% VAT) — LED display, sound & live technician included',
-				es: '(+21% IVA) — Pantalla LED, sonido y técnico en directo incluidos'
+				en: '(+21% VAT) - LED display, sound & live technician included',
+				es: '(+21% IVA) - Pantalla LED, sonido y técnico en directo incluidos'
 			},
 			specIcon: 'connected_tv',
 			specTitle: { en: '60-inch LED Display', es: 'Pantalla LED de 60 Pulgadas' },
@@ -479,7 +490,7 @@ export const getPackageBySlug = (slug: string): EventPackage | undefined => {
 };
 
 /* -------------------------------------------------------------------------- */
-/* Pricing — Single Source of Truth (AGENTS.md §7)                            */
+/* Pricing - Single Source of Truth (AGENTS.md §7)                            */
 /* -------------------------------------------------------------------------- */
 
 /** ISO 4217 currency every package price is denominated in. */
@@ -495,7 +506,7 @@ export const VAT_RATE = 0.21;
  * Formats a package price using the locale's own currency convention:
  * English puts the symbol first (`€290`), Spanish puts it last (`290 €`).
  *
- * Every price string rendered anywhere on the site MUST come from here — a
+ * Every price string rendered anywhere on the site MUST come from here - a
  * literal like `'€290'` in a component silently outlives the next price change.
  */
 export function formatPrice(amount: number, lang: 'en' | 'es' = 'en'): string {
@@ -546,7 +557,7 @@ export function getHomepageShowcasePackages(): EventPackage[] {
 
 /**
  * One-line `Name (price)` label per package, for compact listings such as the
- * HTML sitemap. Never hand-write these — see {@link formatPrice}.
+ * HTML sitemap. Never hand-write these - see {@link formatPrice}.
  */
 export function getPackageLabels(lang: 'en' | 'es' = 'en'): { pkg: EventPackage; label: string }[] {
 	return packages.map((pkg) => ({
@@ -614,7 +625,7 @@ const PACKAGE_RULES: {
 		keywordPatterns: [/\bconcert\b/i],
 		slug: 'eco'
 	},
-	// Corporate / MICE / Events / Conferences / Meetings — catch-all amplio para el
+	// Corporate / MICE / Events / Conferences / Meetings - catch-all amplio para el
 	// resto de eventos genéricos (el sitio viejo los mandaba a /pricing/).
 	{
 		categoryPatterns: [/\bcorporate\b/i, /\bmice\b/i, /\bevent/i, /\bconference/i, /\bmeeting/i],
@@ -642,7 +653,7 @@ export function resolvePackageForPost(post: {
 	isNews?: boolean;
 }): EventPackage {
 	for (const rule of PACKAGE_RULES) {
-		// Check slug first — it's the cleanest single-topic signal, so a specific
+		// Check slug first - it's the cleanest single-topic signal, so a specific
 		// slug (e.g. ".../seminars") wins over the broad category catch-all below.
 		if (rule.slugPatterns && post.slug) {
 			const matched = rule.slugPatterns.some((pattern) => pattern.test(post.slug!));
@@ -683,7 +694,7 @@ export function resolvePackageForPost(post: {
 /**
  * Per-package relevance signals (mirror PACKAGE_RULES, but one entry per package so each
  * can be scored independently). Used by getPackagesForPost to rank the rail by relevance.
- * `slug` mirrors PACKAGE_RULES.slugPatterns — the cleanest single-topic signal, so it
+ * `slug` mirrors PACKAGE_RULES.slugPatterns - the cleanest single-topic signal, so it
  * carries the highest weight in scorePackage and keeps the rail consistent with the CTA.
  */
 const PACKAGE_SIGNALS: Record<string, { slug: RegExp[]; category: RegExp[]; keyword: RegExp[] }> = {
@@ -693,7 +704,7 @@ const PACKAGE_SIGNALS: Record<string, { slug: RegExp[]; category: RegExp[]; keyw
 		keyword: [/\bwedding\b/i, /\bbride/i, /\bceremony\b/i, /\breception\b/i]
 	},
 	'basic-mice': {
-		// No slug rule in PACKAGE_RULES — basic-mice is the broad category catch-all.
+		// No slug rule in PACKAGE_RULES - basic-mice is the broad category catch-all.
 		slug: [],
 		category: [/\bcorporate\b/i, /\bmice\b/i, /\bevent/i, /\bconference/i, /\bmeeting/i],
 		keyword: [/\bcorporate\b/i, /\bconference/i, /\bmeeting/i, /\bseminar/i, /\bmice\b/i]
@@ -740,8 +751,8 @@ function scorePackage(
 
 /**
  * Returns ALL packages ordered by relevance to the post:
- * the resolved (most relevant) package first — matching resolvePackageForPost so the rail
- * stays consistent with the PostCTA — then the rest sorted by relevance score (desc),
+ * the resolved (most relevant) package first - matching resolvePackageForPost so the rail
+ * stays consistent with the PostCTA - then the rest sorted by relevance score (desc),
  * with catalog order as a stable tiebreaker.
  *
  * @param post - A BlogPost (or minimal subset with categories, tags, title)
