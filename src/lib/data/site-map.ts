@@ -156,6 +156,18 @@ function byUrl<T extends { url: string }>(a: T, b: T): number {
 	return a.url.localeCompare(b.url);
 }
 
+/**
+ * Ordena los hijos de un silo por frescura: los que nunca se actualizaron
+ * (sin `updated`) van primero; el resto asciende por fecha, así lo más
+ * reciente queda al final. Empates: por URL, para un orden estable.
+ */
+function byUpdatedAsc<T extends { url: string; updated?: string }>(a: T, b: T): number {
+	if (!a.updated && !b.updated) return byUrl(a, b);
+	if (!a.updated) return -1;
+	if (!b.updated) return 1;
+	return a.updated.localeCompare(b.updated) || byUrl(a, b);
+}
+
 function buildSilos(posts: BlogPost[]): { silos: SiloNode[]; standalone: SiloChild[] } {
 	const pillars = posts
 		.filter((p) => p.siloRole === 'pillar' || p.siloRole === 'both')
@@ -164,8 +176,8 @@ function buildSilos(posts: BlogPost[]): { silos: SiloNode[]; standalone: SiloChi
 	const silos: SiloNode[] = pillars.map((pillar) => {
 		const kids = posts
 			.filter((p) => p.targetPage === pillar.url)
-			.sort(byUrl)
-			.map((k) => ({ key: k.keyword || k.slug, url: k.url, updated: k.updatedDate }));
+			.map((k) => ({ key: k.keyword || k.slug, url: k.url, updated: k.updatedDate }))
+			.sort(byUpdatedAsc);
 		return { key: pillar.keyword || pillar.slug, url: pillar.url, updated: pillar.updatedDate, kids };
 	});
 
