@@ -27,11 +27,11 @@ Contenido del post aquí.
 describe('setUpdatedField', () => {
 	it('inserts updated after publishDate when not present', () => {
 		const result = setUpdatedField(baseSvx, '2026-06-07');
-		expect(result).toContain('updated: "2026-06-07"');
+		expect(result).toContain('updatedDate: "2026-06-07"');
 		// Should appear right after publishDate line
 		const lines = result.split('\n');
 		const pubIdx = lines.findIndex((l) => l.startsWith('publishDate:'));
-		const updatedIdx = lines.findIndex((l) => l.startsWith('updated:'));
+		const updatedIdx = lines.findIndex((l) => l.startsWith('updatedDate:'));
 		expect(pubIdx).toBeGreaterThan(-1);
 		expect(updatedIdx).toBe(pubIdx + 1);
 	});
@@ -39,14 +39,14 @@ describe('setUpdatedField', () => {
 	it('replaces an existing updated field', () => {
 		const withUpdated = baseSvx.replace(
 			'draft: true',
-			'updated: "2026-01-20"\ndraft: true'
+			'updatedDate: "2026-01-20"\ndraft: true'
 		);
 		const result = setUpdatedField(withUpdated, '2026-06-07');
-		expect(result).toContain('updated: "2026-06-07"');
+		expect(result).toContain('updatedDate: "2026-06-07"');
 		// Should not contain the old date
-		expect(result).not.toContain('updated: "2026-01-20"');
+		expect(result).not.toContain('updatedDate: "2026-01-20"');
 		// Should only appear once
-		const occurrences = (result.match(/^updated:/gm) ?? []).length;
+		const occurrences = (result.match(/^updatedDate:/gm) ?? []).length;
 		expect(occurrences).toBe(1);
 	});
 
@@ -59,10 +59,10 @@ describe('setUpdatedField', () => {
 		const first = setUpdatedField(baseSvx, '2026-06-07');
 		const second = setUpdatedField(first, '2026-06-08');
 		// Only one updated line
-		const occurrences = (second.match(/^updated:/gm) ?? []).length;
+		const occurrences = (second.match(/^updatedDate:/gm) ?? []).length;
 		expect(occurrences).toBe(1);
-		expect(second).toContain('updated: "2026-06-08"');
-		expect(second).not.toContain('updated: "2026-06-07"');
+		expect(second).toContain('updatedDate: "2026-06-08"');
+		expect(second).not.toContain('updatedDate: "2026-06-07"');
 	});
 
 	it('inserts updated before draft when no publishDate present', () => {
@@ -76,9 +76,9 @@ draft: false
 Cuerpo.
 `;
 		const result = setUpdatedField(noPublishDate, '2026-06-07');
-		expect(result).toContain('updated: "2026-06-07"');
+		expect(result).toContain('updatedDate: "2026-06-07"');
 		const lines = result.split('\n');
-		const updatedIdx = lines.findIndex((l) => l.startsWith('updated:'));
+		const updatedIdx = lines.findIndex((l) => l.startsWith('updatedDate:'));
 		const draftIdx = lines.findIndex((l) => l.startsWith('draft:'));
 		expect(updatedIdx).toBeLessThan(draftIdx);
 	});

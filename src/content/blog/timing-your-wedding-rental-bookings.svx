@@ -4,12 +4,15 @@ description: "Planning a wedding is a joyous yet intricate task that involves ca
 author: Hector Luis Lorenzo
 slug: timing-your-wedding-rental-bookings
 publishDate: 2026-02-28
-updated: 2026-02-17
+updatedDate: 2026-02-17
 excerpt: "Planning a wedding is a joyous yet intricate task that involves careful consideration of various elements. A key aspect to ensure a seamless celebration is the timing of your wedding rental bookings and securing your wedding vendors well in advance. From reserving the ideal venue and selecting top-notch audiovisual equipment, to choosing caterers and photographers, […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle.webp
 categories: [Events]
 tags: []
 draft: false
+keyword: "timing your wedding rental bookings"
+siloRole: supporting
+targetPage: "/blog/wedding-rentals/"
 ---
 
 <script>

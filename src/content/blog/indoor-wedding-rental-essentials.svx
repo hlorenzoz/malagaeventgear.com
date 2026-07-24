@@ -4,12 +4,15 @@ description: "Planning an indoor wedding in Malaga, Spain, involves meticulous a
 author: Hector Luis Lorenzo
 slug: indoor-wedding-rental-essentials
 publishDate: 2026-01-16
-updated: 2026-01-11
+updatedDate: 2026-01-11
 excerpt: "Planning an indoor wedding in Malaga, Spain, involves meticulous attention to detail to ensure a magical celebration. This comprehensive guide on indoor wedding rental essentials and lighting can transform any venue into an enchanting setting. From elegant lighting solutions that create the perfect atmosphere to top notch audiovisual equipment for crystal clear speeches and music, […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1631/wedding_table_setting.webp
 categories: [Audio Visual Rental, Events, Weddings]
 tags: []
 draft: false
+keyword: "indoor wedding rental essentials"
+siloRole: supporting
+targetPage: "/blog/wedding-rentals/"
 ---
 
 <script>

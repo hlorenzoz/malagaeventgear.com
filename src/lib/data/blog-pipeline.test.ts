@@ -73,6 +73,42 @@ describe('isNews derivation', () => {
 	});
 });
 
+describe('url derivation', () => {
+	it('derives url as /blog/<slug>/ from the file path', () => {
+		const glob: GlobResult = {
+			'../../content/blog/wedding-rentals.svx': makeModule({ categories: ['Weddings'] }),
+		};
+		const posts = buildPostsFromGlob(glob, new Date('2026-12-31'));
+		expect(posts[0].url).toBe('/blog/wedding-rentals/');
+	});
+});
+
+describe('silo metadata passthrough', () => {
+	it('carries keyword, siloRole and targetPage from frontmatter onto the post', () => {
+		const glob: GlobResult = {
+			'../../content/blog/audio-visual-rental-for-weddings.svx': makeModule({
+				keyword: 'audio visual rental for weddings',
+				siloRole: 'supporting',
+				targetPage: '/blog/audio-visual-rental/',
+			}),
+		};
+		const posts = buildPostsFromGlob(glob, new Date('2026-12-31'));
+		expect(posts[0].keyword).toBe('audio visual rental for weddings');
+		expect(posts[0].siloRole).toBe('supporting');
+		expect(posts[0].targetPage).toBe('/blog/audio-visual-rental/');
+	});
+
+	it('leaves silo fields undefined when frontmatter omits them', () => {
+		const glob: GlobResult = {
+			'../../content/blog/plain.svx': makeModule({}),
+		};
+		const posts = buildPostsFromGlob(glob, new Date('2026-12-31'));
+		expect(posts[0].siloRole).toBeUndefined();
+		expect(posts[0].targetPage).toBeUndefined();
+		expect(posts[0].keyword).toBeUndefined();
+	});
+});
+
 describe('getNewsPosts', () => {
 	const glob: GlobResult = {
 		'../../content/blog/news-1.svx': makeModule({ categories: ['News'], title: 'News One', description: 'A sufficiently long test description here.', excerpt: 'A sufficiently long excerpt for testing.' }),

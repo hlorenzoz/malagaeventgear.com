@@ -4,12 +4,15 @@ description: "Anyone who has ever organized an event knows the feeling. That low
 author: Hector Luis Lorenzo
 slug: what-renting-av-gear-in-malaga-taught-me-about-smart-business
 publishDate: 2025-11-06
-updated: 2025-11-18
+updatedDate: 2025-11-18
 excerpt: "Anyone who has ever organized an event knows the feeling. That low grade hum of anxiety that comes from juggling a dozen logistical threads, praying none of them unravel. The technical setup, sound, screens, lighting, is often the most stressful part. So when clients found themselves needing AV gear in Malaga, we were prepared for […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1305/lighting-sound-big-screen-projector-rental-malaga_6.webp
 categories: [Events, Gadgets]
 tags: []
 draft: false
+keyword: "what renting av gear in malaga taught me about smart business"
+siloRole: standalone
+targetPage: ""
 ---
 
 <script>

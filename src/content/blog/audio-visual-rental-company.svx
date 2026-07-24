@@ -4,12 +4,15 @@ description: "Welcome to Malaga Event Gear (MEG), the premier audio visual renta
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-company
 publishDate: 2025-12-24
-updated: 2025-12-25
+updatedDate: 2025-12-25
 excerpt: "Welcome to Malaga Event Gear (MEG), the premier audio visual rental company in Malaga, Spain. With a focus on delivering cutting edge equipment and unparalleled service, we specialize in bringing your events to life, from intimate weddings to grand corporate gatherings. Our comprehensive range of top tier AV solutions ensures that your occasion is not […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1313/corporate-event.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
 tags: []
 draft: false
+keyword: "audio visual rental company"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>

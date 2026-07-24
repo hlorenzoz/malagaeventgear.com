@@ -4,12 +4,15 @@ description: "Welcome to your comprehensive guide on how to customize AV rental 
 author: Hector Luis Lorenzo
 slug: how-to-customize-av-rental-packages
 publishDate: 2025-12-15
-updated: 2025-12-14
+updatedDate: 2025-12-14
 excerpt: "Welcome to your comprehensive guide on how to customize AV rental packages in Malaga, Spain. Whether you’re planning a wedding, corporate event, or private party, our expertly tailored solutions ensure your occasion stands out with top quality audiovisual equipment. In this guide, you’ll discover essential tips and insights for selecting the perfect gear that meets […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1787/2025-10-05-at-DJ-audio-and-microphone-system-setup.webp
 categories: [Audio Visual Rental, Events]
 tags: []
 draft: false
+keyword: "how to customize av rental packages"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>

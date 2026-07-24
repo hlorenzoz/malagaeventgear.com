@@ -4,12 +4,15 @@ description: "Planning a wedding can be a daunting task, but the right rentals c
 author: Hector Luis Lorenzo
 slug: must-have-wedding-reception-rentals
 publishDate: 2026-02-15
-updated: 2026-02-13
+updatedDate: 2026-02-13
 excerpt: "Planning a wedding can be a daunting task, but the right rentals can transform your reception into an unforgettable event. Whether you’re envisioning a rustic outdoor ceremony or a sophisticated banquet, choosing the right equipment is crucial. From elegant seating arrangements to state-of-the-art sound systems, must-have rentals ensure your celebration is seamless and memorable. Discover […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1632/wedding_reception_decor.webp
 categories: [Weddings]
 tags: []
 draft: false
+keyword: "must have wedding reception rentals"
+siloRole: supporting
+targetPage: "/blog/wedding-rentals/"
 ---
 
 <script>

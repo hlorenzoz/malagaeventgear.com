@@ -4,12 +4,15 @@ description: "Welcome to Malaga Event Gear, your premier partner for professiona
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-charity-fundraisers
 publishDate: 2025-12-11
-updated: 2025-12-10
+updatedDate: 2025-12-10
 excerpt: "Welcome to Malaga Event Gear, your premier partner for professional audio visual rental for charity fundraisers services, perfect for charity fundraisers in Malaga, Spain. Our commitment to elevating your event shines through with our top tier equipment tailored for fundraising galas, auctions, and community initiatives. With our diverse range of services, including stunning sound systems, […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-scaled.webp
 categories: [Audio Visual Rental, Events]
 tags: []
 draft: false
+keyword: "audio visual rental for charity fundraisers"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>

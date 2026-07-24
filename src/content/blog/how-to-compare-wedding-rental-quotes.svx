@@ -4,12 +4,15 @@ description: "Planning a wedding can be a daunting task, especially when it come
 author: Hector Luis Lorenzo
 slug: how-to-compare-wedding-rental-quotes
 publishDate: 2026-02-18
-updated: 2026-02-16
+updatedDate: 2026-02-16
 excerpt: "Planning a wedding can be a daunting task, especially when it comes to selecting the perfect spot and comparing rental quotes. With so many options available, making the right choice requires careful consideration of factors like venue ambiance, audio visual needs, and budget constraints. This guide offers insightful tips to help you navigate through the […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1629/beach_wedding_setup.webp
 categories: [Weddings]
 tags: []
 draft: false
+keyword: "how to compare wedding rental quotes"
+siloRole: supporting
+targetPage: "/blog/wedding-rentals/"
 ---
 
 <script>

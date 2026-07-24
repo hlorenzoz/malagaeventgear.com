@@ -4,12 +4,15 @@ description: Transform your wedding venue with elegant table linens and stylish 
 author: Hector Luis Lorenzo
 slug: wedding-linen-rental-services
 publishDate: 2026-02-19
-updated: 2026-02-16
+updatedDate: 2026-02-16
 excerpt: "Transform your wedding venue with elegant table linens and stylish chair rentals that elevate the ambiance of your special day. Our wedding linen rental services offer an extensive selection of premium fabrics and designs, catering to your wedding theme and personal taste. From classic white tablecloths to vibrant table runners, each piece is meticulously maintained […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1633/wedding_dinner_table.webp
 categories: [Weddings]
 tags: []
 draft: false
+keyword: "wedding linen rental services"
+siloRole: supporting
+targetPage: "/blog/wedding-rentals/"
 ---
 
 <script>

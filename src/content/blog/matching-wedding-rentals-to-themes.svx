@@ -4,12 +4,15 @@ description: "Planning a wedding involves countless decisions, and one of the mo
 author: Hector Luis Lorenzo
 slug: matching-wedding-rentals-to-themes
 publishDate: 2026-02-16
-updated: 2026-02-13
+updatedDate: 2026-02-13
 excerpt: "Planning a wedding involves countless decisions, and one of the most exhilarating aspects is matching your venue with the ideal decor and rentals. With a myriad of styles to choose from, finding the perfect combination can feel overwhelming. Whether you’re dreaming of a vintage, bohemian, or classic theme, making sure that every element aligns will […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall.webp
 categories: [Weddings]
 tags: []
 draft: false
+keyword: "matching wedding rentals to themes"
+siloRole: supporting
+targetPage: "/blog/wedding-rentals/"
 ---
 
 <script>

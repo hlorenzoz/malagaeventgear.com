@@ -63,15 +63,15 @@ describe('buildFrontmatter', () => {
 		expect(fm.publishDate).toBe('2024-03-15');
 	});
 
-	it('omits updated when modified_gmt === date_gmt (SC-MIG-09)', () => {
+	it('omits updatedDate when modified_gmt === date_gmt (SC-MIG-09)', () => {
 		const fm = buildFrontmatter(makeWpPost());
-		expect(fm.updated).toBeUndefined();
+		expect(fm.updatedDate).toBeUndefined();
 	});
 
-	it('sets updated when modified_gmt differs from date_gmt (SC-MIG-10)', () => {
+	it('sets updatedDate when modified_gmt differs from date_gmt (SC-MIG-10)', () => {
 		const post = makeWpPost({ modified_gmt: '2024-04-20T12:00:00' });
 		const fm = buildFrontmatter(post);
-		expect(fm.updated).toBe('2024-04-20');
+		expect(fm.updatedDate).toBe('2024-04-20');
 	});
 
 	it('strips HTML from excerpt', () => {
@@ -219,17 +219,17 @@ describe('buildFrontmatterYaml', () => {
 		expect(yaml).toContain('draft: false');
 	});
 
-	it('does NOT emit updated key when undefined (SC-MIG-09)', () => {
+	it('does NOT emit updatedDate key when undefined (SC-MIG-09)', () => {
 		const fm = buildFrontmatter(makeWpPost()); // same date_gmt and modified_gmt
 		const yaml = buildFrontmatterYaml(fm);
-		expect(yaml).not.toContain('updated:');
+		expect(yaml).not.toContain('updatedDate:');
 	});
 
-	it('emits updated key when set (SC-MIG-10)', () => {
+	it('emits updatedDate key when set (SC-MIG-10)', () => {
 		const post = makeWpPost({ modified_gmt: '2024-04-20T12:00:00' });
 		const fm = buildFrontmatter(post);
 		const yaml = buildFrontmatterYaml(fm);
-		expect(yaml).toContain('updated: 2024-04-20');
+		expect(yaml).toContain('updatedDate: 2024-04-20');
 	});
 
 	it('wraps title with quotes when it contains special chars', () => {

@@ -22,7 +22,8 @@
 		children?: import('svelte').Snippet;
 	} = $props();
 
-	let canonicalUrl = $derived(`${siteConfig.url}/blog/${post.slug}/`);
+	// post.url is the single source of truth for the post path (derived in blog-pipeline.ts).
+	let canonicalUrl = $derived(`${siteConfig.url}${post.url}`);
 
 	// First category for articleSection (if any)
 	let firstCategory = $derived(post.categories[0] ?? undefined);
@@ -35,10 +36,10 @@
 			title: post.title,
 			description: post.description,
 			datePublished: post.publishDate,
-			dateModified: post.updated,
+			dateModified: post.updatedDate,
 			authorName: post.author,
 			authorUrl: authorUrl,
-			url: `/blog/${post.slug}/`,
+			url: post.url,
 			imageUrl: post.coverImage,
 			// Use NewsArticle @type when the post belongs to the "News" category
 			type: post.isNews ? 'NewsArticle' : 'BlogPosting',
@@ -117,7 +118,7 @@
 	openGraph={{
 		type: 'article',
 		publishedTime: post.publishDate,
-		modifiedTime: post.updated ?? post.publishDate,
+		modifiedTime: post.updatedDate ?? post.publishDate,
 		section: firstCategory,
 		tags: post.tags && post.tags.length > 0 ? post.tags : undefined,
 		author: authorUrl,
@@ -187,11 +188,11 @@
 					</span>
 					<span class="text-border-glass">·</span>
 					<time datetime={post.publishDate}>{formatDate(post.publishDate)}</time>
-					{#if post.updated && post.updated !== post.publishDate}
+					{#if post.updatedDate && post.updatedDate !== post.publishDate}
 						<span class="text-border-glass">·</span>
 						<span>
 							{i18n.lang === 'en' ? 'Updated' : 'Actualizado'}
-							<time datetime={post.updated}>{formatDate(post.updated)}</time>
+							<time datetime={post.updatedDate}>{formatDate(post.updatedDate)}</time>
 						</span>
 					{/if}
 				</div>

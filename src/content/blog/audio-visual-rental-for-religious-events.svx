@@ -4,12 +4,15 @@ description: "Welcome to Malaga Event Gear, your trusted partner for exceptional
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-religious-events
 publishDate: 2025-12-04
-updated: 2025-12-01
+updatedDate: 2025-12-01
 excerpt: "Welcome to Malaga Event Gear, your trusted partner for exceptional audio visual rental for religious events and houses of worship solutions in Malaga, Spain. With over two decades of experience, we bring reliability and expertise to your events, ensuring impeccable audio clarity and stunning visual presentations. Whether you’re hosting a church service, seminar, or conference, […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled.webp
 categories: [Audio Visual Rental, Events]
 tags: []
 draft: false
+keyword: "audio visual rental for religious events"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>

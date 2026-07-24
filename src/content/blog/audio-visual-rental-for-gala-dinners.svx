@@ -4,12 +4,15 @@ description: "Welcome to Malaga Event Gear, your premier destination for audio v
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-gala-dinners
 publishDate: 2025-12-09
-updated: 2025-12-01
+updatedDate: 2025-12-01
 excerpt: "Welcome to Malaga Event Gear, your premier destination for audio visual rental for gala dinners solutions designed to elevate your event in the vibrant city of Malaga, Spain. With over two decades of experience, we specialize in delivering state of the art audio visual equipment and seamless execution for unforgettable events. Whether you are hosting a corporate gala or […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental.webp
 categories: [Audio Visual Rental, Events]
 tags: []
 draft: false
+keyword: "audio visual rental for gala dinners"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>

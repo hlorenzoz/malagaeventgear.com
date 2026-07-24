@@ -4,12 +4,15 @@ description: "Welcome to Malaga Event Gear, your premier choice for professional
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-corporate-events
 publishDate: 2025-12-10
-updated: 2025-12-01
+updatedDate: 2025-12-01
 excerpt: "Welcome to Malaga Event Gear, your premier choice for professional audio visual rental for corporate events and conventions in Malaga, Spain. With over a thousand satisfied customers and over 30 years of experience, we understand the importance of seamless execution and professional setup. Our state of the art equipment and expert technicians ensure your event […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1313/corporate-event.webp
 categories: [Audio Visual Rental, Events]
 tags: []
 draft: false
+keyword: "audio visual rental for corporate events"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>

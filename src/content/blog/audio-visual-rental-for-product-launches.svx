@@ -4,12 +4,15 @@ description: "Welcome to Malaga Event Gear, your trusted partner in bringing spe
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-product-launches
 publishDate: 2025-12-05
-updated: 2025-12-01
+updatedDate: 2025-12-01
 excerpt: "Welcome to Malaga Event Gear, your trusted partner in bringing spectacular product launches to life with top notch audio visual rental for product launches in Malaga, Spain. With over 25 years of industry experience, we specialize in providing state of the art AV equipment and bespoke solutions tailored to elevate your event. Whether you’re organizing […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1292/malaga_event_lighting_display_projector_sound_rental_3-scaled.webp
 categories: [Audio Visual Rental, Events]
 tags: []
 draft: false
+keyword: "audio visual rental for product launches"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>

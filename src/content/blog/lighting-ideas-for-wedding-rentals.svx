@@ -4,12 +4,15 @@ description: Illuminating your wedding day with the perfect lighting is key to c
 author: Hector Luis Lorenzo
 slug: lighting-ideas-for-wedding-rentals
 publishDate: 2026-01-15
-updated: 2026-01-11
+updatedDate: 2026-01-11
 excerpt: "Illuminating your wedding day with the perfect lighting is key to creating an unforgettable atmosphere. Whether you’re envisioning a romantic garden ceremony or a grand ballroom celebration, the right lighting ideas for wedding rentals can transform your venue into a magical wonderland. Malaga Event Gear (MEG) offers expert guidance and an array of lighting solutions […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table.webp
 categories: [Audio Visual Rental, Events, Weddings]
 tags: []
 draft: false
+keyword: "lighting ideas for wedding rentals"
+siloRole: supporting
+targetPage: "/blog/wedding-rentals/"
 ---
 
 <script>

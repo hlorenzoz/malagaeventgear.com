@@ -50,6 +50,8 @@ export function buildPostsFromGlob(glob: GlobResult, buildDate: Date = new Date(
 		posts.push({
 			...frontmatter,
 			slug,
+			// Canonical path, derived from the slug (single source of truth = the filename).
+			url: `/blog/${slug}/`,
 			isNews
 		});
 	}
@@ -162,7 +164,7 @@ export function getArticlePosts(posts: BlogPost[]): BlogPost[] {
 function maxLastmod(posts: BlogPost[]): string {
 	let max = '';
 	for (const post of posts) {
-		const date = (post.updated ?? post.publishDate).split('T')[0]; // strip time part if any
+		const date = (post.updatedDate ?? post.publishDate).split('T')[0]; // strip time part if any
 		if (!max || date > max) max = date;
 	}
 	return max;

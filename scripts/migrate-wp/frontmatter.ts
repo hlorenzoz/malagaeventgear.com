@@ -22,7 +22,7 @@ export interface PostFrontmatter {
 	author: string; // display_name (W-01)
 	slug: string;
 	publishDate: string; // YYYY-MM-DD
-	updated?: string; // YYYY-MM-DD — omitted when equal to publishDate
+	updatedDate?: string; // YYYY-MM-DD - omitted when equal to publishDate
 	excerpt: string;
 	coverImage: string;
 	categories: string[]; // display names
@@ -118,7 +118,7 @@ export function buildFrontmatter(post: WpPost): PostFrontmatter {
 		author,
 		slug: post.slug,
 		publishDate,
-		...(updated !== undefined ? { updated } : {}),
+		...(updated !== undefined ? { updatedDate: updated } : {}),
 		excerpt,
 		coverImage,
 		categories,
@@ -185,8 +185,8 @@ export function buildFrontmatterYaml(fm: PostFrontmatter): string {
 	lines.push(`author: ${yamlScalar(fm.author)}`);
 	lines.push(`slug: ${fm.slug}`);
 	lines.push(`publishDate: ${fm.publishDate}`);
-	if (fm.updated !== undefined) {
-		lines.push(`updated: ${fm.updated}`);
+	if (fm.updatedDate !== undefined) {
+		lines.push(`updatedDate: ${fm.updatedDate}`);
 	}
 	lines.push(`excerpt: ${yamlScalar(fm.excerpt)}`);
 	lines.push(`coverImage: ${fm.coverImage}`);

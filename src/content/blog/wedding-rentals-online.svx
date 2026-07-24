@@ -4,12 +4,15 @@ description: "Discover the perfect blend of elegance and convenience with our ev
 author: Hector Luis Lorenzo
 slug: wedding-rentals-online
 publishDate: 2026-01-08
-updated: 2026-01-13
+updatedDate: 2026-01-13
 excerpt: "Discover the perfect blend of elegance and convenience with our events and wedding rentals online in Malaga, Spain. Whether you’re planning a grand celebration or an intimate gathering, our comprehensive range of online wedding rental services ensures your special day is nothing short of spectacular. From sparkling audiovisuals to breathtaking lighting setups, we offer tailored […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding.webp
 categories: [Audio Visual Rental, Events, Weddings]
 tags: []
 draft: false
+keyword: "wedding rentals online"
+siloRole: supporting
+targetPage: "/blog/wedding-rentals/"
 ---
 
 <script>

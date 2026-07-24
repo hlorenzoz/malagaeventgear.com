@@ -18,6 +18,18 @@ import { join } from 'node:path';
 import { slugify } from '../src/lib/utils/slugify';
 import { BlogPostSchema } from '../src/lib/types/blog';
 
+// Vocabulario controlado de categorias en uso (ver AGENTS.md "Blog Content Authoring").
+// El agente elige de esta lista; crear una nueva es una decision de taxonomia deliberada.
+const CONTROLLED_CATEGORIES = [
+	'Events',
+	'Audio Visual Rental',
+	'Weddings',
+	'News',
+	'Corporate & Enterprise',
+	'Event Planning',
+	'Gadgets'
+];
+
 // ---------------------------------------------------------------------------
 // CLI argument parsing
 // ---------------------------------------------------------------------------
@@ -84,6 +96,9 @@ function buildFrontmatter(fields: {
 	categories: string[];
 	tags: string[];
 	draft: boolean;
+	keyword: string;
+	siloRole: string;
+	targetPage: string;
 }): string {
 	const lines: string[] = ['---'];
 
@@ -113,6 +128,12 @@ function buildFrontmatter(fields: {
 	}
 
 	lines.push(`draft: ${fields.draft}`);
+
+	// Reverse silo metadata (ver AGENTS.md "Reverse Silo del Blog").
+	lines.push(`keyword: "${fields.keyword.replace(/"/g, '\\"')}"`);
+	lines.push(`siloRole: ${fields.siloRole}`);
+	lines.push(`targetPage: "${fields.targetPage}"`);
+
 	lines.push('---');
 
 	return lines.join('\n');
@@ -139,13 +160,15 @@ async function main(): Promise<void> {
 	const categoryRaw =
 		categoryArg ??
 		(await ask(
-			'Categoría (ej: Events, Audio Visual Rental, Weddings) [dejar en blanco para omitir]: '
+			`Categorías (una o varias, separadas por coma)\n  Vocabulario: ${CONTROLLED_CATEGORIES.join(', ')}\n  > `
 		));
 
+	// `??` no se puede mezclar con `||` sin parentesis (SyntaxError). El default aplica
+	// tanto si el flag falta como si el prompt vuelve vacio.
 	const author =
 		authorArg ??
-		(await ask('Autor (nombre completo, ej: Hector Luis Lorenzo) [Enter para "Hector Luis Lorenzo"]: ')) ||
-		'Hector Luis Lorenzo';
+		((await ask('Autor (nombre completo, ej: Hector Luis Lorenzo) [Enter para "Hector Luis Lorenzo"]: ')) ||
+			'Hector Luis Lorenzo');
 
 	// Derive slug from title
 	const slug = slugify(title);
@@ -156,9 +179,22 @@ async function main(): Promise<void> {
 
 	const publishDate = todayISO();
 
+	// Multiples categorias separadas por coma. Avisa (no bloquea) ante una fuera del vocabulario.
 	const categories: string[] = categoryRaw
-		? [categoryRaw.trim()]
+		? categoryRaw
+				.split(',')
+				.map((c) => c.trim())
+				.filter(Boolean)
 		: [];
+
+	for (const c of categories) {
+		if (!CONTROLLED_CATEGORIES.includes(c)) {
+			console.warn(
+				`[post-new] AVISO: "${c}" no esta en el vocabulario controlado. ` +
+					`Si es intencional, agregala a CONTROLLED_CATEGORIES y a AGENTS.md.`
+			);
+		}
+	}
 
 	const fields = {
 		title,
@@ -171,6 +207,11 @@ async function main(): Promise<void> {
 		categories,
 		tags: [] as string[],
 		draft: true,
+		// Reverse silo: por defecto standalone. El autor/agente define pillar|supporting|both
+		// y el targetPage segun la estructura. keyword arranca como el slug de-hyphenado.
+		keyword: slug.replace(/-/g, ' '),
+		siloRole: 'standalone',
+		targetPage: '',
 	};
 
 	// Validate frontmatter against BlogPostSchema BEFORE writing
@@ -213,10 +254,13 @@ async function main(): Promise<void> {
 	console.log(`  draft:       true`);
 	console.log('\n  Próximos pasos:');
 	console.log('  1. Editá description, excerpt y coverImage en el frontmatter.');
-	console.log('  2. Escribí el contenido del post.');
-	console.log('  3. Cuando esté listo, cambiá "draft: true" a "draft: false".');
+	console.log('  2. Definí la metadata de silo: keyword, siloRole (pillar|supporting|both)');
+	console.log('     y targetPage. Dejalo en standalone solo si NO pertenece a ningún silo.');
+	console.log('  3. Escribí el contenido del post.');
+	console.log('  4. Cuando esté listo, cambiá "draft: true" a "draft: false".');
+	console.log('  5. Regenerá el mapa del sitio: just site-map (el guard lo verifica).');
 	console.log(
-		`  4. Para actualizar la fecha de modificación: bun scripts/post-touch.ts ${slug}\n`
+		`  6. Para actualizar la fecha de modificación: bun scripts/post-touch.ts ${slug}\n`
 	);
 }
 

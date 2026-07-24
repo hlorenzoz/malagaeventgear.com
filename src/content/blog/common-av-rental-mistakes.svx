@@ -4,12 +4,15 @@ description: "Planning a successful event is an art that requires meticulous att
 author: Hector Luis Lorenzo
 slug: common-av-rental-mistakes
 publishDate: 2025-12-22
-updated: 2025-12-21
+updatedDate: 2025-12-21
 excerpt: "Planning a successful event is an art that requires meticulous attention to detail, especially when it comes to audio visual needs. Whether you’re hosting a corporate conference or an intimate wedding, understanding common AV rental mistakes can save you from last minute headaches. In this guide, we’ll explore the top 15 errors that can derail […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1303/lighting-sound-big-screen-projector-rental-malaga_2.webp
 categories: [Audio Visual Rental, Events]
 tags: []
 draft: false
+keyword: "common av rental mistakes"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>

@@ -120,7 +120,7 @@ describe('getCategoriesFromPosts / getPostsByCategoryFromPosts', () => {
 		expect(result).toHaveLength(0);
 	});
 
-	it('Category lastmod is max(updated ?? publishDate) across posts', () => {
+	it('Category lastmod is max(updatedDate ?? publishDate) across posts', () => {
 		const posts = buildPostsFromGlob({
 			'/src/content/blog/old.svx': mockModule({
 				...base,
@@ -130,7 +130,7 @@ describe('getCategoriesFromPosts / getPostsByCategoryFromPosts', () => {
 			'/src/content/blog/new.svx': mockModule({
 				...base,
 				publishDate: '2025-01-01',
-				updated: '2025-06-01',
+				updatedDate: '2025-06-01',
 				categories: ['weddings']
 			})
 		});
@@ -177,7 +177,7 @@ describe('getAuthorsFromPosts / getPostsByAuthorFromPosts', () => {
 		expect(result).toHaveLength(3);
 	});
 
-	it('Author lastmod is max(updated ?? publishDate) across posts', () => {
+	it('Author lastmod is max(updatedDate ?? publishDate) across posts', () => {
 		const posts = buildPostsFromGlob({
 			'/src/content/blog/p1.svx': mockModule({
 				...base,
@@ -188,7 +188,7 @@ describe('getAuthorsFromPosts / getPostsByAuthorFromPosts', () => {
 				...base,
 				author: 'Hector Lorenzo',
 				publishDate: '2025-01-01',
-				updated: '2025-06-01'
+				updatedDate: '2025-06-01'
 			})
 		});
 		const authors = getAuthorsFromPosts(posts);

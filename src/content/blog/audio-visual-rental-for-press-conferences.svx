@@ -4,12 +4,15 @@ description: "Welcome to Malaga Event Gear, your trusted partner for state of th
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-press-conferences
 publishDate: 2025-12-06
-updated: 2025-12-01
+updatedDate: 2025-12-01
 excerpt: "Welcome to Malaga Event Gear, your trusted partner for state of the art audio visual rental for press conferences and corporate events solutions in Malaga, Spain. Our expert team provides seamless setups with advanced sound systems, projectors, and lighting to ensure your event is a resounding success. With over two decades of experience, we specialize […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-scaled.webp
 categories: [Audio Visual Rental, Events]
 tags: []
 draft: false
+keyword: "audio visual rental for press conferences"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>
