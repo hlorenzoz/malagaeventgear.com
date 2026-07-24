@@ -4,12 +4,15 @@ description: "Make your dream wedding come alive with exceptional audio visual r
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-weddings
 publishDate: 2025-11-23
-updated: 2026-01-07
+updatedDate: 2026-01-07
 excerpt: "Make your dream wedding come alive with exceptional audio visual rental services in Malaga, Spain. Our expert team at Malaga Event Gear (MEG) specializes in delivering crystal clear sound and breathtaking lighting that perfectly suit any venue, from picturesque beach weddings to enchanting countryside celebrations. We offer a range of top tier AV equipment, including […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1638/wedding_rings_heart_book.webp
 categories: [Audio Visual Rental, Events, Weddings]
 tags: []
 draft: false
+keyword: "audio visual rental for weddings"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>

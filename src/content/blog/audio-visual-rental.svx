@@ -4,12 +4,15 @@ description: "Welcome to Malaga’s premier destination for audio visual rental 
 author: Hector Luis Lorenzo
 slug: audio-visual-rental
 publishDate: 2025-11-19
-updated: 2025-12-25
+updatedDate: 2025-12-25
 excerpt: "Welcome to Malaga’s premier destination for audio visual rental services. Whether you’re planning a wedding, corporate event, or private party, our top notch rental solutions are designed to make your occasion truly unforgettable. With over two decades of expertise and a wide selection of cutting edge equipment, Malaga Event Gear (MEG) promises seamless integration and […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1195/sound-system-tennis-championship-2024-setup.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
 tags: []
 draft: false
+keyword: "audio visual rental"
+siloRole: pillar
+targetPage: "/"
 ---
 
 <script>

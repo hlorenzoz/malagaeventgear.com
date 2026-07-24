@@ -4,12 +4,15 @@ description: "Planning a wedding can be an exciting yet daunting task, especiall
 author: Hector Luis Lorenzo
 slug: making-the-most-of-wedding-rentals
 publishDate: 2026-01-14
-updated: 2026-01-10
+updatedDate: 2026-01-10
 excerpt: "Planning a wedding can be an exciting yet daunting task, especially when it comes to ensuring you have the right equipment and ambiance for your special day. Wedding rentals play a crucial role in bringing your vision to life, offering a wide range of essential items to create an unforgettable experience. From sound systems and […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1629/beach_wedding_setup.webp
 categories: [Audio Visual Rental, Events, Weddings]
 tags: []
 draft: false
+keyword: "making the most of wedding rentals"
+siloRole: supporting
+targetPage: "/blog/wedding-rentals/"
 ---
 
 <script>

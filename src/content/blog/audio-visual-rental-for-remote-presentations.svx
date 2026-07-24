@@ -4,12 +4,15 @@ description: "Welcome to Malaga Event Gear, your premier partner for top notch a
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-remote-presentations
 publishDate: 2025-12-03
-updated: 2025-12-01
+updatedDate: 2025-12-01
 excerpt: "Welcome to Malaga Event Gear, your premier partner for top notch audio visual rental for remote presentations services in Malaga, Spain, specifically tailored for remote presentations, online seminars, and virtual conferences. Since 1996, we’ve dedicated ourselves to ensuring impeccable sound and visual clarity for your events. Our specialized packages and state of the art equipment […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-scaled.webp
 categories: [Audio Visual Rental, Events]
 tags: []
 draft: false
+keyword: "audio visual rental for remote presentations"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>

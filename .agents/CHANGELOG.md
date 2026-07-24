@@ -7,6 +7,19 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Added (reverse-silo)
+- **Metadata de reverse silo por post**: `keyword`, `siloRole` (`pillar` | `supporting` | `both` | `standalone`) y `targetPage` en `BlogPostSchema` (`src/lib/types/blog.ts`). El campo `url` (`/blog/<slug>/`) se DERIVA en `blog-pipeline.ts`, no se almacena (evita el anti-patron de segunda fuente de verdad, AGENTS.md §11). Se consume en `BlogPost.svelte` (canonical + Article JSON-LD) y en `post-sitemap.xml`.
+- **Backfill de los 78 posts** (`scripts/backfill-silo-meta.ts`, idempotente, `--dry-run`): rellena la metadata desde el CSV de PageOptimizer Pro. Resultado: 2 pilares (`/blog/audio-visual-rental/`, `/blog/wedding-rentals/` -> target `/`), 59 supporting, 15 standalone, 2 fixtures excluidos. Los near-me conservan la frase POP real; el pilar AV se detecta desde el bloque cabecera del CSV. Helpers puros exportados y testeados (`scripts/backfill-silo-meta.test.ts`).
+- **Mapa/grafo del sitio** (`scripts/gen-site-graph.ts` + `just site-map` -> `.agents/site-structure-map.md`): diagrama Mermaid + arboles por silo + tabla, DERIVADO de la metadata (determinista, sin timestamp). Guard `scripts/site-graph/guard.test.ts` que falla la suite si un post no-fixture no declara `siloRole`, si un `targetPage` no resuelve o apunta al home siendo supporting, o si el mapa committeado quedo desactualizado. Logica pura testeada en `scripts/site-graph/build.test.ts`.
+- **Vocabulario controlado de categorias** documentado en `AGENTS.md` (7: Events, Audio Visual Rental, Weddings, News, Corporate & Enterprise, Event Planning, Gadgets). `scripts/post-new.ts` ahora acepta multiples categorias (separadas por coma), avisa ante una fuera del vocabulario, y emite los campos de silo.
+
+### Changed (reverse-silo)
+- **Rename `updated` -> `updatedDate`** en el frontmatter de posts, en todo el repo: schema (validacion endurecida, misma que `publishDate`), `blog-pipeline.ts`, `BlogPost.svelte`, `post-sitemap.xml`, `post-touch.ts`, `migrate-wp/frontmatter.ts`, los 58 `.svx` que la llevaban, y sus tests. Mismo comportamiento (alimenta `<lastmod>` y `dateModified`), nombre explicito.
+- **`AGENTS.md`**: nueva seccion "Reverse Silo del Blog" (modelo, los 2 silos de MEG, metadata pagina/post, reglas keyword/url, caveats del CSV de POP, herramientas globales), regla mandatoria de regenerar el mapa al crear contenido, y filas para `/seo:reverse-silo-review` y `/local-seo:blog-posts-structure-review` en la tabla de operaciones.
+
+### Fixed (reverse-silo)
+- **`scripts/post-new.ts`**: bug preexistente latente (`??` mezclado con `||` sin parentesis = SyntaxError). El scaffold estaba roto; corregido con los parentesis correctos.
+
 ### Fixed (sitemap-freshness)
 - **`page-sitemap.xml` dejó de emitir un timestamp de build como `<lastmod>`**: el endpoint estampaba `new Date().toISOString()` en las 14 rutas estáticas y en los 5 paquetes, así que cada página figuraba modificada "hoy" en cada deploy. Eso es exactamente lo que la nueva regla de frescura (AGENTS.md §11) prohíbe: afirmar que todo cambió siempre le enseña a Google a ignorar el campo. Ahora la fecha vive **al lado del contenido**: un `meta.ts` con `contentUpdated` colocado junto a cada ruta (`src/routes/(public)/<ruta>/meta.ts`), recolectado vía `import.meta.glob` en `src/lib/utils/sitemap.ts`, y un campo `updated` (validado por Zod) por paquete en `src/lib/data/packages.ts`.
 - **Fechas semilla honestas (verificadas en el historial)**: las fechas se fijaron al último commit que cambió el CONTENIDO real, no el que agregó el campo. Los 5 paquetes = `2026-05-31` (commit `f88e8ff`, filtros e-commerce; el commit de precios `1d74bb0` del 2026-07-23 solo agregó la API derivada, +84 líneas, sin tocar ningún dato de paquete). Home = `2026-06-16`, about-us y sitemap = `2026-06-14` (su último cambio de contenido antes del refactor de precios, que no alteró lo renderizado).

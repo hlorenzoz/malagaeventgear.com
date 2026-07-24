@@ -59,9 +59,23 @@ describe('BlogPostSchema', () => {
 		expect(result.tags).toEqual([]);
 	});
 
-	it('updated is optional', () => {
+	it('updatedDate is optional', () => {
 		const result = BlogPostSchema.parse(validPost);
-		expect(result.updated).toBeUndefined();
+		expect(result.updatedDate).toBeUndefined();
+	});
+
+	it('accepts updatedDate as plain YYYY-MM-DD', () => {
+		const result = BlogPostSchema.parse({ ...validPost, updatedDate: '2026-02-17' });
+		expect(result.updatedDate).toBe('2026-02-17');
+	});
+
+	it('accepts updatedDate as ISO 8601 datetime with offset', () => {
+		const data = { ...validPost, updatedDate: '2026-02-17T10:00:00+01:00' };
+		expect(() => BlogPostSchema.parse(data)).not.toThrow();
+	});
+
+	it('throws when updatedDate is not a valid date', () => {
+		expect(() => BlogPostSchema.parse({ ...validPost, updatedDate: 'yesterday' })).toThrow();
 	});
 
 	it('coverImage is required — throws when absent', () => {
@@ -90,5 +104,37 @@ describe('BlogPostSchema', () => {
 			coverImage: 'https://cdn.malagaeventgear.com/blog/image.webp'
 		});
 		expect(result.coverImage).toBe('https://cdn.malagaeventgear.com/blog/image.webp');
+	});
+
+	// Reverse silo metadata (keyword / siloRole / targetPage)
+	it('accepts optional keyword, siloRole and targetPage', () => {
+		const result = BlogPostSchema.parse({
+			...validPost,
+			keyword: 'wedding rentals',
+			siloRole: 'supporting',
+			targetPage: '/blog/wedding-rentals/'
+		});
+		expect(result.keyword).toBe('wedding rentals');
+		expect(result.siloRole).toBe('supporting');
+		expect(result.targetPage).toBe('/blog/wedding-rentals/');
+	});
+
+	it.each(['pillar', 'supporting', 'both', 'standalone'])(
+		'accepts siloRole "%s"',
+		(role) => {
+			const result = BlogPostSchema.parse({ ...validPost, siloRole: role });
+			expect(result.siloRole).toBe(role);
+		}
+	);
+
+	it('throws when siloRole is not a known value', () => {
+		expect(() => BlogPostSchema.parse({ ...validPost, siloRole: 'hub' })).toThrow();
+	});
+
+	it('silo metadata fields are optional — undefined when omitted', () => {
+		const result = BlogPostSchema.parse(validPost);
+		expect(result.keyword).toBeUndefined();
+		expect(result.siloRole).toBeUndefined();
+		expect(result.targetPage).toBeUndefined();
 	});
 });

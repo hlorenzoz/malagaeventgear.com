@@ -4,12 +4,15 @@ description: "Welcome to Malaga Event Gear, your premier choice for audio visual
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-music-performances
 publishDate: 2025-12-08
-updated: 2025-12-01
+updatedDate: 2025-12-01
 excerpt: "Welcome to Malaga Event Gear, your premier choice for audio visual rental for music performances and concerts in Malaga, Spain. Whether you’re a musician looking for high quality sound equipment or organizing a small event or private celebration, we offer dynamic lighting and crystal clear audio solutions to meet your needs. With a commitment to […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1327/malaga_concert_lighting_microphone_audio_rental-scaled.webp
 categories: [Audio Visual Rental, Events]
 tags: []
 draft: false
+keyword: "audio visual rental for music performances"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>

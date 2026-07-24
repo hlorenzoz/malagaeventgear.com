@@ -4,12 +4,15 @@ description: "Welcome to Malaga Event Gear, your go to source for top tier audio
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-corporate-meetings
 publishDate: 2025-12-20
-updated: 2025-12-21
+updatedDate: 2025-12-21
 excerpt: "Welcome to Malaga Event Gear, your go to source for top tier audio visual rental for corporate meetings services in Malaga, Spain. Elevate your business gatherings with our state of the art technology, ensuring seamless presentations and impactful experiences. Whether hosting a small group or a large conference, our comprehensive range of sound systems, projectors, […]"
 coverImage: https://cdn.malagaeventgear.com/blog/2400/Ladies-European-Golf-Venture-Limited-Fiesta-de-Fin-de-Temporada-en-el-Majumi-Beach-Club-en-Malaga-Distante.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
 tags: []
 draft: false
+keyword: "audio visual rental for corporate meetings"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>

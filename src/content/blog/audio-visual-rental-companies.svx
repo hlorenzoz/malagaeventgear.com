@@ -4,12 +4,15 @@ description: "Discover the pinnacle of event perfection with top audio visual re
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-companies
 publishDate: 2025-12-23
-updated: 2025-12-22
+updatedDate: 2025-12-22
 excerpt: "Discover the pinnacle of event perfection with top audio visual rental companies in Malaga, Spain. Offering state of the art equipment and unparalleled service, these expert providers cater to your every need, whether it’s a corporate conference, a grand wedding, or a lively party. With a focus on quality and customer satisfaction, Malaga’s leading audiovisual […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-scaled.webp
 categories: [Events]
 tags: []
 draft: false
+keyword: "audio visual rental companies"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>

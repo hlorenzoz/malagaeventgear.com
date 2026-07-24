@@ -91,9 +91,14 @@ deploy-worker:
 post-new:
     bun scripts/post-new.ts
 
-# Marca un post existente como modificado hoy (actualiza el campo `updated` en el frontmatter)
+# Marca un post existente como modificado hoy (actualiza el campo `updatedDate` en el frontmatter)
 post-touch slug:
     bun scripts/post-touch.ts {{slug}}
+
+# Regenera el mapa de estructura del sitio (.agents/site-structure-map.md) desde la metadata
+# de reverse silo de cada post. Correr tras crear/editar contenido (el guard lo verifica).
+site-map:
+    bun scripts/gen-site-graph.ts
 
 # Optimiza las imágenes de assets/ → WebP+AVIF multi-ancho, las sube a R2 (blog/<id>/),
 # persiste refs+metadata en manifest.json y escribe el markup <picture> en assets/_urls.txt.

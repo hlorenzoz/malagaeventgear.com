@@ -47,8 +47,8 @@ export function setUpdatedField(content: string, date: string): string {
 	const afterFrontmatter = content.slice(fmEnd + 3);
 
 	// Replace existing `updated: "..."` line, or insert before closing `---`
-	const updatedLine = `updated: "${date}"`;
-	const updatedRegex = /^updated:.*$/m;
+	const updatedLine = `updatedDate: "${date}"`;
+	const updatedRegex = /^updatedDate:.*$/m;
 
 	let newFrontmatter: string;
 	if (updatedRegex.test(frontmatter)) {
@@ -113,12 +113,12 @@ function main(): void {
 	}
 
 	if (newContent === originalContent) {
-		console.log(`[post-touch] Sin cambios — updated ya era "${today}": ${filePath}`);
+		console.log(`[post-touch] Sin cambios: updatedDate ya era "${today}": ${filePath}`);
 		return;
 	}
 
 	writeFileSync(filePath, newContent, 'utf8');
-	console.log(`[post-touch] updated: "${today}" → ${filePath}`);
+	console.log(`[post-touch] updatedDate: "${today}" -> ${filePath}`);
 }
 
 // Guard: only run main() when executed directly (not when imported by tests)

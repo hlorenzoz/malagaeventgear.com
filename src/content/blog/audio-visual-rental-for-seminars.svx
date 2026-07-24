@@ -4,12 +4,15 @@ description: "Welcome to Malaga Event Gear, your trusted partner for premier aud
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-seminars
 publishDate: 2025-12-02
-updated: 2025-12-01
+updatedDate: 2025-12-01
 excerpt: "Welcome to Malaga Event Gear, your trusted partner for premier audio visual rental for seminars, conventions, and impactful events services tailored in Malaga, Spain. With over two decades of expertise, we are committed to delivering crystal clear audio and stunning visuals that elevate your event’s ambiance and professionalism. Whether it’s a corporate seminar or a […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1293/malaga_event_lighting_big_display_projector_sound_rental-scaled.webp
 categories: [Audio Visual Rental, Events]
 tags: []
 draft: false
+keyword: "audio visual rental for seminars"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>

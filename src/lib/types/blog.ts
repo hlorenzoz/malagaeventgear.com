@@ -16,15 +16,44 @@ export const BlogPostSchema = z.object({
 		.string()
 		.datetime({ offset: true })
 		.or(z.string().date()),
-	updated: z.string().optional(),
+	// updatedDate: last significant modification. Same validation as publishDate
+	// (plain YYYY-MM-DD or ISO 8601 with offset), but optional.
+	// Written by `just post-touch <slug>` (scripts/post-touch.ts). Consumed by:
+	//   - post-sitemap.xml <lastmod>            (src/routes/(public)/post-sitemap.xml/+server.ts)
+	//   - Article/NewsArticle JSON-LD dateModified + og:updated_time (src/lib/layouts/BlogPost.svelte)
+	//   - the visible "Updated" date on the post   (src/lib/layouts/BlogPost.svelte)
+	//   - category / author page lastmod           (maxLastmod in src/lib/data/blog-pipeline.ts)
+	//   - the site graph node freshness            (scripts/gen-site-graph.ts)
+	// Bump only on a real content change, never on a build (AGENTS.md 11).
+	updatedDate: z
+		.string()
+		.datetime({ offset: true })
+		.or(z.string().date())
+		.optional(),
 	excerpt: z.string().min(10),
 	coverImage: z.string().url(),
 	categories: z.array(z.string()).default([]),
 	tags: z.array(z.string()).default([]),
-	draft: z.boolean().optional().default(false)
+	draft: z.boolean().optional().default(false),
+	// --- Reverse silo metadata (see AGENTS.md "Reverse Silo del Blog") ---
+	// keyword: the POP target keyword phrase. By convention it matches the slug under
+	// /blog/, except a few near-me posts whose slug carries a location suffix.
+	keyword: z.string().optional(),
+	// siloRole: this node's role in the reverse silo.
+	//   pillar     -> target page of its cluster (links up to the homepage)
+	//   supporting -> feeds a pillar (links down to it + laterally to siblings)
+	//   both       -> pillar of its cluster AND supporter of a higher target
+	//   standalone -> not part of any silo (news, corporate, migration posts)
+	siloRole: z.enum(['pillar', 'supporting', 'both', 'standalone']).optional(),
+	// targetPage: the URL this node links up to. pillar -> '/', supporting -> its pillar
+	// (e.g. '/blog/audio-visual-rental/'). Empty for standalone.
+	targetPage: z.string().optional()
 });
 
 export type BlogPostFrontmatter = z.infer<typeof BlogPostSchema>;
+
+/** Role of a page/post in the reverse silo. */
+export type SiloRole = NonNullable<BlogPostFrontmatter['siloRole']>;
 
 /**
  * BlogPost extends frontmatter with the slug derived from the .svx filename.
@@ -33,6 +62,9 @@ export type BlogPostFrontmatter = z.infer<typeof BlogPostSchema>;
  */
 export type BlogPost = BlogPostFrontmatter & {
 	slug: string;
+	// Canonical path of the post, derived from the slug in blog-pipeline.ts:
+	// '/blog/' + slug + '/'. NOT stored in frontmatter (it is a function of the slug).
+	url: string;
 	// Responsive cover variants attached from cover-thumbs.json (frontmatter coverImage
 	// stays the full-size image, used for og:image). thumb = ~768px <img src> fallback;
 	// srcset = all R2 variants so the browser picks the right size per DPR/viewport.

@@ -4,12 +4,15 @@ description: "Planning a wedding can be both exciting and overwhelming, especial
 author: Hector Luis Lorenzo
 slug: how-to-choose-wedding-rentals
 publishDate: 2026-01-19
-updated: 2026-01-20
+updatedDate: 2026-01-20
 excerpt: "Planning a wedding can be both exciting and overwhelming, especially when it comes to selecting the right rentals to create your dream day. With so many options available, it’s important to know how to choose wedding rentals wisely to ensure your event runs smoothly and looks stunning. From elegant seating arrangements to state of the […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1625/beach_wedding_table_decor.webp
 categories: [Audio Visual Rental, Weddings]
 tags: []
 draft: false
+keyword: "how to choose wedding rentals"
+siloRole: supporting
+targetPage: "/blog/wedding-rentals/"
 ---
 
 <script>

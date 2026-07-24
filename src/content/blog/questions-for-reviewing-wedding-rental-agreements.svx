@@ -4,12 +4,15 @@ description: "Planning a wedding can be both exciting and stressful, especially 
 author: Hector Luis Lorenzo
 slug: questions-for-reviewing-wedding-rental-agreements
 publishDate: 2026-02-24
-updated: 2026-02-17
+updatedDate: 2026-02-17
 excerpt: "Planning a wedding can be both exciting and stressful, especially when it comes to ensuring all your rental agreements are in order. Asking the right questions before signing a wedding rental contract is crucial to avoid any potential pitfalls. From understanding the fine print to clarifying delivery details, knowing what to look for in your […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall.webp
 categories: [Weddings]
 tags: []
 draft: false
+keyword: "questions for reviewing wedding rental agreements"
+siloRole: supporting
+targetPage: "/blog/wedding-rentals/"
 ---
 
 <script>

@@ -4,12 +4,15 @@ description: "Welcome to Malaga Event Gear, your premier provider of complete au
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-training-sessions
 publishDate: 2025-11-29
-updated: 2025-11-30
+updatedDate: 2025-11-30
 excerpt: "Welcome to Malaga Event Gear, your premier provider of complete audio visual rental for training sessions solutions in Malaga, tailored for any occasion in Malaga, Spain. Excelling in delivering crystal clear audio and stunning visuals, we specialize in enhancing training sessions, corporate events, meetings, and more. With cutting edge technology and over two decades of […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1195/sound-system-tennis-championship-2024-setup.webp
 categories: [Audio Visual Rental, Events]
 tags: []
 draft: false
+keyword: "audio visual rental for training sessions"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>

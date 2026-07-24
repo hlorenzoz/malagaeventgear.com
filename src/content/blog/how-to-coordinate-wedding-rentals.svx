@@ -4,12 +4,15 @@ description: "Planning a wedding involves countless details, but coordinating re
 author: Hector Luis Lorenzo
 slug: how-to-coordinate-wedding-rentals
 publishDate: 2026-02-17
-updated: 2026-02-16
+updatedDate: 2026-02-16
 excerpt: "Planning a wedding involves countless details, but coordinating rentals can be one of the most crucial tasks to ensure your special day goes off without a hitch. Prioritizing your rental order to complement your venue’s unique aesthetics not only enhances the event’s ambiance but also simplifies the decision-making process. Whether you’re hosting an intimate gathering […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1625/beach_wedding_table_decor.webp
 categories: [Weddings]
 tags: []
 draft: false
+keyword: "how to coordinate wedding rentals"
+siloRole: supporting
+targetPage: "/blog/wedding-rentals/"
 ---
 
 <script>

@@ -4,12 +4,15 @@ description: "Planning your wedding involves orchestrating countless details, an
 author: Hector Luis Lorenzo
 slug: timeline-for-booking-wedding-rentals
 publishDate: 2026-02-26
-updated: 2026-02-17
+updatedDate: 2026-02-17
 excerpt: "Planning your wedding involves orchestrating countless details, and timely booking of wedding rentals is crucial for a seamless celebration. This guide highlights the optimal timeline for reserving essential rentals such as our renowned Wedding Pack by Malaga Event Gear (MEG). Whether it’s securing crystal clear audio for vows or enchanting lighting for that dreamlike ambiance, […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table.webp
 categories: [Weddings]
 tags: []
 draft: false
+keyword: "timeline for booking wedding rentals"
+siloRole: supporting
+targetPage: "/blog/wedding-rentals/"
 ---
 
 <script>

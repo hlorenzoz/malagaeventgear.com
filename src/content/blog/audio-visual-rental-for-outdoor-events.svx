@@ -4,12 +4,15 @@ description: "Welcome to Malaga Event Gear, your premier choice for audio visual
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-outdoor-events
 publishDate: 2025-12-07
-updated: 2025-12-01
+updatedDate: 2025-12-01
 excerpt: "Welcome to Malaga Event Gear, your premier choice for audio visual rental for outdoor events in Malaga, Spain. With unmatched expertise and high quality equipment, we ensure your occasion leaves a lasting impression. Whether hosting a dynamic press conference, an engaging seminar, or a captivating product launch, our state of the art sound and visual […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1261/methacrylate_lectern_outdoor_event.webp
 categories: [Audio Visual Rental, Events]
 tags: []
 draft: false
+keyword: "audio visual rental for outdoor events"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>

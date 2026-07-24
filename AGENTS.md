@@ -139,6 +139,8 @@ paso lee lo que guardó el anterior, y dos se niegan a correr sin ello.
 | :--- | :--- | :--- | :--- |
 | `/local-seo:website-structure-review` | URL o nombre del negocio; vacío = audita este repo | `gbp-structure/{slug}` | ninguno |
 | `/local-seo:create-supporting-content` | lista de páginas / servicio; vacío = batch del gap Core 30 | `gbp-content/{slug}/{page-slug}` | BLOQUEA sin `gbp-structure/{slug}` |
+| `/seo:reverse-silo-review` | keywords, estructura/URL, o vacío = audita este repo | `reverse-silo/{slug}` | ninguno |
+| `/local-seo:blog-posts-structure-review` | keywords, URL, o vacío = audita el blog de este repo | `reverse-silo/{slug}` | ninguno |
 | `/seo:review` | vacío = último commit, `working`, `all`, una ruta o una URL | `seo-audit/{slug}` | ninguno |
 | `/seo:fix` | findings/páginas; vacío = arregla la última review | `seo-fix/{slug}` | BLOQUEA (`status: blocked`) sin auditoría |
 
@@ -338,7 +340,7 @@ mantenimiento no es real.
 - Una página que lista otras páginas (el sitemap HTML `/sitemap/`) mueve su fecha cuando se
   agrega una página a su lista.
 - **Mapa concreto en este proyecto:**
-  - Blog: campo `updated` del frontmatter (`just post-touch <slug>`), que alimenta el
+  - Blog: campo `updatedDate` del frontmatter (`just post-touch <slug>`), que alimenta el
     `<lastmod>` de `post-sitemap.xml` y el `dateModified` del `Article` (JSON-LD).
   - Páginas estáticas: `contentUpdated` en el `meta.ts` colocado junto a cada ruta
     (`src/routes/(public)/<ruta>/meta.ts`), consumido por `page-sitemap.xml`.
@@ -388,9 +390,10 @@ Esto crea `src/content/blog/<slug>.svx` con frontmatter válido y `draft: true`.
 | Campo | Cuándo usarlo |
 |-------|--------------|
 | `publishDate` | Fecha de primera publicación - cuándo el post aparece en el sitio. **Inmutable** después del primer deploy. |
-| `updated` | Última modificación significativa. Actualizar con `just post-touch <slug>`. **Drives sitemap lastmod.** |
+| `updatedDate` | Última modificación significativa. Actualizar con `just post-touch <slug>`. **Drives sitemap lastmod** y el `dateModified` del `Article`. Misma validación que `publishDate` (YYYY-MM-DD o ISO 8601 con offset), opcional. |
 
-No existe un campo `date` en el schema - `publishDate` es la fecha de creación/publicación.
+No existe un campo `date` ni `updated` en el schema - `publishDate` es la fecha de creación/publicación
+y `updatedDate` la de modificación (el campo se llamó `updated` hasta que se renombró a `updatedDate`).
 
 > **Datos estructurados - fechas (Article/NewsArticle) - gotcha verificado:** Google exige
 > `datePublished`/`dateModified` en ISO 8601 completo **con offset de zona horaria**
@@ -416,14 +419,34 @@ No existe un campo `date` en el schema - `publishDate` es la fecha de creación/
 title: "Título del post"               # requerido, min 1 char
 description: "Descripción SEO..."      # requerido, min 10 chars
 author: "Hector Luis Lorenzo"          # display name (no slug)
-publishDate: "2026-06-07"              # YYYY-MM-DD
+publishDate: "2026-06-07"              # YYYY-MM-DD (creación, inmutable)
+updatedDate: "2026-06-20"              # opcional - última modificación (just post-touch)
 excerpt: "Resumen visible..."          # requerido, min 10 chars - aparece en listados
 coverImage: "https://cdn.malagaeventgear.com/..."  # requerido - URL completa
-categories:                            # array de strings (display names)
+categories:                            # 1+ del vocabulario controlado (ver abajo)
   - "Events"
+  - "Weddings"
 tags: []
+keyword: "titulo del post"             # frase-objetivo (reverse silo)
+siloRole: standalone                   # pillar | supporting | both | standalone
+targetPage: ""                         # URL a la que enlaza hacia arriba (vacío si standalone)
 draft: true                            # cambiar a false para publicar
 ```
+
+### Categorías (vocabulario controlado)
+
+Un post pertenece a **1 o más** categorías. Las páginas de categoría (`/blog/category/<slug>/`)
+se derivan solas del array `categories[]`. Elegí del vocabulario en uso, no inventes:
+
+`Events` · `Audio Visual Rental` · `Weddings` · `News` · `Corporate & Enterprise` ·
+`Event Planning` · `Gadgets`
+
+Al crear el post, el agente de contenido asigna las categorías **según el contexto del post**.
+Crear una categoría nueva es una decisión de taxonomía deliberada (agregarla a
+`CONTROLLED_CATEGORIES` en `scripts/post-new.ts` y a esta lista), no algo ad-hoc: una categoría
+suelta produce una category page fina. Es un eje **ortogonal** al reverse silo: `categories` es
+taxonomía; `siloRole`/`targetPage` es estructura de enlace. La category page NO es el target page
+del silo.
 
 ### Publicar un draft
 
@@ -444,3 +467,86 @@ just post-touch mi-post-slug
 
 Documentación técnica completa: [`docs/blog-architecture.md`](docs/blog-architecture.md)
 Runbook de migración WP: [`.agents/WP_MIGRATION.md`](.agents/WP_MIGRATION.md)
+
+---
+
+## Reverse Silo del Blog
+
+El blog se construye como un **Reverse Silo** (metodología PageOptimizer Pro). El plan
+intencional de keywords y enlaces se trackea en
+`.agents/context/keywords/pop/PageOptimizer Pro _ Reverse Silo - POP.csv` (gitignoreado, local).
+
+### El modelo
+
+```
+                          TARGET PAGE (pilar)
+                          ^      ^      ^
+                          |      |      |
+   Supporting Post 1 <-> Supporting Post 2 <-> Supporting Post 3
+```
+
+1. Cada supporting post enlaza HACIA ABAJO al target page (embudo de equity).
+2. Cada post enlaza a sus hermanos ADYACENTES, en ambos sentidos (una cadena, no todos-con-todos).
+3. El target page NO devuelve enlaces hacia abajo: es un sumidero de equity. Ese flujo invertido
+   es el "reverse". Es la misma estructura que un árbol Core 30 de GBP anidado.
+
+### Los dos silos de MEG
+
+| Silo | Pilar (target page) | Target del pilar |
+| :--- | :--- | :--- |
+| audio visual rental | `/blog/audio-visual-rental/` | `/` (home) |
+| wedding rentals | `/blog/wedding-rentals/` | `/` (home) |
+
+Los supporting posts apuntan a su pilar. Los posts standalone (noticias, corporativos, migración
+WP) no pertenecen a ningún silo (`siloRole: standalone`, sin target).
+
+### Metadata de silo por contenido
+
+Cada contenido declara su rol en el silo. Fuente única de verdad; el grafo se deriva de acá.
+
+| Campo | Posts (`.svx` frontmatter) | Páginas (`meta.ts`) |
+| :--- | :--- | :--- |
+| `keyword` | frase-objetivo POP | keyword pelada |
+| `siloRole` | `pillar` / `supporting` / `both` / `standalone` | idem (solo si la página es nodo de silo) |
+| `targetPage` | URL a la que enlaza hacia arriba (pilar -> `/`, supporting -> su pilar) | idem |
+| `url` | **derivado**, NO se almacena | **derivado** del route path |
+
+Reglas `keyword` / `url`:
+- **Post**: `keyword` = la URL bajo `/blog/` (el slug de-hyphenado). Excepción: los posts near-me
+  llevan la frase POP pelada (su slug arrastra el sufijo `-in-malaga-spain`). `url` = `/blog/<slug>/`.
+- **Página**: `keyword` pelada. `url` = `/<slug>/`.
+- Ejemplos: página `/keyword/` ; post `/blog/keyword/`.
+
+Hoy ninguna página estática es nodo de silo (el silo vive 100% en el blog; el home es solo el
+sink `/`). La convención de página queda documentada para cuando una página entre a un silo.
+
+### El mapa del sitio (grafo)
+
+`.agents/site-structure-map.md` (diagrama Mermaid + árboles por silo + tabla) es un **artefacto
+DERIVADO** de la metadata de cada post. Se genera con `just site-map`
+(`scripts/gen-site-graph.ts`). **Nunca se edita a mano.**
+
+### Reglas mandatorias
+
+- Al crear o editar una página/post, declarar su metadata de silo (o `standalone`) y **regenerar
+  el mapa** con `just site-map`. El guard `scripts/site-graph/guard.test.ts` falla la suite si un
+  post no-fixture no declara `siloRole`, si un `targetPage` no resuelve, o si el mapa committeado
+  quedó desactualizado.
+- El backfill inicial se hizo con `scripts/backfill-silo-meta.ts` (idempotente) desde el CSV.
+- Caveats del CSV de POP (tenerlos presentes al leerlo o alimentarlo a un script):
+  - Usa URLs **RAÍZ ANTIGUAS** (`/<slug>/`); la estructura actual es `/blog/<slug>/` con redirects.
+    El CSV es el PLAN intencional, no el estado live.
+  - ~13 filas con `#REF!`, palabras de status (`/published`, `/draft`) o el placeholder `/Keyword`
+    en las columnas de supporting link: limpiar antes de usarlas.
+  - Algunas filas usan el slot de hermano (`Supporting link 2`) para un link comercial a una
+    página de paquete (`/wedding-pack/`) en vez de a un post hermano: no es reverse silo puro.
+
+### Herramientas (globales, cross-cliente)
+
+- `/seo:reverse-silo-review` - define un silo desde una lista de keywords, o audita el interlinking
+  existente contra el modelo.
+- `/local-seo:blog-posts-structure-review` - audita la estructura de posts del blog contra el
+  reverse silo (el análogo de `/local-seo:website-structure-review` para GBP/Core 30).
+
+Ambos delegan en el agente `reverse-silo-architect`. Son globales (`~/.claude/`): llevan solo
+metodología agnóstica y leen los hechos de MEG desde este `AGENTS.md` (Mode B).

@@ -9,14 +9,14 @@ export const GET: RequestHandler = async () => {
 
 	const urls = posts
 		.map((post) => {
-			const lastmod = toLastmod(post.updated ?? post.publishDate);
+			const lastmod = toLastmod(post.updatedDate ?? post.publishDate);
 			const imagePart =
 				post.coverImage
 					? `\n    <image:image>\n      <image:loc>${post.coverImage}</image:loc>\n    </image:image>`
 					: '';
 
 			return `  <url>
-    <loc>${BASE_URL}/blog/${post.slug}/</loc>
+    <loc>${BASE_URL}${post.url}</loc>
     <lastmod>${lastmod}</lastmod>${imagePart}
   </url>`;
 		})

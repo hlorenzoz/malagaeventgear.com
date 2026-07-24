@@ -4,12 +4,15 @@ description: "Planning a wedding involves countless details and decisions, often
 author: Hector Luis Lorenzo
 slug: questions-about-wedding-rental-policies
 publishDate: 2026-02-23
-updated: 2026-02-17
+updatedDate: 2026-02-17
 excerpt: "Planning a wedding involves countless details and decisions, often making it a daunting task for couples. One key aspect that can set the stage for a successful celebration is choosing the right wedding rental company and venue. To ensure you have a memorable and stress-free event, it’s crucial to ask the right questions during this […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1625/beach_wedding_table_decor.webp
 categories: [Weddings]
 tags: []
 draft: false
+keyword: "questions about wedding rental policies"
+siloRole: supporting
+targetPage: "/blog/wedding-rentals/"
 ---
 
 <script>

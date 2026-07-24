@@ -4,12 +4,15 @@ description: "Transform your special day with our expert wedding rentals, design
 author: Hector Luis Lorenzo
 slug: wedding-rentals
 publishDate: 2026-01-06
-updated: 2026-01-07
+updatedDate: 2026-01-07
 excerpt: "Transform your special day with our expert wedding rentals, designed to add elegance and sophistication to any celebration. Whether it’s an intimate beach ceremony or a grand countryside gala, our tailored packages offer everything you need to create unforgettable memories. From professional sound systems ensuring clarity during vows to exquisite lighting that sets the perfect […]"
 coverImage: https://cdn.malagaeventgear.com/blog/1638/wedding_rings_heart_book.webp
 categories: [Audio Visual Rental, Events, Weddings]
 tags: []
 draft: false
+keyword: "wedding rentals"
+siloRole: pillar
+targetPage: "/"
 ---
 
 <script>
