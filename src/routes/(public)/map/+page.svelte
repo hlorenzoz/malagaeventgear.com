@@ -66,6 +66,24 @@
 		}
 	}
 
+	// --- Copiar la keyword del pilar + todas las de sus supporting posts ---
+	// Usa view.silos (set COMPLETO), no el filtrado por búsqueda.
+	let copiedSilo = $state<string | null>(null);
+	let siloTimer: ReturnType<typeof setTimeout>;
+	async function copyAllKeywords(url: string) {
+		const silo = view.silos.find((s) => s.url === url);
+		if (!silo) return;
+		const text = [silo.key, ...silo.kids.map((k) => k.key)].join('\n');
+		try {
+			await navigator.clipboard.writeText(text);
+			copiedSilo = url;
+			clearTimeout(siloTimer);
+			siloTimer = setTimeout(() => (copiedSilo = null), 1600);
+		} catch {
+			copiedSilo = null;
+		}
+	}
+
 	onMount(() => {
 		let cancelled = false;
 
@@ -196,7 +214,24 @@
 		{#each filteredSilos as silo (silo.url)}
 			<div class="silo">
 				<div class="pillar-head">
-					<span class="pillar-tag"><span class="dot"></span>Pillar · target page</span>
+					<div class="pillar-top">
+						<span class="pillar-tag"><span class="dot"></span>Pillar · target page</span>
+						<button
+							type="button"
+							class="copy-all"
+							class:done={copiedSilo === silo.url}
+							title="Copy the pillar keyword + every supporting post keyword"
+							onclick={() => copyAllKeywords(silo.url)}
+						>
+							{#if copiedSilo === silo.url}
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>
+								Copied
+							{:else}
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" /><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" /></svg>
+								Copy all keywords
+							{/if}
+						</button>
+					</div>
 					<h2><a href={silo.url}>{silo.key}</a>{@render keyActions(silo.key, silo.url)}</h2>
 					<div class="pillar-meta">
 						<span class="up">↑ links to /</span> · <span class="mono">{silo.kids.length} shown</span>
@@ -348,7 +383,29 @@
 	.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 26px; }
 
 	.pillar-head { padding: 16px 18px 14px; border-bottom: 1px dashed var(--line); background: linear-gradient(180deg, color-mix(in srgb, var(--blue) 9%, transparent), transparent); }
+	.pillar-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 	.pillar-tag { font-family: ui-monospace, monospace; font-size: 11px; letter-spacing: 0.13em; text-transform: uppercase; color: var(--blue); display: inline-flex; align-items: center; gap: 7px; }
+	.copy-all {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		flex: none;
+		padding: 5px 11px;
+		border: 1px solid var(--line);
+		border-radius: 8px;
+		background: var(--panel-2);
+		color: var(--ink-dim);
+		cursor: pointer;
+		font-family: ui-monospace, monospace;
+		font-size: 11px;
+		letter-spacing: 0.04em;
+		white-space: nowrap;
+		transition: color 0.12s ease, border-color 0.12s ease;
+	}
+	.copy-all svg { width: 13px; height: 13px; }
+	.copy-all:hover { color: var(--blue); border-color: var(--blue); }
+	.copy-all:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+	.copy-all.done { color: var(--support); border-color: var(--support); }
 	.pillar-head h2 { margin: 8px 0 4px; font-size: 19px; }
 	.pillar-head h2 a { color: var(--ink); text-decoration: none; }
 	.pillar-head h2 a:hover { color: var(--blue); }
