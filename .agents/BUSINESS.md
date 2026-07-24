@@ -10,7 +10,9 @@ Comprehensive business identity, operations, service specifications, geographica
 *   **Sector:** Tienda Online de Servicios Audiovisuales en Málaga
 *   **Official Website:** [https://malagaeventgear.com/](https://malagaeventgear.com/)
 *   **Brand Slogan:** *Rent your audiovisual system for multiple occasions*
-*   **Operating Hours:** 8:00 AM – 8:00 PM, 7 days a week
+*   **Operating Hours:**
+    *   **Technical support / service delivery:** 24/7, 7 days a week
+    *   **Commercial attention (phone & digital):** 8:00 AM - 8:00 PM, 7 days a week
 *   **Proven Track Record:** 
     *   Active in the audiovisual industry since **1996**
     *   Operating as independent freelancers (Autónomos) since **2010**
