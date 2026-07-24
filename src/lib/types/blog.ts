@@ -23,7 +23,7 @@ export const BlogPostSchema = z.object({
 	//   - Article/NewsArticle JSON-LD dateModified + og:updated_time (src/lib/layouts/BlogPost.svelte)
 	//   - the visible "Updated" date on the post   (src/lib/layouts/BlogPost.svelte)
 	//   - category / author page lastmod           (maxLastmod in src/lib/data/blog-pipeline.ts)
-	//   - the site graph node freshness            (scripts/gen-site-graph.ts)
+	//   - the live site map at /map                 (src/lib/data/site-map.ts)
 	// Bump only on a real content change, never on a build (AGENTS.md 11).
 	updatedDate: z
 		.string()

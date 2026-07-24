@@ -522,16 +522,18 @@ sink `/`). La convención de página queda documentada para cuando una página e
 
 ### El mapa del sitio (grafo)
 
-`.agents/site-structure-map.md` (diagrama Mermaid + árboles por silo + tabla) es un **artefacto
-DERIVADO** de la metadata de cada post. Se genera con `just site-map`
-(`scripts/gen-site-graph.ts`). **Nunca se edita a mano.**
+La ruta **`/map`** es el mapa COMPLETO del sitio (páginas + paquetes + reverse silo del blog),
+renderizado como un **mindmap Mermaid** más secciones navegables. Es un artefacto **DERIVADO en
+vivo**: no hay archivo committeado ni paso de generación — `src/lib/data/site-map.ts`
+(`buildSiteMap`) lo computa desde el frontmatter de cada post y el catálogo de paquetes en el
+`load()` de la ruta. `/map` está **excluida de los sitemaps** (no está en `STATIC_SITEMAP_PAGES`) y
+marcada `noindex`: es una herramienta interna. **Nunca se edita a mano** (no hay nada que editar).
 
 ### Reglas mandatorias
 
-- Al crear o editar una página/post, declarar su metadata de silo (o `standalone`) y **regenerar
-  el mapa** con `just site-map`. El guard `scripts/site-graph/guard.test.ts` falla la suite si un
-  post no-fixture no declara `siloRole`, si un `targetPage` no resuelve, o si el mapa committeado
-  quedó desactualizado.
+- Al crear o editar una página/post, declarar su metadata de silo (o `standalone`). No hay mapa que
+  regenerar: `/map` deriva en vivo. El guard `src/lib/data/site-map.test.ts` (`validateSiloGraph`)
+  falla la suite si un post no-fixture no declara `siloRole` o si un `targetPage` no resuelve.
 - El backfill inicial se hizo con `scripts/backfill-silo-meta.ts` (idempotente) desde el CSV.
 - Caveats del CSV de POP (tenerlos presentes al leerlo o alimentarlo a un script):
   - Usa URLs **RAÍZ ANTIGUAS** (`/<slug>/`); la estructura actual es `/blog/<slug>/` con redirects.
