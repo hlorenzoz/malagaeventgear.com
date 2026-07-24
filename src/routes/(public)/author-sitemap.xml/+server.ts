@@ -1,12 +1,8 @@
 import { getAuthors } from '$lib/data/blog';
+import { toLastmod } from '$lib/utils/sitemap';
 import type { RequestHandler } from './$types';
 
 const BASE_URL = 'https://malagaeventgear.com';
-
-function toLastmod(dateStr: string): string {
-	const d = dateStr.split('T')[0];
-	return `${d}T00:00:00+00:00`;
-}
 
 export const GET: RequestHandler = async () => {
 	const authors = getAuthors();

@@ -1,16 +1,8 @@
 import { getAllPosts } from '$lib/data/blog';
+import { toLastmod } from '$lib/utils/sitemap';
 import type { RequestHandler } from './$types';
 
 const BASE_URL = 'https://malagaeventgear.com';
-
-/**
- * Normalises a date string (YYYY-MM-DD or ISO 8601) to YYYY-MM-DDT00:00:00+00:00
- * for consistent <lastmod> formatting (matching page-sitemap.xml pattern).
- */
-function toLastmod(dateStr: string): string {
-	const d = dateStr.split('T')[0]; // strip time part if present
-	return `${d}T00:00:00+00:00`;
-}
 
 export const GET: RequestHandler = async () => {
 	const posts = getAllPosts();

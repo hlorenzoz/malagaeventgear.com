@@ -27,7 +27,7 @@ Toda la información institucional, catálogo de equipos, áreas de servicio log
 
 ## Stack Tecnológico
 - **Frontend/Fullstack:** SvelteKit (Client-side routing para el dashboard, SSR/Prerendering para la web pública).
-- **Procesamiento de Contenido:** mdsvex (.svx — Markdown + Svelte) para el blog.
+- **Procesamiento de Contenido:** mdsvex (.svx - Markdown + Svelte) para el blog.
 - **Base de Datos:** Cloudflare D1 (SQLite) - Usaremos Drizzle ORM en el futuro.
 - **Almacenamiento/CDN:** Cloudflare R2 / Cloudflare Images.
 - **Entorno:** Node.js (desarrollo) -> Cloudflare Edge (producción).
@@ -58,18 +58,18 @@ la arquitectura. Los pasos de provisioning/deploy están en **[docs/lead-capture
   `leads/service.ts` hacen I/O. `leads/recipients.ts` resuelve destinatarios: **D1 primero, fallback a
   `LEAD_NOTIFY_EMAILS` (env)**.
 - **Email (Resend):** se usa vía `fetch` (Workers-safe), NO el SDK de Node. Plantillas **bilingües** (EN/ES)
-  reciben `locale` explícito — NO usan el store i18n del cliente. **Fallo de email NO debe revertir el lead**
+  reciben `locale` explícito - NO usan el store i18n del cliente. **Fallo de email NO debe revertir el lead**
   (se persiste estado `failed` en `email_messages` y se devuelve `leadId` igual).
 - **Cron (Worker separado):** `adapter-cloudflare` NO expone handler `scheduled` en su `_worker.js`. Por eso el
   cron vive en `workers/review-reminders/` con su propio `wrangler.toml`, bindeado a la **misma D1** y al mismo
   `RESEND_API_KEY`, reutilizando el código compartido de `src/lib/server/`. **Es un segundo target de deploy.**
 - **Anti-spam (Turnstile):** modo managed/invisible. Widget cliente con `PUBLIC_TURNSTILE_SITE_KEY`; verificación
-  server-side con `TURNSTILE_SECRET_KEY` contra **`v0/siteverify`** (NO existe `v1` — usar v0 siempre). Si el secret
+  server-side con `TURNSTILE_SECRET_KEY` contra **`v0/siteverify`** (NO existe `v1` - usar v0 siempre). Si el secret
   no está seteado, la verificación se OMITE (modo dev); con el secret presente, se ENFUERZA (fail-closed).
 - **Endpoints dinámicos vs prerender:** `/api/leads` y `/r/[token]` llevan `export const prerender = false;`
   (las páginas de paquete siguen prerenderizadas). No rompas esa coexistencia.
 - **i18n (gotcha):** el módulo activo es `$lib/i18n.svelte` y `i18n.t` es un **getter** → acceso por propiedad
-  `i18n.t.leadForm.x`, NUNCA como función `i18n.t('...')`. Hay un segundo i18n sin usar en `src/lib/i18n/` — no confundir.
+  `i18n.t.leadForm.x`, NUNCA como función `i18n.t('...')`. Hay un segundo i18n sin usar en `src/lib/i18n/` - no confundir.
 
 ### Secrets / vars (ver runbook para cómo cargarlos)
 `RESEND_API_KEY`, `RESEND_FROM`, `TURNSTILE_SECRET_KEY` (secrets) · `LEAD_NOTIFY_EMAILS`,
@@ -86,12 +86,161 @@ Cuando detectes o inicies una tarea en este proyecto, **cargá inmediatamente** 
 | **Componentes y Reactividad**<br>Eventos, stores, lógica de renderizado, y sintaxis de Svelte 5. | `svelte-core-bestpractices [Local]`<br>`svelte-code-writer [Local]` | Buenas prácticas de Svelte 5, modularidad, tipado estricto y aserciones. |
 | **Estética y Visuales Premium**<br>Uso de variables CSS, glassmorphism, paleta de colores (DESIGN.md), y micro-animaciones. | `ui-ux-pro-max [Global]`<br>`frontend-design [Global]`<br>`high-end-visual-design [Global]`<br>`glassmorphism [Global]`<br>`minimalist-ui [Global]` | Wow-factor visual, glassmorphism sofisticado, paletas balanceadas e interacciones fluidas. |
 | **HTML5 & CSS Moderno**<br>Efectos de scroll, View Transitions, container queries, :has(), y APIs nativas del DOM. | `modern-web-guidance [Local]` | Estándares HTML5, optimización visual y compatibilidad con APIs de navegador avanzadas. |
-| **SEO, Contenido & Conversión**<br>Estrategia SEO, auditorías locales/técnicas, E-E-A-T, backlinks, topic clustering, copywriting y CRO. | Ver **[SEO.md](file:///Users/hlorenzoz/databank/Development/%5BMEG%20-%20Malaga%20Event%20Gear%20%28malagaeventgear.com%29%5D/projects/website/SEO.md)** | **MANDATORIO:** Todo el enrutamiento de skills SEO (locales/globales), el Diccionario de Habilidades y las pautas de redacción se han trasladado a **[SEO.md](file:///Users/hlorenzoz/databank/Development/%5BMEG%20-%20Malaga%20Event%20Gear%20%28malagaeventgear.com%29%5D/projects/website/SEO.md)**. Consultá ese archivo antes de cualquier tarea de contenido o SEO. |
+| **SEO, Contenido & Conversión**<br>Estrategia SEO, auditorías locales/técnicas, E-E-A-T, backlinks, topic clustering, copywriting y CRO. | Ver **[SEO y Contenido: agentes globales](#seo-y-contenido-agentes-globales)** y **[SEO.md](SEO.md)** | **MANDATORIO:** para SEO técnico, estructura local (GBP) y E-E-A-T, la sección "SEO y Contenido: agentes globales" (más abajo) es el contrato operativo; `SEO.md` es la estrategia de contenido. Orden de precedencia ante conflicto: **PDF de Google > esta sección > SEO.md**. |
 | **Rendimiento & Cloudflare**<br>Diagnóstico de cuellos de botella de JS, Edge Rendering, Wrangler y restricciones de Cloudflare Workers/Pages. | `performance-investigation [Local]`<br>`cloudflare-guard [Global]`<br>`cloudflare [Global]`<br>`cloudflare-deploy [Global]`<br>`workers-best-practices [Global]`<br>`wrangler [Global]`<br>`performance [Global]`<br>`web-perf [Global]`<br>**`lighthouse [Global]` + `chrome-devtools-mcp` (MANDATORIO, ver §10)** | Edge compatibility, wrangler config, optimizaciones críticas de carga y eliminación de scripts bloqueantes. Medición real de CWV con `chrome-devtools-mcp` y validación con `lighthouse`. |
 | **Mobile & PWA Readiness**<br>Compatibilidad PWA, touch targets (mín 44px), safe areas (safe-area-inset-*), notch compliance y Capacitor. | `mobile-readiness-lead [Global]` | Compatibilidad fluida con dispositivos móviles y preparación Capacitor/PWA. |
 | **Accesibilidad (a11y)**<br>Navegación por teclado, etiquetas ARIA, contraste WCAG 2.1 AA, y semántica HTML5. | `a11y-debugging [Global]` | Accesibilidad web global, inclusión, usabilidad y SEO Holístico. |
 | **Testing de Interfaces**<br>Validación visual, logs del navegador, y pruebas de integración locales con Playwright. | `webapp-testing [Global]`<br>`e2e-testing-patterns [Global]`<br>`tdd [Global]`<br>`test-driven-development [Global]` | Pruebas de integración automatizadas, desarrollo guiado por pruebas (TDD) y Playwright. |
 | **Seguridad & Autenticación**<br>Protección contra ataques en la web, flujos de sesión del CRM y seguridad de base de datos. | `security-best-practices [Global]`<br>`better-auth-best-practices [Global]` | Prácticas sólidas de autenticación, escape de entradas de usuario y robustez de APIs. |
+
+## SEO y Contenido: agentes globales
+
+Cuatro agentes de SEO/Local-SEO y sus comandos están instalados de forma **global**, no en
+este repo. Son compartidos por todos los proyectos de cliente.
+
+### Dónde viven (y por qué no están en el repo)
+
+| Tipo | Ubicación |
+| :--- | :--- |
+| Agentes | `~/.claude/agents/` (`seo-auditor`, `seo-fixer`, `gbp-site-architect`, `local-content-writer`) |
+| Comandos | `~/.claude/commands/seo/`, `~/.claude/commands/local-seo/` |
+| Search Quality Rater Guidelines (PDF) | `~/.agents/context/google-eeat-guideline/searchqualityevaluatorguidelines.pdf` |
+
+Dos consecuencias. **No sobreviven a un clone limpio**: una máquina nueva los instala
+aparte. Y **editar un agente global afecta a TODOS los clientes** a la vez, así que nunca se
+edita un agente global para adaptarlo a este proyecto: se hace que el proyecto se
+autodescriba (ver "Lo que este proyecto declara").
+
+Prohibido copiar aquí la metodología Core 30, las reglas de E-E-A-T o los checklists de
+auditoría. `gbp-site-architect` tiene la metodología; `seo-auditor` tiene el checklist. Una
+segunda copia deriva en silencio porque son instrucciones en prosa, no código.
+
+### Contexto global vs por proyecto
+
+- `~/.agents/context/` es material **global**, idéntico para todo cliente (ahí vive el PDF de
+  Google; se direcciona con el prefijo `~/`).
+- `.agents/context/` es material de **este** cliente y está **gitignoreado a propósito**
+  ([.gitignore](.gitignore), regla de "scraped/downloaded research context"): es local y no
+  re-creable desde un clone. Un agente que NO lo encuentre debe DECIR que corrió sin ese
+  dato, jamás inventarlo.
+- Layout esperado cuando se agregue material: `Google Search Console Errors/YYYY-MM-DD/` (una
+  carpeta fechada por export; los agentes globean la MÁS RECIENTE, nunca hardcodean fecha),
+  `gbp/`, `brief/`.
+- Contenido real hoy: `gmbeverywhere.com/meg/generic.md` (catálogo de categorías GBP y
+  servicios candidatos por categoría), `REPORT_Merchant_Center.md`, `REPORT_Universal_Cart.md`.
+  **No hay export de GSC**: toda auditoría debe declarar que corrió sin datos de Search Console.
+
+### El orden de operaciones
+
+Estructura antes que contenido, contenido antes que auditoría, auditoría antes que fix. Cada
+paso lee lo que guardó el anterior, y dos se niegan a correr sin ello.
+
+| Comando | Argumento | Escribe | Requisito duro |
+| :--- | :--- | :--- | :--- |
+| `/local-seo:website-structure-review` | URL o nombre del negocio; vacío = audita este repo | `gbp-structure/{slug}` | ninguno |
+| `/local-seo:create-supporting-content` | lista de páginas / servicio; vacío = batch del gap Core 30 | `gbp-content/{slug}/{page-slug}` | BLOQUEA sin `gbp-structure/{slug}` |
+| `/seo:review` | vacío = último commit, `working`, `all`, una ruta o una URL | `seo-audit/{slug}` | ninguno |
+| `/seo:fix` | findings/páginas; vacío = arregla la última review | `seo-fix/{slug}` | BLOQUEA (`status: blocked`) sin auditoría |
+
+- `/seo:review` es **report-only por capacidad**: `seo-auditor` no tiene tools Write ni Edit,
+  así que el contrato lo impone la capacidad, no la instrucción. `/seo:fix` es el único que
+  edita código.
+- El slug de ESTE proyecto es **`malagaeventgear.com`** (`mem_current_project`, si no, el
+  nombre del directorio del repo). Nunca se arrastra el slug de otro cliente, o los findings
+  de un negocio terminan escritos en otro.
+- Separación deliberada: `gbp-site-architect` para **ESTRUCTURA** (el árbol de URLs que
+  espeja la jerarquía del GBP); `seo-auditor` para **SEÑALES** (schema, consistencia NAP,
+  rastreabilidad, on-page). No se le pide a uno el trabajo del otro.
+
+### E-E-A-T: leer el PDF, nunca contestar de memoria
+
+Ante CUALQUIER pregunta de E-E-A-T, leé
+`~/.agents/context/google-eeat-guideline/searchqualityevaluatorguidelines.pdf` antes de
+responder (Read tool, parámetro `pages`). No un blog, no memoria de entrenamiento, no este
+archivo. Si el PDF y otra fuente discrepan, gana el PDF, incluido cuando la otra fuente es
+este archivo o `SEO.md`.
+
+| Pregunta | Sección |
+| :--- | :--- |
+| Qué significa E-E-A-T | 3.4 (p. 26) |
+| Reputación, y qué hacer cuando no hay | 3.3.4 - 3.3.5 (p. 25) |
+| Scaled content abuse, contenido generado por IA | 4.6.5 - 4.6.6 (p. 42) |
+| Qué exige la calificación Lowest | 4.0 - 4.1 (p. 29-31) |
+| Información escasa sobre el negocio | 5.5 - 5.6 (p. 63) |
+| Qué aspecto tiene la calidad High | 7.0 - 7.3 (p. 71-73) |
+
+Tres puntos que casi todos citan mal, no los repitas de memoria:
+
+1. **Trust es el CENTRO** de E-E-A-T, no un cuarto par. Experience, Expertise y
+   Authoritativeness existen para sostener la evaluación de Trust. Si una página no es
+   confiable por cualquier razón, tiene E-E-A-T bajo.
+2. **Authoritativeness** es ser la fuente de referencia SOBRE el tema, no enlazar hacia
+   fuentes autorizadas. Un negocio local es la fuente autoritativa sobre sí mismo. (Esto
+   contradice explícitamente a `SEO.md`, que sugiere enlazar afuera para "construir
+   autoridad"; gana el PDF.)
+3. **Reputación ausente NO es señal negativa** para un negocio chico. Una página puede
+   calificar High sin información de reputación. Nunca bloquees una página por no tenerla.
+
+### Cuándo NO usar estos agentes
+
+| Necesidad | Usar en su lugar |
+| :--- | :--- |
+| Copy de una sola página | skill `copywriting` |
+| Auditoría técnica (crawl/velocidad/meta) | skill `seo-audit` |
+| Muchas páginas desde una plantilla | skill `programmatic-seo` |
+| Datos estructurados / JSON-LD | skill `schema` |
+
+## Lo que este proyecto declara (para que los agentes globales funcionen)
+
+Los agentes globales no asumen nada sobre el stack. Una adivinanza sobre el build o la salida
+del build produce auditorías que suenan seguras y son falsas. Estos son los hechos:
+
+- **Build**: `bun run build` (= `wrangler types` + `bun scripts/fix-types.ts` + `vite build`).
+  El HTML prerenderizado aterriza en **`.svelte-kit/cloudflare/`** (92 archivos `.html`).
+  Preview de producción: `bun run preview` (puerto 4173). Dev: puerto 5173. NO es `out/` ni
+  `dist/`, y NO se asume `bun run build` sin los pasos de `wrangler types` / `fix-types.ts`.
+- **Fuentes únicas de verdad**:
+
+  | Qué | Dónde |
+  | :--- | :--- |
+  | Canonical | Por página en `+page.svelte` vía `SeoHead canonicalUrl`, siempre con trailing slash. Paquetes y blog lo derivan de `siteConfig.url` |
+  | Hreflang | NO existe: el sitio es una sola URL en inglés con i18n de cliente. `SeoHead` solo emite `og:locale:alternate`. Un agente que pida hreflang está pidiendo una arquitectura que el sitio no tiene |
+  | Registro de rutas | No hay uno central: `STATIC_SITEMAP_PAGES` en `src/lib/utils/sitemap.ts` + `packages[].route` + glob de `src/content/blog/*.svx` |
+  | Datos estructurados (JSON-LD) | `src/lib/utils/schema.ts` (constructores). Docs: `docs/structured-data.md`, `.agents/STRUCTURED_DATA.md` |
+  | Metadatos de página | `src/lib/components/seo/SeoHead.svelte` |
+  | NAP y negocio | `src/lib/data/site.ts` |
+  | Precios y paquetes | `src/lib/data/packages.ts` (ver sección 7) |
+  | Copy / i18n | `src/lib/i18n.svelte.ts` (`i18n.t` es GETTER: `i18n.t.x`, NUNCA `i18n.t('x')`) |
+  | Contenido editorial (blog) | `src/content/blog/*.svx` |
+  | Headers y redirects | `_headers`, `_redirects` |
+  | Endpoint para LLMs | `src/routes/(public)/llms.txt/+server.ts` (derivado, nunca hardcodeado) |
+  | Frescura de páginas estáticas | `meta.ts` colocado junto a cada ruta (`contentUpdated`), consumido por `page-sitemap.xml` |
+
+- **Suite de tests** (correrla en vez de reinventar aserciones): `bunx playwright test` (134
+  specs en `tests/`); las específicas de SEO son `schema.spec.ts`, `sitemaps.spec.ts`,
+  `opengraph.spec.ts`, `breadcrumbs.spec.ts`, `llms-txt.spec.ts`, `pricing-consistency.spec.ts`,
+  `faq.spec.ts`. Unitarios/lógica de datos: `bun run test` (vitest). Performance:
+  `just test-lighthouse`.
+- **NAP exacto** (de `site.ts`, debe coincidir carácter por carácter en cada mención del sitio):
+  - Name: `Malaga Event Gear`
+  - Address: `Av. de Barcelona, 34, Distrito Centro, 29009 Málaga`
+  - Phone: `+34 600 42 87 50`
+- **GBP**: categoría primaria `Audio Visual Equipment Hire Service` (primera de
+  `siteConfig.categories`; confirmar contra la ficha viva antes de trabajo de estructura);
+  secundarias: `Party equipment rental service`, `Stage lighting equipment supplier`,
+  `Video conferencing equipment supplier`. Áreas de servicio: las 23 localidades de
+  `siteConfig.serviceAreas`. Catálogo de categorías y servicios candidatos:
+  `.agents/context/gmbeverywhere.com/meg/generic.md`.
+
+## Honestidad (sobreescribe cualquier regla anterior)
+
+- Nunca inventes un específico que el negocio no pueda verificar: años en el mercado, cantidad
+  de clientes, facturación, número de reseñas. Bajo la guía de Google un específico no
+  verificable es peor que un general honesto.
+- Si faltan datos de GSC o GBP, decí que el trabajo corrió sin ellos. No des a entender que se
+  chequearon.
+- Nunca reportes un check renderizado como PASS desde un build viejo. Si el build falta o es
+  más viejo que el fuente, marcá esos checks NEEDS BUILD y decilo.
 
 ## Sistema de Diseño
 
@@ -117,9 +266,9 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
 - Las directrices técnicas de arquitectura y optimización SEO (cero errores de rastreo, inyección JSON-LD estructurado, optimización de imágenes y rendimiento LCP) se han consolidado y se mantienen bajo control estricto en **[SEO.md](file:///Users/hlorenzoz/databank/Development/%5BMEG%20-%20Malaga%20Event%20Gear%20%28malagaeventgear.com%29%5D/projects/website/SEO.md)**. Es obligatorio que el desarrollador/asistente de IA consulte y aplique dichas directrices para toda ruta pública del sitio.
 - **Estandarización de URLs**: Cada URL interna debe terminar estrictamente en `/` (trailing slash) (por ejemplo, `/packages/`, `/about-us/`, `/contact-us/`). Esto es mandatorio para garantizar la consistencia en el rastreo SEO, evitar duplicidad de contenido y alinear la navegación.
 - **Estrategia de Datos Estructurados Obligatoria**: Cada página pública debe llevar sus datos estructurados correspondientes según su tipo de contenido, tal y como se detalla en **[.agents/STRUCTURED_DATA.md](file:///Users/hlorenzoz/databank/Development/%5BMEG%20-%20Malaga%20Event%20Gear%20%28malagaeventgear.com%29%5D/projects/website/.agents/STRUCTURED_DATA.md)**. Todos los metadatos deben provenir de la configuración única en `src/lib/data/site.ts` y generarse mediante el helper unificado `src/lib/utils/schema.ts` para evitar la duplicación de datos. El layout principal público gestiona automáticamente los esquemas globales (`LocalBusiness` y el `BreadcrumbList` dinámico), mientras que las páginas específicas inyectan sus esquemas locales correspondientes (`Service`, `ItemList`, `FAQPage`, `Article`) mediante el componente unificado `SeoHead.svelte`.
-- **Datos estructurados — convenciones implementadas** (mantener al tocar `schema.ts`):
+- **Datos estructurados - convenciones implementadas** (mantener al tocar `schema.ts`):
   1. **Última miga del breadcrumb = título real**: `buildBreadcrumbsSchema(pathname, leafName?)` usa `leafName` para el último crumb cuando se provee; el layout público pasa `data.post.title` (posts) o `data.pkg.name` (paquetes), con fallback al slug capitalizado. NO volver a derivar el nombre del slug para páginas con título disponible.
-  2. **`publisher` por `@id`**: en `buildArticleSchema`, `publisher` referencia el nodo canónico `{"@id": "…/#organization"}` (emitido por el layout vía `buildLocalBusinessSchema`), igual que `buildWebSiteSchema` / `buildServiceSchema`. NO redefinir una `Organization` parcial inline.
+  2. **`publisher` por `@id`**: en `buildArticleSchema`, `publisher` referencia el nodo canónico `{"@id": ".../#organization"}` (emitido por el layout vía `buildLocalBusinessSchema`), igual que `buildWebSiteSchema` / `buildServiceSchema`. NO redefinir una `Organization` parcial inline.
 - **Actualización Obligatoria de Sitemaps**: Cada vez que se cree, actualice o elimine una página, ruta dinámica de catálogo o artículo de blog (.svx), es estrictamente mandatorio verificar y actualizar su endpoint de sitemap XML correspondiente (ej. `page-sitemap.xml`, `post-sitemap.xml`) para asegurar la indexación inmediata y la consistencia en el presupuesto de rastreo de Google.
 
 
@@ -155,10 +304,10 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
   | Packs destacados de la home | `getHomepageShowcasePackages()` |
   | Moneda / símbolo / IVA | `CURRENCY`, `CURRENCY_SYMBOL`, `VAT_RATE` |
 
-- **Un único nodo `#organization`:** el `priceRange` (y todo el NAP) se emite **solo** desde `buildLocalBusinessSchema()` en `src/lib/utils/schema.ts`, que lo deriva del catálogo. Las páginas que necesiten referirse a la empresa lo hacen **por `@id`** (`{'@id': '…/#organization'}`), nunca redefiniendo el nodo. Redefinirlo ya produjo dos verdades simultáneas (`'€€'` en `schema.ts` vs `'290€ - 650€'` en `/about-us/`, con direcciones distintas).
-- **Guard automático:** `src/lib/data/no-hardcoded-prices.test.ts` escanea todo `src/**` (excepto `src/content/**`, que es copy editorial) y **falla la suite** ante cualquier literal `€290` / `290 €` / `290 EUR`. Si tu cambio lo rompe, la solución es importar el helper — **no** ampliar el allowlist.
+- **Un único nodo `#organization`:** el `priceRange` (y todo el NAP) se emite **solo** desde `buildLocalBusinessSchema()` en `src/lib/utils/schema.ts`, que lo deriva del catálogo. Las páginas que necesiten referirse a la empresa lo hacen **por `@id`** (`{'@id': '.../#organization'}`), nunca redefiniendo el nodo. Redefinirlo ya produjo dos verdades simultáneas (`'€€'` en `schema.ts` vs `'290€ - 650€'` en `/about-us/`, con direcciones distintas).
+- **Guard automático:** `src/lib/data/no-hardcoded-prices.test.ts` escanea todo `src/**` (excepto `src/content/**`, que es copy editorial) y **falla la suite** ante cualquier literal `€290` / `290 €` / `290 EUR`. Si tu cambio lo rompe, la solución es importar el helper - **no** ampliar el allowlist.
 
-**Excepción documentada — contenido editorial:** los posts del blog (`src/content/blog/*.svx`) y sus FAQs extraídas (`src/lib/data/post-faqs.json`) contienen precios orientativos históricos (`desde €290+`). Son prosa firmada con su propia fecha de publicación, no datos de catálogo, y quedan **fuera** del guard. Si cambian las tarifas, revisalos a mano.
+**Excepción documentada - contenido editorial:** los posts del blog (`src/content/blog/*.svx`) y sus FAQs extraídas (`src/lib/data/post-faqs.json`) contienen precios orientativos históricos (`desde €290+`). Son prosa firmada con su propia fecha de publicación, no datos de catálogo, y quedan **fuera** del guard. Si cambian las tarifas, revisalos a mano.
 
 ### 8. Pruebas E2E Obligatorias (Mandatorio)
 - **Pruebas de integración:** Para cada nueva implementación, diseño, refactorización o adición de páginas, se deben crear o actualizar las pruebas E2E correspondientes (usando Playwright bajo la carpeta `tests/`) para asegurar la completa integridad, responsividad y correcto funcionamiento libre de regresiones.
@@ -173,11 +322,51 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
   3. **Validar contra `.lighthouserc.json`** ejecutando `bunx @lhci/cli autorun` (levanta `bun run preview` y audita todas las páginas públicas) antes de dar por cerrada cualquier tarea de performance.
 - **Prohibido optimizar a ciegas:** No se aplican cambios de performance basados solo en intuición; toda optimización debe partir de una medición (`chrome-devtools-mcp` / `lighthouse`) y verificarse con otra medición posterior.
 
+### 11. Fechas de Frescura (Mandatorio)
+
+La frescura es una señal de Trust. Fechas que se contradicen entre el sitemap, los datos
+estructurados y la página visible son PEORES que no tener fechas, porque prueban que el
+mantenimiento no es real.
+
+- Cada vez que se crea o modifica el contenido de una página, se actualiza su fecha de
+  modificación en TODOS los lugares que la llevan, en el mismo cambio. Nunca dejar una atrás.
+- La fecha vive **AL LADO** del contenido, nunca en una segunda lista mantenida a mano.
+- `datePublished` se fija una vez, en la creación, y **NUNCA** se bumpea en una edición.
+- **Prohibido el timestamp de build.** Afirmar que toda página cambió en cada deploy le
+  enseña a los crawlers a ignorar el campo.
+- Bumpear solo ante un cambio real de contenido. Un typo no es un cambio de contenido.
+- Una página que lista otras páginas (el sitemap HTML `/sitemap/`) mueve su fecha cuando se
+  agrega una página a su lista.
+- **Mapa concreto en este proyecto:**
+  - Blog: campo `updated` del frontmatter (`just post-touch <slug>`), que alimenta el
+    `<lastmod>` de `post-sitemap.xml` y el `dateModified` del `Article` (JSON-LD).
+  - Páginas estáticas: `contentUpdated` en el `meta.ts` colocado junto a cada ruta
+    (`src/routes/(public)/<ruta>/meta.ts`), consumido por `page-sitemap.xml`.
+  - Paquetes: campo `updated` en `src/lib/data/packages.ts` (validado por Zod).
+  - Guard automático: `src/lib/data/sitemap-freshness.test.ts` falla la suite si una ruta o
+    un paquete no declara su fecha. La solución es declarar la fecha, nunca ampliar un allowlist.
+
+### 12. Sin Caracteres Tipográficos de IA (Mandatorio)
+
+Solo ASCII para puntuación, en todo archivo: contenido, código, comentarios, commits, tests y
+scripts.
+
+| Prohibido | Usar en su lugar |
+| :--- | :--- |
+| Raya (em dash) | coma, dos puntos, punto o paréntesis; `-` en código y etiquetas |
+| Semirraya (en dash) | `-`, o `to`/`a` para rangos |
+| Comillas curvas | `'` y `"` |
+| Puntos suspensivos de un carácter | `...` |
+| Espacio duro (nbsp) | espacio normal |
+
+**Aclaración**: esto NO significa borrar tildes ni la ñ. `Málaga` y `configuración` son
+idioma, no tipografía de IA, y se mantienen. Solo se prohíben los caracteres de la tabla.
+
 ---
 
 ## Blog Content Authoring
 
-El blog usa **mdsvex** con archivos `.svx` (Markdown + Svelte). No es MDX — es `.svx`.
+El blog usa **mdsvex** con archivos `.svx` (Markdown + Svelte). No es MDX - es `.svx`.
 
 ### Dónde viven los posts
 
@@ -198,12 +387,12 @@ Esto crea `src/content/blog/<slug>.svx` con frontmatter válido y `draft: true`.
 
 | Campo | Cuándo usarlo |
 |-------|--------------|
-| `publishDate` | Fecha de primera publicación — cuándo el post aparece en el sitio. **Inmutable** después del primer deploy. |
+| `publishDate` | Fecha de primera publicación - cuándo el post aparece en el sitio. **Inmutable** después del primer deploy. |
 | `updated` | Última modificación significativa. Actualizar con `just post-touch <slug>`. **Drives sitemap lastmod.** |
 
-No existe un campo `date` en el schema — `publishDate` es la fecha de creación/publicación.
+No existe un campo `date` en el schema - `publishDate` es la fecha de creación/publicación.
 
-> **Datos estructurados — fechas (Article/NewsArticle) — gotcha verificado:** Google exige
+> **Datos estructurados - fechas (Article/NewsArticle) - gotcha verificado:** Google exige
 > `datePublished`/`dateModified` en ISO 8601 completo **con offset de zona horaria**
 > (ej. `2026-06-15T09:00:00+02:00`). Un valor **solo-fecha** `YYYY-MM-DD` dispara los avisos
 > *"el valor de fecha y hora no es válido"* / *"falta la zona horaria"* en el test de Rich Results.
@@ -217,7 +406,7 @@ No existe un campo `date` en el schema — `publishDate` es la fecha de creació
 
 ### Reglas del body
 
-1. **NO repetir el título como `<h1>`** — el layout (`BlogPost.svelte`) ya lo renderiza.
+1. **NO repetir el título como `<h1>`** - el layout (`BlogPost.svelte`) ya lo renderiza.
 2. Empezar directamente con el contenido (párrafo o `## Subtítulo`).
 3. Las imágenes deben estar en R2 (`cdn.malagaeventgear.com`) o ser URLs absolutas.
 
@@ -228,8 +417,8 @@ title: "Título del post"               # requerido, min 1 char
 description: "Descripción SEO..."      # requerido, min 10 chars
 author: "Hector Luis Lorenzo"          # display name (no slug)
 publishDate: "2026-06-07"              # YYYY-MM-DD
-excerpt: "Resumen visible..."          # requerido, min 10 chars — aparece en listados
-coverImage: "https://cdn.malagaeventgear.com/..."  # requerido — URL completa
+excerpt: "Resumen visible..."          # requerido, min 10 chars - aparece en listados
+coverImage: "https://cdn.malagaeventgear.com/..."  # requerido - URL completa
 categories:                            # array de strings (display names)
   - "Events"
 tags: []

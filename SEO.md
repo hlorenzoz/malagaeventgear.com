@@ -22,7 +22,7 @@ Over **71.5% of consumers** now use LLMs/chatbots (ChatGPT, Perplexity, Claude, 
 
 Search engines are transitioning from strict keyword-based indexing to semantic, topic-based indexing.
 
-*   **Build Pillar Hubs:** Create high-value, comprehensive pillar pages surrounded by **10–20+ tightly themed spoke articles** (depending on the topic's breadth).
+*   **Build Pillar Hubs:** Create high-value, comprehensive pillar pages surrounded by **10-20+ tightly themed spoke articles** (depending on the topic's breadth).
 *   **Complete Topical Coverage:** Leave zero information gaps. Exhaustively cover every query, subtopic, and angle within your niche (leverage Ahrefs, Semrush, or LLM mapping).
 *   **Expert Knowledge Architecture:** Implement a deliberate, structured internal linking strategy that establishes semantic hierarchy and flows link equity dynamically between hub and spoke.
 *   **Continuous Freshness:** Regularly refresh older articles with updated statistics, fresh expert quotes, and links to newer spoke content to keep topical relevance alive.
@@ -54,7 +54,7 @@ Visual and video content drives significantly higher engagement, dwell time, and
 
 With informational queries triggering AI Overviews (AIO) up to 59% of the time, capturing commercial intent and maximizing conversion value is crucial.
 
-*   **Target Transactional & Commercial Intent:** Focus heavily on low-funnel queries (e.g., *"[Product A] vs [Product B]"*, *"Best [Product] for [Specific Use-Case]"*). These commercial queries trigger AIOs far less frequently (only 3–5% of the time).
+*   **Target Transactional & Commercial Intent:** Focus heavily on low-funnel queries (e.g., *"[Product A] vs [Product B]"*, *"Best [Product] for [Specific Use-Case]"*). These commercial queries trigger AIOs far less frequently (only 3-5% of the time).
 *   **Conversion Rate Optimization (CRO):** Maximize revenue per session by continuously testing headlines, value propositions, call-to-action (CTA) button copy, positioning, and page layouts.
 *   **Behavioral Diagnostics:** Utilize heatmap and session recording tools (e.g., Hotjar, Mouseflow) to pinpoint friction points, user drop-offs, and optimize navigation pathways.
 
@@ -135,7 +135,7 @@ Para tareas específicas de análisis y creación de contenidos en este proyecto
 Estas pautas de SEO Técnico y Arquitectura deben cumplirse de manera estricta en el desarrollo frontend:
 
 *   **Cero errores de rastreo:** Todo enlace interno debe ser una etiqueta `<a>` válida con un atributo `href`. No uses botones con eventos `on:click` para la navegación a menos que sea una interacción exclusiva dentro del Dashboard privado.
-*   **Generative SEO (JSON-LD):** Cada ruta pública debe inyectar dinámicamente datos estructurados (Schema.org) en formato JSON-LD. Esto se gestiona desde los Loaders de SvelteKit (`+page.server.ts`) o se extrae del *Frontmatter* de los archivos `.mdx` del blog.
+*   **Generative SEO (JSON-LD):** Cada ruta pública debe inyectar dinámicamente datos estructurados (Schema.org) en formato JSON-LD. Esto se gestiona desde los Loaders de SvelteKit (`+page.server.ts`) o se extrae del *Frontmatter* de los archivos `.svx` del blog (mdsvex, no MDX).
 *   **Optimización del Rendimiento & LCP:** Las imágenes en las rutas públicas deben usar formatos modernos (WebP/AVIF), incluir explícitamente atributos `width` y `height`, e implementar `loading="lazy"` y `decoding="async"` (excepto la imagen principal del *Hero*, que debe llevar `loading="eager"` o `fetchpriority="high"` para evitar retrasar el LCP).
 
 ---
