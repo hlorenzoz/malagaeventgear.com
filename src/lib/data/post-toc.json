@@ -1616,6 +1616,31 @@
       "level": 2
     },
     {
+      "id": "our-audio-visual-rental-packages",
+      "text": "Our Audio Visual Rental Packages",
+      "level": 2
+    },
+    {
+      "id": "audio-visual-equipment-we-rent-in-malaga",
+      "text": "Audio Visual Equipment We Rent in Malaga",
+      "level": 2
+    },
+    {
+      "id": "serving-malaga-and-the-whole-costa-del-sol",
+      "text": "Serving Malaga and the Whole Costa del Sol",
+      "level": 2
+    },
+    {
+      "id": "delivery-setup-and-teardown-included",
+      "text": "Delivery, Setup and Teardown Included",
+      "level": 2
+    },
+    {
+      "id": "a-look-at-our-recent-event-setups",
+      "text": "A Look at Our Recent Event Setups",
+      "level": 2
+    },
+    {
       "id": "tailored-event-packages-for-every-occasion",
       "text": "Tailored Event Packages for Every Occasion",
       "level": 3
@@ -1641,8 +1666,8 @@
       "level": 3
     },
     {
-      "id": "creating-memorable-celebrations-with-wedding-and-party-packs",
-      "text": "Creating Memorable Celebrations with Wedding and Party Packs",
+      "id": "creating-memorable-celebrations-with-wedding-and-eco-packs",
+      "text": "Creating Memorable Celebrations with Wedding and Eco Packs",
       "level": 2
     },
     {
@@ -1681,13 +1706,28 @@
       "level": 3
     },
     {
-      "id": "what-makes-malaga-event-gears-wedding-and-party-packs-unique",
-      "text": "What makes Malaga Event Gear’s wedding and party packs unique?",
+      "id": "what-makes-malaga-event-gears-wedding-and-eco-packs-unique",
+      "text": "What makes Malaga Event Gear’s wedding and Eco Packs unique?",
       "level": 3
     },
     {
       "id": "how-can-i-book-audiovisual-equipment-from-malaga-event-gear",
       "text": "How can I book audiovisual equipment from Malaga Event Gear?",
+      "level": 3
+    },
+    {
+      "id": "how-much-does-audio-visual-rental-cost-in-malaga",
+      "text": "How much does audio visual rental cost in Malaga?",
+      "level": 3
+    },
+    {
+      "id": "what-audio-visual-equipment-can-i-rent-from-malaga-event-gear",
+      "text": "What audio visual equipment can I rent from Malaga Event Gear?",
+      "level": 3
+    },
+    {
+      "id": "what-areas-does-malaga-event-gear-serve",
+      "text": "What areas does Malaga Event Gear serve?",
       "level": 3
     }
   ],
