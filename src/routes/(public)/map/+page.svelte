@@ -2,6 +2,10 @@
 	import { onMount } from 'svelte';
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
 	import { i18n } from '$lib/i18n.svelte';
+	import { siteConfig } from '$lib/data/site';
+
+	// URL absoluta lista para pegar en cualquier lado.
+	const abs = (path: string) => `${siteConfig.url}${path}`;
 
 	let { data } = $props();
 	const view = $derived(data.view);
@@ -45,6 +49,20 @@
 			setTimeout(() => (copied = false), 1600);
 		} catch {
 			copied = false;
+		}
+	}
+
+	// --- Copiar una keyword al portapapeles (hover reveal) ---
+	let copiedKey = $state<string | null>(null);
+	let keyTimer: ReturnType<typeof setTimeout>;
+	async function copyKey(text: string) {
+		try {
+			await navigator.clipboard.writeText(text);
+			copiedKey = text;
+			clearTimeout(keyTimer);
+			keyTimer = setTimeout(() => (copiedKey = null), 1400);
+		} catch {
+			copiedKey = null;
 		}
 	}
 
@@ -99,6 +117,36 @@
 <SeoHead {title} {description} canonicalUrl="https://malagaeventgear.com/map/" noindex={true} />
 
 <div class="map">
+	{#snippet copyBtn(value: string, variant: 'key' | 'url')}
+		<button
+			type="button"
+			class="kcopy"
+			class:done={copiedKey === value}
+			title={variant === 'url' ? 'Copy post URL' : 'Copy keyword'}
+			aria-label={variant === 'url' ? `Copy URL: ${value}` : `Copy keyword: ${value}`}
+			onclick={(e) => {
+				e.preventDefault();
+				e.stopPropagation();
+				copyKey(value);
+			}}
+		>
+			{#if copiedKey === value}
+				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>
+			{:else if variant === 'url'}
+				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" /><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" /></svg>
+			{:else}
+				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" /><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" /></svg>
+			{/if}
+		</button>
+	{/snippet}
+
+	{#snippet keyActions(keyText: string, url: string)}
+		<span class="kactions">
+			{@render copyBtn(keyText, 'key')}
+			{@render copyBtn(abs(url), 'url')}
+		</span>
+	{/snippet}
+
 	<header class="hero">
 		<p class="eyebrow">Reverse silo · internal linking</p>
 		<h1>Site map</h1>
@@ -149,7 +197,7 @@
 			<div class="silo">
 				<div class="pillar-head">
 					<span class="pillar-tag"><span class="dot"></span>Pillar · target page</span>
-					<h2><a href={silo.url}>{silo.key}</a></h2>
+					<h2><a href={silo.url}>{silo.key}</a>{@render keyActions(silo.key, silo.url)}</h2>
 					<div class="pillar-meta">
 						<span class="up">↑ links to /</span> · <span class="mono">{silo.kids.length} shown</span>
 						{#if silo.updated} · updated {silo.updated}{/if}
@@ -157,7 +205,7 @@
 				</div>
 				<ul class="kids">
 					{#each silo.kids as kid (kid.url)}
-						<li><a href={kid.url}><span class="k-dot support"></span><span class="k-key">{kid.key}</span>{#if kid.updated}<span class="k-date">{kid.updated}</span>{:else}<span class="k-date stale">— never</span>{/if}</a></li>
+						<li><a href={kid.url}><span class="k-dot support"></span><span class="k-key">{kid.key}</span>{#if kid.updated}<span class="k-date">{kid.updated}</span>{:else}<span class="k-date stale">— never</span>{/if}</a>{@render keyActions(kid.key, kid.url)}</li>
 					{/each}
 					{#if silo.kids.length === 0}<li class="empty">No matches</li>{/if}
 				</ul>
@@ -171,14 +219,14 @@
 			<div class="card-head"><span class="dot blue"></span><h2>Site pages</h2></div>
 			<ul class="flat">
 				{#each filteredCore as p (p.url)}
-					<li><a href={p.url}><span class="k-dot blue"></span>{p.label}</a></li>
+					<li><a href={p.url}><span class="k-dot blue"></span><span class="k-key">{p.label}</span></a>{@render keyActions(p.label, p.url)}</li>
 				{/each}
 			</ul>
 			{#if filteredLegal.length}
 				<div class="sub-head">Legal</div>
 				<ul class="flat">
 					{#each filteredLegal as p (p.url)}
-						<li><a href={p.url}><span class="k-dot blue"></span>{p.label}</a></li>
+						<li><a href={p.url}><span class="k-dot blue"></span><span class="k-key">{p.label}</span></a>{@render keyActions(p.label, p.url)}</li>
 					{/each}
 				</ul>
 			{/if}
@@ -188,7 +236,7 @@
 			<div class="card-head"><span class="dot blue"></span><h2>Packages</h2></div>
 			<ul class="flat">
 				{#each filteredPackages as pk (pk.url)}
-					<li><a href={pk.url}><span class="k-dot blue"></span><span class="k-key">{pk.name}</span><span class="k-date">€{pk.price}</span></a></li>
+					<li><a href={pk.url}><span class="k-dot blue"></span><span class="k-key">{pk.name}</span><span class="k-date">€{pk.price}</span></a>{@render keyActions(pk.name, pk.url)}</li>
 				{/each}
 			</ul>
 		</section>
@@ -200,7 +248,7 @@
 			<div class="card-head"><span class="dot standalone"></span><h2>Standalone</h2><span class="sub">not in any silo</span></div>
 			<ul class="flat">
 				{#each filteredStandalone as p (p.url)}
-					<li><a href={p.url}><span class="k-dot standalone"></span>{p.key}</a></li>
+					<li><a href={p.url}><span class="k-dot standalone"></span><span class="k-key">{p.key}</span></a>{@render keyActions(p.key, p.url)}</li>
 				{/each}
 			</ul>
 		</section>
@@ -211,7 +259,7 @@
 				<div class="sub-head">Categories</div>
 				<ul class="flat">
 					{#each filteredCategories as c (c.url)}
-						<li><a href={c.url}><span class="k-dot support"></span><span class="k-key">{c.name}</span><span class="k-date">{c.count}</span></a></li>
+						<li><a href={c.url}><span class="k-dot support"></span><span class="k-key">{c.name}</span><span class="k-date">{c.count}</span></a>{@render keyActions(c.name, c.url)}</li>
 					{/each}
 				</ul>
 			{/if}
@@ -219,7 +267,7 @@
 				<div class="sub-head">Authors</div>
 				<ul class="flat">
 					{#each filteredAuthors as a (a.url)}
-						<li><a href={a.url}><span class="k-dot support"></span><span class="k-key">{a.name}</span><span class="k-date">{a.count}</span></a></li>
+						<li><a href={a.url}><span class="k-dot support"></span><span class="k-key">{a.name}</span><span class="k-date">{a.count}</span></a>{@render keyActions(a.name, a.url)}</li>
 					{/each}
 				</ul>
 			{/if}
@@ -325,6 +373,47 @@
 	.k-key { flex: 1; } a > :not(.k-dot):not(.k-key):not(.k-date) { flex: 1; }
 	.k-date { font-family: ui-monospace, monospace; font-size: 11px; color: var(--ink-faint); }
 	.k-date.stale { color: var(--standalone); }
+
+	/* Copiar keyword / URL al portapapeles (aparecen al hover) */
+	ul.kids li, ul.flat li { position: relative; }
+	.pillar-head h2 { position: relative; padding-right: 74px; }
+	.kactions {
+		position: absolute;
+		top: 50%;
+		right: 8px;
+		transform: translateY(-50%);
+		display: inline-flex;
+		gap: 5px;
+		opacity: 0;
+		transition: opacity 0.12s ease;
+	}
+	.pillar-head h2 .kactions { right: 0; }
+	.kcopy {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 26px;
+		height: 26px;
+		padding: 0;
+		border: 1px solid var(--line);
+		border-radius: 7px;
+		background: var(--panel-2);
+		color: var(--ink-dim);
+		cursor: pointer;
+		transition: color 0.12s ease, border-color 0.12s ease;
+	}
+	.kcopy svg { width: 14px; height: 14px; }
+	ul.kids li:hover > .kactions,
+	ul.flat li:hover > .kactions,
+	.pillar-head:hover .kactions,
+	ul.kids li:focus-within > .kactions,
+	ul.flat li:focus-within > .kactions,
+	.pillar-head:focus-within .kactions { opacity: 1; }
+	.kcopy:hover { color: var(--blue); border-color: var(--blue); }
+	.kcopy:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+	.kcopy.done { color: var(--support); border-color: var(--support); }
+	@media (hover: none) { .kactions { opacity: 1; } }
+	@media (prefers-reduced-motion: reduce) { .kactions, .kcopy { transition: none; } }
 	.empty { padding: 10px; color: var(--ink-faint); font-size: 13px; font-style: italic; }
 
 	.source { margin-top: 8px; }
