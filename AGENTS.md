@@ -212,6 +212,7 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
   | Metadatos de página | `src/lib/components/seo/SeoHead.svelte` |
   | NAP y negocio | `src/lib/data/site.ts` |
   | Precios y paquetes | `src/lib/data/packages.ts` (ver sección 7) |
+  | Reseñas / testimonios reales | `src/lib/data/testimonials.ts` (`getTestimonials(limit?)`, `getReviewsMeta()`) sobre `src/lib/data/reviews.json` (reseñas curadas de Google, fuente `GMB_PROFILE_URL`) |
   | Copy / i18n | `src/lib/i18n.svelte.ts` (`i18n.t` es GETTER: `i18n.t.x`, NUNCA `i18n.t('x')`) |
   | Contenido editorial (blog) | `src/content/blog/*.svx` |
   | Headers y redirects | `_headers`, `_redirects` |
@@ -286,6 +287,8 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
 
 ### 5. Creación y Actualización de Contenido (Blog / SEO)
 - Las pautas de redacción, estrategias de contenido anti-AI-slop, el framework de optimización E-E-A-T y la resolución de los **5 Errores Críticos que Matan el Tráfico** se encuentran detallados en **[SEO.md](file:///Users/hlorenzoz/databank/Development/%5BMEG%20-%20Malaga%20Event%20Gear%20%28malagaeventgear.com%29%5D/projects/website/SEO.md)**. Es obligatorio que el desarrollador/redactor los siga rigurosamente para cualquier publicación o contenido comercial.
+- **Reseñas reales de Google (E-E-A-T - Experience/Trust):** al crear o actualizar contenido comercial (posts del silo, páginas de paquete, servicios), consultar `src/lib/data/testimonials.ts` (`getTestimonials(limit?)`) para ver si hay una reseña real relevante al tema del contenido (tipo de evento, paquete, zona). Si la hay, citarla **textual** - autor, `rating`, `relativeTime` y el cuerpo en `text` (o `translation` si existe) - nunca parafrasearla inventando énfasis que la reseña no tiene. Si no hay ninguna reseña relevante para ese tema puntual, no es un bloqueante ni una señal negativa (ver "Reputación ausente NO es señal negativa" más arriba); lo que sí está prohibido es dejar una sección de tipo "Testimonials" con un heading vacío o con prosa genérica sin cita real donde debería ir una.
+- **Posts de la categoría `News` como fuente de eventos anteriores (E-E-A-T - Experience):** al crear o actualizar contenido (posts del silo, páginas de paquete, servicios), consultar los posts existentes con `categories` que incluya `News` (`src/content/blog/*.svx`) como fuente de eventos reales ya desarrollados por MEG. Cuando un evento anterior sea relevante por contexto (tipo de evento, paquete, zona, temática), referenciarlo en el cuerpo del contenido y enlazar al post de noticia correspondiente (`/blog/<slug>/`). No inventar eventos ni detalles que el post de noticia no confirme.
 
 ### 6. Spec-Driven Development (SDD) (Mandatorio)
 - **Desarrollo Guiado por Especificaciones (SDD):** Cada vez que se cree, modifique o actualice cualquier funcionalidad, lógica de negocio o componente, es **estrictamente mandatorio** seguir la metodología SDD paso a paso (Explore -> Propose -> Spec -> Design -> Tasks -> Apply -> Verify -> Archive).
@@ -452,6 +455,15 @@ del silo.
 
 1. Cambiar `draft: true` → `draft: false` en el frontmatter
 2. `git commit` + `git push` → CI trigger → rebuild automático
+
+### Actualizar un post ya publicado (no tocar `draft`)
+
+Actualizar el contenido de un post que ya está en producción (`draft: false`) es una operación
+distinta de publicar un post nuevo, y el campo `draft` **no se toca**: se queda en `false`. Lo
+único que cambia es el contenido y `updatedDate` (`just post-touch <slug>`). Volver a poner
+`draft: true` en un post ya indexado lo saca del sitemap y de Google - eso es una
+**despublicación deliberada**, una acción totalmente distinta a una actualización de contenido,
+que requiere pedido explícito del usuario y nunca es un efecto colateral de una edición.
 
 ### Post schedulado (publicación futura)
 
