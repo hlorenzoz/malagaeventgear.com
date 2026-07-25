@@ -43,10 +43,11 @@ export const BlogPostSchema = z.object({
 	//   pillar     -> target page of its cluster (links up to the homepage)
 	//   supporting -> feeds a pillar (links down to it + laterally to siblings)
 	//   both       -> pillar of its cluster AND supporter of a higher target
-	//   standalone -> not part of any silo (news, corporate, migration posts)
-	siloRole: z.enum(['pillar', 'supporting', 'both', 'standalone']).optional(),
+	//   news       -> news/press post, targets the homepage directly (not a silo cluster)
+	//   standalone -> not part of any silo (corporate, migration posts)
+	siloRole: z.enum(['pillar', 'supporting', 'both', 'news', 'standalone']).optional(),
 	// targetPage: the URL this node links up to. pillar -> '/', supporting -> its pillar
-	// (e.g. '/blog/audio-visual-rental/'). Empty for standalone.
+	// (e.g. '/blog/audio-visual-rental/'), news -> '/'. Empty for standalone.
 	targetPage: z.string().optional()
 });
 

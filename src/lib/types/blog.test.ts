@@ -119,7 +119,7 @@ describe('BlogPostSchema', () => {
 		expect(result.targetPage).toBe('/blog/wedding-rentals/');
 	});
 
-	it.each(['pillar', 'supporting', 'both', 'standalone'])(
+	it.each(['pillar', 'supporting', 'both', 'news', 'standalone'])(
 		'accepts siloRole "%s"',
 		(role) => {
 			const result = BlogPostSchema.parse({ ...validPost, siloRole: role });

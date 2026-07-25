@@ -13,7 +13,7 @@
 import type { BlogPost, Category, Author } from '$lib/types/blog';
 import type { EventPackage } from '$lib/data/packages';
 
-export const SILO_ROLES = ['pillar', 'supporting', 'both', 'standalone'] as const;
+export const SILO_ROLES = ['pillar', 'supporting', 'both', 'news', 'standalone'] as const;
 export type SiloRole = (typeof SILO_ROLES)[number];
 
 /** Etiquetas legibles para las páginas estáticas (clave = ruta sin barras, '' = home). */
@@ -83,6 +83,7 @@ export interface SiteMapView {
 		posts: number;
 		pillars: number;
 		supporting: number;
+		news: number;
 		standalone: number;
 		categories: number;
 		authors: number;
@@ -93,6 +94,7 @@ export interface SiteMapView {
 	utilityPages: PageNode[];
 	packages: PackageNode[];
 	silos: SiloNode[];
+	news: SiloChild[];
 	standalone: SiloChild[];
 	categories: TaxonomyNode[];
 	authors: TaxonomyNode[];
@@ -149,6 +151,10 @@ export function validateSiloGraph(posts: BlogPost[]): string[] {
 		if (role === 'pillar' && p.targetPage && p.targetPage !== '/') {
 			errors.push(`${where}: un pilar debe apuntar al home ('/'), no a "${p.targetPage}"`);
 		}
+
+		if (role === 'news' && p.targetPage !== '/') {
+			errors.push(`${where}: siloRole "news" debe apuntar al home ('/'), no a "${p.targetPage}"`);
+		}
 	}
 
 	return errors;
@@ -186,7 +192,9 @@ export function byUpdatedAsc<T extends { url: string; updated?: string }>(a: T, 
 	return dateOnly(a.updated).localeCompare(dateOnly(b.updated)) || byUrl(a, b);
 }
 
-function buildSilos(posts: BlogPost[]): { silos: SiloNode[]; standalone: SiloChild[] } {
+function buildSilos(
+	posts: BlogPost[]
+): { silos: SiloNode[]; news: SiloChild[]; standalone: SiloChild[] } {
 	const pillars = posts
 		.filter((p) => p.siloRole === 'pillar' || p.siloRole === 'both')
 		.sort(byUrl);
@@ -199,12 +207,17 @@ function buildSilos(posts: BlogPost[]): { silos: SiloNode[]; standalone: SiloChi
 		return { key: pillar.keyword || pillar.slug, url: pillar.url, updated: pillar.updatedDate, kids };
 	});
 
+	const news: SiloChild[] = posts
+		.filter((p) => p.siloRole === 'news')
+		.sort(byUrl)
+		.map((p) => ({ key: p.keyword || p.slug, url: p.url, updated: p.updatedDate }));
+
 	const standalone: SiloChild[] = posts
 		.filter((p) => p.siloRole === 'standalone')
 		.sort(byUrl)
 		.map((p) => ({ key: p.keyword || p.slug, url: p.url, updated: p.updatedDate }));
 
-	return { silos, standalone };
+	return { silos, news, standalone };
 }
 
 /**
@@ -255,6 +268,10 @@ function renderMindmap(view: Omit<SiteMapView, 'mermaid'>): string {
 		lines.push(mmLine(3, `${mmLabel(s.key)} · pillar`));
 		for (const k of s.kids) lines.push(mmLine(4, mmLabel(k.key)));
 	}
+	if (view.news.length) {
+		lines.push(mmLine(3, 'News'));
+		for (const p of view.news) lines.push(mmLine(4, mmLabel(p.key)));
+	}
 	if (view.standalone.length) {
 		lines.push(mmLine(3, 'Standalone'));
 		for (const p of view.standalone) lines.push(mmLine(4, mmLabel(p.key)));
@@ -292,7 +309,7 @@ export function buildSiteMap(input: SiteMapInput): SiteMapView {
 		updated: pk.updated
 	}));
 
-	const { silos, standalone } = buildSilos(posts);
+	const { silos, news, standalone } = buildSilos(posts);
 
 	const categoryNodes: TaxonomyNode[] = categories.map((c) => ({
 		name: c.name,
@@ -315,6 +332,7 @@ export function buildSiteMap(input: SiteMapInput): SiteMapView {
 			posts: posts.length,
 			pillars,
 			supporting,
+			news: news.length,
 			standalone: standalone.length,
 			categories: categoryNodes.length,
 			authors: authorNodes.length,
@@ -325,6 +343,7 @@ export function buildSiteMap(input: SiteMapInput): SiteMapView {
 		utilityPages,
 		packages: packageNodes,
 		silos,
+		news,
 		standalone,
 		categories: categoryNodes,
 		authors: authorNodes
