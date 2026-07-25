@@ -509,8 +509,10 @@ intencional de keywords y enlaces se trackea en
 | audio visual rental | `/blog/audio-visual-rental/` | `/` (home) |
 | wedding rentals | `/blog/wedding-rentals/` | `/` (home) |
 
-Los supporting posts apuntan a su pilar. Los posts standalone (noticias, corporativos, migración
-WP) no pertenecen a ningún silo (`siloRole: standalone`, sin target).
+Los supporting posts apuntan a su pilar. Los posts de noticias (`siloRole: news`) no forman un
+silo: no hay cadena lateral entre ellos (cada noticia es independiente), pero cada uno enlaza
+hacia arriba directamente al home (`targetPage: "/"`). Los posts standalone (corporativos,
+migración WP) no pertenecen a ningún silo y no tienen target (`siloRole: standalone`, sin target).
 
 ### Metadata de silo por contenido
 
@@ -519,8 +521,8 @@ Cada contenido declara su rol en el silo. Fuente única de verdad; el grafo se d
 | Campo | Posts (`.svx` frontmatter) | Páginas (`meta.ts`) |
 | :--- | :--- | :--- |
 | `keyword` | frase-objetivo POP | keyword pelada |
-| `siloRole` | `pillar` / `supporting` / `both` / `standalone` | idem (solo si la página es nodo de silo) |
-| `targetPage` | URL a la que enlaza hacia arriba (pilar -> `/`, supporting -> su pilar) | idem |
+| `siloRole` | `pillar` / `supporting` / `both` / `news` / `standalone` | idem (solo si la página es nodo de silo) |
+| `targetPage` | URL a la que enlaza hacia arriba (pilar -> `/`, supporting -> su pilar, news -> `/`) | idem |
 | `url` | **derivado**, NO se almacena | **derivado** del route path |
 
 Reglas `keyword` / `url`:

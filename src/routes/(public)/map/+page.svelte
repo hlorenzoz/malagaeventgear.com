@@ -39,6 +39,7 @@
 			kids: s.kids.filter((k) => match(k.key)).sort(byGscTier(gscMarked))
 		}))
 	);
+	let filteredNews = $derived(view.news.filter((p) => match(p.key)));
 	let filteredStandalone = $derived(view.standalone.filter((p) => match(p.key)));
 	let filteredPackages = $derived(view.packages.filter((p) => match(p.name)));
 	let filteredCore = $derived(view.corePages.filter((p) => match(p.label)));
@@ -48,6 +49,7 @@
 
 	let shownCount = $derived(
 		filteredSilos.reduce((n, s) => n + s.kids.length, 0) +
+			filteredNews.length +
 			filteredStandalone.length +
 			filteredPackages.length +
 			filteredCore.length +
@@ -274,6 +276,7 @@
 		<div class="stat"><span class="rail rl-support"></span><div class="n">{view.counts.posts}</div><div class="l">Posts</div></div>
 		<div class="stat"><span class="rail rl-blue"></span><div class="n">{view.counts.pillars}</div><div class="l">Pillars</div></div>
 		<div class="stat"><span class="rail rl-support"></span><div class="n">{view.counts.supporting}</div><div class="l">Supporting</div></div>
+		<div class="stat"><span class="rail rl-news"></span><div class="n">{view.counts.news}</div><div class="l">News</div></div>
 		<div class="stat"><span class="rail rl-standalone"></span><div class="n">{view.counts.standalone}</div><div class="l">Standalone</div></div>
 		<div class="stat"><span class="rail rl-line"></span><div class="n">{view.counts.total}</div><div class="l">Total nodes</div></div>
 	</section>
@@ -370,8 +373,17 @@
 		</section>
 	</div>
 
-	<!-- Standalone + taxonomías -->
+	<!-- News + Standalone -->
 	<div class="cols">
+		<section class="card">
+			<div class="card-head"><span class="dot news"></span><h2>News</h2><span class="sub">targets home</span></div>
+			<ul class="flat">
+				{#each filteredNews as p (p.url)}
+					<li><a href={p.url}><span class="k-dot news"></span><span class="k-key">{p.key}</span></a>{@render keyActions(p.key, p.url, p.updated)}</li>
+				{/each}
+			</ul>
+		</section>
+
 		<section class="card">
 			<div class="card-head"><span class="dot standalone"></span><h2>Standalone</h2><span class="sub">not in any silo</span></div>
 			<ul class="flat">
@@ -380,27 +392,28 @@
 				{/each}
 			</ul>
 		</section>
-
-		<section class="card">
-			<div class="card-head"><span class="dot support"></span><h2>Taxonomies</h2></div>
-			{#if filteredCategories.length}
-				<div class="sub-head">Categories</div>
-				<ul class="flat">
-					{#each filteredCategories as c (c.url)}
-						<li><a href={c.url}><span class="k-dot support"></span><span class="k-key">{c.name}</span><span class="k-date">{c.count}</span></a>{@render keyActions(c.name, c.url)}</li>
-					{/each}
-				</ul>
-			{/if}
-			{#if filteredAuthors.length}
-				<div class="sub-head">Authors</div>
-				<ul class="flat">
-					{#each filteredAuthors as a (a.url)}
-						<li><a href={a.url}><span class="k-dot support"></span><span class="k-key">{a.name}</span><span class="k-date">{a.count}</span></a>{@render keyActions(a.name, a.url)}</li>
-					{/each}
-				</ul>
-			{/if}
-		</section>
 	</div>
+
+	<!-- Taxonomías -->
+	<section class="card card-full">
+		<div class="card-head"><span class="dot support"></span><h2>Taxonomies</h2></div>
+		{#if filteredCategories.length}
+			<div class="sub-head">Categories</div>
+			<ul class="flat">
+				{#each filteredCategories as c (c.url)}
+					<li><a href={c.url}><span class="k-dot support"></span><span class="k-key">{c.name}</span><span class="k-date">{c.count}</span></a>{@render keyActions(c.name, c.url)}</li>
+				{/each}
+			</ul>
+		{/if}
+		{#if filteredAuthors.length}
+			<div class="sub-head">Authors</div>
+			<ul class="flat">
+				{#each filteredAuthors as a (a.url)}
+					<li><a href={a.url}><span class="k-dot support"></span><span class="k-key">{a.name}</span><span class="k-date">{a.count}</span></a>{@render keyActions(a.name, a.url)}</li>
+				{/each}
+			</ul>
+		{/if}
+	</section>
 
 	<details class="source">
 		<summary>Mermaid source <span class="g-tag">paste into mermaid.live</span> <span class="chev">›</span></summary>
@@ -424,8 +437,10 @@
 		--panel-2: var(--surface-container-high, #23272a);
 		--line: var(--outline-variant, #2c3030);
 		--support: #8fb3c9;
+		--news: #7fc9a3;
 		--standalone: #d6b072;
 		--support-bg: color-mix(in srgb, var(--support) 16%, transparent);
+		--news-bg: color-mix(in srgb, var(--news) 16%, transparent);
 		--standalone-bg: color-mix(in srgb, var(--standalone) 16%, transparent);
 
 		max-width: 1120px;
@@ -436,6 +451,7 @@
 	}
 	:global([data-theme='light']) .map {
 		--support: #3d6f88;
+		--news: #2f8a5d;
 		--standalone: #9a6f28;
 	}
 
@@ -447,12 +463,12 @@
 	h1 { font-size: clamp(30px, 5vw, 44px); margin: 0 0 12px; letter-spacing: -0.02em; text-wrap: balance; }
 	.lede { color: var(--ink-dim); max-width: 66ch; margin: 0; font-size: 15.5px; line-height: 1.55; }
 
-	.stats { display: grid; grid-template-columns: repeat(7, 1fr); gap: 10px; margin: 34px 0 26px; }
+	.stats { display: grid; grid-template-columns: repeat(8, 1fr); gap: 10px; margin: 34px 0 26px; }
 	.stat { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 14px 12px; position: relative; overflow: hidden; }
 	.stat .n { font-size: 30px; font-weight: 640; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; line-height: 1; }
 	.stat .l { font-size: 11px; color: var(--ink-dim); margin-top: 6px; letter-spacing: 0.04em; text-transform: uppercase; }
 	.rail { position: absolute; left: 0; top: 0; bottom: 0; width: 3px; }
-	.rl-blue { background: var(--blue); } .rl-support { background: var(--support); } .rl-standalone { background: var(--standalone); } .rl-line { background: var(--line); }
+	.rl-blue { background: var(--blue); } .rl-support { background: var(--support); } .rl-news { background: var(--news); } .rl-standalone { background: var(--standalone); } .rl-line { background: var(--line); }
 
 	.graph-panel, .card, .silo, .source { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
 	.graph-panel { margin-bottom: 26px; }
@@ -474,6 +490,7 @@
 
 	.silos { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 26px; }
 	.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 26px; }
+	.card-full { margin-bottom: 26px; }
 
 	.pillar-head { padding: 16px 18px 14px; border-bottom: 1px dashed var(--line); background: linear-gradient(180deg, color-mix(in srgb, var(--blue) 9%, transparent), transparent); }
 	.pillar-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
@@ -506,7 +523,7 @@
 	.pillar-meta .up { color: var(--blue); }
 
 	.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--blue); flex: none; }
-	.dot.support { background: var(--support); } .dot.standalone { background: var(--standalone); } .dot.blue { background: var(--blue); }
+	.dot.support { background: var(--support); } .dot.news { background: var(--news); } .dot.standalone { background: var(--standalone); } .dot.blue { background: var(--blue); }
 
 	.card-head { padding: 15px 18px; display: flex; align-items: center; gap: 10px; border-bottom: 1px dashed var(--line); }
 	.card-head h2 { margin: 0; font-size: 16px; }
@@ -519,7 +536,7 @@
 	.kids a:hover { background: var(--support-bg); }
 	.flat a:hover { background: color-mix(in srgb, var(--blue) 12%, transparent); }
 	.k-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--support); flex: none; }
-	.k-dot.blue { background: var(--blue); } .k-dot.standalone { background: var(--standalone); } .k-dot.support { background: var(--support); }
+	.k-dot.blue { background: var(--blue); } .k-dot.news { background: var(--news); } .k-dot.standalone { background: var(--standalone); } .k-dot.support { background: var(--support); }
 	.k-key { flex: 1; } a > :not(.k-dot):not(.k-key):not(.k-date) { flex: 1; }
 	.k-date { font-family: ui-monospace, monospace; font-size: 11px; color: var(--ink-faint); }
 	.k-date.stale { color: var(--standalone); }
@@ -579,7 +596,7 @@
 	footer { margin-top: 30px; text-align: center; font-size: 12px; color: var(--ink-faint); font-family: ui-monospace, monospace; }
 
 	@media (max-width: 820px) {
-		.stats { grid-template-columns: repeat(3, 1fr); }
+		.stats { grid-template-columns: repeat(4, 1fr); }
 		.silos, .cols { grid-template-columns: 1fr; }
 	}
 	@media (prefers-reduced-motion: reduce) { .source .chev { transition: none; } }

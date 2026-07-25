@@ -60,6 +60,18 @@ describe('validateSiloGraph', () => {
 		] as BlogPost[];
 		expect(validateSiloGraph(posts)[0]).toContain('no resuelve');
 	});
+
+	it('flags a news post that does not target the homepage', () => {
+		const posts = [
+			{ slug: 'p', url: '/blog/p/', siloRole: 'news', targetPage: '/blog/audio-visual-rental/' }
+		] as BlogPost[];
+		expect(validateSiloGraph(posts)[0]).toContain('debe apuntar al home');
+	});
+
+	it('accepts a news post targeting the homepage', () => {
+		const posts = [{ slug: 'p', url: '/blog/p/', siloRole: 'news', targetPage: '/' }] as BlogPost[];
+		expect(validateSiloGraph(posts)).toEqual([]);
+	});
 });
 
 // --- Fixtures sintéticos para el view-model --------------------------------
@@ -72,7 +84,8 @@ const FIXTURE_INPUT = {
 	posts: [
 		post('av-rental', 'pillar', '/', 'audio visual rental'),
 		post('av-conferences', 'supporting', '/blog/av-rental/', 'av for conferences'),
-		post('news-item', 'standalone')
+		post('news-item', 'news', '/'),
+		post('corporate-item', 'standalone')
 	],
 	packages: [
 		{ name: 'Eco Pack', route: '/packages/eco/', price: 290, updated: '2026-05-31' },
@@ -95,13 +108,15 @@ describe('buildSiteMap', () => {
 		expect(v.utilityPages.map((p) => p.url)).toEqual(['/sitemap/']);
 	});
 
-	it('funnels supporting posts under their pillar and separates standalone', () => {
+	it('funnels supporting posts under their pillar and separates news from standalone', () => {
 		const v = buildSiteMap(FIXTURE_INPUT);
 		expect(v.counts.pillars).toBe(1);
 		expect(v.counts.supporting).toBe(1);
+		expect(v.counts.news).toBe(1);
 		expect(v.counts.standalone).toBe(1);
 		expect(v.silos[0].kids.map((k) => k.url)).toEqual(['/blog/av-conferences/']);
-		expect(v.standalone.map((s) => s.url)).toEqual(['/blog/news-item/']);
+		expect(v.news.map((s) => s.url)).toEqual(['/blog/news-item/']);
+		expect(v.standalone.map((s) => s.url)).toEqual(['/blog/corporate-item/']);
 	});
 
 	it('includes packages, categories and authors in the model', () => {
