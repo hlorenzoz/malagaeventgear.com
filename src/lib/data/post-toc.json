@@ -1636,6 +1636,11 @@
       "level": 2
     },
     {
+      "id": "rental-vs-full-production-company",
+      "text": "Rental vs. Full Production Company",
+      "level": 2
+    },
+    {
       "id": "a-look-at-our-recent-event-setups",
       "text": "A Look at Our Recent Event Setups",
       "level": 2
@@ -1686,6 +1691,11 @@
       "level": 3
     },
     {
+      "id": "what-our-clients-say",
+      "text": "What Our Clients Say",
+      "level": 2
+    },
+    {
       "id": "faq",
       "text": "FAQ",
       "level": 2
@@ -1707,7 +1717,7 @@
     },
     {
       "id": "what-makes-malaga-event-gears-wedding-and-eco-packs-unique",
-      "text": "What makes Malaga Event Gear’s wedding and Eco Packs unique?",
+      "text": "What makes Malaga Event Gear's wedding and Eco Packs unique?",
       "level": 3
     },
     {
@@ -1728,6 +1738,16 @@
     {
       "id": "what-areas-does-malaga-event-gear-serve",
       "text": "What areas does Malaga Event Gear serve?",
+      "level": 3
+    },
+    {
+      "id": "how-far-in-advance-should-i-book-audio-visual-equipment-in-malaga",
+      "text": "How far in advance should I book audio visual equipment in Malaga?",
+      "level": 3
+    },
+    {
+      "id": "what-is-the-difference-between-renting-av-equipment-and-hiring-a-full-production-company",
+      "text": "What is the difference between renting AV equipment and hiring a full production company?",
       "level": 3
     }
   ],

@@ -70,6 +70,11 @@ export type BlogPost = BlogPostFrontmatter & {
 	// srcset = all R2 variants so the browser picks the right size per DPR/viewport.
 	coverImageThumb?: string;
 	coverImageSrcset?: string;
+	// Full-size coverImage's own pixel dimensions (NOT a variant's), attached from
+	// cover-thumbs.json. Feeds og:image:width/height in BlogPost.svelte so social
+	// crawlers don't have to fetch the image to know its aspect ratio.
+	coverImageWidth?: number;
+	coverImageHeight?: number;
 	// FAQ pairs extracted from the post body at build time (gen-post-faqs.ts).
 	// Populated from src/lib/data/post-faqs.json — absent for posts with no FAQ section.
 	faqs?: { question: string; answer: string }[];

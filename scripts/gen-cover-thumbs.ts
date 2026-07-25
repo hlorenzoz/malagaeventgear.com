@@ -1,20 +1,25 @@
 #!/usr/bin/env bun
 /**
  * Generates src/lib/data/cover-thumbs.json — a compact map of
- *   { <full coverImage URL>: { thumb: <~768px URL>, srcset: "<u> <w>w, ..." } }
+ *   { <full coverImage URL>: { thumb, srcset, width, height } }
  *
  * Listing cards display covers at ~370px and the post hero at ~768px, but frontmatter
  * coverImage points at the full-size image (e.g. 1600x900). We expose:
  *   - thumb: the smallest R2 variant ≥ 740px → used as the card/hero <img src> fallback.
  *   - srcset: all available R2 variants → lets the browser pick the right size per DPR.
+ *   - width/height: the FULL-SIZE image's own pixel dimensions (not a variant's) — used
+ *     for og:image:width/height so social crawlers don't have to fetch the image to know
+ *     its aspect ratio. Sourced from the manifest entry that matches coverUrl exactly.
  * Cloudflare Transformations is not enabled, so we use the variants already on R2.
  *
- * Run after a migration (one-off): `bun scripts/gen-cover-thumbs.ts`
+ * Run after a migration (one-off), or after adding/changing a post's coverImage:
+ *   `bun scripts/gen-cover-thumbs.ts`
  * The big manifest is NOT bundled into the app — only this small map is.
  */
 import { readFileSync, writeFileSync, readdirSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import type { MediaEntry } from './migrate-wp/types';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const MANIFEST = resolve(ROOT, 'scripts/migrate-wp/manifest.json');
@@ -22,11 +27,6 @@ const BLOG_DIR = resolve(ROOT, 'src/content/blog');
 const OUT = resolve(ROOT, 'src/lib/data/cover-thumbs.json');
 
 const TARGET_WIDTH = 740; // 370px card × 2 DPR
-
-interface MediaEntry {
-	r2Url: string;
-	width: number;
-}
 
 const manifest = JSON.parse(readFileSync(MANIFEST, 'utf8')) as {
 	media: Record<string, MediaEntry>;
@@ -36,6 +36,8 @@ const manifest = JSON.parse(readFileSync(MANIFEST, 'utf8')) as {
 // The manifest can hold two entries for the same variant (WP-keyed + r2Key-keyed after a
 // FORCE re-encode), so dedupe by width per base — a srcset must not repeat a width.
 const byBase = new Map<string, { url: string; width: number }[]>();
+// Exact r2Url -> full-size pixel dimensions, for og:image:width/height (not a variant).
+const dimsByUrl = new Map<string, { width: number; height: number }>();
 for (const e of Object.values(manifest.media)) {
 	if (!e.r2Url) continue;
 	const base = e.r2Url.replace(/(-\d+x\d+)?\.[a-z0-9]+$/i, '');
@@ -43,21 +45,27 @@ for (const e of Object.values(manifest.media)) {
 	const list = byBase.get(base)!;
 	const width = e.width ?? 0;
 	if (!list.some((v) => v.width === width)) list.push({ url: e.r2Url, width });
+	if (e.width && e.height && !dimsByUrl.has(e.r2Url)) {
+		dimsByUrl.set(e.r2Url, { width: e.width, height: e.height });
+	}
 }
 for (const list of byBase.values()) list.sort((a, b) => a.width - b.width);
 
 interface CoverInfo {
 	thumb: string;
 	srcset?: string;
+	width?: number;
+	height?: number;
 }
 
 function coverInfo(coverUrl: string): CoverInfo {
 	const base = coverUrl.replace(/(-\d+x\d+)?\.[a-z0-9]+$/i, '');
 	const variants = (byBase.get(base) ?? []).filter((v) => v.width > 0);
-	if (variants.length === 0) return { thumb: coverUrl };
+	const dims = dimsByUrl.get(coverUrl);
+	if (variants.length === 0) return { thumb: coverUrl, ...dims };
 	const thumb = (variants.find((v) => v.width >= TARGET_WIDTH) ?? variants[variants.length - 1]).url;
 	const srcset = variants.length > 1 ? variants.map((v) => `${v.url} ${v.width}w`).join(', ') : undefined;
-	return { thumb, srcset };
+	return { thumb, srcset, ...dims };
 }
 
 const covers: Record<string, CoverInfo> = {};
