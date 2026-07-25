@@ -10,8 +10,8 @@ categories: [Events, News]
 tags: []
 draft: false
 keyword: "news malaga event gear delivers flawless audiovisual production at progold summit 2026 in torremolinos"
-siloRole: standalone
-targetPage: ""
+siloRole: news
+targetPage: "/"
 ---
 
 <script>
@@ -21,7 +21,7 @@ targetPage: ""
 
 The **Costa del Sol** continues to solidify its reputation as a premier destination for international corporate gatherings. Between May 20 and May 23, 2026, the prestigious **PROGOLD SUMMIT 2026** took place at the **Hotel Meliá Costa del Sol Centro de Convenciones** in Torremolinos, Málaga, Spain.
 
-This high-profile corporate event brought together industry professionals for days of intensive networking, presentations, and strategic meetings. To ensure the ambitious presentation schedule met world-class standards, **Malaga Event Gear (MEG)** was brought on board to manage the technical production, delivering a seamless audiovisual environment for all attendees.
+This high-profile corporate event brought together industry professionals for days of intensive networking, presentations, and strategic meetings. To ensure the ambitious presentation schedule met world-class standards, [**Malaga Event Gear (MEG)**](/) was brought on board to manage the technical production, delivering a seamless audiovisual environment for all attendees.
 
 ![](https://cdn.malagaeventgear.com/blog/3088/2026.05.20-23-PROGOLD-SUMMIT-2026-Torremolinos-Hotel-Melia-Costa-del-Sol-Centro-de-Convenciones-6-768x1024.webp)
 

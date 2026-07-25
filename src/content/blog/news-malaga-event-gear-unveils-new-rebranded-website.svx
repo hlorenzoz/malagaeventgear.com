@@ -10,13 +10,13 @@ categories: ["News", "Audio Visual Rental"]
 tags: ["rebranding", "company news", "malaga"]
 draft: false
 keyword: "news malaga event gear unveils new rebranded website"
-siloRole: standalone
-targetPage: ""
+siloRole: news
+targetPage: "/"
 ---
 
 **Málaga, Spain. June 15, 2026.**
 
-Malaga Event Gear (MEG), an audiovisual and event equipment rental service active on the Costa del Sol since 1996, has relaunched its website at [malagaeventgear.com](https://malagaeventgear.com) with a refreshed brand and a rebuilt platform.
+Malaga Event Gear (MEG), an audiovisual and event equipment rental service active on the Costa del Sol since 1996, has relaunched its website at [malagaeventgear.com](/) with a refreshed brand and a rebuilt platform.
 
 The new site keeps what has set MEG apart for years: 100% online booking with fixed, standardized prices, so clients can confirm their gear without waiting on a manual quote.
 
