@@ -162,13 +162,16 @@ export const galleryImages: GalleryImage[] = [
 	}
 ];
 
-export function getImagesForPackage(packageId: string): GalleryImage[] {
+export function getImagesForPackage(packageId: string, excludeSrc: string[] = []): GalleryImage[] {
+	let images: GalleryImage[];
 	if (packageId === 'wedding') {
-		return galleryImages.filter((img) => img.category === 'wedding');
+		images = galleryImages.filter((img) => img.category === 'wedding');
 	} else if (packageId === 'eco') {
-		return galleryImages.filter((img) => img.category === 'general' || img.category === 'party');
+		images = galleryImages.filter((img) => img.category === 'general' || img.category === 'party');
 	} else {
 		// Corporate packs: basic-mice, mice, product-presentation
-		return galleryImages.filter((img) => img.category === 'corporate');
+		images = galleryImages.filter((img) => img.category === 'corporate');
 	}
+	if (excludeSrc.length === 0) return images;
+	return images.filter((img) => !excludeSrc.some((needle) => img.src.includes(needle)));
 }
