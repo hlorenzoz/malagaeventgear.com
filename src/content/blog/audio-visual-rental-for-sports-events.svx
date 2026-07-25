@@ -1,11 +1,11 @@
 ---
 title: "Audio Visual Rental for Sports Events in Malaga, Spain"
-description: "AV rental for sports events in Malaga: PA sound, announcer mics, scoreboard displays and ceremony staging, delivered and set up across the Costa del Sol."
+description: "Audio visual rental for sports events in Malaga: PA sound, announcer mics, scoreboard displays and medal-ceremony staging, delivered across the Costa del Sol."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-sports-events
 publishDate: 2025-11-30
 updatedDate: 2026-07-25
-excerpt: "AV rental for sports events in Malaga: PA sound, announcer mics, scoreboard displays and ceremony staging, delivered and set up across the Costa del Sol."
+excerpt: "Audio visual rental for sports events in Malaga: PA sound, announcer mics, scoreboard displays and medal-ceremony staging, delivered across the Costa del Sol."
 coverImage: https://cdn.malagaeventgear.com/blog/1191/billie-jean-king-cup-2024-celebration-lights-sound.webp
 categories: [Audio Visual Rental, Events]
 tags: []
@@ -16,8 +16,6 @@ targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>
-	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
-	import { getImagesForPackage } from '$lib/data/gallery';
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
@@ -74,7 +72,7 @@ We handled the full lights and sound setup for the Billie Jean King Cup 2024, in
 
 A sports event is not a conference room. The announcer PA has to carry over crowd noise across an open pitch, track or court, and the visual needs are usually a scoreboard or presentation screen rather than a slide deck.
 
-Our PA sound systems and wired, wireless or gooseneck microphones cover announcer duty, team introductions and sponsor speeches. Our 60 inch LED display or 5000 lumen laser projector and screen handle live scores, replays or sponsor branding.
+Our PA sound systems and wired, wireless or gooseneck microphones cover announcer duty, team introductions and sponsor speeches. Our 60 inch LED display or 3000 lumen projector and screen handle live scores, replays or sponsor branding.
 
 For our full audio visual rental range, see the [audio visual rental page](/blog/audio-visual-rental/).
 
@@ -84,7 +82,7 @@ For our full audio visual rental range, see the [audio visual rental page](/blog
 
 We delivered the full lights and sound setup for the Billie Jean King Cup 2024, from the tennis court sound system to the awards ceremony stage.
 
-![Spectacular celebration at the Billie Jean King Cup 2024 with confetti, fireworks, and professional lights and sound system.](https://cdn.malagaeventgear.com/blog/1192/billie-jean-king-cup-2024-celebration-lights-sound-100x100.avif)
+![Spectacular celebration at the Billie Jean King Cup 2024 with confetti, fireworks, and professional lights and sound system.](https://cdn.malagaeventgear.com/blog/1192/billie-jean-king-cup-2024-celebration-lights-sound-600x450.avif)
 
 The Billie Jean King Cup 2024 celebration featuring confetti, fireworks, and lights and sound systems.
 
@@ -96,28 +94,29 @@ A lit stage with a sound system during the Billie Jean King Cup awards ceremony,
 
 The sound system control panel during the 2024 tennis championship, with a live view of the court.
 
-![Professional sound system controls and view of the tennis court during a 2024 championship event](https://cdn.malagaeventgear.com/blog/1194/sound-system-tennis-championship-2024-169x300.avif)
+![Wide angle view of the sound system setup covering the tennis court for players and spectators at the 2024 championship](https://cdn.malagaeventgear.com/blog/1194/sound-system-tennis-championship-2024-169x300.avif)
 
-The sound system setup during the 2024 tennis championship, covering the court for players and spectators.
+A wide angle view of the sound system covering the full tennis court for players and spectators at the Billie Jean King Cup 2024.
 
 ## Equipment We Use for Sports Events
 
 Our catalog covers what a match day, tournament or race event needs:
 
-| Equipment | Use case |
-| --- | --- |
-| Active PA sound systems and mixing consoles | Announcer PA and crowd-facing sound reinforcement |
-| Wired, wireless and gooseneck microphones | Match commentary, team introductions, sponsor speeches |
-| 5000 lumen laser projector and screen, or 60 inch LED display | Scoreboard, replays, sponsor branding |
-| RGBW LED lighting and fairy lights | Night matches and evening ceremonies |
-| Methacrylate lectern and modular staging | Medal and award ceremonies, opening remarks |
-| Smoke machine | Team walkouts and ceremony openings |
+| Equipment | Included in | Use case |
+| --- | --- | --- |
+| Active PA sound systems and mixing consoles | Eco Pack, Basic MICE Pack, MICE Pack | Announcer PA and crowd-facing sound reinforcement |
+| Wired, wireless and gooseneck microphones | Eco Pack, Basic MICE Pack, MICE Pack | Match commentary, team introductions, sponsor speeches |
+| 3000 lumen projector and screen | Basic MICE Pack | Scoreboard, replays, smaller venues |
+| 60 inch LED display | MICE Pack | Scoreboard, replays, sponsor branding at larger venues |
+| RGBW LED lighting | Eco Pack | Evening matches and small club events |
+| Smoke machine | Eco Pack (optional add-on) | Team walkouts and ceremony openings |
+| Methacrylate lectern, modular staging | MICE Pack (optional add-ons) | Medal and award ceremonies, opening remarks |
 
 See the full breakdown on the [audio visual rental page](/blog/audio-visual-rental/).
 
 ## Staging for Medal Ceremonies and Team Walkouts
 
-The moment that gets remembered from a tournament is usually the ceremony, not the match itself. Our modular staging and methacrylate lectern give you a real podium for medal presentations and opening remarks, and our smoke machine adds a proper entrance for a team walkout or ceremony opening.
+The moment that gets remembered from a tournament is usually the ceremony, not the match itself. On the [MICE Pack](/packages/mice/), modular staging and a methacrylate lectern are available as add ons for a real podium at medal presentations and opening remarks. For a smaller club event, the [Eco Pack](/packages/eco/) includes lighting and offers a smoke machine as an add on for a team walkout or ceremony opening.
 
 ## Outdoor Setups: What Actually Travels to the Pitch or Track
 
@@ -127,7 +126,7 @@ Most sports events happen outdoors, and our PA sound, lighting and staging are a
 
 Whether it is a padel tournament, a five-a-side football match, a tennis event like the Billie Jean King Cup, or a running event on the Costa del Sol, our crew delivers, installs and tests the AV before your event starts, and comes back afterward to collect it.
 
-Our [MICE Pack](/packages/mice/) covers larger tournaments with a technician on site; the [Basic MICE Pack](/packages/basic-mice/) fits a smaller club event.
+Our [MICE Pack](/packages/mice/) covers larger tournaments with a technician on site; the [Basic MICE Pack](/packages/basic-mice/) fits a mid-size tournament screen and sound setup; the [Eco Pack](/packages/eco/) fits a small local match or club event, delivery only, with lighting included and a smoke machine available as an add on.
 
 ## Conclusions
 
@@ -153,11 +152,11 @@ Yes. We provide wired, wireless and gooseneck microphones for match commentary, 
 
 ### What size screen or projector is best for a sports event?
 
-Our 60 inch LED display suits a team area or smaller venue; our 5000 lumen laser projector and screen suit a larger outdoor viewing area. Tell us your venue size when you book and we will match the right screen.
+Our 60 inch LED display, on the MICE Pack, suits a larger tournament venue; our 3000 lumen projector and screen, on the Basic MICE Pack, suits a mid-size venue. Tell us your venue size when you book and we will match the right screen.
 
 ### Is a smoke machine available for team walkouts or ceremony openings?
 
-Yes, our smoke machine is available as an add on for team walkouts and ceremony openings. See [Staging for Medal Ceremonies and Team Walkouts](#staging-for-medal-ceremonies-and-team-walkouts) above.
+Yes, our smoke machine is available as an add on on the [Eco Pack](/packages/eco/), for team walkouts and ceremony openings. See [Staging for Medal Ceremonies and Team Walkouts](#staging-for-medal-ceremonies-and-team-walkouts) above.
 
 ### How far in advance should I book AV equipment for a sports event?
 
