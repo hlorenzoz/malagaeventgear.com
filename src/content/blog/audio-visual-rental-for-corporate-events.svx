@@ -1,11 +1,11 @@
 ---
 title: "Audio Visual Rental for Corporate Events in Malaga, Spain"
-description: "Audio visual rental for corporate events in Malaga: conferences, meetings, training and launches, matched to a real package and delivered across the Costa del Sol."
+description: "Audio visual rental for corporate events in Malaga: conferences, meetings, training and launches, each matched to a real package across the Costa del Sol."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-corporate-events
 publishDate: 2025-12-10
 updatedDate: 2026-07-25
-excerpt: "Audio visual rental for corporate events in Malaga: conferences, meetings, training and launches, matched to a real package and delivered across the Costa del Sol."
+excerpt: "Audio visual rental for corporate events in Malaga: conferences, meetings, training and launches, each matched to a real package across the Costa del Sol."
 coverImage: https://cdn.malagaeventgear.com/blog/1313/corporate-event.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
 tags: []
@@ -16,8 +16,6 @@ targetPage: "/blog/audio-visual-rental/"
 ---
 
 <script>
-	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
-	import { getImagesForPackage } from '$lib/data/gallery';
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
@@ -84,9 +82,7 @@ A professional audiovisual setup for a congress in Malaga, featuring a large scr
 
 A grand ballroom in Malaga prepared for a congress, with a sound system ready to amplify presentations.
 
-<div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('mice')} speed="normal" direction="left" />
-</div>
+As Carlos Batlles put it in a 5-star Google review (March 2025): "This team delivered a flawless experience! Their MICE pack made everything easy for our event, and the team was both professional and reliable. The sound and lighting were top-notch, and you can tell they truly care about their work. Highly recommended!"
 
 ## Match Your Event to a Package
 
@@ -96,11 +92,11 @@ A grand ballroom in Malaga prepared for a congress, with a sound system ready to
 | [Basic MICE Pack](/packages/basic-mice/) | Board meetings, small conferences | Up to 40 | Optional add on |
 | [MICE Pack](/packages/mice/) | Conferences, larger corporate events | Up to 120 | Included, up to 6 hours |
 
-See live pricing and full inclusions on our [packages page](/packages/).
+See live pricing and full inclusions on our [packages page](/packages/), or the full breakdown of our range on the [audio visual rental page](/blog/audio-visual-rental/).
 
 ## Dry Hire or Full Service?
 
-Not every corporate event needs a technician on site. The [Product Presentation Pack](/packages/product-presentation/) and [Basic MICE Pack](/packages/basic-mice/) are delivered, installed and tested by our crew, then run by you or your own team. The [MICE Pack](/packages/mice/) includes a technician on site for up to six hours, so a dropped microphone connection or a projector that will not sync gets fixed immediately.
+Not every corporate event needs a technician on site. The [Product Presentation Pack](/packages/product-presentation/) and [Basic MICE Pack](/packages/basic-mice/) are delivered, installed and tested by our crew, then run by you or your own team. The [MICE Pack](/packages/mice/) includes a technician on site for up to six hours, so a dropped microphone connection or an LED display that will not sync gets fixed immediately.
 
 ## Booking and Service Area
 
@@ -109,6 +105,8 @@ Our services focus on Malaga and extend to Granada for rentals over 400 euros. B
 ## Conclusion
 
 Whatever the format, from a board meeting to a full conference, Malaga Event Gear delivers the sound, screens and microphones your corporate event needs. [Contact us](/contact/) to discuss your event and get a tailored package.
+
+Running something smaller? See our [audio visual rental for small businesses](/blog/audio-visual-rental-for-small-businesses/) guide. Planning an evening event instead? See [audio visual rental for gala dinners](/blog/audio-visual-rental-for-gala-dinners/).
 
 ## FAQs
 
