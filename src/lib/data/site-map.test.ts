@@ -75,12 +75,16 @@ const FIXTURE_INPUT = {
 		post('news-item', 'standalone')
 	],
 	packages: [
-		{ name: 'Eco Pack', route: '/packages/eco/', price: 290 },
-		{ name: 'Wedding Pack', route: '/packages/wedding/', price: 650 }
+		{ name: 'Eco Pack', route: '/packages/eco/', price: 290, updated: '2026-05-31' },
+		{ name: 'Wedding Pack', route: '/packages/wedding/', price: 650, updated: '2026-05-31' }
 	] as EventPackage[],
 	categories: [{ name: 'Weddings', slug: 'weddings', count: 3 }] as Category[],
 	authors: [{ name: 'Hector Lorenzo', slug: 'hector-lorenzo', count: 5 }] as Author[],
-	staticPages: ['', 'about-us', 'contact', 'privacy-policy', 'sitemap', 'packages', 'blog'] as const
+	staticPages: ['', 'about-us', 'contact', 'privacy-policy', 'sitemap', 'packages', 'blog'] as const,
+	pageFreshness: new Map([
+		['', '2026-01-01'],
+		['about-us', '2026-02-02']
+	])
 };
 
 describe('buildSiteMap', () => {
@@ -105,6 +109,20 @@ describe('buildSiteMap', () => {
 		expect(v.packages.map((p) => p.url)).toEqual(['/packages/eco/', '/packages/wedding/']);
 		expect(v.categories[0].url).toBe('/blog/category/weddings/');
 		expect(v.authors[0].url).toBe('/blog/author/hector-lorenzo/');
+	});
+
+	it('carries `updated` on pages (from pageFreshness) and packages (from the catalog)', () => {
+		const v = buildSiteMap(FIXTURE_INPUT);
+		expect(v.corePages.find((p) => p.url === '/')?.updated).toBe('2026-01-01');
+		expect(v.corePages.find((p) => p.url === '/about-us/')?.updated).toBe('2026-02-02');
+		expect(v.corePages.find((p) => p.url === '/contact/')?.updated).toBeUndefined();
+		expect(v.packages.find((p) => p.url === '/packages/eco/')?.updated).toBe('2026-05-31');
+	});
+
+	it('defaults pageFreshness to empty when omitted, leaving pages without `updated`', () => {
+		const { pageFreshness: _omit, ...withoutFreshness } = FIXTURE_INPUT;
+		const v = buildSiteMap(withoutFreshness);
+		expect(v.corePages.every((p) => p.updated === undefined)).toBe(true);
 	});
 
 	it('emits a mermaid mindmap with root, pillar, a package and the blog branch', () => {

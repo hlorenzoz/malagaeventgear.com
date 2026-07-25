@@ -175,3 +175,63 @@ export async function getGlobalActiveRecipients(db: D1Database): Promise<string[
 
 	return rows.results.map((r) => r.email);
 }
+
+export interface IndexNowSubmissionRow {
+	url: string;
+	submitted_at: string;
+	content_updated_at: string;
+}
+
+export async function upsertIndexNowSubmission(
+	db: D1Database,
+	url: string,
+	submittedAt: string,
+	contentUpdatedAt: string
+): Promise<void> {
+	await db
+		.prepare(
+			`INSERT INTO indexnow_submissions (url, submitted_at, content_updated_at)
+       VALUES (?, ?, ?)
+       ON CONFLICT(url) DO UPDATE SET
+         submitted_at = excluded.submitted_at,
+         content_updated_at = excluded.content_updated_at`
+		)
+		.bind(url, submittedAt, contentUpdatedAt)
+		.run();
+}
+
+export async function getIndexNowSubmissions(db: D1Database): Promise<IndexNowSubmissionRow[]> {
+	const rows = await db
+		.prepare(`SELECT url, submitted_at, content_updated_at FROM indexnow_submissions`)
+		.all<IndexNowSubmissionRow>();
+
+	return rows.results;
+}
+
+/**
+ * Rate-limit log for POST /api/indexnow — one row per attempt that passed validation.
+ * Mirrors insertLead/countRecentLeadsByIP's role for the leads endpoint.
+ */
+export async function insertIndexNowRequest(db: D1Database, ip: string): Promise<void> {
+	const id = crypto.randomUUID();
+	const now = new Date().toISOString();
+
+	await db
+		.prepare(`INSERT INTO indexnow_requests (id, ip, created_at) VALUES (?, ?, ?)`)
+		.bind(id, ip, now)
+		.run();
+}
+
+export async function countRecentIndexNowRequestsByIP(
+	db: D1Database,
+	ip: string,
+	windowSecs: number
+): Promise<number> {
+	const since = new Date(Date.now() - windowSecs * 1000).toISOString();
+	const result = await db
+		.prepare(`SELECT COUNT(*) as cnt FROM indexnow_requests WHERE ip = ? AND created_at > ?`)
+		.bind(ip, since)
+		.first<{ cnt: number }>();
+
+	return result?.cnt ?? 0;
+}
