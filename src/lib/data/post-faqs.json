@@ -363,48 +363,32 @@
   ],
   "audio-visual-rental-for-conferences": [
     {
-      "question": "What AV is needed for a conference?",
-      "answer": "To host a successful conference, you’ll typically need a range of AV equipment including microphones, speakers, projectors, screens, and video conferencing tools. Depending on the scale of the event, additional equipment such as lighting and staging might be necessary."
+      "question": "What AV equipment is needed for a conference?",
+      "answer": "A typical conference needs PA sound reinforcement, a projector or LED display for slides, and wired, wireless or gooseneck microphones for the podium and panel discussions. Larger conferences with breakout rooms need a second, smaller setup for each parallel session."
     },
     {
-      "question": "How much does a sound system cost for an event?",
-      "answer": "The cost of a sound system for an event can vary significantly based on the size and quality of the equipment. For a basic setup, prices can start from around $500, but for larger or high quality systems, costs can rise substantially."
+      "question": "How much does audio visual rental for a conference cost?",
+      "answer": "Pricing depends on the package: our full catalog, from the Basic MICE Pack for a small executive session up to the MICE Pack for a full conference, is listed with exact euro pricing on our packages page. All rates are ex VAT, with 21 percent Spanish VAT added at checkout, and every price includes delivery, setup and teardown."
     },
     {
-      "question": "Is it cheaper to rent or buy a sound system?",
-      "answer": "Renting a sound system is often more cost effective for one time or occasional events, as it avoids the maintenance and storage costs associated with purchasing. For frequent use, buying might be more economical in the long term."
+      "question": "How is a conference AV setup different from a corporate event or press conference?",
+      "answer": "A corporate event is usually a single room with one setup. A press conference is built around one speaker area and a podium mic. A conference is the more demanding case: a plenary session plus one or more breakout rooms running in parallel, each needing its own sound and screen. See How This Differs from a Corporate Event or Press Conference above."
     },
     {
-      "question": "How much does it cost to hire sound equipment?",
-      "answer": "Hiring sound equipment can range from $300 to $1,500, depending on the complexity of the setup and the duration of the rental. Contact Malaga Event Gear for a detailed quote tailored to your event’s specific needs."
+      "question": "Can you run AV for a plenary session and breakout rooms on the same day?",
+      "answer": "Yes. The MICE Pack covers the plenary with a technician on site, and the Basic MICE Pack covers a smaller breakout or executive session. Book both together for a multi-room conference day."
     },
     {
-      "question": "How much does AV cost for a conference?",
-      "answer": "The AV cost for a conference can vary widely based on factors such as venue size, equipment requirements, and technical support. Expect to budget anywhere from $5,000 to $5,000, with higher end events potentially exceeding this range."
+      "question": "How far in advance should I book AV for a conference?",
+      "answer": "Book as early as you can once your date and room layout are confirmed, especially if your conference needs both a plenary and breakout rooms covered on the same day. Demand on the Costa del Sol peaks during the spring and autumn conference season."
     },
     {
-      "question": "What sound system is best for small events?",
-      "answer": "For small events, portable PA systems or compact line array systems are ideal. They provide sufficient power and clarity while being easy to set up. Consider brands known for reliability and sound quality."
-    },
-    {
-      "question": "What services does Malaga Event Gear provide for audiovisual events in Malaga?",
-      "answer": "Malaga Event Gear specializes in rental services for high quality audio and visual equipment tailored to conferences and events. We offer pristine sound systems, dynamic lighting solutions, and high resolution projectors to ensure a flawless experience for your guests."
-    },
-    {
-      "question": "How can Malaga Event Gear enhance my event experience?",
-      "answer": "Our state of the art technology, including top notch sound systems and high resolution visual equipment, enhances audience engagement and elevates the event’s prestige. Our expert team is dedicated to ensuring seamless execution from setup to support, leaving a lasting impression."
-    },
-    {
-      "question": "What makes Malaga Event Gear’s audiovisual rental services unique?",
-      "answer": "We offer customizable packages and cutting edge technology tailored to each event’s needs. Whether it’s a corporate gathering or a private party, our team ensures flawless execution, providing top tier services with exceptional customer support."
-    },
-    {
-      "question": "What technology options do you offer to enhance audience engagement?",
-      "answer": "Our extensive range of equipment includes high resolution projectors, pristine sound systems, and dynamic lighting solutions. These technologies are designed to captivate audiences, ensuring your message resonates, and your event leaves a lasting impact."
+      "question": "What services does Malaga Event Gear provide for conferences in Malaga?",
+      "answer": "We deliver, install and test sound, projection, LED display and lighting for conferences across Malaga and the wider Costa del Sol, with a technician on site on the MICE Pack."
     },
     {
       "question": "How can I book audiovisual services with Malaga Event Gear?",
-      "answer": "You can contact our expert team by visiting our website or reaching out via our contact page. We are available daily from 8:00 am to 8:00 pm to discuss your event needs and tailor solutions that guarantee a memorable experience."
+      "answer": "Visit our packages page to compare packages, or reach out via our contact page to discuss your conference and get a tailored quote. We are available daily from 8:00 am to 8:00 pm."
     }
   ],
   "audio-visual-rental": [
