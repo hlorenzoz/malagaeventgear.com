@@ -1191,6 +1191,11 @@
       "level": 2
     },
     {
+      "id": "costa-del-sol-coverage-not-just-malaga-city",
+      "text": "Costa del Sol Coverage, Not Just Malaga City",
+      "level": 2
+    },
+    {
       "id": "why-choose-malaga-event-gear-for-your-event-needs",
       "text": "Why Choose Malaga Event Gear for Your Event Needs?",
       "level": 3
@@ -1223,6 +1228,11 @@
     {
       "id": "customize-your-event-with-tailored-rental-options",
       "text": "Customize Your Event with Tailored Rental Options",
+      "level": 3
+    },
+    {
+      "id": "dry-hire-vs-full-service-av-hire",
+      "text": "Dry Hire vs. Full Service AV Hire",
       "level": 3
     },
     {
@@ -1266,13 +1276,38 @@
       "level": 2
     },
     {
-      "id": "how-much-does-it-cost-to-hire-sound-equipment",
-      "text": "How much does it cost to hire sound equipment?",
+      "id": "how-much-does-audio-visual-hire-cost-near-me",
+      "text": "How much does audio visual hire cost near me?",
       "level": 3
     },
     {
-      "id": "how-much-does-a-sound-system-cost-for-an-event",
-      "text": "How much does a sound system cost for an event?",
+      "id": "what-is-included-in-an-audio-visual-hire-package",
+      "text": "What is included in an audio visual hire package?",
+      "level": 3
+    },
+    {
+      "id": "what-is-the-difference-between-dry-hire-and-full-service-av-hire",
+      "text": "What is the difference between dry hire and full service AV hire?",
+      "level": 3
+    },
+    {
+      "id": "how-many-guests-can-your-av-packages-support",
+      "text": "How many guests can your AV packages support?",
+      "level": 3
+    },
+    {
+      "id": "can-audio-visual-equipment-be-used-outdoors",
+      "text": "Can audio visual equipment be used outdoors?",
+      "level": 3
+    },
+    {
+      "id": "what-is-the-difference-between-hiring-av-equipment-and-hiring-a-dj",
+      "text": "What is the difference between hiring AV equipment and hiring a DJ?",
+      "level": 3
+    },
+    {
+      "id": "do-you-serve-areas-outside-malaga-city",
+      "text": "Do you serve areas outside Malaga city?",
       "level": 3
     }
   ],
