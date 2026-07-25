@@ -10,8 +10,8 @@ categories: [Events, News]
 tags: []
 draft: false
 keyword: "news malaga event gear delivers premium technical support for bmotions high profile corporate project in marbella"
-siloRole: standalone
-targetPage: ""
+siloRole: news
+targetPage: "/"
 ---
 
 <script>
@@ -21,7 +21,7 @@ targetPage: ""
 
 The Costa del Sol continues to solidify its reputation as a premier global hub for high-end corporate gatherings, demanding nothing short of technical perfection. From May 19 to May 20, 2026, Marbella became the staging ground for a sophisticated corporate event that brought together industry leaders.
 
-Behind the scenes, ensuring that every presentation was delivered with absolute clarity, **Malaga Event Gear (MEG)** stepped in to provide essential technical support for **[Bmotion](https://www.bmotionav.com/)**, one of the region’s premier audiovisual agencies. This collaboration highlighted the seamless synergy that occurs when top-tier event production meets reliable, deeply experienced local expertise.
+Behind the scenes, ensuring that every presentation was delivered with absolute clarity, [**Malaga Event Gear (MEG)**](/) stepped in to provide essential technical support for **[Bmotion](https://www.bmotionav.com/)**, one of the region’s premier audiovisual agencies. This collaboration highlighted the seamless synergy that occurs when top-tier event production meets reliable, deeply experienced local expertise.
 
 ![](https://cdn.malagaeventgear.com/blog/3079/2026.05.19-20-Bmotion-Marbella-4-1024x576.webp)
 
