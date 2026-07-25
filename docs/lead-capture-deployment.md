@@ -97,7 +97,12 @@ App principal:
 bunx wrangler secret put RESEND_API_KEY
 bunx wrangler secret put RESEND_FROM
 bunx wrangler secret put TURNSTILE_SECRET_KEY
+bunx wrangler secret put INDEXNOW_KEY
 ```
+`INDEXNOW_KEY` es el UUID del archivo de verificación en `static/<uuid>.txt` (protocolo
+IndexNow, honrado por Bing/Yandex, NO por Google — GSC se maneja a mano desde `/map`). Si se
+regenera la key, hay que reemplazar el archivo `static/<uuid>.txt` viejo por uno nuevo con el
+nuevo valor, no solo el secret.
 
 Worker de cron (mismo `RESEND_API_KEY`, nombre del worker explícito):
 ```bash
@@ -110,6 +115,7 @@ RESEND_API_KEY=re_...
 RESEND_FROM=Malaga Event Gear <hola@malagaeventgear.com>
 TURNSTILE_SECRET_KEY=1x0000000000000000000000000000000AA
 PUBLIC_TURNSTILE_SITE_KEY=1x00000000000000000000AA
+INDEXNOW_KEY=<mismo uuid que el archivo static/<uuid>.txt>
 ```
 > Las claves `1x...` son las de **test always-pass** de Cloudflare Turnstile (dev).
 > Si `TURNSTILE_SECRET_KEY` no está seteada, el endpoint OMITE la verificación (modo dev).

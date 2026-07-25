@@ -51,11 +51,13 @@ function pageUrl(route: string): string {
 export interface PageNode {
 	label: string;
 	url: string;
+	updated?: string;
 }
 export interface PackageNode {
 	name: string;
 	url: string;
 	price: number;
+	updated?: string;
 }
 export interface SiloChild {
 	key: string;
@@ -103,6 +105,8 @@ export interface SiteMapInput {
 	categories: Category[];
 	authors: Author[];
 	staticPages: readonly string[];
+	/** Ruta (sin barras) -> `contentUpdated`, del mismo `meta.ts` que alimenta page-sitemap.xml. */
+	pageFreshness?: ReadonlyMap<string, string>;
 }
 
 // --- Validación del reverse silo (dientes que antes tenía el guard) --------
@@ -157,15 +161,29 @@ function byUrl<T extends { url: string }>(a: T, b: T): number {
 }
 
 /**
+ * Normaliza una fecha a su parte `YYYY-MM-DD`, descartando el resto.
+ *
+ * Gotcha de YAML (documentado en AGENTS.md): una fecha SIN comillas en el frontmatter
+ * (`updatedDate: 2025-12-10`) se parsea como `Date` y termina serializada como
+ * `2025-12-10T00:00:00.000Z`, mientras que una fecha entre comillas queda como el string
+ * plano `2025-12-10`. Comparar ambas formas sin normalizar produce un orden incorrecto
+ * para el mismo día calendario (el string con hora siempre ordena después). Mismo patrón
+ * que ya usa `maxUpdatedDate` en blog-pipeline.ts.
+ */
+export function dateOnly(date: string): string {
+	return date.split('T')[0];
+}
+
+/**
  * Ordena los hijos de un silo por frescura: los que nunca se actualizaron
  * (sin `updated`) van primero; el resto asciende por fecha, así lo más
  * reciente queda al final. Empates: por URL, para un orden estable.
  */
-function byUpdatedAsc<T extends { url: string; updated?: string }>(a: T, b: T): number {
+export function byUpdatedAsc<T extends { url: string; updated?: string }>(a: T, b: T): number {
 	if (!a.updated && !b.updated) return byUrl(a, b);
 	if (!a.updated) return -1;
 	if (!b.updated) return 1;
-	return a.updated.localeCompare(b.updated) || byUrl(a, b);
+	return dateOnly(a.updated).localeCompare(dateOnly(b.updated)) || byUrl(a, b);
 }
 
 function buildSilos(posts: BlogPost[]): { silos: SiloNode[]; standalone: SiloChild[] } {
@@ -255,22 +273,23 @@ function renderMindmap(view: Omit<SiteMapView, 'mermaid'>): string {
 
 /** Arma el view-model completo del mapa del sitio a partir de las fuentes de contenido. */
 export function buildSiteMap(input: SiteMapInput): SiteMapView {
-	const { posts, packages, categories, authors, staticPages } = input;
+	const { posts, packages, categories, authors, staticPages, pageFreshness = new Map() } = input;
 
 	const corePages: PageNode[] = staticPages
 		.filter((r) => !HUB_PAGES.has(r) && !LEGAL_PAGES.has(r) && !UTILITY_PAGES.has(r))
-		.map((r) => ({ label: pageLabel(r), url: pageUrl(r) }));
+		.map((r) => ({ label: pageLabel(r), url: pageUrl(r), updated: pageFreshness.get(r) }));
 	const legalPages: PageNode[] = staticPages
 		.filter((r) => LEGAL_PAGES.has(r))
-		.map((r) => ({ label: pageLabel(r), url: pageUrl(r) }));
+		.map((r) => ({ label: pageLabel(r), url: pageUrl(r), updated: pageFreshness.get(r) }));
 	const utilityPages: PageNode[] = staticPages
 		.filter((r) => UTILITY_PAGES.has(r))
-		.map((r) => ({ label: pageLabel(r), url: pageUrl(r) }));
+		.map((r) => ({ label: pageLabel(r), url: pageUrl(r), updated: pageFreshness.get(r) }));
 
 	const packageNodes: PackageNode[] = packages.map((pk) => ({
 		name: pk.name,
 		url: pk.route,
-		price: pk.price
+		price: pk.price,
+		updated: pk.updated
 	}));
 
 	const { silos, standalone } = buildSilos(posts);

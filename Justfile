@@ -69,6 +69,7 @@ secrets:
     bunx wrangler secret put RESEND_API_KEY
     bunx wrangler secret put RESEND_FROM
     bunx wrangler secret put TURNSTILE_SECRET_KEY
+    bunx wrangler secret put INDEXNOW_KEY
 
 # Carga el secret del worker de recordatorios de reseña (mismo RESEND_API_KEY)
 secrets-worker:

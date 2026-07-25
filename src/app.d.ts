@@ -10,6 +10,7 @@ declare global {
 				RESEND_FROM: string;
 				LEAD_NOTIFY_EMAILS: string;
 				PUBLIC_SITE_URL: string;
+				INDEXNOW_KEY: string;
 			};
 			ctx: ExecutionContext;
 			caches: CacheStorage;

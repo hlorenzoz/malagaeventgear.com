@@ -3,6 +3,9 @@
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
 	import { i18n } from '$lib/i18n.svelte';
 	import { siteConfig } from '$lib/data/site';
+	import { dateOnly } from '$lib/data/site-map';
+	import { byGscTier } from '$lib/utils/map-gsc-sort';
+	import { needsIndexNow as computeNeedsIndexNow } from '$lib/utils/map-indexnow-eligibility';
 
 	// URL absoluta lista para pegar en cualquier lado.
 	const abs = (path: string) => `${siteConfig.url}${path}`;
@@ -15,8 +18,26 @@
 	let q = $derived(query.trim().toLowerCase());
 	const match = (s: string) => !q || s.toLowerCase().includes(q);
 
+	// --- Marca manual "copié esta URL para reenviarla a GSC" (localStorage, sin backend:
+	// Google no tiene API aca, así que "enviado" solo puede ser una señal manual). Reordena
+	// solo los kids de cada silo: arriba los actualizados-sin-marcar, luego los nunca
+	// actualizados, al final los actualizados-y-ya-marcados.
+	const GSC_STORAGE_KEY = 'meg-map-gsc-marked';
+	let gscMarked = $state<Record<string, string>>({});
+	function markGscHandled(url: string) {
+		gscMarked = { ...gscMarked, [url]: new Date().toISOString() };
+		try {
+			localStorage.setItem(GSC_STORAGE_KEY, JSON.stringify(gscMarked));
+		} catch {
+			// private browsing / storage disabled — the reorder just won't persist
+		}
+	}
+
 	let filteredSilos = $derived(
-		view.silos.map((s) => ({ ...s, kids: s.kids.filter((k) => match(k.key)) }))
+		view.silos.map((s) => ({
+			...s,
+			kids: s.kids.filter((k) => match(k.key)).sort(byGscTier(gscMarked))
+		}))
 	);
 	let filteredStandalone = $derived(view.standalone.filter((p) => match(p.key)));
 	let filteredPackages = $derived(view.packages.filter((p) => match(p.name)));
@@ -84,8 +105,58 @@
 		}
 	}
 
+	// --- IndexNow (Bing/Yandex) — botón por nodo con `updated`, D1 vía /api/indexnow ---
+	// url absoluta -> `contentUpdatedAt` de la última sumisión exitosa.
+	let indexnowSubmissions = $state<Record<string, string>>({});
+	function needsIndexNow(url: string, updated?: string): boolean {
+		return computeNeedsIndexNow(new Date(), updated, indexnowSubmissions[abs(url)]);
+	}
+
+	let submitting = $state<string | null>(null);
+	async function submitIndexNow(url: string, updated: string) {
+		const key = abs(url);
+		submitting = key;
+		try {
+			const res = await fetch('/api/indexnow', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ url: key })
+			});
+			if (res.ok) {
+				indexnowSubmissions = { ...indexnowSubmissions, [key]: updated };
+			}
+		} catch {
+			// network error — button stays visible, user can retry
+		} finally {
+			submitting = null;
+		}
+	}
+
 	onMount(() => {
 		let cancelled = false;
+
+		try {
+			const raw = localStorage.getItem(GSC_STORAGE_KEY);
+			if (raw) gscMarked = JSON.parse(raw);
+		} catch {
+			// private browsing / storage disabled — no persisted marks to restore
+		}
+
+		type IndexNowGetResponse = {
+			ok: boolean;
+			submissions?: { url: string; submittedAt: string; contentUpdatedAt: string }[];
+		};
+		(async () => {
+			const res = await fetch('/api/indexnow');
+			if (!res.ok) return;
+			const data = (await res.json()) as IndexNowGetResponse;
+			if (!data.ok || !data.submissions) return;
+			const map: Record<string, string> = {};
+			for (const s of data.submissions) map[s.url] = s.contentUpdatedAt;
+			indexnowSubmissions = map;
+		})().catch(() => {
+			// no submissions loaded — every eligible button just starts visible
+		});
 
 		async function render() {
 			graphState = 'loading';
@@ -135,7 +206,7 @@
 <SeoHead {title} {description} canonicalUrl="https://malagaeventgear.com/map/" noindex={true} />
 
 <div class="map">
-	{#snippet copyBtn(value: string, variant: 'key' | 'url')}
+	{#snippet copyBtn(value: string, variant: 'key' | 'url', onCopied?: () => void)}
 		<button
 			type="button"
 			class="kcopy"
@@ -146,6 +217,7 @@
 				e.preventDefault();
 				e.stopPropagation();
 				copyKey(value);
+				onCopied?.();
 			}}
 		>
 			{#if copiedKey === value}
@@ -158,10 +230,31 @@
 		</button>
 	{/snippet}
 
-	{#snippet keyActions(keyText: string, url: string)}
+	{#snippet indexNowBtn(url: string, updated: string)}
+		<button
+			type="button"
+			class="kcopy"
+			class:done={submitting === abs(url)}
+			disabled={submitting === abs(url)}
+			title="Submit to IndexNow (Bing/Yandex)"
+			aria-label={`Submit to IndexNow: ${abs(url)}`}
+			onclick={(e) => {
+				e.preventDefault();
+				e.stopPropagation();
+				submitIndexNow(url, updated);
+			}}
+		>
+			<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13" /><path d="M22 2 15 22l-4-9-9-4 20-7Z" /></svg>
+		</button>
+	{/snippet}
+
+	{#snippet keyActions(keyText: string, url: string, updated?: string, trackGsc?: boolean)}
 		<span class="kactions">
 			{@render copyBtn(keyText, 'key')}
-			{@render copyBtn(abs(url), 'url')}
+			{@render copyBtn(abs(url), 'url', trackGsc ? () => markGscHandled(url) : undefined)}
+			{#if needsIndexNow(url, updated)}
+				{@render indexNowBtn(url, updated!)}
+			{/if}
 		</span>
 	{/snippet}
 
@@ -232,15 +325,15 @@
 							{/if}
 						</button>
 					</div>
-					<h2><a href={silo.url}>{silo.key}</a>{@render keyActions(silo.key, silo.url)}</h2>
+					<h2><a href={silo.url}>{silo.key}</a>{@render keyActions(silo.key, silo.url, silo.updated)}</h2>
 					<div class="pillar-meta">
 						<span class="up">↑ links to /</span> · <span class="mono">{silo.kids.length} shown</span>
-						{#if silo.updated} · updated {silo.updated}{/if}
+						{#if silo.updated} · updated {dateOnly(silo.updated)}{/if}
 					</div>
 				</div>
 				<ul class="kids">
 					{#each silo.kids as kid (kid.url)}
-						<li><a href={kid.url}><span class="k-dot support"></span><span class="k-key">{kid.key}</span>{#if kid.updated}<span class="k-date">{kid.updated}</span>{:else}<span class="k-date stale">— never</span>{/if}</a>{@render keyActions(kid.key, kid.url)}</li>
+						<li><a href={kid.url}><span class="k-dot support"></span><span class="k-key">{kid.key}</span>{#if kid.updated}<span class="k-date">{dateOnly(kid.updated)}</span>{:else}<span class="k-date stale">— never</span>{/if}</a>{@render keyActions(kid.key, kid.url, kid.updated, true)}</li>
 					{/each}
 					{#if silo.kids.length === 0}<li class="empty">No matches</li>{/if}
 				</ul>
@@ -254,14 +347,14 @@
 			<div class="card-head"><span class="dot blue"></span><h2>Site pages</h2></div>
 			<ul class="flat">
 				{#each filteredCore as p (p.url)}
-					<li><a href={p.url}><span class="k-dot blue"></span><span class="k-key">{p.label}</span></a>{@render keyActions(p.label, p.url)}</li>
+					<li><a href={p.url}><span class="k-dot blue"></span><span class="k-key">{p.label}</span></a>{@render keyActions(p.label, p.url, p.updated)}</li>
 				{/each}
 			</ul>
 			{#if filteredLegal.length}
 				<div class="sub-head">Legal</div>
 				<ul class="flat">
 					{#each filteredLegal as p (p.url)}
-						<li><a href={p.url}><span class="k-dot blue"></span><span class="k-key">{p.label}</span></a>{@render keyActions(p.label, p.url)}</li>
+						<li><a href={p.url}><span class="k-dot blue"></span><span class="k-key">{p.label}</span></a>{@render keyActions(p.label, p.url, p.updated)}</li>
 					{/each}
 				</ul>
 			{/if}
@@ -271,7 +364,7 @@
 			<div class="card-head"><span class="dot blue"></span><h2>Packages</h2></div>
 			<ul class="flat">
 				{#each filteredPackages as pk (pk.url)}
-					<li><a href={pk.url}><span class="k-dot blue"></span><span class="k-key">{pk.name}</span><span class="k-date">€{pk.price}</span></a>{@render keyActions(pk.name, pk.url)}</li>
+					<li><a href={pk.url}><span class="k-dot blue"></span><span class="k-key">{pk.name}</span><span class="k-date">€{pk.price}</span></a>{@render keyActions(pk.name, pk.url, pk.updated)}</li>
 				{/each}
 			</ul>
 		</section>
@@ -283,7 +376,7 @@
 			<div class="card-head"><span class="dot standalone"></span><h2>Standalone</h2><span class="sub">not in any silo</span></div>
 			<ul class="flat">
 				{#each filteredStandalone as p (p.url)}
-					<li><a href={p.url}><span class="k-dot standalone"></span><span class="k-key">{p.key}</span></a>{@render keyActions(p.key, p.url)}</li>
+					<li><a href={p.url}><span class="k-dot standalone"></span><span class="k-key">{p.key}</span></a>{@render keyActions(p.key, p.url, p.updated)}</li>
 				{/each}
 			</ul>
 		</section>
