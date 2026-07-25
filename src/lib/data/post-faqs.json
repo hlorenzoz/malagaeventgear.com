@@ -1751,24 +1751,36 @@
   ],
   "audio-visual-rental-for-virtual-events": [
     {
-      "question": "What types of events does Malaga Event Gear specialize in?",
-      "answer": "Malaga Event Gear specializes in providing top tier audiovisual and sound equipment rentals specifically tailored for virtual events, including corporate meetings, educational events, and more."
+      "question": "What equipment do I need for a virtual event?",
+      "answer": "You need in-room sound so people can hear the call, a screen or display so they can see it, and a way to connect your laptop to both. Our Product Presentation Pack covers all three with HDMI and USB-C adapters included."
     },
     {
-      "question": "What kind of equipment does Malaga Event Gear provide for virtual events?",
-      "answer": "We offer state of the art audiovisual and sound equipment, ensuring crystal clear audio and stunning visuals for presentations, workshops, and seminars."
+      "question": "How much does audio visual rental cost for a virtual event?",
+      "answer": "Pricing depends on the package: our full catalog, from the Product Presentation Pack up to the MICE Pack for a larger conference room, is listed with exact euro pricing on our packages page. All rates are ex VAT, with 21 percent Spanish VAT added at checkout, and every price includes delivery, setup and teardown."
     },
     {
-      "question": "Can Malaga Event Gear customize rental packages for different event needs?",
-      "answer": "Yes, we offer a variety of customizable rental packages to meet the unique demands of any virtual event, ensuring seamless integration and exceptional clarity."
+      "question": "What is the difference between a virtual event and a hybrid event?",
+      "answer": "A fully virtual event has no in-person audience at all. A hybrid event has both an in-person room and remote participants on a call. Either way, we supply the same thing: the room's sound, screen and laptop connectivity. See What We Provide vs. What You Bring above."
     },
     {
-      "question": "How can I book a rental package with Malaga Event Gear?",
-      "answer": "You can contact us directly to discover the perfect rental package for your needs and secure your ideal rental package."
+      "question": "Can I connect my own laptop to your sound and screen setup?",
+      "answer": "Yes. The Product Presentation Pack includes HDMI and USB-C adapters plus audio interfaces to connect your laptop, tablet or media player."
     },
     {
-      "question": "Why choose Malaga Event Gear for virtual events in Malaga, Spain?",
-      "answer": "Choosing Malaga Event Gear ensures access to cutting edge technology with over two decades of expertise, providing seamless and memorable experiences for your virtual events."
+      "question": "Do you provide cameras or streaming equipment?",
+      "answer": "No. We provide the room's sound and screen, not cameras, streaming encoders or a recording service. You run the call from your own laptop and software."
+    },
+    {
+      "question": "Do you provide internet or wifi for the event?",
+      "answer": "No, internet and wifi are not part of our packages. Confirm connectivity with your venue before the event."
+    },
+    {
+      "question": "Do I need an on-site AV technician?",
+      "answer": "Not on every package. The MICE Pack includes a technician on site for up to six hours; on other packages a technician is available as an add on. Ask when you book."
+    },
+    {
+      "question": "How many people can your equipment support?",
+      "answer": "It scales with the package: the Basic MICE Pack covers up to 40 guests, and the MICE Pack covers up to 120. See the full comparison on our packages page."
     }
   ],
   "audio-visual-rental-companies": [
