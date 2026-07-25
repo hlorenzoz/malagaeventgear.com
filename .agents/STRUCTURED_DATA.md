@@ -55,5 +55,12 @@ Esencial para captar tráfico inbound y demostrar conocimiento del sector (*Topi
 | **Servicio Individual** | `Service` | `Offer`, `AggregateRating`, `Review` | Rich Snippets (Estrellas, Precios) |
 | **Categoría de Servicios** | `ItemList` | Enlaces a elementos `Service` | Comprensión de arquitectura web |
 | **Blog / Post** | `Article` o `BlogPosting` | `Person` (Autor), `Organization` | Rich Snippets de Noticias / Carruseles |
-| **Preguntas Frecuentes** | `FAQPage` | `Question`, `Answer` | Desplegables de FAQ en las SERPs |
+| **Preguntas Frecuentes** | `FAQPage` | `Question`, `Answer` | Marcado schema.org valido (Google descontinuo el rich result de FAQ en las SERPs desde mayo 2026 - ver nota abajo); sigue siendo util para buscadores con IA y otros consumidores del marcado |
 | **Cualquier página con ruta** | `BreadcrumbList` | `ListItem` | Fragmento de migas de pan en la URL |
+
+> **Nota (2026-07-25):** Google descontinuo el rich result de FAQ en Search a partir del 7 de
+> mayo de 2026 (soporte en Search Console/Rich Results Test retirado en junio 2026, retiro de
+> API en agosto 2026). El marcado `FAQPage` sigue siendo schema.org valido y puede seguir
+> siendo leido por buscadores con IA u otros consumidores del marcado, pero ya no genera el
+> desplegable en las SERPs de Google. No tratar un `FAQPage` incompleto como bloqueante de
+> "elegibilidad de rich result" - ese canal ya no existe.

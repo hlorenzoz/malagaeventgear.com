@@ -122,7 +122,15 @@
 		section: firstCategory,
 		tags: post.tags && post.tags.length > 0 ? post.tags : undefined,
 		author: authorUrl,
-		images: [{ url: post.coverImage, alt: post.title }]
+		images: [
+			{
+				url: post.coverImage,
+				alt: post.title,
+				width: post.coverImageWidth,
+				height: post.coverImageHeight,
+				type: 'image/webp'
+			}
+		]
 	}}
 />
 
