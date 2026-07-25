@@ -1,11 +1,11 @@
 ---
 title: "Audio Visual Rental for Music Performances in Malaga, Spain"
-description: "Audio visual rental for music performances in Malaga: PA sound and lighting for a DJ set, live band or duo, delivered across the Costa del Sol."
+description: "Audio visual rental for music performances in Malaga: PA sound, a microphone and lighting for a DJ set, live band or duo, delivered across the Costa del Sol."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-music-performances
 publishDate: 2025-12-08
 updatedDate: 2026-07-25
-excerpt: "Audio visual rental for music performances in Malaga: PA sound and lighting for a DJ set, live band or duo, delivered across the Costa del Sol."
+excerpt: "Audio visual rental for music performances in Malaga: PA sound, a microphone and lighting for a DJ set, live band or duo, delivered across the Costa del Sol."
 coverImage: https://cdn.malagaeventgear.com/blog/1327/malaga_concert_lighting_microphone_audio_rental-scaled.webp
 categories: [Audio Visual Rental, Events]
 tags: []
@@ -59,9 +59,9 @@ This is a self-run setup: no technician is included, so a DJ or band brings thei
 
 ## Real Setups We've Delivered
 
-![Full HK Audio column array speaker system and wireless microphone setup for outdoor DJ audio and microphone system setup in Malaga.](https://cdn.malagaeventgear.com/blog/1788/2025-10-05-DJ-audio-and-microphone-system-setup-1536x1152.webp)
+![Full HK Audio column array speaker system and microphone setup for an outdoor DJ event in Malaga.](https://cdn.malagaeventgear.com/blog/1788/2025-10-05-DJ-audio-and-microphone-system-setup-1536x1152.webp)
 
-A real HK Audio column array and subwoofer system, complete with a wireless microphone, for an outdoor DJ event in Malaga.
+A real HK Audio column array system, complete with a microphone, from a past outdoor DJ event in Malaga.
 
 ![A live DJ and guitarist performing on stage with professional audio and lighting equipment during an outdoor event in Malaga](https://cdn.malagaeventgear.com/blog/1325/audio-lighting-sound-system-microphone-rental-malaga-224x300.webp)
 
@@ -76,7 +76,7 @@ A singer and guitarist duo performing with rented microphone and sound equipment
 A DJ setup for a beachside party in Malaga.
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('eco')} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('eco', ['/1327/', '/1788/'])} speed="normal" direction="left" />
 </div>
 
 ## Outdoor Venues: Villas, Terraces and Beach Clubs
