@@ -116,7 +116,12 @@ export const POST: RequestHandler = async ({ request, platform }) => {
 				return json({ ok: false, error: 'rate_limited' }, { status: 429 });
 			}
 			console.error('[/api/indexnow] IndexNow rejected submission:', result.status, url);
-			return json({ ok: false, error: 'indexnow-rejected' }, { status: 502 });
+			// Relay IndexNow's own status (e.g. 429 rate-limited, 403 invalid key) instead of a
+			// blanket 502, so the Network tab shows the real upstream cause without digging into logs.
+			return json(
+				{ ok: false, error: 'indexnow-rejected', upstreamStatus: result.status },
+				{ status: result.status }
+			);
 		}
 
 		return json({ ok: true }, { status: 200 });
