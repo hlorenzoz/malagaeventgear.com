@@ -1561,24 +1561,28 @@
   ],
   "audio-visual-rental-for-training-sessions": [
     {
-      "question": "What types of events can Malaga Event Gear support?",
-      "answer": "Malaga Event Gear offers audiovisual solutions for a variety of events, including training sessions, corporate events, meetings, and personal gatherings, ensuring precise audio and stunning visuals."
+      "question": "What AV equipment do I need for a training session?",
+      "answer": "It depends on your group size and format. A small, laptop-driven workshop needs a sound system, a wireless microphone and a projector, which the Product Presentation Pack covers. A larger session benefits from a bigger screen and a technician, which the Basic MICE Pack and MICE Pack cover. See Match Your Training Session to a Package above."
     },
     {
-      "question": "What equipment does Malaga Event Gear provide?",
-      "answer": "We provide state of the art audiovisual equipment such as top tier sound systems, wireless microphones, and high definition visual gear, to enhance your event experience effectively."
+      "question": "Is my training session too small for professional AV support?",
+      "answer": "No. Our Product Presentation Pack is built for a small, laptop-driven session, with sound, a wireless microphone and a projector delivered, installed and tested by our crew."
     },
     {
-      "question": "How can Malaga Event Gear’s team ensure seamless event execution?",
-      "answer": "Our expert team offers comprehensive setup and dedicated support with over 20 years of experience, guaranteeing seamless event execution and impactful presentations."
+      "question": "Do you provide on-site technical support during the session, or is it drop-off equipment only?",
+      "answer": "It depends on the package. The Product Presentation Pack is delivered, installed and tested by our crew, then run by you. The Basic MICE Pack offers a technician as an add on, and the MICE Pack includes one on site for up to six hours."
     },
     {
-      "question": "Is it possible to customize rental packages?",
-      "answer": "Yes, Malaga Event Gear offers customizable rental packages to meet the specific technical needs of your event, ensuring that every detail aligns with your vision."
+      "question": "Can the AV setup handle a trainer moving between breakout groups?",
+      "answer": "Yes. Our wireless handheld microphones, included on the Product Presentation Pack and MICE Pack, let a trainer move freely between groups and exercise stations without losing sound clarity. See Trainer Mobility above."
     },
     {
-      "question": "What areas do your services cover and what are the booking requirements?",
-      "answer": "Our services are available in Malaga and extend to Granada for rentals over €400. We recommend booking at least 24 hours in advance to ensure availability and optimal preparation."
+      "question": "Can I connect my own laptop for my training slides?",
+      "answer": "Yes. The Product Presentation Pack includes HDMI and USB-C adapters plus audio interfaces to connect your own laptop, tablet or media player."
+    },
+    {
+      "question": "What areas do you cover, and how far in advance should I book?",
+      "answer": "Our services are available in Malaga and extend to Granada for rentals over 400 euros. Book at least 24 hours in advance to guarantee availability."
     }
   ],
   "all-in-one-wedding-rental-packages": [
