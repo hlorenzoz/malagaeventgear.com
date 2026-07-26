@@ -317,48 +317,36 @@
   ],
   "audio-visual-rental-for-press-conferences": [
     {
-      "question": "What audio visual device do you use for presentations?",
-      "answer": "At Malaga Event Gear, we utilize a comprehensive array of AV devices suited for high quality presentations, including projectors, LED screens, and sound systems to ensure clarity and engagement."
+      "question": "What AV equipment do I need for a press conference?",
+      "answer": "A podium microphone, PA sound that reaches the room, and a screen for branding or slides. The Basic MICE Pack covers a smaller press conference; the MICE Pack covers a larger one with a technician included. See Press Conference vs. General Conference above."
     },
     {
-      "question": "What are the things to consider in making an effective audio visual presentation?",
-      "answer": "To craft an effective audio visual presentation, consider the following aspects:\n\nIdentify your audience and tailor content accordingly  \nEnsure equipment is compatible with presentation software  \nTest audio and visual clarity in advance  \nMaintain a coherent structure with clear visuals"
+      "question": "Do you provide a camera riser or platform for press photographers?",
+      "answer": "We don't supply cameras, but our staging add on on the MICE Pack can be positioned as a riser or platform for photographers and camera operators."
     },
     {
-      "question": "What is the basic AV equipment?",
-      "answer": "Basic AV equipment typically includes:\n\nProjectors or monitors  \nMicrophones and speakers  \nLaptops or tablets for content execution  \nAV cables and connectors"
+      "question": "How many microphones do I need for a press conference?",
+      "answer": "The Basic MICE Pack includes 1 gooseneck microphone for the podium. The MICE Pack includes a gooseneck plus a wireless handheld microphone, useful if a panel of speakers or a Q&A needs to pass the mic around."
     },
     {
-      "question": "What is the purpose of audio visual presentation?",
-      "answer": "The primary purpose of an audio visual presentation is to enhance communication by combining visual aids with sound to effectively convey messages and engage audiences."
+      "question": "Do you provide a press mult box or individual audio feeds for reporters?",
+      "answer": "No, a mult box to distribute the podium audio to multiple reporters' recorders is not part of our catalog. Press typically bring and manage their own recording equipment at the podium."
     },
     {
-      "question": "What AV equipment is needed for a conference?",
-      "answer": "For a successful conference setup, consider the following AV equipment:\n\nHigh resolution projectors or large LED screens  \nProfessional audio systems with microphones  \nVideo conferencing tools for remote participation  \nLighting equipment for visibility and ambiance"
+      "question": "Does the AV company provide a branded backdrop or step-and-repeat banner?",
+      "answer": "No, a backdrop or banner is usually sourced through your PR or marketing team. We set up the podium, sound and staging it stands in front of."
     },
     {
-      "question": "What are the most rented pieces of equipment?",
-      "answer": "At Malaga Event Gear, the most commonly rented equipment includes:\n\nLED screens and projectors  \nWireless microphones  \nPA systems and speakers  \nLighting setups for stage and venue atmosphere"
+      "question": "Do you provide live streaming, broadcast feed or video recording?",
+      "answer": "No, we do not provide cameras, streaming or broadcast equipment. Our setup covers the room's sound, screen and staging."
     },
     {
-      "question": "What services does Malaga Event Gear offer for corporate events?",
-      "answer": "Malaga Event Gear specializes in audio visual rental services, including high quality sound systems, projectors, and dynamic lighting solutions, tailored specifically for corporate events and press conferences."
+      "question": "How far in advance should I book AV equipment for a press conference?",
+      "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga and extend to Granada for rentals over 400 euros."
     },
     {
-      "question": "How experienced is the team at Malaga Event Gear?",
-      "answer": "With over two decades of experience, our expert team ensures the success of your event by providing seamless audiovisual integration and support."
-    },
-    {
-      "question": "Can Malaga Event Gear tailor rental packages to fit my event needs?",
-      "answer": "Yes, we offer versatile and customizable rental packages designed to meet the specific requirements of your event, ensuring stunning visuals and crystal clear audio."
-    },
-    {
-      "question": "What type of equipment does Malaga Event Gear provide?",
-      "answer": "We provide a wide range of state of the art equipment, including sound systems, LED screens, projectors, video cameras, and sophisticated lighting to enhance your events."
-    },
-    {
-      "question": "How can I get a personalized quote for my event from Malaga Event Gear?",
-      "answer": "To receive a personalized quote, contact us directly to discuss your event requirements. Our team will provide a tailored solution to fit your budget and needs."
+      "question": "How many people can a press conference AV setup accommodate?",
+      "answer": "The Basic MICE Pack covers up to 40 guests, and the MICE Pack covers up to 120."
     }
   ],
   "audio-visual-rental-for-conferences": [
