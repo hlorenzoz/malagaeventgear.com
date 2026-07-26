@@ -96,6 +96,18 @@ describe('resolvePackageForPost', () => {
 		expect(pkg.slug).toBe('basic-mice');
 	});
 
+	it('resolves audio-visual-rental-for-press-conferences to basic-mice, not product-presentation', () => {
+		// A press conference needs a podium/gooseneck mic (basic-mice/mice), which
+		// product-presentation does not have. The old site's CTA pointed at
+		// product-presentation; that was wrong, not ground truth to preserve.
+		const post = makePost({
+			slug: 'audio-visual-rental-for-press-conferences',
+			categories: ['Audio Visual Rental', 'Corporate & Enterprise', 'Events']
+		});
+		const pkg = resolvePackageForPost(post);
+		expect(pkg.slug).toBe('basic-mice');
+	});
+
 	it('category matching is case-insensitive', () => {
 		const post = makePost({ categories: ['weddings'] });
 		const pkg = resolvePackageForPost(post);
@@ -113,7 +125,6 @@ describe('resolvePackageForPost — slug-driven relevance (per-post text)', () =
 		'audio-visual-rental-for-training-sessions',
 		'audio-visual-rental-for-virtual-events',
 		'audio-visual-rental-for-remote-presentations',
-		'audio-visual-rental-for-press-conferences',
 		'audio-visual-rental-for-product-launches'
 	];
 	for (const slug of productPresentationSlugs) {
