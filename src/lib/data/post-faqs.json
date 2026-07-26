@@ -19,24 +19,32 @@
   ],
   "audio-visual-rental-for-weddings": [
     {
-      "question": "What types of audiovisual equipment do you offer for weddings?",
-      "answer": "Malaga Event Gear (MEG) provides a range of top tier AV equipment, including sound systems, projectors, and dynamic lighting, to enhance your wedding ceremony and reception."
+      "question": "What AV equipment do I need for a wedding?",
+      "answer": "PA sound sized to your guest count, a wireless microphone for vows and speeches, and ambient lighting. The Wedding Pack covers all three, with a technician on site. See Why the Technician Matters at a Wedding above."
     },
     {
-      "question": "How do **Malaga Event Gear (MEG)**‘s services enhance wedding venues?",
-      "answer": "Our expertise ensures that sound is crystal clear and lighting is perfectly tailored to any venue in Malaga, from picturesque beaches to enchanting countryside settings, ensuring an unforgettable atmosphere."
+      "question": "How much does audio visual rental cost for a wedding?",
+      "answer": "The Wedding Pack costs 650 euros, ex VAT, with 21 percent Spanish VAT added at checkout. The price includes delivery, setup and teardown. See exact pricing on our packages page."
     },
     {
-      "question": "Are your AV rental services suitable for outdoor weddings?",
-      "answer": "Yes, we cater to both indoor and outdoor weddings. Our professional team manages setup to address common outdoor challenges, ensuring flawless sound and visual delivery even in open air settings."
+      "question": "Is a technician included for a wedding?",
+      "answer": "Yes. The Wedding Pack includes a live technician on site throughout the event, one of only two packages in our catalog that does."
     },
     {
-      "question": "Can you accommodate varying budgets for AV rentals?",
-      "answer": "Absolutely, Malaga Event Gear (MEG) offers flexible rental packages designed to fit diverse budgets and wedding visions, making high quality audiovisual solutions accessible for everyone."
+      "question": "How many guests can the Wedding Pack support?",
+      "answer": "Up to 80 guests. For a larger wedding, contact us to discuss options."
     },
     {
-      "question": "What makes **Malaga Event Gear (MEG)**‘s AV rental services unique?",
-      "answer": "Our dedication to creating seamless and memorable wedding experiences sets us apart. With expert technicians, high quality equipment, and customized lighting effects, we ensure that each moment of your special day is beautifully captured and celebrated."
+      "question": "Do you provide a projector or screen for a wedding?",
+      "answer": "No, the Wedding Pack does not include one. It is built around sound, lighting and microphones for the ceremony and reception."
+    },
+    {
+      "question": "Do you provide wedding decor, furniture or dancefloor accessories?",
+      "answer": "No, those are not part of our AV packages. See our wedding rentals guide for the full range beyond AV."
+    },
+    {
+      "question": "How far in advance should I book AV for a wedding?",
+      "answer": "Wedding dates fill up quickly, so book as early as you can once your date and venue are confirmed. Our services are available in Malaga and extend to Granada for rentals over 400 euros."
     }
   ],
   "audio-visual-rental-for-product-launches": [
