@@ -90,7 +90,7 @@
 
 	<!-- Contenido principal canvas -->
 	<main class="flex-grow pt-[73px] md:pt-[73px] overflow-x-clip">
-		<Breadcrumbs />
+		<Breadcrumbs leafName={breadcrumbLeaf} />
 		{@render children()}
 	</main>
 
