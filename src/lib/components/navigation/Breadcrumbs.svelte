@@ -3,6 +3,12 @@
 	import { i18n } from '$lib/i18n.svelte';
 	import Icon from '$lib/components/navigation/Icon.svelte';
 
+	// Real title of the current post/package, when the route data provides one
+	// (see +layout.svelte). Overrides the capitalized-slug fallback for the
+	// last breadcrumb item so the visible trail matches the BreadcrumbList
+	// JSON-LD leaf instead of diverging from it.
+	let { leafName }: { leafName?: string } = $props();
+
 	// Translation dictionary for public routes
 	const routeTranslations: Record<string, { en: string; es: string }> = {
 		'packages': { en: 'Packages', es: 'Paquetes' },
@@ -61,11 +67,12 @@
 		];
 
 		let accumulatedPath = '';
-		segments.forEach((segment) => {
+		segments.forEach((segment, index) => {
 			accumulatedPath += `/${segment}`;
 			const href = `${accumulatedPath}/`; // Strictly enforce trailing slash
+			const isLastSegment = index === segments.length - 1;
 			result.push({
-				name: getSegmentName(segment, lang),
+				name: isLastSegment && leafName ? leafName : getSegmentName(segment, lang),
 				href,
 				navigable: !NON_NAVIGABLE_PATHS.has(href)
 			});
