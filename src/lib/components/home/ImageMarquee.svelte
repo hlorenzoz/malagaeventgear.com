@@ -6,13 +6,19 @@
 		speed?: 'slow' | 'normal' | 'fast';
 		direction?: 'left' | 'right';
 		pauseOnHover?: boolean;
+		// Homepage keeps the deferred, IntersectionObserver-gated mount (see the
+		// NO_LCP fix below). Callers below the fold on a content page, like a blog
+		// post's body gallery, should pass false so the images exist in the
+		// prerendered HTML crawlers see instead of only appearing after client JS.
+		deferMount?: boolean;
 	}
 
 	let {
 		images,
 		speed = 'normal',
 		direction = 'left',
-		pauseOnHover = true
+		pauseOnHover = true,
+		deferMount = true
 	}: Props = $props();
 
 	// Duplicate the images array to enable seamless, infinite looping
@@ -35,9 +41,10 @@
 	// We keep the image track out of the initial render and mount it only when it
 	// scrolls near the viewport, so the animation also never runs offscreen.
 	let container = $state<HTMLDivElement | null>(null);
-	let inView = $state(false);
+	let inView = $state(!deferMount);
 
 	onMount(() => {
+		if (!deferMount) return;
 		if (!container) return;
 		if (!('IntersectionObserver' in window)) {
 			inView = true; // graceful fallback for very old engines

@@ -3,8 +3,8 @@ title: "Audio Visual Rental for Outdoor Events in Malaga, Spain"
 description: "Audio visual rental for outdoor events in Malaga: sound and lighting for a villa, terrace, beach club or garden, delivered across the Costa del Sol."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-outdoor-events
-publishDate: 2025-12-07
-updatedDate: 2026-07-26
+publishDate: "2025-12-07"
+updatedDate: "2026-07-26"
 excerpt: "Audio visual rental for outdoor events in Malaga: sound and lighting for a villa, terrace, beach club or garden, delivered across the Costa del Sol."
 coverImage: https://cdn.malagaeventgear.com/blog/1261/methacrylate_lectern_outdoor_event.webp
 categories: [Audio Visual Rental, Events]
@@ -25,7 +25,7 @@ Looking for audio visual rental for outdoor events in Malaga? A villa terrace, a
 
 Malaga Event Gear delivers, installs and tests sound and lighting for outdoor venues across Malaga and the wider Costa del Sol.
 
-Contact us today to discuss your outdoor event.
+Contact us today to explore our [range of equipment and packages](/packages/).
 
 ## Brief Overview
 
@@ -82,7 +82,7 @@ A methacrylate lectern with technical support equipment, ready for an outdoor pr
 A red carpet aisle and floral arch set up on a beach for an outdoor wedding ceremony.
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('eco', ['/1261/', '/1275/', '/1271/', '/1264/', '/1636/'])} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('eco', ['/1275/'])} speed="normal" direction="left" deferMount={false} />
 </div>
 
 ## Booking and Service Area
