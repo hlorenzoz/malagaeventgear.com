@@ -2059,44 +2059,32 @@
   ],
   "audio-visual-rental-for-outdoor-events": [
     {
-      "question": "How much does a sound system cost for an event?",
-      "answer": "The cost of a sound system for an event can vary based on the scale and specifications of the equipment. Generally, it can range from a few hundred to several thousand dollars. At Malaga Event Gear, we tailor solutions to fit your budget while ensuring top notch quality."
+      "question": "What happens to AV equipment if it rains during an outdoor event?",
+      "answer": "We do not rent tents or canopies, so if rain is a real risk, arrange a covered backup area with your venue in advance. Our technicians assess conditions on site and place equipment around whatever shelter is available."
     },
     {
-      "question": "Is it cheaper to rent or buy a sound system?",
-      "answer": "Renting a sound system often proves more cost effective, especially for one time events. Renting allows access to the latest technology without the upfront costs and maintenance of ownership. Malaga Event Gear offers flexible rental plans that provide the equipment you need without breaking the bank."
+      "question": "Do you provide a generator for venues without power access?",
+      "answer": "No, generators are not part of our catalog. Confirm your venue's power access with us when you book, and we will size the sound and lighting setup to match what is actually available."
     },
     {
-      "question": "How much does it cost to hire sound equipment?",
-      "answer": "The cost to hire sound equipment depends on the requirements of your event. Typical rentals can start at around $290 for basic systems for small meetings, while larger setups for concerts or conferences might cost upwards of $1,000. Malaga Event Gear provides competitive pricing with customized options to suit your event needs."
+      "question": "How does an outdoor sound system differ from an indoor one?",
+      "answer": "With no walls to reflect sound, open air disperses audio further than an indoor room does. Our PA systems are set up to project across the outdoor space rather than fill a closed room."
     },
     {
-      "question": "What AV is needed for a conference?",
-      "answer": "For a conference, essential AV equipment typically includes:\n\nProjectors and screens  \nPA system with microphones  \nVideo recording equipment  \nLighting equipment  \nLaptops and clickers for presentations\n\nMalaga Event Gear provides a comprehensive range of AV equipment tailored for seamless conference experiences."
+      "question": "Is a technician included for an outdoor event?",
+      "answer": "It depends on the package. The Eco Pack is delivered, installed and tested by our crew, then self-run, no technician included. The Wedding Pack includes a technician on site."
     },
     {
-      "question": "What are the most rented pieces of equipment?",
-      "answer": "Frequently rented equipment includes:\n\nSpeakers  \nMicrophones and stands  \nProjectors and screens  \nMixing consoles  \nStage lighting\n\nAt Malaga Event Gear, we ensure these essentials are readily available and of high quality for any event or function."
+      "question": "What outdoor venues do you set up at?",
+      "answer": "We set up at villas, private gardens, hotel terraces, beach clubs and rooftops across Malaga and the wider Costa del Sol, extending to Granada for rentals over 400 euros."
     },
     {
-      "question": "What services does Malaga Event Gear offer for outdoor events?",
-      "answer": "Malaga Event Gear specializes in providing premium audio visual rental services tailored for outdoor events. We offer high quality sound systems, visual equipment, and comprehensive packages for weddings, corporate events, seminars, and more."
+      "question": "Can lighting and sound equipment run on grass, sand or uneven ground?",
+      "answer": "Yes, our crew manages cable runs and stand placement for the actual ground surface at your venue when we install the equipment."
     },
     {
-      "question": "What types of events can Malaga Event Gear cater to?",
-      "answer": "We cater to a variety of occasions including weddings, corporate events, seminars, press conferences, and product launches. Our customizable AV solutions ensure clarity and excellence for any event type."
-    },
-    {
-      "question": "How long has Malaga Event Gear been providing AV rental services?",
-      "answer": "Malaga Event Gear has over two decades of expertise in the audio visual rental industry, ensuring that we deliver unmatched service and cutting edge technology for every event."
-    },
-    {
-      "question": "What makes Malaga Event Gear’s AV solutions stand out?",
-      "answer": "Our solutions stand out due to our state of the art equipment, which includes high resolution outdoor LED screens and advanced sound systems. We offer seamless integration tailored to any event size and budget, ensuring a memorable experience."
-    },
-    {
-      "question": "How can I contact Malaga Event Gear for a tailored AV solution?",
-      "answer": "To discuss your event requirements and find the perfect AV solution, you can contact Malaga Event Gear through our contact page or by reaching out to us directly. Our expert team is ready to provide professional support and assistance."
+      "question": "How far in advance should I book AV equipment for an outdoor event?",
+      "answer": "Book at least 24 hours in advance to guarantee availability. For a larger outdoor event with weather to plan around, book as early as you can once your date and venue are confirmed."
     }
   ],
   "audio-visual-rental-for-small-businesses": [
