@@ -77,7 +77,7 @@ A grand stage set up in the opulent setting of Hotel Alfonso XIII, complete with
 
 ![Mice event setup at a Volvo dealership in Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
 
-A screen and sound setup for a dealership showcase in Malaga.
+A screen and PA sound system rented as one package for a dealership event in Malaga.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('eco', ['/1272/'])} speed="normal" direction="left" deferMount={false} />
