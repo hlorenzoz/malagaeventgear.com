@@ -612,10 +612,10 @@ const PACKAGE_RULES: {
 		],
 		slug: 'product-presentation'
 	},
-	// MICE de mayor porte: galas, eventos deportivos, eventos corporativos.
+	// MICE de mayor porte: galas, eventos deportivos, eventos corporativos, fundraisers.
 	{
-		slugPatterns: [/gala/, /sports/, /corporate-event/],
-		keywordPatterns: [/\bgala\b/i, /\bsports?\b/i],
+		slugPatterns: [/gala/, /sports/, /corporate-event/, /charity/, /fundrais/],
+		keywordPatterns: [/\bgala\b/i, /\bsports?\b/i, /\bcharity\b/i, /\bfundrais/i],
 		slug: 'mice'
 	},
 	// Música / conciertos / performances → eco (social, centrado en sonido).
@@ -709,9 +709,9 @@ const PACKAGE_SIGNALS: Record<string, { slug: RegExp[]; category: RegExp[]; keyw
 		keyword: [/\bcorporate\b/i, /\bconference/i, /\bmeeting/i, /\bseminar/i, /\bmice\b/i]
 	},
 	mice: {
-		slug: [/gala/, /sports/, /corporate-event/],
+		slug: [/gala/, /sports/, /corporate-event/, /charity/, /fundrais/],
 		category: [/\bcorporate\b/i, /\bmice\b/i, /\bevent/i, /\bconference/i, /\bmeeting/i],
-		keyword: [/\bgala\b/i, /\bsports?\b/i, /\bcorporate\b/i, /\bconference/i, /\bmice\b/i]
+		keyword: [/\bgala\b/i, /\bsports?\b/i, /\bcorporate\b/i, /\bconference/i, /\bmice\b/i, /\bcharity\b/i, /\bfundrais/i]
 	},
 	'product-presentation': {
 		slug: [/seminar/, /training/, /virtual/, /remote/, /presentation/, /launch/, /webinar/],

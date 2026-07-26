@@ -137,7 +137,8 @@ describe('resolvePackageForPost — slug-driven relevance (per-post text)', () =
 	const miceSlugs = [
 		'audio-visual-rental-for-gala-dinners',
 		'audio-visual-rental-for-sports-events',
-		'audio-visual-rental-for-corporate-events'
+		'audio-visual-rental-for-corporate-events',
+		'audio-visual-rental-for-charity-fundraisers'
 	];
 	for (const slug of miceSlugs) {
 		it(`resolves ${slug} → mice despite Events category`, () => {
@@ -156,7 +157,6 @@ describe('resolvePackageForPost — slug-driven relevance (per-post text)', () =
 
 	// Genéricos: el viejo CTA linkeaba /pricing/ → basic-mice sigue siendo el default sensato.
 	const basicMiceSlugs = [
-		'audio-visual-rental-for-charity-fundraisers',
 		'audio-visual-rental-for-religious-events',
 		'audio-visual-rental-for-small-businesses',
 		'audio-visual-rental-for-corporate-meetings',
