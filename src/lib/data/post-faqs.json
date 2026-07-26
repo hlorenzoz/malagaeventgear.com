@@ -1641,48 +1641,40 @@
   ],
   "audio-visual-rental-for-remote-presentations": [
     {
-      "question": "How to do an audio visual presentation?",
-      "answer": "An effective audio visual presentation combines impactful visuals and clear audio to enhance communication. Here’s a basic guideline:\n\nBegin with a strong opening slide that captures your audience’s attention.  \nUse concise bullet points and high quality images or videos to convey your message.  \nEnsure sound quality is clear, consider background music or voiceover if applicable.  \nPractice your delivery to maintain a good flow and engage your audience."
+      "question": "What equipment do I need for a remote presentation?",
+      "answer": "Room sound so people can hear the call, a screen so they can see it, and a way to connect your laptop to both. Our Product Presentation Pack covers all three with HDMI and USB-C adapters included. See A Remote Presenter, Not a Full Virtual Event above."
     },
     {
-      "question": "What audio visual device do you use for presentations?",
-      "answer": "At Malaga Event Gear, we use a wide range of audio visual devices to enhance presentations, such as projectors, LED screens, wireless microphones, and sound systems. The choice of equipment depends on the venue size and audience engagement needs."
+      "question": "What is the difference between a remote presentation and a virtual event?",
+      "answer": "A remote presentation is usually one remote speaker or participant joining an otherwise in-person room. A virtual event covers a full session or conference run mostly or entirely online. Either way, we supply the same thing: the room's sound, screen and laptop connectivity. See our audio visual rental for virtual events guide for the larger case."
     },
     {
-      "question": "What is the role of audio visual technology in communication?",
-      "answer": "Audio visual technology plays a vital role in communication by helping to convey information more effectively through the engagement of multiple senses. It improves understanding, retention, and audience involvement by combining visual aids with sound."
+      "question": "Can a remote presenter join an in-person meeting or event?",
+      "answer": "Yes. Connect your own laptop or video call to our screen and sound system through the adapters included on the Product Presentation Pack, and the room can see and hear the remote presenter without any extra equipment."
     },
     {
-      "question": "What is the basic AV equipment?",
-      "answer": "Basic AV equipment typically includes:\n\nProjectors or LED screens for displaying content.  \nLaptops or computers to run presentations.  \nSound systems including microphones and speakers.  \nLighting equipment to enhance visibility and focus."
+      "question": "Do you provide cameras or webcams for remote presentations?",
+      "answer": "No. We provide the room's sound and screen, not cameras, webcams or streaming equipment. You run the call from your own laptop and software."
     },
     {
-      "question": "What audio visual device to be used for the presentation?",
-      "answer": "The choice of audio visual device for a presentation depends on several factors including audience size, venue, and presentation type. Common devices include:\n\nProjectors or LED displays for large audiences.  \nPortable speakers and wireless microphones for mobility.  \nInteractive boards for engaging presentations."
+      "question": "Can I connect my own laptop to your sound and screen setup?",
+      "answer": "Yes. The Product Presentation Pack includes HDMI and USB-C adapters plus audio interfaces to connect your laptop, tablet or media player."
     },
     {
-      "question": "Is it cheaper to rent or buy a sound system?",
-      "answer": "Whether to rent or buy a sound system depends on your usage frequency. Renting is cost effective for infrequent events as it eliminates maintenance burdens. However, if you host events regularly, investing in a high quality sound system might be more economical in the long run. At Malaga Event Gear, we offer flexible rental options tailored to your needs."
+      "question": "What size package do I need for a small remote-participant meeting?",
+      "answer": "For a boardroom-scale meeting, the Basic MICE Pack covers up to 40 guests with a gooseneck microphone and a projector and screen. For a larger conference room, the MICE Pack covers up to 120 guests with a 60 inch LED display and a technician included."
     },
     {
-      "question": "What services does Malaga Event Gear offer for online events?",
-      "answer": "Malaga Event Gear provides state of the art audiovisual rental services specifically tailored for remote presentations, online seminars, and virtual conferences."
+      "question": "Do you provide internet or wifi for the call?",
+      "answer": "No, internet and wifi are not part of our packages. Confirm connectivity with your venue before the event."
     },
     {
-      "question": "How can Malaga Event Gear enhance my remote presentation experience?",
-      "answer": "By offering customized equipment packages including advanced video, sound, and lighting gear, Malaga Event Gear ensures enhanced clarity and an engaging virtual experience for any event."
+      "question": "Is a technician included for a remote presentation setup?",
+      "answer": "Not on every package. The MICE Pack includes a technician on site for up to six hours; on the Basic MICE Pack a technician is available as an add on. Ask when you book."
     },
     {
-      "question": "What makes Malaga Event Gear stand out?",
-      "answer": "For over two decades, Malaga Event Gear has been dedicated to transforming online events with superior audiovisual solutions. Their professionalism, years of experience, and cutting edge technology ensure impeccable sound and visual clarity."
-    },
-    {
-      "question": "Can I get tailored audiovisual packages from Malaga Event Gear?",
-      "answer": "Yes, Malaga Event Gear offers customizable equipment packages designed to fit specific company needs and budgets, providing flexibility and cost effectiveness."
-    },
-    {
-      "question": "How can I book services with Malaga Event Gear?",
-      "answer": "You can book services by contacting Malaga Event Gear directly through their contact page or by requesting a quote for your event needs."
+      "question": "How much does audio visual rental cost for a remote presentation?",
+      "answer": "Pricing depends on the package: our full catalog, from the Basic MICE Pack up to the MICE Pack for a larger conference room, is listed with exact euro pricing on our packages page. All rates are ex VAT, with 21 percent Spanish VAT added at checkout, and every price includes delivery, setup and teardown."
     }
   ],
   "audio-visual-rental-for-virtual-events": [
