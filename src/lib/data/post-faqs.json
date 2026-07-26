@@ -1657,8 +1657,8 @@
       "answer": "No. We provide the room's sound and screen, not cameras, webcams or streaming equipment. You run the call from your own laptop and software."
     },
     {
-      "question": "Can I connect my own laptop to your sound and screen setup?",
-      "answer": "Yes. The Product Presentation Pack includes HDMI and USB-C adapters plus audio interfaces to connect your laptop, tablet or media player."
+      "question": "Can I use my own laptop with your setup?",
+      "answer": "Yes, the Product Presentation Pack comes with HDMI and USB-C adapters, plus audio interfaces, so you can plug in a laptop, tablet or media player directly."
     },
     {
       "question": "What size package do I need for a small remote-participant meeting?",
@@ -1666,7 +1666,7 @@
     },
     {
       "question": "Do you provide internet or wifi for the call?",
-      "answer": "No, internet and wifi are not part of our packages. Confirm connectivity with your venue before the event."
+      "answer": "No. Internet and wifi are not included in any of our packages, so confirm connectivity with your venue ahead of the event."
     },
     {
       "question": "Is a technician included for a remote presentation setup?",
