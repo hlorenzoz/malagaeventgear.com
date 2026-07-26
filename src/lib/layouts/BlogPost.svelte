@@ -41,6 +41,8 @@
 			authorUrl: authorUrl,
 			url: post.url,
 			imageUrl: post.coverImage,
+			imageWidth: post.coverImageWidth,
+			imageHeight: post.coverImageHeight,
 			// Use NewsArticle @type when the post belongs to the "News" category
 			type: post.isNews ? 'NewsArticle' : 'BlogPosting',
 			articleSection: firstCategory,

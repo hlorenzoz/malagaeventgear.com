@@ -599,8 +599,7 @@ const PACKAGE_RULES: {
 			/remote/,
 			/presentation/,
 			/launch/,
-			/webinar/,
-			/press-conference/
+			/webinar/
 		],
 		keywordPatterns: [
 			/\bpresentation\b/i,
@@ -715,7 +714,7 @@ const PACKAGE_SIGNALS: Record<string, { slug: RegExp[]; category: RegExp[]; keyw
 		keyword: [/\bgala\b/i, /\bsports?\b/i, /\bcorporate\b/i, /\bconference/i, /\bmice\b/i]
 	},
 	'product-presentation': {
-		slug: [/seminar/, /training/, /virtual/, /remote/, /presentation/, /launch/, /webinar/, /press-conference/],
+		slug: [/seminar/, /training/, /virtual/, /remote/, /presentation/, /launch/, /webinar/],
 		category: [/\bcorporate\b/i, /\bpresentation\b/i, /\blaunch\b/i],
 		keyword: [/\bpresentation\b/i, /\bproduct\s+launch\b/i, /\blaunch\b/i, /\bseminar/i, /\bwebinar/i, /\btraining\b/i, /\bvirtual\b/i, /\bshowcase\b/i, /\bdealership\b/i, /\bproduct\b/i]
 	},
