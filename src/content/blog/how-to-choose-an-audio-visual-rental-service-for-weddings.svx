@@ -11,8 +11,8 @@ categories: [Audio Visual Rental, Events, Weddings]
 tags: []
 draft: false
 keyword: "how to choose an audio visual rental service for weddings"
-siloRole: standalone
-targetPage: ""
+siloRole: supporting
+targetPage: "/blog/wedding-rentals/"
 ---
 
 <script>

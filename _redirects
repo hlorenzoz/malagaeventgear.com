@@ -8,6 +8,19 @@
 /basic-mice-pack               /packages/basic-mice/               301
 /mice-pack                     /packages/mice/                     301
 
+# Retired posts with no honest AV angle (see silo consolidation, 2026-07-27):
+# both merge into the wedding-rentals pillar rather than staying as dead pages.
+/blog/wedding-linen-rental-services/     /blog/wedding-rentals/     301
+/blog/outdoor-wedding-tent-rental-care/  /blog/wedding-rentals/     301
+
+# Timeline posts merged into timeline-for-booking-wedding-rentals (2026-07-27):
+/blog/timeline-for-reserving-wedding-rentals/  /blog/timeline-for-booking-wedding-rentals/  301
+/blog/timing-your-wedding-rental-bookings/     /blog/timeline-for-booking-wedding-rentals/  301
+
+# Policy/questions posts merged into questions-to-ask-wedding-rental-companies (2026-07-27):
+/blog/questions-about-wedding-rental-policies/            /blog/questions-to-ask-wedding-rental-companies/  301
+/blog/questions-for-reviewing-wedding-rental-agreements/  /blog/questions-to-ask-wedding-rental-companies/  301
+
 # BEGIN wp-blog-redirects (managed — do not edit manually)
 /news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/  /blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/  301
 /news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/  /blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/  301
