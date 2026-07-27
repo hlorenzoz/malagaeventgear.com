@@ -1,6 +1,6 @@
 <script lang="ts">
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
-	import { buildArticleSchema } from '$lib/utils/schema';
+	import { buildArticleSchema, toIso8601WithOffset } from '$lib/utils/schema';
 	import { i18n } from '$lib/i18n.svelte';
 	import { slugify } from '$lib/utils/slugify';
 	import { siteConfig } from '$lib/data/site';
@@ -113,8 +113,8 @@
 	jsonLdSchema={jsonLdSchemas}
 	openGraph={{
 		type: 'article',
-		publishedTime: post.publishDate,
-		modifiedTime: post.updatedDate ?? post.publishDate,
+		publishedTime: toIso8601WithOffset(post.publishDate),
+		modifiedTime: toIso8601WithOffset(post.updatedDate ?? post.publishDate),
 		section: firstCategory,
 		tags: post.tags && post.tags.length > 0 ? post.tags : undefined,
 		author: authorUrl,
