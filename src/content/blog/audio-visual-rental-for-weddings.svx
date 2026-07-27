@@ -4,7 +4,7 @@ description: "Audio visual rental for weddings in Malaga: sound for up to 80 gue
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-weddings
 publishDate: "2025-11-23"
-updatedDate: "2026-07-26"
+updatedDate: "2026-07-27"
 excerpt: "Audio visual rental for weddings in Malaga: sound for up to 80 guests, wireless mics for vows, fairy lights and a technician on site, from 650 euros ex VAT."
 coverImage: https://cdn.malagaeventgear.com/blog/1638/wedding_rings_heart_book.webp
 categories: [Audio Visual Rental, Events, Weddings]
@@ -76,10 +76,6 @@ An indoor hall set up for a wedding ceremony, with sound in place for vows and r
 ![Wedding reception table with pink flowers and lights.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
 
 A wedding reception table glowing under fairy lights, with pink flowers and lanterns.
-
-![Podium and sound system for concerts in Malaga.](https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-300x224.webp)
-
-A podium and sound system setup, ready for speeches at a formal evening.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1636/', '/1635/', '/1628/'])} speed="normal" direction="left" deferMount={false} />
