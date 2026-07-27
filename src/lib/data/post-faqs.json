@@ -169,24 +169,32 @@
   ],
   "do-you-offer-delivery-and-setup-for-sound-equipment-in-malaga-spain": [
     {
-      "question": "What types of events does Malaga Event Gear cater to?",
-      "answer": "Malaga Event Gear provides audio visual equipment rentals and services for a variety of events, including weddings, corporate meetings, and private gatherings."
+      "question": "Do you deliver and set up the sound equipment yourselves, or do I collect it?",
+      "answer": "We deliver and set up. Our crew brings the equipment to your venue, installs and tests it, and returns afterward to collect it. You never transport or set it up yourself."
     },
     {
-      "question": "Does Malaga Event Gear provide delivery and setup services?",
-      "answer": "Yes, Malaga Event Gear offers seamless sound equipment delivery and setup services, ensuring a flawless experience for events throughout Malaga."
+      "question": "Is there an extra fee for delivery and setup?",
+      "answer": "No. Delivery, installation, testing and collection are included in the price shown on our packages page, not billed as a separate line item."
     },
     {
-      "question": "What kind of equipment can I rent from Malaga Event Gear?",
-      "answer": "Malaga Event Gear provides a range of audio and visual equipment, including state of the art sound systems and lighting solutions tailored to meet specific event needs."
+      "question": "Do you provide a technician to run the sound during my event?",
+      "answer": "It depends on the package. A technician is included on the Wedding Pack and MICE Pack, available as a paid add-on on the Basic MICE Pack, and not included on the Eco Pack."
     },
     {
-      "question": "How experienced is the team at Malaga Event Gear?",
-      "answer": "With over two decades of industry experience, the team at Malaga Event Gear guarantees unmatched quality and customer satisfaction, offering tailored solutions and expert technical support."
+      "question": "How far in advance do I need to book delivery?",
+      "answer": "At least 24 hours ahead to guarantee availability. For a larger event, book as soon as your date and venue are confirmed."
     },
     {
-      "question": "How can I book Malaga Event Gear for my event?",
-      "answer": "To book Malaga Event Gear for your event, you can visit their website, where you will find contact information and more details about renting equipment and services."
+      "question": "Do you deliver sound equipment outside Malaga city?",
+      "answer": "Yes, across the wider Costa del Sol, extending to Granada for rentals over 400 euros."
+    },
+    {
+      "question": "What happens after my event, do I need to pack up the equipment myself?",
+      "answer": "No. Our crew returns to your venue after the event to collect and remove everything."
+    },
+    {
+      "question": "Can you deliver and set up sound equipment for an outdoor event?",
+      "answer": "Yes. See our how to set up rented audio visual equipment for outdoor events guide for what changes outdoors, or our audio visual rental for outdoor events guide for venue-specific setups."
     }
   ],
   "audio-visual-rental-for-corporate-meetings": [
@@ -1377,40 +1385,32 @@
   ],
   "how-to-set-up-rented-audio-visual-equipment-for-outdoor-events": [
     {
-      "question": "How to setup a sound system for a concert?",
-      "answer": "Setting up a sound system for a concert involves several key steps to ensure optimal audio quality and audience experience.\n\nHere’s a basic guide:\n\n1\\. Assess Venue Acoustics: Understand the sound dynamics of the space.  \n2\\. Equipment Selection: Choose quality speakers, microphones, and mixers.  \n3\\. Positioning: Place speakers and microphones strategically for the best sound coverage.  \n4\\. Wiring: Run cables and power supply, ensuring safety and minimal interference.  \n5\\. Sound Check: Test the system, adjusting levels for clarity and balance.  \n6\\. Monitor Mix: Ensure performers have the necessary onstage sound."
+      "question": "Do I need to provide power for the rented AV equipment?",
+      "answer": "Yes, venue power access needs to be confirmed with us before booking. We do not stock generators, so if your venue has no power access, that has to be solved before delivery day, not discovered on it."
     },
     {
-      "question": "How much does audio visual equipment cost?",
-      "answer": "The cost of audio visual equipment varies widely based on the type and complexity of the event requirements. Here’s a general breakdown:\n\nBasic setups (small events): $300 – $500  \nMedium setups (conferences, weddings): $750 – $1,000  \nLarge setups (concerts, festivals): $1,000 and above\n\nConsider consulting with a professional like Malaga Event Gear for accurate quotations tailored to your needs."
+      "question": "What happens if it rains during my outdoor event?",
+      "answer": "We do not rent tents or canopies, so arrange a covered backup area with your venue in advance if rain is a real risk. Our technicians assess conditions on site and place equipment around whatever shelter is available."
     },
     {
-      "question": "What is the full form of AV which is required for an event?",
-      "answer": "AV stands for “Audio Visual”. This encompasses all equipment and technology used to create and present audio and visual content during an event."
+      "question": "Can rented sound equipment be set up on grass or sand?",
+      "answer": "Yes. Our crew adapts cable runs and stand placement to the actual ground surface at your venue, whether that is grass, sand, gravel or decking."
     },
     {
-      "question": "What does audio visual equipment include?",
-      "answer": "Audio visual equipment typically includes:\n\nAudio Components: Microphones, Speakers, Amplifiers, Mixers  \nVisual Components: Projectors, Screens, LED Walls  \nControl Devices: Laptops, Controllers, Switchers  \nAncillary Gear: Cables, Stands, Lighting Equipment\n\nAt Malaga Event Gear, we offer a comprehensive range of AV solutions to meet diverse event requirements."
+      "question": "How is setting up sound outdoors different from indoors?",
+      "answer": "With no walls to reflect sound, open air disperses audio further than an indoor room does, so our PA systems are positioned to project across the space rather than fill a closed room. Wind also affects speaker stand placement and microphone choice."
     },
     {
-      "question": "What are the key factors to consider when setting up AV equipment for outdoor events?",
-      "answer": "When setting up AV equipment for outdoor events, consider environmental conditions like weather, power supply stability, sound clarity despite ambient noise, and strategic equipment placement for optimal performance."
+      "question": "How early should I book AV equipment for an outdoor event?",
+      "answer": "Book at least 24 hours in advance to guarantee availability. For a larger outdoor event with weather and power to plan around, book as early as you can once your date and venue are confirmed."
     },
     {
-      "question": "How can Malaga Event Gear help improve my outdoor event’s AV setup?",
-      "answer": "Malaga Event Gear provides expert support, high quality equipment, and tailored rental packages to enhance sound clarity and visual engagement, ensuring a memorable experience for every attendee."
+      "question": "Do I need to test the equipment myself before my event starts?",
+      "answer": "No. Our crew tests every speaker and microphone channel, and syncs any screen or projector with the audio, before your event starts."
     },
     {
-      "question": "What types of AV equipment are essential for a successful outdoor event?",
-      "answer": "Essential AV equipment for outdoor events includes robust sound systems, high brightness screens or projectors, lighting equipment for ambiance, and weather resistant gear to handle environmental challenges."
-    },
-    {
-      "question": "Why is proactive planning crucial for outdoor AV setups?",
-      "answer": "Proactive planning helps anticipate logistical challenges, ensures the seamless integration of AV components, and prepares for unexpected weather changes, ultimately leading to an uninterrupted event."
-    },
-    {
-      "question": "How does sound equipment placement affect audio quality in outdoor settings?",
-      "answer": "Strategic placement of sound equipment helps achieve consistent sound coverage, minimizes dead zones, and maximizes audio clarity by overcoming natural sound barriers and handling environmental noise effectively."
+      "question": "Which package should I book for an outdoor event?",
+      "answer": "It depends on your guest count and venue. See our audio visual rental for outdoor events guide for package fit by venue type, or our packages page for full details."
     }
   ],
   "audio-visual-rental-for-seminars": [
@@ -1729,20 +1729,24 @@
   ],
   "wedding-rentals": [
     {
-      "question": "How much do wedding venue rentals cost?",
-      "answer": "The cost of renting a wedding venue can vary widely based on location, size, and amenities. On average, you might expect to spend anywhere from $2,000 to $10,000. However, the price can be significantly higher or lower depending on the venue’s prestige and capacity.\n\nExample:  \nLocal community hall: $1,000 – $2,000  \nUpscale hotel ballroom: $2,500 – $5,000+"
+      "question": "What is included in the wedding rentals from Malaga Event Gear?",
+      "answer": "The Wedding Pack includes a high-end PA sound system for up to 80 guests, warm ambient lighting (fairy lights and LED strings), wireless microphones for vows and speeches, transport in Malaga and surrounding areas, professional setup, a live technician on site throughout the event, and post-event teardown."
     },
     {
-      "question": "What is the 30 5 rule for weddings?",
-      "answer": "The 30 5 rule is a budgeting concept for weddings that suggests allocating 30% of your budget to the venue, food, and drinks, and 5% to additional essentials. This guideline helps distribute expenses effectively to ensure all critical elements of the wedding are covered."
+      "question": "How much do wedding rentals cost in Malaga?",
+      "answer": "The Wedding Pack costs 650 euros, ex VAT, with 21 percent Spanish VAT added at checkout. The price covers delivery, setup and teardown. See exact pricing on our packages page."
     },
     {
-      "question": "What is a realistic budget for a 100 person wedding?",
-      "answer": "A realistic budget for a 100 person wedding typically ranges between $15,000 and $30,000. This includes expenses such as the venue, catering, attire, photography, and entertainment. The breakdown will vary depending on the couple’s priorities and preferences.\n\nExample Expense Breakdown:  \nVenue and Catering: $10,000  \nPhotography: $2,500  \nAttire: $2,000  \nEntertainment: $1,000  \nMiscellaneous: $3,000"
+      "question": "Is a technician included with the wedding rental?",
+      "answer": "Yes. The Wedding Pack includes a live technician on site for the whole event, one of only two packages in our catalog that does, alongside the MICE Pack."
     },
     {
-      "question": "What is the most rented wedding item?",
-      "answer": "The most rented wedding item is typically chairs. This essential element can transform any venue to suit the desired aesthetic of the event. Other commonly rented items include tables, linens, and audio visual equipment, ensuring every aspect of the wedding day is perfectly curated.\n\nCommonly Rented Items:  \nChairs  \nTables  \nLinens  \nAudio Visual Equipment"
+      "question": "How many guests can the Wedding Pack support?",
+      "answer": "Up to 80 guests, sized for a villa, finca or wedding hotel. For a larger wedding, contact us to discuss options."
+    },
+    {
+      "question": "How far in advance should I book wedding rentals?",
+      "answer": "Wedding dates fill up quickly, so book as early as you can once your date and venue are confirmed. Our services cover Malaga and extend to Granada for rentals over 400 euros."
     }
   ],
   "timeline-for-reserving-wedding-rentals": [
