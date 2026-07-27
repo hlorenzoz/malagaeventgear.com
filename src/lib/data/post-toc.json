@@ -1,116 +1,4 @@
 {
-  "wedding-linen-rental-services": [
-    {
-      "id": "brief-overview",
-      "text": "Brief Overview",
-      "level": 2
-    },
-    {
-      "id": "key-highlights",
-      "text": "Key Highlights",
-      "level": 2
-    },
-    {
-      "id": "understanding-wedding-linen-rentals",
-      "text": "Understanding Wedding Linen Rentals",
-      "level": 2
-    },
-    {
-      "id": "essential-elements-of-linen-hire-for-your-special-day",
-      "text": "Essential Elements of Linen Hire for Your Special Day",
-      "level": 3
-    },
-    {
-      "id": "the-importance-of-table-linen-in-wedding-decor",
-      "text": "The Importance of Table Linen in Wedding Decor",
-      "level": 2
-    },
-    {
-      "id": "creating-the-perfect-ambiance-with-quality-tablecloths",
-      "text": "Creating the Perfect Ambiance with Quality Tablecloths",
-      "level": 3
-    },
-    {
-      "id": "choosing-the-right-chair-cover-rentals",
-      "text": "Choosing the Right Chair Cover Rentals",
-      "level": 2
-    },
-    {
-      "id": "enhancing-elegance-with-tailored-chair-and-napkins-options",
-      "text": "Enhancing Elegance with Tailored Chair and Napkins Options",
-      "level": 3
-    },
-    {
-      "id": "malaga-event-gears-wedding-pack-a-complete-service-solution",
-      "text": "Malaga Event Gear’s Wedding Pack: A Complete Service Solution",
-      "level": 2
-    },
-    {
-      "id": "how-our-rental-collection-elevates-your-wedding-celebration",
-      "text": "How Our Rental Collection Elevates Your Wedding Celebration",
-      "level": 3
-    },
-    {
-      "id": "planning-your-event-booking-linen-and-audiovisual-services",
-      "text": "Planning Your Event: Booking Linen and Audiovisual Services",
-      "level": 2
-    },
-    {
-      "id": "practical-tips-for-seamless-and-stress-free-hire-arrangements",
-      "text": "Practical Tips for Seamless and Stress-free Hire Arrangements",
-      "level": 3
-    },
-    {
-      "id": "ensuring-a-memorable-experience-our-commitment-to-quality",
-      "text": "Ensuring a Memorable Experience: Our Commitment to Quality",
-      "level": 2
-    },
-    {
-      "id": "reliability-and-excellence-in-event-service-provision",
-      "text": "Reliability and Excellence in Event Service Provision",
-      "level": 3
-    },
-    {
-      "id": "get-in-touch-to-discuss-your-wedding-needs",
-      "text": "Get in Touch to Discuss Your Wedding Needs",
-      "level": 2
-    },
-    {
-      "id": "contact-us-for-personalized-advice-and-a-custom-quote",
-      "text": "Contact Us for Personalized Advice and a Custom Quote",
-      "level": 3
-    },
-    {
-      "id": "conclusions",
-      "text": "Conclusions",
-      "level": 2
-    },
-    {
-      "id": "faqs",
-      "text": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "what-is-the-average-cost-of-linens-for-a-wedding",
-      "text": "What is the average cost of linens for a wedding?",
-      "level": 3
-    },
-    {
-      "id": "how-can-i-save-money-on-linens-for-a-wedding",
-      "text": "How can I save money on linens for a wedding?",
-      "level": 3
-    },
-    {
-      "id": "how-does-linen-hire-work",
-      "text": "How does linen hire work?",
-      "level": 3
-    },
-    {
-      "id": "what-are-popular-linen-rental-sizes",
-      "text": "What are popular linen rental sizes?",
-      "level": 3
-    }
-  ],
   "audio-visual-rental-for-weddings": [
     {
       "id": "brief-overview",
@@ -2108,163 +1996,6 @@
       "level": 3
     }
   ],
-  "questions-for-reviewing-wedding-rental-agreements": [
-    {
-      "id": "brief-overview",
-      "text": "Brief Overview",
-      "level": 2
-    },
-    {
-      "id": "key-highlights",
-      "text": "Key Highlights",
-      "level": 2
-    },
-    {
-      "id": "understanding-the-basics-of-a-wedding-rental-agreement",
-      "text": "Understanding the Basics of a Wedding Rental Agreement",
-      "level": 2
-    },
-    {
-      "id": "key-elements-to-look-for-in-a-rental-agreement",
-      "text": "Key Elements to Look for in a Rental Agreement",
-      "level": 3
-    },
-    {
-      "id": "what-to-include-in-your-wedding-rental-checklist",
-      "text": "What to Include in Your Wedding Rental Checklist",
-      "level": 2
-    },
-    {
-      "id": "ensuring-all-crucial-items-are-covered",
-      "text": "Ensuring All Crucial Items are Covered",
-      "level": 3
-    },
-    {
-      "id": "essential-questions-for-reviewing-wedding-rental-contracts",
-      "text": "Essential Questions for Reviewing Wedding Rental Contracts",
-      "level": 2
-    },
-    {
-      "id": "how-to-clarify-responsibilities-and-expectations",
-      "text": "How to Clarify Responsibilities and Expectations",
-      "level": 3
-    },
-    {
-      "id": "who-is-responsible-for-rentals-on-the-wedding-day",
-      "text": "Who is Responsible for Rentals on the Wedding Day?",
-      "level": 2
-    },
-    {
-      "id": "understanding-roles-to-avoid-confusion",
-      "text": "Understanding Roles to Avoid Confusion",
-      "level": 3
-    },
-    {
-      "id": "managing-time-and-logistics-for-wedding-rentals",
-      "text": "Managing Time and Logistics for Wedding Rentals",
-      "level": 2
-    },
-    {
-      "id": "planning-delivery-and-pick-up-efficiently",
-      "text": "Planning Delivery and Pick-up Efficiently",
-      "level": 3
-    },
-    {
-      "id": "reading-and-understanding-the-fine-print-in-rental-contracts",
-      "text": "Reading and Understanding the Fine Print in Rental Contracts",
-      "level": 2
-    },
-    {
-      "id": "avoiding-common-pitfalls-with-a-careful-read",
-      "text": "Avoiding Common Pitfalls with a Careful Read",
-      "level": 3
-    },
-    {
-      "id": "ensuring-state-of-the-art-technology-for-your-wedding",
-      "text": "Ensuring State of the Art Technology for Your Wedding",
-      "level": 2
-    },
-    {
-      "id": "why-choose-malaga-event-gear-for-your-equipment-rentals",
-      "text": "Why Choose Malaga Event Gear for Your Equipment Rentals",
-      "level": 3
-    },
-    {
-      "id": "enhancing-your-wedding-with-dynamic-audio-and-lighting",
-      "text": "Enhancing Your Wedding with Dynamic Audio and Lighting",
-      "level": 2
-    },
-    {
-      "id": "benefits-of-professional-wedding-rentals-in-malaga",
-      "text": "Benefits of Professional Wedding Rentals in Malaga",
-      "level": 3
-    },
-    {
-      "id": "contact-us-for-a-seamless-wedding-rental-experience",
-      "text": "Contact Us for a Seamless Wedding Rental Experience",
-      "level": 2
-    },
-    {
-      "id": "get-in-touch-for-tailored-solutions-and-support",
-      "text": "Get In Touch for Tailored Solutions and Support",
-      "level": 3
-    },
-    {
-      "id": "conclusions",
-      "text": "Conclusions",
-      "level": 2
-    },
-    {
-      "id": "faqs",
-      "text": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "what-is-the-30-5-minute-rule-for-weddings",
-      "text": "What is the 30 5 minute rule for weddings?",
-      "level": 3
-    },
-    {
-      "id": "what-questions-should-be-included-in-a-wedding-faq",
-      "text": "What questions should be included in a wedding FAQ?",
-      "level": 3
-    },
-    {
-      "id": "what-to-look-for-in-a-wedding-planner-contract",
-      "text": "What to look for in a wedding planner contract?",
-      "level": 3
-    },
-    {
-      "id": "what-questions-should-you-ask-at-a-wedding-venue",
-      "text": "What questions should you ask at a wedding venue?",
-      "level": 3
-    },
-    {
-      "id": "why-is-it-important-to-review-a-wedding-rental-contract-carefully",
-      "text": "Why is it important to review a wedding rental contract carefully?",
-      "level": 3
-    },
-    {
-      "id": "what-should-i-consider-about-delivery-when-planning-wedding-rentals",
-      "text": "What should I consider about delivery when planning wedding rentals?",
-      "level": 3
-    },
-    {
-      "id": "how-can-i-avoid-hidden-fees-in-wedding-rental-agreements",
-      "text": "How can I avoid hidden fees in wedding rental agreements?",
-      "level": 3
-    },
-    {
-      "id": "what-roles-and-responsibilities-should-be-clarified-in-my-rental-contract",
-      "text": "What roles and responsibilities should be clarified in my rental contract?",
-      "level": 3
-    },
-    {
-      "id": "why-should-i-choose-malaga-event-gear-meg-for-my-wedding-rentals-in-malaga",
-      "text": "Why should I choose Malaga Event Gear (MEG) for my wedding rentals in Malaga?",
-      "level": 3
-    }
-  ],
   "latest-trends-in-wedding-rentals": [
     {
       "id": "brief-overview",
@@ -3357,143 +3088,6 @@
       "level": 3
     }
   ],
-  "outdoor-wedding-tent-rental-care": [
-    {
-      "id": "brief-overview",
-      "text": "Brief Overview",
-      "level": 2
-    },
-    {
-      "id": "key-highlights",
-      "text": "Key Highlights",
-      "level": 2
-    },
-    {
-      "id": "planning-the-perfect-outdoor-wedding",
-      "text": "Planning the Perfect Outdoor Wedding",
-      "level": 2
-    },
-    {
-      "id": "why-choose-wedding-tent-rentals-for-your-event",
-      "text": "Why Choose Wedding Tent Rentals for Your Event?",
-      "level": 3
-    },
-    {
-      "id": "understanding-different-types-of-tents-for-weddings",
-      "text": "Understanding Different Types of Tents for Weddings",
-      "level": 2
-    },
-    {
-      "id": "explore-popular-tent-styles-for-outdoor-weddings",
-      "text": "Explore Popular Tent Styles for Outdoor Weddings",
-      "level": 3
-    },
-    {
-      "id": "essential-tips-for-caring-for-your-wedding-tent",
-      "text": "Essential Tips for Caring for Your Wedding Tent",
-      "level": 2
-    },
-    {
-      "id": "ensuring-your-tent-stays-in-top-condition-for-the-event",
-      "text": "Ensuring Your Tent Stays in Top Condition for the Event",
-      "level": 3
-    },
-    {
-      "id": "weather-considerations-for-tent-rentals",
-      "text": "Weather Considerations for Tent Rentals",
-      "level": 2
-    },
-    {
-      "id": "how-to-prepare-for-weather-changes-at-your-event",
-      "text": "How to Prepare for Weather Changes at Your Event",
-      "level": 3
-    },
-    {
-      "id": "budgeting-for-your-wedding-tent-rentals",
-      "text": "Budgeting for Your Wedding Tent Rentals",
-      "level": 2
-    },
-    {
-      "id": "how-to-manage-costs-and-get-the-best-value",
-      "text": "How to Manage Costs and Get the Best Value",
-      "level": 3
-    },
-    {
-      "id": "ensuring-safety-and-accessibility-for-outdoor-events",
-      "text": "Ensuring Safety and Accessibility for Outdoor Events",
-      "level": 2
-    },
-    {
-      "id": "important-safety-tips-for-setting-up-tents",
-      "text": "Important Safety Tips for Setting Up Tents",
-      "level": 3
-    },
-    {
-      "id": "contacting-malaga-event-gear-for-your-wedding-needs",
-      "text": "Contacting Malaga Event Gear for Your Wedding Needs",
-      "level": 2
-    },
-    {
-      "id": "how-our-wedding-pack-enhances-your-tent-wedding-experience",
-      "text": "How Our Wedding Pack Enhances Your Tent Wedding Experience",
-      "level": 3
-    },
-    {
-      "id": "conclusions",
-      "text": "Conclusions",
-      "level": 2
-    },
-    {
-      "id": "faqs",
-      "text": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "should-i-get-a-tent-for-my-outdoor-wedding",
-      "text": "Should I get a tent for my outdoor wedding?",
-      "level": 3
-    },
-    {
-      "id": "how-to-heat-an-outdoor-wedding-tent",
-      "text": "How to heat an outdoor wedding tent?",
-      "level": 3
-    },
-    {
-      "id": "do-party-tents-protect-from-rain",
-      "text": "Do party tents protect from rain?",
-      "level": 3
-    },
-    {
-      "id": "how-much-to-hire-a-wedding-tent",
-      "text": "How much to hire a wedding tent?",
-      "level": 3
-    },
-    {
-      "id": "what-are-the-benefits-of-renting-a-tent-for-an-outdoor-wedding",
-      "text": "What are the benefits of renting a tent for an outdoor wedding?",
-      "level": 3
-    },
-    {
-      "id": "how-can-i-ensure-my-rented-wedding-tent-is-well-maintained-during-the-event",
-      "text": "How can I ensure my rented wedding tent is well-maintained during the event?",
-      "level": 3
-    },
-    {
-      "id": "what-should-i-consider-regarding-weather-when-planning-an-outdoor-wedding-with-a-tent-rental",
-      "text": "What should I consider regarding weather when planning an outdoor wedding with a tent rental?",
-      "level": 3
-    },
-    {
-      "id": "how-can-i-manage-my-wedding-tent-rental-costs-effectively",
-      "text": "How can I manage my wedding tent rental costs effectively?",
-      "level": 3
-    },
-    {
-      "id": "why-should-i-consider-using-malaga-event-gear-for-my-outdoor-wedding-tent-needs",
-      "text": "Why should I consider using Malaga Event Gear for my outdoor wedding tent needs?",
-      "level": 3
-    }
-  ],
   "what-renting-av-gear-in-malaga-taught-me-about-smart-business": [
     {
       "id": "get-the-best-audio-visual-rentals-in-malaga-today",
@@ -3538,78 +3132,33 @@
       "level": 2
     },
     {
-      "id": "understanding-wedding-rental-needs-in-malaga",
-      "text": "Understanding Wedding Rental Needs in Malaga",
+      "id": "whats-actually-included-in-the-price",
+      "text": "What's Actually Included in the Price",
       "level": 2
     },
     {
-      "id": "essential-gear-for-your-special-day",
-      "text": "Essential Gear For Your Special Day",
-      "level": 3
-    },
-    {
-      "id": "questions-to-ask-wedding-rental-companies",
-      "text": "Questions to Ask Wedding Rental Companies",
+      "id": "is-a-technician-included",
+      "text": "Is a Technician Included",
       "level": 2
     },
     {
-      "id": "ensuring-clarity-and-satisfaction",
-      "text": "Ensuring Clarity and Satisfaction",
-      "level": 3
-    },
-    {
-      "id": "exploring-the-benefits-of-malaga-event-gears-wedding-pack",
-      "text": "Exploring the Benefits of Malaga Event Gear’s Wedding Pack",
+      "id": "how-many-guests-can-the-equipment-cover",
+      "text": "How Many Guests Can the Equipment Cover",
       "level": 2
     },
     {
-      "id": "why-choose-our-all-inclusive-solution",
-      "text": "Why Choose Our All Inclusive Solution",
-      "level": 3
-    },
-    {
-      "id": "party-rental-essentials-making-your-wedding-celebration-unforgettable",
-      "text": "Party Rental Essentials: Making Your Wedding Celebration Unforgettable",
+      "id": "whats-not-included",
+      "text": "What's Not Included",
       "level": 2
     },
     {
-      "id": "audio-and-visual-elements-for-a-magical-atmosphere",
-      "text": "Audio and Visual Elements for a Magical Atmosphere",
-      "level": 3
-    },
-    {
-      "id": "creating-the-perfect-event-rental-package",
-      "text": "Creating the Perfect Event Rental Package",
+      "id": "booking-and-service-area",
+      "text": "Booking and Service Area",
       "level": 2
     },
     {
-      "id": "customizing-options-to-suit-your-celebration",
-      "text": "Customizing Options to Suit Your Celebration",
-      "level": 3
-    },
-    {
-      "id": "choosing-the-right-wedding-rental-provider",
-      "text": "Choosing the Right Wedding Rental Provider",
-      "level": 2
-    },
-    {
-      "id": "assessing-experience-and-reputation-in-malaga",
-      "text": "Assessing Experience and Reputation in Malaga",
-      "level": 3
-    },
-    {
-      "id": "how-to-plan-a-stress-free-wedding-day-with-meg",
-      "text": "How to Plan a Stress Free Wedding Day with MEG",
-      "level": 2
-    },
-    {
-      "id": "setup-support-and-satisfaction-guaranteed",
-      "text": "Setup, Support, and Satisfaction Guaranteed",
-      "level": 3
-    },
-    {
-      "id": "conclusions",
-      "text": "Conclusions",
+      "id": "conclusion",
+      "text": "Conclusion",
       "level": 2
     },
     {
@@ -3618,58 +3167,28 @@
       "level": 2
     },
     {
-      "id": "what-are-good-questions-to-ask-when-renting",
-      "text": "What are good questions to ask when renting?",
+      "id": "what-should-i-ask-before-booking-wedding-av-rentals",
+      "text": "What should I ask before booking wedding AV rentals?",
       "level": 3
     },
     {
-      "id": "what-questions-should-i-ask-at-a-wedding-venue",
-      "text": "What questions should I ask at a wedding venue?",
+      "id": "does-malaga-event-gear-provide-a-written-breakdown-of-whats-included",
+      "text": "Does Malaga Event Gear provide a written breakdown of what's included?",
       "level": 3
     },
     {
-      "id": "how-to-interview-wedding-planners",
-      "text": "How to interview wedding planners?",
+      "id": "is-a-technician-always-included-in-wedding-av-packages",
+      "text": "Is a technician always included in wedding AV packages?",
       "level": 3
     },
     {
-      "id": "what-to-ask-your-wedding-vendor",
-      "text": "What to ask your wedding vendor?",
+      "id": "what-if-a-provider-cant-confirm-availability-for-my-date",
+      "text": "What if a provider can't confirm availability for my date?",
       "level": 3
     },
     {
-      "id": "what-questions-to-ask-before-renting",
-      "text": "What questions to ask before renting?",
-      "level": 3
-    },
-    {
-      "id": "what-questions-should-i-ask-a-potential-wedding-planner",
-      "text": "What questions should I ask a potential wedding planner?",
-      "level": 3
-    },
-    {
-      "id": "what-makes-malaga-event-gears-wedding-pack-ideal-for-weddings",
-      "text": "What makes Malaga Event Gear’s Wedding Pack ideal for weddings?",
-      "level": 3
-    },
-    {
-      "id": "how-can-malaga-event-gear-ensure-a-stress-free-wedding-setup",
-      "text": "How can Malaga Event Gear ensure a stress free wedding setup?",
-      "level": 3
-    },
-    {
-      "id": "what-are-the-key-questions-to-ask-when-choosing-a-wedding-rental-company-in-malaga",
-      "text": "What are the key questions to ask when choosing a wedding rental company in Malaga?",
-      "level": 3
-    },
-    {
-      "id": "can-malaga-event-gear-support-both-small-and-large-wedding-venues",
-      "text": "Can Malaga Event Gear support both small and large wedding venues?",
-      "level": 3
-    },
-    {
-      "id": "how-can-i-customize-my-wedding-rental-package-with-malaga-event-gear",
-      "text": "How can I customize my wedding rental package with Malaga Event Gear?",
+      "id": "does-the-price-change-based-on-guest-count",
+      "text": "Does the price change based on guest count?",
       "level": 3
     }
   ],
@@ -3842,143 +3361,6 @@
       "id": "creating-memorable-events-on-the-costa-del-sol",
       "text": "Creating Memorable Events on the Costa del Sol",
       "level": 2
-    }
-  ],
-  "questions-about-wedding-rental-policies": [
-    {
-      "id": "brief-overview",
-      "text": "Brief Overview",
-      "level": 2
-    },
-    {
-      "id": "key-highlights",
-      "text": "Key Highlights",
-      "level": 2
-    },
-    {
-      "id": "understanding-whats-included-in-your-wedding-rental-package",
-      "text": "Understanding What’s Included in Your Wedding Rental Package",
-      "level": 2
-    },
-    {
-      "id": "key-inclusions-and-add-ons-for-your-malaga-wedding",
-      "text": "Key Inclusions and Add-ons for Your Malaga Wedding",
-      "level": 3
-    },
-    {
-      "id": "determining-the-venue-rental-fee-and-additional-costs",
-      "text": "Determining the Venue Rental Fee and Additional Costs",
-      "level": 2
-    },
-    {
-      "id": "breaking-down-all-potential-additional-fees-for-your-wedding-day",
-      "text": "Breaking Down All Potential Additional Fees for Your Wedding Day",
-      "level": 3
-    },
-    {
-      "id": "essential-venue-questions-to-ensure-seamless-integration-with-meg-services",
-      "text": "Essential Venue Questions to Ensure Seamless Integration with MEG Services",
-      "level": 2
-    },
-    {
-      "id": "how-to-align-venue-logistics-with-your-wedding-pack-rental",
-      "text": "How to Align Venue Logistics with Your Wedding Pack Rental",
-      "level": 3
-    },
-    {
-      "id": "exploring-the-policy-on-modifications-and-cancellations",
-      "text": "Exploring the Policy on Modifications and Cancellations",
-      "level": 2
-    },
-    {
-      "id": "grasping-the-refund-policy-and-its-impact-on-your-wedding-plans",
-      "text": "Grasping the Refund Policy and Its Impact on Your Wedding Plans",
-      "level": 3
-    },
-    {
-      "id": "ask-your-wedding-venue-about-technical-support-availability",
-      "text": "Ask Your Wedding Venue About Technical Support Availability",
-      "level": 2
-    },
-    {
-      "id": "ensure-smooth-wedding-day-operations-with-megs-on-site-support",
-      "text": "Ensure Smooth Wedding Day Operations with MEG’s On-Site Support",
-      "level": 3
-    },
-    {
-      "id": "maximizing-the-romantic-experience-with-audio-visual-enhancements",
-      "text": "Maximizing the Romantic Experience with Audio-Visual Enhancements",
-      "level": 2
-    },
-    {
-      "id": "utilize-state-of-the-art-technology-to-elevate-your-wedding-atmosphere",
-      "text": "Utilize State-of-the-Art Technology to Elevate Your Wedding Atmosphere",
-      "level": 3
-    },
-    {
-      "id": "clarifying-what-is-included-with-your-wedding-venue-booking",
-      "text": "Clarifying What is Included with Your Wedding Venue Booking",
-      "level": 2
-    },
-    {
-      "id": "ensuring-every-detail-meets-expectation-for-a-memorable-experience",
-      "text": "Ensuring Every Detail Meets Expectation for a Memorable Experience",
-      "level": 3
-    },
-    {
-      "id": "conclusions",
-      "text": "Conclusions",
-      "level": 2
-    },
-    {
-      "id": "faqs",
-      "text": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "what-are-common-wedding-questions",
-      "text": "What are common wedding questions?",
-      "level": 3
-    },
-    {
-      "id": "what-is-the-30-5-minute-rule-for-weddings",
-      "text": "What is the 30-5 minute rule for weddings?",
-      "level": 3
-    },
-    {
-      "id": "what-questions-should-you-ask-at-a-wedding-venue",
-      "text": "What questions should you ask at a wedding venue?",
-      "level": 3
-    },
-    {
-      "id": "what-are-good-qa-questions-for-a-wedding-website",
-      "text": "What are good Q&A questions for a wedding website?",
-      "level": 3
-    },
-    {
-      "id": "what-key-questions-should-i-ask-my-wedding-rental-company-in-malaga",
-      "text": "What key questions should I ask my wedding rental company in Malaga?",
-      "level": 3
-    },
-    {
-      "id": "how-can-i-understand-the-total-cost-of-my-wedding-venue-rental",
-      "text": "How can I understand the total cost of my wedding venue rental?",
-      "level": 3
-    },
-    {
-      "id": "how-do-i-ensure-seamless-logistics-between-my-venue-and-wedding-vendors",
-      "text": "How do I ensure seamless logistics between my venue and wedding vendors?",
-      "level": 3
-    },
-    {
-      "id": "what-is-the-importance-of-technical-support-at-my-wedding-venue",
-      "text": "What is the importance of technical support at my wedding venue?",
-      "level": 3
-    },
-    {
-      "id": "how-can-i-enhance-the-atmosphere-at-my-wedding-with-technology",
-      "text": "How can I enhance the atmosphere at my wedding with technology?",
-      "level": 3
     }
   ],
   "indoor-wedding-rental-essentials": [
@@ -5606,78 +4988,28 @@
       "level": 2
     },
     {
-      "id": "when-to-start-planning-your-wedding-rentals",
-      "text": "When to Start Planning Your Wedding Rentals",
+      "id": "why-theres-no-fixed-booking-window",
+      "text": "Why There's No Fixed Booking Window",
       "level": 2
     },
     {
-      "id": "booking-12-18-months-in-advance",
-      "text": "Booking 12-18 Months in Advance",
-      "level": 3
-    },
-    {
-      "id": "coordinating-with-vendors-early-for-a-seamless-celebration",
-      "text": "Coordinating with Vendors Early for a Seamless Celebration",
+      "id": "whats-included-at-650-euros",
+      "text": "What's Included, at 650 Euros",
       "level": 2
     },
     {
-      "id": "how-to-communicate-your-wedding-vision-effectively",
-      "text": "How to Communicate Your Wedding Vision Effectively",
-      "level": 3
-    },
-    {
-      "id": "navigating-the-big-stuff-booking-essential-rentals",
-      "text": "Navigating the Big Stuff: Booking Essential Rentals",
+      "id": "real-setups-weve-delivered",
+      "text": "Real Setups We've Delivered",
       "level": 2
     },
     {
-      "id": "understanding-what-event-rentals-you-need-for-your-wedding",
-      "text": "Understanding What Event Rentals You Need for Your Wedding",
-      "level": 3
-    },
-    {
-      "id": "avoiding-last-minute-stress-by-planning-early",
-      "text": "Avoiding Last-Minute Stress by Planning Early",
+      "id": "booking-and-service-area",
+      "text": "Booking and Service Area",
       "level": 2
     },
     {
-      "id": "strategies-for-ensuring-timely-rental-deliveries",
-      "text": "Strategies for Ensuring Timely Rental Deliveries",
-      "level": 3
-    },
-    {
-      "id": "enhancing-your-wedding-day-with-audio-visual-excellence",
-      "text": "Enhancing Your Wedding Day with Audio Visual Excellence",
-      "level": 2
-    },
-    {
-      "id": "the-importance-of-high-quality-sound-and-lighting",
-      "text": "The Importance of High-Quality Sound and Lighting",
-      "level": 3
-    },
-    {
-      "id": "maximizing-your-wedding-day-experience-with-malaga-event-gear",
-      "text": "Maximizing Your Wedding-Day Experience with Malaga Event Gear",
-      "level": 2
-    },
-    {
-      "id": "tailored-wedding-pack-options-for-your-celebration",
-      "text": "Tailored Wedding Pack Options for Your Celebration",
-      "level": 3
-    },
-    {
-      "id": "your-year-of-wedding-planning-book-with-confidence",
-      "text": "Your Year of Wedding Planning: Book with Confidence",
-      "level": 2
-    },
-    {
-      "id": "tips-for-creating-a-memorable-and-stress-free-event",
-      "text": "Tips for Creating a Memorable and Stress-Free Event",
-      "level": 3
-    },
-    {
-      "id": "conclusions",
-      "text": "Conclusions",
+      "id": "conclusion",
+      "text": "Conclusion",
       "level": 2
     },
     {
@@ -5686,53 +5018,28 @@
       "level": 2
     },
     {
-      "id": "how-far-in-advance-do-i-need-to-book-my-wedding",
-      "text": "How far in advance do I need to book my wedding?",
+      "id": "how-far-in-advance-should-i-book-wedding-rentals-in-malaga",
+      "text": "How far in advance should I book wedding rentals in Malaga?",
       "level": 3
     },
     {
-      "id": "what-is-the-30-5-rule-for-weddings",
-      "text": "What is the 30 5 rule for weddings?",
+      "id": "does-booking-earlier-get-me-a-better-price",
+      "text": "Does booking earlier get me a better price?",
       "level": 3
     },
     {
-      "id": "how-far-in-advance-should-you-book-a-florist-for-a-wedding",
-      "text": "How far in advance should you book a florist for a wedding?",
+      "id": "is-the-technician-available-on-any-date-i-choose",
+      "text": "Is the technician available on any date I choose?",
       "level": 3
     },
     {
-      "id": "what-is-a-good-timeline-for-wedding-planning",
-      "text": "What is a good timeline for wedding planning?",
+      "id": "what-if-i-need-to-change-my-wedding-date-after-booking",
+      "text": "What if I need to change my wedding date after booking?",
       "level": 3
     },
     {
-      "id": "how-far-in-advance-should-i-book-wedding-rentals-with-malaga-event-gear-meg",
-      "text": "How far in advance should I book wedding rentals with Malaga Event Gear (MEG)?",
-      "level": 3
-    },
-    {
-      "id": "how-far-in-advance-should-i-book-wedding-rentals-with-malaga-event-gear-meg-1",
-      "text": "How far in advance should I book wedding rentals with Malaga Event Gear (MEG)?",
-      "level": 3
-    },
-    {
-      "id": "why-is-early-booking-of-wedding-rentals-important",
-      "text": "Why is early booking of wedding rentals important?",
-      "level": 3
-    },
-    {
-      "id": "what-services-are-included-in-the-wedding-pack-by-meg",
-      "text": "What services are included in the Wedding Pack by MEG?",
-      "level": 3
-    },
-    {
-      "id": "how-does-booking-rentals-early-benefit-my-wedding-planning-experience",
-      "text": "How does booking rentals early benefit my wedding planning experience?",
-      "level": 3
-    },
-    {
-      "id": "how-can-meg-help-in-bringing-my-wedding-vision-to-life",
-      "text": "How can MEG help in bringing my wedding vision to life?",
+      "id": "whats-included-in-the-wedding-pack",
+      "text": "What's included in the Wedding Pack?",
       "level": 3
     }
   ],
@@ -6212,158 +5519,6 @@
       "level": 3
     }
   ],
-  "timeline-for-reserving-wedding-rentals": [
-    {
-      "id": "brief-overview",
-      "text": "Brief Overview",
-      "level": 2
-    },
-    {
-      "id": "understanding-the-timeline-for-wedding-rentals-in-malaga",
-      "text": "Understanding the Timeline for Wedding Rentals in Malaga",
-      "level": 2
-    },
-    {
-      "id": "why-booking-early-is-crucial-for-a-stress-free-wedding",
-      "text": "Why Booking Early is Crucial for a Stress-Free Wedding",
-      "level": 3
-    },
-    {
-      "id": "essential-wedding-rentals-to-consider",
-      "text": "Essential Wedding Rentals to Consider",
-      "level": 2
-    },
-    {
-      "id": "the-importance-of-quality-audio-visual-equipment",
-      "text": "The Importance of Quality Audio Visual Equipment",
-      "level": 3
-    },
-    {
-      "id": "booking-your-wedding-rentals-in-advance",
-      "text": "Booking Your Wedding Rentals in Advance",
-      "level": 2
-    },
-    {
-      "id": "tactics-for-dealing-with-demand-during-peak-wedding-season",
-      "text": "Tactics for Dealing with Demand During Peak Wedding Season",
-      "level": 3
-    },
-    {
-      "id": "how-to-effectively-book-early-for-your-wedding",
-      "text": "How to Effectively Book Early for Your Wedding",
-      "level": 2
-    },
-    {
-      "id": "steps-to-secure-the-right-rentals-for-your-special-day",
-      "text": "Steps to Secure the Right Rentals for Your Special Day",
-      "level": 3
-    },
-    {
-      "id": "the-role-of-the-wedding-pack-by-malaga-event-gear-meg",
-      "text": "The Role of the Wedding Pack by Malaga Event Gear (MEG)",
-      "level": 2
-    },
-    {
-      "id": "making-your-wedding-unforgettable-with-crystal-clear-audio-and-stunning-lighting",
-      "text": "Making Your Wedding Unforgettable with Crystal Clear Audio and Stunning Lighting",
-      "level": 3
-    },
-    {
-      "id": "choosing-the-perfect-venue-for-your-wedding-in-malaga",
-      "text": "Choosing the Perfect Venue for Your Wedding in Malaga",
-      "level": 2
-    },
-    {
-      "id": "factors-to-consider-when-planning-a-beach-or-countryside-wedding",
-      "text": "Factors to Consider When Planning a Beach or Countryside Wedding",
-      "level": 3
-    },
-    {
-      "id": "reviewing-and-finalizing-your-wedding-rental-choices",
-      "text": "Reviewing and Finalizing Your Wedding Rental Choices",
-      "level": 2
-    },
-    {
-      "id": "ensuring-everything-aligns-with-your-vision",
-      "text": "Ensuring Everything Aligns with Your Vision",
-      "level": 3
-    },
-    {
-      "id": "communicating-with-your-wedding-rental-provider",
-      "text": "Communicating with Your Wedding Rental Provider",
-      "level": 2
-    },
-    {
-      "id": "key-details-to-discuss-for-a-seamless-experience",
-      "text": "Key Details to Discuss for a Seamless Experience",
-      "level": 3
-    },
-    {
-      "id": "preparing-for-your-wedding-day-last-minute-checks-and-confirmations",
-      "text": "Preparing for Your Wedding Day: Last-Minute Checks and Confirmations",
-      "level": 2
-    },
-    {
-      "id": "ensuring-every-element-is-in-place-on-your-special-day",
-      "text": "Ensuring Every Element is in Place on Your Special Day",
-      "level": 3
-    },
-    {
-      "id": "conclusions",
-      "text": "Conclusions",
-      "level": 2
-    },
-    {
-      "id": "faqs",
-      "text": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "what-is-the-30-5-rule-for-weddings",
-      "text": "What is the 30 5 rule for weddings?",
-      "level": 3
-    },
-    {
-      "id": "how-far-in-advance-should-you-book-a-florist-for-a-wedding",
-      "text": "How far in advance should you book a florist for a wedding?",
-      "level": 3
-    },
-    {
-      "id": "how-far-in-advance-do-i-need-to-book-my-wedding",
-      "text": "How far in advance do I need to book my wedding?",
-      "level": 3
-    },
-    {
-      "id": "is-5000-enough-for-a-wedding",
-      "text": "Is $5000 enough for a wedding?",
-      "level": 3
-    },
-    {
-      "id": "why-is-it-crucial-to-book-wedding-rentals-early-in-malaga",
-      "text": "Why is it crucial to book wedding rentals early in Malaga?",
-      "level": 3
-    },
-    {
-      "id": "what-are-the-benefits-of-hiring-audio-visual-services-from-malaga-event-gear-meg",
-      "text": "What are the benefits of hiring audio visual services from Malaga Event Gear (MEG)?",
-      "level": 3
-    },
-    {
-      "id": "what-should-be-discussed-with-a-wedding-rental-provider-to-ensure-a-seamless-event",
-      "text": "What should be discussed with a wedding rental provider to ensure a seamless event?",
-      "level": 3
-    },
-    {
-      "id": "how-can-early-planning-aid-in-creating-a-seamless-wedding-experience",
-      "text": "How can early planning aid in creating a seamless wedding experience?",
-      "level": 3
-    },
-    {
-      "id": "what-role-does-venue-selection-play-in-successful-wedding-planning-in-malaga",
-      "text": "What role does venue selection play in successful wedding planning in Malaga?",
-      "level": 3
-    }
-  ],
   "trending-wedding-rental-ideas": [
     {
       "id": "brief-overview",
@@ -6498,113 +5653,6 @@
     {
       "id": "what-is-included-in-malaga-event-gears-wedding-pack",
       "text": "What is included in Malaga Event Gear’s Wedding Pack?",
-      "level": 3
-    }
-  ],
-  "timing-your-wedding-rental-bookings": [
-    {
-      "id": "brief-overview",
-      "text": "Brief Overview",
-      "level": 2
-    },
-    {
-      "id": "key-highlights",
-      "text": "Key Highlights",
-      "level": 2
-    },
-    {
-      "id": "establishing-your-wedding-timeline-key-considerations",
-      "text": "Establishing Your Wedding Timeline: Key Considerations",
-      "level": 2
-    },
-    {
-      "id": "why-you-should-book-wedding-vendors-in-advance",
-      "text": "Why You Should Book Wedding Vendors in Advance",
-      "level": 3
-    },
-    {
-      "id": "the-importance-of-booking-your-wedding-rentals-early",
-      "text": "The Importance of Booking Your Wedding Rentals Early",
-      "level": 2
-    },
-    {
-      "id": "how-to-choose-the-right-timing-for-your-wedding-rentals",
-      "text": "How to Choose the Right Timing for Your Wedding Rentals",
-      "level": 3
-    },
-    {
-      "id": "securing-your-wedding-venue-early-in-malaga",
-      "text": "Securing Your Wedding Venue Early in Malaga",
-      "level": 2
-    },
-    {
-      "id": "the-advantages-of-early-venue-booking-for-your-special-day",
-      "text": "The Advantages of Early Venue Booking for Your Special Day",
-      "level": 3
-    },
-    {
-      "id": "putting-together-the-perfect-wedding-day-with-malaga-event-gear",
-      "text": "Putting Together the Perfect Wedding Day with Malaga Event Gear",
-      "level": 2
-    },
-    {
-      "id": "how-our-wedding-pack-rental-enhances-your-event",
-      "text": "How Our Wedding Pack Rental Enhances Your Event",
-      "level": 3
-    },
-    {
-      "id": "conclusions",
-      "text": "Conclusions",
-      "level": 2
-    },
-    {
-      "id": "faqs",
-      "text": "FAQs",
-      "level": 2
-    },
-    {
-      "id": "what-is-the-30-5-rule-for-weddings",
-      "text": "What is the 30 5 rule for weddings?",
-      "level": 3
-    },
-    {
-      "id": "how-far-in-advance-should-you-book-a-florist-for-a-wedding",
-      "text": "How far in advance should you book a florist for a wedding?",
-      "level": 3
-    },
-    {
-      "id": "how-far-in-advance-do-i-need-to-book-my-wedding",
-      "text": "How far in advance do I need to book my wedding?",
-      "level": 3
-    },
-    {
-      "id": "how-far-in-advance-do-you-book-a-dj-for-a-wedding",
-      "text": "How far in advance do you book a DJ for a wedding?",
-      "level": 3
-    },
-    {
-      "id": "what-is-the-best-time-to-start-planning-and-booking-for-a-wedding-in-malaga",
-      "text": "What is the best time to start planning and booking for a wedding in Malaga?",
-      "level": 3
-    },
-    {
-      "id": "why-is-early-booking-crucial-for-wedding-rentals-and-vendors",
-      "text": "Why is early booking crucial for wedding rentals and vendors?",
-      "level": 3
-    },
-    {
-      "id": "how-can-malaga-event-gear-meg-enhance-my-wedding-experience",
-      "text": "How can Malaga Event Gear (MEG) enhance my wedding experience?",
-      "level": 3
-    },
-    {
-      "id": "what-advantages-does-booking-my-wedding-vendors-early-provide",
-      "text": "What advantages does booking my wedding vendors early provide?",
-      "level": 3
-    },
-    {
-      "id": "how-does-early-booking-affect-budgeting-and-customization-for-a-wedding",
-      "text": "How does early booking affect budgeting and customization for a wedding?",
       "level": 3
     }
   ],
