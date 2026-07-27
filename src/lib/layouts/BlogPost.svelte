@@ -1,6 +1,6 @@
 <script lang="ts">
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
-	import { buildArticleSchema, buildFAQSchema } from '$lib/utils/schema';
+	import { buildArticleSchema } from '$lib/utils/schema';
 	import { i18n } from '$lib/i18n.svelte';
 	import { slugify } from '$lib/utils/slugify';
 	import { siteConfig } from '$lib/data/site';
@@ -50,15 +50,9 @@
 		})
 	);
 
-	// Build FAQPage schema only when the post has FAQ pairs
-	let faqSchema = $derived(
-		post.faqs && post.faqs.length > 0 ? buildFAQSchema(post.faqs) : null
-	);
-
-	// Array of JSON-LD schemas to inject — article always present, FAQ when available
-	let jsonLdSchemas = $derived(
-		faqSchema ? [articleSchema, faqSchema] : [articleSchema]
-	);
+	// FAQPage is no longer in Google's supported structured-data gallery; the FAQ
+	// accordion still renders for users, it just carries no JSON-LD markup.
+	let jsonLdSchemas = $derived([articleSchema]);
 
 	// Resolve the most relevant package for this post's context
 	let resolvedPackage = $derived(resolvePackageForPost(post));

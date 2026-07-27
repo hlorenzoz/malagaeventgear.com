@@ -358,14 +358,22 @@ scripts.
 
 | Prohibido | Usar en su lugar |
 | :--- | :--- |
-| Raya (em dash) | coma, dos puntos, punto o paréntesis; `-` en código y etiquetas |
+| Raya (em dash) | coma, dos puntos, punto o paréntesis según contexto (`-` está bien en código y etiquetas) |
 | Semirraya (en dash) | `-`, o `to`/`a` para rangos |
+| Guion espaciado como sustituto de raya (`palabra - palabra`) | reunir la frase sin el guion, o partirla en dos oraciones |
+| Punto y coma (`;`) | punto y arrancar la siguiente oración con mayúscula (o coma si la cláusula es corta) |
 | Comillas curvas | `'` y `"` |
 | Puntos suspensivos de un carácter | `...` |
 | Espacio duro (nbsp) | espacio normal |
+| Carácter de viñeta (`•`) | `-` al inicio del ítem de lista en markdown |
+| Guion uniendo palabras/términos en prosa o encabezados (`all-in-one`, `high-end`) | un espacio entre las palabras (`all in one`, `high end`). El guion se mantiene solo donde es estructural: slugs de URL, nombres de archivo, identificadores de código, clases CSS o un nombre propio establecido |
 
 **Aclaración**: esto NO significa borrar tildes ni la ñ. `Málaga` y `configuración` son
 idioma, no tipografía de IA, y se mantienen. Solo se prohíben los caracteres de la tabla.
+
+**Al tocar contenido existente**: si al crear o editar una página/post aparece alguno de estos
+caracteres en el contenido ya existente (no solo en lo nuevo que agregás), corregilo en el mismo
+cambio. Dejarlo pasar porque "no era tu parte" no es neutral, es un chequeo que no se hizo.
 
 ---
 

@@ -52,6 +52,10 @@ const config = {
 			// remarkGfm enables GFM pipe-tables (the migrated posts reconstruct their
 			// tables as markdown tables), plus strikethrough/autolinks/task-lists.
 			remarkPlugins: [remarkGfm],
+			// mdsvex defaults smartypants to true, which rewrites straight quotes/dashes
+			// into curly typography at build time even when the .svx source is clean
+			// ASCII. Disabled: AGENTS.md mandates ASCII-only punctuation sitewide.
+			smartypants: false,
 			// Plugin execution order matters:
 			// 1. rehypeSlug    — assigns ids to all headings (must be first)
 			// 2. rehypeBlogImages — enriches <img> with srcset/alt/dimensions
