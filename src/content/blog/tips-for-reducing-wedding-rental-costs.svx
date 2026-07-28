@@ -21,7 +21,7 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Most wedding rental cost guides are written for furniture, tents, tableware and decor, trades Malaga Event Gear (MEG) does not touch. This guide covers the one slice we do supply, audio visual, and the real, documented ways to reduce what it costs: matching a package to your guest count, understanding what add ons actually do to the price, and one question worth asking your venue before you rent anything from us. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview.
+Most wedding rental cost guides are written for furniture, tents, tableware and decor, trades Malaga Event Gear (MEG) does not touch. This guide covers the one slice we do supply, audio visual, and the real, documented ways to reduce what it costs: matching a package to your guest count, understanding what add ons actually do to the price, and one question worth asking your venue before you rent anything from us. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview. If you are still deciding which package to book, our [how to choose wedding rentals](/blog/how-to-choose-wedding-rentals/) guide walks through the six questions, starting with guest count, that decide between the Eco Pack and the Wedding Pack.
 
 ## Brief Overview
 

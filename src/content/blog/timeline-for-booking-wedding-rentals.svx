@@ -4,7 +4,7 @@ description: "There is no fixed booking window for wedding AV in Malaga: dates a
 author: Hector Luis Lorenzo
 slug: timeline-for-booking-wedding-rentals
 publishDate: 2026-02-26
-updatedDate: "2026-07-27"
+updatedDate: "2026-07-28"
 excerpt: "There is no fixed booking window for wedding AV in Malaga: dates and technicians fill up, so book once your venue and date are confirmed. What's included and what it costs."
 coverImage: https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table.webp
 categories: [Audio Visual Rental, Weddings]
@@ -21,19 +21,19 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Wondering when to book wedding AV rentals in Malaga? We do not publish a fixed lead time, and be wary of anyone who quotes you one as a hard rule: what actually matters is that wedding dates, especially in peak season, and the technicians who work them fill up. Book once your date and venue are confirmed, and the earlier you do, the more likely your first-choice date is still open.
+Wondering when to book wedding AV rentals in Malaga? We do not publish a fixed lead time, and be wary of anyone who quotes you one as a hard rule: what actually matters is that wedding dates, especially in peak season, and the technicians who work them fill up. Book once your date and venue are confirmed, and the earlier you do, the more likely your first choice date is still open. If you have not settled on a package yet, our [how to choose wedding rentals](/blog/how-to-choose-wedding-rentals/) guide walks through the six questions, starting with guest count, that decide between the Eco Pack and the Wedding Pack, before you get to timing your booking.
 
 ## Brief Overview
 
 ---
 
-Malaga Event Gear's [Wedding Pack](/packages/wedding/) covers the AV side of your day: PA sound for up to 80 guests, fairy-light ambient lighting, wireless microphones for vows and speeches, and a live technician on site throughout. There is no minimum or maximum booking window, just availability, so reach out as soon as your date and venue are set.
+Malaga Event Gear's [Wedding Pack](/packages/wedding/) covers the AV side of your day: PA sound for up to 80 guests, fairy light ambient lighting, wireless microphones for vows and speeches, and a live technician on site throughout. There is no minimum or maximum booking window, just availability, so reach out as soon as your date and venue are set.
 
 ## Key Highlights
 
 ---
 
--   No fixed lead time is required or published; availability is what actually limits a date, not a rule.
+-   No fixed lead time is required or published. Availability is what actually limits a date, not a rule.
 -   Peak wedding season (spring through early autumn on the Costa del Sol) is when dates and technicians book out first.
 -   The Wedding Pack includes a live technician on site, one of only two packages in our catalog that does.
 -   Confirming your venue and date first is what lets us confirm equipment and technician availability for that day.
@@ -46,7 +46,7 @@ We don't ask couples to book a set number of months ahead, because the honest an
 
 ## What's Included, at 650 Euros
 
-The [Wedding Pack](/packages/wedding/) costs 650 euros, ex VAT, and includes PA sound for up to 80 guests, fairy-light ambient lighting, wireless microphones, transport, professional setup, and a live technician for the event. For the full breakdown of what is and isn't included, see our [audio visual rental for weddings](/blog/audio-visual-rental-for-weddings/) guide, or [questions to ask a wedding rental company](/blog/questions-to-ask-wedding-rental-companies/) before you book.
+The [Wedding Pack](/packages/wedding/) costs 650 euros, ex VAT, and includes PA sound for up to 80 guests, fairy light ambient lighting, wireless microphones, transport, professional setup, and a live technician for the event. For the full breakdown of what is and isn't included, see our [audio visual rental for weddings](/blog/audio-visual-rental-for-weddings/) guide, or [questions to ask a wedding rental company](/blog/questions-to-ask-wedding-rental-companies/) before you book.
 
 ## Real Setups We've Delivered
 
@@ -86,7 +86,7 @@ No. The Wedding Pack is a flat 650 euros, ex VAT, regardless of how far ahead yo
 
 ### Is the technician available on any date I choose?
 
-Availability depends on the date, same as the equipment itself. The Wedding Pack includes a live technician on site throughout the event; confirm availability for your specific date as early as you can.
+Availability depends on the date, same as the equipment itself. The Wedding Pack includes a live technician on site throughout the event. Confirm availability for your specific date as early as you can.
 
 ### What if I need to change my wedding date after booking?
 
@@ -94,4 +94,4 @@ Availability depends on the date, same as the equipment itself. The Wedding Pack
 
 ### What's included in the Wedding Pack?
 
-PA sound for up to 80 guests, fairy-light ambient lighting, wireless microphones, transport, setup and a live technician. See our [audio visual rental for weddings](/blog/audio-visual-rental-for-weddings/) guide for the full breakdown.
+PA sound for up to 80 guests, fairy light ambient lighting, wireless microphones, transport, setup and a live technician. See our [audio visual rental for weddings](/blog/audio-visual-rental-for-weddings/) guide for the full breakdown.
