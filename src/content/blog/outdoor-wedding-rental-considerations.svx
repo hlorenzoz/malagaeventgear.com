@@ -21,7 +21,7 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Planning an outdoor wedding in Malaga means planning around no walls, no ceiling and, at most fincas and villas, a curfew on amplified sound. Malaga Event Gear's [Wedding Pack](/packages/wedding/) covers the audio visual slice of that: PA sound, ambient lighting, wireless microphones and a live technician who sizes and times the system around what your venue allows. It does not cover tents, generators, furniture, decor or venue permits. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview.
+Planning an outdoor wedding in Malaga means planning around no walls, no ceiling and, at most fincas and villas, a curfew on amplified sound. Malaga Event Gear's [Wedding Pack](/packages/wedding/) covers the audio visual slice of that: PA sound, ambient lighting, wireless microphones and a live technician who sizes and times the system around what your venue allows. It does not cover tents, generators, furniture, decor or venue permits. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview. If you have not settled on a package yet, our [how to choose wedding rentals](/blog/how-to-choose-wedding-rentals/) guide walks through the six questions, starting with guest count, that decide between the Eco Pack and the Wedding Pack.
 
 ## Brief Overview
 

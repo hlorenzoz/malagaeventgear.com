@@ -21,7 +21,7 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Planning an indoor wedding in Malaga means working inside a room that already has its own walls, chandeliers and, often, mains power your venue controls. Malaga Event Gear's [Wedding Pack](/packages/wedding/) covers the audio visual slice of that: PA sound tuned to fill the room, an accent lighting layer on top of what the venue already has, wireless microphones and a live technician. It does not cover furniture, linens, tableware, dance floors or decor. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview.
+Planning an indoor wedding in Malaga means working inside a room that already has its own walls, chandeliers and, often, mains power your venue controls. Malaga Event Gear's [Wedding Pack](/packages/wedding/) covers the audio visual slice of that: PA sound tuned to fill the room, an accent lighting layer on top of what the venue already has, wireless microphones and a live technician. It does not cover furniture, linens, tableware, dance floors or decor. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview. If you have not settled on a package yet, our [how to choose wedding rentals](/blog/how-to-choose-wedding-rentals/) guide walks through the six questions, starting with guest count, that decide between the Eco Pack and the Wedding Pack.
 
 ## Brief Overview
 

@@ -4,7 +4,7 @@ description: "What to ask before booking wedding AV in Malaga: what's included, 
 author: Hector Luis Lorenzo
 slug: questions-to-ask-wedding-rental-companies
 publishDate: 2026-01-11
-updatedDate: "2026-07-27"
+updatedDate: "2026-07-28"
 excerpt: "What to ask before booking wedding AV in Malaga: what's included, is a technician on site, how many guests it covers, and the price. A checklist for vetting a provider."
 coverImage: https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding.webp
 categories: [Audio Visual Rental, Weddings]
@@ -21,13 +21,13 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Before you book a wedding AV rental company in Malaga, ask a few direct questions: what exactly is included, is a technician on site during the event, how many guests can the sound system cover, and what does it actually cost. A vague answer to any of these is worth pausing on.
+Before you book a wedding AV rental company in Malaga, ask a few direct questions: what exactly is included, is a technician on site during the event, how many guests can the sound system cover, and what does it actually cost. A vague answer to any of these is worth pausing on. If you have not settled on a package yet, our [how to choose wedding rentals](/blog/how-to-choose-wedding-rentals/) guide walks through the six questions, starting with guest count, that decide between the Eco Pack and the Wedding Pack, before you get to vetting a provider.
 
 ## Brief Overview
 
 ---
 
-Malaga Event Gear's [Wedding Pack](/packages/wedding/) covers PA sound for up to 80 guests, fairy-light ambient lighting, wireless microphones for vows and speeches, and a live technician on site throughout, for 650 euros ex VAT. Use the questions below to compare that against any provider you're considering.
+Malaga Event Gear's [Wedding Pack](/packages/wedding/) covers PA sound for up to 80 guests, fairy light ambient lighting, wireless microphones for vows and speeches, and a live technician on site throughout, for 650 euros ex VAT. Use the questions below to compare that against any provider you're considering.
 
 ## Key Highlights
 
@@ -40,7 +40,7 @@ Malaga Event Gear's [Wedding Pack](/packages/wedding/) covers PA sound for up to
 
 ## What's Actually Included in the Price
 
-Get a written list of what's in the package, not a general description. For the Wedding Pack, that's PA sound for up to 80 guests, fairy-light and warm-LED ambient lighting, wireless microphones, transport, professional setup, and a live technician on site for the event, at 650 euros ex VAT. If a provider can't give you an equivalent itemized list, that's a question worth pressing on before you sign anything.
+Get a written list of what's in the package, not a general description. For the Wedding Pack, that's PA sound for up to 80 guests, fairy light and warm LED ambient lighting, wireless microphones, transport, professional setup, and a live technician on site for the event, at 650 euros ex VAT. If a provider can't give you an equivalent itemized list, that's a question worth pressing on before you sign anything.
 
 <InlineCTA />
 
@@ -50,7 +50,7 @@ This is worth asking directly, since it's not universal even within one company'
 
 ## How Many Guests Can the Equipment Cover
 
-Ask for a guest-count rating, not a venue-size description. The Wedding Pack's PA sound is rated for up to 80 guests; for a larger wedding, [contact us](/contact/) directly to discuss options rather than assuming a system will scale. An honest provider will tell you when your guest count exceeds what a given package supports.
+Ask for a guest count rating, not a venue size description. The Wedding Pack's PA sound is rated for up to 80 guests. For a larger wedding, [contact us](/contact/) directly to discuss options rather than assuming a system will scale. An honest provider will tell you when your guest count exceeds what a given package supports.
 
 ## What's Not Included
 
@@ -58,7 +58,7 @@ Ask this as directly as what is included. Malaga Event Gear's Wedding Pack does 
 
 ## Booking and Service Area
 
-Our services focus on Malaga and extend to Granada for rentals over 400 euros. Wedding dates fill up quickly, and there is no fixed booking window, so reach out once your date and venue are confirmed; see our [booking timeline](/blog/timeline-for-booking-wedding-rentals/) guide for more on that.
+Our services focus on Malaga and extend to Granada for rentals over 400 euros. Wedding dates fill up quickly, and there is no fixed booking window, so reach out once your date and venue are confirmed. See our [booking timeline](/blog/timeline-for-booking-wedding-rentals/) guide for more on that.
 
 ## Conclusion
 

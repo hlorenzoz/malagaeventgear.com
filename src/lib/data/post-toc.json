@@ -414,108 +414,53 @@
       "level": 2
     },
     {
-      "id": "understanding-your-wedding-rental-service",
-      "text": "Understanding Your Wedding Rental Service",
+      "id": "step-1-guest-count-decides-the-package-first",
+      "text": "Step 1: Guest Count Decides the Package First",
       "level": 2
     },
     {
-      "id": "assess-your-event-type-and-venue",
-      "text": "Assess Your Event Type and Venue",
-      "level": 3
-    },
-    {
-      "id": "identifying-essential-rental-items",
-      "text": "Identifying Essential Rental Items",
-      "level": 3
-    },
-    {
-      "id": "key-elements-to-consider-when-choosing-wedding-rental-service",
-      "text": "Key Elements to Consider When Choosing Wedding Rental Service",
+      "id": "step-2-indoor-or-outdoor-venue",
+      "text": "Step 2: Indoor or Outdoor Venue",
       "level": 2
     },
     {
-      "id": "aligning-with-your-budget",
-      "text": "Aligning with Your Budget",
-      "level": 3
-    },
-    {
-      "id": "creating-a-detailed-rental-checklist",
-      "text": "Creating a Detailed Rental Checklist",
-      "level": 3
-    },
-    {
-      "id": "how-to-identify-and-choose-high-quality-rental-providers",
-      "text": "How to Identify And Choose High Quality Rental Providers",
+      "id": "step-3-does-your-venue-already-have-a-house-pa",
+      "text": "Step 3: Does Your Venue Already Have a House PA?",
       "level": 2
     },
     {
-      "id": "evaluating-reputation-and-reviews",
-      "text": "Evaluating Reputation and Reviews",
-      "level": 3
-    },
-    {
-      "id": "exploring-local-options-like-malaga-event-gear-meg",
-      "text": "Exploring Local Options Like Malaga Event Gear (MEG)",
-      "level": 3
-    },
-    {
-      "id": "questions-to-ask-your-wedding-rental-company",
-      "text": "Questions to Ask Your Wedding Rental Company",
+      "id": "step-4-do-you-actually-need-a-technician",
+      "text": "Step 4: Do You Actually Need a Technician?",
       "level": 2
     },
     {
-      "id": "understanding-the-rental-agreement",
-      "text": "Understanding the Rental Agreement",
-      "level": 3
-    },
-    {
-      "id": "ensuring-customization-and-support",
-      "text": "Ensuring Customization and Support",
-      "level": 3
-    },
-    {
-      "id": "finalizing-your-wedding-rental-agreement",
-      "text": "Finalizing Your Wedding Rental Agreement",
+      "id": "step-5-what-actually-moves-the-price",
+      "text": "Step 5: What Actually Moves the Price",
       "level": 2
     },
     {
-      "id": "clarifying-terms-and-conditions",
-      "text": "Clarifying Terms and Conditions",
-      "level": 3
-    },
-    {
-      "id": "confirming-delivery-and-setup-details",
-      "text": "Confirming Delivery and Setup Details",
-      "level": 3
-    },
-    {
-      "id": "essential-wedding-rental-items-linens-chairs-and-more",
-      "text": "Essential Wedding Rental Items: Linens, Chairs, and More",
+      "id": "step-6-vetting-the-provider-you-choose",
+      "text": "Step 6: Vetting the Provider You Choose",
       "level": 2
     },
     {
-      "id": "highlighting-the-must-have-rentals-for-every-celebration",
-      "text": "Highlighting the Must Have Rentals for Every Celebration",
-      "level": 3
-    },
-    {
-      "id": "wedding-rental-tips-to-save-money-and-stress",
-      "text": "Wedding Rental Tips to Save Money and Stress",
+      "id": "step-7-when-to-book",
+      "text": "Step 7: When to Book",
       "level": 2
     },
     {
-      "id": "strategic-planning-and-preparation",
-      "text": "Strategic Planning and Preparation",
-      "level": 3
+      "id": "real-weddings-weve-delivered",
+      "text": "Real Weddings We've Delivered",
+      "level": 2
     },
     {
-      "id": "choosing-flexible-rental-services",
-      "text": "Choosing Flexible Rental Services",
-      "level": 3
+      "id": "booking-and-service-area",
+      "text": "Booking and Service Area",
+      "level": 2
     },
     {
-      "id": "conclusions",
-      "text": "Conclusions",
+      "id": "conclusion",
+      "text": "Conclusion",
       "level": 2
     },
     {
@@ -524,23 +469,38 @@
       "level": 2
     },
     {
-      "id": "what-is-the-50-20-30-rule-for-weddings",
-      "text": "What is the 50 20 30 rule for weddings?",
+      "id": "how-do-i-know-which-wedding-rental-package-i-need",
+      "text": "How do I know which wedding rental package I need?",
       "level": 3
     },
     {
-      "id": "what-is-the-30-5-rule-for-weddings",
-      "text": "What is the 30 5 rule for weddings?",
+      "id": "does-it-matter-if-my-wedding-is-indoor-or-outdoor",
+      "text": "Does it matter if my wedding is indoor or outdoor?",
       "level": 3
     },
     {
-      "id": "is-5000-enough-for-a-wedding",
-      "text": "Is $5000 enough for a wedding?",
+      "id": "my-venue-already-has-speakers-do-i-still-need-to-rent-sound",
+      "text": "My venue already has speakers. Do I still need to rent sound?",
       "level": 3
     },
     {
-      "id": "what-is-the-most-important-factor-while-selecting-a-wedding-venue",
-      "text": "What is the most important factor while selecting a wedding venue?",
+      "id": "do-i-need-a-live-technician-or-can-i-run-the-sound-myself",
+      "text": "Do I need a live technician, or can I run the sound myself?",
+      "level": 3
+    },
+    {
+      "id": "what-should-i-ask-before-i-actually-book-a-provider",
+      "text": "What should I ask before I actually book a provider?",
+      "level": 3
+    },
+    {
+      "id": "how-far-in-advance-should-i-book",
+      "text": "How far in advance should I book?",
+      "level": 3
+    },
+    {
+      "id": "what-if-my-guest-count-is-over-80",
+      "text": "What if my guest count is over 80?",
       "level": 3
     }
   ],
