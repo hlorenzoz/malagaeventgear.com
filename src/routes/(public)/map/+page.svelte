@@ -4,7 +4,7 @@
 	import { i18n } from '$lib/i18n.svelte';
 	import { siteConfig } from '$lib/data/site';
 	import { dateOnly } from '$lib/data/site-map';
-	import { byGscTier } from '$lib/utils/map-gsc-sort';
+	import { byGscTier, gscTier, type GscTier } from '$lib/utils/map-gsc-sort';
 	import { needsIndexNow as computeNeedsIndexNow } from '$lib/utils/map-indexnow-eligibility';
 
 	// URL absoluta lista para pegar en cualquier lado.
@@ -33,11 +33,31 @@
 		}
 	}
 
+	function toggleGscHandled(url: string, currentTier: GscTier) {
+		if (currentTier === 2) {
+			const updated = { ...gscMarked };
+			delete updated[url];
+			gscMarked = updated;
+			try {
+				localStorage.setItem(GSC_STORAGE_KEY, JSON.stringify(gscMarked));
+			} catch {}
+		} else {
+			markGscHandled(url);
+		}
+	}
+
 	let filteredSilos = $derived(
 		view.silos.map((s) => ({
 			...s,
 			kids: s.kids.filter((k) => match(k.key)).sort(byGscTier(gscMarked))
 		}))
+	);
+
+	let pendingGscCount = $derived(
+		filteredSilos.reduce(
+			(n, s) => n + s.kids.filter((k) => gscTier(k, gscMarked) === 0).length,
+			0
+		)
 	);
 	let filteredNews = $derived(view.news.filter((p) => match(p.key)));
 	let filteredStandalone = $derived(view.standalone.filter((p) => match(p.key)));
@@ -360,7 +380,11 @@
 		<div class="stat"><span class="rail rl-support"></span><div class="n">{view.counts.supporting}</div><div class="l">Supporting</div></div>
 		<div class="stat"><span class="rail rl-news"></span><div class="n">{view.counts.news}</div><div class="l">News</div></div>
 		<div class="stat"><span class="rail rl-standalone"></span><div class="n">{view.counts.standalone}</div><div class="l">Standalone</div></div>
-		<div class="stat"><span class="rail rl-line"></span><div class="n">{view.counts.total}</div><div class="l">Total nodes</div></div>
+		<div class="stat gsc-stat" class:active={pendingGscCount > 0}>
+			<span class="rail rl-amber"></span>
+			<div class="n">{pendingGscCount}</div>
+			<div class="l">Pending GSC</div>
+		</div>
 	</section>
 
 	<!-- El grafo: mindmap Mermaid -->
@@ -415,10 +439,16 @@
 	<!-- Blog reverse silo -->
 	<section class="silos">
 		{#each filteredSilos as silo (silo.url)}
+			{@const pendingInSilo = silo.kids.filter((k) => gscTier(k, gscMarked) === 0).length}
 			<div class="silo">
 				<div class="pillar-head">
 					<div class="pillar-top">
-						<span class="pillar-tag"><span class="dot"></span>Pillar · target page</span>
+						<span class="pillar-tag">
+							<span class="dot"></span>Pillar · target page
+							{#if pendingInSilo > 0}
+								<span class="gsc-silo-badge">⚡ {pendingInSilo} pending GSC</span>
+							{/if}
+						</span>
 						<button
 							type="button"
 							class="copy-all"
@@ -443,7 +473,47 @@
 				</div>
 				<ul class="kids">
 					{#each silo.kids as kid (kid.url)}
-						<li><a href={kid.url}><span class="k-dot support"></span><span class="k-key">{kid.key}</span>{#if kid.updated}<span class="k-date">{dateOnly(kid.updated)}</span>{:else}<span class="k-date stale">— never</span>{/if}</a>{@render keyActions(kid.key, kid.url, kid.updated, true)}</li>
+						{@const tier = gscTier(kid, gscMarked)}
+						<li class:gsc-pending={tier === 0} class:gsc-done={tier === 2}>
+							<a href={kid.url} onclick={() => markGscHandled(kid.url)}>
+								<span class="k-dot" class:amber={tier === 0} class:support={tier !== 0}></span>
+								<span class="k-key">{kid.key}</span>
+								{#if tier === 0}
+									<button
+										type="button"
+										class="gsc-badge pending"
+										title="Updated & pending GSC copy — click to mark done"
+										onclick={(e) => {
+											e.preventDefault();
+											e.stopPropagation();
+											markGscHandled(kid.url);
+										}}
+									>
+										<span class="gsc-pulse"></span>
+										GSC pending
+									</button>
+								{:else if tier === 2}
+									<button
+										type="button"
+										class="gsc-badge done"
+										title="Marked sent to GSC — click to reset"
+										onclick={(e) => {
+											e.preventDefault();
+											e.stopPropagation();
+											toggleGscHandled(kid.url, tier);
+										}}
+									>
+										GSC ✓
+									</button>
+								{/if}
+								{#if kid.updated}
+									<span class="k-date">{dateOnly(kid.updated)}</span>
+								{:else}
+									<span class="k-date stale">— never</span>
+								{/if}
+							</a>
+							{@render keyActions(kid.key, kid.url, kid.updated, true)}
+						</li>
 					{/each}
 					{#if silo.kids.length === 0}<li class="empty">No matches</li>{/if}
 				</ul>
@@ -575,7 +645,101 @@
 	.stat .n { font-size: 30px; font-weight: 640; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; line-height: 1; }
 	.stat .l { font-size: 11px; color: var(--ink-dim); margin-top: 6px; letter-spacing: 0.04em; text-transform: uppercase; }
 	.rail { position: absolute; left: 0; top: 0; bottom: 0; width: 3px; }
-	.rl-blue { background: var(--blue); } .rl-support { background: var(--support); } .rl-news { background: var(--news); } .rl-standalone { background: var(--standalone); } .rl-line { background: var(--line); }
+	.rl-blue { background: var(--blue); } .rl-support { background: var(--support); } .rl-news { background: var(--news); } .rl-standalone { background: var(--standalone); } .rl-line { background: var(--line); } .rl-amber { background: #f59e0b; }
+
+	.stat.gsc-stat.active {
+		border-color: color-mix(in srgb, #f59e0b 35%, var(--line));
+		background: color-mix(in srgb, #f59e0b 7%, var(--panel));
+	}
+	.stat.gsc-stat.active .n {
+		color: #f59e0b;
+	}
+
+	.gsc-silo-badge {
+		display: inline-flex;
+		align-items: center;
+		gap: 5px;
+		padding: 2px 7px;
+		border-radius: 6px;
+		background: color-mix(in srgb, #f59e0b 16%, transparent);
+		border: 1px solid color-mix(in srgb, #f59e0b 40%, transparent);
+		color: #f59e0b;
+		font-family: ui-monospace, monospace;
+		font-size: 11px;
+		font-weight: 600;
+		text-transform: none;
+		letter-spacing: normal;
+		margin-left: 6px;
+	}
+
+	ul.kids li.gsc-pending {
+		background: color-mix(in srgb, #f59e0b 6%, transparent);
+		border-radius: 8px;
+	}
+	ul.kids li.gsc-pending a:hover {
+		background: color-mix(in srgb, #f59e0b 14%, transparent);
+	}
+	ul.kids li.gsc-done {
+		opacity: 0.78;
+	}
+	ul.kids li.gsc-done:hover {
+		opacity: 1;
+	}
+
+	.k-dot.amber {
+		background: #f59e0b;
+		box-shadow: 0 0 6px color-mix(in srgb, #f59e0b 60%, transparent);
+	}
+
+	.gsc-badge {
+		display: inline-flex;
+		align-items: center;
+		gap: 5px;
+		padding: 2px 7px;
+		border-radius: 6px;
+		font-family: ui-monospace, monospace;
+		font-size: 10.5px;
+		font-weight: 600;
+		cursor: pointer;
+		border: 1px solid transparent;
+		transition: all 0.15s ease;
+		line-height: 1.3;
+		flex: none;
+	}
+	.gsc-badge.pending {
+		background: color-mix(in srgb, #f59e0b 18%, transparent);
+		border-color: color-mix(in srgb, #f59e0b 45%, transparent);
+		color: #f59e0b;
+	}
+	.gsc-badge.pending:hover {
+		background: #f59e0b;
+		color: #111827;
+	}
+
+	.gsc-badge.done {
+		background: color-mix(in srgb, var(--news) 12%, transparent);
+		border-color: color-mix(in srgb, var(--news) 30%, transparent);
+		color: var(--news);
+		opacity: 0.85;
+	}
+	.gsc-badge.done:hover {
+		opacity: 1;
+		background: color-mix(in srgb, var(--news) 25%, transparent);
+	}
+
+	.gsc-pulse {
+		width: 6px;
+		height: 6px;
+		border-radius: 50%;
+		background: #f59e0b;
+		animation: gsc-pulse-anim 1.8s infinite ease-in-out;
+	}
+
+	@keyframes gsc-pulse-anim {
+		0% { transform: scale(0.95); box-shadow: 0 0 0 0 color-mix(in srgb, #f59e0b 70%, transparent); }
+		70% { transform: scale(1.15); box-shadow: 0 0 0 5px color-mix(in srgb, #f59e0b 0%, transparent); }
+		100% { transform: scale(0.95); box-shadow: 0 0 0 0 color-mix(in srgb, #f59e0b 0%, transparent); }
+	}
 
 	.graph-panel, .card, .silo, .source { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
 	.graph-panel { margin-bottom: 26px; }
