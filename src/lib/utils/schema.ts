@@ -413,12 +413,19 @@ export function buildArticleSchema(post: {
 		'dateModified': toIso8601WithOffset(post.dateModified || post.datePublished),
 		'inLanguage': 'en',
 		'image': imageNode,
-		// Cuando hay authorUrl, referenciar el nodo Person canónico por @id (mismo patrón que
-		// publisher/#organization) en vez de redefinirlo: cada post del mismo autor debe apuntar
-		// al MISMO nodo, no a copias ligeramente distintas. El nodo se define una sola vez, en la
-		// página que authorUrl señala, vía buildPersonSchema().
+		// Cuando hay authorUrl, el @id sigue apuntando al nodo Person canonico (mismo patron que
+		// publisher/#organization: todos los posts del mismo autor comparten un solo @id, asi
+		// Google puede fusionarlos en una sola entidad). A diferencia de publisher, Google evalua
+		// el structured data de cada documento por separado para elegibilidad de rich results y
+		// NO va a buscar otra pagina para resolver un @id - por eso name/url tambien van inline
+		// aca, ademas de estar definidos en la pagina que authorUrl senala via buildPersonSchema().
 		'author': post.authorUrl
-			? { '@id': `${post.authorUrl}#person` }
+			? {
+					'@id': `${post.authorUrl}#person`,
+					'@type': 'Person',
+					'name': post.authorName,
+					'url': post.authorUrl
+				}
 			: { '@type': 'Person', 'name': post.authorName },
 		// Referencia al nodo canónico de la organización (#organization, emitido por el layout
 		// público vía buildLocalBusinessSchema con name+logo+address). Consolidar por @id evita
