@@ -12,23 +12,39 @@
 import { byUpdatedAsc, dateOnly, type SiloChild } from '$lib/data/site-map';
 
 export type GscTier = 0 | 1 | 2;
+export const GSC_ELIGIBLE_WINDOW_DAYS = 7;
 
 /**
- * 0 = updated and not (yet) marked handled since that update -> needs GSC attention.
- * 1 = never updated -> no signal either way.
- * 2 = updated and already marked handled since that update.
+ * 0 = updated recently (within windowDays, default 7 days) and not (yet) marked handled since that update -> needs GSC attention.
+ * 1 = never updated OR updated outside recency window -> no signal / normal.
+ * 2 = updated recently and already marked handled since that update.
  */
-export function gscTier(kid: SiloChild, gscMarked: Record<string, string>): GscTier {
+export function gscTier(
+	kid: SiloChild,
+	gscMarked: Record<string, string>,
+	now: Date = new Date(),
+	windowDays: number = GSC_ELIGIBLE_WINDOW_DAYS
+): GscTier {
 	if (!kid.updated) return 1;
+
+	const updatedAt = dateOnly(kid.updated);
+	const ageMs = now.getTime() - new Date(`${updatedAt}T00:00:00Z`).getTime();
+	const withinWindow = ageMs <= windowDays * 24 * 60 * 60 * 1000;
+	if (!withinWindow) return 1;
+
 	const markedAt = gscMarked[kid.url];
-	if (!markedAt || dateOnly(markedAt) < dateOnly(kid.updated)) return 0;
+	if (!markedAt || dateOnly(markedAt) < updatedAt) return 0;
 	return 2;
 }
 
 /** Sorts by GSC tier first, falling back to the same date order used at build time. */
-export function byGscTier(gscMarked: Record<string, string>) {
+export function byGscTier(
+	gscMarked: Record<string, string>,
+	now: Date = new Date(),
+	windowDays: number = GSC_ELIGIBLE_WINDOW_DAYS
+) {
 	return (a: SiloChild, b: SiloChild): number => {
-		const diff = gscTier(a, gscMarked) - gscTier(b, gscMarked);
+		const diff = gscTier(a, gscMarked, now, windowDays) - gscTier(b, gscMarked, now, windowDays);
 		if (diff !== 0) return diff;
 		return byUpdatedAsc(a, b);
 	};

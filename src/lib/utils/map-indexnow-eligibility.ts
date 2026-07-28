@@ -9,7 +9,7 @@
  */
 import { dateOnly } from '$lib/data/site-map';
 
-export const INDEXNOW_ELIGIBLE_WINDOW_DAYS = 3;
+export const INDEXNOW_ELIGIBLE_WINDOW_DAYS = 7;
 
 export function needsIndexNow(
 	now: Date,
