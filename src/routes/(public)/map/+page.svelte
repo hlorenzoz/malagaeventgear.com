@@ -138,10 +138,10 @@
 		return list;
 	});
 
-	let notification = $state<{ type: 'success' | 'error'; message: string } | null>(null);
+	let notification = $state<{ type: 'success' | 'info' | 'error'; message: string } | null>(null);
 	let notifTimer: ReturnType<typeof setTimeout>;
 
-	function showNotification(type: 'success' | 'error', message: string) {
+	function showNotification(type: 'success' | 'info' | 'error', message: string) {
 		notification = { type, message };
 		clearTimeout(notifTimer);
 		notifTimer = setTimeout(() => {
@@ -383,6 +383,8 @@
 		<div class="notif-banner {notification.type}" role="alert">
 			{#if notification.type === 'success'}
 				<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>
+			{:else if notification.type === 'info'}
+				<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10" /><path d="M12 16v-4" /><path d="M12 8h.01" /></svg>
 			{:else}
 				<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10" /><path d="m15 9-6 6" /><path d="m9 9 6 6" /></svg>
 			{/if}
@@ -749,6 +751,11 @@
 		background: color-mix(in srgb, var(--news) 20%, transparent);
 		border: 1px solid var(--news);
 		color: var(--news);
+	}
+	.notif-banner.info {
+		background: color-mix(in srgb, var(--blue) 20%, transparent);
+		border: 1px solid var(--blue);
+		color: var(--blue);
 	}
 	.notif-banner.error {
 		background: color-mix(in srgb, #ef4444 20%, transparent);
