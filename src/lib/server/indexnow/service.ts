@@ -42,10 +42,7 @@ export async function submitIndexNowUrl(params: SubmitIndexNowParams): Promise<S
 		contentUpdatedAt,
 		items,
 		key,
-		host,
-		ip,
-		rateLimitMax = DEFAULT_RATE_LIMIT_MAX,
-		rateLimitWindowSecs = DEFAULT_RATE_LIMIT_WINDOW_SECS
+		host
 	} = params;
 
 	const itemList: IndexNowItem[] =
@@ -57,16 +54,6 @@ export async function submitIndexNowUrl(params: SubmitIndexNowParams): Promise<S
 
 	if (itemList.length === 0) {
 		return { ok: true, submittedCount: 0 };
-	}
-
-	if (db) {
-		const recentCount = await countRecentIndexNowRequestsByIP(db, ip, rateLimitWindowSecs);
-		if (recentCount >= rateLimitMax) {
-			return { ok: false, error: 'rate_limited' };
-		}
-		// Log the attempt BEFORE calling the external API, so every request that reaches this
-		// point counts toward the limit regardless of what IndexNow itself does with it.
-		await insertIndexNowRequest(db, ip);
 	}
 
 	const urls = itemList.map((item) => item.url);
