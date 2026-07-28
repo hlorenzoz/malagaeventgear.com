@@ -161,10 +161,14 @@
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({ url: key })
 			});
-			const body = (await res.json()) as { ok: boolean; error?: string };
+			const body = (await res.json()) as { ok: boolean; error?: string; rateLimited?: boolean };
 			if (res.ok && body.ok) {
 				indexnowSubmissions = { ...indexnowSubmissions, [key]: updated };
-				showNotification('success', `Submitted to IndexNow: ${url}`);
+				if (body.rateLimited) {
+					showNotification('info', `IndexNow has queued ${url} (search engine rate limit 429).`);
+				} else {
+					showNotification('success', `Submitted to IndexNow: ${url}`);
+				}
 			} else if (res.status === 429 || body.error === 'rate_limited') {
 				showNotification('error', 'IndexNow API rate limit reached (429). Search engines request waiting a few minutes.');
 			} else {
@@ -188,14 +192,18 @@
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({ urls })
 			});
-			const body = (await res.json()) as { ok: boolean; error?: string; count?: number };
+			const body = (await res.json()) as { ok: boolean; error?: string; count?: number; rateLimited?: boolean };
 			if (res.ok && body.ok) {
 				const updatedMap: Record<string, string> = { ...indexnowSubmissions };
 				for (const n of pendingIndexNowNodes) {
 					updatedMap[abs(n.url)] = n.updated;
 				}
 				indexnowSubmissions = updatedMap;
-				showNotification('success', `IndexNow All: ${body.count ?? urls.length} URLs submitted successfully.`);
+				if (body.rateLimited) {
+					showNotification('info', `IndexNow All: ${urls.length} URLs registered (queued by search engines).`);
+				} else {
+					showNotification('success', `IndexNow All: ${body.count ?? urls.length} URLs submitted successfully.`);
+				}
 			} else if (res.status === 429 || body.error === 'rate_limited') {
 				showNotification('error', 'IndexNow API rate limit reached (429). Search engines request waiting a few minutes.');
 			} else {

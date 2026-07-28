@@ -50,7 +50,7 @@ describe('submitIndexNowUrl — happy path', () => {
 
 		const result = await submitIndexNowUrl(baseParams());
 
-		expect(result).toEqual({ ok: true, submittedCount: 1 });
+		expect(result).toEqual({ ok: true, submittedCount: 1, rateLimited: false });
 		expect(submitToIndexNow).toHaveBeenCalledWith({
 			urls: ['https://malagaeventgear.com/blog/audio-visual-rental/'],
 			key: 'test-key',
@@ -80,7 +80,7 @@ describe('submitIndexNowUrl — happy path', () => {
 			ip: '203.0.113.10'
 		});
 
-		expect(result).toEqual({ ok: true, submittedCount: 2 });
+		expect(result).toEqual({ ok: true, submittedCount: 2, rateLimited: false });
 		expect(submitToIndexNow).toHaveBeenCalledWith({
 			urls: [
 				'https://malagaeventgear.com/blog/audio-visual-rental/',
@@ -91,10 +91,24 @@ describe('submitIndexNowUrl — happy path', () => {
 		});
 		expect(upsertIndexNowSubmission).toHaveBeenCalledTimes(2);
 	});
+
+	it('treats IndexNow 429 as queued, updating D1 submissions with rateLimited: true', async () => {
+		vi.mocked(submitToIndexNow).mockRejectedValueOnce(new IndexNowError(429));
+
+		const result = await submitIndexNowUrl(baseParams());
+
+		expect(result).toEqual({ ok: true, submittedCount: 1, rateLimited: true });
+		expect(upsertIndexNowSubmission).toHaveBeenCalledWith(
+			mockDB,
+			'https://malagaeventgear.com/blog/audio-visual-rental/',
+			expect.any(String),
+			'2026-07-24'
+		);
+	});
 });
 
 describe('submitIndexNowUrl — IndexNow rejection', () => {
-	it('returns indexnow-rejected with the upstream status, and does not upsert', async () => {
+	it('returns indexnow-rejected with the upstream status, and does not upsert for non-429 errors', async () => {
 		vi.mocked(submitToIndexNow).mockRejectedValueOnce(new IndexNowError(422));
 
 		const result = await submitIndexNowUrl(baseParams());
