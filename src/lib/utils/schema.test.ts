@@ -99,16 +99,21 @@ describe('buildArticleSchema', () => {
 		expect(schema['mainEntityOfPage']).toMatchObject({ '@type': 'WebPage' });
 	});
 
-	it('references the canonical Person node by @id when authorUrl is provided, instead of redefining it', () => {
+	it('references the canonical Person node by @id when authorUrl is provided, while staying self-contained', () => {
 		const schema = buildArticleSchema({
 			...basePost,
 			authorUrl: `${siteConfig.url}/blog/author/hector-luis-lorenzo/`,
 		});
-		// Entity-graph consolidation (same pattern as publisher/#organization): the article
-		// references the Person by @id rather than redefining name/url inline, so every post
-		// by this author points at ONE canonical node instead of N slightly-different copies.
+		// Entity-graph consolidation (same pattern as publisher/#organization): every post by
+		// this author points at the SAME @id, so Google can merge them into one entity. But
+		// unlike publisher, Google evaluates each document's structured data independently for
+		// rich-result eligibility and does not fetch other pages to resolve an @id reference -
+		// so author.name must ALSO be inline here, not only defined on the /blog/author/ page.
 		expect(schema['author']).toEqual({
 			'@id': `${siteConfig.url}/blog/author/hector-luis-lorenzo/#person`,
+			'@type': 'Person',
+			'name': 'Hector Luis Lorenzo',
+			'url': `${siteConfig.url}/blog/author/hector-luis-lorenzo/`,
 		});
 	});
 
