@@ -16,7 +16,7 @@ export interface IndexNowItem {
 }
 
 export interface SubmitIndexNowParams {
-	db: D1Database;
+	db?: D1Database | null;
 	url?: string;
 	contentUpdatedAt?: string;
 	items?: IndexNowItem[];
@@ -59,13 +59,15 @@ export async function submitIndexNowUrl(params: SubmitIndexNowParams): Promise<S
 		return { ok: true, submittedCount: 0 };
 	}
 
-	const recentCount = await countRecentIndexNowRequestsByIP(db, ip, rateLimitWindowSecs);
-	if (recentCount >= rateLimitMax) {
-		return { ok: false, error: 'rate_limited' };
+	if (db) {
+		const recentCount = await countRecentIndexNowRequestsByIP(db, ip, rateLimitWindowSecs);
+		if (recentCount >= rateLimitMax) {
+			return { ok: false, error: 'rate_limited' };
+		}
+		// Log the attempt BEFORE calling the external API, so every request that reaches this
+		// point counts toward the limit regardless of what IndexNow itself does with it.
+		await insertIndexNowRequest(db, ip);
 	}
-	// Log the attempt BEFORE calling the external API, so every request that reaches this
-	// point counts toward the limit regardless of what IndexNow itself does with it.
-	await insertIndexNowRequest(db, ip);
 
 	const urls = itemList.map((item) => item.url);
 	try {
@@ -77,9 +79,11 @@ export async function submitIndexNowUrl(params: SubmitIndexNowParams): Promise<S
 		throw err;
 	}
 
-	const now = new Date().toISOString();
-	for (const item of itemList) {
-		await upsertIndexNowSubmission(db, item.url, now, item.contentUpdatedAt);
+	if (db) {
+		const now = new Date().toISOString();
+		for (const item of itemList) {
+			await upsertIndexNowSubmission(db, item.url, now, item.contentUpdatedAt);
+		}
 	}
 
 	return { ok: true, submittedCount: itemList.length };
