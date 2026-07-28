@@ -32,19 +32,45 @@ export async function submitToIndexNow(params: IndexNowSubmitParams): Promise<vo
 		throw new Error('No URLs provided for IndexNow submission');
 	}
 
-	const response = await fetchFn('https://api.indexnow.org/indexnow', {
-		method: 'POST',
-		headers: { 'Content-Type': 'application/json; charset=utf-8' },
-		body: JSON.stringify({
-			host,
-			key,
-			keyLocation: `https://${host}/${key}.txt`,
-			urlList
-		})
+	const payload = JSON.stringify({
+		host,
+		key,
+		keyLocation: `https://${host}/${key}.txt`,
+		urlList
 	});
 
-	// IndexNow returns 200 or 202 on success.
-	if (!response.ok) {
-		throw new IndexNowError(response.status);
+	const headers = {
+		'Content-Type': 'application/json; charset=utf-8',
+		'User-Agent': `MalagaEventGear/1.0 (+https://${host})`
+	};
+
+	const endpoints = [
+		'https://api.indexnow.org/indexnow',
+		'https://www.bing.com/indexnow'
+	];
+
+	let lastStatus = 500;
+	for (const endpoint of endpoints) {
+		try {
+			const response = await fetchFn(endpoint, {
+				method: 'POST',
+				headers,
+				body: payload
+			});
+
+			// IndexNow returns 200 or 202 on success.
+			if (response.ok) {
+				return;
+			}
+			lastStatus = response.status;
+			// Retry next endpoint if rate limited (429) or temporary server error (5xx)
+			if (response.status !== 429 && response.status < 500) {
+				break;
+			}
+		} catch {
+			// Network error trying endpoint — continue to fallback
+		}
 	}
+
+	throw new IndexNowError(lastStatus);
 }

@@ -166,7 +166,7 @@
 				indexnowSubmissions = { ...indexnowSubmissions, [key]: updated };
 				showNotification('success', `Submitted to IndexNow: ${url}`);
 			} else if (res.status === 429 || body.error === 'rate_limited') {
-				showNotification('error', 'Rate limit reached (429). Please wait a few minutes or use IndexNow All.');
+				showNotification('error', 'IndexNow API rate limit reached (429). Search engines request waiting a few minutes.');
 			} else {
 				showNotification('error', `IndexNow error (${res.status}): ${body.error ?? 'rejected'}`);
 			}
@@ -197,7 +197,7 @@
 				indexnowSubmissions = updatedMap;
 				showNotification('success', `IndexNow All: ${body.count ?? urls.length} URLs submitted successfully.`);
 			} else if (res.status === 429 || body.error === 'rate_limited') {
-				showNotification('error', 'Rate limit reached (429). Please wait a few minutes.');
+				showNotification('error', 'IndexNow API rate limit reached (429). Search engines request waiting a few minutes.');
 			} else {
 				showNotification('error', `IndexNow All error (${res.status}): ${body.error ?? 'rejected'}`);
 			}
