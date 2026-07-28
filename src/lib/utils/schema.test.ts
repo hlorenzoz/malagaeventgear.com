@@ -3,7 +3,7 @@
  * Covers: buildArticleSchema extensions + buildFAQSchema.
  */
 import { describe, it, expect } from 'vitest';
-import { buildArticleSchema, buildFAQSchema, buildServiceSchema, buildServiceListSchema, toIso8601WithOffset, buildBreadcrumbsSchema } from './schema';
+import { buildArticleSchema, buildFAQSchema, buildServiceSchema, buildServiceListSchema, toIso8601WithOffset, buildBreadcrumbsSchema, buildPersonSchema } from './schema';
 import { siteConfig } from '../data/site';
 
 const basePost = {
@@ -97,6 +97,49 @@ describe('buildArticleSchema', () => {
 		// publisher references the canonical #organization node by @id (entity-graph consolidation).
 		expect(schema['publisher']).toEqual({ '@id': `${siteConfig.url}/#organization` });
 		expect(schema['mainEntityOfPage']).toMatchObject({ '@type': 'WebPage' });
+	});
+
+	it('references the canonical Person node by @id when authorUrl is provided, instead of redefining it', () => {
+		const schema = buildArticleSchema({
+			...basePost,
+			authorUrl: `${siteConfig.url}/blog/author/hector-luis-lorenzo/`,
+		});
+		// Entity-graph consolidation (same pattern as publisher/#organization): the article
+		// references the Person by @id rather than redefining name/url inline, so every post
+		// by this author points at ONE canonical node instead of N slightly-different copies.
+		expect(schema['author']).toEqual({
+			'@id': `${siteConfig.url}/blog/author/hector-luis-lorenzo/#person`,
+		});
+	});
+
+	it('falls back to an inline Person (no @id) when authorUrl is not provided', () => {
+		const schema = buildArticleSchema(basePost);
+		expect(schema['author']).toEqual({ '@type': 'Person', name: 'Hector Luis Lorenzo' });
+	});
+});
+
+describe('buildPersonSchema', () => {
+	const url = 'https://malagaeventgear.com/blog/author/hector-luis-lorenzo/';
+
+	it('derives @id as url + #person, so every caller pointing at the same url produces the same node', () => {
+		const schema = buildPersonSchema({ name: 'Hector Luis Lorenzo', url });
+		expect(schema['@id']).toBe(`${url}#person`);
+		expect(schema['@type']).toBe('Person');
+		expect(schema['name']).toBe('Hector Luis Lorenzo');
+		expect(schema['url']).toBe(url);
+	});
+
+	it('references the canonical #organization node by @id for worksFor, never redefining it', () => {
+		const schema = buildPersonSchema({ name: 'Hector Luis Lorenzo', url });
+		expect(schema['worksFor']).toEqual({ '@id': `${siteConfig.url}/#organization` });
+	});
+
+	it('includes description only when provided', () => {
+		const withDescription = buildPersonSchema({ name: 'Hector Luis Lorenzo', url, description: 'SEO specialist.' });
+		expect(withDescription['description']).toBe('SEO specialist.');
+
+		const withoutDescription = buildPersonSchema({ name: 'Hector Luis Lorenzo', url });
+		expect(withoutDescription).not.toHaveProperty('description');
 	});
 });
 

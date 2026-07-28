@@ -2,6 +2,7 @@
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
 	import { i18n } from '$lib/i18n.svelte';
 	import { slugify } from '$lib/utils/slugify';
+	import { buildPersonSchema } from '$lib/utils/schema';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -30,6 +31,16 @@
 		'numberOfItems': posts.length
 	});
 
+	// This page IS the canonical Person node for the author (its own url is what every
+	// BlogPosting.author reference points at via buildArticleSchema). Defining it here, once,
+	// is what lets meet-the-team/ point at the SAME @id instead of a second, unlinked node.
+	// '@context' added here (not inside buildPersonSchema) because THIS array item renders as
+	// its own top-level <script> tag, unlike meet-the-team's usage nested inside one @graph.
+	let personSchema = $derived({
+		'@context': 'https://schema.org',
+		...buildPersonSchema({ name: authorName, url: canonicalUrl })
+	});
+
 	function formatDate(dateStr: string): string {
 		try {
 			return new Date(dateStr).toLocaleDateString(i18n.lang === 'es' ? 'es-ES' : 'en-GB', {
@@ -51,7 +62,7 @@
 		? `All blog posts by ${authorName} at Malaga Event Gear.`
 		: `Todos los artículos de ${authorName} en el blog de Malaga Event Gear.`}
 	{canonicalUrl}
-	jsonLdSchema={collectionSchema}
+	jsonLdSchema={[collectionSchema, personSchema]}
 />
 
 <!-- Author Heading -->

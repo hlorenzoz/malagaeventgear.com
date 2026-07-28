@@ -5,6 +5,19 @@
 	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
 	import { galleryImages } from '$lib/data/gallery';
 	import Testimonials from '$lib/components/testimonials/Testimonials.svelte';
+	import { buildPersonSchema } from '$lib/utils/schema';
+
+	// url points at /blog/author/hector-luis-lorenzo/, the page that OWNS this Person node
+	// (buildPersonSchema derives the same @id there via url + "#person"). Pointing this page's
+	// url anywhere else, or hand-writing a different @id here, is exactly the drift that left
+	// this node unreachable at a dead /author/... URL before this fix.
+	let personSchema = $derived(
+		buildPersonSchema({
+			name: 'Hector Luis Lorenzo',
+			url: 'https://malagaeventgear.com/blog/author/hector-luis-lorenzo/',
+			description: 'Hector Luis Lorenzo is a SEO specialist with more than two years of experience helping brands grow their online visibility. He is the co-founder of Malaga Event Gear.'
+		})
+	);
 
 	let teamSchema = $derived({
 		'@context': 'https://schema.org',
@@ -18,18 +31,7 @@
 					? 'Meet the team at Malaga Event Gear! Learn about our experienced team driving our professional service and seamless events in Malaga, Spain.'
 					: 'Conocé al equipo de Malaga Event Gear. Descubrí al equipo experimentado detrás de nuestro servicio profesional y montajes sin contratiempos.'
 			},
-			{
-				'@type': 'Person',
-				'@id': 'https://malagaeventgear.com/author/hector-luis-lorenzo/',
-				'name': 'Hector Luis Lorenzo',
-				'description': 'Hector Luis Lorenzo is a SEO specialist with more than two years of experience helping brands grow their online visibility. He is the co-founder of Malaga Event Gear.',
-				'url': 'https://malagaeventgear.com/author/hector-luis-lorenzo/',
-				'worksFor': {
-					'@type': 'LocalBusiness',
-					'@id': 'https://malagaeventgear.com/#organization',
-					'name': 'Malaga Event Gear'
-				}
-			}
+			personSchema
 		]
 	});
 </script>
@@ -126,7 +128,7 @@
 				</p>
 				<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
 					{i18n.lang === 'en'
-						? 'SEO specialist who applies his expertise to strengthen the company’s digital presence and attract clients through effective search engine driven strategies.'
+						? 'SEO specialist who applies his expertise to strengthen the company\'s digital presence and attract clients through effective search engine driven strategies.'
 						: 'Especialista en SEO que aplica su experiencia para fortalecer la presencia digital de la empresa y atraer clientes mediante estrategias de posicionamiento efectivas.'}
 				</p>
 				<div class="flex items-center gap-3">
