@@ -32,7 +32,7 @@ export type SubmitIndexNowResult =
 	| { ok: false; error: 'rate_limited' }
 	| { ok: false; error: 'indexnow-rejected'; status: number };
 
-const DEFAULT_RATE_LIMIT_MAX = 10;
+const DEFAULT_RATE_LIMIT_MAX = 60;
 const DEFAULT_RATE_LIMIT_WINDOW_SECS = 15 * 60;
 
 export async function submitIndexNowUrl(params: SubmitIndexNowParams): Promise<SubmitIndexNowResult> {
