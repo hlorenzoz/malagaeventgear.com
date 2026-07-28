@@ -79,6 +79,27 @@
 			filteredAuthors.length
 	);
 
+	function scrollToId(e: MouseEvent, id: string) {
+		e.preventDefault();
+		const el = document.getElementById(id);
+		if (el) {
+			el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+			history.pushState(null, '', `#${id}`);
+		}
+	}
+
+	function scrollToPendingGsc(e: MouseEvent) {
+		e.preventDefault();
+		const pendingEl = document.querySelector('.gsc-pending');
+		if (pendingEl) {
+			pendingEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+		} else {
+			const silosEl = document.getElementById('sec-silos');
+			if (silosEl) silosEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+		}
+		history.pushState(null, '', '#sec-silos');
+	}
+
 	// --- Mindmap Mermaid (carga diferida, sólo en esta ruta) ---
 	let graphEl: HTMLDivElement;
 	let graphState = $state<'loading' | 'ready' | 'error'>('loading');
@@ -373,18 +394,37 @@
 	</header>
 
 	<section class="stats" aria-label="Summary">
-		<div class="stat"><span class="rail rl-blue"></span><div class="n">{view.counts.pages}</div><div class="l">Pages</div></div>
-		<div class="stat"><span class="rail rl-blue"></span><div class="n">{view.counts.packages}</div><div class="l">Packages</div></div>
-		<div class="stat"><span class="rail rl-support"></span><div class="n">{view.counts.posts}</div><div class="l">Posts</div></div>
-		<div class="stat"><span class="rail rl-blue"></span><div class="n">{view.counts.pillars}</div><div class="l">Pillars</div></div>
-		<div class="stat"><span class="rail rl-support"></span><div class="n">{view.counts.supporting}</div><div class="l">Supporting</div></div>
-		<div class="stat"><span class="rail rl-news"></span><div class="n">{view.counts.news}</div><div class="l">News</div></div>
-		<div class="stat"><span class="rail rl-standalone"></span><div class="n">{view.counts.standalone}</div><div class="l">Standalone</div></div>
-		<div class="stat gsc-stat" class:active={pendingGscCount > 0}>
+		<a href="#sec-pages" class="stat" onclick={(e) => scrollToId(e, 'sec-pages')}>
+			<span class="rail rl-blue"></span><div class="n">{view.counts.pages}</div><div class="l">Pages</div>
+		</a>
+		<a href="#sec-packages" class="stat" onclick={(e) => scrollToId(e, 'sec-packages')}>
+			<span class="rail rl-blue"></span><div class="n">{view.counts.packages}</div><div class="l">Packages</div>
+		</a>
+		<a href="#sec-silos" class="stat" onclick={(e) => scrollToId(e, 'sec-silos')}>
+			<span class="rail rl-support"></span><div class="n">{view.counts.posts}</div><div class="l">Posts</div>
+		</a>
+		<a href="#sec-silos" class="stat" onclick={(e) => scrollToId(e, 'sec-silos')}>
+			<span class="rail rl-blue"></span><div class="n">{view.counts.pillars}</div><div class="l">Pillars</div>
+		</a>
+		<a href="#sec-silos" class="stat" onclick={(e) => scrollToId(e, 'sec-silos')}>
+			<span class="rail rl-support"></span><div class="n">{view.counts.supporting}</div><div class="l">Supporting</div>
+		</a>
+		<a href="#sec-news" class="stat" onclick={(e) => scrollToId(e, 'sec-news')}>
+			<span class="rail rl-news"></span><div class="n">{view.counts.news}</div><div class="l">News</div>
+		</a>
+		<a href="#sec-standalone" class="stat" onclick={(e) => scrollToId(e, 'sec-standalone')}>
+			<span class="rail rl-standalone"></span><div class="n">{view.counts.standalone}</div><div class="l">Standalone</div>
+		</a>
+		<a
+			href="#sec-silos"
+			class="stat gsc-stat"
+			class:active={pendingGscCount > 0}
+			onclick={scrollToPendingGsc}
+		>
 			<span class="rail rl-amber"></span>
 			<div class="n">{pendingGscCount}</div>
 			<div class="l">Pending GSC</div>
-		</div>
+		</a>
 	</section>
 
 	<!-- El grafo: mindmap Mermaid -->
@@ -437,7 +477,7 @@
 	</div>
 
 	<!-- Blog reverse silo -->
-	<section class="silos">
+	<section class="silos" id="sec-silos">
 		{#each filteredSilos as silo (silo.url)}
 			{@const pendingInSilo = silo.kids.filter((k) => gscTier(k, gscMarked) === 0).length}
 			<div class="silo">
@@ -523,7 +563,7 @@
 
 	<!-- Pages + Packages -->
 	<div class="cols">
-		<section class="card">
+		<section class="card" id="sec-pages">
 			<div class="card-head"><span class="dot blue"></span><h2>Site pages</h2></div>
 			<ul class="flat">
 				{#each filteredCore as p (p.url)}
@@ -540,7 +580,7 @@
 			{/if}
 		</section>
 
-		<section class="card">
+		<section class="card" id="sec-packages">
 			<div class="card-head"><span class="dot blue"></span><h2>Packages</h2></div>
 			<ul class="flat">
 				{#each filteredPackages as pk (pk.url)}
@@ -552,7 +592,7 @@
 
 	<!-- News + Standalone -->
 	<div class="cols">
-		<section class="card">
+		<section class="card" id="sec-news">
 			<div class="card-head"><span class="dot news"></span><h2>News</h2><span class="sub">targets home</span></div>
 			<ul class="flat">
 				{#each filteredNews as p (p.url)}
@@ -561,7 +601,7 @@
 			</ul>
 		</section>
 
-		<section class="card">
+		<section class="card" id="sec-standalone">
 			<div class="card-head"><span class="dot standalone"></span><h2>Standalone</h2><span class="sub">not in any silo</span></div>
 			<ul class="flat">
 				{#each filteredStandalone as p (p.url)}
@@ -640,8 +680,33 @@
 	h1 { font-size: clamp(30px, 5vw, 44px); margin: 0 0 12px; letter-spacing: -0.02em; text-wrap: balance; }
 	.lede { color: var(--ink-dim); max-width: 66ch; margin: 0; font-size: 15.5px; line-height: 1.55; }
 
+	.card, .silos { scroll-margin-top: 24px; }
 	.stats { display: grid; grid-template-columns: repeat(8, 1fr); gap: 10px; margin: 34px 0 26px; }
-	.stat { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 14px 12px; position: relative; overflow: hidden; }
+	.stat {
+		background: var(--panel);
+		border: 1px solid var(--line);
+		border-radius: 12px;
+		padding: 14px 14px 12px;
+		position: relative;
+		overflow: hidden;
+		display: block;
+		text-decoration: none;
+		color: inherit;
+		cursor: pointer;
+		transition: transform 0.15s ease, border-color 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+	}
+	.stat:hover {
+		border-color: var(--ink-faint);
+		background: var(--panel-2);
+		transform: translateY(-2px);
+	}
+	.stat:active {
+		transform: translateY(0);
+	}
+	.stat:focus-visible {
+		outline: 2px solid var(--blue);
+		outline-offset: 2px;
+	}
 	.stat .n { font-size: 30px; font-weight: 640; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; line-height: 1; }
 	.stat .l { font-size: 11px; color: var(--ink-dim); margin-top: 6px; letter-spacing: 0.04em; text-transform: uppercase; }
 	.rail { position: absolute; left: 0; top: 0; bottom: 0; width: 3px; }
@@ -650,6 +715,10 @@
 	.stat.gsc-stat.active {
 		border-color: color-mix(in srgb, #f59e0b 35%, var(--line));
 		background: color-mix(in srgb, #f59e0b 7%, var(--panel));
+	}
+	.stat.gsc-stat.active:hover {
+		border-color: #f59e0b;
+		background: color-mix(in srgb, #f59e0b 14%, var(--panel));
 	}
 	.stat.gsc-stat.active .n {
 		color: #f59e0b;
