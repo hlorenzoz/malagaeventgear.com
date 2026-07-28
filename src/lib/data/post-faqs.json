@@ -907,40 +907,16 @@
   ],
   "indoor-wedding-rental-essentials": [
     {
-      "question": "What is the most rented wedding item?",
-      "answer": "At Malaga Event Gear (MEG), the most rented wedding item is typically high quality audio visual equipment. This includes:\n\nSound Systems  \nProjectors  \nLED Screens\n\nThese items are crucial for delivering a memorable and engaging experience at any wedding celebration."
+      "question": "How does indoor wedding sound differ from outdoor?",
+      "answer": "Walls and hard surfaces reflect sound indoors, so an indoor PA is tuned to fill the room rather than project across open space the way an outdoor PA has to. Ceiling height and room shape also change how sound reflects, which is why our technician places speakers for the specific room rather than one fixed layout."
     },
     {
-      "question": "What is the 30 5 rule for weddings?",
-      "answer": "The 30/5 rule is a useful guideline for wedding planning, suggesting that guests should travel no more than 30 minutes to reach the venue and no more than 5 minutes from the ceremony to the reception. This ensures a smooth experience and helps maintain the energy and excitement of the event."
+      "question": "Is a live technician necessary indoors, or can I self run the sound?",
+      "answer": "For a smaller indoor ceremony, up to 50 guests, the Eco Pack is delivered, installed and tested by our crew, then run without a technician. For a larger hall, or a room whose layout only becomes clear on the day, the Wedding Pack's live technician adjusts sound and lighting as the event unfolds."
     },
     {
-      "question": "Is $5000 enough for a wedding?",
-      "answer": "A $5000 budget can be sufficient for a wedding, depending on your priorities and choices. Here are some tips to stay within this budget:\n\nLimit the guest list to a small, intimate gathering  \nChoose a non traditional venue, such as a community hall or a garden  \nOpt for DIY decorations and floral arrangements  \nRent essential AV equipment from MEG to provide quality sound and visuals\n\nWith careful planning, it’s possible to have a beautiful and memorable wedding on a modest budget."
-    },
-    {
-      "question": "What supplies do I need for a wedding?",
-      "answer": "Here is a basic checklist of supplies you’ll need for a wedding:\n\nVenue rental agreement  \nCeremony decor and seating  \nReception tables and chairs  \nLinens, tableware, and centerpieces  \nSound and lighting equipment (consider renting from MEG)  \nPhotography and videography services\n\nCustomizing your list based on your preferences and budget can help you prioritize what’s most important for your special day."
-    },
-    {
-      "question": "What are the essential elements for planning an indoor wedding in Malaga?",
-      "answer": "Planning an indoor wedding requires a focus on elegant lighting solutions, high quality audiovisual equipment, and strategic seating arrangements. These elements ensure a magical atmosphere and a seamless celebration."
-    },
-    {
-      "question": "What lighting options can elevate the wedding venue?",
-      "answer": "Dynamic lighting solutions, such as uplighting and pin spot lighting, are crucial. They can highlight architectural details, create intimate spaces, and adapt to your event’s mood and theme."
-    },
-    {
-      "question": "How does Malaga Event Gear support wedding planning?",
-      "answer": "Malaga Event Gear (MEG) offers a comprehensive range of rental items, including audiovisual equipment and elegant furniture, ensuring a seamless and memorable wedding experience tailored to your vision."
-    },
-    {
-      "question": "Why is strategic seating important in a wedding?",
-      "answer": "Strategically arranged seating maximizes guest comfort and enhances the aesthetic appeal of the venue. It promotes better interaction among guests and complements the overall wedding theme."
-    },
-    {
-      "question": "How can couples ensure their wedding decor reflects their personal style?",
-      "answer": "By selecting rental items such as linen, furniture, and lighting that align with their chosen color palette and theme, couples can ensure their personal style shines through in every aspect of the decor."
+      "question": "Does a room's acoustics affect microphone feedback?",
+      "answer": "Yes. A hall with hard floors and high ceilings reflects more sound back into open microphones than a carpeted room with soft furnishings, raising the risk of feedback if placement is not adjusted for the room. Our live technician manages that placement throughout the event as part of the Wedding Pack."
     }
   ],
   "how-to-customize-av-rental-packages": [
@@ -1728,7 +1704,7 @@
     },
     {
       "question": "What's different about planning AV for an outdoor wedding versus an indoor one?",
-      "answer": "Four things: sound projects across open space instead of filling a room with walls to reflect off, venue power needs confirming since we do not stock generators, many fincas and villas set a curfew on amplified sound that an indoor venue may not, and equipment placement has to account for wind and ground surface rather than a fixed indoor layout."
+      "answer": "Four things: sound projects across open space instead of filling a room with walls to reflect off, venue power needs confirming since we do not stock generators, many fincas and villas set a curfew on amplified sound that an indoor venue may not, and equipment placement has to account for wind and ground surface rather than a fixed indoor layout. See our indoor wedding rental essentials guide for the room acoustics and lighting side of that comparison."
     }
   ],
   "eco-friendly-wedding-rental-options": [
