@@ -28,12 +28,9 @@ export interface SubmitIndexNowParams {
 }
 
 export type SubmitIndexNowResult =
-	| { ok: true; submittedCount: number }
+	| { ok: true; submittedCount: number; rateLimited?: boolean }
 	| { ok: false; error: 'rate_limited' }
 	| { ok: false; error: 'indexnow-rejected'; status: number };
-
-const DEFAULT_RATE_LIMIT_MAX = 60;
-const DEFAULT_RATE_LIMIT_WINDOW_SECS = 15 * 60;
 
 export async function submitIndexNowUrl(params: SubmitIndexNowParams): Promise<SubmitIndexNowResult> {
 	const {
@@ -57,13 +54,22 @@ export async function submitIndexNowUrl(params: SubmitIndexNowParams): Promise<S
 	}
 
 	const urls = itemList.map((item) => item.url);
+	let rateLimited = false;
+
 	try {
 		await submitToIndexNow({ urls, key, host });
 	} catch (err) {
 		if (err instanceof IndexNowError) {
-			return { ok: false, error: 'indexnow-rejected', status: err.status };
+			if (err.status === 429) {
+				// IndexNow API returns 429 when URLs for this host were already submitted recently and are queued for crawling.
+				// We treat this as queued/handled so D1 records the submission date and the map updates.
+				rateLimited = true;
+			} else {
+				return { ok: false, error: 'indexnow-rejected', status: err.status };
+			}
+		} else {
+			throw err;
 		}
-		throw err;
 	}
 
 	if (db) {
@@ -73,5 +79,5 @@ export async function submitIndexNowUrl(params: SubmitIndexNowParams): Promise<S
 		}
 	}
 
-	return { ok: true, submittedCount: itemList.length };
+	return { ok: true, submittedCount: itemList.length, rateLimited };
 }

@@ -135,7 +135,7 @@ export const POST: RequestHandler = async ({ request, platform, getClientAddress
 			);
 		}
 
-		return json({ ok: true, count: result.submittedCount }, { status: 200 });
+		return json({ ok: true, count: result.submittedCount, rateLimited: result.rateLimited ?? false }, { status: 200 });
 	} catch (err) {
 		console.error('[/api/indexnow] POST error:', err);
 		return json({ ok: false, error: 'internal' }, { status: 500 });
