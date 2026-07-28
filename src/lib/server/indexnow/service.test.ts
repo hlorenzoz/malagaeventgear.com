@@ -70,7 +70,7 @@ describe('submitIndexNowUrl — rate limiting', () => {
 
 		const result = await submitIndexNowUrl(baseParams({ rateLimitMax: 10 }));
 
-		expect(result).toEqual({ ok: true });
+		expect(result).toEqual({ ok: true, submittedCount: 1 });
 		expect(insertIndexNowRequest).toHaveBeenCalledWith(mockDB, '203.0.113.10');
 	});
 
@@ -100,9 +100,9 @@ describe('submitIndexNowUrl — happy path', () => {
 
 		const result = await submitIndexNowUrl(baseParams());
 
-		expect(result).toEqual({ ok: true });
+		expect(result).toEqual({ ok: true, submittedCount: 1 });
 		expect(submitToIndexNow).toHaveBeenCalledWith({
-			url: 'https://malagaeventgear.com/blog/audio-visual-rental/',
+			urls: ['https://malagaeventgear.com/blog/audio-visual-rental/'],
 			key: 'test-key',
 			host: 'malagaeventgear.com'
 		});
@@ -112,6 +112,35 @@ describe('submitIndexNowUrl — happy path', () => {
 			expect.any(String),
 			'2026-07-24'
 		);
+	});
+
+	it('supports batch submissions via items array', async () => {
+		vi.mocked(countRecentIndexNowRequestsByIP).mockResolvedValueOnce(0);
+		vi.mocked(submitToIndexNow).mockResolvedValueOnce(undefined);
+
+		const items = [
+			{ url: 'https://malagaeventgear.com/blog/audio-visual-rental/', contentUpdatedAt: '2026-07-24' },
+			{ url: 'https://malagaeventgear.com/packages/lighting/', contentUpdatedAt: '2026-07-25' }
+		];
+
+		const result = await submitIndexNowUrl({
+			db: mockDB,
+			items,
+			key: 'test-key',
+			host: 'malagaeventgear.com',
+			ip: '203.0.113.10'
+		});
+
+		expect(result).toEqual({ ok: true, submittedCount: 2 });
+		expect(submitToIndexNow).toHaveBeenCalledWith({
+			urls: [
+				'https://malagaeventgear.com/blog/audio-visual-rental/',
+				'https://malagaeventgear.com/packages/lighting/'
+			],
+			key: 'test-key',
+			host: 'malagaeventgear.com'
+		});
+		expect(upsertIndexNowSubmission).toHaveBeenCalledTimes(2);
 	});
 });
 

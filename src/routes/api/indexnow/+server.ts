@@ -38,7 +38,7 @@ function knownNodes(): Map<string, string | undefined> {
 		add(s.url, s.updated);
 		for (const k of s.kids) add(k.url, k.updated);
 	}
-	for (const p of view.standalone) add(p.url, p.updated);
+	for (const p of [...view.standalone, ...view.news]) add(p.url, p.updated);
 
 	return nodes;
 }
@@ -61,7 +61,7 @@ export const GET: RequestHandler = async ({ platform }) => {
 	}
 };
 
-export const POST: RequestHandler = async ({ request, platform }) => {
+export const POST: RequestHandler = async ({ request, platform, getClientAddress }) => {
 	try {
 		let body: unknown;
 		try {
@@ -78,21 +78,26 @@ export const POST: RequestHandler = async ({ request, platform }) => {
 			);
 		}
 
-		const { url } = parseResult.data;
+		const targetUrls =
+			'urls' in parseResult.data ? parseResult.data.urls : [parseResult.data.url];
 
 		// Abuse guard: /map has no auth, so refuse to submit anything that isn't a real,
 		// currently-known URL on this site — caps the blast radius to a finite allow-list.
 		const nodes = knownNodes();
-		if (!nodes.has(url)) {
-			return json({ ok: false, error: 'unknown-url' }, { status: 422 });
+		const items: Array<{ url: string; contentUpdatedAt: string }> = [];
+
+		for (const targetUrl of targetUrls) {
+			if (!nodes.has(targetUrl)) {
+				return json({ ok: false, error: 'unknown-url', url: targetUrl }, { status: 422 });
+			}
+			const rawUpdatedAt = nodes.get(targetUrl);
+			if (!rawUpdatedAt) {
+				return json({ ok: false, error: 'no-freshness-date', url: targetUrl }, { status: 422 });
+			}
+			// Normalize away the YAML unquoted-date gotcha (see site-map.ts dateOnly) before
+			// persisting, so every stored content_updated_at is a plain comparable YYYY-MM-DD.
+			items.push({ url: targetUrl, contentUpdatedAt: dateOnly(rawUpdatedAt) });
 		}
-		const rawUpdatedAt = nodes.get(url);
-		if (!rawUpdatedAt) {
-			return json({ ok: false, error: 'no-freshness-date' }, { status: 422 });
-		}
-		// Normalize away the YAML unquoted-date gotcha (see site-map.ts dateOnly) before
-		// persisting, so every stored content_updated_at is a plain comparable YYYY-MM-DD.
-		const contentUpdatedAt = dateOnly(rawUpdatedAt);
 
 		const key = platform?.env?.INDEXNOW_KEY;
 		if (!key) {
@@ -101,21 +106,28 @@ export const POST: RequestHandler = async ({ request, platform }) => {
 		}
 
 		const db = getDB(platform);
-		const ip = request.headers.get('CF-Connecting-IP') ?? 'unknown';
+		let ip = request.headers.get('CF-Connecting-IP');
+		if (!ip) {
+			try {
+				ip = getClientAddress();
+			} catch {
+				ip = '127.0.0.1';
+			}
+		}
+
 		const result = await submitIndexNowUrl({
 			db,
-			url,
+			items,
 			key,
 			host: new URL(siteConfig.url).host,
-			ip,
-			contentUpdatedAt
+			ip: ip || '127.0.0.1'
 		});
 
 		if (!result.ok) {
 			if (result.error === 'rate_limited') {
 				return json({ ok: false, error: 'rate_limited' }, { status: 429 });
 			}
-			console.error('[/api/indexnow] IndexNow rejected submission:', result.status, url);
+			console.error('[/api/indexnow] IndexNow rejected submission:', result.status, targetUrls);
 			// Relay IndexNow's own status (e.g. 429 rate-limited, 403 invalid key) instead of a
 			// blanket 502, so the Network tab shows the real upstream cause without digging into logs.
 			return json(
@@ -124,7 +136,7 @@ export const POST: RequestHandler = async ({ request, platform }) => {
 			);
 		}
 
-		return json({ ok: true }, { status: 200 });
+		return json({ ok: true, count: result.submittedCount }, { status: 200 });
 	} catch (err) {
 		console.error('[/api/indexnow] POST error:', err);
 		return json({ ok: false, error: 'internal' }, { status: 500 });
