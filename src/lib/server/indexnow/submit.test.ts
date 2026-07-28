@@ -44,6 +44,28 @@ describe('submitToIndexNow', () => {
 		).resolves.toBeUndefined();
 	});
 
+	it('supports batch submissions with urls: string[]', async () => {
+		mockFetch.mockResolvedValueOnce({ ok: true, status: 200 });
+
+		await submitToIndexNow({
+			urls: [
+				'https://malagaeventgear.com/blog/audio-visual-rental/',
+				'https://malagaeventgear.com/packages/lighting/'
+			],
+			key: 'abc-123',
+			host: 'malagaeventgear.com',
+			fetchFn: mockFetch
+		});
+
+		expect(mockFetch).toHaveBeenCalledOnce();
+		const [, init] = mockFetch.mock.calls[0];
+		const body = JSON.parse(init.body as string);
+		expect(body.urlList).toEqual([
+			'https://malagaeventgear.com/blog/audio-visual-rental/',
+			'https://malagaeventgear.com/packages/lighting/'
+		]);
+	});
+
 	it('throws IndexNowError on a non-ok response', async () => {
 		mockFetch.mockResolvedValueOnce({ ok: false, status: 422 });
 

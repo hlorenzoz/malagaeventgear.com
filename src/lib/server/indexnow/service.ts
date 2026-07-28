@@ -10,19 +10,25 @@ import {
 } from '$lib/server/db/queries';
 import { submitToIndexNow, IndexNowError } from './submit';
 
+export interface IndexNowItem {
+	url: string;
+	contentUpdatedAt: string;
+}
+
 export interface SubmitIndexNowParams {
 	db: D1Database;
-	url: string;
+	url?: string;
+	contentUpdatedAt?: string;
+	items?: IndexNowItem[];
 	key: string;
 	host: string;
 	ip: string;
-	contentUpdatedAt: string;
 	rateLimitMax?: number;
 	rateLimitWindowSecs?: number;
 }
 
 export type SubmitIndexNowResult =
-	| { ok: true }
+	| { ok: true; submittedCount: number }
 	| { ok: false; error: 'rate_limited' }
 	| { ok: false; error: 'indexnow-rejected'; status: number };
 
@@ -33,13 +39,25 @@ export async function submitIndexNowUrl(params: SubmitIndexNowParams): Promise<S
 	const {
 		db,
 		url,
+		contentUpdatedAt,
+		items,
 		key,
 		host,
 		ip,
-		contentUpdatedAt,
 		rateLimitMax = DEFAULT_RATE_LIMIT_MAX,
 		rateLimitWindowSecs = DEFAULT_RATE_LIMIT_WINDOW_SECS
 	} = params;
+
+	const itemList: IndexNowItem[] =
+		items && items.length > 0
+			? items
+			: url && contentUpdatedAt
+				? [{ url, contentUpdatedAt }]
+				: [];
+
+	if (itemList.length === 0) {
+		return { ok: true, submittedCount: 0 };
+	}
 
 	const recentCount = await countRecentIndexNowRequestsByIP(db, ip, rateLimitWindowSecs);
 	if (recentCount >= rateLimitMax) {
@@ -49,8 +67,9 @@ export async function submitIndexNowUrl(params: SubmitIndexNowParams): Promise<S
 	// point counts toward the limit regardless of what IndexNow itself does with it.
 	await insertIndexNowRequest(db, ip);
 
+	const urls = itemList.map((item) => item.url);
 	try {
-		await submitToIndexNow({ url, key, host });
+		await submitToIndexNow({ urls, key, host });
 	} catch (err) {
 		if (err instanceof IndexNowError) {
 			return { ok: false, error: 'indexnow-rejected', status: err.status };
@@ -59,7 +78,9 @@ export async function submitIndexNowUrl(params: SubmitIndexNowParams): Promise<S
 	}
 
 	const now = new Date().toISOString();
-	await upsertIndexNowSubmission(db, url, now, contentUpdatedAt);
+	for (const item of itemList) {
+		await upsertIndexNowSubmission(db, item.url, now, item.contentUpdatedAt);
+	}
 
-	return { ok: true };
+	return { ok: true, submittedCount: itemList.length };
 }

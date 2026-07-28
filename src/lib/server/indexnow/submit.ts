@@ -11,7 +11,8 @@
  */
 
 export interface IndexNowSubmitParams {
-	url: string;
+	url?: string;
+	urls?: string[];
 	key: string;
 	host: string;
 	fetchFn?: typeof fetch;
@@ -25,7 +26,11 @@ export class IndexNowError extends Error {
 }
 
 export async function submitToIndexNow(params: IndexNowSubmitParams): Promise<void> {
-	const { url, key, host, fetchFn = globalThis.fetch } = params;
+	const { url, urls, key, host, fetchFn = globalThis.fetch } = params;
+	const urlList = urls && urls.length > 0 ? urls : url ? [url] : [];
+	if (urlList.length === 0) {
+		throw new Error('No URLs provided for IndexNow submission');
+	}
 
 	const response = await fetchFn('https://api.indexnow.org/indexnow', {
 		method: 'POST',
@@ -34,7 +39,7 @@ export async function submitToIndexNow(params: IndexNowSubmitParams): Promise<vo
 			host,
 			key,
 			keyLocation: `https://${host}/${key}.txt`,
-			urlList: [url]
+			urlList
 		})
 	});
 

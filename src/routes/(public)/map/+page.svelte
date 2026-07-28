@@ -107,14 +107,51 @@
 		}
 	}
 
-	// --- IndexNow (Bing/Yandex) — botón por nodo con `updated`, D1 vía /api/indexnow ---
+	// --- IndexNow (Bing/Yandex) — botón por nodo y envío global Batch vía /api/indexnow ---
 	// url absoluta -> `contentUpdatedAt` de la última sumisión exitosa.
 	let indexnowSubmissions = $state<Record<string, string>>({});
 	function needsIndexNow(url: string, updated?: string): boolean {
 		return computeNeedsIndexNow(new Date(), updated, indexnowSubmissions[abs(url)]);
 	}
 
+	interface EligibleNode {
+		url: string;
+		updated: string;
+	}
+
+	let pendingIndexNowNodes = $derived.by(() => {
+		const list: EligibleNode[] = [];
+		const check = (url: string, updated?: string) => {
+			if (updated && needsIndexNow(url, updated)) {
+				list.push({ url, updated });
+			}
+		};
+
+		for (const p of [...view.corePages, ...view.legalPages, ...view.utilityPages]) check(p.url, p.updated);
+		for (const pk of view.packages) check(pk.url, pk.updated);
+		for (const s of view.silos) {
+			check(s.url, s.updated);
+			for (const k of s.kids) check(k.url, k.updated);
+		}
+		for (const p of [...view.standalone, ...view.news]) check(p.url, p.updated);
+
+		return list;
+	});
+
+	let notification = $state<{ type: 'success' | 'error'; message: string } | null>(null);
+	let notifTimer: ReturnType<typeof setTimeout>;
+
+	function showNotification(type: 'success' | 'error', message: string) {
+		notification = { type, message };
+		clearTimeout(notifTimer);
+		notifTimer = setTimeout(() => {
+			notification = null;
+		}, 6000);
+	}
+
 	let submitting = $state<string | null>(null);
+	let isBatchSubmitting = $state(false);
+
 	async function submitIndexNow(url: string, updated: string) {
 		const key = abs(url);
 		submitting = key;
@@ -124,13 +161,50 @@
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({ url: key })
 			});
-			if (res.ok) {
+			const body = (await res.json()) as { ok: boolean; error?: string };
+			if (res.ok && body.ok) {
 				indexnowSubmissions = { ...indexnowSubmissions, [key]: updated };
+				showNotification('success', `Submitted to IndexNow: ${url}`);
+			} else if (res.status === 429 || body.error === 'rate_limited') {
+				showNotification('error', 'Rate limit reached (429). Please wait a few minutes or use IndexNow All.');
+			} else {
+				showNotification('error', `IndexNow error (${res.status}): ${body.error ?? 'rejected'}`);
 			}
 		} catch {
-			// network error — button stays visible, user can retry
+			showNotification('error', 'Network error connecting to IndexNow API.');
 		} finally {
 			submitting = null;
+		}
+	}
+
+	async function submitIndexNowAll() {
+		if (pendingIndexNowNodes.length === 0 || isBatchSubmitting) return;
+		isBatchSubmitting = true;
+		const urls = pendingIndexNowNodes.map((n) => abs(n.url));
+
+		try {
+			const res = await fetch('/api/indexnow', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ urls })
+			});
+			const body = (await res.json()) as { ok: boolean; error?: string; count?: number };
+			if (res.ok && body.ok) {
+				const updatedMap: Record<string, string> = { ...indexnowSubmissions };
+				for (const n of pendingIndexNowNodes) {
+					updatedMap[abs(n.url)] = n.updated;
+				}
+				indexnowSubmissions = updatedMap;
+				showNotification('success', `IndexNow All: ${body.count ?? urls.length} URLs submitted successfully.`);
+			} else if (res.status === 429 || body.error === 'rate_limited') {
+				showNotification('error', 'Rate limit reached (429). Please wait a few minutes.');
+			} else {
+				showNotification('error', `IndexNow All error (${res.status}): ${body.error ?? 'rejected'}`);
+			}
+		} catch {
+			showNotification('error', 'Network error submitting IndexNow batch.');
+		} finally {
+			isBatchSubmitting = false;
 		}
 	}
 
@@ -297,11 +371,34 @@
 		</div>
 	</section>
 
+	{#if notification}
+		<div class="notif-banner {notification.type}" role="alert">
+			{#if notification.type === 'success'}
+				<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>
+			{:else}
+				<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10" /><path d="m15 9-6 6" /><path d="m9 9 6 6" /></svg>
+			{/if}
+			<span>{notification.message}</span>
+		</div>
+	{/if}
+
 	<div class="toolbar">
 		<div class="search">
 			<svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg>
 			<input type="search" placeholder="Filter every node by name…" bind:value={query} aria-label="Filter nodes" />
 		</div>
+		{#if pendingIndexNowNodes.length > 0}
+			<button
+				type="button"
+				class="indexnow-all-btn"
+				disabled={isBatchSubmitting}
+				onclick={submitIndexNowAll}
+				title="Submit all pending updated pages to IndexNow"
+			>
+				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13" /><path d="M22 2 15 22l-4-9-9-4 20-7Z" /></svg>
+				{isBatchSubmitting ? 'Submitting…' : `IndexNow All (${pendingIndexNowNodes.length})`}
+			</button>
+		{/if}
 		<span class="count-tag">{shownCount} shown</span>
 	</div>
 
@@ -600,4 +697,54 @@
 		.silos, .cols { grid-template-columns: 1fr; }
 	}
 	@media (prefers-reduced-motion: reduce) { .source .chev { transition: none; } }
+
+	.indexnow-all-btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 7px;
+		padding: 9px 14px;
+		border: 1px solid var(--blue);
+		border-radius: 10px;
+		background: color-mix(in srgb, var(--blue) 14%, transparent);
+		color: var(--blue);
+		cursor: pointer;
+		font-family: ui-monospace, monospace;
+		font-size: 12px;
+		font-weight: 600;
+		white-space: nowrap;
+		transition: all 0.15s ease;
+	}
+	.indexnow-all-btn:hover:not(:disabled) {
+		background: var(--blue);
+		color: #ffffff;
+	}
+	.indexnow-all-btn:disabled {
+		opacity: 0.5;
+		cursor: not-allowed;
+		border-color: var(--line);
+		color: var(--ink-dim);
+	}
+	.indexnow-all-btn svg { width: 14px; height: 14px; }
+
+	.notif-banner {
+		width: 100%;
+		padding: 10px 14px;
+		border-radius: 10px;
+		font-size: 13.5px;
+		font-family: ui-monospace, monospace;
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		margin-bottom: 12px;
+	}
+	.notif-banner.success {
+		background: color-mix(in srgb, var(--news) 20%, transparent);
+		border: 1px solid var(--news);
+		color: var(--news);
+	}
+	.notif-banner.error {
+		background: color-mix(in srgb, #ef4444 20%, transparent);
+		border: 1px solid #ef4444;
+		color: #f87171;
+	}
 </style>
