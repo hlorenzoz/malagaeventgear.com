@@ -80,6 +80,30 @@ export function buildWebSiteSchema(): Record<string, any> {
 }
 
 /**
+ * Genera el nodo Person canónico de un autor. Fuente única de verdad: cada llamador que pase
+ * la MISMA `url` produce el MISMO `@id` (`${url}#person`), así que la página que efectivamente
+ * vive en esa url (ej. /blog/author/<slug>/) y cualquier otra página que necesite mencionar al
+ * mismo autor (ej. /meet-the-team/) quedan consolidadas en un solo nodo del grafo, en vez de dos
+ * definiciones con `@id` distintos que Google no puede fusionar. Mismo patrón que
+ * buildLocalBusinessSchema/#organization: se define acá una vez, el resto referencia por `@id`
+ * (ver el uso de `author: { '@id': ... }` en buildArticleSchema).
+ */
+export function buildPersonSchema(params: {
+	name: string;
+	url: string;
+	description?: string;
+}): Record<string, any> {
+	return {
+		'@type': 'Person',
+		'@id': `${params.url}#person`,
+		'name': params.name,
+		'url': params.url,
+		...(params.description ? { 'description': params.description } : {}),
+		'worksFor': { '@id': `${siteConfig.url}/#organization` }
+	};
+}
+
+/**
  * Genera el esquema de BreadcrumbList de manera dinámica basado en el path de la URL activa.
  * Respeta de forma estricta las trailing slashes.
  */
@@ -389,11 +413,13 @@ export function buildArticleSchema(post: {
 		'dateModified': toIso8601WithOffset(post.dateModified || post.datePublished),
 		'inLanguage': 'en',
 		'image': imageNode,
-		'author': {
-			'@type': 'Person',
-			'name': post.authorName,
-			...(post.authorUrl ? { 'url': post.authorUrl } : {})
-		},
+		// Cuando hay authorUrl, referenciar el nodo Person canónico por @id (mismo patrón que
+		// publisher/#organization) en vez de redefinirlo: cada post del mismo autor debe apuntar
+		// al MISMO nodo, no a copias ligeramente distintas. El nodo se define una sola vez, en la
+		// página que authorUrl señala, vía buildPersonSchema().
+		'author': post.authorUrl
+			? { '@id': `${post.authorUrl}#person` }
+			: { '@type': 'Person', 'name': post.authorName },
 		// Referencia al nodo canónico de la organización (#organization, emitido por el layout
 		// público vía buildLocalBusinessSchema con name+logo+address). Consolidar por @id evita
 		// un segundo nodo "Organization" parcial en el grafo. Mismo patrón que buildWebSiteSchema.
