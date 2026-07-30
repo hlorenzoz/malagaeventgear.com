@@ -58,9 +58,15 @@ assets/
 # Ignore locally downloaded or symlinked agent skills (re-creatable via skills-lock.json)
 .agents/skills/
 
-# Scraped/downloaded research context — NOT re-creatable, but never belongs in git
-# (contains multi-MB screenshots that would bloat history permanently).
+# Scraped/downloaded research context: tracked, EXCEPT multi-MB screenshots/images
+# that would bloat history permanently.
 .agents/context/
+!.agents/context/
+.agents/context/**/*.png
+.agents/context/**/*.jpg
+.agents/context/**/*.jpeg
+.agents/context/**/*.gif
+.agents/context/**/*.webp
 
 # Claude Code config: machine-local by default, EXCEPT the shared slash commands.
 # settings.json holds a per-machine permission allowlist with absolute /Users paths
