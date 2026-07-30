@@ -1857,6 +1857,113 @@
       "level": 3
     }
   ],
+  "projector-rental": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "projector-and-screen-pricing-by-package",
+      "text": "Projector and Screen Pricing by Package",
+      "level": 2
+    },
+    {
+      "id": "choosing-a-lumens-tier-for-your-room",
+      "text": "Choosing a Lumens Tier for Your Room",
+      "level": 2
+    },
+    {
+      "id": "why-the-screen-is-always-bundled-with-the-projector",
+      "text": "Why the Screen Is Always Bundled With the Projector",
+      "level": 2
+    },
+    {
+      "id": "connecting-your-own-devices",
+      "text": "Connecting Your Own Devices",
+      "level": 2
+    },
+    {
+      "id": "what-we-dont-offer",
+      "text": "What We Don't Offer",
+      "level": 2
+    },
+    {
+      "id": "real-projector-setups-weve-delivered",
+      "text": "Real Projector Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "how-far-in-advance-to-book",
+      "text": "How Far in Advance to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "can-i-rent-just-a-projection-screen-without-a-projector",
+      "text": "Can I rent just a projection screen, without a projector?",
+      "level": 3
+    },
+    {
+      "id": "is-a-screen-included-with-the-projector-or-sold-separately",
+      "text": "Is a screen included with the projector, or sold separately?",
+      "level": 3
+    },
+    {
+      "id": "whats-the-largest-screen-size-available",
+      "text": "What's the largest screen size available?",
+      "level": 3
+    },
+    {
+      "id": "what-brightness-or-lumens-do-i-need-for-a-daylit-or-brightly-lit-room",
+      "text": "What brightness or lumens do I need for a daylit or brightly lit room?",
+      "level": 3
+    },
+    {
+      "id": "do-you-offer-4k-or-laser-projectors",
+      "text": "Do you offer 4K or laser projectors?",
+      "level": 3
+    },
+    {
+      "id": "can-you-project-onto-a-building-facade-or-do-outdoor-projection-mapping",
+      "text": "Can you project onto a building facade or do outdoor projection mapping?",
+      "level": 3
+    },
+    {
+      "id": "is-setup-and-installation-included",
+      "text": "Is setup and installation included?",
+      "level": 3
+    },
+    {
+      "id": "how-much-does-a-projector-rental-cost",
+      "text": "How much does a projector rental cost?",
+      "level": 3
+    },
+    {
+      "id": "how-far-in-advance-should-i-book-a-projector-rental",
+      "text": "How far in advance should I book a projector rental?",
+      "level": 3
+    },
+    {
+      "id": "can-i-connect-my-own-laptop-or-tablet-to-the-projector",
+      "text": "Can I connect my own laptop or tablet to the projector?",
+      "level": 3
+    }
+  ],
   "creating-unforgettable-events-in-malaga-with-top-quality-event-rentals": [
     {
       "id": "the-importance-of-professional-event-gear",
