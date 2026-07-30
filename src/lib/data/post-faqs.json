@@ -1257,6 +1257,48 @@
       "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga and extend to Granada for rentals over 400 euros."
     }
   ],
+  "tv-screen-rental": [
+    {
+      "question": "What screen sizes are available?",
+      "answer": "One real size: a 60-inch high-definition LED display screen, included on the MICE Pack. We do not publish a smaller a la carte TV screen size. If your event needs a larger projected image instead, see the 2x2m bundled screen on our projector rental guide."
+    },
+    {
+      "question": "Is a stand included with the screen?",
+      "answer": "Yes. The MICE Pack includes a designer stand with the 60-inch display, so it arrives ready to position rather than needing a separate mount or table."
+    },
+    {
+      "question": "Can I rent multiple TV screens for one event?",
+      "answer": "Not as a standard line item. The published MICE Pack includes one 60-inch screen. That said, we have deployed multiple TV monitors on rolling stands for a larger corporate project, our two day setup with Bmotion in Marbella. Contact us with your room layout and guest count so we can scope the right number of screens for your event."
+    },
+    {
+      "question": "Is a technician needed to operate the screen?",
+      "answer": "A dedicated live AV technician is included with the MICE Pack, for up to 6 continuous hours, the same technician-hours inclusion that applies to the MICE Pack's sound and microphones."
+    },
+    {
+      "question": "Do you rent LED video walls or modular LED panels?",
+      "answer": "No. Our large-format display is a single 60-inch flat panel screen, not a modular tiled video wall built from stacked LED cabinets. LED walls and video walls, including outdoor stage-scale configurations, fall outside our current catalog. See What We Don't Offer above."
+    },
+    {
+      "question": "Is \"TV screen,\" \"display monitor\" and \"plasma screen\" the same product?",
+      "answer": "Yes. All three terms describe the same flat panel display at Malaga Event Gear: the MICE Pack's premium 60-inch high-definition LED display screen. \"Plasma screen\" is a legacy term still used colloquially in the local market; actual plasma display technology is not what gets installed today. See Is a TV Screen the Same as a Display Monitor or Plasma Screen? above."
+    },
+    {
+      "question": "What resolution is the screen? Is it 4K?",
+      "answer": "We publish \"high-definition\" for the MICE Pack's screen. We do not publish a 4K or other specific resolution figure for it, so the honest answer is high-definition, not 4K."
+    },
+    {
+      "question": "Can the screen be used for hybrid meetings or video conferencing?",
+      "answer": "Yes. The MICE Pack is purpose-built for corporate and meeting use: the screen carries the video call or presentation while the included gooseneck and wireless handheld microphones carry the room's voice to the remote side."
+    },
+    {
+      "question": "Is the screen for indoor venues only, or can it go outdoors?",
+      "answer": "We do not publish an outdoor rating for this screen. The honest guidance is indoor venues, such as conference rooms, hotel ballrooms and exhibition halls. Contact us with your venue details if you are considering an outdoor placement, so we can confirm what is possible rather than guess."
+    },
+    {
+      "question": "How much does a TV screen rental cost?",
+      "answer": "490 euros ex VAT, for the MICE Pack, which covers the 60-inch screen and stand for up to 120 guests, plus the sound system, microphones and a technician for up to 6 hours. All prices are ex VAT, with 21 percent Spanish VAT added at checkout. See TV Screen Rental Pricing and What's Included above."
+    }
+  ],
   "audio-visual-rental-for-religious-events": [
     {
       "question": "What AV equipment do I need for a religious event?",
