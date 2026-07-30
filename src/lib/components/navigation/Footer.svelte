@@ -20,7 +20,7 @@
 				<img src="/logo-dark.svg" alt={i18n.t.nav.brand} width="250" height="75" class="brand-logo brand-logo--dark h-9 w-auto" />
 				<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl mt-2">
 					{i18n.lang === 'en' 
-						? 'Premium sound, lighting, and screen rentals for exclusive events in Malaga and the Costa del Sol. State-of-the-art equipment and tailored technical support.'
+						? 'Premium sound, lighting, and screen rentals for exclusive events in Malaga and the Costa del Sol. State of the art equipment and tailored technical support.'
 						: 'Alquiler de equipos premium de sonido, iluminación y pantallas para eventos exclusivos en Málaga y la Costa del Sol. Equipamiento de vanguardia y soporte técnico a medida.'
 					}
 				</p>
