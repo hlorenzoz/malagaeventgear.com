@@ -557,6 +557,48 @@
       "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga and extend to Granada for rentals over 400 euros."
     }
   ],
+  "projector-rental": [
+    {
+      "question": "Can I rent just a projection screen, without a projector?",
+      "answer": "No. We do not sell a projection screen on its own. Every screen we deploy is bundled with a projector sized to it, whether that is the Eco Pack's 50 euro add on or the fixed screen and projector inclusion on the Basic MICE Pack and Product Presentation Pack. See Why the Screen Is Always Bundled With the Projector above."
+    },
+    {
+      "question": "Is a screen included with the projector, or sold separately?",
+      "answer": "Included, always. The Eco Pack bundles \"projector & projection screen\" as one 50 euro add on line. The Basic MICE Pack includes a 2x2m screen with its 3000 lumen projector. The Product Presentation Pack includes a front projection screen with a stable stand alongside its 5000 lumen laser projector. We do not sell either piece on its own."
+    },
+    {
+      "question": "What's the largest screen size available?",
+      "answer": "2x2 meters, on the Basic MICE Pack. We do not publish a larger a la carte screen size."
+    },
+    {
+      "question": "What brightness or lumens do I need for a daylit or brightly lit room?",
+      "answer": "For a standard boardroom or a room you can dim, the 3000 lumen projector on the Basic MICE Pack is the right tier. For a room that stays lit, such as a dealership showroom during a launch or a press event with photographers, the 5000 lumen Full HD laser projector on the Product Presentation Pack is built for that. See Choosing a Lumens Tier for Your Room above."
+    },
+    {
+      "question": "Do you offer 4K or laser projectors?",
+      "answer": "Laser, yes: the Product Presentation Pack uses a 5000 lumen Full HD laser projector. We do not publish 4K resolution on either projector tier we offer."
+    },
+    {
+      "question": "Can you project onto a building facade or do outdoor projection mapping?",
+      "answer": "No. Facade projection and outdoor projection mapping fall outside our current catalog. Our projector and screen setups are built for indoor presentations, conferences and product showcases, not building scale outdoor projection."
+    },
+    {
+      "question": "Is setup and installation included?",
+      "answer": "Yes, on every package. Our crew delivers, installs and tests the projector and screen before your event starts, then returns afterward to collect everything, the same delivery, install, test and collect model we use across our full catalog."
+    },
+    {
+      "question": "How much does a projector rental cost?",
+      "answer": "It depends on the package. The Eco Pack is 290 euros base, plus a 50 euro add on for the projector and screen. The Basic MICE Pack, which bundles the projector and screen as standard, is 295 euros. The Product Presentation Pack, with its 5000 lumen laser projector, is 310 euros. All prices are ex VAT, with 21 percent Spanish VAT added at checkout. See Projector and Screen Pricing by Package above."
+    },
+    {
+      "question": "How far in advance should I book a projector rental?",
+      "answer": "Book as early as you can once your event date and venue are confirmed. Demand on the Costa del Sol peaks during wedding season, from April through October, and corporate bookings tied to a fixed conference or launch date should lock in early. See How Far in Advance to Book above."
+    },
+    {
+      "question": "Can I connect my own laptop or tablet to the projector?",
+      "answer": "Yes. On the Product Presentation Pack, we provide HDMI and USB-C adapters plus audio interfaces so your own laptop, tablet or media player connects to our screen and sound system without a last minute cable scramble."
+    }
+  ],
   "how-to-compare-wedding-rental-quotes": [
     {
       "question": "What should an itemized wedding AV rental quote include?",
