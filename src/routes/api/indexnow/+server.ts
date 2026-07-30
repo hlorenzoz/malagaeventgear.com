@@ -29,15 +29,16 @@ function knownNodes(): Map<string, string | undefined> {
 	});
 
 	const nodes = new Map<string, string | undefined>();
-	const add = (url: string, updated?: string) => nodes.set(`${siteConfig.url}${url}`, updated);
+	const add = (url: string, updated?: string, publishDate?: string) =>
+		nodes.set(`${siteConfig.url}${url}`, updated || publishDate);
 
 	for (const p of [...view.corePages, ...view.legalPages, ...view.utilityPages]) add(p.url, p.updated);
 	for (const pk of view.packages) add(pk.url, pk.updated);
 	for (const s of view.silos) {
-		add(s.url, s.updated);
-		for (const k of s.kids) add(k.url, k.updated);
+		add(s.url, s.updated, s.publishDate);
+		for (const k of s.kids) add(k.url, k.updated, k.publishDate);
 	}
-	for (const p of [...view.standalone, ...view.news]) add(p.url, p.updated);
+	for (const p of [...view.standalone, ...view.news]) add(p.url, p.updated, p.publishDate);
 	for (const c of view.categories) add(c.url, c.updated);
 	for (const a of view.authors) add(a.url, a.updated);
 

@@ -136,15 +136,15 @@ describe('buildSiteMap', () => {
 		expect(v.authors[0].updated).toBe('2026-07-25');
 	});
 
-	it('carries `updated` on pages (from pageFreshness), packages, posts (updatedDate ?? publishDate) and taxonomies', () => {
+	it('carries `updated` (updatedDate) and `publishDate` on posts', () => {
 		const v = buildSiteMap(FIXTURE_INPUT);
 		expect(v.corePages.find((p) => p.url === '/')?.updated).toBe('2026-01-01');
 		expect(v.corePages.find((p) => p.url === '/about-us/')?.updated).toBe('2026-02-02');
 		expect(v.corePages.find((p) => p.url === '/contact/')?.updated).toBeUndefined();
 		expect(v.packages.find((p) => p.url === '/packages/eco/')?.updated).toBe('2026-05-31');
 		expect(v.silos[0].updated).toBe('2026-07-25'); // updatedDate
-		expect(v.silos[0].kids[0].updated).toBe('2026-07-22'); // fallback to publishDate
-		expect(v.news[0].updated).toBe('2026-07-24'); // fallback to publishDate
+		expect(v.silos[0].kids[0].updated).toBeUndefined(); // no updatedDate -> undefined (renders — never)
+		expect(v.silos[0].kids[0].publishDate).toBe('2026-07-22'); // carried for IndexNow eligibility
 	});
 
 	it('defaults pageFreshness to empty when omitted, leaving pages without `updated`', () => {
