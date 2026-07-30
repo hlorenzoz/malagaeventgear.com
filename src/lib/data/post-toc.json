@@ -2644,6 +2644,26 @@
       "id": "can-i-rent-just-speakers-without-a-microphone-or-technician",
       "text": "Can I rent just speakers, without a microphone or technician?",
       "level": 3
+    },
+    {
+      "id": "what-type-of-microphone-do-i-need-for-my-event",
+      "text": "What type of microphone do I need for my event?",
+      "level": 3
+    },
+    {
+      "id": "is-a-wireless-microphone-available-or-only-wired",
+      "text": "Is a wireless microphone available, or only wired?",
+      "level": 3
+    },
+    {
+      "id": "can-i-rent-an-audio-mixer-or-mixing-console-on-its-own",
+      "text": "Can I rent an audio mixer or mixing console on its own?",
+      "level": 3
+    },
+    {
+      "id": "do-you-rent-audio-interfaces-for-recording-or-podcasting",
+      "text": "Do you rent audio interfaces for recording or podcasting?",
+      "level": 3
     }
   ],
   "wedding-rentals-near-me": [

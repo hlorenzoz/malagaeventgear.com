@@ -801,6 +801,22 @@
     {
       "question": "Can I rent just speakers, without a microphone or technician?",
       "answer": "Not as an a la carte item. Our closest match for a speaker rental with no technician is the Eco Pack: 2 active speakers with stands, self run, no technician on site, but it's a fixed package that also includes 1 wired dynamic microphone and 2 LED light bars rather than speakers sold on their own. Contact us if your event genuinely needs speakers only, and we'll confirm what's possible."
+    },
+    {
+      "question": "What type of microphone do I need for my event?",
+      "answer": "It depends on the package. The Eco Pack includes 1 wired dynamic microphone for announcements. The Basic MICE Pack includes 1 professional gooseneck microphone for a podium or lectern. The Wedding Pack and MICE Pack include a wireless handheld microphone for speeches, with the MICE Pack adding a gooseneck microphone as well. We do not offer lavalier or headset microphones."
+    },
+    {
+      "question": "Is a wireless microphone available, or only wired?",
+      "answer": "Both, depending on the package. The Eco Pack uses a wired dynamic microphone. The Wedding Pack and MICE Pack include a wireless handheld microphone instead, which is what most speeches and awards style presentations need."
+    },
+    {
+      "question": "Can I rent an audio mixer or mixing console on its own?",
+      "answer": "No. Our digital mixing consoles are technician operated equipment built into the Wedding Pack, Basic MICE Pack and MICE Pack, not a standalone rental item. On the Eco Pack, a DJ or band brings and runs their own mixer or controller, as covered in our audio visual rental for music performances guide."
+    },
+    {
+      "question": "Do you rent audio interfaces for recording or podcasting?",
+      "answer": "No. We don't stock recording or podcasting style audio interfaces. For presentations, we provide HDMI and USB-C adapters to connect your laptop or tablet, and our packages include a digital mixing console for live sound, not studio recording gear."
     }
   ],
   "wedding-rentals-near-me": [
