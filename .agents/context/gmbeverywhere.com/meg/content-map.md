@@ -21,10 +21,10 @@ Pillar: `audio-visual-rental` (existing, target `/`)
 | 2 | PA system rental | covered | sound-system-rental | 1 | Not a standalone page: SERP research showed "PA system rental" and "sound system rental" are the same intent, and MEG has no distinct PA-only product. Folded in as an FAQ + verbatim phrase on sound-system-rental.svx (2026-07-30). |
 | 3 | Portable PA system rental | covered | sound-system-rental | 1 | Business confirmed 2026-07-30: MEG never offers self-collect/battery-powered equipment. Folded in as an honest FAQ on sound-system-rental.svx rather than a standalone page. |
 | 4 | Speaker rental | covered | sound-system-rental | 1 | Same intent as sound-system-rental for this site: no bare speakers-only SKU in MEG's catalog. Folded in as an FAQ + phrase reinforcement (2026-07-30). |
-| 5 | Microphone rental | pending | microphone-rental | 1 | - |
-| 6 | Wireless microphone rental | pending | wireless-microphone-rental | 1 | - |
-| 7 | Audio mixer rental | pending | audio-mixer-rental | 1 | - |
-| 8 | Audio interface rental | pending | audio-interface-rental | 1 | - |
+| 5 | Microphone rental | covered | sound-system-rental | 1 | No standalone mic SKU (only bundled per package: wired/gooseneck/wireless). Folded in as an FAQ + strengthened Equipment section (2026-07-30). |
+| 6 | Wireless microphone rental | covered | sound-system-rental | 1 | Same catalog constraint as #5 — wireless handheld only on Wedding/MICE Pack. Folded in as an FAQ (2026-07-30). |
+| 7 | Audio mixer rental | covered | sound-system-rental | 1 | Mixers are technician-operated equipment bundled in packages, not a standalone rental (DJs on Eco Pack bring their own). Folded in as an FAQ (2026-07-30). |
+| 8 | Audio interface rental | covered | sound-system-rental | 1 | MEG has no recording/podcasting-style audio interface, only presentation HDMI/USB-C adapters. Folded in as a disambiguation FAQ (2026-07-30). |
 | 9 | Projector rental | pending | projector-rental | 1 | - |
 | 10 | Projection screen rental | pending | projection-screen-rental | 1 | - |
 | 11 | LED wall rental | pending | led-wall-rental | 1 | - |
@@ -313,7 +313,7 @@ Pillar: `stage-lighting-equipment-supplier` (new, working title "Stage Lighting 
 
 | Category | Pillar slug | Total services | Pending | Covered | Risk | Batch-1 count |
 | -------- | ----------- | --------------- | ------- | ------- | ---- | -------------- |
-| Audio visual equipment hire service (primary) | audio-visual-rental (existing) | 44 | 39 | 4 | 1 | 15 |
+| Audio visual equipment hire service (primary) | audio-visual-rental (existing) | 44 | 35 | 8 | 1 | 15 |
 | Audiovisual equipment rental service | audiovisual-equipment-rental-service | 19 | 19 | 0 | 0 | 15 |
 | Event technology service | event-technology-service | 46 | 46 | 0 | 0 | 15 |
 | Audio visual equipment supplier | audio-visual-equipment-supplier | 39 | 38 | 0 | 1 | 15 |
