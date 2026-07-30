@@ -25,6 +25,27 @@
 # all-in-one-wedding-rental-packages and tips-for-reducing-wedding-rental-costs (2026-07-28):
 /blog/how-wedding-rentals-save-money/  /blog/pros-and-cons-of-wedding-rentals/  301
 
+# Retired: furniture/chair/table arrangement content, a product line MEG has never sold. The
+# only AV-adjacent angle, equipment placement relative to room layout, is already covered in
+# outdoor-wedding-rental-considerations and indoor-wedding-rental-essentials. No closer sibling
+# match exists, so this one points at the pillar (2026-07-28, backfilled 2026-07-30 after a
+# reverse-silo audit found the /blog/ line was missing from the original retirement commit):
+/blog/seating-arrangement-tips-for-rentals/  /blog/wedding-rentals/  301
+
+# Retired: matching decor across furniture/linens/tableware/drapery to a wedding theme, none of
+# which MEG sells. The one honest AV-adjacent fact, RGBW spotlights settable to an accent color,
+# is already fully claimed by lighting-ideas-for-wedding-rentals (2026-07-28, backfilled
+# 2026-07-30 after a reverse-silo audit found the /blog/ line was missing from the original
+# retirement commit):
+/blog/matching-wedding-rentals-to-themes/  /blog/lighting-ideas-for-wedding-rentals/  301
+
+# Retired: furniture/decor/catering checklist for a reception, none of which MEG sells. The
+# genuinely AV slice (speech mic coverage, dance volume PA, on-site technician, pricing) is
+# already owned by essential-items-for-wedding-rentals and making-the-most-of-wedding-rentals
+# (2026-07-28, backfilled 2026-07-30 after a reverse-silo audit found the /blog/ line was
+# missing from the original retirement commit):
+/blog/must-have-wedding-reception-rentals/  /blog/essential-items-for-wedding-rentals/  301
+
 # Retired: legacy post paraphrased a full-service decor competitor and had no honest AV angle
 # left after making-the-most-of-wedding-rentals already claimed technician/run-of-show
 # coordination (2026-07-29):
