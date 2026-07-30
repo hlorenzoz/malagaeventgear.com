@@ -541,36 +541,28 @@
   ],
   "weather-considerations-for-outdoor-rentals": [
     {
-      "question": "What temperature is too cold for an outdoor party?",
-      "answer": "Hosting an outdoor party is an exciting prospect, but temperature plays a crucial role in ensuring comfort. Typically, temperatures below 50°F (10°C) might be considered too cold for an outdoor party, especially if your guests will be seated or staying in one location for a long time. For optimum comfort, some might prefer a minimum of 60°F (15°C), especially when the wind chill factor is taken into consideration. Add warming elements like heaters or fire pits to maintain comfort."
+      "question": "Does a technician stay on site to react if the weather changes during my event?",
+      "answer": "Only on the Wedding Pack and MICE Pack, which include a live technician throughout the event who can reposition equipment, add moisture protection to cables, or adjust for wind as conditions change. The Eco Pack and Basic MICE Pack are self run after our crew installs and tests the system, so nobody is there to react afterward."
     },
     {
-      "question": "Why is weather forecasting important?",
-      "answer": "Weather forecasting is a powerful tool that helps individuals and businesses make informed decisions. Accurate forecasts can significantly impact event planning, agriculture, transportation, and daily life. At Malaga Event Gear (MEG), we rely on advanced weather forecasts to ensure our audio-visual equipment operates optimally and reliably. Understanding weather patterns helps in planning logistics, anticipating potential disruptions, and enhancing safety measures."
+      "question": "Is your AV equipment weatherproof?",
+      "answer": "We do not publish a weatherproof rating for any of our equipment. Wireless microphone receivers are moisture sensitive and can drop signal, cabling and connectors are an electrical safety risk in wet conditions, and heat affects the electronics in active PA systems and LED lighting over a long outdoor run. A live technician, where one is included, is what actually manages that risk in real time."
     },
     {
-      "question": "How can weather affect your daily activities?",
-      "answer": "Weather conditions can profoundly influence our daily activities. For instance:\n\n1\\. Travel: Rain can cause traffic delays or flight cancellations.  \n2\\. Outdoor Events: Extreme heat may require postponement or rescheduling.  \n3\\. Health: Cold weather can increase the risk of colds or hypothermia.  \n4\\. Work: Some jobs, like construction, might be halted due to adverse weather.\n\nUnderstanding and adjusting to the forecast with solutions like appropriate gear from MEG can help mitigate the impacts of weather on daily routines and ensure a seamless experience."
+      "question": "Do you supply tents, canopies or generators for outdoor weather protection?",
+      "answer": "No. We do not stock tents, canopies, marquees, generators, portable air conditioning or heaters. Venue provided shelter and power need to be confirmed by you directly with your venue. Tell us what is available when you book so our technician can plan the AV setup around it."
     },
     {
-      "question": "What are the key weather considerations when planning an outdoor event in Malaga?",
-      "answer": "Weather unpredictability is a key factor to consider. While Malaga boasts abundant sunshine, spring and fall can bring rain. Understanding these nuances is essential to protect your event from unforeseen challenges."
+      "question": "If the forecast changes close to my event date, how much flexibility do I have?",
+      "answer": "All bookings and changes to one need at least 24 hours' notice to guarantee scheduling and logistical availability. Checking the forecast a week out leaves real room to adjust your package or add ons. Checking it inside that 24 hour window still gets an availability check, not a guarantee. See our managing last minute wedding rental changes guide for the full mechanics."
     },
     {
-      "question": "How can Malaga Event Gear (MEG) help ensure a seamless event despite weather changes?",
-      "answer": "MEG offers weather-resistant solutions like robust audio-visual equipment and adaptable tents. Our Wedding Pack includes rentals designed for seamless celebrations, regardless of weather conditions."
+      "question": "Who handles the equipment if it rains, me or your crew?",
+      "answer": "Our crew. We operate delivery only, there is no self pickup option, so our own trained team transports, installs and retrieves every system regardless of weather, rather than a client handling the gear themselves."
     },
     {
-      "question": "Why is having a contingency plan important for outdoor events?",
-      "answer": "A solid contingency plan safeguards your event against sudden weather disruptions, ensuring all goes smoothly. Investing time in planning alternative arrangements can provide peace of mind and protect your event’s success."
-    },
-    {
-      "question": "What rental equipment is recommended for varying weather conditions?",
-      "answer": "Durable equipment, such as tents with weather-resistant materials and sturdy audio systems, is crucial for maintaining event stability. MEG provides these alongside expert installation to withstand any climate scenario."
-    },
-    {
-      "question": "How can guest comfort be maintained at outdoor events in Malaga?",
-      "answer": "Using portable air conditioners and adaptable tents ensures guest comfort despite weather shifts. These measures, combined with MEG’s reliable rentals, transform challenging climates into memorable experiences."
+      "question": "How does wind affect where you place speakers and lighting outdoors?",
+      "answer": "Wind changes where a speaker stand or lighting rig can safely stand on grass, sand or a windy terrace. Our technician reads the actual ground and wind exposure on site. Our outdoor wedding rental considerations guide covers this in more depth for wedding venues specifically."
     }
   ],
   "benefits-of-audio-visual-rental": [
