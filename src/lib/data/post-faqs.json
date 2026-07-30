@@ -765,6 +765,32 @@
       "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga and extend to Granada for rentals over 400 euros."
     }
   ],
+  "sound-system-rental": [
+    {
+      "question": "What is included in a sound system rental?",
+      "answer": "It depends on the package. The Eco Pack includes 2 active speakers with stands, 1 wired dynamic microphone and 2 RGBW LED light bars, with no technician. The Basic MICE Pack includes a basic sound reinforcement system and 1 gooseneck microphone, with a technician available as a paid add on. The Wedding Pack includes a high end active PA sound system, wireless microphones and a technician. The MICE Pack includes a premium sound system, gooseneck and wireless handheld microphones, and a technician for up to 6 hours. See What's Included in a Sound System Rental above for the full breakdown."
+    },
+    {
+      "question": "Do I need a PA system for a DJ set, or something different for a speech heavy event?",
+      "answer": "Both use a PA system, but the setup differs. A DJ set or party is served well by a self run PA system, like our Eco Pack, with a wired microphone for announcements and no technician. A speech heavy wedding, boardroom address or conference panel needs a wireless or gooseneck microphone paired with a technician managing levels live, which is what the Wedding Pack, Basic MICE Pack and MICE Pack are built for."
+    },
+    {
+      "question": "Do you provide a technician with the sound system?",
+      "answer": "Only on some packages. The Eco Pack is delivery, setup and teardown only, with no technician on site. The Basic MICE Pack offers a technician as a paid add on. The Wedding Pack and MICE Pack include a live technician as standard, with the MICE Pack technician on site for up to 6 continuous hours."
+    },
+    {
+      "question": "Do you provide a generator or backup power for the sound system?",
+      "answer": "No. None of our packages include a generator or backup power supply. If your venue, especially an outdoor villa or terrace, has uncertain mains power, confirm this with us when you request your quote so we can plan the setup around your venue's actual power supply."
+    },
+    {
+      "question": "How far in advance should I book a sound system rental?",
+      "answer": "Book as early as you can once your event date is confirmed. Demand on the Costa del Sol peaks during wedding season, from April through October, when technicians and the most requested packages fill up first. See How Far in Advance to Book above."
+    },
+    {
+      "question": "Can you set up a sound system outdoors, or only indoors?",
+      "answer": "Yes, both. Most of the sound systems we deliver go into villas, private terraces and hotel ballrooms across Malaga and the Costa del Sol, indoors and outdoors alike. Contact us with your venue details so we can confirm the right setup for it."
+    }
+  ],
   "wedding-rentals-near-me": [
     {
       "question": "What does \"near me\" mean if Malaga Event Gear has no showroom?",
