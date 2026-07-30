@@ -175,6 +175,8 @@
 			for (const k of s.kids) check(k.url, k.updated);
 		}
 		for (const p of [...view.standalone, ...view.news]) check(p.url, p.updated);
+		for (const c of view.categories) check(c.url, c.updated);
+		for (const a of view.authors) check(a.url, a.updated);
 
 		return list;
 	});
@@ -618,7 +620,7 @@
 			<div class="sub-head">Categories</div>
 			<ul class="flat">
 				{#each filteredCategories as c (c.url)}
-					<li><a href={c.url}><span class="k-dot support"></span><span class="k-key">{c.name}</span><span class="k-date">{c.count}</span></a>{@render keyActions(c.name, c.url)}</li>
+					<li><a href={c.url}><span class="k-dot support"></span><span class="k-key">{c.name}</span><span class="k-date">{c.count}</span></a>{@render keyActions(c.name, c.url, c.updated)}</li>
 				{/each}
 			</ul>
 		{/if}
@@ -626,7 +628,7 @@
 			<div class="sub-head">Authors</div>
 			<ul class="flat">
 				{#each filteredAuthors as a (a.url)}
-					<li><a href={a.url}><span class="k-dot support"></span><span class="k-key">{a.name}</span><span class="k-date">{a.count}</span></a>{@render keyActions(a.name, a.url)}</li>
+					<li><a href={a.url}><span class="k-dot support"></span><span class="k-key">{a.name}</span><span class="k-date">{a.count}</span></a>{@render keyActions(a.name, a.url, a.updated)}</li>
 				{/each}
 			</ul>
 		{/if}

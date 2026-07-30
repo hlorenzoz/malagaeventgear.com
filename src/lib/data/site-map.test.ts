@@ -76,23 +76,31 @@ describe('validateSiloGraph', () => {
 
 // --- Fixtures sintéticos para el view-model --------------------------------
 
-function post(slug: string, siloRole: string, targetPage?: string, keyword?: string): BlogPost {
-	return { slug, url: `/blog/${slug}/`, siloRole, targetPage, keyword: keyword ?? slug } as BlogPost;
+function post(slug: string, siloRole: string, targetPage?: string, keyword?: string, dates?: { publishDate?: string; updatedDate?: string }): BlogPost {
+	return {
+		slug,
+		url: `/blog/${slug}/`,
+		siloRole,
+		targetPage,
+		keyword: keyword ?? slug,
+		publishDate: dates?.publishDate ?? '2026-07-20',
+		updatedDate: dates?.updatedDate
+	} as BlogPost;
 }
 
 const FIXTURE_INPUT = {
 	posts: [
-		post('av-rental', 'pillar', '/', 'audio visual rental'),
-		post('av-conferences', 'supporting', '/blog/av-rental/', 'av for conferences'),
-		post('news-item', 'news', '/'),
-		post('corporate-item', 'standalone')
+		post('av-rental', 'pillar', '/', 'audio visual rental', { publishDate: '2026-07-01', updatedDate: '2026-07-25' }),
+		post('av-conferences', 'supporting', '/blog/av-rental/', 'av for conferences', { publishDate: '2026-07-22' }),
+		post('news-item', 'news', '/', undefined, { publishDate: '2026-07-24' }),
+		post('corporate-item', 'standalone', undefined, undefined, { publishDate: '2026-07-15' })
 	],
 	packages: [
 		{ name: 'Eco Pack', route: '/packages/eco/', price: 290, updated: '2026-05-31' },
 		{ name: 'Wedding Pack', route: '/packages/wedding/', price: 650, updated: '2026-05-31' }
 	] as EventPackage[],
-	categories: [{ name: 'Weddings', slug: 'weddings', count: 3 }] as Category[],
-	authors: [{ name: 'Hector Lorenzo', slug: 'hector-lorenzo', count: 5 }] as Author[],
+	categories: [{ name: 'Weddings', slug: 'weddings', count: 3, lastmod: '2026-07-25' }] as Category[],
+	authors: [{ name: 'Hector Lorenzo', slug: 'hector-lorenzo', count: 5, lastmod: '2026-07-25' }] as Author[],
 	staticPages: ['', 'about-us', 'contact', 'privacy-policy', 'sitemap', 'packages', 'blog'] as const,
 	pageFreshness: new Map([
 		['', '2026-01-01'],
@@ -123,15 +131,20 @@ describe('buildSiteMap', () => {
 		const v = buildSiteMap(FIXTURE_INPUT);
 		expect(v.packages.map((p) => p.url)).toEqual(['/packages/eco/', '/packages/wedding/']);
 		expect(v.categories[0].url).toBe('/blog/category/weddings/');
+		expect(v.categories[0].updated).toBe('2026-07-25');
 		expect(v.authors[0].url).toBe('/blog/author/hector-lorenzo/');
+		expect(v.authors[0].updated).toBe('2026-07-25');
 	});
 
-	it('carries `updated` on pages (from pageFreshness) and packages (from the catalog)', () => {
+	it('carries `updated` on pages (from pageFreshness), packages, posts (updatedDate ?? publishDate) and taxonomies', () => {
 		const v = buildSiteMap(FIXTURE_INPUT);
 		expect(v.corePages.find((p) => p.url === '/')?.updated).toBe('2026-01-01');
 		expect(v.corePages.find((p) => p.url === '/about-us/')?.updated).toBe('2026-02-02');
 		expect(v.corePages.find((p) => p.url === '/contact/')?.updated).toBeUndefined();
 		expect(v.packages.find((p) => p.url === '/packages/eco/')?.updated).toBe('2026-05-31');
+		expect(v.silos[0].updated).toBe('2026-07-25'); // updatedDate
+		expect(v.silos[0].kids[0].updated).toBe('2026-07-22'); // fallback to publishDate
+		expect(v.news[0].updated).toBe('2026-07-24'); // fallback to publishDate
 	});
 
 	it('defaults pageFreshness to empty when omitted, leaving pages without `updated`', () => {
