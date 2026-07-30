@@ -23,7 +23,7 @@ export const siteConfig = {
 	displayAddress: 'Av. de Barcelona, 34, Distrito Centro, 29009 Málaga',
 	// Perfil de Google My Business — ÚNICA fuente para todos los links al perfil del sitio
 	// (direcciones del footer/contacto y el listing "Google My Business").
-	googleBusinessProfile: 'https://share.google/NVAtkdc4y0WJyF8cJ',
+	googleBusinessProfile: 'https://share.google/VclWknaPevh6mN3VF',
 	emails: {
 		hire: 'hire@malagaeventgear.com',
 		contact: 'contact@malagaeventgear.com',

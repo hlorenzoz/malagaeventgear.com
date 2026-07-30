@@ -8,6 +8,7 @@
 	import LatestPostsRow from '$lib/components/home/LatestPostsRow.svelte';
 	import Icon from '$lib/components/navigation/Icon.svelte';
 	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import GoogleEmbedSection from '$lib/components/sections/GoogleEmbedSection.svelte';
 	import { galleryImages } from '$lib/data/gallery';
 	import coverThumbsRaw from '$lib/data/cover-thumbs.json';
 
@@ -550,6 +551,9 @@
 		<Testimonials />
 	{/await}
 </LazyMount>
+
+<!-- Google Location / Share Section -->
+<GoogleEmbedSection />
 
 <!-- FAQ Section -->
 <section class="py-24 px-margin-mobile md:px-margin-desktop bg-surface-container-low transition-colors duration-300">

@@ -7,6 +7,7 @@
 	import { loadTurnstile } from '$lib/utils/turnstile';
 	import { getContactFaqs, buildFaqSchema } from '$lib/data/faq';
 	import { siteConfig } from '$lib/data/site';
+	import GoogleEmbedSection from '$lib/components/sections/GoogleEmbedSection.svelte';
 
 	// Structured JSON-LD schema for the Contact Page
 	let contactSchema = $derived({
@@ -480,6 +481,9 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Google Location / Share Section -->
+	<GoogleEmbedSection />
 
 	<!-- FAQ Accordion Section -->
 	<section class="mt-32 max-w-4xl mx-auto">
