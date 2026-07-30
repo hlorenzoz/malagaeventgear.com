@@ -120,15 +120,21 @@ If a single readable panel is enough, the [MICE Pack](/packages/mice/)'s TV scre
 
 ## Real TV Screen Setups We've Delivered
 
-A look at real TV screen and display bookings across Malaga and the Costa del Sol:
-
-![Screen and AV setup at a corporate event in Malaga.](https://cdn.malagaeventgear.com/blog/1313/corporate-event-1024x684.webp)
-
-Our crew has supplied high-resolution TV monitors on professional rolling stands for corporate projects across Malaga and the Costa del Sol, including a two day booking for [Bmotion in Marbella](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/), positioned to guarantee clear sightlines for attendees from every angle in the room.
+A look at real screen and display bookings across Malaga and the Costa del Sol:
 
 ![Modern conference hall with screens and camera equipment setup for audio visual rental for virtual events in Malaga.](https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1-1024x684.webp)
 
 A display screen set up in a modern conference hall for a hybrid, video conferencing style event in Malaga.
+
+![Two branded screens on stage sharing summit information at PROGOLD SUMMIT 2026 in Torremolinos.](https://cdn.malagaeventgear.com/blog/3084/2026.05.20-23-PROGOLD-SUMMIT-2026-Torremolinos-Hotel-Melia-Costa-del-Sol-Centro-de-Convenciones-2-700x394.webp)
+
+Two screens sharing summit information and speaker updates at [PROGOLD SUMMIT 2026 in Torremolinos](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/), where our crew ran the full display and sound setup across the four day conference.
+
+![A large screen displaying the 2025 End of Season Awards program alongside a portable projector and sound equipment.](https://cdn.malagaeventgear.com/blog/2400/Ladies-European-Golf-Venture-Limited-Fiesta-de-Fin-de-Temporada-en-el-Majumi-Beach-Club-en-Malaga-Distante-700x525.webp)
+
+A large screen running the program for a private End of Season Awards celebration in Malaga, alongside the sound and lighting for the same event.
+
+Our crew has also supplied high-resolution TV monitors on professional rolling stands for corporate projects across Malaga and the Costa del Sol, including a two day booking for [Bmotion in Marbella](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/), positioned to guarantee clear sightlines for attendees from every angle in the room.
 
 > "I would like to thank Malaga Event Gear for their prompt and absolutely reliable assistance. Without you, our party would not have been possible."
 >
@@ -137,7 +143,7 @@ A display screen set up in a modern conference hall for a hybrid, video conferen
 For larger meetings that need the standard 60-inch display, our [audio visual rental for corporate meetings](/blog/audio-visual-rental-for-corporate-meetings/) guide covers when to step up from the projector and screen on the Basic MICE Pack to the MICE Pack's LED display. For an awards-format evening built around the same screen, see our [audio visual rental for gala dinners](/blog/audio-visual-rental-for-gala-dinners/) guide.
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('mice', ['/1313/', '/2278/'])} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('mice', ['/2278/', '/3084/', '/2400/'])} speed="normal" direction="left" />
 </div>
 
 ## Indoor Venues and How Far in Advance to Book
