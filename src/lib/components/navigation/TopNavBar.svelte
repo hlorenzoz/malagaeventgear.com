@@ -163,13 +163,14 @@
 				{/if}
 			</button>
 
-			<!-- Phone Call Button (Direct dial for quick contact) -->
+			<!-- Phone Call Button (Icon + explicit phone number on all screens) -->
 			<a
-				class="flex items-center justify-center w-10 h-10 rounded-full glass-panel hover:bg-white/10 text-primary hover:text-electric-blue transition-colors duration-300"
+				class="flex items-center gap-1.5 px-3 py-1.5 h-10 rounded-full glass-panel hover:bg-white/10 text-on-surface hover:text-electric-blue transition-colors duration-300 font-label-sm text-xs sm:text-sm active:scale-95"
 				href={siteConfig.phoneCallUrl}
-				aria-label="Call Malaga Event Gear"
+				aria-label="Call Malaga Event Gear: {siteConfig.contactPhone}"
 			>
-				<Icon name="call" size="22" />
+				<Icon name="call" size="18" className="text-electric-blue shrink-0" />
+				<span class="font-semibold whitespace-nowrap">{siteConfig.contactPhone}</span>
 			</a>
 
 			<!-- Action Button -->
@@ -209,6 +210,14 @@
 						{link.label}
 					</a>
 				{/each}
+				<a
+					href={siteConfig.phoneCallUrl}
+					onclick={closeMobileMenu}
+					class="flex items-center gap-3 font-body-lg text-lg py-2 px-4 rounded-lg text-on-surface hover:bg-white/5 transition-colors"
+				>
+					<Icon name="call" size="20" className="text-electric-blue shrink-0" />
+					<span class="font-semibold">{siteConfig.contactPhone}</span>
+				</a>
 			</nav>
 			<a
 				onclick={closeMobileMenu}
