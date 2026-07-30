@@ -74,6 +74,7 @@ export interface TaxonomyNode {
 	name: string;
 	url: string;
 	count: number;
+	updated?: string;
 }
 
 export interface SiteMapView {
@@ -202,20 +203,37 @@ function buildSilos(
 	const silos: SiloNode[] = pillars.map((pillar) => {
 		const kids = posts
 			.filter((p) => p.targetPage === pillar.url)
-			.map((k) => ({ key: k.keyword || k.slug, url: k.url, updated: k.updatedDate }))
+			.map((k) => ({
+				key: k.keyword || k.slug,
+				url: k.url,
+				updated: k.updatedDate ?? k.publishDate
+			}))
 			.sort(byUpdatedAsc);
-		return { key: pillar.keyword || pillar.slug, url: pillar.url, updated: pillar.updatedDate, kids };
+		return {
+			key: pillar.keyword || pillar.slug,
+			url: pillar.url,
+			updated: pillar.updatedDate ?? pillar.publishDate,
+			kids
+		};
 	});
 
 	const news: SiloChild[] = posts
 		.filter((p) => p.siloRole === 'news')
 		.sort(byUrl)
-		.map((p) => ({ key: p.keyword || p.slug, url: p.url, updated: p.updatedDate }));
+		.map((p) => ({
+			key: p.keyword || p.slug,
+			url: p.url,
+			updated: p.updatedDate ?? p.publishDate
+		}));
 
 	const standalone: SiloChild[] = posts
 		.filter((p) => p.siloRole === 'standalone')
 		.sort(byUrl)
-		.map((p) => ({ key: p.keyword || p.slug, url: p.url, updated: p.updatedDate }));
+		.map((p) => ({
+			key: p.keyword || p.slug,
+			url: p.url,
+			updated: p.updatedDate ?? p.publishDate
+		}));
 
 	return { silos, news, standalone };
 }
@@ -314,12 +332,14 @@ export function buildSiteMap(input: SiteMapInput): SiteMapView {
 	const categoryNodes: TaxonomyNode[] = categories.map((c) => ({
 		name: c.name,
 		url: `/blog/category/${c.slug}/`,
-		count: c.count
+		count: c.count,
+		updated: c.lastmod
 	}));
 	const authorNodes: TaxonomyNode[] = authors.map((a) => ({
 		name: a.name,
 		url: `/blog/author/${a.slug}/`,
-		count: a.count
+		count: a.count,
+		updated: a.lastmod
 	}));
 
 	const pillars = silos.length;
