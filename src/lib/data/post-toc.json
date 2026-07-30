@@ -2544,6 +2544,93 @@
       "level": 3
     }
   ],
+  "sound-system-rental": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "choosing-your-sound-system-by-guest-count",
+      "text": "Choosing Your Sound System by Guest Count",
+      "level": 2
+    },
+    {
+      "id": "pa-system-or-dj-sound-matching-equipment-to-the-event",
+      "text": "PA System or DJ Sound: Matching Equipment to the Event",
+      "level": 2
+    },
+    {
+      "id": "whats-included-in-a-sound-system-rental",
+      "text": "What's Included in a Sound System Rental",
+      "level": 2
+    },
+    {
+      "id": "equipment-we-use-active-pa-speakers-line-array-and-shure-microphones",
+      "text": "Equipment We Use: Active PA Speakers, Line Array and Shure Microphones",
+      "level": 2
+    },
+    {
+      "id": "real-sound-setups-weve-delivered",
+      "text": "Real Sound Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "indoor-and-outdoor-sound-system-rental",
+      "text": "Indoor and Outdoor Sound System Rental",
+      "level": 2
+    },
+    {
+      "id": "how-far-in-advance-to-book",
+      "text": "How Far in Advance to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "what-is-included-in-a-sound-system-rental",
+      "text": "What is included in a sound system rental?",
+      "level": 3
+    },
+    {
+      "id": "do-i-need-a-pa-system-for-a-dj-set-or-something-different-for-a-speech-heavy-event",
+      "text": "Do I need a PA system for a DJ set, or something different for a speech heavy event?",
+      "level": 3
+    },
+    {
+      "id": "do-you-provide-a-technician-with-the-sound-system",
+      "text": "Do you provide a technician with the sound system?",
+      "level": 3
+    },
+    {
+      "id": "do-you-provide-a-generator-or-backup-power-for-the-sound-system",
+      "text": "Do you provide a generator or backup power for the sound system?",
+      "level": 3
+    },
+    {
+      "id": "how-far-in-advance-should-i-book-a-sound-system-rental",
+      "text": "How far in advance should I book a sound system rental?",
+      "level": 3
+    },
+    {
+      "id": "can-you-set-up-a-sound-system-outdoors-or-only-indoors",
+      "text": "Can you set up a sound system outdoors, or only indoors?",
+      "level": 3
+    }
+  ],
   "wedding-rentals-near-me": [
     {
       "id": "brief-overview",
