@@ -4,7 +4,7 @@ description: "There is no fixed booking window for wedding AV in Malaga: dates a
 author: Hector Luis Lorenzo
 slug: timeline-for-booking-wedding-rentals
 publishDate: "2026-02-26"
-updatedDate: "2026-07-29"
+updatedDate: "2026-07-30"
 excerpt: "There is no fixed booking window for wedding AV in Malaga: dates and technicians fill up, so book once your venue and date are confirmed. What's included and what it costs."
 coverImage: https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table.webp
 categories: [Audio Visual Rental, Weddings]
@@ -21,7 +21,7 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Wondering when to book wedding AV rentals in Malaga? We do not publish a fixed lead time, and be wary of anyone who quotes you one as a hard rule: what actually matters is that wedding dates, especially in peak season, and the technicians who work them fill up. Book once your date and venue are confirmed, and the earlier you do, the more likely your first choice date is still open. If you have not settled on a package yet, our [how to choose wedding rentals](/blog/how-to-choose-wedding-rentals/) guide walks through the six questions, starting with guest count, that decide between the Eco Pack and the Wedding Pack, before you get to timing your booking.
+Wondering when to book wedding AV rentals in Malaga? We do not publish a fixed lead time, and be wary of anyone who quotes you one as a hard rule: what actually matters is that wedding dates, especially in peak season, and the technicians who work them fill up. Book once your date and venue are confirmed, and the earlier you do, the more likely your first choice date is still open. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview. If you have not settled on a package yet, our [how to choose wedding rentals](/blog/how-to-choose-wedding-rentals/) guide walks through the six questions, starting with guest count, that decide between the Eco Pack and the Wedding Pack, before you get to timing your booking.
 
 ## Brief Overview
 
