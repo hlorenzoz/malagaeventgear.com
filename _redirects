@@ -40,6 +40,12 @@
 # covers (2026-07-29):
 /blog/styling-your-wedding-rental-pieces/  /blog/lighting-ideas-for-wedding-rentals/  301
 
+# Retired: final keyword in the wedding-rentals silo AV-only rewrite (23/23). Every honest
+# delivery fact (delivery-only model, 24 hour notice, crew handles any weather) was already
+# absorbed by managing-last-minute-wedding-rental-changes and weather-considerations-for-
+# outdoor-rentals during their own rewrites; nothing distinct remained to write (2026-07-30):
+/blog/tips-for-wedding-rental-delivery/  /blog/weather-considerations-for-outdoor-rentals/  301
+
 # BEGIN wp-blog-redirects (managed — do not edit manually)
 /news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/  /blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/  301
 /news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/  /blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/  301
@@ -62,7 +68,7 @@
 /must-have-wedding-reception-rentals/  /blog/essential-items-for-wedding-rentals/  301
 /outdoor-wedding-tent-rental-care/  /blog/outdoor-wedding-tent-rental-care/  301
 /seating-arrangement-tips-for-rentals/  /blog/wedding-rentals/  301
-/tips-for-wedding-rental-delivery/  /blog/tips-for-wedding-rental-delivery/  301
+/tips-for-wedding-rental-delivery/  /blog/weather-considerations-for-outdoor-rentals/  301
 /all-in-one-wedding-rental-packages/  /blog/all-in-one-wedding-rental-packages/  301
 /eco-friendly-wedding-rental-options/  /blog/eco-friendly-wedding-rental-options/  301
 /essential-items-for-wedding-rentals/  /blog/essential-items-for-wedding-rentals/  301
