@@ -63,11 +63,13 @@ export interface SiloChild {
 	key: string;
 	url: string;
 	updated?: string;
+	publishDate?: string;
 }
 export interface SiloNode {
 	key: string;
 	url: string;
 	updated?: string;
+	publishDate?: string;
 	kids: SiloChild[];
 }
 export interface TaxonomyNode {
@@ -206,13 +208,15 @@ function buildSilos(
 			.map((k) => ({
 				key: k.keyword || k.slug,
 				url: k.url,
-				updated: k.updatedDate ?? k.publishDate
+				updated: k.updatedDate,
+				publishDate: k.publishDate
 			}))
 			.sort(byUpdatedAsc);
 		return {
 			key: pillar.keyword || pillar.slug,
 			url: pillar.url,
-			updated: pillar.updatedDate ?? pillar.publishDate,
+			updated: pillar.updatedDate,
+			publishDate: pillar.publishDate,
 			kids
 		};
 	});
@@ -223,7 +227,8 @@ function buildSilos(
 		.map((p) => ({
 			key: p.keyword || p.slug,
 			url: p.url,
-			updated: p.updatedDate ?? p.publishDate
+			updated: p.updatedDate,
+			publishDate: p.publishDate
 		}));
 
 	const standalone: SiloChild[] = posts
@@ -232,7 +237,8 @@ function buildSilos(
 		.map((p) => ({
 			key: p.keyword || p.slug,
 			url: p.url,
-			updated: p.updatedDate ?? p.publishDate
+			updated: p.updatedDate,
+			publishDate: p.publishDate
 		}));
 
 	return { silos, news, standalone };

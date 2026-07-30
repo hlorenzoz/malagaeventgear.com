@@ -151,8 +151,9 @@
 	// --- IndexNow (Bing/Yandex) — botón por nodo y envío global Batch vía /api/indexnow ---
 	// url absoluta -> `contentUpdatedAt` de la última sumisión exitosa.
 	let indexnowSubmissions = $state<Record<string, string>>({});
-	function needsIndexNow(url: string, updated?: string): boolean {
-		return computeNeedsIndexNow(new Date(), updated, indexnowSubmissions[abs(url)]);
+	function needsIndexNow(url: string, updated?: string, publishDate?: string): boolean {
+		const effective = updated || publishDate;
+		return computeNeedsIndexNow(new Date(), effective, indexnowSubmissions[abs(url)]);
 	}
 
 	interface EligibleNode {
@@ -162,19 +163,20 @@
 
 	let pendingIndexNowNodes = $derived.by(() => {
 		const list: EligibleNode[] = [];
-		const check = (url: string, updated?: string) => {
-			if (updated && needsIndexNow(url, updated)) {
-				list.push({ url, updated });
+		const check = (url: string, updated?: string, publishDate?: string) => {
+			const effective = updated || publishDate;
+			if (effective && computeNeedsIndexNow(new Date(), effective, indexnowSubmissions[abs(url)])) {
+				list.push({ url, updated: effective });
 			}
 		};
 
 		for (const p of [...view.corePages, ...view.legalPages, ...view.utilityPages]) check(p.url, p.updated);
 		for (const pk of view.packages) check(pk.url, pk.updated);
 		for (const s of view.silos) {
-			check(s.url, s.updated);
-			for (const k of s.kids) check(k.url, k.updated);
+			check(s.url, s.updated, s.publishDate);
+			for (const k of s.kids) check(k.url, k.updated, k.publishDate);
 		}
-		for (const p of [...view.standalone, ...view.news]) check(p.url, p.updated);
+		for (const p of [...view.standalone, ...view.news]) check(p.url, p.updated, p.publishDate);
 		for (const c of view.categories) check(c.url, c.updated);
 		for (const a of view.authors) check(a.url, a.updated);
 
@@ -375,12 +377,12 @@
 		</button>
 	{/snippet}
 
-	{#snippet keyActions(keyText: string, url: string, updated?: string, trackGsc?: boolean)}
+	{#snippet keyActions(keyText: string, url: string, updated?: string, trackGsc?: boolean, publishDate?: string)}
 		<span class="kactions">
 			{@render copyBtn(keyText, 'key')}
 			{@render copyBtn(abs(url), 'url', trackGsc ? () => markGscHandled(url) : undefined)}
-			{#if needsIndexNow(url, updated)}
-				{@render indexNowBtn(url, updated!)}
+			{#if needsIndexNow(url, updated, publishDate)}
+				{@render indexNowBtn(url, (updated || publishDate)!)}
 			{/if}
 		</span>
 	{/snippet}
@@ -507,7 +509,7 @@
 							{/if}
 						</button>
 					</div>
-					<h2><a href={silo.url}>{silo.key}</a>{@render keyActions(silo.key, silo.url, silo.updated)}</h2>
+					<h2><a href={silo.url}>{silo.key}</a>{@render keyActions(silo.key, silo.url, silo.updated, false, silo.publishDate)}</h2>
 					<div class="pillar-meta">
 						<span class="up">↑ links to /</span> · <span class="mono">{silo.kids.length} shown</span>
 						{#if silo.updated} · updated {dateOnly(silo.updated)}{/if}
@@ -554,7 +556,7 @@
 									<span class="k-date stale">— never</span>
 								{/if}
 							</a>
-							{@render keyActions(kid.key, kid.url, kid.updated, true)}
+							{@render keyActions(kid.key, kid.url, kid.updated, true, kid.publishDate)}
 						</li>
 					{/each}
 					{#if silo.kids.length === 0}<li class="empty">No matches</li>{/if}
@@ -598,7 +600,7 @@
 			<div class="card-head"><span class="dot news"></span><h2>News</h2><span class="sub">targets home</span></div>
 			<ul class="flat">
 				{#each filteredNews as p (p.url)}
-					<li><a href={p.url}><span class="k-dot news"></span><span class="k-key">{p.key}</span></a>{@render keyActions(p.key, p.url, p.updated)}</li>
+					<li><a href={p.url}><span class="k-dot news"></span><span class="k-key">{p.key}</span></a>{@render keyActions(p.key, p.url, p.updated, false, p.publishDate)}</li>
 				{/each}
 			</ul>
 		</section>
@@ -607,7 +609,7 @@
 			<div class="card-head"><span class="dot standalone"></span><h2>Standalone</h2><span class="sub">not in any silo</span></div>
 			<ul class="flat">
 				{#each filteredStandalone as p (p.url)}
-					<li><a href={p.url}><span class="k-dot standalone"></span><span class="k-key">{p.key}</span></a>{@render keyActions(p.key, p.url, p.updated)}</li>
+					<li><a href={p.url}><span class="k-dot standalone"></span><span class="k-key">{p.key}</span></a>{@render keyActions(p.key, p.url, p.updated, false, p.publishDate)}</li>
 				{/each}
 			</ul>
 		</section>
