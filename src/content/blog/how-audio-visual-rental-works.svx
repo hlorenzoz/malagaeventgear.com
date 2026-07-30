@@ -21,7 +21,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Wondering how audio visual rental works before you book? At Malaga Event Gear, it is a full-service delivery model: you never collect or transport equipment yourself. Our crew delivers, installs, tests and collects everything, with a technician included or available depending on the package.
+Wondering how audio visual rental works before you book? At Malaga Event Gear, it is a full service delivery model: you never collect or transport equipment yourself. Our crew delivers, installs, tests and collects everything, with a technician included or available depending on the package.
 
 This page walks through the actual process, from your first quote to the equipment leaving your venue.
 
@@ -48,15 +48,15 @@ This page walks through the actual process, from your first quote to the equipme
 
 ---
 
-Audio visual rental at Malaga Event Gear is a full-service delivery model: our crew delivers, installs, tests and collects the equipment, so you are never handling it yourself. Backed by experience going back to 1996, we serve weddings, corporate events and private parties across Malaga and the wider Costa del Sol.
+Audio visual rental at Malaga Event Gear is a full service delivery model: our crew delivers, installs, tests and collects the equipment, so you are never handling it yourself. Backed by experience going back to 1996, we serve weddings, corporate events and private parties across Malaga and the wider Costa del Sol.
 
-Read on for the real step-by-step process, what is included in the price, and when a technician is part of the package.
+Read on for the real step by step process, what is included in the price, and when a technician is part of the package.
 
 ## Key Highlights
 
 ---
 
-Audio visual rental at Malaga Event Gear is a full-service delivery model, not a self-collect one.
+Audio visual rental at Malaga Event Gear is a full service delivery model, not a self collect one.
 
 -   We deliver, install, test and collect every booking ourselves.
 
@@ -78,7 +78,7 @@ Here is what actually happens when you book with us:
 
 ## What's Included in the Price
 
-Every package price on our [packages page](/packages/) is shown live from our catalog, ex VAT, with 21 percent Spanish VAT added at checkout. Delivery, setup and teardown are always included in that price: this is a full-service delivery model, not a self-collect or warehouse-pickup one.
+Every package price on our [packages page](/packages/) is shown live from our catalog, ex VAT, with 21 percent Spanish VAT added at checkout. Delivery, setup and teardown are always included in that price: this is a full service delivery model, not a self collect or warehouse pickup one.
 
 <InlineCTA />
 
@@ -122,7 +122,7 @@ A wedding reception table glows under string lights and lanterns, with pink hydr
 
 ![Audio-visual system for a congress at Hotel Alfonso XIII.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-1024x765.webp)
 
-A grand stage set up in the opulent setting of Hotel Alfonso XIII, complete with audio-visual equipment for a congress.
+A grand stage set up in the opulent setting of Hotel Alfonso XIII, complete with audio visual equipment for a congress.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('eco')} speed="normal" direction="left" />
@@ -132,7 +132,7 @@ A grand stage set up in the opulent setting of Hotel Alfonso XIII, complete with
 
 A few things worth checking before you book with any provider:
 
--   **A full-service delivery model.** Ask whether the company delivers, installs and collects the equipment, or whether you are expected to pick it up and set it up yourself.
+-   **A full service delivery model.** Ask whether the company delivers, installs and collects the equipment, or whether you are expected to pick it up and set it up yourself.
 -   **Transparent, itemized pricing.** You should see exactly what is included in the price, not a vague quote.
 -   **Clarity on technician support.** Ask whether a technician is included on your specific package or only available as an add on.
 -   **Real experience in your area.** A local provider understands venue logistics and delivery timing on the Costa del Sol.
@@ -149,7 +149,7 @@ Wondering what you can add to a package once you have booked it? See our [how to
 
 ### How does audio visual equipment work?
 
-Audio-visual systems combine sound and visual technology: microphones and playback devices as inputs, mixers and amplifiers to process the signal, and speakers, projectors or displays as outputs, all working together to reach your audience.
+Audio visual systems combine sound and visual technology: microphones and playback devices as inputs, mixers and amplifiers to process the signal, and speakers, projectors or displays as outputs, all working together to reach your audience.
 
 ### Is it cheaper to rent or buy a sound system?
 
@@ -161,7 +161,7 @@ Get a quote from our [packages page](/packages/), confirm your booking, and our 
 
 ### Is setup and teardown included in the price, or is it extra?
 
-Setup and teardown are always included in the price shown on our [packages page](/packages/). This is a full-service delivery model: our crew installs, tests and collects the equipment, you never do it yourself.
+Setup and teardown are always included in the price shown on our [packages page](/packages/). This is a full service delivery model: our crew installs, tests and collects the equipment, you never do it yourself.
 
 ### Why is technical support important during events with AV rentals?
 
