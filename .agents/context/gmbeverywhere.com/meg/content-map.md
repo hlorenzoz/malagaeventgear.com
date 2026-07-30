@@ -27,11 +27,11 @@ Pillar: `audio-visual-rental` (existing, target `/`)
 | 8 | Audio interface rental | covered | sound-system-rental | 1 | MEG has no recording/podcasting-style audio interface, only presentation HDMI/USB-C adapters. Folded in as a disambiguation FAQ (2026-07-30). |
 | 9 | Projector rental | covered | projector-rental | 1 | Published 2026-07-30. Host page for the projection-screen fold-in. |
 | 10 | Projection screen rental | covered | projector-rental | 1 | MEG never sells a screen without a projector (packages.ts bundles them in every package). Folded in as an FAQ + phrase reinforcement on projector-rental.svx (2026-07-30). |
-| 11 | LED wall rental | pending | tv-screen-rental | 1 | Planned fold-in (not yet written): MEG's catalog has only the MICE Pack's single 60-inch flat LED display, no modular tiled LED wall product. Will become an honest "we don't carry that" FAQ on tv-screen-rental.svx. |
-| 12 | Video wall rental | pending | tv-screen-rental | 1 | Same as #11 — near-synonym of LED wall rental, no multi-monitor array product in MEG's catalog. Planned fold-in on tv-screen-rental.svx. |
-| 13 | TV screen rental | pending | tv-screen-rental | 1 | Planned STANDALONE page (host for the flat-display cluster: #11, #12, #14, #15). Real product: MICE Pack's 60-inch LED display, 490 euros, up to 120 guests. |
-| 14 | Display monitor rental | pending | tv-screen-rental | 1 | Pure synonym of TV screen rental (confirmed via competitor SERP). Planned fold-in on tv-screen-rental.svx. |
-| 15 | Plasma screen rental | pending | tv-screen-rental | 1 | Legacy umbrella term for any flat-panel screen, not real plasma tech (obsolete). Planned fold-in on tv-screen-rental.svx. |
+| 11 | LED wall rental | covered | tv-screen-rental | 1 | MEG's catalog has only the MICE Pack's single 60-inch flat LED display, no modular tiled LED wall product. Honest "we don't carry that" FAQ on tv-screen-rental.svx (2026-07-30). |
+| 12 | Video wall rental | covered | tv-screen-rental | 1 | Same as #11 — near-synonym of LED wall rental, no multi-monitor array product in MEG's catalog. Folded into the same FAQ. |
+| 13 | TV screen rental | covered | tv-screen-rental | 1 | Published 2026-07-30. Standalone host page for the flat-display cluster (#11, #12, #14, #15). Real product: MICE Pack's 60-inch LED display, 490 euros, up to 120 guests. |
+| 14 | Display monitor rental | covered | tv-screen-rental | 1 | Pure synonym of TV screen rental (confirmed via competitor SERP). Folded in as a direct FAQ answer (2026-07-30). |
+| 15 | Plasma screen rental | covered | tv-screen-rental | 1 | Legacy umbrella term for any flat-panel screen, not real plasma tech (obsolete). Folded in as a direct FAQ answer (2026-07-30). |
 | 16 | Camera rental | pending | camera-rental | | Distinct by design from "Video camera rental" in the supplier category (fixed.md line 215): this is the event-rental angle. |
 | 17 | Video equipment rental | pending | video-equipment-rental | | - |
 | 18 | DJ equipment rental | pending | dj-equipment-rental | | - |
@@ -313,7 +313,7 @@ Pillar: `stage-lighting-equipment-supplier` (new, working title "Stage Lighting 
 
 | Category | Pillar slug | Total services | Pending | Covered | Risk | Batch-1 count |
 | -------- | ----------- | --------------- | ------- | ------- | ---- | -------------- |
-| Audio visual equipment hire service (primary) | audio-visual-rental (existing) | 44 | 33 | 10 | 1 | 15 |
+| Audio visual equipment hire service (primary) | audio-visual-rental (existing) | 44 | 28 | 15 | 1 | 15 |
 | Audiovisual equipment rental service | audiovisual-equipment-rental-service | 19 | 19 | 0 | 0 | 15 |
 | Event technology service | event-technology-service | 46 | 46 | 0 | 0 | 15 |
 | Audio visual equipment supplier | audio-visual-equipment-supplier | 39 | 38 | 0 | 1 | 15 |
