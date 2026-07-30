@@ -225,11 +225,12 @@
 					<Icon name="mail" size="20" />
 				</a>
 				<a 
-					class="w-10 h-10 rounded-full glass-panel flex items-center justify-center text-primary hover:text-electric-blue hover:bg-white/10 active:scale-95 transition-all duration-300" 
+					class="flex items-center gap-1.5 px-3 py-1.5 h-10 rounded-full glass-panel hover:bg-white/10 text-on-surface hover:text-electric-blue transition-colors duration-300 font-label-sm text-xs sm:text-sm active:scale-95" 
 					href={siteConfig.phoneCallUrl}
-					aria-label="Call by phone"
+					aria-label="Call Malaga Event Gear: {siteConfig.contactPhone}"
 				>
-					<Icon name="call" size="20" />
+					<Icon name="call" size="18" className="text-electric-blue shrink-0" />
+					<span class="font-semibold whitespace-nowrap">{siteConfig.contactPhone}</span>
 				</a>
 			</div>
 		</div>
