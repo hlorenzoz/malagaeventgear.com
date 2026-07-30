@@ -16,8 +16,7 @@ export const prerender = false;
 /**
  * Every real URL the site knows about, with its `updated` date if it has one. Built from the
  * SAME `buildSiteMap` view /map itself renders, so the allow-list can never drift from what a
- * user actually sees a button next to. Categories/authors are intentionally excluded: they
- * have no `updated` date and are not individually reindex-worthy targets.
+ * user actually sees a button next to.
  */
 function knownNodes(): Map<string, string | undefined> {
 	const view = buildSiteMap({
@@ -39,6 +38,8 @@ function knownNodes(): Map<string, string | undefined> {
 		for (const k of s.kids) add(k.url, k.updated);
 	}
 	for (const p of [...view.standalone, ...view.news]) add(p.url, p.updated);
+	for (const c of view.categories) add(c.url, c.updated);
+	for (const a of view.authors) add(a.url, a.updated);
 
 	return nodes;
 }
