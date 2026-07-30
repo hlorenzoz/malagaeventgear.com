@@ -226,7 +226,7 @@
 				</a>
 				<a 
 					class="w-10 h-10 rounded-full glass-panel flex items-center justify-center text-primary hover:text-electric-blue hover:bg-white/10 active:scale-95 transition-all duration-300" 
-					href="tel:+34600428750"
+					href={siteConfig.phoneCallUrl}
 					aria-label="Call by phone"
 				>
 					<Icon name="call" size="20" />

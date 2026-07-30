@@ -16,7 +16,7 @@ export const siteConfig = {
 	url: 'https://malagaeventgear.com',
 	logoUrl: 'https://malagaeventgear.com/logo.png', // Logo principal para Google Knowledge Graph
 	contactEmail: 'contact@malagaeventgear.com',
-	contactPhone: '+34 600 42 87 50',
+	contactPhone: '600 42 87 50',
 	phoneCallUrl: 'tel:+34600428750',
 	whatsappUrl: 'https://wa.me/34600428750',
 	// Dirección de display (footer), idéntica a la ficha de Google Maps / GMB (NAP consistente).

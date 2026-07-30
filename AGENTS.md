@@ -227,7 +227,7 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
 - **NAP exacto** (de `site.ts`, debe coincidir carácter por carácter en cada mención del sitio):
   - Name: `Malaga Event Gear`
   - Address: `Av. de Barcelona, 34, Distrito Centro, 29009 Málaga`
-  - Phone: `+34 600 42 87 50`
+  - Phone: `600 42 87 50`
 - **GBP**: categoría primaria `Audio Visual Equipment Hire Service` (primera de
   `siteConfig.categories`; confirmar contra la ficha viva antes de trabajo de estructura);
   secundarias: `Party equipment rental service`, `Stage lighting equipment supplier`,

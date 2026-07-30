@@ -3,6 +3,7 @@
 	import { onMount } from 'svelte';
 	import { afterNavigate } from '$app/navigation';
 	import { i18n } from '$lib/i18n.svelte';
+	import { siteConfig } from '$lib/data/site';
 	import Icon from '$lib/components/navigation/Icon.svelte';
 
 	// Estado reactivo con runes de Svelte 5
@@ -165,7 +166,7 @@
 			<!-- Phone Call Button (Direct dial for quick contact) -->
 			<a
 				class="flex items-center justify-center w-10 h-10 rounded-full glass-panel hover:bg-white/10 text-primary hover:text-electric-blue transition-colors duration-300"
-				href="tel:+34600428750"
+				href={siteConfig.phoneCallUrl}
 				aria-label="Call Malaga Event Gear"
 			>
 				<Icon name="call" size="22" />
