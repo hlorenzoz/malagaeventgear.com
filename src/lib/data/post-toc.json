@@ -2634,6 +2634,11 @@
       "id": "is-a-pa-system-rental-the-same-as-a-sound-system-rental",
       "text": "Is a PA system rental the same as a sound system rental?",
       "level": 3
+    },
+    {
+      "id": "do-you-offer-a-portable-battery-powered-or-self-collect-pa-system",
+      "text": "Do you offer a portable, battery-powered or self-collect PA system?",
+      "level": 3
     }
   ],
   "wedding-rentals-near-me": [

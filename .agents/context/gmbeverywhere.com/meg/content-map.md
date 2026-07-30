@@ -19,7 +19,7 @@ Pillar: `audio-visual-rental` (existing, target `/`)
 | - | ------- | ------ | ---------------------------- | ----- | ----- |
 | 1 | Sound system rental | covered | sound-system-rental | 1 | Published 2026-07-30. |
 | 2 | PA system rental | covered | sound-system-rental | 1 | Not a standalone page: SERP research showed "PA system rental" and "sound system rental" are the same intent, and MEG has no distinct PA-only product. Folded in as an FAQ + verbatim phrase on sound-system-rental.svx (2026-07-30). |
-| 3 | Portable PA system rental | risk | portable-pa-system-rental | 1 | Business-scope check needed before drafting: MEG's catalog (packages.ts) has zero self-collect/battery/portable product — every package is delivered-installed-collected by MEG's own crew. The real market differentiator for "portable PA" (battery power, wheels, self-collect) doesn't exist in MEG's inventory. Confirm with the business whether this is offered before writing; otherwise this should also fold into sound-system-rental.svx or be dropped. |
+| 3 | Portable PA system rental | covered | sound-system-rental | 1 | Business confirmed 2026-07-30: MEG never offers self-collect/battery-powered equipment. Folded in as an honest FAQ on sound-system-rental.svx rather than a standalone page. |
 | 4 | Speaker rental | pending | speaker-rental | 1 | - |
 | 5 | Microphone rental | pending | microphone-rental | 1 | - |
 | 6 | Wireless microphone rental | pending | wireless-microphone-rental | 1 | - |
@@ -313,7 +313,7 @@ Pillar: `stage-lighting-equipment-supplier` (new, working title "Stage Lighting 
 
 | Category | Pillar slug | Total services | Pending | Covered | Risk | Batch-1 count |
 | -------- | ----------- | --------------- | ------- | ------- | ---- | -------------- |
-| Audio visual equipment hire service (primary) | audio-visual-rental (existing) | 44 | 41 | 2 | 1 | 15 |
+| Audio visual equipment hire service (primary) | audio-visual-rental (existing) | 44 | 40 | 3 | 1 | 15 |
 | Audiovisual equipment rental service | audiovisual-equipment-rental-service | 19 | 19 | 0 | 0 | 15 |
 | Event technology service | event-technology-service | 46 | 46 | 0 | 0 | 15 |
 | Audio visual equipment supplier | audio-visual-equipment-supplier | 39 | 38 | 0 | 1 | 15 |
