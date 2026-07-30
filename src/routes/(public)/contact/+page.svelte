@@ -240,8 +240,8 @@
 							</div>
 							<div>
 								<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest mb-1">{i18n.t.contact.phone}</p>
-								<a class="font-body-lg text-body-lg hover:text-electric-blue transition-colors text-on-surface" href="tel:+34600428750">
-									+34 600 42 87 50
+								<a class="font-body-lg text-body-lg hover:text-electric-blue transition-colors text-on-surface" href={siteConfig.phoneCallUrl}>
+									{siteConfig.contactPhone}
 								</a>
 							</div>
 						</div>

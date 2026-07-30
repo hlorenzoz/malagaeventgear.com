@@ -33,7 +33,7 @@ test.describe('Structured Data (Schema.org) E2E Validation Tests', () => {
 		expect(localBusiness).toBeDefined();
 		expect(localBusiness.name).toBe('Malaga Event Gear');
 		expect(localBusiness.url).toBe('https://malagaeventgear.com');
-		expect(localBusiness.telephone).toBe('+34 600 42 87 50');
+		expect(localBusiness.telephone).toBe('600 42 87 50');
 		expect(localBusiness.address.postalCode).toBe('29009');
 		expect(localBusiness.geo.latitude).toBe(36.7243);
 
