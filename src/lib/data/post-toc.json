@@ -2629,6 +2629,11 @@
       "id": "can-you-set-up-a-sound-system-outdoors-or-only-indoors",
       "text": "Can you set up a sound system outdoors, or only indoors?",
       "level": 3
+    },
+    {
+      "id": "is-a-pa-system-rental-the-same-as-a-sound-system-rental",
+      "text": "Is a PA system rental the same as a sound system rental?",
+      "level": 3
     }
   ],
   "wedding-rentals-near-me": [
