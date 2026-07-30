@@ -2639,6 +2639,11 @@
       "id": "do-you-offer-a-portable-battery-powered-or-self-collect-pa-system",
       "text": "Do you offer a portable, battery-powered or self-collect PA system?",
       "level": 3
+    },
+    {
+      "id": "can-i-rent-just-speakers-without-a-microphone-or-technician",
+      "text": "Can I rent just speakers, without a microphone or technician?",
+      "level": 3
     }
   ],
   "wedding-rentals-near-me": [
