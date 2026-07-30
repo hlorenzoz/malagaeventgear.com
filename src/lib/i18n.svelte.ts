@@ -265,6 +265,13 @@ export const translations = {
 		gallery: {
 			titleHome: 'Our Events in Action',
 			titlePackage: 'Past {pack} Events'
+		},
+		// Google Map / Profile
+		googleMap: {
+			badge: 'Location & Google Profile',
+			title: 'Find Us on Google',
+			subtitle: 'Visit our official Google Business Profile or view our location in Malaga.',
+			viewOnGoogle: 'View on Google Maps'
 		}
 	},
 	es: {
@@ -523,6 +530,13 @@ export const translations = {
 		gallery: {
 			titleHome: 'Nuestros Eventos en Acción',
 			titlePackage: 'Eventos Anteriores de {pack}'
+		},
+		// Google Map / Profile
+		googleMap: {
+			badge: 'Ubicación y Perfil de Google',
+			title: 'Encontranos en Google',
+			subtitle: 'Visitá nuestro perfil oficial de Google Business o mirá nuestra ubicación en Málaga.',
+			viewOnGoogle: 'Ver en Google Maps'
 		}
 	}
 } as const;
