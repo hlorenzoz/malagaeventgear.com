@@ -4,7 +4,7 @@ description: "Wedding rentals online with Malaga Event Gear: see exact Wedding P
 author: Hector Luis Lorenzo
 slug: wedding-rentals-online
 publishDate: "2026-01-08"
-updatedDate: "2026-07-28"
+updatedDate: "2026-07-30"
 excerpt: "Live pricing and an online quote form get your Wedding Pack request in without a phone call or a showroom visit. A real person still confirms the booking after that: here is exactly where the online part ends."
 coverImage: https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding.webp
 categories: [Audio Visual Rental, Weddings]
@@ -21,7 +21,7 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-"Wedding rentals online" usually means browsing a catalog and checking out with a card. That is not quite what Malaga Event Gear offers today, and it is worth being precise about which parts of booking the [Wedding Pack](/packages/wedding/) are genuinely online and which still involve a person. This page is about the booking process itself: what you can do on the site before anyone calls you back. For delivery, service area and what actually shows up at your venue, see our [wedding rentals near me](/blog/wedding-rentals-near-me/) guide instead, since that ground is already covered there.
+"Wedding rentals online" usually means browsing a catalog and checking out with a card. That is not quite what Malaga Event Gear offers today, and it is worth being precise about which parts of booking the [Wedding Pack](/packages/wedding/) are genuinely online and which still involve a person. This page is about the booking process itself: what you can do on the site before anyone calls you back. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview. For delivery, service area and what actually shows up at your venue, see our [wedding rentals near me](/blog/wedding-rentals-near-me/) guide instead, since that ground is already covered there.
 
 ## Brief Overview
 

@@ -4,7 +4,7 @@ description: "What to ask before booking wedding AV in Malaga: what's included, 
 author: Hector Luis Lorenzo
 slug: questions-to-ask-wedding-rental-companies
 publishDate: 2026-01-11
-updatedDate: "2026-07-28"
+updatedDate: "2026-07-30"
 excerpt: "What to ask before booking wedding AV in Malaga: what's included, is a technician on site, how many guests it covers, and the price. A checklist for vetting a provider."
 coverImage: https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding.webp
 categories: [Audio Visual Rental, Weddings]
@@ -21,7 +21,7 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Before you book a wedding AV rental company in Malaga, ask a few direct questions: what exactly is included, is a technician on site during the event, how many guests can the sound system cover, and what does it actually cost. A vague answer to any of these is worth pausing on. If you have not settled on a package yet, our [how to choose wedding rentals](/blog/how-to-choose-wedding-rentals/) guide walks through the six questions, starting with guest count, that decide between the Eco Pack and the Wedding Pack, before you get to vetting a provider.
+Before you book a wedding AV rental company in Malaga, ask a few direct questions: what exactly is included, is a technician on site during the event, how many guests can the sound system cover, and what does it actually cost. A vague answer to any of these is worth pausing on. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview. If you have not settled on a package yet, our [how to choose wedding rentals](/blog/how-to-choose-wedding-rentals/) guide walks through the six questions, starting with guest count, that decide between the Eco Pack and the Wedding Pack, before you get to vetting a provider.
 
 ## Brief Overview
 
