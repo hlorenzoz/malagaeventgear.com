@@ -267,6 +267,28 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
     Video wall SÍ sigue siendo un "no" categórico (pantalla de gran formato es un panel plano
     único de 60 pulgadas, no un muro modular) - no confundir los dos casos aunque `faq.ts`
     los mencionaba juntos históricamente.
+  - **Iluminación real corregida (confirmado 2026-07-31 por el negocio)**: la categoría
+    LUMINARIA del CSV son exactamente 4 items: 2x barra Eurolite LED KLS-200 (4 focos fijos
+    orientables a mano + pedal), 1x ADJ Encore FRI50Z (Fresnel de zoom, fijo), 1x ADJ Element
+    H6 Pack (kit de uplighting inalámbrico a batería, 6 focos, item aparte no incluido en
+    ningún paquete). Ninguno es un "moving head" (cabeza robótica DMX pan/tilt) real - esa
+    frase (`Beam/Spot moving head fixtures`) era una exageración del copy de marketing en
+    `src/routes/(public)/equipment/+page.svelte`, ya corregida junto con las 2 páginas pillar
+    y otras menciones menores. El uplighting SÍ es real (antes negado como "no ofrecemos
+    uplighting como fixture independiente" en varias páginas, incluida
+    `lighting-ideas-for-wedding-rentals.svx` cuya tesis entera dependía de esa negación - ya
+    corregida para aclarar que el kit existe pero no está incluido en el Wedding Pack ni el
+    Eco Pack).
+  - **Micrófonos de corbata/diadema reales (confirmado 2026-07-31 por el negocio)**: el CSV
+    lista 2x sets inalámbricos AUDIX RAD-360 de corbata y 1x AUDIX-HT5 de diadema. La negación
+    "no ofrecemos micrófonos de corbata ni diadema" (antes en `sound-system-rental.svx` y el
+    pillar) era falsa, ya corregida en ambos: son un item aparte, no incluido en los paquetes
+    estándar.
+  - **Gotcha abierto, NO resuelto todavía**: múltiples páginas afirman "Shure wireless
+    microphones", pero la única marca de micrófono inalámbrico que aparece en el CSV
+    itemizado es Audix (serie RAD-360). No se ha confirmado con el negocio si esto es un error
+    de marca en el copy o si Shure también es real pero no está itemizado. No asumir ningún
+    lado, confirmar antes de tocar contenido relacionado con la marca del micrófono.
 
 ## Honestidad (sobreescribe cualquier regla anterior)
 
