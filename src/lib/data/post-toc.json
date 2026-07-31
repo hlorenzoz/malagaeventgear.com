@@ -2140,6 +2140,113 @@
       "level": 3
     }
   ],
+  "event-technology-service": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "why-event-technology-means-something-different-here",
+      "text": "Why \"Event Technology\" Means Something Different Here",
+      "level": 2
+    },
+    {
+      "id": "event-lighting",
+      "text": "Event Lighting",
+      "level": 2
+    },
+    {
+      "id": "stage-design-and-setup",
+      "text": "Stage Design and Setup",
+      "level": 2
+    },
+    {
+      "id": "on-site-technical-support",
+      "text": "On Site Technical Support",
+      "level": 2
+    },
+    {
+      "id": "what-we-dont-offer",
+      "text": "What We Don't Offer",
+      "level": 2
+    },
+    {
+      "id": "real-event-technology-setups-weve-delivered",
+      "text": "Real Event Technology Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "how-far-in-advance-to-book",
+      "text": "How Far in Advance to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "what-is-event-technology-and-what-does-meg-actually-provide",
+      "text": "What Is \"Event Technology\" and What Does MEG Actually Provide?",
+      "level": 3
+    },
+    {
+      "id": "is-event-technology-the-same-as-audiovisual-equipment-rental",
+      "text": "Is Event Technology the Same as Audiovisual Equipment Rental?",
+      "level": 3
+    },
+    {
+      "id": "do-you-provide-event-lighting-technology",
+      "text": "Do You Provide Event Lighting Technology?",
+      "level": 3
+    },
+    {
+      "id": "what-is-stage-design-and-setup-and-do-you-offer-it",
+      "text": "What Is Stage Design and Setup, and Do You Offer It?",
+      "level": 3
+    },
+    {
+      "id": "do-you-provide-on-site-technical-support",
+      "text": "Do You Provide On Site Technical Support?",
+      "level": 3
+    },
+    {
+      "id": "do-you-offer-live-streaming-or-event-technology-for-hybrid-or-virtual-events",
+      "text": "Do You Offer Live Streaming or Event Technology for Hybrid or Virtual Events?",
+      "level": 3
+    },
+    {
+      "id": "do-you-provide-video-mapping-or-led-and-video-walls",
+      "text": "Do You Provide Video Mapping or LED and Video Walls?",
+      "level": 3
+    },
+    {
+      "id": "do-you-offer-interactive-touchscreens-kiosks-or-audience-response-technology",
+      "text": "Do You Offer Interactive Touchscreens, Kiosks or Audience Response Technology?",
+      "level": 3
+    },
+    {
+      "id": "do-you-provide-event-apps-rfid-tracking-or-ticketing-technology",
+      "text": "Do You Provide Event Apps, RFID Tracking or Ticketing Technology?",
+      "level": 3
+    },
+    {
+      "id": "how-far-in-advance-should-i-book-event-technology-for-my-event",
+      "text": "How Far in Advance Should I Book Event Technology for My Event?",
+      "level": 3
+    }
+  ],
   "what-renting-av-gear-in-malaga-taught-me-about-smart-business": [
     {
       "id": "get-the-best-audio-visual-rentals-in-malaga-today",
