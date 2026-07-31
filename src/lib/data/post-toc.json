@@ -3951,6 +3951,108 @@
       "level": 3
     }
   ],
+  "av-technician-hire": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "technician-by-package-whats-included-and-what-costs-extra",
+      "text": "Technician by Package: What's Included and What Costs Extra",
+      "level": 2
+    },
+    {
+      "id": "what-an-av-technician-actually-does-on-site",
+      "text": "What an AV Technician Actually Does On Site",
+      "level": 2
+    },
+    {
+      "id": "can-you-hire-just-a-technician-without-the-equipment",
+      "text": "Can You Hire Just a Technician, Without the Equipment?",
+      "level": 2
+    },
+    {
+      "id": "wedding-corporate-or-party-matching-technician-coverage-to-your-event",
+      "text": "Wedding, Corporate or Party: Matching Technician Coverage to Your Event",
+      "level": 2
+    },
+    {
+      "id": "real-technician-setups-weve-delivered",
+      "text": "Real Technician Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "how-to-book-a-technician",
+      "text": "How to Book a Technician",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "can-i-hire-just-an-av-technician-without-renting-your-equipment",
+      "text": "Can I hire just an AV technician, without renting your equipment?",
+      "level": 3
+    },
+    {
+      "id": "which-packages-include-an-av-technician",
+      "text": "Which packages include an AV technician?",
+      "level": 3
+    },
+    {
+      "id": "what-does-an-av-technician-actually-do-during-my-event",
+      "text": "What does an AV technician actually do during my event?",
+      "level": 3
+    },
+    {
+      "id": "how-much-does-it-cost-to-add-a-technician-to-the-basic-mice-pack",
+      "text": "How much does it cost to add a technician to the Basic MICE Pack?",
+      "level": 3
+    },
+    {
+      "id": "is-the-wedding-pack-technician-on-site-for-the-whole-event-or-a-set-number-of-hours",
+      "text": "Is the Wedding Pack technician on site for the whole event, or a set number of hours?",
+      "level": 3
+    },
+    {
+      "id": "what-happens-if-my-event-runs-longer-than-the-mice-packs-6-hour-technician-cap",
+      "text": "What happens if my event runs longer than the MICE Pack's 6 hour technician cap?",
+      "level": 3
+    },
+    {
+      "id": "do-i-need-a-technician-for-a-small-party-or-dj-set",
+      "text": "Do I need a technician for a small party or DJ set?",
+      "level": 3
+    },
+    {
+      "id": "how-far-in-advance-should-i-book-if-i-need-a-technician",
+      "text": "How far in advance should I book if I need a technician?",
+      "level": 3
+    },
+    {
+      "id": "what-experience-does-your-av-technician-have",
+      "text": "What experience does your AV technician have?",
+      "level": 3
+    },
+    {
+      "id": "do-you-provide-an-av-technician-for-events-outside-malaga-city-like-marbella-or-fuengirola",
+      "text": "Do you provide an AV technician for events outside Malaga city, like Marbella or Fuengirola?",
+      "level": 3
+    }
+  ],
   "audio-visual-rental-for-virtual-events": [
     {
       "id": "brief-overview",

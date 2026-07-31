@@ -52,7 +52,7 @@ Pillar: `audio-visual-rental` (existing, target `/`)
 | 27 | Stage rental / Stage hire | duplicate | audiovisual-equipment-rental-service | | Real grounding (MICE Pack staging add-on) but already has a dedicated H2 on the pillar. |
 | 28 | Video switcher rental | blocked-on-equipment-context | - | | Zero grounding, adjacent to the broadcast-production wall. |
 | 29 | Live streaming equipment rental | blocked-on-equipment-context | - | | Zero grounding. Contradicts faq.ts "streaming-recording" entry (see row 16/35 note) - flagged, not resolved. |
-| 30 | AV technician hire | **ready** | av-technician-hire | 2 | HOST for the "hiring the person" angle (skill/role, technician-hours by package). User decided 2026-07-31: 2 pages for the 4-keyword technician/support cluster, this is page 1. |
+| 30 | AV technician hire | covered | av-technician-hire | 2 | Published 2026-07-31. HOST for the "hiring the person" angle (skill/role, technician-hours by package), page 1 of the 2-page technician/support cluster. |
 | 31 | Technical support for events | duplicate | technical-support-for-events | 2 | Folds into technical-support-for-events.svx (page 2 of the cluster, see category 3 row 37) as a synonym phrase, not its own page. |
 | 32 | Cable and connector rental | blocked-on-equipment-context | - | | No standalone cable SKU, only bundled setup work. |
 | 33 | Voting system hire | conflict | - | | audiovisual-equipment-rental-service.svx explicitly denies this. Directly contradicted by faq.ts "translation-voting" entry claiming yes - business-fact decision needed. |

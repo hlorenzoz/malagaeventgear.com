@@ -818,7 +818,7 @@
     },
     {
       "question": "Do you provide a technician with the sound system?",
-      "answer": "Only on some packages. The Eco Pack is delivery, setup and teardown only, with no technician on site. The Basic MICE Pack offers a technician as a paid add on. The Wedding Pack and MICE Pack include a live technician as standard, with the MICE Pack technician on site for up to 6 continuous hours."
+      "answer": "Only on some packages. The Eco Pack is delivery, setup and teardown only, with no technician on site. The Basic MICE Pack offers a technician as a paid add on. The Wedding Pack and MICE Pack include a live technician as standard, with the MICE Pack technician on site for up to 6 continuous hours. For the full breakdown of what that technician actually does on site, and how to book one specifically, see our AV technician hire guide."
     },
     {
       "question": "Do you provide a generator or backup power for the sound system?",
@@ -1233,6 +1233,48 @@
     {
       "question": "How much does audio visual rental cost for a remote presentation?",
       "answer": "Pricing depends on the package: our full catalog, from the Basic MICE Pack up to the MICE Pack for a larger conference room, is listed with exact euro pricing on our packages page. All rates are ex VAT, with 21 percent Spanish VAT added at checkout, and every price includes delivery, setup and teardown."
+    }
+  ],
+  "av-technician-hire": [
+    {
+      "question": "Can I hire just an AV technician, without renting your equipment?",
+      "answer": "No. We do not sell a technician as a standalone service, only as part of one of our own equipment packages. See Can You Hire Just a Technician, Without the Equipment? above."
+    },
+    {
+      "question": "Which packages include an AV technician?",
+      "answer": "The Wedding Pack and MICE Pack include one as standard, the Basic MICE Pack offers one as a paid add on at 240 euros per day, and the Eco Pack does not offer one at all. See Technician by Package above for the full breakdown."
+    },
+    {
+      "question": "What does an AV technician actually do during my event?",
+      "answer": "They run gain staging and signal testing before your event starts, adjust microphone levels live as different speakers take the mic, manage the handoff between speakers so there is no dead air, and fix a dropped connection or a projector that loses sync in the moment. See What an AV Technician Actually Does On Site above."
+    },
+    {
+      "question": "How much does it cost to add a technician to the Basic MICE Pack?",
+      "answer": "240 euros per day, ex VAT, on top of the 295 euro Basic MICE Pack price. The technician is available for the full event day once added."
+    },
+    {
+      "question": "Is the Wedding Pack technician on site for the whole event, or a set number of hours?",
+      "answer": "The whole event, with no hour cap. This is the only package where technician coverage is not limited to a fixed number of hours, which matters for a wedding day that runs from ceremony through dancing."
+    },
+    {
+      "question": "What happens if my event runs longer than the MICE Pack's 6 hour technician cap?",
+      "answer": "Each additional hour is billed at 40 euros. If your event is likely to run past 6 hours, mention your expected run time when you book so we can confirm the technician's availability and cost for the extra hours in advance."
+    },
+    {
+      "question": "Do I need a technician for a small party or DJ set?",
+      "answer": "Usually not. The Eco Pack is a self run PA system with no technician on site, built for a DJ or host who controls their own levels. See our audio visual rental for music performances guide."
+    },
+    {
+      "question": "How far in advance should I book if I need a technician?",
+      "answer": "As early as you can once your event date is confirmed. Demand for technician covered packages, especially the Wedding Pack, peaks during wedding season from April through October, when technicians book up first."
+    },
+    {
+      "question": "What experience does your AV technician have?",
+      "answer": "Our technicians are our own crew, not a subcontracted team, and Malaga Event Gear has operated in the audiovisual rental sector since 1996. Every technician we send is dispatched with our own equipment, which is what they are trained and calibrated on."
+    },
+    {
+      "question": "Do you provide an AV technician for events outside Malaga city, like Marbella or Fuengirola?",
+      "answer": "Yes. Our technician covered packages serve Malaga city and extend across the Costa del Sol, including Marbella and Fuengirola. Contact us with your venue so we can confirm coverage for your specific location."
     }
   ],
   "audio-visual-rental-for-virtual-events": [
