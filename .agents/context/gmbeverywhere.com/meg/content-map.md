@@ -52,8 +52,8 @@ Pillar: `audio-visual-rental` (existing, target `/`)
 | 27 | Stage rental / Stage hire | duplicate | audiovisual-equipment-rental-service | | Real grounding (MICE Pack staging add-on) but already has a dedicated H2 on the pillar. |
 | 28 | Video switcher rental | blocked-on-equipment-context | - | | Zero grounding, adjacent to the broadcast-production wall. |
 | 29 | Live streaming equipment rental | blocked-on-equipment-context | - | | Zero grounding. Contradicts faq.ts "streaming-recording" entry (see row 16/35 note) - flagged, not resolved. |
-| 30 | AV technician hire | **ready** | av-technician-hire | 2 | Real, substantial grounding (live technician in Wedding/Basic MICE/MICE packages), no dedicated page. Cannibalization risk vs row 31 and category 3 rows 37/46 (all four are "technician/support" variants) - resolve as one page or clearly split angles before drafting any of them. |
-| 31 | Technical support for events | **ready** | technical-support-for-events | 2 | Same grounding as row 30. See cannibalization note there - decide 1 vs 2+ pages first. |
+| 30 | AV technician hire | **ready** | av-technician-hire | 2 | HOST for the "hiring the person" angle (skill/role, technician-hours by package). User decided 2026-07-31: 2 pages for the 4-keyword technician/support cluster, this is page 1. |
+| 31 | Technical support for events | duplicate | technical-support-for-events | 2 | Folds into technical-support-for-events.svx (page 2 of the cluster, see category 3 row 37) as a synonym phrase, not its own page. |
 | 32 | Cable and connector rental | blocked-on-equipment-context | - | | No standalone cable SKU, only bundled setup work. |
 | 33 | Voting system hire | conflict | - | | audiovisual-equipment-rental-service.svx explicitly denies this. Directly contradicted by faq.ts "translation-voting" entry claiming yes - business-fact decision needed. |
 | 34 | Tripod and stand rental | conflict | - | | Tripods explicitly denied; stands only ever bundled, never standalone. |
@@ -140,7 +140,7 @@ Pillar: `event-technology-service` (new, working title "Event Technology Service
 | 34 | Audience engagement platforms | no-fit | - | | Software/SaaS. |
 | 35 | Event live chat solutions | no-fit | - | | Software. |
 | 36 | Event gamification technology | no-fit | - | | Software/SaaS. |
-| 37 | Event technical support | **ready** | event-technical-support | 2 | Grounded via technician inclusion + FAQ, no generic dedicated post. Cannibalization risk vs row 46 and category 1 rows 30/31 (all four are "technician/support" variants) - resolve as 1-2 pages, not 4, before drafting any. |
+| 37 | Event technical support | **ready** | technical-support-for-events | 2 | HOST for the "on-site coverage/service" angle (page 2 of the technician/support cluster, decided 2026-07-31). Absorbs row 46 and category 1 row 31 as synonym phrases/FAQ, not separate pages. |
 | 38 | Event livestream integration | conflict | - | | Same as row 6 - contradicts faq.ts streaming-recording entry. |
 | 39 | Speaker management software | no-fit | - | | Explicit software exclusion. |
 | 40 | Event mobile app development | no-fit | - | | Explicitly out of business scope. |
@@ -149,7 +149,7 @@ Pillar: `event-technology-service` (new, working title "Event Technology Service
 | 43 | Event networking matchmaking | no-fit | - | | Software/SaaS. |
 | 44 | Event drone filming | no-fit | - | | Confirmed exclusion (photo/video). |
 | 45 | Sponsor activation tech | no-fit | - | | Dominated by software-heavy interactive booth/AR/social-wall tech. |
-| 46 | Onsite tech support for events | **ready** | onsite-tech-support-for-events | 2 | Same grounding as row 37 - near-duplicate keyword, same cannibalization note. |
+| 46 | Onsite tech support for events | duplicate | technical-support-for-events | 2 | Folds into technical-support-for-events.svx (page 2 of the cluster) as a synonym phrase, not its own page. |
 
 ---
 
@@ -240,7 +240,7 @@ Pillar: `audio-visual-consultant` (new, working title "Audio Visual Consultant i
 | 31 | Video streaming setup | conflict | - | | 3 posts explicitly deny "a live streaming feed"/"streaming equipment"; contradicts faq.ts streaming-recording entry. |
 | 32 | Satellite TV integration | no-fit | - | | Zero grounding, different trade (permanent TV/satellite install). |
 | 33 | Huddle room AV solutions | conflict | - | | Same family as rows 5/18, covered by "no video conferencing hardware." |
-| 34 | Stage lighting installation | **ready** | stage-lighting-installation | 2 | Grounded (moving-head fixtures for corporate stages, staging platforms, stage-lighting mentions) but no dedicated post. Check for overlap with category 6's "Stage lighting rental" before drafting both. |
+| 34 | Stage lighting installation | duplicate | stage-lighting-rental | | Resolved 2026-07-31: MEG's model bundles delivery+install+test+collect into every rental (no permanent-install business line exists anywhere on the site), so "installation" isn't a distinct angle from "rental" here the way it might be for a systems-integrator. Folds into category 6's stage-lighting-rental.svx rather than becoming its own page. |
 | 35 | Digital classroom solutions | no-fit | - | | Zero grounding, K-12/university classroom AV integration out of scope. |
 | 36 | AV system upgrades | no-fit | - | | No real grounding (hits are unrelated wedding-trend content); implies upgrading a client's own permanent system. |
 | 37 | AV system training | no-fit | - | | "Training" hits are all about renting equipment FOR training events, not teaching staff to run their own AV. |
@@ -319,24 +319,24 @@ Pillar: `stage-lighting-equipment-supplier` (new, working title "Stage Lighting 
 
 | Category | Pillar slug | Total | Ready | Covered | Declared | Duplicate | Conflict | No-fit | Blocked-on-equipment |
 | -------- | ----------- | ----- | ----- | ------- | -------- | --------- | -------- | ------ | --------------------- |
-| Audio visual equipment hire service (primary) | audio-visual-rental (existing) | 44 | 2 | 15 | 2 | 6 | 7 | 0 | 12 |
+| Audio visual equipment hire service (primary) | audio-visual-rental (existing) | 44 | 1 | 15 | 2 | 7 | 7 | 0 | 12 |
 | Audiovisual equipment rental service | audiovisual-equipment-rental-service (published 2026-07-31) | 19 | 0 | 1 | 11 | 5 | 0 | 0 | 2 (as no-grounding) |
-| Event technology service | event-technology-service (not yet written) | 46 | 4 | 0 | 0 | 4 | 11 | 27 | 0 |
+| Event technology service | event-technology-service (not yet written) | 46 | 3 | 0 | 0 | 5 | 11 | 27 | 0 |
 | Audio visual equipment supplier | audio-visual-equipment-supplier (not yet written) | 39 | 0 | 0 | 0 | 9 | 7 | 19 | 4 |
-| Audio visual consultant | audio-visual-consultant (not yet written) | 45 | 7 | 0 | 0 | 8 | 13 | 17 | 0 |
+| Audio visual consultant | audio-visual-consultant (not yet written) | 45 | 6 | 0 | 0 | 9 | 13 | 17 | 0 |
 | Stage lighting equipment supplier | stage-lighting-equipment-supplier (not yet written) | 51 | 5 | 0 | 0 | 16 | 6 | 17 | 7 |
-| **Total** | | **244** | **18** | **16** | **13** | **48** | **44** | **80** | **25** |
+| **Total** | | **244** | **15** | **16** | **13** | **51** | **44** | **80** | **25** |
 
-**Full triage done 2026-07-31** (all 6 categories checked against the live site for conflict/duplicate/no-fit patterns, engram topic_keys `content-gap/malagaeventgear.com/category{1-remaining,3,4,5,6}-triage`). Headline: **80 of 244 services (33%) are `no-fit`** - not physical AV equipment for a per-event rental company at all (software/SaaS event-tech, permanent installation/systems-integration, sales/repair/training, photo-video). **18 services are `ready` to actually draft** as real new supporting posts, per the user's explicit direction to build the silo out, not just declare things out of scope:
+**Full triage done 2026-07-31** (all 6 categories checked against the live site for conflict/duplicate/no-fit patterns, engram topic_keys `content-gap/malagaeventgear.com/category{1-remaining,3,4,5,6}-triage`). Headline: **80 of 244 services (33%) are `no-fit`** - not physical AV equipment for a per-event rental company at all (software/SaaS event-tech, permanent installation/systems-integration, sales/repair/training, photo-video). **15 services are `ready` to actually draft** as **13 real new supporting posts** (2 pairs consolidated per the decisions below), per the user's explicit direction to build the silo out, not just declare things out of scope:
 
-- Category 1: row 30 AV technician hire, row 31 Technical support for events
-- Category 3: row 1 Event lighting services, row 2 Stage design and setup (thin), row 37 Event technical support, row 46 Onsite tech support for events
-- Category 5: row 4 AV system troubleshooting, row 6 Audio system calibration, row 16 AV equipment consultations, row 17 Lighting control integration, row 34 Stage lighting installation, row 40 AV cable management, row 43 Hospitality AV solutions
-- Category 6: row 1 Stage lighting rental, row 6 Moving head lights, row 19 Stage lighting for weddings, row 20 Sound and lighting packages, row 45 Outdoor event lighting
+- Category 1: row 30 AV technician hire (host, page 1 of the technician/support cluster)
+- Category 3: row 1 Event lighting services, row 2 Stage design and setup (thin), row 37 Event technical support / technical-support-for-events (host, page 2 of the technician/support cluster, absorbs category 1 row 31 and category 3 row 46 as synonyms)
+- Category 5: row 4 AV system troubleshooting, row 6 Audio system calibration, row 16 AV equipment consultations, row 17 Lighting control integration, row 40 AV cable management, row 43 Hospitality AV solutions
+- Category 6: row 1 Stage lighting rental (absorbs category 5 row 34 "Stage lighting installation" as a duplicate), row 6 Moving head lights, row 19 Stage lighting for weddings, row 20 Sound and lighting packages, row 45 Outdoor event lighting
 
-**Before drafting, two cross-category decisions needed:**
-1. **Technician/support cluster (4 candidates, likely 1-2 real pages)**: category 1 rows 30-31 (AV technician hire, Technical support for events) and category 3 rows 37/46 (Event technical support, Onsite tech support for events) are all grounded in the same fact (live technician included on Wedding/Basic MICE/MICE packages). Decide the split before drafting any of them - e.g. one page on "hiring an AV technician" (the person/skill angle) and one on "on-site technical support" (the service/coverage angle), or consolidate to one.
-2. **Stage lighting installation (cat 5, row 34) vs Stage lighting rental (cat 6, row 1)**: check for real overlap before drafting both - "installation" vs "rental" framing may or may not hold up the way it did for other installation/rental splits in this project (most of those turned out `no-fit` for the installation side).
+**Cross-category decisions resolved 2026-07-31:**
+1. **Technician/support cluster**: user chose 2 pages. `av-technician-hire.svx` (category 1 row 30) owns the "hiring the person" angle. `technical-support-for-events.svx` (category 3 row 37) owns the "on-site coverage/service" angle and absorbs category 1 row 31 and category 3 row 46 as synonym phrases/FAQ entries, not separate pages.
+2. **Stage lighting installation vs rental**: resolved as a duplicate, not two pages. MEG's model bundles delivery+install+test+collect into every rental (confirmed: no permanent-install business line exists anywhere on the site), so "installation" isn't a distinct angle here. Category 5 row 34 folds into category 6's `stage-lighting-rental.svx`.
 
 **3 live business-fact contradictions found in `src/lib/data/faq.ts`, not resolved (user's call, deferred pending an equipment-context update):**
 1. `streaming-recording` entry (line ~218): claims MEG offers live streaming, multi-camera recording, video production - contradicted by 7+ live blog posts.
