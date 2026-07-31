@@ -119,15 +119,18 @@ segunda copia deriva en silencio porque son instrucciones en prosa, no código.
 
 - `~/.agents/context/` es material **global**, idéntico para todo cliente (ahí vive el PDF de
   Google; se direcciona con el prefijo `~/`).
-- `.agents/context/` es material de **este** cliente y está **gitignoreado a propósito**
-  ([.gitignore](.gitignore), regla de "scraped/downloaded research context"): es local y no
-  re-creable desde un clone. Un agente que NO lo encuentre debe DECIR que corrió sin ese
-  dato, jamás inventarlo.
+- `.agents/context/` es material de **este** cliente. Los documentos (`.md`, `.csv`, etc.) se
+  trackean normalmente en git ([.gitignore](.gitignore) solo excluye imágenes dentro de
+  `.agents/context/**` - `.png`/`.jpg`/`.jpeg`/`.gif`/`.webp`); no asumir que un archivo nuevo
+  ahí es local-only sin chequear `git status`. Un agente que NO encuentre un dato esperado
+  igual debe DECIR que corrió sin él, jamás inventarlo.
 - Layout esperado cuando se agregue material: `Google Search Console Errors/YYYY-MM-DD/` (una
   carpeta fechada por export; los agentes globean la MÁS RECIENTE, nunca hardcodean fecha),
   `gbp/`, `brief/`.
-- Contenido real hoy: `gmbeverywhere.com/meg/generic.md` (catálogo de categorías GBP y
-  servicios candidatos por categoría), `REPORT_Merchant_Center.md`, `REPORT_Universal_Cart.md`.
+- Contenido real hoy: `gmbeverywhere.com/meg/generic.md` y `gmbeverywhere.com/meg/fixed.md`
+  (catálogo de categorías GBP y servicios candidatos por categoría, ya resuelto en
+  `content-map.md`), `Equipamiento.csv` (inventario real de equipo, ver más abajo),
+  `REPORT_Merchant_Center.md`, `REPORT_Universal_Cart.md`.
   **No hay export de GSC**: toda auditoría debe declarar que corrió sin datos de Search Console.
 
 ### El orden de operaciones
@@ -234,6 +237,30 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
   `Video conferencing equipment supplier`. Áreas de servicio: las 23 localidades de
   `siteConfig.serviceAreas`. Catálogo de categorías y servicios candidatos:
   `.agents/context/gmbeverywhere.com/meg/generic.md`.
+- **Inventario real de equipamiento**: `.agents/context/Equipamiento.csv` (trackeado en git,
+  material de este cliente igual que el resto de `.agents/context/`) es el listado ITEMIZADO del
+  equipo físico real que posee MEG: marca, modelo y cantidad por unidad (no paquetes
+  comerciales). Es una fuente de verdad más granular que `packages.ts` - `packages.ts` es
+  el catálogo de PAQUETES vendidos al cliente (con precio); el CSV es el inventario de
+  ACTIVOS individuales detrás de esos paquetes, y puede incluir equipo no empaquetado
+  todavía o retirado.
+  - **Cuándo usarlo**: (1) antes de crear o actualizar un post de soporte del reverse silo,
+    para confirmar si el servicio/palabra clave tiene respaldo real en el inventario (evita
+    inventar un producto que MEG no tiene, y evita descartar por error uno que sí tiene pero
+    que `packages.ts` no detalla a ese nivel); (2) para citar marca/modelo real en vez de
+    quedarse en genérico ("proyector Vivitek D5, 3000 lumens" en vez de solo "proyector de
+    3000 lumens"), siempre que el modelo listado siga coincidiendo con lo que ya está
+    publicado (ver el gotcha de abajo antes de citar una marca nueva).
+  - **Gotcha - contradicción pendiente de resolver, NO asumir un lado sin confirmar con el
+    negocio**: el CSV lista una cámara de vídeo profesional Sony y una cámara subacuática
+    Sanyo Xacty, además de un notebook ASUS EeePC. Varios posts ya publicados del blog
+    afirman explícitamente que MEG **no** ofrece cámaras ni servicios de vídeo/foto (alcance
+    de negocio declarado en sesiones previas). El CSV parece un registro de activos
+    histórico (hay equipo con pinta de descontinuado, como el netbook y la cámara Sanyo) y
+    no necesariamente la oferta activa vigente. Ante esta clase de ítem, tratarlo como
+    `blocked-on-equipment-context` y confirmar con el negocio antes de escribir contenido
+    o de contradecir una página ya publicada, nunca resolver la contradicción por cuenta
+    propia en un sentido u otro.
 
 ## Honestidad (sobreescribe cualquier regla anterior)
 
@@ -494,7 +521,7 @@ Runbook de migración WP: [`.agents/WP_MIGRATION.md`](.agents/WP_MIGRATION.md)
 
 El blog se construye como un **Reverse Silo** (metodología PageOptimizer Pro). El plan
 intencional de keywords y enlaces se trackea en
-`.agents/context/keywords/pop/PageOptimizer Pro _ Reverse Silo - POP.csv` (gitignoreado, local).
+`.agents/context/keywords/pop/PageOptimizer Pro _ Reverse Silo - POP.csv` (trackeado en git).
 
 ### El modelo
 
