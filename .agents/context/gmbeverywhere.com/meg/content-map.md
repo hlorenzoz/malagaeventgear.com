@@ -140,7 +140,7 @@ Pillar: `event-technology-service` (new, working title "Event Technology Service
 | 34 | Audience engagement platforms | no-fit | - | | Software/SaaS. |
 | 35 | Event live chat solutions | no-fit | - | | Software. |
 | 36 | Event gamification technology | no-fit | - | | Software/SaaS. |
-| 37 | Event technical support | **ready** | technical-support-for-events | 2 | HOST for the "on-site coverage/service" angle (page 2 of the technician/support cluster, decided 2026-07-31). Absorbs row 46 and category 1 row 31 as synonym phrases/FAQ, not separate pages. |
+| 37 | Event technical support | covered | technical-support-for-events | 2 | Published 2026-07-31. HOST for the "on-site coverage/service" angle (page 2 of the technician/support cluster). Absorbs row 46 and category 1 row 31 as synonym phrases/FAQ, not separate pages. |
 | 38 | Event livestream integration | no-fit | - | | Same resolution as row 6 - no streaming encoders exist, faq.ts now agrees. |
 | 39 | Speaker management software | no-fit | - | | Explicit software exclusion. |
 | 40 | Event mobile app development | no-fit | - | | Explicitly out of business scope. |
@@ -321,16 +321,15 @@ Pillar: `stage-lighting-equipment-supplier` (new, working title "Stage Lighting 
 | -------- | ----------- | ----- | ----- | ------- | -------- | --------- | -------- | ------ | --------------------- |
 | Audio visual equipment hire service (primary) | audio-visual-rental (existing) | 44 | 2 | 16 | 2 | 7 | 6 | 2 | 9 |
 | Audiovisual equipment rental service | audiovisual-equipment-rental-service (published 2026-07-31) | 19 | 0 | 2 | 10 | 5 | 0 | 0 | 2 (as no-grounding) |
-| Event technology service | event-technology-service (published 2026-07-31) | 46 | 1 | 2 | 0 | 5 | 8 | 30 | 0 |
+| Event technology service | event-technology-service (published 2026-07-31) | 46 | 0 | 3 | 0 | 5 | 8 | 30 | 0 |
 | Audio visual equipment supplier | audio-visual-equipment-supplier (not yet written) | 39 | 0 | 0 | 0 | 9 | 6 | 20 | 4 |
 | Audio visual consultant | audio-visual-consultant (not yet written) | 45 | 6 | 0 | 0 | 9 | 11 | 19 | 0 |
 | Stage lighting equipment supplier | stage-lighting-equipment-supplier (not yet written) | 51 | 5 | 0 | 0 | 16 | 6 | 17 | 7 |
-| **Total** | | **244** | **14** | **20** | **12** | **51** | **37** | **88** | **22** |
+| **Total** | | **244** | **13** | **21** | **12** | **51** | **37** | **88** | **22** |
 
-**Full triage done 2026-07-31** (all 6 categories checked against the live site for conflict/duplicate/no-fit patterns, engram topic_keys `content-gap/malagaeventgear.com/category{1-remaining,3,4,5,6}-triage`). Headline: **88 of 244 services (36%) are `no-fit`** - not physical AV equipment for a per-event rental company at all (software/SaaS event-tech, permanent installation/systems-integration, sales/repair/training, photo-video, or confirmed non-offerings like streaming/broadcast gear). Originally 15 services were `ready` to draft as real new supporting posts, per the user's explicit direction to build the silo out, not just declare things out of scope; the equipment re-triage below added 1 more (category 1 row 28, Video switcher rental). **3 are now published** (av-technician-hire.svx as its own post; Event lighting services and Stage design and setup as dedicated H2 sections on the new event-technology-service pillar rather than separate thin pages). **13 remain to draft:**
+**Full triage done 2026-07-31** (all 6 categories checked against the live site for conflict/duplicate/no-fit patterns, engram topic_keys `content-gap/malagaeventgear.com/category{1-remaining,3,4,5,6}-triage`). Headline: **88 of 244 services (36%) are `no-fit`** - not physical AV equipment for a per-event rental company at all (software/SaaS event-tech, permanent installation/systems-integration, sales/repair/training, photo-video, or confirmed non-offerings like streaming/broadcast gear). Originally 15 services were `ready` to draft as real new supporting posts, per the user's explicit direction to build the silo out, not just declare things out of scope; the equipment re-triage below added 1 more (category 1 row 28, Video switcher rental). **4 are now published** (av-technician-hire.svx and technical-support-for-events.svx as their own posts, the 2-page technician/support cluster now complete; Event lighting services and Stage design and setup as dedicated H2 sections on the new event-technology-service pillar rather than separate thin pages). **12 remain to draft:**
 
-- Category 1: row 28 Video switcher rental (new 2026-07-31, real Kramer VP-731 9-input scaler confirmed in Equipamiento.csv, not covered elsewhere)
-- Category 3: row 37 Event technical support / technical-support-for-events (host, page 2 of the technician/support cluster, absorbs category 1 row 31 and category 3 row 46 as synonyms) - NEXT UP
+- Category 1: row 28 Video switcher rental - real Kramer VP-731 9-input scaler now gets its first mention on technical-support-for-events.svx (scoped to presentation-source switching during technical support), but a dedicated product-focused page is still a valid candidate for the "video switcher rental" keyword's own SERP intent, stays `ready`.
 - Category 5: row 4 AV system troubleshooting, row 6 Audio system calibration, row 16 AV equipment consultations, row 17 Lighting control integration, row 40 AV cable management, row 43 Hospitality AV solutions
 - Category 6: row 1 Stage lighting rental (absorbs category 5 row 34 "Stage lighting installation" as a duplicate), row 6 Moving head lights, row 19 Stage lighting for weddings, row 20 Sound and lighting packages, row 45 Outdoor event lighting
 
