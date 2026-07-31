@@ -50,8 +50,8 @@ const faqData: FaqItem[] = [
 			es: '¿Qué es Malaga Event Gear (MEG) y qué servicios ofrece?'
 		},
 		answer: {
-			en: 'Malaga Event Gear (MEG) is a company based in Malaga, Spain, specializing in the rental of professional audiovisual, lighting, and event equipment. We provide sound systems, projectors, screens, stages, technical assistance, smoke machines, lighting solutions, and microphones — plus specialized services such as live sound reinforcement, simultaneous translation, interactive voting systems, and video wall setups.',
-			es: 'Malaga Event Gear (MEG) es una empresa con sede en Málaga, España, especializada en el alquiler de equipos profesionales audiovisuales, de iluminación y de eventos. Ofrecemos sistemas de sonido, proyectores, pantallas, escenarios, asistencia técnica, máquinas de humo, soluciones de iluminación y micrófonos — además de servicios especializados como refuerzo de sonido en vivo, traducción simultánea, sistemas de votación interactiva y montajes de video wall.'
+			en: 'Malaga Event Gear (MEG) is a company based in Malaga, Spain, specializing in the rental of professional audiovisual, lighting, and event equipment. We provide sound systems, projectors, screens, stages, technical assistance, smoke machines, lighting solutions, and microphones — plus specialized services such as live sound reinforcement, and simultaneous translation and interactive voting systems arranged through a subcontracted partner.',
+			es: 'Malaga Event Gear (MEG) es una empresa con sede en Málaga, España, especializada en el alquiler de equipos profesionales audiovisuales, de iluminación y de eventos. Ofrecemos sistemas de sonido, proyectores, pantallas, escenarios, asistencia técnica, máquinas de humo, soluciones de iluminación y micrófonos — además de servicios especializados como refuerzo de sonido en vivo, y traducción simultánea y sistemas de votación interactiva gestionados a través de un proveedor subcontratado.'
 		}
 	},
 	{
@@ -236,8 +236,8 @@ const faqData: FaqItem[] = [
 			es: '¿Proporcionan traducción simultánea o sistemas de votación interactiva?'
 		},
 		answer: {
-			en: 'Yes. For corporate and congress-grade events we provide simultaneous translation, interactive voting systems, and video wall setups. These solutions are tailored to the size and format of your event, so let us know your requirements when requesting a quote.',
-			es: 'Sí. Para eventos corporativos y de nivel congreso ofrecemos traducción simultánea, sistemas de votación interactiva y montajes de video wall. Estas soluciones se adaptan al tamaño y formato de tu evento, así que indicanos tus necesidades al solicitar el presupuesto.'
+			en: 'Yes, for simultaneous translation and interactive voting systems, though not from our own equipment: we arrange both through a subcontracted partner for corporate and congress-grade events. Let us know your requirements when requesting a quote. We do not offer an LED video wall; our large format display is a single 60 inch flat panel.',
+			es: 'Sí, ofrecemos traducción simultánea y sistemas de votación interactiva, aunque no con equipamiento propio: ambos los gestionamos a través de un proveedor subcontratado para eventos corporativos y de nivel congreso. Indicanos tus necesidades al solicitar el presupuesto. No ofrecemos video wall; nuestra pantalla de gran formato es un panel plano único de 60 pulgadas.'
 		}
 	},
 	{
