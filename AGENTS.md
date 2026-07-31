@@ -251,16 +251,22 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
     quedarse en genérico ("proyector Vivitek D5, 3000 lumens" en vez de solo "proyector de
     3000 lumens"), siempre que el modelo listado siga coincidiendo con lo que ya está
     publicado (ver el gotcha de abajo antes de citar una marca nueva).
-  - **Gotcha - contradicción pendiente de resolver, NO asumir un lado sin confirmar con el
-    negocio**: el CSV lista una cámara de vídeo profesional Sony y una cámara subacuática
-    Sanyo Xacty, además de un notebook ASUS EeePC. Varios posts ya publicados del blog
-    afirman explícitamente que MEG **no** ofrece cámaras ni servicios de vídeo/foto (alcance
-    de negocio declarado en sesiones previas). El CSV parece un registro de activos
-    histórico (hay equipo con pinta de descontinuado, como el netbook y la cámara Sanyo) y
-    no necesariamente la oferta activa vigente. Ante esta clase de ítem, tratarlo como
-    `blocked-on-equipment-context` y confirmar con el negocio antes de escribir contenido
-    o de contradecir una página ya publicada, nunca resolver la contradicción por cuenta
-    propia en un sentido u otro.
+  - **Historial resuelto (2026-07-31)**: el CSV llegó a listar una cámara de vídeo Sony, una
+    cámara subacuática Sanyo Xacty y un notebook ASUS EeePC. El negocio confirmó primero que
+    ese inventario estaba vigente; en la misma sesión el CSV se actualizó de nuevo y esas
+    filas quedaron vacías, y el negocio confirmó que ese equipo fue dado de baja
+    ("se dieron de baja"). Los posts que afirman que MEG **no** ofrece cámaras ni servicios
+    de vídeo/foto son correctos tal cual están publicados. No reabrir esta pregunta sin un
+    update explícito del negocio sobre equipo de cámara/vídeo nuevo.
+  - **Servicios subcontratados (confirmado 2026-07-31 por el negocio)**: MEG SÍ presta
+    traducción simultánea e interpretación, y sistemas de votación interactiva, para eventos
+    corporativos y de nivel congreso - pero **sin equipamiento propio**: ambos se gestionan
+    subcontratando a un proveedor externo. Esto es distinto de "no lo ofrecemos": al escribir
+    sobre estos dos servicios, la negación correcta es "no lo tenemos en nuestro catálogo de
+    equipo propio" + "sí lo coordinamos con un socio subcontratado", nunca un "no" categórico.
+    Video wall SÍ sigue siendo un "no" categórico (pantalla de gran formato es un panel plano
+    único de 60 pulgadas, no un muro modular) - no confundir los dos casos aunque `faq.ts`
+    los mencionaba juntos históricamente.
 
 ## Honestidad (sobreescribe cualquier regla anterior)
 
