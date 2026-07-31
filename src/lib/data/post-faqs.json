@@ -471,6 +471,36 @@
       "answer": "We use premium professional brands trusted in the live event industry, including Shure, QSC, and Martin, across both the Wedding Pack and the Eco Pack, to ensure reliable, high fidelity sound and lighting performance."
     }
   ],
+  "headset-lavalier-microphone-rental": [
+    {
+      "question": "What is the difference between a headset and a lavalier microphone?",
+      "answer": "A lavalier clips to clothing and stays out of sight, which suits photography and video, but its distance from the mouth is fixed by where it clips and it is more prone to feedback at higher volumes. A headset, our AUDIX HT5, curves from behind the ear to sit a fixed, close distance from the mouth, so the level stays consistent even when the wearer turns or gestures, at the cost of being visible on camera. See Lavalier or Headset above."
+    },
+    {
+      "question": "Do you rent headset or lavalier microphones with the Wedding Pack?",
+      "answer": "Not as an inclusion. The Wedding Pack includes a wireless handheld microphone as standard. A wireless lavalier set or the AUDIX HT5 headband mic is available as a separate, quote based add on for an officiant or a second presenter who needs their hands free. See our unique wedding ceremony rentals guide for the officiant specific detail."
+    },
+    {
+      "question": "Can a corporate presenter use a lavalier or headset mic with the MICE Pack?",
+      "answer": "Yes, as an add on. The MICE Pack includes a gooseneck and a wireless handheld microphone as standard, with a technician on site for up to 6 continuous hours. A lavalier or the AUDIX HT5 headband mic can be added on top of that for a presenter who wants to leave the podium and gesture freely. Contact us with your event details to confirm availability."
+    },
+    {
+      "question": "How much does it cost to rent a lavalier or headset microphone?",
+      "answer": "We do not publish a fixed a la carte price for either. Neither is bundled into the Eco Pack, Basic MICE Pack, Wedding Pack or MICE Pack, so contact us with your package and guest count and we will confirm a quote."
+    },
+    {
+      "question": "How many wireless lavalier microphones do you have available?",
+      "answer": "Two complete AUDIX RAD-360 wireless lavalier sets, each with its own receiver, bodypack transmitter, lavalier capsule and antennas, so two people can wear one at the same time. We also stock one AUDIX HT5 wireless headband mic, a separate item from the lavalier sets. We do not offer a third simultaneous hands free channel today."
+    },
+    {
+      "question": "Is a lavalier or headset microphone better for a wedding officiant?",
+      "answer": "Usually a lavalier, since it stays out of sight in ceremony photos and video, and most officiants stand in roughly one spot rather than pacing a stage. The AUDIX HT5 headband mic is visible on camera, which is why it suits a corporate presenter who moves more than it suits a ceremony. Tell us your officiant's preference when you book. See our essential items for wedding rentals guide for how this fits into the rest of the Wedding Pack."
+    },
+    {
+      "question": "Can a panel or Q&A session share a lavalier or headset setup between speakers?",
+      "answer": "Two panelists can each wear a complete AUDIX RAD-360 lavalier set at the same time, while the moderator or additional speakers use the package's included wireless handheld microphone for audience questions. That is the real limit of our current inventory, two simultaneous lavalier channels, not more."
+    }
+  ],
   "how-audio-visual-rental-works": [
     {
       "question": "How does audio visual equipment work?",
@@ -888,7 +918,7 @@
     },
     {
       "question": "What type of microphone do I need for my event?",
-      "answer": "It depends on the package. The Eco Pack includes 1 wired dynamic microphone for announcements. The Basic MICE Pack includes 1 professional gooseneck microphone for a podium or lectern. The Wedding Pack and MICE Pack include a wireless handheld microphone for speeches, with the MICE Pack adding a gooseneck microphone as well. We also stock wireless lavalier and headset microphones as a separate item from these package inclusions: contact us if your presenter or performer needs a hands free mic."
+      "answer": "It depends on the package. The Eco Pack includes 1 wired dynamic microphone for announcements. The Basic MICE Pack includes 1 professional gooseneck microphone for a podium or lectern. The Wedding Pack and MICE Pack include a wireless handheld microphone for speeches, with the MICE Pack adding a gooseneck microphone as well. We also stock wireless lavalier and headset microphones as a separate item from these package inclusions: contact us if your presenter or performer needs a hands free mic. See our headset and lavalier microphone rental guide for the full lavalier versus headset comparison and pricing."
     },
     {
       "question": "Is a wireless microphone available, or only wired?",
@@ -1186,7 +1216,7 @@
     },
     {
       "question": "Do You Offer Headset or Lavalier Microphones?",
-      "answer": "Yes. We stock wireless lavalier and headset microphones as a separate item from our package inclusions, for a presenter or performer who needs a hands free mic. See Wireless and Gooseneck Microphone Systems above."
+      "answer": "Yes. We stock wireless lavalier and headset microphones as a separate item from our package inclusions, for a presenter or performer who needs a hands free mic. See Wireless and Gooseneck Microphone Systems above, and our headset and lavalier microphone rental guide for the full comparison and pricing."
     },
     {
       "question": "Do You Provide Simultaneous Interpretation or Translation Equipment?",
