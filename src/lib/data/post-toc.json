@@ -3882,6 +3882,133 @@
       "level": 3
     }
   ],
+  "technical-support-for-events": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "what-actually-happens-during-your-event-a-phase-by-phase-look",
+      "text": "What Actually Happens During Your Event: A Phase by Phase Look",
+      "level": 2
+    },
+    {
+      "id": "before-your-event-starts-calibration-and-testing",
+      "text": "Before Your Event Starts: Calibration and Testing",
+      "level": 3
+    },
+    {
+      "id": "while-your-event-runs-live-monitoring",
+      "text": "While Your Event Runs: Live Monitoring",
+      "level": 3
+    },
+    {
+      "id": "when-something-goes-wrong-troubleshooting-in-real-time",
+      "text": "When Something Goes Wrong: Troubleshooting in Real Time",
+      "level": 3
+    },
+    {
+      "id": "after-your-event-ends-teardown-and-collection",
+      "text": "After Your Event Ends: Teardown and Collection",
+      "level": 3
+    },
+    {
+      "id": "how-much-on-site-coverage-do-you-actually-get",
+      "text": "How Much On Site Coverage Do You Actually Get",
+      "level": 2
+    },
+    {
+      "id": "real-equipment-real-troubleshooting-what-our-technicians-actually-fix",
+      "text": "Real Equipment, Real Troubleshooting: What Our Technicians Actually Fix",
+      "level": 2
+    },
+    {
+      "id": "switching-between-multiple-presentation-sources",
+      "text": "Switching Between Multiple Presentation Sources",
+      "level": 2
+    },
+    {
+      "id": "coverage-across-a-multi-day-event",
+      "text": "Coverage Across a Multi Day Event",
+      "level": 2
+    },
+    {
+      "id": "real-on-site-support-weve-delivered",
+      "text": "Real On Site Support We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "how-to-book-technical-support-for-your-event",
+      "text": "How to Book Technical Support for Your Event",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "what-happens-during-my-event-a-quick-coverage-checklist",
+      "text": "What happens during my event? A quick coverage checklist",
+      "level": 3
+    },
+    {
+      "id": "is-technical-support-for-events-the-same-as-av-technician-hire",
+      "text": "Is technical support for events the same as AV technician hire?",
+      "level": 3
+    },
+    {
+      "id": "what-happens-if-a-microphone-drops-or-a-projector-loses-sync-mid-presentation",
+      "text": "What happens if a microphone drops or a projector loses sync mid presentation?",
+      "level": 3
+    },
+    {
+      "id": "do-you-provide-technical-support-for-multi-day-events",
+      "text": "Do you provide technical support for multi day events?",
+      "level": 3
+    },
+    {
+      "id": "how-many-crew-members-are-on-site-and-how-fast-do-they-respond",
+      "text": "How many crew members are on site, and how fast do they respond?",
+      "level": 3
+    },
+    {
+      "id": "is-the-technician-actively-monitoring-the-event-or-just-on-standby",
+      "text": "Is the technician actively monitoring the event, or just on standby?",
+      "level": 3
+    },
+    {
+      "id": "is-onsite-tech-support-included-in-my-package-or-a-separate-booking",
+      "text": "Is onsite tech support included in my package, or a separate booking?",
+      "level": 3
+    },
+    {
+      "id": "what-is-the-difference-between-delivery-only-and-full-event-coverage",
+      "text": "What is the difference between delivery only and full event coverage?",
+      "level": 3
+    },
+    {
+      "id": "do-you-provide-technical-support-for-outdoor-venues",
+      "text": "Do you provide technical support for outdoor venues?",
+      "level": 3
+    },
+    {
+      "id": "can-your-technician-switch-between-multiple-presentation-sources-during-my-event",
+      "text": "Can your technician switch between multiple presentation sources during my event?",
+      "level": 3
+    }
+  ],
   "timeline-for-booking-wedding-rentals": [
     {
       "id": "brief-overview",

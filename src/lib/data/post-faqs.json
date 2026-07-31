@@ -682,7 +682,7 @@
     },
     {
       "question": "Do You Offer Interactive Touchscreens, Kiosks or Audience Response Technology?",
-      "answer": "No. Our audio visual rental for religious events guide rules out interactive touch screens on the same grounds it rules out a video wall: none of these are part of our catalog."
+      "answer": "Touchscreens and kiosks, no: our audio visual rental for religious events guide rules those out on the same grounds it rules out a video wall. Audience response or voting systems, yes as an arranged service: we don't stock the hardware ourselves, so we bring in a subcontracted partner for corporate and congress-grade events."
     },
     {
       "question": "Do You Provide Event Apps, RFID Tracking or Ticketing Technology?",
@@ -1190,7 +1190,7 @@
     },
     {
       "question": "Do You Provide Simultaneous Interpretation or Translation Equipment?",
-      "answer": "No, and we say so directly rather than leave it unanswered. Multilingual interpretation technology is not part of our catalog, a scope decision already stated on our audio visual rental for religious events guide. Real demand for this exists locally, and some Malaga competitors run it as a dedicated line, but it falls outside what we stock."
+      "answer": "Not from our own equipment catalog, but yes as an arranged service: we don't stock interpretation hardware ourselves, so we bring in a subcontracted partner to cover it rather than turn the request away. Contact us with your language pairs and guest count."
     },
     {
       "question": "What Is Uplighting and Do You Rent It?",
@@ -1206,7 +1206,7 @@
     },
     {
       "question": "Do You Provide Interactive Voting or Audience Response Systems?",
-      "answer": "No. Clicker devices, live polling hardware and interactive audience response systems are not part of our catalog. Our religious events guide rules out interactive touch screens on the same grounds: we don't stock this category of equipment."
+      "answer": "Not from our own equipment catalog, but yes as an arranged service: clicker devices, live polling hardware and interactive voting systems aren't something we stock ourselves, so we bring in a subcontracted partner to cover them for a congress or corporate event. Contact us with your requirements."
     },
     {
       "question": "What Laser or Special Lighting Effects Do You Offer?",
@@ -1215,6 +1215,48 @@
     {
       "question": "Do You Rent Staging, Truss or Pipe and Drape?",
       "answer": "Staging, yes, as a priced add on: modular stage platforms at 35 euros per square meter on the MICE Pack. Truss, no, we don't stock it as a separate rental item. Pipe and drape or event backdrops, also no: we are not a decor provider, and that's stated directly on our unique wedding ceremony rentals guide. See Modular Staging for Corporate Events above."
+    }
+  ],
+  "technical-support-for-events": [
+    {
+      "question": "What happens during my event? A quick coverage checklist",
+      "answer": "Calibration and testing before your guests arrive, live gain and signal monitoring while your event runs, on the spot troubleshooting if a microphone or projector fails, and teardown once your event ends. See What Actually Happens During Your Event above for the full phase by phase breakdown."
+    },
+    {
+      "question": "Is technical support for events the same as AV technician hire?",
+      "answer": "They cover the same crew from two different angles. Our AV technician hire guide covers hiring the person: which package includes one, which charges extra, and how many hours. This page covers what that person actually does on site once your event starts."
+    },
+    {
+      "question": "What happens if a microphone drops or a projector loses sync mid presentation?",
+      "answer": "Our technician fixes it in the moment, using the specific equipment we carry: a channel switch or battery change for an Audix wireless microphone, or a resync against the correct Vivitek or Christie projector and screen pairing. See Real Equipment, Real Troubleshooting above."
+    },
+    {
+      "question": "Do you provide technical support for multi day events?",
+      "answer": "Yes. On a two day corporate project for Bmotion in Benahavis, our technicians monitored sound and video continuously from a control panel across both days rather than recalibrating from zero each morning. See Coverage Across a Multi Day Event above."
+    },
+    {
+      "question": "How many crew members are on site, and how fast do they respond?",
+      "answer": "A dedicated technician is on site for the duration your package covers, watching the sound and visual signal chain directly rather than being called in after a fault is noticed, so a dropped connection or lighting cue gets caught and corrected immediately."
+    },
+    {
+      "question": "Is the technician actively monitoring the event, or just on standby?",
+      "answer": "Actively monitoring. On the Wedding Pack and MICE Pack, the technician watches levels, video inputs and lighting cues continuously throughout the event, they are not a standby presence called in only if something visibly breaks."
+    },
+    {
+      "question": "Is onsite tech support included in my package, or a separate booking?",
+      "answer": "It depends on the package, not a blanket rule: included on the Wedding Pack and MICE Pack, available as a paid add on on the Basic MICE Pack, and not offered on the Eco Pack. See How Much On Site Coverage Do You Actually Get above for the full breakdown."
+    },
+    {
+      "question": "What is the difference between delivery only and full event coverage?",
+      "answer": "Delivery only, on the Eco Pack, means our crew delivers, sets up and tests the equipment, then leaves it to the DJ or host to run. Full event coverage means a technician stays on site actively monitoring and troubleshooting for the length of your event. See our how audio visual rental works guide for the full delivery process either way."
+    },
+    {
+      "question": "Do you provide technical support for outdoor venues?",
+      "answer": "Yes, across Malaga and the Costa del Sol. Calibration for an outdoor venue includes the same signal testing as an indoor one, with extra attention to weather exposure and cabling. See our audio visual rental for outdoor events guide for the specific considerations."
+    },
+    {
+      "question": "Can your technician switch between multiple presentation sources during my event?",
+      "answer": "Yes, on packages with a large screen and more than one presentation source, our technician manages the switch between them (a laptop, a second laptop, a DVD player) using a Kramer VP-731 9 input video scaler, cutting cleanly between sources. This is a presentation switching tool only, not a camera, recording or streaming system. See Switching Between Multiple Presentation Sources above."
     }
   ],
   "timeline-for-booking-wedding-rentals": [
@@ -1452,7 +1494,7 @@
     },
     {
       "question": "Do you provide interactive screens or multilingual interpretation technology?",
-      "answer": "No, these are not part of our catalog. Our screen and projector are for displaying readings or hymn lyrics, not interactive touch screens or interpretation systems."
+      "answer": "Interactive touch screens, no: our screen and projector are for displaying readings or hymn lyrics, not an interactive display. Multilingual interpretation, yes as an arranged service: we don't stock the hardware ourselves, but we can bring in a subcontracted partner on request."
     },
     {
       "question": "How many microphones are included?",
