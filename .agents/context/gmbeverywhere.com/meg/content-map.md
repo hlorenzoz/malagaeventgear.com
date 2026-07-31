@@ -7,6 +7,9 @@ Source: .agents/context/gmbeverywhere.com/meg/fixed.md (already-resolved GBP cat
 - `pending`: net-new service, nothing on the site serves this intent yet.
 - `covered`: a real existing post already serves this exact intent. Its slug is linked, do not draft a new post.
 - `risk`: an existing post is close enough in topic or intent that writing this one needs a deliberate differentiation decision before drafting. See Notes.
+- `duplicate`: a real existing post (possibly in a different silo) already IS this product/service. Never a new page - fold in or link, same as `covered`.
+- `conflict`: a real, live page already states MEG does NOT offer this. Writing this page would either contradict a published claim or require fabricating a product that page already denied. Needs a business-fact decision (does MEG actually offer this or not) before any drafting, not a content decision.
+- `no-grounding`: zero presence in `packages.ts` or the equipment page. Not necessarily a permanent no - may mean MEG doesn't offer it, or may mean it's real but never documented in the data layer. Needs a business-fact check before drafting, never fabricate the product to fill the page.
 - This file is the single source of truth for GBP-category content progress. Update `Status` and `Slug` as posts are drafted and published. Flip `pending` or `risk` to `covered` once a post ships, and record the shipped slug.
 
 ---
@@ -70,25 +73,25 @@ Pillar: `audiovisual-equipment-rental-service` (new, working title "Audiovisual 
 
 | # | Service | Status | Slug (existing or proposed) | Batch | Notes |
 | - | ------- | ------ | ---------------------------- | ----- | ----- |
-| 1 | Podium microphone rental | pending | podium-microphone-rental | 1 | - |
-| 2 | Headset microphone rental | pending | headset-microphone-rental | 1 | - |
-| 3 | Laser projector rental | pending | laser-projector-rental | 1 | - |
-| 4 | Up-lighting rental | pending | up-lighting-rental | 1 | - |
-| 5 | Walkie talkie rental | pending | walkie-talkie-rental | 1 | - |
-| 6 | Pipe and drape rental | pending | pipe-and-drape-rental | 1 | - |
-| 7 | Event backdrop rental | pending | event-backdrop-rental | 1 | - |
-| 8 | Holiday lighting rental | pending | holiday-lighting-rental | 1 | - |
-| 9 | Camera crane rental | pending | camera-crane-rental | 1 | - |
-| 10 | Flat screen TV rental | pending | flat-screen-tv-rental | 1 | - |
-| 11 | Silent disco equipment rental | pending | silent-disco-equipment-rental | 1 | - |
-| 12 | Stage effects equipment rental | pending | stage-effects-equipment-rental | 1 | - |
-| 13 | Mixing console rental | pending | mixing-console-rental | 1 | - |
-| 14 | Large screen rental | pending | large-screen-rental | 1 | - |
-| 15 | Monitor rental | pending | monitor-rental | 1 | - |
-| 16 | Tripod rental | pending | tripod-rental | | - |
-| 17 | Laptop rental for events | pending | laptop-rental-for-events | | - |
-| 18 | AV cable rental | pending | av-cable-rental | | - |
-| 19 | Interpretation equipment rental | pending | interpretation-equipment-rental | | - |
+| 1 | Podium microphone rental | duplicate | sound-system-rental | 1 | Already covered: sound-system-rental.svx lists the gooseneck/podium mic as real package inventory. No separate page. |
+| 2 | Headset microphone rental | conflict | - | 1 | Contradicts sound-system-rental.svx FAQ: "We do not offer lavalier or headset microphones." Cannot honestly write this page without either fabricating a product or contradicting a live page. |
+| 3 | Laser projector rental | duplicate | projector-rental | 1 | Already covered: projector-rental.svx FAQ "Do you offer 4K or laser projectors?" covers the 5000 lumen laser tier. No separate page. |
+| 4 | Up-lighting rental | conflict | - | 1 | Contradicts lighting-ideas-for-wedding-rentals.svx, which explicitly declines uplighting as a freestanding fixture (stated 4x). |
+| 5 | Walkie talkie rental | no-grounding | - | 1 | Zero presence in packages.ts or equipment page. Would require fabricating a product line. |
+| 6 | Pipe and drape rental | conflict | - | 1 | Contradicts unique-wedding-ceremony-rentals.svx and audio-visual-rental-for-press-conferences.svx: no draping/backdrop hardware supplied. |
+| 7 | Event backdrop rental | conflict | - | 1 | Same conflict as #6. |
+| 8 | Holiday lighting rental | no-grounding | - | 1 | Zero presence in catalog. |
+| 9 | Camera crane rental | no-grounding | - | 1 | Zero presence in catalog. |
+| 10 | Flat screen TV rental | duplicate | tv-screen-rental | 1 | Same product as tv-screen-rental.svx's 60 inch LED display. Already a fold-in target there, not a new page. |
+| 11 | Silent disco equipment rental | no-grounding | - | 1 | Zero presence in catalog. |
+| 12 | Stage effects equipment rental | pending | stage-effects-equipment-rental | 1 | Partial real grounding (fog/haze/confetti effects exist per equipment page) - needs a scoped, honest brief, not a generic "stage effects" catalog page. |
+| 13 | Mixing console rental | conflict | - | 1 | Contradicts sound-system-rental.svx FAQ: "No... not a standalone rental item," mixing consoles are technician-operated equipment bundled in packages. |
+| 14 | Large screen rental | duplicate | tv-screen-rental | 1 | Same product as tv-screen-rental.svx. |
+| 15 | Monitor rental | duplicate | tv-screen-rental | 1 | Same product as tv-screen-rental.svx (display monitor rental already folded in there too). |
+| 16 | Tripod rental | no-grounding | - | | Zero presence in catalog. |
+| 17 | Laptop rental for events | no-grounding | - | | Zero presence in catalog. |
+| 18 | AV cable rental | no-grounding | - | | No standalone cable rental SKU; cabling is bundled setup work across all packages, not sold separately. |
+| 19 | Interpretation equipment rental | conflict | - | | Contradicts audio-visual-rental-for-religious-events.svx: "none of these are part of our catalog." Real local demand (2 of 3 competitors run this as a named line) - candidate for a declared-out-of-scope mention on the pillar, not a standalone page. |
 
 ---
 
@@ -311,12 +314,14 @@ Pillar: `stage-lighting-equipment-supplier` (new, working title "Stage Lighting 
 
 ## Summary
 
-| Category | Pillar slug | Total services | Pending | Covered | Risk | Batch-1 count |
-| -------- | ----------- | --------------- | ------- | ------- | ---- | -------------- |
-| Audio visual equipment hire service (primary) | audio-visual-rental (existing) | 44 | 28 | 15 | 1 | 15 |
-| Audiovisual equipment rental service | audiovisual-equipment-rental-service | 19 | 19 | 0 | 0 | 15 |
-| Event technology service | event-technology-service | 46 | 46 | 0 | 0 | 15 |
-| Audio visual equipment supplier | audio-visual-equipment-supplier | 39 | 38 | 0 | 1 | 15 |
-| Audio visual consultant | audio-visual-consultant | 45 | 45 | 0 | 0 | 15 |
-| Stage lighting equipment supplier | stage-lighting-equipment-supplier | 51 | 49 | 0 | 2 | 15 |
-| **Total** | | **244** | **240** | **0** | **4** | **90** |
+| Category | Pillar slug | Total services | Pending | Covered | Risk | Duplicate | Conflict | No-grounding | Batch-1 count |
+| -------- | ----------- | --------------- | ------- | ------- | ---- | --------- | -------- | ------------ | -------------- |
+| Audio visual equipment hire service (primary) | audio-visual-rental (existing) | 44 | 28 | 15 | 1 | 0 | 0 | 0 | 15 |
+| Audiovisual equipment rental service | audiovisual-equipment-rental-service (not yet written) | 19 | 1 | 0 | 0 | 5 | 6 | 7 | 15 |
+| Event technology service | event-technology-service | 46 | 46 | 0 | 0 | 0 | 0 | 0 | 15 |
+| Audio visual equipment supplier | audio-visual-equipment-supplier | 39 | 38 | 0 | 1 | 0 | 0 | 0 | 15 |
+| Audio visual consultant | audio-visual-consultant | 45 | 45 | 0 | 0 | 0 | 0 | 0 | 15 |
+| Stage lighting equipment supplier | stage-lighting-equipment-supplier | 51 | 49 | 0 | 2 | 0 | 0 | 0 | 15 |
+| **Total** | | **244** | **207** | **15** | **4** | **5** | **6** | **7** | **90** |
+
+**Category 2 finding (2026-07-31):** content-gap-analyst determined most of this category's planned services either duplicate an existing primary-silo post or directly contradict a live page's own "what we don't offer" claims. Only 1 of 19 planned services (`Stage effects equipment rental`) has a clean, non-conflicting path to becoming a real page as originally scoped. See row notes above. Categories 3-6 have not yet been checked against the live site for the same conflict/duplicate pattern - do that check before batch-drafting each one, don't assume `fixed.md`'s original category assignment survives contact with what's actually been published since.
