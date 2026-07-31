@@ -651,6 +651,48 @@
       "answer": "Backed by experience going back to 1996, three decades of live events across Malaga and the Costa del Sol."
     }
   ],
+  "event-technology-service": [
+    {
+      "question": "What Is \"Event Technology\" and What Does MEG Actually Provide?",
+      "answer": "At Malaga Event Gear, event technology means the physical layer of an event: RGBW and moving head lighting, modular stage platforms, and an on site technician. It does not mean streaming, video mapping or interactive software, which some local competitors market under the same name. See Why \"Event Technology\" Means Something Different Here above."
+    },
+    {
+      "question": "Is Event Technology the Same as Audiovisual Equipment Rental?",
+      "answer": "They overlap but are not identical. Our audio visual rental pillar covers the full package range, from the Eco Pack up to the MICE Pack, and our audiovisual equipment rental service pillar indexes the specialized equipment layer inside that catalog. This page is narrower still: it covers only the pieces of that catalog that fit an \"event technology\" framing, lighting, staging and on site support, and says plainly what falls outside it."
+    },
+    {
+      "question": "Do You Provide Event Lighting Technology?",
+      "answer": "Yes. RGBW LED spotlights on the Eco Pack, and Beam/Spot moving head fixtures for larger corporate stages, quoted on request. See Event Lighting above."
+    },
+    {
+      "question": "What Is Stage Design and Setup, and Do You Offer It?",
+      "answer": "We offer modular stage platforms on the MICE Pack at 35 euros per square meter, sized to your room. We do not offer scenic theatrical stage design, truss rigs, or pipe and drape. See Stage Design and Setup above."
+    },
+    {
+      "question": "Do You Provide On Site Technical Support?",
+      "answer": "Yes, on several packages. Our AV technician hire guide covers exactly which packages include a technician and how many hours each one covers, rather than repeating that detail here."
+    },
+    {
+      "question": "Do You Offer Live Streaming or Event Technology for Hybrid or Virtual Events?",
+      "answer": "No. Our audio visual rental for virtual events guide states it directly: we do not supply cameras, streaming encoders, or a recording service. You bring your own laptop, conferencing software and internet connection, and we supply the room's sound and screen."
+    },
+    {
+      "question": "Do You Provide Video Mapping or LED and Video Walls?",
+      "answer": "No. Our large format display is a single 60 inch flat panel, not a modular tiled video wall, and our projector setups do not include facade projection or outdoor mapping. See What We Don't Offer above."
+    },
+    {
+      "question": "Do You Offer Interactive Touchscreens, Kiosks or Audience Response Technology?",
+      "answer": "No. Our audio visual rental for religious events guide rules out interactive touch screens on the same grounds it rules out a video wall: none of these are part of our catalog."
+    },
+    {
+      "question": "Do You Provide Event Apps, RFID Tracking or Ticketing Technology?",
+      "answer": "No. This is a scope boundary, not a gap we are hiding. It also sits outside what the local event technology competitors we looked at for this page actually sell, since they are physical AV and production companies rather than registration or ticketing platforms."
+    },
+    {
+      "question": "How Far in Advance Should I Book Event Technology for My Event?",
+      "answer": "As early as your date is confirmed. Demand peaks during wedding season, from April through October, when technicians and moving head lighting fixtures are the first things to fill up. See How Far in Advance to Book above."
+    }
+  ],
   "questions-to-ask-wedding-rental-companies": [
     {
       "question": "What should I ask before booking wedding AV rentals?",

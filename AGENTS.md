@@ -517,6 +517,7 @@ intencional de keywords y enlaces se trackea en
 | audio visual rental | `/blog/audio-visual-rental/` | `/` (home) |
 | wedding rentals | `/blog/wedding-rentals/` | `/` (home) |
 | audiovisual equipment rental service | `/blog/audiovisual-equipment-rental-service/` | `/` (home) |
+| event technology service | `/blog/event-technology-service/` | `/` (home) |
 
 Los supporting posts apuntan a su pilar. Los posts de noticias (`siloRole: news`) no forman un
 silo: no hay cadena lateral entre ellos (cada noticia es independiente), pero cada uno enlaza
