@@ -1569,6 +1569,93 @@
       "level": 3
     }
   ],
+  "headset-lavalier-microphone-rental": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "two-real-systems-we-stock-audix-wireless-lavalier-sets-and-the-audix-ht5-headband-mic",
+      "text": "Two Real Systems We Stock: AUDIX Wireless Lavalier Sets and the AUDIX HT5 Headband Mic",
+      "level": 2
+    },
+    {
+      "id": "lavalier-or-headset-which-one-actually-fits-your-event",
+      "text": "Lavalier or Headset: Which One Actually Fits Your Event",
+      "level": 2
+    },
+    {
+      "id": "where-this-gets-used-officiants-presenters-and-panels",
+      "text": "Where This Gets Used: Officiants, Presenters and Panels",
+      "level": 2
+    },
+    {
+      "id": "pricing-a-separate-add-on-not-a-package-line",
+      "text": "Pricing: A Separate Add On, Not a Package Line",
+      "level": 2
+    },
+    {
+      "id": "real-setups-weve-delivered",
+      "text": "Real Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "how-far-in-advance-to-book",
+      "text": "How Far in Advance to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "what-is-the-difference-between-a-headset-and-a-lavalier-microphone",
+      "text": "What is the difference between a headset and a lavalier microphone?",
+      "level": 3
+    },
+    {
+      "id": "do-you-rent-headset-or-lavalier-microphones-with-the-wedding-pack",
+      "text": "Do you rent headset or lavalier microphones with the Wedding Pack?",
+      "level": 3
+    },
+    {
+      "id": "can-a-corporate-presenter-use-a-lavalier-or-headset-mic-with-the-mice-pack",
+      "text": "Can a corporate presenter use a lavalier or headset mic with the MICE Pack?",
+      "level": 3
+    },
+    {
+      "id": "how-much-does-it-cost-to-rent-a-lavalier-or-headset-microphone",
+      "text": "How much does it cost to rent a lavalier or headset microphone?",
+      "level": 3
+    },
+    {
+      "id": "how-many-wireless-lavalier-microphones-do-you-have-available",
+      "text": "How many wireless lavalier microphones do you have available?",
+      "level": 3
+    },
+    {
+      "id": "is-a-lavalier-or-headset-microphone-better-for-a-wedding-officiant",
+      "text": "Is a lavalier or headset microphone better for a wedding officiant?",
+      "level": 3
+    },
+    {
+      "id": "can-a-panel-or-qa-session-share-a-lavalier-or-headset-setup-between-speakers",
+      "text": "Can a panel or Q&A session share a lavalier or headset setup between speakers?",
+      "level": 3
+    }
+  ],
   "how-audio-visual-rental-works": [
     {
       "id": "brief-overview",
