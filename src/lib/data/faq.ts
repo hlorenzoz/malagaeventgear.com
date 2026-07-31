@@ -50,8 +50,8 @@ const faqData: FaqItem[] = [
 			es: '¿Qué es Malaga Event Gear (MEG) y qué servicios ofrece?'
 		},
 		answer: {
-			en: 'Malaga Event Gear (MEG) is a company based in Malaga, Spain, specializing in the rental of professional audiovisual, lighting, and event equipment. We provide sound systems, projectors, screens, stages, technical assistance, smoke machines, lighting solutions, and microphones — plus specialized services such as audio and video recording, live video production, live sound reinforcement, simultaneous translation, interactive voting systems, and video wall setups.',
-			es: 'Malaga Event Gear (MEG) es una empresa con sede en Málaga, España, especializada en el alquiler de equipos profesionales audiovisuales, de iluminación y de eventos. Ofrecemos sistemas de sonido, proyectores, pantallas, escenarios, asistencia técnica, máquinas de humo, soluciones de iluminación y micrófonos — además de servicios especializados como grabación de audio y video, producción de video en directo, refuerzo de sonido en vivo, traducción simultánea, sistemas de votación interactiva y montajes de video wall.'
+			en: 'Malaga Event Gear (MEG) is a company based in Malaga, Spain, specializing in the rental of professional audiovisual, lighting, and event equipment. We provide sound systems, projectors, screens, stages, technical assistance, smoke machines, lighting solutions, and microphones — plus specialized services such as live sound reinforcement, simultaneous translation, interactive voting systems, and video wall setups.',
+			es: 'Malaga Event Gear (MEG) es una empresa con sede en Málaga, España, especializada en el alquiler de equipos profesionales audiovisuales, de iluminación y de eventos. Ofrecemos sistemas de sonido, proyectores, pantallas, escenarios, asistencia técnica, máquinas de humo, soluciones de iluminación y micrófonos — además de servicios especializados como refuerzo de sonido en vivo, traducción simultánea, sistemas de votación interactiva y montajes de video wall.'
 		}
 	},
 	{
@@ -223,8 +223,8 @@ const faqData: FaqItem[] = [
 			es: '¿Ofrecen transmisión en vivo y grabación multicámara?'
 		},
 		answer: {
-			en: 'Yes. Beyond equipment rental, we offer specialized production services including audio and video recording, multi-camera live video production, and live sound reinforcement — ideal for conferences, product launches, and hybrid events that need to reach a remote audience.',
-			es: 'Sí. Más allá del alquiler de equipos, ofrecemos servicios de producción especializados que incluyen grabación de audio y video, producción de video en directo multicámara y refuerzo de sonido en vivo — ideales para conferencias, lanzamientos de producto y eventos híbridos que necesitan llegar a una audiencia remota.'
+			en: 'No. We do not offer cameras, streaming encoders, multi-camera video production, or a recording service. We supply the room sound, screen and lighting; for a hybrid or virtual event you bring your own laptop, streaming software and internet connection.',
+			es: 'No. No ofrecemos cámaras, codificadores de transmisión, producción de video multicámara ni un servicio de grabación. Nosotros aportamos el sonido, la pantalla y la iluminación de la sala; para un evento híbrido o virtual, tú aportas tu portátil, tu software de transmisión y tu conexión a internet.'
 		}
 	},
 	{
