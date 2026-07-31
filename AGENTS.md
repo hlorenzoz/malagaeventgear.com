@@ -510,12 +510,13 @@ intencional de keywords y enlaces se trackea en
 3. El target page NO devuelve enlaces hacia abajo: es un sumidero de equity. Ese flujo invertido
    es el "reverse". Es la misma estructura que un árbol Core 30 de GBP anidado.
 
-### Los dos silos de MEG
+### Los silos de MEG
 
 | Silo | Pilar (target page) | Target del pilar |
 | :--- | :--- | :--- |
 | audio visual rental | `/blog/audio-visual-rental/` | `/` (home) |
 | wedding rentals | `/blog/wedding-rentals/` | `/` (home) |
+| audiovisual equipment rental service | `/blog/audiovisual-equipment-rental-service/` | `/` (home) |
 
 Los supporting posts apuntan a su pilar. Los posts de noticias (`siloRole: news`) no forman un
 silo: no hay cadena lateral entre ellos (cada noticia es independiente), pero cada uno enlaza

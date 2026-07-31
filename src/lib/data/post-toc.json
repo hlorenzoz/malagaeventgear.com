@@ -3653,6 +3653,128 @@
       "level": 3
     }
   ],
+  "audiovisual-equipment-rental-service": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "why-this-page-exists-specialized-equipment-vs-our-core-av-packages",
+      "text": "Why This Page Exists: Specialized Equipment vs. Our Core AV Packages",
+      "level": 2
+    },
+    {
+      "id": "the-5000-lumen-laser-projector-tier",
+      "text": "The 5000 Lumen Laser Projector Tier",
+      "level": 2
+    },
+    {
+      "id": "rgbw-spotlights-and-moving-style-lighting",
+      "text": "RGBW Spotlights and Moving Style Lighting",
+      "level": 2
+    },
+    {
+      "id": "wireless-and-gooseneck-microphone-systems",
+      "text": "Wireless and Gooseneck Microphone Systems",
+      "level": 2
+    },
+    {
+      "id": "the-60-inch-led-display",
+      "text": "The 60 Inch LED Display",
+      "level": 2
+    },
+    {
+      "id": "special-effects-fog-haze-and-confetti",
+      "text": "Special Effects: Fog, Haze and Confetti",
+      "level": 2
+    },
+    {
+      "id": "modular-staging-for-corporate-events",
+      "text": "Modular Staging for Corporate Events",
+      "level": 2
+    },
+    {
+      "id": "what-we-dont-offer",
+      "text": "What We Don't Offer",
+      "level": 2
+    },
+    {
+      "id": "real-specialized-equipment-setups-weve-delivered",
+      "text": "Real Specialized Equipment Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "how-far-in-advance-to-book",
+      "text": "How Far in Advance to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "what-is-the-difference-between-this-page-and-your-general-audio-visual-rental-page",
+      "text": "What Is the Difference Between This Page and Your General Audio Visual Rental Page?",
+      "level": 3
+    },
+    {
+      "id": "do-you-rent-a-mixing-console-or-audio-mixer-on-its-own",
+      "text": "Do You Rent a Mixing Console or Audio Mixer on Its Own?",
+      "level": 3
+    },
+    {
+      "id": "do-you-offer-headset-or-lavalier-microphones",
+      "text": "Do You Offer Headset or Lavalier Microphones?",
+      "level": 3
+    },
+    {
+      "id": "do-you-provide-simultaneous-interpretation-or-translation-equipment",
+      "text": "Do You Provide Simultaneous Interpretation or Translation Equipment?",
+      "level": 3
+    },
+    {
+      "id": "what-is-uplighting-and-do-you-rent-it",
+      "text": "What Is Uplighting and Do You Rent It?",
+      "level": 3
+    },
+    {
+      "id": "do-you-rent-a-video-wall-or-led-wall",
+      "text": "Do You Rent a Video Wall or LED Wall?",
+      "level": 3
+    },
+    {
+      "id": "can-i-rent-a-projection-screen-without-a-projector-or-vice-versa",
+      "text": "Can I Rent a Projection Screen Without a Projector, or Vice Versa?",
+      "level": 3
+    },
+    {
+      "id": "do-you-provide-interactive-voting-or-audience-response-systems",
+      "text": "Do You Provide Interactive Voting or Audience Response Systems?",
+      "level": 3
+    },
+    {
+      "id": "what-laser-or-special-lighting-effects-do-you-offer",
+      "text": "What Laser or Special Lighting Effects Do You Offer?",
+      "level": 3
+    },
+    {
+      "id": "do-you-rent-staging-truss-or-pipe-and-drape",
+      "text": "Do You Rent Staging, Truss or Pipe and Drape?",
+      "level": 3
+    }
+  ],
   "timeline-for-booking-wedding-rentals": [
     {
       "id": "brief-overview",
