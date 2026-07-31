@@ -197,8 +197,8 @@
 				<h3 class="font-headline-md text-[24px] text-on-surface mb-2">{i18n.t.categories.lightTitle}</h3>
 				<p class="font-body-md text-body-md text-on-surface-variant text-sm line-clamp-2">
 					{i18n.lang === 'en'
-						? 'RGBW LED spotlights, Beam/Spot moving heads, and control systems to create romantic or energetic atmospheres.'
-						: 'Focos LED RGBW, cabezas móviles Beam/Spot y sistemas de control para crear ambientes románticos o energéticos.'
+						? 'RGBW LED spotlights, specialty stage lighting, and a wireless uplighting kit to create romantic or energetic atmospheres.'
+						: 'Focos LED RGBW, iluminación escénica especial y un kit de uplighting inalámbrico para crear ambientes románticos o energéticos.'
 					}
 				</p>
 			</div>

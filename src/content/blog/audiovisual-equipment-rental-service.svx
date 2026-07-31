@@ -4,7 +4,7 @@ description: "Audiovisual equipment rental service in Malaga: the specialized la
 author: Hector Luis Lorenzo
 slug: audiovisual-equipment-rental-service
 publishDate: "2026-07-31"
-excerpt: "The niche layer of our AV catalog: laser projectors, moving head lighting, wireless mics, a 60 inch LED display, and effects, plus an honest list of what we do not stock."
+excerpt: "The niche layer of our AV catalog: laser projectors, specialty stage lighting and uplighting, wireless mics, a 60 inch LED display, and effects, plus an honest list of what we do not stock."
 coverImage: https://cdn.malagaeventgear.com/blog/1299/podium-lighting-sound-big-screen-projector-rental-malaga.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
 tags: []
@@ -20,7 +20,7 @@ targetPage: "/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for an audiovisual equipment rental service in Malaga? If you searched that exact phrase, you likely already found our [audio visual rental](/blog/audio-visual-rental/) page, since the two terms describe the same core service. This page exists for a narrower reason: to lay out the specialized and niche layer of our catalog, the 5000 lumen laser projector tier, RGBW and moving style lighting, wireless and gooseneck microphone systems, the 60 inch LED display, and fog, haze and confetti effects, in one place, and to say plainly what falls outside it.
+Looking for an audiovisual equipment rental service in Malaga? If you searched that exact phrase, you likely already found our [audio visual rental](/blog/audio-visual-rental/) page, since the two terms describe the same core service. This page exists for a narrower reason: to lay out the specialized and niche layer of our catalog, the 5000 lumen laser projector tier, RGBW spotlights, specialty stage lighting and uplighting, wireless and gooseneck microphone systems, the 60 inch LED display, and fog, haze and confetti effects, in one place, and to say plainly what falls outside it.
 
 Malaga Event Gear (MEG) delivers, installs and tests every piece of this equipment ourselves, across Malaga and the wider Costa del Sol, backed by experience going back to 1996. Nothing below is a wishlist. Every item is either a real package inclusion with a published euro price, or an honest "not in our catalog."
 
@@ -28,7 +28,7 @@ Malaga Event Gear (MEG) delivers, installs and tests every piece of this equipme
 
 ---
 
-Malaga Event Gear supplies the specialized and niche end of its audiovisual catalog, the laser projector tier, RGBW and moving style lighting, wireless and gooseneck microphone systems, the 60 inch LED display and special effects equipment, for corporate events, product launches and celebrations across Malaga and the wider Costa del Sol.
+Malaga Event Gear supplies the specialized and niche end of its audiovisual catalog, the laser projector tier, RGBW spotlights, specialty stage lighting and uplighting, wireless and gooseneck microphone systems, the 60 inch LED display and special effects equipment, for corporate events, product launches and celebrations across Malaga and the wider Costa del Sol.
 
 This page indexes that layer and cross links to our dedicated [sound system](/blog/sound-system-rental/), [TV screen](/blog/tv-screen-rental/) and [projector](/blog/projector-rental/) guides for the full pricing and package detail on each product. [Contact us](/contact/) to match a package to your event.
 
@@ -40,7 +40,9 @@ This page indexes that layer and cross links to our dedicated [sound system](/bl
 
 -   Shure wireless microphones and professional gooseneck lecterns, deployed across the [Wedding Pack](/packages/wedding/), [Basic MICE Pack](/packages/basic-mice/) and [MICE Pack](/packages/mice/), per our own equipment catalog.
 
--   RGBW LED spotlights on the [Eco Pack](/packages/eco/), plus Beam/Spot moving head fixtures listed in our lighting inventory for larger corporate and specialty setups.
+-   RGBW LED spotlights on the [Eco Pack](/packages/eco/), plus a compact multi head LED light bar and a Fresnel zoom wash light listed in our lighting inventory for larger corporate and specialty setups.
+
+-   A wireless, battery powered uplighting kit (6 fixtures), a separate item from our spotlights, for washing a wall or structure with color from the floor.
 
 -   Low lying fog machines, hazers and confetti cannons in our special effects inventory, with the smoke/fog machine published as a 20 euro Eco Pack add on.
 
@@ -50,7 +52,7 @@ This page indexes that layer and cross links to our dedicated [sound system](/bl
 
 Search "audiovisual equipment rental service" and you land on the same intent as "audio visual rental." We don't pretend otherwise. Our [audio visual rental](/blog/audio-visual-rental/) pillar covers the core event packages, from the [Eco Pack](/packages/eco/) up to the [MICE Pack](/packages/mice/), and is the right starting point if you just need sound, a screen and lighting for a wedding or a conference.
 
-This page covers a different question: which pieces of our inventory sit at the specialized or niche end, the laser tier rather than the standard projector, moving head fixtures rather than a plain spotlight, a fog machine or confetti cannon rather than a basic light bar, and what genuinely falls outside our catalog even though a general search for AV rental in Malaga turns it up on a competitor's page. If you already know you need a wedding sound system or a conference screen, our [sound system rental](/blog/sound-system-rental/) and [TV screen rental](/blog/tv-screen-rental/) guides answer that directly. If you're trying to work out whether we stock the more specialized layer, or whether something like interpretation equipment or a video wall is even possible with us, keep reading.
+This page covers a different question: which pieces of our inventory sit at the specialized or niche end, the laser tier rather than the standard projector, a multi head light bar or an uplighting kit rather than a plain spotlight, a fog machine or confetti cannon rather than a basic light bar, and what genuinely falls outside our catalog even though a general search for AV rental in Malaga turns it up on a competitor's page. If you already know you need a wedding sound system or a conference screen, our [sound system rental](/blog/sound-system-rental/) and [TV screen rental](/blog/tv-screen-rental/) guides answer that directly. If you're trying to work out whether we stock the more specialized layer, or whether something like interpretation equipment or a video wall is even possible with us, keep reading.
 
 <InlineCTA />
 
@@ -60,15 +62,15 @@ Our brightest projector is a 5000 lumen Full HD laser unit, bundled with a front
 
 We deployed that exact tier for a two day corporate project with [Bmotion in Benahavis](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/), where the laser projector kept imagery bright and sharp under the venue's own ambient corporate lighting. For the full lumens comparison against our standard 3000 lumen tier, and for what we don't offer on the projection side, see our [projector rental](/blog/projector-rental/) guide.
 
-## RGBW Spotlights and Moving Style Lighting
+## RGBW Spotlights, Specialty Stage Lighting and Uplighting
 
-Two real products sit under lighting. The [Eco Pack](/packages/eco/) includes 2 light bars with RGBW LED spotlights, a color changing accent fixture you run yourself, published at 290 euros ex VAT for up to 50 guests. Our equipment catalog also lists Beam/Spot moving head fixtures and control systems alongside those spotlights, for larger corporate stages and specialty setups. We don't publish a fixed package line or a standalone price for the moving head fixtures the way we do for the Eco Pack's light bars: [contact us](/contact/) with your event's scale and we'll confirm what's possible.
+Three real products sit under lighting. The [Eco Pack](/packages/eco/) includes 2 light bars with RGBW LED spotlights, a color changing accent fixture you run yourself, published at 290 euros ex VAT for up to 50 guests. Our equipment catalog also lists a compact 4 head LED light bar with foot pedal control, and a Fresnel zoom wash light, alongside those spotlights, for larger corporate stages and specialty setups. We don't publish a fixed package line or a standalone price for either fixture the way we do for the Eco Pack's light bars: [contact us](/contact/) with your event's scale and we'll confirm what's possible.
 
-Neither of these is uplighting. If a floor mounted wash light is what you're picturing, see [What Is Uplighting and Do You Rent It?](#what-is-uplighting-and-do-you-rent-it) below, because we don't stock that as a freestanding fixture. For wedding specific lighting, including our fairy light strings on the Wedding Pack, see our [lighting ideas for wedding rentals](/blog/lighting-ideas-for-wedding-rentals/) guide.
+Uplighting is a separate item from all of the above: a wireless, battery powered uplighting kit of 6 fixtures, for washing a wall or structure with color from the floor rather than spotlighting a fixed point. It is not bundled into any package and has no published a la carte price, so [contact us](/contact/) with your venue and guest count for a quote. For wedding specific lighting, including our fairy light strings on the Wedding Pack, see our [lighting ideas for wedding rentals](/blog/lighting-ideas-for-wedding-rentals/) guide.
 
 ## Wireless and Gooseneck Microphone Systems
 
-Our microphone inventory runs on Shure wireless systems, paired with professional gooseneck lecterns for podium speeches. The exact mix depends on the package: a gooseneck microphone on the [Basic MICE Pack](/packages/basic-mice/), wireless handheld microphones on the [Wedding Pack](/packages/wedding/), and both a gooseneck plus a wireless handheld microphone on the [MICE Pack](/packages/mice/). We do not offer headset or lavalier microphones. See our [sound system rental](/blog/sound-system-rental/) guide for the full package by package breakdown, technician hours and euro pricing.
+Our microphone inventory runs on Shure wireless systems, paired with professional gooseneck lecterns for podium speeches. The exact mix depends on the package: a gooseneck microphone on the [Basic MICE Pack](/packages/basic-mice/), wireless handheld microphones on the [Wedding Pack](/packages/wedding/), and both a gooseneck plus a wireless handheld microphone on the [MICE Pack](/packages/mice/). We also stock wireless lavalier and headset microphones as a separate item from the package inclusions above, not bundled into a fixed package line: [contact us](/contact/) if your event needs a hands free mic for a presenter or performer. See our [sound system rental](/blog/sound-system-rental/) guide for the full package by package breakdown, technician hours and euro pricing.
 
 ## The 60 Inch LED Display
 
@@ -104,10 +106,6 @@ A general search for AV equipment rental in Malaga turns up services from other 
 
 -   **Pipe and drape or event backdrops.** We are not a decor provider. Our [unique wedding ceremony rentals](/blog/unique-wedding-ceremony-rentals/) guide is explicit: no arch, no backdrop, no draping, no furniture. Our [audio visual rental for press conferences](/blog/audio-visual-rental-for-press-conferences/) guide says the same for a branded backdrop or step-and-repeat banner, usually sourced through your PR or marketing team instead.
 
--   **Uplighting as a freestanding fixture.** Our [lighting ideas for wedding rentals](/blog/lighting-ideas-for-wedding-rentals/) guide covers this: the closest equivalent we stock is the Eco Pack's RGBW light bars, not a floor mounted wash light.
-
--   **Headset or lavalier microphones.** Stated directly on our [sound system rental](/blog/sound-system-rental/) guide.
-
 ## Real Specialized Equipment Setups We've Delivered
 
 A look at real bookings that used this specialized layer of our catalog, across Malaga and the Costa del Sol:
@@ -130,13 +128,13 @@ Book as early as you can once your event date is confirmed. Demand on the Costa 
 
 ## Conclusion
 
-An audiovisual equipment rental service search and an audio visual rental search point at the same catalog. What differs here is the layer: the 5000 lumen laser projector, Shure wireless and gooseneck microphones, RGBW and moving style lighting, the 60 inch LED display, and fog, haze and confetti effects, alongside a direct answer on what we don't stock. [Contact us](/contact/) to match a package to your event. For the full package range and pricing, see our [audio visual rental](/blog/audio-visual-rental/) page.
+An audiovisual equipment rental service search and an audio visual rental search point at the same catalog. What differs here is the layer: the 5000 lumen laser projector, Shure wireless and gooseneck microphones, RGBW spotlights, specialty stage lighting and uplighting, the 60 inch LED display, and fog, haze and confetti effects, alongside a direct answer on what we don't stock. [Contact us](/contact/) to match a package to your event. For the full package range and pricing, see our [audio visual rental](/blog/audio-visual-rental/) page.
 
 ## FAQs
 
 ### What Is the Difference Between This Page and Your General Audio Visual Rental Page?
 
-They describe the same core service. Our [audio visual rental](/blog/audio-visual-rental/) page covers the full package range, from the [Eco Pack](/packages/eco/) up to the [MICE Pack](/packages/mice/). This page indexes the specialized and niche equipment layer inside that same catalog, the laser projector tier, RGBW and moving style lighting, wireless and gooseneck microphones, the 60 inch LED display and special effects, plus an honest list of what falls outside our catalog. See [Why This Page Exists](#why-this-page-exists-specialized-equipment-vs-our-core-av-packages) above.
+They describe the same core service. Our [audio visual rental](/blog/audio-visual-rental/) page covers the full package range, from the [Eco Pack](/packages/eco/) up to the [MICE Pack](/packages/mice/). This page indexes the specialized and niche equipment layer inside that same catalog, the laser projector tier, RGBW spotlights, specialty stage lighting and uplighting, wireless and gooseneck microphones, the 60 inch LED display and special effects, plus an honest list of what falls outside our catalog. See [Why This Page Exists](#why-this-page-exists-specialized-equipment-vs-our-core-av-packages) above.
 
 ### Do You Rent a Mixing Console or Audio Mixer on Its Own?
 
@@ -144,7 +142,7 @@ No. Our digital mixing consoles are technician operated equipment built into the
 
 ### Do You Offer Headset or Lavalier Microphones?
 
-No. We do not offer lavalier or headset microphones. Our microphone inventory is wired dynamic, wireless handheld and professional gooseneck models, sized to the package. See [Wireless and Gooseneck Microphone Systems](#wireless-and-gooseneck-microphone-systems) above.
+Yes. We stock wireless lavalier and headset microphones as a separate item from our package inclusions, for a presenter or performer who needs a hands free mic. See [Wireless and Gooseneck Microphone Systems](#wireless-and-gooseneck-microphone-systems) above.
 
 ### Do You Provide Simultaneous Interpretation or Translation Equipment?
 
@@ -152,7 +150,7 @@ Not from our own equipment catalog, but yes as an arranged service: we don't sto
 
 ### What Is Uplighting and Do You Rent It?
 
-Uplighting sits on the floor and washes light upward against a wall or structure. We don't offer it as a freestanding fixture. The closest equivalent we stock is the [Eco Pack's](/packages/eco/) RGBW light bars, which spotlight and color a room from a fixed position rather than washing a wall from the floor. See our [lighting ideas for wedding rentals](/blog/lighting-ideas-for-wedding-rentals/) guide for the full picture.
+Uplighting sits on the floor and washes light upward against a wall or structure. Yes, we rent it: a wireless, battery powered uplighting kit of 6 fixtures, a separate item from the [Eco Pack's](/packages/eco/) RGBW light bars, which spotlight and color a room from a fixed position rather than washing a wall from the floor. [Contact us](/contact/) with your venue and guest count for a quote. See our [lighting ideas for wedding rentals](/blog/lighting-ideas-for-wedding-rentals/) guide for the full picture.
 
 ### Do You Rent a Video Wall or LED Wall?
 
