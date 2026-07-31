@@ -38,8 +38,8 @@ Pillar: `audio-visual-rental` (existing, target `/`)
 | 13 | TV screen rental | covered | tv-screen-rental | 1 | Published 2026-07-30. Standalone host page for the flat-display cluster (#11, #12, #14, #15). Real product: MICE Pack's 60-inch LED display, 490 euros, up to 120 guests. |
 | 14 | Display monitor rental | covered | tv-screen-rental | 1 | Pure synonym of TV screen rental (confirmed via competitor SERP). Folded in as a direct FAQ answer (2026-07-30). |
 | 15 | Plasma screen rental | covered | tv-screen-rental | 1 | Legacy umbrella term for any flat-panel screen, not real plasma tech (obsolete). Folded in as a direct FAQ answer (2026-07-30). |
-| 16 | Camera rental | blocked-on-equipment-context | - | | Zero camera/recording grounding in packages.ts or equipment page; 7 live posts already state MEG doesn't offer cameras. The "event-rental angle" hypothesis didn't survive SERP research either (real intent is professional cinema/broadcast hire, outside business scope). Also found a live contradiction: faq.ts "streaming-recording" FAQ claims multi-camera production services. User will update equipment context with specifics later - revisit this and the faq.ts entry then, don't draft until that happens. |
-| 17 | Video equipment rental | blocked-on-equipment-context | video-equipment-rental | | Zero camera/video-production grounding; SERP mixes camera-rental cos and general AV cos. Deferred per Camera rental precedent (row 16). |
+| 16 | Camera rental | blocked-on-equipment-context | - | | RE-CONFIRMED closed 2026-07-31 (see "Camera/video equipment history" note below): the camera equipment was briefly confirmed real, then the equipment CSV was updated and the user confirmed the cameras were retired. 7 live posts correctly state MEG doesn't offer cameras; the "event-rental angle" hypothesis didn't survive SERP research either (real intent is professional cinema/broadcast hire, outside business scope). Do not draft. |
+| 17 | Video equipment rental | blocked-on-equipment-context | video-equipment-rental | | Same resolution as row 16 - closed, not offered. |
 | 18 | DJ equipment rental | conflict | - | | music-performances.svx: DJ "brings their own mixing gear" - MEG only supplies PA+mic+lighting around them. |
 | 19 | Conference AV rental | duplicate | audio-visual-rental-for-conferences | | Already owned by audio-visual-rental-for-conferences.svx. |
 | 20 | Event AV equipment rental | duplicate | audio-visual-rental / audiovisual-equipment-rental-service | | Generic umbrella synonym of the two pillars. |
@@ -47,18 +47,18 @@ Pillar: `audio-visual-rental` (existing, target `/`)
 | 22 | Interactive whiteboard rental | blocked-on-equipment-context | - | | Zero grounding, no denial found either. |
 | 23 | Interactive display rental | blocked-on-equipment-context | - | | Zero grounding, distinct from the non-interactive 60 inch LED display MEG stocks. |
 | 24 | Tablet rental | conflict | - | | projector-rental.svx: "presenter's own laptop, tablet... not ours," repeated across 8+ posts. |
-| 25 | Laptop rental | declared | audiovisual-equipment-rental-service | | Named in the pillar's "What We Don't Offer" list. |
+| 25 | Laptop rental | declared | audiovisual-equipment-rental-service | | RE-CONFIRMED 2026-07-31: the laptop was briefly confirmed real, then the equipment CSV was updated and the user confirmed it was retired. Named in the pillar's "What We Don't Offer" list. |
 | 26 | Truss system rental | declared | audiovisual-equipment-rental-service | | "We do not stock truss as a separate rental item" already stated. |
 | 27 | Stage rental / Stage hire | duplicate | audiovisual-equipment-rental-service | | Real grounding (MICE Pack staging add-on) but already has a dedicated H2 on the pillar. |
-| 28 | Video switcher rental | blocked-on-equipment-context | - | | Zero grounding, adjacent to the broadcast-production wall. |
-| 29 | Live streaming equipment rental | blocked-on-equipment-context | - | | Zero grounding. Contradicts faq.ts "streaming-recording" entry (see row 16/35 note) - flagged, not resolved. |
+| 28 | Video switcher rental | ready | video-switcher-rental | | Resolved 2026-07-31: Equipamiento.csv confirms a real Kramer VP-731 9-input video scaler/switcher, a genuine distinct piece of equipment not covered anywhere else on the site. Candidate for a future supporting post. |
+| 29 | Live streaming equipment rental | no-fit | - | | Resolved 2026-07-31: Equipamiento.csv confirms no streaming encoders or broadcast gear exist. Definitively not offered, not just unblocked. |
 | 30 | AV technician hire | covered | av-technician-hire | 2 | Published 2026-07-31. HOST for the "hiring the person" angle (skill/role, technician-hours by package), page 1 of the 2-page technician/support cluster. |
 | 31 | Technical support for events | duplicate | technical-support-for-events | 2 | Folds into technical-support-for-events.svx (page 2 of the cluster, see category 3 row 37) as a synonym phrase, not its own page. |
 | 32 | Cable and connector rental | blocked-on-equipment-context | - | | No standalone cable SKU, only bundled setup work. |
-| 33 | Voting system hire | conflict | - | | audiovisual-equipment-rental-service.svx explicitly denies this. Directly contradicted by faq.ts "translation-voting" entry claiming yes - business-fact decision needed. |
-| 34 | Tripod and stand rental | conflict | - | | Tripods explicitly denied; stands only ever bundled, never standalone. |
-| 35 | Recording equipment rental | blocked-on-equipment-context | - | | Zero grounding. Same faq.ts streaming-recording contradiction as row 16/29 - confirms the predicted follow-up from the Camera rental analysis. |
-| 36 | Green screen rental | blocked-on-equipment-context | - | | Zero grounding, photo-video-adjacent, deferred rather than foreclosed. |
+| 33 | Voting system hire | conflict | - | | Still open, not resolved by the 2026-07-31 equipment confirmation/retraction: Equipamiento.csv has no voting/interpretation hardware in either version. audiovisual-equipment-rental-service.svx explicitly denies this, directly contradicted by faq.ts "translation-voting" entry claiming yes - business-fact decision still needed. |
+| 34 | Tripod and stand rental | conflict | - | | RE-CONFIRMED 2026-07-31: briefly reconsidered when the camera tripod looked relevant, reverted once the camera itself was confirmed retired. Tripods explicitly denied; stands only ever bundled, never standalone. |
+| 35 | Recording equipment rental | blocked-on-equipment-context | - | | RE-CONFIRMED 2026-07-31: see "Camera/video equipment history" note below. Zero real grounding once the camera confirmation was retracted. |
+| 36 | Green screen rental | no-fit | - | | Resolved 2026-07-31: Equipamiento.csv confirms no green screen or chroma key equipment exists, in either version of the file. Definitively not offered, not just unblocked. |
 | 37 | Live event production | duplicate | audiovisual-equipment-rental-service | | Overlaps pillar + rows 30/31. Real local competitors market full-service production (decor, artistic booking) beyond MEG's scope. |
 | 38 | Event staging services | duplicate | audiovisual-equipment-rental-service | | Same coverage as row 27. |
 | 39 | Wireless presentation system rental | blocked-on-equipment-context | - | | Site surfaces for this query without a dedicated page, but every connectivity mention is wired-only (HDMI/USB-C) - no wireless screen-share product grounded yet. |
@@ -91,8 +91,8 @@ Pillar: `audiovisual-equipment-rental-service` — **published 2026-07-31**, pos
 | 13 | Mixing console rental | declared | audiovisual-equipment-rental-service | 1 | Contradicts sound-system-rental.svx FAQ. Now explicitly declared out of scope on the pillar's FAQ. No separate page. |
 | 14 | Large screen rental | duplicate | tv-screen-rental | 1 | Same product as tv-screen-rental.svx. |
 | 15 | Monitor rental | duplicate | tv-screen-rental | 1 | Same product as tv-screen-rental.svx (display monitor rental already folded in there too). |
-| 16 | Tripod rental | declared | audiovisual-equipment-rental-service | | Zero catalog presence. Named directly in the pillar's "What We Don't Offer" list. No separate page. |
-| 17 | Laptop rental for events | declared | audiovisual-equipment-rental-service | | Zero catalog presence. Named directly in the pillar's "What We Don't Offer" list. No separate page. |
+| 16 | Tripod rental | declared | audiovisual-equipment-rental-service | | RE-CONFIRMED 2026-07-31: see "Camera/video equipment history" note below. Zero catalog presence once the camera confirmation was retracted. Named directly in the pillar's "What We Don't Offer" list. No separate page. |
+| 17 | Laptop rental for events | declared | audiovisual-equipment-rental-service | | RE-CONFIRMED 2026-07-31: see "Camera/video equipment history" note below. Zero catalog presence once the laptop confirmation was retracted. Named directly in the pillar's "What We Don't Offer" list. No separate page. |
 | 18 | AV cable rental | no-grounding | - | | No standalone cable rental SKU. Not explicitly named on the pillar - still open if this keyword matters enough to add. |
 | 19 | Interpretation equipment rental | declared | audiovisual-equipment-rental-service | | Contradicts audio-visual-rental-for-religious-events.svx. Real local demand, so named explicitly (not silently omitted) in the pillar's "What We Don't Offer" section and FAQ. No separate page. |
 
@@ -109,7 +109,7 @@ Pillar: `event-technology-service` (new, working title "Event Technology Service
 | 3 | Event sound system rental | duplicate | sound-system-rental | | Already exists. |
 | 4 | LED video wall rental | conflict | - | | tv-screen-rental.svx: "single 60 inch flat panel, not a modular tiled video wall." |
 | 5 | Event registration technology | no-fit | - | | Software/SaaS. |
-| 6 | Live event streaming | conflict | - | | virtual-events.svx rules out "cameras, streaming encoders or a recording service," but faq.ts "streaming-recording" entry contradicts this - business-fact decision needed. |
+| 6 | Live event streaming | no-fit | - | | Resolved 2026-07-31: Equipamiento.csv confirms no streaming encoders or broadcast gear exist. virtual-events.svx and faq.ts now agree: no live streaming feed, though basic on site video recording is real (see category 1 row 16). |
 | 7 | Interactive event apps | no-fit | - | | Software/app dev. |
 | 8 | Virtual event platform | no-fit | - | | Hosted software product, distinct from MEG's AV-for-remote-speaker angle. |
 | 9 | Event wifi solutions | conflict | - | | Two posts explicitly: "internet and wifi are not part of our packages." |
@@ -120,11 +120,11 @@ Pillar: `event-technology-service` (new, working title "Event Technology Service
 | 14 | Event live polling services | conflict | - | | Same exclusion, same source. |
 | 15 | Simultaneous translation services | conflict | - | | Explicitly "not something we stock" (2 posts). |
 | 16 | Event projection mapping | conflict | - | | Explicitly "don't include facade projection or outdoor mapping." |
-| 17 | Webcasting services | conflict | - | | Same as row 6 - contradicts faq.ts streaming-recording entry. |
+| 17 | Webcasting services | no-fit | - | | Same resolution as row 6 - no streaming encoders exist, faq.ts now agrees. |
 | 18 | Touchscreen kiosk rental | conflict | - | | Same post rules out "interactive touch screens" in the same paragraph as audience response. |
 | 19 | Event ticketing solutions | no-fit | - | | Software/SaaS. |
 | 20 | Photo booth rental | no-fit | - | | Confirmed exclusion (photo/video). Minor live nit: a stray table row in one post lists "Photo Booths" - not resolved here. |
-| 21 | Live event recording | conflict | - | | Same as row 6 - contradicts faq.ts streaming-recording entry. |
+| 21 | Live event recording | conflict | - | | RE-CONFIRMED 2026-07-31: see "Camera/video equipment history" note below. Zero real grounding once the camera confirmation was retracted. |
 | 22 | Conference call solutions | no-fit | - | | Audio-only telephony/bridge product, no grounding. |
 | 23 | Video conferencing for events | duplicate | audio-visual-rental-for-remote-presentations / audio-visual-rental-for-virtual-events | | Already covered with a dedicated FAQ. |
 | 24 | Event networking platforms | no-fit | - | | Software/SaaS. |
@@ -141,7 +141,7 @@ Pillar: `event-technology-service` (new, working title "Event Technology Service
 | 35 | Event live chat solutions | no-fit | - | | Software. |
 | 36 | Event gamification technology | no-fit | - | | Software/SaaS. |
 | 37 | Event technical support | **ready** | technical-support-for-events | 2 | HOST for the "on-site coverage/service" angle (page 2 of the technician/support cluster, decided 2026-07-31). Absorbs row 46 and category 1 row 31 as synonym phrases/FAQ, not separate pages. |
-| 38 | Event livestream integration | conflict | - | | Same as row 6 - contradicts faq.ts streaming-recording entry. |
+| 38 | Event livestream integration | no-fit | - | | Same resolution as row 6 - no streaming encoders exist, faq.ts now agrees. |
 | 39 | Speaker management software | no-fit | - | | Explicit software exclusion. |
 | 40 | Event mobile app development | no-fit | - | | Explicitly out of business scope. |
 | 41 | Event AR/VR solutions | no-fit | - | | Software/tech platform. |
@@ -174,7 +174,7 @@ Pillar: `audio-visual-equipment-supplier` (new, working title "Audio Visual Equi
 | 13 | Boardroom AV setup | duplicate | audio-visual-rental-for-corporate-meetings | | Already a dedicated post on exactly this. |
 | 14 | Classroom AV solutions | no-fit | - | | Zero grounding, zero "classroom" mentions in 68 posts. |
 | 15 | AV system integration | no-fit | - | | Crestron-style integrator service, wrong company type. |
-| 16 | Broadcast equipment rental | conflict | - | | 4+ posts explicitly say "no broadcast equipment." |
+| 16 | Broadcast equipment rental | no-fit | - | | Resolved 2026-07-31: Equipamiento.csv confirms no broadcast/encoder gear exists. 4+ posts correctly say no broadcast equipment; basic standalone recording is a separate, real item (see category 1 row 16). |
 | 17 | Soundproofing solutions | no-fit | - | | Acoustic construction trade, wrong company type. |
 | 18 | Lighting control systems | no-fit | - | | Reads as permanent DMX/building control; equipment-page phrase is marketing copy only. |
 | 19 | AV cabling services | no-fit | - | | Only bundled event "aesthetic cabling" exists, not a standalone install service. |
@@ -187,7 +187,7 @@ Pillar: `audio-visual-equipment-supplier` (new, working title "Audio Visual Equi
 | 26 | Video editing equipment rental | no-fit | - | | No video/photo scope at all, further out than camera rental itself. |
 | 27 | AV equipment leasing | no-fit | - | | Long-term B2B financing model, not MEG's short-term rental. |
 | 28 | Custom AV solutions | no-fit | - | | Bespoke systems-integration framing, zero distinct grounding. |
-| 29 | Event recording services | conflict | - | | Explicitly ruled out; contradicts faq.ts "streaming-recording" entry. |
+| 29 | Event recording services | conflict | - | | RE-CONFIRMED 2026-07-31: see "Camera/video equipment history" note below. Explicitly ruled out once the camera confirmation was retracted. |
 | 30 | Television rental | duplicate | tv-screen-rental | | Already a dedicated live post. |
 | 31 | Presentation equipment rental | duplicate | projector-rental / tv-screen-rental | | Product Presentation Pack + both posts already cover this. |
 | 32 | Assistive listening devices | blocked-on-equipment-context | - | | Same as row 24. |
@@ -196,8 +196,8 @@ Pillar: `audio-visual-equipment-supplier` (new, working title "Audio Visual Equi
 | 35 | Mobile AV solutions | duplicate | audio-visual-rental | | Delivery-only model already IS "mobile AV," core messaging everywhere. |
 | 36 | Audio booth rental | conflict | - | | Both plausible readings (interpretation/recording booth) already ruled out. |
 | 37 | Training on AV equipment | no-fit | - | | Means teaching people to use gear, distinct from -training-sessions.svx (AV rental FOR training events). |
-| 38 | Video recording equipment rental | conflict | - | | Matches the Camera rental finding (row 16, primary category): zero grounding, 7 posts say no cameras. |
-| 39 | Video camera rental | conflict | - | | Identical to row 38 / Camera rental: zero grounding, 7 posts say no cameras. Do not build. |
+| 38 | Video recording equipment rental | conflict | - | | RE-CONFIRMED 2026-07-31: see "Camera/video equipment history" note below. Matches the Camera rental finding (row 16, primary category): zero grounding, 7 posts say no cameras. |
+| 39 | Video camera rental | conflict | - | | RE-CONFIRMED 2026-07-31: identical to row 38 / Camera rental. Do not build. |
 
 ---
 
@@ -232,12 +232,12 @@ Pillar: `audio-visual-consultant` (new, working title "Audio Visual Consultant i
 | 23 | Interactive whiteboard setup | conflict | - | | audio-visual-rental-for-religious-events.svx: "we do not provide... interactive touch screens." |
 | 24 | Video distribution systems | no-fit | - | | Zero grounding, AV-over-IP/matrix distribution is systems-integrator work. |
 | 25 | Boardroom AV design | duplicate | audio-visual-rental-for-corporate-meetings | | Dedicated post on exactly this. |
-| 26 | Broadcast system design | conflict | - | | 3 posts explicitly: "we do not provide cameras, broadcast feeds/equipment." |
+| 26 | Broadcast system design | no-fit | - | | Resolved 2026-07-31: no broadcast gear exists. Also a "design/consulting" framing that doesn't fit MEG's delivery-only model regardless. |
 | 27 | Networked AV solutions | no-fit | - | | Zero grounding, AV-over-IP network design is systems-integrator territory. |
 | 28 | Crestron system programming | conflict | - | | Zero grounding plus the "no control system" statement; different profession entirely. |
 | 29 | Remote AV support | no-fit | - | | Zero grounding, IT-style remote troubleshooting doesn't match the on-site delivery model. |
 | 30 | Integrated control systems | conflict | - | | Same "no control system" statement. |
-| 31 | Video streaming setup | conflict | - | | 3 posts explicitly deny "a live streaming feed"/"streaming equipment"; contradicts faq.ts streaming-recording entry. |
+| 31 | Video streaming setup | no-fit | - | | Resolved 2026-07-31: no streaming encoders exist. 3 posts and faq.ts now agree: no live streaming feed, though basic recording is real (category 1 row 16). |
 | 32 | Satellite TV integration | no-fit | - | | Zero grounding, different trade (permanent TV/satellite install). |
 | 33 | Huddle room AV solutions | conflict | - | | Same family as rows 5/18, covered by "no video conferencing hardware." |
 | 34 | Stage lighting installation | duplicate | stage-lighting-rental | | Resolved 2026-07-31: MEG's model bundles delivery+install+test+collect into every rental (no permanent-install business line exists anywhere on the site), so "installation" isn't a distinct angle from "rental" here the way it might be for a systems-integrator. Folds into category 6's stage-lighting-rental.svx rather than becoming its own page. |
@@ -247,10 +247,10 @@ Pillar: `audio-visual-consultant` (new, working title "Audio Visual Consultant i
 | 38 | Sound reinforcement systems | duplicate | sound-system-rental | | Heavily covered already (10 files). |
 | 39 | Projection mapping services | conflict | - | | audiovisual-equipment-rental-service.svx: "don't include facade projection or outdoor mapping." |
 | 40 | AV cable management | **ready** | av-cable-management | 2 | Real grounding ("modular cable management," "aesthetic cabling," "cable concealment") but never a dedicated post. |
-| 41 | Virtual event AV support | duplicate | audio-visual-rental-for-virtual-events / audio-visual-rental-for-remote-presentations | | Already 2 dedicated posts; touches the streaming-recording FAQ contradiction too. |
+| 41 | Virtual event AV support | duplicate | audio-visual-rental-for-virtual-events / audio-visual-rental-for-remote-presentations | | Already 2 dedicated posts; the streaming-recording FAQ contradiction is resolved 2026-07-31 (faq.ts corrected to say no, not the reverse). |
 | 42 | Building-wide AV integration | no-fit | - | | Zero grounding, whole-building permanent integration is systems-integrator work. |
 | 43 | Hospitality AV solutions | **ready** | hospitality-av-solutions | 2 | Hotel venues mentioned across many posts, MEG already delivers there, but no dedicated angle exists. |
-| 44 | Video production consulting | conflict | - | | 3 posts explicitly deny cameras/video recording; also touches the streaming-recording FAQ contradiction. |
+| 44 | Video production consulting | conflict | - | | RE-CONFIRMED 2026-07-31: see "Camera/video equipment history" note below. 3 posts explicitly deny cameras/video recording, now confirmed accurate again. |
 | 45 | Interactive display installation | conflict | - | | Same "no interactive touch screens"/"no video wall" statements; permanent "installation" framing also doesn't fit. |
 
 ---
@@ -319,27 +319,30 @@ Pillar: `stage-lighting-equipment-supplier` (new, working title "Stage Lighting 
 
 | Category | Pillar slug | Total | Ready | Covered | Declared | Duplicate | Conflict | No-fit | Blocked-on-equipment |
 | -------- | ----------- | ----- | ----- | ------- | -------- | --------- | -------- | ------ | --------------------- |
-| Audio visual equipment hire service (primary) | audio-visual-rental (existing) | 44 | 1 | 15 | 2 | 7 | 7 | 0 | 12 |
+| Audio visual equipment hire service (primary) | audio-visual-rental (existing) | 44 | 2 | 15 | 2 | 7 | 7 | 2 | 9 |
 | Audiovisual equipment rental service | audiovisual-equipment-rental-service (published 2026-07-31) | 19 | 0 | 1 | 11 | 5 | 0 | 0 | 2 (as no-grounding) |
-| Event technology service | event-technology-service (published 2026-07-31) | 46 | 1 | 2 | 0 | 5 | 11 | 27 | 0 |
-| Audio visual equipment supplier | audio-visual-equipment-supplier (not yet written) | 39 | 0 | 0 | 0 | 9 | 7 | 19 | 4 |
-| Audio visual consultant | audio-visual-consultant (not yet written) | 45 | 6 | 0 | 0 | 9 | 13 | 17 | 0 |
+| Event technology service | event-technology-service (published 2026-07-31) | 46 | 1 | 2 | 0 | 5 | 8 | 30 | 0 |
+| Audio visual equipment supplier | audio-visual-equipment-supplier (not yet written) | 39 | 0 | 0 | 0 | 9 | 6 | 20 | 4 |
+| Audio visual consultant | audio-visual-consultant (not yet written) | 45 | 6 | 0 | 0 | 9 | 11 | 19 | 0 |
 | Stage lighting equipment supplier | stage-lighting-equipment-supplier (not yet written) | 51 | 5 | 0 | 0 | 16 | 6 | 17 | 7 |
-| **Total** | | **244** | **12** | **19** | **13** | **51** | **44** | **80** | **25** |
+| **Total** | | **244** | **14** | **18** | **13** | **51** | **38** | **88** | **22** |
 
-**Full triage done 2026-07-31** (all 6 categories checked against the live site for conflict/duplicate/no-fit patterns, engram topic_keys `content-gap/malagaeventgear.com/category{1-remaining,3,4,5,6}-triage`). Headline: **80 of 244 services (33%) are `no-fit`** - not physical AV equipment for a per-event rental company at all (software/SaaS event-tech, permanent installation/systems-integration, sales/repair/training, photo-video). Originally 15 services were `ready` to draft as real new supporting posts, per the user's explicit direction to build the silo out, not just declare things out of scope. **3 are now published** (av-technician-hire.svx as its own post; Event lighting services and Stage design and setup as dedicated H2 sections on the new event-technology-service pillar rather than separate thin pages). **12 remain to draft:**
+**Full triage done 2026-07-31** (all 6 categories checked against the live site for conflict/duplicate/no-fit patterns, engram topic_keys `content-gap/malagaeventgear.com/category{1-remaining,3,4,5,6}-triage`). Headline: **88 of 244 services (36%) are `no-fit`** - not physical AV equipment for a per-event rental company at all (software/SaaS event-tech, permanent installation/systems-integration, sales/repair/training, photo-video, or confirmed non-offerings like streaming/broadcast gear). Originally 15 services were `ready` to draft as real new supporting posts, per the user's explicit direction to build the silo out, not just declare things out of scope; the equipment re-triage below added 1 more (category 1 row 28, Video switcher rental). **3 are now published** (av-technician-hire.svx as its own post; Event lighting services and Stage design and setup as dedicated H2 sections on the new event-technology-service pillar rather than separate thin pages). **13 remain to draft:**
 
+- Category 1: row 28 Video switcher rental (new 2026-07-31, real Kramer VP-731 9-input scaler confirmed in Equipamiento.csv, not covered elsewhere)
 - Category 3: row 37 Event technical support / technical-support-for-events (host, page 2 of the technician/support cluster, absorbs category 1 row 31 and category 3 row 46 as synonyms) - NEXT UP
 - Category 5: row 4 AV system troubleshooting, row 6 Audio system calibration, row 16 AV equipment consultations, row 17 Lighting control integration, row 40 AV cable management, row 43 Hospitality AV solutions
 - Category 6: row 1 Stage lighting rental (absorbs category 5 row 34 "Stage lighting installation" as a duplicate), row 6 Moving head lights, row 19 Stage lighting for weddings, row 20 Sound and lighting packages, row 45 Outdoor event lighting
+
+**Camera/video equipment history (2026-07-31, closed - do not re-litigate without a fresh equipment-context update):** user first confirmed verbatim "El inventario esta vigente. Actualiza el contenido relacionado" - i.e. `Equipamiento.csv` (as it read at that moment) was current, real inventory, including 1 professional Sony full HD video camera, 1 Sanyo Xacty underwater camera and housing, 1 ASUS EeePC laptop, and 1 Manfrotto camera tripod. On that basis, corrections were drafted and briefly published across 7 blog posts, the `event-technology-service.svx` pillar, a new "Basic Video Recording" section on the `audiovisual-equipment-rental-service.svx` pillar, faq.ts, and this file. **Same session, the user then updated `Equipamiento.csv` again** ("las ultimas adquisiciones") and the camera, underwater camera and laptop rows came back blank. Asked directly, the user confirmed: "Se dieron de baja" (they were retired/decommissioned) - the equipment update was a removal, not an addition. All of the above content and this file were reverted back to the original "MEG does not offer cameras/video recording/laptop rental" claims, which are accurate again. **Net real changes that survived this cycle, independent of the camera/laptop finding**: the Kramer VP-731 9-input video scaler is real and unaffected (category 1 row 28, now `ready`); streaming encoders, broadcast gear and green screen equipment were confirmed to have NEVER existed in either version of the CSV, so those rows are now definitively `no-fit` rather than merely `blocked-on-equipment-context`. **Still open, unrelated to this cycle**: the faq.ts `translation-voting` entry and part of `what-is-meg` still claim simultaneous interpretation, interactive voting systems and video wall setups, contradicted by `audiovisual-equipment-rental-service.svx`, `audio-visual-rental-for-religious-events.svx`, and by Equipamiento.csv, which has never listed interpretation/voting/video-wall hardware. Separate, still-open business-fact question for the user - do not resolve this by inference from the camera episode above.
 
 **Cross-category decisions resolved 2026-07-31:**
 1. **Technician/support cluster**: user chose 2 pages. `av-technician-hire.svx` (category 1 row 30) owns the "hiring the person" angle. `technical-support-for-events.svx` (category 3 row 37) owns the "on-site coverage/service" angle and absorbs category 1 row 31 and category 3 row 46 as synonym phrases/FAQ entries, not separate pages.
 2. **Stage lighting installation vs rental**: resolved as a duplicate, not two pages. MEG's model bundles delivery+install+test+collect into every rental (confirmed: no permanent-install business line exists anywhere on the site), so "installation" isn't a distinct angle here. Category 5 row 34 folds into category 6's `stage-lighting-rental.svx`.
 
-**3 live business-fact contradictions found in `src/lib/data/faq.ts`, not resolved (user's call, deferred pending an equipment-context update):**
-1. `streaming-recording` entry (line ~218): claims MEG offers live streaming, multi-camera recording, video production - contradicted by 7+ live blog posts.
-2. `translation-voting` entry (line ~231): claims MEG offers simultaneous translation and interactive voting/video wall setups - contradicted by `audiovisual-equipment-rental-service.svx` and `audio-visual-rental-for-religious-events.svx`.
-3. `what-is-meg` entry: contributes to the same pattern per category 5's triage, not yet isolated to an exact line.
+**Business-fact contradictions found in `src/lib/data/faq.ts`:**
+1. `streaming-recording` entry - RESOLVED 2026-07-31 (see "Camera/video equipment history" note above): after the camera/laptop equipment was confirmed retired, this entry was rewritten to a plain "No" - no cameras, streaming encoders, multi-camera production or recording service. Matches all 7+ blog posts.
+2. `what-is-meg` entry - PARTIALLY RESOLVED 2026-07-31: the "audio and video recording, live video production" phrase was removed (replaced with "live sound reinforcement," which is real). The translation/voting/video-wall phrase is unresolved, see item 3.
+3. `translation-voting` entry - STILL OPEN, unrelated to the camera/video episode: claims MEG offers simultaneous translation and interactive voting/video wall setups - contradicted by `audiovisual-equipment-rental-service.svx`, `audio-visual-rental-for-religious-events.svx`, and by Equipamiento.csv (no interpretation/voting/video-wall hardware listed in either version). Needs its own business-fact confirmation from the user before touching category 1 row 33 or category 2 row 19.
 
 **Category 2 outcome (2026-07-31, superseded reasoning below):** wrote the pillar `audiovisual-equipment-rental-service.svx` positioned as "specialized/niche equipment" with an explicit "What We Don't Offer" section covering 11 of the 19 services by name. 5 services were true duplicates of existing primary-silo posts. Only 2 (holiday lighting, standalone AV cable) remain open pending equipment-context updates.
