@@ -1133,6 +1133,48 @@
       "answer": "Up to 80 guests, sized for a villa, finca or wedding hotel. For a larger wedding, contact us to discuss options."
     }
   ],
+  "audiovisual-equipment-rental-service": [
+    {
+      "question": "What Is the Difference Between This Page and Your General Audio Visual Rental Page?",
+      "answer": "They describe the same core service. Our audio visual rental page covers the full package range, from the Eco Pack up to the MICE Pack. This page indexes the specialized and niche equipment layer inside that same catalog, the laser projector tier, RGBW and moving style lighting, wireless and gooseneck microphones, the 60 inch LED display and special effects, plus an honest list of what falls outside our catalog. See Why This Page Exists above."
+    },
+    {
+      "question": "Do You Rent a Mixing Console or Audio Mixer on Its Own?",
+      "answer": "No. Our digital mixing consoles are technician operated equipment built into the Wedding Pack, Basic MICE Pack and MICE Pack, not a standalone rental item. See our sound system rental guide for the full detail."
+    },
+    {
+      "question": "Do You Offer Headset or Lavalier Microphones?",
+      "answer": "No. We do not offer lavalier or headset microphones. Our microphone inventory is wired dynamic, wireless handheld and professional gooseneck models, sized to the package. See Wireless and Gooseneck Microphone Systems above."
+    },
+    {
+      "question": "Do You Provide Simultaneous Interpretation or Translation Equipment?",
+      "answer": "No, and we say so directly rather than leave it unanswered. Multilingual interpretation technology is not part of our catalog, a scope decision already stated on our audio visual rental for religious events guide. Real demand for this exists locally, and some Malaga competitors run it as a dedicated line, but it falls outside what we stock."
+    },
+    {
+      "question": "What Is Uplighting and Do You Rent It?",
+      "answer": "Uplighting sits on the floor and washes light upward against a wall or structure. We don't offer it as a freestanding fixture. The closest equivalent we stock is the Eco Pack's RGBW light bars, which spotlight and color a room from a fixed position rather than washing a wall from the floor. See our lighting ideas for wedding rentals guide for the full picture."
+    },
+    {
+      "question": "Do You Rent a Video Wall or LED Wall?",
+      "answer": "No. Our large format display is a single 60 inch flat panel screen on a designer stand, not a modular tiled video wall built from stacked LED cabinets. See our TV screen rental guide for what we publish instead."
+    },
+    {
+      "question": "Can I Rent a Projection Screen Without a Projector, or Vice Versa?",
+      "answer": "No. We do not sell a projection screen on its own, and we do not rent a projector without one. Every screen we deploy is bundled with a projector sized to it, whether that's the Eco Pack's 50 euro add on or the fixed screen and projector inclusion on the Basic MICE Pack and Product Presentation Pack. See our projector rental guide for the full breakdown."
+    },
+    {
+      "question": "Do You Provide Interactive Voting or Audience Response Systems?",
+      "answer": "No. Clicker devices, live polling hardware and interactive audience response systems are not part of our catalog. Our religious events guide rules out interactive touch screens on the same grounds: we don't stock this category of equipment."
+    },
+    {
+      "question": "What Laser or Special Lighting Effects Do You Offer?",
+      "answer": "Our brightest projector is a 5000 lumen Full HD laser unit on the Product Presentation Pack. On the effects side, our catalog lists low lying fog machines for a cloud effect, hazers to enhance light beams, and professional confetti cannons, with the fog machine published as a 20 euro Eco Pack add on. We do not offer laser light shows, gobo or monogram projection, or hologram displays. See Special Effects above."
+    },
+    {
+      "question": "Do You Rent Staging, Truss or Pipe and Drape?",
+      "answer": "Staging, yes, as a priced add on: modular stage platforms at 35 euros per square meter on the MICE Pack. Truss, no, we don't stock it as a separate rental item. Pipe and drape or event backdrops, also no: we are not a decor provider, and that's stated directly on our unique wedding ceremony rentals guide. See Modular Staging for Corporate Events above."
+    }
+  ],
   "timeline-for-booking-wedding-rentals": [
     {
       "question": "How far in advance should I book wedding rentals in Malaga?",

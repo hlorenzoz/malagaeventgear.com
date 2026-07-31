@@ -69,29 +69,29 @@ Pillar: `audio-visual-rental` (existing, target `/`)
 
 ## Category: Audiovisual equipment rental service
 
-Pillar: `audiovisual-equipment-rental-service` (new, working title "Audiovisual Equipment Rental Service in Malaga")
+Pillar: `audiovisual-equipment-rental-service` — **published 2026-07-31**, positioned as "specialized and niche AV equipment" (laser projector tier, RGBW/moving head lighting, wireless/gooseneck mics, 60 inch LED display, fog/haze/confetti effects) with an explicit "What We Don't Offer" section, per content-gap analysis (engram `content-gap/malagaeventgear.com/audiovisual-equipment-rental-service`, obs #2423). NOT a 19-item service index — see per-row resolution below.
 
 | # | Service | Status | Slug (existing or proposed) | Batch | Notes |
 | - | ------- | ------ | ---------------------------- | ----- | ----- |
 | 1 | Podium microphone rental | duplicate | sound-system-rental | 1 | Already covered: sound-system-rental.svx lists the gooseneck/podium mic as real package inventory. No separate page. |
-| 2 | Headset microphone rental | conflict | - | 1 | Contradicts sound-system-rental.svx FAQ: "We do not offer lavalier or headset microphones." Cannot honestly write this page without either fabricating a product or contradicting a live page. |
-| 3 | Laser projector rental | duplicate | projector-rental | 1 | Already covered: projector-rental.svx FAQ "Do you offer 4K or laser projectors?" covers the 5000 lumen laser tier. No separate page. |
-| 4 | Up-lighting rental | conflict | - | 1 | Contradicts lighting-ideas-for-wedding-rentals.svx, which explicitly declines uplighting as a freestanding fixture (stated 4x). |
-| 5 | Walkie talkie rental | no-grounding | - | 1 | Zero presence in packages.ts or equipment page. Would require fabricating a product line. |
-| 6 | Pipe and drape rental | conflict | - | 1 | Contradicts unique-wedding-ceremony-rentals.svx and audio-visual-rental-for-press-conferences.svx: no draping/backdrop hardware supplied. |
-| 7 | Event backdrop rental | conflict | - | 1 | Same conflict as #6. |
-| 8 | Holiday lighting rental | no-grounding | - | 1 | Zero presence in catalog. |
-| 9 | Camera crane rental | no-grounding | - | 1 | Zero presence in catalog. |
-| 10 | Flat screen TV rental | duplicate | tv-screen-rental | 1 | Same product as tv-screen-rental.svx's 60 inch LED display. Already a fold-in target there, not a new page. |
-| 11 | Silent disco equipment rental | no-grounding | - | 1 | Zero presence in catalog. |
-| 12 | Stage effects equipment rental | pending | stage-effects-equipment-rental | 1 | Partial real grounding (fog/haze/confetti effects exist per equipment page) - needs a scoped, honest brief, not a generic "stage effects" catalog page. |
-| 13 | Mixing console rental | conflict | - | 1 | Contradicts sound-system-rental.svx FAQ: "No... not a standalone rental item," mixing consoles are technician-operated equipment bundled in packages. |
+| 2 | Headset microphone rental | declared | audiovisual-equipment-rental-service | 1 | Contradicts sound-system-rental.svx FAQ. Now explicitly declared out of scope on the pillar's "What We Don't Offer" section and FAQ. No separate page. |
+| 3 | Laser projector rental | duplicate | projector-rental | 1 | Already covered: projector-rental.svx FAQ "Do you offer 4K or laser projectors?" covers the 5000 lumen laser tier. Also covered at pillar level. No separate page. |
+| 4 | Up-lighting rental | declared | audiovisual-equipment-rental-service | 1 | Contradicts lighting-ideas-for-wedding-rentals.svx. Now explicitly declared out of scope on the pillar's FAQ. No separate page. |
+| 5 | Walkie talkie rental | declared | audiovisual-equipment-rental-service | 1 | Zero catalog presence. Named directly in the pillar's "What We Don't Offer" list. No separate page. |
+| 6 | Pipe and drape rental | declared | audiovisual-equipment-rental-service | 1 | Contradicts unique-wedding-ceremony-rentals.svx and audio-visual-rental-for-press-conferences.svx. Now explicitly declared out of scope on the pillar. No separate page. |
+| 7 | Event backdrop rental | declared | audiovisual-equipment-rental-service | 1 | Same as #6, same pillar declaration. |
+| 8 | Holiday lighting rental | no-grounding | - | 1 | Zero presence in catalog. Not explicitly named on the pillar (only the 5 most-searched "no" items got a named bullet) - still open if this keyword matters enough to add. |
+| 9 | Camera crane rental | declared | audiovisual-equipment-rental-service | 1 | Zero catalog presence. Named directly in the pillar's "What We Don't Offer" list. No separate page. |
+| 10 | Flat screen TV rental | duplicate | tv-screen-rental | 1 | Same product as tv-screen-rental.svx's 60 inch LED display. Also covered at pillar level. No separate page. |
+| 11 | Silent disco equipment rental | declared | audiovisual-equipment-rental-service | 1 | Zero catalog presence. Named directly in the pillar's "What We Don't Offer" list. No separate page. |
+| 12 | Stage effects equipment rental | covered | audiovisual-equipment-rental-service | 1 | Real grounding (fog/haze/confetti per equipment page) now covered in the pillar's "Special Effects: Fog, Haze and Confetti" section, honest about which items have a published price. No separate page needed. |
+| 13 | Mixing console rental | declared | audiovisual-equipment-rental-service | 1 | Contradicts sound-system-rental.svx FAQ. Now explicitly declared out of scope on the pillar's FAQ. No separate page. |
 | 14 | Large screen rental | duplicate | tv-screen-rental | 1 | Same product as tv-screen-rental.svx. |
 | 15 | Monitor rental | duplicate | tv-screen-rental | 1 | Same product as tv-screen-rental.svx (display monitor rental already folded in there too). |
-| 16 | Tripod rental | no-grounding | - | | Zero presence in catalog. |
-| 17 | Laptop rental for events | no-grounding | - | | Zero presence in catalog. |
-| 18 | AV cable rental | no-grounding | - | | No standalone cable rental SKU; cabling is bundled setup work across all packages, not sold separately. |
-| 19 | Interpretation equipment rental | conflict | - | | Contradicts audio-visual-rental-for-religious-events.svx: "none of these are part of our catalog." Real local demand (2 of 3 competitors run this as a named line) - candidate for a declared-out-of-scope mention on the pillar, not a standalone page. |
+| 16 | Tripod rental | declared | audiovisual-equipment-rental-service | | Zero catalog presence. Named directly in the pillar's "What We Don't Offer" list. No separate page. |
+| 17 | Laptop rental for events | declared | audiovisual-equipment-rental-service | | Zero catalog presence. Named directly in the pillar's "What We Don't Offer" list. No separate page. |
+| 18 | AV cable rental | no-grounding | - | | No standalone cable rental SKU. Not explicitly named on the pillar - still open if this keyword matters enough to add. |
+| 19 | Interpretation equipment rental | declared | audiovisual-equipment-rental-service | | Contradicts audio-visual-rental-for-religious-events.svx. Real local demand, so named explicitly (not silently omitted) in the pillar's "What We Don't Offer" section and FAQ. No separate page. |
 
 ---
 
@@ -314,14 +314,14 @@ Pillar: `stage-lighting-equipment-supplier` (new, working title "Stage Lighting 
 
 ## Summary
 
-| Category | Pillar slug | Total services | Pending | Covered | Risk | Duplicate | Conflict | No-grounding | Batch-1 count |
-| -------- | ----------- | --------------- | ------- | ------- | ---- | --------- | -------- | ------------ | -------------- |
-| Audio visual equipment hire service (primary) | audio-visual-rental (existing) | 44 | 28 | 15 | 1 | 0 | 0 | 0 | 15 |
-| Audiovisual equipment rental service | audiovisual-equipment-rental-service (not yet written) | 19 | 1 | 0 | 0 | 5 | 6 | 7 | 15 |
+| Category | Pillar slug | Total services | Pending | Covered | Declared | Risk | Duplicate | No-grounding | Batch-1 count |
+| -------- | ----------- | --------------- | ------- | ------- | -------- | ---- | --------- | ------------ | -------------- |
+| Audio visual equipment hire service (primary) | audio-visual-rental (existing) | 44 | 28 | 15 | 0 | 1 | 0 | 0 | 15 |
+| Audiovisual equipment rental service | audiovisual-equipment-rental-service (published 2026-07-31) | 19 | 0 | 1 | 11 | 0 | 5 | 2 | 15 |
 | Event technology service | event-technology-service | 46 | 46 | 0 | 0 | 0 | 0 | 0 | 15 |
-| Audio visual equipment supplier | audio-visual-equipment-supplier | 39 | 38 | 0 | 1 | 0 | 0 | 0 | 15 |
+| Audio visual equipment supplier | audio-visual-equipment-supplier | 39 | 38 | 0 | 0 | 1 | 0 | 0 | 15 |
 | Audio visual consultant | audio-visual-consultant | 45 | 45 | 0 | 0 | 0 | 0 | 0 | 15 |
-| Stage lighting equipment supplier | stage-lighting-equipment-supplier | 51 | 49 | 0 | 2 | 0 | 0 | 0 | 15 |
-| **Total** | | **244** | **207** | **15** | **4** | **5** | **6** | **7** | **90** |
+| Stage lighting equipment supplier | stage-lighting-equipment-supplier | 51 | 49 | 0 | 0 | 2 | 0 | 0 | 15 |
+| **Total** | | **244** | **206** | **16** | **11** | **4** | **5** | **2** | **90** |
 
-**Category 2 finding (2026-07-31):** content-gap-analyst determined most of this category's planned services either duplicate an existing primary-silo post or directly contradict a live page's own "what we don't offer" claims. Only 1 of 19 planned services (`Stage effects equipment rental`) has a clean, non-conflicting path to becoming a real page as originally scoped. See row notes above. Categories 3-6 have not yet been checked against the live site for the same conflict/duplicate pattern - do that check before batch-drafting each one, don't assume `fixed.md`'s original category assignment survives contact with what's actually been published since.
+**Category 2 outcome (2026-07-31):** content-gap-analyst determined most of this category's planned services either duplicated an existing primary-silo post or directly contradicted a live page's own "what we don't offer" claims. Resolution: wrote the pillar `audiovisual-equipment-rental-service.svx` positioned as "specialized/niche equipment" with an explicit "What We Don't Offer" section covering 11 of the 19 services by name, rather than forcing 19 individual pages. 5 services were true duplicates of existing primary-silo posts (no new page needed). Only 2 (holiday lighting, standalone AV cable) remain genuinely open - low priority, no catalog grounding either way. This category is functionally CLOSED without further batch drafting. Categories 3-6 have not yet been checked against the live site for the same conflict/duplicate pattern - do that check before batch-drafting each one, don't assume `fixed.md`'s original category assignment survives contact with what's actually been published since.
