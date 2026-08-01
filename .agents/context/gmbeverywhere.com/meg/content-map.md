@@ -210,7 +210,7 @@ Pillar: `audio-visual-consultant` (new, working title "Audio Visual Consultant i
 | 1 | Audio visual system design | no-fit | - | | Umbrella systems-design consulting term, zero grounding, MEG is delivery-only per-event rental. |
 | 2 | Smart home integration | no-fit | - | | Zero grounding, residential smart-home is a different business entirely. |
 | 3 | Commercial AV solutions | no-fit | - | | Implies permanent office/commercial AV infra design; real corporate-event work already lives elsewhere. |
-| 4 | AV system troubleshooting | **ready** | av-system-troubleshooting | 2 | On-site live technician troubleshooting grounded across 5 posts (case studies + how-to guides). |
+| 4 | AV system troubleshooting | covered | av-system-troubleshooting | 2 | Published 2026-08-01, targeting `audio-visual-rental` (TARGET OVERRIDE, category 5 has no pillar yet). Deliberately took the SELF-RUN customer angle (Eco Pack, Product Presentation Pack, Basic MICE Pack without the technician add on) rather than the on-site technician angle already covered by technical-support-for-events.svx and av-technician-hire.svx, avoiding cannibalization. |
 | 5 | Video conferencing systems | conflict | - | | audio-visual-rental-for-corporate-meetings.svx: "we do not provide video conferencing hardware." |
 | 6 | Audio system calibration | **ready** | audio-system-calibration | 2 | "Pre-event calibration of sound and video networks" etc. grounded in 4 posts, no dedicated page. |
 | 7 | PA system setup | duplicate | sound-system-rental | | Core subject of sound-system-rental.svx and every package already. |
