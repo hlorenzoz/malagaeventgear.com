@@ -4076,6 +4076,138 @@
       "level": 3
     }
   ],
+  "av-system-troubleshooting": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "running-your-own-equipment-which-packages-are-self-run",
+      "text": "Running Your Own Equipment: Which Packages Are Self Run",
+      "level": 2
+    },
+    {
+      "id": "before-you-troubleshoot-what-already-happened-before-you-started",
+      "text": "Before You Troubleshoot: What Already Happened Before You Started",
+      "level": 2
+    },
+    {
+      "id": "self-check-by-package-what-to-look-at-first",
+      "text": "Self Check by Package: What to Look at First",
+      "level": 2
+    },
+    {
+      "id": "eco-pack-no-console-no-wireless-mic",
+      "text": "Eco Pack: No Console, No Wireless Mic",
+      "level": 3
+    },
+    {
+      "id": "product-presentation-pack-console-projector-and-wireless-mic",
+      "text": "Product Presentation Pack: Console, Projector and Wireless Mic",
+      "level": 3
+    },
+    {
+      "id": "basic-mice-pack-without-the-technician-add-on",
+      "text": "Basic MICE Pack Without the Technician Add On",
+      "level": 3
+    },
+    {
+      "id": "feedback-or-buzzing-from-the-speakers",
+      "text": "Feedback or Buzzing From the Speakers",
+      "level": 2
+    },
+    {
+      "id": "who-to-call-when-it-goes-beyond-a-quick-fix",
+      "text": "Who to Call When It Goes Beyond a Quick Fix",
+      "level": 2
+    },
+    {
+      "id": "want-a-technician-instead-of-troubleshooting-it-yourself",
+      "text": "Want a Technician Instead of Troubleshooting It Yourself",
+      "level": 2
+    },
+    {
+      "id": "is-troubleshooting-different-outdoors",
+      "text": "Is Troubleshooting Different Outdoors",
+      "level": 2
+    },
+    {
+      "id": "real-setups-weve-delivered",
+      "text": "Real Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "how-far-in-advance-to-book",
+      "text": "How Far in Advance to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "what-packages-include-a-technician-who-handles-troubleshooting-for-me-and-which-dont",
+      "text": "What packages include a technician who handles troubleshooting for me, and which don't?",
+      "level": 3
+    },
+    {
+      "id": "if-im-running-my-own-equipment-what-should-i-check-myself-if-something-stops-working",
+      "text": "If I'm running my own equipment, what should I check myself if something stops working?",
+      "level": 3
+    },
+    {
+      "id": "why-did-my-wireless-microphone-cut-out-and-what-can-i-do-about-it-during-the-event",
+      "text": "Why did my wireless microphone cut out, and what can I do about it during the event?",
+      "level": 3
+    },
+    {
+      "id": "my-projector-isnt-syncing-to-the-screen-what-do-i-check-first",
+      "text": "My projector isn't syncing to the screen, what do I check first?",
+      "level": 3
+    },
+    {
+      "id": "why-is-there-feedback-or-a-buzzing-sound-from-the-speakers",
+      "text": "Why is there feedback or a buzzing sound from the speakers?",
+      "level": 3
+    },
+    {
+      "id": "who-do-i-call-if-equipment-stops-working-during-my-event",
+      "text": "Who do I call if equipment stops working during my event?",
+      "level": 3
+    },
+    {
+      "id": "does-malaga-event-gear-only-rent-equipment-and-walk-away-or-is-help-available-if-something-goes-wrong-later",
+      "text": "Does Malaga Event Gear only rent equipment and walk away, or is help available if something goes wrong later?",
+      "level": 3
+    },
+    {
+      "id": "can-i-add-a-technician-mid-booking-if-i-decide-i-dont-want-to-troubleshoot-my-own-equipment",
+      "text": "Can I add a technician mid booking if I decide I don't want to troubleshoot my own equipment?",
+      "level": 3
+    },
+    {
+      "id": "is-troubleshooting-different-for-outdoor-events",
+      "text": "Is troubleshooting different for outdoor events?",
+      "level": 3
+    },
+    {
+      "id": "what-is-the-difference-between-a-technician-fixing-an-issue-and-me-fixing-it-myself",
+      "text": "What is the difference between a technician fixing an issue and me fixing it myself?",
+      "level": 3
+    }
+  ],
   "audiovisual-equipment-rental-service": [
     {
       "id": "brief-overview",

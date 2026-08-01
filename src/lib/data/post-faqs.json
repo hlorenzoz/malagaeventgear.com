@@ -1297,6 +1297,48 @@
       "answer": "Up to 80 guests, sized for a villa, finca or wedding hotel. For a larger wedding, contact us to discuss options."
     }
   ],
+  "av-system-troubleshooting": [
+    {
+      "question": "What packages include a technician who handles troubleshooting for me, and which don't?",
+      "answer": "The Wedding Pack and MICE Pack include one as standard. The Basic MICE Pack offers one as a paid add on at 240 euros per day. The Eco Pack and Product Presentation Pack do not offer one at all, at any price. See Running Your Own Equipment above."
+    },
+    {
+      "question": "If I'm running my own equipment, what should I check myself if something stops working?",
+      "answer": "It depends on which package you have, since the three self run packages carry different equipment. Cable seating applies to all three. A mixing console and wireless microphone only exist on the Product Presentation Pack. A projector applies to the Product Presentation Pack and the Basic MICE Pack, not the Eco Pack unless you added it as an option. See Self Check by Package above for the full breakdown."
+    },
+    {
+      "question": "Why did my wireless microphone cut out, and what can I do about it during the event?",
+      "answer": "This applies specifically to the Product Presentation Pack, the only one of the three self run packages with a wireless microphone. Check the battery level first, then confirm it is set to the same channel as its receiver, most drops come from one of those two things rather than the unit itself. The Eco Pack has a wired dynamic microphone and the Basic MICE Pack's gooseneck microphone is wired to the podium, so neither one has this issue."
+    },
+    {
+      "question": "My projector isn't syncing to the screen, what do I check first?",
+      "answer": "Check that the input source selected on the projector, usually HDMI or the port in use, matches the laptop or device actually connected right now. This applies to the Product Presentation Pack and the Basic MICE Pack, both of which include a projector and screen as standard. See Self Check by Package above."
+    },
+    {
+      "question": "Why is there feedback or a buzzing sound from the speakers?",
+      "answer": "Feedback, a rising squeal, usually means a microphone has moved too close to a speaker or is pointed toward one, moving it or angling it away is the first thing to try. A steady buzz more often points to a cable crossing a power line or a loose connection, so retracing the cable run and reseating both ends is worth doing before assuming a fault. See Feedback or Buzzing From the Speakers above."
+    },
+    {
+      "question": "Who do I call if equipment stops working during my event?",
+      "answer": "Check cables, gain, battery and input selection first. If that does not fix it, we are available 24 hours a day, 7 days a week for technical setups and live event monitoring, including on self run packages. Contact us or call 600 42 87 50."
+    },
+    {
+      "question": "Does Malaga Event Gear only rent equipment and walk away, or is help available if something goes wrong later?",
+      "answer": "We deliver, install and test every booking before we leave, so it works correctly at handover, but we do not disappear after that. Our line is available 24 hours a day, 7 days a week for technical setups and live event monitoring, even on the Eco Pack, Product Presentation Pack and Basic MICE Pack without the technician add on. See Before You Troubleshoot above."
+    },
+    {
+      "question": "Can I add a technician mid booking if I decide I don't want to troubleshoot my own equipment?",
+      "answer": "On the Basic MICE Pack, yes, the technician is a paid add on at 240 euros per day, so tell us as soon as you decide rather than waiting until the day of your event, since it needs to be scheduled the same as the equipment itself. The Eco Pack and Product Presentation Pack do not offer a technician at any price. See Want a Technician Instead of Troubleshooting It Yourself above."
+    },
+    {
+      "question": "Is troubleshooting different for outdoor events?",
+      "answer": "The checks are the same, cables, gain, battery, input selection, but wind and cable exposure outdoors add more ways for a connection to get knocked loose in the first place. See our audio visual rental for outdoor events guide for how we plan for that before your event starts."
+    },
+    {
+      "question": "What is the difference between a technician fixing an issue and me fixing it myself?",
+      "answer": "A technician is watching the levels continuously, so a dropped connection or a muted channel gets caught the moment it happens. Running your own equipment means you only notice once it is already affecting your event, and the fix is whichever quick check on this page matches your package. Neither is wrong, it is a question of whether your package includes that continuous watch or not. See Running Your Own Equipment above for which packages include one."
+    }
+  ],
   "audiovisual-equipment-rental-service": [
     {
       "question": "What Is the Difference Between This Page and Your General Audio Visual Rental Page?",
