@@ -4,6 +4,7 @@ description: "Technical support for events in Malaga: what our on site crew actu
 author: Hector Luis Lorenzo
 slug: technical-support-for-events
 publishDate: "2026-07-31"
+updatedDate: "2026-08-01"
 excerpt: "What technical support for events actually means at Malaga Event Gear: calibration, live monitoring, real troubleshooting and teardown, phase by phase."
 coverImage: https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
@@ -120,7 +121,7 @@ Generic "technical support" pages rarely name the equipment involved. Ours is no
 
 ## Switching Between Multiple Presentation Sources
 
-On MICE Pack bookings with more than one presentation source, for example a laptop for slides, a second laptop for a video, and a DVD player for a screened clip, our technician manages the switch between them using a Kramer VP-731, a 9 input video scaler, so the room's screen cuts cleanly from one source to the next without a visible glitch or a reboot.
+On MICE Pack bookings with more than one presentation source, for example a laptop for slides, a second laptop for a video, and a DVD player for a screened clip, our technician manages the switch between them using a Kramer VP-731, a 9 input video scaler, so the room's screen cuts cleanly from one source to the next without a visible glitch or a reboot. Our [video switcher rental](/blog/video-switcher-rental/) guide is the deeper, equipment first version of this section: the real unit, what 9 inputs actually means in practice, and which packages it is realistically available on.
 
 To be clear about what this is not: this is a presentation switching tool for your screen, not a camera, recording or streaming system. Malaga Event Gear does not offer camera equipment, video recording, live streaming or broadcast services. If your event also needs simultaneous interpretation or an interactive voting system, that is not equipment we stock ourselves, but we coordinate it through a subcontracted partner. [Contact us](/contact/) if either applies to your event.
 
