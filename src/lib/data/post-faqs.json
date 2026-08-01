@@ -366,7 +366,7 @@
     },
     {
       "question": "What's the difference between uplighting and spotlighting?",
-      "answer": "Uplighting sits on the floor and washes light upward against a wall or structure. Spotlighting aims a narrow beam at a specific point, like a table or the couple. We stock both: a wireless uplighting kit of 6 fixtures as a separate quote-on-request item, and the Eco Pack's RGBW light bars for a fixed position spotlight and color accent. Neither is bundled into the Wedding Pack, so contact us if your reception needs uplighting alongside it."
+      "answer": "Uplighting sits on the floor and washes light upward against a wall or structure. Spotlighting aims a narrow beam at a specific point, like a table or the couple. We stock both: a wireless uplighting kit of 6 fixtures as a separate quote on request item, and the Eco Pack's RGBW light bars for a fixed position spotlight and color accent. Neither is bundled into the Wedding Pack, so contact us if your reception needs uplighting alongside it. For the full spec on that kit, honest coverage for 2 to 4 venue features, and a direct comparison against these RGBW spotlights, see our stage uplighting guide."
     },
     {
       "question": "Can wedding lighting include gobo or monogram projection?",
@@ -712,7 +712,7 @@
     },
     {
       "question": "Do You Offer Interactive Touchscreens, Kiosks or Audience Response Technology?",
-      "answer": "Touchscreens and kiosks, no: our audio visual rental for religious events guide rules those out on the same grounds it rules out a video wall. Audience response or voting systems, yes as an arranged service: we don't stock the hardware ourselves, so we bring in a subcontracted partner for corporate and congress-grade events."
+      "answer": "Touchscreens and kiosks, no: our audio visual rental for religious events guide rules those out on the same grounds it rules out a video wall. Audience response or voting systems, yes as an arranged service: we don't stock the hardware ourselves, so we bring in a subcontracted partner for corporate and congress grade events."
     },
     {
       "question": "Do You Provide Event Apps, RFID Tracking or Ticketing Technology?",
@@ -799,6 +799,52 @@
     {
       "question": "How far in advance should I book audio video rental?",
       "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga and extend to Granada for rentals over 400 euros."
+    }
+  ],
+  "stage-uplighting": [
+    {
+      "question": "What Is Stage Uplighting and How Does It Work?",
+      "answer": "Uplighting is a fixture placed on the floor or low against a wall, aimed upward to wash that surface, a column or a piece of structure with color, rather than spotlighting a fixed point. MEG's real version of this is one ADJ Element H6 Pack, a wireless, battery powered kit of 6 fixtures. See The Real Kit We Stock above for exactly what that kit is and is not."
+    },
+    {
+      "question": "How Many Uplights Do I Need for My Venue?",
+      "answer": "With MEG, the honest answer is 6, our full inventory, not a guest count formula. That covers accent lighting for 2 to 4 specific venue features, an entrance, a head table or backdrop, a run of 2 to 3 columns, or one feature wall, rather than a full room wash. See Realistic Coverage above for how our technician decides which features to light."
+    },
+    {
+      "question": "Is Wireless Uplighting Better Than Wired?",
+      "answer": "We do not offer a wired option to compare it against, so this is not a real choice you will make when booking with MEG. Our ADJ Element H6 Pack is wireless and battery powered, which is why it is the only uplighting kit in our inventory: it does not need a power run to each fixture, which is what makes it practical to place against a wall, column or backdrop wherever our technician needs it."
+    },
+    {
+      "question": "How Long Does the Battery Last?",
+      "answer": "We have not confirmed a runtime figure for the ADJ Element H6 Pack, so we are not going to publish one here. What we can confirm is that the kit is battery powered and our technician manages it through your event, checking and repositioning fixtures as needed rather than leaving them unattended on a fixed runtime assumption."
+    },
+    {
+      "question": "Can Uplighting Be Used Outdoors?",
+      "answer": "We have not confirmed a weatherproof or IP rating for this kit, so we do not market it as a rated outdoor fixture. In practice, our technician assesses conditions on site, places the kit around whatever shelter the venue offers, and recommends a covered backup position if rain is a real risk on your date. See Outdoor Events above."
+    },
+    {
+      "question": "What's the Difference Between Uplighting and the Eco Pack's RGBW Spotlights?",
+      "answer": "Uplighting is floor mounted and wireless, washing a wall or structure with color from below wherever our technician positions it. The Eco Pack's RGBW spotlights are 2 light bars in a fixed position, set up and tested as part of that package, then self run for the rest of the event. See the full comparison table in Uplighting or the Eco Pack's RGBW Spotlights above."
+    },
+    {
+      "question": "Does Uplighting Come With Any of Your Packages?",
+      "answer": "No. It is not included in the Eco Pack, Basic MICE Pack, Wedding Pack or MICE Pack. It is a separate, quote based item across all four, the same as our specialty stage lighting and our headset and lavalier microphones."
+    },
+    {
+      "question": "What Colors Can It Produce, and Can It Change Color During the Event?",
+      "answer": "We have not confirmed a DMX or app based color control feature for this kit, so we do not offer it as a self controlled, color changing effect the way the Eco Pack's RGBW spotlights are. Our technician sets the color for your event on site, based on what you tell us when you book, rather than handing you a remote or an app to run it yourself."
+    },
+    {
+      "question": "What Can I Realistically Light With 6 Uplights?",
+      "answer": "An entrance, a head table or ceremony backdrop, a run of 2 to 3 columns, or one feature wall behind a stage or dance floor, that is the realistic range for our 6 fixture kit. It is accent lighting for a handful of chosen features, not a wash for an entire reception room. Tell us which feature matters most to you and our technician will confirm coverage for your specific venue."
+    },
+    {
+      "question": "Is Wireless Stage Lighting the Same as Your Uplighting Kit?",
+      "answer": "Yes. Whether you search \"wireless stage lighting,\" \"stage uplighting\" or \"wireless uplighting,\" the real product behind all three at MEG is the same: one ADJ Element H6 Pack of 6 wireless, battery powered fixtures."
+    },
+    {
+      "question": "Can Uplighting Be Added to a Corporate or MICE Event, Not Just a Wedding?",
+      "answer": "Yes. Our event technology service pillar already lists this kit as lighting for a keynote stage or a gala dance floor, not just a private party. A feature wall behind a podium or the columns flanking a corporate stage are real uplighting placements for a MICE Pack or Basic MICE Pack booking. Contact us with your event details and we will confirm availability alongside your package."
     }
   ],
   "indoor-wedding-rental-essentials": [
@@ -1224,7 +1270,7 @@
     },
     {
       "question": "What Is Uplighting and Do You Rent It?",
-      "answer": "Uplighting sits on the floor and washes light upward against a wall or structure. Yes, we rent it: a wireless, battery powered uplighting kit of 6 fixtures, a separate item from the Eco Pack's RGBW light bars, which spotlight and color a room from a fixed position rather than washing a wall from the floor. Contact us with your venue and guest count for a quote. See our lighting ideas for wedding rentals guide for the full picture."
+      "answer": "Uplighting sits on the floor and washes light upward against a wall or structure. Yes, we rent it: a wireless, battery powered uplighting kit of 6 fixtures, a separate item from the Eco Pack's RGBW light bars, which spotlight and color a room from a fixed position rather than washing a wall from the floor. Contact us with your venue and guest count for a quote. See our stage uplighting guide for honest venue coverage, or our lighting ideas for wedding rentals guide for the full wedding picture."
     },
     {
       "question": "Do You Rent a Video Wall or LED Wall?",
