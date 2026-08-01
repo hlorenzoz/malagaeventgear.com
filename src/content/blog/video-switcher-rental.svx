@@ -1,0 +1,181 @@
+---
+title: "Video Switcher Rental in Malaga, Spain"
+description: "Video switcher rental in Malaga: the real Kramer VP-731, a 9 input scaler our technician operates. Presentation sources only, never camera or streaming gear."
+author: Hector Luis Lorenzo
+slug: video-switcher-rental
+publishDate: "2026-08-01"
+excerpt: "The real video switcher in our AV catalog: one Kramer VP-731, 9 inputs, technician operated presentation source switching, and an explicit line between that and camera or live streaming production."
+coverImage: https://cdn.malagaeventgear.com/blog/1268/av_system_hotel_alfonso_xiii_congress_stage-scaled.webp
+categories: [Audio Visual Rental, Corporate & Enterprise, Events]
+tags: []
+draft: false
+keyword: "video switcher rental"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Searching for video switcher rental usually turns up two very different products: a presentation switcher that cuts a room's screen between a laptop and a DVD player, and a camera or vision mixer built for live streaming and broadcast production. Our [technical support for events](/blog/technical-support-for-events/#switching-between-multiple-presentation-sources) guide already mentions our switcher in one short section, framed as something the technician manages during an event. This page is the deeper, equipment first version: exactly what we stock, what it is not, which packages it is realistically available on, and an honest comparison against running a single presentation source.
+
+Malaga Event Gear owns this device ourselves and deploys it with a technician, across Malaga and the wider Costa del Sol. What follows is one real product, described honestly, including where our certainty about it stops, not a rewritten spec sheet.
+
+## Table of Contents
+
+-   [Brief Overview](#brief-overview)
+-   [Key Highlights](#key-highlights)
+-   [The Real Unit We Stock: One Kramer VP-731, 9 Inputs](#the-real-unit-we-stock-one-kramer-vp-731-9-inputs)
+-   [What 9 Inputs Actually Means in Practice](#what-9-inputs-actually-means-in-practice)
+-   [Video Switcher vs Camera Switcher: The Question That Matters Most](#video-switcher-vs-camera-switcher-the-question-that-matters-most)
+-   [Video Switcher or a Single Presentation Source: What Changes](#video-switcher-or-a-single-presentation-source-what-changes)
+-   [Which Packages This Is Available On, and Pricing](#which-packages-this-is-available-on-and-pricing)
+-   [Real Setups We've Delivered](#real-setups-weve-delivered)
+-   [How Far in Advance to Book](#how-far-in-advance-to-book)
+-   [Conclusion](#conclusion)
+-   [FAQs](#faqs)
+    -   [What is a video switcher, and what does MEG's video switcher rental include?](#what-is-a-video-switcher-and-what-does-megs-video-switcher-rental-include)
+    -   [Is this the same as a camera switcher or a live streaming production switcher?](#is-this-the-same-as-a-camera-switcher-or-a-live-streaming-production-switcher)
+    -   [How many sources can it switch between?](#how-many-sources-can-it-switch-between)
+    -   [Can I rent just the switcher without a technician?](#can-i-rent-just-the-switcher-without-a-technician)
+    -   [Video switcher vs camera or vision mixer for live streaming, what is the real difference?](#video-switcher-vs-camera-or-vision-mixer-for-live-streaming-what-is-the-real-difference)
+    -   [Which packages include this, and how much does it cost?](#which-packages-include-this-and-how-much-does-it-cost)
+    -   [What sources can it actually switch between?](#what-sources-can-it-actually-switch-between)
+    -   [Do I need this for a small event, or only for larger corporate bookings?](#do-i-need-this-for-a-small-event-or-only-for-larger-corporate-bookings)
+    -   [How does this compare to just using one laptop for my presentation?](#how-does-this-compare-to-just-using-one-laptop-for-my-presentation)
+    -   [Can I bring my own devices to switch between?](#can-i-bring-my-own-devices-to-switch-between)
+    -   [How far in advance should I book this?](#how-far-in-advance-should-i-book-this)
+
+## Brief Overview
+
+---
+
+Malaga Event Gear stocks one video switcher, a Kramer VP-731 with 9 inputs, as a separate item from its standard event packages. It is real inventory, deployed with a technician on bookings that use more than one presentation source, across Malaga and the wider Costa del Sol. It is not bundled into the [Eco Pack](/packages/eco/), [Basic MICE Pack](/packages/basic-mice/), [Wedding Pack](/packages/wedding/) or [MICE Pack](/packages/mice/), and there is no published a la carte price, so [contact us](/contact/) with your event details and we will confirm availability and a quote.
+
+The single most important thing to understand about this device: it is a presentation switcher for your screen, not a camera switcher, vision mixer or streaming production tool. Malaga Event Gear does not offer camera equipment, video recording, live streaming or broadcast services. See [Video Switcher vs Camera Switcher](#video-switcher-vs-camera-switcher-the-question-that-matters-most) below.
+
+## Key Highlights
+
+---
+
+-   One real unit: a Kramer VP-731, 9 input video scaler, not a camera or broadcast switcher.
+-   Confirmed real sources it switches between: a laptop, a second laptop, and a DVD player. No document camera or visualizer exists in our inventory.
+-   9 physical inputs is real headroom, but a typical corporate booking uses 2 to 3 sources, not 9 at once.
+-   Not bundled into any of our 4 packages. Technician operated, quoted on request, the same as our specialty stage lighting.
+-   Explicitly not camera switching, not a live vision mixer, not streaming or broadcast production equipment.
+
+## The Real Unit We Stock: One Kramer VP-731, 9 Inputs
+
+A video switcher, as a general term, covers everything from a small HDMI matrix box to a full broadcast vision mixer with camera inputs and a preview bus. What MEG actually stocks under that name is one specific product: a Kramer VP-731, a 9 input video scaler and switcher. We own exactly one unit.
+
+We are being precise here on purpose. Our equipment catalog confirms the sources this unit has actually been used with on real bookings: a laptop for slides, a second laptop for a supporting video, and a DVD player for a screened clip, drawn from an LG-RH7500 DVD recorder and hard disk unit also in our inventory. We do not stock a document camera or a visualizer, so if your event needs one, we will tell you honestly that it is not equipment we carry, rather than improvise a substitute.
+
+<InlineCTA />
+
+## What 9 Inputs Actually Means in Practice
+
+The VP-731's 9 physical inputs are a real spec, and we are not going to inflate what most events actually do with them. A corporate event rarely needs more than 2 or 3 presentation sources on a single screen, typically a laptop for the main presentation, a second laptop for a video insert, and occasionally a DVD player for a screened clip. That is the real, honest use case behind this device, not a 9 way simultaneous feed.
+
+The headroom exists because the unit supports it, not because we expect a booking to fill all 9 inputs. What our technician does with that headroom is switch cleanly between whichever 2 or 3 sources your event actually has, so the room's screen cuts from one to the next without a visible glitch or a reboot. If your event genuinely has more than 3 sources to manage, [contact us](/contact/) with the detail and we will confirm whether it is realistic on the day.
+
+## Video Switcher vs Camera Switcher: The Question That Matters Most
+
+This is the single most important thing on this page. A video switcher, in the presentation sense that MEG offers, and a camera switcher or vision mixer built for live streaming and broadcast production, are two different categories of equipment used for two different jobs, and they get confused constantly in general searches for this term.
+
+What our Kramer VP-731 does: it takes presentation sources, a laptop, a second laptop, a DVD player, and cuts the room's own screen cleanly between them, managed by our technician during your event.
+
+What it does not do: it does not accept camera inputs, it does not produce a program feed for a live stream, and it has no preview or record output for broadcast use. Malaga Event Gear does not offer camera equipment, video recording, live streaming production or broadcast services of any kind. If your event needs a filmed record, a livestream to remote attendees, or a multi camera broadcast mix, that is a different category of equipment and crew entirely, one we do not stock or provide. Ask us directly if you are unsure which category your event needs, and we will tell you plainly whether it is something we do.
+
+## Video Switcher or a Single Presentation Source: What Changes
+
+Not every event needs source switching. Here is what genuinely changes between a single laptop presentation and a booking that adds the video switcher:
+
+| | Single Presentation Source | Video Switcher Added |
+| --- | --- | --- |
+| Sources on screen | One laptop, connected directly to the projector or display | A laptop, a second laptop and a DVD player, switched between as needed |
+| Switching a source mid event | Manual, unplug and reconnect, with a visible black screen or a reboot | Our technician cuts between sources with no visible glitch or reboot |
+| Who manages it | The presenter, or nobody | A technician, on site for the duration |
+| Realistic use case | A single speaker, one slide deck, no video insert | A conference agenda with more than one presenter or a video segment inside a live presentation |
+| Included in a package | Yes, on any package with a screen | No, separate quote on request item |
+
+If your event is one speaker with one slide deck, a single source is genuinely simpler and nothing here changes for you. If your agenda moves between two laptops, or a slide deck and a screened video clip, the switcher removes the visible fumble of reconnecting a cable live in front of your audience.
+
+## Which Packages This Is Available On, and Pricing
+
+None of our four packages, [Eco Pack](/packages/eco/), [Basic MICE Pack](/packages/basic-mice/), [Wedding Pack](/packages/wedding/) or [MICE Pack](/packages/mice/), include the video switcher as a standard inclusion. It only makes practical sense on a booking that already has a screen and more than one presentation source, which in our catalog means the corporate packages:
+
+-   **[MICE Pack](/packages/mice/)**, with its 60 inch LED display screen and dedicated live technician included as standard, is where this device gets requested most, for a corporate agenda with more than one speaker or a video insert inside a keynote.
+-   **[Basic MICE Pack](/packages/basic-mice/)**, with its 2x2m projection screen, can add the video switcher, but it requires the on site live technical assistant add on, because this is technician operated equipment, not a self run box you plug in yourself.
+
+The [Eco Pack](/packages/eco/) has no screen included and is built for a self run DJ or party setup, and the [Wedding Pack](/packages/wedding/) does not include a projection screen either, so the video switcher genuinely does not fit either of those two. There is no published a la carte price for the switcher itself. [Contact us](/contact/) with your package, agenda and how many presentation sources your event actually has, and we will confirm availability and a quote rather than make one up here.
+
+## Real Setups We've Delivered
+
+Real event technology our crew has managed on presentation heavy corporate bookings in Malaga:
+
+![Multiple projection screens running simultaneously at a large conference hall in Malaga.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-1024x765.webp)
+
+A large conference hall in Malaga with more than one screen live at once. Venues with more than one screen or presentation source are exactly where clean source switching prevents an awkward on screen fumble.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1268/', '/1273/'])} speed="normal" direction="left" />
+</div>
+
+Our crew also managed continuous video input switching across a two day corporate project for the agency Bmotion in Benahavis, keeping the transition between sources latency free from the first opening remark through the closing session on day two. Read the full account in our [technical support for Bmotion in Benahavis](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/) update.
+
+## How Far in Advance to Book
+
+Book as early as you can once your event date, venue and agenda are confirmed. Demand on the Costa del Sol peaks during the corporate conference season and around major congresses, when technicians fill up first. Because the video switcher is a single unit in our inventory and requires a technician on site to operate, confirming it early also gives us time to check it is genuinely free on your date, alongside whichever package you have already booked.
+
+## Conclusion
+
+Video switcher rental in Malaga, for MEG specifically, is one real product: a Kramer VP-731 with 9 inputs, technician operated, confirmed against a laptop, a second laptop and a DVD player as real sources, and honestly framed around a typical 2 to 3 source booking rather than a 9 way feed. It is strictly a presentation switcher for your room's screen, not a camera switcher, vision mixer or streaming production tool, and it is not bundled into any of our 4 packages. [Contact us](/contact/) with your event agenda and how many presentation sources you actually have, and we will confirm availability and a quote. For the technician's role in managing this device during your event, see our [technical support for events](/blog/technical-support-for-events/) guide, or for the full equipment range this device sits within, see our [audio visual rental in Malaga guide](/blog/audio-visual-rental/).
+
+## FAQs
+
+### What is a video switcher, and what does MEG's video switcher rental include?
+
+A video switcher cuts a screen cleanly between more than one presentation source instead of forcing a manual cable swap. MEG's real version of this is one Kramer VP-731, a 9 input video scaler and switcher, operated by our technician rather than rented as a self run box. See [The Real Unit We Stock](#the-real-unit-we-stock-one-kramer-vp-731-9-inputs) above for exactly what it is and is not.
+
+### Is this the same as a camera switcher or a live streaming production switcher?
+
+No. This is the single most important distinction on this page. Our Kramer VP-731 switches presentation sources, a laptop, a second laptop, a DVD player, onto your room's own screen. It does not accept camera inputs and it is not built for live streaming or broadcast production. Malaga Event Gear does not offer camera equipment, video recording, live streaming or broadcast services of any kind. See [Video Switcher vs Camera Switcher](#video-switcher-vs-camera-switcher-the-question-that-matters-most) above.
+
+### How many sources can it switch between?
+
+The unit has 9 physical inputs, but the honest, typical use case on our real bookings is 2 to 3 sources, a laptop, a second laptop and occasionally a DVD player, not 9 at once. See [What 9 Inputs Actually Means in Practice](#what-9-inputs-actually-means-in-practice) above.
+
+### Can I rent just the switcher without a technician?
+
+No. This is technician operated equipment, consistent with our delivery only model, we do not offer self collect or self run rentals of any kind. On the [Basic MICE Pack](/packages/basic-mice/), adding the video switcher requires the on site live technical assistant add on. On the [MICE Pack](/packages/mice/), the included technician manages it as part of the standard booking.
+
+### Video switcher vs camera or vision mixer for live streaming, what is the real difference?
+
+A video switcher like ours cuts between presentation sources for a room's own screen, a laptop to a laptop to a DVD player. A camera or vision mixer for live streaming accepts multiple camera feeds and produces a program output for a broadcast or a stream to remote viewers, an entirely different category of equipment with a different signal chain. MEG stocks the first and does not offer the second: no cameras, no recording, no live streaming or broadcast services. If your event needs a filmed record or a stream to remote attendees, tell us directly and we will confirm plainly that it is not something we provide.
+
+### Which packages include this, and how much does it cost?
+
+None of our four packages include it as standard. It realistically pairs with the [MICE Pack](/packages/mice/), which already includes a screen and a technician, or the [Basic MICE Pack](/packages/basic-mice/) with its technical assistant add on, since this is technician operated equipment. There is no published a la carte price. [Contact us](/contact/) with your package and agenda and we will confirm availability and a quote. See [Which Packages This Is Available On](#which-packages-this-is-available-on-and-pricing) above.
+
+### What sources can it actually switch between?
+
+Confirmed, real sources: a laptop, a second laptop, and a DVD player, drawn from an LG-RH7500 DVD recorder and hard disk unit in our inventory. We do not stock a document camera or a visualizer, so we will not offer one as a source if your event asks for it.
+
+### Do I need this for a small event, or only for larger corporate bookings?
+
+Only if your event has more than one presentation source on the same screen. A single speaker with one slide deck does not need it, a single laptop connection is genuinely simpler. It becomes relevant on a conference agenda with more than one presenter, or a keynote that includes a video insert, which is why it shows up almost exclusively on our corporate MICE bookings rather than private parties.
+
+### How does this compare to just using one laptop for my presentation?
+
+A single laptop is simpler and needs nothing extra, and it is the right choice if your event genuinely has one presenter and one deck. The difference shows up the moment a second source enters the picture, a second speaker's laptop or a screened video clip. Without the switcher, that source change means unplugging and reconnecting a cable live, with a visible black screen or reboot. With it, our technician cuts between sources with no visible interruption. See [Video Switcher or a Single Presentation Source](#video-switcher-or-a-single-presentation-source-what-changes) above for the full comparison.
+
+### Can I bring my own devices to switch between?
+
+Yes, within the confirmed source types, a laptop or a second laptop connects the same way any presentation laptop does on our packages, through the HDMI and USB-C adapters we already provide. Tell us what devices your event will actually use when you book so our technician can confirm compatibility and the connection setup ahead of time, rather than troubleshoot it live.
+
+### How far in advance should I book this?
+
+Book as early as you can once your event date, venue and agenda are confirmed. See [How Far in Advance to Book](#how-far-in-advance-to-book) above. Because it is a single unit that requires a technician, confirming early matters more here than on equipment we stock in larger quantities.

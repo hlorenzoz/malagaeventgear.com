@@ -557,6 +557,52 @@
       "answer": "Wind changes where a speaker stand or lighting rig can safely stand on grass, sand or a windy terrace. Our technician reads the actual ground and wind exposure on site. Our outdoor wedding rental considerations guide covers this in more depth for wedding venues specifically."
     }
   ],
+  "video-switcher-rental": [
+    {
+      "question": "What is a video switcher, and what does MEG's video switcher rental include?",
+      "answer": "A video switcher cuts a screen cleanly between more than one presentation source instead of forcing a manual cable swap. MEG's real version of this is one Kramer VP-731, a 9 input video scaler and switcher, operated by our technician rather than rented as a self run box. See The Real Unit We Stock above for exactly what it is and is not."
+    },
+    {
+      "question": "Is this the same as a camera switcher or a live streaming production switcher?",
+      "answer": "No. This is the single most important distinction on this page. Our Kramer VP-731 switches presentation sources, a laptop, a second laptop, a DVD player, onto your room's own screen. It does not accept camera inputs and it is not built for live streaming or broadcast production. Malaga Event Gear does not offer camera equipment, video recording, live streaming or broadcast services of any kind. See Video Switcher vs Camera Switcher above."
+    },
+    {
+      "question": "How many sources can it switch between?",
+      "answer": "The unit has 9 physical inputs, but the honest, typical use case on our real bookings is 2 to 3 sources, a laptop, a second laptop and occasionally a DVD player, not 9 at once. See What 9 Inputs Actually Means in Practice above."
+    },
+    {
+      "question": "Can I rent just the switcher without a technician?",
+      "answer": "No. This is technician operated equipment, consistent with our delivery only model, we do not offer self collect or self run rentals of any kind. On the Basic MICE Pack, adding the video switcher requires the on site live technical assistant add on. On the MICE Pack, the included technician manages it as part of the standard booking."
+    },
+    {
+      "question": "Video switcher vs camera or vision mixer for live streaming, what is the real difference?",
+      "answer": "A video switcher like ours cuts between presentation sources for a room's own screen, a laptop to a laptop to a DVD player. A camera or vision mixer for live streaming accepts multiple camera feeds and produces a program output for a broadcast or a stream to remote viewers, an entirely different category of equipment with a different signal chain. MEG stocks the first and does not offer the second: no cameras, no recording, no live streaming or broadcast services. If your event needs a filmed record or a stream to remote attendees, tell us directly and we will confirm plainly that it is not something we provide."
+    },
+    {
+      "question": "Which packages include this, and how much does it cost?",
+      "answer": "None of our four packages include it as standard. It realistically pairs with the MICE Pack, which already includes a screen and a technician, or the Basic MICE Pack with its technical assistant add on, since this is technician operated equipment. There is no published a la carte price. Contact us with your package and agenda and we will confirm availability and a quote. See Which Packages This Is Available On above."
+    },
+    {
+      "question": "What sources can it actually switch between?",
+      "answer": "Confirmed, real sources: a laptop, a second laptop, and a DVD player, drawn from an LG-RH7500 DVD recorder and hard disk unit in our inventory. We do not stock a document camera or a visualizer, so we will not offer one as a source if your event asks for it."
+    },
+    {
+      "question": "Do I need this for a small event, or only for larger corporate bookings?",
+      "answer": "Only if your event has more than one presentation source on the same screen. A single speaker with one slide deck does not need it, a single laptop connection is genuinely simpler. It becomes relevant on a conference agenda with more than one presenter, or a keynote that includes a video insert, which is why it shows up almost exclusively on our corporate MICE bookings rather than private parties."
+    },
+    {
+      "question": "How does this compare to just using one laptop for my presentation?",
+      "answer": "A single laptop is simpler and needs nothing extra, and it is the right choice if your event genuinely has one presenter and one deck. The difference shows up the moment a second source enters the picture, a second speaker's laptop or a screened video clip. Without the switcher, that source change means unplugging and reconnecting a cable live, with a visible black screen or reboot. With it, our technician cuts between sources with no visible interruption. See Video Switcher or a Single Presentation Source above for the full comparison."
+    },
+    {
+      "question": "Can I bring my own devices to switch between?",
+      "answer": "Yes, within the confirmed source types, a laptop or a second laptop connects the same way any presentation laptop does on our packages, through the HDMI and USB-C adapters we already provide. Tell us what devices your event will actually use when you book so our technician can confirm compatibility and the connection setup ahead of time, rather than troubleshoot it live."
+    },
+    {
+      "question": "How far in advance should I book this?",
+      "answer": "Book as early as you can once your event date, venue and agenda are confirmed. See How Far in Advance to Book above. Because it is a single unit that requires a technician, confirming early matters more here than on equipment we stock in larger quantities."
+    }
+  ],
   "benefits-of-audio-visual-rental": [
     {
       "question": "Is it cheaper to rent or buy AV equipment?",

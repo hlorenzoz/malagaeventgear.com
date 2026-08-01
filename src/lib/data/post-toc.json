@@ -1862,6 +1862,118 @@
       "level": 3
     }
   ],
+  "video-switcher-rental": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "the-real-unit-we-stock-one-kramer-vp-731-9-inputs",
+      "text": "The Real Unit We Stock: One Kramer VP-731, 9 Inputs",
+      "level": 2
+    },
+    {
+      "id": "what-9-inputs-actually-means-in-practice",
+      "text": "What 9 Inputs Actually Means in Practice",
+      "level": 2
+    },
+    {
+      "id": "video-switcher-vs-camera-switcher-the-question-that-matters-most",
+      "text": "Video Switcher vs Camera Switcher: The Question That Matters Most",
+      "level": 2
+    },
+    {
+      "id": "video-switcher-or-a-single-presentation-source-what-changes",
+      "text": "Video Switcher or a Single Presentation Source: What Changes",
+      "level": 2
+    },
+    {
+      "id": "which-packages-this-is-available-on-and-pricing",
+      "text": "Which Packages This Is Available On, and Pricing",
+      "level": 2
+    },
+    {
+      "id": "real-setups-weve-delivered",
+      "text": "Real Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "how-far-in-advance-to-book",
+      "text": "How Far in Advance to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "what-is-a-video-switcher-and-what-does-megs-video-switcher-rental-include",
+      "text": "What is a video switcher, and what does MEG's video switcher rental include?",
+      "level": 3
+    },
+    {
+      "id": "is-this-the-same-as-a-camera-switcher-or-a-live-streaming-production-switcher",
+      "text": "Is this the same as a camera switcher or a live streaming production switcher?",
+      "level": 3
+    },
+    {
+      "id": "how-many-sources-can-it-switch-between",
+      "text": "How many sources can it switch between?",
+      "level": 3
+    },
+    {
+      "id": "can-i-rent-just-the-switcher-without-a-technician",
+      "text": "Can I rent just the switcher without a technician?",
+      "level": 3
+    },
+    {
+      "id": "video-switcher-vs-camera-or-vision-mixer-for-live-streaming-what-is-the-real-difference",
+      "text": "Video switcher vs camera or vision mixer for live streaming, what is the real difference?",
+      "level": 3
+    },
+    {
+      "id": "which-packages-include-this-and-how-much-does-it-cost",
+      "text": "Which packages include this, and how much does it cost?",
+      "level": 3
+    },
+    {
+      "id": "what-sources-can-it-actually-switch-between",
+      "text": "What sources can it actually switch between?",
+      "level": 3
+    },
+    {
+      "id": "do-i-need-this-for-a-small-event-or-only-for-larger-corporate-bookings",
+      "text": "Do I need this for a small event, or only for larger corporate bookings?",
+      "level": 3
+    },
+    {
+      "id": "how-does-this-compare-to-just-using-one-laptop-for-my-presentation",
+      "text": "How does this compare to just using one laptop for my presentation?",
+      "level": 3
+    },
+    {
+      "id": "can-i-bring-my-own-devices-to-switch-between",
+      "text": "Can I bring my own devices to switch between?",
+      "level": 3
+    },
+    {
+      "id": "how-far-in-advance-should-i-book-this",
+      "text": "How far in advance should I book this?",
+      "level": 3
+    }
+  ],
   "benefits-of-audio-visual-rental": [
     {
       "id": "brief-overview",
