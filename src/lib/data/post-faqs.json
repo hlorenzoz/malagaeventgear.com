@@ -1367,6 +1367,48 @@
       "answer": "Our services are available in Malaga and extend to Granada for rentals over 400 euros. Book at least 24 hours in advance to guarantee availability."
     }
   ],
+  "av-cable-management": [
+    {
+      "question": "What does \"aesthetic cabling\" actually mean when I book a package?",
+      "answer": "Careful, consistent cable routing along walls, furniture lines, or floor edges, with anything crossing a walking path taped flat and secured, done by the same crew that installs your equipment. See What Aesthetic Cabling Actually Means above."
+    },
+    {
+      "question": "Is cable management included in the price, or an extra charge?",
+      "answer": "Included as standard on the Eco Pack, Wedding Pack, Basic MICE Pack, and MICE Pack, each of which names it directly in its includes list. The Product Presentation Pack's includes list does not name a separate cabling line, though basic routing is still part of every booking's professional setup. A genuinely difficult site or an unusually long cable run can trigger a real, separately valued installation complement, honestly disclosed here rather than left for the day of your event. See Is Cable Management Included in Every Package and When a Difficult Site Adds an Installation Complement above."
+    },
+    {
+      "question": "Do cables create a trip hazard at my event?",
+      "answer": "That is exactly what the routing is meant to prevent: cables kept out of primary walking paths where possible, and taped flat wherever they do cross one. It is one of the 2 real reasons behind the \"aesthetic cabling\" line in our packages, alongside how the setup looks in photos. See What Aesthetic Cabling Actually Means above."
+    },
+    {
+      "question": "How do you route cables at an outdoor venue like a villa or beach club?",
+      "answer": "The same routing and securing habits, adapted to whatever ground surface the venue has, grass, sand, or terrace paving. Our audio visual rental for outdoor events guide covers ground surface and power planning outdoors in full. See Cable Management Outdoors above."
+    },
+    {
+      "question": "What's the longest cable run MEG can set up?",
+      "answer": "It depends on the cable type. Our inventory stocks VGA up to 42 meters, video up to 30 meters, speaker cable up to 25 meters, and microphone and power extension cable up to 20 meters each. See How Far Can We Run a Cable above for the full breakdown."
+    },
+    {
+      "question": "Will cables be visible in my wedding or event photos?",
+      "answer": "We route cable specifically to minimize this, along walls and floor edges rather than through open sightlines, but we do not claim cables are ever fully invisible, only kept out of the way as far as the venue layout allows. See What Aesthetic Cabling Actually Means above."
+    },
+    {
+      "question": "Do you bury cables or use cable ramps for high traffic areas?",
+      "answer": "No, honestly. We do not trench or bury cable runs, that is permanent installation work outside our delivery only model, and we do not stock a named cable ramp or raceway product. We route and tape cable flat along walls and floor edges instead. See What We Do Not Do above."
+    },
+    {
+      "question": "Does weather affect how cables are managed outdoors?",
+      "answer": "Yes, in the same way it affects the rest of an outdoor setup. Our weather considerations for outdoor rentals guide covers how we plan around it in full rather than repeating it here."
+    },
+    {
+      "question": "What happens if a cable gets in the way or comes loose during my event?",
+      "answer": "On a self run package with no technician on site, a cable knocked loose while moving a table or a stand is one of the most common causes of a sudden sound or connection issue. Our AV system troubleshooting guide covers what to check yourself if that happens mid event."
+    },
+    {
+      "question": "Is cable management different for a small party versus a large corporate event?",
+      "answer": "The habits are the same, but the scale changes what there is to route. The Eco Pack has 2 speakers and 2 light bars to manage cable around. The MICE Pack's catalog description calls out \"custom wiring setup\" specifically because a 60 inch display, dual microphones, and a longer event with an on-site technician managing the run throughout is a genuinely more complex job than a small party's setup. See Is Cable Management Included in Every Package above."
+    }
+  ],
   "all-in-one-wedding-rental-packages": [
     {
       "question": "What's included in an all in one wedding rental package from Malaga Event Gear?",
