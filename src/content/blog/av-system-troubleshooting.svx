@@ -94,6 +94,8 @@ We do not offer a self collection or drop off option on any package. Every booki
 
 That matters for how you troubleshoot. If something is not working now, it worked when our crew left, so the honest first question is what has changed since then, not what might be broken. In practice that is almost always one of a small number of things: a cable that got knocked loose moving a table or a stand, a gain or volume control nudged by someone leaning on the console, a battery that has run down on a wireless handheld, or an input selected that does not match whichever laptop or device is actually connected right now.
 
+For what that initial setup actually involves, gain staging and speaker placement adjusted to your specific venue rather than a fixed setting, see our [audio system calibration](/blog/audio-system-calibration/) guide. This page picks up from there: what to check if something changes after our crew leaves, not how it got calibrated to begin with.
+
 ## Self Check by Package: What to Look at First
 
 What you check depends on what your package actually includes, since none of these three packages carry the same equipment.

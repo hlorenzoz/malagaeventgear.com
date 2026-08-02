@@ -603,6 +603,52 @@
       "answer": "Book as early as you can once your event date, venue and agenda are confirmed. See How Far in Advance to Book above. Because it is a single unit that requires a technician, confirming early matters more here than on equipment we stock in larger quantities."
     }
   ],
+  "audio-system-calibration": [
+    {
+      "question": "What is audio system calibration, in plain terms?",
+      "answer": "Setting every microphone and speaker to the specific room your event is in, rather than plugging equipment in and turning it on. It covers gain staging on each input, speaker placement, and console settings, all adjusted to that room's acoustics, not a fixed configuration brought from the last event. See What Audio System Calibration Actually Means above."
+    },
+    {
+      "question": "What is gain staging, and why does it matter?",
+      "answer": "Gain staging is setting each microphone's input level correctly at the source, before it reaches the console's main volume. Too low, and the signal sounds weak and picks up background noise once the volume is pushed up to compensate. Too high, and it distorts the moment a presenter raises their voice. See Gain Staging in Plain Terms above."
+    },
+    {
+      "question": "Why does the same equipment need different calibration at different venues?",
+      "answer": "Room acoustics change what correct calibration looks like even with identical gear. A low ceiling and hard surfaces, tile, glass, bare stone, reflect sound back quickly and raise feedback risk, so gain runs lower and speaker angles are set more carefully than in a taller room with soft, sound absorbing furnishings. See Why Every Venue Needs Different Calibration above."
+    },
+    {
+      "question": "Does an outdoor venue get calibrated differently than an indoor one?",
+      "answer": "Yes. Outdoor venues have no walls to reflect sound back the way indoor rooms do, so speakers get placed closer to the audience and gain often runs higher for the same coverage, since there is no reflected sound filling gaps between speaker positions. See Indoor, Outdoor and Guest Count above."
+    },
+    {
+      "question": "Does guest count affect calibration, and if so how?",
+      "answer": "Yes. A full room of guests, their bodies and clothing, absorbs sound differently than the same room empty during setup. That is why our crew tests as close to your doors opening as practically possible rather than calibrating hours ahead in an empty room. See Indoor, Outdoor and Guest Count above."
+    },
+    {
+      "question": "What mixing console does MEG use for calibration, and does it depend on the package?",
+      "answer": "Yes, it scales with event size: a 6 channel Soundcraft EPM-6 for smaller bookings with a console, such as the Product Presentation Pack, a 16 channel Mackie Onyx 1640 for mid size corporate events, and a Midas M32R Live with an MD16 digital stage box on larger venues, up to the MICE Pack's 120 guests. The Eco Pack itself has no console at all. See Same Real Equipment, Calibrated for Scale above."
+    },
+    {
+      "question": "What is the Midas M32R Live and MD16 stage box, and when does MEG use it?",
+      "answer": "The Midas M32R Live is our digital mixing console for larger venues, paired with an MD16, a remote stage box that converts each microphone to digital right at the stage and carries every channel back to the console over a single cable, instead of a long bundle of individual microphone cables. We use this pairing on larger bookings, the scale our MICE Pack serves up to 120 guests. See The Midas M32R Live and MD16 above."
+    },
+    {
+      "question": "Does calibration include video or screen setup too?",
+      "answer": "No, not on this page. Audio calibration, gain staging and speaker tuning, is a separate process from screen and presentation source switching, which our Kramer VP-731 handles. If your event's account mentions calibrating \"sound and video networks\" together, the video half refers to that presentation scaler, not a camera or broadcast system, which we do not offer. See Calibration in the Field above."
+    },
+    {
+      "question": "Is calibration done once, or does it change during the event?",
+      "answer": "Calibration itself happens once, before your guests arrive, setting the baseline for your event. What can change afterward, a cable getting knocked loose or a gain fader nudged, is a separate question on the self run packages where no technician is watching the levels. On packages with a technician, live monitoring keeps adjusting from that calibrated baseline as your event runs."
+    },
+    {
+      "question": "Do I need to be there while my equipment is calibrated?",
+      "answer": "No. Our crew calibrates every booking before you or your guests arrive, as part of the delivery, install and test process on every package. You do not need to be present for it, though you are welcome to be if your schedule allows."
+    },
+    {
+      "question": "How far in advance does calibration happen relative to my event start time?",
+      "answer": "Our crew arrives and calibrates ahead of your first guest, timed close enough to your doors opening that guest count and room absorption are accounted for, not hours earlier when the room is still empty. See Indoor, Outdoor and Guest Count and How Far in Advance to Book above for what that means for booking lead time."
+    }
+  ],
   "benefits-of-audio-visual-rental": [
     {
       "question": "Is it cheaper to rent or buy AV equipment?",

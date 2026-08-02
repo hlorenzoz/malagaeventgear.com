@@ -1,0 +1,194 @@
+---
+title: "Audio System Calibration in Malaga, Spain"
+description: "Audio system calibration in Malaga: gain staging explained, why every venue needs different settings, and the real console range, up to a Midas M32R."
+author: Hector Luis Lorenzo
+slug: audio-system-calibration
+publishDate: "2026-08-02"
+excerpt: "What audio system calibration actually is: gain staging in plain terms, why the same speakers and console get set up differently at every venue, and the real console range our crew calibrates with, from a 6 channel Soundcraft up to a Midas M32R Live digital system."
+coverImage: https://cdn.malagaeventgear.com/blog/1279/high_care_hospital_marbella_conference_setup_2-scaled.webp
+categories: [Audio Visual Rental, Corporate & Enterprise, Events]
+tags: []
+draft: false
+keyword: "audio system calibration"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Searching for audio system calibration mostly turns up two things that do not fit an event booking: home theater guides about room correction software, or engineering explainers written for installers wiring a permanent system into a building. Neither answers the question behind a rental: what calibration means for a single event, and why the same speakers and the same console can need a different setup from one venue to the next.
+
+Our [technical support for events](/blog/technical-support-for-events/#before-your-event-starts-calibration-and-testing) guide already names calibration as the first phase our crew runs before your guests arrive, in one short paragraph. This page is the deeper version of that paragraph: what calibration actually is, why it changes per venue, and the real console range our crew adapts to get there.
+
+[Book now](/packages/) and confirm which package fits your event, we adapt the same real gear to it either way.
+
+## Table of Contents
+
+-   [Brief Overview](#brief-overview)
+-   [Key Highlights](#key-highlights)
+-   [What Audio System Calibration Actually Means](#what-audio-system-calibration-actually-means)
+-   [Gain Staging in Plain Terms](#gain-staging-in-plain-terms)
+-   [Why Every Venue Needs Different Calibration](#why-every-venue-needs-different-calibration)
+-   [Indoor, Outdoor and Guest Count: What Actually Changes](#indoor-outdoor-and-guest-count-what-actually-changes)
+-   [Same Real Equipment, Calibrated for Scale: Our Console Range](#same-real-equipment-calibrated-for-scale-our-console-range)
+-   [The Midas M32R Live and MD16: Calibration on Larger Venues](#the-midas-m32r-live-and-md16-calibration-on-larger-venues)
+-   [Calibration in the Field: The Bmotion Marbella Project](#calibration-in-the-field-the-bmotion-marbella-project)
+-   [Real Setups We've Delivered](#real-setups-weve-delivered)
+-   [How Far in Advance to Book](#how-far-in-advance-to-book)
+-   [Conclusion](#conclusion)
+-   [FAQs](#faqs)
+    -   [What is audio system calibration, in plain terms?](#what-is-audio-system-calibration-in-plain-terms)
+    -   [What is gain staging, and why does it matter?](#what-is-gain-staging-and-why-does-it-matter)
+    -   [Why does the same equipment need different calibration at different venues?](#why-does-the-same-equipment-need-different-calibration-at-different-venues)
+    -   [Does an outdoor venue get calibrated differently than an indoor one?](#does-an-outdoor-venue-get-calibrated-differently-than-an-indoor-one)
+    -   [Does guest count affect calibration, and if so how?](#does-guest-count-affect-calibration-and-if-so-how)
+    -   [What mixing console does MEG use for calibration, and does it depend on the package?](#what-mixing-console-does-meg-use-for-calibration-and-does-it-depend-on-the-package)
+    -   [What is the Midas M32R Live and MD16 stage box, and when does MEG use it?](#what-is-the-midas-m32r-live-and-md16-stage-box-and-when-does-meg-use-it)
+    -   [Does calibration include video or screen setup too?](#does-calibration-include-video-or-screen-setup-too)
+    -   [Is calibration done once, or does it change during the event?](#is-calibration-done-once-or-does-it-change-during-the-event)
+    -   [Do I need to be there while my equipment is calibrated?](#do-i-need-to-be-there-while-my-equipment-is-calibrated)
+    -   [How far in advance does calibration happen relative to my event start time?](#how-far-in-advance-does-calibration-happen-relative-to-my-event-start-time)
+
+## Brief Overview
+
+---
+
+Audio system calibration, at Malaga Event Gear, means setting every microphone and speaker to the room it is actually in, not just plugging equipment in and turning it on. The same PA and console sound different in a low ceilinged indoor hall than they do in an open garden, and different again once a room fills with guests, so calibration is the process our crew runs at every single booking to make the equipment fit that specific venue.
+
+This guide walks through what calibration actually involves, gain staging in plain terms, why room acoustics, indoor versus outdoor and guest count all change what correct calibration looks like, and the real console range our crew calibrates with, from a 6 channel entry desk up to a Midas M32R Live digital system most guests will never see. [Contact us](/contact/) if you want to know what that looks like for your specific venue.
+
+## Key Highlights
+
+---
+
+-   Calibration is not a generic checklist. It is gain staging on every microphone, speaker placement, and console settings, all adjusted to the specific room, not a fixed setting we bring to every event.
+
+-   Gain staging, setting each input's level correctly at the source, has to be redone at every venue because the microphones, the distances and the room itself all change.
+
+-   Room acoustics, indoor versus outdoor, and guest count all change what correct calibration means for identical equipment. A full room absorbs sound differently than the same empty room during setup.
+
+-   Our console range scales with the event: a 6 channel Soundcraft EPM-6 for smaller bookings, a 16 channel Mackie Onyx 1640 for mid size corporate events, and a Midas M32R Live paired with an MD16 digital stage box on larger venues.
+
+-   This page is strictly about audio calibration. Screen and presentation switching is a separate topic, covered in full on our [video switcher rental](/blog/video-switcher-rental/) guide.
+
+## What Audio System Calibration Actually Means
+
+Calibration is the work our crew does between arriving at your venue and your first guest walking in: adjusting every microphone's input level, checking speaker placement against the room's shape, and setting the console so the whole system sits at a level that sounds correct in that specific space, neither too quiet to be heard in the back row nor loud enough to distort or trigger feedback near the front. It is not a single setting configured in advance and brought unchanged to every event. The Product Presentation Pack's mixing console, for example, gets set differently for a small dealership showroom than it does for a larger conference hall, even though the physical unit is identical.
+
+The reason calibration cannot be skipped or standardized is simple: a speaker's level and a microphone's gain only sound correct relative to the room they are in. Move the exact same equipment to a different room, and what was correct becomes either too weak or too hot. Calibration is the process of finding correct again, every time.
+
+## Gain Staging in Plain Terms
+
+Gain staging is the part of calibration most event hosts have never heard named, even though it is the single biggest factor in whether a microphone sounds clean or not. Every microphone and audio input has a level, called gain, set right at the source, before the signal reaches the console's main volume or the speakers at all.
+
+Set that gain too low, and the microphone sounds weak and distant, forcing the console's overall volume up to compensate, which drags up any background hiss or room noise right along with the voice. Set it too high, and the signal distorts, a harsh, crackling sound called clipping, the moment the presenter raises their voice or steps closer to the mic. Correct gain staging sits between those two, loud enough to sound present without ever pushing the signal into distortion.
+
+<InlineCTA />
+
+Gain staging has to be redone at every event because the variables genuinely change. A wired podium microphone in a quiet boardroom picks up almost nothing but the speaker's voice, so its gain can run comfortably high. The same style of microphone on an outdoor stage, further from the presenter's mouth and competing with ambient noise, needs a different setting entirely. A wireless handheld microphone passed between wedding guests changes distance constantly, so our crew sets its gain with headroom built in rather than tuned tight to one fixed position. None of this is guesswork, it is the reason our crew arrives and tests before your event starts rather than trusting a setting from the last booking.
+
+## Why Every Venue Needs Different Calibration
+
+Room acoustics change what correct calibration looks like even when the equipment stays identical. A room with a low ceiling and hard surfaces, tile floors, glass walls, bare stone, reflects sound back into the space quickly. Those reflections reach a microphone almost as fast as the direct sound from a speaker, which raises the risk of feedback, the rising squeal a mic makes when it picks up its own amplified sound. In that kind of room, our crew sets gain lower and angles speakers more carefully than in a taller room with soft furnishings, carpet, drapes, a full set of upholstered chairs, which absorb sound rather than bouncing it back.
+
+Ceiling height matters for the same reason. A high, open ceiling gives sound somewhere to dissipate rather than reflect straight back down into the seating area, so the same speaker level that would cause problems in a low conference room can sit comfortably in a taller hall. None of this shows up by looking at the equipment list. It only shows up by standing in the actual room.
+
+## Indoor, Outdoor and Guest Count: What Actually Changes
+
+Outdoor venues remove the reflections indoor calibration accounts for, and replace them with a different problem: open air and wind carry sound away instead of returning it. There are no walls to reinforce a speaker's output, so our crew places speakers closer to the audience and often runs gain higher for the same coverage than the equivalent indoor setup would need, since there is no reflected sound filling in the gaps between speaker positions. The cover photo on this page, an outdoor conference setup for High Care Hospital in Marbella under a partially shaded patio, shows exactly this: the speaker sits close to the rows of seating rather than trying to throw sound across open garden the way an indoor PA might.
+
+Guest count changes calibration in a way that is easy to miss entirely: a full room of people, their bodies and clothing, absorbs sound differently than the same room empty during setup. That is a real, physical difference, not a rounding error, which is why our crew tests as close to your doors opening as practically possible rather than calibrating hours ahead in an empty room and assuming it will hold once guests fill the seats.
+
+## Same Real Equipment, Calibrated for Scale: Our Console Range
+
+The console at the center of calibration is not one fixed piece of gear, it scales with the event. Our [technical support for events](/blog/technical-support-for-events/#real-equipment-real-troubleshooting-what-our-technicians-actually-fix) guide already names two of these consoles as what our technicians ride during live speeches. Here is where each one fits.
+
+| Event Scale | Console | Channels |
+| --- | --- | --- |
+| Smaller bookings that include a console, such as the [Product Presentation Pack](/packages/product-presentation/) | Soundcraft EPM-6 | 6 |
+| Mid size corporate events, a press event, dealership launch or a [Basic MICE Pack](/packages/basic-mice/) with the technician add on | Mackie Onyx 1640 | 16 |
+| Larger venues, up to the [MICE Pack](/packages/mice/)'s 120 guests | Midas M32R Live + MD16 digital stage box | See below |
+
+Worth being precise here: at the smaller end of our catalog, a console is not always part of the picture at all. The [Eco Pack](/packages/eco/) itself runs straight off two active speakers with no mixing console in between. The EPM-6 enters the picture once a booking's own equipment includes a console to calibrate.
+
+## The Midas M32R Live and MD16: Calibration on Larger Venues
+
+Our largest console pairing has never been named on this site before now: a Midas M32R Live digital mixing console, paired with an MD16 digital stage box, both confirmed in our own equipment inventory. This is the setup our crew reaches for on larger venues, the scale a [MICE Pack](/packages/mice/) booking with up to 120 guests actually needs.
+
+What makes the MD16 worth explaining rather than just naming is what it does differently from a standard console setup. On a smaller booking, every microphone cable runs individually, in a bundle, all the way from the stage back to wherever the console sits. On a larger venue that can mean a long run of cable snaking across the floor or taped down along a wall. The MD16 changes that: it is a remote stage box that sits near the microphones themselves, on or close to the stage, and converts each one to a digital signal right there. A single cable then carries all of those channels back to the M32R Live console, wherever our crew positions it in the room, instead of a long bundle of individual microphone cables making the same trip.
+
+That matters for calibration in two concrete ways. First, converting each microphone's signal close to the source, with the preamps built into the stage box rather than back at the console, keeps the signal clean over a longer physical distance, since it is not traveling as a lower level analog signal picking up interference the whole way. Second, it gives our crew genuine channel by channel control on a larger room, shaping each microphone individually rather than sharing broad tone adjustments across grouped inputs the way a smaller analog desk like the EPM-6 has to. On a room built for 120 guests, that level of individual control is exactly what venue by venue calibration, the whole subject of this page, actually depends on.
+
+## Calibration in the Field: The Bmotion Marbella Project
+
+Over two days in May 2026, our crew handled transport, setup and calibration for a corporate project with the agency [Bmotion](https://www.bmotionav.com/) in Marbella. Our own account of that project describes the crew conducting extensive audio tuning and visual signal testing before the first guest entered the room, specifically to catch potential acoustic reflections and interference before anyone was present to notice them. Read the full account in our [Bmotion Marbella](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/) update.
+
+Worth being precise here too: that account also mentions "pre event calibration of the sound and video networks." The video half of that sentence is our Kramer VP-731 presentation scaler, the device covered in full on our [video switcher rental](/blog/video-switcher-rental/) guide, not a camera or broadcast system. This page is strictly the audio half of that same project, gain staging and speaker tuning against the room's own acoustics, not the video or screen side. See [Does Calibration Include Video or Screen Setup Too](#does-calibration-include-video-or-screen-setup-too) below for the explicit split.
+
+## Real Setups We've Delivered
+
+![Outdoor conference seating for High Care Hospital in Marbella, rows of chairs under a partially shaded patio with a single speaker positioned close to the audience rather than aimed across open garden.](https://cdn.malagaeventgear.com/blog/1278/high_care_hospital_marbella_conference_setup-scaled.webp)
+
+A wider view of the same High Care Hospital conference setup used as this page's cover image. The speaker and screen sit close to the seated rows under cover, a calibration choice that changes once a venue moves from a shaded patio like this one to a fully open garden or a closed indoor hall.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1278/', '/1279/'])} speed="normal" direction="left" />
+</div>
+
+## How Far in Advance to Book
+
+All our bookings need at least 24 hours' notice, and calibration is part of every single one of them regardless of package. Larger venues that call for the Midas M32R Live and MD16 stage box benefit from more lead time, not because calibration itself takes longer, but because confirming a larger room's layout and guest count ahead of the day lets our crew plan speaker placement and cable runs before arriving rather than improvising on site. Demand for our corporate packages peaks during the conference season and around major congresses on the Costa del Sol, so confirming early matters most for [MICE Pack](/packages/mice/) bookings specifically.
+
+## Conclusion
+
+Audio system calibration at Malaga Event Gear is not a fixed setting, it is gain staging and speaker placement adapted to the room your event is actually in, room acoustics, indoor versus outdoor, and guest count all changing what correct calibration means for identical equipment. Our console range scales with that, from a 6 channel Soundcraft EPM-6 up to a Midas M32R Live paired with an MD16 digital stage box on larger venues, named here for the first time on this site. [Contact us](/contact/) with your venue and guest count, and we will tell you honestly what calibration looks like for it. For the phase by phase version of what our crew does on site, see our [technical support for events](/blog/technical-support-for-events/) guide. For our full equipment range, see the [audio visual rental in Malaga guide](/blog/audio-visual-rental/).
+
+## FAQs
+
+### What is audio system calibration, in plain terms?
+
+Setting every microphone and speaker to the specific room your event is in, rather than plugging equipment in and turning it on. It covers gain staging on each input, speaker placement, and console settings, all adjusted to that room's acoustics, not a fixed configuration brought from the last event. See [What Audio System Calibration Actually Means](#what-audio-system-calibration-actually-means) above.
+
+### What is gain staging, and why does it matter?
+
+Gain staging is setting each microphone's input level correctly at the source, before it reaches the console's main volume. Too low, and the signal sounds weak and picks up background noise once the volume is pushed up to compensate. Too high, and it distorts the moment a presenter raises their voice. See [Gain Staging in Plain Terms](#gain-staging-in-plain-terms) above.
+
+### Why does the same equipment need different calibration at different venues?
+
+Room acoustics change what correct calibration looks like even with identical gear. A low ceiling and hard surfaces, tile, glass, bare stone, reflect sound back quickly and raise feedback risk, so gain runs lower and speaker angles are set more carefully than in a taller room with soft, sound absorbing furnishings. See [Why Every Venue Needs Different Calibration](#why-every-venue-needs-different-calibration) above.
+
+### Does an outdoor venue get calibrated differently than an indoor one?
+
+Yes. Outdoor venues have no walls to reflect sound back the way indoor rooms do, so speakers get placed closer to the audience and gain often runs higher for the same coverage, since there is no reflected sound filling gaps between speaker positions. See [Indoor, Outdoor and Guest Count](#indoor-outdoor-and-guest-count-what-actually-changes) above.
+
+### Does guest count affect calibration, and if so how?
+
+Yes. A full room of guests, their bodies and clothing, absorbs sound differently than the same room empty during setup. That is why our crew tests as close to your doors opening as practically possible rather than calibrating hours ahead in an empty room. See [Indoor, Outdoor and Guest Count](#indoor-outdoor-and-guest-count-what-actually-changes) above.
+
+### What mixing console does MEG use for calibration, and does it depend on the package?
+
+Yes, it scales with event size: a 6 channel Soundcraft EPM-6 for smaller bookings with a console, such as the [Product Presentation Pack](/packages/product-presentation/), a 16 channel Mackie Onyx 1640 for mid size corporate events, and a Midas M32R Live with an MD16 digital stage box on larger venues, up to the [MICE Pack](/packages/mice/)'s 120 guests. The [Eco Pack](/packages/eco/) itself has no console at all. See [Same Real Equipment, Calibrated for Scale](#same-real-equipment-calibrated-for-scale-our-console-range) above.
+
+### What is the Midas M32R Live and MD16 stage box, and when does MEG use it?
+
+The Midas M32R Live is our digital mixing console for larger venues, paired with an MD16, a remote stage box that converts each microphone to digital right at the stage and carries every channel back to the console over a single cable, instead of a long bundle of individual microphone cables. We use this pairing on larger bookings, the scale our [MICE Pack](/packages/mice/) serves up to 120 guests. See [The Midas M32R Live and MD16](#the-midas-m32r-live-and-md16-calibration-on-larger-venues) above.
+
+### Does calibration include video or screen setup too?
+
+No, not on this page. Audio calibration, gain staging and speaker tuning, is a separate process from screen and presentation source switching, which our [Kramer VP-731](/blog/video-switcher-rental/) handles. If your event's account mentions calibrating "sound and video networks" together, the video half refers to that presentation scaler, not a camera or broadcast system, which we do not offer. See [Calibration in the Field](#calibration-in-the-field-the-bmotion-marbella-project) above.
+
+### Is calibration done once, or does it change during the event?
+
+Calibration itself happens once, before your guests arrive, setting the baseline for your event. What can change afterward, a cable getting knocked loose or a gain fader nudged, is a separate question on the self run packages where no technician is watching the levels. On packages with a technician, live monitoring keeps adjusting from that calibrated baseline as your event runs.
+
+### Do I need to be there while my equipment is calibrated?
+
+No. Our crew calibrates every booking before you or your guests arrive, as part of the delivery, install and test process on every package. You do not need to be present for it, though you are welcome to be if your schedule allows.
+
+### How far in advance does calibration happen relative to my event start time?
+
+Our crew arrives and calibrates ahead of your first guest, timed close enough to your doors opening that guest count and room absorption are accounted for, not hours earlier when the room is still empty. See [Indoor, Outdoor and Guest Count](#indoor-outdoor-and-guest-count-what-actually-changes) and [How Far in Advance to Book](#how-far-in-advance-to-book) above for what that means for booking lead time.
