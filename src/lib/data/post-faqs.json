@@ -815,6 +815,52 @@
       "answer": "As early as your date is confirmed. Demand peaks during wedding season, from April through October, when technicians and specialty stage lighting fixtures are the first things to fill up. See How Far in Advance to Book above."
     }
   ],
+  "av-equipment-consultations": [
+    {
+      "question": "Which package is right for my event?",
+      "answer": "It depends mainly on your guest count and event type: the Eco Pack for a party up to 50 guests, the Basic MICE Pack for a meeting up to 40 guests, the Product Presentation Pack for a presentation, dealership showcase or product launch regardless of headcount, the MICE Pack for a larger corporate event up to 120 guests, and the Wedding Pack for a wedding up to 80 guests. See The Package to Event Decision Table above for the full breakdown."
+    },
+    {
+      "question": "What information do you need to help me choose?",
+      "answer": "Your event date, your venue location, your expected guest count, and the type of equipment or package you are interested in, even if that is just a description of the event rather than a package name. See What Information We Need From You above."
+    },
+    {
+      "question": "Is the consultation free?",
+      "answer": "Yes. Asking which package fits your event costs nothing on its own, every package price already covers delivery, setup and testing, and there is no separate fee anywhere in our pricing for the conversation that gets you there. See Is a Consultation Free above."
+    },
+    {
+      "question": "Do I need a technician included, or can I run the equipment myself?",
+      "answer": "That depends on how much attention you want free during your event, not a fixed rule. Our AV technician hire guide has the full package by package breakdown, and our AV system troubleshooting guide covers what to check yourself on the 3 packages with no technician on site. See Do You Need a Technician, or Can You Run It Yourself above."
+    },
+    {
+      "question": "My guest count falls between two packages, which should I pick?",
+      "answer": "Lean on event type, not the exact headcount. A party a few guests over the Eco Pack's 50 guest cap is rarely a problem. A corporate meeting a few guests over the Basic MICE Pack's 40 guest cap is a signal to step up to the MICE Pack rather than round down. See When Your Guest Count Falls Between Two Packages above."
+    },
+    {
+      "question": "Why doesn't the Product Presentation Pack list a guest count?",
+      "answer": "Because it is chosen by what your event is, a corporate presentation, dealership showcase, or product launch, rather than by how many people attend. Its projector, screen and single wireless microphone work the same way whether 15 or 45 guests are watching. See Why the Product Presentation Pack Has No Guest Cap above."
+    },
+    {
+      "question": "What's the real difference between the Basic MICE Pack and the MICE Pack?",
+      "answer": "Beyond the guest cap, 40 against 120, the real difference is what is standard: the MICE Pack includes a technician for up to 6 continuous hours and a 60 inch LED display as standard, while the Basic MICE Pack offers a technician only as a 240 euro per day add on. See Basic MICE Pack vs MICE Pack above."
+    },
+    {
+      "question": "Does my venue affect which package I should choose?",
+      "answer": "Rarely on its own. Guest count and event type decide the package first, venue mostly shapes what we plan around afterward, cable runs and weather exposure outdoors, or AV restrictions at a hotel ballroom. See Does Your Venue Change Which Package You Need above."
+    },
+    {
+      "question": "How far in advance should I book my consultation?",
+      "answer": "As early as you can once your event date is set. Bookings need at least 24 hours' notice at minimum, and reaching out earlier gives us more room to confirm the right package and technician availability, especially during wedding season from April through October. See How Far in Advance to Book above."
+    },
+    {
+      "question": "Can I customize a package after I've already booked it?",
+      "answer": "Yes. Every package can be extended with priced add ons, projectors and screens, extra microphones, premium lecterns, staging, and additional technician hours. Our how to customize AV rental packages guide has the full priced list."
+    },
+    {
+      "question": "What if I'm not sure what I need at all?",
+      "answer": "Describe your event rather than trying to guess a package name. Tell us your event date, guest count, venue and what kind of event it is, a party, a meeting, a presentation, or a wedding, and we will match it to one of our 5 packages for you. Contact us and start from the event, not the catalog."
+    }
+  ],
   "questions-to-ask-wedding-rental-companies": [
     {
       "question": "What should I ask before booking wedding AV rentals?",
