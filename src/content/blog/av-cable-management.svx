@@ -1,0 +1,189 @@
+---
+title: "AV Cable Management in Malaga, Spain"
+description: "AV cable management at Malaga Event Gear bookings: what \"aesthetic cabling\" means, the real cable lengths we stock, and what we honestly do and do not do."
+author: Hector Luis Lorenzo
+slug: av-cable-management
+publishDate: "2026-08-02"
+excerpt: "What \"aesthetic cabling\" actually means at a Malaga Event Gear booking: which packages include it, how far a cable run can go, when a difficult site adds a real complement, and what we do not do."
+coverImage: https://cdn.malagaeventgear.com/blog/1278/high_care_hospital_marbella_conference_setup-1024x765.webp
+categories: [Audio Visual Rental, Corporate & Enterprise, Events]
+tags: []
+draft: false
+keyword: "AV cable management"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Searching for AV cable management mostly turns up cable tie manufacturers and fabrication shops selling hardware, not an answer to the actual question behind the search: what happens to the cables at your own event. Four of our five packages already list "aesthetic cabling" or a close variant as a standard inclusion, a phrase that has sat in our own catalog for a long time without ever being explained on this site, until now.
+
+This page is that explanation: what actually happens to cables at a Malaga Event Gear booking, why it matters for safety and for your photos, how far a cable run can realistically go, and, just as honestly, what we do not do.
+
+[Contact us](/contact/) with your venue details if a specific run length or a difficult site is part of your planning.
+
+## Table of Contents
+
+-   [Brief Overview](#brief-overview)
+-   [Key Highlights](#key-highlights)
+-   [What Aesthetic Cabling Actually Means](#what-aesthetic-cabling-actually-means)
+-   [Is Cable Management Included in Every Package](#is-cable-management-included-in-every-package)
+-   [How Far Can We Run a Cable](#how-far-can-we-run-a-cable)
+-   [When a Difficult Site Adds an Installation Complement](#when-a-difficult-site-adds-an-installation-complement)
+-   [What We Do Not Do](#what-we-do-not-do)
+-   [Cable Management Outdoors](#cable-management-outdoors)
+-   [Real Setups We've Delivered](#real-setups-weve-delivered)
+-   [How Far in Advance to Book](#how-far-in-advance-to-book)
+-   [Conclusion](#conclusion)
+-   [FAQs](#faqs)
+    -   [What does "aesthetic cabling" actually mean when I book a package?](#what-does-aesthetic-cabling-actually-mean-when-i-book-a-package)
+    -   [Is cable management included in the price, or an extra charge?](#is-cable-management-included-in-the-price-or-an-extra-charge)
+    -   [Do cables create a trip hazard at my event?](#do-cables-create-a-trip-hazard-at-my-event)
+    -   [How do you route cables at an outdoor venue like a villa or beach club?](#how-do-you-route-cables-at-an-outdoor-venue-like-a-villa-or-beach-club)
+    -   [What's the longest cable run MEG can set up?](#whats-the-longest-cable-run-meg-can-set-up)
+    -   [Will cables be visible in my wedding or event photos?](#will-cables-be-visible-in-my-wedding-or-event-photos)
+    -   [Do you bury cables or use cable ramps for high traffic areas?](#do-you-bury-cables-or-use-cable-ramps-for-high-traffic-areas)
+    -   [Does weather affect how cables are managed outdoors?](#does-weather-affect-how-cables-are-managed-outdoors)
+    -   [What happens if a cable gets in the way or comes loose during my event?](#what-happens-if-a-cable-gets-in-the-way-or-comes-loose-during-my-event)
+    -   [Is cable management different for a small party versus a large corporate event?](#is-cable-management-different-for-a-small-party-versus-a-large-corporate-event)
+
+## Brief Overview
+
+---
+
+"Aesthetic cabling," "aesthetic wiring," and "custom wiring setup" already appear in our own package catalog, on the Eco Pack, Wedding Pack, Basic MICE Pack, and MICE Pack respectively, but none of our pages have ever explained what those words mean in practice. This page does: how our crew routes and secures cable at your venue, why that matters for safety and for how your event looks in photos, the real lengths we can run from our own inventory, and where an honestly disclosed extra charge can apply.
+
+Cable management is not a separate service you add to a booking. It is part of the professional setup every package already includes, delivered by the same crew that installs your sound, lighting, or display equipment.
+
+## Key Highlights
+
+---
+
+-   "Aesthetic cabling" is a standard, named inclusion on 4 of our 5 packages: the [Eco Pack](/packages/eco/), [Wedding Pack](/packages/wedding/), [Basic MICE Pack](/packages/basic-mice/), and [MICE Pack](/packages/mice/).
+
+-   Our inventory includes real cable lengths up to 42 meters for VGA, 30 meters for video, and 25 meters for speaker runs, so most venue layouts fit within what we already stock.
+
+-   A genuinely difficult site or an unusually long cable run can trigger a real installation complement, disclosed here honestly rather than left for the day of your event.
+
+-   We do not trench or bury cable runs, and we do not stock a branded cable ramp or raceway product. Both are worth knowing before you book if either matters to your venue.
+
+-   Cable routing changes with scale: an [Eco Pack](/packages/eco/) party has 2 speakers and 2 light bars to route around, a [MICE Pack](/packages/mice/) corporate event has a 60 inch display, dual microphones, and a technician managing the run throughout.
+
+## What Aesthetic Cabling Actually Means
+
+<InlineCTA />
+
+Strip away the marketing phrasing and "aesthetic cabling" describes 2 concrete things our crew does at every setup: cable runs are routed along walls, furniture lines, or the floor edge rather than straight across open walking paths, and any cable crossing a path guests or staff will actually use is secured flat rather than left loose. The photo further down this page, from a corporate lectern setup, shows exactly this: a power run taped flat along the floor, following the wall line to the nearest outlet, gathered and bundled at the equipment itself rather than left as a tangle.
+
+That is the honest scope of it. We are not describing a hidden conduit system or a custom carpentry solution, we are describing careful, consistent routing and securing, done by the same crew that delivers, installs, and tests your equipment, at no separate line item on 4 of our 5 packages.
+
+## Is Cable Management Included in Every Package
+
+The honest answer needs a real table, not a blanket yes, because the wording differs by package and one package's includes list does not name a cabling line at all.
+
+| Package | Price (ex VAT) | Cabling Line in the Includes List | What This Means |
+| --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | 290 euros | "Aesthetic cabling and professional setup" | Standard inclusion, no technician on site to manage it further |
+| [Wedding Pack](/packages/wedding/) | 650 euros | "Professional aesthetic setup and cabling" | Standard inclusion, plus an on-site technician for the whole event |
+| [Basic MICE Pack](/packages/basic-mice/) | 295 euros | "...setup, and aesthetic wiring" | Standard inclusion, bundled into transport and setup |
+| [MICE Pack](/packages/mice/) | 490 euros | "...custom wiring setup..." | Standard inclusion, plus an included technician for up to 6 hours |
+| [Product Presentation Pack](/packages/product-presentation/) | 310 euros | Not named as a separate line | See below |
+
+The [Product Presentation Pack](/packages/product-presentation/) is the one honest exception. Its 4-item includes list, a projector and screen, a venue sound system, and a wireless microphone, does not name a cabling or wiring line the way the other 4 packages do. That is not the same as saying cable routing is excluded from it. Every booking we deliver, this package included, is installed by our own crew as part of the setup that price already covers, and the same basic routing habits, cables kept along walls and secured where they cross a path, apply regardless of which package you booked. It is simply not spelled out as its own bullet point in that package's catalog description the way it is on the other 4, and we would rather say that plainly than paper over the gap with a line that is not actually in our own data.
+
+## How Far Can We Run a Cable
+
+Venue layout is usually the real question behind "is cable management included," since a cable that cannot physically reach the outlet or the speaker position is a bigger problem than how neatly it sits once it does. Here is what our own inventory actually stocks, cable type by cable type, longest length first.
+
+| Cable Type | Longest Length We Stock |
+| --- | --- |
+| VGA | Up to 42 meters |
+| Video (Kramer, Christie compatible) | Up to 30 meters |
+| Speakon (speaker) | Up to 25 meters |
+| Microphone | Up to 20 meters |
+| Power extension | Up to 20 meters |
+| Sub box | 15 meters |
+| Power strip | Up to 15 meters |
+| IEC | 1.5 meters |
+
+Most villa terraces, ballrooms, and conference rooms fit comfortably within those lengths, particularly speaker and microphone runs, which have the most headroom. IEC cable is the one short entry in that list by design, it connects directly between an appliance and its own nearby power strip rather than spanning a room, so 1.5 meters is the right length for that job, not a limitation.
+
+## When a Difficult Site Adds an Installation Complement
+
+Here is the part most rental pages leave out entirely: cable management is included in every package's professional setup, but our own price list carries a real, separately valued installation complement for genuinely difficult sites, priced case by case, and our own inventory notes name the exact trigger for it, excessive cabling caused by site difficulty. That is not a hidden fee. It is an honest reflection of the fact that a straightforward hotel ballroom and a villa with 3 separate terrace levels and one distant power point are not the same job, even with the same package booked.
+
+In practice, this rarely surfaces. The vast majority of our bookings fall well inside the lengths in the table above, run through a normal room or garden layout, and the complement never comes up. Tell us your venue layout when you book, distance to power, number of levels, unusual access, and we will tell you honestly whether your site is likely to need it before your event date, not after.
+
+## What We Do Not Do
+
+Being honest about what "aesthetic cabling" includes also means being honest about what it does not. We do not trench or bury cable runs. That is permanent installation work, outside the delivery only model our entire business runs on: we deliver, install, test, and collect, we do not leave anything embedded in a venue after we leave. If your venue genuinely requires buried or under floor cable runs, that is a different service than what we offer.
+
+We also do not stock a named, branded cable ramp or raceway product. Our own inventory does not include one, and we would rather say that directly than let a page imply otherwise. What we do instead is the routing and taping described above, along walls and floor edges, out of primary walking paths, which covers the great majority of venues we work in without needing a dedicated ramp product.
+
+## Cable Management Outdoors
+
+An outdoor venue changes what cable routing has to work around, mainly ground surface and weather exposure, both covered in full in our [audio visual rental for outdoor events](/blog/audio-visual-rental-for-outdoor-events/) guide rather than repeated here. The short version for this page: our crew adapts the same routing and securing habits described above to grass, sand, or uneven terrace ground on site, rather than following one fixed method regardless of surface.
+
+## Real Setups We've Delivered
+
+![A power cable taped flat along a wooden floor, routed along the wall from a lectern setup to the nearest outlet, cables gathered at the base of the podium rather than left loose.](https://cdn.malagaeventgear.com/blog/1793/FTI-Consulting-Setup-audio-and-microphone-system-setup-768x1024.webp)
+
+The cable run behind a corporate lectern setup, taped flat along the floor and following the wall line rather than crossing the open walking path in front of it. This is the honest, unglamorous reality of "aesthetic cabling": careful routing and securing, not a hidden system.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1278/', '/1793/'])} speed="normal" direction="left" />
+</div>
+
+## How Far in Advance to Book
+
+All our bookings need at least 24 hours' notice, and that applies to cable planning as much as the equipment itself. If your venue has an unusual layout, a distant power point, multiple levels, or anything else that might touch the difficult site complement described above, tell us when you book rather than the day before, so we can plan the run and price it honestly ahead of time rather than adjusting on site. Demand for larger corporate and wedding bookings, where cable runs tend to be longer and more complex, peaks during wedding season, April through October, and during the Costa del Sol conference season.
+
+## Conclusion
+
+"Aesthetic cabling" is a real, standard inclusion on the [Eco Pack](/packages/eco/), [Wedding Pack](/packages/wedding/), [Basic MICE Pack](/packages/basic-mice/), and [MICE Pack](/packages/mice/), and a basic, if unnamed, part of the professional setup on the [Product Presentation Pack](/packages/product-presentation/) too. It means careful routing and securing of real cable, from an inventory that stocks runs up to 42 meters, delivered honestly, including the cases where a difficult site adds a real complement and the 2 things we genuinely do not do. [Contact us](/contact/) with your venue details, and for our full equipment range, see the [audio visual rental in Malaga guide](/blog/audio-visual-rental/).
+
+## FAQs
+
+### What does "aesthetic cabling" actually mean when I book a package?
+
+Careful, consistent cable routing along walls, furniture lines, or floor edges, with anything crossing a walking path taped flat and secured, done by the same crew that installs your equipment. See [What Aesthetic Cabling Actually Means](#what-aesthetic-cabling-actually-means) above.
+
+### Is cable management included in the price, or an extra charge?
+
+Included as standard on the [Eco Pack](/packages/eco/), [Wedding Pack](/packages/wedding/), [Basic MICE Pack](/packages/basic-mice/), and [MICE Pack](/packages/mice/), each of which names it directly in its includes list. The [Product Presentation Pack](/packages/product-presentation/)'s includes list does not name a separate cabling line, though basic routing is still part of every booking's professional setup. A genuinely difficult site or an unusually long cable run can trigger a real, separately valued installation complement, honestly disclosed here rather than left for the day of your event. See [Is Cable Management Included in Every Package](#is-cable-management-included-in-every-package) and [When a Difficult Site Adds an Installation Complement](#when-a-difficult-site-adds-an-installation-complement) above.
+
+### Do cables create a trip hazard at my event?
+
+That is exactly what the routing is meant to prevent: cables kept out of primary walking paths where possible, and taped flat wherever they do cross one. It is one of the 2 real reasons behind the "aesthetic cabling" line in our packages, alongside how the setup looks in photos. See [What Aesthetic Cabling Actually Means](#what-aesthetic-cabling-actually-means) above.
+
+### How do you route cables at an outdoor venue like a villa or beach club?
+
+The same routing and securing habits, adapted to whatever ground surface the venue has, grass, sand, or terrace paving. Our [audio visual rental for outdoor events](/blog/audio-visual-rental-for-outdoor-events/) guide covers ground surface and power planning outdoors in full. See [Cable Management Outdoors](#cable-management-outdoors) above.
+
+### What's the longest cable run MEG can set up?
+
+It depends on the cable type. Our inventory stocks VGA up to 42 meters, video up to 30 meters, speaker cable up to 25 meters, and microphone and power extension cable up to 20 meters each. See [How Far Can We Run a Cable](#how-far-can-we-run-a-cable) above for the full breakdown.
+
+### Will cables be visible in my wedding or event photos?
+
+We route cable specifically to minimize this, along walls and floor edges rather than through open sightlines, but we do not claim cables are ever fully invisible, only kept out of the way as far as the venue layout allows. See [What Aesthetic Cabling Actually Means](#what-aesthetic-cabling-actually-means) above.
+
+### Do you bury cables or use cable ramps for high traffic areas?
+
+No, honestly. We do not trench or bury cable runs, that is permanent installation work outside our delivery only model, and we do not stock a named cable ramp or raceway product. We route and tape cable flat along walls and floor edges instead. See [What We Do Not Do](#what-we-do-not-do) above.
+
+### Does weather affect how cables are managed outdoors?
+
+Yes, in the same way it affects the rest of an outdoor setup. Our [weather considerations for outdoor rentals](/blog/weather-considerations-for-outdoor-rentals/) guide covers how we plan around it in full rather than repeating it here.
+
+### What happens if a cable gets in the way or comes loose during my event?
+
+On a self run package with no technician on site, a cable knocked loose while moving a table or a stand is one of the most common causes of a sudden sound or connection issue. Our AV system troubleshooting guide covers what to check yourself if that happens mid event.
+
+### Is cable management different for a small party versus a large corporate event?
+
+The habits are the same, but the scale changes what there is to route. The [Eco Pack](/packages/eco/) has 2 speakers and 2 light bars to manage cable around. The [MICE Pack](/packages/mice/)'s catalog description calls out "custom wiring setup" specifically because a 60 inch display, dual microphones, and a longer event with an on-site technician managing the run throughout is a genuinely more complex job than a small party's setup. See [Is Cable Management Included in Every Package](#is-cable-management-included-in-every-package) above.

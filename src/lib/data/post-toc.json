@@ -4253,6 +4253,118 @@
       "level": 3
     }
   ],
+  "av-cable-management": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "what-aesthetic-cabling-actually-means",
+      "text": "What Aesthetic Cabling Actually Means",
+      "level": 2
+    },
+    {
+      "id": "is-cable-management-included-in-every-package",
+      "text": "Is Cable Management Included in Every Package",
+      "level": 2
+    },
+    {
+      "id": "how-far-can-we-run-a-cable",
+      "text": "How Far Can We Run a Cable",
+      "level": 2
+    },
+    {
+      "id": "when-a-difficult-site-adds-an-installation-complement",
+      "text": "When a Difficult Site Adds an Installation Complement",
+      "level": 2
+    },
+    {
+      "id": "what-we-do-not-do",
+      "text": "What We Do Not Do",
+      "level": 2
+    },
+    {
+      "id": "cable-management-outdoors",
+      "text": "Cable Management Outdoors",
+      "level": 2
+    },
+    {
+      "id": "real-setups-weve-delivered",
+      "text": "Real Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "how-far-in-advance-to-book",
+      "text": "How Far in Advance to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "what-does-aesthetic-cabling-actually-mean-when-i-book-a-package",
+      "text": "What does \"aesthetic cabling\" actually mean when I book a package?",
+      "level": 3
+    },
+    {
+      "id": "is-cable-management-included-in-the-price-or-an-extra-charge",
+      "text": "Is cable management included in the price, or an extra charge?",
+      "level": 3
+    },
+    {
+      "id": "do-cables-create-a-trip-hazard-at-my-event",
+      "text": "Do cables create a trip hazard at my event?",
+      "level": 3
+    },
+    {
+      "id": "how-do-you-route-cables-at-an-outdoor-venue-like-a-villa-or-beach-club",
+      "text": "How do you route cables at an outdoor venue like a villa or beach club?",
+      "level": 3
+    },
+    {
+      "id": "whats-the-longest-cable-run-meg-can-set-up",
+      "text": "What's the longest cable run MEG can set up?",
+      "level": 3
+    },
+    {
+      "id": "will-cables-be-visible-in-my-wedding-or-event-photos",
+      "text": "Will cables be visible in my wedding or event photos?",
+      "level": 3
+    },
+    {
+      "id": "do-you-bury-cables-or-use-cable-ramps-for-high-traffic-areas",
+      "text": "Do you bury cables or use cable ramps for high traffic areas?",
+      "level": 3
+    },
+    {
+      "id": "does-weather-affect-how-cables-are-managed-outdoors",
+      "text": "Does weather affect how cables are managed outdoors?",
+      "level": 3
+    },
+    {
+      "id": "what-happens-if-a-cable-gets-in-the-way-or-comes-loose-during-my-event",
+      "text": "What happens if a cable gets in the way or comes loose during my event?",
+      "level": 3
+    },
+    {
+      "id": "is-cable-management-different-for-a-small-party-versus-a-large-corporate-event",
+      "text": "Is cable management different for a small party versus a large corporate event?",
+      "level": 3
+    }
+  ],
   "all-in-one-wedding-rental-packages": [
     {
       "id": "brief-overview",
