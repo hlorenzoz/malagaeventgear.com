@@ -1974,6 +1974,128 @@
       "level": 3
     }
   ],
+  "audio-system-calibration": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "what-audio-system-calibration-actually-means",
+      "text": "What Audio System Calibration Actually Means",
+      "level": 2
+    },
+    {
+      "id": "gain-staging-in-plain-terms",
+      "text": "Gain Staging in Plain Terms",
+      "level": 2
+    },
+    {
+      "id": "why-every-venue-needs-different-calibration",
+      "text": "Why Every Venue Needs Different Calibration",
+      "level": 2
+    },
+    {
+      "id": "indoor-outdoor-and-guest-count-what-actually-changes",
+      "text": "Indoor, Outdoor and Guest Count: What Actually Changes",
+      "level": 2
+    },
+    {
+      "id": "same-real-equipment-calibrated-for-scale-our-console-range",
+      "text": "Same Real Equipment, Calibrated for Scale: Our Console Range",
+      "level": 2
+    },
+    {
+      "id": "the-midas-m32r-live-and-md16-calibration-on-larger-venues",
+      "text": "The Midas M32R Live and MD16: Calibration on Larger Venues",
+      "level": 2
+    },
+    {
+      "id": "calibration-in-the-field-the-bmotion-marbella-project",
+      "text": "Calibration in the Field: The Bmotion Marbella Project",
+      "level": 2
+    },
+    {
+      "id": "real-setups-weve-delivered",
+      "text": "Real Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "how-far-in-advance-to-book",
+      "text": "How Far in Advance to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "what-is-audio-system-calibration-in-plain-terms",
+      "text": "What is audio system calibration, in plain terms?",
+      "level": 3
+    },
+    {
+      "id": "what-is-gain-staging-and-why-does-it-matter",
+      "text": "What is gain staging, and why does it matter?",
+      "level": 3
+    },
+    {
+      "id": "why-does-the-same-equipment-need-different-calibration-at-different-venues",
+      "text": "Why does the same equipment need different calibration at different venues?",
+      "level": 3
+    },
+    {
+      "id": "does-an-outdoor-venue-get-calibrated-differently-than-an-indoor-one",
+      "text": "Does an outdoor venue get calibrated differently than an indoor one?",
+      "level": 3
+    },
+    {
+      "id": "does-guest-count-affect-calibration-and-if-so-how",
+      "text": "Does guest count affect calibration, and if so how?",
+      "level": 3
+    },
+    {
+      "id": "what-mixing-console-does-meg-use-for-calibration-and-does-it-depend-on-the-package",
+      "text": "What mixing console does MEG use for calibration, and does it depend on the package?",
+      "level": 3
+    },
+    {
+      "id": "what-is-the-midas-m32r-live-and-md16-stage-box-and-when-does-meg-use-it",
+      "text": "What is the Midas M32R Live and MD16 stage box, and when does MEG use it?",
+      "level": 3
+    },
+    {
+      "id": "does-calibration-include-video-or-screen-setup-too",
+      "text": "Does calibration include video or screen setup too?",
+      "level": 3
+    },
+    {
+      "id": "is-calibration-done-once-or-does-it-change-during-the-event",
+      "text": "Is calibration done once, or does it change during the event?",
+      "level": 3
+    },
+    {
+      "id": "do-i-need-to-be-there-while-my-equipment-is-calibrated",
+      "text": "Do I need to be there while my equipment is calibrated?",
+      "level": 3
+    },
+    {
+      "id": "how-far-in-advance-does-calibration-happen-relative-to-my-event-start-time",
+      "text": "How far in advance does calibration happen relative to my event start time?",
+      "level": 3
+    }
+  ],
   "benefits-of-audio-visual-rental": [
     {
       "id": "brief-overview",
