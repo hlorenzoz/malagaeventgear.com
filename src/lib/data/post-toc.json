@@ -2568,6 +2568,133 @@
       "level": 3
     }
   ],
+  "av-equipment-consultations": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "is-a-consultation-free",
+      "text": "Is a Consultation Free",
+      "level": 2
+    },
+    {
+      "id": "what-information-we-need-from-you",
+      "text": "What Information We Need From You",
+      "level": 2
+    },
+    {
+      "id": "the-package-to-event-decision-table",
+      "text": "The Package to Event Decision Table",
+      "level": 2
+    },
+    {
+      "id": "when-your-guest-count-falls-between-two-packages",
+      "text": "When Your Guest Count Falls Between Two Packages",
+      "level": 2
+    },
+    {
+      "id": "why-the-product-presentation-pack-has-no-guest-cap",
+      "text": "Why the Product Presentation Pack Has No Guest Cap",
+      "level": 2
+    },
+    {
+      "id": "does-your-venue-change-which-package-you-need",
+      "text": "Does Your Venue Change Which Package You Need",
+      "level": 2
+    },
+    {
+      "id": "basic-mice-pack-vs-mice-pack-the-real-difference",
+      "text": "Basic MICE Pack vs MICE Pack: The Real Difference",
+      "level": 2
+    },
+    {
+      "id": "do-you-need-a-technician-or-can-you-run-it-yourself",
+      "text": "Do You Need a Technician, or Can You Run It Yourself",
+      "level": 2
+    },
+    {
+      "id": "real-setups-weve-delivered",
+      "text": "Real Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "how-far-in-advance-to-book",
+      "text": "How Far in Advance to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "which-package-is-right-for-my-event",
+      "text": "Which package is right for my event?",
+      "level": 3
+    },
+    {
+      "id": "what-information-do-you-need-to-help-me-choose",
+      "text": "What information do you need to help me choose?",
+      "level": 3
+    },
+    {
+      "id": "is-the-consultation-free",
+      "text": "Is the consultation free?",
+      "level": 3
+    },
+    {
+      "id": "do-i-need-a-technician-included-or-can-i-run-the-equipment-myself",
+      "text": "Do I need a technician included, or can I run the equipment myself?",
+      "level": 3
+    },
+    {
+      "id": "my-guest-count-falls-between-two-packages-which-should-i-pick",
+      "text": "My guest count falls between two packages, which should I pick?",
+      "level": 3
+    },
+    {
+      "id": "why-doesnt-the-product-presentation-pack-list-a-guest-count",
+      "text": "Why doesn't the Product Presentation Pack list a guest count?",
+      "level": 3
+    },
+    {
+      "id": "whats-the-real-difference-between-the-basic-mice-pack-and-the-mice-pack",
+      "text": "What's the real difference between the Basic MICE Pack and the MICE Pack?",
+      "level": 3
+    },
+    {
+      "id": "does-my-venue-affect-which-package-i-should-choose",
+      "text": "Does my venue affect which package I should choose?",
+      "level": 3
+    },
+    {
+      "id": "how-far-in-advance-should-i-book-my-consultation",
+      "text": "How far in advance should I book my consultation?",
+      "level": 3
+    },
+    {
+      "id": "can-i-customize-a-package-after-ive-already-booked-it",
+      "text": "Can I customize a package after I've already booked it?",
+      "level": 3
+    },
+    {
+      "id": "what-if-im-not-sure-what-i-need-at-all",
+      "text": "What if I'm not sure what I need at all?",
+      "level": 3
+    }
+  ],
   "what-renting-av-gear-in-malaga-taught-me-about-smart-business": [
     {
       "id": "get-the-best-audio-visual-rentals-in-malaga-today",

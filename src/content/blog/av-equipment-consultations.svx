@@ -1,0 +1,201 @@
+---
+title: "AV Equipment Consultations in Malaga, Spain"
+description: "AV equipment consultations in Malaga: a free, package by package guest count and event type table, so you know which of our 5 packages fits before you book."
+author: Hector Luis Lorenzo
+slug: av-equipment-consultations
+publishDate: "2026-08-02"
+excerpt: "How to match your event to one of our 5 AV packages before you book anything: a real guest count and event type table built straight from our own catalog, what happens at the edges between packages, and what we actually need from you to help."
+coverImage: https://cdn.malagaeventgear.com/blog/1266/volvo_mice_event_setup-scaled.webp
+categories: [Audio Visual Rental, Corporate & Enterprise, Events]
+tags: []
+draft: false
+keyword: "AV equipment consultations"
+siloRole: supporting
+targetPage: "/blog/audio-visual-rental/"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Searching for AV equipment consultations mostly turns up generic checklists, "questions to ask your AV vendor" listicles that read the same for a wedding as for a product launch. That is not the actual decision most people are stuck on before they book with us. The real question is narrower: which of our 5 fixed packages fits your specific event, before we deliver a single speaker.
+
+Our [how to customize AV rental packages](/blog/how-to-customize-av-rental-packages/) guide already covers what happens after you have chosen one, the priced add on list. This page is the step before that: how to land on the right package in the first place, using the same guest counts, event types and technician rules that already live in our own catalog, just never assembled in one place until now.
+
+[Contact us](/contact/) with your event date, guest count and venue, and we will tell you honestly which package fits, no charge for asking.
+
+## Table of Contents
+
+-   [Brief Overview](#brief-overview)
+-   [Key Highlights](#key-highlights)
+-   [Is a Consultation Free](#is-a-consultation-free)
+-   [What Information We Need From You](#what-information-we-need-from-you)
+-   [The Package to Event Decision Table](#the-package-to-event-decision-table)
+-   [When Your Guest Count Falls Between Two Packages](#when-your-guest-count-falls-between-two-packages)
+-   [Why the Product Presentation Pack Has No Guest Cap](#why-the-product-presentation-pack-has-no-guest-cap)
+-   [Does Your Venue Change Which Package You Need](#does-your-venue-change-which-package-you-need)
+-   [Basic MICE Pack vs MICE Pack: The Real Difference](#basic-mice-pack-vs-mice-pack-the-real-difference)
+-   [Do You Need a Technician, or Can You Run It Yourself](#do-you-need-a-technician-or-can-you-run-it-yourself)
+-   [Real Setups We've Delivered](#real-setups-weve-delivered)
+-   [How Far in Advance to Book](#how-far-in-advance-to-book)
+-   [Conclusion](#conclusion)
+-   [FAQs](#faqs)
+    -   [Which package is right for my event?](#which-package-is-right-for-my-event)
+    -   [What information do you need to help me choose?](#what-information-do-you-need-to-help-me-choose)
+    -   [Is the consultation free?](#is-the-consultation-free)
+    -   [Do I need a technician included, or can I run the equipment myself?](#do-i-need-a-technician-included-or-can-i-run-the-equipment-myself)
+    -   [My guest count falls between two packages, which should I pick?](#my-guest-count-falls-between-two-packages-which-should-i-pick)
+    -   [Why doesn't the Product Presentation Pack list a guest count?](#why-doesnt-the-product-presentation-pack-list-a-guest-count)
+    -   [What's the real difference between the Basic MICE Pack and the MICE Pack?](#whats-the-real-difference-between-the-basic-mice-pack-and-the-mice-pack)
+    -   [Does my venue affect which package I should choose?](#does-my-venue-affect-which-package-i-should-choose)
+    -   [How far in advance should I book my consultation?](#how-far-in-advance-should-i-book-my-consultation)
+    -   [Can I customize a package after I've already booked it?](#can-i-customize-a-package-after-ive-already-booked-it)
+    -   [What if I'm not sure what I need at all?](#what-if-im-not-sure-what-i-need-at-all)
+
+## Brief Overview
+
+---
+
+An AV equipment consultation with Malaga Event Gear is a free conversation about which of our 5 fixed packages fits your event, using your real guest count, event type and venue, not a paid design service and not a blank equipment catalog to build from scratch. We built this guide because the decision itself, package against event, has never been laid out in one place before, even though every number behind it already exists in our own catalog.
+
+This page walks through the full decision table, what to do when your guest count lands between two packages, why one package skips the guest count question entirely, and what we actually need from you to give you a straight answer. [Contact us](/contact/) with your event details and we will tell you honestly which package fits.
+
+## Key Highlights
+
+---
+
+-   Asking us which package fits your event costs nothing on its own. Every package price in our catalog already covers delivery, setup and testing, there is no separate consultation fee anywhere in it.
+
+-   5 packages, 5 different guest count rules: 4 are capped by headcount, and one, the [Product Presentation Pack](/packages/product-presentation/), is decided by event type instead.
+
+-   A guest count sitting between two package caps is not a coin flip. Event type decides which way to lean, not the exact headcount.
+
+-   We need 4 things to help you properly: your event date, your venue location, your expected guest count, and whether you already have a package in mind or just a description of the event.
+
+-   This page is strictly about choosing a package before you book. For what happens once a technician is on site, see our technical support for events guide.
+
+## Is a Consultation Free
+
+Yes, plainly: telling us your event date, guest count and venue and asking which package fits costs nothing. Every price in our catalog, from the 290 euro [Eco Pack](/packages/eco/) up to the 650 euro [Wedding Pack](/packages/wedding/), already covers delivery, setup, testing and teardown. There is no separate line item anywhere in our pricing for the conversation that gets you to the right package in the first place, and we have never stated that plainly on this site until now.
+
+That matters because it changes how you should approach reaching out. You do not need to already know which package to book before you contact us. Describing your event, guest count and venue is enough, and matching it to one of our 5 packages is exactly what the rest of this page, and a real conversation with us, is for.
+
+<InlineCTA />
+
+## What Information We Need From You
+
+Getting an accurate answer back from us depends on 4 real pieces of information, the same 4 fields that already drive every quote we send: your event date, your venue location, your expected guest count, and the type of equipment or package you are interested in, whether that is a specific package name or just a description of what you are planning. We communicate primarily in English, and we are reachable by phone at 600 42 87 50, via WhatsApp, or by email.
+
+Once we have those 4 details, our process runs in the same 4 steps as any other booking: you tell us your event, we send a quote, we confirm the details together, and we deliver. Bookings need at least 24 hours' notice, so the earlier you reach out with those 4 details, the more room we have to get the package right the first time rather than adjusting it late.
+
+## The Package to Event Decision Table
+
+Here is the table that does not exist anywhere else on this site, or on any competitor's, despite every number in it already living in our own catalog: guest count, event type, technician rule and price, side by side, for all 5 packages.
+
+| Package | Price (ex VAT) | Guest Cap | What Decides It | Technician | Typical Event |
+| --- | --- | --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | 290 euros | Up to 50 guests | Guest count | Not offered, not even as an add on | Private party or social gathering |
+| [Basic MICE Pack](/packages/basic-mice/) | 295 euros | Up to 40 guests | Guest count | Paid add on, 240 euros per day | Small executive meeting or boardroom |
+| [Product Presentation Pack](/packages/product-presentation/) | 310 euros | No guest cap listed | Event type: corporate presentation, dealership showcase, or product launch | Not offered, not even as an add on | Presentation run by the presenter themselves |
+| [MICE Pack](/packages/mice/) | 490 euros | Up to 120 guests | Guest count | Included, up to 6 continuous hours, 40 euros per extra hour | Larger conference or product launch |
+| [Wedding Pack](/packages/wedding/) | 650 euros | Up to 80 guests | Guest count | Included, full event, no hour cap | Wedding ceremony through dancing |
+
+Ordered by price, the table also happens to order itself roughly by scale, which is not a coincidence: guest count and technician coverage both climb together as the price does, with the [Product Presentation Pack](/packages/product-presentation/) as the one deliberate exception in the middle. See our [packages page](/packages/) for the full equipment list behind each row.
+
+## When Your Guest Count Falls Between Two Packages
+
+The genuinely unaddressed question, and the one we get asked in some form on almost every call: what happens when your guest count sits between two caps, for example 45 to 55 guests, between the [Basic MICE Pack](/packages/basic-mice/)'s 40 guest cap and the [Eco Pack](/packages/eco/)'s 50 guest cap. The honest answer does not come from the numbers alone. It comes from what kind of event you are running.
+
+If it is a private party or social gathering at 45 to 55 guests, the [Eco Pack](/packages/eco/)'s 50 guest cap already covers you comfortably, watch the top end of that range rather than treating it as a hard wall. If it is a corporate meeting or presentation at that same headcount, the honest move is not to squeeze it into the [Basic MICE Pack](/packages/basic-mice/)'s 40 guest cap. That package's sound reinforcement is sized for a boardroom, not a room 5 to 15 guests past its limit. Step up to the [MICE Pack](/packages/mice/) instead, built for up to 120 guests, rather than stretching a package past the room size it was actually designed for.
+
+The general rule: being a handful of guests over or under a cap matters less than whether your event type matches the equipment. A party 5 guests over the Eco Pack's cap is a rounding error. A corporate meeting 5 guests over the Basic MICE Pack's cap is a signal to look at the next package up, not to round down.
+
+## Why the Product Presentation Pack Has No Guest Cap
+
+Every other package in our catalog lists a maximum guest count. The [Product Presentation Pack](/packages/product-presentation/) does not, and that is not a gap in our data, it is a deliberate difference in how that one package gets chosen. Its own catalog description names the events it is built for directly: a corporate presentation, a dealership showcase, or a product launch, decided by what the event actually is, not by how many chairs are in the room.
+
+The reasoning holds up once you look at what the package actually contains: a laser projector and screen, a small mixing console, and one wireless handheld microphone for whoever is presenting. That is scaled to a presenter and an audience watching a screen, a dealership showroom with 15 guests and a corporate presentation with 45 guests both use the same equipment the same way, projected visuals and one speaker's voice reinforced across the room. Guest count genuinely does not change what that setup needs to do. Event type does.
+
+## Does Your Venue Change Which Package You Need
+
+Venue type, indoor versus outdoor, a hotel ballroom versus a private villa versus an office, is a real input into your booking, but it rarely changes which package you need on its own. Guest count and event type decide the package first. Venue mostly decides what we plan around once that package is chosen: an outdoor villa wedding still uses the same [Wedding Pack](/packages/wedding/) as an indoor hotel ballroom wedding of the same size, but the venue changes how we plan cable runs and weather exposure, covered in full in our [audio visual rental for outdoor events](/blog/audio-visual-rental-for-outdoor-events/) guide.
+
+Where venue does matter directly is worth mentioning during your consultation regardless: a hotel ballroom may have its own AV restrictions or preferred vendor rules worth confirming ahead of time, and a private villa or garden setting affects power access and setup time in ways an indoor boardroom does not. Tell us your venue when you reach out, even though it is guest count and event type doing most of the work in matching you to a package.
+
+## Basic MICE Pack vs MICE Pack: The Real Difference
+
+Both the [Basic MICE Pack](/packages/basic-mice/) and the [MICE Pack](/packages/mice/) serve corporate meetings, which is exactly why the difference between them gets asked about often. The real gap is not just the guest cap, 40 against 120, it is what is standard versus optional. The Basic MICE Pack's projector, screen and gooseneck microphone are built for a small executive meeting where a technician is genuinely optional, hence the 240 euro per day add on rather than a standard inclusion. The MICE Pack adds a 60 inch LED display, a second wireless microphone, and a dedicated technician included as standard for up to 6 continuous hours, because a room built for up to 120 guests generally needs someone actively watching the levels, not an occasional check in.
+
+The price gap, 295 euros against 490 euros, reflects that difference in what is included, not just a bigger room. If your event is a small internal meeting under 40 guests where you are comfortable running your own laptop and slides, the Basic MICE Pack is genuinely enough. If you are inviting outside guests, running a longer agenda, or simply do not want to be the one watching a microphone level during your own presentation, the MICE Pack's included technician is the real reason to step up, not just the extra guest capacity.
+
+## Do You Need a Technician, or Can You Run It Yourself
+
+Whether a technician is worth having depends on how much attention you want free during your own event, not a fixed rule. Our AV technician hire guide covers the full package by package breakdown: included and uncapped on the [Wedding Pack](/packages/wedding/), included up to 6 hours on the [MICE Pack](/packages/mice/), a paid add on on the [Basic MICE Pack](/packages/basic-mice/), and not offered at all on the [Eco Pack](/packages/eco/) or [Product Presentation Pack](/packages/product-presentation/).
+
+If you choose one of the 3 packages with no technician on site, that does not mean you are on your own if something changes mid event. Our [AV system troubleshooting](/blog/av-system-troubleshooting/) guide walks through exactly what to check yourself, package by package, and we are reachable 24 hours a day if a quick check does not resolve it. Deciding whether you want that continuous technician coverage is worth raising during your consultation, since it can shift which package makes sense even at the same guest count.
+
+## Real Setups We've Delivered
+
+![A wider view of a Volvo dealership event in Malaga, with rows of stool seating arranged in front of the branded presentation desk.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-1536x1147.webp)
+
+The seating laid out ahead of the same dealership showcase event pictured on this page's cover, delivered for a Volvo dealer in Malaga, essentially the exact scenario the [Product Presentation Pack](/packages/product-presentation/) is built for: a dealership showcase decided by what the event is, not by how many guests attended.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1266/', '/1267/'])} speed="normal" direction="left" />
+</div>
+
+## How Far in Advance to Book
+
+All our bookings need at least 24 hours' notice, and that applies to the consultation itself as much as the equipment: the earlier you tell us your event date, guest count and venue, the more room we have to match you to the right package and confirm technician availability if you need one. If your event lands during wedding season, April through October, or during the conference season on the Costa del Sol, reach out as early as you can, since technician covered packages and larger MICE Pack bookings fill first during those stretches.
+
+## Conclusion
+
+Choosing the right AV package comes down to 3 real inputs: your guest count, your event type, and whether you want a technician on site, with venue mostly shaping the details once those 3 point you to a package. Asking us to help with that costs nothing on its own, every price in our catalog already covers delivery, setup and testing. [Contact us](/contact/) with your event date, guest count and venue, and we will tell you honestly which of our 5 packages fits. For the full equipment range behind every package on this page, see the [audio visual rental in Malaga guide](/blog/audio-visual-rental/).
+
+## FAQs
+
+### Which package is right for my event?
+
+It depends mainly on your guest count and event type: the [Eco Pack](/packages/eco/) for a party up to 50 guests, the [Basic MICE Pack](/packages/basic-mice/) for a meeting up to 40 guests, the [Product Presentation Pack](/packages/product-presentation/) for a presentation, dealership showcase or product launch regardless of headcount, the [MICE Pack](/packages/mice/) for a larger corporate event up to 120 guests, and the [Wedding Pack](/packages/wedding/) for a wedding up to 80 guests. See [The Package to Event Decision Table](#the-package-to-event-decision-table) above for the full breakdown.
+
+### What information do you need to help me choose?
+
+Your event date, your venue location, your expected guest count, and the type of equipment or package you are interested in, even if that is just a description of the event rather than a package name. See [What Information We Need From You](#what-information-we-need-from-you) above.
+
+### Is the consultation free?
+
+Yes. Asking which package fits your event costs nothing on its own, every package price already covers delivery, setup and testing, and there is no separate fee anywhere in our pricing for the conversation that gets you there. See [Is a Consultation Free](#is-a-consultation-free) above.
+
+### Do I need a technician included, or can I run the equipment myself?
+
+That depends on how much attention you want free during your event, not a fixed rule. Our AV technician hire guide has the full package by package breakdown, and our [AV system troubleshooting](/blog/av-system-troubleshooting/) guide covers what to check yourself on the 3 packages with no technician on site. See [Do You Need a Technician, or Can You Run It Yourself](#do-you-need-a-technician-or-can-you-run-it-yourself) above.
+
+### My guest count falls between two packages, which should I pick?
+
+Lean on event type, not the exact headcount. A party a few guests over the [Eco Pack](/packages/eco/)'s 50 guest cap is rarely a problem. A corporate meeting a few guests over the [Basic MICE Pack](/packages/basic-mice/)'s 40 guest cap is a signal to step up to the [MICE Pack](/packages/mice/) rather than round down. See [When Your Guest Count Falls Between Two Packages](#when-your-guest-count-falls-between-two-packages) above.
+
+### Why doesn't the Product Presentation Pack list a guest count?
+
+Because it is chosen by what your event is, a corporate presentation, dealership showcase, or product launch, rather than by how many people attend. Its projector, screen and single wireless microphone work the same way whether 15 or 45 guests are watching. See [Why the Product Presentation Pack Has No Guest Cap](#why-the-product-presentation-pack-has-no-guest-cap) above.
+
+### What's the real difference between the Basic MICE Pack and the MICE Pack?
+
+Beyond the guest cap, 40 against 120, the real difference is what is standard: the [MICE Pack](/packages/mice/) includes a technician for up to 6 continuous hours and a 60 inch LED display as standard, while the [Basic MICE Pack](/packages/basic-mice/) offers a technician only as a 240 euro per day add on. See [Basic MICE Pack vs MICE Pack](#basic-mice-pack-vs-mice-pack-the-real-difference) above.
+
+### Does my venue affect which package I should choose?
+
+Rarely on its own. Guest count and event type decide the package first, venue mostly shapes what we plan around afterward, cable runs and weather exposure outdoors, or AV restrictions at a hotel ballroom. See [Does Your Venue Change Which Package You Need](#does-your-venue-change-which-package-you-need) above.
+
+### How far in advance should I book my consultation?
+
+As early as you can once your event date is set. Bookings need at least 24 hours' notice at minimum, and reaching out earlier gives us more room to confirm the right package and technician availability, especially during wedding season from April through October. See [How Far in Advance to Book](#how-far-in-advance-to-book) above.
+
+### Can I customize a package after I've already booked it?
+
+Yes. Every package can be extended with priced add ons, projectors and screens, extra microphones, premium lecterns, staging, and additional technician hours. Our [how to customize AV rental packages](/blog/how-to-customize-av-rental-packages/) guide has the full priced list.
+
+### What if I'm not sure what I need at all?
+
+Describe your event rather than trying to guess a package name. Tell us your event date, guest count, venue and what kind of event it is, a party, a meeting, a presentation, or a wedding, and we will match it to one of our 5 packages for you. [Contact us](/contact/) and start from the event, not the catalog.
