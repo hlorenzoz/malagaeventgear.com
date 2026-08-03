@@ -8,6 +8,12 @@
 /basic-mice-pack               /packages/basic-mice/               301
 /mice-pack                     /packages/mice/                     301
 
+# Missing from the WP migration (found via GSC 404 coverage report, 2026-08-03): these WP root
+# URLs never got a redirect rule, unlike the rest of the migrated content.
+/hire-microphone-in-malaga/     /blog/headset-lavalier-microphone-rental/  301
+/hire-sound-system-in-malaga/   /blog/sound-system-rental/                 301
+/author/hector-luis-lorenzo/    /blog/author/hector-luis-lorenzo/          301
+
 # Retired posts with no honest AV angle (see silo consolidation, 2026-07-27):
 # both merge into the wedding-rentals pillar rather than staying as dead pages.
 /blog/wedding-linen-rental-services/     /blog/wedding-rentals/     301
