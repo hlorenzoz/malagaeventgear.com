@@ -228,7 +228,7 @@ PENDIENTE (Cloudflare dashboard, NO repo):
 
 3. (Opcional) Zaraz s.js aparece en staging sin cache TTL (7KB): revisar si se está usando; si no, desactivarlo.
 
-Verificación tras deploy + purge + toggle: npx lighthouse https://nuevo.malagaeventgear.com/blog/ --only-categories=performance --form-factor=mobile -> objetivo FCP <2.5s, LCP <3s, score >=85.
+Verificación tras deploy + purge + toggle: npx lighthouse https://malagaeventgear.com/blog/ --only-categories=performance --form-factor=mobile -> objetivo FCP <2.5s, LCP <3s, score >=85. (nuevo.malagaeventgear.com fue dado de baja, ya no resuelve; usar producción o localhost:4173).
 
 
 -- ✅ Home NO_LCP (PSI mobile: Performance Error! -> ~93)

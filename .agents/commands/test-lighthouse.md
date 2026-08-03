@@ -31,8 +31,8 @@ Antes de tocar nada, **cargá el skill `/lighthouse`** y tené disponible **`chr
    (LCP, FCP, CLS, TBT, render-blocking, etc.).
 
 4. **Diagnóstico profundo con `chrome-devtools-mcp`** para cada página que falle:
-   - Abrí la URL (localhost:4173 con el preview corriendo, o el deploy en
-     `https://nuevo.malagaeventgear.com`).
+   - Abrí la URL (localhost:4173 con el preview corriendo — `nuevo.malagaeventgear.com` ya no
+     existe, el subdominio de staging fue dado de baja).
    - Grabá un performance trace y analizá Core Web Vitals reales (LCP, INP, CLS), forced reflows,
      network dependency chains y recursos render-blocking.
    - Correlacioná el hallazgo del trace con el código fuente para ubicar la causa raíz.
