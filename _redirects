@@ -81,6 +81,28 @@
 /audio-visual-rental-for-seminars  /blog/audio-visual-rental-for-seminars/  301
 /audio-visual-rental-for-corporate-events  /blog/audio-visual-rental-for-corporate-events/  301
 
+# Retired: 6 near-duplicate 2024-09-18 "why choose MEG" filler posts sharing one recycled
+# template (same equipment list, same Costa del Sol riff, same boilerplate CTA), plus one
+# fabricated-looking testimonial not found in reviews.json. None targeted a real keyword with
+# genuine search intent worth a dedicated page. Consolidated into a genuinely uncovered gap
+# instead: none of MEG's 17 audio-visual-rental-for-<event-type> posts addressed private
+# parties, despite it being the Eco Pack's own stated core market (2026-08-03):
+/blog/malaga-event-solutions/  /blog/audio-visual-rental-for-private-parties/  301
+/blog/creating-unforgettable-events-in-malaga-with-top-quality-event-rentals/  /blog/audio-visual-rental-for-private-parties/  301
+/blog/elevate-your-event-with-malaga-event-gear-the-premier-choice-for-quality-rentals/  /blog/audio-visual-rental-for-private-parties/  301
+/blog/elevate-your-event-with-malaga-event-gear-premium-rentals-in-costa-del-sol/  /blog/audio-visual-rental-for-private-parties/  301
+/blog/unforgettable-experiences-the-ultimate-guide-to-event-rentals-in-malaga/  /blog/audio-visual-rental-for-private-parties/  301
+/blog/elevate-your-events-with-malaga-event-gear-top-quality-rentals-for-every-occasion/  /blog/audio-visual-rental-for-private-parties/  301
+
+# Retired: low-quality AI-generated legacy post (contaminated stock images from the confirmed
+# camera-equipment CDN range 1288-1306/1313, broken TOC/FAQ anchors, invented claims like
+# "24/7 support" and a false "Photo Booths, DJ Equipment" table row). content-gap-analyst
+# confirmed the exact search intent is already fully covered by how-audio-visual-rental-works.svx
+# (its own dedicated delivery/setup process page), the audio-visual-rental pillar's own
+# "Delivery, Setup and Teardown Included" section, and the public /faq/ page's delivery-setup
+# entry - no distinct angle remained to rewrite (2026-08-03):
+/blog/do-you-offer-delivery-and-setup-for-sound-equipment-in-malaga-spain/  /blog/how-audio-visual-rental-works/  301
+
 # BEGIN wp-blog-redirects (managed — do not edit manually)
 /news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/  /blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/  301
 /news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/  /blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/  301
@@ -128,7 +150,7 @@
 /audio-visual-rental-for-corporate-meetings/  /blog/audio-visual-rental-for-corporate-meetings/  301
 /how-to-choose-an-audio-visual-rental-service-for-weddings/  /blog/how-to-choose-an-audio-visual-rental-service-for-weddings/  301
 /how-to-set-up-rented-audio-visual-equipment-for-outdoor-events/  /blog/how-to-set-up-rented-audio-visual-equipment-for-outdoor-events/  301
-/do-you-offer-delivery-and-setup-for-sound-equipment-in-malaga-spain/  /blog/do-you-offer-delivery-and-setup-for-sound-equipment-in-malaga-spain/  301
+/do-you-offer-delivery-and-setup-for-sound-equipment-in-malaga-spain/  /blog/how-audio-visual-rental-works/  301
 /7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain/  /blog/7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain/  301
 /how-to-customize-av-rental-packages/  /blog/how-to-customize-av-rental-packages/  301
 /audio-visual-rental-for-conferences/  /blog/audio-visual-rental-for-conferences/  301
@@ -151,12 +173,12 @@
 /audio-visual-rental-for-weddings/  /blog/audio-visual-rental-for-weddings/  301
 /audio-visual-rental/  /blog/audio-visual-rental/  301
 /what-renting-av-gear-in-malaga-taught-me-about-smart-business/  /blog/what-renting-av-gear-in-malaga-taught-me-about-smart-business/  301
-/malaga-event-solutions/  /blog/malaga-event-solutions/  301
-/creating-unforgettable-events-in-malaga-with-top-quality-event-rentals/  /blog/creating-unforgettable-events-in-malaga-with-top-quality-event-rentals/  301
-/elevate-your-event-with-malaga-event-gear-the-premier-choice-for-quality-rentals/  /blog/elevate-your-event-with-malaga-event-gear-the-premier-choice-for-quality-rentals/  301
-/elevate-your-event-with-malaga-event-gear-premium-rentals-in-costa-del-sol/  /blog/elevate-your-event-with-malaga-event-gear-premium-rentals-in-costa-del-sol/  301
-/unforgettable-experiences-the-ultimate-guide-to-event-rentals-in-malaga/  /blog/unforgettable-experiences-the-ultimate-guide-to-event-rentals-in-malaga/  301
-/elevate-your-events-with-malaga-event-gear-top-quality-rentals-for-every-occasion/  /blog/elevate-your-events-with-malaga-event-gear-top-quality-rentals-for-every-occasion/  301
+/malaga-event-solutions/  /blog/audio-visual-rental-for-private-parties/  301
+/creating-unforgettable-events-in-malaga-with-top-quality-event-rentals/  /blog/audio-visual-rental-for-private-parties/  301
+/elevate-your-event-with-malaga-event-gear-the-premier-choice-for-quality-rentals/  /blog/audio-visual-rental-for-private-parties/  301
+/elevate-your-event-with-malaga-event-gear-premium-rentals-in-costa-del-sol/  /blog/audio-visual-rental-for-private-parties/  301
+/unforgettable-experiences-the-ultimate-guide-to-event-rentals-in-malaga/  /blog/audio-visual-rental-for-private-parties/  301
+/elevate-your-events-with-malaga-event-gear-top-quality-rentals-for-every-occasion/  /blog/audio-visual-rental-for-private-parties/  301
 /category/audio-visual-rental/  /blog/category/audio-visual-rental/  301
 /category/corporate-enterprise/  /blog/category/corporate-enterprise/  301
 /category/events/  /blog/category/events/  301
