@@ -2732,6 +2732,11 @@
       "level": 2
     },
     {
+      "id": "outdoor-use-power-and-honest-weather-limits",
+      "text": "Outdoor Use: Power and Honest Weather Limits",
+      "level": 2
+    },
+    {
       "id": "real-stage-lighting-setups-weve-delivered",
       "text": "Real Stage Lighting Setups We've Delivered",
       "level": 2
@@ -2794,6 +2799,11 @@
     {
       "id": "is-stage-lighting-available-for-outdoor-events",
       "text": "Is Stage Lighting Available for Outdoor Events?",
+      "level": 3
+    },
+    {
+      "id": "do-you-provide-power-for-outdoor-lighting-away-from-an-outlet",
+      "text": "Do You Provide Power for Outdoor Lighting Away From an Outlet?",
       "level": 3
     },
     {
