@@ -10,7 +10,7 @@ import { describe, it, expect } from 'vitest';
 import matter from 'gray-matter';
 import type { BlogPost, Category, Author } from '$lib/types/blog';
 import type { EventPackage } from '$lib/data/packages';
-import { validateSiloGraph, buildSiteMap } from './site-map';
+import { validateSiloGraph, buildSiteMap, extractBlogLinks, findStronglyConnectedComponents } from './site-map';
 
 // Contenido real leído con import.meta.glob (?raw) — no node:fs (AGENTS.md §3). No podemos
 // importar $lib/data/blog en un unit test: arrastra el módulo virtual `virtual:blog-meta`.
@@ -22,28 +22,36 @@ const rawPosts = import.meta.glob('../../content/blog/*.svx', {
 
 const FIXTURES = new Set(['draft-post-test-fixture', 'future-post-test-fixture']);
 
-/** BlogPost mínimos (solo campos de silo + url) desde el frontmatter real de cada .svx. */
-function realPosts(): BlogPost[] {
+/**
+ * BlogPost mínimos (campos de silo + url + blogLinks) desde el frontmatter y cuerpo real de
+ * cada .svx. `blogLinks` alimenta el chequeo de ciclos de interlinking lateral dentro de
+ * `validateSiloGraph` (ver `extractBlogLinks`).
+ */
+function realPosts(): (BlogPost & { blogLinks: string[] })[] {
 	const s = (v: unknown) => (v == null ? undefined : String(v));
 	return Object.entries(rawPosts)
 		.map(([path, src]) => ({ slug: path.split('/').pop()!.replace(/\.svx$/, ''), src }))
 		.filter(({ slug }) => !FIXTURES.has(slug))
 		.map(({ slug, src }) => {
-			const fm = matter(src).data as Record<string, unknown>;
+			const parsed = matter(src);
+			const fm = parsed.data as Record<string, unknown>;
 			return {
 				slug,
 				url: `/blog/${slug}/`,
 				siloRole: s(fm.siloRole),
 				targetPage: s(fm.targetPage),
-				keyword: s(fm.keyword)
-			} as BlogPost;
+				keyword: s(fm.keyword),
+				blogLinks: extractBlogLinks(parsed.content, slug)
+			} as BlogPost & { blogLinks: string[] };
 		});
 }
 
 describe('validateSiloGraph', () => {
-	it('every non-fixture post declares valid reverse silo metadata', () => {
+	it('every non-fixture post declares valid reverse silo metadata, and has no NEW interlinking cycles', () => {
 		// Reemplaza al viejo guard de scripts/site-graph: los dientes de validación sobreviven;
 		// la comparación byte-a-byte del artefacto committeado ya no aplica (el mapa deriva en vivo).
+		// La deuda preexistente de interlinking en malla (ver silo-cycle-debt.ts) ya está
+		// filtrada dentro de validateSiloGraph - este assert solo falla ante un ciclo NUEVO.
 		expect(validateSiloGraph(realPosts())).toEqual([]);
 	});
 
@@ -71,6 +79,95 @@ describe('validateSiloGraph', () => {
 	it('accepts a news post targeting the homepage', () => {
 		const posts = [{ slug: 'p', url: '/blog/p/', siloRole: 'news', targetPage: '/' }] as BlogPost[];
 		expect(validateSiloGraph(posts)).toEqual([]);
+	});
+
+	it('flags a cycle in the sibling interlinking graph', () => {
+		const posts = [
+			{ slug: 'a', url: '/blog/a/', siloRole: 'supporting', targetPage: '/blog/pillar/', blogLinks: ['b'] },
+			{ slug: 'b', url: '/blog/b/', siloRole: 'supporting', targetPage: '/blog/pillar/', blogLinks: ['c'] },
+			{ slug: 'c', url: '/blog/c/', siloRole: 'supporting', targetPage: '/blog/pillar/', blogLinks: ['a'] },
+			{ slug: 'pillar', url: '/blog/pillar/', siloRole: 'pillar', targetPage: '/', blogLinks: [] }
+		] as (BlogPost & { blogLinks: string[] })[];
+		const errors = validateSiloGraph(posts);
+		expect(errors.some((e) => e.includes('ciclo de interlinking'))).toBe(true);
+	});
+
+	it('accepts a chain (no cycle) in the sibling interlinking graph', () => {
+		const posts = [
+			{ slug: 'a', url: '/blog/a/', siloRole: 'supporting', targetPage: '/blog/pillar/', blogLinks: ['b'] },
+			{ slug: 'b', url: '/blog/b/', siloRole: 'supporting', targetPage: '/blog/pillar/', blogLinks: [] },
+			{ slug: 'pillar', url: '/blog/pillar/', siloRole: 'pillar', targetPage: '/', blogLinks: [] }
+		] as (BlogPost & { blogLinks: string[] })[];
+		expect(validateSiloGraph(posts)).toEqual([]);
+	});
+
+	it('does NOT flag a reciprocal 2-node edge between adjacent siblings (that IS the expected chain)', () => {
+		const posts = [
+			{ slug: 'a', url: '/blog/a/', siloRole: 'supporting', targetPage: '/blog/pillar/', blogLinks: ['b'] },
+			{ slug: 'b', url: '/blog/b/', siloRole: 'supporting', targetPage: '/blog/pillar/', blogLinks: ['a'] },
+			{ slug: 'pillar', url: '/blog/pillar/', siloRole: 'pillar', targetPage: '/', blogLinks: [] }
+		] as (BlogPost & { blogLinks: string[] })[];
+		expect(validateSiloGraph(posts)).toEqual([]);
+	});
+});
+
+describe('extractBlogLinks', () => {
+	it('extracts internal blog post links, deduplicated, excluding self-references', () => {
+		const body = `See [Sibling A](/blog/sibling-a/) and again [Sibling A](/blog/sibling-a/). Also [Self](/blog/self/) and [Sibling B](/blog/sibling-b/).`;
+		expect(extractBlogLinks(body, 'self')).toEqual(['sibling-a', 'sibling-b']);
+	});
+
+	it('does not match category or author archive links', () => {
+		const body = `[Category](/blog/category/wedding/) and [Author](/blog/author/hector/).`;
+		expect(extractBlogLinks(body, 'x')).toEqual([]);
+	});
+});
+
+describe('findStronglyConnectedComponents', () => {
+	it('finds a simple 3-node cycle as one component', () => {
+		const graph = new Map([
+			['a', ['b']],
+			['b', ['c']],
+			['c', ['a']]
+		]);
+		const components = findStronglyConnectedComponents(graph).filter((c) => c.length > 1);
+		expect(components.length).toBe(1);
+		expect(new Set(components[0])).toEqual(new Set(['a', 'b', 'c']));
+	});
+
+	it('finds no multi-node components in a DAG', () => {
+		const graph = new Map([
+			['a', ['b', 'c']],
+			['b', ['c']],
+			['c', []]
+		]);
+		const components = findStronglyConnectedComponents(graph).filter((c) => c.length > 1);
+		expect(components).toEqual([]);
+	});
+
+	it('reports a 2-node reciprocal edge as its own component too (pure graph theory - validateSiloGraph decides what to do with size-2)', () => {
+		const graph = new Map([
+			['a', ['b']],
+			['b', ['a']]
+		]);
+		const components = findStronglyConnectedComponents(graph).filter((c) => c.length > 1);
+		expect(components.length).toBe(1);
+		expect(new Set(components[0])).toEqual(new Set(['a', 'b']));
+	});
+
+	it('collapses a densely meshed cluster into ONE component, not many overlapping simple-cycle paths', () => {
+		// Este es el caso real que motivó preferir SCC sobre enumerar ciclos simples: un DFS
+		// ingenuo sobre un cluster así reporta docenas de "ciclos" distintos (un camino por
+		// cada orden de recorrido posible), pero es siempre el mismo grupo de nodos.
+		const graph = new Map([
+			['a', ['b', 'c']],
+			['b', ['c', 'd']],
+			['c', ['d', 'a']],
+			['d', ['a', 'b']]
+		]);
+		const components = findStronglyConnectedComponents(graph).filter((c) => c.length > 1);
+		expect(components.length).toBe(1);
+		expect(new Set(components[0])).toEqual(new Set(['a', 'b', 'c', 'd']));
 	});
 });
 
