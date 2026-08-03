@@ -4,7 +4,7 @@ description: "AV system troubleshooting in Malaga for self run packages: what to
 author: Hector Luis Lorenzo
 slug: av-system-troubleshooting
 publishDate: "2026-08-01"
-updatedDate: "2026-08-02"
+updatedDate: "2026-08-03"
 excerpt: "What to check yourself if a self run AV package stops working mid event: the Eco Pack, Product Presentation Pack and Basic MICE Pack without the technician add on, checked package by package."
 coverImage: https://cdn.malagaeventgear.com/blog/1277/high_care_hospital_marbella_conference_setup_1-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
@@ -23,7 +23,7 @@ targetPage: "/blog/audio-visual-rental/"
 
 Searching for AV system troubleshooting usually assumes a technician already sorted it, or a permanently installed office system you own. Neither describes the situation this guide is actually for: you rented one of our packages, no technician is on site, and something has stopped working the way it did when our crew left.
 
-Our [technical support for events](/blog/technical-support-for-events/) and [AV technician hire](/blog/av-technician-hire/) guides already cover the other scenario in depth: what our crew does when a technician is part of your booking. This page is specifically for the packages where no one is watching the levels for you, the [Eco Pack](/packages/eco/), the [Product Presentation Pack](/packages/product-presentation/), and the [Basic MICE Pack](/packages/basic-mice/) if you did not add the technician option. What to check yourself, package by package, before you assume anything is actually broken.
+Our technical support for events and [AV technician hire](/blog/av-technician-hire/) guides already cover the other scenario in depth: what our crew does when a technician is part of your booking. This page is specifically for the packages where no one is watching the levels for you, the [Eco Pack](/packages/eco/), the [Product Presentation Pack](/packages/product-presentation/), and the [Basic MICE Pack](/packages/basic-mice/) if you did not add the technician option. What to check yourself, package by package, before you assume anything is actually broken.
 
 [Book now](/packages/) and confirm which of our packages puts you in charge of running the equipment.
 
@@ -77,7 +77,7 @@ This guide walks through what our crew already tested before leaving, what to lo
 
 ## Running Your Own Equipment: Which Packages Are Self Run
 
-Not every package puts a technician on site, and the split is not close to even. Looking at our full catalog: the [Wedding Pack](/packages/wedding/) includes a technician for the whole event, and the [MICE Pack](/packages/mice/) includes one for up to 6 continuous hours. Neither of those is what this page is about. Our [technical support for events](/blog/technical-support-for-events/) guide covers what that technician actually does, phase by phase, if either of those describes your booking.
+Not every package puts a technician on site, and the split is not close to even. Looking at our full catalog: the [Wedding Pack](/packages/wedding/) includes a technician for the whole event, and the [MICE Pack](/packages/mice/) includes one for up to 6 continuous hours. Neither of those is what this page is about. Our technical support for events guide covers what that technician actually does, phase by phase, if either of those describes your booking.
 
 This page covers the other three packages instead:
 
@@ -147,7 +147,7 @@ Check the obvious first: cables, gain, battery, input selection. If that does no
 
 ## Want a Technician Instead of Troubleshooting It Yourself
 
-If reading this makes you wish someone else was handling it, that is a real option on two of these three packages. Our [AV technician hire](/blog/av-technician-hire/) guide covers which package to add one to and what it costs, and our [technical support for events](/blog/technical-support-for-events/) guide covers what that technician actually does once they are on site. The [Basic MICE Pack](/packages/basic-mice/) can add one for 240 euros per day. The [Eco Pack](/packages/eco/) and [Product Presentation Pack](/packages/product-presentation/) do not offer one at any price, so if a technician is a hard requirement for your event, the [Wedding Pack](/packages/wedding/) or [MICE Pack](/packages/mice/) are the packages that include one as standard instead. And if you have not booked yet at all, our [AV equipment consultations](/blog/av-equipment-consultations/) guide covers matching your event to the right package before you get to this page.
+If reading this makes you wish someone else was handling it, that is a real option on two of these three packages. Our [AV technician hire](/blog/av-technician-hire/) guide covers which package to add one to and what it costs, and our technical support for events guide covers what that technician actually does once they are on site. The [Basic MICE Pack](/packages/basic-mice/) can add one for 240 euros per day. The [Eco Pack](/packages/eco/) and [Product Presentation Pack](/packages/product-presentation/) do not offer one at any price, so if a technician is a hard requirement for your event, the [Wedding Pack](/packages/wedding/) or [MICE Pack](/packages/mice/) are the packages that include one as standard instead. And if you have not booked yet at all, our [AV equipment consultations](/blog/av-equipment-consultations/) guide covers matching your event to the right package before you get to this page.
 
 ## Is Troubleshooting Different Outdoors
 
@@ -169,7 +169,7 @@ All our bookings need at least 24 hours' notice, self run packages included. If 
 
 ## Conclusion
 
-AV system troubleshooting for a self run Malaga Event Gear package starts from one honest fact: it worked when our crew left, because we deliver, install and test everything before we go, even on the [Eco Pack](/packages/eco/), [Product Presentation Pack](/packages/product-presentation/) and [Basic MICE Pack](/packages/basic-mice/) without the add on. What to check depends on what your package actually has, a console and wireless mic on one, a wired podium mic and projector on another, and cables on all three. [Contact us](/contact/) if a quick check does not resolve it, we are available around the clock. For the technician managed version of this instead, see our [technical support for events](/blog/technical-support-for-events/) and [AV technician hire](/blog/av-technician-hire/) guides, or for our full equipment range, see the [audio visual rental in Malaga guide](/blog/audio-visual-rental/).
+AV system troubleshooting for a self run Malaga Event Gear package starts from one honest fact: it worked when our crew left, because we deliver, install and test everything before we go, even on the [Eco Pack](/packages/eco/), [Product Presentation Pack](/packages/product-presentation/) and [Basic MICE Pack](/packages/basic-mice/) without the add on. What to check depends on what your package actually has, a console and wireless mic on one, a wired podium mic and projector on another, and cables on all three. [Contact us](/contact/) if a quick check does not resolve it, we are available around the clock. For the technician managed version of this instead, see our technical support for events and [AV technician hire](/blog/av-technician-hire/) guides, or for our full equipment range, see the [audio visual rental in Malaga guide](/blog/audio-visual-rental/).
 
 ## FAQs
 
