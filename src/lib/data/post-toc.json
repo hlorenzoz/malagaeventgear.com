@@ -4094,6 +4094,88 @@
       "level": 3
     }
   ],
+  "stage-lighting-for-weddings": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "your-wedding-moment-by-moment",
+      "text": "Your Wedding, Moment by Moment",
+      "level": 2
+    },
+    {
+      "id": "a-band-dj-booth-or-speeches-stage",
+      "text": "A Band, DJ Booth or Speeches Stage",
+      "level": 2
+    },
+    {
+      "id": "wedding-pack-eco-pack-or-a-separate-quote",
+      "text": "Wedding Pack, Eco Pack or a Separate Quote",
+      "level": 2
+    },
+    {
+      "id": "real-weddings-weve-delivered",
+      "text": "Real Weddings We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "how-far-in-advance-to-book",
+      "text": "How Far in Advance to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "how-is-this-different-from-your-general-wedding-lighting-guide",
+      "text": "How Is This Different From Your General Wedding Lighting Guide?",
+      "level": 3
+    },
+    {
+      "id": "can-you-light-a-live-band-or-dj-booth-at-a-wedding",
+      "text": "Can You Light a Live Band or DJ Booth at a Wedding?",
+      "level": 3
+    },
+    {
+      "id": "how-many-uplights-do-i-need-for-my-ceremony-backdrop",
+      "text": "How Many Uplights Do I Need for My Ceremony Backdrop?",
+      "level": 3
+    },
+    {
+      "id": "is-stage-lighting-included-in-the-wedding-pack-or-a-separate-quote",
+      "text": "Is Stage Lighting Included in the Wedding Pack, or a Separate Quote?",
+      "level": 3
+    },
+    {
+      "id": "do-you-offer-moving-head-or-dmx-programmable-lighting-for-weddings",
+      "text": "Do You Offer Moving Head or DMX Programmable Lighting for Weddings?",
+      "level": 3
+    },
+    {
+      "id": "does-a-finca-villa-terrace-marquee-or-ballroom-change-what-you-recommend",
+      "text": "Does a Finca, Villa Terrace, Marquee or Ballroom Change What You Recommend?",
+      "level": 3
+    },
+    {
+      "id": "does-wedding-stage-lighting-include-a-technician",
+      "text": "Does Wedding Stage Lighting Include a Technician?",
+      "level": 3
+    }
+  ],
   "how-to-set-up-rented-audio-visual-equipment-for-outdoor-events": [
     {
       "id": "brief-overview",
