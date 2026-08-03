@@ -2695,6 +2695,123 @@
       "level": 3
     }
   ],
+  "stage-lighting-rental": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "the-full-stage-lighting-roster-every-real-fixture-we-stock-by-brand-and-model",
+      "text": "The Full Stage Lighting Roster: Every Real Fixture We Stock, By Brand and Model",
+      "level": 2
+    },
+    {
+      "id": "foot-pedal-control-not-dmx-what-programmable-actually-means-here",
+      "text": "Foot Pedal Control, Not DMX: What \"Programmable\" Actually Means Here",
+      "level": 2
+    },
+    {
+      "id": "delivery-setup-testing-and-collection-what-we-mean-by-stage-lighting-installation",
+      "text": "Delivery, Setup, Testing and Collection: What We Mean By \"Stage Lighting Installation\"",
+      "level": 2
+    },
+    {
+      "id": "stage-lighting-by-package-pricing-and-what-each-one-includes",
+      "text": "Stage Lighting by Package: Pricing and What Each One Includes",
+      "level": 2
+    },
+    {
+      "id": "what-we-dont-stock",
+      "text": "What We Don't Stock",
+      "level": 2
+    },
+    {
+      "id": "real-stage-lighting-setups-weve-delivered",
+      "text": "Real Stage Lighting Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "how-far-in-advance-to-book",
+      "text": "How Far in Advance to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "what-stage-lighting-equipment-does-meg-actually-stock",
+      "text": "What Stage Lighting Equipment Does MEG Actually Stock?",
+      "level": 3
+    },
+    {
+      "id": "is-your-stage-lighting-dmx-controlled-or-programmable",
+      "text": "Is Your Stage Lighting DMX Controlled or Programmable?",
+      "level": 3
+    },
+    {
+      "id": "do-you-offer-moving-head-or-intelligent-lighting-fixtures",
+      "text": "Do You Offer Moving Head or Intelligent Lighting Fixtures?",
+      "level": 3
+    },
+    {
+      "id": "is-delivery-setup-and-collection-included-or-is-installation-billed-separately",
+      "text": "Is Delivery, Setup and Collection Included, or Is Installation Billed Separately?",
+      "level": 3
+    },
+    {
+      "id": "how-much-does-stage-lighting-rental-cost-in-malaga",
+      "text": "How Much Does Stage Lighting Rental Cost in Malaga?",
+      "level": 3
+    },
+    {
+      "id": "what-is-the-difference-between-stage-lighting-and-stage-uplighting",
+      "text": "What Is the Difference Between Stage Lighting and Stage Uplighting?",
+      "level": 3
+    },
+    {
+      "id": "can-stage-lighting-be-rented-without-a-full-sound-or-staging-package",
+      "text": "Can Stage Lighting Be Rented Without a Full Sound or Staging Package?",
+      "level": 3
+    },
+    {
+      "id": "is-stage-lighting-available-for-outdoor-events",
+      "text": "Is Stage Lighting Available for Outdoor Events?",
+      "level": 3
+    },
+    {
+      "id": "how-far-in-advance-should-i-book-stage-lighting-for-a-wedding-or-corporate-event",
+      "text": "How Far in Advance Should I Book Stage Lighting for a Wedding or Corporate Event?",
+      "level": 3
+    },
+    {
+      "id": "does-stage-lighting-rental-include-a-technician-or-do-i-run-it-myself",
+      "text": "Does Stage Lighting Rental Include a Technician, or Do I Run It Myself?",
+      "level": 3
+    },
+    {
+      "id": "is-wireless-stage-lighting-the-same-as-your-uplighting-kit",
+      "text": "Is \"Wireless Stage Lighting\" the Same as Your Uplighting Kit?",
+      "level": 3
+    },
+    {
+      "id": "can-stage-lighting-be-combined-with-staging-platforms-for-a-corporate-presentation",
+      "text": "Can Stage Lighting Be Combined With Staging Platforms for a Corporate Presentation?",
+      "level": 3
+    }
+  ],
   "what-renting-av-gear-in-malaga-taught-me-about-smart-business": [
     {
       "id": "get-the-best-audio-visual-rentals-in-malaga-today",

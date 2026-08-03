@@ -861,6 +861,56 @@
       "answer": "Describe your event rather than trying to guess a package name. Tell us your event date, guest count, venue and what kind of event it is, a party, a meeting, a presentation, or a wedding, and we will match it to one of our 5 packages for you. Contact us and start from the event, not the catalog."
     }
   ],
+  "stage-lighting-rental": [
+    {
+      "question": "What Stage Lighting Equipment Does MEG Actually Stock?",
+      "answer": "Five real products: 2 Eurolite LED KLS-200 light bars, 1 ADJ Encore FRI50Z Fresnel, 1 ADJ Element H6 Pack (6 wireless uplights), 2 RGBW LED light bars on the Eco Pack, and fairy lights on the Wedding Pack. See The Full Stage Lighting Roster above."
+    },
+    {
+      "question": "Is Your Stage Lighting DMX Controlled or Programmable?",
+      "answer": "No. The Eurolite bar runs on a foot pedal, the Fresnel is a fixed zoom wash light with no automated movement, and the uplighting kit's color is set by our technician on site, not through a DMX signal or an app. See Foot Pedal Control, Not DMX above."
+    },
+    {
+      "question": "Do You Offer Moving Head or Intelligent Lighting Fixtures?",
+      "answer": "No. We do not own DMX pan and tilt robotic fixtures. See What We Don't Stock above."
+    },
+    {
+      "question": "Is Delivery, Setup and Collection Included, or Is Installation Billed Separately?",
+      "answer": "Included, for every fixture on this page. We do not have a separate \"installation\" business line: our crew delivers, positions, tests and collects the equipment as part of the rental. See Delivery, Setup, Testing and Collection above."
+    },
+    {
+      "question": "How Much Does Stage Lighting Rental Cost in Malaga?",
+      "answer": "It depends on the fixture. The RGBW light bars are included at 290 euros ex VAT on the Eco Pack, and the fairy lights are included at 650 euros ex VAT on the Wedding Pack. The Eurolite bars, the Fresnel and the uplighting kit have no published a la carte price: contact us with your event details for a quote. See Stage Lighting by Package above."
+    },
+    {
+      "question": "What Is the Difference Between Stage Lighting and Stage Uplighting?",
+      "answer": "Stage lighting, on this page, covers our full fixture roster: the Eurolite bars, the Fresnel, the RGBW spotlights and the uplighting kit together. Uplighting specifically is our ADJ Element H6 Pack, a wireless kit that washes a wall or structure with color from the floor, distinct from the Eurolite bar or Fresnel, which are fixed position wash and accent fixtures. We publish a deeper, dedicated guide on our uplighting kit alone, covering realistic venue coverage and outdoor use in more depth than this page does."
+    },
+    {
+      "question": "Can Stage Lighting Be Rented Without a Full Sound or Staging Package?",
+      "answer": "Yes, for the 3 fixtures that are not bundled into a package: the Eurolite bars, the Fresnel and the uplighting kit are all separate, quote on request items. The RGBW spotlights and fairy lights, however, are only available as part of the Eco Pack and Wedding Pack respectively, not as standalone rentals."
+    },
+    {
+      "question": "Is Stage Lighting Available for Outdoor Events?",
+      "answer": "Yes, with an honest caveat. We have not confirmed a weatherproof or IP rating for any of our 3 specialty fixtures, so we do not market them as rated outdoor equipment. In practice, our technician assesses conditions on site, places fixtures around whatever shelter the venue offers, and recommends a covered backup position if rain is a real risk on your date."
+    },
+    {
+      "question": "How Far in Advance Should I Book Stage Lighting for a Wedding or Corporate Event?",
+      "answer": "As early as your date is confirmed. Demand peaks during wedding season, from April through October, and 2 of our 5 fixtures exist in very limited quantity, 2 Eurolite bars and 6 uplights total, so early booking matters more here than for higher volume equipment. See How Far in Advance to Book above."
+    },
+    {
+      "question": "Does Stage Lighting Rental Include a Technician, or Do I Run It Myself?",
+      "answer": "It depends on the fixture. The Eco Pack's RGBW light bars are set up and tested by our crew, then run without a technician for the rest of your event. The Wedding Pack's fairy lights come with a technician on site for the event. The Eurolite bars, Fresnel and uplighting kit are deployed with a technician who manages placement and, for the uplighting kit, color."
+    },
+    {
+      "question": "Is \"Wireless Stage Lighting\" the Same as Your Uplighting Kit?",
+      "answer": "Yes, all three search phrases point at the same real product in our catalog. We stock exactly one wireless lighting kit, the ADJ Element H6 Pack of 6 battery powered fixtures, so \"wireless stage lighting,\" \"stage uplighting\" and \"wireless uplighting\" all resolve to that single item, not three different products."
+    },
+    {
+      "question": "Can Stage Lighting Be Combined With Staging Platforms for a Corporate Presentation?",
+      "answer": "Yes. Our MICE Pack offers modular stage platforms as an optional add on at 35 euros per square meter, delivered, set up and collected the same way as our lighting fixtures. Contact us with your venue and we will confirm what combination fits your presentation."
+    }
+  ],
   "questions-to-ask-wedding-rental-companies": [
     {
       "question": "What should I ask before booking wedding AV rentals?",
