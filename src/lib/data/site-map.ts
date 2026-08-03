@@ -12,6 +12,7 @@
 
 import type { BlogPost, Category, Author } from '$lib/types/blog';
 import type { EventPackage } from '$lib/data/packages';
+import { KNOWN_SILO_CYCLE_DEBT } from '$lib/data/silo-cycle-debt';
 
 export const SILO_ROLES = ['pillar', 'supporting', 'both', 'news', 'standalone'] as const;
 export type SiloRole = (typeof SILO_ROLES)[number];
@@ -117,10 +118,90 @@ export interface SiteMapInput {
 // --- Validación del reverse silo (dientes que antes tenía el guard) --------
 
 /**
+ * Regex de links internos a otro post del blog dentro del cuerpo markdown: `](/blog/<slug>/)`.
+ * No matchea `/blog/category/<slug>/` ni `/blog/author/<slug>/` porque el segmento capturado
+ * no puede contener otra barra antes del `/)` de cierre.
+ */
+const BLOG_LINK_RE = /\]\(\/blog\/([a-z0-9-]+)\/\)/g;
+
+/**
+ * Extrae, deduplicados, los slugs de otros posts linkeados desde el cuerpo markdown de un post
+ * (excluye auto-referencias). Usado para construir el grafo de interlinking lateral entre
+ * siblings de un mismo silo, algo que el frontmatter (`siloRole`/`targetPage`) no expresa.
+ */
+export function extractBlogLinks(body: string, ownSlug: string): string[] {
+	const found = new Set<string>();
+	for (const m of body.matchAll(BLOG_LINK_RE)) {
+		if (m[1] !== ownSlug) found.add(m[1]);
+	}
+	return [...found];
+}
+
+/**
+ * Componentes fuertemente conexas de un grafo dirigido (Tarjan). Un nodo aislado o una cadena
+ * lineal produce solo componentes de tamaño 1 (sin interés); una componente de tamaño >= 2
+ * significa que esos nodos son mutuamente alcanzables entre sí, es decir, hay al menos un
+ * ciclo entre ellos. Se prefiere sobre enumerar ciclos simples uno por uno: un grafo con un
+ * grupo de nodos densamente enlazado entre sí puede tener cientos de ciclos simples distintos
+ * (cada camino de recorrido produce uno "nuevo"), pero siempre la MISMA componente - por eso
+ * la componente es la unidad estable para trackear como "deuda conocida" en un baseline.
+ */
+export function findStronglyConnectedComponents(graph: Map<string, string[]>): string[][] {
+	let index = 0;
+	const indices = new Map<string, number>();
+	const lowlink = new Map<string, number>();
+	const onStack = new Set<string>();
+	const stack: string[] = [];
+	const components: string[][] = [];
+
+	function strongconnect(v: string) {
+		indices.set(v, index);
+		lowlink.set(v, index);
+		index++;
+		stack.push(v);
+		onStack.add(v);
+
+		for (const w of graph.get(v) ?? []) {
+			if (!indices.has(w)) {
+				strongconnect(w);
+				lowlink.set(v, Math.min(lowlink.get(v)!, lowlink.get(w)!));
+			} else if (onStack.has(w)) {
+				lowlink.set(v, Math.min(lowlink.get(v)!, indices.get(w)!));
+			}
+		}
+
+		if (lowlink.get(v) === indices.get(v)) {
+			const component: string[] = [];
+			let w: string;
+			do {
+				w = stack.pop()!;
+				onStack.delete(w);
+				component.push(w);
+			} while (w !== v);
+			components.push(component);
+		}
+	}
+
+	for (const node of graph.keys()) {
+		if (!indices.has(node)) strongconnect(node);
+	}
+
+	return components;
+}
+
+/**
  * Valida los posts contra el contrato de reverse silo. Devuelve la lista de violaciones
  * (vacía = OK). Opera sobre BlogPost (url ya derivada), no sobre el frontmatter crudo.
+ *
+ * Además de siloRole/targetPage, detecta ciclos NUEVOS en el grafo de interlinking lateral
+ * (`blogLinks`, si el caller lo provee - ver `extractBlogLinks`): la regla "cadena, no
+ * todos-con-todos" (AGENTS.md) exige que los siblings de un silo se linkeen en cadena hacia el
+ * pilar, nunca formando un circuito. Sin `blogLinks` este chequeo simplemente no encuentra
+ * ciclos (no rompe callers que no lo proveen). "Nuevos" porque el sitio real tiene deuda
+ * preexistente (ver `silo-cycle-debt.ts`) que este chequeo NO exige resolver de una - solo
+ * evita que un componente NUEVO (no listado en el baseline) se cuele sin ser notado.
  */
-export function validateSiloGraph(posts: BlogPost[]): string[] {
+export function validateSiloGraph(posts: (BlogPost & { blogLinks?: string[] })[]): string[] {
 	const errors: string[] = [];
 	const urls = new Set(posts.map((p) => p.url));
 	urls.add('/'); // el home es un target válido para los pilares
@@ -158,6 +239,21 @@ export function validateSiloGraph(posts: BlogPost[]): string[] {
 		if (role === 'news' && p.targetPage !== '/') {
 			errors.push(`${where}: siloRole "news" debe apuntar al home ('/'), no a "${p.targetPage}"`);
 		}
+	}
+
+	const linkGraph = new Map<string, string[]>();
+	for (const p of posts) linkGraph.set(p.slug, p.blogLinks ?? []);
+	const knownDebt = new Set(KNOWN_SILO_CYCLE_DEBT);
+	for (const component of findStronglyConnectedComponents(linkGraph)) {
+		// Un par reciproco entre 2 siblings adyacentes ES la cadena esperada (AGENTS.md
+		// "cadena, no todos-con-todos"), no un error. Solo una componente de 3+ nodos indica
+		// que el interlinking lateral dejó de ser una cadena y se volvió una malla.
+		if (component.length < 3) continue;
+		const signature = [...component].sort().join('|');
+		if (knownDebt.has(signature)) continue; // deuda preexistente ya documentada, no bloquea
+		errors.push(
+			`ciclo de interlinking detectado entre siblings (grupo de ${component.length} nodos): ${[...component].sort().join(', ')}`
+		);
 	}
 
 	return errors;
