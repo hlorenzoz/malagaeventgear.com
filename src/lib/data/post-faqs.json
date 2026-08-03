@@ -123,28 +123,6 @@
       "answer": "Contact us directly. Neither package is built to scale past 80 guests, and we would rather tell you that plainly than have you assume the Wedding Pack stretches further than it does."
     }
   ],
-  "do-you-offer-delivery-and-setup-for-sound-equipment-in-malaga-spain": [
-    {
-      "question": "What types of events does Malaga Event Gear cater to?",
-      "answer": "Malaga Event Gear provides audio visual equipment rentals and services for a variety of events, including weddings, corporate meetings, and private gatherings."
-    },
-    {
-      "question": "Does Malaga Event Gear provide delivery and setup services?",
-      "answer": "Yes, Malaga Event Gear offers seamless sound equipment delivery and setup services, ensuring a flawless experience for events throughout Malaga."
-    },
-    {
-      "question": "What kind of equipment can I rent from Malaga Event Gear?",
-      "answer": "Malaga Event Gear provides a range of audio and visual equipment, including state of the art sound systems and lighting solutions tailored to meet specific event needs."
-    },
-    {
-      "question": "How experienced is the team at Malaga Event Gear?",
-      "answer": "With over two decades of industry experience, the team at Malaga Event Gear guarantees unmatched quality and customer satisfaction, offering tailored solutions and expert technical support."
-    },
-    {
-      "question": "How can I book Malaga Event Gear for my event?",
-      "answer": "To book Malaga Event Gear for your event, you can visit their website, where you will find contact information and more details about renting equipment and services."
-    }
-  ],
   "audio-visual-rental-for-corporate-meetings": [
     {
       "question": "What AV equipment do I need for a corporate meeting?",
@@ -1517,6 +1495,36 @@
     {
       "question": "How many guests does the package support?",
       "answer": "Up to 80 guests, sized for a villa, finca or wedding hotel. For a larger wedding, contact us to discuss options."
+    }
+  ],
+  "audio-visual-rental-for-private-parties": [
+    {
+      "question": "What is included in audio visual rental for a private party?",
+      "answer": "The Eco Pack includes 2 high quality active speakers with stands, 1 wired dynamic microphone, 2 RGBW LED light bars, and aesthetic cabling with professional setup, for 290 euros ex VAT, up to 50 guests."
+    },
+    {
+      "question": "Is a technician included for a private party?",
+      "answer": "No, not by default. Our crew delivers, installs and tests the Eco Pack on site, then it runs self run for the rest of the event, without a technician standing by. A technician is included on our Wedding Pack and MICE Pack, though those are sized and priced for a wedding or corporate event rather than a private party."
+    },
+    {
+      "question": "How many guests can the Eco Pack support?",
+      "answer": "Up to 50 guests. That is the real ceiling on this package, matched to a villa garden, a private room or a terrace, not a larger celebration."
+    },
+    {
+      "question": "What extras are available for a private party?",
+      "answer": "A projector and projection screen (+50 euros), useful for a photo slideshow or video montage, and a professional smoke/fog machine (+20 euros), for a dance floor moment or a cake reveal. Both are optional add ons, not part of the base package."
+    },
+    {
+      "question": "How much does audio visual rental cost for a private party?",
+      "answer": "The Eco Pack costs 290 euros, ex VAT, with 21 percent Spanish VAT added at checkout. The price includes delivery, setup and teardown. See exact pricing and the two optional add ons on our packages page."
+    },
+    {
+      "question": "How far in advance should I book AV for a private party?",
+      "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga and extend to Granada for rentals over 400 euros."
+    },
+    {
+      "question": "How long has Malaga Event Gear been providing audio visual rental?",
+      "answer": "Backed by experience going back to 1996, three decades of live events across Malaga and the Costa del Sol."
     }
   ],
   "av-system-troubleshooting": [
