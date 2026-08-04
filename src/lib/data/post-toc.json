@@ -1820,6 +1820,11 @@
       "level": 3
     },
     {
+      "id": "do-you-rent-the-dvd-recorder-or-other-recording-equipment-separately-from-the-switcher",
+      "text": "Do you rent the DVD recorder, or other recording equipment, separately from the switcher?",
+      "level": 3
+    },
+    {
       "id": "do-i-need-this-for-a-small-event-or-only-for-larger-corporate-bookings",
       "text": "Do I need this for a small event, or only for larger corporate bookings?",
       "level": 3

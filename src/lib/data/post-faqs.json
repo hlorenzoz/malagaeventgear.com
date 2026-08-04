@@ -565,6 +565,10 @@
       "answer": "Confirmed, real sources: a laptop, a second laptop, and a DVD player, drawn from an LG-RH7500 DVD recorder and hard disk unit in our inventory. We do not stock a document camera or a visualizer, so we will not offer one as a source if your event asks for it."
     },
     {
+      "question": "Do you rent the DVD recorder, or other recording equipment, separately from the switcher?",
+      "answer": "No. The LG-RH7500 DVD recorder and hard disk unit is one of the switcher's three confirmed sources, not a standalone rental item, and it has no camera input. If you are searching for recording equipment rental meaning cameras, lenses, or production gear to film your event, that is not something MEG offers: we are an audio, screen, and lighting rental company for events, not a camera or video production equipment supplier. Tell us directly if that is what you need and we will confirm plainly that it is outside what we provide."
+    },
+    {
       "question": "Do I need this for a small event, or only for larger corporate bookings?",
       "answer": "Only if your event has more than one presentation source on the same screen. A single speaker with one slide deck does not need it, a single laptop connection is genuinely simpler. It becomes relevant on a conference agenda with more than one presenter, or a keynote that includes a video insert, which is why it shows up almost exclusively on our corporate MICE bookings rather than private parties."
     },
