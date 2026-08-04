@@ -103,6 +103,15 @@
 # entry - no distinct angle remained to rewrite (2026-08-03):
 /blog/do-you-offer-delivery-and-setup-for-sound-equipment-in-malaga-spain/  /blog/how-audio-visual-rental-works/  301
 
+# Retired: legacy WP post from the wedding-rentals silo, deferred during the 2026-07-30 AV-only
+# rewrite. Confirmed AI-generated (bold markdown artifacts, curly quotes, broken TOC/FAQ
+# anchors) and fabricated LED walls and a "DJ system for the reception" as MEG-provided,
+# contradicting packages.ts and audio-visual-rental-for-music-performances.svx's confirmed "DJs
+# bring their own mixing gear." content-gap-analyst confirmed the same search intent is already
+# fully covered by how-to-choose-wedding-rentals.svx (package fit) and questions-to-ask-wedding-
+# rental-companies.svx (vetting a provider) - no distinct angle remained (2026-08-04):
+/blog/how-to-choose-an-audio-visual-rental-service-for-weddings/  /blog/how-to-choose-wedding-rentals/  301
+
 # Retired: low-quality AI-generated legacy post with real fabrications (invented "portable
 # power units and uninterruptible power supplies (UPS)" not in the real equipment catalog,
 # "LED Walls" contradicting the sitewide no-modular-LED-wall stance, USD pricing on a EUR-only
@@ -161,7 +170,7 @@
 /common-av-rental-mistakes/  /blog/common-av-rental-mistakes/  301
 /benefits-of-audio-visual-rental/  /blog/benefits-of-audio-visual-rental/  301
 /audio-visual-rental-for-corporate-meetings/  /blog/audio-visual-rental-for-corporate-meetings/  301
-/how-to-choose-an-audio-visual-rental-service-for-weddings/  /blog/how-to-choose-an-audio-visual-rental-service-for-weddings/  301
+/how-to-choose-an-audio-visual-rental-service-for-weddings/  /blog/how-to-choose-wedding-rentals/  301
 /how-to-set-up-rented-audio-visual-equipment-for-outdoor-events/  /blog/audio-visual-rental-for-outdoor-events/  301
 /do-you-offer-delivery-and-setup-for-sound-equipment-in-malaga-spain/  /blog/how-audio-visual-rental-works/  301
 /7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain/  /blog/7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain/  301
