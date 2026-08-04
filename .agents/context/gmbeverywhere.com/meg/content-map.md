@@ -44,8 +44,8 @@ Pillar: `audio-visual-rental` (existing, target `/`)
 | 19 | Conference AV rental | duplicate | audio-visual-rental-for-conferences | | Already owned by audio-visual-rental-for-conferences.svx. |
 | 20 | Event AV equipment rental | duplicate | audio-visual-rental / audiovisual-equipment-rental-service | | Generic umbrella synonym of the two pillars. |
 | 21 | Video conferencing equipment rental | conflict | - | | remote-presentations.svx and virtual-events.svx explicitly deny cameras/webcams/streaming equipment, the core hardware here. |
-| 22 | Interactive whiteboard rental | blocked-on-equipment-context | - | | Zero grounding, no denial found either. |
-| 23 | Interactive display rental | blocked-on-equipment-context | - | | Zero grounding, distinct from the non-interactive 60 inch LED display MEG stocks. |
+| 22 | Interactive whiteboard rental | no-fit | - | | RESOLVED 2026-08-04: business confirmed directly - MEG does not offer interactive whiteboards. |
+| 23 | Interactive display rental | no-fit | - | | RESOLVED 2026-08-04: business confirmed directly - MEG does not offer interactive displays, distinct from the non-interactive 60 inch LED display MEG stocks. |
 | 24 | Tablet rental | conflict | - | | projector-rental.svx: "presenter's own laptop, tablet... not ours," repeated across 8+ posts. |
 | 25 | Laptop rental | declared | audiovisual-equipment-rental-service | | RE-CONFIRMED 2026-07-31: the laptop was briefly confirmed real, then the equipment CSV was updated and the user confirmed it was retired. Named in the pillar's "What We Don't Offer" list. |
 | 26 | Truss system rental | declared | audiovisual-equipment-rental-service | | "We do not stock truss as a separate rental item" already stated. |
@@ -61,10 +61,10 @@ Pillar: `audio-visual-rental` (existing, target `/`)
 | 36 | Green screen rental | no-fit | - | | Resolved 2026-07-31: Equipamiento.csv confirms no green screen or chroma key equipment exists, in either version of the file. Definitively not offered, not just unblocked. |
 | 37 | Live event production | duplicate | audiovisual-equipment-rental-service | | Overlaps pillar + rows 30/31. Real local competitors market full-service production (decor, artistic booking) beyond MEG's scope. |
 | 38 | Event staging services | duplicate | audiovisual-equipment-rental-service | | Same coverage as row 27. |
-| 39 | Wireless presentation system rental | blocked-on-equipment-context | - | | Site surfaces for this query without a dedicated page, but every connectivity mention is wired-only (HDMI/USB-C) - no wireless screen-share product grounded yet. |
+| 39 | Wireless presentation system rental | no-fit | - | | RESOLVED 2026-08-04: confirmed against Equipamiento.csv directly (business's own standing rule: "brindamos lo que esta en el inventario") - zero wireless presentation product listed, every connectivity mention sitewide is wired-only (HDMI/USB-C). |
 | 40 | Podcasting equipment rental | conflict | - | | sound-system-rental.svx FAQ: explicit "No, we don't stock recording or podcasting style audio interfaces." |
 | 41 | Lecture capture system rental | no-fit | - | | UPDATED 2026-08-04 (was blocked-on-equipment-context): a lecture capture system is fundamentally a video/audio recording product, same family as camera/video/recording equipment rental (rows 16/17/35), already confirmed not offered. Not a distinct case. |
-| 42 | Stage monitor rental | blocked-on-equipment-context | - | | Zero grounding, zero mentions anywhere in the blog corpus. |
+| 42 | Stage monitor rental | **ready** | stage-monitor-rental | 3 | RESOLVED 2026-08-04: found real grounding directly in Equipamiento.csv - 8x HK Audio PR:O 10-X, 300W passive stage floor monitor wedges, listed under the ALTAVOCES PASIVOS category alongside the confirmed PR:O 12 speakers and PR:O 18-S subwoofers. Genuine candidate, was previously mismarked "zero grounding." |
 | 43 | Tour guide system rental | conflict | - | | Same wireless headset hardware category as the already-denied interpretation equipment. |
 | 44 | AV installation services | duplicate | how-audio-visual-rental-works | | Resolves the prior `risk` flag: SERP confirms local intent = rental+setup bundle. UPDATED 2026-08-04: the original target, a low-quality standalone post (do-you-offer-delivery-and-setup-for-sound-equipment-in-malaga-spain.svx), was retired with a 301 during a sitewide standalone-post cleanup - content-gap-analyst confirmed this exact intent is already fully covered by how-audio-visual-rental-works.svx, the audio-visual-rental pillar's own "Delivery, Setup and Teardown Included" section, and the public /faq/ page. |
 
@@ -83,7 +83,7 @@ Pillar: `audiovisual-equipment-rental-service` — **published 2026-07-31**, pos
 | 5 | Walkie talkie rental | declared | audiovisual-equipment-rental-service | 1 | Zero catalog presence. Named directly in the pillar's "What We Don't Offer" list. No separate page. |
 | 6 | Pipe and drape rental | declared | audiovisual-equipment-rental-service | 1 | Contradicts unique-wedding-ceremony-rentals.svx and audio-visual-rental-for-press-conferences.svx. Now explicitly declared out of scope on the pillar. No separate page. |
 | 7 | Event backdrop rental | declared | audiovisual-equipment-rental-service | 1 | Same as #6, same pillar declaration. |
-| 8 | Holiday lighting rental | no-grounding | - | 1 | Zero presence in catalog. Not explicitly named on the pillar (only the 5 most-searched "no" items got a named bullet) - still open if this keyword matters enough to add. |
+| 8 | Holiday lighting rental | no-fit | - | 1 | RESOLVED 2026-08-04: confirmed against Equipamiento.csv directly - zero holiday/seasonal lighting product listed. |
 | 9 | Camera crane rental | declared | audiovisual-equipment-rental-service | 1 | Zero catalog presence. Named directly in the pillar's "What We Don't Offer" list. No separate page. |
 | 10 | Flat screen TV rental | duplicate | tv-screen-rental | 1 | Same product as tv-screen-rental.svx's 60 inch LED display. Also covered at pillar level. No separate page. |
 | 11 | Silent disco equipment rental | declared | audiovisual-equipment-rental-service | 1 | Zero catalog presence. Named directly in the pillar's "What We Don't Offer" list. No separate page. |
@@ -178,11 +178,11 @@ Pillar: `audio-visual-equipment-supplier` (new, working title "Audio Visual Equi
 | 17 | Soundproofing solutions | no-fit | - | | Acoustic construction trade, wrong company type. |
 | 18 | Lighting control systems | no-fit | - | | Reads as permanent DMX/building control; equipment-page phrase is marketing copy only. |
 | 19 | AV cabling services | no-fit | - | | Only bundled event "aesthetic cabling" exists, not a standalone install service. |
-| 20 | Professional audio rigging | blocked-on-equipment-context | - | | Zero grounding (no truss anywhere), plausible future addition. |
+| 20 | Professional audio rigging | no-fit | - | | RESOLVED 2026-08-04: confirmed against Equipamiento.csv directly - zero rigging/truss product listed. |
 | 21 | Interpreter audio systems | conflict | - | | Explicitly ruled out twice; contradicts faq.ts "translation-voting" entry. |
 | 22 | Simultaneous translation equipment | conflict | - | | Same as row 21. |
 | 23 | Sound engineering services | duplicate | audio-visual-rental-for-weddings / sound-system-rental | | On-site technician "engineering support" already covered. |
-| 24 | Hearing loop systems | blocked-on-equipment-context | - | | Zero grounding, not ruled out, plausible addition. |
+| 24 | Hearing loop systems | no-fit | - | | RESOLVED 2026-08-04: confirmed against Equipamiento.csv directly - zero hearing loop/assistive listening product listed. |
 | 25 | Corporate event AV | duplicate | audio-visual-rental-for-corporate-events / audio-visual-rental-for-corporate-meetings | | Confirms the prior cannibalization flag - resolved as duplicate, not a new page. |
 | 26 | Video editing equipment rental | no-fit | - | | No video/photo scope at all, further out than camera rental itself. |
 | 27 | AV equipment leasing | no-fit | - | | Long-term B2B financing model, not MEG's short-term rental. |
@@ -190,9 +190,9 @@ Pillar: `audio-visual-equipment-supplier` (new, working title "Audio Visual Equi
 | 29 | Event recording services | conflict | - | | RE-CONFIRMED 2026-07-31: see "Camera/video equipment history" note below. Explicitly ruled out once the camera confirmation was retracted. |
 | 30 | Television rental | duplicate | tv-screen-rental | | Already a dedicated live post. |
 | 31 | Presentation equipment rental | duplicate | projector-rental / tv-screen-rental | | Product Presentation Pack + both posts already cover this. |
-| 32 | Assistive listening devices | blocked-on-equipment-context | - | | Same as row 24. |
+| 32 | Assistive listening devices | no-fit | - | | RESOLVED 2026-08-04: same as row 24 - confirmed against Equipamiento.csv directly, zero product listed. |
 | 33 | Multi-room audio solutions | no-fit | - | | Only "multi-room" mention is booking 2 separate packages, not a zoned system. |
-| 34 | Wireless presentation systems | blocked-on-equipment-context | wireless-presentation-systems-supply | | Product Presentation pack uses wired HDMI/USB-C adapters only. Slug intentionally distinct from wireless-presentation-system-rental (primary category, also blocked) to avoid collision if both get documented later. |
+| 34 | Wireless presentation systems | no-fit | - | | RESOLVED 2026-08-04: same resolution as category 1 row 39 - confirmed against Equipamiento.csv directly, every connectivity mention sitewide is wired-only (HDMI/USB-C). |
 | 35 | Mobile AV solutions | duplicate | audio-visual-rental | | Delivery-only model already IS "mobile AV," core messaging everywhere. |
 | 36 | Audio booth rental | conflict | - | | Both plausible readings (interpretation/recording booth) already ruled out. |
 | 37 | Training on AV equipment | no-fit | - | | Means teaching people to use gear, distinct from -training-sessions.svx (AV rental FOR training events). |
@@ -274,7 +274,7 @@ Pillar: `stage-lighting-rental` (published 2026-08-03; the category's original w
 | 11 | Stage effects lighting | duplicate | audiovisual-equipment-rental-service | | Covered in the pillar's Special Effects section. |
 | 12 | Stage lighting repair | no-fit | - | | Repair shop model, wrong company type. |
 | 13 | Stage lighting consultation | no-fit | - | | Design consultation, not per-event rental. |
-| 14 | Stage dimmer packs | blocked-on-equipment-context | - | | Zero current grounding, plausible real gear. |
+| 14 | Stage dimmer packs | no-fit | - | | RESOLVED 2026-08-04: confirmed against Equipamiento.csv directly - zero dimmer pack product listed. |
 | 15 | Stage flood lights | duplicate | audiovisual-equipment-rental-service | | Wash/flood confirmed as industry-synonymous with RGBW spotlight coverage. |
 | 16 | Stage wash lighting | duplicate | audiovisual-equipment-rental-service | | Same synonym collapse as row 15. |
 | 17 | Stage uplighting | covered | stage-uplighting | 2 | Published 2026-08-01. Second real supporting post for the audiovisual-equipment-rental-service pillar's orphan cluster (TARGET OVERRIDE, see prior note - category 6's own pillar is still not written). Grounded in the one real ADJ Element H6 Pack (6 fixtures), honest "2 to 4 venue features" coverage framing instead of a guest-count formula, no invented battery/IP/DMX specs. |
@@ -283,8 +283,8 @@ Pillar: `stage-lighting-rental` (published 2026-08-03; the category's original w
 | 20 | Sound and lighting packages | duplicate | stage-lighting-rental | | RESOLVED 2026-08-03: the original note's claim was wrong - checked packages.ts includeTags directly, MICE Pack has no 'lighting' tag (its visual layer is a 60-inch LED display, not stage lighting). Only Eco Pack and Wedding Pack genuinely bundle sound+lighting. A standalone post would have rehashed stage-lighting-rental.svx's existing package table, so the correction and one FAQ entry were folded into that pillar instead. |
 | 21 | Stage lighting programming | no-fit | - | | Programming/design service, not per-event rental. |
 | 22 | Laser lighting systems | conflict | - | | Distinct from the real laser PROJECTOR tier - don't conflate. Laser light shows explicitly declined. |
-| 23 | Follow spotlights | blocked-on-equipment-context | - | | Zero current grounding, plausible real gear. |
-| 24 | Stage cold spark machines | blocked-on-equipment-context | - | | Zero current grounding, plausible real gear (adjacent to confirmed confetti/hazers). |
+| 23 | Follow spotlights | no-fit | - | | RESOLVED 2026-08-04: confirmed against Equipamiento.csv directly - zero follow spotlight product listed. |
+| 24 | Stage cold spark machines | no-fit | - | | RESOLVED 2026-08-04: confirmed against Equipamiento.csv directly - zero cold spark machine listed, distinct from the real confetti/hazer items. |
 | 25 | Club lighting equipment | no-fit | - | | Nightclub install market, wrong company type. |
 | 26 | Stage lighting rigging | conflict | - | | Depends on the already-rejected truss (row 10). |
 | 27 | Stage lighting design services | no-fit | - | | Design/consultation, not per-event rental. |
@@ -301,8 +301,8 @@ Pillar: `stage-lighting-rental` (published 2026-08-03; the category's original w
 | 38 | Stage lighting system upgrades | no-fit | - | | Implies upgrading a client's own permanent system. |
 | 39 | Stage backdrop lighting | conflict | - | | RE-CONFIRMED 2026-07-31: uplighting itself is now real (row 17), but this keyword is specifically about lighting a backdrop/decor structure, which is still out of scope on the independent "not a decor provider" stance (no backdrops, no pipe and drape). |
 | 40 | Custom stage lighting | no-fit | - | | Bespoke design service, wrong company type. |
-| 41 | Strobe lighting rental | blocked-on-equipment-context | - | | Zero current grounding, plausible real gear. |
-| 42 | Stage blacklights | blocked-on-equipment-context | - | | Zero current grounding, plausible real gear. |
+| 41 | Strobe lighting rental | no-fit | - | | RESOLVED 2026-08-04: confirmed against Equipamiento.csv directly - zero strobe product listed. |
+| 42 | Stage blacklights | no-fit | - | | RESOLVED 2026-08-04: confirmed against Equipamiento.csv directly - zero UV/blacklight product listed. |
 | 43 | Automated lighting fixtures | no-fit | - | | RESOLVED 2026-07-31: "automated lighting" specifically means moving/DMX-automated fixtures, confirmed not real (see row 6 in this same category). Not a synonym for anything in the real catalog. |
 | 44 | Stage lighting maintenance | no-fit | - | | Maintenance/repair model, wrong company type. |
 | 45 | Outdoor event lighting | duplicate | stage-lighting-rental | | RESOLVED 2026-08-03: confirmed the pre-flagged risk was real - 3 other posts (the pillar's own prior FAQ, stage-uplighting.svx, stage-lighting-for-weddings.svx) already touched outdoor+lighting, so a 4th standalone page would be pure duplication. Genuine gap folded into the pillar instead: a fixture-by-fixture outdoor mounting/power table, 2 real inventory items never mentioned sitewide before (2000W portable electrical panel, power stabilizer), and broadening the "no IP rating confirmed" caveat from 3 specialty fixtures to all 5. |
@@ -319,13 +319,13 @@ Pillar: `stage-lighting-rental` (published 2026-08-03; the category's original w
 
 | Category | Pillar slug | Total | Ready | Covered | Declared | Duplicate | Conflict | No-fit | Blocked-on-equipment |
 | -------- | ----------- | ----- | ----- | ------- | -------- | --------- | -------- | ------ | --------------------- |
-| Audio visual equipment hire service (primary) | audio-visual-rental (existing) | 44 | 0 | 18 | 2 | 8 | 6 | 6 | 4 |
-| Audiovisual equipment rental service | audiovisual-equipment-rental-service (published 2026-07-31) | 19 | 0 | 3 | 9 | 6 | 0 | 0 | 1 (as no-grounding) |
+| Audio visual equipment hire service (primary) | audio-visual-rental (existing) | 44 | 1 | 18 | 2 | 8 | 6 | 9 | 0 |
+| Audiovisual equipment rental service | audiovisual-equipment-rental-service (published 2026-07-31) | 19 | 0 | 3 | 9 | 6 | 0 | 1 | 0 |
 | Event technology service | event-technology-service (published 2026-07-31) | 46 | 0 | 3 | 0 | 5 | 8 | 30 | 0 |
-| Audio visual equipment supplier | audio-visual-equipment-supplier (not yet written) | 39 | 0 | 0 | 0 | 9 | 6 | 20 | 4 |
+| Audio visual equipment supplier | audio-visual-equipment-supplier (not yet written) | 39 | 0 | 0 | 0 | 9 | 6 | 24 | 0 |
 | Audio visual consultant | audio-visual-consultant (not yet written) | 45 | 0 | 4 | 0 | 9 | 11 | 21 | 0 |
-| Stage lighting equipment supplier | stage-lighting-rental (published 2026-08-03) | 51 | 0 | 3 | 0 | 18 | 4 | 21 | 5 |
-| **Total** | | **244** | **0** | **31** | **11** | **55** | **35** | **98** | **14** |
+| Stage lighting equipment supplier | stage-lighting-rental (published 2026-08-03) | 51 | 0 | 3 | 0 | 18 | 4 | 26 | 0 |
+| **Total** | | **244** | **1** | **31** | **11** | **55** | **35** | **111** | **0** |
 
 **Full triage done 2026-07-31** (all 6 categories checked against the live site for conflict/duplicate/no-fit patterns, engram topic_keys `content-gap/malagaeventgear.com/category{1-remaining,3,4,5,6}-triage`). Headline: **93 of 244 services (38%) are `no-fit`** - not physical AV equipment for a per-event rental company at all (software/SaaS event-tech, permanent installation/systems-integration, sales/repair/training, photo-video, or confirmed non-offerings like streaming/broadcast gear or non-existent moving head/DMX lighting). Originally 15 services were `ready` to draft as real new supporting posts, per the user's explicit direction to build the silo out, not just declare things out of scope; the equipment re-triage added Video switcher rental (category 1 row 28), Headset/lavalier microphone rental (category 2 row 2) and Stage uplighting (category 6 row 17), and removed Moving head lights (category 6 row 6) and Lighting control integration (category 5 row 17) once "moving head" was confirmed not real - see the Iluminacion note below. **10 are now published** (av-technician-hire.svx, technical-support-for-events.svx, av-system-troubleshooting.svx, audio-system-calibration.svx and av-equipment-consultations.svx now a 5-post technician/support cluster on the primary pillar, each a genuinely distinct angle - hiring the person, phase narrative, self-run troubleshooting, calibration process and why, pre-booking package matching; headset-lavalier-microphone-rental.svx and stage-uplighting.svx as the first 2 real supporting posts for the audiovisual-equipment-rental-service pillar's orphan cluster; video-switcher-rental.svx as the primary pillar's equipment-first treatment of the Kramer VP-731; Event lighting services and Stage design and setup as dedicated H2 sections on the new event-technology-service pillar rather than separate thin pages; av-cable-management.svx as the audio-visual-consultant category's "aesthetic cabling" explainer; stage-lighting-rental.svx as category 6's own pillar, absorbing category 5 row 34; stage-lighting-for-weddings.svx as the pillar's first supporting post, moment-based rather than fixture-based). **Category 5 (Audio visual consultant) is now fully resolved - 0 ready items remain, all triaged to covered/no-fit/conflict/duplicate.** Category 6 row 20 "Sound and lighting packages" resolved as a duplicate/fold-in rather than a standalone post (corrected the original triage note's wrong MICE Pack claim in the process). **2026-08-03: row 45 "Outdoor event lighting" resolved the same way** (duplicate/fold-in into stage-lighting-rental.svx, confirming the pre-flagged duplication risk with the site's 3 other outdoor+lighting posts was real). **The entire original 15-item `ready` queue is now resolved to covered/duplicate/no-fit** (10 published as standalone or fold-in content, 5 resolved as duplicates/fold-ins without a new URL). **Summary table fully recounted 2026-08-03** (mechanical per-category status tally, `grep`-verified against every row's literal status text, not carried-forward arithmetic): found and fixed 2 pre-existing bookkeeping errors predating this session - category 1 (primary pillar) was carrying a stale `Ready: 1` with `Covered: 17` when the real tally is `Ready: 0` / `Covered: 18` (one row's status was updated at some point without the Summary being bumped); category 2 (audiovisual-equipment-rental-service) had `Covered: 2` / `Declared: 10` when the real tally is `Covered: 3` / `Declared: 9`. Categories 3, 4, 5 and 6 were independently re-verified and matched their stated counts exactly, no changes needed there. **`Ready` is now genuinely 0 across the entire document** - no open items remain anywhere in the content-map.
 
