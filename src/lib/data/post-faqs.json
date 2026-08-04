@@ -1887,6 +1887,48 @@
       "answer": "There is no fixed booking window, only availability. Wedding dates fill up quickly, particularly in peak season, so reach out once your date and venue are confirmed."
     }
   ],
+  "stage-monitor-rental": [
+    {
+      "question": "What is a stage monitor used for?",
+      "answer": "It lets a performer or speaker standing on stage hear themselves and each other over the room mix, angled up toward them rather than out at the audience. See What a Stage Monitor Is, and What It Is Not above."
+    },
+    {
+      "question": "Is a stage monitor the same as a PA speaker?",
+      "answer": "No. A PA speaker, the kind built into our Eco Pack, Wedding Pack, and MICE Pack, is aimed at the audience. A stage monitor is aimed at the performer or speaker on stage, a separate signal path for a separate audience of one: the person standing in front of it. See What a Stage Monitor Is, and What It Is Not above."
+    },
+    {
+      "question": "Are your stage monitors active or passive?",
+      "answer": "Passive. Our HK Audio PR:O 10-X, 300 watt monitors have no built in amplifier and are driven by dedicated external amp channels from our own rack. We are stating this directly because it is sometimes advertised inaccurately elsewhere in Malaga. See Passive Wedges and the Amplifiers That Power Them above."
+    },
+    {
+      "question": "What actually powers the stage monitor wedges?",
+      "answer": "2 MC2-ETAPA-T-1000 amplifiers, 500 watts per unit across 2 channels each, and 1 MC2-T-2000, 1,000 watts across 2 channels, all from our own amplifier inventory. See Passive Wedges and the Amplifiers That Power Them above."
+    },
+    {
+      "question": "Is a \"stage monitor\" the same as a \"monitor TV\"?",
+      "answer": "No. A stage monitor is a speaker. A monitor TV, or confidence monitor, is a video screen a presenter reads from, an entirely different product covered as part of our display equipment rather than this page. If you searched for a video display for a presenter, see our audio visual rental page for our full equipment range, and contact us to confirm what you actually need."
+    },
+    {
+      "question": "Do you offer in ear monitors instead of floor wedges?",
+      "answer": "No, not currently. Our stage monitor inventory is floor wedges only, we do not stock an in ear monitor (IEM) system. If your performers specifically need IEM, contact us and we will tell you honestly whether that is something we can source for your date rather than imply we already stock it."
+    },
+    {
+      "question": "Is stage monitor rental included in a package?",
+      "answer": "No. None of our 5 packages, the Eco Pack, Wedding Pack, Basic MICE Pack, MICE Pack, or Product Presentation Pack, include a stage monitor. It is a separate, quote on request add on. See Is a Stage Monitor Bundled Into Any Package? above."
+    },
+    {
+      "question": "How much does stage monitor rental cost?",
+      "answer": "We do not publish a flat price for it the way we do for our packages, because the honest cost depends on your wedge count and how it fits into the rest of your booking. Contact us with your stage plot and performer count and we will quote it directly rather than guess at a number here that would not match your actual event."
+    },
+    {
+      "question": "Can a stage monitor be used outdoors?",
+      "answer": "Yes, the same passive wedge and amp pairing works indoors or outdoors, but the honest answer still depends on your specific stage and venue rather than a blanket claim. Contact us with your venue details so we can confirm the right setup for it. See Indoor and Outdoor Use above."
+    },
+    {
+      "question": "How far in advance should I book stage monitor rental?",
+      "answer": "Book as early as you can once your stage plot and performer count are confirmed, particularly since our own stock is capped at 8 wedges. Demand peaks during wedding season, April through October. See How Far in Advance to Book above."
+    }
+  ],
   "wedding-rentals-online": [
     {
       "question": "Can I book and pay for the Wedding Pack entirely online, with no phone call?",
