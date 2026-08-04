@@ -5515,6 +5515,118 @@
       "level": 3
     }
   ],
+  "stage-monitor-rental": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "what-a-stage-monitor-is-and-what-it-is-not",
+      "text": "What a Stage Monitor Is, and What It Is Not",
+      "level": 2
+    },
+    {
+      "id": "passive-wedges-and-the-amplifiers-that-power-them",
+      "text": "Passive Wedges and the Amplifiers That Power Them",
+      "level": 2
+    },
+    {
+      "id": "is-a-stage-monitor-bundled-into-any-package",
+      "text": "Is a Stage Monitor Bundled Into Any Package?",
+      "level": 2
+    },
+    {
+      "id": "how-many-stage-monitors-does-a-band-or-panel-need",
+      "text": "How Many Stage Monitors Does a Band or Panel Need?",
+      "level": 2
+    },
+    {
+      "id": "self-run-or-technician-managed-monitor-mix",
+      "text": "Self Run or Technician Managed Monitor Mix",
+      "level": 2
+    },
+    {
+      "id": "real-setups-weve-delivered",
+      "text": "Real Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "indoor-and-outdoor-use",
+      "text": "Indoor and Outdoor Use",
+      "level": 2
+    },
+    {
+      "id": "how-far-in-advance-to-book",
+      "text": "How Far in Advance to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "what-is-a-stage-monitor-used-for",
+      "text": "What is a stage monitor used for?",
+      "level": 3
+    },
+    {
+      "id": "is-a-stage-monitor-the-same-as-a-pa-speaker",
+      "text": "Is a stage monitor the same as a PA speaker?",
+      "level": 3
+    },
+    {
+      "id": "are-your-stage-monitors-active-or-passive",
+      "text": "Are your stage monitors active or passive?",
+      "level": 3
+    },
+    {
+      "id": "what-actually-powers-the-stage-monitor-wedges",
+      "text": "What actually powers the stage monitor wedges?",
+      "level": 3
+    },
+    {
+      "id": "is-a-stage-monitor-the-same-as-a-monitor-tv",
+      "text": "Is a \"stage monitor\" the same as a \"monitor TV\"?",
+      "level": 3
+    },
+    {
+      "id": "do-you-offer-in-ear-monitors-instead-of-floor-wedges",
+      "text": "Do you offer in ear monitors instead of floor wedges?",
+      "level": 3
+    },
+    {
+      "id": "is-stage-monitor-rental-included-in-a-package",
+      "text": "Is stage monitor rental included in a package?",
+      "level": 3
+    },
+    {
+      "id": "how-much-does-stage-monitor-rental-cost",
+      "text": "How much does stage monitor rental cost?",
+      "level": 3
+    },
+    {
+      "id": "can-a-stage-monitor-be-used-outdoors",
+      "text": "Can a stage monitor be used outdoors?",
+      "level": 3
+    },
+    {
+      "id": "how-far-in-advance-should-i-book-stage-monitor-rental",
+      "text": "How far in advance should I book stage monitor rental?",
+      "level": 3
+    }
+  ],
   "wedding-rentals-online": [
     {
       "id": "brief-overview",
