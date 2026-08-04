@@ -103,6 +103,19 @@
 # entry - no distinct angle remained to rewrite (2026-08-03):
 /blog/do-you-offer-delivery-and-setup-for-sound-equipment-in-malaga-spain/  /blog/how-audio-visual-rental-works/  301
 
+# Retired: low-quality AI-generated legacy post with real fabrications (invented "portable
+# power units and uninterruptible power supplies (UPS)" not in the real equipment catalog,
+# "LED Walls" contradicting the sitewide no-modular-LED-wall stance, USD pricing on a EUR-only
+# site, an invented "over 1000 satisfied customers" figure). content-gap-analyst, then
+# independently the content writer attempting the rewrite, both confirmed every fact in the
+# best available angle (a host-side outdoor setup prep checklist) is already published,
+# verbatim in places, across audio-visual-rental-for-outdoor-events.svx, stage-lighting-
+# rental.svx's "Outdoor Use" section and av-cable-management.svx's "Cable Management
+# Outdoors" section - writing this page would mean reassembling the site's own already-
+# published facts under a new URL, the same scaled-content failure mode this content-map
+# effort exists to prevent (2026-08-04):
+/blog/how-to-set-up-rented-audio-visual-equipment-for-outdoor-events/  /blog/audio-visual-rental-for-outdoor-events/  301
+
 # BEGIN wp-blog-redirects (managed — do not edit manually)
 /news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/  /blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/  301
 /news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/  /blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/  301
@@ -149,7 +162,7 @@
 /benefits-of-audio-visual-rental/  /blog/benefits-of-audio-visual-rental/  301
 /audio-visual-rental-for-corporate-meetings/  /blog/audio-visual-rental-for-corporate-meetings/  301
 /how-to-choose-an-audio-visual-rental-service-for-weddings/  /blog/how-to-choose-an-audio-visual-rental-service-for-weddings/  301
-/how-to-set-up-rented-audio-visual-equipment-for-outdoor-events/  /blog/how-to-set-up-rented-audio-visual-equipment-for-outdoor-events/  301
+/how-to-set-up-rented-audio-visual-equipment-for-outdoor-events/  /blog/audio-visual-rental-for-outdoor-events/  301
 /do-you-offer-delivery-and-setup-for-sound-equipment-in-malaga-spain/  /blog/how-audio-visual-rental-works/  301
 /7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain/  /blog/7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain/  301
 /how-to-customize-av-rental-packages/  /blog/how-to-customize-av-rental-packages/  301
