@@ -391,7 +391,9 @@ published damage/liability/insurance policy today. User confirmed 2026-08-05: st
 rather than invent one. "Common damages with wedding rentals" RESOLVED as a new FAQ entry on
 `protecting-your-wedding-rental-items.svx` (no new page - the honest facts were already
 established there, this FAQ just answers the literal search phrase directly). "Audio visual
-rental insurance options" still queued for the same honest-FAQ treatment on the AV side. "Audio visual rental for art exhibitions" (PUBLISHED
+rental insurance options" RESOLVED the same way (2026-08-05) as a new FAQ entry on
+`how-audio-visual-rental-works.svx` - no insurance product or damage deposit policy exists to
+publish, stated plainly rather than invented. "Audio visual rental for art exhibitions" (PUBLISHED
 2026-08-05, `audio-visual-rental-for-art-exhibitions.svx` - honest about the confirmed gallery
 track/picture-lighting gap, covers what's real instead: sound, mic, lit-room-legible screen,
 ambient reception lighting) and "...for trade shows" (PUBLISHED 2026-08-05,
@@ -402,4 +404,9 @@ that MEG's catalog does not honestly serve; the page scopes down to AV for a sin
 own stand demo, sound/mic/screen/lighting matched to a package, states the 4 exclusions plainly,
 and cites the real PROGOLD SUMMIT 2026 multi day precedent as evidence multi day work is possible
 via custom quote only, never a standard rate) had grounded generic AV equipment but an unverified
-specialty angle that needed this confirmation before drafting.
+specialty angle that needed this confirmation before drafting. **This closes the entire
+PageOptimizer Pro legacy CSV audit (2026-08-05)**: all 111 non-decor rows resolved to either
+already-covered/near-duplicate (20), published as a new standalone post (4: safety guidelines,
+planning timeline, art exhibitions, trade shows), or resolved as a new FAQ entry on an existing
+post (2: common damages, insurance options), on top of the ~30 decor/furniture rows already
+skipped as out of scope. Nothing remains open from that CSV.
