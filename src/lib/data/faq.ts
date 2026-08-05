@@ -197,8 +197,8 @@ const faqData: FaqItem[] = [
 			es: '¿Con qué marcas de equipos trabajan?'
 		},
 		answer: {
-			en: 'We use premium professional brands trusted in the live-event industry, including Shure, QSC, and Martin, among others. This ensures reliable, high-fidelity sound and lighting performance for every booking.',
-			es: 'Usamos marcas profesionales premium de confianza en la industria de eventos en vivo, incluyendo Shure, QSC y Martin, entre otras. Esto garantiza un rendimiento de sonido e iluminación fiable y de alta fidelidad en cada reserva.'
+			en: 'We use premium professional brands trusted in the live-event industry, including Audix, QSC, and Martin, among others. This ensures reliable, high-fidelity sound and lighting performance for every booking.',
+			es: 'Usamos marcas profesionales premium de confianza en la industria de eventos en vivo, incluyendo Audix, QSC y Martin, entre otras. Esto garantiza un rendimiento de sonido e iluminación fiable y de alta fidelidad en cada reserva.'
 		}
 	},
 	{
