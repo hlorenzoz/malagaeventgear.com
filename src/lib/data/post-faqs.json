@@ -1557,6 +1557,48 @@
       "answer": "Backed by experience going back to 1996, three decades of live events across Malaga and the Costa del Sol."
     }
   ],
+  "audio-visual-rental-for-trade-shows": [
+    {
+      "question": "Do you provide LED video walls for a trade show booth?",
+      "answer": "No. Our large format display is a single premium 60 inch high definition LED screen with a designer stand, not a modular tiled LED video wall. See The Honest Line above."
+    },
+    {
+      "question": "Do you design or build exhibition booths and stands?",
+      "answer": "No. We do not offer booth design, fabrication or construction. We supply the AV, screen, sound, microphone and lighting, for a stand you or a booth builder have already set up."
+    },
+    {
+      "question": "Can you rig or suspend a screen or signage above our stand?",
+      "answer": "No. We carry zero rigging or truss stock, confirmed against our own inventory, and every screen, speaker, microphone and light we deliver is floor or stand mounted. See our audio visual rental safety guidelines for the full honest picture on this."
+    },
+    {
+      "question": "Do you rent touchscreens, kiosks or laptops for a registration desk?",
+      "answer": "No. These are not real bookable products in our catalog, and we do not publish a spec sheet or a quote for equipment we do not stock."
+    },
+    {
+      "question": "What is your day rate for a multi day trade show?",
+      "answer": "We do not publish one. We operate delivery only, priced per single event, not per day. Multi day work is possible, as it was for the four day PROGOLD SUMMIT 2026 in Torremolinos, but it is quoted individually rather than sold off a standard rate card. Contact us for a custom quote. See The Honest Line above."
+    },
+    {
+      "question": "What AV equipment do I actually get for my stand?",
+      "answer": "A screen or projector for a product demo, sound sized to your stand's own footprint, a wireless handheld microphone for a presenter, and, on the Eco Pack, ambient RGBW lighting. See What We Provide for Your Own Stand above."
+    },
+    {
+      "question": "Will your sound system compete with the noise of a busy exhibition hall?",
+      "answer": "No, and it is not built to. Our speaker pairs are sized to your stand's own footprint, not to outproject a neighboring stand or fill a whole hall. See Sound Sized to Your Stand, Not the Whole Hall above."
+    },
+    {
+      "question": "Which package fits a product demo at our stand?",
+      "answer": "Most often the Product Presentation Pack, which bundles the lit room legible laser projector with a wireless handheld microphone and sound. A larger, staffed stand fits the Basic MICE Pack or MICE Pack instead. See Match Your Stand to a Package above."
+    },
+    {
+      "question": "Is a technician available for the full show day, or just part of it?",
+      "answer": "The MICE Pack includes a technician for up to 6 continuous hours. For a full show day, the Basic MICE Pack's optional dedicated on site technician add on, at 240 euros per day, is the closer fit. The Eco Pack and Product Presentation Pack are self run after our crew installs and tests the system."
+    },
+    {
+      "question": "How far in advance should we book for a trade show?",
+      "answer": "Book at least 24 hours in advance to guarantee availability, and earlier once your show dates and stand size are confirmed, particularly if the show runs multiple days or needs a custom quote. See our audio visual rental planning timeline guide for the full process."
+    }
+  ],
   "av-system-troubleshooting": [
     {
       "question": "What packages include a technician who handles troubleshooting for me, and which don't?",
