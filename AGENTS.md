@@ -284,11 +284,12 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
     "no ofrecemos micrófonos de corbata ni diadema" (antes en `sound-system-rental.svx` y el
     pillar) era falsa, ya corregida en ambos: son un item aparte, no incluido en los paquetes
     estándar.
-  - **Gotcha abierto, NO resuelto todavía**: múltiples páginas afirman "Shure wireless
-    microphones", pero la única marca de micrófono inalámbrico que aparece en el CSV
-    itemizado es Audix (serie RAD-360). No se ha confirmado con el negocio si esto es un error
-    de marca en el copy o si Shure también es real pero no está itemizado. No asumir ningún
-    lado, confirmar antes de tocar contenido relacionado con la marca del micrófono.
+  - **Contradicción de marca Shure vs Audix (RESUELTO 2026-08-05)**: confirmado directamente
+    con el negocio - el inventario (Audix, serie RAD-360/Fusion) es la fuente de la verdad.
+    Las 5 menciones reales de "Shure" (`sound-system-rental.svx`, `audiovisual-equipment-
+    rental-service.svx`, `pros-and-cons-of-wedding-rentals.svx`, `latest-trends-in-wedding-
+    rentals.svx`, `faq.ts`) corregidas a "Audix", incluido el anchor del H2 en
+    `sound-system-rental.svx`. Cachés regenerados, tests y build en verde.
 
 ## Honestidad (sobreescribe cualquier regla anterior)
 
