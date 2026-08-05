@@ -1,4 +1,30 @@
 {
+  "audio-visual-rental-safety-guidelines": [
+    {
+      "question": "Does Malaga Event Gear use rigging or truss to mount speakers or lights overhead?",
+      "answer": "No. Every speaker, microphone and light we deliver is floor or stand mounted on its own tripod, confirmed against our own inventory. We do not stock or install overhead rigging or truss. See What We Do Not Do: No Rigging or Overhead Truss above."
+    },
+    {
+      "question": "Who is actually on site to handle a safety issue during my event?",
+      "answer": "Only on the Wedding Pack and MICE Pack, which include a live technician who can reposition a stand, fix a loose cable, or react to a guest bumping equipment during the event. The Eco Pack, Basic MICE Pack and Product Presentation Pack are self run after our crew installs and tests the system, so nobody is on site to react afterward. See The Real Safety Difference above."
+    },
+    {
+      "question": "How do you keep guests safe around speaker stands and microphone stands?",
+      "answer": "Our crew places stands on level ground, out of primary walkways, and away from doorways, so guests are not walking through or around active equipment. On packages with a technician included, that person also watches for a stand getting nudged or a guest standing too close during the event itself. See Guest Safety Around Equipment above."
+    },
+    {
+      "question": "Does Malaga Event Gear check electrical load or circuit capacity before setup?",
+      "answer": "We do not publish a wattage or amperage spec sheet for our equipment, but we do ask about your venue's power situation when you book, how many outlets are near the setup area and whether they share a circuit, so our crew can plan the load ahead of time rather than improvising on site. See Electrical Load and Circuit Safety above."
+    },
+    {
+      "question": "Are cables a safety risk at my event?",
+      "answer": "They can be if left loose across a walking path, which is exactly why our crew routes and secures cable, along walls and floor edges, taped flat wherever a run crosses a path, as part of every setup rather than leaving it as a separate concern."
+    },
+    {
+      "question": "Does weather change how safely the equipment can be set up outdoors?",
+      "answer": "Yes, mainly around moisture near cabling and connectors, and wind affecting stand stability on grass, sand or an open terrace. We do not publish a weatherproof rating for any of our equipment, and on outdoor bookings we plan stand placement and cable routing around the actual conditions on the day rather than a fixed method regardless of weather."
+    }
+  ],
   "audio-visual-rental-for-weddings": [
     {
       "question": "What AV equipment do I need for a wedding?",
