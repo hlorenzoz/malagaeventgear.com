@@ -1,4 +1,91 @@
 {
+  "audio-visual-rental-safety-guidelines": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "the-real-safety-difference-a-technician-on-site-vs-a-self-run-setup",
+      "text": "The Real Safety Difference: A Technician On Site vs a Self Run Setup",
+      "level": 2
+    },
+    {
+      "id": "equipment-placement-and-stand-stability",
+      "text": "Equipment Placement and Stand Stability",
+      "level": 2
+    },
+    {
+      "id": "electrical-load-and-circuit-safety",
+      "text": "Electrical Load and Circuit Safety",
+      "level": 2
+    },
+    {
+      "id": "guest-safety-around-equipment",
+      "text": "Guest Safety Around Equipment",
+      "level": 2
+    },
+    {
+      "id": "what-we-do-not-do-no-rigging-or-overhead-truss",
+      "text": "What We Do Not Do: No Rigging or Overhead Truss",
+      "level": 2
+    },
+    {
+      "id": "real-setups-weve-delivered",
+      "text": "Real Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "how-far-in-advance-to-book",
+      "text": "How Far in Advance to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "does-malaga-event-gear-use-rigging-or-truss-to-mount-speakers-or-lights-overhead",
+      "text": "Does Malaga Event Gear use rigging or truss to mount speakers or lights overhead?",
+      "level": 3
+    },
+    {
+      "id": "who-is-actually-on-site-to-handle-a-safety-issue-during-my-event",
+      "text": "Who is actually on site to handle a safety issue during my event?",
+      "level": 3
+    },
+    {
+      "id": "how-do-you-keep-guests-safe-around-speaker-stands-and-microphone-stands",
+      "text": "How do you keep guests safe around speaker stands and microphone stands?",
+      "level": 3
+    },
+    {
+      "id": "does-malaga-event-gear-check-electrical-load-or-circuit-capacity-before-setup",
+      "text": "Does Malaga Event Gear check electrical load or circuit capacity before setup?",
+      "level": 3
+    },
+    {
+      "id": "are-cables-a-safety-risk-at-my-event",
+      "text": "Are cables a safety risk at my event?",
+      "level": 3
+    },
+    {
+      "id": "does-weather-change-how-safely-the-equipment-can-be-set-up-outdoors",
+      "text": "Does weather change how safely the equipment can be set up outdoors?",
+      "level": 3
+    }
+  ],
   "audio-visual-rental-for-weddings": [
     {
       "id": "brief-overview",
