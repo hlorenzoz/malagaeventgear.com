@@ -1125,6 +1125,56 @@
       "answer": "Contact us directly. We do not add equipment or services outside a package's real inclusions and listed add-ons without confirming it first."
     }
   ],
+  "audio-visual-rental-for-art-exhibitions": [
+    {
+      "question": "What AV equipment do I need for an art exhibition opening?",
+      "answer": "Sound sized to your guest count and the room's acoustics, a microphone for opening remarks or an artist talk, and, if there is an artist statement or a video piece to show, a screen or laser projector. See What We Provide for an Exhibition Opening above."
+    },
+    {
+      "question": "Do I need a microphone for an artist talk or opening remarks?",
+      "answer": "Most openings benefit from one. Even a brief toast is easier heard over a standing crowd with a microphone than without, and a wireless handheld or gooseneck microphone lets a speaker move away from a fixed point, which matters more in a gallery than in a seated boardroom."
+    },
+    {
+      "question": "How do you size sound for an exhibition opening?",
+      "answer": "By your expected guest count and the room itself. Tile, polished concrete or plaster surfaces carry sound differently than a carpeted conference room, so tell us both when you book so our crew brings the right speaker pair for the space."
+    },
+    {
+      "question": "Can you project an artist statement or a video art piece with the gallery's lights on?",
+      "answer": "Yes. Our Product Presentation Pack's laser projector is rated at 5000 lumens specifically to stay legible in a lit room rather than a dark screening room, the same condition most gallery openings run under. See A Lit Room Legible Screen above."
+    },
+    {
+      "question": "Does Malaga Event Gear provide lighting for the artwork itself?",
+      "answer": "No. We do not stock gallery track lighting, picture lights, or high CRI spotlighting built to illuminate artwork on a wall. See The Honest Line above for exactly what our lighting inventory is instead."
+    },
+    {
+      "question": "What ambient lighting do you provide for the reception?",
+      "answer": "RGBW LED light bars, included on the Eco Pack, and a wireless battery powered uplighting kit that washes a wall or column with color, available as an addition on larger packages. Both are reception atmosphere, not artwork illumination. See Ambient Lighting above."
+    },
+    {
+      "question": "How much does audio visual rental cost for an art exhibition opening?",
+      "answer": "Pricing depends on the package: our full catalog, from the Eco Pack up to the MICE Pack for a larger gala style opening, is listed with exact euro pricing on our packages page. All rates are ex VAT, with 21 percent Spanish VAT added at checkout, and every price includes delivery, setup and teardown."
+    },
+    {
+      "question": "What size opening does each package support?",
+      "answer": "The Eco Pack covers up to 50 guests, the Basic MICE Pack up to 40, and the MICE Pack up to 120. The Product Presentation Pack is sized around a screen and speaker pair rather than a guest count. See Match Your Opening to a Package above."
+    },
+    {
+      "question": "Is a technician included for an exhibition opening?",
+      "answer": "Only on the MICE Pack, included on site for up to 6 continuous hours. The Eco Pack, Basic MICE Pack and Product Presentation Pack are delivered, installed and tested by our crew, then run by you or your team for the rest of the evening."
+    },
+    {
+      "question": "How far in advance should I book AV for an exhibition opening?",
+      "answer": "Book at least 24 hours in advance to guarantee availability. If your opening date is fixed against the exhibition's run, book as early as you can once your venue and guest count are confirmed."
+    },
+    {
+      "question": "Do you provide AV for the run of the exhibition, or just the opening?",
+      "answer": "Just the opening or reception. We operate delivery only for a single event, not an ongoing systems install for an exhibition that stays up for weeks or months. See One Event, Not an Ongoing Installation above."
+    },
+    {
+      "question": "Should an artist talk use a handheld or a gooseneck microphone?",
+      "answer": "A wireless handheld microphone suits a speaker who wants to move among the guests or the work itself, included on the Product Presentation Pack and the MICE Pack alongside a gooseneck. A gooseneck on a small podium suits a speaker who is comfortable staying in one place, included on the Basic MICE Pack and the MICE Pack."
+    }
+  ],
   "common-av-rental-mistakes": [
     {
       "question": "What is the most common mistake people make when renting AV equipment?",
