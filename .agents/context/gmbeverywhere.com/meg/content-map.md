@@ -380,8 +380,10 @@ variants risking the same cannibalization a prior fix already corrected once; "c
 variants). **2 are genuine, clean gaps with no equipment or business-fact risk**: "audio visual
 rental safety guidelines" (PUBLISHED 2026-08-05, `audio-visual-rental-safety-guidelines.svx`,
 organized around technician-vs-self-run staffing, real TRIPODE stand inventory, and an honest
-no-rigging disclosure) and "audio visual rental planning timeline" (both AV silo) - the latter
-still queued for the normal pipeline. **3 need a business decision before drafting, not resolved here**: "common
+no-rigging disclosure) and "audio visual rental planning timeline" (PUBLISHED 2026-08-05,
+`audio-visual-rental-planning-timeline.svx`, organized around guest count/package capacity, the
+real 4-step quote workflow, and the 24 hour minimum notice, deliberately rejecting the
+calendar-based lead-time table every competitor result uses). **3 need a business decision before drafting, not resolved here**: "common
 damages with wedding rentals" and "audio visual rental insurance options" both sit on the exact
 "unverifiable claim" pattern already retired once on this project (see `protecting-your-wedding-
 rental-items.svx`'s rewrite, commit `78986e7`, which removed a fabricated insurance/deposit
