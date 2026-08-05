@@ -4602,6 +4602,123 @@
       "level": 3
     }
   ],
+  "audio-visual-rental-for-trade-shows": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "what-we-provide-for-your-own-stand",
+      "text": "What We Provide for Your Own Stand",
+      "level": 2
+    },
+    {
+      "id": "the-honest-line-what-we-do-not-provide-for-a-trade-show-booth",
+      "text": "The Honest Line: What We Do Not Provide for a Trade Show Booth",
+      "level": 2
+    },
+    {
+      "id": "a-lit-room-legible-screen-for-your-product-demo",
+      "text": "A Lit Room Legible Screen for Your Product Demo",
+      "level": 2
+    },
+    {
+      "id": "sound-sized-to-your-stand-not-the-whole-hall",
+      "text": "Sound Sized to Your Stand, Not the Whole Hall",
+      "level": 2
+    },
+    {
+      "id": "ambient-lighting-for-the-stand",
+      "text": "Ambient Lighting for the Stand",
+      "level": 2
+    },
+    {
+      "id": "match-your-stand-to-a-package",
+      "text": "Match Your Stand to a Package",
+      "level": 2
+    },
+    {
+      "id": "real-setups-weve-delivered",
+      "text": "Real Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "one-stand-not-an-exhibit-house",
+      "text": "One Stand, Not an Exhibit House",
+      "level": 2
+    },
+    {
+      "id": "booking-and-service-area",
+      "text": "Booking and Service Area",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "do-you-provide-led-video-walls-for-a-trade-show-booth",
+      "text": "Do you provide LED video walls for a trade show booth?",
+      "level": 3
+    },
+    {
+      "id": "do-you-design-or-build-exhibition-booths-and-stands",
+      "text": "Do you design or build exhibition booths and stands?",
+      "level": 3
+    },
+    {
+      "id": "can-you-rig-or-suspend-a-screen-or-signage-above-our-stand",
+      "text": "Can you rig or suspend a screen or signage above our stand?",
+      "level": 3
+    },
+    {
+      "id": "do-you-rent-touchscreens-kiosks-or-laptops-for-a-registration-desk",
+      "text": "Do you rent touchscreens, kiosks or laptops for a registration desk?",
+      "level": 3
+    },
+    {
+      "id": "what-is-your-day-rate-for-a-multi-day-trade-show",
+      "text": "What is your day rate for a multi day trade show?",
+      "level": 3
+    },
+    {
+      "id": "what-av-equipment-do-i-actually-get-for-my-stand",
+      "text": "What AV equipment do I actually get for my stand?",
+      "level": 3
+    },
+    {
+      "id": "will-your-sound-system-compete-with-the-noise-of-a-busy-exhibition-hall",
+      "text": "Will your sound system compete with the noise of a busy exhibition hall?",
+      "level": 3
+    },
+    {
+      "id": "which-package-fits-a-product-demo-at-our-stand",
+      "text": "Which package fits a product demo at our stand?",
+      "level": 3
+    },
+    {
+      "id": "is-a-technician-available-for-the-full-show-day-or-just-part-of-it",
+      "text": "Is a technician available for the full show day, or just part of it?",
+      "level": 3
+    },
+    {
+      "id": "how-far-in-advance-should-we-book-for-a-trade-show",
+      "text": "How far in advance should we book for a trade show?",
+      "level": 3
+    }
+  ],
   "av-system-troubleshooting": [
     {
       "id": "brief-overview",
