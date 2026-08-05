@@ -389,7 +389,9 @@ damages with wedding rentals" and "audio visual rental insurance options" both s
 rental-items.svx`'s rewrite, commit `78986e7`, which removed a fabricated insurance/deposit
 clause) - MEG has no published damage/liability/insurance policy today, so drafting either
 requires first deciding whether one should exist to publish, or whether these stay an honesty
-note folded into an existing post. "Audio visual rental for art exhibitions" and "...for trade
-shows" have grounded generic AV equipment but an unverified specialty angle (gallery track
-lighting for exhibitions - not in Equipamiento.csv; booth-scale/multi-day logistics for trade
-shows - not previously documented) that needs a quick confirmation before drafting.
+note folded into an existing post. "Audio visual rental for art exhibitions" (PUBLISHED
+2026-08-05, `audio-visual-rental-for-art-exhibitions.svx` - honest about the confirmed gallery
+track/picture-lighting gap, covers what's real instead: sound, mic, lit-room-legible screen,
+ambient reception lighting) and "...for trade shows" (still queued) have grounded generic AV
+equipment but an unverified specialty angle (booth-scale/multi-day logistics for trade shows -
+not previously documented) that needs a quick confirmation before drafting.
