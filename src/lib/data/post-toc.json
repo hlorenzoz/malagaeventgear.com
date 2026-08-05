@@ -1418,6 +1418,88 @@
       "level": 3
     }
   ],
+  "audio-visual-rental-planning-timeline": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "the-first-real-decision-guest-count-and-package-fit",
+      "text": "The First Real Decision: Guest Count and Package Fit",
+      "level": 2
+    },
+    {
+      "id": "what-we-need-from-you-to-build-an-accurate-quote",
+      "text": "What We Need From You to Build an Accurate Quote",
+      "level": 2
+    },
+    {
+      "id": "the-one-hard-deadline-24-hours-not-a-suggested-lead-time",
+      "text": "The One Hard Deadline: 24 Hours, Not a Suggested Lead Time",
+      "level": 2
+    },
+    {
+      "id": "what-does-not-change-however-early-or-late-you-book",
+      "text": "What Does Not Change However Early or Late You Book",
+      "level": 2
+    },
+    {
+      "id": "real-setups-weve-delivered",
+      "text": "Real Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "booking-across-the-costa-del-sol-sevilla-and-granada",
+      "text": "Booking Across the Costa del Sol, Sevilla and Granada",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "how-far-in-advance-should-i-book-audio-visual-rental-in-malaga",
+      "text": "How far in advance should I book audio visual rental in Malaga?",
+      "level": 3
+    },
+    {
+      "id": "does-booking-earlier-get-me-a-better-price",
+      "text": "Does booking earlier get me a better price?",
+      "level": 3
+    },
+    {
+      "id": "what-information-do-you-need-from-me-to-send-a-quote",
+      "text": "What information do you need from me to send a quote?",
+      "level": 3
+    },
+    {
+      "id": "can-i-add-equipment-or-technician-hours-after-i-have-already-booked",
+      "text": "Can I add equipment or technician hours after I have already booked?",
+      "level": 3
+    },
+    {
+      "id": "is-there-a-deposit-or-contract-before-my-date-is-secured",
+      "text": "Is there a deposit or contract before my date is secured?",
+      "level": 3
+    },
+    {
+      "id": "what-is-the-minimum-notice-period-for-a-booking-or-a-change",
+      "text": "What is the minimum notice period for a booking or a change?",
+      "level": 3
+    }
+  ],
   "7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain": [
     {
       "id": "malaga-event-gear-marks-seven-year-milestone-providing-essential-audio-infrastructure-for-malagas-community-dialogue",
