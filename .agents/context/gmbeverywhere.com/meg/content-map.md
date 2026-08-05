@@ -383,13 +383,15 @@ organized around technician-vs-self-run staffing, real TRIPODE stand inventory, 
 no-rigging disclosure) and "audio visual rental planning timeline" (PUBLISHED 2026-08-05,
 `audio-visual-rental-planning-timeline.svx`, organized around guest count/package capacity, the
 real 4-step quote workflow, and the 24 hour minimum notice, deliberately rejecting the
-calendar-based lead-time table every competitor result uses). **3 need a business decision before drafting, not resolved here**: "common
-damages with wedding rentals" and "audio visual rental insurance options" both sit on the exact
-"unverifiable claim" pattern already retired once on this project (see `protecting-your-wedding-
-rental-items.svx`'s rewrite, commit `78986e7`, which removed a fabricated insurance/deposit
-clause) - MEG has no published damage/liability/insurance policy today, so drafting either
-requires first deciding whether one should exist to publish, or whether these stay an honesty
-note folded into an existing post. "Audio visual rental for art exhibitions" (PUBLISHED
+calendar-based lead-time table every competitor result uses). "Common damages with wedding
+rentals" and "audio visual rental insurance options" both sit on the exact "unverifiable claim"
+pattern already retired once on this project (see `protecting-your-wedding-rental-items.svx`'s
+rewrite, commit `78986e7`, which removed a fabricated insurance/deposit clause) - MEG has no
+published damage/liability/insurance policy today. User confirmed 2026-08-05: state that plainly
+rather than invent one. "Common damages with wedding rentals" RESOLVED as a new FAQ entry on
+`protecting-your-wedding-rental-items.svx` (no new page - the honest facts were already
+established there, this FAQ just answers the literal search phrase directly). "Audio visual
+rental insurance options" still queued for the same honest-FAQ treatment on the AV side. "Audio visual rental for art exhibitions" (PUBLISHED
 2026-08-05, `audio-visual-rental-for-art-exhibitions.svx` - honest about the confirmed gallery
 track/picture-lighting gap, covers what's real instead: sound, mic, lit-room-legible screen,
 ambient reception lighting) and "...for trade shows" (PUBLISHED 2026-08-05,
