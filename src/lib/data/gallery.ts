@@ -54,11 +54,6 @@ export const galleryImages: GalleryImage[] = [
 
 	// Corporate / MICE
 	{
-		src: 'https://cdn.malagaeventgear.com/blog/1313/corporate-event-600x401.webp',
-		alt: 'Corporate event lighting and stage setup',
-		category: 'corporate'
-	},
-	{
 		src: 'https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-scaled-600x448.webp',
 		alt: 'Malaga international event AV rental system',
 		category: 'corporate'
