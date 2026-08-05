@@ -378,8 +378,10 @@ support, and the pillar's own "audio visual rental services" self-description on
 variants risking the same cannibalization a prior fix already corrected once; "common mistakes,"
 "luxury on a budget," "best practices for av rental logistics," "how to clean," 2 policy-question
 variants). **2 are genuine, clean gaps with no equipment or business-fact risk**: "audio visual
-rental safety guidelines" and "audio visual rental planning timeline" (both AV silo) - queued for
-the normal pipeline. **3 need a business decision before drafting, not resolved here**: "common
+rental safety guidelines" (PUBLISHED 2026-08-05, `audio-visual-rental-safety-guidelines.svx`,
+organized around technician-vs-self-run staffing, real TRIPODE stand inventory, and an honest
+no-rigging disclosure) and "audio visual rental planning timeline" (both AV silo) - the latter
+still queued for the normal pipeline. **3 need a business decision before drafting, not resolved here**: "common
 damages with wedding rentals" and "audio visual rental insurance options" both sit on the exact
 "unverifiable claim" pattern already retired once on this project (see `protecting-your-wedding-
 rental-items.svx`'s rewrite, commit `78986e7`, which removed a fabricated insurance/deposit
