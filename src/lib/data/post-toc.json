@@ -3384,6 +3384,128 @@
       "level": 3
     }
   ],
+  "audio-visual-rental-for-art-exhibitions": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "what-we-provide-for-an-exhibition-opening",
+      "text": "What We Provide for an Exhibition Opening",
+      "level": 2
+    },
+    {
+      "id": "the-honest-line-what-we-do-not-provide-for-the-artwork-itself",
+      "text": "The Honest Line: What We Do Not Provide for the Artwork Itself",
+      "level": 2
+    },
+    {
+      "id": "a-lit-room-legible-screen-for-an-artist-statement-or-video-piece",
+      "text": "A Lit Room Legible Screen for an Artist Statement or Video Piece",
+      "level": 2
+    },
+    {
+      "id": "ambient-lighting-reception-atmosphere-not-artwork-illumination",
+      "text": "Ambient Lighting: Reception Atmosphere, Not Artwork Illumination",
+      "level": 2
+    },
+    {
+      "id": "match-your-opening-to-a-package",
+      "text": "Match Your Opening to a Package",
+      "level": 2
+    },
+    {
+      "id": "real-setups-weve-delivered",
+      "text": "Real Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "one-event-not-an-ongoing-installation",
+      "text": "One Event, Not an Ongoing Installation",
+      "level": 2
+    },
+    {
+      "id": "booking-and-service-area",
+      "text": "Booking and Service Area",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "what-av-equipment-do-i-need-for-an-art-exhibition-opening",
+      "text": "What AV equipment do I need for an art exhibition opening?",
+      "level": 3
+    },
+    {
+      "id": "do-i-need-a-microphone-for-an-artist-talk-or-opening-remarks",
+      "text": "Do I need a microphone for an artist talk or opening remarks?",
+      "level": 3
+    },
+    {
+      "id": "how-do-you-size-sound-for-an-exhibition-opening",
+      "text": "How do you size sound for an exhibition opening?",
+      "level": 3
+    },
+    {
+      "id": "can-you-project-an-artist-statement-or-a-video-art-piece-with-the-gallerys-lights-on",
+      "text": "Can you project an artist statement or a video art piece with the gallery's lights on?",
+      "level": 3
+    },
+    {
+      "id": "does-malaga-event-gear-provide-lighting-for-the-artwork-itself",
+      "text": "Does Malaga Event Gear provide lighting for the artwork itself?",
+      "level": 3
+    },
+    {
+      "id": "what-ambient-lighting-do-you-provide-for-the-reception",
+      "text": "What ambient lighting do you provide for the reception?",
+      "level": 3
+    },
+    {
+      "id": "how-much-does-audio-visual-rental-cost-for-an-art-exhibition-opening",
+      "text": "How much does audio visual rental cost for an art exhibition opening?",
+      "level": 3
+    },
+    {
+      "id": "what-size-opening-does-each-package-support",
+      "text": "What size opening does each package support?",
+      "level": 3
+    },
+    {
+      "id": "is-a-technician-included-for-an-exhibition-opening",
+      "text": "Is a technician included for an exhibition opening?",
+      "level": 3
+    },
+    {
+      "id": "how-far-in-advance-should-i-book-av-for-an-exhibition-opening",
+      "text": "How far in advance should I book AV for an exhibition opening?",
+      "level": 3
+    },
+    {
+      "id": "do-you-provide-av-for-the-run-of-the-exhibition-or-just-the-opening",
+      "text": "Do you provide AV for the run of the exhibition, or just the opening?",
+      "level": 3
+    },
+    {
+      "id": "should-an-artist-talk-use-a-handheld-or-a-gooseneck-microphone",
+      "text": "Should an artist talk use a handheld or a gooseneck microphone?",
+      "level": 3
+    }
+  ],
   "common-av-rental-mistakes": [
     {
       "id": "brief-overview",
