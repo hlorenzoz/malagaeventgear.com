@@ -392,6 +392,12 @@ requires first deciding whether one should exist to publish, or whether these st
 note folded into an existing post. "Audio visual rental for art exhibitions" (PUBLISHED
 2026-08-05, `audio-visual-rental-for-art-exhibitions.svx` - honest about the confirmed gallery
 track/picture-lighting gap, covers what's real instead: sound, mic, lit-room-legible screen,
-ambient reception lighting) and "...for trade shows" (still queued) have grounded generic AV
-equipment but an unverified specialty angle (booth-scale/multi-day logistics for trade shows -
-not previously documented) that needs a quick confirmation before drafting.
+ambient reception lighting) and "...for trade shows" (PUBLISHED 2026-08-05,
+`audio-visual-rental-for-trade-shows.svx` - confirmation pass complete: real trade show AV search
+intent is exhibit-house content (LED video walls, booth
+fabrication/design, rigging/truss, touchscreen/kiosk/laptop rental, a standard multi day rate)
+that MEG's catalog does not honestly serve; the page scopes down to AV for a single exhibitor's
+own stand demo, sound/mic/screen/lighting matched to a package, states the 4 exclusions plainly,
+and cites the real PROGOLD SUMMIT 2026 multi day precedent as evidence multi day work is possible
+via custom quote only, never a standard rate) had grounded generic AV equipment but an unverified
+specialty angle that needed this confirmation before drafting.
