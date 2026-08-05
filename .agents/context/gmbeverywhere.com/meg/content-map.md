@@ -351,3 +351,41 @@ Pillar: `stage-lighting-rental` (published 2026-08-03; the category's original w
 3. `translation-voting` entry - RESOLVED 2026-07-31: business confirmed (Sergio, WhatsApp, 2026-07-31 12:45) MEG genuinely offers simultaneous interpretation and interactive voting systems, but subcontracted - no own equipment. faq.ts, the pillar, `audio-visual-rental-for-religious-events.svx` and `event-technology-service.svx` were all corrected to say "not our own equipment, but arranged via a subcontracted partner" rather than a flat no. The video wall part of the same FAQ entry was a SEPARATE, unrelated false claim (already well established elsewhere that the large format display is a single 60 inch panel, not a modular wall) and was removed rather than reframed. See category 1 row 33 and category 2 row 19.
 
 **Category 2 outcome (2026-07-31, superseded reasoning below):** wrote the pillar `audiovisual-equipment-rental-service.svx` positioned as "specialized/niche equipment" with an explicit "What We Don't Offer" section covering 11 of the 19 services by name. 5 services were true duplicates of existing primary-silo posts. Only 2 (holiday lighting, standalone AV cable) remain open pending equipment-context updates.
+
+**PageOptimizer Pro (POP) legacy keyword CSV audit (2026-08-05, in progress):** a separate,
+older keyword source at `.agents/context/keywords/pop/PageOptimizer Pro _ Reverse Silo - POP.csv`
+(a PageOptimizer Pro reverse-silo export, distinct from the `fixed.md`/Category Finder 2.0 list
+this whole document is built from) defines its own two keyword chains for the same 2 pillars
+(`audio visual rental`, `wedding rentals`), with an explicit intended sibling-link order per row.
+Its own Status column is stale (disconnected from the live site - several rows marked unfinished
+already have a real post under a matching slug, e.g. `timeline-for-booking-wedding-rentals`,
+`protecting-your-wedding-rental-items`, `managing-last-minute-wedding-rental-changes`,
+`weather-considerations-for-outdoor-rentals`). Of 42 nominally unfinished `wedding rentals` rows,
+**~30 are pure decor/furniture/tableware/tent/glassware/chairs/centerpiece/linens/arch/bar
+keywords** (e.g. "wedding lounge furniture rental," "choosing chairs for wedding rentals,"
+"wedding arch rental inspiration") that directly contradict the AV-only business fact already
+established and enforced across the entire wedding-rentals silo cleanup (see
+`wedding_rentals_silo_cleanup.md` in local memory) - user confirmed 2026-08-05 to skip these
+entirely, no content will be drafted for them, they are out of scope by the same standing
+business fact as the rest of the silo. The remaining 25 rows (11 ambiguous wedding-rentals keywords plus all 14 `audio visual rental`
+keywords) were triaged individually against existing published content (2026-08-05). Outcome:
+**20 of 25 need no new page** - 12 already fully covered by an existing post (timing/timeline
+booking questions, storage, return, budgeting all answered inside `timeline-for-booking-wedding-
+rentals.svx`, `pros-and-cons-of-wedding-rentals.svx`, `tips-for-reducing-wedding-rental-costs.svx`
+on the wedding side; package comparison, mic choice, package selection, screen choice, onsite
+support, and the pillar's own "audio visual rental services" self-description on the AV side) and
+8 are near-duplicates with only a thin, not-worth-a-separate-page angle surviving (2 "near me"
+variants risking the same cannibalization a prior fix already corrected once; "common mistakes,"
+"luxury on a budget," "best practices for av rental logistics," "how to clean," 2 policy-question
+variants). **2 are genuine, clean gaps with no equipment or business-fact risk**: "audio visual
+rental safety guidelines" and "audio visual rental planning timeline" (both AV silo) - queued for
+the normal pipeline. **3 need a business decision before drafting, not resolved here**: "common
+damages with wedding rentals" and "audio visual rental insurance options" both sit on the exact
+"unverifiable claim" pattern already retired once on this project (see `protecting-your-wedding-
+rental-items.svx`'s rewrite, commit `78986e7`, which removed a fabricated insurance/deposit
+clause) - MEG has no published damage/liability/insurance policy today, so drafting either
+requires first deciding whether one should exist to publish, or whether these stay an honesty
+note folded into an existing post. "Audio visual rental for art exhibitions" and "...for trade
+shows" have grounded generic AV equipment but an unverified specialty angle (gallery track
+lighting for exhibitions - not in Equipamiento.csv; booth-scale/multi-day logistics for trade
+shows - not previously documented) that needs a quick confirmation before drafting.
