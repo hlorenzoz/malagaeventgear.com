@@ -410,3 +410,35 @@ already-covered/near-duplicate (20), published as a new standalone post (4: safe
 planning timeline, art exhibitions, trade shows), or resolved as a new FAQ entry on an existing
 post (2: common damages, insurance options), on top of the ~30 decor/furniture rows already
 skipped as out of scope. Nothing remains open from that CSV.
+
+**Google Ads keyword research audit (2026-08-06, closed):** a third, separate keyword source at
+`.agents/context/keywords/google-ads/` (14 files: 12 topic-clustered PPC exports - Business &
+Company, Event Production, Events & Companies AV, Events & Company Generic, Karaoke, Lighting,
+Microphone, Projector/Screen/Conference/Exhibit/Present, Smoke, Speaker, Stage, Wedding - plus 2
+noisy broad-match "Keyword Stats"/"Ubersuggest" exports) totaling ~908 raw long-tail phrases was
+clustered into real distinct search intents and cross-checked against the live site,
+Equipamiento.csv and packages.ts (6 parallel research passes). Headline finding: **the entire
+raw keyword set collapses to zero standalone-post gaps** - every real intent (speaker, mic,
+stage, lighting, projector/screen, conference, exhibition, wedding AV, "AV rental company"
+positioning) is already served by existing pages built during the fixed.md and POP CSV work.
+Confirmed no-fit (fabrication risk, correctly avoided): generator, dry ice/snow/punch machine,
+disco ball, inflatable screen, LED video wall, stage truss/trailer, studio recording mics,
+push-to-talk radio mics, "event production company" as a managed-service business (MEG rents
+equipment, does not produce events) - all already declared elsewhere on the site. 4 small,
+real action items resolved, all as FAQ/section additions rather than new pages:
+1. Wedding smoke/fog machine - business confirmed the Martin Magnum-650 (already an Eco Pack
+   add-on) is also available on the Wedding Pack. Added `optional`/`optionalTags` to the Wedding
+   Pack entry in `packages.ts` (previously had none) and a matching FAQ on
+   `audio-visual-rental-for-weddings.svx`.
+2. Karaoke - no dedicated karaoke product exists (no console, no lyrics display), but the Eco
+   Pack's real speakers+mic honestly cover the sound half if the host brings their own app/
+   backing tracks. Business confirmed this reframe; added as a new FAQ on
+   `audio-visual-rental-for-private-parties.svx`.
+3. "What is audio visual equipment" - a genuine informational-intent gap (no page explained AV
+   equipment in plain language). Added a short explainer FAQ to the primary pillar,
+   `audio-visual-rental.svx`.
+4. Stage riser/deck/podium terminology - the real GUIL modular stage platform (35 EUR/sqm, MICE
+   Pack add-on) was already documented under "staging" only; added the riser/deck/podium
+   synonyms to `audiovisual-equipment-rental-service.svx`'s Modular Staging section.
+
+Nothing remains open from the Google Ads keyword source.
