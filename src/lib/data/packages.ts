@@ -189,12 +189,17 @@ const packagesData: EventPackage[] = [
 				'Desmontaje rápido post-evento y recogida logística'
 			]
 		},
+		optional: {
+			en: ['Professional smoke/fog machine (+20€)'],
+			es: ['Máquina de humo/niebla profesional (+20€)']
+		},
 		maxGuests: 80,
 		popular: true,
 		image: '/images/packages/wedding.webp',
 		category: 'social',
 		purpose: ['wedding', 'party'],
 		includeTags: ['sound', 'microphone', 'lighting', 'transport', 'technician'],
+		optionalTags: ['smoke-machine'],
 		seo: {
 			title: {
 				en: 'Wedding Pack Sound & Romantic Lighting | Malaga Event Gear',

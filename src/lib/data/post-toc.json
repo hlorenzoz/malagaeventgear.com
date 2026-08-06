@@ -158,6 +158,11 @@
       "level": 3
     },
     {
+      "id": "can-we-add-a-smoke-or-fog-machine-to-the-wedding-pack",
+      "text": "Can we add a smoke or fog machine to the Wedding Pack?",
+      "level": 3
+    },
+    {
       "id": "do-you-provide-wedding-decor-furniture-or-dancefloor-accessories",
       "text": "Do you provide wedding decor, furniture or dancefloor accessories?",
       "level": 3
@@ -4594,6 +4599,11 @@
     {
       "id": "what-extras-are-available-for-a-private-party",
       "text": "What extras are available for a private party?",
+      "level": 3
+    },
+    {
+      "id": "can-i-use-this-setup-for-karaoke",
+      "text": "Can I use this setup for karaoke?",
       "level": 3
     },
     {
