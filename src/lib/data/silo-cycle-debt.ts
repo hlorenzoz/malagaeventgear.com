@@ -16,6 +16,15 @@
  * futuro se hace la limpieza real del cluster, hay que volver a generar este archivo (o
  * borrarlo si la deuda queda en cero) en vez de simplemente agregarle mas signatures.
  *
+ * Actualizado 2026-08-06: la reescritura de audio-visual-rental-for-weddings.svx (fix de
+ * cannibalization contra wedding-rentals.svx) sacó el link lateral suelto hacia
+ * audio-visual-rental-for-virtual-events.svx que era la única entrada de ese par reciproco
+ * (audio-visual-rental-for-weddings <-> wedding-rentals, ya reciproco entre si) hacia la malla
+ * gigante. Sin esa entrada, el par queda aislado como cadena de 2 nodos adyacentes - exactamente
+ * el patron esperado (AGENTS.md "cadena, no todos-con-todos"), no un ciclo. La componente bajo de
+ * 60 a 58 nodos; ambos slugs salieron de la signature de abajo. No es limpieza completa del
+ * cluster (los otros 58 siguen en malla), es la reduccion real que este cambio puntual logro.
+ *
  * Formato de cada signature: los slugs de la componente, deduplicados, ordenados
  * alfabéticamente y unidos con `|` (mismo formato que usa internamente `findStronglyConnectedComponents`
  * a través de `validateSiloGraph`).
@@ -45,7 +54,6 @@ export const KNOWN_SILO_CYCLE_DEBT: readonly string[] = [
 		'audio-visual-rental-for-sports-events',
 		'audio-visual-rental-for-training-sessions',
 		'audio-visual-rental-for-virtual-events',
-		'audio-visual-rental-for-weddings',
 		'audiovisual-equipment-rental-service',
 		'av-cable-management',
 		'av-equipment-consultations',
@@ -79,7 +87,6 @@ export const KNOWN_SILO_CYCLE_DEBT: readonly string[] = [
 		'unique-wedding-ceremony-rentals',
 		'video-switcher-rental',
 		'weather-considerations-for-outdoor-rentals',
-		'wedding-rentals',
 		'wedding-rentals-near-me',
 		'wedding-rentals-online'
 	]

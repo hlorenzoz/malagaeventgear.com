@@ -1,12 +1,12 @@
 ---
 title: "Audio Visual Rental for Weddings in Malaga, Spain"
-description: "Audio visual rental for weddings in Malaga: sound for up to 80 guests, wireless mics for vows, fairy lights and a technician on site, from 650 euros ex VAT."
+description: "Audio visual rental for weddings in Malaga, hour by hour: soundcheck, vows, speeches, the ceremony to reception switch, and dancing, run by one technician."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-weddings
 publishDate: "2025-11-23"
 updatedDate: "2026-08-06"
-excerpt: "Audio visual rental for weddings in Malaga: sound for up to 80 guests, wireless mics for vows, fairy lights and a technician on site, from 650 euros ex VAT."
-coverImage: https://cdn.malagaeventgear.com/blog/1638/wedding_rings_heart_book.webp
+excerpt: "Audio visual rental for weddings in Malaga, hour by hour: soundcheck, vows, speeches, the ceremony to reception switch, and dancing, run by one technician."
+coverImage: https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding.webp
 categories: [Audio Visual Rental, Events, Weddings]
 tags: []
 draft: false
@@ -21,106 +21,102 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for audio visual rental for weddings in Malaga? A wedding needs one thing above all else from its AV: nothing going wrong during the vows. Sound that reaches every guest, a wireless mic for speeches, and a technician on site to catch a feedback loop before anyone notices it.
+Looking for audio visual rental for weddings in Malaga? This guide is not the place for the Wedding Pack's price or its guest capacity, our [wedding rentals](/blog/wedding-rentals/) guide covers that in full. This page covers something different: what actually happens with the sound and the microphones across your wedding day, from the soundcheck before your first guest is seated to the moment the reception turns into dancing, including the one complication most other events on our books never have to plan for, a ceremony and a reception in two different spaces, often one outdoor and one indoor, inside the same booking.
 
-Malaga Event Gear delivers, installs and tests that setup across Malaga and the wider Costa del Sol.
-
-Contact us today to discuss your wedding.
+Contact us today to discuss your ceremony and reception, whatever the two spaces look like.
 
 ## Brief Overview
 
 ---
 
-Malaga Event Gear's [Wedding Pack](/packages/wedding/) covers the AV side of your day: PA sound for up to 80 guests, fairy-light ambient lighting, wireless microphones for vows and speeches, and a live technician on site throughout. Backed by experience going back to 1996, we deliver, install and test the equipment ourselves.
+A wedding is not one static AV setup, it is the same PA system, wireless microphones and technician working across several different moments in one day: a quiet soundcheck, a ceremony built around one or two voices, speeches that pass a microphone hand to hand, a reception that settles into ambient background sound, and a dancefloor that needs real volume. The [Wedding Pack](/packages/wedding/) covers all of it for up to 80 guests, but what changes hour to hour is how that equipment gets used, not which equipment shows up.
 
-Contact us today to discuss your wedding.
+This guide walks through that day in order, ending with the one piece of it that is genuinely unique to a wedding: the switch between your ceremony space and your reception space, inside a single event.
 
 ## Key Highlights
 
 ---
 
-The [Wedding Pack](/packages/wedding/) is built specifically for wedding-day AV.
-
--   High-end active PA sound for up to 80 guests, sized for a villa, finca or wedding hotel.
-
--   Fairy lights and warm LED strings for romantic ambient lighting, not a stage rig.
-
--   Wireless microphones for vows, speeches and announcements, not a corded mic tying anyone to a stand.
-
--   A live technician on site throughout, watching for feedback and adjusting sound during the banquet and speeches.
-
-## Why the Technician Matters at a Wedding
-
-Most of our packages don't include a technician standard; the Wedding Pack does, alongside only the MICE Pack. At a wedding, that matters more than at almost any other event: vows and speeches happen once, live, in front of everyone who matters to you. A technician on site catches a microphone feedback loop or a dropped connection before it becomes the thing people remember.
+-   A soundcheck happens before your first guest is seated, testing the actual venue rather than an empty room hours earlier.
+-   A wireless lavalier microphone, worn by the officiant, is the real setup for vows: discreet, and it does not tie either of you to a stand.
+-   Lavalier microphones are genuinely more feedback prone than a handheld mic, which is exactly why the Wedding Pack includes a technician for the full event, no hour cap, one of only two packages in our catalog built that way.
+-   Speeches switch to a wireless handheld microphone, with our technician managing the handoff between speakers so there is no dead air.
+-   Fairy lights and ambient lighting for the reception are the simple half of the day: setup and cabling, not a technical process.
 
 <InlineCTA />
 
-## What's Included, at 650 Euros
+## Before the Ceremony: Soundcheck and Setup
 
-The [Wedding Pack](/packages/wedding/) costs 650 euros, ex VAT, and includes PA sound for up to 80 guests, fairy-light ambient lighting, wireless microphones, transport, professional setup, and a live technician for the event. See full details on our [packages page](/packages/).
+Our crew arrives and runs a soundcheck ahead of your first guest being seated, testing the officiant's microphone and the ceremony speakers against the actual space rather than an empty room hours earlier. This is the wedding day version of the same testing our crew runs at every booking. For the deeper explanation of that process itself, gain staging and how an indoor hall and an open air ceremony get set up differently, see our Audio System Calibration guide elsewhere on this blog.
 
-## What We Provide, and What We Don't
+## During the Vows: The Officiant's Microphone, and Why It Needs a Technician
 
-We provide sound, lighting and microphones for the ceremony and reception. We do not provide a projector, screen or LED display: the Wedding Pack has none, since a wedding rarely needs one. We also do not provide décor, furniture or dancefloor accessories: for those, look at a dedicated event decor or furniture rental company. Our [wedding rentals](/blog/wedding-rentals/) guide covers the same audio visual side of your day in more depth, not decor or furniture.
+For the vows themselves, our real setup is a wireless lavalier microphone from our Audix wireless range, clipped to the officiant: small enough to stay out of every photo, and free enough that neither of you is standing behind a stand during your own vows. It is not the only wireless microphone in our catalog, we also carry wireless handheld sets, used later for speeches, but a lavalier is the one built for a close, moving voice like an officiant's during a ceremony.
+
+The honest tradeoff is worth saying plainly: a lavalier microphone, worn close to the mouth and run through a live PA system, is genuinely more prone to feedback, the rising squeal a system makes when it picks up its own amplified sound, than a handheld mic held further from the speakers. That is exactly why the [Wedding Pack](/packages/wedding/) includes a technician on site for the entire event, not a set number of hours, one of only two packages in our catalog built that way. Our technician watches that specific risk during your vows and adjusts before it ever reaches your guests, rather than after.
+
+## Speeches at the Reception: The Handheld Microphone and the Handoff
+
+Once your ceremony ends and speeches begin, the microphone changes too: a wireless handheld set replaces the lavalier, better suited to a stationary speaker at a table or a mic stand than to the officiant's close, moving position during the vows. As the best man, the maid of honor or a parent takes their turn, our technician manages the handoff between speakers so a beat of silence never turns into a long, awkward pause while a microphone gets passed and repositioned.
+
+## The Ceremony to Reception Switch: When Your Venue Changes Mid Event
+
+This is the part of a wedding day that no other event on our books has to plan for. A corporate conference or a birthday party runs in one room, calibrated once. A wedding, very often, does not: an outdoor ceremony under a floral arch moves into an indoor or covered reception once the vows are done, or the reverse, an indoor ceremony followed by an open air reception.
+
+Our crew already adjusts sound continuously as your day moves from ceremony to speeches to dancing, the same real coverage described on our wedding rentals guide. When that also means a change of room and not just a change of moment, the same principle applies: a room's acoustics change what correct settings look like, whether that room change happens between two separate bookings or in the middle of one wedding day. That is exactly why the Wedding Pack technician has no hour cap: the day can call for more than one calibrated setup, not just one long one held from a single position.
+
+## Fairy Lights and Ambient Sound Once the Tables Are Set
+
+Once your reception space is ready, the [Wedding Pack](/packages/wedding/) adds fairy lights and warm LED strings for ambient lighting, with professional setup and cabling run cleanly rather than left as a trip hazard across the floor. This is intentionally the simple half of the day: no technical process to explain, just lighting placed and powered correctly ahead of your guests arriving at their tables.
+
+## Dancing: When the Volume Changes
+
+The last shift in the day is the most straightforward: as dinner and speeches give way to dancing, our technician brings the sound up from the conversational level speeches need to the level a dancefloor actually needs, then keeps adjusting it as the room fills or empties through the night.
+
+## What This Guide Does Not Cover
+
+This page is strictly about the wedding day's own AV arc, not the package, its price or its full inclusions. See our [wedding rentals](/blog/wedding-rentals/) guide for that, along with booking lead time and service area. It is also not the generic explanation of gain staging, indoor versus outdoor acoustics, or equipment troubleshooting: those are covered in general terms, for any event type, in our Audio System Calibration, Audio Visual Rental for Outdoor Events, Technical Support for Events and AV Technician Hire guides elsewhere on this blog. And it is not decor, furniture or dancefloor accessories: the Wedding Pack does not include those, and neither does this page.
 
 ## Real Setups We've Delivered
 
 ![A beautiful beach wedding ceremony setup with a red carpet aisle and floral arch.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-A red carpet aisle and floral arch set up on a beach for an outdoor wedding ceremony.
+An outdoor ceremony like this one is exactly where a lavalier microphone on the officiant earns its keep, worn close to a moving voice with open air working against it instead of walls.
 
 ![Elegant indoor wedding ceremony hall with white floral arrangements and chandeliers.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
 
-An indoor hall set up for a wedding ceremony, with sound in place for vows and readings.
+The same ceremony, set up indoors instead: a different acoustic problem for the same lavalier microphone, and the kind of room change our crew resets for when a ceremony and reception happen in two different spaces.
 
 ![Wedding reception table with pink flowers and lights.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
 
-A wedding reception table glowing under fairy lights, with pink flowers and lanterns.
+The other side of the switch: fairy lights and ambient sound in place once the tables are set, ahead of speeches and the night's dancing.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1636/', '/1635/', '/1628/'])} speed="normal" direction="left" deferMount={false} />
 </div>
 
-## Booking and Service Area
-
-Our services focus on Malaga and extend to Granada for rentals over 400 euros. Wedding dates fill up quickly, so book as early as you can once your date and venue are confirmed.
-
 ## Conclusion
 
-Whether it is a beach ceremony or a villa reception, Malaga Event Gear delivers the sound, lighting and technician your wedding day needs. For our full range, see the [audio visual rental page](/blog/audio-visual-rental/). [Contact us](/contact/) to discuss your wedding.
-
-Planning a virtual or hybrid event instead of a wedding? See our [audio visual rental for virtual events](/blog/audio-visual-rental-for-virtual-events/) guide.
+A wedding day's sound is not one setup, it is several, run by the same technician from the first guest to the last dance: a soundcheck, a lavalier microphone for the vows, a handheld microphone for speeches, a reset between your ceremony and reception spaces if they differ, and a volume shift into dancing. [Contact us](/contact/) to talk through your ceremony and reception. For our complete audio visual rental range in Malaga, see the [audio visual rental](/blog/audio-visual-rental/) guide.
 
 ## FAQs
 
-### What AV equipment do I need for a wedding?
+### What microphone do you use for the vows, and who wears it?
 
-PA sound sized to your guest count, a wireless microphone for vows and speeches, and ambient lighting. The [Wedding Pack](/packages/wedding/) covers all three, with a technician on site. See [Why the Technician Matters at a Wedding](#why-the-technician-matters-at-a-wedding) above.
+A wireless lavalier microphone, clipped to the officiant. It is small, stays out of photos, and does not require either of you to stand near a microphone stand during your vows. See [During the Vows](#during-the-vows-the-officiants-microphone-and-why-it-needs-a-technician) above.
 
-### How much does audio visual rental cost for a wedding?
+### Why does a lavalier microphone need a technician present?
 
-The Wedding Pack costs 650 euros, ex VAT, with 21 percent Spanish VAT added at checkout. The price includes delivery, setup and teardown. See exact pricing on our [packages page](/packages/).
+A lavalier microphone, worn close to the mouth and run through a live PA system, is genuinely more prone to feedback than a handheld microphone held further from the speakers. The Wedding Pack includes a technician for the full event specifically to watch for that risk and adjust before your guests notice. See [During the Vows](#during-the-vows-the-officiants-microphone-and-why-it-needs-a-technician) above.
 
-### Is a technician included for a wedding?
+### What happens to the sound setup between the ceremony and the reception?
 
-Yes. The Wedding Pack includes a live technician on site throughout the event, one of only two packages in our catalog that does.
+Our technician already adjusts sound continuously as your day moves from ceremony to speeches to dancing. When that also means a change of room, the same room by room principle applies: a space's acoustics change what correct settings look like, which is exactly why the Wedding Pack technician has no hour cap. See [The Ceremony to Reception Switch](#the-ceremony-to-reception-switch-when-your-venue-changes-mid-event) above.
 
-### How many guests can the Wedding Pack support?
+### Is there a soundcheck before the ceremony starts?
 
-Up to 80 guests. For a larger wedding, [contact us](/contact/) to discuss options.
+Yes. Our crew tests the officiant's microphone and the ceremony speakers against the actual venue before your first guest is seated, not hours earlier in an empty room. See [Before the Ceremony](#before-the-ceremony-soundcheck-and-setup) above.
 
-### Do you provide a projector or screen for a wedding?
+### Does the technician stay for speeches and dancing too, or just the ceremony?
 
-No, the Wedding Pack does not include one. It is built around sound, lighting and microphones for the ceremony and reception.
-
-### Can we add a smoke or fog machine to the Wedding Pack?
-
-Yes, a professional smoke/fog machine is available as a paid add on for 20 euros, ex VAT, the same real unit we offer across our packages, for a first dance or a cake cutting moment. [Contact us](/contact/) to add it when you book.
-
-### Do you provide wedding decor, furniture or dancefloor accessories?
-
-No, those are not part of our AV packages. See our [wedding rentals](/blog/wedding-rentals/) guide for the full range beyond AV.
-
-### How far in advance should I book AV for a wedding?
-
-Wedding dates fill up quickly, so book as early as you can once your date and venue are confirmed. Our services are available in Malaga and extend to Granada for rentals over 400 euros.
+The whole event, with no hour cap, one of only two packages in our catalog built that way. The same technician switches from the officiant's lavalier to a handheld microphone for speeches, then brings the volume up for dancing later in the night. See [Speeches at the Reception](#speeches-at-the-reception-the-handheld-microphone-and-the-handoff) and [Dancing](#dancing-when-the-volume-changes) above.

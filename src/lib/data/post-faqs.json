@@ -27,36 +27,24 @@
   ],
   "audio-visual-rental-for-weddings": [
     {
-      "question": "What AV equipment do I need for a wedding?",
-      "answer": "PA sound sized to your guest count, a wireless microphone for vows and speeches, and ambient lighting. The Wedding Pack covers all three, with a technician on site. See Why the Technician Matters at a Wedding above."
+      "question": "What microphone do you use for the vows, and who wears it?",
+      "answer": "A wireless lavalier microphone, clipped to the officiant. It is small, stays out of photos, and does not require either of you to stand near a microphone stand during your vows. See During the Vows above."
     },
     {
-      "question": "How much does audio visual rental cost for a wedding?",
-      "answer": "The Wedding Pack costs 650 euros, ex VAT, with 21 percent Spanish VAT added at checkout. The price includes delivery, setup and teardown. See exact pricing on our packages page."
+      "question": "Why does a lavalier microphone need a technician present?",
+      "answer": "A lavalier microphone, worn close to the mouth and run through a live PA system, is genuinely more prone to feedback than a handheld microphone held further from the speakers. The Wedding Pack includes a technician for the full event specifically to watch for that risk and adjust before your guests notice. See During the Vows above."
     },
     {
-      "question": "Is a technician included for a wedding?",
-      "answer": "Yes. The Wedding Pack includes a live technician on site throughout the event, one of only two packages in our catalog that does."
+      "question": "What happens to the sound setup between the ceremony and the reception?",
+      "answer": "Our technician already adjusts sound continuously as your day moves from ceremony to speeches to dancing. When that also means a change of room, the same room by room principle applies: a space's acoustics change what correct settings look like, which is exactly why the Wedding Pack technician has no hour cap. See The Ceremony to Reception Switch above."
     },
     {
-      "question": "How many guests can the Wedding Pack support?",
-      "answer": "Up to 80 guests. For a larger wedding, contact us to discuss options."
+      "question": "Is there a soundcheck before the ceremony starts?",
+      "answer": "Yes. Our crew tests the officiant's microphone and the ceremony speakers against the actual venue before your first guest is seated, not hours earlier in an empty room. See Before the Ceremony above."
     },
     {
-      "question": "Do you provide a projector or screen for a wedding?",
-      "answer": "No, the Wedding Pack does not include one. It is built around sound, lighting and microphones for the ceremony and reception."
-    },
-    {
-      "question": "Can we add a smoke or fog machine to the Wedding Pack?",
-      "answer": "Yes, a professional smoke/fog machine is available as a paid add on for 20 euros, ex VAT, the same real unit we offer across our packages, for a first dance or a cake cutting moment. Contact us to add it when you book."
-    },
-    {
-      "question": "Do you provide wedding decor, furniture or dancefloor accessories?",
-      "answer": "No, those are not part of our AV packages. See our wedding rentals guide for the full range beyond AV."
-    },
-    {
-      "question": "How far in advance should I book AV for a wedding?",
-      "answer": "Wedding dates fill up quickly, so book as early as you can once your date and venue are confirmed. Our services are available in Malaga and extend to Granada for rentals over 400 euros."
+      "question": "Does the technician stay for speeches and dancing too, or just the ceremony?",
+      "answer": "The whole event, with no hour cap, one of only two packages in our catalog built that way. The same technician switches from the officiant's lavalier to a handheld microphone for speeches, then brings the volume up for dancing later in the night. See Speeches at the Reception and Dancing above."
     }
   ],
   "audio-visual-rental-for-product-launches": [
