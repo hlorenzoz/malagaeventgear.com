@@ -98,28 +98,43 @@
       "level": 2
     },
     {
-      "id": "why-the-technician-matters-at-a-wedding",
-      "text": "Why the Technician Matters at a Wedding",
+      "id": "before-the-ceremony-soundcheck-and-setup",
+      "text": "Before the Ceremony: Soundcheck and Setup",
       "level": 2
     },
     {
-      "id": "whats-included-at-650-euros",
-      "text": "What's Included, at 650 Euros",
+      "id": "during-the-vows-the-officiants-microphone-and-why-it-needs-a-technician",
+      "text": "During the Vows: The Officiant's Microphone, and Why It Needs a Technician",
       "level": 2
     },
     {
-      "id": "what-we-provide-and-what-we-dont",
-      "text": "What We Provide, and What We Don't",
+      "id": "speeches-at-the-reception-the-handheld-microphone-and-the-handoff",
+      "text": "Speeches at the Reception: The Handheld Microphone and the Handoff",
+      "level": 2
+    },
+    {
+      "id": "the-ceremony-to-reception-switch-when-your-venue-changes-mid-event",
+      "text": "The Ceremony to Reception Switch: When Your Venue Changes Mid Event",
+      "level": 2
+    },
+    {
+      "id": "fairy-lights-and-ambient-sound-once-the-tables-are-set",
+      "text": "Fairy Lights and Ambient Sound Once the Tables Are Set",
+      "level": 2
+    },
+    {
+      "id": "dancing-when-the-volume-changes",
+      "text": "Dancing: When the Volume Changes",
+      "level": 2
+    },
+    {
+      "id": "what-this-guide-does-not-cover",
+      "text": "What This Guide Does Not Cover",
       "level": 2
     },
     {
       "id": "real-setups-weve-delivered",
       "text": "Real Setups We've Delivered",
-      "level": 2
-    },
-    {
-      "id": "booking-and-service-area",
-      "text": "Booking and Service Area",
       "level": 2
     },
     {
@@ -133,43 +148,28 @@
       "level": 2
     },
     {
-      "id": "what-av-equipment-do-i-need-for-a-wedding",
-      "text": "What AV equipment do I need for a wedding?",
+      "id": "what-microphone-do-you-use-for-the-vows-and-who-wears-it",
+      "text": "What microphone do you use for the vows, and who wears it?",
       "level": 3
     },
     {
-      "id": "how-much-does-audio-visual-rental-cost-for-a-wedding",
-      "text": "How much does audio visual rental cost for a wedding?",
+      "id": "why-does-a-lavalier-microphone-need-a-technician-present",
+      "text": "Why does a lavalier microphone need a technician present?",
       "level": 3
     },
     {
-      "id": "is-a-technician-included-for-a-wedding",
-      "text": "Is a technician included for a wedding?",
+      "id": "what-happens-to-the-sound-setup-between-the-ceremony-and-the-reception",
+      "text": "What happens to the sound setup between the ceremony and the reception?",
       "level": 3
     },
     {
-      "id": "how-many-guests-can-the-wedding-pack-support",
-      "text": "How many guests can the Wedding Pack support?",
+      "id": "is-there-a-soundcheck-before-the-ceremony-starts",
+      "text": "Is there a soundcheck before the ceremony starts?",
       "level": 3
     },
     {
-      "id": "do-you-provide-a-projector-or-screen-for-a-wedding",
-      "text": "Do you provide a projector or screen for a wedding?",
-      "level": 3
-    },
-    {
-      "id": "can-we-add-a-smoke-or-fog-machine-to-the-wedding-pack",
-      "text": "Can we add a smoke or fog machine to the Wedding Pack?",
-      "level": 3
-    },
-    {
-      "id": "do-you-provide-wedding-decor-furniture-or-dancefloor-accessories",
-      "text": "Do you provide wedding decor, furniture or dancefloor accessories?",
-      "level": 3
-    },
-    {
-      "id": "how-far-in-advance-should-i-book-av-for-a-wedding",
-      "text": "How far in advance should I book AV for a wedding?",
+      "id": "does-the-technician-stay-for-speeches-and-dancing-too-or-just-the-ceremony",
+      "text": "Does the technician stay for speeches and dancing too, or just the ceremony?",
       "level": 3
     }
   ],
