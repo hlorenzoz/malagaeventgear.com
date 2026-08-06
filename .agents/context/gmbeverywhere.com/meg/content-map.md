@@ -442,3 +442,67 @@ real action items resolved, all as FAQ/section additions rather than new pages:
    synonyms to `audiovisual-equipment-rental-service.svx`'s Modular Staging section.
 
 Nothing remains open from the Google Ads keyword source.
+
+**Google Search Console performance audit (2026-08-06, closed):** a fourth, qualitatively
+different keyword source - `.agents/context/keywords/google-search-console-gsc/` (real 3-month
+query and page performance data: 571 real queries and 248 real pages, with actual impressions/
+clicks/position, not speculative keyword-research volume) - was clustered via 4 parallel research
+passes (wedding queries, generic AV/company queries, specific-equipment/MICE queries, noise
+filtering). Headline finding, different in kind from the two prior keyword-source audits: **most
+of the real value was in fixing existing underperforming pages, not writing new content.** ~43 of
+571 rows (7.5%) were noise (including 9 rows that are literal AI-assistant prompt-leak artifacts,
+e.g. one row reads `context: location: united kingdom (not for language). do not include location
+references...` - genuine LLM/AI-search referral traffic passing raw prompts through as GSC
+"queries"). Confirmed no-fit (unwinnable SERP / business-model mismatch, same pattern as earlier
+audits): generic non-geo-qualified "all inclusive wedding packages Spain/Madrid/Barcelona/Seville"
+(~2800 impressions, 0 clicks - an AV-only vendor cannot honestly win this SERP; the Malaga-
+qualified version of the same phrase already ranks well, confirming geo-qualification is the
+right scoping), sports arena/esports AV, touring AV, used stage equipment, CDJ/DJ hardware, LED
+wall at trade fairs, and "event agency/convention services/event logistics malaga" positioning
+(real SERPs for these are dominated by full-service DMCs bundling venue+catering+staffing+
+transport, which MEG does not offer - same mismatch as the earlier "event production company"
+finding). Confirmed a real, validated content gap explicitly DEFERRED by user choice (2026-08-06):
+Spanish-language content - the site is 100% English today, but dozens of Spanish queries already
+generate real impressions at decent-to-good positions using only English content + Spanish
+package metadata (e.g. "alquiler iluminacion eventos malaga," 106 impressions, position 11.85).
+Site stays English-only for now; Spanish keywords ignored per explicit decision, not forgotten -
+revisit if a future session raises this again.
+
+**5 real fixes shipped from this audit:**
+1. 4 mechanical SEO fixes across 4 pages flagged by real GSC data as high-impression/poor-
+   position: fixed a broken cross-link promise on `audio-visual-rental-for-weddings.svx`
+   (pointed readers to `wedding-rentals.svx` for decor/furniture, which also doesn't offer that);
+   trimmed title/meta to budget on `wedding-rentals.svx`; de-jargoned title/meta on
+   `how-to-choose-wedding-rentals.svx` (dropped internal SKU names likely explaining 0 clicks on
+   500+ impressions at a good position 7-8); removed a redundant manual TOC on
+   `audio-visual-rental-for-conferences.svx`.
+2. **Architectural decision preserved, not overridden**: the audit proposed adding pillar-to-
+   supporting-post outbound links on `audio-visual-rental.svx` and `wedding-rentals.svx` as the
+   single highest-leverage fix for poor rankings. The seo-fixer correctly refused, citing
+   AGENTS.md's explicit reverse-silo rule (pillar is a pure equity sink, never links down). User
+   confirmed (2026-08-06) keeping the current model - these findings closed as won't-fix,
+   intentional design, not a defect. If GSC data continues to show pillar-adjacent pages ranking
+   poorly in a future audit, this decision is worth revisiting with fresh evidence, not assumed
+   settled forever.
+3. **Content-cannibalization rewrite**: `audio-visual-rental-for-weddings.svx` (position ~78
+   despite 258 real impressions) and `wedding-rentals.svx` were near-duplicate content (same H2
+   outline, same 3 images, same facts restated verbatim). Rewrote the former around a genuinely
+   distinct, honestly-grounded angle: the wedding day's own AV arc (soundcheck, the officiant's
+   lavalier mic during vows and why it needs a technician present - a real causal fact, not an
+   invented one - the handheld-mic handoff at speeches, the ceremony-to-reception venue
+   transition, dancing volume), while `wedding-rentals.svx` keeps the commercial/package-overview
+   angle untouched. Side effect: removing a stray link let this page and `wedding-rentals.svx`
+   (already reciprocal) fall out of the primary cluster's interlinking debt entirely -
+   `silo-cycle-debt.ts`'s baseline dropped from 60 to 58 nodes, a genuine reduction.
+4. "Common damages"/"insurance options" pattern repeated: no dedicated MICE/convention-agency
+   page built (confirmed business-model mismatch, see above), but an honest "AV supplier vs.
+   convention/event agency" FAQ added to `audio-visual-rental-for-conferences.svx`, mirroring the
+   pillar's existing "Rental vs. Full Production Company" pattern, grounded in Malaga's own
+   Convention Bureau services directory (which lists AV rental as one category among many).
+5. "Hybrid event tech spain" (18 impressions, low volume) - confirmed already substantively
+   covered by `audio-visual-rental-for-virtual-events.svx` (title, description and a dedicated
+   FAQ already address "hybrid" explicitly); no action needed, this is a ranking-maturity/backlink
+   question at low volume, not a content gap.
+
+Nothing remains open from the Google Search Console audit except the explicitly-deferred Spanish-
+language opportunity.
