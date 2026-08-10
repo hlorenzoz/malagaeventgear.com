@@ -18,7 +18,27 @@ export const handle: Handle = async ({ event, resolve }) => {
 		'/pricing': '/packages/',
 		'/pricing/': '/packages/',
 		'/contact-us': '/contact/',
-		'/contact-us/': '/contact/'
+		'/contact-us/': '/contact/',
+		// WooCommerce legacy taxonomy: the store was retired in the WP migration and these
+		// product archives never got a rule, so they were serving a hard 404. Detected via the
+		// GSC "Referring page" field on the homepage inspection (2026-08-10).
+		// /my-account/, /cart/, /checkout/ and /product/ are deliberately NOT here: they are store
+		// functionality with no equivalent, so 404 is the correct answer and a 301 to the homepage
+		// would read as a soft 404.
+		'/product-category/mice-pack': '/packages/mice/',
+		'/product-category/mice-pack/': '/packages/mice/',
+		'/product-category/basic-mice-pack': '/packages/basic-mice/',
+		'/product-category/basic-mice-pack/': '/packages/basic-mice/',
+		'/product-category/wedding-pack': '/packages/wedding/',
+		'/product-category/wedding-pack/': '/packages/wedding/',
+		'/product-category/eco-pack': '/packages/eco/',
+		'/product-category/eco-pack/': '/packages/eco/',
+		'/product-category/product-presentation-pack': '/packages/product-presentation/',
+		'/product-category/product-presentation-pack/': '/packages/product-presentation/',
+		'/product-category': '/packages/',
+		'/product-category/': '/packages/',
+		'/shop': '/packages/',
+		'/shop/': '/packages/'
 	};
 
 	if (legacyRedirects[pathname]) {

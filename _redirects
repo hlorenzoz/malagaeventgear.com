@@ -125,6 +125,23 @@
 # effort exists to prevent (2026-08-04):
 /blog/how-to-set-up-rented-audio-visual-equipment-for-outdoor-events/  /blog/audio-visual-rental-for-outdoor-events/  301
 
+# WooCommerce legacy taxonomy. The store was retired in the WP migration and these product
+# archives never got a redirect rule, so they were serving a hard 404. Surfaced by the GSC URL
+# inspection of the homepage, which still lists /product-category/mice-pack/ as a "Referring
+# page" — stale crawl memory, but the URL itself was worth reclaiming since every pack archive
+# maps 1:1 onto a /packages/* route (2026-08-10).
+# Only /product-category/mice-pack/ is confirmed by GSC; the other four slugs follow the same
+# WooCommerce <pack-slug> pattern and cost nothing if they never existed.
+# /my-account/, /cart/, /checkout/ and /product/ are deliberately left at 404: store
+# functionality with no equivalent, where a 301 to the homepage would read as a soft 404.
+/product-category/mice-pack/                  /packages/mice/                  301
+/product-category/basic-mice-pack/            /packages/basic-mice/            301
+/product-category/wedding-pack/               /packages/wedding/               301
+/product-category/eco-pack/                   /packages/eco/                   301
+/product-category/product-presentation-pack/  /packages/product-presentation/  301
+/product-category/                            /packages/                       301
+/shop/                                        /packages/                       301
+
 # BEGIN wp-blog-redirects (managed — do not edit manually)
 /news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/  /blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/  301
 /news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/  /blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/  301
