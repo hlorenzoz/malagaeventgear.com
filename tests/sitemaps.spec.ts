@@ -116,6 +116,31 @@ test.describe('Technical SEO Sitemap & Edge Redirection E2E Tests', () => {
 		expect(page.url()).toBe(`${baseUrl}/packages/eco/`);
 	});
 
+	test('should permanently redirect legacy WooCommerce product archives to their /packages/ equivalent', async ({ page }) => {
+		const response = await page.goto(`${baseUrl}/product-category/mice-pack/`, { waitUntil: 'commit' });
+		expect(response).toBeDefined();
+
+		expect(page.url()).toBe(`${baseUrl}/packages/mice/`);
+	});
+
+	test('should permanently redirect the legacy WooCommerce shop index to /packages/', async ({ page }) => {
+		const response = await page.goto(`${baseUrl}/shop/`, { waitUntil: 'commit' });
+		expect(response).toBeDefined();
+
+		expect(page.url()).toBe(`${baseUrl}/packages/`);
+	});
+
+	test('should keep legacy WooCommerce store-function URLs at 404, never redirected', async ({ request }) => {
+		// Deliberate: /my-account/, /cart/ and /checkout/ are store functionality with no
+		// equivalent page on the current site. Google's guidance is 301 only when an equivalent
+		// exists - otherwise 404/410. Pointing these at the homepage would read as a soft 404.
+		// This test exists so nobody later "fixes" the 404 by adding a redirect.
+		for (const path of ['/my-account/', '/cart/', '/checkout/']) {
+			const response = await request.get(`${baseUrl}${path}`, { maxRedirects: 0 });
+			expect(response.status(), `${path} must stay a hard 404`).toBe(404);
+		}
+	});
+
 	test('should enforce trailing slash redirection on normal public routes', async ({ page }) => {
 		const response = await page.goto(`${baseUrl}/about-us`, { waitUntil: 'commit' });
 		expect(response).toBeDefined();
