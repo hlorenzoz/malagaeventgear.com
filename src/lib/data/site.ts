@@ -16,9 +16,9 @@ export const siteConfig = {
 	url: 'https://malagaeventgear.com',
 	logoUrl: 'https://malagaeventgear.com/logo.png', // Logo principal para Google Knowledge Graph
 	contactEmail: 'contact@malagaeventgear.com',
-	contactPhone: '600 42 87 50',
-	phoneCallUrl: 'tel:+34600428750',
-	whatsappUrl: 'https://wa.me/34600428750',
+	contactPhone: '666 346 911',
+	phoneCallUrl: 'tel:+34666346911',
+	whatsappUrl: 'https://wa.me/34666346911',
 	// Dirección de display (footer), idéntica a la ficha de Google Maps / GMB (NAP consistente).
 	displayAddress: 'Av. de Barcelona, 34, Distrito Centro, 29009 Málaga',
 	// Perfil de Google My Business — ÚNICA fuente para todos los links al perfil del sitio
