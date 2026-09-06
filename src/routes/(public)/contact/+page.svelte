@@ -252,7 +252,7 @@
 							</div>
 							<div>
 								<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest mb-1">{i18n.t.contact.whatsapp}</p>
-								<a class="font-body-lg text-body-lg hover:text-electric-blue transition-colors text-on-surface" href="https://wa.me/34600428750" target="_blank" rel="noopener noreferrer">
+								<a class="font-body-lg text-body-lg hover:text-electric-blue transition-colors text-on-surface" href="https://wa.me/34666346911" target="_blank" rel="noopener noreferrer">
 									{i18n.lang === 'en' ? 'Send us a message' : 'Envianos un mensaje'}
 								</a>
 							</div>

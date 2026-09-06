@@ -145,8 +145,8 @@ const faqData: FaqItem[] = [
 			es: '¿Cómo pueden contactar con Malaga Event Gear (MEG) y qué información deben facilitar?'
 		},
 		answer: {
-			en: 'You can reach us by phone at 600 42 87 50, via WhatsApp, or by email. To get an accurate quote, please share your event date, location, expected number of guests, and the type of equipment or package you are interested in. See our Contact Us page for more details.',
-			es: 'Podés contactarnos por teléfono al 600 42 87 50, por WhatsApp o por email. Para darte un presupuesto preciso, indicanos la fecha del evento, la ubicación, el número estimado de invitados y el tipo de equipo o paquete que te interesa. Visitá nuestra página de Contacto para más detalles.'
+			en: 'You can reach us by phone at 666 346 911, via WhatsApp, or by email. To get an accurate quote, please share your event date, location, expected number of guests, and the type of equipment or package you are interested in. See our Contact Us page for more details.',
+			es: 'Podés contactarnos por teléfono al 666 346 911, por WhatsApp o por email. Para darte un presupuesto preciso, indicanos la fecha del evento, la ubicación, el número estimado de invitados y el tipo de equipo o paquete que te interesa. Visitá nuestra página de Contacto para más detalles.'
 		}
 	},
 	{
