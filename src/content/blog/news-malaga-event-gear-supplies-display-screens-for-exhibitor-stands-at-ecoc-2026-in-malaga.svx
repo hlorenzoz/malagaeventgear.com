@@ -1,0 +1,93 @@
+---
+title: "News: Malaga Event Gear Supplies the Display Screens for Exhibitor Stands at ECOC 2026 in Malaga"
+description: "ECOC 2026 runs from 20 to 24 September at FYCMA in Malaga. Malaga Event Gear supplied and installed the display screens on exhibitor stands across the show floor."
+author: Hector Luis Lorenzo
+slug: news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga
+publishDate: "2026-09-22"
+excerpt: "The 52nd European Conference on Optical Communication opened at FYCMA on 20 September and runs until the 24th, bringing the largest optical communications exhibition in Europe to Malaga. Malaga Event Gear supplied and installed the display screens on exhibitor stands across the show floor, working inside the build up window alongside carpenters, riggers and graphics crews."
+coverImage: https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4.webp
+categories: [News, Events, Corporate & Enterprise]
+tags: []
+draft: false
+keyword: "news malaga event gear supplies display screens for exhibitor stands at ecoc 2026 in malaga"
+siloRole: news
+targetPage: "/"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { ecoc2026GalleryImages } from '$lib/data/gallery';
+</script>
+
+The **52nd European Conference on Optical Communication**, [ECOC 2026](https://www.ecoc2026.org/ECOC2026), opened at **FYCMA** in Malaga on **20 September** and runs until **24 September**. ECOC is the largest and most prestigious optical communications event in Europe and the second largest in the world, and the **ECOC Exhibition** that runs alongside the conference is the biggest optical communications trade show on the continent.
+
+[**Malaga Event Gear (MEG)**](/) supplied and installed the **display screens on exhibitor stands** across the show floor.
+
+![Five flat panel screens installed in a row on the back wall of an exhibitor stand at the ECOC 2026 exhibition in Malaga, powered up and waiting for signal during build up.](https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-1536x1152.webp)
+
+![Three wall mounted screens on an exhibitor stand at ECOC 2026, with packing boxes and flight cases still on the floor during installation.](https://cdn.malagaeventgear.com/blog/3099/ecoc2026-malaga-spain-2-1536x1152.webp)
+
+![A single screen mounted on an orange stand wall at the ECOC 2026 exhibition, with bar stools and a reception counter already in place.](https://cdn.malagaeventgear.com/blog/3102/ecoc2026-malaga-spain-3-1536x1152.webp)
+
+## What Brought a Congress of This Size to Malaga
+
+ECOC moves to a different European city each year, and the 2026 edition is chaired locally by **Iñigo Molina-Fernández** and **Robert Halir** of the **University of Malaga**, alongside **Jose Capmany** and **Ivana Gasulla** of the Technical University of Valencia. The programme covers plenary sessions, tutorials, invited talks, workshops, symposia, a demo zone and poster sessions, spread across five days.
+
+The venue is **FYCMA, Palacio de Ferias y Congresos de Malaga**, at Av. de Jose Ortega y Gasset 201, in the Cruz de Humilladero district. It sits nine kilometres from Malaga airport, which is a large part of why a congress that draws delegates from across Europe, North America and Asia can land here at all.
+
+## Screens on a Trade Show Stand Are Not Screens in a Conference Room
+
+This is the part worth being precise about, because the two jobs share a word and almost nothing else.
+
+A conference room setup has one client, one room and one schedule. You load in, you rig, you sound check, and the first session starts. The technical programme at ECOC, with its plenaries and parallel symposia, is run by the congress technical team on exactly that model. If you want to see how we approach that kind of work, we have written about [audio visual rental for conferences](/blog/audio-visual-rental-for-conferences/) separately.
+
+An exhibition hall is a different animal. Every stand belongs to a different company, was designed by a different agency and is being built by a different contractor, all at the same time, in the same hall, in the same few days. Five practical consequences follow:
+
+1. **The wall is not a given.** One stand is a rented modular panel system, the next is custom carpentry, the next is a printed fabric frame on an aluminium structure. A screen bracket that is correct for one of those is wrong, and sometimes unsafe, on another. The mount has to be chosen per stand, and the wall has to be able to carry the weight.
+2. **You share the floor.** In the photographs below you can see ladders, tool bags, stacked pallets and protective sheeting still down. Screen installation happens in the middle of carpentry, rigging, electrical work and graphics application, not after them.
+3. **Power and signal come last but must be planned first.** The cable runs live inside a structure that already exists by the time you arrive. If nobody left a route behind the panel, you are not making one on the day.
+4. **The deadline is the doors, not the session.** A conference screen has to work before its session. An exhibition screen has to work before the hall opens, because once visitors are on the floor you cannot bring a ladder back out.
+5. **Handover is to someone who is not a technician.** The person who will use that screen for five days is a sales engineer with a laptop and a product demo, not an AV operator. It has to be obvious, and it has to keep working without you standing next to it.
+
+![A finished exhibitor stand at ECOC 2026 with a wall mounted screen above the reception counter and high tables ready for visitors.](https://cdn.malagaeventgear.com/blog/3097/ecoc2026-malaga-spain-5-1536x1152.webp)
+
+![A screen mounted under a technology demonstration header on an exhibitor stand at ECOC 2026, with protective wrapping still on the furniture.](https://cdn.malagaeventgear.com/blog/3098/ecoc2026-malaga-spain-9-1536x1152.webp)
+
+![Two screens installed on adjacent stand walls at ECOC 2026, one already showing a live instrument interface and the other waiting for its source.](https://cdn.malagaeventgear.com/blog/3101/ecoc2026-malaga-spain-11-1536x1152.webp)
+
+## Working Inside the Build Up Window at FYCMA
+
+Everything you see in these photographs was shot during build up, which is why so many of the screens read **No Signal** and so much of the furniture is still wrapped. That is the normal state of an exhibition hall in the days before it opens, and it is the only window an equipment supplier gets.
+
+For MEG the job was scoped around it: deliver to the right stand numbers, mount to whatever each stand was actually built from, run power and signal cleanly, then power up and leave each screen ready for the exhibitor to connect a laptop and go. Every one of those stands belongs to a company that flew its team and its product demos to Malaga for a five day show. A screen that is not live when the doors open is not a technical inconvenience, it is a lost show.
+
+![Build up at the ECOC 2026 exhibition hall, with a ladder, tool bags and stacked pallets next to a stand whose screen is already mounted.](https://cdn.malagaeventgear.com/blog/3103/ecoc2026-malaga-spain-12-1536x1152.webp)
+
+![Exhibitor crews commissioning their stands at ECOC 2026, with a large format display running and equipment racks being cabled.](https://cdn.malagaeventgear.com/blog/3105/ecoc2026-malaga-spain-6-1536x1152.webp)
+
+![Two exhibitors connecting laptops to their stand screens at ECOC 2026 while the hall is still being built around them.](https://cdn.malagaeventgear.com/blog/3106/ecoc2026-malaga-spain-7-1536x1152.webp)
+
+![Screens installed on two neighbouring stands at the ECOC 2026 exhibition, with the aisle still covered in protective sheeting.](https://cdn.malagaeventgear.com/blog/3100/ecoc2026-malaga-spain-10-1536x1152.webp)
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee
+		images={ecoc2026GalleryImages}
+		speed="normal"
+		direction="left"
+		deferMount={false}
+	/>
+</div>
+
+## Part of a Busier Year for Corporate Work on the Costa del Sol
+
+ECOC 2026 is the largest event of this kind we have worked on this year, but it is not an isolated one. In May we handled the technical production for the [PROGOLD SUMMIT 2026 at the Hotel Melia Costa del Sol in Torremolinos](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/), and we have supported [BMotion on corporate projects in Marbella](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/) and [in Benahavis](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/).
+
+The pattern behind all of them is the same: international organisers arriving in a province they do not know, on a schedule with no slack in it, needing a local supplier who already knows the venue, the access rules and the loading times.
+
+## Exhibiting at FYCMA? Talk to Us Early
+
+If you are taking a stand at a congress in Malaga, the single most useful thing you can do is tell your AV supplier what your stand is made of before it is built. Panel type, wall dimensions, where the power drop lands and whether the designer left a cable route. That five minute conversation is what separates a clean install from an improvised one on the morning the doors open.
+
+Malaga Event Gear has been supplying event equipment in Malaga since **1996**, with an English speaking technical team used to working with international clients. For multi day corporate events and congress work, our [MICE Pack](/packages/mice/) is the usual starting point, and stand screens can be quoted on their own.
+
+Browse the [full range of packages](/packages/), or get in touch directly by [phone](tel:+34666346911) or [WhatsApp](https://wa.me/34666346911).

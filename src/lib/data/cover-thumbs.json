@@ -233,6 +233,12 @@
     "width": 1024,
     "height": 765
   },
+  "https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4.webp": {
+    "thumb": "https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-768x576.webp",
+    "srcset": "https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-150x112.webp 150w, https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-300x225.webp 300w, https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-400x300.webp 400w, https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-600x450.webp 600w, https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-768x576.webp 768w, https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-1024x768.webp 1024w, https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-1536x1152.webp 1536w, https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4.webp 2048w",
+    "width": 2048,
+    "height": 1536
+  },
   "https://cdn.malagaeventgear.com/blog/1277/high_care_hospital_marbella_conference_setup_1-scaled.webp": {
     "thumb": "https://cdn.malagaeventgear.com/blog/1277/high_care_hospital_marbella_conference_setup_1-scaled.webp",
     "srcset": "https://cdn.malagaeventgear.com/blog/1277/high_care_hospital_marbella_conference_setup_1-scaled-400x299.webp 400w, https://cdn.malagaeventgear.com/blog/1277/high_care_hospital_marbella_conference_setup_1-scaled.webp 2560w",
