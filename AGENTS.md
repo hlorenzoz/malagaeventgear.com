@@ -471,8 +471,26 @@ y `updatedDate` la de modificación (el campo se llamó `updated` hasta que se r
 > (offset real de Europe/Madrid, respeta DST), aplicado dentro de `buildArticleSchema`. **NO**
 > formatees fechas a mano en el JSON-LD ni en el frontmatter.
 > Causa raíz del gotcha (YAML): `publishDate: "2026-06-15"` **entre comillas** queda como string
-> solo-fecha; **sin comillas**, el parser YAML lo convierte a datetime con `Z` (UTC). Ambas formas
-> son seguras hoy porque el helper las normaliza, pero tenelo presente al revisar JSON-LD.
+> solo-fecha, y el helper lo normaliza a `2026-06-15T09:00:00+02:00`. **Sin comillas**, el parser
+> YAML lo convierte a datetime y lo serializa como `2026-06-15T00:00:00.000Z`.
+>
+> **Ojo, las dos formas NO son equivalentes.** `toIso8601WithOffset()` arranca con un guard
+> `if (date.includes('T')) return date;`, así que la forma **sin comillas ya llega con `T` y sale
+> intacta**: el helper no la toca. Verificado en el HTML prerenderizado.
+>
+> | Frontmatter | JSON-LD emitido | ¿Normalizado? |
+> | :--- | :--- | :--- |
+> | `publishDate: "2026-06-15"` | `2026-06-15T09:00:00+02:00` | sí, offset real de Madrid |
+> | `publishDate: 2026-06-15` | `2026-06-15T00:00:00.000Z` | no, pasa de largo |
+>
+> Esto **no** rompe Rich Results: `Z` es un designador de zona horaria válido, así que no dispara
+> el aviso *"falta la zona horaria"* que motivó este gotcha. La diferencia es semántica: medianoche
+> UTC (02:00 en Madrid) en vez de las 09:00 locales que el helper pretende fijar.
+>
+> Estado actual del corpus: la mayoría de los posts usa la forma **sin comillas** y emite `Z`.
+> Al crear un post nuevo, **usá comillas** para que la fecha pase por el helper. Unificar los
+> posts viejos es una decisión aparte y deliberada: cambiaría el `datePublished` emitido de
+> todo el blog de una sola vez.
 
 ### Reglas del body
 
