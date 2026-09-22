@@ -7,10 +7,10 @@ test.describe('OpenGraph & Twitter Card Meta E2E Validation Tests', () => {
 		await page.waitForLoadState('networkidle');
 
 		// Basic SEO
-		await expect(page).toHaveTitle('Premium Audiovisual Equipment Rental in Malaga | MEG');
+		await expect(page).toHaveTitle('Audio Visual Equipment Hire Service in Malaga | MEG');
 		
 		// OpenGraph Core
-		await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content', 'Premium Audiovisual Equipment Rental in Malaga | MEG');
+		await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content', 'Audio Visual Equipment Hire Service in Malaga | MEG');
 		await expect(page.locator('meta[property="og:description"]')).toHaveAttribute('content', /Malaga Event Gear/);
 		await expect(page.locator('meta[property="og:url"]')).toHaveAttribute('content', 'https://malagaeventgear.com/');
 		await expect(page.locator('meta[property="og:type"]')).toHaveAttribute('content', 'website');

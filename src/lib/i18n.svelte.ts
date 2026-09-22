@@ -17,8 +17,10 @@ export const translations = {
 		// Hero
 		hero: {
 			span: 'For All Types of Events',
-			titlePart1: 'Premium Audiovisual',
-			titleGradient: 'Equipment Rental',
+			// The three parts join into the <h1>, which mirrors the GBP primary category
+			// (siteConfig.categories[0]) exactly. Guarded by home-h1-gbp-category.test.ts.
+			titlePart1: 'Audio Visual',
+			titleGradient: 'Equipment Hire Service',
 			titlePart2: 'in Malaga',
 			subtitle: 'Experience crystal-clear sound and stunning lighting with our premium equipment. Perfect for weddings, corporate events, and exclusive parties on the Costa del Sol.',
 			viewPricing: 'View Pricing',
@@ -287,8 +289,9 @@ export const translations = {
 		// Hero
 		hero: {
 			span: 'Para Todo Tipo de Eventos',
+			// Traduccion de la categoria primaria del GBP, no una frase de marketing aparte.
 			titlePart1: 'Alquiler de Equipos',
-			titleGradient: 'Audiovisuales Premium',
+			titleGradient: 'Audiovisuales',
 			titlePart2: 'en Málaga',
 			subtitle: 'Disfrutá de un sonido nítido y una iluminación espectacular con nuestros equipos premium. Ideal para bodas, eventos corporativos y fiestas exclusivas en la Costa del Sol.',
 			viewPricing: 'Ver Precios',

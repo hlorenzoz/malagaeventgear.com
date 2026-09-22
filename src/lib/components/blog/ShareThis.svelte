@@ -24,7 +24,7 @@
 		return 'https://malagaeventgear.com';
 	});
 
-	let shareTitle = $derived(title || 'Premium Audiovisual Equipment Rental in Malaga');
+	let shareTitle = $derived(title || 'Audio Visual Equipment Hire Service in Malaga');
 
 	// Local states
 	let copied = $state(false);
