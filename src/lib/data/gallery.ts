@@ -4,6 +4,75 @@ export interface GalleryImage {
 	category: 'wedding' | 'corporate' | 'general' | 'party';
 }
 
+/**
+ * ECOC 2026 (52nd European Conference on Optical Communication), FYCMA Malaga,
+ * 20 to 24 September 2026. MEG supplied and installed the display screens on the
+ * exhibitor stands of the ECOC Exhibition. Exported on its own so the news post can
+ * show ONLY this event, and spread into `galleryImages` below so the shots also feed
+ * the home marquee and the corporate package rails.
+ *
+ * `ecoc2026-malaga-spain-8` (blog/3095) is deliberately absent: its published variants
+ * came out rotated 90 degrees because the source EXIF orientation was not applied on
+ * encode. Re-upload it rotated with FORCE=1 before adding it here.
+ */
+export const ecoc2026GalleryImages: GalleryImage[] = [
+	{
+		src: 'https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-600x450.webp',
+		alt: 'Five display screens installed in a row on an exhibitor stand at ECOC 2026, Malaga',
+		category: 'corporate'
+	},
+	{
+		src: 'https://cdn.malagaeventgear.com/blog/3099/ecoc2026-malaga-spain-2-600x450.webp',
+		alt: 'Three stand screens installed for an exhibitor at the ECOC 2026 exhibition',
+		category: 'corporate'
+	},
+	{
+		src: 'https://cdn.malagaeventgear.com/blog/3097/ecoc2026-malaga-spain-5-600x450.webp',
+		alt: 'Finished ECOC 2026 exhibitor stand with its display screen installed',
+		category: 'corporate'
+	},
+	{
+		src: 'https://cdn.malagaeventgear.com/blog/3102/ecoc2026-malaga-spain-3-600x450.webp',
+		alt: 'Stand display screen installed at the ECOC 2026 exhibition in Malaga',
+		category: 'corporate'
+	},
+	{
+		src: 'https://cdn.malagaeventgear.com/blog/3098/ecoc2026-malaga-spain-9-600x450.webp',
+		alt: 'Technology demonstration screen on an ECOC 2026 exhibitor stand',
+		category: 'corporate'
+	},
+	{
+		src: 'https://cdn.malagaeventgear.com/blog/3101/ecoc2026-malaga-spain-11-600x450.webp',
+		alt: 'Stand screens running live product content at ECOC 2026, Malaga',
+		category: 'corporate'
+	},
+	{
+		src: 'https://cdn.malagaeventgear.com/blog/3105/ecoc2026-malaga-spain-6-600x450.webp',
+		alt: 'Exhibitor crews commissioning their stands at ECOC 2026, FYCMA Malaga',
+		category: 'corporate'
+	},
+	{
+		src: 'https://cdn.malagaeventgear.com/blog/3106/ecoc2026-malaga-spain-7-600x450.webp',
+		alt: 'Exhibitors connecting laptops to their stand screens at ECOC 2026',
+		category: 'corporate'
+	},
+	{
+		src: 'https://cdn.malagaeventgear.com/blog/3100/ecoc2026-malaga-spain-10-600x450.webp',
+		alt: 'Display screens on neighbouring exhibitor stands at ECOC 2026',
+		category: 'corporate'
+	},
+	{
+		src: 'https://cdn.malagaeventgear.com/blog/3103/ecoc2026-malaga-spain-12-600x450.webp',
+		alt: 'Build up on the ECOC 2026 exhibition floor at FYCMA, Malaga',
+		category: 'corporate'
+	},
+	{
+		src: 'https://cdn.malagaeventgear.com/blog/3104/ecoc2026-malaga-spain-1-600x450.webp',
+		alt: 'Visitors beside a stand display screen at the ECOC 2026 exhibition',
+		category: 'corporate'
+	}
+];
+
 export const galleryImages: GalleryImage[] = [
 	// Wedding
 	{
@@ -154,7 +223,8 @@ export const galleryImages: GalleryImage[] = [
 		src: 'https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-600x448.webp',
 		alt: 'Sound and lighting rental for live band events',
 		category: 'general'
-	}
+	},
+	...ecoc2026GalleryImages
 ];
 
 export function getImagesForPackage(packageId: string, excludeSrc: string[] = []): GalleryImage[] {

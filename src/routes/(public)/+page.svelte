@@ -14,6 +14,11 @@
 
 	const coverThumbs = coverThumbsRaw as Record<string, { thumb: string; srcset?: string }>;
 
+	// Split point for the two gallery marquee rows. Derived, not a hardcoded 15, so
+	// adding shots to galleryImages keeps both rows balanced instead of piling every
+	// new image into the second row.
+	const galleryHalf = Math.ceil(galleryImages.length / 2);
+
 	// Latest editorial content for the home rows (already sorted by publishDate desc).
 	// Latest Posts excludes news to avoid overlapping with the Latest News row.
 	const latestPosts = getArticlePosts().slice(0, 5);
@@ -287,8 +292,8 @@
 	</div>
 
 	<div class="space-y-4">
-		<ImageMarquee images={galleryImages.slice(0, 15)} speed="normal" direction="left" />
-		<ImageMarquee images={galleryImages.slice(15)} speed="normal" direction="right" />
+		<ImageMarquee images={galleryImages.slice(0, galleryHalf)} speed="normal" direction="left" />
+		<ImageMarquee images={galleryImages.slice(galleryHalf)} speed="normal" direction="right" />
 	</div>
 </section>
 
