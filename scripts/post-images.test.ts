@@ -15,6 +15,7 @@ import {
 	idFromKey,
 	maxMediaId,
 	findBySourceHash,
+	applyMetaToEntries,
 	buildMediaEntry,
 	buildPictureMarkup,
 	VARIANT_SIZES,
@@ -136,6 +137,66 @@ describe('findBySourceHash', () => {
 	it('returns undefined when no entry matches', () => {
 		const m = makeManifest([{ wpId: 4001, sourceHash: 'abc' }]);
 		expect(findBySourceHash(m, 'zzz')).toBeUndefined();
+	});
+});
+
+// ── applyMetaToEntries ───────────────────────────────────────────────────────-
+describe('applyMetaToEntries', () => {
+	const meta = {
+		alt: 'Five screens on an exhibitor stand',
+		caption: 'Installed by Malaga Event Gear',
+		title: 'ECOC 2026 stand screens',
+		description: 'Stand screens at FYCMA.',
+		tags: ['ECOC 2026', 'screen rental'],
+		usage: ['cover', 'gallery']
+	};
+
+	/** Three variants of the same source image plus one unrelated image. */
+	function fixture(): Manifest {
+		return makeManifest([
+			{ wpId: 4001, r2Key: 'blog/4001/a-300x225.webp', r2Url: 'u1', sourceHash: 'abc' },
+			{ wpId: 4001, r2Key: 'blog/4001/a-768x576.webp', r2Url: 'u2', sourceHash: 'abc' },
+			{ wpId: 4001, r2Key: 'blog/4001/a.webp', r2Url: 'u3', sourceHash: 'abc' },
+			{ wpId: 4002, r2Key: 'blog/4002/b.webp', r2Url: 'u4', sourceHash: 'other', alt: 'keep me' }
+		]);
+	}
+
+	it('patches every variant that shares the sourceHash', () => {
+		const m = fixture();
+		applyMetaToEntries(m, 'abc', meta);
+		const patched = Object.values(m.media).filter((e) => e.sourceHash === 'abc');
+		expect(patched).toHaveLength(3);
+		for (const e of patched) {
+			expect(e.alt).toBe(meta.alt);
+			expect(e.caption).toBe(meta.caption);
+			expect(e.title).toBe(meta.title);
+			expect(e.description).toBe(meta.description);
+			expect(e.tags).toEqual(meta.tags);
+			expect(e.usage).toEqual(meta.usage);
+		}
+	});
+
+	it('returns the number of entries it changed', () => {
+		const m = fixture();
+		expect(applyMetaToEntries(m, 'abc', meta)).toBe(3);
+	});
+
+	it('is idempotent - a second run changes nothing', () => {
+		const m = fixture();
+		applyMetaToEntries(m, 'abc', meta);
+		expect(applyMetaToEntries(m, 'abc', meta)).toBe(0);
+	});
+
+	it('leaves entries with a different sourceHash untouched', () => {
+		const m = fixture();
+		applyMetaToEntries(m, 'abc', meta);
+		const other = Object.values(m.media).find((e) => e.sourceHash === 'other');
+		expect(other?.alt).toBe('keep me');
+	});
+
+	it('returns 0 when no entry matches the hash', () => {
+		const m = fixture();
+		expect(applyMetaToEntries(m, 'nope', meta)).toBe(0);
 	});
 });
 

@@ -167,6 +167,39 @@ export function findBySourceHash(manifest: Manifest, hash: string): MediaEntry |
 	return Object.values(manifest.media).find((e) => e.sourceHash === hash);
 }
 
+/** The semantic fields the sidecar meta.yaml owns. Everything else is derived on upload. */
+const META_FIELDS = ['title', 'alt', 'caption', 'description', 'tags', 'usage'] as const;
+
+/**
+ * Refreshes the semantic metadata of every manifest entry sharing `sourceHash`.
+ *
+ * Without this, `meta.yaml` would only ever be applied on an image's FIRST publish:
+ * the idempotency branch in main() skips re-encoding, so a later edit to the sidecar
+ * would never reach the already-published variants (the alternative being FORCE=1,
+ * which re-encodes and re-uploads every rung for nothing).
+ *
+ * Returns how many entries actually changed, so a no-op run skips rewriting the manifest.
+ */
+export function applyMetaToEntries(
+	manifest: Manifest,
+	sourceHash: string,
+	meta: ImageMeta
+): number {
+	let changed = 0;
+	for (const entry of Object.values(manifest.media)) {
+		if (entry.sourceHash !== sourceHash) continue;
+		const target = entry as unknown as Record<string, unknown>;
+		let dirty = false;
+		for (const field of META_FIELDS) {
+			if (JSON.stringify(target[field]) === JSON.stringify(meta[field])) continue;
+			target[field] = meta[field];
+			dirty = true;
+		}
+		if (dirty) changed++;
+	}
+	return changed;
+}
+
 /** Builds a WebP MediaEntry keyed by its own CDN url (mirrors gen-cover-variants). */
 export function buildMediaEntry(i: BuildEntryInput): MediaEntry {
 	const r2Key = i.cdnUrl.startsWith(CDN_BASE + '/')
@@ -347,7 +380,14 @@ async function main(): Promise<void> {
 			if (existing) {
 				id = idFromKey(existing.r2Key) ?? nextId++;
 				if (!force) {
-					console.log(`[post-images] skip (ya publicada, sourceHash) → ${relative(ROOT, srcPath)} (blog/${id}/)`);
+					// Already published: never re-encode or re-upload, but DO refresh the
+					// semantic metadata so a later edit to meta.yaml still lands in the manifest.
+					const touched = applyMetaToEntries(manifest, hash, meta);
+					if (touched > 0 && !dryRun) writeManifest(manifest);
+					const note = touched > 0 ? ` (metadatos actualizados en ${touched} variantes)` : '';
+					console.log(
+						`[post-images] skip (ya publicada, sourceHash) → ${relative(ROOT, srcPath)} (blog/${id}/)${note}`
+					);
 					skipped++;
 					continue;
 				}
