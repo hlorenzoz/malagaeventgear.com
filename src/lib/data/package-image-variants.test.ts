@@ -11,7 +11,7 @@ import { packageImageVariant, type PackageImageVariant } from '$lib/assets/packa
  * missing; this test is what actually catches that before it ever reaches a page.
  */
 
-const VARIANTS: PackageImageVariant[] = ['thumb', 'mobile', 'desktop'];
+const VARIANTS: PackageImageVariant[] = ['thumb', 'thumb-sm', 'mobile', 'desktop'];
 
 const cases = packages.flatMap((pkg) => VARIANTS.map((variant) => [pkg.slug, variant] as const));
 

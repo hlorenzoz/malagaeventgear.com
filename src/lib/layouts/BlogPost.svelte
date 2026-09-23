@@ -2,6 +2,7 @@
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
 	import { buildArticleSchema, toIso8601WithOffset } from '$lib/utils/schema';
 	import { i18n } from '$lib/i18n.svelte';
+	import { PROSE_SIZES } from '$lib/utils/blog-image-sizes.js';
 	import { slugify } from '$lib/utils/slugify';
 	import { siteConfig } from '$lib/data/site';
 	import type { BlogPost } from '$lib/types/blog';
@@ -151,7 +152,7 @@
 					<img
 						src={post.coverImageThumb ?? post.coverImage}
 						srcset={post.coverImageSrcset}
-						sizes="(min-width: 1280px) 700px, (min-width: 768px) 600px, calc(100vw - 2rem)"
+						sizes={PROSE_SIZES}
 						alt={post.title}
 						width="768"
 						height="432"

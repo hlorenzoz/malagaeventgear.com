@@ -1,11 +1,11 @@
 /**
- * rehype plugin (build-time) — optimizes blog body <img> elements from the WP
+ * rehype plugin (build-time): optimizes blog body <img> elements from the WP
  * migration manifest:
  *   - srcset + sizes: responsive variants (R2 already holds 300/768/1024/1536/full),
  *     so the browser downloads a size that matches the ~768px prose column instead of
  *     the full-size image (Improve image delivery / LCP).
  *   - src: a ~1024px fallback variant for non-srcset cases.
- *   - alt: WP attachment alt_text (fallback: decoded title) — fixes a11y warnings + SEO.
+ *   - alt: WP attachment alt_text (fallback: decoded title). Fixes a11y warnings + SEO.
  *   - width/height: intrinsic dimensions → reserves space (CLS).
  *   - loading="lazy" + decoding="async": defer offscreen body images.
  *   - caption: when the manifest entry has a non-empty `caption`, wraps the <img>
@@ -18,6 +18,7 @@
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { visit } from 'unist-util-visit';
+import { PROSE_SIZES } from '../src/lib/utils/blog-image-sizes.js';
 
 const NAMED = {
 	amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", '#039': "'",
@@ -38,8 +39,9 @@ const stripHtml = (s) => (s || '').replace(/<[^>]+>/g, '').trim();
 // Strip any -WxH size suffix + extension → the canonical base used to group variants.
 const baseOf = (url) => url.replace(/(-\d+x\d+)?\.[a-z0-9]+$/i, '');
 
-// Prose column is max-w-3xl (768px); below that the image is full-bleed (~100vw).
-const SIZES = '(min-width: 768px) 768px, calc(100vw - 2rem)';
+// Measured prose column widths (see the module). Gallery items get their own, narrower
+// sizes in rehype-image-gallery.mjs, which runs after this plugin.
+const SIZES = PROSE_SIZES;
 const FALLBACK_TARGET = 1024;
 
 let cache = null;
@@ -64,7 +66,7 @@ function loadIndex() {
 			byBase.get(base).push({ url: e.r2Url, width: e.width ?? 0, height: e.height ?? 0 });
 		}
 	} catch {
-		// Manifest absent (e.g. fresh checkout) — plugin becomes a no-op enricher.
+		// Manifest absent (e.g. fresh checkout), the plugin becomes a no-op enricher.
 	}
 	for (const list of byBase.values()) list.sort((a, b) => a.width - b.width);
 	cache = { byUrl, byBase };
@@ -84,7 +86,7 @@ export function rehypeBlogImages() {
 			if (typeof src !== 'string') return;
 
 			const meta = byUrl[src];
-			// alt — ensure the attribute exists (empty = decorative → no a11y warning).
+			// alt: ensure the attribute exists (empty = decorative → no a11y warning).
 			if (!node.properties.alt) node.properties.alt = meta?.alt ?? '';
 			node.properties.loading ??= 'lazy';
 			node.properties.decoding ??= 'async';
@@ -126,7 +128,7 @@ export function rehypeBlogImages() {
 				};
 
 				// Replace the parent <p> in its grandparent's children array.
-				// We need to find the grandparent — but visit gives us parent of the <img>
+				// We need to find the grandparent, but visit gives us parent of the <img>
 				// (which is the <p>). We can mutate the <p> itself to become a <figure>.
 				// The safest approach: turn the <p> into a <figure> by mutating in place.
 				parent.tagName = 'figure';
@@ -140,7 +142,7 @@ export function rehypeBlogImages() {
 						children: [{ type: 'text', value: caption }]
 					}
 				];
-				// Return early — we've already modified the parent node in-place
+				// Return early, we've already modified the parent node in-place
 				return;
 			}
 		});

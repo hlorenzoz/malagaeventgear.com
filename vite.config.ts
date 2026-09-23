@@ -15,6 +15,14 @@ export default defineConfig({
 	ssr: {
 		noExternal: ['@lucide/svelte']
 	},
+	build: {
+		// Las imagenes de src/lib/assets/ se importan para salir hasheadas bajo /_app/immutable/
+		// (cache inmutable de 1 año). Por debajo de 4 KiB Vite las inlinearia como base64, y una
+		// miniatura inlineada se repite en el HTML de CADA pagina que la usa (el rail de paquetes
+		// aparece 2 veces por post: medido, 17 data URIs en un solo post). Nunca inlinear estas.
+		// Para el resto, undefined deja la regla por defecto de Vite.
+		assetsInlineLimit: (filePath) => (filePath.includes('/src/lib/assets/') ? false : undefined)
+	},
 	plugins: [
 		blogMeta(),
 		tailwindcss(),

@@ -24,12 +24,16 @@
 				<a href={pkg.route} class="packages-rail-card" data-testid="package-card">
 					{#if pkg.image}
 						<div class="packages-rail-img-wrap">
-							<!-- Thumbnail dedicado (160x160, ~5-8 KiB) en vez del <slug>.webp completo (800x800) -->
+							<!-- Thumbnails dedicados (96 y 160px) en vez del <slug>.webp completo (800x800). El
+							     slot es de 48px (mobile) o 40px (desktop): sizes=48px cubre ambos y el navegador
+							     elige 96w a DPR 1 y 2. Verificado por tests/blog-image-sizes.spec.ts. -->
 							<img
-								src={packageImageVariant(pkg.image, 'thumb')}
+								src={packageImageVariant(pkg.image, 'thumb-sm')}
+								srcset="{packageImageVariant(pkg.image, 'thumb-sm')} 96w, {packageImageVariant(pkg.image, 'thumb')} 160w"
+								sizes="48px"
 								alt={pkg.name}
-								width="64"
-								height="64"
+								width="48"
+								height="48"
 								loading="lazy"
 								decoding="async"
 								class="packages-rail-img"

@@ -8,7 +8,8 @@ const variants = import.meta.glob('./packages/*.webp', {
 	import: 'default'
 }) as Record<string, string>;
 
-export type PackageImageVariant = 'thumb' | 'mobile' | 'desktop';
+// thumb = 160px (2x del slot de 80px de PostCTA), thumb-sm = 96px (2x del slot de 48px del rail).
+export type PackageImageVariant = 'thumb' | 'thumb-sm' | 'mobile' | 'desktop';
 
 /**
  * Resolves the hashed URL for an in-page-only package image derivative.

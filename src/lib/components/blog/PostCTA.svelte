@@ -39,9 +39,12 @@
 		<!-- Package image -->
 		{#if pkg.image}
 			<div class="post-cta-img-wrap">
-				<!-- Thumbnail dedicado (160x160, ~5-8 KiB) en vez del <slug>.webp completo (800x800) -->
+				<!-- Thumbnails dedicados (96 y 160px) en vez del <slug>.webp completo (800x800). Slot de
+				     80px: a DPR 1 el navegador elige 96w, a DPR 1.75 o 2 elige 160w. -->
 				<img
 					src={packageImageVariant(pkg.image, 'thumb')}
+					srcset="{packageImageVariant(pkg.image, 'thumb-sm')} 96w, {packageImageVariant(pkg.image, 'thumb')} 160w"
+					sizes="80px"
 					alt={pkg.name}
 					width="80"
 					height="80"

@@ -172,6 +172,24 @@ test.describe('package image variants (production build)', () => {
 		await expectHashedAndImmutable(request, toPath(thumbSrc as string));
 	});
 
+	test('every thumb srcset candidate (96w and 160w) is a hashed file, never an inlined data URI', async ({
+		page,
+		request
+	}) => {
+		// 4 de las 5 thumb-sm pesan menos de 4 KiB: sin el assetsInlineLimit de vite.config.ts
+		// Vite las inlinea como base64 y cada una se repite en el HTML de cada post.
+		const response = await page.goto('/blog/weather-considerations-for-outdoor-rentals/');
+		const html = (await response?.text()) ?? '';
+		expect(html).not.toContain('data:image/');
+
+		for (const selector of ['img.post-cta-img', 'img.packages-rail-img']) {
+			const srcset = (await page.locator(selector).first().getAttribute('srcset')) ?? '';
+			const urls = srcset.split(',').map((c) => c.trim().split(/\s+/)[0]);
+			expect(urls, `${selector} srcset`).toHaveLength(2);
+			for (const url of urls) await expectHashedAndImmutable(request, toPath(url));
+		}
+	});
+
 	test('/packages/ mobile and desktop variants resolve to hashed, immutably-cached assets', async ({
 		page,
 		request
