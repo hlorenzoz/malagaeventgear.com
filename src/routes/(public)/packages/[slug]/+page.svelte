@@ -12,6 +12,7 @@
 
 	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
 	import { getImagesForPackage } from '$lib/data/gallery';
+	import { packageImageVariant } from '$lib/assets/package-images';
 
 	let { data }: { data: PageData } = $props();
 	let pkg = $derived(data.pkg);
@@ -252,8 +253,8 @@
 		<div class="lg:col-span-7 flex flex-col gap-6">
 			<!-- Package image -->
 			{#if pkg.image}
-				{@const mobileImage = pkg.image.replace('.webp', '-mobile.webp')}
-				{@const desktopImage = pkg.image.replace('.webp', '-desktop.webp')}
+				{@const mobileImage = packageImageVariant(pkg.image, 'mobile')}
+				{@const desktopImage = packageImageVariant(pkg.image, 'desktop')}
 				<div class="w-full h-56 rounded-xl overflow-hidden relative">
 					<picture class="absolute inset-0 w-full h-full">
 						<source media="(max-width: 767px)" srcset={mobileImage} type="image/webp" />

@@ -1,7 +1,10 @@
 import { test, expect } from '@playwright/test';
 
 /**
- * Prod-only checks for the `hashed-assets-static-env` change.
+ * Prod-only checks for the `hashed-assets-static-env` change, extended by the
+ * `hashed-package-image-variants` change (package image variants describe block below) to
+ * cover the same mechanism for package thumb/mobile/desktop images and the two dual-use
+ * assets (hero-stage.webp 1024w, equipment page mice.webp desktop).
  *
  * Runs via `bun run test:e2e:prod` (playwright.prod.config.ts), which builds the site
  * (`bun run build`) and serves the real output (`bun run preview`, port 4173). This is the
@@ -100,13 +103,11 @@ test.describe('asset caching (production build)', () => {
 		expect(heroImgSrc).not.toBeNull();
 		expect(logoSrc).not.toBeNull();
 
-		// 3 hashed hero variants (400/512/mobile) + 1 literal /hero-stage.webp entry.
+		// 4 hashed hero variants (400/512/mobile/1024, the 1024w now a Bucket-2 dual-use copy).
 		expect(srcsetUrls.length).toBe(4);
-		const hashedHeroUrls = srcsetUrls.filter((url) => url !== '/hero-stage.webp');
-		expect(hashedHeroUrls.length).toBe(3);
 
-		const hashedUrls = [...hashedHeroUrls, toPath(logoSrc as string)];
-		expect(hashedUrls.length).toBe(4);
+		const hashedUrls = [...srcsetUrls, toPath(logoSrc as string)];
+		expect(hashedUrls.length).toBe(5);
 
 		for (const url of hashedUrls) {
 			expect(url, `${url} should match the hashed Vite asset URL format`).toMatch(HASHED_ASSET_PATTERN);
@@ -141,5 +142,100 @@ test.describe('asset caching (production build)', () => {
 			expect(response.status()).toBe(200);
 			expect(response.headers()['cache-control']).toBe('public, immutable, max-age=31536000');
 		}
+	});
+});
+
+/**
+ * Package image variants (`hashed-package-image-variants` change). Reads <source>/<img>
+ * attributes directly via locator rather than relying on which <picture> source the
+ * browser's viewport actually picks, since Playwright's default viewport may not match
+ * either media query breakpoint.
+ */
+async function expectHashedAndImmutable(
+	request: import('@playwright/test').APIRequestContext,
+	url: string
+): Promise<void> {
+	expect(url, `${url} should match the hashed Vite asset URL format`).toMatch(HASHED_ASSET_PATTERN);
+	const response = await request.get(url);
+	expect(response.status()).toBe(200);
+	expect(response.headers()['cache-control']).toBe('public, immutable, max-age=31536000');
+}
+
+test.describe('package image variants (production build)', () => {
+	test('a blog post PostCTA thumb resolves to a hashed, immutably-cached asset', async ({ page, request }) => {
+		await page.goto('/blog/weather-considerations-for-outdoor-rentals/');
+		await page.waitForLoadState('networkidle');
+
+		const thumbSrc = await page.locator('[data-testid="post-cta"] img').first().getAttribute('src');
+		expect(thumbSrc).not.toBeNull();
+
+		await expectHashedAndImmutable(request, toPath(thumbSrc as string));
+	});
+
+	test('/packages/ mobile and desktop variants resolve to hashed, immutably-cached assets', async ({
+		page,
+		request
+	}) => {
+		await page.goto('/packages/');
+		await page.waitForLoadState('networkidle');
+
+		const card = page.locator('[data-testid="package-card"]').first();
+		const mobileSrcset = await card.locator('source[media="(max-width: 767px)"]').getAttribute('srcset');
+		const desktopSrcset = await card.locator('source[media="(min-width: 768px)"]').getAttribute('srcset');
+		expect(mobileSrcset).not.toBeNull();
+		expect(desktopSrcset).not.toBeNull();
+
+		await expectHashedAndImmutable(request, toPath(mobileSrcset as string));
+		await expectHashedAndImmutable(request, toPath(desktopSrcset as string));
+	});
+
+	test('/packages/eco/ mobile and desktop variants resolve to hashed, immutably-cached assets', async ({
+		page,
+		request
+	}) => {
+		await page.goto('/packages/eco/');
+		await page.waitForLoadState('networkidle');
+
+		const mobileSrcset = await page
+			.locator('source[media="(max-width: 767px)"]')
+			.first()
+			.getAttribute('srcset');
+		const desktopSrcset = await page
+			.locator('source[media="(min-width: 768px)"]')
+			.first()
+			.getAttribute('srcset');
+		expect(mobileSrcset).not.toBeNull();
+		expect(desktopSrcset).not.toBeNull();
+
+		await expectHashedAndImmutable(request, toPath(mobileSrcset as string));
+		await expectHashedAndImmutable(request, toPath(desktopSrcset as string));
+	});
+
+	test('/equipment/ mobile (Bucket 1) and desktop (Bucket 2 dual-use) variants resolve to hashed, immutably-cached assets', async ({
+		page,
+		request
+	}) => {
+		await page.goto('/equipment/');
+		await page.waitForLoadState('networkidle');
+
+		const mobileSrcset = await page
+			.locator('source[media="(max-width: 1023px)"]')
+			.first()
+			.getAttribute('srcset');
+		const desktopSrcset = await page
+			.locator('source[media="(min-width: 1024px)"]')
+			.first()
+			.getAttribute('srcset');
+		const desktopImgSrc = await page
+			.locator('img[alt="MICE Audiovisual Pack Setup for Meetings"]')
+			.first()
+			.getAttribute('src');
+		expect(mobileSrcset).not.toBeNull();
+		expect(desktopSrcset).not.toBeNull();
+		expect(desktopImgSrc).not.toBeNull();
+
+		await expectHashedAndImmutable(request, toPath(mobileSrcset as string));
+		await expectHashedAndImmutable(request, toPath(desktopSrcset as string));
+		await expectHashedAndImmutable(request, toPath(desktopImgSrc as string));
 	});
 });

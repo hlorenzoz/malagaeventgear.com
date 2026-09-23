@@ -12,6 +12,7 @@
 	import { galleryImages } from '$lib/data/gallery';
 	import coverThumbsRaw from '$lib/data/cover-thumbs.json';
 	import { HERO_MOBILE, HERO_FULL, HERO_SRCSET } from '$lib/assets/hero';
+	import { packageImageVariant } from '$lib/assets/package-images';
 
 	const coverThumbs = coverThumbsRaw as Record<string, { thumb: string; srcset?: string }>;
 
@@ -32,7 +33,7 @@
 	const latestPosts = getArticlePosts().slice(0, 5);
 	const latestNews = getNewsPosts().slice(0, 5);
 
-	// Cheapest package price for the "What does it cost?" answer (derived — see AGENTS.md §7)
+	// Cheapest package price for the "What does it cost?" answer (derived, see AGENTS.md §7)
 	let minPrice = $derived(getPriceRange().min);
 
 	// "At a Glance" Q&A block (answer-engine optimization). Question text rendered as <h2>.
@@ -93,7 +94,7 @@
 		})
 	);
 
-	// Carousel state for the pricing showcase — mirrors the Testimonials pattern:
+	// Carousel state for the pricing showcase. Mirrors the Testimonials pattern:
 	// native CSS scroll-snap with arrows that reflect overflow and disable at edges.
 	let track = $state<HTMLDivElement | null>(null);
 	let scrollable = $state(false);
@@ -474,8 +475,8 @@
 						<!-- Visual header with image and gradient -->
 						<div class="relative h-40 overflow-hidden bg-linear-to-br {pack.gradient}">
 							{#if pack.image}
-								{@const mobileImage = pack.image.replace('.webp', '-mobile.webp')}
-								{@const desktopImage = pack.image.replace('.webp', '-desktop.webp')}
+								{@const mobileImage = packageImageVariant(pack.image, 'mobile')}
+								{@const desktopImage = packageImageVariant(pack.image, 'desktop')}
 								<picture class="absolute inset-0 w-full h-full">
 									<source media="(max-width: 767px)" srcset={mobileImage} type="image/webp" />
 									<source media="(min-width: 768px)" srcset={desktopImage} type="image/webp" />

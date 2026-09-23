@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { EventPackage } from '$lib/data/packages';
+	import { packageImageVariant } from '$lib/assets/package-images';
 
 	let {
 		pkg
@@ -38,9 +39,9 @@
 		<!-- Package image -->
 		{#if pkg.image}
 			<div class="post-cta-img-wrap">
-				<!-- Thumbnail dedicado (160x160 ≈5–8 KiB) en vez del <slug>.webp completo (800x800) -->
+				<!-- Thumbnail dedicado (160x160, ~5-8 KiB) en vez del <slug>.webp completo (800x800) -->
 				<img
-					src={pkg.image.replace('.webp', '-thumb.webp')}
+					src={packageImageVariant(pkg.image, 'thumb')}
 					alt={pkg.name}
 					width="80"
 					height="80"

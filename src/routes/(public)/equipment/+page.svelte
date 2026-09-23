@@ -7,6 +7,7 @@
 	import Testimonials from '$lib/components/testimonials/Testimonials.svelte';
 	import { galleryImages } from '$lib/data/gallery';
 	import coverThumbsRaw from '$lib/data/cover-thumbs.json';
+	import { packageImageVariant, MICE_EQUIPMENT_PAGE_IMAGE } from '$lib/assets/package-images';
 
 	const coverThumbs = coverThumbsRaw as Record<string, { thumb: string; srcset?: string }>;
 
@@ -64,12 +65,12 @@
 			<!-- Featured Image -->
 			<div class="relative h-[400px] lg:h-auto overflow-hidden">
 				<picture class="absolute inset-0 w-full h-full">
-					<source media="(max-width: 1023px)" srcset="/images/packages/mice-mobile.webp" type="image/webp" />
-					<source media="(min-width: 1024px)" srcset="/images/packages/mice.webp" type="image/webp" />
-					<img 
-						alt="MICE Audiovisual Pack Setup for Meetings" 
-						class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out opacity-80" 
-						src="/images/packages/mice.webp"
+					<source media="(max-width: 1023px)" srcset={packageImageVariant('/images/packages/mice.webp', 'mobile')} type="image/webp" />
+					<source media="(min-width: 1024px)" srcset={MICE_EQUIPMENT_PAGE_IMAGE} type="image/webp" />
+					<img
+						alt="MICE Audiovisual Pack Setup for Meetings"
+						class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out opacity-80"
+						src={MICE_EQUIPMENT_PAGE_IMAGE}
 						loading="eager"
 						fetchpriority="high"
 						decoding="async"

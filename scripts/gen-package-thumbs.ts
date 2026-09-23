@@ -2,9 +2,9 @@
 /**
  * Generates square 160x160 WebP thumbnails for each package image.
  *
- * Why: packages.ts `image` points at the full /images/packages/<slug>.webp (800x800, 70–120 KiB),
- * but PackagesRail (≈48px) and PostCTA (80px) render it tiny — wasting ~225 KiB per blog post.
- * 160px = 80px display × 2 DPR → crisp on retina, ~5–8 KiB each.
+ * Why: packages.ts `image` points at the full /images/packages/<slug>.webp (800x800, 70-120 KiB),
+ * but PackagesRail (about 48px) and PostCTA (80px) render it tiny, wasting ~225 KiB per blog post.
+ * 160px = 80px display x 2 DPR, crisp on retina, ~5-8 KiB each.
  *
  * Idempotent: regenerates the thumb each run (cheap). Source must be a square <slug>.webp.
  * Run: `bun scripts/gen-package-thumbs.ts`  (needs cwebp)
@@ -14,6 +14,9 @@ import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 const DIR = resolve(dirname(fileURLToPath(import.meta.url)), '../static/images/packages');
+// Thumbs are written here (Vite-imported hashed source), not back into DIR. DIR stays the
+// read-only scan target for the base <slug>.webp source images.
+const OUT_DIR = resolve(dirname(fileURLToPath(import.meta.url)), '../src/lib/assets/packages');
 const SIZE = 160;
 
 // Source images: <slug>.webp, excluding the existing -mobile/-desktop/-thumb variants.
@@ -33,10 +36,10 @@ async function cwebpResize(input: string, output: string): Promise<void> {
 let made = 0;
 for (const file of sources) {
 	const input = resolve(DIR, file);
-	const output = resolve(DIR, file.replace('.webp', '-thumb.webp'));
+	const output = resolve(OUT_DIR, file.replace('.webp', '-thumb.webp'));
 	await cwebpResize(input, output);
 	made++;
-	console.log(`[thumb] ${file} → ${file.replace('.webp', '-thumb.webp')} (${SIZE}x${SIZE})`);
+	console.log(`[thumb] ${file} -> ${file.replace('.webp', '-thumb.webp')} (${SIZE}x${SIZE})`);
 }
 
-console.log(`[thumb] DONE — ${made} thumbnails generated in ${DIR}`);
+console.log(`[thumb] DONE - ${made} thumbnails generated in ${OUT_DIR}`);

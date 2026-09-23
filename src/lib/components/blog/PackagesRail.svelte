@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { packages as allPackages, type EventPackage } from '$lib/data/packages';
+	import { packageImageVariant } from '$lib/assets/package-images';
 
 	// Accept an ordered package list (e.g. relevance-sorted for a post). Defaults to the
 	// full catalog so other usages keep working without passing a prop.
@@ -7,7 +8,7 @@
 </script>
 
 <!--
-  PackagesRail — shows event packages.
+  PackagesRail: shows event packages.
   Desktop (lg+): vertical sticky list in col1.
   Mobile: horizontal scroll-snap strip (lg:hidden, rendered after header in BlogPost).
 
@@ -23,9 +24,9 @@
 				<a href={pkg.route} class="packages-rail-card" data-testid="package-card">
 					{#if pkg.image}
 						<div class="packages-rail-img-wrap">
-							<!-- Thumbnail dedicado (160x160 ≈5–8 KiB) en vez del <slug>.webp completo (800x800) -->
+							<!-- Thumbnail dedicado (160x160, ~5-8 KiB) en vez del <slug>.webp completo (800x800) -->
 							<img
-								src={pkg.image.replace('.webp', '-thumb.webp')}
+								src={packageImageVariant(pkg.image, 'thumb')}
 								alt={pkg.name}
 								width="64"
 								height="64"

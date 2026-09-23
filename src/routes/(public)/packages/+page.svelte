@@ -4,6 +4,7 @@
 	import Testimonials from '$lib/components/testimonials/Testimonials.svelte';
 	import { i18n } from '$lib/i18n.svelte';
 	import { packages } from '$lib/data/packages';
+	import { packageImageVariant } from '$lib/assets/package-images';
 	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
 	import { galleryImages } from '$lib/data/gallery';
 
@@ -346,7 +347,7 @@
 	{@render filterGroup(i18n.t.filters.extras, extrasBody)}
 {/snippet}
 
-<!-- Packages catalog — sticky filter sidebar (desktop) + mobile bottom drawer -->
+<!-- Packages catalog: sticky filter sidebar (desktop) + mobile bottom drawer -->
 <section class="relative max-w-container-max mx-auto px-margin-mobile pb-24 md:pb-32 lg:grid lg:grid-cols-[280px_1fr] lg:gap-10 lg:items-start">
 	<!-- Desktop sidebar -->
 	<aside class="hidden lg:block lg:sticky lg:top-24 glass-card rounded-3xl p-6 ambient-shadow">
@@ -393,8 +394,8 @@
 				<!-- Visual header: real photo when available, accent gradient + icon otherwise -->
 				<div class="relative h-44 overflow-hidden bg-linear-to-br {plan.gradient}">
 					{#if plan.image}
-						{@const mobileImage = plan.image.replace('.webp', '-mobile.webp')}
-						{@const desktopImage = plan.image.replace('.webp', '-desktop.webp')}
+						{@const mobileImage = packageImageVariant(plan.image, 'mobile')}
+						{@const desktopImage = packageImageVariant(plan.image, 'desktop')}
 						<picture class="absolute inset-0 w-full h-full">
 							<source media="(max-width: 767px)" srcset={mobileImage} type="image/webp" />
 							<source media="(min-width: 768px)" srcset={desktopImage} type="image/webp" />
