@@ -1,6 +1,6 @@
 <script lang="ts">
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
-	import { buildArticleSchema, toIso8601WithOffset } from '$lib/utils/schema';
+	import { buildArticleSchema, buildFAQSchema, toIso8601WithOffset } from '$lib/utils/schema';
 	import { i18n } from '$lib/i18n.svelte';
 	import { PROSE_SIZES } from '$lib/utils/blog-image-sizes.js';
 	import { slugify } from '$lib/utils/slugify';
@@ -51,9 +51,13 @@
 		})
 	);
 
-	// FAQPage is no longer in Google's supported structured-data gallery; the FAQ
-	// accordion still renders for users, it just carries no JSON-LD markup.
-	let jsonLdSchemas = $derived([articleSchema]);
+	// FAQPage only when the post has its own FAQ section (post.faqs, extracted at build time
+	// from the body by scripts/gen-post-faqs.ts), so the markup always mirrors questions the
+	// reader can see. Emitted on purpose even though Google limits FAQ rich results: it still
+	// describes the page for other search engines and AI answer engines, and keeps posts
+	// consistent with /faq/ and the home, which emit FAQPage too.
+	let faqSchema = $derived(post.faqs && post.faqs.length > 0 ? buildFAQSchema(post.faqs) : null);
+	let jsonLdSchemas = $derived(faqSchema ? [articleSchema, faqSchema] : [articleSchema]);
 
 	// Resolve the most relevant package for this post's context
 	let resolvedPackage = $derived(resolvePackageForPost(post));

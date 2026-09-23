@@ -54,8 +54,8 @@ Esencial para captar tráfico inbound y demostrar conocimiento del sector (*Topi
 | **Home (Inicio)** | `LocalBusiness` / `Organization` | `PostalAddress`, `GeoCoordinates` | Panel de Conocimiento (Knowledge Graph) |
 | **Servicio Individual** | `Service` | `Offer`, `AggregateRating`, `Review` | Rich Snippets (Estrellas, Precios) |
 | **Categoría de Servicios** | `ItemList` | Enlaces a elementos `Service` | Comprensión de arquitectura web |
-| **Blog / Post** | `Article` o `BlogPosting` | `Person` (Autor), `Organization` | Rich Snippets de Noticias / Carruseles |
-| **Preguntas Frecuentes** | `FAQPage` | `Question`, `Answer` | Marcado schema.org valido (Google descontinuo el rich result de FAQ en las SERPs desde mayo 2026 - ver nota abajo); sigue siendo util para buscadores con IA y otros consumidores del marcado |
+| **Blog / Post** | `BlogPosting` (o `NewsArticle` en posts de noticias), más `FAQPage` si el post tiene sección de FAQs propia | `Person` (Autor), `Organization`, `Question`, `Answer` | Rich Snippets de Noticias / Carruseles. El `FAQPage` se emite a propósito aunque Google ya no muestre el rich result (ver nota abajo) |
+| **Preguntas Frecuentes** | `FAQPage` | `Question`, `Answer` | Marcado schema.org valido (Google descontinuo el rich result de FAQ en las SERPs desde mayo 2026, ver nota abajo). Sigue siendo util para buscadores con IA y otros consumidores del marcado |
 | **Cualquier página con ruta** | `BreadcrumbList` | `ListItem` | Fragmento de migas de pan en la URL |
 
 > **Nota (2026-07-25):** Google descontinuo el rich result de FAQ en Search a partir del 7 de
@@ -63,4 +63,4 @@ Esencial para captar tráfico inbound y demostrar conocimiento del sector (*Topi
 > API en agosto 2026). El marcado `FAQPage` sigue siendo schema.org valido y puede seguir
 > siendo leido por buscadores con IA u otros consumidores del marcado, pero ya no genera el
 > desplegable en las SERPs de Google. No tratar un `FAQPage` incompleto como bloqueante de
-> "elegibilidad de rich result" - ese canal ya no existe.
+> "elegibilidad de rich result": ese canal ya no existe.

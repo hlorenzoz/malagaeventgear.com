@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { postFrontmatterDate } from './support/frontmatter';
+import { postDates } from './support/post-dates';
 
 // /map has no auth and derives entirely from build-time content, so these specs mock the two
 // dynamic endpoints it talks to (GET/POST /api/indexnow) rather than hitting a real D1, the
@@ -20,16 +20,21 @@ import { postFrontmatterDate } from './support/frontmatter';
 
 const PILLAR_HREF = '/blog/audio-visual-rental/';
 
-// Read from `updatedDate` in src/content/blog/audio-visual-rental.svx, never copied by hand:
-// a hand copy drifted after a post-touch and failed the suite with no regression. The
-// button's eligibility window is 3 days from this date (map-indexnow-eligibility.ts), and
-// pinning the browser clock to a fixed instant just inside that window makes the test
-// independent of the REAL calendar date it runs on.
-const PILLAR_UPDATED = postFrontmatterDate('audio-visual-rental', 'updatedDate');
-const FIXED_NOW = new Date(`${PILLAR_UPDATED}T12:00:00Z`);
-FIXED_NOW.setUTCDate(FIXED_NOW.getUTCDate() + 1);
+// The pillar's modified date is read from the post itself (dateModified, derived from its
+// `updatedDate` frontmatter), never copied by hand: a hand copy drifted after a post-touch and
+// failed the suite with no regression. The button's eligibility window is 3 days from this
+// date (map-indexnow-eligibility.ts), and pinning the browser clock to a fixed instant just
+// inside that window makes the test independent of the REAL calendar date it runs on.
+let PILLAR_UPDATED: string;
+let FIXED_NOW: Date;
 
 test.describe('/map: IndexNow submission button', () => {
+	test.beforeEach(async ({ request }) => {
+		PILLAR_UPDATED = (await postDates(request, 'audio-visual-rental')).modified;
+		FIXED_NOW = new Date(`${PILLAR_UPDATED}T12:00:00Z`);
+		FIXED_NOW.setUTCDate(FIXED_NOW.getUTCDate() + 1);
+	});
+
 	test('shows the button for a recently updated, never-submitted node and hides it after a successful submit', async ({
 		page
 	}) => {

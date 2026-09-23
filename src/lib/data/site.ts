@@ -14,7 +14,7 @@ export const siteConfig = {
 		es: 'Alquilá tu sistema audiovisual para múltiples ocasiones'
 	},
 	url: 'https://malagaeventgear.com',
-	logoUrl: 'https://malagaeventgear.com/logo.png', // Logo principal para Google Knowledge Graph
+	logoUrl: 'https://malagaeventgear.com/logo.png', // Logo del nodo #organization (Knowledge Graph). static/logo.png: 500x150, version oscura porque Google lo muestra sobre fondo blanco. Guard: site-logo.test.ts (existe y mide al menos 112x112)
 	contactEmail: 'contact@malagaeventgear.com',
 	contactPhone: '666 346 911',
 	phoneCallUrl: 'tel:+34666346911',

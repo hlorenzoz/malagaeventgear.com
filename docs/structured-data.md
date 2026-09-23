@@ -30,6 +30,7 @@ Builders live in `src/lib/utils/schema.ts`. Page-level injection happens via the
 - **Global (every public page, from the layout):** `ProfessionalService` + `WebSite` + `BreadcrumbList`.
 - **`/packages/`:** adds `ItemList` (of `Service`+`Offer`, via `buildServiceListSchema`) + `FAQPage` (VAT question).
 - **`/packages/[slug]/`:** adds `Service`+`Offer` (via `buildServiceSchema`) + `FAQPage`.
+- **`/blog/[slug]/`:** adds `BlogPosting` (or `NewsArticle` for News posts, via `buildArticleSchema`) + `FAQPage` (via `buildFAQSchema`) ONLY when the post has its own FAQ section (`post.faqs`, from `src/lib/data/post-faqs.json`). Posts without FAQs emit no `FAQPage`.
 
 ---
 

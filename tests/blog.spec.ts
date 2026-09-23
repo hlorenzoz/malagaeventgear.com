@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { postFrontmatterDate } from './support/frontmatter';
+import { postDates } from './support/post-dates';
 
 /**
  * Blog E2E Tests: Phase 2 (Routes) + Phase 3 (Sitemaps)
@@ -212,7 +212,7 @@ test.describe('Author Landing (/blog/author/[author]/)', () => {
 });
 
 test.describe('Blog SEO: Article schema enrichment', () => {
-	test('audio-visual-rental-company has BlogPosting JSON-LD and renders its FAQs without FAQPage markup', async ({ page }) => {
+	test('audio-visual-rental-company has BlogPosting JSON-LD and FAQPage JSON-LD matching its visible FAQs', async ({ page }) => {
 		await page.goto('/blog/audio-visual-rental-company/');
 		const scripts = await page.locator('script[type="application/ld+json"]').allTextContents();
 		const schemas = scripts.map((s) => { try { return JSON.parse(s); } catch { return null; } }).filter(Boolean);
@@ -226,10 +226,25 @@ test.describe('Blog SEO: Article schema enrichment', () => {
 		expect(article?.author?.url).toBe('https://malagaeventgear.com/blog/author/hector-luis-lorenzo/');
 		expect(article?.publisher?.['@id']).toBe('https://malagaeventgear.com/#organization');
 
-		// Los posts ya no emiten FAQPage (decision de f2a5811, ver BlogPost.svelte): el
-		// acordeon de FAQs se sigue mostrando, pero sin JSON-LD.
-		expect(schemas.find((s: any) => s['@type'] === 'FAQPage')).toBeUndefined();
-		await expect(page.locator('.prose details').first()).toBeVisible();
+		// Un post con seccion de FAQs emite FAQPage, y cada pregunta del marcado tiene que
+		// verse en la pagina (el marcado nunca puede decir algo que el usuario no ve).
+		const faqPage = schemas.find((s: any) => s['@type'] === 'FAQPage');
+		expect(faqPage).toBeTruthy();
+		expect(faqPage.mainEntity.length).toBeGreaterThan(0);
+		const visible = (await page.locator('.prose details summary').allTextContents()).map((t) => t.trim());
+		for (const q of faqPage.mainEntity) {
+			expect(q['@type']).toBe('Question');
+			expect(q.acceptedAnswer?.text?.length ?? 0).toBeGreaterThan(0);
+			expect(visible.some((v) => v.includes(q.name.trim())), `"${q.name}" is not visible on the page`).toBe(true);
+		}
+	});
+
+	test('a post without an FAQ section emits no FAQPage JSON-LD', async ({ page }) => {
+		await page.goto('/blog/what-renting-av-gear-in-malaga-taught-me-about-smart-business/');
+		const scripts = await page.locator('script[type="application/ld+json"]').allTextContents();
+		const types = scripts.map((s) => { try { return JSON.parse(s)['@type']; } catch { return null; } });
+		expect(types).toContain('BlogPosting');
+		expect(types).not.toContain('FAQPage');
 	});
 
 	test('audio-visual-rental-company has og:type=article meta tags', async ({ page }) => {
@@ -295,15 +310,15 @@ test.describe('Post Sitemap (/post-sitemap.xml)', () => {
 		expect(body).toContain('<loc>https://malagaeventgear.com/blog/weather-considerations-for-outdoor-rentals/</loc>');
 	});
 
-	test('SC-SM-03/04: <lastmod> uses updated when present (overrides publishDate)', async ({ page }) => {
+	test('SC-SM-03/04: <lastmod> uses updated when present (overrides publishDate)', async ({ page, request }) => {
+		// The <url> block for this post MUST have lastmod derived from `updatedDate`, not
+		// `publishDate`. Both dates are read from the post itself (its JSON-LD, derived from the
+		// frontmatter), never copied by hand (a hand copy drifted after a post-touch and failed
+		// the suite with no regression).
+		const { modified: updated, published } = await postDates(request, 'weather-considerations-for-outdoor-rentals');
+		expect(updated, 'fixture needs updatedDate != publishDate').not.toBe(published);
 		await page.goto('/post-sitemap.xml');
 		const body = await page.content();
-		// The <url> block for this post MUST have lastmod derived from `updatedDate`, not
-		// `publishDate`. Both dates are read from the frontmatter, never copied by hand (a hand
-		// copy drifted after a post-touch and failed the suite with no regression).
-		const updated = postFrontmatterDate('weather-considerations-for-outdoor-rentals', 'updatedDate');
-		const published = postFrontmatterDate('weather-considerations-for-outdoor-rentals', 'publishDate');
-		expect(updated, 'fixture needs updatedDate != publishDate').not.toBe(published);
 		const urlBlockMatch = body.match(
 			/<url>[\s\S]*?<loc>[^<]*weather-considerations-for-outdoor-rentals[^<]*<\/loc>[\s\S]*?<\/url>/
 		);
