@@ -4,6 +4,7 @@
 	import { siteConfig } from '$lib/data/site';
 	import Icon from '$lib/components/navigation/Icon.svelte';
 	import type { Category } from '$lib/types/blog';
+	import { LOGO_LIGHT, LOGO_DARK } from '$lib/assets/logos';
 
 	// Categorías del blog serializadas por (public)/+layout.server.ts — NO importar $lib/data/blog aquí.
 	let { categories = [] }: { categories?: Category[] } = $props();
@@ -16,8 +17,8 @@
 			<!-- Col 1: Brand Info -->
 			<div class="sm:col-span-2 lg:col-span-12 flex flex-col items-center gap-4 text-center mb-8 lg:mb-12">
 				<!-- Brand logo (theme-aware via data-theme CSS swap) -->
-				<img src="/logo-light.svg" alt={i18n.t.nav.brand} width="250" height="75" class="brand-logo brand-logo--light h-9 w-auto" />
-				<img src="/logo-dark.svg" alt={i18n.t.nav.brand} width="250" height="75" class="brand-logo brand-logo--dark h-9 w-auto" />
+				<img src={LOGO_LIGHT} alt={i18n.t.nav.brand} width="250" height="75" class="brand-logo brand-logo--light h-9 w-auto" />
+				<img src={LOGO_DARK} alt={i18n.t.nav.brand} width="250" height="75" class="brand-logo brand-logo--dark h-9 w-auto" />
 				<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl mt-2">
 					{i18n.lang === 'en' 
 						? 'Premium sound, lighting, and screen rentals for exclusive events in Malaga and the Costa del Sol. State of the art equipment and tailored technical support.'

@@ -11,16 +11,9 @@
 	import GoogleEmbedSection from '$lib/components/sections/GoogleEmbedSection.svelte';
 	import { galleryImages } from '$lib/data/gallery';
 	import coverThumbsRaw from '$lib/data/cover-thumbs.json';
+	import { HERO_MOBILE, HERO_FULL, HERO_SRCSET } from '$lib/assets/hero';
 
 	const coverThumbs = coverThumbsRaw as Record<string, { thumb: string; srcset?: string }>;
-
-	// Hero (LCP element). Shared by the <img> and its preload so the two can never drift.
-	// The ladder is monotonic in bytes (13.3 / 21.2 / 29.7 / 60.9 KiB), so a browser that
-	// picks a wider variant never downloads fewer bytes than a narrower one.
-	// 1024w is the largest source we have: nothing above it, because upscaling adds weight
-	// without adding detail.
-	const HERO_SRCSET =
-		'/hero-stage-400.webp 400w, /hero-stage-512.webp 512w, /hero-stage-mobile.webp 700w, /hero-stage.webp 1024w';
 
 	// Derived from the real layout tokens, not guessed:
 	//   section padding  = margin-mobile 20px  (md+: margin-desktop 64px), both sides
@@ -168,7 +161,7 @@
 	title="Audio Visual Equipment Hire Service in Malaga | MEG"
 	description="Malaga Event Gear (MEG) offers premium sound system, spectacular lighting, projector, and screen rentals for weddings, corporate events, and parties in Malaga."
 	canonicalUrl="https://malagaeventgear.com/"
-	image="/hero-stage.webp"
+	image={HERO_FULL}
 	imageWidth={1024}
 	imageHeight={768}
 	jsonLdSchema={[buildFaqSchema(getHomepageFaqs(), i18n.lang)]}
@@ -243,7 +236,7 @@
 				real viewport AND real device pixel ratio, which a media query cannot see.
 			-->
 			<img
-				src="/hero-stage-mobile.webp"
+				src={HERO_MOBILE}
 				srcset={HERO_SRCSET}
 				sizes={HERO_SIZES}
 				alt="Premium event stage with professional audiovisual lighting on the Costa del Sol"

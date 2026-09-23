@@ -5,6 +5,7 @@
 	import { i18n } from '$lib/i18n.svelte';
 	import { siteConfig } from '$lib/data/site';
 	import Icon from '$lib/components/navigation/Icon.svelte';
+	import { LOGO_LIGHT, LOGO_DARK } from '$lib/assets/logos';
 
 	// Estado reactivo con runes de Svelte 5
 	let mobileMenuOpen = $state(false);
@@ -118,7 +119,7 @@
 		<!-- Brand Logo (theme-aware: light logo on dark theme, dark logo on light theme) -->
 		<a class="transition-transform active:scale-95 duration-200" href="/" onclick={closeMobileMenu} aria-label={i18n.t.nav.brand}>
 			<img
-				src={currentTheme === 'dark' ? '/logo-light.svg' : '/logo-dark.svg'}
+				src={currentTheme === 'dark' ? LOGO_LIGHT : LOGO_DARK}
 				alt={i18n.t.nav.brand}
 				width="250"
 				height="75"

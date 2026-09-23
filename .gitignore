@@ -28,6 +28,12 @@ bun-debug.log*
 # Local image authoring source files — re-uploadable; refs + metadata are persisted in
 # scripts/migrate-wp/manifest.json (tracked). assets/_urls.txt and meta.yaml are local scratch/input.
 assets/
+# The bare pattern above matches ANY directory named "assets" at any depth (no leading/
+# inner slash), which silently shadowed src/lib/assets/ (the Vite-managed import directory
+# for hashed hero/logo assets), so it is re-included explicitly. Discovered while committing the
+# hashed-assets-static-env change.
+!src/lib/assets/
+!src/lib/assets/**
 
 # ------------------------------------------------------------------------------
 # Cloudflare / Wrangler & D1 Local State
@@ -48,9 +54,10 @@ assets/
 .env
 .env.local
 .env.[a-zA-Z]*
-# Prevent ignoring the explicit template and testing environment configurations
+# Prevent ignoring the explicit template, testing, and production build-time env files
 !.env.example
 !.env.test
+!.env.production
 
 # ------------------------------------------------------------------------------
 # AI Agents & Local Skills

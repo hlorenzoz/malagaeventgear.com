@@ -2,7 +2,7 @@
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
 	import Icon from '$lib/components/navigation/Icon.svelte';
 	import { onMount } from 'svelte';
-	import { env } from '$env/dynamic/public';
+	import { PUBLIC_TURNSTILE_SITE_KEY as TURNSTILE_SITE_KEY } from '$env/static/public';
 	import { i18n } from '$lib/i18n.svelte';
 	import { loadTurnstile } from '$lib/utils/turnstile';
 	import { getContactFaqs, buildFaqSchema } from '$lib/data/faq';
@@ -41,7 +41,6 @@
 	// Anti-spam: honeypot (must stay empty) + Turnstile token (set by CF callback).
 	let websiteHoneypot = $state('');
 	let turnstileToken = $state('');
-	const TURNSTILE_SITE_KEY = env.PUBLIC_TURNSTILE_SITE_KEY ?? '';
 
 	// Earliest selectable event date = tomorrow (today and past dates are not bookable).
 	// Built from local date parts to avoid UTC off-by-one from toISOString().

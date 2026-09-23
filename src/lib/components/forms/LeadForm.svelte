@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-	import { env } from '$env/dynamic/public';
+	import { PUBLIC_TURNSTILE_SITE_KEY as TURNSTILE_SITE_KEY } from '$env/static/public';
 	import { i18n } from '$lib/i18n.svelte';
 	import ErrorModal from '$lib/components/modals/ErrorModal.svelte';
 	import Icon from '$lib/components/navigation/Icon.svelte';
@@ -32,9 +32,6 @@
 
 	// Form root — used to lazy-load Turnstile only when the form approaches the viewport
 	let formEl = $state<HTMLElement | null>(null);
-
-	// Turnstile site key — gracefully absent in dev
-	const TURNSTILE_SITE_KEY = env.PUBLIC_TURNSTILE_SITE_KEY ?? '';
 
 	function injectTurnstileScript() {
 		loadTurnstile('_tsCallback', (token) => {

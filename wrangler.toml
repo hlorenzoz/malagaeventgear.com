@@ -7,6 +7,9 @@ ENVIRONMENT = "production"
 # Non-sensitive public vars — safe to commit
 PUBLIC_SITE_URL = "https://malagaeventgear.com"
 PUBLIC_TURNSTILE_SITE_KEY = "0x4AAAAAADdwuCX-HZK0twRi"  # Cloudflare Turnstile site key (dev: 1x00000000000000000000AA)
+# NOTE: the value actually consumed by the app comes from $env/static/public via the
+# committed .env.production (Vite build-time inlining). This [vars] entry is not read by
+# any Worker code today (Platform.env does not type it). Keep both in sync if it rotates.
 LEAD_NOTIFY_EMAILS = "malagaeventgear@gmail.com"        # Comma-separated fallback notification emails, e.g. "team@meg.com"
 RESEND_FROM = "Malaga Event Gear <contact@malagaeventgear.com>"
 

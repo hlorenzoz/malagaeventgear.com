@@ -26,8 +26,13 @@
 # del día se sirve de caché sin red, y entre 1 y 7 días se sirve la copia local al instante
 # (cero RTT en el critical path) mientras se revalida en segundo plano.
 #
-# El arreglo de fondo es hashear el nombre, como ya hace `/_app/immutable/*`. Mientras tanto,
-# si reemplazás una imagen y necesitás propagación inmediata, cambiale el nombre.
+# El arreglo de fondo es hashear el nombre, como ya hace `/_app/immutable/*`. Ya aplicado a
+# los assets del home que lo permitían (hero-stage-400/512/mobile.webp, logo-light/dark.svg,
+# vía import de Vite en src/lib/assets/, ver el cambio hashed-assets-static-env en .agents/CHANGELOG.md).
+# Esos ya NO caen en esta regla; quedan bajo el bloque autogenerado de arriba. Sigue pendiente
+# para el resto (hero-stage.webp, que no se puede hashear porque es el og:image literal que afirma
+# tests/opengraph.spec.ts, las imágenes OG de paquetes y los favicons). Si reemplazás una de ESAS y
+# necesitás propagación inmediata, cambiale el nombre.
 /*.webp
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 /*.png
@@ -41,13 +46,13 @@
 /*.ico
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 
-# `/_app/env.js` (las vars PUBLIC_*) también viene sin Cache-Control, y NO se puede arreglar
-# desde el repo. Comprobado sirviendo el build con wrangler: la respuesta trae SOLO
-# `Content-Type`, ni una de las cabeceras de seguridad que pone `src/hooks.server.ts`, mientras
-# que `/api/leads` sí las trae. O sea, SvelteKit sirve esa ruta interna cortocircuitando el
-# `handle`, y tampoco pasa por Workers Assets, así que ni este fichero ni el hook la alcanzan.
-# Son 1 KiB. Si se quiere cachear, va con una Cache Rule en el dashboard de Cloudflare.
+# `/_app/env.js` ya NO se genera: ningún módulo importa `$env/dynamic/public` (los 2
+# consumidores, LeadForm.svelte y contact/+page.svelte, pasaron a `$env/static/public`, que
+# inyecta el valor en el bundle en build time en vez de servirlo por un endpoint de runtime).
+# SvelteKit solo crea esa ruta virtual si existe al menos un import dinámico público. Ver
+# .agents/CHANGELOG.md (hashed-assets-static-env) para el detalle.
 #
-# Efecto colateral que conviene tener presente: por el mismo motivo, `/_app/env.js` se sirve
-# HOY sin HSTS, X-Frame-Options ni el resto, pese a que la cabecera de este fichero afirma que
-# los assets y el Worker están sincronizados.
+# Si en el futuro se reintroduce `$env/dynamic/public` en algún módulo, este problema vuelve
+# tal cual estaba: es una ruta interna que no pasa por Workers Assets ni por
+# src/hooks.server.ts, así que ni una regla acá ni el hook la pueden alcanzar. La única vía
+# sería una Cache Rule en el dashboard de Cloudflare.
