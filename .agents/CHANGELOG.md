@@ -7,6 +7,29 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (static-asset-cache-headers)
+- **Los assets estaticos de `static/` no se cacheaban.** Sin regla propia caian en el default de Workers Assets, `public, max-age=0, must-revalidate`, o sea revalidacion en CADA navegacion. Medido en produccion sobre la imagen LCP del home: volvia **304** (el navegador YA la tenia) y aun asi costaba **~578 ms bajo Slow 4G, el 46,6% del LCP**, por una sola ida y vuelta evitable.
+- Nuevas reglas en `_headers` para `webp/png/jpg/jpeg/svg/ico`: `public, max-age=86400, stale-while-revalidate=604800`.
+- **NO se uso `immutable` a proposito**: estos nombres son ESTABLES, sin hash de contenido, asi que un año de immutable dejaria a un visitante recurrente viendo la foto vieja tras reemplazarla. El arreglo de fondo es hashear el nombre, como ya hace `/_app/immutable/*`. Documentado en el propio `_headers`.
+- Verificado sirviendo el build con `wrangler pages dev`: los patrones por extension (`/*.webp`) SI funcionan en `_headers`, no era algo que se pudiera asumir.
+
+### Not fixable from the repo (app-env-js-cache)
+- `/_app/env.js` (las vars `PUBLIC_*`, 1 KiB) tambien viene **sin Cache-Control**, y se intento arreglar por dos vias, las dos fallaron:
+  1. Regla en `_headers` -> no aplica: no es un asset estatico, no existe en el build.
+  2. `src/hooks.server.ts` -> **tampoco corre**. Comprobado: la respuesta de `/_app/env.js` trae SOLO `Content-Type`, ni una de las cabeceras de seguridad que ese hook setea, mientras `/api/leads` las trae todas. SvelteKit sirve esa ruta interna cortocircuitando el `handle`.
+- El intento en `hooks.server.ts` se **revirtio** en vez de dejarlo como codigo muerto aparentando funcionar. Queda documentado en `_headers` que se resuelve con una Cache Rule en el dashboard.
+- **Hallazgo colateral**: por el mismo motivo, `/_app/env.js` se sirve hoy sin HSTS ni X-Frame-Options, pese a que la cabecera de `_headers` afirma que assets y Worker estan sincronizados.
+
+### Fixed (hero-responsive-image)
+- **`width="800" height="600"` era incorrecto** en el `<img>` del hero, que es el elemento LCP. Verificado con sharp: el fichero es **700x525**. Mismo ratio 4:3, asi que no generaba CLS, pero era metadato falso. Corregido.
+- **`<picture>` colapsado en un unico `<img>` con `srcset`**. Se comparo pixel a pixel `hero-stage-mobile.webp` contra `hero-stage.webp`: diferencia media 0,61/255, o sea **la misma foto a distinto tamaño**, no recortes distintos. No habia nada que art-direct, y un descriptor de ancho deja que el navegador elija por viewport Y por device pixel ratio real, cosa que una media query no puede ver.
+- Escalera nueva: `400w / 512w / 700w / 1024w`. Solo se generaron 2 ficheros (400, 512), reutilizando los dos existentes. `hero-stage.webp` se mantiene intacto porque es el `og:image` y `tests/opengraph.spec.ts` lo afirma.
+- **Gotcha de compresion**: generar las variantes a la calidad por defecto del proyecto (q82) daba un **512w de 32,1 KiB, MAS pesado que el 700w existente de 29,7 KiB**, lo que habria empeorado el rendimiento. Causa: se esta recomprimiendo un WebP ya comprimido y cada recodificacion añade artefactos que cuestan bits. Bajado a q60 y **verificada la monotonia** de la escalera (13,3 / 21,2 / 29,7 / 60,9 KiB) para que elegir un ancho mayor nunca pese menos.
+- `sizes` derivado de los tokens REALES del layout (`margin-mobile 20px`, `margin-desktop 64px`, `container-max 1280px`, `gutter 32px`), no estimado.
+- Preload migrado a `imagesrcset`/`imagesizes`, compartiendo las MISMAS constantes que el `<img>` para que no puedan divergir: si divergen, el preload baja una variante y el `<img>` otra, y la imagen LCP se descarga dos veces. **Verificado en un trace real: una sola peticion de imagen del hero.**
+- **Tradeoff honesto, medido**: en un movil de DPR alto (412x823@2.625) el navegador ahora elige **1024w (60,9 KiB) en vez de 700w (29,7 KiB)**, porque el hueco de 372 px CSS pide 976 px reales. Es el render correcto (antes se servia una imagen blanda, infradimensionada), pero son mas bytes en ese dispositivo. El ahorro que estimaba PageSpeed aterriza en dispositivos de DPR 1, que ahora reciben 400w (13,3 KiB) en vez de 700w. Si tras desplegar el score de PSI baja, la mitigacion es volver a `<picture>` con un `source` por media que limite el rango movil.
+- Verificado: Vitest 975/975, `bun run check` 766 ficheros 0 errores 0 warnings, Playwright 135 pasando con los 5 fallos del baseline preexistente.
+
 ### Fixed (image-marquee-defermount-reactivity)
 - **`src/lib/components/home/ImageMarquee.svelte`: warning `state_referenced_locally` de Svelte 5** (`ImageMarquee.svelte:44:22 This reference only captures the initial value of deferMount`). `let inView = $state(!deferMount)` leia la prop UNA sola vez, al inicializar, y nunca mas: un cambio posterior de `deferMount` se habria ignorado en silencio.
 - **Fix**: se separo el hecho observable de la prop. Nuevo `let hasIntersected = $state(false)` para "el observer ya disparo (o se salteo)", y `inView` pasa a ser derivado: `$derived(!deferMount || hasIntersected)`. El `IntersectionObserver` y el fallback para motores viejos ahora setean `hasIntersected` en vez de `inView`.

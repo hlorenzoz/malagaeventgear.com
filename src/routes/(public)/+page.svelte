@@ -14,6 +14,21 @@
 
 	const coverThumbs = coverThumbsRaw as Record<string, { thumb: string; srcset?: string }>;
 
+	// Hero (LCP element). Shared by the <img> and its preload so the two can never drift.
+	// The ladder is monotonic in bytes (13.3 / 21.2 / 29.7 / 60.9 KiB), so a browser that
+	// picks a wider variant never downloads fewer bytes than a narrower one.
+	// 1024w is the largest source we have: nothing above it, because upscaling adds weight
+	// without adding detail.
+	const HERO_SRCSET =
+		'/hero-stage-400.webp 400w, /hero-stage-512.webp 512w, /hero-stage-mobile.webp 700w, /hero-stage.webp 1024w';
+
+	// Derived from the real layout tokens, not guessed:
+	//   section padding  = margin-mobile 20px  (md+: margin-desktop 64px), both sides
+	//   container        = max-w-container-max 1280px
+	//   grid            = 1 column, 2 columns from lg (1024px), gap-gutter 32px
+	const HERO_SIZES =
+		'(min-width: 1280px) 624px, (min-width: 1024px) calc((100vw - 160px) / 2), (min-width: 768px) calc(100vw - 128px), calc(100vw - 40px)';
+
 	// Split point for the two gallery marquee rows. Derived, not a hardcoded 15, so
 	// adding shots to galleryImages keeps both rows balanced instead of piling every
 	// new image into the second row.
@@ -159,10 +174,19 @@
 	jsonLdSchema={[buildFaqSchema(getHomepageFaqs(), i18n.lang)]}
 />
 
-<!-- Preload the hero <img> (the LCP element) so it starts loading before the markup is parsed. -->
+<!--
+	Preload the hero <img> (the LCP element) so it starts loading before the markup is parsed.
+	imagesrcset/imagesizes mirror the <img> below EXACTLY: if they drift, the preload fetches
+	one variant and the <img> then fetches another, so the LCP image is downloaded twice.
+-->
 <svelte:head>
-	<link rel="preload" as="image" href="/hero-stage-mobile.webp" media="(max-width: 767px)" fetchpriority="high" />
-	<link rel="preload" as="image" href="/hero-stage.webp" media="(min-width: 768px)" fetchpriority="high" />
+	<link
+		rel="preload"
+		as="image"
+		imagesrcset={HERO_SRCSET}
+		imagesizes={HERO_SIZES}
+		fetchpriority="high"
+	/>
 </svelte:head>
 
 <!-- Hero Section -->
@@ -212,19 +236,24 @@
 			keeps it above the fold on mobile so it qualifies as the LCP there too.
 		-->
 		<div class="order-1 lg:order-2">
-			<picture>
-				<source media="(min-width: 768px)" srcset="/hero-stage.webp" width="1024" height="768" />
-				<img
-					src="/hero-stage-mobile.webp"
-					alt="Premium event stage with professional audiovisual lighting on the Costa del Sol"
-					width="800"
-					height="600"
-					loading="eager"
-					fetchpriority="high"
-					decoding="async"
-					class="w-full aspect-4/3 object-cover rounded-2xl ambient-shadow border border-border-glass"
-				/>
-			</picture>
+			<!--
+				One <img> with srcset, not <picture> with art direction: the mobile and desktop
+				files are the SAME photograph at different sizes (verified pixel by pixel), so
+				there is nothing to art direct. A width descriptor set lets the browser pick by
+				real viewport AND real device pixel ratio, which a media query cannot see.
+			-->
+			<img
+				src="/hero-stage-mobile.webp"
+				srcset={HERO_SRCSET}
+				sizes={HERO_SIZES}
+				alt="Premium event stage with professional audiovisual lighting on the Costa del Sol"
+				width="700"
+				height="525"
+				loading="eager"
+				fetchpriority="high"
+				decoding="async"
+				class="w-full aspect-4/3 object-cover rounded-2xl ambient-shadow border border-border-glass"
+			/>
 		</div>
 	</div>
 </section>

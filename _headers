@@ -11,6 +11,43 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), camera=(), microphone=()
 
-# Fuentes self-hosted: nombre de archivo estable + contenido fijo → cache inmutable de 1 año.
+# Fuentes self-hosted: nombre de archivo estable + contenido fijo -> cache inmutable de 1 año.
 /fonts/*
   Cache-Control: public, max-age=31536000, immutable
+
+# Imágenes e iconos de `static/`. Sin regla propia caían en el default de Workers Assets,
+# `public, max-age=0, must-revalidate`, que obliga a revalidar en CADA navegación. Medido en
+# producción sobre la imagen LCP del home: volvía 304 (el navegador YA la tenía) y aun así
+# costaba ~578 ms bajo Slow 4G, el 46% del LCP, por una sola ida y vuelta.
+#
+# NO se usa `immutable` a propósito: estos nombres son ESTABLES, sin hash de contenido. Un año
+# de immutable significa que reemplazar `hero-stage.webp` deja al visitante recurrente viendo
+# la foto vieja hasta 2027. En su lugar, 1 día de frescura más `stale-while-revalidate`: dentro
+# del día se sirve de caché sin red, y entre 1 y 7 días se sirve la copia local al instante
+# (cero RTT en el critical path) mientras se revalida en segundo plano.
+#
+# El arreglo de fondo es hashear el nombre, como ya hace `/_app/immutable/*`. Mientras tanto,
+# si reemplazás una imagen y necesitás propagación inmediata, cambiale el nombre.
+/*.webp
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+/*.png
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+/*.jpg
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+/*.jpeg
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+/*.svg
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+/*.ico
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+# `/_app/env.js` (las vars PUBLIC_*) también viene sin Cache-Control, y NO se puede arreglar
+# desde el repo. Comprobado sirviendo el build con wrangler: la respuesta trae SOLO
+# `Content-Type`, ni una de las cabeceras de seguridad que pone `src/hooks.server.ts`, mientras
+# que `/api/leads` sí las trae. O sea, SvelteKit sirve esa ruta interna cortocircuitando el
+# `handle`, y tampoco pasa por Workers Assets, así que ni este fichero ni el hook la alcanzan.
+# Son 1 KiB. Si se quiere cachear, va con una Cache Rule en el dashboard de Cloudflare.
+#
+# Efecto colateral que conviene tener presente: por el mismo motivo, `/_app/env.js` se sirve
+# HOY sin HSTS, X-Frame-Options ni el resto, pese a que la cabecera de este fichero afirma que
+# los assets y el Worker están sincronizados.
