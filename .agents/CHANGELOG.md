@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (dependency-bump)
+- **Subida de 15 dependencias**, entre ellas `svelte` 5.56.8 -> 5.57.1, `vite` 8.1.5 -> 8.3.0, `wrangler` 4.114.0 -> 4.136.3, `@sveltejs/kit` 2.70.1 -> 2.70.3, `playwright` 1.62 -> 1.63, `sharp` 0.35.3 -> 0.35.4, `@lucide/svelte` 1.26 -> 1.47, `mermaid` 11.16 -> 11.17.
+- **Origen no identificado**: el cambio aparecio en el working tree ya instalado (`node_modules` con mtime posterior al commit `dba8fd4`), no lo introdujo un paso deliberado de esta sesion. Se commitea aparte, sin mezclarlo con cambios de producto, y solo despues de verificarlo.
+- De paso reconcilia una desincronizacion previa entre `package.json` y `bun.lock` (p. ej. `@lucide/svelte` figuraba `^1.26.0` en uno y `^1.21.0` en el otro).
+- **Verificado CONTRA las versiones nuevas**, no antes: build verde, Vitest 975/975, `bun run check` 785 ficheros 0 errores 0 warnings (sube de 766 porque las versiones nuevas aportan mas tipos), Playwright 135 pasando con exactamente los mismos 5 fallos del baseline preexistente de `main`. Cero regresiones.
+
 ### Fixed (static-asset-cache-headers)
 - **Los assets estaticos de `static/` no se cacheaban.** Sin regla propia caian en el default de Workers Assets, `public, max-age=0, must-revalidate`, o sea revalidacion en CADA navegacion. Medido en produccion sobre la imagen LCP del home: volvia **304** (el navegador YA la tenia) y aun asi costaba **~578 ms bajo Slow 4G, el 46,6% del LCP**, por una sola ida y vuelta evitable.
 - Nuevas reglas en `_headers` para `webp/png/jpg/jpeg/svg/ico`: `public, max-age=86400, stale-while-revalidate=604800`.
