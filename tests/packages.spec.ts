@@ -140,10 +140,12 @@ test.describe('Dynamic E-commerce Filters on /packages/', () => {
 		await expect(page.locator('[data-testid="package-card"]')).toHaveCount(2);
 	});
 
-	test('6. optional "Smoke Machine" shows only the Eco Pack', async ({ page }) => {
+	test('6. optional "Smoke Machine" shows the Eco Pack and the Wedding Pack', async ({ page }) => {
+		// El Wedding Pack suma la maquina de humo como opcional desde c9ee96e.
 		await page.getByTestId('filter-optional-smoke-machine').click();
 		await expect(cardByRoute(page, routes.eco)).toBeVisible();
-		await expect(page.locator('[data-testid="package-card"]')).toHaveCount(1);
+		await expect(cardByRoute(page, routes.wedding)).toBeVisible();
+		await expect(page.locator('[data-testid="package-card"]')).toHaveCount(2);
 	});
 
 	test('7. combined "Corporate" + "Screen" shows the 3 corporate AV packages', async ({ page }) => {

@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { revealLazyContent } from './support/lazy';
 
 // The in-post image marquee mounts its <img> track only when it scrolls near the
-// viewport (ImageMarquee.svelte IntersectionObserver — an LCP optimization), so
+// viewport (ImageMarquee.svelte IntersectionObserver, an LCP optimization), so
 // each test reveals lazy content before asserting on the images.
 test.describe('Blog Posts Image Marquee E2E', () => {
 	test('Wedding blog post renders the correct wedding image marquee', async ({ page }) => {
@@ -33,7 +33,8 @@ test.describe('Blog Posts Image Marquee E2E', () => {
 	});
 
 	test('General blog post renders the correct general/eco image marquee', async ({ page }) => {
-		await page.goto('/blog/do-you-offer-delivery-and-setup-for-sound-equipment-in-malaga-spain/');
+		// El post original se consolido en how-audio-visual-rental-works (a034386, 301 en _redirects).
+		await page.goto('/blog/how-audio-visual-rental-works/');
 		await page.waitForLoadState('networkidle');
 		await revealLazyContent(page);
 

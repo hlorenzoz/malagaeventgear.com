@@ -1,17 +1,18 @@
 import { test, expect } from '@playwright/test';
+import { postFrontmatterDate } from './support/frontmatter';
 
 // /map has no auth and derives entirely from build-time content, so these specs mock the two
-// dynamic endpoints it talks to (GET/POST /api/indexnow) rather than hitting a real D1 — the
+// dynamic endpoints it talks to (GET/POST /api/indexnow) rather than hitting a real D1, the
 // dev webServer here is `vite dev`, which doesn't provide Cloudflare platform bindings.
 //
 // `waitForLoadState('networkidle')` after every goto: /map is SSR'd, so its markup (and the
 // IndexNow button) is present and "visible" to Playwright before Svelte's client bundle has
 // finished hydrating and attaching event listeners. Clicking before that point is a silent
-// no-op (a real DOM click with nothing listening yet) — the wait avoids that race.
+// no-op (a real DOM click with nothing listening yet), the wait avoids that race.
 //
 // The IndexNow button only shows for nodes updated within the last few days (see
 // map-indexnow-eligibility.ts). These specs target the audio-visual-rental PILLAR by its known
-// href (see PILLAR_HREF/PILLAR_UPDATED below) rather than an arbitrary ".first()" match — both
+// href (see PILLAR_HREF/PILLAR_UPDATED below) rather than an arbitrary ".first()" match, both
 // keeps the assertions meaningful and avoids the flakiness of a re-querying `.first()` after a
 // DOM change, and (paired with a pinned clock) decouples the test from the real calendar date.
 // Exhaustive coverage of the window/submission math itself lives in
@@ -19,17 +20,16 @@ import { test, expect } from '@playwright/test';
 
 const PILLAR_HREF = '/blog/audio-visual-rental/';
 
-// Must match `updatedDate` in src/content/blog/audio-visual-rental.svx. The button's
-// eligibility window is 3 days from this date (map-indexnow-eligibility.ts) — pinning the
-// browser clock to a fixed instant just inside that window means the test's pass/fail depends
-// only on this constant matching the frontmatter, not on the REAL calendar date the test
-// happens to run on. Without this, the test silently starts failing ~3 days after
-// PILLAR_UPDATED with no actual regression (this was a confirmed code-review finding).
-const PILLAR_UPDATED = '2026-07-24';
+// Read from `updatedDate` in src/content/blog/audio-visual-rental.svx, never copied by hand:
+// a hand copy drifted after a post-touch and failed the suite with no regression. The
+// button's eligibility window is 3 days from this date (map-indexnow-eligibility.ts), and
+// pinning the browser clock to a fixed instant just inside that window makes the test
+// independent of the REAL calendar date it runs on.
+const PILLAR_UPDATED = postFrontmatterDate('audio-visual-rental', 'updatedDate');
 const FIXED_NOW = new Date(`${PILLAR_UPDATED}T12:00:00Z`);
 FIXED_NOW.setUTCDate(FIXED_NOW.getUTCDate() + 1);
 
-test.describe('/map — IndexNow submission button', () => {
+test.describe('/map: IndexNow submission button', () => {
 	test('shows the button for a recently updated, never-submitted node and hides it after a successful submit', async ({
 		page
 	}) => {
@@ -83,7 +83,7 @@ test.describe('/map — IndexNow submission button', () => {
 	});
 });
 
-test.describe('/map — manual GSC reorder', () => {
+test.describe('/map: manual GSC reorder', () => {
 	test("clicking a kid's copy-URL button moves it down the list (marked handled)", async ({ page }) => {
 		await page.route('**/api/indexnow', (route) => route.fulfill({ json: { ok: true, submissions: [] } }));
 

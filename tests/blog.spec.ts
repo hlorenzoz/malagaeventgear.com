@@ -1,13 +1,14 @@
 import { test, expect } from '@playwright/test';
+import { postFrontmatterDate } from './support/frontmatter';
 
 /**
- * Blog E2E Tests — Phase 2 (Routes) + Phase 3 (Sitemaps)
+ * Blog E2E Tests: Phase 2 (Routes) + Phase 3 (Sitemaps)
  *
  * These tests run against the dev server (bun run dev) as configured in playwright.config.ts.
  * 75 real migrated posts in src/content/blog/ provide published content.
  * Two fixture files remain for filtering tests only:
- *   - future-post-test-fixture.svx   (publishDate: 2099-12-31 — must be excluded)
- *   - draft-post-test-fixture.svx    (draft: true — must be excluded)
+ *   - future-post-test-fixture.svx   (publishDate: 2099-12-31, must be excluded)
+ *   - draft-post-test-fixture.svx    (draft: true, must be excluded)
  */
 
 test.describe('Blog Index (/blog/)', () => {
@@ -21,7 +22,7 @@ test.describe('Blog Index (/blog/)', () => {
 
 	test('SC-BC-07: does not contain migration notice text', async ({ page }) => {
 		await page.goto('/blog/');
-		// "Transitioning" (EN) should not appear — migration notice removed
+		// "Transitioning" (EN) should not appear, migration notice removed
 		const body = await page.content();
 		expect(body.toLowerCase()).not.toContain('transitioning');
 	});
@@ -55,7 +56,7 @@ test.describe('Blog Index (/blog/)', () => {
 
 	test('Google reviews carousel is mounted on the blog index', async ({ page }) => {
 		await page.goto('/blog/');
-		// Reused Testimonials component — at least one review card should render
+		// Reused Testimonials component, at least one review card should render
 		await expect(page.locator('[data-testid="testimonial-card"]').first()).toBeVisible();
 	});
 
@@ -210,8 +211,8 @@ test.describe('Author Landing (/blog/author/[author]/)', () => {
 	});
 });
 
-test.describe('Blog SEO — Article schema enrichment', () => {
-	test('audio-visual-rental-company has BlogPosting JSON-LD with FAQPage JSON-LD', async ({ page }) => {
+test.describe('Blog SEO: Article schema enrichment', () => {
+	test('audio-visual-rental-company has BlogPosting JSON-LD and renders its FAQs without FAQPage markup', async ({ page }) => {
 		await page.goto('/blog/audio-visual-rental-company/');
 		const scripts = await page.locator('script[type="application/ld+json"]').allTextContents();
 		const schemas = scripts.map((s) => { try { return JSON.parse(s); } catch { return null; } }).filter(Boolean);
@@ -225,10 +226,10 @@ test.describe('Blog SEO — Article schema enrichment', () => {
 		expect(article?.author?.url).toBe('https://malagaeventgear.com/blog/author/hector-luis-lorenzo/');
 		expect(article?.publisher?.['@id']).toBe('https://malagaeventgear.com/#organization');
 
-		const faqPage = schemas.find((s: any) => s['@type'] === 'FAQPage');
-		expect(faqPage).toBeTruthy();
-		expect(Array.isArray(faqPage?.mainEntity)).toBe(true);
-		expect(faqPage?.mainEntity.length).toBeGreaterThan(0);
+		// Los posts ya no emiten FAQPage (decision de f2a5811, ver BlogPost.svelte): el
+		// acordeon de FAQs se sigue mostrando, pero sin JSON-LD.
+		expect(schemas.find((s: any) => s['@type'] === 'FAQPage')).toBeUndefined();
+		await expect(page.locator('.prose details').first()).toBeVisible();
 	});
 
 	test('audio-visual-rental-company has og:type=article meta tags', async ({ page }) => {
@@ -262,7 +263,7 @@ test.describe('Blog SEO — Article schema enrichment', () => {
 		expect(article).toBeTruthy();
 		expect(article?.inLanguage).toBe('en');
 		expect(article?.author?.url).toBe('https://malagaeventgear.com/blog/author/hector-luis-lorenzo/');
-		// publisher by @id — same canonical-org reference as BlogPosting (commit 5698ed1).
+		// publisher by @id, same canonical-org reference as BlogPosting (commit 5698ed1).
 		expect(article?.publisher?.['@id']).toBe('https://malagaeventgear.com/#organization');
 	});
 
@@ -297,15 +298,19 @@ test.describe('Post Sitemap (/post-sitemap.xml)', () => {
 	test('SC-SM-03/04: <lastmod> uses updated when present (overrides publishDate)', async ({ page }) => {
 		await page.goto('/post-sitemap.xml');
 		const body = await page.content();
-		// weather-considerations-for-outdoor-rentals: publishDate 2026-03-02, updated 2026-02-17.
-		// The <url> block for this post MUST have lastmod derived from `updated`, not `publishDate`.
+		// The <url> block for this post MUST have lastmod derived from `updatedDate`, not
+		// `publishDate`. Both dates are read from the frontmatter, never copied by hand (a hand
+		// copy drifted after a post-touch and failed the suite with no regression).
+		const updated = postFrontmatterDate('weather-considerations-for-outdoor-rentals', 'updatedDate');
+		const published = postFrontmatterDate('weather-considerations-for-outdoor-rentals', 'publishDate');
+		expect(updated, 'fixture needs updatedDate != publishDate').not.toBe(published);
 		const urlBlockMatch = body.match(
 			/<url>[\s\S]*?<loc>[^<]*weather-considerations-for-outdoor-rentals[^<]*<\/loc>[\s\S]*?<\/url>/
 		);
 		expect(urlBlockMatch).not.toBeNull();
 		const urlBlock = urlBlockMatch![0];
-		expect(urlBlock).toContain('<lastmod>2026-02-17T00:00:00+00:00</lastmod>');
-		expect(urlBlock).not.toContain('2026-03-02');
+		expect(urlBlock).toContain(`<lastmod>${updated}T00:00:00+00:00</lastmod>`);
+		expect(urlBlock).not.toContain(published);
 	});
 
 	test('SC-SM-05: draft posts are excluded', async ({ page }) => {
