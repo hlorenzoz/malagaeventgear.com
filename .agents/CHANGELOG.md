@@ -7,6 +7,16 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (image-marquee-defermount-reactivity)
+- **`src/lib/components/home/ImageMarquee.svelte`: warning `state_referenced_locally` de Svelte 5** (`ImageMarquee.svelte:44:22 This reference only captures the initial value of deferMount`). `let inView = $state(!deferMount)` leia la prop UNA sola vez, al inicializar, y nunca mas: un cambio posterior de `deferMount` se habria ignorado en silencio.
+- **Fix**: se separo el hecho observable de la prop. Nuevo `let hasIntersected = $state(false)` para "el observer ya disparo (o se salteo)", y `inView` pasa a ser derivado: `$derived(!deferMount || hasIntersected)`. El `IntersectionObserver` y el fallback para motores viejos ahora setean `hasIntersected` en vez de `inView`.
+- **Arreglado de verdad, no silenciado**: `bun run check` da 766 ficheros, 0 errores, 0 warnings.
+- **Los dos modos verificados en el HTML prerenderizado**, que es donde el bug habria dolido: con `deferMount={false}` la noticia de ECOC sigue emitiendo sus 22 `<img>` server side, y con el default (`true`) el home sigue sin emitir el track (0 elementos `<div class="marquee-item">`, 0 imgs `width="320"`, solo queda la regla CSS del mismo nombre). Vitest 975/975. Playwright 135 pasando con los 5 fallos del baseline preexistente, cero regresiones.
+
+### Not a bug (woocommerce-404s-are-deliberate)
+- Reportados como fallos tres 404 del dev server: `/my-account/`, `/cart/` y `/checkout/`. **NO se tocaron: son una decision documentada**, no una omision. `_redirects` ya lo dice en el comentario del bloque de WooCommerce (2026-08-10): *"/my-account/, /cart/, /checkout/ and /product/ are deliberately left at 404: store functionality with no equivalent, where a 301 to the homepage would read as a soft 404."*
+- Verificado ademas que son URLs huerfanas: nada en `src/` ni en `static/` enlaza a esas tres rutas, y no aparecen en `STATIC_SITEMAP_PAGES` ni en `llms.txt`. Un 404 honesto es la respuesta correcta para funcionalidad de tienda que el sitio ya no tiene. Redirigirlas al home seria exactamente el soft 404 que la decision original queria evitar.
+
 ### Changed (ecoc-2026-internal-links)
 - **Analisis de que posts merecen un enlace entrante a la noticia de ECOC 2026, y actualizacion de los 3 que lo merecen.** Criterio: solapamiento tematico real contra lo que la noticia documenta (stands de expositor, pantallas, FYCMA, ventana de montaje), no coincidencia de keyword. Se revisaron 9 candidatos y se descartaron 6, documentado abajo.
 - **`audio-visual-rental-for-trade-shows.svx`** (el mas fuerte: ya mencionaba FYCMA 2 veces, 21 "booth", 51 "stand"). Ademas del enlace, se **corrigio una afirmacion que dejo de ser cierta**: la presentacion de Volvo se describia como "the closest real analogue we have to an exhibitor's own stand". Ya no es un analogo, MEG tiene un trabajo real de stands de expositor en una feria real. Frase reescrita y parrafo nuevo en "Real Setups We've Delivered".

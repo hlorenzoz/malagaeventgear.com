@@ -41,19 +41,25 @@
 	// We keep the image track out of the initial render and mount it only when it
 	// scrolls near the viewport, so the animation also never runs offscreen.
 	let container = $state<HTMLDivElement | null>(null);
-	let inView = $state(!deferMount);
+
+	// Whether the observer has fired (or been bypassed). Kept separate from the prop so
+	// `inView` can stay derived: `let inView = $state(!deferMount)` read the prop once at
+	// init and never again, which Svelte 5 flags as state_referenced_locally because a
+	// later change to deferMount would be silently ignored.
+	let hasIntersected = $state(false);
+	let inView = $derived(!deferMount || hasIntersected);
 
 	onMount(() => {
 		if (!deferMount) return;
 		if (!container) return;
 		if (!('IntersectionObserver' in window)) {
-			inView = true; // graceful fallback for very old engines
+			hasIntersected = true; // graceful fallback for very old engines
 			return;
 		}
 		const io = new IntersectionObserver(
 			(entries) => {
 				if (entries.some((e) => e.isIntersecting)) {
-					inView = true;
+					hasIntersected = true;
 					io.disconnect();
 				}
 			},
