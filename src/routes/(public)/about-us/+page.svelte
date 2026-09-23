@@ -169,8 +169,8 @@
 				</h3>
 				<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
 					{i18n.lang === 'en'
-						? 'Professional Shure/Sennheiser wired and wireless handheld, lapel, and gooseneck microphone configurations.'
-						: 'Configuraciones profesionales de micrófonos Shure/Sennheiser con cable, inalámbricos de mano, de solapa o flexo.'}
+						? 'Professional Audix/Sennheiser wired and wireless handheld, lapel, and gooseneck microphone configurations.'
+						: 'Configuraciones profesionales de micrófonos Audix/Sennheiser con cable, inalámbricos de mano, de solapa o flexo.'}
 				</p>
 			</div>
 

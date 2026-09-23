@@ -7,6 +7,14 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (false-equipment-brand-claims)
+- **El sitio afirmaba cuatro marcas de equipo que MEG NO posee.** Verificado contra `.agents/context/Equipamiento.csv`: `QSC` 0 ocurrencias, `Shure` 0, `Pioneer` 0, `Yamaha` 0. Las reales son **HK Audio (14), Audix (23), Midas (3), Sennheiser (2), Martin (1)**.
+- No es una sutileza de SEO: son afirmaciones de producto en paginas publicas y, en el caso de las FAQ, **declaradas a Google como datos estructurados** dentro del `FAQPage` JSON-LD. Es un problema de Trust y de publicidad enganosa.
+- **14 ocurrencias corregidas en 7 ficheros.** `QSC -> HK Audio` (altavoces/amplificacion, citado junto a Audix para micros y Martin para humo) en `faq.ts` (en+es), `latest-trends-in-wedding-rentals.svx` y `pros-and-cons-of-wedding-rentals.svx`. `Shure -> Audix` (microfonos) en `equipment/+page.svelte` y `about-us/+page.svelte`. El trio inventado `Premium brands (Shure, Pioneer, Yamaha)` pasa a `(HK Audio, Audix, Midas)`, un trio real de altavoces, micros y consola, en `packages/[slug]/+page.svelte` (en+es).
+- **La nota previa estaba incompleta**: registraba el bug solo en `faq.ts` y `post-faqs.json`, pero QSC tambien estaba en **2 posts del blog**. `post-faqs.json` es cache DERIVADA, asi que se corrigio en los `.svx` y se regenero, no se edito a mano.
+- `updatedDate` de los 2 posts movido a `2026-09-23`. Regenerados `post-faqs.json` y `post-toc.json`.
+- Verificado en el HTML PRERENDERIZADO, no solo en el fuente: **0 ocurrencias de las 4 marcas** en los 92 ficheros generados. Vitest 975/975, build verde, Playwright 135 pasando con los 5 fallos del baseline preexistente.
+
 ### Changed (dependency-bump)
 - **Subida de 15 dependencias**, entre ellas `svelte` 5.56.8 -> 5.57.1, `vite` 8.1.5 -> 8.3.0, `wrangler` 4.114.0 -> 4.136.3, `@sveltejs/kit` 2.70.1 -> 2.70.3, `playwright` 1.62 -> 1.63, `sharp` 0.35.3 -> 0.35.4, `@lucide/svelte` 1.26 -> 1.47, `mermaid` 11.16 -> 11.17.
 - **Origen no identificado**: el cambio aparecio en el working tree ya instalado (`node_modules` con mtime posterior al commit `dba8fd4`), no lo introdujo un paso deliberado de esta sesion. Se commitea aparte, sin mezclarlo con cambios de producto, y solo despues de verificarlo.

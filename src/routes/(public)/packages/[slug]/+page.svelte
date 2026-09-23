@@ -27,7 +27,7 @@
 		},
 		{
 			icon: 'check_circle',
-			text: i18n.lang === 'en' ? 'Premium brands (Shure, Pioneer, Yamaha)' : 'Equipos de marca premium (Shure, Pioneer, Yamaha)'
+			text: i18n.lang === 'en' ? 'Premium brands (HK Audio, Audix, Midas)' : 'Equipos de marca premium (HK Audio, Audix, Midas)'
 		},
 		{
 			icon: 'support_agent',

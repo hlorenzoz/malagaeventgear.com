@@ -169,8 +169,8 @@
 				<h3 class="font-headline-md text-[28px] text-on-surface mb-2">{i18n.t.categories.soundTitle}</h3>
 				<p class="font-body-md text-body-md text-on-surface-variant max-w-md opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
 					{i18n.lang === 'en'
-						? 'Line array systems, active speakers, digital mixing consoles, and Shure wireless microphones for high acoustic fidelity.'
-						: 'Sistemas line array, altavoces activos, consolas de mezcla digital y micrófonos inalámbricos Shure para máxima fidelidad acústica.'
+						? 'Line array systems, active speakers, digital mixing consoles, and Audix wireless microphones for high acoustic fidelity.'
+						: 'Sistemas line array, altavoces activos, consolas de mezcla digital y micrófonos inalámbricos Audix para máxima fidelidad acústica.'
 					}
 				</p>
 			</div>
