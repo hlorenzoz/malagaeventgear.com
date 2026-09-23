@@ -5500,6 +5500,98 @@
       "level": 3
     }
   ],
+  "smoke-machine-rental": [
+    {
+      "id": "the-real-machine-we-stock",
+      "text": "The Real Machine We Stock",
+      "level": 2
+    },
+    {
+      "id": "how-you-get-it-an-add-on-not-a-package",
+      "text": "How You Get It: An Add On, Not a Package",
+      "level": 2
+    },
+    {
+      "id": "the-fire-alarm-question-which-decides-everything",
+      "text": "The Fire Alarm Question, Which Decides Everything",
+      "level": 2
+    },
+    {
+      "id": "fog-haze-and-low-lying-fog-are-three-different-products",
+      "text": "Fog, Haze and Low Lying Fog Are Three Different Products",
+      "level": 2
+    },
+    {
+      "id": "gender-reveals-read-this-before-you-book",
+      "text": "Gender Reveals: Read This Before You Book",
+      "level": 2
+    },
+    {
+      "id": "fog-plus-which-lights-exactly",
+      "text": "Fog Plus Which Lights, Exactly",
+      "level": 2
+    },
+    {
+      "id": "real-setups-weve-delivered",
+      "text": "Real Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "how-far-in-advance-to-book",
+      "text": "How Far in Advance to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "how-much-does-a-smoke-machine-cost-to-rent-in-malaga",
+      "text": "How much does a smoke machine cost to rent in Malaga?",
+      "level": 3
+    },
+    {
+      "id": "will-the-smoke-machine-set-off-the-fire-alarm",
+      "text": "Will the smoke machine set off the fire alarm?",
+      "level": 3
+    },
+    {
+      "id": "do-you-offer-the-low-lying-fog-effect-for-a-first-dance",
+      "text": "Do you offer the low lying fog effect for a first dance?",
+      "level": 3
+    },
+    {
+      "id": "can-you-do-coloured-smoke-for-a-gender-reveal",
+      "text": "Can you do coloured smoke for a gender reveal?",
+      "level": 3
+    },
+    {
+      "id": "do-you-rent-a-haze-machine",
+      "text": "Do you rent a haze machine?",
+      "level": 3
+    },
+    {
+      "id": "how-many-smoke-machines-do-you-have",
+      "text": "How many smoke machines do you have?",
+      "level": 3
+    },
+    {
+      "id": "can-the-smoke-machine-be-used-outdoors",
+      "text": "Can the smoke machine be used outdoors?",
+      "level": 3
+    },
+    {
+      "id": "is-the-fog-machine-synchronised-with-the-lighting",
+      "text": "Is the fog machine synchronised with the lighting?",
+      "level": 3
+    }
+  ],
   "audio-visual-rental-companies": [
     {
       "id": "brief-overview",

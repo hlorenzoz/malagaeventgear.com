@@ -1873,6 +1873,40 @@
       "answer": "It scales with the package: the Basic MICE Pack covers up to 40 guests, and the MICE Pack covers up to 120. See the full comparison on our packages page."
     }
   ],
+  "smoke-machine-rental": [
+    {
+      "question": "How much does a smoke machine cost to rent in Malaga?",
+      "answer": "Twenty euros, added to a package rather than rented alone. It is an option on the Eco Pack at 290 euros ex VAT and the Wedding Pack at 650 euros ex VAT."
+    },
+    {
+      "question": "Will the smoke machine set off the fire alarm?",
+      "answer": "It can, and that is the normal behaviour of an optical smoke detector rather than a fault. Ask your venue whether the detection zone can be isolated for the event and who is authorised to do it, before you book the add on. We cannot isolate a detector ourselves, because fire detection is the venue's system and their responsibility."
+    },
+    {
+      "question": "Do you offer the low lying fog effect for a first dance?",
+      "answer": "No. That cloud on the floor look needs a chilled fog or dry ice machine, which is different equipment we do not stock. Our Martin Magnum 650 produces fog that rises and spreads rather than staying at ankle height."
+    },
+    {
+      "question": "Can you do coloured smoke for a gender reveal?",
+      "answer": "No. Our machine makes white fog only. Coloured smoke comes from smoke grenades, powder cannons or pyrotechnic sticks, which are a different product family and not something we supply. We can light the reveal area in pink or blue with our RGBW fixtures instead."
+    },
+    {
+      "question": "Do you rent a haze machine?",
+      "answer": "No. We stock fog, not haze. Fog is visible white cloud that drifts and thins, haze is a near invisible mist that hangs for hours. If your production specifically needs haze, we are not the supplier for that piece."
+    },
+    {
+      "question": "How many smoke machines do you have?",
+      "answer": "One. It covers a dancefloor, a stage or a presentation area well. Filling a large hall evenly takes several machines placed around the room, which is beyond what we stock."
+    },
+    {
+      "question": "Can the smoke machine be used outdoors?",
+      "answer": "It can be powered and run outdoors, but fog disperses in seconds in any wind, so the effect is usually not worth the setup unless the area is genuinely sheltered. Tell us the space and we will say honestly whether it is worth the 20 euros."
+    },
+    {
+      "question": "Is the fog machine synchronised with the lighting?",
+      "answer": "Not automatically. Our lighting is controlled by foot pedal and aimed by hand rather than by DMX, so there is no programmed cue stack. A technician triggers the fog by hand at the moment you want it, which works well for an entrance or a first dance."
+    }
+  ],
   "audio-visual-rental-companies": [
     {
       "question": "How do I know if an audio visual rental company is legitimate?",

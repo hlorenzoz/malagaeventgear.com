@@ -1,0 +1,160 @@
+---
+title: "Smoke Machine Rental in Malaga, Spain"
+description: "Smoke machine rental in Malaga: one real Martin Magnum 650, a 20 euro add on to the Eco and Wedding Packs, plus the fire alarm rule nobody tells you before the event."
+author: Hector Luis Lorenzo
+slug: smoke-machine-rental
+publishDate: "2026-09-23"
+excerpt: "The fog layer of our lighting catalog: one Martin Magnum 650, sold as a 20 euro add on rather than a package of its own, what fog actually does for your lighting, and the venue permission question that decides whether it can run at all."
+coverImage: https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled.webp
+categories: [Audio Visual Rental, Events, Weddings]
+tags: []
+draft: false
+keyword: "smoke machine rental"
+siloRole: supporting
+targetPage: "/blog/stage-lighting-rental/"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Most smoke machine rental pages sell the machine. This one starts somewhere else, because the machine is the easy part.
+
+A fog machine is not a decoration. It exists for one reason: **light travelling through clean air is invisible**. You only see the beam when there is something in the air for it to hit. Rent lighting without fog and you get lit surfaces. Add fog and you get the beams themselves, which is the look almost everyone actually had in mind.
+
+That is why this page sits under our [stage lighting rental](/blog/stage-lighting-rental/) guide rather than beside the speakers.
+
+Malaga Event Gear stocks **one Martin Magnum 650**, and we sell it as a 20 euro add on rather than as a package of its own. Below is exactly what it does, what it does not do, and the one question that decides whether it can run at your venue at all.
+
+## The Real Machine We Stock
+
+One unit, and we would rather name it than hide behind "professional fog effects":
+
+| Spec | Value |
+| --- | --- |
+| Model | Martin Magnum 650 |
+| Power | 600 W |
+| Output | 160 m3 per minute |
+| Units in stock | 1 |
+| Price | 20 euros, as an add on |
+
+One machine is genuinely enough for a dancefloor, a stage or a single presentation area. It is not enough to fill a large hall evenly, and we are not going to tell you otherwise. If you have seen a venue wrapped corner to corner in fog, that was several machines placed around the room, not one.
+
+## How You Get It: An Add On, Not a Package
+
+The fog machine is an option on two of our packages, at 20 euros on top of the package price:
+
+| Package | Price | Guests | Fog machine |
+| --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | 290 euros ex VAT | up to 50 | +20 euros |
+| [Wedding Pack](/packages/wedding/) | 650 euros ex VAT | up to 80 | +20 euros |
+
+We do not rent it on its own. It is 20 euros of atmosphere layered onto a booking that already has the sound and the lighting, and on its own in an empty room it does nothing worth paying for.
+
+<InlineCTA />
+
+## The Fire Alarm Question, Which Decides Everything
+
+Here is the part that gets skipped until the morning of the event.
+
+**Fog sets off optical smoke detectors.** Not sometimes. That is how the detectors work: they look for particles suspended in the air, and fog is particles suspended in the air. A detector cannot tell the difference between glycol fog and an actual fire.
+
+So before anyone books a fog machine, one question has to be answered by the venue, not by us and not by you:
+
+> Can the smoke detection in this room be isolated for the duration of the event, and who is authorised to do it?
+
+In hotels and licensed venues on the Costa del Sol the answer is usually yes, and it involves the venue's own maintenance or security staff putting the affected zone into test mode, with a written record. In others the answer is a flat no, most often where the detection is tied directly to an automatic fire brigade call.
+
+What this means in practice:
+
+-   **Ask the venue before you book the add on**, not after. Twenty euros is cheap. A building evacuation during the first dance is not.
+-   **We cannot isolate a detector**, and we will not try. Fire detection is the venue's system and their legal responsibility.
+-   **If the venue says no, say no.** We would rather lose 20 euros than trigger an alarm at your event.
+
+Outdoors this problem disappears, but a different one arrives: wind. Fog outdoors disperses in seconds unless the area is sheltered, so the effect is usually worth less than it costs to set up.
+
+## Fog, Haze and Low Lying Fog Are Three Different Products
+
+These get used interchangeably online and they are not the same thing. We stock exactly one of the three.
+
+| Effect | What it looks like | Do we stock it |
+| --- | --- | --- |
+| **Fog** | Visible white clouds, thick, drifts and then thins out | **Yes**, the Magnum 650 |
+| **Haze** | Barely visible even mist, hangs for hours, shows beams without clouds | No |
+| **Low lying fog** | Sits on the floor at ankle height, the dry ice or chilled fog look | No |
+
+That third row matters more than the other two, because it is the one people picture for a wedding first dance: the couple apparently standing on a cloud. That effect needs a chilled fog or dry ice machine, which is different equipment we do not carry. Our fog rises and spreads rather than hugging the floor. If a floor cloud is what you want, book a specialist for it, and tell us so we can plan the lighting around a machine that is not ours.
+
+## Gender Reveals: Read This Before You Book
+
+"Gender reveal smoke machine" is one of the most common ways people arrive at a page like this, and the honest answer is not the one most rental pages give.
+
+**Our fog machine produces white fog. It cannot produce pink or blue.**
+
+A gender reveal needs *coloured* smoke, which comes from a completely different family of products: smoke grenades, powder cannons and pyrotechnic smoke sticks. Those are consumables with a colourant burned or expelled, not a glycol fog machine with a filter on it. We do not stock them and we are not a pyrotechnics supplier.
+
+What we can do is the lighting. An RGBW wash in pink or blue across the reveal area, triggered on cue, reads clearly in photos and on video, needs no venue permission and cannot be ruined by wind. If a reveal is your event, that is the conversation worth having with us, and our [stage lighting for weddings](/blog/stage-lighting-for-weddings/) guide covers how that wash is built.
+
+## Fog Plus Which Lights, Exactly
+
+Fog only earns its 20 euros when there is a beam for it to reveal. Against our real fixture list:
+
+-   **Eurolite LED KLS-200 bars**, the RGBW spotlights on the [Eco Pack](/packages/eco/) and Wedding Pack. Four fixed heads per bar, aimed by hand. In clean air you see four coloured pools on a wall. With fog you see four beams crossing the room. This is the pairing the add on exists for.
+-   **ADJ Encore FRI50Z**, a zoom Fresnel. A soft edged wash rather than a hard beam, so fog thickens it into a visible cone of light.
+-   **ADJ Element H6 Pack**, the six wireless uplights covered in our [stage uplighting](/blog/stage-uplighting/) guide. These point up a wall and are seen ON the wall, so fog adds the least here of anything we stock.
+
+One honest limit carried over from the pillar: our lighting runs on **foot pedal and manual aiming, not DMX**. There is no programmed cue stack synchronising a fog burst to a lighting change on a timeline. A technician triggers it by hand at the right moment, which is entirely adequate for a first dance or an entrance and is not the automated show some pages imply.
+
+## Real Setups We've Delivered
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('eco')} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## How Far in Advance to Book
+
+All our bookings need at least 24 hours' notice, and the fog machine is no exception. The constraint that actually needs lead time is not ours, it is the venue's: getting written confirmation that the detection zone can be isolated can take days if it has to go through a hotel's technical department. Ask early, book late.
+
+## Conclusion
+
+Smoke machine rental in Malaga, from us, means one Martin Magnum 650 added to an [Eco Pack](/packages/eco/) or a [Wedding Pack](/packages/wedding/) for 20 euros, to make the lighting you are already renting actually visible.
+
+Confirm with your venue that the smoke detection can be isolated, and tell us what you are lighting. If the answer from the venue is no, we will say so and build the look with light alone.
+
+[Contact us](/contact/) with your venue and your date, or call us on [666 346 911](tel:+34666346911).
+
+## FAQs
+
+### How much does a smoke machine cost to rent in Malaga?
+
+Twenty euros, added to a package rather than rented alone. It is an option on the [Eco Pack](/packages/eco/) at 290 euros ex VAT and the [Wedding Pack](/packages/wedding/) at 650 euros ex VAT.
+
+### Will the smoke machine set off the fire alarm?
+
+It can, and that is the normal behaviour of an optical smoke detector rather than a fault. Ask your venue whether the detection zone can be isolated for the event and who is authorised to do it, before you book the add on. We cannot isolate a detector ourselves, because fire detection is the venue's system and their responsibility.
+
+### Do you offer the low lying fog effect for a first dance?
+
+No. That cloud on the floor look needs a chilled fog or dry ice machine, which is different equipment we do not stock. Our Martin Magnum 650 produces fog that rises and spreads rather than staying at ankle height.
+
+### Can you do coloured smoke for a gender reveal?
+
+No. Our machine makes white fog only. Coloured smoke comes from smoke grenades, powder cannons or pyrotechnic sticks, which are a different product family and not something we supply. We can light the reveal area in pink or blue with our RGBW fixtures instead.
+
+### Do you rent a haze machine?
+
+No. We stock fog, not haze. Fog is visible white cloud that drifts and thins, haze is a near invisible mist that hangs for hours. If your production specifically needs haze, we are not the supplier for that piece.
+
+### How many smoke machines do you have?
+
+One. It covers a dancefloor, a stage or a presentation area well. Filling a large hall evenly takes several machines placed around the room, which is beyond what we stock.
+
+### Can the smoke machine be used outdoors?
+
+It can be powered and run outdoors, but fog disperses in seconds in any wind, so the effect is usually not worth the setup unless the area is genuinely sheltered. Tell us the space and we will say honestly whether it is worth the 20 euros.
+
+### Is the fog machine synchronised with the lighting?
+
+Not automatically. Our lighting is controlled by foot pedal and aimed by hand rather than by DMX, so there is no programmed cue stack. A technician triggers the fog by hand at the moment you want it, which works well for an entrance or a first dance.
