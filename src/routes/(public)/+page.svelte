@@ -13,6 +13,7 @@
 	import coverThumbsRaw from '$lib/data/cover-thumbs.json';
 	import { HERO_MOBILE, HERO_FULL, HERO_SRCSET } from '$lib/assets/hero';
 	import { packageImageVariant } from '$lib/assets/package-images';
+	import { afterLcp } from '$lib/utils/after-lcp';
 
 	const coverThumbs = coverThumbsRaw as Record<string, { thumb: string; srcset?: string }>;
 
@@ -101,11 +102,12 @@
 	let atStart = $state(true);
 	let atEnd = $state(false);
 
-	// Start NON-scrollable, enable scrolling after hydration ($effect runs post-mount, after
-	// FCP). A scrollable carousel container that the browser scroll-adjusts during initial
-	// layout (before the hero <h1> paints) stops Largest Contentful Paint recording -> NO_LCP.
-	// SSR renders overflow-x:hidden so no early scroll happens; by the time this flips the
-	// <h1> is already the recorded LCP. The showcase is below the fold (no visible change).
+	// Start NON-scrollable and enable scrolling only once the browser has recorded the LCP
+	// (see afterLcp). Flipping to overflow-x:auto makes the browser scroll-adjust the snap
+	// container, and a scroll before the first LCP candidate stops LCP recording -> NO_LCP.
+	// Mount time is NOT a safe proxy: it follows the JS clock, not the paint clock, and in
+	// 3 of 40 measured runs it landed before FCP. The showcase is below the fold, and the
+	// arrow buttons work meanwhile (scrollBy also scrolls an overflow:hidden container).
 	let canScroll = $state(false);
 
 	// Cached max scroll distance. scrollWidth/clientWidth only change on resize, so we
@@ -135,7 +137,9 @@
 
 	$effect(() => {
 		if (!track) return;
-		canScroll = true;
+		const cancelAfterLcp = afterLcp(() => {
+			canScroll = true;
+		});
 		measure();
 		const el = track;
 		let raf = 0;
@@ -150,6 +154,7 @@
 		const ro = new ResizeObserver(measure);
 		ro.observe(el);
 		return () => {
+			cancelAfterLcp();
 			el.removeEventListener('scroll', onScroll);
 			ro.disconnect();
 			if (raf) cancelAnimationFrame(raf);

@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import Icon from '$lib/components/navigation/Icon.svelte';
 	import BlogPostCard from '$lib/components/blog/BlogPostCard.svelte';
+	import { afterLcp } from '$lib/utils/after-lcp';
 	import type { BlogPost } from '$lib/types/blog';
 
 	let {
@@ -16,17 +17,17 @@
 		viewAllLabel: string;
 	} = $props();
 
-	// Start NON-scrollable, become scrollable after hydration. Root cause of the home's
-	// NO_LCP: the browser scroll-adjusts a scrollable carousel container during initial
-	// layout (~150ms, before the hero <h1> paints), and that early container scroll stops
-	// Largest Contentful Paint recording -> zero LCP candidates. Rendering overflow-x:hidden
-	// in SSR prevents the scroll; onMount runs after FCP (the <h1> is already the recorded
-	// LCP), so enabling scroll then is safe. These rows are below the fold, so there is no
-	// visible difference.
+	// Start NON-scrollable and become scrollable only once the browser has recorded the LCP
+	// (see afterLcp). The browser scroll-adjusts a scrollable snap container during layout,
+	// and a container scroll before the first LCP candidate stops Largest Contentful Paint
+	// recording -> NO_LCP. onMount alone is NOT safe: it follows the JS clock, not the paint
+	// clock, and can land before FCP. These rows are below the fold (no visible difference).
 	let scrollable = $state(false);
-	onMount(() => {
-		scrollable = true;
-	});
+	onMount(() =>
+		afterLcp(() => {
+			scrollable = true;
+		})
+	);
 </script>
 
 {#if posts.length > 0}
