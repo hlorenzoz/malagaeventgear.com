@@ -9,7 +9,7 @@ export default {
 			'Läs experttips om högkvalitativt ljud, romantisk bröllopsbelysning, projektoruppsättningar för konferenser och professionell eventutrustning i Malaga.'
 	},
 	schema: {
-		name: 'Ljud- och bildblogg om event | MEG',
+		name: 'Blogg om ljud, bild och evenemang | MEG',
 		description:
 			'Professionella tekniska guider, råd om AV-uthyrning och tips för bröllopsplanering i Malaga och på Costa del Sol.'
 	},
@@ -18,7 +18,7 @@ export default {
 		titlePrefix: 'Malaga Event Gears',
 		titleHighlight: 'tekniska blogg',
 		intro:
-			'Vi delar professionella insikter, akustiska ritningar och guider för visuell layout för att göra ditt företagstoppmöte, bröllop eller firande på Costa del Sol tekniskt felfritt.'
+			'Vi delar professionella insikter, akustiska upplägg och guider för visuell layout för att göra ditt företagstoppmöte, bröllop eller firande på Costa del Sol tekniskt felfritt.'
 	},
 	empty: 'Inga inlägg än. Kom tillbaka snart!',
 	newsBadge: 'Nyheter',

@@ -60,7 +60,7 @@ const t = {
 			'Dedikert teknisk support som sikrer at arrangementet ditt går knirkefritt fra start til slutt, helt uten bekymringer.',
 		card2Title: '#2 Skreddersydde pakker',
 		card2Text: 'Fleksible leiepakker tilpasset ethvert arrangement, uansett størrelse, lokale og budsjett.',
-		card3Title: '#3 Moderne teknologi',
+		card3Title: '#3 Toppmoderne teknologi',
 		card3Text: 'Nyt lyd- og bildeutstyr i toppklasse som løfter både bilde- og lydkvaliteten på produksjonen din.'
 	},
 	// Overview (At a Glance: answer-engine optimization)
@@ -82,10 +82,10 @@ const t = {
 	},
 	// Impact
 	impact: {
-		title: 'Vår innsats i tall',
+		title: 'Våre resultater i tall',
 		years: 'Års erfaring',
 		clients: 'Fornøyde kunder',
-		satisfaction: 'Tilfredshet'
+		satisfaction: 'Kundetilfredshet'
 	},
 	// Categories
 	categories: {
@@ -95,7 +95,7 @@ const t = {
 		soundText:
 			'Krystallklar lyd i høy kvalitet, perfekt for intime bryllup eller store bedriftskonferanser. Vi samarbeider med ledende merker for å sikre høyeste akustiske kvalitet.',
 		lightTitle: 'Lys',
-		lightText: 'Dynamiske løsninger for lys som skaper den perfekte stemningen i lokalet ditt.',
+		lightText: 'Dynamiske lysløsninger som skaper den perfekte stemningen i lokalet ditt.',
 		visualTitle: 'Prosjektorer og lerret',
 		visualText: 'Skarpe bilder i høy oppløsning til presentasjoner med stort visuelt inntrykk.',
 		fxTitle: 'Spesialeffekter og røykmaskiner',
@@ -131,7 +131,7 @@ const t = {
 		purpose: 'Type arrangement',
 		capacity: 'Arrangementets størrelse',
 		price: 'Budsjett',
-		equipment: 'Utstyr inkludert',
+		equipment: 'Inkludert utstyr',
 		extras: 'Valgfrie tillegg',
 		sortBy: 'Sorter etter',
 		party: 'Fester',
@@ -194,7 +194,7 @@ const t = {
 		lockedFieldNote: 'Automatisk generert fra en feil. Dette feltet kan ikke redigeres.',
 		errorPrefillMessage:
 			'Hei, jeg sendte inn en pakkeforespørsel på nettsiden deres, men bekreftelses-e-posten ble ikke sendt. Kan dere bekrefte at dere har mottatt henvendelsen min? Referanse: {ref}',
-		errorDetailsHeader: 'Innsendte detaljer:',
+		errorDetailsHeader: 'Innsendte opplysninger:',
 		errorDetailSource: 'Skjema-URL',
 		errorDetailName: 'Navn',
 		errorDetailEmail: 'E-post',
@@ -202,7 +202,7 @@ const t = {
 		errorDetailDate: 'Arrangementsdato',
 		errorDetailPackage: 'Pakke',
 		errorDetailComments: 'Kommentarer',
-		successTitle: 'Tilbud forespurt!',
+		successTitle: 'Forespørsel om tilbud sendt!',
 		successText1: 'Hei',
 		successText2:
 			'vi har mottatt forespørselen din. Vårt tekniske team i Malaga vil vurdere den og kontakte deg på e-post (',
@@ -244,7 +244,7 @@ const t = {
 	},
 	// Testimonials (Google reviews)
 	testimonials: {
-		badge: 'Kundeomtaler',
+		badge: 'Kundeanmeldelser',
 		title: 'Ekte historier fra ekte arrangementer',
 		subtitle: 'Verifiserte Google-anmeldelser fra kunder langs Costa del Sol.',
 		ratingLabel: 'UTMERKET',
@@ -276,7 +276,7 @@ const t = {
 		errorMinLength: 'Må være minst 2 tegn.',
 		errorMaxLength: 'Maks 1000 tegn tillatt.',
 		errorHoneypot: 'Spam oppdaget.',
-		noCardRequired: 'Ikke behov for kredittkort for å sjekke tilgjengelighet',
+		noCardRequired: 'Du trenger ikke kredittkort for å sjekke tilgjengelighet',
 		quickResponseNote: 'Svar så snart som mulig',
 		errorSubmit: 'Noe gikk galt. Prøv igjen eller kontakt oss direkte.',
 		errorTurnstile: 'Sikkerhetsverifiseringen mislyktes. Prøv igjen.',
@@ -288,7 +288,7 @@ const t = {
 		emailFailDismiss: 'Lukk',
 		countryCode: 'Landskode',
 		responseTime: 'Vi svarer så snart som mulig',
-		trustBadge: 'Tillit fra 500+ arrangementer i Malaga'
+		trustBadge: 'Valgt til 500+ arrangementer i Malaga'
 	},
 	// Thank-you page
 	thankYou: {
@@ -337,7 +337,7 @@ const t = {
 		onlinePresence: 'Nettilstedeværelse',
 		moreInformation: 'Mer informasjon',
 		moreInfoText: 'Trenger du flere detaljer? Kontakt oss for informasjon om utleie av utstyr, priser og tilgjengelighet.',
-		tel: 'Tlf',
+		tel: 'Tlf.',
 		clickToChat: 'Klikk for å chatte',
 		emails: 'E-postadresser',
 		forHire: 'For utleie',
@@ -362,11 +362,11 @@ const t = {
 		copyShort: 'Kopier lenke',
 		copyLink: 'Kopier lenke',
 		shareOnAria: 'Del på {network}',
-		copyLinkAria: 'Kopier lenke til utklippstavlen',
+		copyLinkAria: 'Kopier lenken til utklippstavlen',
 		openSharingAria: 'Åpne delingsalternativer',
 		closeSharingAria: 'Lukk delingsalternativer',
 		tweetLabel: 'Tweet',
-		tweetAria: 'Tweet dette utvalget',
+		tweetAria: 'Tweet den markerte teksten',
 		packagesSidebarAria: 'Sidefelt for arrangementspakker',
 		tocSidebarAria: 'Sidefelt for innholdsfortegnelse'
 	},
@@ -378,7 +378,7 @@ const t = {
 	errorPage: {
 		notFoundHeading: 'Siden ble ikke funnet',
 		genericHeading: 'Noe gikk galt',
-		notFoundBody: 'Siden du leter etter finnes ikke eller er flyttet. Prøv fra forsiden eller ta kontakt med oss.',
+		notFoundBody: 'Siden du leter etter finnes ikke eller er flyttet. Start på forsiden eller ta kontakt med oss.',
 		genericBody: 'Vi støtte på et problem da forespørselen din skulle behandles. Gå tilbake til forsiden eller kontakt oss, så ordner vi det.',
 		contactUs: 'Kontakt oss',
 		backHome: 'Til forsiden'

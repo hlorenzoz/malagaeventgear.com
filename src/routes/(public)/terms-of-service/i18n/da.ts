@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Vilkår og betingelser - Malaga Event Gear (MEG)',
+		title: 'Vilkår og betingelser | Malaga Event Gear (MEG)',
 		description:
 			'Læs de officielle vilkår og betingelser for udlejning hos Malaga Event Gear. Forstå vores politikker for booking, betaling og sikker service.'
 	},
@@ -19,23 +19,23 @@ const copy = {
 	},
 	scope: {
 		title: 'Omfang af services og tilbud',
-		p1: 'Vi er specialister i at tilbyde aktive PA-lydanlæg i topklasse, professionelle belysningsløsninger (LED-lysbjælker, en zoom Fresnel-spot og et trådløst uplighting-kit), projektorer med høj lysstyrke, mikrofoner (kablede, trådløse, gooseneck), røgmaskiner og scenepodier.',
+		p1: 'Vi er specialister i at tilbyde aktive PA-lydanlæg i topklasse, professionelle belysningsløsninger (LED-lysbjælker, en Fresnel-spot med zoom og et trådløst sæt til uplighting), projektorer med høj lysstyrke, mikrofoner (kablede, trådløse, svanehals), røgmaskiner og scenepodier.',
 		p2: 'Mange af vores pakker, som Wedding Pack og MICE Pack, inkluderer transport, professionel installation, teknisk support på stedet og nedtagning efter eventet for en helt stressfri oplevelse.'
 	},
 	limits: {
 		title: 'Geografiske og driftsmæssige begrænsninger',
-		p1: 'Vores services er primært koncentreret i Malaga-provinsen og på Costa del Sol (herunder Malaga by, Marbella, Fuengirola, Torremolinos, Estepona, Sevilla og tilstødende områder). Service til Granada er kun tilgængelig for pakker over {price:outOfProvinceMinimum}, på grund af den ekstra transportafstand uden for provinsen på en enkelt dag.',
+		p1: 'Vores services er primært koncentreret i Malaga-provinsen og på Costa del Sol (herunder Malaga by, Marbella, Fuengirola, Torremolinos, Estepona, Sevilla og tilstødende områder). Service til Granada er kun tilgængelig for pakker over {price:outOfProvinceMinimum} på grund af de ekstra omkostninger ved en endagstur uden for provinsen.',
 		p2: 'Malaga Event Gear har åbent 7 dage om ugen fra kl. 8.00 til 20.00 for kommercielle henvendelser, og 24/7 for teknisk logistik og opsætningssupport.',
 		p3: 'For at garantere fuldstændig teknisk præcision for vores internationale kunder foregår al kommunikation, dokumentation og bookinger på engelsk eller spansk.'
 	},
 	booking: {
 		title: 'Booking, priser og sikkerhed',
-		p1: 'Alle services skal bestilles med mindst 24 timers varsel. For at afslutte en booking skal kunden oplyse det præcise sted og tidspunkt for eventet.',
+		p1: 'Alle services skal bestilles med mindst 24 timers varsel. For at gennemføre en booking skal kunden oplyse det præcise sted og tidspunkt for eventet.',
 		p2: 'Alle priser på vores hjemmeside er angivet uden moms (+21%). Vi garanterer, at alle betalingstransaktioner er 100% sikre og behandles via pålidelige finansielle gateways.'
 	},
 	obligations: {
 		title: 'Kundens forpligtelser og ansvar for udstyret',
-		body: 'Kunden er ansvarlig for at sikre adgang til lokalet og de nødvendige stikkontakter på det aftalte sted og tidspunkt. Kunden anerkender, at de lejer udstyr af høj professionel kvalitet, og skal sikre udstyrets sikkerhed og fysiske integritet under den aftalte lejeperiode.'
+		body: 'Kunden er ansvarlig for at sikre adgang til lokalet og de nødvendige stikkontakter på det aftalte sted og tidspunkt. Kunden er indforstået med, at det lejede udstyr er af høj professionel kvalitet, og skal sikre udstyrets sikkerhed og fysiske integritet under den aftalte lejeperiode.'
 	}
 } satisfies Copy;
 

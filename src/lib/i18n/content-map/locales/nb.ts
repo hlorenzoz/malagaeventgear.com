@@ -29,7 +29,7 @@ export default {
 	segments: { category: 'kategori', author: 'forfatter' },
 	packages: {
 		eco: { slug: 'eco-pakke', keyword: 'leie lyd og lys til liten fest i Malaga', status: 'propuesta' },
-		wedding: { slug: 'bryllupspakke', keyword: 'leie bryllupsutstyr med lyd og lys i Malaga', status: 'propuesta' },
+		wedding: { slug: 'bryllupspakke', keyword: 'leie lyd og lys til bryllup i Malaga', status: 'propuesta' },
 		'product-presentation': {
 			slug: 'produktlansering-pakke',
 			keyword: 'leie prosjektor til produktlansering i Malaga',
@@ -44,7 +44,7 @@ export default {
 	},
 	categories: {
 		'audio-visual-rental': { slug: 'utleie-av-utstyr', name: 'Utleie av AV-utstyr' },
-		'corporate-enterprise': { slug: 'bedrift-naeringsliv', name: 'Bedrift & Næringsliv' },
+		'corporate-enterprise': { slug: 'bedrift-naeringsliv', name: 'Bedrift og næringsliv' },
 		events: { slug: 'arrangementer', name: 'Arrangementer' },
 		gadgets: { slug: 'gadgets', name: 'Gadgets' },
 		news: { slug: 'nyheter', name: 'Nyheter' },

@@ -9,10 +9,10 @@ export default {
 			'Möt teamet på Malaga Event Gear! Lär känna vårt erfarna team bakom vår professionella service och våra smidiga evenemang i Malaga, Spanien.'
 	},
 	hero: {
-		badge: 'Vilka som står bakom MEG',
+		badge: 'Vilka står bakom MEG',
 		title: 'Vårt team',
 		intro:
-			'Möt de talangfulla specialisterna på Malaga Event Gear. Från installation till realtidsteknik garanterar vi en stressfri upplevelse.'
+			'Möt de talangfulla specialisterna på Malaga Event Gear. Från installation till teknisk drift i realtid garanterar vi en stressfri upplevelse.'
 	},
 	technical: {
 		title: 'Teknisk personal',
@@ -26,9 +26,9 @@ export default {
 	},
 	hector: {
 		role: 'SEO-specialist och medgrundare',
-		bio: 'SEO-specialist som använder sin expertis för att stärka företagets digitala närvaro och attrahera kunder genom effektiva sökmotordrivna strategier.',
+		bio: 'SEO-specialist som använder sin expertis för att stärka företagets digitala närvaro och locka kunder genom effektiva sökmotordrivna strategier.',
 		linkedinLabel: 'LinkedIn-profil',
 		personDescription:
-			'Hector Luis Lorenzo är SEO-specialist med mer än två års erfarenhet av att hjälpa varumärken att växa sin synlighet online. Han är medgrundare av Malaga Event Gear.'
+			'Hector Luis Lorenzo är SEO-specialist med mer än två års erfarenhet av att hjälpa varumärken att öka sin synlighet online. Han är medgrundare av Malaga Event Gear.'
 	}
 } satisfies Copy;

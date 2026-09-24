@@ -9,12 +9,12 @@ export default {
 			'Malaga Event Gear (MEG) erbjuder förstklassiga ljudsystem, spektakulär belysning, projektorer och dukar för bröllop, företagsevenemang och fester i Malaga.'
 	},
 	hero: {
-		imageAlt: 'Förstklassig eventscen med professionell ljud- och bildbelysning på Costa del Sol'
+		imageAlt: 'Eventscen i toppklass med professionell AV-belysning på Costa del Sol'
 	},
 	categories: {
-		soundImageAlt: 'Professionell ljudsystemsuthyrning',
-		lightImageAlt: 'Spektakulär eventbelysning för uthyrning',
-		visualImageAlt: 'HD-bilder och projektorer för eventuthyrning'
+		soundImageAlt: 'Uthyrning av professionellt ljudsystem',
+		lightImageAlt: 'Uthyrning av spektakulär eventbelysning',
+		visualImageAlt: 'Uthyrning av projektorer och HD-bild för evenemang'
 	},
 	faqSection: {
 		moreQuestions: 'Har du fler frågor?',

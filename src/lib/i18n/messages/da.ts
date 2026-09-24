@@ -10,7 +10,7 @@ const t = {
 		bookNow: 'Book nu',
 		blogInEnglish: 'Blog (på engelsk)',
 		language: 'Sprog',
-		breadcrumbs: 'Brødkrumme',
+		breadcrumbs: 'Brødkrummesti',
 		brand: 'Malaga Event Gear',
 		toggleTheme: 'Skift farvetema',
 		openMenu: 'Åbn navigationsmenuen'
@@ -189,7 +189,7 @@ const t = {
 		formErrorSubmit: 'Noget gik galt under afsendelsen af din anmodning. Prøv igen, eller skriv til os direkte på e-mail.',
 		formErrorTurnstile: 'Sikkerhedsbekræftelsen mislykkedes. Prøv venligst igen.',
 		formErrorRateLimited: 'For mange anmodninger. Vent et par minutter, og prøv igen.',
-		lockedFieldNote: 'Genereret automatisk fra en fejl: dette felt kan ikke redigeres.',
+		lockedFieldNote: 'Genereret automatisk på grund af en fejl. Feltet kan ikke redigeres.',
 		errorPrefillMessage:
 			'Hej, jeg har indsendt en pakkeanmodning på jeres hjemmeside, men bekræftelsesmailen blev ikke sendt. Kan I bekræfte, at I har modtaget min forespørgsel? Reference: {ref}',
 		errorDetailsHeader: 'Indsendte oplysninger:',
@@ -200,7 +200,7 @@ const t = {
 		errorDetailDate: 'Eventdato',
 		errorDetailPackage: 'Pakke',
 		errorDetailComments: 'Kommentarer',
-		successTitle: 'Tilbud anmodet!',
+		successTitle: 'Anmodning om tilbud sendt!',
 		successText1: 'Hej',
 		successText2: 'vi har modtaget din anmodning. Vores tekniske team i Malaga gennemgår den og kontakter dig på e-mail (',
 		successText3: ') hurtigst muligt.',
@@ -231,7 +231,7 @@ const t = {
 	pricingPreview: {
 		badge: 'Gennemsigtige priser',
 		title: 'Enkle priser, alt inklusive',
-		subtitle: 'Ingen skjulte gebyrer. Transport, opsætning og teknisk support altid inkluderet.',
+		subtitle: 'Ingen skjulte gebyrer. Transport, opsætning og teknisk support er altid inkluderet.',
 		viewAll: 'Se alle pakker'
 	},
 	// FAQ
@@ -264,16 +264,16 @@ const t = {
 		eventDateLabel: 'Eventdato *',
 		commentsLabel: 'Spørgsmål eller kommentarer',
 		commentsPlaceholder: 'Fortæl os om dit event: lokale, antal gæster, særlige ønsker...',
-		submitBtn: 'Tjek ledig dato',
+		submitBtn: 'Tjek om datoen er ledig',
 		submitting: 'Sender...',
 		errorRequired: 'Dette felt er påkrævet.',
 		errorEmail: 'Indtast venligst en gyldig e-mailadresse.',
 		errorPhone: 'Indtast venligst et gyldigt telefonnummer.',
 		errorDateFuture: 'Eventdatoen skal ligge i fremtiden.',
-		errorMinLength: 'Skal være mindst 2 tegn.',
-		errorMaxLength: 'Maks. 1000 tegn tilladt.',
+		errorMinLength: 'Skal indeholde mindst 2 tegn.',
+		errorMaxLength: 'Højst 1000 tegn.',
 		errorHoneypot: 'Spam registreret.',
-		noCardRequired: 'Intet betalingskort krævet for at tjekke ledighed',
+		noCardRequired: 'Du behøver ikke betalingskort for at tjekke ledighed',
 		quickResponseNote: 'Svar hurtigst muligt',
 		errorSubmit: 'Noget gik galt. Prøv igen, eller kontakt os direkte.',
 		errorTurnstile: 'Sikkerhedsbekræftelsen mislykkedes. Prøv venligst igen.',
@@ -285,7 +285,7 @@ const t = {
 		emailFailDismiss: 'Luk',
 		countryCode: 'Landekode',
 		responseTime: 'Vi svarer hurtigst muligt',
-		trustBadge: 'Betroet af 500+ events i Málaga'
+		trustBadge: 'Valgt til 500+ events i Malaga'
 	},
 	// Thank-you page
 	thankYou: {
@@ -307,7 +307,7 @@ const t = {
 		title: 'Find os på Google',
 		subtitle: 'Besøg vores officielle Google Virksomhedsprofil, eller se vores placering i Malaga.',
 		viewOnGoogle: 'Se på Google Maps',
-		mapTitle: 'Malaga Event Gear - Google Virksomhedsprofil'
+		mapTitle: 'Malaga Event Gear | Google Virksomhedsprofil'
 	},
 	// Footer
 	footer: {
@@ -359,11 +359,11 @@ const t = {
 		copyShort: 'Kopiér link',
 		copyLink: 'Kopiér link',
 		shareOnAria: 'Del på {network}',
-		copyLinkAria: 'Kopiér link til udklipsholder',
+		copyLinkAria: 'Kopiér linket til udklipsholderen',
 		openSharingAria: 'Åbn delingsmuligheder',
 		closeSharingAria: 'Luk delingsmuligheder',
 		tweetLabel: 'Tweet',
-		tweetAria: 'Tweet dette udvalg',
+		tweetAria: 'Tweet den markerede tekst',
 		packagesSidebarAria: 'Sidebjælke med eventpakker',
 		tocSidebarAria: 'Sidebjælke med indholdsfortegnelse'
 	},
@@ -375,7 +375,7 @@ const t = {
 	errorPage: {
 		notFoundHeading: 'Siden blev ikke fundet',
 		genericHeading: 'Noget gik galt',
-		notFoundBody: 'Siden, du leder efter, findes ikke eller er blevet flyttet. Prøv fra forsiden, eller kontakt os.',
+		notFoundBody: 'Siden, du leder efter, findes ikke eller er blevet flyttet. Start fra forsiden, eller kontakt os.',
 		genericBody:
 			'Vi stødte på et problem under behandlingen af din anmodning. Gå tilbage til forsiden, eller kontakt os, så løser vi det.',
 		contactUs: 'Kontakt os',

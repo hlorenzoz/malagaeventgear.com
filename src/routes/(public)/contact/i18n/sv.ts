@@ -15,7 +15,7 @@ export default {
 	},
 	whatsappLinkText: 'Skicka oss ett meddelande',
 	messages: {
-		packIntro: 'Hej, jag är intresserad av att boka paketet: {pack}. Vänligen meddela mig tillgänglighet och detaljer.',
+		packIntro: 'Hej, jag är intresserad av att boka paketet: {pack}. Hör gärna av er med tillgänglighet och detaljer.',
 		categoryIntro:
 			'Hej, jag är intresserad av att boka utrustning från kategorin: {category}. Jag ser fram emot er offert.'
 	},

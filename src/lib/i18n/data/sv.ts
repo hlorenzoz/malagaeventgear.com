@@ -4,11 +4,11 @@ export default {
 	packages: {
 		eco: {
 			updated: '2026-09-24',
-			desc: 'Eco Pack är det perfekta billiga festpaketet att hyra i Malaga, för privata fester eller mindre evenemang med upp till 50 gäster. Inkluderar grundläggande stabilt ljud och stämningsbelysning.',
+			desc: 'Eco Pack är det perfekta billiga festpaketet att hyra i Malaga, för privata fester eller mindre evenemang med upp till 50 gäster. Inkluderar ett stabilt grundläggande ljudsystem och stämningsbelysning.',
 			includes: [
 				'2 högkvalitativa aktiva högtalare med stativ',
 				'1 trådbunden dynamisk mikrofon',
-				'2 ljusbalkar med RGBW LED-spotlights',
+				'2 LED-ljusbalkar med RGBW-spotlights',
 				'Estetisk kabeldragning och professionell installation'
 			],
 			optional: ['Projektor och projektorduk (+{price:projectorScreen})', 'Professionell rök-/dimmaskin (+{price:smokeMachine})'],
@@ -22,7 +22,7 @@ export default {
 				highlightTitle: 'Stressfri service',
 				highlightBody:
 					'Vi arbetar enbart med leverans och direkt installation. Vi tar med utrustningen, installerar den professionellt, testar ljud och ljus, och hämtar allt efter evenemanget.',
-				includesLabel: 'Vad som ingår',
+				includesLabel: 'Det här ingår',
 				optionalLabel: 'Valfria tillägg',
 				ctaHeading: 'Säkra din bokning idag',
 				ctaBody:
@@ -32,32 +32,32 @@ export default {
 		},
 		wedding: {
 			updated: '2026-09-24',
-			desc: 'Wedding Pack är designat till perfektion för magiska och oförglömliga bröllopsfiranden. Hyr ljud och ljus till bröllop av högsta klass: ett professionellt förstklassigt ljudsystem, romantisk stämningsbelysning och trådlösa mikrofoner för rörande tal.',
+			desc: 'Wedding Pack är skapat för magiska och oförglömliga bröllop. Hyr ljud och ljus till bröllop av högsta klass: ett professionellt ljudsystem i toppklass, romantisk stämningsbelysning och trådlösa mikrofoner för rörande tal.',
 			includes: [
 				'Förstklassigt aktivt PA-ljudsystem för upp till 80 gäster',
-				'Ljusslingor/varma LED-strängar för romantisk stämningsbelysning',
+				'Ljusslingor/varma LED-slingor för romantisk stämningsbelysning',
 				'Professionella trådlösa mikrofoner för tal och tillkännagivanden',
-				'Transport i Malaga och omgivande områden',
+				'Transport i Malaga med omnejd',
 				'Professionell estetisk installation och kabeldragning',
 				'Teknisk kontroll och support på plats under evenemanget',
-				'Snabb nedmontering och logistisk hämtning efter evenemanget'
+				'Snabb nedmontering och hämtning efter evenemanget'
 			],
 			optional: ['Professionell rök-/dimmaskin (+{price:smokeMachine})'],
 			seo: { title: 'Wedding Pack: hyr ljud och ljus till bröllop i Malaga' },
 			landing: {
 				badge: 'Vårt mest populära firandepaket',
-				rateLabel: 'Premium fast totalpris',
+				rateLabel: 'Fast totalpris i premiumklass',
 				vatNote: '(+21% moms), installation och support på plats ingår',
 				specTitle: 'Upp till 80 gäster',
 				specBody: 'Perfekt för vackra villor, fincas och bröllopshotell.',
 				highlightTitle: 'Tekniker på plats under hela evenemanget',
 				highlightBody:
-					'Aldrig oroa dig för mikrofonrundgång eller visuella problem igen. Det här paketet inkluderar fullständig teknisk övervakning och akustiska justeringar på plats under hela din bankett och alla tal.',
-				includesLabel: 'Vad som ingår i premiumpaketet',
+					'Du behöver aldrig oroa dig för mikrofonrundgång eller visuella problem. Paketet inkluderar fullständig teknisk övervakning och akustiska justeringar på plats under hela middagen och alla tal.',
+				includesLabel: 'Det här ingår i premiumpaketet',
 				ctaHeading: 'Gör ditt firande magiskt',
 				ctaBody:
-					'Bokningar för bröllop fylls snabbt. Säkra ditt datum med vårt tekniska team idag för att garantera det bästa ljudet och den mest romantiska belysningen på din stora dag.',
-				ctaButton: 'Boka detta Wedding Pack'
+					'Bröllopsdatumen bokas snabbt. Säkra ditt datum med vårt tekniska team idag för att garantera det bästa ljudet och den mest romantiska belysningen på din stora dag.',
+				ctaButton: 'Boka Wedding Pack'
 			}
 		},
 		'product-presentation': {
@@ -67,7 +67,7 @@ export default {
 				'1 frontprojektionsduk med stabilt stativ',
 				'1 projektor med hög ljusstyrka (5000 lumen) för skarpa bilder',
 				'Ljudsystem för lokalen med 2 högtalare och mixerbord',
-				'1 premium trådlös handmikrofon för talare'
+				'1 trådlös handmikrofon av premiumkvalitet för talare'
 			],
 			seo: { title: 'Product Presentation Pack: hyr projektor och duk i Malaga' },
 			landing: {
@@ -75,29 +75,29 @@ export default {
 				rateLabel: 'Fast pris för presentationspaketet',
 				vatNote: '(+21% moms), projektor och duk ingår',
 				specTitle: 'Projektor med hög ljusstyrka',
-				specBody: '5000 lumen projektor, perfekt för upplysta rum.',
+				specBody: 'Projektor på 5000 lumen, perfekt för ljusa lokaler.',
 				highlightTitle: 'Felfri företagsprofilering',
 				highlightBody:
 					'Maximera uppmärksamheten vid din återförsäljarlansering, presskonferens eller produktvisning. Vår professionella installation kombinerar skarpa grafiska detaljer med kraftfull ljudförstärkning för tal.',
-				includesLabel: 'Vad som ingår',
+				includesLabel: 'Det här ingår',
 				note: {
 					title: 'Support för installation och anslutning',
-					body: 'Vi tillhandahåller alla nödvändiga adaptrar (HDMI, USB-C) och ljudgränssnitt för att ansluta era bärbara datorer, plattor eller spelare smidigt.'
+					body: 'Vi tillhandahåller alla nödvändiga adaptrar (HDMI, USB-C) och ljudgränssnitt så att du smidigt kan ansluta företagets bärbara datorer, surfplattor eller spelare.'
 				},
 				ctaHeading: 'Lyft din produktvisning',
 				ctaBody:
 					'Ge din publik den visuella tydlighet och det professionella ljud de förtjänar. Kontakta vårt tekniska team idag för att bekräfta tillgänglighet.',
-				ctaButton: 'Boka detta presentationspaket'
+				ctaButton: 'Boka presentationspaketet'
 			}
 		},
 		'basic-mice': {
 			updated: '2026-09-24',
 			desc: 'Grundläggande, högpresterande ljud- och bildutrustning för mindre chefsmöten, konferenser och presentationer med upp till 40 gäster. Perfekt när du vill hyra konferensutrustning i mindre skala.',
 			includes: [
-				'2x2 m projektionsduk med projektor med hög ljusstyrka (3000 lumen)',
+				'2x2 m projektionsduk och projektor med hög ljusstyrka (3000 lumen)',
 				'Grundläggande kristallklart ljudsystem för upp till 40 personer',
 				'1 professionell gåshalsmikrofon för podium/talarstol',
-				'Logistisk transport, installation och estetisk kabeldragning'
+				'Transport, installation och estetisk kabeldragning'
 			],
 			optional: ['Dedikerad teknisk assistent på plats (+{price:technicianDay}/dag)'],
 			seo: { title: 'Basic MICE Pack: hyr konferensutrustning i Malaga' },
@@ -107,10 +107,10 @@ export default {
 				vatNote: '(+21% moms), installation och transport ingår',
 				specTitle: 'Upp till 40 gäster',
 				specBody: 'Utformat för styrelserum, privata salonger och hotellsviter.',
-				highlightTitle: 'Tydlig taluppfattbarhet',
+				highlightTitle: 'Hög taltydlighet',
 				highlightBody:
 					'Den professionella gåshalsmikrofonen garanterar absolut tydlighet vid styrelseanföranden, presskonferenser eller investerarpaneler, utan eko eller rundgång.',
-				includesLabel: 'Vad som ingår',
+				includesLabel: 'Det här ingår',
 				optionalLabel: 'Valfri support',
 				ctaHeading: 'Planera ditt chefsmöte',
 				ctaBody:
@@ -120,32 +120,32 @@ export default {
 		},
 		mice: {
 			updated: '2026-09-24',
-			desc: 'Komplett MICE-lösning för företag med en storformatsskärm, förstklassig aktiv ljudförstärkning, trådlösa podiemikrofoner och en dedikerad livetekniker. Hyr kongressteknik i Malaga för varje detalj av ditt evenemang.',
+			desc: 'Komplett MICE-lösning för företag med en storformatsskärm, förstklassig aktiv ljudförstärkning, trådlösa podiemikrofoner och en dedikerad livetekniker. Hyr kongressteknik i Malaga med allt som ditt evenemang behöver.',
 			includes: [
-				'Premium 60-tums LED-skärm i hög definition med designstativ',
+				'60-tums LED-skärm i hög definition och premiumkvalitet, med designstativ',
 				'Professionella aktiva högtalare och kraftfullt ljudsystem',
 				'1 gåshalsmikrofon + 1 trådlös handmikrofon',
-				'1 dedikerad specialiserad live-AV-tekniker (upp till 6 timmars sammanhängande support)',
-				'Logistisk leverans, skräddarsydd kabeldragning och nedmontering efter evenemanget'
+				'1 dedikerad AV-tekniker på plats (upp till 6 timmars sammanhängande support)',
+				'Leverans, skräddarsydd kabeldragning och nedmontering efter evenemanget'
 			],
 			optional: [
 				'Extra timme med teknisk support på plats (+{price:technicianHour}/h)',
-				'Premium talarstol i modern metakrylat/akryl (+{price:lectern})',
+				'Modern talarstol i metakrylat/akryl av premiumkvalitet (+{price:lectern})',
 				'Modulära scenplattformar (+{price:stagingPerSqm} per kvadratmeter)'
 			],
 			seo: { title: 'MICE Pack: hyr kongressteknik i Malaga' },
 			landing: {
-				badge: 'Premium MICE-upplevelse för företag',
-				rateLabel: 'Allt-i-ett-pris för företag',
+				badge: 'MICE-upplevelse i premiumklass för företag',
+				rateLabel: 'Fast totalpris för företag',
 				vatNote: '(+21% moms), LED-skärm, ljud och livetekniker ingår',
 				specTitle: '60-tums LED-skärm',
 				specBody: 'Storformatsskärm i hög definition för slagkraftiga företagsbilder.',
 				highlightTitle: 'Dedikerad livetekniker',
 				highlightBody:
 					'En specialiserad AV-tekniker sköter ditt evenemang i upp till 6 sammanhängande timmar och garanterar felfritt ljud, bild och mikrofonhantering under hela ditt toppmöte, din konferens eller produktlansering.',
-				includesLabel: 'Vad som ingår i premiumpaketet',
+				includesLabel: 'Det här ingår i premiumpaketet',
 				optionalLabel: 'Valfria tillägg',
-				ctaHeading: 'Ge kraft åt ditt företagsevenemang',
+				ctaHeading: 'Gör ditt företagsevenemang slagkraftigt',
 				ctaBody:
 					'Erbjud en felfri företagsupplevelse med förstklassig AV-utrustning och dedikerad teknisk support. Kontakta vårt team idag för att bekräfta tillgänglighet för ditt datum.',
 				ctaButton: 'Boka MICE Pack'
@@ -156,7 +156,7 @@ export default {
 		'what-is-meg': {
 			question: 'Vad är Malaga Event Gear (MEG), och vilka tjänster erbjuder de?',
 			answer:
-				'Malaga Event Gear (MEG) är ett företag baserat i Malaga, Spanien, som specialiserar sig på uthyrning av professionell ljud-, bild-, ljus- och eventutrustning. Vi tillhandahåller ljudsystem, projektorer, dukar, scener, teknisk assistans, rökmaskiner, belysningslösningar och mikrofoner, samt specialiserade tjänster som live ljudförstärkning, och simultantolkning och interaktiva röstningssystem som arrangeras genom en underleverantör.'
+				'Malaga Event Gear (MEG) är ett företag baserat i Malaga, Spanien, som specialiserar sig på uthyrning av professionell ljud-, bild-, ljus- och eventutrustning. Vi tillhandahåller ljudsystem, projektorer, dukar, scener, teknisk assistans, rökmaskiner, belysningslösningar och mikrofoner, samt specialiserade tjänster som ljudförstärkning live, simultantolkning och interaktiva röstningssystem, där de två sistnämnda ordnas genom en underleverantör.'
 		},
 		'event-types': {
 			question: 'Vilka typer av evenemang kan Malaga Event Gear (MEG) täcka?',
@@ -172,7 +172,7 @@ export default {
 			question:
 				'Vad gör Malaga Event Gear (MEG) unikt jämfört med andra företag för uthyrning av ljud- och bildutrustning?',
 			answer:
-				'MEG skiljer sig genom ett kundfokuserat och strömlinjeformat arbetssätt: en dedikerad tekniker på plats vid varje bokning, förstklassiga varumärken och transparenta fasta totalpriser. Vi rör oss mot en helt digital bokningsupplevelse med standardiserade fasta priser och fullt transparenta transaktioner.'
+				'MEG skiljer sig genom ett kundfokuserat och strömlinjeformat arbetssätt: en dedikerad tekniker på plats vid varje bokning, förstklassiga varumärken och transparenta fasta totalpriser. Vi arbetar mot en bokningsupplevelse helt online, med standardiserade fasta priser och fullt transparenta transaktioner.'
 		},
 		'booking-process': {
 			question: 'Hur fungerar bokningsprocessen hos Malaga Event Gear?',
@@ -182,22 +182,22 @@ export default {
 		'popular-packages': {
 			question: 'Vilka är några av de populära paketen som Malaga Event Gear erbjuder?',
 			answer:
-				'Våra mest populära färdiga paket inkluderar {packagesWithPrices}, alla med olika utrustning och funktioner. Besök vår prissida för en fullständig genomgång av vad varje paket innehåller.'
+				'Bland våra mest populära färdiga paket finns {packagesWithPrices}, vart och ett med olika utrustning och funktioner. Besök vår prissida för en fullständig genomgång av vad varje paket innehåller.'
 		},
 		'language-hours': {
-			question: 'På vilket språk kommunicerar de med kunder, och vilka är deras öppettider?',
+			question: 'På vilka språk kommunicerar de med kunder, och vilka är deras öppettider?',
 			answer:
-				'Malaga Event Gear (MEG) kommunicerar med kunder på engelska och spanska. Vi är tillgängliga dygnet runt, alla dagar i veckan, för teknisk installation och live-övervakning av evenemang.'
+				'Malaga Event Gear (MEG) kommunicerar med kunder på engelska och spanska. Vi är tillgängliga dygnet runt, alla dagar i veckan, för teknisk installation och övervakning av evenemang medan de pågår.'
 		},
 		'contact-info': {
 			question: 'Hur kan kunder kontakta Malaga Event Gear (MEG), och vilken information bör de uppge?',
 			answer:
-				'Du kan nå oss via telefon på 666 346 911, via WhatsApp eller via e-post. För en korrekt offert, dela gärna ditt evenemangsdatum, plats, förväntat antal gäster och vilken typ av utrustning eller paket du är intresserad av. Se vår kontaktsida för mer information.'
+				'Du kan nå oss på telefon 666 346 911, via WhatsApp eller via e-post. För en korrekt offert, uppge gärna ditt evenemangsdatum, plats, förväntat antal gäster och vilken typ av utrustning eller paket du är intresserad av. Se vår kontaktsida för mer information.'
 		},
 		'delivery-setup': {
 			question: 'Erbjuder ni leverans och installation för ljud- och belysningsutrustning?',
 			answer:
-				'Ja. MEG tillhandahåller full leverans, professionell installation och nedmontering efter evenemanget för all ljud- och belysningsuthyrning. Vår tjänst inkluderar transport, installation, dold kabeldragning, ljud-/ljuskontroller och valfri teknisk assistans på plats i Malaga, Marbella, Fuengirola, Torremolinos, Estepona och omgivande områden.'
+				'Ja. MEG tillhandahåller komplett leverans, professionell installation och nedmontering efter evenemanget för all ljud- och belysningsuthyrning. Vår tjänst inkluderar transport, installation, dold kabeldragning, ljud-/ljuskontroller och valfri teknisk assistans på plats i Malaga, Marbella, Fuengirola, Torremolinos, Estepona och omgivande områden.'
 		},
 		'vat-pricing': {
 			question: 'Är era paketpriser inklusive moms?',
@@ -217,17 +217,17 @@ export default {
 		'delivery-only': {
 			question: 'Erbjuder ni ett alternativ för självhämtning, eller är det enbart leverans?',
 			answer:
-				'Vi arbetar enbart med leverans, det finns inget alternativ för självhämtning. Detta garanterar att varje system anländer professionellt transporterat, installerat och kalibrerat av vårt team, så att utrustningen fungerar exakt som avsett vid ditt evenemang.'
+				'Vi arbetar enbart med leverans. Det finns inget alternativ för självhämtning. Detta garanterar att varje system anländer professionellt transporterat, installerat och kalibrerat av vårt team, så att utrustningen fungerar exakt som avsett vid ditt evenemang.'
 		},
 		'streaming-recording': {
 			question: 'Erbjuder ni livestreaming och flerkamerainspelning?',
 			answer:
-				'Nej. Vi erbjuder inte kameror, streamingkodare, flerkameraproduktion eller inspelningstjänster. Vi levererar rummets ljud, duk och belysning. För ett hybrid- eller virtuellt evenemang tar du med din egen dator, streamingprogramvara och internetanslutning.'
+				'Nej. Vi erbjuder inte kameror, streamingkodare, flerkameraproduktion eller inspelningstjänster. Vi står för ljud, duk och belysning i lokalen. För ett hybrid- eller virtuellt evenemang tar du med din egen dator, streamingprogramvara och internetanslutning.'
 		},
 		'translation-voting': {
 			question: 'Erbjuder ni simultantolkning eller interaktiva röstningssystem?',
 			answer:
-				'Ja, för simultantolkning och interaktiva röstningssystem, dock inte med vår egen utrustning: vi arrangerar båda genom en underleverantör för företagsevenemang och kongresser. Meddela oss dina önskemål när du begär en offert. Vi erbjuder ingen LED-videovägg, vår storformatsskärm är en enda platt panel på 60 tum.'
+				'Ja, för simultantolkning och interaktiva röstningssystem, dock inte med vår egen utrustning: vi arrangerar båda genom en underleverantör för företagsevenemang och kongresser. Berätta vad du behöver när du begär en offert. Vi erbjuder ingen LED-videovägg. Vår storformatsskärm är en enda platt panel på 60 tum.'
 		},
 		'large-scale-events': {
 			question: 'Kan ni hantera storskaliga kongresser, mässor och utställningar?',
@@ -235,19 +235,19 @@ export default {
 				'Absolut. Utöver bröllop och företagsmöten utrustar vi även större evenemang som kongresser, mässor och utställningar med skräddarsydda ljud- och bildlösningar, och kombinerar ljudförstärkning, storformatsskärmar, scener och dedikerad teknisk personal efter behov.'
 		},
 		'notice-time': {
-			question: 'Vad är den minsta framförhållningen för att göra en bokning?',
+			question: 'Hur lång framförhållning krävs för en bokning?',
 			answer:
-				'All uthyrning av eventutrustning och tekniska tjänster måste bokas med minst 24 timmars framförhållning för att garantera schemaläggning och logistisk tillgänglighet. För stora eller komplexa evenemang rekommenderar vi att boka så tidigt som möjligt för att säkra ditt datum.'
+				'All uthyrning av eventutrustning och tekniska tjänster måste bokas med minst 24 timmars framförhållning för att garantera schemaläggning och logistisk tillgänglighet. För stora eller komplexa evenemang rekommenderar vi att du bokar så tidigt som möjligt för att säkra ditt datum.'
 		},
 		'minimum-order-granada': {
-			question: 'Finns det en minsta beställning för service utanför Costa del Sol?',
+			question: 'Finns det ett minsta ordervärde för uppdrag utanför Costa del Sol?',
 			answer:
-				'Inom Costa del Sol finns inget särskilt minimum. För mer avlägsna resmål utanför provinsen, som Granada, kräver vi ett minsta hyresvärde över {price:outOfProvinceMinimum} för att täcka den logistiska endagsresan. Vi betjänar även Sevilla, kontakta oss för att bekräfta villkoren för din specifika plats.'
+				'Inom Costa del Sol finns inget särskilt minimum. För mer avlägsna resmål utanför provinsen, som Granada, kräver vi ett minsta hyresvärde över {price:outOfProvinceMinimum} för att täcka den logistiska endagsresan. Vi betjänar även Sevilla. Kontakta oss för att bekräfta villkoren för din specifika plats.'
 		},
 		'customize-package': {
 			question: 'Kan jag anpassa eller utöka ett paket efter mina specifika behov?',
 			answer:
-				'Ja. Alla paket kan utökas med tillägg som projektorer och dukar, professionella rökmaskiner, extra mikrofoner, premium talarstolar i akryl, modulära scenplattformar och extra timmar med livetekniker. Berätta dina önskemål när du begär en offert, så bygger vi den perfekta konfigurationen för ditt evenemang.'
+				'Ja. Alla paket kan utökas med tillägg som projektorer och dukar, professionella rökmaskiner, extra mikrofoner, talarstolar i akryl av premiumkvalitet, modulära scenplattformar och extra timmar med livetekniker. Berätta dina önskemål när du begär en offert, så bygger vi den perfekta konfigurationen för ditt evenemang.'
 		}
 	}
 } satisfies DataCopy;

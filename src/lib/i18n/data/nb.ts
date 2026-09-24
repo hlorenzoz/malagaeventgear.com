@@ -4,14 +4,14 @@ export default {
 	packages: {
 		eco: {
 			updated: '2026-09-24',
-			desc: 'Eco Pack er den perfekte pakken for å leie lyd og lys til liten fest i Malaga: ideell for private fester eller mindre arrangementer med opptil 50 gjester. Inkluderer solid grunnleggende lyd og stemningslys.',
+			desc: 'Eco Pack er den perfekte pakken for å leie lyd og lys til en liten fest i Malaga: ideell for private fester eller mindre arrangementer med opptil 50 gjester. Inkluderer et solid grunnleggende lydanlegg og stemningslys.',
 			includes: [
-				'2 høykvalitets aktive høyttalere med stativ',
+				'2 aktive høyttalere av høy kvalitet med stativ',
 				'1 kablet dynamisk mikrofon',
-				'2 lysbjelker med RGBW LED-spotlights',
+				'2 LED-lysbjelker med RGBW-spotlights',
 				'Estetisk kabelføring og profesjonell installasjon'
 			],
-			optional: ['Prosjektor og lerret (+{price:projectorScreen})', 'Profesjonell røyk-/dampmaskin (+{price:smokeMachine})'],
+			optional: ['Prosjektor og lerret (+{price:projectorScreen})', 'Profesjonell røyk-/tåkemaskin (+{price:smokeMachine})'],
 			seo: { title: 'Eco Pack: leie lyd og lys til liten fest i Malaga' },
 			landing: {
 				badge: 'Mindre arrangementer og fester',
@@ -22,31 +22,31 @@ export default {
 				highlightTitle: 'Stressfri service',
 				highlightBody:
 					'Vi jobber utelukkende med levering og direkte installasjon. Vi tar med utstyret, installerer det profesjonelt, tester lyd og lys, og henter alt igjen etter arrangementet.',
-				includesLabel: 'Hva som er inkludert',
+				includesLabel: 'Dette er inkludert',
 				optionalLabel: 'Valgfrie tillegg',
 				ctaHeading: 'Sikre bookingen din i dag',
 				ctaBody:
-					'Fyll ut vår raske tilbudsforespørsel for å sjekke pakkens tilgjengelighet for din dato. Vi svarer så snart som mulig!',
+					'Fyll ut vår raske tilbudsforespørsel for å sjekke om pakken er ledig på datoen din. Vi svarer så snart som mulig!',
 				ctaButton: 'Bestill denne pakken'
 			}
 		},
 		wedding: {
 			updated: '2026-09-24',
-			desc: 'Wedding Pack er designet til perfeksjon for magiske og uforglemmelige bryllupsfeiringer. Her kan du leie bryllupsutstyr med lyd og lys i Malaga: et profesjonelt lydanlegg i toppklasse, romantisk stemningslys og trådløse mikrofoner til rørende taler.',
+			desc: 'Wedding Pack er skapt for magiske og uforglemmelige bryllupsfeiringer. Her kan du leie lyd og lys til bryllup i Malaga: et profesjonelt lydanlegg i toppklasse, romantisk stemningslys og trådløse mikrofoner til rørende taler.',
 			includes: [
 				'PA-lydanlegg i toppklasse for opptil 80 gjester',
-				'Lyslenker / varme LED-strenger for romantisk stemningslys',
+				'Lysslynger med varmt LED-lys for romantisk stemningslys',
 				'Profesjonelle trådløse mikrofoner til taler og kunngjøringer',
 				'Transport i Malaga og omkringliggende områder',
 				'Profesjonell installasjon og estetisk kabelføring',
 				'Teknisk kontroll og support på stedet under hele arrangementet',
-				'Rask nedrigging og logistisk henting etter arrangementet'
+				'Rask nedrigging og henting etter arrangementet'
 			],
-			optional: ['Profesjonell røyk-/dampmaskin (+{price:smokeMachine})'],
-			seo: { title: 'Wedding Pack: leie bryllupsutstyr med lyd og lys i Malaga' },
+			optional: ['Profesjonell røyk-/tåkemaskin (+{price:smokeMachine})'],
+			seo: { title: 'Wedding Pack: leie lyd og lys til bryllup i Malaga' },
 			landing: {
 				badge: 'Vår mest populære pakke for feiringer',
-				rateLabel: 'Premium totalpris med alt inkludert',
+				rateLabel: 'Totalpris i premiumklasse, alt inkludert',
 				vatNote: '(+21% MVA), installasjon og support på stedet inkludert',
 				specTitle: 'Opptil 80 gjester',
 				specBody: 'Perfekt for vakre villaer, fincas og bryllupshoteller.',
@@ -56,8 +56,8 @@ export default {
 				includesLabel: 'Dette er inkludert i premiumpakken',
 				ctaHeading: 'Gjør feiringen din magisk',
 				ctaBody:
-					'Bryllupsbookinger fylles opp raskt. Sikre datoen din med vårt tekniske team i dag, så garanterer vi den beste lyden og det mest romantiske lyset på din store dag.',
-				ctaButton: 'Bestill dette Wedding Pack'
+					'Bryllupsdatoene blir raskt booket. Sikre datoen din med vårt tekniske team i dag, så garanterer vi den beste lyden og det mest romantiske lyset på din store dag.',
+				ctaButton: 'Bestill Wedding Pack'
 			}
 		},
 		'product-presentation': {
@@ -75,11 +75,11 @@ export default {
 				rateLabel: 'Fastpris for presentasjonspakken',
 				vatNote: '(+21% MVA), prosjektor og lerret inkludert',
 				specTitle: 'Prosjektor med høy lysstyrke',
-				specBody: '5000 lumen prosjektor, ideell for opplyste rom.',
+				specBody: 'Prosjektor på 5000 lumen, ideell for lyse rom.',
 				highlightTitle: 'Feilfri profilering for bedriften',
 				highlightBody:
 					'Maksimer oppmerksomheten rundt forhandlerlanseringen, pressekonferansen på hotellet eller produktvisningen din. Vår profesjonelle installasjon kombinerer krystallklare grafiske detaljer med kraftig taleforsterkning.',
-				includesLabel: 'Hva som er inkludert',
+				includesLabel: 'Dette er inkludert',
 				note: {
 					title: 'Support for installasjon og tilkobling',
 					body: 'Vi tilbyr alle nødvendige adaptere (HDMI, USB-C) og lydgrensesnitt, slik at du enkelt kan koble til bedriftens bærbare datamaskiner, nettbrett eller avspillere.'
@@ -92,12 +92,12 @@ export default {
 		},
 		'basic-mice': {
 			updated: '2026-09-24',
-			desc: 'Grunnleggende, høytytende lyd- og bildeoppsett: perfekt AV-utstyr til mindre bedriftsmøter i Malaga, konferanser og presentasjoner for opptil 40 gjester.',
+			desc: 'Grunnleggende, høytytende lyd- og bildeoppsett for mindre ledermøter, konferanser og presentasjoner med opptil 40 gjester. Perfekt AV-utstyr til mindre bedriftsmøter i Malaga.',
 			includes: [
-				'2x2 m projeksjonslerret med 3000 lumen prosjektor med høy lysstyrke',
+				'2x2 m projeksjonslerret og prosjektor med høy lysstyrke (3000 lumen)',
 				'Grunnleggende krystallklart lydanlegg for opptil 40 personer',
 				'1 profesjonell svanehalsmikrofon til podium/talerstol',
-				'Logistisk transport, installasjon og estetisk kabelføring'
+				'Transport, installasjon og estetisk kabelføring'
 			],
 			optional: ['Dedikert teknisk assistent på stedet (+{price:technicianDay}/dag)'],
 			seo: { title: 'Basic MICE Pack: AV-utstyr til bedriftsmøter i Malaga' },
@@ -110,7 +110,7 @@ export default {
 				highlightTitle: 'Tydelig taleforståelighet',
 				highlightBody:
 					'Den profesjonelle svanehalsmikrofonen garanterer helt klar tale ved styretaler, pressekonferanser eller investorpaneler, uten ekko eller rundgang.',
-				includesLabel: 'Hva som er inkludert',
+				includesLabel: 'Dette er inkludert',
 				optionalLabel: 'Valgfri support',
 				ctaHeading: 'Planlegg ledermøtet ditt',
 				ctaBody:
@@ -125,8 +125,8 @@ export default {
 				'LED-skjerm i premiumklasse på 60 tommer, med stilrent stativ',
 				'Profesjonelle aktive høyttalere og høytytende lydanlegg',
 				'1 svanehalsmikrofon + 1 trådløs håndmikrofon',
-				'1 dedikert spesialisert AV-tekniker (opptil 6 timer sammenhengende support)',
-				'Logistisk levering, skreddersydd kabelføring og nedrigging etter arrangementet'
+				'1 dedikert AV-tekniker på stedet (opptil 6 timer sammenhengende support)',
+				'Levering, skreddersydd kabelføring og nedrigging etter arrangementet'
 			],
 			optional: [
 				'Ekstra time med teknisk assistent på stedet (+{price:technicianHour}/t)',
@@ -145,7 +145,7 @@ export default {
 					'En spesialisert AV-tekniker driver arrangementet ditt i opptil 6 sammenhengende timer, og garanterer feilfri lyd, bilde og mikrofonhåndtering gjennom hele toppmøtet, konferansen eller produktlanseringen.',
 				includesLabel: 'Dette er inkludert i premiumpakken',
 				optionalLabel: 'Valgfrie tillegg',
-				ctaHeading: 'Gi kraft til bedriftsarrangementet ditt',
+				ctaHeading: 'Gi bedriftsarrangementet ditt ekstra kraft',
 				ctaBody:
 					'Lever en feilfri opplevelse for bedriften med AV-utstyr i premiumklasse og dedikert teknisk support. Kontakt teamet vårt i dag for å bekrefte tilgjengelighet for datoen din.',
 				ctaButton: 'Bestill MICE Pack'
@@ -156,12 +156,12 @@ export default {
 		'what-is-meg': {
 			question: 'Hva er Malaga Event Gear (MEG), og hvilke tjenester tilbyr de?',
 			answer:
-				'Malaga Event Gear (MEG) er et selskap med base i Malaga, Spania, som spesialiserer seg på utleie av profesjonelt lyd-, lys- og arrangementsutstyr. Vi tilbyr lydanlegg, prosjektorer, lerret, scener, teknisk assistanse, røykmaskiner, lysløsninger og mikrofoner, samt spesialiserte tjenester som live lydforsterkning, og simultantolkning og interaktive avstemningssystemer formidlet gjennom en underleverandør.'
+				'Malaga Event Gear (MEG) er et selskap med base i Malaga, Spania, som spesialiserer seg på utleie av profesjonelt lyd-, lys- og arrangementsutstyr. Vi tilbyr lydanlegg, prosjektorer, lerret, scener, teknisk assistanse, røykmaskiner, lysløsninger og mikrofoner, samt spesialiserte tjenester som lydforsterkning ved livearrangementer, simultantolkning og interaktive avstemningssystemer, der de to siste formidles gjennom en underleverandør.'
 		},
 		'event-types': {
 			question: 'Hvilke typer arrangementer kan Malaga Event Gear (MEG) betjene?',
 			answer:
-				'Vi dekker private feiringer som bryllup og private fester, profesjonelle sammenkomster som bedriftsarrangementer, møter, konferanser og produktpresentasjoner, samt større arrangementer som kongresser, messer og utstillinger, alltid med skreddersydde lyd- og bildeløsninger.'
+				'Vi dekker personlige feiringer som bryllup og private fester, profesjonelle sammenkomster som bedriftsarrangementer, møter, konferanser og produktpresentasjoner, samt større arrangementer som kongresser, messer og utstillinger, alltid med skreddersydde lyd- og bildeløsninger.'
 		},
 		'service-areas': {
 			question: 'Hvor tilbyr Malaga Event Gear (MEG) sine tjenester?',
@@ -184,14 +184,14 @@ export default {
 				'Blant våre mest populære ferdigdesignede pakker finner du {packagesWithPrices}, hver med ulikt utstyr og ulike funksjoner. Besøk prissiden vår for en full oversikt over hva hver pakke inkluderer.'
 		},
 		'language-hours': {
-			question: 'På hvilket språk kommuniserer de med kunder, og hva er åpningstidene deres?',
+			question: 'På hvilke språk kommuniserer de med kunder, og hva er åpningstidene deres?',
 			answer:
-				'Malaga Event Gear (MEG) kommuniserer med kunder på engelsk og spansk. Vi er tilgjengelige 24 timer i døgnet, 7 dager i uken, for teknisk installasjon og live overvåking av arrangementer.'
+				'Malaga Event Gear (MEG) kommuniserer med kunder på engelsk og spansk. Vi er tilgjengelige 24 timer i døgnet, 7 dager i uken, for teknisk installasjon og overvåking av arrangementer mens de pågår.'
 		},
 		'contact-info': {
 			question: 'Hvordan kan kunder kontakte Malaga Event Gear (MEG), og hvilken informasjon bør de oppgi?',
 			answer:
-				'Du kan nå oss på telefon 666 346 911, via WhatsApp eller på e-post. For et nøyaktig tilbud, del gjerne arrangementsdato, sted, forventet antall gjester og hvilken type utstyr eller pakke du er interessert i. Se kontaktsiden vår for mer informasjon.'
+				'Du kan nå oss på telefon 666 346 911, via WhatsApp eller på e-post. For å få et nøyaktig tilbud kan du oppgi arrangementsdato, sted, forventet antall gjester og hvilken type utstyr eller pakke du er interessert i. Se kontaktsiden vår for mer informasjon.'
 		},
 		'delivery-setup': {
 			question: 'Tilbyr dere levering og installasjon av lyd- og lysutstyr?',
@@ -201,7 +201,7 @@ export default {
 		'vat-pricing': {
 			question: 'Inkluderer pakkeprisene deres MVA?',
 			answer:
-				'Nei, de oppgitte prisene inkluderer ikke MVA. Som angitt med (+21% MVA) ved siden av prisene, legges den spanske standardsatsen på 21 % MVA (IVA) til på toppen av pakkeprisen. Det endelige tilbudet ditt viser både nettopris og MVA-oppdeling med full åpenhet.'
+				'Nei, de oppgitte prisene inkluderer ikke MVA. Som angitt med (+21% MVA) ved siden av prisene, kommer den spanske standardsatsen på 21% MVA (IVA) i tillegg til pakkeprisen. Det endelige tilbudet ditt viser både nettopris og MVA-oppdeling med full åpenhet.'
 		},
 		'on-site-technician': {
 			question: 'Tilbyr dere en tekniker på stedet under arrangementet?',
@@ -211,7 +211,7 @@ export default {
 		'equipment-brands': {
 			question: 'Hvilke utstyrsmerker jobber dere med?',
 			answer:
-				'Vi bruker anerkjente profesjonelle merker fra bransjen for live arrangementer, blant annet Audix og HK Audio for lyd, Eurolite og ADJ for lys, og Martin for røykeffekter. Dette sikrer pålitelig lyd og lys i høy kvalitet ved hver booking.'
+				'Vi bruker anerkjente profesjonelle merker fra arrangementsbransjen, blant annet Audix og HK Audio for lyd, Eurolite og ADJ for lys, og Martin for røykeffekter. Dette sikrer pålitelig lyd og lys i høy kvalitet ved hver booking.'
 		},
 		'delivery-only': {
 			question: 'Tilbyr dere selvhenting, eller er det kun levering?',
@@ -234,12 +234,12 @@ export default {
 				'Absolutt. I tillegg til bryllup og bedriftsmøter utstyrer vi også større arrangementer som kongresser, messer og utstillinger med skreddersydde lyd- og bildeløsninger, og kombinerer lydforsterkning, storformatsskjermer, scener og dedikert teknisk personale etter behov.'
 		},
 		'notice-time': {
-			question: 'Hva er minste varslingstid for å foreta en booking?',
+			question: 'Hvor lang varslingstid kreves for en booking?',
 			answer:
-				'All utleie av arrangementsutstyr og tekniske tjenester må bestilles med minst 24 timers varsel for å garantere planlegging og logistisk tilgjengelighet. For store eller komplekse arrangementer anbefaler vi å booke så tidlig som mulig for å sikre datoen din.'
+				'All utleie av arrangementsutstyr og tekniske tjenester må bestilles med minst 24 timers varsel for å garantere planlegging og logistisk tilgjengelighet. For store eller komplekse arrangementer anbefaler vi at du booker så tidlig som mulig for å sikre datoen din.'
 		},
 		'minimum-order-granada': {
-			question: 'Er det et minstebeløp for service utenfor Costa del Sol?',
+			question: 'Er det et minstebeløp for oppdrag utenfor Costa del Sol?',
 			answer:
 				'Innenfor Costa del Sol er det ikke noe spesielt minstebeløp. For mer fjerntliggende destinasjoner utenfor provinsen, som Granada, krever vi en minste leieverdi over {price:outOfProvinceMinimum} for å dekke den logistiske endagsreisen. Vi betjener også Sevilla. Kontakt oss for å bekrefte vilkårene for ditt spesifikke sted.'
 		},

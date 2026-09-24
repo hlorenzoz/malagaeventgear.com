@@ -9,13 +9,13 @@ const copy = {
 			'Kontakt Malaga Event Gear for at anmode om tilbud på leje af lyd, lys og skærme. Teknisk support 24/7.'
 	},
 	schema: {
-		name: 'Kontakt os - Malaga Event Gear',
+		name: 'Kontakt os | Malaga Event Gear',
 		description:
 			'Kontakt det tekniske team hos Malaga Event Gear for at anmode om skræddersyede tilbud på leje af lyd, lys og skærme.'
 	},
 	whatsappLinkText: 'Send os en besked',
 	messages: {
-		packIntro: 'Hej, jeg er interesseret i at booke pakken: {pack}. Fortæl mig venligst om ledighed og detaljer.',
+		packIntro: 'Hej, jeg er interesseret i at booke pakken: {pack}. Giv mig gerne besked om ledighed og detaljer.',
 		categoryIntro:
 			'Hej, jeg er interesseret i at booke udstyr fra kategorien: {category}. Jeg ser frem til jeres tilbud.'
 	},

@@ -6,7 +6,7 @@ export default {
 	seo: {
 		title: 'Priser och eventpaket i Malaga | MEG',
 		description:
-			'Upptäck våra transparenta priser och skräddarsydda paket för ljud, ljus och dukuthyrning i Malaga. Perfekta alternativ för bröllop, företagsevenemang och fester.'
+			'Upptäck våra transparenta priser och skräddarsydda paket för uthyrning av ljud, ljus och dukar i Malaga. Perfekta alternativ för bröllop, företagsevenemang och fester.'
 	},
 	closeFiltersAria: 'Stäng filter',
 	faqSection: {

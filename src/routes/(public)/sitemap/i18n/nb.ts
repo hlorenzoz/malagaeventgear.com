@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Nettstedskart - Malaga Event Gear (MEG)',
+		title: 'Nettstedskart | Malaga Event Gear (MEG)',
 		description:
 			'Utforsk nettstedskartet til Malaga Event Gear. Finn lenker til alle våre profesjonelle tjenester for utleie av lyd og lys, pakker og kontaktinformasjon.'
 	},
@@ -14,7 +14,7 @@ export default {
 		intro: 'Utforsk vår komplette oversikt over statiske sider, spesialiserte arrangementspakker og blogginnhold.'
 	},
 	portals: {
-		heading: 'Hovedportaler',
+		heading: 'Hovedsider',
 		home: 'Hjem',
 		pricing: 'Priser og pakker',
 		equipment: 'Utstyrskatalog',
@@ -24,8 +24,8 @@ export default {
 		heading: 'Arrangementspakker'
 	},
 	legal: {
-		heading: 'Informasjon og juridisk',
-		about: 'Om vårt byrå',
+		heading: 'Informasjon og juridiske sider',
+		about: 'Om selskapet vårt',
 		team: 'Vårt ekspertteam',
 		faq: 'Ofte stilte spørsmål',
 		terms: 'Vilkår og betingelser',

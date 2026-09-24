@@ -19,7 +19,7 @@ export default {
 			'Utforska vår katalog med högkvalitativt ljud, spektakulär belysning och specialeffekter. Vi har de perfekta verktygen för att göra ditt firande oförglömligt.'
 	},
 	featured: {
-		imageAlt: 'MICE ljud- och bildpaket för möten',
+		imageAlt: 'MICE-paket med ljud- och bildutrustning för möten',
 		badge: 'Utvalt paket',
 		desc: 'Perfekt för konferenser och företagsevenemang. MICE Pack inkluderar en 60-tums LED-skärm, förstklassig ljud- och bildutrustning, bords- och trådlösa mikrofoner samt upp till 6 timmars teknisk support på plats för att säkerställa att din presentation flyter felfritt.',
 		spec1: '60-tums LED-skärm',
@@ -33,12 +33,12 @@ export default {
 		subtitle: 'Bläddra i vårt sortiment för att möta de tekniska behoven i din produktion.'
 	},
 	audio: {
-		imageAlt: 'Professionell ljuduthyrningsutrustning',
+		imageAlt: 'Professionell ljudutrustning för uthyrning',
 		desc: 'Linjearraysystem, aktiva högtalare, digitala mixerbord och trådlösa Audix-mikrofoner för hög akustisk kvalitet.'
 	},
 	lighting: {
-		imageAlt: 'Spektakulär eventbelysning för uthyrning',
-		desc: 'RGBW LED-spotlights, specialiserad scenbelysning och ett trådlöst uplighting-kit för att skapa romantiska eller energiska stämningar.'
+		imageAlt: 'Uthyrning av spektakulär eventbelysning',
+		desc: 'LED-spotlights i RGBW, specialiserad scenbelysning och ett trådlöst kit för uplighting som skapar romantiska eller energiska stämningar.'
 	},
 	visuals: {
 		imageAlt: 'HD-projektorer och dukar för uthyrning',
@@ -47,6 +47,6 @@ export default {
 	effects: {
 		imageAlt: 'Professionell rökmaskin för evenemang',
 		title: 'Specialeffekter',
-		desc: 'En professionell Martin Magnum 650-rökmaskin som tillför atmosfär och gör ljusstrålarna synliga på dansgolvet.'
+		desc: 'En professionell Martin Magnum 650-rökmaskin som skapar atmosfär och gör ljusstrålarna synliga på dansgolvet.'
 	}
 } satisfies Copy;

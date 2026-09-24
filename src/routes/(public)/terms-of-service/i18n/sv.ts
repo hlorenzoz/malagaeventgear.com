@@ -15,11 +15,11 @@ export default {
 	},
 	intro: {
 		title: 'Inledning och godkännande av villkor',
-		body: 'Genom att använda de tjänster som tillhandahålls av Malaga Event Gear (MEG) godkänner du att vara bunden av dessa allmänna villkor. Malaga Event Gear tillhandahåller professionell uthyrning av ljud-, ljus- och eventutrustning för olika tillfällen, inklusive bröllop, privata fester, företagsevenemang, möten och MICE-konferenser.'
+		body: 'Genom att få åtkomst till eller använda de tjänster som tillhandahålls av Malaga Event Gear (MEG) samtycker du till att vara bunden av dessa allmänna villkor. Malaga Event Gear tillhandahåller professionell uthyrning av ljud-, ljus- och eventutrustning för olika tillfällen, inklusive bröllop, privata fester, företagsevenemang, möten och MICE-konferenser.'
 	},
 	scope: {
 		title: 'Tjänstens omfattning och utbud',
-		p1: 'Vi specialiserar oss på att erbjuda högkvalitativa aktiva PA-ljudsystem, professionella belysningslösningar (LED-ljusbalkar, en zoom-Fresnel-spotlight och ett trådlöst uplighting-kit), projektorer med hög ljusstyrka, mikrofoner (trådbundna, trådlösa, gåshals), rökmaskiner och scenplattformar.',
+		p1: 'Vi specialiserar oss på att erbjuda högkvalitativa aktiva PA-ljudsystem, professionella belysningslösningar (LED-ljusbalkar, en Fresnelspotlight med zoom och ett trådlöst kit för uplighting), projektorer med hög ljusstyrka, mikrofoner (trådbundna, trådlösa, gåshals), rökmaskiner och scenplattformar.',
 		p2: 'Många av våra paket, som Wedding Pack och MICE Pack, inkluderar transport, professionell installation, teknisk support på plats och nedmontering efter evenemanget för en helt stressfri upplevelse.'
 	},
 	limits: {
@@ -35,6 +35,6 @@ export default {
 	},
 	obligations: {
 		title: 'Kundens skyldigheter och ansvar för utrustning',
-		body: 'Kunden ansvarar för att säkerställa tillgång till lokalen och nödvändiga eluttag på den avtalade platsen och tiden. Kunden bekräftar att de hyr högkvalitativ, professionell utrustning och måste säkerställa utrustningens säkerhet och fysiska integritet under den avtalade hyresperioden.'
+		body: 'Kunden ansvarar för att säkerställa tillgång till lokalen och nödvändiga eluttag på den avtalade platsen och tiden. Kunden är medveten om att den hyrda utrustningen är högkvalitativ och professionell, och måste säkerställa utrustningens säkerhet och fysiska integritet under den avtalade hyresperioden.'
 	}
 } satisfies Copy;

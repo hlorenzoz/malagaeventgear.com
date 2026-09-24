@@ -15,7 +15,7 @@ export default {
 	},
 	whoWeAre: {
 		title: 'Vilka vi är',
-		body: 'Vår webbplatsadress är https://malagaeventgear.com. På Malaga Event Gear (MEG) är vi engagerade i att skydda din personliga information och ge transparent information om dataanvändning.'
+		body: 'Vår webbplatsadress är https://malagaeventgear.com. På Malaga Event Gear (MEG) åtar vi oss att skydda din personliga information och att öppet redovisa hur vi använder data.'
 	},
 	infoCollected: {
 		title: 'Information vi samlar in och syftet med den',
@@ -35,7 +35,7 @@ export default {
 				{
 					category: 'Evenemangslogistik',
 					purpose:
-						'Exakt plats och tid för evenemanget för att samordna leverans, skräddarsydd utrustningsinstallation och hämtning.'
+						'Exakt plats och tid för evenemanget för att samordna leverans, skräddarsydd installation av utrustning och hämtning.'
 				},
 				{
 					category: 'Finansiella uppgifter',

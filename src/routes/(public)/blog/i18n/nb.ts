@@ -6,7 +6,7 @@ export default {
 	seo: {
 		title: 'Blogg om utstyrsutleie i Malaga | Malaga Event Gear',
 		description:
-			'Les faglige innsikter om lyd i høy kvalitet, romantisk bryllupsbelysning, prosjektoroppsett til konferanser og profesjonelt arrangementsutstyr i Malaga.'
+			'Les ekspertråd om lyd i høy kvalitet, romantisk bryllupsbelysning, prosjektoroppsett til konferanser og profesjonelt arrangementsutstyr i Malaga.'
 	},
 	schema: {
 		name: 'Blogg om lyd, bilde og arrangementer | MEG',

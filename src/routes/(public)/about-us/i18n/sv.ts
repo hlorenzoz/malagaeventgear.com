@@ -21,7 +21,7 @@ export default {
 	},
 	stats: {
 		experienceTitle: 'Års erfarenhet',
-		experienceBody: 'Inom professionell AV-bransch',
+		experienceBody: 'Inom den professionella AV-branschen',
 		clientsTitle: 'Nöjda kunder',
 		clientsBody: 'Längs Costa del Sol'
 	},
@@ -35,7 +35,7 @@ export default {
 		},
 		lighting: {
 			title: 'Belysning',
-			body: 'LED-ljusbalkar med RGBW-spotlights, en zoom-Fresnel-spotlight och ett trådlöst batteridrivet uplighting-kit för att skapa den perfekta stämningen.'
+			body: 'LED-ljusbalkar med RGBW-spotlights, en Fresnelspotlight med zoom och ett trådlöst batteridrivet kit för uplighting som skapar den perfekta stämningen.'
 		},
 		screens: {
 			title: 'Dukar och projektorer',
@@ -43,15 +43,15 @@ export default {
 		},
 		microphones: {
 			title: 'Mikrofoner',
-			body: 'Professionella trådbundna och trådlösa handmikrofoner från Audix, samt trådlösa myggor och headsets.'
+			body: 'Professionella trådbundna och trådlösa handmikrofoner från Audix, samt trådlösa myggor och headsetmikrofoner.'
 		},
 		technicians: {
 			title: 'Eventtekniker',
-			body: 'Erfarna ljud- och ljustekniker tillgängliga för att övervaka din installation, drift och live-monitorering.'
+			body: 'Erfarna ljud- och ljustekniker som kan övervaka installation, drift och monitorering under evenemanget.'
 		},
 		effects: {
 			title: 'Specialeffekter',
-			body: 'En professionell Martin Magnum 650-rökmaskin som tillför atmosfär till dansgolvet och scenen.'
+			body: 'En professionell Martin Magnum 650-rökmaskin som skapar atmosfär på dansgolvet och scenen.'
 		}
 	},
 	cta: {

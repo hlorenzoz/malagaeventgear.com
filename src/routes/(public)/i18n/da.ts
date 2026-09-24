@@ -9,12 +9,12 @@ const copy = {
 			'Malaga Event Gear (MEG) tilbyder udlejning af lydsystemer, imponerende belysning, projektorer og skærme i topklasse til bryllupper, virksomhedsevents og fester i Malaga.'
 	},
 	hero: {
-		imageAlt: 'Premium eventscene med professionel AV-belysning på Costa del Sol'
+		imageAlt: 'Eventscene i topklasse med professionel AV-belysning på Costa del Sol'
 	},
 	categories: {
 		soundImageAlt: 'Udlejning af professionelt lydsystem',
 		lightImageAlt: 'Udlejning af imponerende eventbelysning',
-		visualImageAlt: 'Udlejning af HD-visuals og projektorer til events'
+		visualImageAlt: 'Udlejning af projektorer og HD-billeder til events'
 	},
 	faqSection: {
 		moreQuestions: 'Har du flere spørgsmål?',

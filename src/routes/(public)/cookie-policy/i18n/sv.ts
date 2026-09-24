@@ -15,7 +15,7 @@ export default {
 	},
 	whatAreCookies: {
 		title: 'Vad är cookies?',
-		body: 'Cookies är små textfiler som placeras på din enhet när du besöker vår webbplats. De hjälper webbplatsen att fungera mer effektivt, gör att vi kan komma ihåg om du valt ljust eller mörkt tema och ger vårt team anonym analytisk data.'
+		body: 'Cookies är små textfiler som placeras på din enhet när du besöker vår webbplats. De hjälper webbplatsen att fungera mer effektivt, gör att vi kan komma ihåg om du valt ljust eller mörkt tema och ger vårt team anonyma analysdata.'
 	},
 	categories: {
 		title: 'Kategorier av cookies vi använder',
@@ -26,16 +26,16 @@ export default {
 			},
 			{
 				title: 'Analys- och prestandacookies',
-				body: 'Vi använder Google Analytics och Google Search Console för att övervaka trafik, felsöka flaskhalsar, söktermer och sidhastighet. All insamlad data är strikt aggregerad och pseudonymiserad.'
+				body: 'Vi använder Google Analytics och Google Search Console för att övervaka trafik och sidhastighet, felsöka flaskhalsar och analysera sökfrågor. All insamlad data är strikt aggregerad och pseudonymiserad.'
 			},
 			{
-				title: 'Tredjeparts verifieringscookies',
+				title: 'Verifieringscookies från tredje part',
 				body: 'För att visa äkta kundrecensioner verifierade direkt från Google My Business integrerar vi Trustindex. Trustindex kan placera cookies för att spåra och dynamiskt validera recensionswidgetar.'
 			}
 		]
 	},
 	managing: {
 		title: 'Hantera dina inställningar',
-		body: 'Du kan enkelt avböja eller blockera cookies via dina individuella webbläsarinställningar. Observera dock att begränsning av alla cookies kan påverka tillgången till avancerade funktioner, till exempel automatisk ifyllnad av formulär eller ditt sparade val av ljust eller mörkt tema.'
+		body: 'Du kan enkelt avböja eller blockera cookies via inställningarna i din webbläsare. Observera dock att begränsning av alla cookies kan påverka tillgången till avancerade funktioner, till exempel automatisk ifyllnad av formulär eller ditt sparade val av ljust eller mörkt tema.'
 	}
 } satisfies Copy;

@@ -5,13 +5,13 @@ export const updated = '2026-09-24';
 const copy = {
 	benefits: {
 		delivery: 'Gratis opsætning og levering (Malaga og Costa del Sol)',
-		brands: 'Premium mærker (HK Audio, Audix, Midas)',
-		support: 'Teknisk support på stedet tilgængelig'
+		brands: 'Premiummærker (HK Audio, Audix, Midas)',
+		support: 'Mulighed for teknisk support på stedet'
 	},
 	faqs: {
 		delivery: {
 			q: 'Er levering og opsætning inkluderet i pakkeprisen?',
-			a: 'Ja, for premium pakker (som {wedding} og {mice}) er fuld professionel levering, opsætning af kabler og nedtagning i Malaga og de nærmeste forstæder inkluderet. For standardpakker kan et mindre logistisk gebyr blive tillagt afhængigt af dit events præcise placering.'
+			a: 'Ja, for premiumpakker (som {wedding} og {mice}) er fuld professionel levering, opsætning af kabler og nedtagning i Malaga og de nærmeste forstæder inkluderet. For standardpakker kan et mindre logistisk gebyr blive tillagt afhængigt af dit events præcise placering.'
 		},
 		areas: {
 			q: 'Hvilke områder dækker I i Andalusien?',
@@ -23,13 +23,13 @@ const copy = {
 		},
 		technician: {
 			q: 'Hvad sker der, hvis jeg har brug for en tekniker under mit event?',
-			a: 'Vores premium pakker (som {wedding} og {mice}) inkluderer allerede teknisk overvågning på stedet. For andre pakker kan du anmode om en dedikeret lyd-/lysingeniør, der bliver på dit lokale for en stressfri oplevelse.'
+			a: 'Vores premiumpakker (som {wedding} og {mice}) inkluderer allerede teknisk overvågning på stedet. For andre pakker kan du anmode om en dedikeret lyd-/lystekniker, der bliver i lokalet, så du får en stressfri oplevelse.'
 		}
 	},
 	popularBadge: 'Mest populær',
-	itemsIncludedSuffix: 'ting inkluderet',
+	itemsIncludedSuffix: 'dele inkluderet',
 	faqSectionTitle: 'Ofte stillede spørgsmål',
-	stickyBarAriaLabel: 'Fastgjort opfordring til handling'
+	stickyBarAriaLabel: 'Fastgjort bookingbjælke'
 } satisfies Copy;
 
 export default copy;

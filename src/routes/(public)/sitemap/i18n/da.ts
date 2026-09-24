@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Sitemap - Malaga Event Gear (MEG)',
+		title: 'Sitemap | Malaga Event Gear (MEG)',
 		description:
 			'Udforsk sitemappet for Malaga Event Gear. Find links til alle vores professionelle AV- og belysningsservices, pakker og kontaktoplysninger.'
 	},
@@ -14,7 +14,7 @@ const copy = {
 		intro: 'Udforsk vores fulde oversigt over statiske sider, specialiserede eventpakker og blogindhold.'
 	},
 	portals: {
-		heading: 'Primære portaler',
+		heading: 'Hovedsider',
 		home: 'Forside',
 		pricing: 'Priser og pakker',
 		equipment: 'Udstyrskatalog',

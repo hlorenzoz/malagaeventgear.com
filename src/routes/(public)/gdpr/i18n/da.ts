@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'GDPR-overholdelse - Malaga Event Gear (MEG)',
+		title: 'GDPR-overholdelse | Malaga Event Gear (MEG)',
 		description:
 			'Forstå, hvordan Malaga Event Gear beskytter dine personoplysninger i henhold til databeskyttelsesforordningen (GDPR) for AV-udlejning.'
 	},
@@ -69,7 +69,7 @@ const copy = {
 		title: 'Gør brug af dine GDPR-rettigheder',
 		body: 'Vælg en handling nedenfor for automatisk at sende din privatlivsanmodning til vores team for databeskyttelse.',
 		buttons: {
-			access: 'Anmod om adgang til data',
+			access: 'Anmod om indsigt i data',
 			rectification: 'Anmod om berigtigelse af data',
 			erasure: 'Anmod om sletning af data'
 		},

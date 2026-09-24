@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Om oss - Malaga Event Gear (MEG)',
+		title: 'Om oss: utleiefirma for AV-utstyr i Malaga | MEG',
 		description:
 			'Møt ekspertene hos Malaga Event Gear! Vi gjør bryllup, bedriftsarrangementer og fester uforglemmelige med utstyr i toppklasse.'
 	},
@@ -31,11 +31,11 @@ export default {
 			'Vi tilbyr et bredt spekter av utleietjenester tilpasset ulike arrangementer, inkludert bryllup, bedriftsarrangementer, private fester og MICE-konferanser.',
 		sound: {
 			title: 'Lydanlegg',
-			body: 'Fra små høyttaleroppsett til private fester til aktive PA-anlegg i høy kvalitet for store lokaler.'
+			body: 'Fra små høyttaleroppsett for private fester til aktive PA-anlegg i høy kvalitet for store lokaler.'
 		},
 		lighting: {
 			title: 'Lys',
-			body: 'LED-lysbjelker med RGBW-spotlights, en zoom Fresnel-spotlight og et trådløst, batteridrevet sett for uplighting, for å skape den perfekte stemningen.'
+			body: 'LED-lysbjelker med RGBW-spotlights, en Fresnel-spotlight med zoom og et trådløst, batteridrevet sett for uplighting, for å skape den perfekte stemningen.'
 		},
 		screens: {
 			title: 'Lerret og prosjektorer',
@@ -43,7 +43,7 @@ export default {
 		},
 		microphones: {
 			title: 'Mikrofoner',
-			body: 'Profesjonelle Audix-håndmikrofoner, kablet og trådløs, samt trådløse lavalier- og headsett-sett.'
+			body: 'Profesjonelle Audix-håndmikrofoner, både kablede og trådløse, samt trådløse sett med mygg- og headsetmikrofoner.'
 		},
 		technicians: {
 			title: 'Teknikere til arrangementet',
@@ -51,7 +51,7 @@ export default {
 		},
 		effects: {
 			title: 'Spesialeffekter',
-			body: 'En profesjonell Martin Magnum 650-røykmaskin som tilfører stemning til dansegulvet og scenen.'
+			body: 'En profesjonell Martin Magnum 650-røykmaskin som skaper stemning på dansegulvet og scenen.'
 		}
 	},
 	cta: {

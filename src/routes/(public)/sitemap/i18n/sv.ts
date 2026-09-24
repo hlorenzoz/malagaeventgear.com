@@ -9,12 +9,12 @@ export default {
 			'Utforska webbplatskartan för Malaga Event Gear. Hitta länkar till alla våra professionella ljud- och ljusuthyrningstjänster, paket och kontaktinformation.'
 	},
 	hero: {
-		badge: 'Webbplatsregister',
+		badge: 'Webbplatsens innehåll',
 		title: 'Webbplatskarta',
 		intro: 'Utforska vårt kompletta register över statiska sidor, specialiserade eventpaket och blogginnehåll.'
 	},
 	portals: {
-		heading: 'Huvudportaler',
+		heading: 'Huvudsidor',
 		home: 'Startsida',
 		pricing: 'Priser och paket',
 		equipment: 'Utrustningskatalog',
@@ -25,7 +25,7 @@ export default {
 	},
 	legal: {
 		heading: 'Information och juridik',
-		about: 'Om vår byrå',
+		about: 'Om vårt företag',
 		team: 'Vårt expertteam',
 		faq: 'Vanliga frågor',
 		terms: 'Allmänna villkor',

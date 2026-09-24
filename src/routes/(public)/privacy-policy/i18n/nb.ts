@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Personvernerklæring - Malaga Event Gear (MEG)',
+		title: 'Personvernerklæring | Malaga Event Gear (MEG)',
 		description:
 			'Les den offisielle personvernerklæringen til Malaga Event Gear. Lær hvordan vi samler inn, behandler og beskytter dine personopplysninger.'
 	},
@@ -20,7 +20,7 @@ export default {
 	infoCollected: {
 		title: 'Informasjon vi samler inn og formålet',
 		intro:
-			'Vi samler inn og behandler personopplysninger når du engasjerer deg i vår etablerte arbeidsflyt (for eksempel når du ber om et tilbud via kontaktskjemaet vårt):',
+			'Vi samler inn og behandler personopplysninger når du bruker vår etablerte arbeidsflyt (for eksempel når du ber om et tilbud via kontaktskjemaet vårt):',
 		table: {
 			headers: {
 				category: 'Datakategori',
@@ -44,11 +44,11 @@ export default {
 		}
 	},
 	reviews: {
-		title: 'Anmeldelser og sosial dokumentasjon',
-		body: 'Vi viser en UTMERKET vurdering basert på verifiserte Google My Business-anmeldelser. Verifiseringen av anmeldelsene håndteres dynamisk via Trustindex, som sikrer at den opprinnelige kilden til alle kundeomtaler er ekte og uendret.'
+		title: 'Anmeldelser og sosialt bevis',
+		body: 'Vi viser en UTMERKET vurdering basert på verifiserte Google My Business-anmeldelser. Verifiseringen av anmeldelsene håndteres dynamisk via Trustindex, som sikrer at den opprinnelige kilden til alle kundeanmeldelser er ekte og uendret.'
 	},
 	retention: {
 		title: 'Lagring av data og dine rettigheter',
-		body: 'Vi lagrer personopplysningene dine kun så lenge det er nødvendig for å gjennomføre de avtalte lyd- og bildetjenestene, eller for å overholde lovpålagte krav. Du har fulle rettigheter under GDPR til innsyn, retting, innsigelse mot behandling eller sletting av personopplysningene dine, ved å kontakte vår databehandlingsansvarlige.'
+		body: 'Vi lagrer personopplysningene dine kun så lenge det er nødvendig for å gjennomføre de avtalte lyd- og bildetjenestene, eller for å overholde lovpålagte krav. Etter GDPR har du til enhver tid rett til innsyn, retting, å protestere mot behandlingen og å be om sletting av personopplysningene dine ved å kontakte den behandlingsansvarlige hos oss.'
 	}
 } satisfies Copy;

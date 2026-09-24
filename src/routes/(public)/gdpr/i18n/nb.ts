@@ -14,7 +14,7 @@ export default {
 		effectiveDateLine: 'Malaga Event Gear (MEG) | Gjeldende fra: 16. oktober 2025'
 	},
 	commitment: {
-		title: 'Vårt GDPR-engasjement',
+		title: 'Vår forpliktelse etter GDPR',
 		body: 'Siden Malaga Event Gear (MEG) holder til i Málaga, Spania, følger vi strengt personvernforordningen (GDPR) (forordning (EU) 2016/679) ved innsamling, behandling og lagring av personopplysninger.'
 	},
 	processing: {
@@ -44,8 +44,8 @@ export default {
 		]
 	},
 	rights: {
-		title: 'Dine rettigheter som registrert under GDPR',
-		intro: 'Under GDPR har du følgende rettigheter knyttet til personopplysningene vi behandler:',
+		title: 'Dine rettigheter som registrert etter GDPR',
+		intro: 'Etter GDPR har du følgende rettigheter knyttet til personopplysningene vi behandler:',
 		items: [
 			{
 				label: 'Rett til innsyn:',
@@ -67,7 +67,7 @@ export default {
 	},
 	rightsPortal: {
 		title: 'Utøv dine GDPR-rettigheter',
-		body: 'Velg en handling nedenfor for å automatisk sende personvernforespørselen din til vårt team for regeletterlevelse.',
+		body: 'Velg en handling nedenfor for å automatisk sende personvernforespørselen din til personvernteamet vårt.',
 		buttons: {
 			access: 'Be om innsyn i data',
 			rectification: 'Be om retting av data',

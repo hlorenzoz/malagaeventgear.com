@@ -9,7 +9,7 @@ export default {
 			'Ta kontakt med Malaga Event Gear for tilbud på utleie av lyd, lys og skjermer. Teknisk support hele døgnet, alle ukens dager.'
 	},
 	schema: {
-		name: 'Kontakt oss - Malaga Event Gear',
+		name: 'Kontakt oss | Malaga Event Gear',
 		description:
 			'Kontakt det tekniske teamet hos Malaga Event Gear for å be om skreddersydde tilbud på utleie av lyd, lys og skjermer.'
 	},

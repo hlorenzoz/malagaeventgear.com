@@ -11,7 +11,7 @@ const copy = {
 	schema: {
 		name: 'Blog om AV-udstyr og events | MEG',
 		description:
-			'Faglige guides, rådgivning om AV-udlejning og bryllupsplanlægning til Malaga og Costa del Sol.'
+			'Faglige guides, råd om AV-udlejning og indsigt i bryllupsplanlægning i Malaga og på Costa del Sol.'
 	},
 	hero: {
 		badge: 'Viden og inspiration',

@@ -6,12 +6,12 @@ export default {
 	benefits: {
 		delivery: 'Gratis installasjon og levering (Malaga og Costa del Sol)',
 		brands: 'Merker i premiumklasse (HK Audio, Audix, Midas)',
-		support: 'Teknisk support på stedet tilgjengelig'
+		support: 'Mulighet for teknisk support på stedet'
 	},
 	faqs: {
 		delivery: {
 			q: 'Er levering og installasjon inkludert i pakkeprisen?',
-			a: 'Ja, for pakker i premiumklasse (som {wedding} og {mice}) er full profesjonell levering, kabelinstallasjon og nedrigging i Malaga og de nærmeste forstedene inkludert. For standardpakker kan et mindre logistikkgebyr komme til, avhengig av nøyaktig sted for arrangementet ditt.'
+			a: 'Ja, for pakker i premiumklasse (som {wedding} og {mice}) er full profesjonell levering, kabelinstallasjon og nedrigging i Malaga og de nærmeste forstedene inkludert. For standardpakker kan det komme et mindre logistikkgebyr i tillegg, avhengig av hvor arrangementet ditt holdes.'
 		},
 		areas: {
 			q: 'Hvilke områder dekker dere i Andalucía?',
@@ -23,11 +23,11 @@ export default {
 		},
 		technician: {
 			q: 'Hva skjer hvis jeg trenger en tekniker under arrangementet mitt?',
-			a: 'Våre pakker i premiumklasse (som {wedding} og {mice}) inkluderer allerede teknisk overvåking på stedet. For andre pakker kan du be om en dedikert lyd-/lysingeniør som blir på lokalet ditt for en stressfri opplevelse.'
+			a: 'Våre pakker i premiumklasse (som {wedding} og {mice}) inkluderer allerede teknisk overvåking på stedet. For andre pakker kan du be om en dedikert lyd-/lystekniker som blir i lokalet, slik at du får en stressfri opplevelse.'
 		}
 	},
 	popularBadge: 'Mest populær',
-	itemsIncludedSuffix: 'elementer inkludert',
+	itemsIncludedSuffix: 'deler inkludert',
 	faqSectionTitle: 'Ofte stilte spørsmål',
-	stickyBarAriaLabel: 'Fastsatt handlingsknapp'
+	stickyBarAriaLabel: 'Fast bestillingsfelt'
 } satisfies Copy;

@@ -9,10 +9,10 @@ export default {
 			'Utforsk vårt profesjonelle utvalg av lydanlegg, dynamisk lys, prosjektorer i høy oppløsning og spesialeffekter. Utstyr i toppklasse i Malaga.'
 	},
 	schema: {
-		listName: 'Katalog for utleie av lyd- og bildeutstyr - Malaga Event Gear'
+		listName: 'Katalog for utleie av lyd- og bildeutstyr | Malaga Event Gear'
 	},
 	hero: {
-		badge: 'Moderne teknologi',
+		badge: 'Toppmoderne teknologi',
 		titlePart1: 'Løft arrangementet ditt med',
 		titlePart2: 'utstyr i toppklasse',
 		subtitle:
@@ -33,12 +33,12 @@ export default {
 		subtitle: 'Bla gjennom katalogen vår for å dekke de tekniske behovene til produksjonen din.'
 	},
 	audio: {
-		imageAlt: 'Profesjonelt lydutstyr for utleie',
+		imageAlt: 'Profesjonelt lydutstyr til utleie',
 		desc: 'Line array-systemer, aktive høyttalere, digitale mikserpulter og trådløse Audix-mikrofoner for høy akustisk kvalitet.'
 	},
 	lighting: {
-		imageAlt: 'Spektakulært lysutstyr til arrangementer for utleie',
-		desc: 'RGBW LED-spotlights, spesiallys til scene og et trådløst sett for uplighting, for å skape romantisk eller energisk stemning.'
+		imageAlt: 'Utleie av spektakulært lysutstyr til arrangementer',
+		desc: 'LED-spotlights i RGBW, spesialisert scenelys og et trådløst sett for uplighting, for å skape romantisk eller energisk stemning.'
 	},
 	visuals: {
 		imageAlt: 'HD-prosjektorer og lerret for utleie',
@@ -47,6 +47,6 @@ export default {
 	effects: {
 		imageAlt: 'Profesjonell røykmaskin til arrangementer',
 		title: 'Spesialeffekter',
-		desc: 'En profesjonell Martin Magnum 650-røykmaskin som tilfører stemning og gjør lysstrålene synlige på dansegulvet.'
+		desc: 'En profesjonell Martin Magnum 650-røykmaskin som skaper stemning og gjør lysstrålene synlige på dansegulvet.'
 	}
 } satisfies Copy;

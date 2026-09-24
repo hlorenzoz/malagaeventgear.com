@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Cookieerklæring - Malaga Event Gear (MEG)',
+		title: 'Cookieerklæring | Malaga Event Gear (MEG)',
 		description:
 			'Se hvordan Malaga Event Gear bruker cookies og sporingsteknologi for å optimalisere bruken av nettsiden og analysere ytelsen.'
 	},
@@ -15,22 +15,22 @@ export default {
 	},
 	whatAreCookies: {
 		title: 'Hva er cookies?',
-		body: 'Cookies er små tekstfiler som lagres på enheten din når du besøker nettsiden vår. De gjør at nettsiden fungerer mer effektivt, lar oss huske om du har valgt lyst eller mørkt tema, og gir teamet vårt anonym analysedata.'
+		body: 'Cookies er små tekstfiler som lagres på enheten din når du besøker nettsiden vår. De gjør at nettsiden fungerer mer effektivt, lar oss huske om du har valgt lyst eller mørkt tema, og gir teamet vårt anonyme analysedata.'
 	},
 	categories: {
 		title: 'Kategorier av cookies vi bruker',
 		items: [
 			{
-				title: 'Essensielle og tekniske cookies',
+				title: 'Nødvendige og tekniske cookies',
 				body: 'Helt nødvendige for grunnleggende navigasjon, sikkerhet og lagring av valget ditt av lyst eller mørkt tema. Disse kan ikke slås av.'
 			},
 			{
 				title: 'Analyse- og ytelsescookies',
-				body: 'Vi bruker Google Analytics og Google Search Console for å overvåke trafikk, diagnostisere flaskehalser, søkeord og sidehastighet. All innsamlet data er strengt aggregert og pseudonymisert.'
+				body: 'Vi bruker Google Analytics og Google Search Console for å overvåke trafikk og sidehastighet, finne flaskehalser og analysere søkeord. All innsamlet data er strengt aggregert og pseudonymisert.'
 			},
 			{
-				title: 'Tredjeparts verifiseringscookies',
-				body: 'For å vise ekte kundeomtaler verifisert direkte fra Google My Business, bruker vi Trustindex. Trustindex kan plassere cookies for å spore og dynamisk validere anmeldelsesmoduler.'
+				title: 'Verifiseringscookies fra tredjeparter',
+				body: 'For å vise ekte kundeanmeldelser verifisert direkte fra Google My Business, bruker vi Trustindex. Trustindex kan plassere cookies for å spore og dynamisk validere anmeldelsesmoduler.'
 			}
 		]
 	},

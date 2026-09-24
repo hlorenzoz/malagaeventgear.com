@@ -4,9 +4,9 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Mød teamet - Malaga Event Gear (MEG)',
+		title: 'Mød teamet | Malaga Event Gear (MEG)',
 		description:
-			'Mød teamet hos Malaga Event Gear! Lær vores erfarne team at kende, der driver vores professionelle service og fejlfrie events i Malaga, Spanien.'
+			'Mød teamet hos Malaga Event Gear! Her er det erfarne team bag vores professionelle service og problemfrie events i Malaga, Spanien.'
 	},
 	hero: {
 		badge: 'Hvem står bag MEG',
@@ -22,7 +22,7 @@ const copy = {
 	sales: {
 		title: 'Salgsteam',
 		subtitle: 'Kundesupport og booking',
-		body: 'Vores salgsteam guider dig gennem valget af den ideelle pakke og hjælper dig med at modtage dit skræddersyede tilbud for at afslutte din booking.'
+		body: 'Vores salgsteam guider dig gennem valget af den ideelle pakke og hjælper dig med at modtage dit skræddersyede tilbud så du kan gennemføre din booking.'
 	},
 	hector: {
 		role: 'SEO-specialist og medstifter',

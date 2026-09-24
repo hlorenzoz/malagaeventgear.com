@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Vanliga frågor om att hyra utrustning | MEG',
+		title: 'Vanliga frågor om att hyra eventteknik | MEG',
 		description:
 			'Hitta tydliga svar på vanliga frågor om Malaga Event Gears professionella ljud- och bilduthyrning, paket, serviceområde (Malaga/Costa del Sol) och bokningskrav.'
 	},

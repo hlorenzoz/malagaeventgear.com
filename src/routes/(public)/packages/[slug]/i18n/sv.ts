@@ -6,16 +6,16 @@ export default {
 	benefits: {
 		delivery: 'Gratis installation och leverans (Malaga och Costa del Sol)',
 		brands: 'Förstklassiga varumärken (HK Audio, Audix, Midas)',
-		support: 'Teknisk support på plats tillgänglig'
+		support: 'Möjlighet till teknisk support på plats'
 	},
 	faqs: {
 		delivery: {
 			q: 'Ingår leverans och installation i paketpriset?',
-			a: 'Ja, för premiumpaket (som {wedding} och {mice}) ingår full professionell leverans, kabeldragning och nedmontering i Malaga och dess närmaste förorter. För standardpaket kan en mindre logistisk avgift tillkomma beroende på evenemangets exakta plats.'
+			a: 'Ja, för premiumpaket (som {wedding} och {mice}) ingår komplett professionell leverans, kabeldragning och nedmontering i Malaga och dess närmaste förorter. För standardpaket kan en mindre logistisk avgift tillkomma beroende på evenemangets exakta plats.'
 		},
 		areas: {
 			q: 'Vilka områden täcker ni i Andalusien?',
-			a: 'Vi betjänar Malaga stad, Marbella och hela Costa del Sol dagligen. Vi betjänar även Sevilla och Granada (för beställningar över {price:outOfProvinceMinimum}). Vi erbjuder för närvarande inget hämtningsalternativ eftersom vi enbart arbetar med leverans.'
+			a: 'Vi betjänar Malaga stad, Marbella och hela Costa del Sol dagligen. Vi betjänar även Sevilla och Granada (för beställningar över {price:outOfProvinceMinimum}). Vi erbjuder för närvarande inget alternativ för självhämtning eftersom vi enbart arbetar med leverans.'
 		},
 		rain: {
 			q: 'Vad händer om det regnar vid ett utomhusevenemang?',
@@ -23,11 +23,11 @@ export default {
 		},
 		technician: {
 			q: 'Vad händer om jag behöver en tekniker under mitt evenemang?',
-			a: 'Våra premiumpaket (som {wedding} och {mice}) inkluderar redan teknisk övervakning på plats. För övriga paket kan du begära en dedikerad ljud-/ljustekniker som stannar på din plats för en stressfri upplevelse.'
+			a: 'Våra premiumpaket (som {wedding} och {mice}) inkluderar redan teknisk övervakning på plats. För övriga paket kan du begära en dedikerad ljud-/ljustekniker som stannar kvar i lokalen, för en stressfri upplevelse.'
 		}
 	},
 	popularBadge: 'Mest populär',
 	itemsIncludedSuffix: 'delar ingår',
 	faqSectionTitle: 'Vanliga frågor',
-	stickyBarAriaLabel: 'Fast uppmaning till handling'
+	stickyBarAriaLabel: 'Fast bokningsfält'
 } satisfies Copy;

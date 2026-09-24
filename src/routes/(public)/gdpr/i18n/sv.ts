@@ -68,7 +68,7 @@ export default {
 	},
 	rightsPortal: {
 		title: 'Utöva dina GDPR-rättigheter',
-		body: 'Välj en åtgärd nedan för att automatiskt skicka din integritetsförfrågan till vårt dataefterlevnadsteam.',
+		body: 'Välj en åtgärd nedan för att automatiskt skicka din integritetsförfrågan till vårt team för dataskydd.',
 		buttons: {
 			access: 'Begär tillgång till data',
 			rectification: 'Begär rättelse av data',
@@ -81,7 +81,7 @@ export default {
 		},
 		status: {
 			prefix: 'Din förfrågan om ',
-			middle: ' har initierats. Vänligen mejla oss på ',
+			middle: ' har påbörjats. Mejla oss på ',
 			suffix: ' för att slutföra verifieringen.'
 		}
 	}

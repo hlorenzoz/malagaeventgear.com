@@ -4,15 +4,15 @@ export default {
 	packages: {
 		eco: {
 			updated: '2026-09-24',
-			desc: 'Perfekt til leje af lyd og lys til en lille fest i Malaga, eller andre private events med op til 50 gæster. Inkluderer solidt grundlæggende lydanlæg og stemningsbelysning.',
+			desc: 'Perfekt til leje af lyd og lys til en lille fest i Malaga eller andre private events med op til 50 gæster. Inkluderer et solidt basislydanlæg og stemningsbelysning.',
 			includes: [
 				'2 aktive højttalere af høj kvalitet med stativer',
 				'1 kablet dynamisk mikrofon',
-				'2 lysbjælker med RGBW LED-spots',
+				'2 LED-lysbjælker med RGBW-spots',
 				'Æstetisk kabelføring og professionel opsætning'
 			],
 			optional: ['Projektor og projektorlærred (+{price:projectorScreen})', 'Professionel røg-/tågemaskine (+{price:smokeMachine})'],
-			seo: { title: 'Eco Pack: Leje af lyd og lys til lille fest i Malaga | MEG' },
+			seo: { title: 'Eco Pack: leje af lyd og lys til lille fest i Malaga | MEG' },
 			landing: {
 				badge: 'Mindre events og fester',
 				rateLabel: 'Overkommelig fast pris, alt inklusive',
@@ -22,54 +22,54 @@ export default {
 				highlightTitle: 'Stressfri service',
 				highlightBody:
 					'Vi arbejder udelukkende med levering og direkte opsætning. Vi medbringer udstyret, installerer det professionelt, tester lyd og lys, og henter det hele igen efter eventet.',
-				includesLabel: 'Hvad er inkluderet',
+				includesLabel: 'Inkluderet i pakken',
 				optionalLabel: 'Valgfrit tilbehør',
 				ctaHeading: 'Sikr din booking i dag',
 				ctaBody:
-					'Udfyld vores hurtige formular for teknisk tilbud for at tjekke pakkens ledighed på din dato. Vi svarer hurtigst muligt!',
+					'Udfyld vores hurtige formular til et teknisk tilbud, og tjek pakkens ledighed på din dato. Vi svarer hurtigst muligt!',
 				ctaButton: 'Book denne pakke'
 			}
 		},
 		wedding: {
 			updated: '2026-09-24',
-			desc: 'Designet til perfektion til magiske og uforglemmelige bryllupsfejringer. Inkluderer et professionelt lydanlæg i topklasse, romantisk stemningsbelysning og trådløse mikrofoner til bevægende taler.',
+			desc: 'Skabt til magiske og uforglemmelige bryllupsfejringer. Inkluderer et professionelt lydanlæg i topklasse, romantisk stemningsbelysning og trådløse mikrofoner til bevægende taler.',
 			includes: [
 				'Aktivt PA-lydanlæg i topklasse til op til 80 gæster',
-				'Lyskæder / varme LED-lyskæder til romantisk stemningsbelysning',
+				'Lyskæder med varmt LED-lys til romantisk stemningsbelysning',
 				'Professionelle trådløse mikrofoner til taler og annonceringer',
 				'Transport i Malaga og omegn',
 				'Professionel æstetisk opsætning og kabelføring',
-				'Teknisk kontrol og ingeniørsupport på stedet under eventet',
-				'Hurtig nedtagning og logistisk afhentning efter eventet'
+				'Teknisk styring og support på stedet under eventet',
+				'Hurtig nedtagning og afhentning efter eventet'
 			],
 			optional: ['Professionel røg-/tågemaskine (+{price:smokeMachine})'],
-			seo: { title: 'Wedding Pack: Bryllupslyd og romantisk belysning | MEG' },
+			seo: { title: 'Wedding Pack: bryllupslyd og romantisk belysning | MEG' },
 			landing: {
 				badge: 'Vores mest populære fejringspakke',
-				rateLabel: 'Premium pris, alt inklusive',
-				vatNote: '(+21% moms), opsætning og live support inkluderet',
+				rateLabel: 'Premiumpris, alt inklusive',
+				vatNote: '(+21% moms), opsætning og support på stedet inkluderet',
 				specTitle: 'Op til 80 gæster',
 				specBody: 'Perfekt til smukke villaer, fincaer og bryllupshoteller.',
-				highlightTitle: 'Live tekniker på stedet',
+				highlightTitle: 'Tekniker på stedet under hele eventet',
 				highlightBody:
-					'Du skal aldrig bekymre dig om feedback fra mikrofonen eller visuelle problemer. Denne pakke inkluderer fuld teknisk overvågning på stedet og akustiske justeringer under hele din middag og talerne.',
-				includesLabel: 'Premium inklusioner',
+					'Du skal aldrig bekymre dig om feedback fra mikrofonen eller visuelle problemer. Denne pakke inkluderer fuld teknisk overvågning på stedet og akustiske justeringer under hele middagen og talerne.',
+				includesLabel: 'Inkluderet i premiumpakken',
 				ctaHeading: 'Gør din fejring magisk',
 				ctaBody:
-					'Bryllupsbookinger bliver hurtigt fyldt op. Sikr din dato med vores tekniske team i dag for at garantere den bedste lyd og romantiske belysning på din store dag.',
-				ctaButton: 'Book denne Wedding Pack'
+					'Bryllupsdatoerne bliver hurtigt booket. Sikr din dato med vores tekniske team i dag for at garantere den bedste lyd og den mest romantiske belysning på din store dag.',
+				ctaButton: 'Book Wedding Pack'
 			}
 		},
 		'product-presentation': {
 			updated: '2026-09-24',
 			desc: 'Designet til virksomhedspræsentationer, forhandlerfremvisninger og produktlanceringer med stor visuel effekt.',
 			includes: [
-				'1 fremskudt projektorlærred med stabilt stativ',
+				'1 lærred til frontprojektion med stabilt stativ',
 				'1 projektor med høj lysstyrke (5000 lumen) til skarpe billeder',
 				'Lydanlæg til lokalet med 2 højttalere og mixerpult',
-				'1 premium trådløs håndmikrofon til talere'
+				'1 trådløs håndmikrofon i premiumkvalitet til talere'
 			],
-			seo: { title: 'Product Presentation Pack: Projektor og lyd | MEG' },
+			seo: { title: 'Product Presentation Pack: projektor og lyd | MEG' },
 			landing: {
 				badge: 'Virksomhedsløsninger med stor visuel effekt',
 				rateLabel: 'Fast pris for præsentationspakken',
@@ -78,8 +78,8 @@ export default {
 				specBody: 'Projektor på 5000 lumen, ideel til oplyste lokaler.',
 				highlightTitle: 'Fejlfri virksomhedsbranding',
 				highlightBody:
-					'Maksimer opmærksomheden ved din forhandlerlancering, hotelpressemeddelelse eller produktfremvisning. Vores professionelle opsætning kombinerer krystalklar grafisk detalje med kraftfuld taleforstærkning.',
-				includesLabel: 'Hvad er inkluderet',
+					'Maksimer opmærksomheden ved din forhandlerlancering, dit pressemøde på hotellet eller din produktfremvisning. Vores professionelle opsætning kombinerer skarpe grafiske detaljer med kraftfuld taleforstærkning.',
+				includesLabel: 'Inkluderet i pakken',
 				note: {
 					title: 'Support til opsætning og tilslutning',
 					body: 'Vi leverer alle nødvendige adaptere (HDMI, USB-C) og lydgrænseflader, så du nemt kan tilslutte dine bærbare computere, tablets eller afspillere.'
@@ -87,30 +87,30 @@ export default {
 				ctaHeading: 'Løft din produktfremvisning',
 				ctaBody:
 					'Giv dit publikum den visuelle klarhed og professionelle lyd, de fortjener. Kontakt vores tekniske team i dag for at bekræfte ledighed.',
-				ctaButton: 'Book denne præsentationspakke'
+				ctaButton: 'Book præsentationspakken'
 			}
 		},
 		'basic-mice': {
 			updated: '2026-09-24',
-			desc: 'Essentiel, højtydende AV-opsætning til mindre ledermøder, konferencer og præsentationer med op til 40 gæster.',
+			desc: 'Grundlæggende, højtydende AV-opsætning til mindre ledermøder, konferencer og præsentationer med op til 40 gæster.',
 			includes: [
-				'2x2 m projektorlærred med projektor med høj lysstyrke på 3000 lumen',
+				'2x2 m projektorlærred og projektor med høj lysstyrke (3000 lumen)',
 				'Grundlæggende krystalklart lydanlæg til op til 40 personer',
-				'1 professionel gooseneck-mikrofon til podie/talerstol',
-				'Logistisk transport, opsætning og æstetisk kabelføring'
+				'1 professionel svanehalsmikrofon til podie/talerstol',
+				'Transport, opsætning og æstetisk kabelføring'
 			],
 			optional: ['Dedikeret teknisk assistent på stedet (+{price:technicianDay}/dag)'],
 			seo: { title: 'Basic MICE Pack: AV-udstyr til møder | MEG' },
 			landing: {
-				badge: 'Essentielle pakker til ledermøder',
+				badge: 'Basispakker til ledermøder',
 				rateLabel: 'Fast pris for virksomhedsmøder',
 				vatNote: '(+21% moms), opsætning og transport inkluderet',
 				specTitle: 'Op til 40 gæster',
 				specBody: 'Designet til bestyrelseslokaler, private saloner og hotelsuiter.',
 				highlightTitle: 'Klar taleforståelighed',
 				highlightBody:
-					'Vores professionelle gooseneck-mikrofonopsætning garanterer absolut klarhed til bestyrelsestaler, presseannonceringer eller investorpaneler uden ekko eller feedback.',
-				includesLabel: 'Hvad er inkluderet',
+					'Vores professionelle svanehalsmikrofoner garanterer absolut klarhed til bestyrelsestaler, presseannonceringer eller investorpaneler uden ekko eller feedback.',
+				includesLabel: 'Inkluderet i pakken',
 				optionalLabel: 'Valgfri support',
 				ctaHeading: 'Planlæg dit ledermøde',
 				ctaBody:
@@ -120,34 +120,34 @@ export default {
 		},
 		mice: {
 			updated: '2026-09-24',
-			desc: 'Omfattende MICE-løsning til virksomheder med en storformatsskærm, premium aktivt lydanlæg, trådløse podiemikrofoner og dedikeret live teknikersupport.',
+			desc: 'Omfattende MICE-løsning til virksomheder med en storformatsskærm, aktivt lydanlæg i premiumkvalitet, trådløse podiemikrofoner og dedikeret teknikersupport på stedet.',
 			includes: [
-				'Premium 60-tommer HD LED-skærm med designstativ',
+				'60-tommer HD-LED-skærm i premiumkvalitet med designstativ',
 				'Professionelle aktive højttalere og højtydende lydanlæg',
-				'1 gooseneck-mikrofon + 1 trådløs håndmikrofon',
-				'1 dedikeret specialiseret live AV-tekniker (op til 6 timers uafbrudt support)',
-				'Logistisk levering, tilpasset kabelopsætning og nedtagning efter eventet'
+				'1 svanehalsmikrofon + 1 trådløs håndmikrofon',
+				'1 dedikeret AV-tekniker på stedet (op til 6 timers uafbrudt support)',
+				'Levering, tilpasset kabelføring og nedtagning efter eventet'
 			],
 			optional: [
-				'Ekstra time med live teknisk assistentsupport (+{price:technicianHour}/t)',
-				'Premium moderne talerstol i metakrylat/akryl (+{price:lectern})',
+				'Ekstra time med teknisk assistent på stedet (+{price:technicianHour}/t)',
+				'Moderne talerstol i metakrylat/akryl i premiumkvalitet (+{price:lectern})',
 				'Modulære scenepodier (+{price:stagingPerSqm} pr. kvadratmeter)'
 			],
 			seo: { title: 'MICE Pack: AV til konferencer med LED-skærm | MEG' },
 			landing: {
-				badge: 'Premium MICE-oplevelse for virksomheder',
+				badge: 'MICE-oplevelse i premiumklasse for virksomheder',
 				rateLabel: 'Fast samlet virksomhedspris',
-				vatNote: '(+21% moms), LED-skærm, lyd og live tekniker inkluderet',
+				vatNote: '(+21% moms), LED-skærm, lyd og tekniker på stedet inkluderet',
 				specTitle: '60-tommer LED-skærm',
 				specBody: 'HD-skærm i storformat til virkningsfulde visuelle virksomhedspræsentationer.',
-				highlightTitle: 'Dedikeret live tekniker',
+				highlightTitle: 'Dedikeret tekniker på stedet',
 				highlightBody:
 					'En specialiseret AV-tekniker kører dit event i op til 6 sammenhængende timer og garanterer fejlfri lyd, billeder og mikrofonstyring gennem hele dit topmøde, din konference eller produktlancering.',
-				includesLabel: 'Premium inklusioner',
+				includesLabel: 'Inkluderet i premiumpakken',
 				optionalLabel: 'Valgfrit tilbehør',
 				ctaHeading: 'Løft dit virksomhedsevent',
 				ctaBody:
-					'Lever en fejlfri virksomhedsoplevelse med premium AV-udstyr og dedikeret teknisk support. Kontakt vores team i dag for at bekræfte ledighed på din dato.',
+					'Lever en fejlfri virksomhedsoplevelse med AV-udstyr i premiumkvalitet og dedikeret teknisk support. Kontakt vores team i dag for at bekræfte ledighed på din dato.',
 				ctaButton: 'Book MICE Pack'
 			}
 		}
@@ -156,7 +156,7 @@ export default {
 		'what-is-meg': {
 			question: 'Hvad er Malaga Event Gear (MEG), og hvilke services tilbyder de?',
 			answer:
-				'Malaga Event Gear (MEG) er en virksomhed med base i Malaga, Spanien, der er specialiseret i udlejning af professionelt AV-, lys- og eventudstyr. Vi leverer lydanlæg, projektorer, lærreder, scener, teknisk assistance, røgmaskiner, belysningsløsninger og mikrofoner, samt specialiserede services som live lydforstærkning og simultantolkning og interaktive afstemningssystemer arrangeret gennem en underleverandør.'
+				'Malaga Event Gear (MEG) er en virksomhed med base i Malaga, Spanien, der er specialiseret i udlejning af professionelt AV-, lys- og eventudstyr. Vi leverer lydanlæg, projektorer, lærreder, scener, teknisk assistance, røgmaskiner, belysningsløsninger og mikrofoner, samt specialiserede services som lydforstærkning ved liveevents, simultantolkning og interaktive afstemningssystemer, hvor de to sidste arrangeres gennem en underleverandør.'
 		},
 		'event-types': {
 			question: 'Hvilke typer events kan Malaga Event Gear (MEG) tage sig af?',
@@ -171,7 +171,7 @@ export default {
 		'what-makes-unique': {
 			question: 'Hvad gør Malaga Event Gear (MEG) unik sammenlignet med andre AV-udlejningsvirksomheder?',
 			answer:
-				'MEG adskiller sig med en kundefokuseret og strømlinet tilgang: en dedikeret tekniker på stedet til hver booking, udstyr fra premium mærker og gennemsigtige samlede priser. Vi bevæger os mod en 100% online bookingoplevelse med standardiserede faste priser og fuldt gennemsigtige transaktioner.'
+				'MEG adskiller sig med en kundefokuseret og strømlinet tilgang: en dedikeret tekniker på stedet til hver booking, udstyr fra premiummærker og gennemsigtige samlede priser. Vi bevæger os mod en 100% online bookingoplevelse med standardiserede faste priser og fuldt gennemsigtige transaktioner.'
 		},
 		'booking-process': {
 			question: 'Hvordan foregår bookingprocessen hos Malaga Event Gear?',
@@ -184,9 +184,9 @@ export default {
 				'Blandt vores mest populære, forudkonfigurerede pakker er {packagesWithPrices}, hver med forskelligt udstyr og forskellige funktioner. Besøg vores prisside for at se den fulde oversigt over, hvad hver pakke inkluderer.'
 		},
 		'language-hours': {
-			question: 'Hvilket sprog kommunikerer de med kunder på, og hvad er deres åbningstider?',
+			question: 'Hvilke sprog kommunikerer de med kunder på, og hvad er deres åbningstider?',
 			answer:
-				'Malaga Event Gear (MEG) kommunikerer med kunder på engelsk og spansk. Vi er tilgængelige 24 timer i døgnet, 7 dage om ugen til tekniske opsætninger og live eventovervågning.'
+				'Malaga Event Gear (MEG) kommunikerer med kunder på engelsk og spansk. Vi er tilgængelige 24 timer i døgnet, 7 dage om ugen, til tekniske opsætninger og overvågning af events, mens de foregår.'
 		},
 		'contact-info': {
 			question: 'Hvordan kan kunder kontakte Malaga Event Gear (MEG), og hvilke oplysninger bør de give?',
@@ -196,17 +196,17 @@ export default {
 		'delivery-setup': {
 			question: 'Tilbyder I levering og opsætning af lyd- og lysudstyr?',
 			answer:
-				'Ja. MEG leverer fuld levering, professionel opsætning og nedtagning efter eventet for alle lyd- og lysudlejninger. Vores service omfatter transport, installation, skjult kabelføring, lyd-/lystjek og valgfri teknisk assistance på stedet i Málaga, Marbella, Fuengirola, Torremolinos, Estepona og omegn.'
+				'Ja. MEG står for levering, professionel opsætning og nedtagning efter eventet for alle lyd- og lysudlejninger. Vores service omfatter transport, installation, skjult kabelføring, lyd-/lystjek og valgfri teknisk assistance på stedet i Málaga, Marbella, Fuengirola, Torremolinos, Estepona og omegn.'
 		},
 		'vat-pricing': {
 			question: 'Er jeres pakkepriser inklusive moms?',
 			answer:
-				'Nej, de angivne priser er ikke inklusive moms. Som angivet med (+21% moms) ved siden af priserne, tillægges den spanske standardmoms på 21% (IVA) oven i pakkeprisen. Dit endelige tilbud vil vise både nettoprisen og momsopgørelsen med 100% gennemsigtighed.'
+				'Nej, de angivne priser er ikke inklusive moms. Som angivet med (+21% moms) ved siden af priserne lægges den spanske standardmoms på 21% (IVA) oven i pakkeprisen. Dit endelige tilbud viser både nettoprisen og momsopgørelsen med 100% gennemsigtighed.'
 		},
 		'on-site-technician': {
 			question: 'Stiller I med en tekniker på stedet under eventet?',
 			answer:
-				'Ja. Flere pakker, som Wedding Pack og den fulde MICE Pack, inkluderer en dedikeret live tekniker, der står for teknisk kontrol og ingeniørsupport gennem hele dit event. For pakker, hvor det ikke er inkluderet (for eksempel Basic MICE Pack), kan teknisk assistance på stedet tilføjes som tilvalg fra {price:technicianDay} pr. dag.'
+				'Ja. Flere pakker, som Wedding Pack og den fulde MICE Pack, inkluderer en dedikeret tekniker på stedet, der står for teknisk styring og support gennem hele dit event. For pakker, hvor det ikke er inkluderet (for eksempel Basic MICE Pack), kan teknisk assistance på stedet tilføjes som tilvalg fra {price:technicianDay} pr. dag.'
 		},
 		'equipment-brands': {
 			question: 'Hvilke udstyrsmærker arbejder I med?',
@@ -216,17 +216,17 @@ export default {
 		'delivery-only': {
 			question: 'Tilbyder I selvafhentning, eller er det kun levering?',
 			answer:
-				'Vi arbejder udelukkende med levering, der er ingen mulighed for selvafhentning. Det garanterer, at hvert system ankommer professionelt transporteret, installeret og kalibreret af vores team, så udstyret fungerer nøjagtigt som tiltænkt til dit event.'
+				'Vi arbejder udelukkende med levering. Der er ingen mulighed for selvafhentning. Det garanterer, at hvert system ankommer professionelt transporteret, installeret og kalibreret af vores team, så udstyret fungerer nøjagtigt som tiltænkt til dit event.'
 		},
 		'streaming-recording': {
 			question: 'Tilbyder I livestreaming og multikameraoptagelse?',
 			answer:
-				'Nej. Vi tilbyder ikke kameraer, streamingencoder, multikameravideoproduktion eller optagelsesservice. Vi leverer rummets lyd, skærm og belysning. Til et hybrid- eller virtuelt event medbringer du selv din bærbare computer, streamingsoftware og internetforbindelse.'
+				'Nej. Vi tilbyder ikke kameraer, streamingencodere, videoproduktion med flere kameraer eller optagelsesservice. Vi leverer lyd, skærm og belysning til lokalet. Til et hybrid- eller virtuelt event medbringer du selv din bærbare computer, streamingsoftware og internetforbindelse.'
 		},
 		'translation-voting': {
 			question: 'Tilbyder I simultantolkning eller interaktive afstemningssystemer?',
 			answer:
-				'Ja, til simultantolkning og interaktive afstemningssystemer, dog ikke med vores eget udstyr: begge dele arrangerer vi gennem en underleverandør til virksomheds- og kongresarrangementer. Fortæl os om dine behov, når du anmoder om et tilbud. Vi tilbyder ikke en LED-videovæg. Vores storformatsskærm er et enkelt 60-tommer fladskærmspanel.'
+				'Ja, til simultantolkning og interaktive afstemningssystemer, dog ikke med vores eget udstyr: begge dele arrangerer vi gennem en underleverandør til virksomheds- og kongresarrangementer. Fortæl os om dine behov, når du anmoder om et tilbud. Vi tilbyder ikke en LED-videovæg. Vores storformatsskærm er en enkelt fladskærm på 60 tommer.'
 		},
 		'large-scale-events': {
 			question: 'Kan I håndtere store kongresser, messer og udstillinger?',
@@ -234,19 +234,19 @@ export default {
 				'Absolut. Ud over bryllupper og virksomhedsmøder udstyrer vi større events som kongresser, messer og udstillinger med skræddersyede AV-løsninger, der kombinerer lydforstærkning, storformatsskærme, scener og dedikeret teknisk personale efter behov.'
 		},
 		'notice-time': {
-			question: 'Hvad er den mindste varslingstid for at foretage en booking?',
+			question: 'Hvor lang tid i forvejen skal man booke?',
 			answer:
-				'Al udlejning af eventudstyr og alle tekniske services skal bestilles med mindst 24 timers varsel for at garantere planlægning og logistisk tilgængelighed. Til store eller komplekse events anbefaler vi at booke så tidligt som muligt for at sikre din dato.'
+				'Al udlejning af eventudstyr og alle tekniske services skal bestilles med mindst 24 timers varsel for at garantere planlægning og logistisk tilgængelighed. Til store eller komplekse events anbefaler vi, at du booker så tidligt som muligt for at sikre din dato.'
 		},
 		'minimum-order-granada': {
-			question: 'Er der et minimumsbeløb for service uden for Costa del Sol?',
+			question: 'Er der et minimumsbeløb for opgaver uden for Costa del Sol?',
 			answer:
 				'Inden for Costa del Sol er der intet særligt minimum. Til mere fjerntliggende destinationer uden for provinsen, som Granada, kræver vi en minimumsudlejningsværdi på over {price:outOfProvinceMinimum} for at dække den logistiske transport på én dag. Vi betjener også Sevilla. Kontakt os for at bekræfte betingelserne for din specifikke lokation.'
 		},
 		'customize-package': {
 			question: 'Kan jeg tilpasse eller udvide en pakke til mine specifikke behov?',
 			answer:
-				'Ja. Enhver pakke kan udvides med tilvalg som projektorer og lærreder, professionelle røgmaskiner, ekstra mikrofoner, premium talerstole i akryl, modulære scenepodier og ekstra timer med live tekniker. Fortæl os om dine behov, når du anmoder om et tilbud, så bygger vi den perfekte konfiguration til dit event.'
+				'Ja. Enhver pakke kan udvides med tilvalg som projektorer og lærreder, professionelle røgmaskiner, ekstra mikrofoner, akryltalerstole i premiumkvalitet, modulære scenepodier og ekstra teknikertimer. Fortæl os om dine behov, når du anmoder om et tilbud, så bygger vi den perfekte konfiguration til dit event.'
 		}
 	}
 } satisfies DataCopy;
