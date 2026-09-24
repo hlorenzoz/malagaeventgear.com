@@ -37,7 +37,7 @@ Every value is decided. Nothing here is to be filled in or asked about.
 | Primary accent / base surface | `#4D8CFF` / `#121414` dark, `#f7f7f8` light |
 | Default theme | `dark`, `light` available, persisted in `localStorage.theme` |
 | Display / body font | Playfair Display / Plus Jakarta Sans, both self hosted |
-| Language | English source and public UI. Second locale `es`, client side, same URL, no hreflang |
+| Locales | `en` source at the root, `es` under `/es/` with translated slugs. A locale is published only when all its content is translated |
 | Timezone for date offsets | `Europe/Madrid`. Dev / preview port 5173 / 4173 |
 | D1 database / cron Worker | `app-leads` with binding `DB` / `app-reminders` |
 | Package manager | bun, lockfile `bun.lock` tracked |
@@ -93,14 +93,19 @@ Every fact has exactly one owner. Nothing downstream restates it.
 | JSON-LD builders / page metadata | `src/lib/utils/schema.ts` / `src/lib/components/seo/SeoHead.svelte` |
 | Route registry for sitemaps | `STATIC_SITEMAP_PAGES` in `src/lib/utils/sitemap.ts`, catalog routes, the `.svx` glob |
 | Per page freshness date | `contentUpdated` in the `meta.ts` beside each route |
-| UI copy and locales / editorial prose | `src/lib/i18n.svelte.ts` / `src/content/blog/*.svx` |
+| Locales, published set / URL map per locale | `src/lib/i18n/locales.ts`, `availability.ts` / `src/lib/i18n/content-map/locales/<locale>.ts` |
+| UI dictionary / page copy / editorial prose | `src/lib/i18n/messages/<locale>.ts` / `src/routes/(public)/<route>/i18n/<locale>.ts` / `src/content/blog/*.svx` |
+| Amounts that are not a catalog price (extras, thresholds) | `PRICE_POINTS` in `src/lib/data/packages.ts` |
 
 **Identity is stored structured, never as display strings.** `siteConfig` holds `address` as parts (`streetAddress`,
 `addressLocality`, `addressRegion`, `postalCode`, `addressCountry`), the phone once in E.164, the email once. Display
 forms are derived through `formatAddress()`, `formatPhone(lang)` and `telHref()`, so visible copy, `<meta>`, JSON-LD,
 `llms.txt` and footer links all read one object. A ready made display string stored beside the parts is a second truth
 that drifts in silence. Prices work the same way, through `formatPrice(amount, lang)`, `getPriceRange()`,
-`formatPriceRange(lang)` and `getSchemaPriceRange()`. There is exactly **one** `#organization` node, emitted by
+`formatPriceRange(lang)` and `getSchemaPriceRange()`. Translatable copy never contains a number that another file owns:
+it names it with a token, `{price:key}` for a `PRICE_POINTS` entry and `{vat}` for `VAT_RATE`, and `renderTokens()`
+resolves them in the page language where copy is loaded, so no component has to remember to. There is exactly **one**
+`#organization` node, emitted by
 `buildLocalBusinessSchema()`, and other pages reference it by `@id`. Redefining it is how a site serves two addresses
 and two price ranges at once.
 
@@ -143,9 +148,34 @@ Every internal URL ends in a trailing slash, enforced by `trailingSlash = 'alway
 canonical and its content type schema through `SeoHead.svelte`. The layout emits the global `LocalBusiness` and
 `BreadcrumbList`, whose last crumb uses the real page title when the route has one, not a capitalized slug. Adding,
 moving or deleting a page or post means updating its sitemap endpoint in the same change: the freshness guard fails on
-a missing date, but it cannot invent the route. **There is no hreflang.** One URL, English source, runtime locale
-switching, only `og:locale:alternate`. A request to add hreflang is a request for a different site architecture and
-needs a decision, not a patch.
+a missing date, but it cannot invent the route. FAQ accordions keep every answer in the HTML, hidden until opened:
+content that renders only after a click is invisible to a crawler, and a `FAQPage` node describing it is a mismatch.
+
+## Languages
+
+English lives at the root with its URLs unchanged. Every other locale lives under `/<locale>/` with slugs in its own
+language, ASCII transliterated for Latin scripts. The locale comes from the URL through `page.data`, never from
+`localStorage` or the browser, and nothing redirects by browser language or IP.
+
+- **Routing**: routes exist once, in English. The `reroute` hook in `src/hooks.ts` maps a translated path to its English
+  route through the locale's content map, and `i18n.href(enPath)` goes the other way in components. The locale is read
+  from the **whole** first path segment, never with `startsWith`, or `/essentials/` is taken for Spanish.
+- **Publishing**: a locale URL exists only when its content is translated. Everything is prerendered, the crawler
+  discovers localized URLs through the language switcher links, and an unpublished one is never generated, so it
+  answers 404 instead of serving English under a prefix. A completeness test fails on any published or half written
+  locale whose dictionary, catalog copy or page copy does not match the English shape.
+- **SEO**: hreflang only in the `<head>`, through `SeoHead`, reciprocal, self referencing, absolute, with `x-default` to
+  English. Each locale page is its own canonical, and JSON-LD `@id`s and URLs point at the page's own language
+  version. Sitemaps are one child per type and locale, listed in the index only when published, with no `xhtml:link`.
+- **Loading**: each locale's dictionary, catalog copy and page copy is its own lazy chunk, so a page never downloads
+  another language. The PWA precache excludes them too. SvelteKit names client chunks by hash only, so a Vite plugin
+  finds the chunks made only of translated copy and adds them to workbox `globIgnores`, through an array kept on
+  `globalThis`: SvelteKit re-evaluates `vite.config.ts` for the client build, and a module constant would not be shared.
+- **Glue**: templates join translated strings with `i18n.space`, `i18n.comma` and `i18n.stop`, never a literal space or
+  period, because Chinese uses neither between runs.
+- **Copy**: package names, brands and the NAP are never translated. Customer reviews are shown as written, in their
+  own language. Keywords are built from native search phrasing, never by translating the English keyword. Every
+  English change reaches every locale in the same change.
 
 ## Testing
 
@@ -190,7 +220,9 @@ identical, so drift fails the suite instead of shipping.
 - Import `fs`, `path` or `node:crypto` in anything that runs on the edge, including in a test that reads project
   files. Use `import.meta.glob` with `?raw` there.
 - Run `npm install` or `pnpm install`. bun only.
-- Put a literal price, phone number, address or brand string under `src/` outside its owner.
+- Put a literal price, phone number, address or brand string under `src/` outside its owner, or a number or VAT rate
+  in translatable copy instead of its `{price:key}` or `{vat}` token.
+- Detect a locale with `startsWith`, redirect by browser language, or publish a locale before its content is complete.
 - Widen a guard allowlist to pass a suite, emit a build timestamp as `<lastmod>`, or bump `datePublished` on an edit.
 - Flip a published post back to `draft: true` as an edit side effect. That is an unpublication, needs a request.
 - Redefine the `#organization` node inline instead of by `@id`, or write an internal link with no trailing slash.

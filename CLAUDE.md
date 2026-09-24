@@ -399,6 +399,25 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
   revisado el 2026-09-24 con las páginas en los 13 idiomas, unos 1.300 cuando también estén los posts).
   Preview de producción: `bun run preview` (puerto 4173). Dev: puerto 5173. NO es `out/` ni
   `dist/`, y NO se asume `bun run build` sin los pasos de `wrangler types` / `fix-types.ts`.
+- **Reglas del stack que no se ven en el código de una página** (verificadas el 2026-09-24):
+  - **Gate antes de commitear**: `just check` (= `wrangler types` + `fix-types.ts` + `svelte-kit
+    sync` + `svelte-check`) más `just test`. El gate completo suma Playwright, `just build` y
+    `just test-lighthouse`. Prettier corre solo por `.pre-commit-config.yaml`.
+  - **Trailing slash**: lo impone `export const trailingSlash = 'always'` en
+    `src/routes/+layout.ts`. No se agrega a mano en cada ruta.
+  - **CSS inline**: `kit.inlineStyleThreshold: 102400` en `svelte.config.js`. Se compara contra el
+    CSS SIN comprimir (el global de Tailwind pesa unos 83KB, 12KB gzip). Bajarlo devuelve el
+    `<link>` bloqueante y empeora FCP y LCP.
+  - **mdsvex**: `smartypants: false` (por defecto convierte comillas y guiones a tipografía curva
+    en el build, contra la regla 12) y SIN opción `layout` (su inyección usa `$$props`,
+    incompatible con runes: el post se envuelve desde `[slug]/+page.svelte`). El orden de los
+    plugins rehype es una cadena de dependencias: `rehype-slug` primero y el que reestructura
+    headings (`rehypeFaqAccordion`) último.
+  - **Tests que leen archivos del proyecto**: `import.meta.glob(path, { query: '?raw', eager: true
+    })`, nunca `node:fs`, porque `tsconfig.types` se limita a los tipos de Workers a propósito.
+  - **Runtime solo Web APIs**: `wrangler.toml` no habilita `nodejs_compat`. Un built-in de Node
+    falla en el edge en runtime, no en el build, y por eso pasa la revisión. Usar la API HTTP de un
+    tercero antes que su SDK de Node.
 - **Fuentes únicas de verdad**:
 
   | Qué | Dónde |

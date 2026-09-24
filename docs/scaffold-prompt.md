@@ -80,6 +80,21 @@ listing and a catalog detail route.
 Add the spec that asserts `_headers` and `hooks.server.ts` carry identical headers. That is the only thing
 keeping those two files honest.
 
+## Phase 3b: languages
+
+Governed by **Languages** and **Project defaults**.
+
+Build the locale layer on the routes from Phase 3, before any copy is written into them: `locales.ts`, the
+content map of the second locale, the `reroute` hook, `i18n.href()`, per locale dictionaries and page copy
+loaded as their own chunks with tokens rendered on load, `hreflang` in `SeoHead`, per locale sitemaps and the
+language switcher in the navbar and footer. Translate the three pages from Phase 3 into the second locale and
+publish it.
+
+Prove this phase with a spec that walks every published locale: each sample page answers 200 with its own
+`lang` and self canonical, every hreflang target lists the page back, an unpublished locale answers 404, and a
+path whose first segment only starts with a locale code stays English. Add the completeness test that fails on
+a half written locale.
+
 ## Phase 4: content pipeline
 
 Governed by **Content pipeline**.
