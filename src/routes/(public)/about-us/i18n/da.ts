@@ -43,7 +43,7 @@ const copy = {
 		},
 		microphones: {
 			title: 'Mikrofoner',
-			body: 'Professionelle kablede og trådløse håndmikrofoner fra Audix, samt trådløse sæt med mikrofoner til krave og pandebånd.'
+			body: 'Professionelle kablede og trådløse håndmikrofoner fra Audix, samt trådløse sæt med reversmikrofoner og headsetmikrofoner.'
 		},
 		technicians: {
 			title: 'Eventteknikere',
