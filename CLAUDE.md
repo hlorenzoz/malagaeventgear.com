@@ -45,15 +45,16 @@ base y vive en la raíz. Cada uno de los demás idiomas vive bajo su propio pref
 El portugués de Portugal y el de Brasil tienen **contenido propio cada uno**, no una copia con
 otra etiqueta. Las tres variantes de chino cubren a cualquier lector chino, venga de donde venga.
 
-**Estado (2026-09-24): decidido, pendiente de implementar.** Hoy el sitio sigue siendo una sola
-URL en inglés con un selector `en/es` que traduce la interfaz solo en el navegador. La
-implementación va por fases:
+**Estado (2026-09-24): infraestructura lista, publicado solo el inglés.** Las URLs por idioma,
+hreflang, sitemaps y el selector de idioma existen, pero un idioma se publica recién cuando TODO
+su contenido está traducido: la lista de idiomas publicados es `PAGE_LOCALES` en
+`src/lib/i18n/availability.ts` (hoy `['en']`). La implementación va por fases:
 
 | Fase | Qué | Estado |
 | :--- | :--- | :--- |
 | 0 | Documentación (este archivo) | hecha |
-| 1 | Mapa de contenido (keyword, URL) por idioma | pendiente |
-| 2 | Infraestructura de URLs por idioma, hreflang y sitemaps | pendiente |
+| 1 | Mapa de contenido (keyword, URL) por idioma | hecha para páginas, paquetes y categorías. Los posts se mapean en cada lote de la Fase 4 |
+| 2 | Infraestructura de URLs por idioma, hreflang y sitemaps | hecha |
 | 3 | Páginas principales y paquetes en los 14 idiomas | pendiente |
 | 4 | Posts del blog, por lotes de silo | pendiente |
 
@@ -65,10 +66,11 @@ cerrada con este archivo desactualizado.
 
 1. **Todo contenido nuevo se crea en los 14 idiomas, en el mismo cambio.** Vale para páginas,
    paquetes, posts, FAQ, copy de UI y el texto de las imágenes. Un contenido no se publica hasta
-   tener sus 14 versiones. Entra en vigor cuando exista la infraestructura: Fase 2 para páginas y
-   paquetes, Fase 4 para posts. Guard: `all-locales.test.ts` (pendiente, Fase 2), que cubre el
-   contenido publicado después de la fecha de entrada en vigor y, al cerrar la Fase 4, todo el
-   sitio. La cobertura se controla por fecha de corte, nunca con un allowlist.
+   tener sus 14 versiones. Para páginas y paquetes lo impone
+   `src/lib/i18n/localized-completeness.test.ts`: cada idioma de `PAGE_LOCALES` tiene su
+   diccionario, su copia de paquetes y FAQ con la misma forma que el inglés, y fecha propia en
+   cada página y paquete. Para posts, el guard llega con la Fase 4 y controla por fecha de corte,
+   nunca con un allowlist.
 2. **Toda edición de contenido inglés se propaga a los 13 idiomas restantes en el mismo cambio.**
    Cada traducción guarda en `sourceUpdated` la fecha de la versión inglesa que tradujo, y la
    suite falla si el inglés es más nuevo (pendiente, Fase 4). Un arreglo como el de Shure a Audix
@@ -119,7 +121,24 @@ este resumen.
   effort or originality with no editing or manual curation is often the defining attribute of
   spammy websites." Lo que protege una traducción es la **edición y la curación**, no el método.
 
-### Arquitectura (pendiente, Fase 2)
+### Arquitectura (implementada en la Fase 2)
+
+| Pieza | Dónde |
+| :--- | :--- |
+| Locales, hreflang, `og:locale`, nombre nativo | `src/lib/i18n/locales.ts` (`LOCALE_META`) |
+| Idiomas publicados | `src/lib/i18n/availability.ts` (`PAGE_LOCALES`, más la disponibilidad de posts en la Fase 4) |
+| Slug y keyword por idioma (fuente única) | `src/lib/i18n/content-map/locales/<locale>.ts`, validado por `content-map.test.ts` |
+| URL traducida a ruta inglesa | hook `reroute` en `src/hooks.ts` (tabla del mapa del idioma, cargada bajo demanda) |
+| Ruta inglesa a URL traducida | `i18n.href('/packages/eco/')` en componentes. Si no está publicada en el idioma, devuelve la inglesa |
+| Idioma de la página, `<html lang>` | `(public)/+layout.server.ts` (idioma y alternates), `hooks.server.ts` (`%lang%`) |
+| Diccionario de UI | `src/lib/i18n/messages/<locale>.ts` (`satisfies Messages`, cargado bajo demanda) |
+| Copia de paquetes y FAQ | inglés en `packages.ts` / `faq.ts` (fuente). Resto en `src/lib/i18n/data/<locale>.ts`, leído con `pkgCopy()` / `faqCopy()` |
+| hreflang, canonical, `og:locale` | `SeoHead.svelte`, desde `page.data.alternates` |
+| Sitemaps por idioma | `page-sitemap-[locale].xml`, listados en `sitemap_index.xml` solo si el idioma está publicado |
+| Precache del PWA | `vite.config.ts`: lista explícita (home, paquetes y `/map` en inglés). Páginas traducidas y el blog en todos los idiomas quedan FUERA del precache |
+
+Cada idioma carga su diccionario, su mapa y su copia de datos como chunks propios: una página
+nunca descarga los otros 13 idiomas. Por eso la copia traducida NO va dentro de `packages.ts`.
 
 - **Subdirectorios por idioma**, con el inglés en la raíz y sin cambios de URL. Verificado el
   2026-09-24: Google nunca indexó URLs en español ni en otro idioma (WordPress era solo inglés y
@@ -137,8 +156,13 @@ este resumen.
 - **Sitemaps por idioma**: un sitemap hijo por tipo y locale en `sitemap_index.xml`
   (`page-sitemap-de.xml`, `post-sitemap-zh-hans.xml`...). Un sitemap sin URLs no se emite.
 - **Slugs en el idioma del público**: transliterados a ASCII en los idiomas latinos (`ü` pasa a
-  `ue`, `å` pasa a `a`) y en caracteres chinos con percent encoding en chino. La fuente única es
-  `src/lib/i18n/content-map.ts` (pendiente, Fase 1), que guarda slug y keyword por idioma.
+  `ue`, `å` pasa a `a`) y en caracteres chinos con percent encoding en chino (única palabra
+  latina permitida: el préstamo `cookie`, como en `/zh-hans/cookie政策/`). Las keywords, en
+  cambio, se escriben con sus letras reales (tildes, umlauts, å). La fuente única es
+  `src/lib/i18n/content-map/locales/<locale>.ts`.
+- **Todas las páginas públicas se prerenderizan**, en todos los idiomas. El crawler de prerender
+  descubre las URLs traducidas por los enlaces del selector de idioma, y una URL de idioma no
+  publicada no se genera, así que responde 404 en lugar de servir inglés bajo un prefijo.
 - **Un solo nodo `#organization`** en todos los idiomas, con NAP y marca sin traducir.
 
 ### Reglas de traducción
@@ -222,7 +246,8 @@ la arquitectura. Los pasos de provisioning/deploy están en **[docs/lead-capture
   (las páginas de paquete siguen prerenderizadas). No rompas esa coexistencia.
 - **i18n (gotcha):** el módulo activo es `$lib/i18n.svelte` y `i18n.t` es un **getter** → acceso por propiedad
   `i18n.t.leadForm.x`, NUNCA como función `i18n.t('...')`. El directorio `src/lib/i18n/`, que tenía un segundo
-  i18n sin usar, se borró en el commit `2271787`. Ahí va a vivir la infraestructura de idiomas nueva (pendiente, Fase 2).
+  i18n sin usar, se borró en el commit `2271787`. Hoy ese directorio es la infraestructura de idiomas (ver
+  [Internacionalización (i18n)](#internacionalización-i18n)). El idioma sale de la URL vía `page.data`, nunca de `localStorage`.
 
 ### Secrets / vars (ver runbook para cómo cargarlos)
 `RESEND_API_KEY`, `RESEND_FROM`, `TURNSTILE_SECRET_KEY` (secrets) · `LEAD_NOTIFY_EMAILS`,
@@ -363,15 +388,15 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
   | Qué | Dónde |
   | :--- | :--- |
   | Canonical | Por página en `+page.svelte` vía `SeoHead canonicalUrl`, siempre con trailing slash. Paquetes y blog lo derivan de `siteConfig.url` |
-  | Hreflang | Hoy NO existe: el sitio es una sola URL en inglés con i18n de cliente, y `SeoHead` solo emite `og:locale:alternate`. Arquitectura decidida (pendiente, Fase 2): hreflang solo en el `<head>` vía `SeoHead`, ver [Internacionalización (i18n)](#internacionalización-i18n). No se puede agregar como parche antes de que existan las URLs por idioma |
+  | Hreflang | Solo en el `<head>`, vía `SeoHead` desde `page.data.alternates` (resuelto en `(public)/+layout.server.ts`). Recíproco, autorreferente, `x-default` al inglés. Los sitemaps NO llevan `xhtml:link`. Mientras solo el inglés esté publicado no se emite ninguno. Ver [Internacionalización (i18n)](#internacionalización-i18n) |
   | Registro de rutas | No hay uno central: `STATIC_SITEMAP_PAGES` en `src/lib/utils/sitemap.ts` + `packages[].route` + glob de `src/content/blog/*.svx` |
   | Datos estructurados (JSON-LD) | `src/lib/utils/schema.ts` (constructores). Docs: `docs/structured-data.md`, `.agents/STRUCTURED_DATA.md` |
   | Metadatos de página | `src/lib/components/seo/SeoHead.svelte` |
   | NAP y negocio | `src/lib/data/site.ts` |
   | Precios y paquetes | `src/lib/data/packages.ts` (ver sección 7) |
   | Reseñas / testimonios reales | `src/lib/data/testimonials.ts` (`getTestimonials(limit?)`, `getReviewsMeta()`) sobre `src/lib/data/reviews.json` (reseñas curadas de Google, fuente `GMB_PROFILE_URL`) |
-  | Copy / i18n | `src/lib/i18n.svelte.ts` (`i18n.t` es GETTER: `i18n.t.x`, NUNCA `i18n.t('x')`). Hoy solo `en` y `es`, elegidos en el cliente. Objetivo: un diccionario por locale, elegido por la URL (pendiente, Fase 2) |
-  | Slug y keyword por idioma | `src/lib/i18n/content-map.ts` (pendiente, Fase 1) |
+  | Copy / i18n | `src/lib/i18n.svelte.ts` (`i18n.t` es GETTER: `i18n.t.x`, NUNCA `i18n.t('x')`. Enlaces internos con `i18n.href(enPath)`). Diccionarios en `src/lib/i18n/messages/<locale>.ts`, copia de paquetes y FAQ en `src/lib/i18n/data/<locale>.ts`. El idioma sale de la URL |
+  | Slug y keyword por idioma | `src/lib/i18n/content-map/locales/<locale>.ts` |
   | Contenido editorial (blog) | `src/content/blog/*.svx` |
   | Headers y redirects | `_headers`, `_redirects` |
   | Endpoint para LLMs | `src/routes/(public)/llms.txt/+server.ts` (derivado, nunca hardcodeado) |
@@ -487,8 +512,8 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
   2. **`publisher` por `@id`**: en `buildArticleSchema`, `publisher` referencia el nodo canónico `{"@id": ".../#organization"}` (emitido por el layout vía `buildLocalBusinessSchema`), igual que `buildWebSiteSchema` / `buildServiceSchema`. NO redefinir una `Organization` parcial inline.
 - **Actualización Obligatoria de Sitemaps**: Cada vez que se cree, actualice o elimine una página, ruta dinámica de catálogo o artículo de blog (.svx), es estrictamente mandatorio verificar y actualizar su endpoint de sitemap XML correspondiente (ej. `page-sitemap.xml`, `post-sitemap.xml`) para asegurar la indexación inmediata y la consistencia en el presupuesto de rastreo de Google.
   Con el sitio en varios idiomas, esto vale **por idioma**: cada página o post que se crea, traduce,
-  modifica o elimina actualiza el sitemap de su idioma en el mismo cambio (pendiente, Fase 2, hasta que
-  existan los sitemaps por idioma).
+  modifica o elimina actualiza el sitemap de su idioma en el mismo cambio (`page-sitemap-<locale>.xml`,
+  los de posts, categorías y autor por idioma llegan con la Fase 4).
 
 
 ### 3. Restricciones de Cloudflare
@@ -497,7 +522,7 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
 - Las lecturas de archivos mdsvex (.svx) se harán estrictamente en tiempo de compilación (Prerendering) utilizando las importaciones de Vite (`import.meta.glob`).
 
 ### 4. Flujo de Trabajo y Estilo
-- **Idiomas:** el código fuente (variables, funciones, componentes) se escribe en inglés. La interfaz y el contenido públicos se publican en los 14 idiomas de [Idiomas soportados](#idiomas-soportados), con el inglés como versión base (la infraestructura está pendiente, Fase 2). La estructura de traducción tiene que ser compatible con Cloudflare Workers. Los comentarios, la documentación y los commits pueden seguir escribiéndose en español.
+- **Idiomas:** el código fuente (variables, funciones, componentes) se escribe en inglés. La interfaz y el contenido públicos se publican en los 14 idiomas de [Idiomas soportados](#idiomas-soportados), con el inglés como versión base (la infraestructura existe y cada idioma se publica al completar su traducción, ver `PAGE_LOCALES`). La estructura de traducción tiene que ser compatible con Cloudflare Workers. Los comentarios, la documentación y los commits pueden seguir escribiéndose en español.
 - **Código conciso:** Evita reescribir funciones enteras si solo cambian dos líneas. Proporciona el fragmento modificado e indica dónde insertarlo.
 - No inventes dependencias ni generes contenido de relleno ("Lorem Ipsum") a menos que se te solicite explícitamente para una maqueta.
 
@@ -526,7 +551,7 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
   | Packs destacados de la home | `getHomepageShowcasePackages()` |
   | Moneda / símbolo / IVA | `CURRENCY`, `CURRENCY_SYMBOL`, `VAT_RATE` |
 
-- **Nombres de paquete sin traducir:** el `name` de cada paquete es el mismo en los 14 idiomas, porque es la referencia común para cualquier cliente. Los campos de copy (`desc`, `includes`, `optional`, `seo.title`, `landing.*`) pasan de `{en, es}` a un valor por locale validado por Zod (pendiente, Fase 2).
+- **Nombres de paquete sin traducir:** el `name` de cada paquete es el mismo en los 14 idiomas, porque es la referencia común para cualquier cliente. `packages.ts` guarda la copia SOLO en inglés (la fuente). Cada traducción vive en `src/lib/i18n/data/<locale>.ts` y se lee con `pkgCopy(pkg)` (y `faqCopy(item)` para `faq.ts`). En las traducciones de FAQ, la lista de precios se escribe con el token `{packagesWithPrices}`, nunca con precios literales.
 - **Un único nodo `#organization`:** el `priceRange` (y todo el NAP) se emite **solo** desde `buildLocalBusinessSchema()` en `src/lib/utils/schema.ts`, que lo deriva del catálogo. Las páginas que necesiten referirse a la empresa lo hacen **por `@id`** (`{'@id': '.../#organization'}`), nunca redefiniendo el nodo. Redefinirlo ya produjo dos verdades simultáneas (`'€€'` en `schema.ts` vs `'290€ - 650€'` en `/about-us/`, con direcciones distintas).
 - **Guard automático:** `src/lib/data/no-hardcoded-prices.test.ts` escanea todo `src/**` (excepto `src/content/**`, que es copy editorial) y **falla la suite** ante cualquier literal `€290` / `290 €` / `290 EUR`. Si tu cambio lo rompe, la solución es importar el helper - **no** ampliar el allowlist.
 

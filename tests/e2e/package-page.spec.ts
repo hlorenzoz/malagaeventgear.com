@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { PUBLISHED_LOCALES, localized } from '../support/i18n';
 
 const PACKAGE_URL = '/packages/basic-mice/';
 
@@ -68,11 +69,10 @@ test.describe('Package detail page — CRO layout (Phase 1)', () => {
 		await expect(footer).toBeVisible();
 	});
 
-	test('lang=es renders Spanish text in the form', async ({ page }) => {
-		// The i18n manager reads from localStorage; set it before navigation
-		await page.goto(PACKAGE_URL);
-		await page.evaluate(() => localStorage.setItem('lang', 'es'));
-		await page.reload();
+	test('the Spanish package page renders Spanish text in the form', async ({ page }) => {
+		// The language comes from the URL (/es/...), not from localStorage. Skips until es ships.
+		test.skip(!PUBLISHED_LOCALES.includes('es'), 'Spanish is not published yet');
+		await page.goto((await localized('es', PACKAGE_URL))!);
 		await page.waitForLoadState('load');
 
 		// The submit button should show Spanish copy

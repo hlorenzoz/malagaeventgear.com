@@ -5,6 +5,7 @@
 	import LeadForm from '$lib/components/forms/LeadForm.svelte';
 	import Testimonials from '$lib/components/testimonials/Testimonials.svelte';
 	import { i18n } from '$lib/i18n.svelte';
+	import { pkgCopy } from '$lib/i18n/data-copy.svelte';
 	import { siteConfig } from '$lib/data/site';
 	import type { PageData } from './$types';
 	import { buildServiceSchema, buildFAQSchema } from '$lib/utils/schema';
@@ -17,6 +18,8 @@
 	let { data }: { data: PageData } = $props();
 	let pkg = $derived(data.pkg);
 	let landing = $derived(pkg.landing);
+	// Copy in the page language (icons stay in `landing`, they are data)
+	let copy = $derived(pkgCopy(pkg));
 	let packageImages = $derived(getImagesForPackage(pkg.id));
 	let canonicalUrl = $derived(`${siteConfig.url}${pkg.route}`);
 
@@ -68,7 +71,7 @@
 		buildServiceSchema(
 			{
 				name: pkg.name,
-				description: pkg.desc[i18n.lang],
+				description: copy.desc,
 				price: pkg.price,
 				url: pkg.route,
 				category: pkg.seo.serviceType
@@ -143,8 +146,8 @@
 </script>
 
 <SeoHead
-	title={pkg.seo.title[i18n.lang]}
-	description={pkg.desc[i18n.lang]}
+	title={copy.seo.title}
+	description={copy.desc}
 	canonicalUrl={canonicalUrl}
 	image={pkg.image}
 	jsonLdSchema={[seoSchema, faqSchema]}
@@ -162,7 +165,7 @@
 			onclick={scrollToForm}
 			class="shrink-0 rounded-full bg-electric-blue-strong px-6 py-2 font-label-md uppercase tracking-wider text-white hover:shadow-[0_0_16px_rgba(77,140,255,0.4)] active:scale-95 transition-all duration-200"
 		>
-			{landing.ctaButton[i18n.lang]}
+			{copy.landing.ctaButton}
 		</button>
 	</div>
 {/if}
@@ -171,13 +174,13 @@
 	<!-- ─── Hero ──────────────────────────────────────────────────────────── -->
 	<section class="py-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto text-center reveal active is-revealed">
 		<span class="inline-block px-4 py-2 rounded-full glass-panel font-label-sm text-electric-blue uppercase tracking-widest mb-4">
-			{landing.badge[i18n.lang]}
+			{copy.landing.badge}
 		</span>
 		<h1 class="font-headline-lg-mobile md:font-headline-lg text-[40px] md:text-display-lg leading-tight mb-6 text-on-background">
 			{pkg.name}
 		</h1>
 		<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl mx-auto leading-relaxed mb-6">
-			{pkg.desc[i18n.lang]}
+			{copy.desc}
 		</p>
 
 		<!-- Hero benefits bullets -->
@@ -195,7 +198,7 @@
 			onclick={scrollToForm}
 			class="px-10 py-4 rounded-full bg-electric-blue-strong text-white font-label-lg uppercase tracking-wider hover:shadow-[0_0_24px_rgba(77,140,255,0.45)] active:scale-95 transition-all duration-300"
 		>
-			{landing.ctaButton[i18n.lang]}
+			{copy.landing.ctaButton}
 		</button>
 	</section>
 
@@ -205,10 +208,10 @@
 			<!-- Price -->
 			<div class="flex flex-wrap items-center gap-x-3 gap-y-2">
 				<span class="font-label-md text-on-surface-variant uppercase tracking-wider">
-					{landing.rateLabel[i18n.lang]}
+					{copy.landing.rateLabel}
 				</span>
 				<span class="text-display-lg font-bold text-electric-blue">{pkg.price} €</span>
-				<span class="text-sm text-on-surface-variant">{landing.vatNote[i18n.lang]}</span>
+				<span class="text-sm text-on-surface-variant">{copy.landing.vatNote}</span>
 				{#if pkg.popular}
 					<span class="inline-block bg-electric-blue-strong text-white px-3 py-1 rounded-full font-label-sm tracking-wider uppercase ml-2">
 						{i18n.lang === 'en' ? 'Most Popular' : 'Más Popular'}
@@ -228,7 +231,7 @@
 				<div class="flex items-center gap-2 px-4 py-2 rounded-full glass-card">
 					<Icon name="inventory_2" size="18" className="text-electric-blue" />
 					<span class="font-label-sm text-on-surface">
-						{pkg.includes[i18n.lang].length}
+						{copy.includes.length}
 						{i18n.lang === 'en' ? 'items included' : 'elementos incluidos'}
 					</span>
 				</div>
@@ -277,10 +280,10 @@
 			<div class="glass-panel rounded-xl p-8 relative overflow-hidden">
 				<div class="absolute -bottom-20 -right-20 w-48 h-48 bg-electric-blue/5 rounded-full blur-3xl pointer-events-none"></div>
 				<h2 class="font-headline-md text-headline-md text-on-surface mb-6 border-b border-border-glass pb-4">
-					{landing.includesLabel[i18n.lang]}
+					{copy.landing.includesLabel}
 				</h2>
 				<ul class="space-y-4">
-					{#each pkg.includes[i18n.lang] as item}
+					{#each copy.includes as item}
 						<li class="flex items-start gap-3">
 							<Icon name="check_circle" size="20" className="text-electric-blue mt-0.5 shrink-0" />
 							<span class="font-body-md text-body-md text-on-surface-variant leading-relaxed">{item}</span>
@@ -288,12 +291,12 @@
 					{/each}
 				</ul>
 
-				{#if pkg.optional && landing.optionalLabel}
+				{#if copy.optional && copy.landing.optionalLabel}
 					<h3 class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider mt-8 mb-4">
-						{landing.optionalLabel[i18n.lang]}
+						{copy.landing.optionalLabel}
 					</h3>
 					<ul class="space-y-3">
-						{#each pkg.optional[i18n.lang] as extra}
+						{#each copy.optional as extra}
 							<li class="flex items-center gap-3 p-3 rounded bg-on-surface/5">
 								<Icon name="add_circle" size="18" className="text-on-surface-variant" />
 								<span class="font-body-md text-body-md text-on-surface">{extra}</span>
@@ -302,13 +305,13 @@
 					</ul>
 				{/if}
 
-				{#if landing.note}
+				{#if copy.landing.note}
 					<div class="mt-8 p-4 rounded bg-on-surface/5 border border-border-glass">
 						<span class="font-label-md text-on-surface uppercase tracking-wider block mb-1">
-							{landing.note.title[i18n.lang]}
+							{copy.landing.note.title}
 						</span>
 						<p class="text-sm text-on-surface-variant leading-relaxed">
-							{landing.note.body[i18n.lang]}
+							{copy.landing.note.body}
 						</p>
 					</div>
 				{/if}
@@ -321,11 +324,11 @@
 						<Icon name={landing.highlightIcon} size="28" className="text-electric-blue" />
 					{/if}
 					<h2 class="font-headline-sm text-headline-sm text-on-surface">
-						{landing.highlightTitle[i18n.lang]}
+						{copy.landing.highlightTitle}
 					</h2>
 				</div>
 				<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-					{landing.highlightBody[i18n.lang]}
+					{copy.landing.highlightBody}
 				</p>
 			</div>
 		</div>

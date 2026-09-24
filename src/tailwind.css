@@ -304,3 +304,34 @@ html {
     transform: none;
   }
 }
+
+/* Chinese locales (CLAUDE.md, "Internacionalización"): system CJK fonts, NEVER a CJK webfont
+   (several MB, it would wreck LCP). The Latin site fonts stay first so brand names, models and
+   prices keep the site's typography, and CJK glyphs fall through to the named system fonts.
+   :lang(zh-Hant) also matches zh-Hant-TW and zh-Hant-HK. */
+:lang(zh-Hans) {
+  --font-cjk-sans: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', 'Noto Sans CJK SC', sans-serif;
+  --font-cjk-serif: 'Songti SC', 'Noto Serif SC', 'Noto Serif CJK SC', 'SimSun', serif;
+}
+:lang(zh-Hant-TW) {
+  --font-cjk-sans: 'PingFang TC', 'Microsoft JhengHei', 'Noto Sans TC', 'Noto Sans CJK TC', sans-serif;
+  --font-cjk-serif: 'Songti TC', 'Noto Serif TC', 'Noto Serif CJK TC', 'PMingLiU', serif;
+}
+:lang(zh-Hant-HK) {
+  --font-cjk-sans: 'PingFang HK', 'Microsoft JhengHei', 'Noto Sans HK', 'Noto Sans CJK HK', sans-serif;
+  --font-cjk-serif: 'Songti TC', 'Noto Serif HK', 'Noto Serif CJK HK', 'PMingLiU', serif;
+}
+:lang(zh) {
+  --font-display-lg: 'Playfair Display', var(--font-cjk-serif);
+  --font-headline-lg: 'Playfair Display', var(--font-cjk-serif);
+  --font-headline-lg-mobile: 'Playfair Display', var(--font-cjk-serif);
+  --font-headline-md: 'Playfair Display', var(--font-cjk-serif);
+  --font-headline-sm: 'Playfair Display', var(--font-cjk-serif);
+  --font-body-lg: 'Plus Jakarta Sans', var(--font-cjk-sans);
+  --font-body-md: 'Plus Jakarta Sans', var(--font-cjk-sans);
+  --font-body-sm: 'Plus Jakarta Sans', var(--font-cjk-sans);
+  --font-label-lg: 'Plus Jakarta Sans', var(--font-cjk-sans);
+  --font-label-sm: 'Plus Jakarta Sans', var(--font-cjk-sans);
+  /* Strict CJK line breaking: no line starts with closing punctuation. */
+  line-break: strict;
+}

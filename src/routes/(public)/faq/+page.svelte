@@ -3,6 +3,7 @@
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
 	import Icon from '$lib/components/navigation/Icon.svelte';
 	import { i18n } from '$lib/i18n.svelte';
+	import { faqCopy, pkgCopy } from '$lib/i18n/data-copy.svelte';
 	import { faqs, buildFaqSchema } from '$lib/data/faq';
 	import { slide } from 'svelte/transition';
 
@@ -10,7 +11,7 @@
 
 	// FAQPage JSON-LD generated from the same source as the rendered content,
 	// so the structured data always matches every visible question.
-	let faqSchema = $derived(buildFaqSchema(faqs, i18n.lang));
+	let faqSchema = $derived(buildFaqSchema(faqs.map(faqCopy)));
 
 	let activeCategory = $state('all');
 	let openIndex = $state<number | null>(null);
@@ -24,8 +25,8 @@
 	let faqList = $derived(
 		faqs.map((item) => ({
 			category: item.category,
-			q: item.question[i18n.lang],
-			a: item.answer[i18n.lang]
+			q: faqCopy(item).question,
+			a: faqCopy(item).answer
 		}))
 	);
 

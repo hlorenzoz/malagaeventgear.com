@@ -32,6 +32,8 @@ export const LeadInputSchema = z.object({
 	comments: z.string().max(1000).optional().default(''),
 	// Cloudflare Turnstile token
 	'cf-turnstile-response': z.string().optional().default(''),
+	// Locale of the page the form was submitted from (lead language, see leads/lang.ts)
+	locale: z.string().max(10).optional(),
 	// Honeypot — must be empty; presence is checked in the endpoint, not schema
 	website: z.string().optional().default(''),
 });
@@ -52,6 +54,8 @@ export const ContactInputSchema = z.object({
 	eventType: z.string().optional().default(''),
 	// Cloudflare Turnstile token
 	'cf-turnstile-response': z.string().optional().default(''),
+	// Locale of the page the form was submitted from (lead language, see leads/lang.ts)
+	locale: z.string().max(10).optional(),
 	// Honeypot — must be empty; presence is checked in the endpoint, not schema
 	website: z.string().optional().default(''),
 });

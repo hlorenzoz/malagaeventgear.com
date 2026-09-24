@@ -38,6 +38,9 @@ const config = {
 			// siempre coincide con rehype-slug (p. ej. "FAQs" → #fa-qs vs #faqs). Esas
 			// anclas no saltan, pero NO deben romper el build. handleHttpError queda por
 			// defecto (falla) para seguir detectando links 404 reales.
+			// Las URLs traducidas no necesitan `entries`: el crawler las descubre por los enlaces
+			// del selector de idioma (LanguageSwitcher) de cada página inglesa. Un enlace a una URL
+			// de idioma no publicada fallaría el build con 404, que es justo lo que queremos.
 			handleMissingId: 'warn'
 		},
 		// Inlina el CSS en el <head> eliminando el <link> render-blocking que retrasaba FCP/LCP.

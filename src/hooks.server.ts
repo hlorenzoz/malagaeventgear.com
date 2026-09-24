@@ -1,4 +1,6 @@
 import type { Handle } from '@sveltejs/kit';
+import { localeFromPath } from '$lib/i18n/locale-path';
+import { LOCALE_META } from '$lib/i18n/locales';
 
 export const handle: Handle = async ({ event, resolve }) => {
 	const { pathname } = event.url;
@@ -67,8 +69,13 @@ export const handle: Handle = async ({ event, resolve }) => {
 		});
 	}
 
-	// Normal request handling
-	const response = await resolve(event);
+	// Normal request handling. `<html lang>` follows the URL locale (app.html ships `%lang%`).
+	// It serves accessibility and the browser translate prompt: Google detects the page
+	// language from the visible content, not from this attribute.
+	const htmlLang = LOCALE_META[localeFromPath(pathname)].htmlLang;
+	const response = await resolve(event, {
+		transformPageChunk: ({ html }) => html.replace('%lang%', htmlLang)
+	});
 
 	// Security headers for SSR pages + /api/* (Worker-generated responses).
 	// Prerendered pages and static assets are served from the ASSETS binding and

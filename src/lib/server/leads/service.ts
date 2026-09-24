@@ -4,6 +4,7 @@ import { renderConfirmation } from '$lib/server/email/templates/confirmation';
 import { renderNotification } from '$lib/server/email/templates/notification';
 import { resolveRecipients } from '$lib/server/leads/recipients';
 import type { LeadInput } from './schema';
+import { emailLang } from './lang';
 
 /**
  * Outcome of the email lifecycle for a submitted lead:
@@ -89,7 +90,7 @@ export async function submitLead(
 		emailStatus = 'sent';
 		const apiKey = env.RESEND_API_KEY;
 		const from = env.RESEND_FROM;
-		const locale = (lang === 'es' ? 'es' : 'en') as 'en' | 'es';
+		const locale = emailLang(lang);
 		const leadData = {
 			name: input.name,
 			email: input.email,

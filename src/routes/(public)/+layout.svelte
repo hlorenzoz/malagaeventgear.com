@@ -5,8 +5,8 @@
 	import WhatsAppWidget from '$lib/components/navigation/WhatsAppWidget.svelte';
 	import { onMount, setContext } from 'svelte';
 	import { afterNavigate } from '$app/navigation';
-	import { i18n } from '$lib/i18n.svelte';
 	import { page } from '$app/stores';
+	import { i18n } from '$lib/i18n.svelte';
 	import { buildLocalBusinessSchema, buildBreadcrumbsSchema, buildWebSiteSchema } from '$lib/utils/schema';
 
 	let { data, children } = $props();
@@ -19,7 +19,13 @@
 	const breadcrumbLeaf = $derived(
 		($page.data as any)?.post?.title ?? ($page.data as any)?.pkg?.name ?? undefined
 	);
-	const breadcrumbSchema = $derived(buildBreadcrumbsSchema($page.url.pathname, breadcrumbLeaf));
+	// Misma miga que la visible, en el idioma de la página y con sus URLs localizadas.
+	const breadcrumbSchema = $derived(
+		buildBreadcrumbsSchema(data.enPath ?? $page.url.pathname, breadcrumbLeaf, {
+			names: i18n.t.crumbs as Record<string, string>,
+			localize: (path) => i18n.href(path)
+		})
+	);
 
 	const REVEAL_SELECTOR = '.reveal, .reveal-on-scroll, .reveal-card, .reveal-card-featured';
 	let revealObserver: IntersectionObserver | null = null;
@@ -41,9 +47,6 @@
 	});
 
 	onMount(() => {
-		// Inicializar i18n de forma segura en el cliente (evita desajustes de hidratación)
-		i18n.init();
-
 		revealObserver = new IntersectionObserver(
 			(entries, observer) => {
 				entries.forEach((entry) => {

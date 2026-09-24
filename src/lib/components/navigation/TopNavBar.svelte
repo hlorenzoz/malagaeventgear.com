@@ -5,6 +5,7 @@
 	import { i18n } from '$lib/i18n.svelte';
 	import { siteConfig } from '$lib/data/site';
 	import Icon from '$lib/components/navigation/Icon.svelte';
+	import LanguageSwitcher from '$lib/components/navigation/LanguageSwitcher.svelte';
 	import { LOGO_LIGHT, LOGO_DARK } from '$lib/assets/logos';
 
 	// Estado reactivo con runes de Svelte 5
@@ -89,10 +90,6 @@
 		currentTheme = nextTheme;
 	}
 
-	function toggleLang() {
-		i18n.lang = i18n.lang === 'en' ? 'es' : 'en';
-	}
-
 	function toggleMobileMenu() {
 		mobileMenuOpen = !mobileMenuOpen;
 	}
@@ -103,11 +100,13 @@
 
 	// Enlaces de navegación reactivos
 	let navLinks = $derived([
-		{ href: '/equipment/', label: i18n.t.nav.equipment },
-		{ href: '/packages/', label: i18n.t.nav.packages },
-		{ href: '/blog/', label: i18n.t.nav.blog },
-		{ href: '/contact/', label: i18n.t.nav.contact }
+		{ href: i18n.href('/equipment/'), label: i18n.t.nav.equipment },
+		{ href: i18n.href('/packages/'), label: i18n.t.nav.packages },
+		{ href: i18n.href('/blog/'), label: i18n.t.nav.blog },
+		{ href: i18n.href('/contact/'), label: i18n.t.nav.contact }
 	]);
+	let homeHref = $derived(i18n.href('/'));
+	let packagesHref = $derived(i18n.href('/packages/'));
 </script>
 
 <!-- TopNavBar Shared Component -->
@@ -117,7 +116,7 @@
 >
 	<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
 		<!-- Brand Logo (theme-aware: light logo on dark theme, dark logo on light theme) -->
-		<a class="transition-transform active:scale-95 duration-200" href="/" onclick={closeMobileMenu} aria-label={i18n.t.nav.brand}>
+		<a class="transition-transform active:scale-95 duration-200" href={homeHref} onclick={closeMobileMenu} aria-label={i18n.t.nav.brand}>
 			<img
 				src={currentTheme === 'dark' ? LOGO_LIGHT : LOGO_DARK}
 				alt={i18n.t.nav.brand}
@@ -142,14 +141,8 @@
 
 		<!-- Actions -->
 		<div class="flex items-center gap-2 md:gap-4">
-			<!-- Language Toggle Button -->
-			<button
-				onclick={toggleLang}
-				class="flex items-center justify-center px-3 py-1.5 h-10 rounded-full glass-panel hover:bg-white/10 text-on-surface font-label-sm text-sm hover:text-electric-blue transition-colors duration-300"
-				aria-label="{i18n.lang === 'en' ? 'ES - Change language to Spanish' : 'EN - Change language to English'}"
-			>
-				{i18n.lang === 'en' ? 'ES' : 'EN'}
-			</button>
+			<!-- Language switcher: links to this page's published versions -->
+			<LanguageSwitcher />
 
 			<!-- Theme Toggle Button -->
 			<button
@@ -177,7 +170,7 @@
 			<!-- Action Button -->
 			<a
 				class="hidden md:inline-flex items-center justify-center px-6 py-2 rounded-full bg-electric-blue-strong text-white font-label-lg uppercase tracking-wider hover:shadow-lg hover:shadow-electric-blue/20 active:scale-95 transition-all duration-300"
-				href="/packages/"
+				href={packagesHref}
 			>
 				{i18n.t.nav.bookNow}
 			</a>
@@ -223,7 +216,7 @@
 			<a
 				onclick={closeMobileMenu}
 				class="w-full text-center py-3 rounded-full bg-electric-blue-strong text-white font-label-lg uppercase tracking-wider hover:shadow-lg active:scale-98 transition-all"
-				href="/packages/"
+				href={packagesHref}
 			>
 				{i18n.t.nav.bookNow}
 			</a>

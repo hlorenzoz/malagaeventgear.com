@@ -8,6 +8,8 @@
  * ensena a los crawlers que el campo no significa nada.
  */
 
+import type { Locale } from '$lib/i18n/locales';
+
 /** Convierte una fecha `YYYY-MM-DD` (o ISO) al formato `<lastmod>` con offset UTC. */
 export function toLastmod(dateStr: string): string {
 	const d = dateStr.split('T')[0]; // descarta la parte horaria si viene
@@ -48,7 +50,7 @@ const PUBLIC_PREFIX = '/(public)/';
 
 const metaModules = import.meta.glob('/src/routes/**/meta.ts', {
 	eager: true
-}) as Record<string, { contentUpdated?: string }>;
+}) as Record<string, { contentUpdated?: string; localeUpdated?: Partial<Record<Locale, string>> }>;
 
 /**
  * Mapa `ruta -> contentUpdated` derivado de los meta.ts publicos. Se computa una sola vez
@@ -67,7 +69,55 @@ const staticPageFreshness: ReadonlyMap<string, string> = (() => {
 	return map;
 })();
 
-/** Mapa `ruta -> contentUpdated` (calculado una vez al cargar el modulo). */
-export function getStaticPageFreshness(): ReadonlyMap<string, string> {
-	return staticPageFreshness;
+/**
+ * Mapa `ruta -> fecha de contenido` de un idioma. En ingles es `contentUpdated`. En otro idioma
+ * es `localeUpdated[locale]` del mismo meta.ts: cada traduccion tiene su propia fecha, al lado
+ * del contenido (CLAUDE.md §11), y nunca hereda la del ingles.
+ */
+export function getStaticPageFreshness(locale: Locale = 'en'): ReadonlyMap<string, string> {
+	if (locale === 'en') return staticPageFreshness;
+	const map = new Map<string, string>();
+	for (const [path, mod] of Object.entries(metaModules)) {
+		const date = mod?.localeUpdated?.[locale];
+		if (!date) continue;
+		const i = path.indexOf(PUBLIC_PREFIX);
+		if (i === -1) continue;
+		map.set(path.slice(i + PUBLIC_PREFIX.length).replace(/\/?meta\.ts$/, ''), date);
+	}
+	return map;
 }
+
+/** English route path of a `STATIC_SITEMAP_PAGES` entry (`''` is the home, `/`). */
+export function staticPageEnPath(page: string): string {
+	return page ? `/${page}/` : '/';
+}
+
+export interface SitemapUrl {
+	/** Absolute URL, already percent encoded. */
+	loc: string;
+	lastmod?: string;
+	/** Absolute image URL. Only `image:loc`: Google no longer reads image captions or titles. */
+	image?: string;
+}
+
+/** A `<urlset>` document. Every `<loc>` must already be absolute and encoded. */
+export function urlsetXml(urls: SitemapUrl[]): string {
+	const body = urls
+		.map(({ loc, lastmod, image }) => {
+			const lastmodBlock = lastmod ? `\n		<lastmod>${toLastmod(lastmod)}</lastmod>` : '';
+			const imageBlock = image ? `\n		<image:image>\n			<image:loc>${image}</image:loc>\n		</image:image>` : '';
+			return `	<url>\n		<loc>${loc}</loc>${lastmodBlock}${imageBlock}\n	</url>`;
+		})
+		.join('\n');
+	return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+${body}
+</urlset>`;
+}
+
+export const SITEMAP_HEADERS = {
+	'Content-Type': 'application/xml; charset=utf-8',
+	'Cache-Control': 'public, max-age=3600, s-maxage=86400',
+	'X-Content-Type-Options': 'nosniff'
+} as const;

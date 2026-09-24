@@ -19,6 +19,9 @@ export const siteConfig = {
 	contactPhone: '666 346 911',
 	phoneCallUrl: 'tel:+34666346911',
 	whatsappUrl: 'https://wa.me/34666346911',
+	// Idiomas en los que MEG ATIENDE (confirmado por el negocio, 2026-09-24). No confundir con los
+	// 14 idiomas en los que se PUBLICA el sitio: nunca prometer atención en otro idioma.
+	serviceLanguages: ['en', 'es'] as const,
 	// Dirección de display (footer), idéntica a la ficha de Google Maps / GMB (NAP consistente).
 	displayAddress: 'Av. de Barcelona, 34, Distrito Centro, 29009 Málaga',
 	// Perfil de Google My Business — ÚNICA fuente para todos los links al perfil del sitio

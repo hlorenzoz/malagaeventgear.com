@@ -1,0 +1,50 @@
+import type { LocaleContentMap } from '../schema';
+
+export default {
+	pages: {
+		'/': { path: '/', keyword: 'leje av-udstyr Malaga', status: 'propuesta' },
+		'/about-us/': { path: '/om-os/', keyword: 'av-udstyr udlejningsfirma Malaga', status: 'propuesta' },
+		'/contact/': { path: '/kontakt/', keyword: 'kontakt udlejning av-udstyr Malaga', status: 'propuesta' },
+		'/equipment/': { path: '/udstyr/', keyword: 'leje lyd- og lysudstyr Malaga', status: 'propuesta' },
+		'/packages/': { path: '/pakker/', keyword: 'udlejningspakker til events Malaga', status: 'propuesta' },
+		'/faq/': { path: '/faq/', keyword: 'ofte stillede spørgsmål udstyrsudlejning Malaga', status: 'propuesta' },
+		'/meet-the-team/': { path: '/mod-teamet/', keyword: 'lydteknikere Malaga', status: 'propuesta' },
+		'/blog/': { path: '/blog/', keyword: 'blog om udstyrsudlejning Malaga', status: 'propuesta' },
+		'/blog/categories/': { path: '/blog/kategorier/', keyword: 'blogkategorier Malaga Event Gear', status: 'propuesta' },
+		'/sitemap/': { path: '/sitemap/', keyword: 'sitemap Malaga Event Gear', status: 'propuesta' },
+		'/privacy-policy/': { path: '/privatlivspolitik/', keyword: 'privatlivspolitik Malaga Event Gear', status: 'propuesta' },
+		'/terms-of-service/': {
+			path: '/vilkar-og-betingelser/',
+			keyword: 'vilkår og betingelser udstyrsudlejning',
+			status: 'propuesta'
+		},
+		'/gdpr/': { path: '/gdpr/', keyword: 'GDPR databeskyttelse Malaga Event Gear', status: 'propuesta' },
+		'/cookie-policy/': { path: '/cookiepolitik/', keyword: 'cookiepolitik Malaga Event Gear', status: 'propuesta' },
+		'/thank-you/': { path: '/tak/' }
+	},
+	segments: { category: 'kategori', author: 'forfatter' },
+	packages: {
+		eco: { slug: 'eco-pakke', keyword: 'leje lyd og lys til lille fest Malaga', status: 'propuesta' },
+		wedding: { slug: 'bryllupspakke', keyword: 'leje bryllupsudstyr lyd og lys Malaga', status: 'propuesta' },
+		'product-presentation': {
+			slug: 'produktlancering-pakke',
+			keyword: 'leje projektor til produktlancering Malaga',
+			status: 'propuesta'
+		},
+		'basic-mice': {
+			slug: 'mice-basis-pakke',
+			keyword: 'av-udstyr til mindre erhvervsmøder Malaga',
+			status: 'propuesta'
+		},
+		mice: { slug: 'mice-pakke', keyword: 'av-udstyr til konferencer Malaga', status: 'propuesta' }
+	},
+	categories: {
+		'audio-visual-rental': { slug: 'udlejning-av-udstyr', name: 'Udlejning af AV-udstyr' },
+		'corporate-enterprise': { slug: 'erhverv-virksomheder', name: 'Erhverv & Virksomheder' },
+		events: { slug: 'begivenheder', name: 'Begivenheder' },
+		gadgets: { slug: 'gadgets', name: 'Gadgets' },
+		news: { slug: 'nyheder', name: 'Nyheder' },
+		weddings: { slug: 'bryllupper', name: 'Bryllupper' }
+	},
+	posts: {}
+} satisfies LocaleContentMap;

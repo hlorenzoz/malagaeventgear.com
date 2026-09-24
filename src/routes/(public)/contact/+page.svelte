@@ -4,6 +4,7 @@
 	import { onMount } from 'svelte';
 	import { PUBLIC_TURNSTILE_SITE_KEY as TURNSTILE_SITE_KEY } from '$env/static/public';
 	import { i18n } from '$lib/i18n.svelte';
+	import { faqCopy, pkgCopy } from '$lib/i18n/data-copy.svelte';
 	import { loadTurnstile } from '$lib/utils/turnstile';
 	import { getContactFaqs, buildFaqSchema } from '$lib/data/faq';
 	import { siteConfig } from '$lib/data/site';
@@ -158,6 +159,7 @@
 					eventType,
 					'cf-turnstile-response': turnstileToken,
 					website: websiteHoneypot,
+					locale: i18n.lang,
 				}),
 			});
 
@@ -190,14 +192,14 @@
 	let contactFaqs = $derived(getContactFaqs());
 	let faqs = $derived(
 		contactFaqs.map((item) => ({
-			q: item.question[i18n.lang],
-			a: item.answer[i18n.lang]
+			q: faqCopy(item).question,
+			a: faqCopy(item).answer
 		}))
 	);
 
 	// FAQPage structured data built from the same FAQs rendered on the page, so the
 	// visible content and JSON-LD can never drift apart (Google rich-result requirement).
-	let faqSchema = $derived(buildFaqSchema(contactFaqs, i18n.lang));
+	let faqSchema = $derived(buildFaqSchema(contactFaqs.map(faqCopy)));
 
 	function toggleFaq(index: number) {
 		openFaqIndex = openFaqIndex === index ? null : index;

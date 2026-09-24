@@ -1,0 +1,50 @@
+import type { LocaleContentMap } from '../schema';
+
+export default {
+	pages: {
+		'/': { path: '/', keyword: 'audiovisuele apparatuur huren Malaga', status: 'propuesta' },
+		'/about-us/': { path: '/over-ons/', keyword: 'verhuurbedrijf av apparatuur Malaga', status: 'propuesta' },
+		'/contact/': { path: '/contact/', keyword: 'offerte av apparatuur Malaga', status: 'propuesta' },
+		'/equipment/': { path: '/apparatuur/', keyword: 'geluid en licht apparatuur huren', status: 'propuesta' },
+		'/packages/': { path: '/pakketten/', keyword: 'evenementenpakketten prijzen Malaga', status: 'propuesta' },
+		'/faq/': { path: '/veelgestelde-vragen/', keyword: 'apparatuur huren veelgestelde vragen', status: 'propuesta' },
+		'/meet-the-team/': { path: '/ons-team/', keyword: 'technisch team Malaga', status: 'propuesta' },
+		'/blog/': { path: '/blog/', keyword: 'evenemententechniek blog', status: 'propuesta' },
+		'/blog/categories/': {
+			path: '/blog/categorieen/',
+			keyword: 'blog categorieën evenemententechniek',
+			status: 'propuesta'
+		},
+		'/sitemap/': { path: '/sitemap/', keyword: 'sitemap Malaga Event Gear', status: 'propuesta' },
+		'/privacy-policy/': { path: '/privacybeleid/', keyword: 'privacybeleid Malaga Event Gear', status: 'propuesta' },
+		'/terms-of-service/': {
+			path: '/algemene-voorwaarden/',
+			keyword: 'algemene voorwaarden Malaga Event Gear',
+			status: 'propuesta'
+		},
+		'/gdpr/': { path: '/avg/', keyword: 'AVG Malaga Event Gear', status: 'propuesta' },
+		'/cookie-policy/': { path: '/cookiebeleid/', keyword: 'cookiebeleid Malaga Event Gear', status: 'propuesta' },
+		'/thank-you/': { path: '/bedankt/' }
+	},
+	segments: { category: 'categorie', author: 'auteur' },
+	packages: {
+		eco: { slug: 'eco-pakket', keyword: 'goedkoop feestpakket huren Malaga', status: 'propuesta' },
+		wedding: { slug: 'trouw-pakket', keyword: 'bruiloft geluid en licht huren', status: 'propuesta' },
+		'product-presentation': {
+			slug: 'productpresentatie-pakket',
+			keyword: 'beamer en scherm huren presentatie',
+			status: 'propuesta'
+		},
+		'basic-mice': { slug: 'mice-basis-pakket', keyword: 'vergaderapparatuur huren klein', status: 'propuesta' },
+		mice: { slug: 'mice-pakket', keyword: 'congrestechniek huren Malaga', status: 'propuesta' }
+	},
+	categories: {
+		'audio-visual-rental': { slug: 'av-verhuur', name: 'AV Verhuur' },
+		'corporate-enterprise': { slug: 'zakelijk', name: 'Zakelijk & Bedrijven' },
+		events: { slug: 'evenementen', name: 'Evenementen' },
+		gadgets: { slug: 'gadgets', name: 'Gadgets' },
+		news: { slug: 'nieuws', name: 'Nieuws' },
+		weddings: { slug: 'bruiloften', name: 'Bruiloften' }
+	},
+	posts: {}
+} satisfies LocaleContentMap;

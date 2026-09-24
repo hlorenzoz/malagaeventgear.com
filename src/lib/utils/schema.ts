@@ -1,5 +1,8 @@
 import { siteConfig } from '../data/site';
 import { getSchemaPriceRange } from '../data/packages';
+import { breadcrumbTrail, type TrailOptions } from '../i18n/breadcrumbs';
+import { encodePath } from '../i18n/locale-path';
+import type { Locale } from '../i18n/locales';
 import type { 
 	BaseLdContext, 
 	OrganizationSchema, 
@@ -24,6 +27,16 @@ export function buildLocalBusinessSchema(): Record<string, any> {
 		'image': siteConfig.logoUrl,
 		'telephone': siteConfig.contactPhone,
 		'email': siteConfig.contactEmail,
+		// Atención al cliente solo en los idiomas que MEG atiende de verdad, aunque el sitio se
+		// publique en 14. Declarar otro idioma sería prometer una atención que no existe.
+		'knowsLanguage': [...siteConfig.serviceLanguages],
+		'contactPoint': {
+			'@type': 'ContactPoint',
+			'contactType': 'customer service',
+			'telephone': siteConfig.contactPhone,
+			'email': siteConfig.contactEmail,
+			'availableLanguage': [...siteConfig.serviceLanguages]
+		},
 		// Derivado del catálogo (packages.ts), NO literal: antes este nodo publicaba
 		// el vago '€€' mientras /about-us/ publicaba '290€ - 650€' para el MISMO
 		// @id #organization — dos precios distintos para una sola entidad.
@@ -107,46 +120,24 @@ export function buildPersonSchema(params: {
  * Genera el esquema de BreadcrumbList de manera dinámica basado en el path de la URL activa.
  * Respeta de forma estricta las trailing slashes.
  */
-export function buildBreadcrumbsSchema(pathname: string, leafName?: string): Record<string, any> {
+export function buildBreadcrumbsSchema(
+	enPathname: string,
+	leafName?: string,
+	options: Omit<TrailOptions, 'leafName'> = {}
+): Record<string, any> {
 	// Asegurar que el pathname comience con / y termine con / si no es la Home
-	let path = pathname;
+	let path = enPathname;
 	if (path !== '/' && !path.endsWith('/')) {
 		path += '/';
 	}
 
-	const items = [
-		{
-			name: 'Home',
-			item: `${siteConfig.url}/`
-		}
-	];
-
-	if (path !== '/') {
-		// Quitar las barras del inicio y final para separar
-		const segments = path.split('/').filter(Boolean);
-		const accumulatedSegments: string[] = [];
-
-		segments.forEach((segment, idx) => {
-			accumulatedSegments.push(segment);
-			const currentPath = `/${accumulatedSegments.join('/')}/`;
-			const isLast = idx === segments.length - 1;
-
-			// La última miga usa el título real de la página (leafName) cuando está disponible;
-			// el resto (y el fallback) capitaliza el segmento de la URL de forma amigable.
-			const name =
-				isLast && leafName
-					? leafName
-					: segment
-							.split('-')
-							.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-							.join(' ');
-
-			items.push({
-				name,
-				item: `${siteConfig.url}${currentPath}`
-			});
-		});
-	}
+	// Misma miga que la visible (breadcrumbTrail): la última usa el título real de la página
+	// (leafName) cuando está disponible, el resto usa el nombre del diccionario del idioma o,
+	// sin diccionario, el segmento capitalizado. Las URLs salen localizadas y codificadas.
+	const items = breadcrumbTrail(path, { ...options, leafName }).map((crumb) => ({
+		name: crumb.name,
+		item: `${siteConfig.url}${encodePath(crumb.path)}`
+	}));
 
 	return {
 		'@context': 'https://schema.org',
@@ -171,7 +162,7 @@ export function buildServiceSchema(
 		url: string;
 		category?: string;
 	},
-	lang: 'en' | 'es' = 'en'
+	lang: Locale = 'en'
 ): Record<string, any> {
 	// Referencia al nodo canónico de la organización (emitido en el layout con
 	// @id .../#organization). NO redefinimos la empresa aquí: un provider parcial
@@ -316,7 +307,7 @@ export function buildFAQPageSchema(
  * - type: 'BlogPosting' | 'NewsArticle' — defaults to 'BlogPosting'
  * - articleSection: maps to schema.org articleSection
  * - keywords: joined as comma-separated string per schema.org spec
- * - inLanguage: always 'en' (site language)
+ * - inLanguage: the language of this version of the post ('en' by default)
  * - image: emitted as ImageObject when imageUrl is provided (with optional dims);
  *   falls back to siteConfig.logoUrl as a plain string only when imageUrl is absent
  */
@@ -392,6 +383,8 @@ export function buildArticleSchema(post: {
 	type?: 'BlogPosting' | 'NewsArticle';
 	articleSection?: string;
 	keywords?: string[];
+	/** BCP 47 language of this version of the post (`LOCALE_META[locale].htmlLang`). */
+	inLanguage?: string;
 }): Record<string, any> {
 	// Build image node
 	let imageNode: Record<string, any> | string;
@@ -411,7 +404,7 @@ export function buildArticleSchema(post: {
 		'description': post.description,
 		'datePublished': toIso8601WithOffset(post.datePublished),
 		'dateModified': toIso8601WithOffset(post.dateModified || post.datePublished),
-		'inLanguage': 'en',
+		'inLanguage': post.inLanguage ?? 'en',
 		'image': imageNode,
 		// Cuando hay authorUrl, el @id sigue apuntando al nodo Person canonico (mismo patron que
 		// publisher/#organization: todos los posts del mismo autor comparten un solo @id, asi

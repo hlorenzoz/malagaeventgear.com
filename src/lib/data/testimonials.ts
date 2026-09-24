@@ -1,16 +1,17 @@
 import { z } from 'zod';
 import reviewsRaw from './reviews.json';
 import { reviewTranslationOverrides } from './reviews.overrides';
+import { LOCALES, type Locale } from '$lib/i18n/locales';
 
 // Public Google My Business profile (reviews) share link for Malaga Event Gear.
 export const GMB_PROFILE_URL = 'https://share.google/xlg0PV3QeGBNKVnA9';
 
-// Localized string schema (mirrors the pattern used in packages.ts)
-const LocalizedTextSchema = z.object({
-	en: z.string(),
-	es: z.string()
-});
-export type LocalizedText = z.infer<typeof LocalizedTextSchema>;
+// Translations of a review body, one optional key per locale. A review is quoted in its original
+// language, so NO locale is required here: `text` is always the source of truth.
+const LocalizedTextSchema = z
+	.object(Object.fromEntries(LOCALES.map((l) => [l, z.string().optional()])))
+	.strict() as unknown as z.ZodType<Partial<Record<Locale, string>>>;
+export type LocalizedText = Partial<Record<Locale, string>>;
 
 // A single Google review, rendered as a testimonial card
 export const TestimonialSchema = z.object({

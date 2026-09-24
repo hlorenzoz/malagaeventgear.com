@@ -3,6 +3,7 @@
 	import Icon from '$lib/components/navigation/Icon.svelte';
 	import Testimonials from '$lib/components/testimonials/Testimonials.svelte';
 	import { i18n } from '$lib/i18n.svelte';
+	import { faqCopy, pkgCopy } from '$lib/i18n/data-copy.svelte';
 	import { packages } from '$lib/data/packages';
 	import { packageImageVariant } from '$lib/assets/package-images';
 	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
@@ -17,7 +18,7 @@
 		buildServiceListSchema(
 			packages.map((pkg) => ({
 				name: pkg.name,
-				description: pkg.desc[i18n.lang],
+				description: pkgCopy(pkg).desc,
 				price: pkg.price,
 				url: pkg.route,
 				serviceType: pkg.seo.serviceType,
@@ -29,10 +30,7 @@
 
 	// Esquema estructurado FAQPage de tarifas de IVA (SEO Técnico)
 	let faqSchema = $derived(
-		buildFaqSchema(
-			faqs.filter((f) => f.id === 'vat-pricing'),
-			i18n.lang
-		)
+		buildFaqSchema(faqs.filter((f) => f.id === 'vat-pricing').map(faqCopy))
 	);
 
 	// Per-package visual identity: icon, icon chip, and the header accent gradient.
@@ -121,9 +119,9 @@
 			name: pkg.name,
 			price: pkg.price.toFixed(2),
 			rawPrice: pkg.price,
-			desc: pkg.desc[i18n.lang],
-			includes: pkg.includes[i18n.lang],
-			optional: pkg.optional ? pkg.optional[i18n.lang] : undefined,
+			desc: pkgCopy(pkg).desc,
+			includes: pkgCopy(pkg).includes,
+			optional: pkgCopy(pkg).optional,
 			popular: pkg.popular,
 			image: pkg.image,
 			maxGuests: pkg.maxGuests,

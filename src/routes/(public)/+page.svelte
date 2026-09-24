@@ -2,6 +2,7 @@
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
 	import LazyMount from '$lib/components/util/LazyMount.svelte';
 	import { i18n } from '$lib/i18n.svelte';
+	import { faqCopy, pkgCopy } from '$lib/i18n/data-copy.svelte';
 	import { packages, getPriceRange } from '$lib/data/packages';
 	import { getHomepageFaqs, buildFaqSchema } from '$lib/data/faq';
 	import { getArticlePosts, getNewsPosts } from '$lib/data/blog';
@@ -50,8 +51,8 @@
 	// Top 5 conversion-oriented FAQs, sourced from the centralized FAQ store
 	let faqs = $derived(
 		getHomepageFaqs().map((item) => ({
-			q: item.question[i18n.lang],
-			a: item.answer[i18n.lang]
+			q: faqCopy(item).question,
+			a: faqCopy(item).answer
 		}))
 	);
 
@@ -82,8 +83,8 @@
 				route: pkg.route,
 				name: pkg.name,
 				price: pkg.price.toString(),
-				desc: pkg.desc[i18n.lang],
-				features: pkg.includes[i18n.lang].slice(0, 3), // select first 3 key specs
+				desc: pkgCopy(pkg).desc,
+				features: pkgCopy(pkg).includes.slice(0, 3), // select first 3 key specs
 				icon: meta.icon,
 				iconBg: meta.iconBg,
 				checkIconClass: meta.checkIconClass,
@@ -170,7 +171,7 @@
 	image={HERO_FULL}
 	imageWidth={1024}
 	imageHeight={768}
-	jsonLdSchema={[buildFaqSchema(getHomepageFaqs(), i18n.lang)]}
+	jsonLdSchema={[buildFaqSchema(getHomepageFaqs().map(faqCopy))]}
 />
 
 <!--

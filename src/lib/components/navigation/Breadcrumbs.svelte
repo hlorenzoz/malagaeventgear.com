@@ -1,6 +1,7 @@
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import { i18n } from '$lib/i18n.svelte';
+	import { breadcrumbTrail } from '$lib/i18n/breadcrumbs';
 	import Icon from '$lib/components/navigation/Icon.svelte';
 
 	// Real title of the current post/package, when the route data provides one
@@ -9,81 +10,22 @@
 	// JSON-LD leaf instead of diverging from it.
 	let { leafName }: { leafName?: string } = $props();
 
-	// Translation dictionary for public routes
-	const routeTranslations: Record<string, { en: string; es: string }> = {
-		'packages': { en: 'Packages', es: 'Paquetes' },
-		'wedding': { en: 'Wedding', es: 'Bodas' },
-		'eco': { en: 'Eco Pack', es: 'Pack Eco' },
-		'mice': { en: 'MICE Pack', es: 'Pack MICE' },
-		'blog': { en: 'Blog', es: 'Blog' },
-		'categories': { en: 'Categories', es: 'Categorías' },
-		'contact': { en: 'Contact', es: 'Contacto' },
-		'about-us': { en: 'About Us', es: 'Sobre Nosotros' },
-		'faq': { en: 'FAQ', es: 'FAQ' },
-		'privacy-policy': { en: 'Privacy Policy', es: 'Política de Privacidad' },
-		'terms-of-service': { en: 'Terms of Service', es: 'Términos de Servicio' },
-		'cookie-policy': { en: 'Cookie Policy', es: 'Política de Cookies' },
-		'gdpr': { en: 'GDPR', es: 'RGPD' },
-		'services': { en: 'Services', es: 'Servicios' },
-		'meet-the-team': { en: 'Meet the Team', es: 'El Equipo' }
-	};
-
-	// Accumulated paths that are NOT real pages (no index route exists), so they
-	// must render as plain text, never as links — otherwise the prerender crawler
-	// follows them and fails the build with a 404 (e.g. /blog/author/, /blog/category/).
-	const NON_NAVIGABLE_PATHS = new Set(['/blog/author/', '/blog/category/']);
-
-	// Helper to translate route segments with dynamic capitalize fallback
-	function getSegmentName(segment: string, lang: 'en' | 'es'): string {
-		const translation = routeTranslations[segment.toLowerCase()];
-		if (translation) {
-			return translation[lang];
-		}
-		// Fallback for custom names or dynamic blog post titles (replaces hyphens with spaces and capitalizes)
-		return segment
-			.split('-')
-			.map(word => word.charAt(0).toUpperCase() + word.slice(1))
-			.join(' ');
-	}
-
-	// Reactively compute breadcrumbs based on active URL and language
+	// Same trail as the JSON-LD (i18n/breadcrumbs.ts): built from the ENGLISH route path, named
+	// from the current locale's dictionary and linked to the localized URLs.
 	const items = $derived.by(() => {
-		const pathname = $page.url.pathname;
-		const lang = i18n.lang;
-
-		// Filter out Home page to protect its premium layout
-		if (pathname === '/') return [];
-
-		// Normalize pathname and split into segments
-		const cleanPath = pathname.endsWith('/') ? pathname.slice(0, -1) : pathname;
-		const segments = cleanPath.split('/').filter(Boolean);
-
-		const result = [
-			{
-				name: lang === 'en' ? 'Home' : 'Inicio',
-				href: '/',
-				navigable: true
-			}
-		];
-
-		let accumulatedPath = '';
-		segments.forEach((segment, index) => {
-			accumulatedPath += `/${segment}`;
-			const href = `${accumulatedPath}/`; // Strictly enforce trailing slash
-			const isLastSegment = index === segments.length - 1;
-			result.push({
-				name: isLastSegment && leafName ? leafName : getSegmentName(segment, lang),
-				href,
-				navigable: !NON_NAVIGABLE_PATHS.has(href)
-			});
+		const enPath = page.data?.enPath as string | null | undefined;
+		// No trail on the home page (protects its layout) nor on a 404 (no route).
+		if (!enPath || enPath === '/') return [];
+		return breadcrumbTrail(enPath, {
+			names: i18n.t.crumbs as Record<string, string>,
+			localize: (path) => i18n.href(path),
+			leafName
 		});
-
-		return result;
 	});
 </script>
 
 {#if items.length > 0}
-	<nav aria-label="Breadcrumbs" class="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pt-6 pb-2 relative z-20">
+	<nav aria-label={i18n.t.nav.breadcrumbs} class="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pt-6 pb-2 relative z-20">
 		<div class="inline-flex flex-wrap items-center gap-2 px-4 py-2 rounded-full border border-border-glass bg-surface-glass backdrop-blur-md shadow-[0_4px_30px_rgba(0,0,0,0.1)] text-on-surface-variant font-body-md text-xs sm:text-sm">
 			{#each items as item, index}
 				{#if index > 0}
@@ -98,7 +40,7 @@
 					<span class="select-none">{item.name}</span>
 				{:else}
 					<a
-						href={item.href}
+						href={item.path}
 						class="hover:text-electric-blue hover:underline transition-colors duration-200"
 					>
 						{item.name}

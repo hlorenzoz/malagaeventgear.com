@@ -1,6 +1,9 @@
 import { packages, getPriceRange, VAT_RATE } from '$lib/data/packages';
 import { getCategories, getPosts } from '$lib/data/blog';
 import { siteConfig } from '$lib/data/site';
+import { PAGE_LOCALES } from '$lib/i18n/availability';
+import { withLocale } from '$lib/i18n/locale-path';
+import { LOCALE_META } from '$lib/i18n/locales';
 import type { RequestHandler } from './$types';
 
 /**
@@ -35,6 +38,17 @@ const CATEGORY_BLURBS: Record<string, string> = {
 	news: 'Company announcements and project write-ups.'
 };
 
+/** English names of the customer service languages (siteConfig.serviceLanguages). */
+const LANGUAGE_NAMES: Record<string, string> = { en: 'English', es: 'Spanish' };
+
+/**
+ * Published website locales with their URL root, derived from PAGE_LOCALES. Distinct from the
+ * customer service languages on purpose: the site is read in more languages than MEG answers in.
+ */
+function websiteLanguages(): string {
+	return PAGE_LOCALES.map((locale) => `${LOCALE_META[locale].nativeName} (${abs(withLocale(locale, '/'))})`).join(', ');
+}
+
 function buildLlmsTxt(): string {
 	const postCount = getPosts().length;
 	const categories = getCategories();
@@ -45,7 +59,7 @@ function buildLlmsTxt(): string {
 			return entry(
 				`${pkg.name} - ${pkg.price} EUR`,
 				pkg.route,
-				`${pkg.desc.en}${capacity} Includes: ${pkg.includes.en.join('; ')}.`
+				`${pkg.desc}${capacity} Includes: ${pkg.includes.join('; ')}.`
 			);
 		})
 		.join('\n');
@@ -101,7 +115,8 @@ ${categoryEntries}
 - Service model: delivery-only. MEG transports the gear, installs it professionally, tests sound and lighting, and collects everything after the event.
 - Pricing model: fixed all-inclusive package prices from ${priceRange} per event, excluding ${vatPercent}% VAT. Transport and setup included; optional extras priced separately.
 - Opening hours: ${siteConfig.operatingHours.opens}-${siteConfig.operatingHours.closes}, Monday to Sunday
-- Languages: English and Spanish (the website is bilingual)
+- Customer service languages: ${siteConfig.serviceLanguages.map((l) => LANGUAGE_NAMES[l]).join(' and ')} only
+- Website languages: ${websiteLanguages()}
 - Service area: ${siteConfig.serviceAreas.join(', ')}.
 
 ## Contact

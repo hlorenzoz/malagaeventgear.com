@@ -1,5 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { siteConfig } from './site';
+import en from '../i18n/messages/en';
+import es from '../i18n/messages/es';
 
 /**
  * Guard: the home <title> and <h1> carry the Google Business Profile PRIMARY category.
@@ -14,10 +16,9 @@ import { siteConfig } from './site';
  * silently drops the keyword and nothing else in the suite notices. This test joins the parts
  * back together and compares against site.ts.
  *
- * Sources are read as raw text with `import.meta.glob`, the same approach as
- * `no-hardcoded-prices.test.ts`. Importing `i18n.svelte.ts` directly is not an option: it is a
- * runes module (`$state`) and it imports `$app/environment`, neither of which resolves under
- * the plain Vite that Vitest runs.
+ * The dictionaries are plain modules (`i18n/messages/<locale>.ts`), imported directly. The home
+ * page source is read as raw text with `import.meta.glob`, the same approach as
+ * `no-hardcoded-prices.test.ts`, to check its `<title>` literal.
  */
 
 const sources = import.meta.glob('../../**/*.{ts,svelte}', {
@@ -41,24 +42,12 @@ function sourceEndingWith(suffix: string): string {
 	return hits[0][1];
 }
 
-const I18N = sourceEndingWith('/i18n.svelte.ts');
 const HOME = sourceEndingWith('routes/(public)/+page.svelte');
 
-/** Pulls `key: 'value'` from the nth `hero: {` block (0 = en, 1 = es, in file order). */
-function heroValue(nth: number, key: string): string {
-	const blocks = [...I18N.matchAll(/hero:\s*\{/g)];
-	if (blocks.length <= nth) throw new Error(`hero block ${nth} not found in i18n.svelte.ts`);
-	const start = blocks[nth].index!;
-	const chunk = I18N.slice(start, start + 800);
-	const m = chunk.match(new RegExp(`${key}:\\s*'([^']*)'`));
-	if (!m) throw new Error(`${key} not found in hero block ${nth}`);
-	return m[1];
-}
-
 /** The <h1> as a reader sees it: the three parts joined by the spaces in the markup. */
-function heroTitle(nth: number): string {
-	return ['titlePart1', 'titleGradient', 'titlePart2']
-		.map((k) => heroValue(nth, k))
+function heroTitle(messages: typeof en): string {
+	const { titlePart1, titleGradient, titlePart2 } = messages.hero;
+	return [titlePart1, titleGradient, titlePart2]
 		.join(' ')
 		.replace(/\s+/g, ' ')
 		.trim();
@@ -72,7 +61,7 @@ describe('home title and h1 carry the GBP primary category', () => {
 	});
 
 	it('the EN <h1> reads exactly "<primary category> in Malaga"', () => {
-		expect(heroTitle(0)).toBe(`${PRIMARY_CATEGORY} in Malaga`);
+		expect(heroTitle(en)).toBe(`${PRIMARY_CATEGORY} in Malaga`);
 	});
 
 	it('the <title> is the same phrase plus the brand suffix', () => {
@@ -85,14 +74,14 @@ describe('home title and h1 carry the GBP primary category', () => {
 	});
 
 	it('the ES <h1> renders the same service and keeps the location last', () => {
-		const es = heroTitle(1);
-		expect(es).toMatch(/Audiovisual/i);
-		expect(es).toMatch(/Alquiler/i);
-		expect(es).toMatch(/en Málaga$/);
+		const title = heroTitle(es);
+		expect(title).toMatch(/Audiovisual/i);
+		expect(title).toMatch(/Alquiler/i);
+		expect(title).toMatch(/en Málaga$/);
 	});
 
 	it('no <h1> carries the brand suffix, which belongs to <title> only', () => {
-		expect(heroTitle(0)).not.toContain('|');
-		expect(heroTitle(1)).not.toContain('|');
+		expect(heroTitle(en)).not.toContain('|');
+		expect(heroTitle(es)).not.toContain('|');
 	});
 });

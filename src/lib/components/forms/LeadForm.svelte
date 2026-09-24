@@ -132,7 +132,7 @@
 
 		// Honeypot check — silent discard
 		if (websiteHoneypot) {
-			await goto('/thank-you/?lead=stub');
+			await goto(`${i18n.href('/thank-you/')}?lead=stub`);
 			return;
 		}
 
@@ -155,6 +155,7 @@
 					comments: comments.trim(),
 					'cf-turnstile-response': turnstileToken,
 					website: websiteHoneypot,
+					locale: i18n.lang,
 				}),
 			});
 
@@ -185,7 +186,7 @@
 				return;
 			}
 
-			await goto(`/thank-you/?lead=${data.leadId ?? ''}`);
+			await goto(`${i18n.href('/thank-you/')}?lead=${data.leadId ?? ''}`);
 		} catch {
 			submitError = i18n.t.leadForm.errorSubmit;
 		} finally {
@@ -214,7 +215,7 @@
 		}
 		const params = new URLSearchParams({ errtype: 'email' });
 		if (lastLeadId) params.set('lead', lastLeadId);
-		goto(`/contact?${params.toString()}`);
+		goto(`${i18n.href('/contact/')}?${params.toString()}`);
 	}
 </script>
 

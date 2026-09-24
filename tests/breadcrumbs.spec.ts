@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { PUBLISHED_LOCALES, localized } from './support/i18n';
 
 test.describe('Breadcrumbs Visual & Navigation E2E Tests', () => {
 	test.beforeEach(async ({ page }) => {
@@ -47,46 +48,20 @@ test.describe('Breadcrumbs Visual & Navigation E2E Tests', () => {
 		await expect(currentLabel).toContainText(/Wedding|Bodas/);
 	});
 
-	test('should translate breadcrumbs dynamically when switching languages', async ({ page }) => {
-		// Go to /packages/
-		await page.goto('/packages/');
-		await page.waitForLoadState('networkidle');
+	test('breadcrumbs follow the URL locale: translated names and localized links', async ({ page }) => {
+		// The language comes from the URL (no client toggle). Skips while only English is live.
+		const locale = PUBLISHED_LOCALES[0];
+		test.skip(!locale, 'no published locale besides English');
+		const packages = (await localized(locale, '/packages/'))!;
+		const wedding = (await localized(locale, '/packages/wedding/'))!;
+		await page.goto(wedding);
 
-		const breadcrumbs = page.locator('nav[aria-label="Breadcrumbs"]');
-		await expect(breadcrumbs).toBeVisible();
-
-		// By default language should be English, checking Home -> Packages
-		let homeLink = breadcrumbs.locator('a[href="/"]');
-		let activeLabel = breadcrumbs.locator('span[aria-current="page"]');
-
-		// If current language is Spanish, we want to toggle to English, or vice versa.
-		// Let's assert based on whatever language is active.
-		const isSpanishDefault = (await homeLink.innerText()) === 'Inicio';
-
-		if (isSpanishDefault) {
-			await expect(homeLink).toHaveText('Inicio');
-			await expect(activeLabel).toHaveText('Paquetes');
-
-			// Toggle language to English (click button containing EN)
-			const langBtn = page.locator('button:has-text("EN")').first();
-			await expect(langBtn).toBeVisible();
-			await langBtn.click();
-
-			// Assert translated English values
-			await expect(homeLink).toHaveText('Home');
-			await expect(activeLabel).toHaveText('Packages');
-		} else {
-			await expect(homeLink).toHaveText('Home');
-			await expect(activeLabel).toHaveText('Packages');
-
-			// Toggle language to Spanish (click button containing ES)
-			const langBtn = page.locator('button:has-text("ES")').first();
-			await expect(langBtn).toBeVisible();
-			await langBtn.click();
-
-			// Assert translated Spanish values
-			await expect(homeLink).toHaveText('Inicio');
-			await expect(activeLabel).toHaveText('Paquetes');
-		}
+		const breadcrumbs = page.locator('nav[aria-label]').filter({ has: page.locator('span[aria-current="page"]') });
+		await expect(breadcrumbs.locator(`a[href="${await localized(locale, '/')}"]`)).toBeVisible();
+		const parent = breadcrumbs.locator(`a[href="${packages}"]`);
+		await expect(parent).toBeVisible();
+		await expect(parent).not.toHaveText('Packages');
+		// The package NAME is never translated (CLAUDE.md, "Idiomas soportados").
+		await expect(breadcrumbs.locator('span[aria-current="page"]')).toHaveText('Wedding Pack');
 	});
 });

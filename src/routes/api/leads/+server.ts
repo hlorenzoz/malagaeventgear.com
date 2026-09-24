@@ -4,6 +4,7 @@ import { getDB } from '$lib/server/db/client';
 import { countRecentLeadsByIP } from '$lib/server/db/queries';
 import { LeadInputSchema } from '$lib/server/leads/schema';
 import { submitLead } from '$lib/server/leads/service';
+import { resolveLeadLang } from '$lib/server/leads/lang';
 import { verifyTurnstile } from '$lib/server/leads/turnstile';
 
 // This route handles dynamic POST requests — must NOT be prerendered
@@ -57,9 +58,8 @@ export const POST: RequestHandler = async ({ request, platform }) => {
 			return json({ ok: false, error: 'rate_limited' }, { status: 429 });
 		}
 
-		// 5. Detect lang from Accept-Language header (simple, good enough)
-		const acceptLang = request.headers.get('Accept-Language') ?? 'es';
-		const lang = acceptLang.toLowerCase().startsWith('es') ? 'es' : 'en';
+		// 5. Lead language: the locale of the page the form came from (Accept-Language fallback)
+		const lang = resolveLeadLang(input.locale, request.headers.get('Accept-Language'));
 
 		// 6. Submit lead (insert to D1) + email lifecycle
 		const { leadId, emailStatus } = await submitLead(db, input, lang, ip, platform?.env);

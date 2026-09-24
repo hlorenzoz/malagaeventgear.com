@@ -2,6 +2,10 @@
 	import type { OpenGraphMeta, TwitterCardMeta, JsonLdSchema } from '$lib/types/seo';
 	import { siteConfig } from '$lib/data/site';
 	import { i18n } from '$lib/i18n.svelte';
+	import { page } from '$app/state';
+	import { LOCALE_META } from '$lib/i18n/locales';
+	import { encodePath } from '$lib/i18n/locale-path';
+	import type { Alternate } from '$lib/i18n/router';
 
 	// Props con Runes de Svelte 5
 	let {
@@ -50,8 +54,27 @@
 	// es 1024x1024. Con `image` -> solo declaramos dimensiones si la página las provee (no inventar).
 	let ogImageWidth = $derived(image ? imageWidth : 1024);
 	let ogImageHeight = $derived(image ? imageHeight : 1024);
-	let ogLocale = $derived(i18n.lang === 'es' ? 'es_ES' : 'en_US');
-	let ogAlternateLocales = $derived(i18n.lang === 'es' ? ['en_US'] : ['es_ES']);
+	// Idiomas (CLAUDE.md, "Internacionalización"). `alternates` son las versiones PUBLICADAS de
+	// esta página, resueltas en `(public)/+layout.server.ts`. En inglés el canonical es el que pasa
+	// la página. En otro idioma es la URL propia de esa versión: nunca se canonicaliza una
+	// traducción hacia el inglés.
+	const alternates = $derived((page.data?.alternates ?? []) as Alternate[]);
+	const self = $derived(alternates.find((a) => a.locale === i18n.lang));
+	const absolute = (path: string) => `${siteConfig.url}${encodePath(path)}`;
+	let canonical = $derived(i18n.lang === 'en' || !self ? canonicalUrl : absolute(self.path));
+	let ogUrl = $derived(i18n.lang === 'en' ? openGraph.url || canonical : canonical);
+	// hreflang solo en el <head> (un único método, como recomienda Google), solo en páginas
+	// indexables y solo cuando existe más de un idioma. Recíproco por construcción: cada versión
+	// recibe la misma lista, incluida ella misma.
+	let hreflangLinks = $derived(
+		noindex || alternates.length < 2
+			? []
+			: alternates.flatMap((a) => LOCALE_META[a.locale].hreflang.map((value) => ({ value, href: absolute(a.path) })))
+	);
+	let ogLocale = $derived(LOCALE_META[i18n.lang].ogLocale);
+	let ogAlternateLocales = $derived(
+		alternates.filter((a) => a.locale !== i18n.lang).map((a) => LOCALE_META[a.locale].ogLocale)
+	);
 </script>
 
 <svelte:head>
@@ -61,13 +84,16 @@
 	{#if noindex}
 		<meta name="robots" content="noindex, nofollow" />
 	{:else}
-		<link rel="canonical" href={canonicalUrl} />
+		<link rel="canonical" href={canonical} />
 	{/if}
+	{#each hreflangLinks as link (link.value)}
+		<link rel="alternate" hreflang={link.value} href={link.href} />
+	{/each}
 
 	<!-- Open Graph Protocol -->
 	<meta property="og:title" content={openGraph.title || title} />
 	<meta property="og:description" content={openGraph.description || description} />
-	<meta property="og:url" content={openGraph.url || canonicalUrl} />
+	<meta property="og:url" content={ogUrl} />
 	<meta property="og:type" content={openGraph.type || 'website'} />
 	<meta property="og:site_name" content={openGraph.siteName || siteConfig.brandName} />
 	<meta property="og:locale" content={openGraph.locale || ogLocale} />
