@@ -11,7 +11,9 @@ const t = {
 		blogInEnglish: '部落格（英文版）',
 		language: '語言',
 		breadcrumbs: '麵包屑導覽',
-		brand: 'Malaga Event Gear'
+		brand: 'Malaga Event Gear',
+		toggleTheme: '切換色彩主題',
+		openMenu: '開啟導覽選單'
 	},
 	// Language notices (CLAUDE.md, "Idiomas soportados")
 	notices: {

@@ -226,7 +226,7 @@ export default {
 		'translation-voting': {
 			question: 'Bieden jullie simultaanvertaling of interactieve stemsystemen aan?',
 			answer:
-				'Ja, voor simultaanvertaling en interactieve stemsystemen, al niet met eigen apparatuur: we regelen beide via een onderaannemer voor zakelijke evenementen en congressen. Laat ons je wensen weten bij het aanvragen van een offerte. We bieden geen LED-videowall aan, ons grootformaat scherm is een enkel plat paneel van 60 inch.'
+				'Ja, we verzorgen simultaanvertaling en interactieve stemsystemen, zij het niet met eigen apparatuur: we regelen beide via een onderaannemer voor zakelijke evenementen en congressen. Laat ons je wensen weten bij het aanvragen van een offerte. We bieden geen LED-videowall aan. Ons grootformaat scherm is een enkel plat paneel van 60 inch.'
 		},
 		'large-scale-events': {
 			question: 'Kunnen jullie grootschalige congressen, beurzen en exposities aan?',

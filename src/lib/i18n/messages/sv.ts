@@ -11,7 +11,9 @@ const t = {
 		blogInEnglish: 'Blogg (på engelska)',
 		language: 'Språk',
 		breadcrumbs: 'Brödsmulor',
-		brand: 'Malaga Event Gear'
+		brand: 'Malaga Event Gear',
+		toggleTheme: 'Byt färgtema',
+		openMenu: 'Öppna navigeringsmenyn'
 	},
 	// Language notices (CLAUDE.md, "Idiomas soportados")
 	notices: {

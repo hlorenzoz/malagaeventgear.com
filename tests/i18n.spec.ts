@@ -102,6 +102,19 @@ for (const locale of PUBLISHED_LOCALES) {
 			expect(contact?.url).toBe(`${SITE}${contactPath}`);
 		});
 
+		test('navbar controls are labelled in this language', async ({ request }) => {
+			const html = await (await request.get((await localized(locale, '/about-us/'))!)).text();
+			const header = html.match(/<header[\s\S]*?<\/header>/)![0];
+			expect(header).not.toMatch(/aria-label="(Toggle color theme|Open navigation menu|Call Malaga Event Gear)/);
+		});
+
+		test('the thank-you page sends the lead back to packages in this language', async ({ request }) => {
+			const path = await localized(locale, '/thank-you/');
+			expect(path, 'thank-you is published in every locale').not.toBeNull();
+			const html = await (await request.get(path!)).text();
+			expect(html).toContain(`href="${await localized(locale, '/packages/')}"`);
+		});
+
 		test('no translated page lists English posts (one language per page)', async ({ request }) => {
 			// Until this locale has translated posts, the only blog link allowed is the navbar's
 			// labelled "Blog (in English)" link to /blog/ itself, never a post, category or author.

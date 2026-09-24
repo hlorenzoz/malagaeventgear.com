@@ -153,7 +153,7 @@
 			<button
 				onclick={toggleTheme}
 				class="flex items-center justify-center w-10 h-10 rounded-full glass-panel hover:bg-white/10 text-primary hover:text-electric-blue transition-colors duration-300"
-				aria-label="Toggle color theme"
+				aria-label={i18n.t.nav.toggleTheme}
 			>
 				{#if currentTheme === 'dark'}
 					<Icon name="light_mode" size="22" />
@@ -166,7 +166,7 @@
 			<a
 				class="flex items-center gap-1.5 px-3 py-1.5 h-10 rounded-full glass-panel hover:bg-white/10 text-on-surface hover:text-electric-blue transition-colors duration-300 font-label-sm text-xs sm:text-sm active:scale-95"
 				href={siteConfig.phoneCallUrl}
-				aria-label="Call Malaga Event Gear: {siteConfig.contactPhone}"
+				aria-label={i18n.t.footer.callAriaLabel.replace('{phone}', siteConfig.contactPhone)}
 			>
 				<Icon name="call" size="18" className="text-electric-blue shrink-0" />
 				<span class="font-semibold whitespace-nowrap">{siteConfig.contactPhone}</span>
@@ -184,7 +184,7 @@
 			<button
 				onclick={toggleMobileMenu}
 				class="md:hidden flex items-center justify-center w-10 h-10 rounded-full glass-panel text-primary hover:text-electric-blue transition-colors duration-300"
-				aria-label="Open navigation menu"
+				aria-label={i18n.t.nav.openMenu}
 			>
 				{#if mobileMenuOpen}
 					<Icon name="close" size="28" />
