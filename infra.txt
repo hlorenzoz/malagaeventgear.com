@@ -1,0 +1,1170 @@
+================================================================================
+ STACK DE REFERENCIA - SITIO WEB SVELTEKIT + CLOUDFLARE
+ Extraido de malagaeventgear.com (MEG) el 2026-09-24
+ Uso: blueprint para arrancar nuevos sitios web con la misma base
+================================================================================
+
+Indice
+  1. Resumen del stack
+  2. Runtime, build y tooling
+  3. Hosting e infraestructura Cloudflare
+  4. Estructura de carpetas
+  5. Rutas y endpoints
+  6. Single source of truth de los datos
+  7. Contenido: paginas y posts (metadatos y como funcionan)
+  8. SEO tecnico
+  9. Internacionalizacion (i18n)
+ 10. Captura de leads y email lifecycle
+ 11. UI y diseño
+ 11b. Buenas practicas de performance (Core Web Vitals)
+ 12. Testing y guards automaticos
+ 13. Calidad de codigo y convenciones
+ 14. Documentacion y trabajo con agentes de IA
+ 15. Imagenes: formatos, resoluciones y herramientas
+ 16. Migracion desde WordPress
+ 17. llms.txt
+ 18. sitemap_index.xml y pagina del sitemap (HTML)
+ 19. Paginas legales
+ 20. Web Stories (AMP stories)
+ 21. Checklist para arrancar un sitio nuevo
+
+
+--------------------------------------------------------------------------------
+1. RESUMEN DEL STACK
+--------------------------------------------------------------------------------
+
+Framework        SvelteKit 2 + Svelte 5 (runes forzados en todo el proyecto)
+Lenguaje         TypeScript (strict), <script lang="ts"> en todos los componentes
+Bundler          Vite 8
+Runtime / PM     Bun (bun install, bun run, bunx)
+Task runner      Justfile (just <comando>)
+Estilos          Tailwind CSS 4 (@tailwindcss/vite) + tokens CSS en :root
+Iconos           @lucide/svelte
+Diagramas        mermaid (mindmap del mapa interno del sitio en /map)
+Blog             mdsvex (.svx = Markdown + Svelte) + remark-gfm + plugins rehype propios
+Validacion       zod (paquetes, FAQ, reseñas, leads, content map, IndexNow)
+Adapter          @sveltejs/adapter-cloudflare
+Hosting          Cloudflare Workers (assets estaticos + Worker SSR)
+Base de datos    Cloudflare D1 (SQLite), migraciones SQL versionadas
+CDN de imagenes  Cloudflare R2 (cdn.<dominio>)
+Email            Resend (via fetch, sin SDK de Node)
+Anti spam        Cloudflare Turnstile (managed / invisible)
+Cron             Worker de Cloudflare separado (review-reminders)
+Publicacion      git push a GitHub -> build y deploy automatico en Cloudflare Workers
+CLI Cloudflare   Wrangler 4
+PWA              @vite-pwa/sveltekit (Workbox)
+Tests unitarios  Vitest 4 (+ coverage v8)
+Tests E2E        Playwright
+Performance      Lighthouse CI (@lhci/cli) + chrome-devtools-mcp
+Git hooks        pre-commit (trailing whitespace, EOF, YAML, archivos grandes, Prettier)
+Formato          Prettier + prettier-plugin-svelte
+Imagenes         sharp (scripts propios de WebP/AVIF multi ancho)
+Migracion WP     turndown, linkedom, gray-matter, js-yaml (scripts/migrate-wp)
+
+
+--------------------------------------------------------------------------------
+2. RUNTIME, BUILD Y TOOLING
+--------------------------------------------------------------------------------
+
+package.json (scripts clave)
+  dev        vite dev                                  (puerto 5173, strictPort)
+  build      wrangler types && bun scripts/fix-types.ts && vite build
+  preview    wrangler pages dev .svelte-kit/cloudflare --port 4173
+  check      wrangler types + fix-types + svelte-kit sync + svelte-check
+  gen        wrangler types + fix-types                (tipos de bindings D1/R2/vars)
+  test       vitest run
+  test:e2e:prod  playwright test -c playwright.prod.config.ts
+
+  Por que "wrangler types" antes del build: genera worker-configuration.d.ts con los
+  tipos de los bindings (DB, ASSETS, vars) para que App.Platform quede tipado.
+  fix-types.ts corrige lo que wrangler genera mal. Nunca asumir "vite build" a secas.
+
+  Salida del build: .svelte-kit/cloudflare/ (no out/ ni dist/).
+
+Justfile (interfaz humana unica, cada receta documentada con un comentario)
+  Desarrollo   dev, build, preview, check, gen, install, format
+  Tests        test, playwright, test-lighthouse
+  D1           migrate-local, migrate, db-tables, db-open
+  Secrets      secrets, secrets-worker
+  Deploy       deploy, deploy-worker
+  Blog         post-new, post-touch <slug>, post-images [carpeta|--dry-run]
+  Migracion    migrate-wp-dry-run, migrate-wp-run
+
+  Regla: toda operacion repetible tiene su receta. Las destructivas tienen variante
+  dry-run primero.
+
+svelte.config.js
+  - runes: true para todo lo que no este en node_modules.
+  - adapter-cloudflare.
+  - prerender.handleMissingId: 'warn' (los 404 reales siguen rompiendo el build).
+  - inlineStyleThreshold: 102400 -> CSS inline en el <head>, sin <link> render blocking.
+  - mdsvex con smartypants: false (evita comillas y rayas tipograficas).
+  - Preprocesador propio que migra <script context="module"> de mdsvex a <script module>.
+
+vite.config.ts
+  - Plugin propio blogMeta() (metadatos del blog en build time).
+  - ssr.noExternal: ['@lucide/svelte'] (los iconos son .svelte sin compilar).
+  - assetsInlineLimit: nunca inlinear imagenes de src/lib/assets/ (evita base64 repetido
+    en cada HTML). Esas imagenes salen hasheadas bajo /_app/immutable/ con cache de 1 año.
+  - SvelteKitPWA: precache del app shell, el blog excluido del precache y cacheado en
+    runtime con StaleWhileRevalidate.
+
+Variables de entorno
+  - Secrets: wrangler secret put (RESEND_API_KEY, RESEND_FROM, TURNSTILE_SECRET_KEY,
+    INDEXNOW_KEY). En dev: .dev.vars (gitignored).
+  - Publicas: $env/static/public (inyectadas en build desde .env.production). Nunca
+    $env/dynamic/public: genera /_app/env.js sin cache posible. Hay un test que lo prohibe.
+
+
+--------------------------------------------------------------------------------
+3. HOSTING E INFRAESTRUCTURA CLOUDFLARE
+--------------------------------------------------------------------------------
+
+wrangler.toml (app principal)
+  main = ".svelte-kit/cloudflare/_worker.js"
+  [assets] directory = ".svelte-kit/cloudflare", binding = "ASSETS"
+  [vars] ENVIRONMENT, PUBLIC_SITE_URL, PUBLIC_TURNSTILE_SITE_KEY, LEAD_NOTIFY_EMAILS, RESEND_FROM
+  [[d1_databases]] binding = "DB"
+
+Deploy targets (2)
+  1. App principal        git push a GitHub -> Cloudflare Workers hace build + deploy solo
+                          (a mano: bunx wrangler deploy)
+  2. review-reminders     workers/review-reminders/, cron diario, misma D1 y Resend
+
+Flujo de publicacion: el contenido se genera en local y se publica con un git push. No hay
+rebuild programado ni deploy hook. En MEG hubo un cron worker de rebuild (blog-rebuild) que
+apuntaba a un deploy hook de Pages: nunca se desplego y se descarto el 2026-09-24. Leccion: un
+componente de infraestructura que no se verifica contra la cuenta real puede no existir sin que
+nadie lo note.
+
+  Por que Workers separados: adapter-cloudflare no expone un handler "scheduled" en su
+  _worker.js. El cron vive aparte y reutiliza el codigo de src/lib/server/.
+
+D1 (SQLite en el edge)
+  migrations/0001_init.sql, 0002_..., 0003_... (numeradas, nunca se editan las viejas)
+  Local: wrangler d1 migrations apply <db> --local (miniflare)
+  Remoto: ... --remote
+
+R2
+  Imagenes del blog en cdn.<dominio>/blog/<id>/, subidas por scripts/post-images.ts
+  (WebP + AVIF multi ancho, manifest.json con refs y metadata, markup <picture> listo).
+
+_headers (Workers Assets)
+  - Seguridad en /*: HSTS preload, nosniff, X-Frame-Options SAMEORIGIN,
+    Referrer-Policy, Permissions-Policy. Los mismos headers se repiten en
+    src/hooks.server.ts para las respuestas SSR y /api/* (mantener ambos en sync).
+  - /fonts/*: immutable 1 año (fuentes self hosted).
+  - Imagenes de static/ con nombre estable: max-age 1 dia + stale-while-revalidate 7 dias
+    (nunca immutable sobre un nombre sin hash).
+  - Lo hasheado por Vite (/_app/immutable/*) ya viene con cache inmutable.
+
+_redirects
+  Redirects 301 de las URLs viejas (migracion WordPress: /<slug>/ -> /blog/<slug>/).
+
+IndexNow
+  /api/indexnow + tablas en D1 para registrar envios. Clave en static/<uuid>.txt.
+
+
+--------------------------------------------------------------------------------
+4. ESTRUCTURA DE CARPETAS
+--------------------------------------------------------------------------------
+
+.
+|-- CLAUDE.md                 Contrato del proyecto para humanos y agentes de IA
+|-- DESIGN.md                 Sistema de diseño (tokens, tipografia, componentes)
+|-- SEO.md                    Estrategia de contenido y SEO
+|-- Justfile                  Todos los comandos del proyecto
+|-- wrangler.toml             Config del Worker principal
+|-- _headers / _redirects     Cabeceras de cache/seguridad y redirects
+|-- .lighthouserc.json        Umbrales de Lighthouse CI por pagina
+|-- .pre-commit-config.yaml   Hooks de git
+|-- .mcp.json                 chrome-devtools-mcp para medir en navegador real
+|-- .agents/                  Base de conocimiento: BUSINESS.md, CHANGELOG.md,
+|                             STRUCTURED_DATA.md, WP_MIGRATION.md, context/ (datos del cliente)
+|-- docs/                     Runbooks y ADRs (deploy de leads, blog, datos estructurados,
+|                             investigaciones de performance)
+|-- migrations/               SQL de D1 versionado
+|-- workers/                  Workers de cron independientes (cada uno con su wrangler.toml)
+|-- scripts/                  Tooling en TS/MJS: post-new, post-touch, post-images,
+|                             generadores de variantes de imagen, plugins rehype, migracion WP
+|-- static/                   robots.txt, favicons, manifest, fuentes woff2, imagenes estables
+|-- tests/                    Playwright (*.spec.ts), e2e/, support/
+`-- src/
+    |-- app.html              lang="%lang%", script anti FOUC del tema, favicons, manifest
+    |-- hooks.server.ts       Headers de seguridad + <html lang> segun el locale de la URL
+    |-- hooks.ts              reroute: URL traducida -> ruta inglesa que la renderiza
+    |-- params/locale.ts      Param matcher de locales con prefijo
+    |-- content/blog/*.svx    Un archivo = un post
+    |-- routes/
+    |   |-- (public)/         Web publica (group layout), cada ruta con su meta.ts
+    |   |-- api/              Endpoints dinamicos (leads, contact, indexnow)
+    |   `-- r/[token]/        Link trackeado de reseñas
+    `-- lib/
+        |-- assets/           Imagenes importadas por Vite (hasheadas)
+        |-- components/       Por dominio: blog, forms, home, modals, navigation,
+        |                     sections, seo, testimonials, util
+        |-- data/             SSOT de datos + sus tests guard al lado
+        |-- i18n/             Locales, routing, content map, mensajes por idioma
+        |-- server/           Solo servidor: db, email, leads, reviews, indexnow
+        `-- utils/            schema.ts (JSON-LD), sitemap.ts, slugify, share, after-lcp
+
+Principios de la estructura
+  - Screaming architecture: las carpetas dicen el dominio (leads, reviews, email),
+    no el tipo tecnico.
+  - Tests colocados junto al codigo (*.test.ts al lado de *.ts).
+  - Separar SIEMPRE lo puro de lo I/O: templates de email y secuencias de reseñas son
+    funciones puras testeadas sin DB. db/, resend.ts y service.ts hacen I/O.
+  - Los metadatos viven AL LADO del contenido (meta.ts junto a la ruta, frontmatter en
+    el post), nunca en una lista paralela mantenida a mano.
+
+
+--------------------------------------------------------------------------------
+5. RUTAS Y ENDPOINTS
+--------------------------------------------------------------------------------
+
+Paginas publicas (prerenderizadas)
+  /  /about-us/  /contact/  /equipment/  /faq/  /meet-the-team/  /packages/
+  /packages/[slug]/  /blog/  /blog/[slug]/  /blog/categories/  /blog/category/[category]/
+  /blog/author/[author]/  /sitemap/ (sitemap HTML)  /thank-you/ (noindex)
+  Legales: /privacy-policy/  /terms-of-service/  /gdpr/  /cookie-policy/
+  Interna: /map (noindex, mindmap mermaid del sitio completo, derivado en vivo)
+
+Endpoints generados (+server.ts)
+  /sitemap_index.xml
+  /page-sitemap.xml   /page-sitemap-[locale].xml   /post-sitemap.xml
+  /category-sitemap.xml   /author-sitemap.xml
+  /llms.txt           (derivado de los datos, nunca hardcodeado)
+
+Dinamicos (export const prerender = false)
+  POST /api/leads   /api/contact   /api/indexnow   GET /r/[token]
+
+Reglas
+  - Trailing slash obligatorio en toda URL interna.
+  - Paginas estaticas prerenderizadas, API en SSR. Las dos cosas conviven en el mismo Worker.
+  - Sin APIs de Node (fs, path, crypto de node) en codigo que corre en el edge.
+  - El .svx se lee en build time con import.meta.glob.
+
+
+--------------------------------------------------------------------------------
+6. SINGLE SOURCE OF TRUTH DE LOS DATOS
+--------------------------------------------------------------------------------
+
+Cada dato vive en UN lugar y todo lo demas lo consume o lo deriva.
+
+  NAP y negocio            src/lib/data/site.ts (siteConfig: nombre, direccion, telefono,
+                           categorias GBP, areas de servicio, logo, url)
+  Paquetes y precios       src/lib/data/packages.ts (Zod). Helpers: formatPrice(amount, locale),
+                           getPriceRange(), formatPriceRange(), getSchemaPriceRange(),
+                           getPackageLabels(), CURRENCY, VAT_RATE
+  FAQ                      src/lib/data/faq.ts (Zod)
+  Reseñas                  src/lib/data/reviews.json + testimonials.ts (getTestimonials)
+  Galerias                 src/lib/data/gallery.ts
+  Blog                     src/content/blog/*.svx -> blog.ts / blog-pipeline.ts
+  Mapa del sitio / silo    src/lib/data/site-map.ts (buildSiteMap, derivado)
+  JSON-LD                  src/lib/utils/schema.ts (constructores)
+  Metadatos de pagina      src/lib/components/seo/SeoHead.svelte
+  Rutas para sitemaps      STATIC_SITEMAP_PAGES en sitemap.ts + packages[].route + glob del blog
+  Slug y keyword por idioma  src/lib/i18n/content-map/locales/<locale>.ts (Zod)
+  Copy de UI               src/lib/i18n/messages/<locale>.ts
+
+Regla de oro: ningun componente, pagina, JSON-LD, FAQ ni diccionario repite un precio,
+telefono o nombre. Un test (no-hardcoded-prices.test.ts) escanea src/** y falla ante
+cualquier literal de precio. La solucion es importar el helper, nunca ampliar un allowlist.
+
+Leccion aprendida: "SSOT documentado" no es "SSOT real". Buscar en todo el repo antes de
+asumir que un dato solo vive en un sitio (el telefono llego a estar en 10 archivos).
+
+
+--------------------------------------------------------------------------------
+7. CONTENIDO: PAGINAS Y POSTS (METADATOS Y COMO FUNCIONAN)
+--------------------------------------------------------------------------------
+
+7.1 Paginas estaticas
+  Cada ruta publica tiene:
+    +page.svelte   contenido + <SeoHead title description canonicalUrl image
+                   openGraph twitter jsonLdSchema noindex />
+    meta.ts        export const contentUpdated = 'YYYY-MM-DD'
+                   (alimenta <lastmod> del page-sitemap). Opcional: keyword, siloRole,
+                   targetPage si la pagina es nodo de un silo.
+  Un test (sitemap-freshness.test.ts) falla si una ruta no declara su fecha.
+
+7.2 Paquetes
+  Un objeto por paquete en packages.ts, validado por Zod: slug, name (nunca se traduce),
+  precio, includes, optional, descripcion, seo, landing, imagenes, updated (fecha de
+  frescura). La pagina /packages/[slug]/ y su JSON-LD Service se generan desde ahi.
+
+7.3 Posts del blog (mdsvex, .svx, NO es MDX)
+  Crear:   just post-new   (crea src/content/blog/<slug>.svx con draft: true)
+  Tocar:   just post-touch <slug>   (actualiza updatedDate a hoy)
+  Imagenes: just post-images   (optimiza y sube a R2)
+
+  Frontmatter:
+    title         Titulo (el layout lo pinta como <h1>, el body NO repite el h1)
+    description   Meta description
+    author        Nombre visible del autor
+    slug          Igual al nombre del archivo
+    publishDate   "YYYY-MM-DD" entre comillas. Inmutable tras publicar.
+    updatedDate   Ultimo cambio real. Alimenta <lastmod> y dateModified del Article.
+    excerpt       Resumen para listados
+    coverImage    URL absoluta en el CDN (R2)
+    categories    1+ de un vocabulario controlado (crear una nueva es decision deliberada)
+    tags          []
+    keyword       Frase objetivo del post
+    siloRole      pillar | supporting | both | news | standalone
+    targetPage    URL a la que enlaza hacia arriba (vacio si standalone)
+    draft         true = no se publica. Volver a true un post publicado lo despublica.
+
+  Semantica de publicacion
+    - draft: false + publishDate <= hoy -> aparece en el build.
+    - publishDate futuro -> NO se publica solo en esa fecha. Aparece en el primer push
+      posterior (no hay rebuild programado). Al publicar, publishDate = fecha del push.
+    - Las fechas con comillas pasan por toIso8601WithOffset() y salen con el offset real
+      de la zona horaria (Article valido para Rich Results).
+
+  Pipeline de render (orden importa)
+    remark-gfm -> rehype-slug -> rehypeInternalLinks -> rehypeBlogImages (srcset, alt,
+    dimensiones) -> rehypeImageGallery -> rehypePostToc -> rehypeSectionCards ->
+    rehypeTableWrap -> rehypeFaqAccordion (siempre ultimo, convierte h3 en <details>).
+    Caches generadas: post-toc.json, post-faqs.json, cover-thumbs.json (con test de frescura).
+
+  El post puede importar componentes Svelte (<InlineCTA>, <ImageMarquee>...) en su <script>.
+
+7.4 Reverse silo del blog
+  - Supporting posts enlazan HACIA su pilar y a sus hermanos adyacentes (cadena).
+  - El pilar no enlaza de vuelta hacia abajo (sumidero de equity).
+  - El grafo se deriva del frontmatter (siloRole, targetPage). site-map.test.ts falla si un
+    post no declara su rol o si un targetPage no resuelve.
+
+7.5 Fechas de frescura (regla transversal)
+  - La fecha se actualiza en todos los lugares que la llevan en el mismo cambio.
+  - datePublished nunca se mueve. Prohibido el timestamp de build como lastmod.
+  - Un typo no es un cambio de contenido.
+
+
+--------------------------------------------------------------------------------
+8. SEO TECNICO
+--------------------------------------------------------------------------------
+
+SeoHead.svelte (componente unico de <head>)
+  title, meta description, canonical absoluto con trailing slash, Open Graph, Twitter Card,
+  og:image con dimensiones, robots noindex opcional, hreflang (con i18n) y el JSON-LD.
+
+Datos estructurados (JSON-LD) en src/lib/utils/schema.ts
+  buildLocalBusinessSchema   Nodo unico "#organization" (NAP, priceRange derivado). Lo
+                             emite el layout publico en todas las paginas.
+  buildWebSiteSchema, buildPersonSchema, buildBreadcrumbsSchema (ultima miga = titulo real),
+  buildServiceSchema, buildItemListSchema, buildServiceListSchema,
+  buildFAQPageSchema, buildArticleSchema, toIso8601WithOffset
+  Regla: las demas entidades referencian la empresa por @id, nunca redefinen la Organization.
+
+Sitemaps
+  /sitemap_index.xml -> page-sitemap(.xml | -<locale>.xml), post-sitemap, category-sitemap,
+  author-sitemap. Un sitemap sin URLs no se emite. robots.txt apunta al indice.
+  Toda pagina creada, editada o borrada actualiza su sitemap en el mismo cambio.
+
+Otros
+  - llms.txt derivado de los datos (estandar llmstxt.org), fuera de los sitemaps.
+  - Sitemap HTML en /sitemap/ para usuarios.
+  - Breadcrumbs visibles + BreadcrumbList.
+  - IndexNow para notificar cambios.
+  - Sin caracteres tipograficos de IA en el contenido (ver seccion 13).
+
+
+--------------------------------------------------------------------------------
+9. INTERNACIONALIZACION (i18n)
+--------------------------------------------------------------------------------
+
+Estado: en implementacion (rama feat/i18n). Arquitectura:
+
+  - Idioma base en la raiz, el resto en subdirectorios (/es/, /de/, /zh-hans/...).
+  - LOCALES y LOCALE_META en src/lib/i18n/locales.ts: htmlLang, hreflang, ogLocale, intl,
+    nativeName, short, script. Agregar un idioma es una decision explicita y fechada.
+  - src/params/locale.ts: param matcher de los locales con prefijo.
+  - src/hooks.ts (reroute): /de/ueber-uns/ -> renderiza /about-us/ pero la pagina ve la URL
+    original y sabe su locale. Una URL no publicada en ese idioma da 404.
+  - El locale se detecta por el primer segmento COMPLETO de la ruta, nunca con startsWith.
+  - hooks.server.ts reemplaza %lang% en app.html.
+  - Content map por locale (Zod): slugs y keywords traducidos, keyword con status
+    'propuesta' hasta validarla con datos del pais.
+  - Slugs en el idioma del publico (transliterados a ASCII en idiomas latinos).
+  - Texto traducido en el HTML servido (prerender), nunca solo en el cliente.
+  - Sin redireccion automatica por idioma. Selector de idioma = enlaces con nombre nativo,
+    sin banderas (LanguageSwitcher.svelte).
+  - hreflang recíproco y autorreferente solo en el <head>, URLs absolutas.
+  - Un sitemap por tipo y locale.
+  - Precios con formatPrice(amount, locale). Fuentes CJK del sistema, nunca webfonts.
+  - Legal: la version base prevalece y cada traduccion lo dice arriba.
+  - Tests: routing.test.ts, locale-path.test.ts, content-map.test.ts,
+    localized-completeness.test.ts, tests/i18n.spec.ts.
+
+
+--------------------------------------------------------------------------------
+10. CAPTURA DE LEADS Y EMAIL LIFECYCLE
+--------------------------------------------------------------------------------
+
+Flujo
+  1. LeadForm.svelte (en cada pagina de paquete) -> POST /api/leads
+  2. Validacion en orden: Zod -> honeypot -> Turnstile siteverify (/turnstile/v0/siteverify)
+     -> rate limit -> insert en D1
+  3. Resend: email de confirmacion al lead + notificacion interna
+  4. Se agenda un review_request para el dia siguiente al evento
+  5. Worker cron review-reminders: pide la reseña de Google con link trackeado /r/[token],
+     max 3 envios, corta al primer clic
+
+Reglas
+  - Un fallo de email NUNCA revierte el lead (se guarda estado failed en email_messages).
+  - Turnstile: sin secret se omite (dev), con secret se enforcea (fail closed).
+  - Destinatarios: D1 primero, fallback a la var LEAD_NOTIFY_EMAILS.
+  - Plantillas de email con locale explicito, no dependen del store i18n del cliente.
+  - Esquema D1 normalizado (leads, lead_events, email_messages, review_requests,
+    recipients), pensado como base de un CRM propio.
+  - Runbook de provisioning: docs/lead-capture-deployment.md.
+
+
+--------------------------------------------------------------------------------
+11. UI Y DISEÑO
+--------------------------------------------------------------------------------
+
+Diseño
+  - DESIGN.md como contrato visual: paleta, tipografia, espaciado, elevacion, componentes.
+  - Tailwind 4 + variables CSS en :root, sobreescritas en [data-theme="light"].
+  - Tema dark por defecto + light. data-theme en <html>, preferencia en localStorage
+    ("theme"), fallback a prefers-color-scheme. Script inline en app.html (sin flash).
+  - Glassmorphism con tokens (surface-glass, border-glass) + backdrop-filter.
+  - Tipografia self hosted en woff2 (Playfair Display para titulos, Plus Jakarta Sans para
+    texto), cache inmutable.
+  - Iconos con @lucide/svelte (envueltos en navigation/Icon.svelte).
+  - Accesibilidad WCAG 2.1 AA, touch targets de 44px, safe areas.
+
+Rendimiento: ver la seccion 11b.
+
+
+--------------------------------------------------------------------------------
+11b. BUENAS PRACTICAS DE PERFORMANCE (CORE WEB VITALS)
+--------------------------------------------------------------------------------
+
+Objetivo: LCP < 2.5 s, CLS < 0.1, INP < 200 ms en movil (Slow 4G). Lighthouse CI exige
+performance >= 0.9 y accessibility, best practices y SEO = 1 en todas las URLs publicas.
+
+Metodo (lo primero, antes que cualquier tecnica)
+  - Nunca optimizar a ciegas: medir -> cambiar UNA cosa -> volver a medir.
+  - Herramientas: chrome-devtools-mcp (traces, insights, red, forced reflows), skill
+    /lighthouse, just test-lighthouse (bunx @lhci/cli autorun, 3 corridas por URL).
+  - Medir contra el build de produccion (bun run preview, puerto 4173), nunca contra dev.
+  - Repetir las corridas: un fallo intermitente (NO_LCP en 3 de 40) no aparece en una sola.
+  - Documentar cada investigacion en docs/ (ej. home-no-lcp-investigation.md,
+    forced-reflow-investigation.md) con numeros medidos, no estimados.
+  - Leer bien los insights de PageSpeed: "Improve image delivery" calcula el ahorro a 1x e
+    ignora el DPR del movil emulado. No achicar imagenes que ya estan bien elegidas.
+
+Render y HTML
+  - Prerenderizar todo lo publico (HTML completo desde el edge, TTFB minimo).
+  - CSS inline en el <head> (kit.inlineStyleThreshold mayor al CSS sin comprimir): cero
+    hojas de estilo render blocking.
+  - Sin scripts de terceros bloqueantes en el critical path. Lo no esencial se carga
+    despues de la interaccion o del LCP.
+  - data-sveltekit-preload-data="hover" en <body>: la siguiente pagina se precarga al
+    pasar el mouse.
+  - Script inline minimo en app.html solo para el tema (evita flash sin bloquear).
+
+Imagen LCP
+  - Una sola imagen LCP por pagina, con fetchpriority="high", decoding="async" y SIN
+    loading="lazy".
+  - Importada desde src/lib/assets/ para que salga hasheada (cache inmutable de 1 año).
+  - Variantes por ancho (400, 512, movil, desktop) con srcset + sizes.
+  - Nada que haga scroll (carruseles con snap, overflow) antes de registrar el LCP:
+    afterLcp() espera a 'load' + una entrada real de largest-contentful-paint (con atajo
+    por input del usuario y timeout de seguridad). Chrome deja de registrar LCP ante
+    cualquier scroll, y un scroll programatico temprano produce NO_LCP.
+
+Imagenes en general
+  - Formatos modernos: WebP + AVIF con <picture>, generados con sharp (scripts/post-images.ts,
+    gen-*-variants.ts). El archivo es el mismo para todos los idiomas.
+  - width y height explicitos en todo <img> (CLS 0).
+  - loading="lazy" + decoding="async" en todo lo que esta debajo del fold.
+  - Atributo sizes MEDIDO en viewports reales (360 a 1920 px) y centralizado en un solo
+    modulo (blog-image-sizes.js). Un test E2E falla si el layout cambia y los numeros
+    quedan viejos: se remide, nunca se amplia la tolerancia.
+  - Nunca inlinear imagenes como base64 (assetsInlineLimit): se repiten en cada HTML.
+  - Imagenes del contenido en R2/CDN con cache larga.
+
+Fuentes
+  - Self hosted en woff2, subset latin, fuentes variables (un archivo cubre todos los pesos).
+  - <link rel="preload" as="font" crossorigin> solo para las fuentes del primer render.
+  - font-display: optional en la fuente de texto (sin swap tardio que mueva el layout) y
+    swap en la de titulos.
+  - Fuente fallback metricamente ajustada (@font-face con local('Georgia'), size-adjust,
+    ascent-override) para que el cambio de fuente no produzca CLS.
+  - Cache-Control immutable de 1 año en /fonts/*.
+  - Idiomas CJK: pila de fuentes del sistema, nunca webfonts de varios MB.
+
+Cache y red
+  - Archivos con hash de contenido (/_app/immutable/*): immutable, 1 año.
+  - Archivos con nombre estable en static/: max-age=86400 + stale-while-revalidate=604800.
+    Nunca immutable sin hash (el visitante veria la version vieja durante un año). Si hay
+    que propagar un cambio ya, se renombra el archivo.
+  - Evitar el default de Workers Assets (max-age=0, must-revalidate): cada navegacion
+    paga un round trip aunque responda 304 (medido: 46% del LCP en Slow 4G).
+  - Variables publicas via $env/static/public: con $env/dynamic/public SvelteKit genera
+    /_app/env.js, un request extra sin cache posible. Hay un test que lo prohibe.
+  - PWA: precache solo del app shell, blog en runtime cache (StaleWhileRevalidate).
+
+JavaScript e interactividad (INP)
+  - Svelte 5 compila a JS minimo, sin runtime de framework pesado.
+  - Montar lo pesado bajo demanda: LazyMount.svelte + IntersectionObserver (reveal,
+    tabla de contenidos, secciones debajo del fold). mermaid solo en /map.
+  - Evitar forced reflows: no leer layout (offsetWidth, getBoundingClientRect) justo despues
+    de escribir estilos en el mismo frame. Agrupar lecturas y escrituras.
+  - Handlers de eventos cortos, trabajo pesado fuera del handler.
+  - Iconos de @lucide/svelte importados uno por uno (tree shaking).
+
+CLS
+  - Dimensiones reservadas para imagenes, embeds y componentes que montan tarde.
+  - Fuentes con fallback ajustado + font-display: optional.
+  - Nada se inserta encima del contenido ya pintado (banners, widgets) sin espacio reservado.
+
+Guards para que la performance no se degrade
+  - tests/asset-caching.spec.ts (+ .prod.spec.ts contra produccion): cabeceras de cache.
+  - tests/home-carousels-lcp.spec.ts: el scroll no ocurre antes del LCP.
+  - tests/blog-image-sizes.spec.ts: sizes medidos vs ancho renderizado real.
+  - package-image-variants.test.ts, no-legacy-package-image-literals.test.ts: las imagenes
+    pasan siempre por el import hasheado.
+  - no-dynamic-public-env.test.ts: sin /_app/env.js.
+  - .lighthouserc.json: umbrales que fallan el CI.
+
+
+--------------------------------------------------------------------------------
+12. TESTING Y GUARDS AUTOMATICOS
+--------------------------------------------------------------------------------
+
+Vitest (bun run test): logica pura y guards de datos, colocados junto al codigo.
+  Guards que convierten reglas del proyecto en tests (la solucion nunca es un allowlist):
+    no-hardcoded-prices.test.ts       Precios solo via helpers
+    sitemap-freshness.test.ts         Toda ruta y paquete declara su fecha
+    site-map.test.ts                  Grafo del silo valido
+    no-dynamic-public-env.test.ts     Prohibe $env/dynamic/public
+    no-legacy-blog-links.test.ts      Sin enlaces a URLs viejas
+    no-legacy-package-image-literals  Imagenes siempre via import hasheado
+    post-faqs-toc-cache-freshness     Caches generadas al dia con los .svx
+    home-h1-gbp-category.test.ts      El H1 del home contiene la categoria principal
+  Server: leads (schema, normalize, recipients, turnstile, service), email templates,
+  reviews/sequence, indexnow.
+
+Playwright (bunx playwright test): tests/*.spec.ts
+  SEO: schema, sitemaps, opengraph, breadcrumbs, llms-txt, faq, pricing-consistency
+  Funcionales: blog, packages, equipment, testimonials, share, map, i18n
+  Performance: asset-caching, home-carousels-lcp, blog-image-sizes
+  playwright.prod.config.ts corre una suite contra produccion.
+
+Lighthouse CI (just test-lighthouse): build + preview + 3 corridas por URL.
+
+Metodologia
+  - TDD estricto (RED -> GREEN -> TRIANGULATE -> REFACTOR).
+  - Toda pagina o feature nueva trae o actualiza su spec E2E.
+  - Nunca reportar un check como PASS contra un build viejo.
+
+
+--------------------------------------------------------------------------------
+13. CALIDAD DE CODIGO Y CONVENCIONES
+--------------------------------------------------------------------------------
+
+  - Codigo en ingles, docs y commits pueden ir en el idioma del equipo.
+  - Conventional commits (feat, fix, docs, refactor...), sin atribucion de IA.
+  - pre-commit: trailing-whitespace, end-of-file-fixer, check-yaml,
+    check-added-large-files, Prettier (js, ts, svelte, css, markdown, yaml).
+  - Svelte 5 runes en todo el proyecto. Actions (use:action) para el DOM, context/stores
+    para estado, Form Actions + use:enhance para formularios con mejora progresiva.
+  - Zod en cada frontera: datos de catalogo, input de API, content map.
+  - Un solo lockfile: bun.lock (evitar que convivan package-lock.json y bun.lock).
+
+Sin caracteres tipograficos de IA (solo ASCII en puntuacion, en TODO archivo)
+  Prohibido                        Usar
+  raya (em dash) y semirraya       coma, dos puntos, punto, parentesis, o "-" / "a" en rangos
+  guion espaciado como raya        reescribir la frase
+  punto y coma                     punto, o coma si la clausula es corta
+  comillas curvas                  ' y "
+  puntos suspensivos de 1 char     ...
+  espacio duro (nbsp)              espacio normal
+  viñeta (bullet)                  "-" al inicio del item
+  guion uniendo palabras en prosa  espacio ("all in one"). El guion queda en slugs,
+                                   archivos, codigo y clases CSS
+  Tildes y ñ SI se mantienen (son idioma). La puntuacion china de ancho completo esta exenta.
+  Refuerzo tecnico: mdsvex con smartypants: false.
+
+Honestidad del contenido
+  - Nunca inventar especificos no verificables (años, clientes, facturacion).
+  - Citar reseñas reales textualmente. Marca y modelo de equipo solo si estan en el inventario.
+
+
+--------------------------------------------------------------------------------
+14. DOCUMENTACION Y TRABAJO CON AGENTES DE IA
+--------------------------------------------------------------------------------
+
+  CLAUDE.md                 Contrato operativo: reglas mandatorias, SSOT, hechos del negocio
+  .agents/BUSINESS.md       Base de conocimiento del negocio
+  .agents/CHANGELOG.md      Registro obligatorio de cada cambio funcional
+  .agents/STRUCTURED_DATA.md, docs/structured-data.md   Estrategia de JSON-LD por tipo de pagina
+  .agents/context/          Material del cliente (inventario CSV, GBP, exports de GSC fechados)
+  docs/                     Runbooks (deploy, DMARC) e investigaciones (performance)
+  DESIGN.md / SEO.md        Diseño y estrategia de contenido
+  .mcp.json                 chrome-devtools-mcp
+  SDD (Spec Driven Development): explore -> propose -> spec -> design -> tasks -> apply ->
+  verify -> archive, con artefactos persistidos (engram u openspec/).
+  Agentes SEO globales: seo-auditor (solo reporta), seo-fixer (arregla),
+  gbp-site-architect (estructura Core 30), reverse-silo-architect, local-content-writer.
+
+
+--------------------------------------------------------------------------------
+15. IMAGENES: FORMATOS, RESOLUCIONES Y HERRAMIENTAS
+--------------------------------------------------------------------------------
+
+15.1 Principio rector
+  Nunca se sirve la imagen original. Se sirve la variante que el slot necesita:
+      ancho de la variante = ancho CSS del slot x DPR del dispositivo
+  El ancho del slot se MIDE en viewports reales (360 a 1920 px), no se estima.
+  Ejemplo MEG: tarjeta del blog de ~370 px CSS -> 600 px cubre DPR 1.5, 700 px cubre DPR
+  1.75 (el movil de Lighthouse), 740 px cubre DPR 2.
+
+15.2 Formatos
+  AVIF   Primera opcion en <picture>. El mas liviano. Calidad 50 (sharp).
+  WebP   Fallback universal dentro de <picture>, y formato unico para las variantes simples.
+         Calidad 82 (cwebp / sharp).
+  SVG    Logos, iconos e ilustraciones vectoriales. Nunca se rasteriza.
+  PNG    Solo favicons e iconos de la PWA (icon-192, icon-512, apple-touch-icon).
+  JPEG/PNG de fotos: solo como FUENTE. Se convierten, nunca se sirven.
+  og:image: MEG usa .webp con width/height declarados. Si el sitio depende mucho de redes
+  sociales o mensajeria, probar la vista previa en cada plataforma destino (un JPG de
+  1200x630 es la opcion mas compatible).
+
+15.3 Resoluciones (escalera de anchos)
+  Fotos del blog     150, 300, 400, 600, 768, 1024, 1536 + original. Sin upscaling: solo se
+                     generan los anchos menores al original. Fallback del src: ~1024.
+  Portadas (covers)  La misma escalera + 600/700 para las tarjetas de listado.
+                     cover-thumbs.json guarda thumb (>= 740 px), srcset y dimensiones del
+                     original (para og:image:width/height).
+  Hero del home      Variantes 400, 512, movil y desktop, importadas por Vite (con hash).
+  Paquetes           Base cuadrada 800x800 + variantes movil/desktop + miniaturas
+                     160x160 (2x del slot de 80 px) y 96x96 (2x del slot de 48 px).
+  Iconos PWA         192x192 y 512x512 (una marcada como maskable).
+
+15.4 Herramientas
+  sharp        Pipeline principal para imagenes nuevas (scripts/post-images.ts): lee
+               cualquier formato (jpg, png, webp, avif, gif, tiff, bmp), genera WebP + AVIF
+               en toda la escalera y extrae la metadata tecnica.
+  cwebp        (brew install webp) Conversiones y resize puntuales: migracion WP,
+               gen-400-variants.ts, gen-cover-variants.ts, gen-package-thumbs.ts.
+  Vite import  Imagenes del propio sitio (hero, logos, miniaturas de paquete) en
+               src/lib/assets/: salen hasheadas en /_app/immutable/ con cache de 1 año.
+  R2 + CDN     Bucket R2 con dominio propio cdn.<dominio>. Cache max-age=31536000: si se
+               re-encodea con el mismo nombre (FORCE=1) hay que purgar las URLs en
+               Cloudflare (Caching -> Purge by URL).
+  Decision     Variantes PREGENERADAS, sin Cloudflare Image Transformations. Tradeoff:
+               mas scripts y mas objetos en R2, a cambio de cero costo por transformacion
+               y control total del peso de cada archivo. Transformations es la alternativa
+               si se prefiere generar al vuelo y pagar por uso.
+
+15.5 Nomenclatura y registro
+  Clave en R2: blog/<id>/<base>[-WxH].<ext>   (mismo estandar que las imagenes de WP)
+  scripts/migrate-wp/manifest.json registra cada variante: URL, dimensiones, mimeType, alt,
+  caption y sourceHash (si el hash no cambio, no se re-encodea ni se re-sube).
+  Metadata semantica opcional en assets/<carpeta>/meta.yaml:
+    <archivo>: { alt, caption, title, description, tags: [...], usage: [...] }
+  El manifest NO se empaqueta en el cliente: lo leen los plugins en build time y la app solo
+  recibe los mapas chicos que necesita (cover-thumbs.json).
+
+15.6 Flujo para una imagen nueva de un post
+  1. Dejar las fuentes en assets/<carpeta>/ (+ meta.yaml con alt y caption).
+  2. just post-images <carpeta> --dry-run      (muestra las claves sin encodear ni subir)
+  3. just post-images <carpeta>                (encodea, sube a R2, actualiza el manifest)
+  4. Pegar el <picture> que queda en assets/_urls.txt dentro del .svx.
+  5. Si es portada: bun scripts/gen-cover-thumbs.ts
+  6. Todo el texto de la imagen (alt, caption, og:image:alt) se traduce por idioma. El
+     archivo es el mismo en todos los idiomas.
+
+15.7 En el HTML (automatico en el build)
+  rehype-blog-images.mjs agrega a cada <img> del post: srcset + sizes medidos, src de
+  fallback, alt del manifest, width/height (CLS 0), loading="lazy", decoding="async", y
+  <figure><figcaption> si hay caption. rehype-image-gallery.mjs agrupa imagenes seguidas en
+  galerias con scroll-snap. En el sitemap de imagenes va solo image:loc.
+
+
+--------------------------------------------------------------------------------
+16. MIGRACION DESDE WORDPRESS
+--------------------------------------------------------------------------------
+
+16.1 Que se hizo en MEG
+  - Blog: 75 posts, 6 categorias y 1 autor migrados de una sola vez con un script propio
+    que lee la WP REST API (/wp-json/wp/v2/posts, con paginacion). Sin plugins de export
+    ni XML de WordPress. Despues de eso el blog crece con just post-new.
+  - Paginas (home, paquetes, legales, contacto...): reconstruidas como rutas SvelteKit,
+    no convertidas automaticamente.
+  - Estructura de URLs: /<slug>/ de WP paso a /blog/<slug>/, con redirects 301.
+  - Imagenes: descargadas de wp-content, convertidas a WebP (cwebp q82, cada variante de
+    tamaño de WP por separado), subidas a R2 y reescritas a cdn.<dominio>.
+  Runbook completo: .agents/WP_MIGRATION.md
+
+  Modulos de scripts/migrate-wp/ (cada uno con su test):
+    wp-client.ts        Cliente de la REST API
+    decode-entities.ts  WP devuelve &amp; &#038; etc. en titulos, categorias y autores
+    downloader.ts       Descarga de media
+    webp.ts             Politica de conversion: png/jpeg -> webp, webp/avif/svg tal cual
+    r2-uploader.ts      Subida a R2 con reintentos (inyecta CLOUDFLARE_ACCOUNT_ID)
+    turndown.ts         HTML -> Markdown (baja el h1 de nivel, quita shortcodes)
+    url-rewriter.ts     URLs de wp-content -> CDN
+    frontmatter.ts      Frontmatter valido del .svx
+    emitter.ts          Escribe src/content/blog/<slug>.svx
+    manifest.ts         Manifest con checkpoint por cada media (idempotente y reanudable)
+    redirects.ts        Bloque gestionado "BEGIN/END wp-blog-redirects" en _redirects
+    index.ts            Orquestador (--dry-run)
+
+  Limpieza posterior (scripts de una sola vez, idempotentes):
+    reconstruct-tables.mjs    Tablas de WP -> tablas markdown GFM
+    fix-blog-links.ts         Enlaces internos a las URLs viejas -> /blog/<slug>/
+    migrate-inline-cta.ts     CTAs de WP -> componente <InlineCTA>
+    backfill-silo-meta.ts     keyword/siloRole/targetPage desde el CSV del silo
+    gen-400-variants.ts       Escalon de 400 px que WP no generaba
+    gen-cover-variants.ts     Escalones de 600/700 px para portadas
+    gen-post-faqs.ts / gen-post-toc.ts   Caches de FAQ y tabla de contenidos
+    Guard: no-legacy-blog-links.test.ts impide que vuelvan enlaces a las URLs viejas.
+
+16.2 Como proceder en una migracion nueva
+  0. Inventario ANTES de tocar nada:
+     - sitemap_index.xml actual del WordPress (Yoast/Rank Math) = lista de URLs vivas.
+     - Export de Google Search Console: URLs indexadas y con trafico (no perder ninguna).
+     - Conteo de posts, paginas, categorias, autores y media.
+     - Decidir la estructura de URLs. Mantener las URLs viejas evita redirects. Si cambian,
+       cada URL vieja necesita un 301 directo (un salto, sin cadenas).
+  1. Verificar la REST API: curl "https://<sitio>/wp-json/wp/v2/posts?per_page=1"
+     (un 401/403 significa que hay que pedir acceso al administrador).
+  2. Cloudflare: crear el bucket R2, conectar el dominio cdn.<dominio> (dashboard) y
+     confirmar con "wrangler whoami" que la CLI esta en la cuenta dueña del sitio.
+  3. just migrate-wp-dry-run: revisar conteos, colisiones de slug, slugs con unicode y
+     entidades HTML. Solo hace GET, no escribe nada.
+  4. just migrate-wp-run: migracion real. Si se corta, se vuelve a correr y retoma desde el
+     manifest.
+  5. Redirects: revisar el bloque generado en _redirects y el limite de reglas del plan
+     vigente (el runbook anoto 100 en el plan gratuito de Pages).
+  6. Limpieza del contenido migrado: h1 duplicado, shortcodes, tablas, tabla de contenidos
+     de WP, enlaces internos viejos, alt vacios y tipografia (comillas curvas, rayas).
+  7. Completar el frontmatter: categorias del vocabulario controlado, keyword, siloRole,
+     targetPage, updatedDate.
+  8. Verificacion: bun run test, build, bunx playwright test, curl -I de cada URL vieja
+     (301 hacia la nueva, y la nueva en 200), conteos de post/category/author sitemaps, e
+     imagenes servidas desde el CDN y no desde wp-content.
+  9. Deploy + Search Console: enviar el sitemap_index.xml nuevo e inspeccionar las URLs
+     principales. Mantener el WordPress viejo sin borrar hasta confirmar la cobertura.
+  10. Rollback: borrar .svx emitidos (todos o uno), borrar objetos de R2, o borrar el
+     manifest para re-migrar desde cero.
+
+16.3 Gotchas encontrados
+  - Cuenta de Cloudflare equivocada en wrangler: los uploads fallan con
+    "Authentication error 10000" o "code 7403". Exportar CLOUDFLARE_ACCOUNT_ID.
+  - Entidades HTML en campos no renderizados de la REST API.
+  - Las anclas de la tabla de contenidos de WP no coinciden con rehype-slug
+    ("FAQs" -> #fa-qs vs #faqs): por eso prerender.handleMissingId = 'warn'.
+  - mdsvex genera <script context="module"> (deprecado en Svelte 5): preprocesador propio.
+  - smartypants de mdsvex mete comillas curvas y rayas aunque la fuente sea ASCII: apagarlo.
+  - WP no genera un escalon de ~400 px: el movil descargaba la variante de 768.
+  - Mantener el runbook al dia y verificarlo contra la cuenta real, no solo contra el repo:
+    el de MEG describia un deploy hook de Pages cuando el sitio ya corria como Worker, y una
+    hora de cron distinta a la del wrangler.toml. El worker de rebuild ni siquiera estaba
+    desplegado (wrangler deployments list -> code 10007), y nadie lo noto porque no habia
+    posts programados.
+
+
+--------------------------------------------------------------------------------
+17. LLMS.TXT
+--------------------------------------------------------------------------------
+
+Referencia: https://llmstxt.org (estandar propuesto por Jeremy Howard, 2024). Archivo de
+texto en la raiz (/llms.txt) que resume el sitio para asistentes de IA.
+
+Formato del estandar
+  # Nombre del sitio                          (H1, obligatorio)
+  > Resumen de una o dos lineas               (blockquote)
+  Parrafos opcionales con contexto
+  ## Seccion                                  (H2)
+  - [Titulo](https://url-absoluta/): descripcion
+  ## Optional                                 (lo que se puede omitir si falta contexto)
+
+Secciones que usa MEG (src/routes/(public)/llms.txt/+server.ts)
+  Docs        Home, Paquetes, Equipamiento, About, Equipo, FAQ, Contacto
+  Packages    Un item por paquete: nombre, precio, capacidad, que incluye (IVA aclarado)
+  Blog        Cantidad de posts, indice, categorias con una descripcion cada una
+  Key Facts   Nombre, año de inicio, direccion, categorias GBP, modelo de servicio,
+              rango de precios, horario, idiomas de atencion, idiomas del sitio, zonas
+  Contact     Web, emails (reservas, general, legal), telefono, WhatsApp, direccion
+  Legal       Privacy, Terms, GDPR, Cookies
+  Optional    Sitemap HTML y sitemap_index.xml
+
+Reglas de implementacion
+  - Endpoint +server.ts con prerender = true, NUNCA un archivo estatico: todo sale de
+    siteConfig, packages.ts y blog.ts. Un precio viejo en llms.txt es peor que en una
+    pagina, porque un asistente se lo cita al cliente como un hecho.
+  - URLs absolutas con trailing slash.
+  - Content-Type text/plain con charset utf-8, cache public, max-age=3600, s-maxage=86400.
+  - Distinguir idiomas del sitio de idiomas de atencion (no prometer lo que no se hace).
+  - NO va en los sitemaps XML (no es una pagina para rankear). Se menciona en robots.txt
+    como comentario.
+  - Test: tests/llms-txt.spec.ts.
+
+
+--------------------------------------------------------------------------------
+18. SITEMAP_INDEX.XML Y PAGINA DEL SITEMAP (HTML)
+--------------------------------------------------------------------------------
+
+18.1 sitemap_index.xml
+  Estructura (un endpoint +server.ts por archivo, todo derivado de los datos):
+    /sitemap_index.xml
+      |-- post-sitemap.xml          posts publicados, lastmod = updatedDate o publishDate,
+      |                             image:loc = coverImage
+      |-- page-sitemap.xml          STATIC_SITEMAP_PAGES + paquetes, lastmod del meta.ts
+      |                             (contentUpdated) o del campo updated del paquete
+      |-- category-sitemap.xml      /blog/category/<slug>/
+      |-- author-sitemap.xml        /blog/author/<slug>/
+      `-- page-sitemap-<locale>.xml uno por idioma publicado, con la fecha de esa traduccion
+
+  Reglas
+  - robots.txt: "Sitemap: https://<dominio>/sitemap_index.xml" (una sola linea, el indice).
+  - Un sitemap sin URLs no se emite y no aparece en el indice.
+  - Un sitemap por tipo y por idioma: Search Console reporta la cobertura de cada uno.
+  - <loc> absoluto, percent encoded y con trailing slash.
+  - <lastmod> sale de la fecha de contenido, nunca de new Date() ni del build.
+  - Imagenes: solo image:loc (Google ya no lee caption ni title del sitemap de imagenes).
+  - hreflang solo en el <head>, no como xhtml:link en el sitemap.
+  - Paginas noindex (/map, /thank-you/) fuera de los sitemaps.
+  - Helpers comunes en src/lib/utils/sitemap.ts: toLastmod(), urlsetXml(), SITEMAP_HEADERS
+    (application/xml, cache 1 h en navegador y 24 h en el edge).
+  - TODOS los hijos usan urlsetXml(), siteConfig.url y SITEMAP_HEADERS. Guard:
+    src/lib/utils/sitemap-endpoints.test.ts falla si un sitemap repite el dominio, las
+    cabeceras o arma el XML a mano.
+  - Toda pagina o post que se crea, edita o borra actualiza su sitemap en el mismo cambio.
+  - Test: tests/sitemaps.spec.ts + sitemap-freshness.test.ts.
+
+18.2 Pagina del sitemap (/sitemap/)
+  Sitemap para personas: ayuda a navegar, reparte enlaces internos y facilita el
+  descubrimiento de paginas al crawler.
+  Contenido
+    - Paginas principales (Home, About, Equipo, Equipamiento, FAQ, Contacto)
+    - Paquetes: derivados de packages.ts con nombre y formatPrice() (nunca a mano)
+    - Blog: categorias, autores y los 20 posts mas recientes (el listado completo
+      esta en los sitemaps XML)
+    - Legales
+  Implementacion
+    - +page.ts carga posts, categorias y autores desde blog.ts.
+    - SeoHead + JSON-LD WebPage con @id "<url>#webpage".
+    - Esta en page-sitemap.xml y en llms.txt (Optional).
+    - Su contentUpdated se mueve cuando se agrega una pagina a su lista.
+
+
+--------------------------------------------------------------------------------
+19. PAGINAS LEGALES
+--------------------------------------------------------------------------------
+
+Paginas (todas indexables, en page-sitemap.xml, enlazadas desde el footer y en llms.txt)
+  /privacy-policy/    Quienes somos, que datos se recogen y para que, reseñas,
+                      conservacion de datos y derechos
+  /terms-of-service/  Aceptacion, alcance del servicio, limites geograficos y operativos,
+                      reservas, precios y fianza, obligaciones del cliente y del equipo
+  /gdpr/              Compromiso RGPD, detalle del tratamiento, derechos del interesado
+                      (acceso, rectificacion, supresion...) y como ejercerlos
+  /cookie-policy/     Que son, categorias usadas, como gestionar las preferencias
+
+Estructura de cada pagina
+  - +page.svelte con SeoHead (title, description, canonical) + JSON-LD WebPage con @id.
+  - meta.ts con contentUpdated (la fecha real del ultimo cambio legal).
+  - Un H1 y secciones H2 numeradas o tematicas.
+
+Buenas practicas
+  - Datos de la empresa (nombre, direccion, emails, en especial el email legal) desde
+    siteConfig. URLs del JSON-LD con i18n.absolute() y canonical derivado de siteConfig.url,
+    nunca el dominio escrito a mano (en MEG el canonical literal todavia aparece en ~14
+    paginas, deuda a no copiar).
+  - La politica de cookies describe las cookies y el almacenamiento REALES del sitio
+    (tema en localStorage, Turnstile, lo que haya). Revisarla cada vez que se agrega un
+    script de terceros.
+  - La politica de privacidad cubre lo que hace el formulario de leads: que datos guarda en
+    D1, cuanto tiempo, que emails envia (Resend) y el pedido de reseña posterior.
+  - Canal real para ejercer los derechos RGPD (un email legal atendido), no solo un boton.
+  - Multilingue: la version en el idioma base prevalece, y cada traduccion lo dice arriba
+    de todo, en su idioma, con enlace a la version original.
+  - En España: validar con un abogado si hace falta un Aviso Legal separado (LSSI-CE, con
+    NIF y datos registrales). Este documento no reemplaza asesoramiento legal.
+
+
+--------------------------------------------------------------------------------
+20. WEB STORIES (AMP STORIES)
+--------------------------------------------------------------------------------
+
+Investigado el 2026-09-24. Estado en MEG: NO implementado. Esta seccion sirve para decidir
+y, si se decide, para construir. Ante una duda se vuelve a leer la fuente (20.13), no este
+resumen.
+
+20.1 Que son
+  Historias verticales a pantalla completa, divididas en paginas que se tocan para avanzar
+  (como las stories de Instagram), pero en la web abierta: cada story es una URL propia,
+  indexable y en el dominio del sitio. Tecnicamente es un documento AMP valido construido
+  con el componente <amp-story>.
+
+20.2 Donde aparecen (doc de Google actualizada el 2026-07-01)
+  - Google Search: como resultado individual, en todas las regiones e idiomas.
+  - Google Discover: como tarjeta individual, con mas probabilidad en Estados Unidos, India
+    y Brasil. España NO esta en esa lista.
+  - Aviso SIN confirmar: un hilo de la comunidad de Search Central reporta que las stories
+    dejaron de aparecer en Discover desde el 21 de abril de 2025. No hay respuesta oficial
+    visible y la doc de Google sigue describiendo la tarjeta de Discover. Medir en Search
+    Console antes de contar con trafico de Discover.
+  - En el propio sitio, embebidas con el Web Story Player (ver 20.7).
+  Consecuencia para un negocio local en España: lo esperable es un resultado mas en Search
+  y contenido visual dentro del sitio, no un canal de trafico de Discover.
+
+20.3 Requisitos obligatorios de Google
+  - AMP valido. Un error de validacion la deja fuera de las superficies de stories.
+  - <link rel="canonical"> autorreferente: la story es su propia URL canonica.
+  - Indexable: sin noindex y sin bloqueo en robots.txt.
+  - Descubrible: enlazada desde el sitio (home, categorias) y listada en un sitemap.
+  - hreflang si hay versiones por idioma.
+  - Atributos obligatorios del <amp-story>: standalone, title, publisher,
+    publisher-logo-src y poster-portrait-src.
+
+20.4 Metadatos e imagenes (amp.dev, "Metadata guidelines")
+  Atributo              Proporcion  Minimo     Reglas
+  publisher-logo-src    1:1         96x96      raster (la doc da jpg, png, gif como ejemplo),
+                                               sin SVG, sin animacion, fondo opaco, legible,
+                                               el mismo logo en todas las stories
+  poster-portrait-src   3:4         640x853    raster, representativo de toda la story,
+                                               SIN texto dentro de la imagen
+  poster-square-src     1:1         640x640    recomendado
+  poster-landscape-src  4:3         853x640    recomendado
+  - Titulo: menos de 90 caracteres, idealmente menos de 70.
+  - En el <head> ademas: meta description, og:image, Open Graph, Twitter Card y JSON-LD.
+    La doc pide datos estructurados sin fijar un tipo. Article es la opcion natural.
+  - Otros atributos del <amp-story>: supports-landscape (recomendado, habilita desktop a
+    pantalla completa), background-audio, live-story (actualizacion en vivo, polling minimo
+    de 15 s), desktop-aspect-ratio.
+  - Nota del stack: el pipeline de la seccion 15 genera WebP y AVIF. Para el logo y los
+    posters generar ademas JPG (posters) y PNG (logo), que son los formatos que la doc nombra.
+
+20.5 Estructura minima del documento
+  <!doctype html>
+  <html amp lang="en">                         ("amp" equivale al simbolo del rayo)
+  <head>
+    <meta charset="utf-8">
+    <title>...</title>
+    <link rel="canonical" href="https://<dominio>/<ruta-de-la-story>/">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>...</style>         (copiar literal de amp.dev, no reescribir)
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-story"
+            src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <style amp-custom>...</style>              (maximo 75.000 bytes de CSS)
+    meta description, Open Graph, Twitter Card, hreflang, JSON-LD
+  </head>
+  <body>
+    <amp-story standalone title="..." publisher="..." publisher-logo-src="..."
+               poster-portrait-src="..." supports-landscape>
+      <amp-story-page id="cover">
+        <amp-story-grid-layer template="fill"><amp-img ...></amp-img></amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical"><h1>...</h1></amp-story-grid-layer>
+      </amp-story-page>
+      ...
+      <amp-story-page id="cta">
+        ...
+        <amp-story-page-outlink layout="nodisplay">
+          <a href="https://<dominio>/packages/<slug>/">...</a>
+        </amp-story-page-outlink>
+      </amp-story-page>
+    </amp-story>
+  </body>
+  </html>
+
+  - Plantillas de capa: fill (media a pantalla completa), vertical, horizontal, thirds.
+  - Animaciones: animate-in, con animate-in-duration, -delay, -after (encadenar por id) y
+    -timing-function. Parametros de zoom y pan: scale-start/end, translate-x/y.
+  - Restricciones: CERO JavaScript propio (solo componentes AMP), imagenes con <amp-img>,
+    video con <amp-video>, CSS solo inline en <style amp-custom>.
+
+20.6 Componentes: vigentes y deprecados
+  Usar
+    amp-story-page-outlink     Enlace de un toque (swipe up o tap) al final de una pagina.
+                               Ultimo hijo de <amp-story-page>, layout="nodisplay", un solo <a>.
+    amp-story-page-attachment  Contenido extra desplegable para profundizar. NO convive con
+                               un outlink en la misma pagina: uno u otro.
+    amp-video                  Con object-position para recortar y cache="google".
+    amp-consent                Pedido de consentimiento dentro de la story.
+  No usar
+    amp-story-bookend          Pantalla final de enlaces. Deprecado, con Intent to Remove.
+    amp-story-cta-layer        Deprecado a favor de amp-story-page-outlink.
+    Outlink con amp-story-page-attachment: esa funcion paso a amp-story-page-outlink.
+
+20.7 Embeber stories en paginas no AMP (Web Story Player)
+  <script async src="https://cdn.ampproject.org/amp-story-player-v0.js"></script>
+  <link href="https://cdn.ampproject.org/amp-story-player-v0.css" rel="stylesheet">
+  <amp-story-player>                           (width y height fijos en style inline)
+    <a href="https://<dominio>/<ruta-de-la-story>/">Titulo</a>
+  </amp-story-player>
+  - Tamaño inline con proporcion 3:5 para no provocar CLS mientras carga el script.
+  - Varias stories en un player (un <a> por story) y carga infinita via endpoint JSON.
+  - Costo en este stack: script y CSS de un tercero. Ese CSS bloquea el render y choca con
+    la regla de cero hojas bloqueantes (seccion 11b). Montarlo con LazyMount debajo del
+    fold y medir con Lighthouse antes y despues.
+  - El player abre cada story en un iframe. Con X-Frame-Options SAMEORIGIN (seccion 3)
+    funciona para stories del mismo dominio. Para que otros sitios las embeban habria que
+    relajar ese header solo en la ruta de stories.
+  - Alternativa sin JS: una tarjeta estatica (poster + titulo) que enlaza a la story. Es la
+    opcion por defecto, y el player solo si la medicion lo permite.
+
+20.8 Buenas practicas de contenido (doc de Google actualizada el 2026-06-09)
+  Criticas
+  - Video primero ("Use as much video as possible"), apoyado con imagenes y texto.
+  - Unos 280 caracteres de texto por pagina (el largo de un tweet). Sin paredes de texto.
+  - Texto como HTML real, nunca quemado en la imagen o el video: no escala, se superpone,
+    Google no lo lee y no se puede traducir.
+  - Nada tapa el texto.
+  - Animaciones con mesura, sin efectos repetitivos que cansen.
+  - Poster sin texto. Logo de alta resolucion en la portada.
+  Recomendadas
+  - Video: menos de 15 s por pagina y 60 s como maximo. Audio de calidad (al menos 5 s,
+    volumen parejo, voz audible). Subtitulos que no esten quemados en el video.
+  - Stories solo de video: auto avance (auto-advance-after) y texto preciso en el atributo
+    title de cada <amp-video>.
+  - Narrativa completa: arco, suspenso y un cierre que pague. Perspectiva propia.
+  - Imagenes a sangre completa y en alta resolucion, bien recortadas a vertical, con alt.
+  - Sin CTAs de otra plataforma ("seguinos en Instagram", "suscribite en YouTube").
+  - Adjuntos (page attachment) para quien quiera profundizar.
+  - HTML semantico.
+  - Integrar al sitio: enlaces desde home y categorias, misma estructura de directorios que
+    el resto del contenido. No hace falta indicar "web story" en la URL.
+
+20.9 Validacion y monitoreo
+  Herramienta                        Uso
+  amphtml-validator (npm)            CLI y API de Node. Validar cada story en los tests.
+                                     OJO: por defecto descarga el validador del CDN de AMP,
+                                     asi que el test depende de la red (o se fija una copia).
+  @ampproject/toolbox-optimizer      Optimizacion server side del HTML AMP (opcional).
+  AMP Test Tool                      https://search.google.com/test/amp (solo URL publica).
+  Rich Results Test                  JSON-LD de la story.
+  URL Inspection (Search Console)    Estado real de indexacion. Google la recomienda sobre el
+                                     AMP Test para confirmar que la story esta indexada.
+  AMP status report (Search Console) Errores AMP de todo el sitio.
+  En local no hay URL publica: el validador npm es la unica verificacion antes del deploy.
+
+20.10 Herramientas de creacion
+  - Codigo propio: la opcion para este stack (ver 20.11).
+  - Editores no code listados en amp.dev: MakeStories, Tappable, Zazu, CleverPush, Snackeet,
+    Newsroom AI, GliaStory, Pendular.io, Product Stories, StorifyMe.
+  - Web Stories for WordPress: plugin oficial de Google, open source y mantenido. Solo sirve
+    en sitios WordPress.
+  Tradeoff de los editores: exportan HTML listo, pero ese HTML no pasa por el SSOT (NAP,
+  precios, i18n) ni por los guards. En un sitio de 14 idiomas con precios derivados, un HTML
+  exportado es una segunda fuente de verdad que deriva en silencio.
+
+20.11 Como encajaria en SvelteKit + Cloudflare (diseño propuesto, no implementado)
+  Problema: SvelteKit no produce AMP valido. Hidrata con su JS, inyecta su CSS y sus scripts
+  y envuelve todo en el layout. Una story NO puede ser un +page.svelte.
+  Diseño
+  - Datos de cada story en un modulo tipado y validado con Zod: paginas, media, texto por
+    locale, outlink y fechas (publicada, actualizada). El texto de la story vive al lado de
+    sus datos, igual que meta.ts junto a cada ruta.
+  - Funcion PURA renderStory(story, locale) que devuelve el HTML AMP como string. Escapa
+    todo el texto. Se testea con Vitest sin DB ni red (salvo el validador).
+  - Endpoint +server.ts con prerender = true, FUERA del group (public) para que no herede
+    el layout. Content-Type text/html con charset utf-8.
+  - URLs por idioma: pasan por el mismo reroute de hooks.ts, asi que el content map de cada
+    locale necesita el tipo "stories" con su slug traducido.
+  - hreflang, canonical y JSON-LD los arma renderStory (la story no usa SeoHead), desde los
+    mismos alternates que el resto del sitio. JSON-LD con la empresa por @id
+    (#organization), nunca redefinida.
+  - Precios con formatPrice(), nunca literales (no-hardcoded-prices escanea src/**).
+  - Sitemap: story-sitemap.xml y story-sitemap-<locale>.xml con urlsetXml(), listados en
+    sitemap_index.xml (seccion 18). lastmod desde la fecha de la story, image:loc del poster.
+  - Guards: un test de Vitest pasa cada story renderizada por amphtml-validator y comprueba
+    minimos (titulo menor a 90 caracteres, poster 640x853 o mas, logo 96x96 o mas). Un spec
+    de Playwright verifica 200, canonical, hreflang reciproco y presencia en el sitemap.
+  - Cache: nombre estable, asi que max-age corto + stale-while-revalidate, nunca immutable.
+  - PWA: fuera del precache, igual que el blog.
+  - La regla 12 (sin caracteres tipograficos de IA) aplica igual al texto de las stories.
+
+20.12 Costo y recomendacion para MEG
+  - Regla de los 14 idiomas: una story son 14 versiones en el mismo cambio, cada una con su
+    hreflang, su sitemap y su texto revisado.
+  - Discover prioriza EE.UU., India y Brasil, y hay reportes sin confirmar de que dejo de
+    mostrar stories. El publico de MEG esta en Malaga.
+  - Material natural si se hace: eventos reales de los posts News (video del montaje, fotos
+    propias), una story por paquete con formatPrice() y outlink a /packages/<slug>/.
+  - Recomendacion: no arrancar hasta cerrar las Fases 3 y 4 del i18n. Es una decision del
+    usuario, con fecha, como crear una categoria del blog.
+
+20.13 Referencias
+  Google Search Central
+    Habilitar Web Stories en Google
+      https://developers.google.com/search/docs/appearance/enable-web-stories
+    Buenas practicas de creacion
+      https://developers.google.com/search/docs/appearance/web-stories-creation-best-practices
+    Validar paginas AMP
+      https://developers.google.com/search/docs/crawling-indexing/amp/validate-amp
+    AMP Test Tool
+      https://search.google.com/test/amp
+    Hilo de la comunidad: stories fuera de Discover desde el 2025-04-21 (sin confirmar)
+      https://support.google.com/webmasters/thread/341400702
+  amp.dev
+    Que son las Web Stories y editores
+      https://amp.dev/about/stories
+    Componente amp-story (metadatos, atributos, animaciones)
+      https://amp.dev/documentation/components/amp-story/#metadata-guidelines
+    Tutorial: crear una story
+      https://amp.dev/documentation/guides-and-tutorials/start/visual_story/
+    amp-story-page-outlink
+      https://amp.dev/documentation/components/amp-story-page-outlink
+    Embeber stories en paginas no AMP
+      https://amp.dev/documentation/guides-and-tutorials/integrate/embed-stories-nonamp
+      https://amp.dev/documentation/guides-and-tutorials/integrate/web-story-player-guide
+    Validar AMP
+      https://amp.dev/documentation/guides-and-tutorials/learn/validation-workflow/validate_amp
+  GitHub y npm
+    Deprecacion de amp-story-bookend
+      https://github.com/ampproject/amphtml/issues/33218
+    Deprecacion de amp-story-cta-layer
+      https://github.com/ampproject/amphtml/issues/34450
+    amphtml-validator
+      https://www.npmjs.com/package/amphtml-validator
+    AMP Toolbox (optimizer)
+      https://github.com/ampproject/amp-toolbox
+    Web Stories for WordPress
+      https://github.com/GoogleForCreators/web-stories-wp
+
+
+--------------------------------------------------------------------------------
+21. CHECKLIST PARA ARRANCAR UN SITIO NUEVO
+--------------------------------------------------------------------------------
+
+  [ ] bunx sv create (SvelteKit + TS) con add-ons mdsvex y sveltekit-adapter (cloudflare)
+  [ ] bun add zod @lucide/svelte mermaid remark-gfm
+  [ ] bun add -d tailwindcss @tailwindcss/vite @vite-pwa/sveltekit vitest @vitest/coverage-v8
+      @playwright/test wrangler sharp rehype-slug unist-util-visit
+  [ ] svelte.config.js: runes, adapter-cloudflare, mdsvex con smartypants: false,
+      inlineStyleThreshold, handleMissingId
+  [ ] vite.config.ts: tailwind, PWA, ssr.noExternal para lucide, assetsInlineLimit
+  [ ] wrangler.toml + scripts build/check con "wrangler types" antes de vite build
+  [ ] Justfile con dev/build/preview/check/test/playwright/test-lighthouse/deploy/post-*
+  [ ] .pre-commit-config.yaml + Prettier con plugin de Svelte
+  [ ] _headers (seguridad + cache) y los mismos headers en hooks.server.ts
+  [ ] src/lib/data/site.ts (NAP) como SSOT + catalogo con Zod y helpers de precio
+  [ ] SeoHead.svelte + utils/schema.ts (#organization unico por @id) + BreadcrumbList
+  [ ] sitemap_index.xml + sitemaps por tipo con urlsetXml() + robots.txt (seccion 18)
+  [ ] llms.txt como endpoint derivado de los datos (seccion 17)
+  [ ] Pagina /sitemap/ + las 4 paginas legales con datos desde siteConfig (secciones 18 y 19)
+  [ ] Bucket R2 + cdn.<dominio> + just post-images con escalera WebP/AVIF (seccion 15)
+  [ ] Si viene de WordPress: inventario + dry run + redirects 301 (seccion 16)
+  [ ] meta.ts con contentUpdated junto a cada ruta + test de frescura
+  [ ] Blog en src/content/blog/*.svx con el frontmatter de la seccion 7.3 + post-new/post-touch
+  [ ] Tema dark/light con data-theme y script anti flash en app.html
+  [ ] DESIGN.md con tokens antes del primer componente
+  [ ] Tests guard (precios, frescura, env dinamico) + specs SEO en Playwright
+  [ ] .lighthouserc.json con umbrales y lista de URLs
+  [ ] Si hay formularios: D1 + migraciones, Turnstile, Resend via fetch, Worker de cron aparte
+  [ ] Si hay varios idiomas: locales.ts, param matcher, reroute en hooks.ts, content map
+      con Zod y hreflang en SeoHead desde el dia uno
+  [ ] Si hay Web Stories: endpoint AMP fuera del layout, renderStory() puro, validacion con
+      amphtml-validator en los tests y story-sitemap por idioma (seccion 20)
+  [ ] CLAUDE.md con reglas, SSOT y comandos, .agents/CHANGELOG.md, docs/ con runbooks
