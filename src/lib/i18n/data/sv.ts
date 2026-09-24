@@ -15,7 +15,7 @@ export default {
 			seo: { title: 'Eco Pack: hyr billigt festpaket med ljud och ljus i Malaga' },
 			landing: {
 				badge: 'Mindre evenemang och fester',
-				rateLabel: 'Prisvärt allt-i-ett-pris',
+				rateLabel: 'Prisvärt fast totalpris',
 				vatNote: '(+21% moms), installation och transport ingår',
 				specTitle: 'Upp till 50 gäster',
 				specBody: 'Perfekt för villor, trädgårdar och privata lokaler.',
@@ -32,7 +32,7 @@ export default {
 		},
 		wedding: {
 			updated: '2026-09-24',
-			desc: 'Wedding Pack är designat till perfektion för magiska och oförglömliga bröllopsfiranden. Hyr bröllop ljud och ljus av högsta klass: ett professionellt förstklassigt ljudsystem, romantisk stämningsbelysning och trådlösa mikrofoner för rörande tal.',
+			desc: 'Wedding Pack är designat till perfektion för magiska och oförglömliga bröllopsfiranden. Hyr ljud och ljus till bröllop av högsta klass: ett professionellt förstklassigt ljudsystem, romantisk stämningsbelysning och trådlösa mikrofoner för rörande tal.',
 			includes: [
 				'Förstklassigt aktivt PA-ljudsystem för upp till 80 gäster',
 				'Ljusslingor/varma LED-strängar för romantisk stämningsbelysning',
@@ -43,10 +43,10 @@ export default {
 				'Snabb nedmontering och logistisk hämtning efter evenemanget'
 			],
 			optional: ['Professionell rök-/dimmaskin (+20€)'],
-			seo: { title: 'Wedding Pack: hyr bröllop ljud och ljus i Malaga' },
+			seo: { title: 'Wedding Pack: hyr ljud och ljus till bröllop i Malaga' },
 			landing: {
 				badge: 'Vårt mest populära firandepaket',
-				rateLabel: 'Premium allt-i-ett-pris',
+				rateLabel: 'Premium fast totalpris',
 				vatNote: '(+21% moms), installation och support på plats ingår',
 				specTitle: 'Upp till 80 gäster',
 				specBody: 'Perfekt för vackra villor, fincas och bröllopshotell.',
@@ -172,7 +172,7 @@ export default {
 			question:
 				'Vad gör Malaga Event Gear (MEG) unikt jämfört med andra företag för uthyrning av ljud- och bildutrustning?',
 			answer:
-				'MEG skiljer sig genom ett kundfokuserat och strömlinjeformat arbetssätt: en dedikerad tekniker på plats vid varje bokning, förstklassiga varumärken och transparenta allt-i-ett-priser. Vi rör oss mot en helt digital bokningsupplevelse med standardiserade fasta priser och fullt transparenta transaktioner.'
+				'MEG skiljer sig genom ett kundfokuserat och strömlinjeformat arbetssätt: en dedikerad tekniker på plats vid varje bokning, förstklassiga varumärken och transparenta fasta totalpriser. Vi rör oss mot en helt digital bokningsupplevelse med standardiserade fasta priser och fullt transparenta transaktioner.'
 		},
 		'booking-process': {
 			question: 'Hur fungerar bokningsprocessen hos Malaga Event Gear?',

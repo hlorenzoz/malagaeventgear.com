@@ -5,7 +5,7 @@ export default {
 		'/': { path: '/', keyword: 'hyra eventteknik Malaga', status: 'propuesta' },
 		'/about-us/': { path: '/om-oss/', keyword: 'uthyrningsföretag AV utrustning Malaga', status: 'propuesta' },
 		'/contact/': { path: '/kontakt/', keyword: 'offert eventteknik Malaga', status: 'propuesta' },
-		'/equipment/': { path: '/utrustning/', keyword: 'ljud och ljus utrustning hyra', status: 'propuesta' },
+		'/equipment/': { path: '/utrustning/', keyword: 'hyra ljud och ljusutrustning', status: 'propuesta' },
 		'/packages/': { path: '/paket/', keyword: 'eventpaket priser Malaga', status: 'propuesta' },
 		'/faq/': { path: '/vanliga-fragor/', keyword: 'hyra utrustning vanliga frågor', status: 'propuesta' },
 		'/meet-the-team/': { path: '/vart-team/', keyword: 'tekniker team Malaga', status: 'propuesta' },
@@ -25,7 +25,7 @@ export default {
 	segments: { category: 'kategori', author: 'forfattare' },
 	packages: {
 		eco: { slug: 'eco-paket', keyword: 'billigt festpaket hyra Malaga', status: 'propuesta' },
-		wedding: { slug: 'brollop-paket', keyword: 'bröllop ljud och ljus hyra', status: 'propuesta' },
+		wedding: { slug: 'brollop-paket', keyword: 'hyra ljud och ljus till bröllop', status: 'propuesta' },
 		'product-presentation': {
 			slug: 'produktpresentation-paket',
 			keyword: 'projektor och duk hyra presentation',
