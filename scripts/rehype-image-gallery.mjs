@@ -11,7 +11,8 @@
  * - Must run AFTER rehype-blog-images (so srcset is already set).
  *
  * "Standalone image" definition:
- *   A <p> element that has exactly one child which is an <img> element.
+ *   A <p> element that has exactly one child which is an <img> element, or a <picture>
+ *   (rehype-blog-images wraps an image with AVIF variants in <picture>).
  *   (Markdown paragraphs that only contain an image render as `<p><img></p>` in rehype.)
  */
 import { visit } from 'unist-util-visit';
@@ -24,31 +25,41 @@ function toText(node) {
 	return (node.children ?? []).map(toText).join('');
 }
 
-/**
- * Returns true if the node is a `<p>` containing exactly one `<img>`.
- * @param {import('hast').Node} node
- * @returns {boolean}
- */
+/** An <img>, or the <picture> that rehype-blog-images wraps around it. */
+function isImage(node) {
+	return node.type === 'element' && (node.tagName === 'img' || node.tagName === 'picture');
+}
+
 function hasImgChild(node) {
-	return (node.children ?? []).some((c) => c.type === 'element' && c.tagName === 'img');
+	return (node.children ?? []).some(isImage);
 }
 
 function isStandaloneImage(node) {
 	if (node.type !== 'element') return false;
-	// <figure> produced by rehype-blog-images for captioned images (img + figcaption)
+	// <figure> produced by rehype-blog-images for captioned images (image + figcaption)
 	if (node.tagName === 'figure') return hasImgChild(node);
-	// <p> containing exactly one <img> (uncaptioned standalone image)
+	// <p> containing exactly one image (uncaptioned standalone image)
 	if (node.tagName === 'p') {
 		const meaningful = (node.children ?? []).filter(
 			(c) => !(c.type === 'text' && !c.value?.trim())
 		);
-		return (
-			meaningful.length === 1 &&
-			meaningful[0].type === 'element' &&
-			meaningful[0].tagName === 'img'
-		);
+		return meaningful.length === 1 && isImage(meaningful[0]);
 	}
 	return false;
+}
+
+/**
+ * Sets `sizes` on the <img> and, inside a <picture>, on every <source>: the browser picks
+ * the variant from the <source> it uses, so a <source> left with the prose `sizes` would
+ * download a bigger AVIF than the gallery slot needs.
+ */
+function setSizes(node, sizes) {
+	if (node.type !== 'element') return;
+	if ((node.tagName === 'img' || node.tagName === 'source') && node.properties) {
+		node.properties.sizes = sizes;
+		return;
+	}
+	if (node.tagName === 'picture') for (const c of node.children ?? []) setSizes(c, sizes);
 }
 
 export function rehypeImageGallery() {
@@ -68,17 +79,14 @@ export function rehypeImageGallery() {
 		if (indices.length < 2) return;
 
 		// Build one slide per image block. Captioned images are already
-		// <figure><img><figcaption>, keep their children. Bare <p><img></p> unwrap to the <img>.
+		// <figure><img|picture><figcaption>, keep their children. Bare <p><img></p> (or
+		// <p><picture></p>) unwrap to the image.
 		const slides = indices.map((idx) => {
 			const node = children[idx];
 			const slideChildren =
-				node.tagName === 'figure'
-					? node.children ?? []
-					: (node.children ?? []).filter((c) => c.type === 'element' && c.tagName === 'img');
+				node.tagName === 'figure' ? node.children ?? [] : (node.children ?? []).filter(isImage);
 			// Un item de galeria es mas angosto que la columna: reemplaza el sizes de prosa.
-			for (const c of slideChildren) {
-				if (c.type === 'element' && c.tagName === 'img' && c.properties) c.properties.sizes = GALLERY_SIZES;
-			}
+			for (const c of slideChildren) setSizes(c, GALLERY_SIZES);
 			return {
 				type: 'element',
 				tagName: 'figure',

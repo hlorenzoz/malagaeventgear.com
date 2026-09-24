@@ -44,37 +44,76 @@ const baseOf = (url) => url.replace(/(-\d+x\d+)?\.[a-z0-9]+$/i, '');
 const SIZES = PROSE_SIZES;
 const FALLBACK_TARGET = 1024;
 
+/**
+ * Indexes the manifest by URL (alt, caption, dimensions) and by base (every rung of one
+ * image). Each rung keeps its `avif` sibling URL when post-images.ts uploaded one: the AVIF
+ * is stored as a field of the WebP entry, never as its own entry, so grouping by base never
+ * mixes the two formats in one srcset.
+ */
+function buildIndex(manifest) {
+	const byUrl = {};
+	const byBase = new Map();
+	for (const e of Object.values(manifest?.media ?? {})) {
+		if (!e.r2Url) continue;
+		byUrl[e.r2Url] = {
+			alt: decodeEntities(e.alt) || decodeEntities(stripHtml(e.title)),
+			caption: decodeEntities(stripHtml(e.caption || '')),
+			width: e.width,
+			height: e.height
+		};
+		const base = baseOf(e.r2Url);
+		if (!byBase.has(base)) byBase.set(base, []);
+		byBase.get(base).push({ url: e.r2Url, avif: e.avifUrl, width: e.width ?? 0, height: e.height ?? 0 });
+	}
+	for (const list of byBase.values()) list.sort((a, b) => a.width - b.width);
+	return { byUrl, byBase };
+}
+
 let cache = null;
 function loadIndex() {
 	if (cache) return cache;
-	const byUrl = {};
-	const byBase = new Map();
+	let manifest = null;
 	try {
-		const manifest = JSON.parse(
-			readFileSync(resolve('scripts/migrate-wp/manifest.json'), 'utf8')
-		);
-		for (const e of Object.values(manifest.media ?? {})) {
-			if (!e.r2Url) continue;
-			byUrl[e.r2Url] = {
-				alt: decodeEntities(e.alt) || decodeEntities(stripHtml(e.title)),
-				caption: decodeEntities(stripHtml(e.caption || '')),
-				width: e.width,
-				height: e.height
-			};
-			const base = baseOf(e.r2Url);
-			if (!byBase.has(base)) byBase.set(base, []);
-			byBase.get(base).push({ url: e.r2Url, width: e.width ?? 0, height: e.height ?? 0 });
-		}
+		manifest = JSON.parse(readFileSync(resolve('scripts/migrate-wp/manifest.json'), 'utf8'));
 	} catch {
 		// Manifest absent (e.g. fresh checkout), the plugin becomes a no-op enricher.
 	}
-	for (const list of byBase.values()) list.sort((a, b) => a.width - b.width);
-	cache = { byUrl, byBase };
+	cache = buildIndex(manifest);
 	return cache;
 }
 
-export function rehypeBlogImages() {
-	const { byUrl, byBase } = loadIndex();
+/**
+ * Wraps an enriched <img> in <picture> with an AVIF <source> listing the rungs that have an
+ * AVIF sibling. The browser uses the first <source> whose type it supports and falls back to
+ * the <img> (WebP srcset) otherwise: format negotiation in the browser, no JavaScript and no
+ * user agent sniffing. Returns the <img> unchanged when no rung has an AVIF sibling.
+ */
+function withAvifSource(img, variants) {
+	const avif = variants.filter((v) => v.avif);
+	if (avif.length === 0) return img;
+	return {
+		type: 'element',
+		tagName: 'picture',
+		properties: {},
+		children: [
+			{
+				type: 'element',
+				tagName: 'source',
+				properties: {
+					type: 'image/avif',
+					srcset: avif.map((v) => `${v.avif} ${v.width}w`).join(', '),
+					sizes: img.properties.sizes
+				},
+				children: []
+			},
+			img
+		]
+	};
+}
+
+/** `options.manifest` replaces the manifest file (tests). */
+export function rehypeBlogImages(options = {}) {
+	const { byUrl, byBase } = options.manifest ? buildIndex(options.manifest) : loadIndex();
 	return (tree) => {
 		// First pass: enrich <img> attributes and mark which need caption wrapping.
 		// We use a custom walk to also handle the parent so we can replace <p><img></p>
@@ -82,6 +121,8 @@ export function rehypeBlogImages() {
 
 		visit(tree, 'element', (node, index, parent) => {
 			if (node.tagName !== 'img' || !node.properties) return;
+			// Already inside a <picture> (this plugin wrapped it): never wrap it twice.
+			if (parent?.type === 'element' && parent.tagName === 'picture') return;
 			const src = node.properties.src;
 			if (typeof src !== 'string') return;
 
@@ -92,6 +133,8 @@ export function rehypeBlogImages() {
 			node.properties.decoding ??= 'async';
 
 			const variants = byBase.get(baseOf(src))?.filter((v) => v.width > 0);
+			// The node that ends up in the tree: the <img>, or a <picture> wrapping it.
+			let rendered = node;
 			if (variants && variants.length > 1) {
 				node.properties.srcset = variants.map((v) => `${v.url} ${v.width}w`).join(', ');
 				node.properties.sizes ??= SIZES;
@@ -101,40 +144,22 @@ export function rehypeBlogImages() {
 				node.properties.src = fallback.url;
 				if (node.properties.width == null) node.properties.width = fallback.width;
 				if (node.properties.height == null) node.properties.height = fallback.height;
+				rendered = withAvifSource(node, variants);
 			} else if (meta) {
 				if (meta.width != null && node.properties.width == null) node.properties.width = meta.width;
 				if (meta.height != null && node.properties.height == null)
 					node.properties.height = meta.height;
 			}
 
-			// Caption wrapping: when the manifest has a non-empty caption and the parent
-			// is a <p> element, replace the <p><img></p> with <figure><img><figcaption></figure>.
+			// Caption wrapping: when the manifest has a non-empty caption and the parent is a
+			// <p>, turn that <p> into <figure>, holding the image and a <figcaption>. The <p> is
+			// mutated in place because visit only hands us the parent, not the grandparent.
 			const caption = meta?.caption;
 			if (caption && parent && parent.type === 'element' && parent.tagName === 'p' && index != null) {
-				// Build <figure> wrapping the enriched <img> + <figcaption>
-				const figureNode = {
-					type: 'element',
-					tagName: 'figure',
-					properties: {},
-					children: [
-						node,
-						{
-							type: 'element',
-							tagName: 'figcaption',
-							properties: {},
-							children: [{ type: 'text', value: caption }]
-						}
-					]
-				};
-
-				// Replace the parent <p> in its grandparent's children array.
-				// We need to find the grandparent, but visit gives us parent of the <img>
-				// (which is the <p>). We can mutate the <p> itself to become a <figure>.
-				// The safest approach: turn the <p> into a <figure> by mutating in place.
 				parent.tagName = 'figure';
 				parent.properties = {};
 				parent.children = [
-					node,
+					rendered,
 					{
 						type: 'element',
 						tagName: 'figcaption',
@@ -142,9 +167,10 @@ export function rehypeBlogImages() {
 						children: [{ type: 'text', value: caption }]
 					}
 				];
-				// Return early, we've already modified the parent node in-place
 				return;
 			}
+
+			if (rendered !== node && parent && index != null) parent.children[index] = rendered;
 		});
 	};
 }
