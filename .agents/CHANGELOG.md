@@ -7,6 +7,23 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Added (blog-avif-picture)
+- **Las imagenes del blog con AVIF se sirven como `<picture>`**: `scripts/rehype-blog-images.mjs` envuelve el `<img>` en `<picture>` con un `<source type="image/avif">` armado desde el campo `avifUrl` del manifest (solo los escalones que tienen AVIF, mismo `sizes`). El navegador elige el formato que soporta, sin JavaScript. El `<img>` WebP queda como fallback. Antes `post-images.ts` subia el AVIF pero ningun HTML lo usaba. Medido: 5.0 KB en AVIF contra 8.4 KB en WebP en la misma variante de 400 px.
+- **`scripts/rehype-image-gallery.mjs`** reconoce `<p><picture></p>` y el `<figure>` con `<picture>` como imagen suelta, y pone el `sizes` de galeria tambien en el `<source>`.
+- **Alcance hoy**: la galeria del post de ECOC 2026 (10 `<picture>`), las unicas imagenes subidas con `post-images.ts`. Las variantes migradas de WordPress son solo WebP y quedan como `<img>`. Las portadas no cambian.
+- **Limpieza**: se elimina un `figureNode` que se construia y no se usaba en `rehype-blog-images.mjs`. El plugin acepta `options.manifest` para testearlo sin el archivo.
+- **Tests**: `scripts/rehype-blog-images.test.ts` (5), `scripts/rehype-image-gallery.test.ts` (4), E2E `tests/blog-avif.spec.ts` (markup y `currentSrc` en `.avif` en Chromium). `tests/blog-image-sizes.spec.ts` sigue 17/17 sobre la misma galeria. Vitest 1744/1744, build de produccion OK.
+- **Docs**: `CLAUDE.md` (Reglas del body, regla 4: imagenes con `just post-images` y markdown simple, nunca `<picture>` a mano) e `infra.txt` §15.
+
+### Changed (sitemap-endpoints-ssot)
+- **Los 4 sitemaps que repetian dominio, cabeceras y XML a mano** (`post-sitemap.xml`, `page-sitemap.xml`, `category-sitemap.xml`, `author-sitemap.xml`) pasan a `siteConfig.url`, `SITEMAP_HEADERS` y `urlsetXml()`, igual que `page-sitemap-<locale>.xml`. Misma salida (URLs, `lastmod`, `image:loc` y cabeceras). Solo cambian la indentacion del XML y el `xsi:schemaLocation` opcional que tenia `page-sitemap.xml`. `tests/sitemaps.spec.ts` 10/10.
+- **Guard nuevo** `src/lib/utils/sitemap-endpoints.test.ts`: falla si un sitemap escribe el dominio a mano, no responde con `SITEMAP_HEADERS` o arma el `<urlset>` sin `urlsetXml()`.
+
+### Removed (blog-rebuild-cron)
+- **Publicacion solo por push (decision del usuario, 2026-09-24)**: el contenido se genera en local y se publica con un `git push` a GitHub, y Cloudflare Workers hace el build y el deploy. Se descarta el cron worker `workers/blog-rebuild/`. Verificado contra la cuenta: nunca estuvo desplegado (code 10007) y apuntaba a un deploy hook de Pages, pero la cuenta no tiene proyectos de Pages (el sitio es el Worker `malagaeventgear`).
+- **Consecuencia documentada**: un post con `publishDate` futuro aparece en el primer push posterior a esa fecha, no en la fecha. `CLAUDE.md`, `.agents/WP_MIGRATION.md` (pasos 3, 4 y 9) y `docs/blog-architecture.md` (seccion 5) reescritos.
+- **Borrados** `workers/blog-rebuild/` (worker y sus tests) y la receta `blog-rebuild-deploy` del `Justfile`.
+
 ### Added (i18n-url-architecture) - Fases 1 y 2
 - **Infraestructura de URLs por idioma** para los 14 locales. Ingles en la raiz sin cambios. El resto bajo prefijo (`/de/`, `/zh-hans/`...), con slugs en el idioma del publico: ASCII transliterado en idiomas latinos y caracteres chinos con percent encoding. El hook `reroute` (`src/hooks.ts`) mapea la URL traducida a la ruta inglesa. Un slug ingles bajo un prefijo (`/de/about-us/`) y un idioma no publicado (`/fr/`) dan 404, nunca contenido ingles bajo un prefijo.
 - **Mapa de contenido (Fase 1)**: `src/lib/i18n/content-map/locales/<locale>.ts` para los 13 idiomas, con slug y keyword por pagina, paquete y categoria, todo en estado `propuesta` (no hay datos de volumen por idioma). Guard `content-map.test.ts`: cobertura, unicidad, ASCII en idiomas latinos, solo caracteres chinos en chino y deteccion de simplificado en las variantes tradicionales (y al reves). Los posts se mapean en cada lote de la Fase 4.

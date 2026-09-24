@@ -21,6 +21,7 @@ Indice
  13. Calidad de codigo y convenciones
  14. Documentacion y trabajo con agentes de IA
  15. Imagenes: formatos, resoluciones y herramientas
+     15.8 Referencia de implementacion: conversion y subida a Cloudflare R2
  16. Migracion desde WordPress
  17. llms.txt
  18. sitemap_index.xml y pagina del sitemap (HTML)
@@ -626,9 +627,18 @@ Honestidad del contenido
   1.75 (el movil de Lighthouse), 740 px cubre DPR 2.
 
 15.2 Formatos
-  AVIF   Primera opcion en <picture>. El mas liviano. Calidad 50 (sharp).
-  WebP   Fallback universal dentro de <picture>, y formato unico para las variantes simples.
-         Calidad 82 (cwebp / sharp).
+  AVIF   El mas liviano (medido en MEG: 5.0 KB contra 8.4 KB de WebP en la misma variante
+         de 400 px, un 40% menos). Calidad 50 (sharp). Primera opcion en <picture>.
+  WebP   Fallback universal. Calidad 82 (cwebp / sharp).
+  Negociacion en el navegador, sin JavaScript ni deteccion de user agent:
+    <picture>
+      <source type="image/avif" srcset="...-400x300.avif 400w, ..." sizes="...">
+      <img src="...-1024x768.webp" srcset="...-400x300.webp 400w, ..." sizes="..."
+           width="1024" height="768" alt="..." loading="lazy" decoding="async">
+    </picture>
+  El navegador usa el primer <source> cuyo type soporta. Si no soporta AVIF, usa el srcset
+  WebP del <img>. Lo genera rehype-blog-images en el build (ver 15.8.8), a partir del campo
+  avifUrl del manifest. Una imagen sin AVIF queda como <img> simple.
   SVG    Logos, iconos e ilustraciones vectoriales. Nunca se rasteriza.
   PNG    Solo favicons e iconos de la PWA (icon-192, icon-512, apple-touch-icon).
   JPEG/PNG de fotos: solo como FUENTE. Se convierten, nunca se sirven.
@@ -676,8 +686,11 @@ Honestidad del contenido
   1. Dejar las fuentes en assets/<carpeta>/ (+ meta.yaml con alt y caption).
   2. just post-images <carpeta> --dry-run      (muestra las claves sin encodear ni subir)
   3. just post-images <carpeta>                (encodea, sube a R2, actualiza el manifest)
-  4. Pegar el <picture> que queda en assets/_urls.txt dentro del .svx.
-  5. Si es portada: bun scripts/gen-cover-thumbs.ts
+  4. En el .svx, una imagen markdown con la URL de cualquier variante (la del original):
+       ![Texto alternativo](https://cdn.<dominio>/blog/<id>/<base>.webp)
+     rehype-blog-images la expande en el build: <picture> con AVIF + WebP si la imagen tiene
+     AVIF, <img srcset> WebP si no. No hace falta pegar el <picture> de assets/_urls.txt.
+  5. Si es portada: coverImage en el frontmatter + bun scripts/gen-cover-thumbs.ts
   6. Todo el texto de la imagen (alt, caption, og:image:alt) se traduce por idioma. El
      archivo es el mismo en todos los idiomas.
 
@@ -686,6 +699,237 @@ Honestidad del contenido
   fallback, alt del manifest, width/height (CLS 0), loading="lazy", decoding="async", y
   <figure><figcaption> si hay caption. rehype-image-gallery.mjs agrupa imagenes seguidas en
   galerias con scroll-snap. En el sitemap de imagenes va solo image:loc.
+
+15.8 REFERENCIA DE IMPLEMENTACION: CONVERSION DE IMAGENES Y SUBIDA A CLOUDFLARE R2
+  Todo lo necesario para reimplementar el pipeline en un sitio nuevo. Verificado contra el
+  codigo y contra produccion el 2026-09-24.
+
+15.8.1 Arquitectura
+
+  assets/<carpeta>/foto.jpg + meta.yaml          (fuentes locales, gitignored)
+        |
+        v
+  scripts/post-images.ts                         (Bun + sharp)
+    - sha256 del archivo fuente -> si ya se publico, no re-encodea (idempotencia)
+    - por cada ancho de la escalera menor al original, mas el original:
+        WebP q82 + AVIF q50
+        |
+        v
+  scripts/migrate-wp/r2-uploader.ts              (wrangler r2 object put, 3 intentos)
+        |
+        v
+  R2 bucket "images"  --dominio propio-->  https://cdn.<dominio>/blog/<id>/<base>-WxH.webp
+        |                                   (Cache-Control max-age=31536000, HIT en el edge)
+        v
+  scripts/migrate-wp/manifest.json               (1 entrada por variante WebP, trackeado en git)
+        |
+        +--> build: rehype-blog-images.mjs       (<img> del post -> <picture> AVIF + WebP,
+        |                                          srcset, sizes, alt, width, height, lazy,
+        |                                          figcaption)
+        +--> build: rehype-image-gallery.mjs     (agrupa imagenes en galeria, sizes de galeria
+        |                                          en el <img> y en el <source>)
+        +--> scripts/gen-cover-thumbs.ts         -> src/lib/data/cover-thumbs.json
+                                                   (tarjetas, hero del post, og:image:width/height)
+
+  Por que asi: el HTML se prerenderiza, asi que las variantes tienen que existir ANTES del
+  build. El manifest es el puente entre lo que se subio y lo que el build necesita saber
+  (anchos, dimensiones, alt) sin llamar a la red.
+
+15.8.2 Setup en Cloudflare (una sola vez por sitio)
+  1. Autenticar la CLI en la cuenta DUEÑA del dominio:
+       bunx wrangler login
+       bunx wrangler whoami
+       export CLOUDFLARE_ACCOUNT_ID=<id de la cuenta>
+     (Con la cuenta equivocada el upload falla con "Authentication error 10000" o "7403".)
+  2. Crear el bucket:
+       bunx wrangler r2 bucket create images
+       bunx wrangler r2 bucket list
+  3. Dominio propio (solo por dashboard): R2 -> bucket -> Settings -> Custom Domains ->
+     Connect Domain -> cdn.<dominio>. Cloudflare crea el CNAME. Esperar "Active".
+  4. Cache de 1 año. En MEG la respuesta trae max-age=31536000 aunque el upload no lo pide
+     (lo pone la configuracion de la zona, fuera del repo). En un sitio nuevo, hacerlo
+     explicito en cada subida: --cache-control "public, max-age=31536000, immutable" y
+     --content-type (image/webp, image/avif). Los nombres llevan el ancho y el alto, asi que
+     un cambio de contenido implica una clave nueva, o un FORCE seguido de purga.
+  5. Verificar con GET, NUNCA con HEAD (el HEAD devuelve cf-cache-status DYNAMIC y sin
+     Cache-Control, y confunde):
+       curl -s -D - -o /dev/null https://cdn.<dominio>/blog/<id>/<archivo>.webp
+     Segundo request: cache-control: max-age=31536000 y cf-cache-status: HIT.
+
+15.8.3 Dependencias y configuracion
+  Dependencias      sharp (encode WebP/AVIF y metadata), js-yaml (meta.yaml), wrangler
+                    (subida), Bun (Bun.spawn, Bun.sleep, import.meta.main).
+                    Opcional: cwebp (brew install webp) para los scripts puntuales.
+  Configuracion     En MEG estas constantes estan escritas a mano en post-images.ts y en
+                    r2-uploader.ts. En un sitio nuevo, un solo modulo o variables de entorno:
+    CDN_BASE          https://cdn.<dominio>
+    R2_BUCKET         images
+    CF_ACCOUNT_ID     id de la cuenta (el uploader lo inyecta en el entorno de wrangler)
+    KEY_PREFIX        blog
+    AUTHOR            nombre del autor que se guarda en el manifest
+    DEFAULT_WIDTHS    150,300,400,600,768,1024,1536
+    WEBP_QUALITY      82
+    AVIF_QUALITY      50
+    FALLBACK_TARGET   1024 (ancho minimo del src de fallback)
+
+15.8.4 Modulos (puro separado de I/O, solo lo puro lleva tests)
+  scripts/post-images.ts           Orquestador. Funciones puras exportadas:
+                                   sanitizeBaseName, ladderFor, heightFor, buildVariantKey,
+                                   buildFullKey, idFromKey, maxMediaId, findBySourceHash,
+                                   applyMetaToEntries, buildMediaEntry, buildPictureMarkup.
+                                   El I/O corre solo bajo import.meta.main, y sharp se importa
+                                   de forma diferida para que los tests no carguen binarios.
+  scripts/migrate-wp/r2-uploader.ts   buildWranglerCommand y buildCdnUrl (puros),
+                                   uploadWithRetry (spawn y sleep inyectables, para testear
+                                   sin red) y uploadToR2 (real, con guard de dryRun).
+  scripts/migrate-wp/manifest.ts   readManifest, writeManifest, mergeMediaEntry.
+  scripts/migrate-wp/types.ts      Interfaz MediaEntry (esquema del manifest).
+  scripts/rehype-blog-images.mjs   Plugin de build que lee el manifest.
+  scripts/gen-cover-thumbs.ts      Genera cover-thumbs.json desde el manifest.
+  src/lib/utils/blog-image-sizes.js   Atributos sizes MEDIDOS (fuente unica para el layout
+                                   y los plugins rehype, en JS plano porque corren en
+                                   svelte.config.js, fuera de Vite).
+
+15.8.5 Algoritmo de post-images.ts
+  1. Recorre assets/<carpeta> de forma recursiva. Acepta jpg, jpeg, png, webp, avif, gif,
+     tif, tiff y bmp. Ignora lo que empieza con "." o "_".
+  2. Lee meta.yaml (o meta.yml / meta.json) de la carpeta de cada imagen.
+  3. base = sanitizeBaseName(nombre): sin extension, minusculas, sin tildes, todo lo que no
+     sea [a-z0-9._-] pasa a "-".
+  4. hash = sha256 de los bytes del archivo fuente.
+  5. Si el hash ya esta en el manifest y no hay FORCE=1: no encodea ni sube, pero SI
+     actualiza alt, caption, title, description, tags y usage en todas sus variantes (asi
+     editar meta.yaml despues de publicar tiene efecto). Siguiente imagen.
+  6. id = el de la entrada existente, o el maximo del manifest + 1 (contador en memoria para
+     que dos imagenes de la misma corrida no choquen).
+  7. sharp.metadata() -> ancho y alto originales.
+  8. Escalones = anchos de la escalera MENORES al original (sin agrandar nunca) + el
+     original sin resize.
+  9. Por escalon: encode WebP y AVIF en un tmp (resize con withoutEnlargement). Las claves
+     usan las dimensiones REALES que devuelve sharp, no las calculadas:
+       blog/<id>/<base>-<w>x<h>.webp   blog/<id>/<base>-<w>x<h>.avif   (variantes)
+       blog/<id>/<base>.webp           blog/<id>/<base>.avif           (original)
+ 10. Sube los dos archivos a R2 y agrega al manifest SOLO la entrada WebP, con la URL del
+     AVIF en su campo avifUrl. Nunca una entrada AVIF aparte: el plugin agrupa por nombre
+     base sin extension y mezclaria los dos formatos en un mismo srcset invalido.
+ 11. Escribe el manifest despues de cada imagen (si se corta, lo publicado queda registrado).
+ 12. Agrega a assets/_urls.txt un bloque con un <picture> listo y la lista de URLs.
+ 13. Borra el directorio temporal en un finally.
+
+15.8.6 Esquema del manifest (MediaEntry, una entrada por variante)
+  wpId, r2Key, r2Url, cdnUrl, category, tags, fileName, title, alt, caption, description,
+  mimeType, fileSize, width, height, uploadedOn, uploadedBy, originalUrl,
+  excludeFromSitemap, y opcionales: orphan (imagenes de WP fuera de la media library),
+  usage (cover | hero | gallery | body | og), avifUrl, sourceHash.
+  Mismo formato para las imagenes migradas de WordPress y las nuevas: un solo indice.
+  En MEG pesa ~6.9 MB y esta trackeado en git.
+
+15.8.7 Uso y ejemplos
+  Comandos
+    just post-images                       procesa todo assets/
+    just post-images <carpeta>             solo assets/<carpeta>/
+    just post-images <carpeta> --dry-run   muestra las claves, no encodea ni sube
+  Variables de entorno
+    WIDTHS="150,300,400,600,768,1024,1536"   WEBP_QUALITY=82   AVIF_QUALITY=50
+    FORCE=1   re-encodea y re-sube aunque el hash ya exista (despues: purgar las URLs en
+              Cloudflare, Caching -> Purge by URL, porque el edge las tiene por 1 año)
+
+  assets/evento-marbella/meta.yaml
+    escenario.jpg:
+      alt: "Escenario con iluminacion LED en una boda en Marbella"
+      caption: "Montaje del Wedding Pack en Marbella"
+      title: "Escenario boda Marbella"
+      description: "Escenario con iluminacion y sonido para una boda al aire libre"
+      tags: [boda, iluminacion]
+      usage: [body, gallery]
+
+  Salida en assets/_urls.txt (una por imagen)
+    # escenario - id blog/1320 - 4000x2667
+    # usage: body, gallery | tags: boda, iluminacion | alt: Escenario con...
+    <picture> ... </picture>
+    # URLs:
+      https://cdn.<dominio>/blog/1320/escenario-150x100.webp
+      https://cdn.<dominio>/blog/1320/escenario-150x100.avif
+      ...
+
+  En el post (.svx)
+    ![Escenario con iluminacion LED en una boda en Marbella](https://cdn.<dominio>/blog/1320/escenario.webp)
+  Portada
+    coverImage: https://cdn.<dominio>/blog/1320/escenario.webp
+    bun scripts/gen-cover-thumbs.ts
+
+15.8.8 Integracion en el build, scripts puntuales y tests
+  rehype-blog-images.mjs
+    - Lee el manifest UNA vez en build time (no se empaqueta en el cliente). Sin manifest,
+      el plugin no falla: deja las imagenes como estan.
+    - Agrupa las variantes por base (URL sin -WxH ni extension). Con mas de una variante
+      arma srcset, sizes = PROSE_SIZES, src = la mas chica >= 1024 px, width y height.
+    - Si alguna variante tiene avifUrl, envuelve el <img> en <picture> con un
+      <source type="image/avif"> (solo los escalones que tienen AVIF, mismo sizes que el
+      <img>). Nunca anida un <picture> dentro de otro.
+    - alt del manifest si el markdown no trae uno, loading lazy, decoding async, y
+      <figure><figcaption> si la entrada tiene caption (con el <picture> adentro).
+    - options.manifest reemplaza al archivo: asi se testea con un manifest armado a mano.
+  rehype-image-gallery.mjs (corre despues)
+    - Reconoce como imagen suelta tanto <p><img></p> como <p><picture></p> y el <figure>
+      con caption. El sizes de galeria va al <img> Y a cada <source>: el navegador elige la
+      variante desde el <source> que usa, y un <source> con el sizes de prosa bajaria un
+      AVIF mas grande que el slot.
+  gen-cover-thumbs.ts
+    - Por cada coverImage de los .svx: thumb = la variante mas chica >= 740 px (370 px x 2),
+      srcset con todas, y width/height del ORIGINAL para og:image. Escribe
+      src/lib/data/cover-thumbs.json (el unico derivado del manifest que llega al cliente).
+      Correrlo cada vez que se agrega o cambia una portada.
+  Scripts puntuales (idempotentes, con cwebp, sobre imagenes ya subidas)
+    gen-400-variants.ts      agrega el escalon de 400 px que WordPress no generaba
+    gen-cover-variants.ts    VARIANT_WIDTH=600 o 700: escalones para las tarjetas
+    gen-package-thumbs.ts    miniaturas 160x160 y 96x96 hacia src/lib/assets/packages/
+                             (importadas por Vite, con hash)
+  Tests (Vitest, sin red ni sharp)
+    scripts/post-images.test.ts (30), r2-uploader.test.ts (7), r2-uploader-retry.test.ts (6),
+    cover-thumbs-dimensions.test.ts, webp.test.ts, manifest.test.ts, downloader.test.ts,
+    rehype-blog-images.test.ts y rehype-image-gallery.test.ts (<picture> AVIF + WebP).
+    E2E: tests/blog-image-sizes.spec.ts (sizes contra el ancho renderizado real, en 9
+    viewports) y tests/blog-avif.spec.ts (markup del <picture> y que Chromium descargue el
+    AVIF: currentSrc termina en .avif).
+
+15.8.9 Deudas detectadas en MEG (no copiar, verificadas 2026-09-24)
+  1. RESUELTO 2026-09-24: el AVIF se subia pero no se servia (el plugin ignoraba avifUrl).
+     Ahora rehype-blog-images emite <picture>. Alcance real: solo las imagenes subidas con
+     post-images.ts tienen AVIF (13 imagenes, la galeria del post de ECOC 2026). Las ~1.585
+     variantes migradas de WordPress son solo WebP y siguen como <img>. Las portadas (hero y
+     tarjetas, via cover-thumbs.json) tampoco usan <picture> todavia.
+  2. sizes desactualizado en el <picture> de post-images.ts (VARIANT_SIZES =
+     "(min-width: 768px) 768px, ..."), cuando el valor medido es PROSE_SIZES de
+     blog-image-sizes.js. Importar siempre la fuente unica.
+  3. Recortes cuadrados de WordPress en el srcset (100x100, 150x150, 300x300): el
+     agrupamiento por base no filtra por proporcion, y aparece un 300w duplicado. Filtrar
+     las variantes cuya relacion de aspecto no coincide con la del original.
+  4. Constantes escritas a mano (CDN, bucket, cuenta, autor) en dos archivos. Llevarlas a
+     un modulo de configuracion.
+  5. Una llamada a wrangler por archivo (2 procesos por escalon, en serie): lento con
+     muchas imagenes. Alternativa: la API compatible con S3 de R2 con un token de R2
+     (aws4fetch o @aws-sdk/client-s3), en paralelo. Tradeoff: mas velocidad, a cambio de
+     manejar credenciales de API aparte del login de wrangler.
+  6. El TTL de 1 año del CDN depende de la configuracion de la zona y no del upload.
+     Hacerlo explicito con --cache-control, para que no dependa de algo invisible desde
+     el repo.
+
+15.8.10 Checklist para implementarlo en un sitio nuevo
+  [ ] Bucket R2 + dominio cdn.<dominio> activo + CLI en la cuenta correcta
+  [ ] bun add -d sharp js-yaml wrangler
+  [ ] Modulo de configuracion (CDN_BASE, R2_BUCKET, CF_ACCOUNT_ID, anchos, calidades)
+  [ ] manifest.json + types.ts (MediaEntry con avifUrl y sourceHash)
+  [ ] r2-uploader con reintentos, --cache-control y --content-type explicitos
+  [ ] post-images.ts con funciones puras testeadas y el I/O bajo import.meta.main
+  [ ] Receta just post-images y assets/ en .gitignore
+  [ ] blog-image-sizes.js con sizes medidos + test E2E que los compare
+  [ ] Plugin rehype que emita <picture> AVIF + WebP (como rehype-blog-images.mjs) y filtre
+      recortes por proporcion. El plugin de galeria tiene que reconocer <picture> y pasar
+      el sizes al <source>
+  [ ] E2E que verifique que un navegador con AVIF descarga el AVIF (currentSrc)
+  [ ] gen-cover-thumbs.ts si hay portadas en listados
+  [ ] Verificar con GET: cache-control de 1 año y cf-cache-status HIT
 
 
 --------------------------------------------------------------------------------

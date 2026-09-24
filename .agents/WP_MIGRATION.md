@@ -95,33 +95,16 @@ curl -I "https://cdn.malagaeventgear.com/"
 
 ---
 
-## 3. Generar el Deploy Hook de Cloudflare Pages
+## 3. Publicación: solo por push (sin deploy hook ni cron)
 
-El deploy hook permite disparar rebuilds del sitio sin un git push.
-Lo usa el cron worker `workers/blog-rebuild/` para publicar posts programados.
+**Decisión del usuario (2026-09-24):** el contenido se genera localmente y se publica con un
+`git push` a GitHub. Cloudflare Workers hace el build y el deploy automáticamente.
 
-1. Ir a **Cloudflare Dashboard** → Pages → proyecto del sitio MEG
-2. **Settings** → **Builds & deployments** → **Deploy hooks**
-3. Click **Add deploy hook**:
-   - Nombre: `blog-rebuild-cron`
-   - Branch: `main`
-4. Copiar la URL generada (formato: `https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/...`)
-
----
-
-## 4. Cargar el secret `DEPLOY_HOOK_URL` en el worker
-
-```bash
-bunx wrangler secret put DEPLOY_HOOK_URL --name meg-blog-rebuild
-# Pegá la URL copiada en el paso anterior cuando el CLI la pida
-```
-
-Verificación:
-
-```bash
-bunx wrangler secret list --name meg-blog-rebuild
-# Debe mostrar: DEPLOY_HOOK_URL
-```
+Los pasos que había acá (deploy hook de Cloudflare Pages + secret `DEPLOY_HOOK_URL` para el cron
+worker `workers/blog-rebuild/`) quedan descartados: el sitio corre como el Worker
+`malagaeventgear`, la cuenta no tiene proyectos de Pages y el worker de rebuild nunca estuvo
+desplegado. Un post con `publishDate` futuro aparece en el primer push posterior a esa fecha, no
+antes.
 
 ---
 
@@ -350,23 +333,10 @@ Lista de verificación:
 
 ---
 
-## 9. Deploy del cron worker
+## 9. Deploy
 
-El worker `workers/blog-rebuild/` dispara un rebuild diario a las 08:00 UTC para
-publicar posts programados (con `publishDate` en el futuro).
-
-```bash
-just blog-rebuild-deploy
-# o directamente:
-cd workers/blog-rebuild && bunx wrangler deploy
-```
-
-Verificar que el cron está activo:
-
-```bash
-bunx wrangler triggers list --name meg-blog-rebuild
-# Debe mostrar: crons: ["0 8 * * *"]
-```
+No hay un segundo target de deploy para el blog. Un `git push` a GitHub dispara el build y el
+deploy en Cloudflare Workers (ver paso 3). El cron worker de rebuild quedó descartado.
 
 ---
 
@@ -427,7 +397,6 @@ borrarse para forzar una re-migración completa desde cero.
 | Manifest JSON | `scripts/migrate-wp/manifest.json` |
 | Redirects generados | `_redirects (raíz del proyecto)` |
 | Posts emitidos | `src/content/blog/*.svx` |
-| Cron worker | `workers/blog-rebuild/` |
 | Runbook de lead capture | `docs/lead-capture-deployment.md` |
 
 ## Comandos rápidos
@@ -437,6 +406,5 @@ just migrate-wp-dry-run   # Auditar sin escribir nada
 just migrate-wp-run       # Migración real (dry-run primero)
 just post-new             # Crear un nuevo post de blog
 just post-touch <slug>    # Marcar un post como modificado hoy
-just blog-rebuild-deploy  # Desplegar el cron worker de rebuild
 bun run test              # Verificar que todos los tests siguen en verde
 ```

@@ -697,6 +697,24 @@ y `updatedDate` la de modificación (el campo se llamó `updated` hasta que se r
 1. **NO repetir el título como `<h1>`** - el layout (`BlogPost.svelte`) ya lo renderiza.
 2. Empezar directamente con el contenido (párrafo o `## Subtítulo`).
 3. Las imágenes deben estar en R2 (`cdn.malagaeventgear.com`) o ser URLs absolutas.
+4. **Imágenes nuevas: subir con `just post-images <carpeta>`** (WebP + AVIF en toda la
+   escalera de anchos, con `alt` y `caption` en `assets/<carpeta>/meta.yaml`), y en el post
+   escribir **markdown simple** con la URL de la variante original:
+   `![alt](https://cdn.malagaeventgear.com/blog/<id>/<base>.webp)`. **Nunca pegar `<picture>`
+   ni `srcset` a mano**: `scripts/rehype-blog-images.mjs` los genera en el build desde el
+   manifest, con `<source type="image/avif">` si la imagen tiene AVIF (el navegador elige el
+   formato que soporta) y el `<img>` WebP como fallback. Referencia completa: `infra.txt` §15.8.
+
+   **Pendiente (anotado el 2026-09-24, sin fecha de ejecución):**
+   - **AVIF para las imágenes migradas de WordPress.** Hoy solo 13 imágenes (la galería del
+     post de ECOC 2026, subidas con `post-images`) tienen `avifUrl`. Las ~1.585 variantes
+     migradas son solo WebP. Hace falta un script puntual e idempotente que genere el AVIF de
+     cada variante, lo suba a R2 con la misma clave y extensión `.avif`, y escriba `avifUrl`
+     en la entrada WebP del manifest (nunca una entrada AVIF aparte). El plugin ya emite el
+     `<picture>` solo, sin cambios de código. Después, purgar el CDN si se pisa alguna clave.
+   - **`<picture>` en las portadas** (hero del post, que es el LCP, y tarjetas de listado).
+     Pasan por `cover-thumbs.json`, que hoy solo tiene `srcset` WebP: agregar el AVIF ahí y
+     el `<picture>` en `BlogPost.svelte` y `BlogPostCard.svelte`.
 
 ### Campos requeridos del frontmatter
 
@@ -736,7 +754,7 @@ del silo.
 ### Publicar un draft
 
 1. Cambiar `draft: true` → `draft: false` en el frontmatter
-2. `git commit` + `git push` → CI trigger → rebuild automático
+2. `git commit` + `git push` a GitHub → Cloudflare Workers hace el build y el deploy solo
 
 ### Actualizar un post ya publicado (no tocar `draft`)
 
@@ -747,10 +765,16 @@ distinta de publicar un post nuevo, y el campo `draft` **no se toca**: se queda 
 **despublicación deliberada**, una acción totalmente distinta a una actualización de contenido,
 que requiere pedido explícito del usuario y nunca es un efecto colateral de una edición.
 
-### Post schedulado (publicación futura)
+### Publicación: solo por push (sin cron)
 
-Poner `publishDate` en el futuro. El post no aparecerá hasta que un build corra después
-de esa fecha. El cron worker (`workers/blog-rebuild/`) hace un rebuild diario a las 08:00 UTC.
+**Decisión del usuario (2026-09-24):** el contenido se genera localmente y se publica con un
+`git push` a GitHub. Cloudflare Workers hace el build y el deploy automáticamente. **No hay
+rebuild programado**: el cron worker `workers/blog-rebuild/` (que apuntaba a un deploy hook de
+Cloudflare Pages, y nunca estuvo desplegado en la cuenta) queda descartado.
+
+Consecuencia: un post con `publishDate` en el futuro NO se publica solo en esa fecha. Aparece
+recién en el primer build posterior a esa fecha, es decir, en el siguiente push. Para publicar
+un post, su `publishDate` es la fecha del push, no una fecha futura.
 
 ### Marcar un post como actualizado
 

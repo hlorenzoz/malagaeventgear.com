@@ -42,9 +42,8 @@ Documentación del sistema de blog nativo mdsvex implementado en `wp-blog-migrat
 │  → buildArticleSchema │
 └───────────────────────┘
 
-SCHEDULING TRIGGERS:
-  git push → CI build (immediate)
-  daily cron → workers/blog-rebuild/ → DEPLOY_HOOK_URL → CI build
+PUBLISH TRIGGER (unico):
+  git push a GitHub -> Cloudflare Workers build + deploy (inmediato)
 ```
 
 ---
@@ -200,53 +199,30 @@ const BlogPostSchema = z.object({
 usa `publishDate` como lastmod.
 
 **`publishDate` en el futuro**: el post existe en el repo pero es excluido del build hasta
-que `publishDate ≤ fecha_del_build`. El cron worker dispara un rebuild diario para publicar
-posts programados.
+que `publishDate <= fecha_del_build`. No hay rebuild programado: aparece en el primer push
+posterior a esa fecha (ver seccion 5).
 
 ---
 
-## 5. Scheduling (Publicación Programada)
+## 5. Publicación (solo por push)
 
 ### Mecanismo
 
-El filtro `publishDate ≤ new Date()` se evalúa en `blog-pipeline.ts` **en tiempo de build**,
-no en runtime. El sitio es estático — no hay servidor que filtre por request.
+El filtro `publishDate <= new Date()` se evalúa en `blog-pipeline.ts` **en tiempo de build**,
+no en runtime. El sitio es estático: no hay servidor que filtre por request.
 
-Para que un post con `publishDate` futuro aparezca, se necesita un rebuild. Hay dos triggers:
+Hay un único trigger de build: **`git push` a GitHub**. Cloudflare Workers hace el build y el
+deploy automáticamente. El contenido se genera localmente y se publica con ese push.
 
-1. **git push** → CI de Cloudflare Pages → build inmediato
-2. **cron diario** → `workers/blog-rebuild/` → POST al deploy hook → CI build
+### Sin publicación programada (decisión 2026-09-24)
 
-### Latencia máxima (ADR-004)
+No hay rebuild programado. El diseño original (ADR-004) tenía un cron worker,
+`workers/blog-rebuild/`, que hacía POST a un deploy hook de Cloudflare Pages. Se descartó:
+nunca estuvo desplegado en la cuenta, el sitio corre como Worker (no como proyecto de Pages) y
+el usuario decidió publicar solo por push.
 
-Un post schedulado para las 09:00 puede aparecer hasta 24 horas tarde dependiendo del
-timing del cron (08:00 UTC = 09:00 CET / 10:00 CEST). Para el blog de MEG esto es aceptable.
-Si se necesita precisión, la alternativa sería un deploy manual o un cron más frecuente.
-
-### Cron Worker (`workers/blog-rebuild/`)
-
-```toml
-# workers/blog-rebuild/wrangler.toml
-name = "meg-blog-rebuild"
-[triggers]
-crons = ["0 8 * * *"]   # 08:00 UTC diario
-```
-
-El worker es minimalista — solo hace POST al deploy hook. No necesita D1, R2 ni KV.
-Secret: `DEPLOY_HOOK_URL` (URL del webhook de Cloudflare Pages).
-
-```typescript
-// workers/blog-rebuild/src/index.ts
-export default {
-  async scheduled(_event, env, _ctx) {
-    const response = await fetch(env.DEPLOY_HOOK_URL, { method: 'POST' });
-    if (!response.ok) throw new Error(`Deploy hook failed: ${response.status}`);
-  }
-};
-```
-
-Lanza error en status no-2xx (ADR-006) para que aparezca en los logs del Worker y
-permita alertas futuras.
+Consecuencia: un post con `publishDate` futuro no aparece en esa fecha, sino en el primer push
+posterior. Al publicar, `publishDate` es la fecha del push.
 
 ---
 
@@ -331,5 +307,4 @@ que no hay riesgo de 404s en producción.
 | `scripts/post-new.ts` | Scaffold de nuevo post con frontmatter válido |
 | `scripts/post-touch.ts` | Actualiza campo `updated` en frontmatter existente |
 | `scripts/migrate-wp/` | Script one-shot de migración desde WordPress |
-| `workers/blog-rebuild/` | Cron worker para rebuilds diarios |
 | `.agents/WP_MIGRATION.md` | Runbook de migración paso a paso |
