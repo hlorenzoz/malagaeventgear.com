@@ -1,0 +1,31 @@
+import type { Copy } from './en';
+
+export const updated = '2026-09-24';
+
+export default {
+	seo: {
+		title: 'Contacto Aluguer de Equipamento Audiovisual Málaga | MEG',
+		description:
+			'Contacte a Malaga Event Gear para pedir orçamentos de aluguer de som, iluminação e ecrãs. Apoio técnico 24 horas por dia, 7 dias por semana.'
+	},
+	schema: {
+		name: 'Contacto - Malaga Event Gear',
+		description:
+			'Contacte a equipa técnica da Malaga Event Gear para pedir orçamentos personalizados de aluguer de som, iluminação e ecrãs.'
+	},
+	whatsappLinkText: 'Envie-nos uma mensagem',
+	messages: {
+		packIntro: 'Olá, tenho interesse em reservar o Pack: {pack}. Por favor, informem-me sobre a disponibilidade e os detalhes.',
+		categoryIntro:
+			'Olá, tenho interesse em reservar equipamento da categoria: {category}. Aguardo o vosso orçamento.'
+	},
+	errors: {
+		pastDate: 'Por favor, escolha uma data de evento posterior a hoje.'
+	},
+	form: {
+		namePlaceholder: 'Nome Completo',
+		emailPlaceholder: 'Endereço de Email',
+		phonePlaceholder: 'Telefone',
+		messagePlaceholder: 'Mensagem'
+	}
+} satisfies Copy;
