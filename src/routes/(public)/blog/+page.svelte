@@ -119,7 +119,7 @@
 									href={i18n.href(`/blog/category/${slugify(category)}/`)}
 									class="text-xs font-label-sm text-electric-blue uppercase tracking-wider hover:underline"
 								>
-									{category}
+									{i18n.categoryName(category)}
 								</a>
 							{/each}
 						</div>

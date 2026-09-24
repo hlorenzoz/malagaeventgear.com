@@ -7,6 +7,14 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Added (i18n-blog-infra) - Fase 4, infraestructura del blog multilingue
+- **Traducciones de posts en `src/content/blog/<locale>/<en-slug>.svx`**, con `TranslatedPostSchema` estricto (`title`, `description`, `excerpt`, `publishDate`, `updatedDate?`, `sourceUpdated`, `draft?`). Portada, categorias, tags, autor y silo salen del post ingles. Slug y keyword salen del mapa de contenido del idioma. Ningun post se tradujo en este cambio: con cero traducciones el sitio queda igual (321 HTML).
+- **Datos por idioma, un chunk por idioma**: `virtual:blog-translations/<locale>` (frontmatter, FAQ y ToC extraidos del cuerpo al compilar) y `virtual:blog-availability/<locale>` (slugs ingleses publicados, para `i18n.href` y el `reroute`). API async en `blog.ts`: `getPostsForLocale`, `getLocalizedPost`, `getCategoriesForLocale`, `getAuthorsForLocale`. El `slug` de un post traducido sigue siendo el ingles (su identidad), `url` es la localizada.
+- **Rutas y listados**: post, indice, categorias, categoria, autor, home, footer y sitemap HTML usan los posts del idioma. Una lista vacia se oculta. Chips de categoria con el nombre del idioma, Article JSON-LD con `inLanguage`.
+- **Sitemaps** `post-sitemap-<locale>.xml`, `category-sitemap-<locale>.xml` y `author-sitemap-<locale>.xml`, 404 sin URLs y listados en `sitemap_index.xml` solo cuando existen.
+- **Enlaces dentro de un post traducido**: se escriben en ingles y `rehype-localize-links` los pasa a la URL del idioma cuando esa pagina esta publicada en el.
+- **Guards**: `post-freshness.test.ts` (traduccion valida, con post ingles, en el mapa y nunca mas vieja que el ingles), y la copia de `blog` y `blog/categories` fechada en cuanto un idioma publica un post. `just post-touch` lista las traducciones que quedaron desactualizadas.
+
 ### Fixed (i18n-review) - revision de todo el plan de traduccion
 - **`/code-review` de `main..HEAD`, 10 hallazgos corregidos con tests**: emails en espanol para navegadores en espanol y el cron de resenas sin tratar otros idiomas como espanol, JSON-LD `Service`/`ItemList`/`ContactPage` con la URL de su idioma y `valueAddedTaxIncluded: false`, politica de cookies sin la preferencia de idioma que ya no existe, pagina RGPD de zh-hk renombrada, `aria-label` del navbar y enlace de `thank-you` traducidos, cifras de about-us con formato por idioma y anos derivados de `foundingYear`.
 - **Precios y porcentajes desde su fuente unica**: extras, minimo fuera de provincia y tramos del filtro en `PRICE_POINTS`, IVA desde `VAT_RATE`, clientes desde `siteConfig.clientCount`. La copia de los 13 idiomas usa `{price:key}`, `{vat}` y `{clients}`, renderizados al cargar la copia. Guards para importes y porcentajes literales.

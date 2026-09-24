@@ -8,6 +8,7 @@ import { rehypePostToc } from './scripts/rehype-post-toc.mjs';
 import { rehypeSectionCards } from './scripts/rehype-section-cards.mjs';
 import { rehypeImageGallery } from './scripts/rehype-image-gallery.mjs';
 import { rehypeInternalLinks } from './scripts/rehype-internal-links.mjs';
+import { rehypeLocalizeLinks } from './scripts/rehype-localize-links.mjs';
 import { rehypeTableWrap } from './scripts/rehype-table-wrap.mjs';
 
 /**
@@ -61,6 +62,9 @@ const config = {
 			smartypants: false,
 			// Plugin execution order matters:
 			// 1. rehypeSlug    — assigns ids to all headings (must be first)
+			//    rehypeInternalLinks then rehypeLocalizeLinks: legacy WordPress links become the
+			//    English routes, then a TRANSLATED post's English routes become its locale's URLs
+			//    (only what is published there, tables from scripts/vite-blog-meta.mjs)
 			// 2. rehypeBlogImages — enriches <img> with srcset/alt/dimensions
 			// 3. rehypeImageGallery — groups consecutive images into scroll-snap galleries
 			//    (must run after rehypeBlogImages so srcset is already set)
@@ -71,7 +75,7 @@ const config = {
 			//    (must run after rehypePostToc removes the old ToC)
 			// 6. rehypeTableWrap — wraps <table> in .table-wrap for responsive scroll
 			// 7. rehypeFaqAccordion — MUST be last (restructures h3 nodes into <details>)
-			rehypePlugins: [rehypeSlug, rehypeInternalLinks, rehypeBlogImages, rehypeImageGallery, rehypePostToc, rehypeSectionCards, rehypeTableWrap, rehypeFaqAccordion]
+			rehypePlugins: [rehypeSlug, rehypeInternalLinks, rehypeLocalizeLinks, rehypeBlogImages, rehypeImageGallery, rehypePostToc, rehypeSectionCards, rehypeTableWrap, rehypeFaqAccordion]
 			// No layout option — mdsvex layout injection uses $$props which is
 			// incompatible with runes mode. The [slug]/+page.svelte wraps post
 			// components explicitly via BlogPost.svelte instead (ADR-009 approach).

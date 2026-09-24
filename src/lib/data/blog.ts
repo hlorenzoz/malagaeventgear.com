@@ -14,12 +14,17 @@ import {
 	getAuthorsFromPosts,
 	getPostsByAuthorFromPosts,
 	getNewsPosts as getNewsPostsFromPosts,
-	getArticlePosts as getArticlePostsFromPosts
+	getArticlePosts as getArticlePostsFromPosts,
+	buildLocalizedPosts,
+	getLocalizedCategoriesFromPosts
 } from '$lib/data/blog-pipeline';
+import type { Locale } from '$lib/i18n/locales';
+import { loadContentMap } from '$lib/i18n/router';
 import coverThumbsRaw from '$lib/data/cover-thumbs.json';
 import postFaqsRaw from '$lib/data/post-faqs.json';
 import postTocRaw from '$lib/data/post-toc.json';
 import blogMeta from 'virtual:blog-meta';
+import translationLoaders, { builtAt } from 'virtual:blog-translations';
 
 const coverThumbs = coverThumbsRaw as Record<
 	string,
@@ -165,4 +170,89 @@ export function getPostComponentLoader(slug: string): (() => Promise<unknown>) |
 		([path]) => path.split('/').pop()?.replace(/\.svx$/, '') === slug
 	);
 	return entry?.[1];
+}
+
+// ─── Fase 4: posts per locale ─────────────────────────────────────────────────
+//
+// A translation lives at src/content/blog/<locale>/<en-slug>.svx. Its frontmatter, FAQ and ToC
+// come from `virtual:blog-translations`, one lazy chunk per locale, so a page never downloads
+// the other languages. That makes the per locale API async. For 'en' it returns the English
+// data above, unchanged. Posts keep the ENGLISH slug (their identity), `url` is localized.
+
+// Compiled translated bodies, lazy and code split per post like the English ones. The English
+// glob above (`*.svx`) only matches the root folder, so it never picks a translation up.
+const translatedComponentLoaders = import.meta.glob('../../content/blog/*/*.svx', {
+	import: 'default'
+}) as Record<string, () => Promise<unknown>>;
+
+export interface LocaleBlog {
+	posts: BlogPost[];
+	categories: Category[];
+	authors: Author[];
+}
+
+const localeBlogs = new Map<Locale, Promise<LocaleBlog>>();
+
+function loadLocaleBlog(locale: Locale): Promise<LocaleBlog> {
+	if (locale === 'en') return Promise.resolve({ posts: _allPosts, categories: _categories, authors: _authors });
+	let cached = localeBlogs.get(locale);
+	if (!cached) {
+		const loader = translationLoaders[locale];
+		cached = Promise.all([loader ? loader() : Promise.resolve({}), loadContentMap(locale)]).then(
+			([translations, map]) => {
+				// The build time cut, the same one the availability sets were computed with, so
+				// a listing never shows a post whose URL was not built.
+				const posts = buildLocalizedPosts(locale, _allPosts, translations, map, new Date(builtAt));
+				return {
+					posts,
+					categories: getLocalizedCategoriesFromPosts(posts, map),
+					authors: getAuthorsFromPosts(posts)
+				};
+			}
+		);
+		localeBlogs.set(locale, cached);
+	}
+	return cached;
+}
+
+/** A locale's published posts, categories and authors in one call (locale sitemaps). */
+export function getBlogForLocale(locale: Locale): Promise<LocaleBlog> {
+	return loadLocaleBlog(locale);
+}
+
+/** Published posts of a locale, newest first. English: getAllPosts(). */
+export async function getPostsForLocale(locale: Locale): Promise<BlogPost[]> {
+	return (await loadLocaleBlog(locale)).posts;
+}
+
+/** A locale's version of a post, by ENGLISH slug, or undefined when not published there. */
+export async function getLocalizedPost(locale: Locale, enSlug: string): Promise<BlogPost | undefined> {
+	return (await loadLocaleBlog(locale)).posts.find((p) => p.slug === enSlug);
+}
+
+/** Categories with at least one published post in the locale: English slug, localized name. */
+export async function getCategoriesForLocale(locale: Locale): Promise<Category[]> {
+	return (await loadLocaleBlog(locale)).categories;
+}
+
+/** Authors with at least one published post in the locale. Names are not translated. */
+export async function getAuthorsForLocale(locale: Locale): Promise<Author[]> {
+	return (await loadLocaleBlog(locale)).authors;
+}
+
+export async function getPostsByCategoryForLocale(locale: Locale, categorySlug: string): Promise<BlogPost[]> {
+	return getPostsByCategoryFromPosts(await getPostsForLocale(locale), categorySlug);
+}
+
+export async function getPostsByAuthorForLocale(locale: Locale, authorSlug: string): Promise<BlogPost[]> {
+	return getPostsByAuthorFromPosts(await getPostsForLocale(locale), authorSlug);
+}
+
+/** Lazy loader of a post body in a locale (English: getPostComponentLoader). */
+export function getPostComponentLoaderForLocale(
+	locale: Locale,
+	enSlug: string
+): (() => Promise<unknown>) | undefined {
+	if (locale === 'en') return getPostComponentLoader(enSlug);
+	return translatedComponentLoaders[`../../content/blog/${locale}/${enSlug}.svx`];
 }

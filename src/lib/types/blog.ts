@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import type { Locale } from '../i18n/locales';
 
 /**
  * Zod schema for blog post frontmatter.
@@ -51,6 +52,34 @@ export const BlogPostSchema = z.object({
 	targetPage: z.string().optional()
 });
 
+/** Plain YYYY-MM-DD or ISO 8601 with offset, as in BlogPostSchema. */
+const postDate = z.string().datetime({ offset: true }).or(z.string().date());
+
+/**
+ * Frontmatter of a TRANSLATED post (`src/content/blog/<locale>/<en-slug>.svx`, Fase 4).
+ * Only what is translated lives here. Everything else (coverImage, categories, tags, author,
+ * siloRole, targetPage) is derived from the English post, and the keyword and slug come from
+ * the locale's content map (the single source for both), so `.strict()` rejects them: a
+ * repeated field would be a second truth that drifts.
+ */
+export const TranslatedPostSchema = z
+	.object({
+		title: z.string().min(1, 'Title is required'),
+		description: z.string().min(10, 'Description must be at least 10 characters'),
+		excerpt: z.string().min(10),
+		// Date THIS translation was published (never the English date).
+		publishDate: postDate,
+		// Last real change of THIS translation.
+		updatedDate: postDate.optional(),
+		// The English `updatedDate ?? publishDate` that was translated (YYYY-MM-DD). A newer
+		// English post fails the freshness guard (CLAUDE.md, "Reglas mandatorias de idioma" 2).
+		sourceUpdated: z.string().date(),
+		draft: z.boolean().optional().default(false)
+	})
+	.strict();
+
+export type TranslatedPostFrontmatter = z.infer<typeof TranslatedPostSchema>;
+
 export type BlogPostFrontmatter = z.infer<typeof BlogPostSchema>;
 
 /** Role of a page/post in the reverse silo. */
@@ -62,9 +91,12 @@ export type SiloRole = NonNullable<BlogPostFrontmatter['siloRole']>;
  * getPostComponentLoader(slug) so listing pages don't bundle every post body.
  */
 export type BlogPost = BlogPostFrontmatter & {
+	// The ENGLISH slug (the .svx filename), also on a translation: it is the post's identity
+	// for every lookup (i18n.href, package rules, cover thumbs), in every locale.
 	slug: string;
-	// Canonical path of the post, derived from the slug in blog-pipeline.ts:
-	// '/blog/' + slug + '/'. NOT stored in frontmatter (it is a function of the slug).
+	// Canonical site path of this version, derived in blog-pipeline.ts: '/blog/' + slug + '/'
+	// in English, the percent encoded localized path from the content map in other locales.
+	// NOT stored in frontmatter.
 	url: string;
 	// Responsive cover variants attached from cover-thumbs.json (frontmatter coverImage
 	// stays the full-size image, used for og:image). thumb = ~768px <img src> fallback;
@@ -82,6 +114,10 @@ export type BlogPost = BlogPostFrontmatter & {
 	// Table of Contents entries extracted from the post body at build time (gen-post-toc.ts).
 	// Populated from src/lib/data/post-toc.json — absent for posts with no headings.
 	toc?: { id: string; text: string; level: 2 | 3 }[];
+	// Locale of this version (Fase 4). Absent on English posts.
+	locale?: Locale;
+	// Translations only: the English date that was translated (see TranslatedPostSchema).
+	sourceUpdated?: string;
 	// Derived from categories: true when any category slugifies to 'news'.
 	// Populated in blog-pipeline.ts alongside other derived fields.
 	isNews: boolean;

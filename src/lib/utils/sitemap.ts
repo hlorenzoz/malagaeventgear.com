@@ -9,6 +9,13 @@
  */
 
 import type { Locale } from '$lib/i18n/locales';
+import type { Author, BlogPost, Category } from '$lib/types/blog';
+import type { LocaleContentMap } from '$lib/i18n/content-map/schema';
+import { getAvailability } from '$lib/i18n/availability';
+import { encodePath, withLocale } from '$lib/i18n/locale-path';
+import { localizePath } from '$lib/i18n/routing';
+import { blogAvailabilityOf } from '$lib/data/blog-pipeline';
+import { siteConfig } from '$lib/data/site';
 
 /** Convierte una fecha `YYYY-MM-DD` (o ISO) al formato `<lastmod>` con offset UTC. */
 export function toLastmod(dateStr: string): string {
@@ -125,6 +132,36 @@ export function urlsetXml(urls: SitemapUrl[]): string {
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${body}
 </urlset>`;
+}
+
+export type BlogSitemapKind = 'post' | 'category' | 'author';
+
+/**
+ * URLs of one locale's blog sitemap (`post-sitemap-de.xml`, `category-sitemap-de.xml`,
+ * `author-sitemap-de.xml`, Fase 4): only what is published in the locale, each dated by its
+ * translation (a category or author by its newest translated post, CLAUDE.md §11). Covers are
+ * the English post's, so only `image:loc`. An empty result means no sitemap (404).
+ */
+export function localeBlogSitemapUrls(
+	kind: BlogSitemapKind,
+	locale: Locale,
+	blog: { posts: BlogPost[]; categories: Category[]; authors: Author[] },
+	map: LocaleContentMap | null
+): SitemapUrl[] {
+	if (kind === 'post') {
+		return blog.posts.map((post) => ({
+			loc: `${siteConfig.url}${post.url}`,
+			lastmod: post.updatedDate ?? post.publishDate,
+			image: post.coverImage || undefined
+		}));
+	}
+	if (!map) return [];
+	const available = getAvailability(locale, blogAvailabilityOf(blog.posts));
+	const items = kind === 'category' ? blog.categories : blog.authors;
+	return items.flatMap((item) => {
+		const path = localizePath(`/blog/${kind}/${item.slug}/`, map, available);
+		return path === null ? [] : [{ loc: `${siteConfig.url}${encodePath(withLocale(locale, path))}`, lastmod: item.lastmod }];
+	});
 }
 
 export const SITEMAP_HEADERS = {

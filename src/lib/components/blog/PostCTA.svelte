@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { EventPackage } from '$lib/data/packages';
 	import { packageImageVariant } from '$lib/assets/package-images';
+	import { i18n } from '$lib/i18n.svelte';
 
 	let {
 		pkg
@@ -64,14 +65,14 @@
 			<!-- CTAs -->
 			<div class="post-cta-actions">
 				<a
-					href={pkg.route}
+					href={i18n.href(pkg.route)}
 					class="post-cta-btn-primary"
 					data-testid="post-cta-primary"
 				>
 					View the {pkg.name} →
 				</a>
 				<a
-					href="/contact/"
+					href={i18n.href('/contact/')}
 					class="post-cta-btn-secondary"
 					data-testid="post-cta-secondary"
 				>

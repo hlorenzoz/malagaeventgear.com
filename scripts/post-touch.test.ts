@@ -5,8 +5,11 @@
  * Los I/O (readFileSync, writeFileSync) no se testean aquí.
  */
 
-import { describe, it, expect } from 'vitest';
-import { setUpdatedField } from './post-touch';
+import { mkdtempSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { afterAll, describe, it, expect } from 'vitest';
+import { setUpdatedField, translationsNeedingUpdate } from './post-touch';
 
 // Frontmatter base de ejemplo con publishDate
 const baseSvx = `---
@@ -92,5 +95,25 @@ Cuerpo.
 title: "Malformado"
 `;
 		expect(() => setUpdatedField(malformed, '2026-06-07')).toThrow();
+	});
+});
+
+describe('translationsNeedingUpdate (Fase 4)', () => {
+	const dir = mkdtempSync(join(tmpdir(), 'meg-touch-'));
+	afterAll(() => rmSync(dir, { recursive: true, force: true }));
+	const translation = (sourceUpdated: string) =>
+		`---\ntitle: "T"\ndescription: "Long enough text."\nexcerpt: "Long enough text."\npublishDate: "2026-02-01"\nsourceUpdated: "${sourceUpdated}"\n---\nBody.\n`;
+	for (const [locale, date] of [['de', '2026-01-15'], ['fr', '2026-09-24'], ['zh-hans', '2026-03-01']] as const) {
+		mkdirSync(join(dir, locale), { recursive: true });
+		writeFileSync(join(dir, locale, 'mi-post.svx'), translation(date));
+	}
+	mkdirSync(join(dir, 'it'), { recursive: true }); // a locale without this post
+
+	it('lists the locales whose translation is older than the new English date, sorted', () => {
+		expect(translationsNeedingUpdate('mi-post', '2026-09-24', dir)).toEqual(['de', 'zh-hans']);
+	});
+
+	it('is empty for a post without translations', () => {
+		expect(translationsNeedingUpdate('otro-post', '2026-09-24', dir)).toEqual([]);
 	});
 });

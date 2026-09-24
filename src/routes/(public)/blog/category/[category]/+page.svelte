@@ -105,7 +105,7 @@
 								href={i18n.href(`/blog/category/${slugify(cat)}/`)}
 								class="text-xs font-label-sm text-electric-blue uppercase tracking-wider hover:underline"
 							>
-								{cat}
+								{i18n.categoryName(cat)}
 							</a>
 						{/each}
 					</div>

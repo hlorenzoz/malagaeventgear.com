@@ -10,10 +10,16 @@
  * of src/content/blog/<slug>.svx, reflecting today's date.
  *
  * Safe: only modifies the frontmatter block — body content is preserved exactly.
+ *
+ * Fase 4: after the bump it lists every translation (`src/content/blog/<locale>/<slug>.svx`)
+ * whose `sourceUpdated` is now older than the English post, so the edit reaches the other
+ * languages in the same change (CLAUDE.md, "Reglas mandatorias de idioma", rule 2).
  */
 
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { BLOG_DIR, readPost } from './blog-files.mjs';
+import { PREFIXED_LOCALES } from '../src/lib/i18n/locales';
 
 // ---------------------------------------------------------------------------
 // Date helpers
@@ -78,6 +84,19 @@ export function setUpdatedField(content: string, date: string): string {
 	return `---${newFrontmatter}---${afterFrontmatter}`;
 }
 
+/**
+ * Locales whose translation of `slug` translates an English version older than `englishDate`
+ * (YYYY-MM-DD), sorted. Locales without a translation of the post are not listed.
+ */
+export function translationsNeedingUpdate(slug: string, englishDate: string, dir: string = BLOG_DIR): string[] {
+	return PREFIXED_LOCALES.filter((locale) => {
+		const path = join(dir, locale, `${slug}.svx`);
+		if (!existsSync(path)) return false;
+		const { sourceUpdated } = readPost(path).data as { sourceUpdated?: unknown };
+		return typeof sourceUpdated !== 'string' || sourceUpdated < englishDate;
+	}).sort();
+}
+
 // ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
@@ -114,11 +133,16 @@ function main(): void {
 
 	if (newContent === originalContent) {
 		console.log(`[post-touch] Sin cambios: updatedDate ya era "${today}": ${filePath}`);
-		return;
+	} else {
+		writeFileSync(filePath, newContent, 'utf8');
+		console.log(`[post-touch] updatedDate: "${today}" -> ${filePath}`);
 	}
 
-	writeFileSync(filePath, newContent, 'utf8');
-	console.log(`[post-touch] updatedDate: "${today}" -> ${filePath}`);
+	const outdated = translationsNeedingUpdate(cleanSlug, today);
+	if (outdated.length > 0) {
+		console.log(`[post-touch] needs update: ${outdated.join(', ')}`);
+		console.log('  Translate the change into each of them and set its sourceUpdated to the English date.');
+	}
 }
 
 // Guard: only run main() when executed directly (not when imported by tests)

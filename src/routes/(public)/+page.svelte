@@ -5,7 +5,6 @@
 	import { faqCopy, pkgCopy } from '$lib/i18n/data-copy.svelte';
 	import { packages, getPriceRange, formatPrice } from '$lib/data/packages';
 	import { getHomepageFaqs, buildFaqSchema } from '$lib/data/faq';
-	import { getArticlePosts, getNewsPosts } from '$lib/data/blog';
 	import LatestPostsRow from '$lib/components/home/LatestPostsRow.svelte';
 	import Icon from '$lib/components/navigation/Icon.svelte';
 	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
@@ -34,10 +33,9 @@
 	// new image into the second row.
 	const galleryHalf = Math.ceil(galleryImages.length / 2);
 
-	// Latest editorial content for the home rows (already sorted by publishDate desc).
-	// Latest Posts excludes news to avoid overlapping with the Latest News row.
-	const latestPosts = getArticlePosts().slice(0, 5);
-	const latestNews = getNewsPosts().slice(0, 5);
+	// Latest editorial content of this locale for the home rows (+page.ts).
+	const latestPosts = $derived(data.latestPosts);
+	const latestNews = $derived(data.latestNews);
 
 	// Cheapest package price for the "What does it cost?" answer (derived, see CLAUDE.md §7)
 	let minPrice = $derived(getPriceRange().min);
@@ -646,8 +644,9 @@
 	</div>
 </section>
 
-<!-- Post rows only where this language has posts: never English titles on a translated page -->
-{#if i18n.postsPublished}
+<!-- Post rows list this language's own posts only (never English titles on a translated
+     page), and a row with no post hides -->
+{#if latestPosts.length > 0}
 <!-- Latest Posts (non-news articles) -->
 <LatestPostsRow
 	title={copy.posts.latestTitle}
@@ -655,7 +654,9 @@
 	viewAllHref={i18n.href('/blog/')}
 	viewAllLabel={copy.posts.latestViewAll}
 />
+{/if}
 
+{#if latestNews.length > 0}
 <!-- Latest News -->
 <LatestPostsRow
 	title={copy.posts.newsTitle}

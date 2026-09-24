@@ -28,7 +28,7 @@
 	class="snap-start shrink-0 w-[280px] bg-surface-container-low border border-border-glass rounded-2xl overflow-hidden hover:border-electric-blue/40 transition-colors duration-300 flex flex-col"
 >
 	{#if post.coverImage}
-		<a href="/blog/{post.slug}/" class="block aspect-video overflow-hidden" aria-label={post.title}>
+		<a href={post.url} class="block aspect-video overflow-hidden" aria-label={post.title}>
 			<img
 				src={post.coverImageThumb ?? post.coverImage}
 				srcset={post.coverImageSrcset}
@@ -52,16 +52,16 @@
 				</span>
 			{:else if post.categories && post.categories.length > 0}
 				<a
-					href="/blog/category/{slugify(post.categories[0])}/"
+					href={i18n.href(`/blog/category/${slugify(post.categories[0])}/`)}
 					class="text-xs font-label-sm text-electric-blue uppercase tracking-wider hover:underline"
 				>
-					{post.categories[0]}
+					{i18n.categoryName(post.categories[0])}
 				</a>
 			{/if}
 		</div>
 
 		<h3 class="font-headline-sm text-base text-on-surface leading-snug mb-3 line-clamp-2">
-			<a href="/blog/{post.slug}/" class="hover:text-electric-blue transition-colors">
+			<a href={post.url} class="hover:text-electric-blue transition-colors">
 				{post.title}
 			</a>
 		</h3>

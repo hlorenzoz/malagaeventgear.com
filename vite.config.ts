@@ -16,8 +16,10 @@ const BLOG_URL_PATTERN = new RegExp(
 );
 
 // Translated copy: every per-locale file except the English source (dictionaries, package and
-// FAQ copy, page copy, content maps). Each one builds into its own lazy chunk.
-const TRANSLATED_COPY = /\/src\/(lib\/i18n\/(messages|data|content-map\/locales)|routes\/.+\/i18n)\/(?!en\.ts)[a-z-]+\.ts$/;
+// FAQ copy, page copy, content maps), the translated post bodies (`src/content/blog/<locale>/`)
+// and the per locale blog modules of vite-blog-meta.mjs. Each one builds into its own lazy chunk.
+const TRANSLATED_COPY = /\/src\/(lib\/i18n\/(messages|data|content-map\/locales)|routes\/.+\/i18n)\/(?!en\.ts)[a-z-]+\.ts$|\/src\/content\/blog\/[a-z-]+\/[^/]+\.svx$/;
+const TRANSLATED_VIRTUAL = /^\0virtual:blog-(translations|availability)\//;
 
 // Workbox globIgnores. @vite-pwa/sveltekit keeps THIS array (buildGlobIgnores pushes into it and
 // returns it) and generates sw.js when the server build closes, after the client build. But
@@ -41,8 +43,8 @@ function skipTranslatedCopyInPrecache(): Plugin {
 		generateBundle(_, bundle) {
 			for (const chunk of Object.values(bundle)) {
 				if (chunk.type !== 'chunk' || !chunk.fileName.includes('immutable/chunks/')) continue;
-				const ids = chunk.moduleIds.filter((id) => !id.startsWith('\0'));
-				if (ids.length > 0 && ids.every((id) => TRANSLATED_COPY.test(id))) {
+				const ids = chunk.moduleIds.filter((id) => !id.startsWith('\0') || TRANSLATED_VIRTUAL.test(id));
+				if (ids.length > 0 && ids.every((id) => TRANSLATED_COPY.test(id) || TRANSLATED_VIRTUAL.test(id))) {
 					precacheIgnores.push(`**/${chunk.fileName}`);
 				}
 			}

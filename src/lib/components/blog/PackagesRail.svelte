@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { packages as allPackages, type EventPackage } from '$lib/data/packages';
 	import { packageImageVariant } from '$lib/assets/package-images';
+	import { i18n } from '$lib/i18n.svelte';
 
 	// Accept an ordered package list (e.g. relevance-sorted for a post). Defaults to the
 	// full catalog so other usages keep working without passing a prop.
@@ -21,7 +22,7 @@
 	<ul class="packages-rail-list">
 		{#each packages as pkg (pkg.slug)}
 			<li class="packages-rail-item">
-				<a href={pkg.route} class="packages-rail-card" data-testid="package-card">
+				<a href={i18n.href(pkg.route)} class="packages-rail-card" data-testid="package-card">
 					{#if pkg.image}
 						<div class="packages-rail-img-wrap">
 							<!-- Thumbnails dedicados (96 y 160px) en vez del <slug>.webp completo (800x800). El

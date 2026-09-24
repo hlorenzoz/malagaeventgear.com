@@ -142,7 +142,7 @@
 	</section>
 
 	<!-- ── Blog Section ──────────────────────────────────────────────────────── -->
-	{#if i18n.postsPublished}
+	{#if data.posts.length > 0}
 	<section class="mb-24">
 		<div class="flex items-center gap-3 border-b border-border-glass pb-4 mb-8">
 			<Icon name="article" size="32" className="text-electric-blue" />

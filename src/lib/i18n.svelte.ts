@@ -2,11 +2,12 @@ import { page } from '$app/state';
 import enSource, { type Messages } from '$lib/i18n/messages/en';
 import { renderTokens } from '$lib/data/packages';
 import { DEFAULT_LOCALE, LOCALE_META, isLocale, type Locale } from '$lib/i18n/locales';
-import { getAvailability } from '$lib/i18n/availability';
+import { getAvailability, type BlogAvailability } from '$lib/i18n/availability';
 import type { LocaleContentMap } from '$lib/i18n/content-map/schema';
 import { encodePath, withLocale } from '$lib/i18n/locale-path';
 import { localizePath } from '$lib/i18n/routing';
 import { siteConfig } from '$lib/data/site';
+import { slugify } from '$lib/utils/slugify';
 
 /**
  * UI dictionary access. The locale comes from the URL (CLAUDE.md, "Internacionalización"):
@@ -33,6 +34,11 @@ export async function loadMessages(locale: Locale): Promise<Messages> {
 	return loader ? loader() : en;
 }
 
+/** What this page's locale publishes, loaded by `(public)/+layout.ts` with its content map. */
+function available(locale: Locale) {
+	return getAvailability(locale, page.data?.blogAvailability as BlogAvailability | null | undefined);
+}
+
 export const i18n = {
 	get lang(): Locale {
 		const locale = page.data?.locale;
@@ -53,17 +59,25 @@ export const i18n = {
 		const cut = enPath.search(/[?#]/);
 		const path = cut === -1 ? enPath : enPath.slice(0, cut);
 		const suffix = cut === -1 ? '' : enPath.slice(cut);
-		const localized = localizePath(path, map, getAvailability(locale));
+		const localized = localizePath(path, map, available(locale));
 		return localized === null ? enPath : encodePath(withLocale(locale, localized)) + suffix;
 	},
 	/**
-	 * True when this locale has blog posts to list. A page must never list English post titles
-	 * in another language (Google: one language per page), so every post listing on a
-	 * translated page hides while its locale has no translated posts (Fase 4).
+	 * True when this locale has at least one published post. The post lists themselves come
+	 * from the locale's own data (`getPostsForLocale`), so a translated page lists only its
+	 * language's posts (Google: one language per page) and hides a list that is empty.
 	 */
 	get postsPublished(): boolean {
 		const locale = this.lang;
-		return locale === DEFAULT_LOCALE || getAvailability(locale).posts.size > 0;
+		return locale === DEFAULT_LOCALE || available(locale).posts.size > 0;
+	},
+	/**
+	 * Display name of a blog category in the current locale, from the English name stored in a
+	 * post's frontmatter. Falls back to that English name (English pages, unmapped category).
+	 */
+	categoryName(englishName: string): string {
+		const map = page.data?.contentMap as LocaleContentMap | null | undefined;
+		return map?.categories[slugify(englishName)]?.name ?? englishName;
 	},
 	/** Absolute URL of an English route in the current locale (JSON-LD `url`, `@id`). */
 	absolute(enPath: string): string {

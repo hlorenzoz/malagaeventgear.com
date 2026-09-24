@@ -5,6 +5,7 @@ import { STATIC_SITEMAP_PAGES, getStaticPageFreshness } from '$lib/utils/sitemap
 import { PAGE_LOCALES } from './availability';
 import { LOCALES } from './locales';
 import type { DataCopy } from './data-copy';
+import { publishedPostsByLocale } from '$lib/data/blog-files.testutil';
 
 /**
  * Guard: a locale whose pages are published (PAGE_LOCALES) has ALL of its copy. The render
@@ -18,6 +19,8 @@ const dictionaries = import.meta.glob('./messages/*.ts');
 const dataFiles = import.meta.glob<DataCopy>('./data/*.ts', { eager: true, import: 'default' });
 /** Page copy files (`<route>/i18n/<locale>.ts`), keys only: which pages exist in which locale. */
 const pageCopyFiles = Object.keys(import.meta.glob('/src/routes/**/i18n/*.ts'));
+/** Locales with at least one published translated post (Fase 4), from the real files. */
+const localesWithPosts = publishedPostsByLocale();
 
 /** Every string leaf of a value, with its path, to compare shapes between languages. */
 function leaves(value: unknown, path = ''): string[] {
@@ -77,7 +80,9 @@ describe('published and in-progress locales are complete', () => {
 			it('dates every page and package translation (CLAUDE.md §11)', () => {
 				const freshness = getStaticPageFreshness(locale);
 				for (const page of STATIC_SITEMAP_PAGES) {
-					if (page === 'blog' || page === 'blog/categories') continue; // published with posts (Fase 4)
+					// The blog index and the categories page exist in a locale once it publishes a post
+					// (Fase 4): from then on their translation is dated like every other page.
+					if ((page === 'blog' || page === 'blog/categories') && !localesWithPosts[locale]) continue;
 					expect(freshness.get(page), `${page || '/'}: i18n/${locale}.ts has no updated date`).toMatch(/^\d{4}-\d{2}-\d{2}$/);
 				}
 				for (const pkg of packages) {

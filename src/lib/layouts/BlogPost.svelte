@@ -31,6 +31,9 @@
 	let firstCategory = $derived(post.categories[0] ?? undefined);
 
 	let authorSlug = $derived(slugify(post.author));
+	// JSON-LD and og identity of the author: the ENGLISH author page in every locale, because
+	// that page emits the one canonical Person node (see blog/author/[author]/+page.svelte) and
+	// a Person must keep a single @id. The visible link below goes to the locale's author page.
 	let authorUrl = $derived(`${siteConfig.url}/blog/author/${authorSlug}/`);
 
 	let articleSchema = $derived(
@@ -42,12 +45,13 @@
 			authorName: post.author,
 			authorUrl: authorUrl,
 			url: post.url,
+			inLanguage: LOCALE_META[i18n.lang].htmlLang,
 			imageUrl: post.coverImage,
 			imageWidth: post.coverImageWidth,
 			imageHeight: post.coverImageHeight,
 			// Use NewsArticle @type when the post belongs to the "News" category
 			type: post.isNews ? 'NewsArticle' : 'BlogPosting',
-			articleSection: firstCategory,
+			articleSection: firstCategory ? i18n.categoryName(firstCategory) : undefined,
 			keywords: post.tags && post.tags.length > 0 ? post.tags : undefined
 		})
 	);
@@ -121,7 +125,7 @@
 		type: 'article',
 		publishedTime: toIso8601WithOffset(post.publishDate),
 		modifiedTime: toIso8601WithOffset(post.updatedDate ?? post.publishDate),
-		section: firstCategory,
+		section: firstCategory ? i18n.categoryName(firstCategory) : undefined,
 		tags: post.tags && post.tags.length > 0 ? post.tags : undefined,
 		author: authorUrl,
 		images: [
@@ -175,10 +179,10 @@
 					<div class="flex flex-wrap gap-2 mb-4">
 						{#each post.categories as category}
 							<a
-								href="/blog/category/{slugify(category)}/"
+								href={i18n.href(`/blog/category/${slugify(category)}/`)}
 								class="text-sm font-label-sm text-electric-blue uppercase tracking-wider hover:underline"
 							>
-								{category}
+								{i18n.categoryName(category)}
 							</a>
 						{/each}
 					</div>
@@ -192,7 +196,7 @@
 				<div class="flex flex-wrap items-center justify-center gap-4 text-on-surface-variant font-body-sm text-body-sm">
 					<span>
 						{i18n.t.blog.byAuthor}
-						<a href="/blog/author/{authorSlug}/" class="text-electric-blue hover:underline ml-1">
+						<a href={i18n.href(`/blog/author/${authorSlug}/`)} class="text-electric-blue hover:underline ml-1">
 							{post.author}
 						</a>
 					</span>

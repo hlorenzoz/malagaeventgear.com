@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 import {
 	LOCALE_META,
 	PUBLISHED_LOCALES,
+	blogAvailability,
 	UNPUBLISHED_LOCALES,
 	canonicalOf,
 	contentMap,
@@ -81,7 +82,9 @@ test.describe('every price on a page is written one way', () => {
 
 for (const locale of PUBLISHED_LOCALES) {
 	test.describe(`locale ${locale}`, () => {
-		for (const enPath of SAMPLE_PAGES) {
+		// Plus the locale's newest translated post, once it has one (Fase 4): same contract.
+		const firstPost = blogAvailability(locale).posts[0];
+		for (const enPath of [...SAMPLE_PAGES, ...(firstPost ? [`/blog/${firstPost}/`] : [])]) {
 			test(`${enPath}: 200, lang, self canonical and reciprocal hreflang`, async ({ request }) => {
 				const path = await localized(locale, enPath);
 				expect(path, `${enPath} is not published in ${locale}`).not.toBeNull();
@@ -103,6 +106,17 @@ for (const locale of PUBLISHED_LOCALES) {
 				}
 			});
 		}
+
+		test('a translated post declares its language and its own URL in the Article', async ({ request }) => {
+			test.skip(!firstPost, 'no translated post in this locale yet');
+			const path = (await localized(locale, `/blog/${firstPost}/`))!;
+			const html = await (await request.get(path)).text();
+			const article = [...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
+				.map((m) => JSON.parse(m[1]))
+				.find((n) => n['@type'] === 'BlogPosting' || n['@type'] === 'NewsArticle');
+			expect(article?.inLanguage).toBe(LOCALE_META[locale].htmlLang);
+			expect(article?.['@id']).toBe(`${SITE}${path}#article`);
+		});
 
 		test('structured data points at this language version, never the English URL', async ({ request }) => {
 			const nodes = (html: string) =>
@@ -135,12 +149,41 @@ for (const locale of PUBLISHED_LOCALES) {
 		});
 
 		test('no translated page lists English posts (one language per page)', async ({ request }) => {
-			// Until this locale has translated posts, the only blog link allowed is the navbar's
-			// labelled "Blog (in English)" link to /blog/ itself, never a post, category or author.
+			// A translated page lists only the posts published in its locale, by their localized
+			// URL. The only English blog link allowed is the navbar's labelled "Blog (in English)"
+			// link to /blog/ itself (while the locale has no posts), never a post, category or author.
+			const blogRoot = await localized(locale, '/blog/');
+			// Every localized URL one level under the blog root: its published posts and the
+			// categories index. Anything else there would be a post that is not published.
+			const allowed = new Set([
+				await localized(locale, '/blog/categories/'),
+				...(await Promise.all(blogAvailability(locale).posts.map((slug) => localized(locale, `/blog/${slug}/`))))
+			]);
 			for (const enPath of ['/', '/sitemap/']) {
 				const html = await (await request.get((await localized(locale, enPath))!)).text();
 				const postLinks = [...html.matchAll(/href="(\/blog\/[^"]+)"/g)].map((m) => m[1]).filter((h) => h !== '/blog/');
 				expect(postLinks, `${enPath} in ${locale} links English posts`).toEqual([]);
+				if (!blogRoot) continue; // no posts in this locale: no localized blog URL exists
+				const underRoot = [...html.matchAll(/href="([^"]+)"/g)]
+					.map((m) => m[1])
+					.filter((h) => h.startsWith(blogRoot) && /^[^/]+\/$/.test(h.slice(blogRoot.length)));
+				for (const href of underRoot) expect(allowed, `${enPath} in ${locale} links ${href}`).toContain(href);
+			}
+		});
+
+		test('the locale blog sitemaps exist only with published posts, and the index links them', async ({ request }) => {
+			const blog = blogAvailability(locale);
+			const index = await (await request.get('/sitemap_index.xml')).text();
+			const kinds = { post: blog.posts, category: blog.categories, author: blog.authors };
+			for (const [kind, published] of Object.entries(kinds)) {
+				const file = `${kind}-sitemap-${locale}.xml`;
+				const res = await request.get(`/${file}`);
+				expect(res.status(), file).toBe(published.length > 0 ? 200 : 404);
+				expect(index.includes(`${SITE}/${file}`), `index lists ${file}`).toBe(published.length > 0);
+				if (kind === 'post' && published.length > 0) {
+					const xml = await res.text();
+					for (const slug of published) expect(xml).toContain(`<loc>${SITE}${await localized(locale, `/blog/${slug}/`)}</loc>`);
+				}
 			}
 		});
 

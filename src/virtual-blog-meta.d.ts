@@ -1,9 +1,28 @@
 /**
- * Ambient type for the `virtual:blog-meta` module provided by scripts/vite-blog-meta.mjs.
- * Maps each post's content path to its parsed frontmatter, in the shape
- * buildPostsFromGlob() expects.
+ * Ambient types for the virtual modules provided by scripts/vite-blog-meta.mjs.
  */
+
+/** English posts: each post's content path to its parsed frontmatter, as buildPostsFromGlob() expects. */
 declare module 'virtual:blog-meta' {
 	const blogMeta: Record<string, { metadata: unknown }>;
 	export default blogMeta;
+}
+
+/**
+ * Translated posts (Fase 4): one lazy loader per locale that has translation files. Each
+ * returns that locale's modules (frontmatter, FAQ and ToC), as buildLocalizedPosts() expects.
+ */
+declare module 'virtual:blog-translations' {
+	/** ISO build time: the publish date cut shared by the app and the build tooling. */
+	export const builtAt: string;
+	const loaders: Partial<
+		Record<string, () => Promise<import('$lib/data/blog-pipeline').TranslationGlob>>
+	>;
+	export default loaders;
+}
+
+/** What each locale's blog publishes (English identifiers), one lazy loader per locale. */
+declare module 'virtual:blog-availability' {
+	const loaders: Partial<Record<string, () => Promise<import('$lib/i18n/availability').BlogAvailability>>>;
+	export default loaders;
 }

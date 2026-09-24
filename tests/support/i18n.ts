@@ -1,4 +1,5 @@
-import { PAGE_LOCALES, getAvailability } from '../../src/lib/i18n/availability';
+import { PAGE_LOCALES, getAvailability, NO_BLOG, type BlogAvailability } from '../../src/lib/i18n/availability';
+import { computeBlogState } from '../../scripts/blog-sources';
 import type { LocaleContentMap } from '../../src/lib/i18n/content-map/schema';
 import { encodePath, withLocale } from '../../src/lib/i18n/locale-path';
 import { LOCALE_META, LOCALES, type Locale } from '../../src/lib/i18n/locales';
@@ -10,6 +11,14 @@ export const PUBLISHED_LOCALES = PAGE_LOCALES.filter((l): l is Exclude<Locale, '
 export const UNPUBLISHED_LOCALES = LOCALES.filter((l) => !PAGE_LOCALES.includes(l));
 export { LOCALE_META, type Locale };
 
+// What each locale's blog publishes, computed from the translation files with the same
+// pipeline the build runs (scripts/blog-sources.ts). Empty for every locale until Fase 4 posts ship.
+const blogState = computeBlogState();
+
+export function blogAvailability(locale: Locale): BlogAvailability {
+	return locale === 'en' ? NO_BLOG : (blogState.locales[locale]?.availability ?? NO_BLOG);
+}
+
 export async function contentMap(locale: Locale): Promise<LocaleContentMap> {
 	return (await import(`../../src/lib/i18n/content-map/locales/${locale}.ts`)).default;
 }
@@ -17,7 +26,7 @@ export async function contentMap(locale: Locale): Promise<LocaleContentMap> {
 /** Site path (percent encoded) of an English route in a locale, or null when unpublished. */
 export async function localized(locale: Locale, enPath: string): Promise<string | null> {
 	if (locale === 'en') return enPath;
-	const path = localizePath(enPath, await contentMap(locale), getAvailability(locale));
+	const path = localizePath(enPath, await contentMap(locale), getAvailability(locale, blogAvailability(locale)));
 	return path === null ? null : encodePath(withLocale(locale, path));
 }
 

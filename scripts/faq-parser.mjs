@@ -30,8 +30,11 @@ export function parseFaqs(body) {
 	}
 	if (faqStart === -1) return [];
 
+	/** @type {{ question: string, answer: string }[]} */
 	const faqs = [];
+	/** @type {string | null} */
 	let currentQuestion = null;
+	/** @type {string[]} */
 	let currentAnswerLines = [];
 
 	function flushQuestion() {

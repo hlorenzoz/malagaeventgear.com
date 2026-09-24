@@ -1,4 +1,5 @@
 import { getAvailability } from './availability';
+import { loadBlogAvailability } from './blog-availability';
 import type { LocaleContentMap } from './content-map/schema';
 import { withLocale } from './locale-path';
 import { DEFAULT_LOCALE, LOCALES, type Locale } from './locales';
@@ -26,8 +27,8 @@ export function loadContentMap(locale: Locale): Promise<LocaleContentMap | null>
 async function getRouteTable(locale: Locale): Promise<Map<string, string>> {
 	let cached = tables.get(locale);
 	if (!cached) {
-		cached = loadContentMap(locale).then((map) =>
-			map ? buildRouteTable(map, getAvailability(locale)) : new Map()
+		cached = Promise.all([loadContentMap(locale), loadBlogAvailability(locale)]).then(([map, blog]) =>
+			map ? buildRouteTable(map, getAvailability(locale, blog)) : new Map()
 		);
 		tables.set(locale, cached);
 	}
@@ -42,9 +43,9 @@ export async function resolveLocalizedPath(locale: Locale, rest: string): Promis
 /** Full site path of an English route in a locale, or null when it is not published there. */
 export async function localizeTo(locale: Locale, enPath: string): Promise<string | null> {
 	if (locale === DEFAULT_LOCALE) return enPath;
-	const map = await loadContentMap(locale);
+	const [map, blog] = await Promise.all([loadContentMap(locale), loadBlogAvailability(locale)]);
 	if (!map) return null;
-	const localized = localizePath(enPath, map, getAvailability(locale));
+	const localized = localizePath(enPath, map, getAvailability(locale, blog));
 	return localized === null ? null : withLocale(locale, localized);
 }
 

@@ -42,9 +42,11 @@
 					</a>
 					<!-- Blog sections only where this language has posts: no English titles on a translated page -->
 					{#if i18n.postsPublished}
+					{#if categories.some((c) => c.slug === 'news')}
 					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/blog/category/news/')}>
 						{i18n.t.footer.news}
 					</a>
+					{/if}
 					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/blog/categories/')}>
 						{i18n.t.footer.categories}
 					</a>
