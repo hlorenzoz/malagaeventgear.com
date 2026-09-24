@@ -15,14 +15,14 @@ export default {
 	},
 	whatAreCookies: {
 		title: 'O que são Cookies?',
-		body: 'Cookies são pequenos arquivos de texto colocados no seu dispositivo quando você visita nosso site. Eles ajudam o site a funcionar com mais eficiência, permitem manter suas preferências de idioma (por exemplo, EN/ES) e fornecem dados analíticos anônimos à nossa equipe.'
+		body: 'Cookies são pequenos arquivos de texto colocados no seu dispositivo quando você visita nosso site. Eles ajudam o site a funcionar com mais eficiência, permitem lembrar o tema claro ou escuro que você escolheu e fornecem dados analíticos anônimos à nossa equipe.'
 	},
 	categories: {
 		title: 'Categorias de Cookies que Usamos',
 		items: [
 			{
 				title: 'Cookies Essenciais e Técnicos',
-				body: 'Altamente essenciais para a navegação básica, a segurança e a manutenção das preferências de idioma selecionadas. Não podem ser desativados.'
+				body: 'Altamente essenciais para a navegação básica, a segurança e a memorização do tema claro ou escuro escolhido. Não podem ser desativados.'
 			},
 			{
 				title: 'Cookies Analíticos e de Desempenho',
@@ -36,6 +36,6 @@ export default {
 	},
 	managing: {
 		title: 'Gerenciando Suas Preferências',
-		body: 'Você pode facilmente recusar ou bloquear cookies pelas configurações do seu navegador. No entanto, observe que restringir todos os cookies pode afetar o acesso a funcionalidades avançadas, como o preenchimento automático de formulários ou a manutenção da preferência de idioma.'
+		body: 'Você pode facilmente recusar ou bloquear cookies pelas configurações do seu navegador. No entanto, observe que restringir todos os cookies pode afetar o acesso a funcionalidades avançadas, como o preenchimento automático de formulários ou a memorização do tema claro ou escuro.'
 	}
 } satisfies Copy;

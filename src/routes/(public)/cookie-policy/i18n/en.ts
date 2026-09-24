@@ -12,14 +12,14 @@ const copy = {
 	},
 	whatAreCookies: {
 		title: 'What are Cookies?',
-		body: 'Cookies are small text files placed on your device when you visit our website. They help the website work more efficiently, allow us to persist your language preferences (e.g. EN/ES), and provide anonymous analytical data to our team.'
+		body: 'Cookies are small text files placed on your device when you visit our website. They help the website work more efficiently, let us remember your light or dark theme, and provide anonymous analytical data to our team.'
 	},
 	categories: {
 		title: 'Categories of Cookies We Use',
 		items: [
 			{
 				title: 'Essential & Technical Cookies',
-				body: 'Highly essential for basic navigation, security, and the persistent operation of language preference selections. They cannot be turned off.'
+				body: 'Highly essential for basic navigation, security, and remembering your light or dark theme. They cannot be turned off.'
 			},
 			{
 				title: 'Analytical & Performance Cookies',
@@ -33,7 +33,7 @@ const copy = {
 	},
 	managing: {
 		title: 'Managing Your Preferences',
-		body: 'You can easily decline or block cookies through your individual browser preferences. However, please note that restricting all cookies may impact your access to advanced functionalities, such as automated form fillings or persistent language selections.'
+		body: 'You can easily decline or block cookies through your individual browser preferences. However, please note that restricting all cookies may impact your access to advanced functionalities, such as automated form fillings or remembering your light or dark theme.'
 	}
 };
 

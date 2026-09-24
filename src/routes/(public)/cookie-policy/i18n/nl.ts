@@ -15,14 +15,14 @@ const copy = {
 	},
 	whatAreCookies: {
 		title: 'Wat zijn cookies?',
-		body: 'Cookies zijn kleine tekstbestanden die op je apparaat worden geplaatst wanneer je onze website bezoekt. Ze zorgen dat de website efficiënter werkt, maken het mogelijk om je taalvoorkeur te onthouden (bijv. EN/ES), en leveren anonieme analytische gegevens aan ons team.'
+		body: 'Cookies zijn kleine tekstbestanden die op je apparaat worden geplaatst wanneer je onze website bezoekt. Ze zorgen dat de website efficiënter werkt, maken het mogelijk om je lichte of donkere thema te onthouden, en leveren anonieme analytische gegevens aan ons team.'
 	},
 	categories: {
 		title: 'Categorieën cookies die we gebruiken',
 		items: [
 			{
 				title: 'Essentiële & technische cookies',
-				body: 'Essentieel voor de basisnavigatie, beveiliging en het blijvend werken van je taalvoorkeur. Deze kunnen niet worden uitgeschakeld.'
+				body: 'Essentieel voor de basisnavigatie, beveiliging en het onthouden van je lichte of donkere thema. Deze kunnen niet worden uitgeschakeld.'
 			},
 			{
 				title: 'Analytische & prestatiecookies',
@@ -36,7 +36,7 @@ const copy = {
 	},
 	managing: {
 		title: 'Je voorkeuren beheren',
-		body: 'Je kunt cookies eenvoudig weigeren of blokkeren via de instellingen van je browser. Let op: het blokkeren van alle cookies kan invloed hebben op geavanceerde functies, zoals het automatisch invullen van formulieren of het onthouden van je taalvoorkeur.'
+		body: 'Je kunt cookies eenvoudig weigeren of blokkeren via de instellingen van je browser. Let op: het blokkeren van alle cookies kan invloed hebben op geavanceerde functies, zoals het automatisch invullen van formulieren of het onthouden van je lichte of donkere thema.'
 	}
 } satisfies Copy;
 

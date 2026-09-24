@@ -15,14 +15,14 @@ export default {
 	},
 	whatAreCookies: {
 		title: 'Was sind Cookies?',
-		body: 'Cookies sind kleine Textdateien, die beim Besuch unserer Website auf Ihrem Gerät gespeichert werden. Sie helfen der Website, effizienter zu funktionieren, ermöglichen es uns, Ihre Spracheinstellungen zu speichern (z. B. EN/ES), und liefern unserem Team anonyme Analysedaten.'
+		body: 'Cookies sind kleine Textdateien, die beim Besuch unserer Website auf Ihrem Gerät gespeichert werden. Sie helfen der Website, effizienter zu funktionieren, ermöglichen es uns, Ihr helles oder dunkles Design zu speichern, und liefern unserem Team anonyme Analysedaten.'
 	},
 	categories: {
 		title: 'Kategorien der von uns verwendeten Cookies',
 		items: [
 			{
 				title: 'Essenzielle & technische Cookies',
-				body: 'Unbedingt erforderlich für die grundlegende Navigation, Sicherheit und die dauerhafte Speicherung der Spracheinstellungen. Sie können nicht deaktiviert werden.'
+				body: 'Unbedingt erforderlich für die grundlegende Navigation, Sicherheit und die Speicherung Ihres hellen oder dunklen Designs. Sie können nicht deaktiviert werden.'
 			},
 			{
 				title: 'Analyse- & Performance-Cookies',
@@ -36,6 +36,6 @@ export default {
 	},
 	managing: {
 		title: 'Ihre Einstellungen verwalten',
-		body: 'Sie können Cookies über die Einstellungen Ihres Browsers ganz einfach ablehnen oder blockieren. Bitte beachten Sie jedoch, dass die Einschränkung aller Cookies den Zugriff auf erweiterte Funktionen wie automatisches Ausfüllen von Formularen oder die dauerhafte Spracheinstellung beeinträchtigen kann.'
+		body: 'Sie können Cookies über die Einstellungen Ihres Browsers ganz einfach ablehnen oder blockieren. Bitte beachten Sie jedoch, dass die Einschränkung aller Cookies den Zugriff auf erweiterte Funktionen wie automatisches Ausfüllen von Formularen oder das gespeicherte helle oder dunkle Design beeinträchtigen kann.'
 	}
 } satisfies Copy;

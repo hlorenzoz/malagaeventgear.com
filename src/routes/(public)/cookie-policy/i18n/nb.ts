@@ -15,14 +15,14 @@ export default {
 	},
 	whatAreCookies: {
 		title: 'Hva er cookies?',
-		body: 'Cookies er små tekstfiler som lagres på enheten din når du besøker nettsiden vår. De gjør at nettsiden fungerer mer effektivt, lar oss huske språkpreferansene dine (for eksempel EN/ES), og gir teamet vårt anonym analysedata.'
+		body: 'Cookies er små tekstfiler som lagres på enheten din når du besøker nettsiden vår. De gjør at nettsiden fungerer mer effektivt, lar oss huske om du har valgt lyst eller mørkt tema, og gir teamet vårt anonym analysedata.'
 	},
 	categories: {
 		title: 'Kategorier av cookies vi bruker',
 		items: [
 			{
 				title: 'Essensielle og tekniske cookies',
-				body: 'Helt nødvendige for grunnleggende navigasjon, sikkerhet og lagring av språkvalg. Disse kan ikke slås av.'
+				body: 'Helt nødvendige for grunnleggende navigasjon, sikkerhet og lagring av valget ditt av lyst eller mørkt tema. Disse kan ikke slås av.'
 			},
 			{
 				title: 'Analyse- og ytelsescookies',
@@ -36,6 +36,6 @@ export default {
 	},
 	managing: {
 		title: 'Administrer preferansene dine',
-		body: 'Du kan enkelt avslå eller blokkere cookies gjennom innstillingene i nettleseren din. Merk at det å begrense alle cookies kan påvirke tilgangen din til avanserte funksjoner, som automatisk utfylling av skjemaer eller lagrede språkvalg.'
+		body: 'Du kan enkelt avslå eller blokkere cookies gjennom innstillingene i nettleseren din. Merk at det å begrense alle cookies kan påvirke tilgangen din til avanserte funksjoner, som automatisk utfylling av skjemaer eller det lagrede valget ditt av lyst eller mørkt tema.'
 	}
 } satisfies Copy;

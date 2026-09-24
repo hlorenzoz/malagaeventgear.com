@@ -15,14 +15,14 @@ const copy = {
 	},
 	whatAreCookies: {
 		title: 'Que sont les cookies ?',
-		body: "Les cookies sont de petits fichiers texte déposés sur votre appareil lorsque vous visitez notre site. Ils permettent au site de fonctionner plus efficacement, nous permettent de conserver vos préférences de langue (par exemple EN/ES), et fournissent à notre équipe des données analytiques anonymes."
+		body: "Les cookies sont de petits fichiers texte déposés sur votre appareil lorsque vous visitez notre site. Ils permettent au site de fonctionner plus efficacement, nous permettent de mémoriser votre thème clair ou sombre, et fournissent à notre équipe des données analytiques anonymes."
 	},
 	categories: {
 		title: 'Catégories de cookies que nous utilisons',
 		items: [
 			{
 				title: 'Cookies essentiels et techniques',
-				body: 'Indispensables à la navigation de base, à la sécurité et au fonctionnement persistant des préférences de langue sélectionnées. Ils ne peuvent pas être désactivés.'
+				body: 'Indispensables à la navigation de base, à la sécurité et à la mémorisation de votre thème clair ou sombre. Ils ne peuvent pas être désactivés.'
 			},
 			{
 				title: 'Cookies analytiques et de performance',
@@ -36,7 +36,7 @@ const copy = {
 	},
 	managing: {
 		title: 'Gérer vos préférences',
-		body: "Vous pouvez facilement refuser ou bloquer les cookies via les préférences de votre navigateur. Veuillez toutefois noter que la restriction de tous les cookies peut affecter votre accès à certaines fonctionnalités avancées, comme le remplissage automatique des formulaires ou la conservation de vos préférences de langue."
+		body: "Vous pouvez facilement refuser ou bloquer les cookies via les préférences de votre navigateur. Veuillez toutefois noter que la restriction de tous les cookies peut affecter votre accès à certaines fonctionnalités avancées, comme le remplissage automatique des formulaires ou la mémorisation de votre thème clair ou sombre."
 	}
 } satisfies Copy;
 

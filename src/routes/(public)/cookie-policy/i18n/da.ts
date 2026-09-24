@@ -15,14 +15,14 @@ const copy = {
 	},
 	whatAreCookies: {
 		title: 'Hvad er cookies?',
-		body: 'Cookies er små tekstfiler, der placeres på din enhed, når du besøger vores hjemmeside. De hjælper hjemmesiden med at fungere mere effektivt, gør det muligt for os at gemme dine sprogpræferencer (f.eks. EN/ES) og giver vores team anonyme analysedata.'
+		body: 'Cookies er små tekstfiler, der placeres på din enhed, når du besøger vores hjemmeside. De hjælper hjemmesiden med at fungere mere effektivt, gør det muligt for os at huske, om du har valgt lyst eller mørkt tema og giver vores team anonyme analysedata.'
 	},
 	categories: {
 		title: 'Kategorier af cookies, vi bruger',
 		items: [
 			{
 				title: 'Nødvendige og tekniske cookies',
-				body: 'Helt afgørende for grundlæggende navigation, sikkerhed og den vedvarende funktion af sprogpræferencer. De kan ikke slås fra.'
+				body: 'Helt afgørende for grundlæggende navigation, sikkerhed og at huske dit valg af lyst eller mørkt tema. De kan ikke slås fra.'
 			},
 			{
 				title: 'Analyse- og ydeevnecookies',
@@ -36,7 +36,7 @@ const copy = {
 	},
 	managing: {
 		title: 'Administrer dine præferencer',
-		body: 'Du kan nemt afvise eller blokere cookies via dine egne browserindstillinger. Bemærk dog, at begrænsning af alle cookies kan påvirke din adgang til avancerede funktioner, såsom automatisk udfyldning af formularer eller vedvarende sprogvalg.'
+		body: 'Du kan nemt afvise eller blokere cookies via dine egne browserindstillinger. Bemærk dog, at begrænsning af alle cookies kan påvirke din adgang til avancerede funktioner, såsom automatisk udfyldning af formularer eller dit gemte valg af lyst eller mørkt tema.'
 	}
 } satisfies Copy;
 

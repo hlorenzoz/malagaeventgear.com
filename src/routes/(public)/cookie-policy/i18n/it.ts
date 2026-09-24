@@ -15,14 +15,14 @@ const copy = {
 	},
 	whatAreCookies: {
 		title: 'Cosa Sono i Cookie?',
-		body: 'I cookie sono piccoli file di testo memorizzati sul tuo dispositivo quando visiti il nostro sito web. Aiutano il sito a funzionare in modo più efficiente, ci permettono di mantenere le tue preferenze linguistiche (ad es. EN/ES) e forniscono dati analitici anonimi al nostro team.'
+		body: 'I cookie sono piccoli file di testo memorizzati sul tuo dispositivo quando visiti il nostro sito web. Aiutano il sito a funzionare in modo più efficiente, ci permettono di ricordare il tema chiaro o scuro che hai scelto e forniscono dati analitici anonimi al nostro team.'
 	},
 	categories: {
 		title: 'Categorie di Cookie che Utilizziamo',
 		items: [
 			{
 				title: 'Cookie Essenziali e Tecnici',
-				body: 'Essenziali per la navigazione di base, la sicurezza e il funzionamento persistente della selezione delle preferenze linguistiche. Non possono essere disattivati.'
+				body: 'Essenziali per la navigazione di base, la sicurezza e la memorizzazione del tema chiaro o scuro. Non possono essere disattivati.'
 			},
 			{
 				title: 'Cookie Analitici e di Prestazione',
@@ -36,7 +36,7 @@ const copy = {
 	},
 	managing: {
 		title: 'Gestisci le Tue Preferenze',
-		body: "Puoi facilmente rifiutare o bloccare i cookie tramite le preferenze del tuo browser. Tieni presente, tuttavia, che limitare tutti i cookie potrebbe influire sull'accesso a funzionalità avanzate, come la compilazione automatica dei moduli o la selezione persistente della lingua."
+		body: "Puoi facilmente rifiutare o bloccare i cookie tramite le preferenze del tuo browser. Tieni presente, tuttavia, che limitare tutti i cookie potrebbe influire sull'accesso a funzionalità avanzate, come la compilazione automatica dei moduli o la memorizzazione del tema chiaro o scuro."
 	}
 } satisfies Copy;
 
