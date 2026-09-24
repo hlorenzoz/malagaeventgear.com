@@ -39,7 +39,7 @@ export default {
 		mice: { slug: 'mice', keyword: 'location audiovisuel congrès et conférences Malaga', status: 'propuesta' }
 	},
 	categories: {
-		'audio-visual-rental': { slug: 'location-audiovisuel', name: 'Location Audiovisuel' },
+		'audio-visual-rental': { slug: 'location-audiovisuel', name: 'Location audiovisuelle' },
 		'corporate-enterprise': { slug: 'entreprises', name: 'Entreprises' },
 		events: { slug: 'evenements', name: 'Événements' },
 		gadgets: { slug: 'gadgets', name: 'Gadgets' },

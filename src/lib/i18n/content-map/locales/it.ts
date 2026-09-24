@@ -35,8 +35,8 @@ export default {
 		mice: { slug: 'mice', keyword: 'noleggio audiovisivi per congressi e conferenze Malaga', status: 'propuesta' }
 	},
 	categories: {
-		'audio-visual-rental': { slug: 'noleggio-audiovisivi', name: 'Noleggio Audiovisivi' },
-		'corporate-enterprise': { slug: 'aziende', name: 'Aziende e Corporate' },
+		'audio-visual-rental': { slug: 'noleggio-audiovisivi', name: 'Noleggio audiovisivi' },
+		'corporate-enterprise': { slug: 'aziende', name: 'Aziende' },
 		events: { slug: 'eventi', name: 'Eventi' },
 		gadgets: { slug: 'gadget', name: 'Gadget' },
 		news: { slug: 'notizie', name: 'Notizie' },

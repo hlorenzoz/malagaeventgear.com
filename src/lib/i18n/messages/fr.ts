@@ -57,7 +57,7 @@ const t = {
 	bento: {
 		card1Title: '#1 Une installation sans faute',
 		card1Text:
-			'Un support technique dédié pour que votre événement se déroule parfaitement du début à la fin, en toute tranquillité.',
+			'Une assistance technique dédiée pour que votre événement se déroule parfaitement du début à la fin, en toute tranquillité.',
 		card2Title: '#2 Des forfaits sur mesure',
 		card2Text:
 			"Des forfaits de location flexibles, conçus pour s'adapter parfaitement à la taille, au lieu et au budget de chaque événement.",
@@ -103,7 +103,7 @@ const t = {
 		fxTitle: 'Effets spéciaux et machines à fumée',
 		fxText:
 			'Créez une ambiance spectaculaire lors de votre événement grâce à nos effets spéciaux et machines à fumée de qualité professionnelle.',
-		bookEquipment: 'Voir les forfaits'
+		bookEquipment: 'Réserver un forfait'
 	},
 	// Pricing
 	pricing: {
@@ -174,7 +174,7 @@ const t = {
 		email: 'E-mail',
 		location: 'Adresse',
 		hours: "Horaires d'ouverture",
-		hoursText: 'Support technique et logistique 24 heures sur 24, 7 jours sur 7.',
+		hoursText: 'Assistance technique et logistique 24 heures sur 24, 7 jours sur 7.',
 		reqTitle: 'Demander un devis',
 		formName: 'Nom complet *',
 		formEmail: 'Adresse e-mail *',
@@ -197,7 +197,7 @@ const t = {
 		lockedFieldNote: "Généré automatiquement à partir d'une erreur : ce champ ne peut pas être modifié.",
 		errorPrefillMessage:
 			"Bonjour, j'ai soumis une demande de forfait sur votre site mais l'e-mail de confirmation n'a pas pu être envoyé. Pourriez-vous confirmer la bonne réception de ma demande ? Référence : {ref}",
-		errorDetailsHeader: 'Détails soumis :',
+		errorDetailsHeader: 'Informations envoyées :',
 		errorDetailSource: 'URL du formulaire',
 		errorDetailName: 'Nom',
 		errorDetailEmail: 'E-mail',
@@ -215,9 +215,9 @@ const t = {
 	},
 	// Packages Showcase
 	packages: {
-		badge: 'Forfaits populaires',
+		badge: 'Nos forfaits phares',
 		title: 'Choisissez votre forfait idéal',
-		subtitle: "Adaptés à chaque occasion. Tous nos forfaits incluent le transport, l'installation et le support technique sur place.",
+		subtitle: "Adaptés à chaque occasion. Tous nos forfaits incluent le transport, l'installation et l'assistance technique sur place.",
 		enquire: 'Demander un devis'
 	},
 	// How It Works
@@ -231,13 +231,13 @@ const t = {
 		s3Title: 'Confirmez et planifiez',
 		s3Desc: "Notre équipe confirme la logistique, l'accès au lieu et chaque détail technique.",
 		s4Title: 'Profitez de votre événement',
-		s4Desc: "Nous nous occupons de l'installation, animons l'événement et rangeons tout à la fin. Zéro stress pour vous."
+		s4Desc: "Nous nous occupons de l'installation, de la régie pendant l'événement et du démontage. Zéro stress pour vous."
 	},
 	// Pricing Preview
 	pricingPreview: {
 		badge: 'Tarifs transparents',
 		title: 'Des tarifs simples, tout compris',
-		subtitle: 'Aucun frais caché. Transport, installation et support technique toujours inclus.',
+		subtitle: 'Aucun frais caché. Transport, installation et assistance technique toujours inclus.',
 		viewAll: 'Voir tous les forfaits'
 	},
 	// FAQ
@@ -248,7 +248,7 @@ const t = {
 	// Testimonials (Google reviews)
 	testimonials: {
 		badge: 'Avis clients',
-		title: "Des histoires vraies d'événements réels",
+		title: 'De vraies histoires, de vrais événements',
 		subtitle: 'Avis Google vérifiés de nos clients sur toute la Costa del Sol.',
 		ratingLabel: 'EXCELLENT',
 		basedOn: 'Basé sur {n} avis',
@@ -275,7 +275,7 @@ const t = {
 		errorRequired: 'Ce champ est obligatoire.',
 		errorEmail: 'Veuillez saisir une adresse e-mail valide.',
 		errorPhone: 'Veuillez saisir un numéro de téléphone valide.',
-		errorDateFuture: "La date de l'événement doit être future.",
+		errorDateFuture: "La date de l'événement doit être dans le futur.",
 		errorMinLength: 'Doit contenir au moins 2 caractères.',
 		errorMaxLength: 'Maximum 1000 caractères autorisés.',
 		errorHoneypot: 'Spam détecté.',
@@ -305,7 +305,7 @@ const t = {
 	// Gallery
 	gallery: {
 		titleHome: 'Nos événements en images',
-		titlePackage: 'Précédents événements {pack}'
+		titlePackage: 'Événements réalisés avec le {pack}'
 	},
 	// Google Map / Profile
 	googleMap: {
@@ -318,7 +318,7 @@ const t = {
 	// Footer
 	footer: {
 		brandSubtitle:
-			'Location haut de gamme de son, éclairage et écrans pour des événements exclusifs à Malaga et sur la Costa del Sol. Matériel à la pointe de la technologie et support technique sur mesure.',
+			'Location haut de gamme de son, éclairage et écrans pour des événements exclusifs à Malaga et sur la Costa del Sol. Matériel à la pointe de la technologie et assistance technique sur mesure.',
 		usefulLinks: 'Liens utiles',
 		home: 'Accueil',
 		packages: 'Forfaits',
@@ -334,7 +334,7 @@ const t = {
 		gdpr: 'RGPD',
 		faq: 'FAQ',
 		sitemap: 'Plan du site',
-		servicePackages: 'Forfaits de service',
+		servicePackages: 'Nos forfaits',
 		localAddress: 'Adresse locale',
 		listings: 'Fiches et annuaires',
 		onlinePresence: 'Présence en ligne',
@@ -346,7 +346,7 @@ const t = {
 		emails: 'E-mails',
 		forHire: 'Pour les locations',
 		forContact: 'Pour nous contacter',
-		forLegal: 'Pour les questions légales',
+		forLegal: 'Pour les questions juridiques',
 		allRightsReserved: 'Tous droits réservés.',
 		developedBy: 'Développé par',
 		lorenzozTitle: 'Lorenzoz Agency : agence de développement web et de solutions pour entreprises',
@@ -384,7 +384,7 @@ const t = {
 		genericHeading: "Une erreur s'est produite",
 		notFoundBody: "La page que vous recherchez n'existe pas ou a été déplacée. Retournez à l'accueil ou contactez-nous.",
 		genericBody:
-			"Nous avons rencontré un problème lors du traitement de votre demande. Retournez à l'accueil ou contactez-nous et nous réglerons cela.",
+			"Nous avons rencontré un problème lors du traitement de votre demande. Retournez à l'accueil ou contactez-nous et nous trouverons une solution.",
 		contactUs: 'Nous contacter',
 		backHome: "Retour à l'accueil"
 	}

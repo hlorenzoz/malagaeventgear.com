@@ -11,7 +11,7 @@ const copy = {
 	schema: {
 		name: 'Blog location audiovisuel et événements | MEG',
 		description:
-			"Guides techniques experts, conseils sur la location audiovisuel et inspirations pour l'organisation de mariages à Malaga et sur la Costa del Sol."
+			"Guides techniques experts, conseils sur la location de matériel audiovisuel et inspirations pour l'organisation de mariages à Malaga et sur la Costa del Sol."
 	},
 	hero: {
 		badge: 'Savoir et inspiration',

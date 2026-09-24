@@ -15,7 +15,7 @@ const copy = {
 	},
 	whatsappLinkText: 'Inviaci un messaggio',
 	messages: {
-		packIntro: 'Ciao, sono interessato/a a prenotare il Pacchetto: {pack}. Fatemi sapere la disponibilità e i dettagli.',
+		packIntro: 'Ciao, sono interessato/a a prenotare il pacchetto: {pack}. Potete indicarmi la disponibilità e i dettagli?',
 		categoryIntro:
 			'Ciao, sono interessato/a a prenotare attrezzature dalla categoria: {category}. Resto in attesa del vostro preventivo.'
 	},
@@ -23,8 +23,8 @@ const copy = {
 		pastDate: "Scegli una data dell'evento successiva a oggi."
 	},
 	form: {
-		namePlaceholder: 'Nome Completo',
-		emailPlaceholder: 'Indirizzo Email',
+		namePlaceholder: 'Nome e cognome',
+		emailPlaceholder: 'Indirizzo email',
 		phonePlaceholder: 'Telefono',
 		messagePlaceholder: 'Messaggio'
 	}

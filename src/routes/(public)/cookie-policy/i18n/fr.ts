@@ -15,7 +15,7 @@ const copy = {
 	},
 	whatAreCookies: {
 		title: 'Que sont les cookies ?',
-		body: "Les cookies sont de petits fichiers texte déposés sur votre appareil lorsque vous visitez notre site. Ils permettent au site de fonctionner plus efficacement, nous permettent de mémoriser votre thème clair ou sombre, et fournissent à notre équipe des données analytiques anonymes."
+		body: "Les cookies sont de petits fichiers texte déposés sur votre appareil lorsque vous visitez notre site. Ils aident le site à fonctionner plus efficacement, nous permettent de mémoriser votre thème clair ou sombre, et fournissent à notre équipe des données analytiques anonymes."
 	},
 	categories: {
 		title: 'Catégories de cookies que nous utilisons',

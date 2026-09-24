@@ -4,7 +4,7 @@ export default {
 	packages: {
 		eco: {
 			updated: '2026-09-24',
-			desc: "Il noleggio audio e luci economico ideale a Malaga per feste private o piccoli eventi fino a 50 ospiti. Include un impianto audio solido di base e illuminazione d'ambiente.",
+			desc: "Noleggio audio e luci economico a Malaga, ideale per feste private o piccoli eventi fino a 50 ospiti. Include un impianto audio di base affidabile e un'illuminazione d'ambiente.",
 			includes: [
 				'2 casse attive di alta qualità con stativi',
 				'1 microfono dinamico cablato',
@@ -14,55 +14,55 @@ export default {
 			optional: ['Proiettore e schermo di proiezione (+{price:projectorScreen})', 'Macchina del fumo professionale (+{price:smokeMachine})'],
 			seo: { title: 'Eco Pack: noleggio audio e luci economico a Malaga | MEG' },
 			landing: {
-				badge: 'Piccoli Eventi e Feste',
-				rateLabel: 'Tariffa Conveniente Tutto Incluso',
+				badge: 'Piccoli eventi e feste',
+				rateLabel: 'Tariffa conveniente tutto incluso',
 				vatNote: '(+21% IVA), allestimento e trasporto inclusi',
-				specTitle: 'Fino a 50 Ospiti',
+				specTitle: 'Fino a 50 ospiti',
 				specBody: 'Perfetto per ville, giardini e sale private.',
-				highlightTitle: 'Servizio Senza Pensieri',
+				highlightTitle: 'Servizio senza pensieri',
 				highlightBody:
-					"Operiamo con un modello di sola consegna e installazione diretta. Portiamo l'attrezzatura, la installiamo professionalmente, testiamo audio e luci, e ritiriamo tutto dopo l'evento.",
-				includesLabel: 'Cosa è Incluso',
-				optionalLabel: 'Extra Opzionali',
-				ctaHeading: 'Prenota Oggi Stesso',
+					"Lavoriamo solo con consegna e installazione in loco. Portiamo l'attrezzatura, la installiamo in modo professionale, testiamo audio e luci e ritiriamo tutto dopo l'evento.",
+				includesLabel: 'Cosa è incluso',
+				optionalLabel: 'Extra opzionali',
+				ctaHeading: 'Prenota oggi stesso',
 				ctaBody:
-					'Compila la nostra richiesta di preventivo tecnico rapida per verificare la disponibilità del pacchetto per la tua data. Ti rispondiamo il prima possibile!',
-				ctaButton: 'Prenota Questo Pacchetto'
+					'Compila il nostro rapido modulo di richiesta di preventivo tecnico per verificare la disponibilità del pacchetto per la tua data. Ti rispondiamo il prima possibile!',
+				ctaButton: 'Prenota questo pacchetto'
 			}
 		},
 		wedding: {
 			updated: '2026-09-24',
-			desc: "Il noleggio audio e luci per matrimoni a Malaga pensato nei minimi dettagli per celebrazioni magiche e indimenticabili. Include un impianto acustico professionale di alta gamma, un'illuminazione d'ambiente romantica e microfoni wireless per i discorsi.",
+			desc: "Noleggio audio e luci per matrimoni a Malaga, pensato nei minimi dettagli per celebrazioni magiche e indimenticabili. Include un impianto acustico professionale di alta gamma, un'illuminazione d'ambiente romantica e microfoni wireless per discorsi emozionanti.",
 			includes: [
 				'Impianto audio PA attivo di alta gamma per un massimo di 80 ospiti',
-				"Lucine e strisce LED calde per un'illuminazione d'ambiente romantica",
+				"Lucine e strisce LED a luce calda per un'illuminazione d'ambiente romantica",
 				'Microfoni wireless professionali per discorsi e annunci',
 				'Trasporto a Malaga e dintorni',
 				'Installazione e cablaggio professionali e curati',
-				"Controllo tecnico dal vivo e supporto tecnico in loco durante l'evento",
-				"Smontaggio rapido e ritiro logistico dopo l'evento"
+				"Regia tecnica dal vivo e assistenza tecnica in loco durante l'evento",
+				"Smontaggio rapido e ritiro dell'attrezzatura dopo l'evento"
 			],
 			optional: ['Macchina del fumo professionale (+{price:smokeMachine})'],
 			seo: { title: 'Wedding Pack: noleggio audio e luci per matrimoni Malaga | MEG' },
 			landing: {
-				badge: 'Il Nostro Pacchetto per Celebrazioni Più Richiesto',
-				rateLabel: 'Tariffa Premium Tutto Incluso',
+				badge: 'Il nostro pacchetto più richiesto per le celebrazioni',
+				rateLabel: 'Tariffa premium tutto incluso',
 				vatNote: '(+21% IVA), allestimento e assistenza dal vivo inclusi',
-				specTitle: 'Fino a 80 Ospiti',
+				specTitle: 'Fino a 80 ospiti',
 				specBody: 'Perfetto per splendide ville, fincas e hotel per matrimoni.',
-				highlightTitle: 'Tecnico dal Vivo in Loco',
+				highlightTitle: 'Tecnico presente in loco',
 				highlightBody:
-					'Non preoccuparti mai di feedback del microfono o problemi visivi. Questo pacchetto include il monitoraggio tecnico dal vivo completo e la regolazione acustica durante tutto il banchetto e i discorsi.',
-				includesLabel: 'Inclusioni Premium',
-				ctaHeading: 'Rendi Magica la Tua Celebrazione',
+					'Niente più fischi dei microfoni o problemi video. Questo pacchetto include il monitoraggio tecnico completo dal vivo e le regolazioni acustiche per tutta la durata del banchetto e dei discorsi.',
+				includesLabel: 'Servizi premium inclusi',
+				ctaHeading: 'Rendi magica la tua celebrazione',
 				ctaBody:
-					"Le prenotazioni per i matrimoni si esauriscono in fretta. Assicurati la tua data con il nostro team tecnico oggi stesso per garantire il miglior audio e un'illuminazione romantica nel tuo giorno speciale.",
-				ctaButton: 'Prenota Questo Wedding Pack'
+					"Le date per i matrimoni vanno a ruba. Assicurati la tua data con il nostro team tecnico oggi stesso per garantire il miglior audio e un'illuminazione romantica nel tuo giorno speciale.",
+				ctaButton: 'Prenota questo Wedding Pack'
 			}
 		},
 		'product-presentation': {
 			updated: '2026-09-24',
-			desc: 'Il noleggio di proiettore e schermo per presentazioni a Malaga pensato per presentazioni aziendali, showroom di concessionari e lanci di prodotto ad alto impatto visivo.',
+			desc: 'Noleggio di proiettore e schermo a Malaga, pensato per presentazioni aziendali, showroom di concessionarie e lanci di prodotto ad alto impatto visivo.',
 			includes: [
 				'1 schermo di proiezione frontale con stativo stabile',
 				'1 proiettore ad alta luminosità (5000 lumen) per immagini nitide',
@@ -71,28 +71,28 @@ export default {
 			],
 			seo: { title: 'Product Presentation Pack: proiettore e schermo Malaga | MEG' },
 			landing: {
-				badge: 'Soluzioni Aziendali ad Alto Impatto Visivo',
-				rateLabel: 'Tariffa Fissa Pacchetto Presentazione',
+				badge: 'Soluzioni aziendali ad alto impatto visivo',
+				rateLabel: 'Tariffa fissa pacchetto presentazione',
 				vatNote: '(+21% IVA), proiettore e schermo inclusi',
-				specTitle: 'Proiettore ad Alta Luminosità',
+				specTitle: 'Proiettore ad alta luminosità',
 				specBody: 'Proiettore da 5000 lumen, ideale per sale illuminate.',
-				highlightTitle: 'Immagine Aziendale Impeccabile',
+				highlightTitle: 'Immagine aziendale impeccabile',
 				highlightBody:
-					"Massimizza l'attenzione al lancio del tuo concessionario, al comunicato stampa in hotel o alla presentazione del prodotto. La nostra installazione professionale unisce un dettaglio grafico impeccabile a un'amplificazione vocale ad alte prestazioni.",
-				includesLabel: 'Cosa è Incluso',
+					"Cattura tutta l'attenzione durante il lancio nel tuo concessionario, la conferenza stampa in hotel o la presentazione del prodotto. La nostra installazione professionale unisce un dettaglio grafico impeccabile a un'amplificazione vocale ad alte prestazioni.",
+				includesLabel: 'Cosa è incluso',
 				note: {
-					title: 'Assistenza per Allestimento e Collegamento',
+					title: 'Assistenza per allestimento e collegamento',
 					body: 'Forniamo tutti gli adattatori necessari (HDMI, USB-C) e le interfacce audio per collegare senza problemi i portatili, i tablet o i lettori della tua azienda.'
 				},
-				ctaHeading: 'Valorizza la Presentazione del Tuo Prodotto',
+				ctaHeading: 'Valorizza la presentazione del tuo prodotto',
 				ctaBody:
 					'Offri al tuo pubblico la chiarezza visiva e il suono professionale che merita. Contatta il nostro team tecnico oggi stesso per confermare la disponibilità.',
-				ctaButton: 'Prenota Questo Presentation Pack'
+				ctaButton: 'Prenota questo Presentation Pack'
 			}
 		},
 		'basic-mice': {
 			updated: '2026-09-24',
-			desc: 'Il noleggio audiovisivi per riunioni aziendali a Malaga, con un allestimento essenziale e ad alte prestazioni per piccole riunioni dirigenziali, conferenze e presentazioni fino a 40 ospiti.',
+			desc: 'Noleggio audiovisivi per riunioni aziendali a Malaga: un allestimento essenziale e ad alte prestazioni per piccole riunioni dirigenziali, conferenze e presentazioni fino a 40 ospiti.',
 			includes: [
 				'Schermo di proiezione 2x2m con proiettore ad alta luminosità da 3000 lumen',
 				'Impianto audio di base dal suono cristallino per un massimo di 40 persone',
@@ -102,17 +102,17 @@ export default {
 			optional: ['Assistente tecnico dedicato in loco (+{price:technicianDay}/giorno)'],
 			seo: { title: 'Basic MICE Pack: audiovisivi riunioni aziendali Malaga | MEG' },
 			landing: {
-				badge: 'Pacchetti Essenziali per Riunioni Dirigenziali',
-				rateLabel: 'Tariffa Fissa Riunione Aziendale',
+				badge: 'Pacchetti essenziali per riunioni dirigenziali',
+				rateLabel: 'Tariffa fissa riunione aziendale',
 				vatNote: '(+21% IVA), allestimento e trasporto inclusi',
-				specTitle: 'Fino a 40 Ospiti',
+				specTitle: 'Fino a 40 ospiti',
 				specBody: "Pensato per sale riunioni, saloni privati e suite d'hotel.",
-				highlightTitle: 'Intelligibilità Vocale Chiara',
+				highlightTitle: 'Voce chiara e intelligibile',
 				highlightBody:
-					"La configurazione professionale del microfono a collo d'oca garantisce una chiarezza assoluta per interventi del consiglio, comunicati stampa o panel di investitori, senza eco né feedback.",
-				includesLabel: 'Cosa è Incluso',
-				optionalLabel: 'Assistenza Opzionale',
-				ctaHeading: 'Pianifica la Tua Riunione Dirigenziale',
+					"La configurazione professionale del microfono a collo d'oca garantisce una chiarezza assoluta per interventi del consiglio, annunci alla stampa o panel di investitori, senza eco né feedback.",
+				includesLabel: 'Cosa è incluso',
+				optionalLabel: 'Assistenza opzionale',
+				ctaHeading: 'Pianifica la tua riunione dirigenziale',
 				ctaBody:
 					"Coordina una logistica audiovisiva aziendale impeccabile con Malaga Event Gear. Contatta i nostri esperti per garantire un'esperienza professionale in sala riunioni.",
 				ctaButton: 'Prenota il Basic MICE Pack'
@@ -125,7 +125,7 @@ export default {
 				'Schermo LED premium ad alta definizione da 60 pollici con stativo di design',
 				'Casse attive professionali e impianto audio ad alte prestazioni',
 				"1 microfono a collo d'oca + 1 microfono palmare wireless",
-				'1 tecnico audiovisivo specializzato dedicato dal vivo (fino a 6 ore di supporto continuativo)',
+				"1 tecnico audiovisivo specializzato dedicato, presente durante l'evento (fino a 6 ore di assistenza continuativa)",
 				"Consegna logistica, cablaggio personalizzato e smontaggio dopo l'evento"
 			],
 			optional: [
@@ -135,17 +135,17 @@ export default {
 			],
 			seo: { title: 'MICE Pack: audiovisivi congressi e conferenze Malaga | MEG' },
 			landing: {
-				badge: 'Esperienza MICE Aziendale Premium',
-				rateLabel: 'Tariffa Aziendale Tutto Incluso',
+				badge: 'Esperienza MICE aziendale premium',
+				rateLabel: 'Tariffa aziendale tutto incluso',
 				vatNote: '(+21% IVA), schermo LED, audio e tecnico dal vivo inclusi',
-				specTitle: 'Schermo LED da 60 Pollici',
+				specTitle: 'Schermo LED da 60 pollici',
 				specBody: 'Schermo grande formato ad alta definizione per immagini aziendali di grande impatto.',
-				highlightTitle: 'Tecnico dal Vivo Dedicato',
+				highlightTitle: "Tecnico dedicato durante l'evento",
 				highlightBody:
 					'Un tecnico audiovisivo specializzato gestisce il tuo evento per un massimo di 6 ore continuative, garantendo audio, immagini e gestione dei microfoni impeccabili durante il tuo summit, conferenza o lancio di prodotto.',
-				includesLabel: 'Inclusioni Premium',
-				optionalLabel: 'Extra Opzionali',
-				ctaHeading: 'Dai Potenza al Tuo Evento Aziendale',
+				includesLabel: 'Servizi premium inclusi',
+				optionalLabel: 'Extra opzionali',
+				ctaHeading: 'Dai slancio al tuo evento aziendale',
 				ctaBody:
 					"Offri un'esperienza aziendale impeccabile con attrezzature audiovisive premium e assistenza tecnica dedicata. Contatta il nostro team oggi stesso per confermare la disponibilità per la tua data.",
 				ctaButton: 'Prenota il MICE Pack'
@@ -156,7 +156,7 @@ export default {
 		'what-is-meg': {
 			question: "Cos'è Malaga Event Gear (MEG) e quali servizi offre?",
 			answer:
-				"Malaga Event Gear (MEG) è un'azienda con sede a Malaga, in Spagna, specializzata nel noleggio di attrezzature professionali audiovisive, di illuminazione e per eventi. Forniamo impianti audio, proiettori, schermi, palchi, assistenza tecnica, macchine del fumo, soluzioni di illuminazione e microfoni, oltre a servizi specializzati come il rinforzo sonoro dal vivo e la traduzione simultanea e i sistemi di voto interattivo, organizzati tramite un partner subappaltato."
+				"Malaga Event Gear (MEG) è un'azienda con sede a Malaga, in Spagna, specializzata nel noleggio di attrezzature professionali audiovisive, di illuminazione e per eventi. Forniamo impianti audio, proiettori, schermi, palchi, assistenza tecnica, macchine del fumo, soluzioni di illuminazione e microfoni, oltre a servizi specializzati come il rinforzo sonoro dal vivo, oltre alla traduzione simultanea e ai sistemi di voto interattivo, che organizziamo tramite un partner in subappalto."
 		},
 		'event-types': {
 			question: 'Che tipi di eventi può gestire Malaga Event Gear (MEG)?',
@@ -184,7 +184,7 @@ export default {
 				'I nostri pacchetti preconfigurati più richiesti includono {packagesWithPrices}, ciascuno con attrezzature e caratteristiche diverse. Visita la nostra pagina Prezzi per il dettaglio completo di ogni pacchetto.'
 		},
 		'language-hours': {
-			question: 'In quale lingua comunicano con i clienti e quali sono i loro orari di attività?',
+			question: 'In quali lingue comunica MEG con i clienti e quali sono i suoi orari?',
 			answer:
 				'Malaga Event Gear (MEG) comunica con i clienti in inglese e spagnolo. Siamo disponibili 24 ore su 24, 7 giorni su 7, per allestimenti tecnici e monitoraggio dal vivo degli eventi.'
 		},
@@ -206,17 +206,17 @@ export default {
 		'on-site-technician': {
 			question: "Fornite un tecnico in loco durante l'evento?",
 			answer:
-				"Sì. Diversi pacchetti, come il Wedding Pack e il MICE Pack completo, includono un tecnico dedicato dal vivo che si occupa del controllo tecnico e del supporto ingegneristico durante tutto l'evento. Per i pacchetti in cui non è incluso (ad esempio il Basic MICE Pack), l'assistenza tecnica in loco può essere aggiunta come opzione a partire da {price:technicianDay} al giorno."
+				"Sì. Diversi pacchetti, come il Wedding Pack e il MICE Pack completo, includono un tecnico dedicato dal vivo che si occupa della regia e dell'assistenza tecnica durante tutto l'evento. Per i pacchetti in cui non è incluso (ad esempio il Basic MICE Pack), l'assistenza tecnica in loco può essere aggiunta come opzione a partire da {price:technicianDay} al giorno."
 		},
 		'equipment-brands': {
 			question: 'Con quali marchi di attrezzature lavorate?',
 			answer:
-				"Utilizziamo marchi professionali di alta gamma affidabili nel settore degli eventi dal vivo, tra cui Audix e HK Audio per l'audio, Eurolite e ADJ per l'illuminazione, e Martin per gli effetti fumo. Questo garantisce prestazioni audio e di illuminazione affidabili e ad alta fedeltà per ogni prenotazione."
+				"Utilizziamo marchi professionali di alta gamma apprezzati nel settore degli eventi dal vivo, tra cui Audix e HK Audio per l'audio, Eurolite e ADJ per l'illuminazione, e Martin per gli effetti fumo. Questo garantisce prestazioni audio e di illuminazione affidabili e ad alta fedeltà per ogni prenotazione."
 		},
 		'delivery-only': {
-			question: "Offrite un'opzione di ritiro diretto, o è solo consegna?",
+			question: 'Offrite il ritiro in sede da parte del cliente o solo la consegna?',
 			answer:
-				"Operiamo esclusivamente con un modello di sola consegna: non esiste un'opzione di ritiro diretto. Questo garantisce che ogni sistema arrivi trasportato, installato e calibrato professionalmente dal nostro team, in modo che l'attrezzatura funzioni esattamente come previsto al tuo evento."
+				"Lavoriamo esclusivamente con consegna: non è previsto il ritiro in sede da parte del cliente. Questo garantisce che ogni sistema arrivi trasportato, installato e calibrato professionalmente dal nostro team, in modo che l'attrezzatura funzioni esattamente come previsto al tuo evento."
 		},
 		'streaming-recording': {
 			question: 'Offrite streaming dal vivo e registrazione multicamera?',
@@ -226,7 +226,7 @@ export default {
 		'translation-voting': {
 			question: 'Offrite traduzione simultanea o sistemi di voto interattivo?',
 			answer:
-				'Sì, per la traduzione simultanea e i sistemi di voto interattivo, anche se non con attrezzature nostre: organizziamo entrambi i servizi tramite un partner subappaltato per eventi aziendali e di livello congressuale. Facci sapere le tue esigenze al momento della richiesta di preventivo. Non offriamo un muro video a LED: il nostro schermo grande formato è un pannello piatto unico da 60 pollici.'
+				'Sì, per la traduzione simultanea e i sistemi di voto interattivo, anche se non con attrezzature nostre: organizziamo entrambi i servizi tramite un partner in subappalto per eventi aziendali e di livello congressuale. Facci sapere le tue esigenze al momento della richiesta di preventivo. Non offriamo videowall LED: il nostro schermo grande formato è un unico pannello piatto da 60 pollici.'
 		},
 		'large-scale-events': {
 			question: 'Potete gestire congressi, fiere ed esposizioni su larga scala?',

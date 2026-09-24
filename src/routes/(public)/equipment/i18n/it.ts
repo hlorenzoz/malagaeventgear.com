@@ -4,32 +4,32 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Catalogo Noleggio Attrezzature Audiovisive Premium | MEG',
+		title: 'Catalogo noleggio attrezzature audiovisive premium | MEG',
 		description:
 			'Scopri il nostro inventario di alta qualità di impianti audio professionali, illuminazione dinamica, proiettori ad alta definizione ed effetti speciali. Attrezzature premium a Malaga.'
 	},
 	schema: {
-		listName: 'Catalogo Noleggio Attrezzature Audiovisive - Malaga Event Gear'
+		listName: 'Catalogo noleggio attrezzature audiovisive - Malaga Event Gear'
 	},
 	hero: {
-		badge: "Tecnologia all'Avanguardia",
-		titlePart1: 'Valorizza il Tuo Evento con',
-		titlePart2: 'Attrezzature Premium',
+		badge: "Tecnologia all'avanguardia",
+		titlePart1: 'Valorizza il tuo evento con',
+		titlePart2: 'attrezzature premium',
 		subtitle:
-			'Scopri il nostro catalogo di audio ad alta fedeltà, illuminazione spettacolare ed effetti speciali. Abbiamo gli strumenti perfetti per rendere indimenticabile la tua celebrazione.'
+			'Scopri il nostro catalogo di audio ad alta fedeltà, illuminazione spettacolare ed effetti speciali. Abbiamo tutto il necessario per rendere indimenticabile la tua celebrazione.'
 	},
 	featured: {
-		imageAlt: 'Allestimento del Pacchetto Audiovisivo MICE per Riunioni',
-		badge: 'Pacchetto in Evidenza',
+		imageAlt: 'Allestimento audiovisivo del MICE Pack per riunioni',
+		badge: 'Pacchetto in evidenza',
 		desc: 'Ideale per conferenze ed eventi aziendali. Il MICE Pack include uno schermo LED da 60 pollici, attrezzature audiovisive premium, microfoni da tavolo e wireless, e fino a 6 ore di assistenza tecnica in loco per garantire che la tua presentazione si svolga senza intoppi.',
 		spec1: 'Schermo LED da 60"',
-		spec2: 'Audio Wireless',
-		spec3: 'Assistenza Tecnica Inclusa',
-		spec4: 'Audio Premium',
-		cta: 'Richiedi Informazioni'
+		spec2: 'Audio wireless',
+		spec3: 'Assistenza tecnica inclusa',
+		spec4: 'Audio premium',
+		cta: 'Richiedi informazioni'
 	},
 	catalog: {
-		title: 'Categorie Tecniche',
+		title: 'Categorie tecniche',
 		subtitle: 'Sfoglia il nostro inventario per soddisfare le esigenze tecniche della tua produzione.'
 	},
 	audio: {
@@ -42,11 +42,11 @@ const copy = {
 	},
 	visuals: {
 		imageAlt: 'Proiettori HD e schermi a noleggio',
-		desc: "Proiettori fino a 5.000 lumen, schermi di proiezione e un pannello display da 60 pollici per offrire al tuo pubblico un'esperienza visiva nitida."
+		desc: "Proiettori fino a 5.000 lumen, schermi di proiezione e uno schermo piatto da 60 pollici per offrire al tuo pubblico un'esperienza visiva nitida."
 	},
 	effects: {
 		imageAlt: 'Macchina del fumo professionale per eventi',
-		title: 'Effetti Speciali',
+		title: 'Effetti speciali',
 		desc: 'Una macchina del fumo professionale Martin Magnum 650 che aggiunge atmosfera e rende visibili i fasci di luce sulla pista da ballo.'
 	}
 } satisfies Copy;

@@ -8,7 +8,7 @@ const t = {
 		packages: 'Pacchetti',
 		blog: 'Blog',
 		contact: 'Contatti',
-		bookNow: 'Prenota Ora',
+		bookNow: 'Prenota ora',
 		blogInEnglish: 'Blog (in inglese)',
 		language: 'Lingua',
 		breadcrumbs: 'Percorso di navigazione',
@@ -18,7 +18,7 @@ const t = {
 	},
 	// Language notices (CLAUDE.md, "Idiomas soportados")
 	notices: {
-		serviceLanguages: 'Rispondiamo in inglese o spagnolo.',
+		serviceLanguages: 'Rispondiamo in inglese o in spagnolo.',
 		legalTranslation:
 			'Questa è una traduzione. In caso di discrepanza, prevale la versione in inglese.',
 		readEnglish: 'Leggi la versione in inglese'
@@ -32,92 +32,92 @@ const t = {
 		category: 'Categoria',
 		author: 'Autore',
 		contact: 'Contatti',
-		'about-us': 'Chi Siamo',
+		'about-us': 'Chi siamo',
 		faq: 'FAQ',
-		'privacy-policy': 'Informativa sulla Privacy',
-		'terms-of-service': 'Termini di Servizio',
-		'cookie-policy': 'Informativa sui Cookie',
+		'privacy-policy': 'Informativa sulla privacy',
+		'terms-of-service': 'Termini e condizioni',
+		'cookie-policy': 'Informativa sui cookie',
 		gdpr: 'GDPR',
-		'meet-the-team': 'Il Nostro Team',
+		'meet-the-team': 'Il nostro team',
 		equipment: 'Attrezzature',
-		sitemap: 'Mappa del Sito',
+		sitemap: 'Mappa del sito',
 		'thank-you': 'Grazie'
 	},
 	// Hero
 	hero: {
-		span: 'Per Ogni Tipo di Evento',
+		span: 'Per ogni tipo di evento',
 		titlePart1: 'Servizio di',
-		titleGradient: 'Noleggio Attrezzature Audiovisive',
+		titleGradient: 'noleggio attrezzature audiovisive',
 		titlePart2: 'a Malaga',
 		subtitle:
 			"Vivi un suono cristallino e un'illuminazione spettacolare con le nostre attrezzature di alta gamma. Perfetto per matrimoni, eventi aziendali e feste esclusive sulla Costa del Sol.",
-		viewPricing: 'Vedi i Prezzi',
+		viewPricing: 'Vedi i prezzi',
 		contactUs: 'Contattaci'
 	},
 	// Bento Info Cards
 	bento: {
-		card1Title: '#1 Allestimento Impeccabile',
+		card1Title: '#1 Allestimento impeccabile',
 		card1Text:
-			"Assistenza tecnica dedicata per garantire che il tuo evento si svolga senza intoppi dall'inizio alla fine.",
-		card2Title: '#2 Pacchetti su Misura',
+			"Assistenza tecnica dedicata per garantire che il tuo evento si svolga senza intoppi dall'inizio alla fine, senza alcuna preoccupazione.",
+		card2Title: '#2 Pacchetti su misura',
 		card2Text:
 			'Pacchetti di noleggio flessibili, pensati per adattarsi perfettamente a qualsiasi dimensione di evento, location e budget.',
-		card3Title: "#3 Tecnologia all'Avanguardia",
+		card3Title: "#3 Tecnologia all'avanguardia",
 		card3Text:
-			"Goditi attrezzature audiovisive all'avanguardia che elevano la qualità visiva e sonora della tua produzione."
+			"Goditi attrezzature audiovisive all'avanguardia che esaltano la qualità visiva e sonora della tua produzione."
 	},
 	// Overview (At a Glance: answer-engine optimization)
 	overview: {
-		badge: 'In Breve',
+		badge: 'In breve',
 		sellQ: 'Cosa offriamo?',
 		sellA:
-			'Noleggiamo attrezzature audiovisive di alta gamma, impianti audio professionali, illuminazione per palco, proiettori e schermi, per eventi in tutta Malaga e sulla Costa del Sol, inclusi consegna, allestimento e assistenza tecnica in loco.',
+			'Noleggiamo attrezzature audiovisive di alta gamma (impianti audio professionali, illuminazione scenica, proiettori e schermi) per eventi in tutta Malaga e sulla Costa del Sol, con consegna, allestimento e assistenza tecnica in loco inclusi.',
 		whoQ: 'A chi è rivolto?',
 		whoA:
-			"Coppie che organizzano matrimoni, aziende che gestiscono conferenze ed eventi aziendali, e chiunque organizzi una festa o una celebrazione privata e desideri un suono e un'illuminazione impeccabili senza dover acquistare le attrezzature.",
+			"Alle coppie che organizzano il matrimonio, alle aziende che gestiscono conferenze ed eventi aziendali e a chiunque organizzi una festa o una celebrazione privata e desideri un suono e un'illuminazione impeccabili senza dover acquistare le attrezzature.",
 		costQ: 'Quanto costa?',
 		costA:
 			'pacchetti a prezzo fisso senza costi nascosti, calibrati sulla dimensione del tuo evento, oltre a preventivi su misura per produzioni più grandi.',
 		costFrom: 'A partire da',
 		howQ: 'Come funziona?',
 		howA:
-			'Quattro semplici passi: scegli il tuo pacchetto, richiedi un preventivo, confermiamo e prepariamo le attrezzature, e il nostro team consegna e allestisce tutto il giorno del tuo evento.'
+			'Quattro semplici passi: scegli il tuo pacchetto, richiedi un preventivo, noi confermiamo e prepariamo le attrezzature, e il giorno del tuo evento il nostro team consegna e allestisce tutto.'
 	},
 	// Impact
 	impact: {
-		title: 'I Nostri Numeri',
-		years: 'Anni di Esperienza',
-		clients: 'Clienti Soddisfatti',
-		satisfaction: 'Tasso di Soddisfazione'
+		title: 'I nostri numeri',
+		years: 'Anni di esperienza',
+		clients: 'Clienti soddisfatti',
+		satisfaction: 'Tasso di soddisfazione'
 	},
 	// Categories
 	categories: {
-		badge: 'Attrezzature Premium',
-		title: 'Categorie Disponibili',
-		soundTitle: 'Impianti Audio',
+		badge: 'Attrezzature premium',
+		title: 'Categorie disponibili',
+		soundTitle: 'Impianti audio',
 		soundText:
 			'Un suono cristallino ad alta fedeltà, ideale per matrimoni intimi o grandi conferenze aziendali. Lavoriamo con marchi leader per garantire la massima fedeltà acustica.',
 		lightTitle: 'Illuminazione',
 		lightText:
 			"Soluzioni di illuminazione dinamica per creare l'atmosfera perfetta nella tua location.",
-		visualTitle: 'Proiettori e Schermi',
+		visualTitle: 'Proiettori e schermi',
 		visualText: 'Immagini nitide e ad alta definizione per presentazioni dal forte impatto visivo.',
-		fxTitle: 'Effetti Speciali e Macchine del Fumo',
+		fxTitle: 'Effetti speciali e macchine del fumo',
 		fxText:
 			"Crea un'atmosfera spettacolare al tuo evento con i nostri effetti speciali e macchine del fumo di livello professionale.",
-		bookEquipment: 'Prenota i Pacchetti'
+		bookEquipment: 'Prenota un pacchetto'
 	},
 	// Pricing
 	pricing: {
-		badge: 'Prezzi Trasparenti',
-		title: 'Pacchetti su Misura per Ogni Evento',
+		badge: 'Prezzi trasparenti',
+		title: 'Pacchetti su misura per ogni evento',
 		subtitle:
-			'Scegli tra i nostri pacchetti di noleggio flessibili, pensati per adattarsi perfettamente a qualsiasi dimensione di evento e budget. Semplifichiamo la pianificazione!',
+			'Scegli tra i nostri pacchetti di noleggio flessibili, pensati per adattarsi perfettamente a qualsiasi dimensione di evento e budget. Organizzare diventa semplice!',
 		includes: 'Include:',
-		includedServices: 'Servizi Inclusi:',
+		includedServices: 'Servizi inclusi:',
 		optional: 'Opzionale:',
-		check: 'Verifica Disponibilità',
-		mostPopular: 'Il Più Richiesto',
+		check: 'Verifica la disponibilità',
+		mostPopular: 'Il più richiesto',
 		from: 'A partire da',
 		plusVat: '(+21% IVA)',
 		plusVatShort: '(+IVA)',
@@ -127,16 +127,16 @@ const t = {
 	filters: {
 		title: 'Filtri',
 		clearAll: 'Cancella tutto',
-		resetFilters: 'Reimposta Filtri',
-		showingResults: 'Mostrando {visible} di {total} pacchetti',
+		resetFilters: 'Reimposta i filtri',
+		showingResults: '{visible} pacchetti su {total}',
 		noResults: 'Nessun pacchetto corrisponde ai tuoi filtri. Prova a rimuovere qualche selezione!',
 		openFilters: 'Filtri',
-		done: 'Mostra risultati',
-		purpose: 'Tipo di Evento',
-		capacity: 'Dimensione Evento',
+		done: 'Mostra i risultati',
+		purpose: 'Tipo di evento',
+		capacity: "Dimensione dell'evento",
 		price: 'Budget',
-		equipment: 'Attrezzature Incluse',
-		extras: 'Extra Opzionali',
+		equipment: 'Attrezzature incluse',
+		extras: 'Extra opzionali',
 		sortBy: 'Ordina per',
 		party: 'Feste',
 		wedding: 'Matrimoni',
@@ -144,52 +144,52 @@ const t = {
 		presentation: 'Presentazioni',
 		meeting: 'Riunioni',
 		small: 'Piccolo (fino a 50 ospiti)',
-		medium: 'Medio (51-80 ospiti)',
-		large: 'Grande (80+ ospiti)',
+		medium: 'Medio (da 51 a 80 ospiti)',
+		large: 'Grande (oltre 80 ospiti)',
 		priceLow: 'Fino a {price:budgetLow}',
-		priceMid: '{price:budgetLow} a {price:budgetHigh}',
+		priceMid: 'Da {price:budgetLow} a {price:budgetHigh}',
 		priceHigh: 'Oltre {price:budgetHigh}',
-		transport: 'Trasporto e Allestimento',
-		screen: 'Schermo / Display',
-		sound: 'Impianto Audio',
+		transport: 'Trasporto e allestimento',
+		screen: 'Schermo / display',
+		sound: 'Impianto audio',
 		microphone: 'Microfoni',
-		lighting: 'Illuminazione Ambientale',
-		technician: 'Tecnico dal Vivo',
+		lighting: "Illuminazione d'ambiente",
+		technician: 'Tecnico in loco',
 		projector: 'Proiettore',
-		smokeMachine: 'Macchina del Fumo',
-		technicalAssistant: 'Assistente Tecnico',
+		smokeMachine: 'Macchina del fumo',
+		technicalAssistant: 'Assistente tecnico',
 		lectern: 'Leggio',
-		staging: 'Palco',
-		recommended: 'Consigliato',
+		staging: 'Pedane da palco',
+		recommended: 'Consigliati',
 		priceAsc: 'Prezzo: dal più basso al più alto',
 		priceDesc: 'Prezzo: dal più alto al più basso'
 	},
 	// Contact
 	contact: {
-		badge: 'Risposta Immediata 24/7',
-		title: 'Mettiti in Contatto',
+		badge: 'Risposta immediata 24/7',
+		title: 'Mettiti in contatto',
 		subtitle:
 			'Pronto a valorizzare il tuo evento? Contatta il nostro team tecnico per ricevere preventivi su misura, verificare la disponibilità delle attrezzature e ottenere consigli da esperti.',
-		detailsTitle: 'Dettagli di Contatto',
+		detailsTitle: 'Recapiti',
 		phone: 'Telefono',
 		whatsapp: 'WhatsApp',
 		email: 'Email',
-		location: 'Posizione',
-		hours: 'Orari di Attività',
+		location: 'Dove siamo',
+		hours: 'Orari di servizio',
 		hoursText: 'Assistenza tecnica e logistica 24 ore su 24, 7 giorni su 7.',
-		reqTitle: 'Richiedi un Preventivo',
-		formName: 'Nome Completo *',
-		formEmail: 'Indirizzo Email *',
-		formPhone: 'Telefono di Contatto',
-		formDate: "Data dell'Evento",
-		formType: 'Tipo di Evento',
-		formTypeWedding: 'Matrimonio / Celebrazione',
-		formTypeCorporate: 'Evento Aziendale',
-		formTypeParty: 'Festa Privata',
+		reqTitle: 'Richiedi un preventivo',
+		formName: 'Nome e cognome *',
+		formEmail: 'Indirizzo email *',
+		formPhone: 'Telefono di contatto',
+		formDate: "Data dell'evento",
+		formType: 'Tipo di evento',
+		formTypeWedding: 'Matrimonio / celebrazione',
+		formTypeCorporate: 'Evento aziendale',
+		formTypeParty: 'Festa privata',
 		formTypeMice: 'Conferenza / MICE',
 		formTypeOther: 'Altro tipo di evento',
-		formMessage: "Dettagli dell'Evento e Requisiti Tecnici *",
-		formSubmit: 'Invia Richiesta',
+		formMessage: "Dettagli dell'evento e requisiti tecnici *",
+		formSubmit: 'Invia la richiesta',
 		formSubmitting: 'Invio in corso...',
 		formRequiredError: 'Compila tutti i campi obbligatori.',
 		formErrorSubmit:
@@ -199,68 +199,68 @@ const t = {
 		lockedFieldNote:
 			'Generato automaticamente da un errore: questo campo non può essere modificato.',
 		errorPrefillMessage:
-			"Ciao, ho inviato una richiesta per un pacchetto sul vostro sito ma l'email di conferma non è arrivata. Potreste confermarmi di aver ricevuto la mia richiesta? Riferimento: {ref}",
-		errorDetailsHeader: 'Dettagli inviati:',
-		errorDetailSource: 'URL del Modulo',
+			"Ciao, ho inviato una richiesta per un pacchetto sul vostro sito ma l'email di conferma non è partita. Potreste confermarmi di aver ricevuto la mia richiesta? Riferimento: {ref}",
+		errorDetailsHeader: 'Dati inviati:',
+		errorDetailSource: 'URL del modulo',
 		errorDetailName: 'Nome',
 		errorDetailEmail: 'Email',
 		errorDetailPhone: 'Telefono',
 		errorDetailDate: "Data dell'evento",
 		errorDetailPackage: 'Pacchetto',
 		errorDetailComments: 'Commenti',
-		successTitle: 'Preventivo Richiesto!',
+		successTitle: 'Preventivo richiesto!',
 		successText1: 'Ciao',
 		successText2:
 			'abbiamo ricevuto correttamente la tua richiesta. Il nostro team tecnico a Malaga la valuterà e ti contatterà via email (',
 		successText3: ') il prima possibile.',
 		successButton: "Invia un'altra richiesta",
-		faqTitle: 'Domande Frequenti'
+		faqTitle: 'Domande frequenti'
 	},
 	// Packages Showcase.
 	packages: {
-		badge: 'Pacchetti in Evidenza',
-		title: 'Scegli il Tuo Pacchetto Ideale',
+		badge: 'Pacchetti in evidenza',
+		title: 'Scegli il tuo pacchetto ideale',
 		subtitle:
 			'Su misura per ogni occasione. Tutti i pacchetti includono trasporto, allestimento e assistenza tecnica in loco.',
-		enquire: 'Richiedi un Preventivo'
+		enquire: 'Richiedi un preventivo'
 	},
 	// How It Works
 	process: {
-		badge: 'Come Funziona',
-		title: 'Il Tuo Evento in 4 Semplici Passi',
-		s1Title: 'Scegli il Tuo Pacchetto',
+		badge: 'Come funziona',
+		title: 'Il tuo evento in 4 semplici passi',
+		s1Title: 'Scegli il tuo pacchetto',
 		s1Desc:
 			'Sfoglia i nostri pacchetti e scegli quello più adatto alla dimensione e allo stile del tuo evento.',
-		s2Title: 'Richiedi un Preventivo',
+		s2Title: 'Richiedi un preventivo',
 		s2Desc:
 			'Compila il nostro modulo rapido. Ti risponderemo il prima possibile con la disponibilità completa.',
-		s3Title: 'Conferma e Pianifica',
+		s3Title: 'Conferma e pianifica',
 		s3Desc: "Il nostro team conferma la logistica, l'accesso alla location e ogni dettaglio tecnico.",
-		s4Title: 'Goditi il Tuo Evento',
-		s4Desc: "Ci occupiamo dell'allestimento, gestiamo lo show e rimontiamo tutto. Zero stress per te."
+		s4Title: 'Goditi il tuo evento',
+		s4Desc: "Ci occupiamo dell'allestimento, della regia durante l'evento e dello smontaggio. Zero stress per te."
 	},
 	// Pricing Preview
 	pricingPreview: {
-		badge: 'Prezzi Trasparenti',
-		title: 'Prezzi Semplici e Tutto Incluso',
+		badge: 'Prezzi trasparenti',
+		title: 'Prezzi semplici e tutto incluso',
 		subtitle: 'Nessun costo nascosto. Trasporto, allestimento e assistenza tecnica sempre inclusi.',
-		viewAll: 'Vedi Tutti i Pacchetti'
+		viewAll: 'Vedi tutti i pacchetti'
 	},
 	// FAQ
 	faq: {
 		badge: 'FAQ',
-		title: 'Domande Comuni'
+		title: 'Domande comuni'
 	},
 	// Testimonials (Google reviews)
 	testimonials: {
-		badge: 'Recensioni dei Clienti',
-		title: 'Storie Vere da Eventi Veri',
-		subtitle: 'Recensioni Google verificate da clienti di tutta la Costa del Sol.',
+		badge: 'Recensioni dei clienti',
+		title: 'Storie vere da eventi veri',
+		subtitle: 'Recensioni Google verificate di clienti di tutta la Costa del Sol.',
 		ratingLabel: 'ECCELLENTE',
 		basedOn: 'Basato su {n} recensioni',
 		poweredBy: 'Le nostre recensioni più recenti',
 		readMore: 'Leggi tutto',
-		readLess: 'Leggi meno',
+		readLess: 'Mostra meno',
 		seeAll: 'Vedi tutte le recensioni',
 		prevAria: 'Recensione precedente',
 		nextAria: 'Recensione successiva',
@@ -268,21 +268,21 @@ const t = {
 	},
 	// Lead capture form
 	leadForm: {
-		title: 'Blocca la Data del Tuo Evento',
+		title: 'Blocca la data del tuo evento',
 		subtitle: 'Compila il modulo e ti risponderemo il prima possibile.',
-		nameLabelInput: 'Nome Completo *',
-		emailLabelInput: 'Indirizzo Email *',
+		nameLabelInput: 'Nome e cognome *',
+		emailLabelInput: 'Indirizzo email *',
 		phoneLabelInput: 'Telefono / WhatsApp *',
-		eventDateLabel: "Data dell'Evento *",
-		commentsLabel: 'Domande o Commenti',
+		eventDateLabel: "Data dell'evento *",
+		commentsLabel: 'Domande o commenti',
 		commentsPlaceholder:
 			'Raccontaci del tuo evento: location, numero di ospiti, esigenze particolari...',
-		submitBtn: 'Verifica Disponibilità Data',
+		submitBtn: 'Verifica la disponibilità della data',
 		submitting: 'Invio in corso...',
 		errorRequired: 'Questo campo è obbligatorio.',
 		errorEmail: 'Inserisci un indirizzo email valido.',
 		errorPhone: 'Inserisci un numero di telefono valido.',
-		errorDateFuture: "La data dell'evento deve essere futura.",
+		errorDateFuture: "La data dell'evento deve essere una data futura.",
 		errorMinLength: 'Deve contenere almeno 2 caratteri.',
 		errorMaxLength: 'Massimo 1000 caratteri consentiti.',
 		errorHoneypot: 'Spam rilevato.',
@@ -293,12 +293,12 @@ const t = {
 		errorRateLimited: 'Troppe richieste. Attendi qualche minuto e riprova.',
 		emailFailTitle: 'Non siamo riusciti a inviare la tua conferma',
 		emailFailBody:
-			"La tua richiesta è stata salvata, ma il nostro sistema di posta non è riuscito a inviarla. Contatta direttamente il nostro team per non perdere la tua richiesta.",
+			"La tua richiesta è stata salvata, ma il nostro sistema di posta non è riuscito a inviarla. Contatta direttamente il nostro team, così la tua richiesta non andrà persa.",
 		emailFailAction: 'Contatta il team',
 		emailFailDismiss: 'Chiudi',
-		countryCode: 'Prefisso Internazionale',
+		countryCode: 'Prefisso internazionale',
 		responseTime: 'Rispondiamo il prima possibile',
-		trustBadge: 'La fiducia di oltre 500 eventi a Malaga'
+		trustBadge: 'Oltre 500 eventi realizzati a Malaga'
 	},
 	// Thank-you page
 	thankYou: {
@@ -311,45 +311,45 @@ const t = {
 	},
 	// Gallery
 	gallery: {
-		titleHome: 'I Nostri Eventi in Azione',
-		titlePackage: 'Eventi Passati: {pack}'
+		titleHome: 'I nostri eventi in azione',
+		titlePackage: 'Eventi realizzati con il {pack}'
 	},
 	// Google Map / Profile
 	googleMap: {
-		badge: 'Posizione e Profilo Google',
+		badge: 'Posizione e profilo Google',
 		title: 'Trovaci su Google',
-		subtitle: 'Visita il nostro profilo ufficiale Google Business o guarda la nostra posizione a Malaga.',
+		subtitle: 'Visita il nostro profilo ufficiale Google Business o scopri dove ci troviamo a Malaga.',
 		viewOnGoogle: 'Vedi su Google Maps',
-		mapTitle: 'Malaga Event Gear - Google Business Profile'
+		mapTitle: 'Malaga Event Gear - Profilo Google Business'
 	},
 	// Footer
 	footer: {
 		brandSubtitle:
 			"Noleggio di impianti audio, illuminazione e schermi di alta gamma per eventi esclusivi a Malaga e sulla Costa del Sol. Attrezzature all'avanguardia e assistenza tecnica su misura.",
-		usefulLinks: 'Link Utili',
+		usefulLinks: 'Link utili',
 		home: 'Home',
 		packages: 'Pacchetti',
 		blog: 'Blog',
 		news: 'Notizie',
 		categories: 'Categorie',
-		aboutUs: 'Chi Siamo',
-		meetTheTeam: 'Il Nostro Team',
+		aboutUs: 'Chi siamo',
+		meetTheTeam: 'Il nostro team',
 		contactUs: 'Contattaci',
-		termsOfService: 'Termini di Servizio',
-		privacyPolicy: 'Informativa sulla Privacy',
-		cookiePolicy: 'Informativa sui Cookie',
+		termsOfService: 'Termini e condizioni',
+		privacyPolicy: 'Informativa sulla privacy',
+		cookiePolicy: 'Informativa sui cookie',
 		gdpr: 'GDPR',
 		faq: 'FAQ',
-		sitemap: 'Mappa del Sito',
-		servicePackages: 'Pacchetti di Servizio',
-		localAddress: 'Indirizzo Locale',
-		listings: 'Elenchi',
-		onlinePresence: 'Presenza Online',
-		moreInformation: 'Maggiori Informazioni',
+		sitemap: 'Mappa del sito',
+		servicePackages: 'I nostri pacchetti',
+		localAddress: 'Indirizzo',
+		listings: 'Schede e directory',
+		onlinePresence: 'Presenza online',
+		moreInformation: 'Maggiori informazioni',
 		moreInfoText:
 			'Hai bisogno di maggiori dettagli? Contattaci per informazioni sul noleggio delle nostre attrezzature per eventi, sui prezzi e sulla disponibilità.',
 		tel: 'Tel',
-		clickToChat: 'Clicca per Chattare',
+		clickToChat: 'Scrivici in chat',
 		emails: 'Email',
 		forHire: 'Per noleggi',
 		forContact: 'Per contatti',
@@ -373,9 +373,9 @@ const t = {
 		copyShort: 'Copia link',
 		copyLink: 'Copia link',
 		shareOnAria: 'Condividi su {network}',
-		copyLinkAria: 'Copia link negli appunti',
-		openSharingAria: 'Apri opzioni di condivisione',
-		closeSharingAria: 'Chiudi opzioni di condivisione',
+		copyLinkAria: 'Copia il link negli appunti',
+		openSharingAria: 'Apri le opzioni di condivisione',
+		closeSharingAria: 'Chiudi le opzioni di condivisione',
 		tweetLabel: 'Tweet',
 		tweetAria: 'Twitta questa selezione',
 		packagesSidebarAria: 'Barra laterale dei pacchetti evento',
@@ -390,7 +390,7 @@ const t = {
 		notFoundHeading: 'Pagina non trovata',
 		genericHeading: 'Si è verificato un errore',
 		notFoundBody:
-			'La pagina che stai cercando non esiste o è stata spostata. Riprova dalla homepage oppure contattaci.',
+			'La pagina che stai cercando non esiste o è stata spostata. Riparti dalla homepage oppure contattaci.',
 		genericBody:
 			"Si è verificato un problema nell'elaborazione della tua richiesta. Torna alla homepage oppure contattaci: risolveremo tutto.",
 		contactUs: 'Contattaci',

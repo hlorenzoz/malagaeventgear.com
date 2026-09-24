@@ -6,7 +6,7 @@ const copy = {
 	seo: {
 		title: 'Catégories du blog | Malaga Event Gear',
 		description:
-			"Parcourez toutes les catégories du blog Malaga Event Gear : mariages, location audiovisuel, événements d'entreprise, gadgets et actualités."
+			"Parcourez toutes les catégories du blog Malaga Event Gear : mariages, location audiovisuelle, événements d'entreprise, gadgets et actualités."
 	},
 	schemaName: 'Catégories du blog | Malaga Event Gear',
 	itemListLabel: 'Catégories du blog',

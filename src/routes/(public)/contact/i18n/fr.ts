@@ -6,7 +6,7 @@ const copy = {
 	seo: {
 		title: 'Devis location audiovisuel Malaga | MEG',
 		description:
-			"Contactez Malaga Event Gear pour un devis de location de son, d'éclairage et d'écrans à Malaga. Support technique 24h/24 et 7j/7."
+			"Contactez Malaga Event Gear pour un devis de location de son, d'éclairage et d'écrans à Malaga. Assistance technique 24h/24 et 7j/7."
 	},
 	schema: {
 		name: 'Contact - Malaga Event Gear',

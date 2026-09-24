@@ -16,15 +16,15 @@ const copy = {
 		titlePart1: 'Sublimez votre événement avec',
 		titlePart2: 'du matériel haut de gamme',
 		subtitle:
-			"Découvrez notre catalogue de son haute fidélité, d'éclairage spectaculaire et d'effets spéciaux. Nous avons les outils parfaits pour rendre votre célébration inoubliable."
+			"Découvrez notre catalogue de son haute fidélité, d'éclairage spectaculaire et d'effets spéciaux. Nous avons tout ce qu'il faut pour rendre votre célébration inoubliable."
 	},
 	featured: {
-		imageAlt: 'Installation audiovisuelle du forfait MICE pour réunions',
+		imageAlt: 'Installation audiovisuelle du MICE Pack pour réunions',
 		badge: 'Forfait phare',
 		desc: "Idéal pour les conférences et événements d'entreprise. Le MICE Pack comprend un écran LED de 60 pouces, du matériel audiovisuel premium, des microphones de table et sans fil, et jusqu'à 6 heures d'assistance technique sur place pour garantir le bon déroulement de votre présentation.",
 		spec1: 'Écran LED 60"',
 		spec2: 'Audio sans fil',
-		spec3: 'Support technique inclus',
+		spec3: 'Assistance technique incluse',
 		spec4: 'Son premium',
 		cta: 'Demander des informations'
 	},
@@ -41,8 +41,8 @@ const copy = {
 		desc: "Projecteurs LED RGBW, éclairage scénique spécialisé et kit d'uplighting sans fil pour créer des ambiances romantiques ou dynamiques."
 	},
 	visuals: {
-		imageAlt: 'Location de vidéoprojecteurs HD et écrans',
-		desc: "Vidéoprojecteurs jusqu'à 5 000 lumens, écrans de projection et un panneau d'affichage de 60 pouces pour offrir à votre public une expérience visuelle nette."
+		imageAlt: "Location de vidéoprojecteurs HD et d'écrans",
+		desc: "Vidéoprojecteurs jusqu'à 5 000 lumens, écrans de projection et un écran plat de 60 pouces pour offrir à votre public une expérience visuelle nette."
 	},
 	effects: {
 		imageAlt: 'Machine à fumée professionnelle pour événements',

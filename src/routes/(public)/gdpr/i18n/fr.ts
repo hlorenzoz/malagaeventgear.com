@@ -6,7 +6,7 @@ const copy = {
 	seo: {
 		title: 'Protection des données RGPD - Malaga Event Gear',
 		description:
-			"Découvrez comment Malaga Event Gear protège vos données personnelles conformément au Règlement général sur la protection des données (RGPD) pour ses locations audiovisuel."
+			"Découvrez comment Malaga Event Gear protège vos données personnelles conformément au Règlement général sur la protection des données (RGPD) dans le cadre de ses locations de matériel audiovisuel."
 	},
 	hero: {
 		badge: 'Réglementation européenne',
@@ -29,7 +29,7 @@ const copy = {
 				category: 'Identité et contact',
 				legalBasis: 'Exécution du contrat',
 				purpose:
-					'Pour communiquer, finaliser les spécificités de la réservation et envoyer les détails du devis par e-mail, téléphone ou WhatsApp, en anglais ou en espagnol.'
+					'Pour communiquer, finaliser les détails de la réservation et envoyer les détails du devis par e-mail, téléphone ou WhatsApp, en anglais ou en espagnol.'
 			},
 			{
 				category: "Lieu et horaire de l'événement",
@@ -45,7 +45,7 @@ const copy = {
 		]
 	},
 	rights: {
-		title: 'Vos droits en tant que personne concernée par le RGPD',
+		title: 'Droits des personnes concernées au titre du RGPD',
 		intro: 'En vertu du RGPD, vous disposez des droits suivants concernant les données personnelles que nous traitons :',
 		items: [
 			{

@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Noleggio Attrezzature Audiovisive a Malaga | MEG',
+		title: 'Noleggio attrezzature audiovisive a Malaga | MEG',
 		description:
 			'Malaga Event Gear (MEG) offre noleggio di impianti audio premium, illuminazione spettacolare, proiettori e schermi per matrimoni, eventi aziendali e feste a Malaga.'
 	},
@@ -21,9 +21,9 @@ const copy = {
 		seeAllFaqs: 'Vedi tutte le FAQ'
 	},
 	posts: {
-		latestTitle: 'Ultimi Articoli',
+		latestTitle: 'Ultimi articoli',
 		latestViewAll: 'Vedi tutti gli articoli',
-		newsTitle: 'Ultime Notizie',
+		newsTitle: 'Ultime notizie',
 		newsViewAll: 'Vedi tutte le notizie'
 	}
 } satisfies Copy;

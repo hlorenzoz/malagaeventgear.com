@@ -6,7 +6,7 @@ const copy = {
 	seo: {
 		title: 'Plan du site | Malaga Event Gear (MEG)',
 		description:
-			"Explorez le plan du site de Malaga Event Gear. Retrouvez tous les liens vers nos services de location audiovisuel et d'éclairage professionnels, nos forfaits et nos coordonnées."
+			"Explorez le plan du site de Malaga Event Gear. Retrouvez tous les liens vers nos services professionnels de location de matériel audiovisuel et d'éclairage, nos forfaits et nos coordonnées."
 	},
 	hero: {
 		badge: 'Annuaire du site',
@@ -14,7 +14,7 @@ const copy = {
 		intro: 'Explorez notre annuaire complet des pages statiques, des forfaits événementiels spécialisés et des articles du blog.'
 	},
 	portals: {
-		heading: 'Portails principaux',
+		heading: 'Pages principales',
 		home: "Page d'accueil",
 		pricing: 'Tarifs et forfaits',
 		equipment: 'Catalogue de matériel',

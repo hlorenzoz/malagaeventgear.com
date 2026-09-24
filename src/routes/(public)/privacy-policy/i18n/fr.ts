@@ -30,12 +30,12 @@ const copy = {
 				{
 					category: 'Coordonnées',
 					purpose:
-						'Nom, e-mail, téléphone ou identifiant WhatsApp pour finaliser les détails, coordonner la logistique et confirmer votre réservation. Effectué en anglais ou en espagnol.'
+						'Nom, e-mail, téléphone ou identifiant WhatsApp pour finaliser les détails, coordonner la logistique et confirmer votre réservation. Échanges en anglais ou en espagnol.'
 				},
 				{
 					category: "Logistique de l'événement",
 					purpose:
-						"Lieu et heure précis de l'événement pour coordonner la livraison, l'installation sur mesure du matériel et la reprise."
+						"Lieu et heure précis de l'événement pour coordonner la livraison, l'installation sur mesure du matériel et son enlèvement."
 				},
 				{
 					category: 'Données financières',
@@ -51,7 +51,7 @@ const copy = {
 	},
 	retention: {
 		title: 'Conservation des données et droits',
-		body: "Nous conservons vos données personnelles uniquement le temps nécessaire à l'exécution de vos services audiovisuels contractés ou pour respecter nos obligations légales. Conformément au RGPD, vous disposez à tout moment du droit plein d'accéder à vos données personnelles, de les rectifier, de vous y opposer ou d'en demander la suppression, en contactant notre responsable du traitement des données."
+		body: "Nous conservons vos données personnelles uniquement le temps nécessaire à l'exécution des services audiovisuels que vous avez contractés ou au respect de nos obligations légales. Conformément au RGPD, vous pouvez à tout moment accéder à vos données personnelles, les rectifier, vous opposer à leur traitement ou en demander la suppression, en contactant notre responsable du traitement."
 	}
 } satisfies Copy;
 

@@ -6,7 +6,7 @@ const copy = {
 	seo: {
 		title: 'Agence de location audiovisuel à Malaga | MEG',
 		description:
-			"Découvrez les experts de Malaga Event Gear, l'agence de location audiovisuel à Malaga dédiée à rendre vos mariages, événements d'entreprise et fêtes inoubliables grâce à un matériel haut de gamme."
+			"Découvrez les experts de Malaga Event Gear, l'agence de location de matériel audiovisuel à Malaga qui rend vos mariages, événements d'entreprise et fêtes inoubliables grâce à un matériel haut de gamme."
 	},
 	hero: {
 		badge: 'Qui sommes-nous',
@@ -16,12 +16,12 @@ const copy = {
 	},
 	story: {
 		title: 'Notre mission et notre histoire',
-		p1: "Malaga Event Gear est actif dans le secteur audiovisuel depuis 1996 et opère en tant qu'indépendants depuis 2010. En trois décennies, nous avons développé une véritable passion pour les événements sans faille et l'acoustique cristalline.",
-		p2: "Nous fonctionnons uniquement en livraison avec installation directe, ce qui signifie que nous ne disposons pas de boutique physique. Nous apportons directement nos systèmes haut de gamme, notre câblage et notre assistance à votre villa, hôtel ou lieu de réception, partout à Malaga et sur la Costa del Sol."
+		p1: "Malaga Event Gear est présent dans le secteur audiovisuel depuis 1996, et nous travaillons en tant qu'indépendants depuis 2010. En trois décennies, nous avons développé une véritable passion pour les événements sans faille et une acoustique cristalline.",
+		p2: "Nous travaillons exclusivement en livraison, avec installation sur place, ce qui signifie que nous ne disposons pas de boutique physique. Nous apportons directement nos systèmes haut de gamme, notre câblage et notre assistance à votre villa, hôtel ou lieu de réception, partout à Malaga et sur la Costa del Sol."
 	},
 	stats: {
 		experienceTitle: "Années d'expérience",
-		experienceBody: "Dans l'industrie audiovisuelle professionnelle",
+		experienceBody: 'Dans le secteur audiovisuel professionnel',
 		clientsTitle: 'Clients satisfaits',
 		clientsBody: 'Sur toute la Costa del Sol'
 	},
@@ -35,7 +35,7 @@ const copy = {
 		},
 		lighting: {
 			title: 'Éclairage',
-			body: "Barres lumineuses LED avec projecteurs RGBW, un projecteur Fresnel à zoom et un kit d'uplighting sans fil sur batterie pour créer l'ambiance parfaite."
+			body: "Des barres LED avec projecteurs RGBW, un projecteur Fresnel à zoom et un kit d'uplighting sans fil sur batterie pour créer l'ambiance parfaite."
 		},
 		screens: {
 			title: 'Écrans et vidéoprojecteurs',
@@ -43,11 +43,11 @@ const copy = {
 		},
 		microphones: {
 			title: 'Microphones',
-			body: 'Microphones main filaires et sans fil professionnels Audix, ainsi que des sets de microphones cravate et serre-tête sans fil.'
+			body: 'Des microphones main professionnels Audix, filaires et sans fil, ainsi que des kits sans fil avec microphone cravate ou serre-tête.'
 		},
 		technicians: {
 			title: 'Techniciens événementiels',
-			body: 'Des techniciens son et lumière expérimentés disponibles pour superviser votre installation, son fonctionnement et son suivi en direct.'
+			body: "Des techniciens son et lumière expérimentés, disponibles pour superviser l'installation, l'exploitation et le suivi en direct de votre matériel."
 		},
 		effects: {
 			title: 'Effets spéciaux',

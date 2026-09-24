@@ -6,11 +6,11 @@ const copy = {
 	seo: {
 		title: 'Tarifs location matériel audiovisuel Malaga | MEG',
 		description:
-			"Découvrez nos tarifs transparents et nos forfaits de location de son, d'éclairage et d'écrans sur mesure à Malaga. Idéal pour mariages, événements d'entreprise et fêtes."
+			"Découvrez nos tarifs transparents et nos forfaits de location de son, d'éclairage et d'écrans sur mesure à Malaga. Idéal pour les mariages, les événements d'entreprise et les fêtes."
 	},
 	closeFiltersAria: 'Fermer les filtres',
 	faqSection: {
-		badge: 'FAQ Tarifs',
+		badge: 'FAQ tarifs',
 		title: 'Questions fréquentes',
 		question: 'Vos tarifs de forfaits incluent-ils la TVA ?',
 		answer:

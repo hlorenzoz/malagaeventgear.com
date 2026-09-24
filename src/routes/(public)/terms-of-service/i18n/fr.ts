@@ -19,7 +19,7 @@ const copy = {
 	},
 	scope: {
 		title: 'Étendue des services et prestations',
-		p1: "Nous sommes spécialisés dans les systèmes de sonorisation PA actifs haute fidélité, les solutions d'éclairage professionnelles (barres LED, un projecteur Fresnel à zoom et un kit d'éclairage d'ambiance sans fil), les vidéoprojecteurs à forte luminosité, les microphones (filaires, sans fil, col de cygne), les machines à fumée et les plateaux de scène.",
+		p1: "Nous sommes spécialisés dans les systèmes de sonorisation PA actifs haute fidélité, les solutions d'éclairage professionnelles (barres LED, un projecteur Fresnel à zoom et un kit d'uplighting sans fil), les vidéoprojecteurs à forte luminosité, les microphones (filaires, sans fil, col de cygne), les machines à fumée et les plateaux de scène.",
 		p2: "Beaucoup de nos forfaits, comme le Wedding Pack et le MICE Pack, incluent le transport, l'installation professionnelle, l'assistance technique en direct sur place et le démontage après l'événement, pour une expérience totalement sans stress."
 	},
 	limits: {
