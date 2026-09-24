@@ -38,14 +38,17 @@
 						{i18n.t.footer.packages}
 					</a>
 					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/blog/')}>
-						{i18n.t.footer.blog}
+						{i18n.postsPublished ? i18n.t.footer.blog : i18n.t.nav.blogInEnglish}
 					</a>
+					<!-- Blog sections only where this language has posts: no English titles on a translated page -->
+					{#if i18n.postsPublished}
 					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/blog/category/news/')}>
 						{i18n.t.footer.news}
 					</a>
 					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/blog/categories/')}>
 						{i18n.t.footer.categories}
 					</a>
+					{/if}
 					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/about-us/')}>
 						{i18n.t.footer.aboutUs}
 					</a>
@@ -88,6 +91,7 @@
 						</a>
 					{/each}
 				</nav>
+				{#if i18n.postsPublished}
 				<a href={i18n.href('/blog/categories/')} class="font-label-lg text-on-surface uppercase tracking-wider mb-2 mt-4 hover:text-electric-blue transition-colors duration-200">
 					{i18n.t.footer.categories}
 				</a>
@@ -98,6 +102,7 @@
 						</a>
 					{/each}
 				</nav>
+				{/if}
 			</div>
 
 			<!-- Col 4: Address / Listings / Online Presence -->

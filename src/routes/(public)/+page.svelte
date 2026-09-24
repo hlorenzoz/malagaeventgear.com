@@ -649,6 +649,8 @@
 	</div>
 </section>
 
+<!-- Post rows only where this language has posts: never English titles on a translated page -->
+{#if i18n.postsPublished}
 <!-- Latest Posts (non-news articles) -->
 <LatestPostsRow
 	title={copy.posts.latestTitle}
@@ -664,3 +666,4 @@
 	viewAllHref={i18n.href('/blog/category/news/')}
 	viewAllLabel={copy.posts.newsViewAll}
 />
+{/if}

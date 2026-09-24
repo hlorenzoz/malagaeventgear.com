@@ -52,6 +52,15 @@ export const i18n = {
 		const localized = localizePath(path, map, getAvailability(locale));
 		return localized === null ? enPath : encodePath(withLocale(locale, localized)) + suffix;
 	},
+	/**
+	 * True when this locale has blog posts to list. A page must never list English post titles
+	 * in another language (Google: one language per page), so every post listing on a
+	 * translated page hides while its locale has no translated posts (Fase 4).
+	 */
+	get postsPublished(): boolean {
+		const locale = this.lang;
+		return locale === DEFAULT_LOCALE || getAvailability(locale).posts.size > 0;
+	},
 	/** Absolute URL of an English route in the current locale (JSON-LD `url`, `@id`). */
 	absolute(enPath: string): string {
 		return `${siteConfig.url}${this.href(enPath)}`;

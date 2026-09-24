@@ -85,6 +85,16 @@ for (const locale of PUBLISHED_LOCALES) {
 			});
 		}
 
+		test('no translated page lists English posts (one language per page)', async ({ request }) => {
+			// Until this locale has translated posts, the only blog link allowed is the navbar's
+			// labelled "Blog (in English)" link to /blog/ itself, never a post, category or author.
+			for (const enPath of ['/', '/sitemap/']) {
+				const html = await (await request.get((await localized(locale, enPath))!)).text();
+				const postLinks = [...html.matchAll(/href="(\/blog\/[^"]+)"/g)].map((m) => m[1]).filter((h) => h !== '/blog/');
+				expect(postLinks, `${enPath} in ${locale} links English posts`).toEqual([]);
+			}
+		});
+
 		test('an English slug under the locale prefix is a 404, never a duplicate', async ({ request }) => {
 			const map = await contentMap(locale);
 			if (map.pages['/about-us/']?.path === '/about-us/') test.skip();
