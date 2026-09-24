@@ -4,7 +4,7 @@ export default {
 	packages: {
 		eco: {
 			updated: '2026-09-24',
-			desc: 'Mit dem Eco Pack mieten Sie ein günstiges Party Set in Malaga, ideal für private Feiern oder kleine Veranstaltungen mit bis zu 50 Gästen. Enthalten sind solide Basis-Beschallung und Ambientebeleuchtung.',
+			desc: 'Mit dem Eco Pack mieten Sie eine günstige Partyanlage in Malaga, ideal für private Feiern oder kleine Veranstaltungen mit bis zu 50 Gästen. Enthalten sind solide Basis-Beschallung und Ambientebeleuchtung.',
 			includes: [
 				'2 hochwertige Aktivlautsprecher mit Stativen',
 				'1 kabelgebundenes dynamisches Mikrofon',
@@ -32,7 +32,7 @@ export default {
 		},
 		wedding: {
 			updated: '2026-09-24',
-			desc: 'Mit dem Wedding Pack mieten Sie die perfekte Hochzeit Technik in Malaga: eine professionelle High End Beschallungsanlage, romantische Ambientebeleuchtung und Funkmikrofone für bewegende Reden bei magischen, unvergesslichen Hochzeitsfeiern.',
+			desc: 'Mit dem Wedding Pack mieten Sie die perfekte Hochzeitstechnik in Malaga: eine professionelle High End Beschallungsanlage, romantische Ambientebeleuchtung und Funkmikrofone für bewegende Reden bei magischen, unvergesslichen Hochzeitsfeiern.',
 			includes: [
 				'High End aktive PA-Beschallungsanlage für bis zu 80 Gäste',
 				'Lichterketten / warme LED-Lichterschläuche für romantische Ambientebeleuchtung',
@@ -43,7 +43,7 @@ export default {
 				'Schneller Abbau und logistische Abholung nach der Veranstaltung'
 			],
 			optional: ['Professionelle Nebelmaschine (+20 €)'],
-			seo: { title: 'Wedding Pack: Hochzeit Technik mieten in Malaga' },
+			seo: { title: 'Wedding Pack: Hochzeitstechnik mieten in Malaga' },
 			landing: {
 				badge: 'Unser beliebtestes Feierpaket',
 				rateLabel: 'Premium-Komplettpreis',
@@ -100,7 +100,7 @@ export default {
 				'Logistiktransport, Aufbau und ästhetische Verkabelung'
 			],
 			optional: ['Fester technischer Assistent vor Ort (+240 €/Tag)'],
-			seo: { title: 'Basic MICE Pack: Konferenztechnik mieten klein | MEG' },
+			seo: { title: 'Basic MICE Pack: Tagungstechnik mieten in Malaga' },
 			landing: {
 				badge: 'Grundausstattung für Führungskräfte-Meetings',
 				rateLabel: 'Pauschalpreis für Firmenmeetings',

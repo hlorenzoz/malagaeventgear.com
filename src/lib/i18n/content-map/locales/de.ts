@@ -28,14 +28,14 @@ export default {
 	},
 	segments: { category: 'kategorie', author: 'autor' },
 	packages: {
-		eco: { slug: 'eco-paket', keyword: 'günstiges Party Set mieten Malaga', status: 'propuesta' },
-		wedding: { slug: 'hochzeits-paket', keyword: 'Hochzeit Technik mieten Malaga', status: 'propuesta' },
+		eco: { slug: 'eco-paket', keyword: 'Partyanlage mieten Malaga', status: 'propuesta' },
+		wedding: { slug: 'hochzeits-paket', keyword: 'Hochzeitstechnik mieten Malaga', status: 'propuesta' },
 		'product-presentation': {
 			slug: 'produktpraesentation-paket',
 			keyword: 'Beamer Leinwand mieten Produktpräsentation',
 			status: 'propuesta'
 		},
-		'basic-mice': { slug: 'mice-basis-paket', keyword: 'Konferenztechnik mieten klein', status: 'propuesta' },
+		'basic-mice': { slug: 'mice-basis-paket', keyword: 'Tagungstechnik mieten Malaga', status: 'propuesta' },
 		mice: { slug: 'mice-paket', keyword: 'Kongresstechnik mieten Malaga', status: 'propuesta' }
 	},
 	categories: {
