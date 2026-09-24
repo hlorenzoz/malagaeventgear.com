@@ -64,11 +64,11 @@ const en = {
 		card3Title: '#3 Cutting-Edge Tech',
 		card3Text: 'Enjoy state-of-the-art audiovisual gear that elevates the visual and sound quality of your production.'
 	},
-	// Overview (At a Glance — answer-engine optimization)
+	// Overview (At a Glance: answer-engine optimization)
 	overview: {
 		badge: 'At a Glance',
 		sellQ: 'What do we sell?',
-		sellA: 'We rent premium audiovisual equipment — professional sound systems, stage lighting, projectors and screens — for events across Malaga and the Costa del Sol, including delivery, setup and on-site technical support.',
+		sellA: 'We rent premium audiovisual equipment (professional sound systems, stage lighting, projectors and screens) for events across Malaga and the Costa del Sol, including delivery, setup and on-site technical support.',
 		whoQ: 'Who is it for?',
 		whoA: 'Couples planning weddings, companies running conferences and corporate events, and anyone hosting a party or private celebration who wants flawless sound and lighting without buying the gear.',
 		costQ: 'What does it cost?',
@@ -134,7 +134,7 @@ const en = {
 		presentation: 'Presentations',
 		meeting: 'Meetings',
 		small: 'Small (up to 50 guests)',
-		medium: 'Medium (51–80 guests)',
+		medium: 'Medium (51 to 80 guests)',
 		large: 'Large (80+ guests)',
 		priceLow: 'Up to 300€',
 		priceMid: '300€ to 500€',
@@ -184,7 +184,7 @@ const en = {
 		formErrorSubmit: 'Something went wrong sending your request. Please try again or email us directly.',
 		formErrorTurnstile: 'Security verification failed. Please try again.',
 		formErrorRateLimited: 'Too many requests. Please wait a few minutes and try again.',
-		lockedFieldNote: "Auto-generated from an error — this field can't be edited.",
+		lockedFieldNote: "Auto-generated from an error. This field can't be edited.",
 		errorPrefillMessage:
 			'Hi, I submitted a package request on your website but the confirmation email failed to send. Could you please confirm you received my enquiry? Reference: {ref}',
 		errorDetailsHeader: 'Submitted details:',
@@ -263,7 +263,7 @@ const en = {
 		phoneLabelInput: 'Phone / WhatsApp *',
 		eventDateLabel: 'Event Date *',
 		commentsLabel: 'Questions or Comments',
-		commentsPlaceholder: 'Tell us about your event — venue, number of guests, special requirements...',
+		commentsPlaceholder: 'Tell us about your event: venue, number of guests, special requirements...',
 		submitBtn: 'Check Date Availability',
 		submitting: 'Sending...',
 		errorRequired: 'This field is required.',
