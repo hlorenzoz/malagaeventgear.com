@@ -26,7 +26,7 @@ const copy = {
 		title: 'Limites géographiques et opérationnelles',
 		p1: "Nos services sont principalement concentrés dans la province de Malaga et sur la Costa del Sol (y compris Malaga capitale, Marbella, Fuengirola, Torremolinos, Estepona, Séville et les zones voisines). Le service à Grenade n'est disponible que pour les forfaits supérieurs à 400 €, en raison des frais de déplacement hors province sur une seule journée.",
 		p2: "Malaga Event Gear est ouvert 7 jours sur 7, de 8h00 à 20h00 pour les demandes commerciales, et 24 heures sur 24 et 7 jours sur 7 pour la logistique technique et l'assistance à l'installation.",
-		p3: 'Afin de garantir une précision technique absolue pour notre clientèle internationale, toute communication, documentation et réservation via notre interface se fait uniquement en anglais.'
+		p3: 'Afin de garantir une précision technique absolue pour notre clientèle internationale, toute communication, documentation et réservation via notre interface se fait en anglais ou en espagnol.'
 	},
 	booking: {
 		title: 'Réservation, tarification et sécurité',

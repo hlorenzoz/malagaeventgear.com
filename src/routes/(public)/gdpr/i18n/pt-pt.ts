@@ -29,7 +29,7 @@ export default {
 				category: 'Identidade e Contacto',
 				legalBasis: 'Execução do Contrato',
 				purpose:
-					'Para comunicar, finalizar as especificações da reserva e enviar os detalhes do orçamento por email, telefone ou WhatsApp, em inglês.'
+					'Para comunicar, finalizar as especificações da reserva e enviar os detalhes do orçamento por email, telefone ou WhatsApp, em inglês ou espanhol.'
 			},
 			{
 				category: 'Localização e Horário do Evento',

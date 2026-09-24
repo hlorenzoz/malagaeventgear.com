@@ -30,7 +30,7 @@ const copy = {
 				{
 					category: 'Coordonnées',
 					purpose:
-						'Nom, e-mail, téléphone ou identifiant WhatsApp pour finaliser les détails, coordonner la logistique et confirmer votre réservation. Effectué uniquement en anglais.'
+						'Nom, e-mail, téléphone ou identifiant WhatsApp pour finaliser les détails, coordonner la logistique et confirmer votre réservation. Effectué en anglais ou en espagnol.'
 				},
 				{
 					category: "Logistique de l'événement",

@@ -29,7 +29,7 @@ const copy = {
 				category: 'Identité et contact',
 				legalBasis: 'Exécution du contrat',
 				purpose:
-					'Pour communiquer, finaliser les spécificités de la réservation et envoyer les détails du devis par e-mail, téléphone ou WhatsApp, en anglais.'
+					'Pour communiquer, finaliser les spécificités de la réservation et envoyer les détails du devis par e-mail, téléphone ou WhatsApp, en anglais ou en espagnol.'
 			},
 			{
 				category: "Lieu et horaire de l'événement",

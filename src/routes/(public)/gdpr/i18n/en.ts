@@ -26,7 +26,7 @@ const copy = {
 				category: 'Identity & Contact',
 				legalBasis: 'Contract Performance',
 				purpose:
-					'To communicate, finalize booking specifications, and send quote details via email, phone, or WhatsApp in English.'
+					'To communicate, finalize booking specifications, and send quote details via email, phone, or WhatsApp in English or Spanish.'
 			},
 			{
 				category: 'Event Location & Schedule',

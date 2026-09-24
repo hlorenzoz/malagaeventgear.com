@@ -30,7 +30,7 @@ export default {
 				{
 					category: 'Dados de Contacto',
 					purpose:
-						'Nome, email, telefone ou identificação de WhatsApp para finalizar os detalhes, coordenar a logística e confirmar a sua reserva. Realizado exclusivamente em inglês.'
+						'Nome, email, telefone ou identificação de WhatsApp para finalizar os detalhes, coordenar a logística e confirmar a sua reserva. Realizado em inglês ou espanhol.'
 				},
 				{
 					category: 'Logística do Evento',

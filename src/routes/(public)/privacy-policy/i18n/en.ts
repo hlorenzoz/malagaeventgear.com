@@ -27,7 +27,7 @@ const copy = {
 				{
 					category: 'Contact Details',
 					purpose:
-						'Name, Email, Phone, or WhatsApp ID to finalize details, coordinate logistics, and confirm your booking. Conducted solely in English.'
+						'Name, Email, Phone, or WhatsApp ID to finalize details, coordinate logistics, and confirm your booking. Conducted in English or Spanish.'
 				},
 				{
 					category: 'Event Logistics',
