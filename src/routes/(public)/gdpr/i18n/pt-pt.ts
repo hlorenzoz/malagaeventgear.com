@@ -74,6 +74,11 @@ export default {
 			rectification: 'Pedir Retificação de Dados',
 			erasure: 'Pedir Apagamento de Dados'
 		},
+		actions: {
+			access: 'acesso aos dados',
+			rectification: 'retificação dos dados',
+			erasure: 'apagamento dos dados'
+		},
 		status: {
 			prefix: 'O seu pedido de ',
 			middle: ' foi iniciado. Envie-nos um email para ',

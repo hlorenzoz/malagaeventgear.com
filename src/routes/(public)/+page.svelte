@@ -217,7 +217,7 @@
 				     transparent fill is treated as non-contentful by Chrome and disqualifies the
 				     whole <h1> as an LCP candidate, which caused NO_LCP. The gradient ran between
 				     two near-identical blues, so the solid color is visually equivalent. -->
-				<span class="text-electric-blue font-bold">{i18n.t.hero.titleGradient}</span> {i18n.t.hero.titlePart2}
+				<span class="text-electric-blue font-bold">{i18n.t.hero.titleGradient}</span>{i18n.space}{i18n.t.hero.titlePart2}
 			</h1>
 			<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
 				{i18n.t.hero.subtitle}

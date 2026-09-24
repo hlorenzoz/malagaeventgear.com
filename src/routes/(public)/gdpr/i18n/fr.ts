@@ -74,8 +74,13 @@ const copy = {
 			rectification: 'Demander la rectification des données',
 			erasure: 'Demander la suppression des données'
 		},
+		actions: {
+			access: "d'accès aux données",
+			rectification: 'de rectification des données',
+			erasure: "d'effacement des données"
+		},
 		status: {
-			prefix: 'Votre demande de ',
+			prefix: 'Votre demande ',
 			middle: ' a été lancée. Merci de nous écrire à ',
 			suffix: ' pour finaliser la vérification.'
 		}

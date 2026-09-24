@@ -71,6 +71,12 @@ const copy = {
 			rectification: 'Request Data Rectification',
 			erasure: 'Request Data Erasure'
 		},
+		/** The right being requested, as it reads inside `status`. */
+		actions: {
+			access: 'data access',
+			rectification: 'data rectification',
+			erasure: 'data erasure'
+		},
 		status: {
 			prefix: 'Your request for ',
 			middle: ' has been initiated. Please email us at ',

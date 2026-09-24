@@ -74,6 +74,11 @@ export default {
 			rectification: 'Begär rättelse av data',
 			erasure: 'Begär radering av data'
 		},
+		actions: {
+			access: 'tillgång till uppgifter',
+			rectification: 'rättelse av uppgifter',
+			erasure: 'radering av uppgifter'
+		},
 		status: {
 			prefix: 'Din förfrågan om ',
 			middle: ' har initierats. Vänligen mejla oss på ',

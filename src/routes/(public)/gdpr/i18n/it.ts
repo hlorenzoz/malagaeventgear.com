@@ -73,6 +73,11 @@ const copy = {
 			rectification: 'Richiedi Rettifica dei Dati',
 			erasure: 'Richiedi Cancellazione dei Dati'
 		},
+		actions: {
+			access: 'accesso ai dati',
+			rectification: 'rettifica dei dati',
+			erasure: 'cancellazione dei dati'
+		},
 		status: {
 			prefix: 'La tua richiesta di ',
 			middle: ' è stata avviata. Scrivici a ',

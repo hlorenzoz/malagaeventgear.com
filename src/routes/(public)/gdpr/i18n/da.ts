@@ -73,6 +73,11 @@ const copy = {
 			rectification: 'Anmod om berigtigelse af data',
 			erasure: 'Anmod om sletning af data'
 		},
+		actions: {
+			access: 'indsigt i data',
+			rectification: 'berigtigelse af data',
+			erasure: 'sletning af data'
+		},
 		status: {
 			prefix: 'Din anmodning om ',
 			middle: ' er blevet igangsat. Send os venligst en e-mail på ',

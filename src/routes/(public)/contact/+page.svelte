@@ -311,7 +311,7 @@
 						</div>
 						<h2 class="font-headline-md text-headline-md text-on-surface">{i18n.t.contact.successTitle}</h2>
 						<p class="font-body-lg text-body-lg text-on-surface-variant max-w-md mx-auto">
-							{i18n.t.contact.successText1} <strong>{name}</strong>, {i18n.t.contact.successText2}<strong>{email}</strong>{i18n.t.contact.successText3}
+							{i18n.t.contact.successText1}{i18n.space}<strong>{name}</strong>{i18n.comma}{i18n.t.contact.successText2}<strong>{email}</strong>{i18n.t.contact.successText3}
 						</p>
 						<button 
 							onclick={() => { isSubmitted = false; name = ''; email = ''; phone = ''; message = ''; date = ''; eventType = ''; messageLocked = false; }}

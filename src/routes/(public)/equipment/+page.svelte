@@ -53,7 +53,7 @@
 		{copy.hero.badge}
 	</span>
 	<h1 class="font-headline-lg-mobile md:font-display-lg text-headline-lg-mobile md:text-display-lg text-on-surface mb-6 max-w-4xl mx-auto leading-tight">
-		{copy.hero.titlePart1} <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-electric-blue">{copy.hero.titlePart2}</span>
+		{copy.hero.titlePart1}{i18n.space}<span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-electric-blue">{copy.hero.titlePart2}</span>
 	</h1>
 	<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-10">
 		{copy.hero.subtitle}

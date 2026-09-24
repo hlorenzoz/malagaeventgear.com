@@ -21,8 +21,8 @@
 
 	let requestStatus = $state<string | null>(null);
 
-	function triggerRightsRequest(action: string) {
-		requestStatus = `${copy.rightsPortal.status.prefix}${action.toUpperCase()}${copy.rightsPortal.status.middle}${siteConfig.contactEmail}${copy.rightsPortal.status.suffix}`;
+	function triggerRightsRequest(action: keyof typeof copy.rightsPortal.actions) {
+		requestStatus = `${copy.rightsPortal.status.prefix}${copy.rightsPortal.actions[action]}${copy.rightsPortal.status.middle}${siteConfig.contactEmail}${copy.rightsPortal.status.suffix}`;
 	}
 </script>
 
@@ -110,13 +110,14 @@
 		</p>
 
 		{#if requestStatus}
-			<div class="p-4 mb-8 rounded-lg bg-electric-blue/10 border border-electric-blue/20 text-electric-blue text-sm font-body-md animate-fade-in">
+			<div role="status" class="p-4 mb-8 rounded-lg bg-electric-blue/10 border border-electric-blue/20 text-electric-blue text-sm font-body-md animate-fade-in">
 				{requestStatus}
 			</div>
 		{/if}
 
 		<div class="flex flex-wrap justify-center gap-4">
 			<button
+				data-testid="gdpr-request-access"
 				onclick={() => triggerRightsRequest('access')}
 				class="px-6 py-3 rounded-full border border-border-glass bg-on-surface/5 hover:bg-on-surface/10 text-on-surface font-label-md active:scale-95 transition-all"
 			>

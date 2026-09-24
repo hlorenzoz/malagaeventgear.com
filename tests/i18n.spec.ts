@@ -121,6 +121,30 @@ for (const locale of PUBLISHED_LOCALES) {
 			await expect(switcher.locator(`a[aria-current="page"]`)).toHaveAttribute('hreflang', LOCALE_META[locale].htmlLang);
 		});
 
+		test('Chinese headings have no ASCII space between Chinese runs', async ({ request }) => {
+			// Templates join title parts with `i18n.space`, which is empty in Chinese.
+			test.skip(LOCALE_META[locale].script === 'latin');
+			for (const enPath of ['/', '/equipment/']) {
+				const html = await (await request.get((await localized(locale, enPath))!)).text();
+				const h1 = html
+					.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)![1]
+					.replace(/<!--[\s\S]*?-->/g, '')
+					.replace(/<br\s*\/?>/g, '\n')
+					.replace(/<[^>]+>/g, '');
+				expect(h1, `${enPath} h1`).not.toMatch(/[一-鿿，。] +[一-鿿]/);
+			}
+		});
+
+		test('the GDPR request message names the right in this language', async ({ page }) => {
+			// It used to interpolate the English action id uppercased ("ACCESS") into every locale.
+			await page.goto((await localized(locale, '/gdpr/'))!);
+			await page.waitForLoadState('networkidle'); // the button only works once hydrated
+			await page.getByTestId('gdpr-request-access').click();
+			const status = page.getByRole('status');
+			await expect(status).toBeVisible();
+			await expect(status).not.toContainText(/ACCESS|RECTIFICATION|ERASURE|data access/);
+		});
+
 		test('the footer lists every published language as plain links', async ({ page }) => {
 			await page.goto((await localized(locale, '/about-us/'))!);
 			const footer = page.getByTestId('footer-language-switcher');

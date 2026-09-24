@@ -74,8 +74,13 @@ export default {
 			rectification: 'Datenberichtigung anfordern',
 			erasure: 'Datenlöschung anfordern'
 		},
+		actions: {
+			access: 'Auskunft',
+			rectification: 'Berichtigung',
+			erasure: 'Löschung'
+		},
 		status: {
-			prefix: 'Ihre Anfrage für ',
+			prefix: 'Ihr Antrag auf ',
 			middle: ' wurde eingeleitet. Bitte senden Sie uns eine E-Mail an ',
 			suffix: ', um die Verifizierung abzuschließen.'
 		}

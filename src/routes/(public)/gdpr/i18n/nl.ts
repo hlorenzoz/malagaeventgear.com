@@ -74,6 +74,11 @@ const copy = {
 			rectification: 'Verzoek om rectificatie',
 			erasure: 'Verzoek om wissing'
 		},
+		actions: {
+			access: 'inzage in je gegevens',
+			rectification: 'rectificatie van je gegevens',
+			erasure: 'verwijdering van je gegevens'
+		},
 		status: {
 			prefix: 'Je verzoek om ',
 			middle: ' is in behandeling genomen. Mail ons op ',

@@ -73,6 +73,11 @@ export default {
 			rectification: 'Be om retting av data',
 			erasure: 'Be om sletting av data'
 		},
+		actions: {
+			access: 'innsyn i data',
+			rectification: 'retting av data',
+			erasure: 'sletting av data'
+		},
 		status: {
 			prefix: 'Forespørselen din om ',
 			middle: ' er startet. Send oss en e-post på ',

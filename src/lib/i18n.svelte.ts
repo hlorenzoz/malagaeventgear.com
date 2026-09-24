@@ -1,6 +1,6 @@
 import { page } from '$app/state';
 import en, { type Messages } from '$lib/i18n/messages/en';
-import { DEFAULT_LOCALE, isLocale, type Locale } from '$lib/i18n/locales';
+import { DEFAULT_LOCALE, LOCALE_META, isLocale, type Locale } from '$lib/i18n/locales';
 import { getAvailability } from '$lib/i18n/availability';
 import type { LocaleContentMap } from '$lib/i18n/content-map/schema';
 import { encodePath, withLocale } from '$lib/i18n/locale-path';
@@ -64,5 +64,15 @@ export const i18n = {
 	/** Absolute URL of an English route in the current locale (JSON-LD `url`, `@id`). */
 	absolute(enPath: string): string {
 		return `${siteConfig.url}${this.href(enPath)}`;
+	},
+	/**
+	 * Glue a template puts between two runs of copy. Latin scripts separate words with a space,
+	 * Chinese does not, so a hardcoded ' ' or ', ' in markup leaves a gap in a Chinese heading.
+	 */
+	get space(): string {
+		return LOCALE_META[this.lang].script === 'latin' ? ' ' : '';
+	},
+	get comma(): string {
+		return LOCALE_META[this.lang].script === 'latin' ? ', ' : '，';
 	}
 };
