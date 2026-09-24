@@ -11,7 +11,7 @@ export default {
 				'2 lysbjælker med RGBW LED-spots',
 				'Æstetisk kabelføring og professionel opsætning'
 			],
-			optional: ['Projektor og projektorlærred (+50 €)', 'Professionel røg-/tågemaskine (+20 €)'],
+			optional: ['Projektor og projektorlærred (+{price:projectorScreen})', 'Professionel røg-/tågemaskine (+{price:smokeMachine})'],
 			seo: { title: 'Eco Pack: Leje af lyd og lys til lille fest i Malaga | MEG' },
 			landing: {
 				badge: 'Mindre events og fester',
@@ -42,7 +42,7 @@ export default {
 				'Teknisk kontrol og ingeniørsupport på stedet under eventet',
 				'Hurtig nedtagning og logistisk afhentning efter eventet'
 			],
-			optional: ['Professionel røg-/tågemaskine (+20 €)'],
+			optional: ['Professionel røg-/tågemaskine (+{price:smokeMachine})'],
 			seo: { title: 'Wedding Pack: Bryllupslyd og romantisk belysning | MEG' },
 			landing: {
 				badge: 'Vores mest populære fejringspakke',
@@ -99,7 +99,7 @@ export default {
 				'1 professionel gooseneck-mikrofon til podie/talerstol',
 				'Logistisk transport, opsætning og æstetisk kabelføring'
 			],
-			optional: ['Dedikeret teknisk assistent på stedet (+240 €/dag)'],
+			optional: ['Dedikeret teknisk assistent på stedet (+{price:technicianDay}/dag)'],
 			seo: { title: 'Basic MICE Pack: AV-udstyr til møder | MEG' },
 			landing: {
 				badge: 'Essentielle pakker til ledermøder',
@@ -129,9 +129,9 @@ export default {
 				'Logistisk levering, tilpasset kabelopsætning og nedtagning efter eventet'
 			],
 			optional: [
-				'Ekstra time med live teknisk assistentsupport (+40 €/t)',
-				'Premium moderne talerstol i metakrylat/akryl (+50 €)',
-				'Modulære scenepodier (+35 € pr. kvadratmeter)'
+				'Ekstra time med live teknisk assistentsupport (+{price:technicianHour}/t)',
+				'Premium moderne talerstol i metakrylat/akryl (+{price:lectern})',
+				'Modulære scenepodier (+{price:stagingPerSqm} pr. kvadratmeter)'
 			],
 			seo: { title: 'MICE Pack: AV til konferencer med LED-skærm | MEG' },
 			landing: {
@@ -166,7 +166,7 @@ export default {
 		'service-areas': {
 			question: 'Hvor tilbyder Malaga Event Gear (MEG) sine services?',
 			answer:
-				'Selvom "Malaga" indgår i vores navn, rækker vores services langt ud over selve byen. Vi opererer primært på hele Costa del Sol, herunder Malaga by, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena og Estepona. Vi betjener også Sevilla og Granada, selvom Granada typisk kræver bookinger over 400 € på grund af den ekstra transportafstand uden for provinsen.'
+				'Selvom "Malaga" indgår i vores navn, rækker vores services langt ud over selve byen. Vi opererer primært på hele Costa del Sol, herunder Malaga by, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena og Estepona. Vi betjener også Sevilla og Granada, selvom Granada typisk kræver bookinger over {price:outOfProvinceMinimum} på grund af den ekstra transportafstand uden for provinsen.'
 		},
 		'what-makes-unique': {
 			question: 'Hvad gør Malaga Event Gear (MEG) unik sammenlignet med andre AV-udlejningsvirksomheder?',
@@ -206,7 +206,7 @@ export default {
 		'on-site-technician': {
 			question: 'Stiller I med en tekniker på stedet under eventet?',
 			answer:
-				'Ja. Flere pakker, som Wedding Pack og den fulde MICE Pack, inkluderer en dedikeret live tekniker, der står for teknisk kontrol og ingeniørsupport gennem hele dit event. For pakker, hvor det ikke er inkluderet (for eksempel Basic MICE Pack), kan teknisk assistance på stedet tilføjes som tilvalg fra 240 € pr. dag.'
+				'Ja. Flere pakker, som Wedding Pack og den fulde MICE Pack, inkluderer en dedikeret live tekniker, der står for teknisk kontrol og ingeniørsupport gennem hele dit event. For pakker, hvor det ikke er inkluderet (for eksempel Basic MICE Pack), kan teknisk assistance på stedet tilføjes som tilvalg fra {price:technicianDay} pr. dag.'
 		},
 		'equipment-brands': {
 			question: 'Hvilke udstyrsmærker arbejder I med?',
@@ -241,7 +241,7 @@ export default {
 		'minimum-order-granada': {
 			question: 'Er der et minimumsbeløb for service uden for Costa del Sol?',
 			answer:
-				'Inden for Costa del Sol er der intet særligt minimum. Til mere fjerntliggende destinationer uden for provinsen, som Granada, kræver vi en minimumsudlejningsværdi på over 400 € for at dække den logistiske transport på én dag. Vi betjener også Sevilla. Kontakt os for at bekræfte betingelserne for din specifikke lokation.'
+				'Inden for Costa del Sol er der intet særligt minimum. Til mere fjerntliggende destinationer uden for provinsen, som Granada, kræver vi en minimumsudlejningsværdi på over {price:outOfProvinceMinimum} for at dække den logistiske transport på én dag. Vi betjener også Sevilla. Kontakt os for at bekræfte betingelserne for din specifikke lokation.'
 		},
 		'customize-package': {
 			question: 'Kan jeg tilpasse eller udvide en pakke til mine specifikke behov?',

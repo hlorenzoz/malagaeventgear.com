@@ -11,7 +11,7 @@ export default {
 				'2 lichtbalken met RGBW LED-spots',
 				'Esthetische bekabeling en professionele opbouw'
 			],
-			optional: ['Beamer & projectiescherm (+50€)', 'Professionele rookmachine (+20€)'],
+			optional: ['Beamer & projectiescherm (+{price:projectorScreen})', 'Professionele rookmachine (+{price:smokeMachine})'],
 			seo: { title: 'Eco Pack: Goedkoop Feestpakket Huren Malaga | MEG' },
 			landing: {
 				badge: 'Kleine evenementen & feesten',
@@ -42,7 +42,7 @@ export default {
 				'Live technische controle en ondersteuning ter plaatse tijdens het evenement',
 				'Snelle afbraak en logistieke ophaling na afloop'
 			],
-			optional: ['Professionele rookmachine (+20€)'],
+			optional: ['Professionele rookmachine (+{price:smokeMachine})'],
 			seo: { title: 'Wedding Pack: Bruiloft Geluid & Licht Huren Malaga' },
 			landing: {
 				badge: 'Ons populairste feestpakket',
@@ -99,7 +99,7 @@ export default {
 				'1 professionele gooseneck-microfoon voor podium/katheder',
 				'Logistiek vervoer, opbouw en esthetische bekabeling'
 			],
-			optional: ['Toegewijde technische assistent ter plaatse (+240€/dag)'],
+			optional: ['Toegewijde technische assistent ter plaatse (+{price:technicianDay}/dag)'],
 			seo: { title: 'Basic MICE Pack: Vergaderapparatuur Huren Malaga | MEG' },
 			landing: {
 				badge: 'Essentiële pakketten voor directievergaderingen',
@@ -129,9 +129,9 @@ export default {
 				'Logistieke levering, bekabeling op maat en afbraak na afloop'
 			],
 			optional: [
-				'Extra uur live technische ondersteuning (+40€/u)',
-				'Premium moderne katheder in methacrylaat/acryl (+50€)',
-				'Modulaire podiumplatforms (+35€ per vierkante meter)'
+				'Extra uur live technische ondersteuning (+{price:technicianHour}/u)',
+				'Premium moderne katheder in methacrylaat/acryl (+{price:lectern})',
+				'Modulaire podiumplatforms (+{price:stagingPerSqm} per vierkante meter)'
 			],
 			seo: { title: 'MICE Pack: Congrestechniek Huren Malaga | MEG' },
 			landing: {
@@ -166,7 +166,7 @@ export default {
 		'service-areas': {
 			question: 'Waar biedt Malaga Event Gear (MEG) haar diensten aan?',
 			answer:
-				'Hoewel "Malaga" in onze naam zit, reikt onze dienstverlening ver voorbij de stad. We zijn vooral actief in de hele Costa del Sol, waaronder Malaga stad, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena en Estepona. We bedienen ook Sevilla en Granada, al is voor Granada doorgaans een boeking van meer dan 400 € vereist vanwege de reisafstand buiten de provincie.'
+				'Hoewel "Malaga" in onze naam zit, reikt onze dienstverlening ver voorbij de stad. We zijn vooral actief in de hele Costa del Sol, waaronder Malaga stad, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena en Estepona. We bedienen ook Sevilla en Granada, al is voor Granada doorgaans een boeking van meer dan {price:outOfProvinceMinimum} vereist vanwege de reisafstand buiten de provincie.'
 		},
 		'what-makes-unique': {
 			question: 'Wat maakt Malaga Event Gear (MEG) uniek in vergelijking met andere verhuurbedrijven voor audiovisuele apparatuur?',
@@ -206,7 +206,7 @@ export default {
 		'on-site-technician': {
 			question: 'Bieden jullie een technicus ter plaatse tijdens het evenement?',
 			answer:
-				'Ja. Verschillende pakketten, zoals het Wedding Pack en het volledige MICE Pack, omvatten een toegewijde live technicus die zorgt voor technische controle en ondersteuning tijdens je evenement. Bij pakketten waar dit niet is inbegrepen (bijvoorbeeld het Basic MICE Pack), kan technische ondersteuning ter plaatse optioneel worden toegevoegd vanaf 240 € per dag.'
+				'Ja. Verschillende pakketten, zoals het Wedding Pack en het volledige MICE Pack, omvatten een toegewijde live technicus die zorgt voor technische controle en ondersteuning tijdens je evenement. Bij pakketten waar dit niet is inbegrepen (bijvoorbeeld het Basic MICE Pack), kan technische ondersteuning ter plaatse optioneel worden toegevoegd vanaf {price:technicianDay} per dag.'
 		},
 		'equipment-brands': {
 			question: 'Met welke apparatuurmerken werken jullie?',
@@ -241,7 +241,7 @@ export default {
 		'minimum-order-granada': {
 			question: 'Is er een minimumbestelling voor service buiten de Costa del Sol?',
 			answer:
-				'Binnen de Costa del Sol geldt geen speciaal minimum. Voor verder gelegen bestemmingen buiten de provincie, zoals Granada, vragen we een minimale huurwaarde van meer dan 400 € om de logistieke reis van een dag te dekken. Ook Sevilla wordt bediend, neem contact op om de voorwaarden voor jouw specifieke locatie te bevestigen.'
+				'Binnen de Costa del Sol geldt geen speciaal minimum. Voor verder gelegen bestemmingen buiten de provincie, zoals Granada, vragen we een minimale huurwaarde van meer dan {price:outOfProvinceMinimum} om de logistieke reis van een dag te dekken. Ook Sevilla wordt bediend, neem contact op om de voorwaarden voor jouw specifieke locatie te bevestigen.'
 		},
 		'customize-package': {
 			question: 'Kan ik een pakket aanpassen of uitbreiden voor mijn specifieke wensen?',

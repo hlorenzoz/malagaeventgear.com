@@ -63,7 +63,7 @@ const faqData: FaqItem[] = [
 		onHomepage: true,
 		onContact: true,
 		question: 'Where does Malaga Event Gear (MEG) offer its services?',
-		answer: 'While "Malaga" is in our name, our services extend well beyond the city. We primarily operate across the Costa del Sol, including Malaga capital, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena, and Estepona. We also serve Sevilla and Granada, though Granada typically requires bookings exceeding 400 € due to the out of province travel distance.'
+		answer: 'While "Malaga" is in our name, our services extend well beyond the city. We primarily operate across the Costa del Sol, including Malaga capital, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena, and Estepona. We also serve Sevilla and Granada, though Granada typically requires bookings exceeding {price:outOfProvinceMinimum} due to the out of province travel distance.'
 	},
 	{
 		id: 'what-makes-unique',
@@ -122,7 +122,7 @@ const faqData: FaqItem[] = [
 		category: 'services',
 		onHomepage: false,
 		question: 'Do you provide an on site technician during the event?',
-		answer: 'Yes. Several packages (such as the Wedding Pack and the full MICE Pack) include a dedicated live technician who handles technical control and engineering support throughout your event. For packages where it is not included (for example the Basic MICE Pack), on site technical assistance can be added as an option from 240 € per day.'
+		answer: 'Yes. Several packages (such as the Wedding Pack and the full MICE Pack) include a dedicated live technician who handles technical control and engineering support throughout your event. For packages where it is not included (for example the Basic MICE Pack), on site technical assistance can be added as an option from {price:technicianDay} per day.'
 	},
 	{
 		id: 'equipment-brands',
@@ -173,7 +173,7 @@ const faqData: FaqItem[] = [
 		onHomepage: false,
 		onContact: true,
 		question: 'Is there a minimum order for service outside the Costa del Sol?',
-		answer: 'Within the Costa del Sol there is no special minimum. For more distant, out of province destinations such as Granada, we require a minimum rental value exceeding 400 € to cover the single day logistical travel. Sevilla is also served. Contact us to confirm conditions for your specific location.'
+		answer: 'Within the Costa del Sol there is no special minimum. For more distant, out of province destinations such as Granada, we require a minimum rental value exceeding {price:outOfProvinceMinimum} to cover the single day logistical travel. Sevilla is also served. Contact us to confirm conditions for your specific location.'
 	},
 	{
 		id: 'customize-package',

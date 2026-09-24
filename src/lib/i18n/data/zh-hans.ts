@@ -11,7 +11,7 @@ export default {
 				'2条配备RGBW LED聚光灯的灯光排',
 				'美观走线与专业搭建'
 			],
-			optional: ['投影仪及投影幕布（+50€）', '专业烟雾机（+20€）'],
+			optional: ['投影仪及投影幕布（+{price:projectorScreen}）', '专业烟雾机（+{price:smokeMachine}）'],
 			seo: { title: 'Eco Pack：马拉加小型派对音响灯光租赁 | MEG' },
 			landing: {
 				badge: '小型活动与派对',
@@ -41,7 +41,7 @@ export default {
 				'活动期间现场技术控制与工程支持',
 				'活动结束后快速拆卸与物流回收'
 			],
-			optional: ['专业烟雾机（+20€）'],
+			optional: ['专业烟雾机（+{price:smokeMachine}）'],
 			seo: { title: 'Wedding Pack：马拉加婚礼音响与浪漫灯光 | MEG' },
 			landing: {
 				badge: '我们最受欢迎的庆典套餐',
@@ -96,7 +96,7 @@ export default {
 				'1支专业鹅颈麦克风，适用于讲台/讲桌',
 				'物流运输、现场搭建及美观走线'
 			],
-			optional: ['专属现场技术助理（+240€/天）'],
+			optional: ['专属现场技术助理（+{price:technicianDay}/天）'],
 			seo: { title: 'Basic MICE Pack：企业会议视听设备 | MEG' },
 			landing: {
 				badge: '高管会议必备套餐',
@@ -125,9 +125,9 @@ export default {
 				'物流配送、定制走线搭建及活动后拆卸'
 			],
 			optional: [
-				'额外现场技术支持时长（+40€/小时）',
-				'高端亚克力现代讲台（+50€）',
-				'模块化舞台搭建（+35€/平方米）'
+				'额外现场技术支持时长（+{price:technicianHour}/小时）',
+				'高端亚克力现代讲台（+{price:lectern}）',
+				'模块化舞台搭建（+{price:stagingPerSqm}/平方米）'
 			],
 			seo: { title: 'MICE Pack：会展音响与LED显示屏 | MEG' },
 			landing: {
@@ -161,7 +161,7 @@ export default {
 		'service-areas': {
 			question: 'Malaga Event Gear（MEG）的服务范围覆盖哪些地区？',
 			answer:
-				'虽然公司名称中含有「马拉加」，但我们的服务范围远不止这座城市。我们主要在整个太阳海岸提供服务，包括马拉加市区、马贝拉、Coín、Ronda、Mijas、Nerja、Torremolinos、Fuengirola、Benalmadena及Estepona。我们也服务塞维利亚与格拉纳达，不过由于格拉纳达路途较远、跨省运输，通常要求预订金额超过400欧元。'
+				'虽然公司名称中含有「马拉加」，但我们的服务范围远不止这座城市。我们主要在整个太阳海岸提供服务，包括马拉加市区、马贝拉、Coín、Ronda、Mijas、Nerja、Torremolinos、Fuengirola、Benalmadena及Estepona。我们也服务塞维利亚与格拉纳达，不过由于格拉纳达路途较远、跨省运输，通常要求预订金额超过{price:outOfProvinceMinimum}。'
 		},
 		'what-makes-unique': {
 			question: '与其他视听设备租赁公司相比，Malaga Event Gear（MEG）有何独特之处？',
@@ -201,7 +201,7 @@ export default {
 		'on-site-technician': {
 			question: '活动期间是否提供现场技术人员？',
 			answer:
-				'是的。部分套餐（例如Wedding Pack及完整版MICE Pack）已包含专属现场技术人员，全程负责技术控制与工程支持。对于未包含此项服务的套餐（例如Basic MICE Pack），可选择额外添加现场技术协助，价格从每天240欧元起。'
+				'是的。部分套餐（例如Wedding Pack及完整版MICE Pack）已包含专属现场技术人员，全程负责技术控制与工程支持。对于未包含此项服务的套餐（例如Basic MICE Pack），可选择额外添加现场技术协助，价格从每天{price:technicianDay}起。'
 		},
 		'equipment-brands': {
 			question: '你们使用哪些设备品牌？',
@@ -236,7 +236,7 @@ export default {
 		'minimum-order-granada': {
 			question: '太阳海岸以外地区的服务是否有最低消费要求？',
 			answer:
-				'在太阳海岸范围内没有特别的最低消费要求。对于格拉纳达等跨省的较远地区，我们要求最低租赁金额超过400欧元，以覆盖单日往返的物流成本。我们也服务塞维利亚地区，具体条件请联系我们确认。'
+				'在太阳海岸范围内没有特别的最低消费要求。对于格拉纳达等跨省的较远地区，我们要求最低租赁金额超过{price:outOfProvinceMinimum}，以覆盖单日往返的物流成本。我们也服务塞维利亚地区，具体条件请联系我们确认。'
 		},
 		'customize-package': {
 			question: '我可以根据自身需求定制或扩展套餐吗？',

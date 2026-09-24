@@ -21,7 +21,7 @@ const copy = {
         },
         areas: {
             q: 'What areas do you cover in Andalusia?',
-            a: 'We serve Malaga capital, Marbella, and the entire Costa del Sol daily. We also service Seville and Granada (for orders over 400€). We currently do not offer pickup options since we operate on a delivery only model.'
+            a: 'We serve Malaga capital, Marbella, and the entire Costa del Sol daily. We also service Seville and Granada (for orders over {price:outOfProvinceMinimum}). We currently do not offer pickup options since we operate on a delivery only model.'
         },
         rain: {
             q: 'What happens if it rains for an outdoor event?',

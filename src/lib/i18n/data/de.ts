@@ -11,7 +11,7 @@ export default {
 				'2 Lichtleisten mit RGBW-LED-Spots',
 				'Ästhetische Verkabelung und professioneller Aufbau'
 			],
-			optional: ['Beamer & Projektionsleinwand (+50 €)', 'Professionelle Nebelmaschine (+20 €)'],
+			optional: ['Beamer & Projektionsleinwand (+{price:projectorScreen})', 'Professionelle Nebelmaschine (+{price:smokeMachine})'],
 			seo: { title: 'Eco Pack: Günstiges Partyset mieten Malaga | MEG' },
 			landing: {
 				badge: 'Kleine Veranstaltungen & Feiern',
@@ -42,7 +42,7 @@ export default {
 				'Technische Live-Betreuung und Support vor Ort während der Veranstaltung',
 				'Schneller Abbau und logistische Abholung nach der Veranstaltung'
 			],
-			optional: ['Professionelle Nebelmaschine (+20 €)'],
+			optional: ['Professionelle Nebelmaschine (+{price:smokeMachine})'],
 			seo: { title: 'Wedding Pack: Hochzeitstechnik mieten in Malaga' },
 			landing: {
 				badge: 'Unser beliebtestes Feierpaket',
@@ -99,7 +99,7 @@ export default {
 				'1 professionelles Schwanenhalsmikrofon für Podium/Rednerpult',
 				'Logistiktransport, Aufbau und ästhetische Verkabelung'
 			],
-			optional: ['Fester technischer Assistent vor Ort (+240 €/Tag)'],
+			optional: ['Fester technischer Assistent vor Ort (+{price:technicianDay}/Tag)'],
 			seo: { title: 'Basic MICE Pack: Tagungstechnik mieten in Malaga' },
 			landing: {
 				badge: 'Grundausstattung für Führungskräfte-Meetings',
@@ -129,9 +129,9 @@ export default {
 				'Logistiklieferung, maßgeschneiderte Verkabelung und Abbau nach der Veranstaltung'
 			],
 			optional: [
-				'Zusätzliche Stunde Live-Techniksupport (+40 €/Std.)',
-				'Modernes Premium-Rednerpult aus Methacrylat/Acryl (+50 €)',
-				'Modulare Bühnenpodeste (+35 €/m²)'
+				'Zusätzliche Stunde Live-Techniksupport (+{price:technicianHour}/Std.)',
+				'Modernes Premium-Rednerpult aus Methacrylat/Acryl (+{price:lectern})',
+				'Modulare Bühnenpodeste (+{price:stagingPerSqm}/m²)'
 			],
 			seo: { title: 'MICE Pack: Kongresstechnik mieten in Malaga | MEG' },
 			landing: {
@@ -166,7 +166,7 @@ export default {
 		'service-areas': {
 			question: 'Wo bietet Malaga Event Gear (MEG) seine Leistungen an?',
 			answer:
-				'Auch wenn "Malaga" in unserem Namen steht, reicht unser Service weit über die Stadt hinaus. Wir sind vor allem an der gesamten Costa del Sol tätig, darunter Malaga Stadt, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena und Estepona. Außerdem bedienen wir Sevilla und Granada, wobei für Granada aufgrund der Entfernung außerhalb der Provinz in der Regel Buchungen ab 400 € erforderlich sind.'
+				'Auch wenn "Malaga" in unserem Namen steht, reicht unser Service weit über die Stadt hinaus. Wir sind vor allem an der gesamten Costa del Sol tätig, darunter Malaga Stadt, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena und Estepona. Außerdem bedienen wir Sevilla und Granada, wobei für Granada aufgrund der Entfernung außerhalb der Provinz in der Regel Buchungen ab {price:outOfProvinceMinimum} erforderlich sind.'
 		},
 		'what-makes-unique': {
 			question:
@@ -207,7 +207,7 @@ export default {
 		'on-site-technician': {
 			question: 'Stellen Sie während der Veranstaltung einen Techniker vor Ort?',
 			answer:
-				'Ja. Mehrere Pakete, wie das Wedding Pack und das vollständige MICE Pack, beinhalten einen festen Live-Techniker, der während Ihrer gesamten Veranstaltung die technische Kontrolle und Betreuung übernimmt. Bei Paketen, in denen dies nicht enthalten ist (zum Beispiel im Basic MICE Pack), kann technische Unterstützung vor Ort optional ab 240 € pro Tag hinzugebucht werden.'
+				'Ja. Mehrere Pakete, wie das Wedding Pack und das vollständige MICE Pack, beinhalten einen festen Live-Techniker, der während Ihrer gesamten Veranstaltung die technische Kontrolle und Betreuung übernimmt. Bei Paketen, in denen dies nicht enthalten ist (zum Beispiel im Basic MICE Pack), kann technische Unterstützung vor Ort optional ab {price:technicianDay} pro Tag hinzugebucht werden.'
 		},
 		'equipment-brands': {
 			question: 'Mit welchen Technikmarken arbeiten Sie?',
@@ -242,7 +242,7 @@ export default {
 		'minimum-order-granada': {
 			question: 'Gibt es eine Mindestbestellung für Leistungen außerhalb der Costa del Sol?',
 			answer:
-				'Innerhalb der Costa del Sol gibt es keine besondere Mindestgrenze. Für weiter entfernte Ziele außerhalb der Provinz, wie Granada, verlangen wir einen Mindestmietwert von über 400 €, um die eintägige logistische Anreise zu decken. Auch Sevilla wird bedient. Kontaktieren Sie uns, um die Bedingungen für Ihren genauen Standort zu bestätigen.'
+				'Innerhalb der Costa del Sol gibt es keine besondere Mindestgrenze. Für weiter entfernte Ziele außerhalb der Provinz, wie Granada, verlangen wir einen Mindestmietwert von über {price:outOfProvinceMinimum}, um die eintägige logistische Anreise zu decken. Auch Sevilla wird bedient. Kontaktieren Sie uns, um die Bedingungen für Ihren genauen Standort zu bestätigen.'
 		},
 		'customize-package': {
 			question: 'Kann ich ein Paket an meine individuellen Anforderungen anpassen oder erweitern?',

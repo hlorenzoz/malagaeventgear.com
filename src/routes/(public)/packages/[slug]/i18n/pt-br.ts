@@ -15,7 +15,7 @@ export default {
 		},
 		areas: {
 			q: 'Quais áreas vocês cobrem na Andaluzia?',
-			a: 'Atendemos diariamente a capital Málaga, Marbella e toda a Costa del Sol. Também atendemos Sevilha e Granada (para pedidos acima de 400€). No momento não oferecemos opções de retirada, já que trabalhamos com um modelo somente de entrega.'
+			a: 'Atendemos diariamente a capital Málaga, Marbella e toda a Costa del Sol. Também atendemos Sevilha e Granada (para pedidos acima de {price:outOfProvinceMinimum}). No momento não oferecemos opções de retirada, já que trabalhamos com um modelo somente de entrega.'
 		},
 		rain: {
 			q: 'O que acontece se chover em um evento ao ar livre?',

@@ -6,6 +6,8 @@ import {
 	CURRENCY_SYMBOL,
 	VAT_RATE,
 	formatPrice,
+	withPrices,
+	PRICE_POINTS,
 	getPriceRange,
 	formatPriceRange,
 	getSchemaPriceRange,
@@ -32,6 +34,29 @@ describe('pricing single source of truth', () => {
 			expect(VAT_RATE).toBeGreaterThan(0);
 			expect(VAT_RATE).toBeLessThan(1);
 			expect(Math.round(VAT_RATE * 100)).toBe(21);
+		});
+	});
+
+	describe('withPrices', () => {
+		it('renders each {price:key} token from PRICE_POINTS with formatPrice in the page language', () => {
+			expect(withPrices('Projector (+{price:projectorScreen})', 'en')).toBe(`Projector (+${formatPrice(PRICE_POINTS.projectorScreen, 'en')})`);
+			expect(withPrices('Projector (+{price:projectorScreen})', 'de')).toBe(`Projector (+${PRICE_POINTS.projectorScreen} €)`);
+			expect(withPrices('{price:budgetLow} à {price:budgetHigh}', 'fr')).toBe(`${PRICE_POINTS.budgetLow} € à ${PRICE_POINTS.budgetHigh} €`);
+		});
+
+		it('follows PRICE_POINTS, so a price changes in one place for every language', () => {
+			for (const [key, amount] of Object.entries(PRICE_POINTS)) {
+				expect(withPrices(`{price:${key}}`, 'de')).toBe(formatPrice(amount, 'de'));
+			}
+		});
+
+		it('fails loudly on a key that does not exist, instead of publishing the token', () => {
+			expect(() => withPrices('{price:unicorn}', 'en')).toThrow(/Unknown price token/);
+			expect(() => withPrices('{price:50}', 'en')).toThrow(/Unknown price token/);
+		});
+
+		it('leaves text without tokens untouched', () => {
+			expect(withPrices('No prices here.', 'de')).toBe('No prices here.');
 		});
 	});
 

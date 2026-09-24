@@ -60,6 +60,25 @@ test.describe('unpublished locales are not served', () => {
 	}
 });
 
+test.describe('every price on a page is written one way', () => {
+	// Copy writes {price:N} tokens and formatPrice renders them, so a page never mixes `+50€`
+	// with `400 €`. Checked on the rendered text of the pages that list extras and minimums.
+	for (const locale of ['en', ...PUBLISHED_LOCALES] as const) {
+		test(`${locale}`, async ({ request }) => {
+			for (const enPath of ['/packages/', '/packages/eco/', '/faq/', '/terms-of-service/']) {
+				const html = await (await request.get((await localized(locale, enPath))!)).text();
+				const text = html.split('<body')[1].replace(/<(script|style)[\s\S]*?<\/\1>/g, '').replace(/<[^>]+>/g, ' ');
+				expect(text, `${enPath}: unrendered token`).not.toContain('{price:');
+				const amounts = [...text.matchAll(/€ ?\d+|\d+ ?€/g)].map((m) => m[0]);
+				expect(amounts.length, `${enPath}: no prices found`).toBeGreaterThan(0);
+				const shapes = new Set(amounts.map((a) => (a.startsWith('€') ? '€N' : a.includes(' ') ? 'N €' : 'N€')));
+				expect([...shapes], `${enPath}: ${amounts.join(' | ')}`).toHaveLength(1);
+				expect(shapes.has('N€'), `${enPath}: amount glued to the symbol`).toBe(false);
+			}
+		});
+	}
+});
+
 for (const locale of PUBLISHED_LOCALES) {
 	test.describe(`locale ${locale}`, () => {
 		for (const enPath of SAMPLE_PAGES) {

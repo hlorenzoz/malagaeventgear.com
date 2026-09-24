@@ -15,7 +15,7 @@ const copy = {
 		},
 		areas: {
 			q: 'Quali zone coprite in Andalusia?',
-			a: "Serviamo quotidianamente Malaga capitale, Marbella e l'intera Costa del Sol. Serviamo anche Siviglia e Granada (per ordini superiori a 400€). Al momento non offriamo opzioni di ritiro poiché operiamo con un modello di sola consegna."
+			a: "Serviamo quotidianamente Malaga capitale, Marbella e l'intera Costa del Sol. Serviamo anche Siviglia e Granada (per ordini superiori a {price:outOfProvinceMinimum}). Al momento non offriamo opzioni di ritiro poiché operiamo con un modello di sola consegna."
 		},
 		rain: {
 			q: "Cosa succede se piove durante un evento all'aperto?",

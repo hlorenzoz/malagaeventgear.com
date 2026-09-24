@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { packages } from './packages';
+import { isPricePoint, packages } from './packages';
 
 /**
  * Guard test for CLAUDE.md §7 — "Prohibido duplicar datos".
@@ -99,5 +99,41 @@ describe('no hardcoded package prices outside the single source of truth', () =>
 		expect(pricePattern(cheapest).test(`from ${cheapest} EUR`)).toBe(true);
 		// And that it does not fire on unrelated numbers.
 		expect(pricePattern(cheapest).test(`width: ${cheapest}px`)).toBe(false);
+	});
+});
+
+describe('copy writes every amount as a {price:N} token (CLAUDE.md §7)', () => {
+	// Copy is every file a translator writes, plus the English copy in faq.ts and packages.ts.
+	// A literal amount there skips formatPrice, so the same price renders as `+50€` on one line
+	// and `400 €` on the next, differently in every language.
+	const COPY_FILE = /(i18n\/(messages|data)\/[a-z-]+\.ts|\/i18n\/[a-z-]+\.ts|lib\/data\/(faq|packages)\.ts)$/;
+	const amount = /(€\s*\d|\d\s*€|\d\s*(欧元|歐元)|\d\s*EUR\b)/;
+	const copyFiles = Object.entries(sources)
+		.map(([path, contents]) => [path.replace(/^(\.\.\/)+/, '').replace(/^\.\//, ''), contents] as const)
+		.filter(([path]) => COPY_FILE.test(path) && !path.endsWith('.test.ts'));
+
+	it('finds the copy files', () => {
+		expect(copyFiles.length).toBeGreaterThan(200);
+	});
+
+	it.each(copyFiles.map(([path]) => path))('%s has no literal amount', (path) => {
+		const lines = stripComments(copyFiles.find(([p]) => p === path)?.[1] ?? '')
+			.split('\n')
+			.filter((line) => amount.test(line));
+		expect(lines, `${path}: write {price:N} instead of a literal amount`).toEqual([]);
+	});
+
+	it.each(copyFiles.map(([path]) => path))('%s names every amount by its PRICE_POINTS key', (path) => {
+		// A token like {price:50} still hardcodes the number in every language. The number lives
+		// once, in PRICE_POINTS (packages.ts), and copy only names it: {price:projectorScreen}.
+		const tokens = [...stripComments(copyFiles.find(([p]) => p === path)?.[1] ?? '').matchAll(/\{price:([^}]*)\}/g)].map((m) => m[1]);
+		expect(tokens.filter((key) => !isPricePoint(key)), `${path}: unknown or numeric price token`).toEqual([]);
+	});
+
+	it('would actually catch a violation', () => {
+		for (const text of ["'(+50€)'", "'400 €'", "'€240'", "'400欧元'", "'400歐元'"]) expect(amount.test(text), text).toBe(true);
+		expect(amount.test("'(+{price:projectorScreen})'")).toBe(false);
+		expect(isPricePoint('50')).toBe(false);
+		expect(isPricePoint('projectorScreen')).toBe(true);
 	});
 });

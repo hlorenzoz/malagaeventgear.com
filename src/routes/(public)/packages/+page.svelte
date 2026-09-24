@@ -4,7 +4,7 @@
 	import Testimonials from '$lib/components/testimonials/Testimonials.svelte';
 	import { i18n } from '$lib/i18n.svelte';
 	import { faqCopy, pkgCopy } from '$lib/i18n/data-copy.svelte';
-	import { packages, formatPrice } from '$lib/data/packages';
+	import { packages, formatPrice, withPrices, PRICE_POINTS } from '$lib/data/packages';
 	import { packageImageVariant } from '$lib/assets/package-images';
 	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
 	import { galleryImages } from '$lib/data/gallery';
@@ -153,9 +153,9 @@
 		// Price bracket
 		if (activePrice !== 'all') {
 			list = list.filter((p) => {
-				if (activePrice === 'low') return p.rawPrice <= 300;
-				if (activePrice === 'mid') return p.rawPrice > 300 && p.rawPrice <= 500;
-				return p.rawPrice > 500; // high
+				if (activePrice === 'low') return p.rawPrice <= PRICE_POINTS.budgetLow;
+				if (activePrice === 'mid') return p.rawPrice > PRICE_POINTS.budgetLow && p.rawPrice <= PRICE_POINTS.budgetHigh;
+				return p.rawPrice > PRICE_POINTS.budgetHigh; // high
 			});
 		}
 
@@ -327,7 +327,7 @@
 	<!-- Budget (price) -->
 	{#snippet priceBody()}
 		{#each priceOptions as opt (opt.value)}
-			{@render chip(activePrice === opt.value, () => (activePrice = activePrice === opt.value ? 'all' : opt.value), i18n.t.filters[opt.key], `filter-price-${opt.value}`)}
+			{@render chip(activePrice === opt.value, () => (activePrice = activePrice === opt.value ? 'all' : opt.value), withPrices(i18n.t.filters[opt.key], i18n.lang), `filter-price-${opt.value}`)}
 		{/each}
 	{/snippet}
 	{@render filterGroup(i18n.t.filters.price, priceBody)}
@@ -580,12 +580,10 @@
 			</span>
 			<Icon name={faqOpen ? 'remove' : 'add'} className="text-on-surface-variant transition-transform duration-300 {faqOpen ? 'rotate-180' : ''}" />
 		</button>
-		{#if faqOpen}
-			<div class="px-6 pb-5 text-on-surface-variant font-body-md text-body-md border-t border-border-glass/30 pt-3">
-				<p class="leading-relaxed">
-					{copy.faqSection.answer}
-				</p>
-			</div>
-		{/if}
+		<div hidden={!faqOpen} class="px-6 pb-5 text-on-surface-variant font-body-md text-body-md border-t border-border-glass/30 pt-3">
+			<p class="leading-relaxed">
+				{copy.faqSection.answer}
+			</p>
+		</div>
 	</div>
 </section>

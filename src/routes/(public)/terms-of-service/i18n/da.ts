@@ -24,7 +24,7 @@ const copy = {
 	},
 	limits: {
 		title: 'Geografiske og driftsmæssige begrænsninger',
-		p1: 'Vores services er primært koncentreret i Malaga-provinsen og på Costa del Sol (herunder Malaga by, Marbella, Fuengirola, Torremolinos, Estepona, Sevilla og tilstødende områder). Service til Granada er kun tilgængelig for pakker over 400,00 €, på grund af den ekstra transportafstand uden for provinsen på en enkelt dag.',
+		p1: 'Vores services er primært koncentreret i Malaga-provinsen og på Costa del Sol (herunder Malaga by, Marbella, Fuengirola, Torremolinos, Estepona, Sevilla og tilstødende områder). Service til Granada er kun tilgængelig for pakker over {price:outOfProvinceMinimum}, på grund af den ekstra transportafstand uden for provinsen på en enkelt dag.',
 		p2: 'Malaga Event Gear har åbent 7 dage om ugen fra kl. 8.00 til 20.00 for kommercielle henvendelser, og 24/7 for teknisk logistik og opsætningssupport.',
 		p3: 'For at garantere fuldstændig teknisk præcision for vores internationale kunder foregår al kommunikation, dokumentation og bookinger på engelsk eller spansk.'
 	},

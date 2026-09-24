@@ -15,7 +15,7 @@ const copy = {
 		},
 		areas: {
 			q: 'Quelles zones couvrez-vous en Andalousie ?',
-			a: "Nous desservons quotidiennement Malaga capitale, Marbella et toute la Costa del Sol. Nous desservons également Séville et Grenade (pour les commandes supérieures à 400 €). Nous ne proposons actuellement pas d'option de retrait, car nous fonctionnons uniquement selon un modèle de livraison."
+			a: "Nous desservons quotidiennement Malaga capitale, Marbella et toute la Costa del Sol. Nous desservons également Séville et Grenade (pour les commandes supérieures à {price:outOfProvinceMinimum}). Nous ne proposons actuellement pas d'option de retrait, car nous fonctionnons uniquement selon un modèle de livraison."
 		},
 		rain: {
 			q: "Que se passe-t-il s'il pleut lors d'un événement en extérieur ?",

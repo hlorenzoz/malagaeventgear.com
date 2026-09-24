@@ -92,7 +92,7 @@ const packagesData: EventPackage[] = [
 				'2 Light bars with RGBW LED spotlights',
 				'Aesthetic cabling and professional setup'
 			],
-		optional: ['Projector & projection screen (+50€)', 'Professional smoke/fog machine (+20€)'],
+		optional: ['Projector & projection screen (+{price:projectorScreen})', 'Professional smoke/fog machine (+{price:smokeMachine})'],
 		maxGuests: 50,
 		popular: false,
 		category: 'social',
@@ -138,7 +138,7 @@ const packagesData: EventPackage[] = [
 				'On site live technical control and engineering support during the event',
 				'Post event rapid teardown and logistics pickup'
 			],
-		optional: ['Professional smoke/fog machine (+20€)'],
+		optional: ['Professional smoke/fog machine (+{price:smokeMachine})'],
 		maxGuests: 80,
 		popular: true,
 		image: '/images/packages/wedding.webp',
@@ -227,7 +227,7 @@ const packagesData: EventPackage[] = [
 				'1 Professional gooseneck microphone for podium/lectern',
 				'Logistics transport, setup, and aesthetic wiring'
 			],
-		optional: ['Dedicated on site live technical assistant (+240€/day)'],
+		optional: ['Dedicated on site live technical assistant (+{price:technicianDay}/day)'],
 		maxGuests: 40,
 		popular: false,
 		category: 'corporate',
@@ -273,9 +273,9 @@ const packagesData: EventPackage[] = [
 				'Logistics delivery, custom wiring setup, and post event teardown'
 			],
 		optional: [
-				'Additional live technical assistant support hour (+40€/h)',
-				'Premium methacrylate/acrylic modern lectern (+50€)',
-				'Modular stage platforms / staging (+35€ per square meter)'
+				'Additional live technical assistant support hour (+{price:technicianHour}/h)',
+				'Premium methacrylate/acrylic modern lectern (+{price:lectern})',
+				'Modular stage platforms / staging (+{price:stagingPerSqm} per square meter)'
 			],
 		maxGuests: 120,
 		popular: false,
@@ -354,13 +354,58 @@ export function formatPrice(amount: number, lang: Locale = 'en'): string {
 		.replace(/[  ]/g, ' ');
 }
 
+/**
+ * Every amount that is not a package price: extras, business thresholds and the budget filter
+ * brackets (EUR, excluding VAT). This is their single source of truth. Copy names them with a
+ * `{price:key}` token and never writes the number, so changing one here changes it in all 13
+ * languages at once.
+ */
+export const PRICE_POINTS = {
+	/** Eco Pack extra: projector and projection screen. */
+	projectorScreen: 50,
+	/** Eco Pack and Wedding Pack extra: professional smoke or fog machine. */
+	smokeMachine: 20,
+	/** MICE Pack extra: premium acrylic lectern. */
+	lectern: 50,
+	/** Dedicated on site technician, per day. */
+	technicianDay: 240,
+	/** Additional technician support, per hour. */
+	technicianHour: 40,
+	/** Modular stage platforms, per square meter. */
+	stagingPerSqm: 35,
+	/** Minimum order for Granada and other out of province destinations. */
+	outOfProvinceMinimum: 400,
+	/** Budget filter on /packages/: "low" is up to this amount. */
+	budgetLow: 300,
+	/** Budget filter on /packages/: "mid" is up to this amount, "high" above it. */
+	budgetHigh: 500
+} as const satisfies Record<string, number>;
+
+export type PricePoint = keyof typeof PRICE_POINTS;
+
+export function isPricePoint(key: string): key is PricePoint {
+	return Object.hasOwn(PRICE_POINTS, key);
+}
+
+/**
+ * Renders the `{price:key}` tokens of a copy string (`'Projector (+{price:projectorScreen})'`)
+ * with formatPrice in the page language. An unknown key throws, which fails the prerender
+ * instead of publishing a broken token. Guarded by no-hardcoded-prices.test.ts.
+ */
+export function withPrices(text: string, lang: Locale = 'en'): string {
+	return text.replace(/\{price:([A-Za-z0-9]+)\}/g, (token, key: string) => {
+		if (!isPricePoint(key)) throw new Error(`Unknown price token ${token}: add it to PRICE_POINTS`);
+		return formatPrice(PRICE_POINTS[key], lang);
+	});
+}
+
 /** Cheapest and most expensive package prices, derived from the catalog. */
 export function getPriceRange(): { min: number; max: number } {
 	const prices = packages.map((pkg) => pkg.price);
 	return { min: Math.min(...prices), max: Math.max(...prices) };
 }
 
-/** Human-facing price range, e.g. `€290 - €650` (en) / `290 € - 650 €` (es). */
+/** Human-facing price range, e.g. `€290 - €650` (en) / `290 € - 650 €` (de). */
 export function formatPriceRange(lang: Locale = 'en'): string {
 	const { min, max } = getPriceRange();
 	return `${formatPrice(min, lang)} - ${formatPrice(max, lang)}`;

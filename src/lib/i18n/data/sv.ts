@@ -11,7 +11,7 @@ export default {
 				'2 ljusbalkar med RGBW LED-spotlights',
 				'Estetisk kabeldragning och professionell installation'
 			],
-			optional: ['Projektor och projektorduk (+50€)', 'Professionell rök-/dimmaskin (+20€)'],
+			optional: ['Projektor och projektorduk (+{price:projectorScreen})', 'Professionell rök-/dimmaskin (+{price:smokeMachine})'],
 			seo: { title: 'Eco Pack: hyr billigt festpaket med ljud och ljus i Malaga' },
 			landing: {
 				badge: 'Mindre evenemang och fester',
@@ -42,7 +42,7 @@ export default {
 				'Teknisk kontroll och support på plats under evenemanget',
 				'Snabb nedmontering och logistisk hämtning efter evenemanget'
 			],
-			optional: ['Professionell rök-/dimmaskin (+20€)'],
+			optional: ['Professionell rök-/dimmaskin (+{price:smokeMachine})'],
 			seo: { title: 'Wedding Pack: hyr ljud och ljus till bröllop i Malaga' },
 			landing: {
 				badge: 'Vårt mest populära firandepaket',
@@ -99,7 +99,7 @@ export default {
 				'1 professionell gåshalsmikrofon för podium/talarstol',
 				'Logistisk transport, installation och estetisk kabeldragning'
 			],
-			optional: ['Dedikerad teknisk assistent på plats (+240€/dag)'],
+			optional: ['Dedikerad teknisk assistent på plats (+{price:technicianDay}/dag)'],
 			seo: { title: 'Basic MICE Pack: hyr konferensutrustning i Malaga' },
 			landing: {
 				badge: 'Grundläggande paket för chefsmöten',
@@ -129,9 +129,9 @@ export default {
 				'Logistisk leverans, skräddarsydd kabeldragning och nedmontering efter evenemanget'
 			],
 			optional: [
-				'Extra timme med teknisk support på plats (+40€/h)',
-				'Premium talarstol i modern metakrylat/akryl (+50€)',
-				'Modulära scenplattformar (+35€ per kvadratmeter)'
+				'Extra timme med teknisk support på plats (+{price:technicianHour}/h)',
+				'Premium talarstol i modern metakrylat/akryl (+{price:lectern})',
+				'Modulära scenplattformar (+{price:stagingPerSqm} per kvadratmeter)'
 			],
 			seo: { title: 'MICE Pack: hyr kongressteknik i Malaga' },
 			landing: {
@@ -166,7 +166,7 @@ export default {
 		'service-areas': {
 			question: 'Var erbjuder Malaga Event Gear (MEG) sina tjänster?',
 			answer:
-				'Även om "Malaga" ingår i vårt namn sträcker sig våra tjänster långt bortom staden. Vi verkar främst längs Costa del Sol, inklusive Malaga stad, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena och Estepona. Vi betjänar även Sevilla och Granada, även om Granada vanligtvis kräver bokningar över 400 € på grund av reseavståndet utanför provinsen.'
+				'Även om "Malaga" ingår i vårt namn sträcker sig våra tjänster långt bortom staden. Vi verkar främst längs Costa del Sol, inklusive Malaga stad, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena och Estepona. Vi betjänar även Sevilla och Granada, även om Granada vanligtvis kräver bokningar över {price:outOfProvinceMinimum} på grund av reseavståndet utanför provinsen.'
 		},
 		'what-makes-unique': {
 			question:
@@ -207,7 +207,7 @@ export default {
 		'on-site-technician': {
 			question: 'Tillhandahåller ni en tekniker på plats under evenemanget?',
 			answer:
-				'Ja. Flera paket, som Wedding Pack och det fullständiga MICE Pack, inkluderar en dedikerad livetekniker som sköter teknisk kontroll och support under hela ditt evenemang. För paket där det inte ingår (till exempel Basic MICE Pack) kan teknisk assistans på plats läggas till som tillval från 240 € per dag.'
+				'Ja. Flera paket, som Wedding Pack och det fullständiga MICE Pack, inkluderar en dedikerad livetekniker som sköter teknisk kontroll och support under hela ditt evenemang. För paket där det inte ingår (till exempel Basic MICE Pack) kan teknisk assistans på plats läggas till som tillval från {price:technicianDay} per dag.'
 		},
 		'equipment-brands': {
 			question: 'Vilka utrustningsmärken arbetar ni med?',
@@ -242,7 +242,7 @@ export default {
 		'minimum-order-granada': {
 			question: 'Finns det en minsta beställning för service utanför Costa del Sol?',
 			answer:
-				'Inom Costa del Sol finns inget särskilt minimum. För mer avlägsna resmål utanför provinsen, som Granada, kräver vi ett minsta hyresvärde över 400 € för att täcka den logistiska endagsresan. Vi betjänar även Sevilla, kontakta oss för att bekräfta villkoren för din specifika plats.'
+				'Inom Costa del Sol finns inget särskilt minimum. För mer avlägsna resmål utanför provinsen, som Granada, kräver vi ett minsta hyresvärde över {price:outOfProvinceMinimum} för att täcka den logistiska endagsresan. Vi betjänar även Sevilla, kontakta oss för att bekräfta villkoren för din specifika plats.'
 		},
 		'customize-package': {
 			question: 'Kan jag anpassa eller utöka ett paket efter mina specifika behov?',

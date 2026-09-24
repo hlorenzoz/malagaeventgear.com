@@ -11,7 +11,7 @@ export default {
 				'2 barres lumineuses avec projecteurs LED RGBW',
 				'Câblage soigné et installation professionnelle'
 			],
-			optional: ['Vidéoprojecteur et écran de projection (+50 €)', 'Machine à fumée professionnelle (+20 €)'],
+			optional: ['Vidéoprojecteur et écran de projection (+{price:projectorScreen})', 'Machine à fumée professionnelle (+{price:smokeMachine})'],
 			seo: { title: 'Eco Pack : sonorisation et éclairage pas cher à Malaga | MEG' },
 			landing: {
 				badge: 'Petits événements et fêtes',
@@ -42,7 +42,7 @@ export default {
 				"Contrôle technique en direct et assistance d'ingénierie sur place pendant l'événement",
 				"Démontage rapide et reprise logistique après l'événement"
 			],
-			optional: ['Machine à fumée professionnelle (+20 €)'],
+			optional: ['Machine à fumée professionnelle (+{price:smokeMachine})'],
 			seo: { title: 'Wedding Pack : sonorisation et éclairage mariage à Malaga | MEG' },
 			landing: {
 				badge: 'Notre forfait célébration le plus demandé',
@@ -99,7 +99,7 @@ export default {
 				'1 microphone col de cygne professionnel pour podium ou pupitre',
 				'Transport logistique, installation et câblage soigné'
 			],
-			optional: ['Assistant technique dédié sur place (+240 €/jour)'],
+			optional: ['Assistant technique dédié sur place (+{price:technicianDay}/jour)'],
 			seo: { title: "Basic MICE Pack : audiovisuel réunion d'entreprise Malaga | MEG" },
 			landing: {
 				badge: 'Forfait essentiel réunion de direction',
@@ -129,9 +129,9 @@ export default {
 				"Livraison logistique, câblage sur mesure et démontage après l'événement"
 			],
 			optional: [
-				"Heure supplémentaire d'assistance technique en direct (+40 €/h)",
-				'Pupitre moderne premium en méthacrylate/acrylique (+50 €)',
-				'Plateaux de scène modulables (+35 €/m²)'
+				"Heure supplémentaire d'assistance technique en direct (+{price:technicianHour}/h)",
+				'Pupitre moderne premium en méthacrylate/acrylique (+{price:lectern})',
+				'Plateaux de scène modulables (+{price:stagingPerSqm}/m²)'
 			],
 			seo: { title: 'MICE Pack : audiovisuel congrès et conférences à Malaga | MEG' },
 			landing: {
@@ -166,7 +166,7 @@ export default {
 		'service-areas': {
 			question: 'Où Malaga Event Gear (MEG) propose-t-il ses services ?',
 			answer:
-				'Bien que "Malaga" figure dans notre nom, nos services vont bien au-delà de la ville. Nous intervenons principalement sur toute la Costa del Sol : Malaga capitale, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena et Estepona. Nous desservons également Séville et Grenade, bien que Grenade nécessite généralement une réservation supérieure à 400 € en raison de la distance de déplacement hors province.'
+				'Bien que "Malaga" figure dans notre nom, nos services vont bien au-delà de la ville. Nous intervenons principalement sur toute la Costa del Sol : Malaga capitale, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena et Estepona. Nous desservons également Séville et Grenade, bien que Grenade nécessite généralement une réservation supérieure à {price:outOfProvinceMinimum} en raison de la distance de déplacement hors province.'
 		},
 		'what-makes-unique': {
 			question: "Qu'est-ce qui rend Malaga Event Gear (MEG) unique par rapport aux autres loueurs de matériel audiovisuel ?",
@@ -206,7 +206,7 @@ export default {
 		'on-site-technician': {
 			question: "Fournissez-vous un technicien sur place pendant l'événement ?",
 			answer:
-				"Oui. Plusieurs forfaits, comme le Wedding Pack et le MICE Pack complet, incluent un technicien dédié en direct qui assure le contrôle technique et l'assistance d'ingénierie tout au long de votre événement. Pour les forfaits où ce n'est pas inclus (par exemple le Basic MICE Pack), une assistance technique sur place peut être ajoutée en option à partir de 240 € par jour."
+				"Oui. Plusieurs forfaits, comme le Wedding Pack et le MICE Pack complet, incluent un technicien dédié en direct qui assure le contrôle technique et l'assistance d'ingénierie tout au long de votre événement. Pour les forfaits où ce n'est pas inclus (par exemple le Basic MICE Pack), une assistance technique sur place peut être ajoutée en option à partir de {price:technicianDay} par jour."
 		},
 		'equipment-brands': {
 			question: 'Avec quelles marques de matériel travaillez-vous ?',
@@ -241,7 +241,7 @@ export default {
 		'minimum-order-granada': {
 			question: 'Existe-t-il une commande minimum pour un service en dehors de la Costa del Sol ?',
 			answer:
-				"Sur la Costa del Sol, il n'y a pas de minimum particulier. Pour les destinations plus éloignées et hors province, comme Grenade, nous demandons une valeur de location minimum supérieure à 400 € pour couvrir le déplacement logistique en une journée. Nous desservons également Séville : contactez-nous pour confirmer les conditions propres à votre lieu."
+				"Sur la Costa del Sol, il n'y a pas de minimum particulier. Pour les destinations plus éloignées et hors province, comme Grenade, nous demandons une valeur de location minimum supérieure à {price:outOfProvinceMinimum} pour couvrir le déplacement logistique en une journée. Nous desservons également Séville : contactez-nous pour confirmer les conditions propres à votre lieu."
 		},
 		'customize-package': {
 			question: 'Puis-je personnaliser ou étendre un forfait selon mes besoins spécifiques ?',

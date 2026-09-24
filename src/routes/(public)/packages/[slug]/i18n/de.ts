@@ -15,7 +15,7 @@ export default {
 		},
 		areas: {
 			q: 'Welche Gebiete in Andalusien decken Sie ab?',
-			a: 'Wir bedienen Malaga Stadt, Marbella und die gesamte Costa del Sol täglich. Ebenso bedienen wir Sevilla und Granada (ab 400 € Bestellwert). Derzeit bieten wir keine Abholoption an, da wir ausschließlich mit Lieferung arbeiten.'
+			a: 'Wir bedienen Malaga Stadt, Marbella und die gesamte Costa del Sol täglich. Ebenso bedienen wir Sevilla und Granada (ab {price:outOfProvinceMinimum} Bestellwert). Derzeit bieten wir keine Abholoption an, da wir ausschließlich mit Lieferung arbeiten.'
 		},
 		rain: {
 			q: 'Was passiert bei Regen während einer Outdoor-Veranstaltung?',

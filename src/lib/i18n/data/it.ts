@@ -11,7 +11,7 @@ export default {
 				'2 barre luminose con fari LED RGBW',
 				'Cablaggio curato e installazione professionale'
 			],
-			optional: ['Proiettore e schermo di proiezione (+50€)', 'Macchina del fumo professionale (+20€)'],
+			optional: ['Proiettore e schermo di proiezione (+{price:projectorScreen})', 'Macchina del fumo professionale (+{price:smokeMachine})'],
 			seo: { title: 'Eco Pack: noleggio audio e luci economico a Malaga | MEG' },
 			landing: {
 				badge: 'Piccoli Eventi e Feste',
@@ -42,7 +42,7 @@ export default {
 				"Controllo tecnico dal vivo e supporto tecnico in loco durante l'evento",
 				"Smontaggio rapido e ritiro logistico dopo l'evento"
 			],
-			optional: ['Macchina del fumo professionale (+20€)'],
+			optional: ['Macchina del fumo professionale (+{price:smokeMachine})'],
 			seo: { title: 'Wedding Pack: noleggio audio e luci per matrimoni Malaga | MEG' },
 			landing: {
 				badge: 'Il Nostro Pacchetto per Celebrazioni Più Richiesto',
@@ -99,7 +99,7 @@ export default {
 				"1 microfono a collo d'oca professionale per podio/leggio",
 				'Trasporto logistico, allestimento e cablaggio curato'
 			],
-			optional: ['Assistente tecnico dedicato in loco (+240€/giorno)'],
+			optional: ['Assistente tecnico dedicato in loco (+{price:technicianDay}/giorno)'],
 			seo: { title: 'Basic MICE Pack: audiovisivi riunioni aziendali Malaga | MEG' },
 			landing: {
 				badge: 'Pacchetti Essenziali per Riunioni Dirigenziali',
@@ -129,9 +129,9 @@ export default {
 				"Consegna logistica, cablaggio personalizzato e smontaggio dopo l'evento"
 			],
 			optional: [
-				'Ora aggiuntiva di assistenza tecnica dal vivo (+40€/h)',
-				'Leggio moderno premium in metacrilato/acrilico (+50€)',
-				'Pedane modulari da palco (+35€ al metro quadro)'
+				'Ora aggiuntiva di assistenza tecnica dal vivo (+{price:technicianHour}/h)',
+				'Leggio moderno premium in metacrilato/acrilico (+{price:lectern})',
+				'Pedane modulari da palco (+{price:stagingPerSqm} al metro quadro)'
 			],
 			seo: { title: 'MICE Pack: audiovisivi congressi e conferenze Malaga | MEG' },
 			landing: {
@@ -166,7 +166,7 @@ export default {
 		'service-areas': {
 			question: 'Dove offre i suoi servizi Malaga Event Gear (MEG)?',
 			answer:
-				"Anche se 'Malaga' compare nel nostro nome, i nostri servizi vanno ben oltre la città. Operiamo principalmente in tutta la Costa del Sol, tra cui Malaga capitale, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena ed Estepona. Serviamo anche Siviglia e Granada, anche se Granada richiede generalmente prenotazioni superiori a 400€ per via della distanza fuori provincia."
+				"Anche se 'Malaga' compare nel nostro nome, i nostri servizi vanno ben oltre la città. Operiamo principalmente in tutta la Costa del Sol, tra cui Malaga capitale, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena ed Estepona. Serviamo anche Siviglia e Granada, anche se Granada richiede generalmente prenotazioni superiori a {price:outOfProvinceMinimum} per via della distanza fuori provincia."
 		},
 		'what-makes-unique': {
 			question: 'Cosa rende unica Malaga Event Gear (MEG) rispetto ad altre aziende di noleggio audiovisivo?',
@@ -206,7 +206,7 @@ export default {
 		'on-site-technician': {
 			question: "Fornite un tecnico in loco durante l'evento?",
 			answer:
-				"Sì. Diversi pacchetti, come il Wedding Pack e il MICE Pack completo, includono un tecnico dedicato dal vivo che si occupa del controllo tecnico e del supporto ingegneristico durante tutto l'evento. Per i pacchetti in cui non è incluso (ad esempio il Basic MICE Pack), l'assistenza tecnica in loco può essere aggiunta come opzione a partire da 240€ al giorno."
+				"Sì. Diversi pacchetti, come il Wedding Pack e il MICE Pack completo, includono un tecnico dedicato dal vivo che si occupa del controllo tecnico e del supporto ingegneristico durante tutto l'evento. Per i pacchetti in cui non è incluso (ad esempio il Basic MICE Pack), l'assistenza tecnica in loco può essere aggiunta come opzione a partire da {price:technicianDay} al giorno."
 		},
 		'equipment-brands': {
 			question: 'Con quali marchi di attrezzature lavorate?',
@@ -241,7 +241,7 @@ export default {
 		'minimum-order-granada': {
 			question: "C'è un ordine minimo per il servizio fuori dalla Costa del Sol?",
 			answer:
-				"All'interno della Costa del Sol non c'è un minimo particolare. Per destinazioni più lontane e fuori provincia come Granada, richiediamo un valore di noleggio minimo superiore a 400€ per coprire lo spostamento logistico in giornata. Serviamo anche Siviglia: contattaci per confermare le condizioni per la tua località specifica."
+				"All'interno della Costa del Sol non c'è un minimo particolare. Per destinazioni più lontane e fuori provincia come Granada, richiediamo un valore di noleggio minimo superiore a {price:outOfProvinceMinimum} per coprire lo spostamento logistico in giornata. Serviamo anche Siviglia: contattaci per confermare le condizioni per la tua località specifica."
 		},
 		'customize-package': {
 			question: 'Posso personalizzare o estendere un pacchetto per le mie esigenze specifiche?',

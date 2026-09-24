@@ -15,7 +15,7 @@ export default {
 		},
 		areas: {
 			q: 'Hvilke områder dekker dere i Andalucía?',
-			a: 'Vi betjener Malaga by, Marbella og hele Costa del Sol daglig. Vi betjener også Sevilla og Granada (for bestillinger over 400 €). Vi tilbyr for tiden ikke selvhenting, siden vi kun jobber med levering.'
+			a: 'Vi betjener Malaga by, Marbella og hele Costa del Sol daglig. Vi betjener også Sevilla og Granada (for bestillinger over {price:outOfProvinceMinimum}). Vi tilbyr for tiden ikke selvhenting, siden vi kun jobber med levering.'
 		},
 		rain: {
 			q: 'Hva skjer hvis det regner under et utendørs arrangement?',
