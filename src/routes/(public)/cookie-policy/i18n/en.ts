@@ -26,7 +26,7 @@ const copy = {
 				body: 'We utilize Google Analytics and Google Search Console to monitor traffic, diagnostic bottlenecks, search query parameters, and site speed. All collected data is strictly aggregated and pseudonymized.'
 			},
 			{
-				title: 'Third-Party Verification Cookies',
+				title: 'Third Party Verification Cookies',
 				body: 'To display authentic customer testimonials verified directly from Google My Business, we integrate Trustindex. Trustindex may place cookies to track and validate review widgets dynamically.'
 			}
 		]

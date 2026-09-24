@@ -12,7 +12,7 @@ const copy = {
     benefits: {
         delivery: 'Free setup & delivery (Malaga & Costa del Sol)',
         brands: 'Premium brands (HK Audio, Audix, Midas)',
-        support: 'On-site technical support available'
+        support: 'On site technical support available'
     },
     faqs: {
         delivery: {
@@ -21,15 +21,15 @@ const copy = {
         },
         areas: {
             q: 'What areas do you cover in Andalusia?',
-            a: 'We serve Malaga capital, Marbella, and the entire Costa del Sol daily. We also service Seville and Granada (for orders over 400€). We currently do not offer pickup options since we operate on a delivery-only model.'
+            a: 'We serve Malaga capital, Marbella, and the entire Costa del Sol daily. We also service Seville and Granada (for orders over 400€). We currently do not offer pickup options since we operate on a delivery only model.'
         },
         rain: {
             q: 'What happens if it rains for an outdoor event?',
-            a: 'If your event is outdoors, we require a covered area (tents, pergolas) to protect the electrical equipment. In case of rain without cover, we will work with you to relocate the gear indoors. Safety of guests and protection of high-voltage gear is our top priority.'
+            a: 'If your event is outdoors, we require a covered area (tents, pergolas) to protect the electrical equipment. In case of rain without cover, we will work with you to relocate the gear indoors. Safety of guests and protection of high voltage gear is our top priority.'
         },
         technician: {
             q: 'What happens if I need a technician during my event?',
-            a: 'Our premium packages (like the {wedding} and {mice}) already include on-site technical monitoring. For other packages, you can request a dedicated sound/light engineer to stay at your venue for a stress-free experience.'
+            a: 'Our premium packages (like the {wedding} and {mice}) already include on site technical monitoring. For other packages, you can request a dedicated sound/light engineer to stay at your venue for a stress free experience.'
         }
     },
     popularBadge: 'Most Popular',

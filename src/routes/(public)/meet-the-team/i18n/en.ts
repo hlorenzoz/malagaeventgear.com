@@ -9,7 +9,7 @@ const copy = {
 		badge: 'Who is Behind MEG',
 		title: 'Meet The Team',
 		intro:
-			'Meet the talented specialists at Malaga Event Gear. From setup to real-time engineering, we guarantee a stress-free experience.'
+			'Meet the talented specialists at Malaga Event Gear. From setup to real time engineering, we guarantee a stress free experience.'
 	},
 	technical: {
 		title: 'Technical Personnel',
@@ -22,11 +22,11 @@ const copy = {
 		body: 'Our sales team guides you through selecting the ideal package and assists with receiving your custom quote to finalize your booking.'
 	},
 	hector: {
-		role: 'SEO Specialist & Co-founder',
+		role: 'SEO Specialist & Cofounder',
 		bio: "SEO specialist who applies his expertise to strengthen the company's digital presence and attract clients through effective search engine driven strategies.",
 		linkedinLabel: 'LinkedIn profile',
 		personDescription:
-			'Hector Luis Lorenzo is a SEO specialist with more than two years of experience helping brands grow their online visibility. He is the co-founder of Malaga Event Gear.'
+			'Hector Luis Lorenzo is a SEO specialist with more than two years of experience helping brands grow their online visibility. He is the cofounder of Malaga Event Gear.'
 	}
 };
 

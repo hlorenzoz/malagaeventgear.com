@@ -16,12 +16,12 @@ const copy = {
 	},
 	scope: {
 		title: 'Scope of Service & Offerings',
-		p1: 'We specialize in offering high-fidelity active acoustic PA systems, professional lighting solutions (LED light bars, a zoom Fresnel spotlight and a wireless uplighting kit), high-lumen projection units, microphones (wired, wireless, gooseneck), fog machines, and stage platforms.',
-		p2: 'Many of our packages, such as the Wedding Pack and MICE Pack, include transport, professional installation, on-site live technical support, and post-event breakdown for a completely stress-free experience.'
+		p1: 'We specialize in offering high fidelity active acoustic PA systems, professional lighting solutions (LED light bars, a zoom Fresnel spotlight and a wireless uplighting kit), high lumen projection units, microphones (wired, wireless, gooseneck), fog machines, and stage platforms.',
+		p2: 'Many of our packages, such as the Wedding Pack and MICE Pack, include transport, professional installation, on site live technical support, and post event breakdown for a completely stress free experience.'
 	},
 	limits: {
 		title: 'Geographical & Operational Limits',
-		p1: 'Our services are primarily concentrated in Malaga province and the Costa del Sol (including Malaga capital, Marbella, Fuengirola, Torremolinos, Estepona, Sevilla, and adjacent areas). Service to Granada is available only for packages exceeding 400.00 € due to out-of-province single-day travel overhead.',
+		p1: 'Our services are primarily concentrated in Malaga province and the Costa del Sol (including Malaga capital, Marbella, Fuengirola, Torremolinos, Estepona, Sevilla, and adjacent areas). Service to Granada is available only for packages exceeding 400.00 € due to out of province single day travel overhead.',
 		p2: 'Malaga Event Gear operates 7 days a week, from 8:00 AM to 8:00 PM for commercial inquiries, and 24/7 for technical logistics and setup support.',
 		p3: 'To guarantee absolute technical accuracy for our international audience, all communication, documentation, and interface bookings are conducted in English or Spanish.'
 	},
@@ -32,7 +32,7 @@ const copy = {
 	},
 	obligations: {
 		title: 'Client Obligations & Equipment Responsibility',
-		body: 'The client is responsible for ensuring venue access and necessary power outlets are available at the scheduled location and time. The client acknowledges that they are renting high-quality, professional gear, and must ensure the safety and physical integrity of the equipment during the agreed rental timeline.'
+		body: 'The client is responsible for ensuring venue access and necessary power outlets are available at the scheduled location and time. The client acknowledges that they are renting high quality, professional gear, and must ensure the safety and physical integrity of the equipment during the agreed rental timeline.'
 	}
 };
 

@@ -3,7 +3,7 @@ const copy = {
 	seo: {
 		title: 'Expert Audiovisual & Events Blog | Malaga Event Gear',
 		description:
-			'Read expert insights on high-fidelity sound, romantic wedding lighting, conference projector setups, and professional event gear in Malaga.'
+			'Read expert insights on high fidelity sound, romantic wedding lighting, conference projector setups, and professional event gear in Malaga.'
 	},
 	schema: {
 		name: 'Audiovisual & Events Blog | MEG',

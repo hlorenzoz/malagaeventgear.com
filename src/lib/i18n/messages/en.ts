@@ -53,7 +53,7 @@ const en = {
 		titlePart1: 'Audio Visual',
 		titleGradient: 'Equipment Hire Service',
 		titlePart2: 'in Malaga',
-		subtitle: 'Experience crystal-clear sound and stunning lighting with our premium equipment. Perfect for weddings, corporate events, and exclusive parties on the Costa del Sol.',
+		subtitle: 'Experience crystal clear sound and stunning lighting with our premium equipment. Perfect for weddings, corporate events, and exclusive parties on the Costa del Sol.',
 		viewPricing: 'View Pricing',
 		contactUs: 'Contact Us'
 	},
@@ -63,18 +63,18 @@ const en = {
 		card1Text: 'Dedicated technical support to ensure your event runs smoothly from start to finish without any worries.',
 		card2Title: '#2 Tailored Packages',
 		card2Text: 'Flexible rental packages designed to perfectly fit any event size, venue, and budget.',
-		card3Title: '#3 Cutting-Edge Tech',
-		card3Text: 'Enjoy state-of-the-art audiovisual gear that elevates the visual and sound quality of your production.'
+		card3Title: '#3 Cutting Edge Tech',
+		card3Text: 'Enjoy state of the art audiovisual gear that elevates the visual and sound quality of your production.'
 	},
 	// Overview (At a Glance: answer-engine optimization)
 	overview: {
 		badge: 'At a Glance',
 		sellQ: 'What do we sell?',
-		sellA: 'We rent premium audiovisual equipment (professional sound systems, stage lighting, projectors and screens) for events across Malaga and the Costa del Sol, including delivery, setup and on-site technical support.',
+		sellA: 'We rent premium audiovisual equipment (professional sound systems, stage lighting, projectors and screens) for events across Malaga and the Costa del Sol, including delivery, setup and on site technical support.',
 		whoQ: 'Who is it for?',
 		whoA: 'Couples planning weddings, companies running conferences and corporate events, and anyone hosting a party or private celebration who wants flawless sound and lighting without buying the gear.',
 		costQ: 'What does it cost?',
-		costA: 'fixed-price packages with no hidden fees, scaled to your event size, plus tailored quotes for larger productions.',
+		costA: 'fixed price packages with no hidden fees, scaled to your event size, plus tailored quotes for larger productions.',
 		costFrom: 'From',
 		howQ: 'How does it work?',
 		howA: 'Four simple steps: pick your package, request a quote, we confirm and prepare your gear, and our team delivers and sets everything up on the day of your event.'
@@ -91,13 +91,13 @@ const en = {
 		badge: 'Premium Gear',
 		title: 'Available Categories',
 		soundTitle: 'Sound Systems',
-		soundText: 'Crystal-clear high-fidelity sound, ideal for intimate weddings or large corporate conferences. We work with leading brands to ensure the highest acoustic fidelity.',
+		soundText: 'Crystal clear high fidelity sound, ideal for intimate weddings or large corporate conferences. We work with leading brands to ensure the highest acoustic fidelity.',
 		lightTitle: 'Lighting',
 		lightText: 'Dynamic lighting solutions to create the perfect atmosphere in your venue space.',
 		visualTitle: 'Projectors & Screens',
-		visualText: 'Sharp, high-definition visuals for presentations with high visual impact.',
+		visualText: 'Sharp, high definition visuals for presentations with high visual impact.',
 		fxTitle: 'Special Effects & Fog Machines',
-		fxText: 'Create a stunning atmosphere at your event with our professional-grade special effects and fog machines.',
+		fxText: 'Create a stunning atmosphere at your event with our professional grade special effects and fog machines.',
 		bookEquipment: 'Book Packages'
 	},
 	// Pricing
@@ -128,7 +128,7 @@ const en = {
 		capacity: 'Event Scale',
 		price: 'Budget',
 		equipment: 'Equipment Included',
-		extras: 'Optional Add-ons',
+		extras: 'Optional Extras',
 		sortBy: 'Sort By',
 		party: 'Parties',
 		wedding: 'Weddings',
@@ -186,7 +186,7 @@ const en = {
 		formErrorSubmit: 'Something went wrong sending your request. Please try again or email us directly.',
 		formErrorTurnstile: 'Security verification failed. Please try again.',
 		formErrorRateLimited: 'Too many requests. Please wait a few minutes and try again.',
-		lockedFieldNote: "Auto-generated from an error. This field can't be edited.",
+		lockedFieldNote: "Automatically generated from an error. This field can't be edited.",
 		errorPrefillMessage:
 			'Hi, I submitted a package request on your website but the confirmation email failed to send. Could you please confirm you received my enquiry? Reference: {ref}',
 		errorDetailsHeader: 'Submitted details:',
@@ -213,7 +213,7 @@ const en = {
 	packages: {
 		badge: 'Featured Packages',
 		title: 'Choose Your Perfect Pack',
-		subtitle: 'Tailored for every occasion. All packages include transport, setup, and on-site technical support.',
+		subtitle: 'Tailored for every occasion. All packages include transport, setup, and on site technical support.',
 		enquire: 'Get a Quote'
 	},
 	// How It Works
@@ -232,7 +232,7 @@ const en = {
 	// Pricing Preview
 	pricingPreview: {
 		badge: 'Transparent Pricing',
-		title: 'Simple, All-Inclusive Pricing',
+		title: 'Simple, All Inclusive Pricing',
 		subtitle: 'No hidden fees. Transport, setup, and technical support always included.',
 		viewAll: 'View All Packages'
 	},

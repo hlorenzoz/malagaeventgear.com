@@ -9,22 +9,22 @@ const copy = {
     seo: {
         title: 'Premium Audiovisual Equipment Rental Catalog | MEG',
         description:
-            'Explore our high-quality inventory of professional sound systems, dynamic lighting, high-definition projectors, and special effects. Premium equipment in Malaga.'
+            'Explore our high quality inventory of professional sound systems, dynamic lighting, high definition projectors, and special effects. Premium equipment in Malaga.'
     },
     schema: {
         listName: 'Audiovisual Equipment Rental Catalog - Malaga Event Gear'
     },
     hero: {
-        badge: 'Cutting-Edge Tech',
+        badge: 'Cutting Edge Tech',
         titlePart1: 'Elevate your Event with',
         titlePart2: 'Premium Equipment',
         subtitle:
-            'Explore our catalog of high-fidelity sound, spectacular lighting, and special effects. We have the perfect tools to make your celebration unforgettable.'
+            'Explore our catalog of high fidelity sound, spectacular lighting, and special effects. We have the perfect tools to make your celebration unforgettable.'
     },
     featured: {
         imageAlt: 'MICE Audiovisual Pack Setup for Meetings',
         badge: 'Featured Pack',
-        desc: 'Ideal for conferences and corporate events. The MICE Pack includes a 60-inch LED screen, premium audiovisual gear, tabletop and wireless microphones, and up to 6 hours of on-site technical support to ensure your presentation runs flawlessly.',
+        desc: 'Ideal for conferences and corporate events. The MICE Pack includes a 60 inch LED screen, premium audiovisual gear, tabletop and wireless microphones, and up to 6 hours of on site technical support to ensure your presentation runs flawlessly.',
         spec1: '60" LED Screen',
         spec2: 'Wireless Audio',
         spec3: 'Technical Support Included',
