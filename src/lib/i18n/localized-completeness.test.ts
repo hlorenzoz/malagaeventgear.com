@@ -3,6 +3,7 @@ import { packages } from '$lib/data/packages';
 import { faqs } from '$lib/data/faq';
 import { STATIC_SITEMAP_PAGES, getStaticPageFreshness } from '$lib/utils/sitemap';
 import { PAGE_LOCALES } from './availability';
+import { LOCALES } from './locales';
 import type { DataCopy } from './data-copy';
 
 /**
@@ -29,8 +30,11 @@ function leaves(value: unknown, path = ''): string[] {
 	return [];
 }
 
-describe('published locales are complete', () => {
-	const published = PAGE_LOCALES.filter((l) => l !== 'en');
+describe('published and in-progress locales are complete', () => {
+	// Every published locale, plus every locale whose translation has started (it has a UI
+	// dictionary): a half translated locale must never reach a commit.
+	const started = LOCALES.filter((l) => l !== 'en' && dictionaries[`./messages/${l}.ts`]);
+	const published = [...new Set([...PAGE_LOCALES.filter((l) => l !== 'en'), ...started])];
 
 	it('lists English as published', () => {
 		expect(PAGE_LOCALES).toContain('en');
