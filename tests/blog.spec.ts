@@ -43,7 +43,7 @@ test.describe('Blog Index (/blog/)', () => {
 			'Corporate AV',
 			'Sound Acoustics',
 			'Scenic Lights',
-			'Laser Projection',
+			'Projection',
 			'Private Parties'
 		]) {
 			await expect(section.getByText(label, { exact: true })).toBeVisible();
