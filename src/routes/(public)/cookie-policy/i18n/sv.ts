@@ -1,0 +1,41 @@
+import type { Copy } from './en';
+
+export const updated = '2026-09-24';
+
+export default {
+	seo: {
+		title: 'Cookiepolicy | Malaga Event Gear (MEG)',
+		description:
+			'Förstå hur Malaga Event Gear använder cookies och spårningsteknik för att optimera webbplatsens användbarhet och analysera prestanda.'
+	},
+	hero: {
+		badge: 'Spårning och användbarhet',
+		title: 'Cookiepolicy',
+		effectiveDate: 'Gäller från: 16 oktober 2025'
+	},
+	whatAreCookies: {
+		title: 'Vad är cookies?',
+		body: 'Cookies är små textfiler som placeras på din enhet när du besöker vår webbplats. De hjälper webbplatsen att fungera mer effektivt, gör att vi kan spara dina språkinställningar (t.ex. EN/ES) och ger vårt team anonym analytisk data.'
+	},
+	categories: {
+		title: 'Kategorier av cookies vi använder',
+		items: [
+			{
+				title: 'Nödvändiga och tekniska cookies',
+				body: 'Absolut nödvändiga för grundläggande navigering, säkerhet och att språkval sparas mellan besök. De kan inte stängas av.'
+			},
+			{
+				title: 'Analys- och prestandacookies',
+				body: 'Vi använder Google Analytics och Google Search Console för att övervaka trafik, felsöka flaskhalsar, söktermer och sidhastighet. All insamlad data är strikt aggregerad och pseudonymiserad.'
+			},
+			{
+				title: 'Tredjeparts verifieringscookies',
+				body: 'För att visa äkta kundrecensioner verifierade direkt från Google My Business integrerar vi Trustindex. Trustindex kan placera cookies för att spåra och dynamiskt validera recensionswidgetar.'
+			}
+		]
+	},
+	managing: {
+		title: 'Hantera dina inställningar',
+		body: 'Du kan enkelt avböja eller blockera cookies via dina individuella webbläsarinställningar. Observera dock att begränsning av alla cookies kan påverka tillgången till avancerade funktioner, till exempel automatisk ifyllnad av formulär eller sparade språkval.'
+	}
+} satisfies Copy;
