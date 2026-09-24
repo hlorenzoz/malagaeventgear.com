@@ -7,6 +7,11 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Removed (i18n-no-spanish)
+- **El sitio no tendra version en espanol** (decision del usuario, 2026-09-24, tarde), que revierte la de la manana de sumar `/es/`. Quedan 13 idiomas: ingles y 12 bajo prefijo. Se borro `es` de `LOCALES`, su mapa de contenido, su diccionario, su copia de paquetes y FAQ y las 17 copias de pagina `i18n/es.ts`. Tambien la rama espanola de `formatPrice` y de la lista de paquetes de la FAQ, la traduccion al espanol de una resena, el slogan en espanol (sin uso, y en voseo) y los ternarios en espanol de `/map`.
+- **Se mantiene** lo que es atencion al cliente, no contenido del sitio: MEG atiende en ingles y espanol (`siteConfig.serviceLanguages`, el aviso en las paginas de otros idiomas y las plantillas de email en espanol para un lead con navegador en espanol). Las resenas originales en espanol se siguen citando textuales.
+- `CLAUDE.md`, `docs/CLAUDE.md`, `openspec/config.yaml` y `keyword-silo-map.md` actualizados a 13 idiomas, con el cambio de decision registrado.
+
 ### Changed (i18n-page-copy) - Fase 3, extraccion
 - **Copia de cada pagina en `<ruta>/i18n/<locale>.ts`** (ingles `en.ts` como fuente, espanol `es.ts`, cada traduccion con su propia fecha `updated`), cargada por el `+page.ts` de la ruta solo en el idioma de la pagina. Migradas: home, about-us, contact, equipment, packages, packages/[slug], faq, meet-the-team, sitemap HTML, las 4 legales y el chrome del blog (indice, categorias, categoria, autor). Componentes compartidos (footer, lead form, share, tarjeta de post, click to tweet, WhatsApp, mapa, layout de post, pagina de error) al diccionario global. Cero ternarios `i18n.lang === ...`.
 - **Enlaces internos** por `i18n.href(...)` y URLs de JSON-LD de pagina por `i18n.absolute(...)` con `inLanguage`.

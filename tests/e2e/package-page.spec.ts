@@ -69,15 +69,14 @@ test.describe('Package detail page — CRO layout (Phase 1)', () => {
 		await expect(footer).toBeVisible();
 	});
 
-	test('the Spanish package page renders Spanish text in the form', async ({ page }) => {
-		// The language comes from the URL (/es/...), not from localStorage. Skips until es ships.
-		test.skip(!PUBLISHED_LOCALES.includes('es'), 'Spanish is not published yet');
-		await page.goto((await localized('es', PACKAGE_URL))!);
+	test('a localized package page renders the form in its own language', async ({ page }) => {
+		// The language comes from the URL, not from localStorage. Skips while only English is live.
+		const locale = PUBLISHED_LOCALES[0];
+		test.skip(!locale, 'no published locale besides English');
+		const messages = (await import(`../../src/lib/i18n/messages/${locale}.ts`)).default;
+		await page.goto((await localized(locale, PACKAGE_URL))!);
 		await page.waitForLoadState('load');
-
-		// The submit button should show Spanish copy
-		const submitBtn = page.locator('#lead-form form button[type="submit"]');
-		await expect(submitBtn).toHaveText(/verificar/i);
+		await expect(page.locator('#lead-form form button[type="submit"]')).toHaveText(messages.leadForm.submitBtn);
 	});
 
 	test('should display visual CRO features (Hero benefits, Process Timeline, FAQs)', async ({ page }) => {

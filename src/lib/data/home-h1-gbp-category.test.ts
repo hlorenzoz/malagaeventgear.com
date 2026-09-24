@@ -1,7 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { siteConfig } from './site';
 import en from '../i18n/messages/en';
-import es from '../i18n/messages/es';
 import homeCopy from '../../routes/(public)/i18n/en';
 
 /**
@@ -52,15 +51,7 @@ describe('home title and h1 carry the GBP primary category', () => {
 		expect(title.length).toBeLessThanOrEqual(60);
 	});
 
-	it('the ES <h1> renders the same service and keeps the location last', () => {
-		const title = heroTitle(es);
-		expect(title).toMatch(/Audiovisual/i);
-		expect(title).toMatch(/Alquiler/i);
-		expect(title).toMatch(/en Málaga$/);
-	});
-
 	it('no <h1> carries the brand suffix, which belongs to <title> only', () => {
 		expect(heroTitle(en)).not.toContain('|');
-		expect(heroTitle(es)).not.toContain('|');
 	});
 });

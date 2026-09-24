@@ -7,7 +7,6 @@
  */
 export const LOCALES = [
 	'en',
-	'es',
 	'fr',
 	'it',
 	'de',
@@ -49,7 +48,6 @@ export interface LocaleMeta {
 
 export const LOCALE_META: Record<Locale, LocaleMeta> = {
 	en: { htmlLang: 'en', hreflang: ['en', 'x-default'], ogLocale: 'en_US', intl: 'en-GB', nativeName: 'English', short: 'EN', script: 'latin' },
-	es: { htmlLang: 'es', hreflang: ['es'], ogLocale: 'es_ES', intl: 'es-ES', nativeName: 'Español', short: 'ES', script: 'latin' },
 	fr: { htmlLang: 'fr', hreflang: ['fr'], ogLocale: 'fr_FR', intl: 'fr-FR', nativeName: 'Français', short: 'FR', script: 'latin' },
 	it: { htmlLang: 'it', hreflang: ['it'], ogLocale: 'it_IT', intl: 'it-IT', nativeName: 'Italiano', short: 'IT', script: 'latin' },
 	de: { htmlLang: 'de', hreflang: ['de'], ogLocale: 'de_DE', intl: 'de-DE', nativeName: 'Deutsch', short: 'DE', script: 'latin' },

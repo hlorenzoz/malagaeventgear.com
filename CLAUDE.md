@@ -15,20 +15,19 @@
 
 2. **Creación / actualización de contenido**
 
-3. **Sitio multilingüe**: publicar todo el sitio en los 14 idiomas de
+3. **Sitio multilingüe**: publicar todo el sitio en los 13 idiomas de
    [Idiomas soportados](#idiomas-soportados).
 
 ---
 
 ## Idiomas soportados
 
-El sitio se publica en **14 idiomas** (decisión del usuario, 2026-09-24). El inglés es la versión
+El sitio se publica en **13 idiomas** (decisión del usuario, 2026-09-24). El inglés es la versión
 base y vive en la raíz. Cada uno de los demás idiomas vive bajo su propio prefijo de URL.
 
 | Locale | Idioma (nombre nativo) | Prefijo URL | Valores hreflang |
 | :--- | :--- | :--- | :--- |
 | `en` | English | (raíz) | `en`, `x-default` |
-| `es` | Español | `/es/` | `es` |
 | `fr` | Français | `/fr/` | `fr` |
 | `it` | Italiano | `/it/` | `it` |
 | `de` | Deutsch | `/de/` | `de` |
@@ -41,6 +40,12 @@ base y vive en la raíz. Cada uno de los demás idiomas vive bajo su propio pref
 | `zh-hans` | 简体中文 | `/zh-hans/` | `zh-Hans`, `zh` |
 | `zh-tw` | 繁體中文 (台灣) | `/zh-tw/` | `zh-Hant-TW`, `zh-Hant` |
 | `zh-hk` | 繁體中文 (香港) | `/zh-hk/` | `zh-Hant-HK` |
+
+**Sin español (decisión del usuario, 2026-09-24, tarde).** El sitio NO tiene versión en español.
+Esa misma mañana se había decidido sumarlo con `/es/`, y se revirtió. No existe `es` en `LOCALES`
+ni hay copia en español en ningún lado. MEG igual ATIENDE en español (ver "Hechos del negocio"):
+eso es atención al cliente, no contenido del sitio. Volver a sumar el español es una decisión
+explícita y fechada del usuario, como cualquier otro idioma.
 
 El portugués de Portugal y el de Brasil tienen **contenido propio cada uno**, no una copia con
 otra etiqueta. Las tres variantes de chino cubren a cualquier lector chino, venga de donde venga.
@@ -55,7 +60,7 @@ su contenido está traducido: la lista de idiomas publicados es `PAGE_LOCALES` e
 | 0 | Documentación (este archivo) | hecha |
 | 1 | Mapa de contenido (keyword, URL) por idioma | hecha para páginas, paquetes y categorías. Los posts se mapean en cada lote de la Fase 4 |
 | 2 | Infraestructura de URLs por idioma, hreflang y sitemaps | hecha |
-| 3 | Páginas principales y paquetes en los 14 idiomas | pendiente |
+| 3 | Páginas principales y paquetes en los 13 idiomas | pendiente |
 | 4 | Posts del blog, por lotes de silo | pendiente |
 
 Todo lo marcado **"(pendiente, Fase N)"** en este archivo describe el objetivo, no lo que existe.
@@ -64,17 +69,17 @@ cerrada con este archivo desactualizado.
 
 ### Reglas mandatorias de idioma
 
-1. **Todo contenido nuevo se crea en los 14 idiomas, en el mismo cambio.** Vale para páginas,
+1. **Todo contenido nuevo se crea en los 13 idiomas, en el mismo cambio.** Vale para páginas,
    paquetes, posts, FAQ, copy de UI y el texto de las imágenes. Un contenido no se publica hasta
    tener sus 14 versiones. Para páginas y paquetes lo impone
    `src/lib/i18n/localized-completeness.test.ts`: cada idioma de `PAGE_LOCALES` tiene su
    diccionario, su copia de paquetes y FAQ con la misma forma que el inglés, y fecha propia en
    cada página y paquete. Para posts, el guard llega con la Fase 4 y controla por fecha de corte,
    nunca con un allowlist.
-2. **Toda edición de contenido inglés se propaga a los 13 idiomas restantes en el mismo cambio.**
+2. **Toda edición de contenido inglés se propaga a los 12 idiomas restantes en el mismo cambio.**
    Cada traducción guarda en `sourceUpdated` la fecha de la versión inglesa que tradujo, y la
    suite falla si el inglés es más nuevo (pendiente, Fase 4). Un arreglo como el de Shure a Audix
-   no puede quedar corregido en inglés y desactualizado en otros 13 idiomas.
+   no puede quedar corregido en inglés y desactualizado en otros 12 idiomas.
 3. **Agregar o quitar un idioma es una decisión explícita del usuario, con fecha**, igual que
    crear una categoría del blog. Ningún agente lo decide por su cuenta.
 
@@ -83,7 +88,7 @@ cerrada con este archivo desactualizado.
 - **MEG atiende solo en inglés y español.** Toda página en otro idioma lo aclara en su propio
   idioma, en la página de contacto y junto al formulario (en alemán, por ejemplo: "Wir antworten
   auf Englisch oder Spanisch"). `LocalBusiness` declara `availableLanguage` solo con `en` y `es`.
-  Los emails transaccionales salen en español para `es` y en inglés para cualquier otro idioma.
+  Los emails transaccionales salen en inglés, salvo a un lead cuyo navegador está en español.
   **Nunca prometer atención en otro idioma.**
 - **Páginas legales: prevalece la versión inglesa.** Cada traducción de privacy, terms, gdpr y
   cookie lo dice arriba de todo, en su idioma, con enlace a la versión inglesa.
@@ -138,7 +143,7 @@ este resumen.
 | Precache del PWA | `vite.config.ts`: lista explícita (home, paquetes y `/map` en inglés). Páginas traducidas y el blog en todos los idiomas quedan FUERA del precache |
 
 Cada idioma carga su diccionario, su mapa y su copia de datos como chunks propios: una página
-nunca descarga los otros 13 idiomas. Por eso la copia traducida NO va dentro de `packages.ts`.
+nunca descarga los otros 12 idiomas. Por eso la copia traducida NO va dentro de `packages.ts`.
 
 - **Subdirectorios por idioma**, con el inglés en la raíz y sin cambios de URL. Verificado el
   2026-09-24: Google nunca indexó URLs en español ni en otro idioma (WordPress era solo inglés y
@@ -380,7 +385,7 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
 
 - **Build**: `bun run build` (= `wrangler types` + `bun scripts/fix-types.ts` + `vite build`).
   El HTML prerenderizado aterriza en **`.svelte-kit/cloudflare/`** (93 archivos `.html` en el build
-  revisado el 2026-09-24, unos 1.400 cuando el sitio esté en los 14 idiomas).
+  revisado el 2026-09-24, unos 1.300 cuando el sitio esté en los 13 idiomas).
   Preview de producción: `bun run preview` (puerto 4173). Dev: puerto 5173. NO es `out/` ni
   `dist/`, y NO se asume `bun run build` sin los pasos de `wrangler types` / `fix-types.ts`.
 - **Fuentes únicas de verdad**:
@@ -412,7 +417,7 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
   - Address: `Av. de Barcelona, 34, Distrito Centro, 29009 Málaga`
   - Phone: `666 346 911`
 - **Idiomas de atención al cliente**: solo inglés y español (confirmado por el negocio el
-  2026-09-24), aunque el sitio se publique en 14 idiomas. Ver [Idiomas soportados](#idiomas-soportados).
+  2026-09-24), aunque el sitio se publique en 13 idiomas (el español NO es uno de ellos). Ver [Idiomas soportados](#idiomas-soportados).
 - **GBP**: categoría primaria `Audio Visual Equipment Hire Service` (primera de
   `siteConfig.categories`; confirmar contra la ficha viva antes de trabajo de estructura);
   secundarias: `Party equipment rental service`, `Stage lighting equipment supplier`,
@@ -522,12 +527,12 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
 - Las lecturas de archivos mdsvex (.svx) se harán estrictamente en tiempo de compilación (Prerendering) utilizando las importaciones de Vite (`import.meta.glob`).
 
 ### 4. Flujo de Trabajo y Estilo
-- **Idiomas:** el código fuente (variables, funciones, componentes) se escribe en inglés. La interfaz y el contenido públicos se publican en los 14 idiomas de [Idiomas soportados](#idiomas-soportados), con el inglés como versión base (la infraestructura existe y cada idioma se publica al completar su traducción, ver `PAGE_LOCALES`). La estructura de traducción tiene que ser compatible con Cloudflare Workers. Los comentarios, la documentación y los commits pueden seguir escribiéndose en español.
+- **Idiomas:** el código fuente (variables, funciones, componentes) se escribe en inglés. La interfaz y el contenido públicos se publican en los 13 idiomas de [Idiomas soportados](#idiomas-soportados), con el inglés como versión base (la infraestructura existe y cada idioma se publica al completar su traducción, ver `PAGE_LOCALES`). La estructura de traducción tiene que ser compatible con Cloudflare Workers. Los comentarios, la documentación y los commits pueden seguir escribiéndose en español.
 - **Código conciso:** Evita reescribir funciones enteras si solo cambian dos líneas. Proporciona el fragmento modificado e indica dónde insertarlo.
 - No inventes dependencias ni generes contenido de relleno ("Lorem Ipsum") a menos que se te solicite explícitamente para una maqueta.
 
 ### 5. Creación y Actualización de Contenido (Blog / SEO)
-- **Idiomas:** todo contenido que se crea o actualiza se hace en los 14 idiomas soportados, en el mismo cambio (ver [Reglas mandatorias de idioma](#reglas-mandatorias-de-idioma)). La keyword de cada idioma sale de `content-map.ts`, nunca de traducir la keyword inglesa. En una página de otro idioma, las reseñas se muestran como indica [Internacionalización (i18n)](#internacionalización-i18n).
+- **Idiomas:** todo contenido que se crea o actualiza se hace en los 13 idiomas soportados, en el mismo cambio (ver [Reglas mandatorias de idioma](#reglas-mandatorias-de-idioma)). La keyword de cada idioma sale de `content-map.ts`, nunca de traducir la keyword inglesa. En una página de otro idioma, las reseñas se muestran como indica [Internacionalización (i18n)](#internacionalización-i18n).
 - Las pautas de redacción, estrategias de contenido anti-AI-slop, el framework de optimización E-E-A-T y la resolución de los **5 Errores Críticos que Matan el Tráfico** se encuentran detallados en **[SEO.md](file:///Users/hlorenzoz/databank/Development/%5BMEG%20-%20Malaga%20Event%20Gear%20%28malagaeventgear.com%29%5D/projects/website/SEO.md)**. Es obligatorio que el desarrollador/redactor los siga rigurosamente para cualquier publicación o contenido comercial.
 - **Reseñas reales de Google (E-E-A-T - Experience/Trust):** al crear o actualizar contenido comercial (posts del silo, páginas de paquete, servicios), consultar `src/lib/data/testimonials.ts` (`getTestimonials(limit?)`) para ver si hay una reseña real relevante al tema del contenido (tipo de evento, paquete, zona). Si la hay, citarla **textual** - autor, `rating`, `relativeTime` y el cuerpo en `text` (o `translation` si existe) - nunca parafrasearla inventando énfasis que la reseña no tiene. Si no hay ninguna reseña relevante para ese tema puntual, no es un bloqueante ni una señal negativa (ver "Reputación ausente NO es señal negativa" más arriba); lo que sí está prohibido es dejar una sección de tipo "Testimonials" con un heading vacío o con prosa genérica sin cita real donde debería ir una.
 - **Posts de la categoría `News` como fuente de eventos anteriores (E-E-A-T - Experience):** al crear o actualizar contenido (posts del silo, páginas de paquete, servicios), consultar los posts existentes con `categories` que incluya `News` (`src/content/blog/*.svx`) como fuente de eventos reales ya desarrollados por MEG. Cuando un evento anterior sea relevante por contexto (tipo de evento, paquete, zona, temática), referenciarlo en el cuerpo del contenido y enlazar al post de noticia correspondiente (`/blog/<slug>/`). No inventar eventos ni detalles que el post de noticia no confirme.
@@ -551,7 +556,7 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
   | Packs destacados de la home | `getHomepageShowcasePackages()` |
   | Moneda / símbolo / IVA | `CURRENCY`, `CURRENCY_SYMBOL`, `VAT_RATE` |
 
-- **Nombres de paquete sin traducir:** el `name` de cada paquete es el mismo en los 14 idiomas, porque es la referencia común para cualquier cliente. `packages.ts` guarda la copia SOLO en inglés (la fuente). Cada traducción vive en `src/lib/i18n/data/<locale>.ts` y se lee con `pkgCopy(pkg)` (y `faqCopy(item)` para `faq.ts`). En las traducciones de FAQ, la lista de precios se escribe con el token `{packagesWithPrices}`, nunca con precios literales.
+- **Nombres de paquete sin traducir:** el `name` de cada paquete es el mismo en los 13 idiomas, porque es la referencia común para cualquier cliente. `packages.ts` guarda la copia SOLO en inglés (la fuente). Cada traducción vive en `src/lib/i18n/data/<locale>.ts` y se lee con `pkgCopy(pkg)` (y `faqCopy(item)` para `faq.ts`). En las traducciones de FAQ, la lista de precios se escribe con el token `{packagesWithPrices}`, nunca con precios literales.
 - **Un único nodo `#organization`:** el `priceRange` (y todo el NAP) se emite **solo** desde `buildLocalBusinessSchema()` en `src/lib/utils/schema.ts`, que lo deriva del catálogo. Las páginas que necesiten referirse a la empresa lo hacen **por `@id`** (`{'@id': '.../#organization'}`), nunca redefiniendo el nodo. Redefinirlo ya produjo dos verdades simultáneas (`'€€'` en `schema.ts` vs `'290€ - 650€'` en `/about-us/`, con direcciones distintas).
 - **Guard automático:** `src/lib/data/no-hardcoded-prices.test.ts` escanea todo `src/**` (excepto `src/content/**`, que es copy editorial) y **falla la suite** ante cualquier literal `€290` / `290 €` / `290 EUR`. Si tu cambio lo rompe, la solución es importar el helper - **no** ampliar el allowlist.
 

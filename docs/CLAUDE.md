@@ -37,7 +37,7 @@ Every value is decided. Nothing here is to be filled in or asked about.
 | Primary accent / base surface | `#4D8CFF` / `#121414` dark, `#f7f7f8` light |
 | Default theme | `dark`, `light` available, persisted in `localStorage.theme` |
 | Display / body font | Playfair Display / Plus Jakarta Sans, both self hosted |
-| Language | Today: English source and public UI, second locale `es` client side, same URL, no hreflang. Decided, pending implementation: 14 locales, English at the root and every other locale under its own URL prefix (`/es/`, `/de/`, `/zh-hans/`...), with hreflang. See the root `CLAUDE.md`, "Idiomas soportados" |
+| Language | English at the root, plus 12 locales under their own URL prefix (`/de/`, `/fr/`, `/zh-hans/`...) with reciprocal hreflang. A locale is published only when fully translated (see the root `CLAUDE.md`, "Idiomas soportados"). No Spanish version by decision |
 | Timezone for date offsets | `Europe/Madrid`. Dev / preview port 5173 / 4173 |
 | D1 database / cron Worker | `app-leads` with binding `DB` / `app-reminders` |
 | Package manager | bun, lockfile `bun.lock` tracked |

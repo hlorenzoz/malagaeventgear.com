@@ -40,8 +40,11 @@ describe('pricing single source of truth', () => {
 			expect(formatPrice(290, 'en')).toBe('€290');
 		});
 
-		it('puts the symbol after the amount in Spanish', () => {
-			expect(formatPrice(290, 'es')).toBe('290 €');
+		it('follows Intl for other locales, with plain spaces only (CLAUDE.md §12)', () => {
+			expect(formatPrice(290, 'de')).toBe('290 €');
+			expect(formatPrice(290, 'fr')).toBe('290 €');
+			expect(formatPrice(290, 'zh-hans')).toBe('€290');
+			expect(formatPrice(290, 'de')).not.toMatch(/[\u00a0\u202f]/);
 		});
 
 		it('defaults to the English convention', () => {
@@ -71,7 +74,7 @@ describe('pricing single source of truth', () => {
 		it('builds the human range from the real catalog bounds', () => {
 			const { min, max } = getPriceRange();
 			expect(formatPriceRange('en')).toBe(`€${min} - €${max}`);
-			expect(formatPriceRange('es')).toBe(`${min} € - ${max} €`);
+			expect(formatPriceRange('de')).toBe(`${min} € - ${max} €`);
 		});
 
 		it('builds the schema.org priceRange from the real catalog bounds', () => {
@@ -82,7 +85,7 @@ describe('pricing single source of truth', () => {
 
 	describe('getPackageLabels', () => {
 		it('emits one label per package, localized', () => {
-			const labels = getPackageLabels('es');
+			const labels = getPackageLabels('de');
 			expect(labels).toHaveLength(packages.length);
 
 			for (const { pkg, label } of labels) {

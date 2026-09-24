@@ -322,14 +322,9 @@
 		};
 	});
 
-	const title =
-		i18n.lang === 'es'
-			? 'Mapa del Sitio (grafo) - Malaga Event Gear'
-			: 'Site Map (graph) - Malaga Event Gear';
-	const description =
-		i18n.lang === 'es'
-			? 'Mapa interno del sitio completo de Malaga Event Gear: páginas, paquetes y el reverse silo del blog como mindmap.'
-			: 'Internal full site map of Malaga Event Gear: pages, packages and the blog reverse silo as a mindmap.';
+	// Internal tool (noindex), English only: it is never published in another language.
+	const title = 'Site Map (graph) - Malaga Event Gear';
+	const description = 'Internal full site map of Malaga Event Gear: pages, packages and the blog reverse silo as a mindmap.';
 </script>
 
 <SeoHead {title} {description} canonicalUrl="https://malagaeventgear.com/map/" noindex={true} />

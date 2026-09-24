@@ -13,12 +13,11 @@ import { LOCALE_META, type Locale } from '$lib/i18n/locales';
  */
 export function packagesWithPrices(lang: Locale): string {
 	const list = packages.map((pkg) => `${pkg.name} (${formatPrice(pkg.price, lang)})`);
-	if (lang !== 'en' && lang !== 'es') {
+	if (lang !== 'en') {
 		return new Intl.ListFormat(LOCALE_META[lang].intl, { type: 'conjunction' }).format(list);
 	}
 	const last = list.pop();
-	const conjunction = lang === 'es' ? 'y' : 'and';
-	return `${list.join(', ')}, ${conjunction} ${last}`;
+	return `${list.join(', ')}, and ${last}`;
 }
 
 // English source text. Translations live in `src/lib/i18n/data/<locale>.ts` (see packages.ts).

@@ -9,10 +9,7 @@
 export const siteConfig = {
 	brandName: 'Malaga Event Gear',
 	brandShortName: 'MEG',
-	slogan: {
-		en: 'Rent your audiovisual system for multiple occasions',
-		es: 'Alquilá tu sistema audiovisual para múltiples ocasiones'
-	},
+	slogan: 'Rent your audiovisual system for multiple occasions',
 	url: 'https://malagaeventgear.com',
 	logoUrl: 'https://malagaeventgear.com/logo.png', // Logo del nodo #organization (Knowledge Graph). static/logo.png: 500x150, version oscura porque Google lo muestra sobre fondo blanco. Guard: site-logo.test.ts (existe y mide al menos 112x112)
 	contactEmail: 'contact@malagaeventgear.com',
@@ -20,7 +17,7 @@ export const siteConfig = {
 	phoneCallUrl: 'tel:+34666346911',
 	whatsappUrl: 'https://wa.me/34666346911',
 	// Idiomas en los que MEG ATIENDE (confirmado por el negocio, 2026-09-24). No confundir con los
-	// 14 idiomas en los que se PUBLICA el sitio: nunca prometer atención en otro idioma.
+	// 13 idiomas en los que se PUBLICA el sitio: nunca prometer atención en otro idioma.
 	serviceLanguages: ['en', 'es'] as const,
 	// Dirección de display (footer), idéntica a la ficha de Google Maps / GMB (NAP consistente).
 	displayAddress: 'Av. de Barcelona, 34, Distrito Centro, 29009 Málaga',

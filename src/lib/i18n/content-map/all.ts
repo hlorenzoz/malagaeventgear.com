@@ -1,6 +1,5 @@
 import type { LocaleContentMap } from './schema';
 import type { PREFIXED_LOCALES } from '../locales';
-import es from './locales/es';
 import fr from './locales/fr';
 import it from './locales/it';
 import de from './locales/de';
@@ -19,7 +18,6 @@ import zhHk from './locales/zh-hk';
  * must keep loading maps lazily through `router.ts`, one locale at a time.
  */
 export const CONTENT_MAPS: Record<(typeof PREFIXED_LOCALES)[number], LocaleContentMap> = {
-	es,
 	fr,
 	it,
 	de,

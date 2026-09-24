@@ -336,15 +336,14 @@ export const VAT_RATE = 0.21;
 
 /**
  * Formats a package price using the locale's own currency convention:
- * English puts the symbol first (`€290`), Spanish puts it last (`290 €`), and every other
- * locale follows `Intl` (`290 €` in German, `€290` in Chinese).
+ * English puts the symbol first (`€290`) and every other locale follows `Intl` (`290 €` in
+ * German, `€290` in Chinese).
  *
  * Every price string rendered anywhere on the site MUST come from here - a
  * literal like `'€290'` in a component silently outlives the next price change.
  */
 export function formatPrice(amount: number, lang: Locale = 'en'): string {
 	if (lang === 'en') return `${CURRENCY_SYMBOL}${amount}`;
-	if (lang === 'es') return `${amount} ${CURRENCY_SYMBOL}`;
 	return new Intl.NumberFormat(LOCALE_META[lang].intl, {
 		style: 'currency',
 		currency: CURRENCY,

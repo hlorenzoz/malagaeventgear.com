@@ -89,11 +89,11 @@ describe('published and in-progress locales are complete', () => {
 });
 
 describe('data copy files', () => {
-	for (const [path, data] of Object.entries(dataFiles)) {
-		it(`${path} only uses the {packagesWithPrices} token for the package price list`, () => {
+	it('only use the {packagesWithPrices} token for the package price list', () => {
+		for (const [path, data] of Object.entries(dataFiles)) {
 			for (const [id, faq] of Object.entries(data.faqs)) {
 				expect(faq.answer, `${path} ${id} writes the price list by hand`).not.toMatch(/Eco Pack \(/);
 			}
-		});
-	}
+		}
+	});
 });
