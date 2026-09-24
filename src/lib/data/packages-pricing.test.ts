@@ -15,7 +15,7 @@ import {
 } from './packages';
 
 /**
- * Contract tests for the pricing Single Source of Truth (AGENTS.md §7).
+ * Contract tests for the pricing Single Source of Truth (CLAUDE.md §7).
  *
  * These deliberately assert BEHAVIOUR (min == cheapest package, es puts the symbol
  * last) rather than literal prices, so a legitimate price change does not break

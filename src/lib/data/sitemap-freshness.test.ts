@@ -7,7 +7,7 @@ import {
 import { packages } from '$lib/data/packages';
 
 /**
- * Guard de frescura del sitemap (AGENTS.md §11).
+ * Guard de frescura del sitemap (CLAUDE.md §11).
  *
  * page-sitemap.xml solia emitir `new Date()` como <lastmod> de todas las paginas
  * estaticas y paquetes: un "build timestamp" prohibido, porque le ensena a Google que

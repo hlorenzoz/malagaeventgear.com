@@ -18,7 +18,7 @@ import { join } from 'node:path';
 import { slugify } from '../src/lib/utils/slugify';
 import { BlogPostSchema } from '../src/lib/types/blog';
 
-// Vocabulario controlado de categorias en uso (ver AGENTS.md "Blog Content Authoring").
+// Vocabulario controlado de categorias en uso (ver CLAUDE.md "Blog Content Authoring").
 // El agente elige de esta lista; crear una nueva es una decision de taxonomia deliberada.
 const CONTROLLED_CATEGORIES = [
 	'Events',
@@ -129,7 +129,7 @@ function buildFrontmatter(fields: {
 
 	lines.push(`draft: ${fields.draft}`);
 
-	// Reverse silo metadata (ver AGENTS.md "Reverse Silo del Blog").
+	// Reverse silo metadata (ver CLAUDE.md "Reverse Silo del Blog").
 	lines.push(`keyword: "${fields.keyword.replace(/"/g, '\\"')}"`);
 	lines.push(`siloRole: ${fields.siloRole}`);
 	lines.push(`targetPage: "${fields.targetPage}"`);
@@ -191,7 +191,7 @@ async function main(): Promise<void> {
 		if (!CONTROLLED_CATEGORIES.includes(c)) {
 			console.warn(
 				`[post-new] AVISO: "${c}" no esta en el vocabulario controlado. ` +
-					`Si es intencional, agregala a CONTROLLED_CATEGORIES y a AGENTS.md.`
+					`Si es intencional, agregala a CONTROLLED_CATEGORIES y a CLAUDE.md.`
 			);
 		}
 	}

@@ -54,7 +54,7 @@ const config = {
 			remarkPlugins: [remarkGfm],
 			// mdsvex defaults smartypants to true, which rewrites straight quotes/dashes
 			// into curly typography at build time even when the .svx source is clean
-			// ASCII. Disabled: AGENTS.md mandates ASCII-only punctuation sitewide.
+			// ASCII. Disabled: CLAUDE.md mandates ASCII-only punctuation sitewide.
 			smartypants: false,
 			// Plugin execution order matters:
 			// 1. rehypeSlug    — assigns ids to all headings (must be first)

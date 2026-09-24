@@ -143,7 +143,7 @@ test.describe('Structured Data (Schema.org) E2E Validation Tests', () => {
 		const contactPage = schemas.find(s => s['@type'] === 'ContactPage');
 		expect(contactPage).toBeDefined();
 		// Trailing slash: el sitio canonicaliza toda URL con '/' final (trailingSlash:
-		// 'always', AGENTS.md §2). El JSON-LD debe coincidir con la canónica.
+		// 'always', CLAUDE.md §2). El JSON-LD debe coincidir con la canónica.
 		expect(contactPage.url).toBe('https://malagaeventgear.com/contact/');
 
 		// 2. FAQPage schema, sourced from the centralized FAQ store (inquiry-oriented set)

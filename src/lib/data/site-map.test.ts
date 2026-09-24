@@ -12,7 +12,7 @@ import type { BlogPost, Category, Author } from '$lib/types/blog';
 import type { EventPackage } from '$lib/data/packages';
 import { validateSiloGraph, buildSiteMap, extractBlogLinks, findStronglyConnectedComponents } from './site-map';
 
-// Contenido real leído con import.meta.glob (?raw) — no node:fs (AGENTS.md §3). No podemos
+// Contenido real leído con import.meta.glob (?raw) — no node:fs (CLAUDE.md §3). No podemos
 // importar $lib/data/blog en un unit test: arrastra el módulo virtual `virtual:blog-meta`.
 const rawPosts = import.meta.glob('../../content/blog/*.svx', {
 	query: '?raw',

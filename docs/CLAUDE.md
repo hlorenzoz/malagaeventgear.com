@@ -1,7 +1,7 @@
 > **THIS FILE IS A TEMPLATE.** Copy it unmodified into the root of a NEW project, then paste
 > `scaffold-prompt.md` to a coding agent. The scaffolding agent deletes this banner as its first step.
 > **An agent working inside the repository this template was extracted from must ignore this file
-> entirely** and follow that repository's own `AGENTS.md`.
+> entirely** and follow that repository's own `CLAUDE.md`.
 
 # CLAUDE.md
 
@@ -37,7 +37,7 @@ Every value is decided. Nothing here is to be filled in or asked about.
 | Primary accent / base surface | `#4D8CFF` / `#121414` dark, `#f7f7f8` light |
 | Default theme | `dark`, `light` available, persisted in `localStorage.theme` |
 | Display / body font | Playfair Display / Plus Jakarta Sans, both self hosted |
-| Language | English source and public UI. Second locale `es`, client side, same URL, no hreflang |
+| Language | Today: English source and public UI, second locale `es` client side, same URL, no hreflang. Decided, pending implementation: 14 locales, English at the root and every other locale under its own URL prefix (`/es/`, `/de/`, `/zh-hans/`...), with hreflang. See the root `CLAUDE.md`, "Idiomas soportados" |
 | Timezone for date offsets | `Europe/Madrid`. Dev / preview port 5173 / 4173 |
 | D1 database / cron Worker | `app-leads` with binding `DB` / `app-reminders` |
 | Package manager | bun, lockfile `bun.lock` tracked |
@@ -143,9 +143,10 @@ Every internal URL ends in a trailing slash, enforced by `trailingSlash = 'alway
 canonical and its content type schema through `SeoHead.svelte`. The layout emits the global `LocalBusiness` and
 `BreadcrumbList`, whose last crumb uses the real page title when the route has one, not a capitalized slug. Adding,
 moving or deleting a page or post means updating its sitemap endpoint in the same change: the freshness guard fails on
-a missing date, but it cannot invent the route. **There is no hreflang.** One URL, English source, runtime locale
-switching, only `og:locale:alternate`. A request to add hreflang is a request for a different site architecture and
-needs a decision, not a patch.
+a missing date, but it cannot invent the route. **Today there is no hreflang.** One URL, English source, runtime
+locale switching, only `og:locale:alternate`. The target architecture is decided but not built yet: one URL prefix per
+locale, reciprocal hreflang in the `<head>` only, and one child sitemap per locale. Until the per locale URLs exist,
+hreflang cannot be added as a patch.
 
 ## Testing
 

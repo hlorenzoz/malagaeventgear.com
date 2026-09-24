@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { packages, formatPrice, getSchemaPriceRange } from '../src/lib/data/packages';
 
 /**
- * Cross-page pricing consistency (AGENTS.md §7).
+ * Cross-page pricing consistency (CLAUDE.md §7).
  *
  * The unit guard (src/lib/data/no-hardcoded-prices.test.ts) stops literals from
  * entering the source. These specs prove the other half: that what actually

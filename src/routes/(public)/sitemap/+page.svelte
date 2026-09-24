@@ -6,7 +6,7 @@
 
 	let { data } = $props();
 
-	// Nombres y precios derivados del catálogo (AGENTS.md §7). Estas dos listas
+	// Nombres y precios derivados del catálogo (CLAUDE.md §7). Estas dos listas
 	// hardcodeaban los 5 packs con su precio, duplicados en el bloque EN y en el ES:
 	// diez sitios donde un cambio de tarifa se olvidaba.
 	let packageLinks = $derived(

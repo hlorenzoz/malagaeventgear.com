@@ -8,7 +8,7 @@ export const GET: RequestHandler = async () => {
 
 	// <lastmod> comes from each page's colocated meta.ts (getStaticPageFreshness),
 	// never from `new Date()`. A build timestamp teaches crawlers the field is
-	// meaningless (AGENTS.md, regla de frescura). The freshness guard
+	// meaningless (CLAUDE.md, regla de frescura). The freshness guard
 	// (src/lib/data/sitemap-freshness.test.ts) fails the suite if a route lacks its date.
 	const freshness = getStaticPageFreshness();
 

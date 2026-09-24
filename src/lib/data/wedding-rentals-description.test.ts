@@ -10,7 +10,7 @@ import matter from 'gray-matter';
  *
  * Scoped to this one file (not a site-wide sweep): the WP-style excerpt
  * truncation marker ("[...]") is a deliberate, documented convention used
- * identically across 75+ other posts (see AGENTS.md content-authoring notes)
+ * identically across 75+ other posts (see CLAUDE.md content-authoring notes)
  * and is explicitly out of scope here.
  */
 
@@ -41,7 +41,7 @@ describe('wedding-rentals.svx frontmatter description', () => {
 		expect(description!.trim()).toMatch(SENTENCE_END);
 	});
 
-	it('contains only ASCII punctuation (AGENTS.md #12: no curly quotes/dashes)', () => {
+	it('contains only ASCII punctuation (CLAUDE.md #12: no curly quotes/dashes)', () => {
 		const { description } = loadFrontmatter();
 		expect(ASCII_ONLY.test(description!)).toBe(true);
 	});

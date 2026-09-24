@@ -84,8 +84,10 @@ servir con honestidad.
 
 ## Idiomas distintos del inglés: traducidos, y el resultado NO fue el que parecía
 
-**Decisión del usuario (2026-09-24): el sitio NO dará soporte al español.** El soporte de nuevos
-idiomas se tratará aparte, cuando el trabajo de contenido esté terminado.
+~~**Decisión del usuario (2026-09-24): el sitio NO dará soporte al español.**~~ **Reemplazada el
+mismo día (2026-09-24):** el español entra como idioma con URL propia (`/es/`), junto con otros 12
+idiomas. Ver `CLAUDE.md`, sección "Idiomas soportados". Los datos de esta sección se conservan como
+línea base para medir el efecto de las URLs en español.
 
 Lo que sí se hizo: tomar las consultas no inglesas, traducirlas estrictamente al inglés y
 comprobar si ese contenido inglés ya existe y, sobre todo, **si rankea**.
@@ -140,7 +142,7 @@ española. En la primera versión quedó mal clasificada como no inglesa y se di
 **posición ponderada 33,9 sobre 62 impresiones**. Es el candidato más concreto si se decide atacar
 posicionamiento, y `/blog/event-technology-service/` es su página.
 
-## Contexto histórico: el hueco de español (cerrado por decisión)
+## Línea base: el hueco de español (reabierto el 2026-09-24)
 
 | Métrica | Valor |
 | :--- | ---: |
@@ -153,10 +155,11 @@ Top: `alquiler iluminacion eventos malaga` (65, pos 36), `iluminacion eventos ma
 `alquiler de iluminacion malaga` (8, **pos 6,1**).
 
 **No es un hueco de contenido, es de arquitectura.** El sitio es una sola URL en inglés con i18n
-de cliente y sin hreflang (documentado en `AGENTS.md`). Google no tiene título ni descripción en
+de cliente y sin hreflang (documentado en `CLAUDE.md`). Google no tiene título ni descripción en
 español que mostrar, así que un usuario hispanohablante ve un snippet en inglés y no hace clic.
 Escribir posts en español sin resolver el enrutado no arregla esto.
 
-Detectado en la auditoría del 2026-08-06, diferido entonces y **cerrado por decisión del usuario el
-2026-09-24**: no se dará soporte al español. Se conserva aquí cuantificado para cuando se retome
-el tema de idiomas, no como tarea pendiente.
+Detectado en la auditoría del 2026-08-06 y diferido entonces. El 2026-09-24 se cerró por decisión
+del usuario y **se reabrió el mismo día**: el español entra con URLs propias (`/es/`), que es
+justamente el arreglo de arquitectura que describe el párrafo anterior. Estas cifras son la línea
+base: después del deploy de `/es/`, comparar impresiones y clics de estas mismas consultas.

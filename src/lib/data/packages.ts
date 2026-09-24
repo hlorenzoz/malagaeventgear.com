@@ -50,7 +50,7 @@ export const PackageSchema = z.object({
 	route: z.string(),
 	/**
 	 * Fecha del ultimo cambio de contenido del paquete (YYYY-MM-DD). Alimenta el
-	 * <lastmod> de /packages/[slug]/ en page-sitemap.xml. Regla de frescura (AGENTS.md):
+	 * <lastmod> de /packages/[slug]/ en page-sitemap.xml. Regla de frescura (CLAUDE.md):
 	 * se bumpea solo ante un cambio real (precio, inclusiones, copy), nunca por build.
 	 */
 	updated: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'updated debe ser YYYY-MM-DD'),
@@ -495,7 +495,7 @@ export const getPackageBySlug = (slug: string): EventPackage | undefined => {
 };
 
 /* -------------------------------------------------------------------------- */
-/* Pricing - Single Source of Truth (AGENTS.md §7)                            */
+/* Pricing - Single Source of Truth (CLAUDE.md §7)                            */
 /* -------------------------------------------------------------------------- */
 
 /** ISO 4217 currency every package price is denominated in. */

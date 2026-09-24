@@ -1,6 +1,6 @@
 /**
  * Client-side reorder for `silo.kids` on /map: surfaces posts that were updated but not yet
- * manually resubmitted to Google Search Console (GSC has no API here — see AGENTS.md/docs on
+ * manually resubmitted to Google Search Console (GSC has no API here — see CLAUDE.md/docs on
  * IndexNow — so "submitted" can only ever be a manual signal the user records themselves by
  * clicking a post's copy-URL button).
  *

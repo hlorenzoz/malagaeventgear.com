@@ -195,7 +195,7 @@ export function findStronglyConnectedComponents(graph: Map<string, string[]>): s
  *
  * Además de siloRole/targetPage, detecta ciclos NUEVOS en el grafo de interlinking lateral
  * (`blogLinks`, si el caller lo provee - ver `extractBlogLinks`): la regla "cadena, no
- * todos-con-todos" (AGENTS.md) exige que los siblings de un silo se linkeen en cadena hacia el
+ * todos-con-todos" (CLAUDE.md) exige que los siblings de un silo se linkeen en cadena hacia el
  * pilar, nunca formando un circuito. Sin `blogLinks` este chequeo simplemente no encuentra
  * ciclos (no rompe callers que no lo proveen). "Nuevos" porque el sitio real tiene deuda
  * preexistente (ver `silo-cycle-debt.ts`) que este chequeo NO exige resolver de una - solo
@@ -245,7 +245,7 @@ export function validateSiloGraph(posts: (BlogPost & { blogLinks?: string[] })[]
 	for (const p of posts) linkGraph.set(p.slug, p.blogLinks ?? []);
 	const knownDebt = new Set(KNOWN_SILO_CYCLE_DEBT);
 	for (const component of findStronglyConnectedComponents(linkGraph)) {
-		// Un par reciproco entre 2 siblings adyacentes ES la cadena esperada (AGENTS.md
+		// Un par reciproco entre 2 siblings adyacentes ES la cadena esperada (CLAUDE.md
 		// "cadena, no todos-con-todos"), no un error. Solo una componente de 3+ nodos indica
 		// que el interlinking lateral dejó de ser una cadena y se volvió una malla.
 		if (component.length < 3) continue;
@@ -268,7 +268,7 @@ function byUrl<T extends { url: string }>(a: T, b: T): number {
 /**
  * Normaliza una fecha a su parte `YYYY-MM-DD`, descartando el resto.
  *
- * Gotcha de YAML (documentado en AGENTS.md): una fecha SIN comillas en el frontmatter
+ * Gotcha de YAML (documentado en CLAUDE.md): una fecha SIN comillas en el frontmatter
  * (`updatedDate: 2025-12-10`) se parsea como `Date` y termina serializada como
  * `2025-12-10T00:00:00.000Z`, mientras que una fecha entre comillas queda como el string
  * plano `2025-12-10`. Comparar ambas formas sin normalizar produce un orden incorrecto

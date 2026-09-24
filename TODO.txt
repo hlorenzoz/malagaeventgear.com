@@ -163,7 +163,7 @@ Añadir a .agents/STRUCTURED_DATA.md lo siguiente las siguientes referencias par
 
 Añadir los datos estructurados a nivel de sitio web según corresponda siguiendo .agents/STRUCTURED_DATA.md.
 
-Añadir al @AGENTS.md la norma de que cada página tiene sus datos estructurados según el tipo de contenido que sea.
+Añadir al @CLAUDE.md la norma de que cada página tiene sus datos estructurados según el tipo de contenido que sea.
 
 Hay datos estructurados que son globales (a nivel de sitio web, y otros a nivel de página/post/paquete, etc.). Hay que crear un mecanismo para gestionar esta estructura.
 
@@ -176,7 +176,7 @@ La información debe ser tomada de un único fichero de configuración que conte
 
 -- ✅
 
-Añade la regla al @AGENTS.md  que cada URL debe terminar en /
+Añade la regla al @CLAUDE.md  que cada URL debe terminar en /
 
 Corrige las URLs actuales y sus respectivas referencias
 

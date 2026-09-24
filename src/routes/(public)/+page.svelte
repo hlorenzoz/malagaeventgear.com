@@ -34,7 +34,7 @@
 	const latestPosts = getArticlePosts().slice(0, 5);
 	const latestNews = getNewsPosts().slice(0, 5);
 
-	// Cheapest package price for the "What does it cost?" answer (derived, see AGENTS.md §7)
+	// Cheapest package price for the "What does it cost?" answer (derived, see CLAUDE.md §7)
 	let minPrice = $derived(getPriceRange().min);
 
 	// "At a Glance" Q&A block (answer-engine optimization). Question text rendered as <h2>.

@@ -6,7 +6,7 @@ import { packages, formatPrice } from '$lib/data/packages';
  * `Eco Pack (€290), Wedding Pack (€650), …` built from the catalog.
  *
  * Esta FAQ se publica también como JSON-LD `FAQPage`, así que un precio viejo acá
- * llega directo a los resultados enriquecidos de Google. Ver AGENTS.md §7.
+ * llega directo a los resultados enriquecidos de Google. Ver CLAUDE.md §7.
  */
 function packagesWithPrices(lang: 'en' | 'es'): string {
 	const list = packages.map((pkg) => `${pkg.name} (${formatPrice(pkg.price, lang)})`);

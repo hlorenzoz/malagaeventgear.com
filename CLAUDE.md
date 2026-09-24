@@ -15,6 +15,156 @@
 
 2. **Creación / actualización de contenido**
 
+3. **Sitio multilingüe**: publicar todo el sitio en los 14 idiomas de
+   [Idiomas soportados](#idiomas-soportados).
+
+---
+
+## Idiomas soportados
+
+El sitio se publica en **14 idiomas** (decisión del usuario, 2026-09-24). El inglés es la versión
+base y vive en la raíz. Cada uno de los demás idiomas vive bajo su propio prefijo de URL.
+
+| Locale | Idioma (nombre nativo) | Prefijo URL | Valores hreflang |
+| :--- | :--- | :--- | :--- |
+| `en` | English | (raíz) | `en`, `x-default` |
+| `es` | Español | `/es/` | `es` |
+| `fr` | Français | `/fr/` | `fr` |
+| `it` | Italiano | `/it/` | `it` |
+| `de` | Deutsch | `/de/` | `de` |
+| `nl` | Nederlands | `/nl/` | `nl` |
+| `pt-pt` | Português (Portugal) | `/pt-pt/` | `pt-PT` |
+| `pt-br` | Português (Brasil) | `/pt-br/` | `pt-BR` |
+| `sv` | Svenska | `/sv/` | `sv` |
+| `da` | Dansk | `/da/` | `da` |
+| `nb` | Norsk (bokmål) | `/nb/` | `nb`, `no` |
+| `zh-hans` | 简体中文 | `/zh-hans/` | `zh-Hans`, `zh` |
+| `zh-tw` | 繁體中文 (台灣) | `/zh-tw/` | `zh-Hant-TW`, `zh-Hant` |
+| `zh-hk` | 繁體中文 (香港) | `/zh-hk/` | `zh-Hant-HK` |
+
+El portugués de Portugal y el de Brasil tienen **contenido propio cada uno**, no una copia con
+otra etiqueta. Las tres variantes de chino cubren a cualquier lector chino, venga de donde venga.
+
+**Estado (2026-09-24): decidido, pendiente de implementar.** Hoy el sitio sigue siendo una sola
+URL en inglés con un selector `en/es` que traduce la interfaz solo en el navegador. La
+implementación va por fases:
+
+| Fase | Qué | Estado |
+| :--- | :--- | :--- |
+| 0 | Documentación (este archivo) | hecha |
+| 1 | Mapa de contenido (keyword, URL) por idioma | pendiente |
+| 2 | Infraestructura de URLs por idioma, hreflang y sitemaps | pendiente |
+| 3 | Páginas principales y paquetes en los 14 idiomas | pendiente |
+| 4 | Posts del blog, por lotes de silo | pendiente |
+
+Todo lo marcado **"(pendiente, Fase N)"** en este archivo describe el objetivo, no lo que existe.
+Al cerrar cada fase se actualiza este archivo con rutas y conteos reales. Una fase no se da por
+cerrada con este archivo desactualizado.
+
+### Reglas mandatorias de idioma
+
+1. **Todo contenido nuevo se crea en los 14 idiomas, en el mismo cambio.** Vale para páginas,
+   paquetes, posts, FAQ, copy de UI y el texto de las imágenes. Un contenido no se publica hasta
+   tener sus 14 versiones. Entra en vigor cuando exista la infraestructura: Fase 2 para páginas y
+   paquetes, Fase 4 para posts. Guard: `all-locales.test.ts` (pendiente, Fase 2), que cubre el
+   contenido publicado después de la fecha de entrada en vigor y, al cerrar la Fase 4, todo el
+   sitio. La cobertura se controla por fecha de corte, nunca con un allowlist.
+2. **Toda edición de contenido inglés se propaga a los 13 idiomas restantes en el mismo cambio.**
+   Cada traducción guarda en `sourceUpdated` la fecha de la versión inglesa que tradujo, y la
+   suite falla si el inglés es más nuevo (pendiente, Fase 4). Un arreglo como el de Shure a Audix
+   no puede quedar corregido en inglés y desactualizado en otros 13 idiomas.
+3. **Agregar o quitar un idioma es una decisión explícita del usuario, con fecha**, igual que
+   crear una categoría del blog. Ningún agente lo decide por su cuenta.
+
+### Hechos del negocio sobre idiomas (confirmados por el usuario, 2026-09-24)
+
+- **MEG atiende solo en inglés y español.** Toda página en otro idioma lo aclara en su propio
+  idioma, en la página de contacto y junto al formulario (en alemán, por ejemplo: "Wir antworten
+  auf Englisch oder Spanisch"). `LocalBusiness` declara `availableLanguage` solo con `en` y `es`.
+  Los emails transaccionales salen en español para `es` y en inglés para cualquier otro idioma.
+  **Nunca prometer atención en otro idioma.**
+- **Páginas legales: prevalece la versión inglesa.** Cada traducción de privacy, terms, gdpr y
+  cookie lo dice arriba de todo, en su idioma, con enlace a la versión inglesa.
+- **Los nombres de paquete no se traducen** (`Eco Pack`, `Wedding Pack`, `MICE Pack`...), para
+  que cualquier cliente se refiera al mismo paquete en cualquier idioma. Se traducen la
+  descripción, lo incluido, lo opcional y el resto del copy.
+
+---
+
+## Internacionalización (i18n)
+
+Arquitectura objetivo y reglas de traducción. Las fuentes se verificaron el 2026-09-24 contra
+Google Search Central y el PDF de Quality Raters. Ante una duda se vuelve a leer la fuente, no
+este resumen.
+
+### Lo que dice Google (citas textuales)
+
+- **Detección de idioma**: "Google uses the visible content of your page to determine its
+  language. We don't use any code-level language information such as `lang` attributes, or the
+  URL." ([managing-multi-regional-sites](https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites))
+- **Un idioma por página**: "use a single language for content and navigation on each page, and
+  by avoiding side-by-side translations".
+- **Redirección**: "Avoid automatically redirecting users from one language version of a site to
+  a different language version of a site."
+- **URLs**: "Use words in your audience's language in the URL (and, if applicable, transliterated
+  words)." Los caracteres no ASCII van con percent encoding.
+  ([url-structure](https://developers.google.com/search/docs/crawling-indexing/url-structure))
+- **hreflang**: "Each language version must list itself as well as all other language
+  versions." Las URLs van absolutas. Se admiten `zh-Hans` y `zh-Hant`, también combinados con
+  región. No se admite un código de país solo. Sobre combinar HTML, cabeceras HTTP y sitemap:
+  "there's no benefit in Search".
+  ([localized-versions](https://developers.google.com/search/docs/specialty/international/localized-versions))
+- **Traducción y calidad**: la política de spam menciona traducir solo como forma de ofuscar
+  contenido scrapeado. El PDF (4.6.5, p. 42) dice: "Creating an abundance of content with little
+  effort or originality with no editing or manual curation is often the defining attribute of
+  spammy websites." Lo que protege una traducción es la **edición y la curación**, no el método.
+
+### Arquitectura (pendiente, Fase 2)
+
+- **Subdirectorios por idioma**, con el inglés en la raíz y sin cambios de URL. Verificado el
+  2026-09-24: Google nunca indexó URLs en español ni en otro idioma (WordPress era solo inglés y
+  GSC no muestra ninguna), así que no hace falta ningún redirect.
+- **El locale se detecta por el primer segmento completo de la ruta**, nunca con
+  `startsWith('/es')`. `/essential-items-for-wedding-rentals/` empieza con `/es` y no es español.
+- **Una URL de idioma existe solo si su contenido principal está traducido.** No hay páginas de
+  relleno en inglés bajo un prefijo, ni índices de blog o categorías vacíos.
+- **El texto traducido va en el HTML servido** (prerender o SSR). Traducir solo en el cliente es
+  invisible para Google, y es el fallo de fondo del selector `en/es` actual.
+- **Sin redirección automática** por idioma del navegador ni por IP. El selector de idioma son
+  enlaces con el nombre nativo del idioma, sin banderas, al equivalente de la página actual.
+- **hreflang solo en el `<head>`**, vía `SeoHead`: recíproco, autorreferente, con URLs absolutas
+  y trailing slash, y solo en páginas indexables. Los sitemaps listan las URLs sin `xhtml:link`.
+- **Sitemaps por idioma**: un sitemap hijo por tipo y locale en `sitemap_index.xml`
+  (`page-sitemap-de.xml`, `post-sitemap-zh-hans.xml`...). Un sitemap sin URLs no se emite.
+- **Slugs en el idioma del público**: transliterados a ASCII en los idiomas latinos (`ü` pasa a
+  `ue`, `å` pasa a `a`) y en caracteres chinos con percent encoding en chino. La fuente única es
+  `src/lib/i18n/content-map.ts` (pendiente, Fase 1), que guarda slug y keyword por idioma.
+- **Un solo nodo `#organization`** en todos los idiomas, con NAP y marca sin traducir.
+
+### Reglas de traducción
+
+- **Keywords**: se construyen con el vocabulario con el que busca un nativo, no traduciendo la
+  keyword inglesa. No hay datos de volumen por idioma en el repo, así que toda keyword nace con
+  `status: 'propuesta'` y pasa a `'validada'` solo con datos del país. Nunca dar a entender que se
+  validó.
+- **Sin traducir**: NAP, nombre de la empresa, nombres de paquete, marcas y modelos de equipo
+  (`Audix RAD-360`, `Vivitek D5`).
+- **Localidades**: en su forma local o su exónimo habitual en el idioma (`Malaga` en alemán,
+  `马拉加` en chino). La dirección del NAP no cambia.
+- **Precios**: siempre `formatPrice(amount, locale)`, nunca un literal.
+- **Imágenes**: se traduce todo lo textual: `alt`, `title`, `figcaption`, `og:image:alt`,
+  `twitter:image:alt`, `caption` y `name` del `ImageObject`, y los `alt` dentro de los posts. El
+  archivo de imagen es el mismo en todos los idiomas. En los sitemaps de imágenes va solo
+  `image:loc`.
+- **Reseñas**: en una página de otro idioma se muestra la traducción marcada como traducida, con
+  el original accesible. El original se sigue citando textual (ver §5).
+- **Revisión**: cada lote de traducciones lleva revisión nativa por muestreo. Nunca se publica
+  traducción automática sin revisar (PDF 4.6.5).
+- **Tipografía**: la regla 12 se aplica igual en todos los idiomas latinos. La puntuación china de
+  ancho completo es idioma y queda exenta (ver §12).
+- **Fuentes CJK**: pila de fuentes del sistema (PingFang, Microsoft YaHei/JhengHei, Noto Sans CJK).
+  Nunca webfonts CJK, que pesan varios MB.
+
 ---
 
 # Contexto del Proyecto y Reglas para el Asistente de IA
@@ -58,7 +208,9 @@ la arquitectura. Los pasos de provisioning/deploy están en **[docs/lead-capture
   `leads/service.ts` hacen I/O. `leads/recipients.ts` resuelve destinatarios: **D1 primero, fallback a
   `LEAD_NOTIFY_EMAILS` (env)**.
 - **Email (Resend):** se usa vía `fetch` (Workers-safe), NO el SDK de Node. Plantillas **bilingües** (EN/ES)
-  reciben `locale` explícito - NO usan el store i18n del cliente. **Fallo de email NO debe revertir el lead**
+  reciben `locale` explícito y NO usan el store i18n del cliente. Los demás idiomas del sitio reciben la
+  plantilla inglesa, porque MEG atiende solo en inglés y español (ver [Idiomas soportados](#idiomas-soportados)).
+  **Fallo de email NO debe revertir el lead**
   (se persiste estado `failed` en `email_messages` y se devuelve `leadId` igual).
 - **Cron (Worker separado):** `adapter-cloudflare` NO expone handler `scheduled` en su `_worker.js`. Por eso el
   cron vive en `workers/review-reminders/` con su propio `wrangler.toml`, bindeado a la **misma D1** y al mismo
@@ -69,7 +221,8 @@ la arquitectura. Los pasos de provisioning/deploy están en **[docs/lead-capture
 - **Endpoints dinámicos vs prerender:** `/api/leads` y `/r/[token]` llevan `export const prerender = false;`
   (las páginas de paquete siguen prerenderizadas). No rompas esa coexistencia.
 - **i18n (gotcha):** el módulo activo es `$lib/i18n.svelte` y `i18n.t` es un **getter** → acceso por propiedad
-  `i18n.t.leadForm.x`, NUNCA como función `i18n.t('...')`. Hay un segundo i18n sin usar en `src/lib/i18n/` - no confundir.
+  `i18n.t.leadForm.x`, NUNCA como función `i18n.t('...')`. El directorio `src/lib/i18n/`, que tenía un segundo
+  i18n sin usar, se borró en el commit `2271787`. Ahí va a vivir la infraestructura de idiomas nueva (pendiente, Fase 2).
 
 ### Secrets / vars (ver runbook para cómo cargarlos)
 `RESEND_API_KEY`, `RESEND_FROM`, `TURNSTILE_SECRET_KEY` (secrets) · `LEAD_NOTIFY_EMAILS`,
@@ -201,7 +354,8 @@ Los agentes globales no asumen nada sobre el stack. Una adivinanza sobre el buil
 del build produce auditorías que suenan seguras y son falsas. Estos son los hechos:
 
 - **Build**: `bun run build` (= `wrangler types` + `bun scripts/fix-types.ts` + `vite build`).
-  El HTML prerenderizado aterriza en **`.svelte-kit/cloudflare/`** (92 archivos `.html`).
+  El HTML prerenderizado aterriza en **`.svelte-kit/cloudflare/`** (93 archivos `.html` en el build
+  revisado el 2026-09-24, unos 1.400 cuando el sitio esté en los 14 idiomas).
   Preview de producción: `bun run preview` (puerto 4173). Dev: puerto 5173. NO es `out/` ni
   `dist/`, y NO se asume `bun run build` sin los pasos de `wrangler types` / `fix-types.ts`.
 - **Fuentes únicas de verdad**:
@@ -209,14 +363,15 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
   | Qué | Dónde |
   | :--- | :--- |
   | Canonical | Por página en `+page.svelte` vía `SeoHead canonicalUrl`, siempre con trailing slash. Paquetes y blog lo derivan de `siteConfig.url` |
-  | Hreflang | NO existe: el sitio es una sola URL en inglés con i18n de cliente. `SeoHead` solo emite `og:locale:alternate`. Un agente que pida hreflang está pidiendo una arquitectura que el sitio no tiene |
+  | Hreflang | Hoy NO existe: el sitio es una sola URL en inglés con i18n de cliente, y `SeoHead` solo emite `og:locale:alternate`. Arquitectura decidida (pendiente, Fase 2): hreflang solo en el `<head>` vía `SeoHead`, ver [Internacionalización (i18n)](#internacionalización-i18n). No se puede agregar como parche antes de que existan las URLs por idioma |
   | Registro de rutas | No hay uno central: `STATIC_SITEMAP_PAGES` en `src/lib/utils/sitemap.ts` + `packages[].route` + glob de `src/content/blog/*.svx` |
   | Datos estructurados (JSON-LD) | `src/lib/utils/schema.ts` (constructores). Docs: `docs/structured-data.md`, `.agents/STRUCTURED_DATA.md` |
   | Metadatos de página | `src/lib/components/seo/SeoHead.svelte` |
   | NAP y negocio | `src/lib/data/site.ts` |
   | Precios y paquetes | `src/lib/data/packages.ts` (ver sección 7) |
   | Reseñas / testimonios reales | `src/lib/data/testimonials.ts` (`getTestimonials(limit?)`, `getReviewsMeta()`) sobre `src/lib/data/reviews.json` (reseñas curadas de Google, fuente `GMB_PROFILE_URL`) |
-  | Copy / i18n | `src/lib/i18n.svelte.ts` (`i18n.t` es GETTER: `i18n.t.x`, NUNCA `i18n.t('x')`) |
+  | Copy / i18n | `src/lib/i18n.svelte.ts` (`i18n.t` es GETTER: `i18n.t.x`, NUNCA `i18n.t('x')`). Hoy solo `en` y `es`, elegidos en el cliente. Objetivo: un diccionario por locale, elegido por la URL (pendiente, Fase 2) |
+  | Slug y keyword por idioma | `src/lib/i18n/content-map.ts` (pendiente, Fase 1) |
   | Contenido editorial (blog) | `src/content/blog/*.svx` |
   | Headers y redirects | `_headers`, `_redirects` |
   | Endpoint para LLMs | `src/routes/(public)/llms.txt/+server.ts` (derivado, nunca hardcodeado) |
@@ -231,6 +386,8 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
   - Name: `Malaga Event Gear`
   - Address: `Av. de Barcelona, 34, Distrito Centro, 29009 Málaga`
   - Phone: `666 346 911`
+- **Idiomas de atención al cliente**: solo inglés y español (confirmado por el negocio el
+  2026-09-24), aunque el sitio se publique en 14 idiomas. Ver [Idiomas soportados](#idiomas-soportados).
 - **GBP**: categoría primaria `Audio Visual Equipment Hire Service` (primera de
   `siteConfig.categories`; confirmar contra la ficha viva antes de trabajo de estructura);
   secundarias: `Party equipment rental service`, `Stage lighting equipment supplier`,
@@ -329,6 +486,9 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
   1. **Última miga del breadcrumb = título real**: `buildBreadcrumbsSchema(pathname, leafName?)` usa `leafName` para el último crumb cuando se provee; el layout público pasa `data.post.title` (posts) o `data.pkg.name` (paquetes), con fallback al slug capitalizado. NO volver a derivar el nombre del slug para páginas con título disponible.
   2. **`publisher` por `@id`**: en `buildArticleSchema`, `publisher` referencia el nodo canónico `{"@id": ".../#organization"}` (emitido por el layout vía `buildLocalBusinessSchema`), igual que `buildWebSiteSchema` / `buildServiceSchema`. NO redefinir una `Organization` parcial inline.
 - **Actualización Obligatoria de Sitemaps**: Cada vez que se cree, actualice o elimine una página, ruta dinámica de catálogo o artículo de blog (.svx), es estrictamente mandatorio verificar y actualizar su endpoint de sitemap XML correspondiente (ej. `page-sitemap.xml`, `post-sitemap.xml`) para asegurar la indexación inmediata y la consistencia en el presupuesto de rastreo de Google.
+  Con el sitio en varios idiomas, esto vale **por idioma**: cada página o post que se crea, traduce,
+  modifica o elimina actualiza el sitemap de su idioma en el mismo cambio (pendiente, Fase 2, hasta que
+  existan los sitemaps por idioma).
 
 
 ### 3. Restricciones de Cloudflare
@@ -337,11 +497,12 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
 - Las lecturas de archivos mdsvex (.svx) se harán estrictamente en tiempo de compilación (Prerendering) utilizando las importaciones de Vite (`import.meta.glob`).
 
 ### 4. Flujo de Trabajo y Estilo
-- **Idiomas:** El código fuente (variables, funciones, componentes) y la interfaz de usuario (UI) de la parte pública deben escribirse **únicamente en idioma inglés** por el momento. Sin embargo, se debe diseñar y crear la estructura de traducción a futuro (localización/i18n) de forma que sea escalable y compatible con Cloudflare Workers. Los comentarios, la documentación y los commits pueden seguir escribiéndose en español.
+- **Idiomas:** el código fuente (variables, funciones, componentes) se escribe en inglés. La interfaz y el contenido públicos se publican en los 14 idiomas de [Idiomas soportados](#idiomas-soportados), con el inglés como versión base (la infraestructura está pendiente, Fase 2). La estructura de traducción tiene que ser compatible con Cloudflare Workers. Los comentarios, la documentación y los commits pueden seguir escribiéndose en español.
 - **Código conciso:** Evita reescribir funciones enteras si solo cambian dos líneas. Proporciona el fragmento modificado e indica dónde insertarlo.
 - No inventes dependencias ni generes contenido de relleno ("Lorem Ipsum") a menos que se te solicite explícitamente para una maqueta.
 
 ### 5. Creación y Actualización de Contenido (Blog / SEO)
+- **Idiomas:** todo contenido que se crea o actualiza se hace en los 14 idiomas soportados, en el mismo cambio (ver [Reglas mandatorias de idioma](#reglas-mandatorias-de-idioma)). La keyword de cada idioma sale de `content-map.ts`, nunca de traducir la keyword inglesa. En una página de otro idioma, las reseñas se muestran como indica [Internacionalización (i18n)](#internacionalización-i18n).
 - Las pautas de redacción, estrategias de contenido anti-AI-slop, el framework de optimización E-E-A-T y la resolución de los **5 Errores Críticos que Matan el Tráfico** se encuentran detallados en **[SEO.md](file:///Users/hlorenzoz/databank/Development/%5BMEG%20-%20Malaga%20Event%20Gear%20%28malagaeventgear.com%29%5D/projects/website/SEO.md)**. Es obligatorio que el desarrollador/redactor los siga rigurosamente para cualquier publicación o contenido comercial.
 - **Reseñas reales de Google (E-E-A-T - Experience/Trust):** al crear o actualizar contenido comercial (posts del silo, páginas de paquete, servicios), consultar `src/lib/data/testimonials.ts` (`getTestimonials(limit?)`) para ver si hay una reseña real relevante al tema del contenido (tipo de evento, paquete, zona). Si la hay, citarla **textual** - autor, `rating`, `relativeTime` y el cuerpo en `text` (o `translation` si existe) - nunca parafrasearla inventando énfasis que la reseña no tiene. Si no hay ninguna reseña relevante para ese tema puntual, no es un bloqueante ni una señal negativa (ver "Reputación ausente NO es señal negativa" más arriba); lo que sí está prohibido es dejar una sección de tipo "Testimonials" con un heading vacío o con prosa genérica sin cita real donde debería ir una.
 - **Posts de la categoría `News` como fuente de eventos anteriores (E-E-A-T - Experience):** al crear o actualizar contenido (posts del silo, páginas de paquete, servicios), consultar los posts existentes con `categories` que incluya `News` (`src/content/blog/*.svx`) como fuente de eventos reales ya desarrollados por MEG. Cuando un evento anterior sea relevante por contexto (tipo de evento, paquete, zona, temática), referenciarlo en el cuerpo del contenido y enlazar al post de noticia correspondiente (`/blog/<slug>/`). No inventar eventos ni detalles que el post de noticia no confirme.
@@ -365,6 +526,7 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
   | Packs destacados de la home | `getHomepageShowcasePackages()` |
   | Moneda / símbolo / IVA | `CURRENCY`, `CURRENCY_SYMBOL`, `VAT_RATE` |
 
+- **Nombres de paquete sin traducir:** el `name` de cada paquete es el mismo en los 14 idiomas, porque es la referencia común para cualquier cliente. Los campos de copy (`desc`, `includes`, `optional`, `seo.title`, `landing.*`) pasan de `{en, es}` a un valor por locale validado por Zod (pendiente, Fase 2).
 - **Un único nodo `#organization`:** el `priceRange` (y todo el NAP) se emite **solo** desde `buildLocalBusinessSchema()` en `src/lib/utils/schema.ts`, que lo deriva del catálogo. Las páginas que necesiten referirse a la empresa lo hacen **por `@id`** (`{'@id': '.../#organization'}`), nunca redefiniendo el nodo. Redefinirlo ya produjo dos verdades simultáneas (`'€€'` en `schema.ts` vs `'290€ - 650€'` en `/about-us/`, con direcciones distintas).
 - **Guard automático:** `src/lib/data/no-hardcoded-prices.test.ts` escanea todo `src/**` (excepto `src/content/**`, que es copy editorial) y **falla la suite** ante cualquier literal `€290` / `290 €` / `290 EUR`. Si tu cambio lo rompe, la solución es importar el helper - **no** ampliar el allowlist.
 
@@ -406,6 +568,9 @@ mantenimiento no es real.
   - Paquetes: campo `updated` en `src/lib/data/packages.ts` (validado por Zod).
   - Guard automático: `src/lib/data/sitemap-freshness.test.ts` falla la suite si una ruta o
     un paquete no declara su fecha. La solución es declarar la fecha, nunca ampliar un allowlist.
+  - Traducciones (pendiente, Fases 3 y 4): cada idioma lleva sus propias fechas, que alimentan
+    el sitemap de ese idioma, más `sourceUpdated` con la fecha de la versión inglesa que se
+    tradujo. `publishDate` de una traducción es la fecha en que se publicó esa traducción.
 
 ### 12. Sin Caracteres Tipográficos de IA (Mandatorio)
 
@@ -426,6 +591,11 @@ scripts.
 
 **Aclaración**: esto NO significa borrar tildes ni la ñ. `Málaga` y `configuración` son
 idioma, no tipografía de IA, y se mantienen. Solo se prohíben los caracteres de la tabla.
+
+**Chino**: la puntuación china de ancho completo (`，`, `。`, `、`, `「」` y el resto) también es
+idioma y queda exenta de la tabla en el contenido `zh-hans`, `zh-tw` y `zh-hk`. En los demás
+idiomas (francés, alemán, etc.) la tabla se aplica igual: comillas rectas, espacio normal y sin
+punto y coma.
 
 **Al tocar contenido existente**: si al crear o editar una página/post aparece alguno de estos
 caracteres en el contenido ya existente (no solo en lo nuevo que agregás), corregilo en el mismo
@@ -451,6 +621,11 @@ bun scripts/post-new.ts --title "Mi Post" --category "Events" --author "Hector L
 ```
 
 Esto crea `src/content/blog/<slug>.svx` con frontmatter válido y `draft: true`.
+
+**Posts en varios idiomas (pendiente, Fase 4):** `just post-new` va a crear el post inglés y sus
+13 traducciones como `draft` en `src/content/blog/<locale>/<slug-en>.svx`, y `just post-touch` va
+a avisar qué traducciones quedaron desactualizadas. Hasta que cierre la Fase 4, un post nuevo
+existe solo en inglés.
 
 ### Semántica de fechas
 
@@ -650,4 +825,4 @@ marcada `noindex`: es una herramienta interna. **Nunca se edita a mano** (no hay
   reverse silo (el análogo de `/local-seo:website-structure-review` para GBP/Core 30).
 
 Ambos delegan en el agente `reverse-silo-architect`. Son globales (`~/.claude/`): llevan solo
-metodología agnóstica y leen los hechos de MEG desde este `AGENTS.md` (Mode B).
+metodología agnóstica y leen los hechos de MEG desde este `CLAUDE.md` (Mode B).

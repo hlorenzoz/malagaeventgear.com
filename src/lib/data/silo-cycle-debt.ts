@@ -3,7 +3,7 @@
  *
  * `validateSiloGraph` (site-map.ts) detecta componentes fuertemente conexas (Tarjan) de 3+
  * nodos en el grafo de links `/blog/<slug>/` dentro del cuerpo de cada post: eso significa
- * que ese grupo de siblings se linkea en malla, no en cadena (AGENTS.md "cadena, no
+ * que ese grupo de siblings se linkea en malla, no en cadena (CLAUDE.md "cadena, no
  * todos-con-todos"). Al conectar ese chequeo contra el contenido real (2026-08-03) aparecio
  * UNA sola componente gigante de 60 nodos - el cluster primario de audio-visual-rental y el
  * cluster de wedding-rentals llevan años cross-linkeados como "related articles" sin la
@@ -21,7 +21,7 @@
  * audio-visual-rental-for-virtual-events.svx que era la única entrada de ese par reciproco
  * (audio-visual-rental-for-weddings <-> wedding-rentals, ya reciproco entre si) hacia la malla
  * gigante. Sin esa entrada, el par queda aislado como cadena de 2 nodos adyacentes - exactamente
- * el patron esperado (AGENTS.md "cadena, no todos-con-todos"), no un ciclo. La componente bajo de
+ * el patron esperado (CLAUDE.md "cadena, no todos-con-todos"), no un ciclo. La componente bajo de
  * 60 a 58 nodos; ambos slugs salieron de la signature de abajo. No es limpieza completa del
  * cluster (los otros 58 siguen en malla), es la reduccion real que este cambio puntual logro.
  *

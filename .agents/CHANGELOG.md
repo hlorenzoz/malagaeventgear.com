@@ -7,6 +7,15 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (i18n-plan-docs)
+- **Decidido el sitio multilingue: 14 idiomas.** Ingles en la raiz (sin cambios de URL) y 13 idiomas bajo prefijo: `es`, `fr`, `it`, `de`, `nl`, `pt-pt`, `pt-br` (contenido propio cada uno), `sv`, `da`, `nb` y chino en tres variantes (`zh-hans`, `zh-tw`, `zh-hk`). Solo documentacion (Fase 0). Todavia no cambia codigo.
+- **El espanol se reabre**: la decision de la manana del 2026-09-24 ("el sitio NO dara soporte al espanol") queda reemplazada. `keyword-silo-map.md` conserva sus cifras como linea base para medir el efecto de `/es/`.
+- **`CLAUDE.md`**: nuevas secciones "Idiomas soportados" (tabla de locales, reglas mandatorias, hechos del negocio) e "Internacionalizacion (i18n)" (citas textuales de Google Search Central y del PDF de Quality Raters, arquitectura objetivo, reglas de traduccion). Reglas existentes pasadas a por idioma: sitemaps (§2), idiomas (§4), contenido (§5), nombres de paquete (§7), frescura (§11), tipografia china (§12) y alta de posts.
+- **Reglas mandatorias nuevas**: todo contenido nuevo se crea en los 14 idiomas en el mismo cambio, y toda edicion del ingles se propaga a los 13 restantes (guard de `sourceUpdated`, pendiente). Agregar o quitar un idioma es decision explicita del usuario.
+- **Hechos del negocio confirmados**: MEG atiende solo en ingles y espanol (cada pagina en otro idioma lo aclara, y `availableLanguage` declara solo `en` y `es`). En las paginas legales prevalece la version inglesa. Los nombres de paquete no se traducen.
+- **Verificado, sin redirects**: Google nunca indexo URLs en espanol ni con prefijo de idioma (WordPress era solo ingles, y GSC no muestra ninguna). Ninguna regla de `_redirects` ni de `hooks.server.ts` choca con los prefijos nuevos. Trampa documentada: `/essential-items-for-wedding-rentals/` empieza con `/es`, asi que el locale se detecta por segmento completo.
+- **Hechos desactualizados corregidos**: la fila "Hreflang NO existe" ahora describe tambien la arquitectura objetivo, `src/lib/i18n/` ya no existe (borrado en `2271787`) y el build tiene 93 HTML, no 92. Lo mismo en `docs/CLAUDE.md` y `openspec/config.yaml`.
+
 ### Fixed (keyword-map-sample-size-correction)
 - **Corregidos 6 findings de una revision de codigo sobre `keyword-silo-map.md` y `tv-screen-rental.svx`.** Cinco eran el mismo error con distinta ropa: **una posicion promediada sobre 1 impresion tratada como prueba de cobertura**, en un documento cuya propia tabla de salud dice en negrita que el 68% de las impresiones vive en posicion 21+, donde el clic no existe. La aritmetica estaba bien, la inferencia no.
 - **El caso concreto**: `conference equipment rental` figuraba como "pos 3" cerrando un cluster de 49 impresiones. Tiene **1 impresion**. `wedding equipment hire` figuraba como "pos 4" cerrando 72 impresiones. Tiene **1 impresion**. `lighting hire` se marco en negrita como pos **1** cuando es pos **1,75** (pos 1 es otra consulta, `lighting for hire`); el mismo dato erroneo se habia repetido en el CHANGELOG y tambien se corrigio.

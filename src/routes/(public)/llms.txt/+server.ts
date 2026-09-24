@@ -7,7 +7,7 @@ import type { RequestHandler } from './$types';
  * /llms.txt — llms.txt standard (llmstxt.org, Jeremy Howard 2024).
  *
  * Generated dynamically instead of shipped as a static file so that package
- * prices, guest limits and blog categories are NEVER duplicated (AGENTS.md §7:
+ * prices, guest limits and blog categories are NEVER duplicated (CLAUDE.md §7:
  * "Ningún componente o página debe harcodear o duplicar datos de paquetes").
  * A stale price here is worse than a stale price on a page: AI assistants quote
  * it to customers as fact.

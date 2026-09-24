@@ -4,7 +4,7 @@ schema: spec-driven
 context: |
   Tech stack: SvelteKit 2 + Svelte 5 (runes), TypeScript, Tailwind v4, Zod, PWA.
   Hosting: Cloudflare via @sveltejs/adapter-cloudflare (Web APIs only, no Node built-ins).
-  Architecture: prerendered static site; data in src/lib/data/*.ts (Zod-validated); i18n EN/ES.
+  Architecture: prerendered static site. Data in src/lib/data/*.ts (Zod validated). i18n EN/ES client side today, target 14 locales under URL prefixes with hreflang (see CLAUDE.md, Idiomas soportados).
   Testing: Vitest unit (bun run test, 243 tests) + Playwright E2E (tests/).
   Style: <script lang="ts">, runes only, UI text via i18n, SeoHead for JSON-LD.
 

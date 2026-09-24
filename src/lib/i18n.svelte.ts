@@ -175,7 +175,7 @@ export const translations = {
 		},
 		// Packages Showcase.
 		// Solo copy genérico: nombres, precios, descripciones y features de cada pack
-		// se derivan de packages.ts (AGENTS.md §7). Este bloque llegó a tener
+		// se derivan de packages.ts (CLAUDE.md §7). Este bloque llegó a tener
 		// `ecoPrice: '€290'`, `weddingTitle`, `ecoF1`… duplicados en EN y ES; nadie los
 		// consumía y ya divergían del catálogo (p. ej. no existían las claves de los
 		// packs Product Presentation y Basic MICE).

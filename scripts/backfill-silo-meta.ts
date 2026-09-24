@@ -7,7 +7,7 @@
  *   bun scripts/backfill-silo-meta.ts --dry-run   # muestra el plan, no escribe
  *   bun scripts/backfill-silo-meta.ts             # aplica los cambios
  *
- * Reglas (ver AGENTS.md "Reverse Silo del Blog"):
+ * Reglas (ver CLAUDE.md "Reverse Silo del Blog"):
  *  - Filas "Supporting Keyword" del CSV -> siloRole: supporting; keyword = col Keyword;
  *    targetPage = col Top-level page link traducida de raiz vieja a /blog/<pilar>/.
  *  - Filas "Top-Level Keyword" + el pilar AV del bloque cabecera (audio-visual-rental) ->

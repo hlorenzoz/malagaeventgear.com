@@ -4,7 +4,7 @@ import { siteConfig } from './site';
 /**
  * Guard: the home <title> and <h1> carry the Google Business Profile PRIMARY category.
  *
- * Core 30 / GBP methodology (AGENTS.md, "SEO y Contenido"): the site hierarchy mirrors the
+ * Core 30 / GBP methodology (CLAUDE.md, "SEO y Contenido"): the site hierarchy mirrors the
  * profile hierarchy, and the home page is the node for the primary category. That category
  * is `siteConfig.categories[0]`, verified against the live profile.
  *

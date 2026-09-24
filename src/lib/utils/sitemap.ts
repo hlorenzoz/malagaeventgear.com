@@ -1,7 +1,7 @@
 /**
  * Helpers compartidos por los endpoints de sitemap.
  *
- * Frescura (AGENTS.md §11): la fecha de <lastmod> vive AL LADO del contenido, nunca
+ * Frescura (CLAUDE.md §11): la fecha de <lastmod> vive AL LADO del contenido, nunca
  * como un timestamp de build. Para las paginas estaticas eso significa un `meta.ts`
  * colocado junto a cada ruta (`export const contentUpdated = 'YYYY-MM-DD'`); para los
  * paquetes, el campo `updated` del catalogo. Emitir `new Date()` esta prohibido: le

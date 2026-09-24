@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { packages } from './packages';
 
 /**
- * Guard test for AGENTS.md §7 — "Prohibido duplicar datos".
+ * Guard test for CLAUDE.md §7 — "Prohibido duplicar datos".
  *
  * Scans application source for literal package prices. A unit test cannot stop a
  * developer typing `€290` into a component, but this makes the suite fail the
@@ -12,7 +12,7 @@ import { packages } from './packages';
  * Sources are read with Vite's `import.meta.glob` rather than `node:fs`: this
  * project restricts `tsconfig.types` to the Cloudflare Workers definitions on
  * purpose, so Node globals are not (and should not be) typed here — the same
- * reason AGENTS.md §3 mandates `import.meta.glob` for build-time file reads.
+ * reason CLAUDE.md §3 mandates `import.meta.glob` for build-time file reads.
  *
  * Scope note: `src/content/**` (published blog prose) and `post-faqs.json`
  * (snapshots of that prose) are editorial copy with their own revision history —

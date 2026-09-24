@@ -10,7 +10,7 @@ import { describe, it, expect } from 'vitest';
  * fix is `$env/static/public`, which inlines the value into the built bundle at build time.
  * This test makes sure the import never quietly comes back.
  *
- * Sources are read with Vite's `import.meta.glob` rather than `node:fs`, per AGENTS.md §3 /
+ * Sources are read with Vite's `import.meta.glob` rather than `node:fs`, per CLAUDE.md §3 /
  * the pattern established in `no-hardcoded-prices.test.ts`.
  */
 

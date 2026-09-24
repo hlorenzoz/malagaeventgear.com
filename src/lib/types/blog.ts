@@ -24,7 +24,7 @@ export const BlogPostSchema = z.object({
 	//   - the visible "Updated" date on the post   (src/lib/layouts/BlogPost.svelte)
 	//   - category / author page lastmod           (maxLastmod in src/lib/data/blog-pipeline.ts)
 	//   - the live site map at /map                 (src/lib/data/site-map.ts)
-	// Bump only on a real content change, never on a build (AGENTS.md 11).
+	// Bump only on a real content change, never on a build (CLAUDE.md 11).
 	updatedDate: z
 		.string()
 		.datetime({ offset: true })
@@ -35,7 +35,7 @@ export const BlogPostSchema = z.object({
 	categories: z.array(z.string()).default([]),
 	tags: z.array(z.string()).default([]),
 	draft: z.boolean().optional().default(false),
-	// --- Reverse silo metadata (see AGENTS.md "Reverse Silo del Blog") ---
+	// --- Reverse silo metadata (see CLAUDE.md "Reverse Silo del Blog") ---
 	// keyword: the POP target keyword phrase. By convention it matches the slug under
 	// /blog/, except a few near-me posts whose slug carries a location suffix.
 	keyword: z.string().optional(),
