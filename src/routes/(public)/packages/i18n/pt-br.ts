@@ -14,6 +14,6 @@ export default {
 		title: 'Perguntas frequentes',
 		question: 'Os preços dos pacotes incluem IVA?',
 		answer:
-			'Não, os preços listados não incluem o IVA. Como indicado por (+21% IVA) ao lado das tarifas, o IVA espanhol padrão de 21% será aplicado sobre o preço do pacote. Seu orçamento final mostrará tanto o preço líquido quanto o detalhamento do IVA com 100% de transparência.'
+			'Não, os preços listados não incluem o IVA. Como indicado por (+{vat} IVA) ao lado das tarifas, o IVA espanhol padrão de {vat} será aplicado sobre o preço do pacote. Seu orçamento final mostrará tanto o preço líquido quanto o detalhamento do IVA com 100% de transparência.'
 	}
 } satisfies Copy;

@@ -103,7 +103,7 @@ const t = {
 		check: 'Verfügbarkeit prüfen',
 		mostPopular: 'Am beliebtesten',
 		from: 'Ab',
-		plusVat: '(zzgl. 21% MwSt.)',
+		plusVat: '(zzgl. {vat} MwSt.)',
 		plusVatShort: '(zzgl. MwSt.)',
 		bookPack: 'Buchen'
 	},
@@ -265,7 +265,7 @@ const t = {
 		emailFailDismiss: 'Schließen',
 		countryCode: 'Landesvorwahl',
 		responseTime: 'Wir antworten so schnell wie möglich',
-		trustBadge: 'Bewährt bei über 500 Veranstaltungen in Malaga'
+		trustBadge: '{clients} zufriedene Kunden vertrauen uns'
 	},
 	thankYou: {
 		headline: 'Vielen Dank! Ihre Anfrage ist unterwegs.',

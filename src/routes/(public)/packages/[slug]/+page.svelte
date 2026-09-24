@@ -7,7 +7,7 @@
 	import { i18n } from '$lib/i18n.svelte';
 	import { pkgCopy } from '$lib/i18n/data-copy.svelte';
 	import { siteConfig } from '$lib/data/site';
-	import { getPackageBySlug, formatPrice, withPrices } from '$lib/data/packages';
+	import { getPackageBySlug, formatPrice } from '$lib/data/packages';
 	import type { PageData } from './$types';
 	import { buildServiceSchema, buildFAQSchema } from '$lib/utils/schema';
 	import ShareThis from '$lib/components/blog/ShareThis.svelte';
@@ -44,7 +44,7 @@
 	// Localized package-specific FAQs (objection handling)
 	const packageFaqs = $derived([
 		{ q: pageCopy.faqs.delivery.q, a: withPkgNames(pageCopy.faqs.delivery.a) },
-		{ q: pageCopy.faqs.areas.q, a: withPrices(pageCopy.faqs.areas.a, i18n.lang) },
+		{ q: pageCopy.faqs.areas.q, a: pageCopy.faqs.areas.a },
 		{ q: pageCopy.faqs.rain.q, a: pageCopy.faqs.rain.a },
 		{ q: pageCopy.faqs.technician.q, a: withPkgNames(pageCopy.faqs.technician.a) }
 	]);

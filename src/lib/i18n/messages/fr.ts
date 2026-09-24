@@ -76,7 +76,7 @@ const t = {
 			'Aux couples qui préparent leur mariage, aux entreprises qui organisent des conférences et des événements professionnels, et à toute personne qui organise une fête ou une célébration privée et souhaite un son et un éclairage parfaits sans acheter le matériel.',
 		costQ: 'Quel est le tarif ?',
 		costA:
-			'des forfaits à prix fixe sans frais cachés, adaptés à la taille de votre événement, ainsi que des devis sur mesure pour les productions plus importantes.',
+			'Des forfaits à prix fixe sans frais cachés, adaptés à la taille de votre événement, ainsi que des devis sur mesure pour les productions plus importantes.',
 		costFrom: 'À partir de',
 		howQ: 'Comment ça se passe ?',
 		howA:
@@ -117,7 +117,7 @@ const t = {
 		check: 'Vérifier la disponibilité',
 		mostPopular: 'Le plus demandé',
 		from: 'À partir de',
-		plusVat: '(+21% TVA)',
+		plusVat: '(+{vat} TVA)',
 		plusVatShort: '(+TVA)',
 		bookPack: 'Réserver'
 	},
@@ -291,7 +291,7 @@ const t = {
 		emailFailDismiss: 'Fermer',
 		countryCode: 'Indicatif du pays',
 		responseTime: 'Nous répondons dans les plus brefs délais',
-		trustBadge: 'Déjà plus de 500 événements réalisés à Malaga'
+		trustBadge: 'Déjà {clients} clients nous font confiance'
 	},
 	// Thank-you page
 	thankYou: {

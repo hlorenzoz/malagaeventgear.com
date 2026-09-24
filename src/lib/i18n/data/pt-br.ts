@@ -16,7 +16,7 @@ export default {
 			landing: {
 				badge: 'Eventos pequenos e festas',
 				rateLabel: 'Tarifa acessível com tudo incluído',
-				vatNote: '(+21% IVA). Montagem e transporte incluídos.',
+				vatNote: '(+{vat} IVA). Montagem e transporte incluídos.',
 				specTitle: 'Até 50 convidados',
 				specBody: 'Perfeito para casas de campo, jardins e salões particulares.',
 				highlightTitle: 'Serviço sem complicações',
@@ -47,7 +47,7 @@ export default {
 			landing: {
 				badge: 'Nosso pacote de celebração mais popular',
 				rateLabel: 'Tarifa premium com tudo incluído',
-				vatNote: '(+21% IVA). Montagem e suporte ao vivo incluídos.',
+				vatNote: '(+{vat} IVA). Montagem e suporte ao vivo incluídos.',
 				specTitle: 'Até 80 convidados',
 				specBody: 'Perfeito para belas casas de campo, fazendas e hotéis para casamento.',
 				highlightTitle: 'Técnico ao vivo no local',
@@ -73,7 +73,7 @@ export default {
 			landing: {
 				badge: 'Soluções corporativas de alto impacto visual',
 				rateLabel: 'Tarifa fixa do Presentation Pack',
-				vatNote: '(+21% IVA). Projetor e tela incluídos.',
+				vatNote: '(+{vat} IVA). Projetor e tela incluídos.',
 				specTitle: 'Projetor de alto brilho',
 				specBody: 'Projetor de 5000 lumens, ideal para salas iluminadas.',
 				highlightTitle: 'Identidade corporativa impecável',
@@ -104,7 +104,7 @@ export default {
 			landing: {
 				badge: 'Pacotes essenciais para reuniões executivas',
 				rateLabel: 'Tarifa fixa para reuniões corporativas',
-				vatNote: '(+21% IVA). Montagem e transporte incluídos.',
+				vatNote: '(+{vat} IVA). Montagem e transporte incluídos.',
 				specTitle: 'Até 40 convidados',
 				specBody: 'Pensado para salas de diretoria, salões particulares e suítes de hotel.',
 				highlightTitle: 'Clareza total na fala',
@@ -137,7 +137,7 @@ export default {
 			landing: {
 				badge: 'Experiência MICE corporativa premium',
 				rateLabel: 'Tarifa corporativa com tudo incluído',
-				vatNote: '(+21% IVA). Tela de LED, som e técnico ao vivo incluídos.',
+				vatNote: '(+{vat} IVA). Tela de LED, som e técnico ao vivo incluídos.',
 				specTitle: 'Tela de LED de 60 polegadas',
 				specBody: 'Tela de grande formato em alta definição para visuais corporativos de impacto.',
 				highlightTitle: 'Técnico dedicado ao vivo',
@@ -172,7 +172,7 @@ export default {
 			question:
 				'O que torna a Malaga Event Gear (MEG) diferente das outras empresas de aluguel de equipamento audiovisual?',
 			answer:
-				'A MEG se diferencia por uma abordagem prática e centrada no cliente: um técnico dedicado no local para cada reserva, equipamento de marcas premium e preços transparentes com tudo incluído. Estamos caminhando para uma experiência de reserva 100% online, com preços fixos padronizados e transações totalmente transparentes.'
+				'A MEG se diferencia por uma abordagem prática e centrada no cliente: entrega e montagem profissional pela nossa própria equipe em cada reserva, um técnico no local incluído no Wedding Pack e no MICE Pack, equipamento de marcas premium e preços transparentes com tudo incluído. Estamos caminhando para uma experiência de reserva 100% online, com preços fixos padronizados e transações totalmente transparentes.'
 		},
 		'booking-process': {
 			question: 'Como funciona o processo de reserva com a Malaga Event Gear?',
@@ -202,7 +202,7 @@ export default {
 		'vat-pricing': {
 			question: 'Os preços dos pacotes incluem IVA?',
 			answer:
-				'Não, os preços listados não incluem o IVA. Como indicado por (+21% IVA) ao lado das tarifas, o IVA espanhol padrão de 21% será aplicado sobre o preço do pacote. Seu orçamento final mostrará tanto o preço líquido quanto o detalhamento do IVA com 100% de transparência.'
+				'Não, os preços listados não incluem o IVA. Como indicado por (+{vat} IVA) ao lado das tarifas, o IVA espanhol padrão de {vat} será aplicado sobre o preço do pacote. Seu orçamento final mostrará tanto o preço líquido quanto o detalhamento do IVA com 100% de transparência.'
 		},
 		'on-site-technician': {
 			question: 'Vocês fornecem um técnico no local durante o evento?',

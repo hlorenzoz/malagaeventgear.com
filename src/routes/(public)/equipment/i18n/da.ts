@@ -34,11 +34,11 @@ const copy = {
 	},
 	audio: {
 		imageAlt: 'Professionelt lydudstyr til udlejning',
-		desc: 'Line array-systemer, aktive højttalere, digitale mixerpulte og trådløse Audix-mikrofoner til høj akustisk kvalitet.'
+		desc: 'Aktive og passive HK Audio-højttalere med subwoofere, digitale mixerpulte og trådløse Audix-mikrofoner til høj akustisk kvalitet.'
 	},
 	lighting: {
 		imageAlt: 'Imponerende belysningsudstyr til events',
-		desc: 'LED-spots i RGBW, specialiseret scenebelysning og et trådløst sæt til uplighting, der skaber romantiske eller energiske stemninger.'
+		desc: 'LED-lysbjælker, en Fresnel-spot med zoom og et trådløst sæt til uplighting, der skaber romantiske eller energiske stemninger.'
 	},
 	visuals: {
 		imageAlt: 'HD-projektorer og lærreder til udlejning',

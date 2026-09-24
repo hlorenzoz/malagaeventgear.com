@@ -14,6 +14,6 @@ export default {
 		title: 'Häufig gestellte Fragen',
 		question: 'Sind Ihre Paketpreise inklusive Mehrwertsteuer?',
 		answer:
-			'Nein, die angegebenen Preise verstehen sich ohne Mehrwertsteuer. Wie der Hinweis (zzgl. 21% MwSt.) neben den Preisen zeigt, wird die reguläre spanische Mehrwertsteuer (IVA) von 21 % auf den Paketpreis aufgeschlagen. Ihr endgültiges Angebot zeigt sowohl den Nettopreis als auch die MwSt.-Aufschlüsselung, vollständig transparent.'
+			'Nein, die angegebenen Preise verstehen sich ohne Mehrwertsteuer. Wie der Hinweis (zzgl. {vat} MwSt.) neben den Preisen zeigt, wird die reguläre spanische Mehrwertsteuer (IVA) von {vat} auf den Paketpreis aufgeschlagen. Ihr endgültiges Angebot zeigt sowohl den Nettopreis als auch die MwSt.-Aufschlüsselung, vollständig transparent.'
 	}
 } satisfies Copy;

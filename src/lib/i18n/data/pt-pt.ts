@@ -16,7 +16,7 @@ export default {
 			landing: {
 				badge: 'Pequenos eventos e festas',
 				rateLabel: 'Tarifa acessível com tudo incluído',
-				vatNote: '(+21% IVA), montagem e transporte incluídos',
+				vatNote: '(+{vat} IVA), montagem e transporte incluídos',
 				specTitle: 'Até 50 convidados',
 				specBody: 'Perfeito para moradias, jardins e salões privados.',
 				highlightTitle: 'Serviço sem complicações',
@@ -47,7 +47,7 @@ export default {
 			landing: {
 				badge: 'O nosso pacote de celebração mais popular',
 				rateLabel: 'Tarifa premium com tudo incluído',
-				vatNote: '(+21% IVA), montagem e apoio ao vivo incluídos',
+				vatNote: '(+{vat} IVA), montagem e apoio ao vivo incluídos',
 				specTitle: 'Até 80 convidados',
 				specBody: 'Perfeito para moradias deslumbrantes, quintas e hotéis de casamento.',
 				highlightTitle: 'Técnico ao vivo no local',
@@ -73,7 +73,7 @@ export default {
 			landing: {
 				badge: 'Soluções corporativas de elevado impacto visual',
 				rateLabel: 'Tarifa fixa do Presentation Pack',
-				vatNote: '(+21% IVA), projetor e tela incluídos',
+				vatNote: '(+{vat} IVA), projetor e tela incluídos',
 				specTitle: 'Projetor de alto brilho',
 				specBody: 'Projetor de 5000 lumens, ideal para salas com luz.',
 				highlightTitle: 'Imagem corporativa impecável',
@@ -104,7 +104,7 @@ export default {
 			landing: {
 				badge: 'Pacotes essenciais para reuniões executivas',
 				rateLabel: 'Tarifa fixa para reuniões corporativas',
-				vatNote: '(+21% IVA), montagem e transporte incluídos',
+				vatNote: '(+{vat} IVA), montagem e transporte incluídos',
 				specTitle: 'Até 40 convidados',
 				specBody: 'Concebido para salas de reunião, salões privados e suites de hotel.',
 				highlightTitle: 'Clareza total na fala',
@@ -137,7 +137,7 @@ export default {
 			landing: {
 				badge: 'Experiência MICE corporativa premium',
 				rateLabel: 'Tarifa corporativa com tudo incluído',
-				vatNote: '(+21% IVA), ecrã LED, som e técnico ao vivo incluídos',
+				vatNote: '(+{vat} IVA), ecrã LED, som e técnico ao vivo incluídos',
 				specTitle: 'Ecrã LED de 60 polegadas',
 				specBody: 'Ecrã de grande formato em alta definição para imagens corporativas de grande impacto.',
 				highlightTitle: 'Técnico ao vivo dedicado',
@@ -171,7 +171,7 @@ export default {
 		'what-makes-unique': {
 			question: 'O que torna a Malaga Event Gear (MEG) única em comparação com outras empresas de aluguer audiovisual?',
 			answer:
-				'A MEG diferencia-se por uma abordagem centrada no cliente e simplificada: um técnico dedicado no local em cada reserva, equipamento de marcas premium e preços transparentes com tudo incluído. Estamos a evoluir para uma experiência de reserva 100% online, com preços fixos padronizados e transações totalmente transparentes.'
+				'A MEG diferencia-se por uma abordagem centrada no cliente e simplificada: entrega e montagem profissional pela nossa própria equipa em cada reserva, um técnico no local incluído no Wedding Pack e no MICE Pack, equipamento de marcas premium e preços transparentes com tudo incluído. Estamos a evoluir para uma experiência de reserva 100% online, com preços fixos padronizados e transações totalmente transparentes.'
 		},
 		'booking-process': {
 			question: 'Como funciona o processo de reserva com a Malaga Event Gear?',
@@ -201,7 +201,7 @@ export default {
 		'vat-pricing': {
 			question: 'Os preços dos vossos pacotes incluem IVA?',
 			answer:
-				'Não, os preços apresentados não incluem IVA. Conforme indicado por (+21% IVA) junto às tarifas, aplica-se o IVA espanhol padrão de 21% sobre o preço do pacote. O seu orçamento final mostrará o preço líquido e a discriminação do IVA com 100% de transparência.'
+				'Não, os preços apresentados não incluem IVA. Conforme indicado por (+{vat} IVA) junto às tarifas, aplica-se o IVA espanhol padrão de {vat} sobre o preço do pacote. O seu orçamento final mostrará o preço líquido e a discriminação do IVA com 100% de transparência.'
 		},
 		'on-site-technician': {
 			question: 'Disponibilizam um técnico no local durante o evento?',

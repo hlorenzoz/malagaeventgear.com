@@ -31,7 +31,7 @@ export default {
 	booking: {
 		title: 'Buchung, Preise & Sicherheit',
 		p1: 'Alle Leistungen müssen mindestens 24 Stunden im Voraus gebucht werden. Zur endgültigen Buchung muss der Kunde den genauen Ort und Zeitpunkt der Veranstaltung angeben.',
-		p2: 'Alle auf unserer Website aufgeführten Preise verstehen sich zzgl. 21 % Mehrwertsteuer. Wir garantieren, dass alle Zahlungstransaktionen zu 100 % sicher sind und über vertrauenswürdige Zahlungsanbieter abgewickelt werden.'
+		p2: 'Alle auf unserer Website aufgeführten Preise verstehen sich zzgl. {vat} Mehrwertsteuer. Wir garantieren, dass alle Zahlungstransaktionen zu 100 % sicher sind und über vertrauenswürdige Zahlungsanbieter abgewickelt werden.'
 	},
 	obligations: {
 		title: 'Kundenpflichten & Verantwortung für die Technik',

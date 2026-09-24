@@ -16,7 +16,7 @@ export default {
 			landing: {
 				badge: 'Mindre arrangementer og fester',
 				rateLabel: 'Rimelig totalpris med alt inkludert',
-				vatNote: '(+21% MVA), installasjon og transport inkludert',
+				vatNote: '(+{vat} MVA), installasjon og transport inkludert',
 				specTitle: 'Opptil 50 gjester',
 				specBody: 'Perfekt for villaer, hager og private lokaler.',
 				highlightTitle: 'Stressfri service',
@@ -47,7 +47,7 @@ export default {
 			landing: {
 				badge: 'Vår mest populære pakke for feiringer',
 				rateLabel: 'Totalpris i premiumklasse, alt inkludert',
-				vatNote: '(+21% MVA), installasjon og support på stedet inkludert',
+				vatNote: '(+{vat} MVA), installasjon og support på stedet inkludert',
 				specTitle: 'Opptil 80 gjester',
 				specBody: 'Perfekt for vakre villaer, fincas og bryllupshoteller.',
 				highlightTitle: 'Tekniker på stedet under hele arrangementet',
@@ -73,7 +73,7 @@ export default {
 			landing: {
 				badge: 'Bedriftsløsninger med stort visuelt inntrykk',
 				rateLabel: 'Fastpris for presentasjonspakken',
-				vatNote: '(+21% MVA), prosjektor og lerret inkludert',
+				vatNote: '(+{vat} MVA), prosjektor og lerret inkludert',
 				specTitle: 'Prosjektor med høy lysstyrke',
 				specBody: 'Prosjektor på 5000 lumen, ideell for lyse rom.',
 				highlightTitle: 'Feilfri profilering for bedriften',
@@ -104,7 +104,7 @@ export default {
 			landing: {
 				badge: 'Grunnleggende pakke for ledermøter',
 				rateLabel: 'Fastpris for bedriftsmøter',
-				vatNote: '(+21% MVA), installasjon og transport inkludert',
+				vatNote: '(+{vat} MVA), installasjon og transport inkludert',
 				specTitle: 'Opptil 40 gjester',
 				specBody: 'Utformet for styrerom, private saler og hotellsuiter.',
 				highlightTitle: 'Tydelig taleforståelighet',
@@ -137,7 +137,7 @@ export default {
 			landing: {
 				badge: 'MICE-opplevelse i premiumklasse for bedrifter',
 				rateLabel: 'Totalpris for bedrifter, alt inkludert',
-				vatNote: '(+21% MVA), LED-skjerm, lyd og tekniker på stedet inkludert',
+				vatNote: '(+{vat} MVA), LED-skjerm, lyd og tekniker på stedet inkludert',
 				specTitle: 'LED-skjerm på 60 tommer',
 				specBody: 'Storformatsskjerm i høy oppløsning som gir bedriftens visuelle presentasjoner et solid løft.',
 				highlightTitle: 'Dedikert tekniker på stedet',
@@ -171,7 +171,7 @@ export default {
 		'what-makes-unique': {
 			question: 'Hva gjør Malaga Event Gear (MEG) unikt sammenlignet med andre selskaper som leier ut lyd- og bildeutstyr?',
 			answer:
-				'MEG skiller seg ut med en kundefokusert og strømlinjeformet tilnærming: en dedikert tekniker på stedet ved hver booking, utstyr fra førsteklasses merker og transparente totalpriser. Vi beveger oss mot en heldigital bookingopplevelse med standardiserte faste priser og fullt transparente transaksjoner.'
+				'MEG skiller seg ut med en kundefokusert og strømlinjeformet tilnærming: levering og profesjonell installasjon av vårt eget team ved hver booking, en tekniker på stedet inkludert i Wedding Pack og MICE Pack, utstyr fra førsteklasses merker og transparente totalpriser. Vi beveger oss mot en heldigital bookingopplevelse med standardiserte faste priser og fullt transparente transaksjoner.'
 		},
 		'booking-process': {
 			question: 'Hvordan fungerer bookingprosessen hos Malaga Event Gear?',
@@ -201,7 +201,7 @@ export default {
 		'vat-pricing': {
 			question: 'Inkluderer pakkeprisene deres MVA?',
 			answer:
-				'Nei, de oppgitte prisene inkluderer ikke MVA. Som angitt med (+21% MVA) ved siden av prisene, kommer den spanske standardsatsen på 21% MVA (IVA) i tillegg til pakkeprisen. Det endelige tilbudet ditt viser både nettopris og MVA-oppdeling med full åpenhet.'
+				'Nei, de oppgitte prisene inkluderer ikke MVA. Som angitt med (+{vat} MVA) ved siden av prisene, kommer den spanske standardsatsen på {vat} MVA (IVA) i tillegg til pakkeprisen. Det endelige tilbudet ditt viser både nettopris og MVA-oppdeling med full åpenhet.'
 		},
 		'on-site-technician': {
 			question: 'Tilbyr dere en tekniker på stedet under arrangementet?',

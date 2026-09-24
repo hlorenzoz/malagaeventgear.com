@@ -16,7 +16,7 @@ export default {
 			landing: {
 				badge: 'Kleine Veranstaltungen & Feiern',
 				rateLabel: 'Günstiger Komplettpreis',
-				vatNote: '(zzgl. 21% MwSt.), Aufbau und Transport inbegriffen',
+				vatNote: '(zzgl. {vat} MwSt.), Aufbau und Transport inbegriffen',
 				specTitle: 'Bis zu 50 Gäste',
 				specBody: 'Perfekt für Villen, Gärten und private Räumlichkeiten.',
 				highlightTitle: 'Stressfreier Service',
@@ -47,7 +47,7 @@ export default {
 			landing: {
 				badge: 'Unser beliebtestes Feierpaket',
 				rateLabel: 'Premiumpaket zum Komplettpreis',
-				vatNote: '(zzgl. 21% MwSt.), Aufbau und Betreuung vor Ort inbegriffen',
+				vatNote: '(zzgl. {vat} MwSt.), Aufbau und Betreuung vor Ort inbegriffen',
 				specTitle: 'Bis zu 80 Gäste',
 				specBody: 'Perfekt für wunderschöne Villen, Fincas und Hochzeitshotels.',
 				highlightTitle: 'Techniker vor Ort',
@@ -73,7 +73,7 @@ export default {
 			landing: {
 				badge: 'Unternehmenslösungen mit hoher visueller Wirkung',
 				rateLabel: 'Pauschalpreis für das Presentation Pack',
-				vatNote: '(zzgl. 21% MwSt.), Beamer und Leinwand inbegriffen',
+				vatNote: '(zzgl. {vat} MwSt.), Beamer und Leinwand inbegriffen',
 				specTitle: 'Lichtstarker Beamer',
 				specBody: 'Beamer mit 5000 Lumen, ideal für helle Räume.',
 				highlightTitle: 'Makelloser Markenauftritt',
@@ -104,7 +104,7 @@ export default {
 			landing: {
 				badge: 'Grundausstattung für Führungskräftetreffen',
 				rateLabel: 'Pauschalpreis für Firmenmeetings',
-				vatNote: '(zzgl. 21% MwSt.), Aufbau und Transport inbegriffen',
+				vatNote: '(zzgl. {vat} MwSt.), Aufbau und Transport inbegriffen',
 				specTitle: 'Bis zu 40 Gäste',
 				specBody: 'Konzipiert für Konferenzräume, private Salons und Hotelsuiten.',
 				highlightTitle: 'Klare Sprachverständlichkeit',
@@ -137,7 +137,7 @@ export default {
 			landing: {
 				badge: 'Erstklassiges MICE-Erlebnis für Unternehmen',
 				rateLabel: 'Komplettpreis für Unternehmen',
-				vatNote: '(zzgl. 21% MwSt.), LED-Display, Beschallung und Techniker vor Ort inbegriffen',
+				vatNote: '(zzgl. {vat} MwSt.), LED-Display, Beschallung und Techniker vor Ort inbegriffen',
 				specTitle: '60-Zoll-LED-Display',
 				specBody: 'Großformatiges HD-Display für eindrucksvolle Unternehmenspräsentationen.',
 				highlightTitle: 'Fester Techniker vor Ort',
@@ -172,7 +172,7 @@ export default {
 			question:
 				'Was macht Malaga Event Gear (MEG) im Vergleich zu anderen Verleihfirmen für audiovisuelle Technik einzigartig?',
 			answer:
-				'MEG hebt sich durch einen kundenorientierten und unkomplizierten Ansatz ab: einen festen Techniker vor Ort für jede Buchung, hochwertige Markentechnik und transparente Komplettpreise. Wir arbeiten daran, den Buchungsprozess zu 100 % online mit standardisierten Festpreisen und vollständig transparenten Transaktionen anzubieten.'
+				'MEG hebt sich durch einen kundenorientierten und unkomplizierten Ansatz ab: Lieferung und professionellen Aufbau durch unser eigenes Team bei jeder Buchung, einen Techniker vor Ort, der im Wedding Pack und im MICE Pack inbegriffen ist, hochwertige Markentechnik und transparente Komplettpreise. Wir arbeiten daran, den Buchungsprozess zu 100 % online mit standardisierten Festpreisen und vollständig transparenten Transaktionen anzubieten.'
 		},
 		'booking-process': {
 			question: 'Wie läuft der Buchungsprozess bei Malaga Event Gear ab?',
@@ -202,7 +202,7 @@ export default {
 		'vat-pricing': {
 			question: 'Sind Ihre Paketpreise inklusive Mehrwertsteuer?',
 			answer:
-				'Nein, die angegebenen Preise verstehen sich ohne Mehrwertsteuer. Wie der Hinweis (zzgl. 21% MwSt.) neben den Preisen zeigt, wird die reguläre spanische Mehrwertsteuer (IVA) von 21 % auf den Paketpreis aufgeschlagen. Ihr endgültiges Angebot zeigt sowohl den Nettopreis als auch die MwSt.-Aufschlüsselung, vollständig transparent.'
+				'Nein, die angegebenen Preise verstehen sich ohne Mehrwertsteuer. Wie der Hinweis (zzgl. {vat} MwSt.) neben den Preisen zeigt, wird die reguläre spanische Mehrwertsteuer (IVA) von {vat} auf den Paketpreis aufgeschlagen. Ihr endgültiges Angebot zeigt sowohl den Nettopreis als auch die MwSt.-Aufschlüsselung, vollständig transparent.'
 		},
 		'on-site-technician': {
 			question: 'Stellen Sie während der Veranstaltung einen Techniker vor Ort?',

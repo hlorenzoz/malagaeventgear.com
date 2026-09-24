@@ -88,7 +88,7 @@
 
 			<!-- Satisfied Clients Card -->
 			<div class="glass-panel rounded-xl p-8 flex-1 flex flex-col justify-center text-center">
-				<span class="text-display-md font-bold text-electric-blue mb-2">{formatNumber(1000, i18n.lang)}+</span>
+				<span class="text-display-md font-bold text-electric-blue mb-2">{formatNumber(siteConfig.clientCount, i18n.lang)}+</span>
 				<h3 class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider">
 					{copy.stats.clientsTitle}
 				</h3>

@@ -34,11 +34,11 @@ const copy = {
 	},
 	audio: {
 		imageAlt: 'Attrezzatura audio professionale a noleggio',
-		desc: "Sistemi line array, casse attive, mixer digitali e microfoni wireless Audix per un'alta fedeltà acustica."
+		desc: "Casse attive e passive HK Audio con subwoofer, mixer digitali e microfoni wireless Audix per un'alta fedeltà acustica."
 	},
 	lighting: {
 		imageAlt: 'Attrezzatura di illuminazione spettacolare a noleggio per eventi',
-		desc: 'Fari LED RGBW, illuminazione scenica speciale e un kit di uplighting wireless per creare atmosfere romantiche o energiche.'
+		desc: 'Barre luminose LED, un faro Fresnel a zoom e un kit di uplighting wireless per creare atmosfere romantiche o energiche.'
 	},
 	visuals: {
 		imageAlt: 'Proiettori HD e schermi a noleggio',

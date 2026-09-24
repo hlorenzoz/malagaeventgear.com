@@ -4,7 +4,7 @@
 	import Testimonials from '$lib/components/testimonials/Testimonials.svelte';
 	import { i18n } from '$lib/i18n.svelte';
 	import { faqCopy, pkgCopy } from '$lib/i18n/data-copy.svelte';
-	import { packages, formatPrice, withPrices, PRICE_POINTS } from '$lib/data/packages';
+	import { packages, formatPrice, PRICE_POINTS } from '$lib/data/packages';
 	import { packageImageVariant } from '$lib/assets/package-images';
 	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
 	import { galleryImages } from '$lib/data/gallery';
@@ -327,7 +327,7 @@
 	<!-- Budget (price) -->
 	{#snippet priceBody()}
 		{#each priceOptions as opt (opt.value)}
-			{@render chip(activePrice === opt.value, () => (activePrice = activePrice === opt.value ? 'all' : opt.value), withPrices(i18n.t.filters[opt.key], i18n.lang), `filter-price-${opt.value}`)}
+			{@render chip(activePrice === opt.value, () => (activePrice = activePrice === opt.value ? 'all' : opt.value), i18n.t.filters[opt.key], `filter-price-${opt.value}`)}
 		{/each}
 	{/snippet}
 	{@render filterGroup(i18n.t.filters.price, priceBody)}

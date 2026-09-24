@@ -31,7 +31,7 @@ export default {
 	booking: {
 		title: 'Booking, priser og sikkerhet',
 		p1: 'Alle tjenester må bestilles med minst 24 timers varsel. For å fullføre en booking må kunden oppgi nøyaktig sted og tidspunkt for arrangementet.',
-		p2: 'Alle priser på nettsiden vår er oppgitt uten MVA (+21%). Vi garanterer at alle betalingstransaksjoner er 100 % sikre og behandles gjennom pålitelige betalingsløsninger.'
+		p2: 'Alle priser på nettsiden vår er oppgitt uten MVA (+{vat}). Vi garanterer at alle betalingstransaksjoner er 100 % sikre og behandles gjennom pålitelige betalingsløsninger.'
 	},
 	obligations: {
 		title: 'Kundens forpliktelser og ansvar for utstyret',

@@ -31,7 +31,7 @@ const copy = {
 	booking: {
 		title: 'Boeken, prijzen & beveiliging',
 		p1: 'Alle diensten moeten minimaal 24 uur van tevoren worden geboekt. Om een boeking af te ronden, moet de klant de exacte locatie en het tijdstip van het evenement doorgeven.',
-		p2: 'Alle op onze website vermelde prijzen zijn exclusief btw (+21%). We garanderen dat alle betalingstransacties 100% veilig zijn en worden verwerkt via vertrouwde financiële partners.'
+		p2: 'Alle op onze website vermelde prijzen zijn exclusief btw (+{vat}). We garanderen dat alle betalingstransacties 100% veilig zijn en worden verwerkt via vertrouwde financiële partners.'
 	},
 	obligations: {
 		title: 'Verplichtingen van de klant & verantwoordelijkheid voor apparatuur',

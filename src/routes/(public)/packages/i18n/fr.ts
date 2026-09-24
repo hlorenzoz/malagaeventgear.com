@@ -14,7 +14,7 @@ const copy = {
 		title: 'Questions fréquentes',
 		question: 'Vos tarifs de forfaits incluent-ils la TVA ?',
 		answer:
-			"Non, les tarifs affichés n'incluent pas la TVA. Comme l'indique la mention (+21% TVA) à côté des tarifs, la TVA espagnole standard de 21 % (IVA) s'applique en plus du prix du forfait. Votre devis final indiquera le prix net et le détail de la TVA en toute transparence."
+			"Non, les tarifs affichés n'incluent pas la TVA. Comme l'indique la mention (+{vat} TVA) à côté des tarifs, la TVA espagnole standard de {vat} (IVA) s'applique en plus du prix du forfait. Votre devis final indiquera le prix net et le détail de la TVA en toute transparence."
 	}
 } satisfies Copy;
 

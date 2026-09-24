@@ -14,7 +14,7 @@ const copy = {
 		title: 'Domande frequenti',
 		question: "I prezzi dei vostri pacchetti includono l'IVA?",
 		answer:
-			"No, i prezzi indicati non includono l'IVA. Come indicato dalla dicitura (+21% IVA) accanto alle tariffe, l'IVA spagnola standard del 21% viene applicata in aggiunta al prezzo del pacchetto. Il tuo preventivo finale mostrerà sia il prezzo netto sia il dettaglio dell'IVA con totale trasparenza."
+			"No, i prezzi indicati non includono l'IVA. Come indicato dalla dicitura (+{vat} IVA) accanto alle tariffe, l'IVA spagnola standard del {vat} viene applicata in aggiunta al prezzo del pacchetto. Il tuo preventivo finale mostrerà sia il prezzo netto sia il dettaglio dell'IVA con totale trasparenza."
 	}
 } satisfies Copy;
 

@@ -74,7 +74,7 @@ const en = {
 		whoQ: 'Who is it for?',
 		whoA: 'Couples planning weddings, companies running conferences and corporate events, and anyone hosting a party or private celebration who wants flawless sound and lighting without buying the gear.',
 		costQ: 'What does it cost?',
-		costA: 'fixed price packages with no hidden fees, scaled to your event size, plus tailored quotes for larger productions.',
+		costA: 'Fixed price packages with no hidden fees, scaled to your event size, plus tailored quotes for larger productions.',
 		costFrom: 'From',
 		howQ: 'How does it work?',
 		howA: 'Four simple steps: pick your package, request a quote, we confirm and prepare your gear, and our team delivers and sets everything up on the day of your event.'
@@ -111,7 +111,7 @@ const en = {
 		check: 'Check Availability',
 		mostPopular: 'Most Popular',
 		from: 'From',
-		plusVat: '(+21% VAT)',
+		plusVat: '(+{vat} VAT)',
 		plusVatShort: '(+VAT)',
 		bookPack: 'Book'
 	},
@@ -286,7 +286,7 @@ const en = {
 		emailFailDismiss: 'Close',
 		countryCode: 'Country Code',
 		responseTime: 'We respond as soon as possible',
-		trustBadge: 'Trusted by 500+ events in Málaga'
+		trustBadge: 'Trusted by {clients} clients'
 	},
 	// Thank-you page
 	thankYou: {

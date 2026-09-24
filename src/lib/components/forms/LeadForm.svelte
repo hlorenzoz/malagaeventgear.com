@@ -2,6 +2,8 @@
 	import { goto } from '$app/navigation';
 	import { PUBLIC_TURNSTILE_SITE_KEY as TURNSTILE_SITE_KEY } from '$env/static/public';
 	import { i18n } from '$lib/i18n.svelte';
+	import { siteConfig } from '$lib/data/site';
+	import { formatNumber } from '$lib/i18n/format';
 	import ErrorModal from '$lib/components/modals/ErrorModal.svelte';
 	import Icon from '$lib/components/navigation/Icon.svelte';
 	import { loadTurnstile } from '$lib/utils/turnstile';
@@ -238,7 +240,7 @@
 	<!-- Trust badge -->
 	<div class="flex items-center gap-2 mb-8 text-sm text-on-surface-variant">
 		<span class="text-electric-blue">★★★★★</span>
-		<span>{i18n.t.leadForm.trustBadge}</span>
+		<span>{i18n.t.leadForm.trustBadge.replace('{clients}', `${formatNumber(siteConfig.clientCount, i18n.lang)}+`)}</span>
 	</div>
 
 	<form onsubmit={handleSubmit} novalidate>

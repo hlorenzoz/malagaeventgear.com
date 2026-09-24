@@ -68,7 +68,7 @@ const t = {
 		whoQ: 'Para quem é?',
 		whoA: 'Casais a planear o casamento, empresas que organizam conferências e eventos corporativos, e qualquer pessoa que organize uma festa ou celebração privada e queira som e iluminação impecáveis sem ter de comprar o equipamento.',
 		costQ: 'Quanto custa?',
-		costA: 'pacotes com preço fixo e sem custos ocultos, adaptados à dimensão do seu evento, além de orçamentos personalizados para produções de maior escala.',
+		costA: 'Pacotes com preço fixo e sem custos ocultos, adaptados à dimensão do seu evento, além de orçamentos personalizados para produções de maior escala.',
 		costFrom: 'A partir de',
 		howQ: 'Como funciona?',
 		howA: 'Quatro passos simples: escolha o seu pacote, peça um orçamento, confirmamos e preparamos o seu equipamento, e a nossa equipa entrega e monta tudo no dia do seu evento.'
@@ -105,7 +105,7 @@ const t = {
 		check: 'Verificar disponibilidade',
 		mostPopular: 'Mais popular',
 		from: 'A partir de',
-		plusVat: '(+21% IVA)',
+		plusVat: '(+{vat} IVA)',
 		plusVatShort: '(+IVA)',
 		bookPack: 'Reservar'
 	},
@@ -275,7 +275,7 @@ const t = {
 		emailFailDismiss: 'Fechar',
 		countryCode: 'Indicativo do país',
 		responseTime: 'Respondemos o mais brevemente possível',
-		trustBadge: 'A escolha de mais de 500 eventos em Málaga'
+		trustBadge: 'A escolha de {clients} clientes'
 	},
 	// Thank-you page
 	thankYou: {

@@ -14,7 +14,7 @@ const copy = {
 		title: 'Veelgestelde vragen',
 		question: 'Zijn jullie pakketprijzen inclusief btw?',
 		answer:
-			'Nee, de vermelde prijzen zijn exclusief btw. Zoals aangegeven met (+21% btw) naast de tarieven, wordt het standaard Spaanse btw-tarief (IVA) van 21% bovenop de pakketprijs berekend. Je definitieve offerte toont zowel de nettoprijs als de btw-uitsplitsing, met volledige transparantie.'
+			'Nee, de vermelde prijzen zijn exclusief btw. Zoals aangegeven met (+{vat} btw) naast de tarieven, wordt het standaard Spaanse btw-tarief (IVA) van {vat} bovenop de pakketprijs berekend. Je definitieve offerte toont zowel de nettoprijs als de btw-uitsplitsing, met volledige transparantie.'
 	}
 } satisfies Copy;
 

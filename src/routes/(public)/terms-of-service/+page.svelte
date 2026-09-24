@@ -2,7 +2,6 @@
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
 	import LegalLanguageNotice from '$lib/components/i18n/LegalLanguageNotice.svelte';
 	import { i18n } from '$lib/i18n.svelte';
-	import { withPrices } from '$lib/data/packages';
 	import { LOCALE_META } from '$lib/i18n/locales';
 
 	let { data } = $props();
@@ -69,7 +68,7 @@
 				3. {copy.limits.title}
 			</h2>
 			<p class="mb-4">
-				{withPrices(copy.limits.p1, i18n.lang)}
+				{copy.limits.p1}
 			</p>
 			<p class="mb-4">
 				{copy.limits.p2}

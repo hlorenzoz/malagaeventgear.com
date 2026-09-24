@@ -105,7 +105,7 @@ const t = {
 		check: 'Check beschikbaarheid',
 		mostPopular: 'Meest gekozen',
 		from: 'Vanaf',
-		plusVat: '(+21% btw)',
+		plusVat: '(+{vat} btw)',
 		plusVatShort: '(+btw)',
 		bookPack: 'Boeken'
 	},
@@ -275,7 +275,7 @@ const t = {
 		emailFailDismiss: 'Sluiten',
 		countryCode: 'Landcode',
 		responseTime: 'We reageren zo snel mogelijk',
-		trustBadge: 'Gekozen voor meer dan 500 evenementen in Malaga'
+		trustBadge: 'Al {clients} tevreden klanten'
 	},
 	// Thank-you page
 	thankYou: {

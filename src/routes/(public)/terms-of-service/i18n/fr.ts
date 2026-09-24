@@ -31,7 +31,7 @@ const copy = {
 	booking: {
 		title: 'Réservation, tarification et sécurité',
 		p1: "Toute prestation de service doit être contractée avec un préavis minimum de 24 heures. Pour finaliser une réservation, le client doit fournir le lieu et l'heure précis de l'événement.",
-		p2: "Tous les prix indiqués sur notre site sont affichés hors TVA (+21 %). Nous garantissons que toutes les transactions de paiement sont sécurisées à 100 % et traitées via des passerelles financières fiables."
+		p2: "Tous les prix indiqués sur notre site sont affichés hors TVA (+{vat}). Nous garantissons que toutes les transactions de paiement sont sécurisées à 100 % et traitées via des passerelles financières fiables."
 	},
 	obligations: {
 		title: 'Obligations du client et responsabilité du matériel',

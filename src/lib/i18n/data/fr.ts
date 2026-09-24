@@ -16,7 +16,7 @@ export default {
 			landing: {
 				badge: 'Petits événements et fêtes',
 				rateLabel: 'Tarif tout compris abordable',
-				vatNote: '(+21% TVA), installation et transport inclus',
+				vatNote: '(+{vat} TVA), installation et transport inclus',
 				specTitle: "Jusqu'à 50 invités",
 				specBody: 'Idéal pour les villas, jardins et salles privées.',
 				highlightTitle: 'Un service sans stress',
@@ -47,7 +47,7 @@ export default {
 			landing: {
 				badge: 'Notre forfait célébration le plus demandé',
 				rateLabel: 'Tarif premium tout compris',
-				vatNote: '(+21% TVA), installation et assistance en direct incluses',
+				vatNote: '(+{vat} TVA), installation et assistance en direct incluses',
 				specTitle: "Jusqu'à 80 invités",
 				specBody: 'Idéal pour les belles villas, fincas et hôtels qui accueillent des mariages.',
 				highlightTitle: 'Technicien en direct sur place',
@@ -73,7 +73,7 @@ export default {
 			landing: {
 				badge: "Solutions d'entreprise à fort impact visuel",
 				rateLabel: 'Tarif fixe du forfait présentation',
-				vatNote: '(+21% TVA), vidéoprojecteur et écran inclus',
+				vatNote: '(+{vat} TVA), vidéoprojecteur et écran inclus',
 				specTitle: 'Vidéoprojecteur haute luminosité',
 				specBody: 'Vidéoprojecteur de 5000 lumens, idéal pour les salles éclairées.',
 				highlightTitle: 'Une image de marque irréprochable',
@@ -104,7 +104,7 @@ export default {
 			landing: {
 				badge: "L'essentiel pour vos réunions de direction",
 				rateLabel: "Tarif fixe réunion d'entreprise",
-				vatNote: '(+21% TVA), installation et transport inclus',
+				vatNote: '(+{vat} TVA), installation et transport inclus',
 				specTitle: "Jusqu'à 40 invités",
 				specBody: "Conçu pour les salles de conseil, salons privés et suites d'hôtel.",
 				highlightTitle: 'Une intelligibilité vocale parfaite',
@@ -137,7 +137,7 @@ export default {
 			landing: {
 				badge: "Expérience MICE d'entreprise premium",
 				rateLabel: 'Tarif entreprise tout compris',
-				vatNote: '(+21% TVA), écran LED, son et technicien en direct inclus',
+				vatNote: '(+{vat} TVA), écran LED, son et technicien en direct inclus',
 				specTitle: 'Écran LED de 60 pouces',
 				specBody: "Écran grand format haute définition pour des visuels d'entreprise percutants.",
 				highlightTitle: 'Technicien en direct dédié',
@@ -171,7 +171,7 @@ export default {
 		'what-makes-unique': {
 			question: "Qu'est-ce qui rend Malaga Event Gear (MEG) unique par rapport aux autres loueurs de matériel audiovisuel ?",
 			answer:
-				'MEG se distingue par une approche centrée sur le client et simplifiée : un technicien dédié sur place pour chaque réservation, du matériel de marques premium et des tarifs tout compris transparents. Nous évoluons vers une expérience de réservation 100 % en ligne, avec des tarifs fixes standardisés et des transactions totalement transparentes.'
+				"MEG se distingue par une approche centrée sur le client et simplifiée : la livraison et l'installation professionnelle par notre propre équipe pour chaque réservation, un technicien sur place inclus dans le Wedding Pack et le MICE Pack, du matériel de marques premium et des tarifs tout compris transparents. Nous évoluons vers une expérience de réservation 100 % en ligne, avec des tarifs fixes standardisés et des transactions totalement transparentes."
 		},
 		'booking-process': {
 			question: 'Comment fonctionne le processus de réservation avec Malaga Event Gear ?',
@@ -201,7 +201,7 @@ export default {
 		'vat-pricing': {
 			question: 'Vos tarifs de forfaits incluent-ils la TVA ?',
 			answer:
-				"Non, les tarifs affichés n'incluent pas la TVA. Comme l'indique la mention (+21% TVA) à côté des tarifs, la TVA espagnole standard de 21 % (IVA) s'applique en plus du prix du forfait. Votre devis final indiquera le prix net et le détail de la TVA en toute transparence."
+				"Non, les tarifs affichés n'incluent pas la TVA. Comme l'indique la mention (+{vat} TVA) à côté des tarifs, la TVA espagnole standard de {vat} (IVA) s'applique en plus du prix du forfait. Votre devis final indiquera le prix net et le détail de la TVA en toute transparence."
 		},
 		'on-site-technician': {
 			question: "Fournissez-vous un technicien sur place pendant l'événement ?",

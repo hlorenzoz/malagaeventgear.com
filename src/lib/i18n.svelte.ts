@@ -1,5 +1,6 @@
 import { page } from '$app/state';
-import en, { type Messages } from '$lib/i18n/messages/en';
+import enSource, { type Messages } from '$lib/i18n/messages/en';
+import { renderTokens } from '$lib/data/packages';
 import { DEFAULT_LOCALE, LOCALE_META, isLocale, type Locale } from '$lib/i18n/locales';
 import { getAvailability } from '$lib/i18n/availability';
 import type { LocaleContentMap } from '$lib/i18n/content-map/schema';
@@ -21,6 +22,9 @@ import { siteConfig } from '$lib/data/site';
 export type Language = Locale;
 
 const loaders = import.meta.glob<Messages>('./i18n/messages/*.ts', { import: 'default' });
+
+// English fallback for pages outside (public), with its catalog tokens rendered like a loaded dictionary.
+const en = renderTokens(enSource, 'en');
 
 /** Loads a locale's dictionary as its own chunk, so a page only downloads its own language. */
 export async function loadMessages(locale: Locale): Promise<Messages> {

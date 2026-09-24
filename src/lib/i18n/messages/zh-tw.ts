@@ -105,7 +105,7 @@ const t = {
 		check: '查詢可預約狀態',
 		mostPopular: '最受歡迎',
 		from: '起價',
-		plusVat: '（+21% 加值稅）',
+		plusVat: '（+{vat} 加值稅）',
 		plusVatShort: '（+加值稅）',
 		bookPack: '預約'
 	},

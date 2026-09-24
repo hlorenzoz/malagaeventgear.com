@@ -34,11 +34,11 @@ const copy = {
 	},
 	audio: {
 		imageAlt: 'Location de matériel de son professionnel',
-		desc: 'Systèmes line array, enceintes actives, consoles de mixage numériques et microphones sans fil Audix pour une fidélité acoustique élevée.'
+		desc: 'Enceintes actives et passives HK Audio avec caissons de basses, consoles de mixage numériques et microphones sans fil Audix pour une fidélité acoustique élevée.'
 	},
 	lighting: {
 		imageAlt: "Location d'éclairage événementiel spectaculaire",
-		desc: "Projecteurs LED RGBW, éclairage scénique spécialisé et kit d'uplighting sans fil pour créer des ambiances romantiques ou dynamiques."
+		desc: "Des barres LED, un projecteur Fresnel à zoom et un kit d'uplighting sans fil pour créer des ambiances romantiques ou dynamiques."
 	},
 	visuals: {
 		imageAlt: "Location de vidéoprojecteurs HD et d'écrans",

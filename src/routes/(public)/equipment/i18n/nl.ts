@@ -34,11 +34,11 @@ const copy = {
 	},
 	audio: {
 		imageAlt: 'Professionele geluidsapparatuur voor verhuur',
-		desc: 'Line-arraysystemen, actieve speakers, digitale mengpanelen en draadloze Audix-microfoons voor de hoogste akoestische kwaliteit.'
+		desc: 'Actieve en passieve HK Audio-speakers met subwoofers, digitale mengpanelen en draadloze Audix-microfoons voor de hoogste akoestische kwaliteit.'
 	},
 	lighting: {
 		imageAlt: 'Spectaculaire evenementverlichting voor verhuur',
-		desc: 'RGBW-LED-spots, specialistische podiumverlichting en een draadloze set voor uplighting voor een romantische of energieke sfeer.'
+		desc: 'LED-lichtbalken, een Fresnelspot met zoom en een draadloze set voor uplighting voor een romantische of energieke sfeer.'
 	},
 	visuals: {
 		imageAlt: 'HD-beamers en schermverhuur',

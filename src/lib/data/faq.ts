@@ -70,7 +70,7 @@ const faqData: FaqItem[] = [
 		category: 'services',
 		onHomepage: false,
 		question: 'What makes Malaga Event Gear (MEG) unique compared to other audiovisual rental companies?',
-		answer: 'MEG differentiates itself through a customer centric and streamlined approach: a dedicated on site technician for every booking, premium brand equipment, and transparent all inclusive pricing. We are moving toward a 100% online booking experience with standardized fixed pricing and fully transparent transactions.'
+		answer: 'MEG differentiates itself through a customer centric and streamlined approach: delivery and professional setup by our own team on every booking, a live technician included in the Wedding Pack and the MICE Pack, premium brand equipment, and transparent all inclusive pricing. We are moving toward a 100% online booking experience with standardized fixed pricing and fully transparent transactions.'
 	},
 	{
 		id: 'booking-process',
@@ -115,7 +115,7 @@ const faqData: FaqItem[] = [
 		category: 'booking',
 		onHomepage: false,
 		question: 'Are your package prices inclusive of VAT?',
-		answer: 'No, the listed prices do not include VAT. As indicated by (+21% VAT) next to the rates, the standard 21% Spanish VAT (IVA) will be applied on top of the package price. Your final quote will show both the net price and the VAT breakdown with 100% transparency.'
+		answer: 'No, the listed prices do not include VAT. As indicated by (+{vat} VAT) next to the rates, the standard {vat} Spanish VAT (IVA) will be applied on top of the package price. Your final quote will show both the net price and the VAT breakdown with 100% transparency.'
 	},
 	{
 		id: 'on-site-technician',

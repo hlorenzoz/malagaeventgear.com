@@ -34,11 +34,11 @@ export default {
 	},
 	audio: {
 		imageAlt: 'Profesjonelt lydutstyr til utleie',
-		desc: 'Line array-systemer, aktive høyttalere, digitale mikserpulter og trådløse Audix-mikrofoner for høy akustisk kvalitet.'
+		desc: 'Aktive og passive HK Audio-høyttalere med subwoofere, digitale mikserpulter og trådløse Audix-mikrofoner for høy akustisk kvalitet.'
 	},
 	lighting: {
 		imageAlt: 'Utleie av spektakulært lysutstyr til arrangementer',
-		desc: 'LED-spotlights i RGBW, spesialisert scenelys og et trådløst sett for uplighting, for å skape romantisk eller energisk stemning.'
+		desc: 'LED-lysbjelker, en Fresnel-spotlight med zoom og et trådløst sett for uplighting, for å skape romantisk eller energisk stemning.'
 	},
 	visuals: {
 		imageAlt: 'HD-prosjektorer og lerret for utleie',

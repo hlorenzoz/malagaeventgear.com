@@ -16,7 +16,7 @@ export default {
 			landing: {
 				badge: '小型活动与派对',
 				rateLabel: '超值全包价格',
-				vatNote: '（另加21%增值税），含搭建与运输费用',
+				vatNote: '（另加{vat}增值税），含搭建与运输费用',
 				specTitle: '最多50位宾客',
 				specBody: '完美适合别墅、花园及私人场地。',
 				highlightTitle: '省心无忧服务',
@@ -46,7 +46,7 @@ export default {
 			landing: {
 				badge: '我们最受欢迎的庆典套餐',
 				rateLabel: '高端全包价格',
-				vatNote: '（另加21%增值税），含搭建与现场技术支持',
+				vatNote: '（另加{vat}增值税），含搭建与现场技术支持',
 				specTitle: '最多80位宾客',
 				specBody: '完美适合唯美别墅、庄园及婚礼酒店。',
 				highlightTitle: '现场技术人员全程支持',
@@ -71,7 +71,7 @@ export default {
 			landing: {
 				badge: '高视觉冲击力企业方案',
 				rateLabel: '发布会套餐一口价',
-				vatNote: '（另加21%增值税），含投影仪与投影幕布',
+				vatNote: '（另加{vat}增值税），含投影仪与投影幕布',
 				specTitle: '高亮度投影仪',
 				specBody: '5000流明投影仪，即使在明亮场地也能清晰投放。',
 				highlightTitle: '完美呈现企业品牌形象',
@@ -101,7 +101,7 @@ export default {
 			landing: {
 				badge: '高管会议必备套餐',
 				rateLabel: '企业会议一口价',
-				vatNote: '（另加21%增值税），含搭建与运输',
+				vatNote: '（另加{vat}增值税），含搭建与运输',
 				specTitle: '最多40位宾客',
 				specBody: '专为董事会议室、私人厅堂及酒店套房设计。',
 				highlightTitle: '清晰无杂音的语音效果',
@@ -133,7 +133,7 @@ export default {
 			landing: {
 				badge: '高端企业会展体验',
 				rateLabel: '企业全包价格',
-				vatNote: '（另加21%增值税），含LED显示屏、音响及现场技术人员',
+				vatNote: '（另加{vat}增值税），含LED显示屏、音响及现场技术人员',
 				specTitle: '60英寸LED显示屏',
 				specBody: '高清大尺寸显示屏，呈现震撼的企业视觉效果。',
 				highlightTitle: '专属现场技术人员',
@@ -196,7 +196,7 @@ export default {
 		'vat-pricing': {
 			question: '套餐价格是否含增值税？',
 			answer:
-				'不含。所列价格均不包含增值税。正如价格旁标注的（另加21%增值税）所示，将在套餐价格基础上加收西班牙标准21%的增值税（IVA）。您的最终报价将100%透明地列明净价与增值税明细。'
+				'不含。所列价格均不包含增值税。正如价格旁标注的（另加{vat}增值税）所示，将在套餐价格基础上加收西班牙标准{vat}的增值税（IVA）。您的最终报价将100%透明地列明净价与增值税明细。'
 		},
 		'on-site-technician': {
 			question: '活动期间是否提供现场技术人员？',

@@ -31,7 +31,7 @@ const copy = {
 	booking: {
 		title: 'Prenotazione, prezzi e sicurezza',
 		p1: "Tutte le prestazioni di servizio devono essere contrattate con un preavviso minimo di 24 ore. Per finalizzare una prenotazione, il cliente deve fornire il luogo e l'orario precisi dell'evento.",
-		p2: 'Tutti i prezzi indicati sul nostro sito web sono indicati IVA esclusa (+21%). Garantiamo che tutte le transazioni di pagamento siano sicure al 100% e vengano elaborate tramite gateway finanziari affidabili.'
+		p2: 'Tutti i prezzi indicati sul nostro sito web sono indicati IVA esclusa (+{vat}). Garantiamo che tutte le transazioni di pagamento siano sicure al 100% e vengano elaborate tramite gateway finanziari affidabili.'
 	},
 	obligations: {
 		title: "Obblighi del cliente e responsabilità sull'attrezzatura",

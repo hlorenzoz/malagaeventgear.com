@@ -34,11 +34,11 @@ export default {
 	},
 	audio: {
 		imageAlt: 'Professionelle Beschallungstechnik zur Miete',
-		desc: 'Line-Array-Systeme, Aktivlautsprecher, digitale Mischpulte und Audix-Funkmikrofone für höchste Klangtreue.'
+		desc: 'Aktive und passive HK-Audio-Lautsprecher mit Subwoofern, digitale Mischpulte und Audix-Funkmikrofone für höchste Klangtreue.'
 	},
 	lighting: {
 		imageAlt: 'Spektakuläre Eventbeleuchtung zur Miete',
-		desc: 'RGBW-LED-Spots, spezielle Bühnenbeleuchtung und ein kabelloses Set für Uplighting für eine romantische oder energiegeladene Atmosphäre.'
+		desc: 'LED-Lichtleisten, ein Fresnel-Scheinwerfer mit Zoom und ein kabelloses Set für Uplighting für eine romantische oder energiegeladene Atmosphäre.'
 	},
 	visuals: {
 		imageAlt: 'HD-Beamer und Leinwand zur Miete',

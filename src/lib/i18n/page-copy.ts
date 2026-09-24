@@ -1,4 +1,5 @@
 import type { Locale } from './locales';
+import { renderTokens } from '$lib/data/packages';
 
 /**
  * Page specific copy, colocated with its page: `src/routes/(public)/<page>/i18n/<locale>.ts`.
@@ -12,7 +13,7 @@ import type { Locale } from './locales';
  *   });
  *
  * A missing locale falls back to English, which the completeness guard forbids for every
- * PUBLISHED locale.
+ * PUBLISHED locale. Catalog tokens ({price:key}, {vat}) come back rendered in the locale.
  */
 export async function loadPageCopy<T>(
 	loaders: Record<string, () => Promise<unknown>>,
@@ -20,5 +21,5 @@ export async function loadPageCopy<T>(
 ): Promise<T> {
 	const loader = loaders[`./i18n/${locale}.ts`] ?? loaders['./i18n/en.ts'];
 	if (!loader) throw new Error('page copy: ./i18n/en.ts is missing');
-	return ((await loader()) as { default: T }).default;
+	return renderTokens(((await loader()) as { default: T }).default, locale);
 }

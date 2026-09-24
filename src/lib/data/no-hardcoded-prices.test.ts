@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { isPricePoint, packages } from './packages';
+import { isPricePoint, packages, VAT_RATE } from './packages';
 
 /**
  * Guard test for CLAUDE.md §7 — "Prohibido duplicar datos".
@@ -128,6 +128,15 @@ describe('copy writes every amount as a {price:N} token (CLAUDE.md §7)', () => 
 		// once, in PRICE_POINTS (packages.ts), and copy only names it: {price:projectorScreen}.
 		const tokens = [...stripComments(copyFiles.find(([p]) => p === path)?.[1] ?? '').matchAll(/\{price:([^}]*)\}/g)].map((m) => m[1]);
 		expect(tokens.filter((key) => !isPricePoint(key)), `${path}: unknown or numeric price token`).toEqual([]);
+	});
+
+	it.each(copyFiles.map(([path]) => path))('%s writes the VAT rate as {vat}', (path) => {
+		// The rate lives once, in VAT_RATE. A literal 21% in copy would survive a rate change.
+		const vat = new RegExp(`\\b${Math.round(VAT_RATE * 100)}\\s?%`);
+		const lines = stripComments(copyFiles.find(([p]) => p === path)?.[1] ?? '')
+			.split('\n')
+			.filter((line) => vat.test(line) && !line.includes('VAT_RATE'));
+		expect(lines, `${path}: write {vat} instead of the VAT percentage`).toEqual([]);
 	});
 
 	it('would actually catch a violation', () => {

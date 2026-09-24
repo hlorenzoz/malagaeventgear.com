@@ -16,7 +16,7 @@ export default {
 			landing: {
 				badge: 'Mindre evenemang och fester',
 				rateLabel: 'Prisvärt fast totalpris',
-				vatNote: '(+21% moms), installation och transport ingår',
+				vatNote: '(+{vat} moms), installation och transport ingår',
 				specTitle: 'Upp till 50 gäster',
 				specBody: 'Perfekt för villor, trädgårdar och privata lokaler.',
 				highlightTitle: 'Stressfri service',
@@ -47,7 +47,7 @@ export default {
 			landing: {
 				badge: 'Vårt mest populära firandepaket',
 				rateLabel: 'Fast totalpris i premiumklass',
-				vatNote: '(+21% moms), installation och support på plats ingår',
+				vatNote: '(+{vat} moms), installation och support på plats ingår',
 				specTitle: 'Upp till 80 gäster',
 				specBody: 'Perfekt för vackra villor, fincas och bröllopshotell.',
 				highlightTitle: 'Tekniker på plats under hela evenemanget',
@@ -73,7 +73,7 @@ export default {
 			landing: {
 				badge: 'Företagslösningar med stort visuellt intryck',
 				rateLabel: 'Fast pris för presentationspaketet',
-				vatNote: '(+21% moms), projektor och duk ingår',
+				vatNote: '(+{vat} moms), projektor och duk ingår',
 				specTitle: 'Projektor med hög ljusstyrka',
 				specBody: 'Projektor på 5000 lumen, perfekt för ljusa lokaler.',
 				highlightTitle: 'Felfri företagsprofilering',
@@ -104,7 +104,7 @@ export default {
 			landing: {
 				badge: 'Grundläggande paket för chefsmöten',
 				rateLabel: 'Fast pris för företagsmöten',
-				vatNote: '(+21% moms), installation och transport ingår',
+				vatNote: '(+{vat} moms), installation och transport ingår',
 				specTitle: 'Upp till 40 gäster',
 				specBody: 'Utformat för styrelserum, privata salonger och hotellsviter.',
 				highlightTitle: 'Hög taltydlighet',
@@ -137,7 +137,7 @@ export default {
 			landing: {
 				badge: 'MICE-upplevelse i premiumklass för företag',
 				rateLabel: 'Fast totalpris för företag',
-				vatNote: '(+21% moms), LED-skärm, ljud och livetekniker ingår',
+				vatNote: '(+{vat} moms), LED-skärm, ljud och livetekniker ingår',
 				specTitle: '60-tums LED-skärm',
 				specBody: 'Storformatsskärm i hög definition för slagkraftiga företagsbilder.',
 				highlightTitle: 'Dedikerad livetekniker',
@@ -172,7 +172,7 @@ export default {
 			question:
 				'Vad gör Malaga Event Gear (MEG) unikt jämfört med andra företag för uthyrning av ljud- och bildutrustning?',
 			answer:
-				'MEG skiljer sig genom ett kundfokuserat och strömlinjeformat arbetssätt: en dedikerad tekniker på plats vid varje bokning, förstklassiga varumärken och transparenta fasta totalpriser. Vi arbetar mot en bokningsupplevelse helt online, med standardiserade fasta priser och fullt transparenta transaktioner.'
+				'MEG skiljer sig genom ett kundfokuserat och strömlinjeformat arbetssätt: leverans och professionell installation av vårt eget team vid varje bokning, en tekniker på plats som ingår i Wedding Pack och MICE Pack, förstklassiga varumärken och transparenta fasta totalpriser. Vi arbetar mot en bokningsupplevelse helt online, med standardiserade fasta priser och fullt transparenta transaktioner.'
 		},
 		'booking-process': {
 			question: 'Hur fungerar bokningsprocessen hos Malaga Event Gear?',
@@ -202,7 +202,7 @@ export default {
 		'vat-pricing': {
 			question: 'Är era paketpriser inklusive moms?',
 			answer:
-				'Nej, de angivna priserna inkluderar inte moms. Som anges med (+21% moms) bredvid priserna tillkommer den spanska standardmomsen på 21% (IVA) ovanpå paketpriset. Din slutliga offert visar både nettopriset och momsuppdelningen med full transparens.'
+				'Nej, de angivna priserna inkluderar inte moms. Som anges med (+{vat} moms) bredvid priserna tillkommer den spanska standardmomsen på {vat} (IVA) ovanpå paketpriset. Din slutliga offert visar både nettopriset och momsuppdelningen med full transparens.'
 		},
 		'on-site-technician': {
 			question: 'Tillhandahåller ni en tekniker på plats under evenemanget?',

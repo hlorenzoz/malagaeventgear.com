@@ -68,7 +68,7 @@ const t = {
 		whoQ: 'Vem är det för?',
 		whoA: 'Par som planerar bröllop, företag som arrangerar konferenser och företagsevenemang, och alla som ordnar en fest eller ett privat firande och vill ha felfritt ljud och ljus utan att köpa utrustningen.',
 		costQ: 'Vad kostar det?',
-		costA: 'fasta paketpriser utan dolda avgifter, anpassade efter ditt evenemangs storlek, plus skräddarsydda offerter för större produktioner.',
+		costA: 'Fasta paketpriser utan dolda avgifter, anpassade efter ditt evenemangs storlek, plus skräddarsydda offerter för större produktioner.',
 		costFrom: 'Från',
 		howQ: 'Hur går det till?',
 		howA: 'Fyra enkla steg: välj ditt paket, begär en offert, vi bekräftar och förbereder din utrustning, och vårt team levererar och installerar allt på dagen för ditt evenemang.'
@@ -105,7 +105,7 @@ const t = {
 		check: 'Kontrollera tillgänglighet',
 		mostPopular: 'Mest populär',
 		from: 'Från',
-		plusVat: '(+21% moms)',
+		plusVat: '(+{vat} moms)',
 		plusVatShort: '(+moms)',
 		bookPack: 'Boka'
 	},
@@ -275,7 +275,7 @@ const t = {
 		emailFailDismiss: 'Stäng',
 		countryCode: 'Landskod',
 		responseTime: 'Vi svarar så snart som möjligt',
-		trustBadge: 'Anlitade för 500+ evenemang i Malaga'
+		trustBadge: 'Anlitade av {clients} nöjda kunder'
 	},
 	// Thank-you page
 	thankYou: {

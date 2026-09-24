@@ -31,7 +31,7 @@ export default {
 	booking: {
 		title: 'Reservas, preços e segurança',
 		p1: 'Todos os serviços devem ser contratados com no mínimo 24 horas de antecedência. Para finalizar uma reserva, o cliente deve informar a localização e o horário precisos do evento.',
-		p2: 'Todos os preços listados no nosso site não incluem o IVA (+21%). Garantimos que todas as transações de pagamento são 100% seguras e processadas por meio de gateways de pagamento confiáveis.'
+		p2: 'Todos os preços listados no nosso site não incluem o IVA (+{vat}). Garantimos que todas as transações de pagamento são 100% seguras e processadas por meio de gateways de pagamento confiáveis.'
 	},
 	obligations: {
 		title: 'Obrigações do cliente e responsabilidade pelo equipamento',

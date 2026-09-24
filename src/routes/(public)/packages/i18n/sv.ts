@@ -14,6 +14,6 @@ export default {
 		title: 'Vanliga frågor',
 		question: 'Är era paketpriser inklusive moms?',
 		answer:
-			'Nej, de angivna priserna inkluderar inte moms. Som anges med (+21% moms) bredvid priserna tillkommer den spanska standardmomsen på 21% (IVA) ovanpå paketpriset. Din slutliga offert visar både nettopriset och momsuppdelningen med full transparens.'
+			'Nej, de angivna priserna inkluderar inte moms. Som anges med (+{vat} moms) bredvid priserna tillkommer den spanska standardmomsen på {vat} (IVA) ovanpå paketpriset. Din slutliga offert visar både nettopriset och momsuppdelningen med full transparens.'
 	}
 } satisfies Copy;

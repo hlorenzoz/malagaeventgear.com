@@ -28,7 +28,7 @@ const copy = {
 	booking: {
 		title: 'Booking, Pricing & Security',
 		p1: "All service provisions must be contracted with a minimum of 24 hours' advance notice. To finalize a booking, the client must provide the precise location and time of the event.",
-		p2: 'All prices listed on our website are provided with VAT (+21%) not included. We guarantee that all payment transactions are 100% secure and processed using trusted financial gateways.'
+		p2: 'All prices listed on our website exclude VAT (+{vat}). We guarantee that all payment transactions are 100% secure and processed using trusted financial gateways.'
 	},
 	obligations: {
 		title: 'Client Obligations & Equipment Responsibility',

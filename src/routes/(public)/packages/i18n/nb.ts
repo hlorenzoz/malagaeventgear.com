@@ -14,6 +14,6 @@ export default {
 		title: 'Ofte stilte spørsmål',
 		question: 'Inkluderer pakkeprisene deres MVA?',
 		answer:
-			'Nei, de oppgitte prisene inkluderer ikke MVA. Som angitt med (+21% MVA) ved siden av prisene, kommer den spanske standardsatsen på 21% MVA (IVA) i tillegg til pakkeprisen. Det endelige tilbudet ditt viser både nettopris og MVA-oppdeling med full åpenhet.'
+			'Nei, de oppgitte prisene inkluderer ikke MVA. Som angitt med (+{vat} MVA) ved siden av prisene, kommer den spanske standardsatsen på {vat} MVA (IVA) i tillegg til pakkeprisen. Det endelige tilbudet ditt viser både nettopris og MVA-oppdeling med full åpenhet.'
 	}
 } satisfies Copy;

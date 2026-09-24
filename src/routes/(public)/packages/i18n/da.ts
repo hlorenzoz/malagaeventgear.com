@@ -14,7 +14,7 @@ const copy = {
 		title: 'Ofte stillede spørgsmål',
 		question: 'Er jeres pakkepriser inklusive moms?',
 		answer:
-			'Nej, de angivne priser er ikke inklusive moms. Som angivet med (+21% moms) ved siden af priserne lægges den spanske standardmoms på 21% (IVA) oven i pakkeprisen. Dit endelige tilbud viser både nettoprisen og momsopgørelsen med 100% gennemsigtighed.'
+			'Nej, de angivne priser er ikke inklusive moms. Som angivet med (+{vat} moms) ved siden af priserne lægges den spanske standardmoms på {vat} (IVA) oven i pakkeprisen. Dit endelige tilbud viser både nettoprisen og momsopgørelsen med 100% gennemsigtighed.'
 	}
 } satisfies Copy;
 

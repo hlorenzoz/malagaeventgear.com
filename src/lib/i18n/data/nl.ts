@@ -16,7 +16,7 @@ export default {
 			landing: {
 				badge: 'Kleine evenementen & feesten',
 				rateLabel: 'Voordelig totaaltarief',
-				vatNote: '(+21% btw), opbouw en vervoer inbegrepen',
+				vatNote: '(+{vat} btw), opbouw en vervoer inbegrepen',
 				specTitle: 'Tot 50 gasten',
 				specBody: 'Perfect voor villa\'s, tuinen en privézalen.',
 				highlightTitle: 'Zorgeloze service',
@@ -47,7 +47,7 @@ export default {
 			landing: {
 				badge: 'Ons populairste feestpakket',
 				rateLabel: 'Premium totaaltarief',
-				vatNote: '(+21% btw), opbouw en live ondersteuning inbegrepen',
+				vatNote: '(+{vat} btw), opbouw en live ondersteuning inbegrepen',
 				specTitle: 'Tot 80 gasten',
 				specBody: 'Perfect voor prachtige villa\'s, finca\'s en trouwhotels.',
 				highlightTitle: 'Live technicus ter plaatse',
@@ -73,7 +73,7 @@ export default {
 			landing: {
 				badge: 'Zakelijke oplossingen met grote visuele impact',
 				rateLabel: 'Vast tarief Presentation Pack',
-				vatNote: '(+21% btw), beamer en scherm inbegrepen',
+				vatNote: '(+{vat} btw), beamer en scherm inbegrepen',
 				specTitle: 'Beamer met hoge lichtopbrengst',
 				specBody: '5000 lumen beamer, ideaal voor verlichte ruimtes.',
 				highlightTitle: 'Vlekkeloze zakelijke uitstraling',
@@ -104,7 +104,7 @@ export default {
 			landing: {
 				badge: 'Essentiële pakketten voor directievergaderingen',
 				rateLabel: 'Vast tarief zakelijke vergadering',
-				vatNote: '(+21% btw), opbouw en vervoer inbegrepen',
+				vatNote: '(+{vat} btw), opbouw en vervoer inbegrepen',
 				specTitle: 'Tot 40 gasten',
 				specBody: 'Ontworpen voor boardrooms, privésalons en hotelsuites.',
 				highlightTitle: 'Kristalheldere spraakverstaanbaarheid',
@@ -137,7 +137,7 @@ export default {
 			landing: {
 				badge: 'Premium zakelijke MICE-ervaring',
 				rateLabel: 'Zakelijk totaaltarief',
-				vatNote: '(+21% btw), LED-scherm, geluid en live technicus inbegrepen',
+				vatNote: '(+{vat} btw), LED-scherm, geluid en live technicus inbegrepen',
 				specTitle: '60 inch LED-scherm',
 				specBody: 'Groot HD-scherm voor indrukwekkende zakelijke beelden.',
 				highlightTitle: 'Vaste technicus ter plaatse',
@@ -171,7 +171,7 @@ export default {
 		'what-makes-unique': {
 			question: 'Wat maakt Malaga Event Gear (MEG) uniek in vergelijking met andere verhuurbedrijven voor audiovisuele apparatuur?',
 			answer:
-				'MEG onderscheidt zich door een klantgerichte, gestroomlijnde aanpak: een toegewijde technicus ter plaatse bij elke boeking, apparatuur van premium merken en transparante totaalprijzen. We werken toe naar een 100% online boekingservaring met vaste, gestandaardiseerde prijzen en volledig transparante transacties.'
+				'MEG onderscheidt zich door een klantgerichte, gestroomlijnde aanpak: levering en professionele opbouw door ons eigen team bij elke boeking, een technicus ter plaatse bij het Wedding Pack en het MICE Pack, apparatuur van premium merken en transparante totaalprijzen. We werken toe naar een 100% online boekingservaring met vaste, gestandaardiseerde prijzen en volledig transparante transacties.'
 		},
 		'booking-process': {
 			question: 'Hoe verloopt het boekingsproces bij Malaga Event Gear?',
@@ -201,7 +201,7 @@ export default {
 		'vat-pricing': {
 			question: 'Zijn jullie pakketprijzen inclusief btw?',
 			answer:
-				'Nee, de vermelde prijzen zijn exclusief btw. Zoals aangegeven met (+21% btw) naast de tarieven, wordt het standaard Spaanse btw-tarief (IVA) van 21% bovenop de pakketprijs berekend. Je definitieve offerte toont zowel de nettoprijs als de btw-uitsplitsing, met volledige transparantie.'
+				'Nee, de vermelde prijzen zijn exclusief btw. Zoals aangegeven met (+{vat} btw) naast de tarieven, wordt het standaard Spaanse btw-tarief (IVA) van {vat} bovenop de pakketprijs berekend. Je definitieve offerte toont zowel de nettoprijs als de btw-uitsplitsing, met volledige transparantie.'
 		},
 		'on-site-technician': {
 			question: 'Bieden jullie een technicus ter plaatse tijdens het evenement?',

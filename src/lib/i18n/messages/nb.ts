@@ -74,7 +74,7 @@ const t = {
 			'Par som planlegger bryllup, bedrifter som arrangerer konferanser og bedriftsarrangementer, og alle som skal ha fest eller privat feiring og ønsker feilfri lyd og lys uten å kjøpe utstyret selv.',
 		costQ: 'Hva koster det?',
 		costA:
-			'faste pakkepriser uten skjulte gebyrer, tilpasset størrelsen på arrangementet ditt, i tillegg til skreddersydde tilbud for større produksjoner.',
+			'Faste pakkepriser uten skjulte gebyrer, tilpasset størrelsen på arrangementet ditt, i tillegg til skreddersydde tilbud for større produksjoner.',
 		costFrom: 'Fra',
 		howQ: 'Hvordan fungerer det?',
 		howA:
@@ -115,7 +115,7 @@ const t = {
 		check: 'Sjekk tilgjengelighet',
 		mostPopular: 'Mest populær',
 		from: 'Fra',
-		plusVat: '(+21% MVA)',
+		plusVat: '(+{vat} MVA)',
 		plusVatShort: '(+MVA)',
 		bookPack: 'Bestill'
 	},
@@ -288,7 +288,7 @@ const t = {
 		emailFailDismiss: 'Lukk',
 		countryCode: 'Landskode',
 		responseTime: 'Vi svarer så snart som mulig',
-		trustBadge: 'Valgt til 500+ arrangementer i Malaga'
+		trustBadge: 'Valgt av {clients} fornøyde kunder'
 	},
 	// Thank-you page
 	thankYou: {

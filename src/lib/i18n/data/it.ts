@@ -16,7 +16,7 @@ export default {
 			landing: {
 				badge: 'Piccoli eventi e feste',
 				rateLabel: 'Tariffa conveniente tutto incluso',
-				vatNote: '(+21% IVA), allestimento e trasporto inclusi',
+				vatNote: '(+{vat} IVA), allestimento e trasporto inclusi',
 				specTitle: 'Fino a 50 ospiti',
 				specBody: 'Perfetto per ville, giardini e sale private.',
 				highlightTitle: 'Servizio senza pensieri',
@@ -47,7 +47,7 @@ export default {
 			landing: {
 				badge: 'Il nostro pacchetto più richiesto per le celebrazioni',
 				rateLabel: 'Tariffa premium tutto incluso',
-				vatNote: '(+21% IVA), allestimento e assistenza dal vivo inclusi',
+				vatNote: '(+{vat} IVA), allestimento e assistenza dal vivo inclusi',
 				specTitle: 'Fino a 80 ospiti',
 				specBody: 'Perfetto per splendide ville, fincas e hotel per matrimoni.',
 				highlightTitle: 'Tecnico presente in loco',
@@ -73,7 +73,7 @@ export default {
 			landing: {
 				badge: 'Soluzioni aziendali ad alto impatto visivo',
 				rateLabel: 'Tariffa fissa pacchetto presentazione',
-				vatNote: '(+21% IVA), proiettore e schermo inclusi',
+				vatNote: '(+{vat} IVA), proiettore e schermo inclusi',
 				specTitle: 'Proiettore ad alta luminosità',
 				specBody: 'Proiettore da 5000 lumen, ideale per sale illuminate.',
 				highlightTitle: 'Immagine aziendale impeccabile',
@@ -104,7 +104,7 @@ export default {
 			landing: {
 				badge: 'Pacchetti essenziali per riunioni dirigenziali',
 				rateLabel: 'Tariffa fissa riunione aziendale',
-				vatNote: '(+21% IVA), allestimento e trasporto inclusi',
+				vatNote: '(+{vat} IVA), allestimento e trasporto inclusi',
 				specTitle: 'Fino a 40 ospiti',
 				specBody: "Pensato per sale riunioni, saloni privati e suite d'hotel.",
 				highlightTitle: 'Voce chiara e intelligibile',
@@ -137,7 +137,7 @@ export default {
 			landing: {
 				badge: 'Esperienza MICE aziendale premium',
 				rateLabel: 'Tariffa aziendale tutto incluso',
-				vatNote: '(+21% IVA), schermo LED, audio e tecnico dal vivo inclusi',
+				vatNote: '(+{vat} IVA), schermo LED, audio e tecnico dal vivo inclusi',
 				specTitle: 'Schermo LED da 60 pollici',
 				specBody: 'Schermo grande formato ad alta definizione per immagini aziendali di grande impatto.',
 				highlightTitle: "Tecnico dedicato durante l'evento",
@@ -171,7 +171,7 @@ export default {
 		'what-makes-unique': {
 			question: 'Cosa rende unica Malaga Event Gear (MEG) rispetto ad altre aziende di noleggio audiovisivo?',
 			answer:
-				"MEG si distingue per un approccio centrato sul cliente e semplificato: un tecnico dedicato in loco per ogni prenotazione, attrezzature di marchi premium e prezzi trasparenti tutto incluso. Stiamo evolvendo verso un'esperienza di prenotazione 100% online con tariffe fisse standardizzate e transazioni completamente trasparenti."
+				"MEG si distingue per un approccio centrato sul cliente e semplificato: consegna e installazione professionale a cura del nostro team per ogni prenotazione, un tecnico in loco incluso nel Wedding Pack e nel MICE Pack, attrezzature di marchi premium e prezzi trasparenti tutto incluso. Stiamo evolvendo verso un'esperienza di prenotazione 100% online con tariffe fisse standardizzate e transazioni completamente trasparenti."
 		},
 		'booking-process': {
 			question: 'Come funziona il processo di prenotazione con Malaga Event Gear?',
@@ -201,7 +201,7 @@ export default {
 		'vat-pricing': {
 			question: "I prezzi dei vostri pacchetti includono l'IVA?",
 			answer:
-				"No, i prezzi indicati non includono l'IVA. Come indicato dalla dicitura (+21% IVA) accanto alle tariffe, l'IVA spagnola standard del 21% viene applicata in aggiunta al prezzo del pacchetto. Il tuo preventivo finale mostrerà sia il prezzo netto sia il dettaglio dell'IVA con totale trasparenza."
+				"No, i prezzi indicati non includono l'IVA. Come indicato dalla dicitura (+{vat} IVA) accanto alle tariffe, l'IVA spagnola standard del {vat} viene applicata in aggiunta al prezzo del pacchetto. Il tuo preventivo finale mostrerà sia il prezzo netto sia il dettaglio dell'IVA con totale trasparenza."
 		},
 		'on-site-technician': {
 			question: "Fornite un tecnico in loco durante l'evento?",

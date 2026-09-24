@@ -37,11 +37,11 @@ const copy = {
     },
     audio: {
         imageAlt: 'Professional sound rental equipment',
-        desc: 'Line array systems, active speakers, digital mixing consoles, and Audix wireless microphones for high acoustic fidelity.'
+        desc: 'HK Audio active and passive speakers with subwoofers, digital mixing consoles and Audix wireless microphones for high acoustic fidelity.'
     },
     lighting: {
         imageAlt: 'Spectacular event lighting rental equipment',
-        desc: 'RGBW LED spotlights, specialty stage lighting, and a wireless uplighting kit to create romantic or energetic atmospheres.'
+        desc: 'LED light bars, a zoom Fresnel spotlight and a wireless uplighting kit to create romantic or energetic atmospheres.'
     },
     visuals: {
         imageAlt: 'HD projectors and screen rental equipment',

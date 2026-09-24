@@ -31,7 +31,7 @@ const copy = {
 	booking: {
 		title: 'Booking, priser og sikkerhed',
 		p1: 'Alle services skal bestilles med mindst 24 timers varsel. For at gennemføre en booking skal kunden oplyse det præcise sted og tidspunkt for eventet.',
-		p2: 'Alle priser på vores hjemmeside er angivet uden moms (+21%). Vi garanterer, at alle betalingstransaktioner er 100% sikre og behandles via pålidelige finansielle gateways.'
+		p2: 'Alle priser på vores hjemmeside er angivet uden moms (+{vat}). Vi garanterer, at alle betalingstransaktioner er 100% sikre og behandles via pålidelige finansielle gateways.'
 	},
 	obligations: {
 		title: 'Kundens forpligtelser og ansvar for udstyret',

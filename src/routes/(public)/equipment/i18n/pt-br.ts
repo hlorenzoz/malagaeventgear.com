@@ -34,11 +34,11 @@ export default {
 	},
 	audio: {
 		imageAlt: 'Aluguel de equipamento de som profissional',
-		desc: 'Sistemas line array, caixas de som ativas, mesas de mixagem digitais e microfones sem fio Audix para alta fidelidade acústica.'
+		desc: 'Caixas de som ativas e passivas HK Audio com subwoofers, mesas de mixagem digitais e microfones sem fio Audix para alta fidelidade acústica.'
 	},
 	lighting: {
 		imageAlt: 'Aluguel de iluminação espetacular para eventos',
-		desc: 'Spots de LED RGBW, iluminação de palco especializada e um kit de uplighting sem fio para criar atmosferas românticas ou energéticas.'
+		desc: 'Barras de LED, um refletor Fresnel com zoom e um kit de uplighting sem fio para criar atmosferas românticas ou energéticas.'
 	},
 	visuals: {
 		imageAlt: 'Aluguel de projetores HD e telas',

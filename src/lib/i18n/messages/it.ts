@@ -77,7 +77,7 @@ const t = {
 			"Alle coppie che organizzano il matrimonio, alle aziende che gestiscono conferenze ed eventi aziendali e a chiunque organizzi una festa o una celebrazione privata e desideri un suono e un'illuminazione impeccabili senza dover acquistare le attrezzature.",
 		costQ: 'Quanto costa?',
 		costA:
-			'pacchetti a prezzo fisso senza costi nascosti, calibrati sulla dimensione del tuo evento, oltre a preventivi su misura per produzioni più grandi.',
+			'Pacchetti a prezzo fisso senza costi nascosti, calibrati sulla dimensione del tuo evento, oltre a preventivi su misura per produzioni più grandi.',
 		costFrom: 'A partire da',
 		howQ: 'Come funziona?',
 		howA:
@@ -119,7 +119,7 @@ const t = {
 		check: 'Verifica la disponibilità',
 		mostPopular: 'Il più richiesto',
 		from: 'A partire da',
-		plusVat: '(+21% IVA)',
+		plusVat: '(+{vat} IVA)',
 		plusVatShort: '(+IVA)',
 		bookPack: 'Prenota'
 	},
@@ -298,7 +298,7 @@ const t = {
 		emailFailDismiss: 'Chiudi',
 		countryCode: 'Prefisso internazionale',
 		responseTime: 'Rispondiamo il prima possibile',
-		trustBadge: 'Oltre 500 eventi realizzati a Malaga'
+		trustBadge: 'Già {clients} clienti ci hanno scelto'
 	},
 	// Thank-you page
 	thankYou: {

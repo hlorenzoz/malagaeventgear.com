@@ -31,7 +31,7 @@ export default {
 	booking: {
 		title: 'Bokning, prissättning och säkerhet',
 		p1: 'Alla tjänster måste bokas med minst 24 timmars framförhållning. För att slutföra en bokning måste kunden ange exakt plats och tid för evenemanget.',
-		p2: 'Alla priser på vår webbplats anges exklusive moms (+21%). Vi garanterar att alla betalningstransaktioner är 100 % säkra och behandlas via betrodda finansiella system.'
+		p2: 'Alla priser på vår webbplats anges exklusive moms (+{vat}). Vi garanterar att alla betalningstransaktioner är 100 % säkra och behandlas via betrodda finansiella system.'
 	},
 	obligations: {
 		title: 'Kundens skyldigheter och ansvar för utrustning',

@@ -64,6 +64,9 @@ export const siteConfig = {
 	// Lo consume el redirect /r/[token].
 	reviewUrl: 'https://g.page/r/Cc8g7neiciATEBM/review',
 	foundingYear: 1996,
+	// "Over 1,000+ satisfied clients" (.agents/BUSINESS.md, confirmed by the business). Shown as `1,000+`
+	// on /about-us/ and in the lead form trust badge, formatted per language by formatNumber.
+	clientCount: 1000,
 	categories: [
 		'Audio Visual Equipment Hire Service',
 		'Party equipment rental service',

@@ -34,11 +34,11 @@ export default {
 	},
 	audio: {
 		imageAlt: 'Professionell ljudutrustning för uthyrning',
-		desc: 'Linjearraysystem, aktiva högtalare, digitala mixerbord och trådlösa Audix-mikrofoner för hög akustisk kvalitet.'
+		desc: 'Aktiva och passiva HK Audio-högtalare med subwoofrar, digitala mixerbord och trådlösa Audix-mikrofoner för hög akustisk kvalitet.'
 	},
 	lighting: {
 		imageAlt: 'Uthyrning av spektakulär eventbelysning',
-		desc: 'LED-spotlights i RGBW, specialiserad scenbelysning och ett trådlöst kit för uplighting som skapar romantiska eller energiska stämningar.'
+		desc: 'LED-ljusbalkar, en Fresnelspotlight med zoom och ett trådlöst kit för uplighting som skapar romantiska eller energiska stämningar.'
 	},
 	visuals: {
 		imageAlt: 'HD-projektorer och dukar för uthyrning',

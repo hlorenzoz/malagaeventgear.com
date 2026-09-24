@@ -16,7 +16,7 @@ export default {
 			landing: {
 				badge: '小型活動與派對',
 				rateLabel: '超值全包價格',
-				vatNote: '（另加21%增值稅，已含搭建及運送）',
+				vatNote: '（另加{vat}增值稅，已含搭建及運送）',
 				specTitle: '最多50位賓客',
 				specBody: '適合別墅、花園及私人廳房。',
 				highlightTitle: '零壓力服務',
@@ -46,7 +46,7 @@ export default {
 			landing: {
 				badge: '我們最受歡迎的慶典套餐',
 				rateLabel: '尊尚全包價格',
-				vatNote: '（另加21%增值稅，已含搭建及現場支援）',
+				vatNote: '（另加{vat}增值稅，已含搭建及現場支援）',
 				specTitle: '最多80位賓客',
 				specBody: '適合美麗的別墅、莊園及婚宴酒店。',
 				highlightTitle: '現場駐場技術人員',
@@ -72,7 +72,7 @@ export default {
 			landing: {
 				badge: '高視覺衝擊力的企業方案',
 				rateLabel: '簡報套餐定額價格',
-				vatNote: '（另加21%增值稅，已含投影機及熒幕）',
+				vatNote: '（另加{vat}增值稅，已含投影機及熒幕）',
 				specTitle: '高亮度投影機',
 				specBody: '5000流明投影機，適合光線充足的場地。',
 				highlightTitle: '完美呈現企業品牌形象',
@@ -102,7 +102,7 @@ export default {
 			landing: {
 				badge: '必備行政會議套餐',
 				rateLabel: '企業會議定額價格',
-				vatNote: '（另加21%增值稅，已含搭建及運送）',
+				vatNote: '（另加{vat}增值稅，已含搭建及運送）',
 				specTitle: '最多40位賓客',
 				specBody: '適合董事會議室、私人廳房及酒店套房。',
 				highlightTitle: '清晰語音辨識度',
@@ -134,7 +134,7 @@ export default {
 			landing: {
 				badge: '尊尚企業MICE體驗',
 				rateLabel: '企業全包價格',
-				vatNote: '（另加21%增值稅，已含LED顯示熒幕、音響及現場技術人員）',
+				vatNote: '（另加{vat}增值稅，已含LED顯示熒幕、音響及現場技術人員）',
 				specTitle: '60吋LED顯示熒幕',
 				specBody: '大型高清顯示熒幕，呈現震撼的企業視覺效果。',
 				highlightTitle: '專屬現場技術人員',
@@ -197,7 +197,7 @@ export default {
 		'vat-pricing': {
 			question: '你們的套餐價格是否已包含增值稅？',
 			answer:
-				'不包含。標示的價格均不包括增值稅。如價格旁標註的（另加21%增值稅）所示，將於套餐價格以外另加西班牙標準21%增值稅（IVA）。您的最終報價將完全透明地列出未稅價格與增值稅明細。'
+				'不包含。標示的價格均不包括增值稅。如價格旁標註的（另加{vat}增值稅）所示，將於套餐價格以外另加西班牙標準{vat}增值稅（IVA）。您的最終報價將完全透明地列出未稅價格與增值稅明細。'
 		},
 		'on-site-technician': {
 			question: '活動期間你們會提供現場技術人員嗎？',

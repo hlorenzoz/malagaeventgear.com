@@ -7,6 +7,7 @@ import {
 	VAT_RATE,
 	formatPrice,
 	withPrices,
+	renderTokens,
 	PRICE_POINTS,
 	getPriceRange,
 	formatPriceRange,
@@ -57,6 +58,26 @@ describe('pricing single source of truth', () => {
 
 		it('leaves text without tokens untouched', () => {
 			expect(withPrices('No prices here.', 'de')).toBe('No prices here.');
+		});
+	});
+
+	describe('the {vat} token', () => {
+		it('renders VAT_RATE as a percentage in the page language', () => {
+			expect(withPrices('(+{vat} VAT)', 'en')).toBe(`(+${Math.round(VAT_RATE * 100)}% VAT)`);
+			expect(withPrices('(+{vat} TVA)', 'fr')).toBe(`(+${Math.round(VAT_RATE * 100)} % TVA)`);
+			expect(withPrices('（另加{vat}增值税）', 'zh-hans')).toBe(`（另加${Math.round(VAT_RATE * 100)}%增值税）`);
+		});
+	});
+
+	describe('renderTokens', () => {
+		it('renders every string of a copy object, arrays and nesting included', () => {
+			const copy = { a: 'From {price:technicianDay}', b: ['(+{vat})', 'plain'], c: { d: '{price:lectern}' }, n: 3 };
+			expect(renderTokens(copy, 'en')).toEqual({
+				a: `From ${formatPrice(PRICE_POINTS.technicianDay, 'en')}`,
+				b: [`(+${Math.round(VAT_RATE * 100)}%)`, 'plain'],
+				c: { d: formatPrice(PRICE_POINTS.lectern, 'en') },
+				n: 3
+			});
 		});
 	});
 

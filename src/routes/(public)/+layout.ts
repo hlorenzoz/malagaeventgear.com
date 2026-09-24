@@ -1,6 +1,7 @@
 import { loadMessages } from '$lib/i18n.svelte';
 import { loadContentMap } from '$lib/i18n/router';
 import { loadDataCopy } from '$lib/i18n/data-copy';
+import { renderTokens } from '$lib/data/packages';
 import type { LayoutLoad } from './$types';
 
 // Every public page is prerendered, in every locale. A localized URL that was not generated
@@ -16,5 +17,6 @@ export const load: LayoutLoad = async ({ data }) => {
 		data.locale === 'en' ? Promise.resolve(null) : loadContentMap(data.locale),
 		loadDataCopy(data.locale)
 	]);
-	return { ...data, messages, contentMap, dataCopy };
+	// Catalog tokens ({price:key}, {vat}) are rendered here once, in the page language.
+	return { ...data, messages: renderTokens(messages, data.locale), contentMap, dataCopy };
 };

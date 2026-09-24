@@ -17,7 +17,7 @@ const copy = {
         title: 'Frequently Asked Questions',
         question: 'Are your package prices inclusive of VAT?',
         answer:
-            'No, the listed prices do not include VAT. As indicated by (+21% VAT) next to the rates, the standard 21% Spanish VAT (IVA) will be applied on top of the package price. Your final quote will show both the net price and the VAT breakdown with 100% transparency.'
+            'No, the listed prices do not include VAT. As indicated by (+{vat} VAT) next to the rates, the standard {vat} Spanish VAT (IVA) will be applied on top of the package price. Your final quote will show both the net price and the VAT breakdown with 100% transparency.'
     }
 };
 

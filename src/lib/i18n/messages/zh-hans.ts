@@ -105,7 +105,7 @@ const t = {
 		check: '查询可预订日期',
 		mostPopular: '最受欢迎',
 		from: '起价',
-		plusVat: '（另加21%增值税）',
+		plusVat: '（另加{vat}增值税）',
 		plusVatShort: '（另加增值税）',
 		bookPack: '预订'
 	},

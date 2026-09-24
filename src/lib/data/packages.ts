@@ -107,7 +107,7 @@ const packagesData: EventPackage[] = [
 		landing: {
 			badge: 'Small Events & Parties',
 			rateLabel: 'Affordable All Inclusive Rate',
-			vatNote: '(+21% VAT) - Setup & transport included',
+			vatNote: '(+{vat} VAT), setup & transport included',
 			specIcon: 'group',
 			specTitle: 'Up to 50 Guests',
 			specBody: 'Perfect for villas, gardens, and private rooms.',
@@ -154,7 +154,7 @@ const packagesData: EventPackage[] = [
 		landing: {
 			badge: 'Our Most Popular Celebration Pack',
 			rateLabel: 'Premium All Inclusive Rate',
-			vatNote: '(+21% VAT) - Setup & live support included',
+			vatNote: '(+{vat} VAT), setup & live support included',
 			specIcon: 'group',
 			specTitle: 'Up to 80 Guests',
 			specBody: 'Perfect for beautiful villas, fincas, and wedding hotels.',
@@ -195,7 +195,7 @@ const packagesData: EventPackage[] = [
 		landing: {
 			badge: 'High Visual Impact Corporate Solutions',
 			rateLabel: 'Presentation Pack Flat Rate',
-			vatNote: '(+21% VAT) - Projector & screen included',
+			vatNote: '(+{vat} VAT), projector & screen included',
 			specIcon: 'videocam',
 			specTitle: 'High Brightness Projector',
 			specBody: '5000 lumen projector, ideal for lit rooms.',
@@ -242,7 +242,7 @@ const packagesData: EventPackage[] = [
 		landing: {
 			badge: 'Essential Executive Meeting Packages',
 			rateLabel: 'Corporate Meeting Flat Rate',
-			vatNote: '(+21% VAT) - Setup & transport included',
+			vatNote: '(+{vat} VAT), setup & transport included',
 			specIcon: 'group',
 			specTitle: 'Up to 40 Guests',
 			specBody: 'Designed for boardrooms, private salons, and hotel suites.',
@@ -291,7 +291,7 @@ const packagesData: EventPackage[] = [
 		landing: {
 			badge: 'Premium Corporate MICE Experience',
 			rateLabel: 'All Inclusive Corporate Rate',
-			vatNote: '(+21% VAT) - LED display, sound & live technician included',
+			vatNote: '(+{vat} VAT), LED display, sound & live technician included',
 			specIcon: 'connected_tv',
 			specTitle: '60 inch LED Display',
 			specBody: 'High definition large format screen for impactful corporate visuals.',
@@ -387,16 +387,39 @@ export function isPricePoint(key: string): key is PricePoint {
 	return Object.hasOwn(PRICE_POINTS, key);
 }
 
+/** The VAT rate as a percentage in the page language: `21%` in English, `21 %` in French. */
+export function formatVat(lang: Locale = 'en'): string {
+	return new Intl.NumberFormat(LOCALE_META[lang].intl, { style: 'percent', maximumFractionDigits: 1 })
+		.format(VAT_RATE)
+		.replace(/[\u00a0\u202f]/g, ' ');
+}
+
 /**
- * Renders the `{price:key}` tokens of a copy string (`'Projector (+{price:projectorScreen})'`)
- * with formatPrice in the page language. An unknown key throws, which fails the prerender
- * instead of publishing a broken token. Guarded by no-hardcoded-prices.test.ts.
+ * Renders the catalog tokens of a copy string with the values that own them, in the page
+ * language: `{price:key}` from PRICE_POINTS through formatPrice (`'Projector (+{price:projectorScreen})'`)
+ * and `{vat}` from VAT_RATE. An unknown price key throws, which fails the prerender instead of
+ * publishing a broken token. Guarded by no-hardcoded-prices.test.ts.
  */
 export function withPrices(text: string, lang: Locale = 'en'): string {
-	return text.replace(/\{price:([A-Za-z0-9]+)\}/g, (token, key: string) => {
-		if (!isPricePoint(key)) throw new Error(`Unknown price token ${token}: add it to PRICE_POINTS`);
-		return formatPrice(PRICE_POINTS[key], lang);
-	});
+	return text
+		.replace(/\{price:([A-Za-z0-9]+)\}/g, (token, key: string) => {
+			if (!isPricePoint(key)) throw new Error(`Unknown price token ${token}: add it to PRICE_POINTS`);
+			return formatPrice(PRICE_POINTS[key], lang);
+		})
+		.replaceAll('{vat}', formatVat(lang));
+}
+
+/**
+ * withPrices over every string of a copy object (dictionaries, page copy, package copy), keeping
+ * its shape. Copy is rendered once, where it is loaded, so no component has to remember to.
+ */
+export function renderTokens<T>(value: T, lang: Locale = 'en'): T {
+	if (typeof value === 'string') return withPrices(value, lang) as T;
+	if (Array.isArray(value)) return value.map((item) => renderTokens(item, lang)) as T;
+	if (value && typeof value === 'object') {
+		return Object.fromEntries(Object.entries(value).map(([k, v]) => [k, renderTokens(v, lang)])) as T;
+	}
+	return value;
 }
 
 /** Cheapest and most expensive package prices, derived from the catalog. */
