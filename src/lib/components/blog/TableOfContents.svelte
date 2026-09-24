@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { BlogPost } from '$lib/types/blog';
+	import { i18n } from '$lib/i18n.svelte';
 
 	let {
 		toc = []
@@ -58,8 +59,9 @@
 </script>
 
 {#if toc && toc.length > 0}
-	<nav aria-label="Table of contents" class="toc-desktop">
-		<p class="toc-desktop-title">In this article</p>
+	<!-- Same words as the mobile ToC the build puts in the body (blogStructure, page language) -->
+	<nav aria-label={i18n.t.blogStructure.tocAria} class="toc-desktop">
+		<p class="toc-desktop-title">{i18n.t.blogStructure.inThisArticle}</p>
 		<ol class="toc-desktop-list">
 			{#each toc as entry (entry.id)}
 				<li class={entry.level === 3 ? 'toc-desktop-item toc-desktop-item--h3' : 'toc-desktop-item'}>

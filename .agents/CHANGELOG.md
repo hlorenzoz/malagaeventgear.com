@@ -7,6 +7,17 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (i18n-blog-review) - Fase 4, revision del mecanismo antes del primer post traducido
+- **Una sola hora de corte**: los posts ingleses se filtran con la hora del build (`builtAt`), igual que las traducciones y la disponibilidad, nunca con el reloj en tiempo de ejecucion (`blog-module.test.ts`).
+- **Un post mal formado hace fallar el build** con el nombre del archivo: frontmatter ingles o traducido invalido, traduccion sin post ingles, sin entrada en el mapa o en una carpeta que no es un idioma. Antes una sola traduccion rota vaciaba el blog de todos los idiomas sin avisar (`malformedTranslations`, `computeBlogState`, `vite-blog-meta.test.ts`).
+- **`sourceUpdated` sin comillas** (fecha YAML) se acepta y se normaliza a `YYYY-MM-DD`, como `publishDate`.
+- **Palabras estructurales por idioma**: grupo `blogStructure` en los 13 diccionarios (encabezados de FAQ, resumen, destacados, testimonios e indice, "In this article" y etiquetas aria). Los plugins rehype y los parsers de FAQ e indice leen las del idioma del post. El ingles queda igual (`scripts/blog-structure.test.ts`).
+- **Imagenes de un post traducido**: alt y pie salen del markdown (`![alt](url "pie")`), nunca del manifest ingles. Guard de alt no vacio (`translated-post-images.test.ts`).
+- **CTA, rail de paquetes e indice** con copy de los 13 idiomas, precio con `formatPrice` e IVA con `{vat}`. El CTA ingles ya no promete proyeccion laser.
+- **Mismo paquete que el post ingles** en una traduccion (`enTitle`), migas de categoria con el nombre del idioma (`breadcrumbLeaf`), sin tags ingleses y `keywords` con la keyword del idioma.
+- **Bundle**: `post-faqs.json` y `post-toc.json` (unos 390 KB) salen del modulo que importan todos los listados. Cada post ingles carga su FAQ e indice en su propio chunk (`virtual:blog-extras`), fuera del precache.
+- **Guard e2e** `tests/blog-translations.spec.ts`: ningun post traducido con chrome o pie en ingles, acordeon y `FAQPage` localizados, miga final localizada, mismo paquete y precio del idioma. Probado con una traduccion temporal a aleman y chino simplificado (borrada).
+
 ### Added (i18n-blog-infra) - Fase 4, infraestructura del blog multilingue
 - **Traducciones de posts en `src/content/blog/<locale>/<en-slug>.svx`**, con `TranslatedPostSchema` estricto (`title`, `description`, `excerpt`, `publishDate`, `updatedDate?`, `sourceUpdated`, `draft?`). Portada, categorias, tags, autor y silo salen del post ingles. Slug y keyword salen del mapa de contenido del idioma. Ningun post se tradujo en este cambio: con cero traducciones el sitio queda igual (321 HTML).
 - **Datos por idioma, un chunk por idioma**: `virtual:blog-translations/<locale>` (frontmatter, FAQ y ToC extraidos del cuerpo al compilar) y `virtual:blog-availability/<locale>` (slugs ingleses publicados, para `i18n.href` y el `reroute`). API async en `blog.ts`: `getPostsForLocale`, `getLocalizedPost`, `getCategoriesForLocale`, `getAuthorsForLocale`. El `slug` de un post traducido sigue siendo el ingles (su identidad), `url` es la localizada.

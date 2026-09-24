@@ -3,35 +3,34 @@
  * alike (post-freshness.test.ts, scripts/post-touch.ts). Relative imports: build tooling runs
  * it outside SvelteKit.
  */
-import { TranslatedPostSchema } from '../types/blog';
-import type { LocaleContentMap } from '../i18n/content-map/schema';
+import { TranslatedPostSchema } from '../types/blog.ts';
+import type { LocaleContentMap } from '../i18n/content-map/schema.ts';
 import {
 	buildLocalizedPosts,
 	buildPostsFromGlob,
 	findStaleTranslations,
 	lastChangeOf,
 	translationPathInfo,
+	zodIssues,
 	type GlobResult,
 	type TranslationGlob
-} from './blog-pipeline';
-import { PREFIXED_LOCALES } from '../i18n/locales';
+} from './blog-pipeline.ts';
+import { PREFIXED_LOCALES } from '../i18n/locales.ts';
 
 /**
- * Every problem of the translation files, one message each, `<locale>/<en-slug>: ...`:
+ * Problems that make a translation file MALFORMED, one message each, `<locale>/<en-slug>: ...`:
  * a folder that is not a site locale, invalid frontmatter (drafts included), no English post,
- * a non draft translation missing from the locale's content map (it would silently never
- * publish), and a PUBLISHED translation older than its English post (CLAUDE.md, "Reglas
- * mandatorias de idioma", rule 2). Empty means healthy.
+ * and a non draft translation missing from the locale's content map (it would silently never
+ * publish). The build fails on any of them (scripts/blog-sources.ts, `computeBlogState`), so a
+ * broken file never drops a post, or a whole locale's blog, without a word. Empty means valid.
  */
-export function auditTranslations(
+export function malformedTranslations(
 	englishGlob: GlobResult,
 	translations: TranslationGlob,
-	maps: Partial<Record<string, LocaleContentMap>>,
-	now: Date = new Date()
+	maps: Partial<Record<string, LocaleContentMap>>
 ): string[] {
 	const problems: string[] = [];
 	const englishSlugs = new Set(Object.keys(englishGlob).map((p) => p.split('/').pop()!.replace(/\.svx$/, '')));
-	const english = buildPostsFromGlob(englishGlob, now);
 
 	for (const [path, module] of Object.entries(translations)) {
 		const info = translationPathInfo(path);
@@ -47,18 +46,37 @@ export function auditTranslations(
 		}
 		const parsed = TranslatedPostSchema.safeParse(module.metadata);
 		if (!parsed.success) {
-			const issues = parsed.error.issues.map((i) => `${i.path.join('.') || '(root)'} ${i.message}`).join(', ');
-			problems.push(`${id}: invalid frontmatter (${issues})`);
+			problems.push(`${id}: invalid frontmatter (${zodIssues(parsed.error)})`);
 			continue;
 		}
 		if (!parsed.data.draft && !maps[info.locale]?.posts[info.enSlug]) {
 			problems.push(`${id}: missing from content-map/locales/${info.locale}.ts posts (slug and keyword)`);
 		}
 	}
+	return problems;
+}
 
+/**
+ * Every problem of the translation files: the malformed ones above, plus a PUBLISHED
+ * translation older than its English post (CLAUDE.md, "Reglas mandatorias de idioma", rule 2),
+ * which the test suite guards (post-freshness.test.ts) but does not fail the build. Empty means
+ * healthy.
+ */
+export function auditTranslations(
+	englishGlob: GlobResult,
+	translations: TranslationGlob,
+	maps: Partial<Record<string, LocaleContentMap>>,
+	now: Date = new Date()
+): string[] {
+	const problems = malformedTranslations(englishGlob, translations, maps);
+	// Freshness only over the files that parse: a malformed one is already reported.
+	const valid = Object.fromEntries(
+		Object.entries(translations).filter(([, m]) => TranslatedPostSchema.safeParse(m.metadata).success)
+	);
+	const english = buildPostsFromGlob(englishGlob, now);
 	const englishBySlug = new Map(english.map((p) => [p.slug, p]));
 	for (const locale of PREFIXED_LOCALES) {
-		const published = buildLocalizedPosts(locale, english, translations, maps[locale] ?? null, now);
+		const published = buildLocalizedPosts(locale, english, valid, maps[locale] ?? null, now);
 		const stale = new Set(findStaleTranslations(published, english));
 		for (const post of published.filter((p) => stale.has(`${locale}/${p.slug}`))) {
 			const source = lastChangeOf(englishBySlug.get(post.slug)!);
@@ -68,4 +86,23 @@ export function auditTranslations(
 		}
 	}
 	return problems;
+}
+
+/**
+ * Sources of the images of a post body with an empty alt, markdown (`![](url)`) or HTML
+ * (`<img>`). A translated post needs an alt on every image, in its language
+ * (translated-post-images.test.ts): the build never uses the English manifest alt there.
+ */
+export function imagesWithoutAlt(body: string): string[] {
+	const missing: { at: number; src: string }[] = [];
+	for (const m of body.matchAll(/!\[([^\]]*)\]\(\s*<?([^\s)>]+)>?(?:\s+"[^"]*")?\s*\)/g)) {
+		if (m[1].trim() === '') missing.push({ at: m.index ?? 0, src: m[2] });
+	}
+	for (const m of body.matchAll(/<img\b[^>]*>/gi)) {
+		const alt = m[0].match(/\balt\s*=\s*(?:"([^"]*)"|'([^']*)')/i);
+		if (!alt || (alt[1] ?? alt[2] ?? '').trim() === '') {
+			missing.push({ at: m.index ?? 0, src: m[0].match(/\bsrc\s*=\s*["']([^"']+)["']/i)?.[1] ?? m[0] });
+		}
+	}
+	return missing.sort((a, b) => a.at - b.at).map((m) => m.src);
 }

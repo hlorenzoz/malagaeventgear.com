@@ -8,20 +8,20 @@
 	import { page } from '$app/stores';
 	import { i18n } from '$lib/i18n.svelte';
 	import { buildLocalBusinessSchema, buildBreadcrumbsSchema, buildWebSiteSchema } from '$lib/utils/schema';
+	import { breadcrumbLeaf } from '$lib/i18n/breadcrumbs';
 
 	let { data, children } = $props();
 
 	// Esquemas de datos estructurados globales
 	const localBusinessSchema = buildLocalBusinessSchema();
 	const webSiteSchema = buildWebSiteSchema();
-	// Última miga = título real de la página cuando está en los datos de la ruta
-	// (post de blog → data.post.title; paquete → data.pkg.name). Si no, cae al slug capitalizado.
-	const breadcrumbLeaf = $derived(
-		($page.data as any)?.post?.title ?? ($page.data as any)?.pkg?.name ?? undefined
-	);
+	// Última miga = nombre real de la página cuando está en los datos de la ruta, en el idioma de
+	// la página (post: data.post.title, paquete: data.pkg.name, categoría: data.categoryMeta.name,
+	// localizado). Si no, cae al slug capitalizado.
+	const leafName = $derived(breadcrumbLeaf($page.data as Parameters<typeof breadcrumbLeaf>[0]));
 	// Misma miga que la visible, en el idioma de la página y con sus URLs localizadas.
 	const breadcrumbSchema = $derived(
-		buildBreadcrumbsSchema(data.enPath ?? $page.url.pathname, breadcrumbLeaf, {
+		buildBreadcrumbsSchema(data.enPath ?? $page.url.pathname, leafName, {
 			names: i18n.t.crumbs as Record<string, string>,
 			localize: (path) => i18n.href(path)
 		})
@@ -93,7 +93,7 @@
 
 	<!-- Contenido principal canvas -->
 	<main class="flex-grow pt-[73px] md:pt-[73px] overflow-x-clip">
-		<Breadcrumbs leafName={breadcrumbLeaf} />
+		<Breadcrumbs leafName={leafName} />
 		{@render children()}
 	</main>
 

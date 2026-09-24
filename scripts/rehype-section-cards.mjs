@@ -1,8 +1,9 @@
 /**
  * rehype-section-cards — build-time rehype plugin.
  *
- * Wraps the content of "Brief Overview" and "Key Highlights" h2 sections in
- * styled card elements (glassmorphism, electric-blue accent).
+ * Wraps the content of the overview and highlights h2 sections ("Brief Overview" and "Key
+ * Highlights" in English, the locale's `blogStructure` words in a translated post) in styled
+ * card elements (glassmorphism, electric-blue accent).
  *
  * The h2 heading is preserved inside the card for semantic correctness and ToC links.
  * "Key Highlights" gets an additional `section-card--highlights` modifier class.
@@ -11,6 +12,7 @@
  * and BEFORE rehypeFaqAccordion (which restructures FAQ h3 nodes).
  */
 import { visit } from 'unist-util-visit';
+import { blogStructureOf, isStructuralHeading } from './blog-structure-words.mjs';
 
 /**
  * Returns plain text content of a hast node.
@@ -24,21 +26,20 @@ function textContent(node) {
 	return '';
 }
 
-/** Sections to wrap in a card, with their card modifier classes */
-const SECTION_CARDS = [
-	{ pattern: /^brief overview$/i, modifiers: ['section-card'] },
-	{
-		pattern: /^key highlights?$/i,
-		modifiers: ['section-card', 'section-card--highlights']
-	}
-];
-
 export function rehypeSectionCards() {
-	return (tree) => {
+	return (tree, file) => {
 		const children = tree.children;
 		if (!children || !Array.isArray(children)) return;
 
-		for (const { pattern, modifiers } of SECTION_CARDS) {
+		// Sections to wrap in a card, by their heading in the post's own language
+		// ("Brief Overview" / "Key Highlights" in English), with their card modifier classes.
+		const words = blogStructureOf(file);
+		const SECTION_CARDS = [
+			{ headings: words.overviewHeadings, modifiers: ['section-card'] },
+			{ headings: words.highlightsHeadings, modifiers: ['section-card', 'section-card--highlights'] }
+		];
+
+		for (const { headings, modifiers } of SECTION_CARDS) {
 			// Re-scan after each transformation (indices shift after splicing)
 			let h2Index = -1;
 			for (let i = 0; i < children.length; i++) {
@@ -46,7 +47,7 @@ export function rehypeSectionCards() {
 				if (
 					node.type === 'element' &&
 					node.tagName === 'h2' &&
-					pattern.test(textContent(node).trim())
+					isStructuralHeading(textContent(node), headings)
 				) {
 					h2Index = i;
 					break;

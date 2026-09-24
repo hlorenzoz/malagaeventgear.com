@@ -36,7 +36,7 @@ sourceUpdated: "2026-01-10"${extra ? `\n${extra}` : ''}`;
 
 write('a.svx', englishFm('A'));
 write('b.svx', englishFm('B'));
-write('de/a.svx', deFm(), '## Einleitung\n\nText.\n\n## FAQs\n\n### Frage eins?\n\nAntwort eins.\n');
+write('de/a.svx', deFm(), '## Einleitung\n\nText.\n\n## Häufige Fragen\n\n### Frage eins?\n\nAntwort eins.\n');
 write('de/b.svx', deFm('draft: true'));
 mkdirSync(join(dir, 'fr'), { recursive: true }); // empty locale folder
 
@@ -58,12 +58,12 @@ const map: LocaleContentMap = {
 };
 
 describe('readTranslations', () => {
-	it('reads one locale folder with the frontmatter, FAQ and ToC of each body', () => {
+	it('reads one locale folder with the frontmatter, FAQ and ToC of each body, by its own FAQ heading', () => {
 		const de = readTranslations('de', dir);
 		const a = de['../../content/blog/de/a.svx'];
 		expect(a.metadata).toMatchObject({ title: 'Titel', sourceUpdated: '2026-01-10' });
 		expect(a.faqs).toEqual([{ question: 'Frage eins?', answer: 'Antwort eins.' }]);
-		expect(a.toc?.map((t) => t.text)).toEqual(['Einleitung', 'FAQs', 'Frage eins?']);
+		expect(a.toc?.map((t) => t.text)).toEqual(['Einleitung', 'Häufige Fragen', 'Frage eins?']);
 		expect(Object.keys(de)).toHaveLength(2);
 	});
 
@@ -110,5 +110,50 @@ describe('localizedLinkTable', () => {
 		const empty = localizedLinkTable('de', map, { posts: [], categories: [], authors: [] });
 		expect(empty['/blog/']).toBeUndefined();
 		expect(empty['/contact/']).toBe('/de/kontakt/');
+	});
+});
+
+describe('computeBlogState fails the build on a malformed post, naming the file', () => {
+	function fixture(files: Record<string, string>): string {
+		const root = mkdtempSync(join(tmpdir(), 'meg-blog-bad-'));
+		for (const [path, content] of Object.entries(files)) {
+			mkdirSync(join(root, path, '..'), { recursive: true });
+			writeFileSync(join(root, path), content);
+		}
+		return root;
+	}
+	const post = (fm: string) => `---\n${fm}\n---\nBody.\n`;
+
+	it('an invalid translation (one bad file must not silently drop a locale)', () => {
+		const root = fixture({ 'a.svx': post(englishFm('A')), 'de/a.svx': post(`${deFm()}\ncoverImage: "https://x.test/a.webp"`) });
+		expect(() => computeBlogState({ dir: root, now: NOW, maps: { de: map } })).toThrow(/de\/a: invalid frontmatter/);
+		rmSync(root, { recursive: true, force: true });
+	});
+
+	it('a translation without an English post, or missing from the content map', () => {
+		const root = fixture({ 'a.svx': post(englishFm('A')), 'de/zzz.svx': post(deFm()) });
+		expect(() => computeBlogState({ dir: root, now: NOW, maps: { de: map } })).toThrow(/de\/zzz: there is no English post/);
+		const unmapped = fixture({ 'a.svx': post(englishFm('A')), 'de/a.svx': post(deFm()) });
+		expect(() => computeBlogState({ dir: unmapped, now: NOW, maps: { de: { ...map, posts: {} } } })).toThrow(/de\/a: missing from content-map/);
+		rmSync(root, { recursive: true, force: true });
+		rmSync(unmapped, { recursive: true, force: true });
+	});
+
+	it('a folder that is not a site locale', () => {
+		const root = fixture({ 'a.svx': post(englishFm('A')), 'es/a.svx': post(deFm()) });
+		expect(() => computeBlogState({ dir: root, now: NOW, maps: { de: map } })).toThrow(/es is not a prefixed site locale/);
+		rmSync(root, { recursive: true, force: true });
+	});
+
+	it('an invalid English post', () => {
+		const root = fixture({ 'a.svx': post(englishFm('A').replace(/description: .*/, 'description: "short"')) });
+		expect(() => computeBlogState({ dir: root, now: NOW, maps: { de: map } })).toThrow(/src\/content\/blog\/a\.svx: invalid frontmatter/);
+		rmSync(root, { recursive: true, force: true });
+	});
+
+	it('accepts an unquoted YAML sourceUpdated', () => {
+		const root = fixture({ 'a.svx': post(englishFm('A')), 'de/a.svx': post(deFm().replace('sourceUpdated: "2026-01-10"', 'sourceUpdated: 2026-01-10')) });
+		expect(computeBlogState({ dir: root, now: NOW, maps: { de: map } }).locales.de?.posts[0].sourceUpdated).toBe('2026-01-10');
+		rmSync(root, { recursive: true, force: true });
 	});
 });

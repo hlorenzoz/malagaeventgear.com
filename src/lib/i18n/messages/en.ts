@@ -368,6 +368,53 @@ const en = {
 		packagesSidebarAria: 'Event packages sidebar',
 		tocSidebarAria: 'Table of contents sidebar'
 	},
+	// Words of a post BODY that mark a styled section (compared case insensitively with the
+	// whole heading text), and the chrome the build adds around the body. The build reads the
+	// post's own locale (vite.config.ts publishes this group per locale, see
+	// scripts/blog-structure.mjs): a translated post writes its section headings with exactly
+	// these words. English accepts the singular and plural it always did.
+	blogStructure: {
+		// `## FAQs`: FAQ accordion and FAQPage JSON-LD
+		faqHeadings: ['FAQs', 'FAQ'],
+		// Wrapped in the overview and highlights cards (the mobile ToC goes after the highlights)
+		overviewHeadings: ['Brief Overview'],
+		highlightsHeadings: ['Key Highlights', 'Key Highlight'],
+		// An EMPTY section with this heading is removed (reviews render below the post)
+		testimonialsHeadings: ['Testimonials', 'Testimonial'],
+		// An old inline table of contents, removed (the layout renders its own)
+		tocHeadings: ['Table of Contents'],
+		inThisArticle: 'In this article',
+		tocAria: 'Table of contents',
+		faqAria: 'Frequently asked questions'
+	},
+	// Package suggestion after a post and inside its body (InlineCTA). `{name}` is the package
+	// name, never translated, `{price}` the formatted package price, `{guests}` its guest limit.
+	postCta: {
+		aria: 'Event package suggestion',
+		headline: {
+			wedding: 'Planning a wedding in Malaga?',
+			'basic-mice': 'Organising a corporate event?',
+			mice: 'Need premium MICE AV support?',
+			'product-presentation': 'Launching a product or presentation?',
+			eco: 'Planning a private event?'
+		},
+		subline: {
+			wedding: 'Get the {name}: professional sound and romantic lighting for your special day.',
+			'basic-mice': 'Get the {name}: clear AV for executive meetings and conferences.',
+			mice: 'Get the {name}: premium LED display, sound, and a live technician.',
+			'product-presentation': 'Get the {name}: a high brightness projector, screen and audio for high impact showcases.',
+			eco: 'Get the {name}: solid sound and ambient lighting for up to {guests} guests.'
+		},
+		priceFrom: 'From {price}',
+		viewPackage: 'View the {name}',
+		freeQuote: 'Get a free quote'
+	},
+	// Package list beside a post (desktop) and under its header (mobile)
+	packagesRail: {
+		title: 'Our Packages',
+		aria: 'Event packages',
+		priceFrom: 'from {price}'
+	},
 	// WhatsApp floating widget
 	whatsapp: {
 		chatWithUs: 'Chat with us'

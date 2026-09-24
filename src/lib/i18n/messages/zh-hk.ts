@@ -357,6 +357,41 @@ const t = {
 		packagesSidebarAria: '活動套餐側邊欄',
 		tocSidebarAria: '目錄側邊欄'
 	},
+	blogStructure: {
+		faqHeadings: ['常見問題'],
+		overviewHeadings: ['概述'],
+		highlightsHeadings: ['要點'],
+		testimonialsHeadings: ['客戶評價'],
+		tocHeadings: ['目錄'],
+		inThisArticle: '本文內容',
+		tocAria: '目錄',
+		faqAria: '常見問題'
+	},
+	postCta: {
+		aria: '為您推薦的活動套餐',
+		headline: {
+			wedding: '正在馬拉加籌備婚禮？',
+			'basic-mice': '正在籌辦企業活動？',
+			mice: '需要高端會展視聽支援？',
+			'product-presentation': '要推出新產品或進行演示？',
+			eco: '正在籌備私人活動？'
+		},
+		subline: {
+			wedding: '選擇{name}：專業音響與浪漫燈光，為您的大日子增色。',
+			'basic-mice': '選擇{name}：清晰的視聽設備，適合行政會議與各類會議。',
+			mice: '選擇{name}：高端LED顯示屏、音響及現場技術人員。',
+			'product-presentation': '選擇{name}：高亮度投影機、投影幕與音響，令演示更具感染力。',
+			eco: '選擇{name}：穩定的音響與氛圍燈光，最多可容納{guests}位賓客。'
+		},
+		priceFrom: '{price}起',
+		viewPackage: '查看{name}',
+		freeQuote: '免費索取報價'
+	},
+	packagesRail: {
+		title: '我們的套餐',
+		aria: '活動套餐',
+		priceFrom: '{price}起'
+	},
 	// WhatsApp floating widget
 	whatsapp: {
 		chatWithUs: '與我們聊聊'

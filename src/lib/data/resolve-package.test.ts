@@ -264,3 +264,23 @@ describe('getPackagesForPost', () => {
 		expect(order.indexOf('eco')).toBeLessThan(order.indexOf('basic-mice'));
 	});
 });
+
+describe('a translated post matches like its English post', () => {
+	// A translation keeps the English slug, categories and tags, but its title is translated: the
+	// match must read the ENGLISH title (enTitle), so every locale shows the same CTA package.
+	const english = makePost({ slug: 'some-post', title: 'Product launch checklist', categories: ['Events'] });
+	const german = { ...english, title: 'Checkliste fuer die Produkteinfuehrung', enTitle: english.title };
+	const chinese = { ...english, title: '产品发布清单', enTitle: english.title };
+
+	it('resolves the same CTA package', () => {
+		expect(resolvePackageForPost(english).slug).toBe('product-presentation');
+		expect(resolvePackageForPost(german).slug).toBe('product-presentation');
+		expect(resolvePackageForPost(chinese).slug).toBe('product-presentation');
+	});
+
+	it('orders the rail the same way', () => {
+		const order = getPackagesForPost(english).map((p) => p.slug);
+		expect(getPackagesForPost(german).map((p) => p.slug)).toEqual(order);
+		expect(getPackagesForPost(chinese).map((p) => p.slug)).toEqual(order);
+	});
+});

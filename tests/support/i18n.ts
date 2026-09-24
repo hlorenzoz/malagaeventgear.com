@@ -19,6 +19,11 @@ export function blogAvailability(locale: Locale): BlogAvailability {
 	return locale === 'en' ? NO_BLOG : (blogState.locales[locale]?.availability ?? NO_BLOG);
 }
 
+/** The published translated posts of a locale (localized title and url, FAQ and ToC). */
+export function translatedPosts(locale: Locale) {
+	return locale === 'en' ? [] : (blogState.locales[locale]?.posts ?? []);
+}
+
 export async function contentMap(locale: Locale): Promise<LocaleContentMap> {
 	return (await import(`../../src/lib/i18n/content-map/locales/${locale}.ts`)).default;
 }

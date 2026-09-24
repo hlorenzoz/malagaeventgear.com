@@ -4,12 +4,15 @@
  * Transforms the FAQ section of a blog post body from plain heading/paragraph
  * structure into a native <details>/<summary> accordion:
  *
- *   ## FAQs (h2)           →  <section class="faq-section" aria-label="Frequently asked questions">
+ *   ## FAQs (h2)           →  <section class="faq-section" aria-label="{faqAria}">
  *   ### Question (h3)      →    <details class="faq-item">
  *   Answer paragraphs      →      <summary class="faq-q">Question</summary>
  *                          →      <div class="faq-answer">…answer nodes…</div>
  *                          →    </details>
  *                          →  </section>
+ *
+ * The heading words and the aria label are the post locale's (messages, `blogStructure`), read
+ * from the post path by scripts/blog-structure-words.mjs: `## Häufige Fragen` in a German post.
  *
  * RULES:
  * - rehype-slug runs FIRST — heading ids are already set. We PRESERVE those ids
@@ -23,6 +26,7 @@
  * represent the same data.
  */
 import { visit } from 'unist-util-visit';
+import { blogStructureOf, isStructuralHeading } from './blog-structure-words.mjs';
 
 /**
  * Returns the plain-text content of a hast node.
@@ -37,19 +41,21 @@ function textContent(node) {
 }
 
 export function rehypeFaqAccordion() {
-	return (tree) => {
+	return (tree, file) => {
+		// FAQ heading words and aria label in the post's own language (messages, blogStructure)
+		const words = blogStructureOf(file);
 		// Collect all top-level children with their indices
 		const children = tree.children;
 		if (!children || !Array.isArray(children)) return;
 
-		// Find the h2 whose text is "FAQs" or "FAQ"
+		// Find the h2 whose text is one of the locale's FAQ headings ("FAQs" or "FAQ" in English)
 		let faqH2Index = -1;
 		for (let i = 0; i < children.length; i++) {
 			const node = children[i];
 			if (
 				node.type === 'element' &&
 				node.tagName === 'h2' &&
-				/^FAQs?$/i.test(textContent(node).trim())
+				isStructuralHeading(textContent(node), words.faqHeadings)
 			) {
 				faqH2Index = i;
 				break;
@@ -123,7 +129,7 @@ export function rehypeFaqAccordion() {
 			tagName: 'section',
 			properties: {
 				className: ['faq-section'],
-				'aria-label': 'Frequently asked questions'
+				'aria-label': words.faqAria
 			},
 			children: [
 				{

@@ -55,6 +55,12 @@ export const BlogPostSchema = z.object({
 /** Plain YYYY-MM-DD or ISO 8601 with offset, as in BlogPostSchema. */
 const postDate = z.string().datetime({ offset: true }).or(z.string().date());
 
+/** An unquoted YAML date after the JSON round trip (midnight UTC), as its YYYY-MM-DD day. */
+const yamlDate = z
+	.string()
+	.regex(/^\d{4}-\d{2}-\d{2}T00:00:00(\.000)?Z$/, 'Expected a YYYY-MM-DD date')
+	.transform((s) => s.slice(0, 10));
+
 /**
  * Frontmatter of a TRANSLATED post (`src/content/blog/<locale>/<en-slug>.svx`, Fase 4).
  * Only what is translated lives here. Everything else (coverImage, categories, tags, author,
@@ -73,7 +79,9 @@ export const TranslatedPostSchema = z
 		updatedDate: postDate.optional(),
 		// The English `updatedDate ?? publishDate` that was translated (YYYY-MM-DD). A newer
 		// English post fails the freshness guard (CLAUDE.md, "Reglas mandatorias de idioma" 2).
-		sourceUpdated: z.string().date(),
+		// Quoted or not: an unquoted YAML date reaches the app as `YYYY-MM-DDT00:00:00.000Z`
+		// (gray-matter Date, then JSON), which is normalized back to its day.
+		sourceUpdated: z.string().date().or(yamlDate),
 		draft: z.boolean().optional().default(false)
 	})
 	.strict();
@@ -118,6 +126,9 @@ export type BlogPost = BlogPostFrontmatter & {
 	locale?: Locale;
 	// Translations only: the English date that was translated (see TranslatedPostSchema).
 	sourceUpdated?: string;
+	// Translations only: the ENGLISH title. Package matching (PACKAGE_RULES) reads the English
+	// post, so a translation shows the same CTA package as its English post.
+	enTitle?: string;
 	// Derived from categories: true when any category slugifies to 'news'.
 	// Populated in blog-pipeline.ts alongside other derived fields.
 	isNews: boolean;

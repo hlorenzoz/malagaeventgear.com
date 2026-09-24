@@ -10,6 +10,8 @@
  *   - loading="lazy" + decoding="async": defer offscreen body images.
  *   - caption: when the manifest entry has a non-empty `caption`, wraps the <img>
  *     (inside its parent <p>) in a <figure> + <figcaption>.
+ *   A translated post takes its alt and caption from its own markdown, never the manifest
+ *   (see rehypeBlogImages).
  *
  * The manifest (scripts/migrate-wp/manifest.json) is read ONCE at build time in Node
  * and is NOT bundled into the client. Cover images on listing cards/hero are handled
@@ -19,6 +21,7 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { visit } from 'unist-util-visit';
 import { PROSE_SIZES } from '../src/lib/utils/blog-image-sizes.js';
+import { localeOfPostFile } from './blog-structure-words.mjs';
 
 const NAMED = {
 	amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", '#039': "'",
@@ -111,10 +114,18 @@ function withAvifSource(img, variants) {
 	};
 }
 
-/** `options.manifest` replaces the manifest file (tests). */
+/**
+ * `options.manifest` replaces the manifest file (tests).
+ *
+ * A TRANSLATED post (`src/content/blog/<locale>/<en-slug>.svx`, locale from the file path) never
+ * gets the manifest's text, which is English: its alt is the markdown alt (`![alt](url)`, a
+ * guard test requires it) and its figcaption the markdown title (`![alt](url "caption")`). The
+ * responsive variants (srcset, AVIF, dimensions) are the same in every language.
+ */
 export function rehypeBlogImages(options = {}) {
 	const { byUrl, byBase } = options.manifest ? buildIndex(options.manifest) : loadIndex();
-	return (tree) => {
+	return (tree, file) => {
+		const translated = localeOfPostFile(file?.filename ?? file?.path ?? '') !== 'en';
 		// First pass: enrich <img> attributes and mark which need caption wrapping.
 		// We use a custom walk to also handle the parent so we can replace <p><img></p>
 		// with <figure><img><figcaption></figure>.
@@ -127,8 +138,15 @@ export function rehypeBlogImages(options = {}) {
 			if (typeof src !== 'string') return;
 
 			const meta = byUrl[src];
-			// alt: ensure the attribute exists (empty = decorative → no a11y warning).
-			if (!node.properties.alt) node.properties.alt = meta?.alt ?? '';
+			// alt: ensure the attribute exists (empty = decorative → no a11y warning). Only an
+			// English post falls back to the manifest alt.
+			if (!node.properties.alt) node.properties.alt = (translated ? undefined : meta?.alt) ?? '';
+			// Caption: the manifest's (English posts) or the markdown title (translated posts).
+			let caption = meta?.caption;
+			if (translated) {
+				caption = typeof node.properties.title === 'string' ? node.properties.title.trim() : '';
+				delete node.properties.title;
+			}
 			node.properties.loading ??= 'lazy';
 			node.properties.decoding ??= 'async';
 
@@ -151,10 +169,9 @@ export function rehypeBlogImages(options = {}) {
 					node.properties.height = meta.height;
 			}
 
-			// Caption wrapping: when the manifest has a non-empty caption and the parent is a
-			// <p>, turn that <p> into <figure>, holding the image and a <figcaption>. The <p> is
-			// mutated in place because visit only hands us the parent, not the grandparent.
-			const caption = meta?.caption;
+			// Caption wrapping: when there is a non-empty caption and the parent is a <p>, turn
+			// that <p> into <figure>, holding the image and a <figcaption>. The <p> is mutated
+			// in place because visit only hands us the parent, not the grandparent.
 			if (caption && parent && parent.type === 'element' && parent.tagName === 'p' && index != null) {
 				parent.tagName = 'figure';
 				parent.properties = {};

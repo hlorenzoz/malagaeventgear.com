@@ -26,3 +26,12 @@ declare module 'virtual:blog-availability' {
 	const loaders: Partial<Record<string, () => Promise<import('$lib/i18n/availability').BlogAvailability>>>;
 	export default loaders;
 }
+
+/**
+ * FAQ pairs and ToC entries of each ENGLISH post, one lazy chunk per post (from post-faqs.json
+ * and post-toc.json), so only that post's page downloads them.
+ */
+declare module 'virtual:blog-extras' {
+	const loaders: Partial<Record<string, () => Promise<import('$lib/data/blog').PostExtras>>>;
+	export default loaders;
+}

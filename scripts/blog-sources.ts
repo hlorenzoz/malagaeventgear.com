@@ -9,7 +9,9 @@
  * English posts are the root files (`src/content/blog/<slug>.svx`). A translation lives at
  * `src/content/blog/<locale>/<en-slug>.svx` (Fase 4, CLAUDE.md "Blog Content Authoring").
  */
-import { BLOG_DIR, extractFaqs, extractToc, joinPath, listSvx, readPost } from './blog-files.mjs';
+import { BLOG_DIR, extractFaqs, extractToc, joinPath, listDirs, listSvx, readPost } from './blog-files.mjs';
+import { malformedTranslations } from '../src/lib/data/translation-audit.ts';
+import { BLOG_STRUCTURE } from './blog-structure.ts';
 import {
 	blogAvailabilityOf,
 	buildLocalizedPosts,
@@ -40,14 +42,25 @@ export function readEnglishMeta(dir = BLOG_DIR): GlobResult {
 
 /**
  * One locale's translations with the FAQ and ToC of each body, extracted with the parsers of
- * the English caches. Computed at build time from the body itself, so there is no committed
- * cache to go stale, and each locale ships as its own chunk.
+ * the English caches and the locale's structural words (its FAQ heading, its table of contents
+ * and testimonials headings: messages, `blogStructure`). Computed at build time from the body
+ * itself, so there is no committed cache to go stale, and each locale ships as its own chunk.
  */
 export function readTranslations(locale: Locale, dir = BLOG_DIR): TranslationGlob {
 	const map: TranslationGlob = {};
+	const words = BLOG_STRUCTURE[locale];
 	for (const file of listSvx(joinPath(dir, locale))) {
 		const { data, body } = readPost(joinPath(dir, locale, file));
-		map[`../../content/blog/${locale}/${file}`] = { metadata: data, faqs: extractFaqs(body), toc: extractToc(body) };
+		map[`../../content/blog/${locale}/${file}`] = { metadata: data, faqs: extractFaqs(body, words), toc: extractToc(body, words) };
+	}
+	return map;
+}
+
+/** Frontmatter only of the posts in a folder that is not a locale (to report them). */
+function readFrontmatter(folder: string, dir: string): TranslationGlob {
+	const map: TranslationGlob = {};
+	for (const file of listSvx(joinPath(dir, folder))) {
+		map[`../../content/blog/${folder}/${file}`] = { metadata: readPost(joinPath(dir, folder, file)).data };
 	}
 	return map;
 }
@@ -64,15 +77,35 @@ export interface BlogState {
 	locales: Partial<Record<Prefixed, LocaleBlogState>>;
 }
 
+/**
+ * The blog as the build publishes it. THROWS on any malformed post, English or translated,
+ * with one line per file: the Cloudflare build runs `bun run build`, not the test suite, so a
+ * broken file must stop the build instead of silently dropping a post or a locale's blog.
+ * A stale translation is not malformed: the test suite guards it (post-freshness.test.ts).
+ */
 export function computeBlogState({
 	dir = BLOG_DIR,
 	now = new Date(),
 	maps = CONTENT_MAPS
 }: { dir?: string; now?: Date; maps?: Partial<Record<Prefixed, LocaleContentMap>> } = {}): BlogState {
-	const english = buildPostsFromGlob(readEnglishMeta(dir), now);
+	const englishMeta = readEnglishMeta(dir);
+	const english = buildPostsFromGlob(englishMeta, now);
+
+	// Every folder, not only the locale ones, so a translation in a wrong folder is reported.
+	const all: TranslationGlob = {};
+	for (const folder of listDirs(dir)) {
+		const known = (PREFIXED_LOCALES as readonly string[]).includes(folder);
+		Object.assign(all, known ? readTranslations(folder as Locale, dir) : readFrontmatter(folder, dir));
+	}
+	const problems = malformedTranslations(englishMeta, all, maps);
+	if (problems.length > 0) {
+		throw new Error(`Malformed blog translations (fix each file):\n${problems.map((p) => `  - ${p}`).join('\n')}`);
+	}
+
 	const locales: BlogState['locales'] = {};
 	for (const locale of PREFIXED_LOCALES) {
-		const translations = readTranslations(locale, dir);
+		const prefix = `../../content/blog/${locale}/`;
+		const translations = Object.fromEntries(Object.entries(all).filter(([path]) => path.startsWith(prefix)));
 		if (Object.keys(translations).length === 0) continue;
 		const posts = buildLocalizedPosts(locale, english, translations, maps[locale] ?? null, now);
 		locales[locale] = { translations, posts, availability: blogAvailabilityOf(posts) };

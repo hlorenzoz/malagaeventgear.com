@@ -28,6 +28,19 @@ export function listSvx(dir) {
 }
 
 /**
+ * Sorted names of the folders directly inside `dir`, [] when it does not exist.
+ * @param {string} dir
+ * @returns {string[]}
+ */
+export function listDirs(dir) {
+	if (!existsSync(dir)) return [];
+	return readdirSync(dir, { withFileTypes: true })
+		.filter((e) => e.isDirectory())
+		.map((e) => e.name)
+		.sort();
+}
+
+/**
  * @param {...string} parts
  * @returns {string}
  */
@@ -47,20 +60,44 @@ export function readPost(path) {
 	return { data: JSON.parse(JSON.stringify(data)), body: content };
 }
 
+const DATA_DIR = resolve(dirname(fileURLToPath(import.meta.url)), '../src/lib/data');
+
+/**
+ * FAQ pairs and ToC entries of every ENGLISH post, from the committed caches (post-faqs.json and
+ * post-toc.json, kept fresh by scripts/post-faqs-toc-cache-freshness.test.ts). Served one small
+ * chunk per post by `virtual:blog-extras/<slug>`, so only that post's page downloads them.
+ * @returns {Record<string, { faqs?: { question: string, answer: string }[], toc?: { id: string, text: string, level: 2 | 3 }[] }>}
+ */
+export function readEnglishExtras() {
+	const faqs = JSON.parse(readFileSync(resolve(DATA_DIR, 'post-faqs.json'), 'utf8'));
+	const toc = JSON.parse(readFileSync(resolve(DATA_DIR, 'post-toc.json'), 'utf8'));
+	/** @type {Record<string, any>} */
+	const extras = {};
+	for (const slug of new Set([...Object.keys(faqs), ...Object.keys(toc)])) {
+		const entry = {};
+		if (faqs[slug]?.length) entry.faqs = faqs[slug];
+		if (toc[slug]?.length) entry.toc = toc[slug];
+		if (entry.faqs || entry.toc) extras[slug] = entry;
+	}
+	return extras;
+}
+
 /**
  * FAQ pairs of a body, with the parser of the English cache (post-faqs.json).
  * @param {string} body
+ * @param {Parameters<typeof parseFaqs>[1]} [words] structural words of the post's locale
  * @returns {{ question: string, answer: string }[]}
  */
-export function extractFaqs(body) {
-	return parseFaqs(body);
+export function extractFaqs(body, words) {
+	return parseFaqs(body, words);
 }
 
 /**
  * ToC entries of a body, with the parser of the English cache (post-toc.json).
  * @param {string} body
+ * @param {Parameters<typeof parseToc>[1]} [words] structural words of the post's locale
  * @returns {{ id: string, text: string, level: 2 | 3 }[]}
  */
-export function extractToc(body) {
-	return parseToc(body);
+export function extractToc(body, words) {
+	return parseToc(body, words);
 }

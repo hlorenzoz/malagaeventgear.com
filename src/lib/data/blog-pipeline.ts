@@ -41,8 +41,10 @@ export function buildPostsFromGlob(glob: GlobResult, buildDate: Date = new Date(
 		// Derive slug from file path: /src/content/blog/my-post.svx → my-post
 		const slug = path.split('/').pop()?.replace(/\.svx$/, '') ?? '';
 
-		// Validate frontmatter — throws ZodError on invalid data (CI gate)
-		const frontmatter = BlogPostSchema.parse(module.metadata);
+		// Validate frontmatter: a malformed post fails the build, naming its file (CI gate)
+		const parsed = BlogPostSchema.safeParse(module.metadata);
+		if (!parsed.success) throw new Error(`src/content/blog/${slug}.svx: invalid frontmatter (${zodIssues(parsed.error)})`);
+		const frontmatter = parsed.data;
 
 		// Draft filter
 		if (frontmatter.draft === true) continue;
@@ -67,6 +69,11 @@ export function buildPostsFromGlob(glob: GlobResult, buildDate: Date = new Date(
 	posts.sort((a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime());
 
 	return posts;
+}
+
+/** Zod issues as one readable line: `field message, field message`. */
+export function zodIssues(error: { issues: { path: PropertyKey[]; message: string }[] }): string {
+	return error.issues.map((i) => `${i.path.map(String).join('.') || '(root)'} ${i.message}`).join(', ');
 }
 
 /**
@@ -227,10 +234,16 @@ export function buildLocalizedPosts(
 		if (!info || info.locale !== locale) continue;
 		const source = english.get(info.enSlug);
 		const entry = map.posts[info.enSlug];
+		// An unpublished English post (draft, future) or an unmapped draft is not an error here.
+		// A translation with no English file, or a non draft one with no entry, is: the build
+		// fails on it through `malformedTranslations` (translation-audit.ts).
 		if (!source || !entry) continue;
 
+		// Never skip a malformed translation silently: it fails the build, naming its file.
 		const parsed = TranslatedPostSchema.safeParse(module.metadata);
-		if (!parsed.success) continue; // the guard (post-freshness.test.ts) reports it
+		if (!parsed.success) {
+			throw new Error(`src/content/blog/${locale}/${info.enSlug}.svx: invalid frontmatter (${zodIssues(parsed.error)})`);
+		}
 		const fm = parsed.data;
 		if (fm.draft) continue;
 		if (new Date(fm.publishDate) > now) continue;
@@ -249,6 +262,7 @@ export function buildLocalizedPosts(
 			publishDate: fm.publishDate,
 			updatedDate: fm.updatedDate,
 			sourceUpdated: fm.sourceUpdated,
+			enTitle: source.title,
 			draft: false,
 			keyword: entry.keyword,
 			locale,
@@ -298,4 +312,21 @@ export function findStaleTranslations(localizedPosts: BlogPost[], englishPosts: 
 			return source && p.sourceUpdated !== undefined && p.sourceUpdated < lastChangeOf(source);
 		})
 		.map((p) => `${p.locale}/${p.slug}`);
+}
+
+/**
+ * Tags a post page shows (footer, `article:tag`). Tags are English and never translated, so a
+ * translation shows none: one language per page.
+ */
+export function postTags(post: Pick<BlogPost, 'tags' | 'locale'>): string[] {
+	return post.locale ? [] : post.tags;
+}
+
+/**
+ * `keywords` of a post's Article JSON-LD: the English tags on an English post, the locale's
+ * keyword (from its content map) on a translation. Undefined when there is none.
+ */
+export function articleKeywords(post: Pick<BlogPost, 'tags' | 'locale' | 'keyword'>): string[] | undefined {
+	const keywords = post.locale ? (post.keyword ? [post.keyword] : []) : post.tags;
+	return keywords.length > 0 ? keywords : undefined;
 }

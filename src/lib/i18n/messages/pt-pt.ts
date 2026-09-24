@@ -357,6 +357,41 @@ const t = {
 		packagesSidebarAria: 'Barra lateral de pacotes de eventos',
 		tocSidebarAria: 'Barra lateral do índice'
 	},
+	blogStructure: {
+		faqHeadings: ['Perguntas frequentes'],
+		overviewHeadings: ['Resumo'],
+		highlightsHeadings: ['Pontos principais'],
+		testimonialsHeadings: ['Testemunhos'],
+		tocHeadings: ['Índice'],
+		inThisArticle: 'Neste artigo',
+		tocAria: 'Índice',
+		faqAria: 'Perguntas frequentes'
+	},
+	postCta: {
+		aria: 'Sugestão de pacote para o seu evento',
+		headline: {
+			wedding: 'Está a planear um casamento em Málaga?',
+			'basic-mice': 'Está a organizar um evento corporativo?',
+			mice: 'Precisa de apoio audiovisual MICE de topo?',
+			'product-presentation': 'Vai lançar um produto ou fazer uma apresentação?',
+			eco: 'Está a planear um evento privado?'
+		},
+		subline: {
+			wedding: 'Conheça o {name}: som profissional e iluminação romântica para o seu grande dia.',
+			'basic-mice': 'Conheça o {name}: audiovisual nítido para reuniões de direção e conferências.',
+			mice: 'Conheça o {name}: ecrã LED de topo, som e um técnico no local.',
+			'product-presentation': 'Conheça o {name}: projetor de alta luminosidade, ecrã e som para apresentações de grande impacto.',
+			eco: 'Conheça o {name}: som sólido e iluminação ambiente para até {guests} convidados.'
+		},
+		priceFrom: 'A partir de {price}',
+		viewPackage: 'Ver o {name}',
+		freeQuote: 'Pedir um orçamento gratuito'
+	},
+	packagesRail: {
+		title: 'Os nossos pacotes',
+		aria: 'Pacotes para eventos',
+		priceFrom: 'desde {price}'
+	},
 	// WhatsApp floating widget
 	whatsapp: {
 		chatWithUs: 'Fale connosco'

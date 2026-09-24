@@ -4,6 +4,14 @@ import { SvelteKitPWA } from '@vite-pwa/sveltekit';
 import tailwindcss from '@tailwindcss/vite';
 import { blogMeta } from './scripts/vite-blog-meta.mjs';
 import { CONTENT_MAPS } from './src/lib/i18n/content-map/all.ts';
+import { publishBlogStructure } from './scripts/blog-structure.ts';
+
+// Structural words of a post body per locale (FAQ, overview, highlights, testimonials and table
+// of contents headings, ToC and FAQ chrome), from each messages file. The rehype plugins run in
+// the Svelte preprocessor, outside this import graph, so the table goes on globalThis
+// (scripts/blog-structure-words.mjs reads it). Set on every evaluation of this file, the client
+// build included.
+publishBlogStructure();
 
 // Blog roots in every language (`/blog/`, `/de/blog/`, `/sv/blogg/`, `/zh-hans/%E5%8D%9A...`),
 // as a RegExp literal: workbox serializes it into sw.js, a closure would lose its variables.
@@ -18,8 +26,10 @@ const BLOG_URL_PATTERN = new RegExp(
 // Translated copy: every per-locale file except the English source (dictionaries, package and
 // FAQ copy, page copy, content maps), the translated post bodies (`src/content/blog/<locale>/`)
 // and the per locale blog modules of vite-blog-meta.mjs. Each one builds into its own lazy chunk.
+// Also the per post FAQ and ToC of the English posts (`virtual:blog-extras/<slug>`): the blog is
+// not precached, so its data is not either.
 const TRANSLATED_COPY = /\/src\/(lib\/i18n\/(messages|data|content-map\/locales)|routes\/.+\/i18n)\/(?!en\.ts)[a-z-]+\.ts$|\/src\/content\/blog\/[a-z-]+\/[^/]+\.svx$/;
-const TRANSLATED_VIRTUAL = /^\0virtual:blog-(translations|availability)\//;
+const TRANSLATED_VIRTUAL = /^\0virtual:blog-(translations|availability|extras)\//;
 
 // Workbox globIgnores. @vite-pwa/sveltekit keeps THIS array (buildGlobIgnores pushes into it and
 // returns it) and generates sw.js when the server build closes, after the client build. But

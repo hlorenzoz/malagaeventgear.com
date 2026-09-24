@@ -113,6 +113,13 @@ describe('translationsNeedingUpdate (Fase 4)', () => {
 		expect(translationsNeedingUpdate('mi-post', '2026-09-24', dir)).toEqual(['de', 'zh-hans']);
 	});
 
+	it('reads an unquoted YAML sourceUpdated as its day', () => {
+		mkdirSync(join(dir, 'nl'), { recursive: true });
+		writeFileSync(join(dir, 'nl', 'unquoted.svx'), translation('x').replace('sourceUpdated: "x"', 'sourceUpdated: 2026-09-24'));
+		expect(translationsNeedingUpdate('unquoted', '2026-09-24', dir)).toEqual([]);
+		expect(translationsNeedingUpdate('unquoted', '2026-09-25', dir)).toEqual(['nl']);
+	});
+
 	it('is empty for a post without translations', () => {
 		expect(translationsNeedingUpdate('otro-post', '2026-09-24', dir)).toEqual([]);
 	});

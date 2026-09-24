@@ -543,6 +543,22 @@ const PACKAGE_RULES: {
 ];
 
 /**
+ * What package matching reads from a post. A translation keeps the English slug, categories
+ * and tags and carries its English title in `enTitle`: matching always reads the ENGLISH post,
+ * so a translation shows the same CTA package and rail order as its English post.
+ */
+export interface PackageMatchPost {
+	categories: string[];
+	tags: string[];
+	title: string;
+	enTitle?: string;
+	slug?: string;
+	isNews?: boolean;
+}
+
+const matchTitle = (post: PackageMatchPost): string => post.enTitle ?? post.title;
+
+/**
  * Resolves the most relevant EventPackage for a given blog post.
  *
  * Matching strategy (in order):
@@ -553,13 +569,8 @@ const PACKAGE_RULES: {
  * @param post - A BlogPost (or minimal subset with categories, tags, title)
  * @returns The most relevant EventPackage
  */
-export function resolvePackageForPost(post: {
-	categories: string[];
-	tags: string[];
-	title: string;
-	slug?: string;
-	isNews?: boolean;
-}): EventPackage {
+export function resolvePackageForPost(post: PackageMatchPost): EventPackage {
+	const title = matchTitle(post);
 	for (const rule of PACKAGE_RULES) {
 		// Check slug first - it's the cleanest single-topic signal, so a specific
 		// slug (e.g. ".../seminars") wins over the broad category catch-all below.
@@ -584,7 +595,7 @@ export function resolvePackageForPost(post: {
 
 		// Check title and tags for keyword patterns
 		if (rule.keywordPatterns) {
-			const searchStrings = [post.title, ...post.tags];
+			const searchStrings = [title, ...post.tags];
 			const matched = searchStrings.some((str) =>
 				rule.keywordPatterns!.some((pattern) => pattern.test(str))
 			);
@@ -639,10 +650,7 @@ const PACKAGE_SIGNALS: Record<string, { slug: RegExp[]; category: RegExp[]; keyw
  * Weights: slug match = 4 (strongest, mirrors the resolver), category match = 3,
  * title keyword = 2, each tag keyword = 1.
  */
-function scorePackage(
-	slug: string,
-	post: { categories: string[]; tags: string[]; title: string; slug?: string }
-): number {
+function scorePackage(slug: string, post: PackageMatchPost): number {
 	const sig = PACKAGE_SIGNALS[slug];
 	if (!sig) return 0;
 	let score = 0;
@@ -650,7 +658,7 @@ function scorePackage(
 	for (const cat of post.categories) {
 		if (sig.category.some((re) => re.test(cat))) score += 3;
 	}
-	if (sig.keyword.some((re) => re.test(post.title))) score += 2;
+	if (sig.keyword.some((re) => re.test(matchTitle(post)))) score += 2;
 	for (const tag of post.tags) {
 		if (sig.keyword.some((re) => re.test(tag))) score += 1;
 	}
@@ -666,13 +674,7 @@ function scorePackage(
  * @param post - A BlogPost (or minimal subset with categories, tags, title)
  * @returns Every EventPackage exactly once, most relevant first.
  */
-export function getPackagesForPost(post: {
-	categories: string[];
-	tags: string[];
-	title: string;
-	slug?: string;
-	isNews?: boolean;
-}): EventPackage[] {
+export function getPackagesForPost(post: PackageMatchPost): EventPackage[] {
 	const resolved = resolvePackageForPost(post);
 	const catalogIndex = new Map(packages.map((p, i) => [p.slug, i]));
 	const others = packages

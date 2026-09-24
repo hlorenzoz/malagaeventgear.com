@@ -58,7 +58,8 @@ El portugués de Portugal y el de Brasil tienen **contenido propio cada uno**, n
 otra etiqueta. Las tres variantes de chino cubren a cualquier lector chino, venga de donde venga.
 
 **Estado (2026-09-24): páginas principales y paquetes publicados en los 13 idiomas. El blog
-sigue solo en inglés hasta la Fase 4.** Un idioma se publica recién cuando TODO su contenido está
+sigue solo en inglés: el mecanismo de posts traducidos está listo (ver "Posts traducidos" en
+"Blog Content Authoring"), pero todavía no hay ningún post traducido.** Un idioma se publica recién cuando TODO su contenido está
 traducido: la lista de idiomas publicados es `PAGE_LOCALES` en `src/lib/i18n/availability.ts`
 (hoy los 13). En una página traducida el menú lleva a "Blog (in English)" y ningún listado muestra
 títulos de posts en inglés (`i18n.postsPublished`). La implementación va por fases:
@@ -69,7 +70,7 @@ títulos de posts en inglés (`i18n.postsPublished`). La implementación va por 
 | 1 | Mapa de contenido (keyword, URL) por idioma | hecha para páginas, paquetes y categorías. Los posts se mapean en cada lote de la Fase 4 |
 | 2 | Infraestructura de URLs por idioma, hreflang y sitemaps | hecha |
 | 3 | Páginas principales y paquetes en los 13 idiomas | hecha (2026-09-24): 17 páginas y 5 paquetes por idioma, 18 HTML prerenderizados por idioma |
-| 4 | Posts del blog, por lotes de silo | pendiente |
+| 4 | Posts del blog, por lotes de silo | en curso: mecanismo listo (posts traducidos, palabras estructurales por idioma, sitemaps por idioma, guards). Ningún post traducido todavía |
 
 Todo lo marcado **"(pendiente, Fase N)"** en este archivo describe el objetivo, no lo que existe.
 Al cerrar cada fase se actualiza este archivo con rutas y conteos reales. Una fase no se da por
@@ -82,11 +83,12 @@ cerrada con este archivo desactualizado.
    tener sus 14 versiones. Para páginas y paquetes lo impone
    `src/lib/i18n/localized-completeness.test.ts`: cada idioma de `PAGE_LOCALES` tiene su
    diccionario, su copia de paquetes y FAQ con la misma forma que el inglés, y fecha propia en
-   cada página y paquete. Para posts, el guard llega con la Fase 4 y controla por fecha de corte,
-   nunca con un allowlist.
+   cada página y paquete. Para posts, `src/lib/i18n/post-freshness.test.ts` controla cada
+   traducción por su fecha de corte (`sourceUpdated`), nunca con un allowlist, y `bun run build`
+   falla ante una traducción mal formada.
 2. **Toda edición de contenido inglés se propaga a los 12 idiomas restantes en el mismo cambio.**
    Cada traducción guarda en `sourceUpdated` la fecha de la versión inglesa que tradujo, y la
-   suite falla si el inglés es más nuevo (pendiente, Fase 4). Un arreglo como el de Shure a Audix
+   suite falla si el inglés es más nuevo (`src/lib/i18n/post-freshness.test.ts`). Un arreglo como el de Shure a Audix
    no puede quedar corregido en inglés y desactualizado en otros 12 idiomas.
 3. **Agregar o quitar un idioma es una decisión explícita del usuario, con fecha**, igual que
    crear una categoría del blog. Ningún agente lo decide por su cuenta.
@@ -139,7 +141,9 @@ este resumen.
 | Pieza | Dónde |
 | :--- | :--- |
 | Locales, hreflang, `og:locale`, nombre nativo | `src/lib/i18n/locales.ts` (`LOCALE_META`) |
-| Idiomas publicados | `src/lib/i18n/availability.ts` (`PAGE_LOCALES`, más la disponibilidad de posts en la Fase 4) |
+| Idiomas publicados | `src/lib/i18n/availability.ts` (`PAGE_LOCALES`). Los posts de cada idioma los calcula el build desde sus traducciones (`virtual:blog-availability`, `scripts/vite-blog-meta.mjs`) |
+| Posts traducidos | `src/content/blog/<locale>/<slug-en>.svx`, ver "Posts traducidos" en "Blog Content Authoring" |
+| Palabras estructurales de un post (FAQ, resumen, destacados, índice) y su chrome | grupo `blogStructure` de `src/lib/i18n/messages/<locale>.ts`, publicado para los plugins rehype por `vite.config.ts` (`scripts/blog-structure.ts`) |
 | Slug y keyword por idioma (fuente única) | `src/lib/i18n/content-map/locales/<locale>.ts`, validado por `content-map.test.ts` |
 | URL traducida a ruta inglesa | hook `reroute` en `src/hooks.ts` (tabla del mapa del idioma, cargada bajo demanda) |
 | Ruta inglesa a URL traducida | `i18n.href('/packages/eco/')` en componentes. Si no está publicada en el idioma, devuelve la inglesa |
@@ -543,12 +547,13 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
 - **Estandarización de URLs**: Cada URL interna debe terminar estrictamente en `/` (trailing slash) (por ejemplo, `/packages/`, `/about-us/`, `/contact-us/`). Esto es mandatorio para garantizar la consistencia en el rastreo SEO, evitar duplicidad de contenido y alinear la navegación.
 - **Estrategia de Datos Estructurados Obligatoria**: Cada página pública debe llevar sus datos estructurados correspondientes según su tipo de contenido, tal y como se detalla en **[.agents/STRUCTURED_DATA.md](file:///Users/hlorenzoz/databank/Development/%5BMEG%20-%20Malaga%20Event%20Gear%20%28malagaeventgear.com%29%5D/projects/website/.agents/STRUCTURED_DATA.md)**. Todos los metadatos deben provenir de la configuración única en `src/lib/data/site.ts` y generarse mediante el helper unificado `src/lib/utils/schema.ts` para evitar la duplicación de datos. El layout principal público gestiona automáticamente los esquemas globales (`LocalBusiness` y el `BreadcrumbList` dinámico), mientras que las páginas específicas inyectan sus esquemas locales correspondientes (`Service`, `ItemList`, `FAQPage`, `Article`) mediante el componente unificado `SeoHead.svelte`.
 - **Datos estructurados - convenciones implementadas** (mantener al tocar `schema.ts`):
-  1. **Última miga del breadcrumb = título real**: `buildBreadcrumbsSchema(pathname, leafName?)` usa `leafName` para el último crumb cuando se provee; el layout público pasa `data.post.title` (posts) o `data.pkg.name` (paquetes), con fallback al slug capitalizado. NO volver a derivar el nombre del slug para páginas con título disponible.
+  1. **Última miga del breadcrumb = título real**: `buildBreadcrumbsSchema(pathname, leafName?)` usa `leafName` para el último crumb cuando se provee. El layout público pasa `breadcrumbLeaf(page.data)` (`src/lib/i18n/breadcrumbs.ts`): `data.post.title` (posts, localizado en una traducción), `data.pkg.name` (paquetes) o `data.categoryMeta.name` (categorías, nombre del idioma), con fallback al slug capitalizado. NO volver a derivar el nombre del slug para páginas con título disponible.
   2. **`publisher` por `@id`**: en `buildArticleSchema`, `publisher` referencia el nodo canónico `{"@id": ".../#organization"}` (emitido por el layout vía `buildLocalBusinessSchema`), igual que `buildWebSiteSchema` / `buildServiceSchema`. NO redefinir una `Organization` parcial inline.
 - **Actualización Obligatoria de Sitemaps**: Cada vez que se cree, actualice o elimine una página, ruta dinámica de catálogo o artículo de blog (.svx), es estrictamente mandatorio verificar y actualizar su endpoint de sitemap XML correspondiente (ej. `page-sitemap.xml`, `post-sitemap.xml`) para asegurar la indexación inmediata y la consistencia en el presupuesto de rastreo de Google.
   Con el sitio en varios idiomas, esto vale **por idioma**: cada página o post que se crea, traduce,
   modifica o elimina actualiza el sitemap de su idioma en el mismo cambio (`page-sitemap-<locale>.xml`,
-  los de posts, categorías y autor por idioma llegan con la Fase 4).
+  `post-sitemap-<locale>.xml`, `category-sitemap-<locale>.xml` y `author-sitemap-<locale>.xml`,
+  derivados de las traducciones publicadas: se emiten solo si el idioma tiene URLs de ese tipo).
 
 
 ### 3. Restricciones de Cloudflare
@@ -634,8 +639,9 @@ mantenimiento no es real.
     un paquete no declara su fecha. La solución es declarar la fecha, nunca ampliar un allowlist.
   - Traducciones: cada idioma lleva sus propias fechas, que alimentan el sitemap de ese idioma
     (páginas: `export const updated` en `<ruta>/i18n/<locale>.ts`, paquetes: `updated` en
-    `src/lib/i18n/data/<locale>.ts`). Los posts suman `sourceUpdated` con la fecha de la versión
-    inglesa que se tradujo (pendiente, Fase 4). `publishDate` de una traducción es la fecha en que se publicó esa traducción.
+    `src/lib/i18n/data/<locale>.ts`). Los posts traducidos llevan su propio `publishDate` y
+    `updatedDate` (alimentan `post-sitemap-<locale>.xml`) y suman `sourceUpdated` con la fecha de la
+    versión inglesa que se tradujo. `publishDate` de una traducción es la fecha en que se publicó esa traducción.
 
 ### 12. Sin Caracteres Tipográficos de IA (Mandatorio)
 
@@ -687,10 +693,54 @@ bun scripts/post-new.ts --title "Mi Post" --category "Events" --author "Hector L
 
 Esto crea `src/content/blog/<slug>.svx` con frontmatter válido y `draft: true`.
 
-**Posts en varios idiomas (pendiente, Fase 4):** `just post-new` va a crear el post inglés y sus
-13 traducciones como `draft` en `src/content/blog/<locale>/<slug-en>.svx`, y `just post-touch` va
-a avisar qué traducciones quedaron desactualizadas. Hasta que cierre la Fase 4, un post nuevo
-existe solo en inglés.
+`just post-new` crea solo el post inglés. Las traducciones se crean por lote de silo (ver
+"Posts traducidos" más abajo).
+
+### Posts traducidos (Fase 4)
+
+El mecanismo está en producción, pero todavía no hay ningún post traducido. Cómo funciona:
+
+- **Ubicación**: `src/content/blog/<locale>/<slug-en>.svx`. El nombre del archivo es el slug
+  INGLÉS, la identidad del post en todos los idiomas. El slug y la keyword del idioma viven solo en
+  el mapa de contenido: `posts['<slug-en>'] = { slug, keyword, status }` en
+  `src/lib/i18n/content-map/locales/<locale>.ts`.
+- **Frontmatter**: solo lo que se traduce. `title`, `description`, `excerpt`, `publishDate` (la
+  fecha en que se publica ESTA traducción), `updatedDate` opcional (último cambio real de la
+  traducción), `sourceUpdated` y `draft` opcional. Portada, categorías, tags, autor, `siloRole` y
+  `targetPage` salen del post inglés: repetirlos, o escribir `keyword`, hace fallar el build.
+- **`sourceUpdated`**: la fecha `updatedDate ?? publishDate` del post inglés que se tradujo, en
+  `YYYY-MM-DD`, con o sin comillas. `src/lib/i18n/post-freshness.test.ts` falla si el inglés es
+  más nuevo, y `just post-touch <slug>` avisa qué traducciones quedaron desactualizadas.
+- **Cuándo se publica**: frontmatter válido, sin `draft`, `publishDate` ya pasado a la hora del
+  build, post inglés publicado y entrada en el mapa de contenido. Un archivo mal formado
+  (frontmatter inválido, sin post inglés, sin entrada en el mapa, carpeta que no es un idioma)
+  **hace fallar `bun run build`** con el nombre del archivo. Nunca se descarta en silencio.
+- **Encabezados estructurales**: las secciones con estilo se reconocen por el texto exacto del
+  `## ` (sin distinguir mayúsculas), con las palabras del grupo `blogStructure` de
+  `src/lib/i18n/messages/<locale>.ts`. En alemán: `## Kurzüberblick`, `## Das Wichtigste`,
+  `## Häufige Fragen` (acordeón y `FAQPage`) y `## Kundenstimmen`. Una traducción que deja
+  `## FAQs` en inglés pierde el acordeón y los datos estructurados. El mismo grupo trae el texto
+  que agrega el build alrededor del cuerpo (el título del índice y las etiquetas aria).
+- **Imágenes**: el mismo archivo en todos los idiomas, con alt y pie en el idioma del post:
+  `![alt traducido](url "pie traducido")`. El título de la imagen se convierte en el
+  `figcaption`. En una traducción el build NUNCA usa el alt ni el pie ingleses del manifest, y
+  `src/lib/data/translated-post-images.test.ts` falla si una imagen no tiene alt.
+- **Enlaces internos**: se escriben en su forma INGLESA (`/blog/<slug-en>/`, `/packages/eco/`,
+  `/contact/`). `scripts/rehype-localize-links.mjs` los reescribe a la URL del idioma cuando ese
+  contenido está publicado en él. Si no lo está, el enlace queda en inglés.
+- **Página del post**: el CTA y el rail de paquetes proponen el MISMO paquete que el post inglés
+  (el emparejamiento lee el post inglés), con el copy, el precio (`formatPrice`) y el IVA del
+  idioma. Los tags ingleses no se muestran y el `keywords` del `Article` es la keyword del idioma.
+  El FAQ y el índice de cada post inglés se cargan solo en su página (`virtual:blog-extras`),
+  nunca en un listado ni en otro idioma.
+- **Sitemaps por idioma**: `post-sitemap-<locale>.xml`, `category-sitemap-<locale>.xml` y
+  `author-sitemap-<locale>.xml`, con el `lastmod` de cada traducción (`updatedDate ?? publishDate`).
+  Solo se emiten, y solo aparecen en `sitemap_index.xml`, si el idioma tiene URLs de ese tipo.
+- **Hora de corte**: posts ingleses, traducciones, listados, sitemaps y rutas usan la misma hora
+  del build, así que nunca se lista un post cuya URL no se construyó.
+- **Prueba de punta a punta**: `tests/blog-translations.spec.ts` recorre cada post traducido
+  publicado y falla si la página muestra chrome en inglés, un pie inglés, un paquete distinto del
+  inglés o un precio con el formato de otro idioma.
 
 ### Semántica de fechas
 

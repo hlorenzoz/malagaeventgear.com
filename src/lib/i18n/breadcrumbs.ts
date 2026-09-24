@@ -53,3 +53,14 @@ export function breadcrumbTrail(enPath: string, options: TrailOptions = {}): Cru
 
 	return trail;
 }
+
+/**
+ * Real name of the page for the last crumb, from the route data: the post title (localized on a
+ * translation), the package name (never translated) or the category name (localized from the
+ * content map). Undefined falls back to the capitalized slug.
+ */
+export function breadcrumbLeaf(
+	data: { post?: { title?: string }; pkg?: { name?: string }; categoryMeta?: { name?: string } } | undefined
+): string | undefined {
+	return data?.post?.title ?? data?.pkg?.name ?? data?.categoryMeta?.name ?? undefined;
+}

@@ -342,6 +342,41 @@ const t = {
 		packagesSidebarAria: 'Seitenleiste mit Veranstaltungspaketen',
 		tocSidebarAria: 'Seitenleiste mit Inhaltsverzeichnis'
 	},
+	blogStructure: {
+		faqHeadings: ['Häufige Fragen'],
+		overviewHeadings: ['Kurzüberblick'],
+		highlightsHeadings: ['Das Wichtigste'],
+		testimonialsHeadings: ['Kundenstimmen'],
+		tocHeadings: ['Inhaltsverzeichnis'],
+		inThisArticle: 'In diesem Artikel',
+		tocAria: 'Inhaltsverzeichnis',
+		faqAria: 'Häufig gestellte Fragen'
+	},
+	postCta: {
+		aria: 'Paketempfehlung für Ihre Veranstaltung',
+		headline: {
+			wedding: 'Sie planen eine Hochzeit in Malaga?',
+			'basic-mice': 'Sie organisieren eine Firmenveranstaltung?',
+			mice: 'Sie brauchen erstklassige MICE-Veranstaltungstechnik?',
+			'product-presentation': 'Sie stellen ein Produkt vor oder planen eine Präsentation?',
+			eco: 'Sie planen eine private Feier?'
+		},
+		subline: {
+			wedding: 'Das {name}: professioneller Sound und romantisches Licht für Ihren großen Tag.',
+			'basic-mice': 'Das {name}: klare Ton- und Bildtechnik für Vorstandssitzungen und Konferenzen.',
+			mice: 'Das {name}: hochwertiges LED-Display, Beschallung und ein Techniker vor Ort.',
+			'product-presentation': 'Das {name}: lichtstarker Projektor, Leinwand und Ton für eindrucksvolle Präsentationen.',
+			eco: 'Das {name}: solider Sound und stimmungsvolles Licht für bis zu {guests} Gäste.'
+		},
+		priceFrom: 'Ab {price}',
+		viewPackage: 'Zum {name}',
+		freeQuote: 'Kostenloses Angebot anfordern'
+	},
+	packagesRail: {
+		title: 'Unsere Pakete',
+		aria: 'Veranstaltungspakete',
+		priceFrom: 'ab {price}'
+	},
 	whatsapp: {
 		chatWithUs: 'Chatten Sie mit uns'
 	},

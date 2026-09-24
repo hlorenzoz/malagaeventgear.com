@@ -123,3 +123,52 @@ describe('rehypeBlogImages: AVIF with a WebP fallback', () => {
 		expect(picture.children!.filter((c) => c.tagName === 'source')).toHaveLength(1)
 	})
 })
+
+/**
+ * A TRANSLATED post (`src/content/blog/<locale>/<en-slug>.svx`) never gets the English text of
+ * the manifest: its alt is the one written in the markdown, and its caption is the markdown
+ * image title (`![alt](url "caption")`). English posts keep the manifest alt and caption.
+ */
+describe('rehypeBlogImages: translated posts keep their own alt and caption', () => {
+	const DE = { filename: '/repo/src/content/blog/de/wedding-rentals.svx' }
+	const EN = { filename: '/repo/src/content/blog/wedding-rentals.svx' }
+	const manifest = manifestOf(...RUNGS.map(([w, h]) => entry(3, 'gala', w, h, false, 'Gala dinner')))
+	const titled = (src: string, alt: string, title?: string): Hast => ({
+		type: 'element',
+		tagName: 'img',
+		properties: { src, alt, ...(title ? { title } : {}) },
+		children: []
+	})
+	const runFile = (tree: Hast, file: unknown) => {
+		rehypeBlogImages({ manifest })(tree, file)
+		return tree
+	}
+
+	it('takes the figcaption from the markdown title, never the English manifest caption', () => {
+		const tree = runFile(root(p(titled(`${CDN}/3/gala.webp`, 'Galadinner am Meer', 'Galadinner in Marbella'))), DE)
+		const figure = tree.children![0]
+		expect(figure.tagName).toBe('figure')
+		const [image, caption] = figure.children!
+		expect(caption.tagName).toBe('figcaption')
+		expect(caption.children![0].value).toBe('Galadinner in Marbella')
+		expect(image.properties!.alt).toBe('Galadinner am Meer')
+		expect(image.properties!.title).toBeUndefined() // the caption is not repeated as a tooltip
+		expect(image.properties!.srcset).toContain('gala-768x576.webp') // still responsive
+	})
+
+	it('adds no caption and no English alt when the markdown has none', () => {
+		const tree = runFile(root(p(titled(`${CDN}/3/gala.webp`, ''))), DE)
+		const para = tree.children![0]
+		expect(para.tagName).toBe('p')
+		expect(JSON.stringify(para)).not.toContain('Gala dinner')
+		expect(para.children![0].properties!.alt).toBe('')
+	})
+
+	it('keeps the manifest caption and alt in English posts', () => {
+		const tree = runFile(root(p(titled(`${CDN}/3/gala.webp`, ''))), EN)
+		const figure = tree.children![0]
+		expect(figure.tagName).toBe('figure')
+		expect(figure.children![1].children![0].value).toBe('Gala dinner')
+		expect(figure.children![0].properties!.alt).toBe('Stage')
+	})
+})

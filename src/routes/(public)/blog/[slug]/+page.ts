@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import { getPostSlugs, getLocalizedPost, getPostComponentLoaderForLocale } from '$lib/data/blog';
+import { getPostSlugs, getLocalizedPost, getPostComponentLoaderForLocale, getPostExtras } from '$lib/data/blog';
 import type { EntryGenerator, PageLoad } from './$types';
 import type { Component } from 'svelte';
 
@@ -20,7 +20,8 @@ export const load: PageLoad = async ({ params, parent }) => {
 	if (!post || !loader) {
 		error(404, 'Post not found');
 	}
-	// Lazily load ONLY this post's compiled body (code-split chunk).
-	const component = (await loader()) as Component;
-	return { post, component };
+	// Lazily load ONLY this post's compiled body (code-split chunk), and its own FAQ and ToC
+	// (never downloaded by listings, see getPostExtras).
+	const [component, extras] = await Promise.all([loader() as Promise<Component>, getPostExtras(locale, params.slug)]);
+	return { post: { ...post, ...extras }, component };
 };

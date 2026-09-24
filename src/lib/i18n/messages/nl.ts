@@ -357,6 +357,41 @@ const t = {
 		packagesSidebarAria: 'Zijbalk met evenementpakketten',
 		tocSidebarAria: 'Zijbalk met inhoudsopgave'
 	},
+	blogStructure: {
+		faqHeadings: ['Veelgestelde vragen'],
+		overviewHeadings: ['In het kort'],
+		highlightsHeadings: ['Belangrijkste punten'],
+		testimonialsHeadings: ['Klantervaringen'],
+		tocHeadings: ['Inhoudsopgave'],
+		inThisArticle: 'In dit artikel',
+		tocAria: 'Inhoudsopgave',
+		faqAria: 'Veelgestelde vragen'
+	},
+	postCta: {
+		aria: 'Pakketsuggestie voor je evenement',
+		headline: {
+			wedding: 'Ben je een bruiloft in Malaga aan het plannen?',
+			'basic-mice': 'Organiseer je een bedrijfsevenement?',
+			mice: 'Heb je eersteklas AV-ondersteuning voor MICE nodig?',
+			'product-presentation': 'Lanceer je een product of geef je een presentatie?',
+			eco: 'Plan je een privéfeest?'
+		},
+		subline: {
+			wedding: 'Kies het {name}: professioneel geluid en romantische verlichting voor je grote dag.',
+			'basic-mice': 'Kies het {name}: helder beeld en geluid voor directievergaderingen en congressen.',
+			mice: 'Kies het {name}: eersteklas ledscherm, geluid en een technicus ter plaatse.',
+			'product-presentation': 'Kies het {name}: een lichtsterke projector, scherm en geluid voor presentaties die indruk maken.',
+			eco: 'Kies het {name}: stevig geluid en sfeerverlichting voor maximaal {guests} gasten.'
+		},
+		priceFrom: 'Vanaf {price}',
+		viewPackage: 'Bekijk het {name}',
+		freeQuote: 'Vraag een gratis offerte aan'
+	},
+	packagesRail: {
+		title: 'Onze pakketten',
+		aria: 'Evenementpakketten',
+		priceFrom: 'vanaf {price}'
+	},
 	// WhatsApp floating widget
 	whatsapp: {
 		chatWithUs: 'Chat met ons'

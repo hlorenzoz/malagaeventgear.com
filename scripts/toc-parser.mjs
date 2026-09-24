@@ -6,7 +6,8 @@
  *
  * The ids returned match what rehype-slug generates (github-slugger algorithm).
  * Headings with text "Table of Contents" (case-insensitive) are excluded because
- * that section is removed by rehype-post-toc.mjs at build time.
+ * that section is removed by rehype-post-toc.mjs at build time. The words are the post
+ * locale's (`blogStructure` in its messages file), English by default.
  *
  * FAQ question headings (h3 inside the ## FAQs section) ARE included so the ToC
  * can link to them — rehype-faq-accordion preserves the ids on <summary> elements.
@@ -16,12 +17,15 @@
  */
 
 import GithubSlugger from 'github-slugger';
+import { ENGLISH_STRUCTURE, isStructuralHeading } from './blog-structure-words.mjs';
 
 /**
  * @param {string} body
+ * @param {{ tocHeadings: readonly string[], testimonialsHeadings: readonly string[] }} [words]
+ *   Structural words of the post's locale (English by default).
  * @returns {{ id: string; text: string; level: 2 | 3 }[]}
  */
-export function parseToc(body) {
+export function parseToc(body, words = ENGLISH_STRUCTURE) {
 	if (!body || typeof body !== 'string') return [];
 
 	const slugger = new GithubSlugger();
@@ -38,7 +42,7 @@ export function parseToc(body) {
 			const id = slugger.slug(text);
 			// Skip the old inline "Table of Contents" and the empty "Testimonials" marker —
 			// both are removed from the body by rehype-post-toc, so they must not appear in the ToC.
-			if (/^table of contents$/i.test(text) || /^testimonials$/i.test(text)) continue;
+			if (isStructuralHeading(text, words.tocHeadings) || isStructuralHeading(text, words.testimonialsHeadings)) continue;
 			entries.push({ id, text, level: 2 });
 			continue;
 		}

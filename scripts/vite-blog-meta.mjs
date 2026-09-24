@@ -20,6 +20,9 @@
  *   `virtual:blog-availability`: `{ <locale>: () => Promise<BlogAvailability> }`, what each
  *     locale publishes (English slugs), for routing and `i18n.href` on every page.
  *   `virtual:blog-availability/<locale>`: one locale's sets (a few hundred bytes).
+ *   `virtual:blog-extras`: `{ <en-slug>: () => Promise<{ faqs?, toc? }> }`, and
+ *   `virtual:blog-extras/<en-slug>`: one ENGLISH post's FAQ and ToC (from post-faqs.json and
+ *     post-toc.json), so only that post's page downloads them, never a listing or another locale.
  * Only locales with translation files get a loader, so no chunk exists until one is written.
  *
  * It also publishes the link tables of rehype-localize-links on `globalThis` (see there).
@@ -29,38 +32,42 @@
  * no prebuild step.
  */
 import { BLOG_DIR, computeBlogState, localizedLinkTables, readEnglishMeta } from './blog-sources.ts';
+import { readEnglishExtras } from './blog-files.mjs';
 
 const META = 'virtual:blog-meta';
 const TRANSLATIONS = 'virtual:blog-translations';
 const AVAILABILITY = 'virtual:blog-availability';
-const IDS = [META, TRANSLATIONS, AVAILABILITY];
+const EXTRAS = 'virtual:blog-extras';
+const IDS = [META, TRANSLATIONS, AVAILABILITY, EXTRAS];
 
 const shared = globalThis;
 
 /**
  * SvelteKit evaluates vite.config.ts (and so this plugin) again for the client build. The
  * build time is pinned on `globalThis` so both builds apply the same publish date cut.
+ *
+ * It THROWS on a malformed post, English or translated (computeBlogState names each file), and
+ * that fails `bun run build`, the Cloudflare build. Never catch it into an empty blog: one bad
+ * translation would then silently unpublish every locale's blog.
  */
-function computeState() {
+function computeState(dir) {
 	shared.__megBlogBuildTime ??= new Date().toISOString();
-	try {
-		const state = computeBlogState({ now: new Date(shared.__megBlogBuildTime) });
-		shared.__megLocalizedLinks = localizedLinkTables(state);
-		return state;
-	} catch (err) {
-		// Invalid ENGLISH frontmatter: blog.ts fails the build with the Zod error itself.
-		console.error('[blog-meta] could not compute the translated blog:', err?.message ?? err);
-		shared.__megLocalizedLinks = undefined;
-		return { english: [], locales: {} };
-	}
+	const state = computeBlogState({ dir, now: new Date(shared.__megBlogBuildTime) });
+	shared.__megLocalizedLinks = localizedLinkTables(state);
+	return state;
 }
 
 const loaderMap = (locales, base) =>
 	`{${locales.map((l) => `${JSON.stringify(l)}: () => import(${JSON.stringify(`${base}/${l}`)}).then((m) => m.default)`).join(',')}}`;
 
-/** @returns {import('vite').Plugin} */
-export function blogMeta() {
-	let state = computeState();
+/**
+ * @param {{ dir?: string }} [options] `dir` replaces the blog folder (tests).
+ * @returns {import('vite').Plugin}
+ */
+export function blogMeta({ dir = BLOG_DIR } = {}) {
+	let state = computeState(dir);
+	/** English FAQ and ToC per slug, read once per build (and again after a change in dev). */
+	let extras;
 
 	return {
 		name: 'blog-meta-virtual',
@@ -72,13 +79,18 @@ export function blogMeta() {
 			const virtual = id.slice(1);
 			// JSON.stringify serializes YAML Date values to ISO strings, matching
 			// mdsvex's own output, which the Zod schema already accepts.
-			if (virtual === META) return `export default ${JSON.stringify(readEnglishMeta())};`;
+			if (virtual === META) return `export default ${JSON.stringify(readEnglishMeta(dir))};`;
 
 			const locales = Object.keys(state.locales);
 			if (virtual === TRANSLATIONS) {
 				return `export const builtAt = ${JSON.stringify(shared.__megBlogBuildTime)};\nexport default ${loaderMap(locales, TRANSLATIONS)};`;
 			}
 			if (virtual === AVAILABILITY) return `export default ${loaderMap(locales, AVAILABILITY)};`;
+			extras ??= readEnglishExtras();
+			if (virtual === EXTRAS) return `export default ${loaderMap(Object.keys(extras), EXTRAS)};`;
+			if (virtual.startsWith(`${EXTRAS}/`)) {
+				return `export default ${JSON.stringify(extras[virtual.slice(EXTRAS.length + 1)] ?? {})};`;
+			}
 
 			const [base, locale] = [virtual.slice(0, virtual.lastIndexOf('/')), virtual.slice(virtual.lastIndexOf('/') + 1)];
 			const localeState = state.locales[locale];
@@ -89,11 +101,21 @@ export function blogMeta() {
 		},
 		configureServer(server) {
 			// Recompute and reload when posts or translations are added/edited/removed.
-			server.watcher.add(BLOG_DIR);
+			server.watcher.add(dir);
 			const onChange = (file) => {
-				if (!file.endsWith('.svx')) return;
+				const cache = /post-(faqs|toc)\.json$/.test(file);
+				if (!file.endsWith('.svx') && !cache) return;
 				shared.__megBlogBuildTime = new Date().toISOString();
-				state = computeState();
+				try {
+					if (!cache) state = computeState(dir);
+				} catch (err) {
+					// Dev only: keep serving the last valid blog and show the error in the browser
+					// overlay and the terminal. The build still fails on the same file.
+					server.config.logger.error(`[blog-meta] ${err?.message ?? err}`);
+					server.ws.send({ type: 'error', err: { message: String(err?.message ?? err), stack: '' } });
+					return;
+				}
+				extras = undefined;
 				for (const mod of [...server.moduleGraph.idToModuleMap.values()]) {
 					if (mod.id?.startsWith('\0virtual:blog-')) server.moduleGraph.invalidateModule(mod);
 				}

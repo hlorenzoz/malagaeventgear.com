@@ -10,6 +10,8 @@ import {
 	blogAvailabilityOf,
 	findStaleTranslations,
 	translationPathInfo,
+	postTags,
+	articleKeywords,
 	type GlobResult,
 	type TranslationGlob
 } from './blog-pipeline';
@@ -103,9 +105,18 @@ describe('TranslatedPostSchema', () => {
 		}
 	});
 
-	it('requires sourceUpdated as YYYY-MM-DD', () => {
+	it('requires sourceUpdated as a date', () => {
 		expect(TranslatedPostSchema.safeParse({ ...valid, sourceUpdated: undefined }).success).toBe(false);
-		expect(TranslatedPostSchema.safeParse({ ...valid, sourceUpdated: '2026-01-10T00:00:00Z' }).success).toBe(false);
+		expect(TranslatedPostSchema.safeParse({ ...valid, sourceUpdated: 'yesterday' }).success).toBe(false);
+		// A real time of day is not a YAML date: never silently cut to its day.
+		expect(TranslatedPostSchema.safeParse({ ...valid, sourceUpdated: '2026-01-10T15:30:00+02:00' }).success).toBe(false);
+	});
+
+	it('accepts an unquoted YAML sourceUpdated and normalizes it to YYYY-MM-DD, like publishDate', () => {
+		// gray-matter parses `sourceUpdated: 2026-01-10` (no quotes) to a Date, and the JSON round
+		// trip of the virtual module turns it into this string.
+		expect(TranslatedPostSchema.parse({ ...valid, sourceUpdated: '2026-01-10T00:00:00.000Z' }).sourceUpdated).toBe('2026-01-10');
+		expect(TranslatedPostSchema.parse({ ...valid, sourceUpdated: '2026-01-10' }).sourceUpdated).toBe('2026-01-10');
 	});
 
 	it('validates the dates and lengths like the English schema', () => {
@@ -179,17 +190,26 @@ describe('buildLocalizedPosts', () => {
 		expect(posts[0].slug).toBe('gala-lights');
 	});
 
-	it('skips drafts, future dates, invalid frontmatter and posts without a content map entry', () => {
+	it('skips drafts, future dates and posts without a content map entry', () => {
 		const skipped: TranslationGlob = {
 			...translation('de', 'wedding-sound', { draft: true }),
 			...translation('de', 'gala-lights', { publishDate: '2026-12-01' })
 		};
 		expect(buildLocalizedPosts('de', englishPosts, skipped, deMap, NOW)).toEqual([]);
-		const invalid = translation('de', 'wedding-sound', { coverImage: 'https://x.test/a.webp' });
-		expect(buildLocalizedPosts('de', englishPosts, invalid, deMap, NOW)).toEqual([]);
 		const unmapped = contentMap('/blog/', {});
 		expect(buildLocalizedPosts('de', englishPosts, translation('de', 'wedding-sound'), unmapped, NOW)).toEqual([]);
 		expect(buildLocalizedPosts('de', englishPosts, translation('de', 'wedding-sound'), null, NOW)).toEqual([]);
+	});
+
+	it('fails on invalid frontmatter, naming the file, instead of dropping the post', () => {
+		const invalid = translation('de', 'wedding-sound', { coverImage: 'https://x.test/a.webp' });
+		expect(() => buildLocalizedPosts('de', englishPosts, invalid, deMap, NOW)).toThrow(
+			/src\/content\/blog\/de\/wedding-sound\.svx: invalid frontmatter/
+		);
+	});
+
+	it('keeps the English title for package matching (same CTA as the English post)', () => {
+		expect(posts.find((p) => p.slug === 'wedding-sound')!.enTitle).toBe('English wedding-sound');
 	});
 
 	it('returns nothing for English (English posts are not translations)', () => {
@@ -247,5 +267,25 @@ describe('findStaleTranslations', () => {
 			NOW
 		);
 		expect(findStaleTranslations(posts, englishPosts)).toEqual(['de/gala-lights']);
+	});
+});
+
+describe('tags and keywords of a post page', () => {
+	const [de] = buildLocalizedPosts('de', englishPosts, translation('de', 'wedding-sound'), deMap, NOW);
+	const en = englishPosts.find((p) => p.slug === 'wedding-sound')!;
+
+	it('English shows its tags and uses them as article keywords, as before', () => {
+		expect(postTags(en)).toEqual(['tag']);
+		expect(articleKeywords(en)).toEqual(['tag']);
+	});
+
+	it('a translation shows no English tags, and its keywords are the locale keyword', () => {
+		expect(postTags(de)).toEqual([]);
+		expect(articleKeywords(de)).toEqual(['kw hochzeit-ton']);
+	});
+
+	it('no keywords at all rather than English ones', () => {
+		expect(articleKeywords({ ...de, keyword: undefined })).toBeUndefined();
+		expect(articleKeywords({ ...en, tags: [] })).toBeUndefined();
 	});
 });

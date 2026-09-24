@@ -1,3 +1,5 @@
+import { ENGLISH_STRUCTURE, isStructuralHeading } from './blog-structure-words.mjs';
+
 /**
  * Shared FAQ parser — pure function, no Node.js dependencies.
  *
@@ -12,18 +14,23 @@
  * Semantics match the rehype-faq-accordion.mjs plugin so head JSON-LD and body
  * HTML always represent the same data.
  *
+ * The FAQ heading is the post locale's (`words.faqHeadings`, from the `blogStructure` group of
+ * its messages file): `## FAQs` in English (the default), `## Häufige Fragen` in German.
+ *
  * @param {string} body - Raw markdown body of the post (after frontmatter).
+ * @param {{ faqHeadings: readonly string[] }} [words] - Structural words of the post's locale.
  * @returns {{ question: string; answer: string }[]}
  */
-export function parseFaqs(body) {
+export function parseFaqs(body, words = ENGLISH_STRUCTURE) {
 	if (!body || typeof body !== 'string') return [];
 
 	const lines = body.split('\n');
 
-	// Find the ## FAQs / ## FAQ heading
+	// Find the FAQ h2 (## FAQs / ## FAQ in English)
 	let faqStart = -1;
 	for (let i = 0; i < lines.length; i++) {
-		if (/^##\s+(FAQs?)\s*$/i.test(lines[i].trim())) {
+		const h2 = lines[i].trim().match(/^##\s+(.+)$/);
+		if (h2 && isStructuralHeading(h2[1], words.faqHeadings)) {
 			faqStart = i;
 			break;
 		}

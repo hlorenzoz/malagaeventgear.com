@@ -93,7 +93,8 @@ export function translationsNeedingUpdate(slug: string, englishDate: string, dir
 		const path = join(dir, locale, `${slug}.svx`);
 		if (!existsSync(path)) return false;
 		const { sourceUpdated } = readPost(path).data as { sourceUpdated?: unknown };
-		return typeof sourceUpdated !== 'string' || sourceUpdated < englishDate;
+		// An unquoted YAML date arrives as `YYYY-MM-DDT00:00:00.000Z`: compare its day.
+		return typeof sourceUpdated !== 'string' || sourceUpdated.slice(0, 10) < englishDate;
 	}).sort();
 }
 

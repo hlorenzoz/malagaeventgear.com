@@ -15,8 +15,13 @@
  * execution time. The plugin reads heading ids set by rehype-slug so ids are reliable.
  *
  * "Table of Contents" h2 is excluded from the mobile ToC (consistent with toc-parser.mjs).
+ *
+ * Every heading word ("Table of Contents", "Testimonials", "Key Highlights") and the chrome
+ * ("In this article", the aria label) are the post locale's (messages, `blogStructure`), read
+ * from the post path by scripts/blog-structure-words.mjs.
  */
 import { visit } from 'unist-util-visit';
+import { blogStructureOf, isStructuralHeading } from './blog-structure-words.mjs';
 
 /**
  * Returns plain text content of a hast node.
@@ -31,9 +36,11 @@ function textContent(node) {
 }
 
 export function rehypePostToc() {
-	return (tree) => {
+	return (tree, file) => {
 		const children = tree.children;
 		if (!children || !Array.isArray(children)) return;
+		// Section headings and ToC chrome in the post's own language (messages, blogStructure)
+		const words = blogStructureOf(file);
 
 		// ── Step 1: Remove the old "## Table of Contents" section ────────────────
 		// Find the h2 whose text is "Table of Contents" (case-insensitive)
@@ -43,7 +50,7 @@ export function rehypePostToc() {
 			if (
 				node.type === 'element' &&
 				node.tagName === 'h2' &&
-				/^table of contents$/i.test(textContent(node).trim())
+				isStructuralHeading(textContent(node), words.tocHeadings)
 			) {
 				tocH2Index = i;
 				break;
@@ -73,7 +80,7 @@ export function rehypePostToc() {
 			if (
 				node.type === 'element' &&
 				node.tagName === 'h2' &&
-				/^testimonials?$/i.test(textContent(node).trim())
+				isStructuralHeading(textContent(node), words.testimonialsHeadings)
 			) {
 				testimonialsH2Index = i;
 				break;
@@ -109,7 +116,7 @@ export function rehypePostToc() {
 			if (node.tagName !== 'h2' && node.tagName !== 'h3') return;
 			const text = textContent(node).trim();
 			// Exclude "Table of Contents" (already removed but just in case)
-			if (/^table of contents$/i.test(text)) return;
+			if (isStructuralHeading(text, words.tocHeadings)) return;
 			const id = node.properties?.id;
 			if (!id || typeof id !== 'string') return;
 			tocEntries.push({ id, text, level: node.tagName === 'h2' ? 2 : 3 });
@@ -137,14 +144,14 @@ export function rehypePostToc() {
 			tagName: 'nav',
 			properties: {
 				className: ['toc-mobile', 'lg:hidden'],
-				'aria-label': 'Table of contents'
+				'aria-label': words.tocAria
 			},
 			children: [
 				{
 					type: 'element',
 					tagName: 'p',
 					properties: { className: ['toc-mobile-title'] },
-					children: [{ type: 'text', value: 'In this article' }]
+					children: [{ type: 'text', value: words.inThisArticle }]
 				},
 				{
 					type: 'element',
@@ -162,7 +169,7 @@ export function rehypePostToc() {
 			if (
 				node.type === 'element' &&
 				node.tagName === 'h2' &&
-				/^key highlights?$/i.test(textContent(node).trim())
+				isStructuralHeading(textContent(node), words.highlightsHeadings)
 			) {
 				keyHighlightsH2Index = i;
 				break;

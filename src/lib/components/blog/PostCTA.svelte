@@ -2,6 +2,7 @@
 	import type { EventPackage } from '$lib/data/packages';
 	import { packageImageVariant } from '$lib/assets/package-images';
 	import { i18n } from '$lib/i18n.svelte';
+	import { postCtaCopy } from './post-cta-copy';
 
 	let {
 		pkg
@@ -9,32 +10,15 @@
 		pkg: EventPackage;
 	} = $props();
 
-	// English-only headlines per package type
-	const headlineMap: Record<string, string> = {
-		wedding: 'Planning a wedding in Malaga?',
-		'basic-mice': 'Organising a corporate event?',
-		mice: 'Need premium MICE AV support?',
-		'product-presentation': 'Launching a product or presentation?',
-		eco: 'Planning a private event?'
-	};
-
-	const sublineMap: Record<string, string> = {
-		wedding: 'Get the Wedding Pack: professional sound and romantic lighting for your special day.',
-		'basic-mice': 'Get the Basic MICE Pack: clear AV for executive meetings and conferences.',
-		mice: 'Get the MICE Pack: premium LED display, sound, and a live technician.',
-		'product-presentation':
-			'Get the Product Presentation Pack: laser projection and audio for high-impact showcases.',
-		eco: 'Get the Eco Pack: solid sound and ambient lighting for up to 50 guests.'
-	};
-
-	let headline = $derived(headlineMap[pkg.slug] ?? headlineMap['eco']);
-	let subline = $derived(sublineMap[pkg.slug] ?? sublineMap['eco']);
+	// Copy in the page language (dictionary `postCta`), package name untranslated, price and VAT
+	// through formatPrice and {vat} (post-cta-copy.ts).
+	let copy = $derived(postCtaCopy(pkg, i18n.t, i18n.lang));
 </script>
 
 <aside
 	class="post-cta"
 	data-testid="post-cta"
-	aria-label="Event package suggestion"
+	aria-label={copy.aria}
 >
 	<div class="post-cta-inner">
 		<!-- Package image -->
@@ -58,9 +42,9 @@
 
 		<!-- Copy -->
 		<div class="post-cta-body">
-			<p class="post-cta-headline">{headline}</p>
-			<p class="post-cta-subline">{subline}</p>
-			<p class="post-cta-price">From <strong>€{pkg.price}</strong> <span>(+21% VAT)</span></p>
+			<p class="post-cta-headline">{copy.headline}</p>
+			<p class="post-cta-subline">{copy.subline}</p>
+			<p class="post-cta-price">{copy.price.before}<strong>{copy.price.amount}</strong>{copy.price.after}{i18n.space}<span>{copy.vat}</span></p>
 
 			<!-- CTAs -->
 			<div class="post-cta-actions">
@@ -69,14 +53,14 @@
 					class="post-cta-btn-primary"
 					data-testid="post-cta-primary"
 				>
-					View the {pkg.name} →
+					{copy.view} →
 				</a>
 				<a
 					href={i18n.href('/contact/')}
 					class="post-cta-btn-secondary"
 					data-testid="post-cta-secondary"
 				>
-					Get a free quote
+					{copy.quote}
 				</a>
 			</div>
 		</div>

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { auditTranslations } from './translation-audit';
+import { auditTranslations, malformedTranslations } from './translation-audit';
 import type { GlobResult, TranslationGlob } from './blog-pipeline';
 import type { LocaleContentMap } from '$lib/i18n/content-map/schema';
 
@@ -73,5 +73,27 @@ describe('auditTranslations', () => {
 		expect(audit({ '../../content/blog/es/a.svx': fm() })).toEqual([
 			'../../content/blog/es/a.svx: es is not a prefixed site locale (src/lib/i18n/locales.ts)'
 		]);
+	});
+});
+
+describe('malformedTranslations (what fails the build)', () => {
+	const malformed = (translations: TranslationGlob, maps: Record<string, LocaleContentMap> = { de: map }) =>
+		malformedTranslations(english, translations, maps);
+
+	it('reports invalid frontmatter, a missing English post and a missing content map entry', () => {
+		expect(
+			malformed({
+				'../../content/blog/de/a.svx': fm({ coverImage: 'https://x.test/a.webp' }),
+				'../../content/blog/de/gone.svx': fm()
+			})
+		).toEqual([
+			"de/a: invalid frontmatter ((root) Unrecognized key(s) in object: 'coverImage')",
+			'de/gone: there is no English post src/content/blog/gone.svx'
+		]);
+		expect(malformed({ '../../content/blog/de/a.svx': fm() }, { de: { ...map, posts: {} } })).toHaveLength(1);
+	});
+
+	it('does not fail the build for a stale translation (the test suite guards that)', () => {
+		expect(malformed({ '../../content/blog/de/a.svx': fm({ sourceUpdated: '2026-01-10' }) })).toEqual([]);
 	});
 });

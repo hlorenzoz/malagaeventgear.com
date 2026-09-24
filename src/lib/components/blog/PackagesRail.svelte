@@ -2,6 +2,7 @@
 	import { packages as allPackages, type EventPackage } from '$lib/data/packages';
 	import { packageImageVariant } from '$lib/assets/package-images';
 	import { i18n } from '$lib/i18n.svelte';
+	import { railPrice } from './post-cta-copy';
 
 	// Accept an ordered package list (e.g. relevance-sorted for a post). Defaults to the
 	// full catalog so other usages keep working without passing a prop.
@@ -17,8 +18,8 @@
   Wrap in outer div with appropriate class based on context.
 -->
 
-<nav aria-label="Event packages" class="packages-rail" data-testid="packages-rail">
-	<p class="packages-rail-title">Our Packages</p>
+<nav aria-label={i18n.t.packagesRail.aria} class="packages-rail" data-testid="packages-rail">
+	<p class="packages-rail-title">{i18n.t.packagesRail.title}</p>
 	<ul class="packages-rail-list">
 		{#each packages as pkg (pkg.slug)}
 			<li class="packages-rail-item">
@@ -43,7 +44,7 @@
 					{/if}
 					<div class="packages-rail-info">
 						<span class="packages-rail-name">{pkg.name}</span>
-						<span class="packages-rail-price">from €{pkg.price}</span>
+						<span class="packages-rail-price">{railPrice(pkg, i18n.t, i18n.lang)}</span>
 					</div>
 				</a>
 			</li>

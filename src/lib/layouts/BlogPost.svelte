@@ -12,6 +12,7 @@
 	import PostCTA from '$lib/components/blog/PostCTA.svelte';
 	import Testimonials from '$lib/components/testimonials/Testimonials.svelte';
 	import { resolvePackageForPost, getPackagesForPost } from '$lib/data/packages';
+	import { articleKeywords, postTags } from '$lib/data/blog-pipeline';
 	import { setContext, onMount } from 'svelte';
 	import ShareThis from '$lib/components/blog/ShareThis.svelte';
 	import ClickToTweet from '$lib/components/blog/ClickToTweet.svelte';
@@ -26,6 +27,9 @@
 
 	// post.url is the single source of truth for the post path (derived in blog-pipeline.ts).
 	let canonicalUrl = $derived(`${siteConfig.url}${post.url}`);
+
+	// Tags are English: a translation shows none and its JSON-LD keywords are its locale keyword.
+	let tags = $derived(postTags(post));
 
 	// First category for articleSection (if any)
 	let firstCategory = $derived(post.categories[0] ?? undefined);
@@ -52,7 +56,7 @@
 			// Use NewsArticle @type when the post belongs to the "News" category
 			type: post.isNews ? 'NewsArticle' : 'BlogPosting',
 			articleSection: firstCategory ? i18n.categoryName(firstCategory) : undefined,
-			keywords: post.tags && post.tags.length > 0 ? post.tags : undefined
+			keywords: articleKeywords(post)
 		})
 	);
 
@@ -64,7 +68,9 @@
 	let faqSchema = $derived(post.faqs && post.faqs.length > 0 ? buildFAQSchema(post.faqs) : null);
 	let jsonLdSchemas = $derived(faqSchema ? [articleSchema, faqSchema] : [articleSchema]);
 
-	// Resolve the most relevant package for this post's context
+	// Resolve the most relevant package for this post's context. Matching reads the ENGLISH
+	// post (a translation carries its English title in enTitle), so every locale shows the same
+	// package.
 	let resolvedPackage = $derived(resolvePackageForPost(post));
 
 	// Expose the resolved package to descendant components (e.g. <InlineCTA /> in the
@@ -126,7 +132,7 @@
 		publishedTime: toIso8601WithOffset(post.publishDate),
 		modifiedTime: toIso8601WithOffset(post.updatedDate ?? post.publishDate),
 		section: firstCategory ? i18n.categoryName(firstCategory) : undefined,
-		tags: post.tags && post.tags.length > 0 ? post.tags : undefined,
+		tags: tags.length > 0 ? tags : undefined,
 		author: authorUrl,
 		images: [
 			{
@@ -228,10 +234,10 @@
 			</div>
 
 			<!-- Tags -->
-			{#if post.tags && post.tags.length > 0}
+			{#if tags.length > 0}
 				<footer class="mt-12 pt-8 border-t border-border-glass">
 					<div class="flex flex-wrap gap-2">
-						{#each post.tags as tag}
+						{#each tags as tag}
 							<span class="px-3 py-1 rounded-full text-xs font-label-sm bg-surface-container-low border border-border-glass text-on-surface-variant">
 								{tag}
 							</span>
@@ -240,7 +246,7 @@
 				</footer>
 			{/if}
 
-			<!-- Post CTA (package-driven, English copy) -->
+			<!-- Post CTA (package-driven, copy in the page language) -->
 			<PostCTA pkg={resolvedPackage} />
 
 			<!-- Compact Testimonials carousel (no heading) -->

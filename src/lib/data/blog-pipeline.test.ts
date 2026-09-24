@@ -135,3 +135,12 @@ describe('getNewsPosts', () => {
 		expect(news.length + articles.length).toBe(posts.length);
 	});
 });
+
+describe('buildPostsFromGlob validation', () => {
+	it('fails on invalid English frontmatter, naming the file', () => {
+		const glob: GlobResult = { '../../content/blog/broken-post.svx': makeModule({ description: 'short' }) };
+		expect(() => buildPostsFromGlob(glob, new Date('2026-12-31'))).toThrow(
+			/src\/content\/blog\/broken-post\.svx: invalid frontmatter \(description/
+		);
+	});
+});

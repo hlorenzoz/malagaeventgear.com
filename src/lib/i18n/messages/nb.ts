@@ -370,6 +370,41 @@ const t = {
 		packagesSidebarAria: 'Sidefelt for arrangementspakker',
 		tocSidebarAria: 'Sidefelt for innholdsfortegnelse'
 	},
+	blogStructure: {
+		faqHeadings: ['Ofte stilte spørsmål'],
+		overviewHeadings: ['Kort oversikt'],
+		highlightsHeadings: ['Det viktigste'],
+		testimonialsHeadings: ['Kundeomtaler'],
+		tocHeadings: ['Innholdsfortegnelse'],
+		inThisArticle: 'I denne artikkelen',
+		tocAria: 'Innholdsfortegnelse',
+		faqAria: 'Ofte stilte spørsmål'
+	},
+	postCta: {
+		aria: 'Pakkeforslag til arrangementet ditt',
+		headline: {
+			wedding: 'Planlegger du et bryllup i Malaga?',
+			'basic-mice': 'Arrangerer du et firmaarrangement?',
+			mice: 'Trenger du førsteklasses AV-støtte til MICE?',
+			'product-presentation': 'Lanserer du et produkt eller holder du en presentasjon?',
+			eco: 'Planlegger du en privat fest?'
+		},
+		subline: {
+			wedding: 'Velg {name}: profesjonell lyd og romantisk belysning til den store dagen.',
+			'basic-mice': 'Velg {name}: tydelig lyd og bilde til ledermøter og konferanser.',
+			mice: 'Velg {name}: førsteklasses LED-skjerm, lyd og en tekniker på stedet.',
+			'product-presentation': 'Velg {name}: lyssterk projektor, lerret og lyd til presentasjoner som gjør inntrykk.',
+			eco: 'Velg {name}: solid lyd og stemningsbelysning for opptil {guests} gjester.'
+		},
+		priceFrom: 'Fra {price}',
+		viewPackage: 'Se {name}',
+		freeQuote: 'Be om et gratis tilbud'
+	},
+	packagesRail: {
+		title: 'Våre pakker',
+		aria: 'Arrangementspakker',
+		priceFrom: 'fra {price}'
+	},
 	// WhatsApp floating widget
 	whatsapp: {
 		chatWithUs: 'Chat med oss'

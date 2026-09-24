@@ -374,6 +374,41 @@ const t = {
 		packagesSidebarAria: 'Barre latérale des forfaits événementiels',
 		tocSidebarAria: 'Barre latérale de la table des matières'
 	},
+	blogStructure: {
+		faqHeadings: ['Questions fréquentes'],
+		overviewHeadings: ['En bref'],
+		highlightsHeadings: ['Points clés'],
+		testimonialsHeadings: ['Témoignages'],
+		tocHeadings: ['Table des matières'],
+		inThisArticle: 'Dans cet article',
+		tocAria: 'Table des matières',
+		faqAria: 'Questions fréquentes'
+	},
+	postCta: {
+		aria: 'Suggestion de forfait pour votre événement',
+		headline: {
+			wedding: 'Vous préparez un mariage à Malaga ?',
+			'basic-mice': "Vous organisez un événement d'entreprise ?",
+			mice: "Besoin d'un support audiovisuel MICE haut de gamme ?",
+			'product-presentation': 'Vous lancez un produit ou préparez une présentation ?',
+			eco: 'Vous préparez un événement privé ?'
+		},
+		subline: {
+			wedding: 'Découvrez le {name} : une sonorisation professionnelle et un éclairage romantique pour votre grand jour.',
+			'basic-mice': 'Découvrez le {name} : un audiovisuel clair pour vos réunions de direction et vos conférences.',
+			mice: 'Découvrez le {name} : écran LED haut de gamme, sonorisation et technicien sur place.',
+			'product-presentation': 'Découvrez le {name} : projecteur haute luminosité, écran et son pour des présentations percutantes.',
+			eco: "Découvrez le {name} : un son solide et un éclairage d'ambiance jusqu'à {guests} invités."
+		},
+		priceFrom: 'À partir de {price}',
+		viewPackage: 'Voir le {name}',
+		freeQuote: 'Demander un devis gratuit'
+	},
+	packagesRail: {
+		title: 'Nos forfaits',
+		aria: 'Forfaits événementiels',
+		priceFrom: 'à partir de {price}'
+	},
 	// WhatsApp floating widget
 	whatsapp: {
 		chatWithUs: 'Discuter avec nous'
