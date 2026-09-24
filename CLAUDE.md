@@ -18,6 +18,13 @@
 3. **Sitio multilingüe**: publicar todo el sitio en los 13 idiomas de
    [Idiomas soportados](#idiomas-soportados).
 
+> **Este archivo es la única fuente de instrucciones del proyecto.** `docs/CLAUDE.template.md`
+> NO describe este proyecto: es una plantilla genérica (datos ficticios, "Northwind Events") para
+> arrancar un sitio NUEVO con este mismo stack, junto con `docs/scaffold-prompt.md`. Se llama
+> `.template.md` a propósito, para que Claude Code no la cargue como memoria al trabajar dentro de
+> `docs/`. Ningún agente la sigue en este repo y nunca se edita con datos de MEG: cambia solo
+> cuando cambia el stack que la plantilla enseña.
+
 ---
 
 ## Idiomas soportados
