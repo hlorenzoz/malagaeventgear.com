@@ -12,14 +12,18 @@ const filterButton = (page: Page, en: string, es: string): Locator =>
 
 // Scroll each reveal item into view so the IntersectionObserver triggers, then
 // assert it animates to full opacity (regression guard for the reveal bug where
-// re-rendered items stayed stuck invisible).
+// re-rendered items stayed stuck invisible). Each item is retried as a whole with
+// toPass: a filter click re-renders the keyed list, and an item resolved just before
+// that re-render comes back detached, which made this helper flaky.
 async function expectAllRevealed(faqs: Locator) {
 	const count = await faqs.count();
 	for (let i = 0; i < count; i++) {
-		const item = faqs.nth(i);
-		await item.scrollIntoViewIfNeeded();
-		await expect(item).toBeVisible();
-		await expect(item).toHaveCSS('opacity', '1');
+		await expect(async () => {
+			const item = faqs.nth(i);
+			await item.scrollIntoViewIfNeeded({ timeout: 2000 });
+			await expect(item).toBeVisible({ timeout: 1000 });
+			await expect(item).toHaveCSS('opacity', '1', { timeout: 1000 });
+		}).toPass({ timeout: 10000 });
 	}
 }
 
@@ -53,8 +57,6 @@ test.describe('FAQ Filter Verification', () => {
 
 	test('should correctly filter FAQs when selecting categories and maintain visibility', async ({ page }) => {
 		await filterButton(page, 'Services & Gear', 'Servicios y Equipos').click();
-		// Svelte transition slide is 250ms
-		await page.waitForTimeout(300);
 
 		const faqs = page.locator('.glass-panel.reveal');
 		await expect(faqs).toHaveCount(SERVICES_FAQS);
@@ -63,7 +65,6 @@ test.describe('FAQ Filter Verification', () => {
 
 	test('should filter to the new Contact category', async ({ page }) => {
 		await filterButton(page, 'Contact', 'Contacto').click();
-		await page.waitForTimeout(300);
 
 		const faqs = page.locator('.glass-panel.reveal');
 		await expect(faqs).toHaveCount(CONTACT_FAQS);
@@ -72,11 +73,9 @@ test.describe('FAQ Filter Verification', () => {
 
 	test(`should restore all ${TOTAL_FAQS} visible FAQs when clicking back to "All Questions" / "Todas"`, async ({ page }) => {
 		await filterButton(page, 'Services & Gear', 'Servicios y Equipos').click();
-		await page.waitForTimeout(300);
 		await expect(page.locator('.glass-panel.reveal')).toHaveCount(SERVICES_FAQS);
 
 		await filterButton(page, 'All Questions', 'Todas').click();
-		await page.waitForTimeout(300);
 
 		const faqsRestored = page.locator('.glass-panel.reveal');
 		await expect(faqsRestored).toHaveCount(TOTAL_FAQS);
