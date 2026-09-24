@@ -7,6 +7,21 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (tv-screen-rental-size-and-multiscreen)
+- **`/blog/tv-screen-rental/` actualizado** a partir de la banda clicable del export GSC del 2026-09-23: ~124 impresiones de pantallas en posicion 4-10 con **0 clics** (`rent tv screen` 58 en pos 7,97, `tv screen hire` en pos 5,11, `tv monitor rental` en pos 4,43, `rent 55 inch screen`, `big screen tv hire`, `hire tv screens for exhibitions`).
+- **Nueva FAQ `Do you rent a 55 inch screen?`**. Tres consultas distintas piden 55 pulgadas y MEG stockea **un panel de 60**. La pagina afirmaba "one real size: 60 inch" sin tender el puente, asi que quien buscaba 55 no sabia si le servia. La respuesta nueva dice que 60 es MAYOR que 55, y reencuadra el pedido: un "55 pulgadas" casi siempre es una medida de sala disfrazada de diagonal, asi que pide profundidad de sala y numero de invitados y deriva al proyector si la sala supero al panel plano. Verificado presente en el **`FAQPage` JSON-LD**, no solo en el HTML.
+- La FAQ de tamanos ahora **niega explicitamente 50, 55 y 65 pulgadas** en vez de solo afirmar 60.
+- **FAQ de multiples pantallas reforzada con evidencia mas fuerte**: citaba solo el montaje de 2 dias con Bmotion en Marbella. Ahora abre con ECOC 2026 en FYCMA, donde se instalaron pantallas en stands por todo el hall, varios con mas de una y uno con **cinco en fila**. Es trabajo real y responde mucho mejor "puedo alquilar varias".
+- `updatedDate` a `2026-09-24`. Regenerados `post-faqs.json` y `post-toc.json`.
+
+### Changed (keyword-silo-map-multilingual)
+- **Analisis de las 52 consultas NO inglesas** (640 impresiones, **0 clics**) con el criterio que pidio el usuario: no dar soporte al espanol, sino traducirlas estrictamente al ingles y ver si ese contenido existe.
+- **Resultado: no hay contenido nuevo que crear por esta via.** La traduccion de cada cluster ya existe y casi toda rankea entre posicion 1 y 12: `lighting hire` pos **1**, `mice sound system` pos **2**, `conference equipment rental` pos **3**, `wedding equipment hire` pos **4**, `audio visual equipment on rent` pos 8,2. Las 640 impresiones sin clic son un artefacto de enrutado de idioma, no demanda insatisfecha.
+- Dos clusters no inglesas quedan como no perseguibles por inventario, no por idioma: `alquiler pantalla led en feria malaga` (47 impr, LED wall que no existe) y `alquiler mobiliario bodas malaga` (34 impr, mobiliario que no existe).
+- **Unico punto flojo que revela el ejercicio, y no es de idioma**: el silo de **sonido rankea en posicion 18-25** mientras iluminacion esta en 1-4 y conferencias en 3-4,5. `sound equipment rental` son 137 impresiones en pos 19,91, la consulta inglesa no nupcial mas grande del sitio. Es dificultad competitiva con el pilar ya escrito, no ausencia de contenido. Anotado en el mapa para una decision futura.
+- **El hueco de espanol queda CERRADO por decision del usuario (2026-09-24)**, no diferido. Se conserva cuantificado en el mapa para cuando se retome el tema de idiomas.
+- Verificado: Vitest 1348/1348, build verde, Playwright 164 pasando con el unico fallo preexistente de `share.spec.ts`, que navega a una URL hardcodeada distinta.
+
 ### Added (smoke-machine-rental-post)
 - **Nuevo post `src/content/blog/smoke-machine-rental.svx`**, `siloRole: supporting`, `targetPage: "/blog/stage-lighting-rental/"`, keyword `smoke machine rental`. Era el **unico hueco de contenido genuino** que quedaba de las 4 fuentes de `.agents/context`, identificado en la re-auditoria del 2026-09-06 y verificado hoy como todavia abierto.
 - **Por que ese pilar y no otro**: una maquina de humo existe para hacer VISIBLE el haz de luz. Sin particulas en el aire el haz no se ve. No es un accesorio de sonido, es la capa que hace que la iluminacion que ya alquilas se note, y por eso cuelga de `stage-lighting-rental` igual que `stage-uplighting` y `stage-lighting-for-weddings`.

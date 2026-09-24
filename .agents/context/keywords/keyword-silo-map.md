@@ -5,7 +5,7 @@ se marca explícitamente como no perseguible con el motivo. La segunda mitad es 
 evita que una sesión futura vuelva a "descubrir" un cluster de 1.500 impresiones y escriba
 contenido deshonesto para perseguirlo.
 
-- **Última actualización**: 2026-09-23
+- **Última actualización**: 2026-09-24
 - **Fuente de esta pasada**: `google-search-console-gsc/malagaeventgear.com-Performance-on-Search-2026-09-23/` (últimos 3 meses, 486 consultas, 218 páginas)
 - **Fuentes ya agotadas** (no volver a auditarlas sin datos nuevos, ver `keyword_reaudit_2026-09-06` en engram): GBP `fixed.md` (244 filas), PageOptimizer Pro CSV (106), Google Ads / Ubersuggest (908 en 14 ficheros)
 
@@ -64,6 +64,8 @@ Dos huecos concretos que el post no responde hoy:
 1. **El tamaño**. Tres consultas piden **55 pulgadas** (`rent 55 inch screen`, `55 inch screen hire`, `55 inch tv rental`). MEG stockea **un panel de 60 pulgadas**. Hoy la página no conecta las dos cosas, así que quien busca 55 no sabe si le sirve.
 2. **Ferias**. `hire tv screens for exhibitions` ya existe como demanda, y desde ECOC 2026 hay un trabajo real de pantallas en stands que respalda ese ángulo.
 
+**Estado: hecho el 2026-09-24.** Nueva FAQ `Do you rent a 55 inch screen?` que explica que el panel de 60 es MAYOR que un 55 y pide medidas de sala en vez del diagonal, la FAQ de tamaños ahora niega explícitamente 50/55/65, y la de múltiples pantallas pasa a citar ECOC 2026 (varios stands con más de una pantalla, uno con cinco en fila) como evidencia más fuerte que el caso de Bmotion.
+
 ## Clusters deliberadamente NO perseguidos
 
 Esta tabla existe para no volver a discutirlo. Todos tienen volumen alto y **ninguno** se puede
@@ -80,7 +82,35 @@ servir con honestidad.
 | `eventraciones malaga`, `dispositivos espectaculos andalucia`, `10 juin 2027`, `in arabic` | ~60 | Ruido. `eventración` es un término **médico** (hernia), no de eventos. |
 | `rent cdj 3000 near me`, `base dj malaga`, `dj equipment near me` | ~10 | Equipo de DJ. No está en inventario. |
 
-## El hueco real: español
+## Idiomas distintos del inglés: traducidos, NO cubiertos en español
+
+**Decisión del usuario (2026-09-24): el sitio NO dará soporte al español.** El soporte de nuevos
+idiomas se tratará aparte, cuando el trabajo de contenido esté terminado.
+
+Lo que sí se hizo: tomar las **52 consultas no inglesas** (640 impresiones, 0 clics), traducirlas
+estrictamente al inglés y comprobar si ese contenido inglés existe. Resultado:
+
+| Cluster no inglés | Traducción estricta | Mejor posición EN hoy | Veredicto |
+| :--- | :--- | ---: | :--- |
+| `alquiler iluminacion eventos malaga` (65) | `lighting hire` / `event lighting` | **1** | Ya cubierto |
+| `mice events malaga` (55) | `mice sound system` | **2** | Ya cubierto |
+| `alquiler de equipos ... para congresos` (49) | `conference equipment rental` | **3** | Ya cubierto |
+| `alquiler de equipos ... para bodas` (72) | `wedding equipment hire` | **4** | Ya cubierto |
+| `alquiler material audiovisual malaga` (86) | `audio visual equipment on rent` | 8,2 | Ya cubierto |
+| `alquiler sonido malaga` (14) | `sound equipment rental` | **19,9** | Cubierto pero débil |
+| `alquiler pantalla led en feria` (47) | `LED wall rental` | - | No perseguible, sin inventario |
+| `alquiler mobiliario bodas` (34) | `wedding furniture rental` | - | No perseguible, sin inventario |
+
+**Conclusión: la traducción al inglés de cada cluster no inglés YA existe, y casi toda rankea
+entre la posición 1 y la 12.** No hay contenido nuevo que crear por esta vía. Las 640 impresiones
+en español sin un solo clic son un artefacto de enrutado de idioma, no demanda insatisfecha.
+
+El único punto flojo que revela el ejercicio no es de idioma: **el silo de sonido rankea en
+posición 18-25** mientras iluminación está en 1-4 y conferencias en 3-4,5. `sound equipment rental`
+son 137 impresiones en posición 19,91, la consulta inglesa no nupcial más grande del sitio. Es
+dificultad competitiva con el pilar ya escrito, no ausencia de contenido.
+
+## Contexto histórico: el hueco de español (cerrado por decisión)
 
 | Métrica | Valor |
 | :--- | ---: |
@@ -97,5 +127,6 @@ de cliente y sin hreflang (documentado en `AGENTS.md`). Google no tiene título 
 español que mostrar, así que un usuario hispanohablante ve un snippet en inglés y no hace clic.
 Escribir posts en español sin resolver el enrutado no arregla esto.
 
-Ya estaba detectado en la auditoría del 2026-08-06 y **el usuario lo difirió deliberadamente**. Con
-datos nuevos sigue igual de real y ahora está cuantificado en 3 meses. Sigue siendo decisión suya.
+Detectado en la auditoría del 2026-08-06, diferido entonces y **cerrado por decisión del usuario el
+2026-09-24**: no se dará soporte al español. Se conserva aquí cuantificado para cuando se retome
+el tema de idiomas, no como tarea pendiente.

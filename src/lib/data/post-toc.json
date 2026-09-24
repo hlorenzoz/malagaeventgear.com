@@ -5731,6 +5731,11 @@
       "level": 3
     },
     {
+      "id": "do-you-rent-a-55-inch-screen",
+      "text": "Do you rent a 55 inch screen?",
+      "level": 3
+    },
+    {
       "id": "is-a-stand-included-with-the-screen",
       "text": "Is a stand included with the screen?",
       "level": 3
