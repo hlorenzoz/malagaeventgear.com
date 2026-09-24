@@ -15,12 +15,17 @@ import type { DataCopy } from './data-copy';
 
 const dictionaries = import.meta.glob('./messages/*.ts');
 const dataFiles = import.meta.glob<DataCopy>('./data/*.ts', { eager: true, import: 'default' });
+/** Page copy files (`<route>/i18n/<locale>.ts`), keys only: which pages exist in which locale. */
+const pageCopyFiles = Object.keys(import.meta.glob('/src/routes/**/i18n/*.ts'));
 
 /** Every string leaf of a value, with its path, to compare shapes between languages. */
 function leaves(value: unknown, path = ''): string[] {
 	if (typeof value === 'string') return [path];
 	if (Array.isArray(value)) return value.flatMap((v, i) => leaves(v, `${path}[${i}]`));
-	if (value && typeof value === 'object') return Object.entries(value).flatMap(([k, v]) => leaves(v, `${path}.${k}`));
+	if (value && typeof value === 'object')
+		return Object.entries(value)
+			.filter(([k]) => k !== 'updated') // the translation date is not copy
+			.flatMap(([k, v]) => leaves(v, `${path}.${k}`));
 	return [];
 }
 
@@ -58,14 +63,21 @@ describe('published locales are complete', () => {
 				}
 			});
 
+			it('translates every page that has page copy', () => {
+				for (const en of pageCopyFiles.filter((f) => f.endsWith('/i18n/en.ts'))) {
+					const translated = en.replace(/en\.ts$/, `${locale}.ts`);
+					expect(pageCopyFiles, `${translated} is missing`).toContain(translated);
+				}
+			});
+
 			it('dates every page and package translation (CLAUDE.md §11)', () => {
 				const freshness = getStaticPageFreshness(locale);
 				for (const page of STATIC_SITEMAP_PAGES) {
 					if (page === 'blog' || page === 'blog/categories') continue; // published with posts (Fase 4)
-					expect(freshness.get(page), `${page || '/'} has no localeUpdated.${locale}`).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+					expect(freshness.get(page), `${page || '/'}: i18n/${locale}.ts has no updated date`).toMatch(/^\d{4}-\d{2}-\d{2}$/);
 				}
 				for (const pkg of packages) {
-					expect(pkg.localeUpdated?.[locale], `${pkg.slug} has no localeUpdated.${locale}`).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+					expect(data?.packages[pkg.slug]?.updated, `data/${locale}.ts ${pkg.slug} has no updated date`).toMatch(/^\d{4}-\d{2}-\d{2}$/);
 				}
 			});
 		});

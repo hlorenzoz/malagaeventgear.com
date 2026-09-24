@@ -10,6 +10,8 @@ import type { Locale } from './locales';
 type Landing = EventPackage['landing'];
 
 export interface PackageCopy {
+	/** Date of THIS translation (YYYY-MM-DD), for the locale sitemap. Never the English date. */
+	updated: string;
 	desc: string;
 	includes: string[];
 	optional?: string[];
@@ -27,6 +29,12 @@ export interface FaqCopy {
 export interface DataCopy {
 	packages: Record<string, PackageCopy>;
 	faqs: Record<string, FaqCopy>;
+	/**
+	 * Google reviews translated into this locale, keyed by review id. A review written in this
+	 * locale's language needs no entry (it is shown as written). Shown marked as translated,
+	 * with the original one click away.
+	 */
+	reviews?: Record<string, string>;
 }
 
 const loaders = import.meta.glob<DataCopy>('./data/*.ts', { import: 'default' });

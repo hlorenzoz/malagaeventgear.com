@@ -10,9 +10,22 @@ const en = {
 		blog: 'Blog',
 		contact: 'Contact',
 		bookNow: 'Book Now',
+		blogInEnglish: 'Blog (in English)',
 		language: 'Language',
 		breadcrumbs: 'Breadcrumbs',
 		brand: 'Malaga Event Gear'
+	},
+	// Language notices (CLAUDE.md, "Idiomas soportados")
+	notices: {
+		// Shown on pages in a language MEG does not answer in (every locale but en and es)
+		serviceLanguages: 'We reply in English or Spanish.',
+		// Top of every translated legal page
+		legalTranslation: 'This is a translation. If it differs from the English version, the English version prevails.',
+		readEnglish: 'Read the English version',
+		// Review shown in a language other than the one it was written in. {language} is the
+		// original language's name in THIS locale.
+		translatedFrom: 'Translated from {language}',
+		showOriginal: 'Show original'
 	},
 	// Breadcrumb names, keyed by English path segment (see i18n/breadcrumbs.ts)
 	crumbs: {

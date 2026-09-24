@@ -3,6 +3,11 @@
 	import Icon from '$lib/components/navigation/Icon.svelte';
 	import { i18n } from '$lib/i18n.svelte';
 	import { siteConfig } from '$lib/data/site';
+	import { LOCALE_META } from '$lib/i18n/locales';
+
+	let { data } = $props();
+	// Copy in the page language (./i18n/<locale>.ts, loaded by +page.ts)
+	const copy = $derived(data.copy);
 
 	// Este grafo NO redefine la empresa ni el sitio: los referencia por @id.
 	// Antes emitía un segundo nodo #organization con su propia dirección
@@ -14,12 +19,11 @@
 		'@graph': [
 			{
 				'@type': 'AboutPage',
-				'@id': `${siteConfig.url}/about-us/#webpage`,
-				'url': `${siteConfig.url}/about-us/`,
-				'name': i18n.lang === 'en' ? 'About Us - Malaga Event Gear (MEG)' : 'Sobre Nosotros - Malaga Event Gear (MEG)',
-				'description': i18n.lang === 'en'
-					? 'Meet the experts at Malaga Event Gear! We are dedicated to making your weddings, corporate events, and parties unforgettable with top-tier gear.'
-					: 'Conocé a los expertos de Malaga Event Gear. Nos dedicamos a hacer que tus bodas, eventos corporativos y fiestas sean inolvidables con equipos de primer nivel.',
+				'@id': `${i18n.absolute('/about-us/')}#webpage`,
+				'url': i18n.absolute('/about-us/'),
+				'inLanguage': LOCALE_META[i18n.lang].htmlLang,
+				'name': copy.seo.title,
+				'description': copy.seo.description,
 				'about': { '@id': `${siteConfig.url}/#organization` },
 				'isPartOf': { '@id': `${siteConfig.url}/#website` }
 			}
@@ -28,10 +32,8 @@
 </script>
 
 <SeoHead
-	title={i18n.lang === 'en' ? 'About Us - Malaga Event Gear (MEG)' : 'Sobre Nosotros - Malaga Event Gear (MEG)'}
-	description={i18n.lang === 'en'
-		? 'Meet the experts at Malaga Event Gear! We are dedicated to making your weddings, corporate events, and parties unforgettable with top-tier gear.'
-		: 'Conocé a los expertos de Malaga Event Gear. Nos dedicamos a hacer que tus bodas, eventos corporativos y fiestas sean inolvidables con equipos de primer nivel.'}
+	title={copy.seo.title}
+	description={copy.seo.description}
 	canonicalUrl="https://malagaeventgear.com/about-us/"
 	jsonLdSchema={aboutSchema}
 />
@@ -40,15 +42,13 @@
 	<!-- Hero Section -->
 	<div class="text-center mb-16 reveal">
 		<span class="inline-block px-4 py-2 rounded-full glass-panel font-label-sm text-electric-blue uppercase tracking-widest mb-4">
-			{i18n.lang === 'en' ? 'Who We Are' : 'Quiénes Somos'}
+			{copy.hero.badge}
 		</span>
 		<h1 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg mb-6 text-on-background">
-			{i18n.lang === 'en' ? 'About Us' : 'Sobre Nosotros'}
+			{copy.hero.title}
 		</h1>
 		<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl mx-auto">
-			{i18n.lang === 'en' 
-				? 'Welcome to Malaga Event Gear (MEG) — your go-to source for high-quality audio visual equipment rentals in Malaga, Spain. We specialize in providing top-notch gear for events of all sizes.'
-				: 'Bienvenido a Malaga Event Gear (MEG), tu fuente de referencia para el alquiler de equipos audiovisuales de alta calidad en Málaga, España. Nos especializamos en proporcionar equipos de primer nivel para eventos de todos los tamaños.'}
+			{copy.hero.intro}
 		</p>
 	</div>
 
@@ -59,17 +59,13 @@
 				<div class="absolute -top-24 -left-24 w-64 h-64 bg-electric-blue/10 rounded-full blur-3xl pointer-events-none"></div>
 				<div>
 					<h2 class="font-headline-md text-headline-md mb-6 text-on-surface">
-						{i18n.lang === 'en' ? 'Our Mission & History' : 'Nuestra Misión e Historia'}
+						{copy.story.title}
 					</h2>
 					<p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed">
-						{i18n.lang === 'en'
-							? 'Malaga Event Gear has been active in the audiovisual industry since 1996 and operating as independent freelancers since 2010. Over nearly three decades, we have developed a passion for flawless events and crystal-clear acoustics.'
-							: 'Malaga Event Gear ha estado activo en la industria audiovisual desde 1996 y operando como profesionales independientes desde 2010. A lo largo de casi tres décadas, hemos desarrollado una pasión por eventos impecables y una acústica cristalina.'}
+						{copy.story.p1}
 					</p>
 					<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-						{i18n.lang === 'en'
-							? 'We operate under a delivery-only model with direct setups, meaning we do not maintain a physical storefront. Instead, we bring our premium systems, cabling, and support directly to your villa, hotel, or venue across Malaga and the Costa del Sol.'
-							: 'Operamos bajo un modelo exclusivo de entrega y montaje directo, lo que significa que no mantenemos una tienda física. En su lugar, llevamos nuestros sistemas premium, cableado e ingeniería directamente a tu villa, hotel o recinto en toda Málaga y la Costa del Sol.'}
+						{copy.story.p2}
 					</p>
 				</div>
 			</div>
@@ -80,10 +76,10 @@
 			<div class="glass-panel rounded-xl p-8 flex-1 flex flex-col justify-center text-center">
 				<span class="text-display-md font-bold text-electric-blue mb-2">27+</span>
 				<h3 class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider">
-					{i18n.lang === 'en' ? 'Years of Experience' : 'Años de Experiencia'}
+					{copy.stats.experienceTitle}
 				</h3>
 				<p class="font-body-md text-body-md text-on-surface-variant mt-2">
-					{i18n.lang === 'en' ? 'In professional AV industry' : 'En la industria profesional de AV'}
+					{copy.stats.experienceBody}
 				</p>
 			</div>
 
@@ -91,10 +87,10 @@
 			<div class="glass-panel rounded-xl p-8 flex-1 flex flex-col justify-center text-center">
 				<span class="text-display-md font-bold text-electric-blue mb-2">1,000+</span>
 				<h3 class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider">
-					{i18n.lang === 'en' ? 'Happy Clients' : 'Clientes Satisfechos'}
+					{copy.stats.clientsTitle}
 				</h3>
 				<p class="font-body-md text-body-md text-on-surface-variant mt-2">
-					{i18n.lang === 'en' ? 'Across the Costa del Sol' : 'En toda la Costa del Sol'}
+					{copy.stats.clientsBody}
 				</p>
 			</div>
 		</div>
@@ -104,12 +100,10 @@
 	<div class="mb-24 reveal">
 		<div class="text-center mb-16">
 			<h2 class="font-headline-md text-headline-md mb-4 text-on-background">
-				{i18n.lang === 'en' ? 'What We Offer' : 'Qué Ofrecemos'}
+				{copy.offer.title}
 			</h2>
 			<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-				{i18n.lang === 'en'
-					? 'We provide a wide range of rental services tailored to meet the needs of various events, including weddings, corporate events, private parties, and MICE conferences.'
-					: 'Ofrecemos una amplia gama de servicios de alquiler adaptados a las necesidades de diversos eventos, incluyendo bodas, eventos corporativos, fiestas privadas y conferencias MICE.'}
+				{copy.offer.intro}
 			</p>
 		</div>
 
@@ -120,12 +114,10 @@
 					<Icon name="volume_up" size="24" />
 				</div>
 				<h3 class="font-headline-sm text-headline-sm text-on-surface">
-					{i18n.lang === 'en' ? 'Sound Systems' : 'Sistemas de Sonido'}
+					{copy.offer.sound.title}
 				</h3>
 				<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-					{i18n.lang === 'en'
-						? 'From small speaker setups for private parties to high-fidelity active acoustic PA systems for large venues.'
-						: 'Desde pequeños altavoces para fiestas privadas hasta sistemas PA activos de alta fidelidad para grandes recintos.'}
+					{copy.offer.sound.body}
 				</p>
 			</div>
 
@@ -135,12 +127,10 @@
 					<Icon name="lightbulb" size="24" />
 				</div>
 				<h3 class="font-headline-sm text-headline-sm text-on-surface">
-					{i18n.lang === 'en' ? 'Lighting' : 'Iluminación'}
+					{copy.offer.lighting.title}
 				</h3>
 				<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-					{i18n.lang === 'en'
-						? 'Dynamic lighting solutions, including wash lights, moving heads, and LED bars to create the perfect ambiance.'
-						: 'Soluciones de iluminación dinámica, incluyendo focos wash, cabezas móviles y barras LED para el ambiente perfecto.'}
+					{copy.offer.lighting.body}
 				</p>
 			</div>
 
@@ -150,12 +140,10 @@
 					<Icon name="videocam" size="24" />
 				</div>
 				<h3 class="font-headline-sm text-headline-sm text-on-surface">
-					{i18n.lang === 'en' ? 'Screens and Projectors' : 'Pantallas y Proyectores'}
+					{copy.offer.screens.title}
 				</h3>
 				<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-					{i18n.lang === 'en'
-						? 'High-quality laser projectors and screens ideal for presentations, conferences, and outdoor cinema events.'
-						: 'Proyectores láser de alta calidad y pantallas ideales para presentaciones, conferencias y cine al aire libre.'}
+					{copy.offer.screens.body}
 				</p>
 			</div>
 
@@ -165,12 +153,10 @@
 					<Icon name="mic" size="24" />
 				</div>
 				<h3 class="font-headline-sm text-headline-sm text-on-surface">
-					{i18n.lang === 'en' ? 'Microphones' : 'Microfonía'}
+					{copy.offer.microphones.title}
 				</h3>
 				<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-					{i18n.lang === 'en'
-						? 'Professional Audix/Sennheiser wired and wireless handheld, lapel, and gooseneck microphone configurations.'
-						: 'Configuraciones profesionales de micrófonos Audix/Sennheiser con cable, inalámbricos de mano, de solapa o flexo.'}
+					{copy.offer.microphones.body}
 				</p>
 			</div>
 
@@ -180,12 +166,10 @@
 					<Icon name="engineering" size="24" />
 				</div>
 				<h3 class="font-headline-sm text-headline-sm text-on-surface">
-					{i18n.lang === 'en' ? 'Event Technicians' : 'Técnicos para Eventos'}
+					{copy.offer.technicians.title}
 				</h3>
 				<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-					{i18n.lang === 'en'
-						? 'Experienced sound and lighting technicians available to oversee your setup, operation, and live monitoring.'
-						: 'Técnicos experimentados de sonido e iluminación disponibles para supervisar el montaje, operación y monitoreo en vivo.'}
+					{copy.offer.technicians.body}
 				</p>
 			</div>
 
@@ -195,12 +179,10 @@
 					<Icon name="cyclone" size="24" />
 				</div>
 				<h3 class="font-headline-sm text-headline-sm text-on-surface">
-					{i18n.lang === 'en' ? 'Special Effects' : 'Efectos Especiales'}
+					{copy.offer.effects.title}
 				</h3>
 				<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-					{i18n.lang === 'en'
-						? 'Scenic atmospheric hazers, professional fog machines, and low-lying cloud generators to add extra flair.'
-						: 'Haze escénico, máquinas de humo profesionales y generadores de nubes bajas para dar un toque increíble.'}
+					{copy.offer.effects.body}
 				</p>
 			</div>
 		</div>
@@ -210,25 +192,23 @@
 	<div class="glass-panel rounded-xl p-8 md:p-12 text-center relative overflow-hidden reveal">
 		<div class="absolute -bottom-24 -right-24 w-64 h-64 bg-electric-blue/10 rounded-full blur-3xl pointer-events-none"></div>
 		<h2 class="font-headline-md text-headline-md mb-4 text-on-surface">
-			{i18n.lang === 'en' ? 'Ready to Elevate Your Next Event?' : '¿Listo para Elevar tu Próximo Evento?'}
+			{copy.cta.title}
 		</h2>
 		<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-8">
-			{i18n.lang === 'en'
-				? 'Explore our pre-configured packages or request a completely custom quote from our technical team.'
-				: 'Explorá nuestros paquetes preconfigurados o solicitá un presupuesto totalmente personalizado a nuestro equipo técnico.'}
+			{copy.cta.body}
 		</p>
 		<div class="flex flex-wrap justify-center gap-4">
 			<a
-				href="/packages/"
+				href={i18n.href('/packages/')}
 				class="px-8 py-3 rounded-full bg-electric-blue-strong text-white font-label-lg tracking-wider uppercase hover:shadow-[0_0_20px_rgba(77,140,255,0.4)] active:scale-95 transition-all duration-300"
 			>
-				{i18n.lang === 'en' ? 'View Pricing Packages' : 'Ver Paquetes de Precios'}
+				{copy.cta.packages}
 			</a>
 			<a 
-				href="/contact/"
+				href={i18n.href('/contact/')}
 				class="px-8 py-3 rounded-full border border-border-glass bg-on-surface/5 hover:bg-on-surface/10 text-on-surface font-label-lg active:scale-95 transition-all"
 			>
-				{i18n.lang === 'en' ? 'Contact Us Directly' : 'Contáctanos Directamente'}
+				{copy.cta.contact}
 			</a>
 		</div>
 	</div>

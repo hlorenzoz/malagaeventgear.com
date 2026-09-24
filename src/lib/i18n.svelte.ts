@@ -5,6 +5,7 @@ import { getAvailability } from '$lib/i18n/availability';
 import type { LocaleContentMap } from '$lib/i18n/content-map/schema';
 import { encodePath, withLocale } from '$lib/i18n/locale-path';
 import { localizePath } from '$lib/i18n/routing';
+import { siteConfig } from '$lib/data/site';
 
 /**
  * UI dictionary access. The locale comes from the URL (CLAUDE.md, "Internacionalización"):
@@ -50,5 +51,9 @@ export const i18n = {
 		const suffix = cut === -1 ? '' : enPath.slice(cut);
 		const localized = localizePath(path, map, getAvailability(locale));
 		return localized === null ? enPath : encodePath(withLocale(locale, localized)) + suffix;
+	},
+	/** Absolute URL of an English route in the current locale (JSON-LD `url`, `@id`). */
+	absolute(enPath: string): string {
+		return `${siteConfig.url}${this.href(enPath)}`;
 	}
 };

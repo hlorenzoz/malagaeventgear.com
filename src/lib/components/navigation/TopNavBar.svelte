@@ -102,7 +102,12 @@
 	let navLinks = $derived([
 		{ href: i18n.href('/equipment/'), label: i18n.t.nav.equipment },
 		{ href: i18n.href('/packages/'), label: i18n.t.nav.packages },
-		{ href: i18n.href('/blog/'), label: i18n.t.nav.blog },
+		// A locale without translated posts links to the English blog and SAYS so, instead of
+		// publishing an empty localized blog index (one language per page, no thin pages).
+		{
+			href: i18n.href('/blog/'),
+			label: i18n.lang !== 'en' && i18n.href('/blog/') === '/blog/' ? i18n.t.nav.blogInEnglish : i18n.t.nav.blog
+		},
 		{ href: i18n.href('/contact/'), label: i18n.t.nav.contact }
 	]);
 	let homeHref = $derived(i18n.href('/'));

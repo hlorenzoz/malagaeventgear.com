@@ -49,13 +49,6 @@ export const PackageSchema = z.object({
 	 * se bumpea solo ante un cambio real (precio, inclusiones, copy), nunca por build.
 	 */
 	updated: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'updated debe ser YYYY-MM-DD'),
-	/**
-	 * Fecha del ultimo cambio de contenido de CADA traduccion (YYYY-MM-DD), por locale. Alimenta el
-	 * <lastmod> del sitemap de ese idioma. Una traduccion nunca hereda la fecha del ingles.
-	 */
-	localeUpdated: z
-		.record(z.string(), z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'localeUpdated debe ser YYYY-MM-DD'))
-		.optional(),
 	name: z.string(),
 	price: z.number(), // in EUR (excluding VAT)
 	desc: LocalizedTextSchema,

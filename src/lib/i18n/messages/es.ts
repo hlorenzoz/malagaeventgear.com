@@ -8,9 +8,18 @@ const es = {
 		blog: 'Blog',
 		contact: 'Contacto',
 		bookNow: 'Reservar Ahora',
+		blogInEnglish: 'Blog (en inglés)',
 		language: 'Idioma',
 		breadcrumbs: 'Ruta de navegación',
 		brand: 'Malaga Event Gear'
+	},
+	// Avisos de idioma (CLAUDE.md, "Idiomas soportados")
+	notices: {
+		serviceLanguages: 'Respondemos en inglés o en español.',
+		legalTranslation: 'Esta es una traducción. Si difiere de la versión en inglés, prevalece la versión en inglés.',
+		readEnglish: 'Leer la versión en inglés',
+		translatedFrom: 'Traducido del {language}',
+		showOriginal: 'Ver original'
 	},
 	// Breadcrumb names, keyed by English path segment (see i18n/breadcrumbs.ts)
 	crumbs: {

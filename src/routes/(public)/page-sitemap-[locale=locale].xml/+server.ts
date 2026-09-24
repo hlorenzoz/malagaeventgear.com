@@ -3,6 +3,7 @@ import type { RequestHandler } from './$types';
 import { packages } from '$lib/data/packages';
 import { siteConfig } from '$lib/data/site';
 import { getAvailability } from '$lib/i18n/availability';
+import { loadDataCopy } from '$lib/i18n/data-copy';
 import { encodePath } from '$lib/i18n/locale-path';
 import type { Locale } from '$lib/i18n/locales';
 import { localizeTo } from '$lib/i18n/router';
@@ -25,6 +26,7 @@ export const GET: RequestHandler = async ({ params }) => {
 	if (!getAvailability(locale).pages) error(404, 'Not found');
 
 	const freshness = getStaticPageFreshness(locale);
+	const dataCopy = await loadDataCopy(locale);
 	const urls: SitemapUrl[] = [];
 
 	for (const page of STATIC_SITEMAP_PAGES) {
@@ -36,7 +38,7 @@ export const GET: RequestHandler = async ({ params }) => {
 		if (!path) continue;
 		urls.push({
 			loc: `${siteConfig.url}${encodePath(path)}`,
-			lastmod: pkg.localeUpdated?.[locale],
+			lastmod: dataCopy?.packages[pkg.slug]?.updated,
 			image: pkg.image ? `${siteConfig.url}${pkg.image}` : undefined
 		});
 	}

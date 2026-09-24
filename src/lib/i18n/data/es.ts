@@ -5,6 +5,7 @@ import type { DataCopy } from '../data-copy';
 export default {
 	packages: {
 		eco: {
+			updated: '2026-09-24',
 			desc: 'Ideal para fiestas privadas o eventos pequeños de hasta 50 personas. Incluye configuración básica de sonido e iluminación.',
 			includes: [
 				'2 Altavoces activos de alta calidad con soportes',
@@ -35,6 +36,7 @@ export default {
 			}
 		},
 		wedding: {
+			updated: '2026-09-24',
 			desc: 'Diseñado a la perfección para celebraciones mágicas e inolvidables. Incluye sistema acústico profesional de alta gama, luces ambientales románticas y micrófonos inalámbricos para discursos emotivos.',
 			includes: [
 				'Sistema de sonido acústico PA activo de alta gama para hasta 80 invitados',
@@ -66,6 +68,7 @@ export default {
 			}
 		},
 		'product-presentation': {
+			updated: '2026-09-24',
 			desc: 'Diseñado para presentaciones corporativas, exhibiciones en concesionarios y lanzamientos de productos con alto impacto visual.',
 			includes: [
 				'1 Pantalla de proyección frontal con soporte estable',
@@ -95,6 +98,7 @@ export default {
 			}
 		},
 		'basic-mice': {
+			updated: '2026-09-24',
 			desc: 'Configuración audiovisual esencial y de alto rendimiento para pequeñas reuniones ejecutivas, conferencias y discursos de hasta 40 invitados.',
 			includes: [
 				'Pantalla de proyección de 2x2m con proyector de 3000 lúmenes de alto brillo',
@@ -124,6 +128,7 @@ export default {
 			}
 		},
 		mice: {
+			updated: '2026-09-24',
 			desc: 'Solución corporativa MICE completa con pantalla de gran formato, refuerzo de sonido activo premium, micrófonos inalámbricos para atril y soporte de técnico en directo dedicado.',
 			includes: [
 				'Pantalla LED de alta definición premium de 60 pulgadas con soporte de diseño',

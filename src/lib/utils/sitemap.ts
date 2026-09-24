@@ -50,7 +50,16 @@ const PUBLIC_PREFIX = '/(public)/';
 
 const metaModules = import.meta.glob('/src/routes/**/meta.ts', {
 	eager: true
-}) as Record<string, { contentUpdated?: string; localeUpdated?: Partial<Record<Locale, string>> }>;
+}) as Record<string, { contentUpdated?: string }>;
+
+/**
+ * Fecha de cada TRADUCCION de pagina: `export const updated` de `<ruta>/i18n/<locale>.ts`,
+ * al lado de la copia traducida (CLAUDE.md §11). Solo se importa ese export.
+ */
+const translationDates = import.meta.glob('/src/routes/**/i18n/*.ts', {
+	eager: true,
+	import: 'updated'
+}) as Record<string, string | undefined>;
 
 /**
  * Mapa `ruta -> contentUpdated` derivado de los meta.ts publicos. Se computa una sola vez
@@ -70,19 +79,19 @@ const staticPageFreshness: ReadonlyMap<string, string> = (() => {
 })();
 
 /**
- * Mapa `ruta -> fecha de contenido` de un idioma. En ingles es `contentUpdated`. En otro idioma
- * es `localeUpdated[locale]` del mismo meta.ts: cada traduccion tiene su propia fecha, al lado
- * del contenido (CLAUDE.md §11), y nunca hereda la del ingles.
+ * Mapa `ruta -> fecha de contenido` de un idioma. En ingles es `contentUpdated` del meta.ts. En
+ * otro idioma es el `updated` de `<ruta>/i18n/<locale>.ts`: cada traduccion tiene su propia
+ * fecha, al lado de su copia (CLAUDE.md §11), y nunca hereda la del ingles.
  */
 export function getStaticPageFreshness(locale: Locale = 'en'): ReadonlyMap<string, string> {
 	if (locale === 'en') return staticPageFreshness;
 	const map = new Map<string, string>();
-	for (const [path, mod] of Object.entries(metaModules)) {
-		const date = mod?.localeUpdated?.[locale];
-		if (!date) continue;
+	const suffix = `/i18n/${locale}.ts`;
+	for (const [path, date] of Object.entries(translationDates)) {
+		if (!date || !path.endsWith(suffix)) continue;
 		const i = path.indexOf(PUBLIC_PREFIX);
 		if (i === -1) continue;
-		map.set(path.slice(i + PUBLIC_PREFIX.length).replace(/\/?meta\.ts$/, ''), date);
+		map.set(path.slice(i + PUBLIC_PREFIX.length, -suffix.length), date);
 	}
 	return map;
 }

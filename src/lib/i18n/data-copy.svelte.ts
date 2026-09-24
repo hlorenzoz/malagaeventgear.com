@@ -18,7 +18,7 @@ function dataCopy(): DataCopy | null {
 export function pkgCopy(pkg: EventPackage): PackageCopy {
 	const copy = dataCopy()?.packages[pkg.slug];
 	if (copy) return copy;
-	return { desc: pkg.desc, includes: pkg.includes, optional: pkg.optional, seo: { title: pkg.seo.title }, landing: pkg.landing };
+	return { updated: pkg.updated, desc: pkg.desc, includes: pkg.includes, optional: pkg.optional, seo: { title: pkg.seo.title }, landing: pkg.landing };
 }
 
 export function faqCopy(item: FaqItem): FaqCopy {
