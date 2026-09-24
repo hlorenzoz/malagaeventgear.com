@@ -50,11 +50,11 @@
   "audio-visual-rental-for-product-launches": [
     {
       "question": "What AV equipment do I need for a product launch?",
-      "answer": "A laser projector and screen for the reveal, PA sound with a mixing console, and a wireless handheld microphone so the presenter can move around the product. See What a Product Launch Needs From AV above."
+      "answer": "A projector and screen for the reveal, PA sound with a mixing console, and a wireless handheld microphone so the presenter can move around the product. See What a Product Launch Needs From AV above."
     },
     {
       "question": "Do you provide an LED video wall for product launches?",
-      "answer": "No, the Product Presentation Pack is a laser projector and screen setup, not an LED video wall. The 5000 lumen laser projector is built to stay legible in a lit room."
+      "answer": "No, the Product Presentation Pack is a projector and screen setup, not an LED video wall. The 5000 lumen projector is not laser and we do not publish a resolution figure for it, but it is built to stay legible in a lit room."
     },
     {
       "question": "Can I connect my own laptop or tablet to your AV setup?",
@@ -322,11 +322,11 @@
     },
     {
       "question": "What is audio visual equipment?",
-      "answer": "Audio visual, or AV, equipment covers the gear that carries sound and image at an event: speakers and microphones for audio, and projectors, screens and displays for the visual side, plus the lighting and cabling that support both. A few real examples from our own catalog: active PA speakers, wireless handheld and gooseneck microphones, a laser projector, a 60 inch LED screen, and RGBW lighting bars. See exactly what we rent below."
+      "answer": "Audio visual, or AV, equipment covers the gear that carries sound and image at an event: speakers and microphones for audio, and projectors, screens and displays for the visual side, plus the lighting and cabling that support both. A few real examples from our own catalog: active PA speakers, wireless handheld and gooseneck microphones, a 5000 lumen projector, a 60 inch LED screen, and RGBW lighting bars. See exactly what we rent below."
     },
     {
       "question": "What audio visual equipment can I rent from Malaga Event Gear?",
-      "answer": "Our catalog covers active PA sound systems, Full HD laser projectors and screens, a premium 60 inch LED display, RGBW LED lighting and fairy light strings, plus wired, wireless and gooseneck microphones. See the full breakdown in Audio Visual Equipment We Rent in Malaga above."
+      "answer": "Our catalog covers active PA sound systems, projectors and screens (3000 to 5000 lumens, not laser, no published resolution figure), a premium 60 inch LED display, RGBW LED lighting and fairy light strings, plus wired, wireless and gooseneck microphones. See the full breakdown in Audio Visual Equipment We Rent in Malaga above."
     },
     {
       "question": "What areas does Malaga Event Gear serve?",
@@ -724,7 +724,7 @@
     },
     {
       "question": "Is a screen included with the projector, or sold separately?",
-      "answer": "Included, always. The Eco Pack bundles \"projector & projection screen\" as one 50 euro add on line. The Basic MICE Pack includes a 2x2m screen with its 3000 lumen projector. The Product Presentation Pack includes a front projection screen with a stable stand alongside its 5000 lumen laser projector. We do not sell either piece on its own."
+      "answer": "Included, always. The Eco Pack bundles \"projector & projection screen\" as one 50 euro add on line. The Basic MICE Pack includes a 2x2m screen with its 3000 lumen projector. The Product Presentation Pack includes a front projection screen with a stable stand alongside its 5000 lumen projector. We do not sell either piece on its own."
     },
     {
       "question": "What's the largest screen size available?",
@@ -732,11 +732,11 @@
     },
     {
       "question": "What brightness or lumens do I need for a daylit or brightly lit room?",
-      "answer": "For a standard boardroom or a room you can dim, the 3000 lumen projector on the Basic MICE Pack is the right tier. For a room that stays lit, such as a dealership showroom during a launch or a press event with photographers, the 5000 lumen Full HD laser projector on the Product Presentation Pack is built for that. See Choosing a Lumens Tier for Your Room above."
+      "answer": "For a standard boardroom or a room you can dim, the 3000 lumen projector on the Basic MICE Pack is the right tier. For a room that stays lit, such as a dealership showroom during a launch or a press event with photographers, the 5000 lumen projector on the Product Presentation Pack is built for that. Neither tier is laser. See Choosing a Lumens Tier for Your Room above."
     },
     {
       "question": "Do you offer 4K or laser projectors?",
-      "answer": "Laser, yes: the Product Presentation Pack uses a 5000 lumen Full HD laser projector. We do not publish 4K resolution on either projector tier we offer."
+      "answer": "No. We rent a 3000 lumen projector and a 5000 lumen projector, neither laser, and we do not publish a resolution figure, such as 4K, for either tier."
     },
     {
       "question": "Can you project onto a building facade or do outdoor projection mapping?",
@@ -748,7 +748,7 @@
     },
     {
       "question": "How much does a projector rental cost?",
-      "answer": "It depends on the package. The Eco Pack is 290 euros base, plus a 50 euro add on for the projector and screen. The Basic MICE Pack, which bundles the projector and screen as standard, is 295 euros. The Product Presentation Pack, with its 5000 lumen laser projector, is 310 euros. All prices are ex VAT, with 21 percent Spanish VAT added at checkout. See Projector and Screen Pricing by Package above."
+      "answer": "It depends on the package. The Eco Pack is 290 euros base, plus a 50 euro add on for the projector and screen. The Basic MICE Pack, which bundles the projector and screen as standard, is 295 euros. The Product Presentation Pack, with its 5000 lumen projector, is 310 euros. All prices are ex VAT, with 21 percent Spanish VAT added at checkout. See Projector and Screen Pricing by Package above."
     },
     {
       "question": "How far in advance should I book a projector rental?",
@@ -1132,7 +1132,7 @@
   "audio-visual-rental-for-art-exhibitions": [
     {
       "question": "What AV equipment do I need for an art exhibition opening?",
-      "answer": "Sound sized to your guest count and the room's acoustics, a microphone for opening remarks or an artist talk, and, if there is an artist statement or a video piece to show, a screen or laser projector. See What We Provide for an Exhibition Opening above."
+      "answer": "Sound sized to your guest count and the room's acoustics, a microphone for opening remarks or an artist talk, and, if there is an artist statement or a video piece to show, a screen or projector. See What We Provide for an Exhibition Opening above."
     },
     {
       "question": "Do I need a microphone for an artist talk or opening remarks?",
@@ -1144,7 +1144,7 @@
     },
     {
       "question": "Can you project an artist statement or a video art piece with the gallery's lights on?",
-      "answer": "Yes. Our Product Presentation Pack's laser projector is rated at 5000 lumens specifically to stay legible in a lit room rather than a dark screening room, the same condition most gallery openings run under. See A Lit Room Legible Screen above."
+      "answer": "Yes. Our Product Presentation Pack's projector is rated at 5000 lumens specifically to stay legible in a lit room rather than a dark screening room, the same condition most gallery openings run under. See A Lit Room Legible Screen above."
     },
     {
       "question": "Does Malaga Event Gear provide lighting for the artwork itself?",
@@ -1414,7 +1414,7 @@
   "audio-visual-rental-for-seminars": [
     {
       "question": "What AV equipment do I need for a seminar?",
-      "answer": "A laser projector and screen for slides, PA sound, and a microphone for the presenter. The Product Presentation Pack and Basic MICE Pack cover these needs at different scales. See Match Your Seminar to a Package above."
+      "answer": "A projector and screen for slides, PA sound, and a microphone for the presenter. The Product Presentation Pack and Basic MICE Pack cover these needs at different scales. See Match Your Seminar to a Package above."
     },
     {
       "question": "How much does audio visual rental cost for a seminar?",
@@ -1600,7 +1600,7 @@
     },
     {
       "question": "Which package fits a product demo at our stand?",
-      "answer": "Most often the Product Presentation Pack, which bundles the lit room legible laser projector with a wireless handheld microphone and sound. A larger, staffed stand fits the Basic MICE Pack or MICE Pack instead. See Match Your Stand to a Package above."
+      "answer": "Most often the Product Presentation Pack, which bundles the lit room legible 5000 lumen projector with a wireless handheld microphone and sound. A larger, staffed stand fits the Basic MICE Pack or MICE Pack instead. See Match Your Stand to a Package above."
     },
     {
       "question": "Is a technician available for the full show day, or just part of it?",
@@ -1656,7 +1656,7 @@
   "audiovisual-equipment-rental-service": [
     {
       "question": "What Is the Difference Between This Page and Your General Audio Visual Rental Page?",
-      "answer": "They describe the same core service. Our audio visual rental page covers the full package range, from the Eco Pack up to the MICE Pack. This page indexes the specialized and niche equipment layer inside that same catalog, the laser projector tier, RGBW spotlights, specialty stage lighting and uplighting, wireless and gooseneck microphones, the 60 inch LED display and special effects, plus an honest list of what falls outside our catalog. See Why This Page Exists above."
+      "answer": "They describe the same core service. Our audio visual rental page covers the full package range, from the Eco Pack up to the MICE Pack. This page indexes the specialized and niche equipment layer inside that same catalog, the 5000 lumen projector tier, RGBW spotlights, specialty stage lighting and uplighting, wireless and gooseneck microphones, the 60 inch LED display and special effects, plus an honest list of what falls outside our catalog. See Why This Page Exists above."
     },
     {
       "question": "Do You Rent a Mixing Console or Audio Mixer on Its Own?",
@@ -1687,8 +1687,8 @@
       "answer": "Not from our own equipment catalog, but yes as an arranged service: clicker devices, live polling hardware and interactive voting systems aren't something we stock ourselves, so we bring in a subcontracted partner to cover them for a congress or corporate event. Contact us with your requirements."
     },
     {
-      "question": "What Laser or Special Lighting Effects Do You Offer?",
-      "answer": "Our brightest projector is a 5000 lumen Full HD laser unit on the Product Presentation Pack. On the effects side, our catalog lists low lying fog machines for a cloud effect, hazers to enhance light beams, and professional confetti cannons, with the fog machine published as a 20 euro Eco Pack add on. We do not offer laser light shows, gobo or monogram projection, or hologram displays. See Special Effects above."
+      "question": "Do You Offer Laser or Other Special Lighting Effects?",
+      "answer": "No. We do not offer laser light shows, gobo or monogram projection, or hologram displays. Our brightest projector is a 5000 lumen unit on the Product Presentation Pack, and it is not laser either. On the effects side, our catalog lists low lying fog machines for a cloud effect, hazers to enhance light beams, and professional confetti cannons, with the fog machine published as a 20 euro Eco Pack add on. See Special Effects above."
     },
     {
       "question": "Do You Rent Staging, Truss or Pipe and Drape?",

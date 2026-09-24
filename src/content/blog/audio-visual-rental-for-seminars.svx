@@ -1,11 +1,11 @@
 ---
 title: "Audio Visual Rental for Seminars in Malaga, Spain"
-description: "Audio visual rental for seminars in Malaga: a laser projector, screen and wireless mic, sized to your seminar, with real EUR pricing and setup included."
+description: "Audio visual rental for seminars in Malaga: a projector, screen and wireless mic, sized to your seminar, with real EUR pricing and setup included."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-seminars
 publishDate: "2025-12-02"
-updatedDate: "2026-07-26"
-excerpt: "Audio visual rental for seminars in Malaga: a laser projector, screen and wireless mic, sized to your seminar, with real EUR pricing and setup included."
+updatedDate: "2026-09-24"
+excerpt: "Audio visual rental for seminars in Malaga: a projector, screen and wireless mic, sized to your seminar, with real EUR pricing and setup included."
 coverImage: https://cdn.malagaeventgear.com/blog/1293/malaga_event_lighting_big_display_projector_sound_rental-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for audio visual rental for seminars in Malaga? Most seminars need the same core setup: a laser projector and screen for slides, PA sound, and a microphone for the presenter, whether that is one speaker with a wireless handheld mic or a lectern-style session with a podium mic.
+Looking for audio visual rental for seminars in Malaga? Most seminars need the same core setup: a projector and screen for slides, PA sound, and a microphone for the presenter, whether that is one speaker with a wireless handheld mic or a lectern style session with a podium mic.
 
 Malaga Event Gear delivers, installs and tests that setup across Malaga and the wider Costa del Sol.
 
@@ -31,7 +31,7 @@ Contact us today to explore our [range of equipment and packages](/packages/).
 
 ---
 
-Malaga Event Gear provides audio visual rental for seminars in Malaga and the wider Costa del Sol: a laser projector and screen, PA sound, and a microphone sized to your seminar's format. Backed by experience going back to 1996, our crew delivers, installs and tests the projector, screen and microphone before your first attendee arrives, whether you are speaking solo or running a lectern-style session.
+Malaga Event Gear provides audio visual rental for seminars in Malaga and the wider Costa del Sol: a projector and screen, PA sound, and a microphone sized to your seminar's format. Backed by experience going back to 1996, our crew delivers, installs and tests the projector, screen and microphone before your first attendee arrives, whether you are speaking solo or running a lectern style session.
 
 Contact us today to discuss your event.
 
@@ -51,7 +51,7 @@ Malaga Event Gear provides audio visual rental for seminars in Malaga and the wi
 
 ## Match Your Seminar to a Package
 
--   **Single presenter, standing and moving with a wireless mic**: the [Product Presentation Pack](/packages/product-presentation/) covers a 5000-lumen laser projector, a screen, PA sound with a mixing console, and a wireless handheld microphone.
+-   **Single presenter, standing and moving with a wireless mic**: the [Product Presentation Pack](/packages/product-presentation/) covers a 5000 lumen projector, a screen, PA sound with a mixing console, and a wireless handheld microphone.
 -   **Lectern-style seminar or workshop, up to 40 guests**: the [Basic MICE Pack](/packages/basic-mice/) covers a gooseneck microphone for the podium, a 3000-lumen projector and screen, with a technician available as an add on.
 
 See live pricing and full inclusions on our [packages page](/packages/).
@@ -98,7 +98,7 @@ Planning a smaller business event instead? See our [audio visual rental for smal
 
 ### What AV equipment do I need for a seminar?
 
-A laser projector and screen for slides, PA sound, and a microphone for the presenter. The [Product Presentation Pack](/packages/product-presentation/) and [Basic MICE Pack](/packages/basic-mice/) cover these needs at different scales. See [Match Your Seminar to a Package](#match-your-seminar-to-a-package) above.
+A projector and screen for slides, PA sound, and a microphone for the presenter. The [Product Presentation Pack](/packages/product-presentation/) and [Basic MICE Pack](/packages/basic-mice/) cover these needs at different scales. See [Match Your Seminar to a Package](#match-your-seminar-to-a-package) above.
 
 ### How much does audio visual rental cost for a seminar?
 

@@ -4,7 +4,7 @@ description: "AV system troubleshooting in Malaga for self run packages: what to
 author: Hector Luis Lorenzo
 slug: av-system-troubleshooting
 publishDate: "2026-08-01"
-updatedDate: "2026-08-03"
+updatedDate: "2026-09-24"
 excerpt: "What to check yourself if a self run AV package stops working mid event: the Eco Pack, Product Presentation Pack and Basic MICE Pack without the technician add on, checked package by package."
 coverImage: https://cdn.malagaeventgear.com/blog/1277/high_care_hospital_marbella_conference_setup_1-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
@@ -106,7 +106,7 @@ What you check depends on what your package actually includes, since none of the
 | Speakers | 2 active speakers on stands | 2 speakers through a mixing console | Basic sound reinforcement system |
 | Microphone | 1 wired dynamic microphone | 1 wireless handheld microphone | 1 wired gooseneck microphone (podium mounted) |
 | Mixing console | None | Yes | None |
-| Projector and screen | Not included (add on, +50 euros) | Yes, laser projector and screen | Yes, 3000 lumen projector and 2x2m screen |
+| Projector and screen | Not included (add on, +50 euros) | Yes, 5000 lumen projector and screen | Yes, 3000 lumen projector and 2x2m screen |
 | Lighting | 2 RGBW LED light bars | None | None |
 | Technician | Not offered | Not offered | Optional add on, +240 euros per day |
 
