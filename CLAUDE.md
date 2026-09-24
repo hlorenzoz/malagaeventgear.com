@@ -57,17 +57,18 @@ explícita y fechada del usuario, como cualquier otro idioma.
 El portugués de Portugal y el de Brasil tienen **contenido propio cada uno**, no una copia con
 otra etiqueta. Las tres variantes de chino cubren a cualquier lector chino, venga de donde venga.
 
-**Estado (2026-09-24): infraestructura lista, publicado solo el inglés.** Las URLs por idioma,
-hreflang, sitemaps y el selector de idioma existen, pero un idioma se publica recién cuando TODO
-su contenido está traducido: la lista de idiomas publicados es `PAGE_LOCALES` en
-`src/lib/i18n/availability.ts` (hoy `['en']`). La implementación va por fases:
+**Estado (2026-09-24): páginas principales y paquetes publicados en los 13 idiomas. El blog
+sigue solo en inglés hasta la Fase 4.** Un idioma se publica recién cuando TODO su contenido está
+traducido: la lista de idiomas publicados es `PAGE_LOCALES` en `src/lib/i18n/availability.ts`
+(hoy los 13). En una página traducida el menú lleva a "Blog (in English)" y ningún listado muestra
+títulos de posts en inglés (`i18n.postsPublished`). La implementación va por fases:
 
 | Fase | Qué | Estado |
 | :--- | :--- | :--- |
 | 0 | Documentación (este archivo) | hecha |
 | 1 | Mapa de contenido (keyword, URL) por idioma | hecha para páginas, paquetes y categorías. Los posts se mapean en cada lote de la Fase 4 |
 | 2 | Infraestructura de URLs por idioma, hreflang y sitemaps | hecha |
-| 3 | Páginas principales y paquetes en los 13 idiomas | pendiente |
+| 3 | Páginas principales y paquetes en los 13 idiomas | hecha (2026-09-24): 17 páginas y 5 paquetes por idioma, 18 HTML prerenderizados por idioma |
 | 4 | Posts del blog, por lotes de silo | pendiente |
 
 Todo lo marcado **"(pendiente, Fase N)"** en este archivo describe el objetivo, no lo que existe.
@@ -144,10 +145,12 @@ este resumen.
 | Ruta inglesa a URL traducida | `i18n.href('/packages/eco/')` en componentes. Si no está publicada en el idioma, devuelve la inglesa |
 | Idioma de la página, `<html lang>` | `(public)/+layout.server.ts` (idioma y alternates), `hooks.server.ts` (`%lang%`) |
 | Diccionario de UI | `src/lib/i18n/messages/<locale>.ts` (`satisfies Messages`, cargado bajo demanda) |
+| Copia de cada página | `src/routes/(public)/<ruta>/i18n/<locale>.ts` (`export const updated`, `default satisfies Copy`), cargada por el `+page.ts` de la ruta con `loadPageCopy` |
+| Unión de textos en un template | `i18n.space`, `i18n.comma` e `i18n.stop`: espacio, `, ` y `.` en escritura latina, nada, `，` y `。` en chino. Nunca un `' '`, `', '` ni `.` literal entre dos textos traducidos |
 | Copia de paquetes y FAQ | inglés en `packages.ts` / `faq.ts` (fuente). Resto en `src/lib/i18n/data/<locale>.ts`, leído con `pkgCopy()` / `faqCopy()` |
 | hreflang, canonical, `og:locale` | `SeoHead.svelte`, desde `page.data.alternates` |
 | Sitemaps por idioma | `page-sitemap-[locale].xml`, listados en `sitemap_index.xml` solo si el idioma está publicado |
-| Precache del PWA | `vite.config.ts`: lista explícita (home, paquetes y `/map` en inglés). Páginas traducidas y el blog en todos los idiomas quedan FUERA del precache |
+| Precache del PWA | `vite.config.ts`: lista explícita (home, paquetes y `/map` en inglés). Páginas traducidas y el blog en todos los idiomas quedan FUERA del precache. Los chunks JS de la copia traducida SÍ entran (551 entradas y 10.062 KiB en el build del 2026-09-24, contra 293 en `main`) |
 
 Cada idioma carga su diccionario, su mapa y su copia de datos como chunks propios: una página
 nunca descarga los otros 12 idiomas. Por eso la copia traducida NO va dentro de `packages.ts`.
@@ -392,8 +395,8 @@ Los agentes globales no asumen nada sobre el stack. Una adivinanza sobre el buil
 del build produce auditorías que suenan seguras y son falsas. Estos son los hechos:
 
 - **Build**: `bun run build` (= `wrangler types` + `bun scripts/fix-types.ts` + `vite build`).
-  El HTML prerenderizado aterriza en **`.svelte-kit/cloudflare/`** (93 archivos `.html` en el build
-  revisado el 2026-09-24, unos 1.300 cuando el sitio esté en los 13 idiomas).
+  El HTML prerenderizado aterriza en **`.svelte-kit/cloudflare/`** (321 archivos `.html` en el build
+  revisado el 2026-09-24 con las páginas en los 13 idiomas, unos 1.300 cuando también estén los posts).
   Preview de producción: `bun run preview` (puerto 4173). Dev: puerto 5173. NO es `out/` ni
   `dist/`, y NO se asume `bun run build` sin los pasos de `wrangler types` / `fix-types.ts`.
 - **Fuentes únicas de verdad**:
@@ -401,7 +404,7 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
   | Qué | Dónde |
   | :--- | :--- |
   | Canonical | Por página en `+page.svelte` vía `SeoHead canonicalUrl`, siempre con trailing slash. Paquetes y blog lo derivan de `siteConfig.url` |
-  | Hreflang | Solo en el `<head>`, vía `SeoHead` desde `page.data.alternates` (resuelto en `(public)/+layout.server.ts`). Recíproco, autorreferente, `x-default` al inglés. Los sitemaps NO llevan `xhtml:link`. Mientras solo el inglés esté publicado no se emite ninguno. Ver [Internacionalización (i18n)](#internacionalización-i18n) |
+  | Hreflang | Solo en el `<head>`, vía `SeoHead` desde `page.data.alternates` (resuelto en `(public)/+layout.server.ts`). Recíproco, autorreferente, `x-default` al inglés. Los sitemaps NO llevan `xhtml:link`. Solo se emite hacia los idiomas donde esa página está publicada (hoy los 13 para páginas y paquetes, solo el inglés para el blog). Ver [Internacionalización (i18n)](#internacionalización-i18n) |
   | Registro de rutas | No hay uno central: `STATIC_SITEMAP_PAGES` en `src/lib/utils/sitemap.ts` + `packages[].route` + glob de `src/content/blog/*.svx` |
   | Datos estructurados (JSON-LD) | `src/lib/utils/schema.ts` (constructores). Docs: `docs/structured-data.md`, `.agents/STRUCTURED_DATA.md` |
   | Metadatos de página | `src/lib/components/seo/SeoHead.svelte` |
@@ -606,9 +609,10 @@ mantenimiento no es real.
   - Paquetes: campo `updated` en `src/lib/data/packages.ts` (validado por Zod).
   - Guard automático: `src/lib/data/sitemap-freshness.test.ts` falla la suite si una ruta o
     un paquete no declara su fecha. La solución es declarar la fecha, nunca ampliar un allowlist.
-  - Traducciones (pendiente, Fases 3 y 4): cada idioma lleva sus propias fechas, que alimentan
-    el sitemap de ese idioma, más `sourceUpdated` con la fecha de la versión inglesa que se
-    tradujo. `publishDate` de una traducción es la fecha en que se publicó esa traducción.
+  - Traducciones: cada idioma lleva sus propias fechas, que alimentan el sitemap de ese idioma
+    (páginas: `export const updated` en `<ruta>/i18n/<locale>.ts`, paquetes: `updated` en
+    `src/lib/i18n/data/<locale>.ts`). Los posts suman `sourceUpdated` con la fecha de la versión
+    inglesa que se tradujo (pendiente, Fase 4). `publishDate` de una traducción es la fecha en que se publicó esa traducción.
 
 ### 12. Sin Caracteres Tipográficos de IA (Mandatorio)
 
@@ -860,7 +864,7 @@ sink `/`). La convención de página queda documentada para cuando una página e
 
 La ruta **`/map`** es el mapa COMPLETO del sitio (páginas + paquetes + reverse silo del blog),
 renderizado como un **mindmap Mermaid** más secciones navegables. Es un artefacto **DERIVADO en
-vivo**: no hay archivo committeado ni paso de generación — `src/lib/data/site-map.ts`
+vivo**: no hay archivo committeado ni paso de generación: `src/lib/data/site-map.ts`
 (`buildSiteMap`) lo computa desde el frontmatter de cada post y el catálogo de paquetes en el
 `load()` de la ruta. `/map` está **excluida de los sitemaps** (no está en `STATIC_SITEMAP_PAGES`) y
 marcada `noindex`: es una herramienta interna. **Nunca se edita a mano** (no hay nada que editar).

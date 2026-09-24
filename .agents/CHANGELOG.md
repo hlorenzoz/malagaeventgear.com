@@ -7,6 +7,16 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Added (i18n-main-pages) - Fase 3, cierre
+- **Paginas principales y paquetes publicados en los 13 idiomas** (2026-09-24): frances, italiano, aleman, neerlandes, portugues de Portugal y de Brasil, sueco, danes, noruego y chino simplificado, de Taiwan y de Hong Kong, ademas del ingles. `PAGE_LOCALES` los lista a todos. Por idioma: diccionario de UI, copia de paquetes y 19 FAQ, y 17 copias de pagina, cada una con su fecha. 321 HTML prerenderizados (18 por idioma mas el ingles y el blog). El blog sigue solo en ingles hasta la Fase 4.
+- **Revision despues de cada idioma** (`/code-review`): keywords corregidas a una forma gramatical en aleman, sueco, danes y noruego (sin tocar slugs), palabras unidas con guion reescritas (regla 12), "pandebånd" corregido a "headsetmikrofoner" en danes y el nombre del MICE Pack sin traducir en portugues de Brasil.
+- **Resenas de Google nunca traducidas**: se muestran en su idioma original en los 13 idiomas, con su atributo `lang`. Se borro el campo de traduccion.
+- **Union de textos en templates**: `i18n.space`, `i18n.comma` e `i18n.stop` (espacio, coma y punto en escritura latina, nada y puntuacion de ancho completo en chino). Aplicado en el hero de la home y de equipment, el precio desde, el precio de equipment, el mensaje de exito de contacto, la lista de derechos RGPD, el hero del blog y el aviso legal. Test e2e sobre el `innerText` renderizado de las paginas chinas.
+- **Portal RGPD**: el mensaje de solicitud metia la accion en ingles en mayusculas ("ACCESS") en todos los idiomas. Ahora usa `rightsPortal.actions`, traducido por idioma, con test e2e.
+- **Fuente inglesa corregida al pasar**: el boton del MICE Pack decia "Book MICE Package", y `en.ts` tenia rayas y semirrayas (rango de precios, "51-80 guests" y tres frases). `blog.spec.ts` esperaba la etiqueta vieja "Laser Projection".
+- **Precache del PWA**: 551 entradas y 10.062 KiB (293 en `main`). Crecio por los chunks JS de la copia traducida, que el service worker descarga en la primera visita en cualquier idioma. Decision pendiente con el usuario.
+- **Pendiente anotado**: los precios de extras se escriben `+50€` y los de las FAQ `400 €`, conviene unificarlos en todos los idiomas a la vez.
+
 ### Removed (i18n-no-spanish)
 - **El sitio no tendra version en espanol** (decision del usuario, 2026-09-24, tarde), que revierte la de la manana de sumar `/es/`. Quedan 13 idiomas: ingles y 12 bajo prefijo. Se borro `es` de `LOCALES`, su mapa de contenido, su diccionario, su copia de paquetes y FAQ y las 17 copias de pagina `i18n/es.ts`. Tambien la rama espanola de `formatPrice` y de la lista de paquetes de la FAQ, la traduccion al espanol de una resena, el slogan en espanol (sin uso, y en voseo) y los ternarios en espanol de `/map`.
 - **Se mantiene** lo que es atencion al cliente, no contenido del sitio: MEG atiende en ingles y espanol (`siteConfig.serviceLanguages`, el aviso en las paginas de otros idiomas y las plantillas de email en espanol para un lead con navegador en espanol). Las resenas originales en espanol se siguen citando textuales.
