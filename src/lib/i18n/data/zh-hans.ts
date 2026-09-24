@@ -166,7 +166,7 @@ export default {
 		'what-makes-unique': {
 			question: '与其他视听设备租赁公司相比，Malaga Event Gear（MEG）有何独特之处？',
 			answer:
-				'MEG以客户为中心的高效服务模式脱颖而出：每笔预订均配备专属现场技术人员，选用高端品牌设备，并提供透明的全包价格。我们正逐步实现100%线上预订体验，采用统一的固定价格与完全透明的交易流程。'
+				'MEG以客户为中心的高效服务模式脱颖而出：每笔预订均由我们自己的团队负责配送与专业搭建，Wedding Pack和MICE Pack还包含现场技术人员，选用高端品牌设备，并提供透明的全包价格。我们正逐步实现100%线上预订体验，采用统一的固定价格与完全透明的交易流程。'
 		},
 		'booking-process': {
 			question: 'Malaga Event Gear的预订流程是怎样的？',

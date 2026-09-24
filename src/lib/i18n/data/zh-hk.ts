@@ -167,7 +167,7 @@ export default {
 		'what-makes-unique': {
 			question: '相較於其他視聽租借公司，Malaga Event Gear（MEG）有什麼獨特之處？',
 			answer:
-				'MEG以顧客為中心且流程精簡的方式脫穎而出：每項預約皆配有專屬現場技術人員、頂級品牌器材，以及透明的一價全包定價。我們正朝向100%網上預約體驗邁進，提供標準化固定價格及完全透明的交易流程。'
+				'MEG以顧客為中心且流程精簡的方式脫穎而出：每項預約皆由我們自己的團隊負責送貨及專業安裝，Wedding Pack及MICE Pack更包括駐場技術人員、頂級品牌器材，以及透明的一價全包定價。我們正朝向100%網上預約體驗邁進，提供標準化固定價格及完全透明的交易流程。'
 		},
 		'booking-process': {
 			question: 'Malaga Event Gear的預約流程是怎樣進行的？',

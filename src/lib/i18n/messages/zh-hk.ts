@@ -275,7 +275,7 @@ const t = {
 		emailFailDismiss: '關閉',
 		countryCode: '國碼',
 		responseTime: '我們會盡快回覆',
-		trustBadge: '深受馬拉加超過500場活動信賴'
+		trustBadge: '深受{clients}位客戶信賴'
 	},
 	// Thank-you page
 	thankYou: {

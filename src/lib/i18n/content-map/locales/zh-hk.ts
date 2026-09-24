@@ -20,7 +20,7 @@ export default {
 	},
 	segments: { category: '分類', author: '作者' },
 	packages: {
-		eco: { slug: '慳錢套餐', keyword: '馬拉加 小型派對音響燈光套餐', status: 'propuesta' },
+		eco: { slug: '經濟套餐', keyword: '馬拉加 小型派對音響燈光套餐', status: 'propuesta' },
 		wedding: { slug: '婚禮套餐', keyword: '馬拉加 婚禮音響燈光咪高峰套餐', status: 'propuesta' },
 		'product-presentation': {
 			slug: '產品發佈套餐',

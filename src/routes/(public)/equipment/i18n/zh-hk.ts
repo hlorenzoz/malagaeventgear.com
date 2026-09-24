@@ -34,11 +34,11 @@ export default {
 	},
 	audio: {
 		imageAlt: '專業音響租借器材',
-		desc: '線陣列系統、主動式喇叭、數碼混音控制台，以及Audix無線咪高峰，帶來高保真音效。'
+		desc: '配備超低音喇叭的HK Audio有源及無源喇叭、數碼混音控制台，以及Audix無線咪高峰，帶來高保真音效。'
 	},
 	lighting: {
 		imageAlt: '璀璨活動燈光租借器材',
-		desc: 'RGBW LED射燈、特殊舞台燈光，以及無線補光套裝，為您營造浪漫或熱鬧的氣氛。'
+		desc: 'LED燈排、變焦菲涅爾聚光燈，以及無線上照氣氛燈套裝，為您營造浪漫或熱鬧的氣氛。'
 	},
 	visuals: {
 		imageAlt: '高清投影機及熒幕租借器材',

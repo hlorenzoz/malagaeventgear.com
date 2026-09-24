@@ -6,7 +6,7 @@ export default {
 	seo: {
 		title: 'GDPR合規聲明 | Malaga Event Gear（MEG）',
 		description:
-			'了解Malaga Event Gear如何依據歐盟《一般資料保障規例》（GDPR），為視聽器材租借業務保障您的個人資料。'
+			'了解Malaga Event Gear如何依據歐盟《通用數據保障條例》（GDPR），為視聽器材租借業務保障您的個人資料。'
 	},
 	hero: {
 		badge: '歐盟法規',
@@ -15,7 +15,7 @@ export default {
 	},
 	commitment: {
 		title: 'GDPR承諾',
-		body: '由於Malaga Event Gear（MEG）位於西班牙馬拉加，我們嚴格遵守《一般資料保障規例》（GDPR，(EU) 2016/679號規例），規範個人資料的收集、處理及保存。'
+		body: '由於Malaga Event Gear（MEG）位於西班牙馬拉加，我們嚴格遵守《通用數據保障條例》（GDPR，(EU) 2016/679號規例），規範個人資料的收集、處理及保存。'
 	},
 	processing: {
 		title: '個人資料處理詳情',

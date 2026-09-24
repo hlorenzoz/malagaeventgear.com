@@ -34,11 +34,11 @@ export default {
 	},
 	audio: {
 		imageAlt: '專業音響租賃設備',
-		desc: '線陣列系統、主動式喇叭、數位混音控制台，以及Audix無線麥克風，帶來高聲學保真度。'
+		desc: '搭配超低音喇叭的HK Audio主動式與被動式喇叭、數位混音控制台，以及Audix無線麥克風，帶來高聲學保真度。'
 	},
 	lighting: {
 		imageAlt: '絢麗活動燈光租賃設備',
-		desc: 'RGBW LED聚光燈、專業舞台燈光，以及無線上照燈組，營造浪漫或熱鬧的氛圍。'
+		desc: 'LED燈排、變焦Fresnel聚光燈，以及無線上照燈組，營造浪漫或熱鬧的氛圍。'
 	},
 	visuals: {
 		imageAlt: '高畫質投影機與螢幕租賃設備',
