@@ -302,7 +302,7 @@ const packagesData: EventPackage[] = [
 			optionalLabel: 'Optional Add-ons',
 			ctaHeading: 'Power Your Corporate Event',
 			ctaBody: 'Deliver a flawless corporate experience with premium AV and dedicated technical support. Contact our team today to confirm availability for your date.',
-			ctaButton: 'Book MICE Package'
+			ctaButton: 'Book MICE Pack'
 		}
 	}
 ];

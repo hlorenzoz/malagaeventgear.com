@@ -148,7 +148,7 @@ export default {
 				ctaHeading: 'Potencialize Seu Evento Corporativo',
 				ctaBody:
 					'Ofereça uma experiência corporativa impecável com equipamento audiovisual premium e suporte técnico dedicado. Fale com nossa equipe hoje mesmo para confirmar a disponibilidade na sua data.',
-				ctaButton: 'Reservar Pacote MICE'
+				ctaButton: 'Reservar MICE Pack'
 			}
 		}
 	},
