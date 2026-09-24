@@ -622,11 +622,9 @@
 							{/if}
 						</span>
 					</button>
-					{#if isOpen}
-						<div class="px-6 pb-5 text-on-surface-variant font-body-md text-body-md border-t border-border-glass/30 pt-3">
-							<p>{faq.a}</p>
-						</div>
-					{/if}
+					<div hidden={!isOpen} class="px-6 pb-5 text-on-surface-variant font-body-md text-body-md border-t border-border-glass/30 pt-3">
+						<p>{faq.a}</p>
+					</div>
 				</div>
 			{/each}
 		</div>

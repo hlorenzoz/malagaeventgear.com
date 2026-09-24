@@ -4,7 +4,6 @@
 	import Icon from '$lib/components/navigation/Icon.svelte';
 	import { faqCopy, pkgCopy } from '$lib/i18n/data-copy.svelte';
 	import { faqs, buildFaqSchema } from '$lib/data/faq';
-	import { slide } from 'svelte/transition';
 
 	let { data } = $props();
 	// Copy in the page language (./i18n/<locale>.ts, loaded by +page.ts)
@@ -115,14 +114,13 @@
 					<Icon name={isOpen ? 'remove' : 'add'} className="text-on-surface-variant transition-transform duration-300 {isOpen ? 'rotate-180' : ''}" />
 				</button>
 
-				{#if isOpen}
-					<div
-						transition:slide={{ duration: 250 }}
-						class="px-6 pb-6 text-on-surface-variant font-body-md text-body-md border-t border-border-glass/30 pt-4"
-					>
-						<p>{faq.a}</p>
-					</div>
-				{/if}
+				<!-- Always in the HTML, hidden until opened: the FAQPage JSON-LD must describe content that is on the page. -->
+				<div
+					hidden={!isOpen}
+					class="px-6 pb-6 text-on-surface-variant font-body-md text-body-md border-t border-border-glass/30 pt-4"
+				>
+					<p>{faq.a}</p>
+				</div>
 			</div>
 		{/each}
 	</div>

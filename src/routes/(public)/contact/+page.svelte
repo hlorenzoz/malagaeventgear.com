@@ -504,11 +504,9 @@
 						<Icon name={isOpen ? 'remove' : 'add'} className="text-on-surface-variant transition-transform duration-300 {isOpen ? 'rotate-180' : ''}" />
 					</button>
 					
-					{#if isOpen}
-						<div class="px-6 pb-5 text-on-surface-variant font-body-md text-body-md animate-fade-in border-t border-border-glass/30 pt-3">
-							<p>{faq.a}</p>
-						</div>
-					{/if}
+					<div hidden={!isOpen} class="px-6 pb-5 text-on-surface-variant font-body-md text-body-md animate-fade-in border-t border-border-glass/30 pt-3">
+						<p>{faq.a}</p>
+					</div>
 				</div>
 			{/each}
 		</div>
