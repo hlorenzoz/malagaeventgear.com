@@ -1,31 +1,13 @@
 import { getCategories } from '$lib/data/blog';
-import { toLastmod } from '$lib/utils/sitemap';
+import { siteConfig } from '$lib/data/site';
+import { SITEMAP_HEADERS, urlsetXml, type SitemapUrl } from '$lib/utils/sitemap';
 import type { RequestHandler } from './$types';
 
-const BASE_URL = 'https://malagaeventgear.com';
-
 export const GET: RequestHandler = async () => {
-	const categories = getCategories();
+	const urls: SitemapUrl[] = getCategories().map((cat) => ({
+		loc: `${siteConfig.url}/blog/category/${cat.slug}/`,
+		lastmod: cat.lastmod
+	}));
 
-	const urls = categories
-		.map((cat) => {
-			return `  <url>
-    <loc>${BASE_URL}/blog/category/${cat.slug}/</loc>
-    <lastmod>${toLastmod(cat.lastmod)}</lastmod>
-  </url>`;
-		})
-		.join('\n');
-
-	const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls}
-</urlset>`;
-
-	return new Response(xml, {
-		headers: {
-			'Content-Type': 'application/xml; charset=utf-8',
-			'Cache-Control': 'public, max-age=3600, s-maxage=86400',
-			'X-Content-Type-Options': 'nosniff'
-		}
-	});
+	return new Response(urlsetXml(urls), { headers: SITEMAP_HEADERS });
 };
