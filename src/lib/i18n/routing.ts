@@ -1,4 +1,4 @@
-import type { LocaleContentMap } from './content-map/schema';
+import type { LocaleContentMap } from './content-map/schema.ts';
 
 /**
  * Pure routing between English route paths and localized paths. No I/O here: the content map

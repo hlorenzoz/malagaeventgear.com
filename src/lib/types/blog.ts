@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import type { Locale } from '../i18n/locales';
+import type { Locale } from '../i18n/locales.ts';
 
 /**
  * Zod schema for blog post frontmatter.

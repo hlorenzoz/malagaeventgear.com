@@ -1,5 +1,5 @@
-import type { Locale } from './locales';
-import type { Availability } from './routing';
+import type { Locale } from './locales.ts';
+import type { Availability } from './routing.ts';
 
 /**
  * Locales whose static pages and packages are published. Pages ship all at once per locale

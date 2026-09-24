@@ -1,17 +1,17 @@
-import type { LocaleContentMap } from './schema';
-import type { PREFIXED_LOCALES } from '../locales';
-import fr from './locales/fr';
-import it from './locales/it';
-import de from './locales/de';
-import nl from './locales/nl';
-import ptPt from './locales/pt-pt';
-import ptBr from './locales/pt-br';
-import sv from './locales/sv';
-import da from './locales/da';
-import nb from './locales/nb';
-import zhHans from './locales/zh-hans';
-import zhTw from './locales/zh-tw';
-import zhHk from './locales/zh-hk';
+import type { LocaleContentMap } from './schema.ts';
+import type { PREFIXED_LOCALES } from '../locales.ts';
+import fr from './locales/fr.ts';
+import it from './locales/it.ts';
+import de from './locales/de.ts';
+import nl from './locales/nl.ts';
+import ptPt from './locales/pt-pt.ts';
+import ptBr from './locales/pt-br.ts';
+import sv from './locales/sv.ts';
+import da from './locales/da.ts';
+import nb from './locales/nb.ts';
+import zhHans from './locales/zh-hans.ts';
+import zhTw from './locales/zh-tw.ts';
+import zhHk from './locales/zh-hk.ts';
 
 /**
  * Every locale's content map, statically imported. BUILD TOOLING ONLY (vite.config.ts): the app

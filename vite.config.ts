@@ -3,7 +3,7 @@ import { defineConfig, type Plugin } from 'vite';
 import { SvelteKitPWA } from '@vite-pwa/sveltekit';
 import tailwindcss from '@tailwindcss/vite';
 import { blogMeta } from './scripts/vite-blog-meta.mjs';
-import { CONTENT_MAPS } from './src/lib/i18n/content-map/all';
+import { CONTENT_MAPS } from './src/lib/i18n/content-map/all.ts';
 
 // Blog roots in every language (`/blog/`, `/de/blog/`, `/sv/blogg/`, `/zh-hans/%E5%8D%9A...`),
 // as a RegExp literal: workbox serializes it into sw.js, a closure would lose its variables.

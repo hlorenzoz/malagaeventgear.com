@@ -1,4 +1,4 @@
-import { DEFAULT_LOCALE, PREFIXED_LOCALES, type Locale } from './locales';
+import { DEFAULT_LOCALE, PREFIXED_LOCALES, type Locale } from './locales.ts';
 
 export interface SplitPath {
 	locale: Locale;

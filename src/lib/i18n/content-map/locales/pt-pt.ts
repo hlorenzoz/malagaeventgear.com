@@ -1,4 +1,4 @@
-import type { LocaleContentMap } from '../schema';
+import type { LocaleContentMap } from '../schema.ts';
 
 export default {
 	pages: {

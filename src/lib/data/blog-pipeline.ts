@@ -6,14 +6,14 @@
  */
 // Relative imports on purpose: build tooling (scripts/blog-sources.ts, loaded by vite.config.ts
 // and by Playwright) runs this same pipeline outside SvelteKit, where `$lib` does not resolve.
-import { BlogPostSchema, TranslatedPostSchema } from '../types/blog';
-import type { BlogPost, Category, Author } from '../types/blog';
-import { slugify } from '../utils/slugify';
-import type { BlogAvailability } from '../i18n/availability';
-import type { LocaleContentMap } from '../i18n/content-map/schema';
-import { encodePath, withLocale } from '../i18n/locale-path';
-import { PREFIXED_LOCALES, type Locale } from '../i18n/locales';
-import { localizePath } from '../i18n/routing';
+import { BlogPostSchema, TranslatedPostSchema } from '../types/blog.ts';
+import type { BlogPost, Category, Author } from '../types/blog.ts';
+import { slugify } from '../utils/slugify.ts';
+import type { BlogAvailability } from '../i18n/availability.ts';
+import type { LocaleContentMap } from '../i18n/content-map/schema.ts';
+import { encodePath, withLocale } from '../i18n/locale-path.ts';
+import { PREFIXED_LOCALES, type Locale } from '../i18n/locales.ts';
+import { localizePath } from '../i18n/routing.ts';
 
 // The shape of each module entry passed to buildPostsFromGlob.
 // Only `metadata` (frontmatter) is required; the compiled component (`default`)

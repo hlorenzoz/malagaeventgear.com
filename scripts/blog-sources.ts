@@ -16,14 +16,14 @@ import {
 	buildPostsFromGlob,
 	type GlobResult,
 	type TranslationGlob
-} from '../src/lib/data/blog-pipeline';
-import type { BlogPost } from '../src/lib/types/blog';
-import { getAvailability, type BlogAvailability } from '../src/lib/i18n/availability';
-import { CONTENT_MAPS } from '../src/lib/i18n/content-map/all';
-import type { LocaleContentMap } from '../src/lib/i18n/content-map/schema';
-import { encodePath, withLocale } from '../src/lib/i18n/locale-path';
-import { PREFIXED_LOCALES, type Locale } from '../src/lib/i18n/locales';
-import { knownEnglishPaths, localizePath } from '../src/lib/i18n/routing';
+} from '../src/lib/data/blog-pipeline.ts';
+import type { BlogPost } from '../src/lib/types/blog.ts';
+import { getAvailability, type BlogAvailability } from '../src/lib/i18n/availability.ts';
+import { CONTENT_MAPS } from '../src/lib/i18n/content-map/all.ts';
+import type { LocaleContentMap } from '../src/lib/i18n/content-map/schema.ts';
+import { encodePath, withLocale } from '../src/lib/i18n/locale-path.ts';
+import { PREFIXED_LOCALES, type Locale } from '../src/lib/i18n/locales.ts';
+import { knownEnglishPaths, localizePath } from '../src/lib/i18n/routing.ts';
 
 export { BLOG_DIR };
 
