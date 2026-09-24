@@ -281,9 +281,8 @@
 				</div>
 				<p class="font-body-md text-body-md text-on-surface-variant">
 					{#if item.cost}
-						<strong class="text-on-surface">{i18n.t.overview.costFrom} {formatPrice(minPrice, i18n.lang)} {i18n.t.pricing.plusVat}.</strong>
-					{/if}
-					{item.a}
+						<strong class="text-on-surface">{i18n.t.overview.costFrom} {formatPrice(minPrice, i18n.lang)}{i18n.space}{i18n.t.pricing.plusVat}{i18n.stop}</strong>{i18n.space}
+					{/if}{item.a}
 				</p>
 			</div>
 		{/each}

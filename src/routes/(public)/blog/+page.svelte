@@ -65,7 +65,7 @@
 		{copy.hero.badge}
 	</span>
 	<h1 class="font-headline-lg-mobile md:font-display-lg text-headline-lg-mobile md:text-display-lg text-on-surface mb-6 max-w-4xl mx-auto leading-tight reveal active is-revealed">
-		{copy.hero.titlePrefix} <span class="text-transparent bg-clip-text bg-linear-to-r from-primary to-electric-blue">{copy.hero.titleHighlight}</span>
+		{copy.hero.titlePrefix}{i18n.space}<span class="text-transparent bg-clip-text bg-linear-to-r from-primary to-electric-blue">{copy.hero.titleHighlight}</span>
 	</h1>
 	<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-10 reveal active is-revealed" style="transition-delay: 100ms;">
 		{copy.hero.intro}

@@ -93,7 +93,7 @@
 			</p>
 			<ul class="list-disc pl-6 space-y-2">
 				{#each copy.rights.items as item}
-					<li><strong>{item.label}</strong> {item.body}</li>
+					<li><strong>{item.label}</strong>{i18n.space}{item.body}</li>
 				{/each}
 			</ul>
 		</div>

@@ -74,5 +74,8 @@ export const i18n = {
 	},
 	get comma(): string {
 		return LOCALE_META[this.lang].script === 'latin' ? ', ' : '，';
+	},
+	get stop(): string {
+		return LOCALE_META[this.lang].script === 'latin' ? '.' : '。';
 	}
 };

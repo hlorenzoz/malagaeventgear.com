@@ -121,17 +121,18 @@ for (const locale of PUBLISHED_LOCALES) {
 			await expect(switcher.locator(`a[aria-current="page"]`)).toHaveAttribute('hreflang', LOCALE_META[locale].htmlLang);
 		});
 
-		test('Chinese headings have no ASCII space between Chinese runs', async ({ request }) => {
-			// Templates join title parts with `i18n.space`, which is empty in Chinese.
+		test('Chinese copy has no ASCII space or period glued between Chinese runs', async ({ page }) => {
+			// Templates join copy with `i18n.space` and `i18n.stop`, which are Chinese aware. innerText
+			// follows the rendered layout, so separate blocks (or flex items) never count as a gap.
 			test.skip(LOCALE_META[locale].script === 'latin');
-			for (const enPath of ['/', '/equipment/']) {
-				const html = await (await request.get((await localized(locale, enPath))!)).text();
-				const h1 = html
-					.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)![1]
-					.replace(/<!--[\s\S]*?-->/g, '')
-					.replace(/<br\s*\/?>/g, '\n')
-					.replace(/<[^>]+>/g, '');
-				expect(h1, `${enPath} h1`).not.toMatch(/[一-鿿，。] +[一-鿿]/);
+			const cjk = '\\u4e00-\\u9fff';
+			const gap = new RegExp(`[${cjk}\\uff0c\\u3002\\uff1a\\uff09] +[${cjk}\\uff08]`);
+			const asciiStop = new RegExp(`[${cjk}\\uff09]\\.`);
+			for (const enPath of ['/', '/equipment/', '/gdpr/']) {
+				await page.goto((await localized(locale, enPath))!);
+				const text = await page.locator('body').innerText();
+				expect(text.match(gap)?.[0], `${enPath} ASCII space`).toBeUndefined();
+				expect(text.match(asciiStop)?.[0], `${enPath} ASCII period`).toBeUndefined();
 			}
 		});
 

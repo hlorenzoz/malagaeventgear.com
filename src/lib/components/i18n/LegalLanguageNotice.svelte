@@ -8,7 +8,6 @@
 
 {#if i18n.lang !== 'en'}
 	<div class="glass-panel rounded-xl px-5 py-4 mb-8 text-sm text-on-surface-variant" role="note" data-testid="legal-language-notice">
-		{i18n.t.notices.legalTranslation}
-		<a href={enPath} hreflang="en" lang="en" class="text-electric-blue underline underline-offset-2 ml-1">{i18n.t.notices.readEnglish}</a>
+		{i18n.t.notices.legalTranslation}{i18n.space}<a href={enPath} hreflang="en" lang="en" class="text-electric-blue underline underline-offset-2">{i18n.t.notices.readEnglish}</a>
 	</div>
 {/if}

@@ -119,7 +119,7 @@
 				<div class="flex flex-col sm:flex-row items-center gap-6 mt-auto">
 					<div class="text-left w-full sm:w-auto">
 						<span class="block font-label-sm text-label-sm text-on-surface-variant">{i18n.t.pricing.from}</span>
-						<span class="font-headline-md text-[28px] text-primary">{formatPrice(micePkg.price, i18n.lang)} <span class="text-[14px] text-on-surface-variant">{i18n.t.pricing.plusVatShort}</span></span>
+						<span class="font-headline-md text-[28px] text-primary">{formatPrice(micePkg.price, i18n.lang)}{i18n.space}<span class="text-[14px] text-on-surface-variant">{i18n.t.pricing.plusVatShort}</span></span>
 					</div>
 					<a
 						class="w-full sm:w-auto px-8 py-3 rounded-full bg-electric-blue-strong text-white font-label-lg uppercase tracking-wider hover:shadow-lg hover:shadow-electric-blue/30 active:scale-95 transition-all duration-300 ml-auto flex items-center justify-center gap-2"
