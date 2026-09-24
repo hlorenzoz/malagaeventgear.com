@@ -7,6 +7,15 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (i18n-review) - revision de todo el plan de traduccion
+- **`/code-review` de `main..HEAD`, 10 hallazgos corregidos con tests**: emails en espanol para navegadores en espanol y el cron de resenas sin tratar otros idiomas como espanol, JSON-LD `Service`/`ItemList`/`ContactPage` con la URL de su idioma y `valueAddedTaxIncluded: false`, politica de cookies sin la preferencia de idioma que ya no existe, pagina RGPD de zh-hk renombrada, `aria-label` del navbar y enlace de `thank-you` traducidos, cifras de about-us con formato por idioma y anos derivados de `foundingYear`.
+- **Precios y porcentajes desde su fuente unica**: extras, minimo fuera de provincia y tramos del filtro en `PRICE_POINTS`, IVA desde `VAT_RATE`, clientes desde `siteConfig.clientCount`. La copia de los 13 idiomas usa `{price:key}`, `{vat}` y `{clients}`, renderizados al cargar la copia. Guards para importes y porcentajes literales.
+- **FAQ visibles para Google**: los acordeones solo renderizaban la respuesta tras un clic. Ahora estan en el HTML, ocultas hasta abrirlas (`tests/faq-ssr.spec.ts`).
+- **Precache del PWA sin copia traducida**: 551 a 311 entradas, 10.065 a 9.417 KiB (`tests/pwa-precache.prod.spec.ts`).
+- **Revision nativa de los 12 idiomas** (por grupos: fr/it, de/nl, pt-pt/pt-br, sv/da/nb, zh-hans/zh-tw/zh-hk): gramatica, sentence case, variante regional, terminologia, calcos y traducciones erroneas (por ejemplo `pandebånd`, `dampmaskin`, `panneau d'affichage`, `rimontiamo`, 看台, 補光).
+- **Fuente inglesa corregida y propagada**: sin line array ni iluminacion escenica generica (el inventario son altavoces HK Audio de caja, barras LED, un Fresnel con zoom y un kit de uplighting), la FAQ ya no promete tecnico en cada reserva, y el sello "500+ events" (sin fuente) paso a los 1,000+ clientes documentados. Palabras unidas con guion, rayas y punto y coma eliminados del ingles.
+- **Test inestable de la FAQ**: esperas por estado en lugar de tiempos fijos.
+
 ### Added (i18n-main-pages) - Fase 3, cierre
 - **Paginas principales y paquetes publicados en los 13 idiomas** (2026-09-24): frances, italiano, aleman, neerlandes, portugues de Portugal y de Brasil, sueco, danes, noruego y chino simplificado, de Taiwan y de Hong Kong, ademas del ingles. `PAGE_LOCALES` los lista a todos. Por idioma: diccionario de UI, copia de paquetes y 19 FAQ, y 17 copias de pagina, cada una con su fecha. 321 HTML prerenderizados (18 por idioma mas el ingles y el blog). El blog sigue solo en ingles hasta la Fase 4.
 - **Revision despues de cada idioma** (`/code-review`): keywords corregidas a una forma gramatical en aleman, sueco, danes y noruego (sin tocar slugs), palabras unidas con guion reescritas (regla 12), "pandebånd" corregido a "headsetmikrofoner" en danes y el nombre del MICE Pack sin traducir en portugues de Brasil.
