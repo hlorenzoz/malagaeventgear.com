@@ -16,7 +16,7 @@ export default {
 	},
 	story: {
 		title: 'A Nossa Missão e História',
-		p1: 'A Malaga Event Gear está ativa na indústria audiovisual desde 1996 e opera como freelancers independentes desde 2010. Ao longo de quase três décadas, desenvolvemos uma paixão por eventos impecáveis e por uma acústica cristalina.',
+		p1: 'A Malaga Event Gear está ativa na indústria audiovisual desde 1996 e opera como freelancers independentes desde 2010. Ao longo de três décadas, desenvolvemos uma paixão por eventos impecáveis e por uma acústica cristalina.',
 		p2: 'Funcionamos num modelo exclusivo de entrega com montagem direta, o que significa que não mantemos uma loja física. Em vez disso, levamos os nossos sistemas premium, cablagem e apoio diretamente à sua moradia, hotel ou espaço de evento em Málaga e na Costa del Sol.'
 	},
 	stats: {

@@ -16,7 +16,7 @@ export default {
 	},
 	story: {
 		title: 'Vårt uppdrag och vår historia',
-		p1: 'Malaga Event Gear har varit aktivt inom ljud- och bildbranschen sedan 1996 och drivit verksamheten som fristående frilansare sedan 2010. Under nästan tre decennier har vi utvecklat en passion för felfria evenemang och kristallklar akustik.',
+		p1: 'Malaga Event Gear har varit aktivt inom ljud- och bildbranschen sedan 1996 och drivit verksamheten som fristående frilansare sedan 2010. Under tre decennier har vi utvecklat en passion för felfria evenemang och kristallklar akustik.',
 		p2: 'Vi arbetar enbart med leverans och direkt installation, vilket innebär att vi inte har någon fysisk butik. Istället tar vi med våra förstklassiga system, kablar och support direkt till din villa, ditt hotell eller din lokal i Malaga och på Costa del Sol.'
 	},
 	stats: {

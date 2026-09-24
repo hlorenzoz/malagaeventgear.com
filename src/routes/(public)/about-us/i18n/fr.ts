@@ -16,7 +16,7 @@ const copy = {
 	},
 	story: {
 		title: 'Notre mission et notre histoire',
-		p1: "Malaga Event Gear est actif dans le secteur audiovisuel depuis 1996 et opère en tant qu'indépendants depuis 2010. En près de trois décennies, nous avons développé une véritable passion pour les événements sans faille et l'acoustique cristalline.",
+		p1: "Malaga Event Gear est actif dans le secteur audiovisuel depuis 1996 et opère en tant qu'indépendants depuis 2010. En trois décennies, nous avons développé une véritable passion pour les événements sans faille et l'acoustique cristalline.",
 		p2: "Nous fonctionnons uniquement en livraison avec installation directe, ce qui signifie que nous ne disposons pas de boutique physique. Nous apportons directement nos systèmes haut de gamme, notre câblage et notre assistance à votre villa, hôtel ou lieu de réception, partout à Malaga et sur la Costa del Sol."
 	},
 	stats: {

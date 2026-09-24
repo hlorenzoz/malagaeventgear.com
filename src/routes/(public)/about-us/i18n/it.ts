@@ -16,7 +16,7 @@ const copy = {
 	},
 	story: {
 		title: 'La Nostra Missione e Storia',
-		p1: "Malaga Event Gear opera nel settore audiovisivo dal 1996 ed è attiva come libera professionista dal 2010. In quasi tre decenni, abbiamo sviluppato una vera passione per eventi impeccabili e un'acustica cristallina.",
+		p1: "Malaga Event Gear opera nel settore audiovisivo dal 1996 ed è attiva come libera professionista dal 2010. In tre decenni, abbiamo sviluppato una vera passione per eventi impeccabili e un'acustica cristallina.",
 		p2: "Operiamo con un modello di sola consegna e installazione diretta, il che significa che non disponiamo di un punto vendita fisico. Portiamo invece i nostri impianti di alta gamma, il cablaggio e l'assistenza direttamente nella tua villa, hotel o location in tutta Malaga e sulla Costa del Sol."
 	},
 	stats: {

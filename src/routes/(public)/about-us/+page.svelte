@@ -3,11 +3,14 @@
 	import Icon from '$lib/components/navigation/Icon.svelte';
 	import { i18n } from '$lib/i18n.svelte';
 	import { siteConfig } from '$lib/data/site';
+	import { formatNumber } from '$lib/i18n/format';
 	import { LOCALE_META } from '$lib/i18n/locales';
 
 	let { data } = $props();
 	// Copy in the page language (./i18n/<locale>.ts, loaded by +page.ts)
 	const copy = $derived(data.copy);
+	// Derived from the founding year (.agents/BUSINESS.md: active since 1996), so it never goes stale.
+	const yearsActive = new Date().getFullYear() - siteConfig.foundingYear;
 
 	// Este grafo NO redefine la empresa ni el sitio: los referencia por @id.
 	// Antes emitía un segundo nodo #organization con su propia dirección
@@ -74,7 +77,7 @@
 		<div class="lg:col-span-5 flex flex-col gap-6">
 			<!-- Experience Card -->
 			<div class="glass-panel rounded-xl p-8 flex-1 flex flex-col justify-center text-center">
-				<span class="text-display-md font-bold text-electric-blue mb-2">27+</span>
+				<span class="text-display-md font-bold text-electric-blue mb-2">{yearsActive}+</span>
 				<h3 class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider">
 					{copy.stats.experienceTitle}
 				</h3>
@@ -85,7 +88,7 @@
 
 			<!-- Satisfied Clients Card -->
 			<div class="glass-panel rounded-xl p-8 flex-1 flex flex-col justify-center text-center">
-				<span class="text-display-md font-bold text-electric-blue mb-2">1,000+</span>
+				<span class="text-display-md font-bold text-electric-blue mb-2">{formatNumber(1000, i18n.lang)}+</span>
 				<h3 class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider">
 					{copy.stats.clientsTitle}
 				</h3>

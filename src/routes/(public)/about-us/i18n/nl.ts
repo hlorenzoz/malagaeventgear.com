@@ -16,7 +16,7 @@ const copy = {
 	},
 	story: {
 		title: 'Onze missie en geschiedenis',
-		p1: 'Malaga Event Gear is sinds 1996 actief in de audiovisuele sector en werkt sinds 2010 als zelfstandig ondernemer. In bijna drie decennia hebben we een passie ontwikkeld voor vlekkeloze evenementen en kristalhelder geluid.',
+		p1: 'Malaga Event Gear is sinds 1996 actief in de audiovisuele sector en werkt sinds 2010 als zelfstandig ondernemer. In drie decennia hebben we een passie ontwikkeld voor vlekkeloze evenementen en kristalhelder geluid.',
 		p2: 'We werken uitsluitend op basis van levering, met rechtstreekse opbouw op locatie. We hebben geen fysieke winkel: in plaats daarvan brengen we onze premium systemen, bekabeling en ondersteuning direct naar je villa, hotel of locatie in Malaga en aan de Costa del Sol.'
 	},
 	stats: {

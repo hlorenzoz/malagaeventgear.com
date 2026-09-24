@@ -16,7 +16,7 @@ const copy = {
 	},
 	story: {
 		title: 'Vores mission og historie',
-		p1: 'Malaga Event Gear har været aktiv i AV-branchen siden 1996 og har drevet virksomhed som selvstændige siden 2010. Gennem næsten tre årtier har vi udviklet en passion for fejlfri events og krystalklar akustik.',
+		p1: 'Malaga Event Gear har været aktiv i AV-branchen siden 1996 og har drevet virksomhed som selvstændige siden 2010. Gennem tre årtier har vi udviklet en passion for fejlfri events og krystalklar akustik.',
 		p2: 'Vi arbejder udelukkende med levering og direkte opsætning, hvilket betyder, at vi ikke har nogen fysisk butik. I stedet bringer vi vores udstyr i topklasse, kabelføring og support direkte til din villa, dit hotel eller lokale i Malaga og på Costa del Sol.'
 	},
 	stats: {
