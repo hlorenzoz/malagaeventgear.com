@@ -248,20 +248,5 @@ export default {
 			answer:
 				'Sim. Todos os pacotes podem ser ampliados com extras como projetores e telas, máquinas de fumo profissionais, microfones adicionais, púlpitos premium em acrílico, plataformas de palco modulares e horas adicionais de técnico ao vivo. Diga-nos as suas necessidades ao pedir um orçamento e criaremos a configuração perfeita para o seu evento.'
 		}
-	},
-	reviews: {
-		'anna-wisser':
-			'Utilizámos recentemente a Málaga Event Gear para a nossa festa de fim de época e o serviço foi excelente. O som e o equipamento eram de altíssima qualidade, e tivemos um técnico dedicado no local durante todo o tempo para nos ajudar com tudo o que precisávamos. Experiência fantástica. Muito recomendado.',
-		'carlos-gottsch':
-			'Obrigado à Málaga Event Gear pela sua ajuda rápida e totalmente fiável. Sem vocês, a nossa festa não teria sido possível.',
-		'gines-de-biedma': 'Profissionais e eficientes, muito atentos ao detalhe, equipa altamente qualificada.',
-		'ting-ting-yu':
-			'Equipa profissional, soluções eficientes e rápidas, digna de confiança entre tantos parceiros, e que recomendo sem limites a clientes e amigos. Obrigado, Sergio e equipa.',
-		'daniel-gombar':
-			'Estou muito satisfeito com esta equipa, superaram as minhas expectativas. Tendo uma reunião em Málaga, foi uma grande ajuda não ter de me preocupar com as soluções visuais e o som, tornaram tudo fácil e sem complicações. Responderam a todas as minhas perguntas e entregaram equipamento de alta qualidade para a reunião. Vale totalmente a pena!',
-		'carlos-batlles':
-			'Esta equipa proporcionou uma experiência impecável! O MICE pack facilitou tudo para o nosso evento, e a equipa foi profissional e de confiança. O som e a iluminação eram de primeira qualidade, e nota-se que gostam mesmo do que fazem. Muito recomendado!',
-		'rocio-plaza-gamez':
-			'Completamente recomendável. Fácil, ágil, rápido... económico. Tinha um pouco de receio de usar esta empresa porque era tudo muito digital e transparente, e não havia histórico, mas... foi um verdadeiro acerto.'
 	}
 } satisfies DataCopy;

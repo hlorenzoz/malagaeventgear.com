@@ -1,17 +1,8 @@
 import { z } from 'zod';
 import reviewsRaw from './reviews.json';
-import { reviewTranslationOverrides } from './reviews.overrides';
-import { LOCALES, type Locale } from '$lib/i18n/locales';
 
 // Public Google My Business profile (reviews) share link for Malaga Event Gear.
 export const GMB_PROFILE_URL = 'https://share.google/xlg0PV3QeGBNKVnA9';
-
-// Translations of a review body, one optional key per locale. A review is quoted in its original
-// language, so NO locale is required here: `text` is always the source of truth.
-const LocalizedTextSchema = z
-	.object(Object.fromEntries(LOCALES.map((l) => [l, z.string().optional()])))
-	.strict() as unknown as z.ZodType<Partial<Record<Locale, string>>>;
-export type LocalizedText = Partial<Record<Locale, string>>;
 
 // A single Google review, rendered as a testimonial card
 export const TestimonialSchema = z.object({
@@ -20,9 +11,8 @@ export const TestimonialSchema = z.object({
 	avatarUrl: z.string().optional(), // may be missing or hotlink-protected → fallback to initial
 	rating: z.number().min(1).max(5),
 	relativeTime: z.string(), // "12 months ago" — label exactly as Google renders it
-	text: z.string(), // review body in its ORIGINAL language
+	text: z.string(), // review body in its ORIGINAL language, shown as is in every locale (never translated)
 	lang: z.string().optional(), // detected language of `text` (es | en | zh | …)
-	translation: LocalizedTextSchema.optional(), // optional manual EN/ES override
 	profileUrl: z.string().optional(),
 	source: z.literal('google').default('google')
 });
@@ -62,10 +52,7 @@ const testimonials: Testimonial[] = (parsedFile.success ? parsedFile.data.testim
 			console.warn('Skipping invalid testimonial', result.error.format());
 			return null;
 		}
-		// Merge hand-written translation overrides without letting them clobber
-		// a translation that may already be present on the scraped item.
-		const override = reviewTranslationOverrides[result.data.id];
-		return override ? { ...result.data, translation: result.data.translation ?? override } : result.data;
+		return result.data;
 	})
 	.filter((t): t is Testimonial => t !== null);
 

@@ -248,20 +248,5 @@ export default {
 			answer:
 				'Ja. Elk pakket kan worden uitgebreid met extra\'s zoals beamers en schermen, professionele rookmachines, extra microfoons, premium katheders in acryl, modulaire podiumplatforms en extra uren live technicus. Vertel ons je wensen bij het aanvragen van een offerte en we stellen de perfecte configuratie samen voor je evenement.'
 		}
-	},
-	reviews: {
-		'anna-wisser':
-			'We hebben onlangs Málaga Event Gear ingeschakeld voor ons End of Season Party en de service was uitstekend. Het geluid en de apparatuur waren van topkwaliteit, en we hadden de hele tijd een toegewijde technicus ter plaatse om ons te helpen met alles wat we nodig hadden. Fantastische ervaring. Sterk aanbevolen.',
-		'carlos-gottsch':
-			'Dank aan Málaga Event Gear voor hun snelle en volledig betrouwbare hulp. Zonder jullie was ons feest niet mogelijk geweest.',
-		'gines-de-biedma': 'Professioneel en efficiënt, zeer oplettend in de details, een zeer gekwalificeerd team.',
-		'ting-ting-yu':
-			'Een professioneel team, efficiënte en snelle oplossingen, betrouwbaar tussen zoveel partners, en ik beveel hen zonder voorbehoud aan bij klanten en vrienden. Bedankt, Sergio en team.',
-		'daniel-gombar':
-			'Ik ben echt tevreden met dit team, ze overtroffen mijn verwachtingen. Voor een vergadering in Malaga was het een enorme hulp dat ik me geen zorgen hoefde te maken over de visuele oplossingen en het geluid, ze maakten het makkelijk en soepel. Ze beantwoordden al mijn vragen en leverden apparatuur van hoge kwaliteit voor de vergadering. Absoluut de moeite waard!',
-		'carlos-batlles':
-			'Dit team leverde een vlekkeloze ervaring! Hun MICE pack maakte alles eenvoudig voor ons evenement, en het team was zowel professioneel als betrouwbaar. Het geluid en de verlichting waren van topklasse, en je merkt dat ze echt om hun werk geven. Sterk aanbevolen!',
-		'rocio-plaza-gamez':
-			'Volledig aan te bevelen. Makkelijk, snel, vlot... voordelig. Ik was een beetje bang om dit bedrijf te gebruiken omdat alles heel digitaal en transparant was, en er geen geschiedenis was, maar... een schot in de roos.'
 	}
 } satisfies DataCopy;

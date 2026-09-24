@@ -17,9 +17,7 @@ const t = {
 	notices: {
 		serviceLanguages: 'We antwoorden in het Engels of Spaans.',
 		legalTranslation: 'Dit is een vertaling. Bij verschillen met de Engelse versie geldt de Engelse versie.',
-		readEnglish: 'Lees de Engelse versie',
-		translatedFrom: 'Vertaald uit het {language}',
-		showOriginal: 'Toon origineel'
+		readEnglish: 'Lees de Engelse versie'
 	},
 	// Breadcrumb names, keyed by English path segment (see i18n/breadcrumbs.ts)
 	crumbs: {

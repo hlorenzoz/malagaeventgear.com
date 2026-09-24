@@ -248,20 +248,5 @@ export default {
 			answer:
 				"Oui. Chaque forfait peut être complété avec des options comme des vidéoprojecteurs et écrans, des machines à fumée professionnelles, des microphones supplémentaires, des pupitres premium en acrylique, des plateaux de scène modulables et des heures de technicien en direct supplémentaires. Indiquez-nous vos besoins lors de votre demande de devis et nous construirons la configuration parfaite pour votre événement."
 		}
-	},
-	reviews: {
-		'anna-wisser':
-			"Nous avons récemment fait appel à Malaga Event Gear pour notre End of Season Party, et le service a été exceptionnel. Le son et le matériel étaient de premier ordre, et nous avons eu un technicien dédié sur place tout le long pour nous aider avec tout ce dont nous avions besoin. Une expérience fantastique. Vivement recommandé.",
-		'carlos-gottsch':
-			"Merci à Malaga Event Gear pour son aide rapide et totalement fiable. Sans vous, notre fête n'aurait pas été possible.",
-		'gines-de-biedma': 'Professionnels et efficaces, très soucieux du détail, équipe hautement qualifiée.',
-		'ting-ting-yu':
-			"Une équipe professionnelle, des solutions efficaces et rapides, digne de confiance parmi de nombreux partenaires, et que je recommande sans limite à mes clients et amis. Merci Sergio et toute l'équipe.",
-		'daniel-gombar':
-			"Je suis vraiment satisfait de cette équipe, elle a dépassé mes attentes. Pour une réunion à Malaga, ce fut une aide précieuse de ne pas avoir à me soucier des solutions visuelles et du son, ils ont rendu tout cela simple et fluide. Ils ont répondu à toutes mes questions et fourni un matériel de haute qualité pour la réunion. Ça en valait vraiment la peine !",
-		'carlos-batlles':
-			"Cette équipe a offert une expérience sans faille ! Leur MICE Pack a tout simplifié pour notre événement, et l'équipe a été à la fois professionnelle et fiable. Le son et l'éclairage étaient excellents, et on sent qu'ils sont vraiment passionnés par leur travail. Vivement recommandé !",
-		'rocio-plaza-gamez':
-			"Complètement recommandable. Facile, rapide, agile... économique. J'avais un peu peur d'utiliser cette entreprise parce que tout était très numérique et transparent, sans historique, mais... un choix totalement réussi."
 	}
 } satisfies DataCopy;

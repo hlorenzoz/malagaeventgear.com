@@ -248,20 +248,5 @@ export default {
 			answer:
 				'Sì. Ogni pacchetto può essere esteso con extra come proiettori e schermi, macchine del fumo professionali, microfoni aggiuntivi, leggii premium in acrilico, pedane modulari da palco e ore aggiuntive di tecnico dal vivo. Comunicaci le tue esigenze al momento della richiesta di preventivo e costruiremo la configurazione perfetta per il tuo evento.'
 		}
-	},
-	reviews: {
-		'anna-wisser':
-			"Di recente abbiamo utilizzato Malaga Event Gear per la nostra End of Season Party, e il servizio è stato eccezionale. L'audio e l'attrezzatura erano di altissima qualità, e abbiamo avuto un tecnico dedicato in loco per tutto il tempo, pronto ad aiutarci con tutto ciò di cui avevamo bisogno. Un'esperienza fantastica. Altamente consigliato.",
-		'carlos-gottsch':
-			'Grazie a Malaga Event Gear per il loro aiuto rapido e totalmente affidabile. Senza di voi, la nostra festa non sarebbe stata possibile.',
-		'gines-de-biedma': 'Professionali ed efficienti, molto attenti ai dettagli, team altamente qualificato.',
-		'ting-ting-yu':
-			'Un team professionale, soluzioni efficienti e rapide, affidabile tra i tanti partner con cui potersi fidare, e che raccomando senza limiti a clienti e amici. Grazie Sergio e a tutto il team.',
-		'daniel-gombar':
-			"Sono davvero soddisfatto di questo team, hanno superato le mie aspettative. Dovendo organizzare una riunione a Malaga, è stato un grande aiuto non doversi preoccupare delle soluzioni visive e dell'audio: hanno reso tutto semplice e fluido. Hanno risposto a tutte le mie domande e fornito attrezzature di alta qualità per la riunione. Ne è valsa davvero la pena!",
-		'carlos-batlles':
-			"Questo team ha offerto un'esperienza impeccabile! Il loro MICE Pack ha reso tutto semplice per il nostro evento, e il team è stato professionale e affidabile allo stesso tempo. L'audio e l'illuminazione erano eccellenti, e si percepisce che tengono davvero al loro lavoro. Altamente consigliato!",
-		'rocio-plaza-gamez':
-			"Completamente consigliabile. Facile, agile, rapido... economico. Avevo un po' di timore a usare questa azienda perché era tutto molto digitale e trasparente, senza uno storico, ma... una scelta pienamente azzeccata."
 	}
 } satisfies DataCopy;

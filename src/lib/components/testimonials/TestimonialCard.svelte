@@ -1,45 +1,15 @@
 <script lang="ts">
-	import { page } from '$app/state';
 	import { i18n } from '$lib/i18n.svelte';
-	import { LOCALE_META } from '$lib/i18n/locales';
-	import type { DataCopy } from '$lib/i18n/data-copy';
 	import Icon from '$lib/components/navigation/Icon.svelte';
 	import type { Testimonial } from '$lib/data/testimonials';
 
 	let { testimonial }: { testimonial: Testimonial } = $props();
 
 	let expanded = $state(false);
-	// Once the reader asks to see the original, stay on it (no need to toggle back).
-	let showOriginal = $state(false);
 
-	// Reviews are quoted in their original language when that language matches the page's
-	// (comparing only the family: 'zh' matches zh-hans/zh-tw/zh-hk, 'pt' matches pt-pt/pt-br).
-	let sameLanguageFamily = $derived(
-		!!testimonial.lang && testimonial.lang.split('-')[0] === i18n.lang.split('-')[0]
-	);
-
-	// Per-locale review translations shipped with the page data (CLAUDE.md, data-copy.ts),
-	// falling back to a manual override on the testimonial itself.
-	let dataCopy = $derived((page.data?.dataCopy as DataCopy | null | undefined) ?? null);
-	let translatedBody = $derived(dataCopy?.reviews?.[testimonial.id] ?? testimonial.translation?.[i18n.lang]);
-
-	// Show the original when it already matches the page language, there is nothing to
-	// translate it with, or the reader chose to see it. Never invent a translation.
-	let isShowingOriginal = $derived(sameLanguageFamily || !translatedBody || showOriginal);
-	let body = $derived(isShowingOriginal ? testimonial.text : (translatedBody as string));
-
-	let originalLanguageName = $derived.by(() => {
-		if (!testimonial.lang) return '';
-		try {
-			return (
-				new Intl.DisplayNames([LOCALE_META[i18n.lang].intl], { type: 'language' }).of(testimonial.lang) ??
-				testimonial.lang
-			);
-		} catch {
-			return testimonial.lang;
-		}
-	});
-	let translatedFromLabel = $derived(i18n.t.notices.translatedFrom.replace('{language}', originalLanguageName));
+	// Reviews are ALWAYS quoted as the customer wrote them, in their original language, on every
+	// locale (user decision, 2026-09-24): never translated. `lang` marks that language.
+	let body = $derived(testimonial.text);
 
 	// Only long reviews get a Read more / Read less toggle.
 	const CLAMP_THRESHOLD = 160;
@@ -107,24 +77,11 @@
 
 	<p
 		class="font-body-md text-sm text-on-surface-variant flex-1 {!expanded && isLong ? 'line-clamp-4' : ''}"
-		lang={isShowingOriginal ? testimonial.lang : LOCALE_META[i18n.lang].htmlLang}
+		lang={testimonial.lang}
 	>
 		{body}
 	</p>
 
-	{#if !isShowingOriginal}
-		<p class="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-on-surface-variant/80" data-testid="translated-from">
-			<span>{translatedFromLabel}</span>
-			<button
-				type="button"
-				data-testid="show-original"
-				onclick={() => (showOriginal = true)}
-				class="font-label-sm text-electric-blue hover:underline focus-visible:outline-2 focus-visible:outline-electric-blue rounded"
-			>
-				{i18n.t.notices.showOriginal}
-			</button>
-		</p>
-	{/if}
 
 	{#if isLong}
 		<button

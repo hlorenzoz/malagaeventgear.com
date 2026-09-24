@@ -249,21 +249,5 @@ export default {
 			answer:
 				'Sim. Todos os pacotes podem ser ampliados com adicionais, como projetores e telas, máquinas de fumaça profissionais, microfones extras, púlpitos premium em acrílico, plataformas modulares de palco e horas extras de técnico ao vivo. Conte-nos suas necessidades ao solicitar um orçamento, e montaremos a configuração perfeita para o seu evento.'
 		}
-	},
-	reviews: {
-		'anna-wisser':
-			'Recentemente contratamos a Málaga Event Gear para nossa festa de encerramento de temporada, e o serviço foi excelente. O som e o equipamento eram de altíssima qualidade, e tivemos um técnico dedicado no local o tempo todo para nos ajudar com tudo o que precisávamos. Experiência fantástica. Recomendo muito.',
-		'carlos-gottsch':
-			'Obrigado à Málaga Event Gear pela ajuda rápida e totalmente confiável. Sem vocês, nossa festa não teria sido possível.',
-		'gines-de-biedma':
-			'Profissionais e eficientes, muito atentos aos detalhes, equipe altamente qualificada.',
-		'ting-ting-yu':
-			'Equipe profissional, soluções rápidas e eficientes, digna de confiança entre tantos parceiros, e recomendo sem limites a clientes e amigos. Obrigado, Sergio e equipe.',
-		'daniel-gombar':
-			'Estou muito satisfeito com essa equipe, eles superaram minhas expectativas. Tendo uma reunião em Málaga, foi uma grande ajuda não precisar me preocupar com as soluções visuais e de som, eles tornaram tudo fácil e tranquilo. Responderam todas as minhas perguntas e entregaram um equipamento de alta qualidade para a reunião. Vale muito a pena!',
-		'carlos-batlles':
-			'Essa equipe entregou uma experiência impecável! O pacote MICE deles facilitou tudo para o nosso evento, e a equipe foi profissional e confiável. O som e a iluminação eram de primeira, e dá para perceber que eles realmente se importam com o trabalho. Recomendo muito!',
-		'rocio-plaza-gamez':
-			'Totalmente recomendável. Fácil, ágil, rápido e econômico. Fiquei um pouco receosa de usar essa empresa porque era tudo muito digital e transparente, e não havia histórico, mas foi um acerto completo.'
 	}
 } satisfies DataCopy;

@@ -18,9 +18,7 @@ const t = {
 		serviceLanguages: 'Respondemos em inglês ou espanhol.',
 		legalTranslation:
 			'Esta é uma tradução. Se houver diferenças em relação à versão em inglês, a versão em inglês prevalece.',
-		readEnglish: 'Ler a versão em inglês',
-		translatedFrom: 'Traduzido de {language}',
-		showOriginal: 'Mostrar original'
+		readEnglish: 'Ler a versão em inglês'
 	},
 	// Breadcrumb names, keyed by English path segment (see i18n/breadcrumbs.ts)
 	crumbs: {
