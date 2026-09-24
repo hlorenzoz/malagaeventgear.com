@@ -14,7 +14,7 @@ export default {
 		'/sitemap/': { path: '/網站地圖/', keyword: '網站地圖', status: 'propuesta' },
 		'/privacy-policy/': { path: '/私隱政策/', keyword: '私隱政策', status: 'propuesta' },
 		'/terms-of-service/': { path: '/服務條款/', keyword: '服務條款', status: 'propuesta' },
-		'/gdpr/': { path: '/私隱條例/', keyword: '私隱條例', status: 'propuesta' },
+		'/gdpr/': { path: '/資料保障/', keyword: 'GDPR 資料保障', status: 'propuesta' },
 		'/cookie-policy/': { path: '/cookie政策/', keyword: '網站Cookie政策', status: 'propuesta' },
 		'/thank-you/': { path: '/多謝/' }
 	},
@@ -31,7 +31,7 @@ export default {
 		mice: { slug: '會展套餐', keyword: '馬拉加 大型會展音響投影套餐', status: 'propuesta' }
 	},
 	categories: {
-		'audio-visual-rental': { slug: '音響器材租賃', name: '音響器材租賃' },
+		'audio-visual-rental': { slug: '影音器材租借', name: '影音器材租借' },
 		'corporate-enterprise': { slug: '商業活動', name: '商業活動' },
 		events: { slug: '活動', name: '活動' },
 		gadgets: { slug: '電子產品', name: '電子產品' },
