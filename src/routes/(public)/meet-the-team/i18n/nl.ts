@@ -4,19 +4,19 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Technisch Team Malaga | Ons Team | MEG',
+		title: 'Technisch team Malaga | Ons team | MEG',
 		description:
-			'Maak kennis met het team van Malaga Event Gear! Leer meer over ons ervaren team achter onze professionele service en vlekkeloze evenementen in Malaga, Spanje.'
+			'Maak kennis met het team van Malaga Event Gear! Lees meer over ons ervaren team achter onze professionele service en vlekkeloze evenementen in Malaga, Spanje.'
 	},
 	hero: {
-		badge: 'Wie zit er achter MEG',
+		badge: 'Het team achter MEG',
 		title: 'Ons team',
 		intro:
-			'Maak kennis met het technisch team van Malaga Event Gear: getalenteerde specialisten die instaan voor opbouw, live engineering en een zorgeloze ervaring.'
+			'Maak kennis met de getalenteerde specialisten van Malaga Event Gear. Van opbouw tot technische begeleiding tijdens het evenement: wij zorgen voor een zorgeloze ervaring.'
 	},
 	technical: {
 		title: 'Technisch personeel',
-		subtitle: 'AV-engineering & opbouw',
+		subtitle: 'AV-techniek & opbouw',
 		body: 'Ervaren audiovisuele technici die zorgen voor een vlekkeloze opbouw en soepele werking van alle geluids-, verlichtings- en schermapparatuur.'
 	},
 	sales: {

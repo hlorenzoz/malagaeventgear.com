@@ -4,13 +4,13 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Cookie Richtlinie | Malaga Event Gear (MEG)',
+		title: 'Cookie-Richtlinie | Malaga Event Gear (MEG)',
 		description:
-			'Erfahren Sie, wie Malaga Event Gear Cookies und Tracking-Technologien einsetzt, um die Nutzbarkeit der Website zu optimieren und die Leistung zu analysieren.'
+			'Erfahren Sie, wie Malaga Event Gear Cookies und Trackingtechnologien einsetzt, um die Nutzbarkeit der Website zu optimieren und die Leistung zu analysieren.'
 	},
 	hero: {
 		badge: 'Tracking & Nutzbarkeit',
-		title: 'Cookie Richtlinie',
+		title: 'Cookie-Richtlinie',
 		effectiveDate: 'Gültig ab: 16. Oktober 2025'
 	},
 	whatAreCookies: {
@@ -25,12 +25,12 @@ export default {
 				body: 'Unbedingt erforderlich für die grundlegende Navigation, Sicherheit und die Speicherung Ihres hellen oder dunklen Designs. Sie können nicht deaktiviert werden.'
 			},
 			{
-				title: 'Analyse- & Performance-Cookies',
+				title: 'Analyse- und Leistungscookies',
 				body: 'Wir verwenden Google Analytics und die Google Search Console, um Traffic, technische Engpässe, Suchanfrageparameter und die Seitengeschwindigkeit zu überwachen. Alle erfassten Daten werden strikt aggregiert und pseudonymisiert.'
 			},
 			{
-				title: 'Verifizierungs-Cookies von Drittanbietern',
-				body: 'Um authentische Kundenbewertungen anzuzeigen, die direkt über Google My Business verifiziert wurden, binden wir Trustindex ein. Trustindex kann Cookies setzen, um Bewertungs-Widgets dynamisch nachzuverfolgen und zu validieren.'
+				title: 'Verifizierungscookies von Drittanbietern',
+				body: 'Um authentische Kundenbewertungen anzuzeigen, die direkt über Google My Business verifiziert wurden, binden wir Trustindex ein. Trustindex kann Cookies setzen, um Bewertungswidgets dynamisch nachzuverfolgen und zu validieren.'
 			}
 		]
 	},

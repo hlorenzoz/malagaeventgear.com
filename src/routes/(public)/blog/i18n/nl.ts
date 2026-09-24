@@ -4,23 +4,23 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Evenemententechniek Blog | Malaga Event Gear',
+		title: 'Blog over evenemententechniek | Malaga Event Gear',
 		description:
-			'Lees expertartikelen over kristalhelder geluid, romantische bruiloftverlichting, projectoropstellingen voor conferenties en professionele apparatuur in Malaga.'
+			'Lees expertartikelen over kristalhelder geluid, romantische bruiloftsverlichting, beameropstellingen voor conferenties en professionele apparatuur in Malaga.'
 	},
 	schema: {
-		name: 'Audiovisuele & Evenementenblog | MEG',
+		name: 'Blog over audiovisuele techniek en evenementen | MEG',
 		description:
-			'Technische gidsen, advies over AV-verhuur en tips voor bruiloftplanning in Malaga en aan de Costa del Sol.'
+			'Technische gidsen, advies over AV-verhuur en tips voor bruiloftsplanning in Malaga en aan de Costa del Sol.'
 	},
 	hero: {
-		badge: 'Kennis & Inspiratie',
-		titlePrefix: 'De Malaga Event Gear',
-		titleHighlight: 'Evenemententechniek Blog',
+		badge: 'Kennis & inspiratie',
+		titlePrefix: 'De technische blog van',
+		titleHighlight: 'Malaga Event Gear',
 		intro:
 			'We delen professionele inzichten, akoestische blauwdrukken en visuele inrichtingsgidsen om jouw bedrijfstop, bruiloft of feest aan de Costa del Sol technisch vlekkeloos te maken.'
 	},
-	empty: 'Nog geen berichten. Kom snel terug!',
+	empty: 'Nog geen berichten. Kom binnenkort nog eens kijken!',
 	newsBadge: 'Nieuws',
 	readMore: 'Lees meer →',
 	clustersHeading: 'Onze kernthema\'s',

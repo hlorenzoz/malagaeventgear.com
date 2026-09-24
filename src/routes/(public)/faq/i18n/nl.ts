@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Apparatuur Huren: Veelgestelde Vragen | MEG',
+		title: 'Apparatuur huren: veelgestelde vragen | MEG',
 		description:
 			'Vind duidelijke antwoorden op veelgestelde vragen over de professionele audiovisuele verhuur van Malaga Event Gear: pakketten, werkgebied (Malaga/Costa del Sol) en boekingsvoorwaarden.'
 	},

@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Algemene Voorwaarden | Malaga Event Gear (MEG)',
+		title: 'Algemene voorwaarden | Malaga Event Gear (MEG)',
 		description:
 			'Lees de officiële algemene voorwaarden voor de verhuurdiensten van Malaga Event Gear. Ontdek ons beleid over boekingen, betalingen en veilige service.'
 	},
@@ -19,12 +19,12 @@ const copy = {
 	},
 	scope: {
 		title: 'Omvang van de dienstverlening',
-		p1: 'We zijn gespecialiseerd in hifi actieve PA-systemen, professionele verlichtingsoplossingen (LED-lichtbalken, een zoom Fresnel-spot en een draadloze uplighting-kit), beamers met hoge lichtopbrengst, microfoons (bekabeld, draadloos, gooseneck), rookmachines en podiumplatforms.',
-		p2: 'Veel van onze pakketten, zoals het Wedding Pack en MICE Pack, omvatten vervoer, professionele installatie, live technische ondersteuning ter plaatse en afbraak na afloop van het evenement, voor een volledig zorgeloze ervaring.'
+		p1: 'We zijn gespecialiseerd in actieve PA-systemen met hifigeluid, professionele verlichtingsoplossingen (LED-lichtbalken, een fresnelspot met zoom en een draadloze set voor uplighting), beamers met hoge lichtopbrengst, microfoons (bekabeld, draadloos, zwanenhals), rookmachines en podiumplatforms.',
+		p2: 'Veel van onze pakketten, zoals het Wedding Pack en het MICE Pack, omvatten vervoer, professionele installatie, live technische ondersteuning ter plaatse en afbraak na afloop van het evenement, voor een volledig zorgeloze ervaring.'
 	},
 	limits: {
 		title: 'Geografische & operationele grenzen',
-		p1: 'Onze diensten zijn voornamelijk geconcentreerd in de provincie Malaga en aan de Costa del Sol (waaronder Malaga stad, Marbella, Fuengirola, Torremolinos, Estepona, Sevilla en aangrenzende gebieden). Service naar Granada is alleen beschikbaar voor pakketten van meer dan {price:outOfProvinceMinimum} vanwege de reistijd buiten de provincie voor een dag.',
+		p1: 'Onze diensten zijn voornamelijk geconcentreerd in de provincie Malaga en aan de Costa del Sol (waaronder Malaga stad, Marbella, Fuengirola, Torremolinos, Estepona, Sevilla en aangrenzende gebieden). Granada bedienen we alleen bij pakketten van meer dan {price:outOfProvinceMinimum}, vanwege de extra reiskosten van een dagtrip buiten de provincie.',
 		p2: 'Malaga Event Gear is 7 dagen per week bereikbaar, van 8.00 tot 20.00 uur voor commerciële aanvragen, en 24 uur per dag, 7 dagen per week voor technische logistiek en opbouwondersteuning.',
 		p3: 'Om absolute technische nauwkeurigheid te garanderen voor ons internationale publiek, verlopen alle communicatie, documentatie en boekingen in het Engels of het Spaans.'
 	},
@@ -35,7 +35,7 @@ const copy = {
 	},
 	obligations: {
 		title: 'Verplichtingen van de klant & verantwoordelijkheid voor apparatuur',
-		body: 'De klant is verantwoordelijk voor toegang tot de locatie en beschikbare stopcontacten op de afgesproken locatie en het afgesproken tijdstip. De klant erkent dat hij hoogwaardige, professionele apparatuur huurt en moet de veiligheid en fysieke integriteit van de apparatuur waarborgen tijdens de afgesproken huurperiode.'
+		body: 'De klant zorgt ervoor dat de locatie toegankelijk is en dat de benodigde stopcontacten beschikbaar zijn op de afgesproken plaats en tijd. De klant erkent dat hij hoogwaardige, professionele apparatuur huurt en moet de veiligheid en fysieke integriteit van de apparatuur waarborgen tijdens de afgesproken huurperiode.'
 	}
 } satisfies Copy;
 

@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Veranstaltungstechnik Angebot anfordern Malaga | MEG',
+		title: 'Angebot für Veranstaltungstechnik in Malaga anfordern | MEG',
 		description:
 			'Kontaktieren Sie Malaga Event Gear für ein Angebot zur Miete von Beschallung, Licht und Leinwänden. Technischer Support rund um die Uhr.'
 	},
@@ -15,12 +15,12 @@ export default {
 	},
 	whatsappLinkText: 'Schreiben Sie uns',
 	messages: {
-		packIntro: 'Hallo, ich interessiere mich für das Pack: {pack}. Bitte teilen Sie mir die Verfügbarkeit und Details mit.',
+		packIntro: 'Hallo, ich möchte folgendes Paket buchen: {pack}. Bitte teilen Sie mir die Verfügbarkeit und die Details mit.',
 		categoryIntro:
-			'Hallo, ich interessiere mich für Technik aus der Kategorie: {category}. Ich freue mich auf Ihr Angebot.'
+			'Hallo, ich möchte Technik aus folgender Kategorie mieten: {category}. Ich freue mich auf Ihr Angebot.'
 	},
 	errors: {
-		pastDate: 'Bitte wählen Sie ein Veranstaltungsdatum nach heute.'
+		pastDate: 'Bitte wählen Sie ein Veranstaltungsdatum ab morgen.'
 	},
 	form: {
 		namePlaceholder: 'Vollständiger Name',

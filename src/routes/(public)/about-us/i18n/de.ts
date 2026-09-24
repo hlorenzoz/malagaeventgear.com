@@ -12,12 +12,12 @@ export default {
 		badge: 'Wer wir sind',
 		title: 'Über uns',
 		intro:
-			'Willkommen bei Malaga Event Gear (MEG), Ihrer Verleihfirma für Veranstaltungstechnik in Malaga, Spanien. Wir sind spezialisiert auf hochwertige Audiovisuell-Technik für Veranstaltungen jeder Größe.'
+			'Willkommen bei Malaga Event Gear (MEG), Ihrer zuverlässigen Verleihfirma für Veranstaltungstechnik in Malaga, Spanien. Wir sind spezialisiert auf erstklassige audiovisuelle Technik für Veranstaltungen jeder Größe.'
 	},
 	story: {
 		title: 'Unsere Mission & Geschichte',
-		p1: 'Malaga Event Gear ist seit 1996 in der Audiovisuell-Branche tätig und arbeitet seit 2010 freiberuflich und unabhängig. Über drei Jahrzehnte haben wir eine Leidenschaft für makellose Veranstaltungen und glasklare Akustik entwickelt.',
-		p2: 'Wir arbeiten ausschließlich mit Lieferung und direktem Aufbau, das heißt, wir unterhalten kein physisches Ladengeschäft. Stattdessen bringen wir unsere hochwertigen Systeme, Verkabelung und Support direkt zu Ihrer Villa, Ihrem Hotel oder Veranstaltungsort in Malaga und an der Costa del Sol.'
+		p1: 'Malaga Event Gear ist seit 1996 in der audiovisuellen Branche tätig und arbeitet seit 2010 freiberuflich und unabhängig. In drei Jahrzehnten haben wir eine Leidenschaft für makellose Veranstaltungen und glasklare Akustik entwickelt.',
+		p2: 'Wir arbeiten ausschließlich mit Lieferung und direktem Aufbau, das heißt, wir unterhalten kein physisches Ladengeschäft. Stattdessen kommen wir mit unseren hochwertigen Systemen, der Verkabelung und unserem Support direkt zu Ihrer Villa, Ihrem Hotel oder Ihrem Veranstaltungsort in Malaga und an der Costa del Sol.'
 	},
 	stats: {
 		experienceTitle: 'Jahre Erfahrung',
@@ -31,27 +31,27 @@ export default {
 			'Wir bieten ein breites Spektrum an Verleihleistungen, zugeschnitten auf die Bedürfnisse verschiedenster Veranstaltungen, darunter Hochzeiten, Firmenevents, private Feiern und MICE-Konferenzen.',
 		sound: {
 			title: 'Beschallungsanlagen',
-			body: 'Von kleinen Lautsprecher-Sets für private Feiern bis hin zu hochauflösenden aktiven PA-Anlagen für große Veranstaltungsorte.'
+			body: 'Von kleinen Lautsprechersets für private Feiern bis hin zu aktiven PA-Anlagen in Hi-Fi-Qualität für große Veranstaltungsorte.'
 		},
 		lighting: {
 			title: 'Beleuchtung',
-			body: 'LED-Lichtleisten mit RGBW-Spots, ein Fresnel-Scheinwerfer mit Zoom und ein kabelloses batteriebetriebenes Uplighting-Set für die perfekte Atmosphäre.'
+			body: 'LED-Lichtleisten mit RGBW-Spots, ein Fresnel-Scheinwerfer mit Zoom und ein kabelloses, batteriebetriebenes Set für Uplighting sorgen für die perfekte Atmosphäre.'
 		},
 		screens: {
 			title: 'Leinwände und Beamer',
-			body: 'Beamer mit bis zu 5.000 Lumen und Projektionsleinwände, ideal für Präsentationen, Konferenzen und Open-Air-Kinoevents.'
+			body: 'Beamer mit bis zu 5.000 Lumen und Projektionsleinwände, ideal für Präsentationen, Konferenzen und Kinoabende unter freiem Himmel.'
 		},
 		microphones: {
 			title: 'Mikrofone',
-			body: 'Professionelle kabelgebundene und kabellose Handmikrofone von Audix, sowie kabellose Ansteck- und Headset-Sets.'
+			body: 'Professionelle kabelgebundene und kabellose Handmikrofone von Audix sowie kabellose Ansteckmikrofone und Headsets.'
 		},
 		technicians: {
-			title: 'Event-Techniker',
-			body: 'Erfahrene Ton- und Lichttechniker, die Aufbau, Betrieb und Live-Überwachung Ihrer Veranstaltung begleiten.'
+			title: 'Veranstaltungstechniker',
+			body: 'Erfahrene Ton- und Lichttechniker, die Aufbau und Betrieb übernehmen und Ihre Veranstaltung live überwachen.'
 		},
 		effects: {
 			title: 'Spezialeffekte',
-			body: 'Eine professionelle Martin Magnum 650 Nebelmaschine, die für Atmosphäre auf der Tanzfläche und der Bühne sorgt.'
+			body: 'Eine professionelle Nebelmaschine vom Typ Martin Magnum 650, die für Atmosphäre auf der Tanzfläche und der Bühne sorgt.'
 		}
 	},
 	cta: {

@@ -58,7 +58,7 @@ const t = {
 		card2Title: '#2 Pakketten op maat',
 		card2Text: 'Flexibele huurpakketten, perfect afgestemd op elke evenementgrootte, locatie en elk budget.',
 		card3Title: '#3 Geavanceerde technologie',
-		card3Text: 'Geniet van state of the art audiovisuele apparatuur die de beeld- en geluidskwaliteit van je productie naar een hoger niveau tilt.'
+		card3Text: 'Geniet van hypermoderne audiovisuele apparatuur die de beeld- en geluidskwaliteit van je productie naar een hoger niveau tilt.'
 	},
 	// Overview (At a Glance: answer-engine optimization)
 	overview: {
@@ -66,9 +66,9 @@ const t = {
 		sellQ: 'Wat verkopen we?',
 		sellA: 'We verhuren premium audiovisuele apparatuur, zoals professionele geluidssystemen, podiumverlichting, beamers en schermen, voor evenementen in Malaga en aan de Costa del Sol, inclusief levering, opbouw en technische ondersteuning ter plaatse.',
 		whoQ: 'Voor wie is dit?',
-		whoA: 'Stellen die een bruiloft plannen, bedrijven die conferenties en zakelijke evenementen organiseren, en iedereen die een feest of privéfeest geeft en op zoek is naar vlekkeloos geluid en licht zonder de apparatuur zelf te kopen.',
+		whoA: 'Stellen die een bruiloft plannen, bedrijven die conferenties en zakelijke evenementen organiseren, en iedereen die een feest of privéviering geeft en vlekkeloos geluid en licht wil zonder de apparatuur zelf te kopen.',
 		costQ: 'Wat kost het?',
-		costA: 'pakketten met een vaste prijs zonder verborgen kosten, afgestemd op de grootte van je evenement, plus offertes op maat voor grotere producties.',
+		costA: 'Pakketten met een vaste prijs zonder verborgen kosten, afgestemd op de grootte van je evenement, plus offertes op maat voor grotere producties.',
 		costFrom: 'Vanaf',
 		howQ: 'Hoe werkt het?',
 		howA: 'Vier eenvoudige stappen: kies je pakket, vraag een offerte aan, wij bevestigen en bereiden je apparatuur voor, en ons team levert en installeert alles op de dag van je evenement.'
@@ -85,20 +85,20 @@ const t = {
 		badge: 'Premium apparatuur',
 		title: 'Beschikbare categorieën',
 		soundTitle: 'Geluidssystemen',
-		soundText: 'Kristalhelder hifi-geluid, ideaal voor intieme bruiloften of grote zakelijke conferenties. We werken met toonaangevende merken voor de hoogste akoestische kwaliteit.',
+		soundText: 'Kristalhelder hifigeluid, ideaal voor intieme bruiloften of grote zakelijke conferenties. We werken met toonaangevende merken voor de hoogste akoestische kwaliteit.',
 		lightTitle: 'Verlichting',
 		lightText: 'Dynamische verlichtingsoplossingen voor de perfecte sfeer op je locatie.',
 		visualTitle: 'Beamers & schermen',
 		visualText: 'Scherpe beelden in high definition voor presentaties met grote visuele impact.',
 		fxTitle: 'Speciale effecten & rookmachines',
 		fxText: 'Creëer een verbluffende sfeer op je evenement met onze professionele speciale effecten en rookmachines.',
-		bookEquipment: 'Bekijk pakketten'
+		bookEquipment: 'Pakketten boeken'
 	},
 	// Pricing
 	pricing: {
 		badge: 'Transparante prijzen',
 		title: 'Pakketten op maat voor elk evenement',
-		subtitle: 'Kies uit onze flexibele huurpakketten, perfect afgestemd op elke evenementgrootte en elk budget. Plannen was nog nooit zo simpel!',
+		subtitle: 'Kies uit onze flexibele huurpakketten, perfect afgestemd op elke evenementgrootte en elk budget. Wij maken plannen eenvoudig!',
 		includes: 'Inclusief:',
 		includedServices: 'Inbegrepen diensten:',
 		optional: 'Optioneel:',
@@ -115,7 +115,7 @@ const t = {
 		clearAll: 'Alles wissen',
 		resetFilters: 'Filters resetten',
 		showingResults: '{visible} van {total} pakketten weergegeven',
-		noResults: 'Geen pakketten komen overeen met je filters. Probeer wat selecties te wissen!',
+		noResults: 'Geen enkel pakket past bij je filters. Probeer een paar filters uit te zetten!',
 		openFilters: 'Filters',
 		done: 'Toon resultaten',
 		purpose: 'Type evenement',
@@ -130,7 +130,7 @@ const t = {
 		presentation: 'Presentaties',
 		meeting: 'Vergaderingen',
 		small: 'Klein (tot 50 gasten)',
-		medium: 'Middelgroot (51-80 gasten)',
+		medium: 'Middelgroot (51 tot 80 gasten)',
 		large: 'Groot (80+ gasten)',
 		priceLow: 'Tot {price:budgetLow}',
 		priceMid: '{price:budgetLow} tot {price:budgetHigh}',
@@ -140,11 +140,11 @@ const t = {
 		sound: 'Geluidssysteem',
 		microphone: 'Microfoons',
 		lighting: 'Sfeerverlichting',
-		technician: 'Technicus',
+		technician: 'Technicus ter plaatse',
 		projector: 'Beamer',
 		smokeMachine: 'Rookmachine',
 		technicalAssistant: 'Technische assistent',
-		lectern: 'Katheder',
+		lectern: 'Spreekgestoelte',
 		staging: 'Podium',
 		recommended: 'Aanbevolen',
 		priceAsc: 'Prijs: laag naar hoog',
@@ -182,7 +182,7 @@ const t = {
 		formErrorRateLimited: 'Te veel aanvragen. Wacht een paar minuten en probeer het opnieuw.',
 		lockedFieldNote: 'Automatisch gegenereerd vanuit een foutmelding. Dit veld kan niet worden bewerkt.',
 		errorPrefillMessage:
-			'Hoi, ik heb via jullie website een pakketaanvraag ingediend, maar de bevestigingsmail is niet aangekomen. Kun je bevestigen dat je mijn aanvraag hebt ontvangen? Referentie: {ref}',
+			'Hoi, ik heb via jullie website een pakketaanvraag ingediend, maar de bevestigingsmail is niet aangekomen. Kunnen jullie bevestigen dat jullie mijn aanvraag hebben ontvangen? Referentie: {ref}',
 		errorDetailsHeader: 'Ingediende gegevens:',
 		errorDetailSource: 'Formulier-URL',
 		errorDetailName: 'Naam',
@@ -210,9 +210,9 @@ const t = {
 		badge: 'Hoe het werkt',
 		title: 'Je evenement in 4 eenvoudige stappen',
 		s1Title: 'Kies je pakket',
-		s1Desc: 'Bekijk onze pakketten en kies degene die past bij de grootte en stijl van je evenement.',
+		s1Desc: 'Bekijk onze pakketten en kies het pakket dat past bij de grootte en stijl van je evenement.',
 		s2Title: 'Vraag een offerte aan',
-		s2Desc: 'Vul ons korte formulier in. We reageren zo snel mogelijk met de volledige beschikbaarheid.',
+		s2Desc: 'Vul ons korte formulier in. We reageren zo snel mogelijk met alle informatie over de beschikbaarheid.',
 		s3Title: 'Bevestig en plan',
 		s3Desc: 'Ons team bevestigt de logistiek, de toegang tot de locatie en elk technisch detail.',
 		s4Title: 'Geniet van je evenement',
@@ -227,7 +227,7 @@ const t = {
 	},
 	// FAQ
 	faq: {
-		badge: 'Veelgestelde vragen',
+		badge: 'FAQ',
 		title: 'Veelgestelde vragen'
 	},
 	// Testimonials (Google reviews)
@@ -254,7 +254,7 @@ const t = {
 		phoneLabelInput: 'Telefoon / WhatsApp *',
 		eventDateLabel: 'Datum evenement *',
 		commentsLabel: 'Vragen of opmerkingen',
-		commentsPlaceholder: 'Vertel ons over je evenement, locatie, aantal gasten, speciale wensen...',
+		commentsPlaceholder: 'Vertel ons over je evenement: locatie, aantal gasten, speciale wensen...',
 		submitBtn: 'Check beschikbaarheid',
 		submitting: 'Versturen...',
 		errorRequired: 'Dit veld is verplicht.',
@@ -275,7 +275,7 @@ const t = {
 		emailFailDismiss: 'Sluiten',
 		countryCode: 'Landcode',
 		responseTime: 'We reageren zo snel mogelijk',
-		trustBadge: 'Vertrouwd door 500+ evenementen in Málaga'
+		trustBadge: 'Gekozen voor meer dan 500 evenementen in Malaga'
 	},
 	// Thank-you page
 	thankYou: {
@@ -289,7 +289,7 @@ const t = {
 	// Gallery
 	gallery: {
 		titleHome: 'Onze evenementen in actie',
-		titlePackage: 'Eerdere evenementen met {pack}'
+		titlePackage: 'Eerdere evenementen met het {pack}'
 	},
 	// Google Map / Profile
 	googleMap: {
@@ -302,7 +302,7 @@ const t = {
 	// Footer
 	footer: {
 		brandSubtitle:
-			'Premium geluid, verlichting en schermverhuur voor exclusieve evenementen in Malaga en aan de Costa del Sol. Geavanceerde apparatuur en technische ondersteuning op maat.',
+			'Verhuur van premium geluid, verlichting en schermen voor exclusieve evenementen in Malaga en aan de Costa del Sol. Geavanceerde apparatuur en technische ondersteuning op maat.',
 		usefulLinks: 'Nuttige links',
 		home: 'Home',
 		packages: 'Pakketten',
@@ -328,8 +328,8 @@ const t = {
 		clickToChat: 'Klik om te chatten',
 		emails: 'E-mails',
 		forHire: 'Voor verhuur',
-		forContact: 'Voor contact',
-		forLegal: 'Voor juridisch',
+		forContact: 'Voor vragen',
+		forLegal: 'Voor juridische zaken',
 		allRightsReserved: 'Alle rechten voorbehouden.',
 		developedBy: 'Ontwikkeld door',
 		lorenzozTitle: 'Lorenzoz Agency: webontwikkelingsbureau en zakelijke oplossingen',
@@ -366,7 +366,7 @@ const t = {
 		notFoundHeading: 'Pagina niet gevonden',
 		genericHeading: 'Er is iets misgegaan',
 		notFoundBody: 'De pagina die je zoekt bestaat niet meer of is verplaatst. Ga naar de homepage of neem contact met ons op.',
-		genericBody: 'Er ging iets mis bij het verwerken van je aanvraag. Ga terug naar home of neem contact met ons op, dan lossen we het samen op.',
+		genericBody: 'Er ging iets mis bij het verwerken van je aanvraag. Ga terug naar home of neem contact met ons op, dan lossen we het op.',
 		contactUs: 'Neem contact op',
 		backHome: 'Terug naar home'
 	}

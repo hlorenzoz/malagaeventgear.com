@@ -4,24 +4,24 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Sitemap Malaga Event Gear (MEG)',
+		title: 'Sitemap | Malaga Event Gear (MEG)',
 		description:
-			'Entdecken Sie die Sitemap von Malaga Event Gear. Finden Sie Links zu allen unseren professionellen Audiovisuell- und Lichttechnik-Verleihleistungen, Paketen und Kontaktinformationen.'
+			'Entdecken Sie die Sitemap von Malaga Event Gear. Hier finden Sie Links zu allen unseren Leistungen im professionellen Verleih von AV- und Lichttechnik, zu unseren Paketen und zu unseren Kontaktinformationen.'
 	},
 	hero: {
-		badge: 'Website-Verzeichnis',
+		badge: 'Seitenverzeichnis',
 		title: 'Sitemap',
-		intro: 'Entdecken Sie unser vollständiges Verzeichnis mit statischen Seiten, speziellen Event-Paketen und Blog-Inhalten.'
+		intro: 'Entdecken Sie unser vollständiges Verzeichnis mit statischen Seiten, speziellen Eventpaketen und Bloginhalten.'
 	},
 	portals: {
 		heading: 'Wichtigste Bereiche',
 		home: 'Startseite',
 		pricing: 'Preise & Pakete',
-		equipment: 'Technik-Katalog',
+		equipment: 'Technikkatalog',
 		contact: 'Jetzt buchen / Kontakt'
 	},
 	packages: {
-		heading: 'Event-Pakete'
+		heading: 'Eventpakete'
 	},
 	legal: {
 		heading: 'Informationen & Rechtliches',
@@ -30,7 +30,7 @@ export default {
 		faq: 'Häufig gestellte Fragen',
 		terms: 'AGB',
 		privacy: 'Datenschutzerklärung',
-		cookies: 'Cookie Richtlinie',
+		cookies: 'Cookie-Richtlinie',
 		gdpr: 'DSGVO-Konformität'
 	},
 	blog: {

@@ -11,13 +11,13 @@ export default {
 	hero: {
 		badge: 'Häufige Fragen',
 		title: 'Häufig gestellte Fragen',
-		intro: 'Alles, was Sie über unsere professionelle Vermietung, Lieferung, Aufbau und den Buchungsablauf wissen müssen.'
+		intro: 'Alles, was Sie über unseren professionellen Verleih von Veranstaltungstechnik, die Lieferung, den Aufbau und den Buchungsablauf wissen müssen.'
 	},
 	filters: {
 		all: 'Alle Fragen',
 		services: 'Leistungen & Technik',
-		logistics: 'Logistik & Gebiete',
-		booking: 'Buchung & Zeitplan',
+		logistics: 'Logistik & Einsatzgebiete',
+		booking: 'Buchung & Fristen',
 		contact: 'Kontakt'
 	}
 } satisfies Copy;

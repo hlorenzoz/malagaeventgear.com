@@ -4,13 +4,13 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Evenementenpakketten Prijzen Malaga | MEG',
+		title: 'Evenementenpakketten en prijzen in Malaga | MEG',
 		description:
 			'Ontdek onze transparante tarieven en huurpakketten op maat voor geluid, verlichting en schermen in Malaga. Perfecte opties voor bruiloften, bedrijfsevenementen en feesten.'
 	},
 	closeFiltersAria: 'Filters sluiten',
 	faqSection: {
-		badge: 'Prijzen FAQ',
+		badge: 'FAQ over prijzen',
 		title: 'Veelgestelde vragen',
 		question: 'Zijn jullie pakketprijzen inclusief btw?',
 		answer:

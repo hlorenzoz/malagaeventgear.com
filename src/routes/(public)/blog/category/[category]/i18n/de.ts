@@ -5,7 +5,7 @@ export const updated = '2026-09-24';
 export default {
 	backLink: 'Alle Beiträge',
 	titleTemplate: '{name} | Blog | Malaga Event Gear',
-	descriptionTemplate: 'Lesen Sie alle Beiträge über {name} im Malaga Event Gear Blog.',
+	descriptionTemplate: 'Lesen Sie alle Beiträge über {name} im Blog von Malaga Event Gear.',
 	newsBadge: 'Neuigkeiten',
 	readMore: 'Weiterlesen →',
 	post: { singular: 'Beitrag', plural: 'Beiträge' }

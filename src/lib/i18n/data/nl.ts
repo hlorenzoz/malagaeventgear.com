@@ -4,18 +4,18 @@ export default {
 	packages: {
 		eco: {
 			updated: '2026-09-24',
-			desc: 'Het Eco Pack is het ideale goedkope feestpakket huren in Malaga, voor privéfeesten of kleine evenementen tot 50 gasten. Inclusief degelijk geluid en sfeerverlichting.',
+			desc: 'Met het Eco Pack huur je een voordelige geluidsset voor je feest in Malaga, ideaal voor privéfeesten of kleine evenementen tot 50 gasten. Inclusief degelijk basisgeluid en sfeerverlichting.',
 			includes: [
 				'2 hoogwaardige actieve speakers met standaards',
 				'1 bekabelde dynamische microfoon',
-				'2 lichtbalken met RGBW LED-spots',
+				'2 lichtbalken met RGBW-LED-spots',
 				'Esthetische bekabeling en professionele opbouw'
 			],
 			optional: ['Beamer & projectiescherm (+{price:projectorScreen})', 'Professionele rookmachine (+{price:smokeMachine})'],
-			seo: { title: 'Eco Pack: Goedkoop Feestpakket Huren Malaga | MEG' },
+			seo: { title: 'Eco Pack: geluidsset huren voor je feest in Malaga | MEG' },
 			landing: {
 				badge: 'Kleine evenementen & feesten',
-				rateLabel: 'Voordelig totaalpakket',
+				rateLabel: 'Voordelig totaaltarief',
 				vatNote: '(+21% btw), opbouw en vervoer inbegrepen',
 				specTitle: 'Tot 50 gasten',
 				specBody: 'Perfect voor villa\'s, tuinen en privézalen.',
@@ -32,18 +32,18 @@ export default {
 		},
 		wedding: {
 			updated: '2026-09-24',
-			desc: 'Het Wedding Pack is tot in de puntjes ontworpen voor magische, onvergetelijke bruiloftsvieringen. Bruiloft geluid en licht huren op topniveau: een professioneel high end geluidssysteem, romantische sfeerverlichting en draadloze microfoons voor ontroerende speeches.',
+			desc: 'Het Wedding Pack is tot in de puntjes ontworpen voor magische, onvergetelijke bruiloften. Zo huur je geluid en licht voor je bruiloft op topniveau: een professioneel geluidssysteem van topkwaliteit, romantische sfeerverlichting en draadloze microfoons voor ontroerende speeches.',
 			includes: [
-				'High end actief PA-geluidssysteem voor tot 80 gasten',
+				'Actief PA-systeem van topkwaliteit voor maximaal 80 gasten',
 				'Lichtsnoeren / warme LED-strings voor romantische sfeerverlichting',
 				'Professionele draadloze microfoons voor speeches en aankondigingen',
 				'Vervoer in Malaga en omstreken',
 				'Professionele, esthetische opbouw en bekabeling',
 				'Live technische controle en ondersteuning ter plaatse tijdens het evenement',
-				'Snelle afbraak en logistieke ophaling na afloop'
+				'Snelle afbraak en ophalen van de apparatuur na afloop'
 			],
 			optional: ['Professionele rookmachine (+{price:smokeMachine})'],
-			seo: { title: 'Wedding Pack: Bruiloft Geluid & Licht Huren Malaga' },
+			seo: { title: 'Wedding Pack: geluid en licht voor je bruiloft in Malaga' },
 			landing: {
 				badge: 'Ons populairste feestpakket',
 				rateLabel: 'Premium totaaltarief',
@@ -52,24 +52,24 @@ export default {
 				specBody: 'Perfect voor prachtige villa\'s, finca\'s en trouwhotels.',
 				highlightTitle: 'Live technicus ter plaatse',
 				highlightBody:
-					'Geen zorgen meer over microfoonruis of beeldproblemen. Dit pakket omvat volledige live technische monitoring en akoestische bijstellingen tijdens je diner en de speeches.',
-				includesLabel: 'Premium inbegrepen',
+					'Geen zorgen meer over rondzingende microfoons of beeldproblemen. Dit pakket omvat volledige live technische monitoring en akoestische bijstellingen tijdens je diner en de speeches.',
+				includesLabel: 'Inbegrepen premiumdiensten',
 				ctaHeading: 'Maak van je viering iets magisch',
 				ctaBody:
-					'Boekingen voor bruiloften raken snel vol. Leg je datum vandaag nog vast bij ons technisch team voor het beste geluid en de mooiste sfeerverlichting op je grote dag.',
+					'Bruiloftsdata raken snel volgeboekt. Leg je datum vandaag nog vast bij ons technisch team voor het beste geluid en de mooiste sfeerverlichting op je grote dag.',
 				ctaButton: 'Boek dit Wedding Pack'
 			}
 		},
 		'product-presentation': {
 			updated: '2026-09-24',
-			desc: 'Ontworpen voor zakelijke presentaties, showroom events en productlanceringen met grote visuele impact. Beamer en scherm huren voor je presentatie, met haarscherpe beelden.',
+			desc: 'Ontworpen voor zakelijke presentaties, showroomevenementen en productlanceringen met grote visuele impact. Zo huur je een beamer en scherm voor je presentatie, met haarscherpe beelden.',
 			includes: [
 				'1 frontprojectiescherm met stabiele standaard',
 				'1 beamer met hoge lichtopbrengst (5000 lumen) voor haarscherpe beelden',
 				'Geluidssysteem voor de locatie met 2 speakers & mengpaneel',
 				'1 premium draadloze handmicrofoon voor sprekers'
 			],
-			seo: { title: 'Product Presentation Pack: Beamer & Scherm Huren Malaga' },
+			seo: { title: 'Product Presentation Pack: beamer en scherm huren in Malaga' },
 			landing: {
 				badge: 'Zakelijke oplossingen met grote visuele impact',
 				rateLabel: 'Vast tarief Presentation Pack',
@@ -82,25 +82,25 @@ export default {
 				includesLabel: 'Wat is inbegrepen',
 				note: {
 					title: 'Ondersteuning bij opbouw & aansluiting',
-					body: 'We voorzien alle benodigde adapters (HDMI, USB-C) en audio-interfaces om je bedrijfslaptops, tablets of spelers naadloos aan te sluiten.'
+					body: 'We zorgen voor alle benodigde adapters (HDMI, USB-C) en audio-interfaces om je bedrijfslaptops, tablets of mediaspelers naadloos aan te sluiten.'
 				},
 				ctaHeading: 'Til je productpresentatie naar een hoger niveau',
 				ctaBody:
-					'Geef je publiek de visuele helderheid en het professionele geluid dat ze verdienen. Neem vandaag nog contact op met ons technisch team om de beschikbaarheid te bevestigen.',
+					'Geef je publiek de visuele helderheid en het professionele geluid die het verdient. Neem vandaag nog contact op met ons technisch team om de beschikbaarheid te bevestigen.',
 				ctaButton: 'Boek dit Presentation Pack'
 			}
 		},
 		'basic-mice': {
 			updated: '2026-09-24',
-			desc: 'Essentiële, krachtige audiovisuele opstelling voor kleine directievergaderingen, conferenties en presentaties tot 40 gasten. Ideaal als je kleine vergaderapparatuur wilt huren.',
+			desc: 'Essentiële, krachtige audiovisuele opstelling voor kleine directievergaderingen, conferenties en presentaties tot 40 gasten. Ideaal als je vergaderapparatuur wilt huren voor een kleine bijeenkomst.',
 			includes: [
-				'2x2m projectiescherm met beamer met hoge lichtopbrengst (3000 lumen)',
-				'Basis geluidsversterkingssysteem met kristalhelder geluid voor tot 40 personen',
-				'1 professionele gooseneck-microfoon voor podium/katheder',
+				'2x2 m projectiescherm en een beamer met hoge lichtopbrengst (3000 lumen)',
+				'Eenvoudig geluidsversterkingssysteem met kristalhelder geluid voor maximaal 40 personen',
+				'1 professionele zwanenhalsmicrofoon voor podium/spreekgestoelte',
 				'Logistiek vervoer, opbouw en esthetische bekabeling'
 			],
-			optional: ['Toegewijde technische assistent ter plaatse (+{price:technicianDay}/dag)'],
-			seo: { title: 'Basic MICE Pack: Vergaderapparatuur Huren Malaga | MEG' },
+			optional: ['Vaste technische assistent ter plaatse (+{price:technicianDay}/dag)'],
+			seo: { title: 'Basic MICE Pack: vergaderapparatuur huren in Malaga | MEG' },
 			landing: {
 				badge: 'Essentiële pakketten voor directievergaderingen',
 				rateLabel: 'Vast tarief zakelijke vergadering',
@@ -109,7 +109,7 @@ export default {
 				specBody: 'Ontworpen voor boardrooms, privésalons en hotelsuites.',
 				highlightTitle: 'Kristalheldere spraakverstaanbaarheid',
 				highlightBody:
-					'De professionele gooseneck-microfoonconfiguratie garandeert absolute helderheid bij directietoespraken, persaankondigingen of investeerderspanels, zonder galm of ruis.',
+					'De professionele opstelling met zwanenhalsmicrofoon garandeert absolute helderheid bij directietoespraken, persaankondigingen of investeerderspanels, zonder echo of rondzingen.',
 				includesLabel: 'Wat is inbegrepen',
 				optionalLabel: 'Optionele ondersteuning',
 				ctaHeading: 'Plan je directievergadering',
@@ -120,34 +120,34 @@ export default {
 		},
 		mice: {
 			updated: '2026-09-24',
-			desc: 'Complete zakelijke MICE-oplossing met een grootformaat beeldscherm, premium actieve geluidsversterking, draadloze podiummicrofoons en een toegewijde live technicus. Congrestechniek huren in Malaga voor elk detail van je evenement.',
+			desc: 'Complete zakelijke MICE-oplossing met een groot beeldscherm, premium actieve geluidsversterking, draadloze podiummicrofoons en een vaste technicus ter plaatse. Zo huur je congrestechniek in Malaga waarbij aan elk detail van je evenement is gedacht.',
 			includes: [
-				'Premium 60 inch high definition LED-scherm met designstandaard',
+				'Premium HD-LED-scherm van 60 inch met designstandaard',
 				'Professionele actieve speakers en krachtig geluidssysteem',
-				'1 gooseneck-microfoon + 1 draadloze handmicrofoon',
-				'1 toegewijde gespecialiseerde live AV-technicus (tot 6 uur onafgebroken ondersteuning)',
+				'1 zwanenhalsmicrofoon + 1 draadloze handmicrofoon',
+				'1 vaste, gespecialiseerde AV-technicus ter plaatse (tot 6 uur onafgebroken ondersteuning)',
 				'Logistieke levering, bekabeling op maat en afbraak na afloop'
 			],
 			optional: [
 				'Extra uur live technische ondersteuning (+{price:technicianHour}/u)',
-				'Premium moderne katheder in methacrylaat/acryl (+{price:lectern})',
+				'Modern premium spreekgestoelte van methacrylaat/acryl (+{price:lectern})',
 				'Modulaire podiumplatforms (+{price:stagingPerSqm} per vierkante meter)'
 			],
-			seo: { title: 'MICE Pack: Congrestechniek Huren Malaga | MEG' },
+			seo: { title: 'MICE Pack: congrestechniek huren in Malaga | MEG' },
 			landing: {
 				badge: 'Premium zakelijke MICE-ervaring',
 				rateLabel: 'Zakelijk totaaltarief',
 				vatNote: '(+21% btw), LED-scherm, geluid en live technicus inbegrepen',
 				specTitle: '60 inch LED-scherm',
-				specBody: 'Grootformaat high definition scherm voor krachtige zakelijke beelden.',
-				highlightTitle: 'Toegewijde live technicus',
+				specBody: 'Groot HD-scherm voor indrukwekkende zakelijke beelden.',
+				highlightTitle: 'Vaste technicus ter plaatse',
 				highlightBody:
 					'Een gespecialiseerde AV-technicus begeleidt je evenement tot 6 uur onafgebroken en garandeert vlekkeloos geluid, beeld en microfoonbeheer tijdens je top, conferentie of productlancering.',
-				includesLabel: 'Premium inbegrepen',
+				includesLabel: 'Inbegrepen premiumdiensten',
 				optionalLabel: 'Optionele extra\'s',
-				ctaHeading: 'Geef kracht aan je zakelijke evenement',
+				ctaHeading: 'Geef je zakelijke evenement extra slagkracht',
 				ctaBody:
-					'Bied een vlekkeloze zakelijke ervaring met premium AV en toegewijde technische ondersteuning. Neem vandaag nog contact op met ons team om de beschikbaarheid voor je datum te bevestigen.',
+					'Bied een vlekkeloze zakelijke ervaring met premium AV-apparatuur en vaste technische ondersteuning. Neem vandaag nog contact op met ons team om de beschikbaarheid voor je datum te bevestigen.',
 				ctaButton: 'Boek MICE Pack'
 			}
 		}
@@ -156,7 +156,7 @@ export default {
 		'what-is-meg': {
 			question: 'Wat is Malaga Event Gear (MEG) en welke diensten bieden zij aan?',
 			answer:
-				'Malaga Event Gear (MEG) is een bedrijf gevestigd in Malaga, Spanje, gespecialiseerd in de verhuur van professionele audiovisuele, verlichtings- en evenementapparatuur. We leveren geluidssystemen, beamers, schermen, podia, technische ondersteuning, rookmachines, verlichtingsoplossingen en microfoons, plus gespecialiseerde diensten zoals live geluidsversterking, en simultaanvertaling en interactieve stemsystemen die we regelen via een onderaannemer.'
+				'Malaga Event Gear (MEG) is een bedrijf gevestigd in Malaga, Spanje, gespecialiseerd in de verhuur van professionele audiovisuele, verlichtings- en evenementapparatuur. We leveren geluidssystemen, beamers, schermen, podia, technische ondersteuning, rookmachines, verlichtingsoplossingen en microfoons, plus gespecialiseerde diensten zoals live geluidsversterking. Simultaanvertaling en interactieve stemsystemen regelen we via een onderaannemer.'
 		},
 		'event-types': {
 			question: 'Voor welke soorten evenementen kan Malaga Event Gear (MEG) zorgen?',
@@ -166,7 +166,7 @@ export default {
 		'service-areas': {
 			question: 'Waar biedt Malaga Event Gear (MEG) haar diensten aan?',
 			answer:
-				'Hoewel "Malaga" in onze naam zit, reikt onze dienstverlening ver voorbij de stad. We zijn vooral actief in de hele Costa del Sol, waaronder Malaga stad, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena en Estepona. We bedienen ook Sevilla en Granada, al is voor Granada doorgaans een boeking van meer dan {price:outOfProvinceMinimum} vereist vanwege de reisafstand buiten de provincie.'
+				'Hoewel "Malaga" in onze naam zit, reikt onze dienstverlening ver voorbij de stad. We zijn vooral actief aan de hele Costa del Sol, waaronder Malaga stad, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena en Estepona. We bedienen ook Sevilla en Granada, al is voor Granada doorgaans een boeking van meer dan {price:outOfProvinceMinimum} vereist vanwege de reisafstand buiten de provincie.'
 		},
 		'what-makes-unique': {
 			question: 'Wat maakt Malaga Event Gear (MEG) uniek in vergelijking met andere verhuurbedrijven voor audiovisuele apparatuur?',
@@ -181,7 +181,7 @@ export default {
 		'popular-packages': {
 			question: 'Wat zijn enkele populaire pakketten van Malaga Event Gear?',
 			answer:
-				'Onze meest populaire kant en klare pakketten zijn {packagesWithPrices}, elk met andere apparatuur en kenmerken. Bekijk onze Prijzen-pagina voor het volledige overzicht van wat elk pakket bevat.'
+				'Onze populairste vooraf samengestelde pakketten zijn onder meer {packagesWithPrices}, elk met andere apparatuur en kenmerken. Bekijk onze prijzenpagina voor het volledige overzicht van wat elk pakket bevat.'
 		},
 		'language-hours': {
 			question: 'In welke taal communiceren zij met klanten en wat zijn hun openingstijden?',
@@ -191,7 +191,7 @@ export default {
 		'contact-info': {
 			question: 'Hoe kunnen klanten contact opnemen met Malaga Event Gear (MEG), en welke informatie moeten zij verstrekken?',
 			answer:
-				'Je kunt ons bereiken via telefoon op 666 346 911, via WhatsApp of per e-mail. Voor een nauwkeurige offerte deel je graag de datum van je evenement, de locatie, het verwachte aantal gasten en het type apparatuur of pakket waarin je geïnteresseerd bent. Bekijk onze Contact-pagina voor meer informatie.'
+				'Je kunt ons telefonisch bereiken op 666 346 911, via WhatsApp of per e-mail. Voor een nauwkeurige offerte vragen we je om de datum van je evenement, de locatie, het verwachte aantal gasten en het type apparatuur of pakket waarin je interesse hebt door te geven. Bekijk onze contactpagina voor meer informatie.'
 		},
 		'delivery-setup': {
 			question: 'Bieden jullie levering en opbouw voor geluids- en lichtapparatuur?',
@@ -206,47 +206,47 @@ export default {
 		'on-site-technician': {
 			question: 'Bieden jullie een technicus ter plaatse tijdens het evenement?',
 			answer:
-				'Ja. Verschillende pakketten, zoals het Wedding Pack en het volledige MICE Pack, omvatten een toegewijde live technicus die zorgt voor technische controle en ondersteuning tijdens je evenement. Bij pakketten waar dit niet is inbegrepen (bijvoorbeeld het Basic MICE Pack), kan technische ondersteuning ter plaatse optioneel worden toegevoegd vanaf {price:technicianDay} per dag.'
+				'Ja. Verschillende pakketten, zoals het Wedding Pack en het volledige MICE Pack, omvatten een vaste technicus die tijdens je hele evenement zorgt voor technische controle en ondersteuning. Bij pakketten waar dit niet is inbegrepen (bijvoorbeeld het Basic MICE Pack), kan technische ondersteuning ter plaatse optioneel worden toegevoegd vanaf {price:technicianDay} per dag.'
 		},
 		'equipment-brands': {
 			question: 'Met welke apparatuurmerken werken jullie?',
 			answer:
-				'We gebruiken premium professionele merken die vertrouwd worden in de live-evenementenbranche, waaronder Audix en HK Audio voor geluid, Eurolite en ADJ voor verlichting en Martin voor rookeffecten. Dit garandeert betrouwbaar, hoogwaardig geluid en lichtprestaties bij elke boeking.'
+				'We gebruiken professionele topmerken waarop de evenementenbranche vertrouwt, waaronder Audix en HK Audio voor geluid, Eurolite en ADJ voor verlichting en Martin voor rookeffecten. Zo garanderen we bij elke boeking betrouwbaar geluid en licht van hoge kwaliteit.'
 		},
 		'delivery-only': {
 			question: 'Bieden jullie een zelfafhaaloptie, of werken jullie uitsluitend met levering?',
 			answer:
-				'We werken uitsluitend op basis van levering, er is geen zelfafhaaloptie. Dit garandeert dat elk systeem professioneel wordt vervoerd, geïnstalleerd en gekalibreerd door ons team, zodat de apparatuur precies werkt zoals bedoeld tijdens je evenement.'
+				'We werken uitsluitend op basis van levering. Er is geen zelfafhaaloptie. Dit garandeert dat elk systeem professioneel wordt vervoerd, geïnstalleerd en gekalibreerd door ons team, zodat de apparatuur precies werkt zoals bedoeld tijdens je evenement.'
 		},
 		'streaming-recording': {
 			question: 'Bieden jullie livestreaming en multicamera-opnames aan?',
 			answer:
-				'Nee. We bieden geen camera\'s, streaming-encoders, multicamera-videoproductie of opnamediensten aan. Wij leveren het geluid, scherm en de verlichting van de ruimte, voor een hybride of virtueel evenement breng je zelf je laptop, streamingsoftware en internetverbinding mee.'
+				'Nee. We bieden geen camera\'s, streamingencoders, videoproductie met meerdere camera\'s of opnamediensten aan. Wij leveren het geluid, het scherm en de verlichting in de zaal. Voor een hybride of virtueel evenement neem je zelf je laptop, streamingsoftware en internetverbinding mee.'
 		},
 		'translation-voting': {
 			question: 'Bieden jullie simultaanvertaling of interactieve stemsystemen aan?',
 			answer:
-				'Ja, we verzorgen simultaanvertaling en interactieve stemsystemen, zij het niet met eigen apparatuur: we regelen beide via een onderaannemer voor zakelijke evenementen en congressen. Laat ons je wensen weten bij het aanvragen van een offerte. We bieden geen LED-videowall aan. Ons grootformaat scherm is een enkel plat paneel van 60 inch.'
+				'Ja, we verzorgen simultaanvertaling en interactieve stemsystemen, zij het niet met eigen apparatuur: we regelen beide via een onderaannemer voor zakelijke evenementen en congressen. Laat ons je wensen weten bij het aanvragen van een offerte. We bieden geen LED-videowall aan. Ons grote beeldscherm is één flatscreen van 60 inch.'
 		},
 		'large-scale-events': {
 			question: 'Kunnen jullie grootschalige congressen, beurzen en exposities aan?',
 			answer:
-				'Absoluut. Naast bruiloften en zakelijke vergaderingen verzorgen we ook grootschalige evenementen zoals congressen, beurzen en exposities met audiovisuele oplossingen op maat, waarbij we geluidsversterking, grootformaat schermen, podia en toegewijd technisch personeel combineren waar nodig.'
+				'Absoluut. Naast bruiloften en zakelijke vergaderingen verzorgen we ook grootschalige evenementen zoals congressen, beurzen en exposities met audiovisuele oplossingen op maat, waarbij we geluidsversterking, grote schermen, podia en vast technisch personeel combineren waar nodig.'
 		},
 		'notice-time': {
-			question: 'Wat is de minimale aanvraagtermijn om te boeken?',
+			question: 'Hoe ver van tevoren moet ik minimaal boeken?',
 			answer:
 				'Alle verhuur van evenementapparatuur en technische diensten moet minstens 24 uur van tevoren worden geboekt, om planning en logistieke beschikbaarheid te garanderen. Voor grote of complexe evenementen raden we aan zo vroeg mogelijk te boeken om je datum vast te leggen.'
 		},
 		'minimum-order-granada': {
 			question: 'Is er een minimumbestelling voor service buiten de Costa del Sol?',
 			answer:
-				'Binnen de Costa del Sol geldt geen speciaal minimum. Voor verder gelegen bestemmingen buiten de provincie, zoals Granada, vragen we een minimale huurwaarde van meer dan {price:outOfProvinceMinimum} om de logistieke reis van een dag te dekken. Ook Sevilla wordt bediend, neem contact op om de voorwaarden voor jouw specifieke locatie te bevestigen.'
+				'Binnen de Costa del Sol geldt geen speciaal minimum. Voor verder gelegen bestemmingen buiten de provincie, zoals Granada, vragen we een minimale huurwaarde van meer dan {price:outOfProvinceMinimum} om de logistieke reis van een dag te dekken. Ook Sevilla wordt bediend. Neem contact op om de voorwaarden voor jouw specifieke locatie te bevestigen.'
 		},
 		'customize-package': {
 			question: 'Kan ik een pakket aanpassen of uitbreiden voor mijn specifieke wensen?',
 			answer:
-				'Ja. Elk pakket kan worden uitgebreid met extra\'s zoals beamers en schermen, professionele rookmachines, extra microfoons, premium katheders in acryl, modulaire podiumplatforms en extra uren live technicus. Vertel ons je wensen bij het aanvragen van een offerte en we stellen de perfecte configuratie samen voor je evenement.'
+				'Ja. Elk pakket kan worden uitgebreid met extra\'s zoals beamers en schermen, professionele rookmachines, extra microfoons, premium spreekgestoelten van acryl, modulaire podiumplatforms en extra uren van een technicus ter plaatse. Vertel ons je wensen bij het aanvragen van een offerte en we stellen de perfecte configuratie samen voor je evenement.'
 		}
 	}
 } satisfies DataCopy;

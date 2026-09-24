@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Datenschutzerklärung Malaga Event Gear (MEG)',
+		title: 'Datenschutzerklärung | Malaga Event Gear (MEG)',
 		description:
 			'Lesen Sie die offizielle Datenschutzerklärung von Malaga Event Gear. Erfahren Sie, wie wir Ihre personenbezogenen Daten erheben, verarbeiten und schützen.'
 	},
@@ -15,12 +15,12 @@ export default {
 	},
 	whoWeAre: {
 		title: 'Wer wir sind',
-		body: 'Unsere Website-Adresse ist https://malagaeventgear.com. Bei Malaga Event Gear (MEG) verpflichten wir uns, Ihre personenbezogenen Daten zu schützen und transparente Informationen zur Datennutzung bereitzustellen.'
+		body: 'Unsere Website ist unter https://malagaeventgear.com erreichbar. Bei Malaga Event Gear (MEG) verpflichten wir uns, Ihre personenbezogenen Daten zu schützen und transparente Informationen zur Datennutzung bereitzustellen.'
 	},
 	infoCollected: {
 		title: 'Informationen, die wir erheben, und ihr Zweck',
 		intro:
-			'Wir erheben und verarbeiten personenbezogene Daten, wenn Sie mit unserem etablierten Geschäftsablauf interagieren (z. B. wenn Sie über unser Kontaktformular ein Angebot anfordern):',
+			'Wir erheben und verarbeiten personenbezogene Daten, wenn Sie unseren üblichen Geschäftsablauf nutzen (z. B. wenn Sie über unser Kontaktformular ein Angebot anfordern):',
 		table: {
 			headers: {
 				category: 'Datenkategorie',
@@ -30,7 +30,7 @@ export default {
 				{
 					category: 'Kontaktdaten',
 					purpose:
-						'Name, E-Mail, Telefon oder WhatsApp-ID, um Details abzuschließen, die Logistik zu koordinieren und Ihre Buchung zu bestätigen. Kommunikation auf Englisch oder Spanisch.'
+						'Name, E-Mail, Telefon oder WhatsApp-ID, um Details zu klären, die Logistik zu koordinieren und Ihre Buchung zu bestätigen. Kommunikation auf Englisch oder Spanisch.'
 				},
 				{
 					category: 'Veranstaltungslogistik',
@@ -46,8 +46,8 @@ export default {
 		}
 	},
 	reviews: {
-		title: 'Bewertungen & Sozialer Nachweis',
-		body: 'Wir zeigen eine AUSGEZEICHNET-Bewertung basierend auf verifizierten Google My Business-Bewertungen. Die Verifizierung der Bewertungen erfolgt dynamisch über Trustindex, wodurch sichergestellt wird, dass die ursprüngliche Quelle aller Kundenbewertungen echt und unverändert ist.'
+		title: 'Bewertungen & sozialer Nachweis',
+		body: 'Wir zeigen die Gesamtbewertung AUSGEZEICHNET auf Grundlage verifizierter Bewertungen aus Google My Business. Die Verifizierung der Bewertungen erfolgt dynamisch über Trustindex, wodurch sichergestellt wird, dass die ursprüngliche Quelle aller Kundenbewertungen echt und unverändert ist.'
 	},
 	retention: {
 		title: 'Datenspeicherung & Rechte',

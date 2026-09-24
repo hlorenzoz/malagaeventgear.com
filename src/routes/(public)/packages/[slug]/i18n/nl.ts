@@ -11,25 +11,25 @@ const copy = {
 	faqs: {
 		delivery: {
 			q: 'Zijn levering en opbouw inbegrepen in de pakketprijs?',
-			a: 'Ja, voor premium pakketten (zoals het {wedding} en {mice}) zijn volledige professionele levering, bekabeling en afbraak in Malaga en de directe omgeving inbegrepen. Voor standaardpakketten kan een kleine logistieke toeslag gelden, afhankelijk van de exacte locatie van je evenement.'
+			a: 'Ja, voor premium pakketten (zoals het {wedding} en het {mice}) zijn volledige professionele levering, bekabeling en afbraak in Malaga en de directe omgeving inbegrepen. Voor standaardpakketten kan een kleine logistieke toeslag gelden, afhankelijk van de exacte locatie van je evenement.'
 		},
 		areas: {
 			q: 'Welke gebieden bedienen jullie in Andalusië?',
-			a: 'We bedienen dagelijks Malaga stad, Marbella en de hele Costa del Sol. We bedienen ook Sevilla en Granada (voor bestellingen boven de {price:outOfProvinceMinimum}). Op dit moment bieden we geen ophaalmogelijkheid aan, omdat we uitsluitend op leveringsbasis werken.'
+			a: 'We bedienen dagelijks Malaga stad, Marbella en de hele Costa del Sol. Daarnaast leveren we in Sevilla en Granada (bij bestellingen van meer dan {price:outOfProvinceMinimum}). Op dit moment bieden we geen ophaalmogelijkheid aan, omdat we uitsluitend op leveringsbasis werken.'
 		},
 		rain: {
 			q: 'Wat gebeurt er als het regent tijdens een buitenevenement?',
-			a: 'Als je evenement buiten plaatsvindt, hebben we een overdekte ruimte nodig (tenten, pergola\'s) om de elektrische apparatuur te beschermen. Bij regen zonder overkapping werken we samen met jou om de apparatuur naar binnen te verplaatsen. De veiligheid van gasten en de bescherming van hoogspanningsapparatuur staan bij ons voorop.'
+			a: 'Als je evenement buiten plaatsvindt, hebben we een overdekte ruimte nodig (tenten, pergola\'s) om de elektrische apparatuur te beschermen. Bij regen zonder overkapping zoeken we samen met je een oplossing om de apparatuur naar binnen te verplaatsen. De veiligheid van gasten en de bescherming van de elektrische apparatuur staan bij ons voorop.'
 		},
 		technician: {
 			q: 'Wat gebeurt er als ik tijdens mijn evenement een technicus nodig heb?',
-			a: 'Onze premium pakketten (zoals het {wedding} en {mice}) bevatten al technische monitoring ter plaatse. Voor andere pakketten kun je een toegewijde geluids- en lichttechnicus aanvragen die op je locatie blijft, voor een zorgeloze ervaring.'
+			a: 'Onze premium pakketten (zoals het {wedding} en het {mice}) bevatten al technische monitoring ter plaatse. Voor andere pakketten kun je een eigen geluids- en lichttechnicus aanvragen die op je locatie blijft, voor een zorgeloze ervaring.'
 		}
 	},
 	popularBadge: 'Meest gekozen',
-	itemsIncludedSuffix: 'items inbegrepen',
+	itemsIncludedSuffix: 'onderdelen inbegrepen',
 	faqSectionTitle: 'Veelgestelde vragen',
-	stickyBarAriaLabel: 'Vastgezette call to action'
+	stickyBarAriaLabel: 'Vaste actiebalk'
 } satisfies Copy;
 
 export default copy;

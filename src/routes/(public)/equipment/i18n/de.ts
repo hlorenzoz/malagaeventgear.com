@@ -4,49 +4,49 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Veranstaltungstechnik Ausrüstung mieten | MEG',
+		title: 'Ton- und Lichttechnik mieten in Malaga: Katalog | MEG',
 		description:
-			'Entdecken Sie unser hochwertiges Sortiment an professionellen Beschallungsanlagen, dynamischer Beleuchtung, HD-Beamern und Spezialeffekten. Premium-Technik in Malaga.'
+			'Entdecken Sie unser hochwertiges Sortiment an professionellen Beschallungsanlagen, dynamischer Beleuchtung, HD-Beamern und Spezialeffekten. Erstklassige Technik in Malaga.'
 	},
 	schema: {
-		listName: 'Katalog für Veranstaltungstechnik-Verleih | Malaga Event Gear'
+		listName: 'Mietkatalog für Veranstaltungstechnik | Malaga Event Gear'
 	},
 	hero: {
 		badge: 'Modernste Technik',
-		titlePart1: 'Werten Sie Ihre Veranstaltung auf mit',
-		titlePart2: 'Premium-Technik',
+		titlePart1: 'Ihre Veranstaltung, aufgewertet durch',
+		titlePart2: 'erstklassige Technik',
 		subtitle:
-			'Entdecken Sie unseren Katalog mit hochwertigem Klang, spektakulärer Beleuchtung und Spezialeffekten. Wir haben die perfekten Werkzeuge, um Ihre Feier unvergesslich zu machen.'
+			'Entdecken Sie unseren Katalog mit hochwertigem Klang, spektakulärer Beleuchtung und Spezialeffekten. Bei uns finden Sie alles, um Ihre Feier unvergesslich zu machen.'
 	},
 	featured: {
-		imageAlt: 'MICE Audiovisuell-Paket Aufbau für Meetings',
+		imageAlt: 'Aufbau des MICE Pack für Meetings',
 		badge: 'Empfohlenes Paket',
-		desc: 'Ideal für Konferenzen und Firmenevents. Das MICE Pack beinhaltet ein 60-Zoll-LED-Display, Premium-AV-Technik, Tisch- und Funkmikrofone sowie bis zu 6 Stunden technischen Support vor Ort, damit Ihre Präsentation makellos abläuft.',
-		spec1: '60" LED-Display',
+		desc: 'Ideal für Konferenzen und Firmenevents. Das MICE Pack beinhaltet ein 60-Zoll-LED-Display, erstklassige AV-Technik, Tisch- und Funkmikrofone sowie bis zu 6 Stunden technischen Support vor Ort, damit Ihre Präsentation makellos abläuft.',
+		spec1: '60-Zoll-LED-Display',
 		spec2: 'Kabelloser Ton',
 		spec3: 'Technischer Support inbegriffen',
-		spec4: 'Premium-Klang',
+		spec4: 'Erstklassiger Klang',
 		cta: 'Informationen anfordern'
 	},
 	catalog: {
 		title: 'Technische Kategorien',
-		subtitle: 'Durchstöbern Sie unser Sortiment, um die technischen Anforderungen Ihrer Produktion zu erfüllen.'
+		subtitle: 'Finden Sie in unserem Sortiment die passende Technik für die Anforderungen Ihrer Produktion.'
 	},
 	audio: {
 		imageAlt: 'Professionelle Beschallungstechnik zur Miete',
-		desc: 'Line-Array-Systeme, Aktivlautsprecher, digitale Mischpulte und Audix-Funkmikrofone für höchste akustische Treue.'
+		desc: 'Line-Array-Systeme, Aktivlautsprecher, digitale Mischpulte und Audix-Funkmikrofone für höchste Klangtreue.'
 	},
 	lighting: {
 		imageAlt: 'Spektakuläre Eventbeleuchtung zur Miete',
-		desc: 'RGBW-LED-Spots, spezielle Bühnenbeleuchtung und ein kabelloses Uplighting-Set für romantische oder energiegeladene Atmosphären.'
+		desc: 'RGBW-LED-Spots, spezielle Bühnenbeleuchtung und ein kabelloses Set für Uplighting für eine romantische oder energiegeladene Atmosphäre.'
 	},
 	visuals: {
 		imageAlt: 'HD-Beamer und Leinwand zur Miete',
-		desc: 'Beamer mit bis zu 5.000 Lumen, Projektionsleinwände und ein 60 Zoll großes Display-Panel für ein gestochen scharfes visuelles Erlebnis für Ihr Publikum.'
+		desc: 'Beamer mit bis zu 5.000 Lumen, Projektionsleinwände und ein 60-Zoll-Display, damit Ihr Publikum gestochen scharfe Bilder sieht.'
 	},
 	effects: {
 		imageAlt: 'Professionelle Nebelmaschine für Veranstaltungen',
 		title: 'Spezialeffekte',
-		desc: 'Eine professionelle Martin Magnum 650 Nebelmaschine, die für Atmosphäre sorgt und die Lichtstrahlen auf der Tanzfläche sichtbar macht.'
+		desc: 'Eine professionelle Nebelmaschine vom Typ Martin Magnum 650, die für Atmosphäre sorgt und die Lichtstrahlen auf der Tanzfläche sichtbar macht.'
 	}
 } satisfies Copy;

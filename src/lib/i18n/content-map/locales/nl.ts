@@ -3,9 +3,9 @@ import type { LocaleContentMap } from '../schema';
 export default {
 	pages: {
 		'/': { path: '/', keyword: 'audiovisuele apparatuur huren Malaga', status: 'propuesta' },
-		'/about-us/': { path: '/over-ons/', keyword: 'verhuurbedrijf av apparatuur Malaga', status: 'propuesta' },
-		'/contact/': { path: '/contact/', keyword: 'offerte av apparatuur Malaga', status: 'propuesta' },
-		'/equipment/': { path: '/apparatuur/', keyword: 'geluid en licht apparatuur huren', status: 'propuesta' },
+		'/about-us/': { path: '/over-ons/', keyword: 'verhuurbedrijf AV-apparatuur Malaga', status: 'propuesta' },
+		'/contact/': { path: '/contact/', keyword: 'offerte AV-apparatuur Malaga', status: 'propuesta' },
+		'/equipment/': { path: '/apparatuur/', keyword: 'geluids- en lichtapparatuur huren', status: 'propuesta' },
 		'/packages/': { path: '/pakketten/', keyword: 'evenementenpakketten prijzen Malaga', status: 'propuesta' },
 		'/faq/': { path: '/veelgestelde-vragen/', keyword: 'apparatuur huren veelgestelde vragen', status: 'propuesta' },
 		'/meet-the-team/': { path: '/ons-team/', keyword: 'technisch team Malaga', status: 'propuesta' },
@@ -28,19 +28,19 @@ export default {
 	},
 	segments: { category: 'categorie', author: 'auteur' },
 	packages: {
-		eco: { slug: 'eco-pakket', keyword: 'goedkoop feestpakket huren Malaga', status: 'propuesta' },
+		eco: { slug: 'eco-pakket', keyword: 'geluidsset huren feest Malaga', status: 'propuesta' },
 		wedding: { slug: 'trouw-pakket', keyword: 'bruiloft geluid en licht huren', status: 'propuesta' },
 		'product-presentation': {
 			slug: 'productpresentatie-pakket',
 			keyword: 'beamer en scherm huren presentatie',
 			status: 'propuesta'
 		},
-		'basic-mice': { slug: 'mice-basis-pakket', keyword: 'vergaderapparatuur huren klein', status: 'propuesta' },
+		'basic-mice': { slug: 'mice-basis-pakket', keyword: 'vergaderapparatuur huren Malaga', status: 'propuesta' },
 		mice: { slug: 'mice-pakket', keyword: 'congrestechniek huren Malaga', status: 'propuesta' }
 	},
 	categories: {
-		'audio-visual-rental': { slug: 'av-verhuur', name: 'AV Verhuur' },
-		'corporate-enterprise': { slug: 'zakelijk', name: 'Zakelijk & Bedrijven' },
+		'audio-visual-rental': { slug: 'av-verhuur', name: 'AV-verhuur' },
+		'corporate-enterprise': { slug: 'zakelijk', name: 'Zakelijk & bedrijven' },
 		events: { slug: 'evenementen', name: 'Evenementen' },
 		gadgets: { slug: 'gadgets', name: 'Gadgets' },
 		news: { slug: 'nieuws', name: 'Nieuws' },

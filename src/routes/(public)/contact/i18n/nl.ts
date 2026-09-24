@@ -4,20 +4,20 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Offerte AV Apparatuur Malaga | Contact MEG',
+		title: 'Offerte AV-apparatuur Malaga | Contact MEG',
 		description:
-			'Neem contact op met Malaga Event Gear voor een offerte op maat voor geluid, verlichting en schermverhuur. 24 uur per dag technische ondersteuning.'
+			'Neem contact op met Malaga Event Gear voor een offerte op maat voor de huur van geluid, verlichting en schermen. Technische ondersteuning, 24 uur per dag, 7 dagen per week.'
 	},
 	schema: {
 		name: 'Contact | Malaga Event Gear',
 		description:
-			'Neem contact op met het technisch team van Malaga Event Gear voor offertes op maat voor geluid, verlichting en schermverhuur.'
+			'Neem contact op met het technisch team van Malaga Event Gear voor offertes op maat voor de huur van geluid, verlichting en schermen.'
 	},
 	whatsappLinkText: 'Stuur ons een bericht',
 	messages: {
-		packIntro: 'Hoi, ik ben geïnteresseerd in het pakket: {pack}. Laat me weten wat de beschikbaarheid en details zijn.',
+		packIntro: 'Hoi, ik wil graag het volgende pakket boeken: {pack}. Kunnen jullie me de beschikbaarheid en de details laten weten?',
 		categoryIntro:
-			'Hoi, ik ben geïnteresseerd in apparatuur uit de categorie: {category}. Ik hoor graag jullie offerte.'
+			'Hoi, ik wil graag apparatuur huren uit de categorie: {category}. Ik zie jullie offerte graag tegemoet.'
 	},
 	errors: {
 		pastDate: 'Kies een evenementdatum na vandaag.'

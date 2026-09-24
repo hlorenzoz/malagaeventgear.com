@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'DSGVO Malaga Event Gear: Datenschutz-Konformität',
+		title: 'DSGVO-Konformität | Malaga Event Gear (MEG)',
 		description:
 			'Erfahren Sie, wie Malaga Event Gear Ihre personenbezogenen Daten gemäß der Datenschutz-Grundverordnung (DSGVO) für den Verleih von Veranstaltungstechnik schützt.'
 	},
@@ -29,12 +29,12 @@ export default {
 				category: 'Identität & Kontakt',
 				legalBasis: 'Vertragserfüllung',
 				purpose:
-					'Zur Kommunikation, Finalisierung der Buchungsdetails und zum Versand von Angebotsdetails per E-Mail, Telefon oder WhatsApp auf Englisch oder Spanisch.'
+					'Zur Kommunikation, Klärung der Buchungsdetails und zum Versand von Angebotsdetails per E-Mail, Telefon oder WhatsApp auf Englisch oder Spanisch.'
 			},
 			{
 				category: 'Veranstaltungsort & -zeitplan',
 				legalBasis: 'Vertragserfüllung',
-				purpose: 'Wesentlich zur Koordination von Lieferung, individuellem professionellem Aufbau und Abbau.'
+				purpose: 'Erforderlich für die Koordination von Lieferung, individuellem, professionellem Aufbau und Abbau.'
 			},
 			{
 				category: 'Zahlungsdaten',
@@ -45,7 +45,7 @@ export default {
 		]
 	},
 	rights: {
-		title: 'Rechte der betroffenen Personen unter der DSGVO',
+		title: 'Rechte der betroffenen Personen nach der DSGVO',
 		intro: 'Gemäß der DSGVO haben Sie folgende Rechte hinsichtlich der von uns verarbeiteten personenbezogenen Daten:',
 		items: [
 			{
@@ -68,11 +68,11 @@ export default {
 	},
 	rightsPortal: {
 		title: 'Üben Sie Ihre DSGVO-Rechte aus',
-		body: 'Wählen Sie unten eine Aktion aus, um Ihre Datenschutzanfrage automatisch an unser Team für Datenschutz-Compliance zu übermitteln.',
+		body: 'Wählen Sie unten eine Aktion aus, um Ihre Datenschutzanfrage automatisch an unser Datenschutzteam zu übermitteln.',
 		buttons: {
-			access: 'Datenzugriff anfordern',
-			rectification: 'Datenberichtigung anfordern',
-			erasure: 'Datenlöschung anfordern'
+			access: 'Auskunft beantragen',
+			rectification: 'Berichtigung beantragen',
+			erasure: 'Löschung beantragen'
 		},
 		actions: {
 			access: 'Auskunft',

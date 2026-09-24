@@ -4,22 +4,22 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Geluid en Licht Apparatuur Huren Malaga | MEG',
+		title: 'Geluids- en lichtapparatuur huren in Malaga | MEG',
 		description:
-			'Ontdek onze hoogwaardige catalogus met professionele geluidssystemen, dynamische verlichting, hd-beamers en speciale effecten. Premium apparatuur in Malaga.'
+			'Ontdek onze hoogwaardige catalogus met professionele geluidssystemen, dynamische verlichting, HD-beamers en speciale effecten. Premium apparatuur in Malaga.'
 	},
 	schema: {
-		listName: 'Catalogus Audiovisuele Apparatuur Verhuur | Malaga Event Gear'
+		listName: 'Verhuurcatalogus audiovisuele apparatuur | Malaga Event Gear'
 	},
 	hero: {
 		badge: 'Geavanceerde technologie',
-		titlePart1: 'Geluid- en lichtapparatuur huren voor',
+		titlePart1: 'Geluids- en lichtapparatuur huren voor',
 		titlePart2: 'elk evenement in Malaga',
 		subtitle:
-			'Ontdek onze catalogus met hifi-geluid, spectaculaire verlichting en speciale effecten. We hebben de perfecte tools om jouw feest onvergetelijk te maken.'
+			'Ontdek onze catalogus met hifigeluid, spectaculaire verlichting en speciale effecten. We hebben alles in huis om jouw feest onvergetelijk te maken.'
 	},
 	featured: {
-		imageAlt: 'MICE audiovisuele pakketopstelling voor vergaderingen',
+		imageAlt: 'Opstelling van het MICE Pack voor vergaderingen',
 		badge: 'Uitgelicht pakket',
 		desc: 'Ideaal voor conferenties en bedrijfsevenementen. Het MICE Pack bevat een 60 inch LED-scherm, premium audiovisuele apparatuur, tafel- en draadloze microfoons, en tot 6 uur technische ondersteuning ter plaatse, zodat je presentatie vlekkeloos verloopt.',
 		spec1: '60" LED-scherm',
@@ -38,7 +38,7 @@ const copy = {
 	},
 	lighting: {
 		imageAlt: 'Spectaculaire evenementverlichting voor verhuur',
-		desc: 'RGBW LED-spots, specialistische podiumverlichting en een draadloze uplighting-set voor romantische of energieke sferen.'
+		desc: 'RGBW-LED-spots, specialistische podiumverlichting en een draadloze set voor uplighting voor een romantische of energieke sfeer.'
 	},
 	visuals: {
 		imageAlt: 'HD-beamers en schermverhuur',
@@ -47,7 +47,7 @@ const copy = {
 	effects: {
 		imageAlt: 'Professionele rookmachine voor evenementen',
 		title: 'Speciale effecten',
-		desc: 'Een professionele Martin Magnum 650 rookmachine die extra sfeer geeft en de lichtstralen zichtbaar maakt op de dansvloer.'
+		desc: 'Een professionele rookmachine, de Martin Magnum 650, die extra sfeer geeft en de lichtstralen zichtbaar maakt op de dansvloer.'
 	}
 } satisfies Copy;
 

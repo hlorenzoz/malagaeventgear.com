@@ -27,7 +27,7 @@ const copy = {
 	legal: {
 		heading: 'Informatie & juridisch',
 		about: 'Over ons bureau',
-		team: 'Ons deskundig team',
+		team: 'Ons deskundige team',
 		faq: 'Veelgestelde vragen',
 		terms: 'Algemene voorwaarden',
 		privacy: 'Privacybeleid',

@@ -9,12 +9,12 @@ export default {
 			'Malaga Event Gear (MEG) vermietet hochwertige Beschallungsanlagen, spektakuläre Beleuchtung, Beamer und Leinwände für Hochzeiten, Firmenevents und Feiern in Malaga.'
 	},
 	hero: {
-		imageAlt: 'Premium-Bühne mit professioneller Veranstaltungsbeleuchtung an der Costa del Sol'
+		imageAlt: 'Hochwertige Eventbühne mit professioneller Veranstaltungsbeleuchtung an der Costa del Sol'
 	},
 	categories: {
 		soundImageAlt: 'Professionelle Beschallungsanlage zur Miete',
 		lightImageAlt: 'Spektakuläre Eventbeleuchtung zur Miete',
-		visualImageAlt: 'HD-Eventvisuals und Beamer zur Miete'
+		visualImageAlt: 'Beamer und HD-Bilder für Events zur Miete'
 	},
 	faqSection: {
 		moreQuestions: 'Haben Sie weitere Fragen?',
@@ -23,7 +23,7 @@ export default {
 	posts: {
 		latestTitle: 'Neueste Beiträge',
 		latestViewAll: 'Alle Beiträge ansehen',
-		newsTitle: 'Neueste Nachrichten',
+		newsTitle: 'Aktuelle Neuigkeiten',
 		newsViewAll: 'Alle Neuigkeiten ansehen'
 	}
 } satisfies Copy;
