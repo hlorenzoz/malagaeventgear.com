@@ -7,6 +7,16 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (i18n-page-copy) - Fase 3, extraccion
+- **Copia de cada pagina en `<ruta>/i18n/<locale>.ts`** (ingles `en.ts` como fuente, espanol `es.ts`, cada traduccion con su propia fecha `updated`), cargada por el `+page.ts` de la ruta solo en el idioma de la pagina. Migradas: home, about-us, contact, equipment, packages, packages/[slug], faq, meet-the-team, sitemap HTML, las 4 legales y el chrome del blog (indice, categorias, categoria, autor). Componentes compartidos (footer, lead form, share, tarjeta de post, click to tweet, WhatsApp, mapa, layout de post, pagina de error) al diccionario global. Cero ternarios `i18n.lang === ...`.
+- **Enlaces internos** por `i18n.href(...)` y URLs de JSON-LD de pagina por `i18n.absolute(...)` con `inLanguage`.
+- **Un idioma por pagina**: el sitemap HTML ya no muestra ingles y espanol lado a lado. Resenas mostradas en otro idioma: traduccion marcada "Translated from X" con boton para ver el original.
+- **Avisos**: `LegalLanguageNotice` arriba de cada pagina legal traducida (prevalece el ingles) y `ServiceLanguageNotice` en contacto y en el formulario de paquete (atencion solo en ingles y espanol). Selector de idioma tambien en el footer.
+- **Afirmaciones corregidas contra el inventario** (`Equipamiento.csv`): about-us, equipment y el Product Presentation Pack decian proyectores laser (no hay ninguno: Vivitek D5 de 3000 lm y Christie LX505 de 5000 lm), moving heads, hazers, niebla baja, canones de confeti y microfonos de cuello de cisne. Reescrito con el equipo real y fechas actualizadas. Pendiente: 14 posts del blog mencionan proyectores laser, se corrigen en su lote de la Fase 4.
+- **Precios**: la home y el indice de paquetes mostraban `290 €` tambien en ingles. Ahora todo pasa por `formatPrice(amount, locale)`. Equipment tenia el literal `490.00 €` y "MICE Pack" escritos a mano, ahora salen del catalogo.
+- **Errores previos corregidos al pasar**: textos solo en ingles en la vista espanola (footer, RGPD), numeracion doble en la politica de cookies en espanol, email y WhatsApp escritos a mano en el footer y el widget.
+- **Bug de hidratacion en `/map`**: el glob de fechas de traduccion importaba `updated` tambien de los `en.ts` (que no lo exportan) y rompia el modulo en el navegador. Los `en.ts` quedan excluidos del glob.
+
 ### Added (blog-avif-picture)
 - **Las imagenes del blog con AVIF se sirven como `<picture>`**: `scripts/rehype-blog-images.mjs` envuelve el `<img>` en `<picture>` con un `<source type="image/avif">` armado desde el campo `avifUrl` del manifest (solo los escalones que tienen AVIF, mismo `sizes`). El navegador elige el formato que soporta, sin JavaScript. El `<img>` WebP queda como fallback. Antes `post-images.ts` subia el AVIF pero ningun HTML lo usaba. Medido: 5.0 KB en AVIF contra 8.4 KB en WebP en la misma variante de 400 px.
 - **`scripts/rehype-image-gallery.mjs`** reconoce `<p><picture></p>` y el `<figure>` con `<picture>` como imagen suelta, y pone el `sizes` de galeria tambien en el `<source>`.
