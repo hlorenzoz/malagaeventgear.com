@@ -129,7 +129,7 @@ const faqData: FaqItem[] = [
 		category: 'services',
 		onHomepage: false,
 		question: 'What equipment brands do you work with?',
-		answer: 'We use premium professional brands trusted in the live-event industry, including Audix, HK Audio, and Martin, among others. This ensures reliable, high-fidelity sound and lighting performance for every booking.'
+		answer: 'We use premium professional brands trusted in the live-event industry, including Audix and HK Audio for sound, Eurolite and ADJ for lighting, and Martin for smoke effects. This ensures reliable, high-fidelity sound and lighting performance for every booking.'
 	},
 	{
 		id: 'delivery-only',

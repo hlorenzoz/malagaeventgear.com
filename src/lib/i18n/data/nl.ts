@@ -211,7 +211,7 @@ export default {
 		'equipment-brands': {
 			question: 'Met welke apparatuurmerken werken jullie?',
 			answer:
-				'We gebruiken premium professionele merken die vertrouwd worden in de live-evenementenbranche, waaronder Audix, HK Audio en Martin. Dit garandeert betrouwbaar, hoogwaardig geluid en lichtprestaties bij elke boeking.'
+				'We gebruiken premium professionele merken die vertrouwd worden in de live-evenementenbranche, waaronder Audix en HK Audio voor geluid, Eurolite en ADJ voor verlichting en Martin voor rookeffecten. Dit garandeert betrouwbaar, hoogwaardig geluid en lichtprestaties bij elke boeking.'
 		},
 		'delivery-only': {
 			question: 'Bieden jullie een zelfafhaaloptie, of werken jullie uitsluitend met levering?',

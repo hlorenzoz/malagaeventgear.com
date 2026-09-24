@@ -212,7 +212,7 @@ export default {
 		'equipment-brands': {
 			question: 'Com quais marcas de equipamento vocês trabalham?',
 			answer:
-				'Trabalhamos com marcas profissionais premium, confiáveis no setor de eventos ao vivo, incluindo Audix, HK Audio e Martin, entre outras. Isso garante um desempenho de som e iluminação confiável e de alta fidelidade em cada reserva.'
+				'Trabalhamos com marcas profissionais premium, confiáveis no setor de eventos ao vivo, incluindo Audix e HK Audio para o som, Eurolite e ADJ para a iluminação e Martin para os efeitos de fumaça. Isso garante um desempenho de som e iluminação confiável e de alta fidelidade em cada reserva.'
 		},
 		'delivery-only': {
 			question: 'Vocês oferecem retirada no local ou o serviço é somente de entrega?',

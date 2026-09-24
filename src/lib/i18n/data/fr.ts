@@ -211,7 +211,7 @@ export default {
 		'equipment-brands': {
 			question: 'Avec quelles marques de matériel travaillez-vous ?',
 			answer:
-				"Nous utilisons des marques professionnelles haut de gamme reconnues dans l'industrie de l'événementiel en direct, dont Audix, HK Audio et Martin, entre autres. Cela garantit un son et un éclairage fiables et haute fidélité pour chaque réservation."
+				"Nous utilisons des marques professionnelles haut de gamme reconnues dans l'industrie de l'événementiel en direct, dont Audix et HK Audio pour le son, Eurolite et ADJ pour l'éclairage, et Martin pour les effets de fumée. Cela garantit un son et un éclairage fiables et haute fidélité pour chaque réservation."
 		},
 		'delivery-only': {
 			question: 'Proposez-vous une option de retrait sur place, ou est-ce uniquement de la livraison ?',
