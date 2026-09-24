@@ -111,7 +111,3 @@ migrate-wp-dry-run:
 migrate-wp-run:
     bun scripts/migrate-wp/index.ts
 
-# Despliega el cron worker de rebuild del blog (second deploy target)
-blog-rebuild-deploy:
-    cd workers/blog-rebuild && bunx wrangler deploy
-
