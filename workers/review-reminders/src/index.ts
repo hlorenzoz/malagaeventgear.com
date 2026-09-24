@@ -16,6 +16,7 @@
 import { resolveAction } from '$lib/server/reviews/sequence';
 import { sendEmail } from '$lib/server/email/resend';
 import { renderReview } from '$lib/server/email/templates/review';
+import { emailLang } from '$lib/server/leads/lang';
 
 interface Env {
 	DB: D1Database;
@@ -86,7 +87,7 @@ export default {
 			}
 
 			const trackedUrl = `${env.PUBLIC_SITE_URL}/r/${row.token}`;
-			const lang = (row.lead_lang === 'en' ? 'en' : 'es') as 'en' | 'es';
+			const lang = emailLang(row.lead_lang);
 			const template = renderReview(row.token, lang, env.PUBLIC_SITE_URL, row.lead_name);
 
 			let resendId: string | null = null;

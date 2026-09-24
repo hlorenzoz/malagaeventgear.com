@@ -1,17 +1,18 @@
 import { isLocale } from '$lib/i18n/locales';
 
 /**
- * Language of a lead. The form sends the locale of the page it was submitted from, which is
- * what the visitor was reading. `Accept-Language` is only a fallback for clients that do not
- * send it (older cached pages). The site has no Spanish version, but a Spanish browser still
- * marks the lead as Spanish, because MEG does answer in Spanish.
+ * Language of a lead. MEG answers only in English and Spanish, and emails go out in English
+ * except to a lead whose browser is in Spanish (CLAUDE.md, "Hechos del negocio sobre idiomas").
+ * So a browser whose FIRST preference is Spanish marks the lead as Spanish, whatever page it
+ * came from (the site has no Spanish version). Otherwise the lead keeps the locale of the page
+ * it was submitted from, which is what the visitor was reading.
  *
- * This is the lead's language, NOT the email language: MEG answers only in English and
- * Spanish, so `emailLang` narrows it to one of those two.
+ * This is the lead's language, NOT the email language: `emailLang` narrows it to en or es.
  */
 export function resolveLeadLang(locale: string | undefined, acceptLanguage: string | null): string {
-	if (locale && isLocale(locale)) return locale;
-	return (acceptLanguage ?? 'es').toLowerCase().startsWith('es') ? 'es' : 'en';
+	const preferred = (acceptLanguage ?? '').split(',')[0].trim().toLowerCase();
+	if (preferred === 'es' || preferred.startsWith('es-')) return 'es';
+	return locale && isLocale(locale) ? locale : 'en';
 }
 
 /** Transactional email language: Spanish for Spanish readers, English for everyone else. */
