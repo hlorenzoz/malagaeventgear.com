@@ -1,5 +1,5 @@
 import { sveltekit } from '@sveltejs/kit/vite';
-import { defineConfig } from 'vite';
+import { defineConfig, type Plugin } from 'vite';
 import { SvelteKitPWA } from '@vite-pwa/sveltekit';
 import tailwindcss from '@tailwindcss/vite';
 import { blogMeta } from './scripts/vite-blog-meta.mjs';
@@ -14,6 +14,41 @@ const blogRoots = [
 const BLOG_URL_PATTERN = new RegExp(
 	`^https?://[^/]+(?:${blogRoots.map((r) => r.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`
 );
+
+// Translated copy: every per-locale file except the English source (dictionaries, package and
+// FAQ copy, page copy, content maps). Each one builds into its own lazy chunk.
+const TRANSLATED_COPY = /\/src\/(lib\/i18n\/(messages|data|content-map\/locales)|routes\/.+\/i18n)\/(?!en\.ts)[a-z-]+\.ts$/;
+
+// Workbox globIgnores. @vite-pwa/sveltekit keeps THIS array (buildGlobIgnores pushes into it and
+// returns it) and generates sw.js when the server build closes, after the client build. But
+// SvelteKit runs the client build with `vite.build({ configFile })`, which evaluates this file
+// again as a new module: a plain module constant would give each build its own array, and the
+// chunks found in the client build would never reach sw.js. Both evaluations share it here.
+const shared = globalThis as typeof globalThis & { __megPrecacheIgnores?: string[] };
+const precacheIgnores = (shared.__megPrecacheIgnores ??= ['**/blog/**']);
+
+/**
+ * Keeps translated copy out of the PWA precache. SvelteKit names client chunks by hash only and
+ * enforces that naming, so a glob cannot tell a German dictionary apart from app code: this
+ * reads the bundle and ignores every chunk made only of translated copy. A visitor reading
+ * English never downloads the other 12 languages, and each one still loads on demand when a
+ * page in that language opens. Checked by tests/pwa-precache.prod.spec.ts.
+ */
+function skipTranslatedCopyInPrecache(): Plugin {
+	return {
+		name: 'meg:pwa-skip-translated-copy',
+		apply: 'build',
+		generateBundle(_, bundle) {
+			for (const chunk of Object.values(bundle)) {
+				if (chunk.type !== 'chunk' || !chunk.fileName.includes('immutable/chunks/')) continue;
+				const ids = chunk.moduleIds.filter((id) => !id.startsWith('\0'));
+				if (ids.length > 0 && ids.every((id) => TRANSLATED_COPY.test(id))) {
+					precacheIgnores.push(`**/${chunk.fileName}`);
+				}
+			}
+		}
+	};
+}
 
 export default defineConfig({
 	server: {
@@ -38,6 +73,7 @@ export default defineConfig({
 		blogMeta(),
 		tailwindcss(),
 		sveltekit(),
+		skipTranslatedCopyInPrecache(),
 		SvelteKitPWA({
 			registerType: 'autoUpdate',
 			manifest: {
@@ -85,7 +121,7 @@ export default defineConfig({
 					'prerendered/dependencies/__data.json',
 					'prerendered/dependencies/{packages/*,map}/__data.json'
 				],
-				globIgnores: ['**/blog/**'],
+				globIgnores: precacheIgnores,
 				maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
 				// Cache blog pages/assets at runtime as the user visits them (not up front), in
 				// every language: the localized blog roots come from the content maps.

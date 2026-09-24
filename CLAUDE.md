@@ -150,7 +150,7 @@ este resumen.
 | Copia de paquetes y FAQ | inglés en `packages.ts` / `faq.ts` (fuente). Resto en `src/lib/i18n/data/<locale>.ts`, leído con `pkgCopy()` / `faqCopy()` |
 | hreflang, canonical, `og:locale` | `SeoHead.svelte`, desde `page.data.alternates` |
 | Sitemaps por idioma | `page-sitemap-[locale].xml`, listados en `sitemap_index.xml` solo si el idioma está publicado |
-| Precache del PWA | `vite.config.ts`: lista explícita (home, paquetes y `/map` en inglés). Páginas traducidas y el blog en todos los idiomas quedan FUERA del precache. Los chunks JS de la copia traducida SÍ entran (551 entradas y 10.062 KiB en el build del 2026-09-24, contra 293 en `main`) |
+| Precache del PWA | `vite.config.ts`: lista explícita (home, paquetes y `/map` en inglés). Páginas traducidas y el blog en todos los idiomas quedan FUERA del precache. Los chunks JS de la copia traducida también quedan fuera: el plugin `skipTranslatedCopyInPrecache` los detecta en el bundle y los suma a `globIgnores`, porque SvelteKit nombra los chunks solo por hash. Se cargan bajo demanda al abrir una página de ese idioma. Build del 2026-09-24: 311 entradas y 9.417 KiB (551 y 10.065 antes del plugin, 293 en `main`). Lo controla `tests/pwa-precache.prod.spec.ts` |
 
 Cada idioma carga su diccionario, su mapa y su copia de datos como chunks propios: una página
 nunca descarga los otros 12 idiomas. Por eso la copia traducida NO va dentro de `packages.ts`.

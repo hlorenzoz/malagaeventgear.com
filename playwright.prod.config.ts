@@ -5,7 +5,7 @@ import { defineConfig, devices } from '@playwright/test';
 // the dev server that playwright.config.ts uses. See tests/asset-caching.prod.spec.ts.
 export default defineConfig({
 	testDir: './tests',
-	testMatch: /asset-caching\.prod\.spec\.ts/,
+	testMatch: /\.prod\.spec\.ts$/,
 	fullyParallel: true,
 	forbidOnly: !!process.env.CI,
 	retries: process.env.CI ? 2 : 0,
