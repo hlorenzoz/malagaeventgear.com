@@ -4,15 +4,15 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Categorias do Blog | Malaga Event Gear',
+		title: 'Categorias do blog | Malaga Event Gear',
 		description:
 			'Navegue por todas as categorias do blog da Malaga Event Gear: casamentos, aluguel audiovisual, eventos corporativos, gadgets e notícias.'
 	},
-	schemaName: 'Categorias do Blog | Malaga Event Gear',
-	itemListLabel: 'Categorias do Blog',
-	backLink: 'Todos os Posts',
+	schemaName: 'Categorias do blog | Malaga Event Gear',
+	itemListLabel: 'Categorias do blog',
+	backLink: 'Todos os posts',
 	heading: 'Categorias',
 	categoriesLabel: 'categorias',
-	allPosts: 'Todos os Posts',
+	allPosts: 'Todos os posts',
 	post: { singular: 'post', plural: 'posts' }
 } satisfies Copy;

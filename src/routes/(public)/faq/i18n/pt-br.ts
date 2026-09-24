@@ -4,21 +4,21 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Perguntas Frequentes: Aluguel de Equipamento Málaga | MEG',
+		title: 'Perguntas frequentes: aluguel de equipamento em Málaga | MEG',
 		description:
 			'Encontre respostas claras sobre o aluguel profissional de equipamento audiovisual da Malaga Event Gear: pacotes, área de atendimento (Málaga/Costa del Sol) e requisitos de reserva.'
 	},
 	hero: {
-		badge: 'Dúvidas Comuns',
-		title: 'Perguntas Frequentes',
+		badge: 'Dúvidas comuns',
+		title: 'Perguntas frequentes',
 		intro:
-			'Tudo o que você precisa saber sobre nossos aluguéis audiovisuais profissionais, entregas, montagens e processo de reserva.'
+			'Tudo o que você precisa saber sobre nosso aluguel profissional de equipamento audiovisual, entregas, montagens e processo de reserva.'
 	},
 	filters: {
-		all: 'Todas as Perguntas',
-		services: 'Serviços e Equipamento',
-		logistics: 'Logística e Áreas',
-		booking: 'Reservas e Prazos',
+		all: 'Todas as perguntas',
+		services: 'Serviços e equipamentos',
+		logistics: 'Logística e regiões',
+		booking: 'Reservas e prazos',
 		contact: 'Contato'
 	}
 } satisfies Copy;

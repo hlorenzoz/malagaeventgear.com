@@ -4,53 +4,53 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Política de Privacidade - Malaga Event Gear (MEG)',
+		title: 'Política de privacidade - Malaga Event Gear (MEG)',
 		description:
 			'Leia a Política de Privacidade oficial da Malaga Event Gear. Saiba como recolhemos, tratamos e protegemos as suas informações pessoais.'
 	},
 	hero: {
-		badge: 'Divulgações de Privacidade',
-		title: 'Política de Privacidade',
-		effectiveDate: 'Data de Entrada em Vigor: 16 de outubro de 2025'
+		badge: 'Informação sobre privacidade',
+		title: 'Política de privacidade',
+		effectiveDate: 'Data de entrada em vigor: 16 de outubro de 2025'
 	},
 	whoWeAre: {
-		title: 'Quem Somos',
-		body: 'O endereço do nosso site é https://malagaeventgear.com. Na Malaga Event Gear (MEG), estamos empenhados em proteger as suas informações pessoais e em fornecer divulgações transparentes sobre a utilização dos dados.'
+		title: 'Quem somos',
+		body: 'O endereço do nosso site é https://malagaeventgear.com. Na Malaga Event Gear (MEG), estamos empenhados em proteger as suas informações pessoais e em informar de forma transparente sobre a utilização dos dados.'
 	},
 	infoCollected: {
-		title: 'Informação que Recolhemos e Finalidade',
+		title: 'Informação que recolhemos e finalidade',
 		intro:
-			'Recolhemos e tratamos dados pessoais quando interage com o nosso fluxo de trabalho comercial estabelecido (por exemplo, quando pede o seu orçamento através do nosso formulário de contacto):',
+			'Recolhemos e tratamos dados pessoais quando interage com o nosso processo comercial (por exemplo, quando pede o seu orçamento através do nosso formulário de contacto):',
 		table: {
 			headers: {
-				category: 'Categoria de Dados',
-				purpose: 'Finalidade do Tratamento'
+				category: 'Categoria de dados',
+				purpose: 'Finalidade do tratamento'
 			},
 			rows: [
 				{
-					category: 'Dados de Contacto',
+					category: 'Dados de contacto',
 					purpose:
-						'Nome, email, telefone ou identificação de WhatsApp para finalizar os detalhes, coordenar a logística e confirmar a sua reserva. Realizado em inglês ou espanhol.'
+						'Nome, email, telefone ou identificação de WhatsApp para finalizar os detalhes, coordenar a logística e confirmar a sua reserva. A comunicação é feita em inglês ou espanhol.'
 				},
 				{
-					category: 'Logística do Evento',
+					category: 'Logística do evento',
 					purpose:
 						'Localização e horário precisos do evento para coordenar a entrega, a montagem personalizada do equipamento e a recolha.'
 				},
 				{
-					category: 'Dados Financeiros',
+					category: 'Dados financeiros',
 					purpose:
-						'Informações de pagamento processadas durante as reservas. Garantimos que todas as transações de pagamento são 100% seguras.'
+						'Informações de pagamento tratadas durante as reservas. Garantimos que todas as transações de pagamento são 100% seguras.'
 				}
 			]
 		}
 	},
 	reviews: {
-		title: 'Avaliações e Prova Social',
+		title: 'Avaliações e prova social',
 		body: 'Apresentamos uma classificação EXCELENTE com base em avaliações verificadas do Google My Business. A verificação das avaliações é feita dinamicamente através do Trustindex, garantindo que a fonte original de todos os testemunhos de clientes é genuína e inalterada.'
 	},
 	retention: {
-		title: 'Conservação de Dados e Direitos',
-		body: 'Conservamos os seus dados pessoais apenas durante o tempo necessário para concluir os serviços audiovisuais contratados ou para cumprir obrigações legais. Tem pleno direito, ao abrigo do RGPD, de aceder, retificar, opor-se ou solicitar a eliminação dos seus registos pessoais a qualquer momento, contactando o nosso Responsável pelo Tratamento de Dados.'
+		title: 'Conservação de dados e direitos',
+		body: 'Conservamos os seus dados pessoais apenas durante o tempo necessário para concluir os serviços audiovisuais contratados ou para cumprir obrigações legais. Ao abrigo do RGPD, tem o direito de aceder aos seus registos pessoais, de os retificar, de se opor ao seu tratamento ou de pedir a sua eliminação a qualquer momento, contactando o nosso responsável pelo tratamento de dados.'
 	}
 } satisfies Copy;

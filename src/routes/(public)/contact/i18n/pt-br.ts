@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Contato: Aluguel de Equipamento Audiovisual Málaga | MEG',
+		title: 'Contato: aluguel de equipamento audiovisual em Málaga | MEG',
 		description:
 			'Fale com a Malaga Event Gear e solicite orçamentos para aluguel de som, iluminação e telas. Suporte técnico 24 horas por dia, 7 dias por semana.'
 	},
@@ -13,18 +13,18 @@ export default {
 		description:
 			'Fale com a equipe técnica da Malaga Event Gear para solicitar orçamentos personalizados de aluguel de som, iluminação e telas.'
 	},
-	whatsappLinkText: 'Envie-nos uma mensagem',
+	whatsappLinkText: 'Envie uma mensagem para nós',
 	messages: {
-		packIntro: 'Olá, tenho interesse em reservar o Pack: {pack}. Poderiam me informar a disponibilidade e os detalhes?',
+		packIntro: 'Olá, tenho interesse em reservar o pacote: {pack}. Vocês poderiam me informar a disponibilidade e os detalhes?',
 		categoryIntro:
-			'Olá, tenho interesse em reservar equipamento da categoria: {category}. Aguardo seu orçamento.'
+			'Olá, tenho interesse em reservar equipamento da categoria: {category}. Aguardo o orçamento de vocês.'
 	},
 	errors: {
 		pastDate: 'Escolha uma data de evento posterior a hoje.'
 	},
 	form: {
-		namePlaceholder: 'Nome Completo',
-		emailPlaceholder: 'Endereço de E-mail',
+		namePlaceholder: 'Nome completo',
+		emailPlaceholder: 'Endereço de e-mail',
 		phonePlaceholder: 'Telefone',
 		messagePlaceholder: 'Mensagem'
 	}

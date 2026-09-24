@@ -61,7 +61,7 @@ export default {
 		},
 		'basic-mice': {
 			slug: 'pacote-mice-basico',
-			keyword: 'equipamento audiovisual para reuniões corporativas pequenas Málaga',
+			keyword: 'equipamento audiovisual para pequenas reuniões corporativas Málaga',
 			status: 'propuesta'
 		},
 		mice: {
@@ -71,8 +71,8 @@ export default {
 		}
 	},
 	categories: {
-		'audio-visual-rental': { slug: 'aluguel-de-equipamento-audiovisual', name: 'Aluguel de Equipamento Audiovisual' },
-		'corporate-enterprise': { slug: 'empresas-corporativo', name: 'Empresas & Corporativo' },
+		'audio-visual-rental': { slug: 'aluguel-de-equipamento-audiovisual', name: 'Aluguel de equipamento audiovisual' },
+		'corporate-enterprise': { slug: 'empresas-corporativo', name: 'Empresas' },
 		events: { slug: 'eventos', name: 'Eventos' },
 		gadgets: { slug: 'gadgets', name: 'Gadgets' },
 		news: { slug: 'noticias', name: 'Notícias' },

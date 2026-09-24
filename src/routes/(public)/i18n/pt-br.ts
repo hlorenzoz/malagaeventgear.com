@@ -4,9 +4,9 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Aluguel de Equipamento Audiovisual em Málaga | MEG',
+		title: 'Aluguel de equipamento audiovisual em Málaga | MEG',
 		description:
-			'A Malaga Event Gear (MEG) aluga sistemas de som premium, iluminação, projetores e telas para casamentos, eventos corporativos e festas em Málaga.'
+			'A Malaga Event Gear (MEG) aluga sistemas de som premium, iluminação espetacular, projetores e telas para casamentos, eventos corporativos e festas em Málaga.'
 	},
 	hero: {
 		imageAlt: 'Palco de evento premium com iluminação audiovisual profissional na Costa del Sol'
@@ -21,9 +21,9 @@ export default {
 		seeAllFaqs: 'Ver todas as perguntas'
 	},
 	posts: {
-		latestTitle: 'Últimos Posts',
+		latestTitle: 'Últimos posts',
 		latestViewAll: 'Ver todos os posts',
-		newsTitle: 'Últimas Notícias',
+		newsTitle: 'Últimas notícias',
 		newsViewAll: 'Ver todas as notícias'
 	}
 } satisfies Copy;

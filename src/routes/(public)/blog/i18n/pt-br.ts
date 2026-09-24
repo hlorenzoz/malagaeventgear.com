@@ -4,36 +4,36 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Blog sobre Aluguel Audiovisual em Málaga | MEG',
+		title: 'Blog sobre aluguel audiovisual em Málaga | MEG',
 		description:
 			'Leia dicas de especialistas sobre som de alta fidelidade, iluminação romântica para casamentos, montagem de projetores para conferências e equipamento profissional de eventos em Málaga.'
 	},
 	schema: {
-		name: 'Blog sobre Aluguel Audiovisual em Málaga | MEG',
+		name: 'Blog sobre aluguel audiovisual em Málaga | MEG',
 		description:
-			'Guias técnicos, conselhos sobre aluguel audiovisual e dicas de planejamento de casamentos para Málaga e a Costa del Sol.'
+			'Guias técnicos especializados, conselhos sobre aluguel audiovisual e dicas de planejamento de casamentos para Málaga e a Costa del Sol.'
 	},
 	hero: {
-		badge: 'Conhecimento e Inspiração',
-		titlePrefix: 'O Blog Técnico da',
+		badge: 'Conhecimento e inspiração',
+		titlePrefix: 'O blog técnico da',
 		titleHighlight: 'Malaga Event Gear',
 		intro:
-			'Compartilhamos conhecimento profissional, projetos acústicos e guias de layout visual para deixar sua cúpula corporativa, casamento ou celebração na Costa del Sol tecnicamente impecável.'
+			'Compartilhamos conhecimento profissional, projetos acústicos e guias de layout visual para deixar sua convenção corporativa, casamento ou celebração na Costa del Sol tecnicamente impecável.'
 	},
 	empty: 'Ainda não há posts. Volte em breve!',
 	newsBadge: 'Notícias',
-	readMore: 'Leia Mais →',
-	clustersHeading: 'Principais Temas que Cobrimos',
+	readMore: 'Ler mais →',
+	clustersHeading: 'Principais temas que abordamos',
 	clusters: [
 		'Casamentos',
-		'AV Corporativo',
-		'Acústica de Som',
-		'Iluminação Cênica',
+		'Audiovisual corporativo',
+		'Som e acústica',
+		'Iluminação cênica',
 		'Projeção',
-		'Festas Particulares'
+		'Festas particulares'
 	],
 	cta: {
-		advice: 'Receber Orientação Técnica',
-		packages: 'Explorar Pacotes'
+		advice: 'Receber orientação técnica',
+		packages: 'Explorar pacotes'
 	}
 } satisfies Copy;
