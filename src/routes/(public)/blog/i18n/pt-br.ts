@@ -29,7 +29,7 @@ export default {
 		'AV Corporativo',
 		'Acústica de Som',
 		'Iluminação Cênica',
-		'Projeção a Laser',
+		'Projeção',
 		'Festas Particulares'
 	],
 	cta: {

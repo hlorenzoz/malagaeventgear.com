@@ -23,7 +23,7 @@ const copy = {
 	// Decorative thematic clusters covered by the blog. Order matches the icon list in
 	// +page.svelte (favorite, business, speaker, highlight, videocam, celebration).
 	clustersHeading: 'Core Clusters We Cover',
-	clusters: ['Weddings', 'Corporate AV', 'Sound Acoustics', 'Scenic Lights', 'Laser Projection', 'Private Parties'],
+	clusters: ['Weddings', 'Corporate AV', 'Sound Acoustics', 'Scenic Lights', 'Projection', 'Private Parties'],
 	cta: {
 		advice: 'Get Technical Advice',
 		packages: 'Explore Packages'

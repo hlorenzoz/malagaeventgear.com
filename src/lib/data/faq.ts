@@ -93,7 +93,7 @@ const faqData: FaqItem[] = [
 		onHomepage: false,
 		onContact: true,
 		question: 'In what language do they communicate with clients, and what are their operating hours?',
-		answer: 'Malaga Event Gear (MEG) communicates with clients primarily in English, and all services are offered in English to serve our international clientele. We are available 24 hours a day, 7 days a week for technical setups and live event monitoring.'
+		answer: 'Malaga Event Gear (MEG) communicates with clients in English and Spanish. We are available 24 hours a day, 7 days a week for technical setups and live event monitoring.'
 	},
 	{
 		id: 'contact-info',
@@ -157,7 +157,7 @@ const faqData: FaqItem[] = [
 		category: 'services',
 		onHomepage: false,
 		question: 'Can you handle large-scale congresses, fairs, and exhibitions?',
-		answer: 'Absolutely. Alongside weddings and corporate meetings, we equip larger-scale events such as congresses, fairs, and exhibitions with tailored audiovisual solutions — combining sound reinforcement, large-format screens, video walls, stages, and dedicated technical staff as needed.'
+		answer: 'Absolutely. Alongside weddings and corporate meetings, we equip larger-scale events such as congresses, fairs, and exhibitions with tailored audiovisual solutions, combining sound reinforcement, large format screens, stages and dedicated technical staff as needed.'
 	},
 	{
 		id: 'notice-time',

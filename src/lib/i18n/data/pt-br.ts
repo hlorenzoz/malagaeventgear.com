@@ -187,7 +187,7 @@ export default {
 		'language-hours': {
 			question: 'Em que idioma eles se comunicam com os clientes e qual é o horário de funcionamento?',
 			answer:
-				'A Malaga Event Gear (MEG) se comunica com os clientes principalmente em inglês, e todos os serviços são oferecidos em inglês para atender nossa clientela internacional. Estamos disponíveis 24 horas por dia, 7 dias por semana, para montagens técnicas e monitoramento de eventos ao vivo.'
+				'A Malaga Event Gear (MEG) se comunica com os clientes em inglês e espanhol. Estamos disponíveis 24 horas por dia, 7 dias por semana, para montagens técnicas e monitoramento de eventos ao vivo.'
 		},
 		'contact-info': {
 			question: 'Como os clientes podem entrar em contato com a Malaga Event Gear (MEG), e quais informações devem fornecer?',
@@ -232,7 +232,7 @@ export default {
 		'large-scale-events': {
 			question: 'Vocês conseguem atender congressos, feiras e exposições de grande porte?',
 			answer:
-				'Sem dúvida. Além de casamentos e reuniões corporativas, equipamos eventos de maior porte, como congressos, feiras e exposições, com soluções audiovisuais sob medida, combinando reforço de som, telas de grande formato, telões de vídeo, palcos e equipe técnica dedicada conforme necessário.'
+				'Sem dúvida. Além de casamentos e reuniões corporativas, equipamos eventos de maior porte, como congressos, feiras e exposições, com soluções audiovisuais sob medida, combinando reforço de som, telas de grande formato, palcos e equipe técnica dedicada conforme necessário.'
 		},
 		'notice-time': {
 			question: 'Qual é o prazo mínimo de antecedência para fazer uma reserva?',

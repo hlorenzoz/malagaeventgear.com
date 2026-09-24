@@ -35,7 +35,7 @@ export default {
 				{
 					category: 'Logística do Evento',
 					purpose:
-						'Localização precisa (local) e horário para coordenar a entrega, a montagem personalizada do equipamento e a retirada.'
+						'Local e horário precisos do evento para coordenar a entrega, a montagem personalizada do equipamento e a retirada.'
 				},
 				{
 					category: 'Dados Financeiros',

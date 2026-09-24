@@ -32,7 +32,7 @@ const copy = {
 				{
 					category: 'Event Logistics',
 					purpose:
-						'Precise Localization (location) and Horario (schedule) to coordinate delivery, custom equipment setup, and pickup.'
+						'Precise location and time of the event to coordinate delivery, custom equipment setup, and pickup.'
 				},
 				{
 					category: 'Financial Data',

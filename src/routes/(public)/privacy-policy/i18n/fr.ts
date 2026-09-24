@@ -35,7 +35,7 @@ const copy = {
 				{
 					category: "Logistique de l'événement",
 					purpose:
-						"Localisation (lieu) et Horaire (horaire) précis pour coordonner la livraison, l'installation sur mesure du matériel et la reprise."
+						"Lieu et heure précis de l'événement pour coordonner la livraison, l'installation sur mesure du matériel et la reprise."
 				},
 				{
 					category: 'Données financières',

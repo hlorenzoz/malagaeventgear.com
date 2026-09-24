@@ -16,7 +16,7 @@ const copy = {
 	},
 	scope: {
 		title: 'Scope of Service & Offerings',
-		p1: 'We specialize in offering high-fidelity active acoustic PA systems, professional lighting solutions (wash lights, LED bars, moving heads), high-lumen projection units, microphones (wired, wireless, gooseneck), fog machines, and stage platforms.',
+		p1: 'We specialize in offering high-fidelity active acoustic PA systems, professional lighting solutions (LED light bars, a zoom Fresnel spotlight and a wireless uplighting kit), high-lumen projection units, microphones (wired, wireless, gooseneck), fog machines, and stage platforms.',
 		p2: 'Many of our packages, such as the Wedding Pack and MICE Pack, include transport, professional installation, on-site live technical support, and post-event breakdown for a completely stress-free experience.'
 	},
 	limits: {
@@ -27,12 +27,12 @@ const copy = {
 	},
 	booking: {
 		title: 'Booking, Pricing & Security',
-		p1: "All service provisions must be contracted with a minimum of 24 hours' advance notice. To finalize a booking, the client must provide the precise Localization (Location) and Horario (Schedule/Time) of the event.",
+		p1: "All service provisions must be contracted with a minimum of 24 hours' advance notice. To finalize a booking, the client must provide the precise location and time of the event.",
 		p2: 'All prices listed on our website are provided with VAT (+21%) not included. We guarantee that all payment transactions are 100% secure and processed using trusted financial gateways.'
 	},
 	obligations: {
 		title: 'Client Obligations & Equipment Responsibility',
-		body: 'The client is responsible for ensuring venue access and necessary power outlets are available at the scheduled Localization and Horario. The client acknowledges that they are renting high-quality, professional gear, and must ensure the safety and physical integrity of the equipment during the agreed rental timeline.'
+		body: 'The client is responsible for ensuring venue access and necessary power outlets are available at the scheduled location and time. The client acknowledges that they are renting high-quality, professional gear, and must ensure the safety and physical integrity of the equipment during the agreed rental timeline.'
 	}
 };
 

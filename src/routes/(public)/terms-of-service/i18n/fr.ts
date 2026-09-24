@@ -19,7 +19,7 @@ const copy = {
 	},
 	scope: {
 		title: 'Étendue des services et prestations',
-		p1: "Nous sommes spécialisés dans les systèmes de sonorisation PA actifs haute fidélité, les solutions d'éclairage professionnelles (projecteurs à lavage de couleur, barres LED, lyres asservies), les vidéoprojecteurs à forte luminosité, les microphones (filaires, sans fil, col de cygne), les machines à fumée et les plateaux de scène.",
+		p1: "Nous sommes spécialisés dans les systèmes de sonorisation PA actifs haute fidélité, les solutions d'éclairage professionnelles (barres LED, un projecteur Fresnel à zoom et un kit d'éclairage d'ambiance sans fil), les vidéoprojecteurs à forte luminosité, les microphones (filaires, sans fil, col de cygne), les machines à fumée et les plateaux de scène.",
 		p2: "Beaucoup de nos forfaits, comme le Wedding Pack et le MICE Pack, incluent le transport, l'installation professionnelle, l'assistance technique en direct sur place et le démontage après l'événement, pour une expérience totalement sans stress."
 	},
 	limits: {
@@ -30,12 +30,12 @@ const copy = {
 	},
 	booking: {
 		title: 'Réservation, tarification et sécurité',
-		p1: "Toute prestation de service doit être contractée avec un préavis minimum de 24 heures. Pour finaliser une réservation, le client doit fournir la Localisation (lieu) et l'Horaire (horaire/heure) précis de l'événement.",
+		p1: "Toute prestation de service doit être contractée avec un préavis minimum de 24 heures. Pour finaliser une réservation, le client doit fournir le lieu et l'heure précis de l'événement.",
 		p2: "Tous les prix indiqués sur notre site sont affichés hors TVA (+21 %). Nous garantissons que toutes les transactions de paiement sont sécurisées à 100 % et traitées via des passerelles financières fiables."
 	},
 	obligations: {
 		title: 'Obligations du client et responsabilité du matériel',
-		body: "Le client est responsable de garantir l'accès au lieu et la disponibilité des prises électriques nécessaires à la Localisation et à l'Horaire prévus. Le client reconnaît qu'il loue du matériel professionnel haut de gamme et doit garantir la sécurité et l'intégrité physique de l'équipement pendant toute la durée de la location convenue."
+		body: "Le client est responsable de garantir l'accès au lieu et la disponibilité des prises électriques nécessaires au lieu et à l'heure prévus. Le client reconnaît qu'il loue du matériel professionnel haut de gamme et doit garantir la sécurité et l'intégrité physique de l'équipement pendant toute la durée de la location convenue."
 	}
 } satisfies Copy;
 

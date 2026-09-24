@@ -19,7 +19,7 @@ export default {
 	},
 	scope: {
 		title: 'Escopo dos Serviços e Ofertas',
-		p1: 'Somos especializados em sistemas acústicos PA ativos de alta fidelidade, soluções profissionais de iluminação (wash lights, barras de LED, moving heads), unidades de projeção de alto brilho, microfones (com fio, sem fio, gooseneck), máquinas de fumaça e plataformas de palco.',
+		p1: 'Somos especializados em sistemas acústicos PA ativos de alta fidelidade, soluções profissionais de iluminação (barras de LED, um refletor Fresnel com zoom e um kit de iluminação ambiente sem fio), unidades de projeção de alto brilho, microfones (com fio, sem fio, gooseneck), máquinas de fumaça e plataformas de palco.',
 		p2: 'Muitos dos nossos pacotes, como o Wedding Pack e o MICE Pack, incluem transporte, instalação profissional, suporte técnico ao vivo no local e desmontagem após o evento, para uma experiência completamente sem estresse.'
 	},
 	limits: {

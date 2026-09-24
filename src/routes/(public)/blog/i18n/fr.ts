@@ -24,7 +24,7 @@ const copy = {
 	newsBadge: 'Actualités',
 	readMore: 'Lire la suite →',
 	clustersHeading: 'Nos thématiques principales',
-	clusters: ['Mariages', "Audiovisuel d'entreprise", 'Acoustique', 'Éclairage scénique', 'Projection laser', 'Fêtes privées'],
+	clusters: ['Mariages', "Audiovisuel d'entreprise", 'Acoustique', 'Éclairage scénique', 'Projection', 'Fêtes privées'],
 	cta: {
 		advice: 'Obtenir un conseil technique',
 		packages: 'Découvrir les forfaits'
