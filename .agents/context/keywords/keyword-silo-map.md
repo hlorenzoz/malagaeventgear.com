@@ -47,10 +47,10 @@ banda 4-10 son accionables hoy.
 | Sonido (`sound equipment rental`, `speaker and microphone rental`, `hire speakers for party`) | 606 | audio visual rental | `/blog/sound-system-rental/` | Cubierto |
 | Pantallas y proyección (`rent tv screen`, `tv screen hire`, `55 inch screen hire`, `hire tv screens for exhibitions`) | 598 | audio visual rental | `/blog/tv-screen-rental/` | **Actualizar**, ver abajo |
 | Iluminación (`stage lighting`, `uplighting`, `rent lighting equipment near me`) | 238 | stage lighting equipment supplier | `/blog/stage-lighting-rental/` | Cubierto |
-| Humo y niebla (`hire smoke machine`, `party smoke machine hire`) | incluido arriba | stage lighting equipment supplier | `/blog/smoke-machine-rental/` | Cubierto desde 2026-09-23 |
+| Humo y niebla | **0 en este export** | stage lighting equipment supplier | `/blog/smoke-machine-rental/` | Cubierto desde 2026-09-23. Demanda viene del CSV de Google Ads, NO de GSC: ninguna de las 486 consultas de este export menciona smoke ni fog |
 | Wedding AV (`wedding rental trends`, `how to find wedding rentals`, `audiovisual wedding`) | 220 | wedding rentals | `/blog/wedding-rentals/` | Cubierto |
 | MICE y congresos (`mice events malaga`, `event av spain`) | ~160 | event technology service | `/blog/event-technology-service/` | Cubierto |
-| Ferias y stands (`hire tv screens for exhibitions`) | ~7 | audio visual rental | `/blog/audio-visual-rental-for-trade-shows/` | Cubierto, reforzado con la noticia de ECOC 2026 |
+| Ferias y stands | 0 propias | audio visual rental | `/blog/audio-visual-rental-for-trade-shows/` | Cubierto y reforzado con ECOC 2026. **Sin consultas propias**: `hire tv screens for exhibitions` (7 impr) ya se cuenta en la fila de pantallas y no se duplica acá |
 
 ### Única actualización con evidencia en esta pasada
 
@@ -78,37 +78,67 @@ servir con honestidad.
 | `hiring tents for weddings` | 90 | **Sin respaldo en inventario.** Cero carpas en `Equipamiento.csv`. `outdoor-wedding-tent-rental-care.svx` ya se retiró por no tener ángulo AV honesto. |
 | `alquiler mobiliario bodas malaga` | 20 | Mobiliario. Cero mesas, sillas o mantelería en inventario. |
 | `alquiler pantalla led en feria malaga` | 47 | **LED wall.** MEG tiene un panel plano de 60 pulgadas, no un muro modular. Negación ya documentada en `AGENTS.md`. |
-| `gender reveal smoke machine` | bajo | Humo **de color** es pirotecnia, no una máquina de glicol. Ya respondido honestamente en `/blog/smoke-machine-rental/` ofreciendo el wash RGBW como alternativa real. |
+| `gender reveal smoke machine` | 0 en GSC, viene de Google Ads | Humo **de color** es pirotecnia, no una máquina de glicol. Ya respondido honestamente en `/blog/smoke-machine-rental/` ofreciendo el wash RGBW como alternativa real. |
 | `eventraciones malaga`, `dispositivos espectaculos andalucia`, `10 juin 2027`, `in arabic` | ~60 | Ruido. `eventración` es un término **médico** (hernia), no de eventos. |
 | `rent cdj 3000 near me`, `base dj malaga`, `dj equipment near me` | ~10 | Equipo de DJ. No está en inventario. |
 
-## Idiomas distintos del inglés: traducidos, NO cubiertos en español
+## Idiomas distintos del inglés: traducidos, y el resultado NO fue el que parecía
 
 **Decisión del usuario (2026-09-24): el sitio NO dará soporte al español.** El soporte de nuevos
 idiomas se tratará aparte, cuando el trabajo de contenido esté terminado.
 
-Lo que sí se hizo: tomar las **52 consultas no inglesas** (640 impresiones, 0 clics), traducirlas
-estrictamente al inglés y comprobar si ese contenido inglés existe. Resultado:
+Lo que sí se hizo: tomar las consultas no inglesas, traducirlas estrictamente al inglés y
+comprobar si ese contenido inglés ya existe y, sobre todo, **si rankea**.
 
-| Cluster no inglés | Traducción estricta | Mejor posición EN hoy | Veredicto |
-| :--- | :--- | ---: | :--- |
-| `alquiler iluminacion eventos malaga` (65) | `lighting hire` / `event lighting` | **1** | Ya cubierto |
-| `mice events malaga` (55) | `mice sound system` | **2** | Ya cubierto |
-| `alquiler de equipos ... para congresos` (49) | `conference equipment rental` | **3** | Ya cubierto |
-| `alquiler de equipos ... para bodas` (72) | `wedding equipment hire` | **4** | Ya cubierto |
-| `alquiler material audiovisual malaga` (86) | `audio visual equipment on rent` | 8,2 | Ya cubierto |
-| `alquiler sonido malaga` (14) | `sound equipment rental` | **19,9** | Cubierto pero débil |
-| `alquiler pantalla led en feria` (47) | `LED wall rental` | - | No perseguible, sin inventario |
-| `alquiler mobiliario bodas` (34) | `wedding furniture rental` | - | No perseguible, sin inventario |
+> **Corrección metodológica (2026-09-24).** La primera versión de esta tabla daba por "cubierto"
+> cada cluster citando su MEJOR posición. Eso era inválido: `conference equipment rental` estaba
+> en posición 3 **con 1 sola impresión**, y cerraba un cluster de 49. Una posición promediada
+> sobre una impresión no es una señal, es ruido. La tabla de abajo usa **posición ponderada por
+> impresiones** sobre todo el cluster, y muestra el tamaño de muestra al lado de cada veredicto,
+> para que un veredicto no pueda mentir sin que se vea.
 
-**Conclusión: la traducción al inglés de cada cluster no inglés YA existe, y casi toda rankea
-entre la posición 1 y la 12.** No hay contenido nuevo que crear por esta vía. Las 640 impresiones
-en español sin un solo clic son un artefacto de enrutado de idioma, no demanda insatisfecha.
+| Cluster inglés equivalente | Consultas | Impresiones | Pos. ponderada | Mejor pos. (impr.) | Veredicto |
+| :--- | ---: | ---: | ---: | :--- | :--- |
+| pantallas (`screen`, `tv`, `monitor`) | 44 | 533 | **20,3** | 4,43 (7 impr) | Existe, rankea hondo |
+| sonido (`sound`) | 30 | 584 | **24,3** | 18,1 (24 impr) | Existe, rankea hondo |
+| audiovisual equipment | 19 | 317 | **22,4** | 8,2 (24 impr) | Existe, rankea hondo |
+| iluminación (`light`) | 31 | 238 | **20,3** | 1 (7 impr) | Existe, rankea hondo |
+| bodas AV | 27 | 237 | **20,4** | 4 (1 impr) | Existe, rankea hondo |
+| MICE | 4 | 62 | **33,9** | 2 (3 impr) | Existe, rankea hondo |
+| conferencias / congresos | 7 | 15 | **38,3** | 3 (1 impr) | Muestra demasiado chica para concluir |
 
-El único punto flojo que revela el ejercicio no es de idioma: **el silo de sonido rankea en
-posición 18-25** mientras iluminación está en 1-4 y conferencias en 3-4,5. `sound equipment rental`
-son 137 impresiones en posición 19,91, la consulta inglesa no nupcial más grande del sitio. Es
-dificultad competitiva con el pilar ya escrito, no ausencia de contenido.
+**Conclusión corregida: el contenido inglés existe, pero NINGÚN cluster rankea bien.** Todos caen
+en posición ponderada 20-38, que es la misma banda muerta que describe la tabla de salud de
+arriba. No es un problema de idioma ni de cobertura: es de posicionamiento, y es transversal.
+
+Eso reordena la prioridad. Escribir más contenido no mueve un cluster que ya tiene su página y
+está en posición 22. Lo que queda por decidir es si se ataca el posicionamiento de lo existente,
+y contra qué competencia, o no se hace nada.
+
+### Consultas no inglesas: qué son realmente
+
+| Cluster | Impresiones | Traducción | Estado |
+| :--- | ---: | :--- | :--- |
+| `alquiler ... iluminación ...` | ~157 | lighting rental for events | Traducción cubierta, rankea en 20,3 |
+| `alquiler ... material audiovisual ...` | ~86 | audiovisual equipment rental | Traducción cubierta, rankea en 22,4 |
+| `alquiler ... para bodas ...` | ~72 | AV equipment rental for weddings | Traducción cubierta, rankea en 20,4 |
+| `alquiler ... para congresos ...` | ~49 | equipment rental for congresses | Traducción cubierta, muestra chica |
+| `alquiler sonido malaga` | ~14 | sound rental Malaga | Traducción cubierta, rankea en 24,3 |
+| `alquiler pantalla led en feria malaga` | 47 | LED wall rental at trade fair | **No perseguible**, sin inventario |
+| `alquiler mobiliario bodas malaga` | ~34 | wedding furniture rental | **No perseguible**, sin inventario |
+| `eventraciones malaga`, `dispositivos espectaculos andalucia`, `puerto de malaga` | ~50 | - | Ruido. `eventración` es un término médico |
+
+Las impresiones en español sin un solo clic siguen siendo un artefacto de enrutado de idioma.
+Lo que cambia respecto a la primera versión es que **su traducción inglesa tampoco convierte**,
+así que resolver el idioma no habría bastado por sí solo.
+
+### Un gap inglés que la primera versión enterró
+
+`mice events malaga` son **55 impresiones en posición 37,04**, y es una consulta **en inglés**, no
+española. En la primera versión quedó mal clasificada como no inglesa y se dio por cerrada citando
+`mice sound system` (3 impresiones, pos 2). Con la métrica correcta, el cluster MICE entero está en
+**posición ponderada 33,9 sobre 62 impresiones**. Es el candidato más concreto si se decide atacar
+posicionamiento, y `/blog/event-technology-service/` es su página.
 
 ## Contexto histórico: el hueco de español (cerrado por decisión)
 
