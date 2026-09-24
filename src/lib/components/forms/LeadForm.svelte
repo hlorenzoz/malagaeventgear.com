@@ -6,6 +6,7 @@
 	import Icon from '$lib/components/navigation/Icon.svelte';
 	import { loadTurnstile } from '$lib/utils/turnstile';
 	import PhoneInput from './PhoneInput.svelte';
+	import ServiceLanguageNotice from '$lib/components/i18n/ServiceLanguageNotice.svelte';
 
 	let { packageId }: { packageId: string } = $props();
 
@@ -382,15 +383,17 @@
 			{isLoading ? i18n.t.leadForm.submitting : i18n.t.leadForm.submitBtn}
 		</button>
 
+		<ServiceLanguageNotice class="mt-4 justify-center" />
+
 		<!-- Micro-copy de confianza -->
 		<div class="mt-4 flex flex-col items-center justify-center gap-1 text-center text-xs text-on-surface-variant/75">
 			<p class="flex items-center gap-1.5">
 				<Icon name="shield" size="14" />
-				{i18n.lang === 'en' ? 'No credit card required to check availability' : 'No se requiere tarjeta de crédito para consultar'}
+				{i18n.t.leadForm.noCardRequired}
 			</p>
 			<p class="flex items-center gap-1.5">
 				<Icon name="zap" size="14" />
-				{i18n.lang === 'en' ? 'Response as soon as possible' : 'Respuesta lo antes posible'}
+				{i18n.t.leadForm.quickResponseNote}
 			</p>
 		</div>
 	</form>

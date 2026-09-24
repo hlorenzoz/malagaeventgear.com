@@ -243,7 +243,8 @@ const es = {
 		readLess: 'Leer menos',
 		seeAll: 'Ver todas las reseñas',
 		prevAria: 'Reseña anterior',
-		nextAria: 'Reseña siguiente'
+		nextAria: 'Reseña siguiente',
+		outOfFiveStars: 'de 5 estrellas'
 	},
 	// Lead capture form
 	leadForm: {
@@ -264,6 +265,8 @@ const es = {
 		errorMinLength: 'Debe tener al menos 2 caracteres.',
 		errorMaxLength: 'Máximo 1000 caracteres permitidos.',
 		errorHoneypot: 'Spam detectado.',
+		noCardRequired: 'No se requiere tarjeta de crédito para consultar',
+		quickResponseNote: 'Respuesta lo antes posible',
 		errorSubmit: 'Algo salió mal. Por favor intentá de nuevo o contactanos directamente.',
 		errorTurnstile: 'Falló la verificación de seguridad. Por favor intentá de nuevo.',
 		errorRateLimited: 'Demasiados intentos. Esperá unos minutos e intentá de nuevo.',
@@ -294,7 +297,79 @@ const es = {
 		badge: 'Ubicación y Perfil de Google',
 		title: 'Encontranos en Google',
 		subtitle: 'Visitá nuestro perfil oficial de Google Business o mirá nuestra ubicación en Málaga.',
-		viewOnGoogle: 'Ver en Google Maps'
+		viewOnGoogle: 'Ver en Google Maps',
+		mapTitle: 'Malaga Event Gear - Perfil de Google Business'
+	},
+	// Footer
+	footer: {
+		brandSubtitle:
+			'Alquiler de equipos premium de sonido, iluminación y pantallas para eventos exclusivos en Málaga y la Costa del Sol. Equipamiento de vanguardia y soporte técnico a medida.',
+		usefulLinks: 'Enlaces Útiles',
+		home: 'Inicio',
+		packages: 'Paquetes',
+		blog: 'Blog',
+		news: 'Noticias',
+		categories: 'Categorías',
+		aboutUs: 'Sobre Nosotros',
+		meetTheTeam: 'Nuestro Equipo',
+		contactUs: 'Contáctanos',
+		termsOfService: 'Términos del Servicio',
+		privacyPolicy: 'Política de Privacidad',
+		cookiePolicy: 'Política de Cookies',
+		gdpr: 'RGPD',
+		faq: 'Preguntas Frecuentes',
+		sitemap: 'Mapa del Sitio',
+		servicePackages: 'Paquetes de Servicios',
+		localAddress: 'Dirección Local',
+		listings: 'Directorios',
+		onlinePresence: 'Presencia Online',
+		moreInformation: 'Más Información',
+		moreInfoText: '¿Necesitás más detalles? Contactanos para info sobre alquiler de equipos, precios y disponibilidad.',
+		tel: 'Tel',
+		clickToChat: 'Chateá Ahora',
+		emails: 'Correos',
+		forHire: 'Para alquiler',
+		forContact: 'Para contacto',
+		forLegal: 'Para legal',
+		allRightsReserved: 'Todos los derechos reservados.',
+		developedBy: 'Desarrollado por',
+		lorenzozTitle: 'Lorenzoz Agency: agencia de desarrollo web y soluciones para negocios',
+		mailAriaLabel: 'Enviar correo',
+		callAriaLabel: 'Llamar a Malaga Event Gear: {phone}'
+	},
+	// Blog (post card, article layout, share widgets, click-to-tweet)
+	blog: {
+		newsBadge: 'Noticias',
+		byAuthor: 'Por',
+		updated: 'Actualizado',
+		shareInlineLabel: 'Compartir:',
+		shareSidebarLabel: 'COMPARTIR',
+		shareDrawerTitle: 'Compartir publicación',
+		copiedShort: 'Copiado!',
+		copiedExclaim: '¡Copiado!',
+		copyShort: 'Copiar',
+		copyLink: 'Copiar link',
+		shareOnAria: 'Compartir en {network}',
+		copyLinkAria: 'Copiar enlace al portapapeles',
+		openSharingAria: 'Abrir opciones para compartir',
+		closeSharingAria: 'Cerrar opciones para compartir',
+		tweetLabel: 'Twittear',
+		tweetAria: 'Twittear esta selección',
+		packagesSidebarAria: 'Barra lateral de paquetes del evento',
+		tocSidebarAria: 'Barra lateral de tabla de contenidos'
+	},
+	// WhatsApp floating widget
+	whatsapp: {
+		chatWithUs: 'Chateá con nosotros'
+	},
+	// Error page (404 / 500)
+	errorPage: {
+		notFoundHeading: 'Página no encontrada',
+		genericHeading: 'Algo salió mal',
+		notFoundBody: 'La página que buscás no existe o se movió. Probá desde el inicio o escribinos.',
+		genericBody: 'Tuvimos un problema procesando tu solicitud. Volvé al inicio o contactanos y lo resolvemos.',
+		contactUs: 'Contactanos',
+		backHome: 'Ir al inicio'
 	}
 } satisfies Messages;
 

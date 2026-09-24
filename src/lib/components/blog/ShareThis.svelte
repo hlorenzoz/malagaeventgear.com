@@ -73,7 +73,7 @@
 		class="share-inline-container" 
 		data-testid="share-inline"
 	>
-		<p class="share-title">{i18n.lang === 'es' ? 'Compartir:' : 'Share This:'}</p>
+		<p class="share-title">{i18n.t.blog.shareInlineLabel}</p>
 		<div class="share-buttons-grid">
 			{#each networks as net}
 				<a
@@ -81,7 +81,7 @@
 					target="_blank"
 					rel="noopener noreferrer"
 					class="share-btn {net.color}"
-					aria-label="Share on {net.name}"
+					aria-label={i18n.t.blog.shareOnAria.replace('{network}', net.name)}
 				>
 					<span class="share-icon-wrapper">
 						{#if net.icon === 'whatsapp'}
@@ -105,7 +105,7 @@
 			<button
 				onclick={handleCopyLink}
 				class="share-btn hover:bg-electric-blue hover:text-white relative"
-				aria-label="Copy link to clipboard"
+				aria-label={i18n.t.blog.copyLinkAria}
 				data-testid="copy-link-button"
 			>
 				<span class="share-icon-wrapper">
@@ -115,10 +115,10 @@
 						<svg viewBox="0 0 24 24" class="w-5 h-5 fill-none stroke-current" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
 					{/if}
 				</span>
-				<span class="share-btn-text">{copied ? (i18n.lang === 'es' ? 'Copiado!' : 'Copied!') : (i18n.lang === 'es' ? 'Copiar' : 'Copy link')}</span>
+				<span class="share-btn-text">{copied ? i18n.t.blog.copiedShort : i18n.t.blog.copyShort}</span>
 
 				{#if copied}
-					<span class="copy-tooltip">{i18n.lang === 'es' ? '¡Copiado!' : 'Copied!'}</span>
+					<span class="copy-tooltip">{i18n.t.blog.copiedExclaim}</span>
 				{/if}
 			</button>
 		</div>
@@ -130,7 +130,7 @@
 		data-testid="share-sidebar"
 		aria-hidden={visible}
 	>
-		<p class="share-sidebar-title">{i18n.lang === 'es' ? 'COMPARTIR' : 'SHARE THIS'}</p>
+		<p class="share-sidebar-title">{i18n.t.blog.shareSidebarLabel}</p>
 		<div class="share-sidebar-grid">
 			{#each networks as net}
 				<a
@@ -138,7 +138,7 @@
 					target="_blank"
 					rel="noopener noreferrer"
 					class="share-sidebar-btn {net.color}"
-					aria-label="Share on {net.name}"
+					aria-label={i18n.t.blog.shareOnAria.replace('{network}', net.name)}
 				>
 					<span class="share-sidebar-icon">
 						{#if net.icon === 'whatsapp'}
@@ -162,7 +162,7 @@
 			<button
 				onclick={handleCopyLink}
 				class="share-sidebar-btn hover:bg-electric-blue hover:text-white relative"
-				aria-label="Copy link to clipboard"
+				aria-label={i18n.t.blog.copyLinkAria}
 				data-testid="copy-link-sidebar"
 			>
 				<span class="share-sidebar-icon">
@@ -172,10 +172,10 @@
 						<svg viewBox="0 0 24 24" class="w-5 h-5 fill-none stroke-current" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
 					{/if}
 				</span>
-				<span class="share-sidebar-text">{copied ? (i18n.lang === 'es' ? 'Copiado!' : 'Copied!') : (i18n.lang === 'es' ? 'Copiar' : 'Copy link')}</span>
+				<span class="share-sidebar-text">{copied ? i18n.t.blog.copiedShort : i18n.t.blog.copyShort}</span>
 
 				{#if copied}
-					<span class="copy-tooltip-sidebar">{i18n.lang === 'es' ? '¡Copiado!' : 'Copied!'}</span>
+					<span class="copy-tooltip-sidebar">{i18n.t.blog.copiedExclaim}</span>
 				{/if}
 			</button>
 		</div>
@@ -186,7 +186,7 @@
 	<button
 		onclick={() => (isOpen = true)}
 		class="share-fab {visible ? 'opacity-0 pointer-events-none scale-75' : 'opacity-100 scale-100'}"
-		aria-label="Open sharing options"
+		aria-label={i18n.t.blog.openSharingAria}
 		data-testid="share-fab"
 	>
 		<svg viewBox="0 0 24 24" class="w-6 h-6 text-white" stroke="currentColor" fill="none">
@@ -222,10 +222,10 @@
 				<!-- Top Bar Indicator & Close Button -->
 				<div class="share-drawer-header">
 					<div class="share-drawer-handle"></div>
-					<button 
-						class="share-drawer-close" 
+					<button
+						class="share-drawer-close"
 						onclick={() => (isOpen = false)}
-						aria-label="Close sharing options"
+						aria-label={i18n.t.blog.closeSharingAria}
 					>
 						<svg viewBox="0 0 24 24" class="w-6 h-6 fill-none stroke-current" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 							<line x1="18" y1="6" x2="6" y2="18"></line>
@@ -235,7 +235,7 @@
 				</div>
 
 				<div class="share-drawer-content">
-					<h3 class="share-drawer-title">{i18n.lang === 'es' ? 'Compartir publicación' : 'Share this post'}</h3>
+					<h3 class="share-drawer-title">{i18n.t.blog.shareDrawerTitle}</h3>
 					
 					<div class="share-drawer-buttons">
 						{#each networks as net}
@@ -278,10 +278,10 @@
 								{/if}
 								
 								{#if copied}
-									<span class="copy-tooltip-drawer">{i18n.lang === 'es' ? '¡Copiado!' : 'Copied!'}</span>
+									<span class="copy-tooltip-drawer">{i18n.t.blog.copiedExclaim}</span>
 								{/if}
 							</span>
-							<span class="share-drawer-label">{copied ? (i18n.lang === 'es' ? '¡Copiado!' : 'Copied!') : (i18n.lang === 'es' ? 'Copiar link' : 'Copy link')}</span>
+							<span class="share-drawer-label">{copied ? i18n.t.blog.copiedExclaim : i18n.t.blog.copyLink}</span>
 						</button>
 					</div>
 				</div>

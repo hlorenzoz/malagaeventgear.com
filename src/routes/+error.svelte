@@ -2,33 +2,15 @@
 	import { page } from '$app/stores';
 	import { i18n } from '$lib/i18n.svelte';
 
-	const isEs = $derived(i18n.lang === 'es');
 	const status = $derived($page.status);
 	const isNotFound = $derived(status === 404);
 
-	const heading = $derived(
-		isNotFound
-			? isEs
-				? 'Página no encontrada'
-				: 'Page not found'
-			: isEs
-				? 'Algo salió mal'
-				: 'Something went wrong'
-	);
-
-	const body = $derived(
-		isNotFound
-			? isEs
-				? 'La página que buscás no existe o se movió. Probá desde el inicio o escribinos.'
-				: "The page you're looking for doesn't exist or moved. Try from the homepage or get in touch."
-			: isEs
-				? 'Tuvimos un problema procesando tu solicitud. Volvé al inicio o contactanos y lo resolvemos.'
-				: 'We hit a problem processing your request. Head back home or contact us and we will sort it out.'
-	);
+	const heading = $derived(isNotFound ? i18n.t.errorPage.notFoundHeading : i18n.t.errorPage.genericHeading);
+	const body = $derived(isNotFound ? i18n.t.errorPage.notFoundBody : i18n.t.errorPage.genericBody);
 </script>
 
 <svelte:head>
-	<title>{status} · Malaga Event Gear</title>
+	<title>{status} · {i18n.t.nav.brand}</title>
 	<meta name="robots" content="noindex, nofollow" />
 </svelte:head>
 
@@ -42,16 +24,16 @@
 
 		<div class="mt-8 flex flex-col-reverse gap-3 sm:flex-row sm:justify-center">
 			<a
-				href="/contact/"
+				href={i18n.href('/contact/')}
 				class="rounded-full border border-border-glass bg-on-surface/5 px-6 py-3 font-label-lg text-on-surface transition-colors hover:bg-on-surface/10"
 			>
-				{isEs ? 'Contactanos' : 'Contact us'}
+				{i18n.t.errorPage.contactUs}
 			</a>
 			<a
-				href="/"
+				href={i18n.href('/')}
 				class="rounded-full bg-electric-blue-strong px-6 py-3 font-label-lg uppercase tracking-wider text-white transition-all hover:shadow-[0_0_24px_rgba(77,140,255,0.45)] active:scale-95"
 			>
-				{isEs ? 'Ir al inicio' : 'Back home'}
+				{i18n.t.errorPage.backHome}
 			</a>
 		</div>
 	</div>

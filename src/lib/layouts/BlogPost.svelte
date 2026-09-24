@@ -2,6 +2,7 @@
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
 	import { buildArticleSchema, buildFAQSchema, toIso8601WithOffset } from '$lib/utils/schema';
 	import { i18n } from '$lib/i18n.svelte';
+	import { LOCALE_META } from '$lib/i18n/locales';
 	import { PROSE_SIZES } from '$lib/utils/blog-image-sizes.js';
 	import { slugify } from '$lib/utils/slugify';
 	import { siteConfig } from '$lib/data/site';
@@ -72,7 +73,7 @@
 
 	function formatDate(dateStr: string): string {
 		try {
-			return new Date(dateStr).toLocaleDateString(i18n.lang === 'es' ? 'es-ES' : 'en-GB', {
+			return new Date(dateStr).toLocaleDateString(LOCALE_META[i18n.lang].intl, {
 				year: 'numeric',
 				month: 'long',
 				day: 'numeric'
@@ -142,7 +143,7 @@
 		<!-- ── Col 1: Packages Rail (desktop only, sticky) ── -->
 		<aside
 			class="hidden lg:block lg:sticky lg:top-24 lg:self-start lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto"
-			aria-label="Event packages sidebar"
+			aria-label={i18n.t.blog.packagesSidebarAria}
 		>
 			<PackagesRail packages={railPackages} />
 			<ShareThis mode="sidebar" visible={isTopVisible} url={canonicalUrl} title={post.title} coverImage={post.coverImage} />
@@ -190,7 +191,7 @@
 				<!-- Meta: author + date -->
 				<div class="flex flex-wrap items-center justify-center gap-4 text-on-surface-variant font-body-sm text-body-sm">
 					<span>
-						{i18n.lang === 'en' ? 'By' : 'Por'}
+						{i18n.t.blog.byAuthor}
 						<a href="/blog/author/{authorSlug}/" class="text-electric-blue hover:underline ml-1">
 							{post.author}
 						</a>
@@ -200,7 +201,7 @@
 					{#if post.updatedDate && post.updatedDate !== post.publishDate}
 						<span class="text-border-glass">·</span>
 						<span>
-							{i18n.lang === 'en' ? 'Updated' : 'Actualizado'}
+							{i18n.t.blog.updated}
 							<time datetime={post.updatedDate}>{formatDate(post.updatedDate)}</time>
 						</span>
 					{/if}
@@ -245,7 +246,7 @@
 		<!-- ── Col 3: Table of Contents (desktop only, sticky) ── -->
 		<aside
 			class="hidden lg:block lg:sticky lg:top-24 lg:self-start lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto"
-			aria-label="Table of contents sidebar"
+			aria-label={i18n.t.blog.tocSidebarAria}
 		>
 			<TableOfContents toc={post.toc} />
 		</aside>

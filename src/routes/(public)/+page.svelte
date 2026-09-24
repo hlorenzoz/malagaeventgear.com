@@ -3,7 +3,7 @@
 	import LazyMount from '$lib/components/util/LazyMount.svelte';
 	import { i18n } from '$lib/i18n.svelte';
 	import { faqCopy, pkgCopy } from '$lib/i18n/data-copy.svelte';
-	import { packages, getPriceRange } from '$lib/data/packages';
+	import { packages, getPriceRange, formatPrice } from '$lib/data/packages';
 	import { getHomepageFaqs, buildFaqSchema } from '$lib/data/faq';
 	import { getArticlePosts, getNewsPosts } from '$lib/data/blog';
 	import LatestPostsRow from '$lib/components/home/LatestPostsRow.svelte';
@@ -15,6 +15,10 @@
 	import { HERO_MOBILE, HERO_FULL, HERO_SRCSET } from '$lib/assets/hero';
 	import { packageImageVariant } from '$lib/assets/package-images';
 	import { afterLcp } from '$lib/utils/after-lcp';
+
+	let { data } = $props();
+	// Copy in the page language (./i18n/<locale>.ts, loaded by +page.ts)
+	const copy = $derived(data.copy);
 
 	const coverThumbs = coverThumbsRaw as Record<string, { thumb: string; srcset?: string }>;
 
@@ -82,7 +86,7 @@
 				id: pkg.id,
 				route: pkg.route,
 				name: pkg.name,
-				price: pkg.price.toString(),
+				price: formatPrice(pkg.price, i18n.lang),
 				desc: pkgCopy(pkg).desc,
 				features: pkgCopy(pkg).includes.slice(0, 3), // select first 3 key specs
 				icon: meta.icon,
@@ -165,8 +169,8 @@
 
 <!-- SEO Head & JSON-LD Injection -->
 <SeoHead
-	title="Audio Visual Equipment Hire Service in Malaga | MEG"
-	description="Malaga Event Gear (MEG) offers premium sound system, spectacular lighting, projector, and screen rentals for weddings, corporate events, and parties in Malaga."
+	title={copy.seo.title}
+	description={copy.seo.description}
 	canonicalUrl="https://malagaeventgear.com/"
 	image={HERO_FULL}
 	imageWidth={1024}
@@ -219,10 +223,10 @@
 				{i18n.t.hero.subtitle}
 			</p>
 			<div class="flex flex-wrap gap-4 pt-4">
-				<a class="bg-electric-blue-strong text-white px-8 py-4 rounded-full font-label-lg hover:shadow-[0_0_30px_rgba(77,140,255,0.3)] hover:-translate-y-0.5 transition-all active:scale-95 duration-200" href="/packages/">
+				<a class="bg-electric-blue-strong text-white px-8 py-4 rounded-full font-label-lg hover:shadow-[0_0_30px_rgba(77,140,255,0.3)] hover:-translate-y-0.5 transition-all active:scale-95 duration-200" href={i18n.href('/packages/')}>
 					{i18n.t.hero.viewPricing}
 				</a>
-				<a class="glass-panel text-on-surface px-8 py-4 rounded-full font-label-lg hover:bg-on-surface/10 hover:-translate-y-0.5 transition-all flex items-center gap-2 active:scale-95 duration-200" href="/contact/">
+				<a class="glass-panel text-on-surface px-8 py-4 rounded-full font-label-lg hover:bg-on-surface/10 hover:-translate-y-0.5 transition-all flex items-center gap-2 active:scale-95 duration-200" href={i18n.href('/contact/')}>
 					{i18n.t.hero.contactUs} <Icon name="arrow_forward" size="20" />
 				</a>
 			</div>
@@ -246,7 +250,7 @@
 				src={HERO_MOBILE}
 				srcset={HERO_SRCSET}
 				sizes={HERO_SIZES}
-				alt="Premium event stage with professional audiovisual lighting on the Costa del Sol"
+				alt={copy.hero.imageAlt}
 				width="700"
 				height="525"
 				loading="eager"
@@ -277,7 +281,7 @@
 				</div>
 				<p class="font-body-md text-body-md text-on-surface-variant">
 					{#if item.cost}
-						<strong class="text-on-surface">{i18n.t.overview.costFrom} {minPrice} € {i18n.t.pricing.plusVat}.</strong>
+						<strong class="text-on-surface">{i18n.t.overview.costFrom} {formatPrice(minPrice, i18n.lang)} {i18n.t.pricing.plusVat}.</strong>
 					{/if}
 					{item.a}
 				</p>
@@ -339,8 +343,8 @@
 		<!-- Sound System (Large) -->
 		<div class="glass-panel rounded-2xl overflow-hidden relative group md:col-span-2 md:row-span-2 reveal active is-revealed">
 			<div class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-background via-background/70 to-transparent z-10"></div>
-			<img 
-				alt="Professional sound system rental" 
+			<img
+				alt={copy.categories.soundImageAlt}
 				class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 pointer-events-none" 
 				src={coverThumbs['https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled.webp']?.thumb ?? 'https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled.webp'}
 				srcset={coverThumbs['https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled.webp']?.srcset}
@@ -364,8 +368,8 @@
 		<!-- Lighting -->
 		<div class="glass-panel rounded-2xl overflow-hidden relative group reveal active is-revealed">
 			<div class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-background via-background/70 to-transparent z-10"></div>
-			<img 
-				alt="Spectacular event lighting rental" 
+			<img
+				alt={copy.categories.lightImageAlt}
 				class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 pointer-events-none" 
 				src={coverThumbs['https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled.webp']?.thumb ?? 'https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled.webp'}
 				srcset={coverThumbs['https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled.webp']?.srcset}
@@ -387,8 +391,8 @@
 		<!-- Visuals/Projectors -->
 		<div class="glass-panel rounded-2xl overflow-hidden relative group reveal active is-revealed">
 			<div class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-background via-background/70 to-transparent z-10"></div>
-			<img 
-				alt="HD event visuals and projectors rental" 
+			<img
+				alt={copy.categories.visualImageAlt}
 				class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 pointer-events-none" 
 				src={coverThumbs['https://cdn.malagaeventgear.com/blog/1292/malaga_event_lighting_display_projector_sound_rental_3-scaled.webp']?.thumb ?? 'https://cdn.malagaeventgear.com/blog/1292/malaga_event_lighting_display_projector_sound_rental_3-scaled.webp'}
 				srcset={coverThumbs['https://cdn.malagaeventgear.com/blog/1292/malaga_event_lighting_display_projector_sound_rental_3-scaled.webp']?.srcset}
@@ -418,7 +422,7 @@
 					</p>
 				</div>
 				<a
-					href="/equipment/"
+					href={i18n.href('/equipment/')}
 					class="hidden md:flex w-16 h-16 rounded-full border border-border-glass items-center justify-center hover:bg-on-surface/5 active:scale-90 transition-all duration-300 text-on-surface"
 				>
 					<Icon name="arrow_forward" size="32" className="group-hover:translate-x-1 transition-transform" />
@@ -514,13 +518,13 @@
 						<!-- Body Content with padding -->
 						<div class="flex flex-col grow p-6">
 							<h3 class="font-headline-md text-[22px] text-on-surface mb-1 hover:text-electric-blue transition-colors">
-								<a href={pack.route}>{pack.name}</a>
+								<a href={i18n.href(pack.route)}>{pack.name}</a>
 							</h3>
 							<div class="text-[28px] font-bold mb-4 {pack.popular ? '' : 'text-on-surface'}">
 								{#if pack.popular}
-									<span class="text-gradient">{pack.price} €</span>
+									<span class="text-gradient">{pack.price}</span>
 								{:else}
-									<span>{pack.price} €</span>
+									<span>{pack.price}</span>
 								{/if}
 								<span class="font-body-sm text-sm text-on-surface-variant">{i18n.t.pricing.plusVat}</span>
 							</div>
@@ -533,7 +537,7 @@
 									</li>
 								{/each}
 							</ul>
-							<a href={pack.route} class="glass-panel text-on-surface px-6 py-3 rounded-full font-label-lg text-center hover:bg-on-surface/10 hover:-translate-y-0.5 transition-all active:scale-95 duration-200">
+							<a href={i18n.href(pack.route)} class="glass-panel text-on-surface px-6 py-3 rounded-full font-label-lg text-center hover:bg-on-surface/10 hover:-translate-y-0.5 transition-all active:scale-95 duration-200">
 								{i18n.t.packages.enquire}
 							</a>
 						</div>
@@ -569,7 +573,7 @@
 		</div>
 
 		<div class="text-center">
-			<a href="/packages/" class="inline-flex items-center gap-2 bg-electric-blue-strong text-white px-10 py-4 rounded-full font-label-lg hover:shadow-[0_0_30px_rgba(77,140,255,0.3)] hover:-translate-y-0.5 transition-all active:scale-95 duration-200">
+			<a href={i18n.href('/packages/')} class="inline-flex items-center gap-2 bg-electric-blue-strong text-white px-10 py-4 rounded-full font-label-lg hover:shadow-[0_0_30px_rgba(77,140,255,0.3)] hover:-translate-y-0.5 transition-all active:scale-95 duration-200">
 				{i18n.t.pricingPreview.viewAll}
 				<Icon name="arrow_forward" size="20" />
 			</a>
@@ -630,14 +634,14 @@
 
 		<div class="text-center mt-12">
 			<p class="text-on-surface-variant font-body-md mb-4">
-				{i18n.lang === 'en' ? 'Have more questions?' : '¿Tenés más preguntas?'}
+				{copy.faqSection.moreQuestions}
 			</p>
 			<div class="flex flex-wrap items-center justify-center gap-4">
-				<a href="/faq/" class="inline-flex items-center gap-2 bg-electric-blue-strong text-white px-8 py-3 rounded-full font-label-lg hover:shadow-[0_0_30px_rgba(77,140,255,0.3)] hover:-translate-y-0.5 transition-all active:scale-95 duration-200">
-					{i18n.lang === 'en' ? 'See all FAQs' : 'Ver todas las preguntas frecuentes'}
+				<a href={i18n.href('/faq/')} class="inline-flex items-center gap-2 bg-electric-blue-strong text-white px-8 py-3 rounded-full font-label-lg hover:shadow-[0_0_30px_rgba(77,140,255,0.3)] hover:-translate-y-0.5 transition-all active:scale-95 duration-200">
+					{copy.faqSection.seeAllFaqs}
 					<Icon name="arrow_forward" size="20" />
 				</a>
-				<a href="/contact/" class="glass-panel text-on-surface px-8 py-3 rounded-full font-label-lg hover:bg-on-surface/10 hover:-translate-y-0.5 transition-all active:scale-95 duration-200">
+				<a href={i18n.href('/contact/')} class="glass-panel text-on-surface px-8 py-3 rounded-full font-label-lg hover:bg-on-surface/10 hover:-translate-y-0.5 transition-all active:scale-95 duration-200">
 					{i18n.t.contact.title}
 				</a>
 			</div>
@@ -647,16 +651,16 @@
 
 <!-- Latest Posts (non-news articles) -->
 <LatestPostsRow
-	title={i18n.lang === 'en' ? 'Latest Posts' : 'Últimos Artículos'}
+	title={copy.posts.latestTitle}
 	posts={latestPosts}
-	viewAllHref="/blog/"
-	viewAllLabel={i18n.lang === 'en' ? 'View all posts' : 'Ver todos los artículos'}
+	viewAllHref={i18n.href('/blog/')}
+	viewAllLabel={copy.posts.latestViewAll}
 />
 
 <!-- Latest News -->
 <LatestPostsRow
-	title={i18n.lang === 'en' ? 'Latest News' : 'Últimas Noticias'}
+	title={copy.posts.newsTitle}
 	posts={latestNews}
-	viewAllHref="/blog/category/news/"
-	viewAllLabel={i18n.lang === 'en' ? 'View all news' : 'Ver todas las noticias'}
+	viewAllHref={i18n.href('/blog/category/news/')}
+	viewAllLabel={copy.posts.newsViewAll}
 />

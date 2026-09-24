@@ -54,9 +54,11 @@ const metaModules = import.meta.glob('/src/routes/**/meta.ts', {
 
 /**
  * Fecha de cada TRADUCCION de pagina: `export const updated` de `<ruta>/i18n/<locale>.ts`,
- * al lado de la copia traducida (CLAUDE.md §11). Solo se importa ese export.
+ * al lado de la copia traducida (CLAUDE.md §11). Solo se importa ese export. Los `en.ts` quedan
+ * AFUERA: no exportan `updated` (la fecha inglesa vive en meta.ts), y un named import que no
+ * existe rompe el modulo en el navegador (SyntaxError en dev, lo que mato la hidratacion de /map).
  */
-const translationDates = import.meta.glob('/src/routes/**/i18n/*.ts', {
+const translationDates = import.meta.glob(['/src/routes/**/i18n/*.ts', '!/src/routes/**/i18n/en.ts'], {
 	eager: true,
 	import: 'updated'
 }) as Record<string, string | undefined>;

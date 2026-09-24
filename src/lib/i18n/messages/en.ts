@@ -255,7 +255,8 @@ const en = {
 		readLess: 'Read less',
 		seeAll: 'See all reviews',
 		prevAria: 'Previous review',
-		nextAria: 'Next review'
+		nextAria: 'Next review',
+		outOfFiveStars: 'out of 5 stars'
 	},
 	// Lead capture form
 	leadForm: {
@@ -276,6 +277,8 @@ const en = {
 		errorMinLength: 'Must be at least 2 characters.',
 		errorMaxLength: 'Maximum 1000 characters allowed.',
 		errorHoneypot: 'Spam detected.',
+		noCardRequired: 'No credit card required to check availability',
+		quickResponseNote: 'Response as soon as possible',
 		errorSubmit: 'Something went wrong. Please try again or contact us directly.',
 		errorTurnstile: 'Security verification failed. Please try again.',
 		errorRateLimited: 'Too many requests. Please wait a few minutes and try again.',
@@ -306,7 +309,79 @@ const en = {
 		badge: 'Location & Google Profile',
 		title: 'Find Us on Google',
 		subtitle: 'Visit our official Google Business Profile or view our location in Malaga.',
-		viewOnGoogle: 'View on Google Maps'
+		viewOnGoogle: 'View on Google Maps',
+		mapTitle: 'Malaga Event Gear - Google Business Profile'
+	},
+	// Footer
+	footer: {
+		brandSubtitle:
+			'Premium sound, lighting, and screen rentals for exclusive events in Malaga and the Costa del Sol. State of the art equipment and tailored technical support.',
+		usefulLinks: 'Useful Links',
+		home: 'Home',
+		packages: 'Packages',
+		blog: 'Blog',
+		news: 'News',
+		categories: 'Categories',
+		aboutUs: 'About Us',
+		meetTheTeam: 'Meet The Team',
+		contactUs: 'Contact Us',
+		termsOfService: 'Terms of Service',
+		privacyPolicy: 'Privacy Policy',
+		cookiePolicy: 'Cookie Policy',
+		gdpr: 'GDPR',
+		faq: 'FAQ',
+		sitemap: 'Sitemap',
+		servicePackages: 'Service Packages',
+		localAddress: 'Local Address',
+		listings: 'Listings',
+		onlinePresence: 'Online Presence',
+		moreInformation: 'More Information',
+		moreInfoText: 'Need more details? Contact us for info on our event gear rentals, pricing, and availability.',
+		tel: 'Tel',
+		clickToChat: 'Click To Chat',
+		emails: 'Emails',
+		forHire: 'For hire',
+		forContact: 'For contact',
+		forLegal: 'For legal',
+		allRightsReserved: 'All rights reserved.',
+		developedBy: 'Developed by',
+		lorenzozTitle: 'Lorenzoz Agency: web development agency and business solutions',
+		mailAriaLabel: 'Send email',
+		callAriaLabel: 'Call Malaga Event Gear: {phone}'
+	},
+	// Blog (post card, article layout, share widgets, click-to-tweet)
+	blog: {
+		newsBadge: 'News',
+		byAuthor: 'By',
+		updated: 'Updated',
+		shareInlineLabel: 'Share This:',
+		shareSidebarLabel: 'SHARE THIS',
+		shareDrawerTitle: 'Share this post',
+		copiedShort: 'Copied!',
+		copiedExclaim: 'Copied!',
+		copyShort: 'Copy link',
+		copyLink: 'Copy link',
+		shareOnAria: 'Share on {network}',
+		copyLinkAria: 'Copy link to clipboard',
+		openSharingAria: 'Open sharing options',
+		closeSharingAria: 'Close sharing options',
+		tweetLabel: 'Tweet',
+		tweetAria: 'Tweet this selection',
+		packagesSidebarAria: 'Event packages sidebar',
+		tocSidebarAria: 'Table of contents sidebar'
+	},
+	// WhatsApp floating widget
+	whatsapp: {
+		chatWithUs: 'Chat with us'
+	},
+	// Error page (404 / 500)
+	errorPage: {
+		notFoundHeading: 'Page not found',
+		genericHeading: 'Something went wrong',
+		notFoundBody: "The page you're looking for doesn't exist or moved. Try from the homepage or get in touch.",
+		genericBody: 'We hit a problem processing your request. Head back home or contact us and we will sort it out.',
+		contactUs: 'Contact us',
+		backHome: 'Back home'
 	}
 };
 

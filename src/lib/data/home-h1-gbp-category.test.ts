@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { siteConfig } from './site';
 import en from '../i18n/messages/en';
 import es from '../i18n/messages/es';
+import homeCopy from '../../routes/(public)/i18n/en';
 
 /**
  * Guard: the home <title> and <h1> carry the Google Business Profile PRIMARY category.
@@ -17,32 +18,10 @@ import es from '../i18n/messages/es';
  * back together and compares against site.ts.
  *
  * The dictionaries are plain modules (`i18n/messages/<locale>.ts`), imported directly. The home
- * page source is read as raw text with `import.meta.glob`, the same approach as
- * `no-hardcoded-prices.test.ts`, to check its `<title>` literal.
+ * page's own SEO `<title>` used to be a literal in +page.svelte, checked here as raw source
+ * text; it now lives in `routes/(public)/i18n/en.ts` (page copy, CLAUDE.md i18n plan), so this
+ * imports that module directly instead of grepping the component source.
  */
-
-const sources = import.meta.glob('../../**/*.{ts,svelte}', {
-	query: '?raw',
-	import: 'default',
-	eager: true
-}) as Record<string, string>;
-
-/**
- * Matched by path SUFFIX. Vite keys these relative to this module, so the i18n store comes
- * back as `../i18n.svelte.ts` and not `lib/i18n.svelte.ts`. Same trap the allowlist in
- * `no-hardcoded-prices.test.ts` documents. Keep the suffixes short enough to match, long
- * enough to stay unique.
- */
-function sourceEndingWith(suffix: string): string {
-	const hits = Object.entries(sources).filter(([path]) => path.endsWith(suffix));
-	if (hits.length === 0) throw new Error(`source not found: ${suffix}`);
-	if (hits.length > 1) {
-		throw new Error(`suffix "${suffix}" is ambiguous: ${hits.map(([p]) => p).join(', ')}`);
-	}
-	return hits[0][1];
-}
-
-const HOME = sourceEndingWith('routes/(public)/+page.svelte');
 
 /** The <h1> as a reader sees it: the three parts joined by the spaces in the markup. */
 function heroTitle(messages: typeof en): string {
@@ -65,7 +44,7 @@ describe('home title and h1 carry the GBP primary category', () => {
 	});
 
 	it('the <title> is the same phrase plus the brand suffix', () => {
-		expect(HOME).toContain(`title="${PRIMARY_CATEGORY} in Malaga | MEG"`);
+		expect(homeCopy.seo.title).toBe(`${PRIMARY_CATEGORY} in Malaga | MEG`);
 	});
 
 	it('the <title> stays within the ~60 character SERP budget', () => {

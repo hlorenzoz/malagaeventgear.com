@@ -3,6 +3,7 @@
 	import { packages } from '$lib/data/packages';
 	import { siteConfig } from '$lib/data/site';
 	import Icon from '$lib/components/navigation/Icon.svelte';
+	import LanguageSwitcher from '$lib/components/navigation/LanguageSwitcher.svelte';
 	import type { Category } from '$lib/types/blog';
 	import { LOGO_LIGHT, LOGO_DARK } from '$lib/assets/logos';
 
@@ -20,60 +21,57 @@
 				<img src={LOGO_LIGHT} alt={i18n.t.nav.brand} width="250" height="75" class="brand-logo brand-logo--light h-9 w-auto" />
 				<img src={LOGO_DARK} alt={i18n.t.nav.brand} width="250" height="75" class="brand-logo brand-logo--dark h-9 w-auto" />
 				<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl mt-2">
-					{i18n.lang === 'en' 
-						? 'Premium sound, lighting, and screen rentals for exclusive events in Malaga and the Costa del Sol. State of the art equipment and tailored technical support.'
-						: 'Alquiler de equipos premium de sonido, iluminación y pantallas para eventos exclusivos en Málaga y la Costa del Sol. Equipamiento de vanguardia y soporte técnico a medida.'
-					}
+					{i18n.t.footer.brandSubtitle}
 				</p>
 			</div>
 
 			<!-- Col 2: Navigation / Links -->
 			<div class="lg:col-span-3 flex flex-col gap-4">
 				<span class="font-label-lg text-on-surface uppercase tracking-wider mb-2">
-					{i18n.lang === 'en' ? 'Useful Links' : 'Enlaces Útiles'}
+					{i18n.t.footer.usefulLinks}
 				</span>
 				<nav class="flex flex-col gap-2">
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href="/">
-						{i18n.lang === 'en' ? 'Home' : 'Inicio'}
+					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/')}>
+						{i18n.t.footer.home}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href="/packages/">
-						{i18n.lang === 'en' ? 'Packages' : 'Paquetes'}
+					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/packages/')}>
+						{i18n.t.footer.packages}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href="/blog/">
-						{i18n.lang === 'en' ? 'Blog' : 'Blog'}
+					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/blog/')}>
+						{i18n.t.footer.blog}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href="/blog/category/news/">
-						{i18n.lang === 'en' ? 'News' : 'Noticias'}
+					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/blog/category/news/')}>
+						{i18n.t.footer.news}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href="/blog/categories/">
-						{i18n.lang === 'en' ? 'Categories' : 'Categorías'}
+					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/blog/categories/')}>
+						{i18n.t.footer.categories}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href="/about-us/">
-						{i18n.lang === 'en' ? 'About Us' : 'Sobre Nosotros'}
+					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/about-us/')}>
+						{i18n.t.footer.aboutUs}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href="/meet-the-team/">
-						{i18n.lang === 'en' ? 'Meet The Team' : 'Nuestro Equipo'}
+					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/meet-the-team/')}>
+						{i18n.t.footer.meetTheTeam}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href="/contact/">
-						{i18n.lang === 'en' ? 'Contact Us' : 'Contáctanos'}
+					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/contact/')}>
+						{i18n.t.footer.contactUs}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href="/terms-of-service/">
-						{i18n.lang === 'en' ? 'Terms of Service' : 'Términos del Servicio'}
+					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/terms-of-service/')}>
+						{i18n.t.footer.termsOfService}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href="/privacy-policy/">
-						{i18n.lang === 'en' ? 'Privacy Policy' : 'Política de Privacidad'}
+					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/privacy-policy/')}>
+						{i18n.t.footer.privacyPolicy}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href="/cookie-policy/">
-						{i18n.lang === 'en' ? 'Cookie Policy' : 'Política de Cookies'}
+					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/cookie-policy/')}>
+						{i18n.t.footer.cookiePolicy}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href="/gdpr/">
-						{i18n.lang === 'en' ? 'GDPR' : 'RGPD'}
+					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/gdpr/')}>
+						{i18n.t.footer.gdpr}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href="/faq/">
-						{i18n.lang === 'en' ? 'FAQ' : 'Preguntas Frecuentes'}
+					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/faq/')}>
+						{i18n.t.footer.faq}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href="/sitemap/">
-						{i18n.lang === 'en' ? 'Sitemap' : 'Mapa del Sitio'}
+					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/sitemap/')}>
+						{i18n.t.footer.sitemap}
 					</a>
 				</nav>
 			</div>
@@ -81,21 +79,21 @@
 			<!-- Col 3: Service Packages -->
 			<div class="lg:col-span-3 flex flex-col gap-4">
 				<span class="font-label-lg text-on-surface uppercase tracking-wider mb-2">
-					{i18n.lang === 'en' ? 'Service Packages' : 'Paquetes de Servicios'}
+					{i18n.t.footer.servicePackages}
 				</span>
 				<nav class="flex flex-col gap-2">
 					{#each packages as pkg (pkg.id)}
-						<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={pkg.route}>
+						<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href(pkg.route)}>
 							{pkg.name}
 						</a>
 					{/each}
 				</nav>
-				<a href="/blog/categories/" class="font-label-lg text-on-surface uppercase tracking-wider mb-2 mt-4 hover:text-electric-blue transition-colors duration-200">
-					{i18n.lang === 'en' ? 'Categories' : 'Categorías'}
+				<a href={i18n.href('/blog/categories/')} class="font-label-lg text-on-surface uppercase tracking-wider mb-2 mt-4 hover:text-electric-blue transition-colors duration-200">
+					{i18n.t.footer.categories}
 				</a>
 				<nav class="flex flex-col gap-2">
 					{#each categories as cat (cat.slug)}
-						<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href="/blog/category/{cat.slug}/">
+						<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href(`/blog/category/${cat.slug}/`)}>
 							{cat.name}
 						</a>
 					{/each}
@@ -106,7 +104,7 @@
 			<div class="lg:col-span-3 flex flex-col gap-8">
 				<div class="flex flex-col gap-4">
 					<span class="font-label-lg text-on-surface uppercase tracking-wider mb-2">
-						{i18n.lang === 'en' ? 'Local Address' : 'Dirección Local'}
+						{i18n.t.footer.localAddress}
 					</span>
 					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue transition-colors duration-200" href={siteConfig.googleBusinessProfile} target="_blank" rel="noopener noreferrer">
 						{siteConfig.displayAddress}
@@ -115,7 +113,7 @@
 
 				<div class="flex flex-col gap-4">
 					<span class="font-label-lg text-on-surface uppercase tracking-wider mb-2">
-						{i18n.lang === 'en' ? 'Listings' : 'Directorios'}
+						{i18n.t.footer.listings}
 					</span>
 					<nav class="flex flex-col gap-2">
 						<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={siteConfig.googleBusinessProfile} target="_blank" rel="noopener noreferrer">
@@ -129,7 +127,7 @@
 
 				<div class="flex flex-col gap-4">
 					<span class="font-label-lg text-on-surface uppercase tracking-wider mb-2">
-						{i18n.lang === 'en' ? 'Online Presence' : 'Presencia Online'}
+						{i18n.t.footer.onlinePresence}
 					</span>
 					<nav class="flex flex-col gap-2">
 						<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={siteConfig.onlinePresence.medium} target="_blank" rel="noopener noreferrer">
@@ -146,16 +144,13 @@
 			<div class="lg:col-span-3 flex flex-col gap-8">
 				<div class="flex flex-col gap-4">
 					<span class="font-label-lg text-on-surface uppercase tracking-wider mb-2">
-						{i18n.lang === 'en' ? 'More Information' : 'Más Información'}
+						{i18n.t.footer.moreInformation}
 					</span>
 					<p class="font-body-md text-body-md text-on-surface-variant">
-						{i18n.lang === 'en'
-							? 'Need more details? Contact us for info on our event gear rentals, pricing, and availability.'
-							: '¿Necesitás más detalles? Contactanos para info sobre alquiler de equipos, precios y disponibilidad.'
-						}
+						{i18n.t.footer.moreInfoText}
 					</p>
 					<p class="font-body-md text-body-md text-on-surface-variant">
-						<span class="text-on-surface font-medium">{i18n.lang === 'en' ? 'Tel' : 'Tel'}:</span>
+						<span class="text-on-surface font-medium">{i18n.t.footer.tel}:</span>
 						<a class="hover:text-electric-blue transition-colors duration-200" href={siteConfig.phoneCallUrl}>
 							{siteConfig.contactPhone}
 						</a>
@@ -163,30 +158,30 @@
 					<p class="font-body-md text-body-md text-on-surface-variant">
 						<span class="text-on-surface font-medium">WhatsApp:</span>
 						<a class="hover:text-electric-blue transition-colors duration-200" href={siteConfig.whatsappUrl} target="_blank" rel="noopener noreferrer">
-							{i18n.lang === 'en' ? 'Click To Chat' : 'Chateá Ahora'}
+							{i18n.t.footer.clickToChat}
 						</a>
 					</p>
 				</div>
 
 				<div class="flex flex-col gap-4">
 					<span class="font-label-lg text-on-surface uppercase tracking-wider mb-2">
-						{i18n.lang === 'en' ? 'Emails' : 'Correos'}
+						{i18n.t.footer.emails}
 					</span>
 					<div class="flex flex-col gap-3">
 						<p class="font-body-md text-body-md text-on-surface-variant">
-							<span class="text-on-surface font-medium">{i18n.lang === 'en' ? 'For hire' : 'Para alquiler'}:</span><br />
+							<span class="text-on-surface font-medium">{i18n.t.footer.forHire}:</span><br />
 							<a class="hover:text-electric-blue transition-colors duration-200 break-all" href="mailto:{siteConfig.emails.hire}">
 								{siteConfig.emails.hire}
 							</a>
 						</p>
 						<p class="font-body-md text-body-md text-on-surface-variant">
-							<span class="text-on-surface font-medium">{i18n.lang === 'en' ? 'For contact' : 'Para contacto'}:</span><br />
+							<span class="text-on-surface font-medium">{i18n.t.footer.forContact}:</span><br />
 							<a class="hover:text-electric-blue transition-colors duration-200 break-all" href="mailto:{siteConfig.emails.contact}">
 								{siteConfig.emails.contact}
 							</a>
 						</p>
 						<p class="font-body-md text-body-md text-on-surface-variant">
-							<span class="text-on-surface font-medium">{i18n.lang === 'en' ? 'For legal' : 'Para legal'}:</span><br />
+							<span class="text-on-surface font-medium">{i18n.t.footer.forLegal}:</span><br />
 							<a class="hover:text-electric-blue transition-colors duration-200 break-all" href="mailto:{siteConfig.emails.legal}">
 								{siteConfig.emails.legal}
 							</a>
@@ -196,43 +191,44 @@
 			</div>
 		</div>
 
-		<!-- Bottom Row: Copyright & Socials -->
-		<div class="pt-8 border-t border-border-glass/50 flex flex-col md:flex-row justify-between items-center gap-4 text-center">
-			<div class="flex flex-col items-center md:items-start gap-1">
-				<span class="font-body-md text-body-md text-on-surface-variant text-sm">
-					© {new Date().getFullYear()} {i18n.t.nav.brand}. {i18n.lang === 'en' ? 'All rights reserved.' : 'Todos los derechos reservados.'}
-				</span>
-				<span class="font-body-md text-body-md text-on-surface-variant text-sm">
-					Developed by
+		<!-- Bottom Row: Language Switcher, Copyright & Socials -->
+		<div class="pt-8 border-t border-border-glass/50 flex flex-col gap-6">
+			<LanguageSwitcher variant="list" />
+			<div class="flex flex-col md:flex-row justify-between items-center gap-4 text-center">
+				<div class="flex flex-col items-center md:items-start gap-1">
+					<span class="font-body-md text-body-md text-on-surface-variant text-sm">
+						© {new Date().getFullYear()} {i18n.t.nav.brand}. {i18n.t.footer.allRightsReserved}
+					</span>
+					<span class="font-body-md text-body-md text-on-surface-variant text-sm">
+						{i18n.t.footer.developedBy}
+						<a
+							class="text-on-surface underline underline-offset-4 hover:text-electric-blue transition-colors duration-200"
+							href="https://hlorenzoz.com/"
+							target="_blank"
+							rel="noopener"
+							title={i18n.t.footer.lorenzozTitle}
+						>
+							Lorenzoz Agency
+						</a>
+					</span>
+				</div>
+				<div class="flex items-center gap-4">
 					<a
-						class="text-on-surface underline underline-offset-4 hover:text-electric-blue transition-colors duration-200"
-						href="https://hlorenzoz.com/"
-						target="_blank"
-						rel="noopener"
-						title={i18n.lang === 'en'
-							? 'Lorenzoz Agency: web development agency and business solutions'
-							: 'Lorenzoz Agency: agencia de desarrollo web y soluciones para negocios'}
+						class="w-10 h-10 rounded-full glass-panel flex items-center justify-center text-primary hover:text-electric-blue hover:bg-white/10 active:scale-95 transition-all duration-300"
+						href="mailto:{siteConfig.emails.contact}"
+						aria-label={i18n.t.footer.mailAriaLabel}
 					>
-						Lorenzoz Agency
+						<Icon name="mail" size="20" />
 					</a>
-				</span>
-			</div>
-			<div class="flex items-center gap-4">
-				<a 
-					class="w-10 h-10 rounded-full glass-panel flex items-center justify-center text-primary hover:text-electric-blue hover:bg-white/10 active:scale-95 transition-all duration-300" 
-					href="mailto:contact@malagaeventgear.com"
-					aria-label="Send email"
-				>
-					<Icon name="mail" size="20" />
-				</a>
-				<a 
-					class="flex items-center gap-1.5 px-3 py-1.5 h-10 rounded-full glass-panel hover:bg-white/10 text-on-surface hover:text-electric-blue transition-colors duration-300 font-label-sm text-xs sm:text-sm active:scale-95" 
-					href={siteConfig.phoneCallUrl}
-					aria-label="Call Malaga Event Gear: {siteConfig.contactPhone}"
-				>
-					<Icon name="call" size="18" className="text-electric-blue shrink-0" />
-					<span class="font-semibold whitespace-nowrap">{siteConfig.contactPhone}</span>
-				</a>
+					<a
+						class="flex items-center gap-1.5 px-3 py-1.5 h-10 rounded-full glass-panel hover:bg-white/10 text-on-surface hover:text-electric-blue transition-colors duration-300 font-label-sm text-xs sm:text-sm active:scale-95"
+						href={siteConfig.phoneCallUrl}
+						aria-label={i18n.t.footer.callAriaLabel.replace('{phone}', siteConfig.contactPhone)}
+					>
+						<Icon name="call" size="18" className="text-electric-blue shrink-0" />
+						<span class="font-semibold whitespace-nowrap">{siteConfig.contactPhone}</span>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>

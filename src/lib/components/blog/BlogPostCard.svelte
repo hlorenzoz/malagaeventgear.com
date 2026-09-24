@@ -1,13 +1,14 @@
 <script lang="ts">
 	import { i18n } from '$lib/i18n.svelte';
 	import { slugify } from '$lib/utils/slugify';
+	import { LOCALE_META } from '$lib/i18n/locales';
 	import type { BlogPost } from '$lib/types/blog';
 
 	let { post }: { post: BlogPost } = $props();
 
 	function formatDate(dateStr: string): string {
 		try {
-			return new Date(dateStr).toLocaleDateString(i18n.lang === 'es' ? 'es-ES' : 'en-GB', {
+			return new Date(dateStr).toLocaleDateString(LOCALE_META[i18n.lang].intl, {
 				year: 'numeric',
 				month: 'short',
 				day: 'numeric'
@@ -47,7 +48,7 @@
 		<div class="mb-2">
 			{#if post.isNews}
 				<span class="px-2 py-0.5 rounded-full text-xs font-label-sm bg-electric-blue-strong text-white uppercase tracking-wider">
-					{i18n.lang === 'en' ? 'News' : 'Noticias'}
+					{i18n.t.blog.newsBadge}
 				</span>
 			{:else if post.categories && post.categories.length > 0}
 				<a

@@ -110,5 +110,12 @@ for (const locale of PUBLISHED_LOCALES) {
 			await expect(en).toHaveAttribute('href', '/about-us/');
 			await expect(switcher.locator(`a[aria-current="page"]`)).toHaveAttribute('hreflang', LOCALE_META[locale].htmlLang);
 		});
+
+		test('the footer lists every published language as plain links', async ({ page }) => {
+			await page.goto((await localized(locale, '/about-us/'))!);
+			const footer = page.getByTestId('footer-language-switcher');
+			await expect(footer.locator('a[hreflang="en"]')).toHaveAttribute('href', '/about-us/');
+			await expect(footer.locator('a[hreflang]')).toHaveCount(PUBLISHED_LOCALES.length + 1);
+		});
 	});
 }

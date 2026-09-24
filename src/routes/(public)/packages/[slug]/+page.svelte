@@ -7,6 +7,7 @@
 	import { i18n } from '$lib/i18n.svelte';
 	import { pkgCopy } from '$lib/i18n/data-copy.svelte';
 	import { siteConfig } from '$lib/data/site';
+	import { getPackageBySlug, formatPrice } from '$lib/data/packages';
 	import type { PageData } from './$types';
 	import { buildServiceSchema, buildFAQSchema } from '$lib/utils/schema';
 	import ShareThis from '$lib/components/blog/ShareThis.svelte';
@@ -20,51 +21,32 @@
 	let landing = $derived(pkg.landing);
 	// Copy in the page language (icons stay in `landing`, they are data)
 	let copy = $derived(pkgCopy(pkg));
+	// Page-level copy (hero benefits, generic FAQs, UI strings), shared by every package slug
+	let pageCopy = $derived(data.copy);
 	let packageImages = $derived(getImagesForPackage(pkg.id));
 	let canonicalUrl = $derived(`${siteConfig.url}${pkg.route}`);
 
+	// Two FAQ answers name OTHER specific packages as examples. Names come from the catalog
+	// (CLAUDE.md §7), never hardcoded - the copy carries `{wedding}` / `{mice}` placeholders.
+	const weddingPkgName = getPackageBySlug('wedding')?.name ?? 'Wedding Pack';
+	const micePkgName = getPackageBySlug('mice')?.name ?? 'MICE Pack';
+	function withPkgNames(text: string): string {
+		return text.replace('{wedding}', weddingPkgName).replace('{mice}', micePkgName);
+	}
+
 	// Localized hero benefits
 	const heroBenefits = $derived([
-		{
-			icon: 'package_2',
-			text: i18n.lang === 'en' ? 'Free setup & delivery (Malaga & Costa del Sol)' : 'Transporte y montaje gratis (Málaga y Costa del Sol)'
-		},
-		{
-			icon: 'check_circle',
-			text: i18n.lang === 'en' ? 'Premium brands (HK Audio, Audix, Midas)' : 'Equipos de marca premium (HK Audio, Audix, Midas)'
-		},
-		{
-			icon: 'support_agent',
-			text: i18n.lang === 'en' ? 'On-site technical support available' : 'Soporte técnico in situ disponible'
-		}
+		{ icon: 'package_2', text: pageCopy.benefits.delivery },
+		{ icon: 'check_circle', text: pageCopy.benefits.brands },
+		{ icon: 'support_agent', text: pageCopy.benefits.support }
 	]);
 
 	// Localized package-specific FAQs (objection handling)
 	const packageFaqs = $derived([
-		{
-			q: i18n.lang === 'en' ? 'Is delivery and setup included in the package price?' : '¿El transporte y montaje están incluidos en el precio?',
-			a: i18n.lang === 'en' 
-				? 'Yes, for premium packages (like the Wedding Pack and MICE Pack), full professional delivery, cabling setup, and teardown in Malaga and its direct suburbs are included. For standard packages, a small logistical fee may apply depending on your event\'s exact location.'
-				: 'Sí, para paquetes premium (como el Wedding Pack y el MICE Pack), el transporte, montaje profesional del cableado y desmontaje en Málaga y cercanías está incluido. Para packs estándar, se puede aplicar un pequeño cargo logístico según la ubicación exacta.'
-		},
-		{
-			q: i18n.lang === 'en' ? 'What areas do you cover in Andalusia?' : '¿Qué zonas de Andalucía cubren?',
-			a: i18n.lang === 'en'
-				? 'We serve Malaga capital, Marbella, and the entire Costa del Sol daily. We also service Seville and Granada (for orders over 400€). We currently do not offer pickup options since we operate on a delivery-only model.'
-				: 'Damos servicio diario a Málaga capital, Marbella y toda la Costa del Sol. También cubrimos Sevilla y Granada (para pedidos mayores de 400€). No ofrecemos opción de recogida local ya que operamos bajo un modelo exclusivo de entrega a domicilio.'
-		},
-		{
-			q: i18n.lang === 'en' ? 'What happens if it rains for an outdoor event?' : '¿Qué pasa si llueve en un evento al aire libre?',
-			a: i18n.lang === 'en'
-				? 'If your event is outdoors, we require a covered area (tents, pergolas) to protect the electrical equipment. In case of rain without cover, we will work with you to relocate the gear indoors. Safety of guests and protection of high-voltage gear is our top priority.'
-				: 'Si tu evento es al aire libre, requerimos una zona techada (carpas, pérgolas) para proteger los equipos eléctricos. En caso de lluvia sin techo, coordinaremos con vos para trasladar el montaje bajo techo. La seguridad y protección de los equipos eléctricos es nuestra prioridad.'
-		},
-		{
-			q: i18n.lang === 'en' ? 'What happens if I need a technician during my event?' : '¿Qué pasa si necesito un técnico durante el evento?',
-			a: i18n.lang === 'en'
-				? 'Our premium packages (like the Wedding Pack and MICE Pack) already include on-site technical monitoring. For other packages, you can request a dedicated sound/light engineer to stay at your venue for a stress-free experience.'
-				: 'Nuestros paquetes premium (como el Wedding Pack y el MICE Pack) ya incluyen asistencia y monitoreo técnico en directo. Para otros paquetes, podés solicitar que un ingeniero de sonido/iluminación se quede en el recinto para garantizar tranquilidad absoluta.'
-		}
+		{ q: pageCopy.faqs.delivery.q, a: withPkgNames(pageCopy.faqs.delivery.a) },
+		{ q: pageCopy.faqs.areas.q, a: pageCopy.faqs.areas.a },
+		{ q: pageCopy.faqs.rain.q, a: pageCopy.faqs.rain.a },
+		{ q: pageCopy.faqs.technician.q, a: withPkgNames(pageCopy.faqs.technician.a) }
 	]);
 
 	let seoSchema = $derived(
@@ -158,7 +140,7 @@
 	<div
 		class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between gap-4 px-margin-mobile md:px-margin-desktop py-3 glass-panel border-b border-border-glass shadow-lg"
 		role="banner"
-		aria-label="Sticky call to action"
+		aria-label={pageCopy.stickyBarAriaLabel}
 	>
 		<span class="font-label-lg text-on-surface truncate">{pkg.name}</span>
 		<button
@@ -210,11 +192,11 @@
 				<span class="font-label-md text-on-surface-variant uppercase tracking-wider">
 					{copy.landing.rateLabel}
 				</span>
-				<span class="text-display-lg font-bold text-electric-blue">{pkg.price} €</span>
+				<span class="text-display-lg font-bold text-electric-blue">{formatPrice(pkg.price, i18n.lang)}</span>
 				<span class="text-sm text-on-surface-variant">{copy.landing.vatNote}</span>
 				{#if pkg.popular}
 					<span class="inline-block bg-electric-blue-strong text-white px-3 py-1 rounded-full font-label-sm tracking-wider uppercase ml-2">
-						{i18n.lang === 'en' ? 'Most Popular' : 'Más Popular'}
+						{pageCopy.popularBadge}
 					</span>
 				{/if}
 			</div>
@@ -232,7 +214,7 @@
 					<Icon name="inventory_2" size="18" className="text-electric-blue" />
 					<span class="font-label-sm text-on-surface">
 						{copy.includes.length}
-						{i18n.lang === 'en' ? 'items included' : 'elementos incluidos'}
+						{pageCopy.itemsIncludedSuffix}
 					</span>
 				</div>
 				<!-- Trust 3: rating -->
@@ -412,7 +394,7 @@
 				{i18n.t.contact.faqTitle}
 			</span>
 			<h2 class="font-headline-lg text-[32px] md:text-headline-lg text-on-background">
-				{i18n.lang === 'en' ? 'Frequently Asked Questions' : 'Preguntas Frecuentes'}
+				{pageCopy.faqSectionTitle}
 			</h2>
 		</div>
 

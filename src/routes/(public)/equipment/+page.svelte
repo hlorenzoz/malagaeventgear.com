@@ -8,8 +8,18 @@
 	import { galleryImages } from '$lib/data/gallery';
 	import coverThumbsRaw from '$lib/data/cover-thumbs.json';
 	import { packageImageVariant, MICE_EQUIPMENT_PAGE_IMAGE } from '$lib/assets/package-images';
+	import { getPackageBySlug, formatPrice } from '$lib/data/packages';
+
+	let { data } = $props();
+	// Copy in the page language (./i18n/<locale>.ts, loaded by +page.ts)
+	const copy = $derived(data.copy);
 
 	const coverThumbs = coverThumbsRaw as Record<string, { thumb: string; srcset?: string }>;
+
+	// Featured pack in the "Featured Package" section: name/price/route come from the catalog
+	// (single source of truth, CLAUDE.md §7), never hardcoded here.
+	const micePkg = getPackageBySlug('mice');
+	if (!micePkg) throw new Error('equipment page: package slug "mice" not found in catalog');
 
 	// Esquema de catálogo de servicios (SEO Generativo)
 	let servicesSchema = $derived(
@@ -20,17 +30,15 @@
 				{ name: i18n.t.categories.visualTitle, url: '/equipment/' },
 				{ name: i18n.t.categories.fxTitle, url: '/equipment/' }
 			],
-			i18n.lang === 'en'
-				? 'Audiovisual Equipment Rental Catalog - Malaga Event Gear'
-				: 'Catálogo de Alquiler de Equipos Audiovisuales - Malaga Event Gear'
+			copy.schema.listName
 		)
 	);
 </script>
 
 <!-- SEO Head & JSON-LD Injection -->
 <SeoHead
-	title="Premium Audiovisual Equipment Rental Catalog | MEG"
-	description="Explore our high-quality inventory of professional sound systems, dynamic lighting, high-definition projectors, and special effects. Premium equipment in Malaga."
+	title={copy.seo.title}
+	description={copy.seo.description}
 	canonicalUrl="https://malagaeventgear.com/equipment/"
 	image="/images/packages/mice.webp"
 	jsonLdSchema={servicesSchema}
@@ -42,16 +50,13 @@
 	<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary-container rounded-full blur-[120px] opacity-20 pointer-events-none"></div>
 	
 	<span class="font-label-lg text-electric-blue uppercase tracking-[0.2em] mb-4 block">
-		{i18n.lang === 'en' ? 'Cutting-Edge Tech' : 'Tecnología de Punta'}
+		{copy.hero.badge}
 	</span>
 	<h1 class="font-headline-lg-mobile md:font-display-lg text-headline-lg-mobile md:text-display-lg text-on-surface mb-6 max-w-4xl mx-auto leading-tight">
-		{i18n.lang === 'en' ? 'Elevate your Event with' : 'Elevá tu Evento con'} <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-electric-blue">{i18n.lang === 'en' ? 'Premium Equipment' : 'Equipos Premium'}</span>
+		{copy.hero.titlePart1} <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-electric-blue">{copy.hero.titlePart2}</span>
 	</h1>
 	<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-10">
-		{i18n.lang === 'en' 
-			? 'Explore our catalog of high-fidelity sound, spectacular lighting, and special effects. We have the perfect tools to make your celebration unforgettable.'
-			: 'Explorá nuestro catálogo de sonido de alta fidelidad, iluminación espectacular y efectos especiales. Tenemos las herramientas perfectas para hacer tu celebración inolvidable.'
-		}
+		{copy.hero.subtitle}
 	</p>
 </section>
 
@@ -68,7 +73,7 @@
 					<source media="(max-width: 1023px)" srcset={packageImageVariant('/images/packages/mice.webp', 'mobile')} type="image/webp" />
 					<source media="(min-width: 1024px)" srcset={MICE_EQUIPMENT_PAGE_IMAGE} type="image/webp" />
 					<img
-						alt="MICE Audiovisual Pack Setup for Meetings"
+						alt={copy.featured.imageAlt}
 						class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out opacity-80"
 						src={MICE_EQUIPMENT_PAGE_IMAGE}
 						loading="eager"
@@ -81,49 +86,46 @@
 				<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent lg:bg-gradient-to-r"></div>
 				<div class="absolute top-6 left-6 bg-surface-glass backdrop-blur-md border border-border-glass rounded-full px-4 py-1.5 flex items-center gap-2">
 					<div class="w-2 h-2 rounded-full bg-electric-blue animate-pulse"></div>
-					<span class="font-label-sm text-label-sm text-on-surface uppercase">{i18n.lang === 'en' ? 'Featured Pack' : 'Pack Destacado'}</span>
+					<span class="font-label-sm text-label-sm text-on-surface uppercase">{copy.featured.badge}</span>
 				</div>
 			</div>
-			
+
 			<!-- Content Details -->
 			<div class="p-8 md:p-16 flex flex-col justify-center relative z-10 bg-surface-glass backdrop-blur-xl">
-				<h2 class="font-headline-md text-headline-md text-on-surface mb-4">MICE Pack</h2>
+				<h2 class="font-headline-md text-headline-md text-on-surface mb-4">{micePkg.name}</h2>
 				<p class="font-body-md text-body-md text-on-surface-variant mb-8">
-					{i18n.lang === 'en'
-						? 'Ideal for conferences and corporate events. The MICE Pack includes a 60-inch LED screen, premium audiovisual gear, tabletop and wireless microphones, and up to 6 hours of on-site technical support to ensure your presentation runs flawlessly.'
-						: 'Ideal para conferencias y eventos corporativos. El MICE Pack incluye una pantalla LED de 60 pulgadas, equipamiento audiovisual premium, micrófonos de mesa e inalámbricos, y hasta 6 horas de asistencia técnica en sitio para asegurar una presentación impecable.'
-					}
+					{copy.featured.desc}
 				</p>
-				
+
 				<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
 					<div class="flex items-start gap-3">
 						<Icon name="inventory_2" className="text-electric-blue" size="20" />
-						<span class="font-label-sm text-label-sm text-on-surface">{i18n.lang === 'en' ? '60" LED Screen' : 'Pantalla LED de 60"'}</span>
+						<span class="font-label-sm text-label-sm text-on-surface">{copy.featured.spec1}</span>
 					</div>
 					<div class="flex items-start gap-3">
 						<Icon name="call" className="text-electric-blue" size="20" />
-						<span class="font-label-sm text-label-sm text-on-surface">{i18n.lang === 'en' ? 'Wireless Audio' : 'Audio Inalámbrico'}</span>
+						<span class="font-label-sm text-label-sm text-on-surface">{copy.featured.spec2}</span>
 					</div>
 					<div class="flex items-start gap-3">
 						<Icon name="build" className="text-electric-blue" size="20" />
-						<span class="font-label-sm text-label-sm text-on-surface">{i18n.lang === 'en' ? 'Technical Support Included' : 'Soporte Técnico Incluido'}</span>
+						<span class="font-label-sm text-label-sm text-on-surface">{copy.featured.spec3}</span>
 					</div>
 					<div class="flex items-start gap-3">
 						<Icon name="speaker" className="text-electric-blue" size="20" />
-						<span class="font-label-sm text-label-sm text-on-surface">{i18n.lang === 'en' ? 'Premium Sound' : 'Sonido Premium'}</span>
+						<span class="font-label-sm text-label-sm text-on-surface">{copy.featured.spec4}</span>
 					</div>
 				</div>
-				
+
 				<div class="flex flex-col sm:flex-row items-center gap-6 mt-auto">
 					<div class="text-left w-full sm:w-auto">
 						<span class="block font-label-sm text-label-sm text-on-surface-variant">{i18n.t.pricing.from}</span>
-						<span class="font-headline-md text-[28px] text-primary">490.00 € <span class="text-[14px] text-on-surface-variant">{i18n.t.pricing.plusVatShort}</span></span>
+						<span class="font-headline-md text-[28px] text-primary">{formatPrice(micePkg.price, i18n.lang)} <span class="text-[14px] text-on-surface-variant">{i18n.t.pricing.plusVatShort}</span></span>
 					</div>
-					<a 
+					<a
 						class="w-full sm:w-auto px-8 py-3 rounded-full bg-electric-blue-strong text-white font-label-lg uppercase tracking-wider hover:shadow-lg hover:shadow-electric-blue/30 active:scale-95 transition-all duration-300 ml-auto flex items-center justify-center gap-2"
-						href="/packages/mice/"
+						href={i18n.href(micePkg.route)}
 					>
-						{i18n.lang === 'en' ? 'Request Info' : 'Solicitar Info'} <Icon name="arrow_forward" size="18" />
+						{copy.featured.cta} <Icon name="arrow_forward" size="18" />
 					</a>
 				</div>
 			</div>
@@ -136,13 +138,10 @@
 	<div class="flex justify-between items-end mb-12 border-b border-border-glass pb-6">
 		<div>
 			<h2 class="font-headline-md text-headline-md text-on-surface">
-				{i18n.lang === 'en' ? 'Technical Categories' : 'Categorías Técnicas'}
+				{copy.catalog.title}
 			</h2>
 			<p class="font-body-md text-body-md text-on-surface-variant mt-2">
-				{i18n.lang === 'en' 
-					? 'Browse through our inventory to meet the technical needs of your production.'
-					: 'Explorá nuestro inventario para cubrir las necesidades técnicas de tu producción.'
-				}
+				{copy.catalog.subtitle}
 			</p>
 		</div>
 	</div>
@@ -150,8 +149,8 @@
 	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[400px]">
 		<!-- Audio -->
 		<div class="group relative rounded-[20px] overflow-hidden border border-border-glass bg-surface-container-low lg:col-span-2 row-span-1 reveal active is-revealed">
-			<img 
-				alt="Professional sound rental equipment" 
+			<img
+				alt={copy.audio.imageAlt}
 				class="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-90 transition-opacity duration-500 pointer-events-none" 
 				src={coverThumbs['https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled.webp']?.thumb ?? 'https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled.webp'}
 				srcset={coverThumbs['https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled.webp']?.srcset}
@@ -169,18 +168,15 @@
 				</div>
 				<h3 class="font-headline-md text-[28px] text-on-surface mb-2">{i18n.t.categories.soundTitle}</h3>
 				<p class="font-body-md text-body-md text-on-surface-variant max-w-md opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
-					{i18n.lang === 'en'
-						? 'Line array systems, active speakers, digital mixing consoles, and Audix wireless microphones for high acoustic fidelity.'
-						: 'Sistemas line array, altavoces activos, consolas de mezcla digital y micrófonos inalámbricos Audix para máxima fidelidad acústica.'
-					}
+					{copy.audio.desc}
 				</p>
 			</div>
 		</div>
 
 		<!-- Lighting -->
 		<div class="group relative rounded-[20px] overflow-hidden border border-border-glass bg-surface-container-low row-span-1 reveal active is-revealed" style="transition-delay: 100ms;">
-			<img 
-				alt="Spectacular event lighting rental equipment" 
+			<img
+				alt={copy.lighting.imageAlt}
 				class="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-90 transition-opacity duration-500 pointer-events-none" 
 				src={coverThumbs['https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled.webp']?.thumb ?? 'https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled.webp'}
 				srcset={coverThumbs['https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled.webp']?.srcset}
@@ -197,18 +193,15 @@
 				</div>
 				<h3 class="font-headline-md text-[24px] text-on-surface mb-2">{i18n.t.categories.lightTitle}</h3>
 				<p class="font-body-md text-body-md text-on-surface-variant text-sm line-clamp-2">
-					{i18n.lang === 'en'
-						? 'RGBW LED spotlights, specialty stage lighting, and a wireless uplighting kit to create romantic or energetic atmospheres.'
-						: 'Focos LED RGBW, iluminación escénica especial y un kit de uplighting inalámbrico para crear ambientes románticos o energéticos.'
-					}
+					{copy.lighting.desc}
 				</p>
 			</div>
 		</div>
 
 		<!-- Visuals -->
 		<div class="group relative rounded-[20px] overflow-hidden border border-border-glass bg-surface-container-low row-span-1 reveal active is-revealed" style="transition-delay: 200ms;">
-			<img 
-				alt="HD projectors and screen rental equipment" 
+			<img
+				alt={copy.visuals.imageAlt}
 				class="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-90 transition-opacity duration-500 pointer-events-none" 
 				src={coverThumbs['https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1.webp']?.thumb ?? 'https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1.webp'}
 				srcset={coverThumbs['https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1.webp']?.srcset}
@@ -225,18 +218,15 @@
 				</div>
 				<h3 class="font-headline-md text-[24px] text-on-surface mb-2">{i18n.t.categories.visualTitle}</h3>
 				<p class="font-body-md text-body-md text-on-surface-variant text-sm line-clamp-2">
-					{i18n.lang === 'en'
-						? '5000+ lumens laser projectors, rear projection screens, and giant displays to give your audience a sharp visual experience.'
-						: 'Proyectores láser de más de 5000 lúmenes, pantallas de retroproyección y pantallas gigantes para brindar una experiencia visual nítida.'
-					}
+					{copy.visuals.desc}
 				</p>
 			</div>
 		</div>
 
 		<!-- Special Effects -->
 		<div class="group relative rounded-[20px] overflow-hidden border border-border-glass bg-surface-container-low lg:col-span-2 row-span-1 reveal active is-revealed" style="transition-delay: 300ms;">
-			<img 
-				alt="Special effects low-lying fog and confetti rental machines" 
+			<img
+				alt={copy.effects.imageAlt}
 				class="absolute inset-0 w-full h-full object-cover opacity-45 group-hover:opacity-60 transition-opacity duration-500 pointer-events-none" 
 				src={coverThumbs['https://cdn.malagaeventgear.com/blog/1191/billie-jean-king-cup-2024-celebration-lights-sound.webp']?.thumb ?? 'https://cdn.malagaeventgear.com/blog/1191/billie-jean-king-cup-2024-celebration-lights-sound.webp'}
 				srcset={coverThumbs['https://cdn.malagaeventgear.com/blog/1191/billie-jean-king-cup-2024-celebration-lights-sound.webp']?.srcset}
@@ -251,16 +241,13 @@
 				<div class="w-12 h-12 rounded-full bg-primary-container/50 border border-primary/30 flex items-center justify-center mb-4 backdrop-blur-md">
 					<Icon name="memory" className="text-primary" />
 				</div>
-				<h3 class="font-headline-md text-[28px] text-on-surface mb-4">{i18n.lang === 'en' ? 'Special Effects' : 'Efectos Especiales'}</h3>
+				<h3 class="font-headline-md text-[28px] text-on-surface mb-4">{copy.effects.title}</h3>
 				<p class="font-body-md text-body-md text-on-surface-variant mb-6">
-					{i18n.lang === 'en'
-						? 'Low-lying fog machines (cloud effect for weddings), hazers to enhance light beams, and professional confetti cannons.'
-						: 'Máquinas de humo bajo (efecto nube para bodas), hazers para resaltar haces de luz y cañones profesionales de confeti.'
-					}
+					{copy.effects.desc}
 				</p>
-				<a 
+				<a
 					class="flex items-center gap-2 text-electric-blue font-label-lg group-hover:translate-x-2 transition-all duration-300 active:scale-95 w-fit"
-					href="/packages/"
+					href={i18n.href('/packages/')}
 				>
 					{i18n.t.categories.bookEquipment} <Icon name="arrow_forward" size="18" />
 				</a>
@@ -297,8 +284,8 @@
 					{i18n.t.categories.fxText}
 				</p>
 			</div>
-			<a 
-				href="/packages/"
+			<a
+				href={i18n.href('/packages/')}
 				class="hidden md:flex w-16 h-16 rounded-full border border-border-glass items-center justify-center hover:bg-on-surface/5 active:scale-90 transition-all duration-300 text-on-surface"
 			>
 				<Icon name="arrow_forward" size="32" className="group-hover:translate-x-1 transition-transform" />

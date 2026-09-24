@@ -171,7 +171,7 @@ const packagesData: EventPackage[] = [
 		id: 'presentation',
 		slug: 'product-presentation',
 		route: '/packages/product-presentation/',
-		updated: '2026-05-31',
+		updated: '2026-09-24',
 		navIcon: 'co_present',
 		name: 'Product Presentation Pack',
 		price: 310,
@@ -179,7 +179,7 @@ const packagesData: EventPackage[] = [
 		desc: 'Designed for corporate presentations, dealership showcases, and product launches with high visual impact.',
 		includes: [
 				'1 Front projection screen with stable stand',
-				'1 Full HD laser projector (5000 lumens) for crisp visuals',
+				'1 High-brightness projector (5000 lumens) for crisp visuals',
 				'Venue sound system with 2 speakers & mixing console',
 				'1 Premium wireless handheld microphone for speakers'
 			],
@@ -188,17 +188,17 @@ const packagesData: EventPackage[] = [
 		purpose: ['presentation', 'corporate'],
 		includeTags: ['sound', 'microphone', 'screen'],
 		seo: {
-			title: 'Product Presentation Pack Laser Projection & Audio | Malaga Event Gear',
+			title: 'Product Presentation Pack Projection & Audio | Malaga Event Gear',
 			serviceName: 'Product Presentation Pack Projection & Audio Malaga - Malaga Event Gear (MEG)',
 			serviceType: 'Audio visual product showcase and launch rentals'
 		},
 		landing: {
 			badge: 'High Visual Impact Corporate Solutions',
 			rateLabel: 'Presentation Pack Flat Rate',
-			vatNote: '(+21% VAT) - Laser projector & screen included',
+			vatNote: '(+21% VAT) - Projector & screen included',
 			specIcon: 'videocam',
-			specTitle: 'High-Brightness Laser',
-			specBody: '5000-Lumen HD Projector ideal for lit rooms.',
+			specTitle: 'High-Brightness Projector',
+			specBody: '5000-lumen projector, ideal for lit rooms.',
 			highlightTitle: 'Flawless Corporate Branding',
 			highlightBody: 'Maximize the attention of your dealership launch, hotel press release, or product showcase. Our professional setup aligns pristine graphic detail with high-performance speech amplification.',
 			includesLabel: 'What is Included',

@@ -1,10 +1,13 @@
 <script lang="ts">
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
 	import { i18n } from '$lib/i18n.svelte';
+	import { LOCALE_META } from '$lib/i18n/locales';
 	import { slugify } from '$lib/utils/slugify';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
+	// Copy in the page language (./i18n/<locale>.ts, loaded by +page.ts)
+	const copy = $derived(data.copy);
 
 	let posts = $derived(data.posts);
 	let categorySlug = $derived(data.category);
@@ -14,14 +17,18 @@
 		categorySlug.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
 	);
 
+	let title = $derived(copy.titleTemplate.replace('{name}', categoryName));
+	let description = $derived(copy.descriptionTemplate.replace('{name}', categoryName));
+
 	let canonicalUrl = $derived(`https://malagaeventgear.com/blog/category/${categorySlug}/`);
 
 	let collectionSchema = $derived({
 		'@context': 'https://schema.org',
 		'@type': 'CollectionPage',
-		'@id': `${canonicalUrl}#webpage`,
-		'url': canonicalUrl,
-		'name': `${categoryName} | Blog | Malaga Event Gear`,
+		'@id': `${i18n.absolute(`/blog/category/${categorySlug}/`)}#webpage`,
+		'url': i18n.absolute(`/blog/category/${categorySlug}/`),
+		'inLanguage': LOCALE_META[i18n.lang].htmlLang,
+		'name': title,
 		'isPartOf': {
 			'@type': 'WebSite',
 			'@id': 'https://malagaeventgear.com/#website',
@@ -33,7 +40,7 @@
 
 	function formatDate(dateStr: string): string {
 		try {
-			return new Date(dateStr).toLocaleDateString(i18n.lang === 'es' ? 'es-ES' : 'en-GB', {
+			return new Date(dateStr).toLocaleDateString(LOCALE_META[i18n.lang].intl, {
 				year: 'numeric',
 				month: 'long',
 				day: 'numeric'
@@ -45,10 +52,8 @@
 </script>
 
 <SeoHead
-	title={`${categoryName} | Blog | Malaga Event Gear`}
-	description={i18n.lang === 'en'
-		? `Read all posts about ${categoryName} from the Malaga Event Gear blog.`
-		: `Todos los artículos sobre ${categoryName} en el blog de Malaga Event Gear.`}
+	{title}
+	{description}
 	{canonicalUrl}
 	jsonLdSchema={collectionSchema}
 />
@@ -56,15 +61,15 @@
 <!-- Category Heading -->
 <section class="px-margin-mobile md:px-margin-desktop py-16 max-w-container-max mx-auto">
 	<div class="mb-10">
-		<a href="/blog/" class="text-sm text-electric-blue hover:underline">
-			← {i18n.lang === 'en' ? 'All Posts' : 'Todos los artículos'}
+		<a href={i18n.href('/blog/')} class="text-sm text-electric-blue hover:underline">
+			← {copy.backLink}
 		</a>
 		<h1 class="font-headline-lg-mobile md:font-display-lg text-headline-lg-mobile md:text-display-lg text-on-surface mt-4 leading-tight">
 			{categoryName}
 		</h1>
 		<p class="text-on-surface-variant font-body-md mt-2">
 			{posts.length}
-			{i18n.lang === 'en' ? (posts.length === 1 ? 'post' : 'posts') : (posts.length === 1 ? 'artículo' : 'artículos')}
+			{posts.length === 1 ? copy.post.singular : copy.post.plural}
 		</p>
 	</div>
 
@@ -73,7 +78,7 @@
 		{#each posts as post, i}
 			<article data-testid="post-card" class="relative bg-surface-container-low border border-border-glass rounded-[20px] overflow-hidden hover:border-electric-blue/40 transition-colors duration-300 flex flex-col">
 				{#if post.coverImage}
-					<a href="/blog/{post.slug}/" class="block aspect-video overflow-hidden">
+					<a href={i18n.href(`/blog/${post.slug}/`)} class="block aspect-video overflow-hidden">
 						<img
 							src={post.coverImageThumb ?? post.coverImage}
 							srcset={post.coverImageSrcset}
@@ -92,12 +97,12 @@
 					<div class="flex flex-wrap items-center gap-2 mb-3">
 						{#if post.isNews}
 							<span class="px-2 py-0.5 rounded-full text-xs font-label-sm bg-electric-blue text-white uppercase tracking-wider">
-								{i18n.lang === 'en' ? 'News' : 'Noticias'}
+								{copy.newsBadge}
 							</span>
 						{/if}
 						{#each post.categories as cat}
 							<a
-								href="/blog/category/{slugify(cat)}/"
+								href={i18n.href(`/blog/category/${slugify(cat)}/`)}
 								class="text-xs font-label-sm text-electric-blue uppercase tracking-wider hover:underline"
 							>
 								{cat}
@@ -106,7 +111,7 @@
 					</div>
 
 					<h2 class="font-headline-sm text-headline-sm text-on-surface mb-3 leading-tight">
-						<a href="/blog/{post.slug}/" class="hover:text-electric-blue transition-colors">
+						<a href={i18n.href(`/blog/${post.slug}/`)} class="hover:text-electric-blue transition-colors">
 							{post.title}
 						</a>
 					</h2>
@@ -122,10 +127,10 @@
 							{formatDate(post.publishDate)}
 						</time>
 						<a
-							href="/blog/{post.slug}/"
+							href={i18n.href(`/blog/${post.slug}/`)}
 							class="text-xs font-label-sm text-electric-blue hover:underline uppercase tracking-wider"
 						>
-							{i18n.lang === 'en' ? 'Read More →' : 'Leer Más →'}
+							{copy.readMore}
 						</a>
 					</div>
 				</div>

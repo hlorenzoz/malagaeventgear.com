@@ -4,13 +4,17 @@
 	import Testimonials from '$lib/components/testimonials/Testimonials.svelte';
 	import { i18n } from '$lib/i18n.svelte';
 	import { faqCopy, pkgCopy } from '$lib/i18n/data-copy.svelte';
-	import { packages } from '$lib/data/packages';
+	import { packages, formatPrice } from '$lib/data/packages';
 	import { packageImageVariant } from '$lib/assets/package-images';
 	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
 	import { galleryImages } from '$lib/data/gallery';
 
 	import { buildServiceListSchema } from '$lib/utils/schema';
 	import { faqs, buildFaqSchema } from '$lib/data/faq';
+
+	let { data } = $props();
+	// Copy in the page language (./i18n/<locale>.ts, loaded by +page.ts)
+	const copy = $derived(data.copy);
 
 	// ItemList de Services con Offer (precio). Cada item reusa el mismo @id (.../#service)
 	// que su página individual /packages/[slug]/, enlazando el listado al grafo de entidades.
@@ -117,7 +121,7 @@
 			id: pkg.id,
 			route: pkg.route,
 			name: pkg.name,
-			price: pkg.price.toFixed(2),
+			price: formatPrice(pkg.price, i18n.lang),
 			rawPrice: pkg.price,
 			desc: pkgCopy(pkg).desc,
 			includes: pkgCopy(pkg).includes,
@@ -215,8 +219,8 @@
 
 <!-- SEO Head & JSON-LD Injection -->
 <SeoHead
-	title="Rates & Tailored Rental Packages | MEG"
-	description="Discover our transparent rates and tailored sound, lighting, and screen rental packages in Malaga. Perfect options for weddings, corporate events, and parties."
+	title={copy.seo.title}
+	description={copy.seo.description}
 	canonicalUrl="https://malagaeventgear.com/packages/"
 	image="/images/packages/wedding.webp"
 	jsonLdSchema={[pricingSchema, faqSchema]}
@@ -435,7 +439,7 @@
 				<!-- Body -->
 				<div class="flex flex-col grow p-8">
 					<h2 class="font-headline-md text-headline-md text-on-background mb-2">
-						<a href={plan.route} class="hover:text-electric-blue transition-colors duration-300">
+						<a href={i18n.href(plan.route)} class="hover:text-electric-blue transition-colors duration-300">
 							{plan.name}
 						</a>
 					</h2>
@@ -444,7 +448,7 @@
 					</p>
 
 					<div class="flex items-baseline gap-2 mb-8">
-						<span class="font-display-lg text-[44px] leading-none font-bold text-electric-blue">{plan.price} €</span>
+						<span class="font-display-lg text-[44px] leading-none font-bold text-electric-blue">{plan.price}</span>
 						<span class="text-on-surface-variant text-sm">{i18n.t.pricing.plusVat}</span>
 					</div>
 
@@ -477,7 +481,7 @@
 					<!-- CTA pinned to the bottom so every card aligns -->
 					<a
 						class="group/cta mt-auto w-full flex items-center justify-center gap-2 py-3.5 rounded-full bg-electric-blue-strong text-white font-label-lg hover:shadow-lg hover:shadow-electric-blue/25 active:scale-[0.98] transition-all duration-300 ease-[cubic-bezier(0.32,0.72,0,1)]"
-						href={plan.route}
+						href={i18n.href(plan.route)}
 					>
 						{i18n.t.pricing.bookPack} {plan.name}
 						<Icon name="arrow_forward" size="20" className="transition-transform duration-300 group-hover/cta:translate-x-1" />
@@ -511,7 +515,7 @@
 	<!-- Scrim -->
 	<button
 		type="button"
-		aria-label="Close filters"
+		aria-label={copy.closeFiltersAria}
 		onclick={() => (isMobileDrawerOpen = false)}
 		class="lg:hidden fixed inset-0 z-40 bg-black/50 backdrop-blur-sm animate-scrim-in"
 	></button>
@@ -558,10 +562,10 @@
 <section class="max-w-4xl mx-auto px-margin-mobile pt-24 pb-24 relative z-10">
 	<div class="text-center mb-12">
 		<span class="inline-block px-4 py-1.5 rounded-full glass-panel font-label-sm text-electric-blue uppercase tracking-[0.2em] mb-4">
-			{i18n.lang === 'en' ? 'Pricing FAQ' : 'Preguntas Frecuentes de Tarifas'}
+			{copy.faqSection.badge}
 		</span>
 		<h2 class="font-headline-md text-headline-md text-primary">
-			{i18n.lang === 'en' ? 'Frequently Asked Questions' : 'Preguntas Frecuentes'}
+			{copy.faqSection.title}
 		</h2>
 	</div>
 
@@ -572,16 +576,14 @@
 			aria-expanded={faqOpen}
 		>
 			<span class="font-body-lg text-body-lg font-semibold group-hover:text-electric-blue transition-colors text-on-surface">
-				{i18n.lang === 'en' ? 'Are your package prices inclusive of VAT?' : '¿Los precios de los paquetes incluyen IVA?'}
+				{copy.faqSection.question}
 			</span>
 			<Icon name={faqOpen ? 'remove' : 'add'} className="text-on-surface-variant transition-transform duration-300 {faqOpen ? 'rotate-180' : ''}" />
 		</button>
 		{#if faqOpen}
 			<div class="px-6 pb-5 text-on-surface-variant font-body-md text-body-md border-t border-border-glass/30 pt-3">
 				<p class="leading-relaxed">
-					{i18n.lang === 'en'
-						? "No, the listed prices do not include VAT. As indicated by (+21% VAT) next to the rates, the standard 21% Spanish VAT (IVA) will be applied on top of the package price. Your final quote will show both the net price and the VAT breakdown with 100% transparency."
-						: "No, las tarifas indicadas no incluyen IVA. Como se detalla con (+21% IVA) junto a cada precio, se aplicará el 21% de IVA español sobre el valor base del paquete. Tu presupuesto final detallará por separado el precio neto y el IVA correspondiente con total transparencia."}
+					{copy.faqSection.answer}
 				</p>
 			</div>
 		{/if}

@@ -72,7 +72,7 @@ export default {
 			desc: 'Diseñado para presentaciones corporativas, exhibiciones en concesionarios y lanzamientos de productos con alto impacto visual.',
 			includes: [
 				'1 Pantalla de proyección frontal con soporte estable',
-				'1 Proyector láser Full HD (5000 lúmenes) para imágenes nítidas',
+				'1 Proyector de alto brillo (5000 lúmenes) para imágenes nítidas',
 				'Sistema de sonido para el lugar con 2 altavoces y mesa de mezclas',
 				'1 Micrófono inalámbrico de mano premium para oradores'
 			],
@@ -82,9 +82,9 @@ export default {
 			landing: {
 				badge: 'Soluciones Corporativas de Alto Impacto Visual',
 				rateLabel: 'Tarifa Plana de Pack Lanzamientos',
-				vatNote: '(+21% IVA) - Proyector láser y pantalla incluidos',
-				specTitle: 'Láser de Alto Brillo',
-				specBody: 'Proyector HD de 5000 lúmenes ideal para salas iluminadas.',
+				vatNote: '(+21% IVA) - Proyector y pantalla incluidos',
+				specTitle: 'Proyector de Alto Brillo',
+				specBody: 'Proyector de 5000 lúmenes, ideal para salas iluminadas.',
 				highlightTitle: 'Branding Corporativo Impecable',
 				highlightBody: 'Maximizá la atención de tu lanzamiento en concesionario, rueda de prensa en hotel o exhibición de producto. Nuestro montaje alinea un detalle gráfico impecable con amplificación de voz de alto rendimiento.',
 				includesLabel: 'Qué Incluye',

@@ -26,7 +26,7 @@
 			<div class="relative w-full overflow-hidden rounded-xl bg-surface-container-low">
 				<iframe
 					src={googleEmbedMapUrl}
-					title="Malaga Event Gear - Google Business Profile"
+					title={i18n.t.googleMap.mapTitle}
 					class="w-full h-[400px] md:h-[500px] rounded-xl border-0 shadow-inner"
 					loading="lazy"
 					allowfullscreen

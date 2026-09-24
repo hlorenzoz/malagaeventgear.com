@@ -9,15 +9,18 @@
 	import { getContactFaqs, buildFaqSchema } from '$lib/data/faq';
 	import { siteConfig } from '$lib/data/site';
 	import GoogleEmbedSection from '$lib/components/sections/GoogleEmbedSection.svelte';
+	import ServiceLanguageNotice from '$lib/components/i18n/ServiceLanguageNotice.svelte';
+
+	let { data } = $props();
+	// Copy in the page language (./i18n/<locale>.ts, loaded by +page.ts)
+	const copy = $derived(data.copy);
 
 	// Structured JSON-LD schema for the Contact Page
 	let contactSchema = $derived({
 		'@context': 'https://schema.org',
 		'@type': 'ContactPage',
-		'name': i18n.lang === 'en' ? 'Contact Us - Malaga Event Gear' : 'Contactanos - Malaga Event Gear',
-		'description': i18n.lang === 'en'
-			? 'Contact the technical team at Malaga Event Gear to request custom quotes for sound, lighting, and screen rentals.'
-			: 'Contactá al equipo técnico de Malaga Event Gear para solicitar presupuestos personalizados de alquiler de sonido, iluminación y pantallas.',
+		'name': copy.schema.name,
+		'description': copy.schema.description,
 		'url': 'https://malagaeventgear.com/contact/',
 		// Referencia al nodo de organización global (#organization) para no duplicar la entidad.
 		'mainEntity': { '@id': 'https://malagaeventgear.com/#organization' }
@@ -104,13 +107,9 @@
 			message = intro + details;
 		} else if (pack) {
 			eventType = pack === 'wedding' ? 'wedding' : 'corporate';
-			message = i18n.lang === 'en'
-				? `Hi, I am interested in booking the Pack: ${pack.toUpperCase()}. Please let me know the availability and details.`
-				: `Hola, estoy interesado en reservar el Pack: ${pack.toUpperCase()}. Por favor, indíquenme disponibilidad y detalles.`;
+			message = copy.messages.packIntro.replace('{pack}', pack.toUpperCase());
 		} else if (category) {
-			message = i18n.lang === 'en'
-				? `Hi, I am interested in booking equipment from the category: ${category.toUpperCase()}. I look forward to your quote.`
-				: `Hola, estoy interesado en alquilar equipos de la categoría: ${category.toUpperCase()}. Quedo a la espera de su presupuesto.`;
+			message = copy.messages.categoryIntro.replace('{category}', category.toUpperCase());
 		}
 
 		// Load the Turnstile widget (no-op if the site key is absent, e.g. in dev).
@@ -136,9 +135,7 @@
 		}
 		// Guard against a past/today event date typed manually (native min only guards the picker).
 		if (date && date < minDate) {
-			errorMessage = i18n.lang === 'en'
-				? 'Please choose an event date after today.'
-				: 'Elegí una fecha de evento posterior a hoy.';
+			errorMessage = copy.errors.pastDate;
 			return;
 		}
 
@@ -208,8 +205,8 @@
 
 <!-- SEO Head & JSON-LD Injection -->
 <SeoHead
-	title="Contact Us & Audiovisual Quotes | MEG"
-	description="Get in touch with Malaga Event Gear to request quotes for sound, lighting, and screen rentals. 24/7 technical support."
+	title={copy.seo.title}
+	description={copy.seo.description}
 	canonicalUrl="https://malagaeventgear.com/contact/"
 	jsonLdSchema={[contactSchema, faqSchema]}
 />
@@ -246,7 +243,7 @@
 								</a>
 							</div>
 						</div>
-						
+
 						<div class="flex items-start space-x-4">
 							<div class="bg-surface-glass p-3 rounded-lg border border-border-glass text-electric-blue flex items-center justify-center">
 								<Icon name="chat" />
@@ -254,11 +251,11 @@
 							<div>
 								<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest mb-1">{i18n.t.contact.whatsapp}</p>
 								<a class="font-body-lg text-body-lg hover:text-electric-blue transition-colors text-on-surface" href="https://wa.me/34666346911" target="_blank" rel="noopener noreferrer">
-									{i18n.lang === 'en' ? 'Send us a message' : 'Envianos un mensaje'}
+									{copy.whatsappLinkText}
 								</a>
 							</div>
 						</div>
-						
+
 						<div class="flex items-start space-x-4">
 							<div class="bg-surface-glass p-3 rounded-lg border border-border-glass text-electric-blue flex items-center justify-center">
 								<Icon name="mail" />
@@ -270,7 +267,9 @@
 								</a>
 							</div>
 						</div>
-						
+
+						<ServiceLanguageNotice />
+
 						<div class="flex items-start space-x-4">
 							<div class="bg-surface-glass p-3 rounded-lg border border-border-glass text-electric-blue flex items-center justify-center">
 								<Icon name="location_on" />
@@ -338,7 +337,7 @@
 									id="name"
 									bind:value={name}
 									required
-									placeholder="Full Name"
+									placeholder={copy.form.namePlaceholder}
 									class="peer w-full bg-surface-glass border-b border-border-glass border-t-0 border-x-0 px-0 py-3 text-on-surface focus:ring-0 focus:border-electric-blue transition-colors placeholder-transparent"
 								/>
 								<label 
@@ -356,7 +355,7 @@
 									id="email"
 									bind:value={email}
 									required
-									placeholder="Email Address"
+									placeholder={copy.form.emailPlaceholder}
 									class="peer w-full bg-surface-glass border-b border-border-glass border-t-0 border-x-0 px-0 py-3 text-on-surface focus:ring-0 focus:border-electric-blue transition-colors placeholder-transparent"
 								/>
 								<label 
@@ -375,7 +374,7 @@
 									type="tel" 
 									id="phone"
 									bind:value={phone}
-									placeholder="Phone"
+									placeholder={copy.form.phonePlaceholder}
 									class="peer w-full bg-surface-glass border-b border-border-glass border-t-0 border-x-0 px-0 py-3 text-on-surface focus:ring-0 focus:border-electric-blue transition-colors placeholder-transparent"
 								/>
 								<label 
@@ -431,7 +430,7 @@
 								readonly={messageLocked}
 								aria-readonly={messageLocked}
 								rows={messageLocked ? 8 : 4}
-								placeholder="Message"
+								placeholder={copy.form.messagePlaceholder}
 								class="peer w-full bg-surface-glass border-b border-border-glass border-t-0 border-x-0 px-0 py-3 text-on-surface focus:ring-0 focus:border-electric-blue transition-colors placeholder-transparent resize-none {messageLocked ? 'opacity-70 cursor-not-allowed' : ''}"
 							></textarea>
 							<label
@@ -477,6 +476,7 @@
 						>
 							{isLoading ? i18n.t.contact.formSubmitting : i18n.t.contact.formSubmit}
 						</button>
+						<ServiceLanguageNotice />
 					</form>
 				{/if}
 			</div>

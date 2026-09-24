@@ -1,15 +1,13 @@
 <script lang="ts">
 	import { i18n } from '$lib/i18n.svelte';
+	import { siteConfig } from '$lib/data/site';
 
-	// Svelte 5 runes are fully active. Localization handles both English and Spanish contexts.
-	let tooltipText = $derived(
-		i18n.lang === 'en' ? 'Chat with us' : 'Chateá con nosotros'
-	);
+	let tooltipText = $derived(i18n.t.whatsapp.chatWithUs);
 </script>
 
 <!-- WhatsApp Floating Action Widget -->
 <a
-	href="https://wa.me/34666346911"
+	href={siteConfig.whatsappUrl}
 	target="_blank"
 	rel="noopener noreferrer"
 	class="group fixed right-6 z-40 flex items-center gap-3 p-1 rounded-full bg-linear-to-r from-[#25D366] to-[#128C7E] text-white shadow-xl shadow-green-500/20 hover:shadow-2xl hover:shadow-green-500/35 hover:-translate-y-1 active:scale-95 transition-all duration-300 ease-[cubic-bezier(0.32,0.72,0,1)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#25D366]"
