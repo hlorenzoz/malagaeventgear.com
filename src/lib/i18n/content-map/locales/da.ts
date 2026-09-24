@@ -2,9 +2,9 @@ import type { LocaleContentMap } from '../schema';
 
 export default {
 	pages: {
-		'/': { path: '/', keyword: 'leje av-udstyr Malaga', status: 'propuesta' },
-		'/about-us/': { path: '/om-os/', keyword: 'av-udstyr udlejningsfirma Malaga', status: 'propuesta' },
-		'/contact/': { path: '/kontakt/', keyword: 'kontakt udlejning av-udstyr Malaga', status: 'propuesta' },
+		'/': { path: '/', keyword: 'leje AV-udstyr Malaga', status: 'propuesta' },
+		'/about-us/': { path: '/om-os/', keyword: 'AV-udlejningsfirma Malaga', status: 'propuesta' },
+		'/contact/': { path: '/kontakt/', keyword: 'kontakt udlejning AV-udstyr Malaga', status: 'propuesta' },
 		'/equipment/': { path: '/udstyr/', keyword: 'leje lyd- og lysudstyr Malaga', status: 'propuesta' },
 		'/packages/': { path: '/pakker/', keyword: 'udlejningspakker til events Malaga', status: 'propuesta' },
 		'/faq/': { path: '/faq/', keyword: 'ofte stillede spørgsmål udstyrsudlejning Malaga', status: 'propuesta' },
@@ -33,10 +33,10 @@ export default {
 		},
 		'basic-mice': {
 			slug: 'mice-basis-pakke',
-			keyword: 'av-udstyr til mindre erhvervsmøder Malaga',
+			keyword: 'AV-udstyr til mindre erhvervsmøder Malaga',
 			status: 'propuesta'
 		},
-		mice: { slug: 'mice-pakke', keyword: 'av-udstyr til konferencer Malaga', status: 'propuesta' }
+		mice: { slug: 'mice-pakke', keyword: 'AV-udstyr til konferencer Malaga', status: 'propuesta' }
 	},
 	categories: {
 		'audio-visual-rental': { slug: 'udlejning-av-udstyr', name: 'Udlejning af AV-udstyr' },
