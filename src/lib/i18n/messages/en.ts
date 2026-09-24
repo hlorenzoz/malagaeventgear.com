@@ -137,7 +137,7 @@ const en = {
 		medium: 'Medium (51–80 guests)',
 		large: 'Large (80+ guests)',
 		priceLow: 'Up to 300€',
-		priceMid: '300€ – 500€',
+		priceMid: '300€ to 500€',
 		priceHigh: '500€ and up',
 		transport: 'Transport & Setup',
 		screen: 'Screen / Display',
