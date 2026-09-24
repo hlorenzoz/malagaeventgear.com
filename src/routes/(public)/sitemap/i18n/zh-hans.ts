@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: '网站地图 - Malaga Event Gear（MEG）',
+		title: '网站地图 | Malaga Event Gear（MEG）',
 		description: '浏览Malaga Event Gear的网站地图，查找我们全部专业视听及灯光租赁服务、套餐及联系方式的链接。'
 	},
 	hero: {
@@ -24,7 +24,7 @@ const copy = {
 	},
 	legal: {
 		heading: '信息与法律',
-		about: '关于我们公司',
+		about: '关于本公司',
 		team: '专业团队',
 		faq: '常见问题',
 		terms: '服务条款',

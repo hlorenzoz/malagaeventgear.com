@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: '認識團隊 - Malaga Event Gear (MEG)',
+		title: '認識團隊 | Malaga Event Gear（MEG）',
 		description:
 			'認識Malaga Event Gear的團隊！了解我們經驗豐富的團隊，如何在西班牙馬拉加成就專業服務及零失誤的活動。'
 	},
@@ -12,7 +12,7 @@ export default {
 		badge: 'MEG背後的團隊',
 		title: '認識團隊',
 		intro:
-			'認識Malaga Event Gear的才華橫溢的專才。由搭建到即時工程支援，我們確保為您帶來零壓力的體驗。'
+			'認識Malaga Event Gear才華橫溢的專才。由搭建到即時工程支援，我們確保為您帶來零壓力的體驗。'
 	},
 	technical: {
 		title: '技術人員',
@@ -22,7 +22,7 @@ export default {
 	sales: {
 		title: '業務團隊',
 		subtitle: '客戶支援與預約',
-		body: '我們的業務團隊會指導您選擇最合適的套餐，並協助您取得度身訂造報價，完成預約。'
+		body: '我們的業務團隊會引導您選擇最合適的套餐，並協助您取得度身訂造報價，完成預約。'
 	},
 	hector: {
 		role: 'SEO專家兼共同創辦人',

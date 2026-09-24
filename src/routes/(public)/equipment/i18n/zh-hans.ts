@@ -8,7 +8,7 @@ const copy = {
 		description: '探索我们优质的设备库存，涵盖专业音响系统、动感灯光、高清投影仪及特效设备，均为马拉加地区的高端设备。'
 	},
 	schema: {
-		listName: '视听设备租赁目录 - Malaga Event Gear'
+		listName: '视听设备租赁目录 | Malaga Event Gear'
 	},
 	hero: {
 		badge: '前沿科技',
@@ -28,7 +28,7 @@ const copy = {
 	},
 	catalog: {
 		title: '技术分类',
-		subtitle: '浏览我们的设备库存，满足您制作活动所需的各项技术需求。'
+		subtitle: '浏览我们的设备库存，满足您活动制作的各项技术需求。'
 	},
 	audio: {
 		imageAlt: '专业音响租赁设备',

@@ -105,8 +105,8 @@ const t = {
 		check: '查詢可預約狀態',
 		mostPopular: '最受歡迎',
 		from: '起價',
-		plusVat: '（+{vat} 加值稅）',
-		plusVatShort: '（+加值稅）',
+		plusVat: '（另加{vat}加值稅）',
+		plusVatShort: '（另計加值稅）',
 		bookPack: '預約'
 	},
 	// Packages filters (e-commerce)
@@ -115,7 +115,7 @@ const t = {
 		clearAll: '清除全部',
 		resetFilters: '重設篩選',
 		showingResults: '顯示 {total} 個方案中的 {visible} 個',
-		noResults: '沒有符合篩選條件的方案，試著清除部分選項！',
+		noResults: '沒有符合篩選條件的方案，請試著清除部分選項！',
 		openFilters: '篩選條件',
 		done: '顯示結果',
 		purpose: '活動類型',
@@ -130,7 +130,7 @@ const t = {
 		presentation: '簡報活動',
 		meeting: '會議',
 		small: '小型（最多50位賓客）',
-		medium: '中型（51-80位賓客）',
+		medium: '中型（51至80位賓客）',
 		large: '大型（80位以上賓客）',
 		priceLow: '{price:budgetLow}以下',
 		priceMid: '{price:budgetLow}至{price:budgetHigh}',
@@ -212,7 +212,7 @@ const t = {
 		s1Title: '選擇方案',
 		s1Desc: '瀏覽我們的方案，挑選最符合活動規模與風格的一款。',
 		s2Title: '申請報價',
-		s2Desc: '填寫快速表單，我們會盡快回覆並告知完整的可預約狀態。',
+		s2Desc: '填寫簡短表單，我們會盡快回覆並告知完整的可預約狀態。',
 		s3Title: '確認並規劃',
 		s3Desc: '我們的團隊確認物流、場地進出安排及每項技術細節。',
 		s4Title: '享受您的活動',
@@ -247,7 +247,7 @@ const t = {
 	},
 	// Lead capture form
 	leadForm: {
-		title: '搶先確保您的活動日期',
+		title: '搶先預留您的活動日期',
 		subtitle: '填寫表單，我們會盡快與您聯繫。',
 		nameLabelInput: '姓名 *',
 		emailLabelInput: '電子郵件地址 *',
@@ -293,11 +293,11 @@ const t = {
 	},
 	// Google Map / Profile
 	googleMap: {
-		badge: '地點與Google檔案',
+		badge: '地點與Google商家檔案',
 		title: '在Google上找到我們',
 		subtitle: '造訪我們官方的Google商家檔案，或查看我們在馬拉加的位置。',
 		viewOnGoogle: '在Google地圖上查看',
-		mapTitle: 'Malaga Event Gear - Google商家檔案'
+		mapTitle: 'Malaga Event Gear | Google商家檔案'
 	},
 	// Footer
 	footer: {
@@ -319,7 +319,7 @@ const t = {
 		faq: '常見問題',
 		sitemap: '網站地圖',
 		servicePackages: '服務方案',
-		localAddress: '在地地址',
+		localAddress: '公司地址',
 		listings: '商家列表',
 		onlinePresence: '線上據點',
 		moreInformation: '更多資訊',
@@ -332,7 +332,7 @@ const t = {
 		forLegal: '法律事務',
 		allRightsReserved: '版權所有。',
 		developedBy: '開發者',
-		lorenzozTitle: 'Lorenzoz Agency：網站開發與商業解決方案代理商',
+		lorenzozTitle: 'Lorenzoz Agency：網站開發與商業解決方案公司',
 		mailAriaLabel: '寄送電子郵件',
 		callAriaLabel: '致電 Malaga Event Gear：{phone}'
 	},
@@ -353,7 +353,7 @@ const t = {
 		openSharingAria: '開啟分享選項',
 		closeSharingAria: '關閉分享選項',
 		tweetLabel: '推文',
-		tweetAria: '推文分享此段落',
+		tweetAria: '推文分享選取的文字',
 		packagesSidebarAria: '活動方案側邊欄',
 		tocSidebarAria: '目錄側邊欄'
 	},

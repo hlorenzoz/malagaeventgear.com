@@ -6,7 +6,7 @@ export default {
 	benefits: {
 		delivery: '免費搭建與運送（馬拉加及太陽海岸地區）',
 		brands: '頂級品牌設備（HK Audio、Audix、Midas）',
-		support: '可加購現場技術支援'
+		support: '提供現場技術支援'
 	},
 	faqs: {
 		delivery: {
@@ -23,7 +23,7 @@ export default {
 		},
 		technician: {
 			q: '如果活動期間需要技術人員該怎麼辦？',
-			a: '我們的尊榮方案（例如{wedding}與{mice}）已包含現場技術監控。若為其他方案，您可以申請專屬音效／燈光工程師全程駐點，享受零壓力的體驗。'
+			a: '我們的尊榮方案（例如{wedding}與{mice}）已包含現場技術監控。若為其他方案，您可以申請專屬音響／燈光工程師全程駐點，享受零壓力的體驗。'
 		}
 	},
 	popularBadge: '最受歡迎',

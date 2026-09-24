@@ -18,7 +18,7 @@ export default {
 		titlePrefix: 'Malaga Event Gear',
 		titleHighlight: '技術網誌',
 		intro:
-			'我們分享專業見解、音效藍圖及視覺佈局指南，讓您在太陽海岸舉辦的企業峰會、婚禮或慶典，技術上零失誤。'
+			'我們分享專業見解、聲學設計方案及視覺佈局指南，讓您在太陽海岸舉辦的企業峰會、婚禮或慶典，技術上零失誤。'
 	},
 	empty: '暫時未有文章，請稍後再瀏覽！',
 	newsBadge: '新聞',

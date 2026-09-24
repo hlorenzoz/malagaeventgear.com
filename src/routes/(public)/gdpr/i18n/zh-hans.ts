@@ -4,13 +4,13 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'GDPR数据保护合规 - Malaga Event Gear（MEG）',
+		title: 'GDPR数据保护合规 | Malaga Event Gear（MEG）',
 		description: '了解Malaga Event Gear在提供视听设备租赁服务时，如何依据《通用数据保护条例》（GDPR）保护您的个人数据。'
 	},
 	hero: {
 		badge: '欧盟法规',
 		title: 'GDPR合规',
-		effectiveDateLine: 'Malaga Event Gear（MEG）| 生效日期：2025年10月16日'
+		effectiveDateLine: 'Malaga Event Gear（MEG） | 生效日期：2025年10月16日'
 	},
 	commitment: {
 		title: 'GDPR承诺',

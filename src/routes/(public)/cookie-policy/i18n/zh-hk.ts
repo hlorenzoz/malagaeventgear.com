@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Cookie政策 - Malaga Event Gear (MEG)',
+		title: 'Cookie政策 | Malaga Event Gear（MEG）',
 		description:
 			'了解Malaga Event Gear如何使用Cookie及追蹤技術，優化網站可用性並分析網站表現。'
 	},

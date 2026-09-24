@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: '隱私權政策 - Malaga Event Gear（MEG）',
+		title: '隱私權政策 | Malaga Event Gear（MEG）',
 		description:
 			'閱讀Malaga Event Gear的正式隱私權政策，了解我們如何蒐集、處理及保護您的個人資訊。'
 	},
@@ -46,7 +46,7 @@ export default {
 		}
 	},
 	reviews: {
-		title: '評論與社群證明',
+		title: '評論與社會認同',
 		body: '我們展示根據Google我的商家已驗證評論所得出的「優異」評等。評論驗證透過Trustindex動態處理，確保所有客戶推薦的原始來源真實且未經竄改。'
 	},
 	retention: {

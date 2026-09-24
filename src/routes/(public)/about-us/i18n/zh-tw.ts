@@ -4,15 +4,15 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: '關於我們 - 馬拉加影音設備出租公司 Malaga Event Gear（MEG）',
+		title: '關於我們：馬拉加影音設備出租公司 | MEG',
 		description:
 			'認識Malaga Event Gear的專業團隊！我們是馬拉加的影音設備出租公司，致力於運用頂級設備，讓您的婚禮、企業活動與派對成為難忘回憶。'
 	},
 	hero: {
-		badge: '關於我們',
+		badge: '我們是誰',
 		title: '關於我們',
 		intro:
-			'歡迎來到Malaga Event Gear（MEG），您在西班牙馬拉加尋找高品質影音設備租賃的首選夥伴。我們專精於為各種規模的活動提供頂尖設備。'
+			'歡迎來到Malaga Event Gear（MEG）！我們是您在西班牙馬拉加租賃高品質影音設備的首選夥伴。我們專精於為各種規模的活動提供頂尖設備。'
 	},
 	story: {
 		title: '我們的使命與歷史',
@@ -34,7 +34,7 @@ export default {
 		},
 		lighting: {
 			title: '燈光',
-			body: 'LED燈光組搭配RGBW聚光燈、變焦Fresnel聚光燈，以及無線電池式上照燈組，為您營造完美氛圍。'
+			body: 'LED燈排搭配RGBW聚光燈、變焦Fresnel聚光燈，以及無線電池式上照燈組，為您營造完美氛圍。'
 		},
 		screens: {
 			title: '螢幕與投影機',

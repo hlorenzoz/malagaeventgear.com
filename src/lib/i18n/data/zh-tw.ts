@@ -6,17 +6,17 @@ export default {
 			updated: '2026-09-24',
 			desc: '專為馬拉加地區最多50位賓客的私人派對或小型活動打造的音響燈光方案，內含紮實的基本音響與氛圍燈光。',
 			includes: [
-				'2支高品質主動式喇叭（含腳架）',
+				'2台高品質主動式喇叭（含腳架）',
 				'1支有線動圈式麥克風',
 				'2組RGBW LED聚光燈燈排',
 				'美觀理線與專業搭建'
 			],
 			optional: ['投影機與投影幕（+{price:projectorScreen}）', '專業煙霧機（+{price:smokeMachine}）'],
-			seo: { title: 'Eco Pack音響燈光租賃｜馬拉加小型派對方案 - Malaga Event Gear' },
+			seo: { title: 'Eco Pack：馬拉加小型派對音響燈光租賃 | MEG' },
 			landing: {
 				badge: '小型活動與派對',
 				rateLabel: '超值全包價格',
-				vatNote: '（+{vat} 加值稅，已含搭建與運送）',
+				vatNote: '（另加{vat}加值稅，已含搭建與運送）',
 				specTitle: '最多50位賓客',
 				specBody: '適合別墅、花園與私人廳室。',
 				highlightTitle: '無壓力服務',
@@ -24,7 +24,7 @@ export default {
 					'我們採純到府配送模式，直接為您搭建。我們會運送設備、專業安裝、測試音效與燈光，並在活動結束後回收所有設備。',
 				includesLabel: '包含項目',
 				optionalLabel: '選配加購',
-				ctaHeading: '立即確保您的預約',
+				ctaHeading: '立即預留您的檔期',
 				ctaBody: '填寫我們的快速技術報價申請表，查詢您的活動日期是否可預約。我們會盡快與您聯繫！',
 				ctaButton: '預約此方案'
 			}
@@ -34,7 +34,7 @@ export default {
 			desc: '專為馬拉加浪漫難忘的婚禮慶典精心打造的婚禮音響燈光麥克風方案，內含高階專業音響系統、浪漫氛圍燈光，以及用於致詞的無線麥克風。',
 			includes: [
 				'高階主動式PA音響系統，適用最多80位賓客',
-				'仙女燈／暖色LED燈串，營造浪漫氛圍燈光',
+				'星星燈／暖色LED燈串，營造浪漫氛圍燈光',
 				'專業無線麥克風，用於致詞與宣布事項',
 				'馬拉加及周邊地區運送服務',
 				'專業美觀搭建與理線',
@@ -42,11 +42,11 @@ export default {
 				'活動結束後迅速拆卸與物流收回'
 			],
 			optional: ['專業煙霧機（+{price:smokeMachine}）'],
-			seo: { title: 'Wedding Pack婚禮音響與浪漫燈光｜馬拉加婚禮方案 - Malaga Event Gear' },
+			seo: { title: 'Wedding Pack：馬拉加婚禮音響與浪漫燈光 | MEG' },
 			landing: {
 				badge: '我們最受歡迎的慶典方案',
 				rateLabel: '尊榮全包價格',
-				vatNote: '（+{vat} 加值稅，已含搭建與現場支援）',
+				vatNote: '（另加{vat}加值稅，已含搭建與現場支援）',
 				specTitle: '最多80位賓客',
 				specBody: '適合美麗的別墅、莊園與婚宴飯店。',
 				highlightTitle: '現場駐點技術人員',
@@ -55,7 +55,7 @@ export default {
 				includesLabel: '尊榮包含項目',
 				ctaHeading: '打造您夢幻的慶典時刻',
 				ctaBody:
-					'婚禮預約檔期經常迅速額滿。立即與我們的技術團隊確保您的日期，為您的重要一天呈現最頂級的音響與浪漫燈光。',
+					'婚禮預約檔期經常迅速額滿。立即與我們的技術團隊敲定日期，為您的重要一天呈現最頂級的音響與浪漫燈光。',
 				ctaButton: '預約此婚禮方案'
 			}
 		},
@@ -68,16 +68,16 @@ export default {
 				'含2支喇叭與混音控制台的場地音響系統',
 				'1支高階無線手持麥克風，供講者使用'
 			],
-			seo: { title: 'Product Presentation Pack投影音響租賃｜馬拉加新品發表方案 - Malaga Event Gear' },
+			seo: { title: 'Product Presentation Pack：馬拉加新品發表投影音響租賃 | MEG' },
 			landing: {
 				badge: '高視覺衝擊力的企業解決方案',
 				rateLabel: '簡報方案定額價格',
-				vatNote: '（+{vat} 加值稅，已含投影機與螢幕）',
+				vatNote: '（另加{vat}加值稅，已含投影機與螢幕）',
 				specTitle: '高亮度投影機',
 				specBody: '5000流明投影機，適合明亮場地。',
 				highlightTitle: '完美呈現企業品牌形象',
 				highlightBody:
-					'為您的經銷商發表會、飯店記者會或新品展示爭取最大關注度。我們的專業搭建結合精細的畫面細節與高效能語音擴大效果。',
+					'為您的經銷商發表會、飯店記者會或新品展示爭取最大關注度。我們的專業搭建結合精細的畫面細節與高效能的語音擴音。',
 				includesLabel: '包含項目',
 				note: {
 					title: '搭建與連接支援',
@@ -98,11 +98,11 @@ export default {
 				'物流運送、搭建與美觀理線'
 			],
 			optional: ['專屬現場技術助理（+{price:technicianDay}／天）'],
-			seo: { title: 'Basic MICE Pack企業會議影音｜馬拉加小型會議方案 - Malaga Event Gear' },
+			seo: { title: 'Basic MICE Pack：馬拉加小型企業會議影音 | MEG' },
 			landing: {
 				badge: '必備高階主管會議方案',
 				rateLabel: '企業會議定額價格',
-				vatNote: '（+{vat} 加值稅，已含搭建與運送）',
+				vatNote: '（另加{vat}加值稅，已含搭建與運送）',
 				specTitle: '最多40位賓客',
 				specBody: '適合董事會議室、私人廳室與飯店套房。',
 				highlightTitle: '清晰語音辨識度',
@@ -111,7 +111,7 @@ export default {
 				includesLabel: '包含項目',
 				optionalLabel: '選配支援',
 				ctaHeading: '規劃您的高階主管會議',
-				ctaBody: '與Malaga Event Gear攜手打造流暢的企業影音物流。聯繫我們的專家，為您確保專業的董事會議室體驗。',
+				ctaBody: '與Malaga Event Gear攜手打造流暢的企業影音物流。聯繫我們的專家，打造專業的董事會議室體驗。',
 				ctaButton: '預約Basic MICE Pack'
 			}
 		},
@@ -128,13 +128,13 @@ export default {
 			optional: [
 				'額外現場技術支援時數（+{price:technicianHour}／小時）',
 				'高級壓克力現代講台（+{price:lectern}）',
-				'模組化舞台平台／看台搭建（每平方公尺+{price:stagingPerSqm}）'
+				'模組化舞台平台／舞台搭建（每平方公尺+{price:stagingPerSqm}）'
 			],
-			seo: { title: 'MICE Pack企業會展音響投影｜馬拉加大型方案 - Malaga Event Gear' },
+			seo: { title: 'MICE Pack：馬拉加大型會展音響投影 | MEG' },
 			landing: {
 				badge: '尊榮企業MICE體驗',
 				rateLabel: '企業全包價格',
-				vatNote: '（+{vat} 加值稅，已含LED顯示螢幕、音響與現場技術人員）',
+				vatNote: '（另加{vat}加值稅，已含LED顯示螢幕、音響與現場技術人員）',
 				specTitle: '60吋LED顯示螢幕',
 				specBody: '大型高畫質顯示螢幕，呈現震撼的企業視覺效果。',
 				highlightTitle: '專屬現場技術人員',
@@ -157,12 +157,12 @@ export default {
 		'event-types': {
 			question: 'Malaga Event Gear（MEG）可以承辦哪些類型的活動？',
 			answer:
-				'我們涵蓋婚禮、私人派對等個人慶祝活動；企業活動、會議、研討會與產品發表等專業聚會；以及研討會、商展與展覽等大型活動，並始終提供量身打造的影音解決方案。'
+				'我們涵蓋婚禮、私人派對等個人慶祝活動；企業活動、會議、研討會與產品發表等專業聚會；以及大型會議、商展與展覽等大型活動，並始終提供量身打造的影音解決方案。'
 		},
 		'service-areas': {
 			question: 'Malaga Event Gear（MEG）的服務範圍涵蓋哪些地區？',
 			answer:
-				'雖然公司名稱有「馬拉加」，但我們的服務範圍遠不止於此城市。我們主要服務整個太陽海岸地區，包括馬拉加市區、馬貝拉、Coín、Ronda、Mijas、Nerja、Torremolinos、Fuengirola、Benalmadena與Estepona。我們也服務塞維亞與格拉納達，不過由於格拉納達屬跨省交通距離，通常需要金額超過{price:outOfProvinceMinimum}的預約。'
+				'雖然公司名稱有「馬拉加」，但我們的服務範圍遠不只這座城市。我們主要服務整個太陽海岸地區，包括馬拉加市區、馬貝拉、Coín、Ronda、Mijas、Nerja、Torremolinos、Fuengirola、Benalmadena與Estepona。我們也服務塞維亞與格拉納達，不過由於前往格拉納達屬跨省長途交通，預約金額通常須超過{price:outOfProvinceMinimum}。'
 		},
 		'what-makes-unique': {
 			question: '相較於其他影音租賃公司，Malaga Event Gear（MEG）有什麼獨特之處？',
@@ -187,7 +187,7 @@ export default {
 		'contact-info': {
 			question: '客戶該如何聯絡Malaga Event Gear（MEG）？需要提供哪些資訊？',
 			answer:
-				'您可以透過電話666 346 911、WhatsApp或電子郵件與我們聯繫。為了取得準確報價，請提供您的活動日期、地點、預計賓客人數，以及您有興趣的設備或方案類型。詳情請參閱我們的聯絡我們頁面。'
+				'您可以透過電話666 346 911、WhatsApp或電子郵件與我們聯繫。為了取得準確報價，請提供您的活動日期、地點、預計賓客人數，以及您有興趣的設備或方案類型。詳情請參閱「聯絡我們」頁面。'
 		},
 		'delivery-setup': {
 			question: '你們提供音響與燈光設備的運送與搭建服務嗎？',
@@ -197,7 +197,7 @@ export default {
 		'vat-pricing': {
 			question: '你們的方案價格是否已含加值稅？',
 			answer:
-				'不含。標示的價格皆不包含加值稅。如價格旁標註的（+{vat}加值稅）所示，將於方案價格外另加西班牙標準{vat}加值稅（IVA）。您的最終報價將完全透明地列出未稅價格與加值稅明細。'
+				'不含。標示的價格皆不包含加值稅。如價格旁標註的（另加{vat}加值稅）所示，將於方案價格外另加西班牙標準{vat}加值稅（IVA）。您的最終報價將完全透明地列出未稅價格與加值稅明細。'
 		},
 		'on-site-technician': {
 			question: '活動期間你們會提供現場技術人員嗎？',
@@ -217,17 +217,17 @@ export default {
 		'streaming-recording': {
 			question: '你們提供線上直播與多機位錄影服務嗎？',
 			answer:
-				'不提供。我們並未提供攝影機、直播編碼器、多機位影片製作或錄影服務。我們負責提供場地音響、螢幕與燈光；若為混合式或線上活動，請自行準備筆電、直播軟體與網路連線。'
+				'不提供。我們不提供攝影機、直播編碼器、多機位影片製作或錄影服務。我們負責提供場地音響、螢幕與燈光；若為混合式或線上活動，請自行準備筆電、直播軟體與網路連線。'
 		},
 		'translation-voting': {
 			question: '你們提供同步翻譯或互動投票系統嗎？',
 			answer:
-				'提供，但同步翻譯與互動投票系統並非我們的自有設備：我們會透過合作的外包夥伴，為企業與研討會等級的活動安排這兩項服務。申請報價時請告訴我們您的需求。我們不提供LED顯示牆，我們的大型顯示螢幕為單一的60吋平面面板。'
+				'提供，但同步翻譯與互動投票系統並非我們的自有設備：我們會透過合作的外包夥伴，為企業及大型會議等級的活動安排這兩項服務。申請報價時請告訴我們您的需求。我們不提供LED電視牆，我們的大型顯示螢幕為單一的60吋平面面板。'
 		},
 		'large-scale-events': {
-			question: '你們能承辦大型研討會、商展與展覽嗎？',
+			question: '你們能承辦大型會議、商展與展覽嗎？',
 			answer:
-				'當然可以。除了婚禮與企業會議，我們也為研討會、商展與展覽等大型活動提供量身打造的影音解決方案，依需求結合擴聲系統、大型顯示螢幕、舞台與專屬技術人員。'
+				'當然可以。除了婚禮與企業會議，我們也為大型會議、商展與展覽等大型活動提供量身打造的影音解決方案，依需求結合擴聲系統、大型顯示螢幕、舞台與專屬技術人員。'
 		},
 		'notice-time': {
 			question: '預約的最短通知時間是多久？',

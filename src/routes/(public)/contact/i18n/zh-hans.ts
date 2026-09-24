@@ -8,7 +8,7 @@ const copy = {
 		description: '联系Malaga Event Gear，申请音响、灯光及屏幕租赁报价，我们提供24小时技术支持。'
 	},
 	schema: {
-		name: '联系我们 - Malaga Event Gear',
+		name: '联系我们 | Malaga Event Gear',
 		description: '联系Malaga Event Gear技术团队，申请音响、灯光及屏幕租赁的定制报价。'
 	},
 	whatsappLinkText: '给我们发消息',

@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: '隐私政策 - Malaga Event Gear（MEG）',
+		title: '隐私政策 | Malaga Event Gear（MEG）',
 		description: '阅读Malaga Event Gear官方隐私政策，了解我们如何收集、处理及保护您的个人信息。'
 	},
 	hero: {
@@ -41,7 +41,7 @@ const copy = {
 		}
 	},
 	reviews: {
-		title: '评价与社会认可',
+		title: '评价与社会认同',
 		body: '我们展示基于Google My Business验证评价所得出的「卓越」评级。评价验证通过Trustindex动态完成，确保所有客户评价的原始来源真实且未经篡改。'
 	},
 	retention: {

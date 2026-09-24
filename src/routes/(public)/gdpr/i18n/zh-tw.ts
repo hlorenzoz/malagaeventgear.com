@@ -4,9 +4,9 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'GDPR合規聲明 - Malaga Event Gear（MEG）',
+		title: 'GDPR合規聲明 | Malaga Event Gear（MEG）',
 		description:
-			'了解Malaga Event Gear如何依據歐盟一般資料保護規則（GDPR），為影音設備租賃保障您的個人資料，這是我們的個資保護政策。'
+			'本個資保護政策說明Malaga Event Gear如何依據歐盟一般資料保護規則（GDPR），在影音設備租賃服務中保障您的個人資料。'
 	},
 	hero: {
 		badge: '歐盟法規',

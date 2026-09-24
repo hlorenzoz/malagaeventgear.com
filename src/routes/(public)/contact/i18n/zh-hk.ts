@@ -9,7 +9,7 @@ export default {
 			'聯絡Malaga Event Gear，索取音響、燈光及熒幕租借報價，24小時全天候技術支援。'
 	},
 	schema: {
-		name: '聯絡我們 - Malaga Event Gear',
+		name: '聯絡我們 | Malaga Event Gear',
 		description:
 			'聯絡Malaga Event Gear的技術團隊，索取音響、燈光及熒幕租借的度身訂造報價。'
 	},

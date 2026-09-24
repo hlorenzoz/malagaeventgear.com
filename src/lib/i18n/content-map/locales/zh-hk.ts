@@ -36,7 +36,7 @@ export default {
 		events: { slug: '活動', name: '活動' },
 		gadgets: { slug: '電子產品', name: '電子產品' },
 		news: { slug: '新聞', name: '新聞' },
-		weddings: { slug: '婚宴', name: '婚宴' }
+		weddings: { slug: '婚宴', name: '婚禮' }
 	},
 	posts: {}
 } satisfies LocaleContentMap;

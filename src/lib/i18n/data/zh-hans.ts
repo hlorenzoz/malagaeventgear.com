@@ -8,7 +8,7 @@ export default {
 			includes: [
 				'2台高品质有源音箱及支架',
 				'1支有线动圈麦克风',
-				'2条配备RGBW LED聚光灯的灯光排',
+				'2条配备RGBW LED聚光灯的灯排',
 				'美观走线与专业搭建'
 			],
 			optional: ['投影仪及投影幕布（+{price:projectorScreen}）', '专业烟雾机（+{price:smokeMachine}）'],
@@ -76,7 +76,7 @@ export default {
 				specBody: '5000流明投影仪，即使在明亮场地也能清晰投放。',
 				highlightTitle: '完美呈现企业品牌形象',
 				highlightBody:
-					'最大化经销商发布会、酒店新闻发布或产品展示的关注度。我们的专业搭建将清晰画面细节与高性能扩声完美结合。',
+					'让经销商发布会、酒店新闻发布会或产品展示吸引最多关注。我们的专业搭建兼顾清晰细腻的画面与高性能的语音扩声。',
 				includesLabel: '套餐包含',
 				note: {
 					title: '搭建与连接支持',
@@ -110,7 +110,7 @@ export default {
 				includesLabel: '套餐包含',
 				optionalLabel: '可选支持服务',
 				ctaHeading: '规划您的高管会议',
-				ctaBody: '与Malaga Event Gear协调顺畅的企业视听物流，联系我们的专家，为您打造专业的会议室体验。',
+				ctaBody: '让Malaga Event Gear为您统筹顺畅的企业视听物流。立即联系我们的专家，打造专业的会议室体验。',
 				ctaButton: '预订Basic MICE Pack'
 			}
 		},
@@ -179,14 +179,14 @@ export default {
 				'我们最受欢迎的预设套餐包括{packagesWithPrices}，每款套餐配备不同的设备与功能。欢迎访问我们的价格页面，查看每款套餐的详细内容。'
 		},
 		'language-hours': {
-			question: 'MEG使用什么语言与客户沟通？营业时间是多久？',
+			question: 'MEG使用什么语言与客户沟通？营业时间是怎样的？',
 			answer:
-				'Malaga Event Gear（MEG）使用英语和西班牙语与客户沟通。我们全年365天、每天24小时提供技术搭建与现场活动监控服务。'
+				'Malaga Event Gear（MEG）使用英语和西班牙语与客户沟通。我们每周7天、每天24小时提供技术搭建与现场活动监控服务。'
 		},
 		'contact-info': {
 			question: '客户应如何联系Malaga Event Gear（MEG）？需要提供哪些信息？',
 			answer:
-				'您可以拨打电话666 346 911、通过WhatsApp或电子邮箱联系我们。为了获得准确报价，请提供活动日期、地点、预计宾客人数以及您感兴趣的设备或套餐类型。更多详情请查看我们的联系我们页面。'
+				'您可以拨打电话666 346 911、通过WhatsApp或电子邮件联系我们。为了获得准确报价，请提供活动日期、地点、预计宾客人数以及您感兴趣的设备或套餐类型。更多详情请查看「联系我们」页面。'
 		},
 		'delivery-setup': {
 			question: '你们是否提供音响与灯光设备的配送和搭建服务？',

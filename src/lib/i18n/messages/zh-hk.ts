@@ -69,7 +69,7 @@ const t = {
 		whoA: '適合籌備婚禮的新人、舉辦會議與企業活動的公司，以及希望擁有完美音效與燈光，而毋須購買器材的派對或私人慶祝活動主辦人。',
 		costQ: '費用是多少？',
 		costA: '固定價格套餐，無隱藏收費，按活動規模調整；大型製作另提供度身訂造報價。',
-		costFrom: '起',
+		costFrom: '起價',
 		howQ: '服務流程是怎樣的？',
 		howA: '只需四個簡單步驟：選擇套餐、申請報價，我們確認並準備器材，活動當日由團隊負責運送及搭建。'
 	},
@@ -85,7 +85,7 @@ const t = {
 		badge: '頂級器材',
 		title: '可供選擇的器材類別',
 		soundTitle: '音響系統',
-		soundText: '清晰逼真的高保真音效，無論是溫馨婚禮定大型企業會議都能完美呈現。我們選用頂尖品牌，確保最佳音效質素。',
+		soundText: '清晰逼真的高保真音效，無論是溫馨婚禮還是大型企業會議都能完美呈現。我們選用頂尖品牌，確保最佳音效質素。',
 		lightTitle: '燈光',
 		lightText: '多變的燈光方案，為您的活動場地營造完美氣氛。',
 		visualTitle: '投影機與熒幕',
@@ -104,7 +104,7 @@ const t = {
 		optional: '選配項目：',
 		check: '查詢可預約狀況',
 		mostPopular: '最受歡迎',
-		from: '起',
+		from: '起價',
 		plusVat: '（另加{vat}增值稅）',
 		plusVatShort: '（另加增值稅）',
 		bookPack: '預約'
@@ -133,7 +133,7 @@ const t = {
 		medium: '中型（51至80位賓客）',
 		large: '大型（80位以上賓客）',
 		priceLow: '{price:budgetLow}以下',
-		priceMid: '{price:budgetLow} 至 {price:budgetHigh}',
+		priceMid: '{price:budgetLow}至{price:budgetHigh}',
 		priceHigh: '{price:budgetHigh}以上',
 		transport: '運送與搭建',
 		screen: '熒幕／投影幕',
@@ -212,7 +212,7 @@ const t = {
 		s1Title: '選擇套餐',
 		s1Desc: '瀏覽我們的套餐，挑選最切合活動規模與風格的一款。',
 		s2Title: '申請報價',
-		s2Desc: '填妥我們的快速表格，我們會盡快回覆並告知完整的可預約狀況。',
+		s2Desc: '填妥簡短表格，我們會盡快回覆並告知完整的可預約狀況。',
 		s3Title: '確認並規劃',
 		s3Desc: '我們的團隊會確認物流、場地出入安排及每項技術細節。',
 		s4Title: '享受您的活動',
@@ -293,11 +293,11 @@ const t = {
 	},
 	// Google Map / Profile
 	googleMap: {
-		badge: '地點與Google Business Profile',
+		badge: '地點與Google商家檔案',
 		title: '在Google搜尋我們',
-		subtitle: '瀏覽我們官方的Google Business Profile，或查看我們在馬拉加的位置。',
+		subtitle: '瀏覽我們官方的Google商家檔案，或查看我們在馬拉加的位置。',
 		viewOnGoogle: '在Google地圖查看',
-		mapTitle: 'Malaga Event Gear - Google Business Profile'
+		mapTitle: 'Malaga Event Gear | Google商家檔案'
 	},
 	// Footer
 	footer: {
@@ -332,7 +332,7 @@ const t = {
 		forLegal: '法律事宜',
 		allRightsReserved: '版權所有。',
 		developedBy: '開發者',
-		lorenzozTitle: 'Lorenzoz Agency：網站開發及商業方案代理商',
+		lorenzozTitle: 'Lorenzoz Agency：網站開發及商業方案公司',
 		mailAriaLabel: '發送電郵',
 		callAriaLabel: '致電 Malaga Event Gear：{phone}'
 	},
@@ -353,7 +353,7 @@ const t = {
 		openSharingAria: '開啟分享選項',
 		closeSharingAria: '關閉分享選項',
 		tweetLabel: '推文',
-		tweetAria: '推文分享此段落',
+		tweetAria: '推文分享所選文字',
 		packagesSidebarAria: '活動套餐側邊欄',
 		tocSidebarAria: '目錄側邊欄'
 	},

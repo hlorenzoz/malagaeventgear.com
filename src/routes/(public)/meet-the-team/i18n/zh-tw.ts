@@ -4,9 +4,9 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: '認識團隊 - Malaga Event Gear（MEG）',
+		title: '認識團隊 | Malaga Event Gear（MEG）',
 		description:
-			'認識Malaga Event Gear的團隊！了解我們經驗豐富的馬拉加影音設備出租團隊，如何在西班牙馬拉加打造專業服務與順暢活動。'
+			'認識Malaga Event Gear的團隊！了解我們經驗豐富的馬拉加影音設備出租團隊，如何以專業服務打造順暢的活動。'
 	},
 	hero: {
 		badge: 'MEG的幕後推手',
@@ -25,10 +25,10 @@ export default {
 		body: '我們的業務團隊將引導您選擇最理想的方案，並協助您取得客製化報價，完成預約。'
 	},
 	hector: {
-		role: 'SEO專員暨共同創辦人',
-		bio: 'SEO專員，運用其專業知識強化公司的數位形象，並透過有效的搜尋引擎策略吸引客戶。',
+		role: 'SEO專家暨共同創辦人',
+		bio: 'SEO專家，運用其專業知識強化公司的數位形象，並透過有效的搜尋引擎策略吸引客戶。',
 		linkedinLabel: 'LinkedIn個人檔案',
 		personDescription:
-			'Hector Luis Lorenzo是一位擁有兩年以上經驗的SEO專員，協助品牌提升線上能見度。他同時是Malaga Event Gear的共同創辦人。'
+			'Hector Luis Lorenzo是一位擁有兩年以上經驗的SEO專家，協助品牌提升線上能見度。他同時是Malaga Event Gear的共同創辦人。'
 	}
 } satisfies Copy;

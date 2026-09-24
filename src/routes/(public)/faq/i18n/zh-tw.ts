@@ -4,9 +4,9 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: '常見問題 - Malaga Event Gear（MEG）',
+		title: '常見問題 | Malaga Event Gear（MEG）',
 		description:
-			'查看Malaga Event Gear專業影音租賃的清楚解答，涵蓋方案內容、服務範圍（馬拉加／太陽海岸）與預約需求，這是馬拉加設備出租常見問題集。'
+			'馬拉加設備出租常見問題集：清楚解答Malaga Event Gear專業影音租賃的方案內容、服務範圍（馬拉加／太陽海岸）與預約需求。'
 	},
 	hero: {
 		badge: '常見詢問',

@@ -4,20 +4,20 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: '關於我們 - Malaga Event Gear (MEG)',
+		title: '關於我們 | Malaga Event Gear（MEG）',
 		description:
 			'認識Malaga Event Gear的專業團隊！我們致力以頂級器材，為您的婚禮、企業活動及派對打造難忘時刻。'
 	},
 	hero: {
-		badge: '關於我們',
+		badge: '我們是誰',
 		title: '關於我們',
 		intro:
-			'歡迎蒞臨Malaga Event Gear（MEG），是您在西班牙馬拉加租借優質視聽器材的首選。我們專門為各種規模的活動提供頂尖器材。'
+			'歡迎蒞臨Malaga Event Gear（MEG）！我們是您在西班牙馬拉加租借優質視聽器材的首選。我們專門為各種規模的活動提供頂尖器材。'
 	},
 	story: {
 		title: '我們的使命與歷史',
 		p1: 'Malaga Event Gear自1996年起投身視聽業界，並自2010年起以自僱形式獨立營運。三十年來，我們一直對完美無瑕的活動及清晰音效充滿熱誠。',
-		p2: '我們採用純送貨到場模式，由我們直接搭建，因此並無設立實體門市。相反，我們會把頂級系統、線材及支援服務，直接帶到馬拉加及太陽海岸各地的別墅、酒店或場地。'
+		p2: '我們採用純送貨到場模式，由我們直接搭建，因此並無設立實體門市。我們會把頂級系統、線材及支援服務，直接帶到馬拉加及太陽海岸各地的別墅、酒店或場地。'
 	},
 	stats: {
 		experienceTitle: '年經驗',
@@ -35,7 +35,7 @@ export default {
 		},
 		lighting: {
 			title: '燈光',
-			body: 'RGBW射燈LED燈排、變焦菲涅爾聚光燈，以及無線電池供電的補光燈套裝，為您營造完美氣氛。'
+			body: 'RGBW射燈LED燈排、變焦菲涅爾聚光燈，以及無線電池供電的上照氣氛燈套裝，為您營造完美氣氛。'
 		},
 		screens: {
 			title: '熒幕與投影機',

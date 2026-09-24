@@ -6,13 +6,13 @@ export default {
 			updated: '2026-09-24',
 			desc: '專為馬拉加最多50位賓客的私人派對或小型活動而設，內含紮實的基本音響與氣氛燈光。',
 			includes: [
-				'2支高質素主動式喇叭（連腳架）',
+				'2個高質素主動式喇叭（連腳架）',
 				'1支有線動圈式咪高峰',
 				'2組RGBW LED射燈燈排',
 				'美觀理線與專業搭建'
 			],
 			optional: ['投影機及投影幕（+{price:projectorScreen}）', '專業煙霧機（+{price:smokeMachine}）'],
-			seo: { title: 'Eco Pack音響燈光租借｜馬拉加小型派對套餐 - Malaga Event Gear' },
+			seo: { title: 'Eco Pack：馬拉加小型派對音響燈光租借 | MEG' },
 			landing: {
 				badge: '小型活動與派對',
 				rateLabel: '超值全包價格',
@@ -24,7 +24,7 @@ export default {
 					'我們採用純送貨到場模式，由我們直接搭建。我們會運送器材、專業安裝、測試音效與燈光，並在活動結束後回收所有器材。',
 				includesLabel: '包含項目',
 				optionalLabel: '選配加購',
-				ctaHeading: '立即確保您的預約',
+				ctaHeading: '立即預留您的檔期',
 				ctaBody: '填妥我們的快速技術報價申請表，查詢您的活動日期是否可預約。我們會盡快與您聯絡！',
 				ctaButton: '預約此套餐'
 			}
@@ -34,7 +34,7 @@ export default {
 			desc: '為馬拉加浪漫難忘的婚禮而精心設計，內含高階專業音響系統、浪漫氣氛燈光，以及供致辭用的無線咪高峰。',
 			includes: [
 				'高階主動式PA音響系統，適用最多80位賓客',
-				'仙女燈／暖色LED燈串，營造浪漫氣氛燈光',
+				'星星燈／暖色LED燈串，營造浪漫氣氛燈光',
 				'專業無線咪高峰，供致辭及宣布事項使用',
 				'馬拉加及周邊地區運送服務',
 				'專業美觀搭建與理線',
@@ -42,20 +42,20 @@ export default {
 				'活動結束後迅速拆卸及物流收回'
 			],
 			optional: ['專業煙霧機（+{price:smokeMachine}）'],
-			seo: { title: 'Wedding Pack婚禮音響與浪漫燈光｜馬拉加婚禮套餐 - Malaga Event Gear' },
+			seo: { title: 'Wedding Pack：馬拉加婚禮音響與浪漫燈光 | MEG' },
 			landing: {
 				badge: '我們最受歡迎的慶典套餐',
 				rateLabel: '尊尚全包價格',
 				vatNote: '（另加{vat}增值稅，已含搭建及現場支援）',
 				specTitle: '最多80位賓客',
 				specBody: '適合美麗的別墅、莊園及婚宴酒店。',
-				highlightTitle: '現場駐場技術人員',
+				highlightTitle: '駐場技術人員',
 				highlightBody:
 					'毋須再擔心咪高峰回授或視覺問題。此套餐在整場婚宴及致辭期間，提供完整的現場技術監控及音響調整。',
 				includesLabel: '尊尚包含項目',
 				ctaHeading: '成就您夢幻的慶典時刻',
 				ctaBody:
-					'婚禮預約檔期經常迅速額滿。立即與我們的技術團隊確保您的日期，為您的重要一天呈現最頂級的音響與浪漫燈光。',
+					'婚禮預約檔期經常迅速額滿。立即聯絡我們的技術團隊預留日期，為您的重要一天呈現最頂級的音響與浪漫燈光。',
 				ctaButton: '預約此婚禮套餐'
 			}
 		},
@@ -68,7 +68,7 @@ export default {
 				'含2支喇叭及混音控制台的場地音響系統',
 				'1支高階無線手持咪高峰，供講者使用'
 			],
-			seo: { title: 'Product Presentation Pack投影音響租借｜馬拉加新品發佈套餐 - Malaga Event Gear' },
+			seo: { title: 'Product Presentation Pack：馬拉加新品發佈投影音響租借 | MEG' },
 			landing: {
 				badge: '高視覺衝擊力的企業方案',
 				rateLabel: '簡報套餐定額價格',
@@ -77,7 +77,7 @@ export default {
 				specBody: '5000流明投影機，適合光線充足的場地。',
 				highlightTitle: '完美呈現企業品牌形象',
 				highlightBody:
-					'為您的經銷商發佈會、酒店記者會或新品展示爭取最大關注度。我們的專業搭建結合精細的畫面細節與高效能語音擴音效果。',
+					'為您的經銷商發佈會、酒店記者會或新品展示爭取最大關注度。我們的專業搭建結合精細的畫面細節與高效能的語音擴音。',
 				includesLabel: '包含項目',
 				note: {
 					title: '搭建與連接支援',
@@ -98,7 +98,7 @@ export default {
 				'物流運送、搭建及美觀理線'
 			],
 			optional: ['專屬現場技術助理（+{price:technicianDay}／日）'],
-			seo: { title: 'Basic MICE Pack企業會議視聽｜馬拉加小型會議套餐 - Malaga Event Gear' },
+			seo: { title: 'Basic MICE Pack：馬拉加小型企業會議視聽 | MEG' },
 			landing: {
 				badge: '必備行政會議套餐',
 				rateLabel: '企業會議定額價格',
@@ -111,7 +111,7 @@ export default {
 				includesLabel: '包含項目',
 				optionalLabel: '選配支援',
 				ctaHeading: '規劃您的行政會議',
-				ctaBody: '與Malaga Event Gear攜手打造流暢的企業視聽物流安排。聯繫我們的專家，為您確保專業的董事會議室體驗。',
+				ctaBody: '與Malaga Event Gear攜手打造流暢的企業視聽物流安排。聯繫我們的專家，打造專業的董事會議室體驗。',
 				ctaButton: '預約Basic MICE Pack'
 			}
 		},
@@ -128,9 +128,9 @@ export default {
 			optional: [
 				'額外現場技術支援時數（+{price:technicianHour}／小時）',
 				'高級亞加力現代講台（+{price:lectern}）',
-				'組合式舞台平台／看台搭建（每平方米+{price:stagingPerSqm}）'
+				'組合式舞台平台／舞台搭建（每平方米+{price:stagingPerSqm}）'
 			],
-			seo: { title: 'MICE Pack企業會展音響投影｜馬拉加大型套餐 - Malaga Event Gear' },
+			seo: { title: 'MICE Pack：馬拉加大型會展音響投影 | MEG' },
 			landing: {
 				badge: '尊尚企業MICE體驗',
 				rateLabel: '企業全包價格',
@@ -162,7 +162,7 @@ export default {
 		'service-areas': {
 			question: 'Malaga Event Gear（MEG）的服務範圍涵蓋哪些地區？',
 			answer:
-				'雖然公司名稱有「馬拉加」，但我們的服務範圍遠不止於此市。我們主要服務整個太陽海岸地區，包括馬拉加市中心、馬貝拉、Coín、Ronda、Mijas、Nerja、Torremolinos、Fuengirola、Benalmadena及Estepona。我們亦服務塞維利亞及格拉納達，不過由於格拉納達屬跨省交通距離，一般需要金額超過{price:outOfProvinceMinimum}的預約。'
+				'雖然公司名稱有「馬拉加」，但我們的服務範圍遠不止這個城市。我們主要服務整個太陽海岸地區，包括馬拉加市、馬貝拉、Coín、Ronda、Mijas、Nerja、Torremolinos、Fuengirola、Benalmadena及Estepona。我們亦服務塞維利亞及格拉納達，不過由於前往格拉納達屬跨省長途交通，預約金額一般須超過{price:outOfProvinceMinimum}。'
 		},
 		'what-makes-unique': {
 			question: '相較於其他視聽租借公司，Malaga Event Gear（MEG）有什麼獨特之處？',
@@ -187,7 +187,7 @@ export default {
 		'contact-info': {
 			question: '客戶應如何聯絡Malaga Event Gear（MEG）？需要提供哪些資料？',
 			answer:
-				'您可以透過電話666 346 911、WhatsApp或電郵與我們聯絡。為取得準確報價，請提供您的活動日期、地點、預計賓客人數，以及您有興趣的器材或套餐類型。詳情請參閱我們的聯絡我們頁面。'
+				'您可以透過電話666 346 911、WhatsApp或電郵與我們聯絡。為取得準確報價，請提供您的活動日期、地點、預計賓客人數，以及您有興趣的器材或套餐類型。詳情請參閱「聯絡我們」頁面。'
 		},
 		'delivery-setup': {
 			question: '你們提供音響及燈光器材的運送及搭建服務嗎？',

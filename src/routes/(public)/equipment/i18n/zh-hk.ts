@@ -9,12 +9,12 @@ export default {
 			'瀏覽我們高質素的專業音響系統、動感燈光、高清投影機及特效器材庫存。馬拉加頂級器材首選。'
 	},
 	schema: {
-		listName: '視聽器材租借目錄 - Malaga Event Gear'
+		listName: '視聽器材租借目錄 | Malaga Event Gear'
 	},
 	hero: {
 		badge: '頂尖科技',
-		titlePart1: '以',
-		titlePart2: '頂級器材提升您的活動水準',
+		titlePart1: '以頂級器材',
+		titlePart2: '提升您的活動水準',
 		subtitle:
 			'瀏覽我們的高保真音響、璀璨燈光及特效目錄。我們擁有最適合的器材，讓您的慶典難以忘懷。'
 	},

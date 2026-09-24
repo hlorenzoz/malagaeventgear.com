@@ -47,7 +47,7 @@ const t = {
 		titlePart1: '马拉加视听设备',
 		titleGradient: '租赁',
 		titlePart2: '服务',
-		subtitle: '体验我们优质设备带来的清晰音效与绚丽灯光，完美适合太阳海岸的婚礼、企业活动及尊享派对。',
+		subtitle: '体验我们优质设备带来的清晰音效与绚丽灯光，是太阳海岸婚礼、企业活动及高端派对的理想之选。',
 		viewPricing: '查看价格',
 		contactUs: '联系我们'
 	},
@@ -127,7 +127,7 @@ const t = {
 		party: '派对',
 		wedding: '婚礼',
 		corporate: '企业活动',
-		presentation: '产品发布',
+		presentation: '演示活动',
 		meeting: '会议',
 		small: '小型（50位宾客以内）',
 		medium: '中型（51至80位宾客）',
@@ -193,9 +193,9 @@ const t = {
 		errorDetailComments: '备注',
 		successTitle: '报价申请已提交！',
 		successText1: '您好',
-		successText2: '我们已成功收到您的申请。我们马拉加的技术团队将对其进行评估，并尽快通过邮箱（',
+		successText2: '我们已成功收到您的申请。马拉加的技术团队将进行评估，并尽快通过电子邮件（',
 		successText3: '）与您取得联系。',
-		successButton: '再次发送申请',
+		successButton: '提交新的申请',
 		faqTitle: '常见问题'
 	},
 	// Packages Showcase
@@ -212,7 +212,7 @@ const t = {
 		s1Title: '选择套餐',
 		s1Desc: '浏览我们的套餐，选择最适合您活动规模与风格的方案。',
 		s2Title: '申请报价',
-		s2Desc: '填写快速表单，我们会尽快回复并告知设备可用情况。',
+		s2Desc: '填写简短表单，我们会尽快回复并告知设备可用情况。',
 		s3Title: '确认与规划',
 		s3Desc: '我们的团队将确认物流安排、场地准入及各项技术细节。',
 		s4Title: '尽享活动',
@@ -254,7 +254,7 @@ const t = {
 		phoneLabelInput: '电话/WhatsApp *',
 		eventDateLabel: '活动日期 *',
 		commentsLabel: '问题或备注',
-		commentsPlaceholder: '请告诉我们您的活动详情，例如场地、宾客人数、特殊需求等...',
+		commentsPlaceholder: '请告诉我们您的活动详情，例如场地、宾客人数、特殊需求等',
 		submitBtn: '查询日期是否可预订',
 		submitting: '发送中...',
 		errorRequired: '此字段为必填项。',
@@ -293,11 +293,11 @@ const t = {
 	},
 	// Google Map / Profile
 	googleMap: {
-		badge: '位置与Google信息',
+		badge: '位置与Google商家资料',
 		title: '在Google上找到我们',
 		subtitle: '访问我们的Google商家资料，或查看我们在马拉加的位置。',
 		viewOnGoogle: '在Google地图中查看',
-		mapTitle: 'Malaga Event Gear - Google商家资料'
+		mapTitle: 'Malaga Event Gear | Google商家资料'
 	},
 	// Footer
 	footer: {
@@ -352,7 +352,7 @@ const t = {
 		openSharingAria: '打开分享选项',
 		closeSharingAria: '关闭分享选项',
 		tweetLabel: '发推文',
-		tweetAria: '转发此选段',
+		tweetAria: '发推文分享所选内容',
 		packagesSidebarAria: '活动套餐侧边栏',
 		tocSidebarAria: '目录侧边栏'
 	},

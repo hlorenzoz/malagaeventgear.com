@@ -27,9 +27,9 @@ const copy = {
 		}
 	},
 	popularBadge: '最受欢迎',
-	itemsIncludedSuffix: '项内容',
+	itemsIncludedSuffix: '项包含内容',
 	faqSectionTitle: '常见问题',
-	stickyBarAriaLabel: '悬浮行动按钮'
+	stickyBarAriaLabel: '固定行动号召栏'
 } satisfies Copy;
 
 export default copy;
