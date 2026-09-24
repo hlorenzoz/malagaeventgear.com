@@ -6,7 +6,7 @@ import type { Availability } from './routing';
  * (Fase 3), so this is a per locale switch, guarded by a test that every page has its copy.
  * Posts are published one by one and their availability comes from the translation files.
  */
-export const PAGE_LOCALES: readonly Locale[] = ['en', 'fr', 'it', 'de', 'nl', 'pt-pt', 'pt-br', 'sv', 'da', 'nb'];
+export const PAGE_LOCALES: readonly Locale[] = ['en', 'fr', 'it', 'de', 'nl', 'pt-pt', 'pt-br', 'sv', 'da', 'nb', 'zh-hans'];
 
 const EMPTY: ReadonlySet<string> = new Set();
 
