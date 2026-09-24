@@ -85,6 +85,23 @@ for (const locale of PUBLISHED_LOCALES) {
 			});
 		}
 
+		test('structured data points at this language version, never the English URL', async ({ request }) => {
+			const nodes = (html: string) =>
+				[...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].flatMap((m) => {
+					const json = JSON.parse(m[1]);
+					return Array.isArray(json) ? json : [json];
+				});
+
+			const pkgPath = (await localized(locale, '/packages/wedding/'))!;
+			const service = nodes(await (await request.get(pkgPath)).text()).find((n) => n['@type'] === 'Service');
+			expect(service?.['@id']).toBe(`${SITE}${pkgPath}#service`);
+			expect(service?.offers?.url).toBe(`${SITE}${pkgPath}`);
+
+			const contactPath = (await localized(locale, '/contact/'))!;
+			const contact = nodes(await (await request.get(contactPath)).text()).find((n) => n['@type'] === 'ContactPage');
+			expect(contact?.url).toBe(`${SITE}${contactPath}`);
+		});
+
 		test('no translated page lists English posts (one language per page)', async ({ request }) => {
 			// Until this locale has translated posts, the only blog link allowed is the navbar's
 			// labelled "Blog (in English)" link to /blog/ itself, never a post, category or author.

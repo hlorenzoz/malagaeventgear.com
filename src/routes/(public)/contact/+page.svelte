@@ -21,7 +21,7 @@
 		'@type': 'ContactPage',
 		'name': copy.schema.name,
 		'description': copy.schema.description,
-		'url': 'https://malagaeventgear.com/contact/',
+		'url': i18n.absolute('/contact/'),
 		// Referencia al nodo de organización global (#organization) para no duplicar la entidad.
 		'mainEntity': { '@id': 'https://malagaeventgear.com/#organization' }
 	});

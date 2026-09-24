@@ -55,10 +55,10 @@
 				name: pkg.name,
 				description: copy.desc,
 				price: pkg.price,
-				url: pkg.route,
+				// This language version of the page: each one is its own node (never the English URL).
+				url: i18n.href(pkg.route),
 				category: pkg.seo.serviceType
-			},
-			i18n.lang
+			}
 		)
 	);
 

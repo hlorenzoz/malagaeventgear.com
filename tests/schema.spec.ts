@@ -85,7 +85,8 @@ test.describe('Structured Data (Schema.org) E2E Validation Tests', () => {
 		// 1. Buscar y verificar ItemList de catálogo
 		const itemList = schemas.find(s => s['@type'] === 'ItemList');
 		expect(itemList).toBeDefined();
-		expect(itemList.name).toBe('Audiovisual Rental Packages - Malaga Event Gear');
+		// The list is named with the page title, which every language translates.
+		expect(itemList.name).toBe('Rates & Tailored Rental Packages | MEG');
 		expect(itemList.itemListElement.length).toBe(5); // Los 5 paquetes principales
 		// Cada elemento es un ListItem que ENVUELVE la entidad Service del paquete con
 		// su Offer (commit f1eb723: ItemList plano → Service+Offer). El name/url viven

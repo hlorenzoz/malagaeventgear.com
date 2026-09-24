@@ -19,7 +19,7 @@
 	let personSchema = $derived(
 		buildPersonSchema({
 			name: 'Hector Luis Lorenzo',
-			url: 'https://malagaeventgear.com/blog/author/hector-luis-lorenzo/',
+			url: i18n.absolute('/blog/author/hector-luis-lorenzo/'),
 			description: copy.hector.personDescription
 		})
 	);

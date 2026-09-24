@@ -2,7 +2,6 @@ import { siteConfig } from '../data/site';
 import { getSchemaPriceRange } from '../data/packages';
 import { breadcrumbTrail, type TrailOptions } from '../i18n/breadcrumbs';
 import { encodePath } from '../i18n/locale-path';
-import type { Locale } from '../i18n/locales';
 import type { 
 	BaseLdContext, 
 	OrganizationSchema, 
@@ -161,8 +160,7 @@ export function buildServiceSchema(
 		price: number;
 		url: string;
 		category?: string;
-	},
-	lang: Locale = 'en'
+	}
 ): Record<string, any> {
 	// Referencia al nodo canónico de la organización (emitido en el layout con
 	// @id .../#organization). NO redefinimos la empresa aquí: un provider parcial
@@ -195,7 +193,8 @@ export function buildServiceSchema(
 				'@type': 'UnitPriceSpecification',
 				'price': service.price.toFixed(2),
 				'priceCurrency': 'EUR',
-				'valueAddedTaxIncluded': true
+				// Catalog prices are net: every package shows "+21% VAT" (CLAUDE.md §7).
+				'valueAddedTaxIncluded': false
 			}
 		}
 	};

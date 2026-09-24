@@ -24,11 +24,11 @@
 				name: pkg.name,
 				description: pkgCopy(pkg).desc,
 				price: pkg.price,
-				url: pkg.route,
+				url: i18n.href(pkg.route),
 				serviceType: pkg.seo.serviceType,
 				image: pkg.image
 			})),
-			'Audiovisual Rental Packages - Malaga Event Gear'
+			copy.seo.title
 		)
 	);
 

@@ -251,6 +251,17 @@ describe('buildServiceSchema', () => {
 		expect(schema['offers']['price']).toBe('499.00');
 		expect(schema['offers']['priceCurrency']).toBe('EUR');
 	});
+
+	it('declares the price WITHOUT VAT, as every package page says (+21% VAT)', () => {
+		const schema = buildServiceSchema(baseService);
+		expect(schema['offers']['priceSpecification']['valueAddedTaxIncluded']).toBe(false);
+	});
+
+	it('uses the URL of the page it is on, so each language version is its own node', () => {
+		const schema = buildServiceSchema({ ...baseService, url: '/de/pakete/hochzeits-paket/' });
+		expect(schema['@id']).toBe(`${siteConfig.url}/de/pakete/hochzeits-paket/#service`);
+		expect(schema['offers']['url']).toBe(`${siteConfig.url}/de/pakete/hochzeits-paket/`);
+	});
 });
 
 describe('buildServiceListSchema', () => {
