@@ -516,11 +516,11 @@
     },
     {
       "question": "How much does it cost to rent a lavalier or headset microphone?",
-      "answer": "We do not publish a fixed a la carte price for either. Neither is bundled into the Eco Pack, Basic MICE Pack, Wedding Pack or MICE Pack, so contact us with your package and guest count and we will confirm a quote."
+      "answer": "We do not publish a fixed a la carte price for either. Neither is bundled into the Eco Pack, Product Presentation Pack, Basic MICE Pack, Wedding Pack or MICE Pack, so contact us with your package and guest count and we will confirm a quote."
     },
     {
       "question": "How many wireless lavalier microphones do you have available?",
-      "answer": "Two complete AUDIX RAD-360 wireless lavalier sets, each with its own receiver, bodypack transmitter, lavalier capsule and antennas, so two people can wear one at the same time. We also stock one AUDIX HT5 wireless headband mic, a separate item from the lavalier sets. We do not offer a third simultaneous hands free channel today."
+      "answer": "Two complete AUDIX RAD-360 wireless lavalier sets, each with its own receiver, bodypack transmitter, lavalier capsule and antennas, so two people can wear one at the same time. We also stock one AUDIX HT5 wireless headband mic, a separate item from the lavalier sets. A third simultaneous hands free channel is not in our own inventory today. See Two Real Systems We Stock above."
     },
     {
       "question": "Is a lavalier or headset microphone better for a wedding officiant?",
@@ -910,7 +910,7 @@
     },
     {
       "question": "Do You Offer Moving Head or Intelligent Lighting Fixtures?",
-      "answer": "No. We do not own DMX pan and tilt robotic fixtures. See What We Don't Stock above."
+      "answer": "Not in our own inventory: we have no DMX pan and tilt robotic fixtures. See What We Don't Stock above for how we handle a request for them."
     },
     {
       "question": "Is Delivery, Setup and Collection Included, or Is Installation Billed Separately?",
@@ -938,7 +938,7 @@
     },
     {
       "question": "Do You Provide Power for Outdoor Lighting Away From an Outlet?",
-      "answer": "Yes, for corded fixtures. We stock a 2000W portable electrical panel with a 380/220V transformer and a separate power stabilizer, which between them usually cover a corded fixture placed away from your venue's own outlet. The uplighting kit does not need this, it is wireless and battery powered. We do not stock a generator, so contact us with your venue's layout and we will confirm honestly whether your power situation works."
+      "answer": "Yes, for corded fixtures. We stock a 2000W portable electrical panel with a 380/220V transformer and a separate power stabilizer, which between them usually cover a corded fixture placed away from your venue's own outlet. The uplighting kit does not need this, it is wireless and battery powered. There is no generator in our own inventory, so contact us with your venue's layout and we will confirm honestly whether your power situation works."
     },
     {
       "question": "How Far in Advance Should I Book Stage Lighting for a Wedding or Corporate Event?",
@@ -1042,11 +1042,11 @@
     },
     {
       "question": "How Many Uplights Do I Need for My Venue?",
-      "answer": "With MEG, the honest answer is 6, our full inventory, not a guest count formula. That covers accent lighting for 2 to 4 specific venue features, an entrance, a head table or backdrop, a run of 2 to 3 columns, or one feature wall, rather than a full room wash. See Realistic Coverage above for how our technician decides which features to light."
+      "answer": "With MEG, the honest answer is 6, because that is our own uplighting inventory, not a guest count formula. That covers accent lighting for 2 to 4 specific venue features, an entrance, a head table or backdrop, a run of 2 to 3 columns, or one feature wall, rather than a full room wash. See Realistic Coverage above for how our technician decides which features to light, and for what to do if your room needs more."
     },
     {
       "question": "Is Wireless Uplighting Better Than Wired?",
-      "answer": "We do not offer a wired option to compare it against, so this is not a real choice you will make when booking with MEG. Our ADJ Element H6 Pack is wireless and battery powered, which is why it is the only uplighting kit in our inventory: it does not need a power run to each fixture, which is what makes it practical to place against a wall, column or backdrop wherever our technician needs it."
+      "answer": "There is no wired uplighting kit in our own inventory to compare it against, so this is not a real choice you will make when booking with MEG. Our ADJ Element H6 Pack is wireless and battery powered, which is why it is the only uplighting kit in our inventory: it does not need a power run to each fixture, which is what makes it practical to place against a wall, column or backdrop wherever our technician needs it."
     },
     {
       "question": "How Long Does the Battery Last?",
@@ -1066,7 +1066,7 @@
     },
     {
       "question": "What Colors Can It Produce, and Can It Change Color During the Event?",
-      "answer": "We have not confirmed a DMX or app based color control feature for this kit, so we do not offer it as a self controlled, color changing effect the way the Eco Pack's RGBW spotlights are. Our technician sets the color for your event on site, based on what you tell us when you book, rather than handing you a remote or an app to run it yourself."
+      "answer": "We have not confirmed a DMX or app based color control feature for this kit, so it is not booked as a self controlled, color changing effect the way the Eco Pack's RGBW spotlights are. Our technician sets the color for your event on site, based on what you tell us when you book, rather than handing you a remote or an app to run it yourself."
     },
     {
       "question": "What Can I Realistically Light With 6 Uplights?",
@@ -1392,7 +1392,7 @@
     },
     {
       "question": "How Many Uplights Do I Need for My Ceremony Backdrop?",
-      "answer": "Our full inventory is 6 wireless fixtures, the ADJ Element H6 Pack, realistically covering 2 to 4 venue features, an arch, a head table, or a run of columns, not a full room wash. Our dedicated stage uplighting guide covers the honest coverage math and outdoor weather caveats in more depth."
+      "answer": "Our own uplighting inventory is 6 wireless fixtures, the ADJ Element H6 Pack, realistically covering 2 to 4 venue features, an arch, a head table, or a run of columns, not a full room wash. Our dedicated stage uplighting guide covers the honest coverage math and outdoor weather caveats in more depth."
     },
     {
       "question": "Is Stage Lighting Included in the Wedding Pack, or a Separate Quote?",
@@ -1400,7 +1400,7 @@
     },
     {
       "question": "Do You Offer Moving Head or DMX Programmable Lighting for Weddings?",
-      "answer": "No. The same as for any other event we light, our fixtures are foot pedal or fixed position, not DMX pan and tilt robotic rigs. See our stage lighting rental page for the full list of what we don't stock."
+      "answer": "Not from our own inventory. The same as for any other event we light, our fixtures are foot pedal or fixed position, not DMX pan and tilt robotic rigs. See our stage lighting rental page for the full list of what we don't stock, and how we handle a request for it."
     },
     {
       "question": "Does a Finca, Villa Terrace, Marquee or Ballroom Change What You Recommend?",
