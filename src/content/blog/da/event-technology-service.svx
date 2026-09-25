@@ -1,9 +1,9 @@
 ---
 title: "Lys- og sceneteknik til events i Malaga, Spanien"
-description: "Lys- og sceneteknik i Malaga: rigtig eventbelysning, modulære scenepodier og en tekniker på stedet, plus et ærligt svar på, hvad vi ikke tilbyder."
-excerpt: "Hvad vores lys- og sceneteknik hos Malaga Event Gear omfatter: RGBW-belysning og specialbelysning til scenen, scenepodier i MICE Pack og et klart svar om den streaming, de videovægge og den interaktive teknik, vi ikke leverer."
+description: "Lys- og sceneteknik i Malaga: rigtig eventbelysning, modulære scenepodier og en tekniker på stedet, plus et ærligt svar på, hvad vi ikke har på lager."
+excerpt: "Hvad vores lys- og sceneteknik hos Malaga Event Gear omfatter: RGBW-belysning og specialbelysning til scenen, scenepodier i MICE Pack og et klart svar om den streaming, de videovægge og den interaktive teknik, vi ikke har på lager."
 publishDate: "2026-09-25"
-sourceUpdated: "2026-08-01"
+sourceUpdated: "2026-09-25"
 ---
 
 <script>
@@ -12,7 +12,7 @@ sourceUpdated: "2026-08-01"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Har du søgt efter lys- og sceneteknik til et event i Malaga? Her dækker det engelske begreb "event technology service" over meget, og ikke det hele hører til det, vi laver. Nogle produktionsselskaber i Malaga bruger "event technology" om livestreaming, videomapping, LED-vægge og interaktive touchskærme. Det er ikke det, Malaga Event Gear (MEG) tilbyder, og vi siger det hellere med det samme end at lade dig finde ud af det efter et opkald.
+Har du søgt efter lys- og sceneteknik til et event i Malaga? Her dækker det engelske begreb "event technology service" over meget, og ikke det hele dækkes af vores eget udstyr. Nogle produktionsselskaber i Malaga bruger "event technology" om livestreaming, videomapping, LED-vægge og interaktive touchskærme. Intet af det findes i Malaga Event Gears (MEG) eget udstyr, og vi siger det hellere med det samme end at lade dig finde ud af det efter et opkald.
 
 Det, vi tilbyder under samme navn, er det fysiske lag: RGBW-belysning og specialbelysning til events, modulære scenepodier tilpasset dit lokale og en tekniker på stedet, der betjener udstyret under dit event. Denne side samler det reelle udbud, bakket op af erfaring, der går tilbage til 1996, og slutter med en klar liste over, hvad der falder udenfor.
 
@@ -20,7 +20,7 @@ Det, vi tilbyder under samme navn, er det fysiske lag: RGBW-belysning og special
 
 ---
 
-Malaga Event Gear leverer den fysiske lys- og sceneteknik til firmaevents, konferencer og fester i Malaga og langs hele Costa del Sol: RGBW-belysning og specialbelysning til scenen, modulære scenepodier og dedikerede teknikere på stedet. Vi leverer ikke livestreaming, videomapping, LED-vægge, interaktive touchskærme eller software til eventstyring, kategorier som nogle lokale konkurrenter markedsfører under samme engelske navn, "event technology".
+Malaga Event Gear leverer den fysiske lys- og sceneteknik til firmaevents, konferencer og fester i Malaga og langs hele Costa del Sol: RGBW-belysning og specialbelysning til scenen, modulære scenepodier og dedikerede teknikere på stedet. Livestreaming, videomapping, LED-vægge, interaktive touchskærme og software til eventstyring, kategorier som nogle lokale konkurrenter markedsfører under samme engelske navn, "event technology", findes ikke på vores eget lager. Har en kunde brug for noget af det, kan vi undersøge, om en leverandør kan klare det, hvis der findes en.
 
 Denne side henviser til vores grundige guide om [udlejning af AV-udstyr](/blog/audiovisual-equipment-rental-service/) for de detaljerede specifikationer på belysningen, til vores guide om at [leje en AV-tekniker](/blog/av-technician-hire/) for teknikerens rolle på stedet og til vores grundige guide om [AV-udlejning](/blog/audio-visual-rental/) for hele pakkeudvalget. [Kontakt os](/contact/), så finder vi den rette pakke til dit event.
 
@@ -34,13 +34,13 @@ Denne side henviser til vores grundige guide om [udlejning af AV-udstyr](/blog/a
 
 -   En dedikeret tekniker på stedet, som indgår i flere af vores pakker: i vores guide om at [leje en AV-tekniker](/blog/av-technician-hire/) kan du se præcis hvilke og hvor mange timer.
 
--   En snæver og ærlig definition af "event technology", der udelukker livestreaming, videomapping, LED-vægge, interaktive touchskærme og software til eventstyring. Det hele gennemgås klart længere nede.
+-   En snæver og ærlig definition af "event technology" ud fra det, vi selv ejer. Livestreaming, videomapping, LED-vægge, interaktive touchskærme og software til eventstyring står klart længere nede blandt det, vi ikke har på lager.
 
 ## Hvorfor "event technology" betyder noget andet her
 
 Søg på "event technology service Malaga", og du får en blanding af lokale AV- og produktionsselskaber, ikke de softwareplatforme, som det samme begreb giver internationalt. Nogle af de lokale konkurrenter tilbyder streaming, videomapping og interaktive touchskærme som selvstændige ydelser. Vi har set på, hvad en generel søgning på begrebet giver lokalt, og i stedet for at strække vores katalog for at matche det, peger vi direkte på forskellen.
 
-MEG's version af "event technology" er fysisk, ikke digital: lysriggen, scenepodiet og teknikeren ved siden af mixerpulten. Hvis du forestiller dig en hybrid transmission, en facade med projection mapping eller en eventapp med check ind via RFID, er du på den forkerte side, og det siger vi hellere nu end efter, at du har beskrevet dit event for os i telefonen. Hvis du forestiller dig en oplyst scene med en tekniker, der kører showet, så læs videre.
+MEG's version af "event technology" er fysisk, ikke digital: lysriggen, scenepodiet og teknikeren ved siden af mixerpulten. Hvis du forestiller dig en hybrid transmission, en facade med projection mapping eller en eventapp med check ind via RFID, findes intet af det på vores eget lager, og det siger vi hellere nu end efter, at du har beskrevet dit event for os i telefonen. Afsnittet [Det har vi ikke på lager](#det-har-vi-ikke-på-lager) længere nede gennemgår det punkt for punkt. Hvis du forestiller dig en oplyst scene med en tekniker, der kører showet, så læs videre.
 
 <InlineCTA />
 
@@ -64,25 +64,27 @@ Netop det satte vi op til et todages firmaprojekt med [Bmotion i Marbella](/blog
 
 De modulære scenepodier fra Bmotions projekt i Marbella, sammen med de svanehals- og trådløse mikrofonsystemer, der kørte fra det samme podie.
 
-Vi udlejer ikke truss som en selvstændig vare, og vi leverer ikke draperisystemer, stativer til bagtæpper eller teatralsk scenografi. Hvis du havde forestillet dig en temascene eller en trussrig, så se [Det tilbyder vi ikke](#det-tilbyder-vi-ikke) længere nede, og for en samlet gennemgang af scenen sammen med vores belysning og skærme, se [Modulære scener til firmaevents](/blog/audiovisual-equipment-rental-service/#modular-staging-for-corporate-events) i vores grundige guide om udlejning af AV-udstyr.
+Truss, draperisystemer, stativer til bagtæpper og teatralsk scenografi findes ikke på vores eget lager. Vores eget team rigger eller hænger heller ikke udstyr op over hovedhøjde, så en trussrig eller noget, der skal hænge over en scene, ville være en opgave for en specialiseret leverandør. Hvordan vi håndterer sådan en forespørgsel, står i [Det har vi ikke på lager](#det-har-vi-ikke-på-lager) længere nede. For en samlet gennemgang af scenen sammen med vores belysning og skærme, se [Modulære scener til firmaevents](/blog/audiovisual-equipment-rental-service/#modular-staging-for-corporate-events) i vores grundige guide om udlejning af AV-udstyr.
 
 ## Teknisk support på stedet
 
 En tekniker indgår i flere af MEG's pakker og styrer lyd, lys og skærm under hele dit event, i stedet for at I selv skal betjene et helt rack med udstyr. Vi gennemgår ikke dækningen igen her: vores guide om at [leje en AV-tekniker](/blog/av-technician-hire/) forklarer præcis, hvilke pakker der har en tekniker, hvor mange timer hver pakke dækker, og hvad rollen omfatter og ikke omfatter på stedet.
 
-## Det tilbyder vi ikke
+## Det har vi ikke på lager
 
-En generel søgning på "event technology" i Malaga viser ydelser fra lokale produktionsselskaber, som ikke er en del af vores katalog. Her er den ærlige liste, og hvert punkt står allerede på en af vores offentliggjorte sider:
+En generel søgning på "event technology" i Malaga viser ydelser fra lokale produktionsselskaber, som ikke findes på vores eget lager. Her er den ærlige liste:
 
--   **Livestreaming eller streaming af hybride events.** Vores guide om [AV-udlejning til virtuelle events](/blog/audio-visual-rental-for-virtual-events/) siger det direkte: "Vi leverer ikke kameraer, streamingenkodere eller en optageservice." Du medbringer din egen bærbare computer, dit konferenceprogram og din internetforbindelse.
+-   **Livestreaming eller streaming af hybride events.** Kameraer, streamingenkodere og en optageservice er ikke en del af vores eget udstyr. Du medbringer din egen bærbare computer, dit konferenceprogram og din internetforbindelse. Vores guide om [AV-udlejning til virtuelle events](/blog/audio-visual-rental-for-virtual-events/) har flere detaljer.
 
 -   **Videomapping, LED-vægge eller videovægge.** Vores grundige guide om [udlejning af AV-udstyr](/blog/audiovisual-equipment-rental-service/) er tydelig: vores storskærm er én flad skærm på 60 tommer, ikke en modulær videovæg af paneler, og vores projektoropsætninger omfatter ikke facadeprojektion eller mapping udendørs.
 
--   **Interaktive touchskærme eller kiosker.** Vores guide om [AV-udlejning til religiøse arrangementer](/blog/audio-visual-rental-for-religious-events/) udelukker dem af samme grund, som den udelukker en LED-videovæg: de er ikke en del af vores katalog.
+-   **Interaktive touchskærme eller kiosker.** De findes ikke på vores eget lager. Hvad vi stiller op til en ceremoni eller gudstjeneste, står i vores guide om [AV-udlejning til religiøse arrangementer](/blog/audio-visual-rental-for-religious-events/).
 
--   **Tolkning, udstyr til simultantolkning, publikumsrespons eller interaktive afstemningssystemer.** Det udstyr har vi ikke selv, men vi arrangerer det gennem en underleverandør til firmaevents og kongresser: [kontakt os](/contact/) med dine behov. Se vores grundige guide om [udlejning af AV-udstyr](/blog/audiovisual-equipment-rental-service/#what-we-dont-offer) for samme bemærkning.
+-   **Tolkning, udstyr til simultantolkning, publikumsrespons eller interaktive afstemningssystemer.** Det udstyr har vi ikke selv, men vi arrangerer det gennem en underleverandør til firmaevents og kongresser: [kontakt os](/contact/) med dine behov. Se vores grundige guide om [udlejning af AV-udstyr](/blog/audiovisual-equipment-rental-service/#what-we-dont-stock) for samme bemærkning.
 
--   **Eventapps, RFID-sporing eller billetteknologi.** Det ligger uden for vores katalog, og det er en reel grænse for vores udbud snarere end et hul i det lokale marked: de udbydere af "event technology", som vi undersøgte til denne side, er også fysiske AV- og produktionsselskaber, ikke platforme til tilmelding eller billetsalg.
+-   **Eventapps, RFID-sporing eller billetteknologi.** Det findes ikke på vores eget lager, og det er ikke noget, vores eget team står for. De udbydere af "event technology", som vi undersøgte til denne side, er også fysiske AV- og produktionsselskaber, ikke platforme til tilmelding eller billetsalg.
+
+Tolkning og afstemning går allerede gennem en partner. For resten af listen, og for den truss eller scenografi, der er nævnt under [Scenedesign og sceneopbygning](#scenedesign-og-sceneopbygning), så beskriv, hvad du har i tankerne, og vi kan undersøge, om en leverandør kan klare det, hvis der findes en. Alt, der skal hænge over hovedhøjde, ville den specialiserede leverandør rigge, aldrig vores eget team.
 
 ## Rigtige lys- og sceneopsætninger, vi har leveret
 
@@ -98,13 +100,13 @@ Book, så snart datoen for dit event er bekræftet. Efterspørgslen på Costa de
 
 ## Konklusion
 
-"Event technology" hos Malaga Event Gear er et fysisk lag, ikke et digitalt: RGBW-belysning og specialbelysning til scenen, modulære scenepodier og en tekniker på stedet, der styrer det hele. Det omfatter ikke streaming, videomapping, LED-vægge, interaktive touchskærme eller software til eventstyring, uanset hvad en generel søgning på det engelske begreb viser lokalt. [Kontakt os](/contact/), så finder vi den rette pakke til dit event. Hele pakkeudvalget finder du i vores grundige guide om [AV-udlejning](/blog/audio-visual-rental/), og det specialiserede udstyr i vores grundige guide om [udlejning af AV-udstyr](/blog/audiovisual-equipment-rental-service/).
+"Event technology" hos Malaga Event Gear er et fysisk lag, ikke et digitalt: RGBW-belysning og specialbelysning til scenen, modulære scenepodier og en tekniker på stedet, der styrer det hele. Streaming, videomapping, LED-vægge, interaktive touchskærme og software til eventstyring findes ikke på vores eget lager, uanset hvad en generel søgning på det engelske begreb viser lokalt. Afsnittet [Det har vi ikke på lager](#det-har-vi-ikke-på-lager) ovenfor gennemgår hver enkelt. [Kontakt os](/contact/), så finder vi den rette pakke til dit event. Hele pakkeudvalget finder du i vores grundige guide om [AV-udlejning](/blog/audio-visual-rental/), og det specialiserede udstyr i vores grundige guide om [udlejning af AV-udstyr](/blog/audiovisual-equipment-rental-service/).
 
 ## Ofte stillede spørgsmål
 
 ### Hvad er "event technology", og hvad leverer MEG egentlig?
 
-Hos Malaga Event Gear betyder "event technology" det fysiske lag af et event: RGBW-belysning og specialbelysning til scenen, modulære scenepodier og en tekniker på stedet. Det betyder ikke streaming, videomapping eller interaktiv software, som nogle lokale konkurrenter markedsfører under samme navn. Se [Hvorfor "event technology" betyder noget andet her](#hvorfor-event-technology-betyder-noget-andet-her) ovenfor.
+Hos Malaga Event Gear betyder "event technology" det fysiske lag af et event: RGBW-belysning og specialbelysning til scenen, modulære scenepodier og en tekniker på stedet. Streaming, videomapping og interaktiv software, som nogle lokale konkurrenter markedsfører under samme navn, findes ikke på vores eget lager. Se [Hvorfor "event technology" betyder noget andet her](#hvorfor-event-technology-betyder-noget-andet-her) ovenfor.
 
 ### Er "event technology" det samme som udlejning af AV-udstyr?
 
@@ -116,7 +118,7 @@ Ja. RGBW-LED-spots i [Eco Pack](/packages/eco/), plus en kompakt LED-lysbjælke 
 
 ### Hvad er scenedesign og sceneopbygning, og tilbyder I det?
 
-Vi tilbyder modulære scenepodier i [MICE Pack](/packages/mice/) til 35 € pr. kvadratmeter, tilpasset dit lokale. Vi tilbyder ikke teatralsk scenografi, trussrigge eller draperisystemer. Se [Scenedesign og sceneopbygning](#scenedesign-og-sceneopbygning) ovenfor.
+Vi tilbyder modulære scenepodier i [MICE Pack](/packages/mice/) til 35 € pr. kvadratmeter, tilpasset dit lokale. Teatralsk scenografi, trussrigge og draperisystemer findes ikke på vores eget lager, og vores eget team rigger eller hænger ikke udstyr op over hovedhøjde: en trussrig ville være en opgave for en specialiseret leverandør. Se [Scenedesign og sceneopbygning](#scenedesign-og-sceneopbygning) ovenfor.
 
 ### Tilbyder I teknisk support på stedet?
 
@@ -124,19 +126,19 @@ Ja, i flere pakker. Vores guide om at [leje en AV-tekniker](/blog/av-technician-
 
 ### Tilbyder I livestreaming eller eventteknik til hybride eller virtuelle events?
 
-Nej. Vores guide om [AV-udlejning til virtuelle events](/blog/audio-visual-rental-for-virtual-events/) siger det direkte: vi leverer ikke kameraer, streamingenkodere eller en optageservice. Du medbringer din egen bærbare computer, dit konferenceprogram og din internetforbindelse, og vi leverer lyd og skærm til lokalet.
+Ikke med vores eget udstyr. Kameraer, streamingenkodere og en optageservice findes ikke på vores eget lager. Du medbringer din egen bærbare computer, dit konferenceprogram og din internetforbindelse, og vi leverer lyd og skærm til lokalet. Flere detaljer står i vores guide om [AV-udlejning til virtuelle events](/blog/audio-visual-rental-for-virtual-events/), og om streamingen, se [Det har vi ikke på lager](#det-har-vi-ikke-på-lager) ovenfor.
 
 ### Tilbyder I videomapping, LED-vægge eller videovægge?
 
-Nej. Vores storskærm er én flad skærm på 60 tommer, ikke en modulær videovæg af paneler, og vores projektoropsætninger omfatter ikke facadeprojektion eller mapping udendørs. Se [Det tilbyder vi ikke](#det-tilbyder-vi-ikke) ovenfor.
+Ikke fra vores eget lager. Vores storskærm er én flad skærm på 60 tommer, ikke en modulær videovæg af paneler, og vores projektoropsætninger omfatter ikke facadeprojektion eller mapping udendørs. Se [Det har vi ikke på lager](#det-har-vi-ikke-på-lager) ovenfor.
 
 ### Tilbyder I interaktive touchskærme, kiosker eller teknik til publikumsrespons?
 
-Touchskærme og kiosker, nej: vores guide om [AV-udlejning til religiøse arrangementer](/blog/audio-visual-rental-for-religious-events/) udelukker dem af samme grund, som den udelukker en videovæg. Publikumsrespons eller interaktive afstemningssystemer, ja, som en arrangeret ydelse: vi har ikke selv hardwaren, så vi henter en underleverandør ind til firmaevents og kongresser.
+Touchskærme og kiosker findes ikke på vores eget lager, ligesom en videovæg. Publikumsrespons eller interaktive afstemningssystemer, ja, som en arrangeret ydelse: vi har ikke selv hardwaren, så vi henter en underleverandør ind til firmaevents og kongresser. Se [Det har vi ikke på lager](#det-har-vi-ikke-på-lager) ovenfor.
 
 ### Tilbyder I eventapps, RFID-sporing eller billetteknologi?
 
-Nej. Det er en grænse for vores udbud, ikke et hul, vi skjuler. Det ligger også uden for det, som de lokale udbydere af "event technology", vi så på til denne side, faktisk sælger, da de er fysiske AV- og produktionsselskaber, ikke platforme til tilmelding eller billetsalg.
+Ikke selv: eventapps, RFID-sporing og billetteknologi findes ikke på vores eget lager, og det skjuler vi ikke. Det ligger også uden for det, som de lokale udbydere af "event technology", vi så på til denne side, faktisk sælger, da de er fysiske AV- og produktionsselskaber, ikke platforme til tilmelding eller billetsalg. Se [Det har vi ikke på lager](#det-har-vi-ikke-på-lager) ovenfor.
 
 ### Hvor lang tid i forvejen skal jeg booke eventteknik til mit event?
 

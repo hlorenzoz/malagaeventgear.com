@@ -1,11 +1,11 @@
 ---
 title: "Event Technology Service in Malaga, Spain"
-description: "Event technology service in Malaga: real event lighting, modular stage platforms, and an on site technician on hand, plus what we honestly don't offer."
+description: "Event technology service in Malaga: real event lighting, modular stage platforms, and an on site technician on hand, plus what we honestly don't stock."
 author: Hector Luis Lorenzo
 slug: event-technology-service
 publishDate: "2026-07-31"
-updatedDate: "2026-08-01"
-excerpt: "What 'event technology' means at Malaga Event Gear: RGBW and specialty stage lighting, MICE Pack stage platforms, and a straight answer on the streaming, video wall and interactive tech we don't provide."
+updatedDate: "2026-09-25"
+excerpt: "What 'event technology' means at Malaga Event Gear: RGBW and specialty stage lighting, MICE Pack stage platforms, and a straight answer on the streaming, video wall and interactive tech we don't stock."
 coverImage: https://cdn.malagaeventgear.com/blog/1296/malaga_event_lighting_sound_system_rental-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Searched for an event technology service in Malaga? Locally that phrase covers a lot of ground, and not all of it is ground we stand on. Some Malaga production companies use "event technology" to mean live streaming, video mapping, LED walls and interactive touchscreens. That is not what Malaga Event Gear (MEG) offers, and we would rather tell you that up front than let you find out after a call.
+Searched for an event technology service in Malaga? Locally that phrase covers a lot of ground, and not all of it is ground we cover with our own equipment. Some Malaga production companies use "event technology" to mean live streaming, video mapping, LED walls and interactive touchscreens. Malaga Event Gear (MEG) does not own any of that, and we would rather tell you that up front than let you find out after a call.
 
 What we do offer, under this same name, is the physical layer: RGBW and specialty event lighting, modular stage platforms sized to your room, and an on site technician who runs the equipment during your event. This page indexes that real layer, backed by experience going back to 1996, and closes with a direct list of what falls outside it.
 
@@ -29,7 +29,7 @@ What we do offer, under this same name, is the physical layer: RGBW and specialt
 
 ---
 
-Malaga Event Gear supplies the physical event technology layer for corporate events, conferences and celebrations across Malaga and the wider Costa del Sol: RGBW and specialty stage lighting, modular stage platforms, and dedicated on site technicians. It does not supply live streaming, video mapping, LED walls, interactive touchscreens or event management software, categories some local competitors market under the same "event technology" name.
+Malaga Event Gear supplies the physical event technology layer for corporate events, conferences and celebrations across Malaga and the wider Costa del Sol: RGBW and specialty stage lighting, modular stage platforms, and dedicated on site technicians. Live streaming, video mapping, LED walls, interactive touchscreens and event management software, categories some local competitors market under the same "event technology" name, are not in its own inventory. If a client needs one of them, MEG can check whether a supplier can cover it, if there is one.
 
 This page cross links to our [audiovisual equipment rental service](/blog/audiovisual-equipment-rental-service/) pillar for the deeper lighting specs, our [AV technician hire](/blog/av-technician-hire/) guide for the on site technician role, and our [audio visual rental](/blog/audio-visual-rental/) pillar for the full package range. [Contact us](/contact/) to match a package to your event.
 
@@ -43,13 +43,13 @@ This page cross links to our [audiovisual equipment rental service](/blog/audiov
 
 -   A dedicated on site technician included on several of our packages: see our [AV technician hire](/blog/av-technician-hire/) guide for exactly which ones and how many hours.
 
--   A narrow, honest definition of "event technology" that excludes live streaming, video mapping, LED walls, interactive touchscreens and event management software, all covered plainly further down.
+-   A narrow, honest definition of "event technology" based on what we own, with live streaming, video mapping, LED walls, interactive touchscreens and event management software listed plainly further down as things we don't stock.
 
 ## Why "Event Technology" Means Something Different Here
 
 Search "event technology service Malaga" and the results are a mix of local AV and production companies, not the software platforms the same phrase turns up internationally. Some of those local competitors run streaming, video mapping and interactive touchscreens as service lines. We looked at what a general search for that term turns up locally, and rather than stretch our catalog to match it, we are naming the gap directly.
 
-MEG's version of event technology is physical, not digital: the lighting rig, the stage platform, and the technician standing next to the mixing console. If you are picturing a hybrid broadcast, a projection mapped facade, or an event app with RFID check in, this is the wrong page, and we would rather say so now than after you have described your event to us on the phone. If you are picturing a lit stage with a technician running the show, keep reading.
+MEG's version of event technology is physical, not digital: the lighting rig, the stage platform, and the technician standing next to the mixing console. If you are picturing a hybrid broadcast, a projection mapped facade, or an event app with RFID check in, none of that is in our own inventory, and we would rather say so now than after you have described your event to us on the phone. [What We Don't Stock](#what-we-dont-stock) below lists it item by item. If you are picturing a lit stage with a technician running the show, keep reading.
 
 <InlineCTA />
 
@@ -73,25 +73,27 @@ We deployed exactly this for a two day corporate project with [Bmotion in Marbel
 
 The modular staging deployed for the Bmotion Marbella project, alongside the gooseneck and wireless microphone systems that ran from the same platform.
 
-We do not stock truss as a separate rental item, and we do not supply pipe and drape, backdrop hardware or scenic theatrical staging. If what you pictured was a themed stage set or a truss rig, see [What We Don't Offer](#what-we-dont-offer) below, and for the fuller staging breakdown alongside our lighting and screen inventory, see [Modular Staging for Corporate Events](/blog/audiovisual-equipment-rental-service/#modular-staging-for-corporate-events) on our audiovisual equipment rental service pillar.
+Truss, pipe and drape, backdrop hardware and scenic theatrical staging are not in our own inventory. Our own crew also does not rig or hang equipment overhead, so a truss rig or anything flown above a stage would be work for a specialized supplier. See [What We Don't Stock](#what-we-dont-stock) below for how we handle a request like that. For the fuller staging breakdown alongside our lighting and screen inventory, see [Modular Staging for Corporate Events](/blog/audiovisual-equipment-rental-service/#modular-staging-for-corporate-events) on our audiovisual equipment rental service pillar.
 
 ## On Site Technical Support
 
 A technician is part of several MEG packages, running the sound, lighting and screen for the duration of your event rather than leaving you to operate a rack of gear yourselves. We are not re answering the coverage details here: our [AV technician hire](/blog/av-technician-hire/) guide covers exactly which packages include a technician, how many hours each one covers, and what the role does and does not include on site.
 
-## What We Don't Offer
+## What We Don't Stock
 
-A general search for event technology in Malaga turns up services from local production companies that are not part of our catalog. Here is the honest list, each claim already stated on a live page of ours:
+A general search for event technology in Malaga turns up services from local production companies that are not part of our own inventory. Here is the honest list:
 
--   **Live streaming or hybrid event streaming.** Our [audio visual rental for virtual events](/blog/audio-visual-rental-for-virtual-events/) guide states this directly: "We do not supply cameras, streaming encoders, or a recording service." You bring your own laptop, your conferencing software and your internet connection.
+-   **Live streaming or hybrid event streaming.** Cameras, streaming encoders and a recording service are not part of our own equipment. You bring your own laptop, your conferencing software and your internet connection. Our [audio visual rental for virtual events](/blog/audio-visual-rental-for-virtual-events/) guide has more detail.
 
 -   **Video mapping, LED walls or video walls.** Our [audiovisual equipment rental service](/blog/audiovisual-equipment-rental-service/) pillar is explicit: our large format display is a single 60 inch flat panel, not a modular tiled video wall, and our projector setups don't include facade projection or outdoor mapping.
 
--   **Interactive touchscreens or kiosks.** Our [audio visual rental for religious events](/blog/audio-visual-rental-for-religious-events/) guide rules this out on the same grounds it rules out an LED video wall: not part of our catalog.
+-   **Interactive touchscreens or kiosks.** Not part of our own inventory. For what we do set up at a ceremony or service, see our [audio visual rental for religious events](/blog/audio-visual-rental-for-religious-events/) guide.
 
--   **Interpretation, translation equipment or audience response/voting systems.** We do not stock this equipment ourselves, but we arrange it through a subcontracted partner for corporate and congress grade events: [contact us](/contact/) with your requirements. See our [audiovisual equipment rental service](/blog/audiovisual-equipment-rental-service/#what-we-dont-offer) pillar for the same note.
+-   **Interpretation, translation equipment or audience response/voting systems.** We do not stock this equipment ourselves, but we arrange it through a subcontracted partner for corporate and congress grade events: [contact us](/contact/) with your requirements. See our [audiovisual equipment rental service](/blog/audiovisual-equipment-rental-service/#what-we-dont-stock) pillar for the same note.
 
--   **Event apps, RFID tracking or ticketing technology.** This sits outside our catalog, and it is a genuine scope boundary rather than a gap in the local market: the event technology competitors we researched for this page are physical AV and production companies too, not registration or ticketing platforms.
+-   **Event apps, RFID tracking or ticketing technology.** Not in our own inventory, and not something our own crew runs. The event technology competitors we researched for this page are physical AV and production companies too, not registration or ticketing platforms.
+
+Interpretation and voting already run through a partner. For the rest of this list, and for the truss or scenic staging mentioned under [Stage Design and Setup](#stage-design-and-setup), describe what you have in mind and we can check whether a supplier can cover it, if there is one. Anything that has to hang overhead would be rigged by that specialized supplier, never by our own crew.
 
 ## Real Event Technology Setups We've Delivered
 
@@ -107,13 +109,13 @@ Book as soon as your event date is confirmed. Demand on the Costa del Sol peaks 
 
 ## Conclusion
 
-Event technology at Malaga Event Gear is a physical layer, not a digital one: RGBW and specialty stage lighting, modular stage platforms, and an on site technician running it all. It does not include streaming, video mapping, LED walls, interactive touchscreens or event management software, whatever a general search for the term might turn up locally. [Contact us](/contact/) to match a package to your event. For the full package range, see our [audio visual rental](/blog/audio-visual-rental/) pillar, and for the specialized equipment layer, see our [audiovisual equipment rental service](/blog/audiovisual-equipment-rental-service/) pillar.
+Event technology at Malaga Event Gear is a physical layer, not a digital one: RGBW and specialty stage lighting, modular stage platforms, and an on site technician running it all. Streaming, video mapping, LED walls, interactive touchscreens and event management software are not part of our own inventory, whatever a general search for the term might turn up locally. [What We Don't Stock](#what-we-dont-stock) above covers each of them. [Contact us](/contact/) to match a package to your event. For the full package range, see our [audio visual rental](/blog/audio-visual-rental/) pillar, and for the specialized equipment layer, see our [audiovisual equipment rental service](/blog/audiovisual-equipment-rental-service/) pillar.
 
 ## FAQs
 
 ### What Is "Event Technology" and What Does MEG Actually Provide?
 
-At Malaga Event Gear, event technology means the physical layer of an event: RGBW and specialty stage lighting, modular stage platforms, and an on site technician. It does not mean streaming, video mapping or interactive software, which some local competitors market under the same name. See [Why "Event Technology" Means Something Different Here](#why-event-technology-means-something-different-here) above.
+At Malaga Event Gear, event technology means the physical layer of an event: RGBW and specialty stage lighting, modular stage platforms, and an on site technician. Streaming, video mapping and interactive software, which some local competitors market under the same name, are not in our own inventory. See [Why "Event Technology" Means Something Different Here](#why-event-technology-means-something-different-here) above.
 
 ### Is Event Technology the Same as Audiovisual Equipment Rental?
 
@@ -125,7 +127,7 @@ Yes. RGBW LED spotlights on the [Eco Pack](/packages/eco/), plus a compact multi
 
 ### What Is Stage Design and Setup, and Do You Offer It?
 
-We offer modular stage platforms on the [MICE Pack](/packages/mice/) at 35 euros per square meter, sized to your room. We do not offer scenic theatrical stage design, truss rigs, or pipe and drape. See [Stage Design and Setup](#stage-design-and-setup) above.
+We offer modular stage platforms on the [MICE Pack](/packages/mice/) at 35 euros per square meter, sized to your room. Scenic theatrical stage design, truss rigs and pipe and drape are not in our own inventory, and our own crew does not rig or hang equipment overhead: a truss rig would be work for a specialized supplier. See [Stage Design and Setup](#stage-design-and-setup) above.
 
 ### Do You Provide On Site Technical Support?
 
@@ -133,19 +135,19 @@ Yes, on several packages. Our [AV technician hire](/blog/av-technician-hire/) gu
 
 ### Do You Offer Live Streaming or Event Technology for Hybrid or Virtual Events?
 
-No. Our [audio visual rental for virtual events](/blog/audio-visual-rental-for-virtual-events/) guide states it directly: we do not supply cameras, streaming encoders, or a recording service. You bring your own laptop, conferencing software and internet connection, and we supply the room's sound and screen.
+Not with our own equipment. Cameras, streaming encoders and a recording service are not in our own inventory. You bring your own laptop, conferencing software and internet connection, and we supply the room's sound and screen. See our [audio visual rental for virtual events](/blog/audio-visual-rental-for-virtual-events/) guide for more detail, and [What We Don't Stock](#what-we-dont-stock) above for the streaming side.
 
 ### Do You Provide Video Mapping or LED and Video Walls?
 
-No. Our large format display is a single 60 inch flat panel, not a modular tiled video wall, and our projector setups do not include facade projection or outdoor mapping. See [What We Don't Offer](#what-we-dont-offer) above.
+Not from our own inventory. Our large format display is a single 60 inch flat panel, not a modular tiled video wall, and our projector setups do not include facade projection or outdoor mapping. See [What We Don't Stock](#what-we-dont-stock) above.
 
 ### Do You Offer Interactive Touchscreens, Kiosks or Audience Response Technology?
 
-Touchscreens and kiosks, no: our [audio visual rental for religious events](/blog/audio-visual-rental-for-religious-events/) guide rules those out on the same grounds it rules out a video wall. Audience response or voting systems, yes as an arranged service: we don't stock the hardware ourselves, so we bring in a subcontracted partner for corporate and congress grade events.
+Touchscreens and kiosks are not in our own inventory, the same as a video wall. Audience response or voting systems, yes as an arranged service: we don't stock the hardware ourselves, so we bring in a subcontracted partner for corporate and congress grade events. See [What We Don't Stock](#what-we-dont-stock) above.
 
 ### Do You Provide Event Apps, RFID Tracking or Ticketing Technology?
 
-No. This is a scope boundary, not a gap we are hiding. It also sits outside what the local event technology competitors we looked at for this page actually sell, since they are physical AV and production companies rather than registration or ticketing platforms.
+Not ourselves: event apps, RFID tracking and ticketing are not in our own inventory, and we are not hiding that. They also sit outside what the local event technology competitors we looked at for this page actually sell, since they are physical AV and production companies rather than registration or ticketing platforms. See [What We Don't Stock](#what-we-dont-stock) above.
 
 ### How Far in Advance Should I Book Event Technology for My Event?
 
