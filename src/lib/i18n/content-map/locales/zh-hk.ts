@@ -49,6 +49,11 @@ export default {
 			slug: '頭戴式領夾式咪高峰租借',
 			keyword: '馬拉加 頭戴式及領夾式咪高峰租借',
 			status: 'propuesta'
+		},
+		'stage-lighting-rental': {
+			slug: '舞台燈光租借',
+			keyword: '馬拉加 舞台燈光租借',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

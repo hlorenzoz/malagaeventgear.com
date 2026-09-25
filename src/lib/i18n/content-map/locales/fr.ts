@@ -61,6 +61,11 @@ export default {
 			slug: 'location-micro-cravate-serre-tete',
 			keyword: 'location micro cravate et serre-tête à Malaga',
 			status: 'propuesta'
+		},
+		'stage-lighting-rental': {
+			slug: 'location-eclairage-scenique',
+			keyword: "location d'éclairage scénique à Malaga",
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

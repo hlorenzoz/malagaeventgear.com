@@ -57,6 +57,11 @@ export default {
 			slug: 'noleggio-microfoni-lavalier-archetto',
 			keyword: 'noleggio microfoni lavalier e ad archetto a Malaga',
 			status: 'propuesta'
+		},
+		'stage-lighting-rental': {
+			slug: 'noleggio-luci-da-palco',
+			keyword: 'noleggio luci da palco a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -1,0 +1,201 @@
+---
+title: "Aluguer de iluminação de palco em Málaga, Espanha"
+description: "Aluguer de iluminação de palco em Málaga: os focos reais Eurolite, ADJ e do Eco Pack da Malaga Event Gear, preços de pacote honestos e o que não oferecemos."
+excerpt: "A verdadeira camada de iluminação de palco do nosso catálogo: focos Eurolite e ADJ indicados por marca e modelo, barras RGBW e luzes de fada incluídas nos pacotes, entrega e recolha explicadas e uma lista honesta do que não temos em stock."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Pesquise "stage lighting rental" em inglês e a maioria dos resultados cai nas mesmas categorias vagas: cabeças móveis, instalações laser, projetores de gobos, uma linha genérica de "soluções de iluminação LED". Nada disso é indicado por marca ou modelo, e parte descreve equipamento que não existe no armazém de todos os fornecedores, incluindo o nosso. Esta página faz o contrário. Cada foco de iluminação de palco real que a Malaga Event Gear (MEG) possui está indicado abaixo, por marca e modelo, com um preço real em euros quando existe, ao lado de uma lista direta do que não temos em stock.
+
+A MEG possui e entrega pessoalmente cada foco desta página, testado antes de cada evento, em Málaga e em toda a Costa del Sol, com uma experiência que remonta a 1996. Nada aqui é uma lista de desejos. Cada artigo é equipamento real com preço publicado ou um honesto "orçamento sob pedido".
+
+## Resumo
+
+---
+
+A Malaga Event Gear fornece iluminação de palco para eventos corporativos, casamentos e celebrações em Málaga e em toda a Costa del Sol: 2 barras de luz Eurolite LED KLS-200, 1 foco Fresnel ADJ Encore FRI50Z para luz geral, 1 kit de uplighting sem fios ADJ Element H6 Pack, 2 barras de focos LED RGBW incluídas no [Eco Pack](/packages/eco/) e luzes de fada incluídas no [Wedding Pack](/packages/wedding/). A entrega, a montagem, os testes e a recolha fazem parte de cada aluguer e ficam a cargo da nossa própria equipa, em vez de serem enviados como um kit para montar sozinho. [Contacte-nos](/contact/) para escolher o foco ou o pacote certo para o seu evento.
+
+## Pontos principais
+
+---
+
+-   Todo o nosso material de iluminação num só lugar: 2x barras Eurolite LED KLS-200, 1x Fresnel ADJ Encore FRI50Z, 1x ADJ Element H6 Pack (6 focos de uplighting sem fios), mais as barras RGBW do [Eco Pack](/packages/eco/) e as luzes de fada do [Wedding Pack](/packages/wedding/).
+
+-   Um esclarecimento honesto sobre o controlo: a barra Eurolite funciona com um pedal, não com uma mesa DMX. Não temos em stock controlo de iluminação DMX, cabeças móveis nem sistemas automatizados programáveis.
+
+-   A entrega, a montagem, os testes e a recolha estão incluídos em cada aluguer. Não existe uma linha separada de "instalação", é simplesmente a forma como entregamos.
+
+-   Preços reais de pacote onde existem: focos RGBW incluídos no Eco Pack por 290 € sem IVA, luzes de fada incluídas no Wedding Pack por 650 € sem IVA, com técnico incluído.
+
+-   Uma lista direta "O que não temos em stock" mais abaixo: sem cabeças móveis, sem mesas DMX, sem truss, sem espetáculos laser, sem faíscas frias, sem estroboscópios, sem projeção de gobos.
+
+## Todo o nosso material de iluminação de palco: cada foco real, por marca e modelo
+
+Cinco produtos reais compõem o inventário de iluminação de palco da MEG, e esta é a única página do nosso site que reúne os cinco num só lugar.
+
+**2x Eurolite LED KLS-200.** Uma barra de luz LED de 4 cabeças com controlo por pedal, usada para iluminação de destaque e geral em palcos corporativos maiores e montagens especiais. Temos 2 unidades. Não está incluída em nenhum dos nossos 5 pacotes, por isso [contacte-nos](/contact/) com o local e o número de convidados e confirmaremos a disponibilidade e um orçamento.
+
+**1x ADJ Encore FRI50Z.** Um foco Fresnel fixo com zoom para luz geral, o tipo de feixe estável e ajustável usado para iluminar de forma uniforme um orador, um púlpito ou um elemento do palco, em vez de criar um efeito de mudança de cor. Também é um artigo à parte, com orçamento sob pedido.
+
+**1x ADJ Element H6 Pack.** Um kit de uplighting sem fios a bateria com 6 focos, para banhar de cor uma parede, um fundo ou uma estrutura a partir do chão, em vez de iluminar um ponto fixo. Realisticamente, 6 focos cobrem a iluminação de destaque de 2 a 4 elementos de um espaço, uma entrada, uma mesa de honra, uma fila de colunas ou uma parede, e não a iluminação de uma sala inteira. É um artigo separado dos focos coloridos RGBW do Eco Pack apresentados mais abaixo, com orçamento próprio.
+
+**2 barras de luz LED RGBW, [Eco Pack](/packages/eco/).** Uma luz de destaque com mudança de cor, entregue e montada pela nossa equipa como parte do pacote e que depois funciona sem técnico durante o resto do evento. Preço publicado de 290 € sem IVA para até 50 convidados.
+
+**Luzes de fada / cordões LED de luz quente, [Wedding Pack](/packages/wedding/).** Cordões LED de luz quente para uma iluminação ambiente romântica, incluídos por 650 € sem IVA para até 80 convidados, com um técnico que fica no local durante o evento.
+
+<InlineCTA />
+
+## Controlo por pedal, não DMX: o que "programável" significa realmente aqui
+
+Uma pesquisa genérica por "stage lighting rental" sugere muitas vezes focos DMX programáveis, cabeças móveis que rodam e inclinam à deixa, ou uma mesa de luz que um técnico opera a partir de um guião. Não é isso que a MEG tem em stock, e preferimos corrigir essa expectativa aqui do que deixá-lo descobrir no dia do evento.
+
+A barra Eurolite LED KLS-200 é controlada por um pedal, um interruptor simples em palco que um artista ou técnico pressiona para mudar a cor ou o padrão do foco, e não por um sinal DMX enviado de uma mesa de luz. O Fresnel ADJ Encore FRI50Z é um foco fixo com zoom para luz geral, sem qualquer movimento automatizado. O kit de uplighting ADJ Element H6 Pack também não tem controlo de cor por DMX ou por aplicação publicado: o nosso técnico define a cor para o seu evento no local, com base no que nos diz ao reservar, em vez de lhe entregar um comando ou uma aplicação. Nenhum dos nossos 3 focos especiais roda, inclina ou segue uma sequência programada. Se o seu evento precisa mesmo de iluminação automatizada e controlada por DMX, preferimos dizê-lo agora, antes da reserva, do que depois.
+
+## Entrega, montagem, testes e recolha: o que entendemos por "instalação de iluminação de palco"
+
+Algumas pesquisas por "stage lighting rental" querem saber, na verdade, sobre a instalação: se um fornecedor se limita a deixar caixas ou se monta realmente o equipamento. Na MEG, a instalação não é um serviço à parte com orçamento próprio: está incluída em cada aluguer, para cada foco desta página.
+
+A nossa equipa entrega os focos no seu espaço, posiciona-os e orienta-os de acordo com o local, testa cada um antes do início do evento e volta para recolher tudo no fim. Isto aplica-se às barras RGBW do Eco Pack, às luzes de fada do Wedding Pack com um técnico no local durante todo o evento, e à barra Eurolite, ao Fresnel e ao kit de uplighting quando os reserva à parte. Não temos uma área de negócio de "instalação" autónoma, como um integrador de sistemas que monta focos permanentes no teto de um espaço. Se o que tem em mente é uma instalação de iluminação permanente para um espaço que possui ou gere, isso fica fora do nosso catálogo: entregamos, montamos, testamos e recolhemos para o seu evento, e depois levamos tudo connosco.
+
+Para uma apresentação corporativa que também precise de uma superfície elevada, o nosso [MICE Pack](/packages/mice/) oferece plataformas de palco modulares como opção, a 35 € por metro quadrado e à medida da sua sala, entregues e desmontadas da mesma forma que a nossa iluminação.
+
+## Iluminação de palco por pacote: preços e o que inclui cada um
+
+| Foco | Pacote | Preço | Notas |
+| --- | --- | --- | --- |
+| 2 barras de luz LED RGBW | [Eco Pack](/packages/eco/) | 290 € sem IVA | Incluídas, até 50 convidados, sem técnico depois da montagem |
+| Luzes de fada / cordões LED de luz quente | [Wedding Pack](/packages/wedding/) | 650 € sem IVA | Incluídas, até 80 convidados, técnico no local |
+| Barra Eurolite LED KLS-200 (2 unidades) | Fora de pacote | Orçamento sob pedido | Controlo por pedal, não DMX |
+| Fresnel ADJ Encore FRI50Z | Fora de pacote | Orçamento sob pedido | Foco fixo com zoom para luz geral |
+| ADJ Element H6 Pack (6 focos de uplighting sem fios) | Fora de pacote | Orçamento sob pedido | A bateria, gerido pelo técnico |
+| Plataforma de palco modular | [MICE Pack](/packages/mice/) como opção | 35 € por metro quadrado | Entregue, montada e recolhida com a iluminação |
+
+Dois dos nossos cinco focos vêm dentro de um preço de pacote fixo. Os outros três, a barra Eurolite, o Fresnel e o kit de uplighting, são equipamento real sem preço avulso publicado, porque a quantidade e a montagem certas dependem do seu espaço. [Contacte-nos](/contact/) com os detalhes do seu evento e confirmaremos o que é possível e quanto custa.
+
+Os nossos 5 pacotes incluem todos equipamento de som como base. Só 2 incluem também iluminação no mesmo preço: o [Eco Pack](/packages/eco/) e o [Wedding Pack](/packages/wedding/). O [Basic MICE Pack](/packages/basic-mice/), o [Product Presentation Pack](/packages/product-presentation/) e o [MICE Pack](/packages/mice/) incluem som, mas nenhuma linha de iluminação: a sua camada visual é uma tela de projeção ou um ecrã LED, em vez de iluminação de palco. Se o seu evento usa um desses 3 pacotes e também precisa de iluminação, a barra Eurolite, o Fresnel ou o kit de uplighting acima juntam-se como artigo à parte, com orçamento sob pedido, tal como aconteceria em qualquer outro evento.
+
+## O que não temos em stock
+
+Uma pesquisa genérica por "stage lighting" em Málaga mostra categorias que não fazem parte do nosso catálogo. Em vez de ficarmos calados, aqui fica a lista direta:
+
+-   **Cabeças móveis ou focos inteligentes.** Não temos focos robóticos DMX que rodam e inclinam. Tudo o que foi apresentado acima tem posição fixa ou é uma barra controlada por pedal, não um sistema automatizado.
+
+-   **Controladores de iluminação DMX.** Não temos em stock mesa nem software de controlo DMX. O pedal da barra Eurolite não é um sistema de controlo DMX.
+
+-   **Sistemas de truss.** Não alugamos truss como artigo separado. A nossa equipa coloca os focos em tripés ou no chão, sem os pendurar numa estrutura de truss por cima do palco.
+
+-   **Canhões seguidores, máquinas de faíscas frias, estroboscópios ou luz negra.** Nenhum destes aparece nos nossos pacotes nem no nosso catálogo de equipamento. Não vamos inventar um orçamento para um produto que não temos.
+
+-   **Espetáculos laser ou projeção de gobos e monogramas.** O nosso inventário de iluminação limita-se aos 5 focos acima. Não fazemos espetáculos laser nem projetamos padrões personalizados ou monogramas numa parede ou numa pista de dança.
+
+Se é precisamente uma destas coisas de que precisa, preferimos dizê-lo já do que deixá-lo descobrir depois de nos ter descrito o evento ao telefone. O nosso [catálogo de equipamento](/equipment/) mostra todo o inventário real por trás de cada pacote.
+
+## Utilização ao ar livre: energia e limites honestos com o tempo
+
+Terraços de moradias, jardins e beach clubs à volta de Málaga são locais habituais para os nossos 5 focos, e a colocação ao ar livre levanta 2 perguntas reais a que preferimos responder aqui, num só lugar, em vez de as espalhar por várias páginas.
+
+| Foco | Montagem ao ar livre | Energia |
+| --- | --- | --- |
+| Barra Eurolite LED KLS-200 | Montada em tripé pela nossa equipa | Com cabo, precisa de uma tomada próxima ou do nosso quadro elétrico |
+| Fresnel ADJ Encore FRI50Z | Montado em tripé pela nossa equipa | Com cabo, precisa de uma tomada próxima ou do nosso quadro elétrico |
+| Uplighting ADJ Element H6 Pack | Colocado no chão pela nossa equipa | Sem fios e a bateria, não precisa de tomada |
+| Barras RGBW do Eco Pack | Montadas em tripé pela nossa equipa | Com cabo, precisa de uma tomada próxima ou do nosso quadro elétrico |
+| Luzes de fada do Wedding Pack | Estendidas pela nossa equipa ao longo da estrutura que indicar | Com cabo, precisa de uma tomada próxima ou do nosso quadro elétrico |
+
+Uma tomada longe do sítio onde um foco com cabo tem de ficar é um problema real e frequente nos espaços ao ar livre, e temos em stock 2 equipamentos reais exatamente para isso: um quadro elétrico portátil de 2000 W com um transformador de 380/220 V e um estabilizador de tensão separado. Com os dois, a nossa equipa consegue normalmente levar um foco com cabo até onde o seu espaço precisa, sem que tenha de procurar ou alugar a sua própria solução de extensão. Não temos gerador: se o seu espaço não tiver mesmo nenhuma fonte de energia ao alcance de um destes equipamentos, diga-nos na reserva e confirmaremos com honestidade se a colocação é possível.
+
+Quanto ao tempo, o índice de proteção IP é a resposta técnica honesta à pergunta "aguenta chuva ou humidade?": uma escala que vai de IP54 (pó e salpicos ligeiros) até IP67 e IP68 (totalmente submersível). Não confirmámos um índice IP publicado para nenhum dos nossos 5 focos, nem para os 3 artigos especiais nem para as barras RGBW e as luzes de fada incluídas num pacote. Na prática, isto significa que o nosso técnico coloca cada foco aproveitando o abrigo que o seu espaço oferece e confirma no local uma posição coberta alternativa, em vez de anunciarmos um índice que não conseguimos verificar.
+
+## Montagens reais de iluminação de palco que já realizámos
+
+Um olhar sobre reservas reais de iluminação em Málaga e na Costa del Sol:
+
+![Iluminação colorida de parede junto ao equipamento de som montado para um evento formal em Málaga.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-700x523.webp "Um espaço histórico de Málaga transformado para um evento especial com equipamento profissional de som e iluminação.")
+
+Iluminação colorida de parede de ambos os lados de um jantar formal, entregue e testada pela nossa equipa antes do início do evento.
+
+![Uma montagem de palco e púlpito num evento empresarial MICE à noite em Málaga.](https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp "Uma montagem profissional para um evento MICE em Málaga, com sistema de som, iluminação e um púlpito para apresentações.")
+
+Uma montagem de palco e púlpito num evento MICE à noite, o tipo de reserva corporativa para a qual nos pedem os nossos focos especiais.
+
+<blockquote>
+<p lang="en">"This team delivered a flawless experience! Their MICE pack made everything easy for our event, and the team was both professional and reliable. The sound and lighting were top-notch, and you can tell they truly care about their work. Highly recommended!"</p>
+<ul><li>Carlos Batlles, avaliação de 5 estrelas no Google, março de 2025</li></ul>
+</blockquote>
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1331/', '/1313/'])} speed="normal" direction="left" />
+</div>
+
+## Com quanta antecedência reservar
+
+Reserve logo que a data do seu evento esteja confirmada. A procura na Costa del Sol atinge o pico durante a época de casamentos, de abril a outubro, quando os técnicos e os nossos focos mais pedidos são os primeiros a esgotar. Como 2 dos nossos 5 focos, as barras Eurolite, existem apenas em 2 unidades e o kit de uplighting tem só 6 focos no total, confirmar a data cedo também nos dá tempo para verificar que estão realmente livres, além do pacote que já reservou.
+
+## Conclusão
+
+O aluguer de iluminação de palco na Malaga Event Gear significa 5 produtos reais: 2 barras Eurolite LED KLS-200 com pedal, um Fresnel ADJ Encore FRI50Z, um kit de uplighting ADJ Element H6 Pack, focos RGBW no Eco Pack e luzes de fada no Wedding Pack, cada um entregue, montado, testado e recolhido pela nossa própria equipa. Não temos em stock cabeças móveis, mesas DMX, truss, lasers, faíscas frias nem estroboscópios, e preferimos dizê-lo diretamente do que deixar que uma pesquisa genérica dê a entender o contrário. [Contacte-nos](/contact/) com o local e os detalhes do seu evento e confirmaremos o foco ou o pacote adequado.
+
+## Perguntas frequentes
+
+### Que equipamento de iluminação de palco tem realmente a MEG em stock?
+
+Cinco produtos reais: 2 barras de luz Eurolite LED KLS-200, 1 Fresnel ADJ Encore FRI50Z, 1 ADJ Element H6 Pack (6 focos de uplighting sem fios), 2 barras de luz LED RGBW no [Eco Pack](/packages/eco/) e luzes de fada no [Wedding Pack](/packages/wedding/). Consulte [Todo o nosso material de iluminação de palco](#todo-o-nosso-material-de-iluminação-de-palco-cada-foco-real-por-marca-e-modelo) acima.
+
+### A vossa iluminação de palco é controlada por DMX ou programável?
+
+Não. A barra Eurolite funciona com um pedal, o Fresnel é um foco fixo com zoom para luz geral sem movimento automatizado, e a cor do kit de uplighting é definida pelo nosso técnico no local, não através de um sinal DMX nem de uma aplicação. Consulte [Controlo por pedal, não DMX](#controlo-por-pedal-não-dmx-o-que-programável-significa-realmente-aqui) acima.
+
+### Oferecem cabeças móveis ou focos inteligentes?
+
+Não. Não temos focos robóticos DMX que rodam e inclinam. Consulte [O que não temos em stock](#o-que-não-temos-em-stock) acima.
+
+### A entrega, a montagem e a recolha estão incluídas, ou a instalação é faturada à parte?
+
+Estão incluídas, para cada foco desta página. Não temos uma área de negócio de "instalação" à parte: a nossa equipa entrega, posiciona, testa e recolhe o equipamento como parte do aluguer. Consulte [Entrega, montagem, testes e recolha](#entrega-montagem-testes-e-recolha-o-que-entendemos-por-instalação-de-iluminação-de-palco) acima.
+
+### Quanto custa o aluguer de iluminação de palco em Málaga?
+
+Depende do foco. As barras RGBW estão incluídas no [Eco Pack](/packages/eco/) por 290 € sem IVA, e as luzes de fada no [Wedding Pack](/packages/wedding/) por 650 € sem IVA. As barras Eurolite, o Fresnel e o kit de uplighting não têm preço avulso publicado: [contacte-nos](/contact/) com os detalhes do seu evento para pedir um orçamento. Consulte [Iluminação de palco por pacote](#iluminação-de-palco-por-pacote-preços-e-o-que-inclui-cada-um) acima.
+
+### Que pacotes da MEG juntam som e iluminação?
+
+Só 2: o [Eco Pack](/packages/eco/) e o [Wedding Pack](/packages/wedding/). O [Basic MICE Pack](/packages/basic-mice/), o [Product Presentation Pack](/packages/product-presentation/) e o [MICE Pack](/packages/mice/) incluem todos som, mas a sua camada visual é uma tela de projeção ou um ecrã LED, não iluminação de palco. Consulte [Iluminação de palco por pacote](#iluminação-de-palco-por-pacote-preços-e-o-que-inclui-cada-um) acima para ver o detalhe exato.
+
+### Qual é a diferença entre iluminação de palco e uplighting de palco?
+
+Nesta página, a iluminação de palco abrange todo o nosso material de focos: as barras Eurolite, o Fresnel, os focos RGBW e o kit de uplighting em conjunto. O uplighting é especificamente o nosso ADJ Element H6 Pack, um kit sem fios que banha de cor uma parede ou estrutura a partir do chão, diferente da barra Eurolite ou do Fresnel, que são focos de posição fixa para luz geral e de destaque. Publicamos um guia mais aprofundado dedicado apenas ao nosso kit de uplighting, que trata a cobertura realista de um espaço e a utilização ao ar livre com mais detalhe do que esta página.
+
+### É possível alugar iluminação de palco sem um pacote completo de som ou de palco?
+
+Sim, para os 3 focos que não estão incluídos em nenhum pacote: as barras Eurolite, o Fresnel e o kit de uplighting são todos artigos à parte, com orçamento sob pedido. Os focos RGBW e as luzes de fada, pelo contrário, só estão disponíveis como parte do [Eco Pack](/packages/eco/) e do [Wedding Pack](/packages/wedding/), respetivamente, e não como aluguer avulso.
+
+### A iluminação de palco está disponível para eventos ao ar livre?
+
+Sim, com uma ressalva honesta. Não confirmámos a resistência às intempéries nem um índice IP para nenhum dos nossos 5 focos, nem para os 3 artigos especiais nem para as barras RGBW e as luzes de fada incluídas num pacote, por isso não apresentamos nenhum deles como equipamento certificado para o exterior. Na prática, o nosso técnico avalia as condições no local, coloca os focos aproveitando o abrigo que o espaço oferece e recomenda uma posição coberta alternativa se a chuva for um risco real na sua data. Consulte [Utilização ao ar livre: energia e limites honestos com o tempo](#utilização-ao-ar-livre-energia-e-limites-honestos-com-o-tempo) acima para ver a montagem e a energia de cada foco.
+
+### Fornecem energia para iluminação ao ar livre longe de uma tomada?
+
+Sim, para os focos com cabo. Temos em stock um quadro elétrico portátil de 2000 W com um transformador de 380/220 V e um estabilizador de tensão separado, que entre os dois costumam cobrir um foco com cabo colocado longe da tomada do seu espaço. O kit de uplighting não precisa disto, porque é sem fios e a bateria. Não temos gerador, por isso [contacte-nos](/contact/) com a planta do seu espaço e confirmaremos com honestidade se a sua situação elétrica funciona.
+
+### Com quanta antecedência devo reservar iluminação de palco para um casamento ou evento corporativo?
+
+Logo que a data esteja confirmada. A procura atinge o pico durante a época de casamentos, de abril a outubro, e 2 dos nossos 5 focos existem em quantidade muito limitada, 2 barras Eurolite e 6 focos de uplighting no total, por isso reservar cedo conta mais aqui do que em equipamento de que temos mais unidades. Consulte [Com quanta antecedência reservar](#com-quanta-antecedência-reservar) acima.
+
+### O aluguer de iluminação de palco inclui um técnico, ou sou eu que a opero?
+
+Depende do foco. As barras RGBW do [Eco Pack](/packages/eco/) são montadas e testadas pela nossa equipa e depois funcionam sem técnico durante o resto do evento. As luzes de fada do [Wedding Pack](/packages/wedding/) vêm com um técnico no local durante o evento. As barras Eurolite, o Fresnel e o kit de uplighting são instalados com um técnico que trata da colocação e, no caso do kit de uplighting, da cor.
+
+### A "iluminação de palco sem fios" é o mesmo que o vosso kit de uplighting?
+
+Sim, as três expressões referem-se ao mesmo produto real do nosso catálogo. Temos em stock um único kit de iluminação sem fios, o ADJ Element H6 Pack com 6 focos a bateria, por isso "iluminação de palco sem fios", "uplighting de palco" e "uplighting sem fios" correspondem todos a esse único artigo, e não a três produtos diferentes.
+
+### É possível combinar iluminação de palco com plataformas de palco numa apresentação corporativa?
+
+Sim. O nosso [MICE Pack](/packages/mice/) oferece plataformas de palco modulares como opção a 35 € por metro quadrado, entregues, montadas e recolhidas da mesma forma que os nossos focos. [Contacte-nos](/contact/) com o local e confirmaremos a combinação que se adapta à sua apresentação.

@@ -61,6 +61,11 @@ export default {
 			slug: 'headset-dasspeldmicrofoon-huren',
 			keyword: 'headset en dasspeldmicrofoon huren Malaga',
 			status: 'propuesta'
+		},
+		'stage-lighting-rental': {
+			slug: 'podiumverlichting-huren',
+			keyword: 'podiumverlichting huren Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

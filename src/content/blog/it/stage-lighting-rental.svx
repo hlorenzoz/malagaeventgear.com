@@ -1,0 +1,201 @@
+---
+title: "Noleggio luci da palco a Malaga, Spagna"
+description: "Noleggio luci da palco a Malaga: i veri fari Eurolite, ADJ ed Eco Pack di Malaga Event Gear, prezzi onesti dei pacchetti e quello che non offriamo."
+excerpt: "La vera parte di luci da palco del nostro catalogo: fari Eurolite e ADJ indicati per marca e modello, barre RGBW e lucine incluse nei pacchetti, consegna e ritiro spiegati e un elenco onesto di quello che non abbiamo a magazzino."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Cerca "stage lighting rental" in inglese e la maggior parte dei risultati finisce nelle stesse categorie vaghe: teste mobili, installazioni laser, proiettori di gobo, una voce generica di "soluzioni di illuminazione LED". Niente è indicato per marca o modello, e una parte descrive attrezzature che non si trovano nel magazzino di ogni fornitore, il nostro compreso. Questa pagina fa il contrario. Ogni vero faro da palco che Malaga Event Gear (MEG) possiede è indicato qui sotto, per marca e modello, con un prezzo reale in euro quando esiste, accanto a un elenco diretto di quello che non abbiamo a magazzino.
+
+MEG possiede e consegna di persona ogni faro di questa pagina, testato prima di ogni evento, a Malaga e in tutta la Costa del Sol, con un'esperienza che risale al 1996. Qui non c'è nessuna lista dei desideri. Ogni articolo è o attrezzatura reale con un prezzo pubblicato, o un onesto "preventivo su richiesta".
+
+## In breve
+
+---
+
+Malaga Event Gear fornisce luci da palco per eventi aziendali, matrimoni e celebrazioni a Malaga e in tutta la Costa del Sol: 2 barre luminose Eurolite LED KLS-200, 1 faro Fresnel ADJ Encore FRI50Z per luce diffusa, 1 kit di uplighting wireless ADJ Element H6 Pack, 2 barre con fari LED RGBW incluse nell'[Eco Pack](/packages/eco/) e le lucine incluse nel [Wedding Pack](/packages/wedding/). Consegna, montaggio, test e ritiro fanno parte di ogni noleggio e li gestisce la nostra squadra, invece di spedirti un kit da montare da solo. [Contattaci](/contact/) per abbinare un faro o un pacchetto al tuo evento.
+
+## Punti chiave
+
+---
+
+-   Tutti i nostri fari in un unico posto: 2x barre Eurolite LED KLS-200, 1x Fresnel ADJ Encore FRI50Z, 1x ADJ Element H6 Pack (6 fari di uplighting wireless), più le barre RGBW dell'[Eco Pack](/packages/eco/) e le lucine del [Wedding Pack](/packages/wedding/).
+
+-   Un chiarimento onesto sul controllo: la barra Eurolite funziona con un pedale, non con una console DMX. Non abbiamo a magazzino controllo luci DMX, teste mobili né impianti automatizzati programmabili.
+
+-   Consegna, montaggio, test e ritiro sono compresi in ogni noleggio. Non esiste una voce separata per l'"installazione", è semplicemente il nostro modo di consegnare.
+
+-   Prezzi reali dei pacchetti dove esistono: fari RGBW inclusi nell'Eco Pack a 290 € più IVA, lucine incluse nel Wedding Pack a 650 € più IVA, tecnico compreso.
+
+-   Un elenco diretto "Cosa non abbiamo a magazzino" più avanti: niente teste mobili, niente console DMX, niente americane, niente spettacoli laser, niente fontane fredde, niente strobo, niente proiezione di gobo.
+
+## Tutti i nostri fari da palco: ogni faro reale, per marca e modello
+
+Cinque prodotti reali compongono l'inventario di luci da palco di MEG, e questa è l'unica pagina del nostro sito che li riunisce tutti e cinque.
+
+**2x Eurolite LED KLS-200.** Una barra luminosa LED a 4 teste con controllo a pedale, usata per luce d'accento e diffusa sui palchi aziendali più grandi e negli allestimenti speciali. Ne possediamo 2. Non è inclusa in nessuno dei nostri 5 pacchetti, quindi [contattaci](/contact/) indicando la location e il numero di invitati e ti confermeremo disponibilità e preventivo.
+
+**1x ADJ Encore FRI50Z.** Un faro Fresnel fisso con zoom per luce diffusa, il tipo di fascio stabile e regolabile che serve a illuminare in modo uniforme un relatore, un leggio o un elemento del palco, invece di creare un effetto a cambio colore. Anche questo è un articolo separato, con preventivo su richiesta.
+
+**1x ADJ Element H6 Pack.** Un kit di uplighting wireless a batteria con 6 fari, per colorare dal pavimento una parete, un fondale o una struttura invece di illuminare un punto fisso. Realisticamente, 6 fari coprono la luce d'accento da 2 a 4 elementi di una location, un ingresso, un tavolo d'onore, una fila di colonne o una parete, non l'illuminazione di un'intera sala. È un articolo separato dai fari colorati RGBW dell'Eco Pack descritti più sotto, con un preventivo a parte.
+
+**2 barre LED RGBW, [Eco Pack](/packages/eco/).** Una luce d'accento a colori variabili, consegnata e montata dalla nostra squadra come parte del pacchetto, che poi funziona senza tecnico per il resto dell'evento. Prezzo pubblicato di 290 € più IVA per un massimo di 50 invitati.
+
+**Lucine e strisce LED a luce calda, [Wedding Pack](/packages/wedding/).** Strisce LED a luce calda per un'atmosfera romantica, incluse a 650 € più IVA per un massimo di 80 invitati, insieme a un tecnico che resta in loco per tutto l'evento.
+
+<InlineCTA />
+
+## Controllo a pedale, non DMX: cosa significa davvero "programmabile" qui
+
+Una ricerca generica di "stage lighting rental" fa spesso pensare a fari DMX programmabili, teste mobili che ruotano e si inclinano a comando, o a una console luci che un tecnico gestisce seguendo un copione. Non è quello che MEG ha a magazzino, e preferiamo correggere questa aspettativa qui piuttosto che fartelo scoprire il giorno dell'evento.
+
+La barra Eurolite LED KLS-200 si controlla con un pedale, un semplice interruttore sul palco che un artista o un tecnico preme per cambiare colore o effetto, non con un segnale DMX inviato da una console luci. Il Fresnel ADJ Encore FRI50Z è un faro fisso con zoom per luce diffusa, senza alcun movimento automatico. Anche il kit di uplighting ADJ Element H6 Pack non ha un controllo del colore via DMX o app dichiarato: il nostro tecnico imposta il colore in loco per il tuo evento, in base a quello che ci dici al momento della prenotazione, invece di consegnarti un telecomando o un'app. Nessuno dei nostri 3 fari speciali ruota, si inclina o segue una sequenza programmata. Se il tuo evento ha davvero bisogno di luci automatizzate e controllate in DMX, preferiamo dirtelo adesso, prima della prenotazione, piuttosto che dopo.
+
+## Consegna, montaggio, test e ritiro: cosa intendiamo per "installazione delle luci da palco"
+
+Alcune ricerche di "stage lighting rental" riguardano in realtà l'installazione: se un fornitore si limita a lasciare delle casse o monta davvero l'attrezzatura. Da MEG l'installazione non è un servizio separato con un proprio preventivo: è compresa in ogni noleggio, per ogni faro di questa pagina.
+
+La nostra squadra consegna i fari nella tua location, li posiziona e li orienta in base allo spazio, testa ciascuno prima dell'inizio dell'evento e torna a ritirare tutto alla fine. Vale per le barre RGBW dell'Eco Pack, per le lucine del Wedding Pack con un tecnico in loco per tutta la durata, e per la barra Eurolite, il Fresnel e il kit di uplighting quando li prenoti separatamente. Non abbiamo un'attività di "installazione" a sé, come un system integrator che monta fari fissi sul soffitto di una location. Se hai in mente un impianto luci permanente per una location che possiedi o gestisci, è fuori dal nostro catalogo: consegniamo, montiamo, testiamo e ritiriamo per il tuo evento, poi portiamo via tutto.
+
+Per una presentazione aziendale che ha bisogno anche di una superficie rialzata, il nostro [MICE Pack](/packages/mice/) offre come extra pedane modulari da palco, a 35 € al metro quadro e dimensionate sulla tua sala, consegnate e smontate come le nostre luci.
+
+## Luci da palco per pacchetto: prezzi e cosa include ciascuno
+
+| Faro | Pacchetto | Prezzo | Note |
+| --- | --- | --- | --- |
+| 2 barre LED RGBW | [Eco Pack](/packages/eco/) | 290 € più IVA | Incluse, fino a 50 invitati, gestite da te dopo il montaggio |
+| Lucine e strisce LED a luce calda | [Wedding Pack](/packages/wedding/) | 650 € più IVA | Incluse, fino a 80 invitati, tecnico in loco |
+| Barra Eurolite LED KLS-200 (2 unità) | Non inclusa | Preventivo su richiesta | Controllo a pedale, non DMX |
+| Fresnel ADJ Encore FRI50Z | Non incluso | Preventivo su richiesta | Faro fisso con zoom per luce diffusa |
+| ADJ Element H6 Pack (6 fari di uplighting wireless) | Non incluso | Preventivo su richiesta | A batteria, gestito dal tecnico |
+| Pedana modulare da palco | [MICE Pack](/packages/mice/) come extra | 35 € al metro quadro | Consegnata, montata e ritirata insieme alle luci |
+
+Due dei nostri cinque fari sono compresi nel prezzo fisso di un pacchetto. Gli altri tre, la barra Eurolite, il Fresnel e il kit di uplighting, sono attrezzatura reale senza un prezzo singolo pubblicato, perché la quantità e l'allestimento giusti dipendono dalla tua location. [Contattaci](/contact/) con i dettagli del tuo evento e ti confermeremo cosa è possibile e quanto costa.
+
+Tutti i nostri 5 pacchetti includono l'impianto audio come base. Solo 2 includono anche le luci nello stesso prezzo: l'[Eco Pack](/packages/eco/) e il [Wedding Pack](/packages/wedding/). Il [Basic MICE Pack](/packages/basic-mice/), il [Product Presentation Pack](/packages/product-presentation/) e il [MICE Pack](/packages/mice/) includono l'audio ma nessuna voce di illuminazione: la loro parte visiva è uno schermo di proiezione o un display LED invece delle luci da palco. Se il tuo evento usa uno di questi 3 pacchetti e ha bisogno anche di luci, la barra Eurolite, il Fresnel o il kit di uplighting descritti sopra si aggiungono come articolo separato, con preventivo su richiesta, esattamente come per qualsiasi altro evento.
+
+## Cosa non abbiamo a magazzino
+
+Una ricerca generica di "stage lighting" a Malaga fa emergere categorie che non fanno parte del nostro catalogo. Invece di tacere, ecco l'elenco diretto:
+
+-   **Teste mobili o fari intelligenti.** Non possediamo fari robotizzati DMX che ruotano e si inclinano. Tutto quello descritto sopra è in posizione fissa o è una barra con controllo a pedale, non un impianto automatizzato.
+
+-   **Console luci DMX.** Non abbiamo a magazzino una console o un software di controllo DMX. Il pedale della barra Eurolite non è un sistema di controllo DMX.
+
+-   **Strutture in americana.** Non noleggiamo americane (truss) come articolo separato. La nostra squadra monta i fari su stativi o li appoggia a terra, senza appenderli a una struttura in americana sopra il palco.
+
+-   **Seguipersona, macchine per fontane fredde, strobo o luci di Wood.** Nessuno di questi compare nei nostri pacchetti o nel nostro catalogo di attrezzature. Non inventeremo un preventivo per un prodotto che non abbiamo.
+
+-   **Spettacoli laser o proiezione di gobo e monogrammi.** Il nostro inventario di luci si limita ai 5 fari descritti sopra. Non realizziamo spettacoli laser e non proiettiamo motivi personalizzati o monogrammi su una parete o una pista da ballo.
+
+Se è proprio una di queste cose che ti serve, preferiamo dirtelo adesso piuttosto che fartelo scoprire dopo che ci hai descritto il tuo evento al telefono. Il nostro [catalogo di attrezzature](/equipment/) elenca tutto l'inventario reale dietro ogni pacchetto.
+
+## Uso all'aperto: alimentazione e limiti onesti con il meteo
+
+Terrazze di ville, giardini e beach club intorno a Malaga sono location comuni per tutti i nostri 5 fari, e il posizionamento all'aperto solleva 2 domande concrete a cui preferiamo rispondere qui, in un unico posto, invece di spargerle su pagine diverse.
+
+| Faro | Montaggio all'aperto | Alimentazione |
+| --- | --- | --- |
+| Barra Eurolite LED KLS-200 | Montata su stativo dalla nostra squadra | Con cavo, serve una presa vicina o il nostro quadro elettrico |
+| Fresnel ADJ Encore FRI50Z | Montato su stativo dalla nostra squadra | Con cavo, serve una presa vicina o il nostro quadro elettrico |
+| Uplighting ADJ Element H6 Pack | Appoggiato a terra dalla nostra squadra | Wireless e a batteria, nessuna presa necessaria |
+| Barre RGBW dell'Eco Pack | Montate su stativo dalla nostra squadra | Con cavo, serve una presa vicina o il nostro quadro elettrico |
+| Lucine del Wedding Pack | Stese dalla nostra squadra lungo la struttura che indichi tu | Con cavo, serve una presa vicina o il nostro quadro elettrico |
+
+Una presa lontana dal punto in cui deve stare un faro con cavo è un problema reale e frequente nelle location all'aperto, e per questo abbiamo a magazzino 2 attrezzature reali: un quadro elettrico portatile da 2000 W con trasformatore 380/220 V e uno stabilizzatore di tensione separato. Con questi due, la nostra squadra di solito riesce a portare un faro con cavo dove serve alla tua location, senza che tu debba cercare o noleggiare una tua soluzione di prolunga. Non abbiamo a magazzino un generatore: se nella tua location non c'è davvero nessuna fonte di corrente alla portata di uno dei due, dillo al momento della prenotazione e ti confermeremo onestamente se il posizionamento è possibile.
+
+Quanto al meteo, il grado di protezione IP è la risposta tecnica onesta alla domanda "regge la pioggia o l'umidità?": una scala che va da IP54 (polvere e leggeri schizzi) fino a IP67 e IP68 (completamente sommergibile). Non abbiamo confermato un grado IP pubblicato per nessuno dei nostri 5 fari, né per i 3 articoli speciali né per le barre RGBW e le lucine incluse in un pacchetto. In pratica, il nostro tecnico posiziona ogni faro sfruttando il riparo che la tua location offre e conferma in loco una posizione coperta di riserva, invece di dichiarare un grado di protezione che non possiamo verificare.
+
+## Allestimenti reali di luci da palco che abbiamo realizzato
+
+Uno sguardo a prenotazioni reali di luci a Malaga e sulla Costa del Sol:
+
+![Luci colorate a parete accanto all'impianto audio allestito per un evento formale a Malaga.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-700x523.webp "Una location storica di Malaga trasformata per un evento speciale con attrezzature professionali audio e luci.")
+
+Luci colorate a parete ai lati di una cena formale, consegnate e testate dalla nostra squadra prima dell'inizio dell'evento.
+
+![Un allestimento con palco e leggio per un evento aziendale MICE serale a Malaga.](https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp "Un allestimento professionale per un evento MICE a Malaga, con impianto audio, luci e un leggio per le presentazioni.")
+
+Un allestimento con palco e leggio per un evento MICE serale, il tipo di prenotazione aziendale per cui ci vengono richiesti i nostri fari speciali.
+
+<blockquote>
+<p lang="en">"This team delivered a flawless experience! Their MICE pack made everything easy for our event, and the team was both professional and reliable. The sound and lighting were top-notch, and you can tell they truly care about their work. Highly recommended!"</p>
+<ul><li>Carlos Batlles, recensione Google a 5 stelle, marzo 2025</li></ul>
+</blockquote>
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1331/', '/1313/'])} speed="normal" direction="left" />
+</div>
+
+## Con quanto anticipo prenotare
+
+Prenota non appena la data del tuo evento è confermata. Sulla Costa del Sol la domanda raggiunge il picco durante la stagione dei matrimoni, da aprile a ottobre, quando i tecnici e i nostri fari più richiesti sono i primi a esaurirsi. Poiché 2 dei nostri 5 fari, le barre Eurolite, esistono in sole 2 unità e il kit di uplighting ha solo 6 fari in totale, confermare presto la data ci dà anche il tempo di verificare che siano davvero liberi, oltre al pacchetto che hai già prenotato.
+
+## Conclusione
+
+Il noleggio di luci da palco da Malaga Event Gear significa 5 prodotti reali: 2 barre Eurolite LED KLS-200 con controllo a pedale, un Fresnel ADJ Encore FRI50Z, un kit di uplighting ADJ Element H6 Pack, i fari RGBW dell'Eco Pack e le lucine del Wedding Pack, ciascuno consegnato, montato, testato e ritirato dalla nostra squadra. Non abbiamo a magazzino teste mobili, console DMX, americane, laser, fontane fredde né strobo, e preferiamo dirlo chiaramente piuttosto che lasciare che una ricerca generica faccia pensare il contrario. [Contattaci](/contact/) con la location e i dettagli del tuo evento e ti confermeremo quale faro o pacchetto fa al caso tuo.
+
+## Domande frequenti
+
+### Quali luci da palco ha davvero a magazzino MEG?
+
+Cinque prodotti reali: 2 barre luminose Eurolite LED KLS-200, 1 Fresnel ADJ Encore FRI50Z, 1 ADJ Element H6 Pack (6 fari di uplighting wireless), 2 barre LED RGBW nell'[Eco Pack](/packages/eco/) e le lucine nel [Wedding Pack](/packages/wedding/). Vedi [Tutti i nostri fari da palco](#tutti-i-nostri-fari-da-palco-ogni-faro-reale-per-marca-e-modello) più sopra.
+
+### Le vostre luci da palco sono controllate in DMX o programmabili?
+
+No. La barra Eurolite funziona con un pedale, il Fresnel è un faro fisso con zoom per luce diffusa senza movimento automatico, e il colore del kit di uplighting lo imposta il nostro tecnico in loco, non tramite un segnale DMX o un'app. Vedi [Controllo a pedale, non DMX](#controllo-a-pedale-non-dmx-cosa-significa-davvero-programmabile-qui) più sopra.
+
+### Offrite teste mobili o fari intelligenti?
+
+No. Non possediamo fari robotizzati DMX che ruotano e si inclinano. Vedi [Cosa non abbiamo a magazzino](#cosa-non-abbiamo-a-magazzino) più sopra.
+
+### Consegna, montaggio e ritiro sono inclusi, o l'installazione si paga a parte?
+
+Sono inclusi, per ogni faro di questa pagina. Non abbiamo un'attività di "installazione" separata: la nostra squadra consegna, posiziona, testa e ritira l'attrezzatura come parte del noleggio. Vedi [Consegna, montaggio, test e ritiro](#consegna-montaggio-test-e-ritiro-cosa-intendiamo-per-installazione-delle-luci-da-palco) più sopra.
+
+### Quanto costa noleggiare luci da palco a Malaga?
+
+Dipende dal faro. Le barre RGBW sono incluse nell'[Eco Pack](/packages/eco/) a 290 € più IVA, e le lucine nel [Wedding Pack](/packages/wedding/) a 650 € più IVA. Le barre Eurolite, il Fresnel e il kit di uplighting non hanno un prezzo singolo pubblicato: [contattaci](/contact/) con i dettagli del tuo evento per un preventivo. Vedi [Luci da palco per pacchetto](#luci-da-palco-per-pacchetto-prezzi-e-cosa-include-ciascuno) più sopra.
+
+### Quali pacchetti di MEG includono insieme audio e luci?
+
+Solo 2: l'[Eco Pack](/packages/eco/) e il [Wedding Pack](/packages/wedding/). Il [Basic MICE Pack](/packages/basic-mice/), il [Product Presentation Pack](/packages/product-presentation/) e il [MICE Pack](/packages/mice/) includono tutti l'audio, ma la loro parte visiva è uno schermo di proiezione o un display LED, non le luci da palco. Vedi [Luci da palco per pacchetto](#luci-da-palco-per-pacchetto-prezzi-e-cosa-include-ciascuno) più sopra per il dettaglio esatto.
+
+### Che differenza c'è tra luci da palco e uplighting per il palco?
+
+In questa pagina, le luci da palco comprendono tutti i nostri fari: le barre Eurolite, il Fresnel, i fari RGBW e il kit di uplighting insieme. L'uplighting è nello specifico il nostro ADJ Element H6 Pack, un kit wireless che colora dal pavimento una parete o una struttura, diverso dalla barra Eurolite o dal Fresnel, che sono fari in posizione fissa per luce diffusa e d'accento. Pubblichiamo una guida più approfondita dedicata solo al nostro kit di uplighting, che tratta la copertura realistica di una location e l'uso all'aperto in modo più dettagliato di questa pagina.
+
+### Si possono noleggiare luci da palco senza un pacchetto completo di audio o palco?
+
+Sì, per i 3 fari che non sono inclusi in un pacchetto: le barre Eurolite, il Fresnel e il kit di uplighting sono tutti articoli separati, con preventivo su richiesta. I fari RGBW e le lucine, invece, sono disponibili solo all'interno dell'[Eco Pack](/packages/eco/) e del [Wedding Pack](/packages/wedding/) rispettivamente, non come noleggio singolo.
+
+### Le luci da palco sono disponibili per eventi all'aperto?
+
+Sì, con un'avvertenza onesta. Non abbiamo confermato l'impermeabilità né un grado IP per nessuno dei nostri 5 fari, né per i 3 articoli speciali né per le barre RGBW e le lucine incluse in un pacchetto, quindi non ne presentiamo nessuno come attrezzatura certificata per l'esterno. In pratica, il nostro tecnico valuta le condizioni in loco, posiziona i fari sfruttando il riparo che la location offre e consiglia una posizione coperta di riserva se nella tua data la pioggia è un rischio reale. Vedi [Uso all'aperto: alimentazione e limiti onesti con il meteo](#uso-allaperto-alimentazione-e-limiti-onesti-con-il-meteo) più sopra per il dettaglio di montaggio e alimentazione faro per faro.
+
+### Fornite l'alimentazione per luci all'aperto lontane da una presa?
+
+Sì, per i fari con cavo. Abbiamo a magazzino un quadro elettrico portatile da 2000 W con trasformatore 380/220 V e uno stabilizzatore di tensione separato, che insieme di solito coprono un faro con cavo posizionato lontano dalla presa della location. Il kit di uplighting non ne ha bisogno, perché è wireless e a batteria. Non abbiamo un generatore, quindi [contattaci](/contact/) con la planimetria della tua location e ti confermeremo onestamente se la tua situazione elettrica funziona.
+
+### Con quanto anticipo devo prenotare le luci da palco per un matrimonio o un evento aziendale?
+
+Appena la data è confermata. La domanda raggiunge il picco durante la stagione dei matrimoni, da aprile a ottobre, e 2 dei nostri 5 fari esistono in quantità molto limitata, 2 barre Eurolite e 6 fari di uplighting in totale, quindi prenotare presto conta di più qui che per attrezzature disponibili in numero maggiore. Vedi [Con quanto anticipo prenotare](#con-quanto-anticipo-prenotare) più sopra.
+
+### Il noleggio di luci da palco include un tecnico, o le gestisco io?
+
+Dipende dal faro. Le barre RGBW dell'[Eco Pack](/packages/eco/) vengono montate e testate dalla nostra squadra, poi funzionano senza tecnico per il resto dell'evento. Le lucine del [Wedding Pack](/packages/wedding/) arrivano con un tecnico in loco per tutto l'evento. Le barre Eurolite, il Fresnel e il kit di uplighting vengono installati con un tecnico che ne gestisce il posizionamento e, per il kit di uplighting, il colore.
+
+### Le "luci da palco wireless" sono la stessa cosa del vostro kit di uplighting?
+
+Sì, tutte e tre le espressioni indicano lo stesso prodotto reale del nostro catalogo. Abbiamo a magazzino un solo kit di luci wireless, l'ADJ Element H6 Pack con 6 fari a batteria, quindi "luci da palco wireless", "uplighting per il palco" e "uplighting wireless" portano tutte a quell'unico articolo, non a tre prodotti diversi.
+
+### Si possono abbinare le luci da palco a pedane per una presentazione aziendale?
+
+Sì. Il nostro [MICE Pack](/packages/mice/) offre come extra pedane modulari da palco a 35 € al metro quadro, consegnate, montate e ritirate come i nostri fari. [Contattaci](/contact/) indicando la location e ti confermeremo quale combinazione si adatta alla tua presentazione.

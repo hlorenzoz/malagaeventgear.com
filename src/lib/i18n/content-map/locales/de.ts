@@ -61,6 +61,11 @@ export default {
 			slug: 'headset-ansteckmikrofon-mieten',
 			keyword: 'Headset und Ansteckmikrofon mieten Malaga',
 			status: 'propuesta'
+		},
+		'stage-lighting-rental': {
+			slug: 'buehnenbeleuchtung-mieten',
+			keyword: 'Bühnenbeleuchtung mieten Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

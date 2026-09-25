@@ -65,6 +65,11 @@ export default {
 			slug: 'leie-mygg-og-headset',
 			keyword: 'leie mygg og headset i Malaga',
 			status: 'propuesta'
+		},
+		'stage-lighting-rental': {
+			slug: 'leie-av-scenelys',
+			keyword: 'leie av scenelys i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

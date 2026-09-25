@@ -93,6 +93,11 @@ export default {
 			slug: 'aluguel-microfone-lapela-headset',
 			keyword: 'aluguel de microfone de lapela e headset em Málaga',
 			status: 'propuesta'
+		},
+		'stage-lighting-rental': {
+			slug: 'aluguel-de-iluminacao-de-palco',
+			keyword: 'aluguel de iluminação de palco em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

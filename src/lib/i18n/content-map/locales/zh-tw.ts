@@ -49,6 +49,11 @@ export default {
 			slug: '頭戴式領夾式麥克風租賃',
 			keyword: '馬拉加 頭戴式與領夾式麥克風租賃',
 			status: 'propuesta'
+		},
+		'stage-lighting-rental': {
+			slug: '舞台燈光出租',
+			keyword: '馬拉加 舞台燈光出租',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

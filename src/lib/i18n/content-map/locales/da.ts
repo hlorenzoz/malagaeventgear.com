@@ -61,6 +61,11 @@ export default {
 			slug: 'leje-headset-og-knaphulsmikrofon',
 			keyword: 'leje headset og knaphulsmikrofon Malaga',
 			status: 'propuesta'
+		},
+		'stage-lighting-rental': {
+			slug: 'leje-af-scenelys',
+			keyword: 'leje af scenelys Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

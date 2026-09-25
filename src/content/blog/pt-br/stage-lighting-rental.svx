@@ -1,0 +1,201 @@
+---
+title: "Aluguel de iluminação de palco em Málaga, Espanha"
+description: "Aluguel de iluminação de palco em Málaga: os refletores reais Eurolite, ADJ e do Eco Pack da Malaga Event Gear, preços de pacote honestos e o que não oferecemos."
+excerpt: "A camada real de iluminação de palco do nosso catálogo: refletores Eurolite e ADJ citados por marca e modelo, barras RGBW e varais de luzes incluídos nos pacotes, entrega e retirada explicadas e uma lista honesta do que não temos em estoque."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Pesquise "stage lighting rental" em inglês e a maioria dos resultados se encaixa nas mesmas categorias vagas: moving heads, instalações de laser, projetores de gobo, uma linha genérica de "soluções de iluminação LED". Nada disso é citado por marca ou modelo, e parte descreve equipamentos que não existem no depósito de todo fornecedor, incluindo o nosso. Esta página faz o contrário. Cada refletor de iluminação de palco real que a Malaga Event Gear (MEG) tem está listado abaixo, por marca e modelo, com um preço real em euros quando existe, ao lado de uma lista direta do que não temos em estoque.
+
+A MEG é dona de cada refletor desta página e faz a entrega com a própria equipe, com tudo testado antes de cada evento, em Málaga e em toda a Costa del Sol, com uma experiência que vem desde 1996. Nada aqui é lista de desejos. Cada item é equipamento real com preço publicado ou um honesto "orçamento sob consulta".
+
+## Resumo
+
+---
+
+A Malaga Event Gear fornece iluminação de palco para eventos corporativos, casamentos e comemorações em Málaga e em toda a Costa del Sol: 2 barras de luz Eurolite LED KLS-200, 1 refletor Fresnel ADJ Encore FRI50Z para luz geral, 1 kit de uplighting sem fio ADJ Element H6 Pack, 2 barras de spots de LED RGBW incluídas no [Eco Pack](/packages/eco/) e varais de luzes incluídos no [Wedding Pack](/packages/wedding/). Entrega, montagem, testes e retirada fazem parte de todo aluguel e ficam por conta da nossa própria equipe, em vez de chegarem como um kit para você montar sozinho. [Entre em contato](/contact/) para escolher o refletor ou o pacote certo para o seu evento.
+
+## Destaques
+
+---
+
+-   Todos os nossos refletores em um só lugar: 2x barras Eurolite LED KLS-200, 1x Fresnel ADJ Encore FRI50Z, 1x ADJ Element H6 Pack (6 refletores de uplighting sem fio), mais as barras RGBW do [Eco Pack](/packages/eco/) e os varais de luzes do [Wedding Pack](/packages/wedding/).
+
+-   Um esclarecimento honesto sobre o controle: a barra Eurolite funciona com um pedal, não com uma mesa DMX. Não temos em estoque controle de iluminação DMX, moving heads nem sistemas automatizados programáveis.
+
+-   Entrega, montagem, testes e retirada estão incluídos em todo aluguel. Não existe um item separado de "instalação", é simplesmente assim que entregamos.
+
+-   Preços reais de pacote onde eles existem: spots RGBW incluídos no Eco Pack por € 290 sem IVA, varais de luzes incluídos no Wedding Pack por € 650 sem IVA, com técnico incluído.
+
+-   Uma lista direta "O que não temos em estoque" mais abaixo: sem moving heads, sem mesas DMX, sem treliças, sem shows de laser, sem faísca fria, sem estrobos, sem projeção de gobo.
+
+## Todos os nossos refletores de palco: cada equipamento real, por marca e modelo
+
+Cinco produtos reais compõem o estoque de iluminação de palco da MEG, e esta é a única página do nosso site que reúne os cinco em um só lugar.
+
+**2x Eurolite LED KLS-200.** Uma barra de luz LED de 4 cabeças com controle por pedal, usada para iluminação de destaque e geral em palcos corporativos maiores e montagens especiais. Temos 2 unidades. Ela não faz parte de nenhum dos nossos 5 pacotes, então [entre em contato](/contact/) informando o local e o número de convidados, e confirmamos a disponibilidade e um orçamento.
+
+**1x ADJ Encore FRI50Z.** Um refletor Fresnel fixo com zoom para luz geral, o tipo de facho estável e ajustável usado para iluminar de forma uniforme um palestrante, um púlpito ou um elemento do palco, em vez de criar um efeito de troca de cores. Também é um item separado, com orçamento sob consulta.
+
+**1x ADJ Element H6 Pack.** Um kit de uplighting sem fio a bateria com 6 refletores, para banhar de cor uma parede, um backdrop ou uma estrutura a partir do chão, em vez de iluminar um ponto fixo. Na prática, 6 refletores cobrem a iluminação de destaque de 2 a 4 elementos de um espaço, uma entrada, uma mesa de honra, uma fileira de colunas ou uma parede, e não a iluminação de um salão inteiro. É um item separado dos spots coloridos RGBW do Eco Pack apresentados mais abaixo, com orçamento próprio.
+
+**2 barras de luz LED RGBW, [Eco Pack](/packages/eco/).** Uma luz de destaque com troca de cores, entregue e montada pela nossa equipe como parte do pacote e que depois funciona sem técnico pelo resto do evento. Preço publicado de € 290 sem IVA para até 50 convidados.
+
+**Varais de luzes / cordões de LED em luz quente, [Wedding Pack](/packages/wedding/).** Cordões de LED em luz quente para uma iluminação ambiente romântica, incluídos por € 650 sem IVA para até 80 convidados, junto com um técnico que fica no local durante o evento.
+
+<InlineCTA />
+
+## Controle por pedal, não DMX: o que "programável" quer dizer de verdade aqui
+
+Uma busca genérica por "stage lighting rental" muitas vezes sugere refletores DMX programáveis, moving heads que giram e inclinam na deixa ou uma mesa de luz que um técnico opera seguindo um roteiro. Não é isso que a MEG tem em estoque, e preferimos corrigir essa expectativa aqui do que deixar você descobrir no dia do evento.
+
+A barra Eurolite LED KLS-200 é controlada por um pedal, um interruptor simples no palco que um artista ou técnico aperta para trocar a cor ou o padrão do refletor, e não por um sinal DMX enviado de uma mesa de luz. O Fresnel ADJ Encore FRI50Z é um refletor fixo com zoom para luz geral, sem nenhum movimento automatizado. O kit de uplighting ADJ Element H6 Pack também não tem controle de cor por DMX ou por aplicativo divulgado: o nosso técnico define a cor para o seu evento no local, com base no que você nos contar na reserva, em vez de entregar a você um controle remoto ou um aplicativo. Nenhum dos nossos 3 refletores especiais gira, inclina ou segue uma sequência programada. Se o seu evento realmente precisa de iluminação automatizada e controlada por DMX, preferimos dizer isso agora, antes da reserva, do que depois.
+
+## Entrega, montagem, testes e retirada: o que entendemos por "instalação de iluminação de palco"
+
+Algumas buscas por "stage lighting rental" querem saber, na verdade, sobre a instalação: se o fornecedor só deixa as caixas ou se monta de fato o equipamento. Na MEG, a instalação não é um serviço separado com orçamento próprio: ela está incluída em todo aluguel, para cada refletor desta página.
+
+A nossa equipe entrega os refletores no seu espaço, posiciona e direciona cada um de acordo com o local, testa todos antes do início do evento e volta para retirar tudo depois. Isso vale para as barras RGBW do Eco Pack, para os varais de luzes do Wedding Pack com um técnico no local durante todo o evento, e para a barra Eurolite, o Fresnel e o kit de uplighting quando você reserva esses itens separadamente. Não temos uma área de "instalação" independente, como um integrador de sistemas que fixa refletores permanentes no teto de um espaço. Se o que você imagina é uma instalação de iluminação permanente para um espaço que você tem ou administra, isso fica fora do nosso catálogo: entregamos, montamos, testamos e retiramos para o seu evento, e depois levamos tudo embora.
+
+Para uma apresentação corporativa que também precise de uma superfície elevada, o nosso [MICE Pack](/packages/mice/) oferece plataformas modulares de palco como opcional, por € 35 o metro quadrado e no tamanho da sua sala, entregues e desmontadas da mesma forma que a nossa iluminação.
+
+## Iluminação de palco por pacote: preços e o que cada um inclui
+
+| Refletor | Pacote | Preço | Observações |
+| --- | --- | --- | --- |
+| 2 barras de luz LED RGBW | [Eco Pack](/packages/eco/) | € 290 sem IVA | Incluídas, até 50 convidados, sem técnico depois da montagem |
+| Varais de luzes / cordões de LED em luz quente | [Wedding Pack](/packages/wedding/) | € 650 sem IVA | Incluídos, até 80 convidados, técnico no local |
+| Barra Eurolite LED KLS-200 (2 unidades) | Fora dos pacotes | Orçamento sob consulta | Controle por pedal, não DMX |
+| Fresnel ADJ Encore FRI50Z | Fora dos pacotes | Orçamento sob consulta | Refletor fixo com zoom para luz geral |
+| ADJ Element H6 Pack (6 refletores de uplighting sem fio) | Fora dos pacotes | Orçamento sob consulta | A bateria, operado pelo técnico |
+| Plataforma modular de palco | [MICE Pack](/packages/mice/) como opcional | € 35 o metro quadrado | Entregue, montada e retirada junto com a iluminação |
+
+Dois dos nossos cinco refletores vêm dentro de um preço fixo de pacote. Os outros três, a barra Eurolite, o Fresnel e o kit de uplighting, são equipamentos reais sem preço avulso publicado, porque a quantidade e a montagem certas dependem do seu espaço. [Entre em contato](/contact/) com os detalhes do seu evento, e confirmamos o que é possível e quanto custa.
+
+Todos os nossos 5 pacotes incluem equipamento de som como base. Só 2 incluem também iluminação no mesmo preço: o [Eco Pack](/packages/eco/) e o [Wedding Pack](/packages/wedding/). O [Basic MICE Pack](/packages/basic-mice/), o [Product Presentation Pack](/packages/product-presentation/) e o [MICE Pack](/packages/mice/) incluem som, mas nenhum item de iluminação: a camada visual deles é uma tela de projeção ou um painel de LED, e não iluminação de palco. Se o seu evento usa um desses 3 pacotes e também precisa de iluminação, a barra Eurolite, o Fresnel ou o kit de uplighting acima entram como item separado, com orçamento sob consulta, do mesmo jeito que entrariam em qualquer outro evento.
+
+## O que não temos em estoque
+
+Uma busca genérica por "stage lighting" em Málaga mostra categorias que não fazem parte do nosso catálogo. Em vez de ficar em silêncio, aqui vai a lista direta:
+
+-   **Moving heads ou refletores inteligentes.** Não temos refletores robóticos DMX que giram e inclinam. Tudo o que aparece acima tem posição fixa ou é uma barra controlada por pedal, não um sistema automatizado.
+
+-   **Controladores de iluminação DMX.** Não temos em estoque mesa nem software de controle DMX. O pedal da barra Eurolite não é um sistema de controle DMX.
+
+-   **Sistemas de treliça.** Não alugamos treliça (truss) como item separado. A nossa equipe coloca os refletores em tripés ou no chão, sem pendurá-los em uma estrutura de treliça acima do palco.
+
+-   **Canhões seguidores, máquinas de faísca fria, estrobos ou luz negra.** Nenhum desses itens aparece nos nossos pacotes nem no nosso catálogo de equipamentos. Não vamos inventar um orçamento para um produto que não temos.
+
+-   **Shows de laser ou projeção de gobo e monograma.** O nosso estoque de iluminação se limita aos 5 refletores acima. Não fazemos shows de laser nem projetamos padrões personalizados ou monogramas em uma parede ou pista de dança.
+
+Se for exatamente uma dessas coisas que você precisa, preferimos dizer isso agora do que deixar você descobrir depois de descrever o seu evento para nós por telefone. O nosso [catálogo de equipamentos](/equipment/) mostra todo o estoque real por trás de cada pacote.
+
+## Uso ao ar livre: energia e limites honestos com o clima
+
+Terraços de vilas, jardins e beach clubs ao redor de Málaga são locais comuns para os nossos 5 refletores, e a montagem ao ar livre levanta 2 perguntas reais que preferimos responder aqui, em um só lugar, em vez de espalhar por várias páginas.
+
+| Refletor | Montagem ao ar livre | Energia |
+| --- | --- | --- |
+| Barra Eurolite LED KLS-200 | Montada em tripé pela nossa equipe | Com cabo, precisa de uma tomada próxima ou do nosso quadro elétrico |
+| Fresnel ADJ Encore FRI50Z | Montado em tripé pela nossa equipe | Com cabo, precisa de uma tomada próxima ou do nosso quadro elétrico |
+| Uplighting ADJ Element H6 Pack | Colocado no chão pela nossa equipe | Sem fio e a bateria, não precisa de tomada |
+| Barras RGBW do Eco Pack | Montadas em tripé pela nossa equipe | Com cabo, precisa de uma tomada próxima ou do nosso quadro elétrico |
+| Varais de luzes do Wedding Pack | Estendidos pela nossa equipe ao longo da estrutura que você indicar | Com cabo, precisa de uma tomada próxima ou do nosso quadro elétrico |
+
+Uma tomada longe do ponto onde um refletor com cabo precisa ficar é um problema real e comum em locais ao ar livre, e temos em estoque 2 equipamentos reais justamente para isso: um quadro elétrico portátil de 2000 W com transformador de 380/220 V e um estabilizador de tensão separado. Com os dois, a nossa equipe normalmente consegue levar um refletor com cabo até onde o seu espaço precisa, sem que você tenha de procurar ou alugar a sua própria solução de extensão. Não temos gerador: se o seu espaço realmente não tiver nenhuma fonte de energia ao alcance de um desses equipamentos, avise na reserva e confirmamos com honestidade se a montagem é possível.
+
+Quanto ao clima, o grau de proteção IP é a resposta técnica honesta para a pergunta "aguenta chuva ou umidade?": uma escala que vai de IP54 (poeira e respingos leves) até IP67 e IP68 (totalmente submersível). Não confirmamos um grau IP publicado para nenhum dos nossos 5 refletores, nem para os 3 itens especiais nem para as barras RGBW e os varais de luzes incluídos em um pacote. Na prática, o nosso técnico posiciona cada refletor aproveitando a cobertura que o seu espaço oferece e confirma no local uma posição coberta alternativa, em vez de anunciarmos um grau de proteção que não conseguimos comprovar.
+
+## Montagens reais de iluminação de palco que já entregamos
+
+Um olhar sobre reservas reais de iluminação em Málaga e na Costa del Sol:
+
+![Iluminação colorida na parede ao lado do equipamento de som montado para um evento formal em Málaga.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-700x523.webp "Um espaço histórico de Málaga transformado para um evento especial com equipamento profissional de som e iluminação.")
+
+Iluminação colorida na parede dos dois lados de um jantar formal, entregue e testada pela nossa equipe antes do início do evento.
+
+![Uma montagem de palco e púlpito em um evento corporativo MICE à noite em Málaga.](https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp "Uma montagem profissional para um evento MICE em Málaga, com sistema de som, iluminação e um púlpito para apresentações.")
+
+Uma montagem de palco e púlpito em um evento MICE à noite, o tipo de reserva corporativa para a qual os nossos refletores especiais costumam ser pedidos.
+
+<blockquote>
+<p lang="en">"This team delivered a flawless experience! Their MICE pack made everything easy for our event, and the team was both professional and reliable. The sound and lighting were top-notch, and you can tell they truly care about their work. Highly recommended!"</p>
+<ul><li>Carlos Batlles, avaliação de 5 estrelas no Google, março de 2025</li></ul>
+</blockquote>
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1331/', '/1313/'])} speed="normal" direction="left" />
+</div>
+
+## Com quanta antecedência reservar
+
+Reserve assim que a data do seu evento estiver confirmada. A procura na Costa del Sol chega ao pico na temporada de casamentos, de abril a outubro, quando os técnicos e os nossos refletores mais pedidos são os primeiros a esgotar. Como 2 dos nossos 5 refletores, as barras Eurolite, existem em só 2 unidades e o kit de uplighting tem apenas 6 refletores no total, confirmar a data cedo também nos dá tempo de verificar se eles estão mesmo livres, além do pacote que você já reservou.
+
+## Conclusão
+
+Aluguel de iluminação de palco na Malaga Event Gear significa 5 produtos reais: 2 barras Eurolite LED KLS-200 com pedal, um Fresnel ADJ Encore FRI50Z, um kit de uplighting ADJ Element H6 Pack, spots RGBW no Eco Pack e varais de luzes no Wedding Pack, cada um entregue, montado, testado e retirado pela nossa própria equipe. Não temos em estoque moving heads, mesas DMX, treliças, lasers, faísca fria nem estrobos, e preferimos dizer isso diretamente do que deixar uma busca genérica dar a entender o contrário. [Entre em contato](/contact/) com o local e os detalhes do seu evento, e confirmamos qual refletor ou pacote serve.
+
+## Perguntas frequentes
+
+### Que equipamentos de iluminação de palco a MEG realmente tem em estoque?
+
+Cinco produtos reais: 2 barras de luz Eurolite LED KLS-200, 1 Fresnel ADJ Encore FRI50Z, 1 ADJ Element H6 Pack (6 refletores de uplighting sem fio), 2 barras de luz LED RGBW no [Eco Pack](/packages/eco/) e varais de luzes no [Wedding Pack](/packages/wedding/). Veja [Todos os nossos refletores de palco](#todos-os-nossos-refletores-de-palco-cada-equipamento-real-por-marca-e-modelo) acima.
+
+### A iluminação de palco de vocês é controlada por DMX ou programável?
+
+Não. A barra Eurolite funciona com um pedal, o Fresnel é um refletor fixo com zoom para luz geral sem movimento automatizado, e a cor do kit de uplighting é definida pelo nosso técnico no local, não por sinal DMX nem por aplicativo. Veja [Controle por pedal, não DMX](#controle-por-pedal-não-dmx-o-que-programável-quer-dizer-de-verdade-aqui) acima.
+
+### Vocês oferecem moving heads ou refletores inteligentes?
+
+Não. Não temos refletores robóticos DMX que giram e inclinam. Veja [O que não temos em estoque](#o-que-não-temos-em-estoque) acima.
+
+### Entrega, montagem e retirada estão incluídas, ou a instalação é cobrada à parte?
+
+Estão incluídas, para cada refletor desta página. Não temos uma área de "instalação" separada: a nossa equipe entrega, posiciona, testa e retira o equipamento como parte do aluguel. Veja [Entrega, montagem, testes e retirada](#entrega-montagem-testes-e-retirada-o-que-entendemos-por-instalação-de-iluminação-de-palco) acima.
+
+### Quanto custa o aluguel de iluminação de palco em Málaga?
+
+Depende do refletor. As barras RGBW estão incluídas no [Eco Pack](/packages/eco/) por € 290 sem IVA, e os varais de luzes no [Wedding Pack](/packages/wedding/) por € 650 sem IVA. As barras Eurolite, o Fresnel e o kit de uplighting não têm preço avulso publicado: [entre em contato](/contact/) com os detalhes do seu evento para receber um orçamento. Veja [Iluminação de palco por pacote](#iluminação-de-palco-por-pacote-preços-e-o-que-cada-um-inclui) acima.
+
+### Quais pacotes da MEG reúnem som e iluminação?
+
+Só 2: o [Eco Pack](/packages/eco/) e o [Wedding Pack](/packages/wedding/). O [Basic MICE Pack](/packages/basic-mice/), o [Product Presentation Pack](/packages/product-presentation/) e o [MICE Pack](/packages/mice/) incluem som, mas a camada visual deles é uma tela de projeção ou um painel de LED, não iluminação de palco. Veja [Iluminação de palco por pacote](#iluminação-de-palco-por-pacote-preços-e-o-que-cada-um-inclui) acima para o detalhamento exato.
+
+### Qual é a diferença entre iluminação de palco e uplighting de palco?
+
+Nesta página, iluminação de palco abrange todos os nossos refletores: as barras Eurolite, o Fresnel, os spots RGBW e o kit de uplighting juntos. Uplighting é especificamente o nosso ADJ Element H6 Pack, um kit sem fio que banha de cor uma parede ou estrutura a partir do chão, diferente da barra Eurolite ou do Fresnel, que são refletores de posição fixa para luz geral e de destaque. Publicamos um guia mais aprofundado só sobre o nosso kit de uplighting, que trata da cobertura realista de um espaço e do uso ao ar livre com mais detalhes do que esta página.
+
+### Dá para alugar iluminação de palco sem um pacote completo de som ou de palco?
+
+Sim, para os 3 refletores que não fazem parte de nenhum pacote: as barras Eurolite, o Fresnel e o kit de uplighting são todos itens separados, com orçamento sob consulta. Já os spots RGBW e os varais de luzes só estão disponíveis como parte do [Eco Pack](/packages/eco/) e do [Wedding Pack](/packages/wedding/), respectivamente, e não como aluguel avulso.
+
+### A iluminação de palco está disponível para eventos ao ar livre?
+
+Sim, com uma ressalva honesta. Não confirmamos resistência a intempéries nem grau IP para nenhum dos nossos 5 refletores, nem para os 3 itens especiais nem para as barras RGBW e os varais de luzes incluídos em um pacote, por isso não divulgamos nenhum deles como equipamento certificado para áreas externas. Na prática, o nosso técnico avalia as condições no local, posiciona os refletores aproveitando a cobertura que o espaço oferece e recomenda uma posição coberta alternativa se a chuva for um risco real na sua data. Veja [Uso ao ar livre: energia e limites honestos com o clima](#uso-ao-ar-livre-energia-e-limites-honestos-com-o-clima) acima para ver a montagem e a energia de cada refletor.
+
+### Vocês fornecem energia para iluminação ao ar livre longe de uma tomada?
+
+Sim, para refletores com cabo. Temos em estoque um quadro elétrico portátil de 2000 W com transformador de 380/220 V e um estabilizador de tensão separado, que juntos costumam atender um refletor com cabo posicionado longe da tomada do seu espaço. O kit de uplighting não precisa disso, porque é sem fio e a bateria. Não temos gerador, então [entre em contato](/contact/) com a planta do seu espaço, e confirmamos com honestidade se a sua situação de energia funciona.
+
+### Com quanta antecedência devo reservar iluminação de palco para um casamento ou evento corporativo?
+
+Assim que a data estiver confirmada. A procura chega ao pico na temporada de casamentos, de abril a outubro, e 2 dos nossos 5 refletores existem em quantidade bem limitada, 2 barras Eurolite e 6 refletores de uplighting no total, então reservar cedo pesa mais aqui do que para equipamentos que temos em maior quantidade. Veja [Com quanta antecedência reservar](#com-quanta-antecedência-reservar) acima.
+
+### O aluguel de iluminação de palco inclui um técnico, ou eu mesmo opero?
+
+Depende do refletor. As barras RGBW do [Eco Pack](/packages/eco/) são montadas e testadas pela nossa equipe e depois funcionam sem técnico pelo resto do evento. Os varais de luzes do [Wedding Pack](/packages/wedding/) vêm com um técnico no local durante o evento. As barras Eurolite, o Fresnel e o kit de uplighting são instalados com um técnico que cuida do posicionamento e, no caso do kit de uplighting, da cor.
+
+### A "iluminação de palco sem fio" é a mesma coisa que o kit de uplighting de vocês?
+
+Sim, as três expressões apontam para o mesmo produto real do nosso catálogo. Temos em estoque um único kit de iluminação sem fio, o ADJ Element H6 Pack com 6 refletores a bateria, então "iluminação de palco sem fio", "uplighting de palco" e "uplighting sem fio" levam todos a esse único item, e não a três produtos diferentes.
+
+### Dá para combinar iluminação de palco com plataformas de palco em uma apresentação corporativa?
+
+Sim. O nosso [MICE Pack](/packages/mice/) oferece plataformas modulares de palco como opcional por € 35 o metro quadrado, entregues, montadas e retiradas da mesma forma que os nossos refletores. [Entre em contato](/contact/) informando o local, e confirmamos a combinação que funciona para a sua apresentação.

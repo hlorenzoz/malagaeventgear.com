@@ -57,6 +57,11 @@ export default {
 			slug: 'hyra-mygga-och-headset',
 			keyword: 'hyra mygga och headset Malaga',
 			status: 'propuesta'
+		},
+		'stage-lighting-rental': {
+			slug: 'hyra-scenbelysning',
+			keyword: 'hyra scenbelysning Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

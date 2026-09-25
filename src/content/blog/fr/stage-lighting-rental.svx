@@ -1,0 +1,201 @@
+---
+title: "Location d'éclairage scénique à Malaga, Espagne"
+description: "Location d'éclairage scénique à Malaga : les vrais projecteurs Eurolite, ADJ et Eco Pack, des tarifs de forfait honnêtes et ce que nous ne proposons pas."
+excerpt: "La vraie couche d'éclairage scénique de notre catalogue : projecteurs Eurolite et ADJ cités par marque et modèle, barres RGBW et guirlandes lumineuses incluses dans les forfaits, livraison et reprise expliquées, et une liste honnête de ce que nous n'avons pas en stock."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Tapez "stage lighting rental" dans une recherche en anglais et la plupart des résultats se rangent dans les mêmes catégories vagues : lyres motorisées, installations laser, projecteurs de gobos, une ligne générale de "solutions d'éclairage LED". Rien n'y est cité par marque ni par modèle, et une partie décrit du matériel qui ne se trouve pas dans l'entrepôt de chaque prestataire, le nôtre compris. Cette page fait l'inverse. Chaque projecteur d'éclairage scénique réel que possède Malaga Event Gear (MEG) est cité ci-dessous, par marque et par modèle, avec un vrai prix en euros quand il existe, à côté d'une liste directe de ce que nous n'avons pas en stock.
+
+MEG possède et livre elle-même chaque projecteur de cette page, testé avant chaque événement, à Malaga et sur toute la Costa del Sol, avec une expérience qui remonte à 1996. Rien ici n'est une liste de souhaits. Chaque article est soit du matériel réel avec un prix affiché, soit un honnête "sur devis".
+
+## En bref
+
+---
+
+Malaga Event Gear fournit de l'éclairage scénique pour les événements d'entreprise, les mariages et les célébrations à Malaga et sur toute la Costa del Sol : 2 barres lumineuses Eurolite LED KLS-200, 1 projecteur Fresnel ADJ Encore FRI50Z pour un éclairage d'ambiance, 1 kit d'uplighting sans fil ADJ Element H6 Pack, 2 barres de projecteurs LED RGBW incluses dans l'[Eco Pack](/packages/eco/) et des guirlandes lumineuses incluses dans le [Wedding Pack](/packages/wedding/). La livraison, l'installation, les tests et la reprise font partie de chaque location, assurés par notre propre équipe plutôt qu'envoyés en kit à monter soi-même. [Contactez-nous](/contact/) pour associer un projecteur ou un forfait à votre événement.
+
+## Points clés
+
+---
+
+-   Tout notre parc d'éclairage au même endroit : 2x barres Eurolite LED KLS-200, 1x Fresnel ADJ Encore FRI50Z, 1x ADJ Element H6 Pack (6 projecteurs d'uplighting sans fil), plus les barres RGBW de l'[Eco Pack](/packages/eco/) et les guirlandes lumineuses du [Wedding Pack](/packages/wedding/).
+
+-   Une précision honnête sur la commande : la barre Eurolite se pilote avec une pédale, pas avec une console DMX. Nous n'avons en stock ni commande d'éclairage DMX, ni lyres motorisées, ni systèmes automatisés programmables.
+
+-   La livraison, l'installation, les tests et la reprise sont compris dans chaque location. Il n'y a pas de ligne "installation" à part, c'est simplement notre façon de livrer.
+
+-   De vrais prix de forfait quand ils existent : projecteurs RGBW inclus dans l'Eco Pack à 290 € HT, guirlandes lumineuses incluses dans le Wedding Pack à 650 € HT, technicien compris.
+
+-   Une liste directe "Ce que nous n'avons pas en stock" plus bas : pas de lyres motorisées, pas de consoles DMX, pas de truss, pas de spectacles laser, pas d'étincelles froides, pas de stroboscopes, pas de projection de gobos.
+
+## Notre parc complet d'éclairage scénique : chaque projecteur réel, par marque et modèle
+
+Cinq produits réels composent le parc d'éclairage scénique de MEG, et cette page est la seule de notre site qui les réunit tous les cinq.
+
+**2x Eurolite LED KLS-200.** Une barre lumineuse LED à 4 têtes commandée par pédale, utilisée pour l'éclairage d'accentuation et d'ambiance sur les grandes scènes d'entreprise et les configurations spéciales. Nous en possédons 2. Elle n'est incluse dans aucun de nos 5 forfaits, alors [contactez-nous](/contact/) avec votre lieu et votre nombre d'invités, et nous vous confirmerons la disponibilité et un devis.
+
+**1x ADJ Encore FRI50Z.** Un projecteur Fresnel fixe à zoom, le genre de faisceau stable et réglable qui sert à éclairer uniformément un orateur, un pupitre ou un élément de la scène plutôt qu'à créer un effet de changement de couleur. Lui aussi est un article à part, sur devis.
+
+**1x ADJ Element H6 Pack.** Un kit d'uplighting sans fil sur batterie de 6 projecteurs, qui baigne un mur, un fond de scène ou une structure de couleur depuis le sol plutôt que d'éclairer un point fixe. Concrètement, 6 projecteurs couvrent l'éclairage d'accentuation de 2 à 4 éléments d'un lieu, une entrée, une table d'honneur, une rangée de colonnes ou un mur, pas l'éclairage d'une salle entière. C'est un article distinct des projecteurs RGBW colorés de l'Eco Pack présentés plus bas, avec son propre devis.
+
+**2 barres LED RGBW, [Eco Pack](/packages/eco/).** Un éclairage d'accentuation à changement de couleur, livré et installé par notre équipe dans le cadre du forfait, puis utilisé sans technicien pendant le reste de votre événement. Affiché à 290 € HT pour 50 invités maximum.
+
+**Guirlandes lumineuses LED blanc chaud, [Wedding Pack](/packages/wedding/).** Des guirlandes LED blanc chaud pour une ambiance romantique, incluses à 650 € HT pour 80 invités maximum, avec un technicien qui reste sur place pendant l'événement.
+
+<InlineCTA />
+
+## Commande par pédale, pas de DMX : ce que "programmable" veut vraiment dire ici
+
+Une recherche générale sur "stage lighting rental" laisse souvent entendre des projecteurs DMX programmables, des lyres motorisées qui pivotent et s'inclinent sur commande, ou une console d'éclairage qu'un technicien pilote selon un script. Ce n'est pas ce que MEG a en stock, et nous préférons corriger cette attente ici plutôt que de vous laisser la découvrir le jour de votre événement.
+
+La barre Eurolite LED KLS-200 se commande avec une pédale, un simple interrupteur sur scène qu'un artiste ou un technicien actionne pour changer la couleur ou le motif, et non avec un signal DMX envoyé depuis une console. Le Fresnel ADJ Encore FRI50Z est un projecteur fixe à zoom, sans aucun mouvement automatisé. Le kit d'uplighting ADJ Element H6 Pack n'a pas non plus de commande de couleur DMX ou par application annoncée : notre technicien règle la couleur sur place pour votre événement, selon ce que vous nous indiquez à la réservation, plutôt que de vous remettre une télécommande ou une application. Aucun de nos 3 projecteurs spéciaux ne pivote, ne s'incline ni ne suit une conduite programmée. Si votre événement a réellement besoin d'un éclairage automatisé piloté en DMX, nous préférons vous le dire maintenant, avant la réservation, plutôt qu'après.
+
+## Livraison, installation, tests et reprise : ce que nous entendons par "installation d'éclairage scénique"
+
+Certaines recherches sur "stage lighting rental" portent en réalité sur l'installation : un prestataire se contente-t-il de déposer des caisses ou installe-t-il vraiment le matériel ? Chez MEG, l'installation n'est pas un service à part avec son propre devis : elle est comprise dans chaque location, pour chaque projecteur de cette page.
+
+Notre équipe livre les projecteurs sur votre lieu, les positionne et les oriente en fonction de l'espace, teste chacun d'eux avant le début de votre événement, et revient tout reprendre ensuite. C'est vrai pour les barres RGBW de l'Eco Pack, pour les guirlandes lumineuses du Wedding Pack avec un technicien sur place pendant toute la durée, et pour la barre Eurolite, le Fresnel et le kit d'uplighting quand vous les réservez séparément. Nous n'avons pas d'activité "installation" à part entière, comme un intégrateur qui fixe des projecteurs permanents au plafond d'un lieu. Si vous pensez à une installation d'éclairage permanente pour un lieu que vous possédez ou gérez, cela sort de notre catalogue : nous livrons, installons, testons et reprenons le matériel pour votre événement, puis nous repartons avec tout.
+
+Pour une présentation d'entreprise qui a aussi besoin d'une surface surélevée, notre [MICE Pack](/packages/mice/) propose en option des plateaux de scène modulables, à 35 € le mètre carré et dimensionnés selon votre salle, livrés et démontés de la même façon que notre éclairage.
+
+## L'éclairage scénique par forfait : tarifs et contenu de chaque forfait
+
+| Projecteur | Forfait | Prix | Remarques |
+| --- | --- | --- | --- |
+| 2 barres LED RGBW | [Eco Pack](/packages/eco/) | 290 € HT | Inclus, jusqu'à 50 invités, utilisé sans technicien après l'installation |
+| Guirlandes lumineuses LED blanc chaud | [Wedding Pack](/packages/wedding/) | 650 € HT | Inclus, jusqu'à 80 invités, technicien sur place |
+| Barre Eurolite LED KLS-200 (2 unités) | Hors forfait | Sur devis | Commande par pédale, pas de DMX |
+| Fresnel ADJ Encore FRI50Z | Hors forfait | Sur devis | Projecteur fixe à zoom |
+| ADJ Element H6 Pack (6 projecteurs d'uplighting sans fil) | Hors forfait | Sur devis | Sur batterie, géré par le technicien |
+| Plateau de scène modulable | [MICE Pack](/packages/mice/) en option | 35 € le mètre carré | Livré, installé et repris avec l'éclairage |
+
+Deux de nos cinq projecteurs sont inclus dans un prix de forfait fixe. Les trois autres, la barre Eurolite, le Fresnel et le kit d'uplighting, sont du matériel réel sans prix à l'unité affiché, parce que la bonne quantité et la bonne configuration dépendent de votre lieu. [Contactez-nous](/contact/) avec les détails de votre événement et nous vous confirmerons ce qui est possible et ce que cela coûte.
+
+Nos 5 forfaits comprennent tous du matériel de sonorisation. Seuls 2 incluent aussi de l'éclairage dans ce même prix : l'[Eco Pack](/packages/eco/) et le [Wedding Pack](/packages/wedding/). Le [Basic MICE Pack](/packages/basic-mice/), le [Product Presentation Pack](/packages/product-presentation/) et le [MICE Pack](/packages/mice/) comprennent le son mais aucune ligne d'éclairage : leur couche visuelle est un écran de projection ou un écran LED, pas de l'éclairage scénique. Si votre événement repose sur l'un de ces 3 forfaits et a aussi besoin d'éclairage, la barre Eurolite, le Fresnel ou le kit d'uplighting présentés plus haut s'ajoutent comme un article à part, sur devis, exactement comme pour n'importe quel autre événement.
+
+## Ce que nous n'avons pas en stock
+
+Une recherche générale sur "stage lighting" à Malaga fait apparaître des catégories qui ne font pas partie de notre catalogue. Plutôt que de nous taire, voici la liste directe :
+
+-   **Lyres motorisées ou projecteurs automatisés.** Nous ne possédons pas de projecteurs robotisés DMX qui pivotent et s'inclinent. Tout ce qui est présenté plus haut est soit fixe, soit une barre commandée par pédale, pas un système automatisé.
+
+-   **Consoles d'éclairage DMX.** Nous n'avons en stock ni console ni logiciel de commande DMX. La pédale de la barre Eurolite n'est pas un système de commande DMX.
+
+-   **Structures en truss.** Nous ne louons pas de truss comme article séparé. Notre équipe place nos projecteurs sur pied ou au sol, sans les accrocher à une structure en truss au-dessus de la scène.
+
+-   **Poursuites, machines à étincelles froides, stroboscopes ou lumière noire.** Aucun de ces articles ne figure dans nos forfaits ni dans notre catalogue de matériel. Nous n'inventerons pas de devis pour un produit que nous n'avons pas.
+
+-   **Spectacles laser ou projection de gobos et de monogrammes.** Notre parc d'éclairage se limite aux 5 projecteurs présentés plus haut. Nous ne proposons pas de spectacles laser et nous ne projetons ni motif personnalisé ni monogramme sur un mur ou une piste de danse.
+
+Si c'est l'un de ces éléments dont vous avez réellement besoin, nous préférons vous le dire maintenant plutôt que de vous le laisser découvrir après nous avoir décrit votre événement au téléphone. Notre [catalogue de matériel](/equipment/) présente tout le matériel réel derrière chaque forfait.
+
+## En extérieur : alimentation et limites honnêtes face à la météo
+
+Les terrasses de villas, les jardins et les beach clubs autour de Malaga accueillent souvent nos 5 projecteurs, et une installation en extérieur soulève 2 vraies questions auxquelles nous préférons répondre ici, en un seul endroit, plutôt que sur plusieurs pages.
+
+| Projecteur | Installation en extérieur | Alimentation |
+| --- | --- | --- |
+| Barre Eurolite LED KLS-200 | Montée sur pied par notre équipe | Filaire, nécessite une prise à proximité ou notre armoire électrique |
+| Fresnel ADJ Encore FRI50Z | Monté sur pied par notre équipe | Filaire, nécessite une prise à proximité ou notre armoire électrique |
+| Uplighting ADJ Element H6 Pack | Posé au sol par notre équipe | Sans fil et sur batterie, aucune prise nécessaire |
+| Barres RGBW de l'Eco Pack | Montées sur pied par notre équipe | Filaire, nécessite une prise à proximité ou notre armoire électrique |
+| Guirlandes lumineuses du Wedding Pack | Tendues par notre équipe le long de la structure que vous indiquez | Filaire, nécessite une prise à proximité ou notre armoire électrique |
+
+Une prise éloignée de l'endroit où doit se trouver un projecteur filaire est un problème réel et fréquent dans les lieux en extérieur, et nous avons en stock 2 vrais équipements pour cela : une armoire électrique portable de 2000 W avec un transformateur 380/220 V, et un stabilisateur de tension séparé. À eux deux, ils permettent en général à notre équipe d'amener un projecteur filaire là où votre lieu en a besoin, sans que vous ayez à trouver ou à louer votre propre solution de rallonge. Nous n'avons pas de groupe électrogène : si votre lieu n'a vraiment aucune source d'alimentation à portée de l'un ou l'autre de ces équipements, dites-le-nous à la réservation et nous vous confirmerons honnêtement si l'emplacement est possible.
+
+Pour la météo, l'indice IP est la réponse technique honnête à la question "est-ce que cela supporte la pluie ou l'humidité ?", une échelle qui va d'IP54 (poussière et légères projections d'eau) jusqu'à IP67 et IP68 (entièrement submersible). Nous n'avons confirmé d'indice IP publié pour aucun de nos 5 projecteurs, ni pour les 3 articles spéciaux, ni pour les barres RGBW et les guirlandes lumineuses incluses dans un forfait. En pratique, notre technicien place chaque projecteur à l'abri que votre lieu peut offrir et confirme sur place un emplacement de repli couvert, plutôt que nous n'annoncions un indice que nous ne pouvons pas vérifier.
+
+## Des installations d'éclairage scénique réelles que nous avons réalisées
+
+Un aperçu de vraies réservations d'éclairage à Malaga et sur la Costa del Sol :
+
+![Éclairage mural coloré à côté du matériel de sonorisation installé pour un événement formel à Malaga.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-700x523.webp "Un lieu historique de Malaga transformé pour un événement spécial grâce à du matériel professionnel de son et d'éclairage.")
+
+Un éclairage mural coloré de part et d'autre d'un dîner formel, livré et testé par notre équipe avant le début de l'événement.
+
+![Une installation de scène et de pupitre lors d'un événement d'entreprise MICE en soirée à Malaga.](https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp "Une installation professionnelle pour un événement MICE à Malaga, avec un système audio, de l'éclairage et un pupitre pour les présentations.")
+
+Une installation de scène et de pupitre lors d'un événement MICE en soirée, le type de réservation d'entreprise pour lequel on nous demande nos projecteurs spéciaux.
+
+<blockquote>
+<p lang="en">"This team delivered a flawless experience! Their MICE pack made everything easy for our event, and the team was both professional and reliable. The sound and lighting were top-notch, and you can tell they truly care about their work. Highly recommended!"</p>
+<ul><li>Carlos Batlles, avis Google 5 étoiles, mars 2025</li></ul>
+</blockquote>
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1331/', '/1313/'])} speed="normal" direction="left" />
+</div>
+
+## Combien de temps à l'avance réserver
+
+Réservez dès que la date de votre événement est confirmée. La demande sur la Costa del Sol culmine pendant la saison des mariages, d'avril à octobre, lorsque les techniciens et nos projecteurs les plus demandés sont les premiers à être réservés. Comme 2 de nos 5 projecteurs, les barres Eurolite, n'existent qu'en 2 unités et que le kit d'uplighting ne compte que 6 projecteurs au total, confirmer votre date tôt nous laisse aussi le temps de vérifier qu'ils sont vraiment disponibles, en plus du forfait que vous avez déjà réservé.
+
+## Conclusion
+
+La location d'éclairage scénique chez Malaga Event Gear, ce sont 5 produits réels : 2 barres Eurolite LED KLS-200 commandées par pédale, un Fresnel ADJ Encore FRI50Z, un kit d'uplighting ADJ Element H6 Pack, les projecteurs RGBW de l'Eco Pack et les guirlandes lumineuses du Wedding Pack, chacun livré, installé, testé et repris par notre propre équipe. Nous n'avons en stock ni lyres motorisées, ni consoles DMX, ni truss, ni lasers, ni étincelles froides, ni stroboscopes, et nous préférons le dire clairement plutôt que de laisser une recherche générale suggérer le contraire. [Contactez-nous](/contact/) avec votre lieu et les détails de votre événement, et nous vous confirmerons le projecteur ou le forfait qui convient.
+
+## Questions fréquentes
+
+### Quel matériel d'éclairage scénique MEG a-t-elle vraiment en stock ?
+
+Cinq produits réels : 2 barres lumineuses Eurolite LED KLS-200, 1 Fresnel ADJ Encore FRI50Z, 1 ADJ Element H6 Pack (6 projecteurs d'uplighting sans fil), 2 barres LED RGBW dans l'[Eco Pack](/packages/eco/) et des guirlandes lumineuses dans le [Wedding Pack](/packages/wedding/). Consultez [Notre parc complet d'éclairage scénique](#notre-parc-complet-déclairage-scénique--chaque-projecteur-réel-par-marque-et-modèle) plus haut.
+
+### Votre éclairage scénique est-il commandé en DMX ou programmable ?
+
+Non. La barre Eurolite fonctionne avec une pédale, le Fresnel est un projecteur fixe à zoom sans mouvement automatisé, et la couleur du kit d'uplighting est réglée sur place par notre technicien, pas par un signal DMX ni par une application. Consultez [Commande par pédale, pas de DMX](#commande-par-pédale-pas-de-dmx--ce-que-programmable-veut-vraiment-dire-ici) plus haut.
+
+### Proposez-vous des lyres motorisées ou des projecteurs automatisés ?
+
+Non. Nous ne possédons pas de projecteurs robotisés DMX qui pivotent et s'inclinent. Consultez [Ce que nous n'avons pas en stock](#ce-que-nous-navons-pas-en-stock) plus haut.
+
+### La livraison, l'installation et la reprise sont-elles comprises, ou l'installation est-elle facturée à part ?
+
+Elles sont comprises, pour chaque projecteur de cette page. Nous n'avons pas d'activité "installation" à part : notre équipe livre, positionne, teste et reprend le matériel dans le cadre de la location. Consultez [Livraison, installation, tests et reprise](#livraison-installation-tests-et-reprise--ce-que-nous-entendons-par-installation-déclairage-scénique) plus haut.
+
+### Combien coûte la location d'éclairage scénique à Malaga ?
+
+Cela dépend du projecteur. Les barres RGBW sont incluses dans l'[Eco Pack](/packages/eco/) à 290 € HT, et les guirlandes lumineuses dans le [Wedding Pack](/packages/wedding/) à 650 € HT. Les barres Eurolite, le Fresnel et le kit d'uplighting n'ont pas de prix à l'unité affiché : [contactez-nous](/contact/) avec les détails de votre événement pour obtenir un devis. Consultez [L'éclairage scénique par forfait](#léclairage-scénique-par-forfait--tarifs-et-contenu-de-chaque-forfait) plus haut.
+
+### Quels forfaits de MEG réunissent le son et l'éclairage ?
+
+Seulement 2 : l'[Eco Pack](/packages/eco/) et le [Wedding Pack](/packages/wedding/). Le [Basic MICE Pack](/packages/basic-mice/), le [Product Presentation Pack](/packages/product-presentation/) et le [MICE Pack](/packages/mice/) comprennent tous le son, mais leur couche visuelle est un écran de projection ou un écran LED, pas de l'éclairage scénique. Consultez [L'éclairage scénique par forfait](#léclairage-scénique-par-forfait--tarifs-et-contenu-de-chaque-forfait) plus haut pour le détail exact.
+
+### Quelle est la différence entre l'éclairage scénique et l'uplighting de scène ?
+
+Sur cette page, l'éclairage scénique couvre tout notre parc de projecteurs : les barres Eurolite, le Fresnel, les projecteurs RGBW et le kit d'uplighting ensemble. L'uplighting correspond précisément à notre ADJ Element H6 Pack, un kit sans fil qui baigne un mur ou une structure de couleur depuis le sol, à la différence de la barre Eurolite ou du Fresnel, qui sont des projecteurs fixes d'ambiance et d'accentuation. Nous publions un guide plus détaillé consacré uniquement à notre kit d'uplighting, qui traite plus en profondeur que cette page la couverture réaliste d'un lieu et l'utilisation en extérieur.
+
+### Peut-on louer de l'éclairage scénique sans forfait complet de sonorisation ou de scène ?
+
+Oui, pour les 3 projecteurs qui ne sont inclus dans aucun forfait : les barres Eurolite, le Fresnel et le kit d'uplighting sont tous des articles à part, sur devis. Les projecteurs RGBW et les guirlandes lumineuses, en revanche, ne sont disponibles que dans l'[Eco Pack](/packages/eco/) et le [Wedding Pack](/packages/wedding/) respectivement, pas en location seule.
+
+### L'éclairage scénique est-il disponible pour les événements en extérieur ?
+
+Oui, avec une réserve honnête. Nous n'avons confirmé d'étanchéité ni d'indice IP pour aucun de nos 5 projecteurs, ni pour les 3 articles spéciaux, ni pour les barres RGBW et les guirlandes lumineuses incluses dans un forfait, donc nous ne présentons aucun d'eux comme du matériel certifié pour l'extérieur. En pratique, notre technicien évalue les conditions sur place, place les projecteurs à l'abri que le lieu peut offrir et recommande un emplacement de repli couvert si la pluie est un vrai risque à votre date. Consultez [En extérieur : alimentation et limites honnêtes face à la météo](#en-extérieur--alimentation-et-limites-honnêtes-face-à-la-météo) plus haut pour le détail de l'installation et de l'alimentation de chaque projecteur.
+
+### Fournissez-vous l'alimentation pour un éclairage extérieur éloigné d'une prise ?
+
+Oui, pour les projecteurs filaires. Nous avons en stock une armoire électrique portable de 2000 W avec un transformateur 380/220 V et un stabilisateur de tension séparé, qui à eux deux couvrent en général un projecteur filaire placé loin de la prise de votre lieu. Le kit d'uplighting n'en a pas besoin, il est sans fil et fonctionne sur batterie. Nous n'avons pas de groupe électrogène, alors [contactez-nous](/contact/) avec le plan de votre lieu et nous vous confirmerons honnêtement si votre situation électrique convient.
+
+### Combien de temps à l'avance faut-il réserver l'éclairage scénique pour un mariage ou un événement d'entreprise ?
+
+Dès que votre date est confirmée. La demande culmine pendant la saison des mariages, d'avril à octobre, et 2 de nos 5 projecteurs n'existent qu'en très petite quantité, 2 barres Eurolite et 6 projecteurs d'uplighting au total, donc réserver tôt compte davantage ici que pour du matériel disponible en plus grand nombre. Consultez [Combien de temps à l'avance réserver](#combien-de-temps-à-lavance-réserver) plus haut.
+
+### La location d'éclairage scénique comprend-elle un technicien, ou dois-je le gérer moi-même ?
+
+Cela dépend du projecteur. Les barres RGBW de l'[Eco Pack](/packages/eco/) sont installées et testées par notre équipe, puis fonctionnent sans technicien pendant le reste de votre événement. Les guirlandes lumineuses du [Wedding Pack](/packages/wedding/) sont accompagnées d'un technicien sur place pendant l'événement. Les barres Eurolite, le Fresnel et le kit d'uplighting sont déployés avec un technicien qui gère leur emplacement et, pour le kit d'uplighting, la couleur.
+
+### L'"éclairage scénique sans fil", est-ce la même chose que votre kit d'uplighting ?
+
+Oui, ces trois expressions désignent le même produit réel de notre catalogue. Nous avons en stock un seul kit d'éclairage sans fil, l'ADJ Element H6 Pack de 6 projecteurs sur batterie, donc "éclairage scénique sans fil", "uplighting de scène" et "uplighting sans fil" renvoient tous à cet article unique, et non à trois produits différents.
+
+### Peut-on combiner l'éclairage scénique avec des plateaux de scène pour une présentation d'entreprise ?
+
+Oui. Notre [MICE Pack](/packages/mice/) propose en option des plateaux de scène modulables à 35 € le mètre carré, livrés, installés et repris de la même façon que nos projecteurs. [Contactez-nous](/contact/) avec votre lieu et nous vous confirmerons la combinaison qui convient à votre présentation.

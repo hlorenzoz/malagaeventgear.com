@@ -49,6 +49,11 @@ export default {
 			slug: '头戴式领夹式麦克风租赁',
 			keyword: '马拉加 头戴式与领夹式麦克风租赁',
 			status: 'propuesta'
+		},
+		'stage-lighting-rental': {
+			slug: '舞台灯光租赁',
+			keyword: '马拉加 舞台灯光租赁',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
