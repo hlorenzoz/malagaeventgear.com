@@ -1,0 +1,115 @@
+---
+title: "Tontechnik für die Trauung in Malaga, für Ihr Eheversprechen"
+description: "Wer auf Englisch \"unique wedding ceremony rentals\" sucht, findet vor allem Deko. Unser ehrlicher Ansatz: Tontechnik für die Trauung aus unserem eigenen Bestand."
+excerpt: "Wer auf Englisch \"unique wedding ceremony rentals\" sucht, findet vor allem Deko. Unser ehrlicher Ansatz: Tontechnik für die Trauung aus unserem eigenen Bestand."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Wer auf Englisch nach "unique wedding ceremony rentals" in Malaga sucht, findet meist Traubögen, Altäre, Hintergründe und besondere Möbel, und nichts davon gehört zum eigenen Bestand von Malaga Event Gear. Was wir für eine Trauung liefern, ist der Ton: eine PA-Anlage, die auf das Eheversprechen abgestimmt ist, ein Mikrofon für den Trauredner und Ambientelicht, das den Raum ergänzt, den jemand anderes dekoriert. Den vollständigen Überblick darüber, was wir bei Hochzeiten abdecken, finden Sie in unserem Ratgeber zum [Hochzeitsverleih](/blog/wedding-rentals/).
+
+## Kurzüberblick
+
+---
+
+Dekoration, Aufbauten und Möbel für die Trauung gehören nicht zum eigenen Bestand von MEG (siehe weiter unten [Ambientelicht schafft Atmosphäre, keine Dekoration](#ambientelicht-schafft-atmosphäre-keine-dekoration)). Das [Wedding Pack](/packages/wedding/) deckt den Ton der Trauung ab: eine PA-Anlage für bis zu 80 Gäste, ein Mikrofon für den Trauredner, Ambientebeleuchtung mit Lichterketten und warmen LED-Lichterschläuchen sowie einen Techniker vor Ort, der die Anlage aufstellt und überwacht, alles für 650 € zzgl. MwSt. Was den Ton einer Trauung einzigartig macht, ist kein Requisitenkatalog, sondern dass das Eheversprechen gut zu hören ist, egal an welchem Ort und bei welchem Wetter.
+
+## Das Wichtigste
+
+---
+
+-   Der eigene Bestand von MEG für eine Trauung ist audiovisuell: PA-Beschallung, ein Mikrofon für den Trauredner und Ambientelicht. Traubögen, Altäre, Hintergründe und Möbel für die Trauung gehören nicht dazu.
+-   Ansteckmikrofon und Handmikrofon lösen für einen Trauredner unterschiedliche Probleme, und die Wahl zählt bei der Trauung mehr als an jeder anderen Stelle des Tages.
+-   Trauungen im Freien an der Küste oder auf einer Finca kämpfen mit Wind und, am Strand, mit den Wellen. Das ist ein echtes akustisches Problem, das unser Techniker vor Ort mit der Platzierung der Lautsprecher löst, nicht mit einem Zelt.
+-   Die Musik für Einzug und Auszug läuft über dieselbe Anlage, ob es eine aufgenommene Playlist ist oder ein Livemusiker, den MEG verstärkt, denn wir liefern die Technik, nicht den Künstler.
+-   Die vollständige Liste dessen, was eine Hochzeit braucht, und wo MEG darin seinen Platz hat, finden Sie in unserem Ratgeber zu den [wichtigsten Dingen, die man für eine Hochzeit mietet](/blog/essential-items-for-wedding-rentals/).
+
+## Das Mikrofon für den Trauredner: Anstecker oder Handmikrofon
+
+Ein Ansteckmikrofon wird an Sakko oder Kleid des Trauredners befestigt und lässt beide Hände frei. Das zählt, wenn er auf das Paar zugeht oder beim Vorlesen gestikuliert. Der Nachteil ist die feste Position: Es lässt sich nicht zu der Person drehen, die gerade spricht. Ein leise sprechender Trauredner oder ein Paar, das sein eigenes Eheversprechen vorliest, klingt dann womöglich leiser als der Trauredner einen Moment zuvor. Ein Handmikrofon löst das, weil die sprechende Person es nah an den Mund halten kann, dafür ist es ein Gegenstand mehr, der beim Umblättern oder beim Ringtausch von Hand zu Hand gehen muss.
+
+Keine der beiden Lösungen ist immer die richtige. Es hängt davon ab, wie viel sich Ihr Trauredner bewegt, ob das Paar sein eigenes Eheversprechen vorliest und wie die Trauung inszeniert ist. Das [Wedding Pack](/packages/wedding/) enthält standardmäßig ein kabelloses Handmikrofon. Außerdem haben wir ein kabelloses Ansteckmikrofon als separate Option im Bestand. Sagen Sie uns bei der Buchung, welches zu Ihrer Trauung passt, dann bestätigen wir Verfügbarkeit und Preis, statt einfach eine Standardlösung anzunehmen. Den vollständigen Vergleich zwischen Ansteckmikrofon und Headset finden Sie in unserem Ratgeber [Headset und Ansteckmikrofon mieten](/blog/headset-lavalier-microphone-rental/).
+
+<InlineCTA />
+
+## Warum das Eheversprechen der schwierigste Ton des ganzen Tages ist
+
+Eine Trauung verlangt einer Beschallung mehr ab als ein Empfang. Die Gäste sitzen und hören einer einzigen Stimme in Gesprächslautstärke zu, nicht Tanzmusik in einer Lautstärke, die kleine Unsauberkeiten verzeiht. Im Freien gibt es keine Wände, die den Schall zu den Stühlen zurückwerfen, sodass eine Stimme, die einen kleinen Raum füllen würde, über Rasen oder Sand dünn wird. Bei einer Trauung am Strand konkurrieren Wind und Wellen hinter dem Paar mit dem Trauredner um denselben Raum, und eine Anlage, die nicht richtig platziert und eingepegelt ist, verliert das Eheversprechen in diesem Hintergrundgeräusch, nicht aus Mangel an Lautstärke.
+
+Die Lösung unseres Technikers ist die Platzierung, nicht ein Zelt: Lautsprecher nah an den sitzenden Gästen statt einer einzigen Anlage, die aus der Entfernung beschallt, mit Pegeln, die auf den genauen Standort, die Windrichtung und die Gästezahl am Tag eingestellt sind. Diese Seite bleibt bei diesem Blick auf die Trauung. Den umfassenderen Überblick für draußen, also Stromversorgung, Sperrstunden und wie eine Terrasse an der Küste die Platzierung der Technik über den ganzen Tag verändert, finden Sie in unserem Ratgeber zu [Hochzeiten im Freien](/blog/outdoor-wedding-rental-considerations/).
+
+## Musik für Einzug und Auszug über die Anlage
+
+Der Einzug und der Auszug laufen beide auf ein musikalisches Stichwort, und die Aufgabe von MEG ist es, dieses Stichwort zu verstärken, nicht es auszuwählen oder zu spielen. Ein Livemusiker, etwa ein Gitarrist oder ein Streicher, wird über dieselbe Anlage verstärkt wie das Mikrofon des Trauredners. Der Musiker wird separat gebucht und gehört nicht zu unserem Team. Eine komplett aufgenommene Playlist läuft stattdessen über dasselbe System, abgestimmt auf die Momente von Einzug und Auszug, die das Paar festlegt. So oder so ist unser Teil die Technik und das Timing darüber, nicht der Auftritt.
+
+## Ambientelicht schafft Atmosphäre, keine Dekoration
+
+Die Lichterketten und warmen LED-Lichterschläuche des Wedding Pack geben dem Ort der Trauung Atmosphäre, keine Struktur. Dekoration gehört nicht zu unserem eigenen Bestand: kein Traubogen, kein Hintergrund, keine Stoffbahnen, keine Möbel. Das Licht legt einen warmen Schein über das, was die Location oder ein Dekorateur bereits aufgebaut hat, und das ist eine andere Aufgabe, als die Kulisse selbst zu stellen. Wenn die Location oder Ihr Dekorateur eine Lücke lässt, etwa einen Traubogen, einen Hintergrund oder die Bestuhlung für die Trauung, sagen Sie uns, was fehlt. Wir können bei unseren Lieferanten danach fragen, und wenn keiner es hat, erfahren Sie das sofort von uns. In unserem Ratgeber mit [Lichtideen für Hochzeiten](/blog/lighting-ideas-for-wedding-rentals/) lesen Sie, wie sich diese Lichterketten von den RGBW-Scheinwerfern des Eco Pack unterscheiden.
+
+## Was für 650 € enthalten ist
+
+Das [Wedding Pack](/packages/wedding/) kostet 650 € zzgl. MwSt. und enthält:
+
+-   Eine aktive PA-Anlage der Spitzenklasse für bis zu 80 Gäste.
+-   Lichterketten und warme LED-Lichterschläuche als Ambientebeleuchtung.
+-   Professionelle Funkmikrofone für Reden und Ansagen.
+-   Transport in Malaga und Umgebung.
+-   Professioneller Aufbau und Verkabelung.
+-   Ein Techniker, der während der gesamten Veranstaltung vor Ort ist.
+-   Abbau und Abholung nach der Veranstaltung.
+
+Genaue, aktuelle Preise und die vollständige Aufstellung finden Sie auf unserer [Paketseite](/packages/).
+
+## Trauorte, für die wir den Ton planen
+
+![Eine farbenfrohe tropische Trauung am Strand mit rosa Rosenblättern und Blick aufs Meer.](https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding-300x224.webp)
+
+Symbolbild einer Trauung am Strand, keine Veranstaltung von Malaga Event Gear: genau die Art von Ort, an der Wind und Wellen die Platzierung der Lautsprecher entscheidend machen.
+
+![Eine Trauung am Strand mit einem roten Teppich als Gang und einem Blumenbogen.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
+
+Symbolbild eines Gangs für die Trauung, keine unserer Veranstaltungen. Bei einer echten Buchung hat unser Techniker an diesem Punkt die PA-Anlage und das Mikrofon des Trauredners bereits platziert und eingepegelt, bevor die Gäste Platz nehmen.
+
+![Nahaufnahme einer Braut mit einem Brautstrauß in Pastellfarben.](https://cdn.malagaeventgear.com/blog/1637/bride_holding_wedding_bouquet-300x224.webp)
+
+Symbolbild für den Augenblick, bevor das Eheversprechen beginnt, genau der Moment des Tages, auf den unsere Tontechnik für die Trauung abgestimmt ist.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('wedding', ['/1630/', '/1636/', '/1637/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Buchung und Einsatzgebiet
+
+Wir sind in Malaga, an der Costa del Sol und in Sevilla ohne Mindestbestellwert im Einsatz, in Granada bei Mietaufträgen über 400 €. Es gibt keine feste Vorlaufzeit, nur die Verfügbarkeit zählt. Melden Sie sich also, sobald Datum und Location feststehen, und nennen Sie uns dann auch das bevorzugte Mikrofon Ihres Trauredners und die musikalischen Stichworte Ihrer Trauung. Mehr dazu lesen Sie in unserem Ratgeber zum [Zeitplan für die Buchung](/blog/timeline-for-booking-wedding-rentals/).
+
+## Fazit
+
+Eine wirklich einzigartige Ausstattung für die Trauung, mit der Technik, die MEG tatsächlich besitzt, läuft auf einen Ton hinaus, der auf Ihre Location und Ihren Trauredner abgestimmt ist, nicht auf einen Requisitenkatalog. Genau das deckt das [Wedding Pack](/packages/wedding/) ab: die Platzierung der Anlage, ein Mikrofon, das auf Ihren Trauredner eingestellt ist, und Ambientelicht, das den Raum ergänzt, für 650 € zzgl. MwSt. Für alles andere, was eine Hochzeit braucht, lesen Sie unseren Ratgeber zum [Hochzeitsverleih](/blog/wedding-rentals/) und unseren Ratgeber zu den [wichtigsten Dingen, die man für eine Hochzeit mietet](/blog/essential-items-for-wedding-rentals/). Sie haben das Wedding Pack schon gebucht? Unser Ratgeber, wie Sie [das Beste aus Ihrer Hochzeitsausstattung herausholen](/blog/making-the-most-of-wedding-rentals/), erklärt, wie Sie den Techniker über das gewählte Mikrofon Ihres Trauredners und den Ablauf der Trauung informieren. [Kontaktieren Sie uns](/contact/), um die Verfügbarkeit für Ihr Datum zu prüfen.
+
+## Häufige Fragen
+
+### Sollte ein Trauredner ein Ansteckmikrofon oder ein Handmikrofon verwenden?
+
+Das hängt davon ab, wie viel sich der Trauredner bewegt und ob das Paar sein eigenes Eheversprechen vorliest. Ansteckmikrofone lassen die Hände frei, lassen sich aber nicht zu einer leiser sprechenden Person drehen. Handmikrofone lassen sich ausrichten, belegen aber während der Trauung eine Hand. Das Wedding Pack enthält standardmäßig ein kabelloses Handmikrofon, und wir haben ein kabelloses Ansteckmikrofon als separate Option im Bestand. Sagen Sie uns Ihren Wunsch einfach bei der Buchung.
+
+### Braucht man für eine Trauung im Freien ein Mikrofon?
+
+Fast immer, ja. Im Freien gibt es keine Wände, die den Schall zurückwerfen, sodass eine Stimme, die einen kleinen Raum füllt, über Rasen oder Sand schnell dünn wird. Gerade am Strand und auf einer Finca sorgt erst die Verstärkung dafür, dass das Eheversprechen auch hinter den ersten Reihen zu hören ist.
+
+### Beeinflussen Wind oder nahe Wellen den Ton der Trauung?
+
+Ja, direkt. Wind und Wellen konkurrieren mit der Stimme des Trauredners um denselben Raum, und eine Anlage, die nicht passend zum genauen Standort und zur Windrichtung aufgestellt ist, verliert das Eheversprechen in diesem Hintergrundgeräusch, nicht aus Mangel an Lautstärke. Unser Techniker vor Ort platziert und pegelt die Anlage passend zu den Bedingungen am Tag.
+
+### Kann Malaga Event Gear die Musik für Einzug und Auszug abspielen?
+
+Ja, über dieselbe Anlage, die auch für das Mikrofon des Trauredners genutzt wird, ob das Stichwort eine aufgenommene Playlist ist oder ein Livemusiker, den wir verstärken. Wir liefern die Technik und das Timing, nicht den Musiker und nicht den Auftritt.
+
+### Enthält das Wedding Pack einen Traubogen, einen Altar oder einen Hintergrund für die Trauung?
+
+Nein. Dekoration, Aufbauten und Möbel für die Trauung gehören weder zum Wedding Pack noch zu unserem eigenen Bestand, und das Wedding Pack umfasst nur Ton, Mikrofone und Ambientelicht. Lesen Sie weiter oben [Ambientelicht schafft Atmosphäre, keine Dekoration](#ambientelicht-schafft-atmosphäre-keine-dekoration), wenn Ihre Location eine Lücke lässt, und unseren Ratgeber zu den [wichtigsten Dingen, die man für eine Hochzeit mietet](/blog/essential-items-for-wedding-rentals/) für die vollständige Liste dessen, was eine Hochzeit braucht, und wo MEG darin seinen Platz hat.

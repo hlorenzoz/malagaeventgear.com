@@ -86,6 +86,11 @@ export default {
 			slug: 'location-materiel-mariage',
 			keyword: 'location de matériel pour mariage à Malaga',
 			status: 'propuesta'
+		},
+		'unique-wedding-ceremony-rentals': {
+			slug: 'sonorisation-ceremonie-mariage',
+			keyword: 'sonorisation de cérémonie de mariage à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

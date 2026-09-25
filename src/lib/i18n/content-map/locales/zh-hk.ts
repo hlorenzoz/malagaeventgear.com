@@ -74,6 +74,11 @@ export default {
 			slug: '婚禮器材租借',
 			keyword: '馬拉加 婚禮器材租借',
 			status: 'propuesta'
+		},
+		'unique-wedding-ceremony-rentals': {
+			slug: '婚禮儀式音響',
+			keyword: '馬拉加 婚禮儀式音響',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

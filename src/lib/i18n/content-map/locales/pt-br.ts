@@ -118,6 +118,11 @@ export default {
 			slug: 'locacao-para-casamento',
 			keyword: 'locação para casamento em Málaga',
 			status: 'propuesta'
+		},
+		'unique-wedding-ceremony-rentals': {
+			slug: 'som-para-cerimonia-de-casamento',
+			keyword: 'som para cerimônia de casamento em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

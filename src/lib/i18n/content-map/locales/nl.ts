@@ -86,6 +86,11 @@ export default {
 			slug: 'verhuur-voor-bruiloften',
 			keyword: 'verhuur voor bruiloften in Malaga',
 			status: 'propuesta'
+		},
+		'unique-wedding-ceremony-rentals': {
+			slug: 'geluid-trouwceremonie',
+			keyword: 'geluid voor de trouwceremonie in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -90,6 +90,11 @@ export default {
 			slug: 'utleie-til-bryllup',
 			keyword: 'utleie til bryllup i Malaga',
 			status: 'propuesta'
+		},
+		'unique-wedding-ceremony-rentals': {
+			slug: 'lyd-til-vielsen',
+			keyword: 'lyd til vielsen i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

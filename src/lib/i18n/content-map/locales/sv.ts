@@ -82,6 +82,11 @@ export default {
 			slug: 'uthyrning-till-brollop',
 			keyword: 'uthyrning till bröllop i Malaga',
 			status: 'propuesta'
+		},
+		'unique-wedding-ceremony-rentals': {
+			slug: 'ljud-till-vigseln',
+			keyword: 'ljud till vigseln i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
