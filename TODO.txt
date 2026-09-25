@@ -238,6 +238,141 @@ Writeup completo para agentes: docs/home-no-lcp-investigation.md
 
 
 
+-- ❌ Billie Jean King Cup 2024 sin post News (anotado 2026-09-25)
+
+Decisión del usuario del 2026-09-25 (CLAUDE.md, "Posicionamiento", regla 4): la Experience
+publicada sale SOLO de los posts News del blog. La Billie Jean King Cup 2024 no tiene post News:
+hoy solo se menciona en audio-visual-rental-for-sports-events.svx y
+audiovisual-equipment-rental-service.svx. Hasta que exista su post News no se suma a la lista de
+casos de la regla 4.
+Pedido del usuario (2026-09-25): escribir el post News del evento (Billie Jean King Cup 2024,
+Málaga, España) y sumarlo como Experience de MEG. Antes de escribirlo:
+1. Leer la noticia oficial para el contexto del evento:
+   https://www.billiejeankingcup.com/es/noticias/italia-la-quinta-se-hizo-esperar
+   Usarla solo como contexto (resultado, fechas, sede). No copiar su texto.
+2. Enlazar esa noticia desde el post (backlink normal, sin nofollow ni sponsored), para citar la
+   fuente oficial del evento.
+3. Hechos confirmados por el usuario: MEG proveyó SOLO el servicio audiovisual (iluminación y
+   sonido). La máquina de confeti y los fuegos artificiales NO fueron de MEG. Ningún texto, alt ni
+   pie de foto puede dar a entender lo contrario.
+4. Usar las fotos del evento que ya están en el CDN: blog/1189, blog/1190 y blog/1191
+   (billie-jean-king-cup-*), más las que usa audio-visual-rental-for-sports-events.svx. Con alt y
+   pie en cada idioma, sin atribuirle a MEG el confeti ni los fuegos.
+5. CONFIRMAR el alcance: CLAUDE.md dice iluminación y sonido "en la ceremonia de premiación",
+   pero audio-visual-rental-for-sports-events.svx dice "the full lights and sound setup ... from
+   the tennis court sound system to the awards ceremony stage" (todo el torneo) y habla de
+   "scoreboard display". Aclarar con el usuario qué cubrió MEG y corregir el post de deportes si
+   no coincide.
+Formato: siloRole news, targetPage "/", categoría News, en los 13 idiomas en el mismo cambio. Al
+publicarlo, sumarlo a la lista de la regla 4 de CLAUDE.md y enlazarlo desde las dos menciones
+actuales.
+
+
+-- ❌ Keyword de event-technology-service que se pisa con stage-lighting-rental (anotado 2026-09-25)
+
+Hallazgo del code-review del post stage-lighting-rental. En 6 idiomas la keyword y el slug de
+event-technology-service se tradujeron como "luz y escenario para eventos", porque el post
+inglés habla de iluminación, tarimas y técnico, y eso se pisa con la keyword del pilar de
+iluminación:
+- de `Licht- und Bühnentechnik Malaga` contra `Bühnenbeleuchtung mieten Malaga`
+- it `luci e palco per eventi Malaga` contra `noleggio luci da palco a Malaga`
+- pt-br `iluminação e palco para eventos Málaga` contra `aluguel de iluminação de palco em Málaga`
+- zh-hans `活动灯光舞台搭建`, zh-tw `活動燈光舞台架設` y zh-hk `活動燈光舞台搭建` contra `舞台灯光租赁`,
+  `舞台燈光出租` y `舞台燈光租借`
+fr (`prestataire technique événementiel`) y pt-pt (`serviços técnicos para eventos`) muestran la
+salida: la keyword de "servicio técnico para eventos", sin luz ni escenario.
+Decisión: la keyword de iluminación se queda (es el término natural para alquilar iluminación de
+escenario). No se toca event-technology-service todavía: cambiar su slug cambia URLs ya
+publicadas y obliga a redirects 301 por idioma. Revisar con datos de GSC por idioma cuando haya
+(consultas donde las dos páginas aparecen). Si se confirma la canibalización, re-keyear
+event-technology-service en esos 6 idiomas con redirect del slug viejo, en el mismo cambio que su
+actualización de TGE (tanda 1).
+
+
+-- ✅ Reescribir los "no ofrecemos" con el posicionamiento de soluciones integrales (anotado y HECHO 2026-09-25)
+
+Hecho el 2026-09-25, en tandas con code-review cada una: a940450 (2 pilares, 13 idiomas),
+9a1e175 (silo de iluminación y micros, 13 idiomas), 289a0db y a0a2e30 (14 posts ingleses),
+ce70193 (FAQ de cámaras y streaming, 13 idiomas), 6a53f6f (resto del blog inglés, más zona de
+servicio con Sevilla y datos de paquetes corregidos en unos 40 posts). smoke-machine-rental lo hizo
+la otra sesión (8a72d06). La guía de reescritura con todas las lecciones quedó en el scratchpad de
+la sesión (negation-rewrite-guide.md) y resumida en engram (content/negation-rewrite-*).
+
+
+Decisión del usuario del 2026-09-25 (CLAUDE.md, "Posicionamiento: soluciones integrales para
+eventos"): MEG resuelve lo que el evento necesite, con equipo propio o de proveedores. Lo que no
+está en el inventario propio ya no se cierra con un "no ofrecemos". Se escribe: "no está en
+nuestro inventario propio, contanos qué necesitás y buscamos la solución con nuestros
+proveedores", sin prometer disponibilidad.
+Alcance medido el 2026-09-25 sobre los posts ingleses: 37 posts con 130 negaciones del tipo "we
+don't offer / provide / supply / stock / rent" o una sección "What We Don't Offer/Stock", más 2
+en src/lib/data/faq.ts. Revisar también equipment/+page.svelte, llms.txt y las copias de página.
+Reglas para la revisión:
+- NO todas cambian. Siguen igual las que describen hechos: lo que MEG tiene (una sola máquina de
+  humo, sin DMX ni cabezas móviles, un solo panel de 60 pulgadas), lo que hizo en un evento
+  pasado (Billie Jean King Cup: solo iluminación y sonido) y los límites de servicio (entrega sin
+  retiro en local, atención solo en inglés y español, zona de servicio).
+- Cambian las que le cierran la puerta al cliente ("we don't offer video walls"). Pasan a la
+  regla 2, sin dar marca, modelo, cantidad ni precio de lo que se conseguiría.
+- Cada post se edita en inglés y en todas sus traducciones en el mismo cambio. Los que todavía no
+  están traducidos, antes de su turno en post-order.txt (mismo criterio que la mención a TGE y
+  las FAQs nuevas: una sola edición por post).
+- Ya traducidos a hoy: event-technology-service, audiovisual-equipment-rental-service,
+  headset-lavalier-microphone-rental, stage-lighting-rental, stage-uplighting y, al commitearse,
+  stage-lighting-for-weddings. Sus secciones "What We Don't Offer/Stock" necesitan la edición en
+  los 13 idiomas.
+- PREGUNTA ABIERTA al usuario: hacerlo ahora, antes de seguir traduciendo (así lo que falta se
+  traduce una sola vez), o después.
+- Hecho: smoke-machine-rental (2026-09-25), en inglés antes de su turno de traducción. Haze,
+  humo bajo, humo de color y máquinas extra pasan a la regla 2. Los hechos quedan igual (una sola
+  máquina, sin alquiler suelto).
+
+
+-- ❌ Copia del sitio: el mínimo de 400 euros se lee como si aplicara a Sevilla (anotado 2026-09-25)
+
+Regla (.agents/BUSINESS.md sección 3, site.ts serviceAreas): Sevilla con cobertura completa y sin
+mínimo, Granada solo con reservas de más de 400 euros sin IVA. Los posts ingleses se corrigieron en
+la reescritura del 2026-09-25. Quedan dos frases ambiguas en copia que se publica en 13 idiomas:
+- src/routes/(public)/packages/[slug]/i18n/<locale>.ts, FAQ de zona: "We also service Seville and
+  Granada (for orders over {price:outOfProvinceMinimum})": el paréntesis se puede leer como si
+  valiera para las dos ciudades.
+- src/lib/data/faq.ts (~176) y sus 12 traducciones en src/lib/i18n/data/<locale>.ts: "For more
+  distant, out of province destinations such as Granada, we require a minimum...": "such as"
+  sugiere que hay otros destinos con mínimo.
+Arreglo: reescribir las dos en inglés y en los 12 idiomas en el mismo cambio, con la fecha de la
+página o del paquete actualizada (regla de frescura).
+
+
+-- ❌ Reverse silo: posts de soporte sin enlace a sus hermanos (anotado 2026-09-25)
+
+Hallazgo del code-review de stage-lighting-for-weddings. CLAUDE.md exige que cada post de soporte
+enlace a sus hermanos adyacentes, en los dos sentidos. En el silo stage lighting se arregló el
+2026-09-25 (bodas enlaza a stage-uplighting y a smoke-machine-rental, y stage-uplighting enlaza a
+bodas). Chequeo con script el mismo día, sobre los posts ingleses: en el silo audio visual rental,
+7 de 41 posts de soporte no enlazan a ningún hermano:
+- audio-visual-rental-safety-guidelines
+- audio-visual-rental-for-weddings
+- audio-visual-rental-planning-timeline
+- benefits-of-audio-visual-rental
+- audio-visual-rental-for-art-exhibitions
+- audio-visual-rental-for-private-parties
+- stage-monitor-rental
+El silo wedding rentals (20) no tiene huecos. headset-lavalier-microphone-rental es el único post
+de soporte de su silo, así que no tiene hermanos todavía.
+Cómo seguir: correr /seo:reverse-silo-review para fijar el orden de la cadena del silo audio visual
+rental (el CSV de POP es el plan), y agregar los enlaces en inglés ANTES del turno de traducción
+de cada post, así se traducen una sola vez. Un enlace en su forma inglesa a un hermano ya
+traducido se localiza solo en el build.
+Defecto del guard a resolver antes (encontrado el 2026-09-25): validateSiloGraph
+(src/lib/data/site-map.ts) marca como malla toda componente fuertemente conexa de 3 o más posts,
+pero una cadena correcta A <-> B <-> C también lo es. Con el guard actual, enlazar bien los
+hermanos de un silo de 3 o más posts falla la suite, salvo que esos posts ya estén en la deuda de
+src/lib/data/silo-cycle-debt.ts (así pasó con stage-lighting-for-weddings y smoke-machine-rental,
+que se sumaron a la línea base el 2026-09-25). Arreglo propuesto, con test primero: aceptar la
+componente cuando sus enlaces son todos recíprocos y forman un camino (n - 1 pares, grado máximo
+2), y seguir marcando todo lo demás.
+
+
 -- ❌ Posts existentes: mención a TGE + FAQs nuevas, en todos los idiomas (anotado 2026-09-25, revisado el mismo día)
 
 VA ANTES que "Contenido pendiente: congresos y eventos corporativos" (más abajo). Pedido del
