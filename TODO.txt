@@ -245,3 +245,123 @@ real es ~93; la intermitencia NO_LCP/93 entre corridas es varianza del laborator
 
 Writeup completo para agentes: docs/home-no-lcp-investigation.md
 
+
+
+-- ❌ Contenido pendiente: congresos y eventos corporativos (anotado 2026-09-25)
+
+Origen: TGE.txt §8.2 (ideas con el partner Top Group Express), ampliado a pedido del usuario con
+foco en congresos y eventos corporativos. Nada de esto está escrito ni aprobado todavía.
+
+Por qué cada idea va a ese clúster:
+- El mapa de keywords (.agents/context/keywords/keyword-silo-map.md) ya asigna el cluster "MICE y
+  congresos" al pilar /blog/event-technology-service/. Ese pilar tiene hoy 0 supporting posts y
+  rankea en posición ponderada 33,9 (62 impresiones) sin nada que le empuje equity.
+- /blog/audiovisual-equipment-rental-service/ tiene 1 solo supporting
+  (headset-lavalier-microphone-rental). Recibe los posts de UN equipo concreto.
+- /blog/audio-visual-rental/ ya tiene 41 supporting, casi todos "audio visual rental for <tipo de
+  evento>" (conferences, corporate meetings, press conferences, seminars, trade shows, product
+  launches, training sessions, gala dinners, remote y virtual). NO se le suma nada: un tipo de
+  evento corporativo más competiría con esos posts.
+- Regla de reparto: producción y servicio corporativo van a event technology service, un equipo
+  concreto va a audiovisual equipment rental service, la iluminación va a stage lighting rental.
+
+Condiciones para CADA idea:
+- Se escribe en inglés y en los 12 idiomas en el mismo cambio, con entrada en el content map de
+  cada idioma y los sitemaps por idioma al día.
+- Toda keyword es una propuesta: no hay datos de volumen. Validar con Keyword Planner o GSC antes
+  de escribir.
+- siloRole: supporting, targetPage del pilar, y enlace a los hermanos adyacentes en el orden de
+  la cadena de abajo.
+- Solo inventario real (Equipamiento.csv y packages.ts). Sin cámaras, streaming, LED wall, láser,
+  moving heads, DMX, hazer ni confeti. Traducción simultánea y votación: solo "lo coordinamos con
+  un socio subcontratado".
+- Citar y enlazar los posts News relevantes (ProGold Summit 2026, BMotion, ECOC 2026, consejo
+  vecinal). Reseñas reales solo textuales.
+- CONFIRMAR = hace falta un dato del negocio antes de escribir.
+
+A) Silo event technology service (pilar /blog/event-technology-service/). Orden de la cadena:
+
+ 1. `how to organize a congress in malaga`: guía de planificación de un congreso en Málaga. Sede,
+    técnica AV (MEG) y alojamiento del grupo (TGE como central de reservas de hotel para grupos,
+    "servicio para profesionales"). Idea a) de TGE.txt. Riesgo: competir con el pilar. El pilar
+    es "servicio de tecnología", esta es "cómo organizar": mantener el foco en la planificación.
+ 2. `incentive trip event planning`: checklist logístico de un viaje de incentivo, qué cotizar y
+    con cuánta antelación. TGE pone el alojamiento, MEG la técnica del evento. Idea c) de TGE.txt.
+ 3. `hotel in house av vs independent av supplier`: cuándo conviene el AV del hotel y cuándo un
+    proveedor externo. Decisión real de quien organiza un congreso en un hotel. Sin atacar a
+    ningún hotel con nombre.
+ 4. `conference venue technical checklist`: qué revisar en la sala antes de contratar (tomas de
+    corriente, acceso de carga, medidas, altura de techo para la pantalla de 2x2 m). CONFIRMAR si
+    MEG hace visitas técnicas previas.
+ 5. `technical rehearsal for corporate events`: el ensayo técnico, cuándo, cuánto dura y qué se
+    prueba (micros, diapositivas, niveles). CONFIRMAR cómo lo hace MEG en la práctica.
+ 6. `run of show for corporate events`: la escaleta técnica (música de entrada, cambios de micro,
+    diapositivas, entrega de premios). CONFIRMAR si el técnico de MEG maneja las diapositivas o
+    solo el sonido.
+ 7. `keynote speaker av requirements`: qué pide un ponente principal (micro de mano, de corbata o
+    de diadema, atril, pantalla, monitor de escenario). Enlaza a headset-lavalier-microphone-rental.
+ 8. `multi day conference technical support`: congresos de varios días. Técnico del MICE Pack
+    (hasta 6 h), horas extra (PRICE_POINTS.technicianHour), equipo montado de un día al otro.
+    CONFIRMAR si el equipo puede quedar montado de noche en la sede.
+ 9. `stage platform rental for conferences`: tarima modular por m2 (PRICE_POINTS.stagingPerSqm),
+    tamaños, altura y para qué la usa un congreso. CONFIRMAR medidas y alturas reales de los
+    módulos.
+10. `awards ceremony production`: entrega de premios (entradas con música, micro para quien
+    presenta y quien recibe, luz en el escenario). Distinto de gala dinners: acá el foco es la
+    ceremonia, no la cena.
+11. `company offsite av malaga`: retiros y offsites de empresa en hoteles y fincas de la Costa del
+    Sol. Qué equipo llevar a una sala sin AV propio.
+12. `sales kickoff event av`: convención comercial interna (plenario, premios a vendedores,
+    música). CONFIRMAR si MEG hizo alguna. Si no, escribir sin inventar casos.
+13. `shareholder meeting av`: juntas generales de accionistas (micro de atril, inalámbrico para
+    las preguntas de la sala, pantalla para las cuentas).
+14. `medical congress satellite symposium av`: simposios satélite de congresos médicos en hoteles
+    cerca de FYCMA. CONFIRMAR experiencia real de MEG en congresos médicos.
+15. `simultaneous interpretation for congresses in malaga`: solo con datos del socio. MEG lo
+    coordina con un proveedor subcontratado, sin equipo propio. Prioridad baja: sin equipo propio
+    el post queda fino.
+
+B) Silo audiovisual equipment rental service (pilar /blog/audiovisual-equipment-rental-service/).
+   La cadena sigue después de headset-lavalier-microphone-rental:
+
+16. `podium microphone rental`: micro de cuello de ganso para atril (Basic MICE Pack y MICE Pack).
+    Distancia, acople, cuándo sumar un inalámbrico. Hermano natural del post de corbata y diadema.
+17. `conference table microphone rental`: micros de mesa para paneles y mesas presidenciales.
+    Inventario real: 2x Audix ADX12 y 2x Audix ADX212 con base K&M y pinza Audix D-Clip. No están
+    en ningún paquete: add on con presupuesto, como la corbata y la diadema.
+18. `wireless handheld microphone rental`: micro de mano inalámbrico para las preguntas del
+    público. Inventario real: 2 sets Audix RAD-360 de mano (cápsula OM3, receptor y 2 antenas).
+    Cuántos canales a la vez, cómo se pasa el micro en la sala.
+19. `lectern rental malaga`: atril de metacrilato (PRICE_POINTS.lectern). Medidas, con qué
+    paquetes va, foto real ya en el CDN (blog/1264/methacrylate_lectern_technical_support.webp).
+    CONFIRMAR medidas.
+20. `projector lumens for conference room`: cuántos lúmenes y qué tamaño de pantalla necesita cada
+    sala. Vivitek D5 (3000 lm), Christie LX505 (5000 lm), pantalla de 2x2 m. Riesgo de canibalizar
+    projector-rental: mantener la intención "cuántos lúmenes necesito", no "alquiler de proyector".
+
+C) Silo stage lighting rental (pilar /blog/stage-lighting-rental/). Al final de la cadena actual:
+
+21. `stage lighting for conferences`: luz frontal para quien habla con el Fresnel ADJ Encore
+    FRI50Z, y por qué una cara bien iluminada importa en la sala y en las fotos. Control manual,
+    sin DMX.
+
+D) Fuera de los silos corporativos:
+
+22. `destination wedding av costa del sol` (silo wedding rentals, pilar /blog/wedding-rentals/):
+    para wedding planners y agencias de bodas de destino. Sonido e iluminación de MEG, bloque de
+    habitaciones cotizado en TGE. Citar el caso de uso que TGE planteó (Facebook, mayo de 2024).
+    Idea b) de TGE.txt.
+23. Página de partner (/partners/ o similar). NO es un post: página nueva con SDD, sitemap, fechas
+    de frescura y las 13 versiones de idioma. Idea d) de TGE.txt. Antes, aclarar si Ting Ting Yu
+    (COO APAC de TGE) es la misma persona que firmó una reseña publicada en el sitio (posible
+    conflicto de interés, sin verificar, ver TGE.txt).
+24. Post News de un evento hecho junto con TGE (siloRole news, targetPage "/"). Solo cuando
+    exista, con fotos y datos confirmados por las dos partes. Idea e) de TGE.txt.
+
+Descartadas, y por qué:
+- Eventos híbridos o en streaming: MEG no tiene cámaras ni streaming.
+- LED wall para congresos o ferias: sin inventario (un solo panel de 60 pulgadas).
+- Sistemas de votación como post propio: subcontratado, sin equipo propio, contenido fino.
+- Otro "audio visual rental for <evento corporativo>": ese patrón ya vive en el silo audio visual
+  rental (41 posts).
+- Registro, acreditaciones y apps de eventos: MEG no lo hace.
