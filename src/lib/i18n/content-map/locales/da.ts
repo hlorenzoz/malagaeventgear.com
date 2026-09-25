@@ -76,6 +76,11 @@ export default {
 			slug: 'scenelys-til-bryllup',
 			keyword: 'scenelys til bryllup i Malaga',
 			status: 'propuesta'
+		},
+		'smoke-machine-rental': {
+			slug: 'leje-rogmaskine',
+			keyword: 'leje røgmaskine Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

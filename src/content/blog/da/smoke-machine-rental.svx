@@ -1,0 +1,154 @@
+---
+title: "Leje røgmaskine i Malaga, Spanien"
+description: "Leje røgmaskine i Malaga: én rigtig Martin Magnum 650, et tilvalg til 20 € til Eco Pack og Wedding Pack, plus reglen om brandalarmen, som ingen fortæller dig før eventet."
+excerpt: "Røgdelen af vores lyskatalog: én Martin Magnum 650, solgt som et tilvalg til 20 € i stedet for som en selvstændig pakke, hvad røg faktisk gør for dit lys, og spørgsmålet om stedets tilladelse, der afgør, om den overhovedet kan køre."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+De fleste sider, hvor man kan leje røgmaskine, sælger bare maskinen. Denne side starter et andet sted, fordi maskinen er den nemme del.
+
+En røgmaskine er ikke pynt. Den findes af én grund: **lys, der bevæger sig gennem ren luft, er usynligt**. Du ser først lysstrålen, når der er noget i luften, den kan ramme. Lejer du lys uden røg, får du oplyste flader. Tilføjer du røg, får du selve lysstrålerne, og det er det look, næsten alle faktisk havde i tankerne.
+
+Derfor hører denne side til under vores guide om [leje af scenelys](/blog/stage-lighting-rental/) i stedet for ved siden af højttalerne.
+
+Malaga Event Gear har **én Martin Magnum 650** på lager, og vi sælger den som et tilvalg til 20 € i stedet for som en selvstændig pakke. Nedenfor står præcis, hvad den gør, hvad den ikke gør, og det ene spørgsmål, der afgør, om den overhovedet kan køre på dit sted.
+
+## Den rigtige maskine, vi har på lager
+
+Én enhed, og vi nævner den hellere ved navn end at gemme os bag "professionelle røgeffekter":
+
+| Specifikation | Værdi |
+| --- | --- |
+| Model | Martin Magnum 650 |
+| Effekt | 600 W |
+| Ydelse | 160 m3 i minuttet |
+| Antal på lager | 1 |
+| Pris | 20 €, som tilvalg |
+
+Én maskine er reelt nok til et dansegulv, en scene eller et enkelt præsentationsområde. Den er ikke nok til at fylde en stor sal jævnt, og det vil vi ikke påstå. Har du set et sted, der var pakket ind i røg fra hjørne til hjørne, var det flere maskiner placeret rundt i rummet, ikke én. De ekstra maskiner er ikke på vores eget lager, men fortæl os om rummet, så leder vi efter dem hos vores leverandører, hvis de er ledige.
+
+## Sådan får du den: et tilvalg, ikke en pakke
+
+Røgmaskinen er en mulighed på to af vores pakker, til 20 € oven i pakkeprisen:
+
+| Pakke | Pris | Gæster | Røgmaskine |
+| --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | 290 € ekskl. moms | op til 50 | +20 € |
+| [Wedding Pack](/packages/wedding/) | 650 € ekskl. moms | op til 80 | +20 € |
+
+Vi udlejer den ikke alene. Den er 20 € stemning lagt oven på en booking, der allerede har lyden og lyset, og alene i et tomt rum gør den intet, der er værd at betale for.
+
+<InlineCTA />
+
+## Spørgsmålet om brandalarmen, der afgør det hele
+
+Her er den del, der bliver sprunget over indtil morgenen på dagen for eventet.
+
+**Røg udløser optiske røgdetektorer.** Ikke nogle gange. Det er sådan, detektorerne virker: De leder efter partikler, der svæver i luften, og røg er partikler, der svæver i luften. En detektor kan ikke kende forskel på glykolrøg og en rigtig brand.
+
+Så før nogen booker en røgmaskine, skal ét spørgsmål besvares af stedet, ikke af os og ikke af dig:
+
+> Kan røgdetektionen i dette rum kobles ud, så længe eventet varer, og hvem har lov til at gøre det?
+
+På hoteller og steder med bevilling på Costa del Sol er svaret som regel ja, og det foregår ved, at stedets eget personale fra teknik eller sikkerhed sætter den berørte zone i testtilstand, med en skriftlig registrering. Andre steder er svaret et klart nej, oftest hvor detektionen er koblet direkte til en automatisk alarmering af brandvæsenet.
+
+Hvad det betyder i praksis:
+
+-   **Spørg stedet, før du booker tilvalget**, ikke bagefter. 20 € er billigt. En evakuering af bygningen under den første dans er ikke.
+-   **Vi kan ikke koble en detektor ud**, og vi vil ikke prøve. Branddetektionen er stedets system og stedets juridiske ansvar.
+-   **Siger stedet nej, så sig nej.** Vi mister hellere 20 €, end vi udløser en alarm til dit event.
+
+Udendørs forsvinder det problem, men et andet dukker op: vind. Udendørs spredes røg på få sekunder, medmindre området ligger i læ, så effekten er som regel mindre værd, end den koster at sætte op.
+
+## Røg, haze og lavtliggende røg er tre forskellige produkter
+
+De bruges i flæng på nettet, men de er ikke det samme. Vi har præcis ét af de tre på lager. De to andre er ikke på vores eget lager, men fortæl os, hvilken du har brug for, så leder vi efter en løsning hos vores leverandører, hvis der findes en.
+
+| Effekt | Hvordan det ser ud | Har vi det på lager |
+| --- | --- | --- |
+| **Røg** | Synlige hvide skyer, tætte, der driver og derefter tynder ud | **Ja**, Magnum 650 |
+| **Haze** | En knap synlig, jævn dis, der hænger i timevis og viser lysstråler uden skyer | Nej |
+| **Lavtliggende røg** | Ligger på gulvet i ankelhøjde, looket med tøris eller nedkølet røg | Nej |
+
+Den tredje række betyder mere end de to andre, fordi det er den, folk forestiller sig til den første dans ved et bryllup: brudeparret, der ser ud til at stå på en sky. Den effekt kræver en maskine med nedkølet røg eller tøris, som ikke er på vores eget lager. Vores røg stiger op og breder sig i stedet for at ligge langs gulvet. Hvis det er en sky på gulvet, du vil have, så fortæl os det, så leder vi efter en løsning hos vores leverandører, hvis der findes en, og planlægger lyset omkring den.
+
+## Gender reveal: læs dette, før du booker
+
+En røgmaskine til en gender reveal er en af de mest almindelige grunde til, at folk lander på en side som denne, og det ærlige svar er ikke det, de fleste udlejningssider giver.
+
+**Vores røgmaskine laver hvid røg. Den kan ikke lave lyserød eller blå røg.**
+
+En gender reveal kræver *farvet* røg, og den kommer fra en helt anden produktfamilie: røggranater, pulverkanoner og pyrotekniske røgstave. Det er forbrugsvarer, hvor et farvestof brændes af eller blæses ud, ikke en glykolrøgmaskine med et filter på. De er ikke på vores eget lager. Hvis det er farvet røg, du vil have, så fortæl os det, så leder vi efter en løsning hos vores leverandører, hvis der findes en. Tjek med stedet først, præcis som med røg.
+
+Det, vi kan gøre med vores eget udstyr, er lyset. Et RGBW-flodlys i lyserødt eller blåt hen over området for afsløringen, udløst på stikord, står tydeligt på fotos og video, kræver ingen tilladelse fra stedet og kan ikke ødelægges af vind. Er en gender reveal dit event, er det den samtale, der er værd at tage med os, og vores guide om [scenelys til bryllup](/blog/stage-lighting-for-weddings/) viser, hvordan det flodlys bygges op.
+
+## Røg sammen med hvilket lys, helt præcist
+
+Røg gør først sine 20 € fortjent, når der er en lysstråle, den kan gøre synlig. Holdt op mod vores rigtige liste over lamper:
+
+-   **RGBW-lysbjælkerne i [Eco Pack](/packages/eco/)**, inkluderet i pakken. I ren luft ser du farvede pletter på en væg. Med røg ser du strålerne krydse rummet. Det er den kombination, tilvalget findes for.
+-   **Lyskæderne i [Wedding Pack](/packages/wedding/)**, varme LED-kæder. De er små lyspunkter snarere end stråler, så røgen blødgør luften omkring dem i stedet for at tegne stråler gennem den. Vil du have synlige stråler til et bryllup, så kombiner røgen med lysbjælkerne fra Eurolite eller Fresnel-spotten nedenfor.
+-   **Lysbjælker Eurolite LED KLS-200**, 2 stk., ikke inkluderet i nogen pakke og med pris efter aftale. Fire faste hoveder pr. bjælke, rettet ind med hånden. Med røg ser du fire stråler krydse rummet.
+-   **ADJ Encore FRI50Z**, en Fresnel-spot med zoom. Et flodlys med bløde kanter snarere end en skarp stråle, så røgen gør det tættere til en synlig lyskegle.
+-   **ADJ Element H6 Pack**, de seks trådløse uplights, som vi gennemgår i vores guide om [leje af uplighting](/blog/stage-uplighting/). De peger op ad en væg og ses PÅ væggen, så her tilføjer røg mindst af alt, hvad vi har på lager.
+
+Én ærlig begrænsning fra hovedguiden gælder også her: Vores lys styres med **fodpedal og rettes ind med hånden, ikke med DMX**. Der er ingen programmeret køreplan, der synkroniserer et røgpust med et lysskift på en tidslinje. En tekniker udløser den med hånden i det rette øjeblik, hvilket er helt tilstrækkeligt til en første dans eller en entré og ikke er det automatiserede show, som nogle sider antyder.
+
+## Rigtige opsætninger, vi har leveret
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('eco')} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Hvor lang tid i forvejen du skal booke
+
+Alle vores bookinger kræver mindst 24 timers varsel, og røgmaskinen er ingen undtagelse. Det, der reelt kræver tid, er ikke os, men stedet: Det kan tage dage at få skriftlig bekræftelse på, at detektionszonen kan kobles ud, hvis det skal gennem et hotels tekniske afdeling. Spørg stedet i god tid, og book først tilvalget, når svaret er på plads.
+
+## Konklusion
+
+At leje røgmaskine i Malaga hos os betyder én Martin Magnum 650, lagt oven i en [Eco Pack](/packages/eco/) eller en [Wedding Pack](/packages/wedding/) for 20 €, så det lys, du allerede lejer, faktisk bliver synligt.
+
+Bekræft med dit sted, at røgdetektionen kan kobles ud, og fortæl os, hvad du vil have lys på. Hvis stedet siger nej, siger vi det ligeud og skaber looket med lys alene.
+
+[Kontakt os](/contact/) med dit sted og din dato, eller ring til os på [666 346 911](tel:+34666346911).
+
+## Ofte stillede spørgsmål
+
+### Hvad koster det at leje en røgmaskine i Malaga?
+
+20 €, lagt oven i en pakke i stedet for at blive lejet alene. Den er en mulighed på [Eco Pack](/packages/eco/) til 290 € ekskl. moms og [Wedding Pack](/packages/wedding/) til 650 € ekskl. moms.
+
+### Udløser røgmaskinen brandalarmen?
+
+Det kan den, og det er en optisk røgdetektors normale adfærd, ikke en fejl. Spørg dit sted, om detektionszonen kan kobles ud under eventet, og hvem der har lov til at gøre det, før du booker tilvalget. Vi kan ikke selv koble en detektor ud, fordi branddetektionen er stedets system og stedets ansvar.
+
+### Tilbyder I effekten med lavtliggende røg til den første dans?
+
+Ikke med vores eget udstyr. Looket med en sky på gulvet kræver en maskine med nedkølet røg eller tøris, som ikke er på vores eget lager. Vores Martin Magnum 650 laver røg, der stiger op og breder sig i stedet for at blive i ankelhøjde. Fortæl os, at du gerne vil have den, så leder vi efter en løsning hos vores leverandører, hvis der findes en.
+
+### Kan I lave farvet røg til en gender reveal?
+
+Ikke med vores egen maskine, som kun laver hvid røg. Farvet røg kommer fra røggranater, pulverkanoner eller pyrotekniske stave, en anden produktfamilie, som ikke er på vores eget lager. Fortæl os, hvad du har brug for, så leder vi efter en løsning hos vores leverandører, hvis der findes en. Med vores egne RGBW-lamper kan vi også lyse området for afsløringen op i lyserødt eller blåt.
+
+### Udlejer I en hazer?
+
+Ikke fra vores eget lager: Vi har røg, ikke haze. Røg er synlige hvide skyer, der driver og tynder ud, haze er en næsten usynlig dis, der hænger i timevis. Hvis din produktion specifikt har brug for haze, så fortæl os det, så leder vi efter en løsning hos vores leverandører, hvis der findes en.
+
+### Hvor mange røgmaskiner har I?
+
+Én. Den dækker et dansegulv, en scene eller et præsentationsområde godt. At fylde en stor sal jævnt kræver flere maskiner placeret rundt i rummet. Dem har vi ikke på vores eget lager, men fortæl os om rummet, så leder vi efter de ekstra maskiner hos vores leverandører, hvis de er ledige.
+
+### Kan røgmaskinen bruges udendørs?
+
+Den kan tilsluttes og køre udendørs, men røg spredes på få sekunder i enhver vind, så effekten er som regel ikke opsætningen værd, medmindre området reelt ligger i læ. Fortæl os om stedet, så siger vi ærligt, om den er de 20 € værd.
+
+### Er røgmaskinen synkroniseret med lyset?
+
+Ikke automatisk. Vores lys styres med fodpedal og rettes ind med hånden i stedet for med DMX, så der er ingen programmeret køreplan. En tekniker udløser røgen med hånden i det øjeblik, du vil have den, og det fungerer godt til en entré eller en første dans.

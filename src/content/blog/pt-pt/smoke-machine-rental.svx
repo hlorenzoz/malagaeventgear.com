@@ -1,0 +1,154 @@
+---
+title: "Aluguer de máquina de fumo em Málaga, Espanha"
+description: "Aluguer de máquina de fumo em Málaga: uma Martin Magnum 650 real, uma opção de 20 € no Eco Pack e no Wedding Pack, e a regra do alarme de incêndio que ninguém lhe explica antes do evento."
+excerpt: "A camada de fumo do nosso catálogo de iluminação: uma Martin Magnum 650, vendida como opção de 20 € e não como um pacote próprio, o que o fumo faz realmente pela sua iluminação e a questão da autorização do espaço que decide se pode sequer ser usada."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+A maioria das páginas sobre aluguer de máquina de fumo em Málaga vende a máquina. Esta começa noutro sítio, porque a máquina é a parte fácil.
+
+Uma máquina de fumo não é uma decoração. Existe por uma única razão: **a luz que atravessa o ar limpo é invisível**. Só vê o feixe quando há alguma coisa no ar em que ele possa bater. Alugue iluminação sem fumo e fica com superfícies iluminadas. Junte fumo e passa a ver os próprios feixes, que é o efeito que quase toda a gente tinha realmente em mente.
+
+É por isso que esta página está integrada no nosso guia sobre o [aluguer de iluminação de palco](/blog/stage-lighting-rental/), e não ao lado das colunas de som.
+
+A Malaga Event Gear tem em stock **uma Martin Magnum 650**, e vendemo-la como opção de 20 € e não como um pacote próprio. Em baixo explicamos exatamente o que faz, o que não faz e a única pergunta que decide se pode sequer funcionar no seu espaço.
+
+## A máquina real que temos em stock
+
+Uma unidade, e preferimos dizer qual é em vez de nos escondermos atrás de "efeitos de fumo profissionais":
+
+| Especificação | Valor |
+| --- | --- |
+| Modelo | Martin Magnum 650 |
+| Potência | 600 W |
+| Caudal | 160 m3 por minuto |
+| Unidades em stock | 1 |
+| Preço | 20 €, como opção |
+
+Uma máquina chega perfeitamente para uma pista de dança, um palco ou uma única zona de apresentação. Não chega para encher uniformemente uma sala grande, e não lhe vamos dizer o contrário. Se já viu um espaço envolto em fumo de um canto ao outro, eram várias máquinas colocadas pela sala, não uma só. Essas máquinas adicionais não fazem parte do nosso inventário próprio, mas indique-nos a sala e procuramo-las junto dos nossos fornecedores, se houver disponibilidade.
+
+## Como a obtém: uma opção, não um pacote
+
+A máquina de fumo é uma opção em dois dos nossos pacotes, por 20 € acima do preço do pacote:
+
+| Pacote | Preço | Convidados | Máquina de fumo |
+| --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | 290 € sem IVA | até 50 | +20 € |
+| [Wedding Pack](/packages/wedding/) | 650 € sem IVA | até 80 | +20 € |
+
+Não a alugamos sozinha. São 20 € de ambiente acrescentados a uma reserva que já tem o som e a iluminação, e sozinha, numa sala vazia, não faz nada que valha a pena pagar.
+
+<InlineCTA />
+
+## A questão do alarme de incêndio, que decide tudo
+
+Esta é a parte que fica esquecida até à manhã do evento.
+
+**O fumo faz disparar os detetores óticos de fumo.** Não é às vezes. É assim que os detetores funcionam: procuram partículas em suspensão no ar, e o fumo são partículas em suspensão no ar. Um detetor não consegue distinguir o fumo de glicol de um incêndio verdadeiro.
+
+Por isso, antes de alguém reservar uma máquina de fumo, há uma pergunta a que tem de responder o espaço, não nós nem o cliente:
+
+> É possível isolar a deteção de fumo desta sala durante o evento, e quem tem autorização para o fazer?
+
+Nos hotéis e nos espaços licenciados da Costa del Sol a resposta costuma ser sim, e implica que a equipa de manutenção ou de segurança do próprio espaço coloque a zona afetada em modo de teste, com registo escrito. Noutros a resposta é um não categórico, sobretudo quando a deteção está ligada diretamente a uma chamada automática para os bombeiros.
+
+O que isto significa na prática:
+
+-   **Pergunte ao espaço antes de reservar a opção**, não depois. Vinte euros é pouco. Uma evacuação do edifício durante a primeira dança não é.
+-   **Não conseguimos isolar um detetor**, nem vamos tentar. A deteção de incêndios é o sistema do espaço e é da sua responsabilidade legal.
+-   **Se o espaço disser que não, a resposta é não.** Preferimos perder 20 € a fazer disparar um alarme no seu evento.
+
+Ao ar livre este problema desaparece, mas surge outro: o vento. O fumo ao ar livre dispersa-se em segundos, a menos que a zona esteja abrigada, por isso o efeito costuma valer menos do que custa a montar.
+
+## Fumo, haze e fumo baixo são três produtos diferentes
+
+Na internet estes termos usam-se como se fossem a mesma coisa, e não são. Temos em stock exatamente um dos três. Os outros dois não fazem parte do nosso inventário próprio, mas diga-nos de qual precisa e procuramos uma solução junto dos nossos fornecedores, se houver uma.
+
+| Efeito | Como se vê | Temos em stock |
+| --- | --- | --- |
+| **Fumo** | Nuvens brancas visíveis e densas, que se deslocam e depois se dissipam | **Sim**, a Magnum 650 |
+| **Haze** | Uma névoa uniforme e pouco visível, que se mantém durante horas e mostra os feixes sem nuvens | Não |
+| **Fumo baixo** | Fica no chão à altura dos tornozelos, o efeito de gelo seco ou de fumo refrigerado | Não |
+
+A terceira linha importa mais do que as outras duas, porque é a que as pessoas imaginam para a primeira dança de um casamento: os noivos como se estivessem em cima de uma nuvem. Esse efeito precisa de uma máquina de fumo refrigerado ou de gelo seco, que não faz parte do nosso inventário próprio. O nosso fumo sobe e espalha-se, em vez de ficar colado ao chão. Se é uma nuvem no chão que quer, diga-nos e procuramos uma solução junto dos nossos fornecedores, se houver uma, e planeamos a iluminação em função dela.
+
+## Revelação do sexo do bebé: leia isto antes de reservar
+
+"Máquina de fumo para gender reveal" é uma das formas mais comuns de chegar a uma página como esta, e a resposta honesta não é a que a maioria das páginas de aluguer dá.
+
+**A nossa máquina produz fumo branco. Não consegue produzir fumo rosa nem azul.**
+
+Uma revelação do sexo do bebé precisa de fumo *colorido*, que vem de uma família de produtos completamente diferente: granadas de fumo, canhões de pó e bastões de fumo pirotécnicos. São consumíveis que queimam ou projetam um corante, não uma máquina de fumo de glicol com um filtro. Não fazem parte do nosso inventário próprio. Se é fumo colorido que quer, diga-nos e procuramos uma solução junto dos nossos fornecedores, se houver uma. Confirme primeiro com o espaço, tal como com o fumo.
+
+O que podemos fazer com o nosso próprio equipamento é a iluminação. Um banho de luz RGBW rosa ou azul sobre a zona da revelação, acionado no momento certo, fica bem visível nas fotografias e no vídeo, não precisa de autorização do espaço e não há vento que o estrague. Se o seu evento é uma revelação, é essa a conversa que vale a pena ter connosco, e o nosso guia sobre [iluminação de palco para casamentos](/blog/stage-lighting-for-weddings/) explica como se monta esse banho de luz.
+
+## Fumo com que focos, exatamente
+
+O fumo só justifica os seus 20 € quando há um feixe para revelar. Com a nossa lista real de focos:
+
+-   **As barras de luz RGBW do [Eco Pack](/packages/eco/)**, incluídas no pacote. Com o ar limpo vê manchas de cor numa parede. Com fumo vê os feixes a atravessar a sala. É para esta combinação que a opção existe.
+-   **As luzes de fada do [Wedding Pack](/packages/wedding/)**, cordões LED de luz quente. São pequenos pontos de luz e não feixes, por isso o fumo suaviza o ar à volta delas em vez de desenhar feixes através dele. Para ter feixes visíveis num casamento, combine o fumo com as barras Eurolite ou com o Fresnel descritos a seguir.
+-   **Barras Eurolite LED KLS-200**, 2 unidades, não incluídas em nenhum pacote e com orçamento sob pedido. Quatro cabeças fixas por barra, orientadas à mão. Com fumo vê quatro feixes a atravessar a sala.
+-   **ADJ Encore FRI50Z**, um Fresnel com zoom. Uma luz geral de contornos suaves e não um feixe recortado, por isso o fumo transforma-a num cone de luz visível.
+-   **ADJ Element H6 Pack**, os seis focos de uplighting sem fios tratados no nosso guia sobre o [aluguer de uplighting](/blog/stage-uplighting/). Apontam para cima, contra uma parede, e veem-se NA parede, por isso é aqui que o fumo acrescenta menos, de tudo o que temos em stock.
+
+Um limite honesto que vem do guia principal: a nossa iluminação funciona com **pedal e orientação manual, não com DMX**. Não há uma sequência programada que sincronize uma descarga de fumo com uma mudança de luz numa linha de tempo. Um técnico aciona-a à mão no momento certo, o que chega perfeitamente para uma primeira dança ou uma entrada, e não é o espetáculo automatizado que algumas páginas dão a entender.
+
+## Montagens reais que já fizemos
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('eco')} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Com quanta antecedência reservar
+
+Todas as nossas reservas precisam de pelo menos 24 horas de antecedência, e a máquina de fumo não é exceção. O que precisa realmente de tempo não depende de nós, depende do espaço: obter a confirmação por escrito de que a zona de deteção pode ser isolada pode demorar dias, se tiver de passar pelo departamento técnico de um hotel. Pergunte ao espaço com tempo e reserve a opção depois.
+
+## Conclusão
+
+O aluguer de máquina de fumo em Málaga, connosco, é uma Martin Magnum 650 acrescentada a um [Eco Pack](/packages/eco/) ou a um [Wedding Pack](/packages/wedding/) por 20 €, para tornar realmente visível a iluminação que já está a alugar.
+
+Confirme com o espaço que a deteção de fumo pode ser isolada e diga-nos o que quer iluminar. Se a resposta do espaço for não, dizemos-lho com franqueza e criamos o efeito só com luz.
+
+[Contacte-nos](/contact/) indicando o espaço e a data, ou ligue-nos para o [666 346 911](tel:+34666346911).
+
+## Perguntas frequentes
+
+### Quanto custa alugar uma máquina de fumo em Málaga?
+
+Vinte euros, acrescentados a um pacote e não alugada sozinha. É uma opção no [Eco Pack](/packages/eco/), a 290 € sem IVA, e no [Wedding Pack](/packages/wedding/), a 650 € sem IVA.
+
+### A máquina de fumo vai fazer disparar o alarme de incêndio?
+
+Pode fazer, e esse é o comportamento normal de um detetor ótico de fumo, não uma avaria. Pergunte ao espaço, antes de reservar a opção, se a zona de deteção pode ser isolada durante o evento e quem tem autorização para o fazer. Nós não podemos isolar um detetor, porque a deteção de incêndios é o sistema do espaço e é da sua responsabilidade.
+
+### Têm o efeito de fumo baixo para a primeira dança?
+
+Não com o nosso próprio equipamento. Esse efeito de nuvem no chão precisa de uma máquina de fumo refrigerado ou de gelo seco, que não faz parte do nosso inventário próprio. A nossa Martin Magnum 650 produz fumo que sobe e se espalha, em vez de ficar à altura dos tornozelos. Diga-nos que o quer e procuramos uma solução junto dos nossos fornecedores, se houver uma.
+
+### Conseguem fazer fumo colorido para uma revelação do sexo do bebé?
+
+Não com a nossa própria máquina, que só faz fumo branco. O fumo colorido vem de granadas de fumo, canhões de pó ou bastões pirotécnicos, uma família de produtos diferente que não faz parte do nosso inventário próprio. Diga-nos do que precisa e procuramos uma solução junto dos nossos fornecedores, se houver uma. Com os nossos próprios focos RGBW também podemos iluminar a zona da revelação de rosa ou de azul.
+
+### Alugam máquinas de haze?
+
+Não do nosso inventário próprio: temos fumo, não haze. O fumo é uma nuvem branca visível que se desloca e se dissipa, o haze é uma névoa quase invisível que se mantém durante horas. Se a sua produção precisa mesmo de haze, diga-nos e procuramos uma solução junto dos nossos fornecedores, se houver uma.
+
+### Quantas máquinas de fumo têm?
+
+Uma. Cobre bem uma pista de dança, um palco ou uma zona de apresentação. Encher uniformemente uma sala grande exige várias máquinas colocadas pela sala. Essas não fazem parte do nosso inventário próprio, mas indique-nos a sala e procuramos as máquinas adicionais junto dos nossos fornecedores, se houver disponibilidade.
+
+### A máquina de fumo pode ser usada ao ar livre?
+
+Pode ser ligada e usada ao ar livre, mas o fumo dispersa-se em segundos com qualquer vento, por isso o efeito normalmente não compensa a montagem, a menos que a zona esteja realmente abrigada. Indique-nos o espaço e dizemos-lhe com honestidade se vale os 20 €.
+
+### A máquina de fumo está sincronizada com a iluminação?
+
+Não automaticamente. A nossa iluminação é controlada por pedal e orientada à mão, e não por DMX, por isso não há uma sequência programada. Um técnico aciona o fumo à mão no momento que escolher, o que funciona bem para uma entrada ou uma primeira dança.

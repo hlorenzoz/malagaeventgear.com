@@ -76,6 +76,11 @@ export default {
 			slug: 'buehnenbeleuchtung-hochzeit',
 			keyword: 'Bühnenbeleuchtung für Hochzeiten in Malaga',
 			status: 'propuesta'
+		},
+		'smoke-machine-rental': {
+			slug: 'nebelmaschine-mieten',
+			keyword: 'Nebelmaschine mieten Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

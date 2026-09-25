@@ -76,6 +76,11 @@ export default {
 			slug: 'podiumverlichting-bruiloft',
 			keyword: 'podiumverlichting voor bruiloften in Malaga',
 			status: 'propuesta'
+		},
+		'smoke-machine-rental': {
+			slug: 'rookmachine-huren',
+			keyword: 'rookmachine huren Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

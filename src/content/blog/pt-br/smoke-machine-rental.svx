@@ -1,0 +1,154 @@
+---
+title: "Aluguel de máquina de fumaça em Málaga, Espanha"
+description: "Aluguel de máquina de fumaça em Málaga: uma Martin Magnum 650 real, um adicional de € 20 no Eco Pack e no Wedding Pack, e a regra do alarme de incêndio que ninguém conta antes do evento."
+excerpt: "A camada de fumaça do nosso catálogo de iluminação: uma Martin Magnum 650, vendida como adicional de € 20 e não como pacote próprio, o que a fumaça realmente faz pela sua iluminação e a questão da autorização do local, que decide se ela pode ou não ser usada."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+A maioria das páginas sobre aluguel de máquina de fumaça em Málaga vende a máquina. Esta começa por outro lugar, porque a máquina é a parte fácil.
+
+Uma máquina de fumaça não é decoração. Ela existe por um único motivo: **a luz que atravessa o ar limpo é invisível**. Você só enxerga o feixe quando existe alguma coisa no ar para ele bater. Alugue iluminação sem fumaça e você terá superfícies iluminadas. Acrescente fumaça e você verá os próprios feixes, que é o visual que quase todo mundo tinha em mente.
+
+É por isso que esta página fica dentro do nosso guia sobre [aluguel de iluminação de palco](/blog/stage-lighting-rental/), e não ao lado das caixas de som.
+
+A Malaga Event Gear tem em estoque **uma Martin Magnum 650**, e ela é vendida como adicional de € 20, não como pacote próprio. A seguir está exatamente o que ela faz, o que ela não faz e a única pergunta que decide se ela pode ou não funcionar no seu local.
+
+## A máquina real que temos em estoque
+
+Uma unidade, e preferimos dizer o nome dela a nos esconder atrás de "efeitos de fumaça profissionais":
+
+| Especificação | Valor |
+| --- | --- |
+| Modelo | Martin Magnum 650 |
+| Potência | 600 W |
+| Vazão | 160 m3 por minuto |
+| Unidades em estoque | 1 |
+| Preço | € 20, como adicional |
+
+Uma máquina é de fato suficiente para uma pista de dança, um palco ou uma única área de apresentação. Não é suficiente para encher um salão grande por igual, e não vamos dizer o contrário. Se você já viu um local tomado de fumaça de um canto a outro, eram várias máquinas espalhadas pelo espaço, não uma só. As máquinas extras não estão no nosso inventário próprio, mas conte para a gente como é o espaço e vamos procurar essas máquinas com os nossos fornecedores, se houver disponibilidade.
+
+## Como contratar: um adicional, não um pacote
+
+A máquina de fumaça é uma opção em dois dos nossos pacotes, por € 20 além do preço do pacote:
+
+| Pacote | Preço | Convidados | Máquina de fumaça |
+| --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | € 290 sem IVA | até 50 | + € 20 |
+| [Wedding Pack](/packages/wedding/) | € 650 sem IVA | até 80 | + € 20 |
+
+Não alugamos a máquina sozinha. São € 20 de clima acrescentados a uma reserva que já tem o som e a iluminação, e sozinha, em um salão vazio, ela não faz nada que valha o preço.
+
+<InlineCTA />
+
+## A questão do alarme de incêndio, que decide tudo
+
+Esta é a parte que todo mundo deixa para a manhã do evento.
+
+**A fumaça dispara os detectores ópticos de fumaça.** Não de vez em quando. É assim que os detectores funcionam: eles procuram partículas suspensas no ar, e a fumaça é feita de partículas suspensas no ar. Um detector não consegue distinguir a fumaça de glicol de um incêndio de verdade.
+
+Por isso, antes de alguém reservar uma máquina de fumaça, uma pergunta precisa ser respondida pelo local, não por nós e não por você:
+
+> A detecção de fumaça deste salão pode ser isolada durante o evento, e quem tem autorização para fazer isso?
+
+Em hotéis e locais licenciados da Costa del Sol a resposta costuma ser sim, e isso envolve a própria equipe de manutenção ou de segurança do local colocando a zona afetada em modo de teste, com registro por escrito. Em outros, a resposta é um não categórico, na maioria das vezes quando a detecção está ligada diretamente a uma chamada automática para o Corpo de Bombeiros.
+
+O que isso significa na prática:
+
+-   **Pergunte ao local antes de reservar o adicional**, não depois. Vinte euros é pouco. Uma evacuação do prédio no meio da primeira dança não é.
+-   **Nós não podemos isolar um detector**, e não vamos tentar. A detecção de incêndio é o sistema do local e responsabilidade legal dele.
+-   **Se o local disser não, a resposta é não.** Preferimos perder € 20 a disparar um alarme no seu evento.
+
+Ao ar livre esse problema desaparece, mas surge outro: o vento. A fumaça ao ar livre se dispersa em segundos, a não ser que a área seja protegida, então o efeito costuma valer menos do que custa montar.
+
+## Fumaça, haze e fumaça baixa são três produtos diferentes
+
+Na internet esses termos são usados como se fossem a mesma coisa, e não são. Temos em estoque exatamente um dos três. Os outros dois não estão no nosso inventário próprio, mas conte para a gente de qual você precisa e vamos procurar uma solução com os nossos fornecedores, se houver.
+
+| Efeito | Como ele é | Temos em estoque |
+| --- | --- | --- |
+| **Fumaça** | Nuvens brancas visíveis e densas, que se espalham e depois se dissipam | **Sim**, a Magnum 650 |
+| **Haze** | Uma névoa uniforme quase invisível, que fica no ar por horas e mostra os feixes sem formar nuvens | Não |
+| **Fumaça baixa** | Fica rente ao chão, na altura dos tornozelos, o visual de gelo seco ou de fumaça resfriada | Não |
+
+A terceira linha importa mais do que as outras duas, porque é a que as pessoas imaginam para a primeira dança de um casamento: o casal parecendo estar em cima de uma nuvem. Esse efeito precisa de uma máquina de fumaça resfriada ou de gelo seco, que não está no nosso inventário próprio. A nossa fumaça sobe e se espalha em vez de ficar rente ao chão. Se o que você quer é uma nuvem no chão, conte para a gente e vamos procurar uma solução com os nossos fornecedores, se houver, e planejar a iluminação em torno dela.
+
+## Chá revelação: leia isto antes de reservar
+
+"Máquina de fumaça para chá revelação" é uma das formas mais comuns de alguém chegar a uma página como esta, e a resposta honesta não é a que a maioria das páginas de aluguel dá.
+
+**A nossa máquina produz fumaça branca. Ela não consegue produzir fumaça rosa nem azul.**
+
+Um chá revelação precisa de fumaça *colorida*, que vem de uma família de produtos completamente diferente: granadas de fumaça, canhões de pó colorido e bastões pirotécnicos de fumaça. São produtos descartáveis, que queimam ou expelem um corante, e não uma máquina de fumaça de glicol com um filtro na frente. Eles não estão no nosso inventário próprio. Se o que você quer é fumaça colorida, conte para a gente e vamos procurar uma solução com os nossos fornecedores, se houver. Consulte o local antes, do mesmo jeito que com a fumaça.
+
+O que podemos fazer com o nosso próprio equipamento é a iluminação. Um banho de luz RGBW rosa ou azul sobre a área da revelação, acionado no momento certo, aparece com clareza nas fotos e no vídeo, não precisa de autorização do local e não pode ser estragado pelo vento. Se o seu evento é uma revelação, essa é a conversa que vale a pena ter com a gente, e o nosso guia sobre [iluminação de palco para casamento](/blog/stage-lighting-for-weddings/) explica como esse banho de luz é montado.
+
+## Fumaça com quais refletores, exatamente
+
+A fumaça só vale os seus € 20 quando existe um feixe para ela revelar. Comparando com a nossa lista real de refletores:
+
+-   **As barras de luz RGBW do [Eco Pack](/packages/eco/)**, incluídas no pacote. No ar limpo, você vê manchas coloridas em uma parede. Com fumaça, você vê os feixes atravessando o salão. É para essa combinação que o adicional existe.
+-   **Os varais de luzes do [Wedding Pack](/packages/wedding/)**, fios de LED com luz quente. São pequenos pontos de luz, e não feixes, então a fumaça suaviza o ar em volta deles em vez de desenhar feixes através dele. Para ter feixes visíveis em um casamento, combine a fumaça com as barras Eurolite ou com o Fresnel abaixo.
+-   **Barras Eurolite LED KLS-200**, 2 unidades, fora de qualquer pacote e com orçamento sob consulta. Quatro cabeças fixas por barra, apontadas à mão. Com fumaça, você vê quatro feixes atravessando o salão.
+-   **ADJ Encore FRI50Z**, um Fresnel com zoom. Uma luz geral de borda suave, e não um feixe marcado, então a fumaça a adensa em um cone de luz visível.
+-   **ADJ Element H6 Pack**, os seis refletores de uplighting sem fio apresentados no nosso guia sobre [aluguel de uplighting](/blog/stage-uplighting/). Eles ficam apontados para cima, contra uma parede, e o que se vê é a luz NA parede, então é aqui que a fumaça acrescenta menos do que em qualquer outro equipamento que temos.
+
+Um limite honesto que vem do nosso guia principal: a nossa iluminação funciona com **pedal e direcionamento manual, não com DMX**. Não existe uma sequência de deixas programada que sincronize um jato de fumaça com uma mudança de luz em uma linha do tempo. Um técnico aciona a fumaça à mão no momento certo, o que é perfeitamente adequado para uma primeira dança ou uma entrada, e não é o show automatizado que algumas páginas dão a entender.
+
+## Montagens reais que já entregamos
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('eco')} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Com quanta antecedência reservar
+
+Todas as nossas reservas precisam de pelo menos 24 horas de antecedência, e a máquina de fumaça não é exceção. A restrição que realmente pede tempo não é nossa, é do local: conseguir a confirmação por escrito de que a zona de detecção pode ser isolada pode levar dias, se o pedido tiver que passar pelo departamento técnico de um hotel. Consulte o local o quanto antes e reserve o adicional depois.
+
+## Conclusão
+
+Aluguel de máquina de fumaça em Málaga, com a gente, significa uma Martin Magnum 650 acrescentada a um [Eco Pack](/packages/eco/) ou a um [Wedding Pack](/packages/wedding/) por € 20, para tornar realmente visível a iluminação que você já está alugando.
+
+Confirme com o seu local que a detecção de fumaça pode ser isolada e conte para a gente o que você vai iluminar. Se a resposta do local for não, vamos dizer isso com clareza e criar o visual só com luz.
+
+[Entre em contato](/contact/) informando o local e a data, ou ligue para [666 346 911](tel:+34666346911).
+
+## Perguntas frequentes
+
+### Quanto custa alugar uma máquina de fumaça em Málaga?
+
+Vinte euros, acrescentados a um pacote, e não alugada sozinha. Ela é uma opção no [Eco Pack](/packages/eco/), por € 290 sem IVA, e no [Wedding Pack](/packages/wedding/), por € 650 sem IVA.
+
+### A máquina de fumaça vai disparar o alarme de incêndio?
+
+Pode disparar, e esse é o comportamento normal de um detector óptico de fumaça, não um defeito. Pergunte ao seu local se a zona de detecção pode ser isolada durante o evento e quem tem autorização para fazer isso, antes de reservar o adicional. Nós não podemos isolar um detector, porque a detecção de incêndio é o sistema do local e responsabilidade dele.
+
+### Vocês oferecem o efeito de fumaça baixa para a primeira dança?
+
+Não com o nosso próprio equipamento. Esse visual de nuvem no chão precisa de uma máquina de fumaça resfriada ou de gelo seco, que não está no nosso inventário próprio. A nossa Martin Magnum 650 produz uma fumaça que sobe e se espalha, em vez de ficar na altura dos tornozelos. Conte para a gente que você quer esse efeito e vamos procurar uma solução com os nossos fornecedores, se houver.
+
+### Vocês fazem fumaça colorida para um chá revelação?
+
+Não com a nossa própria máquina, que só faz fumaça branca. A fumaça colorida vem de granadas de fumaça, canhões de pó colorido ou bastões pirotécnicos, uma família de produtos diferente que não está no nosso inventário próprio. Conte para a gente do que você precisa e vamos procurar uma solução com os nossos fornecedores, se houver. Com os nossos próprios refletores RGBW também podemos iluminar a área da revelação em rosa ou azul.
+
+### Vocês alugam máquina de haze?
+
+Não do nosso inventário próprio: temos fumaça, não haze. A fumaça é uma nuvem branca visível que se espalha e se dissipa, o haze é uma névoa quase invisível que fica no ar por horas. Se a sua produção precisa especificamente de haze, conte para a gente e vamos procurar uma solução com os nossos fornecedores, se houver.
+
+### Quantas máquinas de fumaça vocês têm?
+
+Uma. Ela atende bem uma pista de dança, um palco ou uma área de apresentação. Encher um salão grande por igual exige várias máquinas espalhadas pelo espaço. Elas não estão no nosso inventário próprio, mas conte para a gente como é o espaço e vamos procurar as máquinas extras com os nossos fornecedores, se houver disponibilidade.
+
+### Dá para usar a máquina de fumaça ao ar livre?
+
+Dá para ligar e usar ao ar livre, mas a fumaça se dispersa em segundos com qualquer vento, então o efeito costuma não compensar a montagem, a não ser que a área seja realmente protegida. Conte para a gente como é o espaço e vamos dizer com honestidade se vale os € 20.
+
+### A máquina de fumaça é sincronizada com a iluminação?
+
+Não automaticamente. A nossa iluminação é controlada por pedal e direcionada à mão, e não por DMX, então não existe uma sequência de deixas programada. Um técnico aciona a fumaça à mão no momento em que você quiser, o que funciona bem para uma entrada ou uma primeira dança.

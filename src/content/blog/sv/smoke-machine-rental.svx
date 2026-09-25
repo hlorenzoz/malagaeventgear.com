@@ -1,0 +1,154 @@
+---
+title: "Hyra rökmaskin i Malaga, Spanien"
+description: "Hyra rökmaskin i Malaga: en riktig Martin Magnum 650, ett tillval för 20 € till Eco Pack och Wedding Pack, plus regeln om brandlarmet som ingen berättar före evenemanget."
+excerpt: "Rökdelen i vår belysningskatalog: en Martin Magnum 650, som säljs som ett tillval för 20 € i stället för som ett eget paket, vad rök faktiskt gör för din belysning och frågan om lokalens tillstånd som avgör om den alls kan användas."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+De flesta sidor om att hyra rökmaskin i Malaga säljer själva maskinen. Den här börjar någon annanstans, eftersom maskinen är den enkla delen.
+
+En rökmaskin är ingen dekoration. Den finns av ett enda skäl: **ljus som färdas genom ren luft syns inte**. Du ser bara strålen när det finns något i luften för den att träffa. Hyr belysning utan rök och du får upplysta ytor. Lägg till rök och du ser själva strålarna, vilket är den effekt nästan alla egentligen hade tänkt sig.
+
+Därför ligger den här sidan under vår guide om att [hyra scenbelysning](/blog/stage-lighting-rental/) och inte bredvid högtalarna.
+
+Malaga Event Gear har **en Martin Magnum 650** i lager, och vi säljer den som ett tillval för 20 € i stället för som ett eget paket. Nedan står exakt vad den gör, vad den inte gör och den enda fråga som avgör om den alls kan användas i din lokal.
+
+## Den riktiga maskinen vi har i lager
+
+En enda enhet, och vi namnger den hellre än gömmer oss bakom "professionella rökeffekter":
+
+| Specifikation | Värde |
+| --- | --- |
+| Modell | Martin Magnum 650 |
+| Effekt | 600 W |
+| Rökvolym | 160 m3 per minut |
+| Enheter i lager | 1 |
+| Pris | 20 €, som tillval |
+
+En maskin räcker faktiskt till ett dansgolv, en scen eller en enskild presentationsyta. Den räcker inte till att fylla en stor sal jämnt, och det tänker vi inte påstå. Om du har sett en lokal insvept i rök från hörn till hörn var det flera maskiner utplacerade runt rummet, inte en. De extra maskinerna finns inte i vårt eget lager, men berätta om rummet så letar vi efter dem hos våra leverantörer, om de finns tillgängliga.
+
+## Så får du den: ett tillval, inte ett paket
+
+Rökmaskinen är ett tillval till två av våra paket, för 20 € utöver paketpriset:
+
+| Paket | Pris | Gäster | Rökmaskin |
+| --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | 290 € exkl. moms | upp till 50 | +20 € |
+| [Wedding Pack](/packages/wedding/) | 650 € exkl. moms | upp till 80 | +20 € |
+
+Vi hyr inte ut den separat. Det är 20 € stämning ovanpå en bokning som redan har ljudet och belysningen, och ensam i ett tomt rum gör den inget som är värt att betala för.
+
+<InlineCTA />
+
+## Frågan om brandlarmet, som avgör allt
+
+Här är delen som brukar hoppas över ända till evenemangets morgon.
+
+**Rök löser ut optiska rökdetektorer.** Inte ibland. Det är så detektorerna fungerar: de letar efter partiklar som svävar i luften, och rök är partiklar som svävar i luften. En detektor kan inte skilja glykolbaserad rök från en riktig brand.
+
+Så innan någon bokar en rökmaskin måste en fråga besvaras av lokalen, inte av oss och inte av dig:
+
+> Kan rökdetekteringen i den här lokalen förbikopplas under evenemanget, och vem har behörighet att göra det?
+
+På hotell och lokaler med tillstånd för evenemang längs Costa del Sol är svaret oftast ja, och då sätter lokalens egen personal för drift eller säkerhet den berörda sektionen i testläge och dokumenterar det skriftligt. På andra ställen är svaret ett blankt nej, oftast där detekteringen är kopplad direkt till ett automatiskt larm till räddningstjänsten.
+
+Vad det här betyder i praktiken:
+
+-   **Fråga lokalen innan du bokar tillvalet**, inte efteråt. Tjugo euro är billigt. En utrymning av byggnaden mitt i första dansen är det inte.
+-   **Vi kan inte förbikoppla en detektor**, och vi tänker inte försöka. Branddetekteringen är lokalens system och lokalens juridiska ansvar.
+-   **Om lokalen säger nej, säg nej.** Vi förlorar hellre 20 € än löser ut ett larm på ditt evenemang.
+
+Utomhus försvinner det här problemet, men ett annat tillkommer: vinden. Rök utomhus skingras på några sekunder om platsen inte är skyddad, så effekten är oftast värd mindre än vad den kostar att ställa upp.
+
+## Rök, haze och lågliggande rök är tre olika produkter
+
+De här begreppen används omväxlande på nätet, men de är inte samma sak. Vi har exakt en av de tre i lager. De andra två finns inte i vårt eget lager, men berätta vilken du behöver så letar vi efter en lösning hos våra leverantörer, om det finns en.
+
+| Effekt | Hur den ser ut | Har vi den i lager |
+| --- | --- | --- |
+| **Rök** | Synliga vita moln, tät, driver och tunnas sedan ut | **Ja**, Magnum 650 |
+| **Haze** | En knappt synlig, jämn dis som hänger kvar i timmar och visar strålar utan moln | Nej |
+| **Lågliggande rök** | Ligger på golvet i ankelhöjd, looken med torris eller kyld rök | Nej |
+
+Den tredje raden spelar större roll än de två andra, eftersom det är den folk ser framför sig vid första dansen på ett bröllop: brudparet som ser ut att stå på ett moln. Den effekten kräver en maskin för kyld rök eller torris, som inte finns i vårt eget lager. Vår rök stiger och sprider sig i stället för att ligga kvar vid golvet. Om ett moln på golvet är det du vill ha, berätta det så letar vi efter en lösning hos våra leverantörer, om det finns en, och planerar belysningen efter den.
+
+## Gender reveal: läs det här innan du bokar
+
+"Rökmaskin till gender reveal" är en av de vanligaste sökningarna som leder folk till en sida som den här, och det ärliga svaret är inte det som de flesta uthyrare ger.
+
+**Vår rökmaskin ger vit rök. Den kan inte ge rosa eller blå rök.**
+
+En gender reveal kräver *färgad* rök, och den kommer från en helt annan produktfamilj: rökgranater, pulverkanoner och pyrotekniska rökfacklor. Det är förbrukningsartiklar där ett färgämne bränns eller blåses ut, inte en glykolbaserad rökmaskin med ett filter framför. De finns inte i vårt eget lager. Om färgad rök är det du vill ha, berätta det så letar vi efter en lösning hos våra leverantörer, om det finns en. Stäm av med lokalen först, precis som med rök.
+
+Det vi kan göra med vår egen utrustning är belysningen. Ett RGBW-flodljus i rosa eller blått över ytan för avslöjandet, som tänds på given signal, syns tydligt på foton och video, kräver inget tillstånd från lokalen och kan inte förstöras av vinden. Om ditt evenemang är en gender reveal är det det samtalet som är värt att ta med oss, och vår guide om [scenbelysning för bröllop](/blog/stage-lighting-for-weddings/) går igenom hur det ljuset byggs upp.
+
+## Rök tillsammans med vilken belysning, exakt
+
+Rök gör bara skäl för sina 20 € när det finns en ljusstråle för den att visa. Utifrån vår verkliga lista över armaturer:
+
+-   **RGBW-ljusbalkarna i [Eco Pack](/packages/eco/)**, som ingår i paketet. I ren luft ser du färgade ljusfläckar på en vägg. Med rök ser du strålarna korsa rummet. Det är den kombinationen tillvalet finns till för.
+-   **Ljusslingorna i [Wedding Pack](/packages/wedding/)**, varma LED-slingor. De är små ljuspunkter snarare än strålar, så röken mjukar upp luften runt dem i stället för att rita strålar genom den. För synliga strålar på ett bröllop, kombinera röken med ljusbalkarna från Eurolite eller Fresnelspotlighten nedan.
+-   **Ljusbalkar Eurolite LED KLS-200**, 2 stycken, som inte ingår i något paket och offereras på förfrågan. Fyra fasta huvuden per balk, riktade för hand. Med rök ser du fyra strålar korsa rummet.
+-   **ADJ Encore FRI50Z**, en Fresnelspotlight med zoom. Ett flodljus med mjuka kanter snarare än en skarp stråle, så röken gör det till en synlig ljuskägla.
+-   **ADJ Element H6 Pack**, de sex trådlösa uplights som vi går igenom i vår guide om att [hyra uplighting](/blog/stage-uplighting/). De riktas uppåt mot en vägg och syns PÅ väggen, så här tillför röken minst av allt vi har i lager.
+
+En ärlig begränsning som följer med från grundguiden: vår belysning styrs med **fotpedal och riktas för hand, inte med DMX**. Det finns inga förprogrammerade ljusköer som synkroniserar en rökpuff med ett ljusbyte på en tidslinje. En tekniker löser ut röken för hand i rätt ögonblick, vilket fungerar alldeles utmärkt för en första dans eller en entré men inte är den automatiserade show som vissa sidor antyder.
+
+## Verkliga uppsättningar vi har levererat
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('eco')} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Hur långt i förväg du ska boka
+
+Alla våra bokningar kräver minst 24 timmars varsel, och rökmaskinen är inget undantag. Det som verkligen kräver framförhållning är inte vår del, utan lokalens: att få en skriftlig bekräftelse på att detekteringssektionen kan förbikopplas kan ta flera dagar om det måste gå via ett hotells tekniska avdelning. Fråga lokalen i god tid och boka tillvalet efteråt.
+
+## Slutsats
+
+Att hyra rökmaskin i Malaga hos oss betyder en Martin Magnum 650 som läggs till ett [Eco Pack](/packages/eco/) eller ett [Wedding Pack](/packages/wedding/) för 20 €, för att göra belysningen du redan hyr faktiskt synlig.
+
+Bekräfta med din lokal att rökdetekteringen kan förbikopplas, och berätta för oss vad du vill ljussätta. Om lokalen svarar nej säger vi det rakt ut och skapar looken med enbart ljus.
+
+[Kontakta oss](/contact/) med din lokal och ditt datum, eller ring oss på [666 346 911](tel:+34666346911).
+
+## Vanliga frågor
+
+### Vad kostar det att hyra en rökmaskin i Malaga?
+
+20 €, som läggs till ett paket i stället för att hyras separat. Den är ett tillval till [Eco Pack](/packages/eco/) för 290 € exkl. moms och [Wedding Pack](/packages/wedding/) för 650 € exkl. moms.
+
+### Löser rökmaskinen ut brandlarmet?
+
+Det kan den, och det är en optisk rökdetektors normala beteende, inte ett fel. Fråga din lokal om detekteringssektionen kan förbikopplas under evenemanget och vem som har behörighet att göra det, innan du bokar tillvalet. Vi kan inte själva förbikoppla en detektor, eftersom branddetekteringen är lokalens system och lokalens ansvar.
+
+### Erbjuder ni lågliggande rök till första dansen?
+
+Inte med vår egen utrustning. Looken med ett moln på golvet kräver en maskin för kyld rök eller torris, som inte finns i vårt eget lager. Vår Martin Magnum 650 ger rök som stiger och sprider sig i stället för att stanna i ankelhöjd. Berätta att du vill ha den effekten så letar vi efter en lösning hos våra leverantörer, om det finns en.
+
+### Kan ni ordna färgad rök till en gender reveal?
+
+Inte med vår egen maskin, som bara ger vit rök. Färgad rök kommer från rökgranater, pulverkanoner eller pyrotekniska rökfacklor, en annan produktfamilj som inte finns i vårt eget lager. Berätta vad du behöver så letar vi efter en lösning hos våra leverantörer, om det finns en. Med våra egna RGBW-armaturer kan vi också lysa upp ytan för avslöjandet i rosa eller blått.
+
+### Hyr ni ut en hazer?
+
+Inte från vårt eget lager: vi har rök, inte haze. Rök är synliga vita moln som driver och tunnas ut, haze är en nästan osynlig dis som hänger kvar i timmar. Om din produktion uttryckligen behöver haze, berätta det så letar vi efter en lösning hos våra leverantörer, om det finns en.
+
+### Hur många rökmaskiner har ni?
+
+En. Den täcker ett dansgolv, en scen eller en presentationsyta väl. Att fylla en stor sal jämnt kräver flera maskiner utplacerade runt rummet. De finns inte i vårt eget lager, men berätta om rummet så letar vi efter de extra maskinerna hos våra leverantörer, om de finns tillgängliga.
+
+### Kan rökmaskinen användas utomhus?
+
+Den kan kopplas in och köras utomhus, men röken skingras på några sekunder så fort det blåser, så effekten är oftast inte värd uppställningen om platsen inte verkligen är skyddad. Berätta om platsen så säger vi ärligt om den är värd 20 €.
+
+### Är rökmaskinen synkroniserad med belysningen?
+
+Inte automatiskt. Vår belysning styrs med fotpedal och riktas för hand i stället för med DMX, så det finns inga förprogrammerade ljusköer. En tekniker löser ut röken för hand i det ögonblick du vill ha den, vilket fungerar bra för en entré eller en första dans.

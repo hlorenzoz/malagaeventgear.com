@@ -72,6 +72,11 @@ export default {
 			slug: 'scenbelysning-brollop',
 			keyword: 'scenbelysning för bröllop i Malaga',
 			status: 'propuesta'
+		},
+		'smoke-machine-rental': {
+			slug: 'hyra-rokmaskin',
+			keyword: 'hyra rökmaskin Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

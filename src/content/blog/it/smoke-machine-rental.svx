@@ -1,0 +1,154 @@
+---
+title: "Noleggio macchina del fumo a Malaga, Spagna"
+description: "Noleggio macchina del fumo a Malaga: una vera Martin Magnum 650, un extra da 20 € per l'Eco Pack e il Wedding Pack, e la regola sull'allarme antincendio che nessuno ti spiega prima dell'evento."
+excerpt: "Lo strato di fumo del nostro catalogo luci: una Martin Magnum 650, proposta come extra da 20 € e non come pacchetto a sé, cosa fa davvero il fumo per le tue luci e la domanda sul permesso della location che decide se si può usare o no."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Chi cerca noleggio macchina del fumo a Malaga trova quasi sempre pagine che vendono la macchina. Questa parte da un'altra cosa, perché la macchina è la parte facile.
+
+Una macchina del fumo non è una decorazione. Esiste per un solo motivo: **la luce che attraversa l'aria pulita è invisibile**. Vedi il fascio solo quando nell'aria c'è qualcosa da colpire. Noleggia le luci senza fumo e ottieni superfici illuminate. Aggiungi il fumo e vedi i fasci stessi, che è l'effetto che quasi tutti avevano davvero in mente.
+
+Per questo questa pagina sta sotto la nostra guida sul [noleggio luci da palco](/blog/stage-lighting-rental/) e non accanto alle casse.
+
+Malaga Event Gear ha a magazzino **una Martin Magnum 650**, e la proponiamo come extra da 20 €, non come pacchetto a sé. Qui sotto trovi esattamente cosa fa, cosa non fa e l'unica domanda che decide se si può usare nella tua location.
+
+## La macchina reale che abbiamo a magazzino
+
+Una sola unità, e preferiamo dirti il modello piuttosto che nasconderci dietro degli "effetti fumo professionali":
+
+| Caratteristica | Valore |
+| --- | --- |
+| Modello | Martin Magnum 650 |
+| Potenza | 600 W |
+| Portata | 160 m3 al minuto |
+| Unità a magazzino | 1 |
+| Prezzo | 20 €, come extra |
+
+Una macchina basta davvero per una pista da ballo, un palco o una singola zona di presentazione. Non basta per riempire in modo uniforme una sala grande, e non ti diremo il contrario. Se hai visto una location avvolta nel fumo da un angolo all'altro, erano diverse macchine distribuite nella sala, non una sola. Le macchine in più non fanno parte del nostro inventario proprio, ma descrivici la sala e le cercheremo con i nostri fornitori, se sono disponibili.
+
+## Come averla: un extra, non un pacchetto
+
+La macchina del fumo è un'opzione di due dei nostri pacchetti, a 20 € in più rispetto al prezzo del pacchetto:
+
+| Pacchetto | Prezzo | Invitati | Macchina del fumo |
+| --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | 290 € più IVA | fino a 50 | +20 € |
+| [Wedding Pack](/packages/wedding/) | 650 € più IVA | fino a 80 | +20 € |
+
+Non la noleggiamo da sola. Sono 20 € di atmosfera che si aggiungono a una prenotazione che ha già l'audio e le luci. Da sola, in una sala vuota, non fa niente che valga la pena di pagare.
+
+<InlineCTA />
+
+## La domanda sull'allarme antincendio, che decide tutto
+
+Ecco la parte che di solito si rimanda fino alla mattina dell'evento.
+
+**Il fumo fa scattare i rilevatori di fumo ottici.** Non ogni tanto. È così che funzionano: cercano particelle sospese nell'aria, e il fumo è fatto proprio di particelle sospese nell'aria. Un rilevatore non sa distinguere il fumo al glicole da un vero incendio.
+
+Quindi, prima che qualcuno prenoti una macchina del fumo, c'è una domanda a cui deve rispondere la location, non noi e non tu:
+
+> La rilevazione fumi di questa sala si può escludere per tutta la durata dell'evento, e chi è autorizzato a farlo?
+
+Negli hotel e nelle location autorizzate della Costa del Sol la risposta di solito è sì: il personale di manutenzione o di sicurezza della location mette la zona interessata in modalità test, e lo registra per iscritto. In altre la risposta è un no secco, il più delle volte dove la rilevazione è collegata direttamente a una chiamata automatica ai vigili del fuoco.
+
+In pratica significa:
+
+-   **Chiedi alla location prima di prenotare l'extra**, non dopo. Venti euro sono pochi. L'evacuazione dell'edificio durante il primo ballo no.
+-   **Non possiamo escludere un rilevatore**, e non ci proveremo. La rilevazione incendi è un sistema della location ed è una sua responsabilità legale.
+-   **Se la location dice no, la risposta è no.** Preferiamo perdere 20 € piuttosto che far scattare un allarme al tuo evento.
+
+All'aperto questo problema sparisce, ma ne arriva un altro: il vento. All'aperto il fumo si disperde in pochi secondi se la zona non è riparata, quindi di solito l'effetto vale meno di quanto costa allestirlo.
+
+## Fumo, haze e fumo basso sono tre prodotti diversi
+
+Online questi termini si usano come sinonimi, ma non sono la stessa cosa. Dei tre, noi ne abbiamo a magazzino uno solo. Gli altri due non fanno parte del nostro inventario proprio, ma dicci quale ti serve e cercheremo una soluzione con i nostri fornitori, se esiste.
+
+| Effetto | Che aspetto ha | Lo abbiamo a magazzino |
+| --- | --- | --- |
+| **Fumo** | Nuvole bianche visibili e dense, che si spostano e poi si diradano | **Sì**, la Magnum 650 |
+| **Haze** | Una foschia uniforme appena visibile, resta nell'aria per ore, mostra i fasci senza fare nuvole | No |
+| **Fumo basso** | Resta sul pavimento all'altezza delle caviglie, l'effetto del ghiaccio secco o del fumo refrigerato | No |
+
+La terza riga conta più delle altre due, perché è quella che si immagina per il primo ballo di un matrimonio: gli sposi che sembrano ballare su una nuvola. Quell'effetto richiede una macchina a fumo refrigerato o a ghiaccio secco, che non fa parte del nostro inventario proprio. Il nostro fumo sale e si espande invece di restare aderente al pavimento. Se quello che vuoi è una nuvola sul pavimento, diccelo e cercheremo una soluzione con i nostri fornitori, se esiste, e progetteremo le luci di conseguenza.
+
+## Gender reveal: leggi qui prima di prenotare
+
+"Macchina del fumo per gender reveal" è una delle ricerche più comuni con cui si arriva a una pagina come questa, e la risposta onesta non è quella che danno quasi tutte le pagine di noleggio.
+
+**La nostra macchina del fumo produce fumo bianco. Non può produrre fumo rosa o azzurro.**
+
+Un gender reveal richiede fumo *colorato*, che arriva da una famiglia di prodotti completamente diversa: fumogeni, cannoni a polvere colorata e candelotti fumogeni pirotecnici. Sono materiali di consumo che bruciano o sparano un colorante, non una macchina del fumo al glicole con un filtro davanti. Non fanno parte del nostro inventario proprio. Se quello che vuoi è il fumo colorato, diccelo e cercheremo una soluzione con i nostri fornitori, se esiste. Anche in questo caso, verifica prima con la location, come per il fumo.
+
+Quello che possiamo fare con la nostra attrezzatura di proprietà sono le luci. Una luce RGBW rosa o azzurra diffusa sulla zona del reveal, attivata al momento giusto, si vede chiaramente in foto e in video, non richiede il permesso della location e il vento non può rovinarla. Se il tuo evento è un reveal, è di questo che vale la pena parlare con noi, e la nostra guida sull'[illuminazione scenica per matrimoni](/blog/stage-lighting-for-weddings/) spiega come si costruisce quella luce.
+
+## Il fumo con quali luci, esattamente
+
+Il fumo vale i suoi 20 € solo quando c'è un fascio da rendere visibile. Ecco come si comporta con i nostri fari reali:
+
+-   **Le barre LED RGBW dell'[Eco Pack](/packages/eco/)**, incluse nel pacchetto. Nell'aria pulita vedi macchie di colore su una parete. Con il fumo vedi i fasci che attraversano la sala. È l'abbinamento per cui esiste questo extra.
+-   **Le lucine del [Wedding Pack](/packages/wedding/)**, fili LED a luce calda. Sono piccoli punti di luce e non fasci, quindi il fumo ammorbidisce l'aria intorno a loro invece di disegnarci dentro dei fasci. Per avere fasci visibili a un matrimonio, abbina il fumo alle barre Eurolite o al Fresnel qui sotto.
+-   **Le barre Eurolite LED KLS-200**, 2 unità, non incluse in nessun pacchetto e con preventivo su richiesta. Quattro teste fisse per barra, orientate a mano. Con il fumo vedi quattro fasci che attraversano la sala.
+-   **L'ADJ Encore FRI50Z**, un Fresnel con zoom. Una luce diffusa dai bordi morbidi invece di un fascio netto, che il fumo addensa in un cono di luce visibile.
+-   **L'ADJ Element H6 Pack**, i sei fari di uplighting wireless presentati nella nostra guida sul [noleggio uplighting](/blog/stage-uplighting/). Puntano verso l'alto su una parete e si vedono SULLA parete, quindi di tutto quello che abbiamo a magazzino è qui che il fumo aggiunge meno.
+
+Un limite onesto ripreso dalla nostra guida di riferimento: le nostre luci funzionano con **pedale e puntamento manuale, non in DMX**. Non c'è una sequenza programmata che sincronizzi uno sbuffo di fumo con un cambio di luce secondo una scaletta. Lo attiva a mano un tecnico al momento giusto, cosa del tutto adeguata per un primo ballo o un'entrata, ma non è lo spettacolo automatizzato che alcune pagine lasciano intendere.
+
+## Allestimenti reali che abbiamo realizzato
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('eco')} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Con quanto anticipo prenotare
+
+Tutte le nostre prenotazioni richiedono almeno 24 ore di preavviso, e la macchina del fumo non fa eccezione. Il vincolo che richiede davvero tempo non è il nostro, è quello della location: ottenere la conferma scritta che la zona di rilevazione si può escludere può richiedere giorni se deve passare dall'ufficio tecnico di un hotel. Chiedi presto alla location, e prenota l'extra dopo.
+
+## Conclusione
+
+Il noleggio di una macchina del fumo a Malaga, da noi, significa una Martin Magnum 650 aggiunta a un [Eco Pack](/packages/eco/) o a un [Wedding Pack](/packages/wedding/) per 20 €, per rendere davvero visibili le luci che stai già noleggiando.
+
+Verifica con la tua location che la rilevazione fumi si possa escludere, e dicci cosa vuoi illuminare. Se la location risponde di no, te lo diremo e creeremo l'effetto solo con la luce.
+
+[Contattaci](/contact/) indicando location e data, oppure chiamaci al [666 346 911](tel:+34666346911).
+
+## Domande frequenti
+
+### Quanto costa noleggiare una macchina del fumo a Malaga?
+
+Venti euro, come extra di un pacchetto: non la noleggiamo da sola. È un'opzione dell'[Eco Pack](/packages/eco/) a 290 € più IVA e del [Wedding Pack](/packages/wedding/) a 650 € più IVA.
+
+### La macchina del fumo farà scattare l'allarme antincendio?
+
+Può succedere, ed è il normale funzionamento di un rilevatore di fumo ottico, non un guasto. Prima di prenotare l'extra, chiedi alla tua location se la zona di rilevazione si può escludere durante l'evento e chi è autorizzato a farlo. Noi non possiamo escludere un rilevatore, perché la rilevazione incendi è un sistema della location ed è una sua responsabilità.
+
+### Offrite l'effetto fumo basso per il primo ballo?
+
+Non con la nostra attrezzatura di proprietà. Quell'effetto di nuvola sul pavimento richiede una macchina a fumo refrigerato o a ghiaccio secco, che non fa parte del nostro inventario proprio. La nostra Martin Magnum 650 produce un fumo che sale e si espande invece di restare all'altezza delle caviglie. Dicci che lo vuoi e cercheremo una soluzione con i nostri fornitori, se esiste.
+
+### Potete fare il fumo colorato per un gender reveal?
+
+Non con la macchina di nostra proprietà, che produce solo fumo bianco. Il fumo colorato arriva da fumogeni, cannoni a polvere colorata o candelotti fumogeni pirotecnici, un'altra famiglia di prodotti che non fa parte del nostro inventario proprio. Dicci cosa ti serve e cercheremo una soluzione con i nostri fornitori, se esiste. Con i nostri fari RGBW di proprietà possiamo anche illuminare la zona del reveal di rosa o di azzurro.
+
+### Noleggiate una macchina haze?
+
+Non dal nostro inventario proprio: abbiamo il fumo, non l'haze. Il fumo è una nuvola bianca visibile che si sposta e si dirada, l'haze è una foschia quasi invisibile che resta nell'aria per ore. Se la tua produzione ha bisogno specificamente dell'haze, diccelo e cercheremo una soluzione con i nostri fornitori, se esiste.
+
+### Quante macchine del fumo avete?
+
+Una. Copre bene una pista da ballo, un palco o una zona di presentazione. Per riempire in modo uniforme una sala grande servono diverse macchine distribuite nella sala. Quelle non fanno parte del nostro inventario proprio, ma descrivici la sala e cercheremo le macchine in più con i nostri fornitori, se sono disponibili.
+
+### La macchina del fumo si può usare all'aperto?
+
+Si può alimentare e far funzionare all'aperto, ma con un po' di vento il fumo si disperde in pochi secondi, quindi di solito non vale la pena di allestirla, a meno che la zona non sia davvero riparata. Descrivici lo spazio e ti diremo onestamente se vale i 20 €.
+
+### La macchina del fumo è sincronizzata con le luci?
+
+Non automaticamente. Le nostre luci si controllano a pedale e si puntano a mano, non in DMX, quindi non c'è nessuna sequenza programmata. Un tecnico attiva il fumo a mano nel momento in cui lo vuoi, e funziona bene per un'entrata o per un primo ballo.

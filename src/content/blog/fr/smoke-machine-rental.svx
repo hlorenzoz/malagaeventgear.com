@@ -1,0 +1,154 @@
+---
+title: "Location de machine à fumée à Malaga, Espagne"
+description: "Location de machine à fumée à Malaga : une vraie Martin Magnum 650, en option à 20 € sur l'Eco Pack et le Wedding Pack, et la règle sur l'alarme incendie que personne ne vous explique avant l'événement."
+excerpt: "La couche fumée de notre catalogue d'éclairage : une Martin Magnum 650, proposée en option à 20 € plutôt que comme un forfait à part entière, ce que la fumée apporte vraiment à votre éclairage, et la question d'autorisation du lieu qui décide si elle peut fonctionner ou non."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+La plupart des pages de location de machine à fumée à Malaga vendent la machine. Celle-ci commence ailleurs, parce que la machine est la partie facile.
+
+Une machine à fumée n'est pas une décoration. Elle existe pour une seule raison : **la lumière qui traverse un air pur est invisible**. Vous ne voyez le faisceau que si l'air contient quelque chose qu'il peut éclairer. Louez de l'éclairage sans fumée et vous obtenez des surfaces éclairées. Ajoutez de la fumée et ce sont les faisceaux eux-mêmes qui apparaissent, et c'est l'effet que presque tout le monde avait en tête.
+
+C'est pour cela que cette page se trouve sous notre guide sur la [location d'éclairage scénique](/blog/stage-lighting-rental/), et non à côté des enceintes.
+
+Malaga Event Gear a en stock **une Martin Magnum 650**, et nous la proposons en option à 20 € plutôt que comme un forfait à part entière. Voici exactement ce qu'elle fait, ce qu'elle ne fait pas, et la seule question qui décide si elle peut fonctionner ou non dans votre lieu.
+
+## La vraie machine que nous avons en stock
+
+Une seule unité, et nous préférons la nommer plutôt que de nous cacher derrière des "effets de fumée professionnels" :
+
+| Caractéristique | Valeur |
+| --- | --- |
+| Modèle | Martin Magnum 650 |
+| Puissance | 600 W |
+| Débit | 160 m3 par minute |
+| Unités en stock | 1 |
+| Prix | 20 €, en option |
+
+Une machine suffit réellement pour une piste de danse, une scène ou un seul espace de présentation. Elle ne suffit pas pour remplir uniformément une grande salle, et nous n'allons pas vous dire le contraire. Si vous avez déjà vu un lieu noyé dans la fumée d'un coin à l'autre, c'étaient plusieurs machines réparties dans la salle, pas une seule. Ces machines supplémentaires ne font pas partie de notre propre inventaire, mais décrivez-nous la salle et nous les chercherons auprès de nos fournisseurs, si elles sont disponibles.
+
+## Comment l'obtenir : une option, pas un forfait
+
+La machine à fumée est une option sur deux de nos forfaits, pour 20 € en plus du prix du forfait :
+
+| Forfait | Prix | Invités | Machine à fumée |
+| --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | 290 € HT | jusqu'à 50 | +20 € |
+| [Wedding Pack](/packages/wedding/) | 650 € HT | jusqu'à 80 | +20 € |
+
+Nous ne la louons pas seule. Ce sont 20 € d'ambiance qui s'ajoutent à une réservation qui comprend déjà le son et l'éclairage. Seule, dans une salle vide, elle ne produit rien qui vaille la peine d'être payé.
+
+<InlineCTA />
+
+## La question de l'alarme incendie, qui décide de tout
+
+Voici la partie que l'on oublie jusqu'au matin de l'événement.
+
+**La fumée déclenche les détecteurs de fumée optiques.** Pas de temps en temps. C'est ainsi que fonctionnent ces détecteurs : ils repèrent les particules en suspension dans l'air, et la fumée, ce sont des particules en suspension dans l'air. Un détecteur ne sait pas distinguer une fumée au glycol d'un véritable incendie.
+
+Avant que quiconque réserve une machine à fumée, une question doit donc trouver sa réponse auprès du lieu, et non auprès de nous ni de vous :
+
+> La détection incendie de cette salle peut-elle être isolée pendant toute la durée de l'événement, et qui est habilité à le faire ?
+
+Dans les hôtels et les lieux agréés de la Costa del Sol, la réponse est généralement oui : le personnel de maintenance ou de sécurité du lieu met la zone concernée en mode test, avec une trace écrite. Ailleurs, la réponse est un non catégorique, le plus souvent quand la détection est reliée directement à un appel automatique des pompiers.
+
+Ce que cela veut dire en pratique :
+
+-   **Posez la question au lieu avant de réserver l'option**, pas après. Vingt euros, ce n'est pas cher. Une évacuation du bâtiment pendant l'ouverture de bal, si.
+-   **Nous ne pouvons pas isoler un détecteur**, et nous n'essaierons pas. La détection incendie est le système du lieu et relève de sa responsabilité légale.
+-   **Si le lieu dit non, dites non.** Nous préférons perdre 20 € que déclencher une alarme pendant votre événement.
+
+En extérieur, ce problème disparaît, mais un autre arrive : le vent. En plein air, la fumée se disperse en quelques secondes si l'espace n'est pas abrité, et l'effet vaut donc généralement moins que ce que coûte son installation.
+
+## Fumée, brume et fumée lourde sont trois produits différents
+
+Sur internet, ces termes sont souvent employés l'un pour l'autre, et ce n'est pas la même chose. Nous avons en stock un seul des trois. Les deux autres ne font pas partie de notre propre inventaire, mais dites-nous lequel il vous faut et nous chercherons une solution auprès de nos fournisseurs, s'il en existe une.
+
+| Effet | À quoi il ressemble | L'avons-nous en stock |
+| --- | --- | --- |
+| **Fumée** | Des nuages blancs visibles et épais, qui dérivent puis se dissipent | **Oui**, la Magnum 650 |
+| **Brume (haze)** | Un voile régulier à peine visible, qui reste en l'air pendant des heures et révèle les faisceaux sans former de nuages | Non |
+| **Fumée lourde** | Reste au sol à hauteur de cheville, l'effet de la carboglace ou de la fumée refroidie | Non |
+
+C'est la troisième ligne qui compte le plus, parce que c'est à elle que l'on pense d'abord pour l'ouverture de bal d'un mariage : les mariés qui semblent danser sur un nuage. Cet effet demande une machine à fumée lourde, à fumée refroidie ou à carboglace, qui ne fait pas partie de notre propre inventaire. Notre fumée monte et se diffuse au lieu de rester au ras du sol. Si c'est un nuage au sol que vous voulez, dites-le-nous et nous chercherons une solution auprès de nos fournisseurs, s'il en existe une, puis nous prévoirons l'éclairage en fonction.
+
+## Gender reveal : lisez ceci avant de réserver
+
+La "machine à fumée pour gender reveal" est l'une des recherches qui amènent le plus souvent les gens sur une page comme celle-ci, et la réponse honnête n'est pas celle que donnent la plupart des pages de location.
+
+**Notre machine à fumée produit une fumée blanche. Elle ne peut pas produire de fumée rose ou bleue.**
+
+Une fête de révélation du sexe du bébé demande une fumée *colorée*, qui vient d'une tout autre famille de produits : fumigènes, canons à poudre colorée et bâtons fumigènes pyrotechniques. Ce sont des consommables qui brûlent ou projettent un colorant, et non une machine à fumée au glycol munie d'un filtre. Ils ne font pas partie de notre propre inventaire. Si c'est une fumée colorée que vous voulez, dites-nous ce qu'il vous faut et nous chercherons une solution auprès de nos fournisseurs, s'il en existe une. Vérifiez d'abord avec le lieu, comme pour la fumée.
+
+Ce que nous pouvons faire avec notre propre matériel, c'est l'éclairage. Un éclairage RGBW rose ou bleu sur l'espace de la révélation, déclenché au bon moment, ressort nettement sur les photos et en vidéo, ne demande aucune autorisation du lieu et ne peut pas être gâché par le vent. Si votre événement est un gender reveal, c'est cette conversation qui vaut la peine d'être menée avec nous, et notre guide sur l'[éclairage scénique pour mariage](/blog/stage-lighting-for-weddings/) explique comment cet éclairage est mis en place.
+
+## La fumée avec quels projecteurs, exactement
+
+La fumée ne vaut ses 20 € que s'il y a un faisceau à révéler. Voici ce qu'elle donne avec notre vraie liste de projecteurs :
+
+-   **Les barres lumineuses RGBW de l'[Eco Pack](/packages/eco/)**, incluses dans le forfait. Dans un air pur, vous voyez des taches de couleur sur un mur. Avec de la fumée, vous voyez les faisceaux traverser la salle. C'est pour cette association que l'option existe.
+-   **Les guirlandes lumineuses du [Wedding Pack](/packages/wedding/)**, des guirlandes LED blanc chaud. Ce sont de petits points lumineux plutôt que des faisceaux, alors la fumée adoucit l'air autour d'elles au lieu d'y dessiner des faisceaux. Pour des faisceaux visibles lors d'un mariage, associez la fumée aux barres Eurolite ou au Fresnel ci-dessous.
+-   **Les barres Eurolite LED KLS-200**, 2 unités, qui ne font partie d'aucun forfait et sont proposées sur devis. Quatre têtes fixes par barre, orientées à la main. Avec de la fumée, vous voyez quatre faisceaux traverser la salle.
+-   **L'ADJ Encore FRI50Z**, un Fresnel à zoom. Un éclairage doux aux bords estompés plutôt qu'un faisceau net, que la fumée épaissit en un cône de lumière visible.
+-   **L'ADJ Element H6 Pack**, les six projecteurs d'uplighting sans fil présentés dans notre guide sur la [location d'uplighting](/blog/stage-uplighting/). Ils éclairent un mur de bas en haut et se voient SUR le mur, alors c'est avec eux que la fumée apporte le moins, de tout ce que nous avons en stock.
+
+Une limite honnête, reprise de notre page de référence : notre éclairage fonctionne avec **une pédale et une orientation manuelle, pas en DMX**. Aucune conduite programmée ne synchronise un jet de fumée avec un changement de lumière selon un déroulé. Un technicien le déclenche à la main au bon moment, ce qui convient parfaitement à une ouverture de bal ou à une entrée, mais ce n'est pas le spectacle automatisé que certaines pages laissent entendre.
+
+## De vraies installations que nous avons réalisées
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('eco')} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Combien de temps à l'avance réserver
+
+Toutes nos réservations demandent un préavis d'au moins 24 heures, et la machine à fumée ne fait pas exception. La contrainte qui demande vraiment du temps n'est pas la nôtre, c'est celle du lieu : obtenir une confirmation écrite que la zone de détection peut être isolée peut prendre plusieurs jours si la demande doit passer par le service technique d'un hôtel. Posez la question tôt, réservez ensuite.
+
+## Conclusion
+
+La location de machine à fumée à Malaga, chez nous, c'est une Martin Magnum 650 ajoutée à un [Eco Pack](/packages/eco/) ou à un [Wedding Pack](/packages/wedding/) pour 20 €, afin de rendre réellement visible l'éclairage que vous louez déjà.
+
+Vérifiez avec votre lieu que la détection de fumée peut être isolée, et dites-nous ce que vous voulez éclairer. Si le lieu répond non, nous vous le dirons et nous créerons l'ambiance avec la lumière seule.
+
+[Contactez-nous](/contact/) en précisant votre lieu et votre date, ou appelez-nous au [666 346 911](tel:+34666346911).
+
+## Questions fréquentes
+
+### Combien coûte la location d'une machine à fumée à Malaga ?
+
+Vingt euros, ajoutés à un forfait plutôt que loués seuls. C'est une option sur l'[Eco Pack](/packages/eco/) à 290 € HT et sur le [Wedding Pack](/packages/wedding/) à 650 € HT.
+
+### La machine à fumée va-t-elle déclencher l'alarme incendie ?
+
+C'est possible, et c'est le comportement normal d'un détecteur de fumée optique, pas une panne. Avant de réserver l'option, demandez à votre lieu si la zone de détection peut être isolée pendant l'événement et qui est habilité à le faire. Nous ne pouvons pas isoler un détecteur nous-mêmes, car la détection incendie est le système du lieu et relève de sa responsabilité.
+
+### Proposez-vous l'effet de fumée lourde pour l'ouverture de bal ?
+
+Pas avec notre propre matériel. Cet effet de nuage au sol demande une machine à fumée lourde, à fumée refroidie ou à carboglace, qui ne fait pas partie de notre propre inventaire. Notre Martin Magnum 650 produit une fumée qui monte et se diffuse au lieu de rester à hauteur de cheville. Dites-nous que vous la souhaitez et nous chercherons une solution auprès de nos fournisseurs, s'il en existe une.
+
+### Pouvez-vous faire de la fumée colorée pour un gender reveal ?
+
+Pas avec notre propre machine, qui ne produit que de la fumée blanche. La fumée colorée vient de fumigènes, de canons à poudre colorée ou de bâtons fumigènes pyrotechniques, une autre famille de produits qui ne fait pas partie de notre propre inventaire. Dites-nous ce qu'il vous faut et nous chercherons une solution auprès de nos fournisseurs, s'il en existe une. Avec nos propres projecteurs RGBW, nous pouvons aussi éclairer l'espace de la révélation en rose ou en bleu.
+
+### Louez-vous une machine à brume (hazer) ?
+
+Pas dans notre propre inventaire : nous avons de la fumée, pas de la brume. La fumée est un nuage blanc visible qui dérive et se dissipe, la brume est un voile presque invisible qui reste en l'air pendant des heures. Si votre production a précisément besoin de brume, dites-le-nous et nous chercherons une solution auprès de nos fournisseurs, s'il en existe une.
+
+### Combien de machines à fumée avez-vous ?
+
+Une seule. Elle couvre bien une piste de danse, une scène ou un espace de présentation. Pour remplir uniformément une grande salle, il faut plusieurs machines réparties dans la pièce. Elles ne font pas partie de notre propre inventaire, mais décrivez-nous la salle et nous chercherons les machines supplémentaires auprès de nos fournisseurs, si elles sont disponibles.
+
+### La machine à fumée peut-elle être utilisée en extérieur ?
+
+Elle peut être branchée et fonctionner en extérieur, mais la fumée se disperse en quelques secondes au moindre vent, et l'installation n'en vaut donc généralement pas la peine, sauf si l'espace est vraiment abrité. Décrivez-nous l'endroit et nous vous dirons honnêtement si cela vaut les 20 €.
+
+### La machine à fumée est-elle synchronisée avec l'éclairage ?
+
+Pas automatiquement. Notre éclairage est commandé par pédale et orienté à la main plutôt que piloté en DMX, il n'y a donc aucune conduite programmée. Un technicien déclenche la fumée à la main au moment où vous le souhaitez, ce qui fonctionne bien pour une entrée ou une ouverture de bal.

@@ -108,6 +108,11 @@ export default {
 			slug: 'iluminacao-de-palco-para-casamento',
 			keyword: 'iluminação de palco para casamento em Málaga',
 			status: 'propuesta'
+		},
+		'smoke-machine-rental': {
+			slug: 'aluguel-de-maquina-de-fumaca',
+			keyword: 'aluguel de máquina de fumaça em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

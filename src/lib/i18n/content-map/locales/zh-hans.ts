@@ -64,6 +64,11 @@ export default {
 			slug: '婚礼舞台灯光',
 			keyword: '马拉加 婚礼舞台灯光',
 			status: 'propuesta'
+		},
+		'smoke-machine-rental': {
+			slug: '烟雾机租赁',
+			keyword: '马拉加 烟雾机租赁',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

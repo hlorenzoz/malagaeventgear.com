@@ -1,0 +1,154 @@
+---
+title: "Leie røykmaskin i Malaga, Spania"
+description: "Leie røykmaskin i Malaga: én ekte Martin Magnum 650, et tillegg til 20 € til Eco Pack og Wedding Pack, og regelen om brannalarmen som ingen forteller deg før arrangementet."
+excerpt: "Røyklaget i lyskatalogen vår: én Martin Magnum 650, solgt som et tillegg til 20 € i stedet for som en egen pakke, hva røyk faktisk gjør med lyset ditt, og spørsmålet til lokalet som avgjør om maskinen i det hele tatt kan brukes."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+De fleste sider om å leie røykmaskin i Malaga selger selve maskinen. Denne siden begynner et annet sted, fordi maskinen er den enkle delen.
+
+En røykmaskin er ikke pynt. Den finnes av én grunn: **lys som går gjennom ren luft, er usynlig**. Du ser bare strålen når det er noe i luften som den kan treffe. Leier du lys uten røyk, får du opplyste flater. Legger du til røyk, får du selve strålene, og det er det uttrykket nesten alle egentlig så for seg.
+
+Det er derfor denne siden ligger under guiden vår om [leie av scenelys](/blog/stage-lighting-rental/) og ikke ved siden av høyttalerne.
+
+Malaga Event Gear har **én Martin Magnum 650** på lager, og vi selger den som et tillegg til 20 € i stedet for som en egen pakke. Nedenfor står nøyaktig hva den gjør, hva den ikke gjør, og det ene spørsmålet som avgjør om den i det hele tatt kan brukes i lokalet ditt.
+
+## Den ekte maskinen vi har på lager
+
+Én enhet, og vi nevner den heller ved navn enn å gjemme oss bak "profesjonelle røykeffekter":
+
+| Spesifikasjon | Verdi |
+| --- | --- |
+| Modell | Martin Magnum 650 |
+| Effekt | 600 W |
+| Kapasitet | 160 m3 per minutt |
+| Enheter på lager | 1 |
+| Pris | 20 €, som tillegg |
+
+Én maskin er virkelig nok til et dansegulv, en scene eller et enkelt presentasjonsområde. Den er ikke nok til å fylle en stor sal jevnt, og det kommer vi ikke til å påstå. Har du sett et lokale fylt med røyk fra hjørne til hjørne, var det flere maskiner plassert rundt i rommet, ikke én. De ekstra maskinene har vi ikke i vårt eget lager, men fortell oss om rommet, så ser vi etter dem hos leverandørene våre, hvis de er tilgjengelige.
+
+## Slik får du den: et tillegg, ikke en pakke
+
+Røykmaskinen er et tilvalg på to av pakkene våre, for 20 € i tillegg til pakkeprisen:
+
+| Pakke | Pris | Gjester | Røykmaskin |
+| --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | 290 € eks. mva. | opptil 50 | +20 € |
+| [Wedding Pack](/packages/wedding/) | 650 € eks. mva. | opptil 80 | +20 € |
+
+Vi leier den ikke ut alene. Den er 20 € med stemning lagt oppå en bestilling som allerede har lyd og lys, og alene i et tomt rom gjør den ingenting som er verdt å betale for.
+
+<InlineCTA />
+
+## Spørsmålet om brannalarmen, som avgjør alt
+
+Her er delen som blir hoppet over helt til morgenen på arrangementsdagen.
+
+**Røyk utløser optiske røykdetektorer.** Ikke av og til. Det er slik detektorene fungerer: De ser etter partikler som svever i luften, og røyk er partikler som svever i luften. En detektor kan ikke skille glykolrøyk fra en ekte brann.
+
+Så før noen bestiller en røykmaskin, må ett spørsmål besvares av lokalet, ikke av oss og ikke av deg:
+
+> Kan røykdeteksjonen i dette rommet kobles ut så lenge arrangementet varer, og hvem har myndighet til å gjøre det?
+
+På hoteller og godkjente arrangementslokaler langs Costa del Sol er svaret som regel ja, og da er det lokalets eget vedlikeholdspersonale eller sikkerhetspersonale som setter den berørte sonen i testmodus, med en skriftlig logg. Andre steder er svaret et klart nei, oftest der deteksjonen er koblet direkte til automatisk varsling av brannvesenet.
+
+Hva dette betyr i praksis:
+
+-   **Spør lokalet før du bestiller tillegget**, ikke etterpå. 20 € er billig. En evakuering av bygningen under brudevalsen er det ikke.
+-   **Vi kan ikke koble ut en detektor**, og vi kommer ikke til å prøve. Brannvarslingen er lokalets anlegg og lokalets juridiske ansvar.
+-   **Hvis lokalet sier nei, si nei.** Vi taper heller 20 € enn å utløse en alarm på arrangementet ditt.
+
+Utendørs forsvinner dette problemet, men et annet dukker opp: vind. Røyk utendørs sprer seg på sekunder hvis området ikke er skjermet, så effekten er som regel verdt mindre enn det koster å sette den opp.
+
+## Røyk, haze og lavtliggende røyk er tre forskjellige produkter
+
+Disse brukes om hverandre på nettet, men de er ikke det samme. Vi har nøyaktig ett av de tre på lager. De to andre har vi ikke i vårt eget lager, men fortell oss hvilken du trenger, så ser vi etter en løsning hos leverandørene våre, hvis det finnes en.
+
+| Effekt | Hvordan det ser ut | Har vi det på lager |
+| --- | --- | --- |
+| **Røyk** | Synlige hvite skyer, tette, som driver og deretter tynnes ut | **Ja**, Magnum 650 |
+| **Haze** | En knapt synlig, jevn dis som henger i timevis og viser strålene uten skyer | Nei |
+| **Lavtliggende røyk** | Ligger på gulvet i ankelhøyde, uttrykket med tørris eller kjølt røyk | Nei |
+
+Den tredje raden betyr mer enn de to andre, fordi det er den folk ser for seg til brudevalsen: brudeparet som ser ut til å stå på en sky. Den effekten krever en maskin for kjølt røyk eller tørris, og den har vi ikke i vårt eget lager. Røyken vår stiger og sprer seg i stedet for å legge seg langs gulvet. Hvis en sky på gulvet er det du vil ha, fortell oss det, så ser vi etter en løsning hos leverandørene våre, hvis det finnes en, og planlegger lyset rundt den.
+
+## Gender reveal: les dette før du bestiller
+
+"Røykmaskin til gender reveal" er en av de vanligste veiene folk finner fram til en side som denne, og det ærlige svaret er ikke det de fleste utleiesider gir.
+
+**Røykmaskinen vår lager hvit røyk. Den kan ikke lage rosa eller blå røyk.**
+
+En gender reveal krever *farget* røyk, og den kommer fra en helt annen produktfamilie: røykgranater, pulverkanoner og pyrotekniske røykfakler. Det er forbruksvarer der et fargestoff brennes eller blåses ut, ikke en glykolrøykmaskin med et filter foran. Dem har vi ikke i vårt eget lager. Hvis farget røyk er det du vil ha, fortell oss det, så ser vi etter en løsning hos leverandørene våre, hvis det finnes en. Sjekk med lokalet først, akkurat som med røyk.
+
+Det vi kan gjøre med vårt eget utstyr, er lyset. Et RGBW-flomlys i rosa eller blått over området for avsløringen, utløst på signal, synes tydelig på bilder og video, krever ingen tillatelse fra lokalet og kan ikke ødelegges av vind. Hvis arrangementet ditt er en avsløring, er det den samtalen som er verdt å ta med oss, og guiden vår om [scenelys til bryllup](/blog/stage-lighting-for-weddings/) viser hvordan det flomlyset bygges opp.
+
+## Røyk sammen med hvilke lamper, helt konkret
+
+Røyken er bare verdt sine 20 € når det finnes en stråle den kan gjøre synlig. Sett opp mot den ekte lampelisten vår:
+
+-   **RGBW-lysbjelkene i [Eco Pack](/packages/eco/)**, inkludert i pakken. I ren luft ser du fargede lysflekker på en vegg. Med røyk ser du strålene krysse rommet. Det er denne kombinasjonen tillegget finnes for.
+-   **Lysslyngene i [Wedding Pack](/packages/wedding/)**, varme LED-slynger. De er små lyspunkter og ikke stråler, så røyken myker opp luften rundt dem i stedet for å tegne stråler gjennom den. Vil du ha synlige stråler i et bryllup, kan du kombinere røyken med lysbjelkene fra Eurolite eller Fresnelen nedenfor.
+-   **Lysbjelker Eurolite LED KLS-200**, 2 stykker, ikke inkludert i noen pakke og med pris etter forespørsel. Fire faste hoder per bjelke, rettet for hånd. Med røyk ser du fire stråler krysse rommet.
+-   **ADJ Encore FRI50Z**, en Fresnel med zoom. Et flomlys med myke kanter i stedet for en skarp stråle, så røyken fortetter det til en synlig lyskjegle.
+-   **ADJ Element H6 Pack**, de seks trådløse uplightene som vi går gjennom i guiden vår om [leie av uplighting](/blog/stage-uplighting/). De peker oppover langs en vegg og ses PÅ veggen, så her tilfører røyken minst av alt vi har på lager.
+
+Én ærlig begrensning videreført fra hovedguiden: Lyset vårt styres med **fotpedal og rettes for hånd, ikke med DMX**. Det finnes ingen programmert cueliste som synkroniserer et røykstøt med et lysskifte på en tidslinje. En tekniker utløser røyken for hånd i riktig øyeblikk, og det er helt tilstrekkelig til brudevalsen eller en inngang, men det er ikke det automatiserte showet enkelte sider antyder.
+
+## Ekte oppsett vi har levert
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('eco')} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Hvor lang tid i forveien du bør booke
+
+Alle bestillingene våre krever minst 24 timers varsel, og røykmaskinen er intet unntak. Begrensningen som faktisk krever tid i forveien, er ikke vår, men lokalets: Å få skriftlig bekreftelse på at detektorsonen kan kobles ut, kan ta flere dager hvis saken må gjennom den tekniske avdelingen på et hotell. Spør lokalet tidlig, og bestill tillegget først når svaret er klart.
+
+## Konklusjon
+
+Å leie røykmaskin i Malaga hos oss betyr én Martin Magnum 650 lagt til en [Eco Pack](/packages/eco/) eller en [Wedding Pack](/packages/wedding/) for 20 €, for å gjøre lyset du allerede leier, faktisk synlig.
+
+Bekreft med lokalet at røykdeteksjonen kan kobles ut, og fortell oss hva du skal lyse opp. Hvis svaret fra lokalet er nei, sier vi det og bygger uttrykket med lys alene.
+
+[Kontakt oss](/contact/) med lokalet og datoen din, eller ring oss på [666 346 911](tel:+34666346911).
+
+## Ofte stilte spørsmål
+
+### Hva koster det å leie en røykmaskin i Malaga?
+
+20 €, lagt til en pakke i stedet for leid alene. Den er et tilvalg på [Eco Pack](/packages/eco/) til 290 € eks. mva. og [Wedding Pack](/packages/wedding/) til 650 € eks. mva.
+
+### Utløser røykmaskinen brannalarmen?
+
+Det kan den, og det er vanlig oppførsel for en optisk røykdetektor, ikke en feil. Spør lokalet om detektorsonen kan kobles ut under arrangementet og hvem som har myndighet til å gjøre det, før du bestiller tillegget. Vi kan ikke koble ut en detektor selv, fordi brannvarslingen er lokalets anlegg og lokalets ansvar.
+
+### Tilbyr dere lavtliggende røyk til brudevalsen?
+
+Ikke med vårt eget utstyr. Uttrykket med en sky på gulvet krever en maskin for kjølt røyk eller tørris, og den har vi ikke i vårt eget lager. Martin Magnum 650 lager røyk som stiger og sprer seg i stedet for å holde seg i ankelhøyde. Fortell oss at du vil ha det, så ser vi etter en løsning hos leverandørene våre, hvis det finnes en.
+
+### Kan dere lage farget røyk til en gender reveal?
+
+Ikke med vår egen maskin, som bare lager hvit røyk. Farget røyk kommer fra røykgranater, pulverkanoner eller pyrotekniske røykfakler, en annen produktfamilie som vi ikke har i vårt eget lager. Fortell oss hva du trenger, så ser vi etter en løsning hos leverandørene våre, hvis det finnes en. Med våre egne RGBW-lamper kan vi også lyse opp området for avsløringen i rosa eller blått.
+
+### Leier dere ut en hazer?
+
+Ikke fra vårt eget lager: Vi har røyk, ikke haze. Røyk er synlige hvite skyer som driver og tynnes ut, mens haze er en nesten usynlig dis som henger i timevis. Hvis produksjonen din trenger nettopp haze, fortell oss det, så ser vi etter en løsning hos leverandørene våre, hvis det finnes en.
+
+### Hvor mange røykmaskiner har dere?
+
+Én. Den dekker et dansegulv, en scene eller et presentasjonsområde godt. Å fylle en stor sal jevnt krever flere maskiner plassert rundt i rommet. Dem har vi ikke i vårt eget lager, men fortell oss om rommet, så ser vi etter de ekstra maskinene hos leverandørene våre, hvis de er tilgjengelige.
+
+### Kan røykmaskinen brukes utendørs?
+
+Den kan kobles til strøm og kjøres utendørs, men røyk sprer seg på sekunder i den minste vind, så effekten er som regel ikke verdt oppsettet med mindre området er skikkelig skjermet. Fortell oss om stedet, så sier vi ærlig om den er verdt 20 €.
+
+### Er røykmaskinen synkronisert med lyset?
+
+Ikke automatisk. Lyset vårt styres med fotpedal og rettes for hånd i stedet for med DMX, så det finnes ingen programmert cueliste. En tekniker utløser røyken for hånd i det øyeblikket du vil ha den, og det fungerer godt til en inngang eller brudevalsen.
