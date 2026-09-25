@@ -27,7 +27,8 @@ Indice
  18. sitemap_index.xml y pagina del sitemap (HTML)
  19. Paginas legales
  20. Web Stories (AMP stories)
- 21. Checklist para arrancar un sitio nuevo
+ 21. Blog: Share this y tabla de contenidos (TOC)
+ 22. Checklist para arrancar un sitio nuevo
 
 
 --------------------------------------------------------------------------------
@@ -1033,10 +1034,16 @@ Formato del estandar
 
 Secciones que usa MEG (src/routes/(public)/llms.txt/+server.ts)
   Docs        Home, Paquetes, Equipamiento, About, Equipo, FAQ, Contacto
-  Packages    Un item por paquete: nombre, precio, capacidad, que incluye (IVA aclarado)
+  Packages    Un item por paquete: nombre, precio, capacidad, que incluye y extras
+              opcionales con su precio (withPrices sobre PRICE_POINTS), IVA aclarado
+  Guides      Los posts pilar del blog (siloRole: pillar), con titulo y descripcion
   Blog        Cantidad de posts, indice, categorias con una descripcion cada una
+  FAQ         Todas las preguntas y respuestas de faq.ts en ingles, pregunta en negrita.
+              Incluye lo que el negocio NO ofrece: es lo que mas evita que un asistente
+              invente servicios
   Key Facts   Nombre, año de inicio, direccion, categorias GBP, modelo de servicio,
-              rango de precios, horario, idiomas de atencion, idiomas del sitio, zonas
+              rango de precios, horario comercial y soporte tecnico, idiomas de atencion,
+              idiomas del sitio, zonas y valoracion real de Google (reviews.json, con fecha)
   Contact     Web, emails (reservas, general, legal), telefono, WhatsApp, direccion
   Legal       Privacy, Terms, GDPR, Cookies
   Optional    Sitemap HTML y sitemap_index.xml
@@ -1046,7 +1053,13 @@ Reglas de implementacion
     siteConfig, packages.ts y blog.ts. Un precio viejo en llms.txt es peor que en una
     pagina, porque un asistente se lo cita al cliente como un hecho.
   - URLs absolutas con trailing slash.
-  - Content-Type text/plain con charset utf-8, cache public, max-age=3600, s-maxage=86400.
+  - Content-Type text/plain con charset utf-8 y Cache-Control public, max-age=0,
+    must-revalidate (como los sitemaps: ningun cache guarda un dato viejo).
+  - Cada afirmacion tiene que ser verificable en su fuente. Un dato falso ("HD projectors",
+    una FAQ de temas que no existen) se lo repite el asistente al cliente. El test prohibe
+    las afirmaciones que el negocio no puede sostener.
+  - Regla 12 de puntuacion: sin palabras unidas con guion ni punto y coma. Los items de
+    catalogo van en minuscula dentro de la oracion (las siglas LED o PA se respetan).
   - Distinguir idiomas del sitio de idiomas de atencion (no prometer lo que no se hace).
   - NO va en los sitemaps XML (no es una pagina para rankear). Se menciona en robots.txt
     como comentario.
@@ -1066,7 +1079,9 @@ Reglas de implementacion
       |                             (contentUpdated) o del campo updated del paquete
       |-- category-sitemap.xml      /blog/category/<slug>/
       |-- author-sitemap.xml        /blog/author/<slug>/
-      `-- page-sitemap-<locale>.xml uno por idioma publicado, con la fecha de esa traduccion
+      |-- page-sitemap-<locale>.xml uno por idioma publicado, con la fecha de esa traduccion
+      `-- post-, category- y author-sitemap-<locale>.xml, uno por idioma y tipo, solo si
+                                    ese idioma tiene URLs de ese tipo
 
   Reglas
   - robots.txt: "Sitemap: https://<dominio>/sitemap_index.xml" (una sola linea, el indice).
@@ -1077,13 +1092,20 @@ Reglas de implementacion
   - Imagenes: solo image:loc (Google ya no lee caption ni title del sitemap de imagenes).
   - hreflang solo en el <head>, no como xhtml:link en el sitemap.
   - Paginas noindex (/map, /thank-you/) fuera de los sitemaps.
+  - TODOS los sitemaps se generan en el build (export const prerender = true, los de
+    idioma con entries de src/lib/utils/locale-sitemaps.ts, que tambien arma la lista
+    del indice). Nunca como respuesta dinamica del Worker con s-maxage: el adapter de
+    Cloudflare guarda esas respuestas en caches.default ANTES de rutear y un deploy no
+    las purga, asi que un sitemap quedaba congelado hasta 24 h despues de cada push.
   - Helpers comunes en src/lib/utils/sitemap.ts: toLastmod(), urlsetXml(), SITEMAP_HEADERS
-    (application/xml, cache 1 h en navegador y 24 h en el edge).
+    (application/xml, Cache-Control public, max-age=0, must-revalidate).
   - TODOS los hijos usan urlsetXml(), siteConfig.url y SITEMAP_HEADERS. Guard:
     src/lib/utils/sitemap-endpoints.test.ts falla si un sitemap repite el dominio, las
     cabeceras o arma el XML a mano.
   - Toda pagina o post que se crea, edita o borra actualiza su sitemap en el mismo cambio.
-  - Test: tests/sitemaps.spec.ts + sitemap-freshness.test.ts.
+  - Test: tests/sitemaps.spec.ts + sitemap-freshness.test.ts, y contra el build real
+    tests/locale-sitemaps.prod.spec.ts: por idioma, los sitemaps listan exactamente las
+    paginas indexables construidas y cada URL responde 200.
 
 18.2 Pagina del sitemap (/sitemap/)
   Sitemap para personas: ayuda a navegar, reparte enlaces internos y facilita el
@@ -1379,7 +1401,91 @@ resumen.
 
 
 --------------------------------------------------------------------------------
-21. CHECKLIST PARA ARRANCAR UN SITIO NUEVO
+21. BLOG: SHARE THIS Y TABLA DE CONTENIDOS (TOC)
+--------------------------------------------------------------------------------
+
+Si el sitio tiene blog, cada post lleva estas dos piezas. Las dos ayudan a leer y a
+difundir el contenido sin tocar el cuerpo del post: se agregan desde el layout del post.
+
+21.1 Share this (compartir)
+  Que es
+    Botones para compartir el post (o una pagina de paquete) en redes, por email o
+    copiando el enlace. Aumenta la difusion sin depender de ningun script de terceros.
+  Redes y enlaces (src/lib/utils/share.ts, getShareLinks(url, title, coverImage))
+    WhatsApp    https://api.whatsapp.com/send?text=<titulo>%20<url>
+    Facebook    https://www.facebook.com/sharer/sharer.php?u=<url>
+    Twitter/X   https://twitter.com/intent/tweet?text=<titulo>&url=<url>
+    Pinterest   https://pinterest.com/pin/create/button/?url=<url>&description=<titulo>
+                &media=<portada> (Pinterest necesita una imagen: se pasa la portada)
+    LinkedIn    https://www.linkedin.com/sharing/share-offsite/?url=<url>
+    Email       mailto:?subject=<titulo>&body=<url>
+    Copiar      navigator.clipboard.writeText(url), con fallback a un textarea oculto y
+                execCommand('copy') fuera de contexto seguro. Muestra "copiado" 2 s.
+    Todos los valores van con encodeURIComponent. Son enlaces normales (target="_blank",
+    rel="noopener noreferrer"): cero SDKs, cero cookies de terceros, cero JS de redes.
+  Componente: src/lib/components/blog/ShareThis.svelte, props url, title, coverImage,
+  mode y visible. Tres modos:
+    inline    Barra horizontal debajo del titulo y los datos del autor, con el rotulo
+              "Share this:". Siempre visible. Es el punto de referencia de los otros dos.
+    sidebar   Columna vertical ("SHARE THIS") en el lateral izquierdo, en escritorio,
+              debajo del rail de paquetes. Aparece solo cuando la barra inline salio de
+              pantalla (visible = false), asi nunca hay dos juntas.
+    drawer    En movil (lg:hidden): un boton flotante que abre un panel con las mismas
+              opciones, tambien solo cuando la barra inline ya no se ve.
+  Como decide cuando mostrar sidebar y drawer (src/lib/layouts/BlogPost.svelte)
+    Un IntersectionObserver sobre la barra inline: isTopVisible = inline visible o
+    pagina cerca del inicio. sidebar y drawer reciben visible={isTopVisible}.
+  Reglas
+    - url = la canonica de la pagina (en su idioma), title = el titulo del post.
+    - Textos y aria-labels del diccionario (blog.shareInlineLabel, shareSidebarLabel,
+      shareOnAria con {network}, copyLinkAria), en todos los idiomas del sitio.
+    - Los nombres de las redes no se traducen.
+    - Tambien se usa en las paginas de paquete (modos inline y drawer).
+  Test: tests/share.spec.ts.
+
+21.2 Tabla de contenidos (TOC)
+  Que es
+    El indice de secciones del post (h2 y h3), con enlaces a cada encabezado. Mejora la
+    lectura de posts largos y le da a Google enlaces de salto a secciones.
+  De donde salen los datos
+    - scripts/toc-parser.mjs: funcion pura que lee el markdown del post y devuelve
+      [{ id, text, level }] para cada h2 y h3. Los ids se calculan con github-slugger,
+      igual que rehype-slug, asi coinciden con los del HTML. Excluye el encabezado
+      "Table of Contents" (el viejo indice de WordPress) y el de testimonios vacio.
+      Incluye las preguntas de la FAQ (h3), que el acordeon conserva con su id.
+    - Posts en ingles: cache src/lib/data/post-toc.json (bun scripts/gen-post-toc.ts),
+      guardada por scripts/post-faqs-toc-cache-freshness.test.ts. Posts traducidos: se
+      extrae en el build desde el cuerpo, sin cache que se pueda quedar vieja. En los dos
+      casos cada post carga su TOC en su propio chunk, solo en su pagina.
+  Dos presentaciones
+    Escritorio  src/lib/components/blog/TableOfContents.svelte, en la columna derecha,
+                sticky (lg:sticky lg:top-24, con scroll propio si es larga). Resalta la
+                seccion activa con un IntersectionObserver (rootMargin -80px arriba y
+                -60% abajo). Al hacer clic marca la seccion al instante y bloquea el
+                observer ~700 ms mientras dura el scroll suave, para que no parpadee.
+    Movil       scripts/rehype-post-toc.mjs (plugin rehype de mdsvex) inyecta en el HTML
+                del post un indice estatico (clase toc-mobile lg:hidden) justo despues de
+                la seccion "Key Highlights". Tambien BORRA la seccion "## Table of
+                Contents" que traian los posts migrados de WordPress.
+  Orden de los plugins rehype (es una cadena de dependencias, no una preferencia)
+    rehype-slug primero (pone los ids), rehype-post-toc despues de rehype-slug y de las
+    imagenes, y ANTES de rehype-faq-accordion (que convierte los h3 de la FAQ).
+  Reglas
+    - Los encabezados estructurales ("Key Highlights", "Table of Contents",
+      "Testimonials") y los textos que agrega el build ("In this article" y los
+      aria-labels) salen del grupo blogStructure del diccionario de cada idioma.
+    - Ningun modulo que cargue svelte.config.js puede importar un .ts (Node anterior a
+      22.18 no lo carga): las palabras llegan a los plugins por una tabla en globalThis
+      que llena vite.config.ts.
+    - Un enlace a una seccion de OTRO post se escribe con el ancla inglesa y el build la
+      traduce por posicion al id del encabezado traducido (las traducciones conservan la
+      estructura de encabezados del original).
+  Tests: scripts/blog-structure.test.ts, scripts/heading-ids.test.ts,
+  scripts/translated-post-anchors.test.ts.
+
+
+--------------------------------------------------------------------------------
+22. CHECKLIST PARA ARRANCAR UN SITIO NUEVO
 --------------------------------------------------------------------------------
 
   [ ] bunx sv create (SvelteKit + TS) con add-ons mdsvex y sveltekit-adapter (cloudflare)
@@ -1402,6 +1508,8 @@ resumen.
   [ ] Si viene de WordPress: inventario + dry run + redirects 301 (seccion 16)
   [ ] meta.ts con contentUpdated junto a cada ruta + test de frescura
   [ ] Blog en src/content/blog/*.svx con el frontmatter de la seccion 7.3 + post-new/post-touch
+  [ ] Si hay blog: ShareThis (inline, sidebar y drawer) con getShareLinks() y TOC
+      (toc-parser + TableOfContents en escritorio + rehype-post-toc en movil) (seccion 21)
   [ ] Tema dark/light con data-theme y script anti flash en app.html
   [ ] DESIGN.md con tokens antes del primer componente
   [ ] Tests guard (precios, frescura, env dinamico) + specs SEO en Playwright
