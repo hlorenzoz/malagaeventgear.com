@@ -1,0 +1,625 @@
+TOP GROUP EXPRESS (TGE): BRIEFING PARA MALAGA EVENT GEAR
+Investigado el 2026-09-25
+
+Propósito: contexto para el contenido que MEG va a crear sobre su alianza con TGE (posts,
+página de partner, marketing conjunto). Cada dato lleva su fuente. Lo que no está publicado
+por una fuente no está en este archivo. Donde dos fuentes no coinciden, se reportan las dos.
+
+Fuentes pedidas y si se pudieron leer:
+    [LEÍDA]    https://topgroupexpress.com/ (home en/es/fr/it/zh, HTML completo)
+    [LEÍDA]    https://topgroupexpress.com/blog y sus 8 posts (1 en inglés, 7 en español)
+    [LEÍDA]    https://topgroupexpress.com/blog/automate-your-group-bookings
+    [LEÍDA]    /webinars, /privacy, /terms, /llms.txt, /robots.txt, /sitemap.xml
+    [NO]       agencies.topgroupexpress.com y hoteliers.topgroupexpress.com: son apps de login
+               (SPA), sin contenido público legible
+    [PARCIAL]  https://www.linkedin.com/company/top-group-express: vista pública de invitado.
+               Se leen el "Sobre nosotros", los datos de ficha y el conteo de seguidores. No
+               se ve ningún post
+    [PARCIAL]  https://www.facebook.com/topgroupexpress: con navegador normal devuelve HTTP
+               400. Se leyó con user agent de crawler: metadatos, categoría, seguidores y
+               unos 20 posts de 2024 (fechas aproximadas, ver 6.2)
+    [LEÍDA]    https://www.youtube.com/@topgroupexpress: nombre, suscriptores y los 6 videos.
+               El canal no tiene descripción
+    [NO]       https://twitter.com/topgroupexpress (x.com): HTTP 402 vía WebFetch, 403 en
+               x.com, 429 en el endpoint de syndication, espejos (nitter, xcancel, twidoom)
+               caídos o bloqueados. Solo hay snippets de buscador, marcados como tales
+
+Fuentes adicionales usadas (encontradas por búsqueda, todas leídas salvo aviso):
+    https://www.instagram.com/top_group_express/ (enlazada en el footer de TGE, solo metadatos)
+    Prensa 2019: Meet In, Preferente, TecnoHotel, nota de prensa en Hosteltur
+    Entrevista 2023: Smart Travel News
+    Datos registrales: Empresia (extracto del Registro Mercantil)
+    Agregador: Tracxn
+    Google Play (fichas de las apps): HTTP 404 el 2026-09-25
+    Detalle completo de URLs en la sección 10.
+
+
+----------------------------------------------------------------------------------------------
+1. RESUMEN EJECUTIVO
+----------------------------------------------------------------------------------------------
+
+Top Group Express es una plataforma B2B, con base en Coín (provincia de Málaga), que
+centraliza la cotización y la reserva de hoteles para GRUPOS. Conecta dos lados:
+
+    - Agencias de viajes, DMC, tour operadores (y, según su llms.txt, "corporate clients")
+      que piden precio para un grupo a varios hoteles a la vez.
+    - Hoteles, que reciben esas peticiones, cotizan, añaden extras y cobran en la misma
+      plataforma.
+
+Su frase de marca actual es "Hotel booking Central for groups" / "Central de reservas de
+hoteles para grupos", con el subtítulo "Exclusive service for professionals". Promete tarifas
+negociadas, disponibilidad real y cotizaciones en menos de 12 horas, para grupos de 6
+habitaciones o más (la cifra varía según la página, ver 4.2). Es gratis para el usuario:
+TGE cobra una comisión o fee de intermediación en el pago.
+
+Datos duros: razón social Top Group Express Turismo SL, CIF B93535862, titular Rocío Plaza
+Gámez, domicilio social en Calle Urbano Pineda 42, 29100 Coín (Málaga). Constituida el
+2017-03-08 según el Registro Mercantil, aunque la web dice "Since 2016" y LinkedIn "2020".
+
+Presencia en redes chica: 814 seguidores en LinkedIn, 126 en Instagram, 34 en Facebook y
+8 suscriptores en YouTube (vistos el 2026-09-25). El contenido reciente vive en el blog
+(3 posts publicados el 2026-09-16). Facebook no muestra nada posterior a octubre de 2024.
+
+Encaje con MEG: TGE resuelve el ALOJAMIENTO de un grupo y MEG la TÉCNICA AUDIOVISUAL del
+evento. Se tocan en congresos y MICE, incentivos, bodas de destino con invitados de fuera y
+eventos corporativos en la provincia de Málaga. El propio TGE ya habló de MICE y de bodas en
+su Facebook (2024). Punto crítico antes de publicar: TGE se presenta como servicio
+"exclusivo para profesionales" (agencias y hoteles). Hay que confirmar con TGE si un cliente
+final de MEG (una pareja, una empresa que organiza su propio evento) puede usarlo o si tiene
+que pasar por una agencia.
+
+
+----------------------------------------------------------------------------------------------
+2. QUÉ ES Y CÓMO FUNCIONA
+----------------------------------------------------------------------------------------------
+
+2.1 Definición en sus propias palabras
+
+    - "Group booking engine with real availability and fully automated processes."
+      (home EN, https://topgroupexpress.com/en)
+    - "Group accommodation platform connecting travel agencies, tour operators and corporate
+      clients with hotels and apartments for group bookings." (https://topgroupexpress.com/llms.txt)
+    - "A group booking is a reservation of six rooms or more. Agencies request quotes from
+      several accommodations at once, compare the rates received and confirm, pay and invoice
+      the booking on the same platform." (llms.txt)
+    - "Somos un broker de habitaciones de hotel. Realizamos la intermediación completa,
+      mediante muchísima tecnología, contando con esa persona que te atiende si no te llevas
+      bien con la máquina." (Rocío Plaza, Smart Travel News, 2023-02-17)
+    - "Somos el único consolidador de grupos online, que permite reservar hoteles en
+      cualquier destino de manera inmediata." (misma entrevista)
+
+2.2 Flujo para agencias (home EN y post de Facebook de marzo de 2024)
+
+    1. "Fill in the group information."
+    2. "Send your query to hotels with one click."
+    3. "Get a quote at great rates for groups."
+    4. "Negotiate, modify and book your hotel in a few clicks."
+
+    La versión en español de la home describe el paso 2 distinto: "El sistema trabajará en
+    consultar a los hoteles que pueden estar interesados en ella", y el 4 como "Confirme,
+    modifique, realice pagos, todas las gestiones, en unos pocos clics."
+    (https://topgroupexpress.com/es)
+
+    Detalle operativo del FAQ (home): tras registrarse, la agencia tiene dos botones en el
+    panel: "Hotel Quotes" (un hotel) y "Hotel Quotes for Tours" (varios hoteles en distintos
+    destinos), y dos pestañas equivalentes, "Leads" y "Tours".
+
+2.3 Flujo para hoteles (home EN)
+
+    1. "Requests that fall automatically."
+    2. "Send your best price in a few clicks."
+    3. "Edit and add extras simply."
+    4. "Get paid quickly in a centralized and intuitive interface."
+
+    Promesa al hotel: "Access new exclusive markets and follow all your requests on a
+    centralized interface. Manage smarter and increase your sales volume."
+
+2.4 Funciones que declara (home EN, salvo aviso)
+
+    - Web app responsive: PC, móvil y tablet, "Nothing to install".
+    - Precios "negotiated directly with the hotel".
+    - Panel único: "All your groups in one place".
+    - Cotizaciones "in less than 12 hours".
+    - "Custom Reservations: Precise control of your groups".
+    - Notificaciones y alertas en tiempo real (en la versión ES: "a través de mails y
+      intranet / APP").
+    - Pagos con tarjeta (plataforma segura) o transferencia (2 a 3 días hasta marcarse como
+      pagado).
+    - FAQ: "Driven by machine learning, our software finds all the hotels that match your
+      request."
+    - Gestión de vouchers, rooming lists, proformas y facturas (Facebook, julio de 2024).
+    - Una cotización del hotel sirve para varias agencias que piden el mismo grupo, la oferta
+      queda activa 7 días y la plataforma hace seguimiento automático a los compradores (post
+      "Multiplica tus cotizaciones de grupos", 2026-09-16).
+    - Para hoteles: tarifas de contrato consultables al momento, cupos en tiempo real,
+      "Tarifas estimadas con IA: cuando no hay contrato, el precio se calcula según demanda y
+      ocupación" y tarifas por cliente (post "El alto coste de la lentitud al cotizar",
+      2026-05-07).
+    - Motor predictivo "T3 Rooms Smart Quoting": redes neuronales para anticipar demanda,
+      ajustar precios, repartir inventario y recomendar a cada agencia. Declara conexión con
+      los ERP y CRM de hoteles y agencias (post del 2024-08-16).
+    - En 2023 Rocío Plaza dijo que trabajaban en "un API de salida" para ser "el primer
+      agregador de inventario online a terceros" (Smart Travel News). No hay evidencia
+      pública de que exista hoy.
+
+2.5 Plataformas
+
+    - Web: agencies.topgroupexpress.com y hoteliers.topgroupexpress.com.
+    - Apps móviles: Facebook (2024) invitaba a descargarlas en "Google Play o App Store".
+      Las fichas de Google Play encontradas por búsqueda (com.tge.t3agencies y
+      com.tge.t3hotelier) devolvieron HTTP 404 el 2026-09-25. La home actual solo habla de
+      web app. Estado de las apps: A CONFIRMAR.
+    - Dominio anterior: topgroups.travel (usado en todos los posts de Facebook de 2024), hoy
+      redirige a topgroupexpress.com.
+
+2.6 Problemas que dice resolver
+
+    - Para agencias: respuestas de hoteles dispersas y en distintos formatos, tarifas que
+      caducan, cupos sin control, cambios de última hora que arrastran todo. Frase central:
+      "A large group is not managed. It is chased." (post EN del 2026-09-16)
+    - Para hoteles: lentitud al cotizar ("El grupo no se pierde por caro: se pierde por
+      tarde", post del 2026-05-07), trabajo repetido al contestar a varias agencias, y la
+      "demanda oculta" de grupos como colchón de ocupación en temporada baja (post del
+      2025-01-24).
+
+
+----------------------------------------------------------------------------------------------
+3. DATOS DE LA EMPRESA
+----------------------------------------------------------------------------------------------
+
+    Nombre comercial:  Top Group Express (abreviado TGE en su propio blog)
+    Razón social:      "Top Group Express Turismo SL" (privacy, terms, FAQ en español y
+                       JSON-LD de la home). El FAQ de la home en INGLÉS dice "Top Group
+                       Express Tourism SL". Parece una traducción del nombre, pero son dos
+                       grafías publicadas. Usar "Turismo".
+    CIF:               B93535862 (privacy y terms)
+    Titular:           Rocío Plaza Gámez (privacy y terms)
+    Domicilio social:  Calle Urbano Pineda 42, 29100 Coín, Málaga (privacy y terms, y el
+                       domicilio de constitución según Empresia)
+    Otra dirección:    "Plaza Escamilla S/N 29100 Coin - Málaga" (FAQ de la home, en el
+                       apartado de pago por transferencia). No se aclara si es oficina
+                       operativa. A CONFIRMAR cuál publicar.
+    Teléfono:          +34 951 43 27 57 (privacy y terms)
+    Email:             product@topgroupexpress.com (privacy y terms)
+    Bancos:            "BBVA & Caixa" (FAQ de la home)
+    Registro:          Registro Mercantil de Málaga. Hoja MA138595 (Empresia)
+    Actividad (CNAE):  7911, actividades de las agencias de viajes (Empresia)
+    Capital social:    3.413 EUR tras una reducción inscrita el 2026-06-25 (Empresia)
+
+Fecha de fundación, tres versiones:
+    - "Since 2016, we have been dedicated to developing a unique worldwide database"
+      (FAQ de la home). Tracxn también dice 2016.
+    - Constitución de la sociedad el 2017-03-08 (Empresia, extracto del Registro Mercantil).
+    - "Fundación 2020" (ficha de LinkedIn).
+    - Snippet de buscador (no verificado, X ilegible): la cuenta de X se habría abierto en
+      septiembre de 2015.
+    Lectura razonable: el proyecto arranca en 2016 y la sociedad se constituye en 2017. Para
+    publicar, preguntar a TGE qué año quiere que se cite.
+
+Tamaño:
+    - LinkedIn: "De 11 a 50 empleados", "Ver los 8 empleados" (2026-09-25).
+    - Tracxn: 8 empleados "as of Aug 26".
+    - Un post compartido en Facebook (marzo de 2024, escrito por un tercero de Coín) dice
+      "más de una decena de trabajadores en plantilla".
+
+Equipo (según fuente):
+    - Rocío Plaza Gámez: titular legal (privacy). "CEO & Founder" (Smart Travel News,
+      2023). Trayectoria que ella misma cuenta: formación en hoteles del sur de Inglaterra,
+      comercial en un hotel de Marbella, parte de hoteles.es y del departamento de grupos de
+      Restel.
+    - Roberto Becerra (Roberto Antonio Becerra García): CTO y socio (Smart Travel News).
+    - Ting Ting Yu: "COO APAC" y socia (Smart Travel News).
+    - Ginés de Biedma: "director general" en la nota de prensa de Hosteltur (2019-08-02).
+      Aparece hoy entre los empleados de LinkedIn.
+    Ojo: la lectura directa de LinkedIn solo nombra a Ginés de Biedma. Una segunda lectura
+    vía WebFetch listó además a Rocio Plaza, Roberto Antonio Becerra García y Tingting Yu.
+    Tracxn dice que los fundadores son Roberto Antonio Becerra García y Rocio Plaza.
+
+Mercados e idiomas:
+    - Web en 5 idiomas: inglés (en-GB, x-default), español, francés, italiano y chino
+      simplificado (hreflang y sitemap de topgroupexpress.com).
+    - Blog: 7 posts en español y 1 en inglés. Ninguno en fr, it o zh.
+    - YouTube tiene un video titulado en chino y la socia Ting Ting Yu es "COO APAC", lo que
+      sugiere interés en Asia Pacífico. TGE no lo afirma de forma explícita en la web.
+    - Clientes y testimonios de la home: mayoría españoles (ver 5).
+
+Financiación:
+    - Subvención pública de 233.367 EUR de la convocatoria "Proyectos de Digitalización de
+      Última Milla" de 2023, dentro del Plan de Recuperación, Transformación y Resiliencia,
+      para T3 Rooms Smart Quoting (post del 2024-08-16).
+    - Tracxn: "has not raised any funding rounds yet".
+
+Tecnología del sitio (observado en el HTML, sin valor comercial): hecho con Nuxt, alojado en
+Cloudflare, analítica Cloudflare Web Analytics sin cookies (lo dice su privacy). El
+robots.txt permite explícitamente a los bots de IA (GPTBot, ClaudeBot, PerplexityBot,
+Google-Extended y otros) y publica un llms.txt.
+
+
+----------------------------------------------------------------------------------------------
+4. OFERTA Y CONDICIONES PUBLICADAS
+----------------------------------------------------------------------------------------------
+
+4.1 Precio y modelo de cobro
+
+    - EN: "Our applications are free, and you can use them completely at no cost. We receive
+      a small commission at the time of payment." (home EN)
+    - ES: "Nosotros aplicamos un pequeño fee de intermediación en el precio cotizado, no
+      notará el mismo." (home ES)
+    - Facebook (julio de 2024): "todo sin comisiones ocultas".
+    - No se publica el porcentaje. No hay tarifa, plan ni suscripción publicados.
+    Las dos versiones no dicen lo mismo: EN habla de comisión cobrada al pagar, ES de un fee
+    incluido en el precio cotizado.
+
+4.2 Tamaño mínimo del grupo (no es consistente)
+
+    - "6 rooms or more": title/meta de la home en los 5 idiomas, FAQ de la home, llms.txt.
+    - "7+ habitaciones": bloque "¿Qué ofrecemos?" de la home en español.
+    - "más de 7 habitaciones": blog (post del 2024-11-11) y casi todos los posts de Facebook
+      de 2024. "Seven rooms change the rules" (post EN del 2026-09-16).
+    - "mínimo, 7 habitaciones" (Facebook, abril de 2024).
+    - Snippet de buscador de la ficha de la app (no verificado): "a group of more than 7
+      people".
+    Para contenido de MEG: citar "6 habitaciones o más" solo si TGE lo confirma, porque es la
+    cifra de su web actual pero convive con la de 7.
+
+4.3 Tiempo de cotización (tampoco es consistente)
+
+    - "in less than 12 hours" (home actual, en los 5 idiomas). "menos de doce horas" también
+      en Hosteltur 2019.
+    - "en menos de 8h" (LinkedIn, "Sobre nosotros").
+    - "Cotizaciones en menos de 6 horas" (Facebook, abril de 2024).
+    - "en menos de 24 horas en Europa" para el acuerdo con Grupo Cybas (Hosteltur 2019).
+    - "cotizas y confirmas reservas en solo 3 clics" y "Cotiza y confirma grupos en
+      segundos" (blog, 2024 y 2026, para tarifas ya cargadas).
+
+4.4 Inventario de hoteles
+
+    - "6.000 hoteles en contratación directa" (Meet In, 2019-05-31).
+    - "10.000 hoteles en contratación directa" (Preferente 2019-06-06 y TecnoHotel
+      2019-06-07, según comunicado de la empresa).
+    - "más de 100K hoteles" (Facebook, junio de 2024).
+    - "unique worldwide database" (home) y "hotels and apartments" (llms.txt).
+    Ninguna cifra actual en la web. No citar un número sin confirmación.
+
+4.5 Destinos, y lo específico de Málaga, Costa del Sol y eventos
+
+    - La web actual no nombra destinos. Dice "worldwide" y "cualquier destino".
+    - Hosteltur 2019 (nota de prensa de la empresa): el crecimiento lo lideró el hotel urbano
+      y, en vacacional, "Palma de Mallorca, Mijas, Marbella y Alicante". Es la única mención
+      pública de la Costa del Sol que se encontró.
+    - Tipos de grupo que TGE nombra: escapadas de fin de semana y circuitos internacionales
+      (blog 2024-11-11), estudiantes, equipos deportivos, peregrinos y "Viajeros corporativos:
+      congresos, convenciones e incentivos, sobre todo en temporada media" (blog 2025-01-24),
+      viajes culturales y religiosos (Facebook 2024).
+    - MICE: post de Facebook (abril de 2024) sobre turismo de negocios "para convenciones,
+      congresos, viajes de empresas incentivo", y otro (junio de 2024): "¿Estas preparando un
+      evento MICE? No dejes para última hora la cotización de las reservas de grupos en
+      hoteles cercanos al lugar del evento."
+    - Bodas: post de Facebook (mayo de 2024) dirigido a agencias: los novios pueden pedir
+      ayuda con "la reserva de las habitaciones para los parientes o amigos que viven fuera y
+      necesitan pernoctar".
+    - Nada sobre salas de reuniones, espacios de evento, audiovisuales ni catering. TGE habla
+      solo de habitaciones (y "extras" que añade el hotel, sin detallar).
+
+4.6 Acceso y condiciones
+
+    - "Exclusive service for professionals" (home). Registro en la app, luego TGE envía los
+      códigos de acceso por email.
+    - La página /terms NO contiene condiciones comerciales: es un texto de protección de
+      datos casi igual a /privacy (incluso menciona "superadmin.es", que parece un resto de
+      plantilla). No hay publicadas condiciones de reserva, cancelación ni pago de grupos.
+    - Webinars: "Live training for agencies and hotels", pero "No webinars scheduled right
+      now" (2026-09-25). En 2024 se reservaban por Calendly.
+
+
+----------------------------------------------------------------------------------------------
+5. PRUEBAS SOCIALES
+----------------------------------------------------------------------------------------------
+
+5.1 Logos de clientes en la home (sin texto que los describa)
+
+    Airmet, Didatravel, Viajes El Corte Inglés, Envol Espace, Exa Travel, Kaytrip, TBO,
+    Travel Compositor, Zafiro Tours.
+
+5.2 Testimonios de la home (todos con 5.0, textuales)
+
+    Hoteles:
+    - "Muy innovador, a seguir vendiendo!" (Juan Rodríguez, Grupo Bluebay Hoteles, Dpto de
+      Grupos)
+    - "Necesario, útil, sorprendente, lo mejor hasta el momento para cotizar grupos."
+      (Fernando Corzo, Grupo Abades, Director Comercial)
+    - "Enganchadísimo, mientras más rápido cotizo, más vendo!" (Jordi, Hotel Catalonia Verdi,
+      Director)
+    - "En constante desarrollo, adapntándose [sic] a nuestras necesidades." (Jesus Graciliano,
+      Barceló Hoteles, Cluster zona sur)
+    Agencias:
+    - "Herramienta necesaria, único especialista en consolidación de reservas de hoteles para
+      grupos" (Grupo Cybas, Cyberagencias)
+    - "Útil, único, rápido, lo que esperamos de un proveedor brillante" (Kayuan, Turist
+      department)
+    - "Esto es una maravilla..." (El Corte Inglés León, María del Mar)
+    - "Siempre con Top, a cualquier destino. Reservas garantizadas." (Destinarium Viajes,
+      Ángel)
+    - "A new world of product with Top Group Express" (TBO, Catherine)
+    - "step one, eficaces, el complemento perfecto totalmente adaptado" (Mogu, Sara)
+    Los testimonios no tienen fecha.
+
+5.3 Cifras y hitos publicados (todos con fecha, casi todos de 2019)
+
+    - 2018: pasa de 88 a 118 agencias tradicionales, "ya trabaja con más de 200 agencias",
+      crecimiento del 24% en agencias tradicionales (Hosteltur, nota de prensa 2019-08-02).
+    - Acuerdo con Grupo Cybas: "más de 450 agencias españolas comenzarán a usar esta nueva
+      herramienta" (Hosteltur 2019, era una previsión).
+    - Reduce "en más de un 90%" el tiempo de cotizar grupos, "como asegura la plataforma"
+      (TecnoHotel 2019).
+    - Subvención de 233.367 EUR (2023, ver 3).
+    - "la primera central de reservas de #hoteles para #grupos en Europa" (LinkedIn). Es una
+      autodeclaración sin fuente externa.
+    - Premios: no se encontró ninguno.
+    - Reseñas públicas: Facebook (abril de 2024) menciona "nuestra ficha de Google", pero no
+      se encontró ni se leyó esa ficha. Sin datos de nota ni número de reseñas.
+
+
+----------------------------------------------------------------------------------------------
+6. PRESENCIA EN REDES Y CONTENIDO
+----------------------------------------------------------------------------------------------
+
+6.1 Números vistos el 2026-09-25
+
+    Plataforma    Seguidores       Otros datos
+    LinkedIn      814              "Organización de viajes", 11 a 50 empleados, 8 en LinkedIn,
+                                   sede Coín. Posts: no visibles sin login
+    Instagram     126              55 seguidos, 52 publicaciones (solo metadatos)
+    Facebook      34               Categoría "Travel Company", intro "The Smart Way To Book
+                                   Groups !"
+    YouTube       8 suscriptores   6 videos, sin descripción de canal
+    X             ilegible         Snippet de buscador: se unió en septiembre de 2015, bio
+                                   parecida a la de LinkedIn ("first central reservation
+                                   system for group hotels", "less than 12 hours")
+
+6.2 Facebook (posts visibles, fechas aproximadas inferidas del HTML)
+
+    Todos entre marzo y octubre de 2024. No se ve nada posterior. Cadencia en ese periodo:
+    alrededor de uno por semana. Temas:
+    - Producto: pasos de la app de agencias (marzo), "Cotizaciones en menos de 6 horas"
+      (abril), vouchers, rooming lists y facturas (julio), última hora (julio).
+    - Segmentos: MICE (abril y junio), bodas (mayo), viajes religiosos (mayo), viajes
+      culturales (junio).
+    - Consejos a hoteles: completar el perfil para salir en más búsquedas (mayo).
+    - Series en inglés desde septiembre: "QUICK WEDNESDAY FACTS" (tasas ocultas de hoteles,
+      reservas falsas en Tokio 2020) y "Tales of Travel Group Eccentricity" (humor sobre
+      recepcionistas que no contestan).
+    - Local: un post compartido de un tercero de Coín, "Empresas turísticas que crecen en
+      Coín", que felicita a "nuestra vecina Rocío".
+    - Hashtags repetidos: #TopGroupExpress #ViajesDeGrupo #b2btravel #traveltech
+      #machinelearningtravel #hotelbooking #businesstravel.
+
+6.3 YouTube (títulos exactos, vistas y antigüedad que muestra YouTube)
+
+    - "Top Group Express - Reservas de Grupos" (18 vistas, hace 1 año, 1:49)
+    - "Top Group Express - How it works?" (45 vistas, hace 1 año, 1:49)
+    - "What's Top Group Express?" (57 vistas, hace 1 año, 1:12)
+    - "Top Group Express - 团体酒店预订中心" (33 vistas, hace 2 años, 0:53)
+    - "Top Group Express - Central de reservas de hoteles para grupos" (25 vistas, hace 2 años,
+      0:51)
+    - "Top Group Express - Hotel booking Central for groups" (81 vistas, hace 2 años, 0:51)
+    Son videos cortos de demo del producto en 3 idiomas. La home los embebe en "Watch our
+    videos".
+
+6.4 Blog (https://topgroupexpress.com/blog), 8 posts, todos firmados "Top Group Express,
+    Equipo de producto", unos 3 minutos de lectura cada uno
+
+    Fecha        Título                                          Público
+    2026-09-16   Stop moving your groups by hand (EN)            Agencias
+    2026-09-16   Deja de mover tus grupos a mano (ES, mismo post) Agencias
+    2026-09-16   Multiplica tus cotizaciones de grupos           Hoteles
+    2026-05-07   El alto coste de la lentitud al cotizar         Hoteles
+    2025-01-24   El colchón de ocupación que tu hotel necesita   Hoteles
+    2024-11-11   Optimiza las reservas de grupos grandes         Agencias
+    2024-10-18   Gana la venta respondiendo antes que nadie      Agencias
+    2024-08-16   TGE recibe ayuda para su motor predictivo       Novedades
+
+    Estructura fija: gancho corto, tres bloques numerados ("/ 01", "/ 02", "/ 03"), una lista
+    de 3 o 4 puntos y un CTA a la app ("Quiero automatizar", "Accede a Top Group Express").
+
+6.5 Tono de voz y estilo
+
+    - Blog actual: frases cortas, directas, casi aforísticas. Habla al profesional de tú. Muy
+      orientado a tiempo y dinero ("Nada de eso se factura. Todo eso se paga.", "Quien
+      responde primero se lleva la reserva", "Una cotización puede valer por cinco").
+    - Facebook 2024: más promocional, con muchos emojis, signos de exclamación y hashtags, y
+      algunas erratas ("TOP GORUP EXPRESS", "topgorups.travel").
+    - Home: tono de producto, de usted en la versión ES.
+    - Visual: logo "logo-tge-large", capturas y mockups de la app en móvil, botones naranjas
+      (el FAQ habla de "the orange button"), tema claro y oscuro. Las fotos del blog son de
+      banco o generadas (profesionales frente al ordenador, recepción de hotel).
+
+6.6 Mensajes y frases que se repiten
+
+    - "Hotel booking Central for groups" / "Central de reservas de hoteles para grupos"
+    - "Exclusive service for professionals"
+    - "real availability", "negotiated prices", "in less than 12 hours"
+    - "6 rooms or more" / "más de 7 habitaciones"
+    - Velocidad como ventaja: responder antes que la competencia
+    - "Less admin, more selling" / "Menos operativa"
+    - Automatización con atención humana: "our customer service is human" (FAQ)
+
+
+----------------------------------------------------------------------------------------------
+7. SEO Y MENSAJES CLAVE
+----------------------------------------------------------------------------------------------
+
+Title y meta de la home:
+    EN  "Top Group Express | Hotel booking hub for groups"
+        "Book hotels for groups of 6 rooms or more: negotiated rates, real availability and
+        quotes in under 12 hours."
+    ES  "Top Group Express | Central de reservas de hotel para grupos"
+    FR  "Centrale de réservation hôtelière pour groupes"
+    IT  "Centrale di prenotazione alberghiera per gruppi"
+    ZH  "团体酒店预订中心"
+
+Keywords y temas que trabaja (títulos, metas y etiquetas visibles de los posts):
+    ES  reservas de grupos, cotización de grupos, central de reservas, agencias de viaje,
+        DMC, tour operadores, automatización (hotelera), cupos de hotel / cupos hoteleros,
+        rooming list, revenue management, ocupación hotelera, demanda oculta, rentabilidad
+        hotel, reservas B2B, confirmación inmediata, cierre de ventas
+    EN  group bookings, travel agencies, DMC, tour operators, automation, booking hub,
+        hotel booking hub for groups
+
+Observaciones:
+    - Los posts en español tienen la meta description genérica en inglés ("Book a hotel for a
+      group of 6 rooms or more online in just a few clicks right now!"). Es un fallo de su
+      sitio, no afecta a MEG, pero confirma que el SEO del blog está verde.
+    - No apuntan a keywords locales (Málaga, Costa del Sol, Marbella) ni a eventos concretos.
+      Ahí MEG puede aportar la dimensión local y de evento sin competir con ellos.
+    - Datos estructurados: WebSite y Organization (con legalName "Top Group Express Turismo
+      SL" y sameAs a las 5 redes). Sin LocalBusiness ni dirección.
+    - Solo el post EN está en llms.txt. Los 7 en español no figuran.
+
+
+----------------------------------------------------------------------------------------------
+8. ENCAJE CON MEG Y OPORTUNIDADES DE CONTENIDO
+----------------------------------------------------------------------------------------------
+
+8.1 Dónde se cruzan
+
+    Un grupo que viaja a la provincia de Málaga para un evento necesita dos cosas que ninguno
+    de los dos resuelve solo: camas (TGE) y técnica audiovisual en el lugar del evento (MEG).
+    Cruces con respaldo en fuentes de TGE:
+    - Congresos, convenciones e incentivos: TGE los nombra como perfil clave (blog
+      2025-01-24) y habló de MICE en Facebook (2024). MEG tiene su MICE Pack.
+    - Bodas con invitados de fuera: TGE lo propuso como caso de uso para agencias (Facebook,
+      mayo de 2024). MEG tiene su Wedding Pack.
+    - Eventos corporativos y de empresa, grupos deportivos y de estudiantes: nombrados por TGE
+      en el blog 2025-01-24.
+    - Proximidad: las dos empresas están en la provincia de Málaga (TGE en Coín, MEG en Málaga
+      capital). TGE citó Mijas y Marbella entre sus destinos vacacionales fuertes en 2019.
+
+8.2 Ideas de contenido para MEG (con lo que se puede decir sin confirmar nada)
+
+    a) Guía "Cómo organizar un congreso o evento corporativo en Málaga": sede, técnica AV
+       (MEG) y alojamiento del grupo (mención a TGE como central de reservas de hotel para
+       grupos, "servicio para profesionales").
+    b) Post para wedding planners y agencias de bodas de destino en la Costa del Sol: el
+       sonido y la iluminación los pone MEG, el bloque de habitaciones para invitados se
+       cotiza en TGE. Citar el caso de uso que TGE ya planteó (Facebook, mayo de 2024).
+    c) Checklist logístico para viajes de incentivo: qué cotizar con cuánta antelación.
+       TGE aporta el lado del alojamiento, MEG el del evento.
+    d) Página de partner (/partners/ o similar): quiénes son, qué hace cada uno, a quién se
+       dirige TGE y cómo se contacta. Es una página nueva: aplica SDD, sitemap, fechas de
+       frescura y las 13 versiones de idioma del sitio (ver CLAUDE.md).
+    e) Si hay un evento real hecho en conjunto, un post de la categoría News con fotos y
+       datos confirmados por las dos partes. Es la prueba de Experience más fuerte y hoy no
+       existe.
+
+8.3 Afirmaciones sobre TGE que SÍ tienen respaldo en sus propias fuentes
+
+    - Central de reservas de hotel para grupos, B2B, para agencias, DMC, tour operadores y
+      hoteles.
+    - Una agencia pide precio a varios hoteles a la vez y confirma, paga y factura en la misma
+      plataforma.
+    - Web app sin instalación, gratuita para el usuario. TGE cobra una comisión o fee al
+      pagarse la reserva.
+    - Con base en Coín, Málaga.
+    - Clientes con logo en su web (lista de 5.1), mencionados como "trabajan con TGE según su
+      web", nunca como clientes de MEG.
+
+8.4 Afirmaciones que NO conviene publicar sin confirmación
+
+    - Mínimo de habitaciones (6 o 7), tiempo de cotización (6, 8, 12 o 24 horas), número de
+      hoteles (6.000, 10.000, "más de 100K"), año de fundación (2016, 2017, 2020), "primera
+      central de Europa". Todas contradictorias o sin fuente externa.
+    - Cualquier cifra de negocio (agencias, crecimiento). Son de 2019 y pueden no estar
+      vigentes.
+    - Que un particular o una empresa final puede reservar directamente en TGE.
+    - Que TGE tiene apps en Google Play o App Store.
+    - Que TGE gestiona salas, espacios o algo que no sean habitaciones.
+    Recordatorio de CLAUDE.md (sección Honestidad): nunca inventar un específico que el
+    negocio no pueda verificar.
+
+
+----------------------------------------------------------------------------------------------
+9. A CONFIRMAR CON TGE ANTES DE PUBLICAR
+----------------------------------------------------------------------------------------------
+
+    Sobre la alianza:
+    1. Qué es exactamente la alianza: derivación mutua, comisión por referido, descuento para
+       clientes de MEG, paquete conjunto o solo mención recíproca.
+    2. Si hay comisión o contraprestación. Si la hay, los enlaces de MEG a TGE deben llevar
+       rel="sponsored" (norma de Google para enlaces pagados o de afiliación) y la relación
+       debe declararse en el texto.
+    3. Si TGE va a enlazar o mencionar a MEG en su web o redes, y con qué texto.
+    4. Persona de contacto para la alianza y canal preferido (el único email público es
+       product@topgroupexpress.com, teléfono +34 951 43 27 57).
+
+    Sobre el producto:
+    5. Si un cliente de MEG que NO es agencia (pareja, empresa, organizador de congreso)
+       puede registrarse y reservar, o si debe ir a través de una agencia. La home dice
+       "Exclusive service for professionals" y el llms.txt incluye "corporate clients".
+    6. Mínimo de habitaciones vigente: 6 o 7.
+    7. Tiempo de cotización que quieren que se cite.
+    8. Cifra de hoteles vigente y si tienen inventario concreto en Málaga y la Costa del Sol.
+    9. Si incluyen salas de reunión o espacios de evento, o solo habitaciones.
+    10. Idiomas de atención al cliente (la web está en 5 idiomas, MEG atiende solo en inglés
+        y español).
+    11. Estado de las apps móviles.
+
+    Sobre la marca:
+    12. Permiso para usar su logo, versión y guía de uso (el archivo público es
+        https://img.topgroupexpress.com/base/logo-tge-large.webp).
+    13. Nombre y año a citar: "Top Group Express" o "TGE", fundación 2016 o 2017.
+    14. Permiso para citar sus testimonios o nombrar a sus clientes (son de TGE, no de MEG).
+    15. Si quieren revisar el texto antes de publicar y si hay alguna restricción de
+        comarketing (ofertas, precios, promesas).
+
+
+----------------------------------------------------------------------------------------------
+10. FUENTES
+----------------------------------------------------------------------------------------------
+
+Sitio de TGE (leído el 2026-09-25):
+    https://topgroupexpress.com/en                    home EN (también /es /fr /it /zh)
+    https://topgroupexpress.com/blog                  índice del blog
+    https://topgroupexpress.com/blog/automate-your-group-bookings
+    https://topgroupexpress.com/es/blog/automatizar-reservas-de-grupos
+    https://topgroupexpress.com/es/blog/multiplica-cotizaciones-grupos-sin-repetir-trabajo
+    https://topgroupexpress.com/es/blog/coste-lentitud-cotizacion-reservas-grupos-hotel
+    https://topgroupexpress.com/es/blog/demanda-oculta-grupos-colchon-ocupacion-hotel
+    https://topgroupexpress.com/es/blog/optimizar-reservas-grupos-mas-7-habitaciones
+    https://topgroupexpress.com/es/blog/cotizaciones-grupos-directas-cierre-tres-clics
+    https://topgroupexpress.com/es/blog/subvencion-ultima-milla-motor-predictivo-t3-rooms
+    https://topgroupexpress.com/webinars
+    https://topgroupexpress.com/privacy               (última actualización: 10 September 2026)
+    https://topgroupexpress.com/terms                 (última actualización: 10 September 2026)
+    https://topgroupexpress.com/llms.txt
+    https://topgroupexpress.com/robots.txt
+    https://topgroupexpress.com/sitemap.xml
+    https://agencies.topgroupexpress.com              (login, sin contenido público)
+    https://hoteliers.topgroupexpress.com             (login, sin contenido público)
+
+Redes (leídas el 2026-09-25):
+    https://www.linkedin.com/company/top-group-express        parcial
+    https://www.facebook.com/topgroupexpress                  parcial, con user agent de crawler
+    https://www.youtube.com/@topgroupexpress/videos           leída
+    https://www.instagram.com/top_group_express/              solo metadatos
+    https://twitter.com/topgroupexpress (x.com)               NO legible, solo snippet de buscador
+
+Prensa y terceros:
+    https://www.meet-in.es/top-group-express-motor-de-reservas-online-para-grupos/
+        (2019-05-31, "6.000 hoteles")
+    https://www.preferente.com/noticias-de-agencias-de-viajes/top-group-express-llega-a-los-10-000-hoteles-en-contratacion-directa-289280.html
+        (2019-06-06, según comunicado de la empresa)
+    https://tecnohotelnews.com/2019/06/top-group-express-hoteles-grupos/
+        (2019-06-07)
+    https://www.hosteltur.com/comunidad/nota/019594_top-group-express-aumenta-en-un-24-su-protagonismo-en-las-agencias-tradicionales.html
+        (2019-08-02, sección de notas de prensa, texto de la empresa)
+    https://www.smarttravel.news/top-group-express-el-broker-de-habitaciones-de-hotel/
+        (2023-02-17, entrevista a Rocío Plaza)
+    https://www.empresia.es/empresa/top-group-express-turismo/
+        (extracto del Registro Mercantil: constitución, capital, CNAE)
+    https://tracxn.com/d/companies/top-group-express/__RYIOpk0ZuNnNwzr9dXqFXcVLQPAOVXTmjp9pQ5iGJUQ
+        (agregador, fundación 2016, 8 empleados, sin rondas de inversión)
+    https://play.google.com/store/apps/details?id=com.tge.t3agencies   (HTTP 404)
+    https://play.google.com/store/apps/details?id=com.tge.t3hotelier   (HTTP 404)
+
+No leídas o bloqueadas: X/Twitter (402, 403, 429), F6S (captcha anti bot), twidoom (522).
