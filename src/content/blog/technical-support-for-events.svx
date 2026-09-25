@@ -4,7 +4,7 @@ description: "Technical support for events in Malaga: what our on site crew actu
 author: Hector Luis Lorenzo
 slug: technical-support-for-events
 publishDate: "2026-07-31"
-updatedDate: "2026-08-03"
+updatedDate: "2026-09-25"
 excerpt: "What technical support for events actually means at Malaga Event Gear: calibration, live monitoring, real troubleshooting and teardown, phase by phase."
 coverImage: https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
@@ -67,7 +67,7 @@ This guide walks through what our crew actually does in each phase, the real equ
 
 -   Coverage is not a yes or no question: the [Eco Pack](/packages/eco/) has none, the [Basic MICE Pack](/packages/basic-mice/) offers it as an add on, and the [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/) include it as standard.
 
--   Our crew troubleshoots named, real equipment: mixing consoles, DMX lighting, projector and screen sync, wireless microphones, fog machines and staging, not a generic "AV system."
+-   Our crew troubleshoots named, real equipment: mixing consoles, DMX lighting, projector and screen sync, wireless microphones, the fog machine and staging, not a generic "AV system."
 
 -   Multi day corporate events get continuous monitoring from a control panel, not a technician who checks in occasionally.
 
@@ -116,7 +116,7 @@ Generic "technical support" pages rarely name the equipment involved. Ours is no
 -   **Foot pedal lighting control.** Our Eurolite LED KLS-200 bars are controlled by a foot pedal, not a DMX signal. Our technician confirms the right color or pattern is already dialed in during calibration, so nobody has to reach for the pedal mid event.
 -   **Projector and screen sync.** Our Vivitek D5 series and Christie LX505 projectors are matched against Da Lite, Traulux and Projecta screens. A projector that will not sync to the right screen size or aspect ratio is exactly the kind of fault caught in the calibration phase above.
 -   **Wireless microphones.** Our Audix Fusion Series wireless microphones occasionally drop a connection mid event, usually from interference or a battery running low. Our technicians carry the fix (a channel switch or a fresh battery) rather than letting your speech continue with a dead microphone.
--   **Fog machines.** Our Martin Magnum 650 fog machine needs its output managed against the room's ventilation and any smoke detection on site, particularly indoors.
+-   **Fog machine.** Our Martin Magnum 650 fog machine needs its output managed against the room's ventilation and any smoke detection on site, particularly indoors.
 -   **Staging.** Our GUIL modular stage platforms need to be level and secure before anyone stands on them, which is confirmed in calibration, not discovered live.
 
 ## Switching Between Multiple Presentation Sources

@@ -511,6 +511,15 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
     rental-service.svx`, `pros-and-cons-of-wedding-rentals.svx`, `latest-trends-in-wedding-
     rentals.svx`, `faq.ts`) corregidas a "Audix", incluido el anchor del H2 en
     `sound-system-rental.svx`. Cachés regenerados, tests y build en verde.
+  - **Efectos especiales reales (confirmado 2026-09-25 por el negocio)**: el único equipo de
+    efectos especiales de MEG es UNA máquina de humo, Martin Magnum 650 (add on de 20 euros en
+    el Eco Pack y el Wedding Pack). MEG no tiene hazer, ni máquina de humo bajo (low lying fog),
+    ni cañones de confeti, ni fuegos artificiales. Toda mención de esos equipos es una negación
+    honesta o no va. `smoke-machine-rental.svx` explica fog vs haze vs low lying fog.
+  - **Billie Jean King Cup 2024 (confirmado 2026-09-25 por el negocio)**: en la ceremonia de
+    premiación MEG suministró SOLO la iluminación y el sonido. El confeti y los fuegos
+    artificiales que se ven en las fotos no fueron de MEG. Ningún texto, alt ni pie de foto
+    (posts, traducciones, `scripts/migrate-wp/manifest.json`) puede dar a entender lo contrario.
 
 ## Honestidad (sobreescribe cualquier regla anterior)
 

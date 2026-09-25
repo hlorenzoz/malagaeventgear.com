@@ -4,8 +4,8 @@ description: "Audiovisual equipment rental service in Malaga: the specialized 50
 author: Hector Luis Lorenzo
 slug: audiovisual-equipment-rental-service
 publishDate: "2026-07-31"
-updatedDate: "2026-09-24"
-excerpt: "The niche layer of our AV catalog: the 5000 lumen projector, specialty stage lighting and uplighting, wireless mics, a 60 inch LED display, and effects, plus an honest list of what we do not stock."
+updatedDate: "2026-09-25"
+excerpt: "The niche layer of our AV catalog: the 5000 lumen projector, specialty stage lighting and uplighting, wireless mics, a 60 inch LED display and a smoke machine, plus an honest list of what we do not stock."
 coverImage: https://cdn.malagaeventgear.com/blog/1299/podium-lighting-sound-big-screen-projector-rental-malaga.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for an audiovisual equipment rental service in Malaga? If you searched that exact phrase, you likely already found our [audio visual rental](/blog/audio-visual-rental/) page, since the two terms describe the same core service. This page exists for a narrower reason: to lay out the specialized and niche layer of our catalog, the 5000 lumen projector tier, RGBW spotlights, specialty stage lighting and uplighting, wireless and gooseneck microphone systems, the 60 inch LED display, and fog, haze and confetti effects, in one place, and to say plainly what falls outside it.
+Looking for an audiovisual equipment rental service in Malaga? If you searched that exact phrase, you likely already found our [audio visual rental](/blog/audio-visual-rental/) page, since the two terms describe the same core service. This page exists for a narrower reason: to lay out the specialized and niche layer of our catalog, the 5000 lumen projector tier, RGBW spotlights, specialty stage lighting and uplighting, wireless and gooseneck microphone systems, the 60 inch LED display and our smoke machine, in one place, and to say plainly what falls outside it.
 
 Malaga Event Gear (MEG) delivers, installs and tests every piece of this equipment ourselves, across Malaga and the wider Costa del Sol, backed by experience going back to 1996. Nothing below is a wishlist. Every item is either a real package inclusion with a published euro price, or an honest "not in our catalog."
 
@@ -29,7 +29,7 @@ Malaga Event Gear (MEG) delivers, installs and tests every piece of this equipme
 
 ---
 
-Malaga Event Gear supplies the specialized and niche end of its audiovisual catalog, the 5000 lumen projector tier, RGBW spotlights, specialty stage lighting and uplighting, wireless and gooseneck microphone systems, the 60 inch LED display and special effects equipment, for corporate events, product launches and celebrations across Malaga and the wider Costa del Sol.
+Malaga Event Gear supplies the specialized and niche end of its audiovisual catalog, the 5000 lumen projector tier, RGBW spotlights, specialty stage lighting and uplighting, wireless and gooseneck microphone systems, the 60 inch LED display and a smoke machine, for corporate events, product launches and celebrations across Malaga and the wider Costa del Sol.
 
 This page indexes that layer and cross links to our dedicated [sound system](/blog/sound-system-rental/), [TV screen](/blog/tv-screen-rental/) and [projector](/blog/projector-rental/) guides for the full pricing and package detail on each product. [Contact us](/contact/) to match a package to your event.
 
@@ -45,7 +45,7 @@ This page indexes that layer and cross links to our dedicated [sound system](/bl
 
 -   A wireless, battery powered uplighting kit (6 fixtures), a separate item from our spotlights, for washing a wall or structure with color from the floor.
 
--   Low lying fog machines, hazers and confetti cannons in our special effects inventory, with the smoke/fog machine published as a 20 euro Eco Pack add on.
+-   One smoke machine, a Martin Magnum 650, published as a 20 euro add on to the [Eco Pack](/packages/eco/) and the [Wedding Pack](/packages/wedding/). It is our only special effects unit: no hazer, no low lying fog, no confetti cannon.
 
 -   A blunt "What We Don't Offer" list further down, so you know before you call whether interpretation equipment, video walls or backdrops are in scope.
 
@@ -53,7 +53,7 @@ This page indexes that layer and cross links to our dedicated [sound system](/bl
 
 Search "audiovisual equipment rental service" and you land on the same intent as "audio visual rental." We don't pretend otherwise. Our [audio visual rental](/blog/audio-visual-rental/) pillar covers the core event packages, from the [Eco Pack](/packages/eco/) up to the [MICE Pack](/packages/mice/), and is the right starting point if you just need sound, a screen and lighting for a wedding or a conference.
 
-This page covers a different question: which pieces of our inventory sit at the specialized or niche end, the 5000 lumen tier rather than the standard 3000 lumen projector, a multi head light bar or an uplighting kit rather than a plain spotlight, a fog machine or confetti cannon rather than a basic light bar, and what genuinely falls outside our catalog even though a general search for AV rental in Malaga turns it up on a competitor's page. If you already know you need a wedding sound system or a conference screen, our [sound system rental](/blog/sound-system-rental/) and [TV screen rental](/blog/tv-screen-rental/) guides answer that directly. If you're trying to work out whether we stock the more specialized layer, or whether something like interpretation equipment or a video wall is even possible with us, keep reading.
+This page covers a different question: which pieces of our inventory sit at the specialized or niche end, the 5000 lumen tier rather than the standard 3000 lumen projector, a multi head light bar or an uplighting kit rather than a plain spotlight, a smoke machine that makes those light beams visible, and what genuinely falls outside our catalog even though a general search for AV rental in Malaga turns it up on a competitor's page. If you already know you need a wedding sound system or a conference screen, our [sound system rental](/blog/sound-system-rental/) and [TV screen rental](/blog/tv-screen-rental/) guides answer that directly. If you're trying to work out whether we stock the more specialized layer, or whether something like interpretation equipment or a video wall is even possible with us, keep reading.
 
 <InlineCTA />
 
@@ -77,15 +77,15 @@ Our microphone inventory runs on Audix wireless systems, paired with professiona
 
 The one large format display we publish is a premium 60 inch high definition LED display screen with a designer stand, included on the [MICE Pack](/packages/mice/) at 490 euros ex VAT for up to 120 guests. It's a self lit panel, not a projected image, so it stays legible in a bright lobby, an exhibition stand or a gala dinner room. Full pricing, sizing and the "is this the same as a plasma screen" answer live on our [TV screen rental](/blog/tv-screen-rental/) guide.
 
-## Special Effects: Fog, Haze and Confetti
+## Special Effects: One Smoke Machine
 
-Our equipment catalog lists low lying fog machines for a cloud effect at weddings, hazers to enhance light beams, and professional confetti cannons under special effects. Of these, only the professional smoke/fog machine carries a published a la carte price, a 20 euro add on to the [Eco Pack](/packages/eco/). Hazers and confetti cannons are part of our real inventory, but we don't publish a standalone price for them the way we do for the fog machine, so contact us with your event details for a quote.
+Our special effects inventory is one smoke machine, a Martin Magnum 650, published as a 20 euro add on to the [Eco Pack](/packages/eco/) and the [Wedding Pack](/packages/wedding/). It produces white fog that rises and spreads, which is what makes the beams of our lighting visible. We do not stock a hazer, a low lying fog machine or confetti cannons. Fog, haze and low lying fog are three different products, and our [smoke machine rental](/blog/smoke-machine-rental/#fog-haze-and-low-lying-fog-are-three-different-products) guide explains the difference, along with the smoke detector question to settle with your venue before you book.
 
-We supplied confetti and lighting effects for the awards ceremony of the Billie Jean King Cup 2024, one of the larger celebration setups in our own gallery.
+For the awards ceremony of the Billie Jean King Cup 2024 we supplied the lighting and the sound, one of the larger celebration setups in our own gallery.
 
-![Spectacular celebration at the Billie Jean King Cup 2024 with confetti and professional lights and sound system.](https://cdn.malagaeventgear.com/blog/1192/billie-jean-king-cup-2024-celebration-lights-sound-600x450.avif)
+![The winning team celebrating on court at the Billie Jean King Cup 2024 awards ceremony, seen from the stands of the indoor arena.](https://cdn.malagaeventgear.com/blog/1192/billie-jean-king-cup-2024-celebration-lights-sound-600x450.avif)
 
-The Billie Jean King Cup 2024 celebration, with confetti and lighting effects deployed alongside our sound system. See our [audio visual rental for sports events](/blog/audio-visual-rental-for-sports-events/) guide for the full setup.
+The Billie Jean King Cup 2024 awards ceremony, where we supplied the lighting and the sound system. See our [audio visual rental for sports events](/blog/audio-visual-rental-for-sports-events/) guide for the full setup.
 
 ## Modular Staging for Corporate Events
 
@@ -105,7 +105,7 @@ A general search for AV equipment rental in Malaga turns up services from other 
 
 -   **Walkie talkies, silent disco equipment, camera cranes, tripods or laptop rental.** None of these appear anywhere in our packages or equipment catalog. We won't invent a quote for a product we don't stock.
 
--   **Pipe and drape or event backdrops.** We are not a decor provider. Our [unique wedding ceremony rentals](/blog/unique-wedding-ceremony-rentals/) guide is explicit: no arch, no backdrop, no draping, no furniture. Our [audio visual rental for press conferences](/blog/audio-visual-rental-for-press-conferences/) guide says the same for a branded backdrop or step-and-repeat banner, usually sourced through your PR or marketing team instead.
+-   **Pipe and drape or event backdrops.** We are not a decor provider. Our [unique wedding ceremony rentals](/blog/unique-wedding-ceremony-rentals/) guide is explicit: no arch, no backdrop, no draping, no furniture. Our [audio visual rental for press conferences](/blog/audio-visual-rental-for-press-conferences/) guide says the same for a branded backdrop or step and repeat banner, usually sourced through your PR or marketing team instead.
 
 ## Real Specialized Equipment Setups We've Delivered
 
@@ -129,13 +129,13 @@ Book as early as you can once your event date is confirmed. Demand on the Costa 
 
 ## Conclusion
 
-An audiovisual equipment rental service search and an audio visual rental search point at the same catalog. What differs here is the layer: the 5000 lumen projector, Audix wireless and gooseneck microphones, RGBW spotlights, specialty stage lighting and uplighting, the 60 inch LED display, and fog, haze and confetti effects, alongside a direct answer on what we don't stock. [Contact us](/contact/) to match a package to your event. For the full package range and pricing, see our [audio visual rental](/blog/audio-visual-rental/) page.
+An audiovisual equipment rental service search and an audio visual rental search point at the same catalog. What differs here is the layer: the 5000 lumen projector, Audix wireless and gooseneck microphones, RGBW spotlights, specialty stage lighting and uplighting, the 60 inch LED display and our smoke machine, alongside a direct answer on what we don't stock. [Contact us](/contact/) to match a package to your event. For the full package range and pricing, see our [audio visual rental](/blog/audio-visual-rental/) page.
 
 ## FAQs
 
 ### What Is the Difference Between This Page and Your General Audio Visual Rental Page?
 
-They describe the same core service. Our [audio visual rental](/blog/audio-visual-rental/) page covers the full package range, from the [Eco Pack](/packages/eco/) up to the [MICE Pack](/packages/mice/). This page indexes the specialized and niche equipment layer inside that same catalog, the 5000 lumen projector tier, RGBW spotlights, specialty stage lighting and uplighting, wireless and gooseneck microphones, the 60 inch LED display and special effects, plus an honest list of what falls outside our catalog. See [Why This Page Exists](#why-this-page-exists-specialized-equipment-vs-our-core-av-packages) above.
+They describe the same core service. Our [audio visual rental](/blog/audio-visual-rental/) page covers the full package range, from the [Eco Pack](/packages/eco/) up to the [MICE Pack](/packages/mice/). This page indexes the specialized and niche equipment layer inside that same catalog, the 5000 lumen projector tier, RGBW spotlights, specialty stage lighting and uplighting, wireless and gooseneck microphones, the 60 inch LED display and our smoke machine, plus an honest list of what falls outside our catalog. See [Why This Page Exists](#why-this-page-exists-specialized-equipment-vs-our-core-av-packages) above.
 
 ### Do You Rent a Mixing Console or Audio Mixer on Its Own?
 
@@ -167,7 +167,7 @@ Not from our own equipment catalog, but yes as an arranged service: clicker devi
 
 ### Do You Offer Laser or Other Special Lighting Effects?
 
-No. We do not offer laser light shows, gobo or monogram projection, or hologram displays. Our brightest projector is a 5000 lumen unit on the [Product Presentation Pack](/packages/product-presentation/), and it is not laser either. On the effects side, our catalog lists low lying fog machines for a cloud effect, hazers to enhance light beams, and professional confetti cannons, with the fog machine published as a 20 euro Eco Pack add on. See [Special Effects](#special-effects-fog-haze-and-confetti) above.
+No. We do not offer laser light shows, gobo or monogram projection, or hologram displays. Our brightest projector is a 5000 lumen unit on the [Product Presentation Pack](/packages/product-presentation/), and it is not laser either. On the effects side, our only unit is one smoke machine, a Martin Magnum 650, published as a 20 euro add on to the Eco Pack and the Wedding Pack. We do not stock hazers, low lying fog machines or confetti cannons. See [Special Effects](#special-effects-one-smoke-machine) above.
 
 ### Do You Rent Staging, Truss or Pipe and Drape?
 
