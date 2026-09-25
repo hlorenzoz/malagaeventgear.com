@@ -56,7 +56,9 @@ export function joinPath(...parts) {
  * @returns {{ data: unknown, body: string }}
  */
 export function readPost(path) {
-	const { data, content } = matter(readFileSync(path, 'utf8'));
+	// Passing options turns off gray-matter's cache, which stores a file BEFORE parsing it: a YAML
+	// error would throw once and then come back as empty frontmatter on the next read.
+	const { data, content } = matter(readFileSync(path, 'utf8'), {});
 	return { data: JSON.parse(JSON.stringify(data)), body: content };
 }
 

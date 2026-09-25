@@ -151,6 +151,15 @@ describe('computeBlogState fails the build on a malformed post, naming the file'
 		rmSync(root, { recursive: true, force: true });
 	});
 
+	it('YAML that cannot be parsed, English or translated', () => {
+		const brokenDe = fixture({ 'a.svx': post(englishFm('A')), 'de/a.svx': post(`${deFm()}\ntitle: "unclosed`) });
+		expect(() => computeBlogState({ dir: brokenDe, now: NOW, maps: { de: map } })).toThrow(/de\/a\.svx: unreadable frontmatter/);
+		const brokenEn = fixture({ 'a.svx': post(`${englishFm('A')}\ntitle: "unclosed`) });
+		expect(() => computeBlogState({ dir: brokenEn, now: NOW, maps: { de: map } })).toThrow(/a\.svx: unreadable frontmatter/);
+		rmSync(brokenDe, { recursive: true, force: true });
+		rmSync(brokenEn, { recursive: true, force: true });
+	});
+
 	it('accepts an unquoted YAML sourceUpdated', () => {
 		const root = fixture({ 'a.svx': post(englishFm('A')), 'de/a.svx': post(deFm().replace('sourceUpdated: "2026-01-10"', 'sourceUpdated: 2026-01-10')) });
 		expect(computeBlogState({ dir: root, now: NOW, maps: { de: map } }).locales.de?.posts[0].sourceUpdated).toBe('2026-01-10');
@@ -182,6 +191,21 @@ describe('computeBlogState with onProblems (dev and preview: report and skip onl
 		expect(problems[0]).toMatch(/^de\/b: invalid frontmatter/);
 		expect(state.locales.de?.posts.map((p) => p.slug)).toEqual(['a']);
 		expect(Object.keys(state.locales.de?.translations ?? {})).toEqual(['../../content/blog/de/a.svx']);
+		rmSync(root, { recursive: true, force: true });
+	});
+
+	it('reports YAML that cannot be parsed (saved mid edit) instead of crashing the dev server', () => {
+		const root = fixture({
+			'a.svx': post(englishFm('A')),
+			'b.svx': post(`${englishFm('B')}\ntitle: "unclosed`),
+			'de/a.svx': post(`${deFm()}\ntitle: "unclosed`)
+		});
+		const problems: string[] = [];
+		const state = computeBlogState({ dir: root, now: NOW, maps: { de: map }, onProblems: (p) => problems.push(...p) });
+		expect(problems).toHaveLength(2);
+		expect(problems.every((p) => /unreadable frontmatter/.test(p)), problems.join(' | ')).toBe(true);
+		expect(state.english.map((p) => p.slug)).toEqual(['a']);
+		expect(state.locales.de).toBeUndefined();
 		rmSync(root, { recursive: true, force: true });
 	});
 

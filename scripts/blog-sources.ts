@@ -33,11 +33,28 @@ export { BLOG_DIR };
 
 type Prefixed = (typeof PREFIXED_LOCALES)[number];
 
+/**
+ * readPost, but YAML that cannot be parsed at all becomes one more problem line when the caller
+ * collects problems (computeBlogState), so it fails the build naming the file and never crashes
+ * the dev server. Without a problems list it throws, as before.
+ */
+function readOrReport(path: string, label: string, problems?: string[]): ReturnType<typeof readPost> | null {
+	try {
+		return readPost(path);
+	} catch (error) {
+		if (!problems) throw error;
+		const reason = error instanceof Error ? error.message.split('\n')[0] : String(error);
+		problems.push(`${label}: unreadable frontmatter (${reason})`);
+		return null;
+	}
+}
+
 /** English posts, keyed like the lazy component glob in blog.ts (`../../content/blog/<file>`). */
-export function readEnglishMeta(dir = BLOG_DIR): GlobResult {
+export function readEnglishMeta(dir = BLOG_DIR, problems?: string[]): GlobResult {
 	const map: GlobResult = {};
 	for (const file of listSvx(dir)) {
-		map[`../../content/blog/${file}`] = { metadata: readPost(joinPath(dir, file)).data };
+		const post = readOrReport(joinPath(dir, file), `src/content/blog/${file}`, problems);
+		if (post) map[`../../content/blog/${file}`] = { metadata: post.data };
 	}
 	return map;
 }
@@ -49,21 +66,23 @@ export function readEnglishMeta(dir = BLOG_DIR): GlobResult {
  * itself, so there is no committed cache to go stale. The frontmatter ships as one chunk per
  * locale and each post's FAQ and ToC as its own chunk (scripts/vite-blog-meta.mjs).
  */
-export function readTranslations(locale: Locale, dir = BLOG_DIR): TranslationGlob {
+export function readTranslations(locale: Locale, dir = BLOG_DIR, problems?: string[]): TranslationGlob {
 	const map: TranslationGlob = {};
 	const words = BLOG_STRUCTURE[locale];
 	for (const file of listSvx(joinPath(dir, locale))) {
-		const { data, body } = readPost(joinPath(dir, locale, file));
-		map[`../../content/blog/${locale}/${file}`] = { metadata: data, faqs: extractFaqs(body, words), toc: extractToc(body, words) };
+		const post = readOrReport(joinPath(dir, locale, file), `${locale}/${file}`, problems);
+		if (!post) continue;
+		map[`../../content/blog/${locale}/${file}`] = { metadata: post.data, faqs: extractFaqs(post.body, words), toc: extractToc(post.body, words) };
 	}
 	return map;
 }
 
 /** Frontmatter only of the posts in a folder that is not a locale (to report them). */
-function readFrontmatter(folder: string, dir: string): TranslationGlob {
+function readFrontmatter(folder: string, dir: string, problems?: string[]): TranslationGlob {
 	const map: TranslationGlob = {};
 	for (const file of listSvx(joinPath(dir, folder))) {
-		map[`../../content/blog/${folder}/${file}`] = { metadata: readPost(joinPath(dir, folder, file)).data };
+		const post = readOrReport(joinPath(dir, folder, file), `${folder}/${file}`, problems);
+		if (post) map[`../../content/blog/${folder}/${file}`] = { metadata: post.data };
 	}
 	return map;
 }
@@ -104,7 +123,7 @@ export function computeBlogState({
 	onProblems?: (problems: string[]) => void;
 } = {}): BlogState {
 	const problems: string[] = [];
-	const allEnglish = readEnglishMeta(dir);
+	const allEnglish = readEnglishMeta(dir, problems);
 	const englishMeta: GlobResult = {};
 	for (const [path, module] of Object.entries(allEnglish)) {
 		const parsed = BlogPostSchema.safeParse(module.metadata);
@@ -116,7 +135,7 @@ export function computeBlogState({
 	const all: TranslationGlob = {};
 	for (const folder of listDirs(dir)) {
 		const known = (PREFIXED_LOCALES as readonly string[]).includes(folder);
-		Object.assign(all, known ? readTranslations(folder as Locale, dir) : readFrontmatter(folder, dir));
+		Object.assign(all, known ? readTranslations(folder as Locale, dir, problems) : readFrontmatter(folder, dir, problems));
 	}
 	const malformed = malformedTranslationFiles(allEnglish, all, maps);
 	problems.push(...malformed.map((m) => m.problem));
