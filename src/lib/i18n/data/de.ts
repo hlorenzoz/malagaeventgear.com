@@ -222,7 +222,7 @@ export default {
 		'streaming-recording': {
 			question: 'Bieten Sie Livestreaming und Aufnahmen mit mehreren Kameras an?',
 			answer:
-				'Nein. Wir bieten keine Kameras, keine Encoder für Streaming, keine Videoproduktion mit mehreren Kameras und keinen Aufnahmeservice an. Wir liefern Beschallung, Leinwand und Beleuchtung des Raums. Für ein hybrides oder virtuelles Event bringen Sie Ihren eigenen Laptop, Ihre Streamingsoftware und Ihre Internetverbindung mit.'
+				'Nicht aus unserem eigenen Bestand. Kameras, Filmaufnahmen und Livestreaming gehören nicht dazu, deshalb übernehmen wir selbst keine Produktion mit mehreren Kameras. Wir liefern Beschallung, Leinwand und Beleuchtung des Raums, und für ein hybrides oder virtuelles Event bringen Sie in der Regel Ihren eigenen Laptop, Ihre Streamingsoftware und Ihre Internetverbindung mit. Wenn Ihre Veranstaltung ein Kamerateam oder eine Streaminglösung braucht, sagen Sie es uns: Wir prüfen, ob einer unserer Lieferanten das übernehmen kann, sofern es einen gibt.'
 		},
 		'translation-voting': {
 			question: 'Bieten Sie Simultanübersetzung oder interaktive Abstimmungssysteme an?',

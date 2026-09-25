@@ -221,7 +221,7 @@ export default {
 		'streaming-recording': {
 			question: 'Offrite streaming dal vivo e registrazione multicamera?',
 			answer:
-				"No. Non offriamo telecamere, encoder per lo streaming, produzione video multicamera o un servizio di registrazione. Forniamo l'audio della sala, lo schermo e l'illuminazione. Per un evento ibrido o virtuale, dovrai portare il tuo portatile, il software di streaming e la connessione internet."
+				"Non con la nostra attrezzatura di proprietà. Telecamere, riprese e streaming dal vivo non ne fanno parte, quindi non realizziamo in proprio produzioni multicamera. Forniamo l'audio della sala, lo schermo e l'illuminazione, e per un evento ibrido o virtuale di solito porti il tuo portatile, il software di streaming e la connessione internet. Se il tuo evento ha bisogno di una troupe video o di un sistema di streaming, faccelo sapere: possiamo verificare se uno dei nostri fornitori può occuparsene, se ce n'è uno."
 		},
 		'translation-voting': {
 			question: 'Offrite traduzione simultanea o sistemi di voto interattivo?',

@@ -222,7 +222,7 @@ export default {
 		'streaming-recording': {
 			question: 'Erbjuder ni livestreaming och flerkamerainspelning?',
 			answer:
-				'Nej. Vi erbjuder inte kameror, streamingkodare, flerkameraproduktion eller inspelningstjänster. Vi står för ljud, duk och belysning i lokalen. För ett hybrid- eller virtuellt evenemang tar du med din egen dator, streamingprogramvara och internetanslutning.'
+				'Inte ur vårt eget lager. Kameror, filmning och livestreaming ingår inte i det, så vi gör ingen flerkameraproduktion själva. Vi står för ljud, duk och belysning i lokalen, och för ett hybrid- eller virtuellt evenemang tar du oftast med din egen dator, streamingprogramvara och internetanslutning. Behöver ditt evenemang ett filmteam eller en streaminglösning, säg till: vi kan kolla om någon av våra leverantörer kan ta hand om det, om det finns någon.'
 		},
 		'translation-voting': {
 			question: 'Erbjuder ni simultantolkning eller interaktiva röstningssystem?',

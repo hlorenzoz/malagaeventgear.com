@@ -221,7 +221,7 @@ export default {
 		'streaming-recording': {
 			question: 'Tilbyr dere livestrømming og opptak med flere kameraer?',
 			answer:
-				'Nei. Vi tilbyr ikke kameraer, strømmeenkodere, videoproduksjon med flere kameraer eller opptakstjenester. Vi leverer lyd, skjerm og lys til rommet. Til et hybrid- eller virtuelt arrangement tar du med din egen datamaskin, strømmeprogramvare og internettilkobling.'
+				'Ikke fra vårt eget lager. Kameraer, filming og direktestrømming inngår ikke i det, så vi driver ikke produksjon med flere kameraer selv. Vi leverer lyd, skjerm og lys til rommet, og til et hybrid- eller virtuelt arrangement tar du som regel med din egen datamaskin, strømmeprogramvare og internettilkobling. Trenger arrangementet ditt et filmteam eller en strømmeløsning, si ifra: vi kan undersøke om en av leverandørene våre kan ta det, hvis det finnes en.'
 		},
 		'translation-voting': {
 			question: 'Tilbyr dere simultantolkning eller interaktive avstemningssystemer?',

@@ -143,7 +143,7 @@ const faqData: FaqItem[] = [
 		category: 'services',
 		onHomepage: false,
 		question: 'Do you offer live streaming and multi camera recording?',
-		answer: 'No. We do not offer cameras, streaming encoders, multi camera video production, or a recording service. We supply the room sound, screen and lighting. For a hybrid or virtual event you bring your own laptop, streaming software and internet connection.'
+		answer: 'Not from our own inventory. Cameras, filming and live streaming are not part of it, so we do not run multi camera production ourselves. We supply the room sound, screen and lighting, and for a hybrid or virtual event you usually bring your own laptop, streaming software and internet connection. If your event needs a camera crew or a streaming setup, tell us and we can check whether one of our suppliers can cover it, if there is one.'
 	},
 	{
 		id: 'translation-voting',

@@ -221,7 +221,7 @@ export default {
 		'streaming-recording': {
 			question: 'Oferecem transmissão em direto e gravação multicâmara?',
 			answer:
-				'Não. Não disponibilizamos câmaras, codificadores de transmissão, produção de vídeo multicâmara nem serviço de gravação. Fornecemos o som, o ecrã e a iluminação da sala. Para um evento híbrido ou virtual, deverá trazer o seu próprio portátil, software de transmissão e ligação à internet.'
+				'Não com equipamento próprio. Câmaras, filmagem e transmissão em direto não fazem parte do nosso inventário próprio, por isso não fazemos produção multicâmara. Fornecemos o som, o ecrã e a iluminação da sala e, para um evento híbrido ou virtual, normalmente traz o seu próprio portátil, software de transmissão e ligação à internet. Se o seu evento precisar de uma equipa de filmagem ou de uma solução de transmissão, diga-nos: podemos verificar se algum dos nossos fornecedores consegue assegurá-la, se existir.'
 		},
 		'translation-voting': {
 			question: 'Disponibilizam tradução simultânea ou sistemas de votação interativa?',

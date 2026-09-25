@@ -221,7 +221,7 @@ export default {
 		'streaming-recording': {
 			question: 'Bieden jullie livestreaming en multicamera-opnames aan?',
 			answer:
-				'Nee. We bieden geen camera\'s, streamingencoders, videoproductie met meerdere camera\'s of opnamediensten aan. Wij leveren het geluid, het scherm en de verlichting in de zaal. Voor een hybride of virtueel evenement neem je zelf je laptop, streamingsoftware en internetverbinding mee.'
+				'Niet uit onze eigen voorraad. Camera\'s, filmopnames en livestreaming horen daar niet bij, dus we verzorgen zelf geen productie met meerdere camera\'s. Wij leveren het geluid, het scherm en de verlichting in de zaal, en voor een hybride of virtueel evenement neem je meestal zelf je laptop, streamingsoftware en internetverbinding mee. Heeft je evenement een cameraploeg of een streamingopstelling nodig, laat het ons weten: we kunnen nagaan of een van onze leveranciers dat kan verzorgen, als die er is.'
 		},
 		'translation-voting': {
 			question: 'Bieden jullie simultaanvertaling of interactieve stemsystemen aan?',

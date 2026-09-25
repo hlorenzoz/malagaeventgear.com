@@ -222,7 +222,7 @@ export default {
 		'streaming-recording': {
 			question: 'Vocês oferecem transmissão ao vivo e gravação com múltiplas câmeras?',
 			answer:
-				'Não. Não oferecemos câmeras, codificadores de transmissão, produção de vídeo com múltiplas câmeras nem serviço de gravação. Fornecemos o som, a tela e a iluminação da sala. Para um evento híbrido ou virtual, você deve levar seu próprio notebook, software de transmissão e conexão à internet.'
+				'Não com equipamento próprio. Câmeras, filmagem e transmissão ao vivo não fazem parte do nosso estoque próprio, por isso não fazemos produção com múltiplas câmeras. Fornecemos o som, a tela e a iluminação da sala e, para um evento híbrido ou virtual, você normalmente leva seu próprio notebook, software de transmissão e conexão à internet. Se o seu evento precisar de uma equipe de filmagem ou de uma solução de transmissão, fale com a gente: podemos verificar se algum dos nossos fornecedores consegue atender, se houver.'
 		},
 		'translation-voting': {
 			question: 'Vocês oferecem tradução simultânea ou sistemas de votação interativa?',

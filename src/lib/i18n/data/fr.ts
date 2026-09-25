@@ -221,7 +221,7 @@ export default {
 		'streaming-recording': {
 			question: "Proposez-vous la diffusion en direct et l'enregistrement multicaméra ?",
 			answer:
-				"Non. Nous ne proposons ni caméras, ni encodeurs de streaming, ni production vidéo multicaméra, ni service d'enregistrement. Nous fournissons le son de la salle, l'écran et l'éclairage. Pour un événement hybride ou virtuel, vous devez apporter votre propre ordinateur portable, votre logiciel de diffusion et votre connexion internet."
+				"Pas avec notre propre matériel. Les caméras, le tournage et la diffusion en direct n'en font pas partie, nous ne réalisons donc pas nous-mêmes de production multicaméra. Nous fournissons le son de la salle, l'écran et l'éclairage, et pour un événement hybride ou virtuel, vous apportez en général votre ordinateur portable, votre logiciel de diffusion et votre connexion internet. Si votre événement a besoin d'une équipe de tournage ou d'un dispositif de diffusion, dites-le-nous : nous pouvons vérifier si l'un de nos fournisseurs peut s'en charger, s'il en existe un."
 		},
 		'translation-voting': {
 			question: 'Proposez-vous la traduction simultanée ou des systèmes de vote interactif ?',
