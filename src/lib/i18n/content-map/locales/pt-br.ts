@@ -113,6 +113,11 @@ export default {
 			slug: 'aluguel-de-maquina-de-fumaca',
 			keyword: 'aluguel de máquina de fumaça em Málaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals': {
+			slug: 'locacao-para-casamento',
+			keyword: 'locação para casamento em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

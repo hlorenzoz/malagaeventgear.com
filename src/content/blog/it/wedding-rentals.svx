@@ -1,0 +1,113 @@
+---
+title: "Noleggio attrezzature per matrimoni a Malaga | AV per le nozze"
+description: "Noleggio attrezzature per matrimoni a Malaga: audio fino a 80 invitati, microfoni wireless per le promesse, lucine d'atmosfera e un tecnico, da 650 € più IVA."
+excerpt: "Noleggio attrezzature per matrimoni a Malaga: audio fino a 80 invitati, microfoni wireless per le promesse, lucine d'atmosfera e un tecnico, da 650 € più IVA."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Cerchi il noleggio attrezzature per matrimoni a Malaga? Malaga Event Gear si occupa della parte audiovisiva della tua giornata: l'impianto audio per la cerimonia e i discorsi, microfoni wireless per le promesse, lucine d'atmosfera per il ricevimento e un tecnico presente in loco per tutto il tempo, il tutto consegnato, installato e testato dal nostro stesso team.
+
+Forti di un'esperienza che risale al 1996, abbiamo costruito il nostro [Wedding Pack](/packages/wedding/) attorno a ciò che va davvero storto a un matrimonio se nessuno ci fa attenzione: un microfono che fischia durante le promesse, o un impianto audio che non arriva fino all'ultima fila. Un tecnico in loco se ne accorge prima dei tuoi ospiti.
+
+Con sede a Malaga e al servizio di eventi in tutta la Costa del Sol, ci occupiamo dell'attrezzatura audiovisiva. Per tutto ciò che va oltre audio, luci, microfoni e tecnico, leggi [Cosa abbiamo di proprietà e cosa chiediamo ai fornitori](#cosa-abbiamo-di-proprietà-e-cosa-chiediamo-ai-fornitori) più avanti.
+
+## In breve
+
+---
+
+Il [Wedding Pack](/packages/wedding/) di Malaga Event Gear è il nostro pacchetto audiovisivo per matrimoni: un impianto PA attivo di alta gamma per un massimo di 80 invitati, lucine e strisce LED a luce calda per l'illuminazione d'ambiente, microfoni wireless per le promesse e i discorsi e un tecnico presente in loco per tutto l'evento, il tutto a 650 € più IVA. Consegniamo, installiamo, testiamo e ritiriamo l'attrezzatura noi stessi, sia per location al chiuso sia per cerimonie all'aperto in tutta la zona di Malaga.
+
+## Punti chiave
+
+---
+
+-   Impianto audio PA per un massimo di 80 invitati, dimensionato per una villa, una finca o un hotel per matrimoni.
+-   Lucine e strisce LED a luce calda per un'illuminazione d'ambiente romantica, non un impianto luci da palco.
+-   Microfoni wireless per le promesse, i discorsi e gli annunci.
+-   Un tecnico presente in loco per tutto l'evento, in uno dei soli due pacchetti del nostro catalogo che lo includono.
+-   650 € più IVA, con consegna, allestimento e smontaggio inclusi.
+
+## Cosa include il Wedding Pack
+
+Il [Wedding Pack](/packages/wedding/) costa 650 € più IVA, con l'IVA spagnola del 21% aggiunta al momento del pagamento. Include:
+
+-   Un impianto audio PA attivo di alta gamma per un massimo di 80 invitati.
+-   Lucine e strisce LED a luce calda per l'illuminazione d'ambiente.
+-   Microfoni wireless professionali per discorsi e annunci.
+-   Trasporto a Malaga e dintorni.
+-   Allestimento e cablaggio professionali.
+-   Un tecnico presente in loco per tutto l'evento.
+-   Smontaggio e ritiro dopo l'evento.
+
+Trovi i prezzi esatti e aggiornati, con il dettaglio completo, nella nostra [pagina dei pacchetti](/packages/).
+
+<InlineCTA />
+
+## Perché il tecnico conta a un matrimonio
+
+La maggior parte dei nostri pacchetti non include un tecnico di serie. Il Wedding Pack sì, e oltre a lui soltanto il MICE Pack pensato per i congressi aziendali. A un matrimonio questo conta più che in quasi qualsiasi altro evento: le promesse e i discorsi avvengono una volta sola, dal vivo, davanti a tutte le persone a cui tieni. Un tecnico in loco intercetta il fischio di un microfono o una connessione che cade prima che diventi la cosa che tutti ricorderanno, e regola i volumi man mano che la giornata passa dalla cerimonia ai discorsi e poi alle danze.
+
+## Cosa abbiamo di proprietà e cosa chiediamo ai fornitori
+
+Forniamo audio, luci e microfoni per la cerimonia e il ricevimento, più il tecnico che li gestisce. Il Wedding Pack non include proiettore, schermo o display LED, perché un matrimonio ne ha raramente bisogno. Arredi, decorazioni e accessori per la pista da ballo non fanno parte della nostra attrezzatura di proprietà, e nemmeno telecamere, riprese video o fotografia. Se una pagina o un fornitore lascia intendere il contrario, chiedigli di dettagliare ogni voce: l'attrezzatura audiovisiva e questi altri mestieri sono di solito servizi separati.
+
+Se al tuo matrimonio manca ancora qualcosa in uno di questi ambiti, dicci di cosa si tratta. Possiamo girare la richiesta ai nostri contatti tra i fornitori e dirti se può essere coperta per la tua data. Tutto ciò che viene procurato in questo modo è indicato come tale nel preventivo.
+
+## Matrimoni reali che abbiamo allestito
+
+![Una cerimonia di matrimonio in spiaggia con una passerella di tappeto rosso e un arco floreale.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
+
+Una passerella di tappeto rosso e un arco floreale allestiti su una spiaggia per una cerimonia di matrimonio all'aperto.
+
+![Un'elegante sala per cerimonie di matrimonio al chiuso, con composizioni di fiori bianchi e lampadari.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
+
+Una sala al chiuso preparata per una cerimonia di matrimonio, con l'impianto audio pronto per le promesse e le letture.
+
+![Un tavolo del ricevimento di nozze con fiori rosa e luci.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
+
+Un tavolo del ricevimento di nozze che brilla sotto le lucine, con fiori rosa e lanterne.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Prenotazione e zona servita
+
+I nostri servizi coprono Malaga, la Costa del Sol e Siviglia senza ordine minimo, e arrivano fino a Granada per i noleggi superiori a 400 €. Non c'è una finestra di prenotazione fissa, conta solo la disponibilità, quindi contattaci appena data e location sono confermate. Le date per i matrimoni si esauriscono in fretta, soprattutto in alta stagione.
+
+## Conclusione
+
+Che si tratti di una cerimonia in spiaggia o di un ricevimento in villa, Malaga Event Gear fornisce l'audio, le luci e il tecnico di cui ha bisogno il giorno del tuo matrimonio. Per il dettaglio completo sui prezzi e su cosa succede durante la giornata, leggi la nostra guida al [noleggio audiovisivo per matrimoni](/blog/audio-visual-rental-for-weddings/). [Contattaci](/contact/) per parlare del tuo matrimonio.
+
+## Domande frequenti
+
+### Cosa include il noleggio attrezzature per matrimoni di Malaga Event Gear?
+
+Il [Wedding Pack](/packages/wedding/) include un impianto audio PA di alta gamma per un massimo di 80 invitati, un'illuminazione d'ambiente calda (lucine e strisce LED), microfoni wireless per le promesse e i discorsi, trasporto, allestimento professionale, un tecnico presente in loco per tutto l'evento e smontaggio dopo l'evento.
+
+### Quanto costa il noleggio di attrezzature per matrimoni a Malaga?
+
+Il Wedding Pack costa 650 € più IVA, con l'IVA spagnola del 21% aggiunta al momento del pagamento. Il prezzo comprende consegna, allestimento e smontaggio. Trovi i prezzi esatti nella nostra [pagina dei pacchetti](/packages/).
+
+### Il noleggio attrezzature per matrimoni include un tecnico?
+
+Sì. Il Wedding Pack include un tecnico presente in loco per tutto l'evento: è uno dei soli due pacchetti del nostro catalogo a includerlo, insieme al MICE Pack.
+
+### Per quanti invitati è pensato il Wedding Pack?
+
+Fino a 80 invitati, dimensionato per una villa, una finca o un hotel per matrimoni. Per un matrimonio più numeroso, [contattaci](/contact/) per valutare le opzioni.
+
+### Il noleggio attrezzature per matrimoni include arredi, decorazioni o fotografia?
+
+No. Il Wedding Pack copre audio, luci, microfoni e un tecnico. Non include arredi, decorazioni, accessori per la pista da ballo, né fotografia e riprese video. Leggi [Cosa abbiamo di proprietà e cosa chiediamo ai fornitori](#cosa-abbiamo-di-proprietà-e-cosa-chiediamo-ai-fornitori) più sopra se la tua giornata ha bisogno di uno di questi.
+
+### Con quanto anticipo devo prenotare il noleggio attrezzature per matrimoni?
+
+Non c'è una finestra di prenotazione fissa, conta solo la disponibilità. Le date per i matrimoni si esauriscono in fretta, soprattutto in alta stagione, quindi contattaci appena data e location sono confermate.

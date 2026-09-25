@@ -77,6 +77,11 @@ export default {
 			slug: 'noleggio-macchina-del-fumo',
 			keyword: 'noleggio macchina del fumo a Malaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals': {
+			slug: 'noleggio-attrezzature-matrimoni',
+			keyword: 'noleggio attrezzature per matrimoni a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

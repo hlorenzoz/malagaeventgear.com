@@ -85,6 +85,11 @@ export default {
 			slug: 'leie-roykmaskin',
 			keyword: 'leie røykmaskin i Malaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals': {
+			slug: 'utleie-til-bryllup',
+			keyword: 'utleie til bryllup i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -113,6 +113,11 @@ export default {
 			slug: 'aluguer-de-maquina-de-fumo',
 			keyword: 'aluguer de máquina de fumo em Málaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals': {
+			slug: 'aluguer-para-casamentos',
+			keyword: 'aluguer para casamentos em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

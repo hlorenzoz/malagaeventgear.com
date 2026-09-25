@@ -1,0 +1,113 @@
+---
+title: "Utleie til bryllup i Malaga, Spania | AV-utstyr til bryllupsdagen din"
+description: "Utleie til bryllup i Malaga: PA-lyd for opptil 80 gjester, trådløse mikrofoner til løftene, lysslynger og en tekniker, fra 650 € eks. mva."
+excerpt: "Utleie til bryllup i Malaga: PA-lyd for opptil 80 gjester, trådløse mikrofoner til løftene, lysslynger og en tekniker, fra 650 € eks. mva."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Ser du etter utleie til bryllup i Malaga? Malaga Event Gear står for den audiovisuelle delen av dagen din: PA-lyd til vielsen og talene, trådløse mikrofoner til løftene, stemningslys med lysslynger til mottakelsen og en tekniker på stedet hele veien, levert, installert og testet av vårt eget team.
+
+Med erfaring som går tilbake til 1996, har vi bygd opp [Wedding Pack](/packages/wedding/) rundt det som faktisk går galt i et bryllup hvis ingen følger med: en mikrofon som gir rundgang under løftene, eller et lydanlegg som ikke når helt bak. En tekniker på stedet fanger det opp før gjestene dine merker noe.
+
+Vi holder til i Malaga, jobber med arrangementer langs hele Costa del Sol og står for AV-utstyret. For alt utenom lyd, lys, mikrofoner og en tekniker, se [Hva vi har på eget lager, og hva vi spør leverandørene våre om](#hva-vi-har-på-eget-lager-og-hva-vi-spør-leverandørene-våre-om) lenger ned.
+
+## Kort oversikt
+
+---
+
+[Wedding Pack](/packages/wedding/) fra Malaga Event Gear er vår audiovisuelle pakke for bryllup: et aktivt PA-anlegg i toppklasse for opptil 80 gjester, stemningslys med lysslynger og varmt LED-lys, trådløse mikrofoner til løfter og taler og en tekniker på stedet under hele arrangementet, alt for 650 € eks. mva. Vi leverer, installerer, tester og henter utstyret selv, både til innendørs lokaler og til vielser utendørs i hele Malaga-området.
+
+## Det viktigste
+
+---
+
+-   PA-lyd for opptil 80 gjester, tilpasset en villa, en finca eller et bryllupshotell.
+-   Lysslynger og varmt LED-lys for romantisk stemningslys, ikke en scenelysrigg.
+-   Trådløse mikrofoner til løfter, taler og kunngjøringer.
+-   En tekniker på stedet under hele arrangementet, i en av bare to pakker i katalogen vår som har det.
+-   650 € eks. mva., med levering, oppsett og nedrigging inkludert.
+
+## Dette er inkludert i Wedding Pack
+
+[Wedding Pack](/packages/wedding/) koster 650 € eks. mva., og spansk merverdiavgift på 21 % legges til i kassen. Pakken inneholder:
+
+-   Et aktivt PA-lydanlegg i toppklasse for opptil 80 gjester.
+-   Lysslynger og varmt LED-lys for stemningslys.
+-   Profesjonelle trådløse mikrofoner til taler og kunngjøringer.
+-   Transport i Malaga og omkringliggende områder.
+-   Profesjonelt oppsett og kabling.
+-   En tekniker på stedet under hele arrangementet.
+-   Nedrigging og henting etter arrangementet.
+
+Se nøyaktige, oppdaterte priser og hele oversikten på [pakkesiden](/packages/) vår.
+
+<InlineCTA />
+
+## Derfor betyr teknikeren noe i et bryllup
+
+De fleste av pakkene våre har ikke tekniker som standard. Det har Wedding Pack, og i tillegg bare MICE Pack, som er laget for bedriftskonferanser. I et bryllup betyr det mer enn på nesten et hvilket som helst annet arrangement: Løfter og taler skjer én gang, live, foran alle som betyr noe for deg. En tekniker på stedet fanger opp rundgang i en mikrofon eller en forbindelse som faller ut før det blir det folk husker, og justerer lydnivået etter hvert som dagen går fra vielse til taler og videre til dans.
+
+## Hva vi har på eget lager, og hva vi spør leverandørene våre om
+
+Vi leverer lyd, lys og mikrofoner til vielsen og mottakelsen, pluss teknikeren som styrer det hele. Wedding Pack har ingen prosjektor, lerret eller LED-skjerm, siden et bryllup sjelden trenger det. Møbler, dekor og tilbehør til dansegulvet er ikke på vårt eget lager, og det er heller ikke kameraer, filming eller fotografering. Hvis en side eller en leverandør antyder noe annet, be dem spesifisere hver post: AV-utstyr og de andre fagene er som regel separate tjenester.
+
+Hvis bryllupet ditt fortsatt mangler noe innen ett av de områdene, fortell oss hva det er. Vi kan sende forespørselen videre til leverandørkontaktene våre og si fra om det kan dekkes på datoen din. Alt som skaffes på den måten, er merket som det på tilbudet.
+
+## Ekte bryllup vi har levert til
+
+![En bryllupsseremoni på stranden med rød løper som midtgang og en blomsterbue.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
+
+En rød løper som midtgang og en blomsterbue satt opp på en strand til en vielse utendørs.
+
+![Et elegant lokale for vielse innendørs med hvite blomsteroppsatser og lysekroner.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
+
+Et innendørs lokale gjort klart til en vielse, med lyden på plass til løfter og opplesninger.
+
+![Et bord i en bryllupsmottakelse med rosa blomster og lys.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
+
+Et bord i en bryllupsmottakelse som gløder under lysslynger, med rosa blomster og lykter.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Booking og område vi dekker
+
+Vi dekker Malaga, Costa del Sol og Sevilla uten minstebestilling, og Granada ved leie over 400 €. Det finnes ingen fast frist for booking, bare ledig kapasitet, så ta kontakt når dato og lokale er bekreftet. Bryllupsdatoer blir raskt booket, særlig i høysesongen.
+
+## Konklusjon
+
+Enten det er en vielse på stranden eller en mottakelse i en villa, leverer Malaga Event Gear lyden, lyset og teknikeren som bryllupsdagen din trenger. For hele gjennomgangen av priser og hva som skjer på selve dagen, se guiden vår om [leie av AV-utstyr til bryllup](/blog/audio-visual-rental-for-weddings/). [Kontakt oss](/contact/) for å snakke om bryllupet ditt.
+
+## Ofte stilte spørsmål
+
+### Hva inngår i utleie til bryllup fra Malaga Event Gear?
+
+[Wedding Pack](/packages/wedding/) inneholder et PA-lydanlegg i toppklasse for opptil 80 gjester, varmt stemningslys (lysslynger og LED-lys), trådløse mikrofoner til løfter og taler, transport, profesjonelt oppsett, en tekniker på stedet under hele arrangementet og nedrigging etter arrangementet.
+
+### Hva koster utleie til bryllup i Malaga?
+
+Wedding Pack koster 650 € eks. mva., og spansk merverdiavgift på 21 % legges til i kassen. Prisen omfatter levering, oppsett og nedrigging. Se nøyaktige priser på [pakkesiden](/packages/) vår.
+
+### Er en tekniker inkludert i utleie til bryllup?
+
+Ja. Wedding Pack har en tekniker på stedet under hele arrangementet. Det er en av bare to pakker i katalogen vår som har det, sammen med MICE Pack.
+
+### Hvor mange gjester passer Wedding Pack for?
+
+Opptil 80 gjester, tilpasset en villa, en finca eller et bryllupshotell. Til et større bryllup kan du [kontakte oss](/contact/), så ser vi på mulighetene.
+
+### Omfatter utleie til bryllup møbler, dekor eller fotografering?
+
+Nei. Wedding Pack dekker lyd, lys, mikrofoner og en tekniker. Den omfatter ikke møbler, dekor, tilbehør til dansegulvet eller foto og video. Se [Hva vi har på eget lager, og hva vi spør leverandørene våre om](#hva-vi-har-på-eget-lager-og-hva-vi-spør-leverandørene-våre-om) over hvis dagen din trenger noe av dette.
+
+### Hvor lang tid i forveien bør jeg booke utleie til bryllup?
+
+Det finnes ingen fast frist for booking, bare ledig kapasitet. Bryllupsdatoer blir raskt booket, særlig i høysesongen, så ta kontakt når dato og lokale er bekreftet.

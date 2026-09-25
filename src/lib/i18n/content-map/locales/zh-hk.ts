@@ -69,6 +69,11 @@ export default {
 			slug: '煙霧機租借',
 			keyword: '馬拉加 煙霧機租借',
 			status: 'propuesta'
+		},
+		'wedding-rentals': {
+			slug: '婚禮器材租借',
+			keyword: '馬拉加 婚禮器材租借',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

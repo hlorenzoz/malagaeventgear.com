@@ -81,6 +81,11 @@ export default {
 			slug: 'rookmachine-huren',
 			keyword: 'rookmachine huren Malaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals': {
+			slug: 'verhuur-voor-bruiloften',
+			keyword: 'verhuur voor bruiloften in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

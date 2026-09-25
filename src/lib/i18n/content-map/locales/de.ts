@@ -81,6 +81,11 @@ export default {
 			slug: 'nebelmaschine-mieten',
 			keyword: 'Nebelmaschine mieten Malaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals': {
+			slug: 'hochzeitsverleih',
+			keyword: 'Hochzeitsverleih in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

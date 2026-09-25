@@ -81,6 +81,11 @@ export default {
 			slug: 'location-machine-a-fumee',
 			keyword: 'location de machine à fumée à Malaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals': {
+			slug: 'location-materiel-mariage',
+			keyword: 'location de matériel pour mariage à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

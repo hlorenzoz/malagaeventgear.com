@@ -1,0 +1,113 @@
+---
+title: "Aluguer para casamentos em Málaga | AV para o seu casamento"
+description: "Aluguer para casamentos em Málaga: som PA para até 80 convidados, microfones sem fios para os votos, luzes de fada e um técnico, desde 650 € sem IVA."
+excerpt: "Aluguer para casamentos em Málaga: som PA para até 80 convidados, microfones sem fios para os votos, luzes de fada e um técnico, desde 650 € sem IVA."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Procura aluguer para casamentos em Málaga? A Malaga Event Gear trata da parte audiovisual do seu dia: som PA para a cerimónia e os discursos, microfones sem fios para os votos, iluminação ambiente com luzes de fada para a receção e um técnico no local do início ao fim, tudo entregue, instalado e testado pela nossa própria equipa.
+
+Com uma experiência que remonta a 1996, construímos o nosso [Wedding Pack](/packages/wedding/) em torno do que realmente corre mal num casamento quando ninguém está atento: um microfone que dá microfonia durante os votos, ou um sistema de som que não chega à última fila. Um técnico no local deteta o problema antes de os seus convidados darem por isso.
+
+Com sede em Málaga e a trabalhar em eventos por toda a Costa del Sol, tratamos do equipamento audiovisual. Para tudo o que vá além do som, da iluminação, dos microfones e do técnico, veja [O que temos em inventário próprio e o que pedimos a fornecedores](#o-que-temos-em-inventário-próprio-e-o-que-pedimos-a-fornecedores) mais abaixo.
+
+## Resumo
+
+---
+
+O [Wedding Pack](/packages/wedding/) da Malaga Event Gear é o nosso pacote audiovisual para casamentos: um sistema PA ativo de gama alta para até 80 convidados, iluminação ambiente com luzes de fada e cordões LED de luz quente, microfones sem fios para os votos e os discursos, e um técnico no local durante todo o evento, tudo por 650 € sem IVA. Somos nós que entregamos, instalamos, testamos e recolhemos o equipamento, tanto em espaços interiores como em cerimónias ao ar livre por toda a zona de Málaga.
+
+## Pontos principais
+
+---
+
+-   Sistema de som PA para até 80 convidados, dimensionado para uma moradia, uma quinta ou um hotel de casamentos.
+-   Luzes de fada e cordões LED de luz quente para uma iluminação ambiente romântica, e não um equipamento de iluminação de palco.
+-   Microfones sem fios para os votos, os discursos e os anúncios.
+-   Um técnico no local durante todo o evento, num dos dois únicos pacotes do nosso catálogo que o incluem.
+-   650 € sem IVA, com entrega, montagem e desmontagem incluídas.
+
+## O que inclui o Wedding Pack
+
+O [Wedding Pack](/packages/wedding/) custa 650 € sem IVA, sendo o IVA espanhol de 21% acrescentado no pagamento. Inclui:
+
+-   Um sistema de som PA ativo de gama alta para até 80 convidados.
+-   Luzes de fada e cordões LED de luz quente para iluminação ambiente.
+-   Microfones sem fios profissionais para discursos e anúncios.
+-   Transporte em Málaga e arredores.
+-   Montagem e cablagem profissionais.
+-   Um técnico no local durante todo o evento.
+-   Desmontagem e recolha após o evento.
+
+Consulte os preços exatos e atualizados e o detalhe completo na nossa [página de pacotes](/packages/).
+
+<InlineCTA />
+
+## Porque é que o técnico faz diferença num casamento
+
+A maioria dos nossos pacotes não inclui técnico de série. O Wedding Pack inclui, e além dele apenas o MICE Pack, pensado para conferências empresariais. Num casamento, isso pesa mais do que em quase qualquer outro evento: os votos e os discursos acontecem uma única vez, ao vivo, perante todas as pessoas que lhe são importantes. Um técnico no local resolve uma microfonia ou uma ligação que falha antes que se torne aquilo de que todos se lembram, e ajusta os níveis de som à medida que o dia passa da cerimónia para os discursos e depois para a dança.
+
+## O que temos em inventário próprio e o que pedimos a fornecedores
+
+Fornecemos o som, a iluminação e os microfones para a cerimónia e a receção, além do técnico que os opera. O Wedding Pack não tem projetor, ecrã nem painel LED, já que um casamento raramente precisa disso. Mobiliário, decoração e acessórios para a pista de dança não fazem parte do nosso inventário próprio, e o mesmo se aplica a câmaras, filmagem ou fotografia. Se uma página ou um fornecedor der a entender o contrário, peça-lhe que discrimine cada item: o equipamento audiovisual e esses outros ofícios são normalmente serviços separados.
+
+Se ainda faltar alguma coisa ao seu casamento numa dessas áreas, diga-nos o quê. Podemos passar o pedido aos nossos contactos de fornecedores e dizer-lhe se é possível cobri-lo na sua data. Tudo o que for obtido dessa forma fica identificado como tal no orçamento.
+
+## Casamentos reais que já equipámos
+
+![Uma cerimónia de casamento na praia, com uma passadeira vermelha a fazer de corredor e um arco floral.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
+
+Uma passadeira vermelha e um arco floral montados numa praia para uma cerimónia de casamento ao ar livre.
+
+![Uma elegante sala de cerimónia de casamento interior, com arranjos de flores brancas e lustres.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
+
+Uma sala interior preparada para uma cerimónia de casamento, com o som montado para os votos e as leituras.
+
+![Mesa de receção de casamento com flores cor-de-rosa e luzes.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
+
+Uma mesa de receção de casamento a brilhar sob luzes de fada, com flores cor-de-rosa e lanternas.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Reservas e zona de serviço
+
+Os nossos serviços cobrem Málaga, a Costa del Sol e Sevilha sem encomenda mínima, e chegam a Granada para alugueres acima de 400 €. Não há um prazo fixo de reserva, apenas disponibilidade, por isso contacte-nos assim que a data e o local estiverem confirmados. As datas de casamento esgotam depressa, sobretudo na época alta.
+
+## Conclusão
+
+Seja uma cerimónia na praia ou uma receção numa moradia, a Malaga Event Gear leva o som, a iluminação e o técnico de que o dia do seu casamento precisa. Para o detalhe completo dos preços e do que acontece no próprio dia, consulte o nosso guia de [aluguer audiovisual para casamentos](/blog/audio-visual-rental-for-weddings/). [Contacte-nos](/contact/) para falar sobre o seu casamento.
+
+## Perguntas frequentes
+
+### O que inclui o aluguer para casamentos da Malaga Event Gear?
+
+O [Wedding Pack](/packages/wedding/) inclui um sistema de som PA de gama alta para até 80 convidados, iluminação ambiente quente (luzes de fada e cordões LED), microfones sem fios para os votos e os discursos, transporte, montagem profissional, um técnico no local durante todo o evento e a desmontagem após o evento.
+
+### Quanto custa o aluguer para casamentos em Málaga?
+
+O Wedding Pack custa 650 € sem IVA, sendo o IVA espanhol de 21% acrescentado no pagamento. O preço inclui entrega, montagem e desmontagem. Consulte os preços exatos na nossa [página de pacotes](/packages/).
+
+### O aluguer para casamentos inclui um técnico?
+
+Sim. O Wedding Pack inclui um técnico no local durante todo o evento, sendo um dos dois únicos pacotes do nosso catálogo que o incluem, a par do MICE Pack.
+
+### Para quantos convidados serve o Wedding Pack?
+
+Até 80 convidados, dimensionado para uma moradia, uma quinta ou um hotel de casamentos. Para um casamento maior, [contacte-nos](/contact/) para analisarmos as opções.
+
+### O aluguer para casamentos inclui mobiliário, decoração ou fotografia?
+
+Não. O Wedding Pack cobre som, iluminação, microfones e um técnico. Não inclui mobiliário, decoração, acessórios para a pista de dança, nem fotografia e vídeo. Veja [O que temos em inventário próprio e o que pedimos a fornecedores](#o-que-temos-em-inventário-próprio-e-o-que-pedimos-a-fornecedores) mais acima se o seu dia precisar de algum deles.
+
+### Com quanta antecedência devo reservar o aluguer para o casamento?
+
+Não há um prazo fixo de reserva, apenas disponibilidade. As datas de casamento esgotam depressa, sobretudo na época alta, por isso contacte-nos assim que a data e o local estiverem confirmados.

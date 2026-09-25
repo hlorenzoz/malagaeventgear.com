@@ -77,6 +77,11 @@ export default {
 			slug: 'hyra-rokmaskin',
 			keyword: 'hyra rökmaskin Malaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals': {
+			slug: 'uthyrning-till-brollop',
+			keyword: 'uthyrning till bröllop i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

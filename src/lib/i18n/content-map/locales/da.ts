@@ -81,6 +81,11 @@ export default {
 			slug: 'leje-rogmaskine',
 			keyword: 'leje røgmaskine Malaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals': {
+			slug: 'udlejning-til-bryllup',
+			keyword: 'udlejning til bryllup i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

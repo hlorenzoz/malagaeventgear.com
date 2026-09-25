@@ -1,0 +1,113 @@
+---
+title: "Verhuur voor bruiloften in Malaga, Spanje | AV voor je trouwdag"
+description: "Verhuur voor bruiloften in Malaga: geluid voor maximaal 80 gasten, draadloze microfoons voor de geloften, lichtsnoeren en een technicus, vanaf € 650 excl. btw."
+excerpt: "Verhuur voor bruiloften in Malaga: geluid voor maximaal 80 gasten, draadloze microfoons voor de geloften, lichtsnoeren en een technicus, vanaf € 650 excl. btw."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Op zoek naar verhuur voor bruiloften in Malaga? Malaga Event Gear verzorgt het audiovisuele deel van je dag: PA-geluid voor de ceremonie en de speeches, draadloze microfoons voor de geloften, sfeerverlichting met lichtsnoeren voor de receptie en een technicus die de hele tijd ter plaatse is, geleverd, geïnstalleerd en getest door ons eigen team.
+
+Met ervaring die teruggaat tot 1996 hebben we ons [Wedding Pack](/packages/wedding/) opgebouwd rond wat er op een bruiloft echt misgaat als niemand oplet: een microfoon die rondzingt tijdens de geloften, of een geluidssysteem dat de achterste rij niet haalt. Een technicus ter plaatse vangt dat op voordat je gasten het merken.
+
+We zitten in Malaga, werken op evenementen aan de hele Costa del Sol en zorgen voor de AV-apparatuur. Voor alles buiten geluid, licht, microfoons en een technicus, zie [Wat we zelf in huis hebben en wat we bij leveranciers navragen](#wat-we-zelf-in-huis-hebben-en-wat-we-bij-leveranciers-navragen) hieronder.
+
+## In het kort
+
+---
+
+Het [Wedding Pack](/packages/wedding/) van Malaga Event Gear is ons audiovisuele pakket voor bruiloften: een actief PA-systeem van topkwaliteit voor maximaal 80 gasten, sfeerverlichting met lichtsnoeren en warme LED-strings, draadloze microfoons voor de geloften en speeches en een technicus die het hele evenement ter plaatse is, alles voor € 650 excl. btw. We leveren, installeren, testen en halen de apparatuur zelf weer op, zowel voor binnenlocaties als voor ceremonies in de buitenlucht, overal in Malaga.
+
+## Belangrijkste punten
+
+---
+
+-   PA-geluid voor maximaal 80 gasten, afgestemd op een villa, finca of trouwhotel.
+-   Lichtsnoeren en warme LED-strings voor romantische sfeerverlichting, geen podiumlichtset.
+-   Draadloze microfoons voor de geloften, speeches en aankondigingen.
+-   Een technicus die het hele evenement ter plaatse is, in een van de maar twee pakketten in onze catalogus met een technicus.
+-   € 650 excl. btw, inclusief levering, opbouw en afbouw.
+
+## Wat zit er in het Wedding Pack
+
+Het [Wedding Pack](/packages/wedding/) kost € 650 excl. btw, en de Spaanse btw van 21% komt er bij het afrekenen bij. Het bevat:
+
+-   Een actief PA-geluidssysteem van topkwaliteit voor maximaal 80 gasten.
+-   Lichtsnoeren en warme LED-strings voor sfeerverlichting.
+-   Professionele draadloze microfoons voor speeches en aankondigingen.
+-   Vervoer in Malaga en omstreken.
+-   Professionele opbouw en bekabeling.
+-   Een technicus die het hele evenement ter plaatse is.
+-   Afbouw en ophalen na het evenement.
+
+Bekijk de exacte, actuele prijzen en het volledige overzicht op onze [pakkettenpagina](/packages/).
+
+<InlineCTA />
+
+## Waarom de technicus telt op een bruiloft
+
+De meeste van onze pakketten hebben standaard geen technicus. Het Wedding Pack wel, en verder alleen het MICE Pack voor zakelijke congressen. Op een bruiloft weegt dat zwaarder dan op bijna elk ander evenement: geloften en speeches gebeuren één keer, live, voor iedereen die belangrijk voor je is. Een technicus ter plaatse vangt een rondzingende microfoon of een weggevallen verbinding op voordat dat is wat mensen zich herinneren, en past het volume aan terwijl de dag van de ceremonie naar de speeches en het dansen gaat.
+
+## Wat we zelf in huis hebben en wat we bij leveranciers navragen
+
+We leveren geluid, licht en microfoons voor de ceremonie en de receptie, plus de technicus die alles bedient. Het Wedding Pack heeft geen beamer, scherm of LED-display, omdat een bruiloft daar zelden om vraagt. Meubilair, decoratie en accessoires voor de dansvloer zitten niet in onze eigen voorraad, en camera's, filmen of fotografie ook niet. Als een website of leverancier iets anders suggereert, vraag dan om een gespecificeerd overzicht: AV-apparatuur en die andere vakgebieden zijn meestal aparte diensten.
+
+Heeft je bruiloft op een van die gebieden nog een gat, vertel ons dan wat het is. We kunnen de aanvraag doorgeven aan onze contacten bij leveranciers en je laten weten of het op jouw datum kan worden ingevuld. Alles wat op die manier wordt geregeld, staat als zodanig vermeld op de offerte.
+
+## Echte bruiloften die we hebben verzorgd
+
+![Een huwelijksceremonie op het strand met een rode loper als gangpad en een bloemenboog.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
+
+Een rode loper als gangpad en een bloemenboog, opgesteld op een strand voor een huwelijksceremonie in de buitenlucht.
+
+![Een elegante zaal voor een huwelijksceremonie binnen, met witte bloemstukken en kroonluchters.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
+
+Een zaal binnen, ingericht voor een huwelijksceremonie, met het geluid klaar voor de geloften en voordrachten.
+
+![Een tafel op een bruiloftsreceptie met roze bloemen en lichtjes.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
+
+Een tafel op een bruiloftsreceptie die gloeit onder lichtsnoeren, met roze bloemen en lantaarns.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Boeken en werkgebied
+
+We werken in Malaga, aan de Costa del Sol en in Sevilla zonder minimale bestelling, en tot in Granada voor huur boven € 400. Er is geen vaste boekingstermijn, alleen beschikbaarheid, dus neem contact op zodra je datum en locatie vastliggen. Trouwdata raken snel vol, vooral in het hoogseizoen.
+
+## Conclusie
+
+Of het nu een ceremonie op het strand is of een receptie in een villa, Malaga Event Gear levert het geluid, het licht en de technicus die je trouwdag nodig heeft. Voor het volledige overzicht van de prijzen en wat er op de dag zelf gebeurt, lees onze gids over [AV-huur voor bruiloften](/blog/audio-visual-rental-for-weddings/). [Neem contact met ons op](/contact/) om je bruiloft te bespreken.
+
+## Veelgestelde vragen
+
+### Wat zit er in de verhuur voor bruiloften van Malaga Event Gear?
+
+Het [Wedding Pack](/packages/wedding/) bevat een PA-geluidssysteem van topkwaliteit voor maximaal 80 gasten, warme sfeerverlichting (lichtsnoeren en LED-strings), draadloze microfoons voor de geloften en speeches, vervoer, professionele opbouw, een technicus die het hele evenement ter plaatse is en afbouw na afloop.
+
+### Wat kost verhuur voor een bruiloft in Malaga?
+
+Het Wedding Pack kost € 650 excl. btw, en de Spaanse btw van 21% komt er bij het afrekenen bij. De prijs is inclusief levering, opbouw en afbouw. Bekijk de exacte prijzen op onze [pakkettenpagina](/packages/).
+
+### Zit er een technicus bij de verhuur voor bruiloften?
+
+Ja. Het Wedding Pack heeft een technicus die het hele evenement ter plaatse is. Het is een van de maar twee pakketten in onze catalogus waarbij dat zo is, naast het MICE Pack.
+
+### Voor hoeveel gasten is het Wedding Pack geschikt?
+
+Voor maximaal 80 gasten, afgestemd op een villa, finca of trouwhotel. Voor een grotere bruiloft kun je [contact met ons opnemen](/contact/) om de mogelijkheden te bespreken.
+
+### Zijn meubilair, decoratie of fotografie inbegrepen bij de verhuur voor bruiloften?
+
+Nee. Het Wedding Pack omvat geluid, licht, microfoons en een technicus. Meubilair, decoratie, accessoires voor de dansvloer en foto- en videografie zitten er niet in. Zie [Wat we zelf in huis hebben en wat we bij leveranciers navragen](#wat-we-zelf-in-huis-hebben-en-wat-we-bij-leveranciers-navragen) hierboven als je dag een van die dingen nodig heeft.
+
+### Hoe ver van tevoren moet ik de verhuur voor mijn bruiloft boeken?
+
+Er is geen vaste boekingstermijn, alleen beschikbaarheid. Trouwdata raken snel vol, vooral in het hoogseizoen, dus neem contact op zodra je datum en locatie vastliggen.

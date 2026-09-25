@@ -69,6 +69,11 @@ export default {
 			slug: '烟雾机租赁',
 			keyword: '马拉加 烟雾机租赁',
 			status: 'propuesta'
+		},
+		'wedding-rentals': {
+			slug: '婚礼设备租赁',
+			keyword: '马拉加 婚礼设备租赁',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
