@@ -29,28 +29,37 @@ export function malformedTranslations(
 	translations: TranslationGlob,
 	maps: Partial<Record<string, LocaleContentMap>>
 ): string[] {
-	const problems: string[] = [];
+	return malformedTranslationFiles(englishGlob, translations, maps).map((m) => m.problem);
+}
+
+/** The same problems with the file each one belongs to, to leave it out (dev server). */
+export function malformedTranslationFiles(
+	englishGlob: GlobResult,
+	translations: TranslationGlob,
+	maps: Partial<Record<string, LocaleContentMap>>
+): { path: string; problem: string }[] {
+	const problems: { path: string; problem: string }[] = [];
 	const englishSlugs = new Set(Object.keys(englishGlob).map((p) => p.split('/').pop()!.replace(/\.svx$/, '')));
 
 	for (const [path, module] of Object.entries(translations)) {
 		const info = translationPathInfo(path);
 		if (!info) {
 			const folder = path.split('/').slice(-2, -1)[0];
-			problems.push(`${path}: ${folder} is not a prefixed site locale (src/lib/i18n/locales.ts)`);
+			problems.push({ path, problem: `${path}: ${folder} is not a prefixed site locale (src/lib/i18n/locales.ts)` });
 			continue;
 		}
 		const id = `${info.locale}/${info.enSlug}`;
 		if (!englishSlugs.has(info.enSlug)) {
-			problems.push(`${id}: there is no English post src/content/blog/${info.enSlug}.svx`);
+			problems.push({ path, problem: `${id}: there is no English post src/content/blog/${info.enSlug}.svx` });
 			continue;
 		}
 		const parsed = TranslatedPostSchema.safeParse(module.metadata);
 		if (!parsed.success) {
-			problems.push(`${id}: invalid frontmatter (${zodIssues(parsed.error)})`);
+			problems.push({ path, problem: `${id}: invalid frontmatter (${zodIssues(parsed.error)})` });
 			continue;
 		}
 		if (!parsed.data.draft && !maps[info.locale]?.posts[info.enSlug]) {
-			problems.push(`${id}: missing from content-map/locales/${info.locale}.ts posts (slug and keyword)`);
+			problems.push({ path, problem: `${id}: missing from content-map/locales/${info.locale}.ts posts (slug and keyword)` });
 		}
 	}
 	return problems;
@@ -86,23 +95,4 @@ export function auditTranslations(
 		}
 	}
 	return problems;
-}
-
-/**
- * Sources of the images of a post body with an empty alt, markdown (`![](url)`) or HTML
- * (`<img>`). A translated post needs an alt on every image, in its language
- * (translated-post-images.test.ts): the build never uses the English manifest alt there.
- */
-export function imagesWithoutAlt(body: string): string[] {
-	const missing: { at: number; src: string }[] = [];
-	for (const m of body.matchAll(/!\[([^\]]*)\]\(\s*<?([^\s)>]+)>?(?:\s+"[^"]*")?\s*\)/g)) {
-		if (m[1].trim() === '') missing.push({ at: m.index ?? 0, src: m[2] });
-	}
-	for (const m of body.matchAll(/<img\b[^>]*>/gi)) {
-		const alt = m[0].match(/\balt\s*=\s*(?:"([^"]*)"|'([^']*)')/i);
-		if (!alt || (alt[1] ?? alt[2] ?? '').trim() === '') {
-			missing.push({ at: m.index ?? 0, src: m[0].match(/\bsrc\s*=\s*["']([^"']+)["']/i)?.[1] ?? m[0] });
-		}
-	}
-	return missing.sort((a, b) => a.at - b.at).map((m) => m.src);
 }

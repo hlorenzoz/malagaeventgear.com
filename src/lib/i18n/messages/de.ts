@@ -343,11 +343,11 @@ const t = {
 		tocSidebarAria: 'Seitenleiste mit Inhaltsverzeichnis'
 	},
 	blogStructure: {
-		faqHeadings: ['Häufige Fragen'],
-		overviewHeadings: ['Kurzüberblick'],
-		highlightsHeadings: ['Das Wichtigste'],
-		testimonialsHeadings: ['Kundenstimmen'],
-		tocHeadings: ['Inhaltsverzeichnis'],
+		faqHeadings: ['Häufige Fragen', 'Häufig gestellte Fragen', 'FAQ', 'FAQs'],
+		overviewHeadings: ['Kurzüberblick', 'Überblick', 'Auf einen Blick'],
+		highlightsHeadings: ['Das Wichtigste', 'Die wichtigsten Punkte', 'Highlights'],
+		testimonialsHeadings: ['Kundenstimmen', 'Erfahrungsberichte', 'Bewertungen'],
+		tocHeadings: ['Inhaltsverzeichnis', 'Inhalt'],
 		inThisArticle: 'In diesem Artikel',
 		tocAria: 'Inhaltsverzeichnis',
 		faqAria: 'Häufig gestellte Fragen'
@@ -366,7 +366,7 @@ const t = {
 			'basic-mice': 'Das {name}: klare Ton- und Bildtechnik für Vorstandssitzungen und Konferenzen.',
 			mice: 'Das {name}: hochwertiges LED-Display, Beschallung und ein Techniker vor Ort.',
 			'product-presentation': 'Das {name}: lichtstarker Projektor, Leinwand und Ton für eindrucksvolle Präsentationen.',
-			eco: 'Das {name}: solider Sound und stimmungsvolles Licht für bis zu {guests} Gäste.'
+			eco: 'Das {name}: guter Sound und stimmungsvolles Licht für bis zu {guests} Gäste.'
 		},
 		priceFrom: 'Ab {price}',
 		viewPackage: 'Zum {name}',

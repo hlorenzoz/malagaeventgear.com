@@ -10,7 +10,7 @@ import remarkGfm from 'remark-gfm';
 import { afterEach, beforeAll, describe, expect, it } from 'vitest';
 import { BLOG_REHYPE_PLUGINS } from './blog-rehype-plugins.mjs';
 import { BLOG_STRUCTURE, publishBlogStructure } from './blog-structure.ts';
-import { blogStructureOf } from './blog-structure-words.mjs';
+import { ENGLISH_STRUCTURE, blogStructureOf } from './blog-structure-words.mjs';
 import { parseFaqs } from './faq-parser.mjs';
 import { parseToc } from './toc-parser.mjs';
 import { LOCALES } from '../src/lib/i18n/locales.ts';
@@ -56,7 +56,7 @@ Answer two.
 `;
 
 const EN_WORDS = { overview: 'Brief Overview', highlights: 'Key Highlights', toc: 'Table of Contents', testimonials: 'Testimonials', faq: 'FAQs' };
-const DE_WORDS = { overview: 'Kurzüberblick', highlights: 'Das Wichtigste', toc: 'Inhaltsverzeichnis', testimonials: 'Kundenstimmen', faq: 'Häufige Fragen' };
+const DE_WORDS = { overview: 'Überblick', highlights: 'Die wichtigsten Punkte', toc: 'Inhaltsverzeichnis', testimonials: 'Kundenstimmen', faq: 'Häufig gestellte Fragen' };
 const ZH_WORDS = { overview: '概述', highlights: '要点', toc: '目录', testimonials: '客户评价', faq: '常见问题' };
 
 describe('the table of structural words', () => {
@@ -78,6 +78,31 @@ describe('the table of structural words', () => {
 				.map((w) => w.toLowerCase());
 			expect(new Set(all).size, locale).toBe(all.length);
 		}
+	});
+
+	it('accepts the natural variants of each heading, case insensitively', () => {
+		const accepts = (locale: keyof typeof BLOG_STRUCTURE, group: 'faqHeadings' | 'overviewHeadings' | 'highlightsHeadings' | 'testimonialsHeadings', text: string) =>
+			BLOG_STRUCTURE[locale][group].some((w) => w.toLowerCase() === text.toLowerCase());
+		for (const text of ['Häufige Fragen', 'Häufig gestellte Fragen', 'FAQ', 'faq']) expect(accepts('de', 'faqHeadings', text), text).toBe(true);
+		for (const locale of ['fr', 'it', 'de', 'nl', 'pt-pt', 'pt-br', 'sv', 'da', 'nb'] as const) {
+			expect(accepts(locale, 'faqHeadings', 'FAQ'), `${locale} FAQ`).toBe(true);
+			expect(accepts(locale, 'faqHeadings', 'FAQs'), `${locale} FAQs`).toBe(true);
+		}
+		expect(accepts('fr', 'faqHeadings', 'Foire aux questions')).toBe(true);
+		expect(accepts('de', 'overviewHeadings', 'Überblick')).toBe(true);
+		expect(accepts('de', 'highlightsHeadings', 'Die wichtigsten Punkte')).toBe(true);
+		expect(accepts('it', 'overviewHeadings', 'Panoramica')).toBe(true);
+		expect(accepts('zh-hans', 'faqHeadings', '常见问题解答')).toBe(true);
+		for (const [locale, s] of Object.entries(BLOG_STRUCTURE)) {
+			if (locale === 'en') continue;
+			for (const group of [s.faqHeadings, s.overviewHeadings, s.highlightsHeadings, s.testimonialsHeadings]) {
+				expect(group.length, `${locale}: ${group.join(', ')}`).toBeGreaterThan(1);
+			}
+		}
+	});
+
+	it('the English fallback of the plugins is exactly messages/en.ts (no drift)', () => {
+		expect(ENGLISH_STRUCTURE).toEqual(BLOG_STRUCTURE.en);
 	});
 
 	it('keeps the English words the build always matched', () => {
@@ -143,10 +168,11 @@ describe('the rehype pipeline', () => {
 		});
 	}
 
-	it('a translated post does not treat the English words as structure', async () => {
+	it('a translated post does not treat the English words as structure (except the idiomatic FAQ)', async () => {
 		const html = await render(body(EN_WORDS), DE_FILE);
-		expect(html).not.toContain('faq-section');
 		expect(html).not.toContain('section-card');
+		// "FAQs" is an accepted German FAQ heading, with the German chrome
+		expect(html).toContain(`<section class="faq-section" aria-label="${BLOG_STRUCTURE.de.faqAria}">`);
 	});
 });
 
@@ -159,7 +185,7 @@ describe('the FAQ and ToC parsers (FAQPage JSON-LD, ToC sidebar)', () => {
 		const toc = parseToc(body(DE_WORDS), BLOG_STRUCTURE.de).map((e) => e.text);
 		expect(toc).not.toContain('Inhaltsverzeichnis');
 		expect(toc).not.toContain('Kundenstimmen');
-		expect(toc).toContain('Häufige Fragen');
+		expect(toc).toContain('Häufig gestellte Fragen');
 		expect(parseFaqs(body(ZH_WORDS), BLOG_STRUCTURE['zh-hans'])).toHaveLength(2);
 	});
 

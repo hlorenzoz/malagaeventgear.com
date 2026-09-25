@@ -187,8 +187,9 @@ function maxLastmod(posts: BlogPost[]): string {
 // ─── Fase 4: translated posts ─────────────────────────────────────────────────
 
 /**
- * A translation module: its frontmatter plus the FAQ and ToC extracted from ITS body at build
- * time (scripts/blog-sources.ts, with the same parsers as the English caches).
+ * A translation module: its frontmatter plus, on the build side, the FAQ and ToC extracted from
+ * ITS body (scripts/blog-sources.ts, with the same parsers as the English caches). The app gets
+ * the frontmatter only, and each post's FAQ and ToC from its own chunk (getPostExtras).
  */
 export interface TranslationModule {
 	metadata: unknown;

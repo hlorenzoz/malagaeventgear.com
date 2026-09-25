@@ -10,7 +10,8 @@ declare module 'virtual:blog-meta' {
 
 /**
  * Translated posts (Fase 4): one lazy loader per locale that has translation files. Each
- * returns that locale's modules (frontmatter, FAQ and ToC), as buildLocalizedPosts() expects.
+ * returns that locale's modules (frontmatter only: FAQ and ToC load per post from
+ * `virtual:blog-extras`), as buildLocalizedPosts() expects.
  */
 declare module 'virtual:blog-translations' {
 	/** ISO build time: the publish date cut shared by the app and the build tooling. */
@@ -28,10 +29,11 @@ declare module 'virtual:blog-availability' {
 }
 
 /**
- * FAQ pairs and ToC entries of each ENGLISH post, one lazy chunk per post (from post-faqs.json
- * and post-toc.json), so only that post's page downloads them.
+ * FAQ pairs and ToC entries per post, one lazy chunk per post and a small loader map per locale
+ * (English from post-faqs.json and post-toc.json, translations from their body).
  */
 declare module 'virtual:blog-extras' {
-	const loaders: Partial<Record<string, () => Promise<import('$lib/data/blog').PostExtras>>>;
+	type Extras = import('$lib/data/blog').PostExtras;
+	const loaders: Partial<Record<string, () => Promise<Partial<Record<string, () => Promise<Extras>>>>>>;
 	export default loaders;
 }

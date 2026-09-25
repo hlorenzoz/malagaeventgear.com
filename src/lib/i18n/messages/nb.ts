@@ -371,11 +371,11 @@ const t = {
 		tocSidebarAria: 'Sidefelt for innholdsfortegnelse'
 	},
 	blogStructure: {
-		faqHeadings: ['Ofte stilte spørsmål'],
-		overviewHeadings: ['Kort oversikt'],
-		highlightsHeadings: ['Det viktigste'],
-		testimonialsHeadings: ['Kundeomtaler'],
-		tocHeadings: ['Innholdsfortegnelse'],
+		faqHeadings: ['Ofte stilte spørsmål', 'FAQ', 'FAQs'],
+		overviewHeadings: ['Kort oversikt', 'Oversikt', 'Sammendrag'],
+		highlightsHeadings: ['Det viktigste', 'Høydepunkter'],
+		testimonialsHeadings: ['Kundeomtaler', 'Omtaler', 'Anmeldelser'],
+		tocHeadings: ['Innholdsfortegnelse', 'Innhold'],
 		inThisArticle: 'I denne artikkelen',
 		tocAria: 'Innholdsfortegnelse',
 		faqAria: 'Ofte stilte spørsmål'
@@ -385,7 +385,7 @@ const t = {
 		headline: {
 			wedding: 'Planlegger du et bryllup i Malaga?',
 			'basic-mice': 'Arrangerer du et firmaarrangement?',
-			mice: 'Trenger du førsteklasses AV-støtte til MICE?',
+			mice: 'Trenger du førsteklasses AV-teknikk til MICE?',
 			'product-presentation': 'Lanserer du et produkt eller holder du en presentasjon?',
 			eco: 'Planlegger du en privat fest?'
 		},
@@ -394,7 +394,7 @@ const t = {
 			'basic-mice': 'Velg {name}: tydelig lyd og bilde til ledermøter og konferanser.',
 			mice: 'Velg {name}: førsteklasses LED-skjerm, lyd og en tekniker på stedet.',
 			'product-presentation': 'Velg {name}: lyssterk projektor, lerret og lyd til presentasjoner som gjør inntrykk.',
-			eco: 'Velg {name}: solid lyd og stemningsbelysning for opptil {guests} gjester.'
+			eco: 'Velg {name}: god lyd og stemningsbelysning for opptil {guests} gjester.'
 		},
 		priceFrom: 'Fra {price}',
 		viewPackage: 'Se {name}',

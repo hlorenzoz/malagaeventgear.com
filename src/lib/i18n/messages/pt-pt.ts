@@ -358,10 +358,10 @@ const t = {
 		tocSidebarAria: 'Barra lateral do índice'
 	},
 	blogStructure: {
-		faqHeadings: ['Perguntas frequentes'],
-		overviewHeadings: ['Resumo'],
-		highlightsHeadings: ['Pontos principais'],
-		testimonialsHeadings: ['Testemunhos'],
+		faqHeadings: ['Perguntas frequentes', 'FAQ', 'FAQs'],
+		overviewHeadings: ['Resumo', 'Visão geral', 'Em resumo'],
+		highlightsHeadings: ['Pontos principais', 'Destaques'],
+		testimonialsHeadings: ['Testemunhos', 'Opiniões de clientes'],
 		tocHeadings: ['Índice'],
 		inThisArticle: 'Neste artigo',
 		tocAria: 'Índice',
@@ -378,10 +378,10 @@ const t = {
 		},
 		subline: {
 			wedding: 'Conheça o {name}: som profissional e iluminação romântica para o seu grande dia.',
-			'basic-mice': 'Conheça o {name}: audiovisual nítido para reuniões de direção e conferências.',
+			'basic-mice': 'Conheça o {name}: imagem e som nítidos para reuniões de direção e conferências.',
 			mice: 'Conheça o {name}: ecrã LED de topo, som e um técnico no local.',
 			'product-presentation': 'Conheça o {name}: projetor de alta luminosidade, ecrã e som para apresentações de grande impacto.',
-			eco: 'Conheça o {name}: som sólido e iluminação ambiente para até {guests} convidados.'
+			eco: 'Conheça o {name}: bom som e iluminação ambiente para até {guests} convidados.'
 		},
 		priceFrom: 'A partir de {price}',
 		viewPackage: 'Ver o {name}',

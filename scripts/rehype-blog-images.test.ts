@@ -164,6 +164,30 @@ describe('rehypeBlogImages: translated posts keep their own alt and caption', ()
 		expect(para.children![0].properties!.alt).toBe('')
 	})
 
+	it('builds a figure only when the image is alone in its paragraph (whitespace aside)', () => {
+		const text = (value: string): Hast => ({ type: 'text', value })
+		const tree = runFile(root(p(text('\n'), titled(`${CDN}/3/gala.webp`, 'Galadinner', 'Pie'), text('  '))), DE)
+		expect(tree.children![0].tagName).toBe('figure')
+	})
+
+	it('keeps an inline image with its text, alt and title (no figure, nothing dropped)', () => {
+		const text = (value: string): Hast => ({ type: 'text', value })
+		const tree = runFile(root(p(text('Vorher '), titled(`${CDN}/3/gala.webp`, 'Galadinner', 'Pie'), text(' nachher.'))), DE)
+		const para = tree.children![0]
+		expect(para.tagName).toBe('p')
+		expect(para.children!.map((c) => c.value ?? c.tagName)).toEqual(['Vorher ', 'img', ' nachher.'])
+		expect(para.children![1].properties!.alt).toBe('Galadinner')
+		expect(para.children![1].properties!.title).toBe('Pie')
+	})
+
+	it('keeps two images of one paragraph, each with its alt and title', () => {
+		const tree = runFile(root(p(titled(`${CDN}/3/gala.webp`, 'Eins', 'Erster'), titled(`${CDN}/9/other.webp`, 'Zwei', 'Zweiter'))), DE)
+		const para = tree.children![0]
+		expect(para.tagName).toBe('p')
+		expect(para.children!.map((c) => c.properties!.alt)).toEqual(['Eins', 'Zwei'])
+		expect(para.children!.map((c) => c.properties!.title)).toEqual(['Erster', 'Zweiter'])
+	})
+
 	it('keeps the manifest caption and alt in English posts', () => {
 		const tree = runFile(root(p(titled(`${CDN}/3/gala.webp`, ''))), EN)
 		const figure = tree.children![0]

@@ -357,10 +357,10 @@ const t = {
 		tocSidebarAria: '目录侧边栏'
 	},
 	blogStructure: {
-		faqHeadings: ['常见问题'],
-		overviewHeadings: ['概述'],
-		highlightsHeadings: ['要点'],
-		testimonialsHeadings: ['客户评价'],
+		faqHeadings: ['常见问题', '常见问题解答', '常见问答'],
+		overviewHeadings: ['概述', '简介', '概览'],
+		highlightsHeadings: ['要点', '重点', '亮点'],
+		testimonialsHeadings: ['客户评价', '客户评论'],
 		tocHeadings: ['目录'],
 		inThisArticle: '本文内容',
 		tocAria: '目录',
@@ -377,10 +377,10 @@ const t = {
 		},
 		subline: {
 			wedding: '选择{name}：专业音响与浪漫灯光，为您的大日子增色。',
-			'basic-mice': '选择{name}：清晰的视听设备，适合高管会议与各类会议。',
+			'basic-mice': '选择{name}：清晰的视听设备，适合高管会议与研讨会。',
 			mice: '选择{name}：高端LED显示屏、音响及现场技术人员。',
 			'product-presentation': '选择{name}：高亮度投影仪、幕布与音响，让演示更有感染力。',
-			eco: '选择{name}：稳定的音响与氛围灯光，最多可容纳{guests}位宾客。'
+			eco: '选择{name}：出色的音响与氛围灯光，适合最多{guests}位宾客的活动。'
 		},
 		priceFrom: '{price}起',
 		viewPackage: '查看{name}',

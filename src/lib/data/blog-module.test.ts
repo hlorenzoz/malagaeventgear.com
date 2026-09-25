@@ -28,8 +28,13 @@ vi.mock('virtual:blog-meta', () => ({
 }));
 vi.mock('virtual:blog-translations', () => ({ default: {}, builtAt: '2026-02-01T00:00:00.000Z' }));
 vi.mock('virtual:blog-availability', () => ({ default: {} }));
+// Per locale maps of per post loaders (scripts/vite-blog-meta.mjs).
+const extra = (question: string) => () => Promise.resolve({ faqs: [{ question, answer: 'A.' }], toc: [{ id: 'q', text: question, level: 3 }] });
 vi.mock('virtual:blog-extras', () => ({
-	default: { 'before-build': () => Promise.resolve({ faqs: [{ question: 'Q?', answer: 'A.' }], toc: [{ id: 'q', text: 'Q?', level: 3 }] }) }
+	default: {
+		en: () => Promise.resolve({ 'before-build': extra('Q?') }),
+		de: () => Promise.resolve({ 'before-build': extra('Frage?') })
+	}
 }));
 
 const blog = await import('./blog');
@@ -54,5 +59,10 @@ describe('blog.ts', () => {
 			toc: [{ id: 'q', text: 'Q?', level: 3 }]
 		});
 		expect(await blog.getPostExtras('en', 'after-build')).toEqual({});
+	});
+
+	it('loads a translation FAQ and ToC per post too, from its locale only', async () => {
+		expect((await blog.getPostExtras('de', 'before-build')).faqs).toEqual([{ question: 'Frage?', answer: 'A.' }]);
+		expect(await blog.getPostExtras('fr', 'before-build')).toEqual({});
 	});
 });

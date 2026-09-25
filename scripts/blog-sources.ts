@@ -10,9 +10,11 @@
  * `src/content/blog/<locale>/<en-slug>.svx` (Fase 4, CLAUDE.md "Blog Content Authoring").
  */
 import { BLOG_DIR, extractFaqs, extractToc, joinPath, listDirs, listSvx, readPost } from './blog-files.mjs';
-import { malformedTranslations } from '../src/lib/data/translation-audit.ts';
+import { malformedTranslationFiles } from '../src/lib/data/translation-audit.ts';
+import { BlogPostSchema } from '../src/lib/types/blog.ts';
 import { BLOG_STRUCTURE } from './blog-structure.ts';
 import {
+	zodIssues,
 	blogAvailabilityOf,
 	buildLocalizedPosts,
 	buildPostsFromGlob,
@@ -44,7 +46,8 @@ export function readEnglishMeta(dir = BLOG_DIR): GlobResult {
  * One locale's translations with the FAQ and ToC of each body, extracted with the parsers of
  * the English caches and the locale's structural words (its FAQ heading, its table of contents
  * and testimonials headings: messages, `blogStructure`). Computed at build time from the body
- * itself, so there is no committed cache to go stale, and each locale ships as its own chunk.
+ * itself, so there is no committed cache to go stale. The frontmatter ships as one chunk per
+ * locale and each post's FAQ and ToC as its own chunk (scripts/vite-blog-meta.mjs).
  */
 export function readTranslations(locale: Locale, dir = BLOG_DIR): TranslationGlob {
 	const map: TranslationGlob = {};
@@ -72,24 +75,42 @@ export interface LocaleBlogState {
 }
 
 export interface BlogState {
+	/** The English frontmatter the app reads (`virtual:blog-meta`), valid files only. */
+	englishMeta: GlobResult;
 	english: BlogPost[];
-	/** Only locales with at least one translation file. */
+	/** Only locales with at least one (valid) translation file. */
 	locales: Partial<Record<Prefixed, LocaleBlogState>>;
 }
 
 /**
- * The blog as the build publishes it. THROWS on any malformed post, English or translated,
- * with one line per file: the Cloudflare build runs `bun run build`, not the test suite, so a
- * broken file must stop the build instead of silently dropping a post or a locale's blog.
+ * The blog as the build publishes it.
+ *
+ * Without `onProblems` (the build) it THROWS on any malformed post, English or translated, with
+ * one line per file: the Cloudflare build runs `bun run build`, not the test suite, so a broken
+ * file must stop the build instead of silently dropping a post or a locale's blog.
+ * With `onProblems` (`vite dev`, `vite preview`) it reports the same lines there and leaves out
+ * ONLY the bad files, so one broken draft never stops the dev server.
  * A stale translation is not malformed: the test suite guards it (post-freshness.test.ts).
  */
 export function computeBlogState({
 	dir = BLOG_DIR,
 	now = new Date(),
-	maps = CONTENT_MAPS
-}: { dir?: string; now?: Date; maps?: Partial<Record<Prefixed, LocaleContentMap>> } = {}): BlogState {
-	const englishMeta = readEnglishMeta(dir);
-	const english = buildPostsFromGlob(englishMeta, now);
+	maps = CONTENT_MAPS,
+	onProblems
+}: {
+	dir?: string;
+	now?: Date;
+	maps?: Partial<Record<Prefixed, LocaleContentMap>>;
+	onProblems?: (problems: string[]) => void;
+} = {}): BlogState {
+	const problems: string[] = [];
+	const allEnglish = readEnglishMeta(dir);
+	const englishMeta: GlobResult = {};
+	for (const [path, module] of Object.entries(allEnglish)) {
+		const parsed = BlogPostSchema.safeParse(module.metadata);
+		if (parsed.success) englishMeta[path] = module;
+		else problems.push(`src/content/blog/${path.split('/').pop()}: invalid frontmatter (${zodIssues(parsed.error)})`);
+	}
 
 	// Every folder, not only the locale ones, so a translation in a wrong folder is reported.
 	const all: TranslationGlob = {};
@@ -97,11 +118,17 @@ export function computeBlogState({
 		const known = (PREFIXED_LOCALES as readonly string[]).includes(folder);
 		Object.assign(all, known ? readTranslations(folder as Locale, dir) : readFrontmatter(folder, dir));
 	}
-	const problems = malformedTranslations(englishMeta, all, maps);
+	const malformed = malformedTranslationFiles(allEnglish, all, maps);
+	problems.push(...malformed.map((m) => m.problem));
 	if (problems.length > 0) {
-		throw new Error(`Malformed blog translations (fix each file):\n${problems.map((p) => `  - ${p}`).join('\n')}`);
+		if (!onProblems) {
+			throw new Error(`Malformed blog posts (fix each file):\n${problems.map((p) => `  - ${p}`).join('\n')}`);
+		}
+		onProblems(problems);
+		for (const { path } of malformed) delete all[path];
 	}
 
+	const english = buildPostsFromGlob(englishMeta, now);
 	const locales: BlogState['locales'] = {};
 	for (const locale of PREFIXED_LOCALES) {
 		const prefix = `../../content/blog/${locale}/`;
@@ -110,7 +137,7 @@ export function computeBlogState({
 		const posts = buildLocalizedPosts(locale, english, translations, maps[locale] ?? null, now);
 		locales[locale] = { translations, posts, availability: blogAvailabilityOf(posts) };
 	}
-	return { english, locales };
+	return { englishMeta, english, locales };
 }
 
 /**

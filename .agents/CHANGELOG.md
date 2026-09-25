@@ -7,6 +7,16 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (i18n-blog-review-2) - Fase 4, segunda revision del mecanismo
+- **svelte.config.js sin TypeScript en su grafo de imports**: `blog-structure-words.mjs` ya no importa `messages/en.ts` (Node anterior a 22.18 no carga `.ts` y rompia el build). Las palabras de los 13 idiomas, ingles incluido, llegan por `globalThis` desde `vite.config.ts`, con una copia inglesa de respaldo verificada contra `en.ts` (`svelte-config-imports.test.ts`).
+- **Variantes naturales de los encabezados** por idioma (`Häufig gestellte Fragen`, `FAQ`, `Foire aux questions`, `Panoramica`...) y guard de paridad de estructura: una traduccion publicada tiene tantas preguntas de FAQ, resumenes y destacados como su post ingles (`scripts/post-structure.test.ts`). El e2e compara contra el FAQ ingles y ya no se saltea si la traduccion lo perdio.
+- **FAQ e indice de las traducciones por post**: fuera del chunk compartido del idioma, en `virtual:blog-extras/<locale>/<slug>` como el ingles. `getPostExtras` ya no recalcula el post.
+- **Copy nativo corregido**: zh-hk sin 行政會議 (Consejo Ejecutivo), zh-hans sin 会议 repetido, italiano sin calcos (`tecnico sul posto`, `riunioni dirigenziali`), y relectura de los 13 grupos (`son solide`, `stabilt ljud`, `solid lyd` y similares).
+- **Imagenes inline en posts traducidos**: el figure solo se arma si la imagen esta sola en su parrafo. Si no, queda en linea con su alt y su titulo, sin perder texto ni otras imagenes.
+- **`vite dev` y `vite preview` arrancan con un post mal formado**: el error sale en la terminal y el overlay y solo se deja afuera ese archivo. `vite build` sigue fallando.
+- **Auditoria de imagenes con el mismo parser del build**: `image-alt-audit.ts` compila el cuerpo con mdsvex y las opciones de markdown del build (`scripts/blog-markdown-options.mjs`, compartidas con `svelte.config.js`), asi que cubre titulos entre comillas simples y alts con corchetes, y falla ante un titulo entre parentesis, que mdsvex NO acepta e imprime como texto crudo (un parser CommonMark actual lo habria dado por bueno). El e2e de traducciones falla si el HTML servido tiene markdown crudo (`![`, `](http`).
+- **Copy de CTA sin calcos (segunda pasada)**: `容纳`/`容納` (capacidad de un local) pasa a "适合最多...的活动", `AV-stöd`/`AV-støtte`/`AV-support` a `AV-teknik`/`AV-teknikk`/`AV-udstyr`, y `klart ljud och skarp bild` en sueco.
+
 ### Fixed (i18n-blog-review) - Fase 4, revision del mecanismo antes del primer post traducido
 - **Una sola hora de corte**: los posts ingleses se filtran con la hora del build (`builtAt`), igual que las traducciones y la disponibilidad, nunca con el reloj en tiempo de ejecucion (`blog-module.test.ts`).
 - **Un post mal formado hace fallar el build** con el nombre del archivo: frontmatter ingles o traducido invalido, traduccion sin post ingles, sin entrada en el mapa o en una carpeta que no es un idioma. Antes una sola traduccion rota vaciaba el blog de todos los idiomas sin avisar (`malformedTranslations`, `computeBlogState`, `vite-blog-meta.test.ts`).

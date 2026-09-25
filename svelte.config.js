@@ -1,6 +1,6 @@
 import { mdsvex } from 'mdsvex';
 import adapter from '@sveltejs/adapter-cloudflare';
-import remarkGfm from 'remark-gfm';
+import { BLOG_MARKDOWN_OPTIONS } from './scripts/blog-markdown-options.mjs';
 import { BLOG_REHYPE_PLUGINS } from './scripts/blog-rehype-plugins.mjs';
 
 /**
@@ -44,14 +44,9 @@ const config = {
 	},
 	preprocess: [
 		mdsvex({
-			extensions: ['.svx'],
-			// remarkGfm enables GFM pipe-tables (the migrated posts reconstruct their
-			// tables as markdown tables), plus strikethrough/autolinks/task-lists.
-			remarkPlugins: [remarkGfm],
-			// mdsvex defaults smartypants to true, which rewrites straight quotes/dashes
-			// into curly typography at build time even when the .svx source is clean
-			// ASCII. Disabled: CLAUDE.md mandates ASCII-only punctuation sitewide.
-			smartypants: false,
+			// Markdown options (extensions, remark-gfm, smartypants off): scripts/blog-markdown-options.mjs,
+			// shared with the image audit of translated posts so it reads a body like the build.
+			...BLOG_MARKDOWN_OPTIONS,
 			// The post body plugins and their order: scripts/blog-rehype-plugins.mjs (shared with the tests).
 			rehypePlugins: BLOG_REHYPE_PLUGINS
 			// No layout option — mdsvex layout injection uses $$props which is

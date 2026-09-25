@@ -63,3 +63,28 @@ describe('railPrice', () => {
 		expect(railPrice(eco, renderTokens(zhHans, 'zh-hans'), 'zh-hans')).toBe(`${formatPrice(eco.price, 'zh-hans')}起`);
 	});
 });
+
+describe('the CTA copy reads naturally (native review)', () => {
+	const dictionaries = import.meta.glob<{ postCta: { subline: Record<string, string>; headline: Record<string, string> } }>(
+		'/src/lib/i18n/messages/*.ts',
+		{ eager: true, import: 'default' }
+	);
+	const copy = (locale: string) => JSON.stringify(dictionaries[`/src/lib/i18n/messages/${locale}.ts`].postCta);
+
+	it('never uses a known mistranslation', () => {
+		// 行政會議 is Hong Kong's Executive Council, not an executive meeting.
+		expect(copy('zh-hk')).not.toContain('行政會議');
+		expect(copy('zh-hans')).not.toContain('会议与各类会议');
+		// "dal vivo" is a live performance, "direttive" a directive, "audiovisivi chiari" a calque.
+		for (const calque of ['dal vivo', 'riunioni direttive', 'audiovisivi chiari']) expect(copy('it')).not.toContain(calque);
+		// 容纳 is a venue's capacity: a sound and light package does not "hold" the guests.
+		expect(copy('zh-hans')).not.toContain('容纳');
+		for (const locale of ['zh-tw', 'zh-hk']) expect(copy(locale)).not.toContain('容納');
+		// "AV-stöd", "AV-støtte", "AV-support" calque "AV support": the Nordic word is the equipment.
+		expect(copy('sv')).not.toContain('AV-stöd');
+		expect(copy('nb')).not.toContain('AV-støtte');
+		expect(copy('da')).not.toContain('AV-support');
+		// "tydligt ljud och bild" leaves "bild" (common gender) without its own adjective.
+		expect(copy('sv')).not.toContain('tydligt ljud och bild');
+	});
+});

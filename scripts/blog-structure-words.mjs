@@ -3,17 +3,33 @@
  *
  * The locale comes from the post path (`src/content/blog/<locale>/<en-slug>.svx`, English at the
  * root) and the words from the table vite.config.ts publishes on `globalThis.__megBlogStructure`
- * (scripts/blog-structure.ts, built from the `blogStructure` group of each messages file).
- * English ships with this module too (messages/en.ts), so English posts build exactly as before
- * in any tool. A TRANSLATED post without the table fails instead: it would otherwise get English
- * chrome and lose its FAQ accordion without a word.
+ * for EVERY locale, English included (scripts/blog-structure.ts, built from the `blogStructure`
+ * group of each messages file, the single source).
+ *
+ * This module is reached from svelte.config.js, which Node loads without Vite: it must never
+ * import a `.ts` file (guarded by svelte-config-imports.test.ts). So when the table is absent
+ * (a tool that compiles .svx outside the Vite build, the English caches generators) English
+ * falls back to the copy below, kept equal to messages/en.ts by blog-structure.test.ts. A
+ * TRANSLATED post without the table fails instead: it would otherwise get English chrome and
+ * lose its FAQ accordion without a word.
  */
-import en from '../src/lib/i18n/messages/en.ts';
 
 const TRANSLATION = /\/content\/blog\/([^/]+)\/[^/]+\.svx$/;
 
-/** English structural words (the default of the parsers). */
-export const ENGLISH_STRUCTURE = en.blogStructure;
+/**
+ * English structural words when the table is absent (the default of the parsers). A copy of
+ * `blogStructure` in src/lib/i18n/messages/en.ts, never edited alone.
+ */
+export const ENGLISH_STRUCTURE = Object.freeze({
+	faqHeadings: ['FAQs', 'FAQ'],
+	overviewHeadings: ['Brief Overview'],
+	highlightsHeadings: ['Key Highlights', 'Key Highlight'],
+	testimonialsHeadings: ['Testimonials', 'Testimonial'],
+	tocHeadings: ['Table of Contents'],
+	inThisArticle: 'In this article',
+	tocAria: 'Table of contents',
+	faqAria: 'Frequently asked questions'
+});
 
 /**
  * Locale folder of a post path, or 'en' for an English root post.

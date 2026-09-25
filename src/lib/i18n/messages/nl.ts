@@ -358,11 +358,11 @@ const t = {
 		tocSidebarAria: 'Zijbalk met inhoudsopgave'
 	},
 	blogStructure: {
-		faqHeadings: ['Veelgestelde vragen'],
-		overviewHeadings: ['In het kort'],
-		highlightsHeadings: ['Belangrijkste punten'],
-		testimonialsHeadings: ['Klantervaringen'],
-		tocHeadings: ['Inhoudsopgave'],
+		faqHeadings: ['Veelgestelde vragen', 'FAQ', 'FAQs'],
+		overviewHeadings: ['In het kort', 'Overzicht', 'Samenvatting'],
+		highlightsHeadings: ['Belangrijkste punten', 'Hoogtepunten'],
+		testimonialsHeadings: ['Klantervaringen', 'Ervaringen', 'Reviews'],
+		tocHeadings: ['Inhoudsopgave', 'Inhoud'],
 		inThisArticle: 'In dit artikel',
 		tocAria: 'Inhoudsopgave',
 		faqAria: 'Veelgestelde vragen'
@@ -381,7 +381,7 @@ const t = {
 			'basic-mice': 'Kies het {name}: helder beeld en geluid voor directievergaderingen en congressen.',
 			mice: 'Kies het {name}: eersteklas ledscherm, geluid en een technicus ter plaatse.',
 			'product-presentation': 'Kies het {name}: een lichtsterke projector, scherm en geluid voor presentaties die indruk maken.',
-			eco: 'Kies het {name}: stevig geluid en sfeerverlichting voor maximaal {guests} gasten.'
+			eco: 'Kies het {name}: goed geluid en sfeerverlichting voor maximaal {guests} gasten.'
 		},
 		priceFrom: 'Vanaf {price}',
 		viewPackage: 'Bekijk het {name}',

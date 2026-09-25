@@ -55,13 +55,16 @@ for (const locale of PUBLISHED_LOCALES) {
 				for (const text of ENGLISH_CHROME) expect(html, `"${text}" on ${post.url}`).not.toContain(text);
 			});
 
-			test('turns its FAQ section into the localized accordion and FAQPage data', () => {
-				test.skip(!post.faqs?.length, 'this translation has no FAQ section');
+			test('keeps the FAQ of its English post: localized accordion and FAQPage data', () => {
+				// Measured on the English page, never on the translation: a translation that lost its
+				// FAQ (a heading the build does not recognize) must fail here, not skip.
+				const englishFaq = jsonLd(english).find((n) => n['@type'] === 'FAQPage');
+				test.skip(!englishFaq, 'the English post has no FAQ section');
 				const faqPage = jsonLd(html).find((n) => n['@type'] === 'FAQPage');
-				expect(faqPage?.mainEntity).toHaveLength(post.faqs!.length);
-				expect(faqPage?.mainEntity[0].name).toBe(post.faqs![0].question);
+				expect(faqPage?.mainEntity, 'the translation lost its FAQ').toHaveLength(englishFaq.mainEntity.length);
+				expect(faqPage.mainEntity[0].name).not.toBe(englishFaq.mainEntity[0].name);
 				expect(html).toMatch(/<section class="faq-section" aria-label="[^"]+">/);
-				expect([...html.matchAll(/class="faq-item"/g)]).toHaveLength(post.faqs!.length);
+				expect([...html.matchAll(/class="faq-item"/g)]).toHaveLength(englishFaq.mainEntity.length);
 			});
 
 			test('ends its breadcrumb with the localized title', () => {
@@ -75,6 +78,14 @@ for (const locale of PUBLISHED_LOCALES) {
 				expect(ctaHref(html)).toBe(await localized(locale, enHref));
 				const enAmount = Number(ctaPrice(english)!.replace(/\D/g, ''));
 				expect(ctaPrice(html)).toBe(formatEuros(enAmount, locale));
+			});
+
+			test('prints no markdown as raw text (every image and link rendered)', () => {
+				// mdsvex's parser rejects some CommonMark forms, like a parenthesized image title,
+				// and prints them as text. Only the article body: that is where the markdown goes.
+				const article = (html.match(/<article[\s\S]*<\/article>/)?.[0] ?? '').replace(/<(pre|code)\b[\s\S]*?<\/\1>/g, '');
+				expect(article, 'raw markdown image').not.toMatch(/!\[[^[\]]*\]\(/);
+				expect(article, 'raw markdown link or image target').not.toMatch(/\]\((?:https?:|\/|<a\b)/);
 			});
 
 			test('never shows an English image caption, alt or tag', () => {

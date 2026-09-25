@@ -382,11 +382,11 @@ const t = {
 		tocSidebarAria: "Barra laterale dell'indice"
 	},
 	blogStructure: {
-		faqHeadings: ['Domande frequenti'],
-		overviewHeadings: ['In breve'],
-		highlightsHeadings: ['Punti chiave'],
-		testimonialsHeadings: ['Testimonianze'],
-		tocHeadings: ['Indice'],
+		faqHeadings: ['Domande frequenti', 'FAQ', 'FAQs'],
+		overviewHeadings: ['In breve', 'Panoramica', 'Sintesi'],
+		highlightsHeadings: ['Punti chiave', 'In evidenza', 'Punti salienti'],
+		testimonialsHeadings: ['Testimonianze', 'Recensioni'],
+		tocHeadings: ['Indice', 'Sommario'],
 		inThisArticle: 'In questo articolo',
 		tocAria: 'Indice dei contenuti',
 		faqAria: 'Domande frequenti'
@@ -402,10 +402,10 @@ const t = {
 		},
 		subline: {
 			wedding: 'Scopri il {name}: audio professionale e luci romantiche per il tuo giorno speciale.',
-			'basic-mice': 'Scopri il {name}: audiovisivi chiari per riunioni direttive e conferenze.',
-			mice: 'Scopri il {name}: display LED di alta gamma, audio e un tecnico dal vivo.',
+			'basic-mice': 'Scopri il {name}: audio e video nitidi per riunioni dirigenziali e conferenze.',
+			mice: 'Scopri il {name}: display LED di alta gamma, audio e un tecnico sul posto.',
 			'product-presentation': 'Scopri il {name}: proiettore ad alta luminosità, schermo e audio per presentazioni di grande impatto.',
-			eco: "Scopri il {name}: audio solido e luci d'atmosfera fino a {guests} ospiti."
+			eco: "Scopri il {name}: un buon impianto audio e luci d'atmosfera fino a {guests} ospiti."
 		},
 		priceFrom: 'A partire da {price}',
 		viewPackage: 'Vedi il {name}',

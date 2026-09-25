@@ -375,11 +375,11 @@ const t = {
 		tocSidebarAria: 'Barre latérale de la table des matières'
 	},
 	blogStructure: {
-		faqHeadings: ['Questions fréquentes'],
-		overviewHeadings: ['En bref'],
-		highlightsHeadings: ['Points clés'],
-		testimonialsHeadings: ['Témoignages'],
-		tocHeadings: ['Table des matières'],
+		faqHeadings: ['Questions fréquentes', 'Foire aux questions', 'FAQ', 'FAQs'],
+		overviewHeadings: ['En bref', 'Aperçu', 'Résumé'],
+		highlightsHeadings: ['Points clés', 'Points forts', "L'essentiel"],
+		testimonialsHeadings: ['Témoignages', 'Avis clients'],
+		tocHeadings: ['Table des matières', 'Sommaire'],
 		inThisArticle: 'Dans cet article',
 		tocAria: 'Table des matières',
 		faqAria: 'Questions fréquentes'
@@ -389,16 +389,16 @@ const t = {
 		headline: {
 			wedding: 'Vous préparez un mariage à Malaga ?',
 			'basic-mice': "Vous organisez un événement d'entreprise ?",
-			mice: "Besoin d'un support audiovisuel MICE haut de gamme ?",
+			mice: "Besoin d'une assistance audiovisuelle haut de gamme pour un événement MICE ?",
 			'product-presentation': 'Vous lancez un produit ou préparez une présentation ?',
 			eco: 'Vous préparez un événement privé ?'
 		},
 		subline: {
 			wedding: 'Découvrez le {name} : une sonorisation professionnelle et un éclairage romantique pour votre grand jour.',
-			'basic-mice': 'Découvrez le {name} : un audiovisuel clair pour vos réunions de direction et vos conférences.',
+			'basic-mice': 'Découvrez le {name} : un son et une image nets pour vos réunions de direction et vos conférences.',
 			mice: 'Découvrez le {name} : écran LED haut de gamme, sonorisation et technicien sur place.',
 			'product-presentation': 'Découvrez le {name} : projecteur haute luminosité, écran et son pour des présentations percutantes.',
-			eco: "Découvrez le {name} : un son solide et un éclairage d'ambiance jusqu'à {guests} invités."
+			eco: "Découvrez le {name} : une bonne sonorisation et un éclairage d'ambiance jusqu'à {guests} invités."
 		},
 		priceFrom: 'À partir de {price}',
 		viewPackage: 'Voir le {name}',

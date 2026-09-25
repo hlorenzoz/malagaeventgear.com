@@ -358,11 +358,11 @@ const t = {
 		tocSidebarAria: 'Sidofält för innehållsförteckning'
 	},
 	blogStructure: {
-		faqHeadings: ['Vanliga frågor'],
-		overviewHeadings: ['Kort översikt'],
-		highlightsHeadings: ['Det viktigaste'],
-		testimonialsHeadings: ['Kundomdömen'],
-		tocHeadings: ['Innehållsförteckning'],
+		faqHeadings: ['Vanliga frågor', 'FAQ', 'FAQs'],
+		overviewHeadings: ['Kort översikt', 'Översikt', 'Sammanfattning'],
+		highlightsHeadings: ['Det viktigaste', 'Höjdpunkter'],
+		testimonialsHeadings: ['Kundomdömen', 'Omdömen', 'Recensioner'],
+		tocHeadings: ['Innehållsförteckning', 'Innehåll'],
 		inThisArticle: 'I den här artikeln',
 		tocAria: 'Innehållsförteckning',
 		faqAria: 'Vanliga frågor'
@@ -372,16 +372,16 @@ const t = {
 		headline: {
 			wedding: 'Planerar du ett bröllop i Malaga?',
 			'basic-mice': 'Ordnar du ett företagsevenemang?',
-			mice: 'Behöver du förstklassigt AV-stöd för MICE?',
+			mice: 'Behöver du förstklassig AV-teknik för MICE?',
 			'product-presentation': 'Lanserar du en produkt eller håller du en presentation?',
 			eco: 'Planerar du en privat fest?'
 		},
 		subline: {
 			wedding: 'Välj {name}: professionellt ljud och romantisk belysning för din stora dag.',
-			'basic-mice': 'Välj {name}: tydligt ljud och bild för ledningsmöten och konferenser.',
+			'basic-mice': 'Välj {name}: klart ljud och skarp bild för ledningsmöten och konferenser.',
 			mice: 'Välj {name}: förstklassig LED-skärm, ljud och en tekniker på plats.',
 			'product-presentation': 'Välj {name}: ljusstark projektor, duk och ljud för presentationer som gör intryck.',
-			eco: 'Välj {name}: stabilt ljud och stämningsbelysning för upp till {guests} gäster.'
+			eco: 'Välj {name}: bra ljud och stämningsbelysning för upp till {guests} gäster.'
 		},
 		priceFrom: 'Från {price}',
 		viewPackage: 'Se {name}',

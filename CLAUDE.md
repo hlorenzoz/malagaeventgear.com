@@ -714,25 +714,37 @@ El mecanismo está en producción, pero todavía no hay ningún post traducido. 
 - **Cuándo se publica**: frontmatter válido, sin `draft`, `publishDate` ya pasado a la hora del
   build, post inglés publicado y entrada en el mapa de contenido. Un archivo mal formado
   (frontmatter inválido, sin post inglés, sin entrada en el mapa, carpeta que no es un idioma)
-  **hace fallar `bun run build`** con el nombre del archivo. Nunca se descarta en silencio.
+  **hace fallar `bun run build`** con el nombre del archivo. Nunca se descarta en silencio. En
+  `vite dev` y `vite preview` el mismo error sale en la terminal y en el overlay del navegador, y
+  solo se deja afuera ese archivo, para que un borrador roto no frene el servidor.
 - **Encabezados estructurales**: las secciones con estilo se reconocen por el texto exacto del
-  `## ` (sin distinguir mayúsculas), con las palabras del grupo `blogStructure` de
-  `src/lib/i18n/messages/<locale>.ts`. En alemán: `## Kurzüberblick`, `## Das Wichtigste`,
-  `## Häufige Fragen` (acordeón y `FAQPage`) y `## Kundenstimmen`. Una traducción que deja
-  `## FAQs` en inglés pierde el acordeón y los datos estructurados. El mismo grupo trae el texto
-  que agrega el build alrededor del cuerpo (el título del índice y las etiquetas aria).
+  `## ` (sin distinguir mayúsculas), con las variantes naturales de cada idioma listadas en el
+  grupo `blogStructure` de `src/lib/i18n/messages/<locale>.ts`. En alemán, por ejemplo,
+  `## Häufige Fragen`, `## Häufig gestellte Fragen` o `## FAQ` (acordeón y `FAQPage`),
+  `## Kurzüberblick` o `## Überblick`, `## Das Wichtigste`. El mismo grupo trae el texto que
+  agrega el build alrededor del cuerpo (el título del índice y las etiquetas aria).
+  `scripts/post-structure.test.ts` falla si una traducción publicada no tiene la misma cantidad
+  de preguntas de FAQ, secciones de resumen y de destacados que su post inglés: un encabezado
+  que el build no reconoce nunca hace perder el FAQ en silencio.
 - **Imágenes**: el mismo archivo en todos los idiomas, con alt y pie en el idioma del post:
-  `![alt traducido](url "pie traducido")`. El título de la imagen se convierte en el
-  `figcaption`. En una traducción el build NUNCA usa el alt ni el pie ingleses del manifest, y
-  `src/lib/data/translated-post-images.test.ts` falla si una imagen no tiene alt.
+  `![alt traducido](url "pie traducido")`. El título de una imagen sola en su párrafo se
+  convierte en el `figcaption`. Una imagen dentro de un párrafo con texto u otras imágenes queda
+  en línea, con su alt y su título. En una traducción el build NUNCA usa el alt ni el pie ingleses
+  del manifest. El título va entre comillas (`"pie"`, o `'pie'`), **nunca entre paréntesis**
+  (`![alt](url (pie))`): el parser de mdsvex no acepta esa forma de CommonMark e imprime la
+  imagen como texto crudo. `src/lib/data/translated-post-images.test.ts` compila el cuerpo con
+  mdsvex y las mismas opciones del build (`scripts/blog-markdown-options.mjs`) y falla si una
+  imagen no tiene alt o quedó como markdown crudo. El e2e (`tests/blog-translations.spec.ts`)
+  vuelve a chequear el HTML servido.
 - **Enlaces internos**: se escriben en su forma INGLESA (`/blog/<slug-en>/`, `/packages/eco/`,
   `/contact/`). `scripts/rehype-localize-links.mjs` los reescribe a la URL del idioma cuando ese
   contenido está publicado en él. Si no lo está, el enlace queda en inglés.
 - **Página del post**: el CTA y el rail de paquetes proponen el MISMO paquete que el post inglés
   (el emparejamiento lee el post inglés), con el copy, el precio (`formatPrice`) y el IVA del
   idioma. Los tags ingleses no se muestran y el `keywords` del `Article` es la keyword del idioma.
-  El FAQ y el índice de cada post inglés se cargan solo en su página (`virtual:blog-extras`),
-  nunca en un listado ni en otro idioma.
+  El FAQ y el índice de cada post, inglés o traducido, se cargan solo en su página, en un chunk
+  propio (`virtual:blog-extras/<locale>/<slug>`), nunca en un listado, en otro post ni en otro
+  idioma.
 - **Sitemaps por idioma**: `post-sitemap-<locale>.xml`, `category-sitemap-<locale>.xml` y
   `author-sitemap-<locale>.xml`, con el `lastmod` de cada traducción (`updatedDate ?? publishDate`).
   Solo se emiten, y solo aparecen en `sitemap_index.xml`, si el idioma tiene URLs de ese tipo.

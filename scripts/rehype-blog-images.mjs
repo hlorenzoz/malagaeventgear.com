@@ -144,8 +144,16 @@ export function rehypeBlogImages(options = {}) {
 			// Caption: the manifest's (English posts) or the markdown title (translated posts).
 			let caption = meta?.caption;
 			if (translated) {
-				caption = typeof node.properties.title === 'string' ? node.properties.title.trim() : '';
-				delete node.properties.title;
+				// A figure only for an image alone in its paragraph (whitespace aside): turning a
+				// paragraph with text or other images into a figure would drop them. An inline
+				// image keeps its title attribute instead, so the caption text is never lost.
+				const alone =
+					parent?.type === 'element' &&
+					parent.tagName === 'p' &&
+					parent.children.every((c) => c === node || (c.type === 'text' && !c.value?.trim()));
+				const title = typeof node.properties.title === 'string' ? node.properties.title.trim() : '';
+				caption = alone ? title : '';
+				if (alone && title) delete node.properties.title;
 			}
 			node.properties.loading ??= 'lazy';
 			node.properties.decoding ??= 'async';

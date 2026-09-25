@@ -377,11 +377,11 @@ const t = {
 		tocSidebarAria: 'Barra lateral do sumário'
 	},
 	blogStructure: {
-		faqHeadings: ['Perguntas frequentes'],
-		overviewHeadings: ['Resumo'],
-		highlightsHeadings: ['Destaques'],
-		testimonialsHeadings: ['Depoimentos'],
-		tocHeadings: ['Sumário'],
+		faqHeadings: ['Perguntas frequentes', 'FAQ', 'FAQs'],
+		overviewHeadings: ['Resumo', 'Visão geral', 'Em resumo'],
+		highlightsHeadings: ['Destaques', 'Pontos principais'],
+		testimonialsHeadings: ['Depoimentos', 'Avaliações de clientes'],
+		tocHeadings: ['Sumário', 'Índice'],
 		inThisArticle: 'Neste artigo',
 		tocAria: 'Sumário',
 		faqAria: 'Perguntas frequentes'
@@ -397,7 +397,7 @@ const t = {
 		},
 		subline: {
 			wedding: 'Conheça o {name}: som profissional e iluminação romântica para o seu grande dia.',
-			'basic-mice': 'Conheça o {name}: audiovisual nítido para reuniões executivas e conferências.',
+			'basic-mice': 'Conheça o {name}: imagem e som nítidos para reuniões executivas e conferências.',
 			mice: 'Conheça o {name}: tela de LED de alto nível, som e um técnico no local.',
 			'product-presentation': 'Conheça o {name}: projetor de alto brilho, tela e som para apresentações de grande impacto.',
 			eco: 'Conheça o {name}: som de qualidade e iluminação ambiente para até {guests} convidados.'

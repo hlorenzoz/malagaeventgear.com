@@ -157,3 +157,41 @@ describe('computeBlogState fails the build on a malformed post, naming the file'
 		rmSync(root, { recursive: true, force: true });
 	});
 });
+
+describe('computeBlogState with onProblems (dev and preview: report and skip only the bad file)', () => {
+	function fixture(files: Record<string, string>): string {
+		const root = mkdtempSync(join(tmpdir(), 'meg-blog-dev-'));
+		for (const [path, content] of Object.entries(files)) {
+			mkdirSync(join(root, path, '..'), { recursive: true });
+			writeFileSync(join(root, path), content);
+		}
+		return root;
+	}
+	const post = (fm: string) => `---\n${fm}\n---\nBody.\n`;
+
+	it('reports a malformed translation (a draft too) and keeps publishing the rest', () => {
+		const root = fixture({
+			'a.svx': post(englishFm('A')),
+			'b.svx': post(englishFm('B')),
+			'de/a.svx': post(deFm()),
+			'de/b.svx': post(`${deFm('draft: true')}\ncoverImage: "https://x.test/a.webp"`)
+		});
+		const problems: string[] = [];
+		const state = computeBlogState({ dir: root, now: NOW, maps: { de: map }, onProblems: (p) => problems.push(...p) });
+		expect(problems).toHaveLength(1);
+		expect(problems[0]).toMatch(/^de\/b: invalid frontmatter/);
+		expect(state.locales.de?.posts.map((p) => p.slug)).toEqual(['a']);
+		expect(Object.keys(state.locales.de?.translations ?? {})).toEqual(['../../content/blog/de/a.svx']);
+		rmSync(root, { recursive: true, force: true });
+	});
+
+	it('reports a malformed English post and leaves it out of the English metadata', () => {
+		const root = fixture({ 'a.svx': post(englishFm('A')), 'b.svx': post(englishFm('B').replace(/description: .*/, 'description: "short"')) });
+		const problems: string[] = [];
+		const state = computeBlogState({ dir: root, now: NOW, maps: { de: map }, onProblems: (p) => problems.push(...p) });
+		expect(problems).toEqual([expect.stringMatching(/src\/content\/blog\/b\.svx: invalid frontmatter/)]);
+		expect(state.english.map((p) => p.slug)).toEqual(['a']);
+		expect(Object.keys(state.englishMeta)).toEqual(['../../content/blog/a.svx']);
+		rmSync(root, { recursive: true, force: true });
+	});
+});

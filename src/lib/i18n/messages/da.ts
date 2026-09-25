@@ -368,11 +368,11 @@ const t = {
 		tocSidebarAria: 'Sidebjælke med indholdsfortegnelse'
 	},
 	blogStructure: {
-		faqHeadings: ['Ofte stillede spørgsmål'],
-		overviewHeadings: ['Kort overblik'],
-		highlightsHeadings: ['Det vigtigste'],
-		testimonialsHeadings: ['Kundeudtalelser'],
-		tocHeadings: ['Indholdsfortegnelse'],
+		faqHeadings: ['Ofte stillede spørgsmål', 'FAQ', 'FAQs'],
+		overviewHeadings: ['Kort overblik', 'Overblik', 'Opsummering'],
+		highlightsHeadings: ['Det vigtigste', 'Højdepunkter'],
+		testimonialsHeadings: ['Kundeudtalelser', 'Anmeldelser'],
+		tocHeadings: ['Indholdsfortegnelse', 'Indhold'],
 		inThisArticle: 'I denne artikel',
 		tocAria: 'Indholdsfortegnelse',
 		faqAria: 'Ofte stillede spørgsmål'
@@ -382,7 +382,7 @@ const t = {
 		headline: {
 			wedding: 'Planlægger du et bryllup i Malaga?',
 			'basic-mice': 'Arrangerer du et firmaevent?',
-			mice: 'Har du brug for førsteklasses AV-support til MICE?',
+			mice: 'Har du brug for førsteklasses AV-udstyr til MICE?',
 			'product-presentation': 'Lancerer du et produkt eller holder du en præsentation?',
 			eco: 'Planlægger du en privat fest?'
 		},
@@ -391,7 +391,7 @@ const t = {
 			'basic-mice': 'Vælg {name}: klar lyd og billede til ledelsesmøder og konferencer.',
 			mice: 'Vælg {name}: førsteklasses LED-skærm, lyd og en tekniker på stedet.',
 			'product-presentation': 'Vælg {name}: lysstærk projektor, lærred og lyd til præsentationer, der gør indtryk.',
-			eco: 'Vælg {name}: solid lyd og stemningsbelysning til op til {guests} gæster.'
+			eco: 'Vælg {name}: god lyd og stemningsbelysning til op til {guests} gæster.'
 		},
 		priceFrom: 'Fra {price}',
 		viewPackage: 'Se {name}',
