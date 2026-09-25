@@ -238,6 +238,38 @@ Writeup completo para agentes: docs/home-no-lcp-investigation.md
 
 
 
+-- ❌ PRIMERO: textos de las imágenes de la galería traducidos y cargados según el idioma (anotado 2026-09-25)
+
+VA ANTES que cualquier actualización o traducción de posts (decisión del usuario, 2026-09-25): así
+cada post que se traduzca o actualice desde ahora sale ya con los textos de sus imágenes en su
+idioma, y no hay que volver a tocarlo.
+
+El problema: src/lib/data/gallery.ts tiene 41 imágenes con alt SOLO en inglés, y ese alt se
+muestra igual en los 13 idiomas. CLAUDE.md, "Reglas de traducción", exige traducir todo lo textual
+de una imagen. Ningún test lo detecta. Alcance medido el 2026-09-25:
+- Páginas principales publicadas en los 13 idiomas que usan la galería: la home, /equipment/,
+  /packages/, cada página de paquete (/packages/[slug]/) y /meet-the-team/.
+- Posts: 71 posts ingleses usan el carrusel ImageMarquee. En los 8 ya traducidos, las 96 páginas
+  traducidas muestran los alt en inglés. wedding-rentals usa deferMount={false}, así que en esa
+  página los alt ingleses están además en el HTML servido.
+
+Qué hay que hacer:
+1. Metadatos de cada imagen de la galería traducidos a los 12 idiomas (hoy es el alt. Si la
+   galería suma pie o título, van igual), con el inglés como fuente, siguiendo el patrón de la
+   copia de paquetes: traducciones por idioma, cargadas bajo demanda, sin que una página descargue
+   los otros 12 idiomas.
+2. ImageMarquee y cada página que use la galería leen el texto del idioma de la página, en el HTML
+   servido (prerender), no solo en el cliente.
+3. Un test que falle si una página traducida sirve un alt de la galería en inglés, y otro que
+   exija que cada imagen de la galería tenga su texto en los 13 idiomas (misma idea que
+   src/lib/i18n/localized-completeness.test.ts).
+4. Revisar en el mismo cambio las otras fuentes de texto de imágenes por si tienen el mismo
+   hueco: alt de la portada de cada post, alt de las imágenes de paquetes, og:image:alt y
+   twitter:image:alt, y el caption y name del ImageObject en el JSON-LD.
+5. Es un cambio de código (componente, datos y tests): TDD estricto, test primero. Actualizar
+   CLAUDE.md ("Arquitectura" de i18n) con dónde viven las traducciones de la galería.
+
+
 -- ❌ Billie Jean King Cup 2024 sin post News (anotado 2026-09-25)
 
 Decisión del usuario del 2026-09-25 (CLAUDE.md, "Posicionamiento", regla 4): la Experience
