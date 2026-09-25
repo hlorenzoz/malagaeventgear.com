@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (gallery-alt-i18n) - alt de la galeria en el idioma de cada pagina
+- **Causa**: `src/lib/data/gallery.ts` (40 imagenes) tenia el `alt` solo en ingles, y `ImageMarquee` lo mostraba igual en los 13 idiomas: en la home, /equipment/, /packages/, cada pagina de paquete, /meet-the-team/ y el carrusel de los posts traducidos (en wedding-rentals, ademas, en el HTML servido). Rompia la regla de CLAUDE.md de traducir todo el texto de una imagen.
+- **Fix**: `DataCopy` suma el bloque `gallery` (alt por URL de la imagen) en `src/lib/i18n/data/<locale>.ts`, con los 40 alt traducidos a los 12 idiomas, y `ImageMarquee` lo lee con `galleryAlt()` (`src/lib/i18n/gallery-alt.svelte.ts`, modulo propio para no sumar la copia de paquetes y FAQ a cada pagina con carrusel). El ingles sigue saliendo de `gallery.ts`. Toda pagina y todo post que use el carrusel, publicado o futuro, sale traducido sin cambios en quien lo llama.
+- **Guards**: `localized-completeness.test.ts` exige en cada idioma publicado un alt para cada imagen de la galeria, distinto del ingles. `tests/gallery-alt.prod.spec.ts` revisa contra el build real que cada imagen de cada carrusel de /de/, /fr/ y /zh-hans/ tenga el alt de su idioma, y lo mismo en el HTML servido de wedding-rentals en de y zh-hans.
+- **Sin cambio de fechas de frescura**: el cambio es de textos alternativos, no del contenido de las paginas. Mover la fecha de unas 150 paginas por esto le ensenaria a los rastreadores a desconfiar de `lastmod` (CLAUDE.md, regla 11).
+
 ### Changed (llms-txt-positioning)
 - **`/llms.txt` con el posicionamiento de soluciones integrales** (decision del usuario, 2026-09-25): el resumen y los Key Facts separan el inventario propio (lo que lista cada paquete se entrega, el equipo que ningun paquete nombra se cotiza aparte) de lo que MEG consigue con proveedores, "if there is one", sin prometer disponibilidad ni plazo. Suma la traduccion simultanea y la votacion via socio subcontratado.
 - **Seccion nueva "Company News and Past Events"**, derivada de los posts de la categoria News (`getPostsByCategory('news')`): son la unica fuente publicada de eventos pasados (CLAUDE.md, Posicionamiento, regla 4).

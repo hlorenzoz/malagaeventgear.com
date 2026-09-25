@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { packages } from '$lib/data/packages';
 import { faqs } from '$lib/data/faq';
+import { galleryImages } from '$lib/data/gallery';
 import { STATIC_SITEMAP_PAGES, getStaticPageFreshness } from '$lib/utils/sitemap';
 import { PAGE_LOCALES } from './availability';
 import { LOCALES } from './locales';
@@ -67,6 +68,20 @@ describe('published and in-progress locales are complete', () => {
 					const copy = data?.faqs[faq.id];
 					expect(copy?.question, `${faq.id} question (${locale})`).toBeTruthy();
 					expect(copy?.answer, `${faq.id} answer (${locale})`).toBeTruthy();
+				}
+			});
+
+			it('translates the alt text of every gallery image, keyed by its src', () => {
+				// The gallery feeds the home, equipment, packages and team pages and the carousel of
+				// most posts. An English alt on a translated page breaks "one language per page".
+				const sources = galleryImages.map((img) => img.src);
+				expect(Object.keys(data?.gallery).sort(), `data/${locale}.ts gallery keys differ from gallery.ts`).toEqual(
+					[...sources].sort()
+				);
+				for (const img of galleryImages) {
+					const alt = data?.gallery[img.src];
+					expect(alt, `${img.src} has no ${locale} alt`).toBeTruthy();
+					expect(alt, `${img.src} (${locale}) is still the English alt`).not.toBe(img.alt);
 				}
 			});
 

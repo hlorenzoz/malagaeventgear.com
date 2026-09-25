@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { galleryAlt } from '$lib/i18n/gallery-alt.svelte';
 
 	interface Props {
 		images: { src: string; alt: string }[];
@@ -81,7 +82,7 @@
 				<div class="marquee-item">
 					<img
 						src={img.src}
-						alt={img.alt}
+						alt={galleryAlt(img)}
 						loading="lazy"
 						decoding="async"
 						width="320"

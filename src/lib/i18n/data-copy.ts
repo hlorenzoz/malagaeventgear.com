@@ -29,6 +29,8 @@ export interface FaqCopy {
 export interface DataCopy {
 	packages: Record<string, PackageCopy>;
 	faqs: Record<string, FaqCopy>;
+	/** Alt text of each gallery image (src/lib/data/gallery.ts), keyed by the image src. */
+	gallery: Record<string, string>;
 }
 
 const loaders = import.meta.glob<DataCopy>('./data/*.ts', { import: 'default' });
