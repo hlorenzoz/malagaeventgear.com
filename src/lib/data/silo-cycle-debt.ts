@@ -25,6 +25,16 @@
  * 60 a 58 nodos; ambos slugs salieron de la signature de abajo. No es limpieza completa del
  * cluster (los otros 58 siguen en malla), es la reduccion real que este cambio puntual logro.
  *
+ * Actualizado 2026-09-25: la componente pasó de 58 a 60 nodos. Entraron
+ * stage-lighting-for-weddings y smoke-machine-rental por los enlaces laterales entre hermanos
+ * del silo stage lighting que exige el reverse silo (stage-uplighting <-> stage-lighting-for-weddings
+ * <-> smoke-machine-rental, en los dos sentidos). No es una malla nueva: stage-uplighting ya estaba
+ * en esta componente por sus enlaces a otros silos (headset-lavalier-microphone-rental,
+ * av-technician-hire, event-technology-service, lighting-ideas-for-wedding-rentals), y todo
+ * hermano enlazado en los dos sentidos con un nodo de la componente queda dentro de ella.
+ * Defecto conocido del chequeo: una cadena correcta de 3 o más hermanos (A <-> B <-> C) también
+ * es fuertemente conexa, así que este guard no distingue una cadena de una malla. Ver TODO.txt.
+ *
  * Formato de cada signature: los slugs de la componente, deduplicados, ordenados
  * alfabéticamente y unidos con `|` (mismo formato que usa internamente `findStronglyConnectedComponents`
  * a través de `validateSiloGraph`).
@@ -80,6 +90,8 @@ export const KNOWN_SILO_CYCLE_DEBT: readonly string[] = [
 		'questions-to-ask-wedding-rental-companies',
 		'sound-system-rental',
 		'stage-uplighting',
+		'stage-lighting-for-weddings',
+		'smoke-machine-rental',
 		'technical-support-for-events',
 		'timeline-for-booking-wedding-rentals',
 		'tips-for-reducing-wedding-rental-costs',
