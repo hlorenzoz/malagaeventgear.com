@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import type { RequestHandler } from './$types';
+import type { EntryGenerator, RequestHandler } from './$types';
 import { packages } from '$lib/data/packages';
 import { siteConfig } from '$lib/data/site';
 import { getAvailability } from '$lib/i18n/availability';
@@ -7,6 +7,7 @@ import { loadDataCopy } from '$lib/i18n/data-copy';
 import { encodePath } from '$lib/i18n/locale-path';
 import type { Locale } from '$lib/i18n/locales';
 import { localizeTo } from '$lib/i18n/router';
+import { localesWithSitemap } from '$lib/utils/locale-sitemaps';
 import {
 	STATIC_SITEMAP_PAGES,
 	SITEMAP_HEADERS,
@@ -21,6 +22,11 @@ import {
  * the date of ITS translation (CLAUDE.md §11). No hreflang here: it lives in the <head> only,
  * one method as Google recommends. A locale without published pages has no sitemap (404).
  */
+export const prerender = true;
+
+// Only the locales that publish their pages are built (and listed in sitemap_index.xml).
+export const entries: EntryGenerator = async () => (await localesWithSitemap('page')).map((locale) => ({ locale }));
+
 export const GET: RequestHandler = async ({ params }) => {
 	const locale = params.locale as Locale;
 	if (!getAvailability(locale).pages) error(404, 'Not found');

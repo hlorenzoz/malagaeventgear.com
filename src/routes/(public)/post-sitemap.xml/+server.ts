@@ -3,6 +3,9 @@ import { siteConfig } from '$lib/data/site';
 import { SITEMAP_HEADERS, urlsetXml, type SitemapUrl } from '$lib/utils/sitemap';
 import type { RequestHandler } from './$types';
 
+// Built with the site, like every page (see SITEMAP_HEADERS).
+export const prerender = true;
+
 export const GET: RequestHandler = async () => {
 	const urls: SitemapUrl[] = getAllPosts().map((post) => ({
 		loc: `${siteConfig.url}${post.url}`,

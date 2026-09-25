@@ -153,7 +153,7 @@ este resumen.
 | Unión de textos en un template | `i18n.space`, `i18n.comma` e `i18n.stop`: espacio, `, ` y `.` en escritura latina, nada, `，` y `。` en chino. Nunca un `' '`, `', '` ni `.` literal entre dos textos traducidos |
 | Copia de paquetes y FAQ | inglés en `packages.ts` / `faq.ts` (fuente). Resto en `src/lib/i18n/data/<locale>.ts`, leído con `pkgCopy()` / `faqCopy()` |
 | hreflang, canonical, `og:locale` | `SeoHead.svelte`, desde `page.data.alternates` |
-| Sitemaps por idioma | `page-sitemap-[locale].xml`, listados en `sitemap_index.xml` solo si el idioma está publicado |
+| Sitemaps por idioma | `page-sitemap-[locale].xml`, listados en `sitemap_index.xml` solo si el idioma está publicado. Todos los sitemaps se generan en el build (`prerender = true`, los de idioma con `entries` de `src/lib/utils/locale-sitemaps.ts`) y se sirven con `max-age=0`: un sitemap dinámico con `s-maxage` queda congelado hasta 24 h en la caché del Worker, que un deploy no purga. Lo controla `tests/locale-sitemaps.prod.spec.ts` |
 | Precache del PWA | `vite.config.ts`: lista explícita (home, paquetes y `/map` en inglés). Páginas traducidas y el blog en todos los idiomas quedan FUERA del precache. Los chunks JS de la copia traducida también quedan fuera: el plugin `skipTranslatedCopyInPrecache` los detecta en el bundle y los suma a `globIgnores`, porque SvelteKit nombra los chunks solo por hash. Se cargan bajo demanda al abrir una página de ese idioma. Build del 2026-09-24: 311 entradas y 9.417 KiB (551 y 10.065 antes del plugin, 293 en `main`). Lo controla `tests/pwa-precache.prod.spec.ts` |
 
 Cada idioma carga su diccionario, su mapa y su copia de datos como chunks propios: una página

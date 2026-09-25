@@ -164,8 +164,15 @@ export function localeBlogSitemapUrls(
 	});
 }
 
+/**
+ * Sitemaps are prerendered, so in production these headers only reach `vite dev`: the build
+ * writes the body and Workers Assets serves the file with its own `public, max-age=0,
+ * must-revalidate`, the same value set here. Never a shared cache TTL (`s-maxage`): a sitemap
+ * that falls back to the Worker is stored by the adapter's response cache (`caches.default`),
+ * which a deploy does not purge, so it would keep listing the previous build's URLs.
+ */
 export const SITEMAP_HEADERS = {
 	'Content-Type': 'application/xml; charset=utf-8',
-	'Cache-Control': 'public, max-age=3600, s-maxage=86400',
+	'Cache-Control': 'public, max-age=0, must-revalidate',
 	'X-Content-Type-Options': 'nosniff'
 } as const;

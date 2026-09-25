@@ -10,6 +10,9 @@ import {
 	type SitemapUrl
 } from '$lib/utils/sitemap';
 
+// Built with the site, like every page (see SITEMAP_HEADERS).
+export const prerender = true;
+
 export const GET: RequestHandler = async () => {
 	// <lastmod> comes from each page's colocated meta.ts (getStaticPageFreshness),
 	// never from `new Date()`. A build timestamp teaches crawlers the field is
