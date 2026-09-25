@@ -280,7 +280,13 @@ Qué hay que hacer:
    CLAUDE.md ("Arquitectura" de i18n) con dónde viven las traducciones de la galería.
 
 
--- ❌ CONFIRMAR: ¿la foto blog/2278 es de un evento de MEG? (anotado 2026-09-25)
+-- ✅ CONFIRMAR: ¿la foto blog/2278 es de un evento de MEG? (anotado y RESUELTO 2026-09-25)
+
+Respuesta del usuario (2026-09-25): no es un evento de MEG, es una imagen genérica que representa
+los servicios. Resuelto el mismo día: alt, pie y metadatos la describen como foto ilustrativa y
+aclaran que no es un evento de MEG, en la galería (13 idiomas), en los 3 posts que la muestran y
+en scripts/migrate-wp/manifest.json. Regla que queda: una foto genérica nunca se presenta como
+trabajo de MEG.
 
 La imagen https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1*.webp
 muestra un salón de conferencias grande con pantallas de proyección fijas en el techo y una cámara
