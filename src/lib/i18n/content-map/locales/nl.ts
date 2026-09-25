@@ -71,6 +71,11 @@ export default {
 			slug: 'uplighting-huren',
 			keyword: 'uplighting huren Malaga',
 			status: 'propuesta'
+		},
+		'stage-lighting-for-weddings': {
+			slug: 'podiumverlichting-bruiloft',
+			keyword: 'podiumverlichting voor bruiloften in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

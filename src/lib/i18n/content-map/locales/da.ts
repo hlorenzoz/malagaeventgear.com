@@ -71,6 +71,11 @@ export default {
 			slug: 'leje-af-uplighting',
 			keyword: 'leje af uplighting Malaga',
 			status: 'propuesta'
+		},
+		'stage-lighting-for-weddings': {
+			slug: 'scenelys-til-bryllup',
+			keyword: 'scenelys til bryllup i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

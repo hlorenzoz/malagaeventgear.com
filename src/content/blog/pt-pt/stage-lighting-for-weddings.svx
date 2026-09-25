@@ -1,0 +1,118 @@
+---
+title: "Iluminação de palco para casamentos em Málaga, Espanha"
+description: "Iluminação de palco para casamentos em Málaga: os focos reais da MEG por momento, cerimónia, cocktail, pista de dança e palco para banda ou discursos."
+excerpt: "Qual dos 5 produtos reais de iluminação de palco da MEG se adequa a cada parte do seu casamento: o fundo da cerimónia, o cocktail, a pista de dança e um palco para uma banda, um DJ ou os discursos, organizados por momento em vez de repetir uma lista de focos."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Pesquise "stage lighting for weddings" em inglês e a maioria dos guias enumera uplighting, projeção de gobos, candelabros e um escalão de orçamento com laser ou cabeças móveis, organizados por tipo de foco ou por número de convidados. Em matéria de iluminação de palco para casamentos, a Malaga Event Gear (MEG) não tem em stock a maior parte desse material, e a nossa página sobre [aluguer de iluminação de palco](/blog/stage-lighting-rental/) já indica cada foco que temos realmente, por marca e modelo. Esta página faz algo diferente: organiza esses mesmos focos reais por momento do casamento, a cerimónia, o cocktail, a receção, a pista de dança e um palco para uma banda ou para os discursos, para que possa ver qual se adequa a cada parte do seu dia, em vez de voltar a ler uma lista de focos.
+
+## Índice
+
+-   [Resumo](#resumo)
+-   [Pontos principais](#pontos-principais)
+-   [O seu casamento, momento a momento](#o-seu-casamento-momento-a-momento)
+-   [Uma banda, um DJ ou um palco para os discursos](#uma-banda-um-dj-ou-um-palco-para-os-discursos)
+-   [Wedding Pack, Eco Pack ou orçamento à parte](#wedding-pack-eco-pack-ou-orçamento-à-parte)
+-   [Casamentos reais que já equipámos](#casamentos-reais-que-já-equipámos)
+-   [Com quanta antecedência reservar](#com-quanta-antecedência-reservar)
+-   [Conclusão](#conclusão)
+-   [Perguntas frequentes](#perguntas-frequentes)
+
+## Resumo
+
+---
+
+A iluminação de palco para casamentos da MEG são os mesmos 5 produtos reais apresentados na nossa página sobre [aluguer de iluminação de palco](/blog/stage-lighting-rental/), associados aqui aos momentos em que são realmente usados ao longo do dia do casamento. As luzes de fada do [Wedding Pack](/packages/wedding/) adequam-se ao ambiente do cocktail e da receção. Os focos RGBW do [Eco Pack](/packages/eco/) adequam-se à pista de dança. O kit de uplighting ADJ Element H6 Pack adequa-se ao fundo da cerimónia ou a uma mesa de honra. A barra Eurolite LED KLS-200 e o Fresnel ADJ Encore FRI50Z adequam-se a um palco para uma banda, um DJ ou os discursos. Nenhum deles é um foco DMX ou uma cabeça móvel, e nenhum foi inventado para esta página.
+
+## Pontos principais
+
+---
+
+-   Uma leitura por momento, e não uma lista de focos repetida do nosso guia de referência: qual dos 5 produtos reais da MEG se adequa à cerimónia, ao cocktail, à receção, à pista de dança e a um palco para uma banda ou para os discursos.
+-   A barra Eurolite e o Fresnel ADJ, ambos independentes de qualquer pacote e com orçamento sob pedido, associados aqui especificamente ao palco da banda, do DJ ou dos discursos num casamento, uma utilização que as nossas outras páginas sobre casamentos não abordam.
+-   As luzes de fada do Wedding Pack e os focos RGBW do Eco Pack são tratados em detalhe no nosso guia dedicado a ideias de iluminação para casamentos, citado aqui em vez de voltarmos a explicá-los.
+-   A cobertura realista do kit de uplighting, as ressalvas honestas sobre a bateria e o tempo e a comparação completa das características estão no nosso guia dedicado ao [aluguer de uplighting](/blog/stage-uplighting/), citado aqui em vez de as repetirmos.
+-   Sem cabeças móveis, sem mesas DMX, sem efeitos laser nem gobos, no palco de um casamento tal como em qualquer outro evento que iluminamos.
+
+<InlineCTA />
+
+## O seu casamento, momento a momento
+
+A maioria dos guias de iluminação para casamentos organiza-se por foco: o uplighting aqui, os focos ali, uma secção sobre candelabros mais abaixo. A MEG só tem em stock 5 produtos reais de iluminação de palco, por isso, em vez de os enumerar de novo, mostramos onde cada um é realmente usado ao longo de um dia de casamento real.
+
+| Momento do casamento | Foco | O que faz |
+| --- | --- | --- |
+| Fundo da cerimónia, arco ou mesa de honra | Uplighting ADJ Element H6 Pack | Banha a estrutura de cor a partir do chão, um dos 2 a 4 elementos do espaço que o nosso kit completo de 6 focos cobre de forma realista |
+| Cocktail e receção | Luzes de fada do [Wedding Pack](/packages/wedding/) | Um brilho quente e fixo estendido sobre uma pérgola, um caminho ou a zona do jantar, tratado em detalhe no nosso guia dedicado a ideias de iluminação |
+| Pista de dança | Focos RGBW do [Eco Pack](/packages/eco/) | Iluminação de destaque com mudança de cor, entregue e testada pela nossa equipa, e depois usada de forma autónoma durante o resto do evento |
+| Palco para banda, DJ ou discursos | Barra Eurolite LED KLS-200 e Fresnel ADJ Encore FRI50Z | Uma luz de cor com controlo por pedal e um foco fixo com zoom para luz geral, apontados a quem está a tocar ou a falar |
+
+Duas notas honestas sobre esta tabela. Primeiro, não se trata de escolher uma coisa ou outra: um casamento numa quinta com cerimónia, jantar de receção e uma banda a seguir pode usar realmente as 4 linhas ao longo da mesma noite, com cada foco orçamentado e montado para o seu próprio momento. Segundo, as linhas da cerimónia e do palco não fazem parte de nenhum dos dois pacotes: o kit de uplighting, a barra Eurolite e o Fresnel são artigos à parte, com orçamento sob pedido, seja qual for o pacote que reservar, tal como num evento corporativo. Para criar ambiente na pista de dança, a nossa única máquina de fumo, uma Martin Magnum 650, é uma opção de 20 € no Wedding Pack e no Eco Pack, explicada no nosso guia sobre o [aluguer de máquina de fumo](/blog/smoke-machine-rental/).
+
+## Uma banda, um DJ ou um palco para os discursos
+
+Uma banda ao vivo, uma cabine de DJ ou um púlpito para os discursos são o único momento do casamento que os nossos outros conteúdos sobre casamentos nunca abordaram, porque a barra Eurolite e o Fresnel ADJ Encore FRI50Z só foram apresentados até agora como focos para palcos corporativos no nosso guia de referência. Num casamento funcionam exatamente da mesma forma.
+
+A barra Eurolite LED KLS-200 é uma luz de cor de 4 cabeças com controlo por pedal, apontada a quem atua, uma banda, um DJ ou um casal a fazer um discurso, em vez de a uma estrutura fixa. O Fresnel ADJ Encore FRI50Z é um foco fixo com zoom para luz geral, o tipo de feixe estável que mantém um orador visível e iluminado de forma uniforme, em vez de perdido num canto escuro de uma tenda ou de um terraço depois do pôr do sol. Nenhum dos dois está incluído no Wedding Pack. São os mesmos artigos com orçamento sob pedido que num palco corporativo, orçamentados e montados da mesma forma: o nosso técnico monta-os e aponta-os para o sítio onde a sua banda, a cabine de DJ ou a zona dos discursos fica realmente.
+
+![Uma montagem de DJ e som ao ar livre num pátio, com luzes de fada por cima, o tipo de zona para onde apontamos a barra Eurolite e o Fresnel quando uma banda ou uma cabine de DJ precisa de luz própria.](https://cdn.malagaeventgear.com/blog/1788/2025-10-05-DJ-audio-and-microphone-system-setup-1536x1152.webp "Um sistema de colunas HK Audio com subwoofer e um microfone sem fios, que garante um som nítido e claro num evento de DJ ao ar livre em Málaga.")
+
+## Wedding Pack, Eco Pack ou orçamento à parte
+
+A resposta honesta depende de qual das linhas da tabela acima precisa. O [Wedding Pack](/packages/wedding/) inclui luzes de fada, por 650 € sem IVA, até 80 convidados, com um técnico no local durante o evento. O [Eco Pack](/packages/eco/) inclui focos RGBW, por 290 € sem IVA, até 50 convidados, usados de forma autónoma depois de a nossa equipa os entregar e testar. O kit de uplighting da cerimónia e a iluminação do palco da banda ou dos discursos, a barra Eurolite e o Fresnel, não estão incluídos em nenhum dos dois pacotes: são artigos à parte, com orçamento sob pedido, tal como em qualquer outro tipo de evento que iluminamos.
+
+![Luz de cor nas paredes de ambos os lados de um jantar formal, o mesmo estilo de iluminação de destaque que os nossos focos RGBW e o kit de uplighting levam à pista de dança ou ao fundo da cerimónia de um casamento.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-700x523.webp "Um espaço histórico em Málaga transformado para um evento especial com equipamento profissional de som e iluminação.")
+
+## Casamentos reais que já equipámos
+
+Um olhar sobre casamentos reais reservados em Málaga e na Costa del Sol:
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" />
+</div>
+
+## Com quanta antecedência reservar
+
+Reserve assim que a data e o local estiverem confirmados. A procura na Costa del Sol atinge o pico durante a época de casamentos, de abril a outubro, quando os técnicos e os nossos focos mais pedidos são os primeiros a esgotar. Como a barra Eurolite existe apenas em 2 unidades, e o kit de uplighting tem apenas 6 focos no total, reservar cedo também nos dá tempo para confirmar que estão realmente livres, além do pacote que já reservou.
+
+## Conclusão
+
+A iluminação de palco para casamentos na MEG resume-se aos mesmos 5 produtos reais da nossa página sobre [aluguer de iluminação de palco](/blog/stage-lighting-rental/), associados aos momentos do seu dia em que são usados: uplighting no fundo da cerimónia, luzes de fada durante o cocktail e a receção, focos RGBW na pista de dança e a barra Eurolite com o Fresnel ADJ a iluminar o palco de uma banda, de um DJ ou dos discursos. [Contacte-nos](/contact/) com o local e os momentos que quer iluminar, e confirmaremos o que se adequa.
+
+## Perguntas frequentes
+
+### Em que é que esta página difere do vosso guia geral de iluminação para casamentos?
+
+O nosso guia dedicado a ideias de iluminação para casamentos trata em detalhe as luzes de fada do Wedding Pack e os focos RGBW do Eco Pack, com a colocação conforme a estrutura do espaço, pérgolas, árvores e caminhos. Esta página organiza antes os nossos 5 produtos reais de iluminação de palco por momento do casamento, incluindo o uplighting da cerimónia e a iluminação do palco da banda ou dos discursos, que esse guia não aborda.
+
+### Podem iluminar uma banda ao vivo ou uma cabine de DJ num casamento?
+
+Sim. A barra Eurolite LED KLS-200 e o Fresnel ADJ Encore FRI50Z, ambos com orçamento sob pedido, são apontados a quem está a tocar ou a falar, tal como num palco corporativo. Veja [Uma banda, um DJ ou um palco para os discursos](#uma-banda-um-dj-ou-um-palco-para-os-discursos) acima.
+
+### De quantos focos de uplighting preciso para o fundo da cerimónia?
+
+O nosso inventário completo são 6 focos sem fios, o ADJ Element H6 Pack, que cobrem de forma realista 2 a 4 elementos do espaço, um arco, uma mesa de honra ou uma fila de colunas, e não a iluminação de uma sala inteira. O nosso guia dedicado ao uplighting aprofunda o cálculo honesto da cobertura e as ressalvas sobre o tempo ao ar livre.
+
+### A iluminação de palco está incluída no Wedding Pack ou é orçamentada à parte?
+
+Só as luzes de fada estão incluídas no [Wedding Pack](/packages/wedding/). O kit de uplighting da cerimónia e a iluminação do palco da banda ou dos discursos são artigos à parte, com orçamento sob pedido, tal como os focos RGBW do [Eco Pack](/packages/eco/) estão incluídos especificamente nesse pacote e em nenhum outro. Veja [Wedding Pack, Eco Pack ou orçamento à parte](#wedding-pack-eco-pack-ou-orçamento-à-parte) acima.
+
+### Oferecem cabeças móveis ou iluminação programável por DMX para casamentos?
+
+Não. Tal como em qualquer outro evento que iluminamos, os nossos focos funcionam com pedal ou em posição fixa, e não são sistemas robotizados DMX que rodam e inclinam. Consulte a nossa página sobre [aluguer de iluminação de palco](/blog/stage-lighting-rental/#what-we-dont-stock) para a lista completa do que não temos em stock.
+
+### Uma quinta, o terraço de uma moradia, uma tenda ou um salão de baile mudam o que recomendam?
+
+Sobretudo quanto a saber se é preciso ter em conta o tempo para cada foco. Não confirmámos resistência às intempéries para o kit de uplighting nem para os nossos focos especiais, por isso, num casamento ao ar livre numa quinta ou num terraço, o nosso técnico coloca-os aproveitando o abrigo que o espaço oferece e confirma no local uma posição alternativa coberta. Um salão de baile interior ou uma tenda eliminam totalmente essa questão.
+
+### A iluminação de palco para o casamento inclui um técnico?
+
+Depende do foco. As luzes de fada do [Wedding Pack](/packages/wedding/) incluem um técnico no local durante o evento. Os focos RGBW do [Eco Pack](/packages/eco/) são montados e testados e depois usados de forma autónoma. O kit de uplighting, a barra Eurolite e o Fresnel são todos montados com um técnico que trata da sua colocação e, no caso do kit de uplighting, da cor, para o seu evento.

@@ -71,6 +71,11 @@ export default {
 			slug: 'uplighting-mieten',
 			keyword: 'Uplighting mieten Malaga',
 			status: 'propuesta'
+		},
+		'stage-lighting-for-weddings': {
+			slug: 'buehnenbeleuchtung-hochzeit',
+			keyword: 'Bühnenbeleuchtung für Hochzeiten in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

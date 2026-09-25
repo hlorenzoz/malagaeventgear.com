@@ -59,6 +59,11 @@ export default {
 			slug: '上照燈出租',
 			keyword: '馬拉加 上照燈出租',
 			status: 'propuesta'
+		},
+		'stage-lighting-for-weddings': {
+			slug: '婚禮舞台燈光',
+			keyword: '馬拉加 婚禮舞台燈光',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

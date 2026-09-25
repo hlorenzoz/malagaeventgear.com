@@ -1,0 +1,118 @@
+---
+title: "Éclairage scénique pour mariage à Malaga, Espagne"
+description: "Éclairage scénique pour mariage à Malaga : le vrai matériel de MEG classé par moment, cérémonie, cocktail, piste de danse, scène pour un groupe ou les discours."
+excerpt: "Lequel des 5 vrais produits d'éclairage scénique de MEG convient à chaque partie de votre mariage : le fond de cérémonie, le cocktail, la piste de danse, et la scène d'un groupe, d'un DJ ou des discours, classés par moment plutôt qu'en répétant une liste de projecteurs."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Si vous cherchez en anglais "stage lighting for weddings", la plupart des guides énumèrent de l'uplighting, de la projection de gobos, des lustres et une gamme de budget avec laser ou lyres motorisées, classés par type de projecteur ou par nombre d'invités. En matière d'éclairage scénique pour mariage, Malaga Event Gear (MEG) n'a pas en stock la plupart de ce matériel, et notre page sur la [location d'éclairage scénique](/blog/stage-lighting-rental/) cite déjà chaque projecteur que nous avons réellement, par marque et modèle. Cette page fait autre chose : elle classe ces mêmes projecteurs réels par moment du mariage, la cérémonie, le cocktail, la réception, la piste de danse et la scène d'un groupe ou des discours, pour que vous voyiez lequel convient à quelle partie de votre journée, sans relire une liste de projecteurs.
+
+## Table des matières
+
+-   [En bref](#en-bref)
+-   [Points clés](#points-clés)
+-   [Votre mariage, moment par moment](#votre-mariage-moment-par-moment)
+-   [Un groupe, un DJ ou une scène pour les discours](#un-groupe-un-dj-ou-une-scène-pour-les-discours)
+-   [Wedding Pack, Eco Pack ou devis séparé](#wedding-pack-eco-pack-ou-devis-séparé)
+-   [De vrais mariages que nous avons équipés](#de-vrais-mariages-que-nous-avons-équipés)
+-   [Combien de temps à l'avance réserver](#combien-de-temps-à-lavance-réserver)
+-   [Conclusion](#conclusion)
+-   [Questions fréquentes](#questions-fréquentes)
+
+## En bref
+
+---
+
+L'éclairage scénique pour mariage chez MEG, ce sont les 5 mêmes produits réels présentés sur notre page de [location d'éclairage scénique](/blog/stage-lighting-rental/), associés ici aux moments de la journée où ils servent vraiment. Les guirlandes lumineuses du [Wedding Pack](/packages/wedding/) conviennent à l'ambiance du cocktail et de la réception. Les projecteurs RGBW de l'[Eco Pack](/packages/eco/) conviennent à la piste de danse. Le kit d'uplighting ADJ Element H6 Pack convient à un fond de cérémonie ou à une table d'honneur. La barre Eurolite LED KLS-200 et le Fresnel ADJ Encore FRI50Z conviennent à la scène d'un groupe, d'un DJ ou des discours. Aucun n'est un projecteur DMX ni une lyre motorisée, et aucun n'a été inventé pour cette page.
+
+## Points clés
+
+---
+
+-   Une lecture par moment, et non une liste de projecteurs reprise de notre page de référence : lequel des 5 produits réels de MEG convient à la cérémonie, au cocktail, à la réception, à la piste de danse et à la scène d'un groupe ou des discours.
+-   La barre Eurolite et le Fresnel ADJ, deux projecteurs sur devis qui ne dépendent d'aucun forfait, associés ici précisément à la scène d'un groupe, d'un DJ ou des discours lors d'un mariage, un usage que nos autres pages sur le mariage ne traitent pas.
+-   Les guirlandes lumineuses du Wedding Pack et les projecteurs RGBW de l'Eco Pack sont présentés en détail dans notre guide dédié aux idées d'éclairage pour un mariage, cité ici plutôt que réexpliqué.
+-   La couverture réaliste du kit d'uplighting, les précisions honnêtes sur la batterie et la météo et la comparaison complète des caractéristiques se trouvent dans notre guide dédié à la [location d'uplighting](/blog/stage-uplighting/), cité ici plutôt que répété.
+-   Pas de lyres motorisées, pas de consoles DMX, pas d'effets laser ni de gobos, pour la scène d'un mariage comme pour tout autre événement que nous éclairons.
+
+<InlineCTA />
+
+## Votre mariage, moment par moment
+
+La plupart des guides d'éclairage de mariage sont classés par projecteur : l'uplighting ici, les projecteurs là, une section sur les lustres plus bas. MEG n'a en stock que 5 produits réels d'éclairage scénique, alors plutôt que de les énumérer une fois de plus, voici où chacun sert vraiment au fil d'une vraie journée de mariage.
+
+| Moment du mariage | Projecteur | Ce qu'il apporte |
+| --- | --- | --- |
+| Fond de cérémonie, arche ou table d'honneur | Uplighting ADJ Element H6 Pack | Baigne la structure de couleur depuis le sol, l'un des 2 à 4 éléments du lieu que notre kit complet de 6 projecteurs couvre de façon réaliste |
+| Cocktail et réception | Guirlandes lumineuses du [Wedding Pack](/packages/wedding/) | Une lueur chaude et fixe tendue au-dessus d'une pergola, d'une allée ou de l'espace du dîner, présentée en détail dans notre guide dédié aux idées d'éclairage |
+| Piste de danse | Projecteurs RGBW de l'[Eco Pack](/packages/eco/) | Un éclairage d'accentuation à changement de couleur, livré et testé par notre équipe, puis utilisé en autonomie pendant le reste de l'événement |
+| Scène d'un groupe, d'un DJ ou des discours | Barre Eurolite LED KLS-200 et Fresnel ADJ Encore FRI50Z | Un éclairage coloré commandé par pédale et un projecteur fixe à zoom, orientés vers la personne qui joue ou qui parle |
+
+Deux précisions honnêtes sur ce tableau. D'abord, il ne s'agit pas de choisir l'un ou l'autre : un mariage dans une finca avec une cérémonie, un dîner de réception puis un groupe peut réellement utiliser les 4 lignes au cours d'une même soirée, chaque projecteur étant chiffré et installé pour son propre moment. Ensuite, les lignes de la cérémonie et de la scène ne font partie d'aucun des deux forfaits : le kit d'uplighting, la barre Eurolite et le Fresnel sont des articles à part, sur devis, quel que soit le forfait que vous réservez, exactement comme pour un événement d'entreprise. Pour l'ambiance sur la piste de danse, notre seule machine à fumée, une Martin Magnum 650, est proposée en option à 20 € sur le Wedding Pack et l'Eco Pack, comme l'explique notre guide sur la [location de machine à fumée](/blog/smoke-machine-rental/).
+
+## Un groupe, un DJ ou une scène pour les discours
+
+Un groupe en live, un DJ ou un pupitre pour les discours, c'est le seul moment du mariage que nos autres contenus sur le mariage n'ont jamais abordé, car la barre Eurolite et le Fresnel ADJ Encore FRI50Z n'ont jusqu'ici été présentés que comme des projecteurs de scène d'entreprise sur notre page de référence. Lors d'un mariage, ils fonctionnent exactement de la même façon.
+
+La barre Eurolite LED KLS-200 est un éclairage coloré à 4 têtes commandé par pédale, orienté vers la personne qui se produit, un groupe, un DJ ou les mariés qui prononcent un discours, plutôt que vers une structure fixe. Le Fresnel ADJ Encore FRI50Z est un projecteur fixe à zoom, le genre de faisceau stable qui garde un orateur visible et uniformément éclairé plutôt que perdu dans un coin sombre d'un chapiteau ou d'une terrasse une fois le soleil couché. Aucun des deux n'est inclus dans le Wedding Pack. Ce sont les mêmes articles sur devis que pour une scène d'entreprise, chiffrés et installés de la même façon : notre technicien les monte et les oriente vers l'endroit où se trouvent réellement votre groupe, votre DJ ou l'espace des discours.
+
+![Une installation de DJ et de sonorisation en extérieur sur un patio, sous des guirlandes lumineuses, le type d'espace vers lequel nous orientons notre barre Eurolite et notre Fresnel quand un groupe ou un DJ a besoin de son propre éclairage.](https://cdn.malagaeventgear.com/blog/1788/2025-10-05-DJ-audio-and-microphone-system-setup-1536x1152.webp "Un système HK Audio à colonne et caisson de basses, avec un micro sans fil, qui offre un son clair et précis pour une soirée DJ en extérieur à Malaga.")
+
+## Wedding Pack, Eco Pack ou devis séparé
+
+La réponse honnête dépend de la ligne du tableau ci-dessus dont vous avez besoin. Le [Wedding Pack](/packages/wedding/) comprend des guirlandes lumineuses, à 650 € HT, pour 80 invités maximum, avec un technicien sur place pendant l'événement. L'[Eco Pack](/packages/eco/) comprend des projecteurs RGBW, à 290 € HT, pour 50 invités maximum, utilisés en autonomie une fois que notre équipe les a livrés et testés. Le kit d'uplighting de la cérémonie et l'éclairage de la scène d'un groupe ou des discours, la barre Eurolite et le Fresnel, ne sont inclus dans aucun des deux forfaits : ce sont des articles à part, sur devis, comme pour tout autre type d'événement que nous éclairons.
+
+![Un éclairage coloré de mur de part et d'autre d'une table de dîner formelle, le même style d'éclairage d'accentuation que nos projecteurs RGBW et notre kit d'uplighting apportent à la piste de danse ou au fond de cérémonie d'un mariage.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-700x523.webp "Un lieu historique de Malaga transformé pour un événement spécial grâce à un matériel professionnel de sonorisation et d'éclairage.")
+
+## De vrais mariages que nous avons équipés
+
+Un aperçu de vrais mariages réservés à Malaga et sur la Costa del Sol :
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" />
+</div>
+
+## Combien de temps à l'avance réserver
+
+Réservez dès que votre date et votre lieu sont confirmés. La demande sur la Costa del Sol atteint son pic pendant la saison des mariages, d'avril à octobre, quand les techniciens et nos projecteurs les plus demandés sont réservés en premier. Comme la barre Eurolite n'existe qu'en 2 unités, et que le kit d'uplighting ne compte que 6 projecteurs au total, réserver tôt nous laisse aussi le temps de confirmer qu'ils sont réellement libres, en plus du forfait que vous avez déjà réservé.
+
+## Conclusion
+
+L'éclairage scénique pour mariage chez MEG repose sur les 5 mêmes produits réels que notre page de [location d'éclairage scénique](/blog/stage-lighting-rental/), associés aux moments de votre journée où ils servent : l'uplighting au fond de la cérémonie, les guirlandes lumineuses pendant le cocktail et la réception, les projecteurs RGBW sur la piste de danse, et la barre Eurolite avec le Fresnel ADJ pour éclairer la scène d'un groupe, d'un DJ ou des discours. [Contactez-nous](/contact/) en précisant votre lieu et les moments que vous voulez éclairer, et nous vous confirmerons ce qui convient.
+
+## Questions fréquentes
+
+### En quoi cette page diffère-t-elle de votre guide général sur l'éclairage de mariage ?
+
+Notre guide dédié aux idées d'éclairage pour un mariage présente en détail les guirlandes lumineuses du Wedding Pack et les projecteurs RGBW de l'Eco Pack, avec leur emplacement selon la structure du lieu, pergolas, arbres et allées. Cette page classe plutôt nos 5 produits réels d'éclairage scénique par moment du mariage, y compris l'uplighting de la cérémonie et l'éclairage de la scène d'un groupe ou des discours, que ce guide ne traite pas.
+
+### Pouvez-vous éclairer un groupe en live ou un DJ lors d'un mariage ?
+
+Oui. La barre Eurolite LED KLS-200 et le Fresnel ADJ Encore FRI50Z, deux articles sur devis, sont orientés vers la personne qui joue ou qui parle, comme pour une scène d'entreprise. Voyez [Un groupe, un DJ ou une scène pour les discours](#un-groupe-un-dj-ou-une-scène-pour-les-discours) plus haut.
+
+### De combien de projecteurs d'uplighting ai-je besoin pour mon fond de cérémonie ?
+
+Tout notre inventaire compte 6 projecteurs sans fil, l'ADJ Element H6 Pack, qui couvrent de façon réaliste 2 à 4 éléments du lieu, une arche, une table d'honneur ou une série de colonnes, et non l'éclairage de toute une salle. Notre guide dédié à l'uplighting détaille le calcul honnête de la couverture et les précautions météo en extérieur.
+
+### L'éclairage scénique est-il inclus dans le Wedding Pack, ou faut-il un devis séparé ?
+
+Seules les guirlandes lumineuses sont incluses dans le [Wedding Pack](/packages/wedding/). Le kit d'uplighting de la cérémonie et l'éclairage de la scène d'un groupe ou des discours sont des articles à part, sur devis, de même que les projecteurs RGBW de l'[Eco Pack](/packages/eco/) sont inclus dans ce forfait précis et dans aucun autre. Voyez [Wedding Pack, Eco Pack ou devis séparé](#wedding-pack-eco-pack-ou-devis-séparé) plus haut.
+
+### Proposez-vous des lyres motorisées ou un éclairage programmable en DMX pour les mariages ?
+
+Non. Comme pour tout autre événement que nous éclairons, nos projecteurs sont commandés par pédale ou installés en position fixe, et non des systèmes robotisés DMX qui pivotent et s'inclinent. Consultez notre page sur la [location d'éclairage scénique](/blog/stage-lighting-rental/#what-we-dont-stock) pour la liste complète de ce que nous n'avons pas en stock.
+
+### Une finca, la terrasse d'une villa, un chapiteau ou une salle de bal changent-ils ce que vous recommandez ?
+
+Surtout sur la question de la météo pour chaque projecteur. Nous n'avons pas confirmé de résistance aux intempéries pour le kit d'uplighting ni pour nos projecteurs spéciaux, alors pour un mariage en plein air dans une finca ou sur une terrasse, notre technicien les place en profitant de l'abri qu'offre le lieu et confirme sur place un emplacement de repli à couvert. Une salle de bal intérieure ou un chapiteau règlent entièrement cette question.
+
+### L'éclairage scénique pour mariage comprend-il un technicien ?
+
+Cela dépend du projecteur. Les guirlandes lumineuses du [Wedding Pack](/packages/wedding/) sont accompagnées d'un technicien sur place pendant l'événement. Les projecteurs RGBW de l'[Eco Pack](/packages/eco/) sont installés et testés, puis utilisés en autonomie. Le kit d'uplighting, la barre Eurolite et le Fresnel sont tous installés avec un technicien qui gère leur emplacement et, pour le kit d'uplighting, la couleur, pour votre événement.

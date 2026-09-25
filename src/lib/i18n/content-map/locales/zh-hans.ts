@@ -59,6 +59,11 @@ export default {
 			slug: '地面投光灯租赁',
 			keyword: '马拉加 地面投光灯租赁',
 			status: 'propuesta'
+		},
+		'stage-lighting-for-weddings': {
+			slug: '婚礼舞台灯光',
+			keyword: '马拉加 婚礼舞台灯光',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

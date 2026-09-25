@@ -71,6 +71,11 @@ export default {
 			slug: 'location-uplighting',
 			keyword: "location d'uplighting à Malaga",
 			status: 'propuesta'
+		},
+		'stage-lighting-for-weddings': {
+			slug: 'eclairage-scenique-mariage',
+			keyword: 'éclairage scénique pour mariage à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

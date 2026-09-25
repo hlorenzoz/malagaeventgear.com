@@ -67,6 +67,11 @@ export default {
 			slug: 'hyra-uplighting',
 			keyword: 'hyra uplighting Malaga',
 			status: 'propuesta'
+		},
+		'stage-lighting-for-weddings': {
+			slug: 'scenbelysning-brollop',
+			keyword: 'scenbelysning för bröllop i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

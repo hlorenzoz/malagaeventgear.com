@@ -1,0 +1,118 @@
+---
+title: "Scenelys til bryllup i Malaga, Spanien"
+description: "Scenelys til bryllup i Malaga: MEG's rigtige lamper sorteret efter øjeblik, vielse, velkomstdrinks, dansegulv og en scene til band, dj eller taler."
+excerpt: "Hvilket af MEG's 5 rigtige produkter til scenelys der passer til hvilken del af dit bryllup: baggrunden ved vielsen, velkomstdrinks, dansegulvet og en scene til band, dj eller taler, sorteret efter øjeblik i stedet for endnu en liste over lamper."
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Søg på "stage lighting for weddings" på engelsk, og de fleste guides opremser uplighting, goboprojektion, lysekroner og et budgetniveau med laser eller moving heads, sorteret efter type lampe eller efter antal gæster. Når det gælder scenelys til bryllup, har Malaga Event Gear (MEG) ikke det meste af det på lager, og vores side om [leje af scenelys](/blog/stage-lighting-rental/) nævner allerede hver eneste lampe, vi faktisk har, med mærke og model. Denne side gør noget andet: Den sorterer de samme rigtige lamper efter bryllupsdagens øjeblikke, vielsen, velkomstdrinks, middagen, dansegulvet og en scene til band eller taler, så du kan se, hvilken der passer til hvilken del af din dag, i stedet for at læse en liste over lamper en gang til.
+
+## Indholdsfortegnelse
+
+-   [Kort overblik](#kort-overblik)
+-   [Det vigtigste](#det-vigtigste)
+-   [Dit bryllup, øjeblik for øjeblik](#dit-bryllup-øjeblik-for-øjeblik)
+-   [Et band, en dj eller en scene til taler](#et-band-en-dj-eller-en-scene-til-taler)
+-   [Wedding Pack, Eco Pack eller et separat tilbud](#wedding-pack-eco-pack-eller-et-separat-tilbud)
+-   [Rigtige bryllupper, vi har leveret til](#rigtige-bryllupper-vi-har-leveret-til)
+-   [Hvor lang tid i forvejen du skal booke](#hvor-lang-tid-i-forvejen-du-skal-booke)
+-   [Konklusion](#konklusion)
+-   [Ofte stillede spørgsmål](#ofte-stillede-spørgsmål)
+
+## Kort overblik
+
+---
+
+Scenelys til bryllup hos MEG er de samme 5 rigtige produkter, som vi beskriver på vores side om [leje af scenelys](/blog/stage-lighting-rental/), her koblet til de øjeblikke på bryllupsdagen, hvor de rent faktisk bruges. Lyskæderne i [Wedding Pack](/packages/wedding/) passer til stemningen ved velkomstdrinks og middagen. RGBW-spotsene i [Eco Pack](/packages/eco/) passer til dansegulvet. Sættet til uplighting ADJ Element H6 Pack passer til en baggrund ved vielsen eller et hovedbord. Lysbjælken Eurolite LED KLS-200 og Fresnel-spotten ADJ Encore FRI50Z passer til en scene til band, dj eller taler. Ingen af dem er en DMX-lampe eller en moving head, og ingen af dem er opfundet til denne side.
+
+## Det vigtigste
+
+---
+
+-   Et blik efter øjeblik, ikke en liste over lamper gentaget fra vores hovedguide: hvilket af MEG's 5 rigtige produkter der passer til vielsen, velkomstdrinks, middagen, dansegulvet og en scene til band eller taler.
+-   Eurolite-bjælken og ADJ-fresnellen, begge uafhængige af pakkerne og med pris efter aftale, koblet her specifikt til scenen til band, dj eller taler ved et bryllup, en brug som vores andre sider om bryllup ikke dækker.
+-   Lyskæderne i Wedding Pack og RGBW-spotsene i Eco Pack er beskrevet grundigt i vores særskilte guide med lysidéer til bryllup, som vi henviser til her i stedet for at forklare dem igen.
+-   Den realistiske dækning for sættet til uplighting, ærlige forbehold om batteri og vejr og den fulde sammenligning af specifikationer står i vores særskilte guide om [leje af uplighting](/blog/stage-uplighting/), som vi henviser til her i stedet for at gentage dem.
+-   Ingen moving heads, ingen DMX-lyspulte, ingen laser- eller goboeffekter, på en bryllupsscene præcis som ved ethvert andet event, vi sætter lys på.
+
+<InlineCTA />
+
+## Dit bryllup, øjeblik for øjeblik
+
+De fleste guides om lys til bryllup er sorteret efter lampe: uplighting her, spots der, et afsnit om lysekroner længere nede. MEG har kun 5 rigtige produkter til scenelys på lager, så i stedet for at opremse dem igen viser vi, hvor hver enkelt rent faktisk bruges i løbet af en rigtig bryllupsdag.
+
+| Øjeblik på bryllupsdagen | Lampe | Hvad den gør |
+| --- | --- | --- |
+| Baggrund ved vielsen, bue eller hovedbord | Uplighting ADJ Element H6 Pack | Farver konstruktionen nedefra fra gulvet, en af de 2 til 4 dele af stedet, som vores komplette sæt med 6 lamper realistisk dækker |
+| Velkomstdrinks og middag | Lyskæder i [Wedding Pack](/packages/wedding/) | Et varmt, roligt skær spændt ud over en pergola, en gang eller spiseområdet, beskrevet grundigt i vores særskilte guide med lysidéer |
+| Dansegulv | RGBW-spots i [Eco Pack](/packages/eco/) | Farveskiftende effektlys, leveret og testet af vores team, hvorefter du selv styrer dem uden tekniker resten af eventet |
+| Scene til band, dj eller taler | Lysbjælke Eurolite LED KLS-200 og Fresnel ADJ Encore FRI50Z | Et farvet lys styret med fodpedal plus en fast lampe med zoom til flodlys, rettet mod den, der spiller eller taler |
+
+To ærlige bemærkninger til tabellen. For det første er det ikke et enten eller: Et bryllup på en finca med vielse, middag og et band bagefter kan sagtens bruge alle 4 rækker i løbet af den samme aften, hvor hver lampe prissættes og stilles op til sit eget øjeblik. For det andet er rækkerne for vielsen og scenen ikke en del af nogen af de to pakker: Sættet til uplighting, Eurolite-bjælken og fresnellen er separate varer med pris efter aftale, uanset hvilken pakke du booker, præcis som ved et firmaevent. Til stemning på dansegulvet er vores eneste røgmaskine, en Martin Magnum 650, et tilvalg til 20 € til Wedding Pack og Eco Pack, som vi gennemgår i vores guide om at [leje røgmaskine](/blog/smoke-machine-rental/).
+
+## Et band, en dj eller en scene til taler
+
+Et liveband, en dj-pult eller en talerpult til talerne er det eneste øjeblik ved et bryllup, som vores andet indhold om bryllup aldrig har dækket, fordi Eurolite-bjælken og Fresnel-spotten ADJ Encore FRI50Z hidtil kun er blevet præsenteret som lamper til firmascener i vores hovedguide. Ved et bryllup fungerer de præcis på samme måde.
+
+Eurolite LED KLS-200 er et farvet lys med 4 hoveder, der styres med fodpedal og rettes mod den, der optræder, et band, en dj eller et par, der holder tale, i stedet for mod en fast konstruktion. Fresnel-spotten ADJ Encore FRI50Z er en fast lampe med zoom til flodlys, den slags rolige lysstråle, der holder en taler synlig og jævnt belyst i stedet for at forsvinde i et mørkt hjørne af et telt eller en terrasse, når solen er gået ned. Ingen af dem er inkluderet i Wedding Pack. De er de samme varer med pris efter aftale som på en firmascene, prissat og stillet op på samme måde: Vores tekniker stiller dem op og retter dem mod det sted, hvor dit band, din dj-pult eller området til talerne faktisk er.
+
+![Et dj- og lydsetup udendørs på en terrasse med lyskæder ovenover, den slags område, som vi retter Eurolite-bjælken og fresnellen mod, når et band eller en dj-pult har brug for sit eget lys.](https://cdn.malagaeventgear.com/blog/1788/2025-10-05-DJ-audio-and-microphone-system-setup-1536x1152.webp "Et søjlesystem fra HK Audio med subwoofer og en trådløs mikrofon, der giver klar og tydelig lyd til et udendørs dj-event i Malaga.")
+
+## Wedding Pack, Eco Pack eller et separat tilbud
+
+Det ærlige svar afhænger af, hvilken række i tabellen ovenfor du har brug for. [Wedding Pack](/packages/wedding/) indeholder lyskæder, til 650 € ekskl. moms, til op til 80 gæster, med en tekniker på stedet under eventet. [Eco Pack](/packages/eco/) indeholder RGBW-spots, til 290 € ekskl. moms, til op til 50 gæster, og du styrer det selv uden tekniker, når vores team har leveret og testet det. Sættet til uplighting ved vielsen og lyset til scenen til band eller taler, Eurolite-bjælken og fresnellen, er ikke inkluderet i nogen af de to pakker: Begge er separate varer med pris efter aftale, præcis som ved enhver anden type event, vi sætter lys på.
+
+![Farvet lys på væggene på begge sider af et formelt middagsbord, den samme slags effektlys, som vores RGBW-spots og vores sæt til uplighting giver et dansegulv eller en baggrund ved vielsen til et bryllup.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-700x523.webp "Et historisk sted i Malaga forvandlet til et særligt event med professionelt lyd- og lysudstyr.")
+
+## Rigtige bryllupper, vi har leveret til
+
+Et kig på rigtige bryllupsbookinger i Malaga og langs Costa del Sol:
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" />
+</div>
+
+## Hvor lang tid i forvejen du skal booke
+
+Book, så snart din dato og dit sted er bekræftet. Efterspørgslen på Costa del Sol topper i bryllupssæsonen fra april til oktober, hvor teknikere og vores mest efterspurgte lamper bliver booket først. Da Eurolite-bjælken kun findes i 2 eksemplarer, og sættet til uplighting kun har 6 lamper i alt, giver en tidlig booking os også tid til at bekræfte, at de reelt er ledige, oven i den pakke du allerede har reserveret.
+
+## Konklusion
+
+Scenelys til bryllup hos MEG handler om de samme 5 rigtige produkter som på vores side om [leje af scenelys](/blog/stage-lighting-rental/), koblet til de øjeblikke på din dag, hvor de bruges: uplighting ved baggrunden til vielsen, lyskæder under velkomstdrinks og middagen, RGBW-spots på dansegulvet og Eurolite-bjælken med ADJ-fresnellen, der lyser en scene op til band, dj eller taler. [Kontakt os](/contact/) med dit sted og de øjeblikke, du gerne vil have lys på, så bekræfter vi, hvad der passer.
+
+## Ofte stillede spørgsmål
+
+### Hvordan adskiller denne side sig fra jeres generelle guide om lys til bryllup?
+
+Vores særskilte guide med lysidéer til bryllup beskriver lyskæderne i Wedding Pack og RGBW-spotsene i Eco Pack grundigt, med placering efter stedets konstruktion, pergolaer, træer og gange. Denne side sorterer i stedet alle vores 5 rigtige produkter til scenelys efter bryllupsdagens øjeblikke, herunder uplighting ved vielsen og lyset til scenen til band eller taler, som den guide ikke dækker.
+
+### Kan I sætte lys på et liveband eller en dj-pult ved et bryllup?
+
+Ja. Lysbjælken Eurolite LED KLS-200 og Fresnel-spotten ADJ Encore FRI50Z, begge med pris efter aftale, rettes mod den, der spiller eller taler, på samme måde som på en firmascene. Se [Et band, en dj eller en scene til taler](#et-band-en-dj-eller-en-scene-til-taler) ovenfor.
+
+### Hvor mange uplights har jeg brug for til baggrunden ved vielsen?
+
+Hele vores lager er 6 trådløse lamper, ADJ Element H6 Pack, som realistisk dækker 2 til 4 dele af stedet, en bue, et hovedbord eller en række søjler, ikke belysning af et helt rum. Vores særskilte guide om uplighting går mere i dybden med den ærlige beregning af dækningen og forbeholdene om vejret udendørs.
+
+### Er scenelys inkluderet i Wedding Pack, eller kræver det et separat tilbud?
+
+Kun lyskæderne er inkluderet i [Wedding Pack](/packages/wedding/). Sættet til uplighting ved vielsen og lyset til scenen til band eller taler er separate varer med pris efter aftale, på samme måde som RGBW-spotsene i [Eco Pack](/packages/eco/) kun er inkluderet i netop den pakke og ingen anden. Se [Wedding Pack, Eco Pack eller et separat tilbud](#wedding-pack-eco-pack-eller-et-separat-tilbud) ovenfor.
+
+### Tilbyder I moving heads eller DMX-programmerbart lys til bryllupper?
+
+Nej. Præcis som ved ethvert andet event, vi sætter lys på, styres vores lamper med fodpedal eller står fast, og de er ikke robotstyrede DMX-rigs, der panorerer og tilter. Se vores side om [leje af scenelys](/blog/stage-lighting-rental/#what-we-dont-stock) for den fulde liste over, hvad vi ikke har på lager.
+
+### Ændrer en finca, en villaterrasse, et telt eller en balsal, hvad I anbefaler?
+
+Mest i spørgsmålet om, hvorvidt vejret skal tages med i betragtning for en lampe. Vi har ikke bekræftet nogen vejrbestandighed for sættet til uplighting eller vores specielle lamper, så ved et bryllup under åben himmel på en finca eller en terrasse placerer vores tekniker dem, så de udnytter det ly, stedet giver, og bekræfter på stedet en overdækket reserveplacering. En balsal indendørs eller et telt fjerner helt det spørgsmål.
+
+### Følger der en tekniker med scenelyset til brylluppet?
+
+Det afhænger af lampen. Lyskæderne i [Wedding Pack](/packages/wedding/) kommer med en tekniker på stedet under eventet. RGBW-spotsene i [Eco Pack](/packages/eco/) stilles op og testes, og derefter styrer du dem selv uden tekniker. Sættet til uplighting, Eurolite-bjælken og fresnellen stilles alle op med en tekniker, der står for placeringen og, for sættet til uplighting, farven til dit event.

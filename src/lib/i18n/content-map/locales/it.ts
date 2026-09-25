@@ -67,6 +67,11 @@ export default {
 			slug: 'noleggio-uplighting',
 			keyword: 'noleggio uplighting a Malaga',
 			status: 'propuesta'
+		},
+		'stage-lighting-for-weddings': {
+			slug: 'illuminazione-scenica-matrimoni',
+			keyword: 'illuminazione scenica per matrimoni a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
