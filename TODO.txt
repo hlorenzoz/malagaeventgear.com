@@ -19,21 +19,12 @@ Verifica que se persistan los leads y sus respuestas en la base de datos, así c
 -- ❌ ✅ Comments
 
 
-
--- ❌ ✅ API REST
-
-Crea un API REST para la creación de contenido (INTEGRACIÓN) con SEO Toolkit, algo similar al WordPress API
-
-
-
 -- ❌ ✅ Tracking Google Analytics & Cloudflare Zaraz
-
 
 
 -- ❌ ✅ Error tracking
 
 Verifica también la persistencia en la base de datos, de forma tal que se pueda persistir los errores de forma tal que se pueda 
-
 
 
 ✅ Navbar oculta
@@ -245,6 +236,110 @@ real es ~93; la intermitencia NO_LCP/93 entre corridas es varianza del laborator
 
 Writeup completo para agentes: docs/home-no-lcp-investigation.md
 
+
+
+-- ❌ TGE en los posts existentes: enlaces a topgroupexpress.com (anotado 2026-09-25, revisado el mismo día)
+
+VA ANTES que "Contenido pendiente: congresos y eventos corporativos" (más abajo). Pedido del
+usuario: actualizar los posts publicados con contenido relevante que enlace a Top Group Express
+(TGE, ver TGE.txt) y le pase autoridad.
+
+Enfoque (decisión del usuario, 2026-09-25): TGE y MEG son PARTNERS, no afiliados. No hay
+comisión ni pago entre ellos. Donde un evento o congreso implica que la gente viaja y necesita
+hospedaje, el post lo dice y agrega que ese hospedaje se puede resolver con TGE, que tiene años
+de experiencia en la reserva de hoteles para grupos. Vale también para los posts News, aunque
+TGE no haya participado en esos eventos.
+
+Por qué el enlace puede pasar autoridad, y el límite:
+- Política de spam de Google (leída el 2026-09-25,
+  https://developers.google.com/search/docs/essentials/spam-policies). Es link spam
+  "Exchanging goods or services for links" y "Excessive link exchanges ('Link to me and I'll
+  link to you') or partner pages exclusively for the sake of cross-linking".
+- Sin comisión ni pago, el enlace es editorial y va normal (sin rel="sponsored"), así que pasa
+  autoridad. Si algún día hay contraprestación (comisión, descuento, pago), todos estos enlaces
+  pasan a rel="sponsored" y la relación se declara en el texto.
+- El riesgo que queda es el volumen: muchos posts con el mismo enlace comercial, y un enlace de
+  vuelta de TGE pactado, es el patrón de "excessive link exchanges". Por eso: 1 enlace por post
+  como máximo, solo donde el hospedaje es real para ese tipo de evento, anchors variados y
+  empezar por la tanda 1.
+
+Reglas de redacción:
+- "Años de experiencia" sí (TGE existe desde 2016 como proyecto y 2017 como sociedad). Nunca un
+  año, ni ninguna otra cifra de TGE.txt §8.4 (mínimo de habitaciones, horas de cotización,
+  número de hoteles, "primera central de Europa").
+- Público: TGE se presenta como "Exclusive service for professionals" y su llms.txt nombra
+  "travel agencies, tour operators and corporate clients". El texto habla a quien organiza el
+  viaje del grupo (agencia, DMC, empresa, wedding planner) y no promete que una pareja reserve
+  directo. CONFIRMAR con TGE (TGE.txt §9 pregunta 5) y ajustar el texto si un cliente final sí
+  puede.
+- En los posts News: frase del tipo "un congreso así trae asistentes de fuera que necesitan
+  hotel. Para el alojamiento de grupos, nuestro partner TGE...". Nunca dar a entender que TGE
+  alojó a esos asistentes ni que participó en el evento.
+- Nunca pegado a una reseña ni dentro de una cita.
+- Anchor: la marca ("Top Group Express") o una descripción ("reservas de hotel para grupos con
+  Top Group Express"). Nunca la misma frase exacta en todos los posts.
+- Pilares: sí se pueden editar. El reverse silo prohíbe que el pilar enlace hacia ABAJO a sus
+  supporting, no un enlace externo.
+- 13 idiomas: cada post editado se propaga a sus 12 traducciones en el mismo cambio (updatedDate
+  en inglés, sourceUpdated en cada traducción). Enlazar a la versión de TGE en el idioma del
+  lector cuando existe (TGE publica en, es, fr, it y zh simplificado, este último para
+  zh-hans). Para el resto, la versión inglesa. CONFIRMAR si zh-tw y zh-hk van a /zh o a /en.
+- Orden: editar cada post inglés ANTES de su turno de traducción en post-order.txt, así se
+  traduce una sola vez. De la tanda 1 ya está traducido solo event-technology-service, que
+  necesita los 13 idiomas en el mismo cambio.
+
+Análisis de los 77 posts (2026-09-25). Criterio: ¿la gente de ese tipo de evento suele viajar y
+dormir fuera de casa?
+
+Tanda 1, encaje fuerte (10 posts):
+ 1. event-technology-service (pilar del cluster MICE, orden 1, YA TRADUCIDO). Sección "How Far in
+    Advance to Book": las fechas de un congreso son fijas, y el hotel del grupo se reserva con
+    la misma antelación que la técnica.
+ 2. audio-visual-rental-for-conferences (orden 47). Sección "Delivery, Setup and On-Site
+    Support": delegados que llegan de fuera.
+ 3. audio-visual-rental-for-corporate-events (orden 43). Sección "Booking and Service Area":
+    grupos de empresa que viajan a la Costa del Sol.
+ 4. audio-visual-rental-for-trade-shows (orden 68). Donde habla de varios días en FYCMA o
+    Torremolinos (línea ~142): expositores y equipo de stand que se alojan varias noches.
+ 5. audio-visual-rental-for-sports-events (orden 33). Equipos y delegaciones
+    que viajan a un torneo. TGE nombra "equipos deportivos" en su propio blog (2025-01-24).
+ 6. audio-visual-rental-planning-timeline (orden 69). Sección "Booking Across the Costa del Sol,
+    Sevilla and Granada": la técnica de MEG pide 24 horas de aviso, el hotel de un grupo que
+    viaja se planifica con mucha más antelación. Sin citar plazos de TGE.
+ 7. timeline-for-booking-wedding-rentals (orden 27). Bodas de destino con invitados de fuera. Es
+    el caso de uso que TGE planteó en Facebook (mayo de 2024).
+ 8. news ProGold Summit 2026 (orden 74. Torremolinos, 4 días, asistentes internacionales).
+ 9. news ECOC 2026 (orden 77. FYCMA, delegados de Europa, Norteamérica y Asia, a 9 km del aeropuerto).
+10. news Bmotion Benahavís (orden 75. Evento corporativo de 2 días con invitados internacionales).
+
+Tanda 2, encaje medio (según cómo rinda la tanda 1):
+11. news Bmotion Marbella (orden 73, 2 días). Casi el mismo caso que Benahavís: si va uno solo, Benahavís.
+12. audio-visual-rental (pilar general, orden 29). La mención a incentivos del
+    MICE Pack (línea ~235).
+13. wedding-rentals (pilar de bodas). Una frase en la sección de reservas.
+14. all-in-one-wedding-rental-packages. En "lo que el paquete no incluye": el alojamiento de los
+    invitados no es AV, y para grupos está TGE.
+15. audio-visual-rental-for-gala-dinners (orden 42). Galas de cierre de un congreso o de un viaje de
+    incentivo, con los asistentes alojados en hotel.
+16. audio-visual-rental-for-product-launches. Lanzamientos con distribuidores o prensa que
+    viajan.
+17. av-equipment-consultations (orden 64). La frase de la temporada de congresos (línea ~152).
+18. audio-visual-rental-for-religious-events (orden 37). Solo para peregrinaciones o encuentros con grupos
+    que viajan (TGE nombra viajes religiosos en Facebook, 2024). No para un bautizo local.
+
+Sin encaje (no se tocan): los posts de equipo (projector, tv screen, sound system, stage monitor,
+stage lighting, uplighting, smoke machine, video switcher, headset, calibration, cable
+management, troubleshooting, safety, technician hire, technical support), los genéricos de
+alquiler (companies, company, near me, benefits, how it works, common mistakes, customize,
+small businesses), los eventos locales o sin viaje (private parties, outdoor events, art
+exhibitions, music performances, charity fundraisers, press conferences, corporate meetings,
+seminars, training sessions, remote presentations, virtual events), los demás posts de bodas
+(sobre decoración, luz, clima, costos o cambios de último momento), el news del consejo
+vecinal (evento de barrio), el news del sitio nuevo y el standalone.
+
+Después, cuando exista la página de partner (idea 23 de la sección siguiente), los posts pueden
+seguir enlazando directo a TGE. La página de partner no se crea solo para enlazar (política
+citada arriba).
 
 
 -- ❌ Contenido pendiente: congresos y eventos corporativos (anotado 2026-09-25)
