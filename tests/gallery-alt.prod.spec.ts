@@ -1,5 +1,4 @@
 import { test, expect } from '@playwright/test';
-import { revealLazyContent } from './support/lazy';
 import de from '../src/lib/i18n/data/de';
 import fr from '../src/lib/i18n/data/fr';
 import zhHans from '../src/lib/i18n/data/zh-hans';
@@ -42,7 +41,15 @@ for (const [path, locale] of [
 	test(`every carousel on ${path} serves the ${locale} alt of each image`, async ({ page }) => {
 		const response = await page.goto(path);
 		expect(response?.status()).toBe(200);
-		await revealLazyContent(page);
+		// Each carousel mounts when it scrolls near the viewport (IntersectionObserver): bring
+		// every one into view and wait for its images before reading them.
+		const carousels = page.locator('.marquee-container');
+		const count = await carousels.count();
+		expect(count, `${path}: no carousel on the page`).toBeGreaterThan(0);
+		for (let i = 0; i < count; i++) {
+			await carousels.nth(i).scrollIntoViewIfNeeded();
+			await expect(carousels.nth(i).locator('.marquee-item img').first()).toBeAttached();
+		}
 		const images = await page
 			.locator('.marquee-item img')
 			.evaluateAll((nodes) => nodes.map((node) => ({ src: node.getAttribute('src') ?? '', alt: node.getAttribute('alt') ?? '' })));
