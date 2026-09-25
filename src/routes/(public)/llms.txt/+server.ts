@@ -1,6 +1,6 @@
 import { packages, getPriceRange, withPrices, VAT_RATE } from '$lib/data/packages';
 import { faqs } from '$lib/data/faq';
-import { getCategories, getPosts } from '$lib/data/blog';
+import { getCategories, getPosts, getPostsByCategory } from '$lib/data/blog';
 import { siteConfig } from '$lib/data/site';
 import { GMB_PROFILE_URL, getReviewsMeta } from '$lib/data/testimonials';
 import { PAGE_LOCALES } from '$lib/i18n/availability';
@@ -77,6 +77,11 @@ function buildLlmsTxt(): string {
 		.map((post) => entry(post.title, post.url, sentence(post.description)))
 		.join('\n');
 
+	// CLAUDE.md, Posicionamiento rule 4: published Experience comes only from the News posts.
+	const newsEntries = getPostsByCategory('news')
+		.map((post) => entry(post.title, post.url, sentence(post.description)))
+		.join('\n');
+
 	const categoryEntries = categories
 		.map((cat) => entry(cat.name, `/blog/category/${cat.slug}/`, CATEGORY_BLURBS[cat.slug] ?? `Articles filed under ${cat.name}.`))
 		.join('\n');
@@ -89,7 +94,7 @@ function buildLlmsTxt(): string {
 
 	return `# ${siteConfig.brandName} (${siteConfig.brandShortName})
 
-> Audiovisual equipment rental company in Málaga, Spain. Fixed price packages (sound, lighting, projection, microphones) with delivery, professional setup and collection included, for weddings, private parties and corporate MICE events across Málaga, Marbella and the Costa del Sol. Delivery only: there is no self pickup.
+> Audiovisual equipment rental company in Málaga, Spain. Fixed price packages (sound, lighting, projection, microphones) with delivery, professional setup and collection included, for weddings, private parties and corporate MICE events across Málaga, Marbella and the Costa del Sol. Delivery only: there is no self pickup. Beyond its own inventory, MEG looks for what else an event needs through its suppliers.
 
 ## Docs
 
@@ -113,6 +118,12 @@ In depth guides from the company's own experience, one per main service.
 
 ${guideEntries}
 
+## Company News and Past Events
+
+Real events MEG equipped and company announcements, one published News post each. These are the only past events MEG reports, and each post says what MEG supplied there.
+
+${newsEntries}
+
 ## Blog
 
 ${posts.length} published articles on audiovisual rental for events, written from the company's own field experience in Málaga.
@@ -131,6 +142,9 @@ ${faqEntries}
 - Active in the audiovisual industry since ${siteConfig.foundingYear}. Operating as independent professionals since 2010.
 - Location: ${siteConfig.displayAddress}, Spain
 - Business categories: ${siteConfig.categories.join(', ')}
+- Integral event solutions: MEG rents event equipment, mainly sound for corporate events, which is most of its own inventory. What it sells is the solution for the event: for a client who hired MEG, whatever the event needs, AV or not, that is not in MEG's own inventory, MEG looks for a solution with its suppliers, if there is one. It never promises availability or a deadline for sourced items, and never presents them as its own.
+- Own inventory: what each package lists above is included and delivered. Owned equipment that no package names (for example the Eurolite LED KLS-200 light bars, the ADJ Encore FRI50Z Fresnel, the ADJ Element H6 Pack wireless uplighting kit, and lavalier and headset microphones) is a separate item, quoted on request. MEG owns one smoke machine, a single 60 inch LED display and manually controlled lighting, with no DMX control or moving heads.
+- Simultaneous interpretation and interactive voting systems: arranged through a subcontracted partner, not with MEG's own equipment.
 - Service model: delivery only. MEG transports the equipment, installs it professionally, tests sound and lighting, and collects everything after the event.
 - Pricing model: fixed package prices from ${min} EUR to ${max} EUR per event, excluding ${vatPercent}% VAT. Delivery and setup are included. Optional extras are priced per package, above.
 - Opening hours: commercial enquiries ${siteConfig.operatingHours.opens}-${siteConfig.operatingHours.closes}, Monday to Sunday. Technical setup and live event support 24/7.

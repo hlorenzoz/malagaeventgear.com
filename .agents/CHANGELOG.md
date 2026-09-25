@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (llms-txt-positioning)
+- **`/llms.txt` con el posicionamiento de soluciones integrales** (decision del usuario, 2026-09-25): el resumen y los Key Facts separan el inventario propio (lo que lista cada paquete se entrega, el equipo que ningun paquete nombra se cotiza aparte) de lo que MEG consigue con proveedores, "if there is one", sin prometer disponibilidad ni plazo. Suma la traduccion simultanea y la votacion via socio subcontratado.
+- **Seccion nueva "Company News and Past Events"**, derivada de los posts de la categoria News (`getPostsByCategory('news')`): son la unica fuente publicada de eventos pasados (CLAUDE.md, Posicionamiento, regla 4).
+- **Metadatos de los posts News sin tipografia de IA** (regla 12): titulo del post de Bmotion en Marbella y `description` de cuatro posts (comillas curvas, raya, "High-Profile", "fixed-price", texto de WordPress pegado). Sin cambio de `updatedDate`: no es un cambio de contenido.
+- **Guards**: `tests/llms-txt.spec.ts` exige la seccion nueva, cada post News y las dos capas (inventario propio y proveedores).
+
 ### Fixed (effects-claims)
 - **Efectos especiales fieles al inventario en todo el sitio** (confirmado por el negocio el 2026-09-25): el unico equipo de efectos es una maquina de humo Martin Magnum 650. Sin hazers, niebla baja, canones de confeti ni pirotecnia, y en la Billie Jean King Cup 2024 MEG puso solo la luz y el sonido. Corregido en el pilar de alquiler de equipo audiovisual, el post de eventos deportivos, el manifest de imagenes, la home, /equipment/, tres respuestas de la FAQ y los terminos, en los 13 idiomas, con sus fechas de frescura.
 - **Sin control DMX**: la iluminacion real se maneja con pedal y a mano. Corregido en los posts de soporte tecnico y de cenas de gala.

@@ -29,6 +29,7 @@ test.describe('llms.txt (llmstxt.org standard) E2E Tests', () => {
 			'## Packages',
 			'## Blog',
 			'## Guides',
+			'## Company News and Past Events',
 			'## Frequently Asked Questions',
 			'## Key Facts',
 			'## Contact',
@@ -98,6 +99,31 @@ test.describe('llms.txt (llmstxt.org standard) E2E Tests', () => {
 		]) {
 			expect(text).toContain(`${siteConfig.url}/blog/${slug}/`);
 		}
+	});
+
+	test('should list every News post, the only published source of past events', async ({ request }) => {
+		const text = await (await request.get(`${baseUrl}/llms.txt`)).text();
+		// CLAUDE.md, Posicionamiento rule 4: Experience comes only from the blog's News posts.
+		for (const slug of [
+			'7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain',
+			'news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella',
+			'news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos',
+			'news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis',
+			'news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga',
+			'news-malaga-event-gear-unveils-new-rebranded-website'
+		]) {
+			expect(text).toContain(`${siteConfig.url}/blog/${slug}/`);
+		}
+	});
+
+	test('should separate the own inventory from what MEG sources through suppliers', async ({ request }) => {
+		const text = await (await request.get(`${baseUrl}/llms.txt`)).text();
+		// CLAUDE.md, Posicionamiento: two layers, and a hedge instead of a promise of availability.
+		expect(text).toContain('Integral event solutions');
+		expect(text).toContain('own inventory');
+		expect(text).toContain('suppliers, if there is one');
+		expect(text).toContain('quoted on request');
+		expect(text).toContain('subcontracted partner');
 	});
 
 	test('should state the real Google rating and review count', async ({ request }) => {
