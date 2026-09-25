@@ -137,3 +137,5 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 .lighthouseci/
 
 .agents/context/google-search-console-gsc/
+# Google Search Console exports (performance data): local only, never committed.
+.agents/context/keywords/google-search-console-gsc/*/*.csv
