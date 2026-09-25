@@ -238,11 +238,43 @@ Writeup completo para agentes: docs/home-no-lcp-investigation.md
 
 
 
--- ❌ TGE en los posts existentes: enlaces a topgroupexpress.com (anotado 2026-09-25, revisado el mismo día)
+-- ❌ Posts existentes: mención a TGE + FAQs nuevas, en todos los idiomas (anotado 2026-09-25, revisado el mismo día)
 
 VA ANTES que "Contenido pendiente: congresos y eventos corporativos" (más abajo). Pedido del
 usuario: actualizar los posts publicados con contenido relevante que enlace a Top Group Express
 (TGE, ver TGE.txt) y le pase autoridad.
+
+UNA sola actualización por post (decisión del usuario, 2026-09-25): la mención a TGE y las FAQs
+nuevas de la investigación de keywords se hacen juntas, en el mismo cambio, y en TODOS los
+idiomas del post:
+- Post ya traducido: el mismo cambio edita el inglés y sus 12 traducciones, con updatedDate en
+  inglés y sourceUpdated en cada traducción (CLAUDE.md, regla 2 de idioma y "Actualizar un post
+  ya publicado").
+- Post todavía sin traducir: la edición inglesa entra ANTES de su turno en post-order.txt, así
+  se traduce una sola vez con todo adentro.
+- Cada FAQ nueva lleva su pregunta y respuesta en cada idioma, con el encabezado de FAQ de
+  blogStructure, y el guard de estructura (scripts/post-structure.test.ts) exige la misma
+  cantidad de preguntas en inglés y en cada traducción.
+
+Qué recibe cada post:
+
+| Post | Orden | TGE | FAQ nueva |
+| :--- | :--- | :--- | :--- |
+| event-technology-service | 1 (traducido) | tanda 1 | no |
+| timeline-for-booking-wedding-rentals | 27 | tanda 1 | no |
+| audio-visual-rental-for-sports-events | 33 | tanda 1 | no |
+| audio-visual-rental-for-corporate-events | 43 | tanda 1 | "What is a run of show for a corporate event?" [PAA + RS], CONFIRMAR como la idea 6 de abajo |
+| audio-visual-rental-for-conferences | 47 | tanda 1 | "What AV equipment do you need for a conference?" [AC + SERP], solo equipo real, sin cámaras ni streaming |
+| projector-rental | 55 | no | "How many lumens do I need for a conference room projector?" [AC + SERP] |
+| tv-screen-rental | 57 | no | "What screen size do I need for my conference room?" [AC], distinta de la FAQ de 55 pulgadas del 2026-09-24 |
+| audio-visual-rental-for-trade-shows | 68 | tanda 1 | no |
+| audio-visual-rental-planning-timeline | 69 | tanda 1 | no |
+| news ProGold, ECOC y Bmotion Benahavís | 74, 77, 75 | tanda 1 | no |
+
+Las preguntas "Why does a podium sometimes have two microphones?" [PAA] y "What is a gooseneck
+microphone?" [RS] NO van en un post existente: van en el post nuevo de las ideas 16+17 (podium
+microphone rental), así headset-lavalier-microphone-rental, ya traducido, no se edita en 13
+idiomas por dos preguntas que después se moverían.
 
 Enfoque (decisión del usuario, 2026-09-25): TGE y MEG son PARTNERS, no afiliados. No hay
 comisión ni pago entre ellos. Donde un evento o congreso implica que la gente viaja y necesita
@@ -374,6 +406,78 @@ Condiciones para CADA idea:
   vecinal). Reseñas reales solo textuales.
 - CONFIRMAR = hace falta un dato del negocio antes de escribir.
 
+Investigación de keywords (2026-09-25, agente aparte). Informe completo:
+.agents/context/keywords/keyword-research-conferences-2026-09-25.md
+- Método: autocompletado de Google (gl=es, comparado con gb y us sin diferencias), People Also
+  Ask, búsquedas relacionadas y las páginas que rankean en 8 consultas. Sin herramienta paga, así
+  que NO hay volumen, dificultad ni CPC. Cada keyword lleva la evidencia que se vio: AC
+  (autocompletado), PAA, RS (búsquedas relacionadas), SERP (títulos de las páginas que rankean).
+  Más tipos de evidencia, keyword más fuerte.
+- Verificado a mano el mismo día: el autocompletado devuelve `podium microphone rental`,
+  `gooseneck microphone rental`, `lectern rental`, `stage riser rental`, `how many lumens for
+  conference room projector` y `how to organize a congress`.
+- Resultado: no hace falta un pilar nuevo. Casi toda keyword con evidencia coincide con una idea
+  de abajo, así que la investigación confirma el plan y cambia el ORDEN.
+
+Estructura de clústeres (pilar, clúster, ideas de abajo en orden de cadena, evidencia):
+
+event-technology-service (pilar MICE, 0 supporting, posición ponderada 33,9)
+  Clúster A, planificar un congreso en Málaga
+    - idea 1 `how to organize a congress in malaga` [AC + SERP]. Entidades a cubrir: FYCMA
+      (Palacio de Ferias y Congresos de Málaga), Palacio de Congresos de Torremolinos, Palacio de
+      Congresos de Marbella, Convention Bureau, DMC, delegados, viaje de incentivo, capacidad de
+      sala, run of show. `congress malaga`, `fycma malaga`, `medical congress malaga`, `dmc
+      malaga` y `team building malaga` van como entidades DENTRO de este post, nunca como keyword
+      propia: MEG no es sede, ni DMC, ni organiza team building.
+    - idea 2 `incentive trip event planning` [sin AC]. Se mantiene por lógica de negocio (TGE).
+    - idea 14 `medical congress satellite symposium av` [AC en `medical congress malaga`].
+      Sigue CONFIRMAR.
+  Clúster B, producción técnica
+    - idea 6 `run of show for corporate events` [AC]. Sigue CONFIRMAR.
+    - idea 7 `keynote speaker av requirements` [sin AC, inventario real].
+    - ideas 5 y 8 [sin AC]. Van detrás de las que tienen evidencia.
+  Clúster D, tarimas
+    - idea 9 `stage platform rental for conferences` [AC + SERP en `stage platform rental` y
+      `stage riser rental`]. Inventario: módulos Guil de 2x1 m (Equipamiento.csv no da cantidad
+      ni alturas). CONFIRMAR cantidad y alturas.
+  Clúster E, ceremonias
+    - idea 10 `awards ceremony production` [AC en `award show production`].
+
+audiovisual-equipment-rental-service (1 supporting: headset-lavalier-microphone-rental)
+  Clúster C, micrófonos y atril para conferencias
+    - ideas 16 y 17 FUSIONADAS en un solo post: `podium microphone rental` [AC exacta + SERP +
+      PAA], con los micros de mesa como sección. Motivo: Equipamiento.csv lista los ADX12 y
+      ADX212 como "microfono de mesa, con base K&M y pinza D-Clip". Son las mismas 4 unidades
+      para atril y para mesa, y dos posts sobre el mismo inventario quedan finos y compiten entre
+      sí. CONFIRMAR si el cuello de ganso de los paquetes MICE es una de esas 4 unidades.
+    - idea 18 `wireless handheld microphone rental` [AC exacta].
+    - idea 19 `lectern rental` [AC exacta, también `acrylic lectern rental`]. Inventario: 2
+      atriles de metacrilato.
+    - idea 20 `projector lumens for conference room` [AC + SERP]. Las guías que rankean dicen
+      2.500 a 3.000 lm para salas chicas y medianas y 5.000 o más para salas grandes o con luz,
+      que es justo el Vivitek D5 (3000 lm) y el Christie LX505 (5000 lm).
+
+wedding-rentals
+  Clúster F, bodas de destino
+    - idea 22 `destination wedding av costa del sol` [sin AC exacta, la SERP muestra demanda de
+      `wedding planner malaga`]. Lleva la mención a TGE.
+
+Orden para escribir (reemplaza el orden de las listas de abajo):
+ 1. idea 1       how to organize a congress in malaga
+ 2. ideas 16+17  podium microphone rental, con los micros de mesa
+ 3. idea 9       stage platform rental for conferences
+ 4. idea 20      projector lumens for conference room
+ 5. idea 18      wireless handheld microphone rental
+ 6. idea 19      lectern rental
+ 7. idea 10      awards ceremony production
+ 8. idea 22      destination wedding av costa del sol
+ 9. evidencia débil o CONFIRMAR pendiente: ideas 6, 7, 2, 14, 5 y 8
+10. sin evidencia de búsqueda, solo lógica de negocio: ideas 3, 4, 11, 12, 13 y 15. La idea 21
+    no se investigó.
+
+Las FAQs nuevas para posts ya publicados que salieron de esta investigación se movieron a la
+sección "Posts existentes: mención a TGE + FAQs nuevas" (más arriba).
+
 A) Silo event technology service (pilar /blog/event-technology-service/). Orden de la cadena:
 
  1. `how to organize a congress in malaga`: guía de planificación de un congreso en Málaga. Sede,
@@ -460,3 +564,15 @@ Descartadas, y por qué:
 - Otro "audio visual rental for <evento corporativo>": ese patrón ya vive en el silo audio visual
   rental (41 posts).
 - Registro, acreditaciones y apps de eventos: MEG no lo hace.
+- Por la investigación de keywords (2026-09-25):
+  - `hybrid meeting`: pide cámaras y streaming.
+  - `breakout rooms`: la intención es de software (Zoom, Teams, Google Meet), no de alquiler de
+    equipo.
+  - `keynote speaker`, `lectern`, `awards ceremony` y `gala dinner av` sueltas: el autocompletado
+    es ruido (definiciones, Minecraft, galas de aviación). Se usan solo las versiones largas de
+    arriba.
+  - `shareholder meeting av`: el autocompletado son juntas de aseguradoras. La idea 13 sigue,
+    pero al final.
+  - `costa del sol convention`: casi todo es ruido (convenciones sin relación con eventos).
+  - `dmc malaga`, `event planner malaga` y `event company malaga` como páginas propias: intención
+    de directorio, y la última canibaliza audio-visual-rental-company.
