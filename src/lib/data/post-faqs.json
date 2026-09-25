@@ -2,7 +2,7 @@
   "audio-visual-rental-safety-guidelines": [
     {
       "question": "Does Malaga Event Gear use rigging or truss to mount speakers or lights overhead?",
-      "answer": "No. Every speaker, microphone and light we deliver is floor or stand mounted on its own tripod, confirmed against our own inventory. We do not stock or install overhead rigging or truss. See What We Do Not Do: No Rigging or Overhead Truss above."
+      "answer": "No, not with our own crew. Our speakers, microphones and lighting fixtures are floor or stand mounted on their own tripods, confirmed against our own inventory, and the crew does not build truss or fly speakers and lighting fixtures overhead. The only thing our crew strings up is the Wedding Pack's fairy lights, along a structure at your venue. See What Our Own Crew Does Not Do: Rigging or Overhead Truss above."
     },
     {
       "question": "Who is actually on site to handle a safety issue during my event?",
@@ -54,7 +54,7 @@
     },
     {
       "question": "Do you provide an LED video wall for product launches?",
-      "answer": "No, the Product Presentation Pack is a projector and screen setup, not an LED video wall. The 5000 lumen projector is not laser and we do not publish a resolution figure for it, but it is built to stay legible in a lit room."
+      "answer": "Not from our own inventory. The Product Presentation Pack is a projector and screen setup, not an LED video wall. The 5000 lumen projector is not laser and we do not publish a resolution figure for it, but it is built to stay legible in a lit room. See What We Stock, and What We Source above."
     },
     {
       "question": "Can I connect my own laptop or tablet to your AV setup?",
@@ -70,7 +70,7 @@
     },
     {
       "question": "Do you provide live streaming or video recording for a product launch?",
-      "answer": "No, we do not provide cameras, streaming or broadcast equipment. Our setup covers the room's screen, projector and sound."
+      "answer": "Not with our own equipment: cameras, streaming and broadcast equipment are not in our own inventory. Our setup covers the room's screen, projector and sound. See What We Stock, and What We Source above."
     },
     {
       "question": "How many microphones are included for a product launch?",
@@ -230,11 +230,11 @@
   "audio-visual-rental-for-press-conferences": [
     {
       "question": "What AV equipment do I need for a press conference?",
-      "answer": "A podium microphone, PA sound that reaches the room, and a screen for branding or slides. The Basic MICE Pack covers a smaller press conference; the MICE Pack covers a larger one with a technician included. See Press Conference vs. General Conference above."
+      "answer": "A podium microphone, PA sound that reaches the room, and a screen for branding or slides. The Basic MICE Pack covers a smaller press conference, and the MICE Pack covers a larger one with a technician included. See Press Conference vs. General Conference above."
     },
     {
       "question": "Do you provide a camera riser or platform for press photographers?",
-      "answer": "We don't supply cameras, but our staging add on on the MICE Pack can be positioned as a riser or platform for photographers and camera operators."
+      "answer": "Cameras are not in our own inventory, but our staging add on on the MICE Pack can be positioned as a riser or platform for photographers and camera operators."
     },
     {
       "question": "How many microphones do I need for a press conference?",
@@ -242,15 +242,15 @@
     },
     {
       "question": "Do you provide a press mult box or individual audio feeds for reporters?",
-      "answer": "No, a mult box to distribute the podium audio to multiple reporters' recorders is not part of our catalog. Press typically bring and manage their own recording equipment at the podium."
+      "answer": "Not from our own inventory: a mult box to distribute the podium audio to multiple reporters' recorders is not part of it. Press typically bring and manage their own recording equipment at the podium. See What We Stock, and What We Source above."
     },
     {
-      "question": "Does the AV company provide a branded backdrop or step-and-repeat banner?",
-      "answer": "No, a backdrop or banner is usually sourced through your PR or marketing team. We set up the podium, sound and staging it stands in front of."
+      "question": "Does the AV company provide a branded backdrop or step and repeat banner?",
+      "answer": "Not from our own inventory. A backdrop or banner is usually sourced through your PR or marketing team, and we set up the podium, sound and staging it stands in front of. See What We Stock, and What We Source above if yours is not."
     },
     {
       "question": "Do you provide live streaming, broadcast feed or video recording?",
-      "answer": "No, we do not provide cameras, streaming or broadcast equipment. Our setup covers the room's sound, screen and staging."
+      "answer": "Not with our own equipment: cameras, streaming and broadcast equipment are not in our own inventory. Our setup covers the room's sound, screen and staging."
     },
     {
       "question": "How far in advance should I book AV equipment for a press conference?",
@@ -374,7 +374,7 @@
     },
     {
       "question": "Can wedding lighting include gobo or monogram projection?",
-      "answer": "Not through MEG. Gobo and monogram projection, casting a couple's initials or a pattern onto a wall or floor, isn't part of either package. If that's specifically what you're after, it needs a separate specialty lighting vendor. Our essential items for wedding rentals guide covers the full line of what MEG does and doesn't rent."
+      "answer": "Not from our own inventory. Gobo and monogram projection, casting a couple's initials or a pattern onto a wall or floor, isn't part of either package or of the lighting we own. If that's specifically what you're after, see What MEG's Wedding Lighting Actually Is, and Isn't above."
     },
     {
       "question": "Where should fairy lights be placed at an outdoor wedding?",
@@ -576,7 +576,7 @@
     },
     {
       "question": "Do you supply tents, canopies or generators for outdoor weather protection?",
-      "answer": "No. We do not stock tents, canopies, marquees, generators, portable air conditioning or heaters. Venue provided shelter and power need to be confirmed by you directly with your venue. Tell us what is available when you book so our technician can plan the AV setup around it."
+      "answer": "Not from our own inventory: tents, canopies, marquees, generators, portable air conditioning and heaters are not part of it. Venue provided shelter and power need to be confirmed by you directly with your venue. Tell us what is available when you book so our technician can plan the AV setup around it, and see What MEG Does Not Stock above if it falls short."
     },
     {
       "question": "If the forecast changes close to my event date, how much flexibility do I have?",
@@ -584,7 +584,7 @@
     },
     {
       "question": "Who handles the equipment if it rains, me or your crew?",
-      "answer": "Our crew. We operate delivery only, there is no self pickup option, so our own trained team transports, installs and retrieves every system regardless of weather, rather than a client handling the gear themselves."
+      "answer": "Our crew. We operate delivery only, with no self pickup option, so our own trained team transports, installs and retrieves every system regardless of weather, rather than a client handling the gear themselves."
     },
     {
       "question": "How does wind affect where you place speakers and lighting outdoors?",
@@ -598,7 +598,7 @@
     },
     {
       "question": "Is this the same as a camera switcher or a live streaming production switcher?",
-      "answer": "No. This is the single most important distinction on this page. Our Kramer VP-731 switches presentation sources, a laptop, a second laptop, a DVD player, onto your room's own screen. It does not accept camera inputs and it is not built for live streaming or broadcast production. Malaga Event Gear does not offer camera equipment, video recording, live streaming or broadcast services of any kind. See Video Switcher vs Camera Switcher above."
+      "answer": "No. This is the single most important distinction on this page. Our Kramer VP-731 switches presentation sources, a laptop, a second laptop, a DVD player, onto your room's own screen. It does not accept camera inputs and it is not built for live streaming or broadcast production. Cameras, filming and live streaming are not in our own inventory either. See Video Switcher vs Camera Switcher above."
     },
     {
       "question": "How many sources can it switch between?",
@@ -606,11 +606,11 @@
     },
     {
       "question": "Can I rent just the switcher without a technician?",
-      "answer": "No. This is technician operated equipment, consistent with our delivery only model, we do not offer self collect or self run rentals of any kind. On the Basic MICE Pack, adding the video switcher requires the on site live technical assistant add on. On the MICE Pack, the included technician manages it as part of the standard booking."
+      "answer": "No. This is technician operated equipment, so it goes out with a technician, not as a self run box. Consistent with our delivery only model, we also do not offer self collect rentals. On the Basic MICE Pack, adding the video switcher requires the on site live technical assistant add on. On the MICE Pack, the included technician manages it as part of the standard booking."
     },
     {
       "question": "Video switcher vs camera or vision mixer for live streaming, what is the real difference?",
-      "answer": "A video switcher like ours cuts between presentation sources for a room's own screen, a laptop to a laptop to a DVD player. A camera or vision mixer for live streaming accepts multiple camera feeds and produces a program output for a broadcast or a stream to remote viewers, an entirely different category of equipment with a different signal chain. MEG stocks the first and does not offer the second: no cameras, no recording, no live streaming or broadcast services. If your event needs a filmed record or a stream to remote attendees, tell us directly and we will confirm plainly that it is not something we provide."
+      "answer": "A video switcher like ours cuts between presentation sources for a room's own screen, a laptop to a laptop to a DVD player. A camera or vision mixer for live streaming accepts multiple camera feeds and produces a program output for a broadcast or a stream to remote viewers, an entirely different category of equipment with a different signal chain. MEG stocks the first. The second, and the cameras, filming and live streaming that go with it, are not in our own inventory. If your event needs a filmed record or a stream to remote attendees, see Video Switcher vs Camera Switcher above."
     },
     {
       "question": "Which packages include this, and how much does it cost?",
@@ -618,11 +618,11 @@
     },
     {
       "question": "What sources can it actually switch between?",
-      "answer": "Confirmed, real sources: a laptop, a second laptop, and a DVD player, drawn from an LG-RH7500 DVD recorder and hard disk unit in our inventory. We do not stock a document camera or a visualizer, so we will not offer one as a source if your event asks for it."
+      "answer": "Confirmed, real sources: a laptop, a second laptop, and a DVD player, drawn from an LG-RH7500 DVD recorder and hard disk unit in our inventory. There is no document camera or visualizer in our own inventory, so neither appears on that list. See Video Switcher vs Camera Switcher above if your event needs one."
     },
     {
       "question": "Do you rent the DVD recorder, or other recording equipment, separately from the switcher?",
-      "answer": "No. The LG-RH7500 DVD recorder and hard disk unit is one of the switcher's three confirmed sources, not a standalone rental item, and it has no camera input. If you are searching for recording equipment rental meaning cameras, lenses, or production gear to film your event, that is not something MEG offers: we are an audio, screen, and lighting rental company for events, not a camera or video production equipment supplier. Tell us directly if that is what you need and we will confirm plainly that it is outside what we provide."
+      "answer": "No. The LG-RH7500 DVD recorder and hard disk unit is one of the switcher's three confirmed sources, not a standalone rental item, and it has no camera input. If you are searching for recording equipment rental meaning cameras, lenses or production gear to film your event, none of that is in our own inventory: what we own is audio, screen and lighting equipment for events. See Video Switcher vs Camera Switcher above for how we handle that request."
     },
     {
       "question": "Do I need this for a small event, or only for larger corporate bookings?",
@@ -728,7 +728,7 @@
     },
     {
       "question": "What's the largest screen size available?",
-      "answer": "2x2 meters, on the Basic MICE Pack. We do not publish a larger a la carte screen size."
+      "answer": "The screen included in the Basic MICE Pack is 2x2 meters. If you need a larger image, see Why the Screen Is Always Bundled With the Projector above."
     },
     {
       "question": "What brightness or lumens do I need for a daylit or brightly lit room?",
@@ -736,11 +736,11 @@
     },
     {
       "question": "Do you offer 4K or laser projectors?",
-      "answer": "No. We rent a 3000 lumen projector and a 5000 lumen projector, neither laser, and we do not publish a resolution figure, such as 4K, for either tier."
+      "answer": "Not in our own inventory. We rent a 3000 lumen Vivitek D5 and a 5000 lumen Christie LX505, neither laser, and we do not publish a resolution figure, such as 4K, for either one. See What We Don't Stock above."
     },
     {
       "question": "Can you project onto a building facade or do outdoor projection mapping?",
-      "answer": "No. Facade projection and outdoor projection mapping fall outside our current catalog. Our projector and screen setups are built for indoor presentations, conferences and product showcases, not building scale outdoor projection."
+      "answer": "Not with our own equipment. Facade projection and outdoor projection mapping are not part of our own inventory, and our projector and screen setups are built for indoor presentations, conferences and product showcases, not building scale outdoor projection. See What We Don't Stock above."
     },
     {
       "question": "Is setup and installation included?",
@@ -1148,7 +1148,7 @@
     },
     {
       "question": "Does Malaga Event Gear provide lighting for the artwork itself?",
-      "answer": "No. We do not stock gallery track lighting, picture lights, or high CRI spotlighting built to illuminate artwork on a wall. See The Honest Line above for exactly what our lighting inventory is instead."
+      "answer": "Not from our own inventory. Gallery track lighting, picture lights and high CRI spotlighting built to illuminate artwork on a wall are not part of it. See The Honest Line above for exactly what our lighting inventory is instead, and for what to do if your pieces need that kind of light."
     },
     {
       "question": "What ambient lighting do you provide for the reception?",
@@ -1498,7 +1498,7 @@
     },
     {
       "question": "Do you bury cables or use cable ramps for high traffic areas?",
-      "answer": "No, honestly. We do not trench or bury cable runs, that is permanent installation work outside our delivery only model, and we do not stock a named cable ramp or raceway product. We route and tape cable flat along walls and floor edges instead. See What We Do Not Do above."
+      "answer": "Not with our own crew or inventory. We do not trench or bury cable runs, since that is permanent installation work outside our delivery only model, and there is no named cable ramp or raceway product in our own inventory. We route and tape cable flat along walls and floor edges instead. See What We Don't Stock or Install above."
     },
     {
       "question": "Does weather affect how cables are managed outdoors?",
@@ -1510,7 +1510,7 @@
     },
     {
       "question": "Is cable management different for a small party versus a large corporate event?",
-      "answer": "The habits are the same, but the scale changes what there is to route. The Eco Pack has 2 speakers and 2 light bars to manage cable around. The MICE Pack's catalog description calls out \"custom wiring setup\" specifically because a 60 inch display, dual microphones, and a longer event with an on-site technician managing the run throughout is a genuinely more complex job than a small party's setup. See Is Cable Management Included in Every Package above."
+      "answer": "The habits are the same, but the scale changes what there is to route. The Eco Pack has 2 speakers and 2 light bars to manage cable around. The MICE Pack's catalog description calls out \"custom wiring setup\" specifically because a 60 inch display, dual microphones, and a longer event with an on site technician managing the run throughout is a genuinely more complex job than a small party's setup. See Is Cable Management Included in Every Package above."
     }
   ],
   "all-in-one-wedding-rental-packages": [
@@ -1572,19 +1572,19 @@
   "audio-visual-rental-for-trade-shows": [
     {
       "question": "Do you provide LED video walls for a trade show booth?",
-      "answer": "No. Our large format display is a single premium 60 inch high definition LED screen with a designer stand, not a modular tiled LED video wall. See The Honest Line above."
+      "answer": "Not from our own inventory. Our large format display is a single premium 60 inch high definition LED screen with a designer stand, not a modular tiled LED video wall. See The Honest Line above."
     },
     {
       "question": "Do you design or build exhibition booths and stands?",
-      "answer": "No. We do not offer booth design, fabrication or construction. We supply the AV, screen, sound, microphone and lighting, for a stand you or a booth builder have already set up."
+      "answer": "Not with our own crew. Booth design, fabrication and construction are not work our own team does. We supply the AV, screen, sound, microphone and lighting, for a stand you or a booth builder have already set up. See The Honest Line above."
     },
     {
       "question": "Can you rig or suspend a screen or signage above our stand?",
-      "answer": "No. We carry zero rigging or truss stock, confirmed against our own inventory, and every screen, speaker, microphone and light we deliver is floor or stand mounted. See our audio visual rental safety guidelines for the full honest picture on this."
+      "answer": "Not with our own crew. We carry zero rigging or truss stock, confirmed against our own inventory, and our own crew does not build truss or fly a screen or signage overhead. See The Honest Line above, and our audio visual rental safety guidelines for the full honest picture on this."
     },
     {
       "question": "Do you rent touchscreens, kiosks or laptops for a registration desk?",
-      "answer": "No. These are not real bookable products in our catalog, and we do not publish a spec sheet or a quote for equipment we do not stock."
+      "answer": "Not from our own inventory. Touchscreens, kiosks and registration desk laptops are not part of it, so we publish no spec sheet or price for them. See The Honest Line above."
     },
     {
       "question": "What is your day rate for a multi day trade show?",
@@ -1940,11 +1940,11 @@
   "tv-screen-rental": [
     {
       "question": "What screen sizes are available?",
-      "answer": "One real size: a 60 inch high definition LED display screen, included on the MICE Pack. We do not publish a smaller a la carte TV screen size, and we do not stock a 50, 55 or 65 inch alternative, so 60 inches is the number to plan around. If your event needs a larger projected image instead, see the 2x2m bundled screen on our projector rental guide."
+      "answer": "One real size: a 60 inch high definition LED display screen, included on the MICE Pack. We do not publish a smaller a la carte TV screen size, and the 60 inch panel is the size in our own inventory, so it is the number to plan around. If your event needs another size or several screens, tell us, and we will see what we can put together before you commit to a layout. If your event needs a larger image, a projected one is the usual route. The screen included in our Basic MICE Pack is 2x2 m, and our projector rental guide covers what to do if your room needs more than that."
     },
     {
       "question": "Do you rent a 55 inch screen?",
-      "answer": "Not as such, and the honest answer is that you probably do not need one. The panel we own and publish a price for is 60 inches, which is larger than a 55, so anything a 55 inch screen would have covered is covered by ours.\n\nA 55 inch request is almost always a room measurement rather than a brand preference: somebody has worked out roughly how big the screen needs to be for the back row to read a slide. If that is your situation, tell us the room depth and the guest count instead of the diagonal, and we will tell you plainly whether the 60 inch panel reads from the back or whether your room has outgrown a flat panel and wants the projector and 2x2m screen on our projector rental guide.\n\nWhere a flat panel genuinely cannot be swapped for projection is a bright room: see TV Screen or Projector above."
+      "answer": "Not as such, and the honest answer is that you probably do not need one. The panel we own and publish a price for is 60 inches, which is larger than a 55, so anything a 55 inch screen would have covered is covered by ours.\n\nA 55 inch request is almost always a room measurement rather than a brand preference: somebody has worked out roughly how big the screen needs to be for the back row to read a slide. If that is your situation, tell us the room depth and the guest count instead of the diagonal, and we will tell you plainly whether the 60 inch panel reads from the back or whether your room has outgrown a flat panel and wants a projected image instead, covered in our projector rental guide.\n\nWhere a flat panel genuinely cannot be swapped for projection is a bright room: see TV Screen or Projector above."
     },
     {
       "question": "Is a stand included with the screen?",
@@ -1960,7 +1960,7 @@
     },
     {
       "question": "Do you rent LED video walls or modular LED panels?",
-      "answer": "No. Our large format display is a single 60 inch flat panel screen, not a modular tiled video wall built from stacked LED cabinets. LED walls and video walls, including outdoor stage scale configurations, fall outside our current catalog. See What We Don't Offer above."
+      "answer": "Not from our own inventory. Our large format display is a single 60 inch flat panel screen, not a modular tiled video wall built from stacked LED cabinets, and LED walls and video walls, including outdoor stage scale configurations, are not part of it. See What We Don't Stock above."
     },
     {
       "question": "Is \"TV screen,\" \"display monitor\" and \"plasma screen\" the same product?",
@@ -2002,15 +2002,15 @@
     },
     {
       "question": "Is a technician included for a religious event?",
-      "answer": "It depends on the package. The Basic MICE Pack offers a technician as an add on; the Wedding Pack includes one on site."
+      "answer": "It depends on the package. The Basic MICE Pack offers a technician as an add on, and the Wedding Pack includes one on site."
     },
     {
       "question": "Do you provide live streaming for religious services?",
-      "answer": "No, we do not provide cameras, streaming or broadcast equipment. Our setup covers the room's sound, microphone and screen."
+      "answer": "Not with our own equipment: cameras, filming and live streaming are not in our own inventory. Our setup covers the room's sound, microphone and screen. See What We Stock, and What We Source above."
     },
     {
       "question": "Do you provide interactive screens or multilingual interpretation technology?",
-      "answer": "Interactive touch screens, no: our screen and projector are for displaying readings or hymn lyrics, not an interactive display. Multilingual interpretation, yes as an arranged service: we don't stock the hardware ourselves, but we can bring in a subcontracted partner on request."
+      "answer": "Interactive touch screens are not in our own inventory: our screen and projector are for displaying readings or hymn lyrics, not an interactive display. Multilingual interpretation, yes as an arranged service: we don't stock the hardware ourselves, but we can bring in a subcontracted partner on request."
     },
     {
       "question": "How many microphones are included?",
@@ -2126,7 +2126,7 @@
     },
     {
       "question": "Does the Wedding Pack include a ceremony arch, altar or backdrop?",
-      "answer": "No. MEG does not rent ceremony decor, structures or furniture of any kind. The Wedding Pack is sound, microphones and ambient lighting only. See our essential items for wedding rentals guide for the full list of what a wedding needs and where MEG fits inside it."
+      "answer": "No. Ceremony decor, structures and furniture are not part of the Wedding Pack or of our own inventory, and the Wedding Pack is sound, microphones and ambient lighting only. See Ambient Lighting as Atmosphere, Not Decor above if your venue leaves a gap, and our essential items for wedding rentals guide for the full list of what a wedding needs and where MEG fits inside it."
     }
   ],
   "audio-visual-rental-for-outdoor-events": [
@@ -2214,7 +2214,7 @@
   "outdoor-wedding-rental-considerations": [
     {
       "question": "What do I need to rent for an outdoor wedding?",
-      "answer": "A full outdoor wedding rental list usually spans tents, seating, catering equipment, decor and AV. Malaga Event Gear supplies only the last category, through the Wedding Pack: PA sound, ambient lighting, wireless microphones and a live technician. Tents, furniture, restrooms and decor need a separate vendor."
+      "answer": "A full outdoor wedding rental list usually spans tents, seating, catering equipment, decor and AV. Malaga Event Gear's own inventory covers the last category, through the Wedding Pack: PA sound, ambient lighting, wireless microphones and a live technician. Tents, furniture, restrooms and decor are not part of it. See What MEG Stocks Outdoors, and What It Sources above if your venue does not provide them."
     },
     {
       "question": "Do I need a permit for outdoor wedding sound in Malaga?",
@@ -2226,7 +2226,7 @@
     },
     {
       "question": "Do I need a generator for an outdoor wedding?",
-      "answer": "We do not stock generators. Confirm your venue's power access with us when you book, especially for a remote finca or a beach location, and we will size the setup to what is actually available."
+      "answer": "There is no generator in our own inventory. Confirm your venue's power access with us when you book, especially for a remote finca or a beach location, and we will size the setup to what is actually available."
     },
     {
       "question": "How does wind affect outdoor wedding sound and lighting?",
@@ -2238,7 +2238,7 @@
     },
     {
       "question": "What's different about planning AV for an outdoor wedding versus an indoor one?",
-      "answer": "Four things: sound projects across open space instead of filling a room with walls to reflect off, venue power needs confirming since we do not stock generators, many fincas and villas set a curfew on amplified sound that an indoor venue may not, and equipment placement has to account for wind and ground surface rather than a fixed indoor layout. See our indoor wedding rental essentials guide for the room acoustics and lighting side of that comparison."
+      "answer": "Four things: sound projects across open space instead of filling a room with walls to reflect off, venue power needs confirming since there is no generator in our own inventory, many fincas and villas set a curfew on amplified sound that an indoor venue may not, and equipment placement has to account for wind and ground surface rather than a fixed indoor layout. See our indoor wedding rental essentials guide for the room acoustics and lighting side of that comparison."
     }
   ],
   "eco-friendly-wedding-rental-options": [

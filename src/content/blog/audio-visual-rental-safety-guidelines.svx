@@ -4,7 +4,8 @@ description: "Audio visual rental safety guidelines from Malaga Event Gear: tech
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-safety-guidelines
 publishDate: "2026-08-05"
-excerpt: "The honest AV specific version of safety guidelines: who is on site to react, how our crew places speaker and microphone stands, how we think about electrical load, and the one thing we genuinely do not do, overhead rigging."
+updatedDate: "2026-09-25"
+excerpt: "The honest AV specific version of safety guidelines: who is on site to react, how our crew places speaker and microphone stands, how we think about electrical load, and the one thing our own crew genuinely does not do, overhead rigging."
 coverImage: https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
 tags: []
@@ -32,7 +33,7 @@ This page is that practical version, built around how Malaga Event Gear actually
 -   [Equipment Placement and Stand Stability](#equipment-placement-and-stand-stability)
 -   [Electrical Load and Circuit Safety](#electrical-load-and-circuit-safety)
 -   [Guest Safety Around Equipment](#guest-safety-around-equipment)
--   [What We Do Not Do: No Rigging or Overhead Truss](#what-we-do-not-do-no-rigging-or-overhead-truss)
+-   [What Our Own Crew Does Not Do: Rigging or Overhead Truss](#what-our-own-crew-does-not-do-rigging-or-overhead-truss)
 -   [Real Setups We've Delivered](#real-setups-weve-delivered)
 -   [How Far in Advance to Book](#how-far-in-advance-to-book)
 -   [Conclusion](#conclusion)
@@ -48,13 +49,13 @@ This page is that practical version, built around how Malaga Event Gear actually
 
 ---
 
-The honest answer to "what are your safety guidelines" is not a certification or a published spec sheet, it is a description of how our crew actually works: floor and stand based equipment only, no overhead rigging or truss, careful stand placement out of primary walking paths, and, on the packages that include one, a live technician who can react if something shifts during the event. This page covers each of those in turn, plus the one honest gap: on our self run packages, nobody is on site to catch a problem after our crew leaves.
+The honest answer to "what are your safety guidelines" is not a certification or a published spec sheet, it is a description of how our crew actually works: speakers, microphones and lighting fixtures on their own floor stands, no truss building or flown rigging by our own crew, careful stand placement out of primary walking paths, and, on the packages that include one, a live technician who can react if something shifts during the event. This page covers each of those in turn, plus the one honest gap: on our self run packages, nobody is on site to catch a problem after our crew leaves.
 
 ## Key Highlights
 
 ---
 
--   Malaga Event Gear does not stock or install overhead rigging or truss. Every speaker, microphone and light we deliver stands on its own floor tripod, confirmed against our own inventory.
+-   Our own crew does not build truss or fly speakers and lighting fixtures overhead. Speakers, microphones and lighting fixtures stand on their own floor tripods, confirmed against our own inventory. The one thing our crew strings up is the Wedding Pack's fairy lights, along a pergola or other structure at your venue.
 -   A live technician, included on the [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/), can reposition a stand, tighten a connection or react to a guest bumping equipment during the event. The [Eco Pack](/packages/eco/), [Basic MICE Pack](/packages/basic-mice/) and [Product Presentation Pack](/packages/product-presentation/) are self run after our crew installs and tests the system.
 -   Our own inventory carries speaker tripods, adjustable microphone stands and lighting tripods for every setup, and our crew places each one on level ground, out of primary walkways and away from doorways.
 -   We do not publish a wattage or amperage spec sheet for our equipment. Our practical guidance is to confirm venue power capacity ahead of time and spread the load across multiple circuits, the same honesty we apply to cable lengths and weatherproofing elsewhere on this site.
@@ -70,7 +71,7 @@ On the [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/), a li
 
 ## Equipment Placement and Stand Stability
 
-Every speaker, microphone and light we deliver is floor or stand mounted, drawn from our own inventory of speaker tripods, adjustable microphone stands and lighting tripods. None of it hangs from a ceiling or a truss. That makes placement the actual safety variable, and our crew works to the same basic habits on every booking:
+The speakers, microphones and lighting fixtures we deliver go on floor stands, drawn from our own inventory of speaker tripods, adjustable microphone stands and lighting tripods, and our own crew does not fly them from a ceiling or a truss. The Wedding Pack's fairy lights are the exception to the stand: our crew strings them along a pergola, beams or another structure the venue already has. That makes placement the actual safety variable, and our crew works to the same basic habits on every booking:
 
 -   **Level ground first.** A tripod on an uneven terrace or a soft lawn patch is the most common real world stability risk, and our crew checks for it before setting a stand rather than after.
 -   **Out of primary walkways.** Stands go to the side of where guests will actually move, not across the natural line between a dance floor, a bar, or the exit.
@@ -86,15 +87,17 @@ Two things help avoid it. First, tell us your venue's power situation when you b
 
 ## Guest Safety Around Equipment
 
-Once equipment is placed and powered, the remaining risk is mostly about keeping guests, and their drinks, away from it. A speaker or lighting tripod is stable on level ground under normal conditions, it is not designed to be leaned on, moved by a guest, or used as a place to set a glass. Our crew positions stands with that in mind, out of the paths people actually walk and away from where a crowd is likely to gather, particularly near a dance floor or a bar.
+Once equipment is placed and powered, the remaining risk is mostly about keeping guests, and their drinks, away from it. A speaker or lighting tripod is stable on level ground under normal conditions, but it is not designed to be leaned on, moved by a guest, or used as a place to set a glass. Our crew positions stands with that in mind, out of the paths people actually walk and away from where a crowd is likely to gather, particularly near a dance floor or a bar.
 
 On the [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/), our on site technician is also a second layer here: if a stand gets nudged or a guest wanders too close to a cable run, they can address it in real time. On a self run package, that responsibility sits with the initial placement our crew does before leaving, which is exactly why placement out of primary walkways matters more, not less, on those bookings.
 
-## What We Do Not Do: No Rigging or Overhead Truss
+## What Our Own Crew Does Not Do: Rigging or Overhead Truss
 
-Being honest about our safety approach means being direct about scope. Malaga Event Gear does not stock, install or hang equipment from overhead rigging or truss. Every speaker, microphone and light in our inventory is floor or stand based, delivered on its own tripod. If your event genuinely requires equipment suspended from a ceiling grid, a stage truss, or a flown line array, that is a different service than what we offer, and worth knowing before you book rather than discovering on site.
+Being honest about our safety approach means being direct about scope. Our own crew does not build truss, and it does not fly speakers or lighting fixtures from a ceiling grid, a stage truss or a flown line array. Our speakers, microphones and lighting fixtures are floor or stand based, each on its own tripod, and the only thing our crew strings up is the Wedding Pack's fairy lights, along a structure your venue already has.
 
-In practice this covers the overwhelming majority of the weddings, corporate events and private parties we deliver across Malaga and the Costa del Sol. It is also, in its own way, a safety simplification: there is no overhead load calculation to get wrong, because nothing we deliver is ever suspended above a guest's head.
+If your event genuinely requires suspended equipment, tell us early, before you book rather than on site. We can look for a specialised rigging supplier, if we can find one, and the rigging itself would be their work, never our own crew's.
+
+In practice this covers the overwhelming majority of the weddings, corporate events and private parties we deliver across Malaga and the Costa del Sol. It is also, in its own way, a safety simplification: our own crew has no flown load calculation to get wrong, because it does not fly a speaker or a lighting fixture above a guest's head.
 
 ## Real Setups We've Delivered
 
@@ -116,13 +119,13 @@ Every booking, and every change to one, needs at least 24 hours' notice. That wi
 
 ## Conclusion
 
-Audio visual rental safety guidelines, for the equipment Malaga Event Gear actually supplies, come down to 4 honest practices: floor and stand based equipment only, with no overhead rigging or truss; careful stand placement out of walkways and doorways; venue power planned ahead of time rather than assumed; and, on the [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/), a live technician who can react if something shifts during the event. [Contact us](/contact/) with your venue details, and for our full equipment range, see the [audio visual rental in Malaga guide](/blog/audio-visual-rental/).
+Audio visual rental safety guidelines, for the equipment Malaga Event Gear actually supplies, come down to 4 honest practices. Speakers, microphones and lighting fixtures go on floor stands, with no truss or flown rigging by our own crew. Stands are placed out of walkways and doorways. Venue power is planned ahead of time rather than assumed. And on the [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/), a live technician can react if something shifts during the event. [Contact us](/contact/) with your venue details, and for our full equipment range, see the [audio visual rental in Malaga guide](/blog/audio-visual-rental/).
 
 ## FAQs
 
 ### Does Malaga Event Gear use rigging or truss to mount speakers or lights overhead?
 
-No. Every speaker, microphone and light we deliver is floor or stand mounted on its own tripod, confirmed against our own inventory. We do not stock or install overhead rigging or truss. See [What We Do Not Do: No Rigging or Overhead Truss](#what-we-do-not-do-no-rigging-or-overhead-truss) above.
+No, not with our own crew. Our speakers, microphones and lighting fixtures are floor or stand mounted on their own tripods, confirmed against our own inventory, and the crew does not build truss or fly speakers and lighting fixtures overhead. The only thing our crew strings up is the Wedding Pack's fairy lights, along a structure at your venue. See [What Our Own Crew Does Not Do: Rigging or Overhead Truss](#what-our-own-crew-does-not-do-rigging-or-overhead-truss) above.
 
 ### Who is actually on site to handle a safety issue during my event?
 

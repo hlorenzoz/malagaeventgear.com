@@ -1,11 +1,11 @@
 ---
 title: "Audio Visual Rental for Art Exhibitions in Malaga, Spain"
-description: "Audio visual rental for art exhibition openings in Malaga: sound, mic and screen for the reception, and what we honestly do not offer for the art itself."
+description: "Audio visual rental for art exhibition openings in Malaga: sound, mic and screen for the reception, and what our own inventory does not cover for the art itself."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-art-exhibitions
 publishDate: "2026-08-05"
-updatedDate: "2026-09-24"
-excerpt: "Audio visual rental for art exhibition openings in Malaga: sound, mic and screen for the reception, and what we honestly do not offer for the art itself."
+updatedDate: "2026-09-25"
+excerpt: "Audio visual rental for art exhibition openings in Malaga: sound, mic and screen for the reception, and what our own inventory does not cover for the art itself."
 coverImage: https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-1536x1152.webp
 categories: [Audio Visual Rental, Events]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Search for audio visual rental for art exhibitions and the results split into two unhelpful kinds: thin rental blog posts that read like a generic checklist, and lighting integrator pages built to design permanent systems for museums and architects, not a one night opening. Neither draws the line an exhibition organizer actually needs. What a rental company sets up for the reception itself, sound sized to the room, a microphone for the artist or curator, a screen for a statement or a video piece, is a different job from lighting the artwork on the walls, which is a specialized discipline most AV rental companies, us included, do not offer.
+Search for audio visual rental for art exhibitions and the results split into two unhelpful kinds: thin rental blog posts that read like a generic checklist, and lighting integrator pages built to design permanent systems for museums and architects, not a one night opening. Neither draws the line an exhibition organizer actually needs. What a rental company sets up for the reception itself, sound sized to the room, a microphone for the artist or curator, a screen for a statement or a video piece, is a different job from lighting the artwork on the walls, which is a specialized discipline most AV rental companies, us included, do not cover with their own equipment.
 
 This page is that honest version, built around a vernissage or opening reception, not a running exhibition. [Contact us](/contact/) with your gallery's guest count and layout if you want us to confirm the right package before you book.
 
@@ -30,7 +30,7 @@ This page is that honest version, built around a vernissage or opening reception
 -   [Brief Overview](#brief-overview)
 -   [Key Highlights](#key-highlights)
 -   [What We Provide for an Exhibition Opening](#what-we-provide-for-an-exhibition-opening)
--   [The Honest Line: What We Do Not Provide for the Artwork Itself](#the-honest-line-what-we-do-not-provide-for-the-artwork-itself)
+-   [The Honest Line: What We Don't Stock for the Artwork Itself](#the-honest-line-what-we-dont-stock-for-the-artwork-itself)
 -   [A Lit Room Legible Screen for an Artist Statement or Video Piece](#a-lit-room-legible-screen-for-an-artist-statement-or-video-piece)
 -   [Ambient Lighting: Reception Atmosphere, Not Artwork Illumination](#ambient-lighting-reception-atmosphere-not-artwork-illumination)
 -   [Match Your Opening to a Package](#match-your-opening-to-a-package)
@@ -56,14 +56,14 @@ This page is that honest version, built around a vernissage or opening reception
 
 ---
 
-Malaga Event Gear delivers audio visual rental for an art exhibition opening or reception in Malaga and the wider Costa del Sol, backed by experience going back to 1996: sound sized to guest count and the room's acoustics, a wireless or gooseneck microphone for opening remarks or an artist talk, a screen or projector for an artist statement or a video piece, and ambient RGBW lighting or wireless uplighting for the reception itself. We do not provide gallery specific lighting for the artwork on the walls, covered plainly below rather than blurred into vague lighting talk.
+Malaga Event Gear delivers audio visual rental for an art exhibition opening or reception in Malaga and the wider Costa del Sol, backed by experience going back to 1996: sound sized to guest count and the room's acoustics, a wireless or gooseneck microphone for opening remarks or an artist talk, a screen or projector for an artist statement or a video piece, and ambient RGBW lighting or wireless uplighting for the reception itself. Gallery specific lighting for the artwork on the walls is not in our own inventory, covered plainly below rather than blurred into vague lighting talk.
 
 ## Key Highlights
 
 ---
 
 -   Sound, a microphone and a screen matched to guest count, from an intimate vernissage up to a 120 guest gala style opening.
--   We do not stock gallery track lighting, picture lights or high CRI spotlighting for illuminating the artwork itself, an honest gap worth knowing before you book.
+-   Gallery track lighting, picture lights and high CRI spotlighting for illuminating the artwork itself are not in our own inventory, an honest gap worth knowing before you book.
 -   Our 5000 lumen projector stays legible with the gallery's house lights on, built for a launch presentation rather than a dark screening room, and works the same way for an artist statement or a video piece.
 -   Ambient RGBW light bars and a wireless uplighting kit are available for the reception, framed as atmosphere for the room, not illumination for the art.
 -   This is per event delivery for an opening night or reception, not an ongoing systems install for a multi day or multi week exhibition. See [One Event, Not an Ongoing Installation](#one-event-not-an-ongoing-installation) below.
@@ -76,11 +76,11 @@ A gallery opening usually means guests standing and moving through a hard surfac
 
 For opening remarks, a curator introduction or an artist talk, a microphone that lets the speaker move away from a lectern matters more in a gallery than in a boardroom, since the audience is usually standing among the work rather than seated in rows. Depending on the package, that is a wireless handheld microphone, a gooseneck on a small podium, or the Eco Pack's wired dynamic microphone for a short, single spot toast.
 
-## The Honest Line: What We Do Not Provide for the Artwork Itself
+## The Honest Line: What We Don't Stock for the Artwork Itself
 
-Being direct about scope here matters more than on most pages we publish. Malaga Event Gear does not stock gallery track lighting, picture lights, or high CRI spotlighting built to illuminate artwork on a wall. Our own lighting inventory is 2 Eurolite LED KLS-200 bars, a hand aimed ambient fixture with a foot pedal, not a moving head or DMX controlled system, 1 ADJ Encore FRI50Z static Fresnel wash, and 1 ADJ Element H6 wireless uplighting kit built for washing a wall with color, not for rendering a painting's true color under a focused beam.
+Being direct about scope here matters more than on most pages we publish. Gallery track lighting, picture lights and high CRI spotlighting built to illuminate artwork on a wall are not part of Malaga Event Gear's own inventory. Beyond the Eco Pack's RGBW light bars and the Wedding Pack's fairy lights, our own lighting inventory is 2 Eurolite LED KLS-200 bars, a hand aimed ambient fixture with a foot pedal, not a moving head or DMX controlled system, 1 ADJ Encore FRI50Z static Fresnel wash, and 1 ADJ Element H6 wireless uplighting kit built for washing a wall with color, not for rendering a painting's true color under a focused beam.
 
-If your opening needs dedicated gallery lighting design, accurate color rendering on the artwork, or track fixtures aimed at individual pieces, that is a different service than what we offer, and worth knowing before you book rather than discovering on site. What we can genuinely do is light the reception around the art: the room, the bar, the seating, the crowd, covered next.
+If your opening needs dedicated gallery lighting design, accurate color rendering on the artwork, or track fixtures aimed at individual pieces, none of that comes from our own inventory, and it is worth knowing before you book rather than discovering on site. Tell us what the pieces need and we can ask our suppliers whether any of them could light them, with no promise until one says yes. From our own stock, what we can genuinely do is light the reception around the art: the room, the bar, the seating, the crowd, covered next.
 
 ## A Lit Room Legible Screen for an Artist Statement or Video Piece
 
@@ -153,7 +153,7 @@ Yes. Our Product Presentation Pack's projector is rated at 5000 lumens specifica
 
 ### Does Malaga Event Gear provide lighting for the artwork itself?
 
-No. We do not stock gallery track lighting, picture lights, or high CRI spotlighting built to illuminate artwork on a wall. See [The Honest Line](#the-honest-line-what-we-do-not-provide-for-the-artwork-itself) above for exactly what our lighting inventory is instead.
+Not from our own inventory. Gallery track lighting, picture lights and high CRI spotlighting built to illuminate artwork on a wall are not part of it. See [The Honest Line](#the-honest-line-what-we-dont-stock-for-the-artwork-itself) above for exactly what our lighting inventory is instead, and for what to do if your pieces need that kind of light.
 
 ### What ambient lighting do you provide for the reception?
 

@@ -1,11 +1,11 @@
 ---
 title: "Outdoor Wedding Rental Considerations in Malaga"
-description: "Outdoor wedding rental considerations in Malaga: power, sound, noise curfews and placement, the AV only slice Malaga Event Gear's Wedding Pack covers."
+description: "Outdoor wedding rental considerations in Malaga: power, sound, noise curfews and placement, the AV side of the day that Malaga Event Gear's Wedding Pack covers."
 author: Hector Luis Lorenzo
 slug: outdoor-wedding-rental-considerations
 publishDate: "2026-01-13"
-updatedDate: "2026-07-29"
-excerpt: "Outdoor wedding rental considerations in Malaga: power, sound, noise curfews and placement, the AV only slice Malaga Event Gear's Wedding Pack covers."
+updatedDate: "2026-09-25"
+excerpt: "Outdoor wedding rental considerations in Malaga: power, sound, noise curfews and placement, the AV side of the day that Malaga Event Gear's Wedding Pack covers."
 coverImage: https://cdn.malagaeventgear.com/blog/1631/wedding_table_setting.webp
 categories: [Audio Visual Rental, Weddings]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Planning an outdoor wedding in Malaga means planning around no walls, no ceiling and, at most fincas and villas, a curfew on amplified sound. Malaga Event Gear's [Wedding Pack](/packages/wedding/) covers the audio visual slice of that: PA sound, ambient lighting, wireless microphones and a live technician who sizes and times the system around what your venue allows. It does not cover tents, generators, furniture, decor or venue permits. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview. If you have not settled on a package yet, our [how to choose wedding rentals](/blog/how-to-choose-wedding-rentals/) guide walks through the six questions, starting with guest count, that decide between the Eco Pack and the Wedding Pack.
+Planning an outdoor wedding in Malaga means planning around no walls, no ceiling and, at most fincas and villas, a curfew on amplified sound. Malaga Event Gear's [Wedding Pack](/packages/wedding/) covers the audio visual slice of that: PA sound, ambient lighting, wireless microphones and a live technician who sizes and times the system around what your venue allows. It does not cover tents, generators, furniture, decor or venue permits, and apart from permits, none of those are in our own inventory. If your venue leaves a gap there, ask us anyway and we will see whether one of our suppliers can fill it, if one can. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview. If you have not settled on a package yet, our [how to choose wedding rentals](/blog/how-to-choose-wedding-rentals/) guide walks through the six questions, starting with guest count, that decide between the Eco Pack and the Wedding Pack.
 
 ## Brief Overview
 
@@ -33,23 +33,23 @@ An outdoor wedding raises AV specific questions a ballroom never does: does the 
 
 ---
 
--   MEG's outdoor wedding coverage is AV specific: power confirmation, sound behavior, noise curfews and equipment placement, not tents, furniture or event permits.
--   We do not stock generators, so venue power needs confirming when you book.
+-   What MEG covers for an outdoor wedding is the AV side: power confirmation, sound behavior, noise curfews and equipment placement, not tents or furniture. Event permits stay between you and your venue.
+-   There is no generator in our own inventory, so venue power needs confirming when you book.
 -   Many fincas and villas around Malaga set a curfew on amplified sound. Tell us the curfew and our live technician sizes and times the system around it.
 -   Guest count decides the package: the [Eco Pack](/packages/eco/) suits up to 50 guests self run, the [Wedding Pack](/packages/wedding/) suits up to 80 with a technician included.
 -   Outdoor conditions raise the stakes on equipment care. See [protecting your wedding rental items](/blog/protecting-your-wedding-rental-items/) for how delivery only setup and a live technician protect the AV gear itself.
 
-## What MEG Covers Outdoors, and What It Doesn't
+## What MEG Stocks Outdoors, and What It Sources
 
-An outdoor wedding checklist usually spans tents, seating, catering equipment, decor and AV, each its own trade. MEG supplies only the last one: sound, lighting, microphones and, on the Wedding Pack, a live technician. Tents, furniture, decor and venue permits need their own vendor or come bundled into your venue's own hire, common at fincas and villas around Malaga. Our [essential items for wedding rentals](/blog/essential-items-for-wedding-rentals/) guide covers that full list and where AV fits among it.
+An outdoor wedding checklist usually spans tents, seating, catering equipment, decor and AV, each its own trade. MEG's own inventory covers only the last one: sound, lighting, microphones and, on the Wedding Pack, a live technician. Tents, furniture and decor often come bundled into your venue's own hire, common at fincas and villas around Malaga. When they do not, or when the venue has no mains power and needs a generator, tell us what is missing and we can ask our suppliers whether any of them has it, with no promise until one confirms. Venue permits stay between you and your venue. Our [essential items for wedding rentals](/blog/essential-items-for-wedding-rentals/) guide covers that full list and where AV fits among it.
 
 <InlineCTA />
 
 ## Power, Curfews and Wind: What to Plan For
 
-We do not stock generators, so if your venue is a remote finca or a beach location without confirmed mains power, tell us when you book and we will size the setup to what is actually available.
+There is no generator in our own inventory, so if your venue is a remote finca or a beach location without confirmed mains power, tell us when you book and we will size the setup to what is actually available.
 
-A detail generic wedding checklists skip entirely: many fincas and villas on the Costa del Sol set a curfew on amplified sound, often somewhere between 11pm and 1am depending on the venue and the municipality. We do not handle the permit or negotiate the curfew with your venue, that stays between you and them, but if you tell us the curfew when you book, our live technician plans volume and timing around it rather than finding out mid reception.
+A detail generic wedding checklists skip entirely: many fincas and villas on the Costa del Sol set a curfew on amplified sound, often somewhere between 11pm and 1am depending on the venue and the municipality. We do not handle the permit or negotiate the curfew with your venue. That stays between you and them, but if you tell us the curfew when you book, our live technician plans volume and timing around it rather than finding out mid reception.
 
 Wind is the third factor. A coastal terrace or an open finca lawn brings wind a ballroom never does, and it changes where a speaker stand or lighting rig can safely stand, and how grass, sand or gravel need different cable runs than a flat indoor floor. Our technician reads the actual ground and wind exposure on site and places stands, cables and lighting accordingly rather than following a fixed indoor layout.
 
@@ -114,7 +114,7 @@ Outdoor wedding AV, honestly scoped, comes down to four things: confirmed venue 
 
 ### What do I need to rent for an outdoor wedding?
 
-A full outdoor wedding rental list usually spans tents, seating, catering equipment, decor and AV. Malaga Event Gear supplies only the last category, through the [Wedding Pack](/packages/wedding/): PA sound, ambient lighting, wireless microphones and a live technician. Tents, furniture, restrooms and decor need a separate vendor.
+A full outdoor wedding rental list usually spans tents, seating, catering equipment, decor and AV. Malaga Event Gear's own inventory covers the last category, through the [Wedding Pack](/packages/wedding/): PA sound, ambient lighting, wireless microphones and a live technician. Tents, furniture, restrooms and decor are not part of it. See [What MEG Stocks Outdoors, and What It Sources](#what-meg-stocks-outdoors-and-what-it-sources) above if your venue does not provide them.
 
 ### Do I need a permit for outdoor wedding sound in Malaga?
 
@@ -126,7 +126,7 @@ Open air disperses sound further than an indoor room does, since there are no wa
 
 ### Do I need a generator for an outdoor wedding?
 
-We do not stock generators. Confirm your venue's power access with us when you book, especially for a remote finca or a beach location, and we will size the setup to what is actually available.
+There is no generator in our own inventory. Confirm your venue's power access with us when you book, especially for a remote finca or a beach location, and we will size the setup to what is actually available.
 
 ### How does wind affect outdoor wedding sound and lighting?
 
@@ -138,4 +138,4 @@ Guest count decides the package, not tent square footage. The [Eco Pack](/packag
 
 ### What's different about planning AV for an outdoor wedding versus an indoor one?
 
-Four things: sound projects across open space instead of filling a room with walls to reflect off, venue power needs confirming since we do not stock generators, many fincas and villas set a curfew on amplified sound that an indoor venue may not, and equipment placement has to account for wind and ground surface rather than a fixed indoor layout. See our [indoor wedding rental essentials](/blog/indoor-wedding-rental-essentials/) guide for the room acoustics and lighting side of that comparison.
+Four things: sound projects across open space instead of filling a room with walls to reflect off, venue power needs confirming since there is no generator in our own inventory, many fincas and villas set a curfew on amplified sound that an indoor venue may not, and equipment placement has to account for wind and ground surface rather than a fixed indoor layout. See our [indoor wedding rental essentials](/blog/indoor-wedding-rental-essentials/) guide for the room acoustics and lighting side of that comparison.

@@ -4,8 +4,8 @@ description: "Weather considerations for outdoor rentals in Malaga: the honest A
 author: Hector Luis Lorenzo
 slug: weather-considerations-for-outdoor-rentals
 publishDate: "2026-03-02"
-updatedDate: "2026-07-29"
-excerpt: "Weather considerations for outdoor rentals usually mean tents and portable AC, a trade MEG does not work in. Here is the honest AV specific version: how a live technician, delivery only setup and our 24 hour notice window actually respond to weather risk on the equipment itself."
+updatedDate: "2026-09-25"
+excerpt: "Weather considerations for outdoor rentals usually mean tents and portable AC, none of which is in MEG's own inventory. Here is the honest AV specific version: how a live technician, delivery only setup and our 24 hour notice window actually respond to weather risk on the equipment itself."
 coverImage: https://cdn.malagaeventgear.com/blog/1625/beach_wedding_table_decor.webp
 categories: [Audio Visual Rental, Weddings]
 tags: []
@@ -21,13 +21,13 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Weather considerations for outdoor rentals usually mean tents, portable air conditioning and drainage, a trade Malaga Event Gear does not work in. What we can answer honestly is the question those guides skip: what does changing weather actually do to the sound, lighting and microphones we do rent, and how does our service actually respond to it. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview. For power, curfews and wind placement specifically for an outdoor wedding, see our [outdoor wedding rental considerations](/blog/outdoor-wedding-rental-considerations/) guide.
+Weather considerations for outdoor rentals usually mean tents, portable air conditioning and drainage, none of which is in Malaga Event Gear's own inventory. What we can answer honestly is the question those guides skip: what does changing weather actually do to the sound, lighting and microphones we do rent, and how does our service actually respond to it. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview. For power, curfews and wind placement specifically for an outdoor wedding, see our [outdoor wedding rental considerations](/blog/outdoor-wedding-rental-considerations/) guide.
 
 ## Brief Overview
 
 ---
 
-The honest, AV specific answer to weather considerations for outdoor rentals is not a tent or a climate control unit, MEG does not supply either. It is who is on site to react when weather shifts during the event. The [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/) include a live technician who can reposition equipment, add moisture protection to cables, or adjust for wind as conditions change. The [Eco Pack](/packages/eco/) and [Basic MICE Pack](/packages/basic-mice/) are self run: our crew delivers, installs and tests the system, then leaves, so nobody is there to react if the weather turns after that.
+The honest, AV specific answer to weather considerations for outdoor rentals is not a tent or a climate control unit, since neither is in MEG's own inventory (see [What MEG Does Not Stock](#what-meg-does-not-stock) below if your venue lacks them). It is who is on site to react when weather shifts during the event. The [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/) include a live technician who can reposition equipment, add moisture protection to cables, or adjust for wind as conditions change. The [Eco Pack](/packages/eco/) and [Basic MICE Pack](/packages/basic-mice/) are self run: our crew delivers, installs and tests the system, then leaves, so nobody is there to react if the weather turns after that.
 
 ## Key Highlights
 
@@ -36,12 +36,12 @@ The honest, AV specific answer to weather considerations for outdoor rentals is 
 - A live technician, included on the Wedding Pack and MICE Pack, can reposition equipment, add cable and moisture protection, or adjust for wind as conditions change during the event. The Eco Pack and Basic MICE Pack run self operated after our crew leaves, with nobody on site to react.
 - Wireless microphone receivers, cabling and active electronics all carry real moisture and heat sensitivity. We do not publish a weatherproof rating for any of it.
 - Every booking, and every change to one, needs at least 24 hours' notice. The earlier you check the forecast against that window, the more flexibility you actually have.
-- We operate delivery only, there is no self pickup option, so our own crew handles transport and retrieval in any weather, not the client.
-- We do not stock tents, canopies, generators or portable climate control. Venue provided shelter and power need to be confirmed by the client directly with the venue.
+- We operate delivery only, with no self pickup option, so our own crew handles transport and retrieval in any weather, not the client.
+- Tents, canopies, generators and portable climate control are not in our own inventory. Venue provided shelter and power need to be confirmed by the client directly with the venue.
 
 ## The Real Difference: A Technician On Site vs a Self Run Setup
 
-Weather risk to AV equipment is not really a product question, MEG does not sell a weatherproof speaker line that costs more, it is a staffing question. On the [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/), a live technician stays on site throughout the event. If a gust of wind starts pushing a speaker stand, if a light drizzle reaches a cable run, or if a receiver starts dropping signal in the heat, the technician can move the gear, add protection, or adjust the setup in real time.
+Weather risk to AV equipment is not really a product question. There is no pricier weatherproof speaker line in our own inventory, so it comes down to staffing. On the [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/), a live technician stays on site throughout the event. If a gust of wind starts pushing a speaker stand, if a light drizzle reaches a cable run, or if a receiver starts dropping signal in the heat, the technician can move the gear, add protection, or adjust the setup in real time.
 
 The [Eco Pack](/packages/eco/) and the [Basic MICE Pack](/packages/basic-mice/) do not include that. Our crew delivers, installs and tests the system professionally, then it runs unattended for the rest of the event. That is a fine setup for a sheltered patio or a stable forecast, but it means nobody adjusts the equipment if weather changes after our crew leaves. If your outdoor event has any real chance of shifting weather, that staffing difference matters more than anything printed on a spec sheet.
 
@@ -65,9 +65,11 @@ All event gear rentals and technical services with MEG must be contracted, or re
 
 We operate a delivery only model. There is no self pickup option. That means our own crew transports, installs and retrieves the equipment in whatever weather is happening on the day, rather than leaving a client to load and unload gear in the rain themselves. It is not a weather guarantee for the event itself, but it does mean the physical handling of the equipment, arrival and pickup, stays with people trained to do it, not with a couple or a venue's own staff.
 
-## What MEG Does Not Supply
+## What MEG Does Not Stock
 
-To be direct about scope: we do not stock tents, canopies, marquees, generators, portable air conditioning, heaters or any drainage solution. If your outdoor venue needs shelter from rain or sun, or backup power beyond what the venue itself provides, that has to be arranged separately and confirmed with your venue, not assumed as part of an MEG package. Tell us what shelter and power your venue already has when you book, so our technician can plan the AV setup around it rather than around equipment we do not bring.
+To be direct about scope: tents, canopies, marquees, generators, portable air conditioning, heaters and drainage solutions are not part of our own inventory, and none of them comes with an MEG package. Tell us what shelter and power your venue already has when you book, so our technician can plan the AV setup around it.
+
+If the venue falls short on shelter, cooling or backup power, say what is missing. We can put the question to our suppliers, and if nobody can help, you will know early enough to plan around it.
 
 ## What's Included on the Wedding Pack
 
@@ -117,7 +119,7 @@ We do not publish a weatherproof rating for any of our equipment. Wireless micro
 
 ### Do you supply tents, canopies or generators for outdoor weather protection?
 
-No. We do not stock tents, canopies, marquees, generators, portable air conditioning or heaters. Venue provided shelter and power need to be confirmed by you directly with your venue. Tell us what is available when you book so our technician can plan the AV setup around it.
+Not from our own inventory: tents, canopies, marquees, generators, portable air conditioning and heaters are not part of it. Venue provided shelter and power need to be confirmed by you directly with your venue. Tell us what is available when you book so our technician can plan the AV setup around it, and see [What MEG Does Not Stock](#what-meg-does-not-stock) above if it falls short.
 
 ### If the forecast changes close to my event date, how much flexibility do I have?
 
@@ -125,7 +127,7 @@ All bookings and changes to one need at least 24 hours' notice to guarantee sche
 
 ### Who handles the equipment if it rains, me or your crew?
 
-Our crew. We operate delivery only, there is no self pickup option, so our own trained team transports, installs and retrieves every system regardless of weather, rather than a client handling the gear themselves.
+Our crew. We operate delivery only, with no self pickup option, so our own trained team transports, installs and retrieves every system regardless of weather, rather than a client handling the gear themselves.
 
 ### How does wind affect where you place speakers and lighting outdoors?
 
