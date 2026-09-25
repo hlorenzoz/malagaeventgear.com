@@ -129,7 +129,7 @@ export const galleryImages: GalleryImage[] = [
 	},
 	{
 		src: 'https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1-600x401.webp',
-		alt: 'Audio visual setup for virtual and hybrid events',
+		alt: 'Illustrative photo of a conference hall with projection screens and a camera on a tripod',
 		category: 'corporate'
 	},
 	{

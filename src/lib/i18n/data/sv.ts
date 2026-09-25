@@ -261,7 +261,7 @@ export default {
 		'https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding-600x400.webp': 'Vigselbåge vid ett tropiskt strandbröllop',
 		'https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-600x400.webp': 'Mittgång med stolar vid ett tropiskt strandbröllop',
 		'https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-scaled-600x448.webp': 'AV-system att hyra för ett internationellt evenemang i Malaga',
-		'https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1-600x401.webp': 'Audiovisuell uppställning för virtuella och hybrida evenemang',
+		'https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1-600x401.webp': 'Illustrationsbild av en konferenssal med projektionsdukar och en kamera på stativ',
 		'https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-scaled-600x448.webp': 'Ljud att hyra för ett möte i en yrkesorganisation',
 		'https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-600x450.webp': 'Ljudanläggning för ett grannskapsmöte',
 		'https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp': 'Ljud och ljus på scenen vid ett MICE-evenemang',

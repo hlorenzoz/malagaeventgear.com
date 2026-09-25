@@ -255,7 +255,7 @@ export default {
 		'https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding-600x400.webp': '热带海滩婚礼仪式拱门',
 		'https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-600x400.webp': '摆放座椅的热带海滩婚礼通道',
 		'https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-scaled-600x448.webp': '马拉加国际活动的视听租赁系统',
-		'https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1-600x401.webp': '虚拟及混合活动的视听设备布置',
+		'https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1-600x401.webp': '示意图：设有投影幕布和三脚架摄像机的会议厅',
 		'https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-scaled-600x448.webp': '专业协会会议音响租赁',
 		'https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-600x450.webp': '社区会议音响布置',
 		'https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp': 'MICE活动舞台上的音响与灯光',

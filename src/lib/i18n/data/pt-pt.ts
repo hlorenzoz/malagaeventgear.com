@@ -260,7 +260,7 @@ export default {
 		'https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding-600x400.webp': 'Arco de cerimónia de um casamento tropical na praia',
 		'https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-600x400.webp': 'Corredor com cadeiras num casamento tropical na praia',
 		'https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-scaled-600x448.webp': 'Sistema audiovisual de aluguer para um evento internacional em Málaga',
-		'https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1-600x401.webp': 'Montagem audiovisual para eventos virtuais e híbridos',
+		'https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1-600x401.webp': 'Fotografia ilustrativa de uma sala de conferências com ecrãs de projeção e uma câmara num tripé',
 		'https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-scaled-600x448.webp': 'Aluguer de som para a reunião de uma associação profissional',
 		'https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-600x450.webp': 'Montagem de som para uma reunião de moradores',
 		'https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp': 'Som e iluminação em palco num evento MICE',
