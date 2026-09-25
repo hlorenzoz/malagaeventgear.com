@@ -42,5 +42,11 @@ export default {
 		news: { slug: 'nyheter', name: 'Nyheter' },
 		weddings: { slug: 'brollop', name: 'Bröllop' }
 	},
-	posts: {}
+	posts: {
+		'event-technology-service': {
+			slug: 'ljus-och-scenteknik',
+			keyword: 'ljus- och scenteknik Malaga',
+			status: 'propuesta'
+		}
+	}
 } satisfies LocaleContentMap;

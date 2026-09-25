@@ -46,5 +46,11 @@ export default {
 		news: { slug: 'actualites', name: 'Actualités' },
 		weddings: { slug: 'mariages', name: 'Mariages' }
 	},
-	posts: {}
+	posts: {
+		'event-technology-service': {
+			slug: 'prestataire-technique-evenementiel',
+			keyword: 'prestataire technique événementiel Malaga',
+			status: 'propuesta'
+		}
+	}
 } satisfies LocaleContentMap;

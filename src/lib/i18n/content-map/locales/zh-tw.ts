@@ -38,5 +38,7 @@ export default {
 		news: { slug: '新聞', name: '新聞' },
 		weddings: { slug: '婚禮', name: '婚禮' }
 	},
-	posts: {}
+	posts: {
+		'event-technology-service': { slug: '活動燈光舞台架設', keyword: '馬拉加 活動燈光舞台架設', status: 'propuesta' }
+	}
 } satisfies LocaleContentMap;

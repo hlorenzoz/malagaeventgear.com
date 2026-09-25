@@ -38,5 +38,7 @@ export default {
 		news: { slug: '新闻', name: '新闻' },
 		weddings: { slug: '婚礼', name: '婚礼' }
 	},
-	posts: {}
+	posts: {
+		'event-technology-service': { slug: '活动灯光舞台搭建', keyword: '马拉加 活动灯光舞台搭建', status: 'propuesta' }
+	}
 } satisfies LocaleContentMap;

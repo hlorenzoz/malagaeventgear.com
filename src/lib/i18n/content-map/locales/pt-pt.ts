@@ -78,5 +78,11 @@ export default {
 		news: { slug: 'noticias', name: 'Notícias' },
 		weddings: { slug: 'casamentos', name: 'Casamentos' }
 	},
-	posts: {}
+	posts: {
+		'event-technology-service': {
+			slug: 'servicos-tecnicos-para-eventos',
+			keyword: 'serviços técnicos para eventos Málaga',
+			status: 'propuesta'
+		}
+	}
 } satisfies LocaleContentMap;

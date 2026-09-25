@@ -42,5 +42,11 @@ export default {
 		news: { slug: 'notizie', name: 'Notizie' },
 		weddings: { slug: 'matrimoni', name: 'Matrimoni' }
 	},
-	posts: {}
+	posts: {
+		'event-technology-service': {
+			slug: 'luci-e-palco-per-eventi',
+			keyword: 'luci e palco per eventi Malaga',
+			status: 'propuesta'
+		}
+	}
 } satisfies LocaleContentMap;

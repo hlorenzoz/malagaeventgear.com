@@ -46,5 +46,11 @@ export default {
 		news: { slug: 'neuigkeiten', name: 'Neuigkeiten' },
 		weddings: { slug: 'hochzeiten', name: 'Hochzeiten' }
 	},
-	posts: {}
+	posts: {
+		'event-technology-service': {
+			slug: 'licht-und-buehnentechnik',
+			keyword: 'Licht- und Bühnentechnik Malaga',
+			status: 'propuesta'
+		}
+	}
 } satisfies LocaleContentMap;

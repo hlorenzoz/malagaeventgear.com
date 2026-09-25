@@ -46,5 +46,11 @@ export default {
 		news: { slug: 'nieuws', name: 'Nieuws' },
 		weddings: { slug: 'bruiloften', name: 'Bruiloften' }
 	},
-	posts: {}
+	posts: {
+		'event-technology-service': {
+			slug: 'licht-en-podiumtechniek',
+			keyword: 'licht- en podiumtechniek Malaga',
+			status: 'propuesta'
+		}
+	}
 } satisfies LocaleContentMap;
