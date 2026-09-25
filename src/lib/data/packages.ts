@@ -373,7 +373,7 @@ export const PRICE_POINTS = {
 	technicianHour: 40,
 	/** Modular stage platforms, per square meter. */
 	stagingPerSqm: 35,
-	/** Minimum order for Granada and other out of province destinations. */
+	/** Minimum order for Granada. Sevilla is served with no minimum (.agents/BUSINESS.md section 3). */
 	outOfProvinceMinimum: 400,
 	/** Budget filter on /packages/: "low" is up to this amount. */
 	budgetLow: 300,

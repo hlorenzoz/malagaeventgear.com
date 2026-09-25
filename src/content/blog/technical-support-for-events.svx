@@ -65,13 +65,13 @@ This guide walks through what our crew actually does in each phase, the real equ
 
 -   Technical support runs in four phases: calibration, live monitoring, troubleshooting, and teardown, not a single generic "technician included" line.
 
--   Coverage is not a yes or no question: the [Eco Pack](/packages/eco/) has none, the [Basic MICE Pack](/packages/basic-mice/) offers it as an add on, and the [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/) include it as standard.
+-   Coverage is not a yes or no question: the [Eco Pack](/packages/eco/) and [Product Presentation Pack](/packages/product-presentation/) have none, the [Basic MICE Pack](/packages/basic-mice/) offers it as an add on, and the [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/) include it as standard.
 
 -   Our crew troubleshoots named, real equipment: mixing consoles, foot pedal lighting, projector and screen sync, wireless microphones, the fog machine and staging, not a generic "AV system."
 
 -   Multi day corporate events get continuous monitoring from a control panel, not a technician who checks in occasionally.
 
--   On packages with multiple presentation sources, a 9 input video scaler lets our technician switch between them without a visible cut. This is strictly a presentation tool: we do not offer camera systems, video recording, live streaming or broadcast equipment.
+-   On packages with multiple presentation sources, a 9 input video scaler lets our technician switch between them without a visible cut. This is strictly a presentation tool: cameras, filming and live streaming are not in our own inventory. See [Switching Between Multiple Presentation Sources](#switching-between-multiple-presentation-sources) below.
 
 ## What Actually Happens During Your Event: A Phase by Phase Look
 
@@ -102,6 +102,7 @@ Coverage is a presence question, not a price question: how much of your event ac
 | Package | On Site Presence | What This Means During Your Event |
 | --- | --- | --- |
 | [Eco Pack](/packages/eco/) | None | The DJ or host runs their own levels. Our crew delivers, sets up and tests before leaving. |
+| [Product Presentation Pack](/packages/product-presentation/) | None | The presenter runs their own slides and microphone. Our crew delivers, sets up and tests before leaving. |
 | [Basic MICE Pack](/packages/basic-mice/) | Add on presence | No one is on site by default. Add the technician option if your meeting needs live coverage. |
 | [MICE Pack](/packages/mice/) | Continuous, capped | A technician actively monitors your event for up to 6 continuous hours. |
 | [Wedding Pack](/packages/wedding/) | Continuous, uncapped | A technician stays on site for the entire event, ceremony through dancing, with no hour cap. |
@@ -123,7 +124,7 @@ Generic "technical support" pages rarely name the equipment involved. Ours is no
 
 On MICE Pack bookings with more than one presentation source, for example a laptop for slides, a second laptop for a video, and a DVD player for a screened clip, our technician manages the switch between them using a Kramer VP-731, a 9 input video scaler, so the room's screen cuts cleanly from one source to the next without a visible glitch or a reboot. Our [video switcher rental](/blog/video-switcher-rental/) guide is the deeper, equipment first version of this section: the real unit, what 9 inputs actually means in practice, and which packages it is realistically available on.
 
-To be clear about what this is not: this is a presentation switching tool for your screen, not a camera, recording or streaming system. Malaga Event Gear does not offer camera equipment, video recording, live streaming or broadcast services. If your event also needs simultaneous interpretation or an interactive voting system, that is not equipment we stock ourselves, but we coordinate it through a subcontracted partner. [Contact us](/contact/) if either applies to your event.
+To be clear about what this is not: this is a presentation switching tool for your screen, not a camera, recording or streaming system. Cameras, filming and live streaming are not in our own inventory, and our own crew does not run a broadcast. If a camera or a stream matters to your event, raise it early, and we will ask whether a supplier has both the kit and the crew free for your date. If your event also needs simultaneous interpretation or an interactive voting system, that is not equipment we stock ourselves, but we coordinate it through a subcontracted partner. [Contact us](/contact/) if either applies to your event.
 
 ## Coverage Across a Multi Day Event
 
@@ -179,11 +180,11 @@ Actively monitoring. On the [Wedding Pack](/packages/wedding/) and [MICE Pack](/
 
 ### Is onsite tech support included in my package, or a separate booking?
 
-It depends on the package, not a blanket rule: included on the [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/), available as a paid add on on the [Basic MICE Pack](/packages/basic-mice/), and not offered on the [Eco Pack](/packages/eco/). See [How Much On Site Coverage Do You Actually Get](#how-much-on-site-coverage-do-you-actually-get) above for the full breakdown.
+It depends on the package, not a blanket rule: included on the [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/), available as a paid add on on the [Basic MICE Pack](/packages/basic-mice/), and not offered on the [Eco Pack](/packages/eco/) or the [Product Presentation Pack](/packages/product-presentation/). See [How Much On Site Coverage Do You Actually Get](#how-much-on-site-coverage-do-you-actually-get) above for the full breakdown.
 
 ### What is the difference between delivery only and full event coverage?
 
-Delivery only, on the [Eco Pack](/packages/eco/), means our crew delivers, sets up and tests the equipment, then leaves it to the DJ or host to run. Full event coverage means a technician stays on site actively monitoring and troubleshooting for the length of your event. See our [how audio visual rental works](/blog/how-audio-visual-rental-works/) guide for the full delivery process either way.
+Delivery only, on the [Eco Pack](/packages/eco/), the [Product Presentation Pack](/packages/product-presentation/) or the Basic MICE Pack without the technician add on, means our crew delivers, sets up and tests the equipment, then leaves it to you, your DJ or your presenter to run. Full event coverage means a technician stays on site actively monitoring and troubleshooting for the length of your event. See our [how audio visual rental works](/blog/how-audio-visual-rental-works/) guide for the full delivery process either way.
 
 ### Do you provide technical support for outdoor venues?
 

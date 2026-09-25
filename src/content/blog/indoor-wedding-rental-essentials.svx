@@ -1,11 +1,11 @@
 ---
 title: "Indoor Wedding Rental Essentials in Malaga"
-description: "Indoor wedding rental essentials in Malaga: room acoustics, power reliability and accent lighting, the AV only slice Malaga Event Gear covers."
+description: "Indoor wedding rental essentials in Malaga: room acoustics, power reliability and accent lighting, the AV side of the day Malaga Event Gear covers."
 author: Hector Luis Lorenzo
 slug: indoor-wedding-rental-essentials
 publishDate: "2026-01-16"
-updatedDate: "2026-07-29"
-excerpt: "Indoor wedding rental essentials in Malaga: room acoustics, power reliability and accent lighting, the AV only slice Malaga Event Gear covers."
+updatedDate: "2026-09-25"
+excerpt: "Indoor wedding rental essentials in Malaga: room acoustics, power reliability and accent lighting, the AV side of the day Malaga Event Gear covers."
 coverImage: https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table.webp
 categories: [Audio Visual Rental, Weddings]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Planning an indoor wedding in Malaga means working inside a room that already has its own walls, chandeliers and, often, mains power your venue controls. Malaga Event Gear's [Wedding Pack](/packages/wedding/) covers the audio visual slice of that: PA sound tuned to fill the room, an accent lighting layer on top of what the venue already has, wireless microphones and a live technician. It does not cover furniture, linens, tableware, dance floors or decor. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview. If you have not settled on a package yet, our [how to choose wedding rentals](/blog/how-to-choose-wedding-rentals/) guide walks through the six questions, starting with guest count, that decide between the Eco Pack and the Wedding Pack.
+Planning an indoor wedding in Malaga means working inside a room that already has its own walls, chandeliers and, often, mains power your venue controls. Malaga Event Gear's [Wedding Pack](/packages/wedding/) covers the audio visual slice of that: PA sound tuned to fill the room, an accent lighting layer on top of what the venue already has, wireless microphones and a live technician. It does not cover furniture, linens, tableware, dance floors or decor, and none of those is in our own inventory. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview. If you have not settled on a package yet, our [how to choose wedding rentals](/blog/how-to-choose-wedding-rentals/) guide walks through the six questions, starting with guest count, that decide between the Eco Pack and the Wedding Pack.
 
 ## Brief Overview
 
@@ -38,9 +38,9 @@ An indoor wedding raises a narrower set of AV questions than an open air one: ho
 -   Indoor venues typically have more reliable mains power than a remote finca, and most do not set the amplified sound curfew a finca or villa does, though some hotel ballrooms set their own decibel limits.
 -   Our fairy light and warm LED strings work as an accent layer on top of a venue's own lighting or chandeliers, not a lighting design service.
 
-## What MEG Covers Indoors, and What It Doesn't
+## What MEG Stocks Indoors, and What It Sources
 
-An indoor wedding checklist still spans furniture, catering, decor and photography, each its own vendor. MEG supplies only the audio visual slice: sound tuned for the room, wireless microphones, an accent lighting layer and, on the Wedding Pack, a live technician. Our [essential items for wedding rentals](/blog/essential-items-for-wedding-rentals/) guide covers that full list, plus wired versus wireless mic choice and ceremony versus reception sound, worth reading there rather than repeated here.
+An indoor wedding checklist still spans furniture, catering, decor and photography, each its own vendor. MEG's own inventory covers the audio visual slice: sound tuned for the room, wireless microphones, an accent lighting layer and, on the Wedding Pack, a live technician. Indoors, the venue's own hire usually takes care of tables, chairs and linens. If yours leaves something out, a dance floor for example, mention it when you book. We can try to find one through a supplier, and if that comes up empty, you will know well before the day. Our [essential items for wedding rentals](/blog/essential-items-for-wedding-rentals/) guide covers that full list, plus wired versus wireless mic choice and ceremony versus reception sound, worth reading there rather than repeated here.
 
 <InlineCTA />
 
@@ -50,11 +50,11 @@ Walls, ceilings and hard flooring reflect sound in a way open air never does. Th
 
 ## Power, Ceiling Height and Room Size
 
-Indoor venues, hotel ballrooms, function halls and most fincas' indoor rooms, generally offer more reliable mains power than a remote outdoor site, one less point of friction than we always confirm outdoors. We still ask about power access when you book, since we do not stock generators for any venue. Ceiling height and room size matter too: a low ceiling changes how sound reflects back toward guests, and a long, narrow hall needs different speaker coverage than a square one. Our technician places stands and adjusts levels to the room you actually have, part of the live technical support included in the [Wedding Pack](/packages/wedding/).
+Indoor venues, hotel ballrooms, function halls and most fincas' indoor rooms, generally offer more reliable mains power than a remote outdoor site, one less point of friction than we always confirm outdoors. We still ask about power access when you book, since there is no generator in our own inventory. Ceiling height and room size matter too: a low ceiling changes how sound reflects back toward guests, and a long, narrow hall needs different speaker coverage than a square one. Our technician places stands and adjusts levels to the room you actually have, part of the live technical support included in the [Wedding Pack](/packages/wedding/).
 
 ## Lighting as an Accent Layer Indoors
 
-Most indoor venues already have their own lighting, chandeliers, wall sconces, house dimmers, before we arrive. The [Wedding Pack's](/packages/wedding/) fairy lights and warm LED strings sit on top of that as an accent layer, not a replacement for it. That differs from an outdoor reception after dark, where our lighting is often the only light source in the space. We do not offer venue lighting design or control of a venue's house system. Changing how the room itself is lit is a conversation for your venue directly. See our [lighting ideas for wedding rentals](/blog/lighting-ideas-for-wedding-rentals/) guide for how the fairy lights and RGBW spotlights compare between packages.
+Most indoor venues already have their own lighting, chandeliers, wall sconces, house dimmers, before we arrive. The [Wedding Pack's](/packages/wedding/) fairy lights and warm LED strings sit on top of that as an accent layer, not a replacement for it. That differs from an outdoor reception after dark, where our lighting is often the only light source in the space. Our crew does not redesign the venue's own lighting or take over its house system. Changing how the room itself is lit is a conversation for your venue directly. See our [lighting ideas for wedding rentals](/blog/lighting-ideas-for-wedding-rentals/) guide for how the fairy lights and RGBW spotlights compare between packages.
 
 ## Sizing Your Indoor Wedding: Eco Pack vs Wedding Pack
 
@@ -97,7 +97,7 @@ A reception room under warm LED accent lighting, sound tuned to fill the room.
 
 ## Booking and Service Area
 
-Our services focus on Malaga and extend to Granada for rentals over 400 euros. There is no fixed booking window, only availability, so reach out once your date and venue are confirmed. See our [booking timeline](/blog/timeline-for-booking-wedding-rentals/) guide. If your venue setting changes after booking, weather driven or otherwise, our [managing last minute wedding rental changes](/blog/managing-last-minute-wedding-rental-changes/) guide covers what an indoor to outdoor swap actually needs.
+Our services cover Malaga, the Costa del Sol and Sevilla with no minimum order, and extend to Granada for rentals over 400 euros. There is no fixed booking window, only availability, so reach out once your date and venue are confirmed. See our [booking timeline](/blog/timeline-for-booking-wedding-rentals/) guide. If your venue setting changes after booking, weather driven or otherwise, our [managing last minute wedding rental changes](/blog/managing-last-minute-wedding-rental-changes/) guide covers what an indoor to outdoor swap actually needs.
 
 ## Conclusion
 

@@ -4,7 +4,7 @@ description: "Tips for reducing wedding AV rental costs in Malaga: right sizing 
 author: Hector Luis Lorenzo
 slug: tips-for-reducing-wedding-rental-costs
 publishDate: "2026-01-10"
-updatedDate: "2026-07-29"
+updatedDate: "2026-09-25"
 excerpt: "Tips for reducing wedding AV rental costs in Malaga: right sizing Eco vs Wedding Pack, add on discipline, and checking your venue's own sound system first."
 coverImage: https://cdn.malagaeventgear.com/blog/1637/bride_holding_wedding_bouquet.webp
 categories: [Audio Visual Rental, Weddings]
@@ -21,7 +21,7 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Most wedding rental cost guides are written for furniture, tents, tableware and decor, trades Malaga Event Gear (MEG) does not touch. This guide covers the one slice we do supply, audio visual, and the real, documented ways to reduce what it costs: matching a package to your guest count, understanding what add ons actually do to the price, and one question worth asking your venue before you rent anything from us. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview. If you are still deciding which package to book, our [how to choose wedding rentals](/blog/how-to-choose-wedding-rentals/) guide walks through the six questions, starting with guest count, that decide between the Eco Pack and the Wedding Pack.
+Most wedding rental cost guides are written for furniture, tents, tableware and decor, and Malaga Event Gear (MEG) keeps none of that in its own inventory. If your venue leaves one of those uncovered, raise it with us anyway. It may be something a supplier could bring in, and it may not, but asking costs nothing. This guide covers the slice our own inventory does supply, audio visual, and the real, documented ways to reduce what it costs: matching a package to your guest count, understanding what add ons actually do to the price, and one question worth asking your venue before you rent anything from us. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview. If you are still deciding which package to book, our [how to choose wedding rentals](/blog/how-to-choose-wedding-rentals/) guide walks through the six questions, starting with guest count, that decide between the Eco Pack and the Wedding Pack.
 
 ## Brief Overview
 
@@ -36,7 +36,7 @@ MEG's wedding catalog has two relevant packages: the [Eco Pack](/packages/eco/) 
 -   Guest count decides the package, and choosing correctly can save 360 euros: the [Eco Pack](/packages/eco/) fits up to 50 guests self run, the [Wedding Pack](/packages/wedding/) fits up to 80 with a technician included.
 -   Add ons (a projector, a smoke machine, extra technician hours) only add to the price. There is no documented option to remove an item for a discount.
 -   MEG does not offer negotiated pricing, price matching, or a weekday or off season discount. Package prices are fixed.
--   Within the Costa del Sol there is no minimum spend. Granada and other out of province destinations require a booking over 400 euros to cover the travel.
+-   Within the Costa del Sol and in Sevilla there is no minimum spend. Granada requires a booking over 400 euros to cover the travel.
 -   Before renting sound from anyone, ask your venue whether it already has a house PA system. It is the one cost question none of the general wedding guides think to ask.
 
 ## Right Sizing Your Package Is the Biggest Real Lever
@@ -66,7 +66,7 @@ Booking sound, lighting, microphones and a technician as one Wedding Pack, rathe
 
 ## The Granada Threshold: A Real Distance Based Minimum
 
-Within Malaga capital and the rest of the Costa del Sol, Marbella, Mijas, Fuengirola, Torremolinos, Benalmadena, Coin, Ronda, Nerja and Estepona among them, there is no minimum order. Book a wedding in Granada or another out of province destination and the total needs to exceed 400 euros to cover the single day logistical travel. For most couples booking the Wedding Pack this is not a real constraint since the package itself is well above that threshold, but it matters if you are considering the Eco Pack alone for a smaller Granada wedding, since 290 euros on its own falls short of the 400 euro minimum and would need an add on or a different package to clear it.
+Within Malaga capital and the rest of the Costa del Sol, Marbella, Mijas, Fuengirola, Torremolinos, Benalmadena, Coin, Ronda, Nerja and Estepona among them, there is no minimum order. Sevilla has full logistical support and no minimum either. Book a wedding in Granada and the total needs to exceed 400 euros to cover the single day logistical travel. For most couples booking the Wedding Pack this is not a real constraint since the package itself is well above that threshold, but it matters if you are considering the Eco Pack alone for a smaller Granada wedding, since 290 euros on its own falls short of the 400 euro minimum and would need an add on or a different package to clear it.
 
 ## Ask Your Venue Before You Rent Anything
 
@@ -92,7 +92,7 @@ Services must be booked at least 24 hours in advance. There is no fixed booking 
 
 ## Conclusion
 
-The honest cost levers for a Malaga wedding's AV rental are narrower than most guides claim. Right size your package to your guest count first, since that alone can be a 360 euro difference. Treat add ons as things you choose to include, not things you negotiate away. Confirm the Granada threshold if your venue is out of province, and ask your venue about its own sound system before you request a quote from anyone. [Contact us](/contact/) to check availability and get an honest quote for your date.
+The honest cost levers for a Malaga wedding's AV rental are narrower than most guides claim. Right size your package to your guest count first, since that alone can be a 360 euro difference. Treat add ons as things you choose to include, not things you negotiate away. If your venue is in Granada, confirm the 400 euro threshold, and ask your venue about its own sound system before you request a quote from anyone. [Contact us](/contact/) to check availability and get an honest quote for your date.
 
 ## FAQs
 
@@ -110,7 +110,7 @@ Some fincas, hotels and villas around Malaga have a basic house PA. It can cover
 
 ### Is there a minimum spend for weddings outside Malaga?
 
-Within the Costa del Sol, no. For Granada and other out of province destinations, bookings need to exceed 400 euros to cover the single day logistical travel.
+Within the Costa del Sol and in Sevilla, no. For Granada, bookings need to exceed 400 euros to cover the single day logistical travel.
 
 ### Can I add or remove items from a wedding AV package to control cost?
 

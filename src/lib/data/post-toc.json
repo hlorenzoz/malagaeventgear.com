@@ -148,8 +148,8 @@
       "level": 2
     },
     {
-      "id": "what-microphone-do-you-use-for-the-vows-and-who-wears-it",
-      "text": "What microphone do you use for the vows, and who wears it?",
+      "id": "what-microphone-do-you-use-for-the-vows-and-who-holds-it",
+      "text": "What microphone do you use for the vows, and who holds it?",
       "level": 3
     },
     {
@@ -277,8 +277,8 @@
       "level": 2
     },
     {
-      "id": "what-we-provide-and-what-we-dont",
-      "text": "What We Provide, and What We Don't",
+      "id": "what-we-stock-and-what-we-source",
+      "text": "What We Stock, and What We Source",
       "level": 2
     },
     {
@@ -461,8 +461,8 @@
       "level": 2
     },
     {
-      "id": "what-we-provide-and-what-we-dont",
-      "text": "What We Provide, and What We Don't",
+      "id": "what-we-stock-and-what-we-source",
+      "text": "What We Stock, and What We Source",
       "level": 2
     },
     {
@@ -3252,8 +3252,8 @@
       "level": 2
     },
     {
-      "id": "what-meg-covers-indoors-and-what-it-doesnt",
-      "text": "What MEG Covers Indoors, and What It Doesn't",
+      "id": "what-meg-stocks-indoors-and-what-it-sources",
+      "text": "What MEG Stocks Indoors, and What It Sources",
       "level": 2
     },
     {
@@ -5282,7 +5282,7 @@
     },
     {
       "id": "can-a-remote-presenter-join-an-in-person-meeting-or-event",
-      "text": "Can a remote presenter join an in-person meeting or event?",
+      "text": "Can a remote presenter join an in person meeting or event?",
       "level": 3
     },
     {
@@ -5297,7 +5297,7 @@
     },
     {
       "id": "what-size-package-do-i-need-for-a-small-remote-participant-meeting",
-      "text": "What size package do I need for a small remote-participant meeting?",
+      "text": "What size package do I need for a small remote participant meeting?",
       "level": 3
     },
     {
@@ -5491,7 +5491,7 @@
     },
     {
       "id": "do-i-need-an-on-site-av-technician",
-      "text": "Do I need an on-site AV technician?",
+      "text": "Do I need an on site AV technician?",
       "level": 3
     },
     {
@@ -5609,8 +5609,8 @@
       "level": 2
     },
     {
-      "id": "what-we-provide-and-what-we-dont",
-      "text": "What We Provide, and What We Don't",
+      "id": "what-we-stock-and-what-we-source",
+      "text": "What We Stock, and What We Source",
       "level": 2
     },
     {
@@ -5890,8 +5890,8 @@
       "level": 2
     },
     {
-      "id": "what-we-provide-and-what-we-dont",
-      "text": "What We Provide, and What We Don't",
+      "id": "what-we-stock-and-what-we-source",
+      "text": "What We Stock, and What We Source",
       "level": 2
     },
     {

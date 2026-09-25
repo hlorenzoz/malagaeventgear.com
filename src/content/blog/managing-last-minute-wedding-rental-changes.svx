@@ -4,7 +4,7 @@ description: "MEG's real policy for managing last minute wedding rental changes:
 author: Hector Luis Lorenzo
 slug: managing-last-minute-wedding-rental-changes
 publishDate: "2026-02-21"
-updatedDate: "2026-07-29"
+updatedDate: "2026-09-25"
 excerpt: "MEG's real policy for managing last minute wedding rental changes: the 24 hour minimum notice, guest count package threshold, add ons and weather swaps."
 coverImage: https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall.webp
 categories: [Audio Visual Rental, Weddings]
@@ -21,7 +21,7 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Wedding plans shift close to the date. Guest counts move, the weather turns, and sometimes the date itself changes. Malaga Event Gear (MEG) supplies the AV side of a wedding only, sound, microphones, lighting, and a technician on the packages that include one, so this guide covers what actually happens to that AV booking when something changes late, governed by our real 24 hour minimum notice policy. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview.
+Wedding plans shift close to the date. Guest counts move, the weather turns, and sometimes the date itself changes. Malaga Event Gear (MEG) covers the AV side of a wedding with its own equipment and crew: sound, microphones, lighting, and a technician on the packages that include one. This guide covers what actually happens to that AV booking when something changes late, governed by our real 24 hour minimum notice policy. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview.
 
 ## Brief Overview
 

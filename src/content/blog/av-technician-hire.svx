@@ -4,7 +4,7 @@ description: "AV technician hire in Malaga: real euro pricing per package, from 
 author: Hector Luis Lorenzo
 slug: av-technician-hire
 publishDate: "2026-07-31"
-updatedDate: "2026-08-01"
+updatedDate: "2026-09-25"
 excerpt: "Hiring an AV technician in Malaga: which Malaga Event Gear packages include one, which charge extra, and how many hours each one actually covers."
 coverImage: https://cdn.malagaeventgear.com/blog/2494/7-years-on-the-Neighborhood-Council-Community-Meeting-1.webp
 categories: [Audio Visual Rental, Events]
@@ -21,7 +21,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking to hire an AV technician in Malaga, not just the equipment they run? Whether a technician is actually on site with your booking depends entirely on which Malaga Event Gear package you choose: included for the whole event on one, included with an hour cap on another, a paid add on on a third, and not offered at all on the fourth.
+Looking to hire an AV technician in Malaga, not just the equipment they run? Whether a technician is actually on site with your booking depends entirely on which Malaga Event Gear package you choose: included for the whole event on one, included with an hour cap on another, a paid add on on a third, and not offered at all on the other two.
 
 This guide covers the technician as a person and a role, not the equipment around them: which package puts one on site, what they actually do while your event runs, and how to book one for your date. For the coverage itself, phase by phase, with the named equipment our crew troubleshoots, see our [technical support for events](/blog/technical-support-for-events/) guide. If your event runs on a package with no technician, our [AV system troubleshooting](/blog/av-system-troubleshooting/) guide covers what to check yourself instead, package by package.
 
@@ -62,7 +62,7 @@ This guide names exactly which package puts a technician on site, what that tech
 
 ---
 
--   Four packages, four different technician outcomes: not offered, a paid add on, included for the full event, or included with an hour cap.
+-   Five packages, four different technician outcomes: not offered (on two of them), a paid add on, included for the full event, or included with an hour cap.
 
 -   The [Wedding Pack](/packages/wedding/) is the only package with a technician on site for the entire event, not a capped number of hours.
 
@@ -79,11 +79,12 @@ Whether a technician is on site with your equipment is not a blanket rule. It is
 | Package | Technician | Cost | Coverage |
 | --- | --- | --- | --- |
 | [Eco Pack](/packages/eco/) | Not offered, not even as an add on | Not available | Not applicable |
+| [Product Presentation Pack](/packages/product-presentation/) | Not offered, not even as an add on | Not available | Not applicable |
 | [Basic MICE Pack](/packages/basic-mice/) | Paid add on | +240 euros per day | Full event day |
 | [Wedding Pack](/packages/wedding/) | Included | Included in the 650 euro package price | Full event, no hour cap |
 | [MICE Pack](/packages/mice/) | Included | Included in the 490 euro package price, +40 euros per extra hour | Up to 6 continuous hours |
 
-All prices are ex VAT, with 21 percent Spanish VAT added at checkout. See full package inclusions on our [packages page](/packages/). If you also need the sound equipment specs behind each package, not just the technician column, our [sound system rental](/blog/sound-system-rental/) guide covers the same four packages by guest count and gear.
+All prices are ex VAT, with 21 percent Spanish VAT added at checkout. See full package inclusions on our [packages page](/packages/). If you also need the sound equipment specs behind each package, not just the technician column, our [sound system rental](/blog/sound-system-rental/) guide covers the same five packages by guest count and gear.
 
 <InlineCTA />
 
@@ -93,11 +94,13 @@ An AV technician is not just someone standing near the mixing desk. Before your 
 
 Once the event is live, they adjust gain as different speakers take the microphone, each with a different voice and a different distance from it, and manage the handoff as one speaker sits down and the next stands up, so a beat of silence never turns into dead air. If a wireless microphone connection drops, or a projector loses sync mid presentation, fixing it in the moment is their job, not something you troubleshoot from the audience.
 
-That is the real difference between the packages that include a technician and the one that does not. On the [Eco Pack](/packages/eco/), the DJ or host runs their own set. On the [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/), one of our own crew is the one watching the levels for you.
+That is the real difference between the packages that include a technician and the ones that do not. On the [Eco Pack](/packages/eco/), the DJ or host runs their own set, and on the [Product Presentation Pack](/packages/product-presentation/), the presenter runs their own slides and microphone. On the [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/), one of our own crew is the one watching the levels for you.
 
 ## Can You Hire Just a Technician, Without the Equipment?
 
-No. Malaga Event Gear does not sell a technician as a standalone service, only as part of one of our own equipment packages. If your event already has its own sound system, screen or lighting rig and you only need someone to operate it, that is not a booking we offer: our technicians are dispatched with our own gear, which is what they are trained on, not a third party rig they have never seen.
+Not from our own crew. Malaga Event Gear does not sell a technician as a standalone service, only as part of one of our own equipment packages. Our own technicians are dispatched with our own gear, which is what they are trained on, and we would rather not send them to run a rig they have never seen.
+
+If your event already has its own sound system, screen or lighting rig and you only need someone to operate it, you can still ask us. The same logic applies to anyone else: the operator has to know that specific rig. Tell us its make and model, and we can ask suppliers for an operator who already works with that equipment and is free on your date. If we cannot find one, we will tell you before you plan around it.
 
 The closest match if a technician is your main requirement is the [Basic MICE Pack](/packages/basic-mice/), where the technician is a paid add on rather than a standard inclusion, or the [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/), where one is already part of the package. [Contact us](/contact/) if you are unsure which package fits, and we will confirm what is and is not possible for your event.
 
@@ -108,6 +111,7 @@ Which package makes sense depends on how long your event actually needs a techni
 -   **A private party or DJ set** rarely needs a technician: the [Eco Pack](/packages/eco/) is a self run PA system, with the DJ or host controlling their own levels. See our [audio visual rental for music performances](/blog/audio-visual-rental-for-music-performances/) guide.
 -   **A wedding** runs ceremony, speeches, dinner and dancing back to back, often past the point a fixed hour cap would cover, which is why the [Wedding Pack](/packages/wedding/) includes a technician for the full event rather than a set number of hours.
 -   **A board meeting or small client meeting** on the [Basic MICE Pack](/packages/basic-mice/) often does not need one on site at all, which is why it is an optional add on rather than a default inclusion.
+-   **A product presentation or dealership showcase** on the [Product Presentation Pack](/packages/product-presentation/) is run by the presenter, with no technician option at all. If you want one on site for that kind of event, the [MICE Pack](/packages/mice/) is the step up.
 -   **A larger conference, product launch or all hands meeting** on the [MICE Pack](/packages/mice/) gets a technician included for up to 6 continuous hours. If your event is likely to run longer, budget for the 40 euro per hour extension rather than assuming the cap will stretch.
 
 For more on choosing between the Basic MICE Pack and the MICE Pack for a corporate event specifically, see our [audio visual rental for corporate meetings](/blog/audio-visual-rental-for-corporate-meetings/) guide.
@@ -136,17 +140,17 @@ Demand for technician covered packages peaks during wedding season, from April t
 
 ## Conclusion
 
-Whether a technician is on site with your event depends on the package, not a blanket policy: not offered on the [Eco Pack](/packages/eco/), a paid add on on the [Basic MICE Pack](/packages/basic-mice/), included for the full event on the [Wedding Pack](/packages/wedding/), and included up to 6 hours on the [MICE Pack](/packages/mice/). [Contact us](/contact/) to confirm technician coverage for your date. For our full audio visual rental range, see the [audio visual rental page](/blog/audio-visual-rental/).
+Whether a technician is on site with your event depends on the package, not a blanket policy: not offered on the [Eco Pack](/packages/eco/) or the [Product Presentation Pack](/packages/product-presentation/), a paid add on on the [Basic MICE Pack](/packages/basic-mice/), included for the full event on the [Wedding Pack](/packages/wedding/), and included up to 6 hours on the [MICE Pack](/packages/mice/). [Contact us](/contact/) to confirm technician coverage for your date. For our full audio visual rental range, see the [audio visual rental page](/blog/audio-visual-rental/).
 
 ## FAQs
 
 ### Can I hire just an AV technician, without renting your equipment?
 
-No. We do not sell a technician as a standalone service, only as part of one of our own equipment packages. See [Can You Hire Just a Technician, Without the Equipment?](#can-you-hire-just-a-technician-without-the-equipment) above.
+Not one of our own crew. We do not sell a technician as a standalone service, only as part of one of our own equipment packages. See [Can You Hire Just a Technician, Without the Equipment?](#can-you-hire-just-a-technician-without-the-equipment) above if your event already has its own system.
 
 ### Which packages include an AV technician?
 
-The [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/) include one as standard, the [Basic MICE Pack](/packages/basic-mice/) offers one as a paid add on at 240 euros per day, and the [Eco Pack](/packages/eco/) does not offer one at all. See [Technician by Package](#technician-by-package-whats-included-and-what-costs-extra) above for the full breakdown.
+The [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/) include one as standard, the [Basic MICE Pack](/packages/basic-mice/) offers one as a paid add on at 240 euros per day, and the [Eco Pack](/packages/eco/) and [Product Presentation Pack](/packages/product-presentation/) do not offer one at all. See [Technician by Package](#technician-by-package-whats-included-and-what-costs-extra) above for the full breakdown.
 
 ### What does an AV technician actually do during my event?
 

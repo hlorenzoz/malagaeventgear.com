@@ -4,7 +4,7 @@ description: "Audio visual rental for virtual and hybrid events in Malaga: room 
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-virtual-events
 publishDate: 2025-11-24
-updatedDate: "2026-07-26"
+updatedDate: "2026-09-25"
 excerpt: "Audio visual rental for virtual and hybrid events in Malaga: room sound, screens and laptop connectivity, delivered and set up across the Costa del Sol."
 coverImage: https://cdn.malagaeventgear.com/blog/1313/corporate-event.webp
 categories: [Audio Visual Rental, Events]
@@ -21,9 +21,9 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for audio visual rental for virtual events in Malaga? A virtual or hybrid event still needs a real room setup: a sound system your in-room audience can hear, a screen for the call, and a way to plug your own laptop into both.
+Looking for audio visual rental for virtual events in Malaga? A virtual or hybrid event still needs a real room setup: a sound system your in room audience can hear, a screen for the call, and a way to plug your own laptop into both.
 
-Malaga Event Gear delivers, installs and tests that room setup across Malaga and the wider Costa del Sol. We do not provide the call itself: your laptop, your streaming or conferencing software and your internet connection are yours to bring.
+Malaga Event Gear delivers, installs and tests that room setup across Malaga and the wider Costa del Sol. The call itself stays with you: your laptop, your streaming or conferencing software and your internet connection are yours to bring.
 
 Contact us today to discover the perfect rental package for your unique needs.
 
@@ -43,7 +43,7 @@ Contact us today to discover the perfect rental package for your unique needs.
     -   [Can I connect my own laptop to your sound and screen setup?](#can-i-connect-my-own-laptop-to-your-sound-and-screen-setup)
     -   [Do you provide cameras or streaming equipment?](#do-you-provide-cameras-or-streaming-equipment)
     -   [Do you provide internet or wifi for the event?](#do-you-provide-internet-or-wifi-for-the-event)
-    -   [Do I need an on-site AV technician?](#do-i-need-an-on-site-av-technician)
+    -   [Do I need an on site AV technician?](#do-i-need-an-on-site-av-technician)
     -   [How many people can your equipment support?](#how-many-people-can-your-equipment-support)
 
 ## Brief Overview
@@ -70,11 +70,13 @@ Malaga Event Gear provides audio visual rental for virtual and hybrid events in 
 
 ## What We Provide vs. What You Bring
 
-A virtual or hybrid event is really two things: the call itself, and the room the in-person audience sits in. We supply the second one.
+A virtual or hybrid event is really two things: the call itself, and the room the in person audience sits in. We supply the second one.
 
-**We provide**: PA sound systems and microphones so your in-room audience can hear, a projector and screen or LED display so they can see the call, and the adapters to plug your laptop into both. On our larger packages, a technician stays on site to run it.
+**We provide**: PA sound systems and microphones so your in room audience can hear, a projector and screen or LED display so they can see the call, and the adapters to plug your laptop into both. On our larger packages, a technician stays on site to run it.
 
-**You bring**: your own laptop or device, your streaming or video conferencing software (Zoom, Teams, or whatever your event runs on), and your own internet connection. We do not supply cameras, streaming encoders, or a recording service.
+**You bring**: your own laptop or device, your streaming or video conferencing software (Zoom, Teams, or whatever your event runs on), and your own internet connection. Cameras, filming and live streaming are not in our own inventory.
+
+If your event does need a camera or a produced stream, let us know when you ask for a quote. We will ask a supplier about it on your behalf. Whether it can be covered depends on their calendar, not ours.
 
 Being clear about that split up front means no surprises on the day.
 
@@ -88,7 +90,7 @@ Professional corporate event setup featuring large screens and seating for atten
 
 ![Setup for a MICE event in Malaga with a podium, professional lighting, sound equipment, a large screen displaying a presentation, and a projector in a modern conference venue.](https://cdn.malagaeventgear.com/blog/1305/lighting-sound-big-screen-projector-rental-malaga_6-100x100.webp)
 
-Podium, lighting, sound, big-screen, and projector solutions for professional MICE events.
+Podium, lighting, sound, big screen, and projector solutions for professional MICE events.
 
 ![Wide angle view of a MICE conference room setup in Malaga with a podium, professional lighting, sound equipment, a large presentation screen, and a projector.](https://cdn.malagaeventgear.com/blog/1304/lighting-sound-big-screen-projector-rental-malaga_5-300x224.webp)
 
@@ -112,11 +114,11 @@ Our catalog covers the room side of a virtual or hybrid event:
 
 | Equipment | Included in | Use case |
 | --- | --- | --- |
-| Sound system with speakers and mixing console | Product Presentation Pack | In-room sound for the call |
+| Sound system with speakers and mixing console | Product Presentation Pack | In room sound for the call |
 | Wireless handheld microphone | Product Presentation Pack | Speaker microphone |
 | Gooseneck microphone | Basic MICE Pack | Podium or lectern microphone |
 | Gooseneck and wireless handheld microphones | MICE Pack | Podium plus speaker microphones |
-| 3000 lumen projector and screen | Basic MICE Pack | Displaying the call on a mid-size screen |
+| 3000 lumen projector and screen | Basic MICE Pack | Displaying the call on a mid size screen |
 | 60 inch LED display | MICE Pack | Displaying the call on a larger screen |
 | HDMI and USB-C adapters, audio interfaces | Product Presentation Pack | Connecting your own laptop or tablet |
 
@@ -124,9 +126,9 @@ See the full breakdown on the [audio visual rental page](/blog/audio-visual-rent
 
 ## Connecting Your Own Laptop
 
-Our [Product Presentation Pack](/packages/product-presentation/) includes all the adapters you need, HDMI and USB-C, plus audio interfaces, to connect your own laptop, tablet or media player to our sound and screen setup seamlessly. For a larger conference room, our [MICE Pack](/packages/mice/) offers a bigger 60 inch LED display and a dedicated technician for up to six hours; ask when you book if you need the same laptop adapters on that setup.
+Our [Product Presentation Pack](/packages/product-presentation/) includes all the adapters you need, HDMI and USB-C, plus audio interfaces, to connect your own laptop, tablet or media player to our sound and screen setup seamlessly. For a larger conference room, our [MICE Pack](/packages/mice/) offers a bigger 60 inch LED display and a dedicated technician for up to six hours. Ask when you book if you need the same laptop adapters on that setup.
 
-Running an in-person training day instead of a remote or hybrid one? See our [audio visual rental for training sessions](/blog/audio-visual-rental-for-training-sessions/) guide. Just need one remote speaker joining an otherwise in-person room, not a full virtual event? See our [audio visual rental for remote presentations](/blog/audio-visual-rental-for-remote-presentations/) guide. Planning a wedding instead? See our [audio visual rental for weddings](/blog/audio-visual-rental-for-weddings/) guide.
+Running an in person training day instead of a remote or hybrid one? See our [audio visual rental for training sessions](/blog/audio-visual-rental-for-training-sessions/) guide. Just need one remote speaker joining an otherwise in person room, not a full virtual event? See our [audio visual rental for remote presentations](/blog/audio-visual-rental-for-remote-presentations/) guide. Planning a wedding instead? See our [audio visual rental for weddings](/blog/audio-visual-rental-for-weddings/) guide.
 
 ## Conclusion
 
@@ -136,7 +138,7 @@ Whether it is a fully virtual presentation or a hybrid meeting with a room full 
 
 ### What equipment do I need for a virtual event?
 
-You need in-room sound so people can hear the call, a screen or display so they can see it, and a way to connect your laptop to both. Our [Product Presentation Pack](/packages/product-presentation/) covers all three with HDMI and USB-C adapters included.
+You need in room sound so people can hear the call, a screen or display so they can see it, and a way to connect your laptop to both. Our [Product Presentation Pack](/packages/product-presentation/) covers all three with HDMI and USB-C adapters included.
 
 ### How much does audio visual rental cost for a virtual event?
 
@@ -144,7 +146,7 @@ Pricing depends on the package: our full catalog, from the Product Presentation 
 
 ### What is the difference between a virtual event and a hybrid event?
 
-A fully virtual event has no in-person audience at all. A hybrid event has both an in-person room and remote participants on a call. Either way, we supply the same thing: the room's sound, screen and laptop connectivity. See [What We Provide vs. What You Bring](#what-we-provide-vs-what-you-bring) above.
+A fully virtual event has no in person audience at all. A hybrid event has both an in person room and remote participants on a call. Either way, we supply the same thing: the room's sound, screen and laptop connectivity. See [What We Provide vs. What You Bring](#what-we-provide-vs-what-you-bring) above.
 
 ### Can I connect my own laptop to your sound and screen setup?
 
@@ -152,15 +154,15 @@ Yes. The [Product Presentation Pack](/packages/product-presentation/) includes H
 
 ### Do you provide cameras or streaming equipment?
 
-No. We provide the room's sound and screen, not cameras, streaming encoders or a recording service. You run the call from your own laptop and software.
+Not with our own equipment. Cameras, filming and live streaming are not in our own inventory. We provide the room's sound and screen, and you run the call from your own laptop and software. See [What We Provide vs. What You Bring](#what-we-provide-vs-what-you-bring) above.
 
 ### Do you provide internet or wifi for the event?
 
 No, internet and wifi are not part of our packages. Confirm connectivity with your venue before the event.
 
-### Do I need an on-site AV technician?
+### Do I need an on site AV technician?
 
-Not on every package. The [MICE Pack](/packages/mice/) includes a technician on site for up to six hours; on other packages a technician is available as an add on. Ask when you book.
+Not on every package. The [MICE Pack](/packages/mice/) includes a technician on site for up to six hours, and the [Basic MICE Pack](/packages/basic-mice/) offers one as a paid add on. The [Product Presentation Pack](/packages/product-presentation/) is self run, with no technician. Ask when you book.
 
 ### How many people can your equipment support?
 

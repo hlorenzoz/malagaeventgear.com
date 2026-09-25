@@ -27,12 +27,12 @@
   ],
   "audio-visual-rental-for-weddings": [
     {
-      "question": "What microphone do you use for the vows, and who wears it?",
-      "answer": "A wireless lavalier microphone, clipped to the officiant. It is small, stays out of photos, and does not require either of you to stand near a microphone stand during your vows. See During the Vows above."
+      "question": "What microphone do you use for the vows, and who holds it?",
+      "answer": "One of the wireless handheld microphones included in the Wedding Pack, held by the officiant, so neither of you has to stand near a microphone stand during your vows. If the officiant needs both hands free, a wireless lavalier is available as a separate, quote based item. See During the Vows above."
     },
     {
       "question": "Why does a lavalier microphone need a technician present?",
-      "answer": "A lavalier microphone, worn close to the mouth and run through a live PA system, is genuinely more prone to feedback than a handheld microphone held further from the speakers. The Wedding Pack includes a technician for the full event specifically to watch for that risk and adjust before your guests notice. See During the Vows above."
+      "answer": "A lavalier microphone, worn close to the body and run through a live PA system, is genuinely more prone to feedback than a handheld microphone. If you add one for the officiant, the technician the Wedding Pack includes for the full event watches for that risk and adjusts before your guests notice. See During the Vows above."
     },
     {
       "question": "What happens to the sound setup between the ceremony and the reception?",
@@ -44,7 +44,7 @@
     },
     {
       "question": "Does the technician stay for speeches and dancing too, or just the ceremony?",
-      "answer": "The whole event, with no hour cap, one of only two packages in our catalog built that way. The same technician switches from the officiant's lavalier to a handheld microphone for speeches, then brings the volume up for dancing later in the night. See Speeches at the Reception and Dancing above."
+      "answer": "The whole event, with no hour cap, the only package in our catalog built that way. The same technician manages the wireless microphones from the vows through the speeches, then brings the volume up for dancing later in the night. See Speeches at the Reception and Dancing above."
     }
   ],
   "audio-visual-rental-for-product-launches": [
@@ -78,7 +78,7 @@
     },
     {
       "question": "How far in advance should I book AV equipment for a product launch?",
-      "answer": "Book at least 24 hours in advance to guarantee availability. For a launch with a fixed reveal date, book as early as you can once your venue is confirmed. Our services are available in Malaga and extend to Granada for rentals over 400 euros."
+      "answer": "Book at least 24 hours in advance to guarantee availability. For a launch with a fixed reveal date, book as early as you can once your venue is confirmed. Our services are available in Malaga, the Costa del Sol and Sevilla with no minimum order, and extend to Granada for rentals over 400 euros."
     }
   ],
   "audio-visual-rental-company": [
@@ -96,19 +96,19 @@
     },
     {
       "question": "What events does Malaga Event Gear cover?",
-      "answer": "Guest capacity scales with the package: up to 40 on the Basic MICE Pack, 50 on the Eco Pack, 80 on the Wedding Pack, and 120 on the MICE Pack."
+      "answer": "Guest capacity scales with the package: up to 40 on the Basic MICE Pack, 50 on the Eco Pack, 80 on the Wedding Pack, and 120 on the MICE Pack. The Product Presentation Pack has no fixed guest cap, since it is chosen by event type."
     },
     {
       "question": "Does Malaga Event Gear deliver and set up the equipment, or do I collect it myself?",
-      "answer": "We deliver, install and test every package ourselves, then collect it again after your event. This is not a self-collect model."
+      "answer": "We deliver, install and test every package ourselves, then collect it again after your event. This is not a self collect model."
     },
     {
       "question": "What areas does Malaga Event Gear serve?",
-      "answer": "Malaga and 23 towns across the Costa del Sol, extending to Sevilla and Granada for larger bookings."
+      "answer": "Malaga, the Costa del Sol and inland towns of the province, plus Sevilla, and Granada for bookings over 400 euros."
     },
     {
       "question": "How far in advance should I book Malaga Event Gear?",
-      "answer": "A minimum of 24 hours notice guarantees your slot. We are based in Malaga, with delivery extending to Granada once the booking passes 400 euros."
+      "answer": "A minimum of 24 hours notice guarantees your slot. We are based in Malaga, with delivery across the Costa del Sol and to Sevilla, and to Granada once the booking passes 400 euros."
     }
   ],
   "how-to-choose-wedding-rentals": [
@@ -164,11 +164,11 @@
     },
     {
       "question": "Do you provide video conferencing equipment for hybrid meetings?",
-      "answer": "No, video conferencing hardware is not part of our catalog. If your meeting needs a remote participant joining an in-person room, see our audio visual rental for remote presentations guide instead."
+      "answer": "Not from our own inventory: video conferencing hardware is not part of it. See What We Stock, and What We Source above. If your meeting needs a remote participant joining an in person room, see our audio visual rental for remote presentations guide instead."
     },
     {
       "question": "How far in advance should I book AV equipment for a corporate meeting?",
-      "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga and extend to Granada for rentals over 400 euros."
+      "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga, the Costa del Sol and Sevilla with no minimum order, and extend to Granada for rentals over 400 euros."
     }
   ],
   "pros-and-cons-of-wedding-rentals": [
@@ -212,7 +212,7 @@
     },
     {
       "question": "How many guests can your AV packages support?",
-      "answer": "It scales with the package: the Eco Pack covers up to 50 guests, the Wedding Pack up to 80, the Basic MICE Pack up to 40, and the MICE Pack up to 120. See the full comparison in Comprehensive Audio Visual Packages for Every Event above."
+      "answer": "It scales with the package: the Eco Pack covers up to 50 guests, the Wedding Pack up to 80, the Basic MICE Pack up to 40, and the MICE Pack up to 120. The Product Presentation Pack has no guest cap listed and is chosen by event type rather than headcount. See the full comparison in Comprehensive Audio Visual Packages for Every Event above."
     },
     {
       "question": "Can audio visual equipment be used outdoors?",
@@ -224,7 +224,7 @@
     },
     {
       "question": "Do you serve areas outside Malaga city?",
-      "answer": "Yes. We deliver across the wider Costa del Sol, including Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas, Nerja and Antequera, with wider reach to Sevilla and Granada. See Costa del Sol Coverage, Not Just Malaga City above."
+      "answer": "Yes. We deliver across the wider Costa del Sol, including Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas, Nerja and Antequera, with wider reach to Sevilla, and to Granada for bookings over 400 euros. See Costa del Sol Coverage, Not Just Malaga City above."
     }
   ],
   "audio-visual-rental-for-press-conferences": [
@@ -254,7 +254,7 @@
     },
     {
       "question": "How far in advance should I book AV equipment for a press conference?",
-      "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga and extend to Granada for rentals over 400 euros."
+      "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga, the Costa del Sol and Sevilla with no minimum order, and extend to Granada for rentals over 400 euros."
     },
     {
       "question": "How many people can a press conference AV setup accommodate?",
@@ -344,7 +344,7 @@
   "essential-items-for-wedding-rentals": [
     {
       "question": "What items does Malaga Event Gear actually provide for a wedding?",
-      "answer": "PA sound, ambient lighting, wireless microphones and a live technician, bundled in the Wedding Pack for 650 euros ex VAT. We do not supply furniture, tents, linens, catering or decor."
+      "answer": "PA sound, ambient lighting, wireless microphones and a live technician, bundled in the Wedding Pack for 650 euros ex VAT. Furniture, tents, linens and decor are not in our own inventory, and catering is not a service we run. See What a Wedding Actually Needs, and Where MEG Fits above."
     },
     {
       "question": "Does the Wedding Pack include chairs, tables or linens?",
@@ -356,7 +356,7 @@
     },
     {
       "question": "Should ceremony microphones be wired or wireless?",
-      "answer": "Wired is usually safer for the officiant during vows, since it removes any risk of a dropped wireless signal at the one moment of the day that cannot be redone. Wireless suits reception speeches and toasts, where guests move between the microphone and their seats."
+      "answer": "Wireless is the standard. The Wedding Pack's wireless handheld microphones cover the officiant during the vows and the guests during the reception speeches and toasts, with our technician watching levels throughout. A wired handheld can be an alternative on request, and a wireless lavalier is a separate item if the officiant needs both hands free. See Wired or Wireless Microphone for Vows above."
     },
     {
       "question": "Is ceremony sound the same setup as reception sound?",
@@ -392,7 +392,7 @@
     },
     {
       "question": "How much does audio visual rental cost for a charity fundraiser?",
-      "answer": "Pricing depends on the package: our full catalog, from the Wedding Pack up to the MICE Pack for a larger fundraising gala, is listed with exact euro pricing on our packages page. All rates are ex VAT, with 21 percent Spanish VAT added at checkout, and every price includes delivery, setup and teardown."
+      "answer": "Pricing depends on the package. Our full catalog runs from 290 to 650 euros, with the MICE Pack at 490 euros for a larger fundraising gala, and every package is listed with exact euro pricing on our packages page. All rates are ex VAT, with 21 percent Spanish VAT added at checkout, and every price includes delivery, setup and teardown."
     },
     {
       "question": "What size fundraiser does each package support?",
@@ -416,7 +416,7 @@
     },
     {
       "question": "How long has Malaga Event Gear been providing audio visual rental?",
-      "answer": "Malaga Event Gear has been running live events across Malaga and the Costa del Sol since 1996, three decades of hands-on experience."
+      "answer": "Malaga Event Gear has been running live events across Malaga and the Costa del Sol since 1996, three decades of hands on experience."
     }
   ],
   "audio-visual-rental-for-sports-events": [
@@ -482,11 +482,11 @@
   "latest-trends-in-wedding-rentals": [
     {
       "question": "What is actually trending in wedding rentals right now?",
-      "answer": "Most \"wedding rental trend\" content covers decor, tablescapes, and catering, none of which MEG offers. On our own AV side, the real pattern is more couples booking the technician included Wedding Pack over a self run setup, and wireless microphones becoming a default expectation for reception speeches rather than a special request."
+      "answer": "Most \"wedding rental trend\" content covers decor, tablescapes, and catering. Decor and tablescapes are not in MEG's own inventory, and catering is not something we do. On our own AV side, the real pattern is more couples booking the technician included Wedding Pack over a self run setup, and wireless microphones becoming a default expectation for reception speeches rather than a special request."
     },
     {
       "question": "Is a live wedding AV technician a standard trend now, or still optional?",
-      "answer": "It depends on the package. The Wedding Pack and the full MICE Pack include a live technician on site throughout the event. The Basic MICE Pack does not include one by default, but it can be added from 240 euros per day. The Eco Pack is delivered and tested by our crew, then run without a technician for the rest of the event. See our making the most of your wedding rentals guide for how to brief the technician once you've booked."
+      "answer": "It depends on the package. The Wedding Pack includes a live technician on site throughout the event, and the full MICE Pack includes one for up to 6 continuous hours. The Basic MICE Pack does not include one by default, but it can be added from 240 euros per day. The Eco Pack and the Product Presentation Pack are delivered and tested by our crew, then run without a technician for the rest of the event. See our making the most of your wedding rentals guide for how to brief the technician once you've booked."
     },
     {
       "question": "Are couples choosing warm static lighting or color changing lighting more often for weddings?",
@@ -672,7 +672,7 @@
     },
     {
       "question": "Does calibration include video or screen setup too?",
-      "answer": "No, not on this page. Audio calibration, gain staging and speaker tuning, is a separate process from screen and presentation source switching, which our Kramer VP-731 handles. If your event's account mentions calibrating \"sound and video networks\" together, the video half refers to that presentation scaler, not a camera or broadcast system, which we do not offer. See Calibration in the Field above."
+      "answer": "No, not on this page. Audio calibration, gain staging and speaker tuning, is a separate process from screen and presentation source switching, which our Kramer VP-731 handles. If your event's account mentions calibrating \"sound and video networks\" together, the video half refers to that presentation scaler, not a camera or broadcast system: cameras, filming and live streaming are not in our own inventory. See Calibration in the Field above."
     },
     {
       "question": "Is calibration done once, or does it change during the event?",
@@ -690,7 +690,7 @@
   "benefits-of-audio-visual-rental": [
     {
       "question": "Is it cheaper to rent or buy AV equipment?",
-      "answer": "For most one-off or occasional events, renting is cheaper: our packages start at 290 euros, ex VAT, with delivery, setup and teardown included, versus a large upfront purchase plus storage and maintenance between uses."
+      "answer": "For most one off or occasional events, renting is cheaper: our packages start at 290 euros, ex VAT, with delivery, setup and teardown included, versus a large upfront purchase plus storage and maintenance between uses."
     },
     {
       "question": "What is included in an AV rental price?",
@@ -714,7 +714,7 @@
     },
     {
       "question": "How far in advance should I book audio visual rental?",
-      "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga and extend to Granada for rentals over 400 euros."
+      "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga, the Costa del Sol and Sevilla with no minimum order, and extend to Granada for rentals over 400 euros."
     }
   ],
   "projector-rental": [
@@ -788,7 +788,7 @@
     },
     {
       "question": "How much does audio visual rental cost for a gala dinner?",
-      "answer": "Pricing depends on the package: our full catalog, from the Wedding Pack up to the MICE Pack for a larger awards gala, is listed with exact euro pricing on our packages page. All rates are ex VAT, with 21 percent Spanish VAT added at checkout, and every price includes delivery, setup and teardown."
+      "answer": "Pricing depends on the package. Our full catalog runs from 290 to 650 euros, with the MICE Pack at 490 euros for a larger awards gala, and every package is listed with exact euro pricing on our packages page. All rates are ex VAT, with 21 percent Spanish VAT added at checkout, and every price includes delivery, setup and teardown."
     },
     {
       "question": "What size gala does each package support?",
@@ -1002,7 +1002,7 @@
     },
     {
       "question": "How far in advance should I book AV equipment for a music performance?",
-      "answer": "Book as early as you can once your event date and venue are confirmed. Our services are available in Malaga and extend to Granada for rentals over 400 euros, and we recommend booking at least 24 hours in advance."
+      "answer": "Book as early as you can once your event date and venue are confirmed. Our services are available in Malaga, the Costa del Sol and Sevilla with no minimum order, and extend to Granada for rentals over 400 euros. We recommend booking at least 24 hours in advance."
     }
   ],
   "audio-video-rental-near-me-in-malaga-spain": [
@@ -1028,11 +1028,11 @@
     },
     {
       "question": "Do you deliver audio video rental outside Malaga city?",
-      "answer": "Yes. Our delivery area covers the wider Costa del Sol, not just Malaga city: Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas, Nerja and Antequera are all in range, with Sevilla and Granada available for larger bookings. See Costa del Sol Coverage, Not Just Malaga City above."
+      "answer": "Yes. Our delivery area covers the wider Costa del Sol, not just Malaga city: Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas, Nerja and Antequera are all in range, with Sevilla also covered and Granada available for bookings over 400 euros. See Costa del Sol Coverage, Not Just Malaga City above."
     },
     {
       "question": "How far in advance should I book audio video rental?",
-      "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga and extend to Granada for rentals over 400 euros."
+      "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga, the Costa del Sol and Sevilla with no minimum order, and extend to Granada for rentals over 400 euros."
     }
   ],
   "stage-uplighting": [
@@ -1102,15 +1102,15 @@
     },
     {
       "question": "Which packages can't be customized?",
-      "answer": "The Wedding Pack and Product Presentation Pack ship as a fixed configuration, with no listed add-on menu. See Packages That Don't Flex above."
+      "answer": "The Wedding Pack and Product Presentation Pack ship as a fixed configuration, with no listed add on menu. See Packages That Don't Flex above."
     },
     {
       "question": "Can I add a technician to a package that doesn't include one?",
-      "answer": "Yes, on the Basic MICE Pack, a dedicated on-site technician is available for 240 euros per day. The Wedding Pack and MICE Pack already include one."
+      "answer": "Yes, on the Basic MICE Pack, a dedicated on site technician is available for 240 euros per day. The Wedding Pack and MICE Pack already include one."
     },
     {
       "question": "Can I add a lectern or staging to a corporate package?",
-      "answer": "Yes, both are add-ons on the MICE Pack: a methacrylate lectern for 50 euros, and modular staging for 35 euros per square meter."
+      "answer": "Yes, both are add ons on the MICE Pack: a methacrylate lectern for 50 euros, and modular staging for 35 euros per square meter."
     },
     {
       "question": "Is a projector available as an add-on?",
@@ -1122,11 +1122,11 @@
     },
     {
       "question": "How much does it cost to add extra technician hours?",
-      "answer": "On the MICE Pack, an additional hour of on-site technical support beyond the included six costs 40 euros. All prices are ex VAT, with 21 percent Spanish VAT added at checkout."
+      "answer": "On the MICE Pack, an additional hour of on site technical support beyond the included six costs 40 euros. All prices are ex VAT, with 21 percent Spanish VAT added at checkout."
     },
     {
       "question": "What if I need something that isn't on any package's add-on list?",
-      "answer": "Contact us directly. We do not add equipment or services outside a package's real inclusions and listed add-ons without confirming it first."
+      "answer": "Contact us directly. We do not add equipment or services outside a package's real inclusions and listed add ons without confirming it first."
     }
   ],
   "audio-visual-rental-for-art-exhibitions": [
@@ -1194,11 +1194,11 @@
     },
     {
       "question": "Do I need to arrange pickup or setup myself?",
-      "answer": "No. Every package is delivered, installed and tested by our crew, then collected again afterward. This is not a self-collect model."
+      "answer": "No. Every package is delivered, installed and tested by our crew, then collected again afterward. This is not a self collect model."
     },
     {
       "question": "What size package do I actually need?",
-      "answer": "It depends on your guest count: up to 40 for the Basic MICE Pack, 50 for the Eco Pack, 80 for the Wedding Pack, and 120 for the MICE Pack. If your list can still grow, book the next size up."
+      "answer": "It depends on your guest count: up to 40 for the Basic MICE Pack, 50 for the Eco Pack, 80 for the Wedding Pack, and 120 for the MICE Pack. The Product Presentation Pack lists no guest cap, since it is sized to a presenter with slides. If your list can still grow, book the next size up."
     },
     {
       "question": "How much does AV rental actually cost once VAT and extras are included?",
@@ -1206,25 +1206,25 @@
     },
     {
       "question": "How far in advance should I book AV equipment?",
-      "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga and extend to Granada for rentals over 400 euros."
+      "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga, the Costa del Sol and Sevilla with no minimum order, and extend to Granada for rentals over 400 euros."
     }
   ],
   "sound-system-rental": [
     {
       "question": "What is included in a sound system rental?",
-      "answer": "It depends on the package. The Eco Pack includes 2 active speakers with stands, 1 wired dynamic microphone and 2 RGBW LED light bars, with no technician. The Basic MICE Pack includes a basic sound reinforcement system and 1 gooseneck microphone, with a technician available as a paid add on. The Wedding Pack includes a high end active PA sound system, wireless microphones and a technician. The MICE Pack includes a premium sound system, gooseneck and wireless handheld microphones, and a technician for up to 6 hours. See What's Included in a Sound System Rental above for the full breakdown."
+      "answer": "It depends on the package. The Eco Pack includes 2 active speakers with stands, 1 wired dynamic microphone and 2 RGBW LED light bars, with no technician. The Basic MICE Pack includes a basic sound reinforcement system and 1 gooseneck microphone, with a technician available as a paid add on. The Wedding Pack includes a high end active PA sound system, wireless microphones and a technician. The MICE Pack includes a premium sound system, gooseneck and wireless handheld microphones, and a technician for up to 6 hours. The Product Presentation Pack includes a venue sound system with 2 speakers and a mixing console, a wireless handheld microphone, a projector and a screen, with no technician. See What's Included in a Sound System Rental above for the full breakdown."
     },
     {
       "question": "Do I need a PA system for a DJ set, or something different for a speech heavy event?",
-      "answer": "Both use a PA system, but the setup differs. A DJ set or party is served well by a self run PA system, like our Eco Pack, with a wired microphone for announcements and no technician. A speech heavy wedding, boardroom address or conference panel needs a wireless or gooseneck microphone paired with a technician managing levels live, which is what the Wedding Pack, Basic MICE Pack and MICE Pack are built for."
+      "answer": "Both use a PA system, but the setup differs. A DJ set or party is served well by a self run PA system, like our Eco Pack, with a wired microphone for announcements and no technician. A speech heavy wedding, boardroom address or conference panel needs a wireless or gooseneck microphone paired with a technician managing levels live. The Wedding Pack and MICE Pack include one, and the Basic MICE Pack offers one as a paid add on."
     },
     {
       "question": "Do you provide a technician with the sound system?",
-      "answer": "Only on some packages. The Eco Pack is delivery, setup and teardown only, with no technician on site. The Basic MICE Pack offers a technician as a paid add on. The Wedding Pack and MICE Pack include a live technician as standard, with the MICE Pack technician on site for up to 6 continuous hours. For the full breakdown of what that technician actually does on site, and how to book one specifically, see our AV technician hire guide."
+      "answer": "Only on some packages. The Eco Pack and the Product Presentation Pack are delivery, setup and teardown only, with no technician on site. The Basic MICE Pack offers a technician as a paid add on. The Wedding Pack and MICE Pack include a live technician as standard, with the MICE Pack technician on site for up to 6 continuous hours. For the full breakdown of what that technician actually does on site, and how to book one specifically, see our AV technician hire guide."
     },
     {
       "question": "Do you provide a generator or backup power for the sound system?",
-      "answer": "No. None of our packages include a generator or backup power supply. If your venue, especially an outdoor villa or terrace, has uncertain mains power, confirm this with us when you request your quote so we can plan the setup around your venue's actual power supply."
+      "answer": "No. None of our packages include a generator or backup power supply, and there is no generator in our own inventory. If your venue, especially an outdoor villa or terrace, has uncertain mains power, confirm this with us when you request your quote so we can plan the setup around your venue's actual power supply. See Indoor and Outdoor Sound System Rental above if that supply falls short."
     },
     {
       "question": "How far in advance should I book a sound system rental?",
@@ -1236,11 +1236,11 @@
     },
     {
       "question": "Is a PA system rental the same as a sound system rental?",
-      "answer": "Yes, for our packages the two terms describe the same equipment. We use \"PA system\" and \"sound system\" interchangeably throughout this guide, and every package above is a PA system rental: a self run PA on the Eco Pack for a DJ set or party, or a technician managed PA on the Wedding Pack, Basic MICE Pack or MICE Pack for a speech heavy event. There is no separate PA system rental product or pricing tier."
+      "answer": "Yes, for our packages the two terms describe the same equipment. We use \"PA system\" and \"sound system\" interchangeably throughout this guide, and every package above is a PA system rental: a self run PA on the Eco Pack for a DJ set or party or on the Product Presentation Pack for a presenter, or a technician managed PA on the Wedding Pack or MICE Pack for a speech heavy event (on the Basic MICE Pack, the technician is a paid add on). There is no separate PA system rental product or pricing tier."
     },
     {
       "question": "Do you offer a portable, battery powered or self collect PA system?",
-      "answer": "No. Every package we offer is delivered, installed, tested and collected by our own crew, never a self collect or self return unit, and none of our packages run on battery power. If a specific venue has uncertain mains power, contact us with the details and we will plan the setup around it rather than offer a battery powered substitute we don't stock."
+      "answer": "No. Every package we offer is delivered, installed, tested and collected by our own crew, never a self collect or self return unit, and none of our packages run on battery power. A battery powered PA is not in our own inventory either. If a specific venue has uncertain mains power, contact us with the details and we will plan the setup around it. See Indoor and Outdoor Sound System Rental above."
     },
     {
       "question": "Can I rent just speakers, without a microphone or technician?",
@@ -1248,19 +1248,19 @@
     },
     {
       "question": "What type of microphone do I need for my event?",
-      "answer": "It depends on the package. The Eco Pack includes 1 wired dynamic microphone for announcements. The Basic MICE Pack includes 1 professional gooseneck microphone for a podium or lectern. The Wedding Pack and MICE Pack include a wireless handheld microphone for speeches, with the MICE Pack adding a gooseneck microphone as well. We also stock wireless lavalier and headset microphones as a separate item from these package inclusions: contact us if your presenter or performer needs a hands free mic. See our headset and lavalier microphone rental guide for the full lavalier versus headset comparison and pricing."
+      "answer": "It depends on the package. The Eco Pack includes 1 wired dynamic microphone for announcements. The Basic MICE Pack includes 1 professional gooseneck microphone for a podium or lectern. The Wedding Pack and MICE Pack include a wireless handheld microphone for speeches, with the MICE Pack adding a gooseneck microphone as well. The Product Presentation Pack includes 1 premium wireless handheld microphone for the presenter. We also stock wireless lavalier and headset microphones as a separate item from these package inclusions: contact us if your presenter or performer needs a hands free mic. See our headset and lavalier microphone rental guide for the full lavalier versus headset comparison and pricing."
     },
     {
       "question": "Is a wireless microphone available, or only wired?",
-      "answer": "Both, depending on the package. The Eco Pack uses a wired dynamic microphone. The Wedding Pack and MICE Pack include a wireless handheld microphone instead, which is what most speeches and awards style presentations need."
+      "answer": "Both, depending on the package. The Eco Pack uses a wired dynamic microphone. The Wedding Pack, MICE Pack and Product Presentation Pack include a wireless handheld microphone instead, which is what most speeches and awards style presentations need."
     },
     {
       "question": "Can I rent an audio mixer or mixing console on its own?",
-      "answer": "No. Our digital mixing consoles are technician operated equipment built into the Wedding Pack, Basic MICE Pack and MICE Pack, not a standalone rental item. On the Eco Pack, a DJ or band brings and runs their own mixer or controller, as covered in our audio visual rental for music performances guide."
+      "answer": "Not as a standalone rental item. The package that lists a mixing console is the Product Presentation Pack, and the console comes as part of that package only. On the Wedding Pack and MICE Pack, the included technician controls the sound system during the event. The Basic MICE Pack comes with a basic sound reinforcement system, and a technician to run it is a paid add on. On the Eco Pack, a DJ or band brings and runs their own mixer or controller, as covered in our audio visual rental for music performances guide."
     },
     {
       "question": "Do you rent audio interfaces for recording or podcasting?",
-      "answer": "No. We don't stock recording or podcasting style audio interfaces. For presentations, we provide HDMI and USB-C adapters to connect your laptop or tablet, and our packages include a digital mixing console for live sound, not studio recording gear."
+      "answer": "The audio interfaces we provide come with the Product Presentation Pack, together with HDMI and USB-C adapters. They connect your company laptops, tablets or players to the venue sound system, so their audio plays through the speakers during the event. Recording or podcasting is not part of any of our packages: each one is set up for live sound at the event."
     }
   ],
   "wedding-rentals-near-me": [
@@ -1274,7 +1274,7 @@
     },
     {
       "question": "Do you serve areas outside Malaga city?",
-      "answer": "Yes. Our service area covers Malaga and the wider Costa del Sol, and extends to Granada for rentals over 400 euros to cover the added travel distance."
+      "answer": "Yes. Our service area covers Malaga, the wider Costa del Sol and Sevilla, and extends to Granada for rentals over 400 euros to cover the added travel distance."
     },
     {
       "question": "How far in advance do I need to book?",
@@ -1300,7 +1300,7 @@
     },
     {
       "question": "Does the Wedding Pack cover furniture, tent or tableware protection?",
-      "answer": "No. MEG supplies sound, lighting, microphones and a technician only. Furniture, tents, linens and tableware come from a different vendor. Our essential items for wedding rentals guide covers that full list."
+      "answer": "No. The Wedding Pack is sound, lighting, microphones and a technician. Furniture, tents, linens and tableware are not in our own inventory, so their protection sits with whichever vendor supplies them. See What This Guide Does Not Cover above. Our essential items for wedding rentals guide covers that full list."
     },
     {
       "question": "What are the most common damages with wedding rentals, and who pays for them?",
@@ -1356,7 +1356,7 @@
     },
     {
       "question": "How far in advance should I book AV equipment for a corporate event?",
-      "answer": "Book as early as you can once your date and venue are confirmed. Our services are available in Malaga and extend to Granada for rentals over 400 euros, and we recommend booking at least 24 hours in advance."
+      "answer": "Book as early as you can once your date and venue are confirmed. Our services are available in Malaga, the Costa del Sol and Sevilla with no minimum order, and extend to Granada for rentals over 400 euros. We recommend booking at least 24 hours in advance."
     }
   ],
   "tips-for-reducing-wedding-rental-costs": [
@@ -1374,7 +1374,7 @@
     },
     {
       "question": "Is there a minimum spend for weddings outside Malaga?",
-      "answer": "Within the Costa del Sol, no. For Granada and other out of province destinations, bookings need to exceed 400 euros to cover the single day logistical travel."
+      "answer": "Within the Costa del Sol and in Sevilla, no. For Granada, bookings need to exceed 400 euros to cover the single day logistical travel."
     },
     {
       "question": "Can I add or remove items from a wedding AV package to control cost?",
@@ -1422,7 +1422,7 @@
     },
     {
       "question": "What is the difference between AV for a small seminar and a larger one?",
-      "answer": "A single presenter with a wireless mic fits the Product Presentation Pack. A lectern-style seminar or workshop up to 40 guests fits the Basic MICE Pack, which uses a gooseneck podium microphone instead."
+      "answer": "A single presenter with a wireless mic fits the Product Presentation Pack. A lectern style seminar or workshop up to 40 guests fits the Basic MICE Pack, which uses a gooseneck podium microphone instead."
     },
     {
       "question": "What microphone is best for a seminar speaker?",
@@ -1442,17 +1442,17 @@
     },
     {
       "question": "How far in advance should I book AV equipment for a seminar?",
-      "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga and extend to Granada for rentals over 400 euros."
+      "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga, the Costa del Sol and Sevilla with no minimum order, and extend to Granada for rentals over 400 euros."
     }
   ],
   "audio-visual-rental-for-training-sessions": [
     {
       "question": "What AV equipment do I need for a training session?",
-      "answer": "It depends on your group size and format. A small, laptop-driven workshop needs a sound system, a wireless microphone and a projector, which the Product Presentation Pack covers. A larger session benefits from a bigger screen and a technician, which the Basic MICE Pack and MICE Pack cover. See Match Your Training Session to a Package above."
+      "answer": "It depends on your group size and format. A small, laptop driven workshop needs a sound system, a wireless microphone and a projector, which the Product Presentation Pack covers. A larger session benefits from a bigger screen and a technician, which the Basic MICE Pack and MICE Pack cover. See Match Your Training Session to a Package above."
     },
     {
       "question": "Is my training session too small for professional AV support?",
-      "answer": "No. Our Product Presentation Pack is built for a small, laptop-driven session, with sound, a wireless microphone and a projector delivered, installed and tested by our crew."
+      "answer": "No. Our Product Presentation Pack is built for a small, laptop driven session, with sound, a wireless microphone and a projector delivered, installed and tested by our crew."
     },
     {
       "question": "Do you provide on-site technical support during the session, or is it drop-off equipment only?",
@@ -1468,7 +1468,7 @@
     },
     {
       "question": "What areas do you cover, and how far in advance should I book?",
-      "answer": "Our services are available in Malaga and extend to Granada for rentals over 400 euros. Book at least 24 hours in advance to guarantee availability."
+      "answer": "Our services are available in Malaga, the Costa del Sol and Sevilla with no minimum order, and extend to Granada for rentals over 400 euros. Book at least 24 hours in advance to guarantee availability."
     }
   ],
   "av-cable-management": [
@@ -1520,7 +1520,7 @@
     },
     {
       "question": "Does the all in one package include venue, catering or furniture?",
-      "answer": "No. The Wedding Pack covers audio visual equipment only: sound, lighting, microphones and a technician. Venue, catering, furniture, decor and photography are separate trades and are not part of this package."
+      "answer": "No. The Wedding Pack covers audio visual equipment only: sound, lighting, microphones and a technician. Venue, catering, furniture, decor and photography are separate trades and are not part of this package. See What \"All in One\" Doesn't Cover above."
     },
     {
       "question": "Is booking one all in one package cheaper than hiring separate AV vendors?",
@@ -1554,7 +1554,7 @@
     },
     {
       "question": "Can I use this setup for karaoke?",
-      "answer": "We do not stock a dedicated karaoke system, no lyrics display or console. What the Eco Pack gives you is real active speakers and a microphone, which covers the sound half of a karaoke night if you bring your own karaoke app or backing tracks on a laptop or phone. Tell us that is the plan when you book so our crew can confirm your device connects cleanly on arrival."
+      "answer": "A dedicated karaoke system, with a lyrics display or console, is not in our own inventory. What the Eco Pack gives you is real active speakers and a microphone, which covers the sound half of a karaoke night if you bring your own karaoke app or backing tracks on a laptop or phone. Tell us that is the plan when you book so our crew can confirm your device connects cleanly on arrival. For a full karaoke machine, see Optional Extras for the Moment That Matters above."
     },
     {
       "question": "How much does audio visual rental cost for a private party?",
@@ -1562,7 +1562,7 @@
     },
     {
       "question": "How far in advance should I book AV for a private party?",
-      "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga and extend to Granada for rentals over 400 euros."
+      "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga, the Costa del Sol and Sevilla with no minimum order, and extend to Granada for rentals over 400 euros."
     },
     {
       "question": "How long has Malaga Event Gear been providing audio visual rental?",
@@ -1722,11 +1722,11 @@
     },
     {
       "question": "Is onsite tech support included in my package, or a separate booking?",
-      "answer": "It depends on the package, not a blanket rule: included on the Wedding Pack and MICE Pack, available as a paid add on on the Basic MICE Pack, and not offered on the Eco Pack. See How Much On Site Coverage Do You Actually Get above for the full breakdown."
+      "answer": "It depends on the package, not a blanket rule: included on the Wedding Pack and MICE Pack, available as a paid add on on the Basic MICE Pack, and not offered on the Eco Pack or the Product Presentation Pack. See How Much On Site Coverage Do You Actually Get above for the full breakdown."
     },
     {
       "question": "What is the difference between delivery only and full event coverage?",
-      "answer": "Delivery only, on the Eco Pack, means our crew delivers, sets up and tests the equipment, then leaves it to the DJ or host to run. Full event coverage means a technician stays on site actively monitoring and troubleshooting for the length of your event. See our how audio visual rental works guide for the full delivery process either way."
+      "answer": "Delivery only, on the Eco Pack, the Product Presentation Pack or the Basic MICE Pack without the technician add on, means our crew delivers, sets up and tests the equipment, then leaves it to you, your DJ or your presenter to run. Full event coverage means a technician stays on site actively monitoring and troubleshooting for the length of your event. See our how audio visual rental works guide for the full delivery process either way."
     },
     {
       "question": "Do you provide technical support for outdoor venues?",
@@ -1766,23 +1766,23 @@
     },
     {
       "question": "What is the difference between a remote presentation and a virtual event?",
-      "answer": "A remote presentation is usually one remote speaker or participant joining an otherwise in-person room. A virtual event covers a full session or conference run mostly or entirely online. Either way, we supply the same thing: the room's sound, screen and laptop connectivity. See our audio visual rental for virtual events guide for the larger case."
+      "answer": "A remote presentation is usually one remote speaker or participant joining an otherwise in person room. A virtual event covers a full session or conference run mostly or entirely online. Either way, we supply the same thing: the room's sound, screen and laptop connectivity. See our audio visual rental for virtual events guide for the larger case."
     },
     {
-      "question": "Can a remote presenter join an in-person meeting or event?",
+      "question": "Can a remote presenter join an in person meeting or event?",
       "answer": "Yes. Connect your own laptop or video call to our screen and sound system through the adapters included on the Product Presentation Pack, and the room can see and hear the remote presenter without any extra equipment."
     },
     {
       "question": "Do you provide cameras or webcams for remote presentations?",
-      "answer": "No. We provide the room's sound and screen, not cameras, webcams or streaming equipment. You run the call from your own laptop and software."
+      "answer": "Not from our own inventory: cameras, webcams, filming and live streaming are not part of it. We provide the room's sound and screen, and you run the call from your own laptop and software. See What We Provide vs. What You Bring above."
     },
     {
       "question": "Can I use my own laptop with your setup?",
       "answer": "Yes, the Product Presentation Pack comes with HDMI and USB-C adapters, plus audio interfaces, so you can plug in a laptop, tablet or media player directly."
     },
     {
-      "question": "What size package do I need for a small remote-participant meeting?",
-      "answer": "For a boardroom-scale meeting, the Basic MICE Pack covers up to 40 guests with a gooseneck microphone and a projector and screen. For a larger conference room, the MICE Pack covers up to 120 guests with a 60 inch LED display and a technician included."
+      "question": "What size package do I need for a small remote participant meeting?",
+      "answer": "For a boardroom scale meeting, the Basic MICE Pack covers up to 40 guests with a gooseneck microphone and a projector and screen. For a larger conference room, the MICE Pack covers up to 120 guests with a 60 inch LED display and a technician included."
     },
     {
       "question": "Do you provide internet or wifi for the call?",
@@ -1790,7 +1790,7 @@
     },
     {
       "question": "Is a technician included for a remote presentation setup?",
-      "answer": "Not on every package. The MICE Pack includes a technician on site for up to six hours; on the Basic MICE Pack a technician is available as an add on. Ask when you book."
+      "answer": "Not on every package. The MICE Pack includes a technician on site for up to six hours, and on the Basic MICE Pack a technician is available as an add on. The Product Presentation Pack has no technician option, so you run it yourself after our crew sets it up. Ask when you book."
     },
     {
       "question": "How much does audio visual rental cost for a remote presentation?",
@@ -1800,11 +1800,11 @@
   "av-technician-hire": [
     {
       "question": "Can I hire just an AV technician, without renting your equipment?",
-      "answer": "No. We do not sell a technician as a standalone service, only as part of one of our own equipment packages. See Can You Hire Just a Technician, Without the Equipment? above."
+      "answer": "Not one of our own crew. We do not sell a technician as a standalone service, only as part of one of our own equipment packages. See Can You Hire Just a Technician, Without the Equipment? above if your event already has its own system."
     },
     {
       "question": "Which packages include an AV technician?",
-      "answer": "The Wedding Pack and MICE Pack include one as standard, the Basic MICE Pack offers one as a paid add on at 240 euros per day, and the Eco Pack does not offer one at all. See Technician by Package above for the full breakdown."
+      "answer": "The Wedding Pack and MICE Pack include one as standard, the Basic MICE Pack offers one as a paid add on at 240 euros per day, and the Eco Pack and Product Presentation Pack do not offer one at all. See Technician by Package above for the full breakdown."
     },
     {
       "question": "What does an AV technician actually do during my event?",
@@ -1842,7 +1842,7 @@
   "audio-visual-rental-for-virtual-events": [
     {
       "question": "What equipment do I need for a virtual event?",
-      "answer": "You need in-room sound so people can hear the call, a screen or display so they can see it, and a way to connect your laptop to both. Our Product Presentation Pack covers all three with HDMI and USB-C adapters included."
+      "answer": "You need in room sound so people can hear the call, a screen or display so they can see it, and a way to connect your laptop to both. Our Product Presentation Pack covers all three with HDMI and USB-C adapters included."
     },
     {
       "question": "How much does audio visual rental cost for a virtual event?",
@@ -1850,7 +1850,7 @@
     },
     {
       "question": "What is the difference between a virtual event and a hybrid event?",
-      "answer": "A fully virtual event has no in-person audience at all. A hybrid event has both an in-person room and remote participants on a call. Either way, we supply the same thing: the room's sound, screen and laptop connectivity. See What We Provide vs. What You Bring above."
+      "answer": "A fully virtual event has no in person audience at all. A hybrid event has both an in person room and remote participants on a call. Either way, we supply the same thing: the room's sound, screen and laptop connectivity. See What We Provide vs. What You Bring above."
     },
     {
       "question": "Can I connect my own laptop to your sound and screen setup?",
@@ -1858,15 +1858,15 @@
     },
     {
       "question": "Do you provide cameras or streaming equipment?",
-      "answer": "No. We provide the room's sound and screen, not cameras, streaming encoders or a recording service. You run the call from your own laptop and software."
+      "answer": "Not with our own equipment. Cameras, filming and live streaming are not in our own inventory. We provide the room's sound and screen, and you run the call from your own laptop and software. See What We Provide vs. What You Bring above."
     },
     {
       "question": "Do you provide internet or wifi for the event?",
       "answer": "No, internet and wifi are not part of our packages. Confirm connectivity with your venue before the event."
     },
     {
-      "question": "Do I need an on-site AV technician?",
-      "answer": "Not on every package. The MICE Pack includes a technician on site for up to six hours; on other packages a technician is available as an add on. Ask when you book."
+      "question": "Do I need an on site AV technician?",
+      "answer": "Not on every package. The MICE Pack includes a technician on site for up to six hours, and the Basic MICE Pack offers one as a paid add on. The Product Presentation Pack is self run, with no technician. Ask when you book."
     },
     {
       "question": "How many people can your equipment support?",
@@ -1926,15 +1926,15 @@
     },
     {
       "question": "What areas do audio visual rental companies in Malaga typically cover?",
-      "answer": "Our own service area covers Malaga and 23 towns across the Costa del Sol, extending to Sevilla and Granada for larger bookings. Confirm the real coverage area with any company before you book."
+      "answer": "Our own service area covers Malaga, the Costa del Sol and inland towns of the province, plus Sevilla, and Granada for bookings over 400 euros. Confirm the real coverage area with any company before you book."
     },
     {
       "question": "What equipment do audio visual rental companies typically provide?",
-      "answer": "Sound systems, lighting, microphones, projectors and screens. We do not provide cameras, live streaming equipment or video conferencing hardware, and our largest display is a single 60 inch LED screen, not a video wall."
+      "answer": "Sound systems, lighting, microphones, projectors and screens. Cameras, filming and live streaming are not in our own inventory, and neither is video conferencing hardware. Our LED display is a single 60 inch screen, not a video wall. See What We Stock, and What We Source above."
     },
     {
       "question": "How far in advance should I book an audio visual rental company?",
-      "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga and extend to Granada for rentals over 400 euros."
+      "answer": "Book at least 24 hours in advance to guarantee availability. Our services are available in Malaga, the Costa del Sol and Sevilla with no minimum order, and extend to Granada for rentals over 400 euros."
     }
   ],
   "tv-screen-rental": [
@@ -2018,13 +2018,13 @@
     },
     {
       "question": "How far in advance should I book AV equipment for a religious event?",
-      "answer": "Book at least 24 hours in advance to guarantee availability. For a ceremony with a fixed date, book as early as you can once your venue is confirmed. Our services are available in Malaga and extend to Granada for rentals over 400 euros."
+      "answer": "Book at least 24 hours in advance to guarantee availability. For a ceremony with a fixed date, book as early as you can once your venue is confirmed. Our services are available in Malaga, the Costa del Sol and Sevilla with no minimum order, and extend to Granada for rentals over 400 euros."
     }
   ],
   "wedding-rentals": [
     {
       "question": "What's included in wedding rentals from Malaga Event Gear?",
-      "answer": "The Wedding Pack includes a high-end PA sound system for up to 80 guests, warm ambient lighting (fairy lights and LED strings), wireless microphones for vows and speeches, transport, professional setup, a live technician on site throughout the event, and post-event teardown."
+      "answer": "The Wedding Pack includes a high end PA sound system for up to 80 guests, warm ambient lighting (fairy lights and LED strings), wireless microphones for vows and speeches, transport, professional setup, a live technician on site throughout the event, and post event teardown."
     },
     {
       "question": "How much do wedding rentals cost in Malaga?",
@@ -2040,7 +2040,7 @@
     },
     {
       "question": "Do wedding rentals include furniture, decor or photography?",
-      "answer": "No. The Wedding Pack covers sound, lighting, microphones and a technician. It does not include furniture, decor, dancefloor accessories, or photography and videography."
+      "answer": "No. The Wedding Pack covers sound, lighting, microphones and a technician. It does not include furniture, decor, dancefloor accessories, or photography and videography. See What We Stock, and What We Source above if your day needs one of them."
     },
     {
       "question": "How far in advance should I book wedding rentals?",
@@ -2054,7 +2054,7 @@
     },
     {
       "question": "Is a stage monitor the same as a PA speaker?",
-      "answer": "No. A PA speaker, the kind built into our Eco Pack, Wedding Pack, and MICE Pack, is aimed at the audience. A stage monitor is aimed at the performer or speaker on stage, a separate signal path for a separate audience of one: the person standing in front of it. See What a Stage Monitor Is, and What It Is Not above."
+      "answer": "No. A PA speaker, the kind built into all 5 of our packages, from the Eco Pack to the Product Presentation Pack, is aimed at the audience. A stage monitor is aimed at the performer or speaker on stage, a separate signal path for a separate audience of one: the person standing in front of it. See What a Stage Monitor Is, and What It Is Not above."
     },
     {
       "question": "Are your stage monitors active or passive?",
@@ -2070,7 +2070,7 @@
     },
     {
       "question": "Do you offer in ear monitors instead of floor wedges?",
-      "answer": "No, not currently. Our stage monitor inventory is floor wedges only, we do not stock an in ear monitor (IEM) system. If your performers specifically need IEM, contact us and we will tell you honestly whether that is something we can source for your date rather than imply we already stock it."
+      "answer": "Not from our own inventory. Our own stage monitor stock is floor wedges only, with no in ear monitor (IEM) system. If your performers specifically need IEM, see How Many Stage Monitors Does a Band or Panel Need? above, and contact us with your stage plot."
     },
     {
       "question": "Is stage monitor rental included in a package?",
@@ -2132,11 +2132,11 @@
   "audio-visual-rental-for-outdoor-events": [
     {
       "question": "What happens to AV equipment if it rains during an outdoor event?",
-      "answer": "We do not rent tents or canopies, so if rain is a real risk, arrange a covered backup area with your venue in advance. Our technicians assess conditions on site and place equipment around whatever shelter is available."
+      "answer": "Tents and canopies are not in our own inventory, so if rain is a real risk, arrange a covered backup area with your venue in advance. Our technicians assess conditions on site and place equipment around whatever shelter is available. See Power and Weather, Honestly above if the venue has no cover."
     },
     {
       "question": "Do you provide a generator for venues without power access?",
-      "answer": "No, generators are not part of our catalog. Confirm your venue's power access with us when you book, and we will size the sound and lighting setup to match what is actually available."
+      "answer": "Not from our own inventory: generators are not part of it. Confirm your venue's power access with us when you book, and we will size the sound and lighting setup to match what is actually available. See Power and Weather, Honestly above if it falls short."
     },
     {
       "question": "How does an outdoor sound system differ from an indoor one?",
@@ -2144,11 +2144,11 @@
     },
     {
       "question": "Is a technician included for an outdoor event?",
-      "answer": "It depends on the package. The Eco Pack is delivered, installed and tested by our crew, then self-run, no technician included. The Wedding Pack includes a technician on site."
+      "answer": "It depends on the package. The Eco Pack is delivered, installed and tested by our crew, then self run, no technician included. The Wedding Pack includes a technician on site."
     },
     {
       "question": "What outdoor venues do you set up at?",
-      "answer": "We set up at villas, private gardens, hotel terraces, beach clubs and rooftops across Malaga and the wider Costa del Sol, extending to Granada for rentals over 400 euros."
+      "answer": "We set up at villas, private gardens, hotel terraces, beach clubs and rooftops across Malaga and the wider Costa del Sol and in Sevilla, extending to Granada for rentals over 400 euros."
     },
     {
       "question": "Can lighting and sound equipment run on grass, sand or uneven ground?",
@@ -2244,7 +2244,7 @@
   "eco-friendly-wedding-rental-options": [
     {
       "question": "Is Malaga Event Gear's Wedding Pack eco friendly?",
-      "answer": "In the ways that apply to AV equipment: yes. It uses fairy light and warm LED ambient lighting rather than higher draw older fixtures, the equipment is reused across many events rather than bought once and discarded, and delivery stays local within Malaga and Granada."
+      "answer": "In the ways that apply to AV equipment: yes. It uses fairy light and warm LED ambient lighting rather than higher draw older fixtures, the equipment is reused across many events rather than bought once and discarded, and delivery stays regional, mostly within Malaga province, with Sevilla also served and Granada for bookings over 400 euros."
     },
     {
       "question": "Does the Wedding Pack include eco friendly tents, furniture or decor?",
@@ -2256,7 +2256,7 @@
     },
     {
       "question": "What should I ask an AV rental company about their eco practices?",
-      "answer": "Four questions cut through the marketing language and get you real answers.\n\nDoes it reuse equipment across events, or buy new gear per booking? We reuse every PA system, light and microphone across events.\nWhat lighting technology does it use, LED or older incandescent or halogen fixtures? Our ambient lighting is fairy light and warm LED.\nHow local is its service area and delivery routes? We deliver within Malaga and extend to Granada.\nIs delivery bundled into one trip or split across multiple vendors? The Wedding Pack is a single delivery covering sound, lighting and microphones together."
+      "answer": "Four questions cut through the marketing language and get you real answers.\n\nDoes it reuse equipment across events, or buy new gear per booking? We reuse every PA system, light and microphone across events.\nWhat lighting technology does it use, LED or older incandescent or halogen fixtures? Our ambient lighting is fairy light and warm LED.\nHow local is its service area and delivery routes? We deliver across Malaga and the Costa del Sol and to Sevilla, and extend to Granada for rentals over 400 euros.\nIs delivery bundled into one trip or split across multiple vendors? The Wedding Pack is a single delivery covering sound, lighting and microphones together."
     },
     {
       "question": "How much does the Wedding Pack cost?",

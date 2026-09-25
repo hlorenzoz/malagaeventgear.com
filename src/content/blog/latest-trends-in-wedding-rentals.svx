@@ -4,7 +4,7 @@ description: "Latest trends in wedding rentals, honestly scoped to AV: technicia
 author: Hector Luis Lorenzo
 slug: latest-trends-in-wedding-rentals
 publishDate: "2026-02-20"
-updatedDate: "2026-09-23"
+updatedDate: "2026-09-25"
 excerpt: "Latest trends in wedding rentals, honestly scoped to AV: technician included packages, lighting choice patterns, and wireless mics, not fabricated decor trends."
 coverImage: https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table.webp
 categories: [Audio Visual Rental, Weddings]
@@ -21,7 +21,7 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Search "latest trends in wedding rentals" and most results talk about tablescapes, color palettes, lounge furniture, champagne walls, and catering trends. Malaga Event Gear (MEG) is an audio visual rental company. We don't stock or speak to any of that, and a page that pretended otherwise would not be honest. What we can cover, from our own catalog and booking patterns, is what is actually changing on the AV side of a Malaga wedding: which package couples pick most, how lighting choices split, and where wireless microphones have become the default rather than the extra. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview.
+Search "latest trends in wedding rentals" and most results talk about tablescapes, color palettes, lounge furniture, champagne walls, and catering trends. Malaga Event Gear (MEG) is an audio visual rental company. None of those items is in our own inventory, and a page that pretended to report on those trends would not be honest. What we can cover, from our own catalog and booking patterns, is what is actually changing on the AV side of a Malaga wedding: which package couples pick most, how lighting choices split, and where wireless microphones have become the default rather than the extra. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview.
 
 ## Brief Overview
 
@@ -33,7 +33,7 @@ The real trend on MEG's side of a wedding isn't a new fixture or a new color, it
 
 ---
 
--   Most "wedding rental trend" content covers decor, tablescapes, and catering. MEG is AV only, so this page stays inside what we can honestly speak to.
+-   Most "wedding rental trend" content covers decor, tablescapes, and catering. MEG's own inventory is AV, so this page stays inside what we can honestly speak to.
 -   The Wedding Pack, technician included, is our most popular wedding package, a real signal from our own catalog rather than an industry wide claim.
 -   Wireless microphones for speeches are now a default expectation, not an upgrade, on the packages that include them.
 -   Warm static lighting versus color changing spotlights is a real choice couples make between the Wedding Pack and the Eco Pack. Full comparison lives in our [lighting ideas for wedding rentals](/blog/lighting-ideas-for-wedding-rentals/) guide.
@@ -41,7 +41,7 @@ The real trend on MEG's side of a wedding isn't a new fixture or a new color, it
 
 ## What Most "Wedding Rental Trend" Guides Cover, and Why We Can't Speak to It
 
-Search results for this keyword are dominated by full service rental and event planning sites listing color of the year palettes, lounge furniture groupings, champagne and neon walls, linens, tablescapes, and catering trends. None of that is inaccurate reporting on what those companies rent, it's just not what MEG rents. We supply sound, microphones, lighting, and an on site technician. We don't touch furniture, decor, linens, catering, tents, or bars. A trend page that borrowed those topics from a decor blog to look comprehensive would be describing someone else's inventory, so this page stays inside AV: what packages couples are actually booking, how lighting choices split, and what's become standard rather than optional in our own catalog.
+Search results for this keyword are dominated by full service rental and event planning sites listing color of the year palettes, lounge furniture groupings, champagne and neon walls, linens, tablescapes, and catering trends. None of that is inaccurate reporting on what those companies rent. It's just not what MEG rents: sound, microphones, lighting, and an on site technician. Furniture, decor, linens, tents and bars are not part of our own inventory, and catering is not something we do, so that stays with your venue or caterer. If your wedding is still missing a tent, a bar, furniture, linens or decor, mention it anyway. Sometimes a supplier we know has exactly that and sometimes nobody does. Either way, we will tell you which it is. A trend page that borrowed those topics from a decor blog to look comprehensive would be describing someone else's inventory, so this page stays inside AV: what packages couples are actually booking, how lighting choices split, and what's become standard rather than optional in our own catalog.
 
 ## The Trend We Actually See: More Weddings Booking the Technician Included Package
 
@@ -89,7 +89,7 @@ A beach ceremony aisle, the kind of setup where the lighting choice and the wire
 
 ## Booking and Service Area
 
-Our services focus on Malaga and extend to Granada for rentals over 400 euros. There is no fixed booking window, only availability, so reach out once your date and venue are confirmed. See our [booking timeline](/blog/timeline-for-booking-wedding-rentals/) guide for more on that.
+Our services cover Malaga, the Costa del Sol and Sevilla with no minimum order, and extend to Granada for rentals over 400 euros. There is no fixed booking window, only availability, so reach out once your date and venue are confirmed. See our [booking timeline](/blog/timeline-for-booking-wedding-rentals/) guide for more on that.
 
 ## Conclusion
 
@@ -99,11 +99,11 @@ The honest trend picture from MEG's side of a wedding isn't a decor palette or a
 
 ### What is actually trending in wedding rentals right now?
 
-Most "wedding rental trend" content covers decor, tablescapes, and catering, none of which MEG offers. On our own AV side, the real pattern is more couples booking the technician included Wedding Pack over a self run setup, and wireless microphones becoming a default expectation for reception speeches rather than a special request.
+Most "wedding rental trend" content covers decor, tablescapes, and catering. Decor and tablescapes are not in MEG's own inventory, and catering is not something we do. On our own AV side, the real pattern is more couples booking the technician included Wedding Pack over a self run setup, and wireless microphones becoming a default expectation for reception speeches rather than a special request.
 
 ### Is a live wedding AV technician a standard trend now, or still optional?
 
-It depends on the package. The [Wedding Pack](/packages/wedding/) and the full MICE Pack include a live technician on site throughout the event. The Basic MICE Pack does not include one by default, but it can be added from 240 euros per day. The [Eco Pack](/packages/eco/) is delivered and tested by our crew, then run without a technician for the rest of the event. See our [making the most of your wedding rentals](/blog/making-the-most-of-wedding-rentals/) guide for how to brief the technician once you've booked.
+It depends on the package. The [Wedding Pack](/packages/wedding/) includes a live technician on site throughout the event, and the full MICE Pack includes one for up to 6 continuous hours. The Basic MICE Pack does not include one by default, but it can be added from 240 euros per day. The [Eco Pack](/packages/eco/) and the Product Presentation Pack are delivered and tested by our crew, then run without a technician for the rest of the event. See our [making the most of your wedding rentals](/blog/making-the-most-of-wedding-rentals/) guide for how to brief the technician once you've booked.
 
 ### Are couples choosing warm static lighting or color changing lighting more often for weddings?
 

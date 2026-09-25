@@ -4,6 +4,7 @@ description: "Audio system calibration in Malaga: gain staging explained, why ev
 author: Hector Luis Lorenzo
 slug: audio-system-calibration
 publishDate: "2026-08-02"
+updatedDate: "2026-09-25"
 excerpt: "What audio system calibration actually is: gain staging in plain terms, why the same speakers and console get set up differently at every venue, and the real console range our crew calibrates with, from a 6 channel Soundcraft up to a Midas M32R Live digital system."
 coverImage: https://cdn.malagaeventgear.com/blog/1279/high_care_hospital_marbella_conference_setup_2-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
@@ -179,7 +180,7 @@ The Midas M32R Live is our digital mixing console for larger venues, paired with
 
 ### Does calibration include video or screen setup too?
 
-No, not on this page. Audio calibration, gain staging and speaker tuning, is a separate process from screen and presentation source switching, which our [Kramer VP-731](/blog/video-switcher-rental/) handles. If your event's account mentions calibrating "sound and video networks" together, the video half refers to that presentation scaler, not a camera or broadcast system, which we do not offer. See [Calibration in the Field](#calibration-in-the-field-the-bmotion-marbella-project) above.
+No, not on this page. Audio calibration, gain staging and speaker tuning, is a separate process from screen and presentation source switching, which our [Kramer VP-731](/blog/video-switcher-rental/) handles. If your event's account mentions calibrating "sound and video networks" together, the video half refers to that presentation scaler, not a camera or broadcast system: cameras, filming and live streaming are not in our own inventory. See [Calibration in the Field](#calibration-in-the-field-the-bmotion-marbella-project) above.
 
 ### Is calibration done once, or does it change during the event?
 

@@ -4,8 +4,8 @@ description: "Protecting your wedding rental items in Malaga: the honest AV only
 author: Hector Luis Lorenzo
 slug: protecting-your-wedding-rental-items
 publishDate: 2026-02-22
-updatedDate: "2026-08-05"
-excerpt: "Protecting your wedding rental items usually means furniture and tents, a trade MEG does not work in. Here is the honest AV specific version: how delivery only installation and a live on site technician protect the sound, lighting and microphones we do rent."
+updatedDate: "2026-09-25"
+excerpt: "Protecting your wedding rental items usually means furniture and tents, items that sit outside MEG's own inventory. Here is the honest AV specific version: how delivery only installation and a live on site technician protect the sound, lighting and microphones we do rent."
 coverImage: https://cdn.malagaeventgear.com/blog/1629/beach_wedding_setup.webp
 categories: [Audio Visual Rental, Weddings]
 tags: []
@@ -21,13 +21,13 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Protecting your wedding rental items usually means one thing: who pays if a rented chair, tent or tablecloth gets damaged. Malaga Event Gear does not rent any of those, and we do not publish a damage deposit or liability policy for our audio visual equipment either. What we can tell you, honestly, is how the [Wedding Pack's](/packages/wedding/) delivery only model and live on site technician protect the sound, lighting and microphones we do rent. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview.
+Protecting your wedding rental items usually means one thing: who pays if a rented chair, tent or tablecloth gets damaged. None of those is part of Malaga Event Gear's own inventory, and we do not publish a damage deposit or liability policy for our audio visual equipment either. What we can tell you, honestly, is how the [Wedding Pack's](/packages/wedding/) delivery only model and live on site technician protect the sound, lighting and microphones we do rent. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview.
 
 ## Brief Overview
 
 ---
 
-Most guides answering "protecting your wedding rental items" default to furniture, tents and tableware, the trade MEG does not work in. The honest, AV specific version asks something different: how does a wedding's sound system, lighting rig and microphones survive a full day of guests, weather and a packed reception floor. The answer is not a damage waiver, it is professional installation, continuous on site monitoring, and a scope that stays inside what our crew actually controls.
+Most guides answering "protecting your wedding rental items" default to furniture, tents and tableware, and none of that is MEG's own gear. The honest, AV specific version asks something different: how does a wedding's sound system, lighting rig and microphones survive a full day of guests, weather and a packed reception floor. The answer is not a damage waiver, it is professional installation, continuous on site monitoring, and a scope that stays inside what our crew actually controls.
 
 ## Key Highlights
 
@@ -37,7 +37,7 @@ Most guides answering "protecting your wedding rental items" default to furnitur
 -   The [Wedding Pack's](/packages/wedding/) delivery only model means our own crew installs and calibrates every system, so no guest or venue staff ever handles raw AV gear.
 -   A live technician stays on site through the reception, catching a loose cable or a stand out of place before it becomes damage.
 -   Wind, rain and equipment placement outdoors get their own depth in our [outdoor wedding rental considerations](/blog/outdoor-wedding-rental-considerations/) guide.
--   Furniture, tents, linens and tableware protection are outside our scope. See [essential items for wedding rentals](/blog/essential-items-for-wedding-rentals/) for that full list.
+-   Furniture, tents, linens and tableware are not in our own inventory, so their protection is not covered here. See [essential items for wedding rentals](/blog/essential-items-for-wedding-rentals/) for that full list.
 -   Still weighing whether renting AV makes sense for your wedding at all? Our [pros and cons of wedding rentals](/blog/pros-and-cons-of-wedding-rentals/) page lays out the real advantages and real limits side by side.
 
 <InlineCTA />
@@ -50,7 +50,7 @@ Worth knowing before you ask any vendor, not just us: damage to rented audio vis
 
 ## How the Wedding Pack Actually Protects the Equipment
 
-What actually protects the gear on the day is not a policy, it is how the [Wedding Pack](/packages/wedding/) gets delivered. MEG operates delivery only, there is no self pickup option, so every PA system, light and microphone arrives on our own transport, gets installed and calibrated by our crew, and never passes through a guest's hands before the event starts.
+What actually protects the gear on the day is not a policy, it is how the [Wedding Pack](/packages/wedding/) gets delivered. MEG operates delivery only, with no self pickup option, so every PA system, light and microphone arrives on our own transport, gets installed and calibrated by our crew, and never passes through a guest's hands before the event starts.
 
 That installation is followed by a live technician who stays for the whole event rather than a single drop off delivery. Through the ceremony, the speeches and the switch to dance volume, the technician watches the same gear: adjusting a stand that has drifted, moving a cable out of a walkway before someone trips on it, keeping a microphone away from a spilled drink. That continuous attention is the same mechanism our crew used on a two day production in Benahavis, where our on site technicians monitored sound and video continuously from setup through the closing session. See our [Bmotion Benahavis production](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/) writeup for what that looked like in practice.
 
@@ -62,7 +62,7 @@ Most Malaga weddings we set up for are outdoors, at a finca, villa or beach venu
 
 ## What This Guide Does Not Cover
 
-Chairs, tables, linens, tableware and tents are not part of what MEG rents or protects, and keeping those in good condition is a different vendor's responsibility. Our [essential items for wedding rentals](/blog/essential-items-for-wedding-rentals/) guide lays out that full list and where our AV slice fits inside it.
+Chairs, tables, linens, tableware and tents are not part of MEG's own inventory, so keeping them in good condition is the responsibility of whichever vendor supplies them. If one of them is still missing from your plan, ask us: a supplier of ours may have it, and we are happy to ask. If one does, that supplier's own terms for its care would apply. Our [essential items for wedding rentals](/blog/essential-items-for-wedding-rentals/) guide lays out that full list and where our AV slice fits inside it.
 
 ## What's Included at 650 Euros
 
@@ -94,7 +94,7 @@ Vows about to begin, with the ceremony sound already installed, tested and calib
 
 ## Booking and Service Area
 
-Our services focus on Malaga and extend to Granada for rentals over 400 euros. There is no fixed booking window, only availability, so reach out once your date and venue are confirmed, and tell us at that point if a specific equipment protection question matters to your planning. See our [booking timeline](/blog/timeline-for-booking-wedding-rentals/) guide for more on that.
+Our services cover Malaga, the Costa del Sol and Sevilla with no minimum order, and extend to Granada for rentals over 400 euros. There is no fixed booking window, only availability, so reach out once your date and venue are confirmed, and tell us at that point if a specific equipment protection question matters to your planning. See our [booking timeline](/blog/timeline-for-booking-wedding-rentals/) guide for more on that.
 
 ## Conclusion
 
@@ -120,7 +120,7 @@ Through professional installation and a live technician who reads wind and groun
 
 ### Does the Wedding Pack cover furniture, tent or tableware protection?
 
-No. MEG supplies sound, lighting, microphones and a technician only. Furniture, tents, linens and tableware come from a different vendor. Our [essential items for wedding rentals](/blog/essential-items-for-wedding-rentals/) guide covers that full list.
+No. The Wedding Pack is sound, lighting, microphones and a technician. Furniture, tents, linens and tableware are not in our own inventory, so their protection sits with whichever vendor supplies them. See [What This Guide Does Not Cover](#what-this-guide-does-not-cover) above. Our [essential items for wedding rentals](/blog/essential-items-for-wedding-rentals/) guide covers that full list.
 
 ### What are the most common damages with wedding rentals, and who pays for them?
 

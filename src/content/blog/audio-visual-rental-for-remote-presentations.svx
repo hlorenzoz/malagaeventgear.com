@@ -1,11 +1,11 @@
 ---
 title: "Audio Visual Rental for Remote Presentations, Malaga, Spain"
-description: "Audio visual rental for remote presentations in Malaga: room sound, a screen and laptop connectivity for a remote speaker joining an in-person room."
+description: "Audio visual rental for remote presentations in Malaga: room sound, a screen and laptop connectivity for a remote speaker joining an in person room."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-remote-presentations
 publishDate: "2025-12-03"
-updatedDate: "2026-09-24"
-excerpt: "Audio visual rental for remote presentations in Malaga: room sound, a screen and laptop connectivity for a remote speaker joining an in-person room."
+updatedDate: "2026-09-25"
+excerpt: "Audio visual rental for remote presentations in Malaga: room sound, a screen and laptop connectivity for a remote speaker joining an in person room."
 coverImage: https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for audio visual rental for remote presentations in Malaga? This is smaller than a full virtual event: one remote speaker or participant joining an otherwise in-person room, a boardroom Q&A with someone calling in, or a presenter addressing a room where a few attendees are remote. The room still needs sound so people can hear the call, a screen so they can see it, and a way to plug a laptop into both.
+Looking for audio visual rental for remote presentations in Malaga? This is smaller than a full virtual event: one remote speaker or participant joining an otherwise in person room, a boardroom Q&A with someone calling in, or a presenter addressing a room where a few attendees are remote. The room still needs sound so people can hear the call, a screen so they can see it, and a way to plug a laptop into both.
 
 We handle delivery, installation and testing of that room setup throughout Malaga and along the Costa del Sol. The call itself is on you: bring your own laptop, video conferencing software and internet connection.
 
@@ -31,7 +31,7 @@ Contact us today to discuss your event.
 
 ---
 
-Malaga Event Gear provides audio visual rental for remote presentations in Malaga and the wider Costa del Sol: room sound, a screen and laptop connectivity for a remote speaker or participant joining an in-person meeting or presentation. With a track record stretching back to 1996, our crew handles delivery, installation and testing of the room setup, so all you need to bring is the laptop and the call.
+Malaga Event Gear provides audio visual rental for remote presentations in Malaga and the wider Costa del Sol: room sound, a screen and laptop connectivity for a remote speaker or participant joining an in person meeting or presentation. With a track record stretching back to 1996, our crew handles delivery, installation and testing of the room setup, so all you need to bring is the laptop and the call.
 
 Contact us today to discuss your event.
 
@@ -47,11 +47,11 @@ Malaga Event Gear provides audio visual rental for remote presentations in Malag
 
 -   We supply the room AV, not the call itself: bring your own laptop, video conferencing software and internet connection.
 
--   We do not provide cameras, webcams or streaming equipment.
+-   Cameras, webcams, filming and live streaming are not in our own inventory. See [What We Provide vs. What You Bring](#what-we-provide-vs-what-you-bring) below if your presentation needs one.
 
 ## A Remote Presenter, Not a Full Virtual Event
 
-A remote presentation is narrower than a full virtual or hybrid event: it is usually one remote speaker or participant joining an otherwise in-person room, not an entire conference run online. If your event is fully virtual or has a large remote audience alongside an in-person one, see our [audio visual rental for virtual events](/blog/audio-visual-rental-for-virtual-events/) guide instead.
+A remote presentation is narrower than a full virtual or hybrid event: it is usually one remote speaker or participant joining an otherwise in person room, not an entire conference run online. If your event is fully virtual or has a large remote audience alongside an in person one, see our [audio visual rental for virtual events](/blog/audio-visual-rental-for-virtual-events/) guide instead.
 
 For a single remote presenter or a call in Q&A, our [Product Presentation Pack](/packages/product-presentation/) covers a 5000 lumen projector and screen for the call, PA sound so the room hears it, and a wireless handheld microphone so the room's questions reach the remote side. For a smaller boardroom meeting, the [Basic MICE Pack](/packages/basic-mice/) covers the same idea with a gooseneck microphone and a 3000 lumen projector and screen, up to 40 guests.
 
@@ -61,17 +61,19 @@ For a single remote presenter or a call in Q&A, our [Product Presentation Pack](
 
 **We provide**: PA sound and a microphone so the room can hear and be heard, a projector and screen sized to the room, and the adapters to connect your own laptop to both.
 
-**You bring**: your own laptop or device, your video conferencing software, and your internet connection. We do not provide cameras, webcams or streaming equipment.
+**You bring**: your own laptop or device, your video conferencing software, and your internet connection. Cameras, webcams, filming and live streaming are not in our own inventory.
+
+If the room needs a camera pointed at it, or the session has to be streamed, tell us in advance. We can put out feelers to suppliers for one, and you will hear from us either way before the day.
 
 ## Connecting Your Own Laptop
 
-Our [Product Presentation Pack](/packages/product-presentation/) includes HDMI and USB-C adapters plus audio interfaces to connect your own laptop, tablet or media player to our sound and screen setup. Stepping up to a larger conference room? The [MICE Pack](/packages/mice/) swaps in a bigger 60 inch LED display and includes a dedicated technician for up to six hours, and can carry the same laptop adapters over on request; just mention it when you book.
+Our [Product Presentation Pack](/packages/product-presentation/) includes HDMI and USB-C adapters plus audio interfaces to connect your own laptop, tablet or media player to our sound and screen setup. Stepping up to a larger conference room? The [MICE Pack](/packages/mice/) swaps in a bigger 60 inch LED display and includes a dedicated technician for up to six hours, and can carry the same laptop adapters over on request. Just mention it when you book.
 
 ## Real Setups We've Delivered
 
 ![Community meeting sound setup.](https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-600x450.webp)
 
-A meeting-room sound setup for a community gathering in Malaga.
+A meeting room sound setup for a community gathering in Malaga.
 
 ![Setup for a MICE event in Malaga with a podium, professional lighting, sound equipment, a large screen displaying a presentation, and a projector in a modern conference venue.](https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp)
 
@@ -91,11 +93,11 @@ A lectern setup ready for a presenter addressing the room.
 
 ## Booking and Service Area
 
-Our services focus on Malaga and extend to Granada for rentals over 400 euros. Book at least 24 hours in advance to guarantee availability.
+Our services cover Malaga, the Costa del Sol and Sevilla with no minimum order, and extend to Granada for rentals over 400 euros. Book at least 24 hours in advance to guarantee availability.
 
 ## Conclusion
 
-Whether it is a remote speaker joining a boardroom or a call-in Q&A during a presentation, Malaga Event Gear delivers the room sound, screen and laptop connectivity your event needs, while you handle the call itself. For our full range, see the [audio visual rental page](/blog/audio-visual-rental/). [Contact us](/contact/) to discuss your event.
+Whether it is a remote speaker joining a boardroom or a call in Q&A during a presentation, Malaga Event Gear delivers the room sound, screen and laptop connectivity your event needs, while you handle the call itself. For our full range, see the [audio visual rental page](/blog/audio-visual-rental/). [Contact us](/contact/) to discuss your event.
 
 Running a full virtual or hybrid event instead? See our [audio visual rental for virtual events](/blog/audio-visual-rental-for-virtual-events/) guide. Need AV for a seminar instead? See our [audio visual rental for seminars](/blog/audio-visual-rental-for-seminars/) guide. Planning a religious event instead? See our [audio visual rental for religious events](/blog/audio-visual-rental-for-religious-events/) guide.
 
@@ -107,23 +109,23 @@ Room sound so people can hear the call, a screen so they can see it, and a way t
 
 ### What is the difference between a remote presentation and a virtual event?
 
-A remote presentation is usually one remote speaker or participant joining an otherwise in-person room. A virtual event covers a full session or conference run mostly or entirely online. Either way, we supply the same thing: the room's sound, screen and laptop connectivity. See our [audio visual rental for virtual events](/blog/audio-visual-rental-for-virtual-events/) guide for the larger case.
+A remote presentation is usually one remote speaker or participant joining an otherwise in person room. A virtual event covers a full session or conference run mostly or entirely online. Either way, we supply the same thing: the room's sound, screen and laptop connectivity. See our [audio visual rental for virtual events](/blog/audio-visual-rental-for-virtual-events/) guide for the larger case.
 
-### Can a remote presenter join an in-person meeting or event?
+### Can a remote presenter join an in person meeting or event?
 
 Yes. Connect your own laptop or video call to our screen and sound system through the adapters included on the [Product Presentation Pack](/packages/product-presentation/), and the room can see and hear the remote presenter without any extra equipment.
 
 ### Do you provide cameras or webcams for remote presentations?
 
-No. We provide the room's sound and screen, not cameras, webcams or streaming equipment. You run the call from your own laptop and software.
+Not from our own inventory: cameras, webcams, filming and live streaming are not part of it. We provide the room's sound and screen, and you run the call from your own laptop and software. See [What We Provide vs. What You Bring](#what-we-provide-vs-what-you-bring) above.
 
 ### Can I use my own laptop with your setup?
 
 Yes, the [Product Presentation Pack](/packages/product-presentation/) comes with HDMI and USB-C adapters, plus audio interfaces, so you can plug in a laptop, tablet or media player directly.
 
-### What size package do I need for a small remote-participant meeting?
+### What size package do I need for a small remote participant meeting?
 
-For a boardroom-scale meeting, the [Basic MICE Pack](/packages/basic-mice/) covers up to 40 guests with a gooseneck microphone and a projector and screen. For a larger conference room, the [MICE Pack](/packages/mice/) covers up to 120 guests with a 60 inch LED display and a technician included.
+For a boardroom scale meeting, the [Basic MICE Pack](/packages/basic-mice/) covers up to 40 guests with a gooseneck microphone and a projector and screen. For a larger conference room, the [MICE Pack](/packages/mice/) covers up to 120 guests with a 60 inch LED display and a technician included.
 
 ### Do you provide internet or wifi for the call?
 
@@ -131,7 +133,7 @@ No. Internet and wifi are not included in any of our packages, so confirm connec
 
 ### Is a technician included for a remote presentation setup?
 
-Not on every package. The [MICE Pack](/packages/mice/) includes a technician on site for up to six hours; on the Basic MICE Pack a technician is available as an add on. Ask when you book.
+Not on every package. The [MICE Pack](/packages/mice/) includes a technician on site for up to six hours, and on the Basic MICE Pack a technician is available as an add on. The [Product Presentation Pack](/packages/product-presentation/) has no technician option, so you run it yourself after our crew sets it up. Ask when you book.
 
 ### How much does audio visual rental cost for a remote presentation?
 
