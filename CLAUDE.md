@@ -458,6 +458,56 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
   `Video conferencing equipment supplier`. Áreas de servicio: las 23 localidades de
   `siteConfig.serviceAreas`. Catálogo de categorías y servicios candidatos:
   `.agents/context/gmbeverywhere.com/meg/generic.md`.
+- **Posicionamiento: soluciones integrales para eventos (confirmado por el usuario, 2026-09-25)**.
+  MEG alquila equipo de sonido para eventos, sobre todo corporativos, y el sonido es el grueso
+  de su inventario propio. Pero lo que vende es la SOLUCIÓN del evento: a un cliente que la
+  contrató para algo de AV, MEG le resuelve lo que el evento necesite, sea AV o no, buscando un
+  proveedor cuando no lo tiene. Por eso es difícil cerrar la lista de "qué material ofrece".
+  Casos contados por el usuario el 2026-09-25. Ilustran el posicionamiento para quien escribe,
+  pero NO se publican ni se usan como Experience (ver la regla 4):
+  - El martes 2026-09-22, en el evento de una agencia cliente, falló el aire acondicionado del
+    restaurante. MEG buscó un proveedor de equipos portátiles de aire acondicionado y lo resolvió.
+  - Un expositor italiano (Two Way) necesitaba dos refrigeradores para un stand en FYCMA y ya no
+    podía pedirlos a FYCMA porque había cerrado los pedidos. MEG se los consiguió.
+
+  Cómo se aplica al contenido (creación y actualización, en los 13 idiomas):
+  1. **Dos capas, siempre distinguidas**: el INVENTARIO PROPIO (lo que MEG tiene:
+     `Equipamiento.csv` y `packages.ts`) y lo que MEG CONSIGUE con proveedores. Nunca presentar
+     como propio algo que se consigue, ni dar marca, modelo, cantidad o precio de algo que no
+     está en el inventario.
+  2. **Lo que no está en el inventario propio no se cierra con un "no ofrecemos"**. La forma
+     correcta: "no está en nuestro inventario propio" más "contanos qué necesitás y buscamos la
+     solución con nuestros proveedores". Sin prometer disponibilidad ni plazo: "si la hay".
+  3. **Los hechos no cambian**: qué equipo tiene MEG (una sola máquina de humo, sin DMX ni
+     cabezas móviles, un solo panel de 60 pulgadas) y qué suministró en un evento pasado (Billie
+     Jean King Cup: solo iluminación y sonido). Una solución conseguida con un proveedor no
+     vuelve propio ese equipo, ni cambia lo que MEG hizo en un evento ya publicado.
+  4. **La Experience sale SOLO de los posts `News` del blog** (decisión del usuario,
+     2026-09-25). Cada caso se cuenta con lo que confirma su post, sin agregar detalles, y
+     enlaza a `/blog/<slug>/` (ver regla 5, "Posts de la categoría `News`"). Los casos de hoy:
+     - Neighborhood Council Community Meeting en Málaga: siete años seguidos de sonido
+       (`7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain`).
+     - Bmotion en Marbella, 19 y 20 de mayo de 2026: monitores en pies con ruedas, micrófonos
+       de cuello de cisne e inalámbricos, tarimas
+       (`news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella`).
+     - PROGOLD SUMMIT 2026, Hotel Meliá Costa del Sol, Torremolinos, 20 a 23 de mayo de 2026:
+       sonido, iluminación, pantallas y proyección, micrófonos inalámbricos y de cuello de cisne
+       (`news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos`).
+     - Bmotion en Benahavís, 22 y 23 de mayo de 2026: pantallas, proyector de 5000 lúmenes,
+       columnas con subwoofers, atril de metacrilato con micrófono de cuello de cisne
+       (`news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis`).
+     - ECOC 2026 en FYCMA, 20 a 24 de septiembre de 2026: pantallas en los stands de expositores
+       (`news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga`).
+     `news-malaga-event-gear-unveils-new-rebranded-website` es `News` pero no es un evento. Un
+     caso sin su post `News` (como los dos de arriba) no se usa como Experience. Un caso nuevo
+     entra cuando se publica su post `News`, y se suma a esta lista en el mismo cambio.
+  5. **La atención sigue siendo solo en inglés y español**, y la zona de servicio no cambia.
+  6. `.agents/BUSINESS.md` §5 es copy histórico de WordPress (láser, cabezas móviles, video
+     walls, hazers, Shure/Sennheiser, streaming): NO es inventario propio. Ante una
+     contradicción, gana este archivo, y después `packages.ts` y el CSV en ese orden (ver
+     "Precedencia" en el inventario, abajo).
+  Las negaciones de las viñetas de abajo describen el INVENTARIO PROPIO. En el texto publicado
+  se escriben con la regla 2.
 - **Inventario real de equipamiento**: `.agents/context/Equipamiento.csv` (trackeado en git,
   material de este cliente igual que el resto de `.agents/context/`) es el listado ITEMIZADO del
   equipo físico real que posee MEG: marca, modelo y cantidad por unidad (no paquetes
@@ -465,6 +515,13 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
   el catálogo de PAQUETES vendidos al cliente (con precio); el CSV es el inventario de
   ACTIVOS individuales detrás de esos paquetes, y puede incluir equipo no empaquetado
   todavía o retirado.
+  - **Precedencia (decisión del usuario, 2026-09-25)**: lo que dice `packages.ts` tiene
+    prioridad sobre el CSV, porque lo que dicen los paquetes se entrega. El CSV puede estar
+    desactualizado. Ejemplo real: el Eco Pack incluye 2 barras de luz RGBW y el Wedding Pack
+    guirnaldas de luces, y ninguna de las dos está en el CSV. Se publican igual, como incluidas
+    en su paquete. El CSV sigue sirviendo para lo que ningún paquete nombra (las 2 Eurolite
+    LED KLS-200, el Fresnel, el kit H6, los micrófonos de corbata y diadema): eso es equipo
+    aparte, fuera de todo paquete, con presupuesto a pedido.
   - **Cuándo usarlo**: (1) antes de crear o actualizar un post de soporte del reverse silo,
     para confirmar si el servicio/palabra clave tiene respaldo real en el inventario (evita
     inventar un producto que MEG no tiene, y evita descartar por error uno que sí tiene pero
@@ -485,9 +542,10 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
     subcontratando a un proveedor externo. Esto es distinto de "no lo ofrecemos": al escribir
     sobre estos dos servicios, la negación correcta es "no lo tenemos en nuestro catálogo de
     equipo propio" + "sí lo coordinamos con un socio subcontratado", nunca un "no" categórico.
-    Video wall SÍ sigue siendo un "no" categórico (pantalla de gran formato es un panel plano
-    único de 60 pulgadas, no un muro modular) - no confundir los dos casos aunque `faq.ts`
-    los mencionaba juntos históricamente.
+    Video wall: no hay ninguno en el inventario propio (la pantalla de gran formato es un
+    panel plano único de 60 pulgadas, no un muro modular). Desde el 2026-09-25 se escribe con
+    la regla 2 del posicionamiento de soluciones integrales (arriba): nunca "tenemos un video
+    wall", sí "no está en nuestro inventario, contanos y buscamos la solución".
   - **Iluminación real corregida (confirmado 2026-07-31 por el negocio)**: la categoría
     LUMINARIA del CSV son exactamente 4 items: 2x barra Eurolite LED KLS-200 (4 focos fijos
     orientables a mano + pedal), 1x ADJ Encore FRI50Z (Fresnel de zoom, fijo), 1x ADJ Element
@@ -514,8 +572,9 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
   - **Efectos especiales reales (confirmado 2026-09-25 por el negocio)**: el único equipo de
     efectos especiales de MEG es UNA máquina de humo, Martin Magnum 650 (add on de 20 euros en
     el Eco Pack y el Wedding Pack). MEG no tiene hazer, ni máquina de humo bajo (low lying fog),
-    ni cañones de confeti, ni fuegos artificiales. Toda mención de esos equipos es una negación
-    honesta o no va. `smoke-machine-rental.svx` explica fog vs haze vs low lying fog.
+    ni cañones de confeti, ni fuegos artificiales en su inventario propio. Nunca se presentan
+    como propios. Si se mencionan, van con la regla 2 del posicionamiento de soluciones
+    integrales (arriba). `smoke-machine-rental.svx` explica fog vs haze vs low lying fog.
   - **Billie Jean King Cup 2024 (confirmado 2026-09-25 por el negocio)**: en la ceremonia de
     premiación MEG suministró SOLO la iluminación y el sonido. El confeti y los fuegos
     artificiales que se ven en las fotos no fueron de MEG. Ningún texto, alt ni pie de foto
@@ -577,6 +636,11 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
 
 ### 5. Creación y Actualización de Contenido (Blog / SEO)
 - **Idiomas:** todo contenido que se crea o actualiza se hace en los 13 idiomas soportados, en el mismo cambio (ver [Reglas mandatorias de idioma](#reglas-mandatorias-de-idioma)). La keyword de cada idioma sale de `content-map.ts`, nunca de traducir la keyword inglesa. Las reseñas nunca se traducen: se citan en su idioma original en todas las páginas (ver [Internacionalización (i18n)](#internacionalización-i18n)).
+- **Posicionamiento (2026-09-25):** MEG vende soluciones integrales para eventos, no solo el
+  equipo que tiene. Todo contenido distingue el inventario propio de lo que MEG consigue con
+  proveedores, y lo que no está en el inventario se escribe como "no está en nuestro inventario
+  propio, contanos y buscamos la solución", nunca como un "no ofrecemos" (ver "Posicionamiento:
+  soluciones integrales para eventos" en [Lo que este proyecto declara](#lo-que-este-proyecto-declara-para-que-los-agentes-globales-funcionen)).
 - Las pautas de redacción, estrategias de contenido anti-AI-slop, el framework de optimización E-E-A-T y la resolución de los **5 Errores Críticos que Matan el Tráfico** se encuentran detallados en **[SEO.md](file:///Users/hlorenzoz/databank/Development/%5BMEG%20-%20Malaga%20Event%20Gear%20%28malagaeventgear.com%29%5D/projects/website/SEO.md)**. Es obligatorio que el desarrollador/redactor los siga rigurosamente para cualquier publicación o contenido comercial.
 - **Reseñas reales de Google (E-E-A-T - Experience/Trust):** al crear o actualizar contenido comercial (posts del silo, páginas de paquete, servicios), consultar `src/lib/data/testimonials.ts` (`getTestimonials(limit?)`) para ver si hay una reseña real relevante al tema del contenido (tipo de evento, paquete, zona). Si la hay, citarla **textual** - autor, `rating`, `relativeTime` y el cuerpo en `text`, en su idioma original y sin traducir - nunca parafrasearla inventando énfasis que la reseña no tiene. Si no hay ninguna reseña relevante para ese tema puntual, no es un bloqueante ni una señal negativa (ver "Reputación ausente NO es señal negativa" más arriba); lo que sí está prohibido es dejar una sección de tipo "Testimonials" con un heading vacío o con prosa genérica sin cita real donde debería ir una.
 - **Posts de la categoría `News` como fuente de eventos anteriores (E-E-A-T - Experience):** al crear o actualizar contenido (posts del silo, páginas de paquete, servicios), consultar los posts existentes con `categories` que incluya `News` (`src/content/blog/*.svx`) como fuente de eventos reales ya desarrollados por MEG. Cuando un evento anterior sea relevante por contexto (tipo de evento, paquete, zona, temática), referenciarlo en el cuerpo del contenido y enlazar al post de noticia correspondiente (`/blog/<slug>/`). No inventar eventos ni detalles que el post de noticia no confirme.
