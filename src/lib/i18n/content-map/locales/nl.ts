@@ -56,6 +56,11 @@ export default {
 			slug: 'verhuur-audiovisuele-apparatuur',
 			keyword: 'verhuur audiovisuele apparatuur Malaga',
 			status: 'propuesta'
+		},
+		'headset-lavalier-microphone-rental': {
+			slug: 'headset-dasspeldmicrofoon-huren',
+			keyword: 'headset en dasspeldmicrofoon huren Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

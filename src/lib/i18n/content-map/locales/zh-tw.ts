@@ -44,6 +44,11 @@ export default {
 			slug: '影音器材租借',
 			keyword: '馬拉加 影音器材租借',
 			status: 'propuesta'
+		},
+		'headset-lavalier-microphone-rental': {
+			slug: '頭戴式領夾式麥克風租賃',
+			keyword: '馬拉加 頭戴式與領夾式麥克風租賃',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

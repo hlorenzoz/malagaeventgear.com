@@ -88,6 +88,11 @@ export default {
 			slug: 'aluguer-de-material-audiovisual',
 			keyword: 'aluguer de material audiovisual em Málaga',
 			status: 'propuesta'
+		},
+		'headset-lavalier-microphone-rental': {
+			slug: 'aluguer-microfones-lapela-cabeca',
+			keyword: 'aluguer de microfones de lapela e de cabeça em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

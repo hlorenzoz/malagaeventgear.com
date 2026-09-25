@@ -44,6 +44,11 @@ export default {
 			slug: '视听设备出租',
 			keyword: '马拉加 视听设备出租',
 			status: 'propuesta'
+		},
+		'headset-lavalier-microphone-rental': {
+			slug: '头戴式领夹式麦克风租赁',
+			keyword: '马拉加 头戴式与领夹式麦克风租赁',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

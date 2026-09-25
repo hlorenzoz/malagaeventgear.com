@@ -60,6 +60,11 @@ export default {
 			slug: 'utleie-av-audiovisuelt-utstyr',
 			keyword: 'utleie av audiovisuelt utstyr i Malaga',
 			status: 'propuesta'
+		},
+		'headset-lavalier-microphone-rental': {
+			slug: 'leie-mygg-og-headset',
+			keyword: 'leie mygg og headset i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

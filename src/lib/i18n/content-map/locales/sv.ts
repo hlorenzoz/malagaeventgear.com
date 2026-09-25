@@ -52,6 +52,11 @@ export default {
 			slug: 'uthyrning-av-audiovisuell-utrustning',
 			keyword: 'uthyrning av audiovisuell utrustning Malaga',
 			status: 'propuesta'
+		},
+		'headset-lavalier-microphone-rental': {
+			slug: 'hyra-mygga-och-headset',
+			keyword: 'hyra mygga och headset Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

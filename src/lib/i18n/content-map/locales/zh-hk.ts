@@ -44,6 +44,11 @@ export default {
 			slug: '視聽設備租賃',
 			keyword: '馬拉加 視聽設備租賃',
 			status: 'propuesta'
+		},
+		'headset-lavalier-microphone-rental': {
+			slug: '頭戴式領夾式咪高峰租借',
+			keyword: '馬拉加 頭戴式及領夾式咪高峰租借',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

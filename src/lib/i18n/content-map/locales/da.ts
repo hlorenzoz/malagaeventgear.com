@@ -56,6 +56,11 @@ export default {
 			slug: 'udlejning-af-audiovisuelt-udstyr',
 			keyword: 'udlejning af audiovisuelt udstyr Malaga',
 			status: 'propuesta'
+		},
+		'headset-lavalier-microphone-rental': {
+			slug: 'leje-headset-og-knaphulsmikrofon',
+			keyword: 'leje headset og knaphulsmikrofon Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

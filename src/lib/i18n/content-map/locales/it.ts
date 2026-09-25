@@ -52,6 +52,11 @@ export default {
 			slug: 'servizio-noleggio-audio-video',
 			keyword: 'servizio di noleggio audio video a Malaga',
 			status: 'propuesta'
+		},
+		'headset-lavalier-microphone-rental': {
+			slug: 'noleggio-microfoni-lavalier-archetto',
+			keyword: 'noleggio microfoni lavalier e ad archetto a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

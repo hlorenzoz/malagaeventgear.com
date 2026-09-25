@@ -56,6 +56,11 @@ export default {
 			slug: 'loueur-materiel-audiovisuel',
 			keyword: 'loueur de matériel audiovisuel à Malaga',
 			status: 'propuesta'
+		},
+		'headset-lavalier-microphone-rental': {
+			slug: 'location-micro-cravate-serre-tete',
+			keyword: 'location micro cravate et serre-tête à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

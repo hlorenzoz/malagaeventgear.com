@@ -88,6 +88,11 @@ export default {
 			slug: 'locacao-de-equipamentos-audiovisuais',
 			keyword: 'locação de equipamentos audiovisuais em Málaga',
 			status: 'propuesta'
+		},
+		'headset-lavalier-microphone-rental': {
+			slug: 'aluguel-microfone-lapela-headset',
+			keyword: 'aluguel de microfone de lapela e headset em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

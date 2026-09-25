@@ -56,6 +56,11 @@ export default {
 			slug: 'av-technik-verleih',
 			keyword: 'AV-Technik-Verleih Malaga',
 			status: 'propuesta'
+		},
+		'headset-lavalier-microphone-rental': {
+			slug: 'headset-ansteckmikrofon-mieten',
+			keyword: 'Headset und Ansteckmikrofon mieten Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
