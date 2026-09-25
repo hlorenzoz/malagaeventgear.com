@@ -66,6 +66,11 @@ export default {
 			slug: 'location-eclairage-scenique',
 			keyword: "location d'éclairage scénique à Malaga",
 			status: 'propuesta'
+		},
+		'stage-uplighting': {
+			slug: 'location-uplighting',
+			keyword: "location d'uplighting à Malaga",
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

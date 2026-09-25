@@ -98,6 +98,11 @@ export default {
 			slug: 'aluguer-de-iluminacao-de-palco',
 			keyword: 'aluguer de iluminação de palco em Málaga',
 			status: 'propuesta'
+		},
+		'stage-uplighting': {
+			slug: 'aluguer-de-uplighting',
+			keyword: 'aluguer de uplighting em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

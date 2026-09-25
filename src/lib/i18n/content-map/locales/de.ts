@@ -66,6 +66,11 @@ export default {
 			slug: 'buehnenbeleuchtung-mieten',
 			keyword: 'Bühnenbeleuchtung mieten Malaga',
 			status: 'propuesta'
+		},
+		'stage-uplighting': {
+			slug: 'uplighting-mieten',
+			keyword: 'Uplighting mieten Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

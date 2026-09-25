@@ -70,6 +70,11 @@ export default {
 			slug: 'leie-av-scenelys',
 			keyword: 'leie av scenelys i Malaga',
 			status: 'propuesta'
+		},
+		'stage-uplighting': {
+			slug: 'leie-av-uplighting',
+			keyword: 'leie av uplighting i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

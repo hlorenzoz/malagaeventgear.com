@@ -54,6 +54,11 @@ export default {
 			slug: '舞台燈光出租',
 			keyword: '馬拉加 舞台燈光出租',
 			status: 'propuesta'
+		},
+		'stage-uplighting': {
+			slug: '上照燈出租',
+			keyword: '馬拉加 上照燈出租',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

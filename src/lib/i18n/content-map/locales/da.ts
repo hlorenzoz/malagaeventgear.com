@@ -66,6 +66,11 @@ export default {
 			slug: 'leje-af-scenelys',
 			keyword: 'leje af scenelys Malaga',
 			status: 'propuesta'
+		},
+		'stage-uplighting': {
+			slug: 'leje-af-uplighting',
+			keyword: 'leje af uplighting Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

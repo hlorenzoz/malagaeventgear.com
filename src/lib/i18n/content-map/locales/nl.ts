@@ -66,6 +66,11 @@ export default {
 			slug: 'podiumverlichting-huren',
 			keyword: 'podiumverlichting huren Malaga',
 			status: 'propuesta'
+		},
+		'stage-uplighting': {
+			slug: 'uplighting-huren',
+			keyword: 'uplighting huren Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

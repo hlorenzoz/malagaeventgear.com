@@ -62,6 +62,11 @@ export default {
 			slug: 'noleggio-luci-da-palco',
 			keyword: 'noleggio luci da palco a Malaga',
 			status: 'propuesta'
+		},
+		'stage-uplighting': {
+			slug: 'noleggio-uplighting',
+			keyword: 'noleggio uplighting a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

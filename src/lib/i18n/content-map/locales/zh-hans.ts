@@ -54,6 +54,11 @@ export default {
 			slug: '舞台灯光租赁',
 			keyword: '马拉加 舞台灯光租赁',
 			status: 'propuesta'
+		},
+		'stage-uplighting': {
+			slug: '地面投光灯租赁',
+			keyword: '马拉加 地面投光灯租赁',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
