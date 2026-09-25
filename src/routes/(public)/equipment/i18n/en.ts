@@ -9,7 +9,7 @@ const copy = {
     seo: {
         title: 'Premium Audiovisual Equipment Rental Catalog | MEG',
         description:
-            'Explore our high quality inventory of professional sound systems, dynamic lighting, high definition projectors, and special effects. Premium equipment in Malaga.'
+            'Explore our high quality inventory of professional sound systems, dynamic lighting, high definition projectors, and a smoke machine. Premium equipment in Malaga.'
     },
     schema: {
         listName: 'Audiovisual Equipment Rental Catalog - Malaga Event Gear'
@@ -19,7 +19,7 @@ const copy = {
         titlePart1: 'Elevate your Event with',
         titlePart2: 'Premium Equipment',
         subtitle:
-            'Explore our catalog of high fidelity sound, spectacular lighting, and special effects. We have the perfect tools to make your celebration unforgettable.'
+            'Explore our catalog of high fidelity sound, spectacular lighting, and a smoke machine for atmosphere. We have the perfect tools to make your celebration unforgettable.'
     },
     featured: {
         imageAlt: 'MICE Audiovisual Pack Setup for Meetings',

@@ -156,7 +156,7 @@ export default {
 		'what-is-meg': {
 			question: 'Was ist Malaga Event Gear (MEG), und welche Leistungen bietet das Unternehmen an?',
 			answer:
-				'Malaga Event Gear (MEG) ist ein Unternehmen mit Sitz in Malaga, Spanien, spezialisiert auf die Vermietung professioneller audiovisueller Technik sowie Licht- und Veranstaltungstechnik. Wir bieten Beschallungsanlagen, Beamer, Leinwände, Bühnen, technischen Support, Nebelmaschinen, Beleuchtungslösungen und Mikrofone, dazu spezialisierte Leistungen wie die Beschallung von Liveveranstaltungen. Simultanübersetzung und interaktive Abstimmungssysteme organisieren wir über einen beauftragten Partner.'
+				'Malaga Event Gear (MEG) ist ein Unternehmen mit Sitz in Malaga, Spanien, spezialisiert auf die Vermietung professioneller audiovisueller Technik sowie Licht- und Veranstaltungstechnik. Wir bieten Beschallungsanlagen, Beamer, Leinwände, Bühnen, technischen Support, eine Nebelmaschine, Beleuchtungslösungen und Mikrofone, dazu spezialisierte Leistungen wie die Beschallung von Liveveranstaltungen. Simultanübersetzung und interaktive Abstimmungssysteme organisieren wir über einen beauftragten Partner.'
 		},
 		'event-types': {
 			question: 'Für welche Arten von Veranstaltungen ist Malaga Event Gear (MEG) geeignet?',
@@ -212,7 +212,7 @@ export default {
 		'equipment-brands': {
 			question: 'Mit welchen Technikmarken arbeiten Sie?',
 			answer:
-				'Wir setzen auf hochwertige professionelle Marken, denen die Veranstaltungsbranche vertraut: Audix und HK Audio für Beschallung, Eurolite und ADJ für Beleuchtung sowie Martin für Nebeleffekte. So garantieren wir bei jeder Buchung zuverlässige Ton- und Lichttechnik in hoher Qualität.'
+				'Wir setzen auf hochwertige professionelle Marken, denen die Veranstaltungsbranche vertraut: Audix und HK Audio für Beschallung, Eurolite und ADJ für Beleuchtung sowie Martin für unsere Nebelmaschine. So garantieren wir bei jeder Buchung zuverlässige Ton- und Lichttechnik in hoher Qualität.'
 		},
 		'delivery-only': {
 			question: 'Bieten Sie eine Selbstabholung an, oder liefern Sie ausschließlich?',
@@ -247,7 +247,7 @@ export default {
 		'customize-package': {
 			question: 'Kann ich ein Paket an meine individuellen Anforderungen anpassen oder erweitern?',
 			answer:
-				'Ja. Jedes Paket kann mit Extras wie Beamern und Leinwänden, professionellen Nebelmaschinen, zusätzlichen Mikrofonen, hochwertigen Rednerpulten aus Acryl, modularen Bühnenpodesten und zusätzlichen Technikerstunden erweitert werden. Teilen Sie uns Ihre Anforderungen bei der Angebotsanfrage mit, und wir stellen die perfekte Konfiguration für Ihre Veranstaltung zusammen.'
+				'Ja. Jedes Paket kann mit Extras wie Beamern und Leinwänden, einer professionellen Nebelmaschine Martin Magnum 650, zusätzlichen Mikrofonen, hochwertigen Rednerpulten aus Acryl, modularen Bühnenpodesten und zusätzlichen Technikerstunden erweitert werden. Teilen Sie uns Ihre Anforderungen bei der Angebotsanfrage mit, und wir stellen die perfekte Konfiguration für Ihre Veranstaltung zusammen.'
 		}
 	}
 } satisfies DataCopy;

@@ -156,7 +156,7 @@ export default {
 		'what-is-meg': {
 			question: "Qu'est-ce que Malaga Event Gear (MEG) et quels services propose-t-il ?",
 			answer:
-				"Malaga Event Gear (MEG) est une entreprise basée à Malaga, en Espagne, spécialisée dans la location de matériel audiovisuel, d'éclairage et d'événementiel professionnel. Nous proposons des systèmes de son, vidéoprojecteurs, écrans, scènes, assistance technique, machines à fumée, solutions d'éclairage et microphones, ainsi que des services spécialisés comme le renforcement sonore en direct, sans oublier la traduction simultanée et les systèmes de vote interactif, que nous organisons avec un partenaire sous-traitant."
+				"Malaga Event Gear (MEG) est une entreprise basée à Malaga, en Espagne, spécialisée dans la location de matériel audiovisuel, d'éclairage et d'événementiel professionnel. Nous proposons des systèmes de son, vidéoprojecteurs, écrans, scènes, assistance technique, une machine à fumée, solutions d'éclairage et microphones, ainsi que des services spécialisés comme le renforcement sonore en direct, sans oublier la traduction simultanée et les systèmes de vote interactif, que nous organisons avec un partenaire sous-traitant."
 		},
 		'event-types': {
 			question: "Quels types d'événements Malaga Event Gear (MEG) peut-il prendre en charge ?",
@@ -211,7 +211,7 @@ export default {
 		'equipment-brands': {
 			question: 'Avec quelles marques de matériel travaillez-vous ?',
 			answer:
-				"Nous utilisons des marques professionnelles haut de gamme reconnues dans le secteur de l'événementiel, dont Audix et HK Audio pour le son, Eurolite et ADJ pour l'éclairage, et Martin pour les effets de fumée. Cela garantit un son et un éclairage fiables et haute fidélité pour chaque réservation."
+				"Nous utilisons des marques professionnelles haut de gamme reconnues dans le secteur de l'événementiel, dont Audix et HK Audio pour le son, Eurolite et ADJ pour l'éclairage, et Martin pour notre machine à fumée. Cela garantit un son et un éclairage fiables et haute fidélité pour chaque réservation."
 		},
 		'delivery-only': {
 			question: 'Proposez-vous une option de retrait sur place, ou est-ce uniquement de la livraison ?',
@@ -246,7 +246,7 @@ export default {
 		'customize-package': {
 			question: 'Puis-je personnaliser ou étendre un forfait selon mes besoins spécifiques ?',
 			answer:
-				"Oui. Chaque forfait peut être complété avec des options comme des vidéoprojecteurs et écrans, des machines à fumée professionnelles, des microphones supplémentaires, des pupitres premium en acrylique, des plateaux de scène modulables et des heures de technicien en direct supplémentaires. Indiquez-nous vos besoins lors de votre demande de devis et nous construirons la configuration parfaite pour votre événement."
+				"Oui. Chaque forfait peut être complété avec des options comme des vidéoprojecteurs et écrans, une machine à fumée professionnelle Martin Magnum 650, des microphones supplémentaires, des pupitres premium en acrylique, des plateaux de scène modulables et des heures de technicien en direct supplémentaires. Indiquez-nous vos besoins lors de votre demande de devis et nous construirons la configuration parfaite pour votre événement."
 		}
 	}
 } satisfies DataCopy;

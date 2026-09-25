@@ -1,12 +1,12 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-25';
 
 const copy = {
 	seo: {
 		title: 'Catalogue matériel audiovisuel Malaga | MEG',
 		description:
-			"Découvrez notre catalogue de matériel audiovisuel haut de gamme à Malaga : systèmes de son professionnels, éclairage dynamique, vidéoprojecteurs HD et effets spéciaux."
+			"Découvrez notre catalogue de matériel audiovisuel haut de gamme à Malaga : systèmes de son professionnels, éclairage dynamique, vidéoprojecteurs HD et une machine à fumée."
 	},
 	schema: {
 		listName: 'Catalogue de location de matériel audiovisuel - Malaga Event Gear'
@@ -16,7 +16,7 @@ const copy = {
 		titlePart1: 'Sublimez votre événement avec',
 		titlePart2: 'du matériel haut de gamme',
 		subtitle:
-			"Découvrez notre catalogue de son haute fidélité, d'éclairage spectaculaire et d'effets spéciaux. Nous avons tout ce qu'il faut pour rendre votre célébration inoubliable."
+			"Découvrez notre catalogue de son haute fidélité et d'éclairage spectaculaire, ainsi que notre machine à fumée pour l'ambiance. Nous avons tout ce qu'il faut pour rendre votre célébration inoubliable."
 	},
 	featured: {
 		imageAlt: 'Installation audiovisuelle du MICE Pack pour réunions',

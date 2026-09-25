@@ -97,8 +97,8 @@ const t = {
 		lightText: 'Dynamiske belysningsløsninger, der skaber den perfekte stemning i dit lokale.',
 		visualTitle: 'Projektorer og lærreder',
 		visualText: 'Skarpe billeder i høj opløsning til præsentationer med stor visuel effekt.',
-		fxTitle: 'Specialeffekter og røgmaskiner',
-		fxText: 'Skab en fantastisk stemning til dit event med vores professionelle specialeffekter og røgmaskiner.',
+		fxTitle: 'Røgmaskine',
+		fxText: 'Giv dansegulvet eller scenen ekstra stemning med vores professionelle røgmaskine Martin Magnum 650.',
 		bookEquipment: 'Book pakker'
 	},
 	// Pricing

@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-25';
 
 const copy = {
 	seo: {
@@ -19,7 +19,7 @@ const copy = {
 	},
 	scope: {
 		title: 'Omfang af services og tilbud',
-		p1: 'Vi er specialister i at tilbyde aktive PA-lydanlæg i topklasse, professionelle belysningsløsninger (LED-lysbjælker, en Fresnel-spot med zoom og et trådløst sæt til uplighting), projektorer med høj lysstyrke, mikrofoner (kablede, trådløse, svanehals), røgmaskiner og scenepodier.',
+		p1: 'Vi er specialister i at tilbyde aktive PA-lydanlæg i topklasse, professionelle belysningsløsninger (LED-lysbjælker, en Fresnel-spot med zoom og et trådløst sæt til uplighting), projektorer med høj lysstyrke, mikrofoner (kablede, trådløse, svanehals), en røgmaskine og scenepodier.',
 		p2: 'Mange af vores pakker, som Wedding Pack og MICE Pack, inkluderer transport, professionel installation, teknisk support på stedet og nedtagning efter eventet for en helt stressfri oplevelse.'
 	},
 	limits: {

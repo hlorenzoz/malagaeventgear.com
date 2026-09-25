@@ -48,7 +48,7 @@ const faqData: FaqItem[] = [
 		category: 'services',
 		onHomepage: true,
 		question: 'What is Malaga Event Gear (MEG), and what services do they offer?',
-		answer: 'Malaga Event Gear (MEG) is a company based in Malaga, Spain, specializing in the rental of professional audiovisual, lighting, and event equipment. We provide sound systems, projectors, screens, stages, technical assistance, smoke machines, lighting solutions, and microphones, plus specialized services such as live sound reinforcement, and simultaneous translation and interactive voting systems arranged through a subcontracted partner.'
+		answer: 'Malaga Event Gear (MEG) is a company based in Malaga, Spain, specializing in the rental of professional audiovisual, lighting, and event equipment. We provide sound systems, projectors, screens, stages, technical assistance, a smoke machine, lighting solutions, and microphones, plus specialized services such as live sound reinforcement, and simultaneous translation and interactive voting systems arranged through a subcontracted partner.'
 	},
 	{
 		id: 'event-types',
@@ -129,7 +129,7 @@ const faqData: FaqItem[] = [
 		category: 'services',
 		onHomepage: false,
 		question: 'What equipment brands do you work with?',
-		answer: 'We use premium professional brands trusted in the live event industry, including Audix and HK Audio for sound, Eurolite and ADJ for lighting, and Martin for smoke effects. This ensures reliable, high fidelity sound and lighting performance for every booking.'
+		answer: 'We use premium professional brands trusted in the live event industry, including Audix and HK Audio for sound, Eurolite and ADJ for lighting, and Martin for our smoke machine. This ensures reliable, high fidelity sound and lighting performance for every booking.'
 	},
 	{
 		id: 'delivery-only',
@@ -180,7 +180,7 @@ const faqData: FaqItem[] = [
 		category: 'booking',
 		onHomepage: false,
 		question: 'Can I customize or extend a package for my specific needs?',
-		answer: 'Yes. Every package can be extended with extras such as projectors and screens, professional smoke machines, extra microphones, premium acrylic lecterns, modular stage platforms, and additional live technician hours. Tell us your requirements when requesting a quote and we will build the perfect configuration for your event.'
+		answer: 'Yes. Every package can be extended with extras such as projectors and screens, a professional Martin Magnum 650 smoke machine, extra microphones, premium acrylic lecterns, modular stage platforms, and additional live technician hours. Tell us your requirements when requesting a quote and we will build the perfect configuration for your event.'
 	}
 ];
 

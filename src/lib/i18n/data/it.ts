@@ -156,7 +156,7 @@ export default {
 		'what-is-meg': {
 			question: "Cos'è Malaga Event Gear (MEG) e quali servizi offre?",
 			answer:
-				"Malaga Event Gear (MEG) è un'azienda con sede a Malaga, in Spagna, specializzata nel noleggio di attrezzature professionali audiovisive, di illuminazione e per eventi. Forniamo impianti audio, proiettori, schermi, palchi, assistenza tecnica, macchine del fumo, soluzioni di illuminazione e microfoni, oltre a servizi specializzati come il rinforzo sonoro dal vivo, oltre alla traduzione simultanea e ai sistemi di voto interattivo, che organizziamo tramite un partner in subappalto."
+				"Malaga Event Gear (MEG) è un'azienda con sede a Malaga, in Spagna, specializzata nel noleggio di attrezzature professionali audiovisive, di illuminazione e per eventi. Forniamo impianti audio, proiettori, schermi, palchi, assistenza tecnica, una macchina del fumo, soluzioni di illuminazione e microfoni, oltre a servizi specializzati come il rinforzo sonoro dal vivo, oltre alla traduzione simultanea e ai sistemi di voto interattivo, che organizziamo tramite un partner in subappalto."
 		},
 		'event-types': {
 			question: 'Che tipi di eventi può gestire Malaga Event Gear (MEG)?',
@@ -211,7 +211,7 @@ export default {
 		'equipment-brands': {
 			question: 'Con quali marchi di attrezzature lavorate?',
 			answer:
-				"Utilizziamo marchi professionali di alta gamma apprezzati nel settore degli eventi dal vivo, tra cui Audix e HK Audio per l'audio, Eurolite e ADJ per l'illuminazione, e Martin per gli effetti fumo. Questo garantisce prestazioni audio e di illuminazione affidabili e ad alta fedeltà per ogni prenotazione."
+				"Utilizziamo marchi professionali di alta gamma apprezzati nel settore degli eventi dal vivo, tra cui Audix e HK Audio per l'audio, Eurolite e ADJ per l'illuminazione, e Martin per la nostra macchina del fumo. Questo garantisce prestazioni audio e di illuminazione affidabili e ad alta fedeltà per ogni prenotazione."
 		},
 		'delivery-only': {
 			question: 'Offrite il ritiro in sede da parte del cliente o solo la consegna?',
@@ -246,7 +246,7 @@ export default {
 		'customize-package': {
 			question: 'Posso personalizzare o estendere un pacchetto per le mie esigenze specifiche?',
 			answer:
-				'Sì. Ogni pacchetto può essere esteso con extra come proiettori e schermi, macchine del fumo professionali, microfoni aggiuntivi, leggii premium in acrilico, pedane modulari da palco e ore aggiuntive di tecnico dal vivo. Comunicaci le tue esigenze al momento della richiesta di preventivo e costruiremo la configurazione perfetta per il tuo evento.'
+				'Sì. Ogni pacchetto può essere esteso con extra come proiettori e schermi, una macchina del fumo professionale Martin Magnum 650, microfoni aggiuntivi, leggii premium in acrilico, pedane modulari da palco e ore aggiuntive di tecnico dal vivo. Comunicaci le tue esigenze al momento della richiesta di preventivo e costruiremo la configurazione perfetta per il tuo evento.'
 		}
 	}
 } satisfies DataCopy;

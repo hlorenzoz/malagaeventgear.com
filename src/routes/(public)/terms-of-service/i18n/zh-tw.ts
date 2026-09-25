@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-25';
 
 export default {
 	seo: {
@@ -19,7 +19,7 @@ export default {
 	},
 	scope: {
 		title: '服務範圍與內容',
-		p1: '我們專精於提供高保真主動式PA擴聲系統、專業燈光解決方案（LED燈排、變焦Fresnel聚光燈與無線上照燈組）、高流明投影設備、麥克風（有線、無線、鵝頸式）、煙霧機與舞台平台。',
+		p1: '我們專精於提供高保真主動式PA擴聲系統、專業燈光解決方案（LED燈排、變焦Fresnel聚光燈與無線上照燈組）、高流明投影設備、麥克風（有線、無線、鵝頸式）、一台煙霧機與舞台平台。',
 		p2: '我們的許多方案（例如Wedding Pack與MICE Pack）皆包含運送、專業安裝、現場即時技術支援，以及活動結束後的拆卸，帶給您完全零壓力的體驗。'
 	},
 	limits: {

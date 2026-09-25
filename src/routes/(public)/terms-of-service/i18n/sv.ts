@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-25';
 
 export default {
 	seo: {
@@ -19,7 +19,7 @@ export default {
 	},
 	scope: {
 		title: 'Tjänstens omfattning och utbud',
-		p1: 'Vi specialiserar oss på att erbjuda högkvalitativa aktiva PA-ljudsystem, professionella belysningslösningar (LED-ljusbalkar, en Fresnelspotlight med zoom och ett trådlöst kit för uplighting), projektorer med hög ljusstyrka, mikrofoner (trådbundna, trådlösa, gåshals), rökmaskiner och scenplattformar.',
+		p1: 'Vi specialiserar oss på att erbjuda högkvalitativa aktiva PA-ljudsystem, professionella belysningslösningar (LED-ljusbalkar, en Fresnelspotlight med zoom och ett trådlöst kit för uplighting), projektorer med hög ljusstyrka, mikrofoner (trådbundna, trådlösa, gåshals), en rökmaskin och scenplattformar.',
 		p2: 'Många av våra paket, som Wedding Pack och MICE Pack, inkluderar transport, professionell installation, teknisk support på plats och nedmontering efter evenemanget för en helt stressfri upplevelse.'
 	},
 	limits: {

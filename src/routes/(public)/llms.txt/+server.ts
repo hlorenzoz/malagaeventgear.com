@@ -95,7 +95,7 @@ function buildLlmsTxt(): string {
 
 ${entry('Home', '/', "Overview of MEG's audiovisual rental service, the event packages, service area and booking process.")}
 ${entry('Event Packages', '/packages/', `Every rental package with its fixed price in EUR (excluding ${vatPercent}% VAT), guest capacity, included equipment and optional extras.`)}
-${entry('Equipment Catalog', '/equipment/', 'Professional sound systems, LED lighting, 3000 and 5000 lumen projectors with screens, a 60 inch LED display, wireless microphones and smoke machines available for hire.')}
+${entry('Equipment Catalog', '/equipment/', 'Professional sound systems, LED lighting, 3000 and 5000 lumen projectors with screens, a 60 inch LED display, wireless microphones and a smoke machine available for hire.')}
 ${entry('About Us', '/about-us/', `Company history in the audiovisual industry since ${siteConfig.foundingYear}, independent operation since 2010, and the delivery and setup service model.`)}
 ${entry('Meet the Team', '/meet-the-team/', 'The technical personnel who set up and operate the equipment, the sales team who handle quotes and bookings, and the cofounder in charge of the website.')}
 ${entry('FAQ', '/faq/', 'Answers on services, delivery and setup, coverage area, booking, VAT, notice time and what each package includes. Every answer is also below, under Frequently Asked Questions.')}

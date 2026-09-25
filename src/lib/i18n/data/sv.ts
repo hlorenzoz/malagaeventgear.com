@@ -156,7 +156,7 @@ export default {
 		'what-is-meg': {
 			question: 'Vad är Malaga Event Gear (MEG), och vilka tjänster erbjuder de?',
 			answer:
-				'Malaga Event Gear (MEG) är ett företag baserat i Malaga, Spanien, som specialiserar sig på uthyrning av professionell ljud-, bild-, ljus- och eventutrustning. Vi tillhandahåller ljudsystem, projektorer, dukar, scener, teknisk assistans, rökmaskiner, belysningslösningar och mikrofoner, samt specialiserade tjänster som ljudförstärkning live, simultantolkning och interaktiva röstningssystem, där de två sistnämnda ordnas genom en underleverantör.'
+				'Malaga Event Gear (MEG) är ett företag baserat i Malaga, Spanien, som specialiserar sig på uthyrning av professionell ljud-, bild-, ljus- och eventutrustning. Vi tillhandahåller ljudsystem, projektorer, dukar, scener, teknisk assistans, en rökmaskin, belysningslösningar och mikrofoner, samt specialiserade tjänster som ljudförstärkning live, simultantolkning och interaktiva röstningssystem, där de två sistnämnda ordnas genom en underleverantör.'
 		},
 		'event-types': {
 			question: 'Vilka typer av evenemang kan Malaga Event Gear (MEG) täcka?',
@@ -212,7 +212,7 @@ export default {
 		'equipment-brands': {
 			question: 'Vilka utrustningsmärken arbetar ni med?',
 			answer:
-				'Vi använder förstklassiga professionella märken som är betrodda inom liveeventbranschen, bland annat Audix och HK Audio för ljud, Eurolite och ADJ för belysning och Martin för rökeffekter. Detta säkerställer pålitligt, högkvalitativt ljud och belysning vid varje bokning.'
+				'Vi använder förstklassiga professionella märken som är betrodda inom liveeventbranschen, bland annat Audix och HK Audio för ljud, Eurolite och ADJ för belysning och Martin för vår rökmaskin. Detta säkerställer pålitligt, högkvalitativt ljud och belysning vid varje bokning.'
 		},
 		'delivery-only': {
 			question: 'Erbjuder ni ett alternativ för självhämtning, eller är det enbart leverans?',
@@ -247,7 +247,7 @@ export default {
 		'customize-package': {
 			question: 'Kan jag anpassa eller utöka ett paket efter mina specifika behov?',
 			answer:
-				'Ja. Alla paket kan utökas med tillägg som projektorer och dukar, professionella rökmaskiner, extra mikrofoner, talarstolar i akryl av premiumkvalitet, modulära scenplattformar och extra timmar med livetekniker. Berätta dina önskemål när du begär en offert, så bygger vi den perfekta konfigurationen för ditt evenemang.'
+				'Ja. Alla paket kan utökas med tillägg som projektorer och dukar, en professionell rökmaskin av typen Martin Magnum 650, extra mikrofoner, talarstolar i akryl av premiumkvalitet, modulära scenplattformar och extra timmar med livetekniker. Berätta dina önskemål när du begär en offert, så bygger vi den perfekta konfigurationen för ditt evenemang.'
 		}
 	}
 } satisfies DataCopy;

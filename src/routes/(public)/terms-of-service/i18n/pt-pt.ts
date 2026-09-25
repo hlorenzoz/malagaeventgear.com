@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-25';
 
 export default {
 	seo: {
@@ -19,7 +19,7 @@ export default {
 	},
 	scope: {
 		title: 'Âmbito do serviço e oferta',
-		p1: 'Somos especializados em sistemas de som PA ativos de alta fidelidade, soluções profissionais de iluminação (barras de luz LED, um foco Fresnel com zoom e um kit de uplighting sem fios), unidades de projeção de alto brilho, microfones (com fio, sem fios e de pescoço de ganso), máquinas de fumo e plataformas de palco.',
+		p1: 'Somos especializados em sistemas de som PA ativos de alta fidelidade, soluções profissionais de iluminação (barras de luz LED, um foco Fresnel com zoom e um kit de uplighting sem fios), unidades de projeção de alto brilho, microfones (com fio, sem fios e de pescoço de ganso), uma máquina de fumo e plataformas de palco.',
 		p2: 'Muitos dos nossos pacotes, como o Wedding Pack e o MICE Pack, incluem transporte, instalação profissional, apoio técnico ao vivo no local e desmontagem após o evento, para uma experiência totalmente sem complicações.'
 	},
 	limits: {

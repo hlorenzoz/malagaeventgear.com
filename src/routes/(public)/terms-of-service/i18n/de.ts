@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-25';
 
 export default {
 	seo: {
@@ -19,7 +19,7 @@ export default {
 	},
 	scope: {
 		title: 'Leistungsumfang & Angebot',
-		p1: 'Wir sind spezialisiert auf aktive PA-Anlagen in Hi-Fi-Qualität, professionelle Beleuchtungslösungen (LED-Lichtleisten, einen Fresnel-Scheinwerfer mit Zoom und ein kabelloses Set für Uplighting), lichtstarke Beamer, Mikrofone (kabelgebunden, kabellos, Schwanenhals), Nebelmaschinen und Bühnenpodeste.',
+		p1: 'Wir sind spezialisiert auf aktive PA-Anlagen in Hi-Fi-Qualität, professionelle Beleuchtungslösungen (LED-Lichtleisten, einen Fresnel-Scheinwerfer mit Zoom und ein kabelloses Set für Uplighting), lichtstarke Beamer, Mikrofone (kabelgebunden, kabellos, Schwanenhals), eine Nebelmaschine und Bühnenpodeste.',
 		p2: 'Viele unserer Pakete, wie das Wedding Pack und das MICE Pack, beinhalten Transport, professionelle Installation, technische Betreuung vor Ort während der Veranstaltung und Abbau nach der Veranstaltung für ein vollkommen stressfreies Erlebnis.'
 	},
 	limits: {

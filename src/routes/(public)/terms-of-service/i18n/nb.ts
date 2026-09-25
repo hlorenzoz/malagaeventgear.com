@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-25';
 
 export default {
 	seo: {
@@ -19,7 +19,7 @@ export default {
 	},
 	scope: {
 		title: 'Omfang av tjenesten og tilbudene',
-		p1: 'Vi spesialiserer oss på aktive PA-lydanlegg i høy kvalitet, profesjonelle lysløsninger (LED-lysbjelker, en Fresnel-spotlight med zoom og et trådløst sett for uplighting), prosjektorer med høy lysstyrke, mikrofoner (kablede, trådløse, svanehals), røykmaskiner og sceneplattformer.',
+		p1: 'Vi spesialiserer oss på aktive PA-lydanlegg i høy kvalitet, profesjonelle lysløsninger (LED-lysbjelker, en Fresnel-spotlight med zoom og et trådløst sett for uplighting), prosjektorer med høy lysstyrke, mikrofoner (kablede, trådløse, svanehals), en røykmaskin og sceneplattformer.',
 		p2: 'Mange av pakkene våre, som Wedding Pack og MICE Pack, inkluderer transport, profesjonell installasjon, teknisk support på stedet og nedrigging etter arrangementet, for en helt stressfri opplevelse.'
 	},
 	limits: {

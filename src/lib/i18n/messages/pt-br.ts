@@ -100,9 +100,9 @@ const t = {
 		lightText: 'Soluções de iluminação dinâmica para criar a atmosfera perfeita no seu local de evento.',
 		visualTitle: 'Projetores e telas',
 		visualText: 'Imagens nítidas em alta definição para apresentações com alto impacto visual.',
-		fxTitle: 'Efeitos especiais e máquinas de fumaça',
+		fxTitle: 'Máquina de fumaça',
 		fxText:
-			'Crie uma atmosfera impressionante no seu evento com nossos efeitos especiais e máquinas de fumaça de nível profissional.',
+			'Dê mais clima à sua pista de dança ou ao seu palco com nossa máquina de fumaça profissional Martin Magnum 650.',
 		bookEquipment: 'Reservar pacotes'
 	},
 	// Pricing

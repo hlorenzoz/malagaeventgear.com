@@ -1,12 +1,12 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-25';
 
 const copy = {
 	seo: {
 		title: 'Geluids- en lichtapparatuur huren in Malaga | MEG',
 		description:
-			'Ontdek onze hoogwaardige catalogus met professionele geluidssystemen, dynamische verlichting, HD-beamers en speciale effecten. Premium apparatuur in Malaga.'
+			'Ontdek onze hoogwaardige catalogus met professionele geluidssystemen, dynamische verlichting, HD-beamers en een rookmachine. Premium apparatuur in Malaga.'
 	},
 	schema: {
 		listName: 'Verhuurcatalogus audiovisuele apparatuur | Malaga Event Gear'
@@ -16,7 +16,7 @@ const copy = {
 		titlePart1: 'Geluids- en lichtapparatuur huren voor',
 		titlePart2: 'elk evenement in Malaga',
 		subtitle:
-			'Ontdek onze catalogus met hifigeluid, spectaculaire verlichting en speciale effecten. We hebben alles in huis om jouw feest onvergetelijk te maken.'
+			'Ontdek onze catalogus met hifigeluid, spectaculaire verlichting en een rookmachine voor extra sfeer. We hebben alles in huis om jouw feest onvergetelijk te maken.'
 	},
 	featured: {
 		imageAlt: 'Opstelling van het MICE Pack voor vergaderingen',

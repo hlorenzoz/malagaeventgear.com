@@ -90,8 +90,8 @@ const t = {
 		lightText: 'Dynamische verlichtingsoplossingen voor de perfecte sfeer op je locatie.',
 		visualTitle: 'Beamers & schermen',
 		visualText: 'Scherpe beelden in high definition voor presentaties met grote visuele impact.',
-		fxTitle: 'Speciale effecten & rookmachines',
-		fxText: 'Creëer een verbluffende sfeer op je evenement met onze professionele speciale effecten en rookmachines.',
+		fxTitle: 'Rookmachine',
+		fxText: 'Geef je dansvloer of podium extra sfeer met onze professionele rookmachine, de Martin Magnum 650.',
 		bookEquipment: 'Pakketten boeken'
 	},
 	// Pricing

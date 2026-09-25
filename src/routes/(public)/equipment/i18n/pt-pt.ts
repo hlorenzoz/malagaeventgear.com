@@ -1,12 +1,12 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-25';
 
 export default {
 	seo: {
 		title: 'Aluguer de equipamento de som e luz em Málaga | MEG',
 		description:
-			'Explore o nosso inventário de alta qualidade de sistemas de som profissionais, iluminação dinâmica, projetores de alta definição e efeitos especiais. Equipamento premium em Málaga.'
+			'Explore o nosso inventário de alta qualidade de sistemas de som profissionais, iluminação dinâmica, projetores de alta definição e uma máquina de fumo. Equipamento premium em Málaga.'
 	},
 	schema: {
 		listName: 'Catálogo de aluguer de equipamento audiovisual - Malaga Event Gear'
@@ -16,7 +16,7 @@ export default {
 		titlePart1: 'Eleve o seu evento com',
 		titlePart2: 'equipamento premium',
 		subtitle:
-			'Explore o nosso catálogo de som de alta fidelidade, iluminação espetacular e efeitos especiais. Temos as ferramentas perfeitas para tornar a sua celebração inesquecível.'
+			'Explore o nosso catálogo de som de alta fidelidade e iluminação espetacular, além da nossa máquina de fumo para criar ambiente. Temos as ferramentas perfeitas para tornar a sua celebração inesquecível.'
 	},
 	featured: {
 		imageAlt: 'Montagem do MICE Pack audiovisual para reuniões',

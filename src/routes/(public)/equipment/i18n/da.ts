@@ -1,12 +1,12 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-25';
 
 const copy = {
 	seo: {
 		title: 'Udlejningskatalog for professionelt AV-udstyr | MEG',
 		description:
-			'Udforsk vores kvalitetssortiment af professionelle lydsystemer, dynamisk belysning, HD-projektorer og specialeffekter. Udstyr i topklasse i Malaga.'
+			'Udforsk vores kvalitetssortiment af professionelle lydsystemer, dynamisk belysning, HD-projektorer og en røgmaskine. Udstyr i topklasse i Malaga.'
 	},
 	schema: {
 		listName: 'Udlejningskatalog for AV-udstyr | Malaga Event Gear'
@@ -16,7 +16,7 @@ const copy = {
 		titlePart1: 'Løft dit event med',
 		titlePart2: 'udstyr i topklasse',
 		subtitle:
-			'Udforsk vores katalog med lyd i topklasse, imponerende belysning og specialeffekter. Vi har det perfekte udstyr til at gøre din fejring uforglemmelig.'
+			'Udforsk vores katalog med lyd i topklasse, imponerende belysning og en røgmaskine til stemningen. Vi har det perfekte udstyr til at gøre din fejring uforglemmelig.'
 	},
 	featured: {
 		imageAlt: 'Opsætning af MICE-pakke med AV-udstyr til møder',

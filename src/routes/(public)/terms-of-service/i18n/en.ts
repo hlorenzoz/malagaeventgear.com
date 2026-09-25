@@ -16,7 +16,7 @@ const copy = {
 	},
 	scope: {
 		title: 'Scope of Service & Offerings',
-		p1: 'We specialize in offering high fidelity active acoustic PA systems, professional lighting solutions (LED light bars, a zoom Fresnel spotlight and a wireless uplighting kit), high lumen projection units, microphones (wired, wireless, gooseneck), fog machines, and stage platforms.',
+		p1: 'We specialize in offering high fidelity active acoustic PA systems, professional lighting solutions (LED light bars, a zoom Fresnel spotlight and a wireless uplighting kit), high lumen projection units, microphones (wired, wireless, gooseneck), a smoke machine, and stage platforms.',
 		p2: 'Many of our packages, such as the Wedding Pack and MICE Pack, include transport, professional installation, on site live technical support, and post event breakdown for a completely stress free experience.'
 	},
 	limits: {

@@ -156,7 +156,7 @@ export default {
 		'what-is-meg': {
 			question: 'Wat is Malaga Event Gear (MEG) en welke diensten bieden zij aan?',
 			answer:
-				'Malaga Event Gear (MEG) is een bedrijf gevestigd in Malaga, Spanje, gespecialiseerd in de verhuur van professionele audiovisuele, verlichtings- en evenementapparatuur. We leveren geluidssystemen, beamers, schermen, podia, technische ondersteuning, rookmachines, verlichtingsoplossingen en microfoons, plus gespecialiseerde diensten zoals live geluidsversterking. Simultaanvertaling en interactieve stemsystemen regelen we via een onderaannemer.'
+				'Malaga Event Gear (MEG) is een bedrijf gevestigd in Malaga, Spanje, gespecialiseerd in de verhuur van professionele audiovisuele, verlichtings- en evenementapparatuur. We leveren geluidssystemen, beamers, schermen, podia, technische ondersteuning, een rookmachine, verlichtingsoplossingen en microfoons, plus gespecialiseerde diensten zoals live geluidsversterking. Simultaanvertaling en interactieve stemsystemen regelen we via een onderaannemer.'
 		},
 		'event-types': {
 			question: 'Voor welke soorten evenementen kan Malaga Event Gear (MEG) zorgen?',
@@ -211,7 +211,7 @@ export default {
 		'equipment-brands': {
 			question: 'Met welke apparatuurmerken werken jullie?',
 			answer:
-				'We gebruiken professionele topmerken waarop de evenementenbranche vertrouwt, waaronder Audix en HK Audio voor geluid, Eurolite en ADJ voor verlichting en Martin voor rookeffecten. Zo garanderen we bij elke boeking betrouwbaar geluid en licht van hoge kwaliteit.'
+				'We gebruiken professionele topmerken waarop de evenementenbranche vertrouwt, waaronder Audix en HK Audio voor geluid, Eurolite en ADJ voor verlichting en Martin voor onze rookmachine. Zo garanderen we bij elke boeking betrouwbaar geluid en licht van hoge kwaliteit.'
 		},
 		'delivery-only': {
 			question: 'Bieden jullie een zelfafhaaloptie, of werken jullie uitsluitend met levering?',
@@ -246,7 +246,7 @@ export default {
 		'customize-package': {
 			question: 'Kan ik een pakket aanpassen of uitbreiden voor mijn specifieke wensen?',
 			answer:
-				'Ja. Elk pakket kan worden uitgebreid met extra\'s zoals beamers en schermen, professionele rookmachines, extra microfoons, premium spreekgestoelten van acryl, modulaire podiumplatforms en extra uren van een technicus ter plaatse. Vertel ons je wensen bij het aanvragen van een offerte en we stellen de perfecte configuratie samen voor je evenement.'
+				'Ja. Elk pakket kan worden uitgebreid met extra\'s zoals beamers en schermen, een professionele rookmachine (Martin Magnum 650), extra microfoons, premium spreekgestoelten van acryl, modulaire podiumplatforms en extra uren van een technicus ter plaatse. Vertel ons je wensen bij het aanvragen van een offerte en we stellen de perfecte configuratie samen voor je evenement.'
 		}
 	}
 } satisfies DataCopy;

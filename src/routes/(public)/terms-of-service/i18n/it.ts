@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-25';
 
 const copy = {
 	seo: {
@@ -19,7 +19,7 @@ const copy = {
 	},
 	scope: {
 		title: 'Ambito del servizio e offerta',
-		p1: "Siamo specializzati nella fornitura di sistemi acustici PA attivi ad alta fedeltà, soluzioni di illuminazione professionale (barre luminose LED, un faro Fresnel a zoom e un kit di uplighting wireless), proiettori ad alta luminosità, microfoni (cablati, wireless, a collo d'oca), macchine del fumo e pedane da palco.",
+		p1: "Siamo specializzati nella fornitura di sistemi acustici PA attivi ad alta fedeltà, soluzioni di illuminazione professionale (barre luminose LED, un faro Fresnel a zoom e un kit di uplighting wireless), proiettori ad alta luminosità, microfoni (cablati, wireless, a collo d'oca), una macchina del fumo e pedane da palco.",
 		p2: "Molti dei nostri pacchetti, come il Wedding Pack e il MICE Pack, includono trasporto, installazione professionale, assistenza tecnica dal vivo in loco e smontaggio post evento per un'esperienza completamente senza stress."
 	},
 	limits: {

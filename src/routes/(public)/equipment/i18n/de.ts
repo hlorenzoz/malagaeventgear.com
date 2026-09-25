@@ -1,12 +1,12 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-25';
 
 export default {
 	seo: {
 		title: 'Ton- und Lichttechnik mieten in Malaga: Katalog | MEG',
 		description:
-			'Entdecken Sie unser hochwertiges Sortiment an professionellen Beschallungsanlagen, dynamischer Beleuchtung, HD-Beamern und Spezialeffekten. Erstklassige Technik in Malaga.'
+			'Entdecken Sie unser hochwertiges Sortiment an professionellen Beschallungsanlagen, dynamischer Beleuchtung, HD-Beamern und einer Nebelmaschine. Erstklassige Technik in Malaga.'
 	},
 	schema: {
 		listName: 'Mietkatalog für Veranstaltungstechnik | Malaga Event Gear'
@@ -16,7 +16,7 @@ export default {
 		titlePart1: 'Ihre Veranstaltung, aufgewertet durch',
 		titlePart2: 'erstklassige Technik',
 		subtitle:
-			'Entdecken Sie unseren Katalog mit hochwertigem Klang, spektakulärer Beleuchtung und Spezialeffekten. Bei uns finden Sie alles, um Ihre Feier unvergesslich zu machen.'
+			'Entdecken Sie unseren Katalog mit hochwertigem Klang, spektakulärer Beleuchtung und einer Nebelmaschine für Atmosphäre. Bei uns finden Sie alles, um Ihre Feier unvergesslich zu machen.'
 	},
 	featured: {
 		imageAlt: 'Aufbau des MICE Pack für Meetings',

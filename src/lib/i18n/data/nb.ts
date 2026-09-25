@@ -156,7 +156,7 @@ export default {
 		'what-is-meg': {
 			question: 'Hva er Malaga Event Gear (MEG), og hvilke tjenester tilbyr de?',
 			answer:
-				'Malaga Event Gear (MEG) er et selskap med base i Malaga, Spania, som spesialiserer seg på utleie av profesjonelt lyd-, lys- og arrangementsutstyr. Vi tilbyr lydanlegg, prosjektorer, lerret, scener, teknisk assistanse, røykmaskiner, lysløsninger og mikrofoner, samt spesialiserte tjenester som lydforsterkning ved livearrangementer, simultantolkning og interaktive avstemningssystemer, der de to siste formidles gjennom en underleverandør.'
+				'Malaga Event Gear (MEG) er et selskap med base i Malaga, Spania, som spesialiserer seg på utleie av profesjonelt lyd-, lys- og arrangementsutstyr. Vi tilbyr lydanlegg, prosjektorer, lerret, scener, teknisk assistanse, en røykmaskin, lysløsninger og mikrofoner, samt spesialiserte tjenester som lydforsterkning ved livearrangementer, simultantolkning og interaktive avstemningssystemer, der de to siste formidles gjennom en underleverandør.'
 		},
 		'event-types': {
 			question: 'Hvilke typer arrangementer kan Malaga Event Gear (MEG) betjene?',
@@ -211,7 +211,7 @@ export default {
 		'equipment-brands': {
 			question: 'Hvilke utstyrsmerker jobber dere med?',
 			answer:
-				'Vi bruker anerkjente profesjonelle merker fra arrangementsbransjen, blant annet Audix og HK Audio for lyd, Eurolite og ADJ for lys, og Martin for røykeffekter. Dette sikrer pålitelig lyd og lys i høy kvalitet ved hver booking.'
+				'Vi bruker anerkjente profesjonelle merker fra arrangementsbransjen, blant annet Audix og HK Audio for lyd, Eurolite og ADJ for lys, og Martin for røykmaskinen vår. Dette sikrer pålitelig lyd og lys i høy kvalitet ved hver booking.'
 		},
 		'delivery-only': {
 			question: 'Tilbyr dere selvhenting, eller er det kun levering?',
@@ -246,7 +246,7 @@ export default {
 		'customize-package': {
 			question: 'Kan jeg tilpasse eller utvide en pakke etter mine spesifikke behov?',
 			answer:
-				'Ja. Alle pakker kan utvides med tillegg som prosjektorer og lerret, profesjonelle røykmaskiner, ekstra mikrofoner, talerstoler i akryl i premiumklasse, modulære sceneplattformer og ekstra timer med tekniker på stedet. Fortell oss om behovene dine når du ber om et tilbud, så bygger vi den perfekte konfigurasjonen for arrangementet ditt.'
+				'Ja. Alle pakker kan utvides med tillegg som prosjektorer og lerret, en profesjonell røykmaskin av typen Martin Magnum 650, ekstra mikrofoner, talerstoler i akryl i premiumklasse, modulære sceneplattformer og ekstra timer med tekniker på stedet. Fortell oss om behovene dine når du ber om et tilbud, så bygger vi den perfekte konfigurasjonen for arrangementet ditt.'
 		}
 	}
 } satisfies DataCopy;

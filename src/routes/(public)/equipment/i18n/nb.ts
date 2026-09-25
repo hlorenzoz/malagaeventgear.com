@@ -1,12 +1,12 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-25';
 
 export default {
 	seo: {
 		title: 'Leie lyd- og lysutstyr i Malaga | MEG',
 		description:
-			'Utforsk vårt profesjonelle utvalg av lydanlegg, dynamisk lys, prosjektorer i høy oppløsning og spesialeffekter. Utstyr i toppklasse i Malaga.'
+			'Utforsk vårt profesjonelle utvalg av lydanlegg, dynamisk lys, prosjektorer i høy oppløsning og en røykmaskin. Utstyr i toppklasse i Malaga.'
 	},
 	schema: {
 		listName: 'Katalog for utleie av lyd- og bildeutstyr | Malaga Event Gear'
@@ -16,7 +16,7 @@ export default {
 		titlePart1: 'Løft arrangementet ditt med',
 		titlePart2: 'utstyr i toppklasse',
 		subtitle:
-			'Utforsk vår katalog med lyd i høy kvalitet, spektakulært lys og spesialeffekter. Vi har de perfekte verktøyene for å gjøre feiringen din uforglemmelig.'
+			'Utforsk vår katalog med lyd i høy kvalitet, spektakulært lys og en røykmaskin for stemningen. Vi har de perfekte verktøyene for å gjøre feiringen din uforglemmelig.'
 	},
 	featured: {
 		imageAlt: 'MICE-oppsett med lyd- og bildeutstyr for møter',

@@ -7,6 +7,11 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (effects-claims)
+- **Efectos especiales fieles al inventario en todo el sitio** (confirmado por el negocio el 2026-09-25): el unico equipo de efectos es una maquina de humo Martin Magnum 650. Sin hazers, niebla baja, canones de confeti ni pirotecnia, y en la Billie Jean King Cup 2024 MEG puso solo la luz y el sonido. Corregido en el pilar de alquiler de equipo audiovisual, el post de eventos deportivos, el manifest de imagenes, la home, /equipment/, tres respuestas de la FAQ y los terminos, en los 13 idiomas, con sus fechas de frescura.
+- **Sin control DMX**: la iluminacion real se maneja con pedal y a mano. Corregido en los posts de soporte tecnico y de cenas de gala.
+- **Guard nuevo**: `src/lib/data/no-false-effects-claims.test.ts` falla si la copia inglesa vuelve a afirmar maquinas de humo en plural, hazers, canones de confeti o DMX, salvo en una negacion honesta.
+
 ### Changed (llms-txt)
 - **`/llms.txt` corregido y ampliado** (todo sale de su fuente unica): saca afirmaciones falsas (proyectores "HD", una FAQ de "deposits, cancellations" que no existe, "Meet the Team" como solo tecnicos), agrega el soporte tecnico 24/7 al horario, los extras de cada paquete con su precio (`PRICE_POINTS`), las 5 guias pilar del blog, las 19 FAQ en ingles (incluye lo que MEG no ofrece y lo que subcontrata) y la valoracion real de Google (`reviews.json`, con fecha). Sin palabras unidas con guion ni punto y coma (regla 12) y con `max-age=0`, como los sitemaps. `faq.ts`: "pre-designed" pasa a "predesigned".
 

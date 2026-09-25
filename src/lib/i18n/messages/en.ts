@@ -96,8 +96,8 @@ const en = {
 		lightText: 'Dynamic lighting solutions to create the perfect atmosphere in your venue space.',
 		visualTitle: 'Projectors & Screens',
 		visualText: 'Sharp, high definition visuals for presentations with high visual impact.',
-		fxTitle: 'Special Effects & Fog Machines',
-		fxText: 'Create a stunning atmosphere at your event with our professional grade special effects and fog machines.',
+		fxTitle: 'Smoke Machine',
+		fxText: 'Add atmosphere to your dance floor or stage with our professional Martin Magnum 650 smoke machine.',
 		bookEquipment: 'Book Packages'
 	},
 	// Pricing

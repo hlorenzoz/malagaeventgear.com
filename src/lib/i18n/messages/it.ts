@@ -102,9 +102,9 @@ const t = {
 			"Soluzioni di illuminazione dinamica per creare l'atmosfera perfetta nella tua location.",
 		visualTitle: 'Proiettori e schermi',
 		visualText: 'Immagini nitide e ad alta definizione per presentazioni dal forte impatto visivo.',
-		fxTitle: 'Effetti speciali e macchine del fumo',
+		fxTitle: 'Macchina del fumo',
 		fxText:
-			"Crea un'atmosfera spettacolare al tuo evento con i nostri effetti speciali e macchine del fumo di livello professionale.",
+			'Aggiungi atmosfera alla tua pista da ballo o al tuo palco con la nostra macchina del fumo professionale Martin Magnum 650.',
 		bookEquipment: 'Prenota un pacchetto'
 	},
 	// Pricing

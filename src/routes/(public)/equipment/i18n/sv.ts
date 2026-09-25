@@ -1,12 +1,12 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-25';
 
 export default {
 	seo: {
 		title: 'Hyr ljud- och ljusutrustning i Malaga | Katalog | MEG',
 		description:
-			'Utforska vårt högkvalitativa sortiment av professionella ljudsystem, dynamisk belysning, HD-projektorer och specialeffekter. Förstklassig utrustning i Malaga.'
+			'Utforska vårt högkvalitativa sortiment av professionella ljudsystem, dynamisk belysning, HD-projektorer och en rökmaskin. Förstklassig utrustning i Malaga.'
 	},
 	schema: {
 		listName: 'Katalog för uthyrning av ljud- och bildutrustning | Malaga Event Gear'
@@ -16,7 +16,7 @@ export default {
 		titlePart1: 'Lyft ditt evenemang med',
 		titlePart2: 'förstklassig utrustning',
 		subtitle:
-			'Utforska vår katalog med högkvalitativt ljud, spektakulär belysning och specialeffekter. Vi har de perfekta verktygen för att göra ditt firande oförglömligt.'
+			'Utforska vår katalog med högkvalitativt ljud, spektakulär belysning och en rökmaskin för atmosfär. Vi har de perfekta verktygen för att göra ditt firande oförglömligt.'
 	},
 	featured: {
 		imageAlt: 'MICE-paket med ljud- och bildutrustning för möten',

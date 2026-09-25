@@ -90,8 +90,8 @@ const t = {
 		lightText: '灵活多变的灯光方案，为您的活动场地营造完美氛围。',
 		visualTitle: '投影仪与屏幕',
 		visualText: '清晰高清的视觉画面，为演示活动带来震撼视觉效果。',
-		fxTitle: '特效与烟雾机',
-		fxText: '借助我们专业级的特效与烟雾机设备，为您的活动打造惊艳氛围。',
+		fxTitle: '烟雾机',
+		fxText: '使用我们专业的Martin Magnum 650烟雾机，为您的舞池或舞台增添氛围。',
 		bookEquipment: '预订套餐'
 	},
 	// Pricing

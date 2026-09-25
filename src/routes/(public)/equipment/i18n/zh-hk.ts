@@ -1,12 +1,12 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-25';
 
 export default {
 	seo: {
 		title: '頂級視聽器材租借目錄 | MEG',
 		description:
-			'瀏覽我們高質素的專業音響系統、動感燈光、高清投影機及特效器材庫存。馬拉加頂級器材首選。'
+			'瀏覽我們高質素的器材庫存：專業音響系統、動感燈光、高清投影機及一部煙霧機。馬拉加頂級器材首選。'
 	},
 	schema: {
 		listName: '視聽器材租借目錄 | Malaga Event Gear'
@@ -16,7 +16,7 @@ export default {
 		titlePart1: '以頂級器材',
 		titlePart2: '提升您的活動水準',
 		subtitle:
-			'瀏覽我們的高保真音響、璀璨燈光及特效目錄。我們擁有最適合的器材，讓您的慶典難以忘懷。'
+			'瀏覽我們的高保真音響及璀璨燈光目錄，另有一部營造氣氛的煙霧機。我們擁有最適合的器材，讓您的慶典難以忘懷。'
 	},
 	featured: {
 		imageAlt: 'MICE視聽套餐會議搭建',

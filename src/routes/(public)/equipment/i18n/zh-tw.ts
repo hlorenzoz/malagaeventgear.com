@@ -1,12 +1,12 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-25';
 
 export default {
 	seo: {
 		title: '馬拉加投影機螢幕燈光音響出租目錄 | MEG',
 		description:
-			'探索我們的高品質設備庫存：專業音響系統、動態燈光、高畫質投影機與特殊效果，打造馬拉加投影機、螢幕、燈光與音響出租的頂級設備目錄。'
+			'探索我們的高品質設備庫存：專業音響系統、動態燈光、高畫質投影機與一台煙霧機，打造馬拉加投影機、螢幕、燈光與音響出租的頂級設備目錄。'
 	},
 	schema: {
 		listName: '影音設備租賃目錄 | Malaga Event Gear'
@@ -16,7 +16,7 @@ export default {
 		titlePart1: '運用頂級設備',
 		titlePart2: '提升您的活動',
 		subtitle:
-			'探索我們高保真音響、絢麗燈光與特殊效果的完整目錄。我們備有完美的工具，讓您的慶祝活動令人難忘。'
+			'探索我們高保真音響與絢麗燈光的完整目錄，另有一台營造氛圍的煙霧機。我們備有完美的工具，讓您的慶祝活動令人難忘。'
 	},
 	featured: {
 		imageAlt: 'MICE影音方案的會議搭建現場',

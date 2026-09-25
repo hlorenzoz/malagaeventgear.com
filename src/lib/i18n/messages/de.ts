@@ -89,8 +89,8 @@ const t = {
 		lightText: 'Dynamische Beleuchtungslösungen für die perfekte Atmosphäre an Ihrem Veranstaltungsort.',
 		visualTitle: 'Beamer & Leinwände',
 		visualText: 'Scharfe HD-Bilder für Präsentationen mit hoher visueller Wirkung.',
-		fxTitle: 'Spezialeffekte & Nebelmaschinen',
-		fxText: 'Schaffen Sie mit unseren professionellen Spezialeffekten und Nebelmaschinen eine beeindruckende Atmosphäre bei Ihrer Veranstaltung.',
+		fxTitle: 'Nebelmaschine',
+		fxText: 'Sorgen Sie mit unserer professionellen Nebelmaschine Martin Magnum 650 für Atmosphäre auf Ihrer Tanzfläche oder Bühne.',
 		bookEquipment: 'Pakete buchen'
 	},
 	pricing: {

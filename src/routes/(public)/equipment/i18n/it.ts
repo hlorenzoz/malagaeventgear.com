@@ -1,12 +1,12 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-25';
 
 const copy = {
 	seo: {
 		title: 'Catalogo noleggio attrezzature audiovisive premium | MEG',
 		description:
-			'Scopri il nostro inventario di alta qualità di impianti audio professionali, illuminazione dinamica, proiettori ad alta definizione ed effetti speciali. Attrezzature premium a Malaga.'
+			'Scopri il nostro inventario di alta qualità di impianti audio professionali, illuminazione dinamica, proiettori ad alta definizione e una macchina del fumo. Attrezzature premium a Malaga.'
 	},
 	schema: {
 		listName: 'Catalogo noleggio attrezzature audiovisive - Malaga Event Gear'
@@ -16,7 +16,7 @@ const copy = {
 		titlePart1: 'Valorizza il tuo evento con',
 		titlePart2: 'attrezzature premium',
 		subtitle:
-			'Scopri il nostro catalogo di audio ad alta fedeltà, illuminazione spettacolare ed effetti speciali. Abbiamo tutto il necessario per rendere indimenticabile la tua celebrazione.'
+			'Scopri il nostro catalogo di audio ad alta fedeltà e illuminazione spettacolare, oltre alla nostra macchina del fumo per creare atmosfera. Abbiamo tutto il necessario per rendere indimenticabile la tua celebrazione.'
 	},
 	featured: {
 		imageAlt: 'Allestimento audiovisivo del MICE Pack per riunioni',

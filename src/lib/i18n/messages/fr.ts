@@ -100,9 +100,9 @@ const t = {
 		lightText: "Des solutions d'éclairage dynamiques pour créer l'ambiance parfaite dans votre lieu de réception.",
 		visualTitle: 'Vidéoprojecteurs et écrans',
 		visualText: 'Des visuels nets et haute définition pour des présentations à fort impact visuel.',
-		fxTitle: 'Effets spéciaux et machines à fumée',
+		fxTitle: 'Machine à fumée',
 		fxText:
-			'Créez une ambiance spectaculaire lors de votre événement grâce à nos effets spéciaux et machines à fumée de qualité professionnelle.',
+			"Ajoutez de l'ambiance à votre piste de danse ou à votre scène avec notre machine à fumée professionnelle Martin Magnum 650.",
 		bookEquipment: 'Réserver un forfait'
 	},
 	// Pricing

@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-25';
 
 const copy = {
 	seo: {
@@ -19,7 +19,7 @@ const copy = {
 	},
 	scope: {
 		title: 'Omvang van de dienstverlening',
-		p1: 'We zijn gespecialiseerd in actieve PA-systemen met hifigeluid, professionele verlichtingsoplossingen (LED-lichtbalken, een fresnelspot met zoom en een draadloze set voor uplighting), beamers met hoge lichtopbrengst, microfoons (bekabeld, draadloos, zwanenhals), rookmachines en podiumplatforms.',
+		p1: 'We zijn gespecialiseerd in actieve PA-systemen met hifigeluid, professionele verlichtingsoplossingen (LED-lichtbalken, een fresnelspot met zoom en een draadloze set voor uplighting), beamers met hoge lichtopbrengst, microfoons (bekabeld, draadloos, zwanenhals), een rookmachine en podiumplatforms.',
 		p2: 'Veel van onze pakketten, zoals het Wedding Pack en het MICE Pack, omvatten vervoer, professionele installatie, live technische ondersteuning ter plaatse en afbraak na afloop van het evenement, voor een volledig zorgeloze ervaring.'
 	},
 	limits: {

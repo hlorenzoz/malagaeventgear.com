@@ -90,8 +90,8 @@ const t = {
 		lightText: 'Dynamiska belysningslösningar som skapar den perfekta stämningen i din lokal.',
 		visualTitle: 'Projektorer och dukar',
 		visualText: 'Skarpa bilder i hög definition för presentationer med stort visuellt intryck.',
-		fxTitle: 'Specialeffekter och rökmaskiner',
-		fxText: 'Skapa en fantastisk stämning på ditt evenemang med våra professionella specialeffekter och rökmaskiner.',
+		fxTitle: 'Rökmaskin',
+		fxText: 'Ge dansgolvet eller scenen mer atmosfär med vår professionella rökmaskin Martin Magnum 650.',
 		bookEquipment: 'Boka paket'
 	},
 	// Pricing

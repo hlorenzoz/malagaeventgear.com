@@ -90,8 +90,8 @@ const t = {
 		lightText: '多變的燈光方案，為您的活動場地營造完美氣氛。',
 		visualTitle: '投影機與熒幕',
 		visualText: '清晰高清視覺效果，為簡報活動帶來強烈視覺衝擊。',
-		fxTitle: '特效與煙霧機',
-		fxText: '透過我們專業級的特效與煙霧機，為您的活動打造驚艷氣氛。',
+		fxTitle: '煙霧機',
+		fxText: '使用我們專業的Martin Magnum 650煙霧機，為您的舞池或舞台增添氣氛。',
 		bookEquipment: '預約套餐'
 	},
 	// Pricing
