@@ -75,19 +75,19 @@ The [Wedding Pack](/packages/wedding/) costs 650 euros, ex VAT, and includes:
 
 See exact, live pricing and the full breakdown on our [packages page](/packages/).
 
-## Real Weddings We've Delivered
+## Ceremony Settings We Plan Sound For
 
 ![A vibrant tropical beach wedding ceremony with pink rose petals and ocean views.](https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding-300x224.webp)
 
-A beach ceremony aisle with the ocean directly behind the seating, the exact setting where wind and waves make speaker placement matter most.
+An illustrative beach ceremony, not a Malaga Event Gear event: the kind of setting where wind and waves make speaker placement matter most.
 
 ![A beautiful beach wedding ceremony setup with a red carpet aisle and floral arch.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-An aisle set for the processional, with the PA and officiant microphone already placed and leveled before guests take their seats.
+An illustrative ceremony aisle, not one of our events. On a real booking, this is the point where our technician has the PA and the officiant's microphone placed and leveled before guests take their seats.
 
 ![A close up of a bride holding a pastel colored wedding bouquet.](https://cdn.malagaeventgear.com/blog/1637/bride_holding_wedding_bouquet-300x224.webp)
 
-The moment before vows begin, the point in the day our ceremony sound setup is tuned specifically for.
+An illustrative photo of the moment before the vows begin, the point in the day our ceremony sound setup is tuned for.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1630/', '/1636/', '/1637/'])} speed="normal" direction="left" deferMount={false} />
