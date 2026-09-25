@@ -1,5 +1,7 @@
 import { test, expect } from '@playwright/test';
-import { packages } from '../src/lib/data/packages';
+import { packages, withPrices } from '../src/lib/data/packages';
+import { faqs } from '../src/lib/data/faq';
+import reviews from '../src/lib/data/reviews.json' with { type: 'json' };
 import { siteConfig } from '../src/lib/data/site';
 
 test.describe('llms.txt (llmstxt.org standard) E2E Tests', () => {
@@ -26,6 +28,8 @@ test.describe('llms.txt (llmstxt.org standard) E2E Tests', () => {
 			'## Docs',
 			'## Packages',
 			'## Blog',
+			'## Guides',
+			'## Frequently Asked Questions',
 			'## Key Facts',
 			'## Contact',
 			'## Legal',
@@ -64,6 +68,56 @@ test.describe('llms.txt (llmstxt.org standard) E2E Tests', () => {
 		for (const url of categoryUrls) {
 			expect(llms).toContain(url);
 		}
+	});
+
+	test('should answer every FAQ from faq.ts, with catalog tokens rendered', async ({ request }) => {
+		const text = await (await request.get(`${baseUrl}/llms.txt`)).text();
+		for (const item of faqs) {
+			expect(text).toContain(item.question);
+			expect(text).toContain(withPrices(item.answer, 'en'));
+		}
+		// A raw token would be quoted to customers as is.
+		expect(text).not.toMatch(/\{price:|\{vat\}|\{clients\}|\{packagesWithPrices\}/);
+	});
+
+	test('should price every optional extra from PRICE_POINTS', async ({ request }) => {
+		const text = await (await request.get(`${baseUrl}/llms.txt`)).text();
+		for (const pkg of packages) {
+			for (const extra of pkg.optional ?? []) expect(text.toLowerCase()).toContain(withPrices(extra, 'en').toLowerCase());
+		}
+	});
+
+	test('should list the five pillar guides of the blog', async ({ request }) => {
+		const text = await (await request.get(`${baseUrl}/llms.txt`)).text();
+		for (const slug of [
+			'audio-visual-rental',
+			'wedding-rentals',
+			'audiovisual-equipment-rental-service',
+			'event-technology-service',
+			'stage-lighting-rental'
+		]) {
+			expect(text).toContain(`${siteConfig.url}/blog/${slug}/`);
+		}
+	});
+
+	test('should state the real Google rating and review count', async ({ request }) => {
+		const text = await (await request.get(`${baseUrl}/llms.txt`)).text();
+		expect(text).toContain(`${reviews.meta.averageRating} out of 5 from ${reviews.meta.totalCount} Google reviews`);
+	});
+
+	test('should not claim what MEG does not offer or publish', async ({ request }) => {
+		const text = await (await request.get(`${baseUrl}/llms.txt`)).text();
+		// No HD or laser projector, no deposits or cancellations FAQ (CLAUDE.md, Honestidad).
+		expect(text).not.toMatch(/HD projector|laser projector|deposits|cancellations/i);
+		expect(text).toContain('24/7');
+	});
+
+	test('should follow CLAUDE.md rule 12 punctuation', async ({ request }) => {
+		const text = await (await request.get(`${baseUrl}/llms.txt`)).text();
+		expect(text).not.toMatch(/[\u2013\u2014\u2018\u2019\u201C\u201D\u2026\u00A0]/);
+		expect(text).not.toMatch(/\w; \w/);
+		// No English style hyphenated compounds in the prose written by the endpoint.
+		expect(text).not.toMatch(/\b(all-inclusive|delivery-only|deep-dives|hands-on|write-ups|Wedding-specific|delivery-and-setup|Machine-readable|Human-readable)\b/i);
 	});
 
 	test('should expose NAP and contact data consistent with siteConfig', async ({ request }) => {

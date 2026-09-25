@@ -7,6 +7,9 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (llms-txt)
+- **`/llms.txt` corregido y ampliado** (todo sale de su fuente unica): saca afirmaciones falsas (proyectores "HD", una FAQ de "deposits, cancellations" que no existe, "Meet the Team" como solo tecnicos), agrega el soporte tecnico 24/7 al horario, los extras de cada paquete con su precio (`PRICE_POINTS`), las 5 guias pilar del blog, las 19 FAQ en ingles (incluye lo que MEG no ofrece y lo que subcontrata) y la valoracion real de Google (`reviews.json`, con fecha). Sin palabras unidas con guion ni punto y coma (regla 12) y con `max-age=0`, como los sitemaps. `faq.ts`: "pre-designed" pasa a "predesigned".
+
 ### Fixed (prerendered-sitemaps) - sitemaps servidos desde la cache del Worker
 - **Causa**: los sitemaps XML se generaban en el Worker en cada request con `Cache-Control: public, max-age=3600, s-maxage=86400`. El `_worker.js` del adapter de Cloudflare (worktop) busca cada request en `caches.default` ANTES de rutear y guarda toda respuesta cacheable, y un deploy no purga esa cache. Resultado: hasta 24 h despues de cada push, un sitemap podia seguir listando las URLs del build anterior. En `bun run preview` la cache persiste en disco (`.wrangler/state/v3/cache`): `/page-sitemap-de.xml` y `/sitemap_index.xml` se servian con la copia del 2026-09-24 (17 URLs sin `/de/blog/` ni `/de/blog/kategorien/`, y un indice con 6 sitemaps).
 - **Fix**: los 9 endpoints de sitemap se prerenderizan (`export const prerender = true`) y Workers Assets los sirve como archivos del build, como cada pagina. Los de idioma construyen solo los idiomas que publican ese tipo (`entries` desde `localesWithSitemap`), y `sitemap_index.xml` los lista desde la misma fuente (`localeSitemapFiles`, `src/lib/utils/locale-sitemaps.ts`). `SITEMAP_HEADERS` pasa a `public, max-age=0, must-revalidate`, sin `s-maxage`.

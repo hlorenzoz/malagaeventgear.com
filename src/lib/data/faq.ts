@@ -85,7 +85,7 @@ const faqData: FaqItem[] = [
 		category: 'booking',
 		onHomepage: true,
 		question: 'What are some of the popular packages offered by Malaga Event Gear?',
-		answer: `Our most popular pre-designed packages include the ${packagesWithPrices('en')}, each with different equipment and features. Visit our Pricing page for the full breakdown of what each one includes.`
+		answer: `Our most popular predesigned packages include the ${packagesWithPrices('en')}, each with different equipment and features. Visit our Pricing page for the full breakdown of what each one includes.`
 	},
 	{
 		id: 'language-hours',
