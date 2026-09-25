@@ -47,6 +47,11 @@ export default {
 			slug: 'luci-e-palco-per-eventi',
 			keyword: 'luci e palco per eventi Malaga',
 			status: 'propuesta'
+		},
+		'audiovisual-equipment-rental-service': {
+			slug: 'servizio-noleggio-audio-video',
+			keyword: 'servizio di noleggio audio video a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

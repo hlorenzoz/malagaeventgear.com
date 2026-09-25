@@ -51,6 +51,11 @@ export default {
 			slug: 'licht-und-buehnentechnik',
 			keyword: 'Licht- und Bühnentechnik Malaga',
 			status: 'propuesta'
+		},
+		'audiovisual-equipment-rental-service': {
+			slug: 'av-technik-verleih',
+			keyword: 'AV-Technik-Verleih Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

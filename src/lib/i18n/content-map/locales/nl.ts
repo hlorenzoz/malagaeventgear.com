@@ -51,6 +51,11 @@ export default {
 			slug: 'licht-en-podiumtechniek',
 			keyword: 'licht- en podiumtechniek Malaga',
 			status: 'propuesta'
+		},
+		'audiovisual-equipment-rental-service': {
+			slug: 'verhuur-audiovisuele-apparatuur',
+			keyword: 'verhuur audiovisuele apparatuur Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

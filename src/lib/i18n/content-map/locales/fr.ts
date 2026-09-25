@@ -51,6 +51,11 @@ export default {
 			slug: 'prestataire-technique-evenementiel',
 			keyword: 'prestataire technique événementiel Malaga',
 			status: 'propuesta'
+		},
+		'audiovisual-equipment-rental-service': {
+			slug: 'loueur-materiel-audiovisuel',
+			keyword: 'loueur de matériel audiovisuel à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

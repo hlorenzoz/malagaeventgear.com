@@ -83,6 +83,11 @@ export default {
 			slug: 'iluminacao-e-palco-para-eventos',
 			keyword: 'iluminação e palco para eventos Málaga',
 			status: 'propuesta'
+		},
+		'audiovisual-equipment-rental-service': {
+			slug: 'locacao-de-equipamentos-audiovisuais',
+			keyword: 'locação de equipamentos audiovisuais em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

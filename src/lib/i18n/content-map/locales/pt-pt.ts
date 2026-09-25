@@ -83,6 +83,11 @@ export default {
 			slug: 'servicos-tecnicos-para-eventos',
 			keyword: 'serviços técnicos para eventos Málaga',
 			status: 'propuesta'
+		},
+		'audiovisual-equipment-rental-service': {
+			slug: 'aluguer-de-material-audiovisual',
+			keyword: 'aluguer de material audiovisual em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

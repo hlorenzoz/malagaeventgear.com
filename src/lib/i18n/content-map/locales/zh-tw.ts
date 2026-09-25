@@ -39,6 +39,11 @@ export default {
 		weddings: { slug: '婚禮', name: '婚禮' }
 	},
 	posts: {
-		'event-technology-service': { slug: '活動燈光舞台架設', keyword: '馬拉加 活動燈光舞台架設', status: 'propuesta' }
+		'event-technology-service': { slug: '活動燈光舞台架設', keyword: '馬拉加 活動燈光舞台架設', status: 'propuesta' },
+		'audiovisual-equipment-rental-service': {
+			slug: '影音器材租借',
+			keyword: '馬拉加 影音器材租借',
+			status: 'propuesta'
+		}
 	}
 } satisfies LocaleContentMap;

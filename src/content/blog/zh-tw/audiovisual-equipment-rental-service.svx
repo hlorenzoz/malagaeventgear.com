@@ -1,0 +1,165 @@
+---
+title: "西班牙馬拉加影音器材租借服務"
+description: "馬拉加影音器材租借服務：在我們的核心影音方案之外，還有一層專業設備，包括5000流明投影機、RGBW燈光、無線麥克風與特效設備。"
+excerpt: "我們影音型錄中的專業設備層：5000流明投影機、專業舞台燈光與上照燈、無線麥克風、60吋LED顯示螢幕與一台煙霧機，並誠實列出我們沒有的設備。"
+publishDate: "2026-09-25"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+正在找馬拉加的影音器材租借服務嗎？您可能已經看過我們的[影音租賃](/blog/audio-visual-rental/)核心文章，因為這兩個說法描述的是同一項核心服務。本頁存在的理由更具體：把我們型錄中專業與小眾的設備層集中在一處介紹，包括5000流明投影機等級、RGBW聚光燈、專業舞台燈光與上照燈、無線麥克風與鵝頸麥克風系統、60吋LED顯示螢幕，以及我們的煙霧機，同時直接說明哪些不在範圍之內。
+
+Malaga Event Gear（MEG）親自配送、安裝並測試這裡的每一件設備，服務範圍涵蓋馬拉加及整個太陽海岸，背後是自1996年累積至今的經驗。下文列出的都不是願望清單。每一項要不是方案中真實包含、公布了歐元價格的設備，就是一句誠實的「不在我們的型錄中」。
+
+## 概述
+
+---
+
+Malaga Event Gear為馬拉加及整個太陽海岸的企業活動、新品發表會與慶典，提供其影音型錄中專業與小眾的一端：5000流明投影機等級、RGBW聚光燈、專業舞台燈光與上照燈、無線麥克風與鵝頸麥克風系統、60吋LED顯示螢幕，以及一台煙霧機。
+
+本頁整理這一設備層，並連結到我們專門的[音響系統](/blog/sound-system-rental/)、[電視螢幕](/blog/tv-screen-rental/)與[投影機](/blog/projector-rental/)指南，每項產品的完整價格與方案細節都在那裡。[聯絡我們](/contact/)，為您的活動找到合適的方案。
+
+## 重點
+
+---
+
+-   唯一真正的高亮度等級：[Product Presentation Pack](/packages/product-presentation/)中的5000流明投影機，是我們公布的最亮投影機。它不是雷射投影機，我們也不公布它的解析度。
+
+-   Audix無線麥克風與配備鵝頸麥克風的專業講台，根據我們自己的設備型錄，用於[Wedding Pack](/packages/wedding/)、[Basic MICE Pack](/packages/basic-mice/)與[MICE Pack](/packages/mice/)。
+
+-   [Eco Pack](/packages/eco/)中的RGBW LED聚光燈，此外我們的燈光設備清單中還有一款精巧的多頭LED燈排與一款變焦Fresnel聚光燈，用於較大型的企業活動與專業布置。
+
+-   一套電池供電的無線上照燈組（6盞燈具），與我們的聚光燈分開出租，用於從地面為牆面或建築結構打上色彩。
+
+-   一台煙霧機，型號為Martin Magnum 650，以[Eco Pack](/packages/eco/)與[Wedding Pack](/packages/wedding/)的€20加購項目公布價格。這是我們唯一的特效設備：沒有薄霧機，沒有低煙機，也沒有紙花噴射機。
+
+-   下文有一份直截了當的「我們不提供的服務」清單，讓您在打電話之前就知道口譯設備、電視牆或背板是否在服務範圍內。
+
+## 為什麼有這一頁：專業設備與核心影音方案
+
+搜尋「audiovisual equipment rental service」，得到的搜尋意圖與「audio visual rental」相同。我們不會假裝兩者不同。我們的[影音租賃](/blog/audio-visual-rental/)核心文章涵蓋核心活動方案，從[Eco Pack](/packages/eco/)到[MICE Pack](/packages/mice/)，如果您只是需要為婚禮或會議準備音響、螢幕與燈光，那裡就是合適的起點。
+
+本頁回答的是另一個問題：我們設備清單中的哪些設備屬於專業的一端，例如5000流明等級而不是標準的3000流明投影機，多頭燈排或上照燈組而不是一般聚光燈，以及讓這些光束清楚顯現的煙霧機。另外還有哪些設備確實不在我們的型錄中，即使在馬拉加一般搜尋「AV rental」時，它們會出現在競爭對手的頁面上。如果您已經確定需要婚禮音響系統或會議螢幕，我們的[音響系統租賃](/blog/sound-system-rental/)與[電視螢幕租賃](/blog/tv-screen-rental/)指南可以直接解答。如果您想弄清楚我們是否有更專業的設備層，或者口譯設備、電視牆之類的需求在我們這裡是否可行，請繼續閱讀。
+
+<InlineCTA />
+
+## 5000流明投影機等級
+
+我們最亮的投影機是一台5000流明的設備，在[Product Presentation Pack](/packages/product-presentation/)中搭配一面附穩固腳架的前投式投影幕提供，價格為€310（未稅）。它不是雷射投影機，我們也不公布它的解析度。它適合燈光始終開著的空間，例如新車發表期間的經銷商展示間，或攝影師需要工作光線的記者會，而不是關了燈的會議廳。
+
+我們曾在[Bmotion於貝納阿維斯舉辦的企業專案](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/)中使用這個等級。該專案為期兩天，在場地本身的企業照明下，投影機依然讓畫面保持明亮清晰。想了解與我們標準3000流明等級的完整流明比較，以及我們在投影方面不提供的內容，請參閱我們的[投影機租賃](/blog/projector-rental/)指南。
+
+## RGBW聚光燈、專業舞台燈光與上照燈
+
+燈光方面有三款真實的產品。[Eco Pack](/packages/eco/)包含2組RGBW LED聚光燈燈排，這是可變色的重點照明燈具，由您自行操作，公布價格為€290（未稅），最多適用50位賓客。除了這些聚光燈，我們的設備型錄中還有一款附腳踏控制的精巧4頭LED燈排，以及一款變焦Fresnel聚光燈，適用於較大型的企業舞台與專業布置。這兩款燈具都不像Eco Pack的燈排那樣，設有固定的方案項目或單獨公布的價格：請[聯絡我們](/contact/)，告訴我們活動的規模，我們會確認可行的做法。
+
+上照燈與上述所有燈具都是分開的：一套電池供電的無線上照燈組，共6盞燈具，用於從地面為牆面或建築結構打上色彩，而不是照亮一個固定的點。它不包含在任何方案中，也沒有公布單獨價格，所以請[聯絡我們](/contact/)，告訴我們場地與賓客人數，以便報價。請參閱我們的[舞台上照燈](/blog/stage-uplighting/)指南，了解它在場地中能涵蓋多少範圍的如實說明，以及與這些RGBW聚光燈的完整比較。想了解婚禮專用燈光，包括Wedding Pack中的星星燈，請參閱我們的[婚禮燈光創意](/blog/lighting-ideas-for-wedding-rentals/)指南。
+
+## 無線麥克風與鵝頸麥克風系統
+
+我們的麥克風設備以Audix無線系統為主，並搭配配備鵝頸麥克風的專業講台，用於講台致詞。具體組合取決於方案：[Basic MICE Pack](/packages/basic-mice/)配一支鵝頸麥克風，[Wedding Pack](/packages/wedding/)配無線手持麥克風，[MICE Pack](/packages/mice/)則同時配一支鵝頸麥克風與一支無線手持麥克風。我們也有無線領夾式麥克風與頭戴式麥克風，與上述方案內容分開出租，不屬於任何固定的方案項目：如果您的活動需要為主持人或表演者準備可以空出雙手的麥克風，請[聯絡我們](/contact/)。領夾式與頭戴式麥克風的完整比較與如實報價，請參閱我們的[頭戴式與領夾式麥克風租賃](/blog/headset-lavalier-microphone-rental/)指南。各方案的詳細配置、技術人員工時與歐元價格，請參閱我們的[音響系統租賃](/blog/sound-system-rental/)指南。
+
+## 60吋LED顯示螢幕
+
+我們公布的唯一一款大尺寸顯示器，是一台附設計款腳架的高階60吋高畫質LED顯示螢幕，包含在[MICE Pack](/packages/mice/)中，價格為€490（未稅），最多適用120位賓客。它是自發光的螢幕，而不是投影畫面，因此在明亮的大廳、展覽攤位或晚宴廳中依然清楚易讀。完整價格、尺寸，以及「這和電漿電視是一樣的嗎」的解答，都在我們的[電視螢幕租賃](/blog/tv-screen-rental/)指南中。
+
+## 特效：一台煙霧機
+
+我們的特效設備只有一台煙霧機，型號為Martin Magnum 650，以[Eco Pack](/packages/eco/)與[Wedding Pack](/packages/wedding/)的€20加購項目公布價格。它噴出的白色煙霧會上升並擴散，正是它讓我們燈光的光束清楚可見。我們沒有薄霧機、低煙機，也沒有紙花噴射機。煙霧、薄霧與低煙是三種不同的產品：我們的[煙霧機租賃](/blog/smoke-machine-rental/#fog-haze-and-low-lying-fog-are-three-different-products)指南說明了三者的差異，以及預訂前需要與場地確認的煙霧偵測器問題。
+
+在Billie Jean King Cup 2024的頒獎典禮上，我們提供了燈光與音響，這是我們作品集中規模較大的慶典布置之一。
+
+![Billie Jean King Cup 2024頒獎典禮上，冠軍隊伍在球場上慶祝，從室內場館的看台拍攝。](https://cdn.malagaeventgear.com/blog/1192/billie-jean-king-cup-2024-celebration-lights-sound-600x450.avif "Billie Jean King Cup 2024頒獎典禮，燈光與音響由Malaga Event Gear提供。")
+
+Billie Jean King Cup 2024頒獎典禮，我們為其提供了燈光與音響系統。完整布置請參閱我們的[運動賽事影音租賃](/blog/audio-visual-rental-for-sports-events/)指南。
+
+## 企業活動模組化舞台
+
+舞台是真實且明碼標價的加購項目，而不是獨立的桁架或布幔系統。[MICE Pack](/packages/mice/)提供模組化舞台平台，在一些搜尋中也被稱為「stage riser」「deck」或「podium」，每平方公尺€35，依您的場地大小搭建，而不是以固定單位出售。我們曾在[Bmotion於馬貝拉舉辦的企業專案](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/)中部署過完全相同的做法。該專案為期兩天，模組化平台與舞台結構打造出國際企業客戶所期待的高台展示區。
+
+我們不單獨出租桁架，也不提供管架布幔或背板架。請參閱下文的[我們不提供的服務](#我們不提供的服務)。
+
+## 我們不提供的服務
+
+在馬拉加一般搜尋「AV equipment rental」，會出現其他在地供應商的服務，而這些服務不在我們的型錄中。與其避而不談，以下是誠實的清單，每一項都已在我們已發布的頁面上說明：
+
+-   **同步口譯或翻譯設備**。我們自己沒有這類設備。在地對此確實有需求，因此我們可以透過外包合作夥伴為您的活動安排，而不是拒絕您的需求：請[聯絡我們](/contact/)，告訴我們語言組合與賓客人數。
+
+-   **電視牆、LED大螢幕或光雕投影**。我們的大尺寸顯示器是一台60吋的單一平面顯示器，而不是模組化拼接電視牆，我們的投影架設也不包含建築外牆投影或戶外光雕投影。請參閱我們的[電視螢幕租賃](/blog/tv-screen-rental/)與[投影機租賃](/blog/projector-rental/)指南。
+
+-   **互動投票或觀眾回饋系統**。我們自己沒有這類設備，但可以透過外包合作夥伴為大會或企業活動安排，與上面的同步口譯服務相同：請[聯絡我們](/contact/)並告知您的需求。
+
+-   **無線電對講機、靜音派對設備、攝影機搖臂、腳架或筆電租借**。這些都不在我們的方案或設備型錄中。我們不會為沒有的產品編造報價。
+
+-   **管架布幔或活動背板**。我們不是布置裝飾供應商。我們的[婚禮儀式特色租賃](/blog/unique-wedding-ceremony-rentals/)指南寫得很明確：不提供拱門、背板、布幔與家具。我們的[記者會影音租賃](/blog/audio-visual-rental-for-press-conferences/)指南對品牌背板或簽名牆也是同樣的說法，這類物品通常由您的公關或行銷團隊負責準備。
+
+## 我們交付過的真實專業設備案例
+
+以下是在馬拉加與太陽海岸使用過我們型錄中這一專業設備層的真實預訂：
+
+![Bmotion在馬拉加貝納阿維斯舉辦的企業活動，場地明亮，已為多日會議布置完成。](https://cdn.malagaeventgear.com/blog/3093/2026.05.22-23-Bmotion-Benahavis-1-576x1024.webp)
+
+Bmotion貝納阿維斯專案的場地，在為期兩天的專案中，我們的5000流明投影機等級在會場本身的照明下依然讓畫面保持清晰。
+
+![Bmotion馬貝拉專案中的模組化舞台與企業簡報布置。](https://cdn.malagaeventgear.com/blog/3076/2026.05.19-20-Bmotion-Marbella-3-1024x576.webp)
+
+為Bmotion馬貝拉專案搭建的模組化平台與舞台，並配有鵝頸麥克風與無線麥克風系統。
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1299/', '/3093/', '/3076/', '/1192/'])} speed="normal" direction="left" />
+</div>
+
+## 需要提前多久預訂
+
+活動日期一確定，請儘早預訂。太陽海岸的需求在4月至10月的婚禮旺季達到高峰，技術人員與最受歡迎的方案最先被訂滿。需要5000流明投影機等級、60吋顯示螢幕或模組化舞台的企業預訂，應儘早鎖定方案，不要等到最終人數確定，因為這些設備都屬於我們需求較高的企業方案。
+
+## 結論
+
+搜尋「audiovisual equipment rental service」與搜尋「audio visual rental」，指向的是同一份型錄。本頁的不同之處在於設備層：5000流明投影機、Audix無線麥克風與鵝頸麥克風、RGBW聚光燈、專業舞台燈光與上照燈、60吋LED顯示螢幕，以及我們的煙霧機，同時直接回答我們沒有哪些設備。[聯絡我們](/contact/)，為您的活動找到合適的方案。想了解完整的方案系列與價格，請參閱我們的[影音租賃](/blog/audio-visual-rental/)核心文章。
+
+## 常見問題
+
+### 本頁和你們的影音租賃總覽頁有什麼不同？
+
+兩者描述的是同一項核心服務。我們的[影音租賃](/blog/audio-visual-rental/)核心文章涵蓋從[Eco Pack](/packages/eco/)到[MICE Pack](/packages/mice/)的完整方案系列。本頁整理的是同一份型錄中專業與小眾的設備層，包括5000流明投影機等級、RGBW聚光燈、專業舞台燈光與上照燈、無線麥克風與鵝頸麥克風、60吋LED顯示螢幕與我們的煙霧機，並誠實列出不在我們型錄中的項目。請參閱上文的[為什麼有這一頁](#為什麼有這一頁專業設備與核心影音方案)。
+
+### 你們單獨出租混音控制台嗎？
+
+不單獨出租。我們的數位混音控制台由技術人員操作，是[Wedding Pack](/packages/wedding/)、[Basic MICE Pack](/packages/basic-mice/)與[MICE Pack](/packages/mice/)的固定組成部分，而不是單獨的租賃項目。詳情請參閱我們的[音響系統租賃](/blog/sound-system-rental/)指南。
+
+### 你們提供頭戴式或領夾式麥克風嗎？
+
+提供。我們有無線領夾式麥克風與頭戴式麥克風，與方案內容分開出租，適合需要空出雙手的主持人或表演者。請參閱上文的[無線麥克風與鵝頸麥克風系統](#無線麥克風與鵝頸麥克風系統)，完整比較與價格請參閱我們的[頭戴式與領夾式麥克風租賃](/blog/headset-lavalier-microphone-rental/)指南。
+
+### 你們提供同步口譯或翻譯設備嗎？
+
+我們自己的設備型錄中沒有，但可以作為代為安排的服務提供：我們自己沒有口譯設備，因此會找外包合作夥伴來處理，而不是拒絕您的需求。請[聯絡我們](/contact/)，告訴我們語言組合與賓客人數。
+
+### 什麼是上照燈？你們有出租嗎？
+
+上照燈放在地面上，向上把光打在牆面或建築結構上。是的，我們有出租：一套電池供電的無線上照燈組，共6盞燈具，與[Eco Pack](/packages/eco/)的RGBW燈排分開出租。RGBW燈排是從固定位置照亮空間並為其上色，而不是從地面為牆面打光。請[聯絡我們](/contact/)，告訴我們場地與賓客人數，以便報價。想了解它在場地中能涵蓋多少範圍的如實說明，請參閱我們的[舞台上照燈](/blog/stage-uplighting/)指南。婚禮方面的完整介紹，請參閱我們的[婚禮燈光創意](/blog/lighting-ideas-for-wedding-rentals/)指南。
+
+### 你們出租電視牆或LED大螢幕嗎？
+
+不出租。我們的大尺寸顯示器是一台附設計款腳架的60吋單一平面顯示器，而不是由LED箱體堆疊拼接而成的模組化電視牆。我們能提供的替代方案，請參閱我們的[電視螢幕租賃](/blog/tv-screen-rental/)指南。
+
+### 可以只租投影幕不租投影機，或反過來嗎？
+
+不可以。我們不單獨提供投影幕，也不出租不附投影幕的投影機。我們架設的每一面投影幕都搭配尺寸相符的投影機，無論是Eco Pack的€50加購項目，還是Basic MICE Pack與Product Presentation Pack中固定包含的投影幕與投影機組合。完整說明請參閱我們的[投影機租賃](/blog/projector-rental/)指南。
+
+### 你們提供互動投票或觀眾回饋系統嗎？
+
+我們自己的設備型錄中沒有，但可以作為代為安排的服務提供：投票器、現場投票硬體與互動投票系統不是我們自己的設備，因此我們會為大會或企業活動找外包合作夥伴。請[聯絡我們](/contact/)並告知您的需求。
+
+### 你們提供雷射或其他特殊燈光效果嗎？
+
+不提供。我們不提供雷射秀、圖案燈（gobo）或字母圖案投影，也不提供全像顯示。我們最亮的投影機是[Product Presentation Pack](/packages/product-presentation/)中的5000流明設備，它同樣不是雷射投影機。特效方面，我們只有一台煙霧機，型號為Martin Magnum 650，以Eco Pack與Wedding Pack的€20加購項目公布價格。我們沒有薄霧機、低煙機，也沒有紙花噴射機。請參閱上文的[特效](#特效一台煙霧機)。
+
+### 你們出租舞台、桁架或管架布幔嗎？
+
+舞台可以，作為明碼標價的加購項目：[MICE Pack](/packages/mice/)中的模組化舞台平台，每平方公尺€35。桁架不單獨出租。管架布幔或活動背板也不提供：我們不是布置裝飾供應商，這一點在我們的[婚禮儀式特色租賃](/blog/unique-wedding-ceremony-rentals/)指南中有直接說明。請參閱上文的[企業活動模組化舞台](#企業活動模組化舞台)。
