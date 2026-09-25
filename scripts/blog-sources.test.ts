@@ -6,7 +6,7 @@ import { mkdtempSync, mkdirSync, writeFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterAll, describe, expect, it } from 'vitest';
-import { computeBlogState, localizedLinkTable, readTranslations } from './blog-sources';
+import { computeBlogState, headingIdTables, localizedLinkTable, readTranslations } from './blog-sources';
 import type { LocaleContentMap } from '../src/lib/i18n/content-map/schema';
 
 const NOW = new Date('2026-09-24T12:00:00Z');
@@ -110,6 +110,37 @@ describe('localizedLinkTable', () => {
 		const empty = localizedLinkTable('de', map, { posts: [], categories: [], authors: [] });
 		expect(empty['/blog/']).toBeUndefined();
 		expect(empty['/contact/']).toBe('/de/kontakt/');
+	});
+});
+
+describe('headingIdTables', () => {
+	const own = mkdtempSync(join(tmpdir(), 'meg-blog-ids-'));
+	afterAll(() => rmSync(own, { recursive: true, force: true }));
+	const put = (path: string, frontmatter: string, body: string) => {
+		mkdirSync(join(own, path, '..'), { recursive: true });
+		writeFileSync(join(own, path), `---\n${frontmatter}\n---\n${body}`);
+	};
+	put('a.svx', englishFm('A'), "## Event Lighting\n\n### Spotlights\n\n## What We Don't Offer\n");
+	put('b.svx', englishFm('B'), '## One\n\n## Two\n');
+	put('de/a.svx', deFm(), '## Eventbeleuchtung\n\n### Scheinwerfer\n\n## Was wir nicht anbieten\n');
+	put('de/b.svx', deFm(), '## Eins\n');
+	put('fr/a.svx', deFm('draft: true'), '## Eclairage\n\n### Projecteurs\n\n## Ce que nous ne proposons pas\n');
+	const tables = headingIdTables(computeBlogState({ dir: own, now: NOW, maps: { de: map, fr: map } }), own);
+
+	it('maps the English heading ids of each post published in the locale to its translated ids', () => {
+		expect(tables.de?.['/blog/a/']).toEqual({
+			'event-lighting': 'eventbeleuchtung',
+			spotlights: 'scheinwerfer',
+			'what-we-dont-offer': 'was-wir-nicht-anbieten'
+		});
+	});
+
+	it('has no table for a post whose heading structure does not align', () => {
+		expect(tables.de?.['/blog/b/']).toBeUndefined();
+	});
+
+	it('has no table for a post not published in the locale (a draft)', () => {
+		expect(tables.fr?.['/blog/a/']).toBeUndefined();
 	});
 });
 

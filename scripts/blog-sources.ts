@@ -2,7 +2,8 @@
  * Build side of the blog: reads the .svx files on disk (Node only) and runs the SAME pure
  * pipeline the app runs (src/lib/data/blog-pipeline.ts). Used by:
  *   - scripts/vite-blog-meta.mjs: the `virtual:blog-*` modules (frontmatter, per locale
- *     translations, per locale availability) and the link tables of rehype-localize-links.
+ *     translations, per locale availability) and the link and heading id tables of
+ *     rehype-localize-links.
  *   - Playwright (tests/support/i18n.ts): which posts each locale publishes.
  *   - The guards and scripts/post-touch.ts: translation freshness.
  *
@@ -13,6 +14,7 @@ import { BLOG_DIR, extractFaqs, extractToc, joinPath, listDirs, listSvx, readPos
 import { malformedTranslationFiles } from '../src/lib/data/translation-audit.ts';
 import { BlogPostSchema } from '../src/lib/types/blog.ts';
 import { BLOG_STRUCTURE } from './blog-structure.ts';
+import { headingIdMap } from './heading-ids.ts';
 import {
 	zodIssues,
 	blogAvailabilityOf,
@@ -180,6 +182,25 @@ export function localizedLinkTables(state: BlogState, maps = CONTENT_MAPS): Part
 	for (const locale of PREFIXED_LOCALES) {
 		const map = maps[locale];
 		if (map) tables[locale] = localizedLinkTable(locale, map, state.locales[locale]?.availability ?? { posts: [], categories: [], authors: [] });
+	}
+	return tables;
+}
+
+/**
+ * Heading id tables of every locale, for the section links of rehype-localize-links: per locale,
+ * English post path (`/blog/<en-slug>/`) to its English h2/h3 id to translated id, for each post
+ * PUBLISHED in the locale. A post whose translation does not keep the English heading structure
+ * has no table, so its fragments are left as they are (scripts/heading-ids.ts).
+ */
+export function headingIdTables(state: BlogState, dir = BLOG_DIR): Partial<Record<Prefixed, Record<string, Record<string, string>>>> {
+	const tables: Partial<Record<Prefixed, Record<string, Record<string, string>>>> = {};
+	for (const [locale, localeState] of Object.entries(state.locales) as [Prefixed, LocaleBlogState][]) {
+		const table: Record<string, Record<string, string>> = {};
+		for (const slug of localeState.availability.posts) {
+			const map = headingIdMap(readPost(joinPath(dir, `${slug}.svx`)).body, readPost(joinPath(dir, locale, `${slug}.svx`)).body);
+			if (map) table[`/blog/${slug}/`] = map;
+		}
+		tables[locale] = table;
 	}
 	return tables;
 }

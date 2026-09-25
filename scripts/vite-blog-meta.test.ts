@@ -80,3 +80,12 @@ describe('blogMeta: FAQ and ToC per post', () => {
 		expect(p.load('\0virtual:blog-extras/de/a')).not.toContain('English question');
 	});
 });
+
+describe('blogMeta: tables of rehype-localize-links', () => {
+	it('publishes the heading ids of each translated post, for links to its sections', () => {
+		const shared = globalThis as typeof globalThis & { __megHeadingIds?: Record<string, Record<string, Record<string, string>>> };
+		delete shared.__megHeadingIds;
+		plugin(fixture({ 'a.svx': english('A'), 'de/a.svx': german }), 'build');
+		expect(shared.__megHeadingIds?.de?.['/blog/a/']).toEqual({ faqs: 'häufige-fragen', 'english-question': 'deutsche-frage' });
+	});
+});

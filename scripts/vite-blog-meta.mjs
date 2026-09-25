@@ -28,13 +28,15 @@
  *     them, never a listing, another post or another locale.
  * Only locales with translation files get a loader, so no chunk exists until one is written.
  *
- * It also publishes the link tables of rehype-localize-links on `globalThis` (see there).
+ * It also publishes the tables of rehype-localize-links on `globalThis` (see there): the link
+ * tables (`__megLocalizedLinks`) and the heading id tables of the published translations
+ * (`__megHeadingIds`), for links to a section of another post.
  *
  * Everything is computed fresh on every build/dev start (and again when a .svx changes in
  * dev), with the same pure pipeline the app runs (scripts/blog-sources.ts): no committed JSON,
  * no prebuild step.
  */
-import { BLOG_DIR, computeBlogState, localizedLinkTables } from './blog-sources.ts';
+import { BLOG_DIR, computeBlogState, headingIdTables, localizedLinkTables } from './blog-sources.ts';
 import { readEnglishExtras } from './blog-files.mjs';
 
 const META = 'virtual:blog-meta';
@@ -59,6 +61,7 @@ function computeState(dir, maps, onProblems) {
 	shared.__megBlogBuildTime ??= new Date().toISOString();
 	const state = computeBlogState({ dir, now: new Date(shared.__megBlogBuildTime), ...(maps ? { maps } : {}), onProblems });
 	shared.__megLocalizedLinks = maps ? localizedLinkTables(state, maps) : localizedLinkTables(state);
+	shared.__megHeadingIds = headingIdTables(state, dir);
 	return state;
 }
 
