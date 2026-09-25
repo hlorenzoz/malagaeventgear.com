@@ -702,8 +702,10 @@ bun scripts/post-new.ts --title "Mi Post" --category "Events" --author "Hector L
 
 Esto crea `src/content/blog/<slug>.svx` con frontmatter válido y `draft: true`.
 
-`just post-new` crea solo el post inglés. Las traducciones se crean por lote de silo (ver
-"Posts traducidos" más abajo).
+`just post-new` crea solo el archivo inglés. Un post NUEVO igual se publica en los 13 idiomas en
+el mismo cambio (regla 1 de [Reglas mandatorias de idioma](#reglas-mandatorias-de-idioma)): sus 12
+traducciones se crean antes de publicarlo, ver "Posts traducidos" más abajo. Los lotes por silo
+son solo para traducir los posts que ya existían antes de la Fase 4.
 
 ### Posts traducidos (Fase 4)
 
@@ -872,9 +874,16 @@ del silo.
 Actualizar el contenido de un post que ya está en producción (`draft: false`) es una operación
 distinta de publicar un post nuevo, y el campo `draft` **no se toca**: se queda en `false`. Lo
 único que cambia es el contenido y `updatedDate` (`just post-touch <slug>`). Volver a poner
-`draft: true` en un post ya indexado lo saca del sitemap y de Google - eso es una
+`draft: true` en un post ya indexado lo saca del sitemap y de Google. Eso es una
 **despublicación deliberada**, una acción totalmente distinta a una actualización de contenido,
 que requiere pedido explícito del usuario y nunca es un efecto colateral de una edición.
+
+**La actualización va en todos los idiomas, en el mismo cambio** (regla 2 de [Reglas mandatorias
+de idioma](#reglas-mandatorias-de-idioma)). Cada traducción publicada de ese post recibe la misma
+edición, en su idioma, y su `sourceUpdated` pasa a la nueva `updatedDate` inglesa.
+`src/lib/i18n/post-freshness.test.ts` falla si alguna queda atrás. Si el post todavía no tiene
+traducciones (Fase 4 en curso), la edición inglesa entra antes de su turno de traducción, así se
+traduce una sola vez con el contenido ya actualizado.
 
 ### Publicación: solo por push (sin cron)
 
