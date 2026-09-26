@@ -96,6 +96,11 @@ export default {
 			slug: 'verhuur-bruiloft-online-boeken',
 			keyword: 'verhuur voor bruiloften online boeken in Malaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals-near-me': {
+			slug: 'verhuur-bruiloften-bij-mij-in-de-buurt',
+			keyword: 'verhuur voor bruiloften bij mij in de buurt',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

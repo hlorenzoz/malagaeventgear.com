@@ -92,6 +92,11 @@ export default {
 			slug: 'noleggio-attrezzature-matrimonio-online',
 			keyword: 'noleggio attrezzature per matrimonio online a Malaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals-near-me': {
+			slug: 'noleggio-attrezzature-matrimoni-vicino-a-me',
+			keyword: 'noleggio attrezzature per matrimoni vicino a me',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

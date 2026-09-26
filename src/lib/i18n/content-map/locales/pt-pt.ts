@@ -128,6 +128,11 @@ export default {
 			slug: 'aluguer-casamento-online',
 			keyword: 'aluguer para casamentos online em Málaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals-near-me': {
+			slug: 'aluguer-casamentos-perto-de-mim',
+			keyword: 'aluguer para casamentos perto de mim',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

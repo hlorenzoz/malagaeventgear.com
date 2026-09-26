@@ -100,6 +100,11 @@ export default {
 			slug: 'bestille-bryllupsutleie-pa-nett',
 			keyword: 'bestille bryllupsutleie på nett i Malaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals-near-me': {
+			slug: 'utleie-bryllup-naerheten-av-meg',
+			keyword: 'utleie til bryllup i nærheten av meg',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

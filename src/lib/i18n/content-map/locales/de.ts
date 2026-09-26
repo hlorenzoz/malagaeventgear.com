@@ -96,6 +96,11 @@ export default {
 			slug: 'hochzeitsverleih-online-buchen',
 			keyword: 'Hochzeitsverleih online buchen in Malaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals-near-me': {
+			slug: 'hochzeitsverleih-in-meiner-naehe',
+			keyword: 'Hochzeitsverleih in meiner Nähe',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

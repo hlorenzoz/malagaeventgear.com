@@ -84,6 +84,11 @@ export default {
 			slug: '婚禮設備租借線上預約',
 			keyword: '馬拉加 婚禮設備租借線上預約',
 			status: 'propuesta'
+		},
+		'wedding-rentals-near-me': {
+			slug: '附近的婚禮設備租借',
+			keyword: '馬拉加 附近的婚禮設備租借',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

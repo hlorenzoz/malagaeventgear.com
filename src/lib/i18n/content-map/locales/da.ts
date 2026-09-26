@@ -96,6 +96,11 @@ export default {
 			slug: 'book-bryllupsudlejning-online',
 			keyword: 'book bryllupsudlejning online i Malaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals-near-me': {
+			slug: 'udlejning-bryllup-naerheden-af-mig',
+			keyword: 'udlejning til bryllup i nærheden af mig',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -92,6 +92,11 @@ export default {
 			slug: 'boka-brollopsuthyrning-online',
 			keyword: 'boka bröllopsuthyrning online i Malaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals-near-me': {
+			slug: 'uthyrning-brollop-nara-mig',
+			keyword: 'uthyrning till bröllop nära mig',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

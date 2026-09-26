@@ -128,6 +128,11 @@ export default {
 			slug: 'locacao-casamento-online',
 			keyword: 'locação para casamento online em Málaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals-near-me': {
+			slug: 'locacao-casamento-perto-de-mim',
+			keyword: 'locação para casamento perto de mim',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -84,6 +84,11 @@ export default {
 			slug: '婚礼设备租赁在线预订',
 			keyword: '马拉加 婚礼设备租赁在线预订',
 			status: 'propuesta'
+		},
+		'wedding-rentals-near-me': {
+			slug: '附近的婚礼设备租赁',
+			keyword: '马拉加 附近的婚礼设备租赁',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

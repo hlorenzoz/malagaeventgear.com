@@ -96,6 +96,11 @@ export default {
 			slug: 'location-materiel-mariage-en-ligne',
 			keyword: 'location de matériel pour mariage en ligne à Malaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals-near-me': {
+			slug: 'location-materiel-mariage-pres-de-chez-moi',
+			keyword: 'location de matériel pour mariage près de chez moi',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
