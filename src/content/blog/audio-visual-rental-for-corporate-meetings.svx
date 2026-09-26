@@ -1,11 +1,11 @@
 ---
 title: "Audio Visual Rental for Corporate Meetings in Malaga, Spain"
-description: "Audio visual rental for corporate meetings in Malaga: a gooseneck mic and screen for the boardroom, sized to your board or client meeting, with a real package."
+description: "Audio visual rental for corporate meetings in Malaga, Spain: a gooseneck mic and screen for the boardroom, sized to your board or client meeting."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-corporate-meetings
 publishDate: "2025-12-20"
 updatedDate: "2026-09-25"
-excerpt: "Audio visual rental for corporate meetings in Malaga: a gooseneck mic and screen for the boardroom, sized to your board or client meeting, with a real package."
+excerpt: "Audio visual rental for corporate meetings in Malaga, Spain: a gooseneck mic and screen for the boardroom, sized to your board or client meeting."
 coverImage: https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for audio visual rental for corporate meetings in Malaga? A board meeting, client meeting or investor panel is not a conference: it is a boardroom or hotel suite, a fixed speaker position, and a small group, not breakout rooms or a stage production.
+Looking for audio visual rental for corporate meetings in Malaga, Spain? A board meeting, client meeting or investor panel is not a conference: it is a boardroom or hotel suite, a fixed speaker position, and a small group, not breakout rooms or a stage production.
 
 Malaga Event Gear delivers, installs and tests that setup across Malaga and the wider Costa del Sol.
 

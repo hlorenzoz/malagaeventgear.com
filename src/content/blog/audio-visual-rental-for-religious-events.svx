@@ -1,11 +1,11 @@
 ---
 title: "Audio Visual Rental for Religious Events in Malaga, Spain"
-description: "Audio visual rental for religious events in Malaga: a lectern microphone for the officiant, PA sound and a screen for readings, matched to a real package."
+description: "Audio visual rental for religious events in Malaga, Spain: a lectern mic for the officiant, PA sound and a screen for readings, matched to a real package."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-religious-events
 publishDate: "2025-12-04"
 updatedDate: "2026-09-25"
-excerpt: "Audio visual rental for religious events in Malaga: a lectern microphone for the officiant, PA sound and a screen for readings, matched to a real package."
+excerpt: "Audio visual rental for religious events in Malaga, Spain: a lectern mic for the officiant, PA sound and a screen for readings, matched to a real package."
 coverImage: https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled.webp
 categories: [Audio Visual Rental, Events]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for audio visual rental for religious events in Malaga? A baptism, a first communion, a religious festival and a wedding ceremony in a church each need a similar base: a microphone for the officiant, PA sound sized to the room, and a screen for readings or hymn lyrics if the venue wants one.
+Looking for audio visual rental for religious events in Malaga, Spain? A baptism, a first communion, a religious festival and a wedding ceremony in a church each need a similar base: a microphone for the officiant, PA sound sized to the room, and a screen for readings or hymn lyrics if the venue wants one.
 
 Malaga Event Gear delivers, installs and tests that setup across Malaga and the wider Costa del Sol.
 

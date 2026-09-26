@@ -1,11 +1,11 @@
 ---
 title: "Audio Visual Rental for Training Sessions in Malaga, Spain"
-description: "Audio visual rental for training sessions in Malaga: sound, screens and laptop connectivity sized to your group, delivered across the Costa del Sol."
+description: "Audio visual rental for training sessions in Malaga, Spain: sound, screens and laptop connectivity sized to your group, delivered across the Costa del Sol."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-training-sessions
 publishDate: 2025-11-29
 updatedDate: "2026-09-25"
-excerpt: "Audio visual rental for training sessions in Malaga: sound, screens and laptop connectivity sized to your group, delivered across the Costa del Sol."
+excerpt: "Audio visual rental for training sessions in Malaga, Spain: sound, screens and laptop connectivity sized to your group, delivered across the Costa del Sol."
 coverImage: https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-scaled.webp
 categories: [Audio Visual Rental, Events]
 tags: []
@@ -19,7 +19,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for audio visual rental for training sessions in Malaga? A training session is not a static presentation: trainers move between breakout groups, connect their own laptop for slides, and need a microphone that keeps up when they are not standing still.
+Looking for audio visual rental for training sessions in Malaga, Spain? A training session is not a static presentation: trainers move between breakout groups, connect their own laptop for slides, and need a microphone that keeps up when they are not standing still.
 
 Malaga Event Gear delivers, installs and tests sound, screens and microphones sized to your group across Malaga and the wider Costa del Sol.
 

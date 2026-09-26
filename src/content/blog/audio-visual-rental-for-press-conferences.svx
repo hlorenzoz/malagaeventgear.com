@@ -1,11 +1,11 @@
 ---
 title: "Audio Visual Rental for Press Conferences in Malaga, Spain"
-description: "Audio visual rental for press conferences in Malaga: a podium mic, PA sound that reaches the press, and a riser, delivered across the Costa del Sol."
+description: "Audio visual rental for press conferences in Malaga, Spain: a podium mic, PA sound that reaches the press, and a riser, delivered across the Costa del Sol."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-press-conferences
 publishDate: 2025-12-06
 updatedDate: "2026-09-25"
-excerpt: "Audio visual rental for press conferences in Malaga: a podium mic, PA sound that reaches the press, and a riser, delivered across the Costa del Sol."
+excerpt: "Audio visual rental for press conferences in Malaga, Spain: a podium mic, PA sound that reaches the press, and a riser, delivered across the Costa del Sol."
 coverImage: https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for audio visual rental for press conferences in Malaga? A press conference is not a general corporate conference: it is one speaker at a podium, a PA system that reaches press microphones and recorders, and space for media, not breakout rooms or delegate seating at scale.
+Looking for audio visual rental for press conferences in Malaga, Spain? A press conference is not a general corporate conference: it is one speaker at a podium, a PA system that reaches press microphones and recorders, and space for media, not breakout rooms or delegate seating at scale.
 
 Malaga Event Gear delivers, installs and tests that setup across Malaga and the wider Costa del Sol.
 

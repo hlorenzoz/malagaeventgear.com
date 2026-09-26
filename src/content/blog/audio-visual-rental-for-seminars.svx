@@ -1,11 +1,11 @@
 ---
 title: "Audio Visual Rental for Seminars in Malaga, Spain"
-description: "Audio visual rental for seminars in Malaga: a projector, screen and wireless mic, sized to your seminar, with real EUR pricing and setup included."
+description: "Audio visual rental for seminars in Malaga, Spain: a projector, screen and wireless mic, sized to your seminar, with real EUR pricing and setup included."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-seminars
 publishDate: "2025-12-02"
 updatedDate: "2026-09-25"
-excerpt: "Audio visual rental for seminars in Malaga: a projector, screen and wireless mic, sized to your seminar, with real EUR pricing and setup included."
+excerpt: "Audio visual rental for seminars in Malaga, Spain: a projector, screen and wireless mic, sized to your seminar, with real EUR pricing and setup included."
 coverImage: https://cdn.malagaeventgear.com/blog/1293/malaga_event_lighting_big_display_projector_sound_rental-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for audio visual rental for seminars in Malaga? Most seminars need the same core setup: a projector and screen for slides, PA sound, and a microphone for the presenter, whether that is one speaker with a wireless handheld mic or a lectern style session with a podium mic.
+Looking for audio visual rental for seminars in Malaga, Spain? Most seminars need the same core setup: a projector and screen for slides, PA sound, and a microphone for the presenter, whether that is one speaker with a wireless handheld mic or a lectern style session with a podium mic.
 
 Malaga Event Gear delivers, installs and tests that setup across Malaga and the wider Costa del Sol.
 

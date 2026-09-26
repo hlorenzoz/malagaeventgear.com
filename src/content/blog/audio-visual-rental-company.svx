@@ -1,11 +1,11 @@
 ---
 title: "Malaga Event Gear: Audio Visual Rental Company in Malaga"
-description: "Malaga Event Gear is an audio visual rental company in Malaga: a 5.0 average across 8 reviews, real euro pricing, operating since 1996. Get a quote today."
+description: "Malaga Event Gear is an audio visual rental company in Malaga, Spain, operating since 1996: a 5.0 average across 8 reviews and real euro pricing."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-company
 publishDate: "2025-12-24"
 updatedDate: "2026-09-25"
-excerpt: "Malaga Event Gear is an audio visual rental company in Malaga: a 5.0 average across 8 reviews, real euro pricing, operating since 1996. Get a quote today."
+excerpt: "Malaga Event Gear is an audio visual rental company in Malaga, Spain, operating since 1996: a 5.0 average across 8 reviews and real euro pricing."
 coverImage: https://cdn.malagaeventgear.com/blog/1313/corporate-event.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for an audio visual rental company in Malaga? Here is what we can back up: a 5.0 average across 8 Google reviews, operating since 1996, real euro pricing on every package, and a crew that delivers, installs and tests the equipment ourselves.
+Looking for an audio visual rental company in Malaga, Spain? Here is what we can back up: a 5.0 average across 8 Google reviews, operating since 1996, real euro pricing on every package, and a crew that delivers, installs and tests the equipment ourselves.
 
 Malaga Event Gear serves Malaga and the wider Costa del Sol.
 

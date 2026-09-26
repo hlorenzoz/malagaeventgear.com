@@ -1,6 +1,6 @@
 ---
 title: "Latest Trends in Wedding Rentals in Malaga"
-description: "Latest trends in wedding rentals, honestly scoped to AV: technician included packages, lighting choice patterns, and wireless mics, not fabricated decor trends."
+description: "Latest trends in wedding rentals in Malaga, Spain, honestly scoped to AV: technician included packages, lighting choice patterns, and wireless mics."
 author: Hector Luis Lorenzo
 slug: latest-trends-in-wedding-rentals
 publishDate: "2026-02-20"
@@ -21,7 +21,7 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Search "latest trends in wedding rentals" and most results talk about tablescapes, color palettes, lounge furniture, champagne walls, and catering trends. Malaga Event Gear (MEG) is an audio visual rental company. None of those items is in our own inventory, and a page that pretended to report on those trends would not be honest. What we can cover, from our own catalog and booking patterns, is what is actually changing on the AV side of a Malaga wedding: which package couples pick most, how lighting choices split, and where wireless microphones have become the default rather than the extra. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview.
+Search "latest trends in wedding rentals" and most results talk about tablescapes, color palettes, lounge furniture, champagne walls, and catering trends. Malaga Event Gear (MEG) is an audio visual rental company. None of those items is in our own inventory, and a page that pretended to report on those trends would not be honest. What we can cover, from our own catalog and booking patterns, is what is actually changing on the AV side of a wedding in Malaga, Spain: which package couples pick most, how lighting choices split, and where wireless microphones have become the default rather than the extra. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview.
 
 ## Brief Overview
 

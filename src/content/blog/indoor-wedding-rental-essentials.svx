@@ -1,11 +1,11 @@
 ---
 title: "Indoor Wedding Rental Essentials in Malaga"
-description: "Indoor wedding rental essentials in Malaga: room acoustics, power reliability and accent lighting, the AV side of the day Malaga Event Gear covers."
+description: "Indoor wedding rental essentials in Malaga, Spain: room acoustics, power reliability and accent lighting, the AV side of the day Malaga Event Gear covers."
 author: Hector Luis Lorenzo
 slug: indoor-wedding-rental-essentials
 publishDate: "2026-01-16"
 updatedDate: "2026-09-25"
-excerpt: "Indoor wedding rental essentials in Malaga: room acoustics, power reliability and accent lighting, the AV side of the day Malaga Event Gear covers."
+excerpt: "Indoor wedding rental essentials in Malaga, Spain: room acoustics, power reliability and accent lighting, the AV side of the day Malaga Event Gear covers."
 coverImage: https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table.webp
 categories: [Audio Visual Rental, Weddings]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Planning an indoor wedding in Malaga means working inside a room that already has its own walls, chandeliers and, often, mains power your venue controls. Malaga Event Gear's [Wedding Pack](/packages/wedding/) covers the audio visual slice of that: PA sound tuned to fill the room, an accent lighting layer on top of what the venue already has, wireless microphones and a live technician. It does not cover furniture, linens, tableware, dance floors or decor, and none of those is in our own inventory. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview. If you have not settled on a package yet, our [how to choose wedding rentals](/blog/how-to-choose-wedding-rentals/) guide walks through the six questions, starting with guest count, that decide between the Eco Pack and the Wedding Pack.
+Planning an indoor wedding in Malaga, Spain, means working inside a room that already has its own walls, chandeliers and, often, mains power your venue controls. Malaga Event Gear's [Wedding Pack](/packages/wedding/) covers the audio visual slice of that: PA sound tuned to fill the room, an accent lighting layer on top of what the venue already has, wireless microphones and a live technician. It does not cover furniture, linens, tableware, dance floors or decor, and none of those is in our own inventory. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview. If you have not settled on a package yet, our [how to choose wedding rentals](/blog/how-to-choose-wedding-rentals/) guide walks through the six questions, starting with guest count, that decide between the Eco Pack and the Wedding Pack.
 
 ## Brief Overview
 

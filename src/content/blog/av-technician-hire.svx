@@ -1,6 +1,6 @@
 ---
 title: "AV Technician Hire in Malaga, Spain"
-description: "AV technician hire in Malaga: real euro pricing per package, from a paid add on to full event coverage, with exact hour caps before you book."
+description: "AV technician hire in Malaga, Spain: real euro pricing per package, from a paid add on to full event coverage, with exact hour caps before you book."
 author: Hector Luis Lorenzo
 slug: av-technician-hire
 publishDate: "2026-07-31"
@@ -21,7 +21,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking to hire an AV technician in Malaga, not just the equipment they run? Whether a technician is actually on site with your booking depends entirely on which Malaga Event Gear package you choose: included for the whole event on one, included with an hour cap on another, a paid add on on a third, and not offered at all on the other two.
+Looking to hire an AV technician in Malaga, Spain, not just the equipment they run? Whether a technician is actually on site with your booking depends entirely on which Malaga Event Gear package you choose: included for the whole event on one, included with an hour cap on another, a paid add on on a third, and not offered at all on the other two.
 
 This guide covers the technician as a person and a role, not the equipment around them: which package puts one on site, what they actually do while your event runs, and how to book one for your date. For the coverage itself, phase by phase, with the named equipment our crew troubleshoots, see our [technical support for events](/blog/technical-support-for-events/) guide. If your event runs on a package with no technician, our [AV system troubleshooting](/blog/av-system-troubleshooting/) guide covers what to check yourself instead, package by package.
 

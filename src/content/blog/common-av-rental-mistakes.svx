@@ -1,11 +1,11 @@
 ---
 title: "10 Common AV Rental Mistakes in Malaga, Spain"
-description: "Common AV rental mistakes in Malaga: assuming a technician is included, the wrong microphone, or a package sized wrong for your guest count. See what's real."
+description: "Common AV rental mistakes in Malaga, Spain: assuming a technician is included, the wrong microphone, or a package sized wrong for your guest count."
 author: Hector Luis Lorenzo
 slug: common-av-rental-mistakes
 publishDate: "2025-12-22"
 updatedDate: "2026-09-25"
-excerpt: "Common AV rental mistakes in Malaga: assuming a technician is included, the wrong microphone, or a package sized wrong for your guest count. See what's real."
+excerpt: "Common AV rental mistakes in Malaga, Spain: assuming a technician is included, the wrong microphone, or a package sized wrong for your guest count."
 coverImage: https://cdn.malagaeventgear.com/blog/1303/lighting-sound-big-screen-projector-rental-malaga_2.webp
 categories: [Audio Visual Rental, Events]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking to avoid common AV rental mistakes in Malaga? Most of them are not about broken equipment: they are about assuming a package includes something it doesn't, until the day of the event.
+Looking to avoid common AV rental mistakes in Malaga, Spain? Most of them are not about broken equipment: they are about assuming a package includes something it doesn't, until the day of the event.
 
 Malaga Event Gear delivers, installs and tests every package across Malaga and the wider Costa del Sol.
 

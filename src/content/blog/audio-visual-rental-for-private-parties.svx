@@ -1,6 +1,6 @@
 ---
 title: "Audio Visual Rental for Private Parties in Malaga, Spain"
-description: "Audio visual rental for private parties in Malaga: real Eco Pack pricing, self run sound and lighting for up to 50 guests, no technician included by default."
+description: "Audio visual rental for private parties in Malaga, Spain: real Eco Pack pricing, self run sound and lighting for up to 50 guests, no technician by default."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-private-parties
 publishDate: "2026-08-03"
@@ -19,7 +19,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for audio visual rental for a private party in Malaga? A birthday, an anniversary or a family celebration does not need a concert rig or a hired technician standing by all night. It needs solid sound for a playlist, one microphone for a toast or a speech, and lighting that sets the mood, sized honestly to the guest count you actually have.
+Looking for audio visual rental for a private party in Malaga, Spain? A birthday, an anniversary or a family celebration does not need a concert rig or a hired technician standing by all night. It needs solid sound for a playlist, one microphone for a toast or a speech, and lighting that sets the mood, sized honestly to the guest count you actually have.
 
 Malaga Event Gear delivers, installs and tests that setup across Malaga and the wider Costa del Sol, at villa gardens, private rooms and rooftop terraces.
 

@@ -1,11 +1,11 @@
 ---
 title: "Audio Visual Rental for Music Performances in Malaga, Spain"
-description: "Audio visual rental for music performances in Malaga: PA sound, a microphone and lighting for a DJ set, live band or duo, delivered across the Costa del Sol."
+description: "Audio visual rental for music performances in Malaga, Spain: PA sound, a microphone and lighting for a DJ, band or duo, delivered across the Costa del Sol."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-music-performances
 publishDate: 2025-12-08
 updatedDate: "2026-09-25"
-excerpt: "Audio visual rental for music performances in Malaga: PA sound, a microphone and lighting for a DJ set, live band or duo, delivered across the Costa del Sol."
+excerpt: "Audio visual rental for music performances in Malaga, Spain: PA sound, a microphone and lighting for a DJ, band or duo, delivered across the Costa del Sol."
 coverImage: https://cdn.malagaeventgear.com/blog/1327/malaga_concert_lighting_microphone_audio_rental-scaled.webp
 categories: [Audio Visual Rental, Events]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for audio visual rental for music performances in Malaga? A DJ set, a live band and a singer/guitarist duo each need a similar base: PA sound reinforcement, a microphone, and lighting to set the mood, sized to a small private event or party.
+Looking for audio visual rental for music performances in Malaga, Spain? A DJ set, a live band and a singer/guitarist duo each need a similar base: PA sound reinforcement, a microphone, and lighting to set the mood, sized to a small private event or party.
 
 Malaga Event Gear delivers, installs and tests that setup across Malaga and the wider Costa del Sol, including outdoor terraces, villas and beach venues.
 

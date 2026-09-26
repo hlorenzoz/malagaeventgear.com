@@ -1,11 +1,11 @@
 ---
 title: "Eco Friendly Wedding Rental Options in Malaga"
-description: "Eco friendly wedding rental options in Malaga: the Wedding Pack's efficient LED lighting, a reuse model instead of single use gear, and local delivery."
+description: "Eco friendly wedding rental options in Malaga, Spain: the Wedding Pack's efficient LED lighting, a reuse model instead of single use gear, and local delivery."
 author: Hector Luis Lorenzo
 slug: eco-friendly-wedding-rental-options
 publishDate: 2026-01-21
 updatedDate: "2026-09-25"
-excerpt: "Eco friendly wedding rental options in Malaga: the Wedding Pack's efficient LED lighting, a reuse model instead of single use gear, and local delivery."
+excerpt: "Eco friendly wedding rental options in Malaga, Spain: the Wedding Pack's efficient LED lighting, a reuse model instead of single use gear, and local delivery."
 coverImage: https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall.webp
 categories: [Audio Visual Rental, Weddings]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for eco friendly wedding rental options in Malaga? Malaga Event Gear's [Wedding Pack](/packages/wedding/) is an AV rental, not a tent, furniture or decor supplier, so its eco credentials are specific to that: fairy light and warm LED ambient lighting instead of older, higher draw fixtures, a reuse model where the same equipment serves event after event instead of being bought once and discarded, and local delivery across Malaga rather than freight shipped in from further afield. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview.
+Looking for eco friendly wedding rental options in Malaga, Spain? Malaga Event Gear's [Wedding Pack](/packages/wedding/) is an AV rental, not a tent, furniture or decor supplier, so its eco credentials are specific to that: fairy light and warm LED ambient lighting instead of older, higher draw fixtures, a reuse model where the same equipment serves event after event instead of being bought once and discarded, and local delivery across Malaga rather than freight shipped in from further afield. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview.
 
 ## Brief Overview
 

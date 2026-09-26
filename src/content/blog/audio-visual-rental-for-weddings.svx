@@ -1,11 +1,11 @@
 ---
 title: "Audio Visual Rental for Weddings in Malaga, Spain"
-description: "Audio visual rental for weddings in Malaga, hour by hour: soundcheck, vows, speeches, the ceremony to reception switch, and dancing, run by one technician."
+description: "Audio visual rental for weddings in Malaga, Spain, hour by hour: soundcheck, vows, speeches, ceremony to reception switch, and dancing, run by one technician."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-weddings
 publishDate: "2025-11-23"
 updatedDate: "2026-09-25"
-excerpt: "Audio visual rental for weddings in Malaga, hour by hour: soundcheck, vows, speeches, the ceremony to reception switch, and dancing, run by one technician."
+excerpt: "Audio visual rental for weddings in Malaga, Spain, hour by hour: soundcheck, vows, speeches, ceremony to reception switch, and dancing, run by one technician."
 coverImage: https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding.webp
 categories: [Audio Visual Rental, Events, Weddings]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for audio visual rental for weddings in Malaga? This guide is not the place for the Wedding Pack's price or its guest capacity, our [wedding rentals](/blog/wedding-rentals/) guide covers that in full. This page covers something different: what actually happens with the sound and the microphones across your wedding day, from the soundcheck before your first guest is seated to the moment the reception turns into dancing, including the one complication most other events on our books never have to plan for, a ceremony and a reception in two different spaces, often one outdoor and one indoor, inside the same booking.
+Looking for audio visual rental for weddings in Malaga, Spain? This guide is not the place for the Wedding Pack's price or its guest capacity, our [wedding rentals](/blog/wedding-rentals/) guide covers that in full. This page covers something different: what actually happens with the sound and the microphones across your wedding day, from the soundcheck before your first guest is seated to the moment the reception turns into dancing, including the one complication most other events on our books never have to plan for, a ceremony and a reception in two different spaces, often one outdoor and one indoor, inside the same booking.
 
 Contact us today to discuss your ceremony and reception, whatever the two spaces look like.
 

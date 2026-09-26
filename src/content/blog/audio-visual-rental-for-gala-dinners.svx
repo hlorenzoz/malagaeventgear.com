@@ -1,11 +1,11 @@
 ---
 title: "Audio Visual Rental for Gala Dinners in Malaga, Spain"
-description: "Audio visual rental for gala dinners in Malaga: elegant lighting, sound for speeches and a stage for awards, matched to a real package across the Costa del Sol."
+description: "Audio visual rental for gala dinners in Malaga, Spain: elegant lighting, sound for speeches and a stage for awards, matched to a real event package."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-gala-dinners
 publishDate: 2025-12-09
 updatedDate: "2026-09-25"
-excerpt: "Audio visual rental for gala dinners in Malaga: elegant lighting, sound for speeches and a stage for awards, matched to a real package across the Costa del Sol."
+excerpt: "Audio visual rental for gala dinners in Malaga, Spain: elegant lighting, sound for speeches and a stage for awards, matched to a real event package."
 coverImage: https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental.webp
 categories: [Audio Visual Rental, Events]
 tags: []
@@ -19,7 +19,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for audio visual rental for gala dinners in Malaga? A gala dinner needs a different setup depending on the moment: ambient lighting and background sound for the reception, a wireless microphone for speeches and toasts, and staging for an awards presentation.
+Looking for audio visual rental for gala dinners in Malaga, Spain? A gala dinner needs a different setup depending on the moment: ambient lighting and background sound for the reception, a wireless microphone for speeches and toasts, and staging for an awards presentation.
 
 Malaga Event Gear delivers, installs and tests sound, lighting and a technician sized to your evening across Malaga and the wider Costa del Sol, including Marbella and Estepona hotel venues.
 

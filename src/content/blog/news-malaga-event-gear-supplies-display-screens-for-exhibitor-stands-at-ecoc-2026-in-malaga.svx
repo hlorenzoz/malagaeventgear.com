@@ -1,6 +1,6 @@
 ---
 title: "News: Malaga Event Gear Supplies the Display Screens for Exhibitor Stands at ECOC 2026 in Malaga"
-description: "ECOC 2026 runs from 20 to 24 September at FYCMA in Malaga. Malaga Event Gear supplied and installed the display screens on exhibitor stands across the show floor."
+description: "ECOC 2026 runs from 20 to 24 September at FYCMA in Malaga, Spain. Malaga Event Gear supplied and installed the display screens on exhibitor stands."
 author: Hector Luis Lorenzo
 slug: news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga
 publishDate: "2026-09-22"
@@ -20,7 +20,7 @@ targetPage: "/"
 	import { ecoc2026GalleryImages } from '$lib/data/gallery';
 </script>
 
-The **52nd European Conference on Optical Communication**, [ECOC 2026](https://www.ecoc2026.org/ECOC2026), opened at **FYCMA** in Malaga on **20 September** and runs until **24 September**. ECOC is the largest and most prestigious optical communications event in Europe and the second largest in the world, and the **ECOC Exhibition** that runs alongside the conference is the biggest optical communications trade show on the continent.
+The **52nd European Conference on Optical Communication**, [ECOC 2026](https://www.ecoc2026.org/ECOC2026), opened at **FYCMA** in Malaga, Spain, on **20 September** and runs until **24 September**. ECOC is the largest and most prestigious optical communications event in Europe and the second largest in the world, and the **ECOC Exhibition** that runs alongside the conference is the biggest optical communications trade show on the continent.
 
 [**Malaga Event Gear (MEG)**](/) supplied and installed the **display screens on exhibitor stands** across the show floor.
 

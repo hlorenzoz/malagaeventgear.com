@@ -1,11 +1,11 @@
 ---
 title: "All in One Wedding Rental Packages in Malaga"
-description: "What all in one wedding rental packages include at Malaga Event Gear: PA sound, lighting, mics, a technician, one price, and what they honestly leave out."
+description: "What all in one wedding rental packages in Malaga, Spain, include: PA sound, lighting, mics, a technician, one price, and what they honestly leave out."
 author: Hector Luis Lorenzo
 slug: all-in-one-wedding-rental-packages
 publishDate: "2026-01-23"
 updatedDate: "2026-09-25"
-excerpt: "What all in one wedding rental packages include at Malaga Event Gear: PA sound, lighting, mics, a technician, one price, and what they honestly leave out."
+excerpt: "What all in one wedding rental packages in Malaga, Spain, include: PA sound, lighting, mics, a technician, one price, and what they honestly leave out."
 coverImage: https://cdn.malagaeventgear.com/blog/1638/wedding_rings_heart_book.webp
 categories: [Audio Visual Rental, Weddings]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for an all in one wedding rental package in Malaga? Malaga Event Gear's [Wedding Pack](/packages/wedding/) bundles the audio visual side of your day into one price and one delivery: PA sound, ambient lighting, wireless microphones and a live technician on site, all quoted, booked and installed as a single package rather than four separate rentals.
+Looking for an all in one wedding rental package in Malaga, Spain? Malaga Event Gear's [Wedding Pack](/packages/wedding/) bundles the audio visual side of your day into one price and one delivery: PA sound, ambient lighting, wireless microphones and a live technician on site, all quoted, booked and installed as a single package rather than four separate rentals.
 
 "All in one" is worth being precise about, though. It means one AV supplier handling sound, lighting, microphones and technical support together. It does not mean venue, catering, furniture or photography are part of the package, and any provider who implies otherwise is bundling trades that are not actually theirs. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview.
 

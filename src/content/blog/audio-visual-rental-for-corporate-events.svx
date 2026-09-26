@@ -1,11 +1,11 @@
 ---
 title: "Audio Visual Rental for Corporate Events in Malaga, Spain"
-description: "Audio visual rental for corporate events in Malaga: conferences, meetings, training and launches, each matched to a real package across the Costa del Sol."
+description: "Audio visual rental for corporate events in Malaga, Spain: conferences, meetings, training and launches, matched to a real package across the Costa del Sol."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-corporate-events
 publishDate: 2025-12-10
 updatedDate: "2026-09-25"
-excerpt: "Audio visual rental for corporate events in Malaga: conferences, meetings, training and launches, each matched to a real package across the Costa del Sol."
+excerpt: "Audio visual rental for corporate events in Malaga, Spain: conferences, meetings, training and launches, matched to a real package across the Costa del Sol."
 coverImage: https://cdn.malagaeventgear.com/blog/1313/corporate-event.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
 tags: []
@@ -19,7 +19,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for audio visual rental for corporate events in Malaga? "Corporate event" covers a lot of ground: a conference with breakout rooms, a board meeting, a training day, a product launch. Each needs a different setup, sized to a different guest count.
+Looking for audio visual rental for corporate events in Malaga, Spain? "Corporate event" covers a lot of ground: a conference with breakout rooms, a board meeting, a training day, a product launch. Each needs a different setup, sized to a different guest count.
 
 Malaga Event Gear delivers, installs and tests sound, screens and microphones sized to your event across Malaga and the wider Costa del Sol, with more than 1,000 satisfied clients since 1996.
 

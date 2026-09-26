@@ -1,6 +1,6 @@
 ---
 title: "AV Equipment Consultations in Malaga, Spain"
-description: "AV equipment consultations in Malaga: a free, package by package guest count and event type table, so you know which of our 5 packages fits before you book."
+description: "AV equipment consultations in Malaga, Spain: a free, package by package guest count and event type table, showing which of our 5 packages fits before you book."
 author: Hector Luis Lorenzo
 slug: av-equipment-consultations
 publishDate: "2026-08-02"
@@ -141,7 +141,7 @@ If you choose one of the 3 packages with no technician on site, that does not me
 
 ![A wider view of a Volvo dealership event in Malaga, with rows of stool seating arranged in front of the branded presentation desk.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-1536x1147.webp)
 
-The seating laid out ahead of the same dealership showcase event pictured on this page's cover, delivered for a Volvo dealer in Malaga, essentially the exact scenario the [Product Presentation Pack](/packages/product-presentation/) is built for: a dealership showcase decided by what the event is, not by how many guests attended.
+The seating laid out ahead of the same dealership showcase event pictured on this page's cover, delivered for a Volvo dealer in Malaga, Spain, essentially the exact scenario the [Product Presentation Pack](/packages/product-presentation/) is built for: a dealership showcase decided by what the event is, not by how many guests attended.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1266/', '/1267/'])} speed="normal" direction="left" />

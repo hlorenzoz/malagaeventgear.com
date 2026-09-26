@@ -1,11 +1,11 @@
 ---
 title: "Audio Visual Rental for Remote Presentations, Malaga, Spain"
-description: "Audio visual rental for remote presentations in Malaga: room sound, a screen and laptop connectivity for a remote speaker joining an in person room."
+description: "Audio visual rental for remote presentations in Malaga, Spain: room sound, a screen and laptop connectivity for a remote speaker joining an in person room."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-remote-presentations
 publishDate: "2025-12-03"
 updatedDate: "2026-09-25"
-excerpt: "Audio visual rental for remote presentations in Malaga: room sound, a screen and laptop connectivity for a remote speaker joining an in person room."
+excerpt: "Audio visual rental for remote presentations in Malaga, Spain: room sound, a screen and laptop connectivity for a remote speaker joining an in person room."
 coverImage: https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
 tags: []
@@ -21,7 +21,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for audio visual rental for remote presentations in Malaga? This is smaller than a full virtual event: one remote speaker or participant joining an otherwise in person room, a boardroom Q&A with someone calling in, or a presenter addressing a room where a few attendees are remote. The room still needs sound so people can hear the call, a screen so they can see it, and a way to plug a laptop into both.
+Looking for audio visual rental for remote presentations in Malaga, Spain? This is smaller than a full virtual event: one remote speaker or participant joining an otherwise in person room, a boardroom Q&A with someone calling in, or a presenter addressing a room where a few attendees are remote. The room still needs sound so people can hear the call, a screen so they can see it, and a way to plug a laptop into both.
 
 We handle delivery, installation and testing of that room setup throughout Malaga and along the Costa del Sol. The call itself is on you: bring your own laptop, video conferencing software and internet connection.
 

@@ -1,11 +1,11 @@
 ---
 title: "Audio Visual Rental for Sports Events in Malaga, Spain"
-description: "Audio visual rental for sports events in Malaga: PA sound, announcer mics, scoreboard displays and medal ceremony staging, delivered across the Costa del Sol."
+description: "Audio visual rental for sports events in Malaga, Spain: PA sound, announcer mics, scoreboard and medal ceremony staging, delivered across the Costa del Sol."
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-sports-events
 publishDate: 2025-11-30
 updatedDate: "2026-09-25"
-excerpt: "Audio visual rental for sports events in Malaga: PA sound, announcer mics, scoreboard displays and medal ceremony staging, delivered across the Costa del Sol."
+excerpt: "Audio visual rental for sports events in Malaga, Spain: PA sound, announcer mics, scoreboard and medal ceremony staging, delivered across the Costa del Sol."
 coverImage: https://cdn.malagaeventgear.com/blog/1191/billie-jean-king-cup-2024-celebration-lights-sound.webp
 categories: [Audio Visual Rental, Events]
 tags: []
@@ -19,7 +19,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for audio visual rental for sports events in Malaga? A match, tournament or race day needs AV that a normal corporate setup does not: an announcer PA that carries over crowd noise, a scoreboard or presentation screen, and staging for the medal ceremony or team walkout.
+Looking for audio visual rental for sports events in Malaga, Spain? A match, tournament or race day needs AV that a normal corporate setup does not: an announcer PA that carries over crowd noise, a scoreboard or presentation screen, and staging for the medal ceremony or team walkout.
 
 Malaga Event Gear has delivered exactly that setup for real tournaments on the Costa del Sol, including the Billie Jean King Cup 2024. We serve padel clubs, five a side football grounds, tennis clubs and running events across Malaga and the wider Costa del Sol.
 
