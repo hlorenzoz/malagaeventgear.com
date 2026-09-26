@@ -262,6 +262,44 @@ De paso, dos detalles previos que encontró el traductor del post 12:
   it/unique-wedding-ceremony-rentals.svx). Unificar en "finca".
 
 
+-- ❌ DECIDIR: portadas de banco en los 22 posts de bodas (anotado 2026-09-26)
+
+Hallazgo de la auditoría de imágenes (2d7e2c8). MEG no tiene fotos reales de bodas: las 12 de bodas
+son de banco (STOCK_PHOTO_IDS). Los 22 posts de la categoría Weddings usan una de ellas como
+coverImage. La portada no dice "este es nuestro evento", pero es la imagen principal del post (LCP),
+el og:image y la imagen del Article en JSON-LD, con el título del post como alt.
+src/lib/data/stock-photos.test.ts falla si un post usa una foto de banco como portada, con una
+excepción documentada para Weddings mientras esto no se decida.
+Opciones:
+1. Dejarlas así (la portada no afirma nada y el cuerpo ya dice que las fotos son ilustrativas).
+2. Usar de portada una foto real de MEG con sonido o iluminación hasta que haya fotos reales de
+   bodas, y quitar la excepción del test.
+3. Conseguir fotos reales de bodas de MEG (el negocio) y reemplazarlas.
+Posts y portada actual (id del CDN): all-in-one-wedding-rental-packages 1638,
+audio-visual-rental-for-weddings 1630, eco-friendly-wedding-rental-options 1635,
+essential-items-for-wedding-rentals 1632, how-to-choose-wedding-rentals 1629,
+how-to-compare-wedding-rental-quotes 1629, indoor-wedding-rental-essentials 1628,
+latest-trends-in-wedding-rentals 1628, lighting-ideas-for-wedding-rentals 1628,
+making-the-most-of-wedding-rentals 1638, managing-last-minute-wedding-rental-changes 1635,
+outdoor-wedding-rental-considerations 1631, pros-and-cons-of-wedding-rentals 1633,
+protecting-your-wedding-rental-items 1629, questions-to-ask-wedding-rental-companies 1630,
+timeline-for-booking-wedding-rentals 1628, tips-for-reducing-wedding-rental-costs 1637,
+unique-wedding-ceremony-rentals 1630, weather-considerations-for-outdoor-rentals 1625,
+wedding-rentals-near-me 1633, wedding-rentals-online 1630, wedding-rentals 1638.
+
+
+-- ❌ Textos de imágenes de los 12 posts ya traducidos, desde los metadatos nuevos (anotado 2026-09-26)
+
+La auditoría de imágenes (2d7e2c8) reescribió título, alt, pie y ubicación de las 95 imágenes en
+scripts/migrate-wp/manifest.json. Los posts que se traduzcan desde ahora toman de ahí el alt y el
+pie de cada imagen, traducidos. Los 12 posts ya traducidos (lista en "Malaga, Spain en lo ya
+traducido", arriba) se tradujeron con los textos viejos: revisar en sus 12 idiomas que el alt y el
+pie de cada foto real digan lo mismo que el manifest (evento y lugar reales, "provincia de Málaga"
+cuando no hay localidad, Sevilla donde es Sevilla). Ya corregido el 2026-09-26: las fotos 1272,
+1331, 1296 y 1793 en event-technology-service, headset-lavalier-microphone-rental,
+stage-lighting-rental y stage-uplighting. Conviene hacerlo junto con la pasada de "Malaga, Spain".
+
+
 -- ✅ PRIMERO: textos de las imágenes de la galería traducidos y cargados según el idioma (anotado y HECHO 2026-09-25)
 
 Hecho el 2026-09-25: bloque `gallery` en src/lib/i18n/data/<locale>.ts (40 alt por idioma, clave =
