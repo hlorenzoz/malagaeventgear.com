@@ -1,0 +1,78 @@
+---
+title: "Frågor att ställa vid uthyrning till bröllop i Malaga"
+description: "Vad du bör fråga innan du bokar bröllops-AV i Malaga, Spanien: vad som ingår, om en tekniker finns på plats, hur många gäster det täcker och priset."
+excerpt: "Vad du bör fråga innan du bokar bröllops-AV i Malaga, Spanien: vad som ingår, om en tekniker finns på plats, hur många gäster det täcker och priset."
+publishDate: "2026-09-26"
+sourceUpdated: "2026-09-26"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Innan du bokar ett företag för bröllops-AV i Malaga, Spanien, ställ några direkta frågor: vad ingår egentligen, finns det en tekniker på plats under evenemanget, hur många gäster täcker ljudsystemet, och vad kostar det egentligen. Ett vagt svar på någon av dessa frågor är värt att stanna upp vid. För hela bilden av vad vi täcker för bröllop, se vår översikt om [uthyrning till bröllop](/blog/wedding-rentals/). Har du inte bestämt paket än, går vår guide [så väljer du rätt uthyrning till bröllopet](/blog/how-to-choose-wedding-rentals/) igenom de sex frågorna, med start i antalet gäster, som avgör mellan Eco Pack och Wedding Pack, redan innan du granskar en leverantör.
+
+## Kort översikt
+
+---
+
+[Wedding Pack](/packages/wedding/) från Malaga Event Gear omfattar PA-ljud för upp till 80 gäster, stämningsbelysning med ljusslingor, trådlösa mikrofoner till löftena och talen, och en tekniker på plats under hela evenemanget, för 650 € exkl. moms. Använd frågorna nedan för att jämföra det med vilken leverantör du än överväger.
+
+## Det viktigaste
+
+---
+
+-   Fråga exakt vad som ingår i priset: ljud, ljus, mikrofoner, och om en tekniker finns på plats.
+-   Fråga för hur många gäster ljudsystemet är dimensionerat, inte bara vilken lokalstorlek det marknadsförs mot.
+-   Fråga om det offererade priset redan inkluderar moms (den spanska satsen är 21 %) eller om den läggs till i kassan.
+-   Fråga vad som händer om ditt datum eller din lokal ändras efter bokningen.
+
+## Vad som verkligen ingår i priset
+
+Be om en skriftlig lista över vad som ingår i paketet, inte en allmän beskrivning. För Wedding Pack är det PA-ljud för upp till 80 gäster, stämningsbelysning med ljusslingor och varmt LED-ljus, trådlösa mikrofoner, transport, professionell installation, och en tekniker på plats under evenemanget, för 650 € exkl. moms. Kan en leverantör inte ge dig en likvärdig, specificerad lista, är det värt att gräva vidare i den frågan innan du skriver under något.
+
+<InlineCTA />
+
+## Ingår en tekniker
+
+Det här är värt att fråga direkt, eftersom det inte är självklart ens inom en och samma leverantörs egen katalog: hos Malaga Event Gear är Wedding Pack och MICE Pack de enda två paketen med en tekniker på plats, under hela evenemanget i Wedding Pack, och i upp till 6 sammanhängande timmar i MICE Pack. En tekniker upptäcker rundgång i mikrofonen eller en bruten anslutning under löftena eller talen innan det blir det dina gäster kommer ihåg. Är en leverantörs svar vagt om vem som faktiskt är på plats under ditt evenemang, fråga igen.
+
+## Hur många gäster täcker utrustningen
+
+Be om ett konkret antal gäster, inte en beskrivning av lokalens storlek. Wedding Packs PA-ljud är dimensionerat för upp till 80 gäster. Vid ett större bröllop, [kontakta oss](/contact/) direkt för att diskutera alternativ i stället för att anta att ett system skalar automatiskt. En ärlig leverantör talar om för dig när ditt antal gäster överstiger vad ett visst paket klarar av.
+
+## Vad som inte ingår
+
+Ställ den här frågan lika direkt som den om vad som ingår. Malaga Event Gears Wedding Pack innehåller varken projektor, duk eller LED-skärm, eftersom ett bröllop sällan behöver det, och det innehåller inte heller dekor, möbler eller tillbehör till dansgolvet. Hävdar en leverantör att de täcker allt det i en enda AV-uthyrning, be dem specificera det post för post, eftersom AV-utrustning och eventdekor vanligtvis är separata hantverk.
+
+## Bokning och serviceområde
+
+Våra tjänster täcker Malaga, Costa del Sol och Sevilla utan minsta beställning, och sträcker sig till Granada för uthyrningar över 400 €. Bröllopsdatum bokas upp snabbt, och det finns inget fast bokningsfönster, så hör av dig så snart ditt datum och din lokal är bekräftade. Se vår guide [tidsplanen för bokningen](/blog/timeline-for-booking-wedding-rentals/) för mer.
+
+## Slutsats
+
+Fråga vad som ingår, om en tekniker finns på plats, hur många gäster systemet täcker, och vad slutpriset med moms är. Malaga Event Gear besvarar alla fyra frågorna tydligt: Wedding Pack kostar 650 € exkl. moms, täcker upp till 80 gäster, inkluderar en tekniker på plats, och specificeras på vår [paketsida](/packages/). Jämför du det här svaret med en annan leverantörs offert, täcker vår guide [jämföra offerter för bröllopsuthyrning](/blog/how-to-compare-wedding-rental-quotes/) hela checklistan. [Kontakta oss](/contact/) med någon av de här frågorna innan du bokar.
+
+## Vanliga frågor
+
+### Vad bör jag fråga innan jag bokar bröllops-AV?
+
+Fråga vad som ingår i priset, om en tekniker finns på plats, hur många gäster ljudsystemet täcker, och om det offererade priset inkluderar moms. Se avsnitten ovan för hur Malaga Event Gear svarar på var och en av frågorna.
+
+### Ger Malaga Event Gear en skriftlig specifikation av vad som ingår?
+
+Ja. [Paketsidan](/packages/) specificerar exakt vad som ingår i Wedding Pack: PA-ljud, belysning, mikrofoner, transport, installation och tekniker, för 650 € exkl. moms.
+
+### Ingår en tekniker alltid i AV-paket för bröllop?
+
+Inte nödvändigtvis, och det är värt att fråga direkt. I vår egen katalog inkluderar bara Wedding Pack och MICE Pack en tekniker på plats, under hela evenemanget i Wedding Pack, och i upp till 6 sammanhängande timmar i MICE Pack.
+
+### Vad händer om en leverantör inte kan bekräfta tillgänglighet för mitt datum?
+
+Fråga när de kan bekräfta det, och ha den tidsramen i åtanke, eftersom det är tillgänglighet, inte pris, som begränsar ett datum. Se vår guide [tidsplanen för bokningen](/blog/timeline-for-booking-wedding-rentals/).
+
+### Ändras priset beroende på antalet gäster?
+
+Wedding Pack kostar ett fast pris på 650 € exkl. moms för upp till 80 gäster. Vid ett större bröllop, [kontakta oss](/contact/) för att diskutera alternativ i stället för att anta att samma paket skalar automatiskt.

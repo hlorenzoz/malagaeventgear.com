@@ -1,0 +1,78 @@
+---
+title: "Questions à poser pour la location de matériel pour mariage"
+description: "Que demander avant une location de matériel pour mariage à Malaga, en Espagne : ce qui est inclus, un technicien sur place, le nombre d'invités et le prix."
+excerpt: "Que demander avant une location de matériel pour mariage à Malaga, en Espagne : ce qui est inclus, un technicien sur place, le nombre d'invités et le prix."
+publishDate: "2026-09-26"
+sourceUpdated: "2026-09-26"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Avant de réserver un prestataire de location de matériel AV pour un mariage à Malaga, en Espagne, posez quelques questions directes : qu'est-ce qui est exactement inclus, un technicien est-il présent sur place pendant l'événement, combien d'invités la sonorisation peut-elle couvrir, et quel est le coût réel. Une réponse vague à l'une de ces questions mérite qu'on s'y arrête. Pour la vue d'ensemble complète de ce que nous couvrons pour un mariage, consultez notre aperçu [location de matériel pour mariage](/blog/wedding-rentals/). Si vous n'avez pas encore choisi de forfait, notre guide [comment choisir sa location de matériel pour mariage](/blog/how-to-choose-wedding-rentals/) passe en revue les six questions, à commencer par le nombre d'invités, qui déterminent le choix entre l'Eco Pack et le Wedding Pack, avant même de vérifier un prestataire.
+
+## En bref
+
+---
+
+Le [Wedding Pack](/packages/wedding/) de Malaga Event Gear comprend la sonorisation PA pour un maximum de 80 invités, un éclairage d'ambiance en guirlandes lumineuses, des microphones sans fil pour les vœux et les discours, et un technicien en direct sur place pendant toute la durée de l'événement, pour 650 € HT. Utilisez les questions ci-dessous pour comparer cela à n'importe quel prestataire que vous envisagez.
+
+## Points clés
+
+---
+
+-   Demandez exactement ce qui est inclus dans le prix : sonorisation, éclairage, microphones, et la présence ou non d'un technicien.
+-   Demandez pour combien d'invités la sonorisation est prévue, pas seulement pour quelle taille de lieu elle est présentée.
+-   Demandez si le prix indiqué inclut déjà la TVA (le taux espagnol est de 21 %) ou si elle est ajoutée au moment du paiement.
+-   Demandez ce qui se passe si votre date ou votre lieu change après la réservation.
+
+## Ce qui est réellement inclus dans le prix
+
+Demandez une liste écrite de ce qui est inclus dans le forfait, pas une description générale. Pour le Wedding Pack, cela comprend la sonorisation PA pour un maximum de 80 invités, un éclairage d'ambiance en guirlandes lumineuses et LED blanc chaud, des microphones sans fil, le transport, une installation professionnelle, et un technicien en direct sur place pendant l'événement, pour 650 € HT. Si un prestataire ne peut pas vous fournir une liste détaillée équivalente, c'est une question qui mérite d'être creusée avant de signer quoi que ce soit.
+
+<InlineCTA />
+
+## Un technicien est-il inclus
+
+Cette question mérite d'être posée directement, car ce n'est pas systématique, même au sein du catalogue d'un seul prestataire : chez Malaga Event Gear, le Wedding Pack et le MICE Pack sont les deux seuls forfaits qui incluent un technicien en direct sur place, pendant toute la durée de l'événement pour le Wedding Pack, et pendant un maximum de 6 heures continues pour le MICE Pack. Un technicien détecte une boucle de larsen ou une connexion interrompue pendant les vœux ou les discours avant que cela ne devienne ce dont vos invités se souviennent. Si la réponse d'un prestataire reste vague sur qui est réellement présent pendant votre événement, insistez.
+
+## Combien d'invités le matériel peut-il couvrir
+
+Demandez un nombre d'invités précis, pas une description de la taille du lieu. La sonorisation PA du Wedding Pack est prévue pour un maximum de 80 invités. Pour un mariage plus important, [contactez-nous](/contact/) directement pour discuter des options plutôt que de supposer qu'un système s'adaptera automatiquement. Un prestataire honnête vous dira si votre nombre d'invités dépasse ce qu'un forfait donné peut couvrir.
+
+## Ce qui n'est pas inclus
+
+Posez cette question aussi directement que celle sur ce qui est inclus. Le Wedding Pack de Malaga Event Gear ne comprend ni vidéoprojecteur, ni écran, ni écran LED, un mariage en ayant rarement besoin, et il ne comprend pas non plus de décoration, de mobilier ou d'accessoires de piste de danse. Si un prestataire prétend couvrir tout cela dans une seule location AV, demandez-lui de le détailler poste par poste, car le matériel audiovisuel et la décoration d'événement relèvent généralement de métiers distincts.
+
+## Réservation et zone de service
+
+Nos services couvrent Malaga, la Costa del Sol et Séville sans commande minimale, et s'étendent à Grenade pour les locations de plus de 400 €. Les dates de mariage se réservent vite, et il n'existe pas de fenêtre de réservation fixe, alors contactez-nous une fois votre date et votre lieu confirmés. Voir notre guide [calendrier de réservation](/blog/timeline-for-booking-wedding-rentals/) pour en savoir plus.
+
+## Conclusion
+
+Demandez ce qui est inclus, si un technicien est présent sur place, combien d'invités le système couvre, et quel est le prix final avec la TVA. Malaga Event Gear répond clairement à ces quatre questions : le Wedding Pack coûte 650 € HT, couvre jusqu'à 80 invités, inclut un technicien en direct, et est détaillé sur notre [page des forfaits](/packages/). Si vous comparez cette réponse au devis d'un autre prestataire, notre guide [comment comparer les devis de location pour mariage](/blog/how-to-compare-wedding-rental-quotes/) couvre la liste complète des points à vérifier. [Contactez-nous](/contact/) avec n'importe laquelle de ces questions avant de réserver.
+
+## Questions fréquentes
+
+### Que dois-je demander avant de réserver une location AV pour mon mariage ?
+
+Demandez ce qui est inclus dans le prix, si un technicien est présent sur place, combien d'invités la sonorisation couvre, et si le prix indiqué inclut la TVA. Voir les sections ci-dessus pour la réponse de Malaga Event Gear à chacune de ces questions.
+
+### Malaga Event Gear fournit-elle une liste écrite détaillée de ce qui est inclus ?
+
+Oui. La [page des forfaits](/packages/) détaille exactement ce qui est inclus dans le Wedding Pack : sonorisation PA, éclairage, microphones, transport, installation et technicien, pour 650 € HT.
+
+### Un technicien est-il toujours inclus dans les forfaits AV de mariage ?
+
+Pas nécessairement, et cela mérite d'être demandé directement. Dans notre propre catalogue, seuls le Wedding Pack et le MICE Pack incluent un technicien en direct sur place, pendant toute la durée de l'événement pour le Wedding Pack, et pendant un maximum de 6 heures continues pour le MICE Pack.
+
+### Que faire si un prestataire ne peut pas confirmer sa disponibilité pour votre date ?
+
+Demandez-leur quand ils pourront la confirmer, et gardez ce délai à l'esprit, car c'est la disponibilité, pas le prix, qui limite une date. Voir notre guide [calendrier de réservation](/blog/timeline-for-booking-wedding-rentals/).
+
+### Le prix change-t-il selon le nombre d'invités ?
+
+Le Wedding Pack est un forfait fixe de 650 € HT pour un maximum de 80 invités. Pour un mariage plus important, [contactez-nous](/contact/) pour discuter des options plutôt que de supposer que le même forfait s'adapte automatiquement.

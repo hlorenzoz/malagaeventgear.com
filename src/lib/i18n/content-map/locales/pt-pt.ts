@@ -138,6 +138,11 @@ export default {
 			slug: 'poupar-no-aluguer-para-casamentos',
 			keyword: 'poupar no aluguer para casamentos',
 			status: 'propuesta'
+		},
+		'questions-to-ask-wedding-rental-companies': {
+			slug: 'perguntas-a-fazer-no-aluguer-para-casamentos',
+			keyword: 'perguntas a fazer no aluguer para casamentos',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

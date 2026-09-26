@@ -106,6 +106,11 @@ export default {
 			slug: 'reduire-cout-location-materiel-mariage',
 			keyword: 'réduire le coût de la location de matériel pour mariage',
 			status: 'propuesta'
+		},
+		'questions-to-ask-wedding-rental-companies': {
+			slug: 'questions-a-poser-pour-la-location-de-materiel-pour-mariage',
+			keyword: 'questions à poser pour la location de matériel pour mariage',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

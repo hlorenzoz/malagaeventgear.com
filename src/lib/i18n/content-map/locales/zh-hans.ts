@@ -94,6 +94,11 @@ export default {
 			slug: '婚礼设备租赁省钱技巧',
 			keyword: '马拉加 婚礼设备租赁省钱技巧',
 			status: 'propuesta'
+		},
+		'questions-to-ask-wedding-rental-companies': {
+			slug: '婚礼设备租赁必问问题',
+			keyword: '马拉加 婚礼设备租赁必问问题',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

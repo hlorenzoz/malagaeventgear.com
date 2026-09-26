@@ -102,6 +102,11 @@ export default {
 			slug: 'spara-pengar-pa-uthyrning-till-brollop',
 			keyword: 'spara pengar på uthyrning till bröllop',
 			status: 'propuesta'
+		},
+		'questions-to-ask-wedding-rental-companies': {
+			slug: 'fragor-att-stalla-vid-uthyrning-till-brollop',
+			keyword: 'frågor att ställa vid uthyrning till bröllop',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

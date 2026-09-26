@@ -106,6 +106,11 @@ export default {
 			slug: 'kosten-beim-hochzeitsverleih-sparen',
 			keyword: 'Kosten beim Hochzeitsverleih sparen',
 			status: 'propuesta'
+		},
+		'questions-to-ask-wedding-rental-companies': {
+			slug: 'fragen-an-den-hochzeitsverleih',
+			keyword: 'Fragen an den Hochzeitsverleih',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

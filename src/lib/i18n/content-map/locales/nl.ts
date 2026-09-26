@@ -106,6 +106,11 @@ export default {
 			slug: 'besparen-op-verhuur-voor-bruiloften',
 			keyword: 'besparen op verhuur voor bruiloften',
 			status: 'propuesta'
+		},
+		'questions-to-ask-wedding-rental-companies': {
+			slug: 'vragen-stellen-bij-verhuur-voor-bruiloften',
+			keyword: 'vragen stellen bij verhuur voor bruiloften',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

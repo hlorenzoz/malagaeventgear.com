@@ -106,6 +106,11 @@ export default {
 			slug: 'spare-penge-pa-udlejning-til-bryllup',
 			keyword: 'spare penge på udlejning til bryllup',
 			status: 'propuesta'
+		},
+		'questions-to-ask-wedding-rental-companies': {
+			slug: 'sporgsmal-at-stille-ved-udlejning-til-bryllup',
+			keyword: 'spørgsmål at stille ved udlejning til bryllup',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

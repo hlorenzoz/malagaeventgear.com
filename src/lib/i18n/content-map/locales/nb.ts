@@ -110,6 +110,11 @@ export default {
 			slug: 'spare-penger-pa-utleie-til-bryllup',
 			keyword: 'spare penger på utleie til bryllup',
 			status: 'propuesta'
+		},
+		'questions-to-ask-wedding-rental-companies': {
+			slug: 'sporsmal-a-stille-ved-utleie-til-bryllup',
+			keyword: 'spørsmål å stille ved utleie til bryllup',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

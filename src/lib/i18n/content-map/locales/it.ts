@@ -102,6 +102,11 @@ export default {
 			slug: 'risparmiare-noleggio-attrezzature-matrimonio',
 			keyword: 'risparmiare sul noleggio di attrezzature per matrimonio',
 			status: 'propuesta'
+		},
+		'questions-to-ask-wedding-rental-companies': {
+			slug: 'domande-sul-noleggio-attrezzature-matrimoni',
+			keyword: 'domande sul noleggio attrezzature per matrimoni',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

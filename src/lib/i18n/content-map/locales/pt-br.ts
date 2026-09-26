@@ -138,6 +138,11 @@ export default {
 			slug: 'economizar-na-locacao-para-casamento',
 			keyword: 'economizar na locação para casamento',
 			status: 'propuesta'
+		},
+		'questions-to-ask-wedding-rental-companies': {
+			slug: 'perguntas-para-fazer-na-locacao-para-casamento',
+			keyword: 'perguntas para fazer na locação para casamento',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

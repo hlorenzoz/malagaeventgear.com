@@ -94,6 +94,11 @@ export default {
 			slug: '婚禮器材租借省錢貼士',
 			keyword: '馬拉加 婚禮器材租借省錢貼士',
 			status: 'propuesta'
+		},
+		'questions-to-ask-wedding-rental-companies': {
+			slug: '婚禮器材租借必問問題',
+			keyword: '馬拉加 婚禮器材租借必問問題',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
