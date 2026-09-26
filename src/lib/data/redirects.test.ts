@@ -59,8 +59,15 @@ describe('_redirects', () => {
 		expect(to('/author/hector-luis-lorenzo/page/*')).toBe('/blog/author/hector-luis-lorenzo/');
 	});
 
-	it('keeps dynamic (splat) rules within the Cloudflare limit of 100', () => {
-		expect(rules.filter((rule) => rule.from.includes('*') || rule.from.includes(':')).length).toBeLessThanOrEqual(100);
+	it('puts every dynamic (splat) rule after all the static ones, within the limit of 100', () => {
+		// Cloudflare counts every rule from the first dynamic one onward as dynamic, with a limit of
+		// 100. A splat rule near the top failed the production deploy (2026-09-26, code 100324,
+		// "Maximum number of dynamic _redirects rules limit of 100 exceeded").
+		const isDynamic = (rule: { from: string }) => rule.from.includes('*') || rule.from.includes(':');
+		const first = rules.findIndex(isDynamic);
+		const fromFirstDynamic = first === -1 ? [] : rules.slice(first);
+		expect(fromFirstDynamic.filter((rule) => !isDynamic(rule)).map((rule) => rule.from), 'static rules after a dynamic one').toEqual([]);
+		expect(fromFirstDynamic.length).toBeLessThanOrEqual(100);
 	});
 
 	it('never redirects a URL to itself', () => {
