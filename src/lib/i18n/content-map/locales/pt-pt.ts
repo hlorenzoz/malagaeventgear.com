@@ -99,6 +99,11 @@ export default {
 			keyword: 'serviços técnicos para eventos Málaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-corporate-meetings': {
+			slug: 'audiovisual-necessario-reuniao-empresa',
+			keyword: 'o que é preciso de audiovisual numa reunião de empresa em Málaga',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: 'aluguer-de-material-audiovisual',
 			keyword: 'aluguer de material audiovisual em Málaga',

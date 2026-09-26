@@ -1,0 +1,121 @@
+---
+title: "Audiovisuele verhuur voor bedrijfsvergaderingen in Malaga"
+description: "Audiovisuele verhuur voor bedrijfsvergaderingen in Malaga, Spanje: zwanenhalsmicrofoon en scherm voor de bestuurskamer, afgestemd op je vergadering."
+excerpt: "Audiovisuele verhuur voor bedrijfsvergaderingen in Malaga, Spanje: zwanenhalsmicrofoon en scherm voor de bestuurskamer, afgestemd op je vergadering."
+publishDate: "2026-09-26"
+sourceUpdated: "2026-09-26"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Op zoek naar audiovisuele verhuur voor bedrijfsvergaderingen in Malaga, Spanje? Een directievergadering, klantgesprek of gesprek met investeerders is geen conferentie: het is een bestuurskamer of hotelsuite, een vaste positie voor de spreker, en een kleine groep, geen deelsessies of podiumproductie.
+
+Malaga Event Gear levert, bouwt op en test die opstelling in Malaga en de hele Costa del Sol.
+
+Neem vandaag nog contact op om je evenement te bespreken.
+
+## In het kort
+
+---
+
+Malaga Event Gear biedt audiovisuele verhuur voor bedrijfsvergaderingen in Malaga en de hele Costa del Sol: een zwanenhalsmicrofoon voor de bestuurskamer, een beamer en een scherm, en een geluidsinstallatie afgestemd op een kleine groep. Met ervaring die teruggaat tot 1996 leveren, bouwen en testen we de apparatuur zodat jouw vergadering volgens planning verloopt.
+
+Neem vandaag nog contact op om je evenement te bespreken.
+
+## Belangrijkste punten
+
+---
+
+Malaga Event Gear biedt audiovisuele verhuur voor bedrijfsvergaderingen in Malaga en de hele Costa del Sol.
+
+-   Ons [Basic MICE Pack](/packages/basic-mice/) dekt een zwanenhalsmicrofoon voor de bestuurskamer, een beamer en een scherm, tot 40 gasten.
+
+-   Voor een grotere vergadering dekt ons [MICE Pack](/packages/mice/) een 60 inch ledscherm en een inbegrepen technicus, tot 120 gasten.
+
+-   Een technicus is bij het Basic MICE Pack optioneel bij te boeken, niet standaard inbegrepen.
+
+-   Beschikbaar in Malaga, de Costa del Sol en Sevilla, en in Granada bij verhuur boven de 400 euro, met boeking minstens 24 uur van tevoren.
+
+## Een directievergadering is geen conferentie
+
+Een conferentie heeft geluid en een scherm nodig die een grote zaal bereiken, plus deelsessies die parallel lopen. Een directievergadering, klantgesprek of gesprek met investeerders heeft het tegenovergestelde nodig: een bestuurskamer of hotelsuite, een vaste positie voor de spreker aan het hoofd van de tafel, en een kleine groep. Als jouw evenement eigenlijk een volledige conferentie met deelsessies is, zie onze gids over [audiovisuele verhuur voor conferenties](/blog/audio-visual-rental-for-conferences/).
+
+Ons [Basic MICE Pack](/packages/basic-mice/) is hiervoor gemaakt: een zwanenhalsmicrofoon voor de bestuurskamer, een beamer met hoge lichtopbrengst van 3000 lumen en een projectiescherm van 2x2 m, tot 40 gasten. Een technicus is optioneel bij te boeken, niet standaard inbegrepen, omdat de meeste directievergaderingen er geen nodig hebben ter plaatse.
+
+<InlineCTA />
+
+## Wanneer je opschaalt naar het MICE Pack
+
+Voor een grotere bedrijfsvergadering, tot 120 gasten, dekt ons [MICE Pack](/packages/mice/) een 60 inch ledscherm, een zwanenhalsmicrofoon en een draadloze microfoon, plus een technicus tot zes uur ter plaatse. Dat past beter bij een personeelsbijeenkomst met iedereen of een grotere investeerderspresentatie dan het op de bestuurskamer toegesneden Basic MICE Pack.
+
+## Wat we op voorraad hebben, en wat we regelen
+
+We leveren een zwanenhalsmicrofoon, een beamer of ledscherm, een projectiescherm, en een geluidsinstallatie. Videovergaderapparatuur, een ruimtebesturingssysteem en een led-videowall zitten niet in onze eigen apparatuur: het scherm van het MICE Pack is één 60 inch ledscherm, geen modulaire wand. Als jouw vergadering dat nodig heeft, laat het ons weten bij je offerteaanvraag. We nemen contact op met onze leveranciers voor jouw datum en laten je weten wat we vinden, als we iets vinden.
+
+## Echte opstellingen die we hebben geleverd
+
+![Audiovisuele installatie op het podium in Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
+
+Een scherm en een geluidsinstallatie in Hotel Alfonso XIII in Sevilla.
+
+![Huur van een geluidsinstallatie voor het Colegio Oficial de Gestores Administrativos de Malaga.](https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-300x224.webp)
+
+Een geluidsinstallatie opgebouwd voor het Colegio Oficial de Gestores Administrativos de Malaga.
+
+![Huur van een geluidsinstallatie in de balzaal van Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
+
+Een geluidsinstallatie in Hotel Alfonso XIII in Sevilla.
+
+![MICE-opstelling bij een Volvo-dealer in Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
+
+Een scherm en een geluidsinstallatie voor een bedrijfsvergadering in Malaga.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1284/', '/1276/', '/1267/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Boeking en werkgebied
+
+Onze diensten dekken Malaga, de Costa del Sol en Sevilla zonder minimale bestelling, en reiken tot Granada bij verhuur boven de 400 euro. Boek minstens 24 uur van tevoren om beschikbaarheid te garanderen.
+
+Heb je alleen een beamer en scherm nodig, afgestemd op je ruimte? Zie onze gids over [beamer huren](/blog/projector-rental/). Voor een vergadering die in plaats daarvan een zelflichtend scherm nodig heeft, zie onze gids over [tv-scherm huren](/blog/tv-screen-rental/).
+
+## Conclusie
+
+Of het nu een directievergadering, een klantgesprek of een grotere investeerderspresentatie is, Malaga Event Gear levert de microfoon, het scherm en de geluidsinstallatie die jouw vergadering nodig heeft. Voor ons volledige aanbod, zie de [pagina over audiovisuele verhuur](/blog/audio-visual-rental/). [Neem contact op](/contact/) om je evenement te bespreken.
+
+Wil je het boekingsproces zelf begrijpen? Zie onze gids [hoe audiovisuele verhuur werkt](/blog/how-audio-visual-rental-works/). Plan je in plaats daarvan een kleiner zakelijk evenement? Zie onze gids over [audiovisuele verhuur voor kleine bedrijven](/blog/audio-visual-rental-for-small-businesses/). Wil je veelvoorkomende fouten vermijden? Zie onze gids over [veelvoorkomende fouten bij AV-verhuur](/blog/common-av-rental-mistakes/).
+
+## Veelgestelde vragen
+
+### Welke AV-apparatuur heb ik nodig voor een bedrijfsvergadering?
+
+Een zwanenhalsmicrofoon voor de bestuurskamer, een beamer en een scherm, en een geluidsinstallatie afgestemd op een kleine groep. Het [Basic MICE Pack](/packages/basic-mice/) en het [MICE Pack](/packages/mice/) dekken deze behoeften bij verschillende aantallen gasten. Zie [Een directievergadering is geen conferentie](#een-directievergadering-is-geen-conferentie) hierboven.
+
+### Hoe verschilt een bedrijfsvergadering van een conferentie?
+
+Een conferentie heeft een grote zaal nodig en vaak deelsessies die parallel lopen. Een directievergadering, klantgesprek of gesprek met investeerders is kleiner en routinematiger: een bestuurskamer of hotelsuite, een vaste positie voor de spreker, geen deelsessies. Zie onze gids over [audiovisuele verhuur voor conferenties](/blog/audio-visual-rental-for-conferences/) voor het grotere geval.
+
+### Is een technicus inbegrepen bij een bedrijfsvergadering?
+
+Niet standaard bij het [Basic MICE Pack](/packages/basic-mice/): een technicus is optioneel bij te boeken. Het [MICE Pack](/packages/mice/) heeft een technicus tot zes uur ter plaatse inbegrepen.
+
+### Wat kost audiovisuele verhuur voor een bedrijfsvergadering?
+
+Dat hangt af van het pakket: onze volledige catalogus, van het Basic MICE Pack tot het MICE Pack voor een grotere vergadering, staat met exacte prijzen in euro op onze [pakkettenpagina](/packages/). Alle tarieven zijn excl. btw, met de Spaanse btw van 21% erbovenop bij het afrekenen, en elke prijs is inclusief levering, opbouw en afbouw.
+
+### Hoeveel mensen kan een AV-opstelling voor een bedrijfsvergadering aan?
+
+Het Basic MICE Pack dekt tot 40 gasten, en het MICE Pack dekt tot 120. Zie [Wanneer je opschaalt naar het MICE Pack](#wanneer-je-opschaalt-naar-het-mice-pack) hierboven.
+
+### Leveren jullie videovergaderapparatuur voor hybride vergaderingen?
+
+Niet uit onze eigen apparatuur: videovergaderapparatuur zit daar niet bij. Zie [Wat we op voorraad hebben, en wat we regelen](#wat-we-op-voorraad-hebben-en-wat-we-regelen) hierboven. Als jouw vergadering een deelnemer op afstand nodig heeft die aansluit bij een fysieke ruimte, zie in plaats daarvan onze gids over [audiovisuele verhuur voor presentaties op afstand](/blog/audio-visual-rental-for-remote-presentations/).
+
+### Hoe ver van tevoren moet ik AV-apparatuur boeken voor een bedrijfsvergadering?
+
+Boek minstens 24 uur van tevoren om beschikbaarheid te garanderen. Onze diensten zijn beschikbaar in Malaga, de Costa del Sol en Sevilla zonder minimale bestelling, en reiken tot Granada bij verhuur boven de 400 euro.

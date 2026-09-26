@@ -47,6 +47,11 @@ export default {
 			status: 'propuesta'
 		},
 		'event-technology-service': { slug: '活動燈光舞台架設', keyword: '馬拉加 活動燈光舞台架設', status: 'propuesta' },
+		'audio-visual-rental-for-corporate-meetings': {
+			slug: '董事會影音租賃',
+			keyword: '馬拉加 董事會影音租賃',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: '影音器材租借',
 			keyword: '馬拉加 影音器材租借',

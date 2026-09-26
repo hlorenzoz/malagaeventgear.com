@@ -1,0 +1,121 @@
+---
+title: "O que é preciso de audiovisual numa reunião de empresa"
+description: "O que é preciso de audiovisual numa reunião de empresa em Málaga, Espanha: um microfone de pescoço de ganso e um ecrã para a sala de reuniões."
+excerpt: "O que é preciso de audiovisual numa reunião de empresa em Málaga, Espanha: um microfone de pescoço de ganso e um ecrã para a sala de reuniões."
+publishDate: "2026-09-26"
+sourceUpdated: "2026-09-26"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+O que é preciso de audiovisual numa reunião de empresa em Málaga, Espanha? Uma reunião de administração, uma reunião com clientes ou um painel de investidores não é uma conferência: é uma sala de reuniões ou uma suite de hotel, uma posição fixa para quem fala, e um grupo pequeno, sem sessões paralelas nem produção de palco.
+
+A Malaga Event Gear entrega, monta e testa essa montagem em Málaga e em toda a Costa del Sol.
+
+Contacte-nos hoje mesmo para falar sobre o seu evento.
+
+## Resumo
+
+---
+
+A Malaga Event Gear disponibiliza aluguer de audiovisuais para reuniões corporativas em Málaga e em toda a Costa del Sol: um microfone de pescoço de ganso para a sala de reuniões, um projetor e um ecrã, e um sistema de som dimensionado para um grupo pequeno. Com uma experiência que remonta a 1996, entregamos, montamos e testamos o equipamento para que a sua reunião decorra conforme planeado.
+
+Contacte-nos hoje mesmo para falar sobre o seu evento.
+
+## Pontos principais
+
+---
+
+A Malaga Event Gear disponibiliza aluguer de audiovisuais para reuniões corporativas em Málaga e em toda a Costa del Sol.
+
+-   O nosso [Basic MICE Pack](/packages/basic-mice/) cobre um microfone de pescoço de ganso para a sala de reuniões, um projetor e um ecrã, até 40 convidados.
+
+-   Para uma reunião maior, o nosso [MICE Pack](/packages/mice/) cobre um ecrã LED de 60 polegadas e um técnico incluído, até 120 convidados.
+
+-   Um técnico está disponível como extra no Basic MICE Pack, não incluído por defeito.
+
+-   Disponível em Málaga, na Costa del Sol e em Sevilha, e em Granada para alugueres acima de 400 euros, com reserva com pelo menos 24 horas de antecedência.
+
+## Uma reunião de administração não é uma conferência
+
+Uma conferência precisa de som e de um ecrã que alcancem uma sala grande, mais sessões paralelas. Uma reunião de administração, uma reunião com clientes ou um painel de investidores precisa do oposto: uma sala de reuniões ou uma suite de hotel, uma posição fixa para quem fala à cabeceira da mesa, e um grupo pequeno. Se o seu evento é, na verdade, uma conferência completa com sessões paralelas, veja o nosso guia [o que é preciso de audiovisual numa conferência](/blog/audio-visual-rental-for-conferences/).
+
+O nosso [Basic MICE Pack](/packages/basic-mice/) foi pensado para isto: um microfone de pescoço de ganso para a sala de reuniões, um projetor de alto brilho de 3000 lumens e um ecrã de 2x2m, até 40 convidados. Um técnico está disponível como extra, não incluído por defeito, já que a maioria das reuniões de administração não precisa de um no local.
+
+<InlineCTA />
+
+## Quando avançar para o MICE Pack
+
+Para uma reunião corporativa maior, até 120 convidados, o nosso [MICE Pack](/packages/mice/) cobre um ecrã LED de 60 polegadas, um microfone de pescoço de ganso e um microfone sem fios, e um técnico incluído no local até seis horas. Isto adapta-se melhor a uma reunião geral com todos os colaboradores ou a uma apresentação a investidores maior do que o Basic MICE Pack, pensado para a sala de reuniões.
+
+## O que temos em stock, e o que conseguimos
+
+Fornecemos um microfone de pescoço de ganso, um projetor ou ecrã LED, um ecrã de projeção, e um sistema de som. Equipamento de videoconferência, um sistema de controlo de sala e um videowall LED não fazem parte do nosso inventário próprio: o ecrã do MICE Pack é um único ecrã LED de 60 polegadas, não uma parede modular. Se a sua reunião depender de algum destes, diga-nos ao pedir um orçamento. Vamos contactar os nossos fornecedores para a sua data e voltamos com o que encontrarmos, se encontrarmos alguma coisa.
+
+## Montagens reais que já entregámos
+
+![Sistema audiovisual no palco do Hotel Alfonso XIII, em Sevilha.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
+
+Um ecrã e um sistema de som no Hotel Alfonso XIII, em Sevilha.
+
+![Aluguer de sistema de som para o Colegio Oficial de Gestores Administrativos de Malaga.](https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-300x224.webp)
+
+Um sistema de som montado para o Colegio Oficial de Gestores Administrativos de Malaga.
+
+![Aluguer de sistema de som no salão de baile do Hotel Alfonso XIII, em Sevilha.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
+
+Um sistema de som no Hotel Alfonso XIII, em Sevilha.
+
+![Montagem MICE num concessionário Volvo em Málaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
+
+Um ecrã e um sistema de som para uma reunião corporativa em Málaga.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1284/', '/1276/', '/1267/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Reserva e área de serviço
+
+Os nossos serviços cobrem Málaga, a Costa del Sol e Sevilha sem encomenda mínima, e estendem-se a Granada para alugueres acima de 400 euros. Reserve com pelo menos 24 horas de antecedência para garantir disponibilidade.
+
+Só precisa do projetor e do ecrã dimensionados para a sua sala? Veja o nosso guia [aluguer de projetor](/blog/projector-rental/). Para uma reunião que precise de um ecrã autoiluminado em vez disso, veja o nosso guia [aluguer de ecrã de televisão](/blog/tv-screen-rental/).
+
+## Conclusão
+
+Seja uma reunião de administração, uma reunião com clientes ou uma apresentação a investidores maior, a Malaga Event Gear fornece o microfone, o ecrã e o sistema de som de que a sua reunião precisa. Para a nossa gama completa, veja a [página de aluguer de audiovisuais](/blog/audio-visual-rental/). [Contacte-nos](/contact/) para falar sobre o seu evento.
+
+Quer perceber o processo de reserva em si? Veja o nosso guia [como funciona o aluguer de audiovisuais](/blog/how-audio-visual-rental-works/). Está a planear antes um evento profissional mais pequeno? Veja o nosso guia [aluguer de audiovisuais para pequenas empresas](/blog/audio-visual-rental-for-small-businesses/). Quer evitar erros comuns? Veja o nosso guia [erros comuns no aluguer de audiovisuais](/blog/common-av-rental-mistakes/).
+
+## Perguntas frequentes
+
+### De que equipamento audiovisual preciso para uma reunião corporativa?
+
+Um microfone de pescoço de ganso para a sala de reuniões, um projetor e um ecrã, e um sistema de som dimensionado para um grupo pequeno. O [Basic MICE Pack](/packages/basic-mice/) e o [MICE Pack](/packages/mice/) cobrem estas necessidades consoante o número de convidados. Veja [Uma reunião de administração não é uma conferência](#uma-reunião-de-administração-não-é-uma-conferência) acima.
+
+### Em que é que uma reunião corporativa é diferente de uma conferência?
+
+Uma conferência precisa de uma sala grande e, frequentemente, de sessões paralelas. Uma reunião de administração, uma reunião com clientes ou um painel de investidores é mais pequena e mais rotineira: uma sala de reuniões ou uma suite de hotel, uma posição fixa para quem fala, sem sessões paralelas. Veja o nosso guia [o que é preciso de audiovisual numa conferência](/blog/audio-visual-rental-for-conferences/) para o caso maior.
+
+### Um técnico está incluído numa reunião corporativa?
+
+Não por defeito no [Basic MICE Pack](/packages/basic-mice/): um técnico está disponível como extra. O [MICE Pack](/packages/mice/) inclui um técnico no local até seis horas.
+
+### Quanto custa o aluguer de audiovisuais para uma reunião corporativa?
+
+Depende do pacote: o nosso catálogo completo, do Basic MICE Pack até ao MICE Pack para uma reunião maior, está indicado com o preço exato em euros na nossa [página de pacotes](/packages/). Todas as tarifas são sem IVA, com o IVA espanhol de 21% acrescentado no checkout, e cada preço inclui entrega, montagem e recolha.
+
+### Quantas pessoas pode acomodar uma montagem audiovisual para reunião corporativa?
+
+O Basic MICE Pack cobre até 40 convidados, e o MICE Pack cobre até 120. Veja [Quando avançar para o MICE Pack](#quando-avançar-para-o-mice-pack) acima.
+
+### Fornecem equipamento de videoconferência para reuniões híbridas?
+
+Não do nosso inventário próprio: o equipamento de videoconferência não faz parte dele. Veja [O que temos em stock, e o que conseguimos](#o-que-temos-em-stock-e-o-que-conseguimos) acima. Se a sua reunião precisar de um participante remoto que se junte a uma sala presencial, veja antes o nosso guia [aluguer de audiovisuais para apresentações remotas](/blog/audio-visual-rental-for-remote-presentations/).
+
+### Com quanto tempo de antecedência devo reservar o equipamento audiovisual para uma reunião corporativa?
+
+Reserve com pelo menos 24 horas de antecedência para garantir disponibilidade. Os nossos serviços estão disponíveis em Málaga, na Costa del Sol e em Sevilha sem encomenda mínima, e estendem-se a Granada para alugueres acima de 400 euros.

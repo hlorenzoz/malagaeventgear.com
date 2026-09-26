@@ -1,0 +1,121 @@
+---
+title: "Mødeteknik i Malaga, Spanien"
+description: "Mødeteknik i Malaga, Spanien: en svanehalsmikrofon og en skærm til bestyrelseslokalet, tilpasset dit bestyrelsesmøde eller kundemøde."
+excerpt: "Mødeteknik i Malaga, Spanien: en svanehalsmikrofon og en skærm til bestyrelseslokalet, tilpasset dit bestyrelsesmøde eller kundemøde."
+publishDate: "2026-09-26"
+sourceUpdated: "2026-09-26"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Hvilken mødeteknik har du brug for i Malaga, Spanien? Et bestyrelsesmøde, kundemøde eller investormøde er ikke en konference: det er et bestyrelseslokale eller en hotelsuite, en fast plads til den, der taler, og en lille gruppe, ingen sideløbende sessioner eller sceneproduktion.
+
+Malaga Event Gear leverer, opsætter og tester den opsætning i Malaga og langs hele Costa del Sol.
+
+Kontakt os allerede i dag for at tale om dit event.
+
+## Kort overblik
+
+---
+
+Malaga Event Gear tilbyder AV-udlejning til firmamøder i Malaga og langs hele Costa del Sol: en svanehalsmikrofon til bestyrelseslokalet, en projektor og en skærm, og et lydanlæg tilpasset en lille gruppe. Med erfaring, der går tilbage til 1996, leverer, opsætter og tester vi udstyret, så dit møde forløber planmæssigt.
+
+Kontakt os allerede i dag for at tale om dit event.
+
+## Det vigtigste
+
+---
+
+Malaga Event Gear tilbyder AV-udlejning til firmamøder i Malaga og langs hele Costa del Sol.
+
+-   Vores [Basic MICE Pack](/packages/basic-mice/) dækker en svanehalsmikrofon til bestyrelseslokalet, en projektor og en skærm, op til 40 gæster.
+
+-   Til et større møde dækker vores [MICE Pack](/packages/mice/) en 60-tommer LED-skærm og en inkluderet tekniker, op til 120 gæster.
+
+-   En tekniker kan tilkøbes på Basic MICE Pack, ikke inkluderet som standard.
+
+-   Tilgængelig i Malaga, på Costa del Sol og i Sevilla, samt i Granada ved lejemål over 400 euro, med booking mindst 24 timer i forvejen.
+
+## Et bestyrelsesmøde er ikke en konference
+
+En konference har brug for lyd og en skærm, der når ud i en stor sal, plus sideløbende sessioner, der kører parallelt. Et bestyrelsesmøde, kundemøde eller investormøde har brug for det modsatte: et bestyrelseslokale eller en hotelsuite, en fast plads til den, der taler for bordenden, og en lille gruppe. Hvis dit event faktisk er en fuld konference med sideløbende sessioner, se vores guide til [konferenceteknik](/blog/audio-visual-rental-for-conferences/).
+
+Vores [Basic MICE Pack](/packages/basic-mice/) er bygget til det her: en svanehalsmikrofon til bestyrelseslokalet, en projektor med høj lysstyrke på 3000 lumen og et projektorlærred på 2x2 m, op til 40 gæster. En tekniker kan tilkøbes, ikke inkluderet som standard, da de fleste bestyrelsesmøder ikke har brug for en på stedet.
+
+<InlineCTA />
+
+## Hvornår du bør opgradere til MICE Pack
+
+Til et større firmamøde, op til 120 gæster, dækker vores [MICE Pack](/packages/mice/) en 60-tommer LED-skærm, en svanehalsmikrofon og en trådløs mikrofon, samt en tekniker på stedet i op til seks timer. Det passer bedre til et personalemøde for alle medarbejdere eller en større investorpræsentation end det til bestyrelseslokalet tilpassede Basic MICE Pack.
+
+## Hvad vi har på lager, og hvad vi skaffer
+
+Vi leverer en svanehalsmikrofon, en projektor eller LED-skærm, et projektorlærred, og et lydanlæg. Videokonferenceudstyr, et rumstyringssystem og en LED-videovæg er ikke en del af vores eget udstyr: skærmen på MICE Pack er en enkelt 60-tommer LED-skærm, ikke en modulvæg. Hvis dit møde afhænger af det, så sig til, når du beder om et tilbud. Vi kontakter vores leverandører for din dato og vender tilbage med det, vi finder, hvis vi finder noget.
+
+## Rigtige opsætninger, vi har leveret
+
+![Audiovisuelt system på scenen på Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
+
+En skærm og et lydanlæg på Hotel Alfonso XIII i Sevilla.
+
+![Udlejning af lydanlæg til Colegio Oficial de Gestores Administrativos de Malaga.](https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-300x224.webp)
+
+Et lydanlæg opsat til Colegio Oficial de Gestores Administrativos de Malaga.
+
+![Udlejning af lydanlæg i balsalen på Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
+
+Et lydanlæg på Hotel Alfonso XIII i Sevilla.
+
+![MICE-opsætning hos en Volvo-forhandler i Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
+
+En skærm og et lydanlæg til et firmamøde i Malaga.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1284/', '/1276/', '/1267/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Booking og dækningsområde
+
+Vores services dækker Malaga, Costa del Sol og Sevilla uden minimumsbestilling, og strækker sig til Granada ved lejemål over 400 euro. Book mindst 24 timer i forvejen for at sikre dig tilgængelighed.
+
+Har du kun brug for en projektor og skærm tilpasset dit lokale? Se vores guide til [projektorudlejning](/blog/projector-rental/). Til et møde, der i stedet har brug for en selvlysende skærm, se vores guide til [tv-skærmudlejning](/blog/tv-screen-rental/).
+
+## Konklusion
+
+Uanset om det er et bestyrelsesmøde, et kundemøde eller en større investorpræsentation, leverer Malaga Event Gear mikrofonen, skærmen og lydanlægget, dit møde har brug for. Se vores fulde sortiment på [siden om AV-udlejning](/blog/audio-visual-rental/). [Kontakt os](/contact/) for at tale om dit event.
+
+Vil du forstå selve bookingprocessen? Se vores guide til [hvordan AV-udlejning fungerer](/blog/how-audio-visual-rental-works/). Planlægger du i stedet et mindre firmaevent? Se vores guide til [AV-udlejning til mindre virksomheder](/blog/audio-visual-rental-for-small-businesses/). Vil du undgå almindelige fejl? Se vores guide til [almindelige fejl ved AV-udlejning](/blog/common-av-rental-mistakes/).
+
+## Ofte stillede spørgsmål
+
+### Hvilket AV-udstyr har jeg brug for til et firmamøde?
+
+En svanehalsmikrofon til bestyrelseslokalet, en projektor og en skærm, og et lydanlæg tilpasset en lille gruppe. [Basic MICE Pack](/packages/basic-mice/) og [MICE Pack](/packages/mice/) dækker dette behov ved forskellige gæsteantal. Se [Et bestyrelsesmøde er ikke en konference](#et-bestyrelsesmøde-er-ikke-en-konference) ovenfor.
+
+### Hvordan adskiller et firmamøde sig fra en konference?
+
+En konference har brug for en stor sal og ofte sideløbende sessioner, der kører parallelt. Et bestyrelsesmøde, kundemøde eller investormøde er mindre og mere rutinemæssigt: et bestyrelseslokale eller en hotelsuite, en fast plads til den, der taler, ingen sideløbende sessioner. Se vores guide til [konferenceteknik](/blog/audio-visual-rental-for-conferences/) til det større tilfælde.
+
+### Er en tekniker inkluderet til et firmamøde?
+
+Ikke som standard på [Basic MICE Pack](/packages/basic-mice/): en tekniker kan tilkøbes. [MICE Pack](/packages/mice/) inkluderer en tekniker på stedet i op til seks timer.
+
+### Hvad koster AV-udlejning til et firmamøde?
+
+Det afhænger af pakken: vores fulde katalog, fra Basic MICE Pack til MICE Pack til et større møde, er opgivet med præcise priser i euro på vores [pakkeside](/packages/). Alle priser er ekskl. moms, med den sædvanlige spanske moms på 21 % tilføjet ved checkout, og hver pris inkluderer levering, opsætning og afhentning.
+
+### Hvor mange personer kan en AV-opsætning til firmamøder rumme?
+
+Basic MICE Pack dækker op til 40 gæster, og MICE Pack dækker op til 120. Se [Hvornår du bør opgradere til MICE Pack](#hvornår-du-bør-opgradere-til-mice-pack) ovenfor.
+
+### Leverer I videokonferenceudstyr til hybridmøder?
+
+Ikke fra vores eget udstyr: videokonferenceudstyr er ikke en del af det. Se [Hvad vi har på lager, og hvad vi skaffer](#hvad-vi-har-på-lager-og-hvad-vi-skaffer) ovenfor. Hvis dit møde har brug for en deltager på afstand, der kobler sig på et fysisk lokale, se i stedet vores guide til [AV-udlejning til fjernpræsentationer](/blog/audio-visual-rental-for-remote-presentations/).
+
+### Hvor lang tid i forvejen bør jeg booke AV-udstyr til et firmamøde?
+
+Book mindst 24 timer i forvejen for at sikre dig tilgængelighed. Vores services er tilgængelige i Malaga, på Costa del Sol og i Sevilla uden minimumsbestilling, og strækker sig til Granada ved lejemål over 400 euro.

@@ -1,0 +1,121 @@
+---
+title: "Équipement audiovisuel pour une réunion d'entreprise à Malaga"
+description: "Équipement audiovisuel pour une réunion d'entreprise à Malaga, en Espagne : un micro col de cygne et un écran pour la salle de réunion, adaptés à votre réunion."
+excerpt: "Équipement audiovisuel pour une réunion d'entreprise à Malaga, en Espagne : un micro col de cygne et un écran pour la salle de réunion, adaptés à votre réunion."
+publishDate: "2026-09-26"
+sourceUpdated: "2026-09-26"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Vous cherchez un équipement audiovisuel pour une réunion d'entreprise à Malaga, en Espagne ? Un conseil d'administration, une réunion client ou un comité d'investisseurs n'est pas une conférence : c'est une salle de réunion ou une suite d'hôtel, une position fixe pour l'intervenant, et un petit groupe, sans sessions parallèles ni mise en scène.
+
+Malaga Event Gear livre, installe et teste ce dispositif à Malaga et sur toute la Costa del Sol.
+
+Contactez-nous dès aujourd'hui pour discuter de votre événement.
+
+## En bref
+
+---
+
+Malaga Event Gear propose la location audiovisuelle pour réunions d'entreprise à Malaga et sur toute la Costa del Sol : un microphone col de cygne pour la salle de réunion, un vidéoprojecteur et un écran, et une sonorisation adaptée à un petit groupe. Fort d'une expérience qui remonte à 1996, nous livrons, installons et testons le matériel pour que votre réunion se déroule comme prévu.
+
+Contactez-nous dès aujourd'hui pour discuter de votre événement.
+
+## Points clés
+
+---
+
+Malaga Event Gear propose la location audiovisuelle pour réunions d'entreprise à Malaga et sur toute la Costa del Sol.
+
+-   Notre [Basic MICE Pack](/packages/basic-mice/) couvre un microphone col de cygne pour la salle de réunion, un vidéoprojecteur et un écran, jusqu'à 40 invités.
+
+-   Pour une réunion plus importante, notre [MICE Pack](/packages/mice/) couvre un écran LED de 60 pouces et un technicien inclus, jusqu'à 120 invités.
+
+-   Un technicien est disponible en option sur le Basic MICE Pack, non inclus par défaut.
+
+-   Disponible à Malaga, sur la Costa del Sol et à Sevilla, et à Granada pour les locations de plus de 400 euros, avec réservation au moins 24 heures à l'avance.
+
+## Un conseil d'administration n'est pas une conférence
+
+Une conférence a besoin d'une sonorisation et d'un écran qui couvrent une grande salle, avec des sessions parallèles. Un conseil d'administration, une réunion client ou un comité d'investisseurs a besoin de l'inverse : une salle de réunion ou une suite d'hôtel, une position fixe pour l'intervenant en bout de table, et un petit groupe. Si votre événement est en réalité une conférence complète avec des sessions parallèles, voir notre guide [équipement audiovisuel pour une conférence](/blog/audio-visual-rental-for-conferences/).
+
+Notre [Basic MICE Pack](/packages/basic-mice/) est conçu pour cela : un microphone col de cygne pour la salle de réunion, un vidéoprojecteur haute luminosité de 3000 lumens et un écran de projection de 2x2 m, jusqu'à 40 invités. Un technicien est disponible en option, non inclus par défaut, car la plupart des conseils d'administration n'en ont pas besoin sur place.
+
+<InlineCTA />
+
+## Passer au MICE Pack
+
+Pour une réunion d'entreprise plus importante, jusqu'à 120 invités, notre [MICE Pack](/packages/mice/) couvre un écran LED de 60 pouces, un microphone col de cygne et un microphone sans fil, ainsi qu'un technicien sur place jusqu'à six heures. Cela convient mieux à une réunion générale du personnel ou à une présentation aux investisseurs plus importante que le Basic MICE Pack, pensé pour la salle de réunion.
+
+## Ce que nous avons en stock, et ce que nous trouvons
+
+Nous fournissons un microphone col de cygne, un vidéoprojecteur ou un écran LED, un écran de projection, et une sonorisation. Le matériel de visioconférence, un système de contrôle de salle et un mur vidéo LED ne font pas partie de notre propre matériel : l'écran du MICE Pack est un seul écran LED de 60 pouces, pas un mur modulaire. Si votre réunion en dépend, indiquez-le lors de votre demande de devis. Nous contacterons nos fournisseurs pour votre date et reviendrons vers vous avec ce que nous aurons trouvé, s'il y a quelque chose.
+
+## Installations réelles que nous avons livrées
+
+![Système audiovisuel sur scène à l'Hotel Alfonso XIII, à Sevilla.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
+
+Un écran et une sonorisation installés dans l'Hotel Alfonso XIII à Sevilla.
+
+![Location de sonorisation pour le Colegio Oficial de Gestores Administrativos de Malaga.](https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-300x224.webp)
+
+Une sonorisation installée pour le Colegio Oficial de Gestores Administrativos de Malaga.
+
+![Location de sonorisation dans la salle de bal de l'Hotel Alfonso XIII, à Sevilla.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
+
+Une sonorisation installée à l'Hotel Alfonso XIII à Sevilla.
+
+![Installation MICE dans une concession Volvo à Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
+
+Un écran et une sonorisation pour une réunion d'entreprise à Malaga.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1284/', '/1276/', '/1267/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Réservation et zone de service
+
+Nos services couvrent Malaga, la Costa del Sol et Sevilla sans minimum de commande, et s'étendent jusqu'à Granada pour les locations de plus de 400 euros. Réservez au moins 24 heures à l'avance pour garantir la disponibilité.
+
+Besoin seulement d'un vidéoprojecteur et d'un écran adaptés à votre salle ? Voir notre guide [location de vidéoprojecteur](/blog/projector-rental/). Pour une réunion qui a besoin d'un écran autoéclairé à la place, voir notre guide [location d'écran de télévision](/blog/tv-screen-rental/).
+
+## Conclusion
+
+Qu'il s'agisse d'un conseil d'administration, d'une réunion client ou d'une présentation aux investisseurs plus importante, Malaga Event Gear fournit le microphone, l'écran et la sonorisation dont votre réunion a besoin. Pour notre gamme complète, voir la [page de location audiovisuelle](/blog/audio-visual-rental/). [Contactez-nous](/contact/) pour discuter de votre événement.
+
+Vous voulez comprendre le processus de réservation lui-même ? Voir notre guide [comment fonctionne la location audiovisuelle](/blog/how-audio-visual-rental-works/). Vous préparez plutôt un petit événement professionnel ? Voir notre guide [location audiovisuelle pour petites entreprises](/blog/audio-visual-rental-for-small-businesses/). Vous voulez éviter les erreurs courantes ? Voir notre guide [erreurs courantes de location audiovisuelle](/blog/common-av-rental-mistakes/).
+
+## Questions fréquentes
+
+### De quel équipement audiovisuel ai-je besoin pour une réunion d'entreprise ?
+
+Un microphone col de cygne pour la salle de réunion, un vidéoprojecteur et un écran, et une sonorisation adaptée à un petit groupe. Le [Basic MICE Pack](/packages/basic-mice/) et le [MICE Pack](/packages/mice/) couvrent ces besoins selon le nombre d'invités. Voir [Un conseil d'administration n'est pas une conférence](#un-conseil-dadministration-nest-pas-une-conférence) ci-dessus.
+
+### En quoi une réunion d'entreprise diffère-t-elle d'une conférence ?
+
+Une conférence a besoin d'une grande salle et souvent de sessions parallèles. Un conseil d'administration, une réunion client ou un comité d'investisseurs est plus restreint et plus routinier : une salle de réunion ou une suite d'hôtel, une position fixe pour l'intervenant, sans sessions parallèles. Voir notre guide [équipement audiovisuel pour une conférence](/blog/audio-visual-rental-for-conferences/) pour le cas des grands événements.
+
+### Un technicien est-il inclus pour une réunion d'entreprise ?
+
+Pas par défaut sur le [Basic MICE Pack](/packages/basic-mice/) : un technicien est disponible en option. Le [MICE Pack](/packages/mice/) inclut un technicien sur place jusqu'à six heures.
+
+### Combien coûte la location audiovisuelle pour une réunion d'entreprise ?
+
+Le prix dépend du forfait : notre catalogue complet, du Basic MICE Pack jusqu'au MICE Pack pour une réunion plus importante, est indiqué avec des tarifs exacts en euros sur notre [page des forfaits](/packages/). Tous les tarifs sont HT, la TVA espagnole de 21 % étant ajoutée au moment du paiement, et chaque prix inclut la livraison, l'installation et la reprise.
+
+### Combien de personnes un dispositif audiovisuel pour réunion d'entreprise peut-il accueillir ?
+
+Le Basic MICE Pack couvre jusqu'à 40 invités, et le MICE Pack couvre jusqu'à 120. Voir [Passer au MICE Pack](#passer-au-mice-pack) ci-dessus.
+
+### Fournissez-vous du matériel de visioconférence pour les réunions hybrides ?
+
+Pas avec notre propre matériel : le matériel de visioconférence n'en fait pas partie. Voir [Ce que nous avons en stock, et ce que nous trouvons](#ce-que-nous-avons-en-stock-et-ce-que-nous-trouvons) ci-dessus. Si votre réunion a besoin d'un participant à distance rejoignant une salle en présentiel, voir plutôt notre guide [location audiovisuelle pour présentations à distance](/blog/audio-visual-rental-for-remote-presentations/).
+
+### Combien de temps à l'avance dois-je réserver le matériel audiovisuel pour une réunion d'entreprise ?
+
+Réservez au moins 24 heures à l'avance pour garantir la disponibilité. Nos services sont disponibles à Malaga, sur la Costa del Sol et à Sevilla sans minimum de commande, et s'étendent jusqu'à Granada pour les locations de plus de 400 euros.

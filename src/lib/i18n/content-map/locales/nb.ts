@@ -71,6 +71,11 @@ export default {
 			keyword: 'lys- og sceneteknikk Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-corporate-meetings': {
+			slug: 'moteteknikk',
+			keyword: 'møteteknikk Malaga',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: 'utleie-av-audiovisuelt-utstyr',
 			keyword: 'utleie av audiovisuelt utstyr i Malaga',

@@ -67,6 +67,11 @@ export default {
 			keyword: 'Licht- und Bühnentechnik Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-corporate-meetings': {
+			slug: 'av-vermietung-firmenmeetings',
+			keyword: 'AV-Vermietung für Firmenmeetings in Malaga',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: 'av-technik-verleih',
 			keyword: 'AV-Technik-Verleih Malaga',

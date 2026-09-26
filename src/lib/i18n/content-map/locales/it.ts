@@ -63,6 +63,11 @@ export default {
 			keyword: 'luci e palco per eventi Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-corporate-meetings': {
+			slug: 'attrezzatura-audiovisiva-riunioni-aziendali',
+			keyword: 'attrezzatura audiovisiva per riunioni aziendali a Malaga',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: 'servizio-noleggio-audio-video',
 			keyword: 'servizio di noleggio audio video a Malaga',

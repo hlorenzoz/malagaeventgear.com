@@ -1,0 +1,121 @@
+---
+title: "AV-Vermietung für Firmenmeetings in Malaga, Spanien"
+description: "AV-Vermietung für Firmenmeetings in Malaga, Spanien: Schwanenhalsmikrofon und Leinwand für den Besprechungsraum, abgestimmt auf Ihr Meeting."
+excerpt: "AV-Vermietung für Firmenmeetings in Malaga, Spanien: Schwanenhalsmikrofon und Leinwand für den Besprechungsraum, abgestimmt auf Ihr Meeting."
+publishDate: "2026-09-26"
+sourceUpdated: "2026-09-26"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Suchen Sie eine AV-Vermietung für Firmenmeetings in Malaga, Spanien? Eine Vorstandssitzung, ein Kundentermin oder eine Investorenrunde ist keine Konferenz: Es ist ein Besprechungsraum oder eine Hotelsuite, eine feste Position für den Sprecher, und eine kleine Gruppe, keine Breakout-Räume und keine Bühnenproduktion.
+
+Malaga Event Gear liefert, baut auf und testet diesen Aufbau in Malaga und an der gesamten Costa del Sol.
+
+Kontaktieren Sie uns noch heute, um über Ihre Veranstaltung zu sprechen.
+
+## Kurzüberblick
+
+---
+
+Malaga Event Gear bietet AV-Vermietung für Firmenmeetings in Malaga und an der gesamten Costa del Sol: ein Schwanenhalsmikrofon für den Besprechungsraum, einen Beamer und eine Leinwand, und eine Tonanlage, abgestimmt auf eine kleine Gruppe. Gestützt auf Erfahrung seit 1996 liefern, bauen und testen wir die Technik auf, damit Ihr Meeting planmäßig läuft.
+
+Kontaktieren Sie uns noch heute, um über Ihre Veranstaltung zu sprechen.
+
+## Das Wichtigste
+
+---
+
+Malaga Event Gear bietet AV-Vermietung für Firmenmeetings in Malaga und an der gesamten Costa del Sol.
+
+-   Unser [Basic MICE Pack](/packages/basic-mice/) deckt ein Schwanenhalsmikrofon für den Besprechungsraum, einen Beamer und eine Leinwand ab, bis zu 40 Gäste.
+
+-   Für ein größeres Meeting deckt unser [MICE Pack](/packages/mice/) ein 60-Zoll-LED-Display und einen enthaltenen Techniker ab, bis zu 120 Gäste.
+
+-   Ein Techniker ist beim Basic MICE Pack als Zusatzoption buchbar, nicht standardmäßig enthalten.
+
+-   Verfügbar in Malaga, an der Costa del Sol und in Sevilla, sowie in Granada bei Mietaufträgen über 400 Euro, mit Buchung mindestens 24 Stunden im Voraus.
+
+## Eine Vorstandssitzung ist keine Konferenz
+
+Eine Konferenz braucht eine Tonanlage und eine Leinwand, die einen großen Raum erreichen, plus parallel laufende Breakout-Sessions. Eine Vorstandssitzung, ein Kundentermin oder eine Investorenrunde braucht das Gegenteil: einen Besprechungsraum oder eine Hotelsuite, eine feste Position für den Sprecher am Kopfende des Tisches, und eine kleine Gruppe. Wenn Ihre Veranstaltung tatsächlich eine vollständige Konferenz mit Breakout-Räumen ist, sehen Sie sich unseren Leitfaden zur [AV-Vermietung für Konferenzen](/blog/audio-visual-rental-for-conferences/) an.
+
+Unser [Basic MICE Pack](/packages/basic-mice/) ist genau dafür gemacht: ein Schwanenhalsmikrofon für den Besprechungsraum, ein lichtstarker 3000-Lumen-Beamer und eine 2x2 m Projektionsleinwand, bis zu 40 Gäste. Ein Techniker ist als Zusatzoption buchbar, nicht standardmäßig enthalten, da die meisten Vorstandssitzungen keinen vor Ort brauchen.
+
+<InlineCTA />
+
+## Wann sich das MICE Pack lohnt
+
+Für ein größeres Firmenmeeting, bis zu 120 Gäste, deckt unser [MICE Pack](/packages/mice/) ein 60-Zoll-LED-Display, ein Schwanenhalsmikrofon und ein drahtloses Mikrofon ab, sowie einen Techniker bis zu sechs Stunden vor Ort. Das passt besser zu einer Betriebsversammlung oder einer größeren Investorenpräsentation als das auf den Besprechungsraum zugeschnittene Basic MICE Pack.
+
+## Was wir vorrätig haben, und was wir beschaffen
+
+Wir stellen ein Schwanenhalsmikrofon, einen Beamer oder ein LED-Display, eine Projektionsleinwand und eine Tonanlage bereit. Videokonferenz-Technik, ein Raumsteuerungssystem und eine LED-Videowand gehören nicht zu unserer eigenen Technik: Das Display des MICE Pack ist ein einzelnes 60-Zoll-LED-Display, keine modulare Wand. Wenn Ihr Meeting darauf angewiesen ist, sagen Sie es uns bei der Angebotsanfrage. Wir fragen bei unseren Lieferanten für Ihr Datum nach und melden uns mit dem, was wir finden, falls wir etwas finden.
+
+## Echte Aufbauten, die wir geliefert haben
+
+![AV-Anlage auf der Bühne im Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
+
+Eine Leinwand und eine Tonanlage im Hotel Alfonso XIII in Sevilla.
+
+![Vermietung einer Tonanlage für das Colegio Oficial de Gestores Administrativos de Malaga.](https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-300x224.webp)
+
+Eine Tonanlage für das Colegio Oficial de Gestores Administrativos de Malaga.
+
+![Vermietung einer Tonanlage im Ballsaal des Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
+
+Eine Tonanlage im Hotel Alfonso XIII in Sevilla.
+
+![MICE-Aufbau bei einem Volvo-Autohaus in Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
+
+Eine Leinwand und eine Tonanlage für ein Firmenmeeting in Malaga.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1284/', '/1276/', '/1267/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Buchung und Einsatzgebiet
+
+Unsere Services decken Malaga, die Costa del Sol und Sevilla ohne Mindestbestellwert ab und reichen bis nach Granada bei Mietaufträgen über 400 Euro. Buchen Sie mindestens 24 Stunden im Voraus, um die Verfügbarkeit zu sichern.
+
+Brauchen Sie nur einen Beamer und eine Leinwand, abgestimmt auf Ihren Raum? Sehen Sie sich unseren Leitfaden zur [Beamer-Vermietung](/blog/projector-rental/) an. Für ein Meeting, das stattdessen einen selbstleuchtenden Bildschirm braucht, sehen Sie sich unseren Leitfaden zur [TV-Bildschirm-Vermietung](/blog/tv-screen-rental/) an.
+
+## Fazit
+
+Ob Vorstandssitzung, Kundentermin oder größere Investorenpräsentation: Malaga Event Gear liefert das Mikrofon, die Leinwand und die Tonanlage, die Ihr Meeting braucht. Die vollständige Übersicht unseres Angebots finden Sie auf der [Seite zur AV-Vermietung](/blog/audio-visual-rental/). [Kontaktieren Sie uns](/contact/), um über Ihre Veranstaltung zu sprechen.
+
+Möchten Sie den Buchungsprozess selbst verstehen? Sehen Sie sich unseren Leitfaden [so funktioniert AV-Vermietung](/blog/how-audio-visual-rental-works/) an. Planen Sie stattdessen eine kleinere Firmenveranstaltung? Sehen Sie sich unseren Leitfaden zur [AV-Vermietung für kleine Unternehmen](/blog/audio-visual-rental-for-small-businesses/) an. Möchten Sie häufige Fehler vermeiden? Sehen Sie sich unseren Leitfaden zu den [häufigsten Fehlern bei der AV-Vermietung](/blog/common-av-rental-mistakes/) an.
+
+## Häufige Fragen
+
+### Welche AV-Technik brauche ich für ein Firmenmeeting?
+
+Ein Schwanenhalsmikrofon für den Besprechungsraum, einen Beamer und eine Leinwand, und eine Tonanlage, abgestimmt auf eine kleine Gruppe. Das [Basic MICE Pack](/packages/basic-mice/) und das [MICE Pack](/packages/mice/) decken diesen Bedarf je nach Gästezahl ab. Siehe [Eine Vorstandssitzung ist keine Konferenz](#eine-vorstandssitzung-ist-keine-konferenz) oben.
+
+### Wie unterscheidet sich ein Firmenmeeting von einer Konferenz?
+
+Eine Konferenz braucht einen großen Raum und oft parallel laufende Breakout-Sessions. Eine Vorstandssitzung, ein Kundentermin oder eine Investorenrunde ist kleiner und routinemäßiger: ein Besprechungsraum oder eine Hotelsuite, eine feste Position für den Sprecher, keine Breakout-Räume. Sehen Sie sich unseren Leitfaden zur [AV-Vermietung für Konferenzen](/blog/audio-visual-rental-for-conferences/) für den größeren Fall an.
+
+### Ist ein Techniker bei einem Firmenmeeting enthalten?
+
+Nicht standardmäßig beim [Basic MICE Pack](/packages/basic-mice/): ein Techniker ist als Zusatzoption buchbar. Das [MICE Pack](/packages/mice/) enthält einen Techniker bis zu sechs Stunden vor Ort.
+
+### Was kostet AV-Vermietung für ein Firmenmeeting?
+
+Das hängt vom Paket ab: unser gesamter Katalog, vom Basic MICE Pack bis zum MICE Pack für ein größeres Meeting, ist mit genauen Preisen in Euro auf unserer [Paketseite](/packages/) aufgeführt. Alle Preise verstehen sich zzgl. MwSt., die spanische Mehrwertsteuer von 21 % kommt beim Bezahlen hinzu, und jeder Preis umfasst Lieferung, Aufbau und Abbau.
+
+### Wie viele Personen fasst ein AV-Aufbau für ein Firmenmeeting?
+
+Das Basic MICE Pack deckt bis zu 40 Gäste ab, und das MICE Pack bis zu 120. Siehe [Wann sich das MICE Pack lohnt](#wann-sich-das-mice-pack-lohnt) oben.
+
+### Stellen Sie Videokonferenz-Technik für hybride Meetings bereit?
+
+Nicht aus unserer eigenen Technik: Videokonferenz-Technik gehört nicht dazu. Siehe [Was wir vorrätig haben, und was wir beschaffen](#was-wir-vorrätig-haben-und-was-wir-beschaffen) oben. Wenn Ihr Meeting einen Remote-Teilnehmer braucht, der sich zu einem Präsenzraum zuschaltet, sehen Sie sich stattdessen unseren Leitfaden zur [AV-Vermietung für Remote-Präsentationen](/blog/audio-visual-rental-for-remote-presentations/) an.
+
+### Wie weit im Voraus sollte ich AV-Technik für ein Firmenmeeting buchen?
+
+Buchen Sie mindestens 24 Stunden im Voraus, um die Verfügbarkeit zu sichern. Unsere Services sind in Malaga, an der Costa del Sol und in Sevilla ohne Mindestbestellwert verfügbar und reichen bis nach Granada bei Mietaufträgen über 400 Euro.

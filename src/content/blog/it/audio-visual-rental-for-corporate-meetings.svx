@@ -1,0 +1,121 @@
+---
+title: "Attrezzatura audiovisiva per riunioni aziendali a Malaga"
+description: "Attrezzatura audiovisiva per riunioni aziendali a Malaga, in Spagna: un microfono a collo d'oca e uno schermo per la sala riunioni della tua azienda."
+excerpt: "Attrezzatura audiovisiva per riunioni aziendali a Malaga, in Spagna: un microfono a collo d'oca e uno schermo per la sala riunioni della tua azienda."
+publishDate: "2026-09-26"
+sourceUpdated: "2026-09-26"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Cerchi attrezzatura audiovisiva per riunioni aziendali a Malaga, in Spagna? Una riunione del consiglio, un incontro con un cliente o una tavola con gli investitori non è una conferenza: è una sala riunioni o una suite d'hotel, una postazione fissa per chi parla, e un piccolo gruppo, non sale breakout né una produzione da palco.
+
+Malaga Event Gear consegna, installa e testa questo allestimento a Malaga e in tutta la Costa del Sol.
+
+Contattaci oggi stesso per parlare del tuo evento.
+
+## In breve
+
+---
+
+Malaga Event Gear offre il noleggio audiovisivo per riunioni aziendali a Malaga e in tutta la Costa del Sol: un microfono a collo d'oca per la sala riunioni, un proiettore e uno schermo, e un impianto audio dimensionato per un piccolo gruppo. Con un'esperienza che risale al 1996, consegniamo, installiamo e testiamo l'attrezzatura perché la tua riunione proceda secondo programma.
+
+Contattaci oggi stesso per parlare del tuo evento.
+
+## Punti chiave
+
+---
+
+Malaga Event Gear offre il noleggio audiovisivo per riunioni aziendali a Malaga e in tutta la Costa del Sol.
+
+-   Il nostro [Basic MICE Pack](/packages/basic-mice/) copre un microfono a collo d'oca per la sala riunioni, un proiettore e uno schermo, fino a 40 ospiti.
+
+-   Per una riunione più grande, il nostro [MICE Pack](/packages/mice/) copre uno schermo LED da 60 pollici e un tecnico incluso, fino a 120 ospiti.
+
+-   Un tecnico è disponibile come opzione sul Basic MICE Pack, non incluso di default.
+
+-   Disponibile a Malaga, sulla Costa del Sol e a Sevilla, e a Granada per i noleggi superiori a 400 euro, con prenotazione con almeno 24 ore di anticipo.
+
+## Una riunione del consiglio non è una conferenza
+
+Una conferenza ha bisogno di un impianto audio e di uno schermo che raggiungano una sala grande, più sessioni breakout in parallelo. Una riunione del consiglio, un incontro con un cliente o una tavola con gli investitori ha bisogno dell'opposto: una sala riunioni o una suite d'hotel, una postazione fissa per chi parla a capotavola, e un piccolo gruppo. Se il tuo evento è in realtà una conferenza completa con sale breakout, vedi la nostra guida [attrezzatura audiovisiva per conferenze](/blog/audio-visual-rental-for-conferences/).
+
+Il nostro [Basic MICE Pack](/packages/basic-mice/) è pensato per questo: un microfono a collo d'oca per la sala riunioni, un proiettore ad alta luminosità da 3000 lumen e uno schermo da 2x2 m, fino a 40 ospiti. Un tecnico è disponibile come opzione, non incluso di default, perché la maggior parte delle riunioni del consiglio non ne ha bisogno sul posto.
+
+<InlineCTA />
+
+## Quando passare al MICE Pack
+
+Per una riunione aziendale più grande, fino a 120 ospiti, il nostro [MICE Pack](/packages/mice/) copre uno schermo LED da 60 pollici, un microfono a collo d'oca e un microfono wireless, e un tecnico incluso sul posto fino a sei ore. Questo si adatta meglio a una riunione plenaria con tutto il personale o a una presentazione agli investitori più grande, rispetto al Basic MICE Pack, pensato per la sala riunioni.
+
+## Cosa abbiamo in magazzino, e cosa troviamo per te
+
+Forniamo un microfono a collo d'oca, un proiettore o uno schermo LED, uno schermo di proiezione, e un impianto audio. L'hardware per videoconferenza, un sistema di controllo sala e un videowall LED non fanno parte della nostra attrezzatura: lo schermo del MICE Pack è un unico schermo LED da 60 pollici, non un muro modulare. Se la tua riunione ne ha bisogno, dillo quando richiedi un preventivo. Contatteremo i nostri fornitori per la tua data e ti risponderemo con quello che avremo trovato, se troviamo qualcosa.
+
+## Allestimenti reali che abbiamo consegnato
+
+![Impianto audiovisivo sul palco all'Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
+
+Uno schermo e un impianto audio allestiti all'Hotel Alfonso XIII a Sevilla.
+
+![Noleggio impianto audio per il Colegio Oficial de Gestores Administrativos de Malaga.](https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-300x224.webp)
+
+Un impianto audio allestito per il Colegio Oficial de Gestores Administrativos de Malaga.
+
+![Noleggio impianto audio nella sala da ballo dell'Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
+
+Un impianto audio allestito all'Hotel Alfonso XIII a Sevilla.
+
+![Allestimento MICE presso una concessionaria Volvo a Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
+
+Uno schermo e un impianto audio per una riunione aziendale a Malaga.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1284/', '/1276/', '/1267/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Prenotazione e area di servizio
+
+I nostri servizi coprono Malaga, la Costa del Sol e Sevilla senza ordine minimo, e si estendono a Granada per i noleggi superiori a 400 euro. Prenota con almeno 24 ore di anticipo per garantirti la disponibilità.
+
+Ti serve solo un proiettore e uno schermo dimensionati per la tua sala? Vedi la nostra guida sul [noleggio proiettore](/blog/projector-rental/). Per una riunione che ha bisogno invece di uno schermo autoilluminato, vedi la nostra guida sul [noleggio schermo TV](/blog/tv-screen-rental/).
+
+## Conclusione
+
+Che si tratti di una riunione del consiglio, di un incontro con un cliente o di una presentazione agli investitori più grande, Malaga Event Gear fornisce il microfono, lo schermo e l'impianto audio di cui la tua riunione ha bisogno. Per la nostra gamma completa, vedi la [pagina del noleggio audiovisivo](/blog/audio-visual-rental/). [Contattaci](/contact/) per parlare del tuo evento.
+
+Vuoi capire il processo di prenotazione in sé? Vedi la nostra guida su [come funziona il noleggio audiovisivo](/blog/how-audio-visual-rental-works/). Stai organizzando invece un evento aziendale più piccolo? Vedi la nostra guida sul [noleggio audiovisivo per piccole imprese](/blog/audio-visual-rental-for-small-businesses/). Vuoi evitare gli errori più comuni? Vedi la nostra guida sugli [errori comuni nel noleggio audiovisivo](/blog/common-av-rental-mistakes/).
+
+## Domande frequenti
+
+### Di quale attrezzatura audiovisiva ho bisogno per una riunione aziendale?
+
+Un microfono a collo d'oca per la sala riunioni, un proiettore e uno schermo, e un impianto audio dimensionato per un piccolo gruppo. Il [Basic MICE Pack](/packages/basic-mice/) e il [MICE Pack](/packages/mice/) coprono queste esigenze per numeri di ospiti diversi. Vedi [Una riunione del consiglio non è una conferenza](#una-riunione-del-consiglio-non-è-una-conferenza) più sopra.
+
+### In cosa una riunione aziendale è diversa da una conferenza?
+
+Una conferenza ha bisogno di una sala grande e spesso di sessioni breakout in parallelo. Una riunione del consiglio, un incontro con un cliente o una tavola con gli investitori è più ristretta e più abituale: una sala riunioni o una suite d'hotel, una postazione fissa per chi parla, senza sale breakout. Vedi la nostra guida [attrezzatura audiovisiva per conferenze](/blog/audio-visual-rental-for-conferences/) per il caso degli eventi più grandi.
+
+### Il tecnico è incluso per una riunione aziendale?
+
+Non di default sul [Basic MICE Pack](/packages/basic-mice/): un tecnico è disponibile come opzione. Il [MICE Pack](/packages/mice/) include un tecnico sul posto fino a sei ore.
+
+### Quanto costa il noleggio audiovisivo per una riunione aziendale?
+
+Il prezzo dipende dal pacchetto: il nostro catalogo completo, dal Basic MICE Pack fino al MICE Pack per una riunione più grande, è elencato con il prezzo esatto in euro nella nostra [pagina dei pacchetti](/packages/). Tutti i prezzi sono al netto dell'IVA, con l'IVA spagnola del 21% aggiunta al momento del pagamento, e ogni prezzo include consegna, allestimento e smontaggio.
+
+### Quante persone può accogliere un allestimento audiovisivo per riunioni aziendali?
+
+Il Basic MICE Pack copre fino a 40 ospiti, e il MICE Pack copre fino a 120. Vedi [Quando passare al MICE Pack](#quando-passare-al-mice-pack) più sopra.
+
+### Fornite attrezzatura per videoconferenza per riunioni ibride?
+
+Non dalla nostra attrezzatura: l'hardware per videoconferenza non ne fa parte. Vedi [Cosa abbiamo in magazzino, e cosa troviamo per te](#cosa-abbiamo-in-magazzino-e-cosa-troviamo-per-te) più sopra. Se la tua riunione ha bisogno di un partecipante da remoto che si unisce a una sala in presenza, vedi invece la nostra guida sul [noleggio audiovisivo per presentazioni da remoto](/blog/audio-visual-rental-for-remote-presentations/).
+
+### Con quanto anticipo devo prenotare l'attrezzatura audiovisiva per una riunione aziendale?
+
+Prenota con almeno 24 ore di anticipo per garantirti la disponibilità. I nostri servizi sono disponibili a Malaga, sulla Costa del Sol e a Sevilla senza ordine minimo, e si estendono a Granada per i noleggi superiori a 400 euro.

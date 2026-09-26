@@ -1,0 +1,121 @@
+---
+title: "AV-uthyrning för företagsmöten i Malaga, Spanien"
+description: "AV-uthyrning för företagsmöten i Malaga, Spanien: en gåshalsmikrofon och en skärm för styrelserummet, dimensionerade för ditt styrelsemöte eller kundmöte."
+excerpt: "AV-uthyrning för företagsmöten i Malaga, Spanien: en gåshalsmikrofon och en skärm för styrelserummet, dimensionerade för ditt styrelsemöte eller kundmöte."
+publishDate: "2026-09-26"
+sourceUpdated: "2026-09-26"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Letar du efter AV-uthyrning för företagsmöten i Malaga, Spanien? Ett styrelsemöte, kundmöte eller investerarmöte är ingen konferens: det är ett styrelserum eller en hotellsvit, en fast plats för den som talar, och en liten grupp, inga parallellsessioner eller scenproduktion.
+
+Malaga Event Gear levererar, sätter upp och testar den uppsättningen i Malaga och längs hela Costa del Sol.
+
+Hör av dig redan i dag för att prata om ditt evenemang.
+
+## Kort översikt
+
+---
+
+Malaga Event Gear erbjuder AV-uthyrning för företagsmöten i Malaga och längs hela Costa del Sol: en gåshalsmikrofon för styrelserummet, en projektor och en duk, och ett ljudsystem dimensionerat för en liten grupp. Med erfarenhet som går tillbaka till 1996 levererar, sätter upp och testar vi utrustningen så att ditt möte håller tidsplanen.
+
+Hör av dig redan i dag för att prata om ditt evenemang.
+
+## Det viktigaste
+
+---
+
+Malaga Event Gear erbjuder AV-uthyrning för företagsmöten i Malaga och längs hela Costa del Sol.
+
+-   Vårt [Basic MICE Pack](/packages/basic-mice/) täcker en gåshalsmikrofon för styrelserummet, en projektor och en duk, upp till 40 gäster.
+
+-   För ett större möte täcker vårt [MICE Pack](/packages/mice/) en 60 tums ledskärm och en ingående tekniker, upp till 120 gäster.
+
+-   En tekniker går att lägga till på Basic MICE Pack, men ingår inte som standard.
+
+-   Tillgängligt i Malaga, på Costa del Sol och i Sevilla, samt i Granada för uthyrningar över 400 euro, med bokning minst 24 timmar i förväg.
+
+## Ett styrelsemöte är ingen konferens
+
+En konferens behöver ljud och en skärm som når en stor sal, plus parallellsessioner som pågår samtidigt. Ett styrelsemöte, kundmöte eller investerarmöte behöver motsatsen: ett styrelserum eller en hotellsvit, en fast plats för den som talar vid bordets kortända, och en liten grupp. Om ditt evenemang faktiskt är en fullständig konferens med parallellsessioner, se vår guide [AV-uthyrning för konferenser](/blog/audio-visual-rental-for-conferences/).
+
+Vårt [Basic MICE Pack](/packages/basic-mice/) är byggt för det här: en gåshalsmikrofon för styrelserummet, en projektor med hög ljusstyrka på 3000 lumen och en projektionsduk på 2x2 m, upp till 40 gäster. En tekniker går att lägga till, men ingår inte som standard, eftersom de flesta styrelsemöten inte behöver en på plats.
+
+<InlineCTA />
+
+## När det är dags att gå upp till MICE Pack
+
+För ett större företagsmöte, upp till 120 gäster, täcker vårt [MICE Pack](/packages/mice/) en 60 tums ledskärm, en gåshalsmikrofon och en trådlös mikrofon, samt en tekniker på plats i upp till sex timmar. Det passar bättre för ett personalmöte med alla eller en större investerarpresentation än det på styrelserummet anpassade Basic MICE Pack.
+
+## Vad vi har på lager, och vad vi tar in
+
+Vi tillhandahåller en gåshalsmikrofon, en projektor eller ledskärm, en projektionsduk, och ett ljudsystem. Videokonferensutrustning, ett rumsstyrningssystem och en LED-videovägg ingår inte i vår egen utrustning: skärmen på MICE Pack är en enda 60 tums ledskärm, ingen modulvägg. Om ditt möte kräver något av det, säg till när du begär en offert. Vi hör av oss till våra leverantörer för ditt datum och återkommer med det vi hittar, om vi hittar något.
+
+## Verkliga uppsättningar vi har levererat
+
+![AV-system på scenen vid Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
+
+En duk och ett ljudsystem på Hotel Alfonso XIII i Sevilla.
+
+![Uthyrning av ljudsystem för Colegio Oficial de Gestores Administrativos de Malaga.](https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-300x224.webp)
+
+Ett ljudsystem uppsatt för Colegio Oficial de Gestores Administrativos de Malaga.
+
+![Uthyrning av ljudsystem i balsalen på Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
+
+Ett ljudsystem på Hotel Alfonso XIII i Sevilla.
+
+![MICE-uppsättning hos en Volvo-återförsäljare i Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
+
+En duk och ett ljudsystem för ett företagsmöte i Malaga.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1284/', '/1276/', '/1267/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Bokning och serviceområde
+
+Våra tjänster täcker Malaga, Costa del Sol och Sevilla utan minsta order, och sträcker sig till Granada för uthyrningar över 400 euro. Boka minst 24 timmar i förväg för att garantera tillgänglighet.
+
+Behöver du bara en projektor och duk dimensionerade för ditt rum? Se vår guide om [projektoruthyrning](/blog/projector-rental/). För ett möte som i stället behöver en självlysande skärm, se vår guide om [tv-skärmsuthyrning](/blog/tv-screen-rental/).
+
+## Slutsats
+
+Oavsett om det är ett styrelsemöte, ett kundmöte eller en större investerarpresentation, levererar Malaga Event Gear mikrofonen, skärmen och ljudsystemet ditt möte behöver. Se vårt fullständiga sortiment på [sidan om AV-uthyrning](/blog/audio-visual-rental/). [Hör av dig](/contact/) för att prata om ditt evenemang.
+
+Vill du förstå själva bokningsprocessen? Se vår guide om [hur AV-uthyrning fungerar](/blog/how-audio-visual-rental-works/). Planerar du i stället ett mindre företagsevenemang? Se vår guide om [AV-uthyrning för mindre företag](/blog/audio-visual-rental-for-small-businesses/). Vill du undvika vanliga misstag? Se vår guide om [vanliga misstag vid AV-uthyrning](/blog/common-av-rental-mistakes/).
+
+## Vanliga frågor
+
+### Vilken AV-utrustning behöver jag till ett företagsmöte?
+
+En gåshalsmikrofon för styrelserummet, en projektor och en duk, och ett ljudsystem dimensionerat för en liten grupp. [Basic MICE Pack](/packages/basic-mice/) och [MICE Pack](/packages/mice/) täcker det här behovet vid olika antal gäster. Se [Ett styrelsemöte är ingen konferens](#ett-styrelsemöte-är-ingen-konferens) ovan.
+
+### Hur skiljer sig ett företagsmöte från en konferens?
+
+En konferens behöver en stor sal och ofta parallellsessioner som pågår samtidigt. Ett styrelsemöte, kundmöte eller investerarmöte är mindre och mer rutinmässigt: ett styrelserum eller en hotellsvit, en fast plats för den som talar, inga parallellsessioner. Se vår guide om [AV-uthyrning för konferenser](/blog/audio-visual-rental-for-conferences/) för det större fallet.
+
+### Ingår en tekniker för ett företagsmöte?
+
+Inte som standard på [Basic MICE Pack](/packages/basic-mice/): en tekniker går att lägga till. [MICE Pack](/packages/mice/) inkluderar en tekniker på plats i upp till sex timmar.
+
+### Vad kostar AV-uthyrning för ett företagsmöte?
+
+Det beror på paketet: hela vår katalog, från Basic MICE Pack till MICE Pack för ett större möte, listas med exakta priser i euro på vår [paketsida](/packages/). Alla priser är exklusive moms, med den vanliga spanska momsen på 21 % tillagd i kassan, och varje pris inkluderar leverans, uppsättning och hämtning.
+
+### Hur många personer rymmer en AV-uppsättning för företagsmöten?
+
+Basic MICE Pack täcker upp till 40 gäster, och MICE Pack täcker upp till 120. Se [När det är dags att gå upp till MICE Pack](#när-det-är-dags-att-gå-upp-till-mice-pack) ovan.
+
+### Tillhandahåller ni videokonferensutrustning för hybridmöten?
+
+Inte från vår egen utrustning: videokonferensutrustning ingår inte i den. Se [Vad vi har på lager, och vad vi tar in](#vad-vi-har-på-lager-och-vad-vi-tar-in) ovan. Om ditt möte behöver en deltagare på distans som ansluter till ett fysiskt rum, se i stället vår guide om [AV-uthyrning för distanspresentationer](/blog/audio-visual-rental-for-remote-presentations/).
+
+### Hur långt i förväg bör jag boka AV-utrustning för ett företagsmöte?
+
+Boka minst 24 timmar i förväg för att garantera tillgänglighet. Våra tjänster finns tillgängliga i Malaga, på Costa del Sol och i Sevilla utan minsta order, och sträcker sig till Granada för uthyrningar över 400 euro.

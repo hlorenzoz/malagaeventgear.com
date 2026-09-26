@@ -63,6 +63,11 @@ export default {
 			keyword: 'ljus- och scenteknik Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-corporate-meetings': {
+			slug: 'av-uthyrning-foretagsmoten',
+			keyword: 'AV-uthyrning för företagsmöten i Malaga',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: 'uthyrning-av-audiovisuell-utrustning',
 			keyword: 'uthyrning av audiovisuell utrustning Malaga',

@@ -99,6 +99,11 @@ export default {
 			keyword: 'iluminação e palco para eventos Málaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-corporate-meetings': {
+			slug: 'material-audiovisual-reuniao-corporativa',
+			keyword: 'material audiovisual para reunião corporativa em Málaga',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: 'locacao-de-equipamentos-audiovisuais',
 			keyword: 'locação de equipamentos audiovisuais em Málaga',
