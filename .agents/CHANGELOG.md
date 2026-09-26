@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (stock-photos) - fotos genericas presentadas como trabajo de MEG
+- **Decision del usuario (2026-09-25)**: la foto `blog/2278` (salon de conferencias) y las 12 de bodas (`blog/1625`, `1627` a `1633`, `1635` a `1638`) son de banco de imagenes, no eventos de MEG. Una foto generica nunca se presenta como trabajo de MEG (CLAUDE.md, "Honestidad").
+- **Posts**: las secciones "Real Weddings We've Delivered" de unos 20 posts ingleses pasan a titulos veraces distintos por post, y cada pie dice que la foto es ilustrativa. En los posts que mezclan fotos reales y de banco bajo "Real Setups We've Delivered" o "Our Recent Event Setups", las fotos de banco salen de la seccion y quedan solo las reales. Los alt que describian equipo que no se ve en la foto pasan a describir solo la foto. Mismo cambio en las 12 traducciones de wedding-rentals y stage-lighting-for-weddings.
+- **Carrusel de la galeria**: "Our Events in Action" pasa a "Event Settings and Ideas" y "Past {pack} Events" a "{pack}: Settings and Ideas", en los 13 idiomas, porque el carrusel mezcla fotos reales e ilustrativas.
+- **Guard**: `STOCK_PHOTO_IDS` en `src/lib/data/gallery.ts` y `src/lib/data/stock-photos.test.ts`, que recorre todos los posts en todos los idiomas: cada foto de la lista lleva un pie ilustrativo y ninguna aparece bajo un titulo de setups reales. `audio-visual-rental-for-weddings-gallery.test.ts` sigue el titulo nuevo de su seccion.
+
 ### Fixed (gallery-alt-i18n) - alt de la galeria en el idioma de cada pagina
 - **Causa**: `src/lib/data/gallery.ts` (40 imagenes) tenia el `alt` solo en ingles, y `ImageMarquee` lo mostraba igual en los 13 idiomas: en la home, /equipment/, /packages/, cada pagina de paquete, /meet-the-team/ y el carrusel de los posts traducidos (en wedding-rentals, ademas, en el HTML servido). Rompia la regla de CLAUDE.md de traducir todo el texto de una imagen.
 - **Fix**: `DataCopy` suma el bloque `gallery` (alt por URL de la imagen) en `src/lib/i18n/data/<locale>.ts`, con los 40 alt traducidos a los 12 idiomas, y `ImageMarquee` lo lee con `galleryAlt()` (`src/lib/i18n/gallery-alt.svelte.ts`, modulo propio para no sumar la copia de paquetes y FAQ a cada pagina con carrusel). El ingles sigue saliendo de `gallery.ts`. Toda pagina y todo post que use el carrusel, publicado o futuro, sale traducido sin cambios en quien lo llama.

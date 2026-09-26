@@ -2,16 +2,19 @@ import { describe, it, expect } from 'vitest';
 import { galleryImages } from './gallery';
 
 /**
- * Regression guard for a specific SEO audit finding (seo-audit/malagaeventgear.com,
+ * The wedding gallery photos are generic stock photos (user decision 2026-09-25, CLAUDE.md
+ * "Honestidad"): the section below shows them as illustrative wedding settings, never as weddings
+ * MEG delivered. Its heading was "Real Setups We've Delivered" until that decision.
+ *
+ * Original regression guard for a specific SEO audit finding (seo-audit/malagaeventgear.com,
  * id image-mismatch-real-setups-concert-photo--blog-audio-visual-rental-for-weddings-en):
  * the "Real Setups We've Delivered" inline section of `audio-visual-rental-for-weddings.svx`
  * claimed a generic "Podium and sound system for concerts in Malaga" stock photo
  * (id 1330, not present in gallery.ts's `wedding` category at all) as a real
  * wedding delivery. It undermines the section's honesty claim.
  *
- * Scoped to this one file: dozens of other, still-unrewritten wedding-topic posts
- * reuse the same generic photo in non-"delivered evidence" contexts (out of scope,
- * a separate future rewrite pass, not this audit's finding).
+ * This file only keeps the section to wedding photos. That no stock photo is presented as
+ * delivered work, anywhere in the blog, is guarded by src/lib/data/stock-photos.test.ts.
  */
 
 const raw = import.meta.glob('../../content/blog/audio-visual-rental-for-weddings.svx', {
@@ -26,16 +29,17 @@ function loadBody(): string {
 	return contents;
 }
 
-/** Extracts the inline "Real Setups" section: after its h2, up to the ImageMarquee div. */
-function extractRealSetupsImageIds(body: string): string[] {
-	const start = body.indexOf("## Real Setups We've Delivered");
+const SECTION_HEADING = '## The Settings Behind Each Hour of the Day';
+
+/** The inline settings section: after its h2, up to the ImageMarquee div. */
+function extractSection(body: string): string {
+	const start = body.indexOf(SECTION_HEADING);
 	const end = body.indexOf('<div class="my-12', start);
-	const section = start === -1 || end === -1 ? '' : body.slice(start, end);
-	const ids: string[] = [];
-	for (const match of section.matchAll(/cdn\.malagaeventgear\.com\/blog\/(\d+)\//g)) {
-		ids.push(match[1]);
-	}
-	return ids;
+	return start === -1 || end === -1 ? '' : body.slice(start, end);
+}
+
+function extractSectionImageIds(body: string): string[] {
+	return [...extractSection(body).matchAll(/cdn\.malagaeventgear\.com\/blog\/(\d+)\//g)].map((match) => match[1]);
 }
 
 function galleryIdsFor(category: 'wedding' | 'corporate' | 'general' | 'party'): Set<string> {
@@ -48,19 +52,19 @@ function galleryIdsFor(category: 'wedding' | 'corporate' | 'general' | 'party'):
 	return ids;
 }
 
-describe("audio-visual-rental-for-weddings.svx 'Real Setups' inline images", () => {
+describe("audio-visual-rental-for-weddings.svx wedding settings section", () => {
 	const weddingIds = galleryIdsFor('wedding');
 
 	it('finds the section (guards the guard against a heading rename)', () => {
-		expect(extractRealSetupsImageIds(loadBody()).length).toBeGreaterThan(0);
+		expect(extractSectionImageIds(loadBody()).length).toBeGreaterThan(0);
 	});
 
-	it('every inline delivered-setup photo belongs to the wedding gallery category', () => {
-		const usedIds = extractRealSetupsImageIds(loadBody());
+	it('every photo in the wedding settings section belongs to the wedding gallery category', () => {
+		const usedIds = extractSectionImageIds(loadBody());
 		const offenders = usedIds.filter((id) => !weddingIds.has(id));
 		expect(
 			offenders,
-			`Non-wedding-category image id(s) ${offenders.join(', ')} used as "real setup" evidence. ` +
+			`Non-wedding-category image id(s) ${offenders.join(', ')} used in the wedding settings section. ` +
 				`Only ids in gallery.ts's 'wedding' category may appear here.`
 		).toEqual([]);
 	});

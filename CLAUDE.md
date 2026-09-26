@@ -590,6 +590,18 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
   chequearon.
 - Nunca reportes un check renderizado como PASS desde un build viejo. Si el build falta o es
   más viejo que el fuente, marcá esos checks NEEDS BUILD y decilo.
+- **Una foto genérica nunca se presenta como trabajo de MEG** (decisión del usuario,
+  2026-09-25). Son genéricas, de banco de imágenes: `blog/2278` (salón de conferencias) y las 12
+  de bodas `blog/1625`, `1627` a `1633`, `1635` a `1638`. Su alt, su pie y el título de la
+  sección donde aparecen las describen como ilustrativas, nunca como "Real Weddings/Setups
+  We've Delivered" ni con frases como "our technician placed...". El título del carrusel de la
+  galería ("Event Settings and Ideas", "{pack}: Settings and Ideas") no dice que sean eventos de
+  MEG por eso mismo. Una foto nueva entra como real solo si el negocio confirma que es de un
+  evento de MEG, y como Experience solo si tiene su post `News` (regla 4 del posicionamiento).
+  La lista vive en `STOCK_PHOTO_IDS` (`src/lib/data/gallery.ts`) y la protege
+  `src/lib/data/stock-photos.test.ts` en todos los posts y todos los idiomas: cada foto de la
+  lista lleva un pie que dice que es ilustrativa, y ninguna aparece bajo un título de "setups
+  reales". Una foto de banco no va en una sección de Experience real: se saca de ahí.
 
 ## Sistema de Diseño
 

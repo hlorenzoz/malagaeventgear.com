@@ -1,3 +1,15 @@
+/**
+ * CDN ids (blog/<id>/...) of generic stock photos, not events MEG equipped (user decision
+ * 2026-09-25, CLAUDE.md "Honestidad"). Wherever one appears, its caption says it is illustrative
+ * and its section never presents it as delivered work: src/lib/data/stock-photos.test.ts guards
+ * every post in every language. A photo leaves this list only if the business confirms it is
+ * from a real MEG event.
+ */
+export const STOCK_PHOTO_IDS: readonly string[] = [
+	'1625', '1627', '1628', '1629', '1630', '1631', '1632', '1633', '1635', '1636', '1637', '1638',
+	'2278'
+];
+
 export interface GalleryImage {
 	src: string;
 	alt: string;
