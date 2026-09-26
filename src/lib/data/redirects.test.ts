@@ -51,6 +51,18 @@ describe('_redirects', () => {
 		expect(broken, 'these redirects end in a 404').toEqual([]);
 	});
 
+	it('sends the old WordPress pagination to the lists that now show every post', () => {
+		// The new blog and author pages do not paginate, so /page/N/ moved into them (GSC 404
+		// review, 2026-09-26). Google: "If your page has moved, use a 301 redirect".
+		const to = (from: string) => rules.find((rule) => rule.from === from)?.to;
+		expect(to('/blog/page/*')).toBe('/blog/');
+		expect(to('/author/hector-luis-lorenzo/page/*')).toBe('/blog/author/hector-luis-lorenzo/');
+	});
+
+	it('keeps dynamic (splat) rules within the Cloudflare limit of 100', () => {
+		expect(rules.filter((rule) => rule.from.includes('*') || rule.from.includes(':')).length).toBeLessThanOrEqual(100);
+	});
+
 	it('never redirects a URL to itself', () => {
 		for (const rule of rules) expect(rule.to, rule.from).not.toBe(rule.from);
 	});

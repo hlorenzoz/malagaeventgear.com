@@ -13,6 +13,7 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 - **`/weather-considerations-for-outdoor-rentals`** sin barra llega en un salto, como los otros duplicados sin barra.
 - **Guard nuevo**: `src/lib/data/redirects.test.ts` falla si algún destino de `_redirects` no es un post publicado, una categoría con posts, un autor, un paquete o una página estática, o si una regla no es 301.
 - **Generador** (`scripts/migrate-wp/redirects.ts`): solo genera redirects de categorías que usa algún post migrado, el límite pasa a los 2.000 estáticos de Cloudflare y el marcador del bloque queda en ASCII y dice que el bloque se edita a mano, porque la API de WordPress ya no existe.
+- **Paginación de WordPress** (revisión del informe de 404 de GSC, 2026-09-26): `/blog/page/*` y `/author/hector-luis-lorenzo/page/*` hacen 301 a `/blog/` y a la página del autor, que ahora listan todos los posts. El resto de los 404 del informe es correcto (feeds de WordPress, rutas `/wp-content/*`, `/my-account/`) o ya tenía redirect.
 - **Pendiente fuera del repo**: `http://www` hace dos saltos (primero https en www y después la raíz). Se resuelve con una regla de redirect en el dashboard de Cloudflare.
 
 ### Fixed (image-metadata): contexto, ubicación y textos reales de las 95 imágenes en uso
