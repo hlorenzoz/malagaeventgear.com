@@ -566,6 +566,12 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
     ADX212, con base K&M y pinza D-Clip). Son los únicos de cuello de ganso del inventario, así
     que el de atril del Basic MICE Pack y del MICE Pack sale de esas 4 unidades, que sirven
     tanto para atril como para mesa.
+  - **Qué hace el técnico en el evento (confirmado 2026-09-26 por el negocio)**: opera el
+    sonido y los micrófonos. Las diapositivas las maneja siempre el ponente. Si durante el
+    evento falla el proyector, la pantalla o una luz, el técnico lo resuelve. El cambio de
+    fuente de la pantalla con el switcher Kramer VP-731 lo hace el técnico solo si el cliente
+    contrata ese servicio. Si no, lo hace el presentador cuando quiere. Nunca escribir que el
+    técnico "lleva el show", opera la imagen o las luces, o maneja las diapositivas.
   - **Micrófonos de corbata/diadema reales (confirmado 2026-07-31 por el negocio)**: el CSV
     lista 2x sets inalámbricos AUDIX RAD-360 de corbata y 1x AUDIX-HT5 de diadema. La negación
     "no ofrecemos micrófonos de corbata ni diadema" (antes en `sound-system-rental.svx` y el

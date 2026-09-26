@@ -227,7 +227,7 @@ const en = {
 		s3Title: 'Confirm & Plan',
 		s3Desc: 'Our team confirms logistics, venue access, and every technical detail.',
 		s4Title: 'Enjoy Your Event',
-		s4Desc: 'We handle setup, run the show, and pack everything up. Zero stress for you.'
+		s4Desc: 'We deliver, set up and test everything, and collect it after your event. Zero stress for you.'
 	},
 	// Pricing Preview
 	pricingPreview: {

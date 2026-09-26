@@ -142,7 +142,7 @@ export default {
 				specBody: 'Storformatsskärm i hög definition för slagkraftiga företagsbilder.',
 				highlightTitle: 'Dedikerad livetekniker',
 				highlightBody:
-					'En specialiserad AV-tekniker sköter ditt evenemang i upp till 6 sammanhängande timmar och garanterar felfritt ljud, bild och mikrofonhantering under hela ditt toppmöte, din konferens eller produktlansering.',
+					'En specialiserad AV-tekniker stannar på plats i upp till 6 sammanhängande timmar, sköter ljudet och mikrofonerna och åtgärdar alla problem med skärmen, så att ditt toppmöte, din konferens eller produktlansering går utan avbrott.',
 				includesLabel: 'Det här ingår i premiumpaketet',
 				optionalLabel: 'Valfria tillägg',
 				ctaHeading: 'Gör ditt företagsevenemang slagkraftigt',

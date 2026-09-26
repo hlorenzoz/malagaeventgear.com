@@ -216,7 +216,7 @@ const t = {
 		s3Title: 'Bevestig en plan',
 		s3Desc: 'Ons team bevestigt de logistiek, de toegang tot de locatie en elk technisch detail.',
 		s4Title: 'Geniet van je evenement',
-		s4Desc: 'Wij verzorgen de opbouw, begeleiden de show en ruimen alles weer op. Voor jou volledig zorgeloos.'
+		s4Desc: 'Wij leveren, bouwen alles op en testen het, en halen het na je evenement weer op. Voor jou volledig zorgeloos.'
 	},
 	// Pricing Preview
 	pricingPreview: {

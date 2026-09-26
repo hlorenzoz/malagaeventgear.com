@@ -142,7 +142,7 @@ export default {
 				specBody: 'Schermo grande formato ad alta definizione per immagini aziendali di grande impatto.',
 				highlightTitle: "Tecnico dedicato durante l'evento",
 				highlightBody:
-					'Un tecnico audiovisivo specializzato gestisce il tuo evento per un massimo di 6 ore continuative, garantendo audio, immagini e gestione dei microfoni impeccabili durante il tuo summit, conferenza o lancio di prodotto.',
+					'Un tecnico audiovisivo specializzato resta in loco per un massimo di 6 ore continuative, occupandosi di audio e microfoni e risolvendo qualsiasi problema con lo schermo, così il tuo summit, conferenza o lancio di prodotto si svolge senza interruzioni.',
 				includesLabel: 'Servizi premium inclusi',
 				optionalLabel: 'Extra opzionali',
 				ctaHeading: 'Dai slancio al tuo evento aziendale',

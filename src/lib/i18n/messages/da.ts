@@ -225,7 +225,7 @@ const t = {
 		s3Title: 'Bekræft og planlæg',
 		s3Desc: 'Vores team bekræfter logistik, adgang til lokalet og alle tekniske detaljer.',
 		s4Title: 'Nyd dit event',
-		s4Desc: 'Vi står for opsætning, kører showet og pakker det hele sammen bagefter. Nul stress for dig.'
+		s4Desc: 'Vi leverer, sætter op og tester det hele, og henter det hele igen efter dit event. Nul stress for dig.'
 	},
 	// Pricing Preview
 	pricingPreview: {

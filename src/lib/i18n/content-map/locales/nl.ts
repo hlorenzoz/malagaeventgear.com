@@ -47,6 +47,11 @@ export default {
 		weddings: { slug: 'bruiloften', name: 'Bruiloften' }
 	},
 	posts: {
+		'audio-visual-rental': {
+			slug: 'audiovisuele-verhuur',
+			keyword: 'audiovisuele verhuur Malaga',
+			status: 'propuesta'
+		},
 		'event-technology-service': {
 			slug: 'licht-en-podiumtechniek',
 			keyword: 'licht- en podiumtechniek Malaga',

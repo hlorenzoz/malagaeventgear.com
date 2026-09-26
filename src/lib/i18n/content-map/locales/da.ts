@@ -47,6 +47,11 @@ export default {
 		weddings: { slug: 'bryllupper', name: 'Bryllupper' }
 	},
 	posts: {
+		'audio-visual-rental': {
+			slug: 'av-udlejning-malaga',
+			keyword: 'AV-udlejning Malaga',
+			status: 'propuesta'
+		},
 		'event-technology-service': {
 			slug: 'lys-og-sceneteknik',
 			keyword: 'lys- og sceneteknik Malaga',

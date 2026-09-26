@@ -79,6 +79,11 @@ export default {
 		weddings: { slug: 'casamentos', name: 'Casamentos' }
 	},
 	posts: {
+		'audio-visual-rental': {
+			slug: 'aluguel-de-audiovisual-para-eventos',
+			keyword: 'aluguel de audiovisual para eventos em Málaga',
+			status: 'propuesta'
+		},
 		'event-technology-service': {
 			slug: 'iluminacao-e-palco-para-eventos',
 			keyword: 'iluminação e palco para eventos Málaga',

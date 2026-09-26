@@ -47,6 +47,11 @@ export default {
 		weddings: { slug: 'mariages', name: 'Mariages' }
 	},
 	posts: {
+		'audio-visual-rental': {
+			slug: 'location-audiovisuelle-evenements-malaga',
+			keyword: 'location audiovisuelle pour événements à Malaga',
+			status: 'propuesta'
+		},
 		'event-technology-service': {
 			slug: 'prestataire-technique-evenementiel',
 			keyword: 'prestataire technique événementiel Malaga',

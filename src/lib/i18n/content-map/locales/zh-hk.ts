@@ -39,6 +39,7 @@ export default {
 		weddings: { slug: '婚宴', name: '婚禮' }
 	},
 	posts: {
+		'audio-visual-rental': { slug: '活動視聽租借', keyword: '馬拉加 活動視聽租借', status: 'propuesta' },
 		'event-technology-service': { slug: '活動燈光舞台搭建', keyword: '馬拉加 活動燈光舞台搭建', status: 'propuesta' },
 		'audiovisual-equipment-rental-service': {
 			slug: '視聽設備租賃',

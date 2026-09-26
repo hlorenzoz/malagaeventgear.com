@@ -231,7 +231,7 @@ const t = {
 		s3Title: 'Confirmez et planifiez',
 		s3Desc: "Notre équipe confirme la logistique, l'accès au lieu et chaque détail technique.",
 		s4Title: 'Profitez de votre événement',
-		s4Desc: "Nous nous occupons de l'installation, de la régie pendant l'événement et du démontage. Zéro stress pour vous."
+		s4Desc: "Nous livrons, installons et testons tout, puis nous venons tout récupérer après votre événement. Zéro stress pour vous."
 	},
 	// Pricing Preview
 	pricingPreview: {

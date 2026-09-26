@@ -232,7 +232,7 @@ const t = {
 		s3Title: 'Confirme e planeje',
 		s3Desc: 'Nossa equipe confirma a logística, o acesso ao local e cada detalhe técnico.',
 		s4Title: 'Aproveite seu evento',
-		s4Desc: 'Cuidamos da montagem, operamos tudo durante o evento e desmontamos no final. Zero estresse para você.'
+		s4Desc: 'Entregamos, montamos e testamos tudo, e recolhemos tudo depois do seu evento. Zero estresse para você.'
 	},
 	// Pricing Preview
 	pricingPreview: {

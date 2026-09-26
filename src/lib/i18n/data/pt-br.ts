@@ -142,7 +142,7 @@ export default {
 				specBody: 'Tela de grande formato em alta definição para visuais corporativos de impacto.',
 				highlightTitle: 'Técnico dedicado ao vivo',
 				highlightBody:
-					'Um técnico audiovisual especializado conduz seu evento por até 6 horas contínuas, garantindo som, imagem e gerenciamento de microfones impecáveis durante toda a sua convenção, conferência ou lançamento de produto.',
+					'Um técnico audiovisual especializado fica no local por até 6 horas contínuas, cuidando do som e dos microfones e resolvendo qualquer imprevisto com a tela, para que a sua convenção, conferência ou lançamento de produto aconteça sem interrupções.',
 				includesLabel: 'Itens premium inclusos',
 				optionalLabel: 'Adicionais opcionais',
 				ctaHeading: 'Potencialize seu evento corporativo',

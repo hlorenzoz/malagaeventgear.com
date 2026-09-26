@@ -306,7 +306,7 @@
     },
     {
       "question": "How does Malaga Event Gear ensure a seamless event experience?",
-      "answer": "Our dedicated team at Malaga Event Gear provides tailored service, assisting with setup and operation of audiovisual equipment, ensuring seamless integration of dynamic lighting and sound solutions for a flawless event execution."
+      "answer": "Our dedicated team at Malaga Event Gear provides tailored service, handling setup and running the sound and microphones, and fixing the screen or lighting if anything fails, for a flawless event execution."
     },
     {
       "question": "What makes Malaga Event Gear's wedding and Eco Packs unique?",
@@ -594,7 +594,7 @@
   "video-switcher-rental": [
     {
       "question": "What is a video switcher, and what does MEG's video switcher rental include?",
-      "answer": "A video switcher cuts a screen cleanly between more than one presentation source instead of forcing a manual cable swap. MEG's real version of this is one Kramer VP-731, a 9 input video scaler and switcher, operated by our technician rather than rented as a self run box. See The Real Unit We Stock above for exactly what it is and is not."
+      "answer": "A video switcher cuts a screen cleanly between more than one presentation source instead of forcing a manual cable swap. MEG's real version of this is one Kramer VP-731, a 9 input video scaler and switcher, that the presenter can run directly or hand to our technician if you book that service. See The Real Unit We Stock above for exactly what it is and is not."
     },
     {
       "question": "Is this the same as a camera switcher or a live streaming production switcher?",
@@ -606,7 +606,7 @@
     },
     {
       "question": "Can I rent just the switcher without a technician?",
-      "answer": "No. This is technician operated equipment, so it goes out with a technician, not as a self run box. Consistent with our delivery only model, we also do not offer self collect rentals. On the Basic MICE Pack, adding the video switcher requires the on site live technical assistant add on. On the MICE Pack, the included technician manages it as part of the standard booking."
+      "answer": "Yes. The presenter can run the switcher directly, cutting between sources themselves. If you would rather our technician managed it for you, add the on site live technical assistant option on the Basic MICE Pack. On the MICE Pack, the included technician runs the sound and microphones as standard. Tell us at booking if you also want them managing the switcher, otherwise the presenter switches directly. Consistent with our delivery only model, we do not offer self collect rentals either way: our crew delivers, sets up and tests the unit before leaving, whether the presenter or our technician runs it on the day."
     },
     {
       "question": "Video switcher vs camera or vision mixer for live streaming, what is the real difference?",
@@ -614,7 +614,7 @@
     },
     {
       "question": "Which packages include this, and how much does it cost?",
-      "answer": "None of our five packages include it as standard. It realistically pairs with the MICE Pack, which already includes a screen and a technician, or the Basic MICE Pack with its technical assistant add on, since this is technician operated equipment. There is no published a la carte price. Contact us with your package and agenda and we will confirm availability and a quote. See Which Packages This Is Available On above."
+      "answer": "None of our five packages include it as standard. It realistically pairs with the MICE Pack, which already includes a screen and a technician, or the Basic MICE Pack, where the presenter can run it directly or you can add the technical assistant option if you would rather our technician managed it. There is no published a la carte price. Contact us with your package and agenda and we will confirm availability and a quote. See Which Packages This Is Available On above."
     },
     {
       "question": "What sources can it actually switch between?",
@@ -630,7 +630,7 @@
     },
     {
       "question": "How does this compare to just using one laptop for my presentation?",
-      "answer": "A single laptop is simpler and needs nothing extra, and it is the right choice if your event genuinely has one presenter and one deck. The difference shows up the moment a second source enters the picture, a second speaker's laptop or a screened video clip. Without the switcher, that source change means unplugging and reconnecting a cable live, with a visible black screen or reboot. With it, our technician cuts between sources with no visible interruption. See Video Switcher or a Single Presentation Source above for the full comparison."
+      "answer": "A single laptop is simpler and needs nothing extra, and it is the right choice if your event genuinely has one presenter and one deck. The difference shows up the moment a second source enters the picture, a second speaker's laptop or a screened video clip. Without the switcher, that source change means unplugging and reconnecting a cable live, with a visible black screen or reboot. With it, the presenter cuts between sources directly, or our technician does it for you if you book that service, with no visible interruption. See Video Switcher or a Single Presentation Source above for the full comparison."
     },
     {
       "question": "Can I bring my own devices to switch between?",
@@ -638,7 +638,7 @@
     },
     {
       "question": "How far in advance should I book this?",
-      "answer": "Book as early as you can once your event date, venue and agenda are confirmed. See How Far in Advance to Book above. Because it is a single unit that requires a technician, confirming early matters more here than on equipment we stock in larger quantities."
+      "answer": "Book as early as you can once your event date, venue and agenda are confirmed. See How Far in Advance to Book above. Because it is a single unit in our inventory, confirming early matters more here than on equipment we stock in larger quantities, especially if you want our technician managing it rather than the presenter."
     }
   ],
   "audio-system-calibration": [
@@ -1734,7 +1734,7 @@
     },
     {
       "question": "Can your technician switch between multiple presentation sources during my event?",
-      "answer": "Yes, on packages with a large screen and more than one presentation source, our technician manages the switch between them (a laptop, a second laptop, a DVD player) using a Kramer VP-731 9 input video scaler, cutting cleanly between sources. This is a presentation switching tool only, not a camera, recording or streaming system. See Switching Between Multiple Presentation Sources above."
+      "answer": "Only if you book that service. By default the presenter switches between sources (a laptop, a second laptop, a DVD player) themselves. On packages with a large screen and more than one presentation source, you can instead have our technician manage the switch using a Kramer VP-731 9 input video scaler, cutting cleanly between sources. This is a presentation switching tool only, not a camera, recording or streaming system. See Switching Between Multiple Presentation Sources above."
     }
   ],
   "timeline-for-booking-wedding-rentals": [
@@ -1955,8 +1955,8 @@
       "answer": "Yes, but not off this page's price, and the distinction matters.\n\nWhat we own is one 60 inch panel, the one included in the published MICE Pack at 490 euros ex VAT. Every price and every spec above describes that single screen.\n\nAnything beyond one screen is a sourced job, quoted individually rather than sold from stock. At ECOC 2026 at FYCMA we supplied and installed the display screens across exhibitor stands throughout the hall, several stands taking more than one and one taking five in a row along a single wall. Those screens were sourced and installed for that job, not pulled from our own shelf, which is exactly why there is no published multi screen rate here. We have also put multiple TV monitors on rolling stands for a corporate project, our two day setup with Bmotion in Marbella.\n\nContact us with your room layout, or your stand numbers, and we will scope and quote the right count."
     },
     {
-      "question": "Is a technician needed to operate the screen?",
-      "answer": "A dedicated live AV technician is included with the MICE Pack, for up to 6 continuous hours, the same technician hours inclusion that applies to the MICE Pack's sound and microphones."
+      "question": "Is a technician needed for the screen?",
+      "answer": "No, the screen itself needs no operating: you connect your own laptop and it displays. A dedicated live AV technician is included with the MICE Pack, for up to 6 continuous hours, running the sound and microphones and fixing the screen if anything goes wrong."
     },
     {
       "question": "Do you rent LED video walls or modular LED panels?",

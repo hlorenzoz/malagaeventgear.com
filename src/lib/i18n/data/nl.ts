@@ -142,7 +142,7 @@ export default {
 				specBody: 'Groot HD-scherm voor indrukwekkende zakelijke beelden.',
 				highlightTitle: 'Vaste technicus ter plaatse',
 				highlightBody:
-					'Een gespecialiseerde AV-technicus begeleidt je evenement tot 6 uur onafgebroken en garandeert vlekkeloos geluid, beeld en microfoonbeheer tijdens je top, conferentie of productlancering.',
+					'Een gespecialiseerde AV-technicus blijft tot 6 uur onafgebroken ter plaatse, runt het geluid en de microfoons en lost elk probleem met het scherm op, zodat je top, conferentie of productlancering zonder onderbreking verloopt.',
 				includesLabel: 'Inbegrepen premiumdiensten',
 				optionalLabel: 'Optionele extra\'s',
 				ctaHeading: 'Geef je zakelijke evenement extra slagkracht',

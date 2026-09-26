@@ -297,7 +297,7 @@ const packagesData: EventPackage[] = [
 			specBody: 'High definition large format screen for impactful corporate visuals.',
 			highlightIcon: 'engineering',
 			highlightTitle: 'Dedicated Live Technician',
-			highlightBody: 'A specialized AV technician runs your event for up to 6 continuous hours, guaranteeing flawless sound, visuals, and microphone management throughout your summit, conference, or product launch.',
+			highlightBody: 'A specialized AV technician stays on site for up to 6 continuous hours, running the sound and microphones and solving any issue with the screen, so your summit, conference, or product launch runs without interruption.',
 			includesLabel: 'Premium Inclusions',
 			optionalLabel: 'Optional Extras',
 			ctaHeading: 'Power Your Corporate Event',

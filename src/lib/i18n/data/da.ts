@@ -142,7 +142,7 @@ export default {
 				specBody: 'HD-skærm i storformat til virkningsfulde visuelle virksomhedspræsentationer.',
 				highlightTitle: 'Dedikeret tekniker på stedet',
 				highlightBody:
-					'En specialiseret AV-tekniker kører dit event i op til 6 sammenhængende timer og garanterer fejlfri lyd, billeder og mikrofonstyring gennem hele dit topmøde, din konference eller produktlancering.',
+					'En specialiseret AV-tekniker bliver på stedet i op til 6 sammenhængende timer, styrer lyden og mikrofonerne og løser ethvert problem med skærmen, så dit topmøde, din konference eller produktlancering forløber uden afbrydelser.',
 				includesLabel: 'Inkluderet i premiumpakken',
 				optionalLabel: 'Valgfrit tilbehør',
 				ctaHeading: 'Løft dit virksomhedsevent',

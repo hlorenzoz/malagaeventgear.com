@@ -142,7 +142,7 @@ export default {
 				specBody: "Écran grand format haute définition pour des visuels d'entreprise percutants.",
 				highlightTitle: 'Technicien en direct dédié',
 				highlightBody:
-					"Un technicien audiovisuel spécialisé gère votre événement jusqu'à 6 heures en continu, garantissant un son, des visuels et une gestion des microphones irréprochables tout au long de votre sommet, conférence ou lancement de produit.",
+					"Un technicien audiovisuel spécialisé reste sur place jusqu'à 6 heures en continu, s'occupant du son et des microphones et résolvant tout problème d'écran, pour que votre sommet, conférence ou lancement de produit se déroule sans interruption.",
 				includesLabel: 'Prestations premium incluses',
 				optionalLabel: 'Options supplémentaires',
 				ctaHeading: "Donnez de l'envergure à votre événement d'entreprise",

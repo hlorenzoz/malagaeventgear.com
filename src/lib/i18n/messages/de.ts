@@ -210,7 +210,7 @@ const t = {
 		s3Title: 'Bestätigen & planen',
 		s3Desc: 'Unser Team bestätigt Logistik, Zugang zum Veranstaltungsort und jedes technische Detail.',
 		s4Title: 'Genießen Sie Ihre Veranstaltung',
-		s4Desc: 'Wir übernehmen Aufbau, Durchführung und Abbau. Null Stress für Sie.'
+		s4Desc: 'Wir liefern, bauen alles auf und testen es, und holen es nach Ihrer Veranstaltung wieder ab. Null Stress für Sie.'
 	},
 	pricingPreview: {
 		badge: 'Transparente Preise',

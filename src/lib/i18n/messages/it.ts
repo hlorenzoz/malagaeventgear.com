@@ -237,7 +237,7 @@ const t = {
 		s3Title: 'Conferma e pianifica',
 		s3Desc: "Il nostro team conferma la logistica, l'accesso alla location e ogni dettaglio tecnico.",
 		s4Title: 'Goditi il tuo evento',
-		s4Desc: "Ci occupiamo dell'allestimento, della regia durante l'evento e dello smontaggio. Zero stress per te."
+		s4Desc: "Consegniamo, allestiamo e testiamo tutto, poi ritiriamo tutto dopo il tuo evento. Zero stress per te."
 	},
 	// Pricing Preview
 	pricingPreview: {

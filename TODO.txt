@@ -279,6 +279,22 @@ Ya traducidos al 2026-09-26: los 12 posts de la lista de "Malaga, Spain en lo ya
 questions-to-ask-wedding-rental-companies.
 
 
+-- ❌ Qué hace el técnico: dos textos traducidos por revisar (anotado 2026-09-26)
+
+Hecho del negocio (CLAUDE.md, "Qué hace el técnico en el evento", 2026-09-26): opera el sonido y
+los micrófonos, resuelve fallas de proyector, pantalla y luces, y el switcher Kramer solo si se
+contrata. Ya corregidos en el cambio de ese día: audio-visual-rental, event-technology-service,
+technical-support-for-events, video-switcher-rental, tv-screen-rental,
+latest-trends-in-wedding-rentals, el highlightBody del MICE Pack y el paso "run the show" de los
+diccionarios. Quedan dos textos traducidos a los 13 idiomas que rozan "opera las luces":
+- src/routes/(public)/packages/[slug]/i18n/<locale>.ts:32: "you can request a dedicated
+  sound/light engineer to stay at your venue". El técnico no es un iluminador.
+- stage-uplighting.svx:74, 101 y 155: "our technician manages the fixtures through your event",
+  "sets the color for your event on site", "checking and repositioning fixtures as needed".
+  Aclarar que el color se fija en el montaje y que el técnico resuelve si algo falla.
+Cada uno en inglés y en sus 12 traducciones en el mismo cambio, con sus fechas.
+
+
 -- ❌ DECIDIR: portadas de banco en los 22 posts de bodas (anotado 2026-09-26)
 
 Hallazgo de la auditoría de imágenes (2d7e2c8). MEG no tiene fotos reales de bodas: las 12 de bodas

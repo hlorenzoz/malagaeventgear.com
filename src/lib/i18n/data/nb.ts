@@ -142,7 +142,7 @@ export default {
 				specBody: 'Storformatsskjerm i høy oppløsning som gir bedriftens visuelle presentasjoner et solid løft.',
 				highlightTitle: 'Dedikert tekniker på stedet',
 				highlightBody:
-					'En spesialisert AV-tekniker driver arrangementet ditt i opptil 6 sammenhengende timer, og garanterer feilfri lyd, bilde og mikrofonhåndtering gjennom hele toppmøtet, konferansen eller produktlanseringen.',
+					'En spesialisert AV-tekniker blir på stedet i opptil 6 sammenhengende timer, styrer lyden og mikrofonene og løser ethvert problem med skjermen, slik at toppmøtet, konferansen eller produktlanseringen går uten avbrudd.',
 				includesLabel: 'Dette er inkludert i premiumpakken',
 				optionalLabel: 'Valgfrie tillegg',
 				ctaHeading: 'Gi bedriftsarrangementet ditt ekstra kraft',

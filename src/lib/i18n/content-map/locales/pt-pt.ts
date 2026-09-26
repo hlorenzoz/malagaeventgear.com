@@ -79,6 +79,11 @@ export default {
 		weddings: { slug: 'casamentos', name: 'Casamentos' }
 	},
 	posts: {
+		'audio-visual-rental': {
+			slug: 'aluguer-de-audiovisuais-para-eventos',
+			keyword: 'aluguer de audiovisuais para eventos em Málaga',
+			status: 'propuesta'
+		},
 		'event-technology-service': {
 			slug: 'servicos-tecnicos-para-eventos',
 			keyword: 'serviços técnicos para eventos Málaga',

@@ -47,6 +47,11 @@ export default {
 		weddings: { slug: 'hochzeiten', name: 'Hochzeiten' }
 	},
 	posts: {
+		'audio-visual-rental': {
+			slug: 'av-vermietung-malaga',
+			keyword: 'AV-Vermietung Malaga',
+			status: 'propuesta'
+		},
 		'event-technology-service': {
 			slug: 'licht-und-buehnentechnik',
 			keyword: 'Licht- und Bühnentechnik Malaga',

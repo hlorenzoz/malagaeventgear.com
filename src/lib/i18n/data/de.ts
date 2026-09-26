@@ -142,7 +142,7 @@ export default {
 				specBody: 'Großformatiges HD-Display für eindrucksvolle Unternehmenspräsentationen.',
 				highlightTitle: 'Fester Techniker vor Ort',
 				highlightBody:
-					'Ein spezialisierter AV-Techniker begleitet Ihre Veranstaltung bis zu 6 Stunden durchgehend und garantiert einwandfreien Ton, ein perfektes Bild und ein reibungsloses Mikrofonmanagement während Ihres Gipfeltreffens, Ihrer Konferenz oder Produkteinführung.',
+					'Ein spezialisierter AV-Techniker bleibt bis zu 6 Stunden durchgehend vor Ort, betreut Ton und Mikrofone und behebt jedes Problem mit dem Bildschirm, damit Ihr Gipfeltreffen, Ihre Konferenz oder Produkteinführung ohne Unterbrechung abläuft.',
 				includesLabel: 'Premiumleistungen',
 				optionalLabel: 'Optionale Extras',
 				ctaHeading: 'Mehr Wirkung für Ihre Firmenveranstaltung',

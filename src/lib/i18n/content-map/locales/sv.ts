@@ -43,6 +43,11 @@ export default {
 		weddings: { slug: 'brollop', name: 'Bröllop' }
 	},
 	posts: {
+		'audio-visual-rental': {
+			slug: 'av-uthyrning-malaga',
+			keyword: 'AV-uthyrning Malaga',
+			status: 'propuesta'
+		},
 		'event-technology-service': {
 			slug: 'ljus-och-scenteknik',
 			keyword: 'ljus- och scenteknik Malaga',

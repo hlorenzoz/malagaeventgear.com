@@ -216,7 +216,7 @@ const t = {
 		s3Title: 'Confirme e planeie',
 		s3Desc: 'A nossa equipa confirma a logística, o acesso ao local e todos os detalhes técnicos.',
 		s4Title: 'Desfrute do seu evento',
-		s4Desc: 'Tratamos da montagem, da produção e da desmontagem. Zero stress para si.'
+		s4Desc: 'Entregamos, montamos e testamos tudo, e recolhemos tudo depois do seu evento. Zero stress para si.'
 	},
 	// Pricing Preview
 	pricingPreview: {

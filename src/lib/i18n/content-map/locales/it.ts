@@ -43,6 +43,11 @@ export default {
 		weddings: { slug: 'matrimoni', name: 'Matrimoni' }
 	},
 	posts: {
+		'audio-visual-rental': {
+			slug: 'noleggio-audiovisivo',
+			keyword: 'noleggio audiovisivo a Malaga',
+			status: 'propuesta'
+		},
 		'event-technology-service': {
 			slug: 'luci-e-palco-per-eventi',
 			keyword: 'luci e palco per eventi Malaga',

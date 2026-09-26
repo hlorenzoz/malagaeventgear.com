@@ -71,7 +71,7 @@ This guide walks through what our crew actually does in each phase, the real equ
 
 -   Multi day corporate events get continuous monitoring from a control panel, not a technician who checks in occasionally.
 
--   On packages with multiple presentation sources, a 9 input video scaler lets our technician switch between them without a visible cut. This is strictly a presentation tool: cameras, filming and live streaming are not in our own inventory. See [Switching Between Multiple Presentation Sources](#switching-between-multiple-presentation-sources) below.
+-   On packages with multiple presentation sources, a 9 input video scaler lets the presenter switch between them without a visible cut, or you can book our technician to run it for you. This is strictly a presentation tool: cameras, filming and live streaming are not in our own inventory. See [Switching Between Multiple Presentation Sources](#switching-between-multiple-presentation-sources) below.
 
 ## What Actually Happens During Your Event: A Phase by Phase Look
 
@@ -122,7 +122,7 @@ Generic "technical support" pages rarely name the equipment involved. Ours is no
 
 ## Switching Between Multiple Presentation Sources
 
-On MICE Pack bookings with more than one presentation source, for example a laptop for slides, a second laptop for a video, and a DVD player for a screened clip, our technician manages the switch between them using a Kramer VP-731, a 9 input video scaler, so the room's screen cuts cleanly from one source to the next without a visible glitch or a reboot. Our [video switcher rental](/blog/video-switcher-rental/) guide is the deeper, equipment first version of this section: the real unit, what 9 inputs actually means in practice, and which packages it is realistically available on.
+On MICE Pack bookings with more than one presentation source, for example a laptop for slides, a second laptop for a video, and a DVD player for a screened clip, the presenter switches between them directly, or you can book our technician to manage the switch using a Kramer VP-731, a 9 input video scaler, so the room's screen cuts cleanly from one source to the next without a visible glitch or a reboot. Our [video switcher rental](/blog/video-switcher-rental/) guide is the deeper, equipment first version of this section: the real unit, what 9 inputs actually means in practice, and which packages it is realistically available on.
 
 To be clear about what this is not: this is a presentation switching tool for your screen, not a camera, recording or streaming system. Cameras, filming and live streaming are not in our own inventory, and our own crew does not run a broadcast. If a camera or a stream matters to your event, raise it early, and we will ask whether a supplier has both the kit and the crew free for your date. If your event also needs simultaneous interpretation or an interactive voting system, that is not equipment we stock ourselves, but we coordinate it through a subcontracted partner. [Contact us](/contact/) if either applies to your event.
 
@@ -192,4 +192,4 @@ Yes, across Malaga and the Costa del Sol. Calibration for an outdoor venue inclu
 
 ### Can your technician switch between multiple presentation sources during my event?
 
-Yes, on packages with a large screen and more than one presentation source, our technician manages the switch between them (a laptop, a second laptop, a DVD player) using a Kramer VP-731 9 input video scaler, cutting cleanly between sources. This is a presentation switching tool only, not a camera, recording or streaming system. See [Switching Between Multiple Presentation Sources](#switching-between-multiple-presentation-sources) above.
+Only if you book that service. By default the presenter switches between sources (a laptop, a second laptop, a DVD player) themselves. On packages with a large screen and more than one presentation source, you can instead have our technician manage the switch using a Kramer VP-731 9 input video scaler, cutting cleanly between sources. This is a presentation switching tool only, not a camera, recording or streaming system. See [Switching Between Multiple Presentation Sources](#switching-between-multiple-presentation-sources) above.
