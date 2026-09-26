@@ -328,7 +328,7 @@ segunda copia deriva en silencio porque son instrucciones en prosa, no código.
   `gbp/`, `brief/`.
 - Contenido real hoy: `gmbeverywhere.com/meg/generic.md` y `gmbeverywhere.com/meg/fixed.md`
   (catálogo de categorías GBP y servicios candidatos por categoría, ya resuelto en
-  `content-map.md`), `Equipamiento.csv` (inventario real de equipo, ver más abajo),
+  `content-map.md`), `inventario/` (inventario real de equipo, ver más abajo),
   `REPORT_Merchant_Center.md`, `REPORT_Universal_Cart.md`.
   **No hay export de GSC**: toda auditoría debe declarar que corrió sin datos de Search Console.
 
@@ -473,7 +473,7 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
 
   Cómo se aplica al contenido (creación y actualización, en los 13 idiomas):
   1. **Dos capas, siempre distinguidas**: el INVENTARIO PROPIO (lo que MEG tiene:
-     `Equipamiento.csv` y `packages.ts`) y lo que MEG CONSIGUE con proveedores. Nunca presentar
+     el CSV de `inventario/` y `packages.ts`) y lo que MEG CONSIGUE con proveedores. Nunca presentar
      como propio algo que se consigue, ni dar marca, modelo, cantidad o precio de algo que no
      está en el inventario.
   2. **Lo que no está en el inventario propio no se cierra con un "no ofrecemos"**. La forma
@@ -509,7 +509,9 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
      "Precedencia" en el inventario, abajo).
   Las negaciones de las viñetas de abajo describen el INVENTARIO PROPIO. En el texto publicado
   se escriben con la regla 2.
-- **Inventario real de equipamiento**: `.agents/context/Equipamiento.csv` (trackeado en git,
+- **Inventario real de equipamiento**: el CSV más reciente de `.agents/context/inventario/`
+  (`YYYY.MM.DD - Equipamiento.csv`, una foto fechada por actualización. Se lee siempre la MÁS
+  RECIENTE, nunca una fecha hardcodeada. Hoy `2026.09.26 - Equipamiento.csv`. Trackeado en git,
   material de este cliente igual que el resto de `.agents/context/`) es el listado ITEMIZADO del
   equipo físico real que posee MEG: marca, modelo y cantidad por unidad (no paquetes
   comerciales). Es una fuente de verdad más granular que `packages.ts` - `packages.ts` es
@@ -559,6 +561,11 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
     `lighting-ideas-for-wedding-rentals.svx` cuya tesis entera dependía de esa negación - ya
     corregida para aclarar que el kit existe pero no está incluido en el Wedding Pack ni el
     Eco Pack).
+  - **Micrófonos de cuello de ganso (confirmado 2026-09-26 por el negocio)**: la columna
+    `Comentarios` del CSV marca como `Gooseneck` los 4 micrófonos de mesa Audix (2x ADX12 y 2x
+    ADX212, con base K&M y pinza D-Clip). Son los únicos de cuello de ganso del inventario, así
+    que el de atril del Basic MICE Pack y del MICE Pack sale de esas 4 unidades, que sirven
+    tanto para atril como para mesa.
   - **Micrófonos de corbata/diadema reales (confirmado 2026-07-31 por el negocio)**: el CSV
     lista 2x sets inalámbricos AUDIX RAD-360 de corbata y 1x AUDIX-HT5 de diadema. La negación
     "no ofrecemos micrófonos de corbata ni diadema" (antes en `sound-system-rental.svx` y el

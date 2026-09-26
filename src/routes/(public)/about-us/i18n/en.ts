@@ -1,5 +1,5 @@
-// English copy of /about-us/ (source). Equipment claims match .agents/context/Equipamiento.csv:
-// no laser projectors, no moving heads, no hazers or low fog, and the only Sennheiser is a
+// English copy of /about-us/ (source). Equipment claims match the latest CSV in
+// .agents/context/inventario/: no laser projectors, no moving heads, no hazers or low fog, and the only Sennheiser is a
 // shotgun mic, so none of them is claimed here.
 const copy = {
 	seo: {

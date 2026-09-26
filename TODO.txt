@@ -595,7 +595,7 @@ Condiciones para CADA idea:
   de escribir.
 - siloRole: supporting, targetPage del pilar, y enlace a los hermanos adyacentes en el orden de
   la cadena de abajo.
-- Solo inventario real (Equipamiento.csv y packages.ts). Sin cámaras, streaming, LED wall, láser,
+- Solo inventario real (el CSV de .agents/context/inventario/ y packages.ts). Sin cámaras, streaming, LED wall, láser,
   moving heads, DMX, hazer ni confeti. Traducción simultánea y votación: solo "lo coordinamos con
   un socio subcontratado".
 - Citar y enlazar los posts News relevantes (ProGold Summit 2026, BMotion, ECOC 2026, consejo
@@ -634,7 +634,7 @@ event-technology-service (pilar MICE, 0 supporting, posición ponderada 33,9)
     - ideas 5 y 8 [sin AC]. Van detrás de las que tienen evidencia.
   Clúster D, tarimas
     - idea 9 `stage platform rental for conferences` [AC + SERP en `stage platform rental` y
-      `stage riser rental`]. Inventario: módulos Guil de 2x1 m (Equipamiento.csv no da cantidad
+      `stage riser rental`]. Inventario: módulos Guil de 2x1 m (el CSV no da cantidad
       ni alturas). CONFIRMAR cantidad y alturas.
   Clúster E, ceremonias
     - idea 10 `awards ceremony production` [AC en `award show production`].
@@ -642,10 +642,11 @@ event-technology-service (pilar MICE, 0 supporting, posición ponderada 33,9)
 audiovisual-equipment-rental-service (1 supporting: headset-lavalier-microphone-rental)
   Clúster C, micrófonos y atril para conferencias
     - ideas 16 y 17 FUSIONADAS en un solo post: `podium microphone rental` [AC exacta + SERP +
-      PAA], con los micros de mesa como sección. Motivo: Equipamiento.csv lista los ADX12 y
-      ADX212 como "microfono de mesa, con base K&M y pinza D-Clip". Son las mismas 4 unidades
-      para atril y para mesa, y dos posts sobre el mismo inventario quedan finos y compiten entre
-      sí. CONFIRMAR si el cuello de ganso de los paquetes MICE es una de esas 4 unidades.
+      PAA], con los micros de mesa como sección. Motivo: el CSV lista los ADX12 y ADX212 como
+      "microfono de mesa, con base K&M y pinza D-Clip". Son las mismas 4 unidades para atril y
+      para mesa, y dos posts sobre el mismo inventario quedan finos y compiten entre sí.
+      ✅ RESUELTO (2026-09-26): el CSV 2026.09.26 marca esas 4 unidades como Gooseneck, y son las
+      únicas de cuello de ganso. El micro de atril de los paquetes MICE sale de ahí.
     - idea 18 `wireless handheld microphone rental` [AC exacta].
     - idea 19 `lectern rental` [AC exacta, también `acrylic lectern rental`]. Inventario: 2
       atriles de metacrilato.

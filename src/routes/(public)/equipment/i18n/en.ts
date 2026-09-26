@@ -3,7 +3,7 @@
 // banner. This file carries what was hardcoded as English literals or
 // `i18n.lang === 'en' ? ... : ...` ternaries in +page.svelte.
 //
-// Equipment claims match .agents/context/Equipamiento.csv: projectors of up to 5,000 lumens (none
+// Equipment claims match the latest CSV in .agents/context/inventario/: projectors of up to 5,000 lumens (none
 // laser), fabric projection screens plus one 60 inch panel, one Martin Magnum 650 smoke machine.
 const copy = {
     seo: {

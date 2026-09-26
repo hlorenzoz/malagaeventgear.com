@@ -38,7 +38,7 @@ Comprehensive business identity, operations, service specifications, geographica
 *   **Primary Value Driver:** 
     *   Possibility to immediately secure event bookings online with standardized, fixed pricing packages.
     *   **100% Online Purchasing:** Booking and confirmation can be fully completed online without requiring a human middleman.
-*   **Integral event solutions (confirmed by the owner, 2026-09-25):** MEG rents sound equipment for events, mainly corporate, and sound is most of its own inventory (`.agents/context/Equipamiento.csv`). What MEG sells is the solution to the event: for a client who hired MEG for AV, MEG solves whatever the event needs, AV or not, by sourcing it from a supplier when MEG does not own it. Two cases told by the owner, for internal context only. They are NOT published and NOT used as Experience: published Experience comes only from the blog's `News` posts (CLAUDE.md, "Posicionamiento", rule 4):
+*   **Integral event solutions (confirmed by the owner, 2026-09-25):** MEG rents sound equipment for events, mainly corporate, and sound is most of its own inventory (the latest CSV in `.agents/context/inventario/`). What MEG sells is the solution to the event: for a client who hired MEG for AV, MEG solves whatever the event needs, AV or not, by sourcing it from a supplier when MEG does not own it. Two cases told by the owner, for internal context only. They are NOT published and NOT used as Experience: published Experience comes only from the blog's `News` posts (CLAUDE.md, "Posicionamiento", rule 4):
     *   Tuesday 2026-09-22: at a client agency's event, the restaurant's air conditioning failed. MEG found a supplier of portable air conditioning units and solved it.
     *   An Italian exhibitor (Two Way) needed two refrigerators for a stand at FYCMA after FYCMA had closed its orders. MEG sourced them.
     *   Content rule: always separate MEG's OWN inventory from what MEG SOURCES. Never present sourced equipment as owned. What MEG does not own is written as "not in our own inventory, tell us what you need and we will look for a solution with our suppliers", never as "we don't offer it". Full rules: CLAUDE.md, "Posicionamiento: soluciones integrales para eventos".
@@ -98,7 +98,7 @@ We deliver to all major localities across the Malaga province and key Andalusian
 ## 5. Services & Rental Catalog
 
 > [!WARNING]
-> **This section is historical WordPress marketing copy, NOT MEG's own inventory.** Lasers, moving heads, laser projectors, LED video walls, hazers and low lying fog, Shure/Sennheiser mics, recording, ENG, multi-camera streaming and post-production are not in `.agents/context/Equipamiento.csv`. Never write that MEG owns them. Under the integral solutions positioning (section 2), anything MEG does not own is something MEG can try to source for a client, "if a solution exists". The real inventory and the corrected facts live in CLAUDE.md ("Inventario real de equipamiento"), which wins over this list.
+> **This section is historical WordPress marketing copy, NOT MEG's own inventory.** Lasers, moving heads, laser projectors, LED video walls, hazers and low lying fog, Shure/Sennheiser mics, recording, ENG, multi-camera streaming and post-production are not in the latest CSV in `.agents/context/inventario/`. Never write that MEG owns them. Under the integral solutions positioning (section 2), anything MEG does not own is something MEG can try to source for a client, "if a solution exists". The real inventory and the corrected facts live in CLAUDE.md ("Inventario real de equipamiento"), which wins over this list.
 
 ### Core Technical Services
 *   **Lighting:** Spectacular ambient lighting, decorative wash lights, laser elements, moving heads.
@@ -148,7 +148,7 @@ Full specifications and real-time availability can be cross-referenced at: [http
 ## 7. Operational Frequently Asked Questions (FAQs)
 
 #### ¿Qué servicios y equipos se brindan?
-> Ojo: esta respuesta es copy histórico, igual que la sección 5. La grabación multicámara, ENG, postproducción y ordenadores portátiles NO son inventario propio. El equipo real está en `.agents/context/Equipamiento.csv` y `src/lib/data/packages.ts`, y lo que MEG no tiene se consigue con proveedores si se puede (sección 2).
+> Ojo: esta respuesta es copy histórico, igual que la sección 5. La grabación multicámara, ENG, postproducción y ordenadores portátiles NO son inventario propio. El equipo real está en the latest CSV in `.agents/context/inventario/` y `src/lib/data/packages.ts`, y lo que MEG no tiene se consigue con proveedores si se puede (sección 2).
 
 Ofrecemos alquiler y montaje de sistemas de sonido profesionales, microfonía inalámbrica/de mesa, proyectores de alta gama, pantallas LED/LCD, tarimas de escenario, iluminación dinámica, asistencia técnica en vivo, máquinas de humo, equipamiento para DJs y ordenadores portátiles. Además, realizamos sonorización en directo, grabación de vídeo multi-cámara, picture-in-picture (PIP), servicios de ENG y post-producción.
 

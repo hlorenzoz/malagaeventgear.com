@@ -14,7 +14,7 @@ contenido deshonesto para perseguirlo.
 1. Nuevo export de GSC a `google-search-console-gsc/<dominio>-Performance-on-Search-<YYYY-MM-DD>/`.
 2. Diff contra el export anterior para aislar consultas **nuevas**, no re-leer las de siempre.
 3. Cada cluster nuevo va a una de las dos tablas de abajo. Si va a la segunda, **el motivo es obligatorio**.
-4. Antes de mapear un cluster a un silo, confirmar respaldo real en `.agents/context/Equipamiento.csv` o en `src/lib/data/packages.ts`. Sin respaldo, va a la tabla de no perseguibles.
+4. Antes de mapear un cluster a un silo, confirmar respaldo real en el CSV más reciente de `.agents/context/inventario/` o en `src/lib/data/packages.ts`. Sin respaldo, va a la tabla de no perseguibles.
 
 ## Salud global de esta pasada
 
