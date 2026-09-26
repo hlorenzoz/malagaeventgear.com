@@ -606,7 +606,8 @@ Reglas de redacción:
 - 13 idiomas: cada post editado se propaga a sus 12 traducciones en el mismo cambio (updatedDate
   en inglés, sourceUpdated en cada traducción). Enlazar a la versión de TGE en el idioma del
   lector cuando existe (TGE publica en, es, fr, it y zh simplificado, este último para
-  zh-hans). Para el resto, la versión inglesa. CONFIRMAR si zh-tw y zh-hk van a /zh o a /en.
+  zh-hans). Para el resto, la versión inglesa. RESUELTO (2026-09-26, usuario): zh-tw y zh-hk
+  también van a https://topgroupexpress.com/zh.
 - Orden: editar cada post inglés ANTES de su turno de traducción en post-order.txt, así se
   traduce una sola vez. De la tanda 1 ya está traducido solo event-technology-service, que
   necesita los 13 idiomas en el mismo cambio.

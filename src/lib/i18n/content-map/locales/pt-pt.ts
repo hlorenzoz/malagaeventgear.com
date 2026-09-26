@@ -84,6 +84,11 @@ export default {
 			keyword: 'aluguer de audiovisuais para eventos em Málaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-conferences': {
+			slug: 'audiovisual-necessario-conferencia',
+			keyword: 'o que é preciso de audiovisual numa conferência em Málaga',
+			status: 'propuesta'
+		},
 		'event-technology-service': {
 			slug: 'servicos-tecnicos-para-eventos',
 			keyword: 'serviços técnicos para eventos Málaga',

@@ -71,9 +71,9 @@ If a delegate in the back row cannot hear the plenary speaker, or the projector 
 >
 > - Carlos Batlles, 5-star Google review, March 2025
 
-![A technician's video conferencing monitors with a remote panelist on screen, PROCURE panel table visible behind, in Coin, Malaga province.](https://cdn.malagaeventgear.com/blog/1306/lighting-sound-big-screen-projector-rental-with-technical-support-malaga-1024x765.webp)
+![A technician's video conferencing monitors with a remote panelist on screen, PROCURE panel table visible behind, in Coín, Malaga province.](https://cdn.malagaeventgear.com/blog/1306/lighting-sound-big-screen-projector-rental-with-technical-support-malaga-1024x765.webp)
 
-Live camera and video conferencing support linking a remote panelist into the PROCURE talk in Coin.
+Video conferencing monitors showing a remote panelist joining the PROCURE talk in Coín.
 
 ![Rows of conference attendees in the province of Malaga watching a presentation on the main screen, with delegate seating and water service at each row.](https://cdn.malagaeventgear.com/blog/1305/lighting-sound-big-screen-projector-rental-malaga_6.webp)
 
@@ -89,7 +89,7 @@ Theater style seating and big screen projection for a full conference audience.
 
 ![Banquet style conference dinner setup in the province of Malaga with round tables, dual presentation screens, ambient lighting and a speaker at the lectern.](https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1.webp)
 
-Banquet seating, dual screens and stage lighting for a large-scale conference dinner.
+Banquet seating, dual screens and stage lighting for a large scale conference dinner.
 
 ![Lighting, display, projector, and sound system rental for events in the province of Malaga.](https://cdn.malagaeventgear.com/blog/1292/malaga_event_lighting_display_projector_sound_rental_3-1024x765.webp)
 
@@ -121,14 +121,16 @@ Our catalog covers what a conference plenary or breakout room needs:
 
 See the full breakdown on the [audio visual rental page](/blog/audio-visual-rental/).
 
-## Delivery, Setup and On-Site Support
+## Delivery, Setup and On Site Support
 
 Our crew delivers, installs and tests every piece of equipment before your conference starts, and comes back afterward to collect it. On the [MICE Pack](/packages/mice/), a technician also stays on site for up to six hours, so a lectern mic cutting out mid speech gets fixed immediately, not after the session ends.
+
+A conference also brings delegates from outside Malaga, and they need somewhere to stay. For group hotel bookings, our partner [Top Group Express](https://topgroupexpress.com/en) has years of experience reserving hotels for groups, working with the agencies, DMCs and companies that organize a delegation's travel. We handle the sound and the screens, they handle the rooms.
 
 For inquiries or bookings, reach out via [our contact page](/contact/).
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('eco')} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('mice', ['/1282/', '/1292/', '/1301/'])} speed="normal" direction="left" />
 </div>
 
 ## How This Differs from a Corporate Event or Press Conference
@@ -177,4 +179,4 @@ Visit our [packages page](/packages/) to compare packages, or reach out via our 
 
 ### Are you a convention or event agency, or an AV equipment supplier?
 
-An AV equipment supplier. A convention or event agency typically bundles venue selection, catering, transport and staffing alongside AV, the kind of full service listed in Malaga's own convention services directory. We supply and run the sound, projection, display and lighting specifically, with a technician on the MICE Pack, and we work alongside whichever venue or agency you have already chosen. See [What Services Does Malaga Event Gear Provide](#what-services-does-malaga-event-gear-provide-for-conferences-in-malaga) above.
+An AV equipment supplier. A convention or event agency typically bundles venue selection, catering, transport and staffing alongside AV, the kind of full service listed in Malaga's own convention services directory. We supply the sound, projection, display and lighting specifically, with a technician on the MICE Pack who runs the sound and microphones and fixes anything that fails, and we work alongside whichever venue or agency you have already chosen. See [What Services Does Malaga Event Gear Provide](#what-services-does-malaga-event-gear-provide-for-conferences-in-malaga) above.
