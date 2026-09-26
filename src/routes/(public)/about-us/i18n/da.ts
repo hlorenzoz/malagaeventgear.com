@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-26';
 
 const copy = {
 	seo: {
@@ -43,7 +43,7 @@ const copy = {
 		},
 		microphones: {
 			title: 'Mikrofoner',
-			body: 'Professionelle kablede og trådløse håndmikrofoner fra Audix, samt trådløse sæt med reversmikrofoner og headsetmikrofoner.'
+			body: 'Professionelle kablede og trådløse håndmikrofoner fra Audix, svanehalsmikrofoner til talerpult og bord, samt trådløse sæt med reversmikrofoner og headsetmikrofoner.'
 		},
 		technicians: {
 			title: 'Eventteknikere',

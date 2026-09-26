@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-26';
 
 export default {
 	seo: {
@@ -43,7 +43,7 @@ export default {
 		},
 		microphones: {
 			title: '咪高峰',
-			body: '專業Audix有線及無線手持咪高峰，加上無線領夾式及頭戴式咪高峰套裝。'
+			body: '專業Audix有線及無線手持咪高峰、講台及座枱用鵝頸咪高峰，加上無線領夾式及頭戴式咪高峰套裝。'
 		},
 		technicians: {
 			title: '活動技術人員',

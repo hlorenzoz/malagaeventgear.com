@@ -42,7 +42,7 @@ const copy = {
 		},
 		microphones: {
 			title: 'Microphones',
-			body: 'Professional Audix wired and wireless handheld microphones, plus wireless lavalier and headset sets.'
+			body: 'Professional Audix wired and wireless handheld microphones, gooseneck microphones for podiums and tables, plus wireless lavalier and headset sets.'
 		},
 		technicians: {
 			title: 'Event Technicians',

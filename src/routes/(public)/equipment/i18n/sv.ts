@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-25';
+export const updated = '2026-09-26';
 
 export default {
 	seo: {
@@ -21,9 +21,8 @@ export default {
 	featured: {
 		imageAlt: 'MICE-paket med ljud- och bildutrustning för möten',
 		badge: 'Utvalt paket',
-		desc: 'Perfekt för konferenser och företagsevenemang. MICE Pack inkluderar en 60-tums LED-skärm, förstklassig ljud- och bildutrustning, bords- och trådlösa mikrofoner samt upp till 6 timmars teknisk support på plats för att säkerställa att din presentation flyter felfritt.',
 		spec1: '60-tums LED-skärm',
-		spec2: 'Trådlöst ljud',
+		spec2: 'Gåshals- + trådlös mikrofon',
 		spec3: 'Teknisk support ingår',
 		spec4: 'Förstklassigt ljud',
 		cta: 'Begär information'
@@ -34,7 +33,7 @@ export default {
 	},
 	audio: {
 		imageAlt: 'Professionell ljudutrustning för uthyrning',
-		desc: 'Aktiva och passiva HK Audio-högtalare med subwoofrar, digitala mixerbord och trådlösa Audix-mikrofoner för hög akustisk kvalitet.'
+		desc: 'Aktiva och passiva HK Audio-högtalare med subwoofrar, digitala mixerbord samt trådlösa mikrofoner och gåshalsmikrofoner från Audix för hög akustisk kvalitet.'
 	},
 	lighting: {
 		imageAlt: 'Uthyrning av spektakulär eventbelysning',

@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-25';
+export const updated = '2026-09-26';
 
 export default {
 	seo: {
@@ -21,9 +21,8 @@ export default {
 	featured: {
 		imageAlt: 'Montagem do MICE Pack audiovisual para reuniões',
 		badge: 'Pacote em destaque',
-		desc: 'Ideal para conferências e eventos corporativos. O MICE Pack inclui um ecrã LED de 60 polegadas, equipamento audiovisual premium, microfones de mesa e sem fios, e até 6 horas de apoio técnico no local para garantir que a sua apresentação decorre na perfeição.',
 		spec1: 'Ecrã LED de 60"',
-		spec2: 'Áudio sem fios',
+		spec2: 'Microfone de pescoço de ganso + sem fios',
 		spec3: 'Apoio técnico incluído',
 		spec4: 'Som premium',
 		cta: 'Pedir informações'
@@ -34,7 +33,7 @@ export default {
 	},
 	audio: {
 		imageAlt: 'Equipamento de som profissional para aluguer',
-		desc: 'Colunas ativas e passivas HK Audio com subwoofers, mesas de mistura digitais e microfones sem fios Audix para uma elevada fidelidade acústica.'
+		desc: 'Colunas ativas e passivas HK Audio com subwoofers, mesas de mistura digitais e microfones Audix sem fios e de pescoço de ganso para uma elevada fidelidade acústica.'
 	},
 	lighting: {
 		imageAlt: 'Aluguer de iluminação espetacular para eventos',

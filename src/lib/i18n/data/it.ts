@@ -119,8 +119,8 @@ export default {
 			}
 		},
 		mice: {
-			updated: '2026-09-24',
-			desc: 'La soluzione completa di noleggio audiovisivi per congressi e conferenze a Malaga, con schermo grande formato, impianto audio attivo premium, microfoni wireless per podio e assistenza tecnica dal vivo dedicata.',
+			updated: '2026-09-26',
+			desc: "La soluzione completa di noleggio audiovisivi per congressi e conferenze a Malaga, con schermo grande formato, impianto audio attivo premium, un microfono a collo d'oca e un microfono palmare wireless, oltre all'assistenza tecnica dal vivo dedicata.",
 			includes: [
 				'Schermo LED premium ad alta definizione da 60 pollici con stativo di design',
 				'Casse attive professionali e impianto audio ad alte prestazioni',

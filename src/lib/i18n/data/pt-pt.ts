@@ -119,8 +119,8 @@ export default {
 			}
 		},
 		mice: {
-			updated: '2026-09-24',
-			desc: 'Solução corporativa MICE completa com um ecrã de grande formato, reforço de som ativo premium, microfones sem fios de pódio e apoio dedicado de um técnico ao vivo. Este equipamento audiovisual para conferências e congressos em Málaga cobre cada detalhe do seu evento.',
+			updated: '2026-09-26',
+			desc: 'Solução corporativa MICE completa com um ecrã de grande formato, reforço de som ativo premium, um microfone de pescoço de ganso e um microfone de mão sem fios, além de apoio dedicado de um técnico ao vivo. Este equipamento audiovisual para conferências e congressos em Málaga cobre cada detalhe do seu evento.',
 			includes: [
 				'Ecrã LED premium de 60 polegadas de alta definição com suporte de design',
 				'Colunas ativas profissionais e sistema de som de alto desempenho',

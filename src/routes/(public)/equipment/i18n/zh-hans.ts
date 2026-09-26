@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-25';
+export const updated = '2026-09-26';
 
 const copy = {
 	seo: {
@@ -19,9 +19,8 @@ const copy = {
 	featured: {
 		imageAlt: 'MICE视听套餐会议搭建实景',
 		badge: '精选套餐',
-		desc: '非常适合会议及企业活动。MICE Pack套餐包含60英寸LED显示屏、高端视听设备、桌面及无线麦克风，并提供最长6小时的现场技术支持，确保您的演示万无一失。',
 		spec1: '60英寸LED显示屏',
-		spec2: '无线音频',
+		spec2: '鹅颈+无线麦克风',
 		spec3: '含技术支持',
 		spec4: '高端音响',
 		cta: '获取详情'
@@ -32,7 +31,7 @@ const copy = {
 	},
 	audio: {
 		imageAlt: '专业音响租赁设备',
-		desc: '配备低音炮的HK Audio有源及无源音箱、数字调音台及Audix无线麦克风，带来高保真声学效果。'
+		desc: '配备低音炮的HK Audio有源及无源音箱、数字调音台及Audix无线与鹅颈麦克风，带来高保真声学效果。'
 	},
 	lighting: {
 		imageAlt: '震撼活动灯光租赁设备',

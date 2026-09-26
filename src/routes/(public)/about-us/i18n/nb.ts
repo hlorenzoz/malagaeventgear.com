@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-26';
 
 export default {
 	seo: {
@@ -43,7 +43,7 @@ export default {
 		},
 		microphones: {
 			title: 'Mikrofoner',
-			body: 'Profesjonelle Audix-håndmikrofoner, både kablede og trådløse, samt trådløse sett med mygg- og headsetmikrofoner.'
+			body: 'Profesjonelle Audix-håndmikrofoner, både kablede og trådløse, svanehalsmikrofoner for talerstol og bord, samt trådløse sett med mygg- og headsetmikrofoner.'
 		},
 		technicians: {
 			title: 'Teknikere til arrangementet',

@@ -119,8 +119,8 @@ export default {
 			}
 		},
 		mice: {
-			updated: '2026-09-24',
-			desc: 'Solução corporativa completa de MICE com tela de grande formato, reforço de som ativo premium, microfones sem fio para o púlpito e suporte de técnico dedicado ao vivo. Ideal como equipamento audiovisual para conferências e congressos em Málaga.',
+			updated: '2026-09-26',
+			desc: 'Solução corporativa completa de MICE com tela de grande formato, reforço de som ativo premium, um microfone gooseneck e um microfone de mão sem fio, além de suporte de técnico dedicado ao vivo. Ideal como equipamento audiovisual para conferências e congressos em Málaga.',
 			includes: [
 				'Tela de LED premium de 60 polegadas em alta definição com suporte de design',
 				'Caixas de som ativas profissionais e sistema de som de alto desempenho',

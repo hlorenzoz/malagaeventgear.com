@@ -119,8 +119,8 @@ export default {
 			}
 		},
 		mice: {
-			updated: '2026-09-24',
-			desc: 'Complete zakelijke MICE-oplossing met een groot beeldscherm, premium actieve geluidsversterking, draadloze podiummicrofoons en een vaste technicus ter plaatse. Zo huur je congrestechniek in Malaga waarbij aan elk detail van je evenement is gedacht.',
+			updated: '2026-09-26',
+			desc: 'Complete zakelijke MICE-oplossing met een groot beeldscherm, premium actieve geluidsversterking, een zwanenhalsmicrofoon en een draadloze handmicrofoon, plus een vaste technicus ter plaatse. Zo huur je congrestechniek in Malaga waarbij aan elk detail van je evenement is gedacht.',
 			includes: [
 				'Premium HD-LED-scherm van 60 inch met designstandaard',
 				'Professionele actieve speakers en krachtig geluidssysteem',

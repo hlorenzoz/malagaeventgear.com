@@ -9,6 +9,7 @@
 	import coverThumbsRaw from '$lib/data/cover-thumbs.json';
 	import { packageImageVariant, MICE_EQUIPMENT_PAGE_IMAGE } from '$lib/assets/package-images';
 	import { getPackageBySlug, formatPrice } from '$lib/data/packages';
+	import { pkgCopy } from '$lib/i18n/data-copy.svelte';
 
 	let { data } = $props();
 	// Copy in the page language (./i18n/<locale>.ts, loaded by +page.ts)
@@ -94,7 +95,7 @@
 			<div class="p-8 md:p-16 flex flex-col justify-center relative z-10 bg-surface-glass backdrop-blur-xl">
 				<h2 class="font-headline-md text-headline-md text-on-surface mb-4">{micePkg.name}</h2>
 				<p class="font-body-md text-body-md text-on-surface-variant mb-8">
-					{copy.featured.desc}
+					{pkgCopy(micePkg).desc}
 				</p>
 
 				<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">

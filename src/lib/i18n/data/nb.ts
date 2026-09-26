@@ -119,8 +119,8 @@ export default {
 			}
 		},
 		mice: {
-			updated: '2026-09-24',
-			desc: 'Komplett MICE-løsning for bedrifter, med storformatsskjerm, aktivt lydanlegg i premiumklasse, trådløse podiemikrofoner og en dedikert tekniker på stedet. Her finner du AV-utstyr til konferanser i Malaga, tilpasset hver detalj i arrangementet ditt.',
+			updated: '2026-09-26',
+			desc: 'Komplett MICE-løsning for bedrifter, med storformatsskjerm, aktivt lydanlegg i premiumklasse, en svanehalsmikrofon og en trådløs håndmikrofon samt en dedikert tekniker på stedet. Her finner du AV-utstyr til konferanser i Malaga, tilpasset hver detalj i arrangementet ditt.',
 			includes: [
 				'LED-skjerm i premiumklasse på 60 tommer, med stilrent stativ',
 				'Profesjonelle aktive høyttalere og høytytende lydanlegg',

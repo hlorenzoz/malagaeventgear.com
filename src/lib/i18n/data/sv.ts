@@ -119,8 +119,8 @@ export default {
 			}
 		},
 		mice: {
-			updated: '2026-09-24',
-			desc: 'Komplett MICE-lösning för företag med en storformatsskärm, förstklassig aktiv ljudförstärkning, trådlösa podiemikrofoner och en dedikerad livetekniker. Hyr kongressteknik i Malaga med allt som ditt evenemang behöver.',
+			updated: '2026-09-26',
+			desc: 'Komplett MICE-lösning för företag med en storformatsskärm, förstklassig aktiv ljudförstärkning, en gåshalsmikrofon och en trådlös handmikrofon samt en dedikerad livetekniker. Hyr kongressteknik i Malaga med allt som ditt evenemang behöver.',
 			includes: [
 				'60-tums LED-skärm i hög definition och premiumkvalitet, med designstativ',
 				'Professionella aktiva högtalare och kraftfullt ljudsystem',

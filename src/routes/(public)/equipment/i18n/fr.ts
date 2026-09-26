@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-25';
+export const updated = '2026-09-26';
 
 const copy = {
 	seo: {
@@ -21,9 +21,8 @@ const copy = {
 	featured: {
 		imageAlt: 'Installation audiovisuelle du MICE Pack pour réunions',
 		badge: 'Forfait phare',
-		desc: "Idéal pour les conférences et événements d'entreprise. Le MICE Pack comprend un écran LED de 60 pouces, du matériel audiovisuel premium, des microphones de table et sans fil, et jusqu'à 6 heures d'assistance technique sur place pour garantir le bon déroulement de votre présentation.",
 		spec1: 'Écran LED 60"',
-		spec2: 'Audio sans fil',
+		spec2: 'Micro col de cygne + sans fil',
 		spec3: 'Assistance technique incluse',
 		spec4: 'Son premium',
 		cta: 'Demander des informations'
@@ -34,7 +33,7 @@ const copy = {
 	},
 	audio: {
 		imageAlt: 'Location de matériel de son professionnel',
-		desc: 'Enceintes actives et passives HK Audio avec caissons de basses, consoles de mixage numériques et microphones sans fil Audix pour une fidélité acoustique élevée.'
+		desc: 'Enceintes actives et passives HK Audio avec caissons de basses, consoles de mixage numériques et microphones Audix sans fil et col de cygne pour une fidélité acoustique élevée.'
 	},
 	lighting: {
 		imageAlt: "Location d'éclairage événementiel spectaculaire",

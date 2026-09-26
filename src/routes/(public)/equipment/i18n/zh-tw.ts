@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-25';
+export const updated = '2026-09-26';
 
 export default {
 	seo: {
@@ -21,9 +21,8 @@ export default {
 	featured: {
 		imageAlt: 'MICE影音方案的會議搭建現場',
 		badge: '精選方案',
-		desc: '非常適合會議與企業活動。MICE Pack內含60吋LED螢幕、頂級影音設備、桌上型與無線麥克風，以及最長6小時的現場技術支援，確保您的簡報流暢無誤。',
 		spec1: '60吋LED螢幕',
-		spec2: '無線音訊',
+		spec2: '鵝頸＋無線麥克風',
 		spec3: '包含技術支援',
 		spec4: '頂級音響',
 		cta: '索取資訊'
@@ -34,7 +33,7 @@ export default {
 	},
 	audio: {
 		imageAlt: '專業音響租賃設備',
-		desc: '搭配超低音喇叭的HK Audio主動式與被動式喇叭、數位混音控制台，以及Audix無線麥克風，帶來高聲學保真度。'
+		desc: '搭配超低音喇叭的HK Audio主動式與被動式喇叭、數位混音控制台，以及Audix無線與鵝頸麥克風，帶來高聲學保真度。'
 	},
 	lighting: {
 		imageAlt: '絢麗活動燈光租賃設備',

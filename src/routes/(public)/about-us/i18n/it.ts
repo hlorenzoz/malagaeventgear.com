@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-26';
 
 const copy = {
 	seo: {
@@ -43,7 +43,7 @@ const copy = {
 		},
 		microphones: {
 			title: 'Microfoni',
-			body: 'Microfoni palmari professionali Audix, cablati e wireless, oltre a set wireless con microfono lavalier o ad archetto.'
+			body: "Microfoni palmari professionali Audix, cablati e wireless, microfoni a collo d'oca per podio e tavolo, oltre a set wireless con microfono lavalier o ad archetto."
 		},
 		technicians: {
 			title: 'Tecnici per eventi',

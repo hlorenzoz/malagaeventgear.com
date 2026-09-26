@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-25';
+export const updated = '2026-09-26';
 
 const copy = {
 	seo: {
@@ -21,9 +21,8 @@ const copy = {
 	featured: {
 		imageAlt: 'Opsætning af MICE-pakke med AV-udstyr til møder',
 		badge: 'Udvalgt pakke',
-		desc: 'Ideel til konferencer og virksomhedsevents. MICE Pack inkluderer en 60-tommer LED-skærm, AV-udstyr i topklasse, bord- og trådløse mikrofoner samt op til 6 timers teknisk support på stedet, så din præsentation forløber fejlfrit.',
 		spec1: '60" LED-skærm',
-		spec2: 'Trådløs lyd',
+		spec2: 'Svanehals- + trådløs mikrofon',
 		spec3: 'Teknisk support inkluderet',
 		spec4: 'Lyd i topklasse',
 		cta: 'Anmod om info'
@@ -34,7 +33,7 @@ const copy = {
 	},
 	audio: {
 		imageAlt: 'Professionelt lydudstyr til udlejning',
-		desc: 'Aktive og passive HK Audio-højttalere med subwoofere, digitale mixerpulte og trådløse Audix-mikrofoner til høj akustisk kvalitet.'
+		desc: 'Aktive og passive HK Audio-højttalere med subwoofere, digitale mixerpulte samt trådløse mikrofoner og svanehalsmikrofoner fra Audix til høj akustisk kvalitet.'
 	},
 	lighting: {
 		imageAlt: 'Imponerende belysningsudstyr til events',

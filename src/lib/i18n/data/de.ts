@@ -119,8 +119,8 @@ export default {
 			}
 		},
 		mice: {
-			updated: '2026-09-24',
-			desc: 'Kongresstechnik mieten in Malaga: eine umfassende MICE-Komplettlösung mit großformatigem Display, hochwertiger aktiver Beschallung, kabellosen Podiumsmikrofonen und fester Betreuung durch einen Techniker vor Ort.',
+			updated: '2026-09-26',
+			desc: 'Kongresstechnik mieten in Malaga: eine umfassende MICE-Komplettlösung mit großformatigem Display, hochwertiger aktiver Beschallung, einem Schwanenhalsmikrofon und einem kabellosen Handmikrofon sowie fester Betreuung durch einen Techniker vor Ort.',
 			includes: [
 				'Hochwertiges 60-Zoll-LED-Display in High Definition mit Designstandfuß',
 				'Professionelle Aktivlautsprecher und leistungsstarke Beschallungsanlage',

@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-26';
 
 const copy = {
 	seo: {
@@ -41,7 +41,7 @@ const copy = {
 		},
 		microphones: {
 			title: '麦克风',
-			body: '专业Audix有线及无线手持麦克风，以及无线领夹式与头戴式麦克风套装。'
+			body: '专业Audix有线及无线手持麦克风、讲台及桌面用鹅颈麦克风，以及无线领夹式与头戴式麦克风套装。'
 		},
 		technicians: {
 			title: '活动技术人员',

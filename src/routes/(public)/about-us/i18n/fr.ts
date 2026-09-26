@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-26';
 
 const copy = {
 	seo: {
@@ -43,7 +43,7 @@ const copy = {
 		},
 		microphones: {
 			title: 'Microphones',
-			body: 'Des microphones main professionnels Audix, filaires et sans fil, ainsi que des kits sans fil avec microphone cravate ou serre-tête.'
+			body: 'Des microphones main professionnels Audix, filaires et sans fil, des microphones col de cygne pour pupitre et table, ainsi que des kits sans fil avec microphone cravate ou serre-tête.'
 		},
 		technicians: {
 			title: 'Techniciens événementiels',

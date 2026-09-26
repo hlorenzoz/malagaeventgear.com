@@ -24,9 +24,8 @@ const copy = {
     featured: {
         imageAlt: 'MICE Audiovisual Pack Setup for Meetings',
         badge: 'Featured Pack',
-        desc: 'Ideal for conferences and corporate events. The MICE Pack includes a 60 inch LED screen, premium audiovisual gear, tabletop and wireless microphones, and up to 6 hours of on site technical support to ensure your presentation runs flawlessly.',
         spec1: '60" LED Screen',
-        spec2: 'Wireless Audio',
+        spec2: 'Gooseneck + Wireless Mic',
         spec3: 'Technical Support Included',
         spec4: 'Premium Sound',
         cta: 'Request Info'
@@ -37,7 +36,7 @@ const copy = {
     },
     audio: {
         imageAlt: 'Professional sound rental equipment',
-        desc: 'HK Audio active and passive speakers with subwoofers, digital mixing consoles and Audix wireless microphones for high acoustic fidelity.'
+        desc: 'HK Audio active and passive speakers with subwoofers, digital mixing consoles and Audix wireless and gooseneck microphones for high acoustic fidelity.'
     },
     lighting: {
         imageAlt: 'Spectacular event lighting rental equipment',

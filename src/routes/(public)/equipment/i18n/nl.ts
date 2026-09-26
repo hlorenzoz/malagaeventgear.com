@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-25';
+export const updated = '2026-09-26';
 
 const copy = {
 	seo: {
@@ -21,9 +21,8 @@ const copy = {
 	featured: {
 		imageAlt: 'Opstelling van het MICE Pack voor vergaderingen',
 		badge: 'Uitgelicht pakket',
-		desc: 'Ideaal voor conferenties en bedrijfsevenementen. Het MICE Pack bevat een 60 inch LED-scherm, premium audiovisuele apparatuur, tafel- en draadloze microfoons, en tot 6 uur technische ondersteuning ter plaatse, zodat je presentatie vlekkeloos verloopt.',
 		spec1: '60" LED-scherm',
-		spec2: 'Draadloos geluid',
+		spec2: 'Zwanenhals- + draadloze microfoon',
 		spec3: 'Technische ondersteuning inbegrepen',
 		spec4: 'Premium geluid',
 		cta: 'Vraag informatie aan'
@@ -34,7 +33,7 @@ const copy = {
 	},
 	audio: {
 		imageAlt: 'Professionele geluidsapparatuur voor verhuur',
-		desc: 'Actieve en passieve HK Audio-speakers met subwoofers, digitale mengpanelen en draadloze Audix-microfoons voor de hoogste akoestische kwaliteit.'
+		desc: 'Actieve en passieve HK Audio-speakers met subwoofers, digitale mengpanelen en draadloze microfoons en zwanenhalsmicrofoons van Audix voor de hoogste akoestische kwaliteit.'
 	},
 	lighting: {
 		imageAlt: 'Spectaculaire evenementverlichting voor verhuur',

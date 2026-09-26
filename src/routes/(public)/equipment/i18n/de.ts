@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-25';
+export const updated = '2026-09-26';
 
 export default {
 	seo: {
@@ -21,9 +21,8 @@ export default {
 	featured: {
 		imageAlt: 'Aufbau des MICE Pack für Meetings',
 		badge: 'Empfohlenes Paket',
-		desc: 'Ideal für Konferenzen und Firmenevents. Das MICE Pack beinhaltet ein 60-Zoll-LED-Display, erstklassige AV-Technik, Tisch- und Funkmikrofone sowie bis zu 6 Stunden technischen Support vor Ort, damit Ihre Präsentation makellos abläuft.',
 		spec1: '60-Zoll-LED-Display',
-		spec2: 'Kabelloser Ton',
+		spec2: 'Schwanenhals- + Funkmikrofon',
 		spec3: 'Technischer Support inbegriffen',
 		spec4: 'Erstklassiger Klang',
 		cta: 'Informationen anfordern'
@@ -34,7 +33,7 @@ export default {
 	},
 	audio: {
 		imageAlt: 'Professionelle Beschallungstechnik zur Miete',
-		desc: 'Aktive und passive HK-Audio-Lautsprecher mit Subwoofern, digitale Mischpulte und Audix-Funkmikrofone für höchste Klangtreue.'
+		desc: 'Aktive und passive HK-Audio-Lautsprecher mit Subwoofern, digitale Mischpulte sowie Funk- und Schwanenhalsmikrofone von Audix für höchste Klangtreue.'
 	},
 	lighting: {
 		imageAlt: 'Spektakuläre Eventbeleuchtung zur Miete',

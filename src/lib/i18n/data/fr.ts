@@ -119,8 +119,8 @@ export default {
 			}
 		},
 		mice: {
-			updated: '2026-09-24',
-			desc: "Solution MICE d'entreprise complète avec écran grand format, sonorisation active premium, microphones sans fil pour podium et assistance technique en direct dédiée.",
+			updated: '2026-09-26',
+			desc: "Solution MICE d'entreprise complète avec écran grand format, sonorisation active premium, un microphone col de cygne et un microphone main sans fil, ainsi qu'une assistance technique en direct dédiée.",
 			includes: [
 				'Écran LED haute définition premium de 60 pouces sur pied design',
 				'Enceintes actives professionnelles et système de son haute performance',

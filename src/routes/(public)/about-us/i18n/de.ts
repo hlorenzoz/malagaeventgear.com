@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-26';
 
 export default {
 	seo: {
@@ -43,7 +43,7 @@ export default {
 		},
 		microphones: {
 			title: 'Mikrofone',
-			body: 'Professionelle kabelgebundene und kabellose Handmikrofone von Audix sowie kabellose Ansteckmikrofone und Headsets.'
+			body: 'Professionelle kabelgebundene und kabellose Handmikrofone von Audix, Schwanenhalsmikrofone für Rednerpult und Tisch sowie kabellose Ansteckmikrofone und Headsets.'
 		},
 		technicians: {
 			title: 'Veranstaltungstechniker',

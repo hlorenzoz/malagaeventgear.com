@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-26';
 
 export default {
 	seo: {
@@ -43,7 +43,7 @@ export default {
 		},
 		microphones: {
 			title: 'Microfones',
-			body: 'Microfones de mão Audix profissionais, com e sem fios, além de conjuntos sem fios de lapela e de cabeça.'
+			body: 'Microfones de mão Audix profissionais, com e sem fios, microfones de pescoço de ganso para púlpito e mesa, além de conjuntos sem fios de lapela e de cabeça.'
 		},
 		technicians: {
 			title: 'Técnicos de eventos',

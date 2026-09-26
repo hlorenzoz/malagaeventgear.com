@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-09-26';
 
 export default {
 	seo: {
@@ -42,7 +42,7 @@ export default {
 		},
 		microphones: {
 			title: '麥克風',
-			body: '專業Audix有線及無線手持麥克風，另有無線領夾式與頭戴式麥克風組。'
+			body: '專業Audix有線及無線手持麥克風、講台及桌上用鵝頸麥克風，另有無線領夾式與頭戴式麥克風組。'
 		},
 		technicians: {
 			title: '活動技術人員',

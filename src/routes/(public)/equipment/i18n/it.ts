@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-25';
+export const updated = '2026-09-26';
 
 const copy = {
 	seo: {
@@ -21,9 +21,8 @@ const copy = {
 	featured: {
 		imageAlt: 'Allestimento audiovisivo del MICE Pack per riunioni',
 		badge: 'Pacchetto in evidenza',
-		desc: 'Ideale per conferenze ed eventi aziendali. Il MICE Pack include uno schermo LED da 60 pollici, attrezzature audiovisive premium, microfoni da tavolo e wireless, e fino a 6 ore di assistenza tecnica in loco per garantire che la tua presentazione si svolga senza intoppi.',
 		spec1: 'Schermo LED da 60"',
-		spec2: 'Audio wireless',
+		spec2: "Microfono a collo d'oca + wireless",
 		spec3: 'Assistenza tecnica inclusa',
 		spec4: 'Audio premium',
 		cta: 'Richiedi informazioni'
@@ -34,7 +33,7 @@ const copy = {
 	},
 	audio: {
 		imageAlt: 'Attrezzatura audio professionale a noleggio',
-		desc: "Casse attive e passive HK Audio con subwoofer, mixer digitali e microfoni wireless Audix per un'alta fedeltà acustica."
+		desc: "Casse attive e passive HK Audio con subwoofer, mixer digitali e microfoni Audix wireless e a collo d'oca per un'alta fedeltà acustica."
 	},
 	lighting: {
 		imageAlt: 'Attrezzatura di illuminazione spettacolare a noleggio per eventi',

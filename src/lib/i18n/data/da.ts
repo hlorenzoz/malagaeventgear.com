@@ -119,8 +119,8 @@ export default {
 			}
 		},
 		mice: {
-			updated: '2026-09-24',
-			desc: 'Omfattende MICE-løsning til virksomheder med en storformatsskærm, aktivt lydanlæg i premiumkvalitet, trådløse podiemikrofoner og dedikeret teknikersupport på stedet.',
+			updated: '2026-09-26',
+			desc: 'Omfattende MICE-løsning til virksomheder med en storformatsskærm, aktivt lydanlæg i premiumkvalitet, en svanehalsmikrofon og en trådløs håndmikrofon samt dedikeret teknikersupport på stedet.',
 			includes: [
 				'60-tommer HD-LED-skærm i premiumkvalitet med designstativ',
 				'Professionelle aktive højttalere og højtydende lydanlæg',

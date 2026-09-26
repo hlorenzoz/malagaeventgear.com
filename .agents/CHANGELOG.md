@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (gooseneck-mics): micrófonos de cuello de ganso en el MICE Pack, about-us y equipment
+- **Dato del negocio (2026-09-26)**: el inventario (`.agents/context/inventario/2026.09.26 - Equipamiento.csv`) marca como Gooseneck los 2x Audix ADX12 y 2x ADX212, los únicos de cuello de ganso. Corrige la entrada de la Fase 3 que dio por falsos los "micrófonos de cuello de cisne" y los sacó de about-us.
+- **MICE Pack**: la descripción decía "wireless podium microphones", contra lo incluido (1 de cuello de ganso con cable + 1 inalámbrico de mano). Corregida en `packages.ts` y en los 12 idiomas, fecha del paquete a 2026-09-26. `/packages/` y la home muestran esa descripción, así que sus fechas también pasan a 2026-09-26 en los 13 idiomas.
+- **about-us**: la sección Micrófonos vuelve a nombrar los de cuello de ganso para atril y mesa. **equipment**: la categoría de sonido suma los de cuello de ganso y el chip de la tarjeta del MICE Pack dice qué micrófonos trae. La tarjeta ya no repite a mano lo incluido: muestra la descripción del paquete con `pkgCopy()` (regla 7), y `featured.desc` sale de los 13 archivos de copia. Fechas a 2026-09-26.
+- **llms.txt**: la entrada de Equipment Catalog suma los micrófonos de cuello de ganso. La del MICE Pack se corrige sola porque se deriva de `packages.ts`.
+
 ### Fixed (stock-photos) - fotos genericas presentadas como trabajo de MEG
 - **Decision del usuario (2026-09-25)**: la foto `blog/2278` (salon de conferencias) y las 12 de bodas (`blog/1625`, `1627` a `1633`, `1635` a `1638`) son de banco de imagenes, no eventos de MEG. Una foto generica nunca se presenta como trabajo de MEG (CLAUDE.md, "Honestidad").
 - **Posts**: las secciones "Real Weddings We've Delivered" de unos 20 posts ingleses pasan a titulos veraces distintos por post, y cada pie dice que la foto es ilustrativa. En los posts que mezclan fotos reales y de banco bajo "Real Setups We've Delivered" o "Our Recent Event Setups", las fotos de banco salen de la seccion y quedan solo las reales. Los alt que describian equipo que no se ve en la foto pasan a describir solo la foto. Mismo cambio en las 12 traducciones de wedding-rentals y stage-lighting-for-weddings.
