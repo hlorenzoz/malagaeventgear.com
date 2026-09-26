@@ -101,6 +101,11 @@ export default {
 			slug: 'location-materiel-mariage-pres-de-chez-moi',
 			keyword: 'location de matériel pour mariage près de chez moi',
 			status: 'propuesta'
+		},
+		'tips-for-reducing-wedding-rental-costs': {
+			slug: 'reduire-cout-location-materiel-mariage',
+			keyword: 'réduire le coût de la location de matériel pour mariage',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

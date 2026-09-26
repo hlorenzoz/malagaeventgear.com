@@ -1,0 +1,108 @@
+---
+title: "Spare penge på udlejning til bryllup i Malaga"
+description: "Spare penge på udlejning til bryllup i Malaga: vælg mellem Eco Pack og Wedding Pack, hold styr på tilvalg og tjek lokalets eget lydanlæg."
+excerpt: "Spare penge på udlejning til bryllup i Malaga: vælg mellem Eco Pack og Wedding Pack, hold styr på tilvalg og tjek lokalets eget lydanlæg."
+publishDate: "2026-09-26"
+sourceUpdated: "2026-09-26"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+De fleste guides om omkostninger ved bryllupsudlejning handler om møbler, telte, service og dekoration, og intet af det er en del af Malaga Event Gears (MEG) eget lager. Hvis dit sted mangler noget af dette, så spørg os alligevel. Det kan være noget en leverandør kan skaffe, og det kan også være det ikke kan, men at spørge koster ikke noget. Denne guide dækker den del, vores eget lager rent faktisk leverer, det audiovisuelle, og de rigtige, dokumenterede måder at sænke omkostningen på: matche en pakke til dit antal gæster, forstå hvad tilvalg reelt gør ved prisen, og et spørgsmål det er værd at stille dit sted, før du lejer noget som helst af os. For hele billedet af hvad vi dækker til et bryllup, se vores overblik over [udlejning til bryllup](/blog/wedding-rentals/). Er du stadig i tvivl om, hvilken pakke du skal booke, gennemgår vores guide [sådan vælger du den rigtige udlejning til brylluppet](/blog/how-to-choose-wedding-rentals/) de seks spørgsmål, startende med antallet af gæster, der afgør valget mellem Eco Pack og Wedding Pack.
+
+## Kort overblik
+
+---
+
+MEG's bryllupskatalog har to relevante pakker: [Eco Pack](/packages/eco/) til 290 € ekskl. moms for op til 50 gæster, som kører videre på egen hånd, når vores team har sat den op, og [Wedding Pack](/packages/wedding/) til 650 € ekskl. moms for op til 80 gæster, med en tekniker på stedet under hele arrangementet. At vælge den rigtige pakke til dit antal gæster er den suverænt største reelle omkostningsknap, der findes. Ud over det er det ærlige billede smallere, end de fleste guides antyder: tilvalg lægger kun til prisen, der findes ingen forhandlings- eller prismatchpolitik, og et reelt afstandsbaseret minimum gælder, så snart du booker uden for Costa del Sol.
+
+## Det vigtigste
+
+---
+
+-   Antallet af gæster afgør pakken, og at vælge rigtigt kan spare 360 €: [Eco Pack](/packages/eco/) passer på egen hånd til op til 50 gæster, [Wedding Pack](/packages/wedding/) passer til op til 80 med tekniker inkluderet.
+-   Tilvalg (en projektor, en røgmaskine, ekstra teknikertimer) lægger kun til prisen. Der findes ingen dokumenteret mulighed for at fjerne noget mod en rabat.
+-   MEG tilbyder hverken forhandlede priser, prismatch eller rabat for en hverdag eller en dato uden for sæsonen. Pakkepriserne er faste.
+-   Inden for Costa del Sol og i Sevilla er der intet minimumsbeløb. Granada kræver en booking over 400 € for at dække rejsen.
+-   Før du lejer lyd hos nogen som helst, så spørg dit sted, om det allerede har et eget lydanlæg. Det er det ene omkostningsspørgsmål, ingen almindelig bryllupsguide tænker på specifikt for det audiovisuelle.
+
+## At dimensionere din pakke rigtigt er den største reelle omkostningsknap
+
+Den enkeltvis største, mest ærlige omkostningsbeslutning i denne guide er, hvilken pakke du booker, ikke en rabat du forhandler dig til bagefter. Et par med 50 gæster eller færre, som ikke har brug for en tekniker klar hele aftenen, betaler 290 € ekskl. moms for [Eco Pack](/packages/eco/). Book i stedet [Wedding Pack](/packages/wedding/), dimensioneret til op til 80 gæster med en tekniker på stedet, og samme dag koster 650 €, en reel forskel på 360 € for kapacitet og støtte, du måske ikke bruger.
+
+| | Eco Pack | Wedding Pack |
+| --- | --- | --- |
+| Antal gæster | Op til 50 | Op til 80 |
+| Tekniker på stedet | Nej, kører på egen hånd efter opsætning | Ja, under hele arrangementet |
+| Belysning | RGBW LED-spots | Lyskæder og varmt LED-lys |
+| Pris (ekskl. moms) | 290 € | 650 € |
+
+Afvejningen er reel, ikke bare et mindre lydanlæg til en lavere pris. Eco Pack bliver leveret, opsat og testet af vores team og efterlades derefter kørende, uden at nogen justerer det under arrangementet. Teknikeren i Wedding Pack håndterer overgangen fra vielsen til talerne og videre til dansen, i takt med hvordan aftenen rent faktisk udvikler sig. Hvis dit antal gæster og dit komfortniveau passer til Eco Pack, er det netop den opsynsfunktion, du betaler 360 € ekstra for, når du booker Wedding Pack i stedet, så det er værd at være ærlig med dig selv om, hvorvidt du har brug for den.
+
+<InlineCTA />
+
+## Tilvalg lægger kun til prisen, ingen rabat for at fjerne dele
+
+Alle MEG's pakker, inklusive begge bryllupspakker, kan udvides med tilvalg: en projektor og lærred, en professionel røgmaskine, ekstra mikrofoner, en talerstol eller en scene, og ekstra timer med tekniker på stedet. På [Eco Pack](/packages/eco/) specifikt koster projektoren og lærredet 50 € ekstra, og røgmaskinen koster 20 € ekstra, offentliggjorte priser, ikke estimater. Det, der ikke findes nogen steder i vores betingelser, er det modsatte: en rabat for at fjerne noget, du ikke har brug for. Omkostningskontrol handler her om at beslutte, hvad du tilføjer, ikke hvad du fjerner for en lavere pris. På [Wedding Pack](/packages/wedding/) er det offentliggjorte tilvalg den samme røgmaskine, også til 20 €. Alt andet, du ønsker oveni, har ingen offentliggjort pris for den pakke, så fortæl os det, når du beder om et tilbud, så bekræfter vi prisen, før du booker.
+
+Det samme gælder forhandling generelt. MEG tilbyder hverken en forhandlet pris, en prismatchning mod en anden leverandørs tilbud, eller en rabat for at booke en hverdag eller en dato uden for sæsonen. Pakkepriserne er faste og oplyses gennemsigtigt, ekskl. 21 % moms, og den eneste måde at ændre totalen på er at ændre pakken eller tilvalgene i den.
+
+## Én AV-leverandør frem for flere
+
+At booke lyd, lys, mikrofoner og en tekniker som én samlet Wedding Pack, i stedet for at skaffe hver del hos en separat leverandør, undgår at betale dobbelte leverings-, opsætnings- og udkaldsgebyrer på tværs af flere bookinger. Det er en reel omkostningsfaktor, men det er ikke emnet for denne side. Vores guide [alt-i-en-pakker til bryllupsudlejning](/blog/all-in-one-wedding-rental-packages/) gennemgår præcis, hvad en sådan pakke indeholder og ikke indeholder, i dybden.
+
+## Granada-grænsen: et reelt afstandsbaseret minimum
+
+Inden for Malaga by og resten af Costa del Sol, herunder Marbella, Mijas, Fuengirola, Torremolinos, Benalmádena, Coín, Ronda, Nerja og Estepona, er der intet minimumsbeløb. Sevilla har fuld logistisk støtte og heller intet minimum. Booker du et bryllup i Granada, skal totalen overstige 400 € for at dække den logistiske rejse for én dag. For de fleste par, der booker Wedding Pack, er det ingen reel begrænsning, da pakken i sig selv ligger langt over den grænse, men det betyder noget, hvis du overvejer kun Eco Pack til et mindre bryllup i Granada, da 290 € alene lander under minimumet på 400 € og ville kræve et tilvalg eller en anden pakke for at nå op over det.
+
+## Spørg dit sted, før du lejer noget som helst
+
+Her er det ene spørgsmål, der ikke har noget med vores priser at gøre, og som ingen almindelig bryllupsguide om omkostninger tager op specifikt for det audiovisuelle: spørg dit sted, om det allerede har et eget lydanlæg. Nogle fincas, hoteller og villaer omkring Malaga har et grundlæggende PA-anlæg indbygget i receptionslokalet, hvilket kan være nok til baggrundsmusik eller en lille vielse med en håndfuld gæster. Det følger sjældent med en tekniker, bryllupstilpasset belysning eller trådløse mikrofoner til taler, så de fleste par ender alligevel med at leje de dele, et eget anlæg ikke kan dække, men at bekræfte, hvad der allerede findes, før du beder om et tilbud fra os eller nogen anden, er et reelt, gratis skridt mod at bruge mindre.
+
+## Tilpasning af udlejningen til brylluppet
+
+![Et bord til en bryllupsreception med lyserøde blomster og lys.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table.webp)
+
+Illustrationsfoto af et bord til en aftenreception, ikke et arrangement fra Malaga Event Gear. Ved en rigtig booking af Wedding Pack flytter teknikeren, der følger med pakken, lyden fra middagen videre til dansen.
+
+![En bryllupsceremoni på stranden med en rød løber som midtergang og en blomsterbue.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle.webp)
+
+Illustrationsfoto af en midtergang til en strandceremoni, ikke et af vores bryllupper: uanset stedet dimensionerer og tilbudsgiver vi ud fra det faktiske antal gæster, ikke en generisk pakke.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('wedding', ['/1628/', '/1636/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Booking og serviceområde
+
+Ydelser skal bookes mindst 24 timer i forvejen. Ud over det findes der ikke noget fast bookingvindue, kun ledighed, så kontakt os, så snart dit antal gæster og dit sted er bekræftet, og vi kan fortælle dig, hvilken pakke, og hvilke tilvalg om nogen, der virkelig passer til din dag. Se vores guide om [tidsplanen for booking](/blog/timeline-for-booking-wedding-rentals/) for mere om at tajme en booking godt før din dato. At sammenligne tilbud fra flere leverandører er dækket fuldt ud i vores guide [sammenligne tilbud på bryllupsudlejning](/blog/how-to-compare-wedding-rental-quotes/). At afgøre, hvad en AV-udlejning er værd sammenlignet med at købe udstyr direkte, er igen et separat spørgsmål, som vi dækker mere indgående andetsteds. Skal du ændre dit antal gæster eller tilvalg, efter du allerede har booket? Vores guide [håndtere ændringer i sidste øjeblik i bryllupsudlejningen](/blog/managing-last-minute-wedding-rental-changes/) gennemgår, hvad der stadig er muligt inden for minimumet på 24 timer.
+
+## Konklusion
+
+De ærlige omkostningsknapper for AV-udlejning til et bryllup i Malaga er smallere, end de fleste guides påstår. Dimensioner først din pakke efter dit antal gæster, for det alene kan udgøre en forskel på 360 €. Betragt tilvalg som noget, du vælger at inkludere, ikke noget, du forhandler væk. Ligger dit sted i Granada, så bekræft grænsen på 400 €, og spørg dit sted om dets eget lydanlæg, før du beder om et tilbud fra nogen som helst. [Kontakt os](/contact/) for at tjekke ledigheden og få et ærligt tilbud til din dato.
+
+## Ofte stillede spørgsmål
+
+### Kan jeg forhandle prisen på en AV-pakke til bryllup?
+
+Nej. MEG tilbyder hverken forhandlede priser, prismatchning mod en anden leverandørs tilbud, eller rabat for en hverdag eller en dato uden for sæsonen. Pakkepriserne er faste og oplyses ekskl. 21 % moms.
+
+### Har jeg brug for en tekniker på stedet til bryllupslyden, eller kan jeg selv styre den?
+
+[Eco Pack](/packages/eco/) kører på egen hånd, efter vores team har leveret, opsat og testet den, og passer til op til 50 gæster. [Wedding Pack](/packages/wedding/) inkluderer en tekniker på stedet under hele arrangementet og passer til op til 80 gæster. At vælge Eco frem for Wedding, når dit antal gæster og komfortniveau tillader det, sparer 360 €.
+
+### Har mit sted allerede et lydanlæg, jeg kunne bruge i stedet for at leje?
+
+Nogle fincas, hoteller og villaer omkring Malaga har et grundlæggende eget PA-anlæg. Det kan dække baggrundsmusik eller en lille vielse, men indeholder sjældent en tekniker, bryllupstilpasset belysning eller trådløse mikrofoner til taler, så bekræft, hvad dit sted har, før du beslutter, hvad du stadig skal leje.
+
+### Er der et minimumsbeløb for bryllupper uden for Malaga?
+
+Inden for Costa del Sol og i Sevilla, nej. For Granada skal bookinger overstige 400 € for at dække den logistiske rejse for én dag.
+
+### Kan jeg tilføje eller fjerne dele fra en AV-pakke til bryllup for at styre omkostningen?
+
+Du kan tilføje: en projektor og lærred, en røgmaskine, ekstra mikrofoner, en talerstol, en scene, eller ekstra teknikertimer, alt bekræftet når du beder om et tilbud. Der findes ingen dokumenteret mulighed for at fjerne en inkluderet del fra en pakke mod en lavere pris.

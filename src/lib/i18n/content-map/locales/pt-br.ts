@@ -133,6 +133,11 @@ export default {
 			slug: 'locacao-casamento-perto-de-mim',
 			keyword: 'locação para casamento perto de mim',
 			status: 'propuesta'
+		},
+		'tips-for-reducing-wedding-rental-costs': {
+			slug: 'economizar-na-locacao-para-casamento',
+			keyword: 'economizar na locação para casamento',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

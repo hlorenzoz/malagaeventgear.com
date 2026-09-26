@@ -1,0 +1,108 @@
+---
+title: "Economizar na locação para casamento em Málaga"
+description: "Economizar na locação para casamento em Málaga: escolher entre Eco Pack e Wedding Pack, controlar os adicionais e verificar o som que o local já tem."
+excerpt: "Economizar na locação para casamento em Málaga: escolher entre Eco Pack e Wedding Pack, controlar os adicionais e verificar o som que o local já tem."
+publishDate: "2026-09-26"
+sourceUpdated: "2026-09-26"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+A maioria dos guias sobre o custo da locação para casamento fala de móveis, tendas, louça e decoração, e nada disso faz parte do estoque próprio da Malaga Event Gear (MEG). Se o seu local deixar uma dessas áreas descoberta, fale com a gente mesmo assim. Pode ser algo que um fornecedor consiga trazer, ou pode não ser, mas perguntar não custa nada. Este guia cobre a parte que o nosso próprio estoque realmente fornece, o audiovisual, e as formas reais e documentadas de reduzir esse custo: ajustar um pacote ao seu número de convidados, entender o que os adicionais realmente fazem no preço, e uma pergunta que vale a pena fazer ao seu local antes de alugar qualquer coisa com a gente. Para ver o quadro completo do que cobrimos em um casamento, confira o nosso resumo de [locação para casamento](/blog/wedding-rentals/). Se você ainda está decidindo qual pacote reservar, o nosso guia [como escolher a locação para o seu casamento](/blog/how-to-choose-wedding-rentals/) passa pelas seis perguntas, a começar pelo número de convidados, que decidem entre o Eco Pack e o Wedding Pack.
+
+## Resumo
+
+---
+
+O catálogo de casamentos da MEG tem dois pacotes relevantes: o [Eco Pack](/packages/eco/) por € 290 sem IVA para até 50 convidados, autônomo depois que a nossa equipe faz a montagem, e o [Wedding Pack](/packages/wedding/) por € 650 sem IVA para até 80 convidados, com um técnico ao vivo no local durante todo o evento. Escolher o pacote certo para o seu número de convidados é, de longe, a maior alavanca de custo real disponível. Além disso, o quadro honesto é mais estreito do que a maioria dos guias sugere: os adicionais só aumentam o custo, não existe nenhuma política de negociação nem de igualar preços, e se aplica um mínimo real baseado na distância assim que você reserva fora da Costa del Sol.
+
+## Destaques
+
+---
+
+-   O número de convidados decide o pacote, e escolher direito pode economizar € 360: o [Eco Pack](/packages/eco/) atende até 50 convidados de forma autônoma, o [Wedding Pack](/packages/wedding/) atende até 80 com técnico incluso.
+-   Os adicionais (um projetor, uma máquina de fumaça, horas extras de técnico) só aumentam o preço. Não existe nenhuma opção documentada para tirar um item em troca de desconto.
+-   A MEG não oferece preço negociado, igualação de preço, nem desconto por dia de semana ou data fora de época. Os preços dos pacotes são fixos.
+-   Na Costa del Sol e em Sevilha não há pedido mínimo. Granada exige uma reserva acima de € 400 para cobrir o deslocamento.
+-   Antes de alugar som com quem quer que seja, pergunte ao seu local se ele já tem um sistema de som próprio. É a única pergunta sobre custo em que nenhum guia genérico de casamento pensa especificamente para o audiovisual.
+
+## Dimensionar direito o seu pacote é a maior alavanca de custo real
+
+A decisão de custo mais importante e mais honesta deste guia é qual pacote você reserva, não um desconto que você negocia depois. Um casal com 50 convidados ou menos, que não precisa de um técnico de prontidão a noite toda, paga € 290 sem IVA pelo [Eco Pack](/packages/eco/). Reserve o [Wedding Pack](/packages/wedding/) em vez disso, feito para até 80 convidados com um técnico ao vivo, e o mesmo dia custa € 650, uma diferença real de € 360 por uma capacidade e um suporte que você talvez não use.
+
+| | Eco Pack | Wedding Pack |
+| --- | --- | --- |
+| Número de convidados | Até 50 | Até 80 |
+| Técnico no local | Não, autônomo após a montagem | Sim, durante todo o evento |
+| Iluminação | Spots de LED RGBW | Varais de luzes e cordões de LED em luz quente |
+| Preço (sem IVA) | € 290 | € 650 |
+
+A diferença é real, não é só um sistema de som menor por um preço mais baixo. O Eco Pack é entregue, instalado e testado pela nossa equipe, e depois fica funcionando sem que ninguém o ajuste durante o evento. O técnico do Wedding Pack conduz a transição da cerimônia para os discursos e depois para a pista de dança, à medida que a noite realmente acontece. Se o seu número de convidados e o seu nível de conforto combinam com o Eco Pack, é justamente esse acompanhamento que você paga € 360 a mais ao reservar o Wedding Pack, então vale a pena ser honesto consigo mesmo sobre se você precisa dele.
+
+<InlineCTA />
+
+## Os adicionais só aumentam o custo, não existe desconto por tirar itens
+
+Todo pacote da MEG, incluindo os dois pacotes de casamento, pode ser ampliado com adicionais: um projetor e uma tela, uma máquina de fumaça profissional, microfones extras, um púlpito ou um palco, e horas extras de técnico ao vivo. No [Eco Pack](/packages/eco/) especificamente, o projetor e a tela acrescentam € 50, e a máquina de fumaça acrescenta € 20, preços publicados, não estimativas. O que não existe em lugar nenhum nos nossos termos é o contrário: um desconto por tirar um item que você não precisa. Controlar o custo aqui significa decidir o que adicionar, não o que tirar para pagar menos. No [Wedding Pack](/packages/wedding/), o adicional publicado é a mesma máquina de fumaça, também por € 20. Qualquer outra coisa que você queira além disso não tem preço publicado para esse pacote, então nos conte quando pedir um orçamento e vamos confirmar o custo antes de você reservar.
+
+O mesmo vale para negociação em geral. A MEG não oferece uma tarifa negociada, uma igualação ao orçamento de outro fornecedor, nem um desconto por reservar um dia de semana ou uma data fora de época. Os preços dos pacotes são fixos e informados de forma transparente, sem IVA, com os 21% de IVA espanhol somados no pagamento, e a única forma de mudar o total é trocar o pacote ou os adicionais que ele tem.
+
+## Um único fornecedor de AV em vez de vários
+
+Reservar som, luz, microfones e um técnico em um único Wedding Pack, em vez de buscar cada item com um fornecedor diferente, evita pagar taxas duplicadas de entrega, montagem e deslocamento em várias reservas. Isso é um fator de custo real, mas não é o assunto desta página. O nosso guia [pacotes completos de locação para casamento](/blog/all-in-one-wedding-rental-packages/) explica em detalhes o que esse pacote fechado inclui e não inclui.
+
+## O limite de Granada: um mínimo real baseado na distância
+
+Dentro da cidade de Málaga e do resto da Costa del Sol, incluindo Marbella, Mijas, Fuengirola, Torremolinos, Benalmádena, Coín, Ronda, Nerja e Estepona, não há pedido mínimo. Sevilha tem suporte logístico total e também não tem mínimo. Reserve um casamento em Granada e o total precisa passar de € 400 para cobrir o deslocamento logístico de um dia. Para a maioria dos casais que reservam o Wedding Pack isso não é uma restrição real, já que o próprio pacote já fica bem acima desse limite, mas isso importa se você estiver considerando só o Eco Pack para um casamento menor em Granada, já que € 290 sozinhos ficam abaixo do mínimo de € 400 e precisariam de um adicional ou de um pacote diferente para superá-lo.
+
+## Pergunte ao seu local antes de alugar qualquer coisa
+
+Aqui está a única pergunta que não tem nada a ver com os nossos preços e que nenhum guia genérico de custo de casamento levanta especificamente para o audiovisual: pergunte ao seu local se ele já tem um sistema de som próprio. Algumas fazendas, hotéis e casas de campo ao redor de Málaga têm um sistema PA básico embutido no espaço da recepção, o que pode bastar para música ambiente ou uma pequena cerimônia com poucos convidados. Raramente vem com um técnico, iluminação em nível de casamento, ou microfones sem fio para os discursos, então a maioria dos casais acaba alugando mesmo assim as partes que um sistema próprio não cobre, mas confirmar o que já existe antes de pedir um orçamento com a gente ou com qualquer outra pessoa é um passo real e gratuito para gastar menos.
+
+## Dimensionando a locação para o casamento
+
+![Mesa da recepção de casamento com flores rosa e luzes.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table.webp)
+
+Foto ilustrativa de uma mesa de recepção à noite, não de um evento da Malaga Event Gear. Em uma reserva real do Wedding Pack, o técnico incluído no pacote vai ajustando o som do jantar até a pista de dança.
+
+![Uma cerimônia de casamento na praia, com um corredor de tapete vermelho e um arco de flores.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle.webp)
+
+Foto ilustrativa de um corredor de cerimônia na praia, não de um dos nossos casamentos: qualquer que seja o cenário, a gente dimensiona e orça com base no número real de convidados, não em um pacote genérico.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('wedding', ['/1628/', '/1636/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Reserva e área de atendimento
+
+Os serviços precisam ser reservados com pelo menos 24 horas de antecedência. Além disso, não existe uma janela fixa de reserva, só a disponibilidade, então entre em contato assim que o seu número de convidados e o seu local estiverem confirmados, e a gente diz qual pacote, e quais adicionais, se for o caso, realmente combinam com o seu dia. Veja o nosso guia sobre o [cronograma de reservas](/blog/timeline-for-booking-wedding-rentals/) para saber mais sobre o momento certo de reservar bem antes da sua data. Comparar orçamentos de vários fornecedores é tratado por completo no nosso guia [como comparar orçamentos de locação para casamento](/blog/how-to-compare-wedding-rental-quotes/). Decidir quanto vale uma locação de AV frente a comprar o equipamento direto é de novo uma questão à parte, que tratamos com mais profundidade em outro lugar. Precisa mudar o número de convidados ou os adicionais depois de já ter reservado? O nosso guia [gerenciar mudanças de última hora na locação do casamento](/blog/managing-last-minute-wedding-rental-changes/) explica o que ainda dá para fazer dentro do mínimo de 24 horas.
+
+## Conclusão
+
+As alavancas de custo honestas para a locação de AV de um casamento em Málaga são mais estreitas do que a maioria dos guias afirma. Ajuste primeiro o seu pacote ao número de convidados, porque isso sozinho já pode representar uma diferença de € 360. Trate os adicionais como coisas que você escolhe incluir, não como coisas que você negocia para tirar. Se o seu local for em Granada, confirme o limite de € 400, e pergunte ao seu local sobre o sistema de som próprio antes de pedir um orçamento com quem quer que seja. [Entre em contato](/contact/) para verificar a disponibilidade e conseguir um orçamento honesto para a sua data.
+
+## Perguntas frequentes
+
+### Dá para negociar o preço de um pacote audiovisual de casamento?
+
+Não. A MEG não oferece preço negociado, igualação ao orçamento de outro fornecedor, nem desconto por dia de semana ou data fora de época. Os preços dos pacotes são fixos e informados sem IVA, com os 21% de IVA espanhol somados no pagamento.
+
+### Preciso de um técnico ao vivo para o som do casamento, ou dá para eu mesmo operar?
+
+O [Eco Pack](/packages/eco/) é autônomo depois que a nossa equipe entrega, instala e testa o equipamento, e atende até 50 convidados. O [Wedding Pack](/packages/wedding/) inclui um técnico ao vivo durante todo o evento e atende até 80 convidados. Escolher o Eco Pack em vez do Wedding Pack, quando o seu número de convidados e nível de conforto permitem, economiza € 360.
+
+### O meu local já tem um sistema de som que eu poderia usar em vez de alugar?
+
+Algumas fazendas, hotéis e casas de campo ao redor de Málaga têm um sistema PA básico próprio. Ele pode cobrir música ambiente ou uma pequena cerimônia, mas raramente inclui um técnico, iluminação em nível de casamento, ou microfones sem fio para os discursos, então confirme o que o seu local já tem antes de decidir o que ainda precisa alugar.
+
+### Existe um valor mínimo para casamentos fora de Málaga?
+
+Na Costa del Sol e em Sevilha, não. Para Granada, as reservas precisam passar de € 400 para cobrir o deslocamento logístico de um dia.
+
+### Dá para adicionar ou tirar itens de um pacote audiovisual de casamento para controlar o custo?
+
+Você pode adicionar: um projetor e uma tela, uma máquina de fumaça, microfones extras, um púlpito, um palco, ou horas extras de técnico, tudo confirmado quando você pede um orçamento. Não existe nenhuma opção documentada para tirar um item incluso de um pacote por um preço menor.

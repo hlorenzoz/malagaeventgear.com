@@ -133,6 +133,11 @@ export default {
 			slug: 'aluguer-casamentos-perto-de-mim',
 			keyword: 'aluguer para casamentos perto de mim',
 			status: 'propuesta'
+		},
+		'tips-for-reducing-wedding-rental-costs': {
+			slug: 'poupar-no-aluguer-para-casamentos',
+			keyword: 'poupar no aluguer para casamentos',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

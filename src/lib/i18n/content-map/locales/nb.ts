@@ -105,6 +105,11 @@ export default {
 			slug: 'utleie-bryllup-naerheten-av-meg',
 			keyword: 'utleie til bryllup i nærheten av meg',
 			status: 'propuesta'
+		},
+		'tips-for-reducing-wedding-rental-costs': {
+			slug: 'spare-penger-pa-utleie-til-bryllup',
+			keyword: 'spare penger på utleie til bryllup',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

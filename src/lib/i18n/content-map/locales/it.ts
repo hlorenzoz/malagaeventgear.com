@@ -97,6 +97,11 @@ export default {
 			slug: 'noleggio-attrezzature-matrimoni-vicino-a-me',
 			keyword: 'noleggio attrezzature per matrimoni vicino a me',
 			status: 'propuesta'
+		},
+		'tips-for-reducing-wedding-rental-costs': {
+			slug: 'risparmiare-noleggio-attrezzature-matrimonio',
+			keyword: 'risparmiare sul noleggio di attrezzature per matrimonio',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

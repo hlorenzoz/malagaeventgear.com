@@ -97,6 +97,11 @@ export default {
 			slug: 'uthyrning-brollop-nara-mig',
 			keyword: 'uthyrning till bröllop nära mig',
 			status: 'propuesta'
+		},
+		'tips-for-reducing-wedding-rental-costs': {
+			slug: 'spara-pengar-pa-uthyrning-till-brollop',
+			keyword: 'spara pengar på uthyrning till bröllop',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

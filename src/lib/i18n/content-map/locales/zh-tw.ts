@@ -89,6 +89,11 @@ export default {
 			slug: '附近的婚禮設備租借',
 			keyword: '馬拉加 附近的婚禮設備租借',
 			status: 'propuesta'
+		},
+		'tips-for-reducing-wedding-rental-costs': {
+			slug: '婚禮設備租借省錢技巧',
+			keyword: '馬拉加 婚禮設備租借省錢技巧',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

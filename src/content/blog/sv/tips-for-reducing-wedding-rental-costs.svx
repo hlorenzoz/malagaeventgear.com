@@ -1,0 +1,108 @@
+---
+title: "Spara pengar på uthyrning till bröllop i Malaga"
+description: "Spara pengar på uthyrning till bröllop i Malaga: välj mellan Eco Pack och Wedding Pack, håll koll på tilläggen och kolla lokalens eget ljudsystem."
+excerpt: "Spara pengar på uthyrning till bröllop i Malaga: välj mellan Eco Pack och Wedding Pack, håll koll på tilläggen och kolla lokalens eget ljudsystem."
+publishDate: "2026-09-26"
+sourceUpdated: "2026-09-26"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+De flesta guider om kostnaden för bröllopsuthyrning handlar om möbler, tält, porslin och dekor, och inget av det finns i Malaga Event Gears (MEG) eget lager. Om din lokal saknar något av detta, hör av dig till oss ändå. Det kan vara något en leverantör kan ta in, eller kanske inte, men att fråga kostar ingenting. Den här guiden täcker den del som vårt eget lager faktiskt levererar, det audiovisuella, och de riktiga, dokumenterade sätten att sänka kostnaden för det: matcha ett paket mot ditt antal gäster, förstå vad tillägg egentligen gör med priset, och en fråga som är värd att ställa till din lokal innan du hyr något av oss. För hela bilden av vad vi täcker för bröllop, se vår översikt om [uthyrning till bröllop](/blog/wedding-rentals/). Om du fortfarande funderar på vilket paket du ska boka, går vår guide [så väljer du rätt uthyrning till bröllopet](/blog/how-to-choose-wedding-rentals/) igenom de sex frågorna, med start i antalet gäster, som avgör mellan Eco Pack och Wedding Pack.
+
+## Kort översikt
+
+---
+
+MEG:s bröllopskatalog har två relevanta paket: [Eco Pack](/packages/eco/) för 290 € exkl. moms för upp till 50 gäster, som körs på egen hand efter att vår personal har installerat det, och [Wedding Pack](/packages/wedding/) för 650 € exkl. moms för upp till 80 gäster, med en tekniker på plats under hela evenemanget. Att välja rätt paket för ditt antal gäster är den absolut största riktiga kostnadshävstången som finns. Utöver det är den ärliga bilden snävare än vad de flesta guider antyder: tillägg lägger bara till kostnad, det finns ingen förhandlings- eller prismatchningspolicy, och ett verkligt avståndsbaserat minimum gäller så fort du bokar utanför Costa del Sol.
+
+## Det viktigaste
+
+---
+
+-   Antalet gäster avgör paketet, och rätt val kan spara 360 €: [Eco Pack](/packages/eco/) passar upp till 50 gäster på egen hand, [Wedding Pack](/packages/wedding/) passar upp till 80 med tekniker inkluderad.
+-   Tillägg (en projektor, en rökmaskin, extra teknikertimmar) lägger bara till priset. Det finns inget dokumenterat alternativ att ta bort något mot en rabatt.
+-   MEG erbjuder ingen förhandlad prissättning, ingen prismatchning och ingen rabatt för en vardag eller ett datum utanför säsong. Paketpriserna är fasta.
+-   Inom Costa del Sol och i Sevilla finns ingen minsta beställning. Granada kräver en bokning över 400 € för att täcka resan.
+-   Innan du hyr ljud av någon, fråga din lokal om den redan har ett eget ljudsystem. Det är den enda kostnadsfrågan som ingen allmän bröllopsguide tänker på specifikt för det audiovisuella.
+
+## Att dimensionera ditt paket rätt är den största riktiga kostnadshävstången
+
+Det enskilt största, ärligaste kostnadsbeslutet i den här guiden är vilket paket du bokar, inte en rabatt du förhandlar fram i efterhand. Ett par med 50 gäster eller färre, som inte behöver ha en tekniker som står redo hela kvällen, betalar 290 € exkl. moms för [Eco Pack](/packages/eco/). Boka [Wedding Pack](/packages/wedding/) istället, dimensionerat för upp till 80 gäster med en tekniker på plats, och samma dag kostar 650 €, en verklig skillnad på 360 € för kapacitet och support du kanske inte använder.
+
+| | Eco Pack | Wedding Pack |
+| --- | --- | --- |
+| Antal gäster | Upp till 50 | Upp till 80 |
+| Tekniker på plats | Nej, körs på egen hand efter installation | Ja, under hela evenemanget |
+| Belysning | RGBW LED-spotlights | Ljusslingor och varma LED-slingor |
+| Pris (exkl. moms) | 290 € | 650 € |
+
+Avvägningen är verklig, inte bara en mindre ljudanläggning till ett lägre pris. Eco Pack levereras, installeras och testas av vår personal, och lämnas sedan igång utan att någon justerar det under evenemanget. Teknikern i Wedding Pack hanterar övergången från ceremoni till tal och sedan till dans, i takt med hur kvällen faktiskt utvecklar sig. Om ditt antal gäster och din komfortnivå passar Eco Pack är det precis den övervakningen du betalar 360 € extra för när du bokar Wedding Pack istället, så det är värt att vara ärlig med dig själv om du behöver den.
+
+<InlineCTA />
+
+## Tillägg lägger bara till kostnad, ingen rabatt för att ta bort saker
+
+Alla MEG-paket, inklusive båda bröllopspaketen, kan utökas med tillägg: en projektor och duk, en professionell rökmaskin, extra mikrofoner, ett podium eller en scen, och extra timmar med tekniker på plats. På [Eco Pack](/packages/eco/) specifikt kostar projektorn och duken 50 € extra, och rökmaskinen kostar 20 € extra, publicerade priser, inte uppskattningar. Det som inte finns någonstans i våra villkor är motsatsen: en rabatt för att ta bort något du inte behöver. Kostnadskontroll här handlar om att bestämma vad du lägger till, inte vad du tar bort för ett lägre pris. På [Wedding Pack](/packages/wedding/) är det publicerade tillägget samma rökmaskin, också 20 €. Allt annat du vill ha utöver det har inget publicerat pris för det paketet, så berätta det för oss när du begär en offert så bekräftar vi kostnaden innan du bokar.
+
+Samma sak gäller förhandling generellt. MEG erbjuder inget förhandlat pris, ingen prismatchning mot en annan leverantörs offert, och ingen rabatt för att boka en vardag eller ett datum utanför säsong. Paketpriserna är fasta och anges transparent, exkl. 21 % moms, och det enda sättet att ändra totalsumman är att ändra paketet eller tilläggen i det.
+
+## En enda AV-leverantör istället för flera
+
+Att boka ljud, ljus, mikrofoner och en tekniker som ett enda Wedding Pack, istället för att skaffa vart och ett från en separat leverantör, gör att du slipper betala dubbla leverans-, installations- och utryckningsavgifter för flera bokningar. Det är en verklig kostnadsfaktor, men det är inte ämnet för den här sidan. Vår guide [allt-i-ett-paket för bröllopsuthyrning](/blog/all-in-one-wedding-rental-packages/) går igenom exakt vad ett sådant paket innehåller och inte innehåller, på djupet.
+
+## Granada-gränsen: ett verkligt avståndsbaserat minimum
+
+Inom Malaga stad och resten av Costa del Sol, däribland Marbella, Mijas, Fuengirola, Torremolinos, Benalmádena, Coín, Ronda, Nerja och Estepona, finns ingen minsta beställning. Sevilla har fullt logistiskt stöd och inget minimum heller. Bokar du ett bröllop i Granada måste totalsumman överstiga 400 € för att täcka den logistiska resan för en dag. För de flesta par som bokar Wedding Pack är det ingen verklig begränsning eftersom paketet i sig ligger långt över den gränsen, men det spelar roll om du överväger enbart Eco Pack för ett mindre bröllop i Granada, eftersom 290 € på egen hand hamnar under minimumet på 400 € och skulle behöva ett tillägg eller ett annat paket för att nå upp till det.
+
+## Fråga din lokal innan du hyr något
+
+Här är den enda frågan som inte har något med våra priser att göra och som ingen allmän bröllopsguide om kostnader tar upp specifikt för det audiovisuella: fråga din lokal om den redan har ett eget ljudsystem. Vissa fincas, hotell och villor runt Malaga har ett grundläggande PA-system inbyggt i mottagningsutrymmet, vilket kan räcka för bakgrundsmusik eller en liten vigsel med en handfull gäster. Det kommer sällan med en tekniker, bröllopsanpassad belysning eller trådlösa mikrofoner för tal, så de flesta par hyr ändå till slut de delar ett eget system inte kan täcka, men att bekräfta vad som redan finns innan du begär en offert från oss eller någon annan är ett riktigt, gratis steg mot att spendera mindre.
+
+## Att anpassa hyran efter bröllopet
+
+![Ett bord på en bröllopsmottagning med rosa blommor och ljus.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table.webp)
+
+Illustrationsbild av ett bord på en kvällsmottagning, inte ett evenemang med Malaga Event Gear. Vid en riktig bokning av Wedding Pack tar teknikern som ingår i paketet ljudet från middagen vidare till dansen.
+
+![En bröllopsceremoni på stranden med en röd matta i mittgången och en blomsterbåge.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle.webp)
+
+Illustrationsbild av en mittgång vid en strandceremoni, inte ett av våra bröllop: oavsett miljö dimensionerar och offererar vi utifrån det faktiska antalet gäster, inte ett generiskt paket.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('wedding', ['/1628/', '/1636/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Bokning och serviceområde
+
+Tjänster måste bokas minst 24 timmar i förväg. Utöver det finns inget fast bokningsfönster, bara tillgänglighet, så hör av dig så snart ditt antal gäster och din lokal är bekräftade, så kan vi berätta vilket paket, och vilka tillägg om några, som verkligen passar din dag. Se vår guide om [tidsplanen för bokningen](/blog/timeline-for-booking-wedding-rentals/) för mer om att tajma en bokning gott och väl före ditt datum. Att jämföra offerter från flera leverantörer täcks i sin helhet i vår guide [jämföra offerter för bröllopsuthyrning](/blog/how-to-compare-wedding-rental-quotes/). Att avgöra vad en AV-uthyrning är värd jämfört med att köpa utrustning rakt av är återigen en separat fråga, som vi täcker mer djupgående på annat håll. Behöver du ändra antalet gäster eller tilläggen efter att du redan har bokat? Vår guide [hantera ändringar i sista minuten för bröllopsuthyrningen](/blog/managing-last-minute-wedding-rental-changes/) går igenom vad som fortfarande är möjligt inom minimumet på 24 timmar.
+
+## Slutsats
+
+De ärliga kostnadshävstängerna för AV-uthyrning till ett bröllop i Malaga är snävare än vad de flesta guider påstår. Dimensionera först ditt paket efter antalet gäster, eftersom det ensamt kan vara en skillnad på 360 €. Se tillägg som saker du väljer att inkludera, inte saker du förhandlar bort. Om din lokal ligger i Granada, bekräfta gränsen på 400 €, och fråga din lokal om dess eget ljudsystem innan du begär en offert från någon. [Kontakta oss](/contact/) för att kolla tillgängligheten och få en ärlig offert för ditt datum.
+
+## Vanliga frågor
+
+### Kan jag förhandla priset på ett AV-paket till bröllop?
+
+Nej. MEG erbjuder ingen förhandlad prissättning, ingen prismatchning mot en annan leverantörs offert, och ingen rabatt för en vardag eller ett datum utanför säsong. Paketpriserna är fasta och anges exkl. 21 % moms.
+
+### Behöver jag en tekniker på plats för bröllopsljudet, eller kan jag sköta det själv?
+
+[Eco Pack](/packages/eco/) körs på egen hand efter att vår personal har levererat, installerat och testat det, och passar upp till 50 gäster. [Wedding Pack](/packages/wedding/) inkluderar en tekniker på plats under hela evenemanget och passar upp till 80 gäster. Att välja Eco framför Wedding när ditt antal gäster och din komfortnivå tillåter det sparar 360 €.
+
+### Har min lokal redan ett ljudsystem jag kan använda istället för att hyra?
+
+Vissa fincas, hotell och villor runt Malaga har ett grundläggande eget PA-system. Det kan täcka bakgrundsmusik eller en liten vigsel, men inkluderar sällan en tekniker, bröllopsanpassad belysning eller trådlösa mikrofoner för tal, så bekräfta vad din lokal har innan du bestämmer vad du fortfarande behöver hyra.
+
+### Finns det ett minimibelopp för bröllop utanför Malaga?
+
+Inom Costa del Sol och i Sevilla, nej. För Granada måste bokningar överstiga 400 € för att täcka den logistiska resan för en dag.
+
+### Kan jag lägga till eller ta bort saker från ett AV-paket till bröllop för att styra kostnaden?
+
+Du kan lägga till: en projektor och duk, en rökmaskin, extra mikrofoner, ett podium, en scen, eller extra teknikertimmar, allt bekräftat när du begär en offert. Det finns inget dokumenterat alternativ att ta bort en ingående del från ett paket för ett lägre pris.

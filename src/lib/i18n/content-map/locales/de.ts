@@ -101,6 +101,11 @@ export default {
 			slug: 'hochzeitsverleih-in-meiner-naehe',
 			keyword: 'Hochzeitsverleih in meiner Nähe',
 			status: 'propuesta'
+		},
+		'tips-for-reducing-wedding-rental-costs': {
+			slug: 'kosten-beim-hochzeitsverleih-sparen',
+			keyword: 'Kosten beim Hochzeitsverleih sparen',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -101,6 +101,11 @@ export default {
 			slug: 'udlejning-bryllup-naerheden-af-mig',
 			keyword: 'udlejning til bryllup i nærheden af mig',
 			status: 'propuesta'
+		},
+		'tips-for-reducing-wedding-rental-costs': {
+			slug: 'spare-penge-pa-udlejning-til-bryllup',
+			keyword: 'spare penge på udlejning til bryllup',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

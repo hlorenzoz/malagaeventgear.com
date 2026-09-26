@@ -101,6 +101,11 @@ export default {
 			slug: 'verhuur-bruiloften-bij-mij-in-de-buurt',
 			keyword: 'verhuur voor bruiloften bij mij in de buurt',
 			status: 'propuesta'
+		},
+		'tips-for-reducing-wedding-rental-costs': {
+			slug: 'besparen-op-verhuur-voor-bruiloften',
+			keyword: 'besparen op verhuur voor bruiloften',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
