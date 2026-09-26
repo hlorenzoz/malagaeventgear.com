@@ -7,8 +7,8 @@
  * SC-BR-07: buildRedirects produces correct rule format
  * SC-BR-08: buildRedirects is idempotent (same input → same output)
  * SC-BR-09: buildRedirects never emits wildcard; preserves unrelated rules via merge helper
- * SC-BR-10: rule count warning (taxonomy omitted when over 100 total)
- * SC-BR-11: taxonomy redirects emitted when under 100 total
+ * SC-BR-10: rule count warning (taxonomy omitted when over the 2,000 rule limit)
+ * SC-BR-11: taxonomy redirects emitted under the limit, only for categories a migrated post uses
  */
 
 import { describe, it, expect } from 'vitest';
@@ -16,6 +16,7 @@ import {
 	deriveOldPath,
 	buildRedirects,
 	buildManagedBlock,
+	buildCategoryRedirects,
 	mergeRedirectsFile,
 	BLOCK_BEGIN,
 	BLOCK_END,
@@ -206,5 +207,22 @@ describe('mergeRedirectsFile', () => {
 		expect(result).toContain(BLOCK_BEGIN);
 		expect(result).toContain('/a/  /blog/a/  301');
 		expect(result).toContain(BLOCK_END);
+	});
+});
+
+// ─── buildCategoryRedirects ───────────────────────────────────────────────────
+
+describe('buildCategoryRedirects', () => {
+	// A WP category that no migrated post uses has no /blog/category/ page: redirecting to it
+	// ends in a 404 ("expirience" and "useful", GSC review 2026-09-26).
+	it('only redirects categories that a migrated post uses', () => {
+		const rules = buildCategoryRedirects(['events', 'expirience', 'useful'], new Set(['events']));
+		expect(rules).toEqual(['/category/events/  /blog/category/events/  301']);
+	});
+});
+
+describe('BLOCK_BEGIN', () => {
+	it('is plain ASCII (CLAUDE.md rule 12)', () => {
+		expect(BLOCK_BEGIN).toMatch(/^[\x20-\x7e]+$/);
 	});
 });

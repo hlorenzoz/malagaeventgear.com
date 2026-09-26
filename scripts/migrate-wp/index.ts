@@ -373,10 +373,15 @@ async function main(): Promise<void> {
 
 	// 2b. Generate redirect rules (pure — no I/O yet)
 	const categorySlugs = categories.map((c) => c.slug);
+	const usedCategorySlugs = new Set(
+		posts.flatMap((post) =>
+			(post._embedded?.['wp:term']?.[0] ?? []).filter((t) => t.taxonomy === 'category').map((t) => t.slug)
+		)
+	);
 	const existingRedirects = existsSync(REDIRECTS_PATH)
 		? readFileSync(REDIRECTS_PATH, 'utf-8')
 		: '';
-	const redirectsContent = generateRedirectsContent(posts, categorySlugs, existingRedirects);
+	const redirectsContent = generateRedirectsContent(posts, categorySlugs, usedCategorySlugs, existingRedirects);
 	const redirectLineCount = redirectsContent
 		.split('\n')
 		.filter((l) => l.trim() && !l.startsWith('#'))

@@ -7,6 +7,14 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (redirects): dos 301 que terminaban en 404 y una cadena de dos saltos
+- **Revisión de "Página con redirección" en GSC (2026-09-26, export en `.agents/context/google-search-console-gsc/paginas/`)**: las 90 URLs son redirects intencionales de la migración (raíces de WordPress a `/blog/`, posts retirados, paquetes viejos, `/category/*`, `/contact-us`, http y www), todos a una página que responde 200. Google no los indexa por diseño y pide mantenerlos al menos un año. No se borran ni se valida esa categoría en GSC.
+- **`/category/expirience/` y `/category/useful/`** redirigían a categorías del blog que no existen (404). Ahora van a `/blog/category/news/` y a `/blog/`.
+- **`/weather-considerations-for-outdoor-rentals`** sin barra llega en un salto, como los otros duplicados sin barra.
+- **Guard nuevo**: `src/lib/data/redirects.test.ts` falla si algún destino de `_redirects` no es un post publicado, una categoría con posts, un autor, un paquete o una página estática, o si una regla no es 301.
+- **Generador** (`scripts/migrate-wp/redirects.ts`): solo genera redirects de categorías que usa algún post migrado, el límite pasa a los 2.000 estáticos de Cloudflare y el marcador del bloque queda en ASCII y dice que el bloque se edita a mano, porque la API de WordPress ya no existe.
+- **Pendiente fuera del repo**: `http://www` hace dos saltos (primero https en www y después la raíz). Se resuelve con una regla de redirect en el dashboard de Cloudflare.
+
 ### Fixed (image-metadata): contexto, ubicación y textos reales de las 95 imágenes en uso
 - **Auditoría (2026-09-26)**: se miró cada imagen en uso y se cruzó con sus posts, los posts News y las respuestas del negocio. Resultado: 82 fotos reales y 13 de banco, más la 1313, que es la misma foto de banco que la 2278 con otro nombre y pasa a `STOCK_PHOTO_IDS`.
 - **Ubicación real**: Hotel Alfonso XIII (1268, 1269, 1275, 1276) y Ayuntamiento de Sevilla (1298) son Sevilla y ya no dicen Málaga. PROCURE (1303, 1304, 1306, 1307) es Coín. Las fotos sin lugar confirmado dicen "provincia de Málaga", nunca la ciudad. Sin tipos de evento inventados.
