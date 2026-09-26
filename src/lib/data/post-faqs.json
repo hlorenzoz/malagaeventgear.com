@@ -568,7 +568,7 @@
   "weather-considerations-for-outdoor-rentals": [
     {
       "question": "Does a technician stay on site to react if the weather changes during my event?",
-      "answer": "Only on the Wedding Pack and MICE Pack, which include a live technician throughout the event who can reposition equipment, add moisture protection to cables, or adjust for wind as conditions change. The Eco Pack and Basic MICE Pack are self run after our crew installs and tests the system, so nobody is there to react afterward."
+      "answer": "Only on the Wedding Pack and MICE Pack, which include a live technician (throughout the event on the Wedding Pack, for up to 6 continuous hours on the MICE Pack) who can reposition equipment, add moisture protection to cables, or adjust for wind as conditions change. The Eco Pack and Basic MICE Pack are self run after our crew installs and tests the system, so nobody is there to react afterward."
     },
     {
       "question": "Is your AV equipment weatherproof?",
@@ -968,7 +968,7 @@
     },
     {
       "question": "Is a technician always included in wedding AV packages?",
-      "answer": "Not necessarily, and it's worth asking directly. In our own catalog, only the Wedding Pack and the MICE Pack include a live technician on site throughout the event."
+      "answer": "Not necessarily, and it's worth asking directly. In our own catalog, only the Wedding Pack and the MICE Pack include a live technician on site: throughout the event on the Wedding Pack, and for up to 6 continuous hours on the MICE Pack."
     },
     {
       "question": "What if a provider can't confirm availability for my date?",
@@ -1528,7 +1528,7 @@
     },
     {
       "question": "Is a technician included in the package?",
-      "answer": "Yes. The Wedding Pack includes a live technician on site throughout the event, one of only two packages in our catalog that does, alongside the MICE Pack."
+      "answer": "Yes. The Wedding Pack includes a live technician on site throughout the event, one of only two packages in our catalog with a technician, alongside the MICE Pack, whose technician covers up to 6 continuous hours."
     },
     {
       "question": "How many guests does the package support?",
@@ -1718,7 +1718,7 @@
     },
     {
       "question": "Is the technician actively monitoring the event, or just on standby?",
-      "answer": "Actively monitoring. On the Wedding Pack and MICE Pack, the technician watches levels, video inputs and the lighting continuously throughout the event, they are not a standby presence called in only if something visibly breaks."
+      "answer": "Actively monitoring. On the Wedding Pack and MICE Pack, the technician watches levels, video inputs and the lighting continuously while on site (throughout the event on the Wedding Pack, up to 6 continuous hours on the MICE Pack). They are not a standby presence called in only if something visibly breaks."
     },
     {
       "question": "Is onsite tech support included in my package, or a separate booking?",
@@ -2032,7 +2032,7 @@
     },
     {
       "question": "Is a technician included with wedding rentals?",
-      "answer": "Yes. The Wedding Pack includes a live technician on site throughout the event, one of only two packages in our catalog that does, alongside the MICE Pack."
+      "answer": "Yes. The Wedding Pack includes a live technician on site throughout the event, one of only two packages in our catalog with a technician, alongside the MICE Pack, whose technician covers up to 6 continuous hours."
     },
     {
       "question": "How many guests can the Wedding Pack support?",
