@@ -87,6 +87,11 @@ export default {
 			slug: 'impianto-audio-cerimonia-matrimonio',
 			keyword: 'impianto audio per cerimonia di matrimonio a Malaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals-online': {
+			slug: 'noleggio-attrezzature-matrimonio-online',
+			keyword: 'noleggio attrezzature per matrimonio online a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

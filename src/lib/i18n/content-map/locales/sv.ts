@@ -87,6 +87,11 @@ export default {
 			slug: 'ljud-till-vigseln',
 			keyword: 'ljud till vigseln i Malaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals-online': {
+			slug: 'boka-brollopsuthyrning-online',
+			keyword: 'boka bröllopsuthyrning online i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

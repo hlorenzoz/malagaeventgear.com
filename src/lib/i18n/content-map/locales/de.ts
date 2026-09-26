@@ -91,6 +91,11 @@ export default {
 			slug: 'tontechnik-trauung',
 			keyword: 'Tontechnik für die Trauung in Malaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals-online': {
+			slug: 'hochzeitsverleih-online-buchen',
+			keyword: 'Hochzeitsverleih online buchen in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -1,0 +1,94 @@
+---
+title: "Hochzeitsverleih online buchen in Malaga: die Realität"
+description: "Hochzeitsverleih online buchen bei Malaga Event Gear: Preis des Wedding Packs, Angebotsanfrage online, Bestätigung per Telefon."
+excerpt: "Der Live-Preis und ein Online-Formular für die Angebotsanfrage reichen, um Ihre Wedding-Pack-Anfrage ohne Anruf oder Showroom-Besuch abzuschicken. Eine echte Person bestätigt die Buchung danach trotzdem: hier endet der Online-Teil genau."
+publishDate: "2026-09-26"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Der englische Ausdruck "wedding rentals online" bedeutet meist, durch einen Katalog zu blättern und direkt mit Karte zu bezahlen. Das ist nicht ganz das, was Malaga Event Gear heute bietet, und es lohnt sich, genau zu sein, welche Teile der Buchung des [Wedding Packs](/packages/wedding/) wirklich online ablaufen und welche noch über eine Person laufen. Diese Seite behandelt den Buchungsprozess selbst: was Sie auf der Website erledigen können, bevor Sie jemand zurückruft. Den vollständigen Überblick über unser Hochzeitsangebot finden Sie in unserem Grundlagenartikel zum [Hochzeitsverleih](/blog/wedding-rentals/). Für Lieferung, Einsatzgebiet und das, was tatsächlich bei Ihrer Location ankommt, lesen Sie stattdessen unseren Ratgeber [Hochzeitsverleih in meiner Nähe](/blog/wedding-rentals-near-me/), der dieses Thema bereits abdeckt.
+
+## Kurzüberblick
+
+---
+
+Zwei Dinge bei der Buchung mit Malaga Event Gear laufen wirklich online ab: Sie sehen den echten Preis des Wedding Packs auf der Website, bevor Sie überhaupt jemanden kontaktieren, und Sie können über unser [Kontaktformular](/contact/) eine vollständige Angebotsanfrage stellen, ganz ohne Anruf oder Besuch. Was noch nicht online passiert, ist die endgültige Bestätigung. Ein Teammitglied prüft Ihre Anfrage und bestätigt die Buchung per Telefon, WhatsApp oder E-Mail. Es gibt keinen Warenkorb, keinen sofortigen Checkout und keine Online-Zahlung. Wenn genau das Ihre Frage war, sagt Ihnen diese Seite genau, wo der Online-Teil aktuell endet.
+
+## Das Wichtigste
+
+---
+
+- Der Preis des Wedding Packs, 650 € zzgl. MwSt., steht auf der [Paketseite](/packages/wedding/) selbst. Sie müssen niemanden fragen, was es kostet.
+- Das [Kontaktformular](/contact/) erfasst Ihr Datum, Ihre Location, die Gästezahl und die Details Ihrer Veranstaltung vollständig online, geschützt gegen Spam und Bots.
+- Die endgültige Bestätigung ist ein menschlicher Schritt, per Telefon, WhatsApp oder E-Mail, kein automatisierter Checkout.
+- Es gibt zu keinem Zeitpunkt dieses Prozesses einen Showroom zu besichtigen, weder vor noch nach der Angebotsanfrage.
+
+## Was Sie online sehen können, bevor Sie irgendwen kontaktieren
+
+Die meisten Verleihfirmen, die einen Showroom-Besuch verlangen, tun das, weil der Preis von einem Gespräch, einer Besichtigung oder einer Verhandlung abhängt. Malaga Event Gear arbeitet nicht so. Der Preis des Wedding Packs, 650 € zzgl. MwSt. für bis zu 80 Gäste, steht auf der [Paketseite](/packages/wedding/), mit der üblichen spanischen Mehrwertsteuer von 21 % gesondert ausgewiesen, sodass Sie den Nettobetrag und die Steuer kennen, bevor Sie auch nur ein einziges Feld ausfüllen. Das Gleiche gilt für alle unsere anderen Pakete. Sie können vergleichen, was enthalten ist, wie hoch der Preis ist, und entscheiden, ob es zu Ihrer Veranstaltung passt, ganz ohne Anruf.
+
+Diese Transparenz ist der Teil von "online", der heute vollständig real ist. Am Preis wird nichts erst nach Ihrer Kontaktaufnahme sichtbar.
+
+<InlineCTA />
+
+## Ein Angebot vollständig online anfragen
+
+Sobald feststeht, dass das Wedding Pack passt, ist der nächste Schritt unser [Kontaktformular](/contact/), und auch dieser Teil ist von Anfang bis Ende wirklich online. Das Formular fragt nach Namen, E-Mail, Telefonnummer, Veranstaltungsdatum, Veranstaltungsart und allen Details zu Location oder Gästezahl, die Sie angeben möchten. Es ist durch Cloudflare Turnstile und eine Begrenzung der Anfragen gegen Spam geschützt, und Buchungen brauchen mindestens 24 Stunden Vorlauf, sodass das Formular kein früheres Datum akzeptiert. Das Absenden erfordert weder einen Anruf noch ein persönliches Treffen noch einen Showroom-Besuch. Sie geben die Details ein, senden ab, und die Anfrage wird bei uns erfasst.
+
+Das ist ein echter Online-Schritt, keine Marketing-Beschreibung davon. Und es ist heute auch die Grenze dessen, was die Automatisierung leistet.
+
+## Wo der Online-Teil endet
+
+Das ist der ehrliche Teil. Nach dem Absenden der Angebotsanfrage prüft ein Teammitglied sie und meldet sich, um Details zu klären und die Buchung zu bestätigen, per Telefon, WhatsApp oder E-Mail. Es gibt keinen sofortigen Bestätigungsbildschirm, keine Online-Zahlung und keinen automatisierten Checkout, der Ihr Datum in dem Moment festlegt, in dem Sie die Anfrage absenden. Wir arbeiten an einem vollständig eigenständigen Online-Buchungserlebnis mit standardisierten Preisen, aber das ist ein erklärtes Ziel für die Richtung des Prozesses, nicht die aktuelle Realität, und diese Seite wird nichts anderes vorgeben.
+
+In der Praxis bedeutet das: Die Angebotsanfrage selbst dauert online nur wenige Minuten, und die anschließende Bestätigung erfolgt als kurze Antwort einer echten Person, meist am selben oder am nächsten Werktag. Wenn Sie den "Hochzeitsverleih online" mit einem Dienst vergleichen, der einen sofortigen, vollständig automatisierten Checkout verspricht, gibt es dieses Versprechen hier noch nicht, und wir sagen das lieber jetzt, als dass Sie es erst bei der Bestätigung merken.
+
+## Kein Showroom, zu keinem Zeitpunkt des Prozesses
+
+Malaga Event Gear hat keinen physischen Showroom, und das gilt für die Buchung genauso wie für die Lieferung. Sie müssen keinen Ort besuchen, um Preise zu sehen, ein Angebot anzufragen oder Ihre Buchung bestätigen zu lassen. Jeder Schritt, abgesehen von dieser abschließenden menschlichen Bestätigung, läuft ohne persönliches Treffen ab. Das ist eine engere Aussage als "kein Showroom für die Lieferung zu besichtigen", die vollständig in unserem Ratgeber [Hochzeitsverleih in meiner Nähe](/blog/wedding-rentals-near-me/) behandelt wird. Hier gilt sie speziell für die Buchung: Weder das Einholen eines Angebots noch das Bestätigen eines Termins verlangt, dass Sie irgendwo persönlich anwesend sind.
+
+## Was nach der Bestätigung passiert
+
+Sobald Ihre Buchung bestätigt ist, laufen Lieferung, Aufbau, die technische Live-Betreuung während Ihrer Veranstaltung und der Abbau danach wie immer beim Wedding Pack ab, vollständig behandelt in unserem Ratgeber [Hochzeitsverleih in meiner Nähe](/blog/wedding-rentals-near-me/). Diese Seite endet beim Buchungsprozess selbst, denn das ist der Teil, nach dem unter "online" tatsächlich gesucht wird.
+
+## Die Zeremonieräume, die eine Online-Buchung abdeckt
+
+![Eine wunderschöne tropische Trauung am Strand mit rosa Rosenblättern und Blick aufs Meer.](https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding-300x224.webp)
+
+Symbolbild einer Trauung am Strand, keine Veranstaltung von Malaga Event Gear. Bei einer echten Buchung an der Costa del Sol stehen unsere PA-Anlage und das Funkmikrofon für das Eheversprechen bereit.
+
+![Ein eleganter Saal für eine Trauung in Innenräumen, mit weißen Blumenarrangements und Kronleuchtern.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
+
+Symbolbild eines Saals für eine Trauung in Innenräumen, keine unserer Hochzeiten: drinnen ist der Ton für das Eheversprechen und die Lesungen eingestellt, bevor die Gäste eintreffen.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('wedding', ['/1630/', '/1635/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Fazit
+
+"Hochzeitsverleih online" bedeutet bei Malaga Event Gear echte, veröffentlichte Preise und eine echte Online-Angebotsanfrage, beides wirklich eigenständig. Es bedeutet noch nicht einen sofortigen automatisierten Checkout: Eine Person bestätigt die Buchung, nachdem Sie Ihre Anfrage abgeschickt haben, per Telefon, WhatsApp oder E-Mail. Ein Showroom ist zu keinem Zeitpunkt beteiligt. [Kontaktieren Sie uns](/contact/), um den aktuellen Preis des Wedding Packs zu sehen und ein Angebot anzufragen.
+
+## Häufig gestellte Fragen
+
+### Kann ich das Wedding Pack vollständig online buchen und bezahlen, ganz ohne Anruf?
+
+Noch nicht. Sie können den Preis sehen und eine vollständige Angebotsanfrage online abschicken, aber ein Teammitglied bestätigt die Buchung danach per Telefon, WhatsApp oder E-Mail. Eine Online-Zahlung oder einen automatisierten Checkout gibt es derzeit nicht.
+
+### Ist der Preis des Wedding Packs online veröffentlicht, oder muss ich fragen?
+
+Er ist veröffentlicht. Das Wedding Pack kostet 650 € zzgl. MwSt., angegeben auf der [Paketseite](/packages/wedding/) mit der MwSt. gesondert ausgewiesen, noch bevor Sie irgendwen kontaktieren.
+
+### Muss ich einen Showroom besuchen, um ein Angebot zu erhalten oder eine Buchung zu bestätigen?
+
+Nein. Malaga Event Gear hat keinen Showroom. Ein Angebot anzufragen und eine Buchung zu bestätigen laufen beide ohne persönlichen Besuch ab, abgesehen von der abschließenden menschlichen Bestätigung per Telefon, WhatsApp oder E-Mail.
+
+### Wie lange dauert es, bis ich nach dem Absenden des Online-Angebotsformulars eine Antwort bekomme?
+
+Meist am selben oder am nächsten Werktag. Buchungen brauchen ohnehin mindestens 24 Stunden Vorlauf, also senden Sie Ihre Anfrage so früh wie möglich, sobald Datum und Location feststehen.

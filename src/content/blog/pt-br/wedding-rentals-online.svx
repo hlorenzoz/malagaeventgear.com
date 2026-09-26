@@ -1,0 +1,94 @@
+---
+title: "Locação para casamento online em Málaga: como funciona"
+description: "Locação para casamento online com a Malaga Event Gear: preço do Wedding Pack, orçamento online, confirmação por telefone."
+excerpt: "O preço em tempo real e um formulário de orçamento online bastam para você enviar sua solicitação do Wedding Pack, sem telefonema nem visita a um showroom. Uma pessoa de verdade confirma a reserva depois disso: veja exatamente onde termina a parte online."
+publishDate: "2026-09-26"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+A expressão em inglês "wedding rentals online" costuma significar navegar por um catálogo e fechar a compra direto no cartão. Não é bem isso que a Malaga Event Gear oferece hoje, e vale a pena ser preciso sobre quais partes da reserva do [Wedding Pack](/packages/wedding/) são realmente online e quais ainda passam por uma pessoa. Esta página trata do próprio processo de reserva: o que você pode fazer no site antes de alguém ligar de volta para você. Para o panorama completo do que cobrimos em um casamento, veja o nosso guia de [locação para casamento](/blog/wedding-rentals/). Para a entrega, a área de atendimento e o que realmente chega ao seu local, veja em vez disso o nosso guia [locação para casamento perto de mim](/blog/wedding-rentals-near-me/), que já cobre esse assunto.
+
+## Resumo
+
+---
+
+Duas coisas na reserva com a Malaga Event Gear acontecem de verdade online: você vê o preço real do Wedding Pack no site antes de contatar qualquer pessoa, e pode enviar uma solicitação de orçamento completa pelo nosso [formulário de contato](/contact/) sem telefonema nem visita. O que ainda não acontece online é a confirmação final. Um membro da nossa equipe analisa a sua solicitação e confirma a reserva por telefone, WhatsApp ou e-mail. Não há carrinho, não há checkout instantâneo e não há pagamento online. Se era exatamente isso que você procurava, esta página mostra exatamente onde termina hoje a parte online.
+
+## Destaques
+
+---
+
+- O preço do Wedding Pack, € 650 sem IVA, está publicado na própria [página de pacotes](/packages/wedding/). Você não precisa perguntar a ninguém quanto custa.
+- O [formulário de contato](/contact/) coleta a sua data, local, número de convidados e detalhes do evento inteiramente online, protegido contra spam e bots.
+- A confirmação final é uma etapa humana, por telefone, WhatsApp ou e-mail, não um checkout automatizado.
+- Não existe nenhum showroom para visitar em nenhum momento desse processo, antes ou depois da solicitação de orçamento.
+
+## O que você pode ver online antes de contatar qualquer pessoa
+
+A maioria dos negócios de locação que exigem uma visita a um showroom faz isso porque o preço depende de uma conversa, de uma visita ao local ou de negociação. A Malaga Event Gear não funciona assim. O preço do Wedding Pack, € 650 sem IVA para até 80 convidados, está indicado na sua [página de pacotes](/packages/wedding/), com o IVA espanhol de 21% indicado à parte, para que você conheça o valor líquido e o detalhamento do imposto antes mesmo de preencher um único campo. O mesmo vale para os nossos outros pacotes. Você pode comparar o que está incluído, qual é o preço, e decidir se ele se encaixa no seu evento sem fazer uma única ligação.
+
+Essa transparência é a parte do "online" que hoje é totalmente real. Nada sobre o preço é revelado só depois que você entra em contato.
+
+<InlineCTA />
+
+## Solicitando um orçamento inteiramente online
+
+Assim que você souber que o Wedding Pack se encaixa, o próximo passo é o nosso [formulário de contato](/contact/), e essa parte também é realmente online do início ao fim. O formulário pede o seu nome, e-mail, telefone, data do evento, tipo de evento e quaisquer detalhes sobre o local ou número de convidados que você queira incluir. Ele é protegido pelo Cloudflare Turnstile e por uma limitação de tentativas contra spam, e as reservas exigem um aviso prévio de pelo menos 24 horas, então o formulário não aceita uma data mais próxima do que essa. Enviá-lo não exige telefonema, reunião presencial nem visita a um showroom. Você digita os detalhes, envia, e a solicitação fica registrada do nosso lado.
+
+Essa é uma etapa online de verdade, não uma descrição de marketing de uma etapa online. É também, hoje, o limite até onde vai a automação.
+
+## Onde termina a parte online
+
+Esta é a parte honesta. Depois de você enviar a solicitação de orçamento, um membro da nossa equipe a analisa e entra em contato para fechar os detalhes e confirmar a reserva, por telefone, WhatsApp ou e-mail. Não há tela de confirmação instantânea, não há pagamento online, e não há checkout automatizado que trave a sua data no momento em que você envia a solicitação. Estamos trabalhando para uma experiência de reserva online totalmente autônoma, com preços padronizados, mas isso é um objetivo declarado para o rumo do processo, não a realidade atual, e esta página não vai fingir o contrário.
+
+Na prática, isso significa: a própria solicitação de orçamento leva só alguns minutos online, e a confirmação que vem depois é uma resposta curta de uma pessoa de verdade, geralmente no mesmo dia útil ou no dia útil seguinte. Se você está comparando "locação para casamento online" com um serviço que promete um checkout instantâneo e totalmente automatizado, essa promessa ainda não existe aqui, e preferimos dizer isso logo do que você descobrir só na hora da confirmação.
+
+## Nenhum showroom, em nenhum momento do processo
+
+A Malaga Event Gear não tem showroom físico, e isso vale tanto para a reserva quanto para a entrega. Você não precisa visitar nenhum local para ver preços, solicitar um orçamento ou ter a sua reserva confirmada. Cada etapa, com exceção dessa confirmação humana final, acontece sem reunião presencial. Essa é uma afirmação mais restrita do que "nenhum showroom para visitar na entrega", tratada por completo no nosso guia [locação para casamento perto de mim](/blog/wedding-rentals-near-me/). Aqui, ela se aplica especificamente à reserva: nada em solicitar um orçamento ou confirmar uma data exige que você esteja presencialmente em algum lugar.
+
+## O que acontece depois da confirmação
+
+Assim que a sua reserva é confirmada, a entrega, a montagem, o suporte técnico ao vivo durante o seu evento e a desmontagem depois acontecem como sempre para o Wedding Pack, tratados por completo no nosso guia [locação para casamento perto de mim](/blog/wedding-rentals-near-me/). Esta página para no próprio processo de reserva, já que é essa a parte realmente buscada em "online".
+
+## Os espaços de cerimônia que uma reserva online cobre
+
+![Uma linda cerimônia de casamento tropical na praia, com pétalas de rosa cor-de-rosa e vista para o mar.](https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding-300x224.webp)
+
+Foto ilustrativa de uma cerimônia na praia, não um evento da Malaga Event Gear. Em uma reserva real na Costa del Sol, o nosso sistema PA e o microfone sem fio já estão prontos para os votos.
+
+![Um elegante salão de cerimônia de casamento em ambiente fechado, com arranjos de flores brancas e lustres.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
+
+Foto ilustrativa de um salão de cerimônia fechado, não um dos nossos casamentos: no ambiente fechado, o som fica ajustado para os votos e as leituras antes de os convidados chegarem.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('wedding', ['/1630/', '/1635/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Conclusão
+
+"Locação para casamento online" com a Malaga Event Gear significa um preço real e publicado e uma solicitação de orçamento online de verdade, ambos genuinamente autônomos. Ainda não significa um checkout automatizado instantâneo: uma pessoa confirma a reserva depois que você envia a sua solicitação, por telefone, WhatsApp ou e-mail. Nenhum showroom entra em nenhum momento. [Entre em contato](/contact/) para ver o preço atual do Wedding Pack e solicitar um orçamento.
+
+## Perguntas frequentes
+
+### Posso reservar e pagar o Wedding Pack inteiramente online, sem telefonema?
+
+Ainda não. Você pode ver o preço e enviar uma solicitação de orçamento completa online, mas um membro da nossa equipe confirma a reserva depois por telefone, WhatsApp ou e-mail. Não há pagamento online nem checkout automatizado neste momento.
+
+### O preço do Wedding Pack está publicado online, ou preciso perguntar?
+
+Está publicado. O Wedding Pack custa € 650 sem IVA, indicado na [página de pacotes](/packages/wedding/) com o IVA indicado à parte, antes mesmo de você contatar qualquer pessoa.
+
+### Preciso visitar um showroom para conseguir um orçamento ou confirmar uma reserva?
+
+Não. A Malaga Event Gear não tem showroom. Solicitar um orçamento e confirmar uma reserva acontecem sem visita presencial, com exceção da etapa final de confirmação humana por telefone, WhatsApp ou e-mail.
+
+### Quanto tempo demora para ter uma resposta depois de enviar o formulário de orçamento online?
+
+Geralmente no mesmo dia útil ou no dia útil seguinte. As reservas exigem sempre um aviso prévio de pelo menos 24 horas, então envie a sua solicitação o mais cedo possível assim que a data e o local estiverem definidos.

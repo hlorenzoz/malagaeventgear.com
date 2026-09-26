@@ -79,6 +79,11 @@ export default {
 			slug: '婚礼仪式音响',
 			keyword: '马拉加 婚礼仪式音响',
 			status: 'propuesta'
+		},
+		'wedding-rentals-online': {
+			slug: '婚礼设备租赁在线预订',
+			keyword: '马拉加 婚礼设备租赁在线预订',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

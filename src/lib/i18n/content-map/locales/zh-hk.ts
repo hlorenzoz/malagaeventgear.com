@@ -79,6 +79,11 @@ export default {
 			slug: '婚禮儀式音響',
 			keyword: '馬拉加 婚禮儀式音響',
 			status: 'propuesta'
+		},
+		'wedding-rentals-online': {
+			slug: '婚禮器材租借網上預約',
+			keyword: '馬拉加 婚禮器材租借網上預約',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

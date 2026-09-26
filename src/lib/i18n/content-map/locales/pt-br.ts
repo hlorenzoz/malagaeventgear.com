@@ -123,6 +123,11 @@ export default {
 			slug: 'som-para-cerimonia-de-casamento',
 			keyword: 'som para cerimônia de casamento em Málaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals-online': {
+			slug: 'locacao-casamento-online',
+			keyword: 'locação para casamento online em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

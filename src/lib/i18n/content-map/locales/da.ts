@@ -91,6 +91,11 @@ export default {
 			slug: 'lyd-til-vielsen',
 			keyword: 'lyd til vielsen i Malaga',
 			status: 'propuesta'
+		},
+		'wedding-rentals-online': {
+			slug: 'book-bryllupsudlejning-online',
+			keyword: 'book bryllupsudlejning online i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
