@@ -57,6 +57,11 @@ export default {
 			keyword: 'équipement audiovisuel pour une conférence à Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-corporate-events': {
+			slug: 'location-audiovisuelle-evenements-entreprise',
+			keyword: "location audiovisuelle pour événements d'entreprise à Malaga",
+			status: 'propuesta'
+		},
 		'event-technology-service': {
 			slug: 'prestataire-technique-evenementiel',
 			keyword: 'prestataire technique événementiel Malaga',

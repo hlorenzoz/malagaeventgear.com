@@ -57,6 +57,11 @@ export default {
 			keyword: 'audiovisuele verhuur voor conferenties Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-corporate-events': {
+			slug: 'audiovisuele-verhuur-bedrijfsevenementen',
+			keyword: 'audiovisuele verhuur voor bedrijfsevenementen in Malaga',
+			status: 'propuesta'
+		},
 		'event-technology-service': {
 			slug: 'licht-en-podiumtechniek',
 			keyword: 'licht- en podiumtechniek Malaga',
