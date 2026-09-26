@@ -44,7 +44,7 @@ const copy = {
 		desc: 'Beamers tot 5.000 lumen, projectieschermen en een 60 inch beeldscherm voor een scherpe visuele ervaring voor je publiek.'
 	},
 	effects: {
-		imageAlt: 'Professionele rookmachine voor evenementen',
+		imageAlt: 'Op de vloer gemonteerde wash-lichten die gekleurd licht door een ruimte werpen',
 		title: 'Speciale effecten',
 		desc: 'Een professionele rookmachine, de Martin Magnum 650, die extra sfeer geeft en de lichtstralen zichtbaar maakt op de dansvloer.'
 	}

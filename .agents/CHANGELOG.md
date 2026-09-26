@@ -7,6 +7,15 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (image-metadata): contexto, ubicación y textos reales de las 95 imágenes en uso
+- **Auditoría (2026-09-26)**: se miró cada imagen en uso y se cruzó con sus posts, los posts News y las respuestas del negocio. Resultado: 82 fotos reales y 13 de banco, más la 1313, que es la misma foto de banco que la 2278 con otro nombre y pasa a `STOCK_PHOTO_IDS`.
+- **Ubicación real**: Hotel Alfonso XIII (1268, 1269, 1275, 1276) y Ayuntamiento de Sevilla (1298) son Sevilla y ya no dicen Málaga. PROCURE (1303, 1304, 1306, 1307) es Coín. Las fotos sin lugar confirmado dicen "provincia de Málaga", nunca la ciudad. Sin tipos de evento inventados.
+- **Manifest**: título, alt, pie de foto, descripción, `tags`, `usage` y los campos nuevos `location` (venue, locality, province, country) y `event` en las 878 variantes de las 95 imágenes. Las 13 fotos de los eventos de mayo de 2026 ya no salen con el nombre de archivo de WordPress como alt. La descripción de la Billie Jean King Cup ya no le atribuye a MEG el confeti ni los fuegos.
+- **Código**: `MediaEntry` (`scripts/migrate-wp/types.ts`) y `post-images.ts` aceptan `location` y `event` desde `meta.yaml`, así una subida nueva no los borra (`scripts/post-images.test.ts`).
+- **Galería y equipment**: la foto del confeti (1191) sale de los carruseles y de la tarjeta "Special Effects" de `/equipment/` (ahora 1296). El carrusel del Eco Pack pasa a 10 fotos reales (se suman 1323, 1324, 1325, 1330 y 1787). Alts en los 13 idiomas.
+- **Posts**: portadas y fotos de banco o de Sevilla presentadas como Málaga, corregidas en 37 posts ingleses. En los 4 posts traducidos afectados, la corrección va en los 12 idiomas con su `updatedDate`.
+- **Guard**: `stock-photos.test.ts` también falla si la portada de un post es una foto de banco, con excepción documentada para los posts de bodas (no hay fotos reales de bodas de MEG). `tests/blog-marquees.spec.ts` deriva sus selectores de `getImagesForPackage()`.
+
 ### Fixed (gooseneck-mics): micrófonos de cuello de ganso en el MICE Pack, about-us y equipment
 - **Dato del negocio (2026-09-26)**: el inventario (`.agents/context/inventario/2026.09.26 - Equipamiento.csv`) marca como Gooseneck los 2x Audix ADX12 y 2x ADX212, los únicos de cuello de ganso. Corrige la entrada de la Fase 3 que dio por falsos los "micrófonos de cuello de cisne" y los sacó de about-us.
 - **MICE Pack**: la descripción decía "wireless podium microphones", contra lo incluido (1 de cuello de ganso con cable + 1 inalámbrico de mano). Corregida en `packages.ts` y en los 12 idiomas, fecha del paquete a 2026-09-26. `/packages/` y la home muestran esa descripción, así que sus fechas también pasan a 2026-09-26 en los 13 idiomas.

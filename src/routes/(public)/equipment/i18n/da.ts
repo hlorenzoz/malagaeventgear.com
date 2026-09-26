@@ -44,7 +44,7 @@ const copy = {
 		desc: 'Projektorer på op til 5.000 lumen, projektorlærreder og et 60-tommer skærmpanel, der giver dit publikum en skarp visuel oplevelse.'
 	},
 	effects: {
-		imageAlt: 'Professionel røgmaskine til events',
+		imageAlt: 'Gulvmonterede wash-lysarmaturer, der kaster farvet lys ud i et rum',
 		title: 'Specialeffekter',
 		desc: 'En professionel Martin Magnum 650-røgmaskine, der skaber stemning og gør lysstrålerne synlige på dansegulvet.'
 	}

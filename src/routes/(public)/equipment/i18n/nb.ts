@@ -44,7 +44,7 @@ export default {
 		desc: 'Prosjektorer på opptil 5000 lumen, projeksjonslerret og et skjermpanel på 60 tommer som gir publikummet en skarp visuell opplevelse.'
 	},
 	effects: {
-		imageAlt: 'Profesjonell røykmaskin til arrangementer',
+		imageAlt: 'Gulvmonterte wash-lys som kaster farget lys inn i et rom',
 		title: 'Spesialeffekter',
 		desc: 'En profesjonell Martin Magnum 650-røykmaskin som skaper stemning og gjør lysstrålene synlige på dansegulvet.'
 	}

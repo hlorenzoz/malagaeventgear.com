@@ -4,7 +4,7 @@ description: "Audio visual rental for seminars in Malaga, Spain: a projector, sc
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-seminars
 publishDate: "2025-12-02"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-26"
 excerpt: "Audio visual rental for seminars in Malaga, Spain: a projector, screen and wireless mic, sized to your seminar, with real EUR pricing and setup included."
 coverImage: https://cdn.malagaeventgear.com/blog/1293/malaga_event_lighting_big_display_projector_sound_rental-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
@@ -64,17 +64,17 @@ Our [Product Presentation Pack](/packages/product-presentation/) includes HDMI a
 
 ## Real Setups We've Delivered
 
-![Audio-visual system for a congress at Hotel Alfonso XIII.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
+![Audio visual system on stage at Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
 
-A screen and sound setup in the Hotel Alfonso XIII, ready for a seminar or presentation.
+A screen and sound setup in the Hotel Alfonso XIII in Sevilla.
 
-![Sound system rental for a congress in Malaga.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
+![Sound system rental in the ballroom at Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
 
-A PA sound system set up for a seminar in Malaga.
+A PA sound system set up at Hotel Alfonso XIII in Sevilla.
 
-![Modern corporate event setup with large projection screens, round tables, and professional lighting.](https://cdn.malagaeventgear.com/blog/1313/corporate-event-600x401.webp)
+![A technician working in front of three large projection screens in an empty conference hall.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-600x448.webp)
 
-A seminar room setup with a large screen, ready for a presentation.
+A three screen seminar room setup being prepared for a presentation.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1269/', '/1276/', '/1313/', '/2278/'])} speed="normal" direction="left" deferMount={false} />

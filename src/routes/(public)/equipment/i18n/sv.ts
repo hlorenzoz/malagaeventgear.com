@@ -44,7 +44,7 @@ export default {
 		desc: 'Projektorer på upp till 5 000 lumen, projektionsdukar och en 60-tums bildskärm som ger din publik en skarp visuell upplevelse.'
 	},
 	effects: {
-		imageAlt: 'Professionell rökmaskin för evenemang',
+		imageAlt: 'Golvmonterade washlampor som kastar färgat ljus i ett rum',
 		title: 'Specialeffekter',
 		desc: 'En professionell Martin Magnum 650-rökmaskin som skapar atmosfär och gör ljusstrålarna synliga på dansgolvet.'
 	}

@@ -4,7 +4,7 @@ description: "Audio visual rental for product launches in Malaga, Spain: a proje
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-product-launches
 publishDate: "2025-12-05"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-26"
 excerpt: "Audio visual rental for product launches in Malaga, Spain: a projector, screen and PA sound with a wireless mic, plus adapters for your devices. Book today."
 coverImage: https://cdn.malagaeventgear.com/blog/1292/malaga_event_lighting_display_projector_sound_rental_3-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
@@ -73,17 +73,17 @@ If the reveal does call for a video wall, a camera or a stream, tell us what you
 
 A product showcase setup at a Volvo dealership in Malaga, built around a screen and PA sound for the reveal.
 
-![Sound system rental for a congress in Malaga.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
+![Sound system rental in the ballroom at Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
 
-A PA sound system set up for a large presentation in Malaga.
+A PA sound system set up at Hotel Alfonso XIII in Sevilla.
 
-![Audio visual system for a congress at Hotel Alfonso XIII.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
+![Audio visual system on stage at Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
 
-A screen and sound setup in the Hotel Alfonso XIII, ready for a corporate presentation.
+A screen and sound setup in the Hotel Alfonso XIII in Sevilla.
 
-![Malaga international event AV rental system.](https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-300x224.webp)
+![International event AV rental system.](https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-300x224.webp)
 
-A projector and screen set up for an international corporate event in Malaga.
+A projector and screen set up for an international corporate event in the province of Malaga.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1267/', '/1276/', '/1269/', '/1282/'])} speed="normal" direction="left" deferMount={false} />

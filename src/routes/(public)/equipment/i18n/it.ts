@@ -44,7 +44,7 @@ const copy = {
 		desc: "Proiettori fino a 5.000 lumen, schermi di proiezione e uno schermo piatto da 60 pollici per offrire al tuo pubblico un'esperienza visiva nitida."
 	},
 	effects: {
-		imageAlt: 'Macchina del fumo professionale per eventi',
+		imageAlt: 'Proiettori wash a pavimento che diffondono luce colorata in una sala',
 		title: 'Effetti speciali',
 		desc: 'Una macchina del fumo professionale Martin Magnum 650 che aggiunge atmosfera e rende visibili i fasci di luce sulla pista da ballo.'
 	}

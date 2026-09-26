@@ -44,7 +44,7 @@ export default {
 		desc: 'Projetores de até 5000 lumens, telas de projeção e um painel de exibição de 60 polegadas para dar ao seu público uma experiência visual nítida.'
 	},
 	effects: {
-		imageAlt: 'Máquina de fumaça profissional para eventos',
+		imageAlt: 'Refletores wash no chão lançando luz colorida por uma sala',
 		title: 'Efeitos especiais',
 		desc: 'Uma máquina de fumaça profissional Martin Magnum 650 que adiciona atmosfera e deixa os feixes de luz visíveis na pista de dança.'
 	}

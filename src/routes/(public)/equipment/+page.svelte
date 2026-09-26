@@ -229,8 +229,8 @@
 			<img
 				alt={copy.effects.imageAlt}
 				class="absolute inset-0 w-full h-full object-cover opacity-45 group-hover:opacity-60 transition-opacity duration-500 pointer-events-none" 
-				src={coverThumbs['https://cdn.malagaeventgear.com/blog/1191/billie-jean-king-cup-2024-celebration-lights-sound.webp']?.thumb ?? 'https://cdn.malagaeventgear.com/blog/1191/billie-jean-king-cup-2024-celebration-lights-sound.webp'}
-				srcset={coverThumbs['https://cdn.malagaeventgear.com/blog/1191/billie-jean-king-cup-2024-celebration-lights-sound.webp']?.srcset}
+				src={coverThumbs['https://cdn.malagaeventgear.com/blog/1296/malaga_event_lighting_sound_system_rental-scaled.webp']?.thumb ?? 'https://cdn.malagaeventgear.com/blog/1296/malaga_event_lighting_sound_system_rental-scaled.webp'}
+				srcset={coverThumbs['https://cdn.malagaeventgear.com/blog/1296/malaga_event_lighting_sound_system_rental-scaled.webp']?.srcset}
 				sizes="(max-width: 767px) 400px, 600px"
 				loading="lazy"
 				decoding="async"

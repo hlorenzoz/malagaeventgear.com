@@ -4,9 +4,9 @@ description: "Video switcher rental in Malaga, Spain: the real Kramer VP-731, a 
 author: Hector Luis Lorenzo
 slug: video-switcher-rental
 publishDate: "2026-08-01"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-26"
 excerpt: "The real video switcher in our AV catalog: one Kramer VP-731, 9 inputs, technician operated presentation source switching, and an explicit line between that and camera or live streaming production."
-coverImage: https://cdn.malagaeventgear.com/blog/1268/av_system_hotel_alfonso_xiii_congress_stage-scaled.webp
+coverImage: https://cdn.malagaeventgear.com/blog/1288/malaga_congress_av_rental_setup-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
 tags: []
 draft: false
@@ -117,9 +117,9 @@ The [Eco Pack](/packages/eco/) has no screen included and is built for a self ru
 
 Real event technology our crew has managed on presentation heavy corporate bookings in Malaga:
 
-![Multiple projection screens running simultaneously at a large conference hall in Malaga.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-1024x765.webp)
+![Multiple projection screens running simultaneously at a large conference hall in the province of Malaga.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-1024x765.webp)
 
-A large conference hall in Malaga with more than one screen live at once. Venues with more than one screen or presentation source are exactly where clean source switching prevents an awkward on screen fumble.
+A large conference hall in the province of Malaga with more than one screen live at once. Venues with more than one screen or presentation source are exactly where clean source switching prevents an awkward on screen fumble.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('mice', ['/1268/', '/1273/'])} speed="normal" direction="left" />

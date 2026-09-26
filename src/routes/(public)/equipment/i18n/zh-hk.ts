@@ -44,7 +44,7 @@ export default {
 		desc: '高達5,000流明的投影機、投影幕，以及60吋顯示屏，為您的觀眾帶來清晰的視覺體驗。'
 	},
 	effects: {
-		imageAlt: '活動專業煙霧機',
+		imageAlt: '地面安裝的染色燈，向房間投射彩色光束',
 		title: '特效',
 		desc: '專業Martin Magnum 650煙霧機，增添氣氛之餘，更令舞池上的燈光光束清晰可見。'
 	}

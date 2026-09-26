@@ -148,7 +148,9 @@ describe('applyMetaToEntries', () => {
 		title: 'ECOC 2026 stand screens',
 		description: 'Stand screens at FYCMA.',
 		tags: ['ECOC 2026', 'screen rental'],
-		usage: ['cover', 'gallery']
+		usage: ['cover', 'gallery'],
+		location: { venue: 'FYCMA', locality: 'Malaga', province: 'Malaga', country: 'Spain' },
+		event: 'ECOC 2026'
 	};
 
 	/** Three variants of the same source image plus one unrelated image. */
@@ -173,6 +175,8 @@ describe('applyMetaToEntries', () => {
 			expect(e.description).toBe(meta.description);
 			expect(e.tags).toEqual(meta.tags);
 			expect(e.usage).toEqual(meta.usage);
+			expect(e.location).toEqual(meta.location);
+			expect(e.event).toBe(meta.event);
 		}
 	});
 
@@ -219,7 +223,9 @@ describe('buildMediaEntry', () => {
 			title: 'Hero',
 			description: '',
 			tags: ['audio', 'yate'],
-			usage: ['hero', 'cover']
+			usage: ['hero', 'cover'],
+			location: { locality: 'Malaga', province: 'Malaga', country: 'Spain' },
+			event: 'Yacht party'
 		}
 	};
 
@@ -243,6 +249,8 @@ describe('buildMediaEntry', () => {
 		expect(e.avifUrl).toBe(base.avifUrl);
 		expect(e.sourceHash).toBe('abc123');
 		expect(e.uploadedBy).toBe('Hector Luis Lorenzo');
+		expect(e.location).toEqual(base.meta.location);
+		expect(e.event).toBe(base.meta.event);
 	});
 });
 

@@ -73,6 +73,19 @@ export interface MediaEntry {
 	 * Optional: absent on migrated entries.
 	 */
 	sourceHash?: string;
+	/**
+	 * Where the photo was taken, when known. A subfield is omitted rather than guessed:
+	 * never default `province`/`locality` to Malaga without evidence. Optional: most
+	 * migrated entries don't have it.
+	 */
+	location?: {
+		venue?: string;
+		locality?: string;
+		province?: string;
+		country?: string;
+	};
+	/** The real event shown in the photo, when known (e.g. "PROGOLD SUMMIT 2026"). Optional. */
+	event?: string;
 }
 
 /** One entry per migrated WP post. */

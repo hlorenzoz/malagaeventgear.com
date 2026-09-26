@@ -44,7 +44,7 @@ export default {
 		desc: 'Beamer mit bis zu 5.000 Lumen, Projektionsleinwände und ein 60-Zoll-Display, damit Ihr Publikum gestochen scharfe Bilder sieht.'
 	},
 	effects: {
-		imageAlt: 'Professionelle Nebelmaschine für Veranstaltungen',
+		imageAlt: 'Bodenmontierte Wash-Lichteffektgeräte, die farbiges Licht in einen Raum werfen',
 		title: 'Spezialeffekte',
 		desc: 'Eine professionelle Nebelmaschine vom Typ Martin Magnum 650, die für Atmosphäre sorgt und die Lichtstrahlen auf der Tanzfläche sichtbar macht.'
 	}

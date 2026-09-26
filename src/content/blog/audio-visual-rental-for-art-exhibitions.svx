@@ -4,7 +4,7 @@ description: "Audio visual rental for art exhibition openings in Malaga, Spain: 
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-art-exhibitions
 publishDate: "2026-08-05"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-26"
 excerpt: "Audio visual rental for art exhibition openings in Malaga, Spain: sound, mic and screen for the reception, what our own inventory does not cover for the art."
 coverImage: https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-1536x1152.webp
 categories: [Audio Visual Rental, Events]
@@ -113,7 +113,7 @@ A real association meeting delivered under a stone arcade in Malaga: an HK Audio
 
 ![Rows of seating facing a lit projection screen and podium banners at a real corporate event delivered by Malaga Event Gear.](https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-1024x765.webp)
 
-A screen and podium setup delivered for a real event in Malaga, the same projector and screen configuration we bring to a gallery opening's artist statement or video piece.
+A screen and podium setup delivered for a real event in the province of Malaga, the same projector and screen configuration we bring to a gallery opening's artist statement or video piece.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('basic-mice', ['/2495/', '/1284/', '/1282/'])} speed="normal" direction="left" deferMount={false} />

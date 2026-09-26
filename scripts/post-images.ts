@@ -77,6 +77,15 @@ export interface ImageMeta {
 	tags: string[];
 	/** When/where to use the image: cover | hero | gallery | body | og … */
 	usage: string[];
+	/** Where the photo was taken, when known. Omit a subfield you cannot support. */
+	location?: {
+		venue?: string;
+		locality?: string;
+		province?: string;
+		country?: string;
+	};
+	/** The real event shown in the photo, when known. */
+	event?: string;
 }
 
 /** One responsive rendition of an image, with both format URLs. */
@@ -168,7 +177,16 @@ export function findBySourceHash(manifest: Manifest, hash: string): MediaEntry |
 }
 
 /** The semantic fields the sidecar meta.yaml owns. Everything else is derived on upload. */
-const META_FIELDS = ['title', 'alt', 'caption', 'description', 'tags', 'usage'] as const;
+const META_FIELDS = [
+	'title',
+	'alt',
+	'caption',
+	'description',
+	'tags',
+	'usage',
+	'location',
+	'event'
+] as const;
 
 /**
  * Refreshes the semantic metadata of every manifest entry sharing `sourceHash`.
@@ -227,7 +245,9 @@ export function buildMediaEntry(i: BuildEntryInput): MediaEntry {
 		excludeFromSitemap: false,
 		usage: i.meta.usage,
 		avifUrl: i.avifUrl,
-		sourceHash: i.sourceHash
+		sourceHash: i.sourceHash,
+		location: i.meta.location,
+		event: i.meta.event
 	};
 }
 
@@ -275,6 +295,7 @@ const EMPTY_META: ImageMeta = {
 	description: '',
 	tags: [],
 	usage: []
+	// location/event: intentionally absent, omit rather than guess.
 };
 
 /** Recursively collects input image files under `dir`, skipping dotfiles and sidecars. */
@@ -315,7 +336,9 @@ function resolveMeta(partial: Partial<ImageMeta> | undefined): ImageMeta {
 		title: partial.title ?? '',
 		description: partial.description ?? '',
 		tags: toArr(partial.tags),
-		usage: toArr(partial.usage)
+		usage: toArr(partial.usage),
+		location: partial.location,
+		event: partial.event
 	};
 }
 

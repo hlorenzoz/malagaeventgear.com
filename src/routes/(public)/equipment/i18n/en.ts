@@ -47,7 +47,7 @@ const copy = {
         desc: 'Projectors of up to 5,000 lumens, projection screens and a 60 inch display panel to give your audience a sharp visual experience.'
     },
     effects: {
-        imageAlt: 'Professional smoke machine for events',
+        imageAlt: 'Floor mounted wash lighting fixtures casting colored light across a room',
         title: 'Special Effects',
         desc: 'A professional Martin Magnum 650 smoke machine that adds atmosphere and makes the lighting beams visible on the dance floor.'
     }

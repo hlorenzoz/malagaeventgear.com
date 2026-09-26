@@ -44,7 +44,7 @@ const copy = {
 		desc: "Vidéoprojecteurs jusqu'à 5 000 lumens, écrans de projection et un écran plat de 60 pouces pour offrir à votre public une expérience visuelle nette."
 	},
 	effects: {
-		imageAlt: 'Machine à fumée professionnelle pour événements',
+		imageAlt: 'Projecteurs wash au sol projetant une lumière colorée dans une salle',
 		title: 'Effets spéciaux',
 		desc: "Une machine à fumée professionnelle Martin Magnum 650 qui ajoute de l'ambiance et rend les faisceaux lumineux visibles sur la piste de danse."
 	}

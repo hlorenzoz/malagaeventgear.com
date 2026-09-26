@@ -7,7 +7,7 @@
  */
 export const STOCK_PHOTO_IDS: readonly string[] = [
 	'1625', '1627', '1628', '1629', '1630', '1631', '1632', '1633', '1635', '1636', '1637', '1638',
-	'2278'
+	'2278', '1313'
 ];
 
 export interface GalleryImage {
@@ -161,12 +161,12 @@ export const galleryImages: GalleryImage[] = [
 	},
 	{
 		src: 'https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled-600x448.webp',
-		alt: 'Large scale congress sound system rental',
+		alt: 'Large scale congress sound system rental at Hotel Alfonso XIII, Sevilla',
 		category: 'corporate'
 	},
 	{
 		src: 'https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-scaled-600x448.webp',
-		alt: 'Hotel Alfonso XIII congress stage setup',
+		alt: 'Hotel Alfonso XIII congress stage setup, Sevilla',
 		category: 'corporate'
 	},
 	{
@@ -184,26 +184,21 @@ export const galleryImages: GalleryImage[] = [
 	{
 		src: 'https://cdn.malagaeventgear.com/blog/1292/malaga_event_lighting_display_projector_sound_rental_3-scaled-600x448.webp',
 		alt: 'Professional display, projector, sound system rental',
-		category: 'general'
+		category: 'corporate'
 	},
 	{
 		src: 'https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled-600x448.webp',
 		alt: 'Stunning event lighting and sound installation',
-		category: 'general'
+		category: 'corporate'
 	},
 	{
 		src: 'https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1-600x450.webp',
 		alt: 'Lighting and sound for event screen',
-		category: 'general'
+		category: 'corporate'
 	},
 	{
 		src: 'https://cdn.malagaeventgear.com/blog/1195/sound-system-tennis-championship-2024-setup-600x338.webp',
 		alt: 'Tennis championship sports sound setup',
-		category: 'general'
-	},
-	{
-		src: 'https://cdn.malagaeventgear.com/blog/1191/billie-jean-king-cup-2024-celebration-lights-sound-600x450.webp',
-		alt: 'Sports cup celebration lights and sound',
 		category: 'general'
 	},
 	{
@@ -214,12 +209,12 @@ export const galleryImages: GalleryImage[] = [
 	{
 		src: 'https://cdn.malagaeventgear.com/blog/1289/malaga_event_lighting_display_projector_sound_rental_1-scaled-600x448.webp',
 		alt: 'Professional event lighting and projector screen',
-		category: 'general'
+		category: 'corporate'
 	},
 	{
 		src: 'https://cdn.malagaeventgear.com/blog/1294/malaga_event_lighting_big_display_projector_sound_rental_1-scaled-600x448.webp',
 		alt: 'Staging, audio, visual and custom setup',
-		category: 'general'
+		category: 'corporate'
 	},
 	{
 		src: 'https://cdn.malagaeventgear.com/blog/1327/malaga_concert_lighting_microphone_audio_rental-scaled-600x448.webp',
@@ -228,13 +223,38 @@ export const galleryImages: GalleryImage[] = [
 	},
 	{
 		src: 'https://cdn.malagaeventgear.com/blog/1275/malaga_sound_system_rental_outdoor_event-scaled-600x448.webp',
-		alt: 'Outdoor party and event sound system rental',
+		alt: 'Rooftop terrace sound system rental at Hotel Alfonso XIII, Sevilla',
 		category: 'general'
 	},
 	{
 		src: 'https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-600x448.webp',
 		alt: 'Sound and lighting rental for live band events',
 		category: 'general'
+	},
+	{
+		src: 'https://cdn.malagaeventgear.com/blog/1323/rental-audio-system-parties-events-600x448.webp',
+		alt: 'Audio system rental setup in Malaga for a beachside party, featuring professional DJ equipment, speakers, and a lively crowd enjoying the event',
+		category: 'party'
+	},
+	{
+		src: 'https://cdn.malagaeventgear.com/blog/1324/rent-microphone-parties-concerts-events-malaga-600x803.webp',
+		alt: 'Live music performance at an event in Malaga featuring a singer with a professional microphone and a guitarist, creating a vibrant and elegant atmosphere',
+		category: 'party'
+	},
+	{
+		src: 'https://cdn.malagaeventgear.com/blog/1325/audio-lighting-sound-system-microphone-rental-malaga-600x803.webp',
+		alt: 'A live DJ and guitarist performing on stage with professional audio and lighting equipment during an outdoor event in the province of Malaga',
+		category: 'party'
+	},
+	{
+		src: 'https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-600x803.webp',
+		alt: 'Podium and sound system for a concert in the province of Malaga',
+		category: 'general'
+	},
+	{
+		src: 'https://cdn.malagaeventgear.com/blog/1787/2025-10-05-at-DJ-audio-and-microphone-system-setup-600x800.webp',
+		alt: "Close up of a professional DJ setup with media player and mixer at a woman DJ's event",
+		category: 'party'
 	},
 	...ecoc2026GalleryImages
 ];
