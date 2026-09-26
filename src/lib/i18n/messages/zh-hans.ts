@@ -288,8 +288,8 @@ const t = {
 	},
 	// Gallery
 	gallery: {
-		titleHome: '活动实况回顾',
-		titlePackage: '往期 {pack} 活动'
+		titleHome: '活动场景与灵感',
+		titlePackage: '{pack}：场景与灵感'
 	},
 	// Google Map / Profile
 	googleMap: {

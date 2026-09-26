@@ -21,7 +21,7 @@ Søg på "stage lighting for weddings" på engelsk, og de fleste guides opremser
 -   [Dit bryllup, øjeblik for øjeblik](#dit-bryllup-øjeblik-for-øjeblik)
 -   [Et band, en dj eller en scene til taler](#et-band-en-dj-eller-en-scene-til-taler)
 -   [Wedding Pack, Eco Pack eller et separat tilbud](#wedding-pack-eco-pack-eller-et-separat-tilbud)
--   [Rigtige bryllupper, vi har leveret til](#rigtige-bryllupper-vi-har-leveret-til)
+-   [De bryllupsomgivelser, lyset følger](#de-bryllupsomgivelser-lyset-følger)
 -   [Hvor lang tid i forvejen du skal booke](#hvor-lang-tid-i-forvejen-du-skal-booke)
 -   [Konklusion](#konklusion)
 -   [Ofte stillede spørgsmål](#ofte-stillede-spørgsmål)
@@ -71,9 +71,9 @@ Det ærlige svar afhænger af, hvilken række i tabellen ovenfor du har brug for
 
 ![Farvet lys på væggene på begge sider af et formelt middagsbord, den samme slags effektlys, som vores RGBW-spots og vores sæt til uplighting giver et dansegulv eller en baggrund ved vielsen til et bryllup.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-700x523.webp "Et historisk sted i Malaga forvandlet til et særligt event med professionelt lyd- og lysudstyr.")
 
-## Rigtige bryllupper, vi har leveret til
+## De bryllupsomgivelser, lyset følger
 
-Et kig på rigtige bryllupsbookinger i Malaga og langs Costa del Sol:
+Illustrationsfotos af bryllupper, ikke arrangementer fra Malaga Event Gear: omgivelserne til vielse, middag og reception, som lysmomenterne ovenfor er planlagt efter.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" />

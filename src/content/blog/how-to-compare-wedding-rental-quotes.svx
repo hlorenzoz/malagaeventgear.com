@@ -90,15 +90,15 @@ A few things are worth treating as a reason to ask more questions before booking
 
 Not necessarily, and this is why the checklist above matters more than the total at the bottom of the page. A lower number can be covering less, not costing less for the same thing. Getting quotes from more than one company before booking is worth doing for exactly this reason: it gives you something concrete to hold this checklist against, rather than judging a single number in isolation.
 
-## Real Weddings We've Delivered
+## What a Clear Quote Should Name
 
-![Wedding reception under warm LED string lighting, with the on site technician monitoring the sound system.](https://cdn.malagaeventgear.com/blog/1632/wedding_reception_decor.webp)
+![Elegant wedding reception decor under soft ambient lighting.](https://cdn.malagaeventgear.com/blog/1632/wedding_reception_decor.webp)
 
-A reception under the Wedding Pack's included lighting and technician, the two line items a vague quote is most likely to leave out.
+An illustrative reception, not a Malaga Event Gear event. Lighting and an on site technician, both included in the Wedding Pack, are the two line items a vague quote is most likely to leave out.
 
 ![A close up of a bride holding a pastel floral bouquet.](https://cdn.malagaeventgear.com/blog/1637/bride_holding_wedding_bouquet.webp)
 
-A wedding booked on the Eco Pack, sized and quoted around its own 50 guest capacity rather than a generic package description.
+An illustrative photo, not one of our weddings. A smaller wedding on the Eco Pack is sized and quoted around its own 50 guest capacity rather than a generic package description.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1632/', '/1637/'])} speed="normal" direction="left" deferMount={false} />

@@ -68,19 +68,19 @@ The Wedding Pack has no projector, screen or LED display, since a wedding rarely
 
 One package covering everything is not the same as one conversation covering everything, though. If your venue or planner leaves a gap, a dance floor, a backdrop or anything else, you can still tell us about it. We will enquire with suppliers about that gap for your date. If a supplier comes through, it appears as a separate line, not folded into the Wedding Pack as if it were ours.
 
-## Real Weddings We've Delivered
+## The Wedding Settings One Package Has to Cover
 
 ![A beautiful beach wedding ceremony setup with a red carpet aisle and floral arch.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-A red carpet aisle and floral arch set up on a beach for an outdoor wedding ceremony.
+An illustrative beach ceremony aisle, not a Malaga Event Gear event: an open air setting where the package's PA and wireless microphone carry the vows with no walls to help.
 
 ![Elegant indoor wedding ceremony hall with white floral arrangements and chandeliers.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
 
-An indoor hall set up for a wedding ceremony, with sound in place for vows and readings.
+An illustrative indoor ceremony hall, not one of our weddings. On a real booking, this is the kind of room where the sound is set for the vows and readings before the guests arrive.
 
 ![Wedding reception table with pink flowers and lights.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
 
-A wedding reception table glowing under fairy lights, with pink flowers and lanterns.
+An illustrative reception table under fairy lights, not an event of ours: the part of the evening where the same package covers dinner, speeches and dancing.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1636/', '/1635/', '/1628/'])} speed="normal" direction="left" deferMount={false} />

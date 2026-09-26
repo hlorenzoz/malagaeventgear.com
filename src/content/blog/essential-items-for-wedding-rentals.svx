@@ -79,19 +79,19 @@ The [Wedding Pack](/packages/wedding/) costs 650 euros, ex VAT, and includes:
 
 See exact, live pricing and the full breakdown on our [packages page](/packages/). For lighting specifically, see our [lighting ideas for wedding rentals](/blog/lighting-ideas-for-wedding-rentals/) guide, and for the sustainability angle on this same equipment, see our [eco friendly wedding rental options](/blog/eco-friendly-wedding-rental-options/) guide.
 
-## Real Weddings We've Delivered
+## The Moments the Essentials Are For
 
 ![Beach wedding ceremonial setup with white folding chairs facing the ocean.](https://cdn.malagaeventgear.com/blog/1629/beach_wedding_setup-300x224.webp)
 
-A beach ceremony setup on the Costa del Sol, sound in place for vows within earshot of the waves.
+An illustrative beach ceremony setup, not a Malaga Event Gear event: vows said within earshot of the waves are why a PA and a wireless microphone top the essentials list.
 
 ![Tropical beach wedding arch with a petal lined aisle leading to the altar.](https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding-300x224.webp)
 
-A beach wedding arch and aisle, set up ahead of a ceremony with wireless microphones ready for the vows.
+An illustrative beach arch and aisle, not one of our weddings. On a real booking, the wireless microphones are tested and ready before the ceremony starts.
 
 ![Elegant wedding reception decor under soft ambient lighting.](https://cdn.malagaeventgear.com/blog/1632/wedding_reception_decor-300x224.webp)
 
-A reception space under the Wedding Pack's warm LED ambient lighting, ready for speeches and dancing.
+An illustrative reception space, not an event of ours: the part of the day where warm ambient lighting, like the Wedding Pack's LED strings, sets the mood for speeches and dancing.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1629/', '/1630/', '/1632/'])} speed="normal" direction="left" deferMount={false} />

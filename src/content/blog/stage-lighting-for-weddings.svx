@@ -30,7 +30,7 @@ Search "stage lighting for weddings" and most guides list uplighting, gobo proje
 -   [Your Wedding, Moment by Moment](#your-wedding-moment-by-moment)
 -   [A Band, DJ Booth or Speeches Stage](#a-band-dj-booth-or-speeches-stage)
 -   [Wedding Pack, Eco Pack or a Separate Quote](#wedding-pack-eco-pack-or-a-separate-quote)
--   [Real Weddings We've Delivered](#real-weddings-weve-delivered)
+-   [Wedding Settings the Lighting Follows](#wedding-settings-the-lighting-follows)
 -   [How Far in Advance to Book](#how-far-in-advance-to-book)
 -   [Conclusion](#conclusion)
 -   [FAQs](#faqs)
@@ -80,9 +80,9 @@ The honest answer depends on which row of the table above you need. The [Wedding
 
 ![Wall wash color lighting flanking a formal dinner setup, the same accent style our RGBW spotlights and uplighting kit bring to a wedding dance floor or ceremony backdrop.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-700x523.webp)
 
-## Real Weddings We've Delivered
+## Wedding Settings the Lighting Follows
 
-A look at real wedding bookings across Malaga and the Costa del Sol:
+Illustrative wedding photos, not Malaga Event Gear events: the ceremony, table and reception settings the lighting moments above are planned around.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" />

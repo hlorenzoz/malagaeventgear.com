@@ -66,19 +66,19 @@ See exact, live pricing and the full breakdown on our [packages page](/packages/
 
 Biodegradable tents, sustainable furniture and recycled decor are not in our own inventory, and catering is not something our crew does. We are not going to claim the Wedding Pack greens up parts of your wedding it has nothing to do with. If a fully sustainable wedding matters to you, those choices, venue, catering, decor and favors, sit with vendors in those trades, and our [essential items for wedding rentals](/blog/essential-items-for-wedding-rentals/) guide covers where AV fits alongside them. Should your venue still be short of a tent or furniture, we can ask our supplier network whether anyone has what you need, though we could not vouch for its green credentials ourselves.
 
-## Real Weddings We've Delivered
+## Where Efficient Lighting and Sound Fit the Day
 
 ![Elegant indoor wedding ceremony hall with white floral arrangements and chandeliers.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
 
-An indoor hall set up for a wedding ceremony, with LED ambient lighting from the Wedding Pack in place.
+An illustrative indoor ceremony hall, not a Malaga Event Gear event. On a real booking, a room like this is where the Wedding Pack's warm LED ambient lighting goes in.
 
 ![A beautiful beach wedding ceremony setup with a red carpet aisle and floral arch.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-A red carpet aisle and floral arch set up on a beach for an outdoor wedding ceremony.
+An illustrative beach ceremony aisle, not one of our weddings: in daylight the setting does most of the lighting work, and the rental comes down to the sound the vows need.
 
 ![Wedding reception table with pink flowers and lights.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
 
-A wedding reception table glowing under fairy lights, with pink flowers and lanterns.
+An illustrative reception table under string lights, not an event of ours. On a real booking, the Wedding Pack provides this kind of warm string lighting as LED rather than older, higher draw fixtures.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1635/', '/1636/', '/1628/'])} speed="normal" direction="left" deferMount={false} />

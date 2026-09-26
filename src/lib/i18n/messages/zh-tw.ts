@@ -288,8 +288,8 @@ const t = {
 	},
 	// Gallery
 	gallery: {
-		titleHome: '我們的活動實錄',
-		titlePackage: '過往{pack}活動'
+		titleHome: '活動場景與靈感',
+		titlePackage: '{pack}：場景與靈感'
 	},
 	// Google Map / Profile
 	googleMap: {

@@ -60,19 +60,19 @@ Fornecemos o som, a iluminação e os microfones para a cerimónia e a receção
 
 Se ainda faltar alguma coisa ao seu casamento numa dessas áreas, diga-nos o quê. Podemos passar o pedido aos nossos contactos de fornecedores e dizer-lhe se é possível cobri-lo na sua data. Tudo o que for obtido dessa forma fica identificado como tal no orçamento.
 
-## Casamentos reais que já equipámos
+## Os espaços que o aluguer para casamentos tem de cobrir
 
 ![Uma cerimónia de casamento na praia, com uma passadeira vermelha a fazer de corredor e um arco floral.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-Uma passadeira vermelha e um arco floral montados numa praia para uma cerimónia de casamento ao ar livre.
+Fotografia ilustrativa de um corredor de cerimónia na praia, não de um evento da Malaga Event Gear: ao ar livre, o sistema PA e o microfone sem fios têm de levar os votos por cima do vento e do espaço aberto.
 
 ![Uma elegante sala de cerimónia de casamento interior, com arranjos de flores brancas e lustres.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
 
-Uma sala interior preparada para uma cerimónia de casamento, com o som montado para os votos e as leituras.
+Fotografia ilustrativa de uma sala de cerimónia interior, não de um dos nossos casamentos. Numa reserva real, o som fica afinado para os votos e as leituras antes de os convidados chegarem.
 
 ![Mesa de receção de casamento com flores cor-de-rosa e luzes.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
 
-Uma mesa de receção de casamento a brilhar sob luzes de fada, com flores cor-de-rosa e lanternas.
+Fotografia ilustrativa de uma mesa de receção sob luzes de fada, não de um evento nosso: a parte da noite em que as luzes e o microfone dos discursos entram em cena.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" deferMount={false} />

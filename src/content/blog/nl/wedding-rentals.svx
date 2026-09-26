@@ -60,19 +60,19 @@ We leveren geluid, licht en microfoons voor de ceremonie en de receptie, plus de
 
 Heeft je bruiloft op een van die gebieden nog een gat, vertel ons dan wat het is. We kunnen de aanvraag doorgeven aan onze contacten bij leveranciers en je laten weten of het op jouw datum kan worden ingevuld. Alles wat op die manier wordt geregeld, staat als zodanig vermeld op de offerte.
 
-## Echte bruiloften die we hebben verzorgd
+## De plekken waar verhuur voor een bruiloft op berekend moet zijn
 
 ![Een huwelijksceremonie op het strand met een rode loper als gangpad en een bloemenboog.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-Een rode loper als gangpad en een bloemenboog, opgesteld op een strand voor een huwelijksceremonie in de buitenlucht.
+Illustratiefoto van een gangpad voor een ceremonie op het strand, geen evenement van Malaga Event Gear: buiten moeten de PA en de draadloze microfoon de geloften over wind en open ruimte dragen.
 
 ![Een elegante zaal voor een huwelijksceremonie binnen, met witte bloemstukken en kroonluchters.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
 
-Een zaal binnen, ingericht voor een huwelijksceremonie, met het geluid klaar voor de geloften en voordrachten.
+Illustratiefoto van een zaal voor een ceremonie binnen, geen van onze bruiloften. Bij een echte boeking is het geluid voor de geloften en voordrachten afgesteld voordat de gasten aankomen.
 
 ![Een tafel op een bruiloftsreceptie met roze bloemen en lichtjes.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
 
-Een tafel op een bruiloftsreceptie die gloeit onder lichtsnoeren, met roze bloemen en lantaarns.
+Illustratiefoto van een tafel op een bruiloftsreceptie onder lichtsnoeren, geen evenement van ons: het deel van de avond waarin de lichtsnoeren en de microfoon voor de speeches het overnemen.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" deferMount={false} />

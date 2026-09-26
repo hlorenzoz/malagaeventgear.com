@@ -276,8 +276,8 @@ const t = {
 		leadLabel: 'Referenz'
 	},
 	gallery: {
-		titleHome: 'Unsere Veranstaltungen in Aktion',
-		titlePackage: 'Bisherige Veranstaltungen mit dem {pack}'
+		titleHome: 'Eventorte und Ideen',
+		titlePackage: '{pack}: Orte und Ideen'
 	},
 	googleMap: {
 		badge: 'Standort & Google-Profil',

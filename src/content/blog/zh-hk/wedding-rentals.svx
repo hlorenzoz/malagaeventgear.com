@@ -60,19 +60,19 @@ Malaga Event Gear的[Wedding Pack](/packages/wedding/)是我們的婚禮視聽�
 
 如果您的婚禮在上述某方面仍有欠缺，請告訴我們具體是甚麼。我們可以把需要轉介給我們聯絡的供應商，並告訴您在您的日期能否解決。透過這種方式取得的任何項目，都會在報價單上如實註明。
 
-## 我們服務過的真實婚禮
+## 婚禮器材租借需要應付的場地
 
 ![海灘婚禮儀式佈置，設有紅地氈通道及花拱門。](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-海灘上為戶外婚禮儀式佈置的紅地氈通道及花拱門。
+示意圖片，展示的是海灘儀式通道，並非Malaga Event Gear的活動：在戶外，PA音響及無線咪高峰要頂著風，在開闊的空間中把誓詞清晰地傳送出去。
 
 ![優雅的室內婚禮儀式廳，飾有白色花藝及吊燈。](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
 
-為婚禮儀式佈置好的室內禮堂，音響已經就位，供宣讀誓詞及朗讀使用。
+示意圖片，展示的是室內儀式禮堂，並非我們服務過的婚禮。在實際預訂中，賓客到場之前，宣讀誓詞及朗讀所用的音響已經調校妥當。
 
 ![擺放著粉紅色鮮花、點綴著燈光的婚宴餐桌。](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
 
-在星星燈下閃閃生輝的婚宴餐桌，配有粉紅色鮮花及燈籠。
+示意圖片，展示的是星星燈下的婚宴餐桌，並非我們的活動：到了晚上這個環節，便輪到星星燈及致辭咪高峰登場。
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" deferMount={false} />

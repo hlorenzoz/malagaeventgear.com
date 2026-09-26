@@ -84,19 +84,19 @@ The [Wedding Pack](/packages/wedding/) costs 650 euros, ex VAT, and includes:
 
 See exact, live pricing and the full breakdown on our [packages page](/packages/).
 
-## Real Weddings We've Delivered
+## What Open Air Asks of the Sound
 
 ![A close up of a bride holding a pastel colored wedding bouquet.](https://cdn.malagaeventgear.com/blog/1637/bride_holding_wedding_bouquet-300x224.webp)
 
-A bride holding her bouquet ahead of an outdoor ceremony, sound already placed and tested for the vows.
+An illustrative photo of a bride before the ceremony, not a Malaga Event Gear event. On a real outdoor booking, the sound is placed and tested for the vows before this moment.
 
 ![Long wedding dinner table set with glassware, plates, and floral decor.](https://cdn.malagaeventgear.com/blog/1633/wedding_dinner_table-300x224.webp)
 
-A long outdoor dinner table set for a reception, where the sound switches from ceremony volume to speeches and dancing.
+An illustrative dinner table set for a reception, not one of our weddings: the point where the sound switches from ceremony volume to speeches and dancing.
 
 ![A vibrant tropical beach wedding ceremony with pink rose petals and ocean views.](https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding-300x224.webp)
 
-A beach ceremony with a petal lined aisle, the kind of open air setting where PA coverage has to reach every guest with no walls to help it along.
+An illustrative beach ceremony with a petal lined aisle, not an event of ours: the kind of open air setting where PA coverage has to reach every guest with no walls to help it along.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1637/', '/1633/', '/1630/'])} speed="normal" direction="left" deferMount={false} />

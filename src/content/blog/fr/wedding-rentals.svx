@@ -60,19 +60,19 @@ Nous fournissons le son, l'éclairage et les microphones pour la cérémonie et 
 
 Si votre mariage présente encore un manque dans l'un de ces domaines, dites-nous lequel. Nous pouvons transmettre la demande à nos contacts chez nos fournisseurs et vous dire si elle peut être couverte à votre date. Tout ce qui est obtenu de cette façon est indiqué comme tel sur le devis.
 
-## De vrais mariages que nous avons équipés
+## Les lieux que la location de matériel pour mariage doit couvrir
 
 ![Une cérémonie de mariage sur la plage, avec une allée en tapis rouge et une arche fleurie.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-Une allée en tapis rouge et une arche fleurie installées sur une plage pour une cérémonie de mariage en plein air.
+Photo d'illustration d'une allée de cérémonie sur la plage, qui n'est pas un événement de Malaga Event Gear : en plein air, la sono et le microphone sans fil doivent porter les vœux malgré le vent et l'espace ouvert.
 
 ![Une élégante salle de cérémonie de mariage en intérieur, avec des compositions de fleurs blanches et des lustres.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
 
-Une salle intérieure préparée pour une cérémonie de mariage, avec la sonorisation en place pour les vœux et les lectures.
+Photo d'illustration d'une salle de cérémonie en intérieur, qui n'est pas l'un de nos mariages. Lors d'une vraie réservation, le son est réglé pour les vœux et les lectures avant l'arrivée des invités.
 
 ![Une table de réception de mariage avec des fleurs roses et des lumières.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
 
-Une table de réception de mariage illuminée par des guirlandes lumineuses, avec des fleurs roses et des lanternes.
+Photo d'illustration d'une table de réception sous des guirlandes lumineuses, qui n'est pas l'un de nos événements : le moment de la soirée où les guirlandes et le microphone des discours prennent le relais.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" deferMount={false} />

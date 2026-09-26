@@ -78,15 +78,15 @@ The [Wedding Pack](/packages/wedding/) costs 650 euros, ex VAT, and includes:
 
 See exact, live pricing and the full breakdown on our [packages page](/packages/).
 
-## Real Weddings We've Delivered
+## The Parts of the Day Our Crew Keeps Watch Over
 
 ![Long wedding dinner table set with glassware, plates, and floral decor.](https://cdn.malagaeventgear.com/blog/1633/wedding_dinner_table.webp)
 
-A reception table set for the switch from speeches to dancing, the exact transition our live technician stays on site to adjust for.
+An illustrative reception table, not a Malaga Event Gear event. On a real booking, the switch from speeches to dancing is the transition our live technician stays on site to adjust for.
 
 ![A close up of a bride holding a pastel colored wedding bouquet.](https://cdn.malagaeventgear.com/blog/1637/bride_holding_wedding_bouquet-300x224.webp)
 
-Vows about to begin, with the ceremony sound already installed, tested and calibrated by our crew before a single guest sits down.
+An illustrative photo of the moment before the vows, not one of our weddings. On a real booking, our crew installs, tests and calibrates the ceremony sound before a single guest sits down.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1629/', '/1633/', '/1637/'])} speed="normal" direction="left" deferMount={false} />

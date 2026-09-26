@@ -73,15 +73,15 @@ The [Wedding Pack](/packages/wedding/) costs 650 euros, ex VAT, for up to 80 gue
 
 The [Eco Pack](/packages/eco/) costs 290 euros, ex VAT, for up to 50 guests, and includes 2 high quality active speakers, 1 wired dynamic microphone, 2 light bars with RGBW LED spotlights, and aesthetic cabling and professional setup, self run after our crew delivers and tests it. We equip both packages with premium professional brands, including Audix, HK Audio, and Martin. See exact, live pricing and the full breakdown, including both packages, on our [all in one wedding rental packages](/blog/all-in-one-wedding-rental-packages/) guide or our [packages page](/packages/).
 
-## Real Weddings We've Delivered
+## Where These Trends Show Up on the Day
 
-![Reception table lit by the Wedding Pack's warm LED strings.](https://cdn.malagaeventgear.com/blog/1631/wedding_table_setting-300x224.webp)
+![Romantic wedding table setting under warm ambient lighting.](https://cdn.malagaeventgear.com/blog/1631/wedding_table_setting-300x224.webp)
 
-A reception table under the Wedding Pack's warm LED strings, the fixed glow behind the technician included package couples book most.
+An illustrative reception table in warm light, not a Malaga Event Gear event. On a real booking, a steady glow like this comes from the Wedding Pack's warm LED strings, set up by the package's own technician.
 
-![Beach wedding aisle where lighting and microphone choices come together for the ceremony and reception.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
+![Beach wedding aisle with a red carpet, white chairs and a floral arch by the sea.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-A beach ceremony aisle, the kind of setup where the lighting choice and the wireless microphone for the officiant both get decided before the day.
+An illustrative beach ceremony aisle, not one of our weddings: the kind of setting where the lighting choice and the officiant's wireless microphone both get decided before the day.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1631/', '/1636/'])} speed="normal" direction="left" deferMount={false} />

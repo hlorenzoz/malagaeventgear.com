@@ -60,19 +60,19 @@ Vi leverer lyd, lys og mikrofoner til vielsen og receptionen, plus teknikeren, d
 
 Hvis dit bryllup stadig mangler noget inden for et af de områder, så fortæl os, hvad det er. Vi kan sende forespørgslen videre til vores leverandørkontakter og fortælle dig, om det kan dækkes på din dato. Alt, der skaffes på den måde, står angivet som sådan på tilbuddet.
 
-## Rigtige bryllupper, vi har leveret til
+## De omgivelser, udlejning til bryllup skal dække
 
 ![En bryllupsceremoni på stranden med en rød løber som midtergang og en blomsterbue.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-En rød løber som midtergang og en blomsterbue sat op på en strand til en udendørs vielse.
+Illustrationsfoto af en midtergang til en vielse på stranden, ikke et arrangement fra Malaga Event Gear: udendørs skal PA-anlægget og den trådløse mikrofon bære løfterne gennem vind og åben luft.
 
 ![En elegant indendørs sal til en vielse med hvide blomsterarrangementer og lysekroner.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
 
-En indendørs sal gjort klar til en vielse, med lyden på plads til løfter og oplæsninger.
+Illustrationsfoto af en indendørs sal til en vielse, ikke et af vores bryllupper. Ved en rigtig booking er lyden indstillet til løfter og oplæsninger, før gæsterne ankommer.
 
 ![Et bord til en bryllupsreception med lyserøde blomster og lys.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
 
-Et bord til en bryllupsreception, der gløder under lyskæder, med lyserøde blomster og lanterner.
+Illustrationsfoto af et bord til en bryllupsreception under lyskæder, ikke et af vores arrangementer: den del af aftenen, hvor lyskæderne og mikrofonen til talerne tager over.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" deferMount={false} />

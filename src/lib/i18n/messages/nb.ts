@@ -301,8 +301,8 @@ const t = {
 	},
 	// Gallery
 	gallery: {
-		titleHome: 'Våre arrangementer i aksjon',
-		titlePackage: 'Tidligere {pack}-arrangementer'
+		titleHome: 'Arrangementsmiljøer og ideer',
+		titlePackage: '{pack}: miljøer og ideer'
 	},
 	// Google Map / Profile
 	googleMap: {

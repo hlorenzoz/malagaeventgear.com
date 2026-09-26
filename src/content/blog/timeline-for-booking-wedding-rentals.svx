@@ -48,19 +48,19 @@ We don't ask couples to book a set number of months ahead, because the honest an
 
 The [Wedding Pack](/packages/wedding/) costs 650 euros, ex VAT, and includes PA sound for up to 80 guests, fairy light ambient lighting, wireless microphones, transport, professional setup, and a live technician for the event. For the full breakdown of what is and isn't included, see our [audio visual rental for weddings](/blog/audio-visual-rental-for-weddings/) guide, or [questions to ask a wedding rental company](/blog/questions-to-ask-wedding-rental-companies/) before you book.
 
-## Real Setups We've Delivered
+## The Settings Your Booking Timeline Plans For
 
 ![A beautiful beach wedding ceremony setup with a red carpet aisle and floral arch.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-A red carpet aisle and floral arch set up on a beach for an outdoor wedding ceremony.
+An illustrative beach ceremony aisle, not a Malaga Event Gear event: outdoors, power and speaker placement need settling well before the day.
 
 ![Elegant indoor wedding ceremony hall with white floral arrangements and chandeliers.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
 
-An indoor hall set up for a wedding ceremony, with sound in place for vows and readings.
+An illustrative indoor ceremony hall, not one of our weddings. On a real booking, the sound for the vows and readings is set before the guests arrive.
 
 ![Wedding reception table with pink flowers and lights.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
 
-A wedding reception table glowing under fairy lights, with pink flowers and lanterns.
+An illustrative reception table under fairy lights, not an event of ours: the evening part of the day, when speeches and dancing need the sound switched over.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1636/', '/1635/', '/1628/'])} speed="normal" direction="left" deferMount={false} />

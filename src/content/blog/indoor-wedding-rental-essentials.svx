@@ -81,15 +81,15 @@ The [Wedding Pack](/packages/wedding/) costs 650 euros, ex VAT, and includes:
 
 See exact, live pricing and the full breakdown on our [packages page](/packages/).
 
-## Real Weddings We've Delivered
+## What an Indoor Room Asks of Light and Sound
 
 ![Elegant indoor wedding ceremony hall with white floral arrangements and chandeliers.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall.webp)
 
-An indoor ceremony hall with its own chandeliers already in place, the kind of room our accent lighting adds a layer to rather than becomes the only light source in.
+An illustrative indoor ceremony hall with its own chandeliers, not a Malaga Event Gear event: the kind of room our accent lighting adds a layer to rather than becomes the only light source in.
 
 ![Elegant wedding reception table setting with white floral centerpieces.](https://cdn.malagaeventgear.com/blog/1632/wedding_reception_decor.webp)
 
-A reception room under warm LED accent lighting, sound tuned to fill the room.
+An illustrative reception room, not one of our weddings. On a real booking, warm LED accent lighting goes in and the sound is tuned to fill the room.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1628/', '/1635/', '/1632/'])} speed="normal" direction="left" deferMount={false} />

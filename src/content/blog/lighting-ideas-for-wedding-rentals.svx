@@ -78,19 +78,19 @@ The [Eco Pack](/packages/eco/) costs 290 euros, ex VAT, and includes 2 high qual
 
 See exact, live pricing and the full breakdown on our [packages page](/packages/).
 
-## Real Weddings We've Delivered
+## Where Wedding Lighting Goes
 
 ![Romantic wedding table setting under warm ambient lighting.](https://cdn.malagaeventgear.com/blog/1631/wedding_table_setting-300x224.webp)
 
-A reception table lit by the Wedding Pack's warm LED strings, the fixed glow that stays the same tone all night.
+An illustrative reception table in warm light, not a Malaga Event Gear event. On a real booking, the Wedding Pack's warm LED strings give this kind of fixed glow, the same tone all night.
 
-![Beach wedding ceremony arch and posts where fairy lights are strung once the sun sets.](https://cdn.malagaeventgear.com/blog/1629/beach_wedding_setup-300x224.webp)
+![Beach wedding ceremony arch and wooden posts decorated with flowers.](https://cdn.malagaeventgear.com/blog/1629/beach_wedding_setup-300x224.webp)
 
-A beach ceremony structure, the kind of arch and surrounding posts where fairy lights get strung once the sun sets.
+An illustrative beach ceremony structure, not one of our weddings: the kind of arch and surrounding posts where fairy lights get strung once the sun sets.
 
-![Wedding aisle walkway where fairy lights double as light and wayfinding for guests.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
+![Beach wedding aisle with a red carpet, white chairs and a floral arch.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-A wedding aisle, the walkway placement where fairy lights double as light and wayfinding for guests.
+An illustrative wedding aisle, not an event of ours. On a real booking, a walkway like this is where fairy lights can double as light and wayfinding for guests.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1631/', '/1629/', '/1636/'])} speed="normal" direction="left" deferMount={false} />

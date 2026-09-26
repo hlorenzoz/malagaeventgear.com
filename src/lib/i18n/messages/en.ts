@@ -299,8 +299,8 @@ const en = {
 	},
 	// Gallery
 	gallery: {
-		titleHome: 'Our Events in Action',
-		titlePackage: 'Past {pack} Events'
+		titleHome: 'Event Settings and Ideas',
+		titlePackage: '{pack}: Settings and Ideas'
 	},
 	// Google Map / Profile
 	googleMap: {

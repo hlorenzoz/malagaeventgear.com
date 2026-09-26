@@ -304,8 +304,8 @@ const t = {
 	},
 	// Gallery
 	gallery: {
-		titleHome: 'Nos événements en images',
-		titlePackage: 'Événements réalisés avec le {pack}'
+		titleHome: 'Cadres et idées pour vos événements',
+		titlePackage: '{pack} : cadres et idées'
 	},
 	// Google Map / Profile
 	googleMap: {

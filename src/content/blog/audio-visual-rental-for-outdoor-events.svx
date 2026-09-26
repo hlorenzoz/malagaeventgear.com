@@ -79,10 +79,6 @@ An outdoor space illuminated with decorative lighting strings, creating a festiv
 
 A methacrylate lectern with technical support equipment, ready for an outdoor presentation.
 
-![A beautiful beach wedding ceremony setup with a red carpet aisle and floral arch.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-768x512.webp)
-
-A red carpet aisle and floral arch set up on a beach for an outdoor wedding ceremony.
-
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('eco', ['/1275/'])} speed="normal" direction="left" deferMount={false} />
 </div>

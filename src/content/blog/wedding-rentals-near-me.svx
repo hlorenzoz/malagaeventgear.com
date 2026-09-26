@@ -64,19 +64,19 @@ That is sound, lighting, microphones and a technician, for 650 euros ex VAT. It 
 
 Our service area is centered on Malaga and the Costa del Sol, and Sevilla has full logistical support with no minimum order. We also extend to Granada, though rentals there need to exceed 400 euros to cover the added travel for a single day trip out of the province. We do not have named district or neighborhood level coverage to list beyond that. If your venue is in Malaga, within the wider Costa del Sol or in Sevilla, you are inside our normal delivery area. If it is in Granada, check that your rental clears the 400 euro threshold before you book.
 
-## Real Weddings We've Delivered
+## What a Local Crew Plans For on the Day
 
 ![A beautiful tropical beach wedding ceremony with pink rose petals and ocean views.](https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding-300x224.webp)
 
-A beach wedding ceremony on the Costa del Sol, our PA system and wireless microphone in place for the vows.
+An illustrative beach ceremony, not one of our weddings. On a real Costa del Sol booking, the PA system and wireless microphone go in before the vows.
 
 ![A beautiful beach wedding ceremony setup with a red carpet aisle and floral arch.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-The aisle at a beach ceremony, our speaker placement set up ahead of the couple's arrival.
+An illustrative beach aisle, not a Malaga Event Gear event. On a real booking, speaker placement is set up ahead of the couple's arrival.
 
 ![Wedding reception table with pink flowers and lights.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
 
-A reception table under the Wedding Pack's warm LED strings, ready for speeches and dancing.
+An illustrative reception table, not an event of ours. On a real booking, this is the kind of setting the Wedding Pack's warm LED strings are for, ready for speeches and dancing.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1630/', '/1636/', '/1628/'])} speed="normal" direction="left" deferMount={false} />

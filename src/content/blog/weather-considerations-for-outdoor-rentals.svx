@@ -85,15 +85,15 @@ The [Wedding Pack](/packages/wedding/) costs 650 euros, ex VAT, and includes:
 
 See exact, live pricing and the full breakdown on our [packages page](/packages/).
 
-## Real Weddings We've Delivered
+## Open Air Settings the Weather Plan Covers
 
 ![A beach wedding table setting with pastel florals under an open sky.](https://cdn.malagaeventgear.com/blog/1625/beach_wedding_table_decor-300x224.webp)
 
-An open air reception setting where our technician plans equipment placement around the actual wind and ground exposure on the day.
+An illustrative open air reception setting, not a Malaga Event Gear event. On a real booking, our technician plans equipment placement around the actual wind and ground exposure on the day.
 
 ![A beach wedding ceremonial setup with rows of chairs facing the ocean.](https://cdn.malagaeventgear.com/blog/1629/beach_wedding_setup-300x224.webp)
 
-A beach ceremony setup with no fixed shelter, sound and lighting installed and tested by our crew before the exposure of a full day outdoors.
+An illustrative beach ceremony with no fixed shelter, not one of our weddings. On a real booking, our crew installs and tests the sound and lighting before a full day of exposure outdoors.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1625/', '/1629/'])} speed="normal" direction="left" deferMount={false} />

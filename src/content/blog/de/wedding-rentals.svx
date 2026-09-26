@@ -60,19 +60,19 @@ Wir stellen Ton, Licht und Mikrofone für Trauung und Empfang, dazu den Technike
 
 Hat Ihre Hochzeit in einem dieser Bereiche noch eine Lücke, sagen Sie uns, welche. Wir können die Anfrage an unsere Kontakte bei Lieferanten weitergeben und Ihnen sagen, ob sie sich für Ihr Datum abdecken lässt. Alles, was auf diesem Weg beschafft wird, ist im Angebot auch so gekennzeichnet.
 
-## Echte Hochzeiten, die wir ausgestattet haben
+## Die Orte, die ein Hochzeitsverleih abdecken muss
 
 ![Eine Trauung am Strand mit einem roten Teppich als Gang und einem Blumenbogen.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-Ein roter Teppich als Gang und ein Blumenbogen, aufgebaut an einem Strand für eine Trauung im Freien.
+Symbolbild eines Gangs für eine Trauung am Strand, keine Veranstaltung von Malaga Event Gear: Im Freien müssen die PA-Anlage und das Funkmikrofon das Eheversprechen gegen Wind und offene Weite tragen.
 
 ![Ein eleganter Saal für eine Trauung in Innenräumen, mit weißen Blumenarrangements und Kronleuchtern.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
 
-Ein Saal, vorbereitet für eine Trauung, mit der Beschallung für Eheversprechen und Lesungen bereits an ihrem Platz.
+Symbolbild eines Saals für eine Trauung, keine unserer Hochzeiten. Bei einer echten Buchung ist der Ton für Eheversprechen und Lesungen eingestellt, bevor die Gäste ankommen.
 
 ![Ein Tisch beim Hochzeitsempfang mit rosa Blumen und Lichtern.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
 
-Ein Tisch beim Hochzeitsempfang, der unter Lichterketten leuchtet, mit rosa Blumen und Laternen.
+Symbolbild eines Tisches beim Hochzeitsempfang unter Lichterketten, keine unserer Veranstaltungen: der Teil des Abends, in dem die Lichterketten und das Mikrofon für die Reden übernehmen.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" deferMount={false} />

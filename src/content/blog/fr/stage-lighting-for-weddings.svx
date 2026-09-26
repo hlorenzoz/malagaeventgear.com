@@ -21,7 +21,7 @@ Si vous cherchez en anglais "stage lighting for weddings", la plupart des guides
 -   [Votre mariage, moment par moment](#votre-mariage-moment-par-moment)
 -   [Un groupe, un DJ ou une scène pour les discours](#un-groupe-un-dj-ou-une-scène-pour-les-discours)
 -   [Wedding Pack, Eco Pack ou devis séparé](#wedding-pack-eco-pack-ou-devis-séparé)
--   [De vrais mariages que nous avons équipés](#de-vrais-mariages-que-nous-avons-équipés)
+-   [Les cadres de mariage que suit l'éclairage](#les-cadres-de-mariage-que-suit-léclairage)
 -   [Combien de temps à l'avance réserver](#combien-de-temps-à-lavance-réserver)
 -   [Conclusion](#conclusion)
 -   [Questions fréquentes](#questions-fréquentes)
@@ -71,9 +71,9 @@ La réponse honnête dépend de la ligne du tableau ci-dessus dont vous avez bes
 
 ![Un éclairage coloré de mur de part et d'autre d'une table de dîner formelle, le même style d'éclairage d'accentuation que nos projecteurs RGBW et notre kit d'uplighting apportent à la piste de danse ou au fond de cérémonie d'un mariage.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-700x523.webp "Un lieu historique de Malaga transformé pour un événement spécial grâce à un matériel professionnel de sonorisation et d'éclairage.")
 
-## De vrais mariages que nous avons équipés
+## Les cadres de mariage que suit l'éclairage
 
-Un aperçu de vrais mariages réservés à Malaga et sur la Costa del Sol :
+Photos d'illustration de mariages, qui ne sont pas des événements de Malaga Event Gear : les cadres de cérémonie, de table et de réception autour desquels sont pensés les moments d'éclairage décrits plus haut.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" />

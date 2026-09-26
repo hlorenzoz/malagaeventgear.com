@@ -78,19 +78,19 @@ The last shift in the day is the most straightforward: as dinner and speeches gi
 
 This page is strictly about the wedding day's own AV arc, not the package, its price or its full inclusions. See our [wedding rentals](/blog/wedding-rentals/) guide for that, along with booking lead time and service area. It is also not the generic explanation of gain staging, indoor versus outdoor acoustics, or equipment troubleshooting: those are covered in general terms, for any event type, in our Audio System Calibration, Audio Visual Rental for Outdoor Events, Technical Support for Events and AV Technician Hire guides elsewhere on this blog. And it is not decor, furniture or dancefloor accessories: the Wedding Pack does not include those, and neither does this page.
 
-## Real Setups We've Delivered
+## The Settings Behind Each Hour of the Day
 
 ![A beautiful beach wedding ceremony setup with a red carpet aisle and floral arch.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-An outdoor ceremony like this one is where the officiant's wireless microphone and a live technician matter most, with open air working against the voice instead of walls.
+An illustrative outdoor ceremony, not a Malaga Event Gear event: this kind of setting is where the officiant's wireless microphone and a live technician matter most, with open air working against the voice instead of walls.
 
 ![Elegant indoor wedding ceremony hall with white floral arrangements and chandeliers.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
 
-The same ceremony, set up indoors instead: a different acoustic problem for the same wireless microphone, and the kind of room change our crew resets for when a ceremony and reception happen in two different spaces.
+An illustrative indoor ceremony hall, not one of our weddings: a different acoustic problem for the same wireless microphone, and the kind of room change our crew resets for when a ceremony and reception happen in two different spaces.
 
 ![Wedding reception table with pink flowers and lights.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
 
-The other side of the switch: fairy lights and ambient sound in place once the tables are set, ahead of speeches and the night's dancing.
+An illustrative reception table, not an event of ours: the other side of the switch, where fairy lights and ambient sound take over once the tables are set, ahead of speeches and the night's dancing.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1636/', '/1635/', '/1628/'])} speed="normal" direction="left" deferMount={false} />

@@ -60,19 +60,19 @@ Vi står för ljud, ljus och mikrofoner till vigseln och mottagningen, plus tekn
 
 Om ditt bröllop fortfarande saknar något inom ett av de områdena, berätta vad det är. Vi kan skicka vidare förfrågan till våra leverantörskontakter och säga om det går att lösa till ditt datum. Allt som tas fram på det sättet står angivet som sådant i offerten.
 
-## Riktiga bröllop vi har levererat till
+## Miljöerna som uthyrning till bröllop måste klara
 
 ![En bröllopsceremoni på stranden med en röd matta i mittgången och en blomsterbåge.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-En röd matta i mittgången och en blomsterbåge uppställda på en strand för en vigsel utomhus.
+Illustrationsbild av en mittgång vid en vigsel på stranden, inte ett evenemang med Malaga Event Gear: utomhus måste PA:t och den trådlösa mikrofonen bära löftena genom vind och öppen luft.
 
 ![En elegant vigsellokal inomhus med vita blomsterarrangemang och ljuskronor.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
 
-En lokal inomhus förberedd för en vigsel, med ljudet på plats för löften och uppläsningar.
+Illustrationsbild av en vigsellokal inomhus, inte ett av våra bröllop. Vid en riktig bokning är ljudet inställt för löften och uppläsningar innan gästerna kommer.
 
 ![Ett bord på en bröllopsmottagning med rosa blommor och ljus.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
 
-Ett bord på en bröllopsmottagning som lyser under ljusslingor, med rosa blommor och lyktor.
+Illustrationsbild av ett bord på en bröllopsmottagning under ljusslingor, inte ett av våra evenemang: den del av kvällen där ljusslingorna och mikrofonen för talen tar över.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" deferMount={false} />

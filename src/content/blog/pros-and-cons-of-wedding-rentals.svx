@@ -96,15 +96,15 @@ A full production company is a real alternative most general wedding rental guid
 
 If damage protection or liability terms matter to how you weigh renting against buying or hiring, we do not publish a policy for either path. See our [protecting your wedding rental items](/blog/protecting-your-wedding-rental-items/) guide for exactly what MEG does and does not commit to on that front.
 
-## Real Weddings We've Delivered
+## What Rented Sound and Light Have to Handle
 
-![Wedding Pack sound and lighting equipment set up on the beach for an outdoor ceremony.](https://cdn.malagaeventgear.com/blog/1629/beach_wedding_setup.webp)
+![A beach wedding ceremonial setup with rows of chairs facing the ocean.](https://cdn.malagaeventgear.com/blog/1629/beach_wedding_setup.webp)
 
-A beach ceremony setup within the Wedding Pack's 80 guest tier, sound and lighting installed by our crew ahead of the vows.
+An illustrative beach ceremony, not a Malaga Event Gear event. The Wedding Pack covers up to 80 guests, and on a real booking our crew installs the sound and lighting ahead of the vows.
 
-![Wedding reception under warm LED string lighting, with the on site technician monitoring the sound system.](https://cdn.malagaeventgear.com/blog/1632/wedding_reception_decor.webp)
+![Elegant wedding reception decor under soft ambient lighting.](https://cdn.malagaeventgear.com/blog/1632/wedding_reception_decor.webp)
 
-A reception space under the Wedding Pack's warm LED lighting, with the on site technician adjusting sound as the evening moves from dinner to dancing.
+An illustrative reception space, not one of our weddings. On a real booking, the on site technician adjusts the sound as the evening moves from dinner to dancing.
 
 <div class="my-12 overflow-hidden w-full">
     <ImageMarquee images={getImagesForPackage('wedding', ['/1629/', '/1632/'])} speed="normal" direction="left" deferMount={false} />

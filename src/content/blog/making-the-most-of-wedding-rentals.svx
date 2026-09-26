@@ -85,19 +85,19 @@ The [Wedding Pack](/packages/wedding/) costs 650 euros, ex VAT, and includes:
 
 See exact, live pricing and the full breakdown on our [packages page](/packages/).
 
-## Real Weddings We've Delivered
+## The Run of Show, Setting by Setting
 
 ![Elegant indoor wedding ceremony hall with white floral arrangements and chandeliers.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
 
-An indoor ceremony hall ahead of the vows, the starting point of the run of show a technician plans the rest of the day around.
+An illustrative indoor ceremony hall, not a Malaga Event Gear event: the ceremony is the starting point of the run of show a technician plans the rest of the day around.
 
 ![A beautiful beach wedding ceremony setup with a red carpet aisle and floral arch.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-The aisle at the point of transition from ceremony to reception, where sound and lighting shift to the next part of the day.
+An illustrative ceremony aisle, not one of our weddings: the point of transition from ceremony to reception, where sound and lighting shift to the next part of the day.
 
 ![Wedding reception table with pink flowers and lights.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
 
-A reception in progress, the setting where speeches rotate through several speakers and the mic hand off actually happens.
+An illustrative reception table, not an event of ours: the setting where speeches rotate through several speakers and the mic hand off actually happens.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1635/', '/1636/', '/1628/'])} speed="normal" direction="left" deferMount={false} />

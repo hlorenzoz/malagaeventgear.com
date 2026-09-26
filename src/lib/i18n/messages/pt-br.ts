@@ -306,8 +306,8 @@ const t = {
 	},
 	// Gallery
 	gallery: {
-		titleHome: 'Nossos eventos em ação',
-		titlePackage: 'Eventos anteriores com o {pack}'
+		titleHome: 'Cenários e ideias para eventos',
+		titlePackage: '{pack}: cenários e ideias'
 	},
 	// Google Map / Profile
 	googleMap: {

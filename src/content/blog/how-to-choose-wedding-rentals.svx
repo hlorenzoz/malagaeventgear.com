@@ -78,15 +78,15 @@ Once you know which package fits, the next step is vetting the company you book 
 
 There is no fixed lead time, only availability, and dates and technicians fill up fastest in peak season. See our [booking timeline](/blog/timeline-for-booking-wedding-rentals/) guide for how to plan around that once your venue and date are set.
 
-## Real Weddings We've Delivered
+## Indoor or Outdoor: What the Venue Decides
 
 ![A vibrant red carpet aisle and floral arch set on a white sand beach for an outdoor wedding ceremony.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle.webp)
 
-An outdoor ceremony setup, the kind of venue that points a couple toward our outdoor wedding rental guide rather than the indoor one.
+An illustrative outdoor ceremony, not a Malaga Event Gear event: the kind of venue that points a couple toward our outdoor wedding rental guide rather than the indoor one.
 
 ![Elegant indoor wedding ceremony hall with white floral arrangements and chandeliers already in place.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall.webp)
 
-An indoor ceremony hall with its own chandeliers in place, the kind of room our indoor wedding rental guide covers in depth.
+An illustrative indoor ceremony hall with its own chandeliers, not one of our weddings: the kind of room our indoor wedding rental guide covers in depth.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1636/', '/1635/'])} speed="normal" direction="left" deferMount={false} />

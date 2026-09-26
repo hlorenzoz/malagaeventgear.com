@@ -72,15 +72,15 @@ Within Malaga capital and the rest of the Costa del Sol, Marbella, Mijas, Fuengi
 
 Here is the one question that has nothing to do with our pricing and that none of the general wedding cost guides raise for AV specifically: ask your venue whether it already has a house sound system. Some fincas, hotels and villas around Malaga own a basic PA built into the reception space, which can be enough for background music or a small ceremony with a handful of guests. It rarely comes with a technician, wedding sized lighting, or wireless microphones for speeches, so most couples still end up renting for the parts a house system cannot cover, but confirming what is already there before you request a quote from us or anyone else is a genuine, free step toward spending less.
 
-## Real Weddings We've Delivered
+## Sizing the Rental to the Wedding
 
 ![Wedding reception table glowing under string lights with pink flowers.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table.webp)
 
-An evening reception table set under string lights, the Wedding Pack's technician on hand to shift the sound from dinner to dancing.
+An illustrative evening reception table, not a Malaga Event Gear event. On a real Wedding Pack booking, the technician included in the pack shifts the sound from dinner to dancing.
 
 ![A beautiful beach wedding ceremony setup with a red carpet aisle and floral arch.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle.webp)
 
-A red carpet aisle set for a beach ceremony, sized and quoted around the actual guest count rather than a generic package.
+An illustrative beach ceremony aisle, not one of our weddings: whatever the setting, we size and quote around the actual guest count rather than a generic package.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding', ['/1628/', '/1636/'])} speed="normal" direction="left" deferMount={false} />

@@ -288,8 +288,8 @@ const t = {
 	},
 	// Gallery
 	gallery: {
-		titleHome: 'Onze evenementen in actie',
-		titlePackage: 'Eerdere evenementen met het {pack}'
+		titleHome: 'Evenementlocaties en ideeën',
+		titlePackage: '{pack}: locaties en ideeën'
 	},
 	// Google Map / Profile
 	googleMap: {

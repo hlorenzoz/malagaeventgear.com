@@ -21,7 +21,7 @@ Sök på "stage lighting for weddings" på engelska, så räknar de flesta guide
 -   [Ditt bröllop, moment för moment](#ditt-bröllop-moment-för-moment)
 -   [Ett band, en dj eller en scen för tal](#ett-band-en-dj-eller-en-scen-för-tal)
 -   [Wedding Pack, Eco Pack eller en separat offert](#wedding-pack-eco-pack-eller-en-separat-offert)
--   [Riktiga bröllop vi har levererat till](#riktiga-bröllop-vi-har-levererat-till)
+-   [Bröllopsmiljöerna som ljuset följer](#bröllopsmiljöerna-som-ljuset-följer)
 -   [Hur långt i förväg du ska boka](#hur-långt-i-förväg-du-ska-boka)
 -   [Slutsats](#slutsats)
 -   [Vanliga frågor](#vanliga-frågor)
@@ -71,9 +71,9 @@ Det ärliga svaret beror på vilken rad i tabellen ovan du behöver. [Wedding Pa
 
 ![Färgat ljus på väggarna på båda sidor om en formell middag, samma sorts accentljus som våra RGBW-spotlights och vårt kit för uplighting ger ett dansgolv eller en fond vid vigseln på ett bröllop.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-700x523.webp "En historisk lokal i Malaga förvandlad till ett särskilt evenemang med professionell ljud- och ljusutrustning.")
 
-## Riktiga bröllop vi har levererat till
+## Bröllopsmiljöerna som ljuset följer
 
-En titt på riktiga bröllopsbokningar i Malaga och längs Costa del Sol:
+Illustrationsbilder av bröllop, inte evenemang med Malaga Event Gear: miljöerna för vigsel, middag och mottagning som ljusmomenten ovan är planerade kring.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" />

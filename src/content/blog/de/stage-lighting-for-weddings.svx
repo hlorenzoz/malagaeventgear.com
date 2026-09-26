@@ -21,7 +21,7 @@ Wer auf Englisch nach "stage lighting for weddings" sucht, findet meist Ratgeber
 -   [Ihre Hochzeit, Moment für Moment](#ihre-hochzeit-moment-für-moment)
 -   [Eine Band, ein DJ oder eine Bühne für Reden](#eine-band-ein-dj-oder-eine-bühne-für-reden)
 -   [Wedding Pack, Eco Pack oder ein eigenes Angebot](#wedding-pack-eco-pack-oder-ein-eigenes-angebot)
--   [Echte Hochzeiten, die wir ausgestattet haben](#echte-hochzeiten-die-wir-ausgestattet-haben)
+-   [Hochzeitsorte, an denen sich das Licht orientiert](#hochzeitsorte-an-denen-sich-das-licht-orientiert)
 -   [Wie früh Sie buchen sollten](#wie-früh-sie-buchen-sollten)
 -   [Fazit](#fazit)
 -   [Häufige Fragen](#häufige-fragen)
@@ -71,9 +71,9 @@ Die ehrliche Antwort hängt davon ab, welche Zeile der Tabelle oben Sie brauchen
 
 ![Farbiges Wandlicht zu beiden Seiten einer festlichen Abendtafel, dieselbe Art von Akzentlicht, die unsere RGBW-Spots und unser Uplighting-Set auf eine Hochzeitstanzfläche oder eine Trauungskulisse bringen.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-700x523.webp "Ein historischer Veranstaltungsort in Malaga, mit professioneller Ton- und Lichttechnik für eine besondere Veranstaltung verwandelt.")
 
-## Echte Hochzeiten, die wir ausgestattet haben
+## Hochzeitsorte, an denen sich das Licht orientiert
 
-Ein Blick auf echte Hochzeitsbuchungen in Malaga und an der Costa del Sol:
+Symbolbilder von Hochzeiten, keine Veranstaltungen von Malaga Event Gear: die Orte für Trauung, Tafel und Empfang, auf die die oben beschriebenen Lichtmomente abgestimmt sind.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" />

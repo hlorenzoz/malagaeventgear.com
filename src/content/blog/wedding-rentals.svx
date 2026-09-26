@@ -69,19 +69,19 @@ We provide sound, lighting and microphones for the ceremony and reception, plus 
 
 If your wedding still has a gap in one of those areas, tell us what it is. We can pass the request on to our supplier contacts and tell you whether it can be covered on your date. Anything sourced that way is labelled as such on the quote.
 
-## Real Weddings We've Delivered
+## The Settings a Wedding Rental Has to Cover
 
 ![A beautiful beach wedding ceremony setup with a red carpet aisle and floral arch.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-A red carpet aisle and floral arch set up on a beach for an outdoor wedding ceremony.
+An illustrative beach ceremony aisle, not a Malaga Event Gear event: outdoors, the PA and wireless microphone have to carry the vows over wind and open air.
 
 ![Elegant indoor wedding ceremony hall with white floral arrangements and chandeliers.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
 
-An indoor hall set up for a wedding ceremony, with sound in place for vows and readings.
+An illustrative indoor ceremony hall, not one of our weddings. On a real booking, the sound is set for the vows and readings before the guests arrive.
 
 ![Wedding reception table with pink flowers and lights.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
 
-A wedding reception table glowing under fairy lights, with pink flowers and lanterns.
+An illustrative reception table under fairy lights, not an event of ours: the part of the evening where string lights and the speeches microphone take over.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" deferMount={false} />

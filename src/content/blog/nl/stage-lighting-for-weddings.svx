@@ -21,7 +21,7 @@ Zoek in het Engels op "stage lighting for weddings" en de meeste gidsen noemen u
 -   [Je bruiloft, moment voor moment](#je-bruiloft-moment-voor-moment)
 -   [Een band, een dj of een podium voor speeches](#een-band-een-dj-of-een-podium-voor-speeches)
 -   [Wedding Pack, Eco Pack of een aparte offerte](#wedding-pack-eco-pack-of-een-aparte-offerte)
--   [Echte bruiloften die we hebben verzorgd](#echte-bruiloften-die-we-hebben-verzorgd)
+-   [De bruiloftsplekken waar het licht op inspeelt](#de-bruiloftsplekken-waar-het-licht-op-inspeelt)
 -   [Hoe ver van tevoren je boekt](#hoe-ver-van-tevoren-je-boekt)
 -   [Conclusie](#conclusie)
 -   [Veelgestelde vragen](#veelgestelde-vragen)
@@ -71,9 +71,9 @@ Het eerlijke antwoord hangt af van welke rij van de tabel hierboven je nodig heb
 
 ![Gekleurd licht op de muren aan weerszijden van een formeel diner, dezelfde stijl accentverlichting die onze RGBW-spots en uplightingset naar de dansvloer of de achterwand van de ceremonie van een bruiloft brengen.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-700x523.webp "Een historische locatie in Malaga, voor een bijzonder evenement omgetoverd met professionele geluids- en lichtapparatuur.")
 
-## Echte bruiloften die we hebben verzorgd
+## De bruiloftsplekken waar het licht op inspeelt
 
-Een blik op echte bruiloften die bij ons zijn geboekt, in Malaga en aan de Costa del Sol:
+Illustratiefoto's van bruiloften, geen evenementen van Malaga Event Gear: de plekken voor de ceremonie, het diner en de receptie waar de lichtmomenten hierboven op zijn afgestemd.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" />

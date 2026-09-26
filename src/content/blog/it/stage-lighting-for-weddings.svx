@@ -21,7 +21,7 @@ Cerca in inglese "stage lighting for weddings" e la maggior parte delle guide el
 -   [Il tuo matrimonio, momento per momento](#il-tuo-matrimonio-momento-per-momento)
 -   [Una band, un DJ o un palco per i discorsi](#una-band-un-dj-o-un-palco-per-i-discorsi)
 -   [Wedding Pack, Eco Pack o preventivo separato](#wedding-pack-eco-pack-o-preventivo-separato)
--   [Matrimoni reali che abbiamo allestito](#matrimoni-reali-che-abbiamo-allestito)
+-   [Gli ambienti del matrimonio che le luci seguono](#gli-ambienti-del-matrimonio-che-le-luci-seguono)
 -   [Con quanto anticipo prenotare](#con-quanto-anticipo-prenotare)
 -   [Conclusione](#conclusione)
 -   [Domande frequenti](#domande-frequenti)
@@ -71,9 +71,9 @@ La risposta onesta dipende da quale riga della tabella qui sopra ti serve. Il [W
 
 ![Luce colorata sulle pareti ai lati di una cena formale, lo stesso stile di luce d'accento che i nostri fari RGBW e il kit di uplighting portano alla pista da ballo o al fondale della cerimonia di un matrimonio.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-700x523.webp "Una location storica di Malaga trasformata per un evento speciale con attrezzature professionali audio e luci.")
 
-## Matrimoni reali che abbiamo allestito
+## Gli ambienti del matrimonio che le luci seguono
 
-Uno sguardo a matrimoni reali prenotati a Malaga e sulla Costa del Sol:
+Foto illustrative di matrimoni, non di eventi di Malaga Event Gear: gli ambienti della cerimonia, dei tavoli e del ricevimento attorno a cui sono pensati i momenti di luce descritti sopra.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" />

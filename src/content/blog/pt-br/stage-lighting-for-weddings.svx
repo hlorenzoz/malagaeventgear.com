@@ -21,7 +21,7 @@ Pesquise "stage lighting for weddings" em inglês e a maioria dos guias lista up
 -   [Seu casamento, momento a momento](#seu-casamento-momento-a-momento)
 -   [Uma banda, um DJ ou um palco para os discursos](#uma-banda-um-dj-ou-um-palco-para-os-discursos)
 -   [Wedding Pack, Eco Pack ou orçamento separado](#wedding-pack-eco-pack-ou-orçamento-separado)
--   [Casamentos reais que já atendemos](#casamentos-reais-que-já-atendemos)
+-   [Os cenários de casamento que a iluminação acompanha](#os-cenários-de-casamento-que-a-iluminação-acompanha)
 -   [Com quanta antecedência reservar](#com-quanta-antecedência-reservar)
 -   [Conclusão](#conclusão)
 -   [Perguntas frequentes](#perguntas-frequentes)
@@ -71,9 +71,9 @@ A resposta honesta depende de qual linha da tabela acima você precisa. O [Weddi
 
 ![Luz colorida nas paredes dos dois lados de um jantar formal, o mesmo estilo de iluminação de destaque que os nossos spots RGBW e o kit de uplighting levam para a pista de dança ou o fundo da cerimônia de um casamento.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-700x523.webp "Um local histórico em Málaga transformado para um evento especial com equipamentos profissionais de som e iluminação.")
 
-## Casamentos reais que já atendemos
+## Os cenários de casamento que a iluminação acompanha
 
-Um olhar sobre casamentos reais reservados em Málaga e na Costa del Sol:
+Fotos ilustrativas de casamentos, não de eventos da Malaga Event Gear: os cenários da cerimônia, das mesas e da recepção em torno dos quais os momentos de iluminação descritos acima são planejados.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" />

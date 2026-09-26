@@ -60,19 +60,19 @@ Forniamo audio, luci e microfoni per la cerimonia e il ricevimento, più il tecn
 
 Se al tuo matrimonio manca ancora qualcosa in uno di questi ambiti, dicci di cosa si tratta. Possiamo girare la richiesta ai nostri contatti tra i fornitori e dirti se può essere coperta per la tua data. Tutto ciò che viene procurato in questo modo è indicato come tale nel preventivo.
 
-## Matrimoni reali che abbiamo allestito
+## Gli ambienti che il noleggio per matrimoni deve coprire
 
 ![Una cerimonia di matrimonio in spiaggia con una passerella di tappeto rosso e un arco floreale.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
 
-Una passerella di tappeto rosso e un arco floreale allestiti su una spiaggia per una cerimonia di matrimonio all'aperto.
+Foto illustrativa di un corridoio per la cerimonia in spiaggia, non di un evento di Malaga Event Gear: all'aperto, l'impianto e il microfono wireless devono portare le promesse oltre il vento e lo spazio aperto.
 
 ![Un'elegante sala per cerimonie di matrimonio al chiuso, con composizioni di fiori bianchi e lampadari.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
 
-Una sala al chiuso preparata per una cerimonia di matrimonio, con l'impianto audio pronto per le promesse e le letture.
+Foto illustrativa di una sala per la cerimonia al chiuso, non di uno dei nostri matrimoni. Con una prenotazione reale, l'audio è regolato per le promesse e le letture prima che arrivino gli ospiti.
 
 ![Un tavolo del ricevimento di nozze con fiori rosa e luci.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
 
-Un tavolo del ricevimento di nozze che brilla sotto le lucine, con fiori rosa e lanterne.
+Foto illustrativa di un tavolo del ricevimento sotto le lucine, non di un nostro evento: il momento della serata in cui entrano in scena le lucine e il microfono per i discorsi.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" deferMount={false} />

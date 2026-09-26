@@ -21,7 +21,7 @@ sourceUpdated: "2026-09-25"
 -   [您的婚礼，一个时刻接一个时刻](#您的婚礼一个时刻接一个时刻)
 -   [乐队、DJ台或致辞舞台](#乐队dj台或致辞舞台)
 -   [Wedding Pack、Eco Pack还是单独报价](#wedding-packeco-pack还是单独报价)
--   [我们服务过的真实婚礼](#我们服务过的真实婚礼)
+-   [灯光所围绕的婚礼场景](#灯光所围绕的婚礼场景)
 -   [需要提前多久预订](#需要提前多久预订)
 -   [总结](#总结)
 -   [常见问题](#常见问题)
@@ -71,9 +71,9 @@ Eurolite LED KLS-200灯排是一款4头、脚踏开关控制的彩色泛光灯�
 
 ![正式晚宴两侧的彩色洗墙灯光，与我们的RGBW聚光灯和地面投光灯套件为婚礼舞池或仪式背景带来的重点照明风格相同。](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-700x523.webp "马拉加一处历史场地，借助专业音响和灯光设备改造成一场特别活动的会场。")
 
-## 我们服务过的真实婚礼
+## 灯光所围绕的婚礼场景
 
-看看我们在马拉加和太阳海岸承接过的真实婚礼：
+婚礼示意图片，并非Malaga Event Gear的活动：展示的是仪式、餐桌和婚宴等场景，上文的各个灯光时刻正是围绕这些场景来规划的。
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('wedding')} speed="normal" direction="left" />
