@@ -656,6 +656,15 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
 
 ### 5. Creación y Actualización de Contenido (Blog / SEO)
 - **Idiomas:** todo contenido que se crea o actualiza se hace en los 13 idiomas soportados, en el mismo cambio (ver [Reglas mandatorias de idioma](#reglas-mandatorias-de-idioma)). La keyword de cada idioma sale de `content-map.ts`, nunca de traducir la keyword inglesa. Las reseñas nunca se traducen: se citan en su idioma original en todas las páginas (ver [Internacionalización (i18n)](#internacionalización-i18n)).
+- **"Malaga, Spain" (decisión del usuario, 2026-09-26):** en cada post y página, la primera
+  mención geográfica de Málaga en el cuerpo dice el país ("Malaga, Spain", y en cada idioma su
+  forma: "Malaga, Spanien", "马拉加（西班牙）"...). Después va "Malaga" a secas: repetirlo en
+  cada mención suena forzado y se acerca al relleno de keywords. La meta description nombra el
+  país cuando entra en 160 caracteres. Los títulos no se fuerzan. "Malaga Event Gear" es la
+  marca y no cuenta como mención. Por qué: en GSC (export del 2026-09-23) las búsquedas con
+  "spain" son el 27% de las impresiones, más que las que llevan "malaga", el público es sobre
+  todo extranjero, y "Malaga" también es un suburbio de Perth y una ciudad de Colombia. Aclarar
+  el país no es un cambio de contenido: no mueve `updatedDate` (regla 11).
 - **Posicionamiento (2026-09-25):** MEG vende soluciones integrales para eventos, no solo el
   equipo que tiene. Todo contenido distingue el inventario propio de lo que MEG consigue con
   proveedores, y lo que no está en el inventario se escribe como "no está en nuestro inventario

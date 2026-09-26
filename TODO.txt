@@ -237,6 +237,30 @@ real es ~93; la intermitencia NO_LCP/93 entre corridas es varianza del laborator
 Writeup completo para agentes: docs/home-no-lcp-investigation.md
 
 
+-- ❌ "Malaga, Spain" en lo ya traducido (anotado 2026-09-26)
+
+Decisión del usuario del 2026-09-26, regla en CLAUDE.md §5 ("Malaga, Spain"): la primera mención
+geográfica de Málaga en el cuerpo nombra el país, y la meta description también cuando entra en
+160 caracteres. Los 66 posts ingleses que faltan traducir se ajustan antes de su turno de
+traducción (en curso el 2026-09-26), así se traducen una sola vez. Queda la pasada sobre lo que
+YA está en los 13 idiomas, cada idioma con su forma ("Malaga, Spanien", "马拉加（西班牙）"):
+- Los 12 posts traducidos (inglés + 12 traducciones cada uno): event-technology-service,
+  audiovisual-equipment-rental-service, headset-lavalier-microphone-rental, stage-lighting-rental,
+  stage-uplighting, stage-lighting-for-weddings, smoke-machine-rental, wedding-rentals,
+  unique-wedding-ceremony-rentals, wedding-rentals-online, wedding-rentals-near-me,
+  tips-for-reducing-wedding-rental-costs.
+- Las páginas: seo.description y primera mención del cuerpo en src/routes/(public)/**/i18n/*.ts
+  (home, about-us, equipment, packages, contact, faq, meet-the-team). Las legales y el sitemap
+  HTML no hace falta.
+- Paquetes: seo y landing en packages.ts y src/lib/i18n/data/<locale>.ts, si hay mención de
+  Málaga que no diga el país.
+- Sin bumpear fechas: aclarar el país no es un cambio de contenido (regla 11).
+De paso, dos detalles previos que encontró el traductor del post 12:
+- src/lib/i18n/data/fr.ts e it.ts dicen "Malaga capitale" (ambiguo, se lee como capital de
+  país). Debe ser la ciudad ("la ville de Malaga", "la città di Malaga").
+- En italiano el sitio mezcla "finca" (invariable, lo normativo) y "fincas" (it/data y
+  it/unique-wedding-ceremony-rentals.svx). Unificar en "finca".
+
 
 -- ✅ PRIMERO: textos de las imágenes de la galería traducidos y cargados según el idioma (anotado y HECHO 2026-09-25)
 
