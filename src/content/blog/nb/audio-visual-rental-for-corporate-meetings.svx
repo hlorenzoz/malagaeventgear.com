@@ -3,7 +3,7 @@ title: "Møteteknikk i Malaga, Spania"
 description: "Møteteknikk i Malaga, Spania: en svanehalsmikrofon og en skjerm til styrerommet, tilpasset styremøtet eller kundemøtet ditt."
 excerpt: "Møteteknikk i Malaga, Spania: en svanehalsmikrofon og en skjerm til styrerommet, tilpasset styremøtet eller kundemøtet ditt."
 publishDate: "2026-09-26"
-sourceUpdated: "2026-09-26"
+sourceUpdated: "2026-09-27"
 ---
 
 <script>
@@ -70,9 +70,9 @@ Et lydanlegg satt opp til Colegio Oficial de Gestores Administrativos de Malaga.
 
 Et lydanlegg på Hotel Alfonso XIII i Sevilla.
 
-![MICE-oppsett hos en Volvo-forhandler i Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
+![HK Audio-lydsystem Malaga Event Gear leverte hos en Volvo-forhandler i Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
 
-En skjerm og et lydanlegg til et bedriftsmøte i Malaga.
+HK Audio-høyttalerne og svanehalsmikrofonene vi leverte til en presentasjon i Malaga.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1284/', '/1276/', '/1267/'])} speed="normal" direction="left" deferMount={false} />

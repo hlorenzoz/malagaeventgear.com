@@ -171,7 +171,7 @@ export const galleryImages: GalleryImage[] = [
 	},
 	{
 		src: 'https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-scaled-600x448.webp',
-		alt: 'Volvo corporate event MICE AV setup',
+		alt: 'Sound system for a presentation at a Volvo dealership in Malaga',
 		category: 'corporate'
 	},
 	{

@@ -267,7 +267,7 @@ export default {
 		'https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp': 'Som e iluminação no palco em um evento MICE',
 		'https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled-600x448.webp': 'Aluguel de sistema de som para um congresso de grande porte no Hotel Alfonso XIII, Sevilha',
 		'https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-scaled-600x448.webp': 'Montagem de palco para um congresso no Hotel Alfonso XIII, Sevilha',
-		'https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-scaled-600x448.webp': 'Montagem audiovisual para um evento corporativo MICE da Volvo',
+		'https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-scaled-600x448.webp': 'Sistema de som para uma apresentação em uma concessionária Volvo em Málaga',
 		'https://cdn.malagaeventgear.com/blog/1261/methacrylate_lectern_outdoor_event-600x448.webp': 'Púlpito de metacrilato em um evento ao ar livre',
 		'https://cdn.malagaeventgear.com/blog/1292/malaga_event_lighting_display_projector_sound_rental_3-scaled-600x448.webp': 'Aluguel de tela profissional, projetor e sistema de som',
 		'https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled-600x448.webp': 'Impressionante instalação de iluminação e som para um evento',

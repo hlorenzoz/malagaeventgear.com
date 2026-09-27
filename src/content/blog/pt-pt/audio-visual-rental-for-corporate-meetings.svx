@@ -3,7 +3,7 @@ title: "O que é preciso de audiovisual numa reunião de empresa"
 description: "O que é preciso de audiovisual numa reunião de empresa em Málaga, Espanha: um microfone de pescoço de ganso e um ecrã para a sala de reuniões."
 excerpt: "O que é preciso de audiovisual numa reunião de empresa em Málaga, Espanha: um microfone de pescoço de ganso e um ecrã para a sala de reuniões."
 publishDate: "2026-09-26"
-sourceUpdated: "2026-09-26"
+sourceUpdated: "2026-09-27"
 ---
 
 <script>
@@ -70,9 +70,9 @@ Um sistema de som montado para o Colegio Oficial de Gestores Administrativos de 
 
 Um sistema de som no Hotel Alfonso XIII, em Sevilha.
 
-![Montagem MICE num concessionário Volvo em Málaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
+![Sistema de som HK Audio que a Malaga Event Gear forneceu num concessionário Volvo em Málaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
 
-Um ecrã e um sistema de som para uma reunião corporativa em Málaga.
+As colunas HK Audio e os microfones de pescoço de ganso que fornecemos para uma apresentação em Málaga.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1284/', '/1276/', '/1267/'])} speed="normal" direction="left" deferMount={false} />

@@ -3,7 +3,7 @@ title: "AV-uthyrning för företagsmöten i Malaga, Spanien"
 description: "AV-uthyrning för företagsmöten i Malaga, Spanien: en gåshalsmikrofon och en skärm för styrelserummet, dimensionerade för ditt styrelsemöte eller kundmöte."
 excerpt: "AV-uthyrning för företagsmöten i Malaga, Spanien: en gåshalsmikrofon och en skärm för styrelserummet, dimensionerade för ditt styrelsemöte eller kundmöte."
 publishDate: "2026-09-26"
-sourceUpdated: "2026-09-26"
+sourceUpdated: "2026-09-27"
 ---
 
 <script>
@@ -70,9 +70,9 @@ Ett ljudsystem uppsatt för Colegio Oficial de Gestores Administrativos de Malag
 
 Ett ljudsystem på Hotel Alfonso XIII i Sevilla.
 
-![MICE-uppsättning hos en Volvo-återförsäljare i Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
+![HK Audio-ljudsystem som Malaga Event Gear levererade hos en Volvo-återförsäljare i Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
 
-En duk och ett ljudsystem för ett företagsmöte i Malaga.
+HK Audio-högtalarna och gåshalsmikrofonerna vi levererade till en presentation i Malaga.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1284/', '/1276/', '/1267/'])} speed="normal" direction="left" deferMount={false} />

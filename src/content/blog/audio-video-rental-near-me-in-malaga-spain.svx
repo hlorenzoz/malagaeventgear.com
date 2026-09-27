@@ -4,7 +4,7 @@ description: "Audio video rental near me in Malaga, Spain: a projector, screen a
 author: Hector Luis Lorenzo
 slug: audio-video-rental-near-me-in-malaga-spain
 publishDate: "2025-12-13"
-updatedDate: "2026-09-26"
+updatedDate: "2026-09-27"
 excerpt: "Audio video rental near me in Malaga, Spain: a projector, screen and sound system sized to your room, delivered across the Costa del Sol. Get a quote today."
 coverImage: https://cdn.malagaeventgear.com/blog/1289/malaga_event_lighting_display_projector_sound_rental_1-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
@@ -43,7 +43,7 @@ Malaga Event Gear provides audio video rental near you in Malaga and the wider C
 
 -   Our [Product Presentation Pack](/packages/product-presentation/) covers a 5000 lumen projector, a screen, PA sound and a wireless microphone.
 
--   Our [Basic MICE Pack](/packages/basic-mice/) covers a 3000-lumen projector and 2x2m screen for a smaller meeting, up to 40 guests.
+-   Our [Basic MICE Pack](/packages/basic-mice/) covers a 3000 lumen projector and 2x2m screen for a smaller meeting, up to 40 guests.
 
 -   Our [MICE Pack](/packages/mice/) covers a 60 inch LED display for a larger conference, up to 120 guests, with a technician included.
 
@@ -53,7 +53,7 @@ Malaga Event Gear provides audio video rental near you in Malaga and the wider C
 
 ## Which Screen or Projector Fits Your Room
 
-A 2x2m screen with a 3000-lumen projector, on the [Basic MICE Pack](/packages/basic-mice/), suits a smaller meeting room up to 40 guests. A 60 inch LED display, on the [MICE Pack](/packages/mice/), suits a larger conference room without a projector throw distance to plan around, up to 120 guests. For a brighter or larger room, the [Product Presentation Pack](/packages/product-presentation/)'s 5000 lumen projector stays legible even in a lit room, which is why it is also our pick for a product launch or dealership showcase.
+A 2x2m screen with a 3000 lumen projector, on the [Basic MICE Pack](/packages/basic-mice/), suits a smaller meeting room up to 40 guests. A 60 inch LED display, on the [MICE Pack](/packages/mice/), suits a larger conference room without a projector throw distance to plan around, up to 120 guests. For a brighter or larger room, the [Product Presentation Pack](/packages/product-presentation/)'s 5000 lumen projector stays legible even in a lit room, which is why it is also our pick for a product launch or dealership showcase.
 
 ## Connecting Your Own Laptop
 
@@ -77,9 +77,9 @@ A professional audiovisual setup in place for a congress in Malaga, featuring a 
 
 A PA sound system set up at Hotel Alfonso XIII in Sevilla, part of the wider service area we cover.
 
-![Mice event setup at a Volvo dealership in Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
+![HK Audio sound system Malaga Event Gear supplied at a Volvo dealership in Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
 
-A screen and sound setup for a dealership showcase in Malaga.
+The sound system we supplied for a presentation at a Volvo dealership in Malaga.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1282/', '/1276/', '/1267/'])} speed="normal" direction="left" deferMount={false} />
@@ -103,7 +103,7 @@ They cover different parts of our catalog. [Audio visual hire near me](/blog/aud
 
 ### What size screen or projector do I need?
 
-For a smaller meeting room up to 40 guests, the [Basic MICE Pack](/packages/basic-mice/)'s 2x2m screen and 3000-lumen projector work well. For a larger conference room up to 120 guests, the [MICE Pack](/packages/mice/)'s 60 inch LED display avoids a long projector throw distance. See [Which Screen or Projector Fits Your Room](#which-screen-or-projector-fits-your-room) above.
+For a smaller meeting room up to 40 guests, the [Basic MICE Pack](/packages/basic-mice/)'s 2x2m screen and 3000 lumen projector work well. For a larger conference room up to 120 guests, the [MICE Pack](/packages/mice/)'s 60 inch LED display avoids a long projector throw distance. See [Which Screen or Projector Fits Your Room](#which-screen-or-projector-fits-your-room) above.
 
 ### Can I connect my own laptop to the projector or screen?
 

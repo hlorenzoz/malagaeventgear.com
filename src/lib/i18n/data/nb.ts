@@ -266,7 +266,7 @@ export default {
 		'https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp': 'Lyd og lys på scenen under et MICE-arrangement',
 		'https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled-600x448.webp': 'Lydanlegg til leie for en stor kongress på Hotel Alfonso XIII, Sevilla',
 		'https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-scaled-600x448.webp': 'Sceneoppsett til en kongress på Hotel Alfonso XIII, Sevilla',
-		'https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-scaled-600x448.webp': 'AV-oppsett til et MICE-bedriftsarrangement for Volvo',
+		'https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-scaled-600x448.webp': 'Lydanlegg til en presentasjon hos en Volvo-forhandler i Malaga',
 		'https://cdn.malagaeventgear.com/blog/1261/methacrylate_lectern_outdoor_event-600x448.webp': 'Talerstol i akryl under et utendørs arrangement',
 		'https://cdn.malagaeventgear.com/blog/1292/malaga_event_lighting_display_projector_sound_rental_3-scaled-600x448.webp': 'Profesjonell skjerm, projektor og lydanlegg til leie',
 		'https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled-600x448.webp': 'Imponerende installasjon av lys og lyd til et arrangement',

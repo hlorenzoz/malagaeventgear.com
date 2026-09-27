@@ -267,7 +267,7 @@ export default {
 		'https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp': 'Ton und Licht auf der Bühne bei einer MICE-Veranstaltung',
 		'https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled-600x448.webp': 'Beschallungsanlage zur Miete für einen großen Kongress im Hotel Alfonso XIII, Sevilla',
 		'https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-scaled-600x448.webp': 'Bühnenaufbau für einen Kongress im Hotel Alfonso XIII, Sevilla',
-		'https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-scaled-600x448.webp': 'AV-Aufbau für eine MICE-Firmenveranstaltung von Volvo',
+		'https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-scaled-600x448.webp': 'Tonanlage für eine Präsentation in einem Volvo-Autohaus in Malaga',
 		'https://cdn.malagaeventgear.com/blog/1261/methacrylate_lectern_outdoor_event-600x448.webp': 'Rednerpult aus Methacrylat bei einer Veranstaltung im Freien',
 		'https://cdn.malagaeventgear.com/blog/1292/malaga_event_lighting_display_projector_sound_rental_3-scaled-600x448.webp': 'Professionelles Display, Projektor und Tonanlage zur Miete',
 		'https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled-600x448.webp': 'Beeindruckende Installation mit Licht und Ton für eine Veranstaltung',

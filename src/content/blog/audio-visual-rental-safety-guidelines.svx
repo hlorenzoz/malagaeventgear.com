@@ -4,7 +4,7 @@ description: "Audio visual rental safety guidelines in Malaga, Spain: technician
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-safety-guidelines
 publishDate: "2026-08-05"
-updatedDate: "2026-09-26"
+updatedDate: "2026-09-27"
 excerpt: "The honest AV specific version of safety guidelines: who is on site to react, how our crew places speaker and microphone stands, how we think about electrical load, and the one thing our own crew genuinely does not do, overhead rigging."
 coverImage: https://cdn.malagaeventgear.com/blog/1288/malaga_congress_av_rental_setup-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
@@ -77,7 +77,7 @@ The speakers, microphones and lighting fixtures we deliver go on floor stands, d
 -   **Out of primary walkways.** Stands go to the side of where guests will actually move, not across the natural line between a dance floor, a bar, or the exit.
 -   **Away from doorways.** A stand blocking a door is both a trip risk and a problem if the room needs to empty quickly.
 
-The photo further down this page, from a Volvo dealership product presentation, shows this in practice: an HK Audio speaker on its own tripod, positioned to the side of the guest seating area rather than in front of it.
+The photo further down this page, from a Volvo dealership presentation, shows this in practice: an HK Audio speaker on its own tripod, positioned to the side of the guest seating area rather than in front of it.
 
 ## Electrical Load and Circuit Safety
 
@@ -101,9 +101,9 @@ In practice this covers the overwhelming majority of the weddings, corporate eve
 
 ## Real Setups We've Delivered
 
-![An HK Audio speaker on its own floor tripod, positioned to the side of the guest stool seating at a Volvo dealership product presentation in Malaga, out of the main walking path in front of the branded reception desk.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-1024x765.webp)
+![An HK Audio speaker on its own floor tripod, positioned to the side of the guest stool seating at a Volvo dealership presentation in Malaga, out of the main walking path in front of the venue's branded panel table.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-1024x765.webp)
 
-A Volvo dealership product presentation delivered by Malaga Event Gear: the speaker stand sits to the side of the seating area rather than in front of it, and the display and podium banners are placed clear of the main walking path between the entrance and the seating.
+A Volvo dealership presentation where Malaga Event Gear supplied the sound system: the speaker stand sits to the side of the seating area rather than in front of it, out of the main walking path between the entrance and the seating.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1267/'])} speed="normal" direction="left" />
@@ -111,7 +111,7 @@ A Volvo dealership product presentation delivered by Malaga Event Gear: the spea
 
 > "We recently used Málaga Event Gear for our End of Season Party, and the service was outstanding. The sound and equipment were top quality, and we had a dedicated technician on-site the entire time to assist with everything we needed. Fantastic experience. Highly recommended."
 >
-> - Anna Wisser, 5-star Google review, December 2025
+> - Anna Wisser, 5 star Google review, December 2025
 
 ## How Far in Advance to Book
 

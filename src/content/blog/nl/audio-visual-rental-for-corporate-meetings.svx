@@ -3,7 +3,7 @@ title: "Audiovisuele verhuur voor bedrijfsvergaderingen in Malaga"
 description: "Audiovisuele verhuur voor bedrijfsvergaderingen in Malaga, Spanje: zwanenhalsmicrofoon en scherm voor de bestuurskamer, afgestemd op je vergadering."
 excerpt: "Audiovisuele verhuur voor bedrijfsvergaderingen in Malaga, Spanje: zwanenhalsmicrofoon en scherm voor de bestuurskamer, afgestemd op je vergadering."
 publishDate: "2026-09-26"
-sourceUpdated: "2026-09-26"
+sourceUpdated: "2026-09-27"
 ---
 
 <script>
@@ -70,9 +70,9 @@ Een geluidsinstallatie opgebouwd voor het Colegio Oficial de Gestores Administra
 
 Een geluidsinstallatie in Hotel Alfonso XIII in Sevilla.
 
-![MICE-opstelling bij een Volvo-dealer in Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
+![HK Audio-geluidssysteem dat Malaga Event Gear leverde bij een Volvo-dealer in Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
 
-Een scherm en een geluidsinstallatie voor een bedrijfsvergadering in Malaga.
+De HK Audio-speakers en zwanenhalsmicrofoons die we leverden voor een presentatie in Malaga.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1284/', '/1276/', '/1267/'])} speed="normal" direction="left" deferMount={false} />

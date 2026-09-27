@@ -3,7 +3,7 @@ title: "Attrezzatura audiovisiva per riunioni aziendali a Malaga"
 description: "Attrezzatura audiovisiva per riunioni aziendali a Malaga, in Spagna: un microfono a collo d'oca e uno schermo per la sala riunioni della tua azienda."
 excerpt: "Attrezzatura audiovisiva per riunioni aziendali a Malaga, in Spagna: un microfono a collo d'oca e uno schermo per la sala riunioni della tua azienda."
 publishDate: "2026-09-26"
-sourceUpdated: "2026-09-26"
+sourceUpdated: "2026-09-27"
 ---
 
 <script>
@@ -70,9 +70,9 @@ Un impianto audio allestito per il Colegio Oficial de Gestores Administrativos d
 
 Un impianto audio allestito all'Hotel Alfonso XIII a Siviglia.
 
-![Allestimento MICE presso una concessionaria Volvo a Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
+![Impianto audio HK Audio fornito da Malaga Event Gear presso una concessionaria Volvo a Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
 
-Uno schermo e un impianto audio per una riunione aziendale a Malaga.
+Le casse HK Audio e i microfoni a collo d'oca che abbiamo fornito per una presentazione a Malaga.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1284/', '/1276/', '/1267/'])} speed="normal" direction="left" deferMount={false} />

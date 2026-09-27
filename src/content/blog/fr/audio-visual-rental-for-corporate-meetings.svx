@@ -3,7 +3,7 @@ title: "Équipement audiovisuel pour une réunion d'entreprise à Malaga"
 description: "Équipement audiovisuel pour une réunion d'entreprise à Malaga, en Espagne : un micro col de cygne et un écran pour la salle de réunion, adaptés à votre réunion."
 excerpt: "Équipement audiovisuel pour une réunion d'entreprise à Malaga, en Espagne : un micro col de cygne et un écran pour la salle de réunion, adaptés à votre réunion."
 publishDate: "2026-09-26"
-sourceUpdated: "2026-09-26"
+sourceUpdated: "2026-09-27"
 ---
 
 <script>
@@ -70,9 +70,9 @@ Une sonorisation installée pour le Colegio Oficial de Gestores Administrativos 
 
 Une sonorisation installée à l'Hotel Alfonso XIII à Séville.
 
-![Installation MICE dans une concession Volvo à Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
+![Système de sonorisation HK Audio fourni par Malaga Event Gear dans une concession Volvo à Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
 
-Un écran et une sonorisation pour une réunion d'entreprise à Malaga.
+Les enceintes HK Audio et les microphones col de cygne que nous avons fournis pour une présentation à Malaga.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1284/', '/1276/', '/1267/'])} speed="normal" direction="left" deferMount={false} />

@@ -595,6 +595,12 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
     premiación MEG suministró SOLO la iluminación y el sonido. El confeti y los fuegos
     artificiales que se ven en las fotos no fueron de MEG. Ningún texto, alt ni pie de foto
     (posts, traducciones, `scripts/migrate-wp/manifest.json`) puede dar a entender lo contrario.
+  - **Evento en el concesionario Volvo (Vypsa) de Málaga (confirmado 2026-09-27 por el negocio)**:
+    MEG suministró SOLO el sistema de audio (cajas HK Audio en trípodes y micrófonos de cuello de
+    ganso). No hubo pantalla ni proyector. Las fotos 1266 y 1267 muestran las cajas, la mesa de
+    ponentes con los micrófonos y una tarima. Ningún texto, alt ni pie de foto puede hablar de
+    pantallas, proyector o "screen and sound setup" en ese evento, ni usarlo como ejemplo de
+    proyección.
 
 ## Honestidad (sobreescribe cualquier regla anterior)
 
