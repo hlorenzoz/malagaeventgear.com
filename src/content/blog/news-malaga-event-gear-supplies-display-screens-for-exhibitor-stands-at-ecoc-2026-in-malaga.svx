@@ -1,11 +1,11 @@
 ---
 title: "News: Malaga Event Gear Supplies the Display Screens for Exhibitor Stands at ECOC 2026 in Malaga"
-description: "ECOC 2026 runs from 20 to 24 September at FYCMA in Malaga, Spain. Malaga Event Gear supplied and installed the display screens on exhibitor stands."
+description: "ECOC 2026 ran from 20 to 24 September at FYCMA in Malaga, Spain. Malaga Event Gear supplied and installed the display screens on exhibitor stands."
 author: Hector Luis Lorenzo
 slug: news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga
 publishDate: "2026-09-22"
-updatedDate: "2026-09-23"
-excerpt: "The 52nd European Conference on Optical Communication opened at FYCMA on 20 September and runs until the 24th, bringing the largest optical communications exhibition in Europe to Malaga. Malaga Event Gear supplied and installed the display screens on exhibitor stands across the show floor, working inside the build up window alongside carpenters, riggers and graphics crews."
+updatedDate: "2026-09-27"
+excerpt: "The 52nd European Conference on Optical Communication opened at FYCMA on 20 September and ran until the 24th, bringing the largest optical communications exhibition in Europe to Malaga. Malaga Event Gear supplied and installed the display screens on exhibitor stands across the show floor, working inside the build up window alongside carpenters, riggers and graphics crews."
 coverImage: https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4.webp
 categories: [News, Events, Corporate & Enterprise]
 tags: []
@@ -20,7 +20,7 @@ targetPage: "/"
 	import { ecoc2026GalleryImages } from '$lib/data/gallery';
 </script>
 
-The **52nd European Conference on Optical Communication**, [ECOC 2026](https://www.ecoc2026.org/ECOC2026), opened at **FYCMA** in Malaga, Spain, on **20 September** and runs until **24 September**. ECOC is the largest and most prestigious optical communications event in Europe and the second largest in the world, and the **ECOC Exhibition** that runs alongside the conference is the biggest optical communications trade show on the continent.
+The **52nd European Conference on Optical Communication**, [ECOC 2026](https://www.ecoc2026.org/ECOC2026), opened at **FYCMA** in Malaga, Spain, on **20 September** and ran until **24 September**. ECOC is the largest and most prestigious optical communications event in Europe and the second largest in the world, and the **ECOC Exhibition** that runs alongside the conference is the biggest optical communications trade show on the continent.
 
 [**Malaga Event Gear (MEG)**](/) supplied and installed the **display screens on exhibitor stands** across the show floor.
 
@@ -40,7 +40,7 @@ The venue is **FYCMA, Palacio de Ferias y Congresos de Malaga**, at Av. de Jose 
 
 This is the part worth being precise about, because the two jobs share a word and almost nothing else.
 
-A conference room setup has one client, one room and one schedule. You load in, you rig, you sound check, and the first session starts. The technical programme at ECOC, with its plenaries and parallel symposia, is run by the congress technical team on exactly that model.
+A conference room setup has one client, one room and one schedule. You load in, you set up, you sound check, and the first session starts. The technical programme at ECOC, with its plenaries and parallel symposia, is run by the congress technical team on exactly that model.
 
 An exhibition hall is a different animal. Every stand belongs to a different company, was designed by a different agency and is being built by a different contractor, all at the same time, in the same hall, in the same few days. Five practical consequences follow:
 
@@ -88,6 +88,8 @@ The pattern behind all of them is the same: international organisers arriving in
 ## Exhibiting at FYCMA? Talk to Us Early
 
 If you are taking a stand at a congress in Malaga, the single most useful thing you can do is tell your AV supplier what your stand is made of before it is built. Panel type, wall dimensions, where the power drop lands and whether the designer left a cable route. That five minute conversation is what separates a clean install from an improvised one on the morning the doors open.
+
+A congress that draws delegates and exhibitors from across Europe, North America and Asia also has to house them. If your team or delegation needs rooms for a future congress in Malaga, our partner Top Group Express has years of experience arranging [group accommodation](https://topgroupexpress.com/en), working with the agencies, DMCs and companies that organize that travel.
 
 Malaga Event Gear has been supplying event equipment in Malaga since **1996**, with an English speaking technical team used to working with international clients. For multi day corporate events and congress work, our [MICE Pack](/packages/mice/) is the usual starting point, and stand screens can be quoted on their own.
 

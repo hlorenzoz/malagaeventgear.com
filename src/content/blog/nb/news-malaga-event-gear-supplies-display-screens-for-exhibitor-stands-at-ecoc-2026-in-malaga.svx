@@ -1,0 +1,87 @@
+---
+title: "Standskjermer ECOC 2026 Malaga: installert av MEG"
+description: "ECOC 2026 ble holdt fra 20. til 24. september på FYCMA i Malaga, Spania. Malaga Event Gear leverte og installerte standskjermene til utstillerne."
+excerpt: "Den 52. European Conference on Optical Communication åpnet på FYCMA 20. september og varte til den 24., og brakte dermed Europas største messe for optisk kommunikasjon til Malaga. Malaga Event Gear leverte og installerte displayskjermene på utstillernes stander over hele messegulvet, og jobbet innenfor oppsettvinduet sammen med snekkere, riggere og grafikkteam."
+publishDate: "2026-09-27"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { ecoc2026GalleryImages } from '$lib/data/gallery';
+</script>
+
+Den **52. European Conference on Optical Communication**, [ECOC 2026](https://www.ecoc2026.org/ECOC2026), åpnet på **FYCMA** i Malaga, Spania, den **20. september** og varte til **24. september**. ECOC er den største og mest prestisjetunge begivenheten innen optisk kommunikasjon i Europa og den nest største i verden, og **ECOC-utstillingen**, som går parallelt med konferansen, er den største fagmessen for optisk kommunikasjon på kontinentet.
+
+[**Malaga Event Gear (MEG)**](/) leverte og installerte **displayskjermene på utstillernes stander** over hele messegulvet.
+
+![Fem flate skjermer installert på rad på bakveggen av en utstillerstand på ECOC 2026-messen i Malaga, slått på og klare for signal under oppsettet.](https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-1536x1152.webp "Fem skjermer installert på rad av Malaga Event Gear på en utstillerstand på ECOC 2026, FYCMA.")
+
+![Tre veggmonterte skjermer på en utstillerstand på ECOC 2026, med pakkeesker og flightcases fortsatt på gulvet under installasjonen.](https://cdn.malagaeventgear.com/blog/3099/ecoc2026-malaga-spain-2-1536x1152.webp "Tre skjermer installert på én utstillerstand av Malaga Event Gear under oppsettet av ECOC 2026 på FYCMA.")
+
+![Én enkelt skjerm montert på en oransje standvegg på ECOC 2026-messen, med barkrakker og en resepsjonsdisk allerede på plass.](https://cdn.malagaeventgear.com/blog/3102/ecoc2026-malaga-spain-3-1536x1152.webp "Enkeltskjermløsning installert av Malaga Event Gear på ECOC 2026, FYCMA.")
+
+## Hva som brakte en kongress av denne størrelsen til Malaga
+
+ECOC flytter til en ny europeisk by hvert år, og 2026-utgaven ledes lokalt av **Iñigo Molina-Fernández** og **Robert Halir** ved **Universitetet i Malaga**, sammen med **Jose Capmany** og **Ivana Gasulla** ved **Det tekniske universitetet i Valencia**. Programmet omfatter plenumsøkter, kurs, inviterte foredrag, workshoper, symposier, en demosone og postersesjoner, fordelt over fem dager.
+
+Stedet er **FYCMA, Palacio de Ferias y Congresos de Malaga**, Av. de Jose Ortega y Gasset 201, i bydelen Cruz de Humilladero. Den ligger ni kilometer fra flyplassen i Malaga, noe som er en viktig del av forklaringen på hvorfor en kongress som trekker delegater fra hele Europa, Nord-Amerika og Asia i det hele tatt kan holdes her.
+
+## Skjermer på en messestand er ikke skjermer i et konferanserom
+
+Dette er poenget det er verdt å være presis på, for de to jobbene deler ett ord og nesten ingenting annet.
+
+Et konferanseromoppsett har én kunde, ett rom og én tidsplan. Du laster inn, setter opp, gjør lydsjekk, og den første økten begynner. Det tekniske programmet til ECOC, med sine plenumsøkter og parallelle symposier, drives av kongressens tekniske team etter akkurat den modellen.
+
+En messehall er et helt annet dyr. Hver stand tilhører et annet selskap, er designet av et annet byrå og bygges av en annen entreprenør, alt samtidig, i samme hall, i løpet av de samme få dagene. Fem praktiske konsekvenser følger av det:
+
+1. **Veggen er ikke gitt på forhånd.** Den ene standen er et leid modulært panelsystem, den neste er skreddersydd snekkerarbeid, den neste igjen er en trykt stoffram på en aluminiumsstruktur. Et skjermfeste som er riktig for den ene, er feil, og av og til usikkert, på en annen. Festet må velges stand for stand, og veggen må klare vekten.
+2. **Dere deler gulvet.** På bildene nedenfor ser du stiger, verktøybager, stablede paller og beskyttelsesduk som fortsatt ligger. Skjerminstallasjonen skjer midt i snekkerarbeid, rigging, elektrisk arbeid og påføring av grafikk, ikke etter.
+3. **Strøm og signal kommer sist, men må planlegges først.** Kabelføringen går inne i en struktur som allerede finnes når du kommer. Har ingen latt et trekkerør ligge bak panelet, lager du ikke et samme dag.
+4. **Fristen er dørene, ikke økten.** En konferanseskjerm må virke før sin økt. En utstillingsskjerm må virke før hallen åpner, for når først besøkende er på gulvet, kan du ikke ta frem en stige igjen.
+5. **Overleveringen skjer til noen som ikke er tekniker.** Personen som skal bruke den skjermen i fem dager, er en salgsingeniør med en bærbar datamaskin og en produktdemo, ikke en AV-operatør. Det må være opplagt å bruke, og det må fortsette å virke uten at du står ved siden av.
+
+![En ferdig utstillerstand på ECOC 2026, med en veggskjerm over resepsjonsdisken og ståbord klare for besøkende.](https://cdn.malagaeventgear.com/blog/3097/ecoc2026-malaga-spain-5-1536x1152.webp "Utstillerstand overlevert klar til messen, med skjermen installert av Malaga Event Gear på ECOC 2026.")
+
+![En skjerm montert under en overskrift for en teknologidemonstrasjon på en utstillerstand på ECOC 2026, med møbler fortsatt i beskyttelsesplast.](https://cdn.malagaeventgear.com/blog/3098/ecoc2026-malaga-spain-9-1536x1152.webp "Demonstrasjonsskjerm installert av Malaga Event Gear på en utstillerstand på ECOC 2026, FYCMA.")
+
+![To skjermer installert på tilstøtende standvegger på ECOC 2026, der den ene allerede viser et live instrumentgrensesnitt og den andre venter på sin kilde.](https://cdn.malagaeventgear.com/blog/3101/ecoc2026-malaga-spain-11-1536x1152.webp "Standskjermer som viser levende produktinnhold på ECOC 2026, installert av Malaga Event Gear på FYCMA.")
+
+## Å jobbe innenfor oppsettvinduet på FYCMA
+
+Alt du ser på disse bildene, er tatt under oppsettet, som er grunnen til at så mange skjermer viser Ingen signal, og så mye møbler fortsatt er pakket inn. Det er den normale tilstanden for en messehall i dagene før den åpner, og det er det eneste tidsvinduet en utstyrsleverandør får.
+
+For MEG ble oppdraget definert rundt nettopp det: levere til de riktige standnumrene, montere skjermen etter hva hver stand faktisk var bygget av, trekke strøm og signal ryddig, deretter slå på og la hver skjerm stå klar slik at utstilleren kunne koble til en bærbar datamaskin og komme i gang. Hver av de standene tilhører et selskap som har fløyet teamet sitt og produktdemoene sine til Malaga for en femdagersmesse. En skjerm som ikke er i drift når dørene åpner, er ikke en teknisk ulempe, det er en tapt messe.
+
+![Oppsett i messehallen på ECOC 2026, med en stige, verktøybager og stablede paller ved siden av en stand hvis skjerm allerede er montert.](https://cdn.malagaeventgear.com/blog/3103/ecoc2026-malaga-spain-12-1536x1152.webp "Oppsettvinduet på FYCMA, den eneste tilgangsperioden Malaga Event Gear hadde for å installere standskjermene til ECOC 2026.")
+
+![Utstillerteam setter i drift standene sine på ECOC 2026, med en storformatskjerm i gang og utstyrsrack som kables.](https://cdn.malagaeventgear.com/blog/3105/ecoc2026-malaga-spain-6-1536x1152.webp "Idriftsettelse på messegulvet på ECOC 2026 hos FYCMA, der Malaga Event Gear leverte og installerte skjermene til utstillerstandene.")
+
+![To utstillere kobler bærbare datamaskiner til standskjermene sine på ECOC 2026, mens hallen fortsatt bygges opp rundt dem.](https://cdn.malagaeventgear.com/blog/3106/ecoc2026-malaga-spain-7-1536x1152.webp "Utstillere som legger opp eget innhold på skjermer installert av Malaga Event Gear på ECOC 2026, FYCMA.")
+
+![Skjermer installert på to nabostander på ECOC 2026-messen, med gangen fortsatt dekket av beskyttelsesduk.](https://cdn.malagaeventgear.com/blog/3100/ecoc2026-malaga-spain-10-1536x1152.webp "Tilstøtende utstillerstander på ECOC 2026, begge utstyrt med skjermer levert og installert av Malaga Event Gear.")
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee
+		images={ecoc2026GalleryImages}
+		speed="normal"
+		direction="left"
+		deferMount={false}
+	/>
+</div>
+
+## Del av et travlere år for bedriftsoppdrag på Costa del Sol
+
+ECOC 2026 er det største arrangementet av dette slaget vi har jobbet med i år, men det står ikke alene. I mai sto vi for den tekniske produksjonen for [PROGOLD SUMMIT 2026 på Hotel Meliá Costa del Sol i Torremolinos](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/), og vi har støttet [BMotion i bedriftsprosjekter i Marbella](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/) og [i Benahavis](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/).
+
+Mønsteret bak alle disse er det samme: internasjonale arrangører som kommer til en provins de ikke kjenner, med en tidsplan uten slark, og som trenger en lokal leverandør som allerede kjenner stedet, adgangsreglene og lastetidene.
+
+## Skal dere stille ut på FYCMA? Snakk med oss tidlig
+
+Hvis du tar en stand på en kongress i Malaga, er det mest nyttige du kan gjøre å fortelle AV-leverandøren din hva standen skal være bygget av før den bygges. Paneltype, veggmål, hvor strømuttaket havner og om designeren har latt en kabelføring ligge klar. Den fem minutter lange samtalen er det som skiller en ryddig installasjon fra en improvisert en morgenen dørene åpner.
+
+En kongress som trekker delegater og utstillere fra hele Europa, Nord-Amerika og Asia, må også huse dem. Trenger teamet eller delegasjonen din rom til en fremtidig kongress i Malaga, har partneren vår Top Group Express mangeårig erfaring med å ordne [gruppeovernatting](https://topgroupexpress.com/en), i samarbeid med byråene, DMC-ene og selskapene som organiserer den typen reiser.
+
+Malaga Event Gear har levert eventutstyr i Malaga siden **1996**, med et engelsktalende teknisk team som er vant til å jobbe med internasjonale kunder. Til flerdagers bedriftsarrangementer og kongressoppdrag er [**MICE Pack**](/packages/mice/) vårt vanlige utgangspunkt, og standskjermer kan tilbys separat.
+
+Bla gjennom hele [pakkeutvalget](/packages/) vårt, eller ta direkte kontakt via [telefon](tel:+34666346911) eller [WhatsApp](https://wa.me/34666346911).

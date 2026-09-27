@@ -1,0 +1,87 @@
+---
+title: "Ecrãs de stand da ECOC 2026 em Málaga, instalados pela MEG"
+description: "A ECOC 2026 decorreu de 20 a 24 de setembro na FYCMA, em Málaga, Espanha. A Malaga Event Gear forneceu e instalou os ecrãs dos stands dos expositores."
+excerpt: "A 52ª Conferência Europeia sobre Comunicações Óticas abriu na FYCMA a 20 de setembro e decorreu até dia 24, trazendo a Málaga a maior feira de comunicações óticas da Europa. A Malaga Event Gear forneceu e instalou os ecrãs de exibição nos stands dos expositores por todo o pavilhão, trabalhando dentro da janela de montagem ao lado de carpinteiros, riggers e equipas de grafismo."
+publishDate: "2026-09-27"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { ecoc2026GalleryImages } from '$lib/data/gallery';
+</script>
+
+A **52ª Conferência Europeia sobre Comunicações Óticas**, [ECOC 2026](https://www.ecoc2026.org/ECOC2026), abriu na **FYCMA**, em Málaga, Espanha, a **20 de setembro**, e decorreu até **24 de setembro**. A ECOC é o maior e mais prestigiado evento de comunicações óticas da Europa e o segundo maior do mundo, e a **exposição ECOC**, que decorre em paralelo com a conferência, é a maior feira de comunicações óticas do continente.
+
+A [**Malaga Event Gear (MEG)**](/) forneceu e instalou os **ecrãs de exibição nos stands dos expositores** por todo o pavilhão.
+
+![Cinco ecrãs planos instalados em fila na parede de fundo de um stand de expositor na feira ECOC 2026 em Málaga, ligados e à espera de sinal durante a montagem.](https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-1536x1152.webp "Cinco ecrãs instalados em fila pela Malaga Event Gear num stand de expositor na ECOC 2026, FYCMA.")
+
+![Três ecrãs de parede num stand de expositor na ECOC 2026, com caixas de embalagem e flight cases ainda no chão durante a instalação.](https://cdn.malagaeventgear.com/blog/3099/ecoc2026-malaga-spain-2-1536x1152.webp "Três ecrãs instalados num único stand de expositor pela Malaga Event Gear durante a montagem da ECOC 2026 na FYCMA.")
+
+![Um único ecrã montado numa parede de stand cor de laranja na exposição ECOC 2026, com bancos de bar e um balcão de receção já colocados.](https://cdn.malagaeventgear.com/blog/3102/ecoc2026-malaga-spain-3-1536x1152.webp "Configuração de ecrã único instalada pela Malaga Event Gear na ECOC 2026, FYCMA.")
+
+## O que trouxe um congresso desta dimensão a Málaga
+
+A ECOC muda de cidade europeia todos os anos, e a edição de 2026 é presidida localmente por **Iñigo Molina-Fernández** e **Robert Halir**, da **Universidade de Málaga**, ao lado de **Jose Capmany** e **Ivana Gasulla**, da **Universidade Politécnica de Valência**. O programa abrange sessões plenárias, tutoriais, palestras por convite, workshops, simpósios, uma zona de demonstrações e sessões de posters, distribuídos por cinco dias.
+
+O local é a **FYCMA, Palacio de Ferias y Congresos de Malaga**, na Av. de Jose Ortega y Gasset 201, no bairro de Cruz de Humilladero. Fica a nove quilómetros do aeroporto de Málaga, o que explica em boa parte como é que um congresso que atrai delegados de toda a Europa, América do Norte e Ásia consegue realizar-se aqui.
+
+## Os ecrãs de um stand de feira não são os ecrãs de uma sala de conferências
+
+É neste ponto que vale a pena ser preciso, porque os dois trabalhos partilham uma palavra e quase mais nada.
+
+Uma montagem de sala de conferências tem um cliente, uma sala e um horário. Descarrega-se o material, monta-se, faz-se o soundcheck, e a primeira sessão começa. O programa técnico da ECOC, com as suas sessões plenárias e simpósios paralelos, é gerido pela equipa técnica do congresso exatamente segundo esse modelo.
+
+Um pavilhão de exposições é um animal diferente. Cada stand pertence a uma empresa diferente, foi desenhado por uma agência diferente e está a ser construído por um empreiteiro diferente, tudo ao mesmo tempo, no mesmo pavilhão, nos mesmos poucos dias. Daí resultam cinco consequências práticas:
+
+1. **A parede não é um dado adquirido.** Um stand é um sistema modular de painéis alugado, o seguinte é uma carpintaria à medida, o seguinte ainda é uma estrutura de alumínio com tecido impresso. Um suporte de ecrã correto para um deles está errado, e por vezes é inseguro, noutro. A fixação tem de ser escolhida stand a stand, e a parede tem de conseguir suportar o peso.
+2. **Partilha-se o espaço.** Nas fotografias abaixo podem ver-se escadotes, sacos de ferramentas, paletes empilhadas e lonas de proteção ainda no chão. A instalação dos ecrãs acontece no meio dos trabalhos de carpintaria, de rigging, elétricos e de aplicação de grafismos, não depois deles.
+3. **A energia e o sinal chegam por último, mas têm de ser planeados em primeiro lugar.** A passagem dos cabos faz-se dentro de uma estrutura que já existe quando se chega. Se ninguém deixou uma conduta atrás do painel, não se cria uma nesse dia.
+4. **O prazo é a abertura das portas, não a sessão.** Um ecrã de conferência tem de funcionar antes da sua sessão. Um ecrã de exposição tem de funcionar antes de o pavilhão abrir, porque assim que os visitantes estão no espaço, já não se pode voltar a trazer um escadote.
+5. **A entrega é feita a alguém que não é técnico.** A pessoa que vai usar aquele ecrã durante cinco dias é um engenheiro comercial com um portátil e uma demonstração de produto, não um operador AV. Tem de ser óbvio de usar, e tem de continuar a funcionar sem que esteja ali ao lado.
+
+![Um stand de expositor concluído na ECOC 2026, com um ecrã de parede sobre o balcão de receção e mesas altas prontas para os visitantes.](https://cdn.malagaeventgear.com/blog/3097/ecoc2026-malaga-spain-5-1536x1152.webp "Stand de expositor entregue pronto para a feira, com o ecrã instalado pela Malaga Event Gear na ECOC 2026.")
+
+![Um ecrã montado sob um cabeçalho de demonstração tecnológica num stand de expositor na ECOC 2026, com o mobiliário ainda embrulhado em plástico de proteção.](https://cdn.malagaeventgear.com/blog/3098/ecoc2026-malaga-spain-9-1536x1152.webp "Ecrã de demonstração instalado pela Malaga Event Gear num stand de expositor na ECOC 2026, FYCMA.")
+
+![Dois ecrãs instalados em paredes de stands adjacentes na ECOC 2026, um já a mostrar uma interface de instrumento em direto e o outro à espera da sua fonte.](https://cdn.malagaeventgear.com/blog/3101/ecoc2026-malaga-spain-11-1536x1152.webp "Ecrãs de stand a mostrar conteúdo de produto em direto na ECOC 2026, instalados pela Malaga Event Gear na FYCMA.")
+
+## A trabalhar dentro da janela de montagem na FYCMA
+
+Tudo o que se vê nestas fotografias foi captado durante a montagem, e é por isso que tantos ecrãs mostram Sem Sinal e tanto mobiliário ainda está embrulhado. Esse é o estado normal de um pavilhão de exposições nos dias antes de abrir, e é a única janela de que um fornecedor de equipamento dispõe.
+
+Para a MEG, o trabalho foi definido em torno disso: entregar nos números de stand corretos, montar o ecrã conforme aquilo de que cada stand era realmente feito, passar a energia e o sinal de forma limpa, e depois ligar e deixar cada ecrã pronto para o expositor ligar um portátil e começar. Cada um desses stands pertence a uma empresa que levou a sua equipa e as suas demonstrações de produto até Málaga para uma feira de cinco dias. Um ecrã que não está a funcionar quando as portas abrem não é um contratempo técnico, é uma feira perdida.
+
+![Montagem no pavilhão de exposições da ECOC 2026, com um escadote, sacos de ferramentas e paletes empilhadas junto a um stand cujo ecrã já está montado.](https://cdn.malagaeventgear.com/blog/3103/ecoc2026-malaga-spain-12-1536x1152.webp "A janela de montagem na FYCMA, o único período de acesso que a Malaga Event Gear teve para instalar os ecrãs de stand da ECOC 2026.")
+
+![Equipas de expositores a preparar os seus stands na ECOC 2026, com um ecrã de grande formato ligado e bastidores de equipamento a serem cablados.](https://cdn.malagaeventgear.com/blog/3105/ecoc2026-malaga-spain-6-1536x1152.webp "Preparação no espaço da feira da ECOC 2026 na FYCMA, onde a Malaga Event Gear forneceu e instalou os ecrãs dos stands dos expositores.")
+
+![Dois expositores a ligar portáteis aos ecrãs do seu stand na ECOC 2026, enquanto o pavilhão ainda está a ser montado à volta deles.](https://cdn.malagaeventgear.com/blog/3106/ecoc2026-malaga-spain-7-1536x1152.webp "Expositores a mostrar o seu próprio conteúdo em ecrãs instalados pela Malaga Event Gear na ECOC 2026, FYCMA.")
+
+![Ecrãs instalados em dois stands vizinhos na exposição ECOC 2026, com o corredor ainda coberto por lonas de proteção.](https://cdn.malagaeventgear.com/blog/3100/ecoc2026-malaga-spain-10-1536x1152.webp "Stands de expositores adjacentes na ECOC 2026, ambos equipados com ecrãs fornecidos e instalados pela Malaga Event Gear.")
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee
+		images={ecoc2026GalleryImages}
+		speed="normal"
+		direction="left"
+		deferMount={false}
+	/>
+</div>
+
+## Parte de um ano mais intenso de trabalho corporativo na Costa del Sol
+
+A ECOC 2026 é o maior evento deste tipo em que trabalhámos este ano, mas não é um caso isolado. Em maio, assegurámos a produção técnica do [PROGOLD SUMMIT 2026 no Hotel Meliá Costa del Sol, em Torremolinos](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/), e apoiámos a [BMotion em projetos corporativos em Marbella](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/) e [em Benahavis](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/).
+
+O padrão por trás de todos estes casos é o mesmo: organizadores internacionais que chegam a uma província que não conhecem, com um horário sem folga, e que precisam de um fornecedor local que já conheça o local, as regras de acesso e os horários de carga e descarga.
+
+## Vai expor na FYCMA? Fale connosco com antecedência
+
+Se vai ocupar um stand num congresso em Málaga, a coisa mais útil que pode fazer é dizer ao seu fornecedor de AV do que é feito o seu stand antes de ele ser construído. Tipo de painel, dimensões da parede, onde fica a tomada de energia e se o designer deixou uma conduta de cabos. Essa conversa de cinco minutos é o que separa uma instalação limpa de uma improvisada na manhã em que as portas abrem.
+
+Um congresso que atrai delegados e expositores de toda a Europa, América do Norte e Ásia também precisa de os alojar. Se a sua equipa ou delegação vai precisar de quartos para um futuro congresso em Málaga, o nosso parceiro Top Group Express tem anos de experiência a organizar [alojamento em grupo](https://topgroupexpress.com/en), a trabalhar com as agências, DMCs e empresas que organizam esse tipo de viagem.
+
+A Malaga Event Gear fornece equipamento para eventos em Málaga desde **1996**, com uma equipa técnica anglófona habituada a trabalhar com clientes internacionais. Para eventos corporativos de vários dias e trabalho de congressos, o nosso [**MICE Pack**](/packages/mice/) é o ponto de partida habitual, e os ecrãs de stand podem ser orçamentados à parte.
+
+Consulte a nossa [gama completa de pacotes](/packages/), ou contacte-nos diretamente por [telefone](tel:+34666346911) ou [WhatsApp](https://wa.me/34666346911).

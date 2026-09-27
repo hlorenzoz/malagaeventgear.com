@@ -1,0 +1,87 @@
+---
+title: "馬拉加ECOC 2026展位熒幕，由MEG安裝"
+description: "ECOC 2026於9月20日至24日在西班牙馬拉加的FYCMA舉行，Malaga Event Gear為整個展會現場的參展商展位提供並安裝了顯示熒幕。"
+excerpt: "第52屆歐洲光通訊大會於9月20日在FYCMA開幕，並持續到24日，為馬拉加帶來歐洲最大型的光通訊展覽。Malaga Event Gear為整個會展現場的參展商展位提供並安裝了顯示熒幕，在搭建期內與木工、吊裝團隊和平面設計團隊合作。"
+publishDate: "2026-09-27"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { ecoc2026GalleryImages } from '$lib/data/gallery';
+</script>
+
+**第52屆歐洲光通訊大會**（[ECOC 2026](https://www.ecoc2026.org/ECOC2026)）於**9月20日**在西班牙馬拉加的**FYCMA**開幕，並持續到**9月24日**。ECOC是歐洲規模最大、最具聲望的光通訊盛會，也是全球第二大光通訊盛會，與大會同期舉行的**ECOC展覽**則是歐洲大陸最大型的光通訊貿易展。
+
+[**Malaga Event Gear（MEG）**](/)為整個會展現場的參展商展位提供並安裝了**顯示熒幕**。
+
+![五塊平面熒幕並排安裝在馬拉加ECOC 2026展會上一個參展商展位的後牆上，已開機，在搭建期間等待訊號。](https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-1536x1152.webp "Malaga Event Gear在ECOC 2026（FYCMA）為參展商展位並排安裝的五塊熒幕。")
+
+![ECOC 2026上一個參展商展位的三塊壁掛熒幕，安裝過程中包裝箱和飛行箱仍放在地面上。](https://cdn.malagaeventgear.com/blog/3099/ecoc2026-malaga-spain-2-1536x1152.webp "Malaga Event Gear在FYCMA搭建ECOC 2026期間為同一個參展商展位安裝的三塊熒幕。")
+
+![ECOC 2026展會上安裝在橙色展位牆面上的單塊熒幕，酒吧高腳椅和接待櫃檯已經就位。](https://cdn.malagaeventgear.com/blog/3102/ecoc2026-malaga-spain-3-1536x1152.webp "Malaga Event Gear在ECOC 2026（FYCMA）安裝的單熒幕配置。")
+
+## 是甚麼令如此規模的大會來到馬拉加
+
+ECOC每年都會更換舉辦的歐洲城市，2026年的大會由**馬拉加大學**的**Iñigo Molina-Fernández**和**Robert Halir**擔任本地主席，與**瓦倫西亞理工大學**的**Jose Capmany**和**Ivana Gasulla**共同主持。議程涵蓋全體會議、培訓課程、特邀報告、工作坊、專題座談會、展示區和海報發表環節，為期五天。
+
+會議地點是**FYCMA，馬拉加會展中心**（Palacio de Ferias y Congresos de Malaga），地址為Av. de Jose Ortega y Gasset 201，位於Cruz de Humilladero區。距離馬拉加機場僅九公里，這在很大程度上說明了為甚麼一場吸引來自歐洲、北美和亞洲代表的大會能夠選址於此。
+
+## 會展展位的熒幕不同於會議室的熒幕
+
+這一點值得說清楚，因為這兩項工作只有一個詞相同，幾乎再無其他共通點。
+
+會議室的布置只有一個客戶、一個房間和一份時間表。搬運設備、安裝、做音效測試，然後第一場會議開始。ECOC的技術議程，包括全體會議和並行的專題座談會，正是由大會技術團隊按照這個模式運作的。
+
+展館則完全是另一回事。每個展位都屬於不同的公司，由不同的設計公司設計，由不同的承辦商搭建，而且全都在同一時間、同一個展館、同樣短短幾天內進行。由此產生了五個實際後果：
+
+1. **牆面不是既定的。** 有的展位是租來的模組化面板系統，下一個是訂製木工搭建，再下一個是鋁製結構上的印刷布面框架。適合其中一種情況的熒幕支架，用在另一種上就是錯誤的，有時甚至不安全。固定方式必須逐個展位選擇，牆面也必須能夠承受重量。
+2. **現場空間是共用的。** 下面的相片中可以看到梯子、工具袋、疊起的卡板和仍未收起的防護布。熒幕安裝是在木工、吊裝、電氣和平面裝飾施工過程中同步進行的，而不是在它們完成之後。
+3. **電源和訊號最後接入，卻必須最先規劃。** 布線要在抵達現場時就已存在的結構內部完成。如果沒有人在面板後面預留線槽，當天是無法臨時開出一條的。
+4. **限期是開館時刻，而不是場次開始。** 會議熒幕必須在場次開始前完成調校。展會熒幕則必須在展館開門前完成調校，因為一旦觀眾進入現場，就無法再把梯子搬出來了。
+5. **交收對象不是技術人員。** 未來五天要使用這塊熒幕的人，是帶著手提電腦和產品示範的業務工程師，而不是視聽操作人員。熒幕的使用必須一目了然，並且要在沒有人在旁邊照看的情況下持續正常運作。
+
+![ECOC 2026上一個已完工的參展商展位，接待櫃檯上方裝有壁掛熒幕，高腳桌已為訪客準備就緒。](https://cdn.malagaeventgear.com/blog/3097/ecoc2026-malaga-spain-5-1536x1152.webp "已交付、可供展會使用的參展商展位，熒幕由Malaga Event Gear在ECOC 2026安裝。")
+
+![ECOC 2026上一個參展商展位的科技示範標題下方安裝的熒幕，傢俬仍包著保護膜。](https://cdn.malagaeventgear.com/blog/3098/ecoc2026-malaga-spain-9-1536x1152.webp "Malaga Event Gear在ECOC 2026一個參展商展位上安裝的示範熒幕，地點FYCMA。")
+
+![ECOC 2026上相鄰展位牆面安裝的兩塊熒幕，其中一塊已顯示即時儀器介面，另一塊還在等待訊號來源。](https://cdn.malagaeventgear.com/blog/3101/ecoc2026-malaga-spain-11-1536x1152.webp "在ECOC 2026展示即時產品內容的展位熒幕，由Malaga Event Gear安裝於FYCMA。")
+
+## 在FYCMA的搭建期內工作
+
+這些相片中的一切都拍攝於搭建期間，這也是為甚麼這麼多熒幕顯示無訊號，這麼多傢俬還包著保護膜的原因。這是展館開館前幾天的正常狀態，也是設備供應商唯一能夠工作的時間窗口。
+
+對MEG而言，這項工作正是圍繞這一點來安排的：送貨到正確的展位編號，按每個展位實際的搭建材料安裝熒幕，規範地布好電源和訊號線，然後開機，讓每塊熒幕都保持隨時可用狀態，方便參展商接上手提電腦即可開始使用。這些展位背後的每一家公司，都是為了一場為期五天的展會，把團隊和產品示範專程運到馬拉加的。開館時無法正常顯示的熒幕，不只是技術上的小麻煩，而是一場展會的損失。
+
+![ECOC 2026展館的搭建現場，梯子、工具袋和疊起的卡板放在一個熒幕已經安裝好的展位旁邊。](https://cdn.malagaeventgear.com/blog/3103/ecoc2026-malaga-spain-12-1536x1152.webp "FYCMA的搭建期，是Malaga Event Gear安裝ECOC 2026展位熒幕的唯一進場時間。")
+
+![參展商團隊在ECOC 2026上調試自己的展位，一塊大尺寸熒幕已經開機，設備機架正在駁線。](https://cdn.malagaeventgear.com/blog/3105/ecoc2026-malaga-spain-6-1536x1152.webp "在FYCMA的ECOC 2026展會現場進行調試，Malaga Event Gear在此為參展商展位提供並安裝了熒幕。")
+
+![ECOC 2026上兩位參展商正在將手提電腦連接到各自的展位熒幕，此時展館仍在他們周圍搭建中。](https://cdn.malagaeventgear.com/blog/3106/ecoc2026-malaga-spain-7-1536x1152.webp "參展商在Malaga Event Gear於ECOC 2026安裝的熒幕上播放自己的內容，地點FYCMA。")
+
+![ECOC 2026展會上兩個相鄰展位安裝的熒幕，通道上仍鋪著防護布。](https://cdn.malagaeventgear.com/blog/3100/ecoc2026-malaga-spain-10-1536x1152.webp "ECOC 2026上相鄰的參展商展位，均配備由Malaga Event Gear提供並安裝的熒幕。")
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee
+		images={ecoc2026GalleryImages}
+		speed="normal"
+		direction="left"
+		deferMount={false}
+	/>
+</div>
+
+## 太陽海岸企業項目更忙碌一年的一部分
+
+ECOC 2026是我們今年參與過的同類活動中規模最大的一次，但並非個別事件。今年五月，我們承接了在托雷莫利諾斯Hotel Meliá Costa del Sol舉行的[PROGOLD SUMMIT 2026](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/)的技術製作，也曾為[BMotion在馬貝拉的企業項目](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/)以及[在貝納阿維斯的項目](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/)提供支援。
+
+這些項目背後的規律是一致的：國際主辦方來到一個他們並不熟悉的省份，日程安排毫無餘地，需要一間已經熟悉場地、準入規則和裝卸時間的本地供應商。
+
+## 要在FYCMA參展？請盡早與我們聯絡
+
+如果您要在馬拉加的大會上使用一個展位，您能做的最有用的一件事，就是在展位搭建之前，把展位的物料告訴您的視聽設備供應商：面板種類、牆面尺寸、電源接駁位置，以及設計方是否預留了線纜通道。這段五分鐘的溝通，正是決定開館當天是俐落安裝，還是臨時湊合的關鍵。
+
+一場吸引來自歐洲、北美和亞洲代表與參展商的大會，也需要為他們安排住宿。如果您的團隊或代表團需要為馬拉加未來的大會預訂房間，我們的合作夥伴Top Group Express在安排[團體住宿](https://topgroupexpress.com/zh)方面擁有多年經驗，與負責安排此類差旅的代理機構、目的地管理公司（DMC）及企業合作。
+
+Malaga Event Gear自**1996**年以來一直在馬拉加提供活動設備，技術團隊以英語為工作語言，熟悉與國際客戶合作。對於為期多天的企業活動和大會項目，我們的[**MICE Pack**](/packages/mice/)是常見的起點，展位熒幕也可以單獨報價。
+
+歡迎瀏覽我們的[完整套餐系列](/packages/)，或直接透過[電話](tel:+34666346911)或[WhatsApp](https://wa.me/34666346911)聯絡我們。

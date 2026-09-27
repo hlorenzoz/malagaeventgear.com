@@ -156,6 +156,11 @@ export default {
 			slug: '托雷莫利诺斯2026年峰会视听制作',
 			keyword: '托雷莫利诺斯PROGOLD SUMMIT 2026视听制作',
 			status: 'propuesta'
+		},
+		'news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga': {
+			slug: '光通信展2026展位屏幕安装',
+			keyword: '马拉加ECOC 2026展位屏幕',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

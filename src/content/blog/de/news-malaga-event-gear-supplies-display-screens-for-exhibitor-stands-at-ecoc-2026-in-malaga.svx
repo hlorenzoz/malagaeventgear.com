@@ -1,0 +1,87 @@
+---
+title: "Standbildschirme ECOC 2026 Malaga: installiert von MEG"
+description: "Die ECOC 2026 fand vom 20. bis 24. September in der FYCMA in Malaga, Spanien, statt. MEG lieferte und installierte die Standbildschirme der Aussteller."
+excerpt: "Die 52. European Conference on Optical Communication eröffnete am 20. September in der FYCMA und lief bis zum 24., und brachte damit die größte Fachmesse für optische Kommunikation Europas nach Malaga. Malaga Event Gear lieferte und installierte die Anzeigebildschirme an den Ausstellerständen in der gesamten Halle und arbeitete dabei im Aufbaufenster gemeinsam mit Schreinern, Riggern und Grafikteams."
+publishDate: "2026-09-27"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { ecoc2026GalleryImages } from '$lib/data/gallery';
+</script>
+
+Die **52. European Conference on Optical Communication**, [ECOC 2026](https://www.ecoc2026.org/ECOC2026), eröffnete am **20. September** in der **FYCMA** in Malaga, Spanien, und lief bis zum **24. September**. Die ECOC ist die größte und renommierteste Veranstaltung für optische Kommunikation in Europa und die zweitgrößte weltweit, und die **ECOC-Ausstellung**, die parallel zur Konferenz läuft, ist die größte Fachmesse für optische Kommunikation auf dem Kontinent.
+
+[**Malaga Event Gear (MEG)**](/) lieferte und installierte die **Anzeigebildschirme an den Ausstellerständen** in der gesamten Halle.
+
+![Fünf Flachbildschirme in einer Reihe an der Rückwand eines Ausstellerstands auf der ECOC 2026 in Malaga installiert, eingeschaltet und wartend auf Signal während des Aufbaus.](https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-1536x1152.webp "Fünf Bildschirme in einer Reihe montiert von Malaga Event Gear auf einem Ausstellerstand bei der ECOC 2026, FYCMA.")
+
+![Drei wandmontierte Bildschirme auf einem Ausstellerstand bei der ECOC 2026, mit Verpackungskartons und Flightcases noch auf dem Boden während der Installation.](https://cdn.malagaeventgear.com/blog/3099/ecoc2026-malaga-spain-2-1536x1152.webp "Drei Bildschirme installiert auf einem einzelnen Ausstellerstand von Malaga Event Gear während des Aufbaus der ECOC 2026 in der FYCMA.")
+
+![Ein einzelner Bildschirm montiert an einer orangefarbenen Standwand bei der ECOC 2026, mit Barhockern und einem Empfangstresen, die bereits aufgestellt sind.](https://cdn.malagaeventgear.com/blog/3102/ecoc2026-malaga-spain-3-1536x1152.webp "Konfiguration mit einem einzelnen Bildschirm installiert von Malaga Event Gear bei der ECOC 2026, FYCMA.")
+
+## Was einen Kongress dieser Größe nach Malaga brachte
+
+Die ECOC wechselt jedes Jahr die europäische Stadt, und die Ausgabe 2026 wird lokal geleitet von **Iñigo Molina-Fernández** und **Robert Halir** von der **Universität Malaga**, gemeinsam mit **Jose Capmany** und **Ivana Gasulla** von der **Technischen Universität Valencia**. Das Programm umfasst Plenarsitzungen, Tutorials, eingeladene Vorträge, Workshops, Symposien, eine Demozone und Postersitzungen, verteilt auf fünf Tage.
+
+Veranstaltungsort ist die **FYCMA, Palacio de Ferias y Congresos de Malaga**, Av. de Jose Ortega y Gasset 201, im Stadtviertel Cruz de Humilladero. Sie liegt neun Kilometer vom Flughafen Malaga entfernt, was ein wichtiger Grund dafür ist, dass ein Kongress mit Delegierten aus ganz Europa, Nordamerika und Asien hier überhaupt stattfinden kann.
+
+## Bildschirme auf einem Messestand sind nicht dasselbe wie Bildschirme in einem Konferenzraum
+
+Genau hier lohnt es sich, präzise zu sein, denn die beiden Aufgaben teilen sich ein Wort und fast nichts sonst.
+
+Ein Konferenzraumaufbau hat einen Kunden, einen Raum und einen Zeitplan. Man lädt das Material ein, baut auf, macht den Soundcheck, und die erste Session beginnt. Das technische Programm der ECOC mit seinen Plenarsitzungen und parallelen Symposien wird vom technischen Team des Kongresses genau nach diesem Modell abgewickelt.
+
+Eine Messehalle ist ein ganz anderes Tier. Jeder Stand gehört einem anderen Unternehmen, wurde von einer anderen Agentur entworfen und wird von einem anderen Auftragnehmer gebaut, alles gleichzeitig, in derselben Halle, in denselben wenigen Tagen. Daraus ergeben sich fünf praktische Konsequenzen:
+
+1. **Die Wand ist keine Selbstverständlichkeit.** Der eine Stand ist ein gemietetes modulares Panelsystem, der nächste eine maßgefertigte Schreinerarbeit, der übernächste ein bedruckter Stoffrahmen auf einer Aluminiumstruktur. Eine Bildschirmhalterung, die für den einen richtig ist, ist bei einem anderen falsch, manchmal sogar unsicher. Die Befestigung muss pro Stand gewählt werden, und die Wand muss das Gewicht tragen können.
+2. **Man teilt sich die Fläche.** Auf den Fotos unten sind Leitern, Werkzeugtaschen, gestapelte Paletten und Schutzfolien zu sehen, die noch liegen. Die Bildschirminstallation findet mitten in Schreiner-, Rigging-, Elektro- und Grafikarbeiten statt, nicht danach.
+3. **Strom und Signal kommen zuletzt, müssen aber zuerst geplant werden.** Die Kabelführung verläuft innerhalb einer Struktur, die bei Ihrer Ankunft bereits existiert. Wenn niemand hinter dem Panel eine Leerverrohrung gelassen hat, schaffen Sie am selben Tag keine.
+4. **Die Deadline sind die Türen, nicht die Session.** Ein Konferenzbildschirm muss vor seiner Session funktionieren. Ein Ausstellungsbildschirm muss funktionieren, bevor die Halle öffnet, denn sobald Besucher auf der Fläche sind, kann man keine Leiter mehr herausholen.
+5. **Die Übergabe erfolgt an jemanden, der kein Techniker ist.** Die Person, die diesen Bildschirm fünf Tage lang nutzt, ist ein Vertriebsingenieur mit Laptop und Produktdemo, kein AV-Operator. Es muss selbsterklärend sein, und es muss weiterlaufen, ohne dass Sie danebenstehen.
+
+![Ein fertiggestellter Ausstellerstand bei der ECOC 2026 mit einem wandmontierten Bildschirm über dem Empfangstresen und Stehtischen bereit für Besucher.](https://cdn.malagaeventgear.com/blog/3097/ecoc2026-malaga-spain-5-1536x1152.webp "Ausstellerstand übergeben und bereit für die Messe, mit dem von Malaga Event Gear installierten Bildschirm bei der ECOC 2026.")
+
+![Ein Bildschirm montiert unter einer Überschrift zur Technologiedemonstration auf einem Ausstellerstand bei der ECOC 2026, mit Möbeln noch unter Schutzfolie.](https://cdn.malagaeventgear.com/blog/3098/ecoc2026-malaga-spain-9-1536x1152.webp "Demonstrationsbildschirm installiert von Malaga Event Gear auf einem Ausstellerstand bei der ECOC 2026, FYCMA.")
+
+![Zwei Bildschirme installiert an benachbarten Standwänden bei der ECOC 2026, einer zeigt bereits eine Live-Geräteoberfläche, der andere wartet auf sein Quellsignal.](https://cdn.malagaeventgear.com/blog/3101/ecoc2026-malaga-spain-11-1536x1152.webp "Standbildschirme mit Live-Produktinhalten bei der ECOC 2026, installiert von Malaga Event Gear in der FYCMA.")
+
+## Arbeiten im Aufbaufenster der FYCMA
+
+Alles, was Sie auf diesen Fotografien sehen, wurde während des Aufbaus aufgenommen, weshalb so viele Bildschirme Kein Signal anzeigen und so viele Möbel noch eingepackt sind. Das ist der normale Zustand einer Messehalle in den Tagen vor der Eröffnung, und es ist das einzige Zeitfenster, das einem Ausrüstungslieferanten zur Verfügung steht.
+
+Für MEG wurde der Auftrag genau darum herum geplant: an die richtigen Standnummern liefern, den Bildschirm an das montieren, woraus jeder Stand tatsächlich gebaut war, Strom und Signal sauber verlegen, dann einschalten und jeden Bildschirm bereit lassen, damit der Aussteller einen Laptop anschließt und loslegt. Jeder dieser Stände gehört einem Unternehmen, das sein Team und seine Produktdemos für eine fünftägige Messe nach Malaga geflogen hat. Ein Bildschirm, der bei Türöffnung nicht läuft, ist kein technisches Ärgernis, sondern eine verlorene Messe.
+
+![Aufbau in der Ausstellungshalle der ECOC 2026, mit einer Leiter, Werkzeugtaschen und gestapelten Paletten neben einem Stand, dessen Bildschirm bereits montiert ist.](https://cdn.malagaeventgear.com/blog/3103/ecoc2026-malaga-spain-12-1536x1152.webp "Das Aufbaufenster in der FYCMA, der einzige Zugangszeitraum, den Malaga Event Gear hatte, um die Standbildschirme der ECOC 2026 zu installieren.")
+
+![Ausstellerteams nehmen ihre Stände bei der ECOC 2026 in Betrieb, mit einem laufenden Großformatbildschirm und Geräteracks, die verkabelt werden.](https://cdn.malagaeventgear.com/blog/3105/ecoc2026-malaga-spain-6-1536x1152.webp "Inbetriebnahme auf der Messefläche der ECOC 2026 in der FYCMA, wo Malaga Event Gear die Ausstellerstandbildschirme lieferte und installierte.")
+
+![Zwei Aussteller schließen Laptops an ihre Standbildschirme bei der ECOC 2026 an, während die Halle um sie herum noch aufgebaut wird.](https://cdn.malagaeventgear.com/blog/3106/ecoc2026-malaga-spain-7-1536x1152.webp "Aussteller spielen eigene Inhalte auf Bildschirmen ab, die Malaga Event Gear bei der ECOC 2026 installiert hat, FYCMA.")
+
+![Bildschirme installiert auf zwei benachbarten Ständen bei der ECOC 2026, mit dem Gang noch unter Schutzfolie.](https://cdn.malagaeventgear.com/blog/3100/ecoc2026-malaga-spain-10-1536x1152.webp "Benachbarte Ausstellerstände bei der ECOC 2026, beide mit von Malaga Event Gear gelieferten und installierten Bildschirmen ausgestattet.")
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee
+		images={ecoc2026GalleryImages}
+		speed="normal"
+		direction="left"
+		deferMount={false}
+	/>
+</div>
+
+## Teil eines geschäftigeren Jahres für Firmenarbeit an der Costa del Sol
+
+Die ECOC 2026 ist die größte Veranstaltung dieser Art, an der wir dieses Jahr gearbeitet haben, aber sie steht nicht allein da. Im Mai haben wir die technische Produktion für den [PROGOLD SUMMIT 2026 im Hotel Meliá Costa del Sol in Torremolinos](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/) übernommen, und wir haben [BMotion bei Firmenprojekten in Marbella](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/) und [in Benahavis](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/) unterstützt.
+
+Das Muster dahinter ist bei allen gleich: internationale Veranstalter, die in einer Provinz ankommen, die sie nicht kennen, mit einem Zeitplan ohne Puffer, und die einen lokalen Anbieter brauchen, der den Veranstaltungsort, die Zugangsregeln und die Ladezeiten bereits kennt.
+
+## Sie stellen bei der FYCMA aus? Sprechen Sie frühzeitig mit uns
+
+Wenn Sie einen Stand auf einem Kongress in Malaga beziehen, ist das Nützlichste, was Sie tun können, Ihrem AV-Anbieter mitzuteilen, woraus Ihr Stand besteht, bevor er gebaut wird. Panelart, Wandmaße, wo der Stromanschluss liegt und ob der Designer eine Kabelführung vorgesehen hat. Dieses fünfminütige Gespräch macht den Unterschied zwischen einer sauberen Installation und einer improvisierten am Morgen der Türöffnung.
+
+Ein Kongress, der Delegierte und Aussteller aus ganz Europa, Nordamerika und Asien anzieht, muss diese auch unterbringen. Wenn Ihr Team oder Ihre Delegation für einen künftigen Kongress in Malaga Zimmer benötigt, bringt unser Partner Top Group Express langjährige Erfahrung in der Organisation von [Gruppenunterkünften](https://topgroupexpress.com/en) mit, in Zusammenarbeit mit den Agenturen, DMCs und Unternehmen, die solche Reisen organisieren.
+
+Malaga Event Gear liefert seit **1996** Veranstaltungstechnik in Malaga, mit einem englischsprachigen Technikteam, das an die Zusammenarbeit mit internationalen Kunden gewöhnt ist. Für mehrtägige Firmenveranstaltungen und Kongressarbeit ist unser [**MICE Pack**](/packages/mice/) der übliche Ausgangspunkt, und Standbildschirme können auch separat angefragt werden.
+
+Durchstöbern Sie unser [gesamtes Paketangebot](/packages/), oder kontaktieren Sie uns direkt per [Telefon](tel:+34666346911) oder [WhatsApp](https://wa.me/34666346911).

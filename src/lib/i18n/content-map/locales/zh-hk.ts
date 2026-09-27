@@ -156,6 +156,11 @@ export default {
 			slug: '托雷莫利諾斯2026年峰會視聽製作',
 			keyword: '托雷莫利諾斯PROGOLD SUMMIT 2026視聽製作',
 			status: 'propuesta'
+		},
+		'news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga': {
+			slug: '光通訊展2026展位熒幕安裝',
+			keyword: '馬拉加ECOC 2026展位熒幕',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -176,6 +176,11 @@ export default {
 			slug: 'audiovisuelle-produktion-progold-summit-2026-torremolinos',
 			keyword: 'audiovisuelle Produktion PROGOLD SUMMIT 2026 Torremolinos',
 			status: 'propuesta'
+		},
+		'news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga': {
+			slug: 'standbildschirme-ecoc-2026-malaga',
+			keyword: 'Standbildschirme ECOC 2026 Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

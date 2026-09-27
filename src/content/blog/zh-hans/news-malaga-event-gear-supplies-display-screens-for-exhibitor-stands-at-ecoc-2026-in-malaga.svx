@@ -1,0 +1,87 @@
+---
+title: "马拉加ECOC 2026展位屏幕，由MEG安装"
+description: "ECOC 2026于9月20日至24日在西班牙马拉加的FYCMA举行，Malaga Event Gear为整个展会现场的参展商展位提供并安装了显示屏幕。"
+excerpt: "第52届欧洲光通信会议于9月20日在FYCMA开幕，持续到24日，为马拉加带来了欧洲最大的光通信展览。Malaga Event Gear为整个展会现场的参展商展位提供并安装了显示屏幕，在搭建期内与木工、吊装团队和平面设计团队合作。"
+publishDate: "2026-09-27"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { ecoc2026GalleryImages } from '$lib/data/gallery';
+</script>
+
+**第52届欧洲光通信会议**（[ECOC 2026](https://www.ecoc2026.org/ECOC2026)）于**9月20日**在西班牙马拉加的**FYCMA**开幕，持续到**9月24日**。ECOC是欧洲规模最大、最具声望的光通信盛会，也是全球第二大光通信盛会，与会议同期举行的**ECOC展览**则是欧洲大陆最大的光通信贸易展。
+
+[**Malaga Event Gear（MEG）**](/)为整个展会现场的参展商展位提供并安装了**显示屏幕**。
+
+![五块平板屏幕并排安装在马拉加ECOC 2026展会上一个参展商展位的后墙上，已开机，在搭建期间等待信号。](https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-1536x1152.webp "Malaga Event Gear在ECOC 2026（FYCMA）为参展商展位并排安装的五块屏幕。")
+
+![ECOC 2026上一个参展商展位的三块壁挂屏幕，安装过程中包装箱和飞行箱仍放在地面上。](https://cdn.malagaeventgear.com/blog/3099/ecoc2026-malaga-spain-2-1536x1152.webp "Malaga Event Gear在FYCMA搭建ECOC 2026期间为同一个参展商展位安装的三块屏幕。")
+
+![ECOC 2026展会上安装在橙色展位墙面上的单块屏幕，酒吧高脚凳和接待台已经就位。](https://cdn.malagaeventgear.com/blog/3102/ecoc2026-malaga-spain-3-1536x1152.webp "Malaga Event Gear在ECOC 2026（FYCMA）安装的单屏配置。")
+
+## 是什么让如此规模的大会来到马拉加
+
+ECOC每年都会更换举办的欧洲城市，2026年的会议由**马拉加大学**的**Iñigo Molina-Fernández**和**Robert Halir**担任本地主席，与**瓦伦西亚理工大学**的**Jose Capmany**和**Ivana Gasulla**共同主持。会议议程涵盖全体会议、培训课程、特邀报告、研讨会、专题座谈会、演示区和海报展示环节，为期五天。
+
+会议地点是**FYCMA，马拉加会展中心**（Palacio de Ferias y Congresos de Malaga），地址为Av. de Jose Ortega y Gasset 201，位于Cruz de Humilladero区。距离马拉加机场仅九公里，这在很大程度上说明了为什么一场吸引来自欧洲、北美和亚洲代表的大会能够选址于此。
+
+## 展会展位的屏幕不同于会议室的屏幕
+
+这一点值得说清楚，因为这两项工作只有一个词相同，几乎再无其他共同点。
+
+会议室的布置只有一个客户、一个房间和一份时间表。搬运设备、安装、做声音测试，然后第一场会议开始。ECOC的技术议程，包括全体会议和平行的专题座谈会，正是由大会技术团队按照这一模式运作的。
+
+展会大厅则完全是另一回事。每个展位都属于不同的公司，由不同的设计公司设计，由不同的承包商搭建，而且全都在同一时间、同一个大厅、同样短短几天内进行。由此产生了五个实际后果：
+
+1. **墙面不是既定的。** 有的展位是租来的模块化面板系统，下一个是定制木工搭建，再下一个是铝制结构上的印刷布面框架。适合其中一种情况的屏幕支架，用在另一种上就是错误的，有时甚至不安全。固定方式必须逐个展位选择，墙面也必须能够承受重量。
+2. **现场空间是共用的。** 下面的照片中可以看到梯子、工具包、堆叠的托盘和仍未收起的防护布。屏幕安装是在木工、吊装、电气和平面装饰施工过程中同步进行的，而不是在它们完成之后。
+3. **电源和信号最后接入，却必须最先规划。** 布线要在到达现场时就已存在的结构内部完成。如果没有人在面板后面预留线管，当天是无法临时开出一条的。
+4. **截止时间是开馆时刻，而不是场次开始。** 会议屏幕必须在场次开始前完成调试。展会屏幕则必须在展馆开门前完成调试，因为一旦观众进入现场，就无法再把梯子搬出来了。
+5. **交接对象不是技术人员。** 未来五天要使用这块屏幕的人，是带着笔记本电脑和产品演示的销售工程师，而不是视听操作员。屏幕的使用必须一目了然，并且要在没有人在旁边照看的情况下持续正常运行。
+
+![ECOC 2026上一个已完工的参展商展位，接待台上方装有壁挂屏幕，高脚桌已为访客准备就绪。](https://cdn.malagaeventgear.com/blog/3097/ecoc2026-malaga-spain-5-1536x1152.webp "已交付、可供展会使用的参展商展位，屏幕由Malaga Event Gear在ECOC 2026安装。")
+
+![ECOC 2026上一个参展商展位的技术演示标题下方安装的屏幕，家具仍包着防护膜。](https://cdn.malagaeventgear.com/blog/3098/ecoc2026-malaga-spain-9-1536x1152.webp "Malaga Event Gear在ECOC 2026一个参展商展位上安装的演示屏幕，地点FYCMA。")
+
+![ECOC 2026上相邻展位墙面安装的两块屏幕，其中一块已显示实时仪器界面，另一块还在等待信号源。](https://cdn.malagaeventgear.com/blog/3101/ecoc2026-malaga-spain-11-1536x1152.webp "在ECOC 2026展示实时产品内容的展位屏幕，由Malaga Event Gear安装于FYCMA。")
+
+## 在FYCMA的搭建期内工作
+
+这些照片中的一切都拍摄于搭建期间，这也是为什么这么多屏幕显示无信号，这么多家具还包着防护膜的原因。这是展会大厅开馆前几天的正常状态，也是设备供应商唯一能够工作的时间窗口。
+
+对MEG来说，这项工作正是围绕这一点来安排的：送货到正确的展位编号，根据每个展位实际的搭建材料安装屏幕，规范地布好电源和信号线，然后开机，让每块屏幕都保持随时可用状态，方便参展商接上笔记本电脑即可开始使用。这些展位背后的每一家公司，都是为了一场为期五天的展会，把团队和产品演示专程运到马拉加的。开馆时无法正常显示的屏幕，不只是技术上的小麻烦，而是一场展会的损失。
+
+![ECOC 2026展会大厅的搭建现场，梯子、工具包和堆叠的托盘放在一个屏幕已经安装好的展位旁边。](https://cdn.malagaeventgear.com/blog/3103/ecoc2026-malaga-spain-12-1536x1152.webp "FYCMA的搭建期，是Malaga Event Gear安装ECOC 2026展位屏幕的唯一进场时间。")
+
+![参展商团队在ECOC 2026上调试自己的展位，一块大尺寸屏幕已经开机，设备机架正在布线。](https://cdn.malagaeventgear.com/blog/3105/ecoc2026-malaga-spain-6-1536x1152.webp "在FYCMA的ECOC 2026展会现场进行调试，Malaga Event Gear在此为参展商展位提供并安装了屏幕。")
+
+![ECOC 2026上两位参展商正在将笔记本电脑连接到各自的展位屏幕，此时展馆仍在他们周围搭建中。](https://cdn.malagaeventgear.com/blog/3106/ecoc2026-malaga-spain-7-1536x1152.webp "参展商在Malaga Event Gear于ECOC 2026安装的屏幕上播放自己的内容，地点FYCMA。")
+
+![ECOC 2026展会上两个相邻展位安装的屏幕，通道上仍铺着防护布。](https://cdn.malagaeventgear.com/blog/3100/ecoc2026-malaga-spain-10-1536x1152.webp "ECOC 2026上相邻的参展商展位，均配备由Malaga Event Gear提供并安装的屏幕。")
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee
+		images={ecoc2026GalleryImages}
+		speed="normal"
+		direction="left"
+		deferMount={false}
+	/>
+</div>
+
+## 太阳海岸企业项目更繁忙一年的一部分
+
+ECOC 2026是我们今年参与过的同类活动中规模最大的一次，但并非个例。今年五月，我们承接了在托雷莫利诺斯Hotel Meliá Costa del Sol举行的[PROGOLD SUMMIT 2026](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/)的技术制作，也曾为[BMotion在马尔贝拉的企业项目](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/)以及[在贝纳阿维斯的项目](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/)提供支持。
+
+这些项目背后的规律是一致的：国际主办方来到一个他们并不熟悉的省份，日程安排毫无余地，需要一家已经熟悉场地、准入规则和装卸时间的本地供应商。
+
+## 要在FYCMA参展？请尽早与我们沟通
+
+如果您要在马拉加的大会上占用一个展位，您能做的最有用的一件事，就是在展位搭建之前，把展位的材质告诉您的视听设备供应商：面板类型、墙面尺寸、电源接入点的位置，以及设计方是否预留了线缆通道。这段五分钟的沟通，正是决定开馆当天是干净利落地安装，还是临时凑合的关键。
+
+一场吸引来自欧洲、北美和亚洲代表与参展商的大会，也需要为他们安排住宿。如果您的团队或代表团需要为马拉加未来的大会预订房间，我们的合作伙伴Top Group Express在安排[团体住宿](https://topgroupexpress.com/zh)方面拥有多年经验，与负责安排此类差旅的代理机构、目的地管理公司（DMC）及企业合作。
+
+Malaga Event Gear自**1996**年以来一直在马拉加提供活动设备，技术团队以英语为工作语言，熟悉与国际客户合作。对于为期多天的企业活动和大会项目，我们的[**MICE Pack**](/packages/mice/)是常见的起点，展位屏幕也可以单独报价。
+
+欢迎浏览我们的[完整套餐系列](/packages/)，或直接通过[电话](tel:+34666346911)或[WhatsApp](https://wa.me/34666346911)联系我们。
