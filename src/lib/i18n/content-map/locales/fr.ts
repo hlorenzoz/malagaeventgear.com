@@ -171,6 +171,11 @@ export default {
 			slug: 'location-audiovisuelle-evenements-virtuels',
 			keyword: 'location audiovisuelle pour événements virtuels à Malaga',
 			status: 'propuesta'
+		},
+		'news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos': {
+			slug: 'production-audiovisuelle-progold-summit-2026-torremolinos',
+			keyword: 'production audiovisuelle du PROGOLD SUMMIT 2026 à Torremolinos',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

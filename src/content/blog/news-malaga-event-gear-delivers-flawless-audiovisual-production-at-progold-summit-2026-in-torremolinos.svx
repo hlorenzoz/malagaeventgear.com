@@ -4,6 +4,7 @@ description: "Malaga Event Gear delivered the audiovisual production for PROGOLD
 author: Hector Luis Lorenzo
 slug: news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos
 publishDate: 2026-06-06
+updatedDate: "2026-09-27"
 excerpt: "The Costa del Sol continues to solidify its reputation as a premier destination for international corporate gatherings. Between May 20 and May 23, 2026, the prestigious PROGOLD SUMMIT 2026 took place at the Hotel Meliá Costa del Sol Centro de Convenciones in Torremolinos, Málaga, Spain. This high profile corporate event brought together industry professionals for days ..."
 coverImage: https://cdn.malagaeventgear.com/blog/3084/2026.05.20-23-PROGOLD-SUMMIT-2026-Torremolinos-Hotel-Melia-Costa-del-Sol-Centro-de-Convenciones-2.webp
 categories: [Events, News]
@@ -55,7 +56,7 @@ The onsite **Progold** coordination team, led by **Francesco** and **Isabella**,
 
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('eco')} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('mice')} speed="normal" direction="left" />
 </div>
 
 ## Seamless Execution Drives Success
@@ -68,4 +69,6 @@ The balanced acoustics, high definition visual displays, and rapid technical res
 
 With an industry presence dating back to 1996, **Malaga Event Gear** has built a reputation for excellence, supporting more than 1,000 satisfied clients across a wide range of corporate and private events. Specializing in premium audiovisual equipment rental in Málaga, **MEG** combines decades of local expertise with an international, English speaking team tailored to serve global clients.
 
-If you are planning an upcoming conference, product launch, or executive meeting on the **Costa del Sol**, [contact](/packages/) **Malaga Event Gear** today via [phone](tel:+34666346911) or [WhatsApp](https://wa.me/34666346911) to secure a reliable, high quality technical partnership that guarantees your brand stands out.
+An international summit like this one also brings delegates from outside Malaga who need somewhere to stay. If you are organizing an event of your own, our partner Top Group Express has years of experience [booking hotels for delegations](https://topgroupexpress.com/en), working with the agencies, DMCs and companies that plan a group's travel.
+
+If you are planning an upcoming conference, product launch, or executive meeting on the **Costa del Sol**, [contact](/contact/) **Malaga Event Gear** today via [phone](tel:+34666346911) or [WhatsApp](https://wa.me/34666346911) to secure a reliable, high quality technical partnership that guarantees your brand stands out.

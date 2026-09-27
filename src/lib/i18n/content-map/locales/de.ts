@@ -171,6 +171,11 @@ export default {
 			slug: 'av-vermietung-virtuelle-events',
 			keyword: 'AV-Vermietung für virtuelle Events in Malaga',
 			status: 'propuesta'
+		},
+		'news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos': {
+			slug: 'audiovisuelle-produktion-progold-summit-2026-torremolinos',
+			keyword: 'audiovisuelle Produktion PROGOLD SUMMIT 2026 Torremolinos',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

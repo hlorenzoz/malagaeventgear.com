@@ -151,6 +151,11 @@ export default {
 			slug: '網上活動視聽租借',
 			keyword: '馬拉加 網上活動視聽租借',
 			status: 'propuesta'
+		},
+		'news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos': {
+			slug: '托雷莫利諾斯2026年峰會視聽製作',
+			keyword: '托雷莫利諾斯PROGOLD SUMMIT 2026視聽製作',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

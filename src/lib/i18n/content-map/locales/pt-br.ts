@@ -203,6 +203,11 @@ export default {
 			slug: 'aluguel-de-audiovisual-para-eventos-virtuais',
 			keyword: 'aluguel de audiovisual para eventos virtuais em Málaga',
 			status: 'propuesta'
+		},
+		'news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos': {
+			slug: 'producao-audiovisual-progold-summit-2026-torremolinos',
+			keyword: 'produção audiovisual do PROGOLD SUMMIT 2026 em Torremolinos',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
