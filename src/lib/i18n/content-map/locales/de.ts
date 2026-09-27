@@ -156,6 +156,11 @@ export default {
 			slug: 'av-vermietung-schulungen',
 			keyword: 'AV-Vermietung für Schulungen in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-gala-dinners': {
+			slug: 'av-vermietung-galadinner',
+			keyword: 'AV-Vermietung für Galadinner in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

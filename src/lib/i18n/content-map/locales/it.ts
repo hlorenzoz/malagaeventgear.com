@@ -152,6 +152,11 @@ export default {
 			slug: 'attrezzatura-audiovisiva-formazione',
 			keyword: 'attrezzatura audiovisiva per la formazione a Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-gala-dinners': {
+			slug: 'attrezzatura-audiovisiva-cena-di-gala',
+			keyword: 'attrezzatura audiovisiva per una cena di gala a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

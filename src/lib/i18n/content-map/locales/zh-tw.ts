@@ -136,6 +136,11 @@ export default {
 			slug: '教育訓練影音租賃',
 			keyword: '馬拉加 教育訓練影音租賃',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-gala-dinners': {
+			slug: '晚宴影音租賃',
+			keyword: '馬拉加 晚宴影音租賃',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

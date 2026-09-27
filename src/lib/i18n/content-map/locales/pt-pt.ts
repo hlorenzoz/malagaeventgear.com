@@ -188,6 +188,11 @@ export default {
 			slug: 'aluguer-de-audiovisuais-para-formacoes',
 			keyword: 'aluguer de audiovisuais para formações em Málaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-gala-dinners': {
+			slug: 'aluguer-de-audiovisuais-para-jantares-de-gala',
+			keyword: 'aluguer de audiovisuais para jantares de gala em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

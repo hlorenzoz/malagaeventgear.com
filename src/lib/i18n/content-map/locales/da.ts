@@ -156,6 +156,11 @@ export default {
 			slug: 'kursusteknik',
 			keyword: 'kursusteknik Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-gala-dinners': {
+			slug: 'gallamiddagsteknik',
+			keyword: 'gallamiddagsteknik Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

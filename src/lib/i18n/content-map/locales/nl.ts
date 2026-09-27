@@ -156,6 +156,11 @@ export default {
 			slug: 'audiovisuele-verhuur-trainingen',
 			keyword: 'audiovisuele verhuur voor trainingen in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-gala-dinners': {
+			slug: 'audiovisuele-verhuur-galadiners',
+			keyword: 'audiovisuele verhuur voor galadiners in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

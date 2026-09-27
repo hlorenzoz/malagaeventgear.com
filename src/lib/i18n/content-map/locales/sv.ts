@@ -152,6 +152,11 @@ export default {
 			slug: 'av-uthyrning-utbildningar',
 			keyword: 'AV-uthyrning för utbildningar i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-gala-dinners': {
+			slug: 'av-uthyrning-galamiddagar',
+			keyword: 'AV-uthyrning för galamiddagar i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

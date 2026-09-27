@@ -136,6 +136,11 @@ export default {
 			slug: '培訓視聽租借',
 			keyword: '馬拉加 培訓視聽租借',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-gala-dinners': {
+			slug: '晚宴視聽租借',
+			keyword: '馬拉加 晚宴視聽租借',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

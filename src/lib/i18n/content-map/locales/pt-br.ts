@@ -188,6 +188,11 @@ export default {
 			slug: 'material-audiovisual-treinamento',
 			keyword: 'material audiovisual para treinamento em Málaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-gala-dinners': {
+			slug: 'material-audiovisual-jantar-gala',
+			keyword: 'material audiovisual para jantar de gala em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
