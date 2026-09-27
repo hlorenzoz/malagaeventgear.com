@@ -333,6 +333,26 @@ cuando no hay localidad, Sevilla donde es Sevilla). Ya corregido el 2026-09-26: 
 stage-lighting-rental y stage-uplighting. Conviene hacerlo junto con la pasada de "Malaga, Spain".
 
 
+-- ❌ CONFIRMAR: qué puso MEG en los eventos de las fotos 1289 y 1331 (anotado 2026-09-27)
+
+Mismo problema que las fotos de Volvo (1266 y 1267, resuelto en 3957e9e): textos que describen
+algo que la foto no muestra.
+- 1289 (sala con luz rosa, cajas en pies y público; no se ve pantalla):
+  https://cdn.malagaeventgear.com/blog/1289/malaga_event_lighting_display_projector_sound_rental_1-600x448.webp
+  El pilar audio-visual-rental.svx dice "a conference room setup with lighting, display and a large
+  screen, delivered by Malaga Event Gear", y el manifest dice "a large display screen, and a
+  projector". Preguntado al usuario el 2026-09-27: ¿hubo pantalla o proyector de MEG, o solo luz y
+  sonido?
+- 1331 (cena de noche en un jardín delante de una mansión, orador en un atril; sin pantalla):
+  audio-visual-rental-companies.svx lleva el alt de la 1302 ("a large screen displaying a
+  presentation, and a projector in a modern conference venue"), falso para esta foto.
+  stage-uplighting, headset-lavalier-microphone-rental y stage-lighting-rental (y sus 12
+  traducciones) la presentan como "MICE Pack stage and podium setup, technician managed": ni la
+  tarima ni el paquete se ven confirmados.
+Ya corregido en audio-visual-rental-for-remote-presentations (describe solo lo que se ve). Con la
+respuesta del usuario: corregir el resto en inglés, traducciones y manifest, en un solo cambio.
+
+
 -- ✅ PRIMERO: textos de las imágenes de la galería traducidos y cargados según el idioma (anotado y HECHO 2026-09-25)
 
 Hecho el 2026-09-25: bloque `gallery` en src/lib/i18n/data/<locale>.ts (40 alt por idioma, clave =
