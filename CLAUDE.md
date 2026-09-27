@@ -326,9 +326,11 @@ segunda copia deriva en silencio porque son instrucciones en prosa, no código.
 - Layout esperado cuando se agregue material: `Google Search Console Errors/YYYY-MM-DD/` (una
   carpeta fechada por export; los agentes globean la MÁS RECIENTE, nunca hardcodean fecha),
   `gbp/`, `brief/`.
-- Contenido real hoy: `gmbeverywhere.com/meg/generic.md` y `gmbeverywhere.com/meg/fixed.md`
-  (catálogo de categorías GBP y servicios candidatos por categoría, ya resuelto en
-  `content-map.md`), `inventario/` (inventario real de equipo, ver más abajo),
+- Contenido real hoy: `google-business-profile/gmbeverywhere.com/meg/generic.md` y
+  `google-business-profile/gmbeverywhere.com/meg/fixed.md` (catálogo de categorías GBP y
+  servicios candidatos por categoría, ya resuelto en `content-map.md`, en la misma carpeta), el
+  PDF `google-business-profile/Google Business Profile Categories (Complete List - 2026).pdf`
+  (lista completa de categorías GBP), `inventario/` (inventario real de equipo, ver más abajo),
   `REPORT_Merchant_Center.md`, `REPORT_Universal_Cart.md`.
   **No hay export de GSC**: toda auditoría debe declarar que corrió sin datos de Search Console.
 
@@ -458,7 +460,7 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
   secundarias: `Party equipment rental service`, `Stage lighting equipment supplier`,
   `Video conferencing equipment supplier`. Áreas de servicio: las 23 localidades de
   `siteConfig.serviceAreas`. Catálogo de categorías y servicios candidatos:
-  `.agents/context/gmbeverywhere.com/meg/generic.md`.
+  `.agents/context/google-business-profile/gmbeverywhere.com/meg/generic.md`.
 - **Posicionamiento: soluciones integrales para eventos (confirmado por el usuario, 2026-09-25)**.
   MEG alquila equipo de sonido para eventos, sobre todo corporativos, y el sonido es el grueso
   de su inventario propio. Pero lo que vende es la SOLUCIÓN del evento: a un cliente que la
