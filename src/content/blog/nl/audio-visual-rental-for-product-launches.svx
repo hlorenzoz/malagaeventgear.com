@@ -1,0 +1,127 @@
+---
+title: "Audiovisuele verhuur voor productlanceringen in Malaga"
+description: "Audiovisuele verhuur voor productlanceringen in Malaga, Spanje: beamer, scherm, PA-geluid, draadloze microfoon en adapters voor je apparaten. Boek vandaag nog."
+excerpt: "Audiovisuele verhuur voor productlanceringen in Malaga, Spanje: beamer, scherm, PA-geluid, draadloze microfoon en adapters voor je apparaten. Boek vandaag nog."
+publishDate: "2026-09-27"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Op zoek naar audiovisuele verhuur voor productlanceringen in Malaga, Spanje? Een lancering heeft beelden nodig die scherp genoeg zijn voor foto's en telefooncamera's, PA-geluid dat de hele ruimte bereikt en een draadloze microfoon zodat de presentator rond het product kan bewegen in plaats van achter een spreekgestoelte te blijven staan.
+
+Malaga Event Gear levert, installeert en test deze opstelling in Malaga en de hele Costa del Sol.
+
+Neem vandaag nog contact met ons op om ons [aanbod van apparatuur en pakketten](/packages/) te ontdekken.
+
+## In het kort
+
+---
+
+Malaga Event Gear biedt audiovisuele verhuur voor productlanceringen in Malaga en de hele Costa del Sol: een beamer en scherm voor de onthulling, PA-geluid met mengpaneel en een draadloze handmicrofoon. Met ervaring die teruggaat tot 1996 leveren, installeren en testen we de apparatuur zodat jouw lancering volgens planning verloopt.
+
+Neem vandaag nog contact met ons op om je evenement te bespreken.
+
+## Belangrijkste punten
+
+---
+
+Malaga Event Gear biedt audiovisuele verhuur voor productlanceringen in Malaga en de hele Costa del Sol.
+
+-   Ons [Product Presentation Pack](/packages/product-presentation/) omvat een beamer met 5000 lumen, een frontprojectiescherm, PA-geluid met mengpaneel en een draadloze handmicrofoon.
+
+-   We leveren HDMI- en USB-C-adapters plus audio-interfaces zodat je eigen laptop, tablet of speler wordt aangesloten zonder gedoe met kabels op het laatste moment.
+
+-   Een LED-videowall, camera's en apparatuur voor live streaming zitten niet in onze eigen voorraad: de opstelling is een beamer met scherm, geen videowall.
+
+-   Beschikbaar in Malaga, de Costa del Sol en Sevilla, en in Granada bij verhuur boven de 400 euro, met boeking minstens 24 uur van tevoren.
+
+## Wat een productlancering nodig heeft aan AV-techniek
+
+Een productlancering is een specifiek soort presentatie: de ruimte is vaak verlicht voor foto's, gasten bewegen zich voor en na de onthulling rond het product, en de presentator wil meestal door de zaal lopen in plaats van bij het spreekgestoelte te blijven staan. Ons [Product Presentation Pack](/packages/product-presentation/) is daarop gebouwd: een beamer met 5000 lumen blijft leesbaar in een verlichte ruimte in plaats van een donkere conferentiezaal, en een draadloze handmicrofoon, geen bekabelde, laat de presentator vrij bewegen.
+
+<InlineCTA />
+
+## Je eigen apparaten aansluiten
+
+De meeste lanceringen draaien op de eigen laptop, tablet of mediaspeler van de presentator, niet op de onze. We leveren de HDMI- en USB-C-adapters en audio-interfaces om jouw apparatuur aan te sluiten op ons scherm en onze geluidsinstallatie, zodat de doorloop bestaat uit het bevestigen van de verbinding bij aankomst, niet uit het oplossen ervan ter plekke.
+
+## Wat we op voorraad hebben, en wat we elders vinden
+
+We leveren een frontprojectiescherm met stabiele standaard, een beamer met 5000 lumen, een geluidssysteem voor de locatie met 2 speakers en een mengpaneel en een draadloze handmicrofoon. We publiceren geen resolutie voor de beamer, zoals 4K, en het is geen laserbeamer. Er is geen LED-videowall in onze eigen voorraad: dit is een opstelling met beamer en scherm, afgestemd op de beelden van een lancering en niet op een wand op uitzendschaal.
+
+Camera's, een live streamingsignaal en uitzendapparatuur zitten evenmin in onze eigen voorraad. Als je lancering een podium of verhoging nodig heeft voor de onthulling zelf, valt dat niet onder dit pakket, en onze gids [audiovisuele verhuur voor galadiners](/blog/audio-visual-rental-for-gala-dinners/) behandelt het optionele podium van het MICE Pack voor dat soort opstelling.
+
+Als de onthulling echt een videowall, een camera of een stream vereist, vertel ons dan wat je in gedachten hebt. Een leverancier kan het misschien oppakken, en we kunnen dat nagaan, maar we zouden het nooit voorstellen als onze eigen apparatuur.
+
+## Echte opstellingen die we hebben geleverd
+
+![Speakers op statieven, een paneltafel met branding en zwanenhalsmicrofoons en een laag podium voor een presentatie bij een Volvo-dealer in Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
+
+Een presentatie-opstelling bij een Volvo-dealer in Malaga: PA-geluid op statieven, zwanenhalsmicrofoons op de paneltafel en een laag podium.
+
+![Verhuur van een geluidssysteem in de balzaal van Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
+
+Een PA-geluidssysteem opgesteld in Hotel Alfonso XIII in Sevilla.
+
+![Audiovisueel systeem op het podium van Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
+
+Een opstelling van scherm en geluid in Hotel Alfonso XIII in Sevilla.
+
+![Een projectiescherm, een spreekgestoelte en banieren in een conferentiezaal, ingericht voor een internationaal zakelijk evenement in de provincie Malaga.](https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-300x224.webp)
+
+Een beamer en scherm ingericht voor een internationaal zakelijk evenement in de provincie Malaga.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1267/', '/1276/', '/1269/', '/1282/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Boeking en werkgebied
+
+Onze diensten dekken Malaga, de Costa del Sol en Sevilla zonder minimale bestelling, en reiken tot Granada bij verhuur boven de 400 euro. Boek minstens 24 uur van tevoren om de beschikbaarheid te garanderen. Voor een lancering met een vast onthullingsmoment boek je zo vroeg mogelijk zodra je datum en locatie vaststaan.
+
+Heb je alleen een beamer nodig, niet het volledige lanceringspakket? Zie onze gids over [beamerverhuur](/blog/projector-rental/).
+
+## Conclusie
+
+Of het nu een showroomlancering bij een dealer is of een volledige zakelijke productonthulling, Malaga Event Gear levert de beamer, het scherm en het geluid die jouw lancering nodig heeft, met adapters klaar voor je eigen apparaten. Voor ons volledige aanbod, zie de [pagina over audiovisuele verhuur](/blog/audio-visual-rental/). [Neem contact op](/contact/) om je evenement te bespreken.
+
+Plan je in plaats daarvan een kleiner zakelijk evenement? Zie onze gids over [audiovisuele verhuur voor kleine bedrijven](/blog/audio-visual-rental-for-small-businesses/). Organiseer je in plaats daarvan een persconferentie? Zie [audiovisuele verhuur voor persconferenties in Malaga](/blog/audio-visual-rental-for-press-conferences/). Plan je in plaats daarvan een religieus evenement? Zie onze gids over [audiovisuele verhuur voor religieuze evenementen](/blog/audio-visual-rental-for-religious-events/).
+
+## Veelgestelde vragen
+
+### Welke AV-apparatuur heb ik nodig voor een productlancering?
+
+Een beamer en scherm voor de onthulling, PA-geluid met mengpaneel en een draadloze handmicrofoon zodat de presentator rond het product kan bewegen. Zie [Wat een productlancering nodig heeft aan AV-techniek](#wat-een-productlancering-nodig-heeft-aan-av-techniek) hierboven.
+
+### Leveren jullie een LED-videowall voor productlanceringen?
+
+Niet uit onze eigen voorraad. Het [Product Presentation Pack](/packages/product-presentation/) is een opstelling met beamer en scherm, geen LED-videowall. De beamer met 5000 lumen is geen laserbeamer en we publiceren er geen resolutie voor, maar hij is gebouwd om leesbaar te blijven in een verlichte ruimte. Zie [Wat we op voorraad hebben, en wat we elders vinden](#wat-we-op-voorraad-hebben-en-wat-we-elders-vinden) hierboven.
+
+### Kan ik mijn eigen laptop of tablet aansluiten op jullie AV-opstelling?
+
+Ja. We leveren HDMI- en USB-C-adapters plus audio-interfaces om je eigen laptop, tablet of mediaspeler aan te sluiten op ons scherm en onze geluidsinstallatie.
+
+### Is er een technicus inbegrepen bij een productlancering?
+
+Nee, niet bij het [Product Presentation Pack](/packages/product-presentation/): de apparatuur wordt geleverd, geïnstalleerd en getest door ons team, en daarna bediend door jou of je eigen team tijdens het evenement.
+
+### Leveren jullie een podium of verhoging voor de productonthulling?
+
+Nee, een podium maakt geen deel uit van het Product Presentation Pack. Als je lancering een podium of verhoging nodig heeft, zie onze gids [audiovisuele verhuur voor galadiners](/blog/audio-visual-rental-for-gala-dinners/), die het optionele podium van het MICE Pack behandelt.
+
+### Leveren jullie live streaming of video-opnames voor een productlancering?
+
+Niet met onze eigen apparatuur: camera's, streaming- en uitzendapparatuur zitten niet in onze eigen voorraad. Onze opstelling dekt het scherm, de beamer en het geluid van de ruimte. Zie [Wat we op voorraad hebben, en wat we elders vinden](#wat-we-op-voorraad-hebben-en-wat-we-elders-vinden) hierboven.
+
+### Hoeveel microfoons zijn inbegrepen bij een productlancering?
+
+Het Product Presentation Pack omvat 1 draadloze handmicrofoon. Als je lancering er meer nodig heeft, laat het ons weten bij het boeken.
+
+### Hoe ver van tevoren moet ik AV-apparatuur boeken voor een productlancering?
+
+Boek minstens 24 uur van tevoren om de beschikbaarheid te garanderen. Voor een lancering met een vaste onthullingsdatum boek je zo vroeg mogelijk zodra je locatie vaststaat. Onze diensten zijn beschikbaar in Malaga, de Costa del Sol en Sevilla zonder minimale bestelling, en reiken tot Granada bij verhuur boven de 400 euro.

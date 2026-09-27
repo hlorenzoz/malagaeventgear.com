@@ -67,6 +67,11 @@ export default {
 			keyword: 'prestataire technique événementiel Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-product-launches': {
+			slug: 'equipement-audiovisuel-lancement-produit',
+			keyword: 'équipement audiovisuel pour un lancement de produit à Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-corporate-meetings': {
 			slug: 'equipement-audiovisuel-reunion-entreprise',
 			keyword: "équipement audiovisuel pour une réunion d'entreprise à Malaga",

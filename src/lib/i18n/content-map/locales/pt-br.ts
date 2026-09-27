@@ -94,6 +94,11 @@ export default {
 			keyword: 'aluguel de audiovisual para eventos corporativos em Málaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-product-launches': {
+			slug: 'audiovisual-necessario-lancamento-produto',
+			keyword: 'o que é preciso de audiovisual em um lançamento de produto em Málaga',
+			status: 'propuesta'
+		},
 		'event-technology-service': {
 			slug: 'iluminacao-e-palco-para-eventos',
 			keyword: 'iluminação e palco para eventos Málaga',

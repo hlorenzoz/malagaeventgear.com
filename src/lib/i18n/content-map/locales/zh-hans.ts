@@ -46,6 +46,11 @@ export default {
 			keyword: '马拉加 企业活动视听租赁',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-product-launches': {
+			slug: '新品发布会视听租赁',
+			keyword: '马拉加 新品发布会视听租赁',
+			status: 'propuesta'
+		},
 		'event-technology-service': { slug: '活动灯光舞台搭建', keyword: '马拉加 活动灯光舞台搭建', status: 'propuesta' },
 		'audio-visual-rental-for-corporate-meetings': {
 			slug: '董事会视听租赁',

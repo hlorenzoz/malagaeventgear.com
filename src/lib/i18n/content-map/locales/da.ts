@@ -62,6 +62,11 @@ export default {
 			keyword: 'AV-udlejning til firmaevents i Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-product-launches': {
+			slug: 'produktlanceringsteknik',
+			keyword: 'produktlanceringsteknik Malaga',
+			status: 'propuesta'
+		},
 		'event-technology-service': {
 			slug: 'lys-og-sceneteknik',
 			keyword: 'lys- og sceneteknik Malaga',

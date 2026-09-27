@@ -58,6 +58,11 @@ export default {
 			keyword: 'noleggio audiovisivo per eventi aziendali a Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-product-launches': {
+			slug: 'attrezzatura-audiovisiva-lancio-prodotto',
+			keyword: 'attrezzatura audiovisiva per il lancio di un prodotto a Malaga',
+			status: 'propuesta'
+		},
 		'event-technology-service': {
 			slug: 'luci-e-palco-per-eventi',
 			keyword: 'luci e palco per eventi Malaga',

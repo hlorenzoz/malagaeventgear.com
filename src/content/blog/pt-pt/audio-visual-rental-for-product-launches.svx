@@ -1,0 +1,127 @@
+---
+title: "O que é preciso de audiovisual num lançamento de produto"
+description: "O que é preciso de audiovisual para um lançamento de produto em Málaga, Espanha: projetor, ecrã, som PA, microfone sem fios e adaptadores. Reserve já."
+excerpt: "O que é preciso de audiovisual para um lançamento de produto em Málaga, Espanha: projetor, ecrã, som PA, microfone sem fios e adaptadores. Reserve já."
+publishDate: "2026-09-27"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+O que é preciso de audiovisual para um lançamento de produto em Málaga, Espanha? Um lançamento precisa de imagens suficientemente nítidas para resistirem à fotografia e às câmaras dos telemóveis, de som PA que alcance toda a sala e de um microfone sem fios para que o orador se possa mover à volta do produto em vez de ficar preso atrás de um púlpito.
+
+A Malaga Event Gear entrega, instala e testa esta configuração em Málaga e em toda a Costa del Sol.
+
+Contacte-nos já para explorar a nossa [gama de equipamento e pacotes](/packages/).
+
+## Resumo
+
+---
+
+A Malaga Event Gear fornece aluguer de audiovisuais para lançamentos de produto em Málaga e em toda a Costa del Sol: um projetor e um ecrã para a revelação, som PA com mesa de mistura e um microfone de mão sem fios. Com uma experiência que remonta a 1996, entregamos, montamos e testamos o equipamento para que o seu lançamento decorra conforme planeado.
+
+Contacte-nos já para falar sobre o seu evento.
+
+## Pontos principais
+
+---
+
+A Malaga Event Gear fornece aluguer de audiovisuais para lançamentos de produto em Málaga e em toda a Costa del Sol.
+
+-   O nosso [Product Presentation Pack](/packages/product-presentation/) inclui um projetor de 5000 lumens, um ecrã de projeção frontal, som PA com mesa de mistura e um microfone de mão sem fios.
+
+-   Fornecemos adaptadores HDMI e USB-C mais interfaces de áudio para que o seu computador portátil, tablet ou leitor se ligue sem uma corrida a cabos de última hora.
+
+-   Um videowall de LED, câmaras e equipamento de streaming em direto não fazem parte do nosso inventário próprio: a montagem é um projetor e um ecrã, não um videowall.
+
+-   Disponível em Málaga, na Costa del Sol e em Sevilha, e em Granada para alugueres acima de 400 euros, com reserva com pelo menos 24 horas de antecedência.
+
+## Do que um lançamento de produto precisa em termos de audiovisual
+
+Um lançamento de produto é um tipo específico de apresentação: a sala está muitas vezes iluminada para fotografia, os convidados movem-se à volta do produto antes e depois da revelação, e o orador costuma querer percorrer a sala em vez de ficar junto ao púlpito. O nosso [Product Presentation Pack](/packages/product-presentation/) foi pensado para isso: um projetor de 5000 lumens mantém-se legível numa sala iluminada em vez de uma sala de conferências escura, e um microfone de mão sem fios, e não com fios, deixa o orador livre para se mover.
+
+<InlineCTA />
+
+## Ligar os seus próprios dispositivos
+
+A maioria dos lançamentos funciona com o computador portátil, o tablet ou o leitor multimédia do orador, não com os nossos. Fornecemos os adaptadores HDMI e USB-C e as interfaces de áudio para ligar o seu equipamento ao nosso ecrã e ao nosso sistema de som, de forma que a visita técnica consiste em confirmar a ligação à chegada, não em resolvê-la no momento.
+
+## O que temos em stock, e o que procuramos noutro lugar
+
+Fornecemos um ecrã de projeção frontal com suporte estável, um projetor de 5000 lumens, um sistema de som para o local com 2 colunas e uma mesa de mistura e um microfone de mão sem fios. Não divulgamos uma resolução para o projetor, como 4K, e não é laser. Não existe nenhum videowall de LED no nosso inventário próprio: trata-se de uma montagem de projetor e ecrã, dimensionada para as imagens de um lançamento e não para uma parede à escala de transmissão.
+
+As câmaras, um sinal de streaming em direto e equipamento de transmissão também não fazem parte do nosso inventário próprio. Se o seu lançamento precisar de um palco ou de uma plataforma para a própria revelação, isso não faz parte deste pacote, e o nosso guia [aluguer de audiovisuais para jantares de gala](/blog/audio-visual-rental-for-gala-dinners/) apresenta o palco opcional do MICE Pack para este tipo de montagem.
+
+Se a revelação exigir mesmo um videowall, uma câmara ou um streaming, diga-nos o que tem em mente. Um fornecedor pode conseguir assumi-lo, e podemos verificar, mas nunca o apresentaríamos como sendo o nosso próprio equipamento.
+
+## Montagens reais que já entregámos
+
+![Colunas em tripés, uma mesa de painel com identidade visual e microfones de pescoço de ganso e um palco baixo para uma apresentação num concessionário Volvo em Málaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
+
+Uma montagem de apresentação num concessionário Volvo em Málaga: som PA em tripés, microfones de pescoço de ganso na mesa de painel e um palco baixo.
+
+![Aluguer de sistema de som no salão de baile do Hotel Alfonso XIII, em Sevilha.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
+
+Um sistema de som PA montado no Hotel Alfonso XIII, em Sevilha.
+
+![Sistema audiovisual no palco do Hotel Alfonso XIII, em Sevilha.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
+
+Uma montagem de ecrã e som no Hotel Alfonso XIII, em Sevilha.
+
+![Um ecrã de projeção, um púlpito e faixas numa sala de conferências montada para um evento corporativo internacional na província de Málaga.](https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-300x224.webp)
+
+Um projetor e um ecrã montados para um evento corporativo internacional na província de Málaga.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1267/', '/1276/', '/1269/', '/1282/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Reserva e área de serviço
+
+Os nossos serviços cobrem Málaga, a Costa del Sol e Sevilha sem encomenda mínima, e estendem-se a Granada para alugueres acima de 400 euros. Reserve com pelo menos 24 horas de antecedência para garantir a disponibilidade. Para um lançamento com um momento de revelação fixo, reserve o mais cedo possível assim que a sua data e o seu local estiverem confirmados.
+
+Precisa apenas de um projetor, e não do pacote completo de lançamento? Veja o nosso guia de [aluguer de projetor](/blog/projector-rental/).
+
+## Conclusão
+
+Seja uma apresentação num concessionário ou uma revelação de produto corporativa completa, a Malaga Event Gear fornece o projetor, o ecrã e o som de que o seu lançamento precisa, com adaptadores prontos para os seus próprios dispositivos. Para a nossa gama completa, veja a [página de aluguer de audiovisuais](/blog/audio-visual-rental/). [Contacte-nos](/contact/) para falar sobre o seu evento.
+
+Está antes a planear um evento empresarial mais pequeno? Veja o nosso guia [aluguer de audiovisuais para pequenas empresas](/blog/audio-visual-rental-for-small-businesses/). Vai antes realizar uma conferência de imprensa? Veja [aluguer de audiovisuais para conferências de imprensa em Málaga](/blog/audio-visual-rental-for-press-conferences/). Está antes a planear um evento religioso? Veja o nosso guia [aluguer de audiovisuais para eventos religiosos](/blog/audio-visual-rental-for-religious-events/).
+
+## Perguntas frequentes
+
+### De que equipamento audiovisual preciso para um lançamento de produto?
+
+Um projetor e um ecrã para a revelação, som PA com mesa de mistura e um microfone de mão sem fios para que o orador se possa mover à volta do produto. Veja [Do que um lançamento de produto precisa em termos de audiovisual](#do-que-um-lançamento-de-produto-precisa-em-termos-de-audiovisual) acima.
+
+### Fornecem um videowall de LED para lançamentos de produto?
+
+Não a partir do nosso inventário próprio. O [Product Presentation Pack](/packages/product-presentation/) é uma montagem de projetor e ecrã, não um videowall de LED. O projetor de 5000 lumens não é laser e não divulgamos uma resolução para ele, mas foi concebido para se manter legível numa sala iluminada. Veja [O que temos em stock, e o que procuramos noutro lugar](#o-que-temos-em-stock-e-o-que-procuramos-noutro-lugar) acima.
+
+### Posso ligar o meu próprio computador portátil ou tablet à vossa montagem audiovisual?
+
+Sim. Fornecemos adaptadores HDMI e USB-C mais interfaces de áudio para ligar o seu próprio computador portátil, tablet ou leitor multimédia ao nosso ecrã e sistema de som.
+
+### Está incluído um técnico num lançamento de produto?
+
+Não, não no [Product Presentation Pack](/packages/product-presentation/): o equipamento é entregue, montado e testado pela nossa equipa, e depois utilizado por si ou pela sua equipa durante o evento.
+
+### Fornecem palco ou plataforma para a revelação do produto?
+
+Não, o palco não faz parte do Product Presentation Pack. Se o seu lançamento precisar de um palco ou de uma plataforma, veja o nosso guia [aluguer de audiovisuais para jantares de gala](/blog/audio-visual-rental-for-gala-dinners/), que apresenta o palco opcional do MICE Pack.
+
+### Fornecem streaming em direto ou gravação de vídeo para um lançamento de produto?
+
+Não com o nosso próprio equipamento: câmaras, streaming e equipamento de transmissão não fazem parte do nosso inventário próprio. A nossa montagem cobre o ecrã, o projetor e o som da sala. Veja [O que temos em stock, e o que procuramos noutro lugar](#o-que-temos-em-stock-e-o-que-procuramos-noutro-lugar) acima.
+
+### Quantos microfones estão incluídos num lançamento de produto?
+
+O Product Presentation Pack inclui 1 microfone de mão sem fios. Se o seu lançamento precisar de mais do que um, informe-nos no momento da reserva.
+
+### Com quanto tempo de antecedência devo reservar equipamento audiovisual para um lançamento de produto?
+
+Reserve com pelo menos 24 horas de antecedência para garantir a disponibilidade. Para um lançamento com uma data de revelação fixa, reserve o mais cedo possível assim que o seu local estiver confirmado. Os nossos serviços estão disponíveis em Málaga, na Costa del Sol e em Sevilha sem encomenda mínima, e estendem-se a Granada para alugueres acima de 400 euros.

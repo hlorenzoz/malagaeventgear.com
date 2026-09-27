@@ -1,0 +1,127 @@
+---
+title: "AV-uthyrning för produktlanseringar i Malaga"
+description: "AV-uthyrning för produktlanseringar i Malaga, Spanien: projektor, duk och PA-ljud med trådlös mikrofon, plus adaptrar för dina enheter. Boka idag."
+excerpt: "AV-uthyrning för produktlanseringar i Malaga, Spanien: projektor, duk och PA-ljud med trådlös mikrofon, plus adaptrar för dina enheter. Boka idag."
+publishDate: "2026-09-27"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Letar du efter AV-uthyrning för produktlanseringar i Malaga, Spanien? En lansering behöver bilder som är skarpa nog för foton och mobilkameror, PA-ljud som når hela rummet och en trådlös mikrofon så att presentatören kan röra sig runt produkten i stället för att stå fast bakom en talarstol.
+
+Malaga Event Gear levererar, installerar och testar denna uppsättning i Malaga och hela Costa del Sol.
+
+Kontakta oss idag för att utforska vårt [utbud av utrustning och paket](/packages/).
+
+## Kort översikt
+
+---
+
+Malaga Event Gear erbjuder AV-uthyrning för produktlanseringar i Malaga och hela Costa del Sol: en projektor och duk för avslöjandet, PA-ljud med mixerbord och en trådlös handmikrofon. Med erfarenhet som går tillbaka till 1996 levererar, installerar och testar vi utrustningen så att din lansering går enligt plan.
+
+Kontakta oss idag för att prata om ditt evenemang.
+
+## Det viktigaste
+
+---
+
+Malaga Event Gear erbjuder AV-uthyrning för produktlanseringar i Malaga och hela Costa del Sol.
+
+-   Vårt [Product Presentation Pack](/packages/product-presentation/) omfattar en projektor på 5000 lumen, en frontprojektionsduk, PA-ljud med mixerbord och en trådlös handmikrofon.
+
+-   Vi tillhandahåller HDMI- och USB-C-adaptrar plus ljudgränssnitt så att din egen bärbara dator, surfplatta eller spelare ansluts utan en kabeljakt i sista minuten.
+
+-   En LED-videovägg, kameror och utrustning för livestreaming ingår inte i vårt eget lager: uppsättningen är en projektor och duk, ingen videovägg.
+
+-   Tillgängligt i Malaga, på Costa del Sol och i Sevilla, samt i Granada för uthyrningar över 400 euro, med bokning minst 24 timmar i förväg.
+
+## Vad en produktlansering behöver i AV-väg
+
+En produktlansering är en särskild typ av presentation: rummet är ofta upplyst för fotografering, gästerna rör sig runt produkten före och efter avslöjandet, och presentatören vill oftast gå runt i rummet i stället för att stå kvar vid talarstolen. Vårt [Product Presentation Pack](/packages/product-presentation/) är byggt just för det: en projektor på 5000 lumen förblir läsbar i ett upplyst rum i stället för en mörk konferenssal, och en trådlös handmikrofon, inte en sladdansluten, låter presentatören röra sig fritt.
+
+<InlineCTA />
+
+## Ansluta dina egna enheter
+
+De flesta lanseringar körs från presentatörens egen bärbara dator, surfplatta eller mediaspelare, inte våra. Vi tillhandahåller HDMI- och USB-C-adaptrarna och ljudgränssnitten för att ansluta din utrustning till vår duk och vårt ljudsystem, så att genomgången handlar om att bekräfta anslutningen vid ankomst, inte om att lösa den på plats.
+
+## Vad vi har i lager, och vad vi tar in utifrån
+
+Vi tillhandahåller en frontprojektionsduk med stabilt stativ, en projektor på 5000 lumen, ett ljudsystem för lokalen med 2 högtalare och ett mixerbord och en trådlös handmikrofon. Vi anger ingen upplösning för projektorn, som 4K, och den är ingen laser. Det finns ingen LED-videovägg i vårt eget lager: det här är en uppsättning med projektor och duk, dimensionerad för en lanserings bilder snarare än en vägg i sändningsskala.
+
+Kameror, en livestreamingsignal och sändningsutrustning ingår inte heller i vårt eget lager. Om din lansering behöver en scen eller upphöjning för själva avslöjandet ingår inte det i det här paketet, och vår guide om [AV-uthyrning för galamiddagar](/blog/audio-visual-rental-for-gala-dinners/) tar upp den valfria scenen i MICE Pack för den typen av uppsättning.
+
+Om avslöjandet verkligen kräver en videovägg, en kamera eller en strömning, berätta vad du har i åtanke. En leverantör kanske kan ta sig an det, och det kan vi ta reda på, men vi skulle aldrig presentera det som vår egen utrustning.
+
+## Verkliga uppsättningar vi har levererat
+
+![Högtalare på stativ, ett panelbord med varumärke och gåshalsmikrofoner och en låg scen för en presentation hos en Volvo-återförsäljare i Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp)
+
+En presentationsuppsättning hos en Volvo-återförsäljare i Malaga: PA-ljud på stativ, gåshalsmikrofoner på panelbordet och en låg scen.
+
+![Uthyrning av ljudsystem i balsalen på Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
+
+Ett PA-ljudsystem uppsatt på Hotel Alfonso XIII i Sevilla.
+
+![Audiovisuellt system på scenen på Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
+
+En uppsättning med duk och ljud på Hotel Alfonso XIII i Sevilla.
+
+![En projektionsduk, en talarstol och banderoller i en konferenslokal, uppsatt för ett internationellt företagsevenemang i provinsen Malaga.](https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-300x224.webp)
+
+En projektor och duk uppsatta för ett internationellt företagsevenemang i provinsen Malaga.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1267/', '/1276/', '/1269/', '/1282/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Bokning och serviceområde
+
+Våra tjänster täcker Malaga, Costa del Sol och Sevilla utan minsta order, och sträcker sig till Granada för uthyrningar över 400 euro. Boka minst 24 timmar i förväg för att garantera tillgänglighet. För en lansering med ett bestämt avslöjandeögonblick, boka så tidigt du kan så snart datum och plats är bekräftade.
+
+Behöver du bara projektorn, inte hela lanseringspaketet? Se vår guide om [projektoruthyrning](/blog/projector-rental/).
+
+## Slutsats
+
+Oavsett om det är en visning hos en återförsäljare eller en fullständig produktlansering för företag, levererar Malaga Event Gear projektorn, duken och ljudet din lansering behöver, med adaptrar redo för dina egna enheter. Se vårt fullständiga sortiment på [sidan om AV-uthyrning](/blog/audio-visual-rental/). [Hör av dig](/contact/) för att prata om ditt evenemang.
+
+Planerar du i stället ett mindre företagsevenemang? Se vår guide om [AV-uthyrning för småföretag](/blog/audio-visual-rental-for-small-businesses/). Håller du i stället en presskonferens? Se [AV-uthyrning för presskonferenser i Malaga](/blog/audio-visual-rental-for-press-conferences/). Planerar du i stället ett religiöst evenemang? Se vår guide om [AV-uthyrning för religiösa evenemang](/blog/audio-visual-rental-for-religious-events/).
+
+## Vanliga frågor
+
+### Vilken AV-utrustning behöver jag för en produktlansering?
+
+En projektor och duk för avslöjandet, PA-ljud med mixerbord och en trådlös handmikrofon så att presentatören kan röra sig runt produkten. Se [Vad en produktlansering behöver i AV-väg](#vad-en-produktlansering-behöver-i-av-väg) ovan.
+
+### Tillhandahåller ni en LED-videovägg för produktlanseringar?
+
+Inte från vårt eget lager. [Product Presentation Pack](/packages/product-presentation/) är en uppsättning med projektor och duk, ingen LED-videovägg. Projektorn på 5000 lumen är ingen laser och vi anger ingen upplösning för den, men den är byggd för att förbli läsbar i ett upplyst rum. Se [Vad vi har i lager, och vad vi tar in utifrån](#vad-vi-har-i-lager-och-vad-vi-tar-in-utifrån) ovan.
+
+### Kan jag ansluta min egen bärbara dator eller surfplatta till er AV-uppsättning?
+
+Ja. Vi tillhandahåller HDMI- och USB-C-adaptrar plus ljudgränssnitt för att ansluta din egen bärbara dator, surfplatta eller mediaspelare till vår duk och vårt ljudsystem.
+
+### Ingår en tekniker vid en produktlansering?
+
+Nej, inte i [Product Presentation Pack](/packages/product-presentation/): utrustningen levereras, installeras och testas av vår personal, och körs sedan av dig eller ditt team under evenemanget.
+
+### Tillhandahåller ni scen eller upphöjning för produktavslöjandet?
+
+Nej, scenen ingår inte i Product Presentation Pack. Om din lansering behöver en scen eller upphöjning, se vår guide om [AV-uthyrning för galamiddagar](/blog/audio-visual-rental-for-gala-dinners/), som tar upp den valfria scenen i MICE Pack.
+
+### Tillhandahåller ni livestreaming eller videoinspelning för en produktlansering?
+
+Inte med vår egen utrustning: kameror, streaming- och sändningsutrustning ingår inte i vårt eget lager. Vår uppsättning täcker rummets duk, projektor och ljud. Se [Vad vi har i lager, och vad vi tar in utifrån](#vad-vi-har-i-lager-och-vad-vi-tar-in-utifrån) ovan.
+
+### Hur många mikrofoner ingår vid en produktlansering?
+
+Product Presentation Pack inkluderar 1 trådlös handmikrofon. Om din lansering behöver fler än en, meddela oss vid bokningen.
+
+### Hur långt i förväg bör jag boka AV-utrustning för en produktlansering?
+
+Boka minst 24 timmar i förväg för att garantera tillgänglighet. För en lansering med ett bestämt avslöjandedatum, boka så tidigt du kan så snart din plats är bekräftad. Våra tjänster finns tillgängliga i Malaga, på Costa del Sol och i Sevilla utan minsta order, och sträcker sig till Granada för uthyrningar över 400 euro.

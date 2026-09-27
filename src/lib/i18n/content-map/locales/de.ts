@@ -62,6 +62,11 @@ export default {
 			keyword: 'AV-Vermietung für Firmenveranstaltungen in Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-product-launches': {
+			slug: 'av-vermietung-produkteinfuehrungen',
+			keyword: 'AV-Vermietung für Produkteinführungen in Malaga',
+			status: 'propuesta'
+		},
 		'event-technology-service': {
 			slug: 'licht-und-buehnentechnik',
 			keyword: 'Licht- und Bühnentechnik Malaga',
