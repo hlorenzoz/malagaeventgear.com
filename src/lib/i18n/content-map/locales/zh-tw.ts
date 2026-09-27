@@ -141,6 +141,11 @@ export default {
 			slug: '晚宴影音租賃',
 			keyword: '馬拉加 晚宴影音租賃',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-remote-presentations': {
+			slug: '遠端簡報影音租賃',
+			keyword: '馬拉加 遠端簡報影音租賃',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

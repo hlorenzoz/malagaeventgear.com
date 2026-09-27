@@ -161,6 +161,11 @@ export default {
 			slug: 'audiovisuele-verhuur-galadiners',
 			keyword: 'audiovisuele verhuur voor galadiners in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-remote-presentations': {
+			slug: 'audiovisuele-verhuur-presentaties-op-afstand',
+			keyword: 'audiovisuele verhuur voor presentaties op afstand in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

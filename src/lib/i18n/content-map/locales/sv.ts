@@ -157,6 +157,11 @@ export default {
 			slug: 'av-uthyrning-galamiddagar',
 			keyword: 'AV-uthyrning för galamiddagar i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-remote-presentations': {
+			slug: 'av-uthyrning-distanspresentationer',
+			keyword: 'AV-uthyrning för distanspresentationer i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -141,6 +141,11 @@ export default {
 			slug: '晚宴视听租赁',
 			keyword: '马拉加 晚宴视听租赁',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-remote-presentations': {
+			slug: '远程演示视听租赁',
+			keyword: '马拉加 远程演示视听租赁',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

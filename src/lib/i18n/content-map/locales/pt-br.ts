@@ -193,6 +193,11 @@ export default {
 			slug: 'material-audiovisual-jantar-gala',
 			keyword: 'material audiovisual para jantar de gala em Málaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-remote-presentations': {
+			slug: 'aluguel-de-audiovisual-para-apresentacoes-remotas',
+			keyword: 'aluguel de audiovisual para apresentações remotas em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

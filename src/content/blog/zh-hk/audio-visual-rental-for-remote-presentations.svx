@@ -1,0 +1,131 @@
+---
+title: "西班牙馬拉加遠端簡報視聽租借服務"
+description: "西班牙馬拉加遠端簡報視聽租借服務：會議室音響、熒幕與手提電腦連接，專為加入現場會議室的遠端簡報者或與會者配置，服務覆蓋馬拉加及整個太陽海岸地區。"
+excerpt: "西班牙馬拉加遠端簡報視聽租借服務：會議室音響、熒幕與手提電腦連接，專為加入現場會議室的遠端簡報者或與會者配置，服務覆蓋馬拉加及整個太陽海岸地區。"
+publishDate: "2026-09-27"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+    import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+    import { getImagesForPackage } from '$lib/data/gallery';
+    import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+正在西班牙馬拉加尋找遠端簡報視聽租借服務？這比完整的虛擬活動規模較小：通常是一位遠端簡報者或與會者接入原本以現場為主的會議室，或是會議室問答環節中有人撥入參與，又或是簡報者面對的會議室裡有少數與會者是遠端連線。會議室仍然需要音響讓大家聽到通話，需要熒幕讓大家看到畫面，還需要一種方式將手提電腦同時連接至兩者。
+
+我們負責在馬拉加及整個太陽海岸地區送貨、搭建並測試這套會議室配置。通話本身由您負責：請自備手提電腦、視像會議軟件與網絡連線。
+
+請與我們聯絡，商討您的活動需要。
+
+## 概述
+
+---
+
+Malaga Event Gear在馬拉加及整個太陽海岸地區提供遠端簡報視聽租借服務：為接入現場會議或簡報的遠端簡報者或與會者配置會議室音響、熒幕與手提電腦連接。憑藉可追溯至1996年的經驗，我們的團隊負責送貨、搭建並測試會議室配置，您只需帶備手提電腦參與通話。
+
+請與我們聯絡，商討您的活動需要。
+
+## 要點
+
+---
+
+Malaga Event Gear在馬拉加及整個太陽海岸地區提供遠端簡報視聽租借服務。
+
+-   我們的[Product Presentation Pack](/packages/product-presentation/)包括會議室音響、熒幕，以及用於連接您自己手提電腦參與通話的轉接器。
+
+-   如果是規模較小的會議室，我們的[Basic MICE Pack](/packages/basic-mice/)以較小規模覆蓋相同需要，最多可容納40位賓客。
+
+-   我們提供會議室的視聽器材，而非通話本身：請自備手提電腦、視像會議軟件與網絡連線。
+
+-   攝影機、網絡攝影機、錄影與直播並非我們的自有器材。如果您的簡報需要這些，請參見下文[我們提供什麼，您需要自備什麼](#我們提供什麼您需要自備什麼)。
+
+## 遠端簡報者，而非完整的虛擬活動
+
+遠端簡報的規模比完整的虛擬或混合活動較小：通常是一位遠端簡報者或與會者接入原本以現場為主的會議室，而不是整場會議都在線上進行。如果您的活動完全是虛擬的，或除了現場觀眾外還有大量遠端觀眾，請改為參閱我們的[虛擬活動視聽器材租借](/blog/audio-visual-rental-for-virtual-events/)指南。
+
+對於單一遠端簡報者或通話問答環節，我們的[Product Presentation Pack](/packages/product-presentation/)包括一部5000流明投影機與熒幕用於通話、PA音響系統讓會議室聽到聲音，以及一支無線手持咪高峰，讓會議室裡的提問能傳達給遠端一方。如果是規模較小的會議室，[Basic MICE Pack](/packages/basic-mice/)以鵝頸咪高峰和3000流明投影機加熒幕覆蓋相同需要，最多可容納40位賓客。
+
+<InlineCTA />
+
+## 我們提供什麼，您需要自備什麼
+
+**我們提供**：PA音響系統與咪高峰，讓會議室既能聽清楚亦能被聽清楚；與會議室相配的投影機和熒幕；在Product Presentation Pack中，還包括將您自己的手提電腦連接至兩者的轉接器。
+
+**您需要自備**：您自己的手提電腦或裝置、視像會議軟件，以及網絡連線。攝影機、網絡攝影機、錄影與直播並非我們的自有器材。
+
+如果會議室需要一部對準現場的攝影機，或本場活動需要直播，請提前告知我們。我們可以向供應商查詢是否能找到，無論結果如何，我們都會在活動當日之前給您答覆。
+
+## 連接您自己的手提電腦
+
+我們的[Product Presentation Pack](/packages/product-presentation/)包括HDMI及USB-C轉接器，以及音效介面，可將您的手提電腦、平板電腦或媒體播放器連接至我們的音響與熒幕。想升級至更大型的會議廳嗎？[MICE Pack](/packages/mice/)改用更大的60吋LED顯示熒幕，並包括最長六小時的專屬技術人員，如有需要，亦可按要求沿用相同的手提電腦轉接器。預約時告知我們即可。
+
+## 我們曾交付的真實佈置
+
+![西班牙馬拉加一間空置的社區會議室，擺放著白色座椅並配有音響系統。](https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-600x450.webp)
+
+為馬拉加Neighborhood Council社區會議提供的會議室音響配置，我們已連續[七年](/blog/7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain/)為其提供支援。
+
+![馬拉加省一場活動中，賓客夜晚在花園的晚宴餐桌旁就座，一位講者站在莊園前方燈光照亮的講台旁。](https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp)
+
+馬拉加省一場晚間花園活動的講台與音響配置。
+
+![馬拉加省一間會議室內，粉紅色活動燈光與座地喇叭籠罩著就座的聽眾。](https://cdn.malagaeventgear.com/blog/1289/malaga_event_lighting_display_projector_sound_rental_1-600x448.webp)
+
+馬拉加省一間配備活動燈光與音響的會議室，用於一場簡報活動。
+
+![一座向上打燈的亞加力講台立於大樹旁，附近擺放著晚宴餐桌，於馬拉加省舉行的一場戶外晚間活動中。](https://cdn.malagaeventgear.com/blog/1261/methacrylate_lectern_outdoor_event-600x448.webp)
+
+一座為講者準備好的照明講台，位於馬拉加省一場戶外晚間活動中。
+
+<div class="my-12 overflow-hidden w-full">
+    <ImageMarquee images={getImagesForPackage('product-presentation', ['/2495/', '/1331/', '/1313/', '/1261/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## 預約與服務範圍
+
+我們的服務覆蓋馬拉加、太陽海岸及塞維利亞，無最低消費限制，租借金額超過400歐元時可延伸至格拉納達，請至少提前24小時預約以確保檔期。
+
+## 總結
+
+無論是遠端簡報者接入會議室，還是簡報過程中的通話問答環節，Malaga Event Gear都能提供您活動所需的會議室音響、熒幕與手提電腦連接，通話本身則由您負責。如需查看我們的完整產品系列，請瀏覽[活動視聽租借](/blog/audio-visual-rental/)頁面。[請與我們聯絡](/contact/)，商討您的活動需要。
+
+計劃的是完整的虛擬或混合活動？請參閱我們的[虛擬活動視聽器材租借](/blog/audio-visual-rental-for-virtual-events/)指南。需要的是研討會的視聽器材？請參閱我們的[馬拉加研討會視聽器材租借](/blog/audio-visual-rental-for-seminars/)指南。計劃的是宗教活動？請參閱我們的[宗教活動視聽器材租借](/blog/audio-visual-rental-for-religious-events/)指南。
+
+## 常見問題
+
+### 遠端簡報需要哪些器材？
+
+需要會議室音響讓與會者聽到通話，需要熒幕讓他們看到畫面，還需要一種方式將您的手提電腦連接至兩者。我們的[Product Presentation Pack](/packages/product-presentation/)三者兼備，並包括HDMI及USB-C轉接器。參見上文[遠端簡報者，而非完整的虛擬活動](#遠端簡報者而非完整的虛擬活動)。
+
+### 遠端簡報與虛擬活動有何分別？
+
+遠端簡報通常是一位遠端簡報者或與會者接入原本以現場為主的會議室。虛擬活動則涵蓋整場會議或大會，大部分或全部在線上進行。無論哪種情況，我們提供的都是同樣的內容：會議室的音響、熒幕與手提電腦連接。規模較大的情況，請參閱我們的[虛擬活動視聽器材租借](/blog/audio-visual-rental-for-virtual-events/)指南。
+
+### 遠端簡報者可以接入現場會議或活動嗎？
+
+可以。透過[Product Presentation Pack](/packages/product-presentation/)所包括的轉接器，將您自己的手提電腦或視像通話連接至我們的熒幕和音響系統，會議室即可在不增加任何器材的情況下看到並聽到遠端簡報者。
+
+### 你們是否為遠端簡報提供攝影機或網絡攝影機？
+
+並非來自我們的自有器材：攝影機、網絡攝影機、錄影與直播都不在其中。我們提供會議室的音響與熒幕，通話則由您使用自己的手提電腦和軟件進行。參見上文[我們提供什麼，您需要自備什麼](#我們提供什麼您需要自備什麼)。
+
+### 我可以在你們的配置中使用自己的手提電腦嗎？
+
+可以，[Product Presentation Pack](/packages/product-presentation/)配有HDMI及USB-C轉接器及音效介面，讓您可以直接接駁手提電腦、平板電腦或媒體播放器。
+
+### 小型遠端與會者會議需要哪個規模的套餐？
+
+對於會議室規模的會議，[Basic MICE Pack](/packages/basic-mice/)以鵝頸咪高峰及投影機加熒幕覆蓋最多40位賓客。對於較大型的會議廳，[MICE Pack](/packages/mice/)以60吋LED顯示熒幕覆蓋最多120位賓客，並包括技術人員。
+
+### 你們是否為通話提供網絡或wifi？
+
+不提供。我們的任何套餐都不包括網絡或wifi，請提前與場地確認連線方式。
+
+### 遠端簡報配置是否包括技術人員？
+
+並非所有套餐都包括。[MICE Pack](/packages/mice/)包括最長六小時的現場技術人員服務，Basic MICE Pack中技術人員為可選附加項目。[Product Presentation Pack](/packages/product-presentation/)沒有技術人員選項，由我們的團隊搭建完成後需由您自行操作。預約時可以查詢。
+
+### 遠端簡報的視聽器材租借費用是多少？
+
+費用視乎所選套餐而定：適合遠端簡報的套餐，由Basic MICE Pack到適合較大型會議廳的MICE Pack，我們的[套餐頁面](/packages/)已列出以歐元計算的確實價格，其餘目錄亦一併列出。所有價格均為未連稅價格，結賬時會加收21%的西班牙增值稅，而每個價格已包括送貨、搭建與拆卸費用。

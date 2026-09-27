@@ -161,6 +161,11 @@ export default {
 			slug: 'gallamiddagsteknik',
 			keyword: 'gallamiddagsteknik Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-remote-presentations': {
+			slug: 'av-udlejning-fjernpraesentationer',
+			keyword: 'AV-udlejning til fjernpræsentationer i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

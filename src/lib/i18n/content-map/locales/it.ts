@@ -157,6 +157,11 @@ export default {
 			slug: 'attrezzatura-audiovisiva-cena-di-gala',
 			keyword: 'attrezzatura audiovisiva per una cena di gala a Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-remote-presentations': {
+			slug: 'noleggio-audiovisivo-presentazioni-da-remoto',
+			keyword: 'noleggio audiovisivo per presentazioni da remoto a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

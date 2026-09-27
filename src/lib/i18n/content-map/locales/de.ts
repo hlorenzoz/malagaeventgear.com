@@ -161,6 +161,11 @@ export default {
 			slug: 'av-vermietung-galadinner',
 			keyword: 'AV-Vermietung für Galadinner in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-remote-presentations': {
+			slug: 'av-vermietung-remote-praesentationen',
+			keyword: 'AV-Vermietung für Remote-Präsentationen in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -161,6 +161,11 @@ export default {
 			slug: 'equipement-audiovisuel-diner-de-gala',
 			keyword: 'équipement audiovisuel pour un dîner de gala à Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-remote-presentations': {
+			slug: 'location-audiovisuelle-presentation-a-distance',
+			keyword: 'location audiovisuelle pour présentations à distance à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

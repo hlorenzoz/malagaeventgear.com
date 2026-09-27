@@ -193,6 +193,11 @@ export default {
 			slug: 'aluguer-de-audiovisuais-para-jantares-de-gala',
 			keyword: 'aluguer de audiovisuais para jantares de gala em Málaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-remote-presentations': {
+			slug: 'aluguer-de-audiovisuais-para-apresentacoes-remotas',
+			keyword: 'aluguer de audiovisuais para apresentações remotas em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
