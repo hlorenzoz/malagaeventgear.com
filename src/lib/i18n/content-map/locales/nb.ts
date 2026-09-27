@@ -76,6 +76,11 @@ export default {
 			keyword: 'møteteknikk Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-press-conferences': {
+			slug: 'av-utleie-pressekonferanser',
+			keyword: 'AV-utleie til pressekonferanser i Malaga',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: 'utleie-av-audiovisuelt-utstyr',
 			keyword: 'utleie av audiovisuelt utstyr i Malaga',

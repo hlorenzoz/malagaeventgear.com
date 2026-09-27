@@ -104,6 +104,11 @@ export default {
 			keyword: 'o que é preciso de audiovisual numa reunião de empresa em Málaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-press-conferences': {
+			slug: 'aluguer-de-audiovisuais-para-conferencias-de-imprensa',
+			keyword: 'aluguer de audiovisuais para conferências de imprensa em Málaga',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: 'aluguer-de-material-audiovisual',
 			keyword: 'aluguer de material audiovisual em Málaga',

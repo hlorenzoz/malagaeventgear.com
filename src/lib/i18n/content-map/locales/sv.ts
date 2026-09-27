@@ -68,6 +68,11 @@ export default {
 			keyword: 'AV-uthyrning för företagsmöten i Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-press-conferences': {
+			slug: 'av-uthyrning-presskonferenser',
+			keyword: 'AV-uthyrning för presskonferenser i Malaga',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: 'uthyrning-av-audiovisuell-utrustning',
 			keyword: 'uthyrning av audiovisuell utrustning Malaga',

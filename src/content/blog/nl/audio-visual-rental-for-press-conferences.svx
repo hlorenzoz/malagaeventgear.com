@@ -1,0 +1,117 @@
+---
+title: "Audiovisuele verhuur voor persconferenties in Malaga, Spanje"
+description: "Audiovisuele verhuur voor persconferenties in Malaga, Spanje: een podiummicrofoon, geluid voor de pers en een podium, aan de hele Costa del Sol."
+excerpt: "Audiovisuele verhuur voor persconferenties in Malaga, Spanje: een podiummicrofoon, geluid voor de pers en een podium, aan de hele Costa del Sol."
+publishDate: "2026-09-27"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Op zoek naar audiovisuele verhuur voor persconferenties in Malaga, Spanje? Een persconferentie is geen algemene bedrijfsconferentie: het is één spreker aan het spreekgestoelte, een geluidsinstallatie die de microfoons en opnameapparatuur van de pers bereikt, en ruimte voor de media, geen deelsessies of zitplaatsen voor een groot aantal afgevaardigden.
+
+Malaga Event Gear levert, bouwt op en test die opstelling in Malaga en de hele Costa del Sol.
+
+Neem vandaag nog contact op en laat ons je helpen om je persconferentie soepel te laten verlopen.
+
+## In het kort
+
+---
+
+Malaga Event Gear biedt audiovisuele verhuur voor persconferenties in Malaga en de hele Costa del Sol: een podiummicrofoon, een geluidsinstallatie en een podium voor de spreker, afgestemd op de aanwezige media in plaats van op een groot aantal afgevaardigden. Met ervaring die teruggaat tot 1996, drie decennia aan live evenementen, leveren, bouwen en testen we de apparatuur.
+
+Neem vandaag nog contact op voor een offerte op maat.
+
+## Belangrijkste punten
+
+---
+
+Malaga Event Gear biedt audiovisuele verhuur voor persconferenties in Malaga en de hele Costa del Sol.
+
+-   Een opstelling met spreekgestoelte, gebouwd rond een zwanenhalsmicrofoon, afgestemd op een spreker die zich tot de pers richt, niet op een groot aantal afgevaardigden.
+
+-   Podiumplatforms zijn optioneel bij te boeken, als verhoging voor de spreker of als basis voor het spreekgestoelte.
+
+-   Camera's, uitzendsignalen en een persverdeeldoos zitten niet in onze eigen apparatuur: de pers brengt en beheert doorgaans zijn eigen opnameapparatuur.
+
+-   Beschikbaar in Malaga, de Costa del Sol en Sevilla, en in Granada bij verhuur boven de 400 euro, met boeking minstens 24 uur van tevoren.
+
+## Persconferentie versus algemene conferentie
+
+Een persconferentie en een algemene bedrijfsconferentie hebben andere audiovisuele behoeften. Een conferentie met deelsessies heeft meerdere gelijktijdige opstellingen nodig: zie onze gids over [audiovisuele verhuur voor conferenties](/blog/audio-visual-rental-for-conferences/). Een persconferentie vindt meestal plaats in één ruimte, met één spreekgestoelte, één spreker of panel dat zich tot de media richt, met een geluidsinstallatie die is gebouwd om de achterkant van de ruimte te bereiken, waar de opnameapparatuur van de pers staat.
+
+Ons [Basic MICE Pack](/packages/basic-mice/) dekt een kleinere persconferentie: een zwanenhalsmicrofoon voor het spreekgestoelte, een beamer en een scherm, tot 40 gasten. Ons [MICE Pack](/packages/mice/) dekt een grotere: een zwanenhalsmicrofoon en een draadloze handmicrofoon, een 60 inch ledscherm, een technicus ter plaatse inbegrepen, en podiumplatforms of een spreekgestoelte optioneel bij te boeken.
+
+<InlineCTA />
+
+## Wat we op voorraad hebben, en wat we regelen
+
+We leveren de microfoon voor het spreekgestoelte, de geluidsinstallatie, een scherm voor branding of slides, en podiumplatforms optioneel als verhoging of podium. Camera's, een uitzend- of streamingsignaal, en een persverdeeldoos om het geluid naar de eigen opnameapparatuur van verslaggevers te verdelen, zitten niet in onze eigen apparatuur. De pers brengt en beheert doorgaans zijn eigen opnameapparatuur, en het coördineren van individuele mediasignalen is iets tussen jou en de aanwezige pers.
+
+Een backdrop met huisstijl of een banner met sponsorlogo's zit ook niet in onze eigen apparatuur. Die wordt meestal geregeld door je pr- of marketingteam en achter het spreekgestoelte geplaatst dat wij opbouwen. Is dat bij jou niet het geval, of heeft de ruimte toch een verdeeldoos nodig, laat het ons weten: we vragen het na bij onze leveranciers. Heeft niemand er een beschikbaar voor je datum, dan laten we dat weten vóór de persconferentie, niet tijdens.
+
+## Echte opstellingen die we hebben geleverd
+
+![Opstelling voor een MICE-evenement in de provincie Malaga met een spreekgestoelte, professionele verlichting, geluidsapparatuur, een groot scherm met een presentatie, en een beamer in een moderne conferentiezaal.](https://cdn.malagaeventgear.com/blog/1302/lighting-sound-big-screen-projector-rental-malaga-100x100.webp)
+
+Spreekgestoelte-, verlichtings-, geluids- en schermoplossingen voor een professioneel MICE-evenement.
+
+![Audiovisuele verhuur voor een congres in Malaga, met een groot scherm, een beamer, ledverlichting, een podium en een geluidsinstallatie.](https://cdn.malagaeventgear.com/blog/1288/malaga_congress_av_rental_setup-300x224.webp)
+
+Een professionele audiovisuele opstelling voor een congres in Malaga, met een groot scherm, een beamer, ledverlichting, een podium en een geluidsinstallatie.
+
+![Beamer- en schermverhuur voor een evenement in de provincie Malaga.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-300x224.webp)
+
+Een beamer en scherm opgesteld in een conferentiezaal in de provincie Malaga, klaar voor een presentatie.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1282/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Boeking en werkgebied
+
+Onze diensten dekken Malaga, de Costa del Sol en Sevilla zonder minimale bestelling, en reiken tot Granada bij verhuur boven de 400 euro. Boek minstens 24 uur van tevoren om beschikbaarheid te garanderen.
+
+## Conclusie
+
+Of het nu een kleine aankondiging is of een grotere mediabriefing, Malaga Event Gear levert het spreekgestoelte-geluid en de podiumplatforms die jouw persconferentie nodig heeft. Voor ons volledige aanbod, zie de [pagina over audiovisuele verhuur](/blog/audio-visual-rental/). [Neem contact op](/contact/) voor een offerte op maat.
+
+Organiseer je de persconferentie in plaats daarvan in een villa, op een terras of in een tuin? Zie onze gids over [audiovisuele verhuur voor evenementen buiten](/blog/audio-visual-rental-for-outdoor-events/) voor de planning van stroom en weer. Kondig je in plaats daarvan een product aan? Zie [audiovisuele verhuur voor productlanceringen](/blog/audio-visual-rental-for-product-launches/).
+
+## Veelgestelde vragen
+
+### Welke AV-apparatuur heb ik nodig voor een persconferentie?
+
+Een microfoon voor het spreekgestoelte, een geluidsinstallatie die de ruimte bereikt, en een scherm voor branding of slides. Het [Basic MICE Pack](/packages/basic-mice/) dekt een kleinere persconferentie, en het [MICE Pack](/packages/mice/) dekt een grotere met een technicus inbegrepen. Zie [Persconferentie versus algemene conferentie](#persconferentie-versus-algemene-conferentie) hierboven.
+
+### Leveren jullie een cameraverhoging of platform voor persfotografen?
+
+Camera's zitten niet in onze eigen apparatuur, maar onze optionele podiumplatforms op het [MICE Pack](/packages/mice/) kunnen worden ingezet als verhoging of platform voor fotografen en cameramensen.
+
+### Hoeveel microfoons heb ik nodig voor een persconferentie?
+
+Het [Basic MICE Pack](/packages/basic-mice/) bevat 1 zwanenhalsmicrofoon voor het spreekgestoelte. Het [MICE Pack](/packages/mice/) bevat een zwanenhalsmicrofoon plus een draadloze handmicrofoon, handig als een panel van sprekers of een vraag- en antwoordsessie de microfoon moet doorgeven.
+
+### Leveren jullie een persverdeeldoos of individuele geluidssignalen voor verslaggevers?
+
+Niet uit onze eigen apparatuur: een verdeeldoos om het geluid van het spreekgestoelte naar meerdere opnameapparaten van verslaggevers te verdelen, zit daar niet bij. De pers brengt en beheert doorgaans zijn eigen opnameapparatuur bij het spreekgestoelte. Zie [Wat we op voorraad hebben, en wat we regelen](#wat-we-op-voorraad-hebben-en-wat-we-regelen) hierboven.
+
+### Levert het AV-bedrijf een backdrop met huisstijl of een banner met sponsorlogo's?
+
+Niet uit onze eigen apparatuur. Een backdrop of banner wordt meestal geregeld door je pr- of marketingteam, en wij bouwen het spreekgestoelte, de geluidsinstallatie en de podiumplatforms op waar die voor staat. Zie [Wat we op voorraad hebben, en wat we regelen](#wat-we-op-voorraad-hebben-en-wat-we-regelen) hierboven als dat bij jou niet het geval is.
+
+### Leveren jullie livestreaming, een uitzendsignaal of video-opnames?
+
+Niet met onze eigen apparatuur: camera's, streaming- en uitzendapparatuur zitten niet in onze eigen apparatuur. Onze opstelling dekt het geluid, het scherm en de podiumplatforms van de ruimte. Heb je een stream of opname nodig, laat het ons weten, dan vragen we het na bij onze leveranciers. Kan niemand je datum dekken, dan laten we dat weten vóór de persconferentie.
+
+### Hoe ver van tevoren moet ik AV-apparatuur boeken voor een persconferentie?
+
+Boek minstens 24 uur van tevoren om beschikbaarheid te garanderen. Onze diensten zijn beschikbaar in Malaga, de Costa del Sol en Sevilla zonder minimale bestelling, en reiken tot Granada bij verhuur boven de 400 euro.
+
+### Hoeveel mensen kan een AV-opstelling voor een persconferentie aan?
+
+Het Basic MICE Pack dekt tot 40 gasten, en het MICE Pack dekt tot 120.

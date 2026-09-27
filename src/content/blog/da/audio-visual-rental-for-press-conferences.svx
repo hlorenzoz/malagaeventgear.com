@@ -1,0 +1,117 @@
+---
+title: "AV-udlejning til pressemøder i Malaga, Spanien"
+description: "AV-udlejning til pressemøder i Malaga, Spanien: en podiemikrofon, lyd til pressen og et scenepodie, langs hele Costa del Sol."
+excerpt: "AV-udlejning til pressemøder i Malaga, Spanien: en podiemikrofon, lyd til pressen og et scenepodie, langs hele Costa del Sol."
+publishDate: "2026-09-27"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Leder du efter AV-udlejning til pressemøder i Malaga, Spanien? En pressekonference er ikke en almindelig firmakonference: det er én taler ved podiet, et lydanlæg, der når ud til pressens mikrofoner og optagere, og plads til medierne, ingen sideløbende sessioner eller siddepladser til et stort antal delegerede.
+
+Malaga Event Gear leverer, opsætter og tester den opsætning i Malaga og langs hele Costa del Sol.
+
+Kontakt os allerede i dag, så hjælper vi med at få din pressekonference til at forløbe problemfrit.
+
+## Kort overblik
+
+---
+
+Malaga Event Gear tilbyder AV-udstyr til pressekonferencer i Malaga og langs hele Costa del Sol: en podiemikrofon, lydanlæg og et scenepodie til taleren, tilpasset medierne i lokalet frem for et stort antal delegerede. Med erfaring, der går tilbage til 1996, tre årtiers liveevents, leverer, opsætter og tester vi udstyret.
+
+Kontakt os allerede i dag for et tilbud, der er skræddersyet til dig.
+
+## Det vigtigste
+
+---
+
+Malaga Event Gear tilbyder AV-udstyr til pressekonferencer i Malaga og langs hele Costa del Sol.
+
+-   En podieopsætning bygget omkring en svanehalsmikrofon, tilpasset en taler, der henvender sig til pressen, ikke et stort antal delegerede.
+
+-   Scenepodier kan tilkøbes, til en forhøjning til taleren eller en platform til podiet.
+
+-   Kameraer, transmissionssignaler og en fordelerboks til pressens lyd er ikke en del af vores eget udstyr: pressen medbringer og styrer typisk selv sit optageudstyr.
+
+-   Tilgængelig i Malaga, på Costa del Sol og i Sevilla, samt i Granada ved lejemål over 400 euro, med booking mindst 24 timer i forvejen.
+
+## Pressekonference eller almindelig konference
+
+En pressekonference og en almindelig firmakonference har brug for forskellige ting fra AV-udstyret. En konference med sideløbende sessioner har brug for flere samtidige opsætninger: se vores guide til [konferenceteknik](/blog/audio-visual-rental-for-conferences/). En pressekonference foregår som regel i én sal, med ét podie, én taler eller panel, der henvender sig til medierne, med et lydanlæg bygget til at nå bagerst i lokalet, hvor pressens optagere står.
+
+Vores [Basic MICE Pack](/packages/basic-mice/) dækker en mindre pressekonference: en svanehalsmikrofon til podiet, en projektor og en skærm, op til 40 gæster. Vores [MICE Pack](/packages/mice/) dækker en større: en svanehalsmikrofon og en trådløs håndmikrofon, en 60-tommer LED-skærm, en tekniker på stedet inkluderet, samt scenepodier eller en talerpult, der kan tilkøbes til podiet.
+
+<InlineCTA />
+
+## Hvad vi har på lager, og hvad vi skaffer
+
+Vi leverer podiemikrofonen, lydanlægget, en skærm til branding eller slides, samt scenepodier som tilkøb til en forhøjning eller en podieplatform. Kameraer, et transmissions- eller streamingsignal, og en fordelerboks til at fordele lyden til journalisternes egne optagere er ikke en del af vores eget udstyr. Pressen medbringer og styrer typisk selv sit optageudstyr, og koordinering af individuelle mediesignaler er noget mellem dig og den fremmødte presse.
+
+En brandet baggrundsvæg eller et bannerdisplay med sponsorlogoer er heller ikke en del af vores eget udstyr. Det bliver som regel skaffet af dit pr- eller marketingteam og placeret bag podiet, vi sætter op. Hvis det ikke er tilfældet hos dig, eller hvis lokalet alligevel har brug for en fordelerboks, så sig til, og vi spørger rundt hos vores leverandører. Hvis ingen har en til rådighed på din dato, siger vi det til dig før pressemødet, ikke undervejs.
+
+## Rigtige opsætninger, vi har leveret
+
+![Opsætning til et MICE-event i provinsen Malaga med et podie, professionel belysning, lydudstyr, en stor skærm, der viser en præsentation, og en projektor i et moderne konferencelokale.](https://cdn.malagaeventgear.com/blog/1302/lighting-sound-big-screen-projector-rental-malaga-100x100.webp)
+
+Podie-, lys-, lyd- og skærmløsninger til et professionelt MICE-event.
+
+![AV-udlejning til en kongres i Malaga, med en stor skærm, en projektor, LED-belysning, et podie og et lydanlæg.](https://cdn.malagaeventgear.com/blog/1288/malaga_congress_av_rental_setup-300x224.webp)
+
+En professionel AV-opsætning til en kongres i Malaga, med en stor skærm, en projektor, LED-belysning, et podie og et lydanlæg.
+
+![Udlejning af projektor og skærm til et event i provinsen Malaga.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-300x224.webp)
+
+En projektor og en skærm sat op i et konferencelokale i provinsen Malaga, klar til en præsentation.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1282/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Booking og dækningsområde
+
+Vores services dækker Malaga, Costa del Sol og Sevilla uden minimumsbestilling, og strækker sig til Granada ved lejemål over 400 euro. Book mindst 24 timer i forvejen for at sikre dig tilgængelighed.
+
+## Konklusion
+
+Uanset om det er en lille meddelelse eller et større pressemøde, leverer Malaga Event Gear podielyden og scenepodierne, din pressekonference har brug for. Se vores fulde sortiment på [siden om AV-udlejning](/blog/audio-visual-rental/). [Kontakt os](/contact/) for et tilbud, der er skræddersyet til dig.
+
+Holder du i stedet pressekonferencen i en villa, på en terrasse eller i en have? Se vores guide til [AV-udstyr til udendørs events](/blog/audio-visual-rental-for-outdoor-events/) for planlægning af strøm og vejr. Annoncerer du i stedet et produkt? Se [AV-udstyr til produktlanceringer](/blog/audio-visual-rental-for-product-launches/).
+
+## Ofte stillede spørgsmål
+
+### Hvilket AV-udstyr har jeg brug for til en pressekonference?
+
+En podiemikrofon, et lydanlæg, der når hele lokalet, og en skærm til branding eller slides. [Basic MICE Pack](/packages/basic-mice/) dækker en mindre pressekonference, og [MICE Pack](/packages/mice/) dækker en større med en tekniker inkluderet. Se [Pressekonference eller almindelig konference](#pressekonference-eller-almindelig-konference) ovenfor.
+
+### Leverer I en forhøjning eller platform til pressefotografer?
+
+Kameraer er ikke en del af vores eget udstyr, men vores scenepodier som tilkøb på [MICE Pack](/packages/mice/) kan placeres som en forhøjning eller platform til fotografer og kameraoperatører.
+
+### Hvor mange mikrofoner har jeg brug for til en pressekonference?
+
+[Basic MICE Pack](/packages/basic-mice/) inkluderer 1 svanehalsmikrofon til podiet. [MICE Pack](/packages/mice/) inkluderer en svanehalsmikrofon plus en trådløs håndmikrofon, nyttigt hvis et panel af talere eller en spørgerunde har brug for at sende mikrofonen rundt.
+
+### Leverer I en fordelerboks til pressen eller individuelle lydsignaler til journalister?
+
+Ikke fra vores eget udstyr: en fordelerboks til at fordele podiets lyd til flere journalisters optagere er ikke en del af det. Pressen medbringer og styrer typisk selv sit optageudstyr ved podiet. Se [Hvad vi har på lager, og hvad vi skaffer](#hvad-vi-har-på-lager-og-hvad-vi-skaffer) ovenfor.
+
+### Leverer AV-firmaet en brandet baggrundsvæg eller et bannerdisplay?
+
+Ikke fra vores eget udstyr. En baggrundsvæg eller banner bliver som regel skaffet af dit pr- eller marketingteam, og vi sætter podiet, lydanlægget og de scenepodier op, den står foran. Se [Hvad vi har på lager, og hvad vi skaffer](#hvad-vi-har-på-lager-og-hvad-vi-skaffer) ovenfor, hvis det ikke er tilfældet hos dig.
+
+### Leverer I livestreaming, et transmissionssignal eller videooptagelse?
+
+Ikke med vores eget udstyr: kameraer, streaming- og transmissionsudstyr er ikke en del af vores eget udstyr. Vores opsætning dækker lokalets lyd, skærm og scenepodier. Hvis du har brug for en livestream eller en optagelse, så sig til, så spørger vi rundt hos vores leverandører. Hvis ingen kan dække din dato, siger vi det til dig før pressemødet.
+
+### Hvor lang tid i forvejen bør jeg booke AV-udstyr til en pressekonference?
+
+Book mindst 24 timer i forvejen for at sikre dig tilgængelighed. Vores services er tilgængelige i Malaga, på Costa del Sol og i Sevilla uden minimumsbestilling, og strækker sig til Granada ved lejemål over 400 euro.
+
+### Hvor mange personer kan en AV-opsætning til en pressekonference rumme?
+
+Basic MICE Pack dækker op til 40 gæster, og MICE Pack dækker op til 120.

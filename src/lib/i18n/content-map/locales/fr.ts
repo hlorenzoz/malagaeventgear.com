@@ -72,6 +72,11 @@ export default {
 			keyword: "équipement audiovisuel pour une réunion d'entreprise à Malaga",
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-press-conferences': {
+			slug: 'equipement-audiovisuel-conference-presse',
+			keyword: 'équipement audiovisuel pour une conférence de presse à Malaga',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: 'loueur-materiel-audiovisuel',
 			keyword: 'loueur de matériel audiovisuel à Malaga',

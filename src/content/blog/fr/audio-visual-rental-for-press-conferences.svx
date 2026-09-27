@@ -1,0 +1,117 @@
+---
+title: "Équipement audiovisuel pour une conférence de presse à Malaga"
+description: "Équipement audiovisuel pour une conférence de presse à Malaga, en Espagne : micro de pupitre, sonorisation et estrade, sur toute la Costa del Sol."
+excerpt: "Équipement audiovisuel pour une conférence de presse à Malaga, en Espagne : micro de pupitre, sonorisation et estrade, sur toute la Costa del Sol."
+publishDate: "2026-09-27"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Vous cherchez un équipement audiovisuel pour une conférence de presse à Malaga, en Espagne ? Une conférence de presse n'est pas une conférence d'entreprise classique : c'est un seul intervenant au pupitre, une sonorisation qui porte jusqu'aux micros et aux enregistreurs de la presse, et un espace pour les médias, pas des sessions parallèles ni une disposition pour de nombreux délégués.
+
+Malaga Event Gear livre, installe et teste ce dispositif à Malaga et sur toute la Costa del Sol.
+
+Contactez-nous dès aujourd'hui et laissez-nous vous aider à faire en sorte que votre conférence de presse se déroule sans accroc.
+
+## En bref
+
+---
+
+Malaga Event Gear propose la location audiovisuelle pour conférences de presse à Malaga et sur toute la Costa del Sol : un microphone de pupitre, une sonorisation et une estrade pour l'intervenant, dimensionnés pour les médias présents plutôt que pour un grand nombre de délégués. Fort d'une expérience qui remonte à 1996, trois décennies d'événements en direct, nous livrons, installons et testons le matériel.
+
+Contactez-nous dès aujourd'hui pour un devis personnalisé.
+
+## Points clés
+
+---
+
+Malaga Event Gear propose la location audiovisuelle pour conférences de presse à Malaga et sur toute la Costa del Sol.
+
+-   Un dispositif de pupitre construit autour d'un microphone col de cygne, dimensionné pour un intervenant s'adressant à la presse, pas pour un grand nombre de délégués.
+
+-   Les plateaux de scène modulables sont disponibles en option, pour une estrade d'intervenant ou une plateforme de pupitre.
+
+-   Les caméras, les flux de diffusion et un boîtier de répartition audio pour la presse ne font pas partie de notre propre inventaire : la presse apporte et gère généralement son propre matériel d'enregistrement.
+
+-   Disponible à Malaga, sur la Costa del Sol et à Sevilla, et à Granada pour les locations de plus de 400 euros, avec réservation au moins 24 heures à l'avance.
+
+## Conférence de presse ou conférence d'entreprise classique
+
+Une conférence de presse et une conférence d'entreprise classique n'ont pas les mêmes besoins en audiovisuel. Une conférence avec des sessions parallèles a besoin de plusieurs dispositifs simultanés : voir notre guide [équipement audiovisuel pour une conférence](/blog/audio-visual-rental-for-conferences/). Une conférence de presse se déroule généralement dans une seule salle, avec un seul pupitre, un seul intervenant ou un panel s'adressant aux médias, avec une sonorisation conçue pour porter jusqu'au fond de la salle où se trouvent les enregistreurs de la presse.
+
+Notre [Basic MICE Pack](/packages/basic-mice/) couvre une conférence de presse plus petite : un microphone col de cygne pour le pupitre, un vidéoprojecteur et un écran, jusqu'à 40 invités. Notre [MICE Pack](/packages/mice/) couvre une conférence plus grande : un microphone col de cygne et un microphone main sans fil, un écran LED de 60 pouces, un technicien inclus sur place, et une estrade ou un pupitre disponibles en option pour l'intervenant.
+
+<InlineCTA />
+
+## Ce que nous avons en stock, et ce que nous trouvons
+
+Nous fournissons le microphone de pupitre, la sonorisation, un écran pour l'image de marque ou les diapositives, et les plateaux de scène modulables en option pour une estrade ou une plateforme de pupitre. Les caméras, un flux de diffusion ou de streaming, et un boîtier de répartition audio pour distribuer le son aux enregistreurs des journalistes ne font pas partie de notre propre inventaire. La presse apporte et gère généralement son propre matériel d'enregistrement, et la coordination des flux individuels pour les médias se fait entre vous et la presse présente.
+
+Un fond de scène personnalisé ou une bannière de sponsors ne fait pas non plus partie de notre propre inventaire. Il est généralement fourni par votre équipe de relations presse ou marketing, et positionné derrière le pupitre que nous installons. Si ce n'est pas votre cas, ou si la salle a finalement besoin d'un boîtier de répartition, faites-le nous savoir : nous pouvons nous renseigner auprès de nos fournisseurs. Si aucun n'en a de disponible pour votre date, nous vous le dirons avant la conférence de presse, pas pendant.
+
+## Installations réelles que nous avons livrées
+
+![Installation pour un événement MICE dans la province de Malaga, avec un pupitre, un éclairage professionnel, du matériel de sonorisation, un grand écran affichant une présentation, et un vidéoprojecteur, dans un lieu de conférence moderne.](https://cdn.malagaeventgear.com/blog/1302/lighting-sound-big-screen-projector-rental-malaga-100x100.webp)
+
+Solutions de pupitre, d'éclairage, de sonorisation et d'écran pour un événement MICE professionnel.
+
+![Location audiovisuelle pour un congrès à Malaga, avec un grand écran, un vidéoprojecteur, un éclairage LED, un pupitre et une sonorisation.](https://cdn.malagaeventgear.com/blog/1288/malaga_congress_av_rental_setup-300x224.webp)
+
+Une installation audiovisuelle professionnelle pour un congrès à Malaga, avec un grand écran, un vidéoprojecteur, un éclairage LED, un pupitre et une sonorisation.
+
+![Location de vidéoprojecteur et d'écran pour un événement dans la province de Malaga.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-300x224.webp)
+
+Un vidéoprojecteur et un écran installés dans une salle de conférence dans la province de Malaga, prêts pour une présentation.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1282/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Réservation et zone de service
+
+Nos services couvrent Malaga, la Costa del Sol et Sevilla sans minimum de commande, et s'étendent jusqu'à Granada pour les locations de plus de 400 euros. Réservez au moins 24 heures à l'avance pour garantir la disponibilité.
+
+## Conclusion
+
+Qu'il s'agisse d'une petite annonce ou d'un point presse plus important, Malaga Event Gear fournit la sonorisation de pupitre et les plateaux de scène dont votre conférence de presse a besoin. Pour notre gamme complète, voir la [page de location audiovisuelle](/blog/audio-visual-rental/). [Contactez-nous](/contact/) pour un devis personnalisé.
+
+Vous organisez plutôt votre conférence de presse dans une villa, sur une terrasse ou dans un jardin ? Voir notre guide [équipement audiovisuel pour événements en extérieur](/blog/audio-visual-rental-for-outdoor-events/) pour la gestion de l'alimentation électrique et de la météo. Vous annoncez plutôt un produit ? Voir [équipement audiovisuel pour un lancement de produit](/blog/audio-visual-rental-for-product-launches/).
+
+## Questions fréquentes
+
+### De quel équipement audiovisuel ai-je besoin pour une conférence de presse ?
+
+Un microphone de pupitre, une sonorisation qui porte dans toute la salle, et un écran pour l'image de marque ou les diapositives. Le [Basic MICE Pack](/packages/basic-mice/) couvre une conférence de presse plus petite, et le [MICE Pack](/packages/mice/) couvre une plus grande avec un technicien inclus. Voir [Conférence de presse ou conférence d'entreprise classique](#conférence-de-presse-ou-conférence-dentreprise-classique) plus haut.
+
+### Fournissez-vous une estrade ou une plateforme pour les photographes de presse ?
+
+Les caméras ne font pas partie de notre propre inventaire, mais les plateaux de scène modulables en option sur le [MICE Pack](/packages/mice/) peuvent être positionnés comme une estrade ou une plateforme pour les photographes et les cadreurs.
+
+### Combien de microphones me faut-il pour une conférence de presse ?
+
+Le [Basic MICE Pack](/packages/basic-mice/) inclut 1 microphone col de cygne pour le pupitre. Le [MICE Pack](/packages/mice/) inclut un microphone col de cygne plus un microphone main sans fil, utile si un panel d'intervenants ou une séance de questions-réponses a besoin de faire circuler le micro.
+
+### Fournissez-vous un boîtier de répartition pour la presse ou des flux audio individuels pour les journalistes ?
+
+Pas dans notre propre inventaire : un boîtier de répartition pour distribuer le son du pupitre à plusieurs enregistreurs de journalistes n'en fait pas partie. La presse apporte et gère généralement son propre matériel d'enregistrement au pupitre. Voir [Ce que nous avons en stock, et ce que nous trouvons](#ce-que-nous-avons-en-stock-et-ce-que-nous-trouvons) plus haut.
+
+### L'entreprise audiovisuelle fournit-elle un fond de scène personnalisé ou une bannière de sponsors ?
+
+Pas dans notre propre inventaire. Un fond de scène ou une bannière est généralement fourni par votre équipe de relations presse ou marketing, et nous installons le pupitre, la sonorisation et les plateaux de scène devant lesquels il se trouve. Voir [Ce que nous avons en stock, et ce que nous trouvons](#ce-que-nous-avons-en-stock-et-ce-que-nous-trouvons) plus haut si ce n'est pas votre cas.
+
+### Proposez-vous la diffusion en direct, un flux de diffusion ou l'enregistrement vidéo ?
+
+Pas avec notre propre matériel : les caméras, le matériel de streaming et de diffusion ne font pas partie de notre propre inventaire. Notre dispositif couvre la sonorisation, l'écran et les plateaux de scène de la salle. Si vous avez besoin d'un streaming ou d'un enregistrement, faites-le nous savoir : nous pouvons nous renseigner auprès de nos fournisseurs. Si aucun ne peut couvrir votre date, nous vous le dirons avant la conférence de presse.
+
+### Combien de temps à l'avance dois-je réserver l'équipement audiovisuel pour une conférence de presse ?
+
+Réservez au moins 24 heures à l'avance pour garantir la disponibilité. Nos services sont disponibles à Malaga, sur la Costa del Sol et à Sevilla sans minimum de commande, et s'étendent jusqu'à Granada pour les locations de plus de 400 euros.
+
+### Combien de personnes un dispositif audiovisuel pour conférence de presse peut-il accueillir ?
+
+Le Basic MICE Pack couvre jusqu'à 40 invités, et le MICE Pack couvre jusqu'à 120.
