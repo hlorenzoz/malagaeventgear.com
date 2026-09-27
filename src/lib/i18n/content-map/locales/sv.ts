@@ -177,6 +177,11 @@ export default {
 			slug: 'monterskarmar-ecoc-2026-malaga',
 			keyword: 'monterskärmar ECOC 2026 Malaga',
 			status: 'propuesta'
+		},
+		'news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis': {
+			slug: 'audiovisuell-produktion-bmotion-benahavis',
+			keyword: 'audiovisuell produktion Bmotion Benahavís',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

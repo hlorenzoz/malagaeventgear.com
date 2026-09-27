@@ -161,6 +161,11 @@ export default {
 			slug: '光通訊展2026展位熒幕安裝',
 			keyword: '馬拉加ECOC 2026展位熒幕',
 			status: 'propuesta'
+		},
+		'news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis': {
+			slug: '貝納阿維斯活動視聽製作',
+			keyword: '貝納阿維斯Bmotion視聽製作',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

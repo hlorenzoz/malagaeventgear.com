@@ -181,6 +181,11 @@ export default {
 			slug: 'standschermen-ecoc-2026-malaga',
 			keyword: 'standschermen ECOC 2026 Malaga',
 			status: 'propuesta'
+		},
+		'news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis': {
+			slug: 'audiovisuele-productie-bmotion-benahavis',
+			keyword: 'audiovisuele productie Bmotion Benahavís',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
