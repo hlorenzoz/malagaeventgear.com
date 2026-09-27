@@ -4,7 +4,7 @@ description: "Audio visual rental for trade shows in Malaga, Spain: sound, mic, 
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-trade-shows
 publishDate: "2026-08-05"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-27"
 excerpt: "Audio visual rental for trade shows in Malaga, Spain: sound, mic, screen and lighting for your own stand's demo, plus what our own inventory doesn't cover."
 coverImage: https://cdn.malagaeventgear.com/blog/1266/volvo_mice_event_setup-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
@@ -84,13 +84,13 @@ Being direct about scope here matters more than on most pages we publish, becaus
 -   **Touchscreens, kiosks or registration desk laptops.** None of them is in our own inventory, so we give no model or spec sheet for them.
 -   **A standard published multi day trade show rate.** We operate delivery only, priced per single event, not per day. There is no catalog day rate for a multi day booth booking. That said, multi day is not impossible: our crew ran the full display and sound production across the four day [PROGOLD SUMMIT 2026 in Torremolinos](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/), a genuine multi day engagement quoted and staffed individually, not sold off a published rate card. A multi day stand works the same way: [contact us](/contact/) for a custom quote rather than expect a per day price on this page.
 
-For the first three, describe what your stand needs and we can see if a supplier is able to cover it. If none is, you will hear it from us at the quote stage. A suspended screen or banner would be rigged by a specialised supplier, if we can find one, never by our own crew.
+For the first three, describe what your stand needs and we can see if a supplier is able to cover it. If none is, you will hear it from us at the quote stage. A suspended screen or banner would be rigged by a specialized supplier, if we can find one, never by our own crew.
 
 ## A Lit Room Legible Screen for Your Product Demo
 
 An exhibition hall almost never goes dark for one stand's demo, which is exactly the problem a standard conference projector has: it is built for a dim room, and it washes out the moment the hall's own lighting stays on so the rest of the floor can keep moving. Our Product Presentation Pack's projector is rated at 5000 lumens specifically to stay legible in a lit room, the same condition every trade show floor runs under, and it pairs with a wireless handheld microphone so a presenter can step toward a passing visitor without pausing the demo rather than staying tethered to a lectern.
 
-We cover the flat panel screen on its own, and where it fits a busy exhibition floor, in more depth in our TV screen rental guide, which already names exhibition booth branding as one of its use cases. This page covers the fuller stand scenario that guide does not: sound, a microphone and lighting matched to a package alongside the screen, not the screen in isolation.
+We cover the flat panel screen on its own, and where it fits a busy exhibition floor, in more depth in our [TV screen rental](/blog/tv-screen-rental/) guide, which already names exhibition booth branding as one of its use cases. This page covers the fuller stand scenario that guide does not: sound, a microphone and lighting matched to a package alongside the screen, not the screen in isolation.
 
 ## Sound Sized to Your Stand, Not the Whole Hall
 
@@ -117,13 +117,13 @@ See live pricing and full inclusions on our [packages page](/packages/), or the 
 
 A look at real product presentation and stand style setups we have delivered across Malaga:
 
-![A branded reception desk, display screens and a stage area at a Volvo dealership product presentation delivered by Malaga Event Gear in Malaga.](https://cdn.malagaeventgear.com/blog/1266/volvo_mice_event_setup-1024x765.webp)
+![Two HK Audio speakers on tripods, a branded panel table with gooseneck microphones and a low stage inside a Volvo dealership showroom in Malaga, set up by Malaga Event Gear.](https://cdn.malagaeventgear.com/blog/1266/volvo_mice_event_setup-1024x765.webp)
 
-A real Volvo dealership product presentation in Malaga: a branded reception desk, display screens and a stage area, a self contained footprint with a demo screen, sound and a presenter microphone, not a full convention hall production.
+A real Volvo dealership presentation in Malaga: speakers on tripods, gooseneck microphones on a branded panel table and a low stage, a self contained footprint inside a showroom rather than a full convention hall production.
 
 In September 2026 our crew worked an actual exhibition floor rather than something close to one. At [ECOC 2026, the optical communications congress held at FYCMA](/blog/news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga/), we supplied and installed the display screens on exhibitor stands across the show floor, choosing the mount for whatever each stand was actually built from and leaving every screen ready for the exhibitor to connect a laptop and go. That writeup has the photographs of what the build up window really looks like in the days before a hall opens, which is the part of a stand booking most first time exhibitors have never seen.
 
-![A wireless HK Audio speaker and gooseneck microphones set up on a hard stone floored courtyard table for a professional association meeting in Malaga.](https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-1024x765.webp)
+![An HK Audio speaker on its stand and gooseneck microphones on the panel table, under a stone arcade, for a meeting of the Colegio Oficial de Gestores Administrativos de Malaga.](https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-1024x765.webp)
 
 A real association meeting delivered under a stone arcade in Malaga: an HK Audio speaker on its own stand and gooseneck microphones on the panel table, sound sized to that meeting's own footprint, the same sizing logic we apply to a trade show stand.
 
@@ -131,7 +131,7 @@ A real association meeting delivered under a stone arcade in Malaga: an HK Audio
 	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1266/', '/1284/'])} speed="normal" direction="left" deferMount={false} />
 </div>
 
-As Gines de Biedma put it in a 5-star Google review (June 2025): "Profesionales y eficientes, muy en el detalle, equipo altamente cualificado."
+As Gines de Biedma put it in a 5 star Google review (June 2025): "Profesionales y eficientes, muy en el detalle, equipo altamente cualificado."
 
 ## One Stand, Not an Exhibit House
 
@@ -140,6 +140,8 @@ Everything above is for a single exhibitor's own stand, delivered, installed, te
 ## Booking and Service Area
 
 Our services cover Malaga, the Costa del Sol and Sevilla with no minimum order, and extend to Granada for rentals over 400 euros. Book at least 24 hours in advance to guarantee availability, and see our [audio visual rental planning timeline](/blog/audio-visual-rental-planning-timeline/) guide for what we actually need from you to quote a stand booking accurately. If your show runs across several days at a venue like FYCMA or in Torremolinos, tell us that upfront so we can scope it as the custom, multi day quote it actually is, not a package priced for a single day.
+
+Exhibitors at a show like this often travel in from outside Malaga, and the stand team needs hotel rooms for the build up days and the show itself. Our partner Top Group Express has years of experience with [hotel reservations for groups](https://topgroupexpress.com/en), working with the companies, agencies and DMCs that plan an exhibitor team's travel. We handle the stand's screen and sound, they handle where your team stays.
 
 ## Conclusion
 

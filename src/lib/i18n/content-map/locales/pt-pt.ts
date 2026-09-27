@@ -114,6 +114,11 @@ export default {
 			keyword: 'aluguer de audiovisuais para seminários em Málaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-trade-shows': {
+			slug: 'aluguer-de-audiovisuais-para-feiras',
+			keyword: 'aluguer de audiovisuais para feiras em Málaga',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: 'aluguer-de-material-audiovisual',
 			keyword: 'aluguer de material audiovisual em Málaga',

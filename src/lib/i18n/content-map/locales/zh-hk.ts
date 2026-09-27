@@ -62,6 +62,11 @@ export default {
 			keyword: '馬拉加 研討會視聽租借',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-trade-shows': {
+			slug: '展覽視聽租借',
+			keyword: '馬拉加 展覽視聽租借',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: '視聽設備租賃',
 			keyword: '馬拉加 視聽設備租賃',

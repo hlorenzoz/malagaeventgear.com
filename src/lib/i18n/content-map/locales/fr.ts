@@ -82,6 +82,11 @@ export default {
 			keyword: 'équipement audiovisuel pour un séminaire à Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-trade-shows': {
+			slug: 'equipement-audiovisuel-salon-professionnel',
+			keyword: 'équipement audiovisuel pour un salon professionnel à Malaga',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: 'loueur-materiel-audiovisuel',
 			keyword: 'loueur de matériel audiovisuel à Malaga',

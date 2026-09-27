@@ -86,6 +86,11 @@ export default {
 			keyword: 'seminarteknikk Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-trade-shows': {
+			slug: 'messeteknikk',
+			keyword: 'messeteknikk Malaga',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: 'utleie-av-audiovisuelt-utstyr',
 			keyword: 'utleie av audiovisuelt utstyr i Malaga',

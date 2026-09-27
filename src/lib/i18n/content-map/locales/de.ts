@@ -82,6 +82,11 @@ export default {
 			keyword: 'AV-Vermietung für Seminare in Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-trade-shows': {
+			slug: 'av-vermietung-messen',
+			keyword: 'AV-Vermietung für Messen in Malaga',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: 'av-technik-verleih',
 			keyword: 'AV-Technik-Verleih Malaga',
