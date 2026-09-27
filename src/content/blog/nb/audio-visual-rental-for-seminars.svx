@@ -1,0 +1,116 @@
+---
+title: "Seminarteknikk i Malaga, Spania"
+description: "Seminarteknikk i Malaga, Spania: en prosjektor, skjerm og trådløs mikrofon, tilpasset seminaret ditt, med ekte priser i euro og oppsett inkludert."
+excerpt: "Seminarteknikk i Malaga, Spania: en prosjektor, skjerm og trådløs mikrofon, tilpasset seminaret ditt, med ekte priser i euro og oppsett inkludert."
+publishDate: "2026-09-27"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Leter du etter seminarteknikk i Malaga, Spania? De fleste seminarer trenger det samme grunnoppsettet: en prosjektor og en skjerm til lysbildene, PA-lyd og en mikrofon til den som taler, enten det er én taler med en trådløs håndmikrofon eller en sesjon med talerstol og podiemikrofon.
+
+Malaga Event Gear leverer, setter opp og tester det oppsettet i Malaga og langs hele Costa del Sol.
+
+Ta kontakt allerede i dag for å utforske [utvalget vårt av utstyr og pakker](/packages/).
+
+## Kort oversikt
+
+---
+
+Malaga Event Gear tilbyr seminarteknikk i Malaga og langs hele Costa del Sol: en prosjektor og en skjerm, PA-lyd og en mikrofon tilpasset formatet på seminaret ditt. Med erfaring som går tilbake til 1996 leverer, setter opp og tester teamet vårt prosjektoren, skjermen og mikrofonen før din første deltaker ankommer, enten du taler solo eller holder en sesjon med talerstol.
+
+Ta kontakt allerede i dag for å snakke om arrangementet ditt.
+
+## Det viktigste
+
+---
+
+Malaga Event Gear tilbyr seminarteknikk i Malaga og langs hele Costa del Sol.
+
+-   En enkelt taler med en trådløs mikrofon passer til vårt [Product Presentation Pack](/packages/product-presentation/). Se [Match seminaret ditt med en pakke](#match-seminaret-ditt-med-en-pakke) under for den fullstendige spesifikasjonen.
+
+-   For et seminar eller en workshop med talerstol dekker vårt [Basic MICE Pack](/packages/basic-mice/) en svanehalsmikrofon til podiet, en prosjektor og en skjerm, opptil 40 gjester.
+
+-   På Product Presentation Pack er HDMI- og USB-C-adaptere inkludert, slik at din egen bærbare datamaskin kobles til uten en kabeljakt i siste liten.
+
+-   Tilgjengelig i Malaga, på Costa del Sol og i Sevilla, samt i Granada for utleie over 400 euro, med bestilling minst 24 timer i forveien.
+
+## Match seminaret ditt med en pakke
+
+-   **Enkelt taler, stående og i bevegelse med en trådløs mikrofon**: [Product Presentation Pack](/packages/product-presentation/) dekker en prosjektor på 5000 lumen, en skjerm, PA-lyd med mikserpult og en trådløs håndmikrofon.
+-   **Seminar eller workshop med talerstol, opptil 40 gjester**: [Basic MICE Pack](/packages/basic-mice/) dekker en svanehalsmikrofon til podiet, en prosjektor på 3000 lumen og en skjerm, med en tekniker som kan legges til.
+
+Se priser i sanntid og alt som er inkludert på [pakkesiden](/packages/) vår.
+
+<InlineCTA />
+
+## Koble til din egen bærbare datamaskin
+
+Vårt [Product Presentation Pack](/packages/product-presentation/) inkluderer HDMI- og USB-C-adaptere pluss lydgrensesnitt for å koble din egen bærbare datamaskin, nettbrett eller mediespiller til skjermen og lydanlegget vårt.
+
+## Ekte oppsett vi har levert
+
+![Audiovisuelt system på scenen på Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
+
+En skjerm og et lydanlegg på Hotel Alfonso XIII i Sevilla.
+
+![Lydanlegg til leie i ballsalen på Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
+
+Et lydanlegg på Hotel Alfonso XIII i Sevilla.
+
+![En tekniker som arbeider foran tre store prosjektorlerreder i en tom konferansesal i Malaga-provinsen.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-600x448.webp)
+
+Et oppsett med tre skjermer i et seminarrom i Malaga-provinsen, som gjøres klar til en presentasjon.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1269/', '/1276/', '/1313/', '/2278/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Bestilling og dekningsområde
+
+Tjenestene våre dekker Malaga, Costa del Sol og Sevilla uten minstebestilling, og strekker seg til Granada for utleie over 400 euro. Bestill minst 24 timer i forveien for å sikre tilgjengelighet.
+
+## Konklusjon
+
+Enten det er en enkelt taler eller en workshop med talerstol, leverer Malaga Event Gear prosjektoren, skjermen og mikrofonen seminaret ditt trenger. Se hele utvalget vårt på [siden om AV-utleie](/blog/audio-visual-rental/). [Kontakt oss](/contact/) for å snakke om arrangementet ditt.
+
+Planlegger du i stedet et mindre bedriftsarrangement? Se guiden vår om [AV-utleie til mindre bedrifter](/blog/audio-visual-rental-for-small-businesses/). Trenger du i stedet AV til en fjernpresentasjon? Se guiden vår om [AV-utleie til fjernpresentasjoner](/blog/audio-visual-rental-for-remote-presentations/).
+
+## Ofte stilte spørsmål
+
+### Hvilket AV-utstyr trenger jeg til et seminar?
+
+En prosjektor og en skjerm til lysbildene, PA-lyd og en mikrofon til den som taler. [Product Presentation Pack](/packages/product-presentation/) og [Basic MICE Pack](/packages/basic-mice/) dekker dette behovet i ulikt omfang. Se [Match seminaret ditt med en pakke](#match-seminaret-ditt-med-en-pakke) over.
+
+### Hva koster AV-utleie til et seminar?
+
+Det kommer an på pakken: de to som passer til et seminar, Basic MICE Pack og Product Presentation Pack, står oppført med nøyaktige priser i euro på [pakkesiden](/packages/) vår, sammen med resten av katalogen vår. Alle priser er eks. mva., og spansk merverdiavgift på 21 % legges til i kassen, og hver pris inkluderer levering, oppsett og henting.
+
+### Hva er forskjellen mellom AV til et lite seminar og et større seminar?
+
+En enkelt taler med en trådløs mikrofon passer til [Product Presentation Pack](/packages/product-presentation/). Et seminar eller en workshop med talerstol, opptil 40 gjester, passer til [Basic MICE Pack](/packages/basic-mice/), som i stedet bruker en svanehalsmikrofon til podiet.
+
+### Hvilken mikrofon er best for en seminartaler?
+
+En trådløs håndmikrofon, inkludert på [Product Presentation Pack](/packages/product-presentation/), passer til en taler som beveger seg rundt. En svanehalsmikrofon, inkludert på [Basic MICE Pack](/packages/basic-mice/), passer til en talerstol eller et podieformat.
+
+### Trenger jeg en tekniker til AV-oppsettet for et seminar?
+
+Ikke på Product Presentation Pack: utstyret blir levert, satt opp og testet av teamet vårt, og deretter driftet av deg. På [Basic MICE Pack](/packages/basic-mice/) kan en tekniker legges til.
+
+### Kan jeg koble min egen bærbare datamaskin til prosjektoren?
+
+Ja. [Product Presentation Pack](/packages/product-presentation/) inkluderer HDMI- og USB-C-adaptere pluss lydgrensesnitt for å koble til din bærbare datamaskin, nettbrett eller mediespiller.
+
+### Hvor mange personer kan delta på et seminar med et standard AV-oppsett?
+
+[Basic MICE Pack](/packages/basic-mice/) dekker opptil 40 gjester. For et større seminar, se guiden vår om [konferanseteknikk](/blog/audio-visual-rental-for-conferences/).
+
+### Hvor langt i forveien bør jeg bestille AV-utstyr til et seminar?
+
+Bestill minst 24 timer i forveien for å sikre tilgjengelighet. Tjenestene våre er tilgjengelige i Malaga, på Costa del Sol og i Sevilla uten minstebestilling, og strekker seg til Granada for utleie over 400 euro.

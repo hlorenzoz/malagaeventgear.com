@@ -57,6 +57,11 @@ export default {
 			keyword: '馬拉加 記者會影音租賃',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-seminars': {
+			slug: '研討會影音租賃',
+			keyword: '馬拉加 研討會影音租賃',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: '影音器材租借',
 			keyword: '馬拉加 影音器材租借',

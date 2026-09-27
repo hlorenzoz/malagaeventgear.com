@@ -77,6 +77,11 @@ export default {
 			keyword: 'audiovisuele verhuur voor persconferenties in Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-seminars': {
+			slug: 'audiovisuele-verhuur-seminars',
+			keyword: 'audiovisuele verhuur voor seminars in Malaga',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: 'verhuur-audiovisuele-apparatuur',
 			keyword: 'verhuur audiovisuele apparatuur Malaga',

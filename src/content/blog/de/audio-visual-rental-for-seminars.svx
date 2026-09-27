@@ -1,0 +1,116 @@
+---
+title: "AV-Vermietung für Seminare in Malaga, Spanien"
+description: "AV-Vermietung für Seminare in Malaga, Spanien: Beamer, Leinwand und Mikrofon, abgestimmt auf Ihr Seminar, mit Lieferung, Aufbau und Test inklusive."
+excerpt: "AV-Vermietung für Seminare in Malaga, Spanien: Beamer, Leinwand und Mikrofon, abgestimmt auf Ihr Seminar, mit Lieferung, Aufbau und Test inklusive."
+publishDate: "2026-09-27"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Suchen Sie eine AV-Vermietung für Seminare in Malaga, Spanien? Die meisten Seminare brauchen denselben Grundaufbau: einen Beamer und eine Leinwand für die Folien, eine Tonanlage und ein Mikrofon für den Vortragenden, egal ob ein einzelner Sprecher mit einem drahtlosen Handmikrofon oder eine Sitzung im Redepult-Stil mit einem Podiumsmikrofon.
+
+Malaga Event Gear liefert, baut auf und testet diesen Aufbau in Malaga und an der gesamten Costa del Sol.
+
+Kontaktieren Sie uns noch heute, um unser [Angebot an Technik und Paketen](/packages/) kennenzulernen.
+
+## Kurzüberblick
+
+---
+
+Malaga Event Gear bietet AV-Vermietung für Seminare in Malaga und an der gesamten Costa del Sol: einen Beamer und eine Leinwand, eine Tonanlage und ein Mikrofon, abgestimmt auf das Format Ihres Seminars. Gestützt auf Erfahrung seit 1996 liefert unser Team den Beamer, die Leinwand und das Mikrofon, baut sie auf und testet sie, bevor Ihr erster Teilnehmer eintrifft, egal ob Sie allein sprechen oder eine Sitzung im Redepult-Stil leiten.
+
+Kontaktieren Sie uns noch heute, um über Ihre Veranstaltung zu sprechen.
+
+## Das Wichtigste
+
+---
+
+Malaga Event Gear bietet AV-Vermietung für Seminare in Malaga und an der gesamten Costa del Sol.
+
+-   Ein einzelner Vortragender mit einem drahtlosen Mikrofon passt zu unserem [Product Presentation Pack](/packages/product-presentation/). Die vollständige Spezifikation finden Sie unten unter [Ordnen Sie Ihrem Seminar ein Paket zu](#ordnen-sie-ihrem-seminar-ein-paket-zu).
+
+-   Für ein Seminar oder einen Workshop im Redepult-Stil deckt unser [Basic MICE Pack](/packages/basic-mice/) ein Schwanenhalsmikrofon für das Redepult, einen Beamer und eine Leinwand ab, bis zu 40 Gäste.
+
+-   Beim Product Presentation Pack sind HDMI- und USB-C-Adapter enthalten, damit Ihr eigener Laptop angeschlossen wird, ohne in letzter Minute nach dem richtigen Kabel zu suchen.
+
+-   Verfügbar in Malaga, an der Costa del Sol und in Sevilla, sowie in Granada bei Mietaufträgen über 400 Euro, mit Buchung mindestens 24 Stunden im Voraus.
+
+## Ordnen Sie Ihrem Seminar ein Paket zu
+
+-   **Einzelner Vortragender, der steht und sich mit einem drahtlosen Mikrofon bewegt**: Das [Product Presentation Pack](/packages/product-presentation/) deckt einen 5000-Lumen-Beamer, eine Leinwand, eine Tonanlage mit Mischpult und ein drahtloses Handmikrofon ab.
+-   **Seminar oder Workshop im Redepult-Stil, bis zu 40 Gäste**: Das [Basic MICE Pack](/packages/basic-mice/) deckt ein Schwanenhalsmikrofon für das Redepult, einen 3000-Lumen-Beamer und eine Leinwand ab, mit einem Techniker als Zusatzoption.
+
+Aktuelle Preise und alle Leistungen finden Sie auf unserer [Paketseite](/packages/).
+
+<InlineCTA />
+
+## Anschluss Ihres eigenen Laptops
+
+Unser [Product Presentation Pack](/packages/product-presentation/) enthält HDMI- und USB-C-Adapter sowie Audio-Schnittstellen, um Ihren eigenen Laptop, Ihr Tablet oder Ihren Media-Player an unsere Leinwand und Tonanlage anzuschließen.
+
+## Echte Aufbauten, die wir geliefert haben
+
+![AV-Anlage auf der Bühne im Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
+
+Eine Leinwand und eine Tonanlage im Hotel Alfonso XIII in Sevilla.
+
+![Vermietung einer Tonanlage im Ballsaal des Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
+
+Eine Tonanlage im Hotel Alfonso XIII in Sevilla.
+
+![Ein Techniker vor drei großen Projektionsleinwänden in einem leeren Konferenzsaal in der Provinz Malaga.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-600x448.webp)
+
+Ein Seminarraum mit drei Leinwänden in der Provinz Malaga, vorbereitet für eine Präsentation.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1269/', '/1276/', '/1313/', '/2278/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Buchung und Einsatzgebiet
+
+Unsere Services decken Malaga, die Costa del Sol und Sevilla ohne Mindestbestellwert ab und reichen bis nach Granada bei Mietaufträgen über 400 Euro. Buchen Sie mindestens 24 Stunden im Voraus, um die Verfügbarkeit zu sichern.
+
+## Fazit
+
+Ob einzelner Vortragender oder Workshop im Redepult-Stil: Malaga Event Gear liefert den Beamer, die Leinwand und das Mikrofon, die Ihr Seminar braucht. Die vollständige Übersicht unseres Angebots finden Sie auf der [Seite zur AV-Vermietung](/blog/audio-visual-rental/). [Kontaktieren Sie uns](/contact/), um über Ihre Veranstaltung zu sprechen.
+
+Planen Sie stattdessen eine kleinere Firmenveranstaltung? Sehen Sie sich unseren Leitfaden zur [AV-Vermietung für kleine Unternehmen](/blog/audio-visual-rental-for-small-businesses/) an. Brauchen Sie stattdessen AV-Technik für eine Remote-Präsentation? Sehen Sie sich unseren Leitfaden zur [AV-Vermietung für Remote-Präsentationen](/blog/audio-visual-rental-for-remote-presentations/) an.
+
+## Häufige Fragen
+
+### Welche AV-Technik brauche ich für ein Seminar?
+
+Einen Beamer und eine Leinwand für die Folien, eine Tonanlage und ein Mikrofon für den Vortragenden. Das [Product Presentation Pack](/packages/product-presentation/) und das [Basic MICE Pack](/packages/basic-mice/) decken diesen Bedarf in unterschiedlichem Umfang ab. Siehe [Ordnen Sie Ihrem Seminar ein Paket zu](#ordnen-sie-ihrem-seminar-ein-paket-zu) oben.
+
+### Was kostet AV-Vermietung für ein Seminar?
+
+Das hängt vom Paket ab: Die beiden, die zu einem Seminar passen, das Basic MICE Pack und das Product Presentation Pack, sind mit genauen Preisen in Euro auf unserer [Paketseite](/packages/) aufgeführt, zusammen mit dem Rest unseres Katalogs. Alle Preise verstehen sich zzgl. MwSt., die spanische Mehrwertsteuer von 21 % kommt beim Bezahlen hinzu, und jeder Preis umfasst Lieferung, Aufbau und Abbau.
+
+### Was ist der Unterschied zwischen AV-Technik für ein kleines und ein größeres Seminar?
+
+Ein einzelner Vortragender mit einem drahtlosen Mikrofon passt zum [Product Presentation Pack](/packages/product-presentation/). Ein Seminar oder Workshop im Redepult-Stil mit bis zu 40 Gästen passt zum [Basic MICE Pack](/packages/basic-mice/), das stattdessen ein Schwanenhalsmikrofon für das Redepult verwendet.
+
+### Welches Mikrofon eignet sich am besten für einen Seminar-Vortragenden?
+
+Ein drahtloses Handmikrofon, enthalten beim [Product Presentation Pack](/packages/product-presentation/), eignet sich für einen Vortragenden, der sich frei bewegt. Ein Schwanenhalsmikrofon, enthalten beim [Basic MICE Pack](/packages/basic-mice/), eignet sich für ein Redepult- oder Podiumsformat.
+
+### Brauche ich einen Techniker für den AV-Aufbau eines Seminars?
+
+Nicht beim Product Presentation Pack: Die Technik wird von unserem Team geliefert, aufgebaut und getestet, und danach von Ihnen bedient. Beim [Basic MICE Pack](/packages/basic-mice/) ist ein Techniker als Zusatzoption buchbar.
+
+### Kann ich meinen eigenen Laptop an den Beamer anschließen?
+
+Ja. Das [Product Presentation Pack](/packages/product-presentation/) enthält HDMI- und USB-C-Adapter sowie Audio-Schnittstellen, um Ihren Laptop, Ihr Tablet oder Ihren Media-Player anzuschließen.
+
+### Wie viele Personen fasst ein Seminar mit einem Standard-AV-Aufbau?
+
+Das [Basic MICE Pack](/packages/basic-mice/) deckt bis zu 40 Gäste ab. Für ein größeres Seminar sehen Sie sich unseren Leitfaden zur [AV-Vermietung für Konferenzen](/blog/audio-visual-rental-for-conferences/) an.
+
+### Wie weit im Voraus sollte ich AV-Technik für ein Seminar buchen?
+
+Buchen Sie mindestens 24 Stunden im Voraus, um die Verfügbarkeit zu sichern. Unsere Services sind in Malaga, an der Costa del Sol und in Sevilla ohne Mindestbestellwert verfügbar und reichen bis nach Granada bei Mietaufträgen über 400 Euro.

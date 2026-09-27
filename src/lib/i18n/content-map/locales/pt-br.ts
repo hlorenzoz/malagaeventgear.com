@@ -109,6 +109,11 @@ export default {
 			keyword: 'material audiovisual para coletiva de imprensa em Málaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-seminars': {
+			slug: 'material-audiovisual-seminario',
+			keyword: 'material audiovisual para seminário em Málaga',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: 'locacao-de-equipamentos-audiovisuais',
 			keyword: 'locação de equipamentos audiovisuais em Málaga',

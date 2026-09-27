@@ -1,0 +1,116 @@
+---
+title: "AV-uthyrning för seminarier i Malaga, Spanien"
+description: "AV-uthyrning för seminarier i Malaga, Spanien: en projektor, duk och trådlös mikrofon, dimensionerade för ditt seminarium, leverans och installation ingår."
+excerpt: "AV-uthyrning för seminarier i Malaga, Spanien: en projektor, duk och trådlös mikrofon, dimensionerade för ditt seminarium, leverans och installation ingår."
+publishDate: "2026-09-27"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Letar du efter AV-uthyrning för seminarier i Malaga, Spanien? De flesta seminarier behöver samma grundutrustning: en projektor och duk för bilder, PA-ljud och en mikrofon till talaren, oavsett om det är en ensam talare med en trådlös handmikrofon eller en session i talarstolsformat med en gåshalsmikrofon.
+
+Malaga Event Gear levererar, sätter upp och testar den uppsättningen i Malaga och längs hela Costa del Sol.
+
+Hör av dig redan i dag för att utforska vårt [sortiment av utrustning och paket](/packages/).
+
+## Kort översikt
+
+---
+
+Malaga Event Gear erbjuder AV-uthyrning för seminarier i Malaga och längs hela Costa del Sol: en projektor och en duk, PA-ljud och en mikrofon dimensionerad efter ditt seminariums format. Med erfarenhet som går tillbaka till 1996 levererar, sätter upp och testar vårt team projektorn, duken och mikrofonen innan din första deltagare anländer, oavsett om du talar själv eller håller en session i talarstolsformat.
+
+Hör av dig redan i dag för att prata om ditt evenemang.
+
+## Det viktigaste
+
+---
+
+Malaga Event Gear erbjuder AV-uthyrning för seminarier i Malaga och längs hela Costa del Sol.
+
+-   En ensam talare med en trådlös mikrofon passar vårt [Product Presentation Pack](/packages/product-presentation/). Se [Matcha ditt seminarium mot ett paket](#matcha-ditt-seminarium-mot-ett-paket) nedan för den fullständiga specifikationen.
+
+-   För ett seminarium eller en workshop i talarstolsformat täcker vårt [Basic MICE Pack](/packages/basic-mice/) en gåshalsmikrofon för talarstolen, en projektor och en duk, upp till 40 gäster.
+
+-   På Product Presentation Pack ingår HDMI- och USB-C-adaptrar så att din egen bärbara dator ansluts utan kabelstrul i sista minuten.
+
+-   Tillgängligt i Malaga, på Costa del Sol och i Sevilla, samt i Granada för uthyrningar över 400 euro, med bokning minst 24 timmar i förväg.
+
+## Matcha ditt seminarium mot ett paket
+
+-   **Ensam talare, stående och rörlig med en trådlös mikrofon**: [Product Presentation Pack](/packages/product-presentation/) täcker en projektor med 5000 lumen, en duk, PA-ljud med ett mixerbord och en trådlös handmikrofon.
+-   **Seminarium eller workshop i talarstolsformat, upp till 40 gäster**: [Basic MICE Pack](/packages/basic-mice/) täcker en gåshalsmikrofon för talarstolen, en projektor med 3000 lumen och en duk, med en tekniker som tillval.
+
+Se aktuella priser och allt som ingår på vår [paketsida](/packages/).
+
+<InlineCTA />
+
+## Ansluta din egen bärbara dator
+
+Vårt [Product Presentation Pack](/packages/product-presentation/) inkluderar HDMI- och USB-C-adaptrar samt ljudgränssnitt för att ansluta din egen bärbara dator, surfplatta eller mediaspelare till vår duk och vårt ljudsystem.
+
+## Verkliga uppsättningar vi har levererat
+
+![AV-system på scenen vid Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
+
+En duk och ett ljudsystem på Hotel Alfonso XIII i Sevilla.
+
+![Uthyrning av ljudsystem i balsalen på Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
+
+Ett ljudsystem på Hotel Alfonso XIII i Sevilla.
+
+![En tekniker som arbetar framför tre stora projektionsdukar i en tom konferenssal i provinsen Malaga.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-600x448.webp)
+
+En seminarielokal med tre dukar i provinsen Malaga, som förbereds för en presentation.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1269/', '/1276/', '/1313/', '/2278/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Bokning och serviceområde
+
+Våra tjänster täcker Malaga, Costa del Sol och Sevilla utan minsta order, och sträcker sig till Granada för uthyrningar över 400 euro. Boka minst 24 timmar i förväg för att garantera tillgänglighet.
+
+## Slutsats
+
+Oavsett om det är en ensam talare eller en workshop i talarstolsformat, levererar Malaga Event Gear projektorn, duken och mikrofonen ditt seminarium behöver. Se vårt fullständiga sortiment på [sidan om AV-uthyrning](/blog/audio-visual-rental/). [Hör av dig](/contact/) för att prata om ditt evenemang.
+
+Planerar du i stället ett mindre företagsevenemang? Se vår guide om [AV-uthyrning för mindre företag](/blog/audio-visual-rental-for-small-businesses/). Behöver du AV till en distanspresentation i stället? Se vår guide om [AV-uthyrning för distanspresentationer](/blog/audio-visual-rental-for-remote-presentations/).
+
+## Vanliga frågor
+
+### Vilken AV-utrustning behöver jag till ett seminarium?
+
+En projektor och duk för bilder, PA-ljud och en mikrofon till talaren. [Product Presentation Pack](/packages/product-presentation/) och [Basic MICE Pack](/packages/basic-mice/) täcker de här behoven i olika omfattning. Se [Matcha ditt seminarium mot ett paket](#matcha-ditt-seminarium-mot-ett-paket) ovan.
+
+### Hur mycket kostar AV-uthyrning för ett seminarium?
+
+Priset beror på paketet: de två som passar ett seminarium, Basic MICE Pack och Product Presentation Pack, listas med exakta priser i euro på vår [paketsida](/packages/), tillsammans med resten av vår katalog. Alla priser är exklusive moms, med den spanska momsen på 21 % tillagd i kassan, och varje pris inkluderar leverans, uppsättning och hämtning.
+
+### Vad är skillnaden mellan AV för ett litet seminarium och ett större?
+
+En ensam talare med en trådlös mikrofon passar [Product Presentation Pack](/packages/product-presentation/). Ett seminarium eller en workshop i talarstolsformat, upp till 40 gäster, passar i stället [Basic MICE Pack](/packages/basic-mice/), som använder en gåshalsmikrofon för talarstolen.
+
+### Vilken mikrofon passar bäst för en talare på ett seminarium?
+
+En trådlös handmikrofon, som ingår i [Product Presentation Pack](/packages/product-presentation/), passar en talare som rör sig. En gåshalsmikrofon, som ingår i [Basic MICE Pack](/packages/basic-mice/), passar ett talarstolsformat.
+
+### Behöver jag en tekniker för en AV-uppsättning till ett seminarium?
+
+Inte på Product Presentation Pack: utrustningen levereras, sätts upp och testas av vårt team, och drivs sedan av dig. På [Basic MICE Pack](/packages/basic-mice/) går en tekniker att lägga till som tillval.
+
+### Kan jag ansluta min egen bärbara dator till projektorn?
+
+Ja. [Product Presentation Pack](/packages/product-presentation/) inkluderar HDMI- och USB-C-adaptrar samt ljudgränssnitt för att ansluta din bärbara dator, surfplatta eller mediaspelare.
+
+### Hur många personer kan delta i ett seminarium med en standard-AV-uppsättning?
+
+[Basic MICE Pack](/packages/basic-mice/) täcker upp till 40 gäster. För ett större seminarium, se vår guide om [AV-uthyrning för konferenser](/blog/audio-visual-rental-for-conferences/).
+
+### Hur långt i förväg bör jag boka AV-utrustning för ett seminarium?
+
+Boka minst 24 timmar i förväg för att garantera tillgänglighet. Våra tjänster finns tillgängliga i Malaga, på Costa del Sol och i Sevilla utan minsta order, och sträcker sig till Granada för uthyrningar över 400 euro.

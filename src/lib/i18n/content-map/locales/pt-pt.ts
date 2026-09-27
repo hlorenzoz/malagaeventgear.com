@@ -109,6 +109,11 @@ export default {
 			keyword: 'aluguer de audiovisuais para conferências de imprensa em Málaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-seminars': {
+			slug: 'aluguer-de-audiovisuais-para-seminarios',
+			keyword: 'aluguer de audiovisuais para seminários em Málaga',
+			status: 'propuesta'
+		},
 		'audiovisual-equipment-rental-service': {
 			slug: 'aluguer-de-material-audiovisual',
 			keyword: 'aluguer de material audiovisual em Málaga',

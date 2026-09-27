@@ -1,0 +1,116 @@
+---
+title: "Équipement audiovisuel pour un séminaire à Malaga"
+description: "Équipement audiovisuel pour un séminaire à Malaga, en Espagne : vidéoprojecteur, écran et micro sans fil, adaptés au format de votre séminaire."
+excerpt: "Équipement audiovisuel pour un séminaire à Malaga, en Espagne : vidéoprojecteur, écran et micro sans fil, adaptés au format de votre séminaire."
+publishDate: "2026-09-27"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Vous cherchez un équipement audiovisuel pour un séminaire à Malaga, en Espagne ? La plupart des séminaires ont besoin du même socle technique : un vidéoprojecteur et un écran pour les diapositives, une sonorisation PA et un microphone pour l'intervenant, qu'il s'agisse d'un seul orateur avec un micro main sans fil ou d'une session façon pupitre avec un micro de podium.
+
+Malaga Event Gear livre, installe et teste ce dispositif à Malaga et sur toute la Costa del Sol.
+
+Contactez-nous dès aujourd'hui pour découvrir notre [gamme de matériel et de forfaits](/packages/).
+
+## En bref
+
+---
+
+Malaga Event Gear propose la location audiovisuelle pour séminaires à Malaga et sur toute la Costa del Sol : un vidéoprojecteur et un écran, une sonorisation PA et un microphone adapté au format de votre séminaire. Fort d'une expérience qui remonte à 1996, nous livrons, installons et testons le vidéoprojecteur, l'écran et le microphone avant l'arrivée de votre premier participant, que vous interveniez seul ou animiez une session façon pupitre.
+
+Contactez-nous dès aujourd'hui pour discuter de votre événement.
+
+## Points clés
+
+---
+
+Malaga Event Gear propose la location audiovisuelle pour séminaires à Malaga et sur toute la Costa del Sol.
+
+-   Un seul intervenant avec un micro sans fil correspond à notre [Product Presentation Pack](/packages/product-presentation/). Voir [Faites correspondre votre séminaire à un forfait](#faites-correspondre-votre-séminaire-à-un-forfait) ci-dessous pour le détail complet.
+
+-   Pour un séminaire ou un atelier façon pupitre, notre [Basic MICE Pack](/packages/basic-mice/) couvre un microphone col de cygne pour le podium, un vidéoprojecteur et un écran, jusqu'à 40 invités.
+
+-   Sur le Product Presentation Pack, des adaptateurs HDMI et USB-C sont inclus pour que votre propre ordinateur portable se connecte sans chercher un câble à la dernière minute.
+
+-   Disponible à Malaga, sur la Costa del Sol et à Séville, et à Granada pour les locations de plus de 400 euros, avec réservation au moins 24 heures à l'avance.
+
+## Faites correspondre votre séminaire à un forfait
+
+-   **Un seul intervenant, debout et en mouvement, avec un micro sans fil** : le [Product Presentation Pack](/packages/product-presentation/) couvre un vidéoprojecteur de 5000 lumens, un écran, une sonorisation avec console de mixage et un microphone main sans fil.
+-   **Séminaire ou atelier façon pupitre, jusqu'à 40 invités** : le [Basic MICE Pack](/packages/basic-mice/) couvre un microphone col de cygne pour le podium, un vidéoprojecteur de 3000 lumens et un écran, avec un technicien disponible en option.
+
+Consultez les tarifs en direct et le détail complet des prestations sur notre [page des forfaits](/packages/).
+
+<InlineCTA />
+
+## Connecter votre propre ordinateur portable
+
+Notre [Product Presentation Pack](/packages/product-presentation/) inclut des adaptateurs HDMI et USB-C ainsi que des interfaces audio pour connecter votre propre ordinateur portable, votre tablette ou votre lecteur multimédia à notre écran et à notre sonorisation.
+
+## Installations réelles que nous avons livrées
+
+![Système audiovisuel sur scène à l'Hotel Alfonso XIII, à Séville.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
+
+Un écran et une sonorisation installés dans l'Hotel Alfonso XIII à Séville.
+
+![Location de sonorisation dans la salle de bal de l'Hotel Alfonso XIII, à Séville.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
+
+Une sonorisation installée à l'Hotel Alfonso XIII à Séville.
+
+![Un technicien travaillant devant trois grands écrans de projection dans une salle de conférence vide, dans la province de Malaga.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-600x448.webp)
+
+Une salle de séminaire à trois écrans dans la province de Malaga, en cours de préparation pour une présentation.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1269/', '/1276/', '/1313/', '/2278/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Réservation et zone de service
+
+Nos services couvrent Malaga, la Costa del Sol et Séville sans minimum de commande, et s'étendent jusqu'à Granada pour les locations de plus de 400 euros. Réservez au moins 24 heures à l'avance pour garantir la disponibilité.
+
+## Conclusion
+
+Qu'il s'agisse d'un seul intervenant ou d'un atelier façon pupitre, Malaga Event Gear fournit le vidéoprojecteur, l'écran et le microphone dont votre séminaire a besoin. Pour notre gamme complète, voir la [page de location audiovisuelle](/blog/audio-visual-rental/). [Contactez-nous](/contact/) pour discuter de votre événement.
+
+Vous préparez plutôt un événement professionnel plus modeste ? Voir notre guide [location audiovisuelle pour petites entreprises](/blog/audio-visual-rental-for-small-businesses/). Besoin d'un dispositif audiovisuel pour une présentation à distance ? Voir notre guide [location audiovisuelle pour présentations à distance](/blog/audio-visual-rental-for-remote-presentations/).
+
+## Questions fréquentes
+
+### De quel équipement audiovisuel ai-je besoin pour un séminaire ?
+
+Un vidéoprojecteur et un écran pour les diapositives, une sonorisation PA et un microphone pour l'intervenant. Le [Product Presentation Pack](/packages/product-presentation/) et le [Basic MICE Pack](/packages/basic-mice/) couvrent ces besoins à des échelles différentes. Voir [Faites correspondre votre séminaire à un forfait](#faites-correspondre-votre-séminaire-à-un-forfait) ci-dessus.
+
+### Combien coûte la location audiovisuelle pour un séminaire ?
+
+Le prix dépend du forfait : les deux qui conviennent à un séminaire, le Basic MICE Pack et le Product Presentation Pack, sont indiqués avec des tarifs exacts en euros sur notre [page des forfaits](/packages/), avec le reste de notre catalogue. Tous les tarifs sont HT, la TVA espagnole de 21 % étant ajoutée au moment du paiement, et chaque prix inclut la livraison, l'installation et la reprise.
+
+### Quelle est la différence entre l'audiovisuel pour un petit séminaire et pour un séminaire plus grand ?
+
+Un seul intervenant avec un micro sans fil correspond au [Product Presentation Pack](/packages/product-presentation/). Un séminaire ou un atelier façon pupitre jusqu'à 40 invités correspond au [Basic MICE Pack](/packages/basic-mice/), qui utilise à la place un microphone col de cygne pour le podium.
+
+### Quel microphone convient le mieux à un intervenant de séminaire ?
+
+Un microphone main sans fil, inclus dans le [Product Presentation Pack](/packages/product-presentation/), convient à un intervenant qui se déplace. Un microphone col de cygne, inclus dans le [Basic MICE Pack](/packages/basic-mice/), convient à un format pupitre ou podium.
+
+### Ai-je besoin d'un technicien pour un dispositif audiovisuel de séminaire ?
+
+Pas sur le Product Presentation Pack : le matériel est livré, installé et testé par notre équipe, puis pris en main par vous. Sur le [Basic MICE Pack](/packages/basic-mice/), un technicien est disponible en option.
+
+### Puis-je connecter mon propre ordinateur portable au vidéoprojecteur ?
+
+Oui. Le [Product Presentation Pack](/packages/product-presentation/) inclut des adaptateurs HDMI et USB-C ainsi que des interfaces audio pour connecter votre ordinateur portable, votre tablette ou votre lecteur multimédia.
+
+### Combien de personnes un dispositif audiovisuel standard peut-il accueillir pour un séminaire ?
+
+Le [Basic MICE Pack](/packages/basic-mice/) couvre jusqu'à 40 invités. Pour un séminaire plus grand, voir notre guide [équipement audiovisuel pour une conférence](/blog/audio-visual-rental-for-conferences/).
+
+### Combien de temps à l'avance dois-je réserver le matériel audiovisuel pour un séminaire ?
+
+Réservez au moins 24 heures à l'avance pour garantir la disponibilité. Nos services sont disponibles à Malaga, sur la Costa del Sol et à Séville sans minimum de commande, et s'étendent jusqu'à Granada pour les locations de plus de 400 euros.

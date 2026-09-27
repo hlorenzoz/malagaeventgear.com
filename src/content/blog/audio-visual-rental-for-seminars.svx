@@ -4,7 +4,7 @@ description: "Audio visual rental for seminars in Malaga, Spain: a projector, sc
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-seminars
 publishDate: "2025-12-02"
-updatedDate: "2026-09-26"
+updatedDate: "2026-09-27"
 excerpt: "Audio visual rental for seminars in Malaga, Spain: a projector, screen and wireless mic, sized to your seminar, with real EUR pricing and setup included."
 coverImage: https://cdn.malagaeventgear.com/blog/1293/malaga_event_lighting_big_display_projector_sound_rental-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
@@ -45,14 +45,14 @@ Malaga Event Gear provides audio visual rental for seminars in Malaga and the wi
 
 -   For a lectern style seminar or workshop, our [Basic MICE Pack](/packages/basic-mice/) covers a gooseneck podium microphone, a projector and screen, up to 40 guests.
 
--   HDMI and USB-C adapters are included so your own laptop connects without a last minute cable scramble.
+-   On the Product Presentation Pack, HDMI and USB-C adapters are included so your own laptop connects without a last minute cable scramble.
 
 -   Available in Malaga, the Costa del Sol and Sevilla, and in Granada for rentals over 400 euros, with booking at least 24 hours in advance.
 
 ## Match Your Seminar to a Package
 
 -   **Single presenter, standing and moving with a wireless mic**: the [Product Presentation Pack](/packages/product-presentation/) covers a 5000 lumen projector, a screen, PA sound with a mixing console, and a wireless handheld microphone.
--   **Lectern style seminar or workshop, up to 40 guests**: the [Basic MICE Pack](/packages/basic-mice/) covers a gooseneck microphone for the podium, a 3000-lumen projector and screen, with a technician available as an add on.
+-   **Lectern style seminar or workshop, up to 40 guests**: the [Basic MICE Pack](/packages/basic-mice/) covers a gooseneck microphone for the podium, a 3000 lumen projector and screen, with a technician available as an add on.
 
 See live pricing and full inclusions on our [packages page](/packages/).
 
@@ -72,9 +72,9 @@ A screen and sound setup in the Hotel Alfonso XIII in Sevilla.
 
 A PA sound system set up at Hotel Alfonso XIII in Sevilla.
 
-![A technician working in front of three large projection screens in an empty conference hall.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-600x448.webp)
+![A technician working in front of three large projection screens in an empty conference hall in the province of Malaga.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-600x448.webp)
 
-A three screen seminar room setup being prepared for a presentation.
+A three screen seminar room setup in the province of Malaga, being prepared for a presentation.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1269/', '/1276/', '/1313/', '/2278/'])} speed="normal" direction="left" deferMount={false} />
@@ -98,7 +98,7 @@ A projector and screen for slides, PA sound, and a microphone for the presenter.
 
 ### How much does audio visual rental cost for a seminar?
 
-Pricing depends on the package: our full catalog, from the Basic MICE Pack up to the Product Presentation Pack, is listed with exact euro pricing on our [packages page](/packages/). All rates are ex VAT, with 21 percent Spanish VAT added at checkout, and every price includes delivery, setup and teardown.
+Pricing depends on the package: the two that fit a seminar, the Basic MICE Pack and the Product Presentation Pack, are listed with exact euro pricing on our [packages page](/packages/), along with the rest of our catalog. All rates are ex VAT, with 21 percent Spanish VAT added at checkout, and every price includes delivery, setup and teardown.
 
 ### What is the difference between AV for a small seminar and a larger one?
 

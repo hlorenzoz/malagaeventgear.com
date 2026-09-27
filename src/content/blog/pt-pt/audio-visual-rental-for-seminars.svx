@@ -1,0 +1,116 @@
+---
+title: "Aluguer de audiovisuais para seminários em Málaga"
+description: "Aluguer de audiovisuais para seminários em Málaga, Espanha: projetor, ecrã e microfone, à medida do seu seminário, com entrega e montagem incluídas."
+excerpt: "Aluguer de audiovisuais para seminários em Málaga, Espanha: projetor, ecrã e microfone, à medida do seu seminário, com entrega e montagem incluídas."
+publishDate: "2026-09-27"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Procura aluguer de audiovisuais para seminários em Málaga, Espanha? A maioria dos seminários precisa da mesma montagem base: um projetor e um ecrã para os diapositivos, som PA e um microfone para quem apresenta, seja um único orador com um microfone de mão sem fios, ou uma sessão em formato de púlpito com um microfone de pescoço de ganso.
+
+A Malaga Event Gear entrega, monta e testa essa montagem em Málaga e em toda a Costa del Sol.
+
+Contacte-nos hoje mesmo para explorar a nossa [gama de equipamento e pacotes](/packages/).
+
+## Resumo
+
+---
+
+A Malaga Event Gear disponibiliza aluguer de audiovisuais para seminários em Málaga e em toda a Costa del Sol: um projetor e um ecrã, som PA e um microfone dimensionado ao formato do seu seminário. Com uma experiência que remonta a 1996, a nossa equipa entrega, monta e testa o projetor, o ecrã e o microfone antes de chegar o primeiro participante, quer esteja a falar sozinho quer esteja a conduzir uma sessão em formato de púlpito.
+
+Contacte-nos hoje mesmo para falar sobre o seu evento.
+
+## Pontos principais
+
+---
+
+A Malaga Event Gear disponibiliza aluguer de audiovisuais para seminários em Málaga e em toda a Costa del Sol.
+
+-   Um único orador com um microfone sem fios encaixa no nosso [Product Presentation Pack](/packages/product-presentation/). Veja [Associe o seu seminário a um pacote](#associe-o-seu-seminário-a-um-pacote) abaixo para a ficha técnica completa.
+
+-   Para um seminário ou workshop em formato de púlpito, o nosso [Basic MICE Pack](/packages/basic-mice/) cobre um microfone de pescoço de ganso para o púlpito, um projetor e um ecrã, até 40 convidados.
+
+-   No Product Presentation Pack, estão incluídos adaptadores HDMI e USB-C para que o seu portátil se ligue sem complicações de cabos de última hora.
+
+-   Disponível em Málaga, na Costa del Sol e em Sevilha, e em Granada para alugueres acima de 400 euros, com reserva com pelo menos 24 horas de antecedência.
+
+## Associe o seu seminário a um pacote
+
+-   **Um único orador, de pé e a movimentar-se com um microfone sem fios**: o [Product Presentation Pack](/packages/product-presentation/) cobre um projetor de 5000 lumens, um ecrã, som PA com mesa de mistura e um microfone de mão sem fios.
+-   **Seminário ou workshop em formato de púlpito, até 40 convidados**: o [Basic MICE Pack](/packages/basic-mice/) cobre um microfone de pescoço de ganso para o púlpito, um projetor de 3000 lumens e um ecrã, com um técnico disponível como extra.
+
+Consulte os preços em tempo real e todas as prestações incluídas na nossa [página de pacotes](/packages/).
+
+<InlineCTA />
+
+## Ligar o seu próprio portátil
+
+O nosso [Product Presentation Pack](/packages/product-presentation/) inclui adaptadores HDMI e USB-C, mais interfaces de áudio, para ligar o seu portátil, tablet ou leitor multimédia ao nosso ecrã e sistema de som.
+
+## Montagens reais que já entregámos
+
+![Sistema audiovisual no palco do Hotel Alfonso XIII, em Sevilha.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
+
+Um ecrã e um sistema de som no Hotel Alfonso XIII, em Sevilha.
+
+![Aluguer de sistema de som no salão de baile do Hotel Alfonso XIII, em Sevilha.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
+
+Um sistema de som no Hotel Alfonso XIII, em Sevilha.
+
+![Um técnico a trabalhar em frente a três grandes ecrãs de projeção numa sala de conferências vazia, na província de Málaga.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-600x448.webp)
+
+Uma sala de seminário com três ecrãs na província de Málaga, a ser preparada para uma apresentação.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1269/', '/1276/', '/1313/', '/2278/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Reserva e área de serviço
+
+Os nossos serviços cobrem Málaga, a Costa del Sol e Sevilha sem encomenda mínima, e estendem-se a Granada para alugueres acima de 400 euros. Reserve com pelo menos 24 horas de antecedência para garantir disponibilidade.
+
+## Conclusão
+
+Seja um único orador ou um workshop em formato de púlpito, a Malaga Event Gear fornece o projetor, o ecrã e o microfone de que o seu seminário precisa. Para a nossa gama completa, veja a [página de aluguer de audiovisuais](/blog/audio-visual-rental/). [Contacte-nos](/contact/) para falar sobre o seu evento.
+
+Está a planear antes um evento profissional mais pequeno? Veja o nosso guia [aluguer de audiovisuais para pequenas empresas](/blog/audio-visual-rental-for-small-businesses/). Precisa de audiovisual para uma apresentação remota em vez disso? Veja o nosso guia [aluguer de audiovisuais para apresentações remotas](/blog/audio-visual-rental-for-remote-presentations/).
+
+## Perguntas frequentes
+
+### De que equipamento audiovisual preciso para um seminário?
+
+Um projetor e um ecrã para os diapositivos, som PA e um microfone para quem apresenta. O [Product Presentation Pack](/packages/product-presentation/) e o [Basic MICE Pack](/packages/basic-mice/) cobrem estas necessidades a diferentes escalas. Veja [Associe o seu seminário a um pacote](#associe-o-seu-seminário-a-um-pacote) acima.
+
+### Quanto custa o aluguer de audiovisuais para um seminário?
+
+Depende do pacote: os dois que se adequam a um seminário, o Basic MICE Pack e o Product Presentation Pack, estão indicados com o preço exato em euros na nossa [página de pacotes](/packages/), juntamente com o resto do nosso catálogo. Todas as tarifas são sem IVA, com o IVA espanhol de 21% acrescentado no checkout, e cada preço inclui entrega, montagem e recolha.
+
+### Qual é a diferença entre audiovisual para um seminário pequeno e um maior?
+
+Um único orador com um microfone sem fios encaixa no [Product Presentation Pack](/packages/product-presentation/). Um seminário ou workshop em formato de púlpito até 40 convidados encaixa no [Basic MICE Pack](/packages/basic-mice/), que usa antes um microfone de pescoço de ganso para o púlpito.
+
+### Que microfone é melhor para quem apresenta um seminário?
+
+Um microfone de mão sem fios, incluído no [Product Presentation Pack](/packages/product-presentation/), é adequado para um orador que se movimenta. Um microfone de pescoço de ganso, incluído no [Basic MICE Pack](/packages/basic-mice/), é adequado para um formato de púlpito.
+
+### Preciso de um técnico para a montagem audiovisual de um seminário?
+
+Não no Product Presentation Pack: o equipamento é entregue, montado e testado pela nossa equipa, e depois gerido por si. No [Basic MICE Pack](/packages/basic-mice/), um técnico está disponível como extra.
+
+### Posso ligar o meu próprio portátil ao projetor?
+
+Sim. O [Product Presentation Pack](/packages/product-presentation/) inclui adaptadores HDMI e USB-C, mais interfaces de áudio, para ligar o seu portátil, tablet ou leitor multimédia.
+
+### Quantas pessoas podem assistir a um seminário com uma montagem audiovisual padrão?
+
+O [Basic MICE Pack](/packages/basic-mice/) cobre até 40 convidados. Para um seminário maior, veja o nosso guia [o que é preciso de audiovisual numa conferência](/blog/audio-visual-rental-for-conferences/).
+
+### Com quanto tempo de antecedência devo reservar o equipamento audiovisual para um seminário?
+
+Reserve com pelo menos 24 horas de antecedência para garantir disponibilidade. Os nossos serviços estão disponíveis em Málaga, na Costa del Sol e em Sevilha sem encomenda mínima, e estendem-se a Granada para alugueres acima de 400 euros.

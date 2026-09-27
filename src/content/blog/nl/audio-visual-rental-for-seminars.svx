@@ -1,0 +1,116 @@
+---
+title: "Audiovisuele verhuur voor seminars in Malaga, Spanje"
+description: "Audiovisuele verhuur voor seminars in Malaga, Spanje: beamer, scherm en draadloze microfoon, afgestemd op je seminar, met prijzen in euro en opbouw inbegrepen."
+excerpt: "Audiovisuele verhuur voor seminars in Malaga, Spanje: beamer, scherm en draadloze microfoon, afgestemd op je seminar, met prijzen in euro en opbouw inbegrepen."
+publishDate: "2026-09-27"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Op zoek naar audiovisuele verhuur voor seminars in Malaga, Spanje? De meeste seminars hebben dezelfde basisopstelling nodig: een beamer en scherm voor de slides, een geluidsinstallatie en een microfoon voor de spreker, of dat nu een spreker alleen is met een draadloze handmicrofoon of een sessie achter het spreekgestoelte met een podiummicrofoon.
+
+Malaga Event Gear levert, bouwt op en test die opstelling in Malaga en de hele Costa del Sol.
+
+Neem vandaag nog contact op om ons [aanbod aan apparatuur en pakketten](/packages/) te bekijken.
+
+## In het kort
+
+---
+
+Malaga Event Gear biedt audiovisuele verhuur voor seminars in Malaga en de hele Costa del Sol: een beamer en scherm, een geluidsinstallatie en een microfoon afgestemd op het format van je seminar. Met ervaring die teruggaat tot 1996 leveren, bouwen en testen we de beamer, het scherm en de microfoon voordat je eerste deelnemer arriveert, of je nu alleen spreekt of een sessie achter het spreekgestoelte leidt.
+
+Neem vandaag nog contact op om je evenement te bespreken.
+
+## Belangrijkste punten
+
+---
+
+Malaga Event Gear biedt audiovisuele verhuur voor seminars in Malaga en de hele Costa del Sol.
+
+-   Een spreker alleen met een draadloze microfoon past bij ons [Product Presentation Pack](/packages/product-presentation/). Zie [Koppel jouw seminar aan een pakket](#koppel-jouw-seminar-aan-een-pakket) hieronder voor de volledige specificaties.
+
+-   Voor een seminar of workshop achter het spreekgestoelte dekt ons [Basic MICE Pack](/packages/basic-mice/) een zwanenhalsmicrofoon voor het spreekgestoelte, een beamer en scherm, tot 40 gasten.
+
+-   Bij het Product Presentation Pack zijn HDMI- en USB-C-adapters inbegrepen, zodat je eigen laptop wordt aangesloten zonder gedoe met kabels op het laatste moment.
+
+-   Beschikbaar in Malaga, de Costa del Sol en Sevilla, en in Granada bij verhuur boven de 400 euro, met boeking minstens 24 uur van tevoren.
+
+## Koppel jouw seminar aan een pakket
+
+-   **Spreker alleen, staand en bewegend met een draadloze microfoon**: het [Product Presentation Pack](/packages/product-presentation/) dekt een beamer van 5000 lumen, een scherm, een geluidsinstallatie met mengtafel en een draadloze handmicrofoon.
+-   **Seminar of workshop achter het spreekgestoelte, tot 40 gasten**: het [Basic MICE Pack](/packages/basic-mice/) dekt een zwanenhalsmicrofoon voor het spreekgestoelte, een beamer van 3000 lumen en scherm, met een technicus optioneel bij te boeken.
+
+Bekijk actuele prijzen en alle inclusies op onze [pakkettenpagina](/packages/).
+
+<InlineCTA />
+
+## Je eigen laptop aansluiten
+
+Ons [Product Presentation Pack](/packages/product-presentation/) bevat HDMI- en USB-C-adapters plus audio-interfaces om je eigen laptop, tablet of mediaspeler aan te sluiten op ons scherm en onze geluidsinstallatie.
+
+## Echte opstellingen die we hebben geleverd
+
+![Audiovisuele installatie op het podium in Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp)
+
+Een scherm en een geluidsinstallatie in Hotel Alfonso XIII in Sevilla.
+
+![Huur van een geluidsinstallatie in de balzaal van Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp)
+
+Een geluidsinstallatie in Hotel Alfonso XIII in Sevilla.
+
+![Een technicus werkt voor drie grote projectieschermen in een lege congreszaal in de provincie Malaga.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-600x448.webp)
+
+Een opstelling met drie schermen in een seminarruimte in de provincie Malaga, in voorbereiding op een presentatie.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1269/', '/1276/', '/1313/', '/2278/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Boeking en werkgebied
+
+Onze diensten dekken Malaga, de Costa del Sol en Sevilla zonder minimale bestelling, en reiken tot Granada bij verhuur boven de 400 euro. Boek minstens 24 uur van tevoren om beschikbaarheid te garanderen.
+
+## Conclusie
+
+Of het nu een spreker alleen is of een workshop achter het spreekgestoelte, Malaga Event Gear levert de beamer, het scherm en de microfoon die jouw seminar nodig heeft. Voor ons volledige aanbod, zie de [pagina over audiovisuele verhuur](/blog/audio-visual-rental/). [Neem contact op](/contact/) om je evenement te bespreken.
+
+Plan je in plaats daarvan een kleiner zakelijk evenement? Bekijk onze gids over [audiovisuele verhuur voor kleine bedrijven](/blog/audio-visual-rental-for-small-businesses/). Heb je in plaats daarvan AV nodig voor een presentatie op afstand? Bekijk onze gids over [audiovisuele verhuur voor presentaties op afstand](/blog/audio-visual-rental-for-remote-presentations/).
+
+## Veelgestelde vragen
+
+### Welke AV-apparatuur heb ik nodig voor een seminar?
+
+Een beamer en scherm voor de slides, een geluidsinstallatie en een microfoon voor de spreker. Het [Product Presentation Pack](/packages/product-presentation/) en het [Basic MICE Pack](/packages/basic-mice/) dekken deze behoeften op verschillende schaal. Zie [Koppel jouw seminar aan een pakket](#koppel-jouw-seminar-aan-een-pakket) hierboven.
+
+### Wat kost audiovisuele verhuur voor een seminar?
+
+De prijs hangt af van het pakket: de twee die passen bij een seminar, het Basic MICE Pack en het Product Presentation Pack, staan met exacte prijzen in euro op onze [pakkettenpagina](/packages/), samen met de rest van onze catalogus. Alle tarieven zijn excl. btw, met de Spaanse btw van 21% erbovenop bij het afrekenen, en elke prijs is inclusief levering, opbouw en afbouw.
+
+### Wat is het verschil tussen AV voor een klein seminar en een groter seminar?
+
+Een spreker alleen met een draadloze microfoon past bij het [Product Presentation Pack](/packages/product-presentation/). Een seminar of workshop achter het spreekgestoelte tot 40 gasten past bij het [Basic MICE Pack](/packages/basic-mice/), dat in plaats daarvan een zwanenhalsmicrofoon voor het spreekgestoelte gebruikt.
+
+### Welke microfoon is het beste voor een spreker op een seminar?
+
+Een draadloze handmicrofoon, inbegrepen bij het [Product Presentation Pack](/packages/product-presentation/), past bij een spreker die rondloopt. Een zwanenhalsmicrofoon, inbegrepen bij het [Basic MICE Pack](/packages/basic-mice/), past bij een format achter het spreekgestoelte of podium.
+
+### Heb ik een technicus nodig voor een AV-opstelling voor een seminar?
+
+Niet bij het Product Presentation Pack: de apparatuur wordt door onze crew geleverd, opgebouwd en getest, en daarna door jou bediend. Bij het [Basic MICE Pack](/packages/basic-mice/) is een technicus optioneel bij te boeken.
+
+### Kan ik mijn eigen laptop op de beamer aansluiten?
+
+Ja. Het [Product Presentation Pack](/packages/product-presentation/) bevat HDMI- en USB-C-adapters plus audio-interfaces om je laptop, tablet of mediaspeler aan te sluiten.
+
+### Hoeveel mensen kunnen een seminar bijwonen met een standaard AV-opstelling?
+
+Het [Basic MICE Pack](/packages/basic-mice/) dekt tot 40 gasten. Voor een groter seminar, zie onze gids over [audiovisuele verhuur voor conferenties](/blog/audio-visual-rental-for-conferences/).
+
+### Hoe ver van tevoren moet ik AV-apparatuur boeken voor een seminar?
+
+Boek minstens 24 uur van tevoren om beschikbaarheid te garanderen. Onze diensten zijn beschikbaar in Malaga, de Costa del Sol en Sevilla zonder minimale bestelling, en reiken tot Granada bij verhuur boven de 400 euro.
