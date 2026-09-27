@@ -170,6 +170,11 @@ export default {
 			slug: 'av-utleie-fjernpresentasjoner',
 			keyword: 'AV-utleie til fjernpresentasjoner i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-virtual-events': {
+			slug: 'av-utleie-virtuelle-arrangementer',
+			keyword: 'AV-utleie til virtuelle arrangementer i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

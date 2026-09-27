@@ -162,6 +162,11 @@ export default {
 			slug: 'noleggio-audiovisivo-presentazioni-da-remoto',
 			keyword: 'noleggio audiovisivo per presentazioni da remoto a Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-virtual-events': {
+			slug: 'noleggio-audiovisivo-eventi-virtuali',
+			keyword: 'noleggio audiovisivo per eventi virtuali a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -146,6 +146,11 @@ export default {
 			slug: '远程演示视听租赁',
 			keyword: '马拉加 远程演示视听租赁',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-virtual-events': {
+			slug: '线上活动视听租赁',
+			keyword: '马拉加 线上活动视听租赁',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

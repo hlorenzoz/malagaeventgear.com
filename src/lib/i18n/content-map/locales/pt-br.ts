@@ -198,6 +198,11 @@ export default {
 			slug: 'aluguel-de-audiovisual-para-apresentacoes-remotas',
 			keyword: 'aluguel de audiovisual para apresentações remotas em Málaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-virtual-events': {
+			slug: 'aluguel-de-audiovisual-para-eventos-virtuais',
+			keyword: 'aluguel de audiovisual para eventos virtuais em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

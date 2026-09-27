@@ -166,6 +166,11 @@ export default {
 			slug: 'location-audiovisuelle-presentation-a-distance',
 			keyword: 'location audiovisuelle pour présentations à distance à Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-virtual-events': {
+			slug: 'location-audiovisuelle-evenements-virtuels',
+			keyword: 'location audiovisuelle pour événements virtuels à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -166,6 +166,11 @@ export default {
 			slug: 'av-vermietung-remote-praesentationen',
 			keyword: 'AV-Vermietung für Remote-Präsentationen in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-virtual-events': {
+			slug: 'av-vermietung-virtuelle-events',
+			keyword: 'AV-Vermietung für virtuelle Events in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

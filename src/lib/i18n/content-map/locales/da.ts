@@ -166,6 +166,11 @@ export default {
 			slug: 'av-udlejning-fjernpraesentationer',
 			keyword: 'AV-udlejning til fjernpræsentationer i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-virtual-events': {
+			slug: 'av-udlejning-virtuelle-events',
+			keyword: 'AV-udlejning til virtuelle events i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
