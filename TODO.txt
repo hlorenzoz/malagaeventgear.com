@@ -349,8 +349,17 @@ algo que la foto no muestra.
   stage-uplighting, headset-lavalier-microphone-rental y stage-lighting-rental (y sus 12
   traducciones) la presentan como "MICE Pack stage and podium setup, technician managed": ni la
   tarima ni el paquete se ven confirmados.
-Ya corregido en audio-visual-rental-for-remote-presentations (describe solo lo que se ve). Con la
-respuesta del usuario: corregir el resto en inglés, traducciones y manifest, en un solo cambio.
+- 1304 (charla de PROCURE en Coín: caja en pie, mesa de ponentes, pantalla detrás y una cámara de
+  video en primer plano):
+  https://cdn.malagaeventgear.com/blog/1304/lighting-sound-big-screen-projector-rental-malaga_5-300x224.webp
+  El manifest dice "Camera and screen coverage of the PROCURE panel talk", y
+  audio-visual-rental-for-conferences.svx (y sus 12 traducciones) dice "broadcast camera
+  equipment" y "Stage lighting, sound and screen setup". MEG hoy no tiene cámaras (el CSV de julio
+  de 2026 las dio de baja): confirmar qué puso MEG ahí (¿sonido y pantalla? ¿la cámara era de
+  otro?).
+Ya corregido en audio-visual-rental-for-remote-presentations (1289, 1331) y en
+audio-visual-rental-for-virtual-events (1304), que describen solo lo que se ve. Con la respuesta
+del usuario: corregir el resto en inglés, traducciones y manifest, en un solo cambio.
 
 
 -- ✅ PRIMERO: textos de las imágenes de la galería traducidos y cargados según el idioma (anotado y HECHO 2026-09-25)
