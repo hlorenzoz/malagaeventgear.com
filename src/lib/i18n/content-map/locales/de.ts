@@ -151,6 +151,11 @@ export default {
 			slug: 'fragen-an-den-hochzeitsverleih',
 			keyword: 'Fragen an den Hochzeitsverleih',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-training-sessions': {
+			slug: 'av-vermietung-schulungen',
+			keyword: 'AV-Vermietung für Schulungen in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

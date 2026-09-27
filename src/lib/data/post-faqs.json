@@ -1452,14 +1452,14 @@
   "audio-visual-rental-for-training-sessions": [
     {
       "question": "What AV equipment do I need for a training session?",
-      "answer": "It depends on your group size and format. A small, laptop driven workshop needs a sound system, a wireless microphone and a projector, which the Product Presentation Pack covers. A larger session benefits from a bigger screen and a technician, which the Basic MICE Pack and MICE Pack cover. See Match Your Training Session to a Package above."
+      "answer": "It depends on your group size and format. A small, laptop driven workshop needs a sound system, a wireless microphone and a projector, which the Product Presentation Pack covers. A larger session benefits from a bigger screen and a technician: the Basic MICE Pack offers the technician as an add on, and the MICE Pack includes one. See Match Your Training Session to a Package above."
     },
     {
       "question": "Is my training session too small for professional AV support?",
       "answer": "No. Our Product Presentation Pack is built for a small, laptop driven session, with sound, a wireless microphone and a projector delivered, installed and tested by our crew."
     },
     {
-      "question": "Do you provide on-site technical support during the session, or is it drop-off equipment only?",
+      "question": "Do you provide on site technical support during the session, or is it drop off equipment only?",
       "answer": "It depends on the package. The Product Presentation Pack is delivered, installed and tested by our crew, then run by you. The Basic MICE Pack offers a technician as an add on, and the MICE Pack includes one on site for up to six hours."
     },
     {

@@ -147,6 +147,11 @@ export default {
 			slug: 'domande-sul-noleggio-attrezzature-matrimoni',
 			keyword: 'domande sul noleggio attrezzature per matrimoni',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-training-sessions': {
+			slug: 'attrezzatura-audiovisiva-formazione',
+			keyword: 'attrezzatura audiovisiva per la formazione a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

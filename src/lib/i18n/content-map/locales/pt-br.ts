@@ -183,6 +183,11 @@ export default {
 			slug: 'perguntas-para-fazer-na-locacao-para-casamento',
 			keyword: 'perguntas para fazer na locação para casamento',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-training-sessions': {
+			slug: 'material-audiovisual-treinamento',
+			keyword: 'material audiovisual para treinamento em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

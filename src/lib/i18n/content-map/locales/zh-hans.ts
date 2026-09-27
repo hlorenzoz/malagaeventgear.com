@@ -131,6 +131,11 @@ export default {
 			slug: '婚礼设备租赁必问问题',
 			keyword: '马拉加 婚礼设备租赁必问问题',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-training-sessions': {
+			slug: '培训视听租赁',
+			keyword: '马拉加 培训视听租赁',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -151,6 +151,11 @@ export default {
 			slug: 'questions-a-poser-pour-la-location-de-materiel-pour-mariage',
 			keyword: 'questions à poser pour la location de matériel pour mariage',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-training-sessions': {
+			slug: 'equipement-audiovisuel-formation',
+			keyword: 'équipement audiovisuel pour une formation à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

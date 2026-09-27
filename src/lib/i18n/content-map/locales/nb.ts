@@ -155,6 +155,11 @@ export default {
 			slug: 'sporsmal-a-stille-ved-utleie-til-bryllup',
 			keyword: 'spørsmål å stille ved utleie til bryllup',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-training-sessions': {
+			slug: 'kursteknikk',
+			keyword: 'kursteknikk Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

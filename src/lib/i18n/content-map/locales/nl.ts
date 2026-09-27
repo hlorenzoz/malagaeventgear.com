@@ -151,6 +151,11 @@ export default {
 			slug: 'vragen-stellen-bij-verhuur-voor-bruiloften',
 			keyword: 'vragen stellen bij verhuur voor bruiloften',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-training-sessions': {
+			slug: 'audiovisuele-verhuur-trainingen',
+			keyword: 'audiovisuele verhuur voor trainingen in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

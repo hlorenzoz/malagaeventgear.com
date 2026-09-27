@@ -183,6 +183,11 @@ export default {
 			slug: 'perguntas-a-fazer-no-aluguer-para-casamentos',
 			keyword: 'perguntas a fazer no aluguer para casamentos',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-training-sessions': {
+			slug: 'aluguer-de-audiovisuais-para-formacoes',
+			keyword: 'aluguer de audiovisuais para formações em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

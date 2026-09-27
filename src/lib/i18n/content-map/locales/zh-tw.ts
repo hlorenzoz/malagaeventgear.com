@@ -131,6 +131,11 @@ export default {
 			slug: '婚禮設備租借必問問題',
 			keyword: '馬拉加 婚禮設備租借必問問題',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-training-sessions': {
+			slug: '教育訓練影音租賃',
+			keyword: '馬拉加 教育訓練影音租賃',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

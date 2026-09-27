@@ -147,6 +147,11 @@ export default {
 			slug: 'fragor-att-stalla-vid-uthyrning-till-brollop',
 			keyword: 'frågor att ställa vid uthyrning till bröllop',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-training-sessions': {
+			slug: 'av-uthyrning-utbildningar',
+			keyword: 'AV-uthyrning för utbildningar i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
