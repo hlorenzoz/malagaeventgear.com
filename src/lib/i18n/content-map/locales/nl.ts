@@ -142,6 +142,11 @@ export default {
 			keyword: 'verhuur voor buitenbruiloften in Malaga',
 			status: 'propuesta'
 		},
+		'indoor-wedding-rental-essentials': {
+			slug: 'verhuur-binnenbruiloften',
+			keyword: 'verhuur voor binnenbruiloften in Malaga',
+			status: 'propuesta'
+		},
 		'making-the-most-of-wedding-rentals': {
 			slug: 'het-meeste-halen-uit-je-verhuur-voor-bruiloften',
 			keyword: 'het meeste halen uit je verhuur voor bruiloften',

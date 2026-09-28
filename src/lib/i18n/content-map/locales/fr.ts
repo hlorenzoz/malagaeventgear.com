@@ -142,6 +142,11 @@ export default {
 			keyword: 'location de matériel pour mariage en plein air à Malaga',
 			status: 'propuesta'
 		},
+		'indoor-wedding-rental-essentials': {
+			slug: 'location-materiel-mariage-interieur',
+			keyword: 'location de matériel pour mariage en intérieur à Malaga',
+			status: 'propuesta'
+		},
 		'making-the-most-of-wedding-rentals': {
 			slug: 'tirer-le-meilleur-parti-de-votre-location-de-materiel-pour-mariage',
 			keyword: 'tirer le meilleur parti de votre location de matériel pour mariage',

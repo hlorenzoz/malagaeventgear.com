@@ -174,6 +174,11 @@ export default {
 			keyword: 'locação para casamento ao ar livre em Málaga',
 			status: 'propuesta'
 		},
+		'indoor-wedding-rental-essentials': {
+			slug: 'locacao-casamento-ambiente-interno',
+			keyword: 'locação para casamento em ambiente interno em Málaga',
+			status: 'propuesta'
+		},
 		'making-the-most-of-wedding-rentals': {
 			slug: 'aproveitar-ao-maximo-a-locacao-para-casamento',
 			keyword: 'aproveitar ao máximo a locação para casamento',

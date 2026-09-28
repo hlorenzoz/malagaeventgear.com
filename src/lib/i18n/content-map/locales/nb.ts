@@ -146,6 +146,11 @@ export default {
 			keyword: 'utleie til utendørs bryllup i Malaga',
 			status: 'propuesta'
 		},
+		'indoor-wedding-rental-essentials': {
+			slug: 'utleie-innendors-bryllup',
+			keyword: 'utleie til innendørs bryllup i Malaga',
+			status: 'propuesta'
+		},
 		'making-the-most-of-wedding-rentals': {
 			slug: 'fa-mest-mulig-ut-av-bryllupsutleien',
 			keyword: 'få mest mulig ut av bryllupsutleien i Malaga',

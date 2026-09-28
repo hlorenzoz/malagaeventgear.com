@@ -138,6 +138,11 @@ export default {
 			keyword: "noleggio attrezzature per matrimoni all'aperto a Malaga",
 			status: 'propuesta'
 		},
+		'indoor-wedding-rental-essentials': {
+			slug: 'noleggio-attrezzature-matrimoni-al-chiuso',
+			keyword: 'noleggio attrezzature per matrimoni al chiuso a Malaga',
+			status: 'propuesta'
+		},
 		'making-the-most-of-wedding-rentals': {
 			slug: 'sfruttare-al-meglio-il-noleggio-attrezzature-per-matrimoni',
 			keyword: 'sfruttare al meglio il noleggio attrezzature per matrimoni',

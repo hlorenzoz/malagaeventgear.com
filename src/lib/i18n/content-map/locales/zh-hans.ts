@@ -122,6 +122,11 @@ export default {
 			keyword: '马拉加 户外婚礼设备租赁',
 			status: 'propuesta'
 		},
+		'indoor-wedding-rental-essentials': {
+			slug: '室内婚礼设备租赁',
+			keyword: '马拉加 室内婚礼设备租赁',
+			status: 'propuesta'
+		},
 		'making-the-most-of-wedding-rentals': {
 			slug: '充分利用婚礼设备租赁',
 			keyword: '在马拉加充分利用婚礼设备租赁',
