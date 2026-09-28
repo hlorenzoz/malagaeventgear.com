@@ -272,6 +272,11 @@ export default {
 			slug: 'noleggio-audiovisivo-eventi-sportivi',
 			keyword: 'noleggio audiovisivo per eventi sportivi a Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-small-businesses': {
+			slug: 'noleggio-audiovisivo-piccole-imprese',
+			keyword: 'noleggio audiovisivo per piccole imprese a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -256,6 +256,11 @@ export default {
 			slug: '体育赛事视听租赁',
 			keyword: '马拉加 体育赛事视听租赁',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-small-businesses': {
+			slug: '中小企业视听租赁',
+			keyword: '马拉加 中小企业视听租赁',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

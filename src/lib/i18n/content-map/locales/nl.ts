@@ -276,6 +276,11 @@ export default {
 			slug: 'audiovisuele-verhuur-sportevenementen',
 			keyword: 'audiovisuele verhuur voor sportevenementen in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-small-businesses': {
+			slug: 'audiovisuele-verhuur-kleine-bedrijven',
+			keyword: 'audiovisuele verhuur voor kleine bedrijven in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

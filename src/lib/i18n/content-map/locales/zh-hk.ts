@@ -256,6 +256,11 @@ export default {
 			slug: '體育賽事視聽租借',
 			keyword: '馬拉加 體育賽事視聽租借',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-small-businesses': {
+			slug: '中小企業視聽租借',
+			keyword: '馬拉加 中小企業視聽租借',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

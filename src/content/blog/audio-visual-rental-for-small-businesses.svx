@@ -4,7 +4,7 @@ description: "Audio visual rental for small businesses in Malaga, Spain: budget 
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-small-businesses
 publishDate: 2025-12-01
-updatedDate: "2026-09-26"
+updatedDate: "2026-09-28"
 excerpt: "Audio visual rental for small businesses in Malaga, Spain: budget sized packages for a product demo, workshop or client meeting, no in house AV team required."
 coverImage: https://cdn.malagaeventgear.com/blog/1288/malaga_congress_av_rental_setup-scaled.webp
 categories: [Audio Visual Rental, Events]
@@ -63,7 +63,7 @@ You don't need anyone on staff who knows how to run a mixing console. On the Pro
 
 ## Small and Mid Size Setups We've Delivered
 
-A look at real events we have handled for businesses across Malaga and the Costa del Sol:
+A look at real setups we have delivered across Malaga, the Costa del Sol and Sevilla:
 
 ![Sound and monitor TV setup for a conference in Marbella.](https://cdn.malagaeventgear.com/blog/1277/high_care_hospital_marbella_conference_setup_1-300x224.webp)
 
@@ -81,9 +81,9 @@ A sound system set up for a conference at the Colegio Oficial de Gestores Admini
 
 Sound setup delivered for an outdoor promotional event in Sevilla, the same kind of setup we provide for small business events across the region.
 
-![Podium and sound system for a small business event in the province of Malaga.](https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-224x300.webp)
+![Podium and sound system for a concert in the province of Malaga.](https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-224x300.webp)
 
-A podium and sound system setup ready for a presentation in the province of Malaga.
+A podium and sound system set up for a concert in the province of Malaga, the same kind of setup a small business presentation uses.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('product-presentation')} speed="normal" direction="left" />

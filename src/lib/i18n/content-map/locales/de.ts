@@ -276,6 +276,11 @@ export default {
 			slug: 'av-vermietung-sportveranstaltungen',
 			keyword: 'AV-Vermietung für Sportveranstaltungen in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-small-businesses': {
+			slug: 'av-vermietung-kleine-unternehmen',
+			keyword: 'AV-Vermietung für kleine Unternehmen in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -276,6 +276,11 @@ export default {
 			slug: 'location-audiovisuelle-evenements-sportifs',
 			keyword: 'location audiovisuelle pour événements sportifs à Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-small-businesses': {
+			slug: 'location-audiovisuelle-petites-entreprises',
+			keyword: 'location audiovisuelle pour petites entreprises à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

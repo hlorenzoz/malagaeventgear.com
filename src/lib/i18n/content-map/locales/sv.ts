@@ -272,6 +272,11 @@ export default {
 			slug: 'av-uthyrning-idrottsevenemang',
 			keyword: 'AV-uthyrning för idrottsevenemang i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-small-businesses': {
+			slug: 'av-uthyrning-mindre-foretag',
+			keyword: 'AV-uthyrning för mindre företag i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

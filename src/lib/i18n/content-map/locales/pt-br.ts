@@ -308,6 +308,11 @@ export default {
 			slug: 'aluguel-de-audiovisual-para-eventos-esportivos',
 			keyword: 'aluguel de audiovisual para eventos esportivos em Málaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-small-businesses': {
+			slug: 'aluguel-de-audiovisual-para-pequenas-empresas',
+			keyword: 'aluguel de audiovisual para pequenas empresas em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
