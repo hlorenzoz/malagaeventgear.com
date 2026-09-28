@@ -197,6 +197,11 @@ export default {
 			keyword: '馬拉加 婚禮器材租借損壞保障',
 			status: 'propuesta'
 		},
+		'timeline-for-booking-wedding-rentals': {
+			slug: '婚禮器材租借預訂時間表',
+			keyword: '馬拉加 婚禮器材租借預訂時間表',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: '培訓視聽租借',
 			keyword: '馬拉加 培訓視聽租借',

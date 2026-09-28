@@ -249,6 +249,11 @@ export default {
 			keyword: 'proteção contra danos na locação para casamento em Málaga',
 			status: 'propuesta'
 		},
+		'timeline-for-booking-wedding-rentals': {
+			slug: 'quando-reservar-a-locacao-para-casamento',
+			keyword: 'quando reservar a locação para casamento em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'material-audiovisual-treinamento',
 			keyword: 'material audiovisual para treinamento em Málaga',

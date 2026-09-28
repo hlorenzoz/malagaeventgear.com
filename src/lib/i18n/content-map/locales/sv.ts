@@ -213,6 +213,11 @@ export default {
 			keyword: 'skadeskydd vid uthyrning till bröllop i Malaga',
 			status: 'propuesta'
 		},
+		'timeline-for-booking-wedding-rentals': {
+			slug: 'nar-du-ska-boka-uthyrning-till-brollop',
+			keyword: 'när du ska boka uthyrning till bröllop i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'av-uthyrning-utbildningar',
 			keyword: 'AV-uthyrning för utbildningar i Malaga',

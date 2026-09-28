@@ -213,6 +213,11 @@ export default {
 			keyword: 'protezione danni nel noleggio attrezzature per matrimoni a Malaga',
 			status: 'propuesta'
 		},
+		'timeline-for-booking-wedding-rentals': {
+			slug: 'quando-prenotare-noleggio-attrezzature-matrimoni',
+			keyword: 'quando prenotare il noleggio attrezzature per matrimoni a Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'attrezzatura-audiovisiva-formazione',
 			keyword: 'attrezzatura audiovisiva per la formazione a Malaga',

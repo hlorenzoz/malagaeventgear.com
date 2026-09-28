@@ -217,6 +217,11 @@ export default {
 			keyword: 'Schadensschutz beim Hochzeitsverleih in Malaga',
 			status: 'propuesta'
 		},
+		'timeline-for-booking-wedding-rentals': {
+			slug: 'buchungszeitpunkt-hochzeitsverleih',
+			keyword: 'Buchungszeitpunkt beim Hochzeitsverleih in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'av-vermietung-schulungen',
 			keyword: 'AV-Vermietung für Schulungen in Malaga',

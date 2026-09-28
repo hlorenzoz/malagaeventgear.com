@@ -217,6 +217,11 @@ export default {
 			keyword: 'protéger votre location de matériel pour mariage à Malaga',
 			status: 'propuesta'
 		},
+		'timeline-for-booking-wedding-rentals': {
+			slug: 'quand-reserver-location-materiel-mariage',
+			keyword: 'quand réserver la location de matériel pour mariage à Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'equipement-audiovisuel-formation',
 			keyword: 'équipement audiovisuel pour une formation à Malaga',

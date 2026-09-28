@@ -249,6 +249,11 @@ export default {
 			keyword: 'proteção contra danos no aluguer para casamentos em Málaga',
 			status: 'propuesta'
 		},
+		'timeline-for-booking-wedding-rentals': {
+			slug: 'quando-reservar-o-aluguer-para-casamentos',
+			keyword: 'quando reservar o aluguer para casamentos em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'aluguer-de-audiovisuais-para-formacoes',
 			keyword: 'aluguer de audiovisuais para formações em Málaga',
