@@ -254,6 +254,11 @@ export default {
 			keyword: 'quando reservar o aluguer para casamentos em Málaga',
 			status: 'propuesta'
 		},
+		'weather-considerations-for-outdoor-rentals': {
+			slug: 'condicoes-meteorologicas-aluguer-para-casamentos',
+			keyword: 'condições meteorológicas no aluguer para casamentos em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'aluguer-de-audiovisuais-para-formacoes',
 			keyword: 'aluguer de audiovisuais para formações em Málaga',

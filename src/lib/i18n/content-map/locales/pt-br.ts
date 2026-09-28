@@ -254,6 +254,11 @@ export default {
 			keyword: 'quando reservar a locação para casamento em Málaga',
 			status: 'propuesta'
 		},
+		'weather-considerations-for-outdoor-rentals': {
+			slug: 'condicoes-climaticas-locacao-para-casamento',
+			keyword: 'condições climáticas na locação para casamento em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'material-audiovisual-treinamento',
 			keyword: 'material audiovisual para treinamento em Málaga',

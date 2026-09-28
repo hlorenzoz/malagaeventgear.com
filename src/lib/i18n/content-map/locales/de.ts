@@ -222,6 +222,11 @@ export default {
 			keyword: 'Buchungszeitpunkt beim Hochzeitsverleih in Malaga',
 			status: 'propuesta'
 		},
+		'weather-considerations-for-outdoor-rentals': {
+			slug: 'wetterplanung-hochzeitsverleih',
+			keyword: 'Wetterplanung beim Hochzeitsverleih in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'av-vermietung-schulungen',
 			keyword: 'AV-Vermietung für Schulungen in Malaga',

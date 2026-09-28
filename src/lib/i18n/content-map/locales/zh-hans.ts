@@ -202,6 +202,11 @@ export default {
 			keyword: '马拉加 婚礼设备租赁预订时间表',
 			status: 'propuesta'
 		},
+		'weather-considerations-for-outdoor-rentals': {
+			slug: '婚礼设备租赁天气规划',
+			keyword: '马拉加 婚礼设备租赁天气规划',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: '培训视听租赁',
 			keyword: '马拉加 培训视听租赁',

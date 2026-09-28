@@ -218,6 +218,11 @@ export default {
 			keyword: 'quando prenotare il noleggio attrezzature per matrimoni a Malaga',
 			status: 'propuesta'
 		},
+		'weather-considerations-for-outdoor-rentals': {
+			slug: 'meteo-noleggio-attrezzature-matrimoni-in-esterna',
+			keyword: 'meteo e noleggio attrezzature per matrimoni in esterna a Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'attrezzatura-audiovisiva-formazione',
 			keyword: 'attrezzatura audiovisiva per la formazione a Malaga',

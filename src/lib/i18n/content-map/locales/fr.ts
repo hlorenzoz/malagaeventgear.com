@@ -222,6 +222,11 @@ export default {
 			keyword: 'quand réserver la location de matériel pour mariage à Malaga',
 			status: 'propuesta'
 		},
+		'weather-considerations-for-outdoor-rentals': {
+			slug: 'meteo-location-materiel-mariage-exterieur',
+			keyword: 'météo et location de matériel pour mariage en extérieur à Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'equipement-audiovisuel-formation',
 			keyword: 'équipement audiovisuel pour une formation à Malaga',

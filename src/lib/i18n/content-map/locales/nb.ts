@@ -226,6 +226,11 @@ export default {
 			keyword: 'når du skal bestille utleie til bryllup i Malaga',
 			status: 'propuesta'
 		},
+		'weather-considerations-for-outdoor-rentals': {
+			slug: 'vaerplanlegging-utleie-til-bryllup',
+			keyword: 'værplanlegging ved utleie til bryllup i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'kursteknikk',
 			keyword: 'kursteknikk Malaga',

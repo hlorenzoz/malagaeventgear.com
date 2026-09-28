@@ -222,6 +222,11 @@ export default {
 			keyword: 'wanneer boek je verhuur voor bruiloften in Malaga',
 			status: 'propuesta'
 		},
+		'weather-considerations-for-outdoor-rentals': {
+			slug: 'weerplanning-verhuur-bruiloften',
+			keyword: 'weerplanning bij verhuur voor bruiloften in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'audiovisuele-verhuur-trainingen',
 			keyword: 'audiovisuele verhuur voor trainingen in Malaga',
