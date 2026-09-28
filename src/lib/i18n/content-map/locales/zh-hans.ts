@@ -172,6 +172,11 @@ export default {
 			keyword: '马拉加 婚礼设备租赁优缺点',
 			status: 'propuesta'
 		},
+		'all-in-one-wedding-rental-packages': {
+			slug: '婚礼设备租赁一站式套餐',
+			keyword: '马拉加 婚礼设备租赁一站式套餐',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: '培训视听租赁',
 			keyword: '马拉加 培训视听租赁',

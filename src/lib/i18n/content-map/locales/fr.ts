@@ -192,6 +192,11 @@ export default {
 			keyword: 'avantages et inconvénients de la location de matériel pour mariage',
 			status: 'propuesta'
 		},
+		'all-in-one-wedding-rental-packages': {
+			slug: 'location-materiel-mariage-tout-compris',
+			keyword: 'location de matériel pour mariage tout compris à Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'equipement-audiovisuel-formation',
 			keyword: 'équipement audiovisuel pour une formation à Malaga',

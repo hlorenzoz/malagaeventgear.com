@@ -192,6 +192,11 @@ export default {
 			keyword: 'voor- en nadelen van verhuur voor bruiloften',
 			status: 'propuesta'
 		},
+		'all-in-one-wedding-rental-packages': {
+			slug: 'verhuur-bruiloften-totaalpakket',
+			keyword: 'verhuur voor bruiloften als totaalpakket in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'audiovisuele-verhuur-trainingen',
 			keyword: 'audiovisuele verhuur voor trainingen in Malaga',

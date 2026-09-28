@@ -192,6 +192,11 @@ export default {
 			keyword: 'Vor- und Nachteile des Hochzeitsverleihs',
 			status: 'propuesta'
 		},
+		'all-in-one-wedding-rental-packages': {
+			slug: 'komplettpakete-hochzeitsverleih',
+			keyword: 'Komplettpakete für den Hochzeitsverleih in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'av-vermietung-schulungen',
 			keyword: 'AV-Vermietung für Schulungen in Malaga',

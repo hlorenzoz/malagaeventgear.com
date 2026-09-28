@@ -224,6 +224,11 @@ export default {
 			keyword: 'prós e contras do aluguer para casamentos',
 			status: 'propuesta'
 		},
+		'all-in-one-wedding-rental-packages': {
+			slug: 'pacotes-tudo-incluido-aluguer-para-casamentos',
+			keyword: 'pacotes tudo incluído de aluguer para casamentos em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'aluguer-de-audiovisuais-para-formacoes',
 			keyword: 'aluguer de audiovisuais para formações em Málaga',

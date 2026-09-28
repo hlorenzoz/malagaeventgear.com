@@ -188,6 +188,11 @@ export default {
 			keyword: 'för- och nackdelar med uthyrning till bröllop',
 			status: 'propuesta'
 		},
+		'all-in-one-wedding-rental-packages': {
+			slug: 'helhetspaket-uthyrning-till-brollop',
+			keyword: 'helhetspaket för uthyrning till bröllop i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'av-uthyrning-utbildningar',
 			keyword: 'AV-uthyrning för utbildningar i Malaga',

@@ -224,6 +224,11 @@ export default {
 			keyword: 'prós e contras da locação para casamento',
 			status: 'propuesta'
 		},
+		'all-in-one-wedding-rental-packages': {
+			slug: 'pacotes-completos-locacao-para-casamento',
+			keyword: 'pacotes completos de locação para casamento em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'material-audiovisual-treinamento',
 			keyword: 'material audiovisual para treinamento em Málaga',

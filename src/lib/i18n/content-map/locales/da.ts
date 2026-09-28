@@ -192,6 +192,11 @@ export default {
 			keyword: 'fordele og ulemper ved udlejning til bryllup',
 			status: 'propuesta'
 		},
+		'all-in-one-wedding-rental-packages': {
+			slug: 'udlejning-bryllup-helhedspakke',
+			keyword: 'udlejning til bryllup som helhedspakke i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'kursusteknik',
 			keyword: 'kursusteknik Malaga',

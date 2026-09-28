@@ -188,6 +188,11 @@ export default {
 			keyword: 'pro e contro del noleggio di attrezzature per matrimonio',
 			status: 'propuesta'
 		},
+		'all-in-one-wedding-rental-packages': {
+			slug: 'noleggio-attrezzature-matrimoni-tutto-incluso',
+			keyword: 'noleggio attrezzature per matrimoni tutto incluso a Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'attrezzatura-audiovisiva-formazione',
 			keyword: 'attrezzatura audiovisiva per la formazione a Malaga',

@@ -196,6 +196,11 @@ export default {
 			keyword: 'fordeler og ulemper ved utleie til bryllup',
 			status: 'propuesta'
 		},
+		'all-in-one-wedding-rental-packages': {
+			slug: 'helhetspakker-utleie-til-bryllup',
+			keyword: 'helhetspakker for utleie til bryllup i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'kursteknikk',
 			keyword: 'kursteknikk Malaga',
