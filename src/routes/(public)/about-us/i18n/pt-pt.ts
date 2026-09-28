@@ -4,7 +4,7 @@ export const updated = '2026-09-26';
 
 export default {
 	seo: {
-		title: 'Sobre nós - Malaga Event Gear (MEG)',
+		title: 'Sobre nós | Malaga Event Gear',
 		description:
 			'Conheça os especialistas da Malaga Event Gear, a empresa de aluguer de equipamento audiovisual em Málaga dedicada a tornar inesquecíveis os seus casamentos, eventos corporativos e festas, com equipamento de topo.'
 	},

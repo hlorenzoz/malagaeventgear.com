@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Conformidade com o RGPD - Malaga Event Gear (MEG)',
+		title: 'Conformidade com o RGPD | Malaga Event Gear',
 		description:
 			'Compreenda como a Malaga Event Gear protege os seus dados pessoais ao abrigo do Regulamento Geral sobre a Proteção de Dados (RGPD) no aluguer de equipamento audiovisual.'
 	},

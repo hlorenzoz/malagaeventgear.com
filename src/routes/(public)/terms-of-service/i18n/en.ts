@@ -1,7 +1,7 @@
 // English copy of /terms-of-service/ (source).
 const copy = {
 	seo: {
-		title: 'Terms of Service - Malaga Event Gear (MEG)',
+		title: 'Terms of Service | Malaga Event Gear',
 		description:
 			'Read the official Terms of Service for Malaga Event Gear rentals. Understand our policies on booking, payments, and secure service.'
 	},

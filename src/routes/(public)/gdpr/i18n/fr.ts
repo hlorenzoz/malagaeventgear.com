@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Protection des données RGPD - Malaga Event Gear',
+		title: 'Protection des données RGPD | Malaga Event Gear',
 		description:
 			"Découvrez comment Malaga Event Gear protège vos données personnelles conformément au Règlement général sur la protection des données (RGPD) dans le cadre de ses locations de matériel audiovisuel."
 	},

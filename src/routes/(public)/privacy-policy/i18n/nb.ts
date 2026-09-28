@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Personvernerklæring | Malaga Event Gear (MEG)',
+		title: 'Personvernerklæring | Malaga Event Gear',
 		description:
 			'Les den offisielle personvernerklæringen til Malaga Event Gear. Lær hvordan vi samler inn, behandler og beskytter dine personopplysninger.'
 	},

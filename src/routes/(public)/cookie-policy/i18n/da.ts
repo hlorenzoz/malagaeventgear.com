@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Cookiepolitik | Malaga Event Gear (MEG)',
+		title: 'Cookiepolitik | Malaga Event Gear',
 		description:
 			'Forstå, hvordan Malaga Event Gear bruger cookies og sporingsteknologier til at optimere hjemmesidens brugervenlighed og analysere ydeevne.'
 	},

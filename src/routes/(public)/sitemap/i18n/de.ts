@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Sitemap | Malaga Event Gear (MEG)',
+		title: 'Sitemap | Malaga Event Gear',
 		description:
 			'Entdecken Sie die Sitemap von Malaga Event Gear. Hier finden Sie Links zu allen unseren Leistungen im professionellen Verleih von AV- und Lichttechnik, zu unseren Paketen und zu unseren Kontaktinformationen.'
 	},

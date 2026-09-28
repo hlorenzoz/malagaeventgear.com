@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Privacybeleid | Malaga Event Gear (MEG)',
+		title: 'Privacybeleid | Malaga Event Gear',
 		description:
 			'Lees het officiële privacybeleid van Malaga Event Gear. Ontdek hoe wij je persoonsgegevens verzamelen, verwerken en beschermen.'
 	},

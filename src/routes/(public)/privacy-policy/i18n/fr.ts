@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Politique de confidentialité | Malaga Event Gear (MEG)',
+		title: 'Politique de confidentialité | Malaga Event Gear',
 		description:
 			'Consultez la politique de confidentialité officielle de Malaga Event Gear. Découvrez comment nous collectons, traitons et protégeons vos données personnelles.'
 	},

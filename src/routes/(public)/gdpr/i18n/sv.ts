@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'GDPR-efterlevnad | Malaga Event Gear (MEG)',
+		title: 'GDPR-efterlevnad | Malaga Event Gear',
 		description:
 			'Förstå hur Malaga Event Gear skyddar dina personuppgifter enligt EU:s dataskyddsförordning (GDPR) vid ljud- och bilduthyrning.'
 	},

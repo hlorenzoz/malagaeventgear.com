@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Mappa del sito - Malaga Event Gear (MEG)',
+		title: 'Mappa del sito | Malaga Event Gear',
 		description:
 			'Esplora la mappa del sito di Malaga Event Gear. Trova i link a tutti i nostri servizi professionali di noleggio audiovisivo e illuminazione, pacchetti e informazioni di contatto.'
 	},

@@ -1,7 +1,7 @@
 // English copy of /privacy-policy/ (source).
 const copy = {
 	seo: {
-		title: 'Privacy Policy - Malaga Event Gear (MEG)',
+		title: 'Privacy Policy | Malaga Event Gear',
 		description:
 			'Read the official Privacy Policy for Malaga Event Gear. Learn how we collect, process, and protect your personal information.'
 	},

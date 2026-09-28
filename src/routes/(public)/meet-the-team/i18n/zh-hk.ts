@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: '認識團隊 | Malaga Event Gear（MEG）',
+		title: '認識團隊 | Malaga Event Gear',
 		description:
 			'認識Malaga Event Gear的團隊！了解我們經驗豐富的團隊，如何在西班牙馬拉加成就專業服務及零失誤的活動。'
 	},

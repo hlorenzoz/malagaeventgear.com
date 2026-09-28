@@ -4,7 +4,7 @@ export const updated = '2026-09-25';
 
 const copy = {
 	seo: {
-		title: '服务条款 | Malaga Event Gear（MEG）',
+		title: '服务条款 | Malaga Event Gear',
 		description: '阅读Malaga Event Gear租赁服务的官方服务条款，了解我们在预订、付款及安全服务方面的政策。'
 	},
 	hero: {

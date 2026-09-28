@@ -1,7 +1,7 @@
 // English copy of /meet-the-team/ (source).
 const copy = {
 	seo: {
-		title: 'Meet The Team - Malaga Event Gear (MEG)',
+		title: 'Meet The Team | Malaga Event Gear',
 		description:
 			'Meet the team at Malaga Event Gear! Learn about our experienced team driving our professional service and seamless events in Malaga, Spain.'
 	},

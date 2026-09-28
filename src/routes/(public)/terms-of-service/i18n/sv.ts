@@ -4,7 +4,7 @@ export const updated = '2026-09-25';
 
 export default {
 	seo: {
-		title: 'Allmänna villkor | Malaga Event Gear (MEG)',
+		title: 'Allmänna villkor | Malaga Event Gear',
 		description:
 			'Läs de officiella allmänna villkoren för Malaga Event Gears uthyrningstjänster. Förstå våra policyer kring bokning, betalning och säker service.'
 	},

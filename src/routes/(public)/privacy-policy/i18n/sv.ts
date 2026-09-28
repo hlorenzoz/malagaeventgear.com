@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Integritetspolicy | Malaga Event Gear (MEG)',
+		title: 'Integritetspolicy | Malaga Event Gear',
 		description:
 			'Läs den officiella integritetspolicyn för Malaga Event Gear. Lär dig hur vi samlar in, behandlar och skyddar din personliga information.'
 	},

@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'DSGVO-Konformität | Malaga Event Gear (MEG)',
+		title: 'DSGVO-Konformität | Malaga Event Gear',
 		description:
 			'Erfahren Sie, wie Malaga Event Gear Ihre personenbezogenen Daten gemäß der Datenschutz-Grundverordnung (DSGVO) für den Verleih von Veranstaltungstechnik schützt.'
 	},

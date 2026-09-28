@@ -1,7 +1,7 @@
 // English copy of /gdpr/ (source).
 const copy = {
 	seo: {
-		title: 'GDPR Compliance - Malaga Event Gear (MEG)',
+		title: 'GDPR Compliance | Malaga Event Gear',
 		description:
 			'Understand how Malaga Event Gear secures your personal data under the General Data Protection Regulation (GDPR) for audiovisual rentals.'
 	},

@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Política de cookies - Malaga Event Gear (MEG)',
+		title: 'Política de cookies | Malaga Event Gear',
 		description:
 			'Entenda como a Malaga Event Gear usa cookies e tecnologias de rastreamento para otimizar a usabilidade do site e analisar o desempenho.'
 	},

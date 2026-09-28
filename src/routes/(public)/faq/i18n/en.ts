@@ -1,7 +1,7 @@
 // English copy of /faq/ (source).
 const copy = {
 	seo: {
-		title: 'FAQ - Malaga Event Gear (MEG)',
+		title: 'AV Rental in Malaga: Prices, Setup and Booking FAQ | MEG',
 		description:
 			"Find clear FAQ answers on Malaga Event Gear's professional audiovisual rentals, covering packages, service area (Malaga/Costa del Sol), and booking requirements."
 	},

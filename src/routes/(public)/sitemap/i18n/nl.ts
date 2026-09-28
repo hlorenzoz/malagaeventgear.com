@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Sitemap | Malaga Event Gear (MEG)',
+		title: 'Sitemap | Malaga Event Gear',
 		description:
 			'Bekijk de sitemap van Malaga Event Gear. Vind links naar al onze professionele audiovisuele en verlichtingsverhuurdiensten, pakketten en contactgegevens.'
 	},

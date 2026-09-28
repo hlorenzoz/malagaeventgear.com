@@ -4,7 +4,7 @@ export const updated = '2026-09-25';
 
 export default {
 	seo: {
-		title: 'AGB | Malaga Event Gear (MEG)',
+		title: 'AGB | Malaga Event Gear',
 		description:
 			'Lesen Sie die offiziellen Allgemeinen Geschäftsbedingungen für die Vermietung von Malaga Event Gear. Erfahren Sie mehr über unsere Richtlinien zu Buchung, Zahlung und sicherem Service.'
 	},

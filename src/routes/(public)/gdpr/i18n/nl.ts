@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'AVG-naleving | Malaga Event Gear (MEG)',
+		title: 'AVG-naleving | Malaga Event Gear',
 		description:
 			'Lees hoe Malaga Event Gear je persoonsgegevens beveiligt volgens de Algemene Verordening Gegevensbescherming (AVG) bij audiovisuele verhuur.'
 	},

@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Cookiebeleid | Malaga Event Gear (MEG)',
+		title: 'Cookiebeleid | Malaga Event Gear',
 		description:
 			'Lees hoe Malaga Event Gear cookies en trackingtechnologieën gebruikt om de bruikbaarheid van de website te optimaliseren en de prestaties te analyseren.'
 	},

@@ -3,7 +3,7 @@
 // shotgun mic, so none of them is claimed here.
 const copy = {
 	seo: {
-		title: 'About Us - Malaga Event Gear (MEG)',
+		title: 'About Us | Malaga Event Gear',
 		description:
 			'Meet the experts at Malaga Event Gear! We are dedicated to making your weddings, corporate events, and parties unforgettable with top tier gear.'
 	},

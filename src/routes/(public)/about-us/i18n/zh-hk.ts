@@ -4,7 +4,7 @@ export const updated = '2026-09-26';
 
 export default {
 	seo: {
-		title: '關於我們 | Malaga Event Gear（MEG）',
+		title: '關於我們 | Malaga Event Gear',
 		description:
 			'認識Malaga Event Gear的專業團隊！我們致力以頂級器材，為您的婚禮、企業活動及派對打造難忘時刻。'
 	},

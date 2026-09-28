@@ -4,7 +4,7 @@ export const updated = '2026-09-25';
 
 export default {
 	seo: {
-		title: '服務條款 | Malaga Event Gear（MEG）',
+		title: '服務條款 | Malaga Event Gear',
 		description:
 			'閱讀Malaga Event Gear租賃服務的正式服務條款，了解我們在預約、付款及安全服務方面的政策。'
 	},

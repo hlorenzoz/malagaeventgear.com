@@ -4,7 +4,7 @@ export const updated = '2026-09-26';
 
 export default {
 	seo: {
-		title: 'Über uns | Malaga Event Gear (MEG)',
+		title: 'Über uns | Malaga Event Gear',
 		description:
 			'Lernen Sie die Experten von Malaga Event Gear kennen! Wir machen Ihre Hochzeiten, Firmenevents und Feiern mit erstklassiger Technik unvergesslich.'
 	},

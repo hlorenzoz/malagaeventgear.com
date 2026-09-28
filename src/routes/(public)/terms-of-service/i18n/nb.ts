@@ -4,7 +4,7 @@ export const updated = '2026-09-25';
 
 export default {
 	seo: {
-		title: 'Vilkår og betingelser | Malaga Event Gear (MEG)',
+		title: 'Vilkår og betingelser | Malaga Event Gear',
 		description:
 			'Les de offisielle vilkårene og betingelsene for utleie hos Malaga Event Gear. Forstå våre retningslinjer for booking, betaling og sikker service.'
 	},

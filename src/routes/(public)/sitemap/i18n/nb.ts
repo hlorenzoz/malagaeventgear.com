@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Nettstedskart | Malaga Event Gear (MEG)',
+		title: 'Nettstedskart | Malaga Event Gear',
 		description:
 			'Utforsk nettstedskartet til Malaga Event Gear. Finn lenker til alle våre profesjonelle tjenester for utleie av lyd og lys, pakker og kontaktinformasjon.'
 	},

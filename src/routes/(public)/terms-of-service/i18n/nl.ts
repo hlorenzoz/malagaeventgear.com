@@ -4,7 +4,7 @@ export const updated = '2026-09-25';
 
 const copy = {
 	seo: {
-		title: 'Algemene voorwaarden | Malaga Event Gear (MEG)',
+		title: 'Algemene voorwaarden | Malaga Event Gear',
 		description:
 			'Lees de officiële algemene voorwaarden voor de verhuurdiensten van Malaga Event Gear. Ontdek ons beleid over boekingen, betalingen en veilige service.'
 	},

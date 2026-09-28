@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Møt teamet | Malaga Event Gear (MEG)',
+		title: 'Møt teamet | Malaga Event Gear',
 		description:
 			'Møt lydteknikerne og resten av teamet i Malaga! Lær om det erfarne teamet bak vår profesjonelle service og våre sømløse arrangementer i Malaga, Spania.'
 	},

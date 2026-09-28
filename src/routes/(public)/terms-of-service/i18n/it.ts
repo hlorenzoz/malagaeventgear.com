@@ -4,7 +4,7 @@ export const updated = '2026-09-25';
 
 const copy = {
 	seo: {
-		title: 'Termini e condizioni - Malaga Event Gear (MEG)',
+		title: 'Termini e condizioni | Malaga Event Gear',
 		description:
 			'Leggi i termini e condizioni ufficiali dei noleggi di Malaga Event Gear. Scopri le nostre politiche su prenotazioni, pagamenti e servizio sicuro.'
 	},

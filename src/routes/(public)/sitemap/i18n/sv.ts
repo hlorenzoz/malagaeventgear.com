@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Webbplatskarta | Malaga Event Gear (MEG)',
+		title: 'Webbplatskarta | Malaga Event Gear',
 		description:
 			'Utforska webbplatskartan för Malaga Event Gear. Hitta länkar till alla våra professionella ljud- och ljusuthyrningstjänster, paket och kontaktinformation.'
 	},

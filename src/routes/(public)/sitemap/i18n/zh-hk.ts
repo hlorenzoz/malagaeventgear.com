@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: '網站地圖 | Malaga Event Gear（MEG）',
+		title: '網站地圖 | Malaga Event Gear',
 		description:
 			'瀏覽Malaga Event Gear的網站地圖，尋找我們專業視聽及燈光租借服務、套餐及聯絡資料的所有連結。'
 	},

@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 const copy = {
 	seo: {
-		title: 'Protezione dati GDPR - Malaga Event Gear (MEG)',
+		title: 'Protezione dati GDPR | Malaga Event Gear',
 		description:
 			"Scopri come Malaga Event Gear protegge i tuoi dati personali ai sensi del Regolamento generale sulla protezione dei dati (GDPR) nell'ambito del noleggio audiovisivo."
 	},

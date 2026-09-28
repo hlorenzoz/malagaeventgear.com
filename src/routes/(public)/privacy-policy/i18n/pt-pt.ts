@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Política de privacidade - Malaga Event Gear (MEG)',
+		title: 'Política de privacidade | Malaga Event Gear',
 		description:
 			'Leia a Política de Privacidade oficial da Malaga Event Gear. Saiba como recolhemos, tratamos e protegemos as suas informações pessoais.'
 	},

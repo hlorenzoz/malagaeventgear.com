@@ -4,7 +4,7 @@ export const updated = '2026-09-25';
 
 const copy = {
 	seo: {
-		title: 'Conditions générales | Malaga Event Gear (MEG)',
+		title: 'Conditions générales | Malaga Event Gear',
 		description:
 			'Consultez les conditions générales officielles des locations Malaga Event Gear. Découvrez nos règles de réservation, de paiement et de service sécurisé.'
 	},

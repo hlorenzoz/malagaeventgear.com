@@ -1,7 +1,7 @@
 // English copy of /cookie-policy/ (source).
 const copy = {
 	seo: {
-		title: 'Cookie Policy - Malaga Event Gear (MEG)',
+		title: 'Cookie Policy | Malaga Event Gear',
 		description:
 			'Understand how Malaga Event Gear uses cookies and tracking technologies to optimize website usability and analyze performance.'
 	},

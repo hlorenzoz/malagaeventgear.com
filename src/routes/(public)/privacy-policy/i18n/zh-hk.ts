@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: '私隱政策 | Malaga Event Gear（MEG）',
+		title: '私隱政策 | Malaga Event Gear',
 		description:
 			'閱讀Malaga Event Gear官方私隱政策，了解我們如何收集、處理及保障您的個人資料。'
 	},

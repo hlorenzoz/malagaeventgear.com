@@ -4,7 +4,7 @@ export const updated = '2026-09-24';
 
 export default {
 	seo: {
-		title: 'Datenschutzerklärung | Malaga Event Gear (MEG)',
+		title: 'Datenschutzerklärung | Malaga Event Gear',
 		description:
 			'Lesen Sie die offizielle Datenschutzerklärung von Malaga Event Gear. Erfahren Sie, wie wir Ihre personenbezogenen Daten erheben, verarbeiten und schützen.'
 	},
