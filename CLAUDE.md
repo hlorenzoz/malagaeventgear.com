@@ -331,7 +331,18 @@ segunda copia deriva en silencio porque son instrucciones en prosa, no código.
   servicios candidatos por categoría, ya resuelto en `content-map.md`, en la misma carpeta), el
   PDF `google-business-profile/Google Business Profile Categories (Complete List - 2026).pdf`
   (lista completa de categorías GBP), `inventario/` (inventario real de equipo, ver más abajo),
-  `REPORT_Merchant_Center.md`, `REPORT_Universal_Cart.md`.
+  `REPORT_Merchant_Center.md`, `REPORT_Universal_Cart.md`, y
+  `link-building/media-and-pr-plan.md` (plan de link building y PR del 2026-09-28: por qué no se
+  compran enlaces, con la cita de la política de Google, reglas de anchor y de `sponsored`,
+  historias publicables, medios y listas de proveedores verificados en los 13 idiomas del sitio,
+  con la prensa MICE y de congresos como sector prioritario (decisión del usuario, 2026-09-28)
+  con la URL de MEG a la que apunta cada enlace, medios cerrados que no se usan, cómo proceder y el registro
+  de enlaces conseguidos). Ante cualquier tarea de link building, backlinks, PR, directorios o
+  `sameAs`, se lee ese archivo primero y se anota ahí cada enlace conseguido. Al lado,
+  `link-building/outreach-crm-analysis.md` (2026-09-28): el diseño del CRM de outreach (flujo
+  local a través de Claude con commit y push, datos personales fuera del repo público), el estado
+  real de Resend (el cron de reseñas nunca envió: su worker no tiene `RESEND_API_KEY`), las
+  cuotas de Resend y las decisiones pendientes.
   **No hay export de GSC**: toda auditoría debe declarar que corrió sin datos de Search Console.
 
 ### El orden de operaciones

@@ -237,6 +237,111 @@ real es ~93; la intermitencia NO_LCP/93 entre corridas es varianza del laborator
 Writeup completo para agentes: docs/home-no-lcp-investigation.md
 
 
+-- ❌ Mejoras del curso de SEO de Peter Raventos (anotado 2026-09-28)
+
+Revisión del curso gratis de SEO de Peter Raventos (Peterlid) contra el repo, verificada en el
+código el 2026-09-28. Lo que el curso pide y MEG ya tiene no se toca: title y meta únicos, schema,
+FAQ, llms.txt, sitemaps, WebP/AVIF, CSS inline, precios visibles, enlaces del blog a los paquetes,
+_redirects sin cadenas (238 líneas revisadas) y `## Brief Overview` en 69 de 79 posts ingleses
+(cumple el papel de la "answer capsule" del curso).
+
+1. Página de autor con E-E-A-T real (prioridad alta).
+   src/routes/(public)/blog/author/[author]/ hoy es solo "Posts by {name}" y la lista de posts.
+   Falta bio, rol en MEG, trayectoria y perfiles públicos. buildPersonSchema
+   (src/lib/utils/schema.ts) no emite sameAs, jobTitle ni knowsAbout. PDF de Quality Raters: quién
+   crea el contenido y por qué sabe del tema. BLOQUEADO hasta tener los datos reales del usuario,
+   nunca inventados. En los 13 idiomas, con fechas de frescura y SDD (cambia un componente).
+
+2. Citar fuentes donde un dato lo necesita.
+   70 de 79 posts ingleses no tienen ningún enlace externo. Citar solo cuando una afirmación
+   depende de un tercero (normativa de ruido, capacidad de FYCMA, una estadística), nunca para
+   "construir autoridad" (el PDF dice que un negocio local es la autoridad sobre sí mismo).
+   Hacerlo post a post dentro de las actualizaciones y traducciones, no como pasada masiva.
+
+3. Medir el tráfico de IAs y buscadores.
+   No hay GA4 ni analítica en el código. CONFIRMAR si Cloudflare Web Analytics o Zaraz están
+   activos desde el dashboard. Conecta con el pendiente "Tracking Google Analytics & Cloudflare
+   Zaraz" de arriba. Objetivo: ver referrals de chatgpt.com, perplexity.ai, gemini.google.com,
+   copilot y claude.ai.
+
+4. Link building sin comprar enlaces (plan en "Link building", abajo).
+   Sumar al sameAs de #organization los perfiles reales que existan (LinkedIn, Instagram,
+   Facebook, directorios del sector). CONFIRMAR cuáles existen.
+
+Lo que NO se aplica del curso, y por qué:
+- Comprar enlaces (Getalink y similares) con anchor de keyword: link spam según las políticas de
+  Google ("Buying or selling links for ranking purposes", "links with optimized anchor text in
+  articles, guest posts, or press releases"). Un enlace pagado solo es válido con rel="sponsored"
+  o rel="nofollow", y así no transmite ranking.
+- Cambiar el año de un post sin cambiar su contenido: lo prohíbe la regla 11 de CLAUDE.md.
+- Estrellas de reseñas propias en el schema: Google no muestra reseñas "self serving" de un
+  LocalBusiness u Organization.
+- Rank Math, WP Rocket, Imagify, GTmetrix: son de WordPress. MEG ya lo resuelve en código.
+
+Link building (plan). Análisis completo, reglas, historias, medios, cómo proceder y registro:
+.agents/context/link-building/media-and-pr-plan.md (fuente única, esto es el resumen).
+a) Clientes y organizadores de eventos ya publicados en News (Bmotion, PROGOLD Summit, ECOC 2026
+   en FYCMA, Neighborhood Council). Pedir que citen a MEG como proveedor técnico en su propia
+   crónica del evento, con el nombre de la marca como anchor. Nunca como condición del contrato
+   (Google lo lista como link spam).
+b) Listas oficiales de proveedores: Málaga Convention Bureau, Costa del Sol Convention Bureau,
+   proveedores recomendados de FYCMA y de los hoteles donde MEG ya trabajó (Meliá Costa del Sol).
+   CONFIRMAR requisitos y si existen esas listas.
+c) Prensa local en inglés y en español con las noticias reales (ECOC, PROGOLD): Sur in English,
+   Diario Sur, medios del sector MICE. Un link nofollow de prensa igual suma como mención.
+d) Directorios de calidad con NAP exacto de site.ts: Apple Business Connect, Bing Places (ya en
+   sameAs), directorios del sector eventos. Nada de directorios de relleno.
+e) Socios reales (TGE, idea 23 de "Contenido pendiente"): la página de partner tiene que tener
+   contenido propio. Una página solo para intercambiar enlaces es link spam ("partner pages
+   exclusively for the sake of cross-linking").
+Anchor: siempre marca ("Malaga Event Gear") o URL, nunca la keyword exacta.
+f) Medios para PR (verificados el 2026-09-28). Se pitchea una historia de un post News, no se
+   distribuye una nota de prensa:
+   - PRIORIDAD (decisión del usuario, 2026-09-28): prensa MICE y de congresos, antes que el
+     resto. Top: PuntoMICE y Revista CONGRESOS, Eventoplus, MEET IN (es), HQ de Meeting Media
+     Group (en, ya anunció MCE South Europe en Málaga del 7 al 9 de noviembre de 2027),
+     Deplacements Pros y evenement.com (fr), Kongres Magazine (sin Málaga desde 2016). Ranking,
+     tabla por idioma y fuentes en el archivo de contexto. mice.es NO: certificado vencido y sin
+     notas desde 2023.
+   - Instituciones: Málaga Convention Bureau (guía de miembros asociados), Convention Bureau
+     Costa del Sol, FYCMA. CONFIRMAR cómo se entra en cada lista.
+   - Prensa en inglés: SUR in English, The Olive Press, Euro Weekly News (los dos últimos venden
+     patrocinado: si se paga, rel="sponsored").
+   - Prensa en español: Diario Sur, Málaga Hoy, La Opinión de Málaga (historia de los siete años
+     con el Neighborhood Council).
+   Arranque recomendado: PuntoMICE o Revista CONGRESOS con PROGOLD Summit, alta y caso en
+   Eventoplus, HQ con Málaga camino a MCE South Europe 2027. Después, Diario Sur con el
+   Neighborhood Council.
+   - Otros idiomas (tabla completa y fuentes en el archivo de contexto): Sydkusten (sv), La
+     Danesa (da), Det Norske Magasinet (nb), Costa del Sol Online (de) y Le Petit Journal
+     Andalousie (fr) son los mejores. Prensa MICE en fr, it, de, nl, pt-pt y pt-br. zh-tw y
+     zh-hk sin ningún medio. El enlace apunta a la versión en el idioma del medio. No usar la
+     CSN ni SUR Deutsche Ausgabe (cerraron en 2024).
+   Sources:
+   - Google spam policies: https://developers.google.com/search/docs/essentials/spam-policies
+   - Eventoplus: https://www.eventoplus.com/
+   - Eventoplus, Eventos Magazine: https://www.eventoplus.com/en/eventos-magazine/
+   - Eventoplus, luz y sonido: https://www.eventoplus.com/en/suppliers/technical-services/light-and-sound/
+   - Grupo eventoplus: https://grupoeventoplus.com/
+   - mice.es, Málaga Convention Bureau (inactivo): https://www.mice.es/3494-malaga-convention-bureau
+   - PuntoMICE: https://puntomice.com/
+   - Revista CONGRESOS: https://revistacongresos.com/
+   - MEET IN: https://www.meet-in.es/
+   - Meeting Media Group, MCE South Europe en Málaga 2027: https://meetingmediagroup.com/article/europe-congress-unveils-six-event-calendar-for-2027-expanding-its-boutique-mice-portfolio
+   - Deplacements Pros, redacción: https://www.deplacementspros.com/redaction
+   - Evenement.com, MICE 2026: https://www.evenement.com/marketing/mice/mice-2026-la-france-rejoint-le-podium-des-destinations-incontournables/
+   - Kongres Magazine: https://kongres-magazine.eu/
+   - Resto de fuentes MICE: .agents/context/link-building/media-and-pr-plan.md
+   - Málaga Convention Bureau: https://visita.malaga.eu/convention-bureau/en/mcb
+   - Convention Bureau Costa del Sol: https://www.visitacostadelsol.com/convention-bureau/que-hacer/malaga-mice-p98553
+   - FYCMA: https://fycma.com/?lang=en
+   - SUR in English: https://www.linkedin.com/company/sur-in-english
+   - Diario Sur: https://en.wikipedia.org/wiki/Diario_Sur
+   - The Olive Press, Malaga: https://www.theolivepress.es/spain-news/category/andalucia/malaga/
+   - Euro Weekly News, Costa del Sol: https://euroweeklynews.com/news/spain/costa-del-sol/
+   - EuroWeekly News: https://en.wikipedia.org/wiki/EuroWeekly_News
+
+
 -- ❌ "Malaga, Spain" en lo ya traducido (anotado 2026-09-26)
 
 Decisión del usuario del 2026-09-26, regla en CLAUDE.md §5 ("Malaga, Spain"): la primera mención
