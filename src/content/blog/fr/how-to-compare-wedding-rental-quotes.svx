@@ -1,0 +1,126 @@
+---
+title: "Comparer les devis de location de matériel pour mariage à Malaga"
+description: "Comparer les devis de location de matériel pour mariage à Malaga, en Espagne : les postes à exiger, avec l'Eco Pack et le Wedding Pack de MEG en référence."
+excerpt: "Comparer les devis de location de matériel pour mariage à Malaga : les postes qu'un devis comparable doit détailler, sonorisation, éclairage, technicien, TVA, avec l'Eco Pack et le Wedding Pack de MEG détaillés comme référence concrète."
+publishDate: "2026-09-28"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Comparer les devis de location de matériel pour mariage à Malaga, en Espagne, n'est pas le même exercice que vérifier un prestataire que vous avez déjà retenu. Cette page explique comment mettre deux devis ou plus côte à côte et repérer ce que l'un précise et que l'autre passe sous silence, avant de vous engager auprès de qui que ce soit. Si vous avez déjà un prestataire en tête et cherchez les questions à lui poser avant de le réserver, consultez plutôt notre guide [questions à poser pour la location de matériel pour mariage](/blog/questions-to-ask-wedding-rental-companies/). Pour la vue d'ensemble complète de ce que nous couvrons pour un mariage, consultez notre aperçu [location de matériel pour mariage](/blog/wedding-rentals/).
+
+## En bref
+
+---
+
+Un devis AV de mariage comparable indique clairement neuf éléments : le nombre d'invités pour lequel la sonorisation est prévue, ce que sont réellement la sonorisation, l'éclairage et les microphones, la présence ou non d'un technicien sur place, si le transport, l'installation et le démontage sont compris dans le prix ou facturés à part et si le prix HT et la TVA sont indiqués séparément. Vous trouverez ci-dessous une liste de ce qu'il faut vérifier, puis l'[Eco Pack](/packages/eco/) et le [Wedding Pack](/packages/wedding/) de Malaga Event Gear détaillés ligne par ligne, pour que vous puissiez reporter n'importe quel autre devis dans les mêmes lignes et voir où il devient flou.
+
+## Points clés
+
+---
+
+- Neuf postes rendent un devis AV de mariage réellement comparable : nombre d'invités, sonorisation, éclairage, microphones, technicien, transport, installation et démontage, prix HT et TVA.
+- L'Eco Pack et le Wedding Pack de MEG sont détaillés ci-dessous comme référence concrète, avec des chiffres réels, pas des lignes fictives.
+- Un prix plus bas sur un devis concurrent peut simplement signifier un nombre d'invités inférieur ou l'absence de technicien, et non un coût plus bas pour la même prestation.
+- Demander plus d'un devis avant de réserver vaut la peine justement pour avoir quelque chose à confronter à cette liste.
+
+## Ce qu'un devis AV détaillé doit réellement indiquer
+
+Un devis que vous pouvez vraiment comparer à un autre indique ces neuf éléments sans que vous ayez à les demander :
+
+- **Nombre d'invités.** Un chiffre pour lequel la sonorisation est prévue, pas une description de la taille du lieu.
+- **Sonorisation.** Ce que sont réellement les enceintes, pas seulement "système PA".
+- **Microphones.** Combien et de quel type, filaires ou sans fil.
+- **Éclairage.** Ce dont il s'agit, car "éclairage inclus" recouvre des installations très différentes.
+- **Technicien, inclus ou non.** Si quelqu'un est présent sur place pour faire fonctionner le matériel pendant l'événement, ou si le matériel est livré, installé, testé et laissé en fonctionnement.
+- **Transport.** Si l'acheminement du matériel jusqu'à votre lieu fait partie du prix ou constitue une ligne à part.
+- **Installation et démontage.** Si l'installation et l'enlèvement sont compris, ou facturés en plus.
+- **Prix HT.** Le coût du forfait hors taxes, indiqué en chiffres, pas un vague montant "à partir de".
+- **TVA.** Si le prix affiché inclut déjà la TVA espagnole de 21 %, et si le devis final distingue les deux.
+
+<InlineCTA />
+
+## Le devis de MEG, poste par poste
+
+Voici à quoi ressemble un devis AV comparable quand chacun de ces neuf postes est réellement rempli, avec les deux forfaits de MEG pensés pour un mariage. Reportez le devis de n'importe quel autre prestataire dans une troisième colonne, face à ces mêmes lignes, et voyez ce qu'il laisse en blanc.
+
+| Poste | Eco Pack | Wedding Pack |
+| --- | --- | --- |
+| Nombre d'invités | Jusqu'à 50 | Jusqu'à 80 |
+| Sonorisation | 2 enceintes actives sur pieds | Système acoustique PA actif haut de gamme |
+| Microphones | 1 microphone dynamique filaire | Microphones sans fil pour les discours |
+| Éclairage | 2 barres lumineuses avec projecteurs LED RGBW | Guirlandes lumineuses et cordons LED blanc chaud |
+| Technicien sur place | Non inclus, fonctionnement en autonomie après l'installation | Inclus, pendant tout l'événement |
+| Transport | Inclus | Inclus |
+| Installation et démontage | Inclus | Inclus |
+| Prix HT | 290 € | 650 € |
+| TVA | Non incluse, +21 % indiqués séparément sur le devis final | Non incluse, +21 % indiqués séparément sur le devis final |
+
+Les deux forfaits intègrent le transport, l'installation et le démontage dans le prix affiché au lieu de les facturer comme des lignes séparées. Cela vaut la peine de le vérifier sur tout autre devis que vous recevez, car ailleurs ces postes sont souvent chiffrés à part.
+
+## Pourquoi deux devis pour "le même forfait" arrivent à des prix différents
+
+Quand deux devis AV se ressemblent en surface mais aboutissent à des montants différents, la raison honnête tient presque toujours à l'un de ces quatre éléments : un nombre d'invités différent, la présence ou non d'un technicien, une TVA déjà comprise dans le montant ou ajoutée ensuite et une livraison et une installation incluses dans le prix ou facturées à part. Il s'agit rarement d'une vague différence de "qualité". Si un prestataire ne peut pas vous indiquer lequel de ces quatre éléments a fait varier le prix, posez-lui directement la question plutôt que de supposer que le montant le plus élevé correspond simplement à un meilleur matériel.
+
+## Les signaux d'alerte d'un devis vague
+
+Certains points méritent d'être traités comme une raison de poser d'autres questions avant de réserver, et non comme une bizarrerie normale du secteur :
+
+- Aucun nombre d'invités indiqué nulle part, seulement une description de la taille du lieu.
+- Aucune mention précisant si la TVA est comprise dans le prix du devis.
+- "Sonorisation" ou "forfait AV" sans rien qui décrive ce que sont réellement les enceintes ou l'éclairage.
+- Aucune indication de qui, le cas échéant, est présent pendant l'événement pour faire fonctionner le matériel.
+- Du mobilier, des tentes ou de la décoration regroupés dans un "forfait AV". L'audiovisuel et la décoration d'événement relèvent généralement de métiers distincts, donc un devis qui mélange les deux dans un seul montant est plus difficile à comparer à celui d'une entreprise qui ne fait que l'un des deux.
+
+## Le devis le moins cher est-il toujours le meilleur
+
+Pas forcément, et c'est pourquoi la liste ci-dessus compte davantage que le total en bas de la page. Un montant plus bas peut couvrir moins de choses, et non coûter moins pour la même prestation. Demander des devis à plusieurs entreprises avant de réserver vaut la peine précisément pour cette raison : cela vous donne quelque chose de concret à confronter à cette liste, plutôt que de juger un chiffre isolé.
+
+## Ce qu'un devis clair doit nommer
+
+![Décoration élégante de réception de mariage sous un éclairage d'ambiance doux.](https://cdn.malagaeventgear.com/blog/1632/wedding_reception_decor.webp)
+
+Une réception illustrative, pas un événement de Malaga Event Gear. L'éclairage et un technicien sur place, tous deux inclus dans le Wedding Pack, sont les deux postes qu'un devis vague risque le plus d'omettre.
+
+![Gros plan sur une mariée qui tient un bouquet de fleurs aux couleurs pastel.](https://cdn.malagaeventgear.com/blog/1637/bride_holding_wedding_bouquet.webp)
+
+Une photo d'illustration, pas l'un de nos mariages. Un mariage plus petit avec l'Eco Pack est dimensionné et chiffré en fonction de sa propre capacité de 50 invités, et non d'une description générique de forfait.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('wedding', ['/1632/', '/1637/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Réservation et zone de service
+
+Nos services couvrent Malaga et l'ensemble de la Costa del Sol, ainsi que Séville, sans minimum de commande, et s'étendent jusqu'à Grenade pour les locations de plus de 400 €, un minimum réel lié à la distance, expliqué en détail dans notre guide [réduire le coût de la location de matériel pour mariage](/blog/tips-for-reducing-wedding-rental-costs/). Si vous n'avez pas encore choisi de forfait, notre guide [comment choisir sa location de matériel pour mariage](/blog/how-to-choose-wedding-rentals/) passe en revue les questions qui départagent l'Eco Pack et le Wedding Pack, avant même d'en arriver à comparer des devis.
+
+## Conclusion
+
+Pour comparer les devis de location de matériel pour mariage à Malaga, retenez qu'un devis AV comparable indique le nombre d'invités, ce que sont réellement la sonorisation, l'éclairage et les microphones, si un technicien est inclus, si le transport, l'installation et le démontage sont compris et si la TVA est indiquée séparément. L'Eco Pack et le Wedding Pack de MEG sont détaillés ci-dessus selon exactement ces lignes. [Contactez-nous](/contact/) pour obtenir un devis que vous pourrez mettre face à n'importe quel autre devis que vous comparez.
+
+## Questions fréquentes
+
+### Que doit contenir un devis détaillé de location AV pour un mariage ?
+
+Le nombre d'invités, ce que sont réellement la sonorisation et l'éclairage, combien de microphones et de quel type, si un technicien est inclus, si le transport, l'installation et le démontage sont compris, le prix HT et la TVA indiquée séparément. Voir la liste ci-dessus pour la façon dont les forfaits de MEG répondent à chacun de ces points.
+
+### Le prix inclut-il la livraison et l'installation, ou s'agit-il de lignes séparées ?
+
+Sur les deux forfaits de MEG pensés pour un mariage, le transport, l'installation et le démontage sont inclus dans le prix affiché au lieu d'être facturés séparément. Vérifiez-le sur tout autre devis que vous comparez, car ailleurs ils sont souvent facturés à part.
+
+### Le prix du devis inclut-il la TVA ?
+
+Non. Les prix affichés par MEG s'entendent hors TVA de 21 %, et le devis final indique séparément le prix HT et la TVA. Un devis qui ne précise pas ce point, dans un sens ou dans l'autre, mérite qu'on pose directement la question.
+
+### Un technicien est-il inclus, ou s'agit-il d'une ligne séparée ?
+
+Cela dépend du forfait, et c'est précisément pour cela qu'il figure dans la liste. Le Wedding Pack de MEG inclut un technicien sur place pendant tout l'événement. L'Eco Pack n'en inclut pas : il fonctionne en autonomie une fois que notre équipe l'a livré, installé et testé.
+
+### Pourquoi deux devis pour ce qui ressemble au même forfait arrivent-ils à des prix différents ?
+
+Presque toujours pour l'une de ces quatre raisons : un nombre d'invités différent, la présence ou non d'un technicien, une TVA déjà comprise ou non dans le montant ou une installation et un démontage inclus ou facturés à part. Voir la section ci-dessus pour savoir lequel de ces éléments explique l'écart.

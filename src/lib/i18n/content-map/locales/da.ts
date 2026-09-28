@@ -197,6 +197,11 @@ export default {
 			keyword: 'udlejning til bryllup som helhedspakke i Malaga',
 			status: 'propuesta'
 		},
+		'how-to-compare-wedding-rental-quotes': {
+			slug: 'sammenligne-tilbud-udlejning-til-bryllup',
+			keyword: 'sammenligne tilbud på udlejning til bryllup i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'kursusteknik',
 			keyword: 'kursusteknik Malaga',

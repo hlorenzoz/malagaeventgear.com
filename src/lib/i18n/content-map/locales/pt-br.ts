@@ -229,6 +229,11 @@ export default {
 			keyword: 'pacotes completos de locação para casamento em Málaga',
 			status: 'propuesta'
 		},
+		'how-to-compare-wedding-rental-quotes': {
+			slug: 'comparar-orcamentos-locacao-para-casamento',
+			keyword: 'comparar orçamentos de locação para casamento em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'material-audiovisual-treinamento',
 			keyword: 'material audiovisual para treinamento em Málaga',

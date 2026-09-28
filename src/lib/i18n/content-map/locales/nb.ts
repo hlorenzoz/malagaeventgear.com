@@ -201,6 +201,11 @@ export default {
 			keyword: 'helhetspakker for utleie til bryllup i Malaga',
 			status: 'propuesta'
 		},
+		'how-to-compare-wedding-rental-quotes': {
+			slug: 'sammenligne-tilbud-utleie-til-bryllup',
+			keyword: 'sammenligne tilbud på utleie til bryllup i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'kursteknikk',
 			keyword: 'kursteknikk Malaga',

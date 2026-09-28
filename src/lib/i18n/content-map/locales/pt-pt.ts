@@ -229,6 +229,11 @@ export default {
 			keyword: 'pacotes tudo incluído de aluguer para casamentos em Málaga',
 			status: 'propuesta'
 		},
+		'how-to-compare-wedding-rental-quotes': {
+			slug: 'comparar-orcamentos-aluguer-para-casamentos',
+			keyword: 'comparar orçamentos de aluguer para casamentos em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'aluguer-de-audiovisuais-para-formacoes',
 			keyword: 'aluguer de audiovisuais para formações em Málaga',

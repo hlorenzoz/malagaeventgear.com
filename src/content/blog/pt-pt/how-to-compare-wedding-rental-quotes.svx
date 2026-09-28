@@ -1,0 +1,126 @@
+---
+title: "Como comparar orçamentos de aluguer para casamentos em Málaga"
+description: "Comparar orçamentos de aluguer para casamentos em Málaga, Espanha: as rubricas que um orçamento deve ter, com Eco Pack e Wedding Pack da MEG como referência."
+excerpt: "Comparar orçamentos de aluguer para casamentos em Málaga: as rubricas que um orçamento comparável deve mostrar, som, iluminação, técnico e IVA, com o Eco Pack e o Wedding Pack da MEG detalhados como referência concreta."
+publishDate: "2026-09-28"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Comparar orçamentos de aluguer para casamentos em Málaga, Espanha, é um trabalho diferente de avaliar um fornecedor que já tem na sua lista de finalistas. Esta página trata de colocar dois ou mais orçamentos lado a lado e identificar o que um revela e o outro omite, antes de se comprometer com alguém. Se já tem um fornecedor em mente e procura as perguntas a fazer antes de o reservar, consulte antes o nosso guia [perguntas a fazer no aluguer para casamentos](/blog/questions-to-ask-wedding-rental-companies/). Para o panorama completo do que cobrimos em casamentos, veja a nossa visão geral sobre [aluguer para casamentos](/blog/wedding-rentals/).
+
+## Resumo
+
+---
+
+Um orçamento de AV para casamento comparável indica claramente nove coisas: o número de convidados para o qual o sistema de som está preparado, o que são realmente o som, a iluminação e os microfones, se há um técnico no local, se o transporte, a montagem e a desmontagem estão incluídos no preço ou são faturados à parte e se o preço líquido e o IVA aparecem separados. Abaixo encontra uma lista do que verificar e, depois, o [Eco Pack](/packages/eco/) e o [Wedding Pack](/packages/wedding/) da Malaga Event Gear detalhados linha a linha, para que possa passar qualquer outro orçamento para as mesmas linhas e ver onde fica vago.
+
+## Pontos principais
+
+---
+
+- Nove rubricas tornam um orçamento de AV para casamento realmente comparável: número de convidados, som, iluminação, microfones, técnico, transporte, montagem e desmontagem, preço líquido e IVA.
+- O Eco Pack e o Wedding Pack da MEG estão detalhados abaixo como referência concreta, com valores reais, não linhas de exemplo.
+- Um preço mais baixo num orçamento concorrente pode simplesmente significar menos convidados cobertos ou nenhum técnico, e não um custo mais baixo pela mesma cobertura.
+- Pedir mais do que um orçamento antes de reservar vale a pena precisamente para ter algo com que confrontar esta lista.
+
+## O que um orçamento de AV detalhado deve realmente mostrar
+
+Um orçamento que pode realmente comparar com outro indica estas nove coisas sem que tenha de as pedir:
+
+- **Número de convidados.** Um número para o qual o sistema de som está preparado, não uma descrição do tamanho do espaço.
+- **Sistema de som.** O que são realmente as colunas, não apenas "sistema PA".
+- **Microfones.** Quantos e de que tipo, com fios ou sem fios.
+- **Iluminação.** O que é, já que "iluminação incluída" abrange montagens muito diferentes.
+- **Técnico, incluído ou não.** Se há alguém no local a operar o equipamento durante o evento, ou se este é entregue, instalado, testado e deixado a funcionar.
+- **Transporte.** Se levar o equipamento até ao seu espaço faz parte do preço ou é uma rubrica à parte.
+- **Montagem e desmontagem.** Se a instalação e a recolha estão incluídas ou são faturadas à parte.
+- **Preço líquido.** O custo do pacote antes de impostos, indicado como valor, não um vago "a partir de".
+- **IVA.** Se o preço apresentado já inclui o IVA espanhol de 21% e se o orçamento final separa os dois.
+
+<InlineCTA />
+
+## O orçamento da MEG, rubrica a rubrica
+
+Eis o aspeto de um orçamento de AV comparável quando cada uma destas nove rubricas está realmente preenchida, com os dois pacotes da MEG pensados para casamentos. Passe o orçamento de qualquer outro fornecedor para uma terceira coluna, ao lado destas mesmas linhas, e veja o que fica em branco.
+
+| Rubrica | Eco Pack | Wedding Pack |
+| --- | --- | --- |
+| Número de convidados | Até 50 | Até 80 |
+| Sistema de som | 2 colunas ativas com suportes | Sistema acústico PA ativo de gama alta |
+| Microfones | 1 microfone dinâmico com fio | Microfones sem fios para discursos |
+| Iluminação | 2 barras de luz com focos LED RGBW | Luzes de fada e cordões LED de luz quente |
+| Técnico no local | Não incluído, funciona de forma autónoma após a montagem | Incluído, durante todo o evento |
+| Transporte | Incluído | Incluído |
+| Montagem e desmontagem | Incluídas | Incluídas |
+| Preço líquido (sem IVA) | 290 € | 650 € |
+| IVA | Não incluído, +21% indicado à parte no orçamento final | Não incluído, +21% indicado à parte no orçamento final |
+
+Os dois pacotes incluem o transporte, a montagem e a desmontagem no preço indicado, em vez de os faturar como rubricas separadas. Vale a pena confirmar isto em qualquer outro orçamento que receba, já que noutros fornecedores costuma ter um preço à parte.
+
+## Porque é que dois orçamentos para "o mesmo pacote" chegam a preços diferentes
+
+Quando dois orçamentos de AV parecem semelhantes à superfície mas chegam a valores diferentes, a razão honesta é quase sempre uma de quatro: uma capacidade de convidados diferente, se há ou não um técnico incluído, se o IVA já está no valor ou é acrescentado depois e se a entrega e a montagem estão incluídas no preço ou são cobradas à parte. Raramente é uma vaga diferença de "qualidade". Se um fornecedor não conseguir indicar qual destas quatro fez mudar o preço, pergunte-lhe diretamente, em vez de presumir que o valor mais alto é simplesmente melhor equipamento.
+
+## Sinais de alerta num orçamento vago
+
+Algumas coisas merecem ser vistas como motivo para fazer mais perguntas antes de reservar, e não como uma peculiaridade normal do setor:
+
+- Nenhum número de convidados indicado em lado nenhum, apenas uma descrição do tamanho do espaço.
+- Nenhuma menção sobre se o IVA está incluído no preço orçamentado.
+- "Sistema de som" ou "pacote de AV" sem nada que descreva o que são realmente as colunas ou a iluminação.
+- Nenhuma indicação de quem, se alguém, está presente durante o evento a operar o equipamento.
+- Mobiliário, tendas ou decoração incluídos num "pacote de AV". O audiovisual e a decoração de eventos são normalmente ofícios separados, pelo que um orçamento que junta os dois num único valor é mais difícil de comparar com o de uma empresa que só faz um deles.
+
+## O orçamento mais barato é sempre o melhor
+
+Não necessariamente, e é por isso que a lista acima conta mais do que o total no fundo da página. Um valor mais baixo pode estar a cobrir menos, e não a custar menos pela mesma coisa. Pedir orçamentos a mais do que uma empresa antes de reservar vale a pena exatamente por esta razão: dá-lhe algo concreto com que confrontar esta lista, em vez de julgar um único número isolado.
+
+## O que um orçamento claro deve nomear
+
+![Decoração elegante de receção de casamento sob uma iluminação ambiente suave.](https://cdn.malagaeventgear.com/blog/1632/wedding_reception_decor.webp)
+
+Uma receção ilustrativa, não um evento da Malaga Event Gear. A iluminação e um técnico no local, ambos incluídos no Wedding Pack, são as duas rubricas que um orçamento vago mais tende a omitir.
+
+![Grande plano de uma noiva a segurar um ramo de flores em tons pastel.](https://cdn.malagaeventgear.com/blog/1637/bride_holding_wedding_bouquet.webp)
+
+Uma fotografia ilustrativa, não um dos nossos casamentos. Um casamento mais pequeno com o Eco Pack é dimensionado e orçamentado em função da sua própria capacidade de 50 convidados, e não de uma descrição genérica de pacote.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('wedding', ['/1632/', '/1637/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Reserva e área de serviço
+
+Os nossos serviços cobrem Málaga e toda a Costa del Sol, além de Sevilha, sem encomenda mínima, e chegam a Granada para alugueres acima de 400 €, um mínimo real ligado à distância, explicado na íntegra no nosso guia [poupar no aluguer para casamentos](/blog/tips-for-reducing-wedding-rental-costs/). Se ainda não escolheu um pacote, o nosso guia [como escolher o aluguer para casamentos](/blog/how-to-choose-wedding-rentals/) percorre as perguntas que decidem entre o Eco Pack e o Wedding Pack, antes mesmo de chegar a comparar orçamentos.
+
+## Conclusão
+
+Para comparar orçamentos de aluguer para casamentos em Málaga, lembre-se de que um orçamento de AV comparável indica o número de convidados, o que são realmente o som, a iluminação e os microfones, se o técnico está incluído, se o transporte, a montagem e a desmontagem estão incluídos e se o IVA aparece à parte. O Eco Pack e o Wedding Pack da MEG estão detalhados acima exatamente segundo essas linhas. [Contacte-nos](/contact/) para um orçamento que possa pôr ao lado de qualquer outro que esteja a comparar.
+
+## Perguntas frequentes
+
+### O que deve incluir um orçamento detalhado de aluguer de AV para casamento?
+
+O número de convidados, o que são realmente o sistema de som e a iluminação, quantos microfones e de que tipo, se o técnico está incluído, se o transporte, a montagem e a desmontagem estão incluídos, o preço líquido e o IVA indicado à parte. Veja a lista acima para a forma como os pacotes da MEG respondem a cada ponto.
+
+### O preço inclui a entrega e a montagem, ou são rubricas à parte?
+
+Nos dois pacotes da MEG pensados para casamentos, o transporte, a montagem e a desmontagem estão incluídos no preço indicado, em vez de serem faturados à parte. Confirme isto em qualquer outro orçamento que esteja a comparar, já que noutros fornecedores costuma ser faturado separadamente.
+
+### O preço orçamentado inclui IVA?
+
+Não. Os preços indicados pela MEG não incluem o IVA de 21%, e o orçamento final mostra o preço líquido e o IVA em separado. Se um orçamento não esclarecer este ponto num sentido ou noutro, vale a pena perguntar diretamente.
+
+### O técnico está incluído, ou é uma rubrica à parte?
+
+Depende do pacote, e é exatamente por isso que faz parte da lista. O Wedding Pack da MEG inclui um técnico no local durante todo o evento. O Eco Pack não, e funciona de forma autónoma depois de a nossa equipa o entregar, instalar e testar.
+
+### Porque é que dois orçamentos para o que parece ser o mesmo pacote chegam a preços diferentes?
+
+Quase sempre por uma de quatro razões: uma capacidade de convidados diferente, se há ou não um técnico incluído, se o IVA já está no valor ou se a montagem e a desmontagem estão incluídas ou são faturadas à parte. Veja a secção acima para perceber qual delas explica a diferença.

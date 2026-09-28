@@ -177,6 +177,11 @@ export default {
 			keyword: '馬拉加 婚禮設備租借一站式方案',
 			status: 'propuesta'
 		},
+		'how-to-compare-wedding-rental-quotes': {
+			slug: '如何比較婚禮設備租借報價',
+			keyword: '馬拉加 如何比較婚禮設備租借報價',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: '教育訓練影音租賃',
 			keyword: '馬拉加 教育訓練影音租賃',

@@ -177,6 +177,11 @@ export default {
 			keyword: '马拉加 婚礼设备租赁一站式套餐',
 			status: 'propuesta'
 		},
+		'how-to-compare-wedding-rental-quotes': {
+			slug: '如何比较婚礼设备租赁报价',
+			keyword: '马拉加 如何比较婚礼设备租赁报价',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: '培训视听租赁',
 			keyword: '马拉加 培训视听租赁',

@@ -193,6 +193,11 @@ export default {
 			keyword: 'noleggio attrezzature per matrimoni tutto incluso a Malaga',
 			status: 'propuesta'
 		},
+		'how-to-compare-wedding-rental-quotes': {
+			slug: 'confrontare-preventivi-noleggio-attrezzature-matrimoni',
+			keyword: 'confrontare i preventivi di noleggio attrezzature per matrimoni',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'attrezzatura-audiovisiva-formazione',
 			keyword: 'attrezzatura audiovisiva per la formazione a Malaga',

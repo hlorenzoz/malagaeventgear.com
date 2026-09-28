@@ -197,6 +197,11 @@ export default {
 			keyword: 'verhuur voor bruiloften als totaalpakket in Malaga',
 			status: 'propuesta'
 		},
+		'how-to-compare-wedding-rental-quotes': {
+			slug: 'offertes-vergelijken-verhuur-bruiloften',
+			keyword: 'offertes vergelijken bij verhuur voor bruiloften in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'audiovisuele-verhuur-trainingen',
 			keyword: 'audiovisuele verhuur voor trainingen in Malaga',

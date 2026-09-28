@@ -197,6 +197,11 @@ export default {
 			keyword: 'location de matériel pour mariage tout compris à Malaga',
 			status: 'propuesta'
 		},
+		'how-to-compare-wedding-rental-quotes': {
+			slug: 'comparer-devis-location-materiel-mariage',
+			keyword: 'comparer les devis de location de matériel pour mariage à Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'equipement-audiovisuel-formation',
 			keyword: 'équipement audiovisuel pour une formation à Malaga',
