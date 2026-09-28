@@ -166,6 +166,11 @@ export default {
 			slug: '貝納阿維斯活動視聽製作',
 			keyword: '貝納阿維斯Bmotion視聽製作',
 			status: 'propuesta'
+		},
+		'news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella': {
+			slug: '馬貝拉活動技術支援',
+			keyword: '馬貝拉Bmotion技術支援',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

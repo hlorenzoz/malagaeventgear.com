@@ -186,6 +186,11 @@ export default {
 			slug: 'audiovisuelle-produktion-bmotion-benahavis',
 			keyword: 'audiovisuelle Produktion Bmotion Benahavís',
 			status: 'propuesta'
+		},
+		'news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella': {
+			slug: 'technischer-support-bmotion-marbella',
+			keyword: 'technischer Support Bmotion Marbella',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

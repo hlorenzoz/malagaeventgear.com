@@ -166,6 +166,11 @@ export default {
 			slug: '贝纳阿维斯活动视听制作',
 			keyword: '贝纳阿维斯Bmotion视听制作',
 			status: 'propuesta'
+		},
+		'news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella': {
+			slug: '马贝拉活动技术支持',
+			keyword: '马贝拉Bmotion技术支持',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
