@@ -262,6 +262,11 @@ export default {
 			slug: 'teknisk-support-bmotion-marbella',
 			keyword: 'teknisk support Bmotion Marbella',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-weddings': {
+			slug: 'av-uthyrning-brollop',
+			keyword: 'AV-uthyrning för bröllop i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

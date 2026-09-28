@@ -1,0 +1,114 @@
+---
+title: "Location audiovisuelle pour mariage à Malaga, en Espagne"
+description: "Location audiovisuelle pour mariage à Malaga, en Espagne, heure par heure : balance, vœux, discours, passage à la réception et danse, avec un seul technicien."
+excerpt: "Location audiovisuelle pour mariage à Malaga, en Espagne, heure par heure : balance, vœux, discours, passage à la réception et danse, avec un seul technicien."
+publishDate: "2026-09-28"
+sourceUpdated: "2026-09-25"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Vous cherchez une location audiovisuelle pour mariage à Malaga, en Espagne ? Ce guide n'est pas l'endroit où trouver le prix du Wedding Pack ni sa capacité d'accueil : notre guide de [location de matériel pour mariage](/blog/wedding-rentals/) couvre tout cela en détail. Cette page traite d'autre chose : ce qui se passe réellement avec le son et les microphones tout au long de votre journée de mariage, de la balance faite avant que le premier invité ne s'assoie jusqu'au moment où la réception se transforme en soirée dansante. Elle aborde aussi la seule complication que la plupart des autres événements de notre planning n'ont jamais à prévoir : une cérémonie et une réception dans deux espaces différents, souvent l'un en plein air et l'autre en intérieur, au sein d'une même réservation.
+
+Contactez-nous dès aujourd'hui pour parler de votre cérémonie et de votre réception, quels que soient ces deux espaces.
+
+## En bref
+
+---
+
+Un mariage n'est pas une installation audiovisuelle figée. C'est le même système de sonorisation, les mêmes microphones sans fil et le même technicien, à l'œuvre à travers plusieurs moments d'une même journée : une balance discrète, une cérémonie construite autour d'une ou deux voix, des discours où le microphone passe de main en main, une réception qui s'installe dans un son d'ambiance en fond, et une piste de danse qui demande un vrai volume. Le [Wedding Pack](/packages/wedding/) couvre tout cela pour 80 invités maximum, mais ce qui change d'une heure à l'autre, c'est la façon dont ce matériel est utilisé, pas le matériel qui arrive sur place.
+
+Ce guide de location audiovisuelle pour mariage à Malaga parcourt cette journée dans l'ordre et se termine par le seul moment vraiment propre à un mariage : le passage de votre espace de cérémonie à votre espace de réception, au sein d'un seul et même événement.
+
+## Points clés
+
+---
+
+-   La balance a lieu avant que le premier invité ne s'assoie, pour tester le lieu réel plutôt qu'une salle vide plusieurs heures plus tôt.
+-   Un micro à main, pris parmi les microphones sans fil du Wedding Pack, est l'installation standard pour les vœux : aucun câble sur lequel trébucher, et l'officiant peut s'éloigner du pied de micro.
+-   Le Wedding Pack est le seul forfait de notre catalogue avec un technicien pendant tout l'événement, sans plafond d'heures, qui surveille les niveaux et le larsen des vœux jusqu'à la dernière danse.
+-   Un micro cravate mains libres pour l'officiant est possible en option à part, sur devis, en dehors du forfait.
+-   Les discours utilisent le même micro à main sans fil, et notre technicien gère la passation entre les intervenants pour éviter tout blanc.
+-   Les guirlandes lumineuses et l'éclairage d'ambiance de la réception sont la partie simple de la journée : de l'installation et du câblage, pas un processus technique.
+
+<InlineCTA />
+
+## Avant la cérémonie : balance et installation
+
+Notre équipe arrive et fait la balance avant que votre premier invité ne s'assoie, en testant le microphone de l'officiant et les enceintes de la cérémonie dans l'espace réel plutôt que dans une salle vide plusieurs heures plus tôt. C'est la version jour de mariage des tests que notre équipe effectue à chaque réservation. Pour l'explication détaillée de ce processus lui-même, du réglage des gains et de la façon dont on installe différemment une salle en intérieur et une cérémonie en plein air, consultez notre guide sur le calibrage du système audio, ailleurs sur ce blog.
+
+## Pendant les vœux : le micro de l'officiant, et pourquoi il faut un technicien
+
+Pour les vœux eux-mêmes, l'installation standard est l'un des microphones sans fil à main inclus dans le [Wedding Pack](/packages/wedding/), tenu par l'officiant : aucun câble en travers de l'allée, et personne n'a besoin de rester derrière un pied de micro pendant vos propres vœux. Si l'officiant a besoin de ses deux mains, pour lire dans un livre ou tenir les alliances, un micro cravate sans fil accroché au col est possible en option à part, sur devis, et non comme élément inclus dans le forfait.
+
+Le compromis mérite d'être dit franchement : tout microphone qui passe par une sonorisation en direct, en plein air ou dans une petite salle, peut produire du larsen, ce sifflement qui monte quand un système capte son propre son amplifié, et un micro cravate porté près du corps y est plus sujet qu'un micro à main. C'est pourquoi le [Wedding Pack](/packages/wedding/) inclut un technicien sur place pendant tout l'événement, et non pour un nombre d'heures fixé, le seul forfait de notre catalogue conçu ainsi (le technicien du MICE Pack intervient jusqu'à 6 heures). Notre technicien surveille ce risque pendant vos vœux et corrige avant que le problème n'atteigne vos invités, et non après.
+
+## Les discours à la réception : le micro à main et la passation
+
+Une fois la cérémonie terminée et les discours commencés, le même micro à main sans fil passe à la réception, transmis d'un intervenant à l'autre ou posé sur un pied à la table d'honneur. Quand le témoin du marié, la témoin de la mariée ou un parent prend la parole à son tour, notre technicien gère la passation entre les intervenants, pour qu'un court silence ne devienne jamais une longue pause gênante pendant qu'on se passe le microphone et qu'on le replace.
+
+## Le passage de la cérémonie à la réception : quand le lieu change en cours d'événement
+
+C'est la partie d'une journée de mariage qu'aucun autre événement de notre planning n'a à prévoir. Une conférence d'entreprise ou une fête d'anniversaire se déroule dans une seule salle, calibrée une seule fois. Un mariage, très souvent, non : une cérémonie en plein air sous une arche fleurie se déplace vers une réception en intérieur ou à couvert une fois les vœux prononcés, ou l'inverse, une cérémonie en intérieur suivie d'une réception en plein air.
+
+Notre équipe ajuste déjà le son en continu à mesure que votre journée passe de la cérémonie aux discours puis à la danse, la même couverture réelle que celle décrite dans notre guide de location de matériel pour mariage. Quand cela implique aussi un changement de salle, et pas seulement un changement de moment, le même principe s'applique : l'acoustique d'une salle change ce que sont les bons réglages, que ce changement de salle ait lieu entre deux réservations distinctes ou au milieu d'une même journée de mariage. C'est exactement pour cela que le technicien du Wedding Pack n'a pas de plafond d'heures : la journée peut demander plus d'une installation calibrée, et pas seulement une longue installation tenue depuis une position unique.
+
+## Guirlandes lumineuses et son d'ambiance une fois les tables dressées
+
+Une fois votre espace de réception prêt, le [Wedding Pack](/packages/wedding/) ajoute des guirlandes lumineuses et des guirlandes LED blanc chaud pour l'éclairage d'ambiance, avec une installation professionnelle et un câblage posé proprement plutôt que laissé en travers du sol, où l'on pourrait trébucher. C'est volontairement la partie simple de la journée : aucun processus technique à expliquer, juste un éclairage placé et alimenté correctement avant que vos invités n'arrivent à leur table.
+
+## La danse : quand le volume change
+
+Le dernier changement de la journée est le plus simple : quand le dîner et les discours laissent place à la danse, notre technicien fait passer le son du niveau de conversation dont les discours ont besoin au niveau dont une piste de danse a réellement besoin, puis continue de l'ajuster à mesure que la salle se remplit ou se vide au fil de la soirée.
+
+## Ce que ce guide ne couvre pas
+
+Cette page porte strictement sur l'arc audiovisuel propre à la journée de mariage, pas sur le forfait, son prix ni le détail complet de ce qu'il comprend. Pour cela, consultez notre guide de [location de matériel pour mariage](/blog/wedding-rentals/), qui traite aussi du délai de réservation et de la zone d'intervention. Ce n'est pas non plus l'explication générale du réglage des gains, de l'acoustique en intérieur par rapport au plein air ou du dépannage du matériel : ces sujets sont traités en termes généraux, pour tout type d'événement, dans nos guides sur le calibrage du système audio, la location audiovisuelle pour les événements en plein air, l'assistance technique pour événements et la location d'un technicien audiovisuel, ailleurs sur ce blog. Et ce n'est pas la décoration, le mobilier ni les accessoires de piste de danse : le Wedding Pack ne les comprend pas, et cette page non plus.
+
+## Les cadres derrière chaque heure de la journée
+
+![Une belle cérémonie de mariage sur la plage, avec une allée en tapis rouge et une arche fleurie.](https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-300x224.webp)
+
+Photo d'illustration d'une cérémonie en plein air, qui n'est pas un événement de Malaga Event Gear : c'est dans ce genre de cadre que le microphone sans fil de l'officiant et un technicien sur place comptent le plus, car c'est le plein air, et non des murs, qui entoure la voix et joue contre elle.
+
+![Une élégante salle de cérémonie de mariage en intérieur, avec des compositions florales blanches et des lustres.](https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-300x224.webp)
+
+Photo d'illustration d'une salle de cérémonie en intérieur, qui n'est pas l'un de nos mariages : un problème acoustique différent pour le même microphone sans fil, et le genre de changement de salle pour lequel notre équipe refait les réglages quand la cérémonie et la réception ont lieu dans deux espaces différents.
+
+![Une table de réception de mariage avec des fleurs roses et des lumières.](https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-300x224.webp)
+
+Photo d'illustration d'une table de réception, qui n'est pas l'un de nos événements : l'autre côté du passage, où les guirlandes lumineuses et le son d'ambiance prennent le relais une fois les tables dressées, avant les discours et la danse de la soirée.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('wedding', ['/1636/', '/1635/', '/1628/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Conclusion
+
+Le son d'une journée de mariage n'est pas une seule installation, c'en est plusieurs, gérées par le même technicien du premier invité à la dernière danse : une balance, un micro à main sans fil pour les vœux et les discours, un nouveau réglage entre vos espaces de cérémonie et de réception s'ils sont différents, et une montée du volume pour la danse. [Contactez-nous](/contact/) pour parler de votre cérémonie et de votre réception. Pour notre gamme complète de location audiovisuelle à Malaga, consultez notre guide de [location audiovisuelle pour événements](/blog/audio-visual-rental/).
+
+## Questions fréquentes
+
+### Quel microphone utilisez-vous pour les vœux, et qui le tient ?
+
+L'un des microphones sans fil à main inclus dans le Wedding Pack, tenu par l'officiant, pour qu'aucun de vous deux n'ait à se tenir près d'un pied de micro pendant vos vœux. Si l'officiant a besoin de ses deux mains, un micro cravate sans fil est disponible en option à part, sur devis. Voir [Pendant les vœux](#pendant-les-vœux--le-micro-de-lofficiant-et-pourquoi-il-faut-un-technicien) plus haut.
+
+### Pourquoi un micro cravate demande-t-il la présence d'un technicien ?
+
+Un micro cravate, porté près du corps et branché sur une sonorisation en direct, est réellement plus sujet au larsen qu'un micro à main. Si vous en ajoutez un pour l'officiant, le technicien que le Wedding Pack inclut pendant tout l'événement surveille ce risque et corrige avant que vos invités ne le remarquent. Voir [Pendant les vœux](#pendant-les-vœux--le-micro-de-lofficiant-et-pourquoi-il-faut-un-technicien) plus haut.
+
+### Que devient l'installation sonore entre la cérémonie et la réception ?
+
+Notre technicien ajuste déjà le son en continu à mesure que votre journée passe de la cérémonie aux discours puis à la danse. Quand cela implique aussi un changement de salle, le même principe, salle par salle, s'applique : l'acoustique d'un espace change ce que sont les bons réglages, et c'est exactement pour cela que le technicien du Wedding Pack n'a pas de plafond d'heures. Voir [Le passage de la cérémonie à la réception](#le-passage-de-la-cérémonie-à-la-réception--quand-le-lieu-change-en-cours-dévénement) plus haut.
+
+### Y a-t-il une balance avant le début de la cérémonie ?
+
+Oui. Notre équipe teste le microphone de l'officiant et les enceintes de la cérémonie dans le lieu réel avant que votre premier invité ne s'assoie, et non plusieurs heures plus tôt dans une salle vide. Voir [Avant la cérémonie](#avant-la-cérémonie--balance-et-installation) plus haut.
+
+### Le technicien reste-t-il aussi pour les discours et la danse, ou seulement pour la cérémonie ?
+
+Pendant tout l'événement, sans plafond d'heures, et c'est le seul forfait de notre catalogue conçu ainsi. Le même technicien gère les microphones sans fil des vœux aux discours, puis fait monter le volume pour la danse plus tard dans la soirée. Voir [Les discours à la réception](#les-discours-à-la-réception--le-micro-à-main-et-la-passation) et [La danse](#la-danse--quand-le-volume-change) plus haut.

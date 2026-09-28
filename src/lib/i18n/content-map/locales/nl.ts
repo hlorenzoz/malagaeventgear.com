@@ -266,6 +266,11 @@ export default {
 			slug: 'technische-ondersteuning-bmotion-marbella',
 			keyword: 'technische ondersteuning Bmotion Marbella',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-weddings': {
+			slug: 'audiovisuele-verhuur-bruiloft',
+			keyword: 'audiovisuele verhuur voor een bruiloft in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

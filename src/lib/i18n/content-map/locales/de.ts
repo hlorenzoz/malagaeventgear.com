@@ -266,6 +266,11 @@ export default {
 			slug: 'technischer-support-bmotion-marbella',
 			keyword: 'technischer Support Bmotion Marbella',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-weddings': {
+			slug: 'av-vermietung-hochzeiten',
+			keyword: 'AV-Vermietung für Hochzeiten in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

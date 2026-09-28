@@ -246,6 +246,11 @@ export default {
 			slug: '馬貝拉活動技術支援',
 			keyword: '馬貝拉Bmotion技術支援',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-weddings': {
+			slug: '婚禮影音租賃',
+			keyword: '馬拉加 婚禮影音租賃',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

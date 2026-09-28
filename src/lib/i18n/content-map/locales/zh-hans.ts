@@ -246,6 +246,11 @@ export default {
 			slug: '马贝拉活动技术支持',
 			keyword: '马贝拉Bmotion技术支持',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-weddings': {
+			slug: '婚礼视听租赁',
+			keyword: '马拉加 婚礼视听租赁',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
