@@ -152,6 +152,11 @@ export default {
 			keyword: 'udlejning til indendørs bryllup i Malaga',
 			status: 'propuesta'
 		},
+		'essential-items-for-wedding-rentals': {
+			slug: 'det-vigtigste-udlejning-bryllup-malaga',
+			keyword: 'det vigtigste ved udlejning til bryllup i Malaga',
+			status: 'propuesta'
+		},
 		'making-the-most-of-wedding-rentals': {
 			slug: 'fa-mest-muligt-ud-af-din-bryllupsudlejning',
 			keyword: 'få mest muligt ud af din bryllupsudlejning i Malaga',

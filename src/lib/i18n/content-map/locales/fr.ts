@@ -132,6 +132,11 @@ export default {
 			keyword: 'location de matériel pour mariage à Malaga',
 			status: 'propuesta'
 		},
+		'essential-items-for-wedding-rentals': {
+			slug: 'essentiel-location-materiel-mariage',
+			keyword: "l'essentiel pour la location de matériel pour mariage à Malaga",
+			status: 'propuesta'
+		},
 		'how-to-choose-wedding-rentals': {
 			slug: 'comment-choisir-sa-location-de-materiel-pour-mariage',
 			keyword: 'comment choisir sa location de matériel pour mariage à Malaga',

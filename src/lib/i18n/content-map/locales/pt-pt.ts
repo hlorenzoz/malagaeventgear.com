@@ -184,6 +184,11 @@ export default {
 			keyword: 'aluguer para casamentos de interior em Málaga',
 			status: 'propuesta'
 		},
+		'essential-items-for-wedding-rentals': {
+			slug: 'itens-essenciais-aluguer-para-casamentos',
+			keyword: 'itens essenciais no aluguer para casamentos em Málaga',
+			status: 'propuesta'
+		},
 		'making-the-most-of-wedding-rentals': {
 			slug: 'tirar-o-maximo-partido-do-aluguer-para-casamentos',
 			keyword: 'tirar o máximo partido do aluguer para casamentos',

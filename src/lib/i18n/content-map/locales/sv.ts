@@ -148,6 +148,11 @@ export default {
 			keyword: 'uthyrning till inomhusbröllop i Malaga',
 			status: 'propuesta'
 		},
+		'essential-items-for-wedding-rentals': {
+			slug: 'det-viktigaste-uthyrning-brollop-malaga',
+			keyword: 'det viktigaste vid uthyrning till bröllop i Malaga',
+			status: 'propuesta'
+		},
 		'making-the-most-of-wedding-rentals': {
 			slug: 'fa-ut-mest-av-din-brollopsuthyrning',
 			keyword: 'få ut mest av din bröllopsuthyrning i Malaga',

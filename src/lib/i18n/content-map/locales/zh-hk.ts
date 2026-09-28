@@ -132,6 +132,11 @@ export default {
 			keyword: '馬拉加 室內婚禮器材租借',
 			status: 'propuesta'
 		},
+		'essential-items-for-wedding-rentals': {
+			slug: '婚禮器材租借必備清單',
+			keyword: '馬拉加 婚禮器材租借必備清單',
+			status: 'propuesta'
+		},
 		'making-the-most-of-wedding-rentals': {
 			slug: '善用婚禮器材租借',
 			keyword: '在馬拉加善用婚禮器材租借',

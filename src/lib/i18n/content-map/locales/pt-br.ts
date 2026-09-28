@@ -184,6 +184,11 @@ export default {
 			keyword: 'locação para casamento em ambiente interno em Málaga',
 			status: 'propuesta'
 		},
+		'essential-items-for-wedding-rentals': {
+			slug: 'itens-essenciais-locacao-casamento',
+			keyword: 'itens essenciais na locação para casamento em Málaga',
+			status: 'propuesta'
+		},
 		'making-the-most-of-wedding-rentals': {
 			slug: 'aproveitar-ao-maximo-a-locacao-para-casamento',
 			keyword: 'aproveitar ao máximo a locação para casamento',

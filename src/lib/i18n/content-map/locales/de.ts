@@ -152,6 +152,11 @@ export default {
 			keyword: 'Hochzeitsverleih für Innenräume in Malaga',
 			status: 'propuesta'
 		},
+		'essential-items-for-wedding-rentals': {
+			slug: 'das-wichtigste-hochzeitsverleih-malaga',
+			keyword: 'das Wichtigste beim Hochzeitsverleih in Malaga',
+			status: 'propuesta'
+		},
 		'making-the-most-of-wedding-rentals': {
 			slug: 'das-beste-aus-dem-hochzeitsverleih-in-malaga-herausholen',
 			keyword: 'das Beste aus dem Hochzeitsverleih in Malaga herausholen',
