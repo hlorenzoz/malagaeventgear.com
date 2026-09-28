@@ -141,6 +141,11 @@ export default {
 			keyword: 'utleie til utendørs bryllup i Malaga',
 			status: 'propuesta'
 		},
+		'making-the-most-of-wedding-rentals': {
+			slug: 'fa-mest-mulig-ut-av-bryllupsutleien',
+			keyword: 'få mest mulig ut av bryllupsutleien i Malaga',
+			status: 'propuesta'
+		},
 		'wedding-rentals-online': {
 			slug: 'bestille-bryllupsutleie-pa-nett',
 			keyword: 'bestille bryllupsutleie på nett i Malaga',

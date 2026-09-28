@@ -169,6 +169,11 @@ export default {
 			keyword: 'locação para casamento ao ar livre em Málaga',
 			status: 'propuesta'
 		},
+		'making-the-most-of-wedding-rentals': {
+			slug: 'aproveitar-ao-maximo-a-locacao-para-casamento',
+			keyword: 'aproveitar ao máximo a locação para casamento',
+			status: 'propuesta'
+		},
 		'wedding-rentals-online': {
 			slug: 'locacao-casamento-online',
 			keyword: 'locação para casamento online em Málaga',

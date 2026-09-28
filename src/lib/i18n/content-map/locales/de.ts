@@ -137,6 +137,11 @@ export default {
 			keyword: 'Hochzeitsverleih im Freien in Malaga',
 			status: 'propuesta'
 		},
+		'making-the-most-of-wedding-rentals': {
+			slug: 'das-beste-aus-dem-hochzeitsverleih-in-malaga-herausholen',
+			keyword: 'das Beste aus dem Hochzeitsverleih in Malaga herausholen',
+			status: 'propuesta'
+		},
 		'wedding-rentals-online': {
 			slug: 'hochzeitsverleih-online-buchen',
 			keyword: 'Hochzeitsverleih online buchen in Malaga',

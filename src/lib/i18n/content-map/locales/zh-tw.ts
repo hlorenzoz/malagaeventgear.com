@@ -117,6 +117,11 @@ export default {
 			keyword: '馬拉加 戶外婚禮設備租借',
 			status: 'propuesta'
 		},
+		'making-the-most-of-wedding-rentals': {
+			slug: '善用婚禮設備租借',
+			keyword: '在馬拉加善用婚禮設備租借',
+			status: 'propuesta'
+		},
 		'wedding-rentals-online': {
 			slug: '婚禮設備租借線上預約',
 			keyword: '馬拉加 婚禮設備租借線上預約',

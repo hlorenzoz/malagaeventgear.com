@@ -137,6 +137,11 @@ export default {
 			keyword: 'verhuur voor buitenbruiloften in Malaga',
 			status: 'propuesta'
 		},
+		'making-the-most-of-wedding-rentals': {
+			slug: 'het-meeste-halen-uit-je-verhuur-voor-bruiloften',
+			keyword: 'het meeste halen uit je verhuur voor bruiloften',
+			status: 'propuesta'
+		},
 		'wedding-rentals-online': {
 			slug: 'verhuur-bruiloft-online-boeken',
 			keyword: 'verhuur voor bruiloften online boeken in Malaga',

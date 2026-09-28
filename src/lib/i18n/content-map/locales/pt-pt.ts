@@ -169,6 +169,11 @@ export default {
 			keyword: 'aluguer para casamentos ao ar livre em Málaga',
 			status: 'propuesta'
 		},
+		'making-the-most-of-wedding-rentals': {
+			slug: 'tirar-o-maximo-partido-do-aluguer-para-casamentos',
+			keyword: 'tirar o máximo partido do aluguer para casamentos',
+			status: 'propuesta'
+		},
 		'wedding-rentals-online': {
 			slug: 'aluguer-casamento-online',
 			keyword: 'aluguer para casamentos online em Málaga',
