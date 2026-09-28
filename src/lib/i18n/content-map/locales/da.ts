@@ -286,6 +286,11 @@ export default {
 			slug: 'av-udlejning-religiose-arrangementer',
 			keyword: 'AV-udlejning til religiøse arrangementer i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-outdoor-events': {
+			slug: 'av-udlejning-udendors-arrangementer',
+			keyword: 'AV-udlejning til udendørs arrangementer i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

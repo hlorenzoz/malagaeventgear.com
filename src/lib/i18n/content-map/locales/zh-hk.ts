@@ -266,6 +266,11 @@ export default {
 			slug: '宗教活動視聽租借',
 			keyword: '馬拉加 宗教活動視聽租借',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-outdoor-events': {
+			slug: '戶外活動視聽租借',
+			keyword: '馬拉加 戶外活動視聽租借',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

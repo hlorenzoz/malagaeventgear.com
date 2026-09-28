@@ -286,6 +286,11 @@ export default {
 			slug: 'location-audiovisuelle-evenements-religieux',
 			keyword: 'location audiovisuelle pour événements religieux à Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-outdoor-events': {
+			slug: 'location-audiovisuelle-evenements-exterieur',
+			keyword: 'location audiovisuelle pour événements en extérieur à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

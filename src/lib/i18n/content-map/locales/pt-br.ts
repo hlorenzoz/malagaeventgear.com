@@ -318,6 +318,11 @@ export default {
 			slug: 'aluguel-de-audiovisual-para-eventos-religiosos',
 			keyword: 'aluguel de audiovisual para eventos religiosos em Málaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-outdoor-events': {
+			slug: 'aluguel-de-audiovisual-para-eventos-ao-ar-livre',
+			keyword: 'aluguel de audiovisual para eventos ao ar livre em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
