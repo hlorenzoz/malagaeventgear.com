@@ -172,6 +172,11 @@ export default {
 			keyword: 'location de matériel pour mariage près de chez moi',
 			status: 'propuesta'
 		},
+		'eco-friendly-wedding-rental-options': {
+			slug: 'location-materiel-mariage-ecoresponsable',
+			keyword: 'location de matériel pour mariage écoresponsable à Malaga',
+			status: 'propuesta'
+		},
 		'tips-for-reducing-wedding-rental-costs': {
 			slug: 'reduire-cout-location-materiel-mariage',
 			keyword: 'réduire le coût de la location de matériel pour mariage',

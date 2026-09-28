@@ -152,6 +152,11 @@ export default {
 			keyword: '马拉加 附近的婚礼设备租赁',
 			status: 'propuesta'
 		},
+		'eco-friendly-wedding-rental-options': {
+			slug: '环保婚礼设备租赁',
+			keyword: '马拉加 环保婚礼设备租赁',
+			status: 'propuesta'
+		},
 		'tips-for-reducing-wedding-rental-costs': {
 			slug: '婚礼设备租赁省钱技巧',
 			keyword: '马拉加 婚礼设备租赁省钱技巧',

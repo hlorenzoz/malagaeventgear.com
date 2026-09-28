@@ -172,6 +172,11 @@ export default {
 			keyword: 'verhuur voor bruiloften bij mij in de buurt',
 			status: 'propuesta'
 		},
+		'eco-friendly-wedding-rental-options': {
+			slug: 'duurzame-verhuur-bruiloften-malaga',
+			keyword: 'duurzame verhuur voor bruiloften in Malaga',
+			status: 'propuesta'
+		},
 		'tips-for-reducing-wedding-rental-costs': {
 			slug: 'besparen-op-verhuur-voor-bruiloften',
 			keyword: 'besparen op verhuur voor bruiloften',

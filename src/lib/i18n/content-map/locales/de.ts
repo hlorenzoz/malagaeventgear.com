@@ -172,6 +172,11 @@ export default {
 			keyword: 'Hochzeitsverleih in meiner Nähe',
 			status: 'propuesta'
 		},
+		'eco-friendly-wedding-rental-options': {
+			slug: 'nachhaltiger-hochzeitsverleih-malaga',
+			keyword: 'nachhaltiger Hochzeitsverleih in Malaga',
+			status: 'propuesta'
+		},
 		'tips-for-reducing-wedding-rental-costs': {
 			slug: 'kosten-beim-hochzeitsverleih-sparen',
 			keyword: 'Kosten beim Hochzeitsverleih sparen',

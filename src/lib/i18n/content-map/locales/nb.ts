@@ -176,6 +176,11 @@ export default {
 			keyword: 'utleie til bryllup i nærheten av meg',
 			status: 'propuesta'
 		},
+		'eco-friendly-wedding-rental-options': {
+			slug: 'baerekraftig-utleie-bryllup-malaga',
+			keyword: 'bærekraftig utleie til bryllup i Malaga',
+			status: 'propuesta'
+		},
 		'tips-for-reducing-wedding-rental-costs': {
 			slug: 'spare-penger-pa-utleie-til-bryllup',
 			keyword: 'spare penger på utleie til bryllup',

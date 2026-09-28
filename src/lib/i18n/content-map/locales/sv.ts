@@ -168,6 +168,11 @@ export default {
 			keyword: 'uthyrning till bröllop nära mig',
 			status: 'propuesta'
 		},
+		'eco-friendly-wedding-rental-options': {
+			slug: 'hallbar-uthyrning-brollop-malaga',
+			keyword: 'hållbar uthyrning till bröllop i Malaga',
+			status: 'propuesta'
+		},
 		'tips-for-reducing-wedding-rental-costs': {
 			slug: 'spara-pengar-pa-uthyrning-till-brollop',
 			keyword: 'spara pengar på uthyrning till bröllop',

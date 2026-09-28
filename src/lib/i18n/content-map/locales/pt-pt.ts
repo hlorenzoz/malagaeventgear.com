@@ -204,6 +204,11 @@ export default {
 			keyword: 'aluguer para casamentos perto de mim',
 			status: 'propuesta'
 		},
+		'eco-friendly-wedding-rental-options': {
+			slug: 'aluguer-sustentavel-casamentos-malaga',
+			keyword: 'aluguer sustentável para casamentos em Málaga',
+			status: 'propuesta'
+		},
 		'tips-for-reducing-wedding-rental-costs': {
 			slug: 'poupar-no-aluguer-para-casamentos',
 			keyword: 'poupar no aluguer para casamentos',

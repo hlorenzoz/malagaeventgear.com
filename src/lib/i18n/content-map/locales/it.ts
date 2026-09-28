@@ -168,6 +168,11 @@ export default {
 			keyword: 'noleggio attrezzature per matrimoni vicino a me',
 			status: 'propuesta'
 		},
+		'eco-friendly-wedding-rental-options': {
+			slug: 'noleggio-attrezzature-matrimoni-ecosostenibile',
+			keyword: 'noleggio attrezzature per matrimoni ecosostenibile a Malaga',
+			status: 'propuesta'
+		},
 		'tips-for-reducing-wedding-rental-costs': {
 			slug: 'risparmiare-noleggio-attrezzature-matrimonio',
 			keyword: 'risparmiare sul noleggio di attrezzature per matrimonio',
