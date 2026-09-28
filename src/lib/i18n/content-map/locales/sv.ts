@@ -148,6 +148,11 @@ export default {
 			keyword: 'frågor att ställa vid uthyrning till bröllop',
 			status: 'propuesta'
 		},
+		'pros-and-cons-of-wedding-rentals': {
+			slug: 'for-och-nackdelar-uthyrning-brollop',
+			keyword: 'för- och nackdelar med uthyrning till bröllop',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'av-uthyrning-utbildningar',
 			keyword: 'AV-uthyrning för utbildningar i Malaga',

@@ -184,6 +184,11 @@ export default {
 			keyword: 'perguntas a fazer no aluguer para casamentos',
 			status: 'propuesta'
 		},
+		'pros-and-cons-of-wedding-rentals': {
+			slug: 'pros-e-contras-aluguer-para-casamentos',
+			keyword: 'prós e contras do aluguer para casamentos',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'aluguer-de-audiovisuais-para-formacoes',
 			keyword: 'aluguer de audiovisuais para formações em Málaga',

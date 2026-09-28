@@ -152,6 +152,11 @@ export default {
 			keyword: 'Fragen an den Hochzeitsverleih',
 			status: 'propuesta'
 		},
+		'pros-and-cons-of-wedding-rentals': {
+			slug: 'vor-und-nachteile-hochzeitsverleih',
+			keyword: 'Vor- und Nachteile des Hochzeitsverleihs',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'av-vermietung-schulungen',
 			keyword: 'AV-Vermietung für Schulungen in Malaga',

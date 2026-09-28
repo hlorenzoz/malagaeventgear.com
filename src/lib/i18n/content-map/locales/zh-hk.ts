@@ -132,6 +132,11 @@ export default {
 			keyword: '馬拉加 婚禮器材租借必問問題',
 			status: 'propuesta'
 		},
+		'pros-and-cons-of-wedding-rentals': {
+			slug: '婚禮器材租借優缺點',
+			keyword: '馬拉加 婚禮器材租借優缺點',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: '培訓視聽租借',
 			keyword: '馬拉加 培訓視聽租借',

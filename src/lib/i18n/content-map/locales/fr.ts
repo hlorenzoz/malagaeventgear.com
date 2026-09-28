@@ -152,6 +152,11 @@ export default {
 			keyword: 'questions à poser pour la location de matériel pour mariage',
 			status: 'propuesta'
 		},
+		'pros-and-cons-of-wedding-rentals': {
+			slug: 'avantages-inconvenients-location-materiel-mariage',
+			keyword: 'avantages et inconvénients de la location de matériel pour mariage',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'equipement-audiovisuel-formation',
 			keyword: 'équipement audiovisuel pour une formation à Malaga',

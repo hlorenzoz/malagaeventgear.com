@@ -184,6 +184,11 @@ export default {
 			keyword: 'perguntas para fazer na locação para casamento',
 			status: 'propuesta'
 		},
+		'pros-and-cons-of-wedding-rentals': {
+			slug: 'pros-e-contras-locacao-para-casamento',
+			keyword: 'prós e contras da locação para casamento',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'material-audiovisual-treinamento',
 			keyword: 'material audiovisual para treinamento em Málaga',

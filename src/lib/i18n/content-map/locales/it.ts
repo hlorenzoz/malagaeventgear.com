@@ -148,6 +148,11 @@ export default {
 			keyword: 'domande sul noleggio attrezzature per matrimoni',
 			status: 'propuesta'
 		},
+		'pros-and-cons-of-wedding-rentals': {
+			slug: 'pro-e-contro-noleggio-attrezzature-matrimonio',
+			keyword: 'pro e contro del noleggio di attrezzature per matrimonio',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'attrezzatura-audiovisiva-formazione',
 			keyword: 'attrezzatura audiovisiva per la formazione a Malaga',

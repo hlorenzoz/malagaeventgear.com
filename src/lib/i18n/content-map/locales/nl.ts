@@ -152,6 +152,11 @@ export default {
 			keyword: 'vragen stellen bij verhuur voor bruiloften',
 			status: 'propuesta'
 		},
+		'pros-and-cons-of-wedding-rentals': {
+			slug: 'voor-en-nadelen-verhuur-bruiloften',
+			keyword: 'voor- en nadelen van verhuur voor bruiloften',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'audiovisuele-verhuur-trainingen',
 			keyword: 'audiovisuele verhuur voor trainingen in Malaga',

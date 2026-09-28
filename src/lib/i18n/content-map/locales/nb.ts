@@ -156,6 +156,11 @@ export default {
 			keyword: 'spørsmål å stille ved utleie til bryllup',
 			status: 'propuesta'
 		},
+		'pros-and-cons-of-wedding-rentals': {
+			slug: 'fordeler-og-ulemper-utleie-bryllup',
+			keyword: 'fordeler og ulemper ved utleie til bryllup',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'kursteknikk',
 			keyword: 'kursteknikk Malaga',
