@@ -112,7 +112,7 @@ cerrada con este archivo desactualizado.
 
 Arquitectura objetivo y reglas de traducción. Las fuentes se verificaron el 2026-09-24 contra
 Google Search Central y el PDF de Quality Raters. Ante una duda se vuelve a leer la fuente, no
-este resumen.
+este resumen: la copia local está en `.agents/context/seo/search/docs/specialty/international/`.
 
 ### Lo que dice Google (citas textuales)
 
@@ -285,7 +285,7 @@ Cuando detectes o inicies una tarea en este proyecto, **cargá inmediatamente** 
 | **Componentes y Reactividad**<br>Eventos, stores, lógica de renderizado, y sintaxis de Svelte 5. | `svelte-core-bestpractices [Local]`<br>`svelte-code-writer [Local]` | Buenas prácticas de Svelte 5, modularidad, tipado estricto y aserciones. |
 | **Estética y Visuales Premium**<br>Uso de variables CSS, glassmorphism, paleta de colores (DESIGN.md), y micro-animaciones. | `ui-ux-pro-max [Global]`<br>`frontend-design [Global]`<br>`high-end-visual-design [Global]`<br>`glassmorphism [Global]`<br>`minimalist-ui [Global]` | Wow-factor visual, glassmorphism sofisticado, paletas balanceadas e interacciones fluidas. |
 | **HTML5 & CSS Moderno**<br>Efectos de scroll, View Transitions, container queries, :has(), y APIs nativas del DOM. | `modern-web-guidance [Local]` | Estándares HTML5, optimización visual y compatibilidad con APIs de navegador avanzadas. |
-| **SEO, Contenido & Conversión**<br>Estrategia SEO, auditorías locales/técnicas, E-E-A-T, backlinks, topic clustering, copywriting y CRO. | Ver **[SEO y Contenido: agentes globales](#seo-y-contenido-agentes-globales)** y **[SEO.md](SEO.md)** | **MANDATORIO:** para SEO técnico, estructura local (GBP) y E-E-A-T, la sección "SEO y Contenido: agentes globales" (más abajo) es el contrato operativo; `SEO.md` es la estrategia de contenido. Orden de precedencia ante conflicto: **PDF de Google > esta sección > SEO.md**. |
+| **SEO, Contenido & Conversión**<br>Estrategia SEO, auditorías locales/técnicas, E-E-A-T, backlinks, topic clustering, copywriting y CRO. | Ver **[SEO y Contenido: agentes globales](#seo-y-contenido-agentes-globales)** y **[SEO.md](SEO.md)** | **MANDATORIO:** para SEO técnico, estructura local (GBP) y E-E-A-T, la sección "SEO y Contenido: agentes globales" (más abajo) es el contrato operativo, y `SEO.md` es la estrategia de contenido. Orden de precedencia ante conflicto: **PDF de Google y documentación de Search Central (`.agents/context/seo/`) > esta sección > SEO.md**. |
 | **Rendimiento & Cloudflare**<br>Diagnóstico de cuellos de botella de JS, Edge Rendering, Wrangler y restricciones de Cloudflare Workers/Pages. | `performance-investigation [Local]`<br>`cloudflare-guard [Global]`<br>`cloudflare [Global]`<br>`cloudflare-deploy [Global]`<br>`workers-best-practices [Global]`<br>`wrangler [Global]`<br>`performance [Global]`<br>`web-perf [Global]`<br>**`lighthouse [Global]` + `chrome-devtools-mcp` (MANDATORIO, ver §10)** | Edge compatibility, wrangler config, optimizaciones críticas de carga y eliminación de scripts bloqueantes. Medición real de CWV con `chrome-devtools-mcp` y validación con `lighthouse`. |
 | **Mobile & PWA Readiness**<br>Compatibilidad PWA, touch targets (mín 44px), safe areas (safe-area-inset-*), notch compliance y Capacitor. | `mobile-readiness-lead [Global]` | Compatibilidad fluida con dispositivos móviles y preparación Capacitor/PWA. |
 | **Accesibilidad (a11y)**<br>Navegación por teclado, etiquetas ARIA, contraste WCAG 2.1 AA, y semántica HTML5. | `a11y-debugging [Global]` | Accesibilidad web global, inclusión, usabilidad y SEO Holístico. |
@@ -342,7 +342,8 @@ segunda copia deriva en silencio porque son instrucciones en prosa, no código.
   `link-building/outreach-crm-analysis.md` (2026-09-28): el diseño del CRM de outreach (flujo
   local a través de Claude con commit y push, datos personales fuera del repo público), el estado
   real de Resend (el cron de reseñas nunca envió: su worker no tiene `RESEND_API_KEY`), las
-  cuotas de Resend y las decisiones pendientes.
+  cuotas de Resend y las decisiones pendientes. Y `seo/`: la copia local de la documentación de
+  Google Search Central (ver "Google Search Central: leer la copia local" más abajo).
   **No hay export de GSC**: toda auditoría debe declarar que corrió sin datos de Search Console.
 
 ### El orden de operaciones
@@ -397,6 +398,71 @@ Tres puntos que casi todos citan mal, no los repitas de memoria:
    autoridad"; gana el PDF.)
 3. **Reputación ausente NO es señal negativa** para un negocio chico. Una página puede
    calificar High sin información de reputación. Nunca bloquees una página por no tenerla.
+
+### Google Search Central: leer la copia local, nunca contestar de memoria
+
+La documentación oficial de Google para dueños de sitios está copiada en `.agents/context/seo/`,
+con las mismas rutas que el sitio oficial: `https://developers.google.com/search/docs/appearance/snippet`
+vive en `.agents/context/seo/search/docs/appearance/snippet.md`, y `/crawling/docs/...` en
+`.agents/context/seo/crawling/docs/...`. El índice es `.agents/context/seo/INDEX.md`: el árbol del
+menú oficial, con los títulos en español, enlazado a cada archivo. Son 181 páginas descargadas el
+2026-09-28 del Markdown que publica Google (`<url>.md.txt`). Están en inglés porque Google sirve
+el Markdown solo en inglés, que es además la versión canónica.
+
+**Cuándo se lee**: antes de responder o de tocar código en cualquier tema de SEO técnico,
+rastreo e indexación, sitemaps, canonical, redirects, datos estructurados, apariencia en la
+Búsqueda (title, snippet, imágenes, fechas, favicon), sitios multilingües y hreflang, políticas de
+spam, contenido hecho con IA o funciones de IA de Google. También antes de auditar (`/seo:review`)
+o corregir (`/seo:fix`), y al delegar: al subagente se le pasa la ruta del archivo, no un resumen
+de memoria. No un blog, no memoria de entrenamiento, no este archivo.
+
+**Precedencia**: en calidad y E-E-A-T gana el PDF de Quality Raters (sección anterior). En lo
+técnico gana esta documentación. Las dos están por encima de este archivo y de `SEO.md`. Si una
+regla de este archivo contradice la documentación, se avisa al usuario y se propone corregir este
+archivo, en vez de seguirla en silencio.
+
+**Frescura**: Google cambia estas páginas. La primera línea de cada archivo dice de qué URL salió
+y cuándo se bajó, y `search/updates.md` es el registro de cambios de Google (qué se agregó y qué se
+retiró). Si una decisión depende de un detalle que pudo cambiar (una función en beta, un campo
+requerido de un tipo de datos estructurados), se baja la versión vigente con
+`curl -sL https://developers.google.com/<ruta>.md.txt` y se actualiza el archivo local en el mismo
+cambio.
+
+| Pregunta | Archivo (bajo `.agents/context/seo/`) |
+| :--- | :--- |
+| hreflang y versiones por idioma | `search/docs/specialty/international/localized-versions.md`, `.../managing-multi-regional-sites.md` |
+| Estructura de URL y slugs por idioma | `search/docs/crawling-indexing/url-structure.md` |
+| Canonical y URLs duplicadas | `search/docs/crawling-indexing/consolidate-duplicate-urls.md`, `.../canonicalization.md` |
+| Sitemaps y sitemaps de imágenes | `search/docs/crawling-indexing/sitemaps/overview.md`, `.../image-sitemaps.md` |
+| robots.txt | `search/docs/crawling-indexing/robots/intro.md`, `crawling/docs/robots-txt/robots-txt-spec.md` |
+| noindex, meta robots, `data-nosnippet` | `search/docs/crawling-indexing/robots-meta-tag.md` |
+| Redirects y cambios de URL | `search/docs/crawling-indexing/301-redirects.md`, `.../site-move-with-url-changes.md` |
+| Códigos HTTP y errores de rastreo | `crawling/docs/troubleshooting/http-status-codes.md` |
+| Enlaces rastreables, `nofollow`, `sponsored` | `search/docs/crawling-indexing/links-crawlable.md`, `.../qualify-outbound-links.md` |
+| JavaScript y renderizado | `search/docs/crawling-indexing/javascript/javascript-seo-basics.md` |
+| Title y meta description | `search/docs/appearance/title-link.md`, `search/docs/appearance/snippet.md` |
+| Fechas visibles y `dateModified` | `search/docs/appearance/publication-dates.md` |
+| Nombre del sitio y favicon | `search/docs/appearance/site-names.md`, `.../favicon-in-search.md` |
+| Imágenes (alt, formatos, sitemaps) | `search/docs/appearance/google-images.md` |
+| Core Web Vitals y page experience | `search/docs/appearance/core-web-vitals.md`, `.../page-experience.md` |
+| Datos estructurados: reglas generales | `search/docs/appearance/structured-data/sd-policies.md` |
+| LocalBusiness, Organization, Article, BreadcrumbList, reseñas | `search/docs/appearance/structured-data/` (`local-business.md`, `organization.md`, `article.md`, `breadcrumb.md`, `review-snippet.md`) |
+| Datos del negocio en la Búsqueda | `search/docs/appearance/establish-business-details.md` |
+| AI Overviews, AI Mode, "GEO" | `search/docs/fundamentals/ai-optimization-guide.md`, `search/docs/appearance/ai-features.md` |
+| Contenido útil y contenido hecho con IA | `search/docs/fundamentals/creating-helpful-content.md`, `.../using-gen-ai-content.md` |
+| Spam: scaled content, link spam, cloaking | `search/docs/essentials/spam-policies.md` |
+| Caída de tráfico | `search/docs/monitor-debug/debugging-search-traffic-drops.md` |
+| Qué cambió o se retiró | `search/updates.md` |
+
+Dos hechos de esta copia que contradicen prácticas comunes, no los repitas de memoria:
+
+1. **Google ya no muestra el resultado enriquecido de FAQ** desde el 7 de mayo de 2026
+   (`search/updates.md`), y borró su documentación. El `FAQPage` que emite el sitio no produce
+   ese resultado en Google. Quitarlo o mantenerlo queda pendiente de decisión del usuario
+   (2026-09-28).
+2. **Google Search no usa `llms.txt`** (`search/docs/fundamentals/ai-optimization-guide.md`): ni
+   ayuda ni perjudica. El `/llms.txt` del sitio se mantiene por decisión del usuario (2026-09-28),
+   para otros sistemas, no como señal para Google.
 
 ### Cuándo NO usar estos agentes
 

@@ -1,0 +1,238 @@
+# Google Search Central: índice local
+
+Árbol del menú lateral oficial de https://developers.google.com/search/docs (títulos en español,
+como en `?hl=es`). Cada enlace apunta a la copia en Markdown descargada de `<url>.md.txt`, que
+Google sirve siempre en inglés. Las carpetas replican la ruta de la URL oficial
+(`search/docs/...`, `crawling/docs/...`). Descargado: 2026-09-28.
+
+- [Introducción](search/docs.md)
+- **Directrices básicas de la Búsqueda**
+  - [Introducción](search/docs/essentials.md)
+  - [Requisitos técnicos](search/docs/essentials/technical.md)
+  - [Políticas de spam](search/docs/essentials/spam-policies.md)
+- **Fundamentos de SEO**
+  - [Guía de SEO para principiantes](search/docs/fundamentals/seo-starter-guide.md)
+  - [Cómo funciona la Búsqueda de Google](search/docs/fundamentals/how-search-works.md)
+  - [Crear contenido útil, fiable y centrado en las personas](search/docs/fundamentals/creating-helpful-content.md)
+  - **Fundamentos de la IA generativa**
+    - [Optimización para la IA generativa](search/docs/fundamentals/ai-optimization-guide.md)
+    - [Directrices de uso de la IA generativa](search/docs/fundamentals/using-gen-ai-content.md)
+  - [Mantener el SEO de un sitio](search/docs/fundamentals/get-started.md)
+  - [Guía para desarrolladores sobre la Búsqueda](search/docs/fundamentals/get-started-developers.md)
+  - [¿Necesitas un especialista en SEO?](search/docs/fundamentals/do-i-need-seo.md)
+  - [Directrices sobre herramientas y consejos de SEO de terceros](search/docs/fundamentals/third-party-seo.md)
+- **Rastrear e indexar**
+  - [Introducción](search/docs/crawling-indexing.md)
+  - [Tipos de archivo que Google puede indexar](search/docs/crawling-indexing/indexable-file-types.md)
+  - [Estructura de URL](search/docs/crawling-indexing/url-structure.md)
+  - [Enlaces](search/docs/crawling-indexing/links-crawlable.md)
+  - **Sitemaps**
+    - [Acerca de los sitemaps](search/docs/crawling-indexing/sitemaps/overview.md)
+    - [Crear y enviar un sitemap](search/docs/crawling-indexing/sitemaps/build-sitemap.md)
+    - [Gestionar sitemaps con el archivo de índice de sitemaps](search/docs/crawling-indexing/sitemaps/large-sitemaps.md)
+    - **Extensiones de sitemaps**
+      - [Sitemaps de imágenes](search/docs/crawling-indexing/sitemaps/image-sitemaps.md)
+      - [Sitemaps de News](search/docs/crawling-indexing/sitemaps/news-sitemap.md)
+      - [Sitemaps de vídeo y alternativas](search/docs/crawling-indexing/sitemaps/video-sitemaps.md)
+      - [Combinar extensiones de sitemaps](search/docs/crawling-indexing/sitemaps/combine-sitemap-extensions.md)
+  - **Gestión de rastreadores**
+    - [Solicitar que Google vuelva a rastrear URLs](search/docs/crawling-indexing/ask-google-to-recrawl.md)
+    - [Solucionar errores de rastreo](search/docs/crawling-indexing/troubleshoot-crawling-errors.md)
+    - **Rastreadores de Google**
+      - [Lista de rastreadores de Google](crawling/docs/crawlers-fetchers/overview-google-crawlers.md)
+      - [Googlebot](search/docs/crawling-indexing/googlebot.md)
+      - [Reducir la frecuencia de rastreo de Google](crawling/docs/crawlers-fetchers/reduce-crawl-rate.md)
+      - [Verificar el robot de Google y otros rastreadores de Google](crawling/docs/crawlers-fetchers/verify-google-requests.md)
+  - **robots.txt**
+    - [Introducción a los archivos robots.txt](search/docs/crawling-indexing/robots/intro.md)
+    - [¿Cómo interpreta Google la especificación robots.txt?](crawling/docs/robots-txt/robots-txt-spec.md)
+  - **Canonicalización**
+    - [Qué es la canonicalización de URLs](search/docs/crawling-indexing/canonicalization.md)
+    - [Cómo especificar una URL canónica con rel="canonical" y otros métodos](search/docs/crawling-indexing/consolidate-duplicate-urls.md)
+    - [Solucionar problemas de canonicalización](search/docs/crawling-indexing/canonicalization-troubleshooting.md)
+  - [Indexación centrada en los móviles y los sitios web móviles](search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing.md)
+  - **AMP**
+    - [Acerca de AMP en la Búsqueda de Google](search/docs/crawling-indexing/amp.md)
+    - [Mejorar contenido AMP](search/docs/crawling-indexing/amp/enhance-amp.md)
+    - [Validar contenido AMP](search/docs/crawling-indexing/amp/validate-amp.md)
+    - [Retirar contenido AMP](search/docs/crawling-indexing/amp/remove-amp.md)
+  - **JavaScript**
+    - [Comprender conceptos básicos del SEO en JavaScript](search/docs/crawling-indexing/javascript/javascript-seo-basics.md)
+    - [Solucionar problemas de JavaScript relacionados con la búsqueda](search/docs/crawling-indexing/javascript/fix-search-javascript.md)
+    - [Corregir contenido cargado en diferido](search/docs/crawling-indexing/javascript/lazy-loading.md)
+    - [Renderizado dinámico como solución alternativa](search/docs/crawling-indexing/javascript/dynamic-rendering.md)
+  - **Metadatos de página y contenido**
+    - [Metadatos de página](search/docs/crawling-indexing/valid-page-metadata.md)
+    - **Metaetiquetas**
+      - [Etiquetas meta y atributos HTML que Google admite](search/docs/crawling-indexing/special-tags.md)
+      - [Etiqueta meta robots, data-nosnippet y X-Robots-Tag](search/docs/crawling-indexing/robots-meta-tag.md)
+      - [noindex](search/docs/crawling-indexing/block-indexing.md)
+    - [atributos rel](search/docs/crawling-indexing/qualify-outbound-links.md)
+  - **Retiradas**
+    - [Controlar lo que compartes con Google](search/docs/crawling-indexing/control-what-you-share.md)
+    - [Retirada de páginas](search/docs/crawling-indexing/remove-information.md)
+    - [Retirada de imágenes](search/docs/crawling-indexing/prevent-images-on-your-page.md)
+    - [Información oculta](search/docs/crawling-indexing/keep-redacted-information-out.md)
+  - **Traslados y cambios de sitio**
+    - [Las redirecciones y la Búsqueda de Google](search/docs/crawling-indexing/301-redirects.md)
+    - **Traslados de sitio**
+      - [Cambiar el alojamiento](search/docs/crawling-indexing/site-move-no-url-changes.md)
+      - [Trasladar sitios con cambios de URL](search/docs/crawling-indexing/site-move-with-url-changes.md)
+    - [Pruebas A/B](search/docs/crawling-indexing/website-testing.md)
+    - [Pausar o inhabilitar temporalmente un sitio web](search/docs/crawling-indexing/pause-online-business.md)
+- **Posicionamiento y aparición en búsquedas**
+  - [Introducción](search/docs/appearance.md)
+  - [Funciones de IA](search/docs/appearance/ai-features.md)
+  - [Fechas de firma](search/docs/appearance/publication-dates.md)
+  - [Iconos de página](search/docs/appearance/favicon-in-search.md)
+  - [Fragmentos destacados](search/docs/appearance/featured-snippets.md)
+  - [Muestras flexibles](search/docs/appearance/flexible-sampling.md)
+  - [Google Discover](search/docs/appearance/google-discover.md)
+  - [Imágenes](search/docs/appearance/google-images.md)
+  - **Funciones locales**
+    - [Detalles de la empresa](search/docs/appearance/establish-business-details.md)
+    - [Lista de mejores lugares](search/docs/appearance/top-places-list.md)
+    - Inhabilitar los resultados de búsqueda local (sin copia local: https://support.google.com/webmasters/answer/3035947)
+  - **Experiencia en la página**
+    - [Qué es la experiencia en la página](search/docs/appearance/page-experience.md)
+    - [Core Web Vitals](search/docs/appearance/core-web-vitals.md)
+    - [Intersticiales y cuadros de diálogo](search/docs/appearance/avoid-intrusive-interstitials.md)
+  - [Fuentes preferidas](search/docs/appearance/preferred-sources.md)
+  - **Sistemas de posicionamiento**
+    - [Guía sobre los sistemas de posicionamiento de la Búsqueda de Google](search/docs/appearance/ranking-systems-guide.md)
+    - [Sistema de reseñas](search/docs/appearance/reviews-system.md)
+  - **Novedades en el posicionamiento**
+    - Lista de actualizaciones en el posicionamiento (sin copia local: https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history)
+    - [Actualizaciones principales](search/docs/appearance/core-updates.md)
+    - [Actualizaciones de spam](search/docs/appearance/spam-updates.md)
+  - **Diferencias regionales en la experiencia de la Búsqueda**
+    - [Introducción](search/docs/appearance/aggregator-features.md)
+    - [Bloque de agregadores](search/docs/appearance/aggregator-unit.md)
+    - [Bloque de proveedores](search/docs/appearance/supplier-unit.md)
+    - [Carrusel de ecosistema](search/docs/appearance/ecosystem-carousel.md)
+    - [Funciones de los sitios de empleo](search/docs/appearance/job-sites.md)
+    - [Funciones de sitios de lugares](search/docs/appearance/places-sites.md)
+    - [Funciones de Sudáfrica](search/docs/appearance/south-africa-features.md)
+    - [Carruseles de datos estructurados (beta)](search/docs/appearance/structured-data/carousels-beta.md)
+  - [Perfiles de búsqueda](search/docs/appearance/search-profiles.md)
+  - [Nombres de sitio](search/docs/appearance/site-names.md)
+  - [Enlaces de sitio](search/docs/appearance/sitelinks.md)
+  - [Fragmentos](search/docs/appearance/snippet.md)
+  - **Datos estructurados**
+    - [Cómo funcionan los datos estructurados](search/docs/appearance/structured-data/intro-structured-data.md)
+    - [Directrices generales de datos estructurados](search/docs/appearance/structured-data/sd-policies.md)
+    - [Resultados de búsqueda con enriquecimiento](search/docs/appearance/enriched-search-results.md)
+    - [Generar datos estructurados con JavaScript](search/docs/appearance/structured-data/generate-structured-data-with-javascript.md)
+    - **Guías de funciones**
+      - [Todas las funciones de datos estructurados](search/docs/appearance/structured-data/search-gallery.md)
+      - [Artículo](search/docs/appearance/structured-data/article.md)
+      - [Acciones del libro](search/docs/appearance/structured-data/book.md)
+      - [Ruta de exploración](search/docs/appearance/structured-data/breadcrumb.md)
+      - [Carrusel](search/docs/appearance/structured-data/carousel.md)
+      - [Lista de cursos](search/docs/appearance/structured-data/course.md)
+      - [Conjunto de datos](search/docs/appearance/structured-data/dataset.md)
+      - [Foro de debate](search/docs/appearance/structured-data/discussion-forum.md)
+      - [Preguntas y respuestas educativas](search/docs/appearance/structured-data/education-qa.md)
+      - [Puntuación total de la empresa](search/docs/appearance/structured-data/employer-rating.md)
+      - [Verificación de datos](search/docs/appearance/structured-data/factcheck.md)
+      - [Evento](search/docs/appearance/structured-data/event.md)
+      - [Metadatos de imagen](search/docs/appearance/structured-data/image-license-metadata.md)
+      - [Oferta de empleo](search/docs/appearance/structured-data/job-posting.md)
+      - [Empresa local](search/docs/appearance/structured-data/local-business.md)
+      - [Solucionador de problemas matemáticos](search/docs/appearance/structured-data/math-solvers.md)
+      - [Carrusel de películas](search/docs/appearance/structured-data/movie.md)
+      - [Organización](search/docs/appearance/structured-data/organization.md)
+      - **Shopping**
+        - [Introducción](search/docs/appearance/structured-data/product.md)
+        - [Fragmento de producto](search/docs/appearance/structured-data/product-snippet.md)
+        - [Ficha de comerciante](search/docs/appearance/structured-data/merchant-listing.md)
+        - [Variantes](search/docs/appearance/structured-data/product-variants.md)
+        - [Programa de fidelización](search/docs/appearance/structured-data/loyalty-program.md)
+        - [Política de devoluciones del comerciante](search/docs/appearance/structured-data/return-policy.md)
+        - [Política de envío del comerciante](search/docs/appearance/structured-data/shipping-policy.md)
+      - [Página de perfil](search/docs/appearance/structured-data/profile-page.md)
+      - [Preguntas y respuestas](search/docs/appearance/structured-data/qapage.md)
+      - [Receta](search/docs/appearance/structured-data/recipe.md)
+      - [Fragmento de reseña](search/docs/appearance/structured-data/review-snippet.md)
+      - [Aplicación de software](search/docs/appearance/structured-data/software-app.md)
+      - [Speakable](search/docs/appearance/structured-data/speakable.md)
+      - [Suscripción y contenido con muro de pago](search/docs/appearance/structured-data/paywalled-content.md)
+      - [Alquiler vacacional](search/docs/appearance/structured-data/vacation-rental.md)
+      - [Vídeo](search/docs/appearance/structured-data/video.md)
+  - [Enlaces de título](search/docs/appearance/title-link.md)
+  - **Funciones traducidas**
+    - [Resultados traducidos](search/docs/appearance/translated-results.md)
+    - [Redes publicitarias y funciones de traducción de la Búsqueda de Google](search/docs/appearance/ad-network-and-translation.md)
+  - [Vídeos](search/docs/appearance/video.md)
+  - [Galería de elementos visuales](search/docs/appearance/visual-elements-gallery.md)
+  - **Historias web**
+    - [Habilitar las historias web en Google](search/docs/appearance/enable-web-stories.md)
+    - [Prácticas recomendadas para crear historias web](search/docs/appearance/web-stories-creation-best-practices.md)
+    - [Política de contenido de las historias web](search/docs/appearance/web-stories-content-policy.md)
+  - **Programa para primeros usuarios**
+    - [Seguimiento de envíos](search/docs/appearance/package-tracking.md)
+- **Supervisar y depurar**
+  - [Depurar los descensos en el tráfico de la Búsqueda](search/docs/monitor-debug/debugging-search-traffic-drops.md)
+  - **Monitorizar con Search Console**
+    - [Empezar a utilizar Search Console](search/docs/monitor-debug/search-console-start.md)
+    - [Mejorar el SEO con un gráfico de burbujas](search/docs/monitor-debug/bubble-chart-analysis.md)
+    - [Usar datos de Search Console y Google Analytics para el SEO](search/docs/monitor-debug/google-analytics-search-console.md)
+    - [Analizar el contenido de redes sociales y plataformas de vídeo](search/docs/monitor-debug/analyze-social-video-content.md)
+  - **Depurar mediante operadores de búsqueda**
+    - [Introducción](search/docs/monitor-debug/search-operators.md)
+    - [Operador de búsqueda site:](search/docs/monitor-debug/search-operators/all-search-site.md)
+    - [Operadores de búsqueda de Google Imágenes](search/docs/monitor-debug/search-operators/image-search.md)
+  - **Evitar y monitorizar los usos inadecuados**
+    - [Introducción](search/docs/monitor-debug/security.md)
+    - [Evita el spam generado por usuarios](search/docs/monitor-debug/prevent-abuse.md)
+    - [Software malicioso y software no deseado](search/docs/monitor-debug/security/malware.md)
+    - [Evitar una infección de malware](search/docs/monitor-debug/security/prevent-malware.md)
+    - [Ingeniería social (sitios engañosos y de suplantación de identidad)](search/docs/monitor-debug/security/social-engineering.md)
+    - [Política de Navegación segura de Google sobre infractores reincidentes](search/docs/monitor-debug/security/safe-browsing-repeat-offenders.md)
+  - [Empezar a usar Google Trends](search/docs/monitor-debug/trends-start.md)
+- **Guías específicas para sitios**
+  - **Comercio electrónico**
+    - [Introducción](search/docs/specialty/ecommerce.md)
+    - [Dónde puede aparecer el contenido](search/docs/specialty/ecommerce/where-ecommerce-data-can-appear-on-google.md)
+    - [Compartir datos de producto](search/docs/specialty/ecommerce/share-your-product-data-with-google.md)
+    - [Incluir datos estructurados](search/docs/specialty/ecommerce/include-structured-data-relevant-to-ecommerce.md)
+    - [Crear un nuevo sitio web](search/docs/specialty/ecommerce/how-to-launch-an-ecommerce-website.md)
+    - [Escribir buenas reseñas](search/docs/specialty/ecommerce/write-high-quality-reviews.md)
+    - [Diseñar una estructura de URLs](search/docs/specialty/ecommerce/designing-a-url-structure-for-ecommerce-sites.md)
+    - [Estructura de un sitio de comercio electrónico](search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure.md)
+    - [Paginación, carga incremental de páginas y la Búsqueda](search/docs/specialty/ecommerce/pagination-and-incremental-page-loading.md)
+  - **Internacionales y multilingües**
+    - [Introducción](search/docs/specialty/international.md)
+    - [Gestionar sitios multirregionales y multilingües](search/docs/specialty/international/managing-multi-regional-sites.md)
+    - [Notificar a Google versiones localizadas de tu página](search/docs/specialty/international/localized-versions.md)
+    - [Cómo rastrea Google las páginas que se adaptan según la configuración regional](search/docs/specialty/international/locale-adaptive-pages.md)
+  - **Contenido explícito**
+    - [Directrices para sitios con contenido explícito](search/docs/specialty/explicit/guidelines.md)
+    - [Qué hacer si tu sitio se ha marcado incorrectamente como explícito](search/docs/specialty/explicit/troubleshooting.md)
+
+## Páginas descargadas que no están en el menú
+
+Se llega a ellas desde enlaces dentro de otras páginas. Llevan el título original en inglés.
+
+- [Latest documentation updates](search/updates.md): registro de cambios de la documentación, con las funciones retiradas (por ejemplo, el resultado enriquecido de FAQ desde el 7 de mayo de 2026). Vive fuera de `/search/docs/`.
+- [Things to Know about Google's Web Crawling | Google Crawling Infrastructure](crawling/docs/about-crawling.md)
+- [Changelog](crawling/docs/changelog.md)
+- [Optimize your crawl budget](crawling/docs/crawl-budget.md)
+- [APIs-Google User Agent | Google Crawling Infrastructure](crawling/docs/crawlers-fetchers/apis-user-agent.md)
+- [Google Feedfetcher | Google Crawling Infrastructure](crawling/docs/crawlers-fetchers/feedfetcher.md)
+- [List of Google's common crawlers](crawling/docs/crawlers-fetchers/google-common-crawlers.md)
+- [List of Google's special-case crawlers](crawling/docs/crawlers-fetchers/google-special-case-crawlers.md)
+- [List of Google user-triggered fetchers](crawling/docs/crawlers-fetchers/google-user-triggered-fetchers.md)
+- [Google Read Aloud User Agent | Google Crawling Infrastructure](crawling/docs/crawlers-fetchers/read-aloud-user-agent.md)
+- [Managing crawling of faceted navigation URLs | Google Crawling Infrastructure](crawling/docs/faceted-navigation.md)
+- [Create and Submit a robots.txt File | Google Crawling Infrastructure](crawling/docs/robots-txt/create-robots-txt.md)
+- [Updating Your Robots.txt File | Google Crawling Infrastructure](crawling/docs/robots-txt/submit-updated-robots-txt.md)
+- [Debug Network and DNS Errors for Google's Crawlers | Google Crawling Infrastructure](crawling/docs/troubleshooting/dns-network-errors.md)
+- [How HTTP Status Codes Affect Google's Crawlers | Google Crawling Infrastructure](crawling/docs/troubleshooting/http-status-codes.md)
+- [How to Get Information on Google | Google Search Central](search/docs/fundamentals/get-on-google.md)
+
+## Sin copia local
+
+- https://developers.google.com/crawling/docs/crawlers-fetchers/web-bot-auth: página experimental que Google no exporta a Markdown.
+- `search/docs/appearance/structured-data/articl` y `search/docs/monitor-debug/google-trends`: enlaces rotos (404) dentro de las propias páginas de Google.
+- Rutas viejas que Google redirige (`/search/docs/guides/...`, `/search/docs/advanced/guidelines/...`, las páginas de rastreadores y robots.txt que se mudaron a `/crawling/docs/`, y otras): no se guardan, su contenido está en la página de destino.
