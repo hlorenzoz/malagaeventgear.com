@@ -275,6 +275,11 @@ export default {
 			slug: 'av-utleie-bryllup',
 			keyword: 'AV-utleie for bryllup i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-sports-events': {
+			slug: 'av-utleie-idrettsarrangementer',
+			keyword: 'AV-utleie til idrettsarrangementer i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -271,6 +271,11 @@ export default {
 			slug: 'audiovisuele-verhuur-bruiloft',
 			keyword: 'audiovisuele verhuur voor een bruiloft in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-sports-events': {
+			slug: 'audiovisuele-verhuur-sportevenementen',
+			keyword: 'audiovisuele verhuur voor sportevenementen in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

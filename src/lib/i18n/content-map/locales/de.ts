@@ -271,6 +271,11 @@ export default {
 			slug: 'av-vermietung-hochzeiten',
 			keyword: 'AV-Vermietung für Hochzeiten in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-sports-events': {
+			slug: 'av-vermietung-sportveranstaltungen',
+			keyword: 'AV-Vermietung für Sportveranstaltungen in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

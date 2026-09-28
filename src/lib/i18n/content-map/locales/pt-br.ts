@@ -303,6 +303,11 @@ export default {
 			slug: 'aluguel-de-audiovisual-para-casamento',
 			keyword: 'aluguel de audiovisual para casamento em Málaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-sports-events': {
+			slug: 'aluguel-de-audiovisual-para-eventos-esportivos',
+			keyword: 'aluguel de audiovisual para eventos esportivos em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

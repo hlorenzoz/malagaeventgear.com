@@ -271,6 +271,11 @@ export default {
 			slug: 'location-audiovisuelle-mariage',
 			keyword: 'location audiovisuelle pour mariage à Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-sports-events': {
+			slug: 'location-audiovisuelle-evenements-sportifs',
+			keyword: 'location audiovisuelle pour événements sportifs à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

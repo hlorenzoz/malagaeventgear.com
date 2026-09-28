@@ -251,6 +251,11 @@ export default {
 			slug: '婚禮影音租賃',
 			keyword: '馬拉加 婚禮影音租賃',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-sports-events': {
+			slug: '運動賽事影音租賃',
+			keyword: '馬拉加 運動賽事影音租賃',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

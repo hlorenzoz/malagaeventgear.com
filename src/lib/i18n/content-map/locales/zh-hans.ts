@@ -251,6 +251,11 @@ export default {
 			slug: '婚礼视听租赁',
 			keyword: '马拉加 婚礼视听租赁',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-sports-events': {
+			slug: '体育赛事视听租赁',
+			keyword: '马拉加 体育赛事视听租赁',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
