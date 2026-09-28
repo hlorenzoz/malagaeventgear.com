@@ -4,7 +4,7 @@ description: "Audio visual rental for religious events in Malaga, Spain: a lecte
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-for-religious-events
 publishDate: "2025-12-04"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-28"
 excerpt: "Audio visual rental for religious events in Malaga, Spain: a lectern mic for the officiant, PA sound and a screen for readings, matched to a real package."
 coverImage: https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled.webp
 categories: [Audio Visual Rental, Events]
@@ -43,7 +43,7 @@ Malaga Event Gear provides audio visual rental for religious events in Malaga an
 
 -   Our [Basic MICE Pack](/packages/basic-mice/) covers a gooseneck microphone for the lectern, a projector and screen for readings or hymn lyrics, up to 40 guests.
 
--   Our [Wedding Pack](/packages/wedding/) covers a wedding ceremony in a church, with a wireless handheld microphone and a technician included, up to 80 guests.
+-   Our [Wedding Pack](/packages/wedding/) covers a wedding ceremony in a church, with wireless microphones and a technician included, up to 80 guests.
 
 -   Live streaming, cameras and interactive touch screens are not part of our own inventory, as [What We Stock, and What We Source](#what-we-stock-and-what-we-source) explains below. We don't stock multilingual interpretation equipment ourselves either, but we can arrange it through a subcontracted partner on request.
 
@@ -52,7 +52,7 @@ Malaga Event Gear provides audio visual rental for religious events in Malaga an
 ## Match Your Religious Event to a Package
 
 -   **Baptism, first communion or general service, up to 40 guests**: the [Basic MICE Pack](/packages/basic-mice/) includes a gooseneck microphone for the lectern, a projector and screen for readings or hymn lyrics, and a technician available as an add on if you want one running the sound.
--   **Wedding ceremony in a church, up to 80 guests**: the [Wedding Pack](/packages/wedding/) includes a wireless handheld microphone for vows and readings, with a technician included on site to manage sound during the ceremony.
+-   **Wedding ceremony in a church, up to 80 guests**: the [Wedding Pack](/packages/wedding/) includes wireless microphones for vows and readings, with a technician included on site to manage sound during the ceremony.
 
 See live pricing and full inclusions on our [packages page](/packages/).
 
@@ -68,17 +68,19 @@ For anything else on that list, describe what your service needs. We will check 
 
 ## Real Setups We've Delivered
 
+None of these photos is from a religious event. They are real setups from other events, with the same kind of lectern, microphone and sound a service uses.
+
 ![Methacrylate lectern at an outdoor event.](https://cdn.malagaeventgear.com/blog/1262/methacrylate_lectern_outdoor_event_1-300x224.webp)
 
-A methacrylate lectern set up for a ceremony, ready for the officiant's microphone.
+A methacrylate lectern at an outdoor evening event, the same kind of lectern we set up for an officiant's microphone.
 
 ![Methacrylate lectern with technical support.](https://cdn.malagaeventgear.com/blog/1264/methacrylate_lectern_technical_support-300x224.webp)
 
-A lectern setup with technical support equipment in place for a service.
+The technical setup behind the lectern and the lighting at that outdoor evening event.
 
 ![Audio system rental for Colegio Oficial de Gestores Administrativos de Malaga.](https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-300x224.webp)
 
-A PA sound system set up for a formal gathering in Malaga.
+A PA sound system set up for a conference at the Colegio Oficial de Gestores Administrativos de Malaga.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1284/'])} speed="normal" direction="left" deferMount={false} />
@@ -110,7 +112,7 @@ Yes, the [Basic MICE Pack](/packages/basic-mice/) includes a gooseneck microphon
 
 ### What is included for a wedding ceremony in a church?
 
-The [Wedding Pack](/packages/wedding/) includes a wireless handheld microphone for vows and readings, PA sound, and a technician on site to manage sound during the ceremony, for up to 80 guests.
+The [Wedding Pack](/packages/wedding/) includes wireless microphones for vows and readings, PA sound, and a technician on site to manage sound during the ceremony, for up to 80 guests.
 
 ### Is a technician included for a religious event?
 
@@ -126,7 +128,7 @@ Interactive touch screens are not in our own inventory: our screen and projector
 
 ### How many microphones are included?
 
-The Basic MICE Pack includes 1 gooseneck microphone. The Wedding Pack includes 1 wireless handheld microphone. If your event needs more than one, let us know when you book.
+The Basic MICE Pack includes 1 gooseneck microphone. The Wedding Pack includes wireless microphones for vows and readings. If your event needs more microphones, let us know when you book.
 
 ### How far in advance should I book AV equipment for a religious event?
 
