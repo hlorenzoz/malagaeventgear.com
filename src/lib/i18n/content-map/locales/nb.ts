@@ -285,6 +285,11 @@ export default {
 			slug: 'av-utleie-mindre-bedrifter',
 			keyword: 'AV-utleie til mindre bedrifter i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-religious-events': {
+			slug: 'av-utleie-religiose-arrangementer',
+			keyword: 'AV-utleie til religiøse arrangementer i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -281,6 +281,11 @@ export default {
 			slug: 'audiovisuele-verhuur-kleine-bedrijven',
 			keyword: 'audiovisuele verhuur voor kleine bedrijven in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-religious-events': {
+			slug: 'audiovisuele-verhuur-religieuze-evenementen',
+			keyword: 'audiovisuele verhuur voor religieuze evenementen in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

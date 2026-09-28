@@ -1,0 +1,126 @@
+---
+title: "Aluguer de audiovisuais para eventos religiosos em Málaga"
+description: "Aluguer de audiovisuais para eventos religiosos em Málaga, Espanha: microfone de púlpito para o celebrante, som PA e ecrã para leituras, num pacote real."
+excerpt: "Aluguer de audiovisuais para eventos religiosos em Málaga, Espanha: microfone de púlpito para o celebrante, som PA e ecrã para leituras, num pacote real."
+publishDate: "2026-09-28"
+sourceUpdated: "2026-09-28"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Procura aluguer de audiovisuais para eventos religiosos em Málaga, Espanha? Um batizado, uma primeira comunhão, uma festa religiosa e uma cerimónia de casamento numa igreja precisam todos de uma base semelhante: um microfone para o celebrante, som PA dimensionado para a sala e um ecrã para as leituras ou as letras dos cânticos, se o local o quiser.
+
+A Malaga Event Gear entrega, instala e testa esta configuração em Málaga e em toda a Costa del Sol.
+
+Contacte-nos já para explorar a nossa [gama de equipamento e pacotes](/packages/).
+
+## Resumo
+
+---
+
+A Malaga Event Gear fornece aluguer de audiovisuais para eventos religiosos em Málaga e em toda a Costa del Sol: um microfone de púlpito ou sem fios para o celebrante, som PA e um ecrã para as leituras. Com uma experiência que remonta a 1996, entregamos, montamos e testamos o equipamento para que a sua celebração decorra sem distrações técnicas.
+
+Contacte-nos já para falar sobre o seu evento.
+
+## Pontos principais
+
+---
+
+A Malaga Event Gear fornece aluguer de audiovisuais para eventos religiosos em Málaga e em toda a Costa del Sol.
+
+-   O nosso [Basic MICE Pack](/packages/basic-mice/) inclui um microfone de pescoço de ganso para o púlpito, um projetor e um ecrã para as leituras ou as letras dos cânticos, até 40 convidados.
+
+-   O nosso [Wedding Pack](/packages/wedding/) cobre uma cerimónia de casamento numa igreja, com microfones sem fios e um técnico incluído, até 80 convidados.
+
+-   O streaming em direto, as câmaras e os ecrãs táteis interativos não fazem parte do nosso inventário próprio, como explica mais abaixo a secção [O que temos em stock, e o que procuramos noutro lugar](#o-que-temos-em-stock-e-o-que-procuramos-noutro-lugar). Também não temos em stock equipamento de interpretação multilingue, mas podemos organizá-la a pedido através de um parceiro subcontratado.
+
+-   Disponível em Málaga, na Costa del Sol e em Sevilha, e em Granada para alugueres acima de 400 euros, com reserva com pelo menos 24 horas de antecedência.
+
+## Escolha o pacote certo para o seu evento religioso
+
+-   **Batizado, primeira comunhão ou celebração habitual, até 40 convidados**: o [Basic MICE Pack](/packages/basic-mice/) inclui um microfone de pescoço de ganso para o púlpito, um projetor e um ecrã para as leituras ou as letras dos cânticos, e um técnico disponível como opção, se quiser alguém a operar o som.
+-   **Cerimónia de casamento numa igreja, até 80 convidados**: o [Wedding Pack](/packages/wedding/) inclui microfones sem fios para os votos e as leituras, com um técnico incluído no local para gerir o som durante a cerimónia.
+
+Consulte os preços em tempo real e todas as prestações incluídas na nossa [página de pacotes](/packages/).
+
+<InlineCTA />
+
+## O que temos em stock, e o que procuramos noutro lugar
+
+Fornecemos som PA dimensionado para a sala, um microfone de pescoço de ganso ou sem fios, consoante o pacote, e ainda um projetor e um ecrã para as leituras ou as letras dos cânticos, se o local as quiser mostrar.
+
+O streaming em direto, as câmaras de transmissão e os ecrãs táteis interativos não fazem parte do nosso inventário próprio, e um videowall de LED também não. Os ecrãs dos nossos pacotes são um ecrã de projeção ou, no [MICE Pack](/packages/mice/), um único ecrã LED de 60 polegadas, nunca uma parede modular. A interpretação multilingue não é equipamento que tenhamos em stock, mas podemos organizá-la para a sua celebração através de um parceiro subcontratado.
+
+Para tudo o resto dessa lista, descreva aquilo de que a sua celebração precisa. Vamos verificar junto dos fornecedores com quem trabalhamos, e nada fica prometido até que um deles o confirme.
+
+## Montagens reais que já entregámos
+
+Nenhuma destas fotografias é de um evento religioso. São montagens reais de outros eventos, com o mesmo tipo de púlpito, microfone e som que uma celebração utiliza.
+
+![Púlpito de metacrilato num evento ao ar livre.](https://cdn.malagaeventgear.com/blog/1262/methacrylate_lectern_outdoor_event_1-300x224.webp "O mesmo evento noturno ao ar livre, visto a partir das mesas do jantar.")
+
+Um púlpito de metacrilato num evento noturno ao ar livre, o mesmo tipo de púlpito que montamos para o microfone de um celebrante.
+
+![Púlpito de metacrilato com apoio técnico.](https://cdn.malagaeventgear.com/blog/1264/methacrylate_lectern_technical_support-300x224.webp "A montagem técnica que apoia o púlpito e a iluminação deste evento ao ar livre.")
+
+A montagem técnica por trás do púlpito e da iluminação nesse evento noturno ao ar livre.
+
+![Aluguer de sistema de som para o Colegio Oficial de Gestores Administrativos de Malaga.](https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-300x224.webp "Um sistema de som profissional montado para uma conferência no Colegio Oficial de Gestores Administrativos de Malaga, para um som claro nas apresentações e nos debates.")
+
+Um sistema de som PA montado para uma conferência no Colegio Oficial de Gestores Administrativos de Malaga.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1284/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Reserva e área de serviço
+
+Os nossos serviços cobrem Málaga, a Costa del Sol e Sevilha sem encomenda mínima, e estendem-se a Granada para alugueres acima de 400 euros. Reserve com pelo menos 24 horas de antecedência para garantir a disponibilidade. Para uma cerimónia com data marcada, reserve o mais cedo possível assim que o seu local estiver confirmado.
+
+## Conclusão
+
+Seja um batizado, uma primeira comunhão, uma festa religiosa ou uma cerimónia de casamento numa igreja, a Malaga Event Gear fornece o microfone, o som e o ecrã de que o seu evento precisa. Para a nossa gama completa, veja a [página de aluguer de audiovisuais](/blog/audio-visual-rental/). [Contacte-nos](/contact/) para falar sobre o seu evento.
+
+Precisa antes de audiovisual para uma apresentação remota ou uma sessão híbrida? Veja o nosso guia [aluguer de audiovisuais para apresentações remotas](/blog/audio-visual-rental-for-remote-presentations/). Vai antes lançar um produto? Veja [o que é preciso de audiovisual num lançamento de produto](/blog/audio-visual-rental-for-product-launches/).
+
+## Perguntas frequentes
+
+### De que equipamento audiovisual preciso para um evento religioso?
+
+Um microfone para o celebrante, som PA dimensionado para a sala e um ecrã para as leituras ou as letras dos cânticos, se o local o quiser. O [Basic MICE Pack](/packages/basic-mice/) e o [Wedding Pack](/packages/wedding/) cobrem estas necessidades para diferentes números de convidados. Veja [Escolha o pacote certo para o seu evento religioso](#escolha-o-pacote-certo-para-o-seu-evento-religioso) acima.
+
+### Quanto custa o aluguer de audiovisuais para um evento religioso?
+
+Depende do pacote: o nosso catálogo completo, do Basic MICE Pack até ao Wedding Pack para uma cerimónia numa igreja, está indicado com o preço exato em euros na nossa [página de pacotes](/packages/). Todas as tarifas são sem IVA, com o IVA espanhol de 21% acrescentado no checkout, e cada preço inclui entrega, montagem e recolha.
+
+### Fornecem um sistema de som para uma celebração numa igreja?
+
+Sim, o [Basic MICE Pack](/packages/basic-mice/) inclui um microfone de pescoço de ganso para o púlpito e reforço de som PA para até 40 convidados.
+
+### O que está incluído numa cerimónia de casamento numa igreja?
+
+O [Wedding Pack](/packages/wedding/) inclui microfones sem fios para os votos e as leituras, som PA e um técnico no local para gerir o som durante a cerimónia, para até 80 convidados.
+
+### Está incluído um técnico num evento religioso?
+
+Depende do pacote. O [Basic MICE Pack](/packages/basic-mice/) oferece um técnico como opção, e o [Wedding Pack](/packages/wedding/) inclui um no local.
+
+### Fornecem streaming em direto para celebrações religiosas?
+
+Não com o nosso próprio equipamento: câmaras, filmagem e streaming em direto não fazem parte do nosso inventário próprio. A nossa montagem cobre o som, o microfone e o ecrã da sala. Veja [O que temos em stock, e o que procuramos noutro lugar](#o-que-temos-em-stock-e-o-que-procuramos-noutro-lugar) acima.
+
+### Fornecem ecrãs interativos ou tecnologia de interpretação multilingue?
+
+Os ecrãs táteis interativos não fazem parte do nosso inventário próprio: o nosso ecrã e o nosso projetor servem para mostrar as leituras ou as letras dos cânticos, não para um ecrã interativo. A interpretação multilingue, sim, como serviço organizado: não temos o equipamento próprio, mas podemos recorrer a pedido a um parceiro subcontratado.
+
+### Quantos microfones estão incluídos?
+
+O Basic MICE Pack inclui 1 microfone de pescoço de ganso. O Wedding Pack inclui microfones sem fios para os votos e as leituras. Se o seu evento precisar de mais microfones, informe-nos no momento da reserva.
+
+### Com quanto tempo de antecedência devo reservar equipamento audiovisual para um evento religioso?
+
+Reserve com pelo menos 24 horas de antecedência para garantir a disponibilidade. Para uma cerimónia com data marcada, reserve o mais cedo possível assim que o seu local estiver confirmado. Os nossos serviços estão disponíveis em Málaga, na Costa del Sol e em Sevilha sem encomenda mínima, e estendem-se a Granada para alugueres acima de 400 euros.

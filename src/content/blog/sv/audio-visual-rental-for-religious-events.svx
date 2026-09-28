@@ -1,0 +1,126 @@
+---
+title: "AV-uthyrning för religiösa evenemang i Malaga, Spanien"
+description: "AV-uthyrning för religiösa evenemang i Malaga, Spanien: talarstolsmikrofon för officianten, PA-ljud och duk för textläsningar, i ett verkligt paket."
+excerpt: "AV-uthyrning för religiösa evenemang i Malaga, Spanien: talarstolsmikrofon för officianten, PA-ljud och duk för textläsningar, i ett verkligt paket."
+publishDate: "2026-09-28"
+sourceUpdated: "2026-09-28"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Letar du efter AV-uthyrning för religiösa evenemang i Malaga, Spanien? Ett dop, en första kommunion, en religiös högtid och en bröllopsceremoni i en kyrka behöver alla en liknande grund: en mikrofon för officianten, PA-ljud som är dimensionerat för lokalen och en duk för textläsningar eller psalmtexter om lokalen vill ha en.
+
+Malaga Event Gear levererar, installerar och testar denna uppsättning i Malaga och hela Costa del Sol.
+
+Kontakta oss idag för att utforska vårt [utbud av utrustning och paket](/packages/).
+
+## Kort översikt
+
+---
+
+Malaga Event Gear erbjuder AV-uthyrning för religiösa evenemang i Malaga och hela Costa del Sol: en talarstolsmikrofon eller trådlös mikrofon för officianten, PA-ljud och en duk för textläsningar. Med erfarenhet som går tillbaka till 1996 levererar, installerar och testar vi utrustningen så att din gudstjänst genomförs utan tekniska distraktioner.
+
+Kontakta oss idag för att prata om ditt evenemang.
+
+## Det viktigaste
+
+---
+
+Malaga Event Gear erbjuder AV-uthyrning för religiösa evenemang i Malaga och hela Costa del Sol.
+
+-   Vårt [Basic MICE Pack](/packages/basic-mice/) omfattar en gåshalsmikrofon för talarstolen samt en projektor och duk för textläsningar eller psalmtexter, för upp till 40 gäster.
+
+-   Vårt [Wedding Pack](/packages/wedding/) täcker en bröllopsceremoni i en kyrka, med trådlösa mikrofoner och en tekniker som ingår, för upp till 80 gäster.
+
+-   Livestreaming, kameror och interaktiva pekskärmar ingår inte i vårt eget lager, vilket avsnittet [Vad vi har i lager, och vad vi tar in utifrån](#vad-vi-har-i-lager-och-vad-vi-tar-in-utifrån) längre ner förklarar. Utrustning för flerspråkig tolkning har vi inte heller själva i lager, men vi kan ordna tolkning på begäran genom en underleverantör.
+
+-   Tillgängligt i Malaga, på Costa del Sol och i Sevilla, och i Granada för uthyrningar över 400 euro, med bokning minst 24 timmar i förväg.
+
+## Matcha ditt religiösa evenemang med ett paket
+
+-   **Dop, första kommunion eller vanlig gudstjänst, upp till 40 gäster**: [Basic MICE Pack](/packages/basic-mice/) omfattar en gåshalsmikrofon för talarstolen, en projektor och duk för textläsningar eller psalmtexter, och en tekniker som tillval om du vill att någon sköter ljudet.
+-   **Bröllopsceremoni i en kyrka, upp till 80 gäster**: [Wedding Pack](/packages/wedding/) omfattar trådlösa mikrofoner för löftena och textläsningarna, med en tekniker på plats som ingår och sköter ljudet under ceremonin.
+
+Se aktuella priser och allt som ingår på vår [paketsida](/packages/).
+
+<InlineCTA />
+
+## Vad vi har i lager, och vad vi tar in utifrån
+
+Vi tillhandahåller PA-ljud som är dimensionerat för lokalen, en gåshalsmikrofon eller trådlös mikrofon beroende på paket, och dessutom en projektor och duk för textläsningar eller psalmtexter om lokalen vill visa dem.
+
+Livestreaming, sändningskameror och interaktiva pekskärmar ingår inte i vårt eget lager, och inte heller en LED-videovägg. Skärmarna i våra paket är en projektionsduk eller, i [MICE Pack](/packages/mice/), en enda LED-skärm på 60 tum, aldrig en modulär vägg. Flerspråkig tolkning är ingen utrustning vi själva har i lager, men vi kan ordna den till din gudstjänst genom en underleverantör.
+
+För allt annat på den listan, beskriv vad din gudstjänst behöver. Vi hör med de leverantörer vi samarbetar med, och ingenting är utlovat förrän någon av dem har bekräftat.
+
+## Verkliga uppsättningar vi har levererat
+
+Inget av de här fotona kommer från ett religiöst evenemang. Det är verkliga uppsättningar från andra evenemang, med samma typ av talarstol, mikrofon och ljud som en gudstjänst använder.
+
+![Talarstol i metakrylat vid ett utomhusevenemang.](https://cdn.malagaeventgear.com/blog/1262/methacrylate_lectern_outdoor_event_1-300x224.webp "Samma kvällsevenemang utomhus, sett från middagsborden.")
+
+En talarstol i metakrylat vid ett kvällsevenemang utomhus, samma typ av talarstol som vi ställer upp för en officiants mikrofon.
+
+![Talarstol i metakrylat med teknisk support.](https://cdn.malagaeventgear.com/blog/1264/methacrylate_lectern_technical_support-300x224.webp "Den tekniska uppsättningen bakom talarstolen och belysningen vid det här utomhusevenemanget.")
+
+Den tekniska uppsättningen bakom talarstolen och belysningen vid samma kvällsevenemang utomhus.
+
+![Uthyrning av ljudsystem till Colegio Oficial de Gestores Administrativos de Malaga.](https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-300x224.webp "Ett professionellt ljudsystem uppsatt för en konferens hos Colegio Oficial de Gestores Administrativos de Malaga, för tydligt ljud under presentationer och diskussioner.")
+
+Ett PA-ljudsystem uppsatt för en konferens hos Colegio Oficial de Gestores Administrativos de Malaga.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1284/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Bokning och serviceområde
+
+Våra tjänster täcker Malaga, Costa del Sol och Sevilla utan minsta order, och sträcker sig till Granada för uthyrningar över 400 euro. Boka minst 24 timmar i förväg för att garantera tillgänglighet. För en ceremoni med ett fast datum, boka så tidigt du kan så snart din lokal är bekräftad.
+
+## Slutsats
+
+Oavsett om det är ett dop, en första kommunion, en religiös högtid eller en bröllopsceremoni i en kyrka, levererar Malaga Event Gear mikrofonen, ljudet och duken som ditt evenemang behöver. Se vårt fullständiga sortiment på [sidan om AV-uthyrning](/blog/audio-visual-rental/). [Hör av dig](/contact/) för att prata om ditt evenemang.
+
+Behöver du i stället AV för en distanspresentation eller en hybridsession? Se vår guide om [AV-uthyrning för distanspresentationer](/blog/audio-visual-rental-for-remote-presentations/). Ska du i stället lansera en produkt? Se [AV-uthyrning för produktlanseringar](/blog/audio-visual-rental-for-product-launches/).
+
+## Vanliga frågor
+
+### Vilken AV-utrustning behöver jag för ett religiöst evenemang?
+
+En mikrofon för officianten, PA-ljud som är dimensionerat för lokalen och en duk för textläsningar eller psalmtexter om lokalen vill ha en. [Basic MICE Pack](/packages/basic-mice/) och [Wedding Pack](/packages/wedding/) täcker de behoven för olika antal gäster. Se [Matcha ditt religiösa evenemang med ett paket](#matcha-ditt-religiösa-evenemang-med-ett-paket) ovan.
+
+### Vad kostar AV-uthyrning för ett religiöst evenemang?
+
+Det beror på paketet: hela vår katalog, från Basic MICE Pack upp till Wedding Pack för en ceremoni i en kyrka, listas med exakta priser i euro på vår [paketsida](/packages/). Alla priser är exklusive moms, med den vanliga spanska momsen på 21 % tillagd i kassan, och varje pris inkluderar leverans, uppsättning och hämtning.
+
+### Tillhandahåller ni ett ljudsystem för en gudstjänst i en kyrka?
+
+Ja, [Basic MICE Pack](/packages/basic-mice/) omfattar en gåshalsmikrofon för talarstolen och PA-ljudförstärkning för upp till 40 gäster.
+
+### Vad ingår för en bröllopsceremoni i en kyrka?
+
+[Wedding Pack](/packages/wedding/) omfattar trådlösa mikrofoner för löftena och textläsningarna, PA-ljud och en tekniker på plats som sköter ljudet under ceremonin, för upp till 80 gäster.
+
+### Ingår en tekniker vid ett religiöst evenemang?
+
+Det beror på paketet. [Basic MICE Pack](/packages/basic-mice/) erbjuder en tekniker som tillval, och i [Wedding Pack](/packages/wedding/) ingår en på plats.
+
+### Tillhandahåller ni livestreaming för gudstjänster?
+
+Inte med vår egen utrustning: kameror, filmning och livestreaming ingår inte i vårt eget lager. Vår uppsättning täcker lokalens ljud, mikrofon och duk. Se [Vad vi har i lager, och vad vi tar in utifrån](#vad-vi-har-i-lager-och-vad-vi-tar-in-utifrån) ovan.
+
+### Tillhandahåller ni interaktiva skärmar eller teknik för flerspråkig tolkning?
+
+Interaktiva pekskärmar ingår inte i vårt eget lager: vår duk och projektor är till för att visa textläsningar eller psalmtexter, inte för en interaktiv skärm. Flerspråkig tolkning, ja, som en tjänst vi ordnar: vi har inte själva utrustningen i lager, men vi kan på begäran ta in en underleverantör.
+
+### Hur många mikrofoner ingår?
+
+Basic MICE Pack omfattar 1 gåshalsmikrofon. Wedding Pack omfattar trådlösa mikrofoner för löftena och textläsningarna. Om ditt evenemang behöver fler mikrofoner, säg till när du bokar.
+
+### Hur långt i förväg bör jag boka AV-utrustning för ett religiöst evenemang?
+
+Boka minst 24 timmar i förväg för att garantera tillgänglighet. För en ceremoni med ett fast datum, boka så tidigt du kan så snart din lokal är bekräftad. Våra tjänster finns tillgängliga i Malaga, på Costa del Sol och i Sevilla utan minsta order, och sträcker sig till Granada för uthyrningar över 400 euro.

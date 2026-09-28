@@ -313,6 +313,11 @@ export default {
 			slug: 'aluguer-de-audiovisuais-para-pequenas-empresas',
 			keyword: 'aluguer de audiovisuais para pequenas empresas em Málaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-religious-events': {
+			slug: 'aluguer-de-audiovisuais-para-eventos-religiosos',
+			keyword: 'aluguer de audiovisuais para eventos religiosos em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

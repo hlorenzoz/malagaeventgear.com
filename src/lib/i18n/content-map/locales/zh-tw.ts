@@ -261,6 +261,11 @@ export default {
 			slug: '中小企業影音租賃',
 			keyword: '馬拉加 中小企業影音租賃',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-religious-events': {
+			slug: '宗教活動影音租賃',
+			keyword: '馬拉加 宗教活動影音租賃',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

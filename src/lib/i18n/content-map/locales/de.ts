@@ -281,6 +281,11 @@ export default {
 			slug: 'av-vermietung-kleine-unternehmen',
 			keyword: 'AV-Vermietung für kleine Unternehmen in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-religious-events': {
+			slug: 'av-vermietung-religioese-veranstaltungen',
+			keyword: 'AV-Vermietung für religiöse Veranstaltungen in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

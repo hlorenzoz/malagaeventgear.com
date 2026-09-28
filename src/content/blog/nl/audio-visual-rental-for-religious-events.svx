@@ -1,0 +1,126 @@
+---
+title: "Audiovisuele verhuur voor religieuze evenementen in Malaga"
+description: "Audiovisuele verhuur voor religieuze evenementen in Malaga, Spanje: lessenaarmicrofoon voor de voorganger, PA-geluid en scherm voor lezingen in een echt pakket."
+excerpt: "Audiovisuele verhuur voor religieuze evenementen in Malaga, Spanje: lessenaarmicrofoon voor de voorganger, PA-geluid en scherm voor lezingen in een echt pakket."
+publishDate: "2026-09-28"
+sourceUpdated: "2026-09-28"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Op zoek naar audiovisuele verhuur voor religieuze evenementen in Malaga, Spanje? Een doop, een eerste communie, een religieus feest en een kerkelijke huwelijksceremonie hebben allemaal een vergelijkbare basis nodig: een microfoon voor de voorganger, PA-geluid afgestemd op de ruimte en een scherm voor lezingen of liedteksten als de locatie dat wil.
+
+Malaga Event Gear levert, installeert en test deze opstelling in Malaga en de hele Costa del Sol.
+
+Neem vandaag nog contact met ons op om ons [aanbod van apparatuur en pakketten](/packages/) te ontdekken.
+
+## In het kort
+
+---
+
+Malaga Event Gear biedt audiovisuele verhuur voor religieuze evenementen in Malaga en de hele Costa del Sol: een lessenaarmicrofoon of draadloze microfoon voor de voorganger, PA-geluid en een scherm voor lezingen. Met ervaring die teruggaat tot 1996 leveren, installeren en testen we de apparatuur zodat je dienst verloopt zonder technische afleiding.
+
+Neem vandaag nog contact met ons op om je evenement te bespreken.
+
+## Belangrijkste punten
+
+---
+
+Malaga Event Gear biedt audiovisuele verhuur voor religieuze evenementen in Malaga en de hele Costa del Sol.
+
+-   Ons [Basic MICE Pack](/packages/basic-mice/) omvat een zwanenhalsmicrofoon voor de lessenaar en een beamer met scherm voor lezingen of liedteksten, voor maximaal 40 gasten.
+
+-   Ons [Wedding Pack](/packages/wedding/) dekt een huwelijksceremonie in een kerk, met draadloze microfoons en een technicus inbegrepen, voor maximaal 80 gasten.
+
+-   Live streaming, camera's en interactieve touchscreens zitten niet in onze eigen voorraad, zoals [Wat we op voorraad hebben, en wat we elders vinden](#wat-we-op-voorraad-hebben-en-wat-we-elders-vinden) hieronder uitlegt. Apparatuur voor meertalig tolken hebben we evenmin zelf op voorraad, maar we kunnen het tolken op aanvraag regelen via een ingehuurde partner.
+
+-   Beschikbaar in Malaga, aan de Costa del Sol en in Sevilla, en in Granada bij verhuur boven de 400 euro, met boeking minstens 24 uur van tevoren.
+
+## Koppel je religieuze evenement aan een pakket
+
+-   **Doop, eerste communie of gewone dienst, tot 40 gasten**: het [Basic MICE Pack](/packages/basic-mice/) omvat een zwanenhalsmicrofoon voor de lessenaar, een beamer met scherm voor lezingen of liedteksten, en een technicus als optie als je iemand wilt die het geluid bedient.
+-   **Huwelijksceremonie in een kerk, tot 80 gasten**: het [Wedding Pack](/packages/wedding/) omvat draadloze microfoons voor de geloften en de lezingen, met een technicus ter plaatse inbegrepen die het geluid tijdens de ceremonie verzorgt.
+
+Bekijk actuele prijzen en alle inclusies op onze [pakkettenpagina](/packages/).
+
+<InlineCTA />
+
+## Wat we op voorraad hebben, en wat we elders vinden
+
+We leveren PA-geluid afgestemd op de ruimte, een zwanenhalsmicrofoon of draadloze microfoon afhankelijk van het pakket, en daarnaast een beamer met scherm voor lezingen of liedteksten als de locatie die wil tonen.
+
+Live streaming, uitzendcamera's en interactieve touchscreens zitten niet in onze eigen voorraad, en een LED-videowall evenmin. De schermen in onze pakketten zijn een projectiescherm of, bij het [MICE Pack](/packages/mice/), één LED-scherm van 60 inch, nooit een modulaire wand. Meertalig tolken is geen apparatuur die we zelf op voorraad hebben, maar we kunnen het voor je dienst regelen via een ingehuurde partner.
+
+Voor al het andere op die lijst: beschrijf wat je dienst nodig heeft. We vragen het na bij de leveranciers waarmee we werken, en er is niets toegezegd tot een van hen het bevestigt.
+
+## Echte opstellingen die we hebben geleverd
+
+Geen van deze foto's komt van een religieus evenement. Het zijn echte opstellingen van andere evenementen, met hetzelfde soort lessenaar, microfoon en geluid dat een dienst gebruikt.
+
+![Lessenaar van methacrylaat bij een evenement buiten.](https://cdn.malagaeventgear.com/blog/1262/methacrylate_lectern_outdoor_event_1-300x224.webp "Hetzelfde avondevenement buiten, gezien vanaf de dinertafels.")
+
+Een lessenaar van methacrylaat bij een avondevenement buiten, hetzelfde soort lessenaar dat we opstellen voor de microfoon van een voorganger.
+
+![Lessenaar van methacrylaat met technische ondersteuning.](https://cdn.malagaeventgear.com/blog/1264/methacrylate_lectern_technical_support-300x224.webp "De technische opstelling achter de lessenaar en de verlichting van dit evenement buiten.")
+
+De technische opstelling achter de lessenaar en de verlichting bij dat avondevenement buiten.
+
+![Verhuur van een geluidsinstallatie voor het Colegio Oficial de Gestores Administrativos de Malaga.](https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-300x224.webp "Een professionele geluidsinstallatie, opgesteld voor een conferentie bij het Colegio Oficial de Gestores Administrativos de Malaga, voor helder geluid tijdens presentaties en discussies.")
+
+Een PA-geluidsinstallatie, opgesteld voor een conferentie bij het Colegio Oficial de Gestores Administrativos de Malaga.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1284/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Boeking en werkgebied
+
+Onze diensten dekken Malaga, de Costa del Sol en Sevilla zonder minimale bestelling, en reiken tot Granada bij verhuur boven de 400 euro. Boek minstens 24 uur van tevoren om de beschikbaarheid te garanderen. Voor een ceremonie op een vaste datum boek je zo vroeg mogelijk zodra je locatie vaststaat.
+
+## Conclusie
+
+Of het nu gaat om een doop, een eerste communie, een religieus feest of een huwelijksceremonie in een kerk, Malaga Event Gear levert de microfoon, het geluid en het scherm die je evenement nodig heeft. Voor ons volledige aanbod, zie de [pagina over audiovisuele verhuur](/blog/audio-visual-rental/). [Neem contact op](/contact/) om je evenement te bespreken.
+
+Heb je in plaats daarvan AV nodig voor een presentatie op afstand of een hybride sessie? Zie onze gids over [audiovisuele verhuur voor presentaties op afstand](/blog/audio-visual-rental-for-remote-presentations/). Lanceer je in plaats daarvan een product? Zie [audiovisuele verhuur voor productlanceringen](/blog/audio-visual-rental-for-product-launches/).
+
+## Veelgestelde vragen
+
+### Welke AV-apparatuur heb ik nodig voor een religieus evenement?
+
+Een microfoon voor de voorganger, PA-geluid afgestemd op de ruimte en een scherm voor lezingen of liedteksten als de locatie dat wil. Het [Basic MICE Pack](/packages/basic-mice/) en het [Wedding Pack](/packages/wedding/) dekken deze behoeften bij verschillende aantallen gasten. Zie [Koppel je religieuze evenement aan een pakket](#koppel-je-religieuze-evenement-aan-een-pakket) hierboven.
+
+### Wat kost audiovisuele verhuur voor een religieus evenement?
+
+Dat hangt af van het pakket: onze volledige catalogus, van het Basic MICE Pack tot het Wedding Pack voor een ceremonie in een kerk, staat met exacte prijzen in euro op onze [pakkettenpagina](/packages/). Alle tarieven zijn excl. btw, met de Spaanse btw van 21% erbovenop bij het afrekenen, en elke prijs is inclusief levering, opbouw en afbouw.
+
+### Leveren jullie een geluidsinstallatie voor een kerkdienst?
+
+Ja, het [Basic MICE Pack](/packages/basic-mice/) omvat een zwanenhalsmicrofoon voor de lessenaar en PA-geluidsversterking voor maximaal 40 gasten.
+
+### Wat is er inbegrepen bij een huwelijksceremonie in een kerk?
+
+Het [Wedding Pack](/packages/wedding/) omvat draadloze microfoons voor de geloften en de lezingen, PA-geluid en een technicus ter plaatse die het geluid tijdens de ceremonie verzorgt, voor maximaal 80 gasten.
+
+### Is er een technicus inbegrepen bij een religieus evenement?
+
+Dat hangt af van het pakket. Het [Basic MICE Pack](/packages/basic-mice/) biedt een technicus als optie, en bij het [Wedding Pack](/packages/wedding/) is er een ter plaatse inbegrepen.
+
+### Leveren jullie live streaming voor religieuze diensten?
+
+Niet met onze eigen apparatuur: camera's, filmen en live streaming zitten niet in onze eigen voorraad. Onze opstelling dekt het geluid, de microfoon en het scherm van de ruimte. Zie [Wat we op voorraad hebben, en wat we elders vinden](#wat-we-op-voorraad-hebben-en-wat-we-elders-vinden) hierboven.
+
+### Leveren jullie interactieve schermen of technologie voor meertalig tolken?
+
+Interactieve touchscreens zitten niet in onze eigen voorraad: ons scherm en onze beamer dienen om lezingen of liedteksten te tonen, niet als interactief display. Meertalig tolken wel, als geregelde dienst: de apparatuur hebben we zelf niet op voorraad, maar we kunnen op aanvraag een ingehuurde partner inschakelen.
+
+### Hoeveel microfoons zijn inbegrepen?
+
+Het Basic MICE Pack omvat 1 zwanenhalsmicrofoon. Het Wedding Pack omvat draadloze microfoons voor de geloften en de lezingen. Heeft je evenement meer microfoons nodig, laat het ons dan weten bij het boeken.
+
+### Hoe ver van tevoren moet ik AV-apparatuur boeken voor een religieus evenement?
+
+Boek minstens 24 uur van tevoren om de beschikbaarheid te garanderen. Voor een ceremonie op een vaste datum boek je zo vroeg mogelijk zodra je locatie vaststaat. Onze diensten zijn beschikbaar in Malaga, de Costa del Sol en Sevilla zonder minimale bestelling, en reiken tot Granada bij verhuur boven de 400 euro.

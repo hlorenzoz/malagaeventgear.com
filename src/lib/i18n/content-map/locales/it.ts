@@ -277,6 +277,11 @@ export default {
 			slug: 'noleggio-audiovisivo-piccole-imprese',
 			keyword: 'noleggio audiovisivo per piccole imprese a Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-religious-events': {
+			slug: 'noleggio-audiovisivo-eventi-religiosi',
+			keyword: 'noleggio audiovisivo per eventi religiosi a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
