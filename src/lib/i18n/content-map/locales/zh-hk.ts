@@ -182,6 +182,11 @@ export default {
 			keyword: '馬拉加 如何比較婚禮器材租借報價',
 			status: 'propuesta'
 		},
+		'latest-trends-in-wedding-rentals': {
+			slug: '婚禮器材租借最新趨勢',
+			keyword: '馬拉加 婚禮器材租借最新趨勢',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: '培訓視聽租借',
 			keyword: '馬拉加 培訓視聽租借',

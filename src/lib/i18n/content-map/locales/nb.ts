@@ -206,6 +206,11 @@ export default {
 			keyword: 'sammenligne tilbud på utleie til bryllup i Malaga',
 			status: 'propuesta'
 		},
+		'latest-trends-in-wedding-rentals': {
+			slug: 'nyeste-trendene-utleie-til-bryllup',
+			keyword: 'nyeste trendene innen utleie til bryllup i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'kursteknikk',
 			keyword: 'kursteknikk Malaga',

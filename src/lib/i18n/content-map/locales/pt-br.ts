@@ -234,6 +234,11 @@ export default {
 			keyword: 'comparar orçamentos de locação para casamento em Málaga',
 			status: 'propuesta'
 		},
+		'latest-trends-in-wedding-rentals': {
+			slug: 'tendencias-locacao-para-casamento',
+			keyword: 'tendências na locação para casamento em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'material-audiovisual-treinamento',
 			keyword: 'material audiovisual para treinamento em Málaga',

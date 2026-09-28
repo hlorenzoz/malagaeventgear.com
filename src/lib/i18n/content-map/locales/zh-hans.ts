@@ -182,6 +182,11 @@ export default {
 			keyword: '马拉加 如何比较婚礼设备租赁报价',
 			status: 'propuesta'
 		},
+		'latest-trends-in-wedding-rentals': {
+			slug: '婚礼设备租赁最新趋势',
+			keyword: '马拉加 婚礼设备租赁最新趋势',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: '培训视听租赁',
 			keyword: '马拉加 培训视听租赁',

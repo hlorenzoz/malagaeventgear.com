@@ -198,6 +198,11 @@ export default {
 			keyword: 'jämföra offerter för uthyrning till bröllop i Malaga',
 			status: 'propuesta'
 		},
+		'latest-trends-in-wedding-rentals': {
+			slug: 'senaste-trenderna-uthyrning-till-brollop',
+			keyword: 'senaste trenderna inom uthyrning till bröllop i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'av-uthyrning-utbildningar',
 			keyword: 'AV-uthyrning för utbildningar i Malaga',

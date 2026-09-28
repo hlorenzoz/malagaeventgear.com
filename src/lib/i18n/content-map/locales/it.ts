@@ -198,6 +198,11 @@ export default {
 			keyword: 'confrontare i preventivi di noleggio attrezzature per matrimoni',
 			status: 'propuesta'
 		},
+		'latest-trends-in-wedding-rentals': {
+			slug: 'tendenze-noleggio-attrezzature-matrimoni',
+			keyword: 'tendenze del noleggio attrezzature per matrimoni a Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'attrezzatura-audiovisiva-formazione',
 			keyword: 'attrezzatura audiovisiva per la formazione a Malaga',

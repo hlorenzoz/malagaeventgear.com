@@ -234,6 +234,11 @@ export default {
 			keyword: 'comparar orçamentos de aluguer para casamentos em Málaga',
 			status: 'propuesta'
 		},
+		'latest-trends-in-wedding-rentals': {
+			slug: 'tendencias-aluguer-para-casamentos',
+			keyword: 'tendências no aluguer para casamentos em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'aluguer-de-audiovisuais-para-formacoes',
 			keyword: 'aluguer de audiovisuais para formações em Málaga',

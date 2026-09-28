@@ -202,6 +202,11 @@ export default {
 			keyword: 'Angebote für den Hochzeitsverleih in Malaga vergleichen',
 			status: 'propuesta'
 		},
+		'latest-trends-in-wedding-rentals': {
+			slug: 'trends-hochzeitsverleih',
+			keyword: 'Trends beim Hochzeitsverleih in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'av-vermietung-schulungen',
 			keyword: 'AV-Vermietung für Schulungen in Malaga',
