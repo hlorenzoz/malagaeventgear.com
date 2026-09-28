@@ -149,6 +149,11 @@ export default {
 			keyword: 'iluminação de palco para casamentos em Málaga',
 			status: 'propuesta'
 		},
+		'lighting-ideas-for-wedding-rentals': {
+			slug: 'ideias-iluminacao-casamentos',
+			keyword: 'ideias de iluminação para casamentos em Málaga',
+			status: 'propuesta'
+		},
 		'smoke-machine-rental': {
 			slug: 'aluguer-de-maquina-de-fumo',
 			keyword: 'aluguer de máquina de fumo em Málaga',

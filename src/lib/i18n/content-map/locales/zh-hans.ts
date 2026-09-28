@@ -97,6 +97,11 @@ export default {
 			keyword: '马拉加 婚礼舞台灯光',
 			status: 'propuesta'
 		},
+		'lighting-ideas-for-wedding-rentals': {
+			slug: '婚礼灯光创意',
+			keyword: '马拉加 婚礼灯光创意',
+			status: 'propuesta'
+		},
 		'smoke-machine-rental': {
 			slug: '烟雾机租赁',
 			keyword: '马拉加 烟雾机租赁',

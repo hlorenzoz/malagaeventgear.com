@@ -121,6 +121,11 @@ export default {
 			keyword: 'scenelys til bryllup i Malaga',
 			status: 'propuesta'
 		},
+		'lighting-ideas-for-wedding-rentals': {
+			slug: 'lysideer-bryllup',
+			keyword: 'lysideer til bryllup i Malaga',
+			status: 'propuesta'
+		},
 		'smoke-machine-rental': {
 			slug: 'leie-roykmaskin',
 			keyword: 'leie røykmaskin i Malaga',

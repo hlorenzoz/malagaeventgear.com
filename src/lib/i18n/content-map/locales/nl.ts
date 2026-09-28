@@ -117,6 +117,11 @@ export default {
 			keyword: 'podiumverlichting voor bruiloften in Malaga',
 			status: 'propuesta'
 		},
+		'lighting-ideas-for-wedding-rentals': {
+			slug: 'verlichtingsideeen-bruiloft',
+			keyword: 'verlichtingsideeën voor je bruiloft in Malaga',
+			status: 'propuesta'
+		},
 		'smoke-machine-rental': {
 			slug: 'rookmachine-huren',
 			keyword: 'rookmachine huren Malaga',

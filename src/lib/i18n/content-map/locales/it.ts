@@ -113,6 +113,11 @@ export default {
 			keyword: 'illuminazione scenica per matrimoni a Malaga',
 			status: 'propuesta'
 		},
+		'lighting-ideas-for-wedding-rentals': {
+			slug: 'idee-illuminazione-matrimonio',
+			keyword: 'idee di illuminazione per il matrimonio a Malaga',
+			status: 'propuesta'
+		},
 		'smoke-machine-rental': {
 			slug: 'noleggio-macchina-del-fumo',
 			keyword: 'noleggio macchina del fumo a Malaga',
