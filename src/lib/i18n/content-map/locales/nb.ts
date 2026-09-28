@@ -216,6 +216,11 @@ export default {
 			keyword: 'endringer i siste liten ved utleie til bryllup i Malaga',
 			status: 'propuesta'
 		},
+		'protecting-your-wedding-rental-items': {
+			slug: 'skadebeskyttelse-utleie-til-bryllup',
+			keyword: 'skadebeskyttelse ved utleie til bryllup i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'kursteknikk',
 			keyword: 'kursteknikk Malaga',

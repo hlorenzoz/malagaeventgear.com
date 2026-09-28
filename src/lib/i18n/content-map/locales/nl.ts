@@ -212,6 +212,11 @@ export default {
 			keyword: 'last minute wijzigingen bij verhuur voor bruiloften in Malaga',
 			status: 'propuesta'
 		},
+		'protecting-your-wedding-rental-items': {
+			slug: 'schadebescherming-verhuur-bruiloften',
+			keyword: 'schadebescherming bij verhuur voor bruiloften in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'audiovisuele-verhuur-trainingen',
 			keyword: 'audiovisuele verhuur voor trainingen in Malaga',

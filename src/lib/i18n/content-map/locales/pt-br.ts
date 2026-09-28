@@ -244,6 +244,11 @@ export default {
 			keyword: 'mudanças de última hora na locação para casamento em Málaga',
 			status: 'propuesta'
 		},
+		'protecting-your-wedding-rental-items': {
+			slug: 'protecao-danos-locacao-para-casamento',
+			keyword: 'proteção contra danos na locação para casamento em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'material-audiovisual-treinamento',
 			keyword: 'material audiovisual para treinamento em Málaga',

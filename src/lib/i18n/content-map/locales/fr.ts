@@ -212,6 +212,11 @@ export default {
 			keyword: 'modifier au dernier moment la location de matériel pour mariage',
 			status: 'propuesta'
 		},
+		'protecting-your-wedding-rental-items': {
+			slug: 'proteger-location-materiel-mariage',
+			keyword: 'protéger votre location de matériel pour mariage à Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'equipement-audiovisuel-formation',
 			keyword: 'équipement audiovisuel pour une formation à Malaga',

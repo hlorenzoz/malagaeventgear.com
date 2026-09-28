@@ -208,6 +208,11 @@ export default {
 			keyword: 'cambi last minute al noleggio attrezzature per matrimoni a Malaga',
 			status: 'propuesta'
 		},
+		'protecting-your-wedding-rental-items': {
+			slug: 'protezione-danni-noleggio-attrezzature-matrimoni',
+			keyword: 'protezione danni nel noleggio attrezzature per matrimoni a Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'attrezzatura-audiovisiva-formazione',
 			keyword: 'attrezzatura audiovisiva per la formazione a Malaga',

@@ -212,6 +212,11 @@ export default {
 			keyword: 'kurzfristige Änderungen beim Hochzeitsverleih in Malaga',
 			status: 'propuesta'
 		},
+		'protecting-your-wedding-rental-items': {
+			slug: 'schadensschutz-hochzeitsverleih',
+			keyword: 'Schadensschutz beim Hochzeitsverleih in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'av-vermietung-schulungen',
 			keyword: 'AV-Vermietung für Schulungen in Malaga',

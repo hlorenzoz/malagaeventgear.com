@@ -244,6 +244,11 @@ export default {
 			keyword: 'alterações de última hora no aluguer para casamentos em Málaga',
 			status: 'propuesta'
 		},
+		'protecting-your-wedding-rental-items': {
+			slug: 'protecao-danos-aluguer-para-casamentos',
+			keyword: 'proteção contra danos no aluguer para casamentos em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'aluguer-de-audiovisuais-para-formacoes',
 			keyword: 'aluguer de audiovisuais para formações em Málaga',

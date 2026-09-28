@@ -208,6 +208,11 @@ export default {
 			keyword: 'ändringar i sista minuten vid uthyrning till bröllop i Malaga',
 			status: 'propuesta'
 		},
+		'protecting-your-wedding-rental-items': {
+			slug: 'skadeskydd-uthyrning-till-brollop',
+			keyword: 'skadeskydd vid uthyrning till bröllop i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'av-uthyrning-utbildningar',
 			keyword: 'AV-uthyrning för utbildningar i Malaga',

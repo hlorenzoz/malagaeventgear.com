@@ -192,6 +192,11 @@ export default {
 			keyword: '馬拉加 婚禮器材租借臨時更改',
 			status: 'propuesta'
 		},
+		'protecting-your-wedding-rental-items': {
+			slug: '婚禮器材租借損壞保障',
+			keyword: '馬拉加 婚禮器材租借損壞保障',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: '培訓視聽租借',
 			keyword: '馬拉加 培訓視聽租借',
