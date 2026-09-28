@@ -207,6 +207,11 @@ export default {
 			keyword: 'trends in verhuur voor bruiloften in Malaga',
 			status: 'propuesta'
 		},
+		'managing-last-minute-wedding-rental-changes': {
+			slug: 'last-minute-wijzigingen-verhuur-bruiloften',
+			keyword: 'last minute wijzigingen bij verhuur voor bruiloften in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'audiovisuele-verhuur-trainingen',
 			keyword: 'audiovisuele verhuur voor trainingen in Malaga',

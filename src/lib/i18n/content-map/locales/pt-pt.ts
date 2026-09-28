@@ -239,6 +239,11 @@ export default {
 			keyword: 'tendências no aluguer para casamentos em Málaga',
 			status: 'propuesta'
 		},
+		'managing-last-minute-wedding-rental-changes': {
+			slug: 'alteracoes-ultima-hora-aluguer-para-casamentos',
+			keyword: 'alterações de última hora no aluguer para casamentos em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'aluguer-de-audiovisuais-para-formacoes',
 			keyword: 'aluguer de audiovisuais para formações em Málaga',

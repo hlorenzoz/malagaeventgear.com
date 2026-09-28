@@ -187,6 +187,11 @@ export default {
 			keyword: '馬拉加 婚禮設備租借最新趨勢',
 			status: 'propuesta'
 		},
+		'managing-last-minute-wedding-rental-changes': {
+			slug: '婚禮設備租借臨時異動',
+			keyword: '馬拉加 婚禮設備租借臨時異動',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: '教育訓練影音租賃',
 			keyword: '馬拉加 教育訓練影音租賃',

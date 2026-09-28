@@ -207,6 +207,11 @@ export default {
 			keyword: 'Trends beim Hochzeitsverleih in Malaga',
 			status: 'propuesta'
 		},
+		'managing-last-minute-wedding-rental-changes': {
+			slug: 'kurzfristige-aenderungen-hochzeitsverleih',
+			keyword: 'kurzfristige Änderungen beim Hochzeitsverleih in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'av-vermietung-schulungen',
 			keyword: 'AV-Vermietung für Schulungen in Malaga',

@@ -239,6 +239,11 @@ export default {
 			keyword: 'tendências na locação para casamento em Málaga',
 			status: 'propuesta'
 		},
+		'managing-last-minute-wedding-rental-changes': {
+			slug: 'mudancas-ultima-hora-locacao-para-casamento',
+			keyword: 'mudanças de última hora na locação para casamento em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'material-audiovisual-treinamento',
 			keyword: 'material audiovisual para treinamento em Málaga',

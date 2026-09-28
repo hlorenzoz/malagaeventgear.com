@@ -203,6 +203,11 @@ export default {
 			keyword: 'tendenze del noleggio attrezzature per matrimoni a Malaga',
 			status: 'propuesta'
 		},
+		'managing-last-minute-wedding-rental-changes': {
+			slug: 'cambi-last-minute-noleggio-attrezzature-matrimoni',
+			keyword: 'cambi last minute al noleggio attrezzature per matrimoni a Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'attrezzatura-audiovisiva-formazione',
 			keyword: 'attrezzatura audiovisiva per la formazione a Malaga',

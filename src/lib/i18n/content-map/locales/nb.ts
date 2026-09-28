@@ -211,6 +211,11 @@ export default {
 			keyword: 'nyeste trendene innen utleie til bryllup i Malaga',
 			status: 'propuesta'
 		},
+		'managing-last-minute-wedding-rental-changes': {
+			slug: 'endringer-i-siste-liten-utleie-til-bryllup',
+			keyword: 'endringer i siste liten ved utleie til bryllup i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-training-sessions': {
 			slug: 'kursteknikk',
 			keyword: 'kursteknikk Malaga',
