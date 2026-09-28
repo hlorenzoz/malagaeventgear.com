@@ -132,6 +132,11 @@ export default {
 			keyword: 'udlejning til bryllup i Malaga',
 			status: 'propuesta'
 		},
+		'how-to-choose-wedding-rentals': {
+			slug: 'sadan-vaelger-du-den-rigtige-udlejning-til-bryllup',
+			keyword: 'sådan vælger du den rigtige udlejning til bryllup i Malaga',
+			status: 'propuesta'
+		},
 		'unique-wedding-ceremony-rentals': {
 			slug: 'lyd-til-vielsen',
 			keyword: 'lyd til vielsen i Malaga',

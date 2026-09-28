@@ -128,6 +128,11 @@ export default {
 			keyword: 'noleggio attrezzature per matrimoni a Malaga',
 			status: 'propuesta'
 		},
+		'how-to-choose-wedding-rentals': {
+			slug: 'come-scegliere-il-noleggio-attrezzature-per-matrimoni',
+			keyword: 'come scegliere il noleggio attrezzature per matrimoni a Malaga',
+			status: 'propuesta'
+		},
 		'unique-wedding-ceremony-rentals': {
 			slug: 'impianto-audio-cerimonia-matrimonio',
 			keyword: 'impianto audio per cerimonia di matrimonio a Malaga',

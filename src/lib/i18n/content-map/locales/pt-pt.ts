@@ -164,6 +164,11 @@ export default {
 			keyword: 'aluguer para casamentos em Málaga',
 			status: 'propuesta'
 		},
+		'how-to-choose-wedding-rentals': {
+			slug: 'como-escolher-o-aluguer-para-casamentos',
+			keyword: 'como escolher o aluguer para casamentos em Málaga',
+			status: 'propuesta'
+		},
 		'unique-wedding-ceremony-rentals': {
 			slug: 'som-para-cerimonia-de-casamento',
 			keyword: 'som para cerimónia de casamento em Málaga',

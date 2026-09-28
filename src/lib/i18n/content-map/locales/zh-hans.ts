@@ -112,6 +112,11 @@ export default {
 			keyword: '马拉加 婚礼设备租赁',
 			status: 'propuesta'
 		},
+		'how-to-choose-wedding-rentals': {
+			slug: '如何选择婚礼设备租赁方案',
+			keyword: '马拉加 如何选择婚礼设备租赁方案',
+			status: 'propuesta'
+		},
 		'unique-wedding-ceremony-rentals': {
 			slug: '婚礼仪式音响',
 			keyword: '马拉加 婚礼仪式音响',

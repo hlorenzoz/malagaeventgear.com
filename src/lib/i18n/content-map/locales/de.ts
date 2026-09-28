@@ -132,6 +132,11 @@ export default {
 			keyword: 'Hochzeitsverleih in Malaga',
 			status: 'propuesta'
 		},
+		'how-to-choose-wedding-rentals': {
+			slug: 'hochzeitsverleih-richtig-auswaehlen',
+			keyword: 'Hochzeitsverleih in Malaga richtig auswählen',
+			status: 'propuesta'
+		},
 		'unique-wedding-ceremony-rentals': {
 			slug: 'tontechnik-trauung',
 			keyword: 'Tontechnik für die Trauung in Malaga',
