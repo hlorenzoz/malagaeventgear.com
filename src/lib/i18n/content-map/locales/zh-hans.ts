@@ -112,6 +112,11 @@ export default {
 			keyword: '马拉加 婚礼仪式音响',
 			status: 'propuesta'
 		},
+		'outdoor-wedding-rental-considerations': {
+			slug: '户外婚礼设备租赁',
+			keyword: '马拉加 户外婚礼设备租赁',
+			status: 'propuesta'
+		},
 		'wedding-rentals-online': {
 			slug: '婚礼设备租赁在线预订',
 			keyword: '马拉加 婚礼设备租赁在线预订',

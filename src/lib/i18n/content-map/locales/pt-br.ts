@@ -164,6 +164,11 @@ export default {
 			keyword: 'som para cerimônia de casamento em Málaga',
 			status: 'propuesta'
 		},
+		'outdoor-wedding-rental-considerations': {
+			slug: 'locacao-casamento-ar-livre',
+			keyword: 'locação para casamento ao ar livre em Málaga',
+			status: 'propuesta'
+		},
 		'wedding-rentals-online': {
 			slug: 'locacao-casamento-online',
 			keyword: 'locação para casamento online em Málaga',

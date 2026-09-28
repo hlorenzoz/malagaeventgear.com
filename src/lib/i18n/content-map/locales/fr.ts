@@ -132,6 +132,11 @@ export default {
 			keyword: 'sonorisation de cérémonie de mariage à Malaga',
 			status: 'propuesta'
 		},
+		'outdoor-wedding-rental-considerations': {
+			slug: 'location-materiel-mariage-plein-air',
+			keyword: 'location de matériel pour mariage en plein air à Malaga',
+			status: 'propuesta'
+		},
 		'wedding-rentals-online': {
 			slug: 'location-materiel-mariage-en-ligne',
 			keyword: 'location de matériel pour mariage en ligne à Malaga',

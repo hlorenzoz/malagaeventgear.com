@@ -132,6 +132,11 @@ export default {
 			keyword: 'geluid voor de trouwceremonie in Malaga',
 			status: 'propuesta'
 		},
+		'outdoor-wedding-rental-considerations': {
+			slug: 'verhuur-buitenbruiloften',
+			keyword: 'verhuur voor buitenbruiloften in Malaga',
+			status: 'propuesta'
+		},
 		'wedding-rentals-online': {
 			slug: 'verhuur-bruiloft-online-boeken',
 			keyword: 'verhuur voor bruiloften online boeken in Malaga',

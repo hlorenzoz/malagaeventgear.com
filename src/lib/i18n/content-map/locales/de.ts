@@ -132,6 +132,11 @@ export default {
 			keyword: 'Tontechnik für die Trauung in Malaga',
 			status: 'propuesta'
 		},
+		'outdoor-wedding-rental-considerations': {
+			slug: 'hochzeitsverleih-im-freien',
+			keyword: 'Hochzeitsverleih im Freien in Malaga',
+			status: 'propuesta'
+		},
 		'wedding-rentals-online': {
 			slug: 'hochzeitsverleih-online-buchen',
 			keyword: 'Hochzeitsverleih online buchen in Malaga',

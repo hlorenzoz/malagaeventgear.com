@@ -136,6 +136,11 @@ export default {
 			keyword: 'lyd til vielsen i Malaga',
 			status: 'propuesta'
 		},
+		'outdoor-wedding-rental-considerations': {
+			slug: 'utleie-utendors-bryllup',
+			keyword: 'utleie til utendørs bryllup i Malaga',
+			status: 'propuesta'
+		},
 		'wedding-rentals-online': {
 			slug: 'bestille-bryllupsutleie-pa-nett',
 			keyword: 'bestille bryllupsutleie på nett i Malaga',

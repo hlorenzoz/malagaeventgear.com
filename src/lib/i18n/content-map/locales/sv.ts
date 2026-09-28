@@ -128,6 +128,11 @@ export default {
 			keyword: 'ljud till vigseln i Malaga',
 			status: 'propuesta'
 		},
+		'outdoor-wedding-rental-considerations': {
+			slug: 'uthyrning-utomhusbrollop',
+			keyword: 'uthyrning till utomhusbröllop i Malaga',
+			status: 'propuesta'
+		},
 		'wedding-rentals-online': {
 			slug: 'boka-brollopsuthyrning-online',
 			keyword: 'boka bröllopsuthyrning online i Malaga',
