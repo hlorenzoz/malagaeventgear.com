@@ -297,6 +297,11 @@ export default {
 			slug: 'av-uthyrning-valgorenhetsevenemang',
 			keyword: 'AV-uthyrning för välgörenhetsevenemang i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-hire-near-me-in-malaga-spain': {
+			slug: 'av-uthyrning-nara-mig',
+			keyword: 'AV-uthyrning nära mig',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

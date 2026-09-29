@@ -281,6 +281,11 @@ export default {
 			slug: '慈善筹款活动视听租赁',
 			keyword: '马拉加 慈善筹款活动视听租赁',
 			status: 'propuesta'
+		},
+		'audio-visual-hire-near-me-in-malaga-spain': {
+			slug: '附近的活动视听租赁',
+			keyword: '马拉加 附近的活动视听租赁',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

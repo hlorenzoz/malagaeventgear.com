@@ -333,6 +333,11 @@ export default {
 			slug: 'aluguer-de-audiovisuais-para-eventos-solidarios',
 			keyword: 'aluguer de audiovisuais para eventos solidários em Málaga',
 			status: 'propuesta'
+		},
+		'audio-visual-hire-near-me-in-malaga-spain': {
+			slug: 'aluguer-de-audiovisuais-perto-de-mim',
+			keyword: 'aluguer de audiovisuais perto de mim',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -297,6 +297,11 @@ export default {
 			slug: 'noleggio-audiovisivo-eventi-beneficenza',
 			keyword: 'noleggio audiovisivo per eventi di beneficenza a Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-hire-near-me-in-malaga-spain': {
+			slug: 'noleggio-audiovisivo-vicino-a-me',
+			keyword: 'noleggio audiovisivo vicino a me',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

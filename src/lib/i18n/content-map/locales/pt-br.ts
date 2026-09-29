@@ -333,6 +333,11 @@ export default {
 			slug: 'aluguel-de-audiovisual-para-eventos-beneficentes',
 			keyword: 'aluguel de audiovisual para eventos beneficentes em Málaga',
 			status: 'propuesta'
+		},
+		'audio-visual-hire-near-me-in-malaga-spain': {
+			slug: 'aluguel-de-audiovisual-perto-de-mim',
+			keyword: 'aluguel de audiovisual perto de mim',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

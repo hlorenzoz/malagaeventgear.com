@@ -301,6 +301,11 @@ export default {
 			slug: 'av-vermietung-benefizveranstaltungen',
 			keyword: 'AV-Vermietung für Benefizveranstaltungen in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-hire-near-me-in-malaga-spain': {
+			slug: 'av-vermietung-in-meiner-naehe',
+			keyword: 'AV-Vermietung in meiner Nähe',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

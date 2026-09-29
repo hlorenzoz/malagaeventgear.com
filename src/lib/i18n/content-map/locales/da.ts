@@ -301,6 +301,11 @@ export default {
 			slug: 'av-udlejning-velgorenhedsevents',
 			keyword: 'AV-udlejning til velgørenhedsevents i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-hire-near-me-in-malaga-spain': {
+			slug: 'av-udlejning-i-naerheden-af-mig',
+			keyword: 'AV-udlejning i nærheden af mig',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
