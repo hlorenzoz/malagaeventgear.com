@@ -321,6 +321,11 @@ export default {
 			slug: 'fordele-ved-av-udlejning',
 			keyword: 'fordele ved AV-udlejning i Malaga',
 			status: 'propuesta'
+		},
+		'common-av-rental-mistakes': {
+			slug: 'almindelige-fejl-ved-av-udlejning',
+			keyword: 'almindelige fejl ved AV-udlejning i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

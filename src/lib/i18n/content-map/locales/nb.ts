@@ -325,6 +325,11 @@ export default {
 			slug: 'fordeler-med-av-utleie',
 			keyword: 'fordeler med AV-utleie i Malaga',
 			status: 'propuesta'
+		},
+		'common-av-rental-mistakes': {
+			slug: 'vanlige-feil-ved-av-utleie',
+			keyword: 'vanlige feil ved AV-utleie i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

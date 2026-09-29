@@ -301,6 +301,11 @@ export default {
 			slug: '活动视听租赁的好处',
 			keyword: '马拉加 活动视听租赁的好处',
 			status: 'propuesta'
+		},
+		'common-av-rental-mistakes': {
+			slug: '活动视听租赁常见错误',
+			keyword: '马拉加 活动视听租赁常见错误',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

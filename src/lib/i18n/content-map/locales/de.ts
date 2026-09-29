@@ -321,6 +321,11 @@ export default {
 			slug: 'vorteile-av-vermietung',
 			keyword: 'Vorteile der AV-Vermietung in Malaga',
 			status: 'propuesta'
+		},
+		'common-av-rental-mistakes': {
+			slug: 'haeufige-fehler-av-vermietung',
+			keyword: 'häufige Fehler bei der AV-Vermietung in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

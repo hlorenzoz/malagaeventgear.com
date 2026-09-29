@@ -301,6 +301,11 @@ export default {
 			slug: '活動視聽租借的好處',
 			keyword: '馬拉加 活動視聽租借的好處',
 			status: 'propuesta'
+		},
+		'common-av-rental-mistakes': {
+			slug: '活動視聽租借常見錯誤',
+			keyword: '馬拉加 活動視聽租借常見錯誤',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

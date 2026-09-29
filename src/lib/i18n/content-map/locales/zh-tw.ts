@@ -301,6 +301,11 @@ export default {
 			slug: '影音租賃的好處',
 			keyword: '馬拉加 影音租賃的好處',
 			status: 'propuesta'
+		},
+		'common-av-rental-mistakes': {
+			slug: '影音租賃常見錯誤',
+			keyword: '馬拉加 影音租賃常見錯誤',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

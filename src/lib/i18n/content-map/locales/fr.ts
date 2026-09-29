@@ -321,6 +321,11 @@ export default {
 			slug: 'avantages-location-audiovisuelle',
 			keyword: 'avantages de la location audiovisuelle à Malaga',
 			status: 'propuesta'
+		},
+		'common-av-rental-mistakes': {
+			slug: 'erreurs-courantes-location-audiovisuelle',
+			keyword: 'erreurs courantes de location audiovisuelle à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

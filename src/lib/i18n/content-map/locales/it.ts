@@ -317,6 +317,11 @@ export default {
 			slug: 'vantaggi-noleggio-audiovisivo',
 			keyword: 'vantaggi del noleggio audiovisivo a Malaga',
 			status: 'propuesta'
+		},
+		'common-av-rental-mistakes': {
+			slug: 'errori-comuni-noleggio-audiovisivo',
+			keyword: 'errori comuni nel noleggio audiovisivo a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

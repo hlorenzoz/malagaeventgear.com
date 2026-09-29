@@ -353,6 +353,11 @@ export default {
 			slug: 'vantagens-do-aluguel-de-audiovisual',
 			keyword: 'vantagens do aluguel de audiovisual em Málaga',
 			status: 'propuesta'
+		},
+		'common-av-rental-mistakes': {
+			slug: 'erros-comuns-aluguel-audiovisual',
+			keyword: 'erros comuns no aluguel de audiovisual em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

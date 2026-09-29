@@ -321,6 +321,11 @@ export default {
 			slug: 'voordelen-audiovisuele-verhuur',
 			keyword: 'voordelen van audiovisuele verhuur in Malaga',
 			status: 'propuesta'
+		},
+		'common-av-rental-mistakes': {
+			slug: 'veelvoorkomende-fouten-audiovisuele-verhuur',
+			keyword: 'veelvoorkomende fouten bij audiovisuele verhuur in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

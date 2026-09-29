@@ -317,6 +317,11 @@ export default {
 			slug: 'fordelar-med-av-uthyrning',
 			keyword: 'fördelar med AV-uthyrning i Malaga',
 			status: 'propuesta'
+		},
+		'common-av-rental-mistakes': {
+			slug: 'vanliga-misstag-vid-av-uthyrning',
+			keyword: 'vanliga misstag vid AV-uthyrning i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
