@@ -82,6 +82,8 @@ assets/
 # from .claude/ — the .agents/commands/ copy is documentation, not a working mirror.
 .claude/*
 !.claude/commands/
+# Project agents are team workflow too: `just keywords-research` runs .claude/agents/keyword-researcher.md.
+!.claude/agents/
 
 # ------------------------------------------------------------------------------
 # IDEs, Editors & System Files

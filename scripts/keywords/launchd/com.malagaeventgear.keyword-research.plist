@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Template for the daily keyword-research agent (plan section 3 "Agente diario", "Scheduler").
+  NOT installed by default. `just keywords-schedule-install` copies this file to
+  ~/Library/LaunchAgents/, substituting __REPO_PATH__ (this repo's absolute path) and
+  __CLAUDE_DIR__ (the directory of `which claude`) and __HOME__, then runs
+  `launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.malagaeventgear.keyword-research.plist`.
+
+  Runs `just keywords-research` at 09:00 local time every day. If the Mac is asleep at 09:00,
+  launchd runs the job once it wakes (StartCalendarInterval semantics), it does not skip the day.
+-->
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.malagaeventgear.keyword-research</string>
+
+	<key>WorkingDirectory</key>
+	<string>__REPO_PATH__</string>
+
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/zsh</string>
+		<string>-lc</string>
+		<string>just keywords-research</string>
+	</array>
+
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PATH</key>
+		<string>__CLAUDE_DIR__:/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+	</dict>
+
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Hour</key>
+		<integer>9</integer>
+		<key>Minute</key>
+		<integer>0</integer>
+	</dict>
+
+	<key>StandardOutPath</key>
+	<string>__HOME__/Library/Logs/meg-keyword-research.log</string>
+
+	<key>StandardErrorPath</key>
+	<string>__HOME__/Library/Logs/meg-keyword-research.log</string>
+
+	<key>RunAtLoad</key>
+	<false/>
+</dict>
+</plist>

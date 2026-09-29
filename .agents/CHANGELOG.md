@@ -7,6 +7,15 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Added (keywords): `keywords.json` y agente diario de investigación con Ubersuggest
+- **Pedido del usuario (2026-09-29)**: un solo archivo con keywords, FAQs y AI prompts, con clúster, URL que satisface la intención, dificultad, oportunidad y estado en la creación de contenido, alimentado todos los días.
+- **`keywords.json` (raíz)**: 1.692 keywords, 559 FAQs y la colección `aiPrompts`, desde 10 fuentes del repo (77 posts publicados, `post-faqs.json`, `faq.ts`, CSV de POP, zip de GSC más reciente, Google Ads, CSV de Ubersuggest, investigación de congresos, `content-map.md` de GBP). Ninguna métrica inventada: `difficulty` solo con fuente Ubersuggest, el resto `null` sin fuente.
+- **Scripts (`scripts/keywords/`, strict TDD, 270 tests)**: `sync.ts` e `ingest-ubersuggest.ts` son los únicos que escriben el archivo. Lógica pura en `normalize`, `relevance` (descarta otros mercados, verificado con ruido real de Ubersuggest como "in dubai" o "los angeles"), `merge` (upsert que nunca pisa un estado que ya salió de `idea`), `score` (oportunidad calculada, nunca a mano), `seed-mappings` y un importador por fuente. `sync` es idempotente (mismo hash en dos corridas).
+- **Agente** `.claude/agents/keyword-researcher.md`: corre sin supervisión con `just keywords-research` y lo programa launchd a las 09:00 (`just keywords-schedule-install`). Solo descubre y mide, escribe un lote fechado en `.agents/context/keywords/ubersuggest/` y commitea en local SOLO `keywords.json` y el lote (`just keywords-commit`). Nunca hace push.
+- **Permisos**: la corrida usa `--setting-sources project` y `--permission-mode default`, porque el `allow` global del usuario y su modo `auto` se sumaban a `--allowedTools` y la lista dejaba de ser una barrera. `deny` explícito para `git push/reset/checkout/stash/restore` y `rm`.
+- **Límites conocidos**: Ubersuggest en free tier. Las FAQs de Google salen del autocompletado (`google-autocomplete`, nunca PAA: `serp_analysis` no trae People Also Ask). Las AI Prompt Ideas salen de `industry_prompts` con la semilla como tema, porque el MCP no expone esa pestaña por keyword. Las keywords de los otros 12 idiomas siguen en `content-map/locales/`.
+- **`CLAUDE.md`**: sección "Investigación de keywords (`keywords.json`)", fila en "Fuentes únicas de verdad", y se corrige la línea que decía que no había export de GSC.
+
 ### Fixed (redirects): dos 301 que terminaban en 404 y una cadena de dos saltos
 - **Revisión de "Página con redirección" en GSC (2026-09-26, export en `.agents/context/google-search-console-gsc/paginas/`)**: las 90 URLs son redirects intencionales de la migración (raíces de WordPress a `/blog/`, posts retirados, paquetes viejos, `/category/*`, `/contact-us`, http y www), todos a una página que responde 200. Google no los indexa por diseño y pide mantenerlos al menos un año. No se borran ni se valida esa categoría en GSC.
 - **`/category/expirience/` y `/category/useful/`** redirigían a categorías del blog que no existen (404). Ahora van a `/blog/category/news/` y a `/blog/`.

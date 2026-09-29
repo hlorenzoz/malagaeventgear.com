@@ -344,7 +344,12 @@ segunda copia deriva en silencio porque son instrucciones en prosa, no código.
   real de Resend (el cron de reseñas nunca envió: su worker no tiene `RESEND_API_KEY`), las
   cuotas de Resend y las decisiones pendientes. Y `seo/`: la copia local de la documentación de
   Google Search Central (ver "Google Search Central: leer la copia local" más abajo).
-  **No hay export de GSC**: toda auditoría debe declarar que corrió sin datos de Search Console.
+  **Sí hay export de GSC**: dos zips en
+  `google-search-console-gsc/` (2026-08-06 y 2026-09-23, el más reciente con 486 consultas). Se
+  leen con `unzip -p <zip> Consultas.csv` (cabeceras en español: `Consultas principales,Clics,
+  Impresiones,CTR,Posición`), nunca asumiendo que no hay datos de Search Console. El importador de
+  `keywords.json` (ver "Investigación de keywords") toma siempre el zip más reciente por nombre de
+  archivo.
 
 ### El orden de operaciones
 
@@ -520,6 +525,7 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
   | Headers y redirects | `_headers`, `_redirects` |
   | Endpoint para LLMs | `src/routes/(public)/llms.txt/+server.ts` (derivado, nunca hardcodeado) |
   | Frescura de páginas estáticas | `meta.ts` colocado junto a cada ruta (`contentUpdated`), consumido por `page-sitemap.xml` |
+  | Investigación de keywords | `keywords.json` (raíz), generado por `scripts/keywords/sync.ts` y `scripts/keywords/ingest-ubersuggest.ts`. Ver "Investigación de keywords (`keywords.json`)" |
 
 - **Suite de tests** (correrla en vez de reinventar aserciones): `bunx playwright test` (134
   specs en `tests/`); las específicas de SEO son `schema.spec.ts`, `sitemaps.spec.ts`,
@@ -1179,3 +1185,101 @@ marcada `noindex`: es una herramienta interna. **Nunca se edita a mano** (no hay
 
 Ambos delegan en el agente `reverse-silo-architect`. Son globales (`~/.claude/`): llevan solo
 metodología agnóstica y leen los hechos de MEG desde este `CLAUDE.md` (Mode B).
+
+---
+
+## Investigación de keywords (`keywords.json`)
+
+Un único archivo en la raíz (`keywords.json`) une lo que antes vivía disperso en 12 fuentes que no
+se hablaban entre sí: el CSV de POP, los zips de GSC, los CSV de Google Ads y de Ubersuggest, los
+`.md` de investigación manual, el frontmatter de los posts, `post-faqs.json`, `faq.ts` y el
+`content-map.md` de GBP. Por cada keyword, FAQ o AI prompt dice: clúster, URL que satisface la
+intención, estado en la creación de contenido, métricas (con su fuente y fecha) y oportunidad.
+
+### Se edita SOLO por scripts, nunca a mano
+
+Ningún agente ni humano edita `keywords.json` directamente. Dos scripts lo escriben, ambos en
+`scripts/keywords/`:
+
+- `sync.ts` (`just keywords-sync`): relee las fuentes estáticas del repo (blog, `post-faqs.json`,
+  `faq.ts`, el CSV de POP, el zip de GSC más reciente, los CSV de Google Ads/Ubersuggest,
+  `content-map.md` de GBP y `keyword-research-conferences-2026-09-25.md`) y hace un upsert
+  idempotente. Correrlo dos veces seguidas el mismo día no produce diff.
+- `ingest-ubersuggest.ts` (`just keywords-ingest <archivo>`): mergea un lote diario del agente de
+  investigación (`.agents/context/keywords/ubersuggest/YYYY-MM-DD.json`, validado contra
+  `scripts/keywords/batch.schema.ts`). Si el lote no valida, no escribe nada.
+
+Toda la lógica de transformación es pura y testeada (`scripts/keywords/*.test.ts`,
+`scripts/keywords/importers/*.test.ts`, strict TDD): `normalize.ts` (id estable), `relevance.ts`
+(descarta ciudades/países fuera de España e intenciones sin encaje), `score.ts` (oportunidad,
+NUNCA a mano), `merge.ts` (upsert) y `seed-mappings.ts` (los clústeres reales de
+`keyword-silo-map.md`).
+
+### Estados
+
+`idea` (sin evaluar) -> `planned` (URL decidida) -> `draft` -> `published` (su propia URL la
+satisface) -> `covered` (la cubre otra URL, como sección o FAQ) -> `rejected` (con `reason`
+obligatorio). El estado de una keyword nunca retrocede: `merge.ts` protege `status`/`url`/
+`reason`/`cluster`/`notes` de cualquier entrada que ya haya salido de `idea` ("el blog publicado
+siempre gana"), aunque una fuente de menor confianza (un CSV viejo, una sugerencia de
+autocompletado) proponga otra cosa. Solo las métricas y las fuentes se siguen actualizando.
+
+### Honestidad (regla del proyecto, aplicada acá)
+
+Ninguna métrica se inventa. `difficulty` solo existe con fuente `ubersuggest` (el schema lo
+rechaza si no). Todo lo demás queda en `null` hasta que una fuente real lo confirme. Un volumen
+`0` es un dato, no un `null`. `opportunity` nunca lo pone a mano un importer ni el agente: lo
+calcula siempre `score.ts` a partir de `metrics`, así el campo nunca queda desincronizado de los
+números que lo justifican.
+
+### El agente diario
+
+`.claude/agents/keyword-researcher.md` corre sin supervisión (`just keywords-research`, o
+programado a las 09:00 con `just keywords-schedule-install`, plantilla en
+`scripts/keywords/launchd/`) contra el MCP de Ubersuggest, que está en **este Mac**, no en la nube
+(por eso el scheduler es `launchd`, no un cron remoto). Límites reales:
+
+- **Ubersuggest está en free tier**: pocas keywords por día (2 o 3 semillas), cuota mensual de
+  `brand_operations` para AI Prompt Ideas. El agente lee `user_limits` al arrancar y se detiene si
+  no hay cuota, dejándolo registrado en el lote del día.
+- **El autocompletado de Google NO es People Also Ask.** Las sugerencias de `google_suggestions`
+  se guardan como `faqs` con `source: "google-autocomplete"` si son pregunta, nunca etiquetadas
+  como PAA.
+- El agente **solo descubre** (`idea`) y actualiza métricas. Nunca escribe contenido, nunca cambia
+  un estado a `published`, nunca hace `push` (solo commit local, rama actual).
+- Cadencia dentro de la corrida diaria: la mayoría de las secciones de Ubersuggest son diarias por
+  semilla. Domain Keywords, Rank Tracking, SEO Opportunities y AI Search Visibility son semanales
+  (si pasaron 7 días desde `meta.lastWeeklyRun`, sea el día que sea). `keyword_metrics` (SD e
+  intent) es mensual (`meta.lastMonthlyRun`), dentro de la cuota. Ambas fechas viven en
+  `keywords.json`, así no dependen de que el Mac estuviera encendido un día exacto. El agente
+  nunca abre `keywords.json` (pesa unos 1,7 MB): `just keywords-seeds` le da las 3 semillas y la
+  agenda del día (`weeklyDue`, `monthlyDue`). Las semillas salen de keywords `published` o
+  `planned`, nunca de los clusters `news` ni `standalone` (su keyword es un titular, no una
+  búsqueda).
+- **Commit**: solo por `just keywords-commit <lote>`, que corre los tests de `scripts/keywords` y
+  commitea SOLO `keywords.json` y el lote. Va con `--no-verify` a propósito: el hook de
+  pre-commit guarda en stash los cambios sin stagear y pisaría el trabajo de otra sesión que
+  edite el repo al mismo tiempo (las traducciones, por ejemplo).
+- **Permisos (la barrera real, no el prompt)**: `just keywords-research` corre con
+  `--setting-sources project` (el `allow` global del usuario se sumaría a `--allowedTools`),
+  `--permission-mode default` (el modo `auto` del usuario aprobaría con un clasificador lo que no
+  está en la lista), `--disallowedTools` para `git push`, `reset`, `checkout`, `stash`, `restore`
+  y `rm`, `Write` limitado a `.agents/context/keywords/ubersuggest/` y `--max-budget-usd 2`. Si se
+  agrega una tool de Ubersuggest al agente, se agrega también a esa lista y al `tools` del agente.
+- **Log**: `~/Library/Logs/meg-keyword-research.log`. La última línea de cada corrida resume
+  altas, descartes, cuota antes y después, y el commit o el motivo del corte.
+
+### Agregar una fuente nueva
+
+Un archivo en `scripts/keywords/importers/`, con dos partes: una función PURA que transforma filas
+ya parseadas en `KeywordEntry`/`FaqEntry` (testeada con fixtures chicos) y una función que lee el
+archivo real (node:fs, igual que `scripts/backfill-silo-meta.ts`. Los scripts de `scripts/`
+corren standalone con bun, no bajo Vite, así que NO usan `import.meta.glob`. Esa regla es solo
+para los TESTS que leen archivos del proyecto, como `scripts/keywords/keywords-file.test.ts`).
+Se registra en `sync.ts`, con su propio nombre de `source` en `sources[]`.
+
+### Regla mandatoria
+
+Antes de crear o actualizar contenido de un cluster, se consulta `keywords.json` (por `cluster` o
+por `id`) y se actualiza su estado (`covered`/`published`, nunca a mano: correr `just
+keywords-sync` después de publicar) en el mismo cambio.

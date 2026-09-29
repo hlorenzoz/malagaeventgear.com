@@ -111,3 +111,49 @@ migrate-wp-dry-run:
 migrate-wp-run:
     bun scripts/migrate-wp/index.ts
 
+# ─── Investigación de keywords (keywords.json) ────────────────────────────────
+# Ver CLAUDE.md, sección "Investigación de keywords (`keywords.json`)"
+
+# Regenera keywords.json desde las fuentes estáticas del repo (POP, GSC, Google Ads, GBP, blog, FAQs)
+keywords-sync:
+    bun scripts/keywords/sync.ts
+
+# Mergea un lote diario de Ubersuggest (.agents/context/keywords/ubersuggest/YYYY-MM-DD.json)
+keywords-ingest file:
+    bun scripts/keywords/ingest-ubersuggest.ts {{ file }}
+
+# Elige las N semillas del día para el agente de investigación (por defecto 3)
+keywords-seeds n='3':
+    bun scripts/keywords/next-seeds.ts {{ n }}
+
+# Corre el agente diario de investigación de keywords (Ubersuggest MCP), en la rama y directorio actuales.
+# La barrera real son los permisos, no el prompt: --setting-sources project deja afuera el allow global
+# del usuario (se sumaría a --allowedTools), --permission-mode default deniega todo lo no permitido
+# (el modo auto del usuario lo aprobaría con un clasificador) y --disallowedTools gana siempre.
+keywords-research:
+    claude -p --agent keyword-researcher --setting-sources project --permission-mode default --disallowedTools "Bash(git push:*),Bash(git reset:*),Bash(git checkout:*),Bash(git stash:*),Bash(git restore:*),Bash(rm:*)" --allowedTools "mcp__ubersuggest__user_limits,mcp__ubersuggest__list_projects,mcp__ubersuggest__keyword_suggestions,mcp__ubersuggest__match_keywords,mcp__ubersuggest__google_suggestions,mcp__ubersuggest__keyword_overview,mcp__ubersuggest__serp_analysis,mcp__ubersuggest__content_ideas,mcp__ubersuggest__article_title_suggestions,mcp__ubersuggest__domain_keywords,mcp__ubersuggest__project_position_info,mcp__ubersuggest__seo_opportunities,mcp__ubersuggest__brand_config,mcp__ubersuggest__brand_prompts,mcp__ubersuggest__industry_prompts,mcp__ubersuggest__keyword_metrics,mcp__ubersuggest__location_suggest,Read,Glob,Write(.agents/context/keywords/ubersuggest/**),Edit(.agents/context/keywords/ubersuggest/**),Bash(date:*),Bash(just keywords-sync),Bash(just keywords-seeds:*),Bash(just keywords-ingest:*),Bash(just keywords-commit:*)" --max-budget-usd 2 --output-format json "Run today's keyword research."
+
+# Commitea SOLO keywords.json y el lote del día, después de correr los tests de keywords. Es la única
+# puerta de commit del agente. Va con --no-verify a propósito: el hook de pre-commit guarda en stash
+# los cambios sin stagear, y pisaría el trabajo de otra sesión que edite el repo al mismo tiempo. La
+# validación la hacen los tests de scripts/keywords (schema, guards) antes del commit.
+keywords-commit batch:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    [[ "{{ batch }}" =~ ^\.agents/context/keywords/ubersuggest/[0-9]{4}-[0-9]{2}-[0-9]{2}\.json$ ]] || { echo "lote inválido: {{ batch }}" >&2; exit 1; }
+    bunx vitest run scripts/keywords
+    git add -- keywords.json "{{ batch }}"
+    git commit --no-verify -m "chore(keywords): daily Ubersuggest research $(basename "{{ batch }}" .json)" -- keywords.json "{{ batch }}"
+    git log -1 --format='%h %s'
+
+# Instala el scheduler diario (plantilla de launchd) para correr keywords-research a las 09:00 y lo arranca ahora
+keywords-schedule-install:
+    @mkdir -p ~/Library/LaunchAgents; \
+    dest=~/Library/LaunchAgents/com.malagaeventgear.keyword-research.plist; \
+    cp scripts/keywords/launchd/com.malagaeventgear.keyword-research.plist "$dest"; \
+    sd '__REPO_PATH__' "$(pwd)" "$dest"; \
+    sd '__CLAUDE_DIR__' "$(dirname "$(which claude)")" "$dest"; \
+    sd '__HOME__' "$HOME" "$dest"; \
+    launchctl bootstrap gui/$(id -u) "$dest"; \
+    echo "Instalado y arrancado: $dest"
+
