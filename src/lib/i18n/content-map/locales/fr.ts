@@ -316,6 +316,11 @@ export default {
 			slug: 'personnaliser-forfait-location-audiovisuelle',
 			keyword: 'personnaliser un forfait de location audiovisuelle à Malaga',
 			status: 'propuesta'
+		},
+		'benefits-of-audio-visual-rental': {
+			slug: 'avantages-location-audiovisuelle',
+			keyword: 'avantages de la location audiovisuelle à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

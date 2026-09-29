@@ -296,6 +296,11 @@ export default {
 			slug: '如何客製化影音租賃方案',
 			keyword: '馬拉加 如何客製化影音租賃方案',
 			status: 'propuesta'
+		},
+		'benefits-of-audio-visual-rental': {
+			slug: '影音租賃的好處',
+			keyword: '馬拉加 影音租賃的好處',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

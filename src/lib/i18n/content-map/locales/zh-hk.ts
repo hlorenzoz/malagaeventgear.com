@@ -296,6 +296,11 @@ export default {
 			slug: '如何自訂活動視聽租借套餐',
 			keyword: '馬拉加 如何自訂活動視聽租借套餐',
 			status: 'propuesta'
+		},
+		'benefits-of-audio-visual-rental': {
+			slug: '活動視聽租借的好處',
+			keyword: '馬拉加 活動視聽租借的好處',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

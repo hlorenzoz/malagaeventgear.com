@@ -312,6 +312,11 @@ export default {
 			slug: 'personalizzare-pacchetto-noleggio-audiovisivo',
 			keyword: 'personalizzare un pacchetto di noleggio audiovisivo a Malaga',
 			status: 'propuesta'
+		},
+		'benefits-of-audio-visual-rental': {
+			slug: 'vantaggi-noleggio-audiovisivo',
+			keyword: 'vantaggi del noleggio audiovisivo a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

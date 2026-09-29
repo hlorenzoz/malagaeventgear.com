@@ -316,6 +316,11 @@ export default {
 			slug: 'tilpasse-pakker-til-av-udlejning',
 			keyword: 'tilpasse pakker til AV-udlejning i Malaga',
 			status: 'propuesta'
+		},
+		'benefits-of-audio-visual-rental': {
+			slug: 'fordele-ved-av-udlejning',
+			keyword: 'fordele ved AV-udlejning i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

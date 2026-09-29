@@ -348,6 +348,11 @@ export default {
 			slug: 'personalizar-pacotes-aluguer-audiovisuais',
 			keyword: 'personalizar pacotes de aluguer de audiovisuais em Málaga',
 			status: 'propuesta'
+		},
+		'benefits-of-audio-visual-rental': {
+			slug: 'vantagens-do-aluguer-de-audiovisuais',
+			keyword: 'vantagens do aluguer de audiovisuais em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

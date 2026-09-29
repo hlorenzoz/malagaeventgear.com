@@ -296,6 +296,11 @@ export default {
 			slug: '如何定制活动视听租赁套餐',
 			keyword: '马拉加 如何定制活动视听租赁套餐',
 			status: 'propuesta'
+		},
+		'benefits-of-audio-visual-rental': {
+			slug: '活动视听租赁的好处',
+			keyword: '马拉加 活动视听租赁的好处',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

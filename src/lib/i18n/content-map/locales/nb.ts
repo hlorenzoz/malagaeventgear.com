@@ -320,6 +320,11 @@ export default {
 			slug: 'tilpasse-pakker-for-av-utleie',
 			keyword: 'tilpasse pakker for AV-utleie i Malaga',
 			status: 'propuesta'
+		},
+		'benefits-of-audio-visual-rental': {
+			slug: 'fordeler-med-av-utleie',
+			keyword: 'fordeler med AV-utleie i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
