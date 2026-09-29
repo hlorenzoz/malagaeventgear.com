@@ -327,6 +327,11 @@ export default {
 			slug: 'aziende-noleggio-audiovisivo',
 			keyword: 'aziende di noleggio audiovisivo a Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-company': {
+			slug: 'societa-noleggio-audiovisivo-malaga',
+			keyword: 'società di noleggio audiovisivo a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

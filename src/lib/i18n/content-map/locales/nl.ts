@@ -331,6 +331,11 @@ export default {
 			slug: 'audiovisuele-verhuurbedrijven',
 			keyword: 'audiovisuele verhuurbedrijven in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-company': {
+			slug: 'audiovisueel-verhuurbedrijf-malaga',
+			keyword: 'audiovisueel verhuurbedrijf in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -363,6 +363,11 @@ export default {
 			slug: 'empresas-de-aluguer-de-audiovisuais',
 			keyword: 'empresas de aluguer de audiovisuais em Málaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-company': {
+			slug: 'empresa-de-aluguer-de-audiovisuais-em-malaga',
+			keyword: 'empresa de aluguer de audiovisuais em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

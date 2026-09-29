@@ -1,0 +1,122 @@
+---
+title: "Malaga Event Gear: AV-udlejningsvirksomhed i Malaga"
+description: "AV-udlejningsvirksomhed i Malaga, Spanien, siden 1996: Malaga Event Gear har et gennemsnit på 5,0 ud fra 8 anmeldelser og rigtige priser i euro."
+excerpt: "AV-udlejningsvirksomhed i Malaga, Spanien, siden 1996: Malaga Event Gear har et gennemsnit på 5,0 ud fra 8 anmeldelser og rigtige priser i euro."
+publishDate: "2026-09-29"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Leder du efter en AV-udlejningsvirksomhed i Malaga, Spanien? Det her kan vi dokumentere: et gennemsnit på 5,0 ud fra 8 Google-anmeldelser, i drift siden 1996, rigtige priser i euro på hver pakke og et hold, der selv leverer, installerer og tester udstyret.
+
+Malaga Event Gear arbejder i Malaga og langs hele Costa del Sol.
+
+Kontakt os allerede i dag for at tale om dit event.
+
+## Kort overblik
+
+---
+
+Malaga Event Gear er en AV-udlejningsvirksomhed i Malaga, der har været i drift siden 1996, med et gennemsnit på 5,0 ud fra 8 Google-anmeldelser og rigtige priser i euro på hver pakke. Vi leverer, installerer og tester selv udstyret, så du aldrig selv skal håndtere det.
+
+Kontakt os allerede i dag for at tale om dit event.
+
+## Det vigtigste
+
+---
+
+Det er det, der gør os til en AV-udlejningsvirksomhed, der er værd at booke.
+
+-   Et gennemsnit på 5,0 ud fra 8 Google-anmeldelser, ikke en generel påstand om utallige tilfredse kunder.
+
+-   I drift i Malaga siden 1996: tre årtier med liveevents langs Costa del Sol, ikke en vag linje om "mange års erfaring".
+
+-   Fem pakker fra 290 til 650 euro ekskl. moms, med levering, opsætning og nedtagning inkluderet.
+
+-   En tekniker inkluderet i Wedding Pack og MICE Pack, og som tilvalg i Basic MICE Pack.
+
+## Hvorfor booke hos os
+
+Vi leverer, installerer og tester selv hver pakke, så der ikke kommer noget frem til dit sted, som du selv skal regne ud. Med [Wedding Pack](/packages/wedding/) og [MICE Pack](/packages/mice/) bliver en tekniker på stedet i de timer, der betyder noget. Priserne står i rigtige euro på vores [pakkeside](/packages/), ekskl. moms, ikke som et vagt tilbud på forespørgsel.
+
+<blockquote>
+<p lang="en">"This team delivered a flawless experience! Their MICE pack made everything easy for our event, and the team was both professional and reliable. The sound and lighting were top-notch, and you can tell they truly care about their work. Highly recommended!"</p>
+<ul><li>Carlos Batlles, Google-anmeldelse med 5 stjerner, marts 2025</li></ul>
+</blockquote>
+
+Vi arbejder i Malaga, langs Costa del Sol og i byerne i provinsens indland, desuden i Sevilla, og i Granada ved bookinger over 400 euro.
+
+<InlineCTA />
+
+## Hvad vi har på lager, og hvad vi henter udefra
+
+Lyd, lys, mikrofoner, projektorer og skærme udgør vores fem pakker. Det er ikke en del af vores eget lager: kameraer, filmoptagelse og livestreaming, videokonferenceudstyr eller en modulær LED-væg. LED-skærmen i vores pakker er en enkelt enhed på 60 tommer, i MICE Pack.
+
+Har du alligevel brug for noget fra den anden liste? Spørg. Vi kan lægge det frem for andre udlejere, vi kender, og hvis en af dem kan påtage sig det, står det i tilbuddet som skaffet hos en leverandør, ikke som noget fra vores eget lager.
+
+## Rigtige opsætninger, vi har leveret
+
+![Opsætning til et MICE-event i Malaga-provinsen med podium, professionel belysning, lydudstyr, en storskærm med en præsentation og en projektor i et moderne konferencelokale.](https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1-300x224.webp "Løsninger med podium, belysning, lyd, storskærm og projektor til professionelle MICE-events.")
+
+Løsninger med podium, belysning, lyd og skærm til et professionelt event i Malaga-provinsen.
+
+![AV-udlejning til en kongres i Malaga med storskærm, projektor, LED-belysning, talerstol og lydanlæg.](https://cdn.malagaeventgear.com/blog/1288/malaga_congress_av_rental_setup-300x224.webp "En professionel AV-opsætning klar til en kongres i Malaga, med en storskærm, en projektor, LED-belysning, en talerstol og et lydanlæg.")
+
+En professionel audiovisuel opsætning klar til en kongres i Malaga, med en storskærm, en projektor, LED-belysning, en talerstol og et lydanlæg.
+
+![Lyd og tv-monitor til en konference i Marbella.](https://cdn.malagaeventgear.com/blog/1277/high_care_hospital_marbella_conference_setup_1-300x224.webp "Et roligt udendørs sted i Marbella forvandlet til konferencested for High Care International Hospital, med lydanlæg og tv-monitor til præsentationerne.")
+
+Et udendørs sted i Marbella forvandlet til konferencested, med lydanlæg og tv-monitor til præsentationerne.
+
+![HK Audio-lydsystem som Malaga Event Gear leverede hos en Volvo-forhandler i Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp "HK Audio-lydsystemet, som Malaga Event Gear leverede til en præsentation hos en Volvo-forhandler i Malaga.")
+
+Lydsystemet, vi leverede til et event hos en bilforhandler i Malaga.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1267/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Booking og dækningsområde
+
+Vi holder til i Malaga og dækker Costa del Sol og Sevilla uden minimumsordre, og vi tager imod bookinger helt til Granada, når ordren overstiger 400 euro. Giv os mindst 24 timers varsel, så vi kan garantere dit tidspunkt.
+
+## Konklusion
+
+Uanset hvilket event du planlægger, leverer Malaga Event Gear rigtigt udstyr, rigtige priser og et hold, der tager sig af opsætning og nedtagning. Se hele vores udvalg på [siden om AV-udlejning](/blog/audio-visual-rental/). [Kontakt os](/contact/) for at tale om dit event.
+
+Vil du først sammenligne os med andre muligheder? Se vores guide til [AV-udlejningsfirmaer i Malaga](/blog/audio-visual-rental-companies/) for, hvad du bør tjekke, før du booker nogen af dem.
+
+## Ofte stillede spørgsmål
+
+### Er Malaga Event Gear en rigtig, etableret AV-udlejningsvirksomhed?
+
+Ja, i drift i Malaga siden 1996, med et gennemsnit på 5,0 ud fra 8 Google-anmeldelser.
+
+### Stiller Malaga Event Gear med en tekniker, eller koster det ekstra?
+
+Om der følger en tekniker med, afhænger af den pakke, du vælger: Wedding Pack og MICE Pack har begge en indbygget, i Basic MICE Pack kan du tilføje en mod et tillæg, og hverken Eco Pack eller Product Presentation Pack har en tekniker.
+
+### Hvad tager Malaga Event Gear for at leje AV-udstyr ud?
+
+Priserne starter ved 290 euro og går op til 650 euro ekskl. moms, før spansk moms på 21 % lægges oven i ved betalingen. Levering, opsætning og nedtagning er allerede med i hvert af de beløb. Alle priser pr. pakke står på vores [pakkeside](/packages/).
+
+### Hvilke events dækker Malaga Event Gear?
+
+Antallet af gæster følger pakken: op til 40 med Basic MICE Pack, 50 med Eco Pack, 80 med Wedding Pack og 120 med MICE Pack. Product Presentation Pack har ikke noget fast loft for antallet af gæster, da den vælges efter type af event.
+
+### Leverer og sætter Malaga Event Gear udstyret op, eller skal jeg selv hente det?
+
+Vi leverer, installerer og tester selv hver pakke og henter den igen efter dit event. Det er ikke en model, hvor du selv henter udstyret.
+
+### Hvilke områder betjener Malaga Event Gear?
+
+Malaga, Costa del Sol og byerne i provinsens indland, desuden Sevilla, og Granada ved bookinger over 400 euro.
+
+### Hvor lang tid i forvejen bør jeg booke Malaga Event Gear?
+
+Mindst 24 timers varsel garanterer dit tidspunkt. Vi holder til i Malaga og leverer langs hele Costa del Sol og til Sevilla, og til Granada, når bookingen overstiger 400 euro.

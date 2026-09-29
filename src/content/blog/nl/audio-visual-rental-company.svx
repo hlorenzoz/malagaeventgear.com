@@ -1,0 +1,122 @@
+---
+title: "Malaga Event Gear: audiovisueel verhuurbedrijf in Malaga"
+description: "Audiovisueel verhuurbedrijf in Malaga, Spanje, sinds 1996: Malaga Event Gear heeft gemiddeld een 5,0 uit 8 reviews en echte prijzen in euro."
+excerpt: "Audiovisueel verhuurbedrijf in Malaga, Spanje, sinds 1996: Malaga Event Gear heeft gemiddeld een 5,0 uit 8 reviews en echte prijzen in euro."
+publishDate: "2026-09-29"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Zoek je een audiovisueel verhuurbedrijf in Malaga, Spanje? Dit kunnen we onderbouwen: gemiddeld een 5,0 uit 8 Google-reviews, actief sinds 1996, echte prijzen in euro voor elk pakket en een team dat de apparatuur zelf levert, installeert en test.
+
+Malaga Event Gear werkt in Malaga en aan de hele Costa del Sol.
+
+Neem vandaag nog contact met ons op om je evenement te bespreken.
+
+## In het kort
+
+---
+
+Malaga Event Gear is een audiovisueel verhuurbedrijf in Malaga dat sinds 1996 actief is, met gemiddeld een 5,0 uit 8 Google-reviews en echte prijzen in euro voor elk pakket. We leveren, installeren en testen de apparatuur zelf, dus je hoeft er zelf nooit mee aan de slag.
+
+Neem vandaag nog contact met ons op om je evenement te bespreken.
+
+## Belangrijkste punten
+
+---
+
+Dit maakt ons een audiovisueel verhuurbedrijf dat de moeite van het boeken waard is.
+
+-   Gemiddeld een 5,0 uit 8 Google-reviews, geen algemene claim over talloze tevreden klanten.
+
+-   Actief in Malaga sinds 1996: drie decennia aan live-evenementen aan de Costa del Sol, geen vage zin over "jarenlange ervaring".
+
+-   Vijf pakketten van 290 tot 650 euro excl. btw, met levering, opbouw en afbouw inbegrepen.
+
+-   Een technicus inbegrepen bij het Wedding Pack en het MICE Pack, en als optie beschikbaar bij het Basic MICE Pack.
+
+## Waarom je bij ons boekt
+
+We leveren, installeren en testen elk pakket zelf, dus er komt niets op je locatie aan waar je zelf uit moet zien te komen. Bij het [Wedding Pack](/packages/wedding/) en het [MICE Pack](/packages/mice/) blijft een technicus ter plaatse tijdens de uren die ertoe doen. De prijzen staan in echte euro's op onze [pakkettenpagina](/packages/), excl. btw, en niet als een vage offerte op aanvraag.
+
+<blockquote>
+<p lang="en">"This team delivered a flawless experience! Their MICE pack made everything easy for our event, and the team was both professional and reliable. The sound and lighting were top-notch, and you can tell they truly care about their work. Highly recommended!"</p>
+<ul><li>Carlos Batlles, Google-review met 5 sterren, maart 2025</li></ul>
+</blockquote>
+
+We werken in Malaga, aan de Costa del Sol en in de plaatsen in het binnenland van de provincie, plus Sevilla, en Granada voor boekingen boven de 400 euro.
+
+<InlineCTA />
+
+## Wat we op voorraad hebben, en wat we elders vinden
+
+Geluid, licht, microfoons, beamers en schermen vormen onze vijf pakketten. Wat niet in onze eigen voorraad zit: camera's, filmen en livestreaming, videoconferentieapparatuur of een modulaire LED-wall. Het LED-scherm in onze pakketten is één toestel van 60 inch, in het MICE Pack.
+
+Heb je toch iets uit dat tweede lijstje nodig? Vraag het ons. We kunnen het voorleggen aan andere verhuurbedrijven die we kennen, en als een van hen het kan leveren, staat het in de offerte als ingekocht bij een leverancier, niet als onze eigen voorraad.
+
+## Echte opstellingen die we hebben geleverd
+
+![Opstelling voor een MICE-evenement in de provincie Malaga met een spreekgestoelte, professionele verlichting, geluidsapparatuur, een groot scherm met een lopende presentatie en een beamer in een moderne congreslocatie.](https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1-300x224.webp "Oplossingen met spreekgestoelte, verlichting, geluid, groot scherm en beamer voor professionele MICE-evenementen.")
+
+Oplossingen met spreekgestoelte, verlichting, geluid en scherm voor een professioneel evenement in de provincie Malaga.
+
+![Audiovisuele verhuuropstelling voor een congres in Malaga, met een groot scherm, een beamer, LED-verlichting, een spreekgestoelte en een geluidsinstallatie.](https://cdn.malagaeventgear.com/blog/1288/malaga_congress_av_rental_setup-300x224.webp "Een professionele audiovisuele opstelling voor een congres in Malaga, met een groot scherm, een beamer, LED-verlichting, een spreekgestoelte en een geluidsinstallatie.")
+
+Een professionele audiovisuele opstelling voor een congres in Malaga, met een groot scherm, een beamer, LED-verlichting, een spreekgestoelte en een geluidsinstallatie.
+
+![Geluid en een monitor-tv voor een conferentie in Marbella.](https://cdn.malagaeventgear.com/blog/1277/high_care_hospital_marbella_conference_setup_1-300x224.webp "Een rustige buitenlocatie in Marbella, omgetoverd tot conferentieruimte voor High Care International Hospital, met een geluidsinstallatie en een monitor-tv voor de presentaties.")
+
+Een buitenlocatie in Marbella, omgetoverd tot conferentieruimte, met een geluidsinstallatie en een monitor-tv voor de presentaties.
+
+![HK Audio-geluidssysteem dat Malaga Event Gear leverde bij een Volvo-dealer in Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp "Het HK Audio-geluidssysteem dat Malaga Event Gear leverde voor een presentatie bij een Volvo-dealer in Malaga.")
+
+Het geluidssysteem dat we leverden voor een evenement bij een autodealer in Malaga.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1267/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Boeking en servicegebied
+
+We zijn gevestigd in Malaga en bedienen de Costa del Sol en Sevilla zonder minimale bestelling. Boekingen tot in Granada nemen we aan zodra de bestelling boven de 400 euro uitkomt. Geef ons minstens 24 uur van tevoren een seintje, zodat we je tijdslot kunnen garanderen.
+
+## Conclusie
+
+Welk evenement je ook plant, Malaga Event Gear levert echte apparatuur, echte prijzen en een team dat de opbouw en afbouw verzorgt. Voor ons volledige aanbod, zie de [pagina over audiovisuele verhuur](/blog/audio-visual-rental/). [Neem contact met ons op](/contact/) om je evenement te bespreken.
+
+Wil je ons eerst naast andere opties leggen? Bekijk onze gids over [audiovisuele verhuurbedrijven in Malaga](/blog/audio-visual-rental-companies/) om te zien waar je op let voordat je er een boekt.
+
+## Veelgestelde vragen
+
+### Is Malaga Event Gear een echt, gevestigd audiovisueel verhuurbedrijf?
+
+Ja, actief in Malaga sinds 1996, met gemiddeld een 5,0 uit 8 Google-reviews.
+
+### Levert Malaga Event Gear een technicus, of kost dat extra?
+
+Of er een technicus bij zit, hangt af van het pakket dat je kiest: het Wedding Pack en het MICE Pack hebben er allebei standaard een, bij het Basic MICE Pack kun je er een bijboeken tegen meerprijs, en noch het Eco Pack noch het Product Presentation Pack heeft een technicus.
+
+### Wat vraagt Malaga Event Gear voor het huren van AV-apparatuur?
+
+De prijzen beginnen bij 290 euro en lopen op tot 650 euro excl. btw, voordat de Spaanse btw van 21% bij het afrekenen wordt toegevoegd. Levering, opbouw en afbouw zitten al in elk van die bedragen. Alle prijzen per pakket vind je op onze [pakkettenpagina](/packages/).
+
+### Voor welke evenementen kun je bij Malaga Event Gear terecht?
+
+Het aantal gasten groeit mee met het pakket: tot 40 bij het Basic MICE Pack, 50 bij het Eco Pack, 80 bij het Wedding Pack en 120 bij het MICE Pack. Het Product Presentation Pack heeft geen vast maximumaantal gasten, omdat je het kiest op basis van het soort evenement.
+
+### Levert en installeert Malaga Event Gear de apparatuur, of haal ik die zelf op?
+
+We leveren, installeren en testen elk pakket zelf, en halen het na je evenement weer op. Zelf ophalen is bij ons niet de werkwijze.
+
+### In welke gebieden werkt Malaga Event Gear?
+
+Malaga, de Costa del Sol en de plaatsen in het binnenland van de provincie, plus Sevilla, en Granada voor boekingen boven de 400 euro.
+
+### Hoe ver van tevoren moet ik Malaga Event Gear boeken?
+
+Minstens 24 uur van tevoren boeken garandeert je tijdslot. We zijn gevestigd in Malaga, met levering aan de hele Costa del Sol en in Sevilla, en in Granada zodra de boeking boven de 400 euro uitkomt.

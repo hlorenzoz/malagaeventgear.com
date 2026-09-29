@@ -327,6 +327,11 @@ export default {
 			slug: 'av-uthyrningsfirmor',
 			keyword: 'AV-uthyrningsfirmor i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-company': {
+			slug: 'av-uthyrningsfirma-malaga',
+			keyword: 'AV-uthyrningsfirma i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

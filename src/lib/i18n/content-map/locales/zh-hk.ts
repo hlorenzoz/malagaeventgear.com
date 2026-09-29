@@ -311,6 +311,11 @@ export default {
 			slug: '活動視聽租借公司怎樣選',
 			keyword: '馬拉加 活動視聽租借公司怎樣選',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-company': {
+			slug: '老牌活動視聽租借公司',
+			keyword: '馬拉加 老牌活動視聽租借公司',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

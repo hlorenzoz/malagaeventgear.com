@@ -311,6 +311,11 @@ export default {
 			slug: '影音租賃公司怎麼選',
 			keyword: '馬拉加 影音租賃公司怎麼選',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-company': {
+			slug: '老牌影音租賃公司',
+			keyword: '馬拉加 老牌影音租賃公司',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -331,6 +331,11 @@ export default {
 			slug: 'av-udlejningsfirmaer',
 			keyword: 'AV-udlejningsfirmaer i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-company': {
+			slug: 'av-udlejningsvirksomhed-malaga',
+			keyword: 'AV-udlejningsvirksomhed i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

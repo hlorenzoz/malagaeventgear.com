@@ -335,6 +335,11 @@ export default {
 			slug: 'av-utleiefirmaer',
 			keyword: 'AV-utleiefirmaer i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-company': {
+			slug: 'av-utleiefirma-i-malaga',
+			keyword: 'AV-utleiefirma i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
