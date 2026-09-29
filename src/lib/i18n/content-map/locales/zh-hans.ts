@@ -286,6 +286,11 @@ export default {
 			slug: '附近的活动视听租赁',
 			keyword: '马拉加 附近的活动视听租赁',
 			status: 'propuesta'
+		},
+		'audio-video-rental-near-me-in-malaga-spain': {
+			slug: '附近的音视频租赁',
+			keyword: '马拉加 附近的音视频租赁',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

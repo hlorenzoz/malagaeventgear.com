@@ -1,0 +1,117 @@
+---
+title: "Audio- en videoverhuur bij mij in de buurt in Malaga, Spanje"
+description: "Audio- en videoverhuur bij mij in de buurt in Malaga, Spanje: beamer, scherm en geluid afgestemd op je zaal, geleverd aan de Costa del Sol. Vraag een offerte."
+excerpt: "Audio- en videoverhuur bij mij in de buurt in Malaga, Spanje: beamer, scherm en geluid afgestemd op je zaal, geleverd aan de Costa del Sol. Vraag een offerte."
+publishDate: "2026-09-29"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Op zoek naar audio- en videoverhuur bij mij in de buurt in Malaga, Spanje? Deze pagina gaat over de videokant van ons aanbod: een beamer of LED-scherm, een projectiescherm en geluid afgestemd op je zaal, voor een presentatie, een congres of een productlancering. Zoek je in plaats daarvan geluid en licht voor een bruiloft of feest? Bekijk dan onze gids [audiovisuele verhuur bij mij in de buurt](/blog/audio-visual-hire-near-me-in-malaga-spain/).
+
+Malaga Event Gear levert, installeert en test die opstelling in Malaga en aan de hele Costa del Sol.
+
+[Bekijk onze pakketten](/packages/) of neem vandaag nog contact op om je evenement te bespreken.
+
+## In het kort
+
+---
+
+Malaga Event Gear biedt audio- en videoverhuur bij jou in de buurt, in Malaga en aan de hele Costa del Sol: een beamer of LED-scherm, een projectiescherm en geluid voor een presentatie, een congres of een productlancering. Met ervaring die teruggaat tot 1996 leveren, installeren en testen we de apparatuur, zodat je opstelling in één keer werkt.
+
+Neem vandaag nog contact op om je evenement te bespreken.
+
+## Belangrijkste punten
+
+---
+
+Malaga Event Gear biedt audio- en videoverhuur bij jou in de buurt, in Malaga en aan de hele Costa del Sol.
+
+-   Ons [Product Presentation Pack](/packages/product-presentation/) omvat een beamer van 5000 lumen, een scherm, PA-geluid en een draadloze microfoon.
+
+-   Ons [Basic MICE Pack](/packages/basic-mice/) omvat een beamer van 3000 lumen en een scherm van 2x2 m voor een kleinere vergadering, tot 40 gasten.
+
+-   Ons [MICE Pack](/packages/mice/) omvat een LED-scherm van 60 inch voor een groter congres, tot 120 gasten, met een technicus inbegrepen.
+
+-   Beschikbaar in Malaga, aan de Costa del Sol en in Sevilla, en in Granada bij verhuur boven de 400 euro, met een boeking minstens 24 uur van tevoren.
+
+<InlineCTA />
+
+## Welk scherm of welke beamer past bij je zaal
+
+Een scherm van 2x2 m met een beamer van 3000 lumen, in het [Basic MICE Pack](/packages/basic-mice/), past bij een kleinere vergaderzaal tot 40 gasten. Een LED-scherm van 60 inch, in het [MICE Pack](/packages/mice/), past bij een grotere congreszaal tot 120 gasten, zonder projectieafstand waar je rekening mee moet houden. Voor een lichtere of grotere zaal blijft de beamer van 5000 lumen van het [Product Presentation Pack](/packages/product-presentation/) goed leesbaar, zelfs in een verlichte ruimte. Daarom is hij ook onze keuze voor een productlancering of een presentatie bij een dealer.
+
+## Je eigen laptop aansluiten
+
+Ons [Product Presentation Pack](/packages/product-presentation/) bevat HDMI- en USB-C-adapters en audio-interfaces om je eigen laptop, tablet of mediaspeler aan te sluiten op ons scherm en ons geluidssysteem.
+
+## De hele Costa del Sol, niet alleen de stad Malaga
+
+De leverroute van Malaga Event Gear stopt niet bij het stadscentrum: ons team rijdt bij een standaardboeking naar Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas, Nerja, Antequera, Ronda, Coín en Vélez-Malaga. Ook Sevilla valt binnen ons werkgebied, en Granada is mogelijk voor boekingen boven de 400 euro. In welke plaats aan de Costa del Sol je beamer, projectiescherm of LED-scherm ook moet komen, we leveren, installeren en testen het ter plaatse.
+
+## Echte opstellingen die we hebben geleverd
+
+![Geluid, beamer en groot scherm voor internationale evenementen in de provincie Malaga.](https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-300x224.webp "Een grote beamer en een scherm opgesteld in een congreszaal in de provincie Malaga, klaar voor een internationaal evenement.")
+
+Een grote beamer en een scherm zijn opgesteld in een congreszaal in de provincie Malaga, klaar voor een internationaal evenement.
+
+![Audiovisuele verhuuropstelling voor een congres in Malaga, met een groot scherm, een beamer, LED-verlichting, een spreekgestoelte en een geluidsinstallatie.](https://cdn.malagaeventgear.com/blog/1288/malaga_congress_av_rental_setup-300x224.webp "Een professionele audiovisuele opstelling voor een congres in Malaga, met een groot scherm, een beamer, LED-verlichting, een spreekgestoelte en een geluidsinstallatie.")
+
+Een professionele audiovisuele opstelling voor een congres in Malaga, met een groot scherm, een beamer, LED-verlichting, een spreekgestoelte en een geluidsinstallatie.
+
+![Huur van een geluidsinstallatie in de balzaal van Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp "De balzaal van Hotel Alfonso XIII in Sevilla, die Malaga Event Gear van geluid voorzag.")
+
+Een PA-geluidssysteem opgesteld in Hotel Alfonso XIII in Sevilla, dat bij ons bredere werkgebied hoort.
+
+![HK Audio-geluidssysteem dat Malaga Event Gear leverde bij een Volvo-dealer in Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp "Het HK Audio-geluidssysteem dat Malaga Event Gear leverde voor een presentatie bij een Volvo-dealer in Malaga.")
+
+Het geluidssysteem dat we leverden voor een presentatie bij een Volvo-dealer in Malaga.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1282/', '/1276/', '/1267/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Boeking en werkgebied
+
+Onze diensten dekken Malaga, de Costa del Sol en Sevilla zonder minimale bestelling, en reiken tot Granada bij verhuur boven de 400 euro. Boek minstens 24 uur van tevoren om de beschikbaarheid te garanderen.
+
+## Conclusie
+
+Of het nu gaat om een presentatie, een congres of een productlancering, Malaga Event Gear levert de beamer, het scherm en het geluid die je opstelling nodig heeft. Voor ons volledige aanbod, zie de [pagina over audiovisuele verhuur](/blog/audio-visual-rental/). [Neem contact op](/contact/) om je evenement te bespreken.
+
+Plan je in plaats daarvan een volledig congres? Zie onze gids over [audiovisuele verhuur voor conferenties](/blog/audio-visual-rental-for-conferences/). Zoek je in plaats daarvan geluid en licht voor een bruiloft of feest? Bekijk dan onze gids [audiovisuele verhuur bij mij in de buurt](/blog/audio-visual-hire-near-me-in-malaga-spain/).
+
+## Veelgestelde vragen
+
+### Wat is het verschil tussen audiovisuele verhuur bij mij in de buurt en audio- en videoverhuur bij mij in de buurt?
+
+Ze dekken verschillende delen van ons aanbod. [Audiovisuele verhuur bij mij in de buurt](/blog/audio-visual-hire-near-me-in-malaga-spain/) behandelt onze algemene geluids- en lichtpakketten voor bruiloften en feesten. Deze pagina behandelt de scherm- en beamerkant van ons aanbod, voor presentaties, congressen en productlanceringen.
+
+### Welk formaat scherm of welke beamer heb ik nodig?
+
+Voor een kleinere vergaderzaal tot 40 gasten werken het scherm van 2x2 m en de beamer van 3000 lumen van het [Basic MICE Pack](/packages/basic-mice/) goed. Voor een grotere congreszaal tot 120 gasten voorkomt het LED-scherm van 60 inch van het [MICE Pack](/packages/mice/) een lange projectieafstand. Zie [Welk scherm of welke beamer past bij je zaal](#welk-scherm-of-welke-beamer-past-bij-je-zaal) hierboven.
+
+### Kan ik mijn eigen laptop aansluiten op de beamer of het scherm?
+
+Ja. Het [Product Presentation Pack](/packages/product-presentation/) bevat HDMI- en USB-C-adapters en audio-interfaces om je laptop, tablet of mediaspeler aan te sluiten.
+
+### Is er een technicus inbegrepen?
+
+Niet bij het Product Presentation Pack of het Basic MICE Pack: de apparatuur wordt door ons team geleverd, geïnstalleerd en getest, en daarna bedien je hem zelf. Het [MICE Pack](/packages/mice/) bevat een technicus ter plaatse voor maximaal zes uur.
+
+### Wat kost audio- en videoverhuur bij mij in de buurt?
+
+De prijs hangt af van het pakket: onze volledige catalogus, van het Basic MICE Pack tot het MICE Pack voor een groter congres, staat met exacte prijzen in euro op onze [pakkettenpagina](/packages/). Alle tarieven zijn excl. btw, met de Spaanse btw van 21% erbovenop bij het afrekenen, en elke prijs is inclusief levering, opbouw en afbouw.
+
+### Leveren jullie audio- en videoapparatuur ook buiten de stad Malaga?
+
+Ja. Ons leveringsgebied beslaat de hele Costa del Sol, niet alleen de stad Malaga: Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas, Nerja en Antequera liggen allemaal binnen bereik. Ook Sevilla valt binnen ons werkgebied, en Granada is mogelijk voor boekingen boven de 400 euro. Zie [De hele Costa del Sol, niet alleen de stad Malaga](#de-hele-costa-del-sol-niet-alleen-de-stad-malaga) hierboven.
+
+### Hoe ver van tevoren moet ik audio- en videoverhuur boeken?
+
+Boek minstens 24 uur van tevoren om de beschikbaarheid te garanderen. Onze diensten zijn beschikbaar in Malaga, aan de Costa del Sol en in Sevilla zonder minimale bestelling, en reiken tot Granada bij verhuur boven de 400 euro.

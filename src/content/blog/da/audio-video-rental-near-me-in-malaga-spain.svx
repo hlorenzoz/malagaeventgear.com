@@ -1,0 +1,117 @@
+---
+title: "Lyd- og videoudlejning i nærheden af mig i Malaga, Spanien"
+description: "Lyd- og videoudlejning i nærheden af mig i Malaga, Spanien: projektor, lærred og lyd tilpasset dit lokale, leveret langs hele Costa del Sol. Få et tilbud i dag."
+excerpt: "Lyd- og videoudlejning i nærheden af mig i Malaga, Spanien: projektor, lærred og lyd tilpasset dit lokale, leveret langs hele Costa del Sol. Få et tilbud i dag."
+publishDate: "2026-09-29"
+sourceUpdated: "2026-09-27"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Leder du efter lyd- og videoudlejning i nærheden af mig i Malaga, Spanien? Denne side handler om videodelen af vores katalog: en projektor eller en LED-skærm, et lærred og lyd tilpasset dit lokale, til en præsentation, en konference eller en produktlancering. Leder du i stedet efter lyd og lys til et bryllup eller en fest? Læs vores guide [AV-udlejning i nærheden af mig](/blog/audio-visual-hire-near-me-in-malaga-spain/).
+
+Malaga Event Gear leverer, installerer og tester den opsætning i Malaga og langs hele Costa del Sol.
+
+[Se vores pakker](/packages/), eller kontakt os i dag for at tale om dit event.
+
+## Kort overblik
+
+---
+
+Malaga Event Gear tilbyder lyd- og videoudlejning i nærheden af dig i Malaga og langs hele Costa del Sol: en projektor eller en LED-skærm, et lærred og lyd til en præsentation, en konference eller en produktlancering. Med erfaring, der går tilbage til 1996, leverer, opsætter og tester vi udstyret, så din opsætning virker første gang.
+
+Kontakt os i dag for at tale om dit event.
+
+## Det vigtigste
+
+---
+
+Malaga Event Gear tilbyder lyd- og videoudlejning i nærheden af dig i Malaga og langs hele Costa del Sol.
+
+-   Vores [Product Presentation Pack](/packages/product-presentation/) omfatter en projektor på 5000 lumen, et lærred, PA-lyd og en trådløs mikrofon.
+
+-   Vores [Basic MICE Pack](/packages/basic-mice/) omfatter en projektor på 3000 lumen og et lærred på 2x2 m til et mindre møde, op til 40 gæster.
+
+-   Vores [MICE Pack](/packages/mice/) omfatter en LED-skærm på 60 tommer til en større konference, op til 120 gæster, med en tekniker inkluderet.
+
+-   Fås i Malaga, på Costa del Sol og i Sevilla, og i Granada ved lejemål over 400 €, med booking mindst 24 timer i forvejen.
+
+<InlineCTA />
+
+## Hvilken skærm eller projektor passer til dit lokale
+
+Et lærred på 2x2 m med en projektor på 3000 lumen, i [Basic MICE Pack](/packages/basic-mice/), passer til et mindre mødelokale med op til 40 gæster. En LED-skærm på 60 tommer, i [MICE Pack](/packages/mice/), passer til en større konferencesal uden en kasteafstand for projektoren at planlægge efter, med op til 120 gæster. Til et lysere eller større lokale forbliver projektoren på 5000 lumen i [Product Presentation Pack](/packages/product-presentation/) læsbar selv i et oplyst rum, og derfor er den også vores valg til en produktlancering eller en fremvisning hos en bilforhandler.
+
+## Tilslut din egen bærbare computer
+
+Vores [Product Presentation Pack](/packages/product-presentation/) omfatter HDMI- og USB-C-adaptere plus lydinterfaces til at tilslutte din egen bærbare computer, tablet eller medieafspiller til vores skærm og vores lydanlæg.
+
+## Hele Costa del Sol, ikke kun Malaga by
+
+Malaga Event Gears leveringsrute er ikke begrænset til bymidten: vores team når Marbella, Fuengirola, Torremolinos, Benalmádena, Estepona, Mijas, Nerja, Antequera, Ronda, Coín og Vélez-Málaga ved en almindelig booking, dækker også Sevilla og når Granada ved bookinger over 400 €. Uanset hvilken by på Costa del Sol din projektor, dit lærred eller din LED-skærm skal ud til, leverer, installerer og tester vi det på stedet.
+
+## Rigtige opsætninger, vi har leveret
+
+![Lyd, projektor og storskærm til internationale events i Malaga-provinsen.](https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-300x224.webp "En stor projektor og et lærred stillet op i en konferencesal i Malaga-provinsen, klar til et internationalt event.")
+
+En stor projektor og et lærred er stillet op i en konferencesal i Malaga-provinsen, klar til et internationalt event.
+
+![AV-udlejning til en kongres i Malaga med storskærm, projektor, LED-belysning, talerstol og lydanlæg.](https://cdn.malagaeventgear.com/blog/1288/malaga_congress_av_rental_setup-300x224.webp "En professionel AV-opsætning klar til en kongres i Malaga, med en storskærm, en projektor, LED-belysning, en talerstol og et lydanlæg.")
+
+En professionel AV-opsætning klar til en kongres i Malaga, med en storskærm, en projektor, LED-belysning, en talerstol og et lydanlæg.
+
+![Udlejning af lydanlæg i balsalen på Hotel Alfonso XIII i Sevilla.](https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-300x224.webp "Balsalen på Hotel Alfonso XIII i Sevilla, som Malaga Event Gear udstyrede med lyd.")
+
+Et PA-lydanlæg stillet op på Hotel Alfonso XIII i Sevilla, en del af det bredere område, vi dækker.
+
+![HK Audio-lydsystem som Malaga Event Gear leverede hos en Volvo-forhandler i Malaga.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-300x224.webp "HK Audio-lydsystemet, som Malaga Event Gear leverede til en præsentation hos en Volvo-forhandler i Malaga.")
+
+Lydanlægget, vi leverede til en præsentation hos en Volvo-forhandler i Malaga.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1282/', '/1276/', '/1267/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Booking og dækningsområde
+
+Vi dækker Malaga, Costa del Sol og Sevilla uden minimumsordre, og Granada ved lejemål over 400 €. Book mindst 24 timer i forvejen for at sikre ledighed.
+
+## Konklusion
+
+Uanset om det er en præsentation, en konference eller en produktlancering, leverer Malaga Event Gear den projektor, det lærred og den lyd, din opsætning har brug for. Hele vores sortiment finder du på siden om [AV-udlejning](/blog/audio-visual-rental/). [Kontakt os](/contact/) for at tale om dit event.
+
+Planlægger du i stedet en hel konference? Læs vores guide om [konferenceteknik](/blog/audio-visual-rental-for-conferences/). Leder du i stedet efter lyd og lys til et bryllup eller en fest? Læs vores guide [AV-udlejning i nærheden af mig](/blog/audio-visual-hire-near-me-in-malaga-spain/).
+
+## Ofte stillede spørgsmål
+
+### Hvad er forskellen på AV-udlejning i nærheden af mig og lyd- og videoudlejning i nærheden af mig?
+
+De dækker forskellige dele af vores katalog. [AV-udlejning i nærheden af mig](/blog/audio-visual-hire-near-me-in-malaga-spain/) dækker vores generelle lyd- og lyspakker til bryllupper og fester. Denne side dækker skærm- og projektordelen af vores katalog, til præsentationer, konferencer og produktlanceringer.
+
+### Hvilken størrelse skærm eller projektor har jeg brug for?
+
+Til et mindre mødelokale med op til 40 gæster fungerer lærredet på 2x2 m og projektoren på 3000 lumen i [Basic MICE Pack](/packages/basic-mice/) godt. Til en større konferencesal med op til 120 gæster undgår LED-skærmen på 60 tommer i [MICE Pack](/packages/mice/) en lang kasteafstand. Se [Hvilken skærm eller projektor passer til dit lokale](#hvilken-skærm-eller-projektor-passer-til-dit-lokale) ovenfor.
+
+### Kan jeg tilslutte min egen bærbare computer til projektoren eller skærmen?
+
+Ja. [Product Presentation Pack](/packages/product-presentation/) omfatter HDMI- og USB-C-adaptere plus lydinterfaces til at tilslutte din bærbare computer, tablet eller medieafspiller.
+
+### Er en tekniker inkluderet?
+
+Ikke i Product Presentation Pack eller Basic MICE Pack: udstyret bliver leveret, installeret og testet af vores team og derefter betjent af dig. [MICE Pack](/packages/mice/) inkluderer en tekniker på stedet i op til seks timer.
+
+### Hvad koster lyd- og videoudlejning i nærheden af mig?
+
+Prisen afhænger af pakken: vores fulde katalog, fra Basic MICE Pack op til MICE Pack til en større konference, er opgivet med præcise priser i euro på vores [pakkeside](/packages/). Alle priser er ekskl. moms, med den spanske moms på 21 % tilføjet ved betalingen, og hver pris inkluderer levering, opsætning og nedtagning.
+
+### Leverer I lyd- og videoudlejning uden for Malaga by?
+
+Ja. Vores leveringsområde dækker hele Costa del Sol, ikke kun Malaga by: Marbella, Fuengirola, Torremolinos, Benalmádena, Estepona, Mijas, Nerja og Antequera er alle inden for rækkevidde, Sevilla er også dækket, og Granada er muligt ved bookinger over 400 €. Se [Hele Costa del Sol, ikke kun Malaga by](#hele-costa-del-sol-ikke-kun-malaga-by) ovenfor.
+
+### Hvor lang tid i forvejen skal jeg booke lyd- og videoudlejning?
+
+Book mindst 24 timer i forvejen for at sikre ledighed. Vores tjenester fås i Malaga, på Costa del Sol og i Sevilla uden minimumsordre, og rækker til Granada ved lejemål over 400 €.

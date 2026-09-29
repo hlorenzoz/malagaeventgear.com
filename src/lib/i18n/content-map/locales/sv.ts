@@ -302,6 +302,11 @@ export default {
 			slug: 'av-uthyrning-nara-mig',
 			keyword: 'AV-uthyrning nära mig',
 			status: 'propuesta'
+		},
+		'audio-video-rental-near-me-in-malaga-spain': {
+			slug: 'ljud-och-videouthyrning-nara-mig',
+			keyword: 'ljud- och videouthyrning nära mig',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

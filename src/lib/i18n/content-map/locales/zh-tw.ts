@@ -286,6 +286,11 @@ export default {
 			slug: '附近的影音租賃',
 			keyword: '馬拉加 附近的影音租賃',
 			status: 'propuesta'
+		},
+		'audio-video-rental-near-me-in-malaga-spain': {
+			slug: '附近的投影機螢幕租賃',
+			keyword: '馬拉加 附近的投影機螢幕租賃',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

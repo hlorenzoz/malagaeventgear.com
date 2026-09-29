@@ -338,6 +338,11 @@ export default {
 			slug: 'aluguel-de-audiovisual-perto-de-mim',
 			keyword: 'aluguel de audiovisual perto de mim',
 			status: 'propuesta'
+		},
+		'audio-video-rental-near-me-in-malaga-spain': {
+			slug: 'aluguel-de-audio-e-video-perto-de-mim',
+			keyword: 'aluguel de áudio e vídeo perto de mim',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

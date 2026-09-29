@@ -306,6 +306,11 @@ export default {
 			slug: 'location-audiovisuelle-pres-de-chez-moi',
 			keyword: 'location audiovisuelle près de chez moi',
 			status: 'propuesta'
+		},
+		'audio-video-rental-near-me-in-malaga-spain': {
+			slug: 'location-audio-et-video-pres-de-chez-moi',
+			keyword: 'location audio et vidéo près de chez moi',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -306,6 +306,11 @@ export default {
 			slug: 'av-udlejning-i-naerheden-af-mig',
 			keyword: 'AV-udlejning i nærheden af mig',
 			status: 'propuesta'
+		},
+		'audio-video-rental-near-me-in-malaga-spain': {
+			slug: 'lyd-og-videoudlejning-i-naerheden-af-mig',
+			keyword: 'lyd- og videoudlejning i nærheden af mig',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

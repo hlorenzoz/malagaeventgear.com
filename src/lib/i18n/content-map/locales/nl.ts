@@ -306,6 +306,11 @@ export default {
 			slug: 'audiovisuele-verhuur-bij-mij-in-de-buurt',
 			keyword: 'audiovisuele verhuur bij mij in de buurt',
 			status: 'propuesta'
+		},
+		'audio-video-rental-near-me-in-malaga-spain': {
+			slug: 'audio-en-videoverhuur-bij-mij-in-de-buurt',
+			keyword: 'audio- en videoverhuur bij mij in de buurt',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

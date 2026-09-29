@@ -302,6 +302,11 @@ export default {
 			slug: 'noleggio-audiovisivo-vicino-a-me',
 			keyword: 'noleggio audiovisivo vicino a me',
 			status: 'propuesta'
+		},
+		'audio-video-rental-near-me-in-malaga-spain': {
+			slug: 'noleggio-audio-video-vicino-a-me',
+			keyword: 'noleggio audio video vicino a me',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
