@@ -326,6 +326,11 @@ export default {
 			slug: 'veelvoorkomende-fouten-audiovisuele-verhuur',
 			keyword: 'veelvoorkomende fouten bij audiovisuele verhuur in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-companies': {
+			slug: 'audiovisuele-verhuurbedrijven',
+			keyword: 'audiovisuele verhuurbedrijven in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

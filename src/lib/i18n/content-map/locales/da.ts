@@ -326,6 +326,11 @@ export default {
 			slug: 'almindelige-fejl-ved-av-udlejning',
 			keyword: 'almindelige fejl ved AV-udlejning i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-companies': {
+			slug: 'av-udlejningsfirmaer',
+			keyword: 'AV-udlejningsfirmaer i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

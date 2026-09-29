@@ -322,6 +322,11 @@ export default {
 			slug: 'vanliga-misstag-vid-av-uthyrning',
 			keyword: 'vanliga misstag vid AV-uthyrning i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-companies': {
+			slug: 'av-uthyrningsfirmor',
+			keyword: 'AV-uthyrningsfirmor i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

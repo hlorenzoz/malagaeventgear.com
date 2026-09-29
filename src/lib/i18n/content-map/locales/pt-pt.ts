@@ -358,6 +358,11 @@ export default {
 			slug: 'erros-comuns-aluguer-audiovisuais',
 			keyword: 'erros comuns no aluguer de audiovisuais em Málaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-companies': {
+			slug: 'empresas-de-aluguer-de-audiovisuais',
+			keyword: 'empresas de aluguer de audiovisuais em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -306,6 +306,11 @@ export default {
 			slug: '影音租賃常見錯誤',
 			keyword: '馬拉加 影音租賃常見錯誤',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-companies': {
+			slug: '影音租賃公司怎麼選',
+			keyword: '馬拉加 影音租賃公司怎麼選',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -326,6 +326,11 @@ export default {
 			slug: 'erreurs-courantes-location-audiovisuelle',
 			keyword: 'erreurs courantes de location audiovisuelle à Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-companies': {
+			slug: 'entreprises-location-audiovisuelle',
+			keyword: 'entreprises de location audiovisuelle à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

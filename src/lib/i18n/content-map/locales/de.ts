@@ -326,6 +326,11 @@ export default {
 			slug: 'haeufige-fehler-av-vermietung',
 			keyword: 'häufige Fehler bei der AV-Vermietung in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-companies': {
+			slug: 'firmen-fuer-av-vermietung',
+			keyword: 'Firmen für AV-Vermietung in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -330,6 +330,11 @@ export default {
 			slug: 'vanlige-feil-ved-av-utleie',
 			keyword: 'vanlige feil ved AV-utleie i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-companies': {
+			slug: 'av-utleiefirmaer',
+			keyword: 'AV-utleiefirmaer i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

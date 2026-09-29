@@ -322,6 +322,11 @@ export default {
 			slug: 'errori-comuni-noleggio-audiovisivo',
 			keyword: 'errori comuni nel noleggio audiovisivo a Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-companies': {
+			slug: 'aziende-noleggio-audiovisivo',
+			keyword: 'aziende di noleggio audiovisivo a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

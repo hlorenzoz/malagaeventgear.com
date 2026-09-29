@@ -306,6 +306,11 @@ export default {
 			slug: '活动视听租赁常见错误',
 			keyword: '马拉加 活动视听租赁常见错误',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-companies': {
+			slug: '活动视听租赁公司怎么选',
+			keyword: '马拉加 活动视听租赁公司怎么选',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
