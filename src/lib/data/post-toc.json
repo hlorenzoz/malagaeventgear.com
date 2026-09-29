@@ -3339,8 +3339,8 @@
       "level": 2
     },
     {
-      "id": "packages-that-dont-flex",
-      "text": "Packages That Don't Flex",
+      "id": "the-package-that-doesnt-flex",
+      "text": "The Package That Doesn't Flex",
       "level": 2
     },
     {
@@ -3374,8 +3374,8 @@
       "level": 3
     },
     {
-      "id": "which-packages-cant-be-customized",
-      "text": "Which packages can't be customized?",
+      "id": "which-package-cant-be-customized",
+      "text": "Which package can't be customized?",
       "level": 3
     },
     {
@@ -3390,7 +3390,7 @@
     },
     {
       "id": "is-a-projector-available-as-an-add-on",
-      "text": "Is a projector available as an add-on?",
+      "text": "Is a projector available as an add on?",
       "level": 3
     },
     {
@@ -3405,7 +3405,7 @@
     },
     {
       "id": "what-if-i-need-something-that-isnt-on-any-packages-add-on-list",
-      "text": "What if I need something that isn't on any package's add-on list?",
+      "text": "What if I need something that isn't on any package's add on list?",
       "level": 3
     }
   ],
