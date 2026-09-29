@@ -4,97 +4,97 @@
  * real filesystem is exercised by `keywords.published-posts.test.ts` (the guard) and by actually
  * running `sync.ts`.
  */
-import { describe, it, expect } from "vitest";
-import { blogPostsToKeywords, type BlogPostInput } from "./blog";
+import { describe, it, expect } from 'vitest';
+import { blogPostsToKeywords, type BlogPostInput } from './blog';
 
-const TODAY = "2026-09-29";
+const TODAY = '2026-09-29';
 
 function post(overrides: Partial<BlogPostInput>): BlogPostInput {
-  return {
-    slug: "audio-visual-rental",
-    keyword: "audio visual rental",
-    siloRole: "pillar",
-    targetPage: "/",
-    draft: false,
-    ...overrides,
-  };
+	return {
+		slug: 'audio-visual-rental',
+		keyword: 'audio visual rental',
+		siloRole: 'pillar',
+		targetPage: '/',
+		draft: false,
+		...overrides
+	};
 }
 
-describe("blogPostsToKeywords", () => {
-  it("gives a pillar its own keyword as its cluster", () => {
-    const [entry] = blogPostsToKeywords([post({})], TODAY);
-    expect(entry.cluster).toBe("audio visual rental");
-    expect(entry.status).toBe("published");
-    expect(entry.url).toBe("/blog/audio-visual-rental/");
-  });
+describe('blogPostsToKeywords', () => {
+	it('gives a pillar its own keyword as its cluster', () => {
+		const [entry] = blogPostsToKeywords([post({})], TODAY);
+		expect(entry.cluster).toBe('audio visual rental');
+		expect(entry.status).toBe('published');
+		expect(entry.url).toBe('/blog/audio-visual-rental/');
+	});
 
-  it("gives a supporting post the cluster of the pillar its targetPage resolves to", () => {
-    const pillar = post({
-      slug: "audio-visual-rental",
-      keyword: "audio visual rental",
-      siloRole: "pillar",
-      targetPage: "/",
-    });
-    const supporting = post({
-      slug: "sound-system-rental",
-      keyword: "sound system rental",
-      siloRole: "supporting",
-      targetPage: "/blog/audio-visual-rental/",
-    });
-    const [, entry] = blogPostsToKeywords([pillar, supporting], TODAY);
-    expect(entry.cluster).toBe("audio visual rental");
-  });
+	it('gives a supporting post the cluster of the pillar its targetPage resolves to', () => {
+		const pillar = post({
+			slug: 'audio-visual-rental',
+			keyword: 'audio visual rental',
+			siloRole: 'pillar',
+			targetPage: '/'
+		});
+		const supporting = post({
+			slug: 'sound-system-rental',
+			keyword: 'sound system rental',
+			siloRole: 'supporting',
+			targetPage: '/blog/audio-visual-rental/'
+		});
+		const [, entry] = blogPostsToKeywords([pillar, supporting], TODAY);
+		expect(entry.cluster).toBe('audio visual rental');
+	});
 
-  it('gives a news post the cluster "news"', () => {
-    const [entry] = blogPostsToKeywords(
-      [
-        post({
-          slug: "news-something",
-          keyword: "news something",
-          siloRole: "news",
-          targetPage: "/",
-        }),
-      ],
-      TODAY,
-    );
-    expect(entry.cluster).toBe("news");
-  });
+	it('gives a news post the cluster "news"', () => {
+		const [entry] = blogPostsToKeywords(
+			[
+				post({
+					slug: 'news-something',
+					keyword: 'news something',
+					siloRole: 'news',
+					targetPage: '/'
+				})
+			],
+			TODAY
+		);
+		expect(entry.cluster).toBe('news');
+	});
 
-  it('gives a standalone post the cluster "standalone"', () => {
-    const [entry] = blogPostsToKeywords(
-      [
-        post({
-          slug: "company-post",
-          keyword: "company post",
-          siloRole: "standalone",
-          targetPage: "",
-        }),
-      ],
-      TODAY,
-    );
-    expect(entry.cluster).toBe("standalone");
-  });
+	it('gives a standalone post the cluster "standalone"', () => {
+		const [entry] = blogPostsToKeywords(
+			[
+				post({
+					slug: 'company-post',
+					keyword: 'company post',
+					siloRole: 'standalone',
+					targetPage: ''
+				})
+			],
+			TODAY
+		);
+		expect(entry.cluster).toBe('standalone');
+	});
 
-  it("marks a draft post as status draft, not published", () => {
-    const [entry] = blogPostsToKeywords([post({ draft: true })], TODAY);
-    expect(entry.status).toBe("draft");
-  });
+	it('marks a draft post as status draft, not published', () => {
+		const [entry] = blogPostsToKeywords([post({ draft: true })], TODAY);
+		expect(entry.status).toBe('draft');
+	});
 
-  it('sets id from the normalized keyword, source "blog", and today as firstSeen', () => {
-    const [entry] = blogPostsToKeywords([post({})], TODAY);
-    expect(entry.id).toBe("audio-visual-rental");
-    expect(entry.sources).toEqual([{ name: "blog", seen: TODAY }]);
-    expect(entry.firstSeen).toBe(TODAY);
-  });
+	it('sets id from the normalized keyword, source "blog", and today as firstSeen', () => {
+		const [entry] = blogPostsToKeywords([post({})], TODAY);
+		expect(entry.id).toBe('audio-visual-rental');
+		expect(entry.sources).toEqual([{ name: 'blog', seen: TODAY }]);
+		expect(entry.firstSeen).toBe(TODAY);
+	});
 
-  it('falls back to "unassigned" cluster when a supporting post targets an unknown url', () => {
-    const orphan = post({
-      slug: "orphan-post",
-      keyword: "orphan post",
-      siloRole: "supporting",
-      targetPage: "/blog/does-not-exist/",
-    });
-    const [entry] = blogPostsToKeywords([orphan], TODAY);
-    expect(entry.cluster).toBe("unassigned");
-  });
+	it('falls back to "unassigned" cluster when a supporting post targets an unknown url', () => {
+		const orphan = post({
+			slug: 'orphan-post',
+			keyword: 'orphan post',
+			siloRole: 'supporting',
+			targetPage: '/blog/does-not-exist/'
+		});
+		const [entry] = blogPostsToKeywords([orphan], TODAY);
+		expect(entry.cluster).toBe('unassigned');
+	});
 });

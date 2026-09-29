@@ -12,83 +12,77 @@
  */
 
 export interface RelevanceResult {
-  relevant: boolean;
-  reason?: string;
+	relevant: boolean;
+	reason?: string;
 }
 
 // Real noise verified 2026-09-29 against Ubersuggest suggestions for "audio visual rental".
 // Cities/regions/countries clearly outside Spain that the MCP's free-tier suggestions surfaced.
 const OUT_OF_MARKET_PLACES = [
-  "los angeles",
-  "dubai",
-  "calgary",
-  "bangalore",
-  "cape town",
-  "gurgaon",
-  "delhi",
-  "penang",
-  "texas",
-  "san antonio",
-  "atlanta",
-  "jaipur",
-  "ireland",
+	'los angeles',
+	'dubai',
+	'calgary',
+	'bangalore',
+	'cape town',
+	'gurgaon',
+	'delhi',
+	'penang',
+	'texas',
+	'san antonio',
+	'atlanta',
+	'jaipur',
+	'ireland'
 ];
 
 // Intents this business cannot fulfil regardless of place: employment, a business sale listing,
 // or a tax/customs classification code. Matched as whole-word patterns so e.g. "salary" does not
 // also reject a legitimate phrase that happens to contain a shared substring.
 const NO_FIT_PATTERNS: RegExp[] = [
-  /\bjobs?\b/,
-  /\bsalary\b/,
-  /\bfor sale\b/,
-  /\bhsn code\b/,
-  /\bnaics code\b/,
-  /\bllc\b/,
+	/\bjobs?\b/,
+	/\bsalary\b/,
+	/\bfor sale\b/,
+	/\bhsn code\b/,
+	/\bnaics code\b/,
+	/\bllc\b/
 ];
 
 function normalizeForMatch(phrase: string): string {
-  return phrase.toLowerCase().trim();
+	return phrase.toLowerCase().trim();
 }
 
 /** True when `phrase` names a real MEG service area (case-insensitive substring match). */
-function mentionsServiceArea(
-  phrase: string,
-  serviceAreas: readonly string[],
-): boolean {
-  return serviceAreas.some((area) => phrase.includes(area.toLowerCase()));
+function mentionsServiceArea(phrase: string, serviceAreas: readonly string[]): boolean {
+	return serviceAreas.some((area) => phrase.includes(area.toLowerCase()));
 }
 
 /**
  * Pure relevance check. `serviceAreas` should always be `siteConfig.serviceAreas` (never
  * hardcoded by a caller), so a new area added there is honored automatically.
  */
-export function checkRelevance(
-  phrase: string,
-  serviceAreas: readonly string[],
-): RelevanceResult {
-  const normalized = normalizeForMatch(phrase);
+export function checkRelevance(phrase: string, serviceAreas: readonly string[]): RelevanceResult {
+	const normalized = normalizeForMatch(phrase);
 
-  for (const pattern of NO_FIT_PATTERNS) {
-    if (pattern.test(normalized)) {
-      return {
-        relevant: false,
-        reason: `no-fit intent (matches ${pattern.source})`,
-      };
-    }
-  }
+	for (const pattern of NO_FIT_PATTERNS) {
+		if (pattern.test(normalized)) {
+			return {
+				relevant: false,
+				reason: `no-fit intent (matches ${pattern.source})`
+			};
+		}
+	}
 
-  if (mentionsServiceArea(normalized, serviceAreas)) {
-    return { relevant: true };
-  }
+	if (mentionsServiceArea(normalized, serviceAreas)) {
+		return { relevant: true };
+	}
 
-  for (const place of OUT_OF_MARKET_PLACES) {
-    if (normalized.includes(place)) {
-      return {
-        relevant: false,
-        reason: `names an out-of-market place ("${place}")`,
-      };
-    }
-  }
+	for (const place of OUT_OF_MARKET_PLACES) {
+		if (normalized.includes(place)) {
+			return {
+				relevant: false,
+				reason: `names an out-of-market place ("${place}")`
+			};
+		}
+	}
 
-  return { relevant: true };
+	return { relevant: true };
 }

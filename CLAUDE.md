@@ -1264,7 +1264,9 @@ programado a las 09:00 con `just keywords-schedule-install`, plantilla en
   `--setting-sources ""`, sin cargar ningún settings. El `allow` global del usuario y el de
   `.claude/settings.json` (local, con cientos de reglas) se sumarían a `--allowedTools`. Por eso el
   MCP de Ubersuggest se declara con `--mcp-config` y `--strict-mcp-config` (el token OAuth sale del
-  llavero, verificado el 2026-09-29). Además: `--permission-mode default` (el modo `auto` del
+  llavero, verificado el 2026-09-29). Sin settings el CLI tampoco carga los agentes de proyecto, así
+  que el agente entra por `--agents`, generado desde su `.md` con `scripts/keywords/agent-json.ts`
+  (el `.md` sigue siendo la única fuente). Además: `--permission-mode default` (el modo `auto` del
   usuario aprobaría con un clasificador lo que no está en la lista), `--disallowedTools` para
   `git push`, `reset`, `checkout`, `stash`, `restore` y `rm`, `Write` limitado a
   `.agents/context/keywords/ubersuggest/`, `--model sonnet` y `--max-budget-usd 4` (solo el

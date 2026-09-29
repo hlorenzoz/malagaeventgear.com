@@ -8,29 +8,23 @@
  * zip handling).
  */
 
-import { readdirSync } from "node:fs";
-import { join } from "node:path";
-import { parseCsvLine } from "../../backfill-silo-meta";
-import { normalizeId } from "../normalize";
-import { checkRelevance } from "../relevance";
-import { matchSeedMapping } from "../seed-mappings";
-import type { KeywordEntry } from "../schema";
+import { readdirSync } from 'node:fs';
+import { join } from 'node:path';
+import { parseCsvLine } from '../../backfill-silo-meta';
+import { normalizeId } from '../normalize';
+import { checkRelevance } from '../relevance';
+import { matchSeedMapping } from '../seed-mappings';
+import type { KeywordEntry } from '../schema';
 
-const GSC_DIR = join(
-  process.cwd(),
-  ".agents",
-  "context",
-  "keywords",
-  "google-search-console-gsc",
-);
+const GSC_DIR = join(process.cwd(), '.agents', 'context', 'keywords', 'google-search-console-gsc');
 const ZIP_DATE_RE = /(\d{4}-\d{2}-\d{2})\.zip$/;
 
 export interface GscRow {
-  query: string;
-  clicks: number;
-  impressions: number;
-  ctr: number;
-  position: number;
+	query: string;
+	clicks: number;
+	impressions: number;
+	ctr: number;
+	position: number;
 }
 
 /**
@@ -43,149 +37,141 @@ export interface GscRow {
  * keyword string here, never parsed as a command.
  */
 export function splitCsvRecords(text: string): string[] {
-  const records: string[] = [];
-  let current = "";
-  let inQuotes = false;
-  for (let i = 0; i < text.length; i++) {
-    const c = text[i];
-    if (c === '"') {
-      current += c;
-      if (inQuotes && text[i + 1] === '"') {
-        current += text[++i];
-      } else {
-        inQuotes = !inQuotes;
-      }
-    } else if (!inQuotes && (c === "\n" || c === "\r")) {
-      if (c === "\r" && text[i + 1] === "\n") i++;
-      if (current.length > 0) records.push(current);
-      current = "";
-    } else {
-      current += c;
-    }
-  }
-  if (current.length > 0) records.push(current);
-  return records;
+	const records: string[] = [];
+	let current = '';
+	let inQuotes = false;
+	for (let i = 0; i < text.length; i++) {
+		const c = text[i];
+		if (c === '"') {
+			current += c;
+			if (inQuotes && text[i + 1] === '"') {
+				current += text[++i];
+			} else {
+				inQuotes = !inQuotes;
+			}
+		} else if (!inQuotes && (c === '\n' || c === '\r')) {
+			if (c === '\r' && text[i + 1] === '\n') i++;
+			if (current.length > 0) records.push(current);
+			current = '';
+		} else {
+			current += c;
+		}
+	}
+	if (current.length > 0) records.push(current);
+	return records;
 }
 
 /** Parses `Consultas.csv`'s content (header + rows), converting "5.1%" -> 5.1 and "8.11" -> 8.11. */
 export function parseGscCsv(csv: string): GscRow[] {
-  const records = splitCsvRecords(csv);
-  const rows: GscRow[] = [];
-  for (const record of records.slice(1)) {
-    const cols = parseCsvLine(record);
-    if (cols.length < 5) continue;
-    rows.push({
-      query: cols[0].trim(),
-      clicks: Number(cols[1]),
-      impressions: Number(cols[2]),
-      ctr: Number(cols[3].replace("%", "")),
-      position: Number(cols[4]),
-    });
-  }
-  return rows;
+	const records = splitCsvRecords(csv);
+	const rows: GscRow[] = [];
+	for (const record of records.slice(1)) {
+		const cols = parseCsvLine(record);
+		if (cols.length < 5) continue;
+		rows.push({
+			query: cols[0].trim(),
+			clicks: Number(cols[1]),
+			impressions: Number(cols[2]),
+			ctr: Number(cols[3].replace('%', '')),
+			position: Number(cols[4])
+		});
+	}
+	return rows;
 }
 
 /** Picks the zip whose filename carries the latest YYYY-MM-DD, or null if none matches. */
-export function pickMostRecentZip(
-  files: string[],
-): { file: string; date: string } | null {
-  let best: { file: string; date: string } | null = null;
-  for (const file of files) {
-    const match = file.match(ZIP_DATE_RE);
-    if (!match) continue;
-    if (!best || match[1] > best.date) best = { file, date: match[1] };
-  }
-  return best;
+export function pickMostRecentZip(files: string[]): { file: string; date: string } | null {
+	let best: { file: string; date: string } | null = null;
+	for (const file of files) {
+		const match = file.match(ZIP_DATE_RE);
+		if (!match) continue;
+		if (!best || match[1] > best.date) best = { file, date: match[1] };
+	}
+	return best;
 }
 
 /** Pure: no file I/O. `asOf` is the export date (from the zip filename), `today` is the sync run
  *  date used for `firstSeen`. Rejects via `relevance.ts` before consulting `seed-mappings.ts`, so
  *  an out of market query is never left dangling as `idea`. */
 export function gscRowsToKeywords(
-  rows: GscRow[],
-  asOf: string,
-  serviceAreas: readonly string[],
-  today: string,
+	rows: GscRow[],
+	asOf: string,
+	serviceAreas: readonly string[],
+	today: string
 ): KeywordEntry[] {
-  return rows.map((row) => {
-    const relevance = checkRelevance(row.query, serviceAreas);
-    const seedMatch = relevance.relevant ? matchSeedMapping(row.query) : null;
+	return rows.map((row) => {
+		const relevance = checkRelevance(row.query, serviceAreas);
+		const seedMatch = relevance.relevant ? matchSeedMapping(row.query) : null;
 
-    let status: KeywordEntry["status"] = "idea";
-    let cluster = "unassigned";
-    let url: string | null = null;
-    let reason: string | null = null;
+		let status: KeywordEntry['status'] = 'idea';
+		let cluster = 'unassigned';
+		let url: string | null = null;
+		let reason: string | null = null;
 
-    if (!relevance.relevant) {
-      status = "rejected";
-      reason = `out-of-market or no-fit query (${relevance.reason})`;
-    } else if (seedMatch) {
-      status = seedMatch.status;
-      cluster = seedMatch.cluster;
-      url = seedMatch.url;
-      reason =
-        seedMatch.status === "rejected" ? (seedMatch.reason ?? null) : null;
-    }
+		if (!relevance.relevant) {
+			status = 'rejected';
+			reason = `out-of-market or no-fit query (${relevance.reason})`;
+		} else if (seedMatch) {
+			status = seedMatch.status;
+			cluster = seedMatch.cluster;
+			url = seedMatch.url;
+			reason = seedMatch.status === 'rejected' ? (seedMatch.reason ?? null) : null;
+		}
 
-    return {
-      id: normalizeId(row.query),
-      keyword: row.query,
-      locale: "en",
-      cluster,
-      topic: null,
-      intent: null,
-      url,
-      status,
-      reason,
-      metrics: {
-        volume: null,
-        difficulty: null,
-        cpc: null,
-        gsc: {
-          impressions: row.impressions,
-          clicks: row.clicks,
-          position: row.position,
-          asOf,
-        },
-        ubersuggest: null,
-      },
-      research: null,
-      opportunity: null,
-      opportunityReason: null,
-      sources: [{ name: "gsc", seen: asOf }],
-      firstSeen: today,
-      lastResearched: null,
-      notes: "",
-    };
-  });
+		return {
+			id: normalizeId(row.query),
+			keyword: row.query,
+			locale: 'en',
+			cluster,
+			topic: null,
+			intent: null,
+			url,
+			status,
+			reason,
+			metrics: {
+				volume: null,
+				difficulty: null,
+				cpc: null,
+				gsc: {
+					impressions: row.impressions,
+					clicks: row.clicks,
+					position: row.position,
+					asOf
+				},
+				ubersuggest: null
+			},
+			research: null,
+			opportunity: null,
+			opportunityReason: null,
+			sources: [{ name: 'gsc', seen: asOf }],
+			firstSeen: today,
+			lastResearched: null,
+			notes: ''
+		};
+	});
 }
 
 /** Real read: picks the most recent GSC zip on disk, extracts `Consultas.csv` with `unzip -p`
  *  (via Bun.spawn, no new dependency), and converts it. Returns [] when no zip exists yet. */
 export async function importGscKeywords(
-  serviceAreas: readonly string[],
-  today: string,
+	serviceAreas: readonly string[],
+	today: string
 ): Promise<KeywordEntry[]> {
-  const files = readdirSync(GSC_DIR).filter((f) => f.endsWith(".zip"));
-  const mostRecent = pickMostRecentZip(files);
-  if (!mostRecent) return [];
+	const files = readdirSync(GSC_DIR).filter((f) => f.endsWith('.zip'));
+	const mostRecent = pickMostRecentZip(files);
+	if (!mostRecent) return [];
 
-  const zipPath = join(GSC_DIR, mostRecent.file);
-  const proc = Bun.spawn(["unzip", "-p", zipPath, "Consultas.csv"], {
-    stdout: "pipe",
-    stderr: "pipe",
-  });
-  const csv = await new Response(proc.stdout).text();
-  const exitCode = await proc.exited;
-  if (exitCode !== 0) {
-    const stderr = await new Response(proc.stderr).text();
-    throw new Error(`unzip -p failed on ${mostRecent.file}: ${stderr}`);
-  }
+	const zipPath = join(GSC_DIR, mostRecent.file);
+	const proc = Bun.spawn(['unzip', '-p', zipPath, 'Consultas.csv'], {
+		stdout: 'pipe',
+		stderr: 'pipe'
+	});
+	const csv = await new Response(proc.stdout).text();
+	const exitCode = await proc.exited;
+	if (exitCode !== 0) {
+		const stderr = await new Response(proc.stderr).text();
+		throw new Error(`unzip -p failed on ${mostRecent.file}: ${stderr}`);
+	}
 
-  return gscRowsToKeywords(
-    parseGscCsv(csv),
-    mostRecent.date,
-    serviceAreas,
-    today,
-  );
+	return gscRowsToKeywords(parseGscCsv(csv), mostRecent.date, serviceAreas, today);
 }

@@ -10,13 +10,13 @@
  * the same id, which is what makes `merge.ts`'s upsert-by-id idempotent across sources.
  */
 export function normalizeId(text: string): string {
-  return toAscii(text)
-    .toLowerCase()
-    .trim()
-    .replace(/[^\p{L}\p{N}\s-]/gu, "")
-    .trim()
-    .replace(/\s+/g, "-")
-    .replace(/-+/g, "-");
+	return toAscii(text)
+		.toLowerCase()
+		.trim()
+		.replace(/[^\p{L}\p{N}\s-]/gu, '')
+		.trim()
+		.replace(/\s+/g, '-')
+		.replace(/-+/g, '-');
 }
 
 /**
@@ -25,11 +25,11 @@ export function normalizeId(text: string): string {
  * it is written: those sources routinely return curly quotes, dashes and ellipses.
  */
 export function toAscii(text: string): string {
-  return text
-    .replace(/[‘’]/g, "'")
-    .replace(/[“”]/g, '"')
-    .replace(/\s*—\s*/g, "-") // em dash
-    .replace(/–/g, "-") // en dash (range or joiner)
-    .replace(/…/g, "...")
-    .replace(/ /g, " ");
+	return text
+		.replace(/[‘’]/g, "'")
+		.replace(/[“”]/g, '"')
+		.replace(/\s*—\s*/g, '-') // em dash
+		.replace(/–/g, '-') // en dash (range or joiner)
+		.replace(/…/g, '...')
+		.replace(/ /g, ' ');
 }

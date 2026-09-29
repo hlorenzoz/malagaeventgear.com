@@ -15,112 +15,108 @@
  * explaining why. `scheduled`/`draft`/blank never need this: only `published` requires a url.
  */
 
-import { readFileSync } from "node:fs";
-import { join } from "node:path";
-import { parseCsvLine, slugFromUrl } from "../../backfill-silo-meta";
-import { normalizeId } from "../normalize";
-import type { KeywordEntry, KeywordStatus } from "../schema";
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import { parseCsvLine, slugFromUrl } from '../../backfill-silo-meta';
+import { normalizeId } from '../normalize';
+import type { KeywordEntry, KeywordStatus } from '../schema';
 
 const CSV_PATH = join(
-  process.cwd(),
-  ".agents",
-  "context",
-  "keywords",
-  "pop",
-  "PageOptimizer Pro _ Reverse Silo - POP.csv",
+	process.cwd(),
+	'.agents',
+	'context',
+	'keywords',
+	'pop',
+	'PageOptimizer Pro _ Reverse Silo - POP.csv'
 );
 
 export interface PopRow {
-  type: "Supporting Keyword" | "Top-Level Keyword";
-  status: string;
-  topLevelKeyword: string;
-  keyword: string;
-  keywordUrl: string;
+	type: 'Supporting Keyword' | 'Top-Level Keyword';
+	status: string;
+	topLevelKeyword: string;
+	keyword: string;
+	keywordUrl: string;
 }
 
 const STATUS_MAP: Record<string, KeywordStatus> = {
-  published: "published",
-  scheduled: "planned",
-  draft: "draft",
-  "": "idea",
+	published: 'published',
+	scheduled: 'planned',
+	draft: 'draft',
+	'': 'idea'
 };
 
 /** Parses the raw CSV text into data rows only (Supporting/Top-Level Keyword), skipping the
  *  2-row header block, blank separator lines and the column-header row (line 6). */
 export function parsePopRows(csv: string): PopRow[] {
-  const rows: PopRow[] = [];
-  for (const line of csv.split(/\r?\n/)) {
-    const cols = parseCsvLine(line);
-    const type = cols[0]?.trim();
-    if (type !== "Supporting Keyword" && type !== "Top-Level Keyword") continue;
-    rows.push({
-      type,
-      status: (cols[1] ?? "").trim().toLowerCase(),
-      topLevelKeyword: (cols[5] ?? "").trim(),
-      keyword: (cols[6] ?? "").trim(),
-      keywordUrl: (cols[7] ?? "").trim(),
-    });
-  }
-  return rows;
+	const rows: PopRow[] = [];
+	for (const line of csv.split(/\r?\n/)) {
+		const cols = parseCsvLine(line);
+		const type = cols[0]?.trim();
+		if (type !== 'Supporting Keyword' && type !== 'Top-Level Keyword') continue;
+		rows.push({
+			type,
+			status: (cols[1] ?? '').trim().toLowerCase(),
+			topLevelKeyword: (cols[5] ?? '').trim(),
+			keyword: (cols[6] ?? '').trim(),
+			keywordUrl: (cols[7] ?? '').trim()
+		});
+	}
+	return rows;
 }
 
 /** Pure: no file I/O. `realSlugs` is the set of ENGLISH post slugs that actually exist on disk
  *  (from the blog importer's file listing), so a proposed-but-never-shipped POP row never gets a
  *  URL that 404s. */
 export function popRowsToKeywords(
-  rows: PopRow[],
-  realSlugs: ReadonlySet<string>,
-  today: string,
+	rows: PopRow[],
+	realSlugs: ReadonlySet<string>,
+	today: string
 ): KeywordEntry[] {
-  return rows
-    .filter((row) => row.keyword.length > 0)
-    .map((row) => {
-      const slug = slugFromUrl(row.keywordUrl);
-      const hasRealPost = slug !== null && realSlugs.has(slug);
-      let status = STATUS_MAP[row.status] ?? "idea";
-      let notes = "";
+	return rows
+		.filter((row) => row.keyword.length > 0)
+		.map((row) => {
+			const slug = slugFromUrl(row.keywordUrl);
+			const hasRealPost = slug !== null && realSlugs.has(slug);
+			let status = STATUS_MAP[row.status] ?? 'idea';
+			let notes = '';
 
-      if (status === "published" && !hasRealPost) {
-        notes = `POP marked this "published" but no matching post exists on the site; downgraded to idea.`;
-        status = "idea";
-      }
+			if (status === 'published' && !hasRealPost) {
+				notes = `POP marked this "published" but no matching post exists on the site; downgraded to idea.`;
+				status = 'idea';
+			}
 
-      const cluster =
-        row.type === "Top-Level Keyword" ? row.keyword : row.topLevelKeyword;
+			const cluster = row.type === 'Top-Level Keyword' ? row.keyword : row.topLevelKeyword;
 
-      return {
-        id: normalizeId(row.keyword),
-        keyword: row.keyword,
-        locale: "en",
-        cluster: cluster || "unassigned",
-        topic: null,
-        intent: null,
-        url: hasRealPost ? `/blog/${slug}/` : null,
-        status,
-        reason: null,
-        metrics: {
-          volume: null,
-          difficulty: null,
-          cpc: null,
-          gsc: null,
-          ubersuggest: null,
-        },
-        research: null,
-        opportunity: null,
-        opportunityReason: null,
-        sources: [{ name: "pop-csv", seen: today }],
-        firstSeen: today,
-        lastResearched: null,
-        notes,
-      };
-    });
+			return {
+				id: normalizeId(row.keyword),
+				keyword: row.keyword,
+				locale: 'en',
+				cluster: cluster || 'unassigned',
+				topic: null,
+				intent: null,
+				url: hasRealPost ? `/blog/${slug}/` : null,
+				status,
+				reason: null,
+				metrics: {
+					volume: null,
+					difficulty: null,
+					cpc: null,
+					gsc: null,
+					ubersuggest: null
+				},
+				research: null,
+				opportunity: null,
+				opportunityReason: null,
+				sources: [{ name: 'pop-csv', seen: today }],
+				firstSeen: today,
+				lastResearched: null,
+				notes
+			};
+		});
 }
 
 /** Real file read (node:fs, same pattern as scripts/backfill-silo-meta.ts). */
-export function importPopKeywords(
-  realSlugs: ReadonlySet<string>,
-  today: string,
-): KeywordEntry[] {
-  const csv = readFileSync(CSV_PATH, "utf8");
-  return popRowsToKeywords(parsePopRows(csv), realSlugs, today);
+export function importPopKeywords(realSlugs: ReadonlySet<string>, today: string): KeywordEntry[] {
+	const csv = readFileSync(CSV_PATH, 'utf8');
+	return popRowsToKeywords(parsePopRows(csv), realSlugs, today);
 }
