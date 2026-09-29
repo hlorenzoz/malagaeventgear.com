@@ -1,0 +1,128 @@
+---
+title: "Personnaliser un forfait de location audiovisuelle à Malaga"
+description: "Personnaliser un forfait de location audiovisuelle à Malaga, en Espagne : la vraie liste chiffrée de ce que vous pouvez ajouter à chaque forfait, et son prix."
+excerpt: "Personnaliser un forfait de location audiovisuelle à Malaga, en Espagne : la vraie liste chiffrée de ce que vous pouvez ajouter à chaque forfait, et son prix."
+publishDate: "2026-09-29"
+sourceUpdated: "2026-09-29"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Vous souhaitez personnaliser un forfait de location audiovisuelle à Malaga, en Espagne ? Nos forfaits ne sont pas un catalogue de matériel à composer vous-même : chacun repose sur une base fixe, livrée, installée et testée par notre équipe, complétée par une courte liste d'options bien définie. Voici exactement ce que vous pouvez ajouter à chaque forfait, et ce que cela coûte.
+
+Malaga Event Gear livre, installe et teste chaque forfait à Malaga et sur l'ensemble de la Costa del Sol.
+
+[Contactez-nous](/contact/) dès aujourd'hui pour discuter de votre événement.
+
+## En bref
+
+---
+
+Chez Malaga Event Gear, personnaliser un forfait de location audiovisuelle à Malaga passe par une liste d'options définie, et non par un catalogue de matériel ouvert. Fort d'une expérience qui remonte à 1996, nous livrons, installons et testons le forfait de base, puis ajoutons ce qui figure dans la liste ci-dessous.
+
+## Points clés
+
+---
+
+Les forfaits de Malaga Event Gear se personnalisent grâce à de vraies options, chacune avec son prix.
+
+-   L'[Eco Pack](/packages/eco/) propose en option un vidéoprojecteur et un écran (+50 euros) ou une machine à fumée (+20 euros).
+
+-   Le [Basic MICE Pack](/packages/basic-mice/) propose en option un technicien dédié sur place (+240 euros par jour).
+
+-   Le [MICE Pack](/packages/mice/) propose en option une heure de technicien supplémentaire (+40 euros), un pupitre (+50 euros) ou une scène modulable (+35 euros par mètre carré).
+
+-   Le [Wedding Pack](/packages/wedding/) propose en option une machine à fumée (+20 euros).
+
+-   Le [Product Presentation Pack](/packages/product-presentation/) est livré dans une configuration fixe, sans aucune option listée.
+
+## Ce que vous pouvez réellement ajouter
+
+Quatre de nos cinq forfaits disposent d'une véritable liste d'options. Voici exactement ce qu'elle contient :
+
+-   **Eco Pack** : un vidéoprojecteur et un écran de projection (+50 euros), ou une machine professionnelle à fumée ou à brouillard (+20 euros).
+-   **Wedding Pack** : une machine professionnelle à fumée ou à brouillard (+20 euros).
+-   **Basic MICE Pack** : un assistant technique dédié, présent sur place toute la journée (+240 euros).
+-   **MICE Pack** : une heure supplémentaire d'assistance technique sur place au-delà des six incluses (+40 euros par heure), un pupitre premium en méthacrylate (+50 euros) ou des plateaux de scène modulables (+35 euros par mètre carré).
+
+Consultez les tarifs exacts et à jour de chaque option sur notre [page des forfaits](/packages/).
+
+<InlineCTA />
+
+## Le forfait qui ne s'adapte pas
+
+Le [Product Presentation Pack](/packages/product-presentation/) n'a pas de liste d'options : il est livré dans la configuration décrite sur sa page, sans technicien. Le [Wedding Pack](/packages/wedding/) s'en approche, avec un technicien inclus et une machine à fumée pour seule option. Si votre événement a besoin de quelque chose qui sort de ce que comprend réellement un forfait, [contactez-nous](/contact/) directement plutôt que de supposer que cela peut être ajouté.
+
+## Connecter vos propres appareils
+
+Ce n'est pas une option payante, mais c'est bon à savoir : le [Product Presentation Pack](/packages/product-presentation/) comprend sans supplément des adaptateurs HDMI et USB-C ainsi que des interfaces audio, pour que vous puissiez connecter votre propre ordinateur portable, votre tablette ou votre lecteur multimédia à l'écran et à la sonorisation.
+
+## Installations réelles que nous avons livrées
+
+![Location de matériel de son et d'éclairage pour un événement dans la province de Malaga.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-300x224.webp "Un lieu historique de la province de Malaga transformé pour un événement spécial grâce à du matériel professionnel de son et d'éclairage.")
+
+Un lieu de la province de Malaga aménagé pour un petit événement avec du matériel de son et d'éclairage.
+
+![Pupitre en méthacrylate avec assistance technique.](https://cdn.malagaeventgear.com/blog/1264/methacrylate_lectern_technical_support-300x224.webp "L'installation technique qui accompagne le pupitre et l'éclairage de cet événement en extérieur.")
+
+Un pupitre en méthacrylate avec du matériel d'assistance technique lors d'un événement du soir en extérieur, le même type de pupitre que le MICE Pack propose en option.
+
+![Pupitre et sonorisation pour un concert dans la province de Malaga.](https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-224x300.webp "Une installation de scène de concert dans la province de Malaga, avec un pupitre et une sonorisation professionnelle, prête pour un spectacle captivant.")
+
+Un pupitre et une sonorisation installés pour un concert dans la province de Malaga.
+
+![Location d'éclairage décoratif dans la province de Malaga.](https://cdn.malagaeventgear.com/blog/1271/malaga_decorative_lighting_rental-300x224.webp "Un éclairage décoratif en guirlandes lumineuses installé par Malaga Event Gear pour un événement en soirée en extérieur.")
+
+Une cour extérieure éclairée par des guirlandes lumineuses pour un événement en soirée.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('eco')} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Réservation et zone de service
+
+Nos services couvrent Malaga, la Costa del Sol et Séville sans minimum de commande, et s'étendent jusqu'à Grenade pour les locations de plus de 400 euros. Réservez au moins 24 heures à l'avance pour garantir la disponibilité.
+
+## Conclusion
+
+Quel que soit le forfait adapté à votre événement, Malaga Event Gear vous le livre avec une liste claire et chiffrée de ce qui peut s'y ajouter. Pour toute notre gamme, consultez la [page de location audiovisuelle](/blog/audio-visual-rental/). [Contactez-nous](/contact/) pour discuter de votre événement.
+
+Vous voulez d'abord comprendre le processus de réservation lui-même ? Consultez notre guide [comment fonctionne la location audiovisuelle](/blog/how-audio-visual-rental-works/).
+
+## Questions fréquentes
+
+### Que puis-je réellement ajouter à un forfait de location audiovisuelle ?
+
+Cela dépend du forfait. L'[Eco Pack](/packages/eco/) propose en option un vidéoprojecteur et un écran ou une machine à fumée. Le [Wedding Pack](/packages/wedding/) propose une machine à fumée. Le [Basic MICE Pack](/packages/basic-mice/) propose un technicien dédié. Le [MICE Pack](/packages/mice/) propose des heures de technicien supplémentaires, un pupitre ou une scène. Voir [Ce que vous pouvez réellement ajouter](#ce-que-vous-pouvez-réellement-ajouter) ci-dessus.
+
+### Quel forfait ne peut pas être personnalisé ?
+
+Le [Product Presentation Pack](/packages/product-presentation/) est livré dans une configuration fixe, sans liste d'options. La seule option du Wedding Pack est une machine à fumée. Voir [Le forfait qui ne s'adapte pas](#le-forfait-qui-ne-sadapte-pas) ci-dessus.
+
+### Puis-je ajouter un technicien à un forfait qui n'en comprend pas ?
+
+Oui, sur le [Basic MICE Pack](/packages/basic-mice/), un technicien dédié sur place est disponible pour 240 euros par jour. Le Wedding Pack et le MICE Pack en incluent déjà un.
+
+### Puis-je ajouter un pupitre ou une scène à un forfait entreprise ?
+
+Oui, les deux sont des options du [MICE Pack](/packages/mice/) : un pupitre en méthacrylate pour 50 euros et une scène modulable pour 35 euros par mètre carré.
+
+### Un vidéoprojecteur est-il disponible en option ?
+
+Oui, sur l'[Eco Pack](/packages/eco/), un vidéoprojecteur et un écran de projection peuvent être ajoutés pour 50 euros.
+
+### Les adaptateurs pour mon propre ordinateur portable sont-ils inclus ou en supplément ?
+
+Ils sont inclus sans supplément dans le [Product Presentation Pack](/packages/product-presentation/) : les adaptateurs HDMI et USB-C ainsi que les interfaces audio sont fournis avec le forfait.
+
+### Combien coûte l'ajout d'heures de technicien supplémentaires ?
+
+Sur le [MICE Pack](/packages/mice/), une heure supplémentaire d'assistance technique sur place au-delà des six incluses coûte 40 euros. Tous les tarifs sont HT, la TVA espagnole de 21 % étant ajoutée au moment du paiement.
+
+### Et si j'ai besoin de quelque chose qui ne figure dans la liste d'options d'aucun forfait ?
+
+Contactez-nous directement. Tout ce qui sort du contenu d'un forfait et de ses options listées fait l'objet d'un devis séparé une fois que nous l'avons confirmé, à partir de notre propre inventaire ou, s'il n'y figure pas, par l'intermédiaire de l'un de nos fournisseurs, si l'un d'eux en dispose.

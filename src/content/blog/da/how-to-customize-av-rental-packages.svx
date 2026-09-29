@@ -1,0 +1,128 @@
+---
+title: "Sådan kan du tilpasse pakker til AV-udlejning i Malaga"
+description: "Sådan kan du tilpasse pakker til AV-udlejning i Malaga, Spanien: den reelle prisliste over, hvad du kan tilføje til hver pakke, og hvad tilvalgene koster."
+excerpt: "Sådan kan du tilpasse pakker til AV-udlejning i Malaga, Spanien: den reelle prisliste over, hvad du kan tilføje til hver pakke, og hvad tilvalgene koster."
+publishDate: "2026-09-29"
+sourceUpdated: "2026-09-29"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Vil du tilpasse pakker til AV-udlejning i Malaga, Spanien? Vores pakker er ikke et udstyrskatalog, hvor du selv sætter alt sammen: hver pakke er et fast grundlag, som vores hold leverer, installerer og tester, med en kort, fastlagt liste over tilvalg ovenpå. Her kan du se præcis, hvad du kan tilføje til hver pakke, og hvad det koster.
+
+Malaga Event Gear leverer, installerer og tester hver pakke i Malaga og i hele Costa del Sol.
+
+[Kontakt os](/contact/) allerede i dag for at tale om dit event.
+
+## Kort overblik
+
+---
+
+Hos Malaga Event Gear kan du tilpasse pakker til AV-udlejning i Malaga via en fastlagt liste over tilvalg, ikke via et åbent udstyrskatalog. Med erfaring, der går tilbage til 1996, leverer, installerer og tester vi grundpakken og tilføjer derefter det, du vælger fra listen nedenfor.
+
+## Det vigtigste
+
+---
+
+Pakkerne fra Malaga Event Gear tilpasses med reelle tilvalg, hver med sin egen pris.
+
+-   Til [Eco Pack](/packages/eco/) kan du tilføje en projektor og et lærred (+50 euro) eller en røgmaskine (+20 euro).
+
+-   Til [Basic MICE Pack](/packages/basic-mice/) kan du tilføje en dedikeret tekniker på stedet (+240 euro pr. dag).
+
+-   Til [MICE Pack](/packages/mice/) kan du tilføje en ekstra teknikertime (+40 euro), en talerstol (+50 euro) eller modulære scenepodier (+35 euro pr. kvadratmeter).
+
+-   Til [Wedding Pack](/packages/wedding/) kan du tilføje en røgmaskine (+20 euro).
+
+-   [Product Presentation Pack](/packages/product-presentation/) leveres i en fast konfiguration uden listede tilvalg.
+
+## Det kan du faktisk tilføje
+
+Fire af vores fem pakker har en reel liste over tilvalg. Her er præcis, hvad der står på den:
+
+-   **Eco Pack**: en projektor og et projektorlærred (+50 euro) eller en professionel røg- eller tågemaskine (+20 euro).
+-   **Wedding Pack**: en professionel røg- eller tågemaskine (+20 euro).
+-   **Basic MICE Pack**: en dedikeret teknisk assistent, der er på stedet hele dagen (+240 euro).
+-   **MICE Pack**: en ekstra time teknisk support på stedet ud over de seks, der er inkluderet (+40 euro pr. time), en talerstol i metakrylat i premiumkvalitet (+50 euro) eller modulære scenepodier (+35 euro pr. kvadratmeter).
+
+Præcise, aktuelle priser på hvert tilvalg finder du på vores [pakkeside](/packages/).
+
+<InlineCTA />
+
+## Pakken, der ikke kan ændres
+
+[Product Presentation Pack](/packages/product-presentation/) har ingen liste over tilvalg: den leveres i den konfiguration, der er beskrevet på pakkesiden, uden tekniker. [Wedding Pack](/packages/wedding/) er tæt på, med en tekniker inkluderet og en røgmaskine som eneste tilvalg. Hvis dit event har brug for noget ud over det, en pakke faktisk indeholder, så [kontakt os](/contact/) direkte i stedet for at gå ud fra, at det kan tilføjes.
+
+## Tilslut dit eget udstyr
+
+Det er ikke et betalt tilvalg, men det er godt at vide: [Product Presentation Pack](/packages/product-presentation/) omfatter HDMI- og USB-C-adaptere plus lydinterfaces uden ekstra betaling, så du kan tilslutte din egen bærbare computer, tablet eller medieafspiller til skærmen og lydanlægget.
+
+## Rigtige opsætninger, vi har leveret
+
+![Udlejning af lyd- og lysudstyr til et event i Malaga-provinsen.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-300x224.webp "Et historisk sted i Malaga-provinsen, forvandlet med professionelt lyd- og lysudstyr i anledning af et særligt event.")
+
+Et sted i Malaga-provinsen gjort klar til et mindre event med lyd- og lysudstyr.
+
+![Talerstol i metakrylat med teknisk support.](https://cdn.malagaeventgear.com/blog/1264/methacrylate_lectern_technical_support-300x224.webp "Den tekniske opsætning, der understøtter talerstolen og belysningen ved dette udendørs arrangement.")
+
+En talerstol i metakrylat med udstyr til teknisk support ved et udendørs aftenarrangement, samme slags talerstol, som MICE Pack tilbyder som tilvalg.
+
+![Talerstol og lydanlæg til en koncert i Malaga-provinsen.](https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-224x300.webp "En koncertscene i Malaga-provinsen med talerstol og et professionelt lydanlæg, klar til en medrivende optræden.")
+
+En talerstol og et lydanlæg sat op til en koncert i Malaga-provinsen.
+
+![Udlejning af dekorativ belysning i Malaga-provinsen.](https://cdn.malagaeventgear.com/blog/1271/malaga_decorative_lighting_rental-300x224.webp "Dekorative lyskæder, som Malaga Event Gear installerede til et udendørs aftenarrangement.")
+
+En udendørs gårdhave oplyst med lyskæder til et aftenarrangement.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('eco')} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Booking og dækningsområde
+
+Vores services dækker Malaga, Costa del Sol og Sevilla uden minimumsordre og strækker sig til Granada ved lejemål over 400 euro. Book mindst 24 timer i forvejen for at sikre dig tilgængelighed.
+
+## Konklusion
+
+Uanset hvilken pakke der passer til dit event, leverer Malaga Event Gear den med en klar liste med priser over, hvad der kan tilføjes. Se hele vores udvalg på [siden om AV-udlejning](/blog/audio-visual-rental/). [Kontakt os](/contact/) for at tale om dit event.
+
+Vil du først forstå, hvordan selve bookingen foregår? Læs vores guide [sådan fungerer AV-udlejning](/blog/how-audio-visual-rental-works/).
+
+## Ofte stillede spørgsmål
+
+### Hvad kan jeg faktisk tilføje til en pakke til AV-udlejning?
+
+Det afhænger af pakken. Til [Eco Pack](/packages/eco/) kan du tilføje en projektor og et lærred eller en røgmaskine. Til [Wedding Pack](/packages/wedding/) en røgmaskine. Til [Basic MICE Pack](/packages/basic-mice/) en dedikeret tekniker. Til [MICE Pack](/packages/mice/) ekstra teknikertimer, en talerstol eller en scene. Se [Det kan du faktisk tilføje](#det-kan-du-faktisk-tilføje) ovenfor.
+
+### Hvilken pakke kan ikke tilpasses?
+
+[Product Presentation Pack](/packages/product-presentation/) leveres i en fast konfiguration uden en liste over tilvalg. Wedding Packs eneste tilvalg er en røgmaskine. Se [Pakken, der ikke kan ændres](#pakken-der-ikke-kan-ændres) ovenfor.
+
+### Kan jeg tilføje en tekniker til en pakke, der ikke har en inkluderet?
+
+Ja, til [Basic MICE Pack](/packages/basic-mice/) kan du få en dedikeret tekniker på stedet for 240 euro pr. dag. Wedding Pack og MICE Pack har allerede en inkluderet.
+
+### Kan jeg tilføje en talerstol eller en scene til en erhvervspakke?
+
+Ja, begge er tilvalg til [MICE Pack](/packages/mice/): en talerstol i metakrylat for 50 euro og modulære scenepodier for 35 euro pr. kvadratmeter.
+
+### Kan man få en projektor som tilvalg?
+
+Ja, til [Eco Pack](/packages/eco/) kan du tilføje en projektor og et projektorlærred for 50 euro.
+
+### Er adaptere til min egen bærbare computer inkluderet, eller koster de ekstra?
+
+De er inkluderet uden ekstra betaling i [Product Presentation Pack](/packages/product-presentation/): HDMI- og USB-C-adaptere plus lydinterfaces følger med pakken.
+
+### Hvad koster det at tilføje ekstra teknikertimer?
+
+I [MICE Pack](/packages/mice/) koster en ekstra time teknisk support på stedet ud over de seks, der er inkluderet, 40 euro. Alle priser er ekskl. moms, med spansk moms på 21 % tilføjet ved checkout.
+
+### Hvad hvis jeg har brug for noget, der ikke står på nogen pakkes liste over tilvalg?
+
+Kontakt os direkte. Alt, hvad der ligger uden for en pakkes indhold og dens listede tilvalg, får et separat tilbud, når vi har bekræftet det, fra vores eget lager eller, hvis det ikke er en del af vores eget lager, gennem en af vores leverandører, hvis en af dem har det.

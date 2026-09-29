@@ -1,0 +1,128 @@
+---
+title: "Audiovisuele verhuurpakketten aanpassen in Malaga"
+description: "Audiovisuele verhuurpakketten aanpassen in Malaga, Spanje: de echte lijst met prijzen van wat je aan elk pakket kunt toevoegen, en wat elke optie kost."
+excerpt: "Audiovisuele verhuurpakketten aanpassen in Malaga, Spanje: de echte lijst met prijzen van wat je aan elk pakket kunt toevoegen, en wat elke optie kost."
+publishDate: "2026-09-29"
+sourceUpdated: "2026-09-29"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Wil je audiovisuele verhuurpakketten aanpassen in Malaga, Spanje? Onze pakketten zijn geen catalogus waaruit je zelf apparatuur samenstelt: elk pakket is een vaste basis, die ons team levert, installeert en test, met daarbovenop een korte, vaste lijst met opties. Hieronder zie je precies wat je aan elk pakket kunt toevoegen, en wat het kost.
+
+Malaga Event Gear levert, installeert en test elk pakket in Malaga en aan de hele Costa del Sol.
+
+[Neem vandaag nog contact met ons op](/contact/) om je evenement te bespreken.
+
+## In het kort
+
+---
+
+Bij Malaga Event Gear kun je audiovisuele verhuurpakketten aanpassen in Malaga via een vaste lijst met opties, niet via een open catalogus met apparatuur. Met ervaring die teruggaat tot 1996 leveren, installeren en testen we het basispakket, en voegen we daarna toe wat je kiest uit de lijst hieronder.
+
+## Belangrijkste punten
+
+---
+
+De pakketten van Malaga Event Gear pas je aan met echte opties, elk met een vaste prijs.
+
+-   Bij het [Eco Pack](/packages/eco/) kun je een beamer met scherm (+50 euro) of een rookmachine (+20 euro) toevoegen.
+
+-   Bij het [Basic MICE Pack](/packages/basic-mice/) kun je een eigen technicus ter plaatse toevoegen (+240 euro per dag).
+
+-   Bij het [MICE Pack](/packages/mice/) kun je een extra technicusuur (+40 euro), een spreekgestoelte (+50 euro) of modulaire podiumplatforms (+35 euro per vierkante meter) toevoegen.
+
+-   Bij het [Wedding Pack](/packages/wedding/) kun je een rookmachine toevoegen (+20 euro).
+
+-   Het [Product Presentation Pack](/packages/product-presentation/) wordt geleverd in een vaste configuratie, zonder vermelde opties.
+
+## Wat je echt kunt toevoegen
+
+Vier van onze vijf pakketten hebben een echte lijst met opties. Dit staat er precies op:
+
+-   **Eco Pack**: een beamer en projectiescherm (+50 euro), of een professionele rook- of nevelmachine (+20 euro).
+-   **Wedding Pack**: een professionele rook- of nevelmachine (+20 euro).
+-   **Basic MICE Pack**: een eigen technisch assistent die de hele dag ter plaatse is (+240 euro).
+-   **MICE Pack**: een extra uur technische ondersteuning ter plaatse bovenop de zes inbegrepen uren (+40 euro per uur), een premium spreekgestoelte van methacrylaat (+50 euro) of modulaire podiumplatforms (+35 euro per vierkante meter).
+
+De exacte, actuele prijzen van elke optie vind je op onze [pakkettenpagina](/packages/).
+
+<InlineCTA />
+
+## Het pakket dat vastligt
+
+Het [Product Presentation Pack](/packages/product-presentation/) heeft geen lijst met opties: het wordt geleverd in de configuratie die op de pakketpagina staat, zonder technicus. Het [Wedding Pack](/packages/wedding/) komt in de buurt, met een technicus inbegrepen en een rookmachine als enige optie. Heeft je evenement iets nodig dat buiten wat een pakket echt bevat valt, [neem dan direct contact met ons op](/contact/) in plaats van ervan uit te gaan dat het kan worden toegevoegd.
+
+## Je eigen apparaten aansluiten
+
+Dit is geen betaalde optie, maar wel goed om te weten: het [Product Presentation Pack](/packages/product-presentation/) bevat zonder meerprijs HDMI- en USB-C-adapters plus audio-interfaces, zodat je je eigen laptop, tablet of mediaspeler op het scherm en de geluidsinstallatie kunt aansluiten.
+
+## Echte opstellingen die we hebben geleverd
+
+![Verhuur van geluids- en lichtapparatuur voor een evenement in de provincie Malaga.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-300x224.webp "Een historische locatie in de provincie Malaga, omgetoverd voor een bijzonder evenement met professionele geluids- en lichtapparatuur.")
+
+Een locatie in de provincie Malaga, ingericht voor een klein evenement met geluids- en lichtapparatuur.
+
+![Spreekgestoelte van methacrylaat met technische ondersteuning.](https://cdn.malagaeventgear.com/blog/1264/methacrylate_lectern_technical_support-300x224.webp "De technische opstelling achter het spreekgestoelte en de verlichting van dit buitenevenement.")
+
+Een spreekgestoelte van methacrylaat met apparatuur voor technische ondersteuning bij een buitenevenement in de avond, hetzelfde soort spreekgestoelte dat het MICE Pack als optie aanbiedt.
+
+![Spreekgestoelte en geluidsinstallatie voor een concert in de provincie Malaga.](https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-224x300.webp "Een podiumopstelling voor een concert in de provincie Malaga, met een spreekgestoelte en een professionele geluidsinstallatie, klaar voor een boeiend optreden.")
+
+Een spreekgestoelte en een geluidsinstallatie opgesteld voor een concert in de provincie Malaga.
+
+![Huur van decoratieve verlichting in de provincie Malaga.](https://cdn.malagaeventgear.com/blog/1271/malaga_decorative_lighting_rental-300x224.webp "Decoratieve lichtsnoeren, door Malaga Event Gear geïnstalleerd voor een buitenevenement in de avond.")
+
+Een binnenplaats in de openlucht, verlicht met lichtsnoeren voor een avondevenement.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('eco')} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Boeking en servicegebied
+
+Onze diensten dekken Malaga, de Costa del Sol en Sevilla zonder minimale bestelling, en reiken tot Granada bij verhuur boven de 400 euro. Boek minstens 24 uur van tevoren om beschikbaarheid te garanderen.
+
+## Conclusie
+
+Welk pakket ook bij je evenement past, Malaga Event Gear levert het met een duidelijke lijst met prijzen van wat je er nog aan kunt toevoegen. Voor ons volledige aanbod, zie de [pagina over audiovisuele verhuur](/blog/audio-visual-rental/). [Neem contact met ons op](/contact/) om je evenement te bespreken.
+
+Wil je eerst begrijpen hoe het boeken zelf werkt? Lees dan onze gids [zo werkt audiovisuele verhuur](/blog/how-audio-visual-rental-works/).
+
+## Veelgestelde vragen
+
+### Wat kan ik echt aan een audiovisueel verhuurpakket toevoegen?
+
+Dat hangt af van het pakket. Bij het [Eco Pack](/packages/eco/) kun je een beamer met scherm of een rookmachine toevoegen. Bij het [Wedding Pack](/packages/wedding/) een rookmachine. Bij het [Basic MICE Pack](/packages/basic-mice/) een eigen technicus. Bij het [MICE Pack](/packages/mice/) extra technicusuren, een spreekgestoelte of een podium. Zie [Wat je echt kunt toevoegen](#wat-je-echt-kunt-toevoegen) hierboven.
+
+### Welk pakket kun je niet aanpassen?
+
+Het [Product Presentation Pack](/packages/product-presentation/) wordt geleverd in een vaste configuratie, zonder lijst met opties. De enige optie van het Wedding Pack is een rookmachine. Zie [Het pakket dat vastligt](#het-pakket-dat-vastligt) hierboven.
+
+### Kan ik een technicus toevoegen aan een pakket waarin er geen zit?
+
+Ja, bij het [Basic MICE Pack](/packages/basic-mice/) is een eigen technicus ter plaatse beschikbaar voor 240 euro per dag. Bij het Wedding Pack en het MICE Pack is er al een inbegrepen.
+
+### Kan ik een spreekgestoelte of podium toevoegen aan een zakelijk pakket?
+
+Ja, beide zijn opties bij het [MICE Pack](/packages/mice/): een spreekgestoelte van methacrylaat voor 50 euro en modulaire podiumplatforms voor 35 euro per vierkante meter.
+
+### Is een beamer beschikbaar als optie?
+
+Ja, bij het [Eco Pack](/packages/eco/) kun je een beamer en projectiescherm toevoegen voor 50 euro.
+
+### Zijn adapters voor mijn eigen laptop inbegrepen, of kosten die extra?
+
+Ze zijn zonder meerprijs inbegrepen bij het [Product Presentation Pack](/packages/product-presentation/): HDMI- en USB-C-adapters plus audio-interfaces horen bij het pakket.
+
+### Wat kost het om extra technicusuren toe te voegen?
+
+Bij het [MICE Pack](/packages/mice/) kost een extra uur technische ondersteuning ter plaatse bovenop de zes inbegrepen uren 40 euro. Alle tarieven zijn excl. btw, met de Spaanse btw van 21% erbovenop bij het afrekenen.
+
+### Wat als ik iets nodig heb dat op de optielijst van geen enkel pakket staat?
+
+Neem direct contact met ons op. Alles wat buiten de inhoud van een pakket en de vermelde opties valt, krijgt een aparte offerte zodra we het bevestigd hebben, uit onze eigen voorraad of, als het daar niet in zit, via een van onze leveranciers, als een van hen het heeft.

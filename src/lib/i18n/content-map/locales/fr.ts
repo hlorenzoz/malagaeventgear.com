@@ -311,6 +311,11 @@ export default {
 			slug: 'location-audio-et-video-pres-de-chez-moi',
 			keyword: 'location audio et vidéo près de chez moi',
 			status: 'propuesta'
+		},
+		'how-to-customize-av-rental-packages': {
+			slug: 'personnaliser-forfait-location-audiovisuelle',
+			keyword: 'personnaliser un forfait de location audiovisuelle à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

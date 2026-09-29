@@ -291,6 +291,11 @@ export default {
 			slug: '附近的投影機螢幕租賃',
 			keyword: '馬拉加 附近的投影機螢幕租賃',
 			status: 'propuesta'
+		},
+		'how-to-customize-av-rental-packages': {
+			slug: '如何客製化影音租賃方案',
+			keyword: '馬拉加 如何客製化影音租賃方案',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

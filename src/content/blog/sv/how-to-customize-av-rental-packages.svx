@@ -1,0 +1,128 @@
+---
+title: "Så kan du anpassa paket för AV-uthyrning i Malaga"
+description: "Så kan du anpassa paket för AV-uthyrning i Malaga, Spanien: den verkliga listan med priser över vad du kan lägga till i varje paket och vad tillvalen kostar."
+excerpt: "Så kan du anpassa paket för AV-uthyrning i Malaga, Spanien: den verkliga listan med priser över vad du kan lägga till i varje paket och vad tillvalen kostar."
+publishDate: "2026-09-29"
+sourceUpdated: "2026-09-29"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Vill du anpassa paket för AV-uthyrning i Malaga, Spanien? Våra paket är ingen utrustningskatalog där du bygger ihop allt själv: varje paket är en fast grund som vårt team levererar, installerar och testar, med en kort, fastställd lista med tillval ovanpå. Här ser du exakt vad du kan lägga till i varje paket, och vad det kostar.
+
+Malaga Event Gear levererar, installerar och testar varje paket i Malaga och längs hela Costa del Sol.
+
+[Kontakta oss](/contact/) redan i dag för att prata om ditt evenemang.
+
+## Kort översikt
+
+---
+
+Hos Malaga Event Gear kan du anpassa paket för AV-uthyrning i Malaga via en fastställd lista med tillval, inte via en öppen utrustningskatalog. Med erfarenhet som går tillbaka till 1996 levererar, installerar och testar vi grundpaketet och lägger sedan till det du väljer från listan nedan.
+
+## Det viktigaste
+
+---
+
+Paketen från Malaga Event Gear anpassas med verkliga tillval, vart och ett med sitt pris.
+
+-   Till [Eco Pack](/packages/eco/) kan du lägga till en projektor och en duk (+50 euro) eller en rökmaskin (+20 euro).
+
+-   Till [Basic MICE Pack](/packages/basic-mice/) kan du lägga till en egen tekniker på plats (+240 euro per dag).
+
+-   Till [MICE Pack](/packages/mice/) kan du lägga till en extra teknikertimme (+40 euro), en talarstol (+50 euro) eller modulära scenplattformar (+35 euro per kvadratmeter).
+
+-   Till [Wedding Pack](/packages/wedding/) kan du lägga till en rökmaskin (+20 euro).
+
+-   [Product Presentation Pack](/packages/product-presentation/) levereras i en fast konfiguration, utan listade tillval.
+
+## Det här kan du faktiskt lägga till
+
+Fyra av våra fem paket har en verklig lista med tillval. Det här står exakt på den:
+
+-   **Eco Pack**: en projektor och en projektorduk (+50 euro), eller en professionell rök- eller dimmaskin (+20 euro).
+-   **Wedding Pack**: en professionell rök- eller dimmaskin (+20 euro).
+-   **Basic MICE Pack**: en egen teknisk assistent som finns på plats hela dagen (+240 euro).
+-   **MICE Pack**: en extra timme teknisk support på plats utöver de sex som ingår (+40 euro per timme), en talarstol i metakrylat av premiumkvalitet (+50 euro) eller modulära scenplattformar (+35 euro per kvadratmeter).
+
+Exakta, aktuella priser för varje tillval hittar du på vår [paketsida](/packages/).
+
+<InlineCTA />
+
+## Paketet som inte går att ändra
+
+[Product Presentation Pack](/packages/product-presentation/) har ingen lista med tillval: det levereras i den konfiguration som beskrivs på paketsidan, utan tekniker. [Wedding Pack](/packages/wedding/) är nära, med en tekniker som ingår och en rökmaskin som enda tillval. Om ditt evenemang behöver något utöver det som faktiskt ingår i ett paket, [kontakta oss](/contact/) direkt i stället för att utgå från att det går att lägga till.
+
+## Anslut dina egna enheter
+
+Det här är inget tillval som kostar extra, men det är bra att känna till: [Product Presentation Pack](/packages/product-presentation/) omfattar HDMI- och USB-C-adaptrar plus ljudgränssnitt utan extra kostnad, så att du kan ansluta din egen bärbara dator, surfplatta eller mediaspelare till skärmen och ljudsystemet.
+
+## Verkliga uppsättningar vi har levererat
+
+![Uthyrning av ljud- och ljusutrustning för ett evenemang i provinsen Malaga.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-300x224.webp "En historisk lokal i provinsen Malaga förvandlad för ett särskilt evenemang med professionell ljud- och ljusutrustning.")
+
+En lokal i provinsen Malaga förberedd för ett mindre evenemang med ljud- och ljusutrustning.
+
+![Talarstol i metakrylat med teknisk support.](https://cdn.malagaeventgear.com/blog/1264/methacrylate_lectern_technical_support-300x224.webp "Den tekniska uppsättningen bakom talarstolen och belysningen vid det här utomhusevenemanget.")
+
+En talarstol i metakrylat med utrustning för teknisk support vid ett kvällsevenemang utomhus, samma typ av talarstol som MICE Pack erbjuder som tillval.
+
+![Talarstol och ljudsystem för en konsert i provinsen Malaga.](https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-224x300.webp "En konsertscen i provinsen Malaga med talarstol och ett professionellt ljudsystem, redo för ett medryckande framträdande.")
+
+En talarstol och ett ljudsystem uppställda för en konsert i provinsen Malaga.
+
+![Uthyrning av dekorativ belysning i provinsen Malaga.](https://cdn.malagaeventgear.com/blog/1271/malaga_decorative_lighting_rental-300x224.webp "Dekorativa ljusslingor som Malaga Event Gear installerade för ett utomhusevenemang en kväll.")
+
+En gård utomhus upplyst med ljusslingor för ett kvällsevenemang.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('eco')} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Bokning och serviceområde
+
+Våra tjänster täcker Malaga, Costa del Sol och Sevilla utan minsta order, och sträcker sig till Granada för uthyrningar över 400 euro. Boka minst 24 timmar i förväg för att garantera tillgänglighet.
+
+## Slutsats
+
+Vilket paket som än passar ditt evenemang levererar Malaga Event Gear det med en tydlig lista med priser över vad som kan läggas till. För hela vårt utbud, se [sidan om AV-uthyrning](/blog/audio-visual-rental/). [Kontakta oss](/contact/) för att prata om ditt evenemang.
+
+Vill du först förstå hur själva bokningen går till? Läs vår guide [så fungerar AV-uthyrning](/blog/how-audio-visual-rental-works/).
+
+## Vanliga frågor
+
+### Vad kan jag faktiskt lägga till i ett paket för AV-uthyrning?
+
+Det beror på paketet. Till [Eco Pack](/packages/eco/) kan du lägga till en projektor och en duk eller en rökmaskin. Till [Wedding Pack](/packages/wedding/) en rökmaskin. Till [Basic MICE Pack](/packages/basic-mice/) en egen tekniker. Till [MICE Pack](/packages/mice/) extra teknikertimmar, en talarstol eller en scen. Se [Det här kan du faktiskt lägga till](#det-här-kan-du-faktiskt-lägga-till) ovan.
+
+### Vilket paket går inte att anpassa?
+
+[Product Presentation Pack](/packages/product-presentation/) levereras i en fast konfiguration, utan lista med tillval. Wedding Packs enda tillval är en rökmaskin. Se [Paketet som inte går att ändra](#paketet-som-inte-går-att-ändra) ovan.
+
+### Kan jag lägga till en tekniker i ett paket där det inte ingår någon?
+
+Ja, till [Basic MICE Pack](/packages/basic-mice/) finns en egen tekniker på plats för 240 euro per dag. I Wedding Pack och MICE Pack ingår redan en.
+
+### Kan jag lägga till en talarstol eller en scen i ett företagspaket?
+
+Ja, båda är tillval till [MICE Pack](/packages/mice/): en talarstol i metakrylat för 50 euro och modulära scenplattformar för 35 euro per kvadratmeter.
+
+### Finns det en projektor som tillval?
+
+Ja, till [Eco Pack](/packages/eco/) kan du lägga till en projektor och en projektorduk för 50 euro.
+
+### Ingår adaptrar för min egen bärbara dator, eller kostar de extra?
+
+De ingår utan extra kostnad i [Product Presentation Pack](/packages/product-presentation/): HDMI- och USB-C-adaptrar plus ljudgränssnitt följer med paketet.
+
+### Vad kostar det att lägga till extra teknikertimmar?
+
+I [MICE Pack](/packages/mice/) kostar en extra timme teknisk support på plats utöver de sex som ingår 40 euro. Alla priser är exklusive moms, med spansk moms på 21 % tillagd i kassan.
+
+### Vad händer om jag behöver något som inte finns på något pakets lista med tillval?
+
+Kontakta oss direkt. Allt som ligger utanför det som ingår i ett paket och dess listade tillval får en separat offert när vi har bekräftat det, från vårt eget lager eller, om det inte finns i vårt eget lager, via någon av våra leverantörer, om någon av dem har det.

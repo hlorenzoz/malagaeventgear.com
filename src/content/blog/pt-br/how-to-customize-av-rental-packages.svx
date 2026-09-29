@@ -1,0 +1,128 @@
+---
+title: "Como personalizar pacotes de aluguel de audiovisual em Málaga"
+description: "Como personalizar pacotes de aluguel de audiovisual em Málaga, Espanha: a lista real, com preços, do que você pode adicionar a cada pacote e quanto custa."
+excerpt: "Como personalizar pacotes de aluguel de audiovisual em Málaga, Espanha: a lista real, com preços, do que você pode adicionar a cada pacote e quanto custa."
+publishDate: "2026-09-29"
+sourceUpdated: "2026-09-29"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Quer personalizar pacotes de aluguel de audiovisual em Málaga, Espanha? Nossos pacotes não são um catálogo de equipamentos para você montar do seu jeito: cada um é uma base fixa, entregue, montada e testada pela nossa equipe, com uma lista curta e definida de adicionais por cima. Veja exatamente o que você pode adicionar a cada pacote, e quanto custa.
+
+A Malaga Event Gear entrega, monta e testa cada pacote em Málaga e em toda a Costa del Sol.
+
+[Entre em contato](/contact/) hoje mesmo para falar sobre o seu evento.
+
+## Resumo
+
+---
+
+Na Malaga Event Gear, você pode personalizar pacotes de aluguel de audiovisual em Málaga por meio de uma lista definida de adicionais, e não de um catálogo aberto de equipamentos. Com uma experiência que vem desde 1996, entregamos, montamos e testamos o pacote base e depois adicionamos o que você escolher da lista abaixo.
+
+## Destaques
+
+---
+
+Os pacotes da Malaga Event Gear são personalizados com adicionais reais, cada um com o seu preço.
+
+-   No [Eco Pack](/packages/eco/) você pode adicionar um projetor e uma tela (+50 euros) ou uma máquina de fumaça (+20 euros).
+
+-   No [Basic MICE Pack](/packages/basic-mice/) você pode adicionar um técnico dedicado no local (+240 euros por dia).
+
+-   No [MICE Pack](/packages/mice/) você pode adicionar uma hora extra de técnico (+40 euros), um púlpito (+50 euros) ou plataformas modulares de palco (+35 euros por metro quadrado).
+
+-   No [Wedding Pack](/packages/wedding/) você pode adicionar uma máquina de fumaça (+20 euros).
+
+-   O [Product Presentation Pack](/packages/product-presentation/) é entregue em uma configuração fixa, sem adicionais listados.
+
+## O que você pode realmente adicionar
+
+Quatro dos nossos cinco pacotes têm uma lista real de adicionais. Veja exatamente o que está nela:
+
+-   **Eco Pack**: um projetor e uma tela de projeção (+50 euros), ou uma máquina profissional de fumaça ou névoa (+20 euros).
+-   **Wedding Pack**: uma máquina profissional de fumaça ou névoa (+20 euros).
+-   **Basic MICE Pack**: um assistente técnico dedicado, presente no local durante o dia todo (+240 euros).
+-   **MICE Pack**: uma hora adicional de suporte técnico no local além das seis incluídas (+40 euros por hora), um púlpito premium de metacrilato (+50 euros) ou plataformas modulares de palco (+35 euros por metro quadrado).
+
+Veja os preços exatos e atualizados de cada adicional na nossa [página de pacotes](/packages/).
+
+<InlineCTA />
+
+## O pacote que não muda
+
+O [Product Presentation Pack](/packages/product-presentation/) não tem uma lista de adicionais: ele é entregue na configuração descrita na página do pacote, sem técnico. O [Wedding Pack](/packages/wedding/) chega perto disso, com um técnico incluído e uma máquina de fumaça como único adicional. Se o seu evento precisar de algo que vá além do que um pacote realmente inclui, [entre em contato](/contact/) diretamente, em vez de supor que isso pode ser adicionado.
+
+## Como conectar seus próprios aparelhos
+
+Não é um adicional pago, mas vale saber: o [Product Presentation Pack](/packages/product-presentation/) inclui, sem custo extra, adaptadores HDMI e USB-C e interfaces de áudio, para você conectar o seu próprio notebook, tablet ou player de mídia à tela e ao sistema de som.
+
+## Montagens reais que já entregamos
+
+![Aluguel de equipamento de som e iluminação para um evento na província de Málaga.](https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-300x224.webp "Um espaço histórico da província de Málaga transformado para um evento especial com equipamento profissional de som e iluminação.")
+
+Um espaço na província de Málaga preparado para um evento pequeno com equipamento de som e iluminação.
+
+![Púlpito de metacrilato com suporte técnico.](https://cdn.malagaeventgear.com/blog/1264/methacrylate_lectern_technical_support-300x224.webp "A montagem técnica que dá suporte ao púlpito e à iluminação deste evento ao ar livre.")
+
+Um púlpito de metacrilato com equipamento de suporte técnico em um evento noturno ao ar livre, o mesmo tipo de púlpito que o MICE Pack oferece como adicional.
+
+![Púlpito e sistema de som para um show na província de Málaga.](https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-224x300.webp "Uma montagem de palco para um show na província de Málaga, com um púlpito e um sistema de som profissional, pronta para uma apresentação envolvente.")
+
+Um púlpito e um sistema de som montados para um show na província de Málaga.
+
+![Aluguel de iluminação decorativa na província de Málaga.](https://cdn.malagaeventgear.com/blog/1271/malaga_decorative_lighting_rental-300x224.webp "Varais de luzes decorativas instalados pela Malaga Event Gear para um evento noturno ao ar livre.")
+
+Um pátio ao ar livre iluminado com varais de luzes para um evento noturno.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('eco')} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Reserva e área de atendimento
+
+Nossos serviços atendem Málaga, a Costa del Sol e Sevilha sem pedido mínimo, e se estendem a Granada para aluguéis acima de 400 euros. Reserve com pelo menos 24 horas de antecedência para garantir disponibilidade.
+
+## Conclusão
+
+Seja qual for o pacote certo para o seu evento, a Malaga Event Gear entrega com uma lista clara, com preços, do que pode ser adicionado. Para a nossa linha completa, veja a [página de aluguel de audiovisual](/blog/audio-visual-rental/). [Entre em contato](/contact/) para falar sobre o seu evento.
+
+Quer entender primeiro como funciona o próprio processo de reserva? Veja o nosso guia [como funciona o aluguel de audiovisual](/blog/how-audio-visual-rental-works/).
+
+## Perguntas frequentes
+
+### O que eu posso realmente adicionar a um pacote de aluguel de audiovisual?
+
+Depende do pacote. No [Eco Pack](/packages/eco/) você pode adicionar um projetor e uma tela ou uma máquina de fumaça. No [Wedding Pack](/packages/wedding/), uma máquina de fumaça. No [Basic MICE Pack](/packages/basic-mice/), um técnico dedicado. No [MICE Pack](/packages/mice/), horas extras de técnico, um púlpito ou um palco. Veja [O que você pode realmente adicionar](#o-que-você-pode-realmente-adicionar) acima.
+
+### Qual pacote não pode ser personalizado?
+
+O [Product Presentation Pack](/packages/product-presentation/) é entregue em uma configuração fixa, sem lista de adicionais. O único adicional do Wedding Pack é uma máquina de fumaça. Veja [O pacote que não muda](#o-pacote-que-não-muda) acima.
+
+### Posso adicionar um técnico a um pacote que não inclui um?
+
+Sim, no [Basic MICE Pack](/packages/basic-mice/) há um técnico dedicado no local disponível por 240 euros por dia. O Wedding Pack e o MICE Pack já incluem um.
+
+### Posso adicionar um púlpito ou um palco a um pacote corporativo?
+
+Sim, os dois são adicionais do [MICE Pack](/packages/mice/): um púlpito de metacrilato por 50 euros e plataformas modulares de palco por 35 euros por metro quadrado.
+
+### Existe um projetor disponível como adicional?
+
+Sim, no [Eco Pack](/packages/eco/) você pode adicionar um projetor e uma tela de projeção por 50 euros.
+
+### Os adaptadores para o meu próprio notebook estão incluídos ou são cobrados à parte?
+
+Eles estão incluídos sem custo extra no [Product Presentation Pack](/packages/product-presentation/): os adaptadores HDMI e USB-C e as interfaces de áudio vêm com o pacote.
+
+### Quanto custa adicionar horas extras de técnico?
+
+No [MICE Pack](/packages/mice/), uma hora adicional de suporte técnico no local além das seis incluídas custa 40 euros. Todos os valores são sem IVA, e o IVA espanhol de 21% é somado no pagamento.
+
+### E se eu precisar de algo que não está na lista de adicionais de nenhum pacote?
+
+Entre em contato diretamente. Tudo o que estiver fora do que um pacote inclui e dos adicionais listados recebe um orçamento à parte depois que confirmarmos, a partir do nosso inventário próprio ou, se não estiver nele, por meio de um dos nossos fornecedores, se algum deles tiver.

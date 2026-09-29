@@ -315,6 +315,11 @@ export default {
 			slug: 'lyd-og-videoutleie-i-naerheten-av-meg',
 			keyword: 'lyd- og videoutleie i nærheten av meg',
 			status: 'propuesta'
+		},
+		'how-to-customize-av-rental-packages': {
+			slug: 'tilpasse-pakker-for-av-utleie',
+			keyword: 'tilpasse pakker for AV-utleie i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

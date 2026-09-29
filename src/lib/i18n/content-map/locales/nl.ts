@@ -311,6 +311,11 @@ export default {
 			slug: 'audio-en-videoverhuur-bij-mij-in-de-buurt',
 			keyword: 'audio- en videoverhuur bij mij in de buurt',
 			status: 'propuesta'
+		},
+		'how-to-customize-av-rental-packages': {
+			slug: 'audiovisuele-verhuurpakketten-aanpassen',
+			keyword: 'audiovisuele verhuurpakketten aanpassen in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -311,6 +311,11 @@ export default {
 			slug: 'audio-und-videoverleih-in-meiner-naehe',
 			keyword: 'Audio- und Videoverleih in meiner Nähe',
 			status: 'propuesta'
+		},
+		'how-to-customize-av-rental-packages': {
+			slug: 'av-vermietungspakete-anpassen',
+			keyword: 'AV-Vermietungspakete in Malaga anpassen',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

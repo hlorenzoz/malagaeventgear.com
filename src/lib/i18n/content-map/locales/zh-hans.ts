@@ -291,6 +291,11 @@ export default {
 			slug: '附近的音视频租赁',
 			keyword: '马拉加 附近的音视频租赁',
 			status: 'propuesta'
+		},
+		'how-to-customize-av-rental-packages': {
+			slug: '如何定制活动视听租赁套餐',
+			keyword: '马拉加 如何定制活动视听租赁套餐',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
