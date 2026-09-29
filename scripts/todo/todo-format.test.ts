@@ -316,3 +316,26 @@ describe('rule 12', () => {
 		expect(HEADER_LINES.join('\n')).not.toMatch(/[—–‘’“”…;]/);
 	});
 });
+
+describe('bloqueada', () => {
+	it('renders blocked tasks in their own section, between pendientes and hechas', () => {
+		const out = renderTodo([
+			task({ id: '#T0001', titulo: 'A' }),
+			task({ id: '#T0002', titulo: 'B', estado: 'bloqueada', prioridad: 'alta' }),
+			task({ id: '#T0003', titulo: 'C', estado: 'hecha', hecha: '2026-10-02' })
+		]);
+		const at = (s: string) => out.indexOf(s);
+		expect(at('== PENDIENTES ==')).toBeLessThan(at('=== TAREA #T0001 ==='));
+		expect(at('=== TAREA #T0001 ===')).toBeLessThan(at('== BLOQUEADAS =='));
+		expect(at('== BLOQUEADAS ==')).toBeLessThan(at('=== TAREA #T0002 ==='));
+		expect(at('=== TAREA #T0002 ===')).toBeLessThan(at('== HECHAS =='));
+		expect(out).toContain('Estado: bloqueada\n');
+	});
+
+	it('omits the section when nothing is blocked, and round trips the state', () => {
+		expect(renderTodo([task()])).not.toContain('== BLOQUEADAS ==');
+		const out = renderTodo([task({ id: '#T0002', estado: 'bloqueada' })]);
+		expect(parseTodo(out).tasks[0].estado).toBe('bloqueada');
+		expect(renderTodo(parseTodo(out).tasks)).toBe(out);
+	});
+});

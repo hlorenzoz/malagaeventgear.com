@@ -3,7 +3,8 @@
  * organize.ts: `just todo-organize`. Reads TODO.txt (task blocks, legacy `-- ` entries and loose
  * text), normalizes everything into tasks, upserts the content-strategist tasks from the
  * committed plans, applies the priorities a plan proposes, closes the tasks keywords.json shows
- * as done, sorts (pendientes by priority, hechas last) and writes the file back.
+ * as done, blocks the content-strategist tasks while posts are still untranslated, sorts
+ * (pendientes by priority, then bloqueadas, hechas last) and writes the file back.
  *
  * Usage: `bun scripts/todo/organize.ts [--file <path>] [--dry-run] [--needs-priority]
  *   [--keywords <path>] [--today YYYY-MM-DD]`
@@ -20,7 +21,14 @@ import { existsSync, readFileSync, renameSync, statSync, writeFileSync } from 'n
 import { join } from 'node:path';
 import { readCommittedPlans } from '../keywords/importers/content-plan';
 import type { ContentPlan } from '../keywords/plan.schema';
-import { applyPriorities, autoComplete, upsertPlanTasks, type KeywordStatus } from './plan-tasks';
+import { readTranslationBacklog } from '../keywords/new-post-quota';
+import {
+	applyPriorities,
+	applyTranslationGate,
+	autoComplete,
+	upsertPlanTasks,
+	type KeywordStatus
+} from './plan-tasks';
 import {
 	DEFAULT_PRIORITY_NOTE,
 	MANAGED_MARKER,
@@ -37,6 +45,9 @@ export interface OrganizeCtx {
 	today: string;
 	/** Origen of legacy entries and loose text (`usuario`, or `migrada` for the one time migration). */
 	origen: string;
+	/** Every published English post is translated to the 12 languages (gate of the
+	 *  content-strategist tasks, see `applyTranslationGate`). */
+	translationsDone: boolean;
 }
 
 export interface OrganizeResult {
@@ -53,7 +64,7 @@ export function organizeText(text: string, ctx: OrganizeCtx): OrganizeResult {
 	const inputTasks = assignIds(upsertPlanTasks(resolved, ctx.plans));
 	const prioritized = applyPriorities(inputTasks, ctx.plans);
 	const completed = autoComplete(prioritized, ctx.plans, ctx.keywords, ctx.today);
-	const output = renderTodo(completed);
+	const output = renderTodo(applyTranslationGate(completed, ctx.translationsDone));
 	return { output, tasks: parseTodo(output).tasks, inputTasks };
 }
 
@@ -173,7 +184,8 @@ function run(argv: string[]): number {
 		plans: readCommittedPlans(),
 		keywords: readKeywordStatuses(flag(argv, '--keywords') ?? join(process.cwd(), 'keywords.json')),
 		today: flag(argv, '--today') ?? localToday(),
-		origen: 'usuario'
+		origen: 'usuario',
+		translationsDone: readTranslationBacklog().complete
 	};
 
 	for (let attempt = 0; attempt < 2; attempt++) {

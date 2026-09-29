@@ -13,7 +13,8 @@
  * `totals.aboveTier`), because every relevant keyword ends up as content sooner or later.
  * Ranking: fit (in-tier, below, unknown, above), then `opportunity` (high, medium, low, null), GSC impressions, Google
  * Ads average monthly searches, Ubersuggest volume, then id for a stable order. Only measured
- * numbers are shown: a keyword with none says "no measured data", never a guess.
+ * numbers are shown: a keyword with none says "no measured data", never a guess. The output also
+ * carries today's `newPostQuota` (`new-post-quota.ts`): how many new posts the plan may propose.
  */
 
 import { readFileSync } from 'node:fs';
@@ -26,6 +27,7 @@ import {
 	type Tier,
 	type TierReport
 } from './traffic-tier';
+import { newPostQuota, readTranslationBacklog } from './new-post-quota';
 
 const DEFAULT_LIMIT = 20;
 const NEW_FAQS_CAP = 10;
@@ -223,7 +225,12 @@ if (import.meta.main) {
 	const file = KeywordsFileSchema.parse(
 		JSON.parse(readFileSync(join(process.cwd(), 'keywords.json'), 'utf8'))
 	);
+	const today = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/Madrid' });
+	const backlog = readTranslationBacklog();
 	console.log(
-		JSON.stringify(buildOpportunities(file, parseLimit(process.argv.slice(2)), tier, tierError))
+		JSON.stringify({
+			...buildOpportunities(file, parseLimit(process.argv.slice(2)), tier, tierError),
+			newPostQuota: { ...newPostQuota(today, backlog), backlog }
+		})
 	);
 }

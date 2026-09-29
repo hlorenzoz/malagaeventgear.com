@@ -22,6 +22,7 @@ const PRIORITY_WORD: Record<PlanPriority, Prioridad> = {
 	low: 'baja'
 };
 export const PLAN_COVERAGE_NOTE = 'marcada hecha por plan-coverage';
+export const TRANSLATION_GATE_NOTE = 'bloqueada hasta terminar las traducciones de todos los posts';
 
 const ORIGIN_PREFIX = 'content-strategist (plan ';
 
@@ -138,5 +139,39 @@ export function autoComplete(
 			hecha: today,
 			nota: t.nota ? `${t.nota}, ${PLAN_COVERAGE_NOTE}` : PLAN_COVERAGE_NOTE
 		};
+	});
+}
+
+const withoutGateNote = (nota?: string) =>
+	nota
+		?.split(', ')
+		.filter((n) => n !== TRANSLATION_GATE_NOTE)
+		.join(', ') || undefined;
+
+const setNota = (t: Task, nota: string | undefined): Task => {
+	const { nota: _drop, ...rest } = t;
+	return nota ? { ...rest, nota } : rest;
+};
+
+/** Pure: the translation gate (user decision, 2026-09-29). While any published English post lacks
+ *  a translation (`translationsDone` false), open content-strategist tasks wait as `bloqueada` with
+ *  TRANSLATION_GATE_NOTE, and they go back to `pendiente` once every post is translated. Tasks from
+ *  anyone else, tasks `en curso` and done tasks keep their Estado (a done task only loses the note). */
+export function applyTranslationGate(tasks: Task[], translationsDone: boolean): Task[] {
+	return tasks.map((t) => {
+		if (!t.origen.startsWith(ORIGIN_PREFIX)) return t;
+		const gated = t.nota?.split(', ').includes(TRANSLATION_GATE_NOTE) ?? false;
+		if (t.estado === 'hecha') return gated ? setNota(t, withoutGateNote(t.nota)) : t;
+		if (!translationsDone && t.estado === 'pendiente') {
+			return {
+				...t,
+				estado: 'bloqueada',
+				nota: t.nota ? `${t.nota}, ${TRANSLATION_GATE_NOTE}` : TRANSLATION_GATE_NOTE
+			};
+		}
+		if (translationsDone && t.estado === 'bloqueada') {
+			return { ...setNota(t, withoutGateNote(t.nota)), estado: 'pendiente' };
+		}
+		return t;
 	});
 }

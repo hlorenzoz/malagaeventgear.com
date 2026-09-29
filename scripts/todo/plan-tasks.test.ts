@@ -7,6 +7,8 @@ import {
 	upsertPlanTasks,
 	applyPriorities,
 	autoComplete,
+	applyTranslationGate,
+	TRANSLATION_GATE_NOTE,
 	type KeywordStatus
 } from './plan-tasks';
 
@@ -290,5 +292,53 @@ describe('autoComplete', () => {
 			'2026-10-05'
 		);
 		expect(again).toEqual(out);
+	});
+});
+
+describe('applyTranslationGate', () => {
+	const t = (over: Partial<Task>): Task => ({
+		id: '#T0001',
+		estado: 'pendiente',
+		prioridad: 'media',
+		titulo: 'x',
+		anotada: '2026-09-29',
+		origen: 'content-strategist (plan 2026-09-29, ítem 1)',
+		descripcion: ['d'],
+		...over
+	});
+
+	it('blocks pending content-strategist tasks while translations are missing, with a note', () => {
+		const [out] = applyTranslationGate([t({ nota: 'prioridad por defecto' })], false);
+		expect(out.estado).toBe('bloqueada');
+		expect(out.nota).toBe(`prioridad por defecto, ${TRANSLATION_GATE_NOTE}`);
+		expect(applyTranslationGate([out], false)).toEqual([out]);
+	});
+
+	it('unblocks them, and drops only its note, once every post is translated', () => {
+		const blocked = applyTranslationGate([t({ nota: 'otra' })], false);
+		const [out] = applyTranslationGate(blocked, true);
+		expect(out.estado).toBe('pendiente');
+		expect(out.nota).toBe('otra');
+		const [bare] = applyTranslationGate(applyTranslationGate([t({})], false), true);
+		expect(bare.nota).toBeUndefined();
+	});
+
+	it('never touches user tasks, tasks in progress or done tasks', () => {
+		const tasks = [
+			t({ id: '#T0002', origen: 'usuario' }),
+			t({ id: '#T0003', estado: 'en curso' }),
+			t({ id: '#T0004', estado: 'hecha', hecha: '2026-10-01' }),
+			t({ id: '#T0005', origen: 'usuario', estado: 'bloqueada' })
+		];
+		expect(applyTranslationGate(tasks, false)).toEqual(tasks);
+		expect(applyTranslationGate(tasks, true)).toEqual(tasks);
+	});
+
+	it('drops the note from a blocked task that got completed', () => {
+		const [out] = applyTranslationGate(
+			[t({ estado: 'hecha', hecha: '2026-10-01', nota: `${TRANSLATION_GATE_NOTE}, marcada hecha por plan-coverage` })],
+			false
+		);
+		expect(out.nota).toBe('marcada hecha por plan-coverage');
 	});
 });

@@ -5,11 +5,22 @@
  * The pure renderers are shared with `scripts/todo/plan-tasks.ts`, which turns a plan into tasks
  * and `scripts/todo/organize.ts`, which writes them (this script no longer touches TODO.txt).
  *
- * Usage: `bun scripts/keywords/plan-to-todo.ts --check <plan.json>` (exit 1 when invalid)
+ * Usage: `bun scripts/keywords/plan-to-todo.ts --check <plan.json>` (exit 1 when invalid, also when
+ * the plan has more `new-post` items than the day's quota, see `new-post-quota.ts`)
  */
 
 import { readFileSync } from 'node:fs';
 import { ContentPlanSchema, type ContentPlan, type PlanItem } from './plan.schema';
+import { checkNewPostQuota, newPostQuota, readTranslationBacklog } from './new-post-quota';
+
+/** Items that are not `skip` a plan may carry (skips never count). */
+export const MAX_ITEMS = 8;
+
+/** Pure: null when the plan has at most MAX_ITEMS items that are not skip, otherwise the error. */
+export function checkItemCap(plan: ContentPlan): string | null {
+	const count = plan.items.filter((i) => i.action !== 'skip').length;
+	return count <= MAX_ITEMS ? null : `${count} items that are not skip, the limit is ${MAX_ITEMS}`;
+}
 
 export const ITEM_RULE_LINE =
 	'Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate.';
@@ -89,6 +100,13 @@ function main(argv: string[]) {
 	const parsed = ContentPlanSchema.safeParse(JSON.parse(readFileSync(planPath, 'utf8')));
 	if (!parsed.success) {
 		console.error(`[content-plan] invalid plan ${planPath}:\n${parsed.error.message}`);
+		process.exit(1);
+	}
+	const quotaError =
+		checkItemCap(parsed.data) ??
+		checkNewPostQuota(parsed.data, newPostQuota(parsed.data.date, readTranslationBacklog()));
+	if (quotaError) {
+		console.error(`[content-plan] invalid plan ${planPath}: ${quotaError}`);
 		process.exit(1);
 	}
 	console.log(`[content-plan] ${planPath} is valid (${parsed.data.items.length} items)`);

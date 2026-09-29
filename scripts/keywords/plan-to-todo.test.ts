@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { itemTitle, renderItemBody, tierLine, ITEM_RULE_LINE } from './plan-to-todo';
+import { itemTitle, renderItemBody, tierLine, ITEM_RULE_LINE, checkItemCap, MAX_ITEMS } from './plan-to-todo';
 import type { ContentPlan } from './plan.schema';
 
 const plan: ContentPlan = {
@@ -171,6 +171,23 @@ describe('tierLine', () => {
 			})
 		).toBe(
 			'Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-23).'
+		);
+	});
+});
+
+describe('checkItemCap', () => {
+	const planOf = (actions: string[]) =>
+		({ date: '2026-09-29', items: actions.map((action) => ({ action })) }) as unknown as ContentPlan;
+
+	it('counts only the items that are not skip', () => {
+		expect(MAX_ITEMS).toBe(8);
+		const skips = Array(30).fill('skip');
+		expect(checkItemCap(planOf([...Array(8).fill('add-faq'), ...skips]))).toBeNull();
+	});
+
+	it('rejects a plan with more than 8 items that are not skip', () => {
+		expect(checkItemCap(planOf(Array(9).fill('add-section')))).toMatch(
+			/9 items that are not skip, the limit is 8/
 		);
 	});
 });

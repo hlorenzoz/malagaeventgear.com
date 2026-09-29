@@ -1072,8 +1072,15 @@ que requiere pedido explícito del usuario y nunca es un efecto colateral de una
 de idioma](#reglas-mandatorias-de-idioma)). Cada traducción publicada de ese post recibe la misma
 edición, en su idioma, y su `sourceUpdated` pasa a la nueva `updatedDate` inglesa.
 `src/lib/i18n/post-freshness.test.ts` falla si alguna queda atrás. Si el post todavía no tiene
-traducciones (Fase 4 en curso), la edición inglesa entra antes de su turno de traducción, así se
-traduce una sola vez con el contenido ya actualizado.
+traducciones, la edición inglesa entra antes de su turno de traducción, así se traduce una sola vez
+con el contenido ya actualizado.
+
+**Etapa inicial de traducción (decisión del usuario, 2026-09-29)**: hasta que TODOS los posts
+publicados estén traducidos a los 12 idiomas, no se crea contenido nuevo ni se actualiza el que
+existe. Primero se termina de traducir. La regla del párrafo anterior (actualizar antes de traducir)
+se aplica recién después de esa etapa. El content-strategist sigue planificando, pero sus tareas
+quedan `bloqueada` en `TODO.txt` y se destraban solas al terminar (ver "`TODO.txt`: formato de
+tareas"). El 2026-09-29 faltaban 240 traducciones: 20 posts de 77.
 
 ### Publicación: solo por push (sin cron)
 
@@ -1465,9 +1472,19 @@ cadena y sus piezas deterministas (todas en `scripts/keywords/`, strict TDD):
   imprime las keywords `idea` que ningún plan miró todavía, ordenadas por `opportunity`, luego
   impresiones de GSC, búsquedas de Google Ads y volumen de Ubersuggest, cada una con una línea de
   evidencia (solo números medidos, "no measured data" si no hay ninguno), sus FAQs y AI prompts
-  `idea`, más hasta 10 FAQs sueltas (`newFaqs`). `just content-inventory [--cluster <cluster>]`
+  `idea`, más hasta 10 FAQs sueltas (`newFaqs`) y el cupo de posts nuevos del día
+  (`newPostQuota`, de `new-post-quota.ts`). `just content-inventory [--cluster <cluster>]`
   (`content-inventory.ts`) imprime los posts ingleses publicados con su URL, keyword, rol de silo,
   clúster, H2/H3 en orden y preguntas de FAQ, para el chequeo de canibalización.
+- **Cupo de posts nuevos (decisión del usuario, 2026-09-29)**: mientras algún post inglés
+  publicado no tenga su traducción en alguno de los 12 idiomas, 1 post nuevo por día (el 2026-09-29
+  faltaban 240 traducciones: 20 posts de 77). Con todo traducido, el máximo alterna 1 y 2 por día
+  (paridad del número de día, así no se corta a fin de mes). Es un techo, no una meta. Cada post
+  nuevo sale con sus 12 traducciones en el mismo cambio. Lo impone el código:
+  `plan-to-todo.ts --check` (dentro de `just content-plan-apply`) rechaza un plan que lo supere, y
+  también uno con más de 8 ítems que no sean `skip` (los `skip` nunca cuentan). Las traducciones de
+  los posts existentes no son ítems del plan: van por su propio carril y no cuentan para ningún
+  tope.
 - **El plan**: `.agents/context/keywords/content-plan/YYYY-MM-DD.json`, validado por
   `plan.schema.ts` (Zod). Cada ítem es `add-section`, `new-post`, `add-faq` o `skip`, con
   prioridad, evidencia y motivo. Un `new-post` apunta a uno de los 5 pilares de "Los silos de MEG".
@@ -1520,13 +1537,14 @@ descripción libre, tal cual, en las líneas que hagan falta (puede llevar "✅ 
 === FIN #T0041 ===
 ```
 
-- **Campos**, en este orden fijo. `Estado`: `pendiente`, `en curso` o `hecha`. `Prioridad`: `alta`,
+- **Campos**, en este orden fijo. `Estado`: `pendiente`, `en curso`, `bloqueada` o `hecha`. `Prioridad`: `alta`,
   `media` o `baja`. `Anotada`: `YYYY-MM-DD` o `sin fecha`. `Hecha`: solo en las hechas, opcional.
   `Origen`: `usuario`, `migrada` o `content-strategist (plan YYYY-MM-DD, ítem N)`. `Nota`:
   opcional, una línea. El id es `#T` más 4 dígitos, único, y no se reutiliza. La descripción no la
   reescribe nadie: el organizador solo deriva metadatos.
 - **Orden del archivo**: un comentario de cabecera (`#`) que explica el formato, después
-  `== PENDIENTES ==` y al final `== HECHAS ==`, con una línea en blanco entre bloques. Pendientes:
+  `== PENDIENTES ==`, `== BLOQUEADAS ==` (solo si hay alguna) y al final `== HECHAS ==`, con una
+  línea en blanco entre bloques. Pendientes y bloqueadas, cada sección por su lado:
   prioridad `alta`, `media`, `baja`. Dentro de una prioridad, `en curso` antes que `pendiente`, la
   `Anotada` más nueva primero (`sin fecha` al final) y el id. Hechas: la `Hecha` más nueva primero
   (sin fecha al final), luego la `Anotada` más nueva y el id. Lo nuevo y sin terminar queda arriba.
@@ -1550,6 +1568,12 @@ descripción libre, tal cual, en las líneas que hagan falta (puede llevar "✅ 
   `Nota: marcada hecha por plan-coverage`) solo cuando `keywords.json` muestra la primera keyword
   del ítem como `covered` o `published` con la `url` igual al destino del ítem. Ninguna otra tarea
   cambia de estado sola: marcar las demás como hechas es decisión de una persona.
+- **Bloqueo por traducciones (decisión del usuario, 2026-09-29)**: mientras algún post inglés
+  publicado no tenga traducción en alguno de los 12 idiomas, `just todo-organize` pasa a `bloqueada`
+  las tareas `pendiente` del content-strategist, con `Nota: bloqueada hasta terminar las
+  traducciones de todos los posts`. Cuando el backlog llega a 0 vuelven solas a `pendiente` y
+  pierden esa nota. Las tareas `en curso`, las hechas y las de cualquier otro origen no se tocan:
+  una tarea del usuario se bloquea a mano, poniendo `Estado: bloqueada`.
 - **Prioridades**: el plan puede traer `todo: [{ id, priority, reason }]` (`alta`, `media`, `baja`).
   Se aplica SOLO a tareas cuya `Nota` dice `prioridad por defecto`, y esa frase pasa a
   `prioridad asignada por content-strategist el <fecha>: <motivo>`. Cualquier otro id se ignora.

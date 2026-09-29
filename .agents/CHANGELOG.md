@@ -7,6 +7,20 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Added (todo): tareas del content-strategist bloqueadas hasta terminar las traducciones
+- **Decisión del usuario (2026-09-29)**: no se crea ni se actualiza contenido hasta que todos los posts publicados estén traducidos a los 12 idiomas. El planificador sigue trabajando y sus tareas esperan en `TODO.txt`. La regla de actualizar un post antes de traducirlo vale recién después de esa etapa.
+- **Estado nuevo `bloqueada`** (`scripts/todo/todo-format.ts`): sección `== BLOQUEADAS ==` entre pendientes y hechas, solo si hay alguna.
+- **`applyTranslationGate`** (`scripts/todo/plan-tasks.ts`, strict TDD): `just todo-organize` bloquea las tareas `pendiente` del content-strategist mientras `readTranslationBacklog()` no esté completo, con nota, y las destraba solas al terminar. No toca tareas `en curso`, hechas ni de otro origen. Al aplicarlo, 6 tareas del plan del 2026-09-29 quedaron bloqueadas.
+- **Tope de 8 ítems** (`checkItemCap` en `plan-to-todo.ts`): los `skip` nunca cuentan, y ahora lo impone `--check`, no solo el prompt.
+- **Docs**: `CLAUDE.md` (actualizar un post, formato de `TODO.txt`, el agente de contenido) y el agente `content-strategist`.
+
+### Added (keywords): cupo diario de posts nuevos, atado al backlog de traducciones
+- **Decisión del usuario (2026-09-29)**: subir los posts nuevos a 1 o 2 por día alternados, cada uno con sus 12 traducciones, pero solo después de traducir todos los posts actuales del sitio.
+- **`scripts/keywords/new-post-quota.ts`** (strict TDD, `new-post-quota.test.ts`): cuenta los pares (post inglés publicado, idioma) sin traducción. Mientras haya alguno, el límite es 1. Sin backlog, alterna 1 y 2 por la paridad del número de día. Al 2026-09-29: 77 posts ingleses, 57 traducidos por idioma, 240 traducciones pendientes, límite 1.
+- **`just content-candidates`** imprime `newPostQuota` (límite, motivo y backlog). **`plan-to-todo.ts --check`** rechaza un plan con más `new-post` que el cupo del día, así que `just content-plan-apply` falla.
+- **`content-strategist`**: el tope de un post nuevo por corrida pasa a `newPostQuota.limit`, como techo y nunca como meta. El tope de 8 ítems no cambia.
+- **Docs**: `CLAUDE.md` ("El agente de contenido").
+
 ### Changed (keywords): el tier de Avalanche solo prioriza, nunca filtra
 - **Decisión del usuario (2026-09-29)**: el tier decide el orden del trabajo y la prioridad de cada tarea en `TODO.txt`, no si una keyword se convierte en contenido. Al final se crea o se actualiza todo el contenido relevante para el sitio, tenga el volumen que tenga.
 - **`opportunities.ts` (`just content-candidates`)**: las keywords por encima del tier ya no se descartan. Entran como último grupo (dentro, debajo, sin volumen, encima), y `totals.aboveTier` las sigue contando. Con el export del 2026-09-23 eran 19 de 813 candidatas que nunca llegaban al plan. Test actualizado (strict TDD).

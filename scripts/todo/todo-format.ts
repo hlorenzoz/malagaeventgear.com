@@ -13,7 +13,7 @@
  * The description is never rewritten: only metadata is derived.
  */
 
-export const ESTADOS = ['pendiente', 'en curso', 'hecha'] as const;
+export const ESTADOS = ['pendiente', 'en curso', 'bloqueada', 'hecha'] as const;
 export const PRIORIDADES = ['alta', 'media', 'baja'] as const;
 export type Estado = (typeof ESTADOS)[number];
 export type Prioridad = (typeof PRIORIDADES)[number];
@@ -54,7 +54,7 @@ export const HEADER_LINES = [
 	'# TODO.txt: lista de tareas del proyecto, ordenada por `just todo-organize`.',
 	'# Cada tarea es un bloque delimitado, con estos campos en este orden:',
 	'#   === TAREA #T0041 ===',
-	'#   Estado: pendiente | en curso | hecha',
+	'#   Estado: pendiente | en curso | bloqueada | hecha',
 	'#   Prioridad: alta | media | baja',
 	'#   Título: una línea',
 	'#   Anotada: YYYY-MM-DD (o "sin fecha")',
@@ -66,12 +66,14 @@ export const HEADER_LINES = [
 	'#   === FIN #T0041 ===',
 	'# Para agregar una tarea sin id se puede escribir a la antigua: una línea',
 	'# "-- ❌ Título (anotado YYYY-MM-DD)" y debajo la descripción. El organizador le pone',
-	'# id, estado y prioridad. Las hechas van al final, las nuevas y sin terminar arriba.'
+	'# id, estado y prioridad. Las hechas van al final, las nuevas y sin terminar arriba.',
+	'# Las tareas de content-strategist quedan "bloqueada" (sección BLOQUEADAS) mientras falte',
+	'# traducir algún post publicado a los 12 idiomas, y vuelven solas a "pendiente" al terminar.'
 ];
 
 const TAREA_RE = /^=== TAREA (#T\d{4}) ===\s*$/;
 const FIN_RE = /^=== FIN (#T\d{4}) ===\s*$/;
-const SECTION_RE = /^== (PENDIENTES|HECHAS) ==\s*$/;
+const SECTION_RE = /^== (PENDIENTES|BLOQUEADAS|HECHAS) ==\s*$/;
 const ANY_SECTION_RE = /^== .+ ==\s*$/;
 const LEGACY_RE = /^-- (.*)$/;
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
@@ -296,7 +298,7 @@ export function assignIds(tasks: Task[]): Task[] {
 }
 
 const PRIO_RANK: Record<Prioridad, number> = { alta: 0, media: 1, baja: 2 };
-const ESTADO_RANK: Record<Estado, number> = { 'en curso': 0, pendiente: 1, hecha: 2 };
+const ESTADO_RANK: Record<Estado, number> = { 'en curso': 0, pendiente: 1, bloqueada: 2, hecha: 3 };
 const date = (d: string | undefined) => (d && DATE_RE.test(d) ? d : '');
 /** Newest first, an empty date last. */
 const newestFirst = (a: string, b: string) => (a < b ? 1 : a > b ? -1 : 0);
@@ -349,14 +351,16 @@ export function renderTodo(tasks: Task[]): string {
 		for (const t of list) out.push('', ...renderBlock(t));
 		return out;
 	};
+	const blocked = sorted.filter((t) => t.estado === 'bloqueada');
 	const lines = [
 		...HEADER_LINES,
 		'',
 		...section(
 			'== PENDIENTES ==',
-			sorted.filter((t) => t.estado !== 'hecha')
+			sorted.filter((t) => t.estado !== 'hecha' && t.estado !== 'bloqueada')
 		),
 		'',
+		...(blocked.length ? [...section('== BLOQUEADAS ==', blocked), ''] : []),
 		...section(
 			'== HECHAS ==',
 			sorted.filter((t) => t.estado === 'hecha')

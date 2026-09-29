@@ -196,7 +196,7 @@ only decides which of the relevant candidates come first and the priority of the
 
 How it orders your work, for creation AND for updates:
 - **`in-tier` first.** These are the quick wins Avalanche is built on: give them your best
-  placements and the day's `new-post`, if one is justified.
+  placements and the day's new posts, if they are justified.
 - **`below` next.** Winnable but small. Good as sections or FAQs of existing posts, rarely worth
   a new post.
 - **`unknown` next** (no measured volume: autocomplete phrases, AI prompts).
@@ -205,9 +205,9 @@ How it orders your work, for creation AND for updates:
 - When two new posts are justified, the one with the better fit goes first. A new post is always
   a supporting post, never a target page: Avalanche chooses supporting keywords, and the target
   keeps its competitive head term.
-- Kyle Roof builds supporting posts in sets of five, around fifteen per target. You still
-  propose at most ONE new post per run (Google's scaled content policy wins), and you favour the
-  silo whose set is least complete (the fewest supporting posts in `just content-inventory`).
+- Kyle Roof builds supporting posts in sets of five, around fifteen per target. You propose at
+  most `newPostQuota.limit` new posts per run (see "New post" below), and you favour the silo
+  whose set is least complete (the fewest supporting posts in `just content-inventory`).
 - Search Console signals stay important inside each group: an `in-tier` keyword on page 2 or 3
   (positions 8 to 30) goes before an `in-tier` keyword with volume but no impressions.
 - If `tier` is null (no GSC export), say so in `run.reason`, treat every candidate as `unknown`,
@@ -254,6 +254,14 @@ it into a brief. Never put a fact in a brief that you did not read in one of tho
    `keywords.json` (never TODO.txt, which carries other people's uncommitted edits). If it
    fails, stop.
 
+## Translation gate (user decision, 2026-09-29)
+
+Until every published English post is translated to the 12 languages, no content is created or
+updated. You still plan every day as usual: `just content-plan-apply` adds your tasks to TODO.txt
+as `bloqueada` ("bloqueada hasta terminar las traducciones de todos los posts"), and they go back
+to `pendiente` by themselves once the backlog is 0. Nothing changes in how you decide. Translating
+the existing posts is not your job and never an item of your plan.
+
 ## Decision method, for each candidate
 
 Work through these checks in order. The first one that settles the case decides it.
@@ -296,8 +304,13 @@ Work through these checks in order. The first one that settles the case decides 
      links to supporting posts (the pillar keeps its single link to the last post of the chain).
 6. **New post.** Only when the intent is distinct from every existing post, fits exactly one
    silo, passes the Goldilocks test, and the evidence shows real demand (search volume or Search
-   Console impressions, not only an autocomplete phrase). At most ONE `new-post` per run
-   (scaled content abuse). It is a supporting post of a reverse silo:
+   Console impressions, not only an autocomplete phrase). At most `newPostQuota.limit`
+   `new-post` items per run, the number `just content-candidates` prints (user decision,
+   2026-09-29): 1 while any published English post still lacks a translation, then alternating 1
+   and 2 day by day. It is a ceiling, never a target: propose fewer when fewer candidates pass
+   every check (Google's scaled content policy judges purpose and value, not a count). A plan
+   above the limit fails `just content-plan-apply`. Each new post ships with its 12 translations
+   in the same change. It is a supporting post of a reverse silo:
    - `targetPage` is the pillar of its silo. The post links DOWN to it.
    - `prevSibling` and `nextSibling` are the existing supporting posts of that silo closest in
      topic: the new post enters the chain between them, links to both, and both must be rewired
@@ -315,7 +328,8 @@ Work through these checks in order. The first one that settles the case decides 
    placed, etc.).
 
 Group near duplicates: two candidates with the same intent go in ONE item (`keywords` lists both,
-the stronger one first). At most 8 items that are not `skip` per run. When you reach that limit,
+the stronger one first). At most 8 items that are not `skip` per run (skips never count, and a
+plan above 8 fails `just content-plan-apply`). When you reach that limit,
 STOP deciding: leave the remaining candidates OUT of the plan. Anything in a plan is never
 proposed again, so a candidate you did not get to must stay out to come back tomorrow. Never
 write "deferred" skips. A `skip` is only for a candidate you decided against for good.

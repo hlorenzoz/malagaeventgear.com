@@ -32,6 +32,7 @@ const ctx = (over: Partial<OrganizeCtx> = {}): OrganizeCtx => ({
 	keywords: [],
 	today: '2026-10-02',
 	origen: 'usuario',
+	translationsDone: true,
 	...over
 });
 
@@ -151,5 +152,14 @@ describe('needsPriority', () => {
 			descripcion: ['a', 'b', 'c']
 		});
 		expect(parseTodo(organizeText(LEGACY, ctx()).output).tasks.length).toBe(3);
+	});
+});
+
+describe('organizeText translation gate', () => {
+	it('adds the plan tasks as bloqueada while translations are missing', () => {
+		const out = organizeText(LEGACY, ctx({ plans: [plan], translationsDone: false }));
+		const t = out.tasks.find((x) => x.origen.startsWith('content-strategist'))!;
+		expect(t.estado).toBe('bloqueada');
+		expect(out.output).toContain('== BLOQUEADAS ==');
 	});
 });
