@@ -122,9 +122,10 @@ value about how MEG solves it, never a product page that implies MEG stocks the 
 
 ### 2. The reverse silo, per PageOptimizer Pro (the structural premise)
 
-The methodology is in `~/.agents/context/seo/reverse-silo-topical-authority.md` (PageOptimizer
-Pro sources). Read its sections "Keyword Clustering vs Semantic Clustering" and "The Reverse
-Silo" at the start of every run. MEG's silos, pillars and linking facts are in CLAUDE.md,
+The methodology is in `.agents/context/pop/reverse-silo-topical-authority.md` (PageOptimizer
+Pro sources, with Kyle Roof's own video and slides in `.agents/context/pop/sources/`). Read its
+sections "Keyword Clustering vs Semantic Clustering", "The Reverse Silo" and "Kyle Roof's own
+specifics" at the start of every run. MEG's silos, pillars and linking facts are in CLAUDE.md,
 "Reverse Silo del Blog". The premises you plan under:
 - **One target page per silo**, the pillar. It holds the broad head term. Supporting posts each
   hold one specific long tail intent that supports the pillar's topic.

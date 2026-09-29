@@ -1103,6 +1103,8 @@ Runbook de migración WP: [`.agents/WP_MIGRATION.md`](.agents/WP_MIGRATION.md)
 El blog se construye como un **Reverse Silo** (metodología PageOptimizer Pro). El plan
 intencional de keywords y enlaces se trackea en
 `.agents/context/keywords/pop/PageOptimizer Pro _ Reverse Silo - POP.csv` (trackeado en git).
+La metodología (reverse silo y Avalanche, con las fuentes de Kyle Roof) está en
+`.agents/context/pop/`: ver "PageOptimizer Pro (POP): reverse silo y Avalanche".
 
 ### El modelo
 
@@ -1185,6 +1187,80 @@ marcada `noindex`: es una herramienta interna. **Nunca se edita a mano** (no hay
 
 Ambos delegan en el agente `reverse-silo-architect`. Son globales (`~/.claude/`): llevan solo
 metodología agnóstica y leen los hechos de MEG desde este `CLAUDE.md` (Mode B).
+
+---
+
+## PageOptimizer Pro (POP): reverse silo y Avalanche
+
+La metodología de POP (Kyle Roof) que usa este proyecto vive en `.agents/context/pop/`, versionada
+en el repo, con sus fuentes primarias al lado:
+
+| Archivo | Qué es |
+| :--- | :--- |
+| `.agents/context/pop/reverse-silo-topical-authority.md` | Reverse silo, siloing y topical authority. Copia del documento global `~/.agents/context/seo/reverse-silo-topical-authority.md` (2026-09-29), ampliada con el video original de Kyle y sus diapositivas. Para MEG manda esta copia. La global queda intacta porque la usan los agentes globales de todos los clientes |
+| `.agents/context/pop/avalanche-content-theory.md` | Avalanche Content Theory (Chris Carter, Builder's Society) aplicada por POP al reverse silo: traffic tiers y cómo elegir las keywords de los supporting posts |
+| `.agents/context/pop/sources/` | Transcripciones de los 3 videos de POP (`youtube-<id>.txt`) y las diapositivas de Kyle Roof (`kyle-roof-reverse-silo-and-avalanche-slides.pdf`) |
+
+Al delegar en un agente global de silos (`reverse-silo-architect`, `/seo:reverse-silo-review`,
+`/local-seo:blog-posts-structure-review`), se le pasa la ruta de la copia del proyecto: los
+agentes globales leen la global por defecto.
+
+### Cómo encajan
+
+- El **reverse silo** decide cómo se enlazan las páginas: los supporting posts se encadenan con
+  sus vecinos y todos enlazan hacia el target (el pilar), siempre con enlaces en el CUERPO del
+  contenido (menú, sidebar y footer no cuentan). Kyle arma unos 15 supporting posts por target, en
+  tandas de 5.
+- **Avalanche** decide QUÉ keywords atacan los supporting posts ahora: las que tienen un volumen
+  mensual dentro del traffic tier actual del sitio, porque son las que el sitio puede ganar rápido.
+  El target mantiene su keyword principal, más competitiva. A medida que los supporting posts
+  rankean, suben las impresiones, el sitio pasa al tier siguiente y el próximo lote de supporting
+  posts puede apuntar a keywords de más volumen.
+
+### Cuándo se aplica
+
+- Antes de elegir las keywords de supporting posts NUEVOS: al planificar un silo, al armar un lote
+  de posts, al revisar `TODO.txt` y al pedirle contenido a un agente.
+- Con cada export nuevo de GSC en `.agents/context/keywords/google-search-console-gsc/`: se
+  recalcula el tier, porque cambia con el tráfico.
+- No se aplica a la keyword del target, ni a las secciones o FAQs que se agregan a posts que ya
+  existen (ahí manda la intención de búsqueda del post).
+
+### Cómo se procede
+
+1. **Tier**: del `Gráfico.csv` del zip de GSC más reciente (impresiones diarias de 3 meses), la
+   media entre el día más alto y el más bajo: `(máximo + mínimo) / 2`. Se busca ese valor en la
+   tabla del tier de `avalanche-content-theory.md`. Se usan **impresiones**, no clics: POP cambió
+   el método el 2024-03-21 (video de actualización en `sources/`).
+2. **Candidatas**: las keywords de `keywords.json` cuyo volumen mensual cae dentro del rango del
+   tier (`sources["google-ads"].stats.avgMonthlySearches` o `sources.ubersuggest.stats.volume`,
+   diciendo cuál se usó).
+3. **Filtro de Google**: una keyword dentro del tier es una candidata, nunca una razón para escribir
+   por sí sola. Pasa igual por todo lo que exige la documentación de Google en
+   `.agents/context/seo/` (people first, sin scaled content, sin doorway pages) y por el inventario
+   real y el posicionamiento de este archivo. **Si POP y Google chocan, gana Google**: Avalanche y
+   el reverse silo son heurísticas de POP, no guías de Google.
+4. **Silo**: la keyword entra como supporting post del silo que le corresponde, con sus enlaces de
+   reverse silo (ver "Reverse Silo del Blog").
+
+**Tier de MEG al 2026-09-29** (export del 2026-09-23, del 2026-06-22 al 2026-09-21): impresiones
+diarias entre 8 y 291, media 149,5: **Level 100**, keywords de 100 a 200 búsquedas mensuales. El
+export anterior (2026-08-06) daba Level 200: el sitio bajó un tier. Es una foto: se recalcula con
+cada export.
+
+### Límites conocidos
+
+- Las lecciones de POP Academy (incluido el video de Maria sobre cómo filtrar keywords) están
+  detrás de un login y no se leyeron. Lo que agreguen sobre el filtrado no está en estos archivos.
+- El agente `content-strategist` todavía no calcula el tier ni prioriza por Avalanche: hoy aplica el
+  reverse silo y Google. Integrarlo (un script que calcule el tier y que `content-candidates` lo
+  use) es una decisión pendiente.
+- **Punto abierto: el enlace de vuelta del target.** Las diapositivas de Kyle Roof dibujan una
+  flecha de ida y vuelta entre el target y el ÚLTIMO supporting post de la cadena, y guías
+  secundarias de su método lo describen igual (un solo enlace del target hacia el silo, que cierra
+  el circuito). Los videos no lo mencionan, y la regla de este sitio ("El target page NO devuelve
+  enlaces hacia abajo", en "Reverse Silo del Blog") dice lo contrario. Hasta que el usuario decida,
+  manda la regla del sitio y se señala la diferencia, sin aplicar ninguna de las dos en silencio.
 
 ---
 
@@ -1378,16 +1454,16 @@ cadena y sus piezas deterministas (todas en `scripts/keywords/`, strict TDD):
 - **Aislamiento**: `just content-plan` usa los mismos flags que `keywords-research`
   (`--setting-sources ""`, `--strict-mcp-config` con config MCP vacía, `--permission-mode default`,
   mismo `--disallowedTools`, `--max-budget-usd 4`), y el agente entra por `--agents` desde su `.md`
-  (`agent-json.ts content-strategist`). `Write` y `Edit` solo bajo `content-plan/`. Suma
-  `--add-dir "$HOME/.agents/context/seo"`: en modo `default` leer fuera del repo pide permiso, y en
-  `-p` eso es una denegación, así que sin ese flag el agente no puede leer la metodología de POP
-  (verificado el 2026-09-29).
+  (`agent-json.ts content-strategist`). `Write` y `Edit` solo bajo `content-plan/`. Todo lo que
+  lee está dentro del repo: en modo `default` leer fuera del repo pide permiso, y en `-p` eso es
+  una denegación (verificado el 2026-09-29). Por eso la metodología de POP vive en
+  `.agents/context/pop/` y no se lee desde `~/.agents/`.
 - **Las dos autoridades del agente (pedido del usuario, 2026-09-29)**: (1) la documentación de
   Google en `.agents/context/seo/`, de forma estricta. Lee `creating-helpful-content.md` completo
   en cada corrida, y `spam-policies.md` (scaled content, doorway, keyword stuffing),
   `seo-starter-guide.md`, `links-crawlable.md` y `ai-optimization-guide.md` cuando la decisión
   toca su tema. (2) El reverse silo de PageOptimizer Pro, en
-  `~/.agents/context/seo/reverse-silo-topical-authority.md` (contexto global): un target por silo,
+  `.agents/context/pop/reverse-silo-topical-authority.md` (ver "PageOptimizer Pro (POP)"): un target por silo,
   clustering semántico por intención, supporting posts encadenados a sus vecinos y apuntando al
   pilar, el pilar sin enlaces de vuelta, sin solapamiento entre silos. Si chocan, gana Google: el
   reverse silo es una técnica de enlazado y las políticas de Google deciden qué contenido es
