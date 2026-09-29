@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { buildOpportunities, formatEvidence } from './opportunities';
+import { buildOpportunities, formatEvidence, volumeOf } from './opportunities';
+import { computeTier } from './traffic-tier';
 import type { AiPromptEntry, FaqEntry, KeywordEntry, KeywordsFile } from './schema';
 
 function kw(id: string, over: Partial<KeywordEntry> = {}): KeywordEntry {
@@ -108,6 +109,83 @@ describe('formatEvidence', () => {
 
 	it('says there is no data instead of inventing any', () => {
 		expect(formatEvidence({})).toBe('no measured data');
+	});
+});
+
+const tier100 = computeTier([8, 291]);
+
+describe('volumeOf', () => {
+	it('prefers ubersuggest, then google-ads, else null', () => {
+		expect(volumeOf({ ...ads(320), ...uber(90, 24) })).toEqual({
+			volume: 90,
+			source: 'ubersuggest'
+		});
+		expect(volumeOf(ads(320))).toEqual({ volume: 320, source: 'google-ads' });
+		expect(volumeOf({})).toEqual({ volume: null, source: null });
+	});
+});
+
+describe('buildOpportunities with a traffic tier', () => {
+	const build = () =>
+		buildOpportunities(
+			file([
+				kw('a-unknown', { opportunity: 'high' }),
+				kw('b-above', { opportunity: 'high', sources: ads(5000) }),
+				kw('c-below', { opportunity: 'high', sources: ads(40) }),
+				kw('d-in-low', { opportunity: 'low', sources: ads(150) }),
+				kw('e-in-high', { opportunity: 'high', sources: uber(120, 10) })
+			]),
+			20,
+			tier100
+		);
+
+	it('exposes the tier and ranks in-tier, below, unknown', () => {
+		const out = build();
+		expect(out.tier).toMatchObject({ level: 100, value: 149.5 });
+		expect(out.candidates.map((c) => [c.id, c.avalancheFit])).toEqual([
+			['e-in-high', 'in-tier'],
+			['d-in-low', 'in-tier'],
+			['c-below', 'below'],
+			['a-unknown', 'unknown']
+		]);
+	});
+
+	it('drops above-tier keywords and counts them', () => {
+		const out = build();
+		expect(out.candidates.some((c) => c.id === 'b-above')).toBe(false);
+		expect(out.totals.aboveTier).toBe(1);
+		expect(out.totals.candidates).toBe(4);
+	});
+
+	it('reports volume and its source, and the fit in the evidence', () => {
+		const out = build();
+		const e = out.candidates.find((c) => c.id === 'd-in-low')!;
+		expect(e.volume).toBe(150);
+		expect(e.volumeSource).toBe('google-ads');
+		expect(e.evidence).toBe('google-ads 150/mo (in tier 100)');
+		const u = out.candidates.find((c) => c.id === 'a-unknown')!;
+		expect(u.volume).toBeNull();
+		expect(u.volumeSource).toBeNull();
+		expect(u.evidence).toBe('no measured data');
+	});
+});
+
+describe('buildOpportunities without a tier', () => {
+	it('falls back to the old ranking, all unknown, and says why', () => {
+		const out = buildOpportunities(
+			file([
+				kw('a-low', { opportunity: 'low', sources: ads(5000) }),
+				kw('b-high', { opportunity: 'high' })
+			]),
+			20,
+			null,
+			'no GSC zip'
+		);
+		expect(out.tier).toBeNull();
+		expect(out.tierError).toBe('no GSC zip');
+		expect(out.candidates.map((c) => c.id)).toEqual(['b-high', 'a-low']);
+		expect(out.candidates.every((c) => c.avalancheFit === 'unknown')).toBe(true);
+		expect(out.totals.aboveTier).toBe(0);
 	});
 });
 

@@ -131,3 +131,20 @@ describe('ContentPlanSchema', () => {
 		).toBe(true);
 	});
 });
+
+describe('ContentPlanSchema avalanche fields', () => {
+	it('accepts run.tier and item avalancheFit, both optional', () => {
+		const ok = ContentPlanSchema.safeParse(
+			plan([{ ...section, avalancheFit: 'in-tier' }], {
+				tier: { level: 100, value: 149.5, export: '2026-09-23' }
+			})
+		);
+		expect(ok.success).toBe(true);
+	});
+
+	it('rejects an unknown fit', () => {
+		expect(ContentPlanSchema.safeParse(plan([{ ...section, avalancheFit: 'maybe' }])).success).toBe(
+			false
+		);
+	});
+});

@@ -1110,15 +1110,36 @@ La metodología (reverse silo y Avalanche, con las fuentes de Kyle Roof) está e
 
 ```
                           TARGET PAGE (pilar)
-                          ^      ^      ^
-                          |      |      |
-   Supporting Post 1 <-> Supporting Post 2 <-> Supporting Post 3
+                          ^      ^      ^ |
+                          |      |      | v
+   Supporting Post 1 <-> Supporting Post 2 <-> Supporting Post 3 (último de la cadena)
 ```
 
 1. Cada supporting post enlaza HACIA ABAJO al target page (embudo de equity).
 2. Cada post enlaza a sus hermanos ADYACENTES, en ambos sentidos (una cadena, no todos-con-todos).
-3. El target page NO devuelve enlaces hacia abajo: es un sumidero de equity. Ese flujo invertido
-   es el "reverse". Es la misma estructura que un árbol Core 30 de GBP anidado.
+3. El target page tiene **UN SOLO enlace de vuelta hacia el silo: al ÚLTIMO supporting post de la
+   cadena**, y a ningún otro (decisión del usuario, 2026-09-29, siguiendo las diapositivas de Kyle
+   Roof en `.agents/context/pop/sources/`). Ese enlace cierra el circuito: un crawler que entra
+   por el target recorre toda la cadena y vuelve al target. El resto del equity queda retenido en
+   el target: ese flujo invertido es el "reverse". Es la misma estructura que un árbol Core 30 de
+   GBP anidado. Reemplaza la regla anterior de este archivo, que decía que el target no devolvía
+   ningún enlace.
+   - **Último de la cadena**: el supporting post del extremo final, el último que entró al silo. Si
+     la cadena no tiene un orden explícito, el de `publishDate` más reciente. Cuando entra un post
+     nuevo al final de la cadena, el enlace del target se MUEVE a ese post nuevo (nunca se suma un
+     segundo enlace).
+   - **Todos los enlaces del silo van en el CUERPO del contenido** (Kyle Roof): menú, sidebar y
+     footer no cuentan.
+   - **Estado al 2026-09-29, pendiente de implementar**: solo `audiovisual-equipment-rental-service`
+     cumple (enlaza a `headset-lavalier-microphone-rental`, su único supporting post).
+     `audio-visual-rental` (41 supporting posts), `wedding-rentals` (20) y `stage-lighting-rental`
+     (3) no tienen ese enlace. `event-technology-service` no tiene supporting posts todavía.
+     Agregarlo es un cambio de contenido del pilar: en los 13 idiomas y con `updatedDate` (reglas
+     de idioma 1 y 2, regla 11).
+   - **Guard de ciclos**: con ese enlace, el target y su cadena forman una componente fuertemente
+     conexa en `validateSiloGraph` (`src/lib/data/site-map.ts`). Al implementarlo hay que enseñarle
+     al guard que ese patrón (cadena más un único enlace target -> último) es el esperado, en vez de
+     sumar firmas a `silo-cycle-debt.ts`.
 
 ### Los silos de MEG
 
@@ -1252,15 +1273,22 @@ cada export.
 
 - Las lecciones de POP Academy (incluido el video de Maria sobre cómo filtrar keywords) están
   detrás de un login y no se leyeron. Lo que agreguen sobre el filtrado no está en estos archivos.
-- El agente `content-strategist` todavía no calcula el tier ni prioriza por Avalanche: hoy aplica el
-  reverse silo y Google. Integrarlo (un script que calcule el tier y que `content-candidates` lo
-  use) es una decisión pendiente.
-- **Punto abierto: el enlace de vuelta del target.** Las diapositivas de Kyle Roof dibujan una
-  flecha de ida y vuelta entre el target y el ÚLTIMO supporting post de la cadena, y guías
-  secundarias de su método lo describen igual (un solo enlace del target hacia el silo, que cierra
-  el circuito). Los videos no lo mencionan, y la regla de este sitio ("El target page NO devuelve
-  enlaces hacia abajo", en "Reverse Silo del Blog") dice lo contrario. Hasta que el usuario decida,
-  manda la regla del sitio y se señala la diferencia, sin aplicar ninguna de las dos en silencio.
+- **El tier lo calcula un script, no el agente** (`just keywords-tier`, `scripts/keywords/traffic-tier.ts`):
+  impresiones diarias del `Gráfico.csv` del zip de GSC más reciente, `(máximo + mínimo) / 2` y su
+  nivel de la tabla (un valor igual al tope de un rango pasa al nivel siguiente). `just
+  content-candidates` lo incluye (`tier`) y le suma a cada candidata `volume` (Ubersuggest primero,
+  si no Google Ads), `volumeSource` y `avalancheFit` (`in-tier`, `below`, `above`, `unknown`). El
+  orden es dentro del tier, debajo, sin volumen, y dentro de cada grupo el de antes. Las de
+  `above` NO se listan (se cuentan en `totals.aboveTier`): lo planificado no se vuelve a proponer,
+  así que esperan intactas hasta que el tier suba. Sin zip de GSC, `tier` es `null`, todo es
+  `unknown` y `tierError` lo explica. El plan copia `run.tier` y `avalancheFit` por ítem, y el
+  TODO los muestra. Sigue siendo una heurística de POP: Google manda.
+- **El enlace de vuelta del target (decidido el 2026-09-29).** Las diapositivas de Kyle Roof dibujan
+  una flecha de ida y vuelta entre el target y el ÚLTIMO supporting post de la cadena, y guías
+  secundarias de su método lo describen igual. Los videos no lo mencionan. El usuario adoptó esa
+  versión: el target tiene un solo enlace hacia el silo, al último supporting post de la cadena.
+  La regla, cómo se elige el último y el estado actual de los 5 pilares están en "Reverse Silo del
+  Blog", regla 3.
 
 ---
 

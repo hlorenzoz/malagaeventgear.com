@@ -29,6 +29,11 @@ export type PlanAction = z.infer<typeof PlanActionSchema>;
 export const PlanPrioritySchema = z.enum(['high', 'medium', 'low']);
 export type PlanPriority = z.infer<typeof PlanPrioritySchema>;
 
+/** Avalanche (POP) fit of the item's keyword against the site's traffic tier, copied by the agent
+ *  from `just content-candidates`. */
+export const AvalancheFitSchema = z.enum(['in-tier', 'below', 'above', 'unknown']);
+export type AvalancheFitValue = z.infer<typeof AvalancheFitSchema>;
+
 const headingLevelSchema = z.union([z.literal(2), z.literal(3)]);
 
 export const NewPostPlanSchema = z.object({
@@ -55,6 +60,7 @@ export const PlanItemSchema = z
 		action: PlanActionSchema,
 		priority: PlanPrioritySchema,
 		evidence: z.string().min(1),
+		avalancheFit: AvalancheFitSchema.optional(),
 		reason: z.string().min(1),
 		targetUrl: z.string().optional(),
 		file: z.string().optional(),
@@ -116,7 +122,8 @@ export const ContentPlanSchema = z.object({
 	run: z.object({
 		status: z.enum(['ok', 'partial', 'aborted']),
 		reason: z.string().optional(),
-		candidatesReviewed: z.number().int().min(0)
+		candidatesReviewed: z.number().int().min(0),
+		tier: z.object({ level: z.number(), value: z.number(), export: z.string().min(1) }).optional()
 	}),
 	items: z.array(PlanItemSchema)
 });

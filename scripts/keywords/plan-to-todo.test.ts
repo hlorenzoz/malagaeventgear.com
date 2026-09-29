@@ -147,6 +147,41 @@ describe('renderPlanEntry', () => {
 	});
 });
 
+describe('renderPlanEntry with Avalanche data', () => {
+	const withTier: ContentPlan = {
+		...plan,
+		run: { ...plan.run, tier: { level: 100, value: 149.5, export: '2026-09-23' } },
+		items: [{ ...plan.items[0], avalancheFit: 'in-tier' }, ...plan.items.slice(1)]
+	};
+
+	it('adds the tier line to the intro', () => {
+		expect(renderPlanEntry(withTier)).toContain(
+			'Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-23). Prioridad: keywords dentro del tier.'
+		);
+	});
+
+	it('shows the fit in Spanish on the Keywords line', () => {
+		expect(renderPlanEntry(withTier)).toContain(
+			'   Keywords: podium hire, lectern rental (google-ads 320/mo), dentro del tier'
+		);
+	});
+
+	it.each([
+		['below', 'debajo del tier'],
+		['above', 'encima del tier'],
+		['unknown', 'sin volumen']
+	] as const)('renders %s as "%s"', (fit, word) => {
+		const p = { ...plan, items: [{ ...plan.items[0], avalancheFit: fit }] };
+		expect(renderPlanEntry(p)).toContain(`, ${word}\n`);
+	});
+
+	it('renders nothing extra for a plan without tier data', () => {
+		const out = renderPlanEntry(plan);
+		expect(out).not.toContain('Tier de tráfico');
+		expect(out).not.toContain('del tier');
+	});
+});
+
 const OTHER = '-- ✅ Otra cosa\n\nTexto previo.\n';
 
 describe('upsertPlanEntry', () => {

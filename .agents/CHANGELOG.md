@@ -7,6 +7,19 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (seo): el pilar enlaza al último supporting post de su silo, y el planificador prioriza por Avalanche
+- **Decisión del usuario (2026-09-29)**: se adopta la versión de las diapositivas de Kyle Roof. El target (pilar) tiene UN SOLO enlace hacia su silo, al último supporting post de la cadena, que cierra el circuito. Reemplaza la regla anterior de `CLAUDE.md` ("el target no devuelve enlaces"). "Último" es el extremo final de la cadena (a falta de orden explícito, el de `publishDate` más reciente). Cuando entra un post al final, el enlace se mueve, nunca se duplica. Todos los enlaces del silo van en el cuerpo.
+- **Estado del sitio, pendiente de implementar**: solo `audiovisual-equipment-rental-service` cumple (enlaza a su único supporting post). Faltan `audio-visual-rental`, `wedding-rentals` y `stage-lighting-rental`, en los 13 idiomas. Al implementarlo, `validateSiloGraph` necesita aceptar ese patrón en vez de sumar firmas a `silo-cycle-debt.ts`.
+- **`content-strategist`**: lee primero las fuentes de contexto (Avalanche, reverse silo de POP, Google) en cada corrida, suma Avalanche como tercera autoridad (el orden del trabajo), decide las candidatas en orden de tier (dentro, debajo, sin volumen), solo propone un post nuevo para una keyword dentro del tier, registra `run.tier` y `avalancheFit`, aplica la regla nueva del enlace del pilar, y ya no escribe skips "deferred": lo que no alcanza a decidir queda fuera del plan y vuelve al día siguiente (antes se perdía para siempre).
+- **Docs**: `CLAUDE.md` ("Reverse Silo del Blog" regla 3 y la sección de POP) y `.agents/context/pop/reverse-silo-topical-authority.md` registran la decisión.
+
+### Added (keywords): traffic tier de Avalanche (POP) para priorizar las candidatas de `content-strategist`
+- **Pedido del usuario (2026-09-29)**: el agente prioriza la creación y actualización de contenido por Avalanche Content Theory. No puede calcular nada (solo corre recetas `just`), así que los scripts le entregan el tier y el ajuste de cada candidata.
+- **`scripts/keywords/traffic-tier.ts` (strict TDD, `traffic-tier.test.ts`)**: `TIER_CHART` (18 niveles, rangos semiabiertos: un valor igual al tope va al nivel siguiente), `computeTier`, `avalancheFit` y la lectura real del `Gráfico.csv` del zip de GSC más reciente (`unzip -p '*fico.csv'`, por impresiones). `just keywords-tier` imprime el JSON. Hoy: export 2026-09-23, 8 a 291, media 149,5, Level 100.
+- **`opportunities.ts` (`just content-candidates`)**: suma `tier`, y por candidata `volume`, `volumeSource` y `avalancheFit` (y el ajuste en `evidence`). Orden: dentro del tier, debajo, sin volumen. Las de encima del tier no se listan y se cuentan en `totals.aboveTier`. Sin zip, `tier: null` y `tierError`.
+- **`plan.schema.ts` y `plan-to-todo.ts`**: `run.tier` y `avalancheFit` por ítem, opcionales (los planes anteriores siguen validando). La entrada del TODO lleva la línea del tier y el ajuste en cada línea de Keywords.
+- **Justfile**: receta `keywords-tier`, permitida en `content-plan`. **`CLAUDE.md`**: "Límites conocidos" de POP actualizado.
+
 ### Added (seo): contexto de POP en `.agents/context/pop/` (reverse silo y Avalanche Content Theory)
 - **Pedido del usuario (2026-09-29)**: documentar "Avalanche content theory and how it fits in with your reverse silo" de POP, mover el contexto de reverse silo al proyecto y decir en `CLAUDE.md` cómo y cuándo aplicarlo.
 - **Fuentes leídas**: los videos de POP `aPKxmz6jBaA` (Avalanche, 2023-12-19), `1LIUCsRGP0Q` (actualización: impresiones en vez de clics, 2024-03-21) y `5OYCQL0Q38A` (The Reverse Silo: How it Works), con sus transcripciones guardadas en `.agents/context/pop/sources/`, y las diapositivas de Kyle Roof (movidas a `sources/kyle-roof-reverse-silo-and-avalanche-slides.pdf`). Las lecciones de POP Academy están detrás de un login y no se leyeron.

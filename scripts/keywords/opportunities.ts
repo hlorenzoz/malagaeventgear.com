@@ -7,7 +7,10 @@
  * `just content-candidates [n]`.
  *
  * A candidate is a keyword still `idea` that no plan has looked at yet (no `content-plan`
- * source). Ranking, in order: `opportunity` (high, medium, low, null), GSC impressions, Google
+ * source). Avalanche (POP): the traffic tier of the latest GSC export is computed here, each
+ * candidate gets its monthly `volume` and an `avalancheFit`. Keywords ABOVE the tier are left out
+ * (counted in `totals.aboveTier`): a planned keyword is never proposed again, so they wait until
+ * the tier grows. Ranking: fit (in-tier, below, unknown), then `opportunity` (high, medium, low, null), GSC impressions, Google
  * Ads average monthly searches, Ubersuggest volume, then id for a stable order. Only measured
  * numbers are shown: a keyword with none says "no measured data", never a guess.
  */
@@ -15,9 +18,34 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { KeywordsFileSchema, type KeywordEntry, type KeywordsFile, type Sources } from './schema';
+import {
+	avalancheFit,
+	readTrafficTier,
+	type AvalancheFit,
+	type Tier,
+	type TierReport
+} from './traffic-tier';
 
 const DEFAULT_LIMIT = 20;
 const NEW_FAQS_CAP = 10;
+
+const FIT_RANK: Record<AvalancheFit, number> = { 'in-tier': 3, below: 2, unknown: 1, above: 0 };
+
+/** Pure: monthly volume of a keyword and the source it came from (ubersuggest first). */
+export function volumeOf(sources: Sources): {
+	volume: number | null;
+	source: 'ubersuggest' | 'google-ads' | null;
+} {
+	const uber = sources.ubersuggest?.stats?.volume;
+	if (uber != null) return { volume: uber, source: 'ubersuggest' };
+	const ads = sources['google-ads']?.stats?.avgMonthlySearches;
+	if (ads != null) return { volume: ads, source: 'google-ads' };
+	return { volume: null, source: null };
+}
+
+function fitOf(k: KeywordEntry, tier: Tier | null): AvalancheFit {
+	return tier ? avalancheFit(volumeOf(k.sources).volume, tier) : 'unknown';
+}
 
 const OPPORTUNITY_RANK = { high: 3, medium: 2, low: 1 } as const;
 
@@ -37,10 +65,11 @@ function signalOf(k: KeywordEntry): Signal {
 	};
 }
 
-function compareKeywords(a: KeywordEntry, b: KeywordEntry): number {
+function compareKeywords(a: KeywordEntry, b: KeywordEntry, tier: Tier | null = null): number {
 	const x = signalOf(a);
 	const y = signalOf(b);
 	return (
+		FIT_RANK[fitOf(b, tier)] - FIT_RANK[fitOf(a, tier)] ||
 		y.opportunity - x.opportunity ||
 		y.gscImpressions - x.gscImpressions ||
 		y.adsVolume - x.adsVolume ||
@@ -50,10 +79,19 @@ function compareKeywords(a: KeywordEntry, b: KeywordEntry): number {
 }
 
 /** Pure: one line with every measured number, source by source. */
-export function formatEvidence(sources: Sources): string {
+export function formatEvidence(
+	sources: Sources,
+	fit: AvalancheFit = 'unknown',
+	tierLevel: number | null = null
+): string {
 	const parts: string[] = [];
+	const fitNote =
+		fit !== 'unknown' && tierLevel != null
+			? ` (${fit === 'in-tier' ? 'in' : fit} tier ${tierLevel})`
+			: '';
+	const usedSource = volumeOf(sources).source;
 	const ads = sources['google-ads']?.stats?.avgMonthlySearches;
-	if (ads != null) parts.push(`google-ads ${ads}/mo`);
+	if (ads != null) parts.push(`google-ads ${ads}/mo${usedSource === 'google-ads' ? fitNote : ''}`);
 	const gsc = sources['google-search-console']?.stats;
 	if (gsc) parts.push(`gsc pos ${gsc.position} ${gsc.impressions} impr`);
 	const uber = sources.ubersuggest?.stats;
@@ -62,7 +100,7 @@ export function formatEvidence(sources: Sources): string {
 			uber.volume != null ? `vol ${uber.volume}` : null,
 			uber.difficulty != null ? `diff ${uber.difficulty}` : null
 		].filter(Boolean);
-		parts.push(`ubersuggest ${bits.join(' ')}`);
+		parts.push(`ubersuggest ${bits.join(' ')}${usedSource === 'ubersuggest' ? fitNote : ''}`);
 	}
 	return parts.length ? parts.join(', ') : 'no measured data';
 }
@@ -72,6 +110,9 @@ export interface Candidate {
 	keyword: string;
 	cluster: string;
 	opportunity: KeywordEntry['opportunity'];
+	volume: number | null;
+	volumeSource: 'ubersuggest' | 'google-ads' | null;
+	avalancheFit: AvalancheFit;
 	evidence: string;
 	faqs: string[];
 	aiPrompts: string[];
@@ -86,19 +127,25 @@ export interface NewFaq {
 
 export interface OpportunitiesOutput {
 	keywordsUpdated: string;
+	tier: (Tier & Partial<TierReport>) | null;
+	tierError?: string;
 	candidates: Candidate[];
 	newFaqs: NewFaq[];
-	totals: { candidates: number; returned: number; newFaqs: number };
+	totals: { candidates: number; returned: number; newFaqs: number; aboveTier: number };
 }
 
 /** Pure ranking over an already validated file. */
 export function buildOpportunities(
 	file: KeywordsFile,
-	limit: number = DEFAULT_LIMIT
+	limit: number = DEFAULT_LIMIT,
+	tier: (Tier & Partial<TierReport>) | null = null,
+	tierError?: string
 ): OpportunitiesOutput {
-	const unplanned = file.keywords
-		.filter((k) => k.status === 'idea' && !k.sources['content-plan'])
-		.sort(compareKeywords);
+	const all = file.keywords.filter((k) => k.status === 'idea' && !k.sources['content-plan']);
+	const unplanned = all
+		.filter((k) => fitOf(k, tier) !== 'above')
+		.sort((a, b) => compareKeywords(a, b, tier));
+	const aboveTier = all.length - unplanned.length;
 	const top = unplanned.slice(0, limit);
 	const topIds = new Set(top.map((k) => k.id));
 
@@ -113,15 +160,22 @@ export function buildOpportunities(
 	const faqsByKeyword = byKeyword(file.faqs);
 	const promptsByKeyword = byKeyword(file.aiPrompts);
 
-	const candidates: Candidate[] = top.map((k) => ({
-		id: k.id,
-		keyword: k.keyword,
-		cluster: k.cluster,
-		opportunity: k.opportunity,
-		evidence: formatEvidence(k.sources),
-		faqs: (faqsByKeyword.get(k.id) ?? []).map((f) => f.question),
-		aiPrompts: (promptsByKeyword.get(k.id) ?? []).map((p) => p.prompt)
-	}));
+	const candidates: Candidate[] = top.map((k) => {
+		const { volume, source } = volumeOf(k.sources);
+		const fit = fitOf(k, tier);
+		return {
+			id: k.id,
+			keyword: k.keyword,
+			cluster: k.cluster,
+			opportunity: k.opportunity,
+			volume,
+			volumeSource: source,
+			avalancheFit: fit,
+			evidence: formatEvidence(k.sources, fit, tier?.level ?? null),
+			faqs: (faqsByKeyword.get(k.id) ?? []).map((f) => f.question),
+			aiPrompts: (promptsByKeyword.get(k.id) ?? []).map((p) => p.prompt)
+		};
+	});
 
 	const keywordById = new Map(file.keywords.map((k) => [k.id, k]));
 	const pendingFaqs = file.faqs
@@ -137,6 +191,8 @@ export function buildOpportunities(
 
 	return {
 		keywordsUpdated: file.updated,
+		tier,
+		...(tierError ? { tierError } : {}),
 		candidates,
 		newFaqs: pendingFaqs
 			.slice(0, NEW_FAQS_CAP)
@@ -144,7 +200,8 @@ export function buildOpportunities(
 		totals: {
 			candidates: unplanned.length,
 			returned: candidates.length,
-			newFaqs: pendingFaqs.length
+			newFaqs: pendingFaqs.length,
+			aboveTier
 		}
 	};
 }
@@ -157,8 +214,17 @@ function parseLimit(argv: string[]): number {
 }
 
 if (import.meta.main) {
+	let tier: Awaited<ReturnType<typeof readTrafficTier>> | null = null;
+	let tierError: string | undefined;
+	try {
+		tier = await readTrafficTier();
+	} catch (e) {
+		tierError = e instanceof Error ? e.message : String(e);
+	}
 	const file = KeywordsFileSchema.parse(
 		JSON.parse(readFileSync(join(process.cwd(), 'keywords.json'), 'utf8'))
 	);
-	console.log(JSON.stringify(buildOpportunities(file, parseLimit(process.argv.slice(2)))));
+	console.log(
+		JSON.stringify(buildOpportunities(file, parseLimit(process.argv.slice(2)), tier, tierError))
+	);
 }

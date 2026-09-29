@@ -152,7 +152,11 @@ keywords-commit batch:
 # ─── Agente de contenido (content-strategist) ─────────────────────────────────
 # Ver CLAUDE.md, "El agente de contenido (content-strategist)". Corre después del investigador de keywords.
 
-# Candidatas de contenido del día (keywords idea sin plan, ordenadas por señal). Entrada del agente: nunca abre keywords.json
+# Traffic tier de Avalanche (POP): impresiones diarias del último export de GSC, (máximo + mínimo) / 2, y su nivel. JSON
+keywords-tier:
+    @bun scripts/keywords/traffic-tier.ts
+
+# Candidatas de contenido del día (keywords idea sin plan, con tier y ajuste Avalanche, dentro del tier primero). Entrada del agente: nunca abre keywords.json
 content-candidates n='20':
     @bun scripts/keywords/opportunities.ts --limit {{ n }}
 
@@ -181,7 +185,7 @@ content-plan-commit plan:
 # --strict-mcp-config con una config MCP VACÍA (no necesita ningún MCP), --permission-mode default y el mismo --disallowedTools.
 # El agente entra por --agents, generado desde su .md (scripts/keywords/agent-json.ts content-strategist).
 content-plan:
-    claude -p --agents "$(bun scripts/keywords/agent-json.ts content-strategist)" --agent content-strategist --model sonnet --setting-sources "" --mcp-config '{"mcpServers":{}}' --strict-mcp-config --permission-mode default --disallowedTools "Bash(git push:*),Bash(git reset:*),Bash(git checkout:*),Bash(git stash:*),Bash(git restore:*),Bash(rm:*)" --allowedTools "Read,Glob,Grep,Write(.agents/context/keywords/content-plan/**),Edit(.agents/context/keywords/content-plan/**),Bash(date:*),Bash(just content-candidates:*),Bash(just content-inventory:*),Bash(just content-plan-apply:*),Bash(just content-plan-commit:*)" --max-budget-usd 4 --output-format json "Run today's content planning."
+    claude -p --agents "$(bun scripts/keywords/agent-json.ts content-strategist)" --agent content-strategist --model sonnet --setting-sources "" --mcp-config '{"mcpServers":{}}' --strict-mcp-config --permission-mode default --disallowedTools "Bash(git push:*),Bash(git reset:*),Bash(git checkout:*),Bash(git stash:*),Bash(git restore:*),Bash(rm:*)" --allowedTools "Read,Glob,Grep,Write(.agents/context/keywords/content-plan/**),Edit(.agents/context/keywords/content-plan/**),Bash(date:*),Bash(just content-candidates:*),Bash(just keywords-tier),Bash(just content-inventory:*),Bash(just content-plan-apply:*),Bash(just content-plan-commit:*)" --max-budget-usd 4 --output-format json "Run today's content planning."
 
 # Corrida diaria con control (scripts/keywords/daily-guard.ts). launchd la dispara a las 09:00, al iniciar sesión y cada hora,
 # y el guard decide: corre solo lo que falta del día (investigación y plan, cada uno "hecho" si su archivo de hoy está commiteado),

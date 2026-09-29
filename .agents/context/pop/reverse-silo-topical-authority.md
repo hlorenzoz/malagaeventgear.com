@@ -255,7 +255,7 @@ The reverse silo is an interlinking pattern designed to CONCENTRATE link equity 
 
 2. **Downward funnel**: Every supporting post links DOWN to the single Target (pillar) page. All supporting posts point at the same target.
 
-3. **No back link**: The Target Page does NOT link back out to the supporting posts. Link equity flows down into the target and is RETAINED there.
+3. **No back link**: The Target Page does NOT link back out to the supporting posts. Link equity flows down into the target and is RETAINED there. **Kyle Roof's own version differs on one point**: his slides draw ONE link from the target back to the LAST supporting post of the chain, which closes the loop (see "Kyle Roof's own specifics" below). malagaeventgear.com follows Kyle's version (decision of 2026-09-29).
 
 ### Why it concentrates link equity (PageRank) on the target
 
@@ -342,13 +342,14 @@ Roof, POP): the diagram draws Supporting Post 1 <-> 2 <-> 3 (chained), all three
 the Target Page, AND a two way arrow between the Target Page and Supporting Post 3, the LAST post of
 the chain. No arrow goes from the target to posts 1 or 2.
 
-**Open point, the target's link back.** The slide shows the target linking to ONE supporting post
-(the last in the chain). Secondary write ups of Kyle's method describe it the same way (one link
-from the target back into the silo, which closes the loop so a crawler can walk the whole chain and
-return to the target), but the videos do not mention it, and the model described above in "The
-Reverse Silo" says the target has no outbound link to its supporting posts. Until the project
-decides, follow what CLAUDE.md ("Reverse Silo del Blog") says for this site and flag the
-difference instead of silently applying either version.
+**The target's link back (decided for malagaeventgear.com on 2026-09-29).** The slide shows the
+target linking to ONE supporting post, the last in the chain, and to no other. Secondary write ups
+of Kyle's method describe it the same way (one link from the target back into the silo, which closes
+the loop so a crawler can walk the whole chain and return to the target). The videos do not
+mention it, and the generic model above ("No back link") differs. The user adopted Kyle's version
+for this site: the target has exactly one body link, to the last supporting post of the chain. When
+a new post joins the end of the chain, that link moves to it. The rule and the site's current state
+are in CLAUDE.md, "Reverse Silo del Blog", rule 3.
 
 Secondary sources (not Kyle's own words, use only as corroboration):
 - https://hvseo.co/blog/the-hidden-hero-of-on-page-seo-reverse-content-silos/ : "1 link at the top

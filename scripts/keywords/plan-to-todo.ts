@@ -23,6 +23,12 @@ export const MARKER_NOTE =
 
 const PRIORITY_WORD = { high: 'alta', medium: 'media', low: 'baja' } as const;
 const PRIORITY_ORDER = { high: 0, medium: 1, low: 2 } as const;
+const FIT_WORD = {
+	'in-tier': 'dentro del tier',
+	below: 'debajo del tier',
+	above: 'encima del tier',
+	unknown: 'sin volumen'
+} as const;
 const RUN_STATUS_WORD = { ok: 'correcta', partial: 'parcial', aborted: 'abortada' } as const;
 
 function headerLine(date: string, glyph = '❌'): string {
@@ -42,7 +48,8 @@ function siblingClause(prev?: string | null, next?: string | null): string {
 
 function renderItem(item: PlanItem, n: number): string[] {
 	const tag = `${n}. [${PRIORITY_WORD[item.priority]}]`;
-	const keywords = `   Keywords: ${item.keywords.join(', ')} (${item.evidence})`;
+	const fit = item.avalancheFit ? `, ${FIT_WORD[item.avalancheFit]}` : '';
+	const keywords = `   Keywords: ${item.keywords.join(', ')} (${item.evidence})${fit}`;
 	const why = `   Por qué: ${item.reason}`;
 
 	if (item.action === 'add-section') {
@@ -88,9 +95,15 @@ export function renderPlanEntry(plan: ContentPlan): string {
 		'Generado por .claude/agents/content-strategist.md desde keywords.json. Plan completo:',
 		`.agents/context/keywords/content-plan/${plan.date}.json. Cada cambio va en los 13 idiomas en el mismo`,
 		'cambio (reglas 1 y 2 de idioma), mueve updatedDate (regla 11) y respeta el inventario real y el',
-		'posicionamiento de CLAUDE.md.',
-		''
+		'posicionamiento de CLAUDE.md.'
 	];
+	if (plan.run.tier) {
+		const t = plan.run.tier;
+		lines.push(
+			`Tier de tráfico (Avalanche, POP): Level ${t.level} (${t.value} impresiones diarias de media, export ${t.export}). Prioridad: keywords dentro del tier.`
+		);
+	}
+	lines.push('');
 	if (plan.run.status !== 'ok') {
 		const why = plan.run.reason ? ` (${plan.run.reason})` : '';
 		lines.push(`Estado de la corrida: ${RUN_STATUS_WORD[plan.run.status]}${why}`, '');
