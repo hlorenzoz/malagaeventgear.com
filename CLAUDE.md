@@ -1239,7 +1239,11 @@ programado a las 09:00 con `just keywords-schedule-install`, plantilla en
 `scripts/keywords/launchd/`) contra el MCP de Ubersuggest, que está en **este Mac**, no en la nube
 (por eso el scheduler es `launchd`, no un cron remoto). Límites reales:
 
-- **Ubersuggest está en free tier**: pocas keywords por día (2 o 3 semillas), cuota mensual de
+- **Ubersuggest está en free tier**: el límite que manda es `reports`, 3 por DÍA (medido en la
+  primera corrida, 2026-09-29: una sola llamada a `keyword_suggestions` lo agotó). `google_suggestions`,
+  `industry_prompts` y `article_title_suggestions` siguieron funcionando con `reports` en 0, así que
+  el agente las hace primero para las 3 semillas, y gasta `reports` en una sola prioridad (la
+  sección semanal cuando toca, si no la primera semilla). Cuota mensual de
   `brand_operations` para AI Prompt Ideas. El agente lee `user_limits` al arrancar y se detiene si
   no hay cuota, dejándolo registrado en el lote del día.
 - **El autocompletado de Google NO es People Also Ask.** Las sugerencias de `google_suggestions`

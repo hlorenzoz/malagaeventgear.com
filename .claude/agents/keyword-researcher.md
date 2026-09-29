@@ -88,8 +88,20 @@ Quotas are small and shared across the month, so plan the day's calls BEFORE mak
   included)`. Never exceed it. If it is 0, skip AI Prompt Ideas today and say so in `run.skipped`.
 - `keyword_metrics` with `search_difficulty` spends `monthly_keyword_metrics_updates`. Use it only
   when the agenda says `monthlyDue`, and never more than the remaining quota.
-- If any call fails for quota or rate limit, stop calling Ubersuggest for the rest of the run,
-  keep what you already have, and continue with ingest and commit.
+- The binding limit is `reports` (3 per DAY on free). Measured on 2026-09-29: one
+  `keyword_suggestions` call took it from 3 to 0, and after that `keyword_suggestions` and
+  `content_ideas` failed, while `google_suggestions`, `industry_prompts` and
+  `article_title_suggestions` kept working. So the ORDER of calls decides what you get:
+  1. First, every call that does not need `reports`: `google_suggestions` and
+     `industry_prompts` for every seed, and `article_title_suggestions`.
+  2. Then spend `reports` on ONE priority, in this order: if `weeklyDue`, the weekly section
+     (`domain_keywords` for malagaeventgear.com first, then `project_position_info`, then one
+     competitor), because it only comes around once a week. Otherwise the first seed:
+     `keyword_suggestions`, then `serp_analysis`, then `content_ideas`, then `keyword_overview`
+     for the most promising new keywords.
+- A quota or rate limit error on a `reports` call means `reports` is spent: stop making
+  `reports` calls, but still make the calls of point 1 you have not made yet. Log every failed
+  call in `run.skipped` with the error, so the next reader can see which tools consume what.
 
 ## Procedure
 
@@ -98,7 +110,8 @@ Quotas are small and shared across the month, so plan the day's calls BEFORE mak
    hardcode or guess them. Use that `loc_id` as `locId` in every call that accepts one.
 2. `just keywords-sync` (picks up a new GSC export or a changed source file in the repo).
 3. `just keywords-seeds` prints `today`, `weeklyDue`, `monthlyDue` and 3 `seeds`.
-4. For EACH seed (daily sections):
+4. The sections below, in the ORDER that "Budget" sets (not in the order they are listed here).
+   How each one is recorded:
    - `keyword_suggestions` with the seed. Each result becomes a batch keyword with
      `source: "ubersuggest-suggestions"` and its volume, SD (as `difficulty`) and CPC (use
      `cpcDollars`) as metrics with `source: "ubersuggest"` and `asOf: today`. Some results come
