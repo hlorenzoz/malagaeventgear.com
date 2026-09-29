@@ -276,6 +276,11 @@ export default {
 			slug: '音樂表演影音租賃',
 			keyword: '馬拉加 音樂表演影音租賃',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-charity-fundraisers': {
+			slug: '慈善募款活動影音租賃',
+			keyword: '馬拉加 慈善募款活動影音租賃',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

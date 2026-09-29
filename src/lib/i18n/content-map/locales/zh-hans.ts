@@ -276,6 +276,11 @@ export default {
 			slug: '音乐演出视听租赁',
 			keyword: '马拉加 音乐演出视听租赁',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-charity-fundraisers': {
+			slug: '慈善筹款活动视听租赁',
+			keyword: '马拉加 慈善筹款活动视听租赁',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

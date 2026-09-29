@@ -296,6 +296,11 @@ export default {
 			slug: 'av-vermietung-musikauftritte',
 			keyword: 'AV-Vermietung für Musikauftritte in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-charity-fundraisers': {
+			slug: 'av-vermietung-benefizveranstaltungen',
+			keyword: 'AV-Vermietung für Benefizveranstaltungen in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

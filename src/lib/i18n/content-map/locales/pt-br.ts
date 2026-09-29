@@ -328,6 +328,11 @@ export default {
 			slug: 'aluguel-de-audiovisual-para-shows',
 			keyword: 'aluguel de audiovisual para shows em Málaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-charity-fundraisers': {
+			slug: 'aluguel-de-audiovisual-para-eventos-beneficentes',
+			keyword: 'aluguel de audiovisual para eventos beneficentes em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

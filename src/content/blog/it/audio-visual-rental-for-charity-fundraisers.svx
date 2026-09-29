@@ -1,0 +1,122 @@
+---
+title: "Noleggio audiovisivo per eventi di beneficenza a Malaga"
+description: "Noleggio audiovisivo per eventi di beneficenza a Malaga, in Spagna: audio e microfono per i discorsi, palco per un'asta dal vivo, in un pacchetto reale."
+publishDate: "2026-09-29"
+sourceUpdated: "2026-09-29"
+excerpt: "Noleggio audiovisivo per eventi di beneficenza a Malaga, in Spagna: audio e microfono per i discorsi, palco per un'asta dal vivo, in un pacchetto reale."
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Cerchi un noleggio audiovisivo per eventi di beneficenza a Malaga, in Spagna? Un evento di beneficenza richiede un allestimento diverso a seconda del momento: un microfono wireless per il presentatore e i discorsi, l'audio per la sala e un palco se la serata prevede un'asta dal vivo.
+
+Malaga Event Gear consegna, installa e testa audio, luci e un tecnico dimensionati per la tua serata, a Malaga e in tutta la Costa del Sol.
+
+Contattaci per parlare del tuo evento di beneficenza.
+
+## In breve
+
+---
+
+Malaga Event Gear offre il noleggio audiovisivo per eventi di beneficenza a Malaga e in tutta la Costa del Sol: un microfono wireless per il presentatore, un impianto audio PA per la sala e un palco per un'asta dal vivo. Dal 1996 consegniamo, installiamo e testiamo l'attrezzatura noi stessi, perché la tua serata proceda secondo programma.
+
+Contattaci per parlare del tuo evento.
+
+## Punti chiave
+
+---
+
+Malaga Event Gear offre il noleggio audiovisivo per eventi di beneficenza a Malaga e in tutta la Costa del Sol.
+
+-   Il Wedding Pack copre una cena di beneficenza intima, con microfono wireless e tecnico inclusi, fino a 80 invitati.
+
+-   Il MICE Pack copre un gala di beneficenza più grande con un'asta dal vivo, con palco e leggio opzionali, fino a 120 invitati.
+
+-   Un microfono palmare wireless per il presentatore e i discorsi, così il banditore non è mai legato a un leggio.
+
+-   Disponibile a Malaga, sulla Costa del Sol e a Siviglia, e a Granada per i noleggi superiori a 400 euro, con prenotazione con almeno 24 ore di anticipo.
+
+## Abbina il tuo evento di beneficenza a un pacchetto
+
+-   **Cena di beneficenza intima, fino a 80 invitati**: il [Wedding Pack](/packages/wedding/) include audio, un microfono, illuminazione d'ambiente con lucine e un tecnico sul posto.
+-   **Gala di beneficenza con asta dal vivo, fino a 120 invitati**: il [MICE Pack](/packages/mice/) include audio, un microfono a collo d'oca e un microfono wireless, uno schermo LED da 60 pollici e un tecnico sul posto fino a sei ore, con palco e leggio disponibili come opzioni per l'asta.
+
+Il contenuto completo e i prezzi in tempo reale sono nella nostra [pagina dei pacchetti](/packages/). Per il dettaglio completo, visita la [pagina del noleggio audiovisivo](/blog/audio-visual-rental/).
+
+<InlineCTA />
+
+## Discorsi e asta: microfoni e palco
+
+Per un presentatore, i discorsi o un brindisi, il nostro microfono palmare wireless permette a chi parla di allontanarsi dal leggio. Per un'asta dal vivo, il palco e il leggio in metacrilato opzionali del [MICE Pack](/packages/mice/) danno al banditore un vero palco per il momento più importante della sala, e lo schermo LED da 60 pollici può mostrare l'offerta in corso o una slide di ringraziamento ai donatori.
+
+## Allestimenti reali che abbiamo consegnato
+
+Nessuna di queste foto proviene da un evento di beneficenza. Sono allestimenti reali di altri eventi, con lo stesso tipo di palco, leggio, audio e luci che usa una serata di beneficenza.
+
+![Sistema audiovisivo sul palco dell'Hotel Alfonso XIII, a Siviglia.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp "Il leggio e il palco forniti da Malaga Event Gear all'Hotel Alfonso XIII di Siviglia, in Spagna.")
+
+Un grande palco allestito nella cornice sontuosa dell'Hotel Alfonso XIII di Siviglia, completo di attrezzatura audiovisiva.
+
+![Leggio in metacrilato a un evento all'aperto.](https://cdn.malagaeventgear.com/blog/1262/methacrylate_lectern_outdoor_event_1-300x224.webp "Lo stesso evento serale all'aperto, visto dai tavoli della cena.")
+
+Un leggio in metacrilato a un evento serale all'aperto, lo stesso tipo di leggio che usa un oratore o un banditore.
+
+![Podio e impianto audio per un concerto in provincia di Malaga.](https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-224x300.webp "Un allestimento per un concerto in provincia di Malaga con un podio e un impianto audio professionale, pronto per un'esibizione coinvolgente.")
+
+Un podio e un impianto audio allestiti per un concerto in provincia di Malaga, lo stesso tipo di allestimento che usa una serata di beneficenza.
+
+![Noleggio di illuminazione decorativa nella provincia di Malaga.](https://cdn.malagaeventgear.com/blog/1271/malaga_decorative_lighting_rental-300x224.webp "Lucine decorative installate da Malaga Event Gear per un evento serale all'aperto.")
+
+Uno spazio esterno illuminato da fili di luci decorative, che creano un'atmosfera di festa per un evento serale.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1269/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Prenotazione e area di servizio
+
+I nostri servizi coprono Malaga, la Costa del Sol e Siviglia senza ordine minimo, e si estendono a Granada per i noleggi superiori a 400 euro. Prenota con almeno 24 ore di anticipo per garantirti la disponibilità. Per un evento di beneficenza più grande con più momenti da coordinare, prenota il prima possibile una volta confermati data e location.
+
+## Conclusione
+
+Da una cena di beneficenza intima a un gala di beneficenza completo, Malaga Event Gear fornisce l'audio, le luci e il palco di cui il tuo evento ha bisogno. Per la nostra gamma completa, consulta la [pagina del noleggio audiovisivo](/blog/audio-visual-rental/). [Contattaci](/contact/) per parlare del tuo evento di beneficenza e ottenere un pacchetto su misura.
+
+Stai organizzando invece una cena di gala? Consulta la nostra guida sull'[attrezzatura audiovisiva per una cena di gala](/blog/audio-visual-rental-for-gala-dinners/).
+
+## Domande frequenti
+
+### Di quale attrezzatura audiovisiva ho bisogno per un evento di beneficenza?
+
+Dipende dal momento: un microfono wireless per il presentatore e i discorsi, l'audio per la sala e un palco se la serata prevede un'asta dal vivo. Il [Wedding Pack](/packages/wedding/) e il [MICE Pack](/packages/mice/) coprono queste esigenze per numeri di invitati diversi.
+
+### Quanto costa il noleggio audiovisivo per un evento di beneficenza?
+
+Il prezzo dipende dal pacchetto. Il nostro catalogo completo va da 290 a 650 euro, con il MICE Pack a 490 euro per un gala di beneficenza più grande, e ogni pacchetto è indicato con il prezzo esatto in euro nella nostra [pagina dei pacchetti](/packages/). Tutti i prezzi sono al netto dell'IVA, con l'IVA spagnola del 21% aggiunta al momento del pagamento, e ogni prezzo include consegna, allestimento e smontaggio.
+
+### Che dimensione di evento di beneficenza supporta ciascun pacchetto?
+
+Il Wedding Pack copre fino a 80 invitati, e il MICE Pack fino a 120. Vedi [Abbina il tuo evento di beneficenza a un pacchetto](#abbina-il-tuo-evento-di-beneficenza-a-un-pacchetto) sopra.
+
+### Offrite un palco per un'asta dal vivo?
+
+Sì, con il [MICE Pack](/packages/mice/) sono disponibili come opzioni un palco modulare e un leggio in metacrilato per un'asta dal vivo o per l'intervento del presentatore.
+
+### Potete mostrare l'offerta in corso o una slide di ringraziamento ai donatori?
+
+Sì, il [MICE Pack](/packages/mice/) include uno schermo LED da 60 pollici che può mostrare un'offerta, una slide di ringraziamento ai donatori o il branding dell'evento.
+
+### Il tecnico è incluso per un evento di beneficenza?
+
+Sì, sia il Wedding Pack sia il MICE Pack includono un tecnico sul posto, così se durante l'asta un microfono perde il collegamento, il problema si risolve subito.
+
+### Con quanto anticipo dovrei prenotare l'audiovisivo per un evento di beneficenza?
+
+Prenota con almeno 24 ore di anticipo per garantirti la disponibilità. Per un evento di beneficenza più grande con più momenti da coordinare, come discorsi, un'asta e intrattenimento, prenota il prima possibile una volta confermati data e location.
+
+### Da quanto tempo Malaga Event Gear offre il noleggio audiovisivo?
+
+Malaga Event Gear gestisce eventi dal vivo a Malaga e sulla Costa del Sol dal 1996, tre decenni di esperienza sul campo.

@@ -1,0 +1,122 @@
+---
+title: "Location audiovisuelle pour événements caritatifs à Malaga"
+description: "Location audiovisuelle pour événements caritatifs à Malaga, en Espagne : son et micro pour les discours, scène pour une vente aux enchères, forfait réel."
+publishDate: "2026-09-29"
+sourceUpdated: "2026-09-29"
+excerpt: "Location audiovisuelle pour événements caritatifs à Malaga, en Espagne : son et micro pour les discours, scène pour une vente aux enchères, forfait réel."
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Vous cherchez une location audiovisuelle pour événements caritatifs à Malaga, en Espagne ? Un événement caritatif demande une installation différente selon le moment : un microphone sans fil pour le maître de cérémonie et les discours, une sonorisation pour la salle et une scène si la soirée comprend une vente aux enchères en direct.
+
+Malaga Event Gear livre, installe et teste le son, l'éclairage et un technicien adaptés à votre soirée, à Malaga et sur toute la Costa del Sol.
+
+Contactez-nous pour discuter de votre événement caritatif.
+
+## En bref
+
+---
+
+Malaga Event Gear propose la location audiovisuelle pour événements caritatifs à Malaga et sur toute la Costa del Sol : un microphone sans fil pour le maître de cérémonie, une sonorisation PA pour la salle et une scène pour une vente aux enchères en direct. Depuis 1996, nous livrons, installons et testons nous-mêmes le matériel, pour que votre soirée se déroule comme prévu.
+
+Contactez-nous pour discuter de votre événement.
+
+## Points clés
+
+---
+
+Malaga Event Gear propose la location audiovisuelle pour événements caritatifs à Malaga et sur toute la Costa del Sol.
+
+-   Le Wedding Pack couvre un dîner caritatif intimiste, avec un microphone sans fil et un technicien inclus, jusqu'à 80 invités.
+
+-   Le MICE Pack couvre un gala de bienfaisance plus important avec une vente aux enchères en direct, avec scène et pupitre en option, jusqu'à 120 invités.
+
+-   Un microphone main sans fil pour le maître de cérémonie et les discours, pour que le commissaire-priseur ne soit jamais attaché à un pupitre.
+
+-   Disponible à Malaga, sur la Costa del Sol et à Séville, et à Grenade pour les locations de plus de 400 euros, avec réservation au moins 24 heures à l'avance.
+
+## Faites correspondre votre événement caritatif à un forfait
+
+-   **Dîner caritatif intimiste, jusqu'à 80 invités** : le [Wedding Pack](/packages/wedding/) comprend le son, un microphone, un éclairage d'ambiance avec guirlandes lumineuses et un technicien sur place.
+-   **Gala de bienfaisance avec vente aux enchères en direct, jusqu'à 120 invités** : le [MICE Pack](/packages/mice/) comprend le son, un microphone col de cygne et un microphone sans fil, un écran LED de 60 pouces et un technicien sur place jusqu'à six heures, avec une scène et un pupitre disponibles en option pour la vente aux enchères.
+
+Le contenu complet et les tarifs en direct figurent sur notre [page des forfaits](/packages/). Pour le détail complet, consultez la [page de location audiovisuelle](/blog/audio-visual-rental/).
+
+<InlineCTA />
+
+## Discours et vente aux enchères : microphones et scène
+
+Pour un maître de cérémonie, des discours ou un toast, notre microphone main sans fil permet à un intervenant de s'éloigner du pupitre. Pour une vente aux enchères en direct, la scène et le pupitre en méthacrylate en option du [MICE Pack](/packages/mice/) offrent au commissaire-priseur une véritable scène pour le grand moment de toute la salle, et l'écran LED de 60 pouces peut afficher l'enchère en cours ou une diapositive de remerciement des donateurs.
+
+## Installations réelles que nous avons livrées
+
+Aucune de ces photos ne provient d'un événement caritatif. Ce sont des installations réelles d'autres événements, avec le même type de scène, de pupitre, de sonorisation et d'éclairage qu'utilise une soirée caritative.
+
+![Système audiovisuel sur scène à l'Hotel Alfonso XIII, à Séville.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp "Le pupitre et la scène que Malaga Event Gear a fournis à l'Hotel Alfonso XIII à Séville, en Espagne.")
+
+Une grande scène installée dans le cadre somptueux de l'Hotel Alfonso XIII à Séville, avec l'ensemble du matériel audiovisuel.
+
+![Pupitre en méthacrylate lors d'un événement en extérieur.](https://cdn.malagaeventgear.com/blog/1262/methacrylate_lectern_outdoor_event_1-300x224.webp "Le même événement du soir en extérieur, vu depuis les tables du dîner.")
+
+Un pupitre en méthacrylate lors d'un événement du soir en extérieur, le même type de pupitre qu'utilise un intervenant ou un commissaire-priseur.
+
+![Pupitre et sonorisation pour un concert dans la province de Malaga.](https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-224x300.webp "Une installation de scène de concert dans la province de Malaga, avec un pupitre et une sonorisation professionnelle, prête pour un spectacle captivant.")
+
+Un pupitre et une sonorisation installés pour un concert dans la province de Malaga, le même type d'installation qu'utilise une soirée caritative.
+
+![Location d'éclairage décoratif dans la province de Malaga.](https://cdn.malagaeventgear.com/blog/1271/malaga_decorative_lighting_rental-300x224.webp "Un éclairage décoratif en guirlandes lumineuses installé par Malaga Event Gear pour un événement en soirée en extérieur.")
+
+Un espace extérieur éclairé par des guirlandes lumineuses décoratives, qui crée une ambiance festive pour un événement en soirée.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1269/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Réservation et zone de service
+
+Nos services couvrent Malaga, la Costa del Sol et Séville sans minimum de commande, et s'étendent jusqu'à Grenade pour les locations de plus de 400 euros. Réservez au moins 24 heures à l'avance pour garantir la disponibilité. Pour un événement caritatif plus important avec plusieurs moments à coordonner, réservez le plus tôt possible une fois votre date et votre lieu confirmés.
+
+## Conclusion
+
+Du dîner caritatif intimiste au gala de bienfaisance complet, Malaga Event Gear fournit le son, l'éclairage et la scène dont votre événement a besoin. Pour toute notre gamme, consultez la [page de location audiovisuelle](/blog/audio-visual-rental/). [Contactez-nous](/contact/) pour discuter de votre événement caritatif et obtenir un forfait sur mesure.
+
+Vous préparez plutôt un dîner de gala ? Consultez notre guide sur l'[équipement audiovisuel pour un dîner de gala](/blog/audio-visual-rental-for-gala-dinners/).
+
+## Questions fréquentes
+
+### Quel équipement audiovisuel me faut-il pour un événement caritatif ?
+
+Cela dépend du moment : un microphone sans fil pour le maître de cérémonie et les discours, une sonorisation pour la salle et une scène si la soirée comprend une vente aux enchères en direct. Le [Wedding Pack](/packages/wedding/) et le [MICE Pack](/packages/mice/) couvrent ces besoins pour des nombres d'invités différents.
+
+### Combien coûte la location audiovisuelle pour un événement caritatif ?
+
+Le prix dépend du forfait. Notre catalogue complet va de 290 à 650 euros, avec le MICE Pack à 490 euros pour un gala de bienfaisance plus important, et chaque forfait est indiqué avec un tarif exact en euros sur notre [page des forfaits](/packages/). Tous les tarifs sont HT, la TVA espagnole de 21 % étant ajoutée au moment du paiement, et chaque prix inclut la livraison, l'installation et la reprise.
+
+### Quelle taille d'événement caritatif chaque forfait prend-il en charge ?
+
+Le Wedding Pack couvre jusqu'à 80 invités, et le MICE Pack jusqu'à 120. Voir [Faites correspondre votre événement caritatif à un forfait](#faites-correspondre-votre-événement-caritatif-à-un-forfait) ci-dessus.
+
+### Proposez-vous une scène pour une vente aux enchères en direct ?
+
+Oui, sur le [MICE Pack](/packages/mice/), une scène modulable et un pupitre en méthacrylate sont disponibles en option pour une vente aux enchères en direct ou l'intervention du maître de cérémonie.
+
+### Pouvez-vous afficher l'enchère en cours ou une diapositive de remerciement des donateurs ?
+
+Oui, le [MICE Pack](/packages/mice/) comprend un écran LED de 60 pouces qui peut afficher une enchère, une diapositive de remerciement des donateurs ou l'identité visuelle de l'événement.
+
+### Un technicien est-il inclus pour un événement caritatif ?
+
+Oui, le Wedding Pack et le MICE Pack incluent tous les deux un technicien sur place, pour qu'un microphone qui se déconnecte pendant la vente aux enchères soit remis en service immédiatement.
+
+### Combien de temps à l'avance dois-je réserver l'audiovisuel pour un événement caritatif ?
+
+Réservez au moins 24 heures à l'avance pour garantir la disponibilité. Pour un événement caritatif plus important avec plusieurs moments à coordonner, comme les discours, une vente aux enchères et le divertissement, réservez le plus tôt possible une fois votre date et votre lieu confirmés.
+
+### Depuis combien de temps Malaga Event Gear propose-t-elle la location audiovisuelle ?
+
+Malaga Event Gear assure des événements en direct à Malaga et sur la Costa del Sol depuis 1996, soit trois décennies d'expérience de terrain.

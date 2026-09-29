@@ -296,6 +296,11 @@ export default {
 			slug: 'location-audiovisuelle-concerts-spectacles',
 			keyword: 'location audiovisuelle pour concerts et spectacles à Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-charity-fundraisers': {
+			slug: 'location-audiovisuelle-evenements-caritatifs',
+			keyword: 'location audiovisuelle pour événements caritatifs à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

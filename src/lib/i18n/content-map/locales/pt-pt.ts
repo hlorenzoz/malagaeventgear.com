@@ -328,6 +328,11 @@ export default {
 			slug: 'aluguer-de-audiovisuais-para-espetaculos-musicais',
 			keyword: 'aluguer de audiovisuais para espetáculos musicais em Málaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-charity-fundraisers': {
+			slug: 'aluguer-de-audiovisuais-para-eventos-solidarios',
+			keyword: 'aluguer de audiovisuais para eventos solidários em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

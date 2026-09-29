@@ -292,6 +292,11 @@ export default {
 			slug: 'av-uthyrning-musikframtraedanden',
 			keyword: 'AV-uthyrning för musikframträdanden i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-charity-fundraisers': {
+			slug: 'av-uthyrning-valgorenhetsevenemang',
+			keyword: 'AV-uthyrning för välgörenhetsevenemang i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

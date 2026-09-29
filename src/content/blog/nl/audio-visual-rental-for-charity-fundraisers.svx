@@ -1,0 +1,122 @@
+---
+title: "Audiovisuele verhuur voor benefietevenementen in Malaga"
+description: "Audiovisuele verhuur voor benefietevenementen in Malaga, Spanje: geluid en microfoon voor speeches, podium voor een liveveiling, in een echt pakket."
+publishDate: "2026-09-29"
+sourceUpdated: "2026-09-29"
+excerpt: "Audiovisuele verhuur voor benefietevenementen in Malaga, Spanje: geluid en microfoon voor speeches, podium voor een liveveiling, in een echt pakket."
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Op zoek naar audiovisuele verhuur voor benefietevenementen in Malaga, Spanje? Een benefietevenement vraagt om een andere opstelling per moment: een draadloze microfoon voor de presentator en de speeches, geluid voor de zaal en een podium als de avond een liveveiling heeft.
+
+Malaga Event Gear levert, bouwt op en test geluid, verlichting en een technicus afgestemd op jouw avond, in Malaga en de hele Costa del Sol.
+
+Neem contact op om je benefietevenement te bespreken.
+
+## In het kort
+
+---
+
+Malaga Event Gear biedt audiovisuele verhuur voor benefietevenementen in Malaga en de hele Costa del Sol: een draadloze microfoon voor de presentator, PA-geluid voor de zaal en een podium voor een liveveiling. Sinds 1996 leveren, installeren en testen we de apparatuur zelf, zodat jouw avond volgens planning verloopt.
+
+Neem contact op om je evenement te bespreken.
+
+## Belangrijkste punten
+
+---
+
+Malaga Event Gear biedt audiovisuele verhuur voor benefietevenementen in Malaga en de hele Costa del Sol.
+
+-   Het Wedding Pack dekt een intiem benefietdiner, met een draadloze microfoon en een technicus inbegrepen, tot 80 gasten.
+
+-   Het MICE Pack dekt een groter benefietgala met een liveveiling, met optioneel podium en lessenaar, tot 120 gasten.
+
+-   Een draadloze handmicrofoon voor de presentator en de speeches, zodat de veilingmeester nooit vastzit aan een lessenaar.
+
+-   Beschikbaar in Malaga, de Costa del Sol en Sevilla, en in Granada bij verhuur boven de 400 euro, met boeking minstens 24 uur van tevoren.
+
+## Koppel je benefietevenement aan een pakket
+
+-   **Intiem benefietdiner, tot 80 gasten**: het [Wedding Pack](/packages/wedding/) omvat geluid, een microfoon, sfeerverlichting met lichtsnoeren en een technicus ter plaatse.
+-   **Benefietgala met liveveiling, tot 120 gasten**: het [MICE Pack](/packages/mice/) omvat geluid, een zwanenhalsmicrofoon en een draadloze microfoon, een 60 inch LED-scherm en een technicus tot zes uur ter plaatse, met podium en lessenaar als opties voor de veiling.
+
+De volledige inhoud en actuele prijzen staan op onze [pakkettenpagina](/packages/). Voor het volledige overzicht ga je naar de [pagina over audiovisuele verhuur](/blog/audio-visual-rental/).
+
+<InlineCTA />
+
+## Speeches en de veiling: microfoons en podium
+
+Voor een presentator, speeches of een toost kan een spreker met onze draadloze handmicrofoon weglopen van de lessenaar. Voor een liveveiling geven het optionele podium en de lessenaar van methacrylaat van het [MICE Pack](/packages/mice/) de veilingmeester een echt podium voor het belangrijkste moment in de zaal, en het 60 inch LED-scherm kan het huidige bod of een bedankslide voor de donateurs tonen.
+
+## Echte opstellingen die we hebben geleverd
+
+Geen van deze foto's komt van een benefietevenement. Het zijn echte opstellingen van andere evenementen, met hetzelfde soort podium, lessenaar, geluid en verlichting dat een benefietavond gebruikt.
+
+![Audiovisuele installatie op het podium in Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp "De lessenaar en het podium die Malaga Event Gear leverde in Hotel Alfonso XIII in Sevilla, Spanje.")
+
+Een groot podium in de weelderige omgeving van Hotel Alfonso XIII in Sevilla, compleet met audiovisuele apparatuur.
+
+![Lessenaar van methacrylaat bij een evenement buiten.](https://cdn.malagaeventgear.com/blog/1262/methacrylate_lectern_outdoor_event_1-300x224.webp "Hetzelfde avondevenement buiten, gezien vanaf de dinertafels.")
+
+Een lessenaar van methacrylaat bij een avondevenement buiten, hetzelfde soort lessenaar dat een spreker of een veilingmeester gebruikt.
+
+![Spreekgestoelte en geluidsinstallatie voor een concert in de provincie Malaga.](https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-224x300.webp "Een podiumopstelling voor een concert in de provincie Malaga, met een spreekgestoelte en een professionele geluidsinstallatie, klaar voor een boeiend optreden.")
+
+Een spreekgestoelte en een geluidsinstallatie opgesteld voor een concert in de provincie Malaga, hetzelfde soort opstelling dat een benefietavond gebruikt.
+
+![Huur van decoratieve verlichting in de provincie Malaga.](https://cdn.malagaeventgear.com/blog/1271/malaga_decorative_lighting_rental-300x224.webp "Decoratieve lichtsnoeren, door Malaga Event Gear geïnstalleerd voor een buitenevenement in de avond.")
+
+Een buitenruimte verlicht met decoratieve lichtsnoeren, die zorgen voor een feestelijke sfeer bij een avondevenement.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1269/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Boeking en servicegebied
+
+Onze diensten dekken Malaga, de Costa del Sol en Sevilla zonder minimale bestelling, en reiken tot Granada bij verhuur boven de 400 euro. Boek minstens 24 uur van tevoren om beschikbaarheid te garanderen. Voor een groter benefietevenement met meerdere momenten om te coördineren, boek zo vroeg mogelijk zodra je datum en locatie bevestigd zijn.
+
+## Conclusie
+
+Van een intiem benefietdiner tot een volledig benefietgala: Malaga Event Gear levert het geluid, de verlichting en het podium die jouw evenement nodig heeft. Voor ons volledige aanbod, zie de [pagina over audiovisuele verhuur](/blog/audio-visual-rental/). [Neem contact met ons op](/contact/) om je benefietevenement te bespreken en een pakket op maat te krijgen.
+
+Plan je in plaats daarvan een galadiner? Bekijk onze gids over [audiovisuele verhuur voor galadiners](/blog/audio-visual-rental-for-gala-dinners/).
+
+## Veelgestelde vragen
+
+### Welke AV-apparatuur heb ik nodig voor een benefietevenement?
+
+Dat hangt af van het moment: een draadloze microfoon voor de presentator en de speeches, geluid voor de zaal en een podium als de avond een liveveiling heeft. Het [Wedding Pack](/packages/wedding/) en het [MICE Pack](/packages/mice/) dekken deze behoeften bij verschillende gastenaantallen.
+
+### Wat kost audiovisuele verhuur voor een benefietevenement?
+
+De prijs hangt af van het pakket. Onze volledige catalogus loopt van 290 tot 650 euro, met het MICE Pack op 490 euro voor een groter benefietgala, en elk pakket staat met exacte prijzen in euro op onze [pakkettenpagina](/packages/). Alle tarieven zijn excl. btw, met de Spaanse btw van 21% erbovenop bij het afrekenen, en elke prijs is inclusief levering, opbouw en afbouw.
+
+### Welke omvang van benefietevenement ondersteunt elk pakket?
+
+Het Wedding Pack dekt tot 80 gasten, en het MICE Pack tot 120. Zie [Koppel je benefietevenement aan een pakket](#koppel-je-benefietevenement-aan-een-pakket) hierboven.
+
+### Bieden jullie een podium voor een liveveiling?
+
+Ja, bij het [MICE Pack](/packages/mice/) zijn een modulair podium en een lessenaar van methacrylaat beschikbaar als opties voor een liveveiling of het optreden van de presentator.
+
+### Kunnen jullie het huidige bod of een bedankslide voor de donateurs tonen?
+
+Ja, het [MICE Pack](/packages/mice/) omvat een 60 inch LED-scherm dat een bod, een bedankslide voor de donateurs of de huisstijl van het evenement kan tonen.
+
+### Is er een technicus inbegrepen bij een benefietevenement?
+
+Ja, zowel het Wedding Pack als het MICE Pack omvat een technicus ter plaatse, zodat een weggevallen microfoonverbinding tijdens de veiling meteen wordt opgelost.
+
+### Hoe ver van tevoren moet ik AV boeken voor een benefietevenement?
+
+Boek minstens 24 uur van tevoren om beschikbaarheid te garanderen. Voor een groter benefietevenement met meerdere momenten om te coördineren, zoals speeches, een veiling en entertainment, boek zo vroeg mogelijk zodra je datum en locatie bevestigd zijn.
+
+### Hoe lang biedt Malaga Event Gear al audiovisuele verhuur aan?
+
+Malaga Event Gear verzorgt sinds 1996 live evenementen in Malaga en de Costa del Sol, drie decennia praktijkervaring.

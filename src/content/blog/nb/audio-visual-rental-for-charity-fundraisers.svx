@@ -1,0 +1,122 @@
+---
+title: "AV-utleie til veldedighetsarrangementer i Malaga, Spania"
+description: "AV-utleie til veldedighetsarrangementer i Malaga, Spania: lyd og mikrofon til taler, scene til en liveauksjon, tilpasset en ekte arrangementspakke."
+publishDate: "2026-09-29"
+sourceUpdated: "2026-09-29"
+excerpt: "AV-utleie til veldedighetsarrangementer i Malaga, Spania: lyd og mikrofon til taler, scene til en liveauksjon, tilpasset en ekte arrangementspakke."
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Ser du etter AV-utleie til veldedighetsarrangementer i Malaga, Spania? Et veldedighetsarrangement trenger et annet oppsett avhengig av momentet: en trådløs mikrofon til konferansieren og talene, lyd til salen og en scene hvis kvelden byr på en liveauksjon.
+
+Malaga Event Gear leverer, setter opp og tester lyd, lys og en tekniker tilpasset kvelden din, i Malaga og hele Costa del Sol.
+
+Kontakt oss for å diskutere veldedighetsarrangementet ditt.
+
+## Kort oversikt
+
+---
+
+Malaga Event Gear tilbyr AV-utleie til veldedighetsarrangementer i Malaga og hele Costa del Sol: en trådløs mikrofon til konferansieren, PA-lyd til salen og scene til en liveauksjon. Siden 1996 har vi selv levert, satt opp og testet utstyret, slik at kvelden din går etter planen.
+
+Kontakt oss for å diskutere arrangementet ditt.
+
+## Det viktigste
+
+---
+
+Malaga Event Gear tilbyr AV-utleie til veldedighetsarrangementer i Malaga og hele Costa del Sol.
+
+-   Wedding Pack dekker en intim veldedighetsmiddag, med trådløs mikrofon og tekniker inkludert, for opptil 80 gjester.
+
+-   MICE Pack dekker en større veldedighetsgalla med liveauksjon, med valgfri scene og talerstol, for opptil 120 gjester.
+
+-   En trådløs håndmikrofon til konferansieren og talene, slik at auksjonarius aldri er bundet til en talerstol.
+
+-   Tilgjengelig i Malaga, på Costa del Sol og i Sevilla, samt i Granada for utleie over 400 euro, med bestilling minst 24 timer i forveien.
+
+## Finn pakken som passer veldedighetsarrangementet ditt
+
+-   **Intim veldedighetsmiddag, opptil 80 gjester**: [Wedding Pack](/packages/wedding/) inkluderer lyd, en mikrofon, stemningsbelysning med lysslynger og en tekniker på stedet.
+-   **Veldedighetsgalla med liveauksjon, opptil 120 gjester**: [MICE Pack](/packages/mice/) inkluderer lyd, en svanehalsmikrofon og en trådløs mikrofon, en LED-skjerm på 60 tommer og en tekniker på stedet i opptil seks timer, med scene og talerstol som tillegg til auksjonen.
+
+Alt som er inkludert og aktuelle priser finner du på [pakkesiden](/packages/) vår. Den fullstendige gjennomgangen finner du på [siden om AV-utleie](/blog/audio-visual-rental/).
+
+<InlineCTA />
+
+## Taler og auksjon: mikrofoner og scene
+
+Til en konferansier, taler eller en skåltale lar den trådløse håndmikrofonen vår taleren bevege seg bort fra talerstolen. Til en liveauksjon gir den valgfrie scenen og talerstolen i metakrylat i [MICE Pack](/packages/mice/) auksjonarius en ekte scene til det største øyeblikket i salen, og LED-skjermen på 60 tommer kan vise det aktuelle budet eller en takkeslide til giverne.
+
+## Ekte oppsett vi har levert
+
+Ingen av disse bildene er fra et veldedighetsarrangement. Det er ekte oppsett fra andre arrangementer, med samme type scene, talerstol, lyd og lys som en veldedighetskveld bruker.
+
+![Audiovisuelt system på scenen på Hotel Alfonso XIII, Sevilla.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp "Talerstolen og scenen som Malaga Event Gear leverte på Hotel Alfonso XIII i Sevilla, Spania.")
+
+En stor scene satt opp i de overdådige omgivelsene på Hotel Alfonso XIII i Sevilla, komplett med audiovisuelt utstyr.
+
+![Talerstol i metakrylat på et utendørs arrangement.](https://cdn.malagaeventgear.com/blog/1262/methacrylate_lectern_outdoor_event_1-300x224.webp "Det samme utendørs kveldsarrangementet, sett fra middagsbordene.")
+
+En talerstol i metakrylat på et utendørs kveldsarrangement, samme type talerstol som en taler eller en auksjonarius bruker.
+
+![Talerstol og lydanlegg til en konsert i Malaga-provinsen.](https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-224x300.webp "En konsertscene i Malaga-provinsen med talerstol og et profesjonelt lydanlegg, klar for en medrivende opptreden.")
+
+En talerstol og et lydanlegg satt opp til en konsert i Malaga-provinsen, samme type oppsett som en veldedighetskveld bruker.
+
+![Dekorativ lysutleie i Malaga-provinsen.](https://cdn.malagaeventgear.com/blog/1271/malaga_decorative_lighting_rental-300x224.webp "Dekorative lysslynger som Malaga Event Gear installerte for et utendørs kveldsarrangement.")
+
+Et uteområde opplyst med dekorative lysslynger, som skaper en festlig stemning til et kveldsarrangement.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1269/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Bestilling og dekningsområde
+
+Tjenestene våre dekker Malaga, Costa del Sol og Sevilla uten minstebestilling, og strekker seg til Granada for utleie over 400 euro. Bestill minst 24 timer i forveien for å sikre tilgjengelighet. Til et større veldedighetsarrangement med flere momenter å koordinere bør du bestille så tidlig som mulig når datoen og stedet ditt er bekreftet.
+
+## Konklusjon
+
+Fra en intim veldedighetsmiddag til en full veldedighetsgalla leverer Malaga Event Gear lyden, lyset og scenen arrangementet ditt trenger. Se hele utvalget vårt på [siden om AV-utleie](/blog/audio-visual-rental/). [Kontakt oss](/contact/) for å diskutere veldedighetsarrangementet ditt og få en skreddersydd pakke.
+
+Planlegger du en gallamiddag i stedet? Se guiden vår om [gallamiddagsteknikk](/blog/audio-visual-rental-for-gala-dinners/).
+
+## Ofte stilte spørsmål
+
+### Hvilket AV-utstyr trenger jeg til et veldedighetsarrangement?
+
+Det kommer an på momentet: en trådløs mikrofon til konferansieren og talene, lyd til salen og en scene hvis kvelden byr på en liveauksjon. [Wedding Pack](/packages/wedding/) og [MICE Pack](/packages/mice/) dekker disse behovene ved ulike gjesteantall.
+
+### Hva koster AV-utleie til et veldedighetsarrangement?
+
+Prisen kommer an på pakken. Hele katalogen vår går fra 290 til 650 euro, med MICE Pack på 490 euro til en større veldedighetsgalla, og hver pakke står oppført med nøyaktig pris i euro på [pakkesiden](/packages/) vår. Alle priser er eks. mva., og spansk merverdiavgift på 21 % legges til i kassen. Hver pris inkluderer levering, oppsett og henting.
+
+### Hvilken størrelse veldedighetsarrangement støtter hver pakke?
+
+Wedding Pack dekker opptil 80 gjester, og MICE Pack dekker opptil 120. Se [Finn pakken som passer veldedighetsarrangementet ditt](#finn-pakken-som-passer-veldedighetsarrangementet-ditt) over.
+
+### Tilbyr dere scene til en liveauksjon?
+
+Ja, med [MICE Pack](/packages/mice/) er modulære sceneplattformer og en talerstol i metakrylat tilgjengelige som tillegg til en liveauksjon eller konferansierens innslag.
+
+### Kan dere vise det aktuelle budet eller en takkeslide til giverne?
+
+Ja, [MICE Pack](/packages/mice/) inkluderer en LED-skjerm på 60 tommer som kan vise et bud, en takkeslide til giverne eller arrangementets visuelle profil.
+
+### Er en tekniker inkludert til et veldedighetsarrangement?
+
+Ja, både Wedding Pack og MICE Pack inkluderer en tekniker på stedet, slik at en mikrofonforbindelse som faller ut under auksjonen, blir rettet med en gang.
+
+### Hvor langt i forveien bør jeg bestille AV til et veldedighetsarrangement?
+
+Bestill minst 24 timer i forveien for å sikre tilgjengelighet. Til et større veldedighetsarrangement med flere momenter å koordinere, som taler, en auksjon og underholdning, bør du bestille så tidlig som mulig når datoen og stedet ditt er bekreftet.
+
+### Hvor lenge har Malaga Event Gear tilbudt AV-utleie?
+
+Malaga Event Gear har stått for livearrangementer i Malaga og på Costa del Sol siden 1996, tre tiår med praktisk erfaring.

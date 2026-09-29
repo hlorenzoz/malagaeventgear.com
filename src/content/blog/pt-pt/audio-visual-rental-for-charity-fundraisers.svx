@@ -1,0 +1,122 @@
+---
+title: "Aluguer de audiovisuais para eventos solidários em Málaga"
+description: "Aluguer de audiovisuais para eventos solidários em Málaga, Espanha: som e microfone para os discursos, palco para um leilão ao vivo, num pacote real."
+publishDate: "2026-09-29"
+sourceUpdated: "2026-09-29"
+excerpt: "Aluguer de audiovisuais para eventos solidários em Málaga, Espanha: som e microfone para os discursos, palco para um leilão ao vivo, num pacote real."
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Procura aluguer de audiovisuais para eventos solidários em Málaga, Espanha? Um evento solidário precisa de uma montagem diferente consoante o momento: um microfone sem fios para o apresentador e os discursos, som para a sala e um palco se a noite incluir um leilão ao vivo.
+
+A Malaga Event Gear entrega, monta e testa o som, a iluminação e um técnico dimensionados para a sua noite, em Málaga e em toda a Costa del Sol.
+
+Contacte-nos para falar sobre o seu evento solidário.
+
+## Resumo
+
+---
+
+A Malaga Event Gear disponibiliza aluguer de audiovisuais para eventos solidários em Málaga e em toda a Costa del Sol: um microfone sem fios para o apresentador, som PA para a sala e palco para um leilão ao vivo. Desde 1996 que entregamos, montamos e testamos nós próprios o equipamento, para que a sua noite decorra conforme planeado.
+
+Contacte-nos para falar sobre o seu evento.
+
+## Pontos principais
+
+---
+
+A Malaga Event Gear disponibiliza aluguer de audiovisuais para eventos solidários em Málaga e em toda a Costa del Sol.
+
+-   O Wedding Pack cobre um jantar solidário intimista, com microfone sem fios e técnico incluídos, até 80 convidados.
+
+-   O MICE Pack cobre uma gala solidária maior com leilão ao vivo, com palco e púlpito opcionais, até 120 convidados.
+
+-   Um microfone de mão sem fios para o apresentador e os discursos, para que o leiloeiro nunca fique preso a um púlpito.
+
+-   Disponível em Málaga, na Costa del Sol e em Sevilha, e em Granada para alugueres acima de 400 euros, com reserva com pelo menos 24 horas de antecedência.
+
+## Escolha o pacote certo para o seu evento solidário
+
+-   **Jantar solidário intimista, até 80 convidados**: o [Wedding Pack](/packages/wedding/) inclui som, um microfone, iluminação ambiente com luzes de fada e um técnico no local.
+-   **Gala solidária com leilão ao vivo, até 120 convidados**: o [MICE Pack](/packages/mice/) inclui som, um microfone de pescoço de ganso e um microfone sem fios, um ecrã LED de 60 polegadas e um técnico no local até seis horas, com palco e púlpito disponíveis como opcionais para o leilão.
+
+As inclusões completas e os preços em tempo real estão na nossa [página de pacotes](/packages/). Para o detalhe completo, visite a [página de aluguer de audiovisuais](/blog/audio-visual-rental/).
+
+<InlineCTA />
+
+## Discursos e leilão: microfones e palco
+
+Para um apresentador, discursos ou um brinde, o nosso microfone de mão sem fios permite que o orador se afaste do púlpito. Para um leilão ao vivo, o palco e o púlpito em metacrilato opcionais do [MICE Pack](/packages/mice/) dão ao leiloeiro um verdadeiro palco para o grande momento da sala, e o ecrã LED de 60 polegadas pode mostrar a licitação em curso ou um diapositivo de agradecimento aos doadores.
+
+## Montagens reais que já entregámos
+
+Nenhuma destas fotografias é de um evento solidário. São montagens reais de outros eventos, com o mesmo tipo de palco, púlpito, som e iluminação que uma noite solidária utiliza.
+
+![Sistema audiovisual no palco do Hotel Alfonso XIII, em Sevilha.](https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-300x224.webp "O púlpito e o palco que a Malaga Event Gear forneceu no Hotel Alfonso XIII, em Sevilha, Espanha.")
+
+Um grande palco montado no cenário opulento do Hotel Alfonso XIII, em Sevilha, com todo o equipamento audiovisual.
+
+![Púlpito de metacrilato num evento ao ar livre.](https://cdn.malagaeventgear.com/blog/1262/methacrylate_lectern_outdoor_event_1-300x224.webp "O mesmo evento noturno ao ar livre, visto a partir das mesas do jantar.")
+
+Um púlpito de metacrilato num evento noturno ao ar livre, o mesmo tipo de púlpito que um orador ou um leiloeiro utiliza.
+
+![Púlpito e sistema de som para um concerto na província de Málaga.](https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-224x300.webp "Uma montagem de palco para um concerto na província de Málaga, com um púlpito e um sistema de som profissional, pronta para uma atuação cativante.")
+
+Um púlpito e um sistema de som montados para um concerto na província de Málaga, o mesmo tipo de montagem que uma noite solidária utiliza.
+
+![Aluguer de iluminação decorativa na província de Málaga.](https://cdn.malagaeventgear.com/blog/1271/malaga_decorative_lighting_rental-300x224.webp "Cordões de luzes decorativas instalados pela Malaga Event Gear para um evento noturno ao ar livre.")
+
+Um espaço exterior iluminado com cordões de luzes decorativas, que criam um ambiente festivo para um evento noturno.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1269/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+## Reserva e área de serviço
+
+Os nossos serviços cobrem Málaga, a Costa del Sol e Sevilha sem encomenda mínima, e estendem-se a Granada para alugueres acima de 400 euros. Reserve com pelo menos 24 horas de antecedência para garantir disponibilidade. Para um evento solidário maior com vários momentos a coordenar, reserve o mais cedo possível assim que a sua data e o seu local estiverem confirmados.
+
+## Conclusão
+
+De um jantar solidário intimista a uma gala solidária completa, a Malaga Event Gear fornece o som, a iluminação e o palco de que o seu evento precisa. Para a nossa gama completa, consulte a [página de aluguer de audiovisuais](/blog/audio-visual-rental/). [Contacte-nos](/contact/) para falar sobre o seu evento solidário e obter um pacote à medida.
+
+Está antes a planear um jantar de gala? Consulte o nosso guia de [aluguer de audiovisuais para jantares de gala](/blog/audio-visual-rental-for-gala-dinners/).
+
+## Perguntas frequentes
+
+### Que equipamento audiovisual preciso para um evento solidário?
+
+Depende do momento: um microfone sem fios para o apresentador e os discursos, som para a sala e um palco se a noite incluir um leilão ao vivo. O [Wedding Pack](/packages/wedding/) e o [MICE Pack](/packages/mice/) cobrem estas necessidades em números de convidados diferentes.
+
+### Quanto custa o aluguer de audiovisuais para um evento solidário?
+
+O preço depende do pacote. O nosso catálogo completo vai de 290 a 650 euros, com o MICE Pack a 490 euros para uma gala solidária maior, e cada pacote está indicado com o preço exato em euros na nossa [página de pacotes](/packages/). Todas as tarifas são sem IVA, com o IVA espanhol de 21% acrescentado no checkout, e cada preço inclui entrega, montagem e recolha.
+
+### Que dimensão de evento solidário é que cada pacote suporta?
+
+O Wedding Pack cobre até 80 convidados, e o MICE Pack até 120. Veja [Escolha o pacote certo para o seu evento solidário](#escolha-o-pacote-certo-para-o-seu-evento-solidário) acima.
+
+### Disponibilizam palco para um leilão ao vivo?
+
+Sim, no [MICE Pack](/packages/mice/), plataformas de palco modulares e um púlpito em metacrilato estão disponíveis como opcionais para um leilão ao vivo ou para a intervenção do apresentador.
+
+### Conseguem mostrar a licitação em curso ou um diapositivo de agradecimento aos doadores?
+
+Sim, o [MICE Pack](/packages/mice/) inclui um ecrã LED de 60 polegadas que pode mostrar uma licitação, um diapositivo de agradecimento aos doadores ou a imagem do evento.
+
+### O técnico está incluído num evento solidário?
+
+Sim, tanto o Wedding Pack como o MICE Pack incluem um técnico no local, para que uma ligação de microfone que se perde durante o leilão seja resolvida de imediato.
+
+### Com quanta antecedência devo reservar o audiovisual para um evento solidário?
+
+Reserve com pelo menos 24 horas de antecedência para garantir disponibilidade. Para um evento solidário maior com vários momentos a coordenar, como discursos, um leilão e animação, reserve o mais cedo possível assim que a sua data e o seu local estiverem confirmados.
+
+### Há quanto tempo a Malaga Event Gear presta aluguer de audiovisuais?
+
+A Malaga Event Gear assegura eventos ao vivo em Málaga e na Costa del Sol desde 1996, três décadas de experiência no terreno.

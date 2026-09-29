@@ -296,6 +296,11 @@ export default {
 			slug: 'audiovisuele-verhuur-optredens',
 			keyword: 'audiovisuele verhuur voor optredens in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-charity-fundraisers': {
+			slug: 'audiovisuele-verhuur-benefietevenementen',
+			keyword: 'audiovisuele verhuur voor benefietevenementen in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

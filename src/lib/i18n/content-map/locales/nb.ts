@@ -300,6 +300,11 @@ export default {
 			slug: 'av-utleie-musikkopptredener',
 			keyword: 'AV-utleie til musikkopptredener i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-charity-fundraisers': {
+			slug: 'av-utleie-veldedighetsarrangementer',
+			keyword: 'AV-utleie til veldedighetsarrangementer i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
