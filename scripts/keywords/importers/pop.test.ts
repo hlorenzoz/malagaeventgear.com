@@ -97,9 +97,9 @@ describe('popRowsToKeywords', () => {
 		expect(entry.cluster).toBe('wedding rentals');
 	});
 
-	it('tags the source as pop-csv', () => {
+	it('tags the source as pop', () => {
 		const [entry] = popRowsToKeywords([row({})], new Set(), TODAY);
-		expect(entry.sources).toEqual([{ name: 'pop-csv', seen: TODAY }]);
+		expect(entry.sources).toEqual({ pop: { firstSeen: TODAY, lastSeen: TODAY } });
 	});
 });
 

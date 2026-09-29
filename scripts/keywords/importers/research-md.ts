@@ -193,17 +193,9 @@ function baseKeywordEntry(
 		url: null,
 		status,
 		reason,
-		metrics: {
-			volume: null,
-			difficulty: null,
-			cpc: null,
-			gsc: null,
-			ubersuggest: null
-		},
-		research: null,
+		sources: { research: { firstSeen: today, lastSeen: today } },
 		opportunity: null,
 		opportunityReason: null,
-		sources: [{ name: 'research-md', seen: today }],
 		firstSeen: today,
 		lastResearched: null,
 		notes: ''

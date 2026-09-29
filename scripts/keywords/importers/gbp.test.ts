@@ -143,7 +143,7 @@ describe('gbpRowsToKeywords', () => {
 		expect(entry.cluster).toBe('audio visual rental');
 	});
 
-	it('tags the source as gbp-content-map', () => {
+	it('tags the source as gbp', () => {
 		const [entry] = gbpRowsToKeywords(
 			[
 				{
@@ -156,6 +156,6 @@ describe('gbpRowsToKeywords', () => {
 			{},
 			TODAY
 		);
-		expect(entry.sources).toEqual([{ name: 'gbp-content-map', seen: TODAY }]);
+		expect(entry.sources).toEqual({ gbp: { firstSeen: TODAY, lastSeen: TODAY } });
 	});
 });

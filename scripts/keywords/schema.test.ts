@@ -1,14 +1,16 @@
 /**
- * Unit tests for the keywords.json Zod schema. Written before schema.ts exists (strict TDD):
- * this file must fail on first run because the import target is missing, then pass once
- * schema.ts is implemented.
+ * Unit tests for the keywords.json Zod schema (sources-per-source redesign, 2026-09-29): a
+ * keyword's `sources` is a record keyed by source name, each with its own `firstSeen`/`lastSeen`
+ * (and `via`/`stats` where that source has them). No metric value lives outside `sources`.
  */
 import { describe, it, expect } from 'vitest';
 import {
 	KeywordsFileSchema,
 	KeywordEntrySchema,
 	FaqEntrySchema,
-	AiPromptEntrySchema
+	AiPromptEntrySchema,
+	GoogleAdsStatsSchema,
+	UbersuggestStatsSchema
 } from './schema';
 
 function baseKeyword(overrides: Partial<Record<string, unknown>> = {}) {
@@ -22,17 +24,9 @@ function baseKeyword(overrides: Partial<Record<string, unknown>> = {}) {
 		url: '/blog/audio-visual-rental/',
 		status: 'published',
 		reason: null,
-		metrics: {
-			volume: null,
-			difficulty: null,
-			cpc: null,
-			gsc: null,
-			ubersuggest: null
-		},
-		research: null,
+		sources: { blog: { firstSeen: '2026-09-29', lastSeen: '2026-09-29' } },
 		opportunity: null,
 		opportunityReason: null,
-		sources: [{ name: 'blog', seen: '2026-09-29' }],
 		firstSeen: '2026-09-29',
 		lastResearched: null,
 		notes: '',
@@ -76,39 +70,116 @@ describe('KeywordEntrySchema', () => {
 		expect(result.success).toBe(true);
 	});
 
-	it('rejects a difficulty metric whose source is not ubersuggest', () => {
-		const result = KeywordEntrySchema.safeParse(
-			baseKeyword({
-				metrics: {
-					volume: null,
-					difficulty: { value: 22, source: 'google-ads', asOf: '2026-09-29' },
-					cpc: null,
-					gsc: null,
-					ubersuggest: null
-				}
-			})
-		);
+	it('rejects an unknown status', () => {
+		const result = KeywordEntrySchema.safeParse(baseKeyword({ status: 'bogus' }));
 		expect(result.success).toBe(false);
 	});
 
-	it('accepts a difficulty metric sourced from ubersuggest', () => {
+	it('accepts a full google-ads source with stats', () => {
 		const result = KeywordEntrySchema.safeParse(
 			baseKeyword({
-				metrics: {
-					volume: null,
-					difficulty: { value: 22, source: 'ubersuggest', asOf: '2026-09-29' },
-					cpc: null,
-					gsc: null,
-					ubersuggest: null
+				sources: {
+					'google-ads': {
+						firstSeen: '2026-09-29',
+						lastSeen: '2026-09-29',
+						stats: {
+							asOf: '2026-09-29',
+							period: { from: '2025-09', to: '2026-08' },
+							currency: 'EUR',
+							avgMonthlySearches: 320,
+							threeMonthChange: 0,
+							yoyChange: -33,
+							competition: 'Medium',
+							competitionIndex: 41,
+							topOfPageBidLow: 0.47,
+							topOfPageBidHigh: 2.41,
+							adImpressionShare: null,
+							organicImpressionShare: null,
+							organicAveragePosition: null,
+							monthlySearches: { '2025-09': 480, '2026-08': 260 }
+						}
+					}
 				}
 			})
 		);
 		expect(result.success).toBe(true);
 	});
 
-	it('rejects an unknown status', () => {
-		const result = KeywordEntrySchema.safeParse(baseKeyword({ status: 'bogus' }));
-		expect(result.success).toBe(false);
+	it('accepts a google-ads source that only listed the phrase (stats: null)', () => {
+		const result = KeywordEntrySchema.safeParse(
+			baseKeyword({
+				sources: {
+					'google-ads': { firstSeen: '2026-09-29', lastSeen: '2026-09-29', stats: null }
+				}
+			})
+		);
+		expect(result.success).toBe(true);
+	});
+
+	it('accepts an ubersuggest source with via and stats', () => {
+		const result = KeywordEntrySchema.safeParse(
+			baseKeyword({
+				sources: {
+					ubersuggest: {
+						firstSeen: '2026-09-29',
+						lastSeen: '2026-09-29',
+						via: ['suggestions', 'domain', 'competitor:avhirespain.com'],
+						stats: {
+							asOf: '2026-09-29',
+							volume: 90,
+							difficulty: 12,
+							cpc: 1.2,
+							position: 14,
+							rankingUrl: '/blog/audio-visual-rental/'
+						}
+					}
+				}
+			})
+		);
+		expect(result.success).toBe(true);
+	});
+
+	it('accepts a google-search-console source with stats', () => {
+		const result = KeywordEntrySchema.safeParse(
+			baseKeyword({
+				sources: {
+					'google-search-console': {
+						firstSeen: '2026-09-23',
+						lastSeen: '2026-09-23',
+						stats: { asOf: '2026-09-23', impressions: 631, clicks: 9, ctr: 1.4, position: 9.5 }
+					}
+				}
+			})
+		);
+		expect(result.success).toBe(true);
+	});
+});
+
+describe('GoogleAdsStatsSchema', () => {
+	it('accepts a legacy volume-only row (everything else null)', () => {
+		const result = GoogleAdsStatsSchema.safeParse({
+			asOf: '2025-09-01',
+			period: null,
+			currency: null,
+			avgMonthlySearches: 50000,
+			threeMonthChange: null,
+			yoyChange: null,
+			competition: null,
+			competitionIndex: null,
+			topOfPageBidLow: null,
+			topOfPageBidHigh: null,
+			adImpressionShare: null,
+			organicImpressionShare: null,
+			organicAveragePosition: null,
+			monthlySearches: {}
+		});
+		expect(result.success).toBe(true);
+	});
+});
+
+describe('UbersuggestStatsSchema', () => {
+	it('accepts a minimal reading with only asOf', () => {
+		expect(UbersuggestStatsSchema.safeParse({ asOf: '2026-09-29' }).success).toBe(true);
 	});
 });
 

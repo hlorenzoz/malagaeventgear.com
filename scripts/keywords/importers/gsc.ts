@@ -128,22 +128,21 @@ export function gscRowsToKeywords(
 			url,
 			status,
 			reason,
-			metrics: {
-				volume: null,
-				difficulty: null,
-				cpc: null,
-				gsc: {
-					impressions: row.impressions,
-					clicks: row.clicks,
-					position: row.position,
-					asOf
-				},
-				ubersuggest: null
+			sources: {
+				'google-search-console': {
+					firstSeen: asOf,
+					lastSeen: asOf,
+					stats: {
+						asOf,
+						impressions: row.impressions,
+						clicks: row.clicks,
+						ctr: row.ctr,
+						position: row.position
+					}
+				}
 			},
-			research: null,
 			opportunity: null,
 			opportunityReason: null,
-			sources: [{ name: 'gsc', seen: asOf }],
 			firstSeen: today,
 			lastResearched: null,
 			notes: ''

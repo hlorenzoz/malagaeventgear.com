@@ -94,17 +94,9 @@ export function gbpRowsToKeywords(
 				status === 'rejected'
 					? (REJECTED_REASON[row.status] ?? 'GBP content-map.md: not pursued.')
 					: null,
-			metrics: {
-				volume: null,
-				difficulty: null,
-				cpc: null,
-				gsc: null,
-				ubersuggest: null
-			},
-			research: null,
+			sources: { gbp: { firstSeen: today, lastSeen: today } },
 			opportunity: null,
 			opportunityReason: null,
-			sources: [{ name: 'gbp-content-map', seen: today }],
 			firstSeen: today,
 			lastResearched: null,
 			notes: ''

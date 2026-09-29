@@ -44,7 +44,7 @@ You MAY:
 - Read project files for context (see "Where the business facts live").
 
 You MUST NOT:
-- Edit `keywords.json` yourself. It is about 1.7 MB and only the scripts write it, because a
+- Edit `keywords.json` yourself. It is about 2.5 MB and only the scripts write it, because a
   model rewriting a file that size truncates or corrupts it. Do not even Read it whole: the
   scripts already give you what you need.
 - Touch `src/`, blog posts, `CLAUDE.md` or any other file. Another session may be translating

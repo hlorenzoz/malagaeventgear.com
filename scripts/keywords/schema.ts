@@ -1,11 +1,23 @@
 /**
- * schema.ts: Zod schema for the root `keywords.json` (plan:
- * ~/.claude/plans/lo-otro-necesito-hacer-delightful-bunny.md, section "Diseño" 1).
+ * schema.ts: Zod schema for the root `keywords.json` (2026-09-29 sources-per-source redesign,
+ * replacing the earlier flat `metrics` + `sources: SourceRef[]` shape).
  *
  * Same pattern as `src/lib/data/packages.ts` / `src/lib/i18n/content-map/schema.ts`: one Zod
  * object per collection entry, validated end to end by `KeywordsFileSchema`. No script or agent
  * ever hand-edits `keywords.json`: every write goes through `sync.ts` / `ingest-ubersuggest.ts`,
  * which both parse their output through this schema before writing.
+ *
+ * A keyword's `sources` is ONE record keyed by source, never an array: a keyword seen by three
+ * sources has exactly one entry per source, and re-ingesting the same source updates only its own
+ * key. `difficulty` may ONLY ever appear inside `sources.ubersuggest.stats` (no other source in
+ * this repo measures search difficulty, CLAUDE.md "Honestidad"), a structural guarantee: no other
+ * source's stats schema even has a `difficulty` field.
+ *
+ * No metric value ever lives outside `sources` (user decision, 2026-09-29): there is no top level
+ * `metrics` and no derived top level `summary` either. A content writer (or `score.ts`) reads
+ * volume/difficulty/cpc straight from the source that measured them, e.g.
+ * `sources.ubersuggest.stats.volume` or `sources['google-ads'].stats.avgMonthlySearches`. Only
+ * `opportunity`/`opportunityReason` stay at the top level, computed by `score.ts` from `sources`.
  */
 
 import { z } from 'zod';
@@ -47,35 +59,43 @@ export type Intent = z.infer<typeof IntentSchema>;
 export const OpportunitySchema = z.enum(['high', 'medium', 'low']);
 export type Opportunity = z.infer<typeof OpportunitySchema>;
 
-/** A single dated metric value with its source. `difficulty` may ONLY come from ubersuggest
- *  (CLAUDE.md "Honestidad": no other source in this repo measures search difficulty). */
-const metricValueSchema = z.object({
-	value: z.number(),
-	source: z.string().min(1),
-	asOf: dateOnly
-});
+// --- per-source stats shapes -----------------------------------------------------------------
 
-const gscMetricSchema = z.object({
+/** "1 September 2025" / "31 August 2026" collapsed to their YYYY-MM. */
+const monthPeriodSchema = z.object({ from: z.string(), to: z.string() });
+
+/** One Google Ads "Keyword Stats" export row. Every field nullable except `asOf`: the plain
+ *  2-column legacy export (2025-09-01, `Keyword,Avg. monthly searches`) only ever fills
+ *  `avgMonthlySearches`, everything else stays null on that row, never a fabricated 0. */
+export const GoogleAdsStatsSchema = z.object({
+	asOf: dateOnly,
+	period: monthPeriodSchema.nullable(),
+	currency: z.string().nullable(),
+	avgMonthlySearches: z.number().nullable(),
+	threeMonthChange: z.number().nullable(),
+	yoyChange: z.number().nullable(),
+	/** "Medium"/"Low"/"Unknown"/... — Google Ads PAID competition, never SEO difficulty. */
+	competition: z.string().nullable(),
+	competitionIndex: z.number().nullable(),
+	topOfPageBidLow: z.number().nullable(),
+	topOfPageBidHigh: z.number().nullable(),
+	adImpressionShare: z.number().nullable(),
+	organicImpressionShare: z.number().nullable(),
+	organicAveragePosition: z.number().nullable(),
+	/** "YYYY-MM" -> searches. Only the months the export actually reported, never a filled-in 0. */
+	monthlySearches: z.record(z.string(), z.number())
+});
+export type GoogleAdsStats = z.infer<typeof GoogleAdsStatsSchema>;
+
+/** One row of the most recent GSC "Consultas.csv" export. */
+export const GoogleSearchConsoleStatsSchema = z.object({
+	asOf: dateOnly,
 	impressions: z.number(),
 	clicks: z.number(),
-	position: z.number(),
-	asOf: dateOnly
+	ctr: z.number(),
+	position: z.number()
 });
-
-const ubersuggestPositionSchema = z.object({
-	position: z.number().nullable(),
-	rankingUrl: z.string().nullable(),
-	asOf: dateOnly
-});
-
-export const MetricsSchema = z.object({
-	volume: metricValueSchema.nullable(),
-	difficulty: metricValueSchema.nullable(),
-	cpc: metricValueSchema.nullable(),
-	gsc: gscMetricSchema.nullable(),
-	ubersuggest: ubersuggestPositionSchema.nullable()
-});
-export type Metrics = z.infer<typeof MetricsSchema>;
+export type GoogleSearchConsoleStats = z.infer<typeof GoogleSearchConsoleStatsSchema>;
 
 const serpResearchSchema = z.object({
 	localPack: z.boolean().optional(),
@@ -89,22 +109,87 @@ const contentIdeaSchema = z.object({
 	estVisits: z.number().nullable().optional()
 });
 
-export const ResearchSchema = z.object({
+/** Everything Ubersuggest can return for one keyword, across every MCP section (`via` says
+ *  which). All optional/nullable: a batch only ever fills what that day's calls returned. */
+export const UbersuggestStatsSchema = z.object({
+	asOf: dateOnly,
+	locId: z.number().nullable().optional(),
+	volume: z.number().nullable().optional(),
+	difficulty: z.number().nullable().optional(),
+	paidDifficulty: z.number().nullable().optional(),
+	cpc: z.number().nullable().optional(),
+	position: z.number().nullable().optional(),
+	rankingUrl: z.string().nullable().optional(),
 	serp: serpResearchSchema.optional(),
 	contentIdeas: z.array(contentIdeaSchema).optional(),
 	titleIdeas: z.array(z.string()).optional()
 });
-export type Research = z.infer<typeof ResearchSchema>;
+export type UbersuggestStats = z.infer<typeof UbersuggestStatsSchema>;
 
-const sourceRefSchema = z.object({
-	name: z.string().min(1),
-	seen: dateOnly
+// --- per-source entry shapes -------------------------------------------------------------------
+
+const googleAdsSourceSchema = z.object({
+	firstSeen: dateOnly,
+	lastSeen: dateOnly,
+	/** null when this source only ever listed the phrase (the audited theme lists), never
+	 *  fabricated stats. */
+	stats: GoogleAdsStatsSchema.nullable()
 });
-export type SourceRef = z.infer<typeof sourceRefSchema>;
+export type GoogleAdsSource = z.infer<typeof googleAdsSourceSchema>;
 
-/** One keyword entry. `.superRefine` enforces the cross-field honesty rules from the plan:
- *  a rejected entry must say why, a published entry must point somewhere real, and a difficulty
- *  score must be traceable to the one tool in this repo that measures it. */
+const gscSourceSchema = z.object({
+	firstSeen: dateOnly,
+	lastSeen: dateOnly,
+	stats: GoogleSearchConsoleStatsSchema.nullable()
+});
+export type GoogleSearchConsoleSource = z.infer<typeof gscSourceSchema>;
+
+/** `via` names which Ubersuggest MCP section(s) contributed, e.g. "suggestions", "domain",
+ *  "project", "seo-opportunities", "csv", "competitor:avhirespain.com". */
+const ubersuggestSourceSchema = z.object({
+	firstSeen: dateOnly,
+	lastSeen: dateOnly,
+	via: z.array(z.string()).default([]),
+	stats: UbersuggestStatsSchema.nullable()
+});
+export type UbersuggestSource = z.infer<typeof ubersuggestSourceSchema>;
+
+/** blog / pop / gbp / research / google-autocomplete: no numeric stats of their own, just "this
+ *  source has seen this keyword, between these dates". */
+const simpleSourceSchema = z.object({
+	firstSeen: dateOnly,
+	lastSeen: dateOnly
+});
+export type SimpleSource = z.infer<typeof simpleSourceSchema>;
+
+export const SourcesSchema = z.object({
+	'google-ads': googleAdsSourceSchema.optional(),
+	'google-search-console': gscSourceSchema.optional(),
+	ubersuggest: ubersuggestSourceSchema.optional(),
+	'google-autocomplete': simpleSourceSchema.optional(),
+	blog: simpleSourceSchema.optional(),
+	pop: simpleSourceSchema.optional(),
+	gbp: simpleSourceSchema.optional(),
+	research: simpleSourceSchema.optional()
+});
+export type Sources = z.infer<typeof SourcesSchema>;
+export type SourceKey = keyof Sources;
+
+export const SOURCE_KEYS: SourceKey[] = [
+	'google-ads',
+	'google-search-console',
+	'ubersuggest',
+	'google-autocomplete',
+	'blog',
+	'pop',
+	'gbp',
+	'research'
+];
+
+/** One keyword entry. `.superRefine` enforces the cross-field honesty rules: a rejected entry
+ *  must say why, and a published entry must point somewhere real. No check is needed for
+ *  difficulty's provenance: only `UbersuggestStatsSchema` has a `difficulty` field at all, so
+ *  `sources.ubersuggest.stats` is the only place it could ever come from, by construction. */
 export const KeywordEntrySchema = z
 	.object({
 		id: z.string().min(1),
@@ -116,11 +201,9 @@ export const KeywordEntrySchema = z
 		url: z.string().nullable(),
 		status: KeywordStatusSchema,
 		reason: z.string().nullable(),
-		metrics: MetricsSchema,
-		research: ResearchSchema.nullable(),
+		sources: SourcesSchema,
 		opportunity: OpportunitySchema.nullable(),
 		opportunityReason: z.string().nullable(),
-		sources: z.array(sourceRefSchema),
 		firstSeen: dateOnly,
 		lastResearched: dateOnly.nullable(),
 		notes: z.string()
@@ -140,17 +223,12 @@ export const KeywordEntrySchema = z
 				message: 'status "published" requires a url'
 			});
 		}
-		if (entry.metrics.difficulty && entry.metrics.difficulty.source !== 'ubersuggest') {
-			ctx.addIssue({
-				code: z.ZodIssueCode.custom,
-				path: ['metrics', 'difficulty', 'source'],
-				message: 'difficulty may only be sourced from ubersuggest'
-			});
-		}
 	});
 export type KeywordEntry = z.infer<typeof KeywordEntrySchema>;
 
-/** A FAQ question, satisfied (or not yet) by a URL. Same rejected/reason parity as keywords. */
+/** A FAQ question, satisfied (or not yet) by a URL. Same rejected/reason parity as keywords.
+ *  Unlike KeywordEntry, a FAQ's provenance is a single `source` string: it is never re-measured
+ *  by more than one source the way a keyword's volume/difficulty/CPC can be. */
 export const FaqEntrySchema = z
 	.object({
 		id: z.string().min(1),
@@ -207,9 +285,8 @@ export const AiPromptEntrySchema = z
 	});
 export type AiPromptEntry = z.infer<typeof AiPromptEntrySchema>;
 
-/** Tracks the last run of the weekly/monthly Ubersuggest sections (see plan section 3), so a
- *  Mac that was asleep on Monday does not skip the week: ingest-ubersuggest.ts checks the date
- *  gap here rather than the day of the week. */
+/** Tracks the last run of the weekly/monthly Ubersuggest sections, derived from the committed
+ *  batch files (see `sync.ts`), so a Mac that was asleep on Monday does not skip the week. */
 export const MetaSchema = z.object({
 	lastWeeklyRun: dateOnly.nullable(),
 	lastMonthlyRun: dateOnly.nullable()

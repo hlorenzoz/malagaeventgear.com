@@ -1,17 +1,21 @@
 /**
- * keywords-file.test.ts: guards over the real, committed root `keywords.json` (plan, section
- * 4 "Guards"). Reads project files via `import.meta.glob` (never `node:fs`, per CLAUDE.md
- * "Tests que leen archivos del proyecto"), unlike the importer scripts themselves which run
- * standalone under bun and use node:fs (same pattern as scripts/backfill-silo-meta.ts).
+ * keywords-file.test.ts: guards over the real, committed root `keywords.json`. Reads project
+ * files via `import.meta.glob` (never `node:fs`, per CLAUDE.md "Tests que leen archivos del
+ * proyecto"), unlike the importer scripts themselves which run standalone under bun and use
+ * node:fs (same pattern as scripts/backfill-silo-meta.ts).
  *
- * Most invariants (unique ids, `rejected` requires `reason`, `published` requires `url`,
- * `difficulty` only from ubersuggest) are already enforced by `KeywordsFileSchema.superRefine`
- * (see schema.test.ts): parsing the real file here re-proves those hold for the actual data, not
- * just for hand-built fixtures.
+ * Most invariants (unique ids, `rejected` requires `reason`, `published` requires `url`) are
+ * already enforced by `KeywordsFileSchema.superRefine` (see schema.test.ts): parsing the real
+ * file here re-proves those hold for the actual data, not just for hand-built fixtures. The
+ * `difficulty`-only-from-ubersuggest rule is now a STRUCTURAL guarantee (only
+ * `UbersuggestStatsSchema` even has a `difficulty` field), which is exactly why this file re-reads
+ * the RAW JSON text below rather than trusting the (lossy, unknown-key-stripping) parsed result:
+ * a `difficulty` field accidentally written onto another source's stats would otherwise be
+ * silently dropped by Zod instead of caught.
  */
 import { describe, it, expect } from 'vitest';
 import matter from 'gray-matter';
-import { KeywordsFileSchema } from './schema';
+import { KeywordsFileSchema, SOURCE_KEYS } from './schema';
 import { normalizeId } from './normalize';
 import { BlogPostSchema } from '../../src/lib/types/blog';
 
@@ -27,15 +31,45 @@ const rawPosts = import.meta.glob('/src/content/blog/*.svx', {
 	eager: true
 }) as Record<string, string>;
 
-function loadKeywordsFile() {
+function rawText(): string {
 	const raw = rawKeywordsFile['/keywords.json'];
 	if (!raw) throw new Error('keywords.json not found: run `just keywords-sync` first');
-	return KeywordsFileSchema.parse(JSON.parse(raw));
+	return raw;
+}
+
+function loadKeywordsFile() {
+	return KeywordsFileSchema.parse(JSON.parse(rawText()));
 }
 
 describe('keywords.json: schema and invariants', () => {
-	it('validates against KeywordsFileSchema (unique ids, rejected/reason, published/url, difficulty/ubersuggest)', () => {
+	it('validates against KeywordsFileSchema (unique ids, rejected/reason, published/url)', () => {
 		expect(() => loadKeywordsFile()).not.toThrow();
+	});
+
+	it('never has a difficulty field anywhere outside sources.ubersuggest.stats', () => {
+		const file = JSON.parse(rawText()) as {
+			keywords: { id: string; sources: Record<string, unknown> }[];
+		};
+		const otherSourceKeys = SOURCE_KEYS.filter((k) => k !== 'ubersuggest');
+		for (const keyword of file.keywords) {
+			for (const key of otherSourceKeys) {
+				const source = keyword.sources[key] as { stats?: unknown } | undefined;
+				const stats = source?.stats as Record<string, unknown> | null | undefined;
+				if (stats && 'difficulty' in stats) {
+					throw new Error(
+						`keywords.json: "${keyword.id}" has a difficulty field under sources.${key}, only sources.ubersuggest.stats may carry one`
+					);
+				}
+			}
+		}
+	});
+
+	it('never has a top level metrics or summary field on any keyword (all metric values live in sources)', () => {
+		const file = JSON.parse(rawText()) as { keywords: Record<string, unknown>[] };
+		for (const keyword of file.keywords) {
+			expect(keyword).not.toHaveProperty('metrics');
+			expect(keyword).not.toHaveProperty('summary');
+		}
 	});
 });
 
@@ -75,6 +109,7 @@ describe('keywords.json: every published English post has its keyword tracked', 
 			expect(entry, `no keywords.json entry for id "${id}" (post ${slug})`).toBeDefined();
 			expect(entry?.status).toBe('published');
 			expect(entry?.url).toBe(`/blog/${slug}/`);
+			expect(entry?.sources.blog, `"${id}" has no sources.blog entry`).toBeDefined();
 		}
 	);
 });

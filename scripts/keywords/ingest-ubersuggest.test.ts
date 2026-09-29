@@ -1,9 +1,10 @@
 /**
- * ingest-ubersuggest.test.ts: unit tests for the pure batch-to-entries transform (plan,
- * `ingest-ubersuggest.ts` row: "Mergea un lote diario ... YYYY-MM-DD.json"). The agent only ever
- * discovers `idea`s (plan 3b: "Nunca crea contenido ni cambia estados a published: solo
- * descubre"), so every new keyword from a batch starts at `idea` unless `relevance.ts` or
- * `seed-mappings.ts` overrides it deterministically, exactly like every other importer.
+ * ingest-ubersuggest.test.ts: unit tests for the pure batch-to-entries transform. The agent only
+ * ever discovers `idea`s (it never creates content or changes status to published: it only
+ * discovers), so every new keyword from a batch starts at `idea` unless `relevance.ts` or
+ * `seed-mappings.ts` overrides it deterministically, exactly like every other importer. Every
+ * reading a batch carries lands under `sources.ubersuggest` (or `sources['google-autocomplete']`
+ * for autocomplete phrases), never a top level `metrics` field.
  */
 import { describe, it, expect } from 'vitest';
 import { batchToKeywords, batchToFaqs, batchToAiPrompts } from './ingest-ubersuggest';
@@ -41,7 +42,7 @@ describe('batchToKeywords', () => {
 		expect(entry.url).toBeNull();
 	});
 
-	it('attaches volume/difficulty/cpc metrics from the batch entry', () => {
+	it('attaches volume/difficulty/cpc under sources.ubersuggest.stats', () => {
 		const b = batch({
 			keywords: [
 				{
@@ -55,18 +56,13 @@ describe('batchToKeywords', () => {
 			]
 		});
 		const [entry] = batchToKeywords(b, serviceAreas, TODAY);
-		expect(entry.metrics.volume?.value).toBe(90);
-		expect(entry.metrics.difficulty?.value).toBe(12);
+		expect(entry.sources.ubersuggest?.stats?.volume).toBe(90);
+		expect(entry.sources.ubersuggest?.stats?.difficulty).toBe(12);
 	});
 
 	it('rejects an out of market keyword via relevance.ts, even though the agent proposed it', () => {
 		const b = batch({
-			keywords: [
-				{
-					keyword: 'av equipment hire dubai',
-					source: 'ubersuggest-keyword-suggestions'
-				}
-			]
+			keywords: [{ keyword: 'av equipment hire dubai', source: 'ubersuggest-keyword-suggestions' }]
 		});
 		const [entry] = batchToKeywords(b, serviceAreas, TODAY);
 		expect(entry.status).toBe('rejected');
@@ -84,17 +80,14 @@ describe('batchToKeywords', () => {
 	it('rejects a deliberately excluded phrase via seed-mappings (gender reveal smoke machine)', () => {
 		const b = batch({
 			keywords: [
-				{
-					keyword: 'gender reveal smoke machine',
-					source: 'ubersuggest-google-suggestions'
-				}
+				{ keyword: 'gender reveal smoke machine', source: 'ubersuggest-google-suggestions' }
 			]
 		});
 		const [entry] = batchToKeywords(b, serviceAreas, TODAY);
 		expect(entry.status).toBe('rejected');
 	});
 
-	it('attaches rank position/url as metrics.ubersuggest, creating an idea entry if the keyword was not already in batch.keywords', () => {
+	it('attaches rank position/url under sources.ubersuggest.stats, creating an idea entry if the keyword was not already in batch.keywords', () => {
 		const b = batch({
 			rank: [
 				{
@@ -107,11 +100,9 @@ describe('batchToKeywords', () => {
 		});
 		const entries = batchToKeywords(b, serviceAreas, TODAY);
 		const entry = entries.find((e) => e.keyword === 'audio visual rental');
-		expect(entry?.metrics.ubersuggest).toEqual({
-			position: 14,
-			rankingUrl: '/blog/audio-visual-rental/',
-			asOf: TODAY
-		});
+		expect(entry?.sources.ubersuggest?.stats?.position).toBe(14);
+		expect(entry?.sources.ubersuggest?.stats?.rankingUrl).toBe('/blog/audio-visual-rental/');
+		expect(entry?.sources.ubersuggest?.via).toContain('project');
 	});
 
 	it('merges rank data onto a keyword that also came from batch.keywords (same id)', () => {
@@ -128,16 +119,13 @@ describe('batchToKeywords', () => {
 		});
 		const entries = batchToKeywords(b, serviceAreas, TODAY);
 		expect(entries).toHaveLength(1);
-		expect(entries[0].metrics.ubersuggest?.position).toBe(14);
+		expect(entries[0].sources.ubersuggest?.stats?.position).toBe(14);
 	});
 
-	it('attaches research to the matching keyword by normalized text', () => {
+	it('attaches research (serp/titleIdeas) to the matching keyword under sources.ubersuggest.stats', () => {
 		const b = batch({
 			keywords: [
-				{
-					keyword: 'av equipment hire malaga',
-					source: 'ubersuggest-keyword-suggestions'
-				}
+				{ keyword: 'av equipment hire malaga', source: 'ubersuggest-keyword-suggestions' }
 			],
 			research: {
 				'av equipment hire malaga': {
@@ -147,21 +135,52 @@ describe('batchToKeywords', () => {
 			}
 		});
 		const [entry] = batchToKeywords(b, serviceAreas, TODAY);
-		expect(entry.research?.serp?.localPack).toBe(true);
-		expect(entry.research?.titleIdeas).toEqual(['The Complete Guide']);
+		expect(entry.sources.ubersuggest?.stats?.serp?.localPack).toBe(true);
+		expect(entry.sources.ubersuggest?.stats?.titleIdeas).toEqual(['The Complete Guide']);
+		expect(entry.sources.ubersuggest?.via).toEqual(
+			expect.arrayContaining(['keyword-suggestions', 'serp', 'title-ideas'])
+		);
 	});
 
-	it('tags sources with the batch entry own source string and today as seen date', () => {
+	it('never creates a new entry from research alone (only attaches to an existing batch keyword)', () => {
 		const b = batch({
-			keywords: [
-				{
-					keyword: 'av equipment hire malaga',
-					source: 'ubersuggest-keyword-suggestions'
-				}
-			]
+			research: { 'some unseen keyword': { titleIdeas: ['x'] } }
+		});
+		const entries = batchToKeywords(b, serviceAreas, TODAY);
+		expect(entries).toHaveLength(0);
+	});
+
+	it('tags a plain keyword suggestion with the section (prefix stripped) in sources.ubersuggest.via', () => {
+		const b = batch({
+			keywords: [{ keyword: 'av equipment hire malaga', source: 'ubersuggest-keyword-suggestions' }]
 		});
 		const [entry] = batchToKeywords(b, serviceAreas, TODAY);
-		expect(entry.sources).toEqual([{ name: 'ubersuggest-keyword-suggestions', seen: TODAY }]);
+		expect(entry.sources).toEqual({
+			ubersuggest: {
+				firstSeen: TODAY,
+				lastSeen: TODAY,
+				via: ['keyword-suggestions'],
+				stats: null
+			}
+		});
+	});
+
+	it('gives an autocomplete phrase its own source key, never sources.ubersuggest', () => {
+		const b = batch({
+			keywords: [{ keyword: 'wedding all in one', source: 'google-autocomplete' }]
+		});
+		const [entry] = batchToKeywords(b, serviceAreas, TODAY);
+		expect(entry.sources).toEqual({
+			'google-autocomplete': { firstSeen: TODAY, lastSeen: TODAY }
+		});
+	});
+
+	it('keeps a competitor: source as its literal via label', () => {
+		const b = batch({
+			keywords: [{ keyword: 'av hire company malaga', source: 'competitor:avhirespain.com' }]
+		});
+		const [entry] = batchToKeywords(b, serviceAreas, TODAY);
+		expect(entry.sources.ubersuggest?.via).toEqual(['competitor:avhirespain.com']);
 	});
 });
 
@@ -184,12 +203,7 @@ describe('batchToFaqs', () => {
 
 	it('falls back to unassigned cluster/keywordId when no seed keyword is given', () => {
 		const b = batch({
-			faqs: [
-				{
-					question: 'what is av equipment hire?',
-					source: 'google-autocomplete'
-				}
-			]
+			faqs: [{ question: 'what is av equipment hire?', source: 'google-autocomplete' }]
 		});
 		const [faq] = batchToFaqs(b, TODAY);
 		expect(faq.cluster).toBe('unassigned');

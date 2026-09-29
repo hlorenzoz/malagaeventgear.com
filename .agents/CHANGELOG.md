@@ -16,6 +16,47 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 - **Límites conocidos**: Ubersuggest en free tier. Las FAQs de Google salen del autocompletado (`google-autocomplete`, nunca PAA: `serp_analysis` no trae People Also Ask). Las AI Prompt Ideas salen de `industry_prompts` con la semilla como tema, porque el MCP no expone esa pestaña por keyword. Las keywords de los otros 12 idiomas siguen en `content-map/locales/`.
 - **`CLAUDE.md`**: sección "Investigación de keywords (`keywords.json`)", fila en "Fuentes únicas de verdad", y se corrige la línea que decía que no había export de GSC.
 
+### Changed (keywords): `sources` por fuente en vez de `metrics` plano, y el Google Ads 2026-09-29
+- **Pedido del usuario (2026-09-29)**: nunca duplicar una keyword entre fuentes. Cada `KeywordEntry`
+  pasa de un `metrics` plano + `sources: [{name, seen}]` a UN registro `sources` con una clave por
+  fuente (`google-ads`, `google-search-console`, `ubersuggest`, `google-autocomplete`, `blog`,
+  `pop`, `gbp`, `research`), cada una con sus propias `stats` cuando esa fuente mide algo. Reingerir
+  una fuente actualiza solo su propia clave. **Decisión del usuario en el mismo cambio**: ningún
+  valor numérico vive fuera de `sources` (no hay `metrics` de nivel superior ni un `summary`
+  derivado). `opportunity`/`opportunityReason` siguen siendo los únicos campos calculados, ahora
+  leyendo `sources` directo. Renombres: `gsc` -> `google-search-console`, `pop-csv` -> `pop`,
+  `gbp-content-map` -> `gbp`, `research-md` -> `research`, `ubersuggest-csv` y cada sección de lote
+  de Ubersuggest (`ubersuggest-suggestions`, `ubersuggest-domain`, `ubersuggest-project`,
+  `ubersuggest-seo-opportunities`, `competitor:<dominio>`) -> `ubersuggest`, con la sección
+  conservada en `via`. El `research` (SERP, ideas de contenido, de título) que antes vivía suelto en
+  cada keyword ahora vive dentro de `sources.ubersuggest.stats`.
+- **Google Ads, nueva fuente sin auditar**: se ingiere
+  `.agents/context/keywords/google-ads/malagaeventgear.com - Keyword Stats 2026-09-29 at
+  10_09_49.csv` (UTF-16LE, separado por tabs, 618 filas, decodificado con `TextDecoder`), con todas
+  sus columnas (volumen, cambios trimestral/anual, competencia paga, puja, cuota de impresión,
+  posición orgánica, búsquedas mensuales). A diferencia de las 12 listas por tema y el export
+  2025-09-01 (ya auditados y cerrados, entran `covered`), este export pasa por
+  `relevance.ts`/`seed-mappings.ts` igual que GSC: una keyword nueva entra `idea`, nunca `covered`
+  de arranque. Una keyword ya existente conserva su `status`/`url`/`cluster` (`merge.ts`).
+- **`sync.ts` ahora reconstruye desde CERO**: además de las fuentes estáticas, reproduce en orden
+  de fecha cada lote ya commiteado en `.agents/context/keywords/ubersuggest/*.json`, así el archivo
+  es 100% derivable de lo que está en el repo (antes solo `ingest-ubersuggest.ts` procesaba los
+  lotes, de forma incremental). `ingest-ubersuggest.ts` mantiene su contrato de CLI y produce el
+  mismo resultado que una reconstrucción completa. `batch.schema.ts` no cambia (lo escribe el
+  agente diario todos los días).
+- **`keywords.json` (raíz)**: 2.109 keywords (852 idea, 983 covered, 175 rejected, 77 published, 19
+  planned, 3 draft), 562 FAQs, 60 aiPrompts. Sin pérdida de datos: los 1.718 ids previos siguen
+  todos presentes, con el mismo `status`/`url` en cada entrada que ya había salido de `idea`. 391
+  ids nuevos entran desde el Google Ads 2026-09-29 (384 idea, 7 covered por seed mapping). `sync.ts`
+  corrido dos veces seguidas produce el mismo hash.
+- **Scripts (`scripts/keywords/`, strict TDD, 298 tests)**: `schema.ts`, `merge.ts`, `score.ts`,
+  `sync.ts`, `ingest-ubersuggest.ts` y todos los importadores reescritos para el nuevo modelo.
+  `keywords-file.test.ts` suma un guard que relee el JSON crudo (sin pasar por el parseo de Zod,
+  que descarta claves desconocidas en silencio) para probar que ningún `difficulty` aparece fuera
+  de `sources.ubersuggest.stats`, y que ninguna keyword tiene `metrics`/`summary` de nivel superior.
+- **`CLAUDE.md`**: sección "Investigación de keywords (`keywords.json`)" reescrita con la forma de
+  `sources`, el tratamiento en dos vías de Google Ads y la reconstrucción por lotes de `sync.ts`.
+
 ### Fixed (redirects): dos 301 que terminaban en 404 y una cadena de dos saltos
 - **Revisión de "Página con redirección" en GSC (2026-09-26, export en `.agents/context/google-search-console-gsc/paginas/`)**: las 90 URLs son redirects intencionales de la migración (raíces de WordPress a `/blog/`, posts retirados, paquetes viejos, `/category/*`, `/contact-us`, http y www), todos a una página que responde 200. Google no los indexa por diseño y pide mantenerlos al menos un año. No se borran ni se valida esa categoría en GSC.
 - **`/category/expirience/` y `/category/useful/`** redirigían a categorías del blog que no existen (404). Ahora van a `/blog/category/news/` y a `/blog/`.

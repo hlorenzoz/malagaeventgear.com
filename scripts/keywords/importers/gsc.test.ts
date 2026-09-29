@@ -101,24 +101,37 @@ describe('gscRowsToKeywords', () => {
 		expect(entry.reason).toMatch(/out-of-market/i);
 	});
 
-	it('always attaches the gsc metric with the export date as asOf', () => {
+	it('always attaches the gsc stats with the export date as asOf', () => {
 		const [entry] = gscRowsToKeywords(
 			[row({ impressions: 631, clicks: 9, position: 9.5 })],
 			'2026-09-23',
 			serviceAreas,
 			TODAY
 		);
-		expect(entry.metrics.gsc).toEqual({
+		expect(entry.sources['google-search-console']?.stats).toEqual({
+			asOf: '2026-09-23',
 			impressions: 631,
 			clicks: 9,
-			position: 9.5,
-			asOf: '2026-09-23'
+			ctr: 1,
+			position: 9.5
 		});
 	});
 
-	it('tags the source as gsc with the export date', () => {
+	it('tags the source as google-search-console with the export date as firstSeen/lastSeen', () => {
 		const [entry] = gscRowsToKeywords([row()], '2026-09-23', serviceAreas, TODAY);
-		expect(entry.sources).toEqual([{ name: 'gsc', seen: '2026-09-23' }]);
+		expect(entry.sources).toEqual({
+			'google-search-console': {
+				firstSeen: '2026-09-23',
+				lastSeen: '2026-09-23',
+				stats: {
+					asOf: '2026-09-23',
+					impressions: row().impressions,
+					clicks: row().clicks,
+					ctr: row().ctr,
+					position: row().position
+				}
+			}
+		});
 		expect(entry.firstSeen).toBe(TODAY);
 	});
 });

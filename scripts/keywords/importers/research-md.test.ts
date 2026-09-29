@@ -167,9 +167,9 @@ describe('researchMdToKeywords', () => {
 		expect(entry?.reason).toMatch(/definitional\/translation/);
 	});
 
-	it('tags the source as research-md', () => {
+	it('tags the source as research', () => {
 		const entries = researchMdToKeywords(clusters, weakItems, discardedRows, TODAY);
-		expect(entries[0].sources).toEqual([{ name: 'research-md', seen: TODAY }]);
+		expect(entries[0].sources).toEqual({ research: { firstSeen: TODAY, lastSeen: TODAY } });
 	});
 });
 

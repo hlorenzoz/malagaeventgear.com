@@ -29,7 +29,9 @@ describe('ubersuggestCsvPhrasesToKeywords', () => {
 		expect(entry.status).toBe('covered');
 		expect(entry.url).toBeNull();
 		expect(entry.notes).toMatch(/2026-08-06/);
-		expect(entry.sources).toEqual([{ name: 'ubersuggest-csv', seen: TODAY }]);
+		expect(entry.sources).toEqual({
+			ubersuggest: { firstSeen: TODAY, lastSeen: TODAY, via: ['csv'], stats: null }
+		});
 	});
 
 	it('rejects an out of market phrase', () => {

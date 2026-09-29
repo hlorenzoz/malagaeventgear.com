@@ -59,17 +59,9 @@ export function blogPostsToKeywords(posts: BlogPostInput[], today: string): Keyw
 		url: `/blog/${post.slug}/`,
 		status: post.draft ? 'draft' : 'published',
 		reason: null,
-		metrics: {
-			volume: null,
-			difficulty: null,
-			cpc: null,
-			gsc: null,
-			ubersuggest: null
-		},
-		research: null,
+		sources: { blog: { firstSeen: today, lastSeen: today } },
 		opportunity: null,
 		opportunityReason: null,
-		sources: [{ name: 'blog', seen: today }],
 		firstSeen: today,
 		lastResearched: null,
 		notes: ''

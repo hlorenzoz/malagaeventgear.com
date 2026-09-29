@@ -83,7 +83,7 @@ describe('blogPostsToKeywords', () => {
 	it('sets id from the normalized keyword, source "blog", and today as firstSeen', () => {
 		const [entry] = blogPostsToKeywords([post({})], TODAY);
 		expect(entry.id).toBe('audio-visual-rental');
-		expect(entry.sources).toEqual([{ name: 'blog', seen: TODAY }]);
+		expect(entry.sources).toEqual({ blog: { firstSeen: TODAY, lastSeen: TODAY } });
 		expect(entry.firstSeen).toBe(TODAY);
 	});
 

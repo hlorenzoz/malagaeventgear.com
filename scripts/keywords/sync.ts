@@ -1,23 +1,38 @@
 #!/usr/bin/env bun
 /**
- * sync.ts: runs every static-file importer, merges the result into the existing root
- * `keywords.json` (if any) and writes it back, sorted and stably formatted (plan, "Diseño" 2,
- * `sync.ts` row). This is the ONLY script allowed to write `keywords.json` from these sources.
- * `ingest-ubersuggest.ts` is the only other writer, for the daily agent's batch file.
+ * sync.ts: rebuilds the root `keywords.json` from EVERY committed source in the repo: the static
+ * importers (POP, GSC, Google Ads, GBP, blog, FAQs) AND every committed Ubersuggest daily batch
+ * under `.agents/context/keywords/ubersuggest/*.json`, replayed in date order. This is the ONLY
+ * script (with `ingest-ubersuggest.ts`) allowed to write `keywords.json`.
  *
  * Usage: `bun scripts/keywords/sync.ts` (also `just keywords-sync`).
  *
  * Idempotent by construction: every importer is a pure function of "today" plus files already
- * committed to the repo, `merge.ts` is upsert-by-id, and the final array is always sorted by id
- * before writing, so running this twice on the same day produces byte-identical output.
+ * committed to the repo, each ubersuggest batch is folded in using ITS OWN `date` (never "today",
+ * so a rebuild on a different day still reproduces the same `sources.ubersuggest.firstSeen`),
+ * `merge.ts` is upsert-by-id, and the final array is always sorted by id before writing, so
+ * running this twice on the same day produces byte-identical output.
+ *
+ * Because it replays every batch, running this on a fresh checkout with NO existing
+ * `keywords.json` reconstructs the same file a chain of daily `ingest-ubersuggest.ts` runs would
+ * have produced: the file is fully derivable from what is committed, nothing lives only in a
+ * previous `keywords.json` that a rebuild could lose.
  */
 
-import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
-import { KeywordsFileSchema, type KeywordEntry, type FaqEntry, type KeywordsFile } from './schema';
-import { mergeFaq, mergeKeyword } from './merge';
+import {
+	KeywordsFileSchema,
+	type KeywordEntry,
+	type FaqEntry,
+	type AiPromptEntry,
+	type KeywordsFile
+} from './schema';
+import { mergeFaq, mergeKeyword, mergeAiPrompt } from './merge';
 import { scoreOpportunity } from './score';
 import { sanitizeKeywordsFile } from './sanitize';
+import { batchToAiPrompts, batchToFaqs, batchToKeywords } from './ingest-ubersuggest';
+import { KeywordBatchSchema, type KeywordBatch } from './batch.schema';
 import { importBlogKeywords } from './importers/blog';
 import { importPostFaqs, type PostInfo } from './importers/post-faqs';
 import { importSiteFaqs } from './importers/site-faq';
@@ -29,6 +44,8 @@ import { importGbpKeywords } from './importers/gbp';
 import { importResearchMd } from './importers/research-md';
 
 const OUTPUT_PATH = join(process.cwd(), 'keywords.json');
+const UBERSUGGEST_BATCH_DIR = join(process.cwd(), '.agents', 'context', 'keywords', 'ubersuggest');
+const BATCH_FILENAME_RE = /^\d{4}-\d{2}-\d{2}\.json$/;
 
 function today(): string {
 	return new Date().toISOString().slice(0, 10);
@@ -40,7 +57,16 @@ function slugFromBlogUrl(url: string): string {
 
 function readExisting(): KeywordsFile | null {
 	if (!existsSync(OUTPUT_PATH)) return null;
-	return KeywordsFileSchema.parse(JSON.parse(readFileSync(OUTPUT_PATH, 'utf8')));
+	const parsed = KeywordsFileSchema.safeParse(JSON.parse(readFileSync(OUTPUT_PATH, 'utf8')));
+	if (parsed.success) return parsed.data;
+	// A keywords.json written by a previous, incompatible schema version (e.g. the 2026-09-29
+	// sources-per-source migration) cannot be upserted onto: rebuild fully from sources and
+	// committed batches instead of crashing. Every id it held is re-derived below, since none of
+	// it was ever anything other than a computed view over the same repo files.
+	console.warn(
+		'[keywords:sync] existing keywords.json does not match the current schema, rebuilding fully from sources'
+	);
+	return null;
 }
 
 function upsertAll<T extends { id: string }>(
@@ -51,6 +77,19 @@ function upsertAll<T extends { id: string }>(
 	for (const entry of incoming) {
 		byId.set(entry.id, merge(byId.get(entry.id), entry));
 	}
+}
+
+/** Every committed daily batch, oldest first, so later days can only add to or upgrade what an
+ *  earlier day discovered (the same order `ingest-ubersuggest.ts` would have applied them in). */
+function readCommittedBatches(): KeywordBatch[] {
+	if (!existsSync(UBERSUGGEST_BATCH_DIR)) return [];
+	const files = readdirSync(UBERSUGGEST_BATCH_DIR)
+		.filter((f) => BATCH_FILENAME_RE.test(f))
+		.sort();
+	return files.map((file) => {
+		const raw = JSON.parse(readFileSync(join(UBERSUGGEST_BATCH_DIR, file), 'utf8'));
+		return KeywordBatchSchema.parse(raw);
+	});
 }
 
 interface SyncSummary {
@@ -70,6 +109,9 @@ export async function runSync(serviceAreas: readonly string[]): Promise<SyncSumm
 		existing?.keywords.map((k) => [k.id, k]) ?? []
 	);
 	const faqsById = new Map<string, FaqEntry>(existing?.faqs.map((f) => [f.id, f]) ?? []);
+	const aiPromptsById = new Map<string, AiPromptEntry>(
+		existing?.aiPrompts.map((p) => [p.id, p]) ?? []
+	);
 
 	// 1. Blog first: establishes the authoritative published/draft status and cluster for every
 	// real post before any other (lower-confidence) source gets a chance to propose one.
@@ -82,7 +124,31 @@ export async function runSync(serviceAreas: readonly string[]): Promise<SyncSumm
 		postInfoBySlug[slug] = { keywordId: entry.id, cluster: entry.cluster };
 		postClusterBySlug[slug] = entry.cluster;
 	}
+	upsertAll(keywordsById, blogEntries, mergeKeyword);
 
+	// 2. Every committed Ubersuggest batch, oldest first: the daily agent's discoveries, each
+	// dated by its OWN batch.date so a rebuild is stable regardless of when it runs.
+	const batches = readCommittedBatches();
+	let lastWeeklyRun: string | null = existing?.meta.lastWeeklyRun ?? null;
+	let lastMonthlyRun: string | null = existing?.meta.lastMonthlyRun ?? null;
+	let batchKeywordCount = 0;
+	let batchFaqCount = 0;
+	let batchAiPromptCount = 0;
+	for (const batch of batches) {
+		const keywords = batchToKeywords(batch, serviceAreas, batch.date);
+		const faqs = batchToFaqs(batch, batch.date);
+		const aiPrompts = batchToAiPrompts(batch, batch.date);
+		batchKeywordCount += keywords.length;
+		batchFaqCount += faqs.length;
+		batchAiPromptCount += aiPrompts.length;
+		upsertAll(keywordsById, keywords, mergeKeyword);
+		upsertAll(faqsById, faqs, mergeFaq);
+		upsertAll(aiPromptsById, aiPrompts, mergeAiPrompt);
+		if (batch.run.weeklyRun) lastWeeklyRun = batch.date;
+		if (batch.run.monthlyRun) lastMonthlyRun = batch.date;
+	}
+
+	// 3. Every other static importer.
 	const popEntries = importPopKeywords(realSlugs, runDate);
 	const gbpEntries = importGbpKeywords(realSlugs, postClusterBySlug, runDate);
 	const research = importResearchMd(postInfoBySlug, runDate);
@@ -92,16 +158,16 @@ export async function runSync(serviceAreas: readonly string[]): Promise<SyncSumm
 
 	const perSource: Record<string, number> = {
 		blog: blogEntries.length,
-		'pop-csv': popEntries.length,
-		'gbp-content-map': gbpEntries.length,
-		'research-md': research.keywords.length,
+		'ubersuggest-batches': batchKeywordCount,
+		pop: popEntries.length,
+		gbp: gbpEntries.length,
+		research: research.keywords.length,
 		'google-ads': googleAdsEntries.length,
 		'ubersuggest-csv': ubersuggestCsvEntries.length,
-		gsc: gscEntries.length
+		'google-search-console': gscEntries.length
 	};
 
 	for (const batch of [
-		blogEntries,
 		popEntries,
 		gbpEntries,
 		research.keywords,
@@ -114,6 +180,8 @@ export async function runSync(serviceAreas: readonly string[]): Promise<SyncSumm
 
 	const postFaqEntries = importPostFaqs(postInfoBySlug, runDate);
 	const siteFaqEntries = await importSiteFaqs(runDate);
+	perSource['ubersuggest-batches-faqs'] = batchFaqCount;
+	perSource['ubersuggest-batches-aiPrompts'] = batchAiPromptCount;
 	perSource['post-faqs'] = postFaqEntries.length;
 	perSource['site-faq'] = siteFaqEntries.length;
 	perSource['research-paa'] = research.faqs.length;
@@ -123,15 +191,15 @@ export async function runSync(serviceAreas: readonly string[]): Promise<SyncSumm
 	}
 
 	const keywords = [...keywordsById.values()]
-		.map((k) => ({ ...k, ...scoreOpportunity(k.metrics) }))
+		.map((k) => ({ ...k, ...scoreOpportunity(k.sources) }))
 		.sort((a, b) => a.id.localeCompare(b.id));
 	const faqs = [...faqsById.values()].sort((a, b) => a.id.localeCompare(b.id));
-	const aiPrompts = existing?.aiPrompts ?? [];
+	const aiPrompts = [...aiPromptsById.values()].sort((a, b) => a.id.localeCompare(b.id));
 
 	const file: KeywordsFile = {
 		version: 1,
 		updated: runDate,
-		meta: existing?.meta ?? { lastWeeklyRun: null, lastMonthlyRun: null },
+		meta: { lastWeeklyRun, lastMonthlyRun },
 		keywords,
 		faqs,
 		aiPrompts

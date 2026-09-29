@@ -45,17 +45,11 @@ export function ubersuggestCsvPhrasesToKeywords(
 			url: null,
 			status: relevance.relevant ? 'covered' : 'rejected',
 			reason: relevance.relevant ? null : `out-of-market or no-fit query (${relevance.reason})`,
-			metrics: {
-				volume: null,
-				difficulty: null,
-				cpc: null,
-				gsc: null,
-				ubersuggest: null
+			sources: {
+				ubersuggest: { firstSeen: today, lastSeen: today, via: ['csv'], stats: null }
 			},
-			research: null,
 			opportunity: null,
 			opportunityReason: null,
-			sources: [{ name: 'ubersuggest-csv', seen: today }],
 			firstSeen: today,
 			lastResearched: null,
 			notes: relevance.relevant ? AUDIT_NOTE : ''

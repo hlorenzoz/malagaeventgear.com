@@ -97,17 +97,9 @@ export function popRowsToKeywords(
 				url: hasRealPost ? `/blog/${slug}/` : null,
 				status,
 				reason: null,
-				metrics: {
-					volume: null,
-					difficulty: null,
-					cpc: null,
-					gsc: null,
-					ubersuggest: null
-				},
-				research: null,
+				sources: { pop: { firstSeen: today, lastSeen: today } },
 				opportunity: null,
 				opportunityReason: null,
-				sources: [{ name: 'pop-csv', seen: today }],
 				firstSeen: today,
 				lastResearched: null,
 				notes

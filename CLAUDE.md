@@ -1190,11 +1190,50 @@ metodología agnóstica y leen los hechos de MEG desde este `CLAUDE.md` (Mode B)
 
 ## Investigación de keywords (`keywords.json`)
 
-Un único archivo en la raíz (`keywords.json`) une lo que antes vivía disperso en 12 fuentes que no
-se hablaban entre sí: el CSV de POP, los zips de GSC, los CSV de Google Ads y de Ubersuggest, los
+Un único archivo en la raíz (`keywords.json`) une lo que antes vivía disperso en fuentes que no se
+hablaban entre sí: el CSV de POP, los zips de GSC, los CSV de Google Ads y de Ubersuggest, los
 `.md` de investigación manual, el frontmatter de los posts, `post-faqs.json`, `faq.ts` y el
-`content-map.md` de GBP. Por cada keyword, FAQ o AI prompt dice: clúster, URL que satisface la
-intención, estado en la creación de contenido, métricas (con su fuente y fecha) y oportunidad.
+`content-map.md` de GBP. Por cada keyword dice: clúster, URL que satisface la intención, estado en
+la creación de contenido, oportunidad y, **por cada fuente que la vio**, sus propias métricas.
+
+### `sources`: un registro por fuente, nunca una lista plana (rediseño 2026-09-29)
+
+Cada `KeywordEntry` tiene un campo `sources`, un objeto con una clave por fuente
+(`google-ads`, `google-search-console`, `ubersuggest`, `google-autocomplete`, `blog`, `pop`,
+`gbp`, `research`), NUNCA un array. Una keyword vista por tres fuentes tiene exactamente tres
+claves, y volver a ingerir una fuente actualiza SOLO la suya. **No existe un `metrics` de nivel
+superior ni un `summary` derivado: ningún valor numérico vive fuera de `sources`** (decisión del
+usuario, 2026-09-29). Para leer el volumen o la dificultad de una keyword se lee directo de la
+fuente que la midió:
+
+```jsonc
+"sources": {
+  "google-ads": {
+    "firstSeen": "2026-09-29", "lastSeen": "2026-09-29",
+    "stats": {                          // null cuando la fuente solo listó la frase (listas por tema)
+      "asOf": "2026-09-29", "period": { "from": "2025-09", "to": "2026-08" }, "currency": "EUR",
+      "avgMonthlySearches": 320, "threeMonthChange": 0, "yoyChange": -33,
+      "competition": "Medium", "competitionIndex": 41,           // competencia PAGA, no dificultad SEO
+      "topOfPageBidLow": 0.47, "topOfPageBidHigh": 2.41,
+      "adImpressionShare": null, "organicImpressionShare": null, "organicAveragePosition": null,
+      "monthlySearches": { "2025-09": 480, "...": 0, "2026-08": 260 }
+    }
+  },
+  "google-search-console": { "firstSeen", "lastSeen", "stats": { "asOf", "impressions", "clicks", "ctr", "position" } },
+  "ubersuggest": { "firstSeen", "lastSeen", "via": ["suggestions", "domain", "project", "competitor:avhirespain.com", "..."],
+                    "stats": { "asOf", "volume", "difficulty", "cpc", "position", "rankingUrl", "serp", "contentIdeas", "titleIdeas" } },
+  "google-autocomplete": { "firstSeen", "lastSeen" },  // sin stats: es texto, nunca una métrica
+  "blog": { "firstSeen", "lastSeen" }, "pop": {...}, "gbp": {...}, "research": {...}
+}
+```
+
+`firstSeen`/`lastSeen` de cada fuente salen de la fecha PROPIA de esa fuente (la del nombre del
+archivo, la del lote, la del zip de GSC), nunca de "hoy": así una reconstrucción desde cero es
+estable. Cuando la misma fuente entrega `stats` dos veces (el Google Ads de 2025 y el de 2026),
+gana entero el lado con el `asOf` más nuevo, nunca una mezcla campo a campo.
+
+Ninguna keyword tiene un campo `research` de nivel superior: la investigación de Ubersuggest
+(SERP, ideas de contenido, ideas de título) vive dentro de `sources.ubersuggest.stats`.
 
 ### Se edita SOLO por scripts, nunca a mano
 
@@ -1203,17 +1242,40 @@ Ningún agente ni humano edita `keywords.json` directamente. Dos scripts lo escr
 
 - `sync.ts` (`just keywords-sync`): relee las fuentes estáticas del repo (blog, `post-faqs.json`,
   `faq.ts`, el CSV de POP, el zip de GSC más reciente, los CSV de Google Ads/Ubersuggest,
-  `content-map.md` de GBP y `keyword-research-conferences-2026-09-25.md`) y hace un upsert
-  idempotente. Correrlo dos veces seguidas el mismo día no produce diff.
+  `content-map.md` de GBP, `keyword-research-conferences-2026-09-25.md`) **y además reproduce, en
+  orden de fecha, cada lote diario ya commiteado en `.agents/context/keywords/ubersuggest/*.json`**,
+  así el archivo es 100% derivable de lo que está en el repo: una reconstrucción desde cero no
+  pierde la investigación diaria. El upsert es idempotente: correrlo dos veces seguidas no produce
+  diff, incluso reproduciendo los lotes.
 - `ingest-ubersuggest.ts` (`just keywords-ingest <archivo>`): mergea un lote diario del agente de
   investigación (`.agents/context/keywords/ubersuggest/YYYY-MM-DD.json`, validado contra
-  `scripts/keywords/batch.schema.ts`). Si el lote no valida, no escribe nada.
+  `scripts/keywords/batch.schema.ts`, que no cambia con este rediseño). Si el lote no valida, no
+  escribe nada. Su resultado es el mismo que produciría una reconstrucción completa con `sync.ts`.
 
 Toda la lógica de transformación es pura y testeada (`scripts/keywords/*.test.ts`,
 `scripts/keywords/importers/*.test.ts`, strict TDD): `normalize.ts` (id estable), `relevance.ts`
 (descarta ciudades/países fuera de España e intenciones sin encaje), `score.ts` (oportunidad,
-NUNCA a mano), `merge.ts` (upsert) y `seed-mappings.ts` (los clústeres reales de
-`keyword-silo-map.md`).
+NUNCA a mano, leída directo de `sources`), `merge.ts` (upsert por fuente) y `seed-mappings.ts`
+(los clústeres reales de `keyword-silo-map.md`).
+
+### Google Ads: dos tratamientos distintos, misma carpeta
+
+`.agents/context/keywords/google-ads/` tiene tres tipos de archivo, y `importers/google-ads.ts`
+los trata distinto:
+
+1. Las 12 listas por tema y el export viejo de volumen (`Keyword Stats 2025-09-01 ...
+   Keywords.csv`): ya auditados y cerrados (engram `google_ads_keyword_audit_2026-08-06`). Una
+   frase relevante entra como `covered`, nunca como `idea` nueva.
+2. El export completo `Keyword Stats <fecha> at <hora>.csv` (UTF-16LE, separado por tabs. El más
+   reciente es el de 2026-09-29, 618 filas), sin auditar: pasa por `relevance.ts`/
+   `seed-mappings.ts` igual que GSC. Una keyword nueva de este archivo entra como `idea` (o
+   `covered`/`rejected` si matchea un seed mapping), NUNCA `covered` de arranque.
+3. El CSV sin encabezado `... Ubersuggest.csv` es una fuente DISTINTA
+   (`importers/ubersuggest-csv.ts`), aunque comparta carpeta: entra bajo `sources.ubersuggest`
+   con `via: ['csv']`, no bajo `sources['google-ads']`.
+
+Si aparece un `Keyword Stats <fecha> at <hora>....csv` nuevo, `pickMostRecentStatsFile` toma
+siempre el más reciente por fecha del nombre del archivo, no uno fijo a mano.
 
 ### Estados
 
@@ -1222,14 +1284,17 @@ satisface) -> `covered` (la cubre otra URL, como sección o FAQ) -> `rejected` (
 obligatorio). El estado de una keyword nunca retrocede: `merge.ts` protege `status`/`url`/
 `reason`/`cluster`/`notes` de cualquier entrada que ya haya salido de `idea` ("el blog publicado
 siempre gana"), aunque una fuente de menor confianza (un CSV viejo, una sugerencia de
-autocompletado) proponga otra cosa. Solo las métricas y las fuentes se siguen actualizando.
+autocompletado) proponga otra cosa. Solo `sources` (por su propia clave) se sigue actualizando.
 
 ### Honestidad (regla del proyecto, aplicada acá)
 
-Ninguna métrica se inventa. `difficulty` solo existe con fuente `ubersuggest` (el schema lo
-rechaza si no). Todo lo demás queda en `null` hasta que una fuente real lo confirme. Un volumen
-`0` es un dato, no un `null`. `opportunity` nunca lo pone a mano un importer ni el agente: lo
-calcula siempre `score.ts` a partir de `metrics`, así el campo nunca queda desincronizado de los
+Ninguna métrica se inventa. `difficulty` solo puede existir dentro de `sources.ubersuggest.stats`:
+es una garantía ESTRUCTURAL, ninguna otra fuente tiene siquiera un campo `difficulty` en su
+schema (la "Competencia" de Google Ads es puja paga, nunca dificultad SEO, y nunca se deriva del
+punto medio de su rango de puja). Todo lo demás queda en `null` hasta que una fuente real lo
+confirme. Un volumen `0` es un dato, no un `null`. `opportunity` nunca lo pone a mano un importer
+ni el agente: lo calcula siempre `score.ts` leyendo `sources` directamente (nunca un `metrics` ni
+un `summary` de nivel superior, que no existen), así el campo nunca queda desincronizado de los
 números que lo justifican.
 
 ### El agente diario
@@ -1286,7 +1351,8 @@ ya parseadas en `KeywordEntry`/`FaqEntry` (testeada con fixtures chicos) y una f
 archivo real (node:fs, igual que `scripts/backfill-silo-meta.ts`. Los scripts de `scripts/`
 corren standalone con bun, no bajo Vite, así que NO usan `import.meta.glob`. Esa regla es solo
 para los TESTS que leen archivos del proyecto, como `scripts/keywords/keywords-file.test.ts`).
-Se registra en `sync.ts`, con su propio nombre de `source` en `sources[]`.
+Se registra en `sync.ts`, con su propia clave en `sources` (`SOURCE_KEYS` en `schema.ts`): si mide
+algo, agrega también su propio schema de `stats` ahí, nunca reutiliza el de otra fuente.
 
 ### Regla mandatoria
 

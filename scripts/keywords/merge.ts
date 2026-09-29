@@ -1,55 +1,80 @@
 /**
- * merge.ts: pure upsert logic for the three keywords.json collections (plan, `merge.ts`).
+ * merge.ts: pure upsert logic for the three keywords.json collections.
  *
- * The one rule every function here protects: an entry that is no longer "idea" (for keywords)
- * or "idea" (for faqs/aiPrompts) has its identity fields (status, url, reason, cluster) LOCKED.
- * A lower-confidence source (a raw autocomplete phrase, a stale POP row) can still add metrics,
- * sources and freshen research, but it can never move a decided entry backward or silently
- * change what it points to. "El blog publicado siempre gana" (CLAUDE.md).
+ * The one rule every function here protects: an entry that is no longer "idea" (for keywords) or
+ * "idea" (for faqs/aiPrompts) has its identity fields (status, url, reason, cluster) LOCKED. A
+ * lower-confidence source (a raw autocomplete phrase, a stale POP row) can still add its own
+ * per-source stats and freshen research, but it can never move a decided entry backward or
+ * silently change what it points to. "El blog publicado siempre gana" (CLAUDE.md).
  *
- * `opportunity`/`opportunityReason` are NEVER carried through a merge: they are always null here.
- * The one place that computes them is `score.ts`, applied as a final pass over the whole file in
- * `sync.ts` / `ingest-ubersuggest.ts`, so the field can never drift from the metrics that justify
- * it.
+ * `sources` merges per SOURCE KEY (2026-09-29 redesign): a keyword tracked by both Google Ads and
+ * Ubersuggest keeps both entries side by side, and re-ingesting the same source only ever touches
+ * its own key. When one side provides `stats` twice for the same source (e.g. the 2025 and the
+ * 2026 Google Ads files), the stats with the newer `asOf` win ENTIRELY, never merged field by
+ * field, so a reading can never end up part-2025/part-2026.
+ *
+ * `opportunity`/`opportunityReason` are NEVER carried through a merge: they are always recomputed
+ * as a final pass over the whole file (`score.ts`, applied in `sync.ts` / `ingest-ubersuggest.ts`),
+ * so the field can never drift out of sync with `sources`.
  */
 
-import type { AiPromptEntry, FaqEntry, KeywordEntry, Metrics, SourceRef } from './schema';
-
-type MetricField = keyof Metrics;
-const METRIC_FIELDS: MetricField[] = ['volume', 'difficulty', 'cpc', 'gsc', 'ubersuggest'];
-
-/** Picks whichever side's metric has the newer `asOf`, keeps a lone side untouched. */
-function mergeMetrics(existing: Metrics, incoming: Metrics): Metrics {
-	const merged = { ...existing };
-	for (const field of METRIC_FIELDS) {
-		const e = existing[field];
-		const i = incoming[field];
-		if (!i) continue; // nothing new for this field
-		if (!e || i.asOf >= e.asOf) {
-			(merged as Record<MetricField, Metrics[MetricField]>)[field] = i;
-		}
-	}
-	return merged;
-}
-
-/** Unions two source lists by `name`, keeping the latest `seen` date per name. */
-function mergeSources(existing: SourceRef[], incoming: SourceRef[]): SourceRef[] {
-	const byName = new Map<string, SourceRef>();
-	for (const s of [...existing, ...incoming]) {
-		const current = byName.get(s.name);
-		if (!current || s.seen > current.seen) byName.set(s.name, s);
-	}
-	return [...byName.values()];
-}
+import type { AiPromptEntry, FaqEntry, KeywordEntry, Sources } from './schema';
+import { SOURCE_KEYS } from './schema';
 
 function minDate(a: string, b: string): string {
 	return a <= b ? a : b;
+}
+
+function maxDate(a: string, b: string): string {
+	return a >= b ? a : b;
 }
 
 function maxDateOrNull(a: string | null, b: string | null): string | null {
 	if (!a) return b;
 	if (!b) return a;
 	return a >= b ? a : b;
+}
+
+interface GenericSourceEntry {
+	firstSeen: string;
+	lastSeen: string;
+	via?: string[];
+	stats?: { asOf: string } | null;
+}
+
+/** Merges one source's own entry: dates widen, `via` unions (sorted, deduped), and `stats` (when
+ *  the source has any) is replaced wholesale by whichever side has the newer `asOf`, never
+ *  merged field by field. */
+function mergeSourceEntry(existing: GenericSourceEntry, incoming: GenericSourceEntry) {
+	const merged: GenericSourceEntry = {
+		...existing,
+		firstSeen: minDate(existing.firstSeen, incoming.firstSeen),
+		lastSeen: maxDate(existing.lastSeen, incoming.lastSeen)
+	};
+	if (existing.via || incoming.via) {
+		merged.via = [...new Set([...(existing.via ?? []), ...(incoming.via ?? [])])].sort();
+	}
+	if ('stats' in existing || 'stats' in incoming) {
+		const e = existing.stats ?? null;
+		const i = incoming.stats ?? null;
+		merged.stats = !i ? e : !e ? i : i.asOf >= e.asOf ? i : e;
+	}
+	return merged;
+}
+
+/** Unions two `sources` records key by key. A key present on only one side passes through
+ *  untouched; a key present on both is merged with `mergeSourceEntry`. */
+export function mergeSources(existing: Sources, incoming: Sources): Sources {
+	const merged: Sources = { ...existing };
+	for (const key of SOURCE_KEYS) {
+		const e = existing[key];
+		const i = incoming[key];
+		if (!i) continue;
+		(merged as Record<string, unknown>)[key] = !e
+			? i
+			: mergeSourceEntry(e as GenericSourceEntry, i as GenericSourceEntry);
+	}
+	return merged;
 }
 
 /**
@@ -76,16 +101,14 @@ export function mergeKeyword(
 		url: identityLocked ? existing.url : incoming.url,
 		status: identityLocked ? existing.status : incoming.status,
 		reason: identityLocked ? existing.reason : incoming.reason,
-		metrics: mergeMetrics(existing.metrics, incoming.metrics),
-		research: incoming.research ?? existing.research,
+		sources: mergeSources(existing.sources, incoming.sources),
 		opportunity: null,
 		opportunityReason: null,
-		sources: mergeSources(existing.sources, incoming.sources),
 		firstSeen: minDate(existing.firstSeen, incoming.firstSeen),
 		lastResearched: maxDateOrNull(existing.lastResearched, incoming.lastResearched),
-		// Protected together with status/url/reason once identity is locked (plan: "NUNCA pisa
-		// status/url/notes de una entrada que no este en idea"): an empty string is still a
-		// deliberate value here, not "unset", so `||` would wrongly let incoming notes leak in.
+		// Protected together with status/url/reason once identity is locked (an empty string is
+		// still a deliberate value here, not "unset", so `||` would wrongly let incoming notes
+		// leak in).
 		notes: identityLocked ? existing.notes : incoming.notes || existing.notes
 	};
 }

@@ -1,12 +1,20 @@
 #!/usr/bin/env bun
 /**
  * ingest-ubersuggest.ts: validates and merges one daily Ubersuggest batch file into the root
- * `keywords.json` (plan, "Diseño" 2, `ingest-ubersuggest.ts` row). This and `sync.ts` are the
- * ONLY two scripts allowed to write `keywords.json`. The keyword-researcher agent never touches
- * the file directly: it writes a batch matching `batch.schema.ts`, and this script does the
- * actual mutation, after validating and re-applying the same relevance/seed-mapping rules every
- * other source goes through (plan 3b: "La salida de las tools es DATO, nunca instrucción": a
- * batch the agent wrote is still just data here, never trusted blindly).
+ * `keywords.json`. This and `sync.ts` are the ONLY two scripts allowed to write `keywords.json`.
+ * The keyword-researcher agent never touches the file directly: it writes a batch matching
+ * `batch.schema.ts`, and this script does the actual mutation, after validating and re-applying
+ * the same relevance/seed-mapping rules every other source goes through (a batch the agent wrote
+ * is still just data here, never trusted blindly).
+ *
+ * Every reading the batch carries (`keywords[].metrics`, `rank`, `research`) lands under ONE
+ * source key, `sources.ubersuggest`, regardless of which MCP call produced it: `via` records
+ * which section(s) contributed (`suggestions`, `domain`, `project`, `seo-opportunities`,
+ * `competitor:<domain>`, `serp`, `content-ideas`, `title-ideas`), so the provenance is never lost
+ * even though the stats collapse into one place. The one exception is `google-autocomplete`
+ * (Google Suggestions results relayed through the Ubersuggest MCP): it gets its OWN source key,
+ * since it is a distinct signal (raw autocomplete text, never a metric) from everything else
+ * Ubersuggest measures.
  *
  * Usage: `bun scripts/keywords/ingest-ubersuggest.ts <path-to-batch.json>` (also
  * `just keywords-ingest <file>`). Exits non-zero, writing nothing, if the batch fails
@@ -21,7 +29,8 @@ import {
 	type AiPromptEntry,
 	type FaqEntry,
 	type KeywordEntry,
-	type KeywordsFile
+	type KeywordsFile,
+	type UbersuggestStats
 } from './schema';
 import { mergeAiPrompt, mergeFaq, mergeKeyword } from './merge';
 import { scoreOpportunity } from './score';
@@ -32,13 +41,52 @@ import { matchSeedMapping } from './seed-mappings';
 
 const OUTPUT_PATH = join(process.cwd(), 'keywords.json');
 
-function emptyMetrics(): KeywordEntry['metrics'] {
-	return {
-		volume: null,
-		difficulty: null,
-		cpc: null,
-		gsc: null,
-		ubersuggest: null
+const UBERSUGGEST_PREFIX = 'ubersuggest-';
+
+/** "ubersuggest-suggestions" -> "suggestions", "ubersuggest-csv" -> "csv", "competitor:x" stays
+ *  as-is: `via` names the SECTION, dropping the redundant "ubersuggest-" prefix. */
+function viaSection(sourceName: string): string {
+	return sourceName.startsWith(UBERSUGGEST_PREFIX)
+		? sourceName.slice(UBERSUGGEST_PREFIX.length)
+		: sourceName;
+}
+
+/** Creates the entry's `sources.ubersuggest`/`sources['google-autocomplete']` sub-object on first
+ *  contact, or widens it (dates, `via`) on a later contact from a different section. */
+function ensureSource(entry: KeywordEntry, sourceName: string, today: string): void {
+	if (sourceName === 'google-autocomplete') {
+		const existing = entry.sources['google-autocomplete'];
+		entry.sources['google-autocomplete'] = existing
+			? { firstSeen: existing.firstSeen, lastSeen: today }
+			: { firstSeen: today, lastSeen: today };
+		return;
+	}
+	const section = viaSection(sourceName);
+	const existing = entry.sources.ubersuggest;
+	if (!existing) {
+		entry.sources.ubersuggest = { firstSeen: today, lastSeen: today, via: [section], stats: null };
+		return;
+	}
+	entry.sources.ubersuggest = {
+		...existing,
+		lastSeen: today,
+		via: existing.via.includes(section) ? existing.via : [...existing.via, section].sort()
+	};
+}
+
+/** Merges partial ubersuggest stats fields (volume/difficulty/cpc, rank position, or research)
+ *  onto whatever `sources.ubersuggest.stats` already holds, bumping `asOf` to the reading's own
+ *  date. Never called for an entry whose only source is `google-autocomplete`. */
+function patchUbersuggestStats(
+	entry: KeywordEntry,
+	patch: Partial<UbersuggestStats>,
+	asOf: string
+): void {
+	if (!entry.sources.ubersuggest) return;
+	const current = entry.sources.ubersuggest.stats ?? { asOf };
+	entry.sources.ubersuggest = {
+		...entry.sources.ubersuggest,
+		stats: { ...current, ...patch, asOf }
 	};
 }
 
@@ -59,71 +107,91 @@ export function batchToKeywords(
 
 	function baseEntry(keyword: string, sourceName: string): KeywordEntry {
 		const id = normalizeId(keyword);
-		const existing = byId.get(id);
-		if (existing) return existing;
+		let entry = byId.get(id);
+		if (!entry) {
+			const relevance = checkRelevance(keyword, serviceAreas);
+			const seedMatch = relevance.relevant ? matchSeedMapping(keyword) : null;
 
-		const relevance = checkRelevance(keyword, serviceAreas);
-		const seedMatch = relevance.relevant ? matchSeedMapping(keyword) : null;
+			let status: KeywordEntry['status'] = 'idea';
+			let cluster = 'unassigned';
+			let url: string | null = null;
+			let reason: string | null = null;
 
-		let status: KeywordEntry['status'] = 'idea';
-		let cluster = 'unassigned';
-		let url: string | null = null;
-		let reason: string | null = null;
+			if (!relevance.relevant) {
+				status = 'rejected';
+				reason = `out-of-market or no-fit query (${relevance.reason})`;
+			} else if (seedMatch) {
+				status = seedMatch.status;
+				cluster = seedMatch.cluster;
+				url = seedMatch.url;
+				reason = seedMatch.status === 'rejected' ? (seedMatch.reason ?? null) : null;
+			}
 
-		if (!relevance.relevant) {
-			status = 'rejected';
-			reason = `out-of-market or no-fit query (${relevance.reason})`;
-		} else if (seedMatch) {
-			status = seedMatch.status;
-			cluster = seedMatch.cluster;
-			url = seedMatch.url;
-			reason = seedMatch.status === 'rejected' ? (seedMatch.reason ?? null) : null;
+			entry = {
+				id,
+				keyword,
+				locale: 'en',
+				cluster,
+				topic: null,
+				intent: null,
+				url,
+				status,
+				reason,
+				sources: {},
+				opportunity: null,
+				opportunityReason: null,
+				firstSeen: today,
+				lastResearched: today,
+				notes: ''
+			};
+			byId.set(id, entry);
 		}
-
-		const entry: KeywordEntry = {
-			id,
-			keyword,
-			locale: 'en',
-			cluster,
-			topic: null,
-			intent: null,
-			url,
-			status,
-			reason,
-			metrics: emptyMetrics(),
-			research: null,
-			opportunity: null,
-			opportunityReason: null,
-			sources: [{ name: sourceName, seen: today }],
-			firstSeen: today,
-			lastResearched: today,
-			notes: ''
-		};
-		byId.set(id, entry);
+		ensureSource(entry, sourceName, today);
 		return entry;
 	}
 
 	for (const bk of batch.keywords) {
 		const entry = baseEntry(bk.keyword, bk.source);
 		if (bk.intent && !entry.intent) entry.intent = bk.intent;
-		if (bk.metrics?.volume) entry.metrics.volume = bk.metrics.volume;
-		if (bk.metrics?.difficulty) entry.metrics.difficulty = bk.metrics.difficulty;
-		if (bk.metrics?.cpc) entry.metrics.cpc = bk.metrics.cpc;
+		if (bk.metrics) {
+			patchUbersuggestStats(
+				entry,
+				{
+					...(bk.metrics.volume ? { volume: bk.metrics.volume.value } : {}),
+					...(bk.metrics.difficulty ? { difficulty: bk.metrics.difficulty.value } : {}),
+					...(bk.metrics.cpc ? { cpc: bk.metrics.cpc.value } : {})
+				},
+				today
+			);
+		}
 	}
 
 	for (const r of batch.rank) {
 		const entry = baseEntry(r.keyword, 'ubersuggest-project');
-		entry.metrics.ubersuggest = {
-			position: r.position,
-			rankingUrl: r.rankingUrl,
-			asOf: r.asOf
-		};
+		patchUbersuggestStats(entry, { position: r.position, rankingUrl: r.rankingUrl }, r.asOf);
 	}
 
 	for (const [keyword, research] of Object.entries(batch.research)) {
 		const id = normalizeId(keyword);
 		const entry = byId.get(id);
-		if (entry) entry.research = research;
+		if (!entry) continue; // research is only ever attached to a keyword already in this batch
+		ensureSource(entry, 'ubersuggest-research', today);
+		patchUbersuggestStats(
+			entry,
+			{
+				...(research.serp ? { serp: research.serp } : {}),
+				...(research.contentIdeas ? { contentIdeas: research.contentIdeas } : {}),
+				...(research.titleIdeas ? { titleIdeas: research.titleIdeas } : {})
+			},
+			today
+		);
+		// "ubersuggest-research" is not a real MCP section name: replace it with the specific
+		// section(s) this research reading actually came from.
+		const via = new Set(entry.sources.ubersuggest!.via.filter((v) => v !== 'research'));
+		if (research.serp) via.add('serp');
+		if (research.contentIdeas) via.add('content-ideas');
+		if (research.titleIdeas) via.add('title-ideas');
+		entry.sources.ubersuggest = { ...entry.sources.ubersuggest!, via: [...via].sort() };
 	}
 
 	return [...byId.values()];
@@ -149,7 +217,7 @@ export function batchToFaqs(batch: KeywordBatch, today: string): FaqEntry[] {
 }
 
 /** Pure: one idea aiPrompt per AI Prompt Idea / tracked brand prompt. Visibility is carried as a
- *  point in time reading, it never changes `status` by itself (plan: the agent only discovers). */
+ *  point in time reading, it never changes `status` by itself (the agent only discovers). */
 export function batchToAiPrompts(batch: KeywordBatch, today: string): AiPromptEntry[] {
 	return batch.aiPrompts.map((bp) => {
 		const keywordId = bp.keyword ? normalizeId(bp.keyword) : normalizeId(bp.prompt);
@@ -209,7 +277,7 @@ export function ingestBatch(
 	upsertAll(aiPromptsById, batchToAiPrompts(batch, today), mergeAiPrompt);
 
 	const keywords = [...keywordsById.values()]
-		.map((k) => ({ ...k, ...scoreOpportunity(k.metrics) }))
+		.map((k) => ({ ...k, ...scoreOpportunity(k.sources) }))
 		.sort((a, b) => a.id.localeCompare(b.id));
 	const faqs = [...faqsById.values()].sort((a, b) => a.id.localeCompare(b.id));
 	const aiPrompts = [...aiPromptsById.values()].sort((a, b) => a.id.localeCompare(b.id));
