@@ -5,7 +5,7 @@ description: >
   from keywords.json and the current blog inventory (posts, H2/H3 headings, FAQs, reverse silos),
   and decides for each candidate: insert it as an H2 or H3 in an existing post, add it as a FAQ
   question, create a new supporting post in the right reverse silo, or skip it with a reason. It
-  checks cannibalization, silo fit and MEG's real inventory before proposing anything. Writes one
+  checks cannibalization, silo fit and what MEG really owns or sources through suppliers before proposing anything. Writes one
   dated plan file that the project scripts turn into a TODO.txt entry. It plans only: it never
   writes or edits site content. Runs unattended after the keyword researcher every morning
   (`just keywords-daily`), or by hand with `just content-plan`.
@@ -86,15 +86,39 @@ decided the case.
 | Freshness | `search/docs/fundamentals/creating-helpful-content.md` | "changing the date of pages to make them seem fresh when the content has not substantially changed" |
 
 What this means for you in practice:
-- A proposal exists because MEG's real customers ask that question and MEG can answer it from
-  real experience or real inventory. Search volume is the evidence that people ask, never the
+- A proposal exists because MEG's real customers ask that question and MEG can genuinely answer
+  it (see "What MEG can back" below). Search volume is the evidence that people ask, never the
   reason by itself.
 - Prefer improving an existing page over creating a new one. A new post has to add something no
-  page on the site offers (MEG's own inventory, packages, prices, a `News` event, a real review).
+  page on the site offers (MEG's own inventory, packages, prices, a `News` event, a real review,
+  or how MEG solves that event need through its suppliers).
 - Never propose a page per town, a "near me" variant of an existing page, or a near duplicate of
   a page that already exists. The site already has near me posts: new location demand goes into
   them or into a "Booking and Service Area" style section, never into a new page.
-- Never propose content MEG has no expertise or inventory to back.
+- Never propose content MEG cannot back in either of the two ways below.
+
+### What MEG can back: two layers, always kept apart
+
+MEG sells the SOLUTION for the event, not only the gear it owns (CLAUDE.md, "Posicionamiento:
+soluciones integrales para eventos"). When a client needs something MEG does not have, MEG looks
+for it with its supplier network. So an event need is backed in one of two ways:
+
+1. **Own inventory**: the most recent `.agents/context/inventario/*.csv` and
+   `src/lib/data/packages.ts` (packages win when they differ). Content may name brand, model,
+   quantity, package and price.
+2. **Sourced through suppliers**: anything an event may need that is not in the own inventory
+   (for example an LED video wall, portable air conditioning, fridges for a stand, more
+   lighting), plus the services CLAUDE.md confirms MEG coordinates with subcontracted partners
+   (simultaneous translation and interpretation, interactive voting systems). This IS a real
+   service MEG offers, so it is NOT a reason to skip. The brief must frame it the way CLAUDE.md
+   requires: "not in our own inventory, tell us what you need and we look for a solution with
+   our suppliers", with no brand, model, quantity, price, availability or deadline, and never
+   presented as MEG's own equipment.
+
+For a sourced need, the usual right action is a section or a FAQ in the closest existing post
+(what the client should tell MEG, how MEG coordinates it, what it depends on). A new post about a
+sourced need only when the intent is clearly an event need MEG solves and the post can add real
+value about how MEG solves it, never a product page that implies MEG stocks the item.
 
 ### 2. The reverse silo, per PageOptimizer Pro (the structural premise)
 
@@ -166,12 +190,13 @@ Work through these checks in order. The first one that settles the case decides 
    repairs, jobs, DIY) or equipment MEG neither owns nor would source for an event: `skip`.
    Equipment MEG does not own but an event could need is NOT an automatic skip: it can fit with
    the "not in our own inventory, tell us and we look for a solution with our suppliers" framing
-   of the positioning rules. Say so in the brief.
+   of the positioning rules (layer 2 of "What MEG can back"). Say so in the brief.
 2. **People first.** Would MEG write this for its existing customers even if nobody searched for
-   it, and can it answer from real inventory, packages or a `News` event? If the only reason is
-   search volume, or the answer would be generic common knowledge anyone could write: `skip`,
-   citing `creating-helpful-content.md`. A town or "near me" variant of an existing page:
-   `skip`, citing Doorway abuse in `spam-policies.md`.
+   it, and can MEG genuinely answer it, from its own inventory, packages, a `News` event, or its
+   supplier sourcing service (both layers of "What MEG can back")? If the only reason is search
+   volume, or the answer would be generic common knowledge anyone could write with nothing of
+   MEG's own in it: `skip`, citing `creating-helpful-content.md`. A town or "near me" variant of
+   an existing page: `skip`, citing Doorway abuse in `spam-policies.md`.
 3. **Already covered?** Group the candidate with any other candidate of the same intent
    (semantic clustering). Then search the inventory for a post whose frontmatter keyword or an
    existing H2/H3 already targets the same intent (same meaning, not only the same words). If one
@@ -207,7 +232,7 @@ Work through these checks in order. The first one that settles the case decides 
    - The pillar gets NO link to the new post.
    - The outline is 4 to 7 headings that answer the intent, with the keyword in the title and in
      one H2. The brief names what makes it non commodity: which MEG inventory, package, `News`
-     event or review it rests on.
+     event, review, or supplier sourcing service (with its framing) it rests on.
    - The brief suggests the anchor text of the link down to the pillar: descriptive and concise,
      carrying the pillar's topic, never a bare "click here".
 7. Otherwise `skip` with the reason (weak signal, too close to another candidate you already
