@@ -698,6 +698,36 @@
       "notes": ""
     },
     {
+      "id": "all-included-wedding-packages",
+      "keyword": "all included wedding packages",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
+      "notes": ""
+    },
+    {
       "id": "all-included-wedding-venues-near-me",
       "keyword": "all included wedding venues near me",
       "locale": "en",
@@ -800,6 +830,36 @@
       ],
       "firstSeen": "2026-09-29",
       "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "all-inclusive-hotel-wedding-packages",
+      "keyword": "all inclusive hotel wedding packages",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
       "notes": ""
     },
     {
@@ -1076,10 +1136,44 @@
         {
           "name": "gsc",
           "seen": "2026-09-23"
+        },
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
         }
       ],
       "firstSeen": "2026-09-29",
-      "lastResearched": null,
+      "lastResearched": "2026-09-29",
+      "notes": ""
+    },
+    {
+      "id": "all-inclusive-wedding-packages-abroad-prices",
+      "keyword": "all inclusive wedding packages abroad prices",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
       "notes": ""
     },
     {
@@ -1146,10 +1240,44 @@
         {
           "name": "gsc",
           "seen": "2026-09-23"
+        },
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
         }
       ],
       "firstSeen": "2026-09-29",
-      "lastResearched": null,
+      "lastResearched": "2026-09-29",
+      "notes": ""
+    },
+    {
+      "id": "all-inclusive-wedding-packages-under-5000",
+      "keyword": "all inclusive wedding packages under $5000",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
       "notes": ""
     },
     {
@@ -1567,6 +1695,36 @@
       ],
       "firstSeen": "2026-09-29",
       "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "alquiler-de-equipo-audiovisual",
+      "keyword": "alquiler de equipo audiovisual",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
       "notes": ""
     },
     {
@@ -2162,6 +2320,36 @@
       ],
       "firstSeen": "2026-09-29",
       "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "alquiler-equipo-audiovisual",
+      "keyword": "alquiler equipo audiovisual",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
       "notes": ""
     },
     {
@@ -3856,7 +4044,19 @@
         "gsc": null,
         "ubersuggest": null
       },
-      "research": null,
+      "research": {
+        "serp": {
+          "localPack": true,
+          "top": [
+            "http://www.audiosciencereview.com/forum/index.php",
+            "http://forums.audioholics.com/forums/threads/the-measurement-and-calibration-of-sound-reproducing-systems.95799/",
+            "http://hometheatreengineering.com/haa-audio-calibration/",
+            "http://reddit.com/r/hometheater/comments/1mzgpd5/advice_on_speaker_calibration/",
+            "http://www.mathworks.com/videos/measuring-audio-amplifiers-with-matlab-system-calibration-1710739933778.html"
+          ],
+          "asOf": "2026-09-29"
+        }
+      },
       "opportunity": null,
       "opportunityReason": null,
       "sources": [
@@ -3867,10 +4067,14 @@
         {
           "name": "gbp-content-map",
           "seen": "2026-09-29"
+        },
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
         }
       ],
       "firstSeen": "2026-09-29",
-      "lastResearched": null,
+      "lastResearched": "2026-09-29",
       "notes": ""
     },
     {
@@ -3906,6 +4110,36 @@
       ],
       "firstSeen": "2026-09-29",
       "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "audio-system-technician-near-me",
+      "keyword": "audio system technician near me",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
       "notes": ""
     },
     {
@@ -4694,10 +4928,14 @@
         {
           "name": "gsc",
           "seen": "2026-09-23"
+        },
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
         }
       ],
       "firstSeen": "2026-09-29",
-      "lastResearched": null,
+      "lastResearched": "2026-09-29",
       "notes": ""
     },
     {
@@ -4779,6 +5017,36 @@
       "notes": "Covered per the Google Ads / Ubersuggest keyword audit closed 2026-08-06 (engram: google_ads_keyword_audit_2026-08-06): already served by existing content, no new post needed."
     },
     {
+      "id": "audio-visual-equipment-rental-company",
+      "keyword": "audio visual equipment rental company",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
+      "notes": ""
+    },
+    {
       "id": "audio-visual-equipment-rental-near-me",
       "keyword": "audio visual equipment rental near me",
       "locale": "en",
@@ -4845,10 +5113,44 @@
         {
           "name": "gsc",
           "seen": "2026-09-23"
+        },
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
         }
       ],
       "firstSeen": "2026-09-29",
-      "lastResearched": null,
+      "lastResearched": "2026-09-29",
+      "notes": ""
+    },
+    {
+      "id": "audio-visual-equipment-rental-services-near-me",
+      "keyword": "audio visual equipment rental services near me",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
       "notes": ""
     },
     {
@@ -6956,10 +7258,44 @@
         {
           "name": "gsc",
           "seen": "2026-09-23"
+        },
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
         }
       ],
       "firstSeen": "2026-09-29",
-      "lastResearched": null,
+      "lastResearched": "2026-09-29",
+      "notes": ""
+    },
+    {
+      "id": "audiovisual-equipment-definition",
+      "keyword": "audiovisual equipment definition",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
       "notes": ""
     },
     {
@@ -7026,10 +7362,14 @@
         {
           "name": "gsc",
           "seen": "2026-09-23"
+        },
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
         }
       ],
       "firstSeen": "2026-09-29",
-      "lastResearched": null,
+      "lastResearched": "2026-09-29",
       "notes": ""
     },
     {
@@ -7054,7 +7394,19 @@
         },
         "ubersuggest": null
       },
-      "research": null,
+      "research": {
+        "serp": {
+          "aiOverview": true,
+          "top": [
+            "http://callandplay.com/en/servicios/alquiler-sonido-luces-video/",
+            "http://avisualpro.es/en/promotions/",
+            "http://efd-studios.com/es/en/renting-film-lighting-equipment/",
+            "http://alquilamuebleseventos.es/en/audiovisual-equipment-rental-events/",
+            "http://studocu.com/ca-es/document/universitat-oberta-de-catalunya/software-architecture/software-architecture-project-audiovisual-equipment-rental-fall-2025/143774037"
+          ],
+          "asOf": "2026-09-29"
+        }
+      },
       "opportunity": "medium",
       "opportunityReason": "gsc: position 21.88 with 84 impressions",
       "sources": [
@@ -7065,10 +7417,44 @@
         {
           "name": "gsc",
           "seen": "2026-09-23"
+        },
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
         }
       ],
       "firstSeen": "2026-09-29",
-      "lastResearched": null,
+      "lastResearched": "2026-09-29",
+      "notes": ""
+    },
+    {
+      "id": "audiovisual-equipment-rental-service-near-me",
+      "keyword": "audiovisual equipment rental service near me",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
       "notes": ""
     },
     {
@@ -7240,10 +7626,44 @@
         {
           "name": "gsc",
           "seen": "2026-09-23"
+        },
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
         }
       ],
       "firstSeen": "2026-09-29",
-      "lastResearched": null,
+      "lastResearched": "2026-09-29",
+      "notes": ""
+    },
+    {
+      "id": "audiovisual-rental-company",
+      "keyword": "audiovisual rental company",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
       "notes": ""
     },
     {
@@ -7827,6 +8247,36 @@
       ],
       "firstSeen": "2026-09-29",
       "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "av-equipment-rental-near-me",
+      "keyword": "av equipment rental near me",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
       "notes": ""
     },
     {
@@ -15061,6 +15511,36 @@
       "notes": "Covered per the Google Ads / Ubersuggest keyword audit closed 2026-08-06 (engram: google_ads_keyword_audit_2026-08-06): already served by existing content, no new post needed."
     },
     {
+      "id": "equipment-rental-services-near-me",
+      "keyword": "equipment rental services near me",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
+      "notes": ""
+    },
+    {
       "id": "esports-venue-av-equipment",
       "keyword": "esports venue av equipment",
       "locale": "en",
@@ -20954,6 +21434,36 @@
       "firstSeen": "2026-09-29",
       "lastResearched": null,
       "notes": "Covered per the Google Ads / Ubersuggest keyword audit closed 2026-08-06 (engram: google_ads_keyword_audit_2026-08-06): already served by existing content, no new post needed."
+    },
+    {
+      "id": "examples-of-audio-visual-equipment",
+      "keyword": "examples of audio visual equipment",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
+      "notes": ""
     },
     {
       "id": "examples-of-audio-visuals",
@@ -37497,6 +38007,66 @@
       "notes": ""
     },
     {
+      "id": "rent-audiovisual",
+      "keyword": "rent audiovisual",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
+      "notes": ""
+    },
+    {
+      "id": "rent-audiovisual-sevilla",
+      "keyword": "rent audiovisual sevilla",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
+      "notes": ""
+    },
+    {
       "id": "rent-av-equipment",
       "keyword": "rent av equipment",
       "locale": "en",
@@ -39314,6 +39884,36 @@
       "notes": ""
     },
     {
+      "id": "rental-av-equipment",
+      "keyword": "rental av equipment",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
+      "notes": ""
+    },
+    {
       "id": "rental-equipment-for-parties",
       "keyword": "rental equipment for parties",
       "locale": "en",
@@ -39711,6 +40311,36 @@
       "notes": ""
     },
     {
+      "id": "rental-of-audio-visual-equipment",
+      "keyword": "rental of audio visual equipment",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
+      "notes": ""
+    },
+    {
       "id": "rental-of-audiovisual-equipment",
       "keyword": "rental of audiovisual equipment",
       "locale": "en",
@@ -39739,10 +40369,14 @@
         {
           "name": "gsc",
           "seen": "2026-09-23"
+        },
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
         }
       ],
       "firstSeen": "2026-09-29",
-      "lastResearched": null,
+      "lastResearched": "2026-09-29",
       "notes": ""
     },
     {
@@ -41996,6 +42630,36 @@
       ],
       "firstSeen": "2026-09-29",
       "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "sound-equipment-rental-cost",
+      "keyword": "sound equipment rental cost",
+      "locale": "en",
+      "cluster": "audio visual rental",
+      "topic": null,
+      "intent": null,
+      "url": "/blog/sound-system-rental/",
+      "status": "covered",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
       "notes": ""
     },
     {
@@ -50793,6 +51457,96 @@
       "notes": ""
     },
     {
+      "id": "wedding-all-in-one",
+      "keyword": "wedding all in one",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
+      "notes": ""
+    },
+    {
+      "id": "wedding-all-in-one-package",
+      "keyword": "wedding all in one package",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
+      "notes": ""
+    },
+    {
+      "id": "wedding-all-in-one-place",
+      "keyword": "wedding all in one place",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
+      "notes": ""
+    },
+    {
       "id": "wedding-and-event",
       "keyword": "wedding and event",
       "locale": "en",
@@ -52097,6 +52851,66 @@
       "notes": "POP marked this \"published\" but no matching post exists on the site; downgraded to idea."
     },
     {
+      "id": "wedding-location-malaga",
+      "keyword": "wedding location malaga",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
+      "notes": ""
+    },
+    {
+      "id": "wedding-locations-marbella",
+      "keyword": "wedding locations marbella",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
+      "notes": ""
+    },
+    {
       "id": "wedding-lounge-furniture-rental",
       "keyword": "wedding lounge furniture rental",
       "locale": "en",
@@ -52220,6 +53034,36 @@
       "firstSeen": "2026-09-29",
       "lastResearched": null,
       "notes": "Covered per the Google Ads / Ubersuggest keyword audit closed 2026-08-06 (engram: google_ads_keyword_audit_2026-08-06): already served by existing content, no new post needed."
+    },
+    {
+      "id": "wedding-package",
+      "keyword": "wedding package",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "metrics": {
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "gsc": null,
+        "ubersuggest": null
+      },
+      "research": null,
+      "opportunity": null,
+      "opportunityReason": null,
+      "sources": [
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
+        }
+      ],
+      "firstSeen": "2026-09-29",
+      "lastResearched": "2026-09-29",
+      "notes": ""
     },
     {
       "id": "wedding-package-deals",
@@ -52355,10 +53199,14 @@
         {
           "name": "gsc",
           "seen": "2026-09-23"
+        },
+        {
+          "name": "google-autocomplete",
+          "seen": "2026-09-29"
         }
       ],
       "firstSeen": "2026-09-29",
-      "lastResearched": null,
+      "lastResearched": "2026-09-29",
       "notes": ""
     },
     {
@@ -60976,6 +61824,39 @@
       "firstSeen": "2026-09-29"
     },
     {
+      "id": "ubersuggest--how-much-does-it-cost-to-rent-sound-equipment",
+      "question": "how much does it cost to rent sound equipment",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "google-autocomplete",
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--what-is-considered-audio-visual-equipment",
+      "question": "what is considered audio visual equipment",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "google-autocomplete",
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--where-to-rent-sound-equipment",
+      "question": "where to rent sound equipment",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "google-autocomplete",
+      "firstSeen": "2026-09-29"
+    },
+    {
       "id": "unique-wedding-ceremony-rentals--can-malaga-event-gear-play-processional-and-recessional-music",
       "question": "Can Malaga Event Gear play processional and recessional music?",
       "keywordId": "unique-wedding-ceremony-rentals",
@@ -61416,5 +62297,726 @@
       "firstSeen": "2026-09-29"
     }
   ],
-  "aiPrompts": []
+  "aiPrompts": [
+    {
+      "id": "ubersuggest--affordable-audio-system-calibration-options-near-malaga-spain",
+      "prompt": "Affordable audio system calibration options near Malaga, Spain",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--affordable-audiovisual-equipment-rental-service-in-spain-with-professional-support",
+      "prompt": "Affordable audiovisual equipment rental service in Spain with professional support?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--all-in-one-wedding-rental-packages-that-offer-customizable-options-for-spanish-weddings",
+      "prompt": "All in one wedding rental packages that offer customizable options for Spanish weddings?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--are-there-any-all-in-one-wedding-rental-packages-that-include-setup-and-teardown-services",
+      "prompt": "Are there any all in one wedding rental packages that include setup and teardown services?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--are-there-any-all-in-one-wedding-rental-packages-that-offer-eco-friendly-options-in-spain",
+      "prompt": "Are there any all in one wedding rental packages that offer eco-friendly options in Spain?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--audio-system-calibration-services-vs-diy-calibration-what-should-i-choose-for-a-corporate-event-in-spain",
+      "prompt": "Audio system calibration services vs DIY calibration, what should I choose for a corporate event in Spain?",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--audiovisual-equipment-rental-services-comparison-for-trade-shows-in-spain",
+      "prompt": "Audiovisual equipment rental services comparison for trade shows in Spain?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--audiovisual-equipment-rental-services-near-me-in-spain-with-last-minute-booking-options",
+      "prompt": "Audiovisual equipment rental services near me in Spain with last-minute booking options?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--best-all-in-one-wedding-rental-packages-for-a-wedding-with-under-100-guests",
+      "prompt": "Best all in one wedding rental packages for a wedding with under 100 guests?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--best-audio-system-calibration-for-djs-and-music-events-in-spain",
+      "prompt": "Best audio system calibration for DJs and music events in Spain",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--best-audio-system-calibration-for-home-theaters-available-in-spain",
+      "prompt": "Best audio system calibration for home theaters available in Spain",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--best-audio-system-calibration-for-multi-room-sound-setups-in-spain",
+      "prompt": "Best audio system calibration for multi-room sound setups in Spain",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--best-audio-system-calibration-for-small-venues-on-a-budget-in-spain",
+      "prompt": "Best audio system calibration for small venues on a budget in Spain",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--best-audiovisual-equipment-rental-for-concerts-and-stage-performances-in-spain",
+      "prompt": "Best audiovisual equipment rental for concerts and stage performances in Spain?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--best-audiovisual-equipment-rental-for-live-streaming-events-in-spain",
+      "prompt": "Best audiovisual equipment rental for live streaming events in Spain?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--best-deals-on-audiovisual-equipment-rental-services-for-festivals-in-spain",
+      "prompt": "Best deals on audiovisual equipment rental services for festivals in Spain?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--best-value-all-in-one-wedding-rental-packages-with-flexible-rental-periods-in-spain",
+      "prompt": "Best value all in one wedding rental packages with flexible rental periods in Spain?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--best-value-audio-system-calibration-packages-offered-by-malaga-event-gear",
+      "prompt": "Best value audio system calibration packages offered by Malaga Event Gear",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--best-value-audiovisual-equipment-rental-packages-in-spain-for-educational-seminars",
+      "prompt": "Best value audiovisual equipment rental packages in Spain for educational seminars?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--can-you-compare-all-in-one-wedding-rental-packages-from-malaga-event-gear-with-other-providers-in-spain",
+      "prompt": "Can you compare all in one wedding rental packages from Malaga Event Gear with other providers in Spain?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--comparing-malaga-event-gear-audio-system-calibration-to-other-spain-based-providers",
+      "prompt": "Comparing Malaga Event Gear audio system calibration to other Spain-based providers",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--how-do-all-in-one-wedding-rental-packages-from-malaga-event-gear-compare-to-other-local-competitors",
+      "prompt": "How do all in one wedding rental packages from Malaga Event Gear compare to other local competitors?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--malaga-event-gear-vs-local-audio-system-calibration-providers-in-spain-who-is-better",
+      "prompt": "Malaga Event Gear vs local audio system calibration providers in Spain, who is better?",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--malaga-event-gear-vs-other-audiovisual-rental-services-near-me-in-spain-which-is-better",
+      "prompt": "Malaga Event Gear vs other audiovisual rental services near me in Spain, which is better?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--malaga-event-gear-vs-other-local-audiovisual-equipment-rental-providers-for-tech-conferences",
+      "prompt": "Malaga Event Gear vs other local audiovisual equipment rental providers for tech conferences?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--malaga-event-gear-vs-other-wedding-rental-companies-who-offers-better-all-in-one-packages",
+      "prompt": "Malaga Event Gear vs other wedding rental companies: who offers better all in one packages?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--recommendations-for-all-in-one-wedding-rental-packages-that-include-sound-and-lighting-equipment",
+      "prompt": "Recommendations for all in one wedding rental packages that include sound and lighting equipment?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--recommendations-for-audio-system-calibration-that-supports-surround-sound-in-spain",
+      "prompt": "Recommendations for audio system calibration that supports surround sound in Spain",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--recommendations-for-audio-system-calibration-with-fast-turnaround-times-in-spain",
+      "prompt": "Recommendations for audio system calibration with fast turnaround times in Spain",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--recommendations-for-audiovisual-equipment-rental-services-that-provide-delivery-in-spain",
+      "prompt": "Recommendations for audiovisual equipment rental services that provide delivery in Spain?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--top-rated-all-in-one-wedding-rental-packages-for-beach-weddings-in-spain",
+      "prompt": "Top-rated all in one wedding rental packages for beach weddings in Spain?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--top-rated-audio-system-calibration-companies-specializing-in-spanish-venues",
+      "prompt": "Top-rated audio system calibration companies specializing in Spanish venues",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--top-rated-audio-system-calibration-services-for-live-events-in-spain",
+      "prompt": "Top-rated audio system calibration services for live events in Spain",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--top-rated-audiovisual-equipment-rental-services-in-spain-for-outdoor-events",
+      "prompt": "Top-rated audiovisual equipment rental services in Spain for outdoor events?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--what-all-in-one-wedding-rental-packages-include-decoration-seating-and-catering-equipment",
+      "prompt": "What all in one wedding rental packages include decoration, seating, and catering equipment?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--what-are-the-best-all-in-one-wedding-rental-packages-available-in-spain",
+      "prompt": "What are the best all in one wedding rental packages available in Spain?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--what-audiovisual-equipment-rental-service-is-best-for-a-small-business-presentation-in-spain",
+      "prompt": "What audiovisual equipment rental service is best for a small business presentation in Spain?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--what-is-the-best-audio-system-calibration-service-near-me-in-spain",
+      "prompt": "What is the best audio system calibration service near me in Spain?",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--what-is-the-best-audiovisual-equipment-rental-service-in-spain-for-corporate-events",
+      "prompt": "What is the best audiovisual equipment rental service in Spain for corporate events?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--whats-the-best-all-in-one-wedding-rental-package-for-a-destination-wedding-in-andalusia",
+      "prompt": "What's the best all in one wedding rental package for a destination wedding in Andalusia?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--whats-the-best-all-in-one-wedding-rental-package-for-a-winter-wedding-in-spain",
+      "prompt": "What's the best all in one wedding rental package for a winter wedding in Spain?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--where-can-i-find-affordable-all-in-one-wedding-rental-packages-near-me-in-spain",
+      "prompt": "Where can I find affordable all in one wedding rental packages near me in Spain?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--where-can-i-hire-professional-audio-system-calibration-experts-in-spain",
+      "prompt": "Where can I hire professional audio system calibration experts in Spain?",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--where-can-i-rent-high-quality-audiovisual-equipment-for-a-conference-in-spain",
+      "prompt": "Where can I rent high-quality audiovisual equipment for a conference in Spain?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--where-to-buy-audio-system-calibration-equipment-or-services-in-spain",
+      "prompt": "Where to buy audio system calibration equipment or services in Spain?",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--where-to-buy-or-rent-comprehensive-wedding-packages-that-cover-everything-in-spain",
+      "prompt": "Where to buy or rent comprehensive wedding packages that cover everything in Spain?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--where-to-find-audiovisual-equipment-rental-services-near-me-with-flexible-rental-periods",
+      "prompt": "Where to find audiovisual equipment rental services near me with flexible rental periods?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--where-to-find-reliable-audio-system-calibration-for-conference-rooms-in-spain",
+      "prompt": "Where to find reliable audio system calibration for conference rooms in Spain?",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--where-to-hire-audiovisual-equipment-with-4k-projectors-in-spain",
+      "prompt": "Where to hire audiovisual equipment with 4K projectors in Spain?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--where-to-hire-reliable-all-in-one-wedding-rental-packages-in-the-malaga-region",
+      "prompt": "Where to hire reliable all in one wedding rental packages in the Malaga region?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--which-all-in-one-wedding-rental-package-is-best-for-a-luxury-wedding-in-spain",
+      "prompt": "Which all in one wedding rental package is best for a luxury wedding in Spain?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--which-all-in-one-wedding-rental-package-offers-the-best-value-for-a-medium-sized-wedding",
+      "prompt": "Which all in one wedding rental package offers the best value for a medium-sized wedding?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--which-all-in-one-wedding-rental-packages-cater-to-both-ceremony-and-reception-needs",
+      "prompt": "Which all in one wedding rental packages cater to both ceremony and reception needs?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--which-audio-system-calibration-company-offers-the-best-value-in-spain",
+      "prompt": "Which audio system calibration company offers the best value in Spain?",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--which-audio-system-calibration-service-is-best-for-outdoor-concerts-in-spain",
+      "prompt": "Which audio system calibration service is best for outdoor concerts in Spain?",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--which-audio-system-calibration-service-offers-the-latest-technology-in-spain",
+      "prompt": "Which audio system calibration service offers the latest technology in Spain?",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--which-audiovisual-equipment-rental-company-offers-the-best-value-for-weddings-in-spain",
+      "prompt": "Which audiovisual equipment rental company offers the best value for weddings in Spain?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--which-audiovisual-rental-company-in-spain-offers-the-best-customer-service-and-setup-assistance",
+      "prompt": "Which audiovisual rental company in Spain offers the best customer service and setup assistance?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--which-audiovisual-rental-service-has-the-latest-video-and-sound-gear-available-in-spain",
+      "prompt": "Which audiovisual rental service has the latest video and sound gear available in Spain?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--which-audiovisual-rental-service-offers-the-most-reliable-sound-systems-in-spain",
+      "prompt": "Which audiovisual rental service offers the most reliable sound systems in Spain?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-09-29"
+    }
+  ]
 }
