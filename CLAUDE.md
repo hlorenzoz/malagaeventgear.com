@@ -1261,10 +1261,14 @@ programado a las 09:00 con `just keywords-schedule-install`, plantilla en
   pre-commit guarda en stash los cambios sin stagear y pisaría el trabajo de otra sesión que
   edite el repo al mismo tiempo (las traducciones, por ejemplo).
 - **Permisos (la barrera real, no el prompt)**: `just keywords-research` corre con
-  `--setting-sources project` (el `allow` global del usuario se sumaría a `--allowedTools`),
-  `--permission-mode default` (el modo `auto` del usuario aprobaría con un clasificador lo que no
-  está en la lista), `--disallowedTools` para `git push`, `reset`, `checkout`, `stash`, `restore`
-  y `rm`, `Write` limitado a `.agents/context/keywords/ubersuggest/` y `--max-budget-usd 2`. Si se
+  `--setting-sources ""`, sin cargar ningún settings. El `allow` global del usuario y el de
+  `.claude/settings.json` (local, con cientos de reglas) se sumarían a `--allowedTools`. Por eso el
+  MCP de Ubersuggest se declara con `--mcp-config` y `--strict-mcp-config` (el token OAuth sale del
+  llavero, verificado el 2026-09-29). Además: `--permission-mode default` (el modo `auto` del
+  usuario aprobaría con un clasificador lo que no está en la lista), `--disallowedTools` para
+  `git push`, `reset`, `checkout`, `stash`, `restore` y `rm`, `Write` limitado a
+  `.agents/context/keywords/ubersuggest/`, `--model sonnet` y `--max-budget-usd 4` (solo el
+  arranque cuesta unos 0,31 USD, porque este `CLAUDE.md` suma unos 48k tokens de contexto). Si se
   agrega una tool de Ubersuggest al agente, se agrega también a esa lista y al `tools` del agente.
 - **Log**: `~/Library/Logs/meg-keyword-research.log`. La última línea de cada corrida resume
   altas, descartes, cuota antes y después, y el commit o el motivo del corte.
