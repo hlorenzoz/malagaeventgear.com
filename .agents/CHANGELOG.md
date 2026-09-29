@@ -7,6 +7,18 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (keywords): `content-strategist` planifica bajo las directivas de Google y el reverse silo de POP
+- **Pedido del usuario (2026-09-29)**: el agente sigue estrictamente la documentación de Google de `.agents/context/seo/` y tiene como premisa el reverse silo de PageOptimizer Pro.
+- **Google**: lee `creating-helpful-content.md` en cada corrida y los archivos de `spam-policies.md` (scaled content, doorway, keyword stuffing), `seo-starter-guide.md`, `links-crawlable.md` y `ai-optimization-guide.md` cuando la decisión toca su tema, citando el archivo en el motivo. Nuevo paso "People first" en el método: sin experiencia o inventario real que lo respalde, o si la única razón es el volumen, se descarta. Nunca páginas por localidad ni variantes "near me".
+- **POP**: lee `~/.agents/context/seo/reverse-silo-topical-authority.md` en cada corrida. Clustering semántico, un target por silo, prueba Goldilocks para posts nuevos, plan de enlaces del post nuevo (hacia el pilar con anchor descriptivo, entrada en la cadena entre dos hermanos y reenlace de ambos) y ningún enlace del pilar hacia sus supporting posts. Si chocan, gana Google.
+- **`just content-plan`** suma `--add-dir "$HOME/.agents/context/seo"`: sin él, la corrida headless no podía leer el archivo de POP (verificado).
+
+### Added (keywords): guard de corridas perdidas para `keywords-daily`
+- **Pedido del usuario (2026-09-29)**: si una corrida falla (por ejemplo con la laptop cerrada) tiene que poder correr la tarea pendiente más tarde, y si se acumulan días sin correr, corre una sola vez.
+- **`scripts/keywords/daily-guard.ts` (strict TDD, `daily-guard.test.ts`)**: `decideDailyRun` (pura: lock, hora 09:00, red, tope de 3 intentos, hecho o pendiente) e `isLockStale`. El CLI deriva el estado del repo (archivo de hoy trackeado y sin diff), toma un lock por `mkdir` con PID, cuenta intentos por día y corre `keywords-research` y/o `content-plan`. `--dry-run` y `--force`.
+- **Justfile**: `keywords-daily *args` ahora es el guard. **Plantilla launchd**: se suman `RunAtLoad` y `StartInterval` 3600 al 09:00, porque un Mac apagado pierde la corrida y uno dormido la recupera al despertar. Los disparos extra son gratis. La copia instalada en `~/Library/LaunchAgents` se reinstala con `just keywords-schedule-install`.
+- **`CLAUDE.md`**: subsección "Corridas perdidas (`daily-guard.ts`)".
+
 ### Added (keywords): agente `content-strategist` y cierre del ciclo con `keywords.json`
 - **Pedido del usuario (2026-09-29)**: un segundo agente diario, después del investigador de keywords, que decide qué contenido crear o ampliar y lo deja como entrada de `TODO.txt`. Decide, nunca escribe contenido ni hace push.
 - **Piezas deterministas (`scripts/keywords/`, strict TDD)**: `plan.schema.ts` (contrato del plan `content-plan/YYYY-MM-DD.json`), `opportunities.ts` (candidatas del día ordenadas por señal, con evidencia solo medida), `content-inventory.ts` (posts ingleses con H2/H3 y FAQs), `plan-to-todo.ts` (entrada en español, inserción o reemplazo idempotente en la sección gestionada de `TODO.txt`), `agent-json.ts` acepta el nombre del agente.

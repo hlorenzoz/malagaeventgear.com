@@ -142,13 +142,10 @@ describe('the content-plan headless run and its scheduler', () => {
 		expect(commit).not.toContain('TODO.txt');
 	});
 
-	it('keywords-daily runs the research and then the plan, even when research fails', () => {
-		const daily = recipe('keywords-daily:');
-		expect(daily.indexOf('just keywords-research')).toBeGreaterThan(-1);
-		expect(daily.indexOf('just content-plan')).toBeGreaterThan(
-			daily.indexOf('just keywords-research')
-		);
-		expect(daily).toMatch(/keywords-research\s*\|\|/);
+	it('keywords-daily delegates to the daily guard, which runs research then plan', () => {
+		const daily = recipe('keywords-daily');
+		expect(daily).toContain('scripts/keywords/daily-guard.ts');
+		expect(daily).toContain('{{ args }}');
 	});
 
 	it('the launchd template runs keywords-daily', () => {
@@ -161,5 +158,7 @@ describe('the content-plan headless run and its scheduler', () => {
 		);
 		expect(plist).toContain('just keywords-daily');
 		expect(plist).not.toContain('just keywords-research');
+		expect(plist).toContain('<key>RunAtLoad</key>\n\t<true/>');
+		expect(plist).toContain('<key>StartInterval</key>');
 	});
 });

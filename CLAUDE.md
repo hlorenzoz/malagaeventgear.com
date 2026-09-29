@@ -1378,7 +1378,45 @@ cadena y sus piezas deterministas (todas en `scripts/keywords/`, strict TDD):
 - **Aislamiento**: `just content-plan` usa los mismos flags que `keywords-research`
   (`--setting-sources ""`, `--strict-mcp-config` con config MCP vacía, `--permission-mode default`,
   mismo `--disallowedTools`, `--max-budget-usd 4`), y el agente entra por `--agents` desde su `.md`
-  (`agent-json.ts content-strategist`). `Write` y `Edit` solo bajo `content-plan/`.
+  (`agent-json.ts content-strategist`). `Write` y `Edit` solo bajo `content-plan/`. Suma
+  `--add-dir "$HOME/.agents/context/seo"`: en modo `default` leer fuera del repo pide permiso, y en
+  `-p` eso es una denegación, así que sin ese flag el agente no puede leer la metodología de POP
+  (verificado el 2026-09-29).
+- **Las dos autoridades del agente (pedido del usuario, 2026-09-29)**: (1) la documentación de
+  Google en `.agents/context/seo/`, de forma estricta. Lee `creating-helpful-content.md` completo
+  en cada corrida, y `spam-policies.md` (scaled content, doorway, keyword stuffing),
+  `seo-starter-guide.md`, `links-crawlable.md` y `ai-optimization-guide.md` cuando la decisión
+  toca su tema. (2) El reverse silo de PageOptimizer Pro, en
+  `~/.agents/context/seo/reverse-silo-topical-authority.md` (contexto global): un target por silo,
+  clustering semántico por intención, supporting posts encadenados a sus vecinos y apuntando al
+  pilar, el pilar sin enlaces de vuelta, sin solapamiento entre silos. Si chocan, gana Google: el
+  reverse silo es una técnica de enlazado y las políticas de Google deciden qué contenido es
+  aceptable. Por eso nunca propone páginas por localidad ni variantes "near me" (doorway abuse).
+
+### Corridas perdidas (`daily-guard.ts`)
+
+`just keywords-daily` es `scripts/keywords/daily-guard.ts`, no un script lineal. launchd lo dispara a
+las 09:00, al iniciar sesión (`RunAtLoad`) y cada hora (`StartInterval`). Con el Mac DORMIDO a las
+09:00, launchd corre el job al despertar. Con el Mac APAGADO o sin sesión iniciada esa corrida se
+pierde, y por eso existen los otros dos disparos. Los disparos extra no cuestan nada: si no hay
+nada que hacer, el guard sale sin llamar a Claude.
+
+- **Criterio de "hecho"**: sale del repo, no de un archivo de éxito. La investigación de hoy está
+  hecha si `ubersuggest/<hoy>.json` está trackeado y sin diff, y el plan de hoy si
+  `content-plan/<hoy>.json` lo está. "Hoy" es la fecha local de Europe/Madrid.
+- **Qué corre**: investigación pendiente, corre investigación y después el plan. Investigación hecha
+  y plan pendiente, solo el plan. Si la investigación sigue sin hecha tras correr y quedan
+  intentos, el plan espera al próximo disparo, para no planificar con datos de ayer. Con los
+  intentos agotados, el plan corre igual.
+- **Sin backfill**: varios días perdidos son UNA sola corrida hoy.
+- **Frenos**: nada antes de las 09:00, sin red (HEAD a `api.anthropic.com`, 5 s), con otro run en
+  curso (lock en `~/Library/Application Support/malagaeventgear/keywords-daily/lock`, se descarta
+  si su PID murió o tiene más de 3 horas) ni tras 3 intentos en el día (contador
+  `attempts-<hoy>` en esa carpeta, se cuenta al arrancar un run y se borran los de más de 7 días).
+- **Manual**: `just keywords-daily --dry-run` imprime la decisión sin correr ni tocar estado.
+  `--force` ignora hora, "hecho" e intentos, pero respeta el lock y la red.
+- **Log**: una línea por decisión, `keywords-daily <fecha> <hora>: ...`, en
+  `~/Library/Logs/meg-keyword-research.log`.
 
 ### Agregar una fuente nueva
 

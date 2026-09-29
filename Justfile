@@ -181,18 +181,16 @@ content-plan-commit plan:
 # --strict-mcp-config con una config MCP VACÍA (no necesita ningún MCP), --permission-mode default y el mismo --disallowedTools.
 # El agente entra por --agents, generado desde su .md (scripts/keywords/agent-json.ts content-strategist).
 content-plan:
-    claude -p --agents "$(bun scripts/keywords/agent-json.ts content-strategist)" --agent content-strategist --model sonnet --setting-sources "" --mcp-config '{"mcpServers":{}}' --strict-mcp-config --permission-mode default --disallowedTools "Bash(git push:*),Bash(git reset:*),Bash(git checkout:*),Bash(git stash:*),Bash(git restore:*),Bash(rm:*)" --allowedTools "Read,Glob,Grep,Write(.agents/context/keywords/content-plan/**),Edit(.agents/context/keywords/content-plan/**),Bash(date:*),Bash(just content-candidates:*),Bash(just content-inventory:*),Bash(just content-plan-apply:*),Bash(just content-plan-commit:*)" --max-budget-usd 4 --output-format json "Run today's content planning."
+    claude -p --agents "$(bun scripts/keywords/agent-json.ts content-strategist)" --agent content-strategist --model sonnet --add-dir "$HOME/.agents/context/seo" --setting-sources "" --mcp-config '{"mcpServers":{}}' --strict-mcp-config --permission-mode default --disallowedTools "Bash(git push:*),Bash(git reset:*),Bash(git checkout:*),Bash(git stash:*),Bash(git restore:*),Bash(rm:*)" --allowedTools "Read,Glob,Grep,Write(.agents/context/keywords/content-plan/**),Edit(.agents/context/keywords/content-plan/**),Bash(date:*),Bash(just content-candidates:*),Bash(just content-inventory:*),Bash(just content-plan-apply:*),Bash(just content-plan-commit:*)" --max-budget-usd 4 --output-format json "Run today's content planning."
 
-# Corrida diaria completa: investigación de keywords y, aunque esa falle, el plan de contenido. Es lo que programa launchd
-keywords-daily:
-    #!/usr/bin/env bash
-    set -uo pipefail
-    echo "=== keywords-research $(date +%F) ==="
-    just keywords-research || echo "keywords-research terminó con error, se sigue con el plan de contenido"
-    echo "=== content-plan $(date +%F) ==="
-    just content-plan
+# Corrida diaria con control (scripts/keywords/daily-guard.ts). launchd la dispara a las 09:00, al iniciar sesión y cada hora,
+# y el guard decide: corre solo lo que falta del día (investigación y plan, cada uno "hecho" si su archivo de hoy está commiteado),
+# nada antes de las 09:00, sin red, con otro run en curso (lock) o tras 3 intentos. Días perdidos = una sola corrida hoy.
+# `just keywords-daily --dry-run` muestra la decisión sin correr nada. `--force` ignora hora y "hecho", para corridas manuales.
+keywords-daily *args:
+    bun scripts/keywords/daily-guard.ts {{ args }}
 
-# Instala el scheduler diario (plantilla de launchd) para correr keywords-daily a las 09:00 y lo arranca ahora
+# Instala el scheduler diario (plantilla de launchd) para correr keywords-daily (09:00, al iniciar sesión y cada hora, con guard) y lo arranca ahora
 keywords-schedule-install:
     @mkdir -p ~/Library/LaunchAgents; \
     dest=~/Library/LaunchAgents/com.malagaeventgear.keyword-research.plist; \

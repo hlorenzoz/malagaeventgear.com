@@ -7,8 +7,14 @@
   __CLAUDE_DIR__ (the directory of `which claude`) and __HOME__, then runs
   `launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.malagaeventgear.keyword-research.plist`.
 
-  Runs `just keywords-daily` (keyword research, then the content plan) at 09:00 local time every day. If the Mac is asleep at 09:00,
-  launchd runs the job once it wakes (StartCalendarInterval semantics), it does not skip the day.
+  Runs `just keywords-daily` (keyword research, then the content plan). Triggers: 09:00 local time (StartCalendarInterval),
+  at load and login (RunAtLoad) and every hour (StartInterval).
+  Asleep vs powered off: if the Mac is ASLEEP at 09:00, launchd runs the job on wake (missed intervals coalesce into one).
+  If it is POWERED OFF or nobody is logged in, that run is lost, so RunAtLoad catches up at the next login and StartInterval
+  keeps retrying while the Mac is on.
+  The extra triggers are free: scripts/keywords/daily-guard.ts checks the repo (is today's research batch and plan committed?),
+  the hour, the network, a lock and a daily attempts cap, and exits without calling Claude when there is nothing to do.
+  Several missed days run only once, for today.
 -->
 <plist version="1.0">
 <dict>
@@ -45,7 +51,10 @@
 	<key>StandardErrorPath</key>
 	<string>__HOME__/Library/Logs/meg-keyword-research.log</string>
 
+	<key>StartInterval</key>
+	<integer>3600</integer>
+
 	<key>RunAtLoad</key>
-	<false/>
+	<true/>
 </dict>
 </plist>
