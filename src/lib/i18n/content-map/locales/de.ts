@@ -291,6 +291,11 @@ export default {
 			slug: 'av-vermietung-veranstaltungen-im-freien',
 			keyword: 'AV-Vermietung für Veranstaltungen im Freien in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-music-performances': {
+			slug: 'av-vermietung-musikauftritte',
+			keyword: 'AV-Vermietung für Musikauftritte in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

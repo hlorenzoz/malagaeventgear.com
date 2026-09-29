@@ -291,6 +291,11 @@ export default {
 			slug: 'location-audiovisuelle-evenements-exterieur',
 			keyword: 'location audiovisuelle pour événements en extérieur à Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-music-performances': {
+			slug: 'location-audiovisuelle-concerts-spectacles',
+			keyword: 'location audiovisuelle pour concerts et spectacles à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

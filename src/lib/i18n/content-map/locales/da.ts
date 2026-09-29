@@ -291,6 +291,11 @@ export default {
 			slug: 'av-udlejning-udendors-arrangementer',
 			keyword: 'AV-udlejning til udendørs arrangementer i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-music-performances': {
+			slug: 'av-udlejning-musikoptraedener',
+			keyword: 'AV-udlejning til musikoptrædener i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

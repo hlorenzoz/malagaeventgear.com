@@ -271,6 +271,11 @@ export default {
 			slug: '戶外活動視聽租借',
 			keyword: '馬拉加 戶外活動視聽租借',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-music-performances': {
+			slug: '音樂表演視聽租借',
+			keyword: '馬拉加 音樂表演視聽租借',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

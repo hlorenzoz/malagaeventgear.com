@@ -1,0 +1,111 @@
+---
+title: "AV-uthyrning för musikframträdanden i Malaga, Spanien"
+description: "AV-uthyrning för musikframträdanden i Malaga, Spanien: PA-ljud, en mikrofon och ljus för dj, band eller duo, levererat längs hela Costa del Sol."
+publishDate: "2026-09-29"
+sourceUpdated: "2026-09-28"
+excerpt: "AV-uthyrning för musikframträdanden i Malaga, Spanien: PA-ljud, en mikrofon och belysning för en dj, ett band eller en duo, levererat längs hela Costa del Sol."
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Letar du efter AV-uthyrning för musikframträdanden i Malaga, Spanien? Ett dj-set, ett liveband och en duo med sång och gitarr behöver alla en liknande grund: PA-ljudförstärkning, en mikrofon och belysning som sätter stämningen, dimensionerat för ett litet privat evenemang eller en fest.
+
+Malaga Event Gear levererar, installerar och testar den uppsättningen i Malaga och längs hela Costa del Sol, även på terrasser utomhus, i villor och på lokaler vid stranden.
+
+Kontakta oss redan i dag för att upptäcka vårt [utbud av utrustning och paket](/packages/).
+
+## Kort översikt
+
+---
+
+Malaga Event Gear erbjuder AV-uthyrning för musikframträdanden i Malaga och längs hela Costa del Sol: PA-ljud, en mikrofon och belysning för ett dj-set, ett liveband eller en duo. Med erfarenhet som går tillbaka till 1996 levererar, installerar och testar vi utrustningen för ett litet privat evenemang eller en fest, för upp till 50 gäster.
+
+Kontakta oss redan i dag för att prata om ditt evenemang.
+
+## Det viktigaste
+
+---
+
+Malaga Event Gear erbjuder AV-uthyrning för musikframträdanden i Malaga och längs hela Costa del Sol.
+
+-   Vårt [Eco Pack](/packages/eco/) täcker PA-ljud, en mikrofon och RGBW-belysning för upp till 50 gäster, levererat, installerat och testat av vårt team.
+
+-   Ingen tekniker ingår i Eco Pack: det är en uppsättning som du sköter själv, klar att koppla in och spela.
+
+-   En rökmaskin samt en projektor med duk finns båda som tillval.
+
+-   Tillgängligt i Malaga, på Costa del Sol och i Sevilla, samt i Granada för uthyrningar över 400 euro, med bokning minst 24 timmar i förväg.
+
+## Dj-set, liveband eller duo: det här behöver du faktiskt
+
+Oavsett format är grundbehovet detsamma: PA-ljud som når publiken, en mikrofon och belysning som sätter stämningen. Vårt [Eco Pack](/packages/eco/) täcker precis det: 2 aktiva högtalare med stativ, 1 trådbunden dynamisk mikrofon och 2 LED-ljusbalkar med RGBW-spotlights, levererat, installerat och testat av vårt team.
+
+Det här är en uppsättning som du sköter själv: ingen tekniker ingår, så en dj eller ett band tar med sin egen mixutrustning och styr sitt eget set. Vill du ha en tekniker på plats ingår en i vårt [Wedding Pack](/packages/wedding/) och vårt [MICE Pack](/packages/mice/), men de är dimensionerade för ett bröllop eller ett företagsevenemang snarare än för ett fristående framträdande.
+
+<InlineCTA />
+
+## Verkliga uppsättningar vi har levererat
+
+![Komplett HK Audio column array-högtalarsystem med mikrofon för ett dj-evenemang utomhus i provinsen Malaga.](https://cdn.malagaeventgear.com/blog/1788/2025-10-05-DJ-audio-and-microphone-system-setup-1536x1152.webp "Kraftfullt HK Audio column array-system med subwoofer, kompletterat med en trådlös mikrofon, för kristallklart ljud vid ett dj-evenemang utomhus i provinsen Malaga.")
+
+Ett verkligt HK Audio column array-system, komplett med mikrofon, från ett tidigare dj-evenemang utomhus i provinsen Malaga.
+
+![En dj och en gitarrist uppträder live på scenen med professionell ljud- och ljusutrustning under ett utomhusevenemang i provinsen Malaga](https://cdn.malagaeventgear.com/blog/1325/audio-lighting-sound-system-microphone-rental-malaga-224x300.webp "Uthyrning av utrustning av högsta kvalitet för liveframträdanden, konserter och evenemang i provinsen Malaga.")
+
+Ljud- och ljusutrustning för ett liveframträdande i provinsen Malaga.
+
+![Livemusik vid ett evenemang i Malaga med en sångare vid en professionell mikrofon och en gitarrist, i en livfull och elegant stämning.](https://cdn.malagaeventgear.com/blog/1324/rent-microphone-parties-concerts-events-malaga-224x300.webp "Uthyrning av professionella mikrofoner och ljudutrustning för oförglömliga evenemang i Malaga.")
+
+En duo med sång och gitarr som uppträder med hyrd mikrofon och hyrd ljudutrustning i Malaga.
+
+![Hyrt ljudsystem i Malaga för en strandfest, med professionell dj-utrustning, högtalare och en publik som njuter av evenemanget.](https://cdn.malagaeventgear.com/blog/1323/rental-audio-system-parties-events-300x224.webp "Uthyrning av professionell ljudutrustning för oförglömliga fester och evenemang i Malaga.")
+
+En dj-uppsättning för en strandfest i Malaga.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('eco', ['/1327/', '/1788/'])} speed="normal" direction="left" />
+</div>
+
+## Utomhuslokaler: villor, terrasser och beach clubs
+
+Många musikframträdanden sker utomhus: på en villaterrass, i en beach club, på en takterrass. Vårt PA-ljud och vår belysning följer med till de här lokalerna, och en rökmaskin finns som tillval för extra stämning. Bekräfta lokalens el när du bokar, så att vi kan dimensionera uppsättningen rätt. Om du fortfarande väger hur mycket PA-effekt ett visst antal gäster faktiskt behöver går vår guide om att [hyra ljudsystem](/blog/sound-system-rental/) igenom det paket för paket.
+
+## Bokning och serviceområde
+
+Våra tjänster täcker Malaga, Costa del Sol och Sevilla utan minsta order, och sträcker sig till Granada för uthyrningar över 400 euro. Boka minst 24 timmar i förväg för att garantera tillgänglighet.
+
+## Slutsats
+
+Oavsett om det är ett dj-set, ett liveband eller en duo med sång och gitarr levererar Malaga Event Gear det ljud och ljus som ditt framträdande behöver. För hela vårt utbud, se [sidan om AV-uthyrning](/blog/audio-visual-rental/). [Kontakta oss](/contact/) för att diskutera ditt evenemang.
+
+Planerar du i stället en gala eller en formell middag? Se vår guide om [AV-uthyrning för galamiddagar](/blog/audio-visual-rental-for-gala-dinners/). För en fest utomhus, se [AV-uthyrning för utomhusevenemang](/blog/audio-visual-rental-for-outdoor-events/).
+
+## Vanliga frågor
+
+### Vad kostar AV-uthyrning för ett musikframträdande?
+
+Det beror på paketet: vårt [Eco Pack](/packages/eco/) täcker PA-ljud, en mikrofon och belysning, med exakta priser i euro på vår [paketsida](/packages/). Alla priser är exklusive moms, med den vanliga spanska momsen på 21 % tillagd i kassan, och priset inkluderar leverans, uppsättning och hämtning.
+
+### Ingår en tekniker vid ett musikframträdande?
+
+Nej, inte i [Eco Pack](/packages/eco/): det är en uppsättning som levereras, installeras och testas av vårt team och som dj:n eller bandet sedan sköter själva. En tekniker ingår i vårt Wedding Pack och MICE Pack, men de är dimensionerade för ett bröllop eller ett företagsevenemang.
+
+### Vad är skillnaden mellan en uppsättning för en dj och för ett liveband?
+
+Grundutrustningen är densamma: PA-ljud, en mikrofon och belysning. En dj tar oftast med sin egen mixer och kontroller och kopplar in sig i vårt ljudsystem. Ett liveband eller en duo använder mikrofonen till sången och kör sina instrument genom sin egen mixer in i vårt ljudsystem.
+
+### Hur många mikrofoner ingår?
+
+I Eco Pack ingår 1 trådbunden dynamisk mikrofon. Om ditt framträdande behöver fler än en, säg till när du bokar.
+
+### Kan ljudsystemet användas utomhus, på en villa eller en lokal vid stranden?
+
+Ja. Vårt PA-ljud och vår belysning följer med till villor, terrasser och lokaler vid stranden längs hela Costa del Sol. Bekräfta lokalens el när du bokar, så att vi kan dimensionera uppsättningen rätt.
+
+### Hur långt i förväg ska jag boka AV-utrustning för ett musikframträdande?
+
+Boka så tidigt du kan när datumet och lokalen för ditt evenemang är bekräftade. Våra tjänster finns i Malaga, på Costa del Sol och i Sevilla utan minsta order, och sträcker sig till Granada för uthyrningar över 400 euro. Vi rekommenderar att du bokar minst 24 timmar i förväg.

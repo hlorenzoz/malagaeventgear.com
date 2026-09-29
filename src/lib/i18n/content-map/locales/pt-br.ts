@@ -323,6 +323,11 @@ export default {
 			slug: 'aluguel-de-audiovisual-para-eventos-ao-ar-livre',
 			keyword: 'aluguel de audiovisual para eventos ao ar livre em Málaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-music-performances': {
+			slug: 'aluguel-de-audiovisual-para-shows',
+			keyword: 'aluguel de audiovisual para shows em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -287,6 +287,11 @@ export default {
 			slug: 'noleggio-audiovisivo-eventi-allaperto',
 			keyword: "noleggio audiovisivo per eventi all'aperto a Malaga",
 			status: 'propuesta'
+		},
+		'audio-visual-rental-for-music-performances': {
+			slug: 'noleggio-audiovisivo-spettacoli-musicali',
+			keyword: 'noleggio audiovisivo per spettacoli musicali a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
