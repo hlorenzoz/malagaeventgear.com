@@ -151,6 +151,9 @@ volume is clearly above the cluster's usual, `medium` with any real volume or im
   One heading per keyword. Never stack keywords in one heading.
 - Never add "Malaga" to a heading only to carry a keyword. The first geographic mention in the
   BODY says "Malaga, Spain" (CLAUDE.md rule 5), headings are not forced.
+- Language: `heading`, `question`, `after` and the new post's `title` and `outline` are in
+  English (they are site content). `reason` and `brief` are in Spanish (neutral, with accents),
+  because the person who reads TODO.txt works in Spanish. `evidence` is copied as is.
 - The brief says what the section must answer, which facts it may use and where they are
   (`packages.ts`, the inventory CSV, a `News` post for Experience, a review in
   `testimonials.ts`), and what it must not claim. Two to four sentences.
