@@ -1,0 +1,209 @@
+{
+  "date": "2026-09-29",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 30
+  },
+  "items": [
+    {
+      "keywords": [
+        "audiovisual rental",
+        "hire av equipment",
+        "av hire",
+        "audio visual equipment hire",
+        "audio visual rental equipment",
+        "av equipment rental",
+        "alquiler de material audiovisual malaga"
+      ],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "high",
+      "evidence": "audiovisual rental: gsc pos 25.89 188 impr | hire av equipment: gsc pos 24.42 100 impr | av hire: google-ads 140/mo, gsc pos 19.62 63 impr | audio visual equipment hire: google-ads 90/mo, gsc pos 11.89 28 impr | audio visual rental equipment: google-ads 20/mo, gsc pos 20.67 27 impr | av equipment rental: gsc pos 13.42 26 impr | alquiler de material audiovisual malaga: gsc pos 20.24 25 impr",
+      "reason": "All seven phrases are synonyms of the pillar's own core intent (rent AV equipment in Malaga), including the Spanish variant. Checked /blog/audio-visual-rental/, whose frontmatter keyword is literally 'audio visual rental' and whose 'Discover Premium Audio Visual Rental Services in Malaga' and 'Audio Visual Equipment We Rent in Malaga' sections already cover this exact intent at pillar breadth. A new heading on the pillar or a new supporting post would only restate the pillar's own subject and risks cannibalizing it."
+    },
+    {
+      "keywords": ["malaga wedding packages all inclusive"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "high",
+      "evidence": "gsc pos 8.11 157 impr",
+      "reason": "Same intent as /blog/all-in-one-wedding-rental-packages/, whose frontmatter keyword ('all in one wedding rental packages') is a direct synonym and whose 'What \"All in One\" Means for the Wedding Pack' and 'What's Included, at 650 Euros' sections already answer it. The page already ranks at position 8.11 for this intent, confirming coverage. Also checked /blog/wedding-rentals/ pillar for overlap, no conflict."
+    },
+    {
+      "keywords": ["sound and light rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "high",
+      "evidence": "google-ads 40/mo, gsc pos 21.87 108 impr",
+      "reason": "Checked /blog/audio-visual-rental/: the 'Audio Visual Equipment We Rent in Malaga' H2 already bundles Sound and Lighting as two of its four listed building blocks, and the 'Dynamic Lighting and Sound Systems for Unforgettable Experiences' H3 under the Wedding and Eco Packs section covers the same bundled sound plus lighting intent. A new heading with this exact phrase would only repeat what those two sections already say, so no section added."
+    },
+    {
+      "keywords": [
+        "rental sound equipment",
+        "mic and speaker rental",
+        "sound hire",
+        "sound equipment hire",
+        "audio equipment hire"
+      ],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "evidence": "rental sound equipment: gsc pos 28.48 99 impr | mic and speaker rental: google-ads 170/mo, gsc pos 16.92 26 impr | sound hire: google-ads 140/mo, gsc pos 23.96 27 impr | sound equipment hire: google-ads 70/mo, gsc pos 24.85 27 impr | audio equipment hire: google-ads 70/mo, gsc pos 15.33 24 impr",
+      "reason": "All five are synonyms of 'sound system rental'. Checked /blog/sound-system-rental/, whose frontmatter keyword is that exact synonym and whose FAQs already answer 'Can I rent just speakers, without a microphone or technician?', 'What type of microphone do I need for my event?' and the PA-system-equals-sound-system equivalence. Creating a second page for the same intent, or a near duplicate mic-and-speaker page, would cannibalize this post."
+    },
+    {
+      "keywords": ["audiovisual events spain"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "evidence": "gsc pos 29.32 92 impr",
+      "reason": "Out of market per the Fit check. MEG's documented service area, per /blog/audio-visual-rental/'s 'Serving Malaga and the Whole Costa del Sol' section, is Malaga, the Costa del Sol towns, Sevilla, Granada, Ronda, Nerja and Antequera, not the whole of Spain. Targeting 'Spain' nationally would overpromise coverage MEG does not provide, against the Honestidad rule, so no section or post is proposed."
+    },
+    {
+      "keywords": ["screen rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "evidence": "gsc pos 15.83 53 impr",
+      "reason": "Ambiguous between a projection screen and the TV/LED display, both already covered. Checked /blog/projector-rental/ (FAQ: 'Can I rent just a projection screen, without a projector?', 'Is a screen included with the projector, or sold separately?') and /blog/tv-screen-rental/ (FAQ: 'Can I rent multiple TV screens for one event?', pricing table). Both intents behind this generic phrase are already answered, so no new heading."
+    },
+    {
+      "keywords": ["iluminacion eventos malaga"],
+      "cluster": "stage lighting rental",
+      "action": "skip",
+      "priority": "medium",
+      "evidence": "gsc pos 13.32 50 impr",
+      "reason": "Spanish for 'event lighting Malaga', a head term as broad as the pillar itself. Checked /blog/stage-lighting-rental/, whose own keyword and 'The Full Stage Lighting Roster' section already cover this intent at pillar breadth for the whole stage lighting rental silo. This is a broad head term for the eventual Spanish locale translation of that pillar, not a new English heading."
+    },
+    {
+      "keywords": ["how to save money on wedding rentals"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "medium",
+      "evidence": "gsc pos 17.32 28 impr",
+      "reason": "Checked /blog/tips-for-reducing-wedding-rental-costs/, whose entire subject (right sizing Eco vs Wedding Pack to save 360 euros, add on discipline, the Granada minimum, asking the venue about its own PA) is this exact intent, just phrased as 'reducing costs' rather than 'saving money'. No heading uses the literal phrase, but the whole page already answers it, so a new heading would only repeat the page's own Brief Overview and Key Highlights."
+    },
+    {
+      "keywords": ["rental sound equipment near me"],
+      "cluster": "audio visual rental",
+      "action": "add-section",
+      "priority": "medium",
+      "evidence": "google-ads 70/mo, gsc pos 27.52 27 impr",
+      "reason": "Checked /blog/audio-video-rental-near-me-in-malaga-spain/ and /blog/audio-visual-hire-near-me-in-malaga-spain/, both generic AV near-me pages already targeting the pillar, so a third near-me page would cannibalize them. Checked /blog/sound-system-rental/, the correct home for the sound-specific version of this intent: unlike most posts in this cluster it has no 'Booking and Service Area' heading, only scattered area mentions, which is a real gap for this local-intent phrase. Adding a section there (not a new post) avoids cannibalizing the two existing near-me posts.",
+      "targetUrl": "/blog/sound-system-rental/",
+      "file": "src/content/blog/sound-system-rental.svx",
+      "headingLevel": 2,
+      "heading": "Booking and Service Area",
+      "after": "Indoor and Outdoor Sound System Rental",
+      "brief": "State where MEG delivers sound system rentals and how far ahead to book, reusing only facts already published elsewhere on the site: Costa del Sol coverage (Malaga, Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas) plus Sevilla and Granada, per the audio-visual-rental pillar's 'Serving Malaga and the Whole Costa del Sol' section; the Granada 400 euro minimum booking, per tips-for-reducing-wedding-rental-costs; and the 24 hour minimum notice, per audio-visual-rental-planning-timeline. Do not invent a new travel radius, a new town, or a same day delivery promise not stated in those posts."
+    },
+    {
+      "keywords": ["led screen rental"],
+      "cluster": "audio visual rental",
+      "action": "add-faq",
+      "priority": "high",
+      "evidence": "google-ads 390/mo, gsc pos 33.33 43 impr",
+      "reason": "Real volume (390/mo), clearly above this cluster's usual. Checked /blog/tv-screen-rental/ and /blog/audiovisual-equipment-rental-service/: both already have a 'Do you rent a video wall or LED wall?' style FAQ stating honestly that a modular LED video wall is not in MEG's own inventory, only the single 60 inch flat panel. Neither answer offers the supplier-sourcing path that CLAUDE.md's positioning rules call for on equipment MEG does not own but an event could need, so a new, differently worded FAQ closes that gap without duplicating the existing question.",
+      "targetUrl": "/blog/tv-screen-rental/",
+      "file": "src/content/blog/tv-screen-rental.svx",
+      "question": "Can Malaga Event Gear source an LED video wall through a supplier?",
+      "brief": "State plainly that a modular LED video wall is not in MEG's own inventory, only the single 60 inch flat panel screen on the MICE Pack, consistent with the existing 'Do you rent LED video walls or modular LED panels?' FAQ on this page and on audiovisual-equipment-rental-service. Then add the sourcing framing used elsewhere on the site, for example the interpretation equipment line in audiovisual-equipment-rental-service's 'What We Don't Stock' section: invite the reader to contact MEG with their event details so the team can check whether a supplier can cover it. Do not promise availability, a brand, a model or a price that is not already published."
+    },
+    {
+      "keywords": ["how much does it cost to rent sound equipment"],
+      "cluster": "audio visual rental",
+      "action": "add-faq",
+      "priority": "low",
+      "evidence": "ubersuggest newFaq linked to keywordId audiovisual-equipment-rental-service, no volume or impressions given",
+      "reason": "Best answered by /blog/sound-system-rental/, not the audiovisual-equipment-rental-service page the tool linked it to, since sound-system-rental is where the actual package pricing table lives. Checked its FAQ list: it has no direct 'how much does it cost' question even though the Brief Overview and the guest count table already state the numbers, so this is a real gap, not a duplicate.",
+      "targetUrl": "/blog/sound-system-rental/",
+      "file": "src/content/blog/sound-system-rental.svx",
+      "question": "How much does it cost to rent sound equipment in Malaga?",
+      "brief": "Answer using only the five package prices already published in this same post's 'Choosing Your Sound System by Guest Count' table: Eco Pack 290 euros up to 50 guests, Basic MICE Pack 295 euros up to 40 guests, Wedding Pack 650 euros up to 80 guests with a technician, MICE Pack 490 euros up to 120 guests with a technician up to 6 hours, Product Presentation Pack 310 euros with no guest cap, all ex VAT with 21 percent Spanish VAT added at checkout. Do not add a new number, only restate the table already on this page."
+    },
+    {
+      "keywords": ["what is considered audio visual equipment"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "low",
+      "evidence": "ubersuggest newFaq linked to keywordId audiovisual-equipment-rental-service, no volume or impressions given",
+      "reason": "Covered by /blog/audio-visual-rental/, heading 'What is audio visual equipment?' in its FAQ section, same question in meaning."
+    },
+    {
+      "keywords": ["where to rent sound equipment"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "low",
+      "evidence": "ubersuggest newFaq linked to keywordId audiovisual-equipment-rental-service, no volume or impressions given",
+      "reason": "Same local intent as the 'rental sound equipment near me' item in this same plan, which adds a 'Booking and Service Area' section to /blog/sound-system-rental/. Resolved there rather than as a separate FAQ, to avoid two near-identical answers on the same page."
+    },
+    {
+      "keywords": ["How many lumens do I need for a conference room projector?"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "low",
+      "evidence": "research-paa newFaq linked to keywordId projector-rental",
+      "reason": "Covered by /blog/projector-rental/, FAQ 'What brightness or lumens do I need for a daylit or brightly lit room?', same sizing question in different words; a conference room is a typically lit room in this post's own framing."
+    },
+    {
+      "keywords": ["What AV equipment do you need for a conference?"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "low",
+      "evidence": "research-paa newFaq linked to keywordId audio-visual-rental-for-conferences",
+      "reason": "Covered verbatim by /blog/audio-visual-rental-for-conferences/, FAQ 'What AV equipment is needed for a conference?'."
+    },
+    {
+      "keywords": ["What is a run of show for a corporate event?"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "low",
+      "evidence": "research-paa newFaq linked to keywordId audio-visual-rental-for-corporate-events",
+      "reason": "Covered verbatim by /blog/audio-visual-rental-for-corporate-events/, FAQ 'What is a run of show for a corporate event?'."
+    },
+    {
+      "keywords": ["How far in advance should I book AV for a congress?"],
+      "cluster": "event technology service",
+      "action": "skip",
+      "priority": "low",
+      "evidence": "research-paa newFaq linked to keywordId event-technology-service",
+      "reason": "Covered by /blog/event-technology-service/, FAQ 'How Far in Advance Should I Book Event Technology for My Event?'. A congress is one event type among several this generic lead time answer already applies to; no MEG-specific congress fact exists to justify a separate question."
+    },
+    {
+      "keywords": ["What is a gooseneck microphone?"],
+      "cluster": "audiovisual equipment rental service",
+      "action": "add-faq",
+      "priority": "low",
+      "evidence": "research-paa newFaq linked to keywordId headset-lavalier-microphone-rental",
+      "reason": "The tool linked this to /blog/headset-lavalier-microphone-rental/, but that post compares lavalier and headset mics and only mentions gooseneck mics in passing. The actual gooseneck content lives on /blog/audiovisual-equipment-rental-service/ under its 'Wireless and Gooseneck Microphone Systems' heading, which has no definitional FAQ yet. Checked both posts' FAQ lists, neither already asks this question.",
+      "targetUrl": "/blog/audiovisual-equipment-rental-service/",
+      "file": "src/content/blog/audiovisual-equipment-rental-service.svx",
+      "question": "What is a gooseneck microphone?",
+      "brief": "Define a gooseneck microphone as a flexible neck microphone fixed to a lectern or podium stand for a speaker who stays in one place. Then state MEG's own professional gooseneck microphones, deployed on the Basic MICE Pack (the podium microphone) and the MICE Pack (gooseneck plus a wireless handheld), per this page's 'Wireless and Gooseneck Microphone Systems' section and the sound-system-rental package table. Do not claim a gooseneck mic is available as a standalone rental outside those packages."
+    },
+    {
+      "keywords": ["Why does a podium sometimes have two microphones?"],
+      "cluster": "audiovisual equipment rental service",
+      "action": "add-faq",
+      "priority": "low",
+      "evidence": "research-paa newFaq linked to keywordId headset-lavalier-microphone-rental",
+      "reason": "Generic AV trivia as written, but MEG has a real, documented answer through its own MICE Pack setup, so it is reframed around that fact rather than answered as an abstract industry convention. Placed on /blog/audiovisual-equipment-rental-service/ next to the gooseneck definition FAQ from this same plan, since both draw on the same 'Wireless and Gooseneck Microphone Systems' section. Checked the post's FAQ list, no existing question covers this.",
+      "targetUrl": "/blog/audiovisual-equipment-rental-service/",
+      "file": "src/content/blog/audiovisual-equipment-rental-service.svx",
+      "question": "Why do some corporate setups use two microphones at the podium?",
+      "brief": "Answer using MEG's own MICE Pack, which pairs a fixed gooseneck microphone for the podium address with a separate wireless handheld microphone so a presenter can step away for Q&A or hand it to another speaker, per this page's 'Wireless and Gooseneck Microphone Systems' section and the sound-system-rental package table. Describe this as MEG's own setup, not a universal AV convention, and do not invent a reason beyond what those two microphones are documented to do."
+    },
+    {
+      "keywords": ["What screen size do I need for my conference room?"],
+      "cluster": "audio visual rental",
+      "action": "add-faq",
+      "priority": "low",
+      "evidence": "research-paa newFaq linked to keywordId tv-screen-rental",
+      "reason": "Checked /blog/tv-screen-rental/'s FAQ list: it answers 'What screen sizes are available?' and 'Do you rent a 55 inch screen?' but never frames the answer around a conference room specifically, which the 'TV Screen or Projector' section addresses only indirectly. Real gap, not a duplicate.",
+      "targetUrl": "/blog/tv-screen-rental/",
+      "file": "src/content/blog/tv-screen-rental.svx",
+      "question": "What screen size do I need for my conference room?",
+      "brief": "State honestly that MEG's own inventory has one screen size, the 60 inch high definition LED display on the MICE Pack, which reads clearly as a single panel in a conference room without needing a darkened space, per this page's 'TV Screen or Projector: Which One Does Your Event Need?' section. For a room too large for one panel to read across, point to the projector rental guide's 3000 and 5000 lumen tiers instead. Do not invent additional screen sizes MEG does not stock."
+    }
+  ]
+}

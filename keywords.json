@@ -1938,6 +1938,16 @@
             "ctr": 0,
             "position": 20.24
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "medium",
@@ -3554,6 +3564,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 15.33
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -6265,6 +6285,16 @@
             "ctr": 0,
             "position": 11.89
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "medium",
@@ -7765,6 +7795,16 @@
             "ctr": 0,
             "position": 20.67
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "medium",
@@ -9116,6 +9156,16 @@
             "ctr": 0,
             "position": 29.32
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "medium",
@@ -9207,6 +9257,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-29"
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "high",
@@ -9719,6 +9779,16 @@
             "ctr": 0,
             "position": 13.42
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "medium",
@@ -10061,6 +10131,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 19.62
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
           }
         }
       },
@@ -27542,6 +27622,16 @@
             "ctr": 0,
             "position": 24.42
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "high",
@@ -29780,6 +29870,34 @@
       "notes": ""
     },
     {
+      "id": "how-far-in-advance-should-i-book-av-for-a-congress",
+      "keyword": "How far in advance should I book AV for a congress?",
+      "locale": "en",
+      "cluster": "event technology service",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-09-29",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
       "id": "how-many-lumens-do-i-need",
       "keyword": "how many lumens do I need",
       "locale": "en",
@@ -29793,6 +29911,34 @@
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-29"
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-09-29",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "how-many-lumens-do-i-need-for-a-conference-room-projector",
+      "keyword": "How many lumens do I need for a conference room projector?",
+      "locale": "en",
+      "cluster": "audio visual rental",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -29821,6 +29967,34 @@
             "clicks": 0,
             "ctr": 0,
             "position": 1
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-09-29",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "how-much-does-it-cost-to-rent-sound-equipment",
+      "keyword": "how much does it cost to rent sound equipment",
+      "locale": "en",
+      "cluster": "audio visual rental",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "add-faq",
+            "targetUrl": "/blog/sound-system-rental/",
+            "priority": "low"
           }
         }
       },
@@ -30075,6 +30249,16 @@
             "ctr": 0,
             "position": 17.32
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "medium",
@@ -30264,6 +30448,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 13.32
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -33927,6 +34121,16 @@
             "ctr": 0,
             "position": 33.33
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "add-faq",
+            "targetUrl": "/blog/tv-screen-rental/",
+            "priority": "high"
+          }
         }
       },
       "opportunity": "medium",
@@ -36875,6 +37079,16 @@
             "ctr": 5.1,
             "position": 8.11
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "high",
@@ -37548,6 +37762,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 16.92
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -57020,6 +57244,16 @@
             "ctr": 0,
             "position": 28.48
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "medium",
@@ -57084,6 +57318,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 27.52
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "add-section",
+            "targetUrl": "/blog/sound-system-rental/",
+            "priority": "medium"
           }
         }
       },
@@ -58227,6 +58471,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 15.83
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -59438,6 +59692,16 @@
             "ctr": 0,
             "position": 21.87
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "high",
@@ -60263,6 +60527,16 @@
             "ctr": 0,
             "position": 24.85
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "medium",
@@ -60921,6 +61195,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 23.96
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -75306,6 +75590,90 @@
       "notes": "Covered per the Google Ads / Ubersuggest keyword audit closed 2026-08-06 (engram: google_ads_keyword_audit_2026-08-06): already served by existing content, no new post needed."
     },
     {
+      "id": "what-av-equipment-do-you-need-for-a-conference",
+      "keyword": "What AV equipment do you need for a conference?",
+      "locale": "en",
+      "cluster": "audio visual rental",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-09-29",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "what-is-a-gooseneck-microphone",
+      "keyword": "What is a gooseneck microphone?",
+      "locale": "en",
+      "cluster": "audiovisual equipment rental service",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "add-faq",
+            "targetUrl": "/blog/audiovisual-equipment-rental-service/",
+            "priority": "low"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-09-29",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "what-is-a-run-of-show-for-a-corporate-event",
+      "keyword": "What is a run of show for a corporate event?",
+      "locale": "en",
+      "cluster": "audio visual rental",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-09-29",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
       "id": "what-is-audio-visual-equipment",
       "keyword": "what is audio visual equipment",
       "locale": "en",
@@ -75384,6 +75752,34 @@
       "notes": "Covered per the Google Ads / Ubersuggest keyword audit closed 2026-08-06 (engram: google_ads_keyword_audit_2026-08-06): already served by existing content, no new post needed."
     },
     {
+      "id": "what-is-considered-audio-visual-equipment",
+      "keyword": "what is considered audio visual equipment",
+      "locale": "en",
+      "cluster": "audio visual rental",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-09-29",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
       "id": "what-is-the-502030-rule-for-weddings",
       "keyword": "what is the 50/20/30 rule for weddings?",
       "locale": "en",
@@ -75426,6 +75822,34 @@
         "blog": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-29"
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-09-29",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "what-screen-size-do-i-need-for-my-conference-room",
+      "keyword": "What screen size do I need for my conference room?",
+      "locale": "en",
+      "cluster": "audio visual rental",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "add-faq",
+            "targetUrl": "/blog/tv-screen-rental/",
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -75580,6 +76004,34 @@
       "notes": ""
     },
     {
+      "id": "where-to-rent-sound-equipment",
+      "keyword": "where to rent sound equipment",
+      "locale": "en",
+      "cluster": "audio visual rental",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-09-29",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
       "id": "who-benefits-more-from-buying-versus-renting-frequent-wedding-goers-or-one-time-guests",
       "keyword": "who benefits more from buying versus renting, frequent wedding-goers or \none-time guests?",
       "locale": "en",
@@ -75633,6 +76085,34 @@
       },
       "opportunity": "low",
       "opportunityReason": "gsc: position 8 with 1 impressions",
+      "firstSeen": "2026-09-29",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "why-does-a-podium-sometimes-have-two-microphones",
+      "keyword": "Why does a podium sometimes have two microphones?",
+      "locale": "en",
+      "cluster": "audiovisual equipment rental service",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-09-29",
+          "lastSeen": "2026-09-29",
+          "stats": {
+            "asOf": "2026-09-29",
+            "action": "add-faq",
+            "targetUrl": "/blog/audiovisual-equipment-rental-service/",
+            "priority": "low"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
       "firstSeen": "2026-09-29",
       "lastResearched": null,
       "notes": ""
