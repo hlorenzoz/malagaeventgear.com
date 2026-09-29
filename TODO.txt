@@ -1,244 +1,59 @@
+# TODO.txt: lista de tareas del proyecto, ordenada por `just todo-organize`.
+# Cada tarea es un bloque delimitado, con estos campos en este orden:
+#   === TAREA #T0041 ===
+#   Estado: pendiente | en curso | hecha
+#   Prioridad: alta | media | baja
+#   Título: una línea
+#   Anotada: YYYY-MM-DD (o "sin fecha")
+#   Hecha: YYYY-MM-DD (solo si está hecha, opcional)
+#   Origen: usuario | migrada | content-strategist (plan YYYY-MM-DD, ítem N)
+#   Nota: opcional, una línea
+#   ---
+#   descripción libre, tal cual, en las líneas que hagan falta
+#   === FIN #T0041 ===
+# Para agregar una tarea sin id se puede escribir a la antigua: una línea
+# "-- ❌ Título (anotado YYYY-MM-DD)" y debajo la descripción. El organizador le pone
+# id, estado y prioridad. Las hechas van al final, las nuevas y sin terminar arriba.
 
--- ❌ ✅
+== PENDIENTES ==
 
-Ok, con respecto a la gestión de errores en el lead form submit:
-
-Autocompletar los campos del formulario de Contacto según lo especificado en el Lead Form
-
-En la descripción del formulario de Contacto, en la descripción (debajo del Submitted details:), añade la URL del paquete que se está solicitando (por ejemplo: https://malagaeventgear.com/packages/eco/)
-
-Hace falta persistir los errores en la base de datos, de forma tal que se pueda consultar desde la administración en el futuro.
-
-Modela la base de datos de forma tal que se pueda escalar en el futuro.
-Persiste los errores mediante /api/v1/error-tracking
-
-Verifica que se persistan los leads y sus respuestas en la base de datos, así como el estado de los envíos de correos, etc...
-
-
-
--- ❌ ✅ Comments
-
-
--- ❌ ✅ Tracking Google Analytics & Cloudflare Zaraz
-
-
--- ❌ ✅ Error tracking
-
-Verifica también la persistencia en la base de datos, de forma tal que se pueda persistir los errores de forma tal que se pueda 
-
-
-✅ Navbar oculta
-
-✅ Our Packages dinámico
-
-✅ Fix tables, <ul>, ...
-
+=== TAREA #T0037 ===
+Estado: pendiente
+Prioridad: alta
+Título: Pregunta FAQ en /blog/tv-screen-rental/: "Can Malaga Event Gear source an LED video wall through a supplier?"
+Anotada: 2026-09-29
+Origen: content-strategist (plan 2026-09-29, ítem 10)
 ---
+Archivo: src/content/blog/tv-screen-rental.svx
+Keywords: led screen rental (google-ads 390/mo, gsc pos 33.33 43 impr)
+Qué cubrir: State plainly that a modular LED video wall is not in MEG's own inventory, only the single 60 inch flat panel screen on the MICE Pack, consistent with the existing 'Do you rent LED video walls or modular LED panels?' FAQ on this page and on audiovisual-equipment-rental-service. Then add the sourcing framing used elsewhere on the site, for example the interpretation equipment line in audiovisual-equipment-rental-service's 'What We Don't Stock' section: invite the reader to contact MEG with their event details so the team can check whether a supplier can cover it. Do not promise availability, a brand, a model or a price that is not already published.
+Por qué: Real volume (390/mo), clearly above this cluster's usual. Checked /blog/tv-screen-rental/ and /blog/audiovisual-equipment-rental-service/: both already have a 'Do you rent a video wall or LED wall?' style FAQ stating honestly that a modular LED video wall is not in MEG's own inventory, only the single 60 inch flat panel. Neither answer offers the supplier-sourcing path that CLAUDE.md's positioning rules call for on equipment MEG does not own but an event could need, so a new, differently worded FAQ closes that gap without duplicating the existing question.
+Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate.
+=== FIN #T0037 ===
 
-✅ Crear múltiples componentes reutilizables de lista continua de imágenes animadas (desplazándose continuamente como una tira continua)
-
-- Lista con todas las imágenes (Home page - 1 vez)
-- Lista de imágenes relevantes para cada paquete (página de cada paquete - 1 vez)
-
-Use Plan mode y SDD
-
+=== TAREA #T0036 ===
+Estado: pendiente
+Prioridad: media
+Título: Nueva sección H2 en /blog/sound-system-rental/: "Booking and Service Area"
+Anotada: 2026-09-29
+Origen: content-strategist (plan 2026-09-29, ítem 9)
 ---
+Archivo: src/content/blog/sound-system-rental.svx
+Ubicación: después de "Indoor and Outdoor Sound System Rental"
+Keywords: rental sound equipment near me (google-ads 70/mo, gsc pos 27.52 27 impr)
+Qué cubrir: State where MEG delivers sound system rentals and how far ahead to book, reusing only facts already published elsewhere on the site: Costa del Sol coverage (Malaga, Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas) plus Sevilla and Granada, per the audio-visual-rental pillar's 'Serving Malaga and the Whole Costa del Sol' section; the Granada 400 euro minimum booking, per tips-for-reducing-wedding-rental-costs; and the 24 hour minimum notice, per audio-visual-rental-planning-timeline. Do not invent a new travel radius, a new town, or a same day delivery promise not stated in those posts.
+Por qué: Checked /blog/audio-video-rental-near-me-in-malaga-spain/ and /blog/audio-visual-hire-near-me-in-malaga-spain/, both generic AV near-me pages already targeting the pillar, so a third near-me page would cannibalize them. Checked /blog/sound-system-rental/, the correct home for the sound-specific version of this intent: unlike most posts in this cluster it has no 'Booking and Service Area' heading, only scattered area mentions, which is a real gap for this local-intent phrase. Adding a section there (not a new post) avoids cannibalizing the two existing near-me posts.
+Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate.
+=== FIN #T0036 ===
 
-✅ Crea el componente Share This (algo como el plugin de Mediavine: Grow)
-
-https://www.grow.me/publishers/quick-start-guide/
-
-Para compartir en:
-WhatsApp
-Facebook
-Twitter
-Pinterest
-LinkedIn
-Email
-
+=== TAREA #T0017 ===
+Estado: pendiente
+Prioridad: media
+Título: Mejoras del curso de SEO de Peter Raventos
+Anotada: 2026-09-28
+Origen: migrada
+Nota: prioridad por defecto
 ---
-
-✅ Click to Tweet (select texto a twittear)
-
-
-Sección de comentarios
-
-
--- ✅ Package (redesign)
-
-En la página específica de cada uno de los paquetes hace falta
-
-Rediseñar el layout enfocado en conversiones (CRO)
-
-Añadir un formulario de contacto para la solicitud del servicio
-
-Guardar la información de cada uno de los leads que entren por los formularios
-
-Crear una Thank You page (con un diseño profesional) para traquear cada conversión. Luego se va a integrar con el CRM, Cloudflare Zaraz y Google Analytics.
-
-El storage que se utilice debe estar normalizado para ser utilizado posteriormente en el CRM. En el futuro vamos a implementar nuestro propio CRM, por el momento hay que garantizar que se vayan guardando los leads. Vamos a utilizar Resend (resend.com) tanto para el CRM como para el envío del correo mediante el formulario. Implementar integración con sus respectivos tests desde ahora.
-
-Se debe almacenar toda la información del lead entrante (formulario de solicitud)
-
-Se debe de crear una especie de plantilla para enviar el correo según la información proporcionada por el lead a 1+ destinatarios.
-
-Una vez que el lead entre en el formulario, se va a enviar:
-
-1. Correo para el lead confirmando la recepción del formulario
-2. Correo a 1+ destinatarios con la información del lead (hace falta poder definir de alguna manera los destinatarios)
-
-En el futuro se pueden añadir más pasos, así que hace falta implementar algún sistema de trackeo del estado de cada uno de los pasos por lead
-
-Al día siguiente del evento, se va a enviar un correo a los leads que han contratado el servicio preguntando por una reseña en Google My Business (link para solicitar review: https://g.page/r/Cc8g7neiciATEBM/review).
-QR para pedir reseña física en static/gmb_review.jpeg
-
-Hace falta un sistema que trackee si el cliente hace clic en el link de review para no seguir mandándoselo, de lo contrario, mandarle un recordatorio al día siguiente. Hacerlo durante 3 días máximo con un día de por medio.
-
-Antes del footer, hace falta incluir una sección con los reviews de Google My Business en forma de carrusel. Reutilizar el existente en el Home.
-
-Usa SDD: Automático + openspec
-
-
--- ✅ Packages / (filtros)
-
-En la página Packages, actualmetne las tarjetas se muestran de forma estática (siempre son las mismas)
-
-Quiero añadir la funcionalidad que se muestren de forma dinámica mediante unos filtros que van a estar en la parte derecha como si fuera un ecommerce
-
-1. Hace falta crear una estructura de datos persistente donde se almacene la información de cada paquete (nombre, precio, descripción, imágenes, etc.). Estas van a servir como filtros.
-
-2. Crear los filtros correspondientes a la izquierda de la página como si fuera un ecommerce.
-
-3. Las tarjetas se van a renderizar en función de los valores de los filtros. Inicialmente no hay filtros aplicados, por lo que se mostrarán todos los paquetes.
-
-
--- ❌ ✅ PWA Installer.
-
-Añade full support para PWA
-
-Crea un PWA Installer (widget) que va a salir debajo del widget de WhatsApp y encima de la Cookie bar, pero solamente 3 segundos luego que el usuario haya hecho scroll below the fold (debajo de la sección header).
-
-
--- ❌ ✅  Cookie Banner
-
-Cookie Banner con configuración (toggles) en la página `/cookie-policy/
-
-Vamos a utilizar Cloudflare Zaraz para gestionar las cookies y los tags.
-
-Actualiza la información referente e integra la funcionalidad según la preferencia del usuario. 
-
-
--- ❌ ✅ OpenGraph
-
-Añade soporte para OpenGraph según corresponda.
-
-
--- ✅ Sitemaps
-
-Descarga en __utils/sitemaps/
-
-https://malagaeventgear.com/sitemap_index.xml
-https://malagaeventgear.com/post-sitemap.xml
-https://malagaeventgear.com/page-sitemap.xml
-https://malagaeventgear.com/category-sitemap.xml
-https://malagaeventgear.com/author-sitemap.xml
-
-Crea la misma estructura para los sitemaps del sitio
-
-
--- ✅ Datos estructurados
-
-Añadir a .agents/STRUCTURED_DATA.md lo siguiente las siguientes referencias para los datos estructurados:
-
----
-
-Añadir los datos estructurados a nivel de sitio web según corresponda siguiendo .agents/STRUCTURED_DATA.md.
-
-Añadir al @CLAUDE.md la norma de que cada página tiene sus datos estructurados según el tipo de contenido que sea.
-
-Hay datos estructurados que son globales (a nivel de sitio web, y otros a nivel de página/post/paquete, etc.). Hay que crear un mecanismo para gestionar esta estructura.
-
-Hace falta crear una especie de fichero de configuración que contenga la información necesaria para llenar los datos estructurados.
-
-Cada tipo de contenido tiene sí o sí que llevar los siguientes datos estructurados según se relaciona en [STRUCTURED_DATA.md](file;file:///Users/hlorenzoz/databank/Development/%5BMEG%20-%20Malaga%20Event%20Gear%20%28malagaeventgear.com%29%5D/projects/website/.agents/STRUCTURED_DATA.md) .
-
-La información debe ser tomada de un único fichero de configuración que contenga toda la información necesaria del sitio para llenar los datos estructurados.
-
-
--- ✅
-
-Añade la regla al @CLAUDE.md  que cada URL debe terminar en /
-
-Corrige las URLs actuales y sus respectivas referencias
-
-
--- ✅
-
-Tenemos que implementar la siguiente estructura de URL para los paquetes:
-
-/packages/
-/packages/eco/
-/packages/wedding/
-/packages/product-presentation/
-/packages/basic-mice/
-/packages/mice/
-
-En /packages/ hacer un directorio con los diferentes paquetes con la misma información que en /pricing pero presentados en forma de carrusel
-
-Actualizar todas las referencias existentes.
-
-Ten en cuenta que este proyecto es una migración de un sitio que está en producción y que tiene sus URLs propias, por lo que hay que implementar algún mecanismo donde se persistan todas las redirecciones permanentes (301) desde las URL antiguas a las nuevas.
-
-
--- ✅ Performance páginas de paquete (CRO) + Forced reflow
-
-Optimización de performance de /packages/[slug]/ (críticas para conversión). Score mobile 71 -> muy mejorado.
-
-Aplicado (repo): inlineStyleThreshold 102400 (inline del CSS de ~83KB sin comprimir, cero render-blocking), defer de IntersectionObservers a rAF + eliminado el MutationObserver global, self-host de fuentes (woff2 latin) + preload de ambas + font-display: optional, fuera Google Fonts/gstatic. Commits: 355645b, de263ad, 010b714, 5e2d17f, 08aefd3.
-
-Forced reflow (Unscored): TODO lo del repo está resuelto y verificado (trace local 4x CPU + Slow 4G, incluso en frío/aislado, no lo reproduce; 0 patrones write->read de geometría en el código). El residual [unattributed] ~44ms es del EDGE de Cloudflare: el challenge-platform de Bot Fight Mode / JavaScript Detections (/cdn-cgi/challenge-platform/, "Private Access Token challenge"), cross-origin -> por eso [unattributed] y prod-only.
-
-PENDIENTE (Cloudflare dashboard, NO repo): si no se necesita -> Security > Bots > Bot Fight Mode: Off (y/o Security > Settings > JavaScript Detections: Off). Confirmar re-corriendo PageSpeed, o midiendo el mismo build en la URL *.workers.dev sin proxy naranja. Es Unscored: no afecta el score.
-
-Detalle completo en docs/forced-reflow-investigation.md
-
-
--- ❌ ✅ Performance /blog/ (PSI móvil 66 -> objetivo 85+)
-
-Diagnóstico (Lighthouse propio contra nuevo.malagaeventgear.com/blog/, 2026-06-10):
-
-CORRECCIÓN a la nota anterior de /packages/: el challenge-platform de Bot Fight Mode SÍ afecta el score, y mucho. jsd/main.js consume 5,333ms de CPU (throttle 4x), con un long task de 2,669ms ANTES del FCP -> por eso TBT=0 y no aparece como culpable. El desglose del LCP lo confirma: element render delay 1,750ms = 67% del LCP (la imagen ya descargó pero el main thread está ocupado). Está inyectado en producción Y staging.
-
-✅ Aplicado (repo): re-compresión de los rungs 600w/700w de covers de q82 a q70 + cwebp -m 6 (~-31% por imagen: LCP image 52.2KB -> 36.6KB). Scripts gen-cover-variants.ts (ahora con QUALITY/FORCE env) y gen-cover-thumbs.ts (dedup de rungs por ancho). Archivos ya subidos a R2 + cover-thumbs.json regenerado.
-
-PENDIENTE (Cloudflare dashboard, NO repo):
-
-1. Purge de cache CDN: los 78 rungs regenerados mantienen el mismo nombre con max-age=1y -> el edge sigue sirviendo los viejos. Caching > Configuration > Purge by URL (máx 30 por tanda), lista completa en __utils/purge-cover-rungs.txt.
-
-2. Bot Fight Mode / JavaScript Detections: Off (Security > Bots). Vale ~25-30 puntos de PSI en /blog/. Los formularios ya están protegidos por Turnstile; BFM solo aporta anti-scraping genérico. DECISIÓN PENDIENTE del usuario (evaluar tradeoff seguridad/performance).
-
-3. (Opcional) Zaraz s.js aparece en staging sin cache TTL (7KB): revisar si se está usando; si no, desactivarlo.
-
-Verificación tras deploy + purge + toggle: npx lighthouse https://malagaeventgear.com/blog/ --only-categories=performance --form-factor=mobile -> objetivo FCP <2.5s, LCP <3s, score >=85. (nuevo.malagaeventgear.com fue dado de baja, ya no resuelve; usar producción o localhost:4173).
-
-
--- ✅ Home NO_LCP (PSI mobile: Performance Error! -> ~93)
-
-OJO: el NO_LCP del HOME NO era Bot Fight Mode. Con BFM en OFF el NO_LCP seguía, y la URL *.workers.dev
-(sin edge de Cloudflare) también daba NO_LCP. Causa real: el home no tenía ninguna <img> real
-above-the-fold; su backdrop full-viewport queda excluido del LCP por el Chrome de PSI pero retiene el
-slot de "largest paint" y suprime todo candidato más chico -> cero candidatos -> NO_LCP.
-
-✅ Fix (commit 882eaf5, +cd22d3e): foto del hero como <img> real ACOTADO (aspect-4/3 object-cover, no
-full-viewport) eager + fetchpriority=high + preload, above-the-fold en mobile (mismo patrón que hace
-que /packages/ puntúe 93). + prerender de la home + variantes 4:3 (static/hero-stage*.webp). El score
-real es ~93; la intermitencia NO_LCP/93 entre corridas es varianza del laboratorio de PSI (no bug).
-
-Writeup completo para agentes: docs/home-no-lcp-investigation.md
-
-
--- ❌ Mejoras del curso de SEO de Peter Raventos (anotado 2026-09-28)
-
 Revisión del curso gratis de SEO de Peter Raventos (Peterlid) contra el repo, verificada en el
 código el 2026-09-28. Lo que el curso pide y MEG ya tiene no se toca: title y meta únicos, schema,
 FAQ, llms.txt, sitemaps, WebP/AVIF, CSS inline, precios visibles, enlaces del blog a los paquetes,
@@ -340,106 +155,102 @@ f) Medios para PR (verificados el 2026-09-28). Se pitchea una historia de un pos
    - The Olive Press, Malaga: https://www.theolivepress.es/spain-news/category/andalucia/malaga/
    - Euro Weekly News, Costa del Sol: https://euroweeklynews.com/news/spain/costa-del-sol/
    - EuroWeekly News: https://en.wikipedia.org/wiki/EuroWeekly_News
+=== FIN #T0017 ===
 
+=== TAREA #T0023 ===
+Estado: pendiente
+Prioridad: media
+Título: Keyword del idioma en el cuerpo de las traducciones anteriores al 2026-09-28
+Anotada: 2026-09-28
+Origen: migrada
+Nota: prioridad por defecto
+---
+Desde lighting-ideas-for-wedding-rentals, cada traducción usa su keyword del mapa de contenido
+en el cuerpo (primer párrafo y conclusión), no solo en título y meta. Los posts traducidos antes
+no lo cumplen en todos los idiomas: confirmado en outdoor-wedding-rental-considerations (0
+apariciones en el cuerpo en los 12 idiomas). Revisar con un script (keyword sin la ciudad,
+contada después de </script>) todos los posts traducidos y sumar la keyword donde falte, sin
+mover fechas si solo se integra la keyword en una frase existente.
+=== FIN #T0023 ===
 
--- ❌ "Malaga, Spain" en lo ya traducido (anotado 2026-09-26)
+=== TAREA #T0024 ===
+Estado: pendiente
+Prioridad: media
+Título: Etapa de corrección de las traducciones de posts
+Anotada: 2026-09-28
+Origen: migrada
+Nota: prioridad por defecto
+---
+Decisión del usuario (2026-09-28): desde all-in-one-wedding-rental-packages se traduce sin
+/code-review para publicar e indexar antes. Cuando estén todos los posts traducidos, se hace una
+pasada de corrección/actualización de todos los posts traducidos sin review (desde all-in-one en
+adelante, en el orden de post-order), con /code-review por post. Keyword y slug se siguen
+revisando antes del commit porque cambiarlos después de indexar obliga a redirects. Hallazgos ya
+conocidos, pendientes de corregir en esa pasada:
+- all-in-one-wedding-rental-packages:
+  - "VAT added at checkout" traducido como "al cerrar la reserva" en los 9 idiomas latinos: usar
+    la forma de los hermanos (fr "au moment du paiement", it "al momento del pagamento", de "beim
+    Bezahlen", nl "bij het afrekenen", pt "no pagamento", da "ved betalingen", sv/nb "i kassan/i
+    kassen").
+  - fr ~60: "Si un fournisseur peut le proposer, il apparaît ... comme s'il nous appartenait": el
+    "il" remite al proveedor. Usar "cela apparaît" o "l'article apparaît ... comme s'il était à nous".
+  - zh-hans/zh-tw/zh-hk ~74: pie de la foto 1628 dice que las luces están SOBRE la mesa. Es una mesa
+    BAJO las luces (头顶挂着星光灯串 / 上方掛著星星燈串). Mismo patrón en eco-friendly (revisar).
+  - zh-tw ~23 y ~47: 暖色LED燈帶 debe ser 暖色LED燈串 (como `src/lib/i18n/data/zh-tw.ts`).
+  - nl ~64: alt de la foto 1636 con compuestos partidos. Usar el de nl/unique-wedding-ceremony-rentals
+    ("Een huwelijksceremonie op het strand met een rode loper als gangpad en een bloemenboog.").
+    Mismo alt en nl/eco-friendly (revisar).
+  - pt-pt ~31 y ~104: "um dos apenas dois pacotes" pasa a "um dos dois únicos pacotes".
+- Foto 1269 (Hotel Alfonso XIII, Sevilla): el manifest dice "The lectern and staging Malaga
+  Event Gear supplied" (alt: atril con marca sobre tarima negra). Pero 9 posts ingleses y sus
+  traducciones dicen "A grand stage ... complete with audio visual equipment", y 3 (corporate-
+  meetings, product-launches, seminars) "A screen and sound setup". En ese congreso MEG también
+  puso sonido (fotos 1275 y 1276), pero esta foto no muestra pantalla. CONFIRMAR con el negocio
+  qué suministró MEG en ese congreso y alinear los pies en inglés y los 12 idiomas.
+- Foto 1262 (manifest): el caption "The same outdoor evening event, seen from the dining tables."
+  arranca con "The same", que no remite a nada cuando la foto va sola o primera (religious-events y
+  sus 12 traducciones, que lo usan como título markdown). Cambiar a "An outdoor evening event,
+  seen from the dining tables." en el manifest y en las traducciones que lo copiaron.
+- weather-considerations-for-outdoor-rentals, de: el título "Wetterplanung beim Hochzeitsverleih in
+  Malaga unter freiem Himmel" se lee como si Malaga estuviera "a cielo abierto". Reordenar (el
+  título debe seguir conteniendo la keyword "Wetterplanung beim Hochzeitsverleih in Malaga").
+- how-to-compare-wedding-rental-quotes (y pros-and-cons, que usa la misma foto 1632): las fotos de
+  banco 1632 y 1637 en tamaño completo tienen caption en el manifest, así que la página inglesa
+  muestra 2 figcaptions y las traducciones 0 (llevan el pie "ilustrativo" como párrafo aparte). Si
+  se pone el caption del manifest como título markdown, `stock-photos.test.ts` falla porque no dice
+  "illustrative". Decidir: ¿el caption del manifest de las fotos de banco pasa a decir que es
+  ilustrativo (y se traduce como título), o las traducciones siguen sin figcaption?
+=== FIN #T0024 ===
 
-Decisión del usuario del 2026-09-26, regla en CLAUDE.md §5 ("Malaga, Spain"): la primera mención
-geográfica de Málaga en el cuerpo nombra el país, y la meta description también cuando entra en
-160 caracteres. Los 66 posts ingleses que faltan traducir se ajustan antes de su turno de
-traducción (en curso el 2026-09-26), así se traducen una sola vez. Queda la pasada sobre lo que
-YA está en los 13 idiomas, cada idioma con su forma ("Malaga, Spanien", "马拉加（西班牙）"):
-- Los 12 posts traducidos (inglés + 12 traducciones cada uno): event-technology-service,
-  audiovisual-equipment-rental-service, headset-lavalier-microphone-rental, stage-lighting-rental,
-  stage-uplighting, stage-lighting-for-weddings, smoke-machine-rental, wedding-rentals,
-  unique-wedding-ceremony-rentals, wedding-rentals-online, wedding-rentals-near-me,
-  tips-for-reducing-wedding-rental-costs.
-- Las páginas: seo.description y primera mención del cuerpo en src/routes/(public)/**/i18n/*.ts
-  (home, about-us, equipment, packages, contact, faq, meet-the-team). Las legales y el sitemap
-  HTML no hace falta.
-- Paquetes: seo y landing en packages.ts y src/lib/i18n/data/<locale>.ts, si hay mención de
-  Málaga que no diga el país.
-- Sin bumpear fechas: aclarar el país no es un cambio de contenido (regla 11).
-De paso, dos detalles previos que encontró el traductor del post 12:
-- src/lib/i18n/data/fr.ts e it.ts dicen "Malaga capitale" (ambiguo, se lee como capital de
-  país). Debe ser la ciudad ("la ville de Malaga", "la città di Malaga").
-- En italiano el sitio mezcla "finca" (invariable, lo normativo) y "fincas" (it/data y
-  it/unique-wedding-ceremony-rentals.svx). Unificar en "finca".
+=== TAREA #T0025 ===
+Estado: pendiente
+Prioridad: media
+Título: CONFIRMAR: ¿la Billie Jean King Cup 2024 puede usarse como Experience sin post News?
+Anotada: 2026-09-28
+Origen: migrada
+Nota: prioridad por defecto
+---
+La regla 4 del posicionamiento (CLAUDE.md) dice que la Experience sale SOLO de los posts News, y
+que un caso sin su post News no se usa. La BJK Cup no tiene post News, pero su dato está confirmado
+(solo iluminación y sonido en la ceremonia de premiación) y se usa como caso en
+audio-visual-rental-for-sports-events (sección "Case Study") y audiovisual-equipment-rental-service
+(ya traducido). El 2026-09-28 se alinearon los textos al dato confirmado (22e151e) y se tradujo así.
+Decidir: sumar la BJK Cup a la lista de la regla 4 (o escribir su post News), o sacarla como
+Experience de esos dos posts y sus traducciones.
+Además: el manifest etiqueta las fotos 1196 y 1194 como "match play", y sus pies hablan del
+sonido "durante el campeonato" y "para jugadores y espectadores". El dato confirmado es solo luz
+y sonido en la ceremonia de premiación. Confirmar si MEG también puso sonido durante los partidos;
+si no, corregir esos dos pies (y el manifest) para que hablen solo de la ceremonia.
+=== FIN #T0025 ===
 
-
--- ❌ Orden de traducción de los posts (decisión del usuario, 2026-09-26)
-
-Primero el clúster de conferencias y eventos corporativos, después bodas, después el resto:
-1. Pilar audio-visual-rental (todos los posts corporativos cuelgan de él: el pilar se traduce
-   antes que sus supporting, para que los enlaces del silo salgan localizados). EN CURSO.
-2. Tipos de evento corporativo: conferences, corporate-events, corporate-meetings,
-   press-conferences, seminars, trade-shows, product-launches, training-sessions, gala-dinners,
-   remote-presentations, virtual-events. Los de la tanda 1 de TGE (conferences, corporate-events,
-   trade-shows) llevan antes su mención a TGE y su FAQ nueva en inglés.
-3. News corporativos: ProGold Summit 2026, ECOC 2026, Bmotion Benahavís, Bmotion Marbella (tanda 1
-   de TGE para los tres primeros).
-4. Bodas: siguen en pros-and-cons-of-wedding-rentals (el orden de post-order.txt).
-5. El resto (equipo, técnica, genéricos, planning-timeline, near me).
-Ya traducidos al 2026-09-26: los 12 posts de la lista de "Malaga, Spain en lo ya traducido" más
-questions-to-ask-wedding-rental-companies.
-
-
--- ❌ Qué hace el técnico: dos textos traducidos por revisar (anotado 2026-09-26)
-
-Hecho del negocio (CLAUDE.md, "Qué hace el técnico en el evento", 2026-09-26): opera el sonido y
-los micrófonos, resuelve fallas de proyector, pantalla y luces, y el switcher Kramer solo si se
-contrata. Ya corregidos en el cambio de ese día: audio-visual-rental, event-technology-service,
-technical-support-for-events, video-switcher-rental, tv-screen-rental,
-latest-trends-in-wedding-rentals, el highlightBody del MICE Pack y el paso "run the show" de los
-diccionarios. Quedan dos textos traducidos a los 13 idiomas que rozan "opera las luces":
-- src/routes/(public)/packages/[slug]/i18n/<locale>.ts:32: "you can request a dedicated
-  sound/light engineer to stay at your venue". El técnico no es un iluminador.
-- stage-uplighting.svx:74, 101 y 155: "our technician manages the fixtures through your event",
-  "sets the color for your event on site", "checking and repositioning fixtures as needed".
-  Aclarar que el color se fija en el montaje y que el técnico resuelve si algo falla.
-Cada uno en inglés y en sus 12 traducciones en el mismo cambio, con sus fechas.
-
-
--- ❌ DECIDIR: portadas de banco en los 22 posts de bodas (anotado 2026-09-26)
-
-Hallazgo de la auditoría de imágenes (2d7e2c8). MEG no tiene fotos reales de bodas: las 12 de bodas
-son de banco (STOCK_PHOTO_IDS). Los 22 posts de la categoría Weddings usan una de ellas como
-coverImage. La portada no dice "este es nuestro evento", pero es la imagen principal del post (LCP),
-el og:image y la imagen del Article en JSON-LD, con el título del post como alt.
-src/lib/data/stock-photos.test.ts falla si un post usa una foto de banco como portada, con una
-excepción documentada para Weddings mientras esto no se decida.
-Opciones:
-1. Dejarlas así (la portada no afirma nada y el cuerpo ya dice que las fotos son ilustrativas).
-2. Usar de portada una foto real de MEG con sonido o iluminación hasta que haya fotos reales de
-   bodas, y quitar la excepción del test.
-3. Conseguir fotos reales de bodas de MEG (el negocio) y reemplazarlas.
-Posts y portada actual (id del CDN): all-in-one-wedding-rental-packages 1638,
-audio-visual-rental-for-weddings 1630, eco-friendly-wedding-rental-options 1635,
-essential-items-for-wedding-rentals 1632, how-to-choose-wedding-rentals 1629,
-how-to-compare-wedding-rental-quotes 1629, indoor-wedding-rental-essentials 1628,
-latest-trends-in-wedding-rentals 1628, lighting-ideas-for-wedding-rentals 1628,
-making-the-most-of-wedding-rentals 1638, managing-last-minute-wedding-rental-changes 1635,
-outdoor-wedding-rental-considerations 1631, pros-and-cons-of-wedding-rentals 1633,
-protecting-your-wedding-rental-items 1629, questions-to-ask-wedding-rental-companies 1630,
-timeline-for-booking-wedding-rentals 1628, tips-for-reducing-wedding-rental-costs 1637,
-unique-wedding-ceremony-rentals 1630, weather-considerations-for-outdoor-rentals 1625,
-wedding-rentals-near-me 1633, wedding-rentals-online 1630, wedding-rentals 1638.
-
-
--- ❌ Textos de imágenes de los 12 posts ya traducidos, desde los metadatos nuevos (anotado 2026-09-26)
-
-La auditoría de imágenes (2d7e2c8) reescribió título, alt, pie y ubicación de las 95 imágenes en
-scripts/migrate-wp/manifest.json. Los posts que se traduzcan desde ahora toman de ahí el alt y el
-pie de cada imagen, traducidos. Los 12 posts ya traducidos (lista en "Malaga, Spain en lo ya
-traducido", arriba) se tradujeron con los textos viejos: revisar en sus 12 idiomas que el alt y el
-pie de cada foto real digan lo mismo que el manifest (evento y lugar reales, "provincia de Málaga"
-cuando no hay localidad, Sevilla donde es Sevilla). Ya corregido el 2026-09-26: las fotos 1272,
-1331, 1296 y 1793 en event-technology-service, headset-lavalier-microphone-rental,
-stage-lighting-rental y stage-uplighting. Conviene hacerlo junto con la pasada de "Malaga, Spain".
-
-
--- ❌ CONFIRMAR: qué puso MEG en los eventos de las fotos 1289 y 1331 (anotado 2026-09-27)
-
+=== TAREA #T0026 ===
+Estado: pendiente
+Prioridad: media
+Título: CONFIRMAR: qué puso MEG en los eventos de las fotos 1289 y 1331
+Anotada: 2026-09-27
+Origen: migrada
+Nota: prioridad por defecto
+---
 Mismo problema que las fotos de Volvo (1266 y 1267, resuelto en 3957e9e): textos que describen
 algo que la foto no muestra.
 - 1289 (sala con luz rosa, cajas en pies y público; no se ve pantalla):
@@ -465,71 +276,119 @@ algo que la foto no muestra.
 Ya corregido en audio-visual-rental-for-remote-presentations (1289, 1331) y en
 audio-visual-rental-for-virtual-events (1304), que describen solo lo que se ve. Con la respuesta
 del usuario: corregir el resto en inglés, traducciones y manifest, en un solo cambio.
+=== FIN #T0026 ===
 
+=== TAREA #T0018 ===
+Estado: pendiente
+Prioridad: media
+Título: "Malaga, Spain" en lo ya traducido
+Anotada: 2026-09-26
+Origen: migrada
+Nota: prioridad por defecto
+---
+Decisión del usuario del 2026-09-26, regla en CLAUDE.md §5 ("Malaga, Spain"): la primera mención
+geográfica de Málaga en el cuerpo nombra el país, y la meta description también cuando entra en
+160 caracteres. Los 66 posts ingleses que faltan traducir se ajustan antes de su turno de
+traducción (en curso el 2026-09-26), así se traducen una sola vez. Queda la pasada sobre lo que
+YA está en los 13 idiomas, cada idioma con su forma ("Malaga, Spanien", "马拉加（西班牙）"):
+- Los 12 posts traducidos (inglés + 12 traducciones cada uno): event-technology-service,
+  audiovisual-equipment-rental-service, headset-lavalier-microphone-rental, stage-lighting-rental,
+  stage-uplighting, stage-lighting-for-weddings, smoke-machine-rental, wedding-rentals,
+  unique-wedding-ceremony-rentals, wedding-rentals-online, wedding-rentals-near-me,
+  tips-for-reducing-wedding-rental-costs.
+- Las páginas: seo.description y primera mención del cuerpo en src/routes/(public)/**/i18n/*.ts
+  (home, about-us, equipment, packages, contact, faq, meet-the-team). Las legales y el sitemap
+  HTML no hace falta.
+- Paquetes: seo y landing en packages.ts y src/lib/i18n/data/<locale>.ts, si hay mención de
+  Málaga que no diga el país.
+- Sin bumpear fechas: aclarar el país no es un cambio de contenido (regla 11).
+De paso, dos detalles previos que encontró el traductor del post 12:
+- src/lib/i18n/data/fr.ts e it.ts dicen "Malaga capitale" (ambiguo, se lee como capital de
+  país). Debe ser la ciudad ("la ville de Malaga", "la città di Malaga").
+- En italiano el sitio mezcla "finca" (invariable, lo normativo) y "fincas" (it/data y
+  it/unique-wedding-ceremony-rentals.svx). Unificar en "finca".
+=== FIN #T0018 ===
 
--- ✅ PRIMERO: textos de las imágenes de la galería traducidos y cargados según el idioma (anotado y HECHO 2026-09-25)
+=== TAREA #T0020 ===
+Estado: pendiente
+Prioridad: media
+Título: Qué hace el técnico: dos textos traducidos por revisar
+Anotada: 2026-09-26
+Origen: migrada
+Nota: prioridad por defecto
+---
+Hecho del negocio (CLAUDE.md, "Qué hace el técnico en el evento", 2026-09-26): opera el sonido y
+los micrófonos, resuelve fallas de proyector, pantalla y luces, y el switcher Kramer solo si se
+contrata. Ya corregidos en el cambio de ese día: audio-visual-rental, event-technology-service,
+technical-support-for-events, video-switcher-rental, tv-screen-rental,
+latest-trends-in-wedding-rentals, el highlightBody del MICE Pack y el paso "run the show" de los
+diccionarios. Quedan dos textos traducidos a los 13 idiomas que rozan "opera las luces":
+- src/routes/(public)/packages/[slug]/i18n/<locale>.ts:32: "you can request a dedicated
+  sound/light engineer to stay at your venue". El técnico no es un iluminador.
+- stage-uplighting.svx:74, 101 y 155: "our technician manages the fixtures through your event",
+  "sets the color for your event on site", "checking and repositioning fixtures as needed".
+  Aclarar que el color se fija en el montaje y que el técnico resuelve si algo falla.
+Cada uno en inglés y en sus 12 traducciones en el mismo cambio, con sus fechas.
+=== FIN #T0020 ===
 
-Hecho el 2026-09-25: bloque `gallery` en src/lib/i18n/data/<locale>.ts (40 alt por idioma, clave =
-URL de la imagen), galleryAlt() en src/lib/i18n/gallery-alt.svelte.ts leído por ImageMarquee, y
-guards en localized-completeness.test.ts y tests/gallery-alt.prod.spec.ts. Cubre las páginas
-principales y todos los posts traducidos, publicados y futuros. Auditoría del punto 4: las
-portadas usan el título del post (traducido), las imágenes de paquete el nombre del paquete (no se
-traduce), og:image:alt el título de la página y el ImageObject no tiene caption ni name. Sin hueco.
-Fechas de frescura sin mover (decisión: son textos alternativos, no contenido. Mover unas 150
-fechas le enseñaría a los rastreadores a desconfiar de lastmod).
+=== TAREA #T0021 ===
+Estado: pendiente
+Prioridad: media
+Título: DECIDIR: portadas de banco en los 22 posts de bodas
+Anotada: 2026-09-26
+Origen: migrada
+Nota: prioridad por defecto
+---
+Hallazgo de la auditoría de imágenes (2d7e2c8). MEG no tiene fotos reales de bodas: las 12 de bodas
+son de banco (STOCK_PHOTO_IDS). Los 22 posts de la categoría Weddings usan una de ellas como
+coverImage. La portada no dice "este es nuestro evento", pero es la imagen principal del post (LCP),
+el og:image y la imagen del Article en JSON-LD, con el título del post como alt.
+src/lib/data/stock-photos.test.ts falla si un post usa una foto de banco como portada, con una
+excepción documentada para Weddings mientras esto no se decida.
+Opciones:
+1. Dejarlas así (la portada no afirma nada y el cuerpo ya dice que las fotos son ilustrativas).
+2. Usar de portada una foto real de MEG con sonido o iluminación hasta que haya fotos reales de
+   bodas, y quitar la excepción del test.
+3. Conseguir fotos reales de bodas de MEG (el negocio) y reemplazarlas.
+Posts y portada actual (id del CDN): all-in-one-wedding-rental-packages 1638,
+audio-visual-rental-for-weddings 1630, eco-friendly-wedding-rental-options 1635,
+essential-items-for-wedding-rentals 1632, how-to-choose-wedding-rentals 1629,
+how-to-compare-wedding-rental-quotes 1629, indoor-wedding-rental-essentials 1628,
+latest-trends-in-wedding-rentals 1628, lighting-ideas-for-wedding-rentals 1628,
+making-the-most-of-wedding-rentals 1638, managing-last-minute-wedding-rental-changes 1635,
+outdoor-wedding-rental-considerations 1631, pros-and-cons-of-wedding-rentals 1633,
+protecting-your-wedding-rental-items 1629, questions-to-ask-wedding-rental-companies 1630,
+timeline-for-booking-wedding-rentals 1628, tips-for-reducing-wedding-rental-costs 1637,
+unique-wedding-ceremony-rentals 1630, weather-considerations-for-outdoor-rentals 1625,
+wedding-rentals-near-me 1633, wedding-rentals-online 1630, wedding-rentals 1638.
+=== FIN #T0021 ===
 
+=== TAREA #T0022 ===
+Estado: pendiente
+Prioridad: media
+Título: Textos de imágenes de los 12 posts ya traducidos, desde los metadatos nuevos
+Anotada: 2026-09-26
+Origen: migrada
+Nota: prioridad por defecto
+---
+La auditoría de imágenes (2d7e2c8) reescribió título, alt, pie y ubicación de las 95 imágenes en
+scripts/migrate-wp/manifest.json. Los posts que se traduzcan desde ahora toman de ahí el alt y el
+pie de cada imagen, traducidos. Los 12 posts ya traducidos (lista en "Malaga, Spain en lo ya
+traducido", arriba) se tradujeron con los textos viejos: revisar en sus 12 idiomas que el alt y el
+pie de cada foto real digan lo mismo que el manifest (evento y lugar reales, "provincia de Málaga"
+cuando no hay localidad, Sevilla donde es Sevilla). Ya corregido el 2026-09-26: las fotos 1272,
+1331, 1296 y 1793 en event-technology-service, headset-lavalier-microphone-rental,
+stage-lighting-rental y stage-uplighting. Conviene hacerlo junto con la pasada de "Malaga, Spain".
+=== FIN #T0022 ===
 
-VA ANTES que cualquier actualización o traducción de posts (decisión del usuario, 2026-09-25): así
-cada post que se traduzca o actualice desde ahora sale ya con los textos de sus imágenes en su
-idioma, y no hay que volver a tocarlo.
-
-El problema: src/lib/data/gallery.ts tiene 41 imágenes con alt SOLO en inglés, y ese alt se
-muestra igual en los 13 idiomas. CLAUDE.md, "Reglas de traducción", exige traducir todo lo textual
-de una imagen. Ningún test lo detecta. Alcance medido el 2026-09-25:
-- Páginas principales publicadas en los 13 idiomas que usan la galería: la home, /equipment/,
-  /packages/, cada página de paquete (/packages/[slug]/) y /meet-the-team/.
-- Posts: 71 posts ingleses usan el carrusel ImageMarquee. En los 8 ya traducidos, las 96 páginas
-  traducidas muestran los alt en inglés. wedding-rentals usa deferMount={false}, así que en esa
-  página los alt ingleses están además en el HTML servido.
-
-Qué hay que hacer:
-1. Metadatos de cada imagen de la galería traducidos a los 12 idiomas (hoy es el alt. Si la
-   galería suma pie o título, van igual), con el inglés como fuente, siguiendo el patrón de la
-   copia de paquetes: traducciones por idioma, cargadas bajo demanda, sin que una página descargue
-   los otros 12 idiomas.
-2. ImageMarquee y cada página que use la galería leen el texto del idioma de la página, en el HTML
-   servido (prerender), no solo en el cliente.
-3. Un test que falle si una página traducida sirve un alt de la galería en inglés, y otro que
-   exija que cada imagen de la galería tenga su texto en los 13 idiomas (misma idea que
-   src/lib/i18n/localized-completeness.test.ts).
-4. Revisar en el mismo cambio las otras fuentes de texto de imágenes por si tienen el mismo
-   hueco: alt de la portada de cada post, alt de las imágenes de paquetes, og:image:alt y
-   twitter:image:alt, y el caption y name del ImageObject en el JSON-LD.
-5. Es un cambio de código (componente, datos y tests): TDD estricto, test primero. Actualizar
-   CLAUDE.md ("Arquitectura" de i18n) con dónde viven las traducciones de la galería.
-
-
--- ✅ CONFIRMAR: ¿la foto blog/2278 es de un evento de MEG? (anotado y RESUELTO 2026-09-25)
-
-Respuesta del usuario (2026-09-25): no es un evento de MEG, es una imagen genérica que representa
-los servicios. Resuelto el mismo día: alt, pie y metadatos la describen como foto ilustrativa y
-aclaran que no es un evento de MEG, en la galería (13 idiomas), en los 3 posts que la muestran y
-en scripts/migrate-wp/manifest.json. Regla que queda: una foto genérica nunca se presenta como
-trabajo de MEG.
-
-La imagen https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1*.webp
-muestra un salón de conferencias grande con pantallas de proyección fijas en el techo y una cámara
-en trípode. Parece una foto de banco de imágenes, pero se publica como setup de MEG ("audio visual
-setup for virtual and hybrid events", "camera equipment setup for audio visual rental for virtual
-events in Malaga") en la galería, en audio-visual-rental-for-seminars, tv-screen-rental,
-audio-visual-hire-near-me-in-malaga-spain y como portada de audio-visual-rental-for-conferences.
-Si no es de MEG, presentarla como trabajo propio es un problema de Trust (PDF de Google, E-E-A-T):
-cambiarla por una foto real de MEG, o describirla sin atribuirla. Si es de MEG, confirmar qué
-equipo puso MEG, porque MEG no tiene cámaras.
-
-
--- ❌ Billie Jean King Cup 2024 sin post News (anotado 2026-09-25)
-
+=== TAREA #T0029 ===
+Estado: pendiente
+Prioridad: media
+Título: Billie Jean King Cup 2024 sin post News
+Anotada: 2026-09-25
+Origen: migrada
+Nota: prioridad por defecto
+---
 Decisión del usuario del 2026-09-25 (CLAUDE.md, "Posicionamiento", regla 4): la Experience
 publicada sale SOLO de los posts News del blog. La Billie Jean King Cup 2024 no tiene post News:
 hoy solo se menciona en audio-visual-rental-for-sports-events.svx y
@@ -556,10 +415,16 @@ Málaga, España) y sumarlo como Experience de MEG. Antes de escribirlo:
 Formato: siloRole news, targetPage "/", categoría News, en los 13 idiomas en el mismo cambio. Al
 publicarlo, sumarlo a la lista de la regla 4 de CLAUDE.md y enlazarlo desde las dos menciones
 actuales.
+=== FIN #T0029 ===
 
-
--- ❌ Keyword de event-technology-service que se pisa con stage-lighting-rental (anotado 2026-09-25)
-
+=== TAREA #T0030 ===
+Estado: pendiente
+Prioridad: media
+Título: Keyword de event-technology-service que se pisa con stage-lighting-rental
+Anotada: 2026-09-25
+Origen: migrada
+Nota: prioridad por defecto
+---
 Hallazgo del code-review del post stage-lighting-rental. En 6 idiomas la keyword y el slug de
 event-technology-service se tradujeron como "luz y escenario para eventos", porque el post
 inglés habla de iluminación, tarimas y técnico, y eso se pisa con la keyword del pilar de
@@ -577,49 +442,16 @@ publicadas y obliga a redirects 301 por idioma. Revisar con datos de GSC por idi
 (consultas donde las dos páginas aparecen). Si se confirma la canibalización, re-keyear
 event-technology-service en esos 6 idiomas con redirect del slug viejo, en el mismo cambio que su
 actualización de TGE (tanda 1).
+=== FIN #T0030 ===
 
-
--- ✅ Reescribir los "no ofrecemos" con el posicionamiento de soluciones integrales (anotado y HECHO 2026-09-25)
-
-Hecho el 2026-09-25, en tandas con code-review cada una: a940450 (2 pilares, 13 idiomas),
-9a1e175 (silo de iluminación y micros, 13 idiomas), 289a0db y a0a2e30 (14 posts ingleses),
-ce70193 (FAQ de cámaras y streaming, 13 idiomas), 6a53f6f (resto del blog inglés, más zona de
-servicio con Sevilla y datos de paquetes corregidos en unos 40 posts). smoke-machine-rental lo hizo
-la otra sesión (8a72d06). La guía de reescritura con todas las lecciones quedó en el scratchpad de
-la sesión (negation-rewrite-guide.md) y resumida en engram (content/negation-rewrite-*).
-
-
-Decisión del usuario del 2026-09-25 (CLAUDE.md, "Posicionamiento: soluciones integrales para
-eventos"): MEG resuelve lo que el evento necesite, con equipo propio o de proveedores. Lo que no
-está en el inventario propio ya no se cierra con un "no ofrecemos". Se escribe: "no está en
-nuestro inventario propio, contanos qué necesitás y buscamos la solución con nuestros
-proveedores", sin prometer disponibilidad.
-Alcance medido el 2026-09-25 sobre los posts ingleses: 37 posts con 130 negaciones del tipo "we
-don't offer / provide / supply / stock / rent" o una sección "What We Don't Offer/Stock", más 2
-en src/lib/data/faq.ts. Revisar también equipment/+page.svelte, llms.txt y las copias de página.
-Reglas para la revisión:
-- NO todas cambian. Siguen igual las que describen hechos: lo que MEG tiene (una sola máquina de
-  humo, sin DMX ni cabezas móviles, un solo panel de 60 pulgadas), lo que hizo en un evento
-  pasado (Billie Jean King Cup: solo iluminación y sonido) y los límites de servicio (entrega sin
-  retiro en local, atención solo en inglés y español, zona de servicio).
-- Cambian las que le cierran la puerta al cliente ("we don't offer video walls"). Pasan a la
-  regla 2, sin dar marca, modelo, cantidad ni precio de lo que se conseguiría.
-- Cada post se edita en inglés y en todas sus traducciones en el mismo cambio. Los que todavía no
-  están traducidos, antes de su turno en post-order.txt (mismo criterio que la mención a TGE y
-  las FAQs nuevas: una sola edición por post).
-- Ya traducidos a hoy: event-technology-service, audiovisual-equipment-rental-service,
-  headset-lavalier-microphone-rental, stage-lighting-rental, stage-uplighting y, al commitearse,
-  stage-lighting-for-weddings. Sus secciones "What We Don't Offer/Stock" necesitan la edición en
-  los 13 idiomas.
-- PREGUNTA ABIERTA al usuario: hacerlo ahora, antes de seguir traduciendo (así lo que falta se
-  traduce una sola vez), o después.
-- Hecho: smoke-machine-rental (2026-09-25), en inglés antes de su turno de traducción. Haze,
-  humo bajo, humo de color y máquinas extra pasan a la regla 2. Los hechos quedan igual (una sola
-  máquina, sin alquiler suelto).
-
-
--- ❌ Copia del sitio: el mínimo de 400 euros se lee como si aplicara a Sevilla (anotado 2026-09-25)
-
+=== TAREA #T0032 ===
+Estado: pendiente
+Prioridad: media
+Título: Copia del sitio: el mínimo de 400 euros se lee como si aplicara a Sevilla
+Anotada: 2026-09-25
+Origen: migrada
+Nota: prioridad por defecto
+---
 Regla (.agents/BUSINESS.md sección 3, site.ts serviceAreas): Sevilla con cobertura completa y sin
 mínimo, Granada solo con reservas de más de 400 euros sin IVA. Los posts ingleses se corrigieron en
 la reescritura del 2026-09-25. Quedan dos frases ambiguas en copia que se publica en 13 idiomas:
@@ -631,10 +463,16 @@ la reescritura del 2026-09-25. Quedan dos frases ambiguas en copia que se public
   sugiere que hay otros destinos con mínimo.
 Arreglo: reescribir las dos en inglés y en los 12 idiomas en el mismo cambio, con la fecha de la
 página o del paquete actualizada (regla de frescura).
+=== FIN #T0032 ===
 
-
--- ❌ Reverse silo: posts de soporte sin enlace a sus hermanos (anotado 2026-09-25)
-
+=== TAREA #T0033 ===
+Estado: pendiente
+Prioridad: media
+Título: Reverse silo: posts de soporte sin enlace a sus hermanos
+Anotada: 2026-09-25
+Origen: migrada
+Nota: prioridad por defecto
+---
 Hallazgo del code-review de stage-lighting-for-weddings. CLAUDE.md exige que cada post de soporte
 enlace a sus hermanos adyacentes, en los dos sentidos. En el silo stage lighting se arregló el
 2026-09-25 (bodas enlaza a stage-uplighting y a smoke-machine-rental, y stage-uplighting enlaza a
@@ -661,10 +499,16 @@ src/lib/data/silo-cycle-debt.ts (así pasó con stage-lighting-for-weddings y sm
 que se sumaron a la línea base el 2026-09-25). Arreglo propuesto, con test primero: aceptar la
 componente cuando sus enlaces son todos recíprocos y forman un camino (n - 1 pares, grado máximo
 2), y seguir marcando todo lo demás.
+=== FIN #T0033 ===
 
-
--- ❌ Posts existentes: mención a TGE + FAQs nuevas, en todos los idiomas (anotado 2026-09-25, revisado el mismo día)
-
+=== TAREA #T0034 ===
+Estado: pendiente
+Prioridad: media
+Título: Posts existentes: mención a TGE + FAQs nuevas, en todos los idiomas
+Anotada: 2026-09-25
+Origen: migrada
+Nota: prioridad por defecto
+---
 VA ANTES que "Contenido pendiente: congresos y eventos corporativos" (más abajo). Pedido del
 usuario: actualizar los posts publicados con contenido relevante que enlace a Top Group Express
 (TGE, ver TGE.txt) y le pase autoridad.
@@ -798,10 +642,16 @@ vecinal (evento de barrio), el news del sitio nuevo y el standalone.
 Después, cuando exista la página de partner (idea 23 de la sección siguiente), los posts pueden
 seguir enlazando directo a TGE. La página de partner no se crea solo para enlazar (política
 citada arriba).
+=== FIN #T0034 ===
 
-
--- ❌ Contenido pendiente: congresos y eventos corporativos (anotado 2026-09-25)
-
+=== TAREA #T0035 ===
+Estado: pendiente
+Prioridad: media
+Título: Contenido pendiente: congresos y eventos corporativos
+Anotada: 2026-09-25
+Origen: migrada
+Nota: prioridad por defecto
+---
 Origen: TGE.txt §8.2 (ideas con el partner Top Group Express), ampliado a pedido del usuario con
 foco en congresos y eventos corporativos. Nada de esto está escrito ni aprobado todavía.
 
@@ -1003,3 +853,556 @@ Descartadas, y por qué:
   - `costa del sol convention`: casi todo es ruido (convenciones sin relación con eventos).
   - `dmc malaga`, `event planner malaga` y `event company malaga` como páginas propias: intención
     de directorio, y la última canibaliza audio-visual-rental-company.
+=== FIN #T0035 ===
+
+=== TAREA #T0001 ===
+Estado: pendiente
+Prioridad: media
+Título: Ok, con respecto a la gestión de errores en el lead form submit:
+Anotada: sin fecha
+Origen: migrada
+Nota: estado por confirmar (tenía "❌ ✅"), título tomado de la primera línea, prioridad por defecto
+---
+Ok, con respecto a la gestión de errores en el lead form submit:
+
+Autocompletar los campos del formulario de Contacto según lo especificado en el Lead Form
+
+En la descripción del formulario de Contacto, en la descripción (debajo del Submitted details:), añade la URL del paquete que se está solicitando (por ejemplo: https://malagaeventgear.com/packages/eco/)
+
+Hace falta persistir los errores en la base de datos, de forma tal que se pueda consultar desde la administración en el futuro.
+
+Modela la base de datos de forma tal que se pueda escalar en el futuro.
+Persiste los errores mediante /api/v1/error-tracking
+
+Verifica que se persistan los leads y sus respuestas en la base de datos, así como el estado de los envíos de correos, etc...
+=== FIN #T0001 ===
+
+=== TAREA #T0002 ===
+Estado: pendiente
+Prioridad: media
+Título: Comments
+Anotada: sin fecha
+Origen: migrada
+Nota: estado por confirmar (tenía "❌ ✅"), prioridad por defecto
+---
+=== FIN #T0002 ===
+
+=== TAREA #T0003 ===
+Estado: pendiente
+Prioridad: media
+Título: Tracking Google Analytics & Cloudflare Zaraz
+Anotada: sin fecha
+Origen: migrada
+Nota: estado por confirmar (tenía "❌ ✅"), prioridad por defecto
+---
+=== FIN #T0003 ===
+
+=== TAREA #T0004 ===
+Estado: pendiente
+Prioridad: media
+Título: Error tracking
+Anotada: sin fecha
+Origen: migrada
+Nota: estado por confirmar (tenía "❌ ✅"), prioridad por defecto
+---
+Verifica también la persistencia en la base de datos, de forma tal que se pueda persistir los errores de forma tal que se pueda 
+
+
+✅ Navbar oculta
+
+✅ Our Packages dinámico
+
+✅ Fix tables, <ul>, ...
+
+---
+
+✅ Crear múltiples componentes reutilizables de lista continua de imágenes animadas (desplazándose continuamente como una tira continua)
+
+- Lista con todas las imágenes (Home page - 1 vez)
+- Lista de imágenes relevantes para cada paquete (página de cada paquete - 1 vez)
+
+Use Plan mode y SDD
+
+---
+
+✅ Crea el componente Share This (algo como el plugin de Mediavine: Grow)
+
+https://www.grow.me/publishers/quick-start-guide/
+
+Para compartir en:
+WhatsApp
+Facebook
+Twitter
+Pinterest
+LinkedIn
+Email
+
+---
+
+✅ Click to Tweet (select texto a twittear)
+
+
+Sección de comentarios
+=== FIN #T0004 ===
+
+=== TAREA #T0007 ===
+Estado: pendiente
+Prioridad: media
+Título: PWA Installer.
+Anotada: sin fecha
+Origen: migrada
+Nota: estado por confirmar (tenía "❌ ✅"), prioridad por defecto
+---
+Añade full support para PWA
+
+Crea un PWA Installer (widget) que va a salir debajo del widget de WhatsApp y encima de la Cookie bar, pero solamente 3 segundos luego que el usuario haya hecho scroll below the fold (debajo de la sección header).
+=== FIN #T0007 ===
+
+=== TAREA #T0008 ===
+Estado: pendiente
+Prioridad: media
+Título: Cookie Banner
+Anotada: sin fecha
+Origen: migrada
+Nota: estado por confirmar (tenía "❌ ✅"), prioridad por defecto
+---
+Cookie Banner con configuración (toggles) en la página `/cookie-policy/
+
+Vamos a utilizar Cloudflare Zaraz para gestionar las cookies y los tags.
+
+Actualiza la información referente e integra la funcionalidad según la preferencia del usuario. 
+=== FIN #T0008 ===
+
+=== TAREA #T0009 ===
+Estado: pendiente
+Prioridad: media
+Título: OpenGraph
+Anotada: sin fecha
+Origen: migrada
+Nota: estado por confirmar (tenía "❌ ✅"), prioridad por defecto
+---
+Añade soporte para OpenGraph según corresponda.
+=== FIN #T0009 ===
+
+=== TAREA #T0015 ===
+Estado: pendiente
+Prioridad: media
+Título: Performance /blog/ (PSI móvil 66 -> objetivo 85+)
+Anotada: sin fecha
+Origen: migrada
+Nota: estado por confirmar (tenía "❌ ✅"), prioridad por defecto
+---
+Diagnóstico (Lighthouse propio contra nuevo.malagaeventgear.com/blog/, 2026-06-10):
+
+CORRECCIÓN a la nota anterior de /packages/: el challenge-platform de Bot Fight Mode SÍ afecta el score, y mucho. jsd/main.js consume 5,333ms de CPU (throttle 4x), con un long task de 2,669ms ANTES del FCP -> por eso TBT=0 y no aparece como culpable. El desglose del LCP lo confirma: element render delay 1,750ms = 67% del LCP (la imagen ya descargó pero el main thread está ocupado). Está inyectado en producción Y staging.
+
+✅ Aplicado (repo): re-compresión de los rungs 600w/700w de covers de q82 a q70 + cwebp -m 6 (~-31% por imagen: LCP image 52.2KB -> 36.6KB). Scripts gen-cover-variants.ts (ahora con QUALITY/FORCE env) y gen-cover-thumbs.ts (dedup de rungs por ancho). Archivos ya subidos a R2 + cover-thumbs.json regenerado.
+
+PENDIENTE (Cloudflare dashboard, NO repo):
+
+1. Purge de cache CDN: los 78 rungs regenerados mantienen el mismo nombre con max-age=1y -> el edge sigue sirviendo los viejos. Caching > Configuration > Purge by URL (máx 30 por tanda), lista completa en __utils/purge-cover-rungs.txt.
+
+2. Bot Fight Mode / JavaScript Detections: Off (Security > Bots). Vale ~25-30 puntos de PSI en /blog/. Los formularios ya están protegidos por Turnstile; BFM solo aporta anti-scraping genérico. DECISIÓN PENDIENTE del usuario (evaluar tradeoff seguridad/performance).
+
+3. (Opcional) Zaraz s.js aparece en staging sin cache TTL (7KB): revisar si se está usando; si no, desactivarlo.
+
+Verificación tras deploy + purge + toggle: npx lighthouse https://malagaeventgear.com/blog/ --only-categories=performance --form-factor=mobile -> objetivo FCP <2.5s, LCP <3s, score >=85. (nuevo.malagaeventgear.com fue dado de baja, ya no resuelve; usar producción o localhost:4173).
+=== FIN #T0015 ===
+
+=== TAREA #T0019 ===
+Estado: pendiente
+Prioridad: media
+Título: Orden de traducción de los posts (decisión del usuario, 2026-09-26)
+Anotada: sin fecha
+Origen: migrada
+Nota: prioridad por defecto
+---
+Primero el clúster de conferencias y eventos corporativos, después bodas, después el resto:
+1. Pilar audio-visual-rental (todos los posts corporativos cuelgan de él: el pilar se traduce
+   antes que sus supporting, para que los enlaces del silo salgan localizados). EN CURSO.
+2. Tipos de evento corporativo: conferences, corporate-events, corporate-meetings,
+   press-conferences, seminars, trade-shows, product-launches, training-sessions, gala-dinners,
+   remote-presentations, virtual-events. Los de la tanda 1 de TGE (conferences, corporate-events,
+   trade-shows) llevan antes su mención a TGE y su FAQ nueva en inglés.
+3. News corporativos: ProGold Summit 2026, ECOC 2026, Bmotion Benahavís, Bmotion Marbella (tanda 1
+   de TGE para los tres primeros).
+4. Bodas: siguen en pros-and-cons-of-wedding-rentals (el orden de post-order.txt).
+5. El resto (equipo, técnica, genéricos, planning-timeline, near me).
+Ya traducidos al 2026-09-26: los 12 posts de la lista de "Malaga, Spain en lo ya traducido" más
+questions-to-ask-wedding-rental-companies.
+=== FIN #T0019 ===
+
+=== TAREA #T0038 ===
+Estado: pendiente
+Prioridad: baja
+Título: Pregunta FAQ en /blog/sound-system-rental/: "How much does it cost to rent sound equipment in Malaga?"
+Anotada: 2026-09-29
+Origen: content-strategist (plan 2026-09-29, ítem 11)
+---
+Archivo: src/content/blog/sound-system-rental.svx
+Keywords: how much does it cost to rent sound equipment (ubersuggest newFaq linked to keywordId audiovisual-equipment-rental-service, no volume or impressions given)
+Qué cubrir: Answer using only the five package prices already published in this same post's 'Choosing Your Sound System by Guest Count' table: Eco Pack 290 euros up to 50 guests, Basic MICE Pack 295 euros up to 40 guests, Wedding Pack 650 euros up to 80 guests with a technician, MICE Pack 490 euros up to 120 guests with a technician up to 6 hours, Product Presentation Pack 310 euros with no guest cap, all ex VAT with 21 percent Spanish VAT added at checkout. Do not add a new number, only restate the table already on this page.
+Por qué: Best answered by /blog/sound-system-rental/, not the audiovisual-equipment-rental-service page the tool linked it to, since sound-system-rental is where the actual package pricing table lives. Checked its FAQ list: it has no direct 'how much does it cost' question even though the Brief Overview and the guest count table already state the numbers, so this is a real gap, not a duplicate.
+Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate.
+=== FIN #T0038 ===
+
+=== TAREA #T0039 ===
+Estado: pendiente
+Prioridad: baja
+Título: Pregunta FAQ en /blog/audiovisual-equipment-rental-service/: "What is a gooseneck microphone?"
+Anotada: 2026-09-29
+Origen: content-strategist (plan 2026-09-29, ítem 18)
+---
+Archivo: src/content/blog/audiovisual-equipment-rental-service.svx
+Keywords: What is a gooseneck microphone? (research-paa newFaq linked to keywordId headset-lavalier-microphone-rental)
+Qué cubrir: Define a gooseneck microphone as a flexible neck microphone fixed to a lectern or podium stand for a speaker who stays in one place. Then state MEG's own professional gooseneck microphones, deployed on the Basic MICE Pack (the podium microphone) and the MICE Pack (gooseneck plus a wireless handheld), per this page's 'Wireless and Gooseneck Microphone Systems' section and the sound-system-rental package table. Do not claim a gooseneck mic is available as a standalone rental outside those packages.
+Por qué: The tool linked this to /blog/headset-lavalier-microphone-rental/, but that post compares lavalier and headset mics and only mentions gooseneck mics in passing. The actual gooseneck content lives on /blog/audiovisual-equipment-rental-service/ under its 'Wireless and Gooseneck Microphone Systems' heading, which has no definitional FAQ yet. Checked both posts' FAQ lists, neither already asks this question.
+Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate.
+=== FIN #T0039 ===
+
+=== TAREA #T0040 ===
+Estado: pendiente
+Prioridad: baja
+Título: Pregunta FAQ en /blog/audiovisual-equipment-rental-service/: "Why do some corporate setups use two microphones at the podium?"
+Anotada: 2026-09-29
+Origen: content-strategist (plan 2026-09-29, ítem 19)
+---
+Archivo: src/content/blog/audiovisual-equipment-rental-service.svx
+Keywords: Why does a podium sometimes have two microphones? (research-paa newFaq linked to keywordId headset-lavalier-microphone-rental)
+Qué cubrir: Answer using MEG's own MICE Pack, which pairs a fixed gooseneck microphone for the podium address with a separate wireless handheld microphone so a presenter can step away for Q&A or hand it to another speaker, per this page's 'Wireless and Gooseneck Microphone Systems' section and the sound-system-rental package table. Describe this as MEG's own setup, not a universal AV convention, and do not invent a reason beyond what those two microphones are documented to do.
+Por qué: Generic AV trivia as written, but MEG has a real, documented answer through its own MICE Pack setup, so it is reframed around that fact rather than answered as an abstract industry convention. Placed on /blog/audiovisual-equipment-rental-service/ next to the gooseneck definition FAQ from this same plan, since both draw on the same 'Wireless and Gooseneck Microphone Systems' section. Checked the post's FAQ list, no existing question covers this.
+Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate.
+=== FIN #T0040 ===
+
+=== TAREA #T0041 ===
+Estado: pendiente
+Prioridad: baja
+Título: Pregunta FAQ en /blog/tv-screen-rental/: "What screen size do I need for my conference room?"
+Anotada: 2026-09-29
+Origen: content-strategist (plan 2026-09-29, ítem 20)
+---
+Archivo: src/content/blog/tv-screen-rental.svx
+Keywords: What screen size do I need for my conference room? (research-paa newFaq linked to keywordId tv-screen-rental)
+Qué cubrir: State honestly that MEG's own inventory has one screen size, the 60 inch high definition LED display on the MICE Pack, which reads clearly as a single panel in a conference room without needing a darkened space, per this page's 'TV Screen or Projector: Which One Does Your Event Need?' section. For a room too large for one panel to read across, point to the projector rental guide's 3000 and 5000 lumen tiers instead. Do not invent additional screen sizes MEG does not stock.
+Por qué: Checked /blog/tv-screen-rental/'s FAQ list: it answers 'What screen sizes are available?' and 'Do you rent a 55 inch screen?' but never frames the answer around a conference room specifically, which the 'TV Screen or Projector' section addresses only indirectly. Real gap, not a duplicate.
+Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate.
+=== FIN #T0041 ===
+
+== HECHAS ==
+
+=== TAREA #T0042 ===
+Estado: hecha
+Prioridad: baja
+Título: Descartadas por content-strategist el 2026-09-29
+Anotada: 2026-09-29
+Hecha: 2026-09-29
+Origen: content-strategist (plan 2026-09-29, descartes)
+---
+audiovisual rental (All seven phrases are synonyms of the pillar's own core intent (rent AV equipment in Malaga), including the Spanish variant. Checked /blog/audio-visual-rental/, whose frontmatter keyword is literally 'audio visual rental' and whose 'Discover Premium Audio Visual Rental Services in Malaga' and 'Audio Visual Equipment We Rent in Malaga' sections already cover this exact intent at pillar breadth. A new heading on the pillar or a new supporting post would only restate the pillar's own subject and risks cannibalizing it.)
+malaga wedding packages all inclusive (Same intent as /blog/all-in-one-wedding-rental-packages/, whose frontmatter keyword ('all in one wedding rental packages') is a direct synonym and whose 'What "All in One" Means for the Wedding Pack' and 'What's Included, at 650 Euros' sections already answer it. The page already ranks at position 8.11 for this intent, confirming coverage. Also checked /blog/wedding-rentals/ pillar for overlap, no conflict.)
+sound and light rental (Checked /blog/audio-visual-rental/: the 'Audio Visual Equipment We Rent in Malaga' H2 already bundles Sound and Lighting as two of its four listed building blocks, and the 'Dynamic Lighting and Sound Systems for Unforgettable Experiences' H3 under the Wedding and Eco Packs section covers the same bundled sound plus lighting intent. A new heading with this exact phrase would only repeat what those two sections already say, so no section added.)
+rental sound equipment (All five are synonyms of 'sound system rental'. Checked /blog/sound-system-rental/, whose frontmatter keyword is that exact synonym and whose FAQs already answer 'Can I rent just speakers, without a microphone or technician?', 'What type of microphone do I need for my event?' and the PA-system-equals-sound-system equivalence. Creating a second page for the same intent, or a near duplicate mic-and-speaker page, would cannibalize this post.)
+audiovisual events spain (Out of market per the Fit check. MEG's documented service area, per /blog/audio-visual-rental/'s 'Serving Malaga and the Whole Costa del Sol' section, is Malaga, the Costa del Sol towns, Sevilla, Granada, Ronda, Nerja and Antequera, not the whole of Spain. Targeting 'Spain' nationally would overpromise coverage MEG does not provide, against the Honestidad rule, so no section or post is proposed.)
+screen rental (Ambiguous between a projection screen and the TV/LED display, both already covered. Checked /blog/projector-rental/ (FAQ: 'Can I rent just a projection screen, without a projector?', 'Is a screen included with the projector, or sold separately?') and /blog/tv-screen-rental/ (FAQ: 'Can I rent multiple TV screens for one event?', pricing table). Both intents behind this generic phrase are already answered, so no new heading.)
+iluminacion eventos malaga (Spanish for 'event lighting Malaga', a head term as broad as the pillar itself. Checked /blog/stage-lighting-rental/, whose own keyword and 'The Full Stage Lighting Roster' section already cover this intent at pillar breadth for the whole stage lighting rental silo. This is a broad head term for the eventual Spanish locale translation of that pillar, not a new English heading.)
+how to save money on wedding rentals (Checked /blog/tips-for-reducing-wedding-rental-costs/, whose entire subject (right sizing Eco vs Wedding Pack to save 360 euros, add on discipline, the Granada minimum, asking the venue about its own PA) is this exact intent, just phrased as 'reducing costs' rather than 'saving money'. No heading uses the literal phrase, but the whole page already answers it, so a new heading would only repeat the page's own Brief Overview and Key Highlights.)
+what is considered audio visual equipment (Covered by /blog/audio-visual-rental/, heading 'What is audio visual equipment?' in its FAQ section, same question in meaning.)
+where to rent sound equipment (Same local intent as the 'rental sound equipment near me' item in this same plan, which adds a 'Booking and Service Area' section to /blog/sound-system-rental/. Resolved there rather than as a separate FAQ, to avoid two near-identical answers on the same page.)
+How many lumens do I need for a conference room projector? (Covered by /blog/projector-rental/, FAQ 'What brightness or lumens do I need for a daylit or brightly lit room?', same sizing question in different words; a conference room is a typically lit room in this post's own framing.)
+What AV equipment do you need for a conference? (Covered verbatim by /blog/audio-visual-rental-for-conferences/, FAQ 'What AV equipment is needed for a conference?'.)
+What is a run of show for a corporate event? (Covered verbatim by /blog/audio-visual-rental-for-corporate-events/, FAQ 'What is a run of show for a corporate event?'.)
+How far in advance should I book AV for a congress? (Covered by /blog/event-technology-service/, FAQ 'How Far in Advance Should I Book Event Technology for My Event?'. A congress is one event type among several this generic lead time answer already applies to; no MEG-specific congress fact exists to justify a separate question.)
+=== FIN #T0042 ===
+
+=== TAREA #T0027 ===
+Estado: hecha
+Prioridad: media
+Título: PRIMERO: textos de las imágenes de la galería traducidos y cargados según el idioma
+Anotada: 2026-09-25
+Hecha: 2026-09-25
+Origen: migrada
+---
+Hecho el 2026-09-25: bloque `gallery` en src/lib/i18n/data/<locale>.ts (40 alt por idioma, clave =
+URL de la imagen), galleryAlt() en src/lib/i18n/gallery-alt.svelte.ts leído por ImageMarquee, y
+guards en localized-completeness.test.ts y tests/gallery-alt.prod.spec.ts. Cubre las páginas
+principales y todos los posts traducidos, publicados y futuros. Auditoría del punto 4: las
+portadas usan el título del post (traducido), las imágenes de paquete el nombre del paquete (no se
+traduce), og:image:alt el título de la página y el ImageObject no tiene caption ni name. Sin hueco.
+Fechas de frescura sin mover (decisión: son textos alternativos, no contenido. Mover unas 150
+fechas le enseñaría a los rastreadores a desconfiar de lastmod).
+
+
+VA ANTES que cualquier actualización o traducción de posts (decisión del usuario, 2026-09-25): así
+cada post que se traduzca o actualice desde ahora sale ya con los textos de sus imágenes en su
+idioma, y no hay que volver a tocarlo.
+
+El problema: src/lib/data/gallery.ts tiene 41 imágenes con alt SOLO en inglés, y ese alt se
+muestra igual en los 13 idiomas. CLAUDE.md, "Reglas de traducción", exige traducir todo lo textual
+de una imagen. Ningún test lo detecta. Alcance medido el 2026-09-25:
+- Páginas principales publicadas en los 13 idiomas que usan la galería: la home, /equipment/,
+  /packages/, cada página de paquete (/packages/[slug]/) y /meet-the-team/.
+- Posts: 71 posts ingleses usan el carrusel ImageMarquee. En los 8 ya traducidos, las 96 páginas
+  traducidas muestran los alt en inglés. wedding-rentals usa deferMount={false}, así que en esa
+  página los alt ingleses están además en el HTML servido.
+
+Qué hay que hacer:
+1. Metadatos de cada imagen de la galería traducidos a los 12 idiomas (hoy es el alt. Si la
+   galería suma pie o título, van igual), con el inglés como fuente, siguiendo el patrón de la
+   copia de paquetes: traducciones por idioma, cargadas bajo demanda, sin que una página descargue
+   los otros 12 idiomas.
+2. ImageMarquee y cada página que use la galería leen el texto del idioma de la página, en el HTML
+   servido (prerender), no solo en el cliente.
+3. Un test que falle si una página traducida sirve un alt de la galería en inglés, y otro que
+   exija que cada imagen de la galería tenga su texto en los 13 idiomas (misma idea que
+   src/lib/i18n/localized-completeness.test.ts).
+4. Revisar en el mismo cambio las otras fuentes de texto de imágenes por si tienen el mismo
+   hueco: alt de la portada de cada post, alt de las imágenes de paquetes, og:image:alt y
+   twitter:image:alt, y el caption y name del ImageObject en el JSON-LD.
+5. Es un cambio de código (componente, datos y tests): TDD estricto, test primero. Actualizar
+   CLAUDE.md ("Arquitectura" de i18n) con dónde viven las traducciones de la galería.
+=== FIN #T0027 ===
+
+=== TAREA #T0028 ===
+Estado: hecha
+Prioridad: media
+Título: CONFIRMAR: ¿la foto blog/2278 es de un evento de MEG?
+Anotada: 2026-09-25
+Hecha: 2026-09-25
+Origen: migrada
+---
+Respuesta del usuario (2026-09-25): no es un evento de MEG, es una imagen genérica que representa
+los servicios. Resuelto el mismo día: alt, pie y metadatos la describen como foto ilustrativa y
+aclaran que no es un evento de MEG, en la galería (13 idiomas), en los 3 posts que la muestran y
+en scripts/migrate-wp/manifest.json. Regla que queda: una foto genérica nunca se presenta como
+trabajo de MEG.
+
+La imagen https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1*.webp
+muestra un salón de conferencias grande con pantallas de proyección fijas en el techo y una cámara
+en trípode. Parece una foto de banco de imágenes, pero se publica como setup de MEG ("audio visual
+setup for virtual and hybrid events", "camera equipment setup for audio visual rental for virtual
+events in Malaga") en la galería, en audio-visual-rental-for-seminars, tv-screen-rental,
+audio-visual-hire-near-me-in-malaga-spain y como portada de audio-visual-rental-for-conferences.
+Si no es de MEG, presentarla como trabajo propio es un problema de Trust (PDF de Google, E-E-A-T):
+cambiarla por una foto real de MEG, o describirla sin atribuirla. Si es de MEG, confirmar qué
+equipo puso MEG, porque MEG no tiene cámaras.
+=== FIN #T0028 ===
+
+=== TAREA #T0031 ===
+Estado: hecha
+Prioridad: media
+Título: Reescribir los "no ofrecemos" con el posicionamiento de soluciones integrales
+Anotada: 2026-09-25
+Hecha: 2026-09-25
+Origen: migrada
+---
+Hecho el 2026-09-25, en tandas con code-review cada una: a940450 (2 pilares, 13 idiomas),
+9a1e175 (silo de iluminación y micros, 13 idiomas), 289a0db y a0a2e30 (14 posts ingleses),
+ce70193 (FAQ de cámaras y streaming, 13 idiomas), 6a53f6f (resto del blog inglés, más zona de
+servicio con Sevilla y datos de paquetes corregidos en unos 40 posts). smoke-machine-rental lo hizo
+la otra sesión (8a72d06). La guía de reescritura con todas las lecciones quedó en el scratchpad de
+la sesión (negation-rewrite-guide.md) y resumida en engram (content/negation-rewrite-*).
+
+
+Decisión del usuario del 2026-09-25 (CLAUDE.md, "Posicionamiento: soluciones integrales para
+eventos"): MEG resuelve lo que el evento necesite, con equipo propio o de proveedores. Lo que no
+está en el inventario propio ya no se cierra con un "no ofrecemos". Se escribe: "no está en
+nuestro inventario propio, contanos qué necesitás y buscamos la solución con nuestros
+proveedores", sin prometer disponibilidad.
+Alcance medido el 2026-09-25 sobre los posts ingleses: 37 posts con 130 negaciones del tipo "we
+don't offer / provide / supply / stock / rent" o una sección "What We Don't Offer/Stock", más 2
+en src/lib/data/faq.ts. Revisar también equipment/+page.svelte, llms.txt y las copias de página.
+Reglas para la revisión:
+- NO todas cambian. Siguen igual las que describen hechos: lo que MEG tiene (una sola máquina de
+  humo, sin DMX ni cabezas móviles, un solo panel de 60 pulgadas), lo que hizo en un evento
+  pasado (Billie Jean King Cup: solo iluminación y sonido) y los límites de servicio (entrega sin
+  retiro en local, atención solo en inglés y español, zona de servicio).
+- Cambian las que le cierran la puerta al cliente ("we don't offer video walls"). Pasan a la
+  regla 2, sin dar marca, modelo, cantidad ni precio de lo que se conseguiría.
+- Cada post se edita en inglés y en todas sus traducciones en el mismo cambio. Los que todavía no
+  están traducidos, antes de su turno en post-order.txt (mismo criterio que la mención a TGE y
+  las FAQs nuevas: una sola edición por post).
+- Ya traducidos a hoy: event-technology-service, audiovisual-equipment-rental-service,
+  headset-lavalier-microphone-rental, stage-lighting-rental, stage-uplighting y, al commitearse,
+  stage-lighting-for-weddings. Sus secciones "What We Don't Offer/Stock" necesitan la edición en
+  los 13 idiomas.
+- PREGUNTA ABIERTA al usuario: hacerlo ahora, antes de seguir traduciendo (así lo que falta se
+  traduce una sola vez), o después.
+- Hecho: smoke-machine-rental (2026-09-25), en inglés antes de su turno de traducción. Haze,
+  humo bajo, humo de color y máquinas extra pasan a la regla 2. Los hechos quedan igual (una sola
+  máquina, sin alquiler suelto).
+=== FIN #T0031 ===
+
+=== TAREA #T0005 ===
+Estado: hecha
+Prioridad: media
+Título: Package (redesign)
+Anotada: sin fecha
+Origen: migrada
+---
+En la página específica de cada uno de los paquetes hace falta
+
+Rediseñar el layout enfocado en conversiones (CRO)
+
+Añadir un formulario de contacto para la solicitud del servicio
+
+Guardar la información de cada uno de los leads que entren por los formularios
+
+Crear una Thank You page (con un diseño profesional) para traquear cada conversión. Luego se va a integrar con el CRM, Cloudflare Zaraz y Google Analytics.
+
+El storage que se utilice debe estar normalizado para ser utilizado posteriormente en el CRM. En el futuro vamos a implementar nuestro propio CRM, por el momento hay que garantizar que se vayan guardando los leads. Vamos a utilizar Resend (resend.com) tanto para el CRM como para el envío del correo mediante el formulario. Implementar integración con sus respectivos tests desde ahora.
+
+Se debe almacenar toda la información del lead entrante (formulario de solicitud)
+
+Se debe de crear una especie de plantilla para enviar el correo según la información proporcionada por el lead a 1+ destinatarios.
+
+Una vez que el lead entre en el formulario, se va a enviar:
+
+1. Correo para el lead confirmando la recepción del formulario
+2. Correo a 1+ destinatarios con la información del lead (hace falta poder definir de alguna manera los destinatarios)
+
+En el futuro se pueden añadir más pasos, así que hace falta implementar algún sistema de trackeo del estado de cada uno de los pasos por lead
+
+Al día siguiente del evento, se va a enviar un correo a los leads que han contratado el servicio preguntando por una reseña en Google My Business (link para solicitar review: https://g.page/r/Cc8g7neiciATEBM/review).
+QR para pedir reseña física en static/gmb_review.jpeg
+
+Hace falta un sistema que trackee si el cliente hace clic en el link de review para no seguir mandándoselo, de lo contrario, mandarle un recordatorio al día siguiente. Hacerlo durante 3 días máximo con un día de por medio.
+
+Antes del footer, hace falta incluir una sección con los reviews de Google My Business en forma de carrusel. Reutilizar el existente en el Home.
+
+Usa SDD: Automático + openspec
+=== FIN #T0005 ===
+
+=== TAREA #T0006 ===
+Estado: hecha
+Prioridad: media
+Título: Packages / (filtros)
+Anotada: sin fecha
+Origen: migrada
+---
+En la página Packages, actualmetne las tarjetas se muestran de forma estática (siempre son las mismas)
+
+Quiero añadir la funcionalidad que se muestren de forma dinámica mediante unos filtros que van a estar en la parte derecha como si fuera un ecommerce
+
+1. Hace falta crear una estructura de datos persistente donde se almacene la información de cada paquete (nombre, precio, descripción, imágenes, etc.). Estas van a servir como filtros.
+
+2. Crear los filtros correspondientes a la izquierda de la página como si fuera un ecommerce.
+
+3. Las tarjetas se van a renderizar en función de los valores de los filtros. Inicialmente no hay filtros aplicados, por lo que se mostrarán todos los paquetes.
+=== FIN #T0006 ===
+
+=== TAREA #T0010 ===
+Estado: hecha
+Prioridad: media
+Título: Sitemaps
+Anotada: sin fecha
+Origen: migrada
+---
+Descarga en __utils/sitemaps/
+
+https://malagaeventgear.com/sitemap_index.xml
+https://malagaeventgear.com/post-sitemap.xml
+https://malagaeventgear.com/page-sitemap.xml
+https://malagaeventgear.com/category-sitemap.xml
+https://malagaeventgear.com/author-sitemap.xml
+
+Crea la misma estructura para los sitemaps del sitio
+=== FIN #T0010 ===
+
+=== TAREA #T0011 ===
+Estado: hecha
+Prioridad: media
+Título: Datos estructurados
+Anotada: sin fecha
+Origen: migrada
+---
+Añadir a .agents/STRUCTURED_DATA.md lo siguiente las siguientes referencias para los datos estructurados:
+
+---
+
+Añadir los datos estructurados a nivel de sitio web según corresponda siguiendo .agents/STRUCTURED_DATA.md.
+
+Añadir al @CLAUDE.md la norma de que cada página tiene sus datos estructurados según el tipo de contenido que sea.
+
+Hay datos estructurados que son globales (a nivel de sitio web, y otros a nivel de página/post/paquete, etc.). Hay que crear un mecanismo para gestionar esta estructura.
+
+Hace falta crear una especie de fichero de configuración que contenga la información necesaria para llenar los datos estructurados.
+
+Cada tipo de contenido tiene sí o sí que llevar los siguientes datos estructurados según se relaciona en [STRUCTURED_DATA.md](file;file:///Users/hlorenzoz/databank/Development/%5BMEG%20-%20Malaga%20Event%20Gear%20%28malagaeventgear.com%29%5D/projects/website/.agents/STRUCTURED_DATA.md) .
+
+La información debe ser tomada de un único fichero de configuración que contenga toda la información necesaria del sitio para llenar los datos estructurados.
+=== FIN #T0011 ===
+
+=== TAREA #T0012 ===
+Estado: hecha
+Prioridad: media
+Título: Añade la regla al @CLAUDE.md  que cada URL debe terminar en /
+Anotada: sin fecha
+Origen: migrada
+Nota: título tomado de la primera línea
+---
+Añade la regla al @CLAUDE.md  que cada URL debe terminar en /
+
+Corrige las URLs actuales y sus respectivas referencias
+=== FIN #T0012 ===
+
+=== TAREA #T0013 ===
+Estado: hecha
+Prioridad: media
+Título: Tenemos que implementar la siguiente estructura de URL para los paquetes:
+Anotada: sin fecha
+Origen: migrada
+Nota: título tomado de la primera línea
+---
+Tenemos que implementar la siguiente estructura de URL para los paquetes:
+
+/packages/
+/packages/eco/
+/packages/wedding/
+/packages/product-presentation/
+/packages/basic-mice/
+/packages/mice/
+
+En /packages/ hacer un directorio con los diferentes paquetes con la misma información que en /pricing pero presentados en forma de carrusel
+
+Actualizar todas las referencias existentes.
+
+Ten en cuenta que este proyecto es una migración de un sitio que está en producción y que tiene sus URLs propias, por lo que hay que implementar algún mecanismo donde se persistan todas las redirecciones permanentes (301) desde las URL antiguas a las nuevas.
+=== FIN #T0013 ===
+
+=== TAREA #T0014 ===
+Estado: hecha
+Prioridad: media
+Título: Performance páginas de paquete (CRO) + Forced reflow
+Anotada: sin fecha
+Origen: migrada
+---
+Optimización de performance de /packages/[slug]/ (críticas para conversión). Score mobile 71 -> muy mejorado.
+
+Aplicado (repo): inlineStyleThreshold 102400 (inline del CSS de ~83KB sin comprimir, cero render-blocking), defer de IntersectionObservers a rAF + eliminado el MutationObserver global, self-host de fuentes (woff2 latin) + preload de ambas + font-display: optional, fuera Google Fonts/gstatic. Commits: 355645b, de263ad, 010b714, 5e2d17f, 08aefd3.
+
+Forced reflow (Unscored): TODO lo del repo está resuelto y verificado (trace local 4x CPU + Slow 4G, incluso en frío/aislado, no lo reproduce; 0 patrones write->read de geometría en el código). El residual [unattributed] ~44ms es del EDGE de Cloudflare: el challenge-platform de Bot Fight Mode / JavaScript Detections (/cdn-cgi/challenge-platform/, "Private Access Token challenge"), cross-origin -> por eso [unattributed] y prod-only.
+
+PENDIENTE (Cloudflare dashboard, NO repo): si no se necesita -> Security > Bots > Bot Fight Mode: Off (y/o Security > Settings > JavaScript Detections: Off). Confirmar re-corriendo PageSpeed, o midiendo el mismo build en la URL *.workers.dev sin proxy naranja. Es Unscored: no afecta el score.
+
+Detalle completo en docs/forced-reflow-investigation.md
+=== FIN #T0014 ===
+
+=== TAREA #T0016 ===
+Estado: hecha
+Prioridad: media
+Título: Home NO_LCP (PSI mobile: Performance Error! -> ~93)
+Anotada: sin fecha
+Origen: migrada
+---
+OJO: el NO_LCP del HOME NO era Bot Fight Mode. Con BFM en OFF el NO_LCP seguía, y la URL *.workers.dev
+(sin edge de Cloudflare) también daba NO_LCP. Causa real: el home no tenía ninguna <img> real
+above-the-fold; su backdrop full-viewport queda excluido del LCP por el Chrome de PSI pero retiene el
+slot de "largest paint" y suprime todo candidato más chico -> cero candidatos -> NO_LCP.
+
+✅ Fix (commit 882eaf5, +cd22d3e): foto del hero como <img> real ACOTADO (aspect-4/3 object-cover, no
+full-viewport) eager + fetchpriority=high + preload, above-the-fold en mobile (mismo patrón que hace
+que /packages/ puntúe 93). + prerender de la home + variantes 4:3 (static/hero-stage*.webp). El score
+real es ~93; la intermitencia NO_LCP/93 entre corridas es varianza del laboratorio de PSI (no bug).
+
+Writeup completo para agentes: docs/home-no-lcp-investigation.md
+=== FIN #T0016 ===
