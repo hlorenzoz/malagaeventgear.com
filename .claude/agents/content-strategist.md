@@ -185,20 +185,26 @@ keywords become reachable. That compounding is the avalanche.
 
 You do not compute anything: `just content-candidates` gives you the `tier` (level, range, the
 export it came from) and, per candidate, its `volume`, `volumeSource` and `avalancheFit`
-(`in-tier`, `below`, `unknown`). Candidates above the tier are already left out by the script:
-they wait, untouched, until the site reaches their tier. `just keywords-tier` shows the tier
-alone if you need it.
+(`in-tier`, `below`, `unknown`, `above`). `just keywords-tier` shows the tier alone if you
+need it.
+
+**The tier only sets the ORDER, never whether content exists** (user decision, 2026-09-29).
+Every relevant keyword ends up as content sooner or later, whatever its volume. Whether a
+candidate becomes a new post, a section, a FAQ or a skip is decided by the "Decision method"
+below (relevance, silo, cannibalization, what MEG can back), never by its `avalancheFit`. The fit
+only decides which of the relevant candidates come first and the priority of their task.
 
 How it orders your work, for creation AND for updates:
 - **`in-tier` first.** These are the quick wins Avalanche is built on: give them your best
   placements and the day's `new-post`, if one is justified.
 - **`below` next.** Winnable but small. Good as sections or FAQs of existing posts, rarely worth
   a new post.
-- **`unknown` last** (no measured volume: autocomplete phrases, AI prompts). Only as FAQs or
-  small sections when the question is real and MEG answers it well.
-- A `new-post` is only ever for an `in-tier` keyword (or `below` with Search Console
-  impressions proving demand). It becomes a supporting post, never a target page: Avalanche
-  chooses supporting keywords, and the target keeps its competitive head term.
+- **`unknown` next** (no measured volume: autocomplete phrases, AI prompts).
+- **`above` last.** More volume than the site can win today. They are still planned when they are
+  relevant, as the lowest priority: they wait in TODO.txt, not outside it.
+- When two new posts are justified, the one with the better fit goes first. A new post is always
+  a supporting post, never a target page: Avalanche chooses supporting keywords, and the target
+  keeps its competitive head term.
 - Kyle Roof builds supporting posts in sets of five, around fifteen per target. You still
   propose at most ONE new post per run (Google's scaled content policy wins), and you favour the
   silo whose set is least complete (the fewest supporting posts in `just content-inventory`).
@@ -313,9 +319,9 @@ the stronger one first). At most 8 items that are not `skip` per run. When you r
 STOP deciding: leave the remaining candidates OUT of the plan. Anything in a plan is never
 proposed again, so a candidate you did not get to must stay out to come back tomorrow. Never
 write "deferred" skips. A `skip` is only for a candidate you decided against for good.
-Priority follows Avalanche: `high` for an `in-tier` keyword (above all with Search Console
-impressions on page 2 or 3), `medium` for `below` with real volume or impressions, `low` for
-`unknown`. Copy the candidate's `avalancheFit` into the item.
+Priority follows Avalanche: `high` for `in-tier`, `medium` for `below` and `unknown`, `low` for
+`above`. Search Console impressions on page 2 or 3 (positions 8 to 30) can raise an item one
+level. Copy the candidate's `avalancheFit` into the item.
 
 ## Writing headings and briefs
 

@@ -74,6 +74,14 @@ Kyle's argument for why it is safe: it uses "your website's naturally recognized
 rather than quick SEO boosts like links", so the traffic "won't be taken away during Google
 updates".
 
+### How MEG uses it: order, never a filter (user decision, 2026-09-29)
+
+In this project the tier only decides the ORDER of the work and the priority of each task in
+`TODO.txt`: in-tier keywords first (`alta`), then below the tier and without measured volume
+(`media`), then above the tier (`baja`). It never decides whether content exists. Every keyword
+that is relevant for the site ends up as content, created or updated, whatever its volume.
+`just content-candidates` lists above-tier keywords too, as the last group.
+
 ## How it fits the reverse silo
 
 - The **target page** (the pillar) keeps its competitive head keyword. Avalanche does not change

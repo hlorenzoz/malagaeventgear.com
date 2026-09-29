@@ -1232,8 +1232,12 @@ agentes globales leen la global por defecto.
   sus vecinos y todos enlazan hacia el target (el pilar), siempre con enlaces en el CUERPO del
   contenido (menú, sidebar y footer no cuentan). Kyle arma unos 15 supporting posts por target, en
   tandas de 5.
-- **Avalanche** decide QUÉ keywords atacan los supporting posts ahora: las que tienen un volumen
-  mensual dentro del traffic tier actual del sitio, porque son las que el sitio puede ganar rápido.
+- **Avalanche** decide EN QUÉ ORDEN se trabaja: primero las keywords con un volumen mensual
+  dentro del traffic tier actual del sitio, porque son las que el sitio puede ganar rápido. **El
+  tier solo prioriza, nunca filtra** (decisión del usuario, 2026-09-29): al final se crea o se
+  actualiza todo el contenido relevante para el sitio, tenga el volumen que tenga. Si una keyword
+  merece contenido lo deciden la documentación de Google, el silo, la canibalización y el
+  inventario, nunca el tier.
   El target mantiene su keyword principal, más competitiva. A medida que los supporting posts
   rankean, suben las impresiones, el sitio pasa al tier siguiente y el próximo lote de supporting
   posts puede apuntar a keywords de más volumen.
@@ -1244,8 +1248,8 @@ agentes globales leen la global por defecto.
   de posts, al revisar `TODO.txt` y al pedirle contenido a un agente.
 - Con cada export nuevo de GSC en `.agents/context/keywords/google-search-console-gsc/`: se
   recalcula el tier, porque cambia con el tráfico.
-- No se aplica a la keyword del target, ni a las secciones o FAQs que se agregan a posts que ya
-  existen (ahí manda la intención de búsqueda del post).
+- Ordena tanto la creación como la actualización: posts nuevos, secciones y FAQs de posts que ya
+  existen. No se aplica a la keyword del target.
 
 ### Cómo se procede
 
@@ -1253,9 +1257,11 @@ agentes globales leen la global por defecto.
    media entre el día más alto y el más bajo: `(máximo + mínimo) / 2`. Se busca ese valor en la
    tabla del tier de `avalanche-content-theory.md`. Se usan **impresiones**, no clics: POP cambió
    el método el 2024-03-21 (video de actualización en `sources/`).
-2. **Candidatas**: las keywords de `keywords.json` cuyo volumen mensual cae dentro del rango del
-   tier (`sources["google-ads"].stats.avgMonthlySearches` o `sources.ubersuggest.stats.volume`,
-   diciendo cuál se usó).
+2. **Orden**: primero las keywords de `keywords.json` cuyo volumen mensual cae dentro del rango
+   del tier (`sources["google-ads"].stats.avgMonthlySearches` o `sources.ubersuggest.stats.volume`,
+   diciendo cuál se usó), después las de menos volumen, las sin volumen medido y, al final, las de
+   más volumen que el tier. En `TODO.txt` eso es la prioridad: `alta` dentro del tier, `media`
+   debajo o sin volumen, `baja` encima.
 3. **Filtro de Google**: una keyword dentro del tier es una candidata, nunca una razón para escribir
    por sí sola. Pasa igual por todo lo que exige la documentación de Google en
    `.agents/context/seo/` (people first, sin scaled content, sin doorway pages) y por el inventario
@@ -1278,9 +1284,9 @@ cada export.
   nivel de la tabla (un valor igual al tope de un rango pasa al nivel siguiente). `just
   content-candidates` lo incluye (`tier`) y le suma a cada candidata `volume` (Ubersuggest primero,
   si no Google Ads), `volumeSource` y `avalancheFit` (`in-tier`, `below`, `above`, `unknown`). El
-  orden es dentro del tier, debajo, sin volumen, y dentro de cada grupo el de antes. Las de
-  `above` NO se listan (se cuentan en `totals.aboveTier`): lo planificado no se vuelve a proponer,
-  así que esperan intactas hasta que el tier suba. Sin zip de GSC, `tier` es `null`, todo es
+  orden es dentro del tier, debajo, sin volumen, encima del tier, y dentro de cada grupo el de
+  antes. Las de `above` también se listan, como último grupo (se cuentan en `totals.aboveTier`):
+  si son relevantes se planifican con prioridad `baja` y esperan en `TODO.txt`. Sin zip de GSC, `tier` es `null`, todo es
   `unknown` y `tierError` lo explica. El plan copia `run.tier` y `avalancheFit` por ítem, y el
   TODO los muestra. Sigue siendo una heurística de POP: Google manda.
 - **El enlace de vuelta del target (decidido el 2026-09-29).** Las diapositivas de Kyle Roof dibujan

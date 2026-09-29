@@ -8,9 +8,10 @@
  *
  * A candidate is a keyword still `idea` that no plan has looked at yet (no `content-plan`
  * source). Avalanche (POP): the traffic tier of the latest GSC export is computed here, each
- * candidate gets its monthly `volume` and an `avalancheFit`. Keywords ABOVE the tier are left out
- * (counted in `totals.aboveTier`): a planned keyword is never proposed again, so they wait until
- * the tier grows. Ranking: fit (in-tier, below, unknown), then `opportunity` (high, medium, low, null), GSC impressions, Google
+ * candidate gets its monthly `volume` and an `avalancheFit`. The tier only ORDERS the work, it
+ * never filters it: keywords ABOVE the tier are listed too, as the last group (counted in
+ * `totals.aboveTier`), because every relevant keyword ends up as content sooner or later.
+ * Ranking: fit (in-tier, below, unknown, above), then `opportunity` (high, medium, low, null), GSC impressions, Google
  * Ads average monthly searches, Ubersuggest volume, then id for a stable order. Only measured
  * numbers are shown: a keyword with none says "no measured data", never a guess.
  */
@@ -142,10 +143,8 @@ export function buildOpportunities(
 	tierError?: string
 ): OpportunitiesOutput {
 	const all = file.keywords.filter((k) => k.status === 'idea' && !k.sources['content-plan']);
-	const unplanned = all
-		.filter((k) => fitOf(k, tier) !== 'above')
-		.sort((a, b) => compareKeywords(a, b, tier));
-	const aboveTier = all.length - unplanned.length;
+	const unplanned = [...all].sort((a, b) => compareKeywords(a, b, tier));
+	const aboveTier = unplanned.filter((k) => fitOf(k, tier) === 'above').length;
 	const top = unplanned.slice(0, limit);
 	const topIds = new Set(top.map((k) => k.id));
 

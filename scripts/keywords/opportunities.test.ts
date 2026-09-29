@@ -139,22 +139,23 @@ describe('buildOpportunities with a traffic tier', () => {
 			tier100
 		);
 
-	it('exposes the tier and ranks in-tier, below, unknown', () => {
+	it('exposes the tier and ranks in-tier, below, unknown, above', () => {
 		const out = build();
 		expect(out.tier).toMatchObject({ level: 100, value: 149.5 });
 		expect(out.candidates.map((c) => [c.id, c.avalancheFit])).toEqual([
 			['e-in-high', 'in-tier'],
 			['d-in-low', 'in-tier'],
 			['c-below', 'below'],
-			['a-unknown', 'unknown']
+			['a-unknown', 'unknown'],
+			['b-above', 'above']
 		]);
 	});
 
-	it('drops above-tier keywords and counts them', () => {
+	it('keeps above-tier keywords as the last group and counts them', () => {
 		const out = build();
-		expect(out.candidates.some((c) => c.id === 'b-above')).toBe(false);
+		expect(out.candidates.at(-1)?.id).toBe('b-above');
 		expect(out.totals.aboveTier).toBe(1);
-		expect(out.totals.candidates).toBe(4);
+		expect(out.totals.candidates).toBe(5);
 	});
 
 	it('reports volume and its source, and the fit in the evidence', () => {

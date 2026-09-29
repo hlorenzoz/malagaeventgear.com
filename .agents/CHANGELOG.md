@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (keywords): el tier de Avalanche solo prioriza, nunca filtra
+- **Decisión del usuario (2026-09-29)**: el tier decide el orden del trabajo y la prioridad de cada tarea en `TODO.txt`, no si una keyword se convierte en contenido. Al final se crea o se actualiza todo el contenido relevante para el sitio, tenga el volumen que tenga.
+- **`opportunities.ts` (`just content-candidates`)**: las keywords por encima del tier ya no se descartan. Entran como último grupo (dentro, debajo, sin volumen, encima), y `totals.aboveTier` las sigue contando. Con el export del 2026-09-23 eran 19 de 813 candidatas que nunca llegaban al plan. Test actualizado (strict TDD).
+- **`content-strategist`**: se quita la regla que limitaba los posts nuevos a keywords dentro del tier. Nuevo post, sección, FAQ o skip se decide por relevancia, silo, canibalización e inventario. Prioridad: `high` dentro del tier, `medium` debajo o sin volumen, `low` encima.
+- **Docs**: `CLAUDE.md` (sección de POP) y `.agents/context/pop/avalanche-content-theory.md`.
+
 ### Added (keywords): `TODO.txt` con tareas en bloques, ordenado por `just todo-organize`
 - **Pedido del usuario (2026-09-29)**: que el planificador de contenido organice `TODO.txt`, con las terminadas al final y lo nuevo o sin terminar arriba, por prioridad. Para eso el archivo necesitaba una estructura que diga el estado de cada tarea y dónde empieza y termina su descripción.
 - **Formato** (`scripts/todo/todo-format.ts`, strict TDD): bloque `=== TAREA #T0041 ===` con `Estado`, `Prioridad`, `Título`, `Anotada`, `Hecha` (opcional), `Origen`, `Nota` (opcional), `---`, la descripción tal cual y `=== FIN #T0041 ===`. Secciones `== PENDIENTES ==` y `== HECHAS ==`. El parser también acepta las entradas a la antigua (`-- ❌ Título (anotado ...)`) y el texto suelto, y los normaliza (estado por los símbolos, prioridad `media` por defecto, fechas del paréntesis).
