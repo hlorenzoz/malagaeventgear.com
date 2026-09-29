@@ -6,6 +6,8 @@
  */
 import { describe, it, expect } from 'vitest';
 import { blogPostsToKeywords, type BlogPostInput } from './blog';
+import { mergeKeyword } from '../merge';
+import type { KeywordEntry } from '../schema';
 
 const TODAY = '2026-09-29';
 
@@ -96,5 +98,53 @@ describe('blogPostsToKeywords', () => {
 		});
 		const [entry] = blogPostsToKeywords([orphan], TODAY);
 		expect(entry.cluster).toBe('unassigned');
+	});
+});
+
+describe('closing a planned new-post item', () => {
+	it('turns the idea keyword into published once the post exists with that keyword', () => {
+		const idea: KeywordEntry = {
+			id: 'stage-riser-rental',
+			keyword: 'stage riser rental',
+			locale: 'en',
+			cluster: 'audio visual rental',
+			topic: null,
+			intent: null,
+			url: null,
+			status: 'idea',
+			reason: null,
+			sources: {
+				'content-plan': {
+					firstSeen: '2026-09-28',
+					lastSeen: '2026-09-28',
+					stats: {
+						asOf: '2026-09-28',
+						action: 'new-post',
+						targetUrl: '/blog/stage-riser-rental/',
+						priority: 'medium'
+					}
+				}
+			},
+			opportunity: null,
+			opportunityReason: null,
+			firstSeen: '2026-09-01',
+			lastResearched: null,
+			notes: ''
+		};
+		const [published] = blogPostsToKeywords(
+			[
+				post({
+					slug: 'stage-riser-rental',
+					keyword: 'stage riser rental',
+					siloRole: 'supporting',
+					targetPage: '/blog/audio-visual-rental/'
+				})
+			],
+			TODAY
+		);
+		const merged = mergeKeyword(idea, published);
+		expect(merged.status).toBe('published');
+		expect(merged.url).toBe('/blog/stage-riser-rental/');
+		expect(merged.sources['content-plan']).toBeDefined();
 	});
 });

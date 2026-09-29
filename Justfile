@@ -149,7 +149,50 @@ keywords-commit batch:
     git commit --no-verify -m "chore(keywords): daily Ubersuggest research $(basename "{{ batch }}" .json)" -- keywords.json "{{ batch }}"
     git log -1 --format='%h %s'
 
-# Instala el scheduler diario (plantilla de launchd) para correr keywords-research a las 09:00 y lo arranca ahora
+# ─── Agente de contenido (content-strategist) ─────────────────────────────────
+# Ver CLAUDE.md, "El agente de contenido (content-strategist)". Corre después del investigador de keywords.
+
+# Candidatas de contenido del día (keywords idea sin plan, ordenadas por señal). Entrada del agente: nunca abre keywords.json
+content-candidates n='20':
+    @bun scripts/keywords/opportunities.ts --limit {{ n }}
+
+# Inventario del blog inglés (posts, H2/H3, FAQs). Sin argumento, todo. Con `--cluster <cluster>` o solo `<cluster>`, un clúster
+content-inventory *args:
+    @bun scripts/keywords/content-inventory.ts {{ args }}
+
+# Valida el plan, regenera keywords.json (source content-plan y cierre de ideas ya cubiertas) y escribe la entrada en TODO.txt
+content-plan-apply plan:
+    bun scripts/keywords/plan-to-todo.ts --check "{{ plan }}"
+    bun scripts/keywords/sync.ts
+    bun scripts/keywords/plan-to-todo.ts "{{ plan }}"
+
+# Commitea SOLO keywords.json y el plan del día, después de correr los tests de keywords. NUNCA TODO.txt: lleva cambios sin
+# commitear de otra sesión. Mismo --no-verify y misma razón que keywords-commit.
+content-plan-commit plan:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    [[ "{{ plan }}" =~ ^\.agents/context/keywords/content-plan/[0-9]{4}-[0-9]{2}-[0-9]{2}\.json$ ]] || { echo "plan inválido: {{ plan }}" >&2; exit 1; }
+    bunx vitest run scripts/keywords
+    git add -- keywords.json "{{ plan }}"
+    git commit --no-verify -m "chore(keywords): daily content plan $(basename "{{ plan }}" .json)" -- keywords.json "{{ plan }}"
+    git log -1 --format='%h %s'
+
+# Corre el agente diario de contenido, con el mismo aislamiento que keywords-research: --setting-sources "" (ningún settings),
+# --strict-mcp-config con una config MCP VACÍA (no necesita ningún MCP), --permission-mode default y el mismo --disallowedTools.
+# El agente entra por --agents, generado desde su .md (scripts/keywords/agent-json.ts content-strategist).
+content-plan:
+    claude -p --agents "$(bun scripts/keywords/agent-json.ts content-strategist)" --agent content-strategist --model sonnet --setting-sources "" --mcp-config '{"mcpServers":{}}' --strict-mcp-config --permission-mode default --disallowedTools "Bash(git push:*),Bash(git reset:*),Bash(git checkout:*),Bash(git stash:*),Bash(git restore:*),Bash(rm:*)" --allowedTools "Read,Glob,Grep,Write(.agents/context/keywords/content-plan/**),Edit(.agents/context/keywords/content-plan/**),Bash(date:*),Bash(just content-candidates:*),Bash(just content-inventory:*),Bash(just content-plan-apply:*),Bash(just content-plan-commit:*)" --max-budget-usd 4 --output-format json "Run today's content planning."
+
+# Corrida diaria completa: investigación de keywords y, aunque esa falle, el plan de contenido. Es lo que programa launchd
+keywords-daily:
+    #!/usr/bin/env bash
+    set -uo pipefail
+    echo "=== keywords-research $(date +%F) ==="
+    just keywords-research || echo "keywords-research terminó con error, se sigue con el plan de contenido"
+    echo "=== content-plan $(date +%F) ==="
+    just content-plan
+
+# Instala el scheduler diario (plantilla de launchd) para correr keywords-daily a las 09:00 y lo arranca ahora
 keywords-schedule-install:
     @mkdir -p ~/Library/LaunchAgents; \
     dest=~/Library/LaunchAgents/com.malagaeventgear.keyword-research.plist; \

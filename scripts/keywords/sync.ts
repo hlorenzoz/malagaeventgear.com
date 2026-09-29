@@ -42,6 +42,8 @@ import { importGoogleAdsKeywords } from './importers/google-ads';
 import { importUbersuggestCsvKeywords } from './importers/ubersuggest-csv';
 import { importGbpKeywords } from './importers/gbp';
 import { importResearchMd } from './importers/research-md';
+import { importPlanCoverage } from './importers/plan-coverage';
+import { importContentPlans } from './importers/content-plan';
 
 const OUTPUT_PATH = join(process.cwd(), 'keywords.json');
 const UBERSUGGEST_BATCH_DIR = join(process.cwd(), '.agents', 'context', 'keywords', 'ubersuggest');
@@ -177,6 +179,17 @@ export async function runSync(serviceAreas: readonly string[]): Promise<SyncSumm
 	]) {
 		upsertAll(keywordsById, batch, mergeKeyword);
 	}
+
+	// 4. Closing the loop, after every keyword exists: an `idea` that a committed content plan
+	// asked to add (section or FAQ) and whose target post now has it becomes `covered`, then every
+	// committed plan is attached as the `content-plan` source. Neither moves a decided status
+	// (merge.ts identity lock), and nothing is covered by a mere coincidental heading.
+	const headingCoverage = importPlanCoverage([...keywordsById.values()], runDate);
+	upsertAll(keywordsById, headingCoverage, mergeKeyword);
+	const planEntries = importContentPlans(keywordsById);
+	upsertAll(keywordsById, planEntries, mergeKeyword);
+	perSource['plan-coverage'] = headingCoverage.length;
+	perSource['content-plan'] = planEntries.length;
 
 	const postFaqEntries = importPostFaqs(postInfoBySlug, runDate);
 	const siteFaqEntries = await importSiteFaqs(runDate);

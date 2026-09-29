@@ -154,6 +154,23 @@ const ubersuggestSourceSchema = z.object({
 });
 export type UbersuggestSource = z.infer<typeof ubersuggestSourceSchema>;
 
+/** The daily content plan (`plan.schema.ts`) that looked at this keyword: what the content
+ *  strategist decided (`action`), where (`targetUrl`) and how urgent. Latest plan wins. It never
+ *  moves the keyword's status: that stays with `sync.ts`/`merge.ts`. */
+const contentPlanSourceSchema = z.object({
+	firstSeen: dateOnly,
+	lastSeen: dateOnly,
+	stats: z
+		.object({
+			asOf: dateOnly,
+			action: z.enum(['add-section', 'new-post', 'add-faq', 'skip']),
+			targetUrl: z.string().nullable(),
+			priority: OpportunitySchema
+		})
+		.nullable()
+});
+export type ContentPlanSource = z.infer<typeof contentPlanSourceSchema>;
+
 /** blog / pop / gbp / research / google-autocomplete: no numeric stats of their own, just "this
  *  source has seen this keyword, between these dates". */
 const simpleSourceSchema = z.object({
@@ -170,7 +187,8 @@ export const SourcesSchema = z.object({
 	blog: simpleSourceSchema.optional(),
 	pop: simpleSourceSchema.optional(),
 	gbp: simpleSourceSchema.optional(),
-	research: simpleSourceSchema.optional()
+	research: simpleSourceSchema.optional(),
+	'content-plan': contentPlanSourceSchema.optional()
 });
 export type Sources = z.infer<typeof SourcesSchema>;
 export type SourceKey = keyof Sources;
@@ -183,7 +201,8 @@ export const SOURCE_KEYS: SourceKey[] = [
 	'blog',
 	'pop',
 	'gbp',
-	'research'
+	'research',
+	'content-plan'
 ];
 
 /** One keyword entry. `.superRefine` enforces the cross-field honesty rules: a rejected entry

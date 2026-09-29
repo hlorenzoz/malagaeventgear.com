@@ -1,11 +1,13 @@
 #!/usr/bin/env bun
 /**
- * agent-json.ts: prints `.claude/agents/keyword-researcher.md` as the JSON that
+ * agent-json.ts: prints `.claude/agents/<name>.md` (default `keyword-researcher`) as the JSON that
  * `claude --agents` takes. The scheduled run uses `--setting-sources ""` so that no settings
  * allowlist leaks into its permissions, and that also stops the CLI from loading project agents.
  * Converting the file on every run keeps the markdown as the only source of the agent.
  *
- * Usage: `bun scripts/keywords/agent-json.ts` (used by `just keywords-research`).
+ * Usage: `bun scripts/keywords/agent-json.ts [name-or-path]` (used by `just keywords-research` with
+ * no argument and by `just content-plan` with `content-strategist`). A bare name resolves to
+ * `.claude/agents/<name>.md`, anything with a `/` or ending in `.md` is taken as a path.
  */
 
 import { readFileSync } from 'node:fs';
@@ -57,7 +59,14 @@ export function agentMarkdownToJson(markdown: string): Record<string, AgentJson>
 	};
 }
 
+/** Pure: the agent file a CLI argument points to. */
+export function resolveAgentPath(arg: string | undefined, cwd: string): string {
+	const target = arg || 'keyword-researcher';
+	if (target.includes('/') || target.endsWith('.md')) return join(cwd, target);
+	return join(cwd, '.claude/agents', `${target}.md`);
+}
+
 if (import.meta.main) {
-	const path = join(process.cwd(), '.claude/agents/keyword-researcher.md');
+	const path = resolveAgentPath(process.argv[2], process.cwd());
 	console.log(JSON.stringify(agentMarkdownToJson(readFileSync(path, 'utf8'))));
 }

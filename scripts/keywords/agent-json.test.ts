@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { agentMarkdownToJson } from './agent-json';
+import { agentMarkdownToJson, resolveAgentPath } from './agent-json';
 
 const AGENT_MD = `---
 name: keyword-researcher
@@ -59,5 +59,107 @@ describe('the real keyword-researcher agent file', () => {
 		const mcpTools = agent.tools.filter((t) => t.startsWith('mcp__ubersuggest__'));
 		expect(mcpTools.length).toBeGreaterThan(0);
 		for (const tool of mcpTools) expect(justfile).toContain(tool);
+	});
+});
+
+describe('resolveAgentPath', () => {
+	it('defaults to the keyword researcher', () => {
+		expect(resolveAgentPath(undefined, '/repo')).toBe('/repo/.claude/agents/keyword-researcher.md');
+	});
+
+	it('resolves a bare name and takes a path as is', () => {
+		expect(resolveAgentPath('content-strategist', '/repo')).toBe(
+			'/repo/.claude/agents/content-strategist.md'
+		);
+		expect(resolveAgentPath('agents/x.md', '/repo')).toBe('/repo/agents/x.md');
+	});
+});
+
+const readRaw = (glob: Record<string, string>) => Object.values(glob)[0];
+const justfile = readRaw(
+	import.meta.glob('/Justfile', { query: '?raw', import: 'default', eager: true }) as Record<
+		string,
+		string
+	>
+);
+
+function recipe(name: string): string {
+	const start = justfile.indexOf(`\n${name}`);
+	expect(start, `recipe ${name} exists`).toBeGreaterThan(-1);
+	const rest = justfile.slice(start + 1);
+	const end = rest.search(/\n\S[^\n]*\n|\n#/);
+	return end > 0 ? rest.slice(0, end) : rest;
+}
+
+describe('the real content-strategist agent file', () => {
+	const files = import.meta.glob('/.claude/agents/content-strategist.md', {
+		query: '?raw',
+		import: 'default',
+		eager: true
+	}) as Record<string, string>;
+	const md = readRaw(files);
+
+	// The orchestrator writes this file: skip until it exists.
+	it.skipIf(!md)('lists only tools that the scheduled content-plan run allows', () => {
+		const agent = agentMarkdownToJson(md)['content-strategist'];
+		expect(agent.tools.length).toBeGreaterThan(0);
+		const run = recipe('content-plan:');
+		for (const tool of agent.tools) expect(run, tool).toContain(tool);
+	});
+});
+
+describe('the content-plan headless run and its scheduler', () => {
+	it('mirrors the keywords-research isolation flags with an empty MCP config', () => {
+		const run = recipe('content-plan:');
+		expect(run).toContain('--setting-sources ""');
+		expect(run).toContain('--strict-mcp-config');
+		expect(run).toContain(`--mcp-config '{"mcpServers":{}}'`);
+		expect(run).toContain('--permission-mode default');
+		expect(run).toContain('--agent content-strategist');
+		expect(run).toContain('agent-json.ts content-strategist');
+		expect(run).toContain('--max-budget-usd 4');
+		for (const denied of [
+			'git push',
+			'git reset',
+			'git checkout',
+			'git stash',
+			'git restore',
+			'rm'
+		]) {
+			expect(run).toContain(`Bash(${denied}:*)`);
+		}
+	});
+
+	it('never lets the agent write outside the content plan folder or push', () => {
+		const run = recipe('content-plan:');
+		expect(run).toContain('Write(.agents/context/keywords/content-plan/**)');
+		expect(run).not.toMatch(/--allowedTools[^\n]*Bash\(git/);
+	});
+
+	it('content-plan-commit never stages TODO.txt', () => {
+		const commit = recipe('content-plan-commit plan:');
+		expect(commit).toContain('--no-verify');
+		expect(commit).not.toContain('TODO.txt');
+	});
+
+	it('keywords-daily runs the research and then the plan, even when research fails', () => {
+		const daily = recipe('keywords-daily:');
+		expect(daily.indexOf('just keywords-research')).toBeGreaterThan(-1);
+		expect(daily.indexOf('just content-plan')).toBeGreaterThan(
+			daily.indexOf('just keywords-research')
+		);
+		expect(daily).toMatch(/keywords-research\s*\|\|/);
+	});
+
+	it('the launchd template runs keywords-daily', () => {
+		const plist = readRaw(
+			import.meta.glob('/scripts/keywords/launchd/*.plist', {
+				query: '?raw',
+				import: 'default',
+				eager: true
+			}) as Record<string, string>
+		);
+		expect(plist).toContain('just keywords-daily');
+		expect(plist).not.toContain('just keywords-research');
 	});
 });

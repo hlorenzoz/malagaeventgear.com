@@ -7,6 +7,13 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Added (keywords): agente `content-strategist` y cierre del ciclo con `keywords.json`
+- **Pedido del usuario (2026-09-29)**: un segundo agente diario, después del investigador de keywords, que decide qué contenido crear o ampliar y lo deja como entrada de `TODO.txt`. Decide, nunca escribe contenido ni hace push.
+- **Piezas deterministas (`scripts/keywords/`, strict TDD)**: `plan.schema.ts` (contrato del plan `content-plan/YYYY-MM-DD.json`), `opportunities.ts` (candidatas del día ordenadas por señal, con evidencia solo medida), `content-inventory.ts` (posts ingleses con H2/H3 y FAQs), `plan-to-todo.ts` (entrada en español, inserción o reemplazo idempotente en la sección gestionada de `TODO.txt`), `agent-json.ts` acepta el nombre del agente.
+- **Cierre del ciclo, siempre por `sync.ts`**: nueva fuente `content-plan` por keyword (gana el último plan, nunca cambia el estado) y `importers/plan-coverage.ts`, que pasa a `covered` una `idea` solo si un plan la pidió (`add-section` o `add-faq`) y el post destino ya tiene ese H2/H3 o esa pregunta de FAQ. Sin coincidencias casuales: una keyword nunca planificada no se toca. Un `new-post` lo cierra el importador del blog al publicarse. `keywords.json` queda idéntico al anterior a este cambio, `sync` idempotente.
+- **Justfile**: `content-candidates`, `content-inventory`, `content-plan-apply`, `content-plan-commit` (nunca `TODO.txt`), `content-plan` (mismo aislamiento que `keywords-research`, config MCP vacía) y `keywords-daily` (investigación y, aunque falle, plan). La plantilla de launchd corre `just keywords-daily`.
+- **`CLAUDE.md`**: subsección "El agente de contenido (content-strategist)" en "Investigación de keywords".
+
 ### Added (keywords): `keywords.json` y agente diario de investigación con Ubersuggest
 - **Pedido del usuario (2026-09-29)**: un solo archivo con keywords, FAQs y AI prompts, con clúster, URL que satisface la intención, dificultad, oportunidad y estado en la creación de contenido, alimentado todos los días.
 - **`keywords.json` (raíz)**: 1.692 keywords, 559 FAQs y la colección `aiPrompts`, desde 10 fuentes del repo (77 posts publicados, `post-faqs.json`, `faq.ts`, CSV de POP, zip de GSC más reciente, Google Ads, CSV de Ubersuggest, investigación de congresos, `content-map.md` de GBP). Ninguna métrica inventada: `difficulty` solo con fuente Ubersuggest, el resto `null` sin fuente.

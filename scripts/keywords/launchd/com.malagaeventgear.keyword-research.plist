@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!--
-  Template for the daily keyword-research agent (plan section 3 "Agente diario", "Scheduler").
+  Template for the daily keyword-research and content-plan agents (plan section 3 "Agente diario", "Scheduler").
   NOT installed by default. `just keywords-schedule-install` copies this file to
   ~/Library/LaunchAgents/, substituting __REPO_PATH__ (this repo's absolute path) and
   __CLAUDE_DIR__ (the directory of `which claude`) and __HOME__, then runs
   `launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.malagaeventgear.keyword-research.plist`.
 
-  Runs `just keywords-research` at 09:00 local time every day. If the Mac is asleep at 09:00,
+  Runs `just keywords-daily` (keyword research, then the content plan) at 09:00 local time every day. If the Mac is asleep at 09:00,
   launchd runs the job once it wakes (StartCalendarInterval semantics), it does not skip the day.
 -->
 <plist version="1.0">
@@ -22,7 +22,7 @@
 	<array>
 		<string>/bin/zsh</string>
 		<string>-lc</string>
-		<string>just keywords-research</string>
+		<string>just keywords-daily</string>
 	</array>
 
 	<key>EnvironmentVariables</key>

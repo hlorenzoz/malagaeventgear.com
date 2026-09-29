@@ -1200,7 +1200,7 @@ la creación de contenido, oportunidad y, **por cada fuente que la vio**, sus pr
 
 Cada `KeywordEntry` tiene un campo `sources`, un objeto con una clave por fuente
 (`google-ads`, `google-search-console`, `ubersuggest`, `google-autocomplete`, `blog`, `pop`,
-`gbp`, `research`), NUNCA un array. Una keyword vista por tres fuentes tiene exactamente tres
+`gbp`, `research`, `content-plan`), NUNCA un array. Una keyword vista por tres fuentes tiene exactamente tres
 claves, y volver a ingerir una fuente actualiza SOLO la suya. **No existe un `metrics` de nivel
 superior ni un `summary` derivado: ningún valor numérico vive fuera de `sources`** (decisión del
 usuario, 2026-09-29). Para leer el volumen o la dificultad de una keyword se lee directo de la
@@ -1343,6 +1343,42 @@ programado a las 09:00 con `just keywords-schedule-install`, plantilla en
   agrega una tool de Ubersuggest al agente, se agrega también a esa lista y al `tools` del agente.
 - **Log**: `~/Library/Logs/meg-keyword-research.log`. La última línea de cada corrida resume
   altas, descartes, cuota antes y después, y el commit o el motivo del corte.
+
+### El agente de contenido (content-strategist)
+
+`.claude/agents/content-strategist.md` corre después del investigador de keywords, en la misma
+corrida programada: launchd ejecuta `just keywords-daily` a las 09:00, que hace `just
+keywords-research` y, aunque esa falle, `just content-plan`. Decide, no escribe contenido. La
+cadena y sus piezas deterministas (todas en `scripts/keywords/`, strict TDD):
+
+- **Entrada, sin abrir `keywords.json`**: `just content-candidates [n]` (`opportunities.ts`)
+  imprime las keywords `idea` que ningún plan miró todavía, ordenadas por `opportunity`, luego
+  impresiones de GSC, búsquedas de Google Ads y volumen de Ubersuggest, cada una con una línea de
+  evidencia (solo números medidos, "no measured data" si no hay ninguno), sus FAQs y AI prompts
+  `idea`, más hasta 10 FAQs sueltas (`newFaqs`). `just content-inventory [--cluster <cluster>]`
+  (`content-inventory.ts`) imprime los posts ingleses publicados con su URL, keyword, rol de silo,
+  clúster, H2/H3 en orden y preguntas de FAQ, para el chequeo de canibalización.
+- **El plan**: `.agents/context/keywords/content-plan/YYYY-MM-DD.json`, validado por
+  `plan.schema.ts` (Zod). Cada ítem es `add-section`, `new-post`, `add-faq` o `skip`, con
+  prioridad, evidencia y motivo. Un `new-post` apunta a uno de los 5 pilares de "Los silos de MEG".
+- **`just content-plan-apply <plan>`**: valida el plan (sale con error si es inválido), corre
+  `sync.ts` y renderiza la entrada en `TODO.txt` con `plan-to-todo.ts`.
+- **Sección gestionada de `TODO.txt`**: la entrada va justo debajo de la línea `== OPORTUNIDADES DE
+  CONTENIDO (agente content-strategist) ==` (se crea al final del archivo si falta). Una corrida
+  reemplaza solo la entrada de su fecha (idempotente, conserva el símbolo de estado que una persona
+  haya cambiado) y no toca nada más del archivo.
+- **Cierre del ciclo en `keywords.json`**, siempre por `sync.ts`: (1) la fuente `content-plan`
+  (`importers/content-plan.ts`, `stats: { asOf, action, targetUrl, priority }`, gana el último plan)
+  se suma a cada keyword del plan y por eso `content-candidates` no la vuelve a proponer. NUNCA
+  cambia el estado, y una keyword inexistente entra como `idea`. (2) `importers/plan-coverage.ts` pasa a `covered` (con el `targetUrl`) una keyword `idea` SOLO si un plan commiteado la lista en un ítem `add-section` o `add-faq` y el post destino ya tiene lo pedido: un H2/H3 que contiene el `heading` del ítem, o una pregunta igual a su `question` en `post-faqs.json` (ambos normalizados). Una keyword que nunca se planificó no se toca, aunque aparezca en un encabezado. Un ítem `new-post` no necesita nada extra: el importador del blog marca la keyword `published` cuando el post existe. Todo estado que no sea `idea` queda bloqueado por `merge.ts`.
+- **Qué commitea y qué no**: `just content-plan-commit <plan>` corre los tests de
+  `scripts/keywords` y commitea SOLO `keywords.json` y el plan (`--no-verify`, mismo motivo que
+  `keywords-commit`). NUNCA `TODO.txt`: suele llevar cambios sin commitear de otra sesión, así que
+  queda modificado en el árbol de trabajo para que lo revise el usuario. Nunca hace push.
+- **Aislamiento**: `just content-plan` usa los mismos flags que `keywords-research`
+  (`--setting-sources ""`, `--strict-mcp-config` con config MCP vacía, `--permission-mode default`,
+  mismo `--disallowedTools`, `--max-budget-usd 4`), y el agente entra por `--agents` desde su `.md`
+  (`agent-json.ts content-strategist`). `Write` y `Edit` solo bajo `content-plan/`.
 
 ### Agregar una fuente nueva
 
