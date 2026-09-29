@@ -1,7 +1,7 @@
 # TODO.txt: lista de tareas del proyecto, ordenada por `just todo-organize`.
 # Cada tarea es un bloque delimitado, con estos campos en este orden:
 #   === TAREA #T0041 ===
-#   Estado: pendiente | en curso | hecha
+#   Estado: pendiente | en curso | bloqueada | hecha
 #   Prioridad: alta | media | baja
 #   Título: una línea
 #   Anotada: YYYY-MM-DD (o "sin fecha")
@@ -14,37 +14,10 @@
 # Para agregar una tarea sin id se puede escribir a la antigua: una línea
 # "-- ❌ Título (anotado YYYY-MM-DD)" y debajo la descripción. El organizador le pone
 # id, estado y prioridad. Las hechas van al final, las nuevas y sin terminar arriba.
+# Las tareas de content-strategist quedan "bloqueada" (sección BLOQUEADAS) mientras falte
+# traducir algún post publicado a los 12 idiomas, y vuelven solas a "pendiente" al terminar.
 
 == PENDIENTES ==
-
-=== TAREA #T0037 ===
-Estado: pendiente
-Prioridad: alta
-Título: Pregunta FAQ en /blog/tv-screen-rental/: "Can Malaga Event Gear source an LED video wall through a supplier?"
-Anotada: 2026-09-29
-Origen: content-strategist (plan 2026-09-29, ítem 10)
----
-Archivo: src/content/blog/tv-screen-rental.svx
-Keywords: led screen rental (google-ads 390/mo, gsc pos 33.33 43 impr)
-Qué cubrir: State plainly that a modular LED video wall is not in MEG's own inventory, only the single 60 inch flat panel screen on the MICE Pack, consistent with the existing 'Do you rent LED video walls or modular LED panels?' FAQ on this page and on audiovisual-equipment-rental-service. Then add the sourcing framing used elsewhere on the site, for example the interpretation equipment line in audiovisual-equipment-rental-service's 'What We Don't Stock' section: invite the reader to contact MEG with their event details so the team can check whether a supplier can cover it. Do not promise availability, a brand, a model or a price that is not already published.
-Por qué: Real volume (390/mo), clearly above this cluster's usual. Checked /blog/tv-screen-rental/ and /blog/audiovisual-equipment-rental-service/: both already have a 'Do you rent a video wall or LED wall?' style FAQ stating honestly that a modular LED video wall is not in MEG's own inventory, only the single 60 inch flat panel. Neither answer offers the supplier-sourcing path that CLAUDE.md's positioning rules call for on equipment MEG does not own but an event could need, so a new, differently worded FAQ closes that gap without duplicating the existing question.
-Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate.
-=== FIN #T0037 ===
-
-=== TAREA #T0036 ===
-Estado: pendiente
-Prioridad: media
-Título: Nueva sección H2 en /blog/sound-system-rental/: "Booking and Service Area"
-Anotada: 2026-09-29
-Origen: content-strategist (plan 2026-09-29, ítem 9)
----
-Archivo: src/content/blog/sound-system-rental.svx
-Ubicación: después de "Indoor and Outdoor Sound System Rental"
-Keywords: rental sound equipment near me (google-ads 70/mo, gsc pos 27.52 27 impr)
-Qué cubrir: State where MEG delivers sound system rentals and how far ahead to book, reusing only facts already published elsewhere on the site: Costa del Sol coverage (Malaga, Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas) plus Sevilla and Granada, per the audio-visual-rental pillar's 'Serving Malaga and the Whole Costa del Sol' section; the Granada 400 euro minimum booking, per tips-for-reducing-wedding-rental-costs; and the 24 hour minimum notice, per audio-visual-rental-planning-timeline. Do not invent a new travel radius, a new town, or a same day delivery promise not stated in those posts.
-Por qué: Checked /blog/audio-video-rental-near-me-in-malaga-spain/ and /blog/audio-visual-hire-near-me-in-malaga-spain/, both generic AV near-me pages already targeting the pillar, so a third near-me page would cannibalize them. Checked /blog/sound-system-rental/, the correct home for the sound-specific version of this intent: unlike most posts in this cluster it has no 'Booking and Service Area' heading, only scattered area mentions, which is a real gap for this local-intent phrase. Adding a section there (not a new post) avoids cannibalizing the two existing near-me posts.
-Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate.
-=== FIN #T0036 ===
 
 === TAREA #T0017 ===
 Estado: pendiente
@@ -1032,12 +1005,46 @@ Ya traducidos al 2026-09-26: los 12 posts de la lista de "Malaga, Spain en lo ya
 questions-to-ask-wedding-rental-companies.
 === FIN #T0019 ===
 
+== BLOQUEADAS ==
+
+=== TAREA #T0037 ===
+Estado: bloqueada
+Prioridad: alta
+Título: Pregunta FAQ en /blog/tv-screen-rental/: "Can Malaga Event Gear source an LED video wall through a supplier?"
+Anotada: 2026-09-29
+Origen: content-strategist (plan 2026-09-29, ítem 10)
+Nota: bloqueada hasta terminar las traducciones de todos los posts
+---
+Archivo: src/content/blog/tv-screen-rental.svx
+Keywords: led screen rental (google-ads 390/mo, gsc pos 33.33 43 impr)
+Qué cubrir: State plainly that a modular LED video wall is not in MEG's own inventory, only the single 60 inch flat panel screen on the MICE Pack, consistent with the existing 'Do you rent LED video walls or modular LED panels?' FAQ on this page and on audiovisual-equipment-rental-service. Then add the sourcing framing used elsewhere on the site, for example the interpretation equipment line in audiovisual-equipment-rental-service's 'What We Don't Stock' section: invite the reader to contact MEG with their event details so the team can check whether a supplier can cover it. Do not promise availability, a brand, a model or a price that is not already published.
+Por qué: Real volume (390/mo), clearly above this cluster's usual. Checked /blog/tv-screen-rental/ and /blog/audiovisual-equipment-rental-service/: both already have a 'Do you rent a video wall or LED wall?' style FAQ stating honestly that a modular LED video wall is not in MEG's own inventory, only the single 60 inch flat panel. Neither answer offers the supplier-sourcing path that CLAUDE.md's positioning rules call for on equipment MEG does not own but an event could need, so a new, differently worded FAQ closes that gap without duplicating the existing question.
+Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate.
+=== FIN #T0037 ===
+
+=== TAREA #T0036 ===
+Estado: bloqueada
+Prioridad: media
+Título: Nueva sección H2 en /blog/sound-system-rental/: "Booking and Service Area"
+Anotada: 2026-09-29
+Origen: content-strategist (plan 2026-09-29, ítem 9)
+Nota: bloqueada hasta terminar las traducciones de todos los posts
+---
+Archivo: src/content/blog/sound-system-rental.svx
+Ubicación: después de "Indoor and Outdoor Sound System Rental"
+Keywords: rental sound equipment near me (google-ads 70/mo, gsc pos 27.52 27 impr)
+Qué cubrir: State where MEG delivers sound system rentals and how far ahead to book, reusing only facts already published elsewhere on the site: Costa del Sol coverage (Malaga, Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas) plus Sevilla and Granada, per the audio-visual-rental pillar's 'Serving Malaga and the Whole Costa del Sol' section; the Granada 400 euro minimum booking, per tips-for-reducing-wedding-rental-costs; and the 24 hour minimum notice, per audio-visual-rental-planning-timeline. Do not invent a new travel radius, a new town, or a same day delivery promise not stated in those posts.
+Por qué: Checked /blog/audio-video-rental-near-me-in-malaga-spain/ and /blog/audio-visual-hire-near-me-in-malaga-spain/, both generic AV near-me pages already targeting the pillar, so a third near-me page would cannibalize them. Checked /blog/sound-system-rental/, the correct home for the sound-specific version of this intent: unlike most posts in this cluster it has no 'Booking and Service Area' heading, only scattered area mentions, which is a real gap for this local-intent phrase. Adding a section there (not a new post) avoids cannibalizing the two existing near-me posts.
+Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate.
+=== FIN #T0036 ===
+
 === TAREA #T0038 ===
-Estado: pendiente
+Estado: bloqueada
 Prioridad: baja
 Título: Pregunta FAQ en /blog/sound-system-rental/: "How much does it cost to rent sound equipment in Malaga?"
 Anotada: 2026-09-29
 Origen: content-strategist (plan 2026-09-29, ítem 11)
+Nota: bloqueada hasta terminar las traducciones de todos los posts
 ---
 Archivo: src/content/blog/sound-system-rental.svx
 Keywords: how much does it cost to rent sound equipment (ubersuggest newFaq linked to keywordId audiovisual-equipment-rental-service, no volume or impressions given)
@@ -1047,11 +1054,12 @@ Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate.
 === FIN #T0038 ===
 
 === TAREA #T0039 ===
-Estado: pendiente
+Estado: bloqueada
 Prioridad: baja
 Título: Pregunta FAQ en /blog/audiovisual-equipment-rental-service/: "What is a gooseneck microphone?"
 Anotada: 2026-09-29
 Origen: content-strategist (plan 2026-09-29, ítem 18)
+Nota: bloqueada hasta terminar las traducciones de todos los posts
 ---
 Archivo: src/content/blog/audiovisual-equipment-rental-service.svx
 Keywords: What is a gooseneck microphone? (research-paa newFaq linked to keywordId headset-lavalier-microphone-rental)
@@ -1061,11 +1069,12 @@ Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate.
 === FIN #T0039 ===
 
 === TAREA #T0040 ===
-Estado: pendiente
+Estado: bloqueada
 Prioridad: baja
 Título: Pregunta FAQ en /blog/audiovisual-equipment-rental-service/: "Why do some corporate setups use two microphones at the podium?"
 Anotada: 2026-09-29
 Origen: content-strategist (plan 2026-09-29, ítem 19)
+Nota: bloqueada hasta terminar las traducciones de todos los posts
 ---
 Archivo: src/content/blog/audiovisual-equipment-rental-service.svx
 Keywords: Why does a podium sometimes have two microphones? (research-paa newFaq linked to keywordId headset-lavalier-microphone-rental)
@@ -1075,11 +1084,12 @@ Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate.
 === FIN #T0040 ===
 
 === TAREA #T0041 ===
-Estado: pendiente
+Estado: bloqueada
 Prioridad: baja
 Título: Pregunta FAQ en /blog/tv-screen-rental/: "What screen size do I need for my conference room?"
 Anotada: 2026-09-29
 Origen: content-strategist (plan 2026-09-29, ítem 20)
+Nota: bloqueada hasta terminar las traducciones de todos los posts
 ---
 Archivo: src/content/blog/tv-screen-rental.svx
 Keywords: What screen size do I need for my conference room? (research-paa newFaq linked to keywordId tv-screen-rental)
