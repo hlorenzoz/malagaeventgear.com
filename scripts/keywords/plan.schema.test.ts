@@ -148,3 +148,22 @@ describe('ContentPlanSchema avalanche fields', () => {
 		);
 	});
 });
+
+describe('ContentPlanSchema todo priorities', () => {
+	const okPlan = {
+		...plan([]),
+		todo: [{ id: '#T0042', priority: 'alta', reason: 'bloquea el silo' }]
+	};
+
+	it('accepts an optional todo list and stays valid without it', () => {
+		expect(ContentPlanSchema.safeParse(okPlan).success).toBe(true);
+		expect(ContentPlanSchema.safeParse(plan([])).success).toBe(true);
+	});
+
+	it('rejects a bad id, priority or empty reason', () => {
+		const bad = (todo: unknown) => ContentPlanSchema.safeParse({ ...plan([]), todo }).success;
+		expect(bad([{ id: 'T42', priority: 'alta', reason: 'x' }])).toBe(false);
+		expect(bad([{ id: '#T0042', priority: 'high', reason: 'x' }])).toBe(false);
+		expect(bad([{ id: '#T0042', priority: 'alta', reason: '' }])).toBe(false);
+	});
+});

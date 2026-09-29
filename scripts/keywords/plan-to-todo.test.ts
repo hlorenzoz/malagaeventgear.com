@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { renderPlanEntry, upsertPlanEntry, MARKER, MARKER_NOTE } from './plan-to-todo';
+import { itemTitle, renderItemBody, tierLine, ITEM_RULE_LINE } from './plan-to-todo';
 import type { ContentPlan } from './plan.schema';
 
 const plan: ContentPlan = {
@@ -71,158 +71,106 @@ const plan: ContentPlan = {
 	]
 };
 
-describe('renderPlanEntry', () => {
-	const text = renderPlanEntry(plan);
-	const lines = text.split('\n');
-
-	it('opens with the dated header and the standing rules paragraph', () => {
-		expect(lines[0]).toBe(
-			'-- ❌ Oportunidades de contenido del 2026-09-29 (agente content-strategist)'
+describe('itemTitle', () => {
+	it('names the section, the post and the faq', () => {
+		expect(itemTitle(plan.items[0])).toBe(
+			'Nueva sección H2 en /blog/sound-system-rental/: "Lectern Rental"'
 		);
-		expect(text).toContain('.agents/context/keywords/content-plan/2026-09-29.json');
-		expect(text).toContain('reglas 1 y 2 de idioma');
-	});
-
-	it('renders each action with its priority word', () => {
-		expect(text).toContain(
-			'1. [alta] Nueva sección H2 en /blog/sound-system-rental/ (src/content/blog/sound-system-rental.svx), después de "What Is Included":'
+		expect(itemTitle(plan.items[1])).toBe(
+			'Post nuevo /blog/stage-riser-rental/: Stage Riser Rental'
 		);
-		expect(text).toContain('   "Lectern Rental"');
-		expect(text).toContain('   Keywords: podium hire, lectern rental (google-ads 320/mo)');
-		expect(text).toContain('   Qué cubrir: Gooseneck microphone on a lectern.');
-		expect(text).toContain('   Por qué: No post covers it');
-		expect(text).toContain(
-			'2. [media] Post nuevo /blog/stage-riser-rental/ en el silo "audio visual rental" (target /blog/audio-visual-rental/, después de sound-system-rental):'
-		);
-		expect(text).toContain('   Título: Stage Riser Rental. Keyword: stage riser rental');
-		expect(text).toContain('   Estructura: H2 What it is, H3 Sizes');
-		expect(text).toContain(
-			'3. [baja] Pregunta FAQ en /blog/sound-system-rental/ (src/content/blog/sound-system-rental.svx): "Can I rent a lectern?"'
+		expect(itemTitle(plan.items[2])).toBe(
+			'Pregunta FAQ en /blog/sound-system-rental/: "Can I rent a lectern?"'
 		);
 	});
+});
 
-	it('uses "dentro de" for an H3 and omits the clause without an anchor', () => {
-		const h3 = {
-			...plan,
-			items: [
-				{ ...plan.items[0], headingLevel: 3 as const },
-				{ ...plan.items[0], after: undefined }
-			]
-		};
-		const t = renderPlanEntry(h3);
-		expect(t).toContain(
-			'Nueva sección H3 en /blog/sound-system-rental/ (src/content/blog/sound-system-rental.svx), dentro de "What Is Included":'
+describe('renderItemBody', () => {
+	it('renders a section with file, anchor, keywords, what to cover and why', () => {
+		expect(renderItemBody(plan.items[0])).toEqual([
+			'Archivo: src/content/blog/sound-system-rental.svx',
+			'Ubicación: después de "What Is Included"',
+			'Keywords: podium hire, lectern rental (google-ads 320/mo)',
+			'Qué cubrir: Gooseneck microphone on a lectern.',
+			'Por qué: No post covers it'
+		]);
+	});
+
+	it('uses "dentro de" for an H3 and omits the location without an anchor', () => {
+		expect(renderItemBody({ ...plan.items[0], headingLevel: 3 })[1]).toBe(
+			'Ubicación: dentro de "What Is Included"'
 		);
-		expect(t).toContain(
-			'2. [alta] Nueva sección H2 en /blog/sound-system-rental/ (src/content/blog/sound-system-rental.svx):'
+		expect(renderItemBody({ ...plan.items[0], after: undefined })).not.toContainEqual(
+			expect.stringContaining('Ubicación')
 		);
 	});
 
-	it('orders by priority and puts skips only in the final line', () => {
-		const shuffled = {
-			...plan,
-			items: [plan.items[2], plan.items[3], plan.items[0], plan.items[1]]
-		};
-		const t = renderPlanEntry(shuffled);
-		expect(t.indexOf('[alta]')).toBeLessThan(t.indexOf('[media]'));
-		expect(t.indexOf('[media]')).toBeLessThan(t.indexOf('[baja]'));
-		expect(lines[lines.length - 1]).toBe(
-			'Descartadas hoy: dj booth hire (Not in our inventory), fog hire (Own page exists)'
-		);
-		expect(t).not.toContain('2. [baja] Descartar');
+	it('renders a new post with silo, keyword, structure and links', () => {
+		expect(renderItemBody(plan.items[1])).toEqual([
+			'Silo: "audio visual rental"',
+			'Keyword: stage riser rental',
+			'Estructura: H2 What it is, H3 Sizes',
+			'Keywords: stage riser rental (gsc pos 19.9 137 impr)',
+			'Qué cubrir: Explain risers.',
+			'Por qué: Own intent',
+			'Enlaces: hacia arriba a /blog/audio-visual-rental/, después de sound-system-rental'
+		]);
 	});
 
-	it('notes a partial or aborted run and an empty plan', () => {
-		const t = renderPlanEntry({
-			date: '2026-09-29',
-			run: { status: 'aborted', reason: 'no candidates', candidatesReviewed: 0 },
-			items: []
-		});
-		expect(t).toContain('Estado de la corrida: abortada (no candidates)');
-		expect(t).toContain('Sin cambios de contenido propuestos hoy.');
+	it('renders a faq with keywords and reason when it has no brief', () => {
+		expect(renderItemBody(plan.items[2])).toEqual([
+			'Archivo: src/content/blog/sound-system-rental.svx',
+			'Keywords: can i rent a lectern (autocomplete)',
+			'Por qué: Short answer'
+		]);
+	});
+
+	it('renders a faq brief as what to cover, since it says what the answer may claim', () => {
+		expect(renderItemBody({ ...plan.items[2], brief: 'Yes, with the MICE Pack.' })).toEqual([
+			'Archivo: src/content/blog/sound-system-rental.svx',
+			'Keywords: can i rent a lectern (autocomplete)',
+			'Qué cubrir: Yes, with the MICE Pack.',
+			'Por qué: Short answer'
+		]);
+	});
+
+	it('shows the Avalanche fit in Spanish on the Keywords line', () => {
+		expect(renderItemBody({ ...plan.items[0], avalancheFit: 'in-tier' })[2]).toBe(
+			'Keywords: podium hire, lectern rental (google-ads 320/mo), dentro del tier'
+		);
+		expect(renderItemBody({ ...plan.items[0], avalancheFit: 'below' })[2]).toContain(
+			'debajo del tier'
+		);
+		expect(renderItemBody({ ...plan.items[0], avalancheFit: 'above' })[2]).toContain(
+			'encima del tier'
+		);
+		expect(renderItemBody({ ...plan.items[0], avalancheFit: 'unknown' })[2]).toContain(
+			'sin volumen'
+		);
 	});
 
 	it('uses only ASCII punctuation', () => {
-		expect(text).not.toMatch(/[—–‘’“”… •;]/);
+		const text = plan.items
+			.filter((i) => i.action !== 'skip')
+			.flatMap((i) => [itemTitle(i), ...renderItemBody(i)])
+			.join('\n');
+		expect(text).not.toMatch(/[—–‘’“”…•; ]/);
+		expect(ITEM_RULE_LINE).toBe(
+			'Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate.'
+		);
 	});
 });
 
-describe('renderPlanEntry with Avalanche data', () => {
-	const withTier: ContentPlan = {
-		...plan,
-		run: { ...plan.run, tier: { level: 100, value: 149.5, export: '2026-09-23' } },
-		items: [{ ...plan.items[0], avalancheFit: 'in-tier' }, ...plan.items.slice(1)]
-	};
-
-	it('adds the tier line to the intro', () => {
-		expect(renderPlanEntry(withTier)).toContain(
-			'Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-23). Prioridad: keywords dentro del tier.'
+describe('tierLine', () => {
+	it('is null without tier data and the Avalanche line with it', () => {
+		expect(tierLine(plan)).toBeNull();
+		expect(
+			tierLine({
+				...plan,
+				run: { ...plan.run, tier: { level: 100, value: 149.5, export: '2026-09-23' } }
+			})
+		).toBe(
+			'Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-23).'
 		);
-	});
-
-	it('shows the fit in Spanish on the Keywords line', () => {
-		expect(renderPlanEntry(withTier)).toContain(
-			'   Keywords: podium hire, lectern rental (google-ads 320/mo), dentro del tier'
-		);
-	});
-
-	it.each([
-		['below', 'debajo del tier'],
-		['above', 'encima del tier'],
-		['unknown', 'sin volumen']
-	] as const)('renders %s as "%s"', (fit, word) => {
-		const p = { ...plan, items: [{ ...plan.items[0], avalancheFit: fit }] };
-		expect(renderPlanEntry(p)).toContain(`, ${word}\n`);
-	});
-
-	it('renders nothing extra for a plan without tier data', () => {
-		const out = renderPlanEntry(plan);
-		expect(out).not.toContain('Tier de tráfico');
-		expect(out).not.toContain('del tier');
-	});
-});
-
-const OTHER = '-- ✅ Otra cosa\n\nTexto previo.\n';
-
-describe('upsertPlanEntry', () => {
-	it('creates the managed section at the end when missing', () => {
-		const out = upsertPlanEntry(OTHER, plan);
-		expect(out.startsWith(OTHER)).toBe(true);
-		const rest = out.slice(OTHER.length);
-		expect(rest.startsWith(`\n\n${MARKER}\n${MARKER_NOTE}\n\n\n-- ❌ Oportunidades`)).toBe(true);
-		expect(out.endsWith('\n')).toBe(true);
-	});
-
-	it('inserts a newer entry right after the section header, above older ones', () => {
-		const first = upsertPlanEntry(OTHER, plan);
-		const second = upsertPlanEntry(first, { ...plan, date: '2026-09-30' });
-		expect(second.indexOf('del 2026-09-30')).toBeLessThan(second.indexOf('del 2026-09-29'));
-		expect(second.indexOf(MARKER)).toBeLessThan(second.indexOf('del 2026-09-30'));
-		expect(second.startsWith(OTHER)).toBe(true);
-	});
-
-	it('replaces the entry of the same date, idempotently, without touching the rest', () => {
-		const once = upsertPlanEntry(OTHER, plan);
-		const twice = upsertPlanEntry(once, plan);
-		expect(twice).toBe(once);
-		const changed = upsertPlanEntry(once, { ...plan, items: [plan.items[3]] });
-		expect(changed).not.toContain('Lectern Rental');
-		expect(changed).toContain('Descartadas hoy: dj booth hire');
-		expect(changed.startsWith(OTHER)).toBe(true);
-		expect(changed.match(/del 2026-09-29/g)).toHaveLength(1);
-	});
-
-	it('keeps the status glyph a person set on an existing entry', () => {
-		const once = upsertPlanEntry(OTHER, plan);
-		const done = once.replace('-- ❌ Oportunidades', '-- ✅ Oportunidades');
-		const out = upsertPlanEntry(done, plan);
-		expect(out).toContain('-- ✅ Oportunidades de contenido del 2026-09-29');
-		expect(out).not.toContain('❌ Oportunidades');
-	});
-
-	it('never touches entries that follow the managed one', () => {
-		const withTail = upsertPlanEntry(OTHER, plan) + '\n\n-- ❌ Cola\n\nSigue.\n';
-		const out = upsertPlanEntry(withTail, { ...plan, items: [] });
-		expect(out.endsWith('\n\n\n-- ❌ Cola\n\nSigue.\n')).toBe(true);
 	});
 });

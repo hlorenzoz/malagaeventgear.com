@@ -5,8 +5,9 @@
  * change to that prompt too.
  *
  * The plan is a DECISION record, never content: it says which page gets a section, an FAQ or a
- * new post, with the evidence and the reason. `plan-to-todo.ts` renders it into TODO.txt and
- * `importers/content-plan.ts` attaches it to keywords.json as the `content-plan` source.
+ * new post, with the evidence and the reason. `plan-to-todo.ts` renders each item and
+ * `scripts/todo/organize.ts` turns them into TODO.txt tasks, and `importers/content-plan.ts`
+ * attaches it to keywords.json as the `content-plan` source.
  */
 
 import { z } from 'zod';
@@ -117,6 +118,15 @@ export const PlanItemSchema = z
 	});
 export type PlanItem = z.infer<typeof PlanItemSchema>;
 
+/** A priority the agent sets on an existing TODO.txt task that still has the default one
+ *  (`just todo-organize --needs-priority` lists them). Ids look like `#T0042`. */
+export const TodoPrioritySchema = z.object({
+	id: z.string().regex(/^#T\d{4}$/, 'expected #Tnnnn'),
+	priority: z.enum(['alta', 'media', 'baja']),
+	reason: z.string().min(1)
+});
+export type TodoPriority = z.infer<typeof TodoPrioritySchema>;
+
 export const ContentPlanSchema = z.object({
 	date: dateOnly,
 	run: z.object({
@@ -125,6 +135,7 @@ export const ContentPlanSchema = z.object({
 		candidatesReviewed: z.number().int().min(0),
 		tier: z.object({ level: z.number(), value: z.number(), export: z.string().min(1) }).optional()
 	}),
-	items: z.array(PlanItemSchema)
+	items: z.array(PlanItemSchema),
+	todo: z.array(TodoPrioritySchema).optional()
 });
 export type ContentPlan = z.infer<typeof ContentPlanSchema>;

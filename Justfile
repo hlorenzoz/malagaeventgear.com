@@ -164,11 +164,21 @@ content-candidates n='20':
 content-inventory *args:
     @bun scripts/keywords/content-inventory.ts {{ args }}
 
-# Valida el plan, regenera keywords.json (source content-plan y cierre de ideas ya cubiertas) y escribe la entrada en TODO.txt
+# Valida el plan, regenera keywords.json (source content-plan y cierre de ideas ya cubiertas) y ordena TODO.txt (tareas del plan incluidas)
 content-plan-apply plan:
     bun scripts/keywords/plan-to-todo.ts --check "{{ plan }}"
     bun scripts/keywords/sync.ts
-    bun scripts/keywords/plan-to-todo.ts "{{ plan }}"
+    bun scripts/todo/organize.ts
+
+# Ordena TODO.txt: normaliza tareas nuevas (bloques, entradas a la antigua o texto suelto), suma las tareas del content-strategist,
+# cierra las cubiertas en keywords.json y pone las hechas al final. `--dry-run` no escribe, `--needs-priority` imprime el JSON de
+# las tareas sin prioridad asignada, `--file <ruta>` apunta a otro archivo. Ver CLAUDE.md, "`TODO.txt`: formato de tareas".
+todo-organize *args:
+    bun scripts/todo/organize.ts {{ args }}
+
+# Migración única del TODO.txt viejo al formato de bloques. Exige `--out <ruta>` o `--write`.
+todo-migrate *args:
+    bun scripts/todo/migrate.ts {{ args }}
 
 # Commitea SOLO keywords.json y el plan del día, después de correr los tests de keywords. NUNCA TODO.txt: lleva cambios sin
 # commitear de otra sesión. Mismo --no-verify y misma razón que keywords-commit.
@@ -185,7 +195,7 @@ content-plan-commit plan:
 # --strict-mcp-config con una config MCP VACÍA (no necesita ningún MCP), --permission-mode default y el mismo --disallowedTools.
 # El agente entra por --agents, generado desde su .md (scripts/keywords/agent-json.ts content-strategist).
 content-plan:
-    claude -p --agents "$(bun scripts/keywords/agent-json.ts content-strategist)" --agent content-strategist --model sonnet --setting-sources "" --mcp-config '{"mcpServers":{}}' --strict-mcp-config --permission-mode default --disallowedTools "Bash(git push:*),Bash(git reset:*),Bash(git checkout:*),Bash(git stash:*),Bash(git restore:*),Bash(rm:*)" --allowedTools "Read,Glob,Grep,Write(.agents/context/keywords/content-plan/**),Edit(.agents/context/keywords/content-plan/**),Bash(date:*),Bash(just content-candidates:*),Bash(just keywords-tier),Bash(just content-inventory:*),Bash(just content-plan-apply:*),Bash(just content-plan-commit:*)" --max-budget-usd 4 --output-format json "Run today's content planning."
+    claude -p --agents "$(bun scripts/keywords/agent-json.ts content-strategist)" --agent content-strategist --model sonnet --setting-sources "" --mcp-config '{"mcpServers":{}}' --strict-mcp-config --permission-mode default --disallowedTools "Bash(git push:*),Bash(git reset:*),Bash(git checkout:*),Bash(git stash:*),Bash(git restore:*),Bash(rm:*)" --allowedTools "Read,Glob,Grep,Write(.agents/context/keywords/content-plan/**),Edit(.agents/context/keywords/content-plan/**),Bash(date:*),Bash(just content-candidates:*),Bash(just keywords-tier),Bash(just content-inventory:*),Bash(just content-plan-apply:*),Bash(just content-plan-commit:*),Bash(just todo-organize:*)" --max-budget-usd 4 --output-format json "Run today's content planning."
 
 # Corrida diaria con control (scripts/keywords/daily-guard.ts). launchd la dispara a las 09:00, al iniciar sesión y cada hora,
 # y el guard decide: corre solo lo que falta del día (investigación y plan, cada uno "hecho" si su archivo de hoy está commiteado),
