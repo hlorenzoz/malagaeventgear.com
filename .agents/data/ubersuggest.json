@@ -1,0 +1,87 @@
+{
+	"version": 1,
+	"updated": "2026-09-30",
+	"reports": [
+		{
+			"date": "2026-09-30",
+			"kind": "legacy-weekly",
+			"status": "partial",
+			"calls": [
+				{
+					"tool": "user_limits"
+				},
+				{
+					"tool": "list_projects"
+				},
+				{
+					"tool": "google_suggestions"
+				},
+				{
+					"tool": "industry_prompts"
+				},
+				{
+					"tool": "industry_prompts"
+				},
+				{
+					"tool": "industry_prompts"
+				},
+				{
+					"tool": "article_title_suggestions"
+				},
+				{
+					"tool": "domain_keywords"
+				},
+				{
+					"tool": "domain_keywords"
+				},
+				{
+					"tool": "project_position_info"
+				},
+				{
+					"tool": "domain_keywords"
+				},
+				{
+					"tool": "domain_keywords"
+				},
+				{
+					"tool": "seo_opportunities"
+				},
+				{
+					"tool": "brand_config"
+				},
+				{
+					"tool": "brand_prompts"
+				},
+				{
+					"tool": "keyword_metrics"
+				},
+				{
+					"tool": "keyword_metrics"
+				},
+				{
+					"tool": "keyword_metrics"
+				},
+				{
+					"tool": "keyword_metrics"
+				},
+				{
+					"tool": "keyword_metrics"
+				},
+				{
+					"tool": "keyword_metrics"
+				},
+				{
+					"tool": "user_limits"
+				}
+			],
+			"summary": [
+				"22 filas de ranking, 70 prompts de IA"
+			],
+			"findings": [],
+			"discovered": {
+				"keywords": 68,
+				"aiPrompts": 70
+			}
+		}
+	]
+}
