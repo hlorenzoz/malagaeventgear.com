@@ -344,6 +344,11 @@ export default {
 			keyword: 'aluguel de áudio e vídeo perto de mim',
 			status: 'propuesta'
 		},
+		'how-audio-visual-rental-works': {
+			slug: 'como-funciona-o-aluguel-de-audiovisual',
+			keyword: 'como funciona o aluguel de audiovisual em Málaga',
+			status: 'propuesta'
+		},
 		'how-to-customize-av-rental-packages': {
 			slug: 'personalizar-pacotes-aluguel-audiovisual',
 			keyword: 'personalizar pacotes de aluguel de audiovisual em Málaga',

@@ -312,6 +312,11 @@ export default {
 			keyword: 'lyd- og videoudlejning i nærheden af mig',
 			status: 'propuesta'
 		},
+		'how-audio-visual-rental-works': {
+			slug: 'sadan-fungerer-av-udlejning',
+			keyword: 'sådan fungerer AV-udlejning i Malaga',
+			status: 'propuesta'
+		},
 		'how-to-customize-av-rental-packages': {
 			slug: 'tilpasse-pakker-til-av-udlejning',
 			keyword: 'tilpasse pakker til AV-udlejning i Malaga',

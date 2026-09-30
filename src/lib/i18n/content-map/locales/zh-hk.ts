@@ -292,6 +292,11 @@ export default {
 			keyword: '馬拉加 附近的影音租借',
 			status: 'propuesta'
 		},
+		'how-audio-visual-rental-works': {
+			slug: '視聽租借如何運作',
+			keyword: '馬拉加 視聽租借如何運作',
+			status: 'propuesta'
+		},
 		'how-to-customize-av-rental-packages': {
 			slug: '如何自訂活動視聽租借套餐',
 			keyword: '馬拉加 如何自訂活動視聽租借套餐',

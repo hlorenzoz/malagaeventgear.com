@@ -308,6 +308,11 @@ export default {
 			keyword: 'noleggio audio video vicino a me',
 			status: 'propuesta'
 		},
+		'how-audio-visual-rental-works': {
+			slug: 'come-funziona-il-noleggio-audiovisivo',
+			keyword: 'come funziona il noleggio audiovisivo a Malaga',
+			status: 'propuesta'
+		},
 		'how-to-customize-av-rental-packages': {
 			slug: 'personalizzare-pacchetto-noleggio-audiovisivo',
 			keyword: 'personalizzare un pacchetto di noleggio audiovisivo a Malaga',

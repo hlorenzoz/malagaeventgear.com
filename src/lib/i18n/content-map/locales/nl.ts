@@ -312,6 +312,11 @@ export default {
 			keyword: 'audio- en videoverhuur bij mij in de buurt',
 			status: 'propuesta'
 		},
+		'how-audio-visual-rental-works': {
+			slug: 'hoe-audiovisuele-verhuur-werkt',
+			keyword: 'hoe audiovisuele verhuur werkt in Malaga',
+			status: 'propuesta'
+		},
 		'how-to-customize-av-rental-packages': {
 			slug: 'audiovisuele-verhuurpakketten-aanpassen',
 			keyword: 'audiovisuele verhuurpakketten aanpassen in Malaga',

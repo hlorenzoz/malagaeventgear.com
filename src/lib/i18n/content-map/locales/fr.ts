@@ -312,6 +312,11 @@ export default {
 			keyword: 'location audio et vidéo près de chez moi',
 			status: 'propuesta'
 		},
+		'how-audio-visual-rental-works': {
+			slug: 'comment-fonctionne-la-location-audiovisuelle',
+			keyword: 'comment fonctionne la location audiovisuelle à Malaga',
+			status: 'propuesta'
+		},
 		'how-to-customize-av-rental-packages': {
 			slug: 'personnaliser-forfait-location-audiovisuelle',
 			keyword: 'personnaliser un forfait de location audiovisuelle à Malaga',
