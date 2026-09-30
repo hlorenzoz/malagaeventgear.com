@@ -33,6 +33,8 @@ import { sanitizeKeywordsFile } from './sanitize';
 import { batchToAiPrompts, batchToFaqs, batchToKeywords } from './ingest-ubersuggest';
 import { readBatches } from './batches';
 import { migrateLegacyFaqs } from './migrate-faqs';
+import { readFaqBatches } from './faq-batches';
+import { faqBatchToKeywordBatch } from './ingest-faqs';
 import { importBlogKeywords } from './importers/blog';
 import { importPostFaqs, type PostInfo } from './importers/post-faqs';
 import { importSiteFaqs } from './importers/site-faq';
@@ -118,7 +120,12 @@ export async function runSync(serviceAreas: readonly string[]): Promise<SyncSumm
 
 	// 2. Every committed Ubersuggest batch, oldest first: the daily agent's discoveries, each
 	// dated by its OWN batch.date so a rebuild is stable regardless of when it runs.
-	const batches = readBatches('strict').batches;
+	// Ubersuggest batches first, then the FAQ batches (adapted to the same shape), so a rebuild
+	// replays every committed batch of both agents.
+	const batches = [
+		...readBatches('strict').batches,
+		...readFaqBatches().map((b) => faqBatchToKeywordBatch(b, serviceAreas))
+	];
 	let lastWeeklyRun: string | null = existing?.meta.lastWeeklyRun ?? null;
 	let lastMonthlyRun: string | null = existing?.meta.lastMonthlyRun ?? null;
 	let batchKeywordCount = 0;
