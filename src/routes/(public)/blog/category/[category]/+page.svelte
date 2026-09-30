@@ -17,6 +17,9 @@
 		categorySlug.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
 	);
 
+	// Short introduction, only for the thin listing pages that have one (English slug).
+	let intro = $derived((copy.intros as Record<string, string>)[categorySlug]);
+
 	let title = $derived(copy.titleTemplate.replace('{name}', categoryName));
 	let description = $derived(copy.descriptionTemplate.replace('{name}', categoryName));
 
@@ -71,6 +74,9 @@
 			{posts.length}
 			{posts.length === 1 ? copy.post.singular : copy.post.plural}
 		</p>
+		{#if intro}
+			<p class="text-on-surface-variant font-body-md mt-4 max-w-3xl">{intro}</p>
+		{/if}
 	</div>
 
 	<!-- Posts Grid -->

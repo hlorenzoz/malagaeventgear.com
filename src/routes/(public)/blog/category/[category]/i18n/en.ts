@@ -8,6 +8,11 @@ const copy = {
 	descriptionTemplate: 'Read all posts about {name} from the Malaga Event Gear blog.',
 	newsBadge: 'News',
 	readMore: 'Read More →',
+	// Short introduction per category (English slug). Only the thin listing pages have one.
+	intros: {
+		gadgets:
+			'Notes and lessons from renting sound, screens and lighting for events in Malaga, Spain.'
+	},
 	post: { singular: 'post', plural: 'posts' }
 };
 

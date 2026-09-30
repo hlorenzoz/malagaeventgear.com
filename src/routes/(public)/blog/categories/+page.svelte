@@ -62,6 +62,7 @@
 			{categories.length}
 			{copy.categoriesLabel}
 		</p>
+		<p class="text-on-surface-variant font-body-md mt-4 max-w-3xl">{copy.intro}</p>
 	</div>
 
 	<!-- Categories Grid -->

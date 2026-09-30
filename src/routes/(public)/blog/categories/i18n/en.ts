@@ -7,6 +7,8 @@ const copy = {
 	},
 	// JSON-LD names. Previously hardcoded in English regardless of locale; moved here so a
 	// later locale can localize them without another hunt through the markup.
+	intro:
+		'The Malaga Event Gear blog groups its guides by topic: events, weddings, audio visual rental, corporate and enterprise, event planning, gadgets and news. Choose a category to see all of its posts.',
 	schemaName: 'Blog Categories | Malaga Event Gear',
 	itemListLabel: 'Blog Categories',
 	backLink: 'All Posts',

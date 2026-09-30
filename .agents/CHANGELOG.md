@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Added (blog): introduccion real en las dos paginas de listado finas
+- **Decision del usuario (2026-09-30)**, a raiz de la tarea #T0048 (`content_count_words` de Ubersuggest): `/blog/categories/` y la categoria Gadgets llevan una introduccion breve en los 13 idiomas. No se rellenan las paginas de utilidad (gracias, legales).
+- `intro` en `blog/categories/i18n/<locale>.ts` e `intros: { gadgets }` en `blog/category/[category]/i18n/<locale>.ts` (extensible por slug ingles), renderizadas en ambas plantillas. Cada idioma mueve su `updated` y el ingles `contentUpdated` de `blog/categories/meta.ts` (regla 11).
+- Guard: `src/lib/data/category-intros.test.ts` (los 13 idiomas, regla 12, fechas de frescura).
+- El efecto sobre el conteo de palabras es pequeno (unas 30 palabras). Se confirma con el siguiente reporte `seo-opportunities`.
+
 ### Fixed (seo): fixes de la auditoria de Ubersuggest, titulos largos y cortos
 - **Origen**: reporte `seo-opportunities` del 2026-09-30 (tareas #T0049 y #T0050). Ubersuggest solo da el conteo, asi que las paginas salen del HTML del build.
 - **Titulos largos (6)**: `MICE Pack` y `Product Presentation Pack` (`packages.ts`), y 4 posts (`what-renting-av-gear...`, `audio-visual-rental-for-remote-presentations`, `audio-visual-rental-companies`, la noticia de Bmotion en Marbella). Recortes de metadatos: la keyword de cada post se conserva y ninguna cifra ni hecho cambia. No mueven `updatedDate` ni `updated` (no son un cambio de contenido, regla 11), y las traducciones tienen titulo propio, asi que `sourceUpdated` sigue vigente.
