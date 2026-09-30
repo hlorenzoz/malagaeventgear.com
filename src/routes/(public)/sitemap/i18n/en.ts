@@ -6,7 +6,7 @@
 // both English and Spanish" no longer applies once the duplicate block is gone).
 const copy = {
 	seo: {
-		title: 'Sitemap | Malaga Event Gear',
+		title: 'Sitemap: All Pages | Malaga Event Gear',
 		description:
 			'Explore the sitemap for Malaga Event Gear. Find links to all our professional audiovisual and lighting rental services, packages, and contact information.'
 	},

@@ -188,7 +188,7 @@ const packagesData: EventPackage[] = [
 		purpose: ['presentation', 'corporate'],
 		includeTags: ['sound', 'microphone', 'screen'],
 		seo: {
-			title: 'Product Presentation Pack Projection & Audio | Malaga Event Gear',
+			title: 'Product Presentation Pack Screen & Sound | Malaga Event Gear',
 			serviceName: 'Product Presentation Pack Projection & Audio Malaga - Malaga Event Gear (MEG)',
 			serviceType: 'Audio visual product showcase and launch rentals'
 		},
@@ -284,7 +284,7 @@ const packagesData: EventPackage[] = [
 		includeTags: ['sound', 'microphone', 'screen', 'transport', 'technician'],
 		optionalTags: ['lectern', 'staging', 'technical-assistant'],
 		seo: {
-			title: 'MICE Pack Corporate AV with LED Display & Technician | Malaga Event Gear',
+			title: 'MICE Pack AV, LED Display & Technician | Malaga Event Gear',
 			serviceName: 'MICE Pack LED Display, Sound & Live Technician Rental - Malaga Event Gear (MEG)',
 			serviceType: 'Audio visual MICE corporate event rentals with live technician'
 		},

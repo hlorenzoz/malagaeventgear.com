@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (seo): fixes de la auditoria de Ubersuggest, titulos largos y cortos
+- **Origen**: reporte `seo-opportunities` del 2026-09-30 (tareas #T0049 y #T0050). Ubersuggest solo da el conteo, asi que las paginas salen del HTML del build.
+- **Titulos largos (6)**: `MICE Pack` y `Product Presentation Pack` (`packages.ts`), y 4 posts (`what-renting-av-gear...`, `audio-visual-rental-for-remote-presentations`, `audio-visual-rental-companies`, la noticia de Bmotion en Marbella). Recortes de metadatos: la keyword de cada post se conserva y ninguna cifra ni hecho cambia. No mueven `updatedDate` ni `updated` (no son un cambio de contenido, regla 11), y las traducciones tienen titulo propio, asi que `sourceUpdated` sigue vigente.
+- **Titulo corto (1)**: `About Us` y `Sitemap` (copia inglesa) pasan a "About Us: AV Rental in Malaga" y "Sitemap: All Pages".
+- **Sin cambio**: #T0048 (`content_count_words`). Las paginas finas son de utilidad (categorias, gracias, legales) y no se rellenan con texto.
+
 ### Added (keywords): agente independiente de FAQs y registro por fuente en `keywords.json`
 - **Decisión del usuario (2026-09-30)**: las FAQs las procesa un agente propio, `faq-researcher`, y el registro vive solo en `keywords.json` (sin `FAQs.txt`).
 - `FaqEntry` pasa de `source`/`firstSeen` a `sources` (`google-autocomplete` con `seeds`, `ubersuggest` con `stats`, `post` con `urls`, `site-faq`, `research`), con `mergeFaqSources` por clave. El id es la pregunta normalizada: la misma pregunta de dos fuentes es una entrada (565 FAQs pasan a 555 al unificar).
