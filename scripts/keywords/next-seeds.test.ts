@@ -121,21 +121,11 @@ describe('pickNextSeeds', () => {
 });
 
 describe('planRun', () => {
-	it('runs the weekly and monthly sections on the first run ever', () => {
+	it('runs the monthly section on the first run ever, and has no weekly agenda any more', () => {
 		expect(planRun({ lastWeeklyRun: null, lastMonthlyRun: null }, TODAY)).toEqual({
 			today: TODAY,
-			weeklyDue: true,
 			monthlyDue: true
 		});
-	});
-
-	it('runs the weekly sections only once 7 days have passed, whatever the weekday', () => {
-		expect(planRun({ lastWeeklyRun: '2026-09-23', lastMonthlyRun: TODAY }, TODAY).weeklyDue).toBe(
-			false
-		);
-		expect(planRun({ lastWeeklyRun: '2026-09-22', lastMonthlyRun: TODAY }, TODAY).weeklyDue).toBe(
-			true
-		);
 	});
 
 	it('runs the monthly section once per calendar month', () => {

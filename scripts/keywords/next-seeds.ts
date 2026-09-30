@@ -15,6 +15,8 @@
 import { readFileSync } from 'node:fs';
 import { KeywordsFileSchema, type KeywordEntry, type KeywordsFile } from './schema';
 import { keywordsPath } from '../paths';
+import { readBatches } from './batches';
+import { pickReport } from './report-of-day';
 
 const KEYWORDS_PATH = keywordsPath();
 const DEFAULT_N = 3;
@@ -61,15 +63,11 @@ export function pickNextSeeds(pool: KeywordEntry[], n: number = DEFAULT_N): Keyw
 	return seeds;
 }
 
-const WEEK_MS = 7 * 24 * 60 * 60 * 1000;
-
-/** Pure: which cadences are due today. Weekly means 7 days since the last weekly run, not
- *  "Monday": a Mac asleep on Monday must not skip the week. Monthly means a new calendar month. */
+/** Pure: which cadences are due today. Monthly means a new calendar month. The old weekly block
+ *  is gone: its parts are now days of the report rotation (`report-of-day.ts`). */
 export function planRun(meta: KeywordsFile['meta'], today: string) {
-	const weeklyDue =
-		!meta.lastWeeklyRun || Date.parse(today) - Date.parse(meta.lastWeeklyRun) >= WEEK_MS;
 	const monthlyDue = !meta.lastMonthlyRun || meta.lastMonthlyRun.slice(0, 7) !== today.slice(0, 7);
-	return { today, weeklyDue, monthlyDue };
+	return { today, monthlyDue };
 }
 
 if (import.meta.main) {
@@ -80,10 +78,12 @@ if (import.meta.main) {
 		timeZone: 'Europe/Madrid'
 	});
 	const plan = planRun(file.meta, today);
+	const report = pickReport(readBatches('tolerant').batches, today);
 	console.log(
 		JSON.stringify(
 			{
 				...plan,
+				report,
 				seeds: seeds.map((s) => ({
 					id: s.id,
 					keyword: s.keyword,
