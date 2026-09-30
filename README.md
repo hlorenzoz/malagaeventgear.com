@@ -5,7 +5,7 @@ Sitio de [malagaeventgear.com](https://malagaeventgear.com/) construido con **Sv
 (`@sveltejs/adapter-cloudflare`). Contenido del blog vía **MDsveX**.
 
 > Contexto para el asistente de IA, reglas de desarrollo y arquitectura: ver
-> [CLAUDE.md](CLAUDE.md). Conocimiento de negocio: `.agents/BUSINESS.md`. Diseño: `DESIGN.md`. SEO: `SEO.md`.
+> [CLAUDE.md](CLAUDE.md). Conocimiento de negocio: `.agents/BUSINESS.md`. Diseño: `DESIGN.md`. SEO: `.agents/context/SEO.md`.
 
 ## Stack
 

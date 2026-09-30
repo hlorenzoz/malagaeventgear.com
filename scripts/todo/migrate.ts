@@ -14,8 +14,8 @@
  */
 
 import { readFileSync, renameSync, statSync, writeFileSync } from 'node:fs';
-import { join } from 'node:path';
 import { readCommittedPlans } from '../keywords/importers/content-plan';
+import { keywordsPath, todoPath } from '../paths';
 import {
 	localToday,
 	missingLegacyLines,
@@ -33,7 +33,7 @@ function flag(argv: string[], name: string): string | undefined {
 }
 
 function run(argv: string[]): number {
-	const file = flag(argv, '--file') ?? join(process.cwd(), 'TODO.txt');
+	const file = flag(argv, '--file') ?? todoPath();
 	const out = flag(argv, '--out');
 	if (!out && !argv.includes('--write')) {
 		console.error('usage: migrate.ts (--out <path> | --write) [--file <path>] [--keywords <path>]');
@@ -43,7 +43,7 @@ function run(argv: string[]): number {
 	const original = readFileSync(file, 'utf8');
 	const result = organizeText(original, {
 		plans: readCommittedPlans(),
-		keywords: readKeywordStatuses(flag(argv, '--keywords') ?? join(process.cwd(), 'keywords.json')),
+		keywords: readKeywordStatuses(flag(argv, '--keywords') ?? keywordsPath()),
 		today: localToday(),
 		origen: 'migrada'
 	});

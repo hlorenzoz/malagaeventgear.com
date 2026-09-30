@@ -285,7 +285,7 @@ Cuando detectes o inicies una tarea en este proyecto, **cargá inmediatamente** 
 | **Componentes y Reactividad**<br>Eventos, stores, lógica de renderizado, y sintaxis de Svelte 5. | `svelte-core-bestpractices [Local]`<br>`svelte-code-writer [Local]` | Buenas prácticas de Svelte 5, modularidad, tipado estricto y aserciones. |
 | **Estética y Visuales Premium**<br>Uso de variables CSS, glassmorphism, paleta de colores (DESIGN.md), y micro-animaciones. | `ui-ux-pro-max [Global]`<br>`frontend-design [Global]`<br>`high-end-visual-design [Global]`<br>`glassmorphism [Global]`<br>`minimalist-ui [Global]` | Wow-factor visual, glassmorphism sofisticado, paletas balanceadas e interacciones fluidas. |
 | **HTML5 & CSS Moderno**<br>Efectos de scroll, View Transitions, container queries, :has(), y APIs nativas del DOM. | `modern-web-guidance [Local]` | Estándares HTML5, optimización visual y compatibilidad con APIs de navegador avanzadas. |
-| **SEO, Contenido & Conversión**<br>Estrategia SEO, auditorías locales/técnicas, E-E-A-T, backlinks, topic clustering, copywriting y CRO. | Ver **[SEO y Contenido: agentes globales](#seo-y-contenido-agentes-globales)** y **[SEO.md](SEO.md)** | **MANDATORIO:** para SEO técnico, estructura local (GBP) y E-E-A-T, la sección "SEO y Contenido: agentes globales" (más abajo) es el contrato operativo, y `SEO.md` es la estrategia de contenido. Orden de precedencia ante conflicto: **PDF de Google y documentación de Search Central (`.agents/context/seo/`) > esta sección > SEO.md**. |
+| **SEO, Contenido & Conversión**<br>Estrategia SEO, auditorías locales/técnicas, E-E-A-T, backlinks, topic clustering, copywriting y CRO. | Ver **[SEO y Contenido: agentes globales](#seo-y-contenido-agentes-globales)** y **[SEO.md](.agents/context/SEO.md)** | **MANDATORIO:** para SEO técnico, estructura local (GBP) y E-E-A-T, la sección "SEO y Contenido: agentes globales" (más abajo) es el contrato operativo, y `.agents/context/SEO.md` es la estrategia de contenido. Orden de precedencia ante conflicto: **PDF de Google y documentación de Search Central (`.agents/context/seo/`) > esta sección > SEO.md**. |
 | **Rendimiento & Cloudflare**<br>Diagnóstico de cuellos de botella de JS, Edge Rendering, Wrangler y restricciones de Cloudflare Workers/Pages. | `performance-investigation [Local]`<br>`cloudflare-guard [Global]`<br>`cloudflare [Global]`<br>`cloudflare-deploy [Global]`<br>`workers-best-practices [Global]`<br>`wrangler [Global]`<br>`performance [Global]`<br>`web-perf [Global]`<br>**`lighthouse [Global]` + `chrome-devtools-mcp` (MANDATORIO, ver §10)** | Edge compatibility, wrangler config, optimizaciones críticas de carga y eliminación de scripts bloqueantes. Medición real de CWV con `chrome-devtools-mcp` y validación con `lighthouse`. |
 | **Mobile & PWA Readiness**<br>Compatibilidad PWA, touch targets (mín 44px), safe areas (safe-area-inset-*), notch compliance y Capacitor. | `mobile-readiness-lead [Global]` | Compatibilidad fluida con dispositivos móviles y preparación Capacitor/PWA. |
 | **Accesibilidad (a11y)**<br>Navegación por teclado, etiquetas ARIA, contraste WCAG 2.1 AA, y semántica HTML5. | `a11y-debugging [Global]` | Accesibilidad web global, inclusión, usabilidad y SEO Holístico. |
@@ -348,7 +348,7 @@ segunda copia deriva en silencio porque son instrucciones en prosa, no código.
   `google-search-console-gsc/` (2026-08-06 y 2026-09-23, el más reciente con 486 consultas). Se
   leen con `unzip -p <zip> Consultas.csv` (cabeceras en español: `Consultas principales,Clics,
   Impresiones,CTR,Posición`), nunca asumiendo que no hay datos de Search Console. El importador de
-  `keywords.json` (ver "Investigación de keywords") toma siempre el zip más reciente por nombre de
+  `.agents/data/keywords.json` (ver "Investigación de keywords") toma siempre el zip más reciente por nombre de
   archivo.
 
 ### El orden de operaciones
@@ -381,7 +381,7 @@ Ante CUALQUIER pregunta de E-E-A-T, leé
 `~/.agents/context/google-eeat-guideline/searchqualityevaluatorguidelines.pdf` antes de
 responder (Read tool, parámetro `pages`). No un blog, no memoria de entrenamiento, no este
 archivo. Si el PDF y otra fuente discrepan, gana el PDF, incluido cuando la otra fuente es
-este archivo o `SEO.md`.
+este archivo o `.agents/context/SEO.md`.
 
 | Pregunta | Sección |
 | :--- | :--- |
@@ -399,7 +399,7 @@ Tres puntos que casi todos citan mal, no los repitas de memoria:
    confiable por cualquier razón, tiene E-E-A-T bajo.
 2. **Authoritativeness** es ser la fuente de referencia SOBRE el tema, no enlazar hacia
    fuentes autorizadas. Un negocio local es la fuente autoritativa sobre sí mismo. (Esto
-   contradice explícitamente a `SEO.md`, que sugiere enlazar afuera para "construir
+   contradice explícitamente a `.agents/context/SEO.md`, que sugiere enlazar afuera para "construir
    autoridad"; gana el PDF.)
 3. **Reputación ausente NO es señal negativa** para un negocio chico. Una página puede
    calificar High sin información de reputación. Nunca bloquees una página por no tenerla.
@@ -422,7 +422,7 @@ o corregir (`/seo:fix`), y al delegar: al subagente se le pasa la ruta del archi
 de memoria. No un blog, no memoria de entrenamiento, no este archivo.
 
 **Precedencia**: en calidad y E-E-A-T gana el PDF de Quality Raters (sección anterior). En lo
-técnico gana esta documentación. Las dos están por encima de este archivo y de `SEO.md`. Si una
+técnico gana esta documentación. Las dos están por encima de este archivo y de `.agents/context/SEO.md`. Si una
 regla de este archivo contradice la documentación, se avisa al usuario y se propone corregir este
 archivo, en vez de seguirla en silencio.
 
@@ -525,7 +525,7 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
   | Headers y redirects | `_headers`, `_redirects` |
   | Endpoint para LLMs | `src/routes/(public)/llms.txt/+server.ts` (derivado, nunca hardcodeado) |
   | Frescura de páginas estáticas | `meta.ts` colocado junto a cada ruta (`contentUpdated`), consumido por `page-sitemap.xml` |
-  | Investigación de keywords | `keywords.json` (raíz), generado por `scripts/keywords/sync.ts` y `scripts/keywords/ingest-ubersuggest.ts`. Ver "Investigación de keywords (`keywords.json`)" |
+  | Investigación de keywords | `.agents/data/keywords.json`, generado por `scripts/keywords/sync.ts` y `scripts/keywords/ingest-ubersuggest.ts`. Ver "Investigación de keywords (`keywords.json`)" |
 
 - **Suite de tests** (correrla en vez de reinventar aserciones): `bunx playwright test` (134
   specs en `tests/`); las específicas de SEO son `schema.spec.ts`, `sitemaps.spec.ts`,
@@ -728,7 +728,7 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
 - Para la gestión de formularios en el futuro CRM, utiliza exclusivamente las **Form Actions** nativas de SvelteKit en los archivos `+page.server.ts`, con mejora progresiva (`use:enhance`).
 
 ### 2. Arquitectura SEO (Mandatorio)
-- Las directrices técnicas de arquitectura y optimización SEO (cero errores de rastreo, inyección JSON-LD estructurado, optimización de imágenes y rendimiento LCP) se han consolidado y se mantienen bajo control estricto en **[SEO.md](file:///Users/hlorenzoz/databank/Development/%5BMEG%20-%20Malaga%20Event%20Gear%20%28malagaeventgear.com%29%5D/projects/website/SEO.md)**. Es obligatorio que el desarrollador/asistente de IA consulte y aplique dichas directrices para toda ruta pública del sitio.
+- Las directrices técnicas de arquitectura y optimización SEO (cero errores de rastreo, inyección JSON-LD estructurado, optimización de imágenes y rendimiento LCP) se han consolidado y se mantienen bajo control estricto en **[SEO.md](.agents/context/SEO.md)**. Es obligatorio que el desarrollador/asistente de IA consulte y aplique dichas directrices para toda ruta pública del sitio.
 - **Estandarización de URLs**: Cada URL interna debe terminar estrictamente en `/` (trailing slash) (por ejemplo, `/packages/`, `/about-us/`, `/contact-us/`). Esto es mandatorio para garantizar la consistencia en el rastreo SEO, evitar duplicidad de contenido y alinear la navegación.
 - **Estrategia de Datos Estructurados Obligatoria**: Cada página pública debe llevar sus datos estructurados correspondientes según su tipo de contenido, tal y como se detalla en **[.agents/STRUCTURED_DATA.md](file:///Users/hlorenzoz/databank/Development/%5BMEG%20-%20Malaga%20Event%20Gear%20%28malagaeventgear.com%29%5D/projects/website/.agents/STRUCTURED_DATA.md)**. Todos los metadatos deben provenir de la configuración única en `src/lib/data/site.ts` y generarse mediante el helper unificado `src/lib/utils/schema.ts` para evitar la duplicación de datos. El layout principal público gestiona automáticamente los esquemas globales (`LocalBusiness` y el `BreadcrumbList` dinámico), mientras que las páginas específicas inyectan sus esquemas locales correspondientes (`Service`, `ItemList`, `FAQPage`, `Article`) mediante el componente unificado `SeoHead.svelte`.
 - **Datos estructurados - convenciones implementadas** (mantener al tocar `schema.ts`):
@@ -767,7 +767,7 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
   proveedores, y lo que no está en el inventario se escribe como "no está en nuestro inventario
   propio, contanos y buscamos la solución", nunca como un "no ofrecemos" (ver "Posicionamiento:
   soluciones integrales para eventos" en [Lo que este proyecto declara](#lo-que-este-proyecto-declara-para-que-los-agentes-globales-funcionen)).
-- Las pautas de redacción, estrategias de contenido anti-AI-slop, el framework de optimización E-E-A-T y la resolución de los **5 Errores Críticos que Matan el Tráfico** se encuentran detallados en **[SEO.md](file:///Users/hlorenzoz/databank/Development/%5BMEG%20-%20Malaga%20Event%20Gear%20%28malagaeventgear.com%29%5D/projects/website/SEO.md)**. Es obligatorio que el desarrollador/redactor los siga rigurosamente para cualquier publicación o contenido comercial.
+- Las pautas de redacción, estrategias de contenido anti-AI-slop, el framework de optimización E-E-A-T y la resolución de los **5 Errores Críticos que Matan el Tráfico** se encuentran detallados en **[SEO.md](.agents/context/SEO.md)**. Es obligatorio que el desarrollador/redactor los siga rigurosamente para cualquier publicación o contenido comercial.
 - **Reseñas reales de Google (E-E-A-T - Experience/Trust):** al crear o actualizar contenido comercial (posts del silo, páginas de paquete, servicios), consultar `src/lib/data/testimonials.ts` (`getTestimonials(limit?)`) para ver si hay una reseña real relevante al tema del contenido (tipo de evento, paquete, zona). Si la hay, citarla **textual** - autor, `rating`, `relativeTime` y el cuerpo en `text`, en su idioma original y sin traducir - nunca parafrasearla inventando énfasis que la reseña no tiene. Si no hay ninguna reseña relevante para ese tema puntual, no es un bloqueante ni una señal negativa (ver "Reputación ausente NO es señal negativa" más arriba); lo que sí está prohibido es dejar una sección de tipo "Testimonials" con un heading vacío o con prosa genérica sin cita real donde debería ir una.
 - **Posts de la categoría `News` como fuente de eventos anteriores (E-E-A-T - Experience):** al crear o actualizar contenido (posts del silo, páginas de paquete, servicios), consultar los posts existentes con `categories` que incluya `News` (`src/content/blog/*.svx`) como fuente de eventos reales ya desarrollados por MEG. Cuando un evento anterior sea relevante por contexto (tipo de evento, paquete, zona, temática), referenciarlo en el cuerpo del contenido y enlazar al post de noticia correspondiente (`/blog/<slug>/`). No inventar eventos ni detalles que el post de noticia no confirme.
 
@@ -1079,7 +1079,7 @@ con el contenido ya actualizado.
 publicados estén traducidos a los 12 idiomas, no se crea contenido nuevo ni se actualiza el que
 existe. Primero se termina de traducir. La regla del párrafo anterior (actualizar antes de traducir)
 se aplica recién después de esa etapa. El content-strategist sigue planificando, pero sus tareas
-quedan `bloqueada` en `TODO.txt` y se destraban solas al terminar (ver "`TODO.txt`: formato de
+quedan `bloqueada` en `.agents/data/TODO.txt` y se destraban solas al terminar (ver "`TODO.txt`: formato de
 tareas"). El 2026-09-29 faltaban 240 traducciones: 20 posts de 77.
 
 ### Publicación: solo por push (sin cron)
@@ -1252,7 +1252,7 @@ agentes globales leen la global por defecto.
 ### Cuándo se aplica
 
 - Antes de elegir las keywords de supporting posts NUEVOS: al planificar un silo, al armar un lote
-  de posts, al revisar `TODO.txt` y al pedirle contenido a un agente.
+  de posts, al revisar `.agents/data/TODO.txt` y al pedirle contenido a un agente.
 - Con cada export nuevo de GSC en `.agents/context/keywords/google-search-console-gsc/`: se
   recalcula el tier, porque cambia con el tráfico.
 - Ordena tanto la creación como la actualización: posts nuevos, secciones y FAQs de posts que ya
@@ -1264,10 +1264,10 @@ agentes globales leen la global por defecto.
    media entre el día más alto y el más bajo: `(máximo + mínimo) / 2`. Se busca ese valor en la
    tabla del tier de `avalanche-content-theory.md`. Se usan **impresiones**, no clics: POP cambió
    el método el 2024-03-21 (video de actualización en `sources/`).
-2. **Orden**: primero las keywords de `keywords.json` cuyo volumen mensual cae dentro del rango
+2. **Orden**: primero las keywords de `.agents/data/keywords.json` cuyo volumen mensual cae dentro del rango
    del tier (`sources["google-ads"].stats.avgMonthlySearches` o `sources.ubersuggest.stats.volume`,
    diciendo cuál se usó), después las de menos volumen, las sin volumen medido y, al final, las de
-   más volumen que el tier. En `TODO.txt` eso es la prioridad: `alta` dentro del tier, `media`
+   más volumen que el tier. En `.agents/data/TODO.txt` eso es la prioridad: `alta` dentro del tier, `media`
    debajo o sin volumen, `baja` encima.
 3. **Filtro de Google**: una keyword dentro del tier es una candidata, nunca una razón para escribir
    por sí sola. Pasa igual por todo lo que exige la documentación de Google en
@@ -1293,7 +1293,7 @@ cada export.
   si no Google Ads), `volumeSource` y `avalancheFit` (`in-tier`, `below`, `above`, `unknown`). El
   orden es dentro del tier, debajo, sin volumen, encima del tier, y dentro de cada grupo el de
   antes. Las de `above` también se listan, como último grupo (se cuentan en `totals.aboveTier`):
-  si son relevantes se planifican con prioridad `baja` y esperan en `TODO.txt`. Sin zip de GSC, `tier` es `null`, todo es
+  si son relevantes se planifican con prioridad `baja` y esperan en `.agents/data/TODO.txt`. Sin zip de GSC, `tier` es `null`, todo es
   `unknown` y `tierError` lo explica. El plan copia `run.tier` y `avalancheFit` por ítem, y el
   TODO los muestra. Sigue siendo una heurística de POP: Google manda.
 - **El enlace de vuelta del target (decidido el 2026-09-29).** Las diapositivas de Kyle Roof dibujan
@@ -1307,7 +1307,7 @@ cada export.
 
 ## Investigación de keywords (`keywords.json`)
 
-Un único archivo en la raíz (`keywords.json`) une lo que antes vivía disperso en fuentes que no se
+Un único archivo (`.agents/data/keywords.json`) une lo que antes vivía disperso en fuentes que no se
 hablaban entre sí: el CSV de POP, los zips de GSC, los CSV de Google Ads y de Ubersuggest, los
 `.md` de investigación manual, el frontmatter de los posts, `post-faqs.json`, `faq.ts` y el
 `content-map.md` de GBP. Por cada keyword dice: clúster, URL que satisface la intención, estado en
@@ -1354,7 +1354,7 @@ Ninguna keyword tiene un campo `research` de nivel superior: la investigación d
 
 ### Se edita SOLO por scripts, nunca a mano
 
-Ningún agente ni humano edita `keywords.json` directamente. Dos scripts lo escriben, ambos en
+Ningún agente ni humano edita `.agents/data/keywords.json` directamente. Dos scripts lo escriben, ambos en
 `scripts/keywords/`:
 
 - `sync.ts` (`just keywords-sync`): relee las fuentes estáticas del repo (blog, `post-faqs.json`,
@@ -1437,13 +1437,13 @@ programado a las 09:00 con `just keywords-schedule-install`, plantilla en
   semilla. Domain Keywords, Rank Tracking, SEO Opportunities y AI Search Visibility son semanales
   (si pasaron 7 días desde `meta.lastWeeklyRun`, sea el día que sea). `keyword_metrics` (SD e
   intent) es mensual (`meta.lastMonthlyRun`), dentro de la cuota. Ambas fechas viven en
-  `keywords.json`, así no dependen de que el Mac estuviera encendido un día exacto. El agente
-  nunca abre `keywords.json` (pesa unos 1,7 MB): `just keywords-seeds` le da las 3 semillas y la
+  `.agents/data/keywords.json`, así no dependen de que el Mac estuviera encendido un día exacto. El agente
+  nunca abre `.agents/data/keywords.json` (pesa unos 1,7 MB): `just keywords-seeds` le da las 3 semillas y la
   agenda del día (`weeklyDue`, `monthlyDue`). Las semillas salen de keywords `published` o
   `planned`, nunca de los clusters `news` ni `standalone` (su keyword es un titular, no una
   búsqueda).
 - **Commit**: solo por `just keywords-commit <lote>`, que corre los tests de `scripts/keywords` y
-  commitea SOLO `keywords.json` y el lote. Va con `--no-verify` a propósito: el hook de
+  commitea SOLO `.agents/data/keywords.json` y el lote. Va con `--no-verify` a propósito: el hook de
   pre-commit guarda en stash los cambios sin stagear y pisaría el trabajo de otra sesión que
   edite el repo al mismo tiempo (las traducciones, por ejemplo).
 - **Permisos (la barrera real, no el prompt)**: `just keywords-research` corre con
@@ -1468,7 +1468,7 @@ corrida programada: launchd ejecuta `just keywords-daily` a las 09:00, que hace 
 keywords-research` y, aunque esa falle, `just content-plan`. Decide, no escribe contenido. La
 cadena y sus piezas deterministas (todas en `scripts/keywords/`, strict TDD):
 
-- **Entrada, sin abrir `keywords.json`**: `just content-candidates [n]` (`opportunities.ts`)
+- **Entrada, sin abrir `.agents/data/keywords.json`**: `just content-candidates [n]` (`opportunities.ts`)
   imprime las keywords `idea` que ningún plan miró todavía, ordenadas por `opportunity`, luego
   impresiones de GSC, búsquedas de Google Ads y volumen de Ubersuggest, cada una con una línea de
   evidencia (solo números medidos, "no measured data" si no hay ninguno), sus FAQs y AI prompts
@@ -1489,15 +1489,15 @@ cadena y sus piezas deterministas (todas en `scripts/keywords/`, strict TDD):
   `plan.schema.ts` (Zod). Cada ítem es `add-section`, `new-post`, `add-faq` o `skip`, con
   prioridad, evidencia y motivo. Un `new-post` apunta a uno de los 5 pilares de "Los silos de MEG".
 - **`just content-plan-apply <plan>`**: valida el plan (sale con error si es inválido), corre
-  `sync.ts` y ordena `TODO.txt` con `scripts/todo/organize.ts`, que convierte cada ítem del plan en
+  `sync.ts` y ordena `.agents/data/TODO.txt` con `scripts/todo/organize.ts`, que convierte cada ítem del plan en
   su propia tarea (ver "`TODO.txt`: formato de tareas").
-- **Cierre del ciclo en `keywords.json`**, siempre por `sync.ts`: (1) la fuente `content-plan`
+- **Cierre del ciclo en `.agents/data/keywords.json`**, siempre por `sync.ts`: (1) la fuente `content-plan`
   (`importers/content-plan.ts`, `stats: { asOf, action, targetUrl, priority }`, gana el último plan)
   se suma a cada keyword del plan y por eso `content-candidates` no la vuelve a proponer. NUNCA
   cambia el estado, y una keyword inexistente entra como `idea`. (2) `importers/plan-coverage.ts` pasa a `covered` (con el `targetUrl`) una keyword `idea` SOLO si un plan commiteado la lista en un ítem `add-section` o `add-faq` y el post destino ya tiene lo pedido: un H2/H3 que contiene el `heading` del ítem, o una pregunta igual a su `question` en `post-faqs.json` (ambos normalizados). Una keyword que nunca se planificó no se toca, aunque aparezca en un encabezado. Un ítem `new-post` no necesita nada extra: el importador del blog marca la keyword `published` cuando el post existe. Todo estado que no sea `idea` queda bloqueado por `merge.ts`.
 - **Qué commitea y qué no**: `just content-plan-commit <plan>` corre los tests de
-  `scripts/keywords` y commitea SOLO `keywords.json` y el plan (`--no-verify`, mismo motivo que
-  `keywords-commit`). NUNCA `TODO.txt`: suele llevar cambios sin commitear de otra sesión, así que
+  `scripts/keywords` y commitea SOLO `.agents/data/keywords.json` y el plan (`--no-verify`, mismo motivo que
+  `keywords-commit`). NUNCA `.agents/data/TODO.txt`: suele llevar cambios sin commitear de otra sesión, así que
   queda modificado en el árbol de trabajo para que lo revise el usuario. Nunca hace push.
 - **Aislamiento**: `just content-plan` usa los mismos flags que `keywords-research`
   (`--setting-sources ""`, `--strict-mcp-config` con config MCP vacía, `--permission-mode default`,
@@ -1519,7 +1519,7 @@ cadena y sus piezas deterministas (todas en `scripts/keywords/`, strict TDD):
 
 ### `TODO.txt`: formato de tareas
 
-`TODO.txt` es la lista de trabajo del usuario y la ordena `just todo-organize`
+`.agents/data/TODO.txt` es la lista de trabajo del usuario y la ordena `just todo-organize`
 (`scripts/todo/`, strict TDD). Cada tarea es un bloque delimitado, así el organizador sabe dónde
 empieza y termina su descripción:
 
@@ -1565,7 +1565,7 @@ descripción libre, tal cual, en las líneas que hagan falta (puede llevar "✅ 
   es el `Origen`: una tarea que ya existe nunca cambia de Estado, Prioridad, Título ni Nota (el
   usuario pudo editarlas), solo se completa una descripción vacía.
 - **Cierre automático**: una tarea del content-strategist pasa a `hecha` (con `Hecha` de hoy y
-  `Nota: marcada hecha por plan-coverage`) solo cuando `keywords.json` muestra la primera keyword
+  `Nota: marcada hecha por plan-coverage`) solo cuando `.agents/data/keywords.json` muestra la primera keyword
   del ítem como `covered` o `published` con la `url` igual al destino del ítem. Ninguna otra tarea
   cambia de estado sola: marcar las demás como hechas es decisión de una persona.
 - **Bloqueo por traducciones (decisión del usuario, 2026-09-29)**: mientras algún post inglés
@@ -1581,10 +1581,10 @@ descripción libre, tal cual, en las líneas que hagan falta (puede llevar "✅ 
   primeras 3 líneas).
 - **Comandos**: `just todo-organize` (`--dry-run` no escribe, `--file <ruta>` apunta a otro
   archivo), `just todo-migrate --out <ruta>` o `--write` (migración única del formato viejo, con
-  verificación de que ninguna línea se pierde). La escritura es atómica y solo ocurre si `TODO.txt`
+  verificación de que ninguna línea se pierde). La escritura es atómica y solo ocurre si `.agents/data/TODO.txt`
   no cambió mientras se procesaba (otra sesión lo edita): reintenta una vez y si no, sale con error
   sin escribir. Antes de escribir comprueba que no falte ningún id ni línea de descripción.
-- **Los agentes no commitean `TODO.txt`**: queda modificado en el árbol de trabajo para que lo
+- **Los agentes no commitean `.agents/data/TODO.txt`**: queda modificado en el árbol de trabajo para que lo
   revise el usuario (`content-plan-commit` nunca lo agrega).
 
 ### Corridas perdidas (`daily-guard.ts`)
@@ -1624,6 +1624,6 @@ algo, agrega también su propio schema de `stats` ahí, nunca reutiliza el de ot
 
 ### Regla mandatoria
 
-Antes de crear o actualizar contenido de un cluster, se consulta `keywords.json` (por `cluster` o
+Antes de crear o actualizar contenido de un cluster, se consulta `.agents/data/keywords.json` (por `cluster` o
 por `id`) y se actualiza su estado (`covered`/`published`, nunca a mano: correr `just
 keywords-sync` después de publicar) en el mismo cambio.

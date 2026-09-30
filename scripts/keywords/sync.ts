@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
 /**
- * sync.ts: rebuilds the root `keywords.json` from EVERY committed source in the repo: the static
+ * sync.ts: rebuilds `.agents/data/keywords.json` from EVERY committed source in the repo: the static
  * importers (POP, GSC, Google Ads, GBP, blog, FAQs) AND every committed Ubersuggest daily batch
  * under `.agents/context/keywords/ubersuggest/*.json`, replayed in date order. This is the ONLY
  * script (with `ingest-ubersuggest.ts`) allowed to write `keywords.json`.
@@ -44,8 +44,9 @@ import { importGbpKeywords } from './importers/gbp';
 import { importResearchMd } from './importers/research-md';
 import { importPlanCoverage } from './importers/plan-coverage';
 import { importContentPlans } from './importers/content-plan';
+import { keywordsPath } from '../paths';
 
-const OUTPUT_PATH = join(process.cwd(), 'keywords.json');
+const OUTPUT_PATH = keywordsPath();
 const UBERSUGGEST_BATCH_DIR = join(process.cwd(), '.agents', 'context', 'keywords', 'ubersuggest');
 const BATCH_FILENAME_RE = /^\d{4}-\d{2}-\d{2}\.json$/;
 

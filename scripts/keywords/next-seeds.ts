@@ -13,10 +13,10 @@
  */
 
 import { readFileSync } from 'node:fs';
-import { join } from 'node:path';
 import { KeywordsFileSchema, type KeywordEntry, type KeywordsFile } from './schema';
+import { keywordsPath } from '../paths';
 
-const KEYWORDS_PATH = join(process.cwd(), 'keywords.json');
+const KEYWORDS_PATH = keywordsPath();
 const DEFAULT_N = 3;
 
 const SEEDABLE_STATUSES = new Set<KeywordEntry['status']>(['published', 'planned']);

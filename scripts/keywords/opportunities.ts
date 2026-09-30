@@ -18,7 +18,6 @@
  */
 
 import { readFileSync } from 'node:fs';
-import { join } from 'node:path';
 import { KeywordsFileSchema, type KeywordEntry, type KeywordsFile, type Sources } from './schema';
 import {
 	avalancheFit,
@@ -28,6 +27,7 @@ import {
 	type TierReport
 } from './traffic-tier';
 import { newPostQuota, readTranslationBacklog } from './new-post-quota';
+import { keywordsPath } from '../paths';
 
 const DEFAULT_LIMIT = 20;
 const NEW_FAQS_CAP = 10;
@@ -223,7 +223,7 @@ if (import.meta.main) {
 		tierError = e instanceof Error ? e.message : String(e);
 	}
 	const file = KeywordsFileSchema.parse(
-		JSON.parse(readFileSync(join(process.cwd(), 'keywords.json'), 'utf8'))
+		JSON.parse(readFileSync(keywordsPath(), 'utf8'))
 	);
 	const today = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/Madrid' });
 	const backlog = readTranslationBacklog();

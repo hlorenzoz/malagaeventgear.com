@@ -7,6 +7,14 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (data): archivos de datos a `.agents/data/`, `SEO.md` y `TGE.txt` a `.agents/context/`
+- **Decisión del usuario (2026-09-30)**: reorganizó la raíz. `keywords.json` y `TODO.txt` pasan a `.agents/data/`. `SEO.md` y `TGE.txt` pasan a `.agents/context/`. En `.agents/data/` quedan además `TODO.json` y `ubersuggest.json`, vacíos, para las entregas siguientes.
+- **`scripts/paths.ts` (strict TDD, `paths.test.ts`)**: único módulo que nombra las rutas de datos (`DATA_DIR`, `keywordsPath`, `todoPath`). Reemplaza los 8 lugares que armaban la ruta cada uno por su lado: `sync.ts`, `ingest-ubersuggest.ts`, `next-seeds.ts`, `opportunities.ts`, `todo/organize.ts` (2) y `todo/migrate.ts` (2).
+- **Justfile**: `keywords-commit` y `content-plan-commit` stagean y commitean `.agents/data/keywords.json`. **`.pre-commit-config.yaml`**: la excepción de `check-added-large-files` apunta a la ruta nueva (el archivo pesa 2,6 MB).
+- **Agentes** `keyword-researcher` y `content-strategist`, `CLAUDE.md`, `README.md`, `infra.txt` y los `.md` de `.agents/context/` que citaban las rutas viejas. Los títulos de sección de `CLAUDE.md` que otros archivos citan por nombre no cambian.
+- **Verificación**: 2520 pruebas de `scripts/`, `just keywords-sync` dos veces con el mismo hash, `keywords-seeds`, `content-candidates`, `todo-organize --dry-run` y `keywords-daily --dry-run` contra las rutas nuevas.
+- **Fuera de alcance**: `.claude/settings.json` (local, sin trackear) tiene una regla de permiso con la ruta vieja de `SEO.md`.
+
 ### Added (todo): tareas del content-strategist bloqueadas hasta terminar las traducciones
 - **Decisión del usuario (2026-09-29)**: no se crea ni se actualiza contenido hasta que todos los posts publicados estén traducidos a los 12 idiomas. El planificador sigue trabajando y sus tareas esperan en `TODO.txt`. La regla de actualizar un post antes de traducirlo vale recién después de esa etapa.
 - **Estado nuevo `bloqueada`** (`scripts/todo/todo-format.ts`): sección `== BLOQUEADAS ==` entre pendientes y hechas, solo si hay alguna.

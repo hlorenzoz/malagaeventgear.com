@@ -19,6 +19,166 @@
 
 == PENDIENTES ==
 
+=== TAREA #T0023 ===
+Estado: pendiente
+Prioridad: alta
+Título: Keyword del idioma en el cuerpo de las traducciones anteriores al 2026-09-28
+Anotada: 2026-09-28
+Origen: migrada
+Nota: prioridad asignada por content-strategist el 2026-09-30: El texto confirma que traducciones ya publicadas (ej. outdoor-wedding-rental-considerations) no cumplen la decision del usuario del 2026-09-28 de usar la keyword del idioma en el cuerpo, no solo en titulo y meta.
+---
+Desde lighting-ideas-for-wedding-rentals, cada traducción usa su keyword del mapa de contenido
+en el cuerpo (primer párrafo y conclusión), no solo en título y meta. Los posts traducidos antes
+no lo cumplen en todos los idiomas: confirmado en outdoor-wedding-rental-considerations (0
+apariciones en el cuerpo en los 12 idiomas). Revisar con un script (keyword sin la ciudad,
+contada después de </script>) todos los posts traducidos y sumar la keyword donde falte, sin
+mover fechas si solo se integra la keyword en una frase existente.
+=== FIN #T0023 ===
+
+=== TAREA #T0026 ===
+Estado: pendiente
+Prioridad: alta
+Título: CONFIRMAR: qué puso MEG en los eventos de las fotos 1289 y 1331
+Anotada: 2026-09-27
+Origen: migrada
+Nota: prioridad asignada por content-strategist el 2026-09-30: Es el mismo tipo de problema que las fotos de Volvo ya corregidas (1266/1267): un texto ya publicado describe algo que la foto no muestra, lo que viola la regla de Honestidad de CLAUDE.md sobre no inventar detalles de fotos reales.
+---
+Mismo problema que las fotos de Volvo (1266 y 1267, resuelto en 3957e9e): textos que describen
+algo que la foto no muestra.
+- 1289 (sala con luz rosa, cajas en pies y público; no se ve pantalla):
+  https://cdn.malagaeventgear.com/blog/1289/malaga_event_lighting_display_projector_sound_rental_1-600x448.webp
+  El pilar audio-visual-rental.svx dice "a conference room setup with lighting, display and a large
+  screen, delivered by Malaga Event Gear", y el manifest dice "a large display screen, and a
+  projector". Preguntado al usuario el 2026-09-27: ¿hubo pantalla o proyector de MEG, o solo luz y
+  sonido?
+- 1331 (cena de noche en un jardín delante de una mansión, orador en un atril; sin pantalla):
+  audio-visual-rental-companies.svx lleva el alt de la 1302 ("a large screen displaying a
+  presentation, and a projector in a modern conference venue"), falso para esta foto.
+  stage-uplighting, headset-lavalier-microphone-rental y stage-lighting-rental (y sus 12
+  traducciones) la presentan como "MICE Pack stage and podium setup, technician managed": ni la
+  tarima ni el paquete se ven confirmados.
+- 1304 (charla de PROCURE en Coín: caja en pie, mesa de ponentes, pantalla detrás y una cámara de
+  video en primer plano):
+  https://cdn.malagaeventgear.com/blog/1304/lighting-sound-big-screen-projector-rental-malaga_5-300x224.webp
+  El manifest dice "Camera and screen coverage of the PROCURE panel talk", y
+  audio-visual-rental-for-conferences.svx (y sus 12 traducciones) dice "broadcast camera
+  equipment" y "Stage lighting, sound and screen setup". MEG hoy no tiene cámaras (el CSV de julio
+  de 2026 las dio de baja): confirmar qué puso MEG ahí (¿sonido y pantalla? ¿la cámara era de
+  otro?).
+Ya corregido en audio-visual-rental-for-remote-presentations (1289, 1331) y en
+audio-visual-rental-for-virtual-events (1304), que describen solo lo que se ve. Con la respuesta
+del usuario: corregir el resto en inglés, traducciones y manifest, en un solo cambio.
+=== FIN #T0026 ===
+
+=== TAREA #T0029 ===
+Estado: pendiente
+Prioridad: alta
+Título: Billie Jean King Cup 2024 sin post News
+Anotada: 2026-09-25
+Origen: migrada
+Nota: prioridad asignada por content-strategist el 2026-09-30: El texto confirma que la Billie Jean King Cup 2024 se usa como Experience en audio-visual-rental-for-sports-events.svx sin tener post News propio, lo que incumple directamente la decision del usuario del 2026-09-25 (CLAUDE.md, regla 4 de posicionamiento) ya en contenido publicado.
+---
+Decisión del usuario del 2026-09-25 (CLAUDE.md, "Posicionamiento", regla 4): la Experience
+publicada sale SOLO de los posts News del blog. La Billie Jean King Cup 2024 no tiene post News:
+hoy solo se menciona en audio-visual-rental-for-sports-events.svx y
+audiovisual-equipment-rental-service.svx. Hasta que exista su post News no se suma a la lista de
+casos de la regla 4.
+Pedido del usuario (2026-09-25): escribir el post News del evento (Billie Jean King Cup 2024,
+Málaga, España) y sumarlo como Experience de MEG. Antes de escribirlo:
+1. Leer la noticia oficial para el contexto del evento:
+   https://www.billiejeankingcup.com/es/noticias/italia-la-quinta-se-hizo-esperar
+   Usarla solo como contexto (resultado, fechas, sede). No copiar su texto.
+2. Enlazar esa noticia desde el post (backlink normal, sin nofollow ni sponsored), para citar la
+   fuente oficial del evento.
+3. Hechos confirmados por el usuario: MEG proveyó SOLO el servicio audiovisual (iluminación y
+   sonido). La máquina de confeti y los fuegos artificiales NO fueron de MEG. Ningún texto, alt ni
+   pie de foto puede dar a entender lo contrario.
+4. Usar las fotos del evento que ya están en el CDN: blog/1189, blog/1190 y blog/1191
+   (billie-jean-king-cup-*), más las que usa audio-visual-rental-for-sports-events.svx. Con alt y
+   pie en cada idioma, sin atribuirle a MEG el confeti ni los fuegos.
+5. CONFIRMAR el alcance: CLAUDE.md dice iluminación y sonido "en la ceremonia de premiación",
+   pero audio-visual-rental-for-sports-events.svx dice "the full lights and sound setup ... from
+   the tennis court sound system to the awards ceremony stage" (todo el torneo) y habla de
+   "scoreboard display". Aclarar con el usuario qué cubrió MEG y corregir el post de deportes si
+   no coincide.
+Formato: siloRole news, targetPage "/", categoría News, en los 13 idiomas en el mismo cambio. Al
+publicarlo, sumarlo a la lista de la regla 4 de CLAUDE.md y enlazarlo desde las dos menciones
+actuales.
+=== FIN #T0029 ===
+
+=== TAREA #T0030 ===
+Estado: pendiente
+Prioridad: alta
+Título: Keyword de event-technology-service que se pisa con stage-lighting-rental
+Anotada: 2026-09-25
+Origen: migrada
+Nota: prioridad asignada por content-strategist el 2026-09-30: La keyword y el slug de event-technology-service se tradujeron igual que los de stage-lighting-rental en 6 idiomas, lo que crea solape de silo (cannibalization) ya publicado, justo el riesgo que el reverse silo existe para evitar.
+---
+Hallazgo del code-review del post stage-lighting-rental. En 6 idiomas la keyword y el slug de
+event-technology-service se tradujeron como "luz y escenario para eventos", porque el post
+inglés habla de iluminación, tarimas y técnico, y eso se pisa con la keyword del pilar de
+iluminación:
+- de `Licht- und Bühnentechnik Malaga` contra `Bühnenbeleuchtung mieten Malaga`
+- it `luci e palco per eventi Malaga` contra `noleggio luci da palco a Malaga`
+- pt-br `iluminação e palco para eventos Málaga` contra `aluguel de iluminação de palco em Málaga`
+- zh-hans `活动灯光舞台搭建`, zh-tw `活動燈光舞台架設` y zh-hk `活動燈光舞台搭建` contra `舞台灯光租赁`,
+  `舞台燈光出租` y `舞台燈光租借`
+fr (`prestataire technique événementiel`) y pt-pt (`serviços técnicos para eventos`) muestran la
+salida: la keyword de "servicio técnico para eventos", sin luz ni escenario.
+Decisión: la keyword de iluminación se queda (es el término natural para alquilar iluminación de
+escenario). No se toca event-technology-service todavía: cambiar su slug cambia URLs ya
+publicadas y obliga a redirects 301 por idioma. Revisar con datos de GSC por idioma cuando haya
+(consultas donde las dos páginas aparecen). Si se confirma la canibalización, re-keyear
+event-technology-service en esos 6 idiomas con redirect del slug viejo, en el mismo cambio que su
+actualización de TGE (tanda 1).
+=== FIN #T0030 ===
+
+=== TAREA #T0032 ===
+Estado: pendiente
+Prioridad: alta
+Título: Copia del sitio: el mínimo de 400 euros se lee como si aplicara a Sevilla
+Anotada: 2026-09-25
+Origen: migrada
+Nota: prioridad asignada por content-strategist el 2026-09-30: El texto indica que dos frases de copia ya publicada dan a entender que el minimo de 400 euros sin IVA aplica a Sevilla, cuando la regla real (BUSINESS.md seccion 3) es que Sevilla no tiene minimo y solo Granada lo tiene: un hecho de negocio incorrecto ya publicado.
+---
+Regla (.agents/BUSINESS.md sección 3, site.ts serviceAreas): Sevilla con cobertura completa y sin
+mínimo, Granada solo con reservas de más de 400 euros sin IVA. Los posts ingleses se corrigieron en
+la reescritura del 2026-09-25. Quedan dos frases ambiguas en copia que se publica en 13 idiomas:
+- src/routes/(public)/packages/[slug]/i18n/<locale>.ts, FAQ de zona: "We also service Seville and
+  Granada (for orders over {price:outOfProvinceMinimum})": el paréntesis se puede leer como si
+  valiera para las dos ciudades.
+- src/lib/data/faq.ts (~176) y sus 12 traducciones en src/lib/i18n/data/<locale>.ts: "For more
+  distant, out of province destinations such as Granada, we require a minimum...": "such as"
+  sugiere que hay otros destinos con mínimo.
+Arreglo: reescribir las dos en inglés y en los 12 idiomas en el mismo cambio, con la fecha de la
+página o del paquete actualizada (regla de frescura).
+=== FIN #T0032 ===
+
+=== TAREA #T0015 ===
+Estado: pendiente
+Prioridad: alta
+Título: Performance /blog/ (PSI móvil 66 -> objetivo 85+)
+Anotada: sin fecha
+Origen: migrada
+Nota: estado por confirmar (tenía "❌ ✅"), prioridad asignada por content-strategist el 2026-09-30: El diagnostico propio con Lighthouse ya identifico una tarea larga de 2669ms antes del FCP en produccion que hunde el PSI movil de /blog/ a 66, afectando directamente la experiencia de pagina que Google usa como factor de ranking (creating-helpful-content.md, 'Provide a great page experience').
+---
+Diagnóstico (Lighthouse propio contra nuevo.malagaeventgear.com/blog/, 2026-06-10):
+
+CORRECCIÓN a la nota anterior de /packages/: el challenge-platform de Bot Fight Mode SÍ afecta el score, y mucho. jsd/main.js consume 5,333ms de CPU (throttle 4x), con un long task de 2,669ms ANTES del FCP -> por eso TBT=0 y no aparece como culpable. El desglose del LCP lo confirma: element render delay 1,750ms = 67% del LCP (la imagen ya descargó pero el main thread está ocupado). Está inyectado en producción Y staging.
+
+✅ Aplicado (repo): re-compresión de los rungs 600w/700w de covers de q82 a q70 + cwebp -m 6 (~-31% por imagen: LCP image 52.2KB -> 36.6KB). Scripts gen-cover-variants.ts (ahora con QUALITY/FORCE env) y gen-cover-thumbs.ts (dedup de rungs por ancho). Archivos ya subidos a R2 + cover-thumbs.json regenerado.
+
+PENDIENTE (Cloudflare dashboard, NO repo):
+
+1. Purge de cache CDN: los 78 rungs regenerados mantienen el mismo nombre con max-age=1y -> el edge sigue sirviendo los viejos. Caching > Configuration > Purge by URL (máx 30 por tanda), lista completa en __utils/purge-cover-rungs.txt.
+
+2. Bot Fight Mode / JavaScript Detections: Off (Security > Bots). Vale ~25-30 puntos de PSI en /blog/. Los formularios ya están protegidos por Turnstile; BFM solo aporta anti-scraping genérico. DECISIÓN PENDIENTE del usuario (evaluar tradeoff seguridad/performance).
+
+3. (Opcional) Zaraz s.js aparece en staging sin cache TTL (7KB): revisar si se está usando; si no, desactivarlo.
+
+Verificación tras deploy + purge + toggle: npx lighthouse https://malagaeventgear.com/blog/ --only-categories=performance --form-factor=mobile -> objetivo FCP <2.5s, LCP <3s, score >=85. (nuevo.malagaeventgear.com fue dado de baja, ya no resuelve; usar producción o localhost:4173).
+=== FIN #T0015 ===
+
 === TAREA #T0017 ===
 Estado: pendiente
 Prioridad: media
@@ -130,22 +290,6 @@ f) Medios para PR (verificados el 2026-09-28). Se pitchea una historia de un pos
    - EuroWeekly News: https://en.wikipedia.org/wiki/EuroWeekly_News
 === FIN #T0017 ===
 
-=== TAREA #T0023 ===
-Estado: pendiente
-Prioridad: media
-Título: Keyword del idioma en el cuerpo de las traducciones anteriores al 2026-09-28
-Anotada: 2026-09-28
-Origen: migrada
-Nota: prioridad por defecto
----
-Desde lighting-ideas-for-wedding-rentals, cada traducción usa su keyword del mapa de contenido
-en el cuerpo (primer párrafo y conclusión), no solo en título y meta. Los posts traducidos antes
-no lo cumplen en todos los idiomas: confirmado en outdoor-wedding-rental-considerations (0
-apariciones en el cuerpo en los 12 idiomas). Revisar con un script (keyword sin la ciudad,
-contada después de </script>) todos los posts traducidos y sumar la keyword donde falte, sin
-mover fechas si solo se integra la keyword en una frase existente.
-=== FIN #T0023 ===
-
 === TAREA #T0024 ===
 Estado: pendiente
 Prioridad: media
@@ -201,7 +345,7 @@ Prioridad: media
 Título: CONFIRMAR: ¿la Billie Jean King Cup 2024 puede usarse como Experience sin post News?
 Anotada: 2026-09-28
 Origen: migrada
-Nota: prioridad por defecto
+Nota: prioridad asignada por content-strategist el 2026-09-30: Es una pregunta de confirmacion para el negocio (si la excepcion de la BJK Cup sin post News es aceptable), no un hallazgo tecnico en si mismo, lo que encaja como 'confirmacion que el negocio debe dar'.
 ---
 La regla 4 del posicionamiento (CLAUDE.md) dice que la Experience sale SOLO de los posts News, y
 que un caso sin su post News no se usa. La BJK Cup no tiene post News, pero su dato está confirmado
@@ -215,41 +359,6 @@ sonido "durante el campeonato" y "para jugadores y espectadores". El dato confir
 y sonido en la ceremonia de premiación. Confirmar si MEG también puso sonido durante los partidos;
 si no, corregir esos dos pies (y el manifest) para que hablen solo de la ceremonia.
 === FIN #T0025 ===
-
-=== TAREA #T0026 ===
-Estado: pendiente
-Prioridad: media
-Título: CONFIRMAR: qué puso MEG en los eventos de las fotos 1289 y 1331
-Anotada: 2026-09-27
-Origen: migrada
-Nota: prioridad por defecto
----
-Mismo problema que las fotos de Volvo (1266 y 1267, resuelto en 3957e9e): textos que describen
-algo que la foto no muestra.
-- 1289 (sala con luz rosa, cajas en pies y público; no se ve pantalla):
-  https://cdn.malagaeventgear.com/blog/1289/malaga_event_lighting_display_projector_sound_rental_1-600x448.webp
-  El pilar audio-visual-rental.svx dice "a conference room setup with lighting, display and a large
-  screen, delivered by Malaga Event Gear", y el manifest dice "a large display screen, and a
-  projector". Preguntado al usuario el 2026-09-27: ¿hubo pantalla o proyector de MEG, o solo luz y
-  sonido?
-- 1331 (cena de noche en un jardín delante de una mansión, orador en un atril; sin pantalla):
-  audio-visual-rental-companies.svx lleva el alt de la 1302 ("a large screen displaying a
-  presentation, and a projector in a modern conference venue"), falso para esta foto.
-  stage-uplighting, headset-lavalier-microphone-rental y stage-lighting-rental (y sus 12
-  traducciones) la presentan como "MICE Pack stage and podium setup, technician managed": ni la
-  tarima ni el paquete se ven confirmados.
-- 1304 (charla de PROCURE en Coín: caja en pie, mesa de ponentes, pantalla detrás y una cámara de
-  video en primer plano):
-  https://cdn.malagaeventgear.com/blog/1304/lighting-sound-big-screen-projector-rental-malaga_5-300x224.webp
-  El manifest dice "Camera and screen coverage of the PROCURE panel talk", y
-  audio-visual-rental-for-conferences.svx (y sus 12 traducciones) dice "broadcast camera
-  equipment" y "Stage lighting, sound and screen setup". MEG hoy no tiene cámaras (el CSV de julio
-  de 2026 las dio de baja): confirmar qué puso MEG ahí (¿sonido y pantalla? ¿la cámara era de
-  otro?).
-Ya corregido en audio-visual-rental-for-remote-presentations (1289, 1331) y en
-audio-visual-rental-for-virtual-events (1304), que describen solo lo que se ve. Con la respuesta
-del usuario: corregir el resto en inglés, traducciones y manifest, en un solo cambio.
-=== FIN #T0026 ===
 
 === TAREA #T0018 ===
 Estado: pendiente
@@ -310,7 +419,7 @@ Prioridad: media
 Título: DECIDIR: portadas de banco en los 22 posts de bodas
 Anotada: 2026-09-26
 Origen: migrada
-Nota: prioridad por defecto
+Nota: prioridad asignada por content-strategist el 2026-09-30: Es una decision de negocio pendiente (mantener o no las portadas de banco en los 22 posts de bodas), sin urgencia declarada, que requiere confirmacion del usuario segun el propio titulo de la tarea.
 ---
 Hallazgo de la auditoría de imágenes (2d7e2c8). MEG no tiene fotos reales de bodas: las 12 de bodas
 son de banco (STOCK_PHOTO_IDS). Los 22 posts de la categoría Weddings usan una de ellas como
@@ -342,7 +451,7 @@ Prioridad: media
 Título: Textos de imágenes de los 12 posts ya traducidos, desde los metadatos nuevos
 Anotada: 2026-09-26
 Origen: migrada
-Nota: prioridad por defecto
+Nota: prioridad asignada por content-strategist el 2026-09-30: Es una mejora real de consistencia (sincronizar alt y pie de foto actualizados en los 12 posts ya traducidos) sin urgencia ni impacto en hechos ya publicados incorrectos.
 ---
 La auditoría de imágenes (2d7e2c8) reescribió título, alt, pie y ubicación de las 95 imágenes en
 scripts/migrate-wp/manifest.json. Los posts que se traduzcan desde ahora toman de ahí el alt y el
@@ -353,90 +462,6 @@ cuando no hay localidad, Sevilla donde es Sevilla). Ya corregido el 2026-09-26: 
 1331, 1296 y 1793 en event-technology-service, headset-lavalier-microphone-rental,
 stage-lighting-rental y stage-uplighting. Conviene hacerlo junto con la pasada de "Malaga, Spain".
 === FIN #T0022 ===
-
-=== TAREA #T0029 ===
-Estado: pendiente
-Prioridad: media
-Título: Billie Jean King Cup 2024 sin post News
-Anotada: 2026-09-25
-Origen: migrada
-Nota: prioridad por defecto
----
-Decisión del usuario del 2026-09-25 (CLAUDE.md, "Posicionamiento", regla 4): la Experience
-publicada sale SOLO de los posts News del blog. La Billie Jean King Cup 2024 no tiene post News:
-hoy solo se menciona en audio-visual-rental-for-sports-events.svx y
-audiovisual-equipment-rental-service.svx. Hasta que exista su post News no se suma a la lista de
-casos de la regla 4.
-Pedido del usuario (2026-09-25): escribir el post News del evento (Billie Jean King Cup 2024,
-Málaga, España) y sumarlo como Experience de MEG. Antes de escribirlo:
-1. Leer la noticia oficial para el contexto del evento:
-   https://www.billiejeankingcup.com/es/noticias/italia-la-quinta-se-hizo-esperar
-   Usarla solo como contexto (resultado, fechas, sede). No copiar su texto.
-2. Enlazar esa noticia desde el post (backlink normal, sin nofollow ni sponsored), para citar la
-   fuente oficial del evento.
-3. Hechos confirmados por el usuario: MEG proveyó SOLO el servicio audiovisual (iluminación y
-   sonido). La máquina de confeti y los fuegos artificiales NO fueron de MEG. Ningún texto, alt ni
-   pie de foto puede dar a entender lo contrario.
-4. Usar las fotos del evento que ya están en el CDN: blog/1189, blog/1190 y blog/1191
-   (billie-jean-king-cup-*), más las que usa audio-visual-rental-for-sports-events.svx. Con alt y
-   pie en cada idioma, sin atribuirle a MEG el confeti ni los fuegos.
-5. CONFIRMAR el alcance: CLAUDE.md dice iluminación y sonido "en la ceremonia de premiación",
-   pero audio-visual-rental-for-sports-events.svx dice "the full lights and sound setup ... from
-   the tennis court sound system to the awards ceremony stage" (todo el torneo) y habla de
-   "scoreboard display". Aclarar con el usuario qué cubrió MEG y corregir el post de deportes si
-   no coincide.
-Formato: siloRole news, targetPage "/", categoría News, en los 13 idiomas en el mismo cambio. Al
-publicarlo, sumarlo a la lista de la regla 4 de CLAUDE.md y enlazarlo desde las dos menciones
-actuales.
-=== FIN #T0029 ===
-
-=== TAREA #T0030 ===
-Estado: pendiente
-Prioridad: media
-Título: Keyword de event-technology-service que se pisa con stage-lighting-rental
-Anotada: 2026-09-25
-Origen: migrada
-Nota: prioridad por defecto
----
-Hallazgo del code-review del post stage-lighting-rental. En 6 idiomas la keyword y el slug de
-event-technology-service se tradujeron como "luz y escenario para eventos", porque el post
-inglés habla de iluminación, tarimas y técnico, y eso se pisa con la keyword del pilar de
-iluminación:
-- de `Licht- und Bühnentechnik Malaga` contra `Bühnenbeleuchtung mieten Malaga`
-- it `luci e palco per eventi Malaga` contra `noleggio luci da palco a Malaga`
-- pt-br `iluminação e palco para eventos Málaga` contra `aluguel de iluminação de palco em Málaga`
-- zh-hans `活动灯光舞台搭建`, zh-tw `活動燈光舞台架設` y zh-hk `活動燈光舞台搭建` contra `舞台灯光租赁`,
-  `舞台燈光出租` y `舞台燈光租借`
-fr (`prestataire technique événementiel`) y pt-pt (`serviços técnicos para eventos`) muestran la
-salida: la keyword de "servicio técnico para eventos", sin luz ni escenario.
-Decisión: la keyword de iluminación se queda (es el término natural para alquilar iluminación de
-escenario). No se toca event-technology-service todavía: cambiar su slug cambia URLs ya
-publicadas y obliga a redirects 301 por idioma. Revisar con datos de GSC por idioma cuando haya
-(consultas donde las dos páginas aparecen). Si se confirma la canibalización, re-keyear
-event-technology-service en esos 6 idiomas con redirect del slug viejo, en el mismo cambio que su
-actualización de TGE (tanda 1).
-=== FIN #T0030 ===
-
-=== TAREA #T0032 ===
-Estado: pendiente
-Prioridad: media
-Título: Copia del sitio: el mínimo de 400 euros se lee como si aplicara a Sevilla
-Anotada: 2026-09-25
-Origen: migrada
-Nota: prioridad por defecto
----
-Regla (.agents/BUSINESS.md sección 3, site.ts serviceAreas): Sevilla con cobertura completa y sin
-mínimo, Granada solo con reservas de más de 400 euros sin IVA. Los posts ingleses se corrigieron en
-la reescritura del 2026-09-25. Quedan dos frases ambiguas en copia que se publica en 13 idiomas:
-- src/routes/(public)/packages/[slug]/i18n/<locale>.ts, FAQ de zona: "We also service Seville and
-  Granada (for orders over {price:outOfProvinceMinimum})": el paréntesis se puede leer como si
-  valiera para las dos ciudades.
-- src/lib/data/faq.ts (~176) y sus 12 traducciones en src/lib/i18n/data/<locale>.ts: "For more
-  distant, out of province destinations such as Granada, we require a minimum...": "such as"
-  sugiere que hay otros destinos con mínimo.
-Arreglo: reescribir las dos en inglés y en los 12 idiomas en el mismo cambio, con la fecha de la
-página o del paquete actualizada (regla de frescura).
-=== FIN #T0032 ===
 
 === TAREA #T0033 ===
 Estado: pendiente
@@ -480,7 +505,7 @@ Prioridad: media
 Título: Posts existentes: mención a TGE + FAQs nuevas, en todos los idiomas
 Anotada: 2026-09-25
 Origen: migrada
-Nota: prioridad por defecto
+Nota: prioridad asignada por content-strategist el 2026-09-30: Es un pedido del usuario para anadir menciones y FAQs sobre Top Group Express en posts existentes, un beneficio de negocio real pero sin fecha limite ni bloqueo de publicacion mencionado.
 ---
 VA ANTES que "Contenido pendiente: congresos y eventos corporativos" (más abajo). Pedido del
 usuario: actualizar los posts publicados con contenido relevante que enlace a Top Group Express
@@ -957,31 +982,6 @@ Nota: estado por confirmar (tenía "❌ ✅"), prioridad por defecto
 Añade soporte para OpenGraph según corresponda.
 === FIN #T0009 ===
 
-=== TAREA #T0015 ===
-Estado: pendiente
-Prioridad: media
-Título: Performance /blog/ (PSI móvil 66 -> objetivo 85+)
-Anotada: sin fecha
-Origen: migrada
-Nota: estado por confirmar (tenía "❌ ✅"), prioridad por defecto
----
-Diagnóstico (Lighthouse propio contra nuevo.malagaeventgear.com/blog/, 2026-06-10):
-
-CORRECCIÓN a la nota anterior de /packages/: el challenge-platform de Bot Fight Mode SÍ afecta el score, y mucho. jsd/main.js consume 5,333ms de CPU (throttle 4x), con un long task de 2,669ms ANTES del FCP -> por eso TBT=0 y no aparece como culpable. El desglose del LCP lo confirma: element render delay 1,750ms = 67% del LCP (la imagen ya descargó pero el main thread está ocupado). Está inyectado en producción Y staging.
-
-✅ Aplicado (repo): re-compresión de los rungs 600w/700w de covers de q82 a q70 + cwebp -m 6 (~-31% por imagen: LCP image 52.2KB -> 36.6KB). Scripts gen-cover-variants.ts (ahora con QUALITY/FORCE env) y gen-cover-thumbs.ts (dedup de rungs por ancho). Archivos ya subidos a R2 + cover-thumbs.json regenerado.
-
-PENDIENTE (Cloudflare dashboard, NO repo):
-
-1. Purge de cache CDN: los 78 rungs regenerados mantienen el mismo nombre con max-age=1y -> el edge sigue sirviendo los viejos. Caching > Configuration > Purge by URL (máx 30 por tanda), lista completa en __utils/purge-cover-rungs.txt.
-
-2. Bot Fight Mode / JavaScript Detections: Off (Security > Bots). Vale ~25-30 puntos de PSI en /blog/. Los formularios ya están protegidos por Turnstile; BFM solo aporta anti-scraping genérico. DECISIÓN PENDIENTE del usuario (evaluar tradeoff seguridad/performance).
-
-3. (Opcional) Zaraz s.js aparece en staging sin cache TTL (7KB): revisar si se está usando; si no, desactivarlo.
-
-Verificación tras deploy + purge + toggle: npx lighthouse https://malagaeventgear.com/blog/ --only-categories=performance --form-factor=mobile -> objetivo FCP <2.5s, LCP <3s, score >=85. (nuevo.malagaeventgear.com fue dado de baja, ya no resuelve; usar producción o localhost:4173).
-=== FIN #T0015 ===
-
 === TAREA #T0019 ===
 Estado: pendiente
 Prioridad: media
@@ -1006,6 +1006,22 @@ questions-to-ask-wedding-rental-companies.
 === FIN #T0019 ===
 
 == BLOQUEADAS ==
+
+=== TAREA #T0043 ===
+Estado: bloqueada
+Prioridad: alta
+Título: Pregunta FAQ en /blog/audio-visual-rental-for-outdoor-events/: "Do you rent an inflatable movie screen for an outdoor event?"
+Anotada: 2026-09-30
+Origen: content-strategist (plan 2026-09-30, ítem 5)
+Nota: bloqueada hasta terminar las traducciones de todos los posts
+---
+Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).
+Archivo: src/content/blog/audio-visual-rental-for-outdoor-events.svx
+Keywords: inflatable movie screen rental (google-ads 110/mo (in tier 100)), dentro del tier
+Qué cubrir: Responder con honestidad que una pantalla inflable de cine al aire libre no esta en el inventario propio de MEG: confirmado, no aparece en .agents/context/inventario/2026.09.26 - Equipamiento.csv ni en packages.ts (las unicas pantallas propias son las del projector-rental.svx, 2x2m fijas, no inflables). Encuadrar la respuesta segun la capa 2 de 'Posicionamiento: soluciones integrales para eventos' de CLAUDE.md: invitar al cliente a contar que necesita para que MEG lo busque con sus proveedores, sin mencionar marca, modelo, precio, disponibilidad ni plazo, y sin dar a entender que es equipo propio de MEG. Enlazar a projector-rental.svx para la opcion de pantalla propia si el evento es en un espacio cerrado o con electricidad estable.
+Por qué: Revise /blog/projector-rental/ (pantallas propias 2x2m, no inflables, 'What We Don't Stock' no menciona pantallas de cine al aire libre) y /blog/audio-visual-rental-for-outdoor-events/ (FAQs actuales: lluvia, generador, sonido exterior, terreno, plazo de reserva, ninguna sobre pantallas). Es una necesidad real de evento (cine de verano/noche de pelicula al aire libre) que MEG no tiene en inventario propio pero puede resolver por proveedores segun el modelo de posicionamiento de CLAUDE.md, asi que no es un skip por Fit, y el hueco real esta en el post de eventos al aire libre, no en uno nuevo (no pasaria Goldilocks como post independiente con esta unica evidencia).
+Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate.
+=== FIN #T0043 ===
 
 === TAREA #T0037 ===
 Estado: bloqueada
@@ -1099,6 +1115,26 @@ Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate.
 === FIN #T0041 ===
 
 == HECHAS ==
+
+=== TAREA #T0044 ===
+Estado: hecha
+Prioridad: baja
+Título: Descartadas por content-strategist el 2026-09-30
+Anotada: 2026-09-30
+Hecha: 2026-09-30
+Origen: content-strategist (plan 2026-09-30, descartes)
+---
+Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).
+hire a projector (Revise /blog/projector-rental/: keyword de frontmatter literalmente 'projector rental', titulo, tabla de precios por lumens y FAQ 'How much does a projector rental cost?' ya cubren por completo la intencion de alquilar un proyector, con precio real y sin forma de cotizacion generica. Un heading o post nuevo solo repetiria el mismo contenido y arriesgaria solape de silo (creating-helpful-content.md: no crear contenido solo porque hay volumen de busqueda).)
+microphone speaker rental (Las seis variantes son la misma intencion (alquilar un microfono y un altavoz, un sistema PA basico). Revise /blog/sound-system-rental/ (no aparecia en la busqueda inicial por palabra clave porque su keyword de frontmatter es 'sound system rental', sin las palabras microphone/speaker): tiene la tabla de paquetes por invitados, la seccion 'PA System or DJ Sound: Matching Equipment to the Event', y FAQs literales 'Is a PA system rental the same as a sound system rental?' (responde que si, sinonimos) y 'Can I rent just speakers, without a microphone or technician?' que ya cubren el Eco Pack (2 altavoces activos, 1 microfono dinamico, 290 euros, hasta 50 invitados). Los dos AI prompts de sound-system-hire tambien quedan respondidos por esta misma pagina (Wedding Pack con microfonos inalambricos, MICE Pack para corporativo). Crear un post nuevo o un heading duplicaria esta pagina y violaria la regla de un keyword por silo.)
+music equipment rental (MEG no alquila instrumentos musicales, solo el sonido para reproducirlos. Revise /blog/audio-visual-rental-for-music-performances/ (DJ Set, Live Band o Duo) y la seccion 'PA System or DJ Sound: Matching Equipment to the Event' de /blog/sound-system-rental/ (Eco Pack como PA autonomo para DJ o banda): ambas ya cubren la intencion real detras de este termino generico. Un post nuevo duplicaria contenido ya existente en el mismo silo.)
+audio for rent (Intencion generica de alquilar equipo de audio. Revise /blog/sound-system-rental/ (keyword 'sound system rental', tabla completa de paquetes con precio y FAQ 'What is included in a sound system rental?') y el pilar /blog/audio-visual-rental/ (seccion 'Audio Visual Equipment We Rent in Malaga' y FAQ 'What audio visual equipment can I rent...'/'How much does audio visual rental cost...'): ambos ya responden esta intencion a fondo. Un heading o post nuevo canibalizaria el propio termino cabeza del silo.)
+audio and video equipment rental (Variante lexica casi identica al keyword cabeza del pilar 'audio visual rental' (/blog/audio-visual-rental/), que ya ranquea en GSC (~pos 17, 24 impresiones) para este termino. Subo la prioridad a alta por el ranking en pagina 2/3 con impresiones reales, pero la accion sigue siendo skip: crear contenido nuevo duplicaria el termino cabeza y rompe la regla de un keyword por silo.)
+audio visual equipment hire service (Coincide casi literal con el keyword del pilar /blog/audiovisual-equipment-rental-service/ (equipo especializado: proyector 5000 lumenes, microfonos inalambricos, LED de 60 pulgadas, staging), que ya ranquea en GSC (~pos 15, 24 impresiones). Prioridad subida a alta por el ranking en pagina 2/3 con impresiones reales; sigue siendo skip porque anadir contenido duplicaria el propio pilar.)
+lighting rental (Ya ranquea en posicion 3.31 con 26 impresiones para el pilar /blog/stage-lighting-rental/, el unico contenido de iluminacion de eventos de MEG. La posicion 3.31 esta fuera del rango de pagina 2/3 (8 a 30) que justificaria subir prioridad, y el rendimiento ya es excelente: no hace falta heading ni post nuevo.)
+led screen hire for events (Revise /blog/tv-screen-rental/: cubre la pantalla propia de 60 pulgadas ('big screen') y tiene la seccion 'What We Don't Stock: LED Video Walls and Modular LED Panels' mas la FAQ 'Do you rent LED video walls or modular LED panels?' con el encuadre correcto de proveedores para el video wall ('led screen'). Prioridad subida a alta por el ranking en pagina 2/3 con impresiones reales; sigue siendo skip porque ambos terminos ya estan respondidos sin necesidad de heading nuevo.)
+malaga wedding packages (Revise el pilar /blog/wedding-rentals/: ya cubre 'What's Included in the Wedding Pack', precio (650 euros), invitados (80) y la FAQ 'How much do wedding rentals cost in Malaga?'; tambien revise /blog/all-in-one-wedding-rental-packages/ por posible solape, sin conflicto. El termino generico 'paquetes de boda en Malaga' es la intencion central del propio pilar del silo wedding rentals, no una necesidad distinta. Prioridad subida a alta por el ranking en pagina 2/3 (pos 15) con impresiones reales.)
+=== FIN #T0044 ===
 
 === TAREA #T0042 ===
 Estado: hecha

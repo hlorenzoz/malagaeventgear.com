@@ -1,5 +1,5 @@
 /**
- * keywords-file.test.ts: guards over the real, committed root `keywords.json`. Reads project
+ * keywords-file.test.ts: guards over the real, committed `.agents/data/keywords.json`. Reads project
  * files via `import.meta.glob` (never `node:fs`, per CLAUDE.md "Tests que leen archivos del
  * proyecto"), unlike the importer scripts themselves which run standalone under bun and use
  * node:fs (same pattern as scripts/backfill-silo-meta.ts).
@@ -19,7 +19,7 @@ import { KeywordsFileSchema, SOURCE_KEYS } from './schema';
 import { normalizeId } from './normalize';
 import { BlogPostSchema } from '../../src/lib/types/blog';
 
-const rawKeywordsFile = import.meta.glob('/keywords.json', {
+const rawKeywordsFile = import.meta.glob('/.agents/data/keywords.json', {
 	query: '?raw',
 	import: 'default',
 	eager: true
@@ -32,8 +32,8 @@ const rawPosts = import.meta.glob('/src/content/blog/*.svx', {
 }) as Record<string, string>;
 
 function rawText(): string {
-	const raw = rawKeywordsFile['/keywords.json'];
-	if (!raw) throw new Error('keywords.json not found: run `just keywords-sync` first');
+	const raw = rawKeywordsFile['/.agents/data/keywords.json'];
+	if (!raw) throw new Error('.agents/data/keywords.json not found: run `just keywords-sync` first');
 	return raw;
 }
 

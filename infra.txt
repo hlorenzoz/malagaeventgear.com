@@ -174,7 +174,6 @@ IndexNow
 .
 |-- CLAUDE.md                 Contrato del proyecto para humanos y agentes de IA
 |-- DESIGN.md                 Sistema de diseño (tokens, tipografia, componentes)
-|-- SEO.md                    Estrategia de contenido y SEO
 |-- Justfile                  Todos los comandos del proyecto
 |-- wrangler.toml             Config del Worker principal
 |-- _headers / _redirects     Cabeceras de cache/seguridad y redirects
@@ -182,7 +181,8 @@ IndexNow
 |-- .pre-commit-config.yaml   Hooks de git
 |-- .mcp.json                 chrome-devtools-mcp para medir en navegador real
 |-- .agents/                  Base de conocimiento: BUSINESS.md, CHANGELOG.md,
-|                             STRUCTURED_DATA.md, WP_MIGRATION.md, context/ (datos del cliente)
+|                             STRUCTURED_DATA.md, WP_MIGRATION.md, context/ (datos del cliente, SEO.md, TGE.txt),
+|                             data/ (keywords.json, TODO.txt: generados por scripts)
 |-- docs/                     Runbooks y ADRs (deploy de leads, blog, datos estructurados,
 |                             investigaciones de performance)
 |-- migrations/               SQL de D1 versionado
@@ -608,7 +608,9 @@ Honestidad del contenido
   .agents/STRUCTURED_DATA.md, docs/structured-data.md   Estrategia de JSON-LD por tipo de pagina
   .agents/context/          Material del cliente (inventario CSV, GBP, exports de GSC fechados)
   docs/                     Runbooks (deploy, DMARC) e investigaciones (performance)
-  DESIGN.md / SEO.md        Diseño y estrategia de contenido
+  DESIGN.md                 Diseño
+  .agents/context/SEO.md    Estrategia de contenido y SEO
+  .agents/data/             keywords.json y TODO.txt (los escriben los scripts)
   .mcp.json                 chrome-devtools-mcp
   SDD (Spec Driven Development): explore -> propose -> spec -> design -> tasks -> apply ->
   verify -> archive, con artefactos persistidos (engram u openspec/).

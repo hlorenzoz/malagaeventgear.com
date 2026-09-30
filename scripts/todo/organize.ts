@@ -18,10 +18,10 @@
  */
 
 import { existsSync, readFileSync, renameSync, statSync, writeFileSync } from 'node:fs';
-import { join } from 'node:path';
 import { readCommittedPlans } from '../keywords/importers/content-plan';
 import type { ContentPlan } from '../keywords/plan.schema';
 import { readTranslationBacklog } from '../keywords/new-post-quota';
+import { keywordsPath, todoPath } from '../paths';
 import {
 	applyPriorities,
 	applyTranslationGate,
@@ -179,10 +179,10 @@ function flag(argv: string[], name: string): string | undefined {
 }
 
 function run(argv: string[]): number {
-	const file = flag(argv, '--file') ?? join(process.cwd(), 'TODO.txt');
+	const file = flag(argv, '--file') ?? todoPath();
 	const ctxBase = {
 		plans: readCommittedPlans(),
-		keywords: readKeywordStatuses(flag(argv, '--keywords') ?? join(process.cwd(), 'keywords.json')),
+		keywords: readKeywordStatuses(flag(argv, '--keywords') ?? keywordsPath()),
 		today: flag(argv, '--today') ?? localToday(),
 		origen: 'usuario',
 		translationsDone: readTranslationBacklog().complete

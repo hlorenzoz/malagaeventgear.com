@@ -77,7 +77,7 @@ updates".
 ### How MEG uses it: order, never a filter (user decision, 2026-09-29)
 
 In this project the tier only decides the ORDER of the work and the priority of each task in
-`TODO.txt`: in-tier keywords first (`alta`), then below the tier and without measured volume
+`.agents/data/TODO.txt`: in-tier keywords first (`alta`), then below the tier and without measured volume
 (`media`), then above the tier (`baja`). It never decides whether content exists. Every keyword
 that is relevant for the site ends up as content, created or updated, whatever its volume.
 `just content-candidates` lists above-tier keywords too, as the last group.
@@ -115,7 +115,7 @@ as current.
   do with keywords below the tier) is not in this file.
 - Kyle does not say which volume source to use. In this repo the monthly volume of a keyword is
   `sources["google-ads"].stats.avgMonthlySearches` or `sources.ubersuggest.stats.volume` in
-  `keywords.json` (see CLAUDE.md, "Investigación de keywords"). Say which one you used.
+  `.agents/data/keywords.json` (see CLAUDE.md, "Investigación de keywords"). Say which one you used.
 - Avalanche is POP's heuristic, not Google's guidance. Google's documentation in
   `.agents/context/seo/` still decides whether a piece of content should exist at all (people
   first, no scaled content, no doorway pages). A keyword inside the tier is a candidate, never a

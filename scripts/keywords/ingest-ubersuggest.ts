@@ -22,7 +22,6 @@
  */
 
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
-import { join } from 'node:path';
 import { KeywordBatchSchema, type KeywordBatch } from './batch.schema';
 import {
 	KeywordsFileSchema,
@@ -38,8 +37,9 @@ import { sanitizeKeywordsFile } from './sanitize';
 import { normalizeId } from './normalize';
 import { checkRelevance } from './relevance';
 import { matchSeedMapping } from './seed-mappings';
+import { keywordsPath } from '../paths';
 
-const OUTPUT_PATH = join(process.cwd(), 'keywords.json');
+const OUTPUT_PATH = keywordsPath();
 
 const UBERSUGGEST_PREFIX = 'ubersuggest-';
 

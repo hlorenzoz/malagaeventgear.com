@@ -4,7 +4,7 @@ Date: 2026-09-25. Repo: malagaeventgear.com (branch feat/i18n).
 
 > Informe del agente de keywords del 2026-09-25, revisado por el orquestador el mismo día: el
 > autocompletado de las 6 keywords principales se volvió a consultar y coincide. Resumen y
-> prioridades en TODO.txt, sección "Contenido pendiente: congresos y eventos corporativos".
+> prioridades en .agents/data/TODO.txt, sección "Contenido pendiente: congresos y eventos corporativos".
 
 ## 1. Method and limits
 
@@ -18,7 +18,7 @@ Sources used:
   related searches, and classify SERP intent by what actually ranks (guide vs rental-company
   service page vs venue directory vs definitional page).
 - Repo files read: all 77 `src/content/blog/*.svx` frontmatter (title, keyword, siloRole,
-  targetPage), `TODO.txt` section "Contenido pendiente: congresos y eventos corporativos" (24
+  targetPage), `.agents/data/TODO.txt` section "Contenido pendiente: congresos y eventos corporativos" (24
   unwritten ideas, dated 2026-09-25, same day as this research), `.agents/context/keywords/
   keyword-silo-map.md` (real GSC data, last updated 2026-09-24), `.agents/context/Equipamiento.csv`
   (real inventory).
@@ -178,7 +178,7 @@ These do not need new URLs. They fit as FAQ entries in posts that are already pu
    ADX12/ADX212) and the same demand signature as the podium mic keyword. Ships as the paired post
    right after item 2.
 7. **`lectern rental`**. Exact-match AC hit (`lectern rental`, `acrylic lectern rental`), real
-   inventory, and a product photo already sitting on the CDN and referenced in TODO.txt, so no new
+   inventory, and a product photo already sitting on the CDN and referenced in .agents/data/TODO.txt, so no new
    asset work is needed.
 8. **`av equipment needed for a conference` (as a new FAQ block, not a new post)**. Very strong,
    near-universal SERP pattern (9 competitors run this exact guide), but it overlaps the existing

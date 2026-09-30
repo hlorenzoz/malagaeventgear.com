@@ -1,5 +1,5 @@
 /**
- * schema.ts: Zod schema for the root `keywords.json` (2026-09-29 sources-per-source redesign,
+ * schema.ts: Zod schema for `.agents/data/keywords.json` (2026-09-29 sources-per-source redesign,
  * replacing the earlier flat `metrics` + `sources: SourceRef[]` shape).
  *
  * Same pattern as `src/lib/data/packages.ts` / `src/lib/i18n/content-map/schema.ts`: one Zod

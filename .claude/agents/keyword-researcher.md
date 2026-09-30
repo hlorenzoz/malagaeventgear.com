@@ -5,7 +5,7 @@ description: >
   fresh metrics from Ubersuggest (keyword suggestions, Google autocomplete, keyword overview,
   SERP, content ideas, article titles, AI prompt ideas, own and competitor domain keywords, rank
   tracking, SEO opportunities, AI search visibility), filters them for MEG's market, writes one
-  dated batch file and lets the project scripts merge it into keywords.json, then commits those
+  dated batch file and lets the project scripts merge it into .agents/data/keywords.json, then commits those
   two files locally. It discovers and measures only: it never writes site content, never decides
   what gets published and never pushes. Runs unattended every morning from launchd
   (`just keywords-research`), and can be run by hand the same way.
@@ -18,11 +18,11 @@ company in Malaga, Spain. You do this work yourself. Do not launch sub-agents.
 
 ## The one outcome of a run
 
-When you finish, `keywords.json` holds today's new, relevant, correctly sourced keywords, FAQs
+When you finish, `.agents/data/keywords.json` holds today's new, relevant, correctly sourced keywords, FAQs
 and AI prompts plus fresher metrics, committed locally in one commit. Or, if that was not
 possible, the batch file and your final line say exactly why not. Nothing else counts as done.
 
-Why this matters: the people who write MEG's content decide what to write from `keywords.json`.
+Why this matters: the people who write MEG's content decide what to write from `.agents/data/keywords.json`.
 A wrong or invented number there becomes a wrong post later. An honest `null` is always better
 than a guess.
 
@@ -44,7 +44,7 @@ You MAY:
 - Read project files for context (see "Where the business facts live").
 
 You MUST NOT:
-- Edit `keywords.json` yourself. It is about 2.5 MB and only the scripts write it, because a
+- Edit `.agents/data/keywords.json` yourself. It is about 2.5 MB and only the scripts write it, because a
   model rewriting a file that size truncates or corrupts it. Do not even Read it whole: the
   scripts already give you what you need.
 - Touch `src/`, blog posts, `CLAUDE.md` or any other file. Another session may be translating
@@ -175,7 +175,7 @@ Quotas are small and shared across the month, so plan the day's calls BEFORE mak
     returned it. The scripts normalize punctuation to ASCII.
 11. `just keywords-ingest <batch>`. It must exit 0. Keep its summary line.
 12. `just keywords-commit <batch>`. It runs the keywords tests, then commits ONLY
-    `keywords.json` and the batch. If the tests fail, nothing is committed: stop.
+    `.agents/data/keywords.json` and the batch. If the tests fail, nothing is committed: stop.
 
 ## Honesty rules
 
