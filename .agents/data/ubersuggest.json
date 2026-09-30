@@ -4,8 +4,8 @@
 	"reports": [
 		{
 			"date": "2026-09-30",
-			"kind": "legacy-weekly",
-			"status": "partial",
+			"kind": "seo-opportunities",
+			"status": "ok",
 			"calls": [
 				{
 					"tool": "user_limits"
@@ -72,15 +72,77 @@
 				},
 				{
 					"tool": "user_limits"
+				},
+				{
+					"tool": "user_limits",
+					"outcome": "ok"
+				},
+				{
+					"tool": "list_projects",
+					"outcome": "ok"
+				},
+				{
+					"tool": "seo_opportunities",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "quota"
+				},
+				{
+					"tool": "user_limits",
+					"outcome": "ok"
 				}
 			],
 			"summary": [
-				"22 filas de ranking, 70 prompts de IA"
+				"KEYWORD_OPPORTUNITY new_content 3, existing_content 0, quick_win 0",
+				"SITE_AUDIT title_long 1, title_short 1, content_count_words 1 (all other site-audit checks 0)"
 			],
-			"findings": [],
+			"findings": [
+				{
+					"key": "keyword/new-content/audiovisual-equipment-rental-service",
+					"title": "Oportunidad de keyword \"audiovisual equipment rental service\" (new_content)"
+				},
+				{
+					"key": "keyword/new-content/speaker-and-microphone-rental",
+					"title": "Oportunidad de keyword \"speaker and microphone rental\" (new_content)"
+				},
+				{
+					"key": "keyword/new-content/projector-hire",
+					"title": "Oportunidad de keyword \"projector hire\" (new_content)"
+				},
+				{
+					"key": "site-audit/content-count-words",
+					"title": "Arreglar la auditoria: content_count_words (4 paginas)"
+				},
+				{
+					"key": "site-audit/title-long",
+					"title": "Arreglar la auditoria: title_long (6 paginas)"
+				},
+				{
+					"key": "site-audit/title-short",
+					"title": "Arreglar la auditoria: title_short (1 paginas)"
+				}
+			],
 			"discovered": {
 				"keywords": 68,
-				"aiPrompts": 70
+				"aiPrompts": 90
 			}
 		}
 	]
