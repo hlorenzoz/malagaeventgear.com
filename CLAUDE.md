@@ -1416,7 +1416,7 @@ números que lo justifican.
 
 ### El agente diario
 
-`.claude/agents/keyword-researcher.md` corre sin supervisión (`just keywords-research`, o
+`.claude/agents/ubersuggest-analyst.md` corre sin supervisión (`just keywords-research`, o
 programado a las 09:00 con `just keywords-schedule-install`, plantilla en
 `scripts/keywords/launchd/`) contra el MCP de Ubersuggest, que está en **este Mac**, no en la nube
 (por eso el scheduler es `launchd`, no un cron remoto). Límites reales:

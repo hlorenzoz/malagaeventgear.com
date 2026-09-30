@@ -1,6 +1,6 @@
 /**
  * batch.schema.ts: Zod schema for the daily Ubersuggest batch file, written by the
- * keyword-researcher agent to `.agents/context/keywords/ubersuggest/YYYY-MM-DD.json` (plan,
+ * ubersuggest-analyst agent to `.agents/context/keywords/ubersuggest/YYYY-MM-DD.json` (plan,
  * "Diseño" 3b, 3b table row "Las mutaciones van por scripts deterministas"). The agent NEVER
  * touches `keywords.json` directly: it produces one of these, and `ingest-ubersuggest.ts`
  * validates it through this schema before merging anything in. If a batch fails this schema,

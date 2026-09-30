@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
 /**
- * agent-json.ts: prints `.claude/agents/<name>.md` (default `keyword-researcher`) as the JSON that
+ * agent-json.ts: prints `.claude/agents/<name>.md` (default `ubersuggest-analyst`) as the JSON that
  * `claude --agents` takes. The scheduled run uses `--setting-sources ""` so that no settings
  * allowlist leaks into its permissions, and that also stops the CLI from loading project agents.
  * Converting the file on every run keeps the markdown as the only source of the agent.
@@ -61,7 +61,7 @@ export function agentMarkdownToJson(markdown: string): Record<string, AgentJson>
 
 /** Pure: the agent file a CLI argument points to. */
 export function resolveAgentPath(arg: string | undefined, cwd: string): string {
-	const target = arg || 'keyword-researcher';
+	const target = arg || 'ubersuggest-analyst';
 	if (target.includes('/') || target.endsWith('.md')) return join(cwd, target);
 	return join(cwd, '.claude/agents', `${target}.md`);
 }

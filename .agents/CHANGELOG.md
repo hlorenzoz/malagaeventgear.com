@@ -7,6 +7,10 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (agents): `keyword-researcher` pasa a llamarse `ubersuggest-analyst`
+- **Decisión del usuario (2026-09-30)**: el nombre viejo describía solo una de sus tareas. Cambia el archivo del agente, `agent-json.ts` y su test, `--agent` en el `Justfile`, `.gitignore` y `CLAUDE.md`.
+- No cambian las recetas `just keywords-research` y `just keywords-daily`, la etiqueta de launchd ni el log: nombran el pipeline de `keywords.json`.
+
 ### Changed (todo): la lista de tareas pasa de `TODO.txt` a `.agents/data/TODO.json`
 - **Decisión del usuario (2026-09-30)**: tareas en JSON, para organizarlas por prioridad y por tipo de tarea.
 - **Formato** (`scripts/todo/todo-json.ts`, strict TDD): `{ version, updated, tasks }` validado con Zod estricto. Una clave desconocida, un valor fuera de las listas o un id repetido hacen fallar el comando con el campo en el mensaje y no se escribe nada. `notas` es una lista, `anotada` y `hecha` son fecha o `null`, y la descripción es un elemento por línea. `updated` solo se mueve cuando el archivo cambia.

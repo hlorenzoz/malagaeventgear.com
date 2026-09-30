@@ -2,7 +2,7 @@
 /**
  * ingest-ubersuggest.ts: validates and merges one daily Ubersuggest batch file into the root
  * `keywords.json`. This and `sync.ts` are the ONLY two scripts allowed to write `keywords.json`.
- * The keyword-researcher agent never touches the file directly: it writes a batch matching
+ * The ubersuggest-analyst agent never touches the file directly: it writes a batch matching
  * `batch.schema.ts`, and this script does the actual mutation, after validating and re-applying
  * the same relevance/seed-mapping rules every other source goes through (a batch the agent wrote
  * is still just data here, never trusted blindly).

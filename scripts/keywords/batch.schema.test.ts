@@ -1,7 +1,7 @@
 /**
  * batch.schema.test.ts: Zod schema for the daily Ubersuggest batch file
  * (`.agents/context/keywords/ubersuggest/YYYY-MM-DD.json`, plan section "Alcance", scope point 1).
- * This is the ONLY shape the keyword-researcher agent is allowed to write. `ingest-ubersuggest.ts`
+ * This is the ONLY shape the ubersuggest-analyst agent is allowed to write. `ingest-ubersuggest.ts`
  * validates every batch through this schema before merging it into keywords.json.
  */
 import { describe, it, expect } from 'vitest';

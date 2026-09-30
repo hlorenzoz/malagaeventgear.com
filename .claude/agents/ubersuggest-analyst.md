@@ -1,7 +1,7 @@
 ---
-name: keyword-researcher
+name: ubersuggest-analyst
 description: >
-  Daily keyword, FAQ and AI prompt discovery for Malaga Event Gear (MEG). Pulls new ideas and
+  Daily Ubersuggest analysis for Malaga Event Gear (MEG): keyword, FAQ and AI prompt discovery. Pulls new ideas and
   fresh metrics from Ubersuggest (keyword suggestions, Google autocomplete, keyword overview,
   SERP, content ideas, article titles, AI prompt ideas, own and competitor domain keywords, rank
   tracking, SEO opportunities, AI search visibility), filters them for MEG's market, writes one
