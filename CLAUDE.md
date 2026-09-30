@@ -1424,8 +1424,8 @@ programado a las 09:00 con `just keywords-schedule-install`, plantilla en
 - **Ubersuggest está en free tier**: el límite que manda es `reports`, 3 por DÍA (medido en la
   primera corrida, 2026-09-29: una sola llamada a `keyword_suggestions` lo agotó). `google_suggestions`,
   `industry_prompts` y `article_title_suggestions` siguieron funcionando con `reports` en 0, así que
-  el agente las hace primero para las 3 semillas, y gasta `reports` en una sola prioridad (la
-  sección semanal cuando toca, si no la primera semilla). Cuota mensual de
+  el agente hace PRIMERO el reporte del día (ver más abajo), después esas llamadas gratuitas para las
+  3 semillas, y gasta los `reports` que sobren en la primera semilla. Cuota mensual de
   `brand_operations` para AI Prompt Ideas. El agente lee `user_limits` al arrancar y se detiene si
   no hay cuota, dejándolo registrado en el lote del día.
 - **El autocompletado de Google NO es People Also Ask.** Las sugerencias de `google_suggestions`
@@ -1433,19 +1433,39 @@ programado a las 09:00 con `just keywords-schedule-install`, plantilla en
   como PAA.
 - El agente **solo descubre** (`idea`) y actualiza métricas. Nunca escribe contenido, nunca cambia
   un estado a `published`, nunca hace `push` (solo commit local, rama actual).
-- Cadencia dentro de la corrida diaria: la mayoría de las secciones de Ubersuggest son diarias por
-  semilla. Domain Keywords, Rank Tracking, SEO Opportunities y AI Search Visibility son semanales
-  (si pasaron 7 días desde `meta.lastWeeklyRun`, sea el día que sea). `keyword_metrics` (SD e
-  intent) es mensual (`meta.lastMonthlyRun`), dentro de la cuota. Ambas fechas viven en
-  `.agents/data/keywords.json`, así no dependen de que el Mac estuviera encendido un día exacto. El agente
-  nunca abre `.agents/data/keywords.json` (pesa unos 1,7 MB): `just keywords-seeds` le da las 3 semillas y la
-  agenda del día (`weeklyDue`, `monthlyDue`). Las semillas salen de keywords `published` o
-  `planned`, nunca de los clusters `news` ni `standalone` (su keyword es un titular, no una
-  búsqueda).
+- **Reporte del día (2026-09-30)**: cada día corre UN reporte distinto de Ubersuggest, en rotación
+  (`scripts/keywords/report-of-day.ts`): `seo-opportunities`, `ai-visibility`, `domain-keywords`,
+  `competitor-keywords`, `rank-tracking`, `backlinks`, `top-pages`. Elige el que hace más tiempo no
+  corre (no un día fijo de la semana), así un día con el Mac apagado atrasa la rotación y no saltea
+  nada. Un reintento el mismo día repite el mismo reporte, y uno `failed` cuenta como corrido. El
+  agente copia los datos a `report` en el lote y NUNCA redacta hallazgos, claves ni tareas: los
+  deriva `report-findings.ts` y los convierte en tareas `report-tasks.ts`.
+  - **Tareas** (`TODO.json`, Origen `ubersuggest (<reporte>, <clave>)`, sin fecha: un hallazgo que se
+    repite es UNA tarea). Prioridad `alta` para `seo-opportunities`, `ai-visibility`,
+    `domain-keywords` y `competitor-keywords`. `backlinks` y `top-pages` solo van al registro hasta
+    tener un lote real. **Bloqueo por traducciones (decisión del usuario, 2026-09-30)**: solo los
+    fixes de auditoría (`site-audit/...`) NO se bloquean. El resto (keywords, prompts de IA, caídas
+    de ranking) nace `bloqueada` y se destraba sola al terminar las traducciones.
+  - **Visibilidad en IA**: un prompt está evaluado solo si `total_answers` es mayor que 0. Uno sin
+    evaluar es "sin datos", nunca "no aparecemos". Hay tarea solo para un prompt evaluado sin la marca.
+  - **Cierre y reapertura**: una tarea se cierra cuando una vista COMPLETA (`status: ok`) del mismo
+    reporte ya no trae el hallazgo. Una respuesta cortada o un 403 nunca cierra nada. Las de
+    `competitor-keywords` solo se cierran si `keywords.json` marca la keyword `covered` o
+    `published`. Si el hallazgo vuelve 7 días o más después de `Hecha`, la tarea se reabre, salvo que
+    su Nota diga `no reabrir`.
+  - **Registro**: `.agents/data/ubersuggest.json` lo genera un script desde los lotes commiteados
+    (`just keywords-report-log`, y lo corre `keywords-commit`). Nadie lo edita a mano.
+- Cadencia del resto: `keyword_metrics` (SD e intent) es mensual (`meta.lastMonthlyRun`), dentro de
+  la cuota, y la fecha vive en `.agents/data/keywords.json`. El agente nunca abre ese archivo (pesa
+  unos 1,7 MB): `just keywords-seeds` le da la agenda del día (`monthlyDue`, `report`) y las 3
+  semillas, que salen de keywords `published` o `planned`, nunca de los clusters `news` ni
+  `standalone` (su keyword es un titular, no una búsqueda). `run.weeklyRun` y `meta.lastWeeklyRun`
+  quedan en los schemas solo porque el lote del 2026-09-30 los usa.
 - **Commit**: solo por `just keywords-commit <lote>`, que corre los tests de `scripts/keywords` y
-  commitea SOLO `.agents/data/keywords.json` y el lote. Va con `--no-verify` a propósito: el hook de
-  pre-commit guarda en stash los cambios sin stagear y pisaría el trabajo de otra sesión que
-  edite el repo al mismo tiempo (las traducciones, por ejemplo).
+  commitea SOLO `.agents/data/keywords.json`, el lote y `.agents/data/ubersuggest.json` (lo regenera
+  antes de commitear). Va con `--no-verify` a propósito: el hook de pre-commit guarda en stash los
+  cambios sin stagear y pisaría el trabajo de otra sesión que edite el repo al mismo tiempo (las
+  traducciones, por ejemplo).
 - **Permisos (la barrera real, no el prompt)**: `just keywords-research` corre con
   `--setting-sources ""`, sin cargar ningún settings. El `allow` global del usuario y el de
   `.claude/settings.json` (local, con cientos de reglas) se sumarían a `--allowedTools`. Por eso el

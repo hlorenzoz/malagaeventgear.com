@@ -7,6 +7,13 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Added (keywords): reporte diario rotativo de Ubersuggest, registro fechado y tareas por hallazgo
+- **Decisión del usuario (2026-09-30)**: un reporte distinto por día (SEO Opportunities, AI Search Visibility, Domain Keywords, Competitor Keywords, Rank Tracking, Backlinks, Top Pages), con prioridad `alta` para los cuatro primeros y bloqueo por traducciones salvo los fixes de auditoría.
+- `report-of-day.ts` (rotación por "el que hace más tiempo no corre"), `report-findings.ts` (hallazgos y claves estables, `rankDrops`, `oneLine`), `report-log.ts` y `write-report-log.ts` (genera `.agents/data/ubersuggest.json`), `batches.ts` (lector compartido, estricto o tolerante), `scripts/todo/report-tasks.ts` (tareas, cierre por vista completa, reapertura a los 7 días) y `upsertTasks` en `plan-tasks.ts`.
+- `batch.schema.ts`: `report`, `visibility.evaluated`, `rank.previousPosition` y `calls.outcome`, todo opcional. `just keywords-seeds` imprime `report` y ya no `weeklyDue`.
+- Un prompt de IA cuenta como evaluado solo con `total_answers` mayor que 0 (medido en `brand_prompts` el 2026-09-30: 7 de 10 no tenían respuestas).
+- `keywords-commit` regenera y commitea `ubersuggest.json`. Las recetas `keywords-research` suman solo herramientas de lectura.
+
 ### Changed (agents): `keyword-researcher` pasa a llamarse `ubersuggest-analyst`
 - **Decisión del usuario (2026-09-30)**: el nombre viejo describía solo una de sus tareas. Cambia el archivo del agente, `agent-json.ts` y su test, `--agent` en el `Justfile`, `.gitignore` y `CLAUDE.md`.
 - No cambian las recetas `just keywords-research` y `just keywords-daily`, la etiqueta de launchd ni el log: nombran el pipeline de `keywords.json`.
