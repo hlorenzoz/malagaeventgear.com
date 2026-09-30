@@ -47,6 +47,9 @@ const batchResearch = z
 
 const batchVisibility = z.object({
 	mentioned: z.boolean(),
+	/** True when Ubersuggest actually ran the prompt (brand_prompts `total_answers` > 0). A prompt
+	 *  with 0 answers is "not evaluated", never "we do not appear". */
+	evaluated: z.boolean().optional(),
 	position: z.number().nullable().optional(),
 	brands: z.array(z.string()).optional(),
 	provider: z.string().nullable().optional(),
@@ -96,6 +99,8 @@ export const BatchDiscardedSchema = z.object({
 export const BatchRankSchema = z.object({
 	keyword: z.string().min(1),
 	position: z.number().nullable(),
+	/** Position in the previous report, when the tool gives it. */
+	previousPosition: z.number().nullable().optional(),
 	rankingUrl: z.string().nullable(),
 	asOf: dateOnly
 });
@@ -103,7 +108,8 @@ export const BatchRankSchema = z.object({
 /** One MCP call the agent made today, logged for audit (never raw secrets/tokens in `args`). */
 export const BatchCallSchema = z.object({
 	tool: z.string().min(1),
-	args: z.string().optional()
+	args: z.string().optional(),
+	outcome: z.enum(['ok', 'empty', 'failed', 'quota']).optional()
 });
 
 /** A step the agent chose not to run today (e.g. quota exhausted), and why: the agent logs this
@@ -129,6 +135,45 @@ export const BatchRunSchema = z.object({
 	monthlyRun: z.boolean().optional()
 });
 
+export const REPORT_KINDS = [
+	'seo-opportunities',
+	'ai-visibility',
+	'domain-keywords',
+	'competitor-keywords',
+	'rank-tracking',
+	'backlinks',
+	'top-pages'
+] as const;
+export type ReportKind = (typeof REPORT_KINDS)[number];
+
+/** One SEO Opportunities finding, copied as-is from `seo_opportunities` (the agent never words it). */
+export const BatchSeoFindingSchema = z.object({
+	type: z.string().min(1),
+	subtype: z.string().min(1),
+	keyword: z.string().min(1).optional(),
+	count: z.number().optional(),
+	impact: z.string().optional(),
+	effort: z.string().optional()
+});
+
+/** A generic row for report kinds that have no measured shape yet. */
+export const BatchReportRowSchema = z.object({
+	label: z.string().min(1),
+	values: z.record(z.string(), z.union([z.string(), z.number(), z.boolean(), z.null()]))
+});
+
+/** The report of the day (rotation, see `report-of-day.ts`): copied data, never findings or tasks. */
+export const BatchReportSchema = z.object({
+	kind: z.enum(REPORT_KINDS),
+	status: z.enum(['ok', 'partial', 'failed']),
+	reason: z.string().optional(),
+	summary: z.array(z.string()).default([]),
+	metrics: z.record(z.string(), z.number()).default({}),
+	seoCounts: z.record(z.string(), z.number()).default({}),
+	seo: z.array(BatchSeoFindingSchema).default([]),
+	rows: z.array(BatchReportRowSchema).default([])
+});
+
 export const KeywordBatchSchema = z.object({
 	date: dateOnly,
 	run: BatchRunSchema,
@@ -138,7 +183,8 @@ export const KeywordBatchSchema = z.object({
 	/** Research (SERP/content ideas/title ideas) keyed by the keyword text it was gathered for. */
 	research: z.record(z.string(), batchResearch).default({}),
 	rank: z.array(BatchRankSchema).default([]),
-	discarded: z.array(BatchDiscardedSchema).default([])
+	discarded: z.array(BatchDiscardedSchema).default([]),
+	report: BatchReportSchema.optional()
 });
 
 export type KeywordBatch = z.infer<typeof KeywordBatchSchema>;

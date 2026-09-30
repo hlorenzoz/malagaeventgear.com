@@ -121,3 +121,71 @@ describe('KeywordBatchSchema', () => {
 		expect(KeywordBatchSchema.safeParse(batch).success).toBe(false);
 	});
 });
+
+describe('KeywordBatchSchema: daily report section', () => {
+	const base = { date: '2026-10-01', run: { status: 'ok' as const } };
+
+	it('accepts a batch without a report (the batches committed before the rotation)', () => {
+		expect(KeywordBatchSchema.parse(base).report).toBeUndefined();
+	});
+
+	it('accepts a typed report with seo findings and generic rows', () => {
+		const parsed = KeywordBatchSchema.parse({
+			...base,
+			report: {
+				kind: 'seo-opportunities',
+				status: 'ok',
+				summary: ['3 keyword opportunities'],
+				metrics: { total: 3 },
+				seoCounts: { SITE_AUDIT: 2 },
+				seo: [{ type: 'SITE_AUDIT', subtype: 'long_titles', count: 4, impact: 'high', effort: 'low' }],
+				rows: [{ label: 'x', values: { position: 4 } }]
+			}
+		});
+		expect(parsed.report?.seo[0].subtype).toBe('long_titles');
+	});
+
+	it('defaults the report lists to empty', () => {
+		const parsed = KeywordBatchSchema.parse({ ...base, report: { kind: 'backlinks', status: 'partial' } });
+		expect(parsed.report).toMatchObject({ summary: [], seo: [], rows: [], metrics: {}, seoCounts: {} });
+	});
+
+	it('rejects an unknown report kind or status', () => {
+		expect(() => KeywordBatchSchema.parse({ ...base, report: { kind: 'nope', status: 'ok' } })).toThrow();
+		expect(() => KeywordBatchSchema.parse({ ...base, report: { kind: 'backlinks', status: 'meh' } })).toThrow();
+	});
+
+	it('accepts evaluated on a visibility, previousPosition on a rank and outcome on a call', () => {
+		const parsed = KeywordBatchSchema.parse({
+			...base,
+			aiPrompts: [
+				{
+					prompt: 'p',
+					source: 'ubersuggest-brand',
+					visibility: { mentioned: false, evaluated: true, asOf: '2026-10-01' }
+				}
+			],
+			rank: [{ keyword: 'k', position: 5, previousPosition: 3, rankingUrl: null, asOf: '2026-10-01' }],
+			run: { status: 'ok', calls: [{ tool: 'domain_keywords', outcome: 'empty' }] }
+		});
+		expect(parsed.aiPrompts[0].visibility?.evaluated).toBe(true);
+		expect(parsed.rank[0].previousPosition).toBe(3);
+		expect(parsed.run.calls[0].outcome).toBe('empty');
+	});
+});
+
+describe('the committed batches', () => {
+	const files = import.meta.glob('/.agents/context/keywords/ubersuggest/*.json', {
+		query: '?raw',
+		import: 'default',
+		eager: true
+	}) as Record<string, string>;
+
+	it('still validate with the extended schema', () => {
+		const entries = Object.entries(files);
+		expect(entries.length).toBeGreaterThan(0);
+		for (const [path, raw] of entries) {
+			expect(() => KeywordBatchSchema.parse(JSON.parse(raw)), path).not.toThrow();
+		}
+	});
+});
