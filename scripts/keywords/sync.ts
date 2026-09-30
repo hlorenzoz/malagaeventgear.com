@@ -19,8 +19,7 @@
  * previous `keywords.json` that a rebuild could lose.
  */
 
-import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
-import { join } from 'node:path';
+import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import {
 	KeywordsFileSchema,
 	type KeywordEntry,
@@ -32,7 +31,7 @@ import { mergeFaq, mergeKeyword, mergeAiPrompt } from './merge';
 import { scoreOpportunity } from './score';
 import { sanitizeKeywordsFile } from './sanitize';
 import { batchToAiPrompts, batchToFaqs, batchToKeywords } from './ingest-ubersuggest';
-import { KeywordBatchSchema, type KeywordBatch } from './batch.schema';
+import { readBatches } from './batches';
 import { importBlogKeywords } from './importers/blog';
 import { importPostFaqs, type PostInfo } from './importers/post-faqs';
 import { importSiteFaqs } from './importers/site-faq';
@@ -47,8 +46,6 @@ import { importContentPlans } from './importers/content-plan';
 import { keywordsPath } from '../paths';
 
 const OUTPUT_PATH = keywordsPath();
-const UBERSUGGEST_BATCH_DIR = join(process.cwd(), '.agents', 'context', 'keywords', 'ubersuggest');
-const BATCH_FILENAME_RE = /^\d{4}-\d{2}-\d{2}\.json$/;
 
 function today(): string {
 	return new Date().toISOString().slice(0, 10);
@@ -80,19 +77,6 @@ function upsertAll<T extends { id: string }>(
 	for (const entry of incoming) {
 		byId.set(entry.id, merge(byId.get(entry.id), entry));
 	}
-}
-
-/** Every committed daily batch, oldest first, so later days can only add to or upgrade what an
- *  earlier day discovered (the same order `ingest-ubersuggest.ts` would have applied them in). */
-function readCommittedBatches(): KeywordBatch[] {
-	if (!existsSync(UBERSUGGEST_BATCH_DIR)) return [];
-	const files = readdirSync(UBERSUGGEST_BATCH_DIR)
-		.filter((f) => BATCH_FILENAME_RE.test(f))
-		.sort();
-	return files.map((file) => {
-		const raw = JSON.parse(readFileSync(join(UBERSUGGEST_BATCH_DIR, file), 'utf8'));
-		return KeywordBatchSchema.parse(raw);
-	});
 }
 
 interface SyncSummary {
@@ -131,7 +115,7 @@ export async function runSync(serviceAreas: readonly string[]): Promise<SyncSumm
 
 	// 2. Every committed Ubersuggest batch, oldest first: the daily agent's discoveries, each
 	// dated by its OWN batch.date so a rebuild is stable regardless of when it runs.
-	const batches = readCommittedBatches();
+	const batches = readBatches('strict').batches;
 	let lastWeeklyRun: string | null = existing?.meta.lastWeeklyRun ?? null;
 	let lastMonthlyRun: string | null = existing?.meta.lastMonthlyRun ?? null;
 	let batchKeywordCount = 0;
