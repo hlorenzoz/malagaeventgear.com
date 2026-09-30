@@ -7,6 +7,15 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (todo): la lista de tareas pasa de `TODO.txt` a `.agents/data/TODO.json`
+- **Decisión del usuario (2026-09-30)**: tareas en JSON, para organizarlas por prioridad y por tipo de tarea.
+- **Formato** (`scripts/todo/todo-json.ts`, strict TDD): `{ version, updated, tasks }` validado con Zod estricto. Una clave desconocida, un valor fuera de las listas o un id repetido hacen fallar el comando con el campo en el mensaje y no se escribe nada. `notas` es una lista, `anotada` y `hecha` son fecha o `null`, y la descripción es un elemento por línea. `updated` solo se mueve cuando el archivo cambia.
+- **Campo nuevo `tipo`** (`todo-format.ts`): `contenido`, `traduccion`, `seo-tecnico`, `visibilidad-ia`, `keywords`, `link-building`, `imagenes`, `infraestructura`, `diseno`, `negocio`, `otro`. Las tareas del content-strategist nacen `contenido` (`plan-tasks.ts`).
+- **Migración única**: 44 tareas y 996 líneas de descripción, comparadas campo por campo antes de escribir y confirmadas aparte con `jq`. Las 35 tareas de una persona se clasificaron por tipo a mano, leyendo cada título y descripción. El script de migración, la tabla `id -> tipo` y el parser del texto viejo salieron del código: quedan en el historial de git.
+- **`organize.ts`**: el pipeline es el mismo (`upsertPlanTasks`, `applyPriorities`, `autoComplete`, `applyTranslationGate`) sobre tareas. Se eliminaron la normalización de entradas `-- ` y de texto suelto, las secciones y la cabecera de comentarios. `verifyNoLoss` compara tareas y no texto. `migrate.ts` y la receta `todo-migrate` se eliminaron.
+- **Herramientas nuevas** (`scripts/todo/todo-ops.ts` y `todo.ts`, con tests): `just todo-list`, `just todo-add` y `just todo-set`, con argumentos posicionales (un título con espacios o un `#T0007` no se rompen en `just`). Escritura atómica con reintento, igual que el organizador.
+- **Documentación**: `CLAUDE.md` (sección "`TODO.json`: formato de tareas"), `Justfile`, los agentes y los `.md` de `.agents/context/`.
+
 ### Changed (data): archivos de datos a `.agents/data/`, `SEO.md` y `TGE.txt` a `.agents/context/`
 - **Decisión del usuario (2026-09-30)**: reorganizó la raíz. `keywords.json` y `TODO.txt` pasan a `.agents/data/`. `SEO.md` y `TGE.txt` pasan a `.agents/context/`. En `.agents/data/` quedan además `TODO.json` y `ubersuggest.json`, vacíos, para las entregas siguientes.
 - **`scripts/paths.ts` (strict TDD, `paths.test.ts`)**: único módulo que nombra las rutas de datos (`DATA_DIR`, `keywordsPath`, `todoPath`). Reemplaza los 8 lugares que armaban la ruta cada uno por su lado: `sync.ts`, `ingest-ubersuggest.ts`, `next-seeds.ts`, `opportunities.ts`, `todo/organize.ts` (2) y `todo/migrate.ts` (2).

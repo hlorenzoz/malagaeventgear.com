@@ -7,7 +7,7 @@ hecho.
 Cómo se llegó acá: el usuario revisó el curso gratis de SEO de Peter Raventos (Peterlid), que
 enseña a comprar enlaces en Getalink. Se contrastó con las políticas de Google y se descartó ese
 método (ver "Por qué no se compran enlaces"). Este archivo es el plan que lo reemplaza. El
-pendiente vive en `.agents/data/TODO.txt`, sección "Mejoras del curso de SEO de Peter Raventos".
+pendiente vive en `.agents/data/TODO.json`, sección "Mejoras del curso de SEO de Peter Raventos".
 
 ## Por qué no se compran enlaces
 

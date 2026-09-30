@@ -182,7 +182,7 @@ IndexNow
 |-- .mcp.json                 chrome-devtools-mcp para medir en navegador real
 |-- .agents/                  Base de conocimiento: BUSINESS.md, CHANGELOG.md,
 |                             STRUCTURED_DATA.md, WP_MIGRATION.md, context/ (datos del cliente, SEO.md, TGE.txt),
-|                             data/ (keywords.json, TODO.txt: generados por scripts)
+|                             data/ (keywords.json, TODO.json: generados por scripts)
 |-- docs/                     Runbooks y ADRs (deploy de leads, blog, datos estructurados,
 |                             investigaciones de performance)
 |-- migrations/               SQL de D1 versionado
@@ -610,7 +610,7 @@ Honestidad del contenido
   docs/                     Runbooks (deploy, DMARC) e investigaciones (performance)
   DESIGN.md                 Diseño
   .agents/context/SEO.md    Estrategia de contenido y SEO
-  .agents/data/             keywords.json y TODO.txt (los escriben los scripts)
+  .agents/data/             keywords.json y TODO.json (los escriben los scripts)
   .mcp.json                 chrome-devtools-mcp
   SDD (Spec Driven Development): explore -> propose -> spec -> design -> tasks -> apply ->
   verify -> archive, con artefactos persistidos (engram u openspec/).

@@ -513,7 +513,7 @@ Observaciones:
        existe.
 
     Estas ideas, ampliadas con otras de congresos y eventos corporativos y asignadas cada una a
-    su silo, están como pendientes en TODO.txt ("Contenido pendiente: congresos y eventos
+    su silo, están como pendientes en TODO.json ("Contenido pendiente: congresos y eventos
     corporativos").
 
 8.3 Afirmaciones sobre TGE que SÍ tienen respaldo en sus propias fuentes

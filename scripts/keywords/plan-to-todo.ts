@@ -1,9 +1,9 @@
 #!/usr/bin/env bun
 /**
- * plan-to-todo.ts: the Spanish rendering of one content plan item (`plan.schema.ts`) as a TODO.txt
+ * plan-to-todo.ts: the Spanish rendering of one content plan item (`plan.schema.ts`) as a TODO.json
  * task title and description, plus the plan validator used by `just content-plan-apply`.
  * The pure renderers are shared with `scripts/todo/plan-tasks.ts`, which turns a plan into tasks
- * and `scripts/todo/organize.ts`, which writes them (this script no longer touches TODO.txt).
+ * and `scripts/todo/organize.ts`, which writes them (this script no longer touches TODO.json).
  *
  * Usage: `bun scripts/keywords/plan-to-todo.ts --check <plan.json>` (exit 1 when invalid, also when
  * the plan has more `new-post` items than the day's quota, see `new-post-quota.ts`)

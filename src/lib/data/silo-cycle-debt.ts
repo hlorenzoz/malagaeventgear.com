@@ -33,7 +33,7 @@
  * av-technician-hire, event-technology-service, lighting-ideas-for-wedding-rentals), y todo
  * hermano enlazado en los dos sentidos con un nodo de la componente queda dentro de ella.
  * Defecto conocido del chequeo: una cadena correcta de 3 o más hermanos (A <-> B <-> C) también
- * es fuertemente conexa, así que este guard no distingue una cadena de una malla. Ver .agents/data/TODO.txt.
+ * es fuertemente conexa, así que este guard no distingue una cadena de una malla. Ver .agents/data/TODO.json.
  *
  * Formato de cada signature: los slugs de la componente, deduplicados, ordenados
  * alfabéticamente y unidos con `|` (mismo formato que usa internamente `findStronglyConnectedComponents`

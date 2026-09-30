@@ -136,10 +136,10 @@ describe('the content-plan headless run and its scheduler', () => {
 		expect(run).not.toMatch(/--allowedTools[^\n]*Bash\(git/);
 	});
 
-	it('content-plan-commit never stages TODO.txt', () => {
+	it('content-plan-commit never stages the task list', () => {
 		const commit = recipe('content-plan-commit plan:');
 		expect(commit).toContain('--no-verify');
-		expect(commit).not.toContain('TODO.txt');
+		expect(commit).not.toMatch(/TODO/);
 	});
 
 	it('keywords-daily delegates to the daily guard, which runs research then plan', () => {

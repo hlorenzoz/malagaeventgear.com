@@ -6,7 +6,7 @@
  *
  * The plan is a DECISION record, never content: it says which page gets a section, an FAQ or a
  * new post, with the evidence and the reason. `plan-to-todo.ts` renders each item and
- * `scripts/todo/organize.ts` turns them into TODO.txt tasks, and `importers/content-plan.ts`
+ * `scripts/todo/organize.ts` turns them into TODO.json tasks, and `importers/content-plan.ts`
  * attaches it to keywords.json as the `content-plan` source.
  */
 
@@ -118,7 +118,7 @@ export const PlanItemSchema = z
 	});
 export type PlanItem = z.infer<typeof PlanItemSchema>;
 
-/** A priority the agent sets on an existing TODO.txt task that still has the default one
+/** A priority the agent sets on an existing TODO.json task that still has the default one
  *  (`just todo-organize --needs-priority` lists them). Ids look like `#T0042`. */
 export const TodoPrioritySchema = z.object({
 	id: z.string().regex(/^#T\d{4}$/, 'expected #Tnnnn'),

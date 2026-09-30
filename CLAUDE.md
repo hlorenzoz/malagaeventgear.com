@@ -1079,7 +1079,7 @@ con el contenido ya actualizado.
 publicados estén traducidos a los 12 idiomas, no se crea contenido nuevo ni se actualiza el que
 existe. Primero se termina de traducir. La regla del párrafo anterior (actualizar antes de traducir)
 se aplica recién después de esa etapa. El content-strategist sigue planificando, pero sus tareas
-quedan `bloqueada` en `.agents/data/TODO.txt` y se destraban solas al terminar (ver "`TODO.txt`: formato de
+quedan `bloqueada` en `.agents/data/TODO.json` y se destraban solas al terminar (ver "`TODO.json`: formato de
 tareas"). El 2026-09-29 faltaban 240 traducciones: 20 posts de 77.
 
 ### Publicación: solo por push (sin cron)
@@ -1252,7 +1252,7 @@ agentes globales leen la global por defecto.
 ### Cuándo se aplica
 
 - Antes de elegir las keywords de supporting posts NUEVOS: al planificar un silo, al armar un lote
-  de posts, al revisar `.agents/data/TODO.txt` y al pedirle contenido a un agente.
+  de posts, al revisar `.agents/data/TODO.json` y al pedirle contenido a un agente.
 - Con cada export nuevo de GSC en `.agents/context/keywords/google-search-console-gsc/`: se
   recalcula el tier, porque cambia con el tráfico.
 - Ordena tanto la creación como la actualización: posts nuevos, secciones y FAQs de posts que ya
@@ -1267,7 +1267,7 @@ agentes globales leen la global por defecto.
 2. **Orden**: primero las keywords de `.agents/data/keywords.json` cuyo volumen mensual cae dentro del rango
    del tier (`sources["google-ads"].stats.avgMonthlySearches` o `sources.ubersuggest.stats.volume`,
    diciendo cuál se usó), después las de menos volumen, las sin volumen medido y, al final, las de
-   más volumen que el tier. En `.agents/data/TODO.txt` eso es la prioridad: `alta` dentro del tier, `media`
+   más volumen que el tier. En `.agents/data/TODO.json` eso es la prioridad: `alta` dentro del tier, `media`
    debajo o sin volumen, `baja` encima.
 3. **Filtro de Google**: una keyword dentro del tier es una candidata, nunca una razón para escribir
    por sí sola. Pasa igual por todo lo que exige la documentación de Google en
@@ -1293,7 +1293,7 @@ cada export.
   si no Google Ads), `volumeSource` y `avalancheFit` (`in-tier`, `below`, `above`, `unknown`). El
   orden es dentro del tier, debajo, sin volumen, encima del tier, y dentro de cada grupo el de
   antes. Las de `above` también se listan, como último grupo (se cuentan en `totals.aboveTier`):
-  si son relevantes se planifican con prioridad `baja` y esperan en `.agents/data/TODO.txt`. Sin zip de GSC, `tier` es `null`, todo es
+  si son relevantes se planifican con prioridad `baja` y esperan en `.agents/data/TODO.json`. Sin zip de GSC, `tier` es `null`, todo es
   `unknown` y `tierError` lo explica. El plan copia `run.tier` y `avalancheFit` por ítem, y el
   TODO los muestra. Sigue siendo una heurística de POP: Google manda.
 - **El enlace de vuelta del target (decidido el 2026-09-29).** Las diapositivas de Kyle Roof dibujan
@@ -1489,15 +1489,15 @@ cadena y sus piezas deterministas (todas en `scripts/keywords/`, strict TDD):
   `plan.schema.ts` (Zod). Cada ítem es `add-section`, `new-post`, `add-faq` o `skip`, con
   prioridad, evidencia y motivo. Un `new-post` apunta a uno de los 5 pilares de "Los silos de MEG".
 - **`just content-plan-apply <plan>`**: valida el plan (sale con error si es inválido), corre
-  `sync.ts` y ordena `.agents/data/TODO.txt` con `scripts/todo/organize.ts`, que convierte cada ítem del plan en
-  su propia tarea (ver "`TODO.txt`: formato de tareas").
+  `sync.ts` y ordena `.agents/data/TODO.json` con `scripts/todo/organize.ts`, que convierte cada ítem del plan en
+  su propia tarea (ver "`TODO.json`: formato de tareas").
 - **Cierre del ciclo en `.agents/data/keywords.json`**, siempre por `sync.ts`: (1) la fuente `content-plan`
   (`importers/content-plan.ts`, `stats: { asOf, action, targetUrl, priority }`, gana el último plan)
   se suma a cada keyword del plan y por eso `content-candidates` no la vuelve a proponer. NUNCA
   cambia el estado, y una keyword inexistente entra como `idea`. (2) `importers/plan-coverage.ts` pasa a `covered` (con el `targetUrl`) una keyword `idea` SOLO si un plan commiteado la lista en un ítem `add-section` o `add-faq` y el post destino ya tiene lo pedido: un H2/H3 que contiene el `heading` del ítem, o una pregunta igual a su `question` en `post-faqs.json` (ambos normalizados). Una keyword que nunca se planificó no se toca, aunque aparezca en un encabezado. Un ítem `new-post` no necesita nada extra: el importador del blog marca la keyword `published` cuando el post existe. Todo estado que no sea `idea` queda bloqueado por `merge.ts`.
 - **Qué commitea y qué no**: `just content-plan-commit <plan>` corre los tests de
   `scripts/keywords` y commitea SOLO `.agents/data/keywords.json` y el plan (`--no-verify`, mismo motivo que
-  `keywords-commit`). NUNCA `.agents/data/TODO.txt`: suele llevar cambios sin commitear de otra sesión, así que
+  `keywords-commit`). NUNCA `.agents/data/TODO.json`: suele llevar cambios sin commitear de otra sesión, así que
   queda modificado en el árbol de trabajo para que lo revise el usuario. Nunca hace push.
 - **Aislamiento**: `just content-plan` usa los mismos flags que `keywords-research`
   (`--setting-sources ""`, `--strict-mcp-config` con config MCP vacía, `--permission-mode default`,
@@ -1517,75 +1517,84 @@ cadena y sus piezas deterministas (todas en `scripts/keywords/`, strict TDD):
   reverse silo es una técnica de enlazado y las políticas de Google deciden qué contenido es
   aceptable. Por eso nunca propone páginas por localidad ni variantes "near me" (doorway abuse).
 
-### `TODO.txt`: formato de tareas
+### `TODO.json`: formato de tareas
 
-`.agents/data/TODO.txt` es la lista de trabajo del usuario y la ordena `just todo-organize`
-(`scripts/todo/`, strict TDD). Cada tarea es un bloque delimitado, así el organizador sabe dónde
-empieza y termina su descripción:
+`.agents/data/TODO.json` es la lista de trabajo del usuario. Es JSON validado con Zod
+(`scripts/todo/todo-json.ts`, strict TDD) y lo ordena `just todo-organize` (`scripts/todo/`).
+Pasó del texto `TODO.txt` a JSON el 2026-09-30 (decisión del usuario) para poder filtrar y agrupar
+por prioridad y por tipo de tarea. El texto viejo queda en el historial de git. Una tarea:
 
+```json
+{
+  "id": "#T0041",
+  "estado": "pendiente",
+  "prioridad": "alta",
+  "tipo": "seo-tecnico",
+  "titulo": "Enlace del pilar al ultimo supporting post",
+  "anotada": "2026-09-29",
+  "hecha": null,
+  "origen": "usuario",
+  "notas": ["estado por confirmar"],
+  "descripcion": ["una linea por elemento", "las lineas en blanco tambien son elementos"]
+}
 ```
-=== TAREA #T0041 ===
-Estado: pendiente
-Prioridad: alta
-Título: Enlace del pilar al último supporting post
-Anotada: 2026-09-29
-Hecha: 2026-10-02
-Origen: usuario
-Nota: estado por confirmar
----
-descripción libre, tal cual, en las líneas que hagan falta (puede llevar "✅ ..." o "❌ ...")
-=== FIN #T0041 ===
-```
 
-- **Campos**, en este orden fijo. `Estado`: `pendiente`, `en curso`, `bloqueada` o `hecha`. `Prioridad`: `alta`,
-  `media` o `baja`. `Anotada`: `YYYY-MM-DD` o `sin fecha`. `Hecha`: solo en las hechas, opcional.
-  `Origen`: `usuario`, `migrada` o `content-strategist (plan YYYY-MM-DD, ítem N)`. `Nota`:
-  opcional, una línea. El id es `#T` más 4 dígitos, único, y no se reutiliza. La descripción no la
-  reescribe nadie: el organizador solo deriva metadatos.
-- **Orden del archivo**: un comentario de cabecera (`#`) que explica el formato, después
-  `== PENDIENTES ==`, `== BLOQUEADAS ==` (solo si hay alguna) y al final `== HECHAS ==`, con una
-  línea en blanco entre bloques. Pendientes y bloqueadas, cada sección por su lado:
-  prioridad `alta`, `media`, `baja`. Dentro de una prioridad, `en curso` antes que `pendiente`, la
-  `Anotada` más nueva primero (`sin fecha` al final) y el id. Hechas: la `Hecha` más nueva primero
-  (sin fecha al final), luego la `Anotada` más nueva y el id. Lo nuevo y sin terminar queda arriba.
-- **Cómo se agrega una tarea**: como bloque (con el siguiente id libre) o a la antigua, una línea
-  `-- ❌ Título (anotado YYYY-MM-DD)` con la descripción debajo, hasta el próximo encabezado. Un
-  texto suelto fuera de todo bloque también vale. `just todo-organize` lo normaliza: estado por los
-  símbolos (solo `✅` es `hecha`, solo `❌` es `pendiente`, ambos o ninguno es `pendiente` con
-  `Nota: estado por confirmar (tenía "...")`), prioridad `media` con `Nota: prioridad por defecto`,
-  fecha de `(anotado ...)` y de `HECHO` o `RESUELTO`, `Origen: usuario`, y un id nuevo. Si no hay
-  título, sale de la primera línea. El texto suelto queda como tarea con `Nota: texto sin
-  estructura, revisar`. La entrada `== OPORTUNIDADES DE CONTENIDO ... ==` del formato viejo se
-  descarta: sus tareas se regeneran desde los planes.
+El archivo es `{ "version": 1, "updated": "YYYY-MM-DD", "tasks": [...] }`. `updated` solo se mueve
+cuando el archivo cambia de verdad, así correr el organizador cada día no reescribe uno igual.
+
+- **Campos**, en este orden fijo. `estado`: `pendiente`, `en curso`, `bloqueada` o `hecha`.
+  `prioridad`: `alta`, `media` o `baja`. `tipo`: `contenido`, `traduccion`, `seo-tecnico`,
+  `visibilidad-ia`, `keywords`, `link-building`, `imagenes`, `infraestructura`, `diseno`, `negocio`
+  (datos o decisiones que dependen del negocio) u `otro`. `anotada`: fecha o `null`. `hecha`: la
+  fecha solo en las hechas, `null` en el resto. `origen`: `usuario`, `migrada` o
+  `content-strategist (plan YYYY-MM-DD, ítem N)`. `notas`: lista de textos cortos. El id es `#T` más
+  4 dígitos, único, y no se reutiliza. La descripción no la reescribe nadie.
+- **El schema es estricto**: una clave desconocida, un valor fuera de las listas, una fecha mal
+  escrita o un id repetido hacen fallar el comando con un mensaje que empieza por `TODO.json` y
+  nombra el campo, y no se escribe nada. Editarlo a mano sigue siendo válido: el próximo comando lo
+  valida.
+- **Orden del archivo**: primero las abiertas y después las hechas. Abiertas: prioridad `alta`,
+  `media`, `baja`. Dentro de una prioridad, `en curso` antes que `pendiente` y que `bloqueada`, la
+  `anotada` más nueva primero (sin fecha al final) y el id. Hechas: la `hecha` más nueva primero,
+  luego la `anotada` más nueva y el id.
+- **Leer y cambiar sin editar el JSON** (`scripts/todo/todo.ts`, con tests): `just todo-list
+  [--estado] [--prioridad] [--tipo] [--origen texto] [--texto texto]` imprime una tabla,
+  `just todo-add --titulo "..." [--prioridad] [--tipo] [--desc "..."] [--desc-file ruta]` crea una
+  tarea del usuario con el siguiente id, y `just todo-set #T0007 [--estado] [--prioridad] [--tipo]
+  [--add-nota "..."]` la cambia (pasarla a `hecha` pone la fecha de hoy, reabrirla la borra).
+  `--file <ruta>` apunta a otro archivo.
 - **Tareas del content-strategist**: por cada plan commiteado en `content-plan/*.json`, cada ítem
-  que no es `skip` es su propia tarea (título `Nueva sección H2 en /blog/<slug>/: "<heading>"`,
-  `Pregunta FAQ en /blog/<slug>/: "<pregunta>"` o `Post nuevo /blog/<slug>/: <título>`, prioridad
-  del ítem, `Anotada` la fecha del plan, la línea de tier de Avalanche primero). Los `skip` de un
-  plan son UNA tarea `hecha`, `Descartadas por content-strategist el <fecha>`. La clave del upsert
-  es el `Origen`: una tarea que ya existe nunca cambia de Estado, Prioridad, Título ni Nota (el
-  usuario pudo editarlas), solo se completa una descripción vacía.
-- **Cierre automático**: una tarea del content-strategist pasa a `hecha` (con `Hecha` de hoy y
-  `Nota: marcada hecha por plan-coverage`) solo cuando `.agents/data/keywords.json` muestra la primera keyword
-  del ítem como `covered` o `published` con la `url` igual al destino del ítem. Ninguna otra tarea
-  cambia de estado sola: marcar las demás como hechas es decisión de una persona.
+  que no es `skip` es su propia tarea, con `tipo: contenido` (título `Nueva sección H2 en
+  /blog/<slug>/: "<heading>"`, `Pregunta FAQ en /blog/<slug>/: "<pregunta>"` o `Post nuevo
+  /blog/<slug>/: <título>`, prioridad del ítem, `anotada` la fecha del plan, la línea de tier de
+  Avalanche primero). Los `skip` de un plan son UNA tarea `hecha`, `Descartadas por
+  content-strategist el <fecha>`. La clave del upsert es el `origen`: una tarea que ya existe nunca
+  cambia de estado, prioridad, título ni notas (el usuario pudo editarlas), solo se completa una
+  descripción vacía.
+- **Cierre automático**: una tarea del content-strategist pasa a `hecha` (con `hecha` de hoy y la
+  nota `marcada hecha por plan-coverage`) solo cuando `.agents/data/keywords.json` muestra la
+  primera keyword del ítem como `covered` o `published` con la `url` igual al destino del ítem.
+  Ninguna otra tarea cambia de estado sola: marcar las demás como hechas es decisión de una persona.
 - **Bloqueo por traducciones (decisión del usuario, 2026-09-29)**: mientras algún post inglés
   publicado no tenga traducción en alguno de los 12 idiomas, `just todo-organize` pasa a `bloqueada`
-  las tareas `pendiente` del content-strategist, con `Nota: bloqueada hasta terminar las
+  las tareas `pendiente` del content-strategist, con la nota `bloqueada hasta terminar las
   traducciones de todos los posts`. Cuando el backlog llega a 0 vuelven solas a `pendiente` y
   pierden esa nota. Las tareas `en curso`, las hechas y las de cualquier otro origen no se tocan:
-  una tarea del usuario se bloquea a mano, poniendo `Estado: bloqueada`.
+  una tarea del usuario se bloquea a mano (`just todo-set #T0007 --estado bloqueada`).
 - **Prioridades**: el plan puede traer `todo: [{ id, priority, reason }]` (`alta`, `media`, `baja`).
-  Se aplica SOLO a tareas cuya `Nota` dice `prioridad por defecto`, y esa frase pasa a
+  Se aplica SOLO a tareas cuyas notas incluyen `prioridad por defecto`, y esa nota pasa a
   `prioridad asignada por content-strategist el <fecha>: <motivo>`. Cualquier otro id se ignora.
   `just todo-organize --needs-priority` imprime en JSON esas tareas (id, título, estado, anotada,
   primeras 3 líneas).
-- **Comandos**: `just todo-organize` (`--dry-run` no escribe, `--file <ruta>` apunta a otro
-  archivo), `just todo-migrate --out <ruta>` o `--write` (migración única del formato viejo, con
-  verificación de que ninguna línea se pierde). La escritura es atómica y solo ocurre si `.agents/data/TODO.txt`
-  no cambió mientras se procesaba (otra sesión lo edita): reintenta una vez y si no, sale con error
-  sin escribir. Antes de escribir comprueba que no falte ningún id ni línea de descripción.
-- **Los agentes no commitean `.agents/data/TODO.txt`**: queda modificado en el árbol de trabajo para que lo
-  revise el usuario (`content-plan-commit` nunca lo agrega).
+- **Escritura**: `just todo-organize` (`--dry-run` no escribe). Es atómica y solo ocurre si el
+  archivo no cambió mientras se procesaba (otra sesión lo edita): reintenta una vez y si no, sale
+  con error sin escribir. Antes de escribir comprueba que no falte ningún id ni línea de
+  descripción.
+- **Migración (2026-09-30)**: las 44 tareas del texto pasaron a JSON con sus campos y las 996 líneas
+  de descripción intactas. Las 35 tareas de una persona se clasificaron por `tipo` una sola vez, y
+  las del content-strategist son `contenido`.
+- **Los agentes no commitean `.agents/data/TODO.json`**: queda modificado en el árbol de trabajo
+  para que lo revise el usuario (`content-plan-commit` nunca lo agrega).
 
 ### Corridas perdidas (`daily-guard.ts`)
 

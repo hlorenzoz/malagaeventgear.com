@@ -36,7 +36,7 @@ candidatura de LCP. Implicancia práctica: **no se puede iterar el fix con Light
 ## Hipótesis DESCARTADAS (con evidencia: no las repitas)
 
 1. **Cloudflare Bot Fight Mode / `challenge-platform/jsd/main.js`**: la causa documentada del hit de
-   score en `/blog/` y `/packages/` (ver `docs/forced-reflow-investigation.md` y `.agents/data/TODO.txt`). **NO es
+   score en `/blog/` y `/packages/` (ver `docs/forced-reflow-investigation.md` y `.agents/data/TODO.json`). **NO es
    la causa del home NO_LCP:** con BFM **OFF** el `NO_LCP` persistía, y la URL `*.workers.dev` (sin
    edge) también daba `NO_LCP`.
 2. **Imagen full-viewport (CSS background o `<img>`)**: al quitarla (gradiente) el `NO_LCP` seguía,

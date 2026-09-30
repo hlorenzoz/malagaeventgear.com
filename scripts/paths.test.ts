@@ -18,16 +18,16 @@ describe('paths', () => {
 	});
 
 	it('resolves the task list against the given working directory', () => {
-		expect(todoPath('/repo')).toBe(join('/repo', '.agents', 'data', 'TODO.txt'));
+		expect(todoPath('/repo')).toBe(join('/repo', '.agents', 'data', 'TODO.json'));
 	});
 
 	it('defaults to the current working directory', () => {
 		expect(keywordsPath()).toBe(join(process.cwd(), '.agents', 'data', 'keywords.json'));
-		expect(todoPath()).toBe(join(process.cwd(), '.agents', 'data', 'TODO.txt'));
+		expect(todoPath()).toBe(join(process.cwd(), '.agents', 'data', 'TODO.json'));
 	});
 
 	it('never points at the repo root', () => {
 		expect(keywordsPath('/repo')).not.toBe(join('/repo', 'keywords.json'));
-		expect(todoPath('/repo')).not.toBe(join('/repo', 'TODO.txt'));
+		expect(todoPath('/repo')).not.toBe(join('/repo', 'TODO.json'));
 	});
 });

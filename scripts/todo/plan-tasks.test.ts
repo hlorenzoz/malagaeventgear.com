@@ -94,6 +94,11 @@ describe('planTasks', () => {
 		expect(items.every((t) => t.id === '')).toBe(true);
 	});
 
+	it('classifies every task of a plan as contenido', () => {
+		expect(tasks.length).toBeGreaterThan(0);
+		expect(tasks.every((t) => t.tipo === 'contenido')).toBe(true);
+	});
+
 	it('titles like the old renderer and ends the description with the rule line', () => {
 		const t = tasks[0];
 		expect(t.titulo).toBe('Nueva sección H2 en /blog/sound-system-rental/: "Lectern Rental"');
@@ -300,6 +305,7 @@ describe('applyTranslationGate', () => {
 		id: '#T0001',
 		estado: 'pendiente',
 		prioridad: 'media',
+		tipo: 'contenido',
 		titulo: 'x',
 		anotada: '2026-09-29',
 		origen: 'content-strategist (plan 2026-09-29, ítem 1)',

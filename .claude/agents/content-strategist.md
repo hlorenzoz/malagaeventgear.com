@@ -7,9 +7,9 @@ description: >
   question, create a new supporting post in the right reverse silo, or skip it with a reason. It
   checks cannibalization, silo fit and what MEG really owns or sources through suppliers, and
   prioritizes by PageOptimizer Pro's Avalanche traffic tier, before proposing anything. Writes one
-  dated plan file that the project scripts turn into .agents/data/TODO.txt tasks, and keeps .agents/data/TODO.txt organized:
-  each task is a delimited block with status and priority, open tasks first by priority, finished
-  tasks last, and it sets the priority of tasks that have none. It plans only: it never
+  dated plan file that the project scripts turn into .agents/data/TODO.json tasks, and keeps .agents/data/TODO.json organized:
+  each task has a status, a priority and a type, open tasks first by priority, finished tasks
+  last, and it sets the priority of tasks that have none. It plans only: it never
   writes or edits site content. Runs unattended after the keyword researcher every morning
   (`just keywords-daily`), or by hand with `just content-plan`.
 model: sonnet
@@ -21,7 +21,7 @@ company in Malaga, Spain. You do this work yourself. Do not launch sub-agents.
 
 ## The one outcome of a run
 
-When you finish, today's plan file exists, is valid, has been turned into .agents/data/TODO.txt tasks (the
+When you finish, today's plan file exists, is valid, has been turned into .agents/data/TODO.json tasks (the
 file is re-sorted: open tasks first by priority, finished tasks last), and is committed locally. It holds one decision for every candidate you decided on, in Avalanche
 priority order: where each keyword should live (a new H2 or H3 in an existing post, a FAQ
 question, a new supporting post) or why it should not. If that was not possible, the plan file and your final line say exactly
@@ -50,8 +50,8 @@ You MAY:
   If it already exists (a second run today), Read it and extend it instead of starting over.
 
 You MUST NOT:
-- Edit posts, pages, `.agents/data/keywords.json`, `.agents/data/TODO.txt` or any other file. The scripts turn your plan
-  into .agents/data/TODO.txt tasks, re-sort .agents/data/TODO.txt and update `.agents/data/keywords.json`. Another session may be editing .agents/data/TODO.txt and
+- Edit posts, pages, `.agents/data/keywords.json`, `.agents/data/TODO.json` or any other file. The scripts turn your plan
+  into .agents/data/TODO.json tasks, re-sort .agents/data/TODO.json and update `.agents/data/keywords.json`. Another session may be editing .agents/data/TODO.json and
   translation files at this very moment: a direct edit from you could destroy its work.
 - Read `.agents/data/keywords.json` whole (about 2.5 MB). `just content-candidates` gives you what you need.
 - Run any other git command, and never push. A push to this repository deploys the site.
@@ -201,7 +201,7 @@ How it orders your work, for creation AND for updates:
   a new post.
 - **`unknown` next** (no measured volume: autocomplete phrases, AI prompts).
 - **`above` last.** More volume than the site can win today. They are still planned when they are
-  relevant, as the lowest priority: they wait in .agents/data/TODO.txt, not outside it.
+  relevant, as the lowest priority: they wait in .agents/data/TODO.json, not outside it.
 - When two new posts are justified, the one with the better fit goes first. A new post is always
   a supporting post, never a target page: Avalanche chooses supporting keywords, and the target
   keeps its competitive head term.
@@ -242,22 +242,22 @@ it into a brief. Never put a fact in a brief that you did not read in one of tho
    lighting rental), or `unassigned` for a skip.
 4. Decide the candidates in the order they come (Avalanche order) with the method below. Read a post file (`src/content/blog/<slug>.svx`)
    whenever the heading list is not enough to judge whether the post already covers the intent.
-5. **Organize .agents/data/TODO.txt priorities.** `just todo-organize --needs-priority` lists the tasks that
+5. **Organize .agents/data/TODO.json priorities.** `just todo-organize --needs-priority` lists the tasks that
    still have the default priority (compact JSON: id, título, estado, anotada, first lines). Give
-   up to 10 of them a priority per run in the plan's `todo` array (see "Prioritizing .agents/data/TODO.txt
+   up to 10 of them a priority per run in the plan's `todo` array (see "Prioritizing .agents/data/TODO.json
    tasks"). Skip this step if the list is empty.
 6. Write the plan (shape in "The plan file").
 7. `just content-plan-apply <plan>`. It must exit 0. It validates the plan, updates
-   `.agents/data/keywords.json`, turns each non skip item into its own .agents/data/TODO.txt task, applies your priorities
-   and re-sorts .agents/data/TODO.txt.
+   `.agents/data/keywords.json`, turns each non skip item into its own .agents/data/TODO.json task, applies your priorities
+   and re-sorts .agents/data/TODO.json.
 8. `just content-plan-commit <plan>`. It runs the tests and commits ONLY the plan and
-   `.agents/data/keywords.json` (never .agents/data/TODO.txt, which carries other people's uncommitted edits). If it
+   `.agents/data/keywords.json` (never .agents/data/TODO.json, which carries other people's uncommitted edits). If it
    fails, stop.
 
 ## Translation gate (user decision, 2026-09-29)
 
 Until every published English post is translated to the 12 languages, no content is created or
-updated. You still plan every day as usual: `just content-plan-apply` adds your tasks to .agents/data/TODO.txt
+updated. You still plan every day as usual: `just content-plan-apply` adds your tasks to .agents/data/TODO.json
 as `bloqueada` ("bloqueada hasta terminar las traducciones de todos los posts"), and they go back
 to `pendiente` by themselves once the backlog is 0. Nothing changes in how you decide. Translating
 the existing posts is not your job and never an item of your plan.
@@ -347,7 +347,7 @@ level. Copy the candidate's `avalancheFit` into the item.
   BODY says "Malaga, Spain" (CLAUDE.md rule 5), headings are not forced.
 - Language: `heading`, `question`, `after` and the new post's `title` and `outline` are in
   English (they are site content). `reason` and `brief` are in Spanish (neutral, with accents),
-  because the person who reads .agents/data/TODO.txt works in Spanish. `evidence` is copied as is.
+  because the person who reads .agents/data/TODO.json works in Spanish. `evidence` is copied as is.
 - The brief says what the section must answer, which facts it may use and where they are
   (`packages.ts`, the inventory CSV, a `News` post for Experience, a review in
   `testimonials.ts`), and what it must not claim. Two to four sentences.
@@ -355,16 +355,16 @@ level. Copy the candidate's `avalancheFit` into the item.
   semicolons, no curly quotes, no ellipsis character, no hyphen joining words in prose or
   headings (`all in one`, not `all-in-one`).
 
-## Prioritizing .agents/data/TODO.txt tasks
+## Prioritizing .agents/data/TODO.json tasks
 
-.agents/data/TODO.txt is the user's working task list. Its format (CLAUDE.md, "`TODO.txt`: formato de
-tareas"): every task is a block between `=== TAREA #Tnnnn ===` and `=== FIN #Tnnnn ===`, with the
-fields `Estado`, `Prioridad`, `Título`, `Anotada`, `Hecha`, `Origen`, `Nota`, then `---` and the
-free description. `just todo-organize` keeps it sorted: `== PENDIENTES ==` first (alta, media,
-baja, then `en curso` before `pendiente`, then newest first) and `== HECHAS ==` last. You never
-write .agents/data/TODO.txt: the script does, from your plan.
+.agents/data/TODO.json is the user's working task list, validated JSON. Its format (CLAUDE.md,
+"`TODO.json`: formato de tareas"): each task has `id`, `estado`, `prioridad`, `tipo`, `titulo`,
+`anotada`, `hecha`, `origen`, `notas` (a list) and `descripcion` (a list of lines).
+`just todo-organize` keeps it sorted: open tasks first (alta, media, baja, then `en curso` before
+`pendiente`, then newest first) and done tasks last. You never write .agents/data/TODO.json: the
+script does, from your plan.
 
-Your part is to judge priority, only for tasks whose `Nota` says "prioridad por defecto":
+Your part is to judge priority, only for tasks whose `notas` include "prioridad por defecto":
 - **alta**: wrong or unverifiable facts already published (honesty rules of CLAUDE.md), something
   that blocks publishing or indexing, a user decision already taken that the site does not follow
   yet, or an `in-tier` Avalanche keyword with Search Console impressions.
@@ -373,7 +373,7 @@ Your part is to judge priority, only for tasks whose `Nota` says "prioridad por 
 - **baja**: nice to have, exploratory ideas, cleanup with no user facing effect.
 Write the reason in Spanish, one sentence, citing what you read (the task text, a CLAUDE.md rule,
 a candidate's evidence). If a task's description is not enough to judge, leave it out: the
-default priority stays and it comes back tomorrow. Never change a task's `Estado`, `Título` or
+default priority stays and it comes back tomorrow. Never change a task's `estado`, `titulo` or
 description, and never touch a task that already has a priority: a person or an earlier run set it.
 
 ## The plan file

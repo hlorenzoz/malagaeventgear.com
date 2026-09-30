@@ -1,5 +1,5 @@
 /**
- * plan-tasks.ts: the content-strategist side of TODO.txt, pure. Turns committed content plans
+ * plan-tasks.ts: the content-strategist side of TODO.json, pure. Turns committed content plans
  * into tasks (one per non-skip item, plus one done task for the skips), upserts them by Origen,
  * applies the priorities a plan proposes for tasks that still have the default one, and closes
  * the tasks whose keyword `keywords.json` already shows as covered or published on the target.
@@ -45,6 +45,7 @@ export function planTasks(plan: ContentPlan): Task[] {
 			id: '',
 			estado: 'pendiente',
 			prioridad: PRIORITY_WORD[item.priority],
+			tipo: 'contenido',
 			titulo: itemTitle(item),
 			anotada: plan.date,
 			origen: itemOrigin(plan.date, idx + 1),
@@ -57,6 +58,7 @@ export function planTasks(plan: ContentPlan): Task[] {
 			id: '',
 			estado: 'hecha',
 			prioridad: 'baja',
+			tipo: 'contenido',
 			titulo: `Descartadas por content-strategist el ${plan.date}`,
 			anotada: plan.date,
 			hecha: plan.date,
@@ -67,7 +69,7 @@ export function planTasks(plan: ContentPlan): Task[] {
 	return tasks;
 }
 
-/** Pure: adds the tasks of every plan that TODO.txt does not have yet (key: Origen). An existing
+/** Pure: adds the tasks of every plan that TODO.json does not have yet (key: Origen). An existing
  *  task keeps its Estado, Prioridad, Título and Nota, and only gets a description when it has none. */
 export function upsertPlanTasks(tasks: Task[], plans: ContentPlan[]): Task[] {
 	const out = [...tasks];

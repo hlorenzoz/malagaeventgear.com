@@ -164,23 +164,35 @@ content-candidates n='20':
 content-inventory *args:
     @bun scripts/keywords/content-inventory.ts {{ args }}
 
-# Valida el plan, regenera .agents/data/keywords.json (source content-plan y cierre de ideas ya cubiertas) y ordena .agents/data/TODO.txt (tareas del plan incluidas)
+# Valida el plan, regenera .agents/data/keywords.json (source content-plan y cierre de ideas ya cubiertas) y ordena .agents/data/TODO.json (tareas del plan incluidas)
 content-plan-apply plan:
     bun scripts/keywords/plan-to-todo.ts --check "{{ plan }}"
     bun scripts/keywords/sync.ts
     bun scripts/todo/organize.ts
 
-# Ordena .agents/data/TODO.txt: normaliza tareas nuevas (bloques, entradas a la antigua o texto suelto), suma las tareas del content-strategist,
-# cierra las cubiertas en .agents/data/keywords.json y pone las hechas al final. `--dry-run` no escribe, `--needs-priority` imprime el JSON de
-# las tareas sin prioridad asignada, `--file <ruta>` apunta a otro archivo. Ver CLAUDE.md, "`TODO.txt`: formato de tareas".
+# Ordena .agents/data/TODO.json: valida el archivo, suma las tareas del content-strategist, cierra las cubiertas en
+# .agents/data/keywords.json, bloquea las de contenido mientras falten traducciones y ordena por prioridad (hechas al final).
+# `--dry-run` no escribe, `--needs-priority` imprime el JSON de las tareas sin prioridad asignada, `--file <ruta>` apunta a otro archivo.
+# Ver CLAUDE.md, "`TODO.json`: formato de tareas".
 todo-organize *args:
     bun scripts/todo/organize.ts {{ args }}
 
-# Migración única del .agents/data/TODO.txt viejo al formato de bloques. Exige `--out <ruta>` o `--write`.
-todo-migrate *args:
-    bun scripts/todo/migrate.ts {{ args }}
+# Lista las tareas: `just todo-list --prioridad alta --tipo contenido`. Filtros: --estado, --prioridad, --tipo, --origen, --texto.
+[positional-arguments]
+todo-list *args:
+    @bun scripts/todo/todo.ts list "$@"
 
-# Commitea SOLO .agents/data/keywords.json y el plan del día, después de correr los tests de keywords. NUNCA .agents/data/TODO.txt: lleva cambios sin
+# Agrega una tarea: `just todo-add --titulo "..." --prioridad alta --tipo negocio --desc-file ruta.txt`. Opciones: --desc, --desc-file.
+[positional-arguments]
+todo-add *args:
+    @bun scripts/todo/todo.ts add "$@"
+
+# Cambia una tarea: `just todo-set #T0007 --estado hecha`. Opciones: --estado, --prioridad, --tipo, --add-nota.
+[positional-arguments]
+todo-set *args:
+    @bun scripts/todo/todo.ts set "$@"
+
+# Commitea SOLO .agents/data/keywords.json y el plan del día, después de correr los tests de keywords. NUNCA .agents/data/TODO.json: lleva cambios sin
 # commitear de otra sesión. Mismo --no-verify y misma razón que keywords-commit.
 content-plan-commit plan:
     #!/usr/bin/env bash
