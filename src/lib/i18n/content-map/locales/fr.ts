@@ -47,6 +47,11 @@ export default {
 		weddings: { slug: 'mariages', name: 'Mariages' }
 	},
 	posts: {
+		'projector-rental': {
+			slug: 'location-videoprojecteur-malaga',
+			keyword: 'location de vidéoprojecteur à Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'location-audiovisuelle-evenements-malaga',
 			keyword: 'location audiovisuelle pour événements à Malaga',

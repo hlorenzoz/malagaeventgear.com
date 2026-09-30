@@ -79,6 +79,11 @@ export default {
 		weddings: { slug: 'casamentos', name: 'Casamentos' }
 	},
 	posts: {
+		'projector-rental': {
+			slug: 'aluguel-de-projetor',
+			keyword: 'aluguel de projetor em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'aluguel-de-audiovisual-para-eventos',
 			keyword: 'aluguel de audiovisual para eventos em Málaga',

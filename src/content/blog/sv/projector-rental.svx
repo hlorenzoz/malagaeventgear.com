@@ -1,0 +1,180 @@
+---
+title: "Hyra projektor i Malaga, Spanien"
+description: "Hyra projektor i Malaga, Spanien: verkliga priser i euro, lumennivåer för upplysta rum och medföljande duk. Levererad, installerad, testad. Boka idag."
+excerpt: "Hyra projektor i Malaga, Spanien: verkliga priser i euro, lumennivåer för upplysta rum och medföljande duk. Levererad, installerad, testad. Boka idag."
+publishDate: "2026-09-30"
+sourceUpdated: "2026-09-30"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Hyra projektor i Malaga, Spanien? En projektor är bara halva uppsättningen, eftersom den behöver en duk som passar den och tillräckligt många lumen för att vara läsbar mot den verkliga belysningen i din lokal, oavsett om det är en nedsläckt konferenssal eller en ljus showroom hos en bilhandlare som är upplyst för fotografering.
+
+Malaga Event Gear hyr aldrig ut en projektor utan projektionsduk: de två hör alltid ihop och levereras, installeras och testas av vårt eget team i Malaga och på resten av Costa del Sol. Priserna är verkliga och publiceras i förväg, kopplade till en lumennivå, inte ett formulär som bara ger offert.
+
+[Boka nu](/packages/) och få den projektor och duk som ditt evenemang verkligen behöver.
+
+## Innehållsförteckning
+
+-   [Kort översikt](#kort-översikt)
+-   [Det viktigaste](#det-viktigaste)
+-   [Priser för projektor och duk per paket](#priser-för-projektor-och-duk-per-paket)
+-   [Välj en lumennivå för ditt rum](#välj-en-lumennivå-för-ditt-rum)
+-   [Varför duken alltid medföljer projektorn](#varför-duken-alltid-medföljer-projektorn)
+-   [Ansluta dina egna enheter](#ansluta-dina-egna-enheter)
+-   [Vad vi inte har i lager](#vad-vi-inte-har-i-lager)
+-   [Verkliga projektoruppsättningar vi har levererat](#verkliga-projektoruppsättningar-vi-har-levererat)
+-   [Hur långt i förväg du ska boka](#hur-långt-i-förväg-du-ska-boka)
+-   [Slutsats](#slutsats)
+-   [Vanliga frågor](#vanliga-frågor)
+    -   [Kan jag hyra bara en projektionsduk, utan projektor?](#kan-jag-hyra-bara-en-projektionsduk-utan-projektor)
+    -   [Ingår duken med projektorn, eller säljs den separat?](#ingår-duken-med-projektorn-eller-säljs-den-separat)
+    -   [Vilken är den största dukstorleken som finns?](#vilken-är-den-största-dukstorleken-som-finns)
+    -   [Vilken ljusstyrka eller hur många lumen behöver jag för ett rum med dagsljus eller kraftig belysning?](#vilken-ljusstyrka-eller-hur-många-lumen-behöver-jag-för-ett-rum-med-dagsljus-eller-kraftig-belysning)
+    -   [Erbjuder ni 4K- eller laserprojektorer?](#erbjuder-ni-4k--eller-laserprojektorer)
+    -   [Kan ni projicera på en byggnadsfasad eller göra projection mapping utomhus?](#kan-ni-projicera-på-en-byggnadsfasad-eller-göra-projection-mapping-utomhus)
+    -   [Ingår uppsättning och installation?](#ingår-uppsättning-och-installation)
+    -   [Hur mycket kostar det att hyra en projektor?](#hur-mycket-kostar-det-att-hyra-en-projektor)
+    -   [Hur långt i förväg ska jag boka en projektor?](#hur-långt-i-förväg-ska-jag-boka-en-projektor)
+    -   [Kan jag ansluta min egen bärbara dator eller surfplatta till projektorn?](#kan-jag-ansluta-min-egen-bärbara-dator-eller-surfplatta-till-projektorn)
+
+## Kort översikt
+
+---
+
+Malaga Event Gear tillhandahåller en projektor och en medföljande projektionsduk för privata fester, ledningsmöten och företagspresentationer i Malaga och på resten av Costa del Sol. Varje bokning levereras, installeras och testas på plats av vårt eget team, och priserna är verkliga och publicerade, inte ett formulär som bara ger offert.
+
+Priserna går från ett tillval på 50 euro till [Eco Pack](/packages/eco/) upp till en projektor och duk som ingår i [Basic MICE Pack](/packages/basic-mice/) för 295 euro eller i [Product Presentation Pack](/packages/product-presentation/) för 310 euro. [Kontakta oss](/contact/) för att matcha ett paket mot ditt rum och dess ljusförhållanden.
+
+## Det viktigaste
+
+---
+
+-   En projektionsduk säljs aldrig separat: varje projektor vi sätter upp levereras med en duk som passar den.
+
+-   Två verkliga lumennivåer: en Vivitek D5 på 3000 lumen i Basic MICE Pack för vanliga rum och en Christie LX505 på 5000 lumen i Product Presentation Pack för rum som förblir upplysta. Ingen av nivåerna är laser.
+
+-   Verkliga priser i euro publicerade i förväg: +50 euro som tillval till Eco Pack, eller inkluderat i Basic MICE Pack för 295 euro och i Product Presentation Pack för 310 euro.
+
+-   HDMI- och USB-C-adaptrar medföljer så att din egen bärbara dator, surfplatta eller spelare ansluts utan en kabeljakt i sista minuten.
+
+-   Varje bokning levereras, installeras, testas och hämtas av vårt eget team, aldrig som självhämtning och återlämning.
+
+## Priser för projektor och duk per paket
+
+Att hyra en projektor hos Malaga Event Gear är aldrig en enskild post som du väljer separat: det är antingen ett tillval till ett paket för privata evenemang eller en fast del av ett företagspaket, och duken medföljer alltid. Matcha ditt evenemang mot det paket som redan täcker det:
+
+| Paket | Projektor och duk | Ljusstyrka | Gästkapacitet | Pris (exkl. moms) |
+| --- | --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | Projektor och projektionsduk, valfritt tillval (+50 euro) | Ej publicerad för tillvalet | Upp till 50 | 290 euro grundpris, +50 euro tillval |
+| [Basic MICE Pack](/packages/basic-mice/) | Projektionsduk 2x2 m med en projektor med hög ljusstyrka, ingår | 3000 lumen | Upp till 40 | 295 euro |
+| [Product Presentation Pack](/packages/product-presentation/) | Frontprojektionsduk med stabilt stativ, ingår | 5000 lumen, inte laser | Ej publicerad | 310 euro |
+
+Alla priser är exklusive moms, med den spanska momsen på 21 % tillagd i kassan, och varje pris inkluderar leverans, uppsättning och nedmontering. Aktuella priser och allt som ingår i varje paket finns på vår [paketsida](/packages/).
+
+<InlineCTA />
+
+## Välj en lumennivå för ditt rum
+
+Lumen mäter hur ljus den projicerade bilden behöver vara för att vara läsbar mot det ljus som redan finns i rummet, och det är den enskilt viktigaste faktorn när du väljer rätt projektor. Vi publicerar två verkliga nivåer:
+
+-   **3000 lumen, i [Basic MICE Pack](/packages/basic-mice/)**: en projektor av modellen Vivitek D5 tillsammans med en duk på 2x2 m, byggd för ett vanligt styrelserum, en privat salong eller en hotellsvit där rumsbelysningen är normal eller kan dämpas för presentationen.
+
+-   **5000 lumen, i [Product Presentation Pack](/packages/product-presentation/)**: en projektor av modellen Christie LX505, byggd för att vara skarp i ett rum som förblir upplyst, till exempel en bilhandlares showroom under en lansering eller en presskonferens där fotograferna behöver arbetsljus.
+
+Vi publicerar varken någon teknik (DLP eller LCD) eller någon upplösning för någon av modellerna, och ingen av nivåerna är laser. Om din lokal har ovanligt mycket omgivande ljus eller dagsljus, [kontakta oss](/contact/) med detaljerna så att vi kan bekräfta vilken nivå som verkligen passar, i stället för att gissa. För resten av vår specialiserade nischutrustning, från specialscenbelysning till specialeffekter, läs vår guide om [uthyrning av AV-utrustning](/blog/audiovisual-equipment-rental-service/).
+
+## Varför duken alltid medföljer projektorn
+
+Vi säljer ingen projektionsduk som en fristående artikel, och vi säljer ingen projektor utan duk. [Eco Pack](/packages/eco/) behandlar "projektor och projektionsduk" som en enda tillvalsrad på 50 euro, och både [Basic MICE Pack](/packages/basic-mice/) och [Product Presentation Pack](/packages/product-presentation/) anger duken och projektorn som en gemensam del av paketet, inte som två separata. Duken som ingår i Basic MICE Pack är 2x2 m. Om du behöver en större bild, säg till så tittar vi på vad vi kan göra.
+
+Det här är ett medvetet beslut om vårt utbud, inte ett förbiseende: en duk och en projektor som inte passar ihop ger ett sämre resultat än var och en såld separat, så vi erbjuder inte den kombinationen. Det är också därför vi behandlar projektoruthyrning och uthyrning av projektionsduk som ett enda paket, aldrig som två separata rader.
+
+## Ansluta dina egna enheter
+
+De flesta presentationer körs från presentatörens egen bärbara dator, surfplatta eller mediaspelare, inte våra. På [Product Presentation Pack](/packages/product-presentation/) tillhandahåller vi alla nödvändiga adaptrar, HDMI och USB-C, plus ljudgränssnitt för att ansluta din utrustning till vår duk och vårt ljudsystem, så att genomgången vid ankomst handlar om att bekräfta anslutningen, inte om att lösa den på plats.
+
+## Vad vi inte har i lager
+
+Projection mapping utomhus och projektion på en byggnadsfasad, som vissa leverantörer är specialiserade på, ingår inte i vårt eget lager. Det gör inte heller en LED-videovägg som alternativ till projektor: det här är en uppsättning med projektor och duk, inte en modulär skärmvägg av paneler. Våra egna projektorer är Vivitek D5 och Christie LX505 som beskrivs ovan. Vi anger ingen upplösning, som 4K, för någon av dem, och ingen av dem är laser.
+
+Om ditt evenemang verkligen kräver mapping eller en videovägg, berätta vad du har i åtanke. En specialiserad leverantör kanske kan ta sig an det, och vi kan fråga. Om ingen kan det säger vi det innan du planerar utifrån det.
+
+## Verkliga projektoruppsättningar vi har levererat
+
+En titt på verkliga bokningar av projektor och duk i Malaga och på Costa del Sol:
+
+![Uppsättning för ett MICE-evenemang i provinsen Malaga med talarstol, professionell belysning, ljudutrustning, en stor duk och en projektor.](https://cdn.malagaeventgear.com/blog/1302/lighting-sound-big-screen-projector-rental-malaga.webp "Lösningar med talarstol, belysning, ljud, stor duk och projektor för professionella MICE-evenemang.")
+
+En projektionsduk och en projektor uppsatta bredvid en talarstol och ett ljudsystem för ett företagsevenemang i provinsen Malaga.
+
+![Rader av konferensdeltagare i provinsen Malaga som tittar på en presentation på den stora projektionsduken, driven av en hyrd projektor.](https://cdn.malagaeventgear.com/blog/1305/lighting-sound-big-screen-projector-rental-malaga_6.webp "Lösningar med talarstol, belysning, ljud, stor duk och projektor för professionella MICE-evenemang.")
+
+Konferensdeltagare som sitter framför den stora projektionsduken under en presentation.
+
+<blockquote>
+<p lang="en">"I am really satisfied with this team, they exceeded my expectations. Having a meeting in Malaga, it was a huge help that I did not have to care about the visual solutions and the sound, they made it easy and smooth. They answered all my questions and delivered a high quality equipment to the meeting. Totally worth it!"</p>
+<ul><li>Dániel Gombár, Google-recension med 5 stjärnor, mars 2025</li></ul>
+</blockquote>
+
+Vårt team stod också för hela den tekniska produktionen av en internationell konferens över fyra dagar vid [PROGOLD SUMMIT 2026 i Torremolinos](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/), där skärmar med hög upplösning och ljusstarka projektionssystem visade komplex data och multimediainnehåll tydligt under lokalens egen företagsbelysning, precis det scenario med ett upplyst rum som nivån på 5000 lumen finns till för.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/'])} speed="normal" direction="left" />
+</div>
+
+## Hur långt i förväg du ska boka
+
+Boka så tidigt du kan, så fort datum och lokal för ditt evenemang är bekräftade. Efterfrågan på Costa del Sol når sin topp under bröllopssäsongen, från april till oktober, och företagsbokningar knutna till ett fast konferens- eller lanseringsdatum bör säkra paketet tidigt i stället för att vänta på ett slutgiltigt deltagarantal.
+
+## Slutsats
+
+Att hyra projektor i Malaga blir bara så bra som matchningen mot belysningen i ditt rum: en nivå på 3000 lumen för ett vanligt styrelserum eller en nivå på 5000 lumen för ett rum som förblir upplyst. Ingen av nivåerna är laser. Från ett tillval på 50 euro till [Eco Pack](/packages/eco/) upp till en duk och projektor som ingår i [Basic MICE Pack](/packages/basic-mice/) eller [Product Presentation Pack](/packages/product-presentation/) levererar, installerar, testar och hämtar Malaga Event Gear utrustningen så att du aldrig behöver göra det. [Kontakta oss](/contact/) för att matcha ett paket mot ditt evenemang. För hela vårt utbud av AV-uthyrning, se [sidan om AV-uthyrning](/blog/audio-visual-rental/).
+
+Planerar du i stället en produktlansering? Se vår guide om [AV-uthyrning för produktlanseringar](/blog/audio-visual-rental-for-product-launches/), byggd kring nivån på 5000 lumen i Product Presentation Pack. Håller du i stället ett mindre ledningsmöte? Se vår guide om [AV-uthyrning för företagsmöten](/blog/audio-visual-rental-for-corporate-meetings/), byggd kring styrelserumsnivån i Basic MICE Pack. Behöver du en självlysande skärm i stället för en projicerad bild? Se vår guide om [uthyrning av TV-skärmar](/blog/tv-screen-rental/).
+
+## Vanliga frågor
+
+### Kan jag hyra bara en projektionsduk, utan projektor?
+
+Nej. Vi säljer ingen projektionsduk fristående. Varje duk vi sätter upp levereras med en projektor som passar den, oavsett om det är tillvalet på 50 euro i Eco Pack eller den fasta delen med duk och projektor i Basic MICE Pack och Product Presentation Pack. Se [Varför duken alltid medföljer projektorn](#varför-duken-alltid-medföljer-projektorn) ovan.
+
+### Ingår duken med projektorn, eller säljs den separat?
+
+Den ingår, alltid. [Eco Pack](/packages/eco/) samlar "projektor och projektionsduk" i en enda tillvalsrad på 50 euro. [Basic MICE Pack](/packages/basic-mice/) omfattar en duk på 2x2 m med sin projektor på 3000 lumen. [Product Presentation Pack](/packages/product-presentation/) omfattar en frontprojektionsduk med stabilt stativ tillsammans med sin projektor på 5000 lumen. Vi säljer ingen av delarna fristående.
+
+### Vilken är den största dukstorleken som finns?
+
+Duken som ingår i [Basic MICE Pack](/packages/basic-mice/) är 2x2 meter. Om du behöver en större bild, se [Varför duken alltid medföljer projektorn](#varför-duken-alltid-medföljer-projektorn) ovan.
+
+### Vilken ljusstyrka eller hur många lumen behöver jag för ett rum med dagsljus eller kraftig belysning?
+
+För ett vanligt styrelserum eller ett rum som du kan dämpa är projektorn på 3000 lumen i [Basic MICE Pack](/packages/basic-mice/) rätt nivå. För ett rum som förblir upplyst, till exempel en bilhandlares showroom under en lansering eller ett pressevent med fotografer, är projektorn på 5000 lumen i [Product Presentation Pack](/packages/product-presentation/) byggd för det. Ingen av nivåerna är laser. Se [Välj en lumennivå för ditt rum](#välj-en-lumennivå-för-ditt-rum) ovan.
+
+### Erbjuder ni 4K- eller laserprojektorer?
+
+Inte i vårt eget lager. Vi hyr ut en Vivitek D5 på 3000 lumen och en Christie LX505 på 5000 lumen, ingen av dem laser, och vi anger ingen upplösning, som 4K, för någon av dem. Se [Vad vi inte har i lager](#vad-vi-inte-har-i-lager) ovan.
+
+### Kan ni projicera på en byggnadsfasad eller göra projection mapping utomhus?
+
+Inte med vår egen utrustning. Fasadprojektion och projection mapping utomhus ingår inte i vårt eget lager, och våra uppsättningar med projektor och duk är byggda för presentationer, konferenser och produktvisningar inomhus, inte för utomhusprojektion i byggnadsskala. Se [Vad vi inte har i lager](#vad-vi-inte-har-i-lager) ovan.
+
+### Ingår uppsättning och installation?
+
+Ja, i varje paket. Vårt team levererar, installerar och testar projektorn och duken innan ditt evenemang börjar och kommer sedan tillbaka för att hämta allt, enligt samma modell för leverans, installation, test och hämtning som vi använder i hela vår katalog.
+
+### Hur mycket kostar det att hyra en projektor?
+
+Det beror på paketet. [Eco Pack](/packages/eco/) kostar 290 euro i grundpris, plus ett tillval på 50 euro för projektor och duk. [Basic MICE Pack](/packages/basic-mice/), som har projektor och duk som standard, kostar 295 euro. [Product Presentation Pack](/packages/product-presentation/), med sin projektor på 5000 lumen, kostar 310 euro. Alla priser är exklusive moms, med den spanska momsen på 21 % tillagd i kassan. Se [Priser för projektor och duk per paket](#priser-för-projektor-och-duk-per-paket) ovan.
+
+### Hur långt i förväg ska jag boka en projektor?
+
+Boka så tidigt du kan, så fort datum och lokal för ditt evenemang är bekräftade. Efterfrågan på Costa del Sol når sin topp under bröllopssäsongen, från april till oktober, och företagsbokningar knutna till ett fast konferens- eller lanseringsdatum bör säkras tidigt. Se [Hur långt i förväg du ska boka](#hur-långt-i-förväg-du-ska-boka) ovan.
+
+### Kan jag ansluta min egen bärbara dator eller surfplatta till projektorn?
+
+Ja. På [Product Presentation Pack](/packages/product-presentation/) tillhandahåller vi HDMI- och USB-C-adaptrar plus ljudgränssnitt så att din egen bärbara dator, surfplatta eller mediaspelare ansluts till vår duk och vårt ljudsystem utan en kabeljakt i sista minuten.

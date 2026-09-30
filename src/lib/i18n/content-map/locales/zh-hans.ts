@@ -39,6 +39,11 @@ export default {
 		weddings: { slug: '婚礼', name: '婚礼' }
 	},
 	posts: {
+		'projector-rental': {
+			slug: '投影仪租赁',
+			keyword: '马拉加 投影仪租赁',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': { slug: '活动视听租赁', keyword: '马拉加 活动视听租赁', status: 'propuesta' },
 		'audio-visual-rental-for-conferences': { slug: '会议视听租赁', keyword: '马拉加 会议视听租赁', status: 'propuesta' },
 		'audio-visual-rental-for-corporate-events': {

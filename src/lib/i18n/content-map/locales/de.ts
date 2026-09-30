@@ -47,6 +47,11 @@ export default {
 		weddings: { slug: 'hochzeiten', name: 'Hochzeiten' }
 	},
 	posts: {
+		'projector-rental': {
+			slug: 'beamer-mieten-malaga',
+			keyword: 'Beamer mieten in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'av-vermietung-malaga',
 			keyword: 'AV-Vermietung Malaga',

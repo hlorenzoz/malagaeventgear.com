@@ -1,0 +1,180 @@
+---
+title: "Leje projektor i Malaga, Spanien"
+description: "Leje projektor i Malaga, Spanien: rigtige priser i euro, lumenniveauer til oplyste lokaler og et medfølgende lærred. Leveret, opsat og testet. Book i dag."
+excerpt: "Leje projektor i Malaga, Spanien: rigtige priser i euro, lumenniveauer til oplyste lokaler og et medfølgende lærred. Leveret, opsat og testet. Book i dag."
+publishDate: "2026-09-30"
+sourceUpdated: "2026-09-30"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Leje projektor i Malaga, Spanien? En projektor er kun halvdelen af opsætningen, for den har brug for et lærred, der passer til den, og nok lumen til at være læsbar mod den faktiske belysning i dit lokale, uanset om det er en mørklagt konferencesal eller et lyst showroom hos en bilforhandler, der er oplyst til fotografering.
+
+Malaga Event Gear udlejer aldrig en projektor uden et projektionslærred: de to hører altid sammen og bliver leveret, opsat og testet af vores eget team i Malaga og resten af Costa del Sol. Priserne er rigtige og offentliggjort på forhånd, knyttet til et lumenniveau og ikke en formular, hvor man kun kan bede om et tilbud.
+
+[Book nu](/packages/) og få den projektor og det lærred, dit event virkelig har brug for.
+
+## Indholdsfortegnelse
+
+-   [Kort overblik](#kort-overblik)
+-   [Det vigtigste](#det-vigtigste)
+-   [Priser for projektor og lærred pr. pakke](#priser-for-projektor-og-lærred-pr-pakke)
+-   [Vælg et lumenniveau til dit lokale](#vælg-et-lumenniveau-til-dit-lokale)
+-   [Hvorfor lærredet altid følger med projektoren](#hvorfor-lærredet-altid-følger-med-projektoren)
+-   [Tilslut dine egne enheder](#tilslut-dine-egne-enheder)
+-   [Hvad vi ikke har på lager](#hvad-vi-ikke-har-på-lager)
+-   [Rigtige projektoropsætninger, vi har leveret](#rigtige-projektoropsætninger-vi-har-leveret)
+-   [Hvor tidligt du skal booke](#hvor-tidligt-du-skal-booke)
+-   [Konklusion](#konklusion)
+-   [Ofte stillede spørgsmål](#ofte-stillede-spørgsmål)
+    -   [Kan jeg leje kun et projektionslærred uden projektor?](#kan-jeg-leje-kun-et-projektionslærred-uden-projektor)
+    -   [Er et lærred inkluderet med projektoren, eller sælges det separat?](#er-et-lærred-inkluderet-med-projektoren-eller-sælges-det-separat)
+    -   [Hvad er den største lærredsstørrelse, der er tilgængelig?](#hvad-er-den-største-lærredsstørrelse-der-er-tilgængelig)
+    -   [Hvilken lysstyrke eller hvor mange lumen har jeg brug for i et lokale med dagslys eller kraftig belysning?](#hvilken-lysstyrke-eller-hvor-mange-lumen-har-jeg-brug-for-i-et-lokale-med-dagslys-eller-kraftig-belysning)
+    -   [Tilbyder I 4K- eller laserprojektorer?](#tilbyder-i-4k--eller-laserprojektorer)
+    -   [Kan I projicere på en bygningsfacade eller lave projection mapping udendørs?](#kan-i-projicere-på-en-bygningsfacade-eller-lave-projection-mapping-udendørs)
+    -   [Er opsætning og installation inkluderet?](#er-opsætning-og-installation-inkluderet)
+    -   [Hvor meget koster det at leje en projektor?](#hvor-meget-koster-det-at-leje-en-projektor)
+    -   [Hvor tidligt skal jeg booke en projektor?](#hvor-tidligt-skal-jeg-booke-en-projektor)
+    -   [Kan jeg tilslutte min egen bærbare computer eller tablet til projektoren?](#kan-jeg-tilslutte-min-egen-bærbare-computer-eller-tablet-til-projektoren)
+
+## Kort overblik
+
+---
+
+Malaga Event Gear leverer en projektor og et medfølgende projektionslærred til private fester, ledelsesmøder og virksomhedspræsentationer i Malaga og resten af Costa del Sol. Hver booking bliver leveret, opsat og testet på stedet af vores eget team, og priserne er rigtige og offentliggjort, ikke en formular, hvor man kun kan bede om et tilbud.
+
+Priserne går fra et tilvalg til 50 euro på [Eco Pack](/packages/eco/) op til en projektor og et lærred, der er inkluderet i [Basic MICE Pack](/packages/basic-mice/) til 295 euro eller i [Product Presentation Pack](/packages/product-presentation/) til 310 euro. [Kontakt os](/contact/) for at finde den pakke, der passer til dit lokale og dets lysforhold.
+
+## Det vigtigste
+
+---
+
+-   Et projektionslærred sælges aldrig alene: hver projektor, vi stiller op, leveres med et lærred, der passer til den.
+
+-   To rigtige lumenniveauer: en Vivitek D5 på 3000 lumen i Basic MICE Pack til almindelige lokaler og en Christie LX505 på 5000 lumen i Product Presentation Pack til lokaler, der forbliver oplyste. Ingen af niveauerne er laser.
+
+-   Rigtige priser i euro, offentliggjort på forhånd: +50 euro som tilvalg til Eco Pack eller inkluderet i Basic MICE Pack til 295 euro og i Product Presentation Pack til 310 euro.
+
+-   HDMI- og USB-C-adaptere medfølger, så din egen bærbare computer, tablet eller afspiller kan tilsluttes uden en kabeljagt i sidste øjeblik.
+
+-   Hver booking bliver leveret, opsat, testet og afhentet af vores eget team, aldrig som selvafhentning og aflevering.
+
+## Priser for projektor og lærred pr. pakke
+
+At leje en projektor hos Malaga Event Gear er aldrig en enkeltstående post, du vælger frit: Det er enten et tilvalg til en pakke til private begivenheder eller en fast del af en virksomhedspakke, og lærredet følger altid med. Find den pakke, der allerede dækker dit event:
+
+| Pakke | Projektor og lærred | Lysstyrke | Gæstekapacitet | Pris (ekskl. moms) |
+| --- | --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | Projektor og projektionslærred, valgfrit tilvalg (+50 euro) | Ikke oplyst for tilvalget | Op til 50 | 290 euro grundpris, +50 euro tilvalg |
+| [Basic MICE Pack](/packages/basic-mice/) | Projektionslærred på 2x2 m med en projektor med høj lysstyrke, inkluderet | 3000 lumen | Op til 40 | 295 euro |
+| [Product Presentation Pack](/packages/product-presentation/) | Lærred til frontprojektion med stabilt stativ, inkluderet | 5000 lumen, ikke laser | Ikke oplyst | 310 euro |
+
+Alle priser er ekskl. moms, med den spanske moms på 21 % tilføjet ved betalingen, og hver pris inkluderer levering, opsætning og nedtagning. Aktuelle priser og det fulde indhold af hver pakke finder du på vores [pakkeside](/packages/).
+
+<InlineCTA />
+
+## Vælg et lumenniveau til dit lokale
+
+Lumen angiver, hvor lyst det projicerede billede skal være for at forblive læsbart ved siden af det lys, der allerede er i lokalet, og det er den vigtigste faktor, når du skal vælge den rigtige projektor. Vi offentliggør to rigtige niveauer:
+
+-   **3000 lumen, på [Basic MICE Pack](/packages/basic-mice/)**: en Vivitek D5-projektor sammen med et lærred på 2x2 m, bygget til et almindeligt bestyrelseslokale, en privat salon eller en hotelsuite, hvor lokalebelysningen er normal eller kan dæmpes til præsentationen.
+
+-   **5000 lumen, på [Product Presentation Pack](/packages/product-presentation/)**: en Christie LX505-projektor, bygget til at forblive skarp i et lokale, der forbliver oplyst, for eksempel en bilforhandlers showroom under en lancering eller en pressekonference, hvor fotograferne har brug for arbejdslys.
+
+Vi oplyser hverken en teknologitype (DLP eller LCD) eller en opløsning for nogen af modellerne, og ingen af niveauerne er laser. Hvis dit lokale har usædvanligt meget omgivende lys eller dagslys, så [kontakt os](/contact/) med detaljerne, så vi kan bekræfte, hvilket niveau der rent faktisk passer, i stedet for at gætte. Til resten af vores specialiserede nicheudstyr, fra særlig scenebelysning til specialeffekter, kan du læse vores guide til [udlejning af AV-udstyr](/blog/audiovisual-equipment-rental-service/).
+
+## Hvorfor lærredet altid følger med projektoren
+
+Vi sælger ikke et projektionslærred som en selvstændig vare, og vi sælger ikke en projektor uden et lærred. [Eco Pack](/packages/eco/) behandler "projektor og projektionslærred" som én enkelt tilvalgslinje til 50 euro, og både [Basic MICE Pack](/packages/basic-mice/) og [Product Presentation Pack](/packages/product-presentation/) angiver lærredet og projektoren som én samlet del af pakken, ikke som to adskilte. Lærredet, der er inkluderet i Basic MICE Pack, er 2x2 m. Hvis du har brug for et større billede, så sig til, så ser vi på, hvad vi kan gøre.
+
+Det er en bevidst beslutning om vores udbud og ikke en forglemmelse: Et lærred og en projektor, der ikke passer sammen, giver et dårligere resultat end hver for sig solgt separat, så vi tilbyder ikke den kombination. Det er også derfor, vi behandler projektorudlejning og udlejning af projektionslærred som én pakke, aldrig som to adskilte linjer.
+
+## Tilslut dine egne enheder
+
+De fleste præsentationer kører fra præsentatørens egen bærbare computer, tablet eller medieafspiller, ikke vores. På [Product Presentation Pack](/packages/product-presentation/) leverer vi alle nødvendige adaptere, HDMI og USB-C, samt lydgrænseflader til at tilslutte dit udstyr til vores lærred og lydanlæg, så gennemgangen ved ankomst handler om at bekræfte forbindelsen, ikke om at løse den på stedet.
+
+## Hvad vi ikke har på lager
+
+Projection mapping udendørs og projektion på en bygningsfacade, som nogle leverandører har specialiseret sig i, er ikke en del af vores eget lager. Det er en LED-videovæg som alternativ til en projektor heller ikke: Dette er en opsætning med projektor og lærred, ikke en modulær skærmvæg af paneler. Vores egne projektorer er Vivitek D5 og Christie LX505, som er beskrevet ovenfor. Vi oplyser ikke en opløsning, for eksempel 4K, for nogen af dem, og ingen af dem er laser.
+
+Hvis dit event virkelig kræver mapping eller en videovæg, så fortæl os, hvad du har i tankerne. En specialiseret leverandør kan måske klare det, og det kan vi spørge om. Hvis ingen kan, siger vi det, før du planlægger ud fra det.
+
+## Rigtige projektoropsætninger, vi har leveret
+
+Et kig på rigtige bookinger af projektor og lærred i Malaga og på Costa del Sol:
+
+![Opsætning til et MICE-event i provinsen Malaga med talerstol, professionel belysning, lydudstyr, et stort lærred og en projektor.](https://cdn.malagaeventgear.com/blog/1302/lighting-sound-big-screen-projector-rental-malaga.webp "Løsninger med talerstol, belysning, lyd, stort lærred og projektor til professionelle MICE-events.")
+
+Et projektionslærred og en projektor sat op ved siden af en talerstol og et lydanlæg til et virksomhedsevent i provinsen Malaga.
+
+![Rækker af konferencedeltagere i provinsen Malaga, der følger en præsentation på det store projektionslærred, drevet af en lejet projektor.](https://cdn.malagaeventgear.com/blog/1305/lighting-sound-big-screen-projector-rental-malaga_6.webp "Løsninger med talerstol, belysning, lyd, stort lærred og projektor til professionelle MICE-events.")
+
+Konferencedeltagere, der sidder foran det store projektionslærred under en præsentation.
+
+<blockquote>
+<p lang="en">"I am really satisfied with this team, they exceeded my expectations. Having a meeting in Malaga, it was a huge help that I did not have to care about the visual solutions and the sound, they made it easy and smooth. They answered all my questions and delivered a high quality equipment to the meeting. Totally worth it!"</p>
+<ul><li>Dániel Gombár, Google-anmeldelse med 5 stjerner, marts 2025</li></ul>
+</blockquote>
+
+Vores team stod også for hele den tekniske produktion af en international konference over fire dage ved [PROGOLD SUMMIT 2026 i Torremolinos](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/), hvor skærme med høj opløsning og lysstærke projektionssystemer viste komplekse data og multimedieindhold tydeligt under lokalets egen virksomhedsbelysning, præcis det scenarie med et oplyst lokale, som niveauet på 5000 lumen er til for.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/'])} speed="normal" direction="left" />
+</div>
+
+## Hvor tidligt du skal booke
+
+Book så tidligt som muligt, når dato og lokale for dit event er bekræftet. Efterspørgslen på Costa del Sol topper i bryllupssæsonen, fra april til oktober, og virksomhedsbookinger knyttet til en fast konference- eller lanceringsdato bør sikre pakken tidligt i stedet for at vente på et endeligt deltagerantal.
+
+## Konklusion
+
+At leje projektor i Malaga er kun så godt som matchet med belysningen i dit lokale: et niveau på 3000 lumen til et almindeligt bestyrelseslokale eller et niveau på 5000 lumen til et lokale, der forbliver oplyst. Ingen af niveauerne er laser. Fra et tilvalg til 50 euro på [Eco Pack](/packages/eco/) op til et lærred og en projektor, der er inkluderet i [Basic MICE Pack](/packages/basic-mice/) eller [Product Presentation Pack](/packages/product-presentation/), leverer, opsætter, tester og afhenter Malaga Event Gear udstyret, så du aldrig selv skal gøre det. [Kontakt os](/contact/) for at finde den pakke, der passer til dit event. Hele vores udvalg af AV-udlejning finder du på [siden om AV-udlejning](/blog/audio-visual-rental/).
+
+Planlægger du i stedet en produktlancering? Se vores guide til [produktlanceringsteknik](/blog/audio-visual-rental-for-product-launches/), bygget op omkring niveauet på 5000 lumen i Product Presentation Pack. Afholder du i stedet et mindre ledelsesmøde? Se vores guide til [mødeteknik](/blog/audio-visual-rental-for-corporate-meetings/), bygget op omkring niveauet for bestyrelseslokaler i Basic MICE Pack. Har du brug for en selvlysende skærm i stedet for et projiceret billede? Se vores guide til [udlejning af tv-skærme](/blog/tv-screen-rental/).
+
+## Ofte stillede spørgsmål
+
+### Kan jeg leje kun et projektionslærred uden projektor?
+
+Nej. Vi sælger ikke et projektionslærred alene. Hvert lærred, vi stiller op, leveres med en projektor, der passer til det, uanset om det er tilvalget til 50 euro på Eco Pack eller den faste del med lærred og projektor i Basic MICE Pack og Product Presentation Pack. Se [Hvorfor lærredet altid følger med projektoren](#hvorfor-lærredet-altid-følger-med-projektoren) ovenfor.
+
+### Er et lærred inkluderet med projektoren, eller sælges det separat?
+
+Inkluderet, altid. [Eco Pack](/packages/eco/) samler "projektor og projektionslærred" i én enkelt tilvalgslinje til 50 euro. [Basic MICE Pack](/packages/basic-mice/) omfatter et lærred på 2x2 m med sin projektor på 3000 lumen. [Product Presentation Pack](/packages/product-presentation/) omfatter et lærred til frontprojektion med stabilt stativ sammen med sin projektor på 5000 lumen. Vi sælger ingen af delene alene.
+
+### Hvad er den største lærredsstørrelse, der er tilgængelig?
+
+Lærredet, der er inkluderet i [Basic MICE Pack](/packages/basic-mice/), er 2x2 meter. Hvis du har brug for et større billede, så se [Hvorfor lærredet altid følger med projektoren](#hvorfor-lærredet-altid-følger-med-projektoren) ovenfor.
+
+### Hvilken lysstyrke eller hvor mange lumen har jeg brug for i et lokale med dagslys eller kraftig belysning?
+
+Til et almindeligt bestyrelseslokale eller et lokale, du kan dæmpe, er projektoren på 3000 lumen i [Basic MICE Pack](/packages/basic-mice/) det rigtige niveau. Til et lokale, der forbliver oplyst, for eksempel en bilforhandlers showroom under en lancering eller et pressearrangement med fotografer, er projektoren på 5000 lumen i [Product Presentation Pack](/packages/product-presentation/) bygget til det. Ingen af niveauerne er laser. Se [Vælg et lumenniveau til dit lokale](#vælg-et-lumenniveau-til-dit-lokale) ovenfor.
+
+### Tilbyder I 4K- eller laserprojektorer?
+
+Ikke i vores eget lager. Vi udlejer en Vivitek D5 på 3000 lumen og en Christie LX505 på 5000 lumen, ingen af dem laser, og vi oplyser ikke en opløsning, for eksempel 4K, for nogen af dem. Se [Hvad vi ikke har på lager](#hvad-vi-ikke-har-på-lager) ovenfor.
+
+### Kan I projicere på en bygningsfacade eller lave projection mapping udendørs?
+
+Ikke med vores eget udstyr. Facadeprojektion og projection mapping udendørs er ikke en del af vores eget lager, og vores opsætninger med projektor og lærred er bygget til præsentationer, konferencer og produktvisninger indendørs, ikke til udendørs projektion i bygningsskala. Se [Hvad vi ikke har på lager](#hvad-vi-ikke-har-på-lager) ovenfor.
+
+### Er opsætning og installation inkluderet?
+
+Ja, på alle pakker. Vores team leverer, installerer og tester projektoren og lærredet, før dit event starter, og kommer derefter tilbage for at afhente det hele, efter den samme model for levering, installation, test og afhentning, som vi bruger i hele vores katalog.
+
+### Hvor meget koster det at leje en projektor?
+
+Det afhænger af pakken. [Eco Pack](/packages/eco/) koster 290 euro i grundpris, plus et tilvalg til 50 euro for projektor og lærred. [Basic MICE Pack](/packages/basic-mice/), som har projektor og lærred som standard, koster 295 euro. [Product Presentation Pack](/packages/product-presentation/), med sin projektor på 5000 lumen, koster 310 euro. Alle priser er ekskl. moms, med den spanske moms på 21 % tilføjet ved betalingen. Se [Priser for projektor og lærred pr. pakke](#priser-for-projektor-og-lærred-pr-pakke) ovenfor.
+
+### Hvor tidligt skal jeg booke en projektor?
+
+Book så tidligt som muligt, når dato og lokale for dit event er bekræftet. Efterspørgslen på Costa del Sol topper i bryllupssæsonen, fra april til oktober, og virksomhedsbookinger knyttet til en fast konference- eller lanceringsdato bør sikres tidligt. Se [Hvor tidligt du skal booke](#hvor-tidligt-du-skal-booke) ovenfor.
+
+### Kan jeg tilslutte min egen bærbare computer eller tablet til projektoren?
+
+Ja. På [Product Presentation Pack](/packages/product-presentation/) leverer vi HDMI- og USB-C-adaptere samt lydgrænseflader, så din egen bærbare computer, tablet eller medieafspiller kan tilsluttes vores lærred og lydanlæg uden en kabeljagt i sidste øjeblik.
