@@ -1417,7 +1417,7 @@ números que lo justifican.
 ### El agente diario
 
 `.claude/agents/ubersuggest-analyst.md` corre sin supervisión (`just keywords-research`, o
-programado a las 09:00 con `just keywords-schedule-install`, plantilla en
+programado a las 09:30 con `just keywords-schedule-install`, plantilla en
 `scripts/keywords/launchd/`) contra el MCP de Ubersuggest, que está en **este Mac**, no en la nube
 (por eso el scheduler es `launchd`, no un cron remoto). Límites reales:
 
@@ -1519,7 +1519,7 @@ tiene.
 ### El agente de contenido (content-strategist)
 
 `.claude/agents/content-strategist.md` corre después del investigador de keywords, en la misma
-corrida programada: launchd ejecuta `just keywords-daily` a las 09:00, que hace `just
+corrida programada: launchd ejecuta `just keywords-daily` a las 09:30, que hace `just
 keywords-research` y, aunque esa falle, `just content-plan`. Decide, no escribe contenido. La
 cadena y sus piezas deterministas (todas en `scripts/keywords/`, strict TDD):
 
@@ -1654,8 +1654,8 @@ cuando el archivo cambia de verdad, así correr el organizador cada día no rees
 ### Corridas perdidas (`daily-guard.ts`)
 
 `just keywords-daily` es `scripts/keywords/daily-guard.ts`, no un script lineal. launchd lo dispara a
-las 09:00, al iniciar sesión (`RunAtLoad`) y cada hora (`StartInterval`). Con el Mac DORMIDO a las
-09:00, launchd corre el job al despertar. Con el Mac APAGADO o sin sesión iniciada esa corrida se
+las 09:30, al iniciar sesión (`RunAtLoad`) y cada hora (`StartInterval`). Con el Mac DORMIDO a las
+09:30, launchd corre el job al despertar. Con el Mac APAGADO o sin sesión iniciada esa corrida se
 pierde, y por eso existen los otros dos disparos. Los disparos extra no cuestan nada: si no hay
 nada que hacer, el guard sale sin llamar a Claude.
 
@@ -1667,7 +1667,7 @@ nada que hacer, el guard sale sin llamar a Claude.
   espera al próximo disparo, para no planificar con datos de ayer. Con los intentos agotados, el
   plan corre igual.
 - **Sin backfill**: varios días perdidos son UNA sola corrida hoy.
-- **Frenos**: nada antes de las 09:00, sin red (HEAD a `api.anthropic.com`, 5 s), con otro run en
+- **Frenos**: nada antes de las 09:30, sin red (HEAD a `api.anthropic.com`, 5 s), con otro run en
   curso (lock en `~/Library/Application Support/malagaeventgear/keywords-daily/lock`, se descarta
   si su PID murió o tiene más de 3 horas) ni tras 3 intentos en el día (contador
   `attempts-<hoy>` en esa carpeta, se cuenta al arrancar un run y se borran los de más de 7 días).

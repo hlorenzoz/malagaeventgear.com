@@ -1,9 +1,15 @@
 import { describe, expect, it } from 'vitest';
-import { decideDailyRun, isLockStale, type GuardInput } from './daily-guard';
+import {
+	START_MINUTES,
+	clockMinutes,
+	decideDailyRun,
+	isLockStale,
+	type GuardInput
+} from './daily-guard';
 
 const base: GuardInput = {
 	today: '2026-09-30',
-	hour: 10,
+	minutes: 10 * 60,
 	researchDone: false,
 	faqsDone: false,
 	planDone: false,
@@ -53,14 +59,20 @@ describe('decideDailyRun', () => {
 		expect(d.reason).toContain('lock');
 	});
 
-	it('skips before 09:00', () => {
-		const d = decideDailyRun({ ...base, hour: 8 });
-		expect(d.runResearch || d.runFaqs || d.runPlan).toBe(false);
-		expect(d.reason).toContain('09:00');
+	it('skips before 09:30, including 09:29', () => {
+		for (const minutes of [8 * 60, 9 * 60, 9 * 60 + 29]) {
+			const d = decideDailyRun({ ...base, minutes });
+			expect(d.runResearch || d.runFaqs || d.runPlan, `at ${minutes}`).toBe(false);
+			expect(d.reason).toContain('09:30');
+		}
 	});
 
-	it('runs at exactly 09:00', () => {
-		expect(decideDailyRun({ ...base, hour: 9 }).runResearch).toBe(true);
+	it('runs at exactly 09:30', () => {
+		expect(decideDailyRun({ ...base, minutes: 9 * 60 + 30 }).runResearch).toBe(true);
+	});
+
+	it('starts at 09:30, the time the scheduler fires', () => {
+		expect(START_MINUTES).toBe(570);
 	});
 
 	it('skips when offline', () => {
@@ -80,7 +92,7 @@ describe('decideDailyRun', () => {
 	});
 
 	it('the lock wins over every other condition', () => {
-		const d = decideDailyRun({ ...base, lockHeld: true, hour: 3, online: false });
+		const d = decideDailyRun({ ...base, lockHeld: true, minutes: 3 * 60, online: false });
 		expect(d.reason).toContain('lock');
 	});
 });
@@ -95,5 +107,24 @@ describe('isLockStale', () => {
 	});
 	it('is fresh when alive and recent', () => {
 		expect(isLockStale({ pidAlive: true, ageMs: 60_000 })).toBe(false);
+	});
+});
+
+describe('clockMinutes', () => {
+	const at = (h: number, m: number) => new Date(2026, 8, 30, h, m);
+
+	it('reads the real clock when no override is set, or when it is empty', () => {
+		expect(clockMinutes(undefined, at(15, 48))).toBe(15 * 60 + 48);
+		expect(clockMinutes('', at(15, 48))).toBe(15 * 60 + 48);
+	});
+
+	it('takes an HH:MM override', () => {
+		expect(clockMinutes('09:29', at(15, 48))).toBe(9 * 60 + 29);
+		expect(clockMinutes('9:30', at(1, 0))).toBe(570);
+	});
+
+	it('ignores a malformed override instead of turning it into midnight', () => {
+		expect(clockMinutes('abc', at(15, 48))).toBe(15 * 60 + 48);
+		expect(clockMinutes('25:99', at(15, 48))).toBe(15 * 60 + 48);
 	});
 });

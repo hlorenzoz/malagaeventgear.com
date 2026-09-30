@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 /**
  * daily-guard.ts: decides whether today's keyword research, FAQ research and content plan still have to run,
- * and runs what is missing. `just keywords-daily` is this script. launchd fires it at 09:00, at
+ * and runs what is missing. `just keywords-daily` is this script. launchd fires it at 09:30, at
  * login (RunAtLoad) and every hour, so a Mac that was powered off or offline catches up later.
  * Most triggers do nothing and cost nothing (no Claude call).
  *
@@ -13,7 +13,7 @@
  *
  * Flags: `--dry-run` prints the decision and touches nothing. `--force` ignores hour and done
  * flags (the lock and the offline check still apply) for manual runs.
- * Env `KEYWORDS_DAILY_TODAY` (YYYY-MM-DD) and `KEYWORDS_DAILY_HOUR` override the clock, for tests.
+ * Env `KEYWORDS_DAILY_TODAY` (YYYY-MM-DD) and `KEYWORDS_DAILY_TIME` (HH:MM) override the clock, for tests.
  */
 
 import {
@@ -28,13 +28,17 @@ import {
 import { homedir } from 'node:os';
 import { join } from 'node:path';
 
-export const START_HOUR = 9;
+/** Local time (minutes since midnight) before which nothing runs: 09:30, the scheduler's time. */
+export const START_MINUTES = 9 * 60 + 30;
+const startLabel = () =>
+	`${String(Math.floor(START_MINUTES / 60)).padStart(2, '0')}:${String(START_MINUTES % 60).padStart(2, '0')}`;
 export const DEFAULT_MAX_ATTEMPTS = 3;
 export const LOCK_MAX_AGE_MS = 3 * 3600_000;
 
 export interface GuardInput {
 	today: string;
-	hour: number;
+	/** Local time of day, in minutes since midnight. */
+	minutes: number;
 	researchDone: boolean;
 	faqsDone: boolean;
 	planDone: boolean;
@@ -61,7 +65,7 @@ const none = (reason: string): GuardDecision => ({
 /** Pure: what to run right now. Rules are checked in priority order. */
 export function decideDailyRun(i: GuardInput): GuardDecision {
 	if (i.lockHeld) return none('another run holds the lock');
-	if (i.hour < START_HOUR) return none(`before ${String(START_HOUR).padStart(2, '0')}:00`);
+	if (i.minutes < START_MINUTES) return none(`before ${startLabel()}`);
 	if (i.researchDone && i.faqsDone && i.planDone) {
 		return none('research, faqs and plan already committed');
 	}
@@ -75,6 +79,14 @@ export function decideDailyRun(i: GuardInput): GuardDecision {
 	}
 	if (!i.faqsDone) return { runResearch: false, runFaqs: true, runPlan, reason: 'faqs pending' };
 	return { runResearch: false, runFaqs: false, runPlan: true, reason: 'plan pending' };
+}
+
+/** Pure: local time of day in minutes since midnight. `override` is `HH:MM` (tests and manual
+ *  runs); an empty or malformed value falls back to the real clock, never to midnight. */
+export function clockMinutes(override: string | undefined, now: Date): number {
+	const m = /^(\d{1,2}):(\d{2})$/.exec(override ?? '');
+	if (m && Number(m[1]) < 24 && Number(m[2]) < 60) return Number(m[1]) * 60 + Number(m[2]);
+	return now.getHours() * 60 + now.getMinutes();
 }
 
 /** Pure: a lock is stale when its process is gone or it is older than 3 hours. */
@@ -193,7 +205,7 @@ async function main(): Promise<void> {
 	const today =
 		process.env.KEYWORDS_DAILY_TODAY ??
 		new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Madrid' }).format(now);
-	const hour = Number(process.env.KEYWORDS_DAILY_HOUR ?? now.getHours());
+	const minutes = clockMinutes(process.env.KEYWORDS_DAILY_TIME, now);
 
 	if (!dryRun) mkdirSync(STATE_DIR, { recursive: true });
 	const maxAttempts = DEFAULT_MAX_ATTEMPTS;
@@ -205,7 +217,7 @@ async function main(): Promise<void> {
 	const online = held ? true : await isOnline();
 	const decision = decideDailyRun({
 		today,
-		hour: force ? START_HOUR : hour,
+		minutes: force ? START_MINUTES : minutes,
 		researchDone,
 		faqsDone,
 		planDone,

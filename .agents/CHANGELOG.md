@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (agents): la ejecucion automatica diaria empieza a las 09:30
+- **Decision del usuario (2026-09-30)**: los agentes (investigacion de Ubersuggest, FAQs y plan de contenido) arrancan a las 09:30 locales, no a las 09:00.
+- `launchd`: `StartCalendarInterval` pasa a `Hour 9, Minute 30` en la plantilla, y el job instalado se reinstalo (`launchctl bootout` y `just keywords-schedule-install`). `RunAtLoad` y `StartInterval` de 3600 s no cambian.
+- `daily-guard.ts`: el freno de hora compara minutos desde medianoche (`START_MINUTES = 570`), no solo la hora, asi que nada corre entre las 09:00 y las 09:29. La hora de prueba pasa de `KEYWORDS_DAILY_HOUR` a `KEYWORDS_DAILY_TIME` (`HH:MM`), leida por `clockMinutes`, que ante un valor vacio o mal formado usa el reloj real y nunca medianoche.
+- Documentacion actualizada en `CLAUDE.md`, `Justfile` y la plantilla.
+
 ### Added (blog): descripcion de cada categoria en el indice de categorias, 13 idiomas
 - **Decision del usuario (2026-09-30)**, tarea #T0048: Ubersuggest marca con poco texto `/blog/categories/` y `/fr/blog/categories/` (74 y 98 palabras de cuerpo) y los dos sitemaps HTML (`/sitemap/`, `/fr/plan-du-site/`, 97 y 131).
 - `descriptions` en `blog/categories/i18n/<locale>.ts`: una frase por categoria publicada (events, audio-visual-rental, weddings, news, corporate-enterprise, gadgets), en cada tarjeta. 6 frases por idioma, 78 en total. Cada idioma mueve su `updated`.
