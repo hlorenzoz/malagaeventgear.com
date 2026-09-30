@@ -39,6 +39,11 @@ export default {
 		weddings: { slug: '婚禮', name: '婚禮' }
 	},
 	posts: {
+		'sound-system-rental': {
+			slug: '音響系統租賃',
+			keyword: '馬拉加 音響系統租賃',
+			status: 'propuesta'
+		},
 		'projector-rental': {
 			slug: '投影機租賃',
 			keyword: '馬拉加 投影機租賃',

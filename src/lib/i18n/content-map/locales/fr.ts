@@ -47,6 +47,11 @@ export default {
 		weddings: { slug: 'mariages', name: 'Mariages' }
 	},
 	posts: {
+		'sound-system-rental': {
+			slug: 'location-sonorisation-malaga',
+			keyword: 'location de sonorisation à Malaga',
+			status: 'propuesta'
+		},
 		'projector-rental': {
 			slug: 'location-videoprojecteur-malaga',
 			keyword: 'location de vidéoprojecteur à Malaga',

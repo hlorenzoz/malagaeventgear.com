@@ -47,6 +47,11 @@ export default {
 		weddings: { slug: 'hochzeiten', name: 'Hochzeiten' }
 	},
 	posts: {
+		'sound-system-rental': {
+			slug: 'beschallungsanlage-mieten-malaga',
+			keyword: 'Beschallungsanlage mieten in Malaga',
+			status: 'propuesta'
+		},
 		'projector-rental': {
 			slug: 'beamer-mieten-malaga',
 			keyword: 'Beamer mieten in Malaga',

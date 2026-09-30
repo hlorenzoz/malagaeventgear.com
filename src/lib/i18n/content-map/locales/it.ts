@@ -43,6 +43,11 @@ export default {
 		weddings: { slug: 'matrimoni', name: 'Matrimoni' }
 	},
 	posts: {
+		'sound-system-rental': {
+			slug: 'noleggio-impianto-audio-malaga',
+			keyword: 'noleggio impianto audio a Malaga',
+			status: 'propuesta'
+		},
 		'projector-rental': {
 			slug: 'noleggio-proiettore-malaga',
 			keyword: 'noleggio proiettore a Malaga',

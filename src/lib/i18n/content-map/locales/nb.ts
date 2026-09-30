@@ -51,6 +51,11 @@ export default {
 		weddings: { slug: 'bryllup', name: 'Bryllup' }
 	},
 	posts: {
+		'sound-system-rental': {
+			slug: 'leie-lydanlegg',
+			keyword: 'leie lydanlegg i Malaga',
+			status: 'propuesta'
+		},
 		'projector-rental': {
 			slug: 'leie-prosjektor',
 			keyword: 'leie prosjektor i Malaga',

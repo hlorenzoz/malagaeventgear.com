@@ -79,6 +79,11 @@ export default {
 		weddings: { slug: 'casamentos', name: 'Casamentos' }
 	},
 	posts: {
+		'sound-system-rental': {
+			slug: 'aluguer-de-sistema-de-som',
+			keyword: 'aluguer de sistema de som em Málaga',
+			status: 'propuesta'
+		},
 		'projector-rental': {
 			slug: 'aluguer-de-projetor',
 			keyword: 'aluguer de projetor em Málaga',

@@ -47,6 +47,11 @@ export default {
 		weddings: { slug: 'bruiloften', name: 'Bruiloften' }
 	},
 	posts: {
+		'sound-system-rental': {
+			slug: 'geluidsinstallatie-huren-malaga',
+			keyword: 'geluidsinstallatie huren in Malaga',
+			status: 'propuesta'
+		},
 		'projector-rental': {
 			slug: 'beamer-huren',
 			keyword: 'beamer huren in Malaga',
