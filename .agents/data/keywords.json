@@ -79571,6 +79571,24 @@
       }
     },
     {
+      "id": "do-rental-cars-have-microphones",
+      "question": "do rental cars have microphones",
+      "keywordId": "audio-visual-rental-company",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-visual-rental-company"
+          ]
+        }
+      }
+    },
+    {
       "id": "do-venues-around-malaga-usually-include-furniture-in-the-hire",
       "question": "Do venues around Malaga usually include furniture in the hire?",
       "keywordId": "essential-items-for-wedding-rentals",
@@ -82987,6 +83005,24 @@
       }
     },
     {
+      "id": "how-much-does-a-wedding-planner-cost",
+      "question": "how much does a wedding planner cost",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "all-in-one-wedding-rental-packages"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-does-audio-video-rental-cost-near-me",
       "question": "How much does audio video rental cost near me?",
       "keywordId": "audio-video-rental-near-me",
@@ -83367,6 +83403,60 @@
       }
     },
     {
+      "id": "how-much-does-it-cost-to-hire-a-sound-technician",
+      "question": "how much does it cost to hire a sound technician",
+      "keywordId": "audio-visual-hire-near-me",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-visual-hire-near-me"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-does-it-cost-to-hire-a-videographer",
+      "question": "how much does it cost to hire a videographer",
+      "keywordId": "audio-visual-hire-near-me",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-visual-hire-near-me"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-does-it-cost-to-rent-a-conference-room",
+      "question": "how much does it cost to rent a conference room",
+      "keywordId": "audio-visual-rental-for-conferences",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-visual-rental-for-conferences"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-does-it-cost-to-rent-a-lavalier-or-headset-microphone",
       "question": "How much does it cost to rent a lavalier or headset microphone?",
       "keywordId": "headset-lavalier-microphone-rental",
@@ -83380,6 +83470,24 @@
           "lastSeen": "2026-09-30",
           "urls": [
             "/blog/headset-lavalier-microphone-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-does-it-cost-to-rent-a-video-camera",
+      "question": "how much does it cost to rent a video camera",
+      "keywordId": "audio-video-rental-near-me",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-video-rental-near-me"
           ]
         }
       }
@@ -83493,6 +83601,24 @@
       }
     },
     {
+      "id": "how-much-is-it-to-hire-a-videographer",
+      "question": "how much is it to hire a videographer",
+      "keywordId": "audio-visual-hire-near-me",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-visual-hire-near-me"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-sound-power-does-an-outdoor-wedding-need-compared-to-indoors",
       "question": "How much sound power does an outdoor wedding need compared to indoors?",
       "keywordId": "outdoor-wedding-rental-considerations",
@@ -83506,6 +83632,222 @@
           "lastSeen": "2026-09-30",
           "urls": [
             "/blog/outdoor-wedding-rental-considerations/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-wedding-gift-spain",
+      "question": "how much wedding gift spain",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "all-in-one-wedding-rental-packages"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-often-calibrate-ph-meter",
+      "question": "how often calibrate ph meter",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-system-calibration"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-often-do-audiometers-need-to-be-calibrated",
+      "question": "how often do audiometers need to be calibrated",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-system-calibration"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-often-should-audiological-equipment-be-calibrated",
+      "question": "how often should audiological equipment be calibrated",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-system-calibration"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-often-should-we-calibrate",
+      "question": "how often should we calibrate",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-system-calibration"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-calibrate-sound-system",
+      "question": "how to calibrate sound system",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-system-calibration"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-calibrate-speakers",
+      "question": "how to calibrate speakers",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-system-calibration"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-calibrate-surround-sound",
+      "question": "how to calibrate surround sound",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-system-calibration"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-calibrate-surround-sound-speakers",
+      "question": "how to calibrate surround sound speakers",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-system-calibration"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-fundraise-for-a-short-film",
+      "question": "how to fundraise for a short film",
+      "keywordId": "audio-visual-rental-for-charity-fundraisers",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-visual-rental-for-charity-fundraisers"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-plan-a-wedding-in-3-months",
+      "question": "how to plan a wedding in 3 months",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "all-in-one-wedding-rental-packages"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-use-adaptiq-audio-calibration-system",
+      "question": "how to use adaptiq audio calibration system",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-system-calibration"
           ]
         }
       }
@@ -84706,6 +85048,24 @@
           "lastSeen": "2026-09-30",
           "urls": [
             "/blog/audio-visual-rental-for-weddings/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "is-there-a-video-rental-store-near-me",
+      "question": "is there a video rental store near me",
+      "keywordId": "audio-video-rental-near-me",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-video-rental-near-me"
           ]
         }
       }
@@ -86181,6 +86541,24 @@
       }
     },
     {
+      "id": "what-is-an-audiovisual-platform",
+      "question": "what is an audiovisual platform",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-visual-rental-companies"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-is-audio-system-calibration-in-plain-terms",
       "question": "What is audio system calibration, in plain terms?",
       "keywordId": "audio-system-calibration",
@@ -86695,6 +87073,25 @@
           "lastSeen": "2026-09-30",
           "urls": [
             "/blog/audiovisual-equipment-rental-service/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-is-the-largest-audio-visual-rental-company",
+      "question": "what is the largest audio visual rental company",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-visual-rental-companies",
+            "audio-visual-rental-company"
           ]
         }
       }
@@ -87390,6 +87787,24 @@
       }
     },
     {
+      "id": "what-were-the-video-rental-stores",
+      "question": "what were the video rental stores",
+      "keywordId": "audio-video-rental-near-me",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-video-rental-near-me"
+          ]
+        }
+      }
+    },
+    {
       "id": "whats-different-about-planning-av-for-an-outdoor-wedding-versus-an-indoor-one",
       "question": "What's different about planning AV for an outdoor wedding versus an indoor one?",
       "keywordId": "outdoor-wedding-rental-considerations",
@@ -87565,6 +87980,24 @@
           "lastSeen": "2026-09-30",
           "urls": [
             "/blog/making-the-most-of-wedding-rentals/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "when-to-calibrate",
+      "question": "when to calibrate",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-system-calibration"
           ]
         }
       }
@@ -87819,6 +88252,60 @@
       }
     },
     {
+      "id": "who-pays-for-a-wedding-in-spain",
+      "question": "who pays for a wedding in spain",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "all-in-one-wedding-rental-packages"
+          ]
+        }
+      }
+    },
+    {
+      "id": "why-are-weddings-so-expensive",
+      "question": "why are weddings so expensive",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "all-in-one-wedding-rental-packages"
+          ]
+        }
+      }
+    },
+    {
+      "id": "why-calibration-is-important",
+      "question": "why calibration is important",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-system-calibration"
+          ]
+        }
+      }
+    },
+    {
       "id": "why-did-my-wireless-microphone-cut-out-and-what-can-i-do-about-it-during-the-event",
       "question": "Why did my wireless microphone cut out, and what can I do about it during the event?",
       "keywordId": "av-system-troubleshooting",
@@ -87832,6 +88319,24 @@
           "lastSeen": "2026-09-30",
           "urls": [
             "/blog/av-system-troubleshooting/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "why-do-audiometers-need-to-be-calibrated",
+      "question": "why do audiometers need to be calibrated",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-system-calibration"
           ]
         }
       }
@@ -87919,6 +88424,42 @@
           "lastSeen": "2026-09-30",
           "urls": [
             "/blog/av-equipment-consultations/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "why-have-a-wedding",
+      "question": "why have a wedding",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "all-in-one-wedding-rental-packages"
+          ]
+        }
+      }
+    },
+    {
+      "id": "why-is-calibration-necessary",
+      "question": "why is calibration necessary",
+      "keywordId": "audio-system-calibration",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "seeds": [
+            "audio-system-calibration"
           ]
         }
       }

@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-30",
+  "run": {
+    "status": "ok",
+    "calls": [
+      {
+        "tool": "google_suggestions",
+        "args": "keywords: all in one wedding rental packages, audio system calibration, audio video rental near me, audio visual hire near me, audio visual rental, audio visual rental companies, audio visual rental company, audio visual rental for art exhibitions, audio visual rental for charity fundraisers, audio visual rental for conferences; language: en; country: es",
+        "outcome": "ok"
+      }
+    ]
+  },
+  "suggestions": [
+    { "seed": "all-in-one-wedding-rental-packages", "phrase": "how much does it cost a wedding in spain" },
+    { "seed": "all-in-one-wedding-rental-packages", "phrase": "how much wedding gift spain" },
+    { "seed": "all-in-one-wedding-rental-packages", "phrase": "why have a wedding" },
+    { "seed": "all-in-one-wedding-rental-packages", "phrase": "why are weddings so expensive" },
+    { "seed": "all-in-one-wedding-rental-packages", "phrase": "who pays for a wedding in spain" },
+    { "seed": "all-in-one-wedding-rental-packages", "phrase": "how to plan a wedding in 3 months" },
+    { "seed": "all-in-one-wedding-rental-packages", "phrase": "how much does a wedding planner cost" },
+    { "seed": "audio-system-calibration", "phrase": "how to calibrate sound system" },
+    { "seed": "audio-system-calibration", "phrase": "how to calibrate surround sound" },
+    { "seed": "audio-system-calibration", "phrase": "how to calibrate surround sound speakers" },
+    { "seed": "audio-system-calibration", "phrase": "why do audiometers need to be calibrated" },
+    { "seed": "audio-system-calibration", "phrase": "how often calibrate ph meter" },
+    { "seed": "audio-system-calibration", "phrase": "how often do audiometers need to be calibrated" },
+    { "seed": "audio-system-calibration", "phrase": "how often should we calibrate" },
+    { "seed": "audio-system-calibration", "phrase": "how often should audiological equipment be calibrated" },
+    { "seed": "audio-system-calibration", "phrase": "how to use adaptiq audio calibration system" },
+    { "seed": "audio-system-calibration", "phrase": "how to calibrate speakers" },
+    { "seed": "audio-system-calibration", "phrase": "why is calibration necessary" },
+    { "seed": "audio-system-calibration", "phrase": "why calibration is important" },
+    { "seed": "audio-system-calibration", "phrase": "when to calibrate" },
+    { "seed": "audio-video-rental-near-me", "phrase": "is there a video rental store near me" },
+    { "seed": "audio-video-rental-near-me", "phrase": "how much does it cost to rent a video camera" },
+    { "seed": "audio-video-rental-near-me", "phrase": "where to rent video equipment" },
+    { "seed": "audio-video-rental-near-me", "phrase": "what were the video rental stores" },
+    { "seed": "audio-visual-hire-near-me", "phrase": "how much does it cost to hire a videographer" },
+    { "seed": "audio-visual-hire-near-me", "phrase": "how much does it cost to hire a sound technician" },
+    { "seed": "audio-visual-hire-near-me", "phrase": "how much is it to hire a videographer" },
+    { "seed": "audio-visual-rental-companies", "phrase": "what is an audiovisual platform" },
+    { "seed": "audio-visual-rental-companies", "phrase": "what is the largest audio visual rental company" },
+    { "seed": "audio-visual-rental-company", "phrase": "what is the largest audio visual rental company" },
+    { "seed": "audio-visual-rental-company", "phrase": "do rental cars have microphones" },
+    { "seed": "audio-visual-rental-for-charity-fundraisers", "phrase": "how to fundraise for a short film" },
+    { "seed": "audio-visual-rental-for-conferences", "phrase": "how much does it cost to rent a conference room" }
+  ]
+}
