@@ -3,6 +3,26 @@
   "updated": "2026-09-30",
   "tasks": [
     {
+      "id": "#T0048",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "seo-tecnico",
+      "titulo": "Arreglar la auditoria: content_count_words (4 paginas)",
+      "anotada": "2026-09-30",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, site-audit/content-count-words)",
+      "notas": [
+        "sin arreglar: las paginas finas son de utilidad",
+        "decidir si se amplian las categorias o se dejan",
+        "introducciones anadidas a categories y Gadgets el 2026-09-30 (1d9e16e)",
+        "confirmar con el proximo reporte"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, SITE_AUDIT content_count_words. impacto high, esfuerzo medium",
+        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
+      ]
+    },
+    {
       "id": "#T0023",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -221,6 +241,23 @@
         "Qué cubrir: Responder con honestidad que una pantalla inflable de cine al aire libre no esta en el inventario propio de MEG: confirmado, no aparece en .agents/context/inventario/2026.09.26 - Equipamiento.csv ni en packages.ts (las unicas pantallas propias son las del projector-rental.svx, 2x2m fijas, no inflables). Encuadrar la respuesta segun la capa 2 de 'Posicionamiento: soluciones integrales para eventos' de CLAUDE.md: invitar al cliente a contar que necesita para que MEG lo busque con sus proveedores, sin mencionar marca, modelo, precio, disponibilidad ni plazo, y sin dar a entender que es equipo propio de MEG. Enlazar a projector-rental.svx para la opcion de pantalla propia si el evento es en un espacio cerrado o con electricidad estable.",
         "Por qué: Revise /blog/projector-rental/ (pantallas propias 2x2m, no inflables, 'What We Don't Stock' no menciona pantallas de cine al aire libre) y /blog/audio-visual-rental-for-outdoor-events/ (FAQs actuales: lluvia, generador, sonido exterior, terreno, plazo de reserva, ninguna sobre pantallas). Es una necesidad real de evento (cine de verano/noche de pelicula al aire libre) que MEG no tiene en inventario propio pero puede resolver por proveedores segun el modelo de posicionamiento de CLAUDE.md, asi que no es un skip por Fit, y el hueco real esta en el post de eventos al aire libre, no en uno nuevo (no pasaria Goldilocks como post independiente con esta unica evidencia).",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0047",
+      "estado": "bloqueada",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"projector hire\" (new_content)",
+      "anotada": "2026-09-30",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/projector-hire)",
+      "notas": [
+        "bloqueada hasta terminar las traducciones de todos los posts"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto medium, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
       ]
     },
     {
@@ -1292,6 +1329,76 @@
         "lighting rental (Ya ranquea en posicion 3.31 con 26 impresiones para el pilar /blog/stage-lighting-rental/, el unico contenido de iluminacion de eventos de MEG. La posicion 3.31 esta fuera del rango de pagina 2/3 (8 a 30) que justificaria subir prioridad, y el rendimiento ya es excelente: no hace falta heading ni post nuevo.)",
         "led screen hire for events (Revise /blog/tv-screen-rental/: cubre la pantalla propia de 60 pulgadas ('big screen') y tiene la seccion 'What We Don't Stock: LED Video Walls and Modular LED Panels' mas la FAQ 'Do you rent LED video walls or modular LED panels?' con el encuadre correcto de proveedores para el video wall ('led screen'). Prioridad subida a alta por el ranking en pagina 2/3 con impresiones reales; sigue siendo skip porque ambos terminos ya estan respondidos sin necesidad de heading nuevo.)",
         "malaga wedding packages (Revise el pilar /blog/wedding-rentals/: ya cubre 'What's Included in the Wedding Pack', precio (650 euros), invitados (80) y la FAQ 'How much do wedding rentals cost in Malaga?'; tambien revise /blog/all-in-one-wedding-rental-packages/ por posible solape, sin conflicto. El termino generico 'paquetes de boda en Malaga' es la intencion central del propio pilar del silo wedding rentals, no una necesidad distinta. Prioridad subida a alta por el ranking en pagina 2/3 (pos 15) con impresiones reales.)"
+      ]
+    },
+    {
+      "id": "#T0045",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"audiovisual equipment rental service\" (new_content)",
+      "anotada": "2026-09-30",
+      "hecha": "2026-09-30",
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/audiovisual-equipment-rental-service)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
+      ]
+    },
+    {
+      "id": "#T0046",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"speaker and microphone rental\" (new_content)",
+      "anotada": "2026-09-30",
+      "hecha": "2026-09-30",
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/speaker-and-microphone-rental)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto medium, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
+      ]
+    },
+    {
+      "id": "#T0049",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "seo-tecnico",
+      "titulo": "Arreglar la auditoria: title_long (6 paginas)",
+      "anotada": "2026-09-30",
+      "hecha": "2026-09-30",
+      "origen": "ubersuggest (seo-opportunities, site-audit/title-long)",
+      "notas": [
+        "titulos recortados el 2026-09-30",
+        "verificado en el build"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, SITE_AUDIT title_long. impacto medium, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
+      ]
+    },
+    {
+      "id": "#T0050",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "seo-tecnico",
+      "titulo": "Arreglar la auditoria: title_short (1 paginas)",
+      "anotada": "2026-09-30",
+      "hecha": "2026-09-30",
+      "origen": "ubersuggest (seo-opportunities, site-audit/title-short)",
+      "notas": [
+        "About Us y Sitemap alargados el 2026-09-30",
+        "verificado en el build"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, SITE_AUDIT title_short. impacto medium, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
       ]
     },
     {
