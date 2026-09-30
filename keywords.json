@@ -3083,6 +3083,16 @@
             "ctr": 0,
             "position": 16.96
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "medium",
@@ -3991,6 +4001,16 @@
               "2026-07": 110,
               "2026-08": 90
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
           }
         }
       },
@@ -5856,6 +5876,16 @@
             "ctr": 0,
             "position": 17.04
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "medium",
@@ -6602,6 +6632,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-29"
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "medium",
@@ -13351,6 +13391,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 30.9
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
           }
         }
       },
@@ -27814,6 +27864,16 @@
             "ctr": 0,
             "position": 41
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "medium",
@@ -31631,6 +31691,16 @@
               "2026-08": 140
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "add-faq",
+            "targetUrl": "/blog/audio-visual-rental-for-outdoor-events/",
+            "priority": "high"
+          }
         }
       },
       "opportunity": "medium",
@@ -34627,6 +34697,16 @@
             "ctr": 0,
             "position": 25.13
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "low",
@@ -36389,6 +36469,16 @@
             "position": 65,
             "rankingUrl": "https://malagaeventgear.com/packages/eco/?srsltid=AU7gw4Wh42jd4Ipg1lnJhWjmKJsQNnTGYRvH2qy-V9M-LKMp7_-VcPiq"
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -37834,6 +37924,16 @@
             "cpc": 0,
             "position": 8,
             "rankingUrl": "http://malagaeventgear.com/blog/all-in-one-wedding-rental-packages/"
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
           }
         }
       },
@@ -39286,6 +39386,16 @@
               "2026-08": 210
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "medium",
@@ -39393,6 +39503,16 @@
               "2026-07": 210,
               "2026-08": 210
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
           }
         }
       },
@@ -40726,6 +40846,16 @@
               "2026-07": 140,
               "2026-08": 170
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
           }
         }
       },
@@ -44571,6 +44701,16 @@
               "2026-07": 110,
               "2026-08": 90
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
           }
         }
       },
@@ -51356,6 +51496,16 @@
             "position": null,
             "rankingUrl": null
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "low",
@@ -52730,6 +52880,16 @@
               "2026-07": 110,
               "2026-08": 90
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
           }
         }
       },
@@ -58574,6 +58734,16 @@
               "2026-08": 90
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "medium",
@@ -63189,6 +63359,16 @@
             "ctr": 0,
             "position": 12
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "low",
@@ -63853,6 +64033,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 21.41
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
           }
         }
       },
@@ -66155,6 +66345,16 @@
               "2026-07": 210,
               "2026-08": 210
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-09-30",
+          "lastSeen": "2026-09-30",
+          "stats": {
+            "asOf": "2026-09-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
           }
         }
       },

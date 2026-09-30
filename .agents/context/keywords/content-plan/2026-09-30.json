@@ -1,0 +1,163 @@
+{
+  "date": "2026-09-30",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 20,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "items": [
+    {
+      "keywords": ["hire a projector", "projector hire"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "high",
+      "avalancheFit": "in-tier",
+      "evidence": "hire a projector: google-ads 110/mo (in tier 100), gsc pos 41 1 impr | projector hire: gsc pos 34.78 23 impr, ubersuggest vol 10 diff 18 (below tier 100)",
+      "reason": "Revise /blog/projector-rental/: keyword de frontmatter literalmente 'projector rental', titulo, tabla de precios por lumens y FAQ 'How much does a projector rental cost?' ya cubren por completo la intencion de alquilar un proyector, con precio real y sin forma de cotizacion generica. Un heading o post nuevo solo repetiria el mismo contenido y arriesgaria solape de silo (creating-helpful-content.md: no crear contenido solo porque hay volumen de busqueda)."
+    },
+    {
+      "keywords": [
+        "microphone speaker rental",
+        "mike and speaker for rent",
+        "speaker mic rental",
+        "pa equipment rental",
+        "public address system rental",
+        "sound system hire"
+      ],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "high",
+      "avalancheFit": "in-tier",
+      "evidence": "microphone speaker rental: google-ads 170/mo (in tier 100) | mike and speaker for rent: google-ads 170/mo (in tier 100) | speaker mic rental: google-ads 170/mo (in tier 100) | pa equipment rental: google-ads 110/mo (in tier 100) | public address system rental: google-ads 110/mo (in tier 100) | sound system hire: google-ads 70/mo (below tier 100), gsc pos 21.41 22 impr, ai prompts about hiring a sound system and mic for a corporate event/wedding",
+      "reason": "Las seis variantes son la misma intencion (alquilar un microfono y un altavoz, un sistema PA basico). Revise /blog/sound-system-rental/ (no aparecia en la busqueda inicial por palabra clave porque su keyword de frontmatter es 'sound system rental', sin las palabras microphone/speaker): tiene la tabla de paquetes por invitados, la seccion 'PA System or DJ Sound: Matching Equipment to the Event', y FAQs literales 'Is a PA system rental the same as a sound system rental?' (responde que si, sinonimos) y 'Can I rent just speakers, without a microphone or technician?' que ya cubren el Eco Pack (2 altavoces activos, 1 microfono dinamico, 290 euros, hasta 50 invitados). Los dos AI prompts de sound-system-hire tambien quedan respondidos por esta misma pagina (Wedding Pack con microfonos inalambricos, MICE Pack para corporativo). Crear un post nuevo o un heading duplicaria esta pagina y violaria la regla de un keyword por silo."
+    },
+    {
+      "keywords": ["music equipment rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "high",
+      "avalancheFit": "in-tier",
+      "evidence": "google-ads 140/mo (in tier 100)",
+      "reason": "MEG no alquila instrumentos musicales, solo el sonido para reproducirlos. Revise /blog/audio-visual-rental-for-music-performances/ (DJ Set, Live Band o Duo) y la seccion 'PA System or DJ Sound: Matching Equipment to the Event' de /blog/sound-system-rental/ (Eco Pack como PA autonomo para DJ o banda): ambas ya cubren la intencion real detras de este termino generico. Un post nuevo duplicaria contenido ya existente en el mismo silo."
+    },
+    {
+      "keywords": ["audio for rent", "renting audio", "sound rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "high",
+      "avalancheFit": "in-tier",
+      "evidence": "audio for rent: google-ads 110/mo (in tier 100) | renting audio: google-ads 110/mo (in tier 100) | sound rental: google-ads 140/mo (in tier 100), gsc pos 12 1 impr",
+      "reason": "Intencion generica de alquilar equipo de audio. Revise /blog/sound-system-rental/ (keyword 'sound system rental', tabla completa de paquetes con precio y FAQ 'What is included in a sound system rental?') y el pilar /blog/audio-visual-rental/ (seccion 'Audio Visual Equipment We Rent in Malaga' y FAQ 'What audio visual equipment can I rent...'/'How much does audio visual rental cost...'): ambos ya responden esta intencion a fondo. Un heading o post nuevo canibalizaria el propio termino cabeza del silo."
+    },
+    {
+      "keywords": ["inflatable movie screen rental"],
+      "cluster": "audio visual rental",
+      "action": "add-faq",
+      "priority": "high",
+      "avalancheFit": "in-tier",
+      "evidence": "google-ads 110/mo (in tier 100)",
+      "targetUrl": "/blog/audio-visual-rental-for-outdoor-events/",
+      "file": "src/content/blog/audio-visual-rental-for-outdoor-events.svx",
+      "question": "Do you rent an inflatable movie screen for an outdoor event?",
+      "brief": "Responder con honestidad que una pantalla inflable de cine al aire libre no esta en el inventario propio de MEG: confirmado, no aparece en .agents/context/inventario/2026.09.26 - Equipamiento.csv ni en packages.ts (las unicas pantallas propias son las del projector-rental.svx, 2x2m fijas, no inflables). Encuadrar la respuesta segun la capa 2 de 'Posicionamiento: soluciones integrales para eventos' de CLAUDE.md: invitar al cliente a contar que necesita para que MEG lo busque con sus proveedores, sin mencionar marca, modelo, precio, disponibilidad ni plazo, y sin dar a entender que es equipo propio de MEG. Enlazar a projector-rental.svx para la opcion de pantalla propia si el evento es en un espacio cerrado o con electricidad estable.",
+      "reason": "Revise /blog/projector-rental/ (pantallas propias 2x2m, no inflables, 'What We Don't Stock' no menciona pantallas de cine al aire libre) y /blog/audio-visual-rental-for-outdoor-events/ (FAQs actuales: lluvia, generador, sonido exterior, terreno, plazo de reserva, ninguna sobre pantallas). Es una necesidad real de evento (cine de verano/noche de pelicula al aire libre) que MEG no tiene en inventario propio pero puede resolver por proveedores segun el modelo de posicionamiento de CLAUDE.md, asi que no es un skip por Fit, y el hueco real esta en el post de eventos al aire libre, no en uno nuevo (no pasaria Goldilocks como post independiente con esta unica evidencia)."
+    },
+    {
+      "keywords": ["audio and video equipment rental", "audio video rental equipment"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "high",
+      "avalancheFit": "below",
+      "evidence": "audio and video equipment rental: google-ads 10/mo (below tier 100), gsc pos 16.96 24 impr | audio video rental equipment: google-ads 10/mo (below tier 100), gsc pos 17.04 24 impr",
+      "reason": "Variante lexica casi identica al keyword cabeza del pilar 'audio visual rental' (/blog/audio-visual-rental/), que ya ranquea en GSC (~pos 17, 24 impresiones) para este termino. Subo la prioridad a alta por el ranking en pagina 2/3 con impresiones reales, pero la accion sigue siendo skip: crear contenido nuevo duplicaria el termino cabeza y rompe la regla de un keyword por silo."
+    },
+    {
+      "keywords": ["audio visual equipment hire service"],
+      "cluster": "audiovisual equipment rental service",
+      "action": "skip",
+      "priority": "high",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100), gsc pos 14.83 24 impr",
+      "reason": "Coincide casi literal con el keyword del pilar /blog/audiovisual-equipment-rental-service/ (equipo especializado: proyector 5000 lumenes, microfonos inalambricos, LED de 60 pulgadas, staging), que ya ranquea en GSC (~pos 15, 24 impresiones). Prioridad subida a alta por el ranking en pagina 2/3 con impresiones reales; sigue siendo skip porque anadir contenido duplicaria el propio pilar."
+    },
+    {
+      "keywords": ["lighting rental"],
+      "cluster": "stage lighting rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "gsc pos 3.31 26 impr, ubersuggest vol 10 diff 25 (below tier 100)",
+      "reason": "Ya ranquea en posicion 3.31 con 26 impresiones para el pilar /blog/stage-lighting-rental/, el unico contenido de iluminacion de eventos de MEG. La posicion 3.31 esta fuera del rango de pagina 2/3 (8 a 30) que justificaria subir prioridad, y el rendimiento ya es excelente: no hace falta heading ni post nuevo."
+    },
+    {
+      "keywords": ["led screen hire for events", "big screen hire for events"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "high",
+      "avalancheFit": "below",
+      "evidence": "led screen hire for events: google-ads 10/mo (below tier 100), gsc pos 25.13 15 impr | big screen hire for events: google-ads 10/mo (below tier 100), gsc pos 30.9 10 impr",
+      "reason": "Revise /blog/tv-screen-rental/: cubre la pantalla propia de 60 pulgadas ('big screen') y tiene la seccion 'What We Don't Stock: LED Video Walls and Modular LED Panels' mas la FAQ 'Do you rent LED video walls or modular LED panels?' con el encuadre correcto de proveedores para el video wall ('led screen'). Prioridad subida a alta por el ranking en pagina 2/3 con impresiones reales; sigue siendo skip porque ambos terminos ya estan respondidos sin necesidad de heading nuevo."
+    },
+    {
+      "keywords": ["malaga wedding packages"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "high",
+      "avalancheFit": "below",
+      "evidence": "gsc pos 15 10 impr, ubersuggest vol 40 diff 7 (below tier 100)",
+      "reason": "Revise el pilar /blog/wedding-rentals/: ya cubre 'What's Included in the Wedding Pack', precio (650 euros), invitados (80) y la FAQ 'How much do wedding rentals cost in Malaga?'; tambien revise /blog/all-in-one-wedding-rental-packages/ por posible solape, sin conflicto. El termino generico 'paquetes de boda en Malaga' es la intencion central del propio pilar del silo wedding rentals, no una necesidad distinta. Prioridad subida a alta por el ranking en pagina 2/3 (pos 15) con impresiones reales."
+    }
+  ],
+  "todo": [
+    {
+      "id": "#T0023",
+      "priority": "alta",
+      "reason": "El texto confirma que traducciones ya publicadas (ej. outdoor-wedding-rental-considerations) no cumplen la decision del usuario del 2026-09-28 de usar la keyword del idioma en el cuerpo, no solo en titulo y meta."
+    },
+    {
+      "id": "#T0026",
+      "priority": "alta",
+      "reason": "Es el mismo tipo de problema que las fotos de Volvo ya corregidas (1266/1267): un texto ya publicado describe algo que la foto no muestra, lo que viola la regla de Honestidad de CLAUDE.md sobre no inventar detalles de fotos reales."
+    },
+    {
+      "id": "#T0029",
+      "priority": "alta",
+      "reason": "El texto confirma que la Billie Jean King Cup 2024 se usa como Experience en audio-visual-rental-for-sports-events.svx sin tener post News propio, lo que incumple directamente la decision del usuario del 2026-09-25 (CLAUDE.md, regla 4 de posicionamiento) ya en contenido publicado."
+    },
+    {
+      "id": "#T0030",
+      "priority": "alta",
+      "reason": "La keyword y el slug de event-technology-service se tradujeron igual que los de stage-lighting-rental en 6 idiomas, lo que crea solape de silo (cannibalization) ya publicado, justo el riesgo que el reverse silo existe para evitar."
+    },
+    {
+      "id": "#T0032",
+      "priority": "alta",
+      "reason": "El texto indica que dos frases de copia ya publicada dan a entender que el minimo de 400 euros sin IVA aplica a Sevilla, cuando la regla real (BUSINESS.md seccion 3) es que Sevilla no tiene minimo y solo Granada lo tiene: un hecho de negocio incorrecto ya publicado."
+    },
+    {
+      "id": "#T0015",
+      "priority": "alta",
+      "reason": "El diagnostico propio con Lighthouse ya identifico una tarea larga de 2669ms antes del FCP en produccion que hunde el PSI movil de /blog/ a 66, afectando directamente la experiencia de pagina que Google usa como factor de ranking (creating-helpful-content.md, 'Provide a great page experience')."
+    },
+    {
+      "id": "#T0025",
+      "priority": "media",
+      "reason": "Es una pregunta de confirmacion para el negocio (si la excepcion de la BJK Cup sin post News es aceptable), no un hallazgo tecnico en si mismo, lo que encaja como 'confirmacion que el negocio debe dar'."
+    },
+    {
+      "id": "#T0021",
+      "priority": "media",
+      "reason": "Es una decision de negocio pendiente (mantener o no las portadas de banco en los 22 posts de bodas), sin urgencia declarada, que requiere confirmacion del usuario segun el propio titulo de la tarea."
+    },
+    {
+      "id": "#T0022",
+      "priority": "media",
+      "reason": "Es una mejora real de consistencia (sincronizar alt y pie de foto actualizados en los 12 posts ya traducidos) sin urgencia ni impacto en hechos ya publicados incorrectos."
+    },
+    {
+      "id": "#T0034",
+      "priority": "media",
+      "reason": "Es un pedido del usuario para anadir menciones y FAQs sobre Top Group Express en posts existentes, un beneficio de negocio real pero sin fecha limite ni bloqueo de publicacion mencionado."
+    }
+  ]
+}
