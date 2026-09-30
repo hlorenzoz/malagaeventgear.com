@@ -100,7 +100,7 @@ const packagesData: EventPackage[] = [
 		includeTags: ['sound', 'microphone', 'lighting', 'transport'],
 		optionalTags: ['projector', 'smoke-machine'],
 		seo: {
-			title: 'Eco Pack Speaker & Lighting Rental | Malaga Event Gear',
+			title: 'Eco Pack Speaker & Lighting Rental | MEG',
 			serviceName: 'Eco Pack Rental Malaga - Malaga Event Gear (MEG)',
 			serviceType: 'Audio visual event rentals for private parties'
 		},
@@ -147,7 +147,7 @@ const packagesData: EventPackage[] = [
 		includeTags: ['sound', 'microphone', 'lighting', 'transport', 'technician'],
 		optionalTags: ['smoke-machine'],
 		seo: {
-			title: 'Wedding Pack Sound & Romantic Lighting | Malaga Event Gear',
+			title: 'Wedding Pack Sound & Romantic Lighting | MEG',
 			serviceName: 'Wedding Pack Audio & Lighting Rental Malaga - Malaga Event Gear (MEG)',
 			serviceType: 'Audio visual wedding celebrations rentals'
 		},
@@ -188,7 +188,7 @@ const packagesData: EventPackage[] = [
 		purpose: ['presentation', 'corporate'],
 		includeTags: ['sound', 'microphone', 'screen'],
 		seo: {
-			title: 'Product Presentation Pack Screen & Sound | Malaga Event Gear',
+			title: 'Product Presentation Pack Screen & Sound | MEG',
 			serviceName: 'Product Presentation Pack Projection & Audio Malaga - Malaga Event Gear (MEG)',
 			serviceType: 'Audio visual product showcase and launch rentals'
 		},
@@ -235,7 +235,7 @@ const packagesData: EventPackage[] = [
 		includeTags: ['sound', 'microphone', 'screen', 'transport'],
 		optionalTags: ['technical-assistant'],
 		seo: {
-			title: 'Basic MICE Pack Corporate Meeting AV | Malaga Event Gear',
+			title: 'Basic MICE Pack Corporate Meeting AV | MEG',
 			serviceName: 'Basic MICE Pack Speaker & Projector Rental - Malaga Event Gear (MEG)',
 			serviceType: 'Audio visual MICE corporate meeting rentals'
 		},
