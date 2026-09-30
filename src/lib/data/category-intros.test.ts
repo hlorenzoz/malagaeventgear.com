@@ -117,3 +117,44 @@ describe('category page meta descriptions (Bing Webmaster, 2026-09-30: too short
 		}
 	});
 });
+
+describe('category card descriptions on the categories index (Ubersuggest low word count)', () => {
+	const SLUGS = [
+		'events',
+		'audio-visual-rental',
+		'weddings',
+		'news',
+		'corporate-enterprise',
+		'gadgets'
+	];
+	type Desc = { descriptions: Record<string, string> };
+	const desc = (l: string) => (indexByLocale[l].default as unknown as Desc).descriptions;
+
+	it('every locale describes each published category, in its own words', () => {
+		const zh = new Set(['zh-hans', 'zh-tw', 'zh-hk']);
+		for (const l of ALL) {
+			for (const s of SLUGS) {
+				const t = desc(l)?.[s];
+				expect(t?.length, `${l} ${s}`).toBeGreaterThan(zh.has(l) ? 15 : 60);
+			}
+		}
+	});
+
+	it('does not repeat one description under two categories in the same locale', () => {
+		for (const l of ALL) {
+			const texts = SLUGS.map((s) => desc(l)[s]);
+			expect(new Set(texts).size, l).toBe(texts.length);
+		}
+	});
+
+	it('follows rule 12: ASCII punctuation, and no semicolons outside Chinese', () => {
+		const zh = new Set(['zh-hans', 'zh-tw', 'zh-hk']);
+		for (const l of ALL) {
+			for (const s of SLUGS) {
+				const t = desc(l)[s];
+				expect(t, `${l} ${s}`).not.toMatch(/[—–‘’“”… «»„]/);
+				if (!zh.has(l)) expect(t, `${l} ${s}`).not.toContain(';');
+			}
+		}
+	});
+});

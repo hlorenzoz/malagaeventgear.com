@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Added (blog): descripcion de cada categoria en el indice de categorias, 13 idiomas
+- **Decision del usuario (2026-09-30)**, tarea #T0048: Ubersuggest marca con poco texto `/blog/categories/` y `/fr/blog/categories/` (74 y 98 palabras de cuerpo) y los dos sitemaps HTML (`/sitemap/`, `/fr/plan-du-site/`, 97 y 131).
+- `descriptions` en `blog/categories/i18n/<locale>.ts`: una frase por categoria publicada (events, audio-visual-rental, weddings, news, corporate-enterprise, gadgets), en cada tarjeta. 6 frases por idioma, 78 en total. Cada idioma mueve su `updated`.
+- Suma unas 130 palabras al indice, junto con la introduccion del mismo dia. Guard ampliado en `src/lib/data/category-intros.test.ts` (los 13 idiomas, sin repetir, regla 12).
+- **Sin cambio**: los dos sitemaps HTML son listas de enlaces por diseno y no se rellenan. Se marcan como ignorados en el panel de Ubersuggest.
+
 ### Fixed (seo): meta descriptions de las paginas de categoria, demasiado cortas (Bing Webmaster)
 - **Origen**: aviso de Bing Webmaster Tools del 2026-09-30, 6 paginas `/blog/category/<slug>/` (events, audio-visual-rental, gadgets, corporate-enterprise, news, weddings) con la descripcion en unos 66 caracteres.
 - `descriptionTemplate` de `blog/category/[category]/i18n/<locale>.ts` en los 13 idiomas, ahora una frase con guias, consejos y novedades sobre alquiler audiovisual y equipo de eventos en Malaga, Espana. Ingles: 142 a 160 caracteres segun la categoria. Idiomas latinos: 134 a 171. Chino: 61 a 68 (los caracteres chinos pesan mas). Cada idioma mueve su `updated`.

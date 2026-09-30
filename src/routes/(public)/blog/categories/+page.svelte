@@ -9,6 +9,7 @@
 	let { data }: { data: PageData } = $props();
 	// Copy in the page language (./i18n/<locale>.ts, loaded by +page.ts)
 	const copy = $derived(data.copy);
+	const descriptions = $derived(copy.descriptions as Record<string, string>);
 
 	let categories = $derived(data.categories);
 
@@ -99,6 +100,11 @@
 					<span class="font-body-sm text-body-sm text-on-surface-variant mt-1">
 						{postCountLabel(cat.count)}
 					</span>
+					{#if descriptions[cat.slug]}
+						<span class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+							{descriptions[cat.slug]}
+						</span>
+					{/if}
 				</span>
 			</a>
 		{/each}
