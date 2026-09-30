@@ -43,7 +43,7 @@ export default {
 				'Desmontagem rápida e recolha logística após o evento'
 			],
 			optional: ['Máquina de fumo profissional (+{price:smokeMachine})'],
-			seo: { title: 'Wedding Pack: aluguer de som para casamentos em Málaga' },
+			seo: { title: 'Wedding Pack: aluguer de som para casamentos em Málaga | MEG' },
 			landing: {
 				badge: 'O nosso pacote de celebração mais popular',
 				rateLabel: 'Tarifa premium com tudo incluído',

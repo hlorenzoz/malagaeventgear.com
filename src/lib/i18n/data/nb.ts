@@ -12,7 +12,7 @@ export default {
 				'Estetisk kabelføring og profesjonell installasjon'
 			],
 			optional: ['Prosjektor og lerret (+{price:projectorScreen})', 'Profesjonell røyk-/tåkemaskin (+{price:smokeMachine})'],
-			seo: { title: 'Eco Pack: leie lyd og lys til liten fest i Malaga' },
+			seo: { title: 'Eco Pack: leie lyd og lys til liten fest i Malaga | MEG' },
 			landing: {
 				badge: 'Mindre arrangementer og fester',
 				rateLabel: 'Rimelig totalpris med alt inkludert',
@@ -43,7 +43,7 @@ export default {
 				'Rask nedrigging og henting etter arrangementet'
 			],
 			optional: ['Profesjonell røyk-/tåkemaskin (+{price:smokeMachine})'],
-			seo: { title: 'Wedding Pack: leie lyd og lys til bryllup i Malaga' },
+			seo: { title: 'Wedding Pack: leie lyd og lys til bryllup i Malaga | MEG' },
 			landing: {
 				badge: 'Vår mest populære pakke for feiringer',
 				rateLabel: 'Totalpris i premiumklasse, alt inkludert',
@@ -69,7 +69,7 @@ export default {
 				'Lydanlegg for lokalet med 2 høyttalere og mikserpult',
 				'1 trådløs håndmikrofon i premiumklasse til talere'
 			],
-			seo: { title: 'Product Presentation Pack: leie prosjektor i Malaga' },
+			seo: { title: 'Product Presentation Pack: leie prosjektor i Malaga | MEG' },
 			landing: {
 				badge: 'Bedriftsløsninger med stort visuelt inntrykk',
 				rateLabel: 'Fastpris for presentasjonspakken',
@@ -100,7 +100,7 @@ export default {
 				'Transport, installasjon og estetisk kabelføring'
 			],
 			optional: ['Dedikert teknisk assistent på stedet (+{price:technicianDay}/dag)'],
-			seo: { title: 'Basic MICE Pack: AV-utstyr til bedriftsmøter i Malaga' },
+			seo: { title: 'Basic MICE Pack: AV-utstyr til bedriftsmøter i Malaga | MEG' },
 			landing: {
 				badge: 'Grunnleggende pakke for ledermøter',
 				rateLabel: 'Fastpris for bedriftsmøter',
@@ -133,7 +133,7 @@ export default {
 				'Moderne talerstol i akryl i premiumklasse (+{price:lectern})',
 				'Modulære sceneplattformer (+{price:stagingPerSqm} per kvadratmeter)'
 			],
-			seo: { title: 'MICE Pack: leie AV-utstyr til konferanser i Malaga' },
+			seo: { title: 'MICE Pack: leie AV-utstyr til konferanser i Malaga | MEG' },
 			landing: {
 				badge: 'MICE-opplevelse i premiumklasse for bedrifter',
 				rateLabel: 'Totalpris for bedrifter, alt inkludert',

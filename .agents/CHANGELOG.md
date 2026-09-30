@@ -9,7 +9,7 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ### Changed (seo): titulo del MICE Pack con "Corporate" y sufijo "| MEG"
 - **Decision del usuario (2026-09-30)**: `MICE Pack Corporate AV, LED Display & Technician | MEG` (54 caracteres, con `&amp;` decodificado). Recupera "Corporate", que el recorte del mismo dia habia quitado, y usa el sufijo `| MEG` que ya llevan la home y la pagina de paquetes. Solo cambia `seo.title` en `packages.ts`.
-- Por coherencia (decision del usuario, mismo dia), los otros cuatro paquetes (Eco, Wedding, Product Presentation, Basic MICE) tambien pasan de `| Malaga Event Gear` a `| MEG`. Solo `seo.title` de la fuente inglesa: los titulos de cada idioma son propios.
+- Por coherencia (decision del usuario, mismo dia), los otros cuatro paquetes (Eco, Wedding, Product Presentation, Basic MICE) tambien pasan de `| Malaga Event Gear` a `| MEG`. En los idiomas, 12 titulos de paquete que no llevaban sufijo (de, pt-pt, sv, nb) suman `| MEG`, todos dentro de 60 caracteres. Quedan sin sufijo 4 que no caben (nl: wedding y product-presentation, sv: eco y product-presentation). Los demas ya lo tenian.
 
 ### Added (blog): introduccion real en las dos paginas de listado finas
 - **Decision del usuario (2026-09-30)**, a raiz de la tarea #T0048 (`content_count_words` de Ubersuggest): `/blog/categories/` y la categoria Gadgets llevan una introduccion breve en los 13 idiomas. No se rellenan las paginas de utilidad (gracias, legales).

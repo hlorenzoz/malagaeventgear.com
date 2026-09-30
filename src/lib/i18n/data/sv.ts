@@ -43,7 +43,7 @@ export default {
 				'Snabb nedmontering och hämtning efter evenemanget'
 			],
 			optional: ['Professionell rök-/dimmaskin (+{price:smokeMachine})'],
-			seo: { title: 'Wedding Pack: hyr ljud och ljus till bröllop i Malaga' },
+			seo: { title: 'Wedding Pack: hyr ljud och ljus till bröllop i Malaga | MEG' },
 			landing: {
 				badge: 'Vårt mest populära firandepaket',
 				rateLabel: 'Fast totalpris i premiumklass',
@@ -100,7 +100,7 @@ export default {
 				'Transport, installation och estetisk kabeldragning'
 			],
 			optional: ['Dedikerad teknisk assistent på plats (+{price:technicianDay}/dag)'],
-			seo: { title: 'Basic MICE Pack: hyr konferensutrustning i Malaga' },
+			seo: { title: 'Basic MICE Pack: hyr konferensutrustning i Malaga | MEG' },
 			landing: {
 				badge: 'Grundläggande paket för chefsmöten',
 				rateLabel: 'Fast pris för företagsmöten',
@@ -133,7 +133,7 @@ export default {
 				'Modern talarstol i metakrylat/akryl av premiumkvalitet (+{price:lectern})',
 				'Modulära scenplattformar (+{price:stagingPerSqm} per kvadratmeter)'
 			],
-			seo: { title: 'MICE Pack: hyr kongressteknik i Malaga' },
+			seo: { title: 'MICE Pack: hyr kongressteknik i Malaga | MEG' },
 			landing: {
 				badge: 'MICE-upplevelse i premiumklass för företag',
 				rateLabel: 'Fast totalpris för företag',

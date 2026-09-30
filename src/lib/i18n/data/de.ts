@@ -43,7 +43,7 @@ export default {
 				'Schneller Abbau und Abholung nach der Veranstaltung'
 			],
 			optional: ['Professionelle Nebelmaschine (+{price:smokeMachine})'],
-			seo: { title: 'Wedding Pack: Hochzeitstechnik mieten in Malaga' },
+			seo: { title: 'Wedding Pack: Hochzeitstechnik mieten in Malaga | MEG' },
 			landing: {
 				badge: 'Unser beliebtestes Feierpaket',
 				rateLabel: 'Premiumpaket zum Komplettpreis',
@@ -69,7 +69,7 @@ export default {
 				'Beschallungsanlage vor Ort mit 2 Lautsprechern & Mischpult',
 				'1 hochwertiges kabelloses Handmikrofon für Redner'
 			],
-			seo: { title: 'Product Presentation Pack: Beamer und Leinwand mieten' },
+			seo: { title: 'Product Presentation Pack: Beamer und Leinwand mieten | MEG' },
 			landing: {
 				badge: 'Unternehmenslösungen mit hoher visueller Wirkung',
 				rateLabel: 'Pauschalpreis für das Presentation Pack',
@@ -100,7 +100,7 @@ export default {
 				'Transport, Aufbau und ästhetische Verkabelung'
 			],
 			optional: ['Fester technischer Assistent vor Ort (+{price:technicianDay}/Tag)'],
-			seo: { title: 'Basic MICE Pack: Tagungstechnik mieten in Malaga' },
+			seo: { title: 'Basic MICE Pack: Tagungstechnik mieten in Malaga | MEG' },
 			landing: {
 				badge: 'Grundausstattung für Führungskräftetreffen',
 				rateLabel: 'Pauschalpreis für Firmenmeetings',
