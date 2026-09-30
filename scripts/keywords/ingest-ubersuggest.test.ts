@@ -197,7 +197,10 @@ describe('batchToFaqs', () => {
 		});
 		const [faq] = batchToFaqs(b, TODAY);
 		expect(faq.status).toBe('idea');
-		expect(faq.source).toBe('google-autocomplete');
+		expect(faq.sources).toEqual({
+			'google-autocomplete': { firstSeen: TODAY, lastSeen: TODAY, seeds: ['av-equipment-hire-malaga'] }
+		});
+		expect(faq.id).toBe('what-is-av-equipment-hire');
 		expect(faq.keywordId).toBe('av-equipment-hire-malaga');
 	});
 

@@ -256,8 +256,7 @@ function faq(overrides: Partial<FaqEntry> = {}): FaqEntry {
 		url: '/blog/audio-visual-rental/',
 		status: 'answered',
 		reason: null,
-		source: 'post',
-		firstSeen: '2026-09-29',
+		sources: { post: { firstSeen: '2026-09-29', lastSeen: '2026-09-29', urls: ['/blog/audio-visual-rental/'] } },
 		...overrides
 	};
 }
@@ -265,7 +264,11 @@ function faq(overrides: Partial<FaqEntry> = {}): FaqEntry {
 describe('mergeFaq', () => {
 	it('never downgrades an answered faq back to idea', () => {
 		const existing = faq({ status: 'answered' });
-		const incoming = faq({ status: 'idea', url: null, source: 'google-autocomplete' });
+		const incoming = faq({
+			status: 'idea',
+			url: null,
+			sources: { 'google-autocomplete': { firstSeen: '2026-09-30', lastSeen: '2026-09-30', seeds: ['a'] } }
+		});
 		expect(mergeFaq(existing, incoming).status).toBe('answered');
 	});
 
@@ -280,6 +283,47 @@ describe('mergeFaq', () => {
 	it('returns the incoming faq unchanged when there is no existing entry', () => {
 		const incoming = faq();
 		expect(mergeFaq(undefined, incoming)).toEqual(incoming);
+	});
+
+	it('keeps one entry per source: a question seen by a post and by autocomplete has both', () => {
+		const post = faq();
+		const auto = faq({
+			status: 'idea',
+			url: null,
+			sources: { 'google-autocomplete': { firstSeen: '2026-09-30', lastSeen: '2026-09-30', seeds: ['b', 'a'] } }
+		});
+		const merged = mergeFaq(post, auto);
+		expect(Object.keys(merged.sources).sort()).toEqual(['google-autocomplete', 'post']);
+		expect(merged.status).toBe('answered');
+		expect(merged.url).toBe('/blog/audio-visual-rental/');
+	});
+
+	it('re-ingesting one source only touches its own key, widening dates and unioning seeds and urls', () => {
+		const first = faq({
+			sources: {
+				'google-autocomplete': { firstSeen: '2026-09-30', lastSeen: '2026-09-30', seeds: ['b'] },
+				post: { firstSeen: '2026-09-29', lastSeen: '2026-09-29', urls: ['/blog/b/'] }
+			}
+		});
+		const again = faq({
+			sources: {
+				'google-autocomplete': { firstSeen: '2026-10-02', lastSeen: '2026-10-02', seeds: ['a', 'b'] },
+				post: { firstSeen: '2026-10-02', lastSeen: '2026-10-02', urls: ['/blog/a/'] }
+			}
+		});
+		const merged = mergeFaq(first, again).sources;
+		expect(merged['google-autocomplete']).toEqual({ firstSeen: '2026-09-30', lastSeen: '2026-10-02', seeds: ['a', 'b'] });
+		expect(merged.post).toEqual({ firstSeen: '2026-09-29', lastSeen: '2026-10-02', urls: ['/blog/a/', '/blog/b/'] });
+	});
+
+	it('replaces ubersuggest stats wholesale with the newer asOf', () => {
+		const stat = (asOf: string, volume: number) => ({
+			firstSeen: asOf,
+			lastSeen: asOf,
+			stats: { asOf, volume, difficulty: null, cpc: null }
+		});
+		const merged = mergeFaq(faq({ sources: { ubersuggest: stat('2026-09-01', 10) } }), faq({ sources: { ubersuggest: stat('2026-10-01', 30) } }));
+		expect(merged.sources.ubersuggest?.stats?.volume).toBe(30);
 	});
 });
 

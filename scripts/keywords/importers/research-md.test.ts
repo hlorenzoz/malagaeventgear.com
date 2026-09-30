@@ -191,7 +191,7 @@ describe('researchMdToFaqs', () => {
 			cluster: 'audio visual rental',
 			url: null,
 			status: 'idea',
-			source: 'research-paa'
+			sources: { research: { firstSeen: TODAY, lastSeen: TODAY } }
 		});
 	});
 

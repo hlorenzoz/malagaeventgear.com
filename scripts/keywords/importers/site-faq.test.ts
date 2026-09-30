@@ -19,19 +19,18 @@ describe('siteFaqToFaqs', () => {
 			question: 'What is MEG?',
 			url: '/faq/',
 			status: 'answered',
-			source: 'site-faq',
+			sources: { 'site-faq': { firstSeen: TODAY, lastSeen: TODAY } },
 			cluster: 'site-faq',
-			keywordId: 'faq-services',
-			firstSeen: TODAY
+			keywordId: 'faq-services'
 		});
 	});
 
-	it('keeps each item id unique per category', () => {
+	it('uses the normalized question as id, so the same question from another source is one entry', () => {
 		const items: SiteFaqInput[] = [
 			{ id: 'a', category: 'booking', question: 'q1', answer: 'a1' },
 			{ id: 'b', category: 'contact', question: 'q2', answer: 'a2' }
 		];
 		const faqs = siteFaqToFaqs(items, TODAY);
-		expect(faqs.map((f) => f.id)).toEqual(['a', 'b']);
+		expect(faqs.map((f) => f.id)).toEqual(['q1', 'q2']);
 	});
 });

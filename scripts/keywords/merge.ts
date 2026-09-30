@@ -18,8 +18,8 @@
  * so the field can never drift out of sync with `sources`.
  */
 
-import type { AiPromptEntry, FaqEntry, KeywordEntry, Sources } from './schema';
-import { SOURCE_KEYS } from './schema';
+import type { AiPromptEntry, FaqEntry, FaqSources, KeywordEntry, Sources } from './schema';
+import { FAQ_SOURCE_KEYS, SOURCE_KEYS } from './schema';
 
 function minDate(a: string, b: string): string {
 	return a <= b ? a : b;
@@ -113,8 +113,39 @@ export function mergeKeyword(
 	};
 }
 
+const union = (a: string[] = [], b: string[] = []) => [...new Set([...a, ...b])].sort();
+
+/** Pure: unions two FAQ `sources` key by key. Dates widen, `seeds` and `urls` union (sorted),
+ *  `stats` is replaced wholesale by the side with the newer `asOf`. */
+export function mergeFaqSources(existing: FaqSources, incoming: FaqSources): FaqSources {
+	const merged: Record<string, unknown> = { ...existing };
+	for (const key of FAQ_SOURCE_KEYS) {
+		const e = existing[key] as Record<string, unknown> | undefined;
+		const i = incoming[key] as Record<string, unknown> | undefined;
+		if (!i) continue;
+		if (!e) {
+			merged[key] = i;
+			continue;
+		}
+		const out: Record<string, unknown> = {
+			...e,
+			firstSeen: minDate(e.firstSeen as string, i.firstSeen as string),
+			lastSeen: maxDate(e.lastSeen as string, i.lastSeen as string)
+		};
+		if ('seeds' in e || 'seeds' in i) out.seeds = union(e.seeds as string[], i.seeds as string[]);
+		if ('urls' in e || 'urls' in i) out.urls = union(e.urls as string[], i.urls as string[]);
+		if ('stats' in e || 'stats' in i) {
+			const es = (e.stats ?? null) as { asOf: string } | null;
+			const is = (i.stats ?? null) as { asOf: string } | null;
+			out.stats = !is ? es : !es ? is : is.asOf >= es.asOf ? is : es;
+		}
+		merged[key] = out;
+	}
+	return merged as FaqSources;
+}
+
 /** Same identity-lock rule as `mergeKeyword`, applied to a FAQ entry (`status`/`url`/`reason`
- *  locked once it leaves `idea`). */
+ *  locked once it leaves `idea`). `sources` merges per source key. */
 export function mergeFaq(existing: FaqEntry | undefined, incoming: FaqEntry): FaqEntry {
 	if (!existing) return incoming;
 
@@ -128,8 +159,7 @@ export function mergeFaq(existing: FaqEntry | undefined, incoming: FaqEntry): Fa
 		url: identityLocked ? existing.url : incoming.url,
 		status: identityLocked ? existing.status : incoming.status,
 		reason: identityLocked ? existing.reason : incoming.reason,
-		source: identityLocked ? existing.source : incoming.source,
-		firstSeen: minDate(existing.firstSeen, incoming.firstSeen)
+		sources: mergeFaqSources(existing.sources, incoming.sources)
 	};
 }
 

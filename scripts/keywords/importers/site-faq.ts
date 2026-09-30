@@ -9,6 +9,7 @@
  * every faqs.json row pointing at *some* keyword id without inventing a fake blog keyword.
  */
 
+import { normalizeId } from '../normalize';
 import type { FaqEntry } from '../schema';
 
 export interface SiteFaqInput {
@@ -21,15 +22,14 @@ export interface SiteFaqInput {
 /** Pure: no file I/O. */
 export function siteFaqToFaqs(items: SiteFaqInput[], today: string): FaqEntry[] {
 	return items.map((item) => ({
-		id: item.id,
+		id: normalizeId(item.question),
 		question: item.question,
 		keywordId: `faq-${item.category}`,
 		cluster: 'site-faq',
 		url: '/faq/',
 		status: 'answered',
 		reason: null,
-		source: 'site-faq',
-		firstSeen: today
+		sources: { 'site-faq': { firstSeen: today, lastSeen: today } }
 	}));
 }
 

@@ -28,12 +28,11 @@ describe('postFaqsToFaqs', () => {
 			cluster: 'audio visual rental',
 			url: '/blog/sound-system-rental/',
 			status: 'answered',
-			source: 'post',
-			firstSeen: TODAY
+			sources: { post: { firstSeen: TODAY, lastSeen: TODAY, urls: ['/blog/sound-system-rental/'] } }
 		});
 	});
 
-	it('gives each faq a unique id even across posts with an identical question', () => {
+	it('makes the same question in two posts ONE faq that lists both post urls', () => {
 		const data = {
 			'post-a': [{ question: 'What is included?', answer: 'x' }],
 			'post-b': [{ question: 'What is included?', answer: 'y' }]
@@ -43,8 +42,10 @@ describe('postFaqsToFaqs', () => {
 			'post-b': { keywordId: 'post-b', cluster: 'c' }
 		};
 		const faqs = postFaqsToFaqs(data, postInfo, TODAY);
-		expect(faqs).toHaveLength(2);
-		expect(faqs[0].id).not.toBe(faqs[1].id);
+		expect(faqs).toHaveLength(1);
+		expect(faqs[0].id).toBe('what-is-included');
+		expect(faqs[0].url).toBe('/blog/post-a/');
+		expect(faqs[0].sources.post?.urls).toEqual(['/blog/post-a/', '/blog/post-b/']);
 	});
 
 	it('falls back to an unassigned cluster and a slug derived keywordId when a slug is unknown', () => {

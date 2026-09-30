@@ -203,15 +203,16 @@ export function batchToFaqs(batch: KeywordBatch, today: string): FaqEntry[] {
 	return batch.faqs.map((bf) => {
 		const keywordId = bf.keyword ? normalizeId(bf.keyword) : normalizeId(bf.question);
 		return {
-			id: `ubersuggest--${normalizeId(bf.question)}`,
+			id: normalizeId(bf.question),
 			question: bf.question,
 			keywordId,
 			cluster: 'unassigned',
 			url: null,
 			status: 'idea',
 			reason: null,
-			source: bf.source,
-			firstSeen: today
+			sources: {
+				'google-autocomplete': { firstSeen: today, lastSeen: today, seeds: [keywordId] }
+			}
 		};
 	});
 }

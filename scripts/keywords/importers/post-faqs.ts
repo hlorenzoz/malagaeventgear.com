@@ -27,24 +27,33 @@ export function postFaqsToFaqs(
 	postInfo: Record<string, PostInfo>,
 	today: string
 ): FaqEntry[] {
-	const faqs: FaqEntry[] = [];
+	// The id is the normalized question: the same question in two posts is ONE faq that lists
+	// both post urls (`sources.post.urls`), and the first post keeps `keywordId`, `cluster`, `url`.
+	const byId = new Map<string, FaqEntry>();
 	for (const [slug, items] of Object.entries(data)) {
 		const info = postInfo[slug] ?? { keywordId: slug, cluster: 'unassigned' };
+		const url = `/blog/${slug}/`;
 		for (const item of items) {
-			faqs.push({
-				id: `${slug}--${normalizeId(item.question)}`,
+			const id = normalizeId(item.question);
+			const seen = byId.get(id);
+			if (seen) {
+				const urls = seen.sources.post!.urls;
+				if (!urls.includes(url)) urls.push(url);
+				continue;
+			}
+			byId.set(id, {
+				id,
 				question: item.question,
 				keywordId: info.keywordId,
 				cluster: info.cluster,
-				url: `/blog/${slug}/`,
+				url,
 				status: 'answered',
 				reason: null,
-				source: 'post',
-				firstSeen: today
+				sources: { post: { firstSeen: today, lastSeen: today, urls: [url] } }
 			});
 		}
 	}
-	return faqs;
+	return [...byId.values()];
 }
 
 /** Real file read (node:fs, same pattern as scripts/backfill-silo-meta.ts). */

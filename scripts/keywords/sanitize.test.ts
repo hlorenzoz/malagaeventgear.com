@@ -68,8 +68,7 @@ describe('sanitizeKeywordsFile', () => {
 					url: null,
 					status: 'idea',
 					reason: null,
-					source: 'post',
-					firstSeen: '2026-09-29'
+					sources: { post: { firstSeen: '2026-09-29', lastSeen: '2026-09-29', urls: [] } }
 				}
 			]
 		});

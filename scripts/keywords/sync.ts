@@ -32,6 +32,7 @@ import { scoreOpportunity } from './score';
 import { sanitizeKeywordsFile } from './sanitize';
 import { batchToAiPrompts, batchToFaqs, batchToKeywords } from './ingest-ubersuggest';
 import { readBatches } from './batches';
+import { migrateLegacyFaqs } from './migrate-faqs';
 import { importBlogKeywords } from './importers/blog';
 import { importPostFaqs, type PostInfo } from './importers/post-faqs';
 import { importSiteFaqs } from './importers/site-faq';
@@ -57,7 +58,9 @@ function slugFromBlogUrl(url: string): string {
 
 function readExisting(): KeywordsFile | null {
 	if (!existsSync(OUTPUT_PATH)) return null;
-	const parsed = KeywordsFileSchema.safeParse(JSON.parse(readFileSync(OUTPUT_PATH, 'utf8')));
+	const parsed = KeywordsFileSchema.safeParse(
+		migrateLegacyFaqs(JSON.parse(readFileSync(OUTPUT_PATH, 'utf8')))
+	);
 	if (parsed.success) return parsed.data;
 	// A keywords.json written by a previous, incompatible schema version (e.g. the 2026-09-29
 	// sources-per-source migration) cannot be upserted onto: rebuild fully from sources and

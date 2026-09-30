@@ -193,8 +193,7 @@ describe('FaqEntrySchema', () => {
 			url: '/blog/audio-visual-rental/',
 			status: 'answered',
 			reason: null,
-			source: 'post',
-			firstSeen: '2026-09-29',
+			sources: { post: { firstSeen: '2026-09-29', lastSeen: '2026-09-29', urls: ['/blog/audio-visual-rental/'] } },
 			...overrides
 		};
 	}
@@ -208,6 +207,33 @@ describe('FaqEntrySchema', () => {
 			baseFaq({ status: 'rejected', reason: null, url: null })
 		);
 		expect(result.success).toBe(false);
+	});
+
+	it('accepts one entry per source, each with its own fields', () => {
+		const result = FaqEntrySchema.safeParse(
+			baseFaq({
+				sources: {
+					post: { firstSeen: '2026-09-29', lastSeen: '2026-09-29', urls: ['/blog/a/'] },
+					'google-autocomplete': { firstSeen: '2026-09-30', lastSeen: '2026-09-30', seeds: ['a'] },
+					ubersuggest: {
+						firstSeen: '2026-09-30',
+						lastSeen: '2026-09-30',
+						stats: { asOf: '2026-09-30', volume: 10, difficulty: null, cpc: null }
+					},
+					'site-faq': { firstSeen: '2026-09-29', lastSeen: '2026-09-29' },
+					research: { firstSeen: '2026-09-29', lastSeen: '2026-09-29' }
+				}
+			})
+		);
+		expect(result.success).toBe(true);
+	});
+
+	it('rejects an entry with no source at all, an unknown source key, or the old flat fields', () => {
+		expect(FaqEntrySchema.safeParse(baseFaq({ sources: {} })).success).toBe(false);
+		expect(
+			FaqEntrySchema.safeParse(baseFaq({ sources: { blog: { firstSeen: '2026-09-29', lastSeen: '2026-09-29' } } })).success
+		).toBe(false);
+		expect(FaqEntrySchema.safeParse(baseFaq({ source: 'post', firstSeen: '2026-09-29' })).success).toBe(false);
 	});
 });
 

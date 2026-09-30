@@ -97,8 +97,7 @@ const faq = (id: string, keywordId: string, status: FaqEntry['status'] = 'idea')
 	url: null,
 	status,
 	reason: null,
-	source: 'google-autocomplete',
-	firstSeen: '2026-09-01'
+	sources: { 'google-autocomplete': { firstSeen: '2026-09-01', lastSeen: '2026-09-01', seeds: [] } }
 });
 
 describe('formatEvidence', () => {

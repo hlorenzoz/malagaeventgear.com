@@ -247,15 +247,14 @@ export function researchMdToFaqs(
 			cluster: 'unassigned'
 		};
 		return {
-			id: `research-paa--${normalizeId(row.question)}`,
+			id: normalizeId(row.question),
 			question: toAscii(row.question),
 			keywordId: info.keywordId,
 			cluster: info.cluster,
 			url: null,
 			status: 'idea',
 			reason: null,
-			source: 'research-paa',
-			firstSeen: today
+			sources: { research: { firstSeen: today, lastSeen: today } }
 		};
 	});
 }

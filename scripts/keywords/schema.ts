@@ -245,11 +245,44 @@ export const KeywordEntrySchema = z
 	});
 export type KeywordEntry = z.infer<typeof KeywordEntrySchema>;
 
+const faqSourceBase = z.object({ firstSeen: dateOnly, lastSeen: dateOnly });
+
+/** Where a FAQ question was seen, one record per source (2026-09-30, same idea as the keywords'
+ *  `sources`): a question a post answers and Google also suggests is ONE entry with two keys. */
+export const FaqSourcesSchema = z.strictObject({
+	/** Google autocomplete suggested it. `seeds` are the ids of the keywords searched. */
+	'google-autocomplete': faqSourceBase.extend({ seeds: z.array(z.string()) }).optional(),
+	/** Ubersuggest measured the question as a keyword (never invented: no reading, no key). */
+	ubersuggest: faqSourceBase
+		.extend({
+			stats: z
+				.object({
+					asOf: dateOnly,
+					volume: z.number().nullable(),
+					difficulty: z.number().nullable(),
+					cpc: z.number().nullable()
+				})
+				.nullable()
+		})
+		.optional(),
+	/** A blog post answers it, `urls` are the posts. */
+	post: faqSourceBase.extend({ urls: z.array(z.string()) }).optional(),
+	'site-faq': faqSourceBase.optional(),
+	research: faqSourceBase.optional()
+});
+export type FaqSources = z.infer<typeof FaqSourcesSchema>;
+export const FAQ_SOURCE_KEYS = [
+	'google-autocomplete',
+	'ubersuggest',
+	'post',
+	'site-faq',
+	'research'
+] as const;
+
 /** A FAQ question, satisfied (or not yet) by a URL. Same rejected/reason parity as keywords.
- *  Unlike KeywordEntry, a FAQ's provenance is a single `source` string: it is never re-measured
- *  by more than one source the way a keyword's volume/difficulty/CPC can be. */
+ *  Its provenance is `sources`, a record with one key per source that saw the question. */
 export const FaqEntrySchema = z
-	.object({
+	.strictObject({
 		id: z.string().min(1),
 		question: z.string().min(1),
 		keywordId: z.string().min(1),
@@ -257,8 +290,7 @@ export const FaqEntrySchema = z
 		url: z.string().nullable(),
 		status: ContentStatusSchema,
 		reason: z.string().nullable(),
-		source: z.string().min(1),
-		firstSeen: dateOnly
+		sources: FaqSourcesSchema
 	})
 	.superRefine((entry, ctx) => {
 		if (entry.status === 'rejected' && !entry.reason) {
@@ -266,6 +298,13 @@ export const FaqEntrySchema = z
 				code: z.ZodIssueCode.custom,
 				path: ['reason'],
 				message: 'status "rejected" requires a reason'
+			});
+		}
+		if (Object.keys(entry.sources).length === 0) {
+			ctx.addIssue({
+				code: z.ZodIssueCode.custom,
+				path: ['sources'],
+				message: 'a faq needs at least one source'
 			});
 		}
 	});
