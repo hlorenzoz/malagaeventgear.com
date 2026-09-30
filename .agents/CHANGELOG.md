@@ -7,6 +7,9 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (seo): titulo del MICE Pack con "Corporate" y sufijo "| MEG"
+- **Decision del usuario (2026-09-30)**: `MICE Pack Corporate AV, LED Display & Technician | MEG` (54 caracteres, con `&amp;` decodificado). Recupera "Corporate", que el recorte del mismo dia habia quitado, y usa el sufijo `| MEG` que ya llevan la home y la pagina de paquetes. Solo cambia `seo.title` en `packages.ts`.
+
 ### Added (blog): introduccion real en las dos paginas de listado finas
 - **Decision del usuario (2026-09-30)**, a raiz de la tarea #T0048 (`content_count_words` de Ubersuggest): `/blog/categories/` y la categoria Gadgets llevan una introduccion breve en los 13 idiomas. No se rellenan las paginas de utilidad (gracias, legales).
 - `intro` en `blog/categories/i18n/<locale>.ts` e `intros: { gadgets }` en `blog/category/[category]/i18n/<locale>.ts` (extensible por slug ingles), renderizadas en ambas plantillas. Cada idioma mueve su `updated` y el ingles `contentUpdated` de `blog/categories/meta.ts` (regla 11).

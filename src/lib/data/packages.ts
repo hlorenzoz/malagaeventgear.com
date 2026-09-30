@@ -284,7 +284,7 @@ const packagesData: EventPackage[] = [
 		includeTags: ['sound', 'microphone', 'screen', 'transport', 'technician'],
 		optionalTags: ['lectern', 'staging', 'technical-assistant'],
 		seo: {
-			title: 'MICE Pack AV, LED Display & Technician | Malaga Event Gear',
+			title: 'MICE Pack Corporate AV, LED Display & Technician | MEG',
 			serviceName: 'MICE Pack LED Display, Sound & Live Technician Rental - Malaga Event Gear (MEG)',
 			serviceType: 'Audio visual MICE corporate event rentals with live technician'
 		},
