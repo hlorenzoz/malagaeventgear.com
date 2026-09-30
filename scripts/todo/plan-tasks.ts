@@ -25,6 +25,15 @@ export const PLAN_COVERAGE_NOTE = 'marcada hecha por plan-coverage';
 export const TRANSLATION_GATE_NOTE = 'bloqueada hasta terminar las traducciones de todos los posts';
 
 const ORIGIN_PREFIX = 'content-strategist (plan ';
+const UBERSUGGEST_PREFIX = 'ubersuggest (';
+/** The site audit fixes are the only Ubersuggest tasks that do not wait for the translations
+ *  (user decision, 2026-09-30): they change titles and metadata, not content to translate. */
+const UNGATED_UBERSUGGEST = 'ubersuggest (seo-opportunities, site-audit/';
+
+/** Pure: whether the translation gate applies to a task, by its Origen. */
+export const isTranslationGated = (origen: string): boolean =>
+	origen.startsWith(ORIGIN_PREFIX) ||
+	(origen.startsWith(UBERSUGGEST_PREFIX) && !origen.startsWith(UNGATED_UBERSUGGEST));
 
 /** The Origen of a plan's item (1-based index in `plan.items`, stable when items are skipped). */
 export const itemOrigin = (date: string, n: number) => `${ORIGIN_PREFIX}${date}, ítem ${n})`;
@@ -69,23 +78,29 @@ export function planTasks(plan: ContentPlan): Task[] {
 	return tasks;
 }
 
-/** Pure: adds the tasks of every plan that TODO.json does not have yet (key: Origen). An existing
- *  task keeps its Estado, Prioridad, Título and Nota, and only gets a description when it has none. */
-export function upsertPlanTasks(tasks: Task[], plans: ContentPlan[]): Task[] {
+/** Pure: adds the tasks whose Origen TODO.json does not have yet (key: Origen). An existing task
+ *  keeps its Estado, Prioridad, Título and Nota, and only gets a description when it has none. */
+export function upsertTasks(tasks: Task[], fresh: Task[]): Task[] {
 	const out = [...tasks];
 	const index = new Map(out.map((t, i) => [t.origen, i]));
-	for (const plan of [...plans].sort((a, b) => a.date.localeCompare(b.date))) {
-		for (const fresh of planTasks(plan)) {
-			const at = index.get(fresh.origen);
-			if (at === undefined) {
-				index.set(fresh.origen, out.length);
-				out.push(fresh);
-			} else if (out[at].descripcion.length === 0) {
-				out[at] = { ...out[at], descripcion: fresh.descripcion };
-			}
+	for (const task of fresh) {
+		const at = index.get(task.origen);
+		if (at === undefined) {
+			index.set(task.origen, out.length);
+			out.push(task);
+		} else if (out[at].descripcion.length === 0) {
+			out[at] = { ...out[at], descripcion: task.descripcion };
 		}
 	}
 	return out;
+}
+
+/** Pure: the tasks of every plan, oldest plan first, upserted by Origen. */
+export function upsertPlanTasks(tasks: Task[], plans: ContentPlan[]): Task[] {
+	const fresh = [...plans]
+		.sort((a, b) => a.date.localeCompare(b.date))
+		.flatMap((plan) => planTasks(plan));
+	return upsertTasks(tasks, fresh);
 }
 
 /** Pure: applies `plan.todo` priorities, oldest plan first, ONLY to tasks whose Nota still says
@@ -161,7 +176,7 @@ const setNota = (t: Task, nota: string | undefined): Task => {
  *  anyone else, tasks `en curso` and done tasks keep their Estado (a done task only loses the note). */
 export function applyTranslationGate(tasks: Task[], translationsDone: boolean): Task[] {
 	return tasks.map((t) => {
-		if (!t.origen.startsWith(ORIGIN_PREFIX)) return t;
+		if (!isTranslationGated(t.origen)) return t;
 		const gated = t.nota?.split(', ').includes(TRANSLATION_GATE_NOTE) ?? false;
 		if (t.estado === 'hecha') return gated ? setNota(t, withoutGateNote(t.nota)) : t;
 		if (!translationsDone && t.estado === 'pendiente') {

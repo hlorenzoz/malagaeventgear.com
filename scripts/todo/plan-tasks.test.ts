@@ -8,6 +8,8 @@ import {
 	applyPriorities,
 	autoComplete,
 	applyTranslationGate,
+	upsertTasks,
+	isTranslationGated,
 	TRANSLATION_GATE_NOTE,
 	type KeywordStatus
 } from './plan-tasks';
@@ -346,5 +348,56 @@ describe('applyTranslationGate', () => {
 			false
 		);
 		expect(out.nota).toBe('marcada hecha por plan-coverage');
+	});
+});
+
+describe('upsertTasks', () => {
+	const base = (over: Partial<Task>): Task => ({
+		id: '',
+		estado: 'pendiente',
+		prioridad: 'alta',
+		tipo: 'seo-tecnico',
+		titulo: 'Nueva',
+		anotada: '2026-10-01',
+		origen: 'ubersuggest (seo-opportunities, site-audit/long-titles)',
+		descripcion: ['linea'],
+		...over
+	});
+
+	it('adds a task whose Origen is not in the list', () => {
+		expect(upsertTasks([], [base({})])).toHaveLength(1);
+	});
+
+	it('keeps the Estado, Prioridad, Titulo and Nota of an existing task, and never duplicates it', () => {
+		const mine = base({ id: '#T0009', estado: 'hecha', prioridad: 'baja', titulo: 'Editada', nota: 'no reabrir' });
+		const out = upsertTasks([mine], [base({ titulo: 'Otra redaccion' })]);
+		expect(out).toEqual([mine]);
+	});
+
+	it('fills the description of an existing task only when it has none', () => {
+		const empty = base({ id: '#T0009', descripcion: [] });
+		expect(upsertTasks([empty], [base({})])[0].descripcion).toEqual(['linea']);
+	});
+});
+
+describe('isTranslationGated', () => {
+	it('gates content-strategist tasks and every Ubersuggest task except the site audit fixes', () => {
+		expect(isTranslationGated('content-strategist (plan 2026-09-29, ítem 1)')).toBe(true);
+		expect(isTranslationGated('ubersuggest (ai-visibility, x)')).toBe(true);
+		expect(isTranslationGated('ubersuggest (seo-opportunities, keyword/new-content/x)')).toBe(true);
+		expect(isTranslationGated('ubersuggest (seo-opportunities, site-audit/long-titles)')).toBe(false);
+		expect(isTranslationGated('usuario')).toBe(false);
+	});
+
+	it('blocks an Ubersuggest content task but not a site audit task while translations are missing', () => {
+		const t = (origen: string): Task => ({
+			id: '#T0001', estado: 'pendiente', prioridad: 'alta', tipo: 'keywords', titulo: 'x',
+			anotada: '2026-10-01', origen, descripcion: ['d']
+		});
+		const out = applyTranslationGate(
+			[t('ubersuggest (ai-visibility, x)'), t('ubersuggest (seo-opportunities, site-audit/a)')],
+			false
+		);
+		expect(out.map((x) => x.estado)).toEqual(['bloqueada', 'pendiente']);
 	});
 });
