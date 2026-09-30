@@ -1,7 +1,8 @@
 #!/usr/bin/env bun
 /**
  * organize.ts: `just todo-organize`. Reads .agents/data/TODO.json (validated, see
- * `todo-json.ts`), upserts the content-strategist tasks from the committed plans, applies the
+ * `todo-json.ts`), upserts the content-strategist tasks from the committed plans and the
+ * Ubersuggest tasks from the committed report batches (`report-tasks.ts`), applies the
  * priorities a plan proposes, closes the tasks keywords.json shows as done, blocks the
  * content-strategist tasks while posts are still untranslated, sorts (pendientes by priority,
  * then bloqueadas, hechas last) and writes the file back.
@@ -28,8 +29,12 @@ import {
 	applyTranslationGate,
 	autoComplete,
 	upsertPlanTasks,
+	upsertTasks,
 	type KeywordStatus
 } from './plan-tasks';
+import { reportTasks, syncReportTasks } from './report-tasks';
+import { readBatches } from '../keywords/batches';
+import { reportViews, type ReportView } from '../keywords/report-findings';
 import { DEFAULT_PRIORITY_NOTE, assignIds, sortTasks, type Task } from './todo-format';
 import { parseTodoJson, renderTodoJson } from './todo-json';
 
@@ -40,6 +45,8 @@ export interface OrganizeCtx {
 	/** Every published English post is translated to the 12 languages (gate of the
 	 *  content-strategist tasks, see `applyTranslationGate`). */
 	translationsDone: boolean;
+	/** Views of the Ubersuggest reports (`reportViews`), oldest first. Optional: no reports, no tasks. */
+	reports?: ReportView[];
 }
 
 export interface OrganizeResult {
@@ -54,10 +61,13 @@ export interface OrganizeResult {
  *  file actually changes, so running it every day does not rewrite an unchanged file. */
 export function organizeJson(text: string, ctx: OrganizeCtx): OrganizeResult {
 	const { updated, tasks } = parseTodoJson(text);
-	const inputTasks = assignIds(upsertPlanTasks(tasks, ctx.plans));
+	const reports = ctx.reports ?? [];
+	const withPlans = upsertPlanTasks(tasks, ctx.plans);
+	const inputTasks = assignIds(upsertTasks(withPlans, reportTasks(reports, ctx.keywords)));
 	const prioritized = applyPriorities(inputTasks, ctx.plans);
 	const completed = autoComplete(prioritized, ctx.plans, ctx.keywords, ctx.today);
-	const organized = sortTasks(applyTranslationGate(completed, ctx.translationsDone));
+	const synced = syncReportTasks(completed, reports, ctx.keywords, ctx.today);
+	const organized = sortTasks(applyTranslationGate(synced, ctx.translationsDone));
 	const unchanged = renderTodoJson(organized, updated);
 	const output = unchanged === text ? unchanged : renderTodoJson(organized, ctx.today);
 	return { output, tasks: organized, inputTasks };
@@ -149,7 +159,12 @@ function flag(argv: string[], name: string): string | undefined {
 
 function run(argv: string[]): number {
 	const file = flag(argv, '--file') ?? todoPath();
+	const batches = readBatches('tolerant');
+	for (const b of batches.skipped) {
+		console.error(`[todo-organize] lote ${b.name} ignorado (no valida): ${b.error.slice(0, 120)}`);
+	}
 	const ctxBase = {
+		reports: reportViews(batches.batches),
 		plans: readCommittedPlans(),
 		keywords: readKeywordStatuses(flag(argv, '--keywords') ?? keywordsPath()),
 		today: flag(argv, '--today') ?? localToday(),

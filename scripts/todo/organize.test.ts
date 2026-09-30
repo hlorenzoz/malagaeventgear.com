@@ -199,3 +199,46 @@ describe('organizeJson translation gate', () => {
 		expect(out.tasks.filter((t) => t.estado === 'bloqueada')).toEqual([]);
 	});
 });
+
+describe('organizeJson with Ubersuggest reports', () => {
+	const view = (kind: 'seo-opportunities' | 'ai-visibility', keys: string[], date = '2026-10-01') => ({
+		date,
+		kind,
+		status: 'ok' as const,
+		complete: true,
+		summary: [],
+		findings: keys.map((key) => ({ key, title: `T ${key}`, detail: ['d'] }))
+	});
+
+	it('adds a task per finding, and the site audit fix is not blocked by the translations', () => {
+		const out = organizeJson(
+			FILE,
+			ctx({
+				translationsDone: false,
+				reports: [view('seo-opportunities', ['site-audit/a', 'keyword/new-content/x']), view('ai-visibility', ['p'])]
+			})
+		);
+		const by = (o: string) => out.tasks.find((t) => t.origen === o)!;
+		expect(by('ubersuggest (seo-opportunities, site-audit/a)').estado).toBe('pendiente');
+		expect(by('ubersuggest (seo-opportunities, keyword/new-content/x)').estado).toBe('bloqueada');
+		expect(by('ubersuggest (ai-visibility, p)').estado).toBe('bloqueada');
+	});
+
+	it('is idempotent: a second run with the same reports changes nothing', () => {
+		const reports = [view('seo-opportunities', ['site-audit/a'])];
+		const first = organizeJson(FILE, ctx({ reports })).output;
+		expect(organizeJson(first, ctx({ reports, today: '2026-10-09' })).output).toBe(first);
+	});
+
+	it('closes the task when a later complete report no longer has the finding', () => {
+		const first = organizeJson(FILE, ctx({ reports: [view('seo-opportunities', ['site-audit/a'])] })).output;
+		const later = organizeJson(
+			first,
+			ctx({
+				today: '2026-10-08',
+				reports: [view('seo-opportunities', ['site-audit/a']), view('seo-opportunities', [], '2026-10-08')]
+			})
+		);
+		expect(later.tasks.find((t) => t.origen.includes('site-audit/a'))!.estado).toBe('hecha');
+	});
+});
