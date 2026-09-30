@@ -141,3 +141,9 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 .agents/context/google-search-console-gsc/
 # Google Search Console exports (performance data): local only, never committed.
 .agents/context/keywords/google-search-console-gsc/*/*.csv
+
+# Bing Webmaster Tools exports (site scans, recommendations, failing URLs): local only, never committed.
+# The folders stay in the repo through their .gitkeep (a directory pattern would block the re-include).
+.agents/context/bing-websmaster-tools/**
+!.agents/context/bing-websmaster-tools/**/
+!.agents/context/bing-websmaster-tools/**/.gitkeep
