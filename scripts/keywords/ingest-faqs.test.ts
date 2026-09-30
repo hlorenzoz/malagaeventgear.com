@@ -1,0 +1,67 @@
+/**
+ * ingest-faqs.test.ts: turns the raw autocomplete phrases of a FAQ batch into faqs (questions) and
+ * keywords (everything else), through the same relevance filter as every other source.
+ */
+import { describe, it, expect } from 'vitest';
+import type { FaqBatch } from './faq-batch.schema';
+import { faqBatchToKeywordBatch, isQuestion } from './ingest-faqs';
+
+const AREAS = ['Malaga', 'Marbella'];
+const fb = (phrases: [string, string][]): FaqBatch => ({
+	date: '2026-10-01',
+	run: { status: 'ok', calls: [] },
+	suggestions: phrases.map(([seed, phrase]) => ({ seed, phrase }))
+});
+
+describe('isQuestion', () => {
+	it('is true when the first word is a question word, ignoring case', () => {
+		for (const q of ['how much is a projector', 'What size screen', 'Can I rent a mic', 'is sound hire cheap', 'where to hire pa'])
+			expect(isQuestion(q)).toBe(true);
+	});
+
+	it('is false for a plain phrase, even one that contains a question word later', () => {
+		expect(isQuestion('sound system hire how much')).toBe(false);
+		expect(isQuestion('projector rental malaga')).toBe(false);
+		expect(isQuestion('however')).toBe(false);
+	});
+});
+
+describe('faqBatchToKeywordBatch', () => {
+	it('sends questions to faqs with their seed and the rest to keywords, all as google-autocomplete', () => {
+		const out = faqBatchToKeywordBatch(
+			fb([
+				['sound system rental', 'how much does sound system rental cost'],
+				['sound system rental', 'sound system rental malaga']
+			]),
+			AREAS
+		);
+		expect(out.faqs).toEqual([
+			{ question: 'how much does sound system rental cost', keyword: 'sound system rental', source: 'google-autocomplete' }
+		]);
+		expect(out.keywords).toEqual([{ keyword: 'sound system rental malaga', source: 'google-autocomplete' }]);
+		expect(out.aiPrompts).toEqual([]);
+	});
+
+	it('moves what the relevance filter rejects to discarded, for questions too', () => {
+		const out = faqBatchToKeywordBatch(
+			fb([['sound system rental', 'how to rent a sound system in dubai']]),
+			AREAS
+		);
+		expect(out.faqs).toEqual([]);
+		expect(out.discarded).toHaveLength(1);
+		expect(out.discarded[0].text).toMatch(/dubai/);
+	});
+
+	it('keeps date and run status, and keeps one faq per seed for a phrase two seeds suggested (the merge unions the seeds)', () => {
+		const out = faqBatchToKeywordBatch(
+			fb([
+				['a', 'how to hire a pa'],
+				['b', 'how to hire a pa']
+			]),
+			AREAS
+		);
+		expect(out.date).toBe('2026-10-01');
+		expect(out.run.status).toBe('ok');
+		expect(out.faqs).toHaveLength(2);
+	});
+});
