@@ -7,6 +7,13 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Added (keywords): agente independiente de FAQs y registro por fuente en `keywords.json`
+- **Decisión del usuario (2026-09-30)**: las FAQs las procesa un agente propio, `faq-researcher`, y el registro vive solo en `keywords.json` (sin `FAQs.txt`).
+- `FaqEntry` pasa de `source`/`firstSeen` a `sources` (`google-autocomplete` con `seeds`, `ubersuggest` con `stats`, `post` con `urls`, `site-faq`, `research`), con `mergeFaqSources` por clave. El id es la pregunta normalizada: la misma pregunta de dos fuentes es una entrada (565 FAQs pasan a 555 al unificar).
+- Nuevos: `faq-batch.schema.ts`, `faq-batches.ts`, `faq-seeds.ts`, `ingest-faqs.ts` (`isQuestion`), `faqs-query.ts`, `.claude/agents/faq-researcher.md` y las recetas `faq-seeds`, `faqs-ingest`, `faqs-commit`, `faq-research`, `faqs`. `sync.ts` reproduce los lotes de `faqs/`.
+- El agente de Ubersuggest pierde `google_suggestions`. `daily-guard.ts` encadena investigación, FAQs y plan (`faqsDone`, `runFaqs`).
+- Verificado con una corrida real el 2026-09-30: 33 preguntas copiadas, +30 FAQs, 0,56 USD, `sync` reproduce el mismo `keywords.json`.
+
 ### Added (keywords): reporte diario rotativo de Ubersuggest, registro fechado y tareas por hallazgo
 - **Decisión del usuario (2026-09-30)**: un reporte distinto por día (SEO Opportunities, AI Search Visibility, Domain Keywords, Competitor Keywords, Rank Tracking, Backlinks, Top Pages), con prioridad `alta` para los cuatro primeros y bloqueo por traducciones salvo los fixes de auditoría.
 - `report-of-day.ts` (rotación por "el que hace más tiempo no corre"), `report-findings.ts` (hallazgos y claves estables, `rankDrops`, `oneLine`), `report-log.ts` y `write-report-log.ts` (genera `.agents/data/ubersuggest.json`), `batches.ts` (lector compartido, estricto o tolerante), `scripts/todo/report-tasks.ts` (tareas, cierre por vista completa, reapertura a los 7 días) y `upsertTasks` en `plan-tasks.ts`.

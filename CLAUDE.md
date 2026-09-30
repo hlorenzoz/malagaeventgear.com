@@ -1428,9 +1428,8 @@ programado a las 09:00 con `just keywords-schedule-install`, plantilla en
   3 semillas, y gasta los `reports` que sobren en la primera semilla. Cuota mensual de
   `brand_operations` para AI Prompt Ideas. El agente lee `user_limits` al arrancar y se detiene si
   no hay cuota, dejándolo registrado en el lote del día.
-- **El autocompletado de Google NO es People Also Ask.** Las sugerencias de `google_suggestions`
-  se guardan como `faqs` con `source: "google-autocomplete"` si son pregunta, nunca etiquetadas
-  como PAA.
+- **El autocompletado de Google y las FAQs NO son de este agente** (ver "El agente de FAQs"). No tiene
+  `google_suggestions` y deja `faqs` vacío. El autocompletado nunca es People Also Ask.
 - El agente **solo descubre** (`idea`) y actualiza métricas. Nunca escribe contenido, nunca cambia
   un estado a `published`, nunca hace `push` (solo commit local, rama actual).
 - **Reporte del día (2026-09-30)**: cada día corre UN reporte distinto de Ubersuggest, en rotación
@@ -1480,6 +1479,42 @@ programado a las 09:00 con `just keywords-schedule-install`, plantilla en
   agrega una tool de Ubersuggest al agente, se agrega también a esa lista y al `tools` del agente.
 - **Log**: `~/Library/Logs/meg-keyword-research.log`. La última línea de cada corrida resume
   altas, descartes, cuota antes y después, y el commit o el motivo del corte.
+
+### El agente de FAQs (faq-researcher)
+
+`.claude/agents/faq-researcher.md` (decisión del usuario, 2026-09-30) es un agente INDEPENDIENTE del
+de Ubersuggest: un solo dueño por fuente. Corre en la cadena de `just keywords-daily`, después de
+la investigación y antes del plan (`just faq-research`, mismo aislamiento que los otros dos, tope
+2 USD, una corrida real costó 0,56 USD). Su única herramienta es `google_suggestions` (autocompletado
+de Google vía el MCP de Ubersuggest, gratis, no gasta `reports`). El agente de Ubersuggest ya no la
+tiene.
+
+- **Entrada**: `just faq-seeds` (`faq-seeds.ts`), 10 keywords `published` o `planned` (nunca los
+  clusters `news` ni `standalone`), las que hace más tiempo no se consultan. Con 10 por día recorre
+  el catálogo entero en rotación.
+- **Lote**: `.agents/context/keywords/faqs/YYYY-MM-DD.json` (`faq-batch.schema.ts`, estricto). El
+  agente solo copia frases crudas con su semilla. `google_suggestions` devuelve cientos de frases
+  por semilla, así que copia solo las que empiezan con palabra de pregunta, hasta 15 por semilla.
+  Las demás frases de autocompletado ya no entran a `keywords.json`: eran las 43 del lote del
+  2026-09-30 del agente de Ubersuggest.
+- **Clasificación**: `just faqs-ingest <lote>` (`ingest-faqs.ts`). `isQuestion` decide qué es
+  pregunta (primera palabra), `relevance.ts` filtra lo que no es del mercado de MEG (a `discarded`),
+  y el merge es el mismo de las demás fuentes. Nunca se etiquetan como People Also Ask.
+- **Registro, solo en `keywords.json`** (sin `FAQs.txt`): cada FAQ tiene `sources`, un registro con
+  una clave por fuente que la vio: `google-autocomplete` (`seeds`: las keywords buscadas),
+  `ubersuggest` (`stats`, solo si Ubersuggest midió la pregunta), `post` (`urls` de los posts que la
+  responden), `site-faq` y `research`. El id es la pregunta normalizada: la misma pregunta vista por
+  Google y por un post es UNA entrada con dos fuentes, y en dos posts, una con las dos URLs. Una
+  fuente que se vuelve a ingerir actualiza solo su clave, y el estado nunca retrocede (`answered`
+  gana). `keywordId` y `cluster` son los de la primera fuente que la vio.
+- **Consulta sin abrir el archivo**: `just faqs [--keyword <id>] [--status idea] [--source
+  google-autocomplete] [--since YYYY-MM-DD]` imprime JSON. `just content-candidates` sigue dándole al
+  content-strategist las FAQs `idea` de cada keyword.
+- **Commit**: `just faqs-commit <lote>` (tests de `scripts/keywords`, solo `keywords.json` y el
+  lote, `--no-verify` por la misma razón que `keywords-commit`). `sync.ts` reproduce estos lotes.
+- **Límite conocido**: el filtro de relevancia es de texto y deja pasar ruido (el 2026-09-30 entraron
+  "do rental cars have microphones" y "how much does a wedding planner cost" como `idea`). Es
+  descubrimiento: el content-strategist las descarta con su filtro de Google y el inventario.
 
 ### El agente de contenido (content-strategist)
 
@@ -1625,12 +1660,12 @@ pierde, y por eso existen los otros dos disparos. Los disparos extra no cuestan 
 nada que hacer, el guard sale sin llamar a Claude.
 
 - **Criterio de "hecho"**: sale del repo, no de un archivo de éxito. La investigación de hoy está
-  hecha si `ubersuggest/<hoy>.json` está trackeado y sin diff, y el plan de hoy si
-  `content-plan/<hoy>.json` lo está. "Hoy" es la fecha local de Europe/Madrid.
-- **Qué corre**: investigación pendiente, corre investigación y después el plan. Investigación hecha
-  y plan pendiente, solo el plan. Si la investigación sigue sin hecha tras correr y quedan
-  intentos, el plan espera al próximo disparo, para no planificar con datos de ayer. Con los
-  intentos agotados, el plan corre igual.
+  hecha si `ubersuggest/<hoy>.json` está trackeado y sin diff, las FAQs de hoy si
+  `faqs/<hoy>.json` lo está, y el plan de hoy si `content-plan/<hoy>.json` lo está. "Hoy" es la fecha local de Europe/Madrid.
+- **Qué corre**, en cadena: investigación de Ubersuggest, después FAQs, después el plan. Corre solo lo
+  que falta. Si la investigación o las FAQs siguen sin hechas tras correr y quedan intentos, el plan
+  espera al próximo disparo, para no planificar con datos de ayer. Con los intentos agotados, el
+  plan corre igual.
 - **Sin backfill**: varios días perdidos son UNA sola corrida hoy.
 - **Frenos**: nada antes de las 09:00, sin red (HEAD a `api.anthropic.com`, 5 s), con otro run en
   curso (lock en `~/Library/Application Support/malagaeventgear/keywords-daily/lock`, se descarta
