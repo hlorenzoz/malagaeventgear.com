@@ -5,7 +5,8 @@ const copy = {
 	backLink: 'All Posts',
 	// {name} is replaced with the category display name in the page.
 	titleTemplate: '{name} | Blog | Malaga Event Gear',
-	descriptionTemplate: 'Read all posts about {name} from the Malaga Event Gear blog.',
+	descriptionTemplate:
+		'Read every Malaga Event Gear blog post filed under {name}: guides, tips and updates on audio visual rental and event equipment in Malaga, Spain.',
 	newsBadge: 'News',
 	readMore: 'Read More →',
 	// Short introduction per category (English slug). Only the thin listing pages have one.

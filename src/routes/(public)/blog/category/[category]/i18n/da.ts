@@ -5,7 +5,8 @@ export const updated = '2026-09-30';
 const copy = {
 	backLink: 'Alle indlæg',
 	titleTemplate: '{name} | Blog | Malaga Event Gear',
-	descriptionTemplate: 'Læs alle indlæg om {name} fra Malaga Event Gears blog.',
+	descriptionTemplate:
+		'Læs alle indlæg på Malaga Event Gears blog i kategorien {name}: guider, tips og nyheder om udlejning af AV-udstyr og eventudstyr i Malaga, Spanien.',
 	newsBadge: 'Nyheder',
 	readMore: 'Læs mere →',
 	// Short introduction per category (English slug). Only the thin listing pages have one.

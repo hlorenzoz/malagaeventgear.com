@@ -69,3 +69,51 @@ describe('category page introductions', () => {
 		}
 	});
 });
+
+describe('category page meta descriptions (Bing Webmaster, 2026-09-30: too short)', () => {
+	const maps = import.meta.glob('/src/lib/i18n/content-map/locales/*.ts', {
+		eager: true
+	}) as Record<string, { default: { categories: Record<string, { name: string }> } }>;
+	const namesOf = (l: string) =>
+		Object.values(maps[`/src/lib/i18n/content-map/locales/${l}.ts`].default.categories).map(
+			(c) => c.name
+		);
+	type Tpl = { descriptionTemplate: string };
+	const tpl = (l: string) => (categoryByLocale[l].default as unknown as Tpl).descriptionTemplate;
+
+	it('every locale template renders a description of a useful length for every category', () => {
+		const zh = new Set(['zh-hans', 'zh-tw', 'zh-hk']);
+		for (const l of ALL.filter((x) => x !== 'en')) {
+			for (const name of namesOf(l)) {
+				const d = tpl(l).replace('{name}', name);
+				const [min, max] = zh.has(l) ? [55, 110] : [130, 175];
+				expect(d.length, `${l} ${name}: ${d}`).toBeGreaterThanOrEqual(min);
+				expect(d.length, `${l} ${name}: ${d}`).toBeLessThanOrEqual(max);
+			}
+		}
+	});
+
+	it('the English template renders 130 to 175 characters for the English category names', () => {
+		for (const name of [
+			'Events',
+			'Audio Visual Rental',
+			'Weddings',
+			'News',
+			'Corporate & Enterprise',
+			'Event Planning',
+			'Gadgets'
+		]) {
+			const d = tpl('en').replace('{name}', name);
+			expect(d.length, d).toBeGreaterThanOrEqual(130);
+			expect(d.length, d).toBeLessThanOrEqual(175);
+		}
+	});
+
+	it('keeps the {name} token exactly once and follows rule 12', () => {
+		for (const l of ALL) {
+			const t = tpl(l);
+			expect(t.split('{name}').length - 1, l).toBe(1);
+			expect(t, l).not.toMatch(/[—–‘’“”… «»„]/);
+		}
+	});
+});

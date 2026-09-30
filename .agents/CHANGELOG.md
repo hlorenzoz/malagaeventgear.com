@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (seo): meta descriptions de las paginas de categoria, demasiado cortas (Bing Webmaster)
+- **Origen**: aviso de Bing Webmaster Tools del 2026-09-30, 6 paginas `/blog/category/<slug>/` (events, audio-visual-rental, gadgets, corporate-enterprise, news, weddings) con la descripcion en unos 66 caracteres.
+- `descriptionTemplate` de `blog/category/[category]/i18n/<locale>.ts` en los 13 idiomas, ahora una frase con guias, consejos y novedades sobre alquiler audiovisual y equipo de eventos en Malaga, Espana. Ingles: 142 a 160 caracteres segun la categoria. Idiomas latinos: 134 a 171. Chino: 61 a 68 (los caracteres chinos pesan mas). Cada idioma mueve su `updated`.
+- Guard en `src/lib/data/category-intros.test.ts`: largo util en cada idioma y cada categoria, el token `{name}` una sola vez y regla 12.
+- Bing puede tardar en reflejarlo: el rastreo es suyo.
+
 ### Changed (seo): titulo del MICE Pack con "Corporate" y sufijo "| MEG"
 - **Decision del usuario (2026-09-30)**: `MICE Pack Corporate AV, LED Display & Technician | MEG` (54 caracteres, con `&amp;` decodificado). Recupera "Corporate", que el recorte del mismo dia habia quitado, y usa el sufijo `| MEG` que ya llevan la home y la pagina de paquetes. Solo cambia `seo.title` en `packages.ts`.
 - Por coherencia (decision del usuario, mismo dia), los otros cuatro paquetes (Eco, Wedding, Product Presentation, Basic MICE) tambien pasan de `| Malaga Event Gear` a `| MEG`. En los idiomas, 12 titulos de paquete que no llevaban sufijo (de, pt-pt, sv, nb) suman `| MEG`, todos dentro de 60 caracteres. Quedan sin sufijo 4 que no caben (nl: wedding y product-presentation, sv: eco y product-presentation). Los demas ya lo tenian.
