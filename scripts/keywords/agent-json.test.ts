@@ -162,3 +162,54 @@ describe('the content-plan headless run and its scheduler', () => {
 		expect(plist).toContain('<key>StartInterval</key>');
 	});
 });
+
+describe('the real faq-researcher agent file and its headless run', () => {
+	const files = import.meta.glob('/.claude/agents/faq-researcher.md', {
+		query: '?raw',
+		import: 'default',
+		eager: true
+	}) as Record<string, string>;
+	const md = readRaw(files);
+
+	it('lists exactly the one Ubersuggest tool the scheduled run allows, and no reports-spending tool', () => {
+		const agent = agentMarkdownToJson(md)['faq-researcher'];
+		const mcp = agent.tools.filter((t) => t.startsWith('mcp__'));
+		expect(mcp).toEqual(['mcp__ubersuggest__google_suggestions']);
+		const run = recipe('faq-research:');
+		for (const tool of agent.tools) expect(run, tool).toContain(tool);
+	});
+
+	it('is isolated like the other agents, writes only under faqs/ and never touches git history', () => {
+		const run = recipe('faq-research:');
+		expect(run).toContain('--setting-sources ""');
+		expect(run).toContain('--strict-mcp-config');
+		expect(run).toContain('--permission-mode default');
+		expect(run).toContain('agent-json.ts faq-researcher');
+		expect(run).toContain('Write(.agents/context/keywords/faqs/**)');
+		expect(run).not.toMatch(/--allowedTools[^\n]*Bash\(git/);
+		for (const denied of ['git push', 'git reset', 'git checkout', 'git stash', 'git restore', 'rm']) {
+			expect(run).toContain(`Bash(${denied}:*)`);
+		}
+	});
+
+	it('the analyst no longer has google_suggestions, so each source has one owner', () => {
+		const analyst = agentMarkdownToJson(
+			readRaw(
+				import.meta.glob('/.claude/agents/ubersuggest-analyst.md', {
+					query: '?raw',
+					import: 'default',
+					eager: true
+				}) as Record<string, string>
+			)
+		)['ubersuggest-analyst'];
+		expect(analyst.tools).not.toContain('mcp__ubersuggest__google_suggestions');
+		expect(recipe('keywords-research:')).not.toContain('google_suggestions');
+	});
+
+	it('faqs-commit stages only keywords.json and the FAQ batch', () => {
+		const commit = recipe('faqs-commit batch:');
+		expect(commit).toContain('--no-verify');
+		expect(commit).toContain('.agents/data/keywords.json');
+		expect(commit).not.toMatch(/TODO/);
+	});
+});

@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
 /**
- * daily-guard.ts: decides whether today's keyword research and content plan still have to run,
+ * daily-guard.ts: decides whether today's keyword research, FAQ research and content plan still have to run,
  * and runs what is missing. `just keywords-daily` is this script. launchd fires it at 09:00, at
  * login (RunAtLoad) and every hour, so a Mac that was powered off or offline catches up later.
  * Most triggers do nothing and cost nothing (no Claude call).
@@ -8,6 +8,8 @@
  * State is derived from the repo, not from a success file: a step is DONE when today's file
  * exists, is tracked and has no uncommitted diff. There is no backfill: several missed days mean
  * one run today.
+ *
+ * Chain: Ubersuggest research, then the FAQ agent, then the content plan.
  *
  * Flags: `--dry-run` prints the decision and touches nothing. `--force` ignores hour and done
  * flags (the lock and the offline check still apply) for manual runs.
@@ -34,6 +36,7 @@ export interface GuardInput {
 	today: string;
 	hour: number;
 	researchDone: boolean;
+	faqsDone: boolean;
 	planDone: boolean;
 	attemptsToday: number;
 	maxAttempts: number;
@@ -43,23 +46,35 @@ export interface GuardInput {
 
 export interface GuardDecision {
 	runResearch: boolean;
+	runFaqs: boolean;
 	runPlan: boolean;
 	reason: string;
 }
 
-const none = (reason: string): GuardDecision => ({ runResearch: false, runPlan: false, reason });
+const none = (reason: string): GuardDecision => ({
+	runResearch: false,
+	runFaqs: false,
+	runPlan: false,
+	reason
+});
 
 /** Pure: what to run right now. Rules are checked in priority order. */
 export function decideDailyRun(i: GuardInput): GuardDecision {
 	if (i.lockHeld) return none('another run holds the lock');
 	if (i.hour < START_HOUR) return none(`before ${String(START_HOUR).padStart(2, '0')}:00`);
-	if (i.researchDone && i.planDone) return none('research and plan already committed');
+	if (i.researchDone && i.faqsDone && i.planDone) {
+		return none('research, faqs and plan already committed');
+	}
 	if (!i.online) return none('offline, will retry at the next trigger');
 	if (i.attemptsToday >= i.maxAttempts) {
 		return none(`daily attempts used up (${i.attemptsToday}/${i.maxAttempts})`);
 	}
-	if (!i.researchDone) return { runResearch: true, runPlan: true, reason: 'research pending' };
-	return { runResearch: false, runPlan: true, reason: 'plan pending' };
+	const runPlan = !i.planDone;
+	if (!i.researchDone) {
+		return { runResearch: true, runFaqs: !i.faqsDone, runPlan, reason: 'research pending' };
+	}
+	if (!i.faqsDone) return { runResearch: false, runFaqs: true, runPlan, reason: 'faqs pending' };
+	return { runResearch: false, runFaqs: false, runPlan: true, reason: 'plan pending' };
 }
 
 /** Pure: a lock is stale when its process is gone or it is older than 3 hours. */
@@ -79,6 +94,7 @@ const STATE_DIR = join(
 const LOCK_DIR = join(STATE_DIR, 'lock');
 
 const researchFile = (d: string) => `.agents/context/keywords/ubersuggest/${d}.json`;
+const faqsFile = (d: string) => `.agents/context/keywords/faqs/${d}.json`;
 const planFile = (d: string) => `.agents/context/keywords/content-plan/${d}.json`;
 
 function log(today: string, msg: string): void {
@@ -183,6 +199,7 @@ async function main(): Promise<void> {
 	const maxAttempts = DEFAULT_MAX_ATTEMPTS;
 	const held = lockHeld(!dryRun);
 	const researchDone = !force && (await isCommitted(researchFile(today)));
+	const faqsDone = !force && (await isCommitted(faqsFile(today)));
 	const planDone = !force && (await isCommitted(planFile(today)));
 	const attemptsToday = readAttempts(today);
 	const online = held ? true : await isOnline();
@@ -190,16 +207,21 @@ async function main(): Promise<void> {
 		today,
 		hour: force ? START_HOUR : hour,
 		researchDone,
+		faqsDone,
 		planDone,
 		attemptsToday: force ? 0 : attemptsToday,
 		maxAttempts,
 		lockHeld: held,
 		online
 	});
-	const plan = [decision.runResearch && 'research', decision.runPlan && 'plan']
+	const plan = [
+		decision.runResearch && 'research',
+		decision.runFaqs && 'faqs',
+		decision.runPlan && 'plan'
+	]
 		.filter(Boolean)
 		.join(' + ');
-	const state = `research=${researchDone ? 'done' : 'pending'} plan=${planDone ? 'done' : 'pending'} attempts=${attemptsToday}/${maxAttempts}`;
+	const state = `research=${researchDone ? 'done' : 'pending'} faqs=${faqsDone ? 'done' : 'pending'} plan=${planDone ? 'done' : 'pending'} attempts=${attemptsToday}/${maxAttempts}`;
 	if (!plan) {
 		log(today, `skip (${decision.reason}) [${state}]`);
 		return;
@@ -223,10 +245,16 @@ async function main(): Promise<void> {
 			researchOk = await isCommitted(researchFile(today));
 			log(today, `research ${researchOk ? 'done' : 'NOT done'}`);
 		}
-		// Plan choice: if research is still missing and retries remain, the plan waits for the
-		// next trigger, so it never runs on yesterday's data unless research is out of attempts.
-		if (decision.runPlan && !researchOk && attempts < maxAttempts && !force) {
-			log(today, 'plan deferred (research not done, retries remain)');
+		let faqsOk = faqsDone;
+		if (decision.runFaqs) {
+			await run('faq-research');
+			faqsOk = await isCommitted(faqsFile(today));
+			log(today, `faqs ${faqsOk ? 'done' : 'NOT done'}`);
+		}
+		// Plan choice: if research or the FAQs are still missing and retries remain, the plan waits
+		// for the next trigger, so it never runs on yesterday's data unless attempts run out.
+		if (decision.runPlan && !(researchOk && faqsOk) && attempts < maxAttempts && !force) {
+			log(today, 'plan deferred (research or faqs not done, retries remain)');
 			return;
 		}
 		if (decision.runPlan) {
