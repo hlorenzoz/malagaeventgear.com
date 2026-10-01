@@ -1,7 +1,122 @@
 {
 	"version": 1,
-	"updated": "2026-09-30",
+	"updated": "2026-10-01",
 	"reports": [
+		{
+			"date": "2026-10-01",
+			"kind": "ai-visibility",
+			"status": "ok",
+			"calls": [
+				{
+					"tool": "user_limits",
+					"outcome": "ok"
+				},
+				{
+					"tool": "list_projects",
+					"outcome": "ok"
+				},
+				{
+					"tool": "brand_config",
+					"outcome": "ok"
+				},
+				{
+					"tool": "brand_visibility_overview",
+					"outcome": "ok"
+				},
+				{
+					"tool": "brand_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "failed"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "empty"
+				},
+				{
+					"tool": "user_limits",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_overview",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_overview",
+					"outcome": "quota"
+				},
+				{
+					"tool": "keyword_overview",
+					"outcome": "quota"
+				},
+				{
+					"tool": "keyword_metrics",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_metrics",
+					"outcome": "failed"
+				},
+				{
+					"tool": "keyword_metrics",
+					"outcome": "failed"
+				},
+				{
+					"tool": "user_limits",
+					"outcome": "ok"
+				}
+			],
+			"summary": [
+				"Visibility 40%, average rank 1, total mentions 2, 5 of 10 tracked prompts answered",
+				"Share of voice 8.33, sentiment score 100 (positive), 21 competing brands tracked",
+				"Top competing brands by mentions: Neo Audiovisuales S.L. (2), Crystal Sound (1), Amalex sonido profesional (1)",
+				"5 prompts sin evaluar (sin datos)"
+			],
+			"findings": [
+				{
+					"key": "which-company-rents-pa-speakers-and-wireless-microphones-for-a-wedding-on-the-costa-del-sol",
+					"title": "IA: no aparecemos en \"Which company rents PA speakers and wireless microphones for a wedding on the Costa del Sol?\""
+				},
+				{
+					"key": "who-rents-tv-screens-for-exhibitor-stands-at-a-trade-fair-in-malaga",
+					"title": "IA: no aparecemos en \"Who rents TV screens for exhibitor stands at a trade fair in Malaga?\""
+				},
+				{
+					"key": "which-company-provides-sound-and-lighting-hire-for-weddings-in-marbella",
+					"title": "IA: no aparecemos en \"Which company provides sound and lighting hire for weddings in Marbella?\""
+				}
+			],
+			"discovered": {
+				"keywords": 1,
+				"aiPrompts": 68
+			}
+		},
 		{
 			"date": "2026-09-30",
 			"kind": "seo-opportunities",

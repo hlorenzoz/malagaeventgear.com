@@ -1,0 +1,264 @@
+{
+  "date": "2026-10-01",
+  "run": {
+    "status": "partial",
+    "reason": "Daily reports quota (3) was exhausted by keyword_suggestions, content_ideas and the first keyword_overview call on the first seed. keyword_overview for the other two seeds then failed with HTTP 403 daily reports limit reached, so metrics for those two seeds are missing today.",
+    "quotaBefore": {
+      "competitors_per_project": 2,
+      "content_ideas": 10,
+      "keyword_lists": 3,
+      "keywords": 20,
+      "keywords_per_keyword_list": 30,
+      "keywords_per_project": 25,
+      "locations_per_project": 1,
+      "pages_to_crawl": 150,
+      "projects": 1,
+      "pitch_projects": 0,
+      "pitch_brands": 0,
+      "reports": 3,
+      "top_pages": 10,
+      "brands": 1,
+      "prompts_per_brand": 10,
+      "prompts_per_keyword": 10,
+      "monthly_keyword_metrics_updates_limits": 10,
+      "monthly_keyword_metrics_updates_used": 0,
+      "brand_operations_limits": 100,
+      "brand_operations_used": 0,
+      "topics_per_brand": 10,
+      "aiw_words_limits": 2000,
+      "aiw_words_used": 0
+    },
+    "quotaAfter": {
+      "competitors_per_project": 2,
+      "content_ideas": 10,
+      "keyword_lists": 3,
+      "keywords": 20,
+      "keywords_per_keyword_list": 30,
+      "keywords_per_project": 25,
+      "locations_per_project": 1,
+      "pages_to_crawl": 150,
+      "projects": 1,
+      "pitch_projects": 0,
+      "pitch_brands": 0,
+      "reports": 3,
+      "top_pages": 10,
+      "brands": 1,
+      "prompts_per_brand": 10,
+      "prompts_per_keyword": 10,
+      "monthly_keyword_metrics_updates_limits": 10,
+      "monthly_keyword_metrics_updates_used": 0,
+      "brand_operations_limits": 100,
+      "brand_operations_used": 0,
+      "topics_per_brand": 10,
+      "aiw_words_limits": 2000,
+      "aiw_words_used": 0
+    },
+    "calls": [
+      { "tool": "user_limits", "args": "quota check before run", "outcome": "ok" },
+      { "tool": "list_projects", "args": "find malagaeventgear.com project", "outcome": "ok" },
+      { "tool": "brand_config", "args": "project_id malagaeventgear.com", "outcome": "ok" },
+      { "tool": "brand_visibility_overview", "args": "project_id malagaeventgear.com, default 30d window", "outcome": "ok" },
+      { "tool": "brand_prompts", "args": "project_id malagaeventgear.com, default 30d window", "outcome": "ok" },
+      { "tool": "industry_prompts", "args": "topic: all in one wedding rental packages, en, loc 2724", "outcome": "ok" },
+      { "tool": "industry_prompts", "args": "topic: audio visual rental, en, loc 2724", "outcome": "ok" },
+      { "tool": "industry_prompts", "args": "topic: av equipment checklist for conference, en, loc 2724", "outcome": "ok" },
+      { "tool": "article_title_suggestions", "args": "keyword: all in one wedding rental packages, project_id malagaeventgear.com", "outcome": "ok" },
+      { "tool": "keyword_suggestions", "args": "keywords: [all in one wedding rental packages], loc 2724", "outcome": "empty" },
+      { "tool": "serp_analysis", "args": "keyword: all in one wedding rental packages, loc 2724, limit 10 (attempt 1)", "outcome": "failed" },
+      { "tool": "content_ideas", "args": "keywords: [all in one wedding rental packages], loc 2724, limit 5", "outcome": "empty" },
+      { "tool": "serp_analysis", "args": "keyword: all in one wedding rental packages, loc 2724, limit 10 (attempt 2, still with locId)", "outcome": "empty" },
+      { "tool": "user_limits", "args": "quota check mid run", "outcome": "ok" },
+      { "tool": "keyword_overview", "args": "keyword: audio visual rental, loc 2724", "outcome": "ok" },
+      { "tool": "keyword_overview", "args": "keyword: av equipment checklist for conference, loc 2724", "outcome": "quota" },
+      { "tool": "keyword_overview", "args": "keyword: all in one wedding rental packages, loc 2724", "outcome": "quota" },
+      { "tool": "keyword_metrics", "args": "keyword: audio visual rental, metric: search_intent", "outcome": "ok" },
+      { "tool": "keyword_metrics", "args": "keyword: all in one wedding rental packages, metric: search_difficulty (2 attempts, pending then failed)", "outcome": "failed" },
+      { "tool": "keyword_metrics", "args": "keyword: av equipment checklist for conference, metric: search_difficulty", "outcome": "failed" },
+      { "tool": "user_limits", "args": "quota check after run", "outcome": "ok" }
+    ],
+    "skipped": [
+      {
+        "step": "keyword_overview for seeds 'av equipment checklist for conference' and 'all in one wedding rental packages'",
+        "reason": "Daily reports quota (3) was already spent by keyword_suggestions, content_ideas and the first keyword_overview call; tool returned HTTP 403 'You have reached the daily reports limit: 3'"
+      },
+      {
+        "step": "keyword_suggestions, serp_analysis and content_ideas for seeds 'audio visual rental' and 'av equipment checklist for conference'",
+        "reason": "Budget rules reserve remaining reports for the first seed only; the first seed's calls returned no data and used up the day's report quota before the other two seeds could be tried"
+      },
+      {
+        "step": "faqs (Google autocomplete / PAA)",
+        "reason": "Out of scope for this agent per instructions: no google_suggestions tool available, that is the faq-researcher's job"
+      },
+      {
+        "step": "search_intent label for 'audio visual rental'",
+        "reason": "keyword_metrics returned raw intent code si=3 with no documented code-to-label mapping available via the tools given; left the keyword's intent field unset rather than guess the label"
+      },
+      {
+        "step": "search_difficulty for 'all in one wedding rental packages' and 'av equipment checklist for conference'",
+        "reason": "keyword_metrics returned status 'failed' for both (no difficulty data computed by Ubersuggest for these long-tail phrases)"
+      }
+    ],
+    "monthlyRun": true
+  },
+  "keywords": [
+    {
+      "keyword": "audio visual rental",
+      "cluster": "audio visual rental",
+      "metrics": {
+        "volume": { "value": 50, "source": "ubersuggest", "asOf": "2026-10-01" },
+        "difficulty": { "value": 23, "source": "ubersuggest", "asOf": "2026-10-01" },
+        "cpc": { "value": 1.03, "source": "ubersuggest", "asOf": "2026-10-01" }
+      },
+      "source": "ubersuggest-overview"
+    }
+  ],
+  "faqs": [],
+  "aiPrompts": [
+    { "prompt": "What are the best all in one wedding rental packages available in Spain?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which all in one wedding rental package offers the best value for a medium-sized wedding?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Can you compare all in one wedding rental packages from Malaga Event Gear with other providers in Spain?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where can I find affordable all in one wedding rental packages near me in Spain?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "What all in one wedding rental packages include decoration, seating, and catering equipment?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Top-rated all in one wedding rental packages for beach weddings in Spain?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which all in one wedding rental package is best for a luxury wedding in Spain?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Are there any all in one wedding rental packages that offer eco-friendly options in Spain?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best all in one wedding rental packages for a wedding with under 100 guests?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where to hire reliable all in one wedding rental packages in the Malaga region?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "How do all in one wedding rental packages from Malaga Event Gear compare to other local competitors?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "What's the best all in one wedding rental package for a winter wedding in Spain?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Recommendations for all in one wedding rental packages that include sound and lighting equipment?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best value all in one wedding rental packages with flexible rental periods in Spain?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which all in one wedding rental packages cater to both ceremony and reception needs?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where to buy or rent comprehensive wedding packages that cover everything in Spain?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Are there any all in one wedding rental packages that include setup and teardown services?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Malaga Event Gear vs other wedding rental companies: who offers better all in one packages?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "What's the best all in one wedding rental package for a destination wedding in Andalusia?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "All in one wedding rental packages that offer customizable options for Spanish weddings?", "keyword": "all in one wedding rental packages", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "What is the best audio visual rental service in Spain for corporate events?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which audio visual rental company offers the best deals near me in Spain?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Audio visual rental vs event production companies: which is better for weddings?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Top-rated audio visual rental providers in Spain for conferences?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where can I rent high-quality audio visual equipment for a music festival in Spain?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best budget-friendly audio visual rental options for small business presentations in Spain?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Recommendations for audio visual rental services with 4K projectors in Spain?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Audio visual rental companies near me with technical support included?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best value audio visual rental packages for trade shows in Spain?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which is better for audio visual rental: Malaga Event Gear or other local providers in Spain?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where to hire audio visual equipment for outdoor events in Spain?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Audio visual rental options that include sound system setup for corporate meetings in Spain?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best audio visual rental company for multi-day events in Spain?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Comparison of pricing for audio visual rental between Malaga Event Gear and competitors?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Audio visual rental with LED screen rentals available in Spain - which companies offer this?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "What's the most reliable audio visual rental service for high-capacity venues in Spain?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where to find audio visual rental services that provide on-site technicians in Spain?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best audio visual rental companies in Spain for last-minute event bookings?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Audio visual rental vs buying equipment: which is more cost-effective for one-time events in Spain?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Top-rated audio visual rental services specializing in hybrid events in Spain?", "keyword": "audio visual rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "What's the best AV equipment checklist for a mid-sized conference in Spain?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which AV gear should I prioritize for a corporate conference setup?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "AV equipment checklist vs rental package: What's more cost-effective for a conference?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best value AV equipment bundles for conference presentations near me in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where can I rent AV equipment for conferences with a complete checklist included?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Recommendations for AV equipment checklists that cover sound, lighting, and video for conferences", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Top-rated AV equipment checklists tailored for conference organizers in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "What's the difference between Malaga Event Gear and other AV providers for conference setups?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best AV equipment checklist for a conference with remote streaming capabilities", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which AV equipment checklist is ideal for a conference with breakout sessions and multiple rooms?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best AV equipment checklist for a small conference budget under 1000 euros in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Malaga Event Gear vs local AV rental companies: Which offers a better conference checklist?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which AV setup checklist includes all essential gear for hybrid conferences?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Recommendations for portable AV equipment checklists perfect for pop-up conferences in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best AV equipment checklist for conferences with high attendee capacity and Q&A sessions", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best deals on AV equipment checklists and rental combos for conferences in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "What AV equipment checklist should I use for a tech conference requiring advanced video displays?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best AV equipment checklist for conferences focusing on clear audio and audience interaction", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    {
+      "prompt": "Where can I hire a sound system and microphones for a corporate event in Malaga, Spain?",
+      "source": "ubersuggest-brand",
+      "visibility": { "mentioned": true, "evaluated": true, "position": 1, "brands": ["Malaga Event Gear", "Crystal Sound", "Amalex sonido profesional", "Europlus-Audiovisual", "Neo Audiovisuales S.L.", "M de Music", "MOVAUD Events", "Shure"], "provider": "openai", "asOf": "2026-10-01" }
+    },
+    {
+      "prompt": "Which company rents PA speakers and wireless microphones for a wedding on the Costa del Sol?",
+      "source": "ubersuggest-brand",
+      "visibility": { "mentioned": false, "evaluated": true, "position": null, "brands": ["Promusic Marbella", "AEA Sound System Rent Marbella", "Sonido e Iluminacion Pro-Sound", "Nerja Sound & Lighting", "Marbella Bride / Nerja Events", "Sur Audio Solutions", "DaleVoz"], "provider": "openai", "asOf": "2026-10-01" }
+    },
+    {
+      "prompt": "Where can I rent a projector and screen for a conference in Malaga?",
+      "source": "ubersuggest-brand",
+      "visibility": { "mentioned": true, "evaluated": true, "position": 1, "brands": ["Malaga Event Gear", "Alquilavisual", "Video Promocion", "Objetivo 50", "Bazar del Cineista", "Neo Audiovisuales S.L."], "provider": "openai", "asOf": "2026-10-01" }
+    },
+    {
+      "prompt": "Who rents TV screens for exhibitor stands at a trade fair in Malaga?",
+      "source": "ubersuggest-brand",
+      "visibility": { "mentioned": false, "evaluated": true, "position": null, "brands": [], "provider": "openai", "asOf": "2026-10-01" }
+    },
+    {
+      "prompt": "Which company provides sound and lighting hire for weddings in Marbella?",
+      "source": "ubersuggest-brand",
+      "visibility": { "mentioned": false, "evaluated": true, "position": null, "brands": [], "provider": "openai", "asOf": "2026-10-01" }
+    },
+    {
+      "prompt": "How much does a wedding sound and lighting package cost in Malaga, Spain?",
+      "source": "ubersuggest-brand",
+      "visibility": { "mentioned": false, "evaluated": false, "position": null, "brands": [], "provider": null, "asOf": "2026-10-01" }
+    },
+    {
+      "prompt": "Which AV rental company in Malaga offers packages for conferences and congresses?",
+      "source": "ubersuggest-brand",
+      "visibility": { "mentioned": false, "evaluated": false, "position": null, "brands": [], "provider": null, "asOf": "2026-10-01" }
+    },
+    {
+      "prompt": "Who provides audiovisual equipment and a technician for a hotel meeting in Torremolinos?",
+      "source": "ubersuggest-brand",
+      "visibility": { "mentioned": false, "evaluated": false, "position": null, "brands": [], "provider": null, "asOf": "2026-10-01" }
+    },
+    {
+      "prompt": "Where can I rent event lighting in Malaga, Spain?",
+      "source": "ubersuggest-brand",
+      "visibility": { "mentioned": false, "evaluated": false, "position": null, "brands": [], "provider": null, "asOf": "2026-10-01" }
+    },
+    {
+      "prompt": "Where can I hire a smoke machine for a party on the Costa del Sol?",
+      "source": "ubersuggest-brand",
+      "visibility": { "mentioned": false, "evaluated": false, "position": null, "brands": [], "provider": null, "asOf": "2026-10-01" }
+    }
+  ],
+  "research": {
+    "all in one wedding rental packages": {
+      "serp": { "asOf": "2026-10-01" },
+      "contentIdeas": [],
+      "titleIdeas": [
+        "What all in one wedding rental packages include on the Costa del Sol",
+        "Compare wedding AV packages: budget, mid-range and premium options for Malaga venues",
+        "How to choose an all in one wedding rental package: a checklist for couples and planners"
+      ]
+    }
+  },
+  "rank": [],
+  "discarded": [
+    { "text": "Where to buy AV equipment checklist templates for professional conference planning?", "reason": "about buying checklist templates, not about hiring AV equipment, no customer intent for MEG's service" },
+    { "text": "Where to find comprehensive AV equipment checklists for conferences in Madrid and nearby areas?", "reason": "Madrid is outside MEG's service area (Malaga, Costa del Sol, Sevilla, Granada)" }
+  ],
+  "report": {
+    "kind": "ai-visibility",
+    "status": "ok",
+    "summary": [
+      "Visibility 40%, average rank 1, total mentions 2, 5 of 10 tracked prompts answered",
+      "Share of voice 8.33, sentiment score 100 (positive), 21 competing brands tracked",
+      "Top competing brands by mentions: Neo Audiovisuales S.L. (2), Crystal Sound (1), Amalex sonido profesional (1)"
+    ],
+    "metrics": {
+      "user_brand_average_rank": 1,
+      "user_brand_total_mentions": 2,
+      "user_brand_visibility_percentage": 40,
+      "total_answers": 5,
+      "total_prompts": 10,
+      "total_competitors": 21,
+      "user_brand_share_of_voice": 8.33,
+      "user_brand_sentiment_score": 100
+    },
+    "seoCounts": {},
+    "seo": [],
+    "rows": []
+  }
+}
