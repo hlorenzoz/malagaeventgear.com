@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "tasks": [
     {
       "id": "#T0048",
@@ -85,6 +85,74 @@
         "Ya corregido en audio-visual-rental-for-remote-presentations (1289, 1331) y en",
         "audio-visual-rental-for-virtual-events (1304), que describen solo lo que se ve. Con la respuesta",
         "del usuario: corregir el resto en inglés, traducciones y manifest, en un solo cambio."
+      ]
+    },
+    {
+      "id": "#T0018",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "traduccion",
+      "titulo": "\"Malaga, Spain\" en lo ya traducido",
+      "anotada": "2026-09-26",
+      "hecha": null,
+      "origen": "migrada",
+      "notas": [
+        "prioridad asignada por content-strategist el 2026-10-01: Es una decision del usuario del 2026-09-26 (CLAUDE.md",
+        "regla 'Malaga",
+        "Spain') que el sitio todavia no cumple en los 12 posts ya traducidos a los 13 idiomas ni en varias paginas y paquetes",
+        "segun el propio detalle de la tarea."
+      ],
+      "descripcion": [
+        "Decisión del usuario del 2026-09-26, regla en CLAUDE.md §5 (\"Malaga, Spain\"): la primera mención",
+        "geográfica de Málaga en el cuerpo nombra el país, y la meta description también cuando entra en",
+        "160 caracteres. Los 66 posts ingleses que faltan traducir se ajustan antes de su turno de",
+        "traducción (en curso el 2026-09-26), así se traducen una sola vez. Queda la pasada sobre lo que",
+        "YA está en los 13 idiomas, cada idioma con su forma (\"Malaga, Spanien\", \"马拉加（西班牙）\"):",
+        "- Los 12 posts traducidos (inglés + 12 traducciones cada uno): event-technology-service,",
+        "  audiovisual-equipment-rental-service, headset-lavalier-microphone-rental, stage-lighting-rental,",
+        "  stage-uplighting, stage-lighting-for-weddings, smoke-machine-rental, wedding-rentals,",
+        "  unique-wedding-ceremony-rentals, wedding-rentals-online, wedding-rentals-near-me,",
+        "  tips-for-reducing-wedding-rental-costs.",
+        "- Las páginas: seo.description y primera mención del cuerpo en src/routes/(public)/**/i18n/*.ts",
+        "  (home, about-us, equipment, packages, contact, faq, meet-the-team). Las legales y el sitemap",
+        "  HTML no hace falta.",
+        "- Paquetes: seo y landing en packages.ts y src/lib/i18n/data/<locale>.ts, si hay mención de",
+        "  Málaga que no diga el país.",
+        "- Sin bumpear fechas: aclarar el país no es un cambio de contenido (regla 11).",
+        "De paso, dos detalles previos que encontró el traductor del post 12:",
+        "- src/lib/i18n/data/fr.ts e it.ts dicen \"Malaga capitale\" (ambiguo, se lee como capital de",
+        "  país). Debe ser la ciudad (\"la ville de Malaga\", \"la città di Malaga\").",
+        "- En italiano el sitio mezcla \"finca\" (invariable, lo normativo) y \"fincas\" (it/data y",
+        "  it/unique-wedding-ceremony-rentals.svx). Unificar en \"finca\"."
+      ]
+    },
+    {
+      "id": "#T0020",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "traduccion",
+      "titulo": "Qué hace el técnico: dos textos traducidos por revisar",
+      "anotada": "2026-09-26",
+      "hecha": null,
+      "origen": "migrada",
+      "notas": [
+        "prioridad asignada por content-strategist el 2026-10-01: El texto confirma que dos textos ya traducidos a los 13 idiomas (packages/[slug] y stage-uplighting.svx) todavia dan a entender que el tecnico opera las luces",
+        "un hecho de negocio ya corregido en otros posts el 2026-09-26 pero que sigue mal en estos dos",
+        "lo que viola la regla de Honestidad de CLAUDE.md sobre hechos ya publicados."
+      ],
+      "descripcion": [
+        "Hecho del negocio (CLAUDE.md, \"Qué hace el técnico en el evento\", 2026-09-26): opera el sonido y",
+        "los micrófonos, resuelve fallas de proyector, pantalla y luces, y el switcher Kramer solo si se",
+        "contrata. Ya corregidos en el cambio de ese día: audio-visual-rental, event-technology-service,",
+        "technical-support-for-events, video-switcher-rental, tv-screen-rental,",
+        "latest-trends-in-wedding-rentals, el highlightBody del MICE Pack y el paso \"run the show\" de los",
+        "diccionarios. Quedan dos textos traducidos a los 13 idiomas que rozan \"opera las luces\":",
+        "- src/routes/(public)/packages/[slug]/i18n/<locale>.ts:32: \"you can request a dedicated",
+        "  sound/light engineer to stay at your venue\". El técnico no es un iluminador.",
+        "- stage-uplighting.svx:74, 101 y 155: \"our technician manages the fixtures through your event\",",
+        "  \"sets the color for your event on site\", \"checking and repositioning fixtures as needed\".",
+        "  Aclarar que el color se fija en el montaje y que el técnico resuelve si algo falla.",
+        "Cada uno en inglés y en sus 12 traducciones en el mismo cambio, con sus fechas."
       ]
     },
     {
@@ -192,6 +260,50 @@
       ]
     },
     {
+      "id": "#T0033",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "seo-tecnico",
+      "titulo": "Reverse silo: posts de soporte sin enlace a sus hermanos",
+      "anotada": "2026-09-25",
+      "hecha": null,
+      "origen": "migrada",
+      "notas": [
+        "prioridad asignada por content-strategist el 2026-10-01: El hallazgo confirma que 7 de 41 posts de soporte del silo audio visual rental",
+        "ya publicados",
+        "no enlazan a ningun hermano adyacente",
+        "lo que incumple directamente la regla mandatoria del reverse silo de CLAUDE.md (cadena lateral obligatoria) en contenido que ya esta en produccion."
+      ],
+      "descripcion": [
+        "Hallazgo del code-review de stage-lighting-for-weddings. CLAUDE.md exige que cada post de soporte",
+        "enlace a sus hermanos adyacentes, en los dos sentidos. En el silo stage lighting se arregló el",
+        "2026-09-25 (bodas enlaza a stage-uplighting y a smoke-machine-rental, y stage-uplighting enlaza a",
+        "bodas). Chequeo con script el mismo día, sobre los posts ingleses: en el silo audio visual rental,",
+        "7 de 41 posts de soporte no enlazan a ningún hermano:",
+        "- audio-visual-rental-safety-guidelines",
+        "- audio-visual-rental-for-weddings",
+        "- audio-visual-rental-planning-timeline",
+        "- benefits-of-audio-visual-rental",
+        "- audio-visual-rental-for-art-exhibitions",
+        "- audio-visual-rental-for-private-parties",
+        "- stage-monitor-rental",
+        "El silo wedding rentals (20) no tiene huecos. headset-lavalier-microphone-rental es el único post",
+        "de soporte de su silo, así que no tiene hermanos todavía.",
+        "Cómo seguir: correr /seo:reverse-silo-review para fijar el orden de la cadena del silo audio visual",
+        "rental (el CSV de POP es el plan), y agregar los enlaces en inglés ANTES del turno de traducción",
+        "de cada post, así se traducen una sola vez. Un enlace en su forma inglesa a un hermano ya",
+        "traducido se localiza solo en el build.",
+        "Defecto del guard a resolver antes (encontrado el 2026-09-25): validateSiloGraph",
+        "(src/lib/data/site-map.ts) marca como malla toda componente fuertemente conexa de 3 o más posts,",
+        "pero una cadena correcta A <-> B <-> C también lo es. Con el guard actual, enlazar bien los",
+        "hermanos de un silo de 3 o más posts falla la suite, salvo que esos posts ya estén en la deuda de",
+        "src/lib/data/silo-cycle-debt.ts (así pasó con stage-lighting-for-weddings y smoke-machine-rental,",
+        "que se sumaron a la línea base el 2026-09-25). Arreglo propuesto, con test primero: aceptar la",
+        "componente cuando sus enlaces son todos recíprocos y forman un camino (n - 1 pares, grado máximo",
+        "2), y seguir marcando todo lo demás."
+      ]
+    },
+    {
       "id": "#T0015",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -222,6 +334,99 @@
         "3. (Opcional) Zaraz s.js aparece en staging sin cache TTL (7KB): revisar si se está usando; si no, desactivarlo.",
         "",
         "Verificación tras deploy + purge + toggle: npx lighthouse https://malagaeventgear.com/blog/ --only-categories=performance --form-factor=mobile -> objetivo FCP <2.5s, LCP <3s, score >=85. (nuevo.malagaeventgear.com fue dado de baja, ya no resuelve; usar producción o localhost:4173)."
+      ]
+    },
+    {
+      "id": "#T0051",
+      "estado": "bloqueada",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/projector-rental/: \"Do you deliver projector rental near me outside Malaga city?\"",
+      "anotada": "2026-10-01",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-01, ítem 9)",
+      "notas": [
+        "bloqueada hasta terminar las traducciones de todos los posts"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/projector-rental.svx",
+        "Keywords: rental projector near me (google-ads 20/mo (below tier 100), gsc pos 21 1 impr), debajo del tier",
+        "Qué cubrir: Confirmar que el projector rental ya se entrega, instala y prueba en toda Malaga capital y en el resto de la Costa del Sol, como ya dice el Brief Overview del post. Nombrar 2 o 3 localidades de ejemplo de siteConfig.serviceAreas (nunca una lista larga de ciudades: spam-policies.md desaconseja los bloques de texto con ciudades y regiones). No prometer un radio de entrega exacto ni un recargo por distancia que no este confirmado en packages.ts, y no repetir los datos de lumens o precio que ya cubren otros FAQs del mismo post.",
+        "Por qué: Revise /blog/projector-rental/ completo: el Brief Overview ya dice que se entrega 'across Malaga and the wider Costa del Sol', pero ningun heading ni FAQ nombra la cobertura de zona de forma explicita como si lo hacen los posts near-me del mismo silo (por ejemplo 'Do you deliver audio video rental outside Malaga city?' en audio-video-rental-near-me-in-malaga-spain.svx). No corresponde un post nuevo (seria una variante near-me casi identica a un post ya existente del silo, riesgo de doorway abuse segun spam-policies.md), asi que la intencion entra como FAQ nueva en el propio post. Subo prioridad a alta por el ranking en pagina 2/3 (pos 21) con impresiones reales.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0052",
+      "estado": "bloqueada",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"Do you deliver sound system rental near me outside Malaga city?\"",
+      "anotada": "2026-10-01",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-01, ítem 10)",
+      "notas": [
+        "bloqueada hasta terminar las traducciones de todos los posts"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/sound-system-rental.svx",
+        "Keywords: rent sound system near me, sound rental near me, sound system rental near me, portable sound system rental near me (portable sound system rental near me: google-ads 10/mo (below tier 100), gsc pos 30 1 impr | rent sound system near me: google-ads 90/mo (below tier 100) | sound rental near me: google-ads 90/mo (below tier 100) | sound system rental near me: google-ads 90/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Confirmar que el sound system rental ya se entrega en villas, fincas y hoteles de toda la Costa del Sol, como ya dice la seccion 'Indoor and Outdoor Sound System Rental' del post, nombrando 2 o 3 localidades de ejemplo de siteConfig.serviceAreas sin listar las 23 (evita el bloque de ciudades que spam-policies.md desaconseja). No contradecir ni repetir la FAQ existente 'Do you offer a portable, battery powered or self collect PA system?' (respuesta: no, ningun paquete es portatil ni autocolecta): esta FAQ nueva es sobre zona de cobertura, no sobre portabilidad del equipo. No prometer generador ni disponibilidad fuera de lo que ya confirma la FAQ sobre el generador.",
+        "Por qué: Revise /blog/sound-system-rental/ completo: la seccion 'Indoor and Outdoor Sound System Rental' ya dice que la mayoria de las instalaciones son en villas, terrazas privadas y hoteles 'across Malaga and the Costa del Sol', pero ningun heading ni FAQ nombra la cobertura de zona de forma explicita como 'near me', a diferencia de los posts near-me dedicados del silo audio visual rental. Las cuatro variantes son la misma intencion (encontrar un alquiler de sistema de sonido cerca). No corresponde un post near-me nuevo (seria casi identico a los dos posts near-me ya publicados del mismo silo, riesgo de doorway abuse segun spam-policies.md), asi que entra como FAQ nueva en el propio post. Subo prioridad a alta por el ranking en pagina 2/3 de 'portable sound system rental near me' (pos 30) con impresiones reales.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0054",
+      "estado": "bloqueada",
+      "prioridad": "alta",
+      "tipo": "visibilidad-ia",
+      "titulo": "IA: no aparecemos en \"Which company rents PA speakers and wireless microphones for a wedding on the Costa del Sol?\"",
+      "anotada": "2026-10-01",
+      "hecha": null,
+      "origen": "ubersuggest (ai-visibility, which-company-rents-pa-speakers-and-wireless-microphones-for-a-wedding-on-the-costa-del-sol)",
+      "notas": [
+        "bloqueada hasta terminar las traducciones de todos los posts"
+      ],
+      "descripcion": [
+        "Marcas que si aparecen: Promusic Marbella, AEA Sound System Rent Marbella, Sonido e Iluminacion Pro-Sound, Nerja Sound & Lighting, Marbel...",
+        "Reporte ai-visibility de ubersuggest del 2026-10-01."
+      ]
+    },
+    {
+      "id": "#T0055",
+      "estado": "bloqueada",
+      "prioridad": "alta",
+      "tipo": "visibilidad-ia",
+      "titulo": "IA: no aparecemos en \"Who rents TV screens for exhibitor stands at a trade fair in Malaga?\"",
+      "anotada": "2026-10-01",
+      "hecha": null,
+      "origen": "ubersuggest (ai-visibility, who-rents-tv-screens-for-exhibitor-stands-at-a-trade-fair-in-malaga)",
+      "notas": [
+        "bloqueada hasta terminar las traducciones de todos los posts"
+      ],
+      "descripcion": [
+        "Marcas que si aparecen: ninguna",
+        "Reporte ai-visibility de ubersuggest del 2026-10-01."
+      ]
+    },
+    {
+      "id": "#T0056",
+      "estado": "bloqueada",
+      "prioridad": "alta",
+      "tipo": "visibilidad-ia",
+      "titulo": "IA: no aparecemos en \"Which company provides sound and lighting hire for weddings in Marbella?\"",
+      "anotada": "2026-10-01",
+      "hecha": null,
+      "origen": "ubersuggest (ai-visibility, which-company-provides-sound-and-lighting-hire-for-weddings-in-marbella)",
+      "notas": [
+        "bloqueada hasta terminar las traducciones de todos los posts"
+      ],
+      "descripcion": [
+        "Marcas que si aparecen: ninguna",
+        "Reporte ai-visibility de ubersuggest del 2026-10-01."
       ]
     },
     {
@@ -292,7 +497,9 @@
       "hecha": null,
       "origen": "migrada",
       "notas": [
-        "prioridad por defecto"
+        "prioridad asignada por content-strategist el 2026-10-01: Es una lista de mejoras reales de SEO (pagina de autor con E-E-A-T",
+        "citas a fuentes externas) encontradas al comparar el sitio contra un curso externo",
+        "sin fecha limite declarada y con el item de mayor impacto ya marcado como bloqueado hasta tener datos reales del negocio."
       ],
       "descripcion": [
         "Revisión del curso gratis de SEO de Peter Raventos (Peterlid) contra el repo, verificada en el",
@@ -408,7 +615,8 @@
       "hecha": null,
       "origen": "migrada",
       "notas": [
-        "prioridad por defecto"
+        "prioridad asignada por content-strategist el 2026-10-01: Es la etapa de correccion de traducciones que el propio usuario decidio diferir hasta terminar de traducir todos los posts (decision del 2026-09-28): el sitio sigue esa decision tal como esta",
+        "aunque la lista incluya errores ya conocidos a corregir en esa pasada."
       ],
       "descripcion": [
         "Decisión del usuario (2026-09-28): desde all-in-one-wedding-rental-packages se traduce sin",
@@ -481,69 +689,6 @@
       ]
     },
     {
-      "id": "#T0018",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "traduccion",
-      "titulo": "\"Malaga, Spain\" en lo ya traducido",
-      "anotada": "2026-09-26",
-      "hecha": null,
-      "origen": "migrada",
-      "notas": [
-        "prioridad por defecto"
-      ],
-      "descripcion": [
-        "Decisión del usuario del 2026-09-26, regla en CLAUDE.md §5 (\"Malaga, Spain\"): la primera mención",
-        "geográfica de Málaga en el cuerpo nombra el país, y la meta description también cuando entra en",
-        "160 caracteres. Los 66 posts ingleses que faltan traducir se ajustan antes de su turno de",
-        "traducción (en curso el 2026-09-26), así se traducen una sola vez. Queda la pasada sobre lo que",
-        "YA está en los 13 idiomas, cada idioma con su forma (\"Malaga, Spanien\", \"马拉加（西班牙）\"):",
-        "- Los 12 posts traducidos (inglés + 12 traducciones cada uno): event-technology-service,",
-        "  audiovisual-equipment-rental-service, headset-lavalier-microphone-rental, stage-lighting-rental,",
-        "  stage-uplighting, stage-lighting-for-weddings, smoke-machine-rental, wedding-rentals,",
-        "  unique-wedding-ceremony-rentals, wedding-rentals-online, wedding-rentals-near-me,",
-        "  tips-for-reducing-wedding-rental-costs.",
-        "- Las páginas: seo.description y primera mención del cuerpo en src/routes/(public)/**/i18n/*.ts",
-        "  (home, about-us, equipment, packages, contact, faq, meet-the-team). Las legales y el sitemap",
-        "  HTML no hace falta.",
-        "- Paquetes: seo y landing en packages.ts y src/lib/i18n/data/<locale>.ts, si hay mención de",
-        "  Málaga que no diga el país.",
-        "- Sin bumpear fechas: aclarar el país no es un cambio de contenido (regla 11).",
-        "De paso, dos detalles previos que encontró el traductor del post 12:",
-        "- src/lib/i18n/data/fr.ts e it.ts dicen \"Malaga capitale\" (ambiguo, se lee como capital de",
-        "  país). Debe ser la ciudad (\"la ville de Malaga\", \"la città di Malaga\").",
-        "- En italiano el sitio mezcla \"finca\" (invariable, lo normativo) y \"fincas\" (it/data y",
-        "  it/unique-wedding-ceremony-rentals.svx). Unificar en \"finca\"."
-      ]
-    },
-    {
-      "id": "#T0020",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "traduccion",
-      "titulo": "Qué hace el técnico: dos textos traducidos por revisar",
-      "anotada": "2026-09-26",
-      "hecha": null,
-      "origen": "migrada",
-      "notas": [
-        "prioridad por defecto"
-      ],
-      "descripcion": [
-        "Hecho del negocio (CLAUDE.md, \"Qué hace el técnico en el evento\", 2026-09-26): opera el sonido y",
-        "los micrófonos, resuelve fallas de proyector, pantalla y luces, y el switcher Kramer solo si se",
-        "contrata. Ya corregidos en el cambio de ese día: audio-visual-rental, event-technology-service,",
-        "technical-support-for-events, video-switcher-rental, tv-screen-rental,",
-        "latest-trends-in-wedding-rentals, el highlightBody del MICE Pack y el paso \"run the show\" de los",
-        "diccionarios. Quedan dos textos traducidos a los 13 idiomas que rozan \"opera las luces\":",
-        "- src/routes/(public)/packages/[slug]/i18n/<locale>.ts:32: \"you can request a dedicated",
-        "  sound/light engineer to stay at your venue\". El técnico no es un iluminador.",
-        "- stage-uplighting.svx:74, 101 y 155: \"our technician manages the fixtures through your event\",",
-        "  \"sets the color for your event on site\", \"checking and repositioning fixtures as needed\".",
-        "  Aclarar que el color se fija en el montaje y que el técnico resuelve si algo falla.",
-        "Cada uno en inglés y en sus 12 traducciones en el mismo cambio, con sus fechas."
-      ]
-    },
-    {
       "id": "#T0021",
       "estado": "pendiente",
       "prioridad": "media",
@@ -603,47 +748,6 @@
         "cuando no hay localidad, Sevilla donde es Sevilla). Ya corregido el 2026-09-26: las fotos 1272,",
         "1331, 1296 y 1793 en event-technology-service, headset-lavalier-microphone-rental,",
         "stage-lighting-rental y stage-uplighting. Conviene hacerlo junto con la pasada de \"Malaga, Spain\"."
-      ]
-    },
-    {
-      "id": "#T0033",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "seo-tecnico",
-      "titulo": "Reverse silo: posts de soporte sin enlace a sus hermanos",
-      "anotada": "2026-09-25",
-      "hecha": null,
-      "origen": "migrada",
-      "notas": [
-        "prioridad por defecto"
-      ],
-      "descripcion": [
-        "Hallazgo del code-review de stage-lighting-for-weddings. CLAUDE.md exige que cada post de soporte",
-        "enlace a sus hermanos adyacentes, en los dos sentidos. En el silo stage lighting se arregló el",
-        "2026-09-25 (bodas enlaza a stage-uplighting y a smoke-machine-rental, y stage-uplighting enlaza a",
-        "bodas). Chequeo con script el mismo día, sobre los posts ingleses: en el silo audio visual rental,",
-        "7 de 41 posts de soporte no enlazan a ningún hermano:",
-        "- audio-visual-rental-safety-guidelines",
-        "- audio-visual-rental-for-weddings",
-        "- audio-visual-rental-planning-timeline",
-        "- benefits-of-audio-visual-rental",
-        "- audio-visual-rental-for-art-exhibitions",
-        "- audio-visual-rental-for-private-parties",
-        "- stage-monitor-rental",
-        "El silo wedding rentals (20) no tiene huecos. headset-lavalier-microphone-rental es el único post",
-        "de soporte de su silo, así que no tiene hermanos todavía.",
-        "Cómo seguir: correr /seo:reverse-silo-review para fijar el orden de la cadena del silo audio visual",
-        "rental (el CSV de POP es el plan), y agregar los enlaces en inglés ANTES del turno de traducción",
-        "de cada post, así se traducen una sola vez. Un enlace en su forma inglesa a un hermano ya",
-        "traducido se localiza solo en el build.",
-        "Defecto del guard a resolver antes (encontrado el 2026-09-25): validateSiloGraph",
-        "(src/lib/data/site-map.ts) marca como malla toda componente fuertemente conexa de 3 o más posts,",
-        "pero una cadena correcta A <-> B <-> C también lo es. Con el guard actual, enlazar bien los",
-        "hermanos de un silo de 3 o más posts falla la suite, salvo que esos posts ya estén en la deuda de",
-        "src/lib/data/silo-cycle-debt.ts (así pasó con stage-lighting-for-weddings y smoke-machine-rental,",
-        "que se sumaron a la línea base el 2026-09-25). Arreglo propuesto, con test primero: aceptar la",
-        "componente cuando sus enlaces son todos recíprocos y forman un camino (n - 1 pares, grado máximo",
-        "2), y seguir marcando todo lo demás."
       ]
     },
     {
@@ -805,7 +909,9 @@
       "hecha": null,
       "origen": "migrada",
       "notas": [
-        "prioridad por defecto"
+        "prioridad asignada por content-strategist el 2026-10-01: Es un backlog de ideas de contenido para event-technology-service",
+        "un pilar real con 0 supporting posts segun just content-inventory (la prioridad de Avalanche que mas conviene reforzar)",
+        "pero el propio texto aclara que nada esta escrito ni aprobado todavia y que los volumenes son propuestas sin validar."
       ],
       "descripcion": [
         "Origen: TGE.txt §8.2 (ideas con el partner Top Group Express), ampliado a pedido del usuario con",
@@ -1191,7 +1297,8 @@
       "hecha": null,
       "origen": "migrada",
       "notas": [
-        "prioridad por defecto"
+        "prioridad asignada por content-strategist el 2026-10-01: Es una guia de orden de traduccion (decision del usuario del 2026-09-26) que ya esta en curso y evita canibalizacion al traducir primero el pilar y despues sus supporting en cadena",
+        "sin ningun bloqueo declarado mas alla del propio proceso que ya se sigue."
       ],
       "descripcion": [
         "Primero el clúster de conferencias y eventos corporativos, después bodas, después el resto:",
@@ -1308,6 +1415,28 @@
         "Qué cubrir: State honestly that MEG's own inventory has one screen size, the 60 inch high definition LED display on the MICE Pack, which reads clearly as a single panel in a conference room without needing a darkened space, per this page's 'TV Screen or Projector: Which One Does Your Event Need?' section. For a room too large for one panel to read across, point to the projector rental guide's 3000 and 5000 lumen tiers instead. Do not invent additional screen sizes MEG does not stock.",
         "Por qué: Checked /blog/tv-screen-rental/'s FAQ list: it answers 'What screen sizes are available?' and 'Do you rent a 55 inch screen?' but never frames the answer around a conference room specifically, which the 'TV Screen or Projector' section addresses only indirectly. Real gap, not a duplicate.",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0053",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-01",
+      "anotada": "2026-10-01",
+      "hecha": "2026-10-01",
+      "origen": "content-strategist (plan 2026-10-01, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "large screen hire (Revise /blog/tv-screen-rental/ (el unico 'big screen' propio de MEG es el panel LED de 60 pulgadas, con la seccion 'TV Screen or Projector: Which One Does Your Event Need?' y el FAQ 'What screen sizes are available?') y /blog/projector-rental/ (el FAQ 'What's the largest screen size available?' confirma la pantalla de 2x2m del Basic MICE Pack y remite a 'Why the Screen Is Always Bundled With the Projector' si se necesita una imagen mas grande). Entre los dos posts la intencion de alquilar una pantalla grande para un evento ya esta respondida con precio real y sin formulario de cotizacion generico. Subo prioridad a alta por el ranking en pagina 2/3 (pos 10.4 y 18.29) con impresiones reales; sigue siendo skip porque un heading o post nuevo duplicaria contenido que ya existe en dos posts del mismo silo.)",
+        "wedding packages malaga (Revise el pilar /blog/wedding-rentals/ (seccion 'What's Included in the Wedding Pack', precio de 650 euros, hasta 80 invitados) y su FAQ 'How much do wedding rentals cost in Malaga?': cubren exactamente la intencion de esta keyword, casi identica a 'malaga wedding packages' ya evaluada el 2026-09-30 con la misma conclusion. Subo prioridad a alta por el ranking en pagina 2/3 (pos 11.25) con impresiones reales; sigue siendo skip porque anadir contenido duplicaria el propio pilar del silo wedding rentals.)",
+        "rent audio visual (Las cuatro variantes son la misma intencion generica (alquilar equipo audio/video sin tipo de evento ni ubicacion especifica), sinonimos lexicos del propio keyword cabeza del pilar /blog/audio-visual-rental/, que ya cubre 'Audio Visual Equipment We Rent in Malaga' y el FAQ 'What audio visual equipment can I rent from Malaga Event Gear?'. Tambien revise /blog/audio-visual-hire-near-me-in-malaga-spain/ y /blog/audio-video-rental-near-me-in-malaga-spain/, que ya contienen literalmente las frases 'audio visual hire' y 'audio video rental' en su encabezado y sus FAQs. Subo prioridad a alta por el ranking en pagina 2/3 (pos 8, 17 y 20) con impresiones reales; sigue siendo skip porque un heading o post nuevo duplicaria el propio pilar y sus dos posts near-me existentes, rompiendo la regla de un keyword por silo.)",
+        "music equipment rental near me (MEG no alquila instrumentos musicales: revise /blog/audio-visual-rental-for-music-performances/ ('A live band or duo uses the microphone for vocals and runs their instruments through their own mixer into our sound system'), que confirma que el instrumental lo trae siempre el musico, nunca MEG. El componente 'near me' ya esta cubierto por /blog/audio-visual-hire-near-me-in-malaga-spain/ y /blog/audio-video-rental-near-me-in-malaga-spain/. Subo prioridad a alta por el ranking en pagina 2/3 (pos 11) con impresiones reales; sigue siendo skip porque ni el inventario ni el posicionamiento de soluciones integrales cubren el alquiler de instrumentos musicales como servicio que MEG busque con proveedores, y la parte de ubicacion ya esta resuelta en otros posts.)",
+        "av rental near me (Las cuatro variantes repiten la intencion de los dos posts near-me ya publicados del mismo silo: /blog/audio-visual-hire-near-me-in-malaga-spain/ (FAQ 'How much does audio visual hire cost near me?', seccion 'Costa del Sol Coverage, Not Just Malaga City') y /blog/audio-video-rental-near-me-in-malaga-spain/ (FAQ 'Do you deliver audio video rental outside Malaga city?'). Crear un heading o post nuevo para cada variante lexica de 'cerca de mi' es el patron que spam-policies.md describe como doorway abuse ('having multiple domain names or pages targeted at specific regions...that funnel users to one page' y 'creating substantially similar pages that are closer to search results than a clearly defined, browseable hierarchy'). Subo prioridad a alta por el ranking en pagina 2/3 de 'av hire near me' (pos 28) con impresiones reales; sigue siendo skip.)",
+        "projector screen hire (Revise /blog/projector-rental/: el FAQ 'Can I rent just a projection screen, without a projector?' y la seccion 'Why the Screen Is Always Bundled With the Projector' responden exactamente esta intencion (MEG nunca vende la pantalla ni el proyector por separado), con precio real por package. Prioridad media porque la posicion en GSC (36) esta fuera del rango de pagina 2/3; sigue siendo skip porque un heading nuevo solo repetiria lo que ya dice el FAQ.)",
+        "sound mixer rental (Revise /blog/sound-system-rental/: el FAQ 'Can I rent an audio mixer or mixing console on its own?' confirma que la consola solo viene incluida en el Product Presentation Pack y no se alquila sola, remitiendo ademas a la guia de audio visual rental for music performances para DJs y bandas que traen su propio mixer. Prioridad media porque la posicion en GSC (62) esta fuera del rango de pagina 2/3; sigue siendo skip porque ya esta respondido.)",
+        "speaker rental for party (Revise /blog/sound-system-rental/: el FAQ 'Can I rent just speakers, without a microphone or technician?' ya responde esta intencion citando el Eco Pack (2 altavoces activos con pie, sin tecnico) como la opcion mas cercana a 'solo altavoces' para una fiesta, y aclara que no se vende como item a la carta. Prioridad media por falta de datos de GSC; sigue siendo skip porque ya esta cubierto.)"
       ]
     },
     {
