@@ -4948,6 +4948,16 @@
               "2026-08": 110
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "low",
@@ -5533,6 +5543,16 @@
             "ctr": 0,
             "position": 8
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "low",
@@ -5756,6 +5776,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 20
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
           }
         }
       },
@@ -7366,6 +7396,16 @@
             "ctr": 0,
             "position": 17
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "low",
@@ -8697,6 +8737,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "low",
@@ -10877,6 +10927,16 @@
             "ctr": 0,
             "position": 28
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "low",
@@ -11227,6 +11287,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 89
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
           }
         }
       },
@@ -28474,6 +28544,16 @@
             "ctr": 0,
             "position": 18.29
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "low",
@@ -33785,6 +33865,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 10.4
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
           }
         }
       },
@@ -40934,6 +41024,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 11
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
           }
         }
       },
@@ -49260,6 +49360,16 @@
             "ctr": 0,
             "position": 30
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "add-faq",
+            "targetUrl": "/blog/sound-system-rental/",
+            "priority": "high"
+          }
         }
       },
       "opportunity": "low",
@@ -52009,6 +52119,16 @@
             "ctr": 0,
             "position": 36
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -54682,6 +54802,16 @@
               "2026-08": 50
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
+          }
         }
       },
       "opportunity": "low",
@@ -56843,6 +56973,16 @@
               "2026-08": 140
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "add-faq",
+            "targetUrl": "/blog/sound-system-rental/",
+            "priority": "high"
+          }
         }
       },
       "opportunity": "low",
@@ -58292,6 +58432,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 21
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "add-faq",
+            "targetUrl": "/blog/projector-rental/",
+            "priority": "high"
           }
         }
       },
@@ -63123,6 +63273,16 @@
             "ctr": 0,
             "position": 62
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -63583,6 +63743,16 @@
               "2026-07": 90,
               "2026-08": 110
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "add-faq",
+            "targetUrl": "/blog/sound-system-rental/",
+            "priority": "high"
           }
         }
       },
@@ -64891,6 +65061,16 @@
               "2026-07": 110,
               "2026-08": 140
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "add-faq",
+            "targetUrl": "/blog/sound-system-rental/",
+            "priority": "high"
           }
         }
       },
@@ -66648,6 +66828,16 @@
               "2026-07": 90,
               "2026-08": 110
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -74987,6 +75177,16 @@
             "cpc": 0,
             "position": 18,
             "rankingUrl": "http://malagaeventgear.com/blog/all-in-one-wedding-rental-packages/"
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "stats": {
+            "asOf": "2026-10-01",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "high"
           }
         }
       },

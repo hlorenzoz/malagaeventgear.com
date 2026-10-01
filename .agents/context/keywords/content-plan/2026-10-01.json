@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-01",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 20,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "items": [
+    {
+      "keywords": ["large screen hire", "hire big screen for event"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "high",
+      "avalancheFit": "below",
+      "evidence": "hire big screen for event: google-ads 10/mo (below tier 100), gsc pos 18.29 7 impr | large screen hire: google-ads 10/mo (below tier 100), gsc pos 10.4 5 impr",
+      "reason": "Revise /blog/tv-screen-rental/ (el unico 'big screen' propio de MEG es el panel LED de 60 pulgadas, con la seccion 'TV Screen or Projector: Which One Does Your Event Need?' y el FAQ 'What screen sizes are available?') y /blog/projector-rental/ (el FAQ 'What's the largest screen size available?' confirma la pantalla de 2x2m del Basic MICE Pack y remite a 'Why the Screen Is Always Bundled With the Projector' si se necesita una imagen mas grande). Entre los dos posts la intencion de alquilar una pantalla grande para un evento ya esta respondida con precio real y sin formulario de cotizacion generico. Subo prioridad a alta por el ranking en pagina 2/3 (pos 10.4 y 18.29) con impresiones reales; sigue siendo skip porque un heading o post nuevo duplicaria contenido que ya existe en dos posts del mismo silo."
+    },
+    {
+      "keywords": ["wedding packages malaga"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "high",
+      "avalancheFit": "below",
+      "evidence": "gsc pos 11.25 4 impr, ubersuggest vol 40 diff 10 (below tier 100)",
+      "reason": "Revise el pilar /blog/wedding-rentals/ (seccion 'What's Included in the Wedding Pack', precio de 650 euros, hasta 80 invitados) y su FAQ 'How much do wedding rentals cost in Malaga?': cubren exactamente la intencion de esta keyword, casi identica a 'malaga wedding packages' ya evaluada el 2026-09-30 con la misma conclusion. Subo prioridad a alta por el ranking en pagina 2/3 (pos 11.25) con impresiones reales; sigue siendo skip porque anadir contenido duplicaria el propio pilar del silo wedding rentals."
+    },
+    {
+      "keywords": ["rent audio visual", "audio video equipment rental", "audio video rental", "audio visual hire"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "high",
+      "avalancheFit": "below",
+      "evidence": "audio visual hire: google-ads 0/mo (below tier 100), gsc pos 17 3 impr | rent audio visual: google-ads 90/mo (below tier 100) | audio video equipment rental: google-ads 20/mo (below tier 100), gsc pos 8 1 impr | audio video rental: google-ads 20/mo (below tier 100), gsc pos 20 1 impr",
+      "reason": "Las cuatro variantes son la misma intencion generica (alquilar equipo audio/video sin tipo de evento ni ubicacion especifica), sinonimos lexicos del propio keyword cabeza del pilar /blog/audio-visual-rental/, que ya cubre 'Audio Visual Equipment We Rent in Malaga' y el FAQ 'What audio visual equipment can I rent from Malaga Event Gear?'. Tambien revise /blog/audio-visual-hire-near-me-in-malaga-spain/ y /blog/audio-video-rental-near-me-in-malaga-spain/, que ya contienen literalmente las frases 'audio visual hire' y 'audio video rental' en su encabezado y sus FAQs. Subo prioridad a alta por el ranking en pagina 2/3 (pos 8, 17 y 20) con impresiones reales; sigue siendo skip porque un heading o post nuevo duplicaria el propio pilar y sus dos posts near-me existentes, rompiendo la regla de un keyword por silo."
+    },
+    {
+      "keywords": ["music equipment rental near me"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "high",
+      "avalancheFit": "below",
+      "evidence": "google-ads 40/mo (below tier 100), gsc pos 11 2 impr",
+      "reason": "MEG no alquila instrumentos musicales: revise /blog/audio-visual-rental-for-music-performances/ ('A live band or duo uses the microphone for vocals and runs their instruments through their own mixer into our sound system'), que confirma que el instrumental lo trae siempre el musico, nunca MEG. El componente 'near me' ya esta cubierto por /blog/audio-visual-hire-near-me-in-malaga-spain/ y /blog/audio-video-rental-near-me-in-malaga-spain/. Subo prioridad a alta por el ranking en pagina 2/3 (pos 11) con impresiones reales; sigue siendo skip porque ni el inventario ni el posicionamiento de soluciones integrales cubren el alquiler de instrumentos musicales como servicio que MEG busque con proveedores, y la parte de ubicacion ya esta resuelta en otros posts."
+    },
+    {
+      "keywords": ["av rental near me", "audio visual rental near me", "audio rental near me", "av hire near me"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "high",
+      "avalancheFit": "below",
+      "evidence": "av rental near me: google-ads 90/mo (below tier 100), gsc pos 89 1 impr | audio visual rental near me: google-ads 90/mo (below tier 100) | audio rental near me: google-ads 90/mo (below tier 100) | av hire near me: google-ads 10/mo (below tier 100), gsc pos 28 1 impr",
+      "reason": "Las cuatro variantes repiten la intencion de los dos posts near-me ya publicados del mismo silo: /blog/audio-visual-hire-near-me-in-malaga-spain/ (FAQ 'How much does audio visual hire cost near me?', seccion 'Costa del Sol Coverage, Not Just Malaga City') y /blog/audio-video-rental-near-me-in-malaga-spain/ (FAQ 'Do you deliver audio video rental outside Malaga city?'). Crear un heading o post nuevo para cada variante lexica de 'cerca de mi' es el patron que spam-policies.md describe como doorway abuse ('having multiple domain names or pages targeted at specific regions...that funnel users to one page' y 'creating substantially similar pages that are closer to search results than a clearly defined, browseable hierarchy'). Subo prioridad a alta por el ranking en pagina 2/3 de 'av hire near me' (pos 28) con impresiones reales; sigue siendo skip."
+    },
+    {
+      "keywords": ["projector screen hire"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 30/mo (below tier 100), gsc pos 36 1 impr",
+      "reason": "Revise /blog/projector-rental/: el FAQ 'Can I rent just a projection screen, without a projector?' y la seccion 'Why the Screen Is Always Bundled With the Projector' responden exactamente esta intencion (MEG nunca vende la pantalla ni el proyector por separado), con precio real por package. Prioridad media porque la posicion en GSC (36) esta fuera del rango de pagina 2/3; sigue siendo skip porque un heading nuevo solo repetiria lo que ya dice el FAQ."
+    },
+    {
+      "keywords": ["sound mixer rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100), gsc pos 62 1 impr",
+      "reason": "Revise /blog/sound-system-rental/: el FAQ 'Can I rent an audio mixer or mixing console on its own?' confirma que la consola solo viene incluida en el Product Presentation Pack y no se alquila sola, remitiendo ademas a la guia de audio visual rental for music performances para DJs y bandas que traen su propio mixer. Prioridad media porque la posicion en GSC (62) esta fuera del rango de pagina 2/3; sigue siendo skip porque ya esta respondido."
+    },
+    {
+      "keywords": ["speaker rental for party"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 90/mo (below tier 100)",
+      "reason": "Revise /blog/sound-system-rental/: el FAQ 'Can I rent just speakers, without a microphone or technician?' ya responde esta intencion citando el Eco Pack (2 altavoces activos con pie, sin tecnico) como la opcion mas cercana a 'solo altavoces' para una fiesta, y aclara que no se vende como item a la carta. Prioridad media por falta de datos de GSC; sigue siendo skip porque ya esta cubierto."
+    },
+    {
+      "keywords": ["rental projector near me"],
+      "cluster": "audio visual rental",
+      "action": "add-faq",
+      "priority": "high",
+      "avalancheFit": "below",
+      "evidence": "google-ads 20/mo (below tier 100), gsc pos 21 1 impr",
+      "targetUrl": "/blog/projector-rental/",
+      "file": "src/content/blog/projector-rental.svx",
+      "question": "Do you deliver projector rental near me outside Malaga city?",
+      "brief": "Confirmar que el projector rental ya se entrega, instala y prueba en toda Malaga capital y en el resto de la Costa del Sol, como ya dice el Brief Overview del post. Nombrar 2 o 3 localidades de ejemplo de siteConfig.serviceAreas (nunca una lista larga de ciudades: spam-policies.md desaconseja los bloques de texto con ciudades y regiones). No prometer un radio de entrega exacto ni un recargo por distancia que no este confirmado en packages.ts, y no repetir los datos de lumens o precio que ya cubren otros FAQs del mismo post.",
+      "reason": "Revise /blog/projector-rental/ completo: el Brief Overview ya dice que se entrega 'across Malaga and the wider Costa del Sol', pero ningun heading ni FAQ nombra la cobertura de zona de forma explicita como si lo hacen los posts near-me del mismo silo (por ejemplo 'Do you deliver audio video rental outside Malaga city?' en audio-video-rental-near-me-in-malaga-spain.svx). No corresponde un post nuevo (seria una variante near-me casi identica a un post ya existente del silo, riesgo de doorway abuse segun spam-policies.md), asi que la intencion entra como FAQ nueva en el propio post. Subo prioridad a alta por el ranking en pagina 2/3 (pos 21) con impresiones reales."
+    },
+    {
+      "keywords": ["rent sound system near me", "sound rental near me", "sound system rental near me", "portable sound system rental near me"],
+      "cluster": "audio visual rental",
+      "action": "add-faq",
+      "priority": "high",
+      "avalancheFit": "below",
+      "evidence": "portable sound system rental near me: google-ads 10/mo (below tier 100), gsc pos 30 1 impr | rent sound system near me: google-ads 90/mo (below tier 100) | sound rental near me: google-ads 90/mo (below tier 100) | sound system rental near me: google-ads 90/mo (below tier 100)",
+      "targetUrl": "/blog/sound-system-rental/",
+      "file": "src/content/blog/sound-system-rental.svx",
+      "question": "Do you deliver sound system rental near me outside Malaga city?",
+      "brief": "Confirmar que el sound system rental ya se entrega en villas, fincas y hoteles de toda la Costa del Sol, como ya dice la seccion 'Indoor and Outdoor Sound System Rental' del post, nombrando 2 o 3 localidades de ejemplo de siteConfig.serviceAreas sin listar las 23 (evita el bloque de ciudades que spam-policies.md desaconseja). No contradecir ni repetir la FAQ existente 'Do you offer a portable, battery powered or self collect PA system?' (respuesta: no, ningun paquete es portatil ni autocolecta): esta FAQ nueva es sobre zona de cobertura, no sobre portabilidad del equipo. No prometer generador ni disponibilidad fuera de lo que ya confirma la FAQ sobre el generador.",
+      "reason": "Revise /blog/sound-system-rental/ completo: la seccion 'Indoor and Outdoor Sound System Rental' ya dice que la mayoria de las instalaciones son en villas, terrazas privadas y hoteles 'across Malaga and the Costa del Sol', pero ningun heading ni FAQ nombra la cobertura de zona de forma explicita como 'near me', a diferencia de los posts near-me dedicados del silo audio visual rental. Las cuatro variantes son la misma intencion (encontrar un alquiler de sistema de sonido cerca). No corresponde un post near-me nuevo (seria casi identico a los dos posts near-me ya publicados del mismo silo, riesgo de doorway abuse segun spam-policies.md), asi que entra como FAQ nueva en el propio post. Subo prioridad a alta por el ranking en pagina 2/3 de 'portable sound system rental near me' (pos 30) con impresiones reales."
+    }
+  ],
+  "todo": [
+    {
+      "id": "#T0018",
+      "priority": "alta",
+      "reason": "Es una decision del usuario del 2026-09-26 (CLAUDE.md, regla 'Malaga, Spain') que el sitio todavia no cumple en los 12 posts ya traducidos a los 13 idiomas ni en varias paginas y paquetes, segun el propio detalle de la tarea."
+    },
+    {
+      "id": "#T0020",
+      "priority": "alta",
+      "reason": "El texto confirma que dos textos ya traducidos a los 13 idiomas (packages/[slug] y stage-uplighting.svx) todavia dan a entender que el tecnico opera las luces, un hecho de negocio ya corregido en otros posts el 2026-09-26 pero que sigue mal en estos dos, lo que viola la regla de Honestidad de CLAUDE.md sobre hechos ya publicados."
+    },
+    {
+      "id": "#T0033",
+      "priority": "alta",
+      "reason": "El hallazgo confirma que 7 de 41 posts de soporte del silo audio visual rental, ya publicados, no enlazan a ningun hermano adyacente, lo que incumple directamente la regla mandatoria del reverse silo de CLAUDE.md (cadena lateral obligatoria) en contenido que ya esta en produccion."
+    },
+    {
+      "id": "#T0017",
+      "priority": "media",
+      "reason": "Es una lista de mejoras reales de SEO (pagina de autor con E-E-A-T, citas a fuentes externas) encontradas al comparar el sitio contra un curso externo, sin fecha limite declarada y con el item de mayor impacto ya marcado como bloqueado hasta tener datos reales del negocio."
+    },
+    {
+      "id": "#T0024",
+      "priority": "media",
+      "reason": "Es la etapa de correccion de traducciones que el propio usuario decidio diferir hasta terminar de traducir todos los posts (decision del 2026-09-28): el sitio sigue esa decision tal como esta, aunque la lista incluya errores ya conocidos a corregir en esa pasada."
+    },
+    {
+      "id": "#T0035",
+      "priority": "media",
+      "reason": "Es un backlog de ideas de contenido para event-technology-service, un pilar real con 0 supporting posts segun just content-inventory (la prioridad de Avalanche que mas conviene reforzar), pero el propio texto aclara que nada esta escrito ni aprobado todavia y que los volumenes son propuestas sin validar."
+    },
+    {
+      "id": "#T0019",
+      "priority": "media",
+      "reason": "Es una guia de orden de traduccion (decision del usuario del 2026-09-26) que ya esta en curso y evita canibalizacion al traducir primero el pilar y despues sus supporting en cadena, sin ningun bloqueo declarado mas alla del propio proceso que ya se sigue."
+    }
+  ]
+}
