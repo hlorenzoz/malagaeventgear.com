@@ -426,6 +426,11 @@ export default {
 			slug: 'problemen-oplossen-av-systemen-malaga',
 			keyword: 'oplossen van problemen met AV-systemen in Malaga',
 			status: 'propuesta'
+		},
+		'what-renting-av-gear-in-malaga-taught-me-about-smart-business': {
+			slug: 'wat-audiovisuele-verhuur-in-malaga-me-leerde-over-slim-ondernemen',
+			keyword: 'wat audiovisuele verhuur in Malaga me leerde over slim ondernemen',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

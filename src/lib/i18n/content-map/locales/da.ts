@@ -426,6 +426,11 @@ export default {
 			slug: 'fejlfinding-pa-av-systemer',
 			keyword: 'fejlfinding på AV-systemer i Malaga',
 			status: 'propuesta'
+		},
+		'what-renting-av-gear-in-malaga-taught-me-about-smart-business': {
+			slug: 'hvad-av-udlejning-i-malaga-har-laert-mig-om-smart-forretning',
+			keyword: 'hvad AV-udlejning i Malaga har lært mig om smart forretning',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

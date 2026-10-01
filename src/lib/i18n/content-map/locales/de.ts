@@ -426,6 +426,11 @@ export default {
 			slug: 'fehlersuche-av-systeme-malaga',
 			keyword: 'Fehlersuche an AV-Systemen in Malaga',
 			status: 'propuesta'
+		},
+		'what-renting-av-gear-in-malaga-taught-me-about-smart-business': {
+			slug: 'was-mich-die-av-vermietung-in-malaga-ueber-geschaeftssinn-lehrte',
+			keyword: 'was mich die AV-Vermietung in Malaga über Geschäftssinn lehrte',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

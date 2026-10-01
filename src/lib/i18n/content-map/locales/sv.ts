@@ -422,6 +422,11 @@ export default {
 			slug: 'felsokning-av-av-system',
 			keyword: 'felsökning av AV-system i Malaga',
 			status: 'propuesta'
+		},
+		'what-renting-av-gear-in-malaga-taught-me-about-smart-business': {
+			slug: 'vad-av-uthyrning-i-malaga-har-lart-mig-om-smart-foretagande',
+			keyword: 'vad AV-uthyrning i Malaga har lärt mig om smart företagande',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

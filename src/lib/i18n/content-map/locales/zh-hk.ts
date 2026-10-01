@@ -406,6 +406,11 @@ export default {
 			slug: '視聽系統故障排查',
 			keyword: '馬拉加 視聽系統故障排查',
 			status: 'propuesta'
+		},
+		'what-renting-av-gear-in-malaga-taught-me-about-smart-business': {
+			slug: '視聽租借生意經',
+			keyword: '我在馬拉加做視聽租借學到的精明生意經',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

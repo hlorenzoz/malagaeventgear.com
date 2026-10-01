@@ -426,6 +426,11 @@ export default {
 			slug: 'depannage-systemes-audiovisuels-malaga',
 			keyword: 'dépannage des systèmes audiovisuels à Malaga',
 			status: 'propuesta'
+		},
+		'what-renting-av-gear-in-malaga-taught-me-about-smart-business': {
+			slug: 'ce-que-louer-audiovisuel-a-malaga-appris-sur-le-business',
+			keyword: "ce que louer de l'audiovisuel à Malaga m'a appris sur le business",
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

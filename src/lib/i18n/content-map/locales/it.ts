@@ -422,6 +422,11 @@ export default {
 			slug: 'risoluzione-problemi-sistemi-audiovisivi-malaga',
 			keyword: 'risoluzione dei problemi dei sistemi audiovisivi a Malaga',
 			status: 'propuesta'
+		},
+		'what-renting-av-gear-in-malaga-taught-me-about-smart-business': {
+			slug: 'noleggiare-audiovisivi-a-malaga-mi-ha-insegnato-a-fare-impresa',
+			keyword: 'noleggiare audiovisivi a Malaga mi ha insegnato a fare impresa',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

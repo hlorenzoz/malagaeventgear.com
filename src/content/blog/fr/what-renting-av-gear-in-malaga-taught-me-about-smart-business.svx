@@ -1,0 +1,106 @@
+---
+title: "Ce que louer de l'audiovisuel à Malaga m'a appris sur le business"
+description: "Louer de l'audiovisuel à Malaga, en Espagne, m'a appris que le vrai produit est la tranquillité d'esprit, pas le matériel. Leçons de nos forfaits et avis."
+excerpt: "Ce que louer de l'audiovisuel à Malaga m'a appris sur le business : le vrai produit que nous vendons n'est jamais le matériel, c'est la tranquillité d'esprit, et trois autres leçons sur la façon de concevoir une entreprise."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+</script>
+
+Quiconque a déjà organisé un événement connaît ce sentiment. Cette petite angoisse sourde qui vient de la gestion d'une dizaine de fils logistiques à la fois, en priant pour qu'aucun ne se défasse. L'installation technique, le son, les écrans, l'éclairage, est souvent la partie la plus stressante de tout le travail.
+
+Diriger Malaga Event Gear à Malaga, en Espagne, m'a appris que l'entreprise n'a jamais vraiment eu pour métier de louer des enceintes et des écrans. En relisant nos propres forfaits, nos propres avis et nos propres décisions, voici ce que louer de l'audiovisuel à Malaga m'a appris sur le business, ou plutôt sur l'art de concevoir une entreprise intelligente et centrée sur le client.
+
+## Table des matières
+
+-   [Le vrai produit n'est pas le matériel, c'est la tranquillité d'esprit](#le-vrai-produit-nest-pas-le-matériel-cest-la-tranquillité-desprit)
+-   [Les forfaits prêts à l'emploi sont une leçon magistrale de psychologie de la décision](#les-forfaits-prêts-à-lemploi-sont-une-leçon-magistrale-de-psychologie-de-la-décision)
+-   [Les détails révèlent tout de l'expertise](#les-détails-révèlent-tout-de-lexpertise)
+-   [Parler la langue de vos clients](#parler-la-langue-de-vos-clients)
+-   [Conclusion : ce n'est pas ce que vous vendez, c'est comment vous le vendez](#conclusion--ce-nest-pas-ce-que-vous-vendez-cest-comment-vous-le-vendez)
+
+## Le vrai produit n'est pas le matériel, c'est la tranquillité d'esprit
+
+Ma première prise de conscience a été que nous ne louions jamais vraiment des enceintes et des écrans. Nous vendions une expérience sans tracas.
+
+C'était évident dès que j'ai regardé honnêtement nos propres forfaits orientés service. Le [MICE Pack](/packages/mice/) pour les événements d'entreprise comprend un technicien dédié pendant 6 heures maximum. Le [Wedding Pack](/packages/wedding/) va encore plus loin, en intégrant dans le prix le transport, l'installation, l'assistance sur place et la reprise du matériel après l'événement.
+
+Cela change complètement la proposition de valeur. Un client ne loue pas simplement du matériel en espérant que tout se passe bien. Il achète un événement qui se déroule sans accroc. C'est la différence entre recevoir une boîte à outils et recevoir un résultat terminé.
+
+Un avis résume encore cela mieux que je ne saurais le faire :
+
+<blockquote>
+<p lang="en">"I am really satisfied with this team, they exceeded my expectations. Having a meeting in Malaga, it was a huge help that I did not have to care about the visual solutions and the sound, they made it easy and smooth. They answered all my questions and delivered a high quality equipment to the meeting. Totally worth it!"</p>
+<ul><li>Dániel Gombár, avis Google 5 étoiles, mars 2025</li></ul>
+</blockquote>
+
+![Système complet de sonorisation à colonnes HK Audio et microphone sans fil pour un événement DJ en extérieur dans la province de Malaga.](https://cdn.malagaeventgear.com/blog/1788/2025-10-05-DJ-audio-and-microphone-system-setup-1536x1152.webp "Un système HK Audio à colonnes avec caisson de basses et un microphone sans fil lors d'un événement DJ en extérieur dans la province de Malaga.")
+
+Un système HK Audio à colonnes avec caisson de basses et un microphone sans fil lors d'un événement DJ en extérieur dans la province de Malaga.
+
+![Gros plan sur une installation DJ professionnelle avec lecteur multimédia et table de mixage, drapée de tissu noir et décorée de roses roses et de guirlandes lumineuses, lors d'un événement dans la province de Malaga.](https://cdn.malagaeventgear.com/blog/1787/2025-10-05-at-DJ-audio-and-microphone-system-setup-225x300.webp "Une installation DJ habillée de roses et de guirlandes lumineuses lors d'un événement spécial dans la province de Malaga.")
+
+Une installation DJ habillée de roses et de guirlandes lumineuses lors d'un événement spécial dans la province de Malaga.
+
+![Deux alliances posées dans un livre, formant un cœur.](https://cdn.malagaeventgear.com/blog/1638/wedding_rings_heart_book-768x512.webp "Photo d'illustration, pas un événement de Malaga Event Gear : deux alliances dans un livre plié en forme de cœur.")
+
+Photo d'illustration, pas un événement de Malaga Event Gear : deux alliances dans un livre plié en forme de cœur.
+
+![Mariée au voile de dentelle en prière avant sa cérémonie de mariage.](https://cdn.malagaeventgear.com/blog/1627/bride_praying_before_wedding-200x300.webp "Photo d'illustration, pas l'un de nos mariages : une mariée au voile de dentelle, les mains jointes, dans le moment de calme avant la cérémonie.")
+
+Photo d'illustration, pas l'un de nos mariages : une mariée au voile de dentelle, les mains jointes, dans le moment de calme avant la cérémonie.
+
+![Un panel à une table drapée de rouge sous un écran de projection PROCURE, avec le public assis sur des chaises blanches et une enceinte sur pied, dans une salle historique à Coín, province de Malaga.](https://cdn.malagaeventgear.com/blog/1303/lighting-sound-big-screen-projector-rental-malaga_2-100x100.webp "Du son et un écran de projection pour une conférence de l'association de patrimoine PROCURE à Coín, province de Malaga.")
+
+Du son et un écran de projection pour une conférence de l'association de patrimoine PROCURE à Coín, province de Malaga.
+
+![Une salle de conférence avec un vidéoprojecteur fixé au plafond et un grand écran affichant une présentation, avec un second écran à droite, dans la province de Malaga.](https://cdn.malagaeventgear.com/blog/1302/lighting-sound-big-screen-projector-rental-malaga-100x100.webp "Un vidéoprojecteur et un grand écran lors d'une conférence dans la province de Malaga.")
+
+Un vidéoprojecteur et un grand écran lors d'une conférence dans la province de Malaga.
+
+![Concert live lors d'un événement à Malaga, avec un chanteur à un microphone professionnel et un guitariste, dans une ambiance vivante et élégante.](https://cdn.malagaeventgear.com/blog/1324/rent-microphone-parties-concerts-events-malaga-224x300.webp "Un chanteur au microphone et un guitariste en concert lors d'un événement en soirée à Malaga.")
+
+Un chanteur au microphone et un guitariste en concert lors d'un événement en soirée à Malaga.
+
+## Les forfaits prêts à l'emploi sont une leçon magistrale de psychologie de la décision
+
+Un menu à la carte sans fin de câbles, de tables de mixage et de vidéoprojecteurs oblige un client à devenir expert audiovisuel du jour au lendemain, rien que pour comprendre ce dont il a réellement besoin.
+
+Nous faisons autrement. Nous proposons un petit nombre de forfaits nommés d'après leur usage, comme l'[Eco Pack](/packages/eco/) pour les fêtes, le [Wedding Pack](/packages/wedding/) et le [MICE Pack](/packages/mice/) pour les événements d'entreprise. Cette stratégie simple supprime le poids du choix et le remplace par des solutions claires, déjà composées. Au lieu de demander "de quoi ai-je besoin parmi ces 50 éléments", le client n'a qu'à répondre à "quel type d'événement est-ce que j'organise".
+
+Un avis illustre bien cette approche sans friction. La personne qui l'a écrit a reconnu avoir hésité au départ :
+
+<blockquote>
+<p lang="es">"Completamente recomendable, Fácil, ágil, rápido... económico. Tenía un poco de miedo usar esta empresa por que era todo muy digital y transparente, y no había histórico, pero... un completo acierto."</p>
+<ul><li>Rocio Plaza Gámez, avis Google 5 étoiles, mars 2025</li></ul>
+</blockquote>
+
+Selon ses propres mots, la personne avait un peu peur de faire appel à une entreprise qui paraissait si numérique et transparente, sans historique à consulter. L'avis conclut que ce fut malgré tout une réussite complète : facile, agile, rapide et économique. C'est l'expérience que les forfaits sont conçus pour offrir.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('eco')} speed="normal" direction="left" />
+</div>
+
+## Les détails révèlent tout de l'expertise
+
+Au premier regard, les forfaits paraissent simples. En regardant de plus près les différences entre eux, on voit tout ce qui a été pensé pour anticiper les vrais besoins de chaque client, au lieu d'empiler du matériel au hasard.
+
+-   **Puissance du vidéoprojecteur.** Le [Basic MICE Pack](/packages/basic-mice/), conçu pour les petites réunions, comprend un vidéoprojecteur de 3000 lumens. Le [Product Presentation Pack](/packages/product-presentation/) passe à un vidéoprojecteur de 5000 lumens, parce que les lancements de produits ont souvent lieu dans des salles plus éclairées, où un faisceau plus puissant est nécessaire pour garder des visuels nets.
+-   **Souplesse des microphones.** Le [Basic MICE Pack](/packages/basic-mice/) fournit 1 microphone col de cygne, parfait pour un intervenant debout à un pupitre. Le [MICE Pack](/packages/mice/) complet comprend à la fois un microphone col de cygne et 1 microphone sans fil, pour plus de souplesse lors d'une séance de questions-réponses ou pour un présentateur qui aime se déplacer sur scène.
+-   **Des options pensées à l'avance.** Les extras optionnels montrent la même prévoyance. Une machine à fumée peut être ajoutée à l'[Eco Pack](/packages/eco/), pensé pour les fêtes, pour 20 €. Un pupitre en méthacrylate est disponible en option avec le [MICE Pack](/packages/mice/) pour 50 €. Aucun des deux n'est une vente additionnelle faite au hasard, ce sont deux compléments logiques pour ce type d'événement précis.
+
+## Parler la langue de vos clients
+
+Notre équipe accueille ses clients en anglais et en espagnol, et le site, les forfaits et les devis sont rédigés pour être faciles à suivre par toute personne qui prépare un événement sur la Costa del Sol, dans des endroits comme Malaga et Marbella. Proposer un petit nombre de forfaits et garder une communication simple nous permet d'adapter l'expérience aux personnes que nous servons, plutôt que d'offrir une expérience moyenne à tout le monde.
+
+## Conclusion : ce n'est pas ce que vous vendez, c'est comment vous le vendez
+
+Ce que louer de l'audiovisuel à Malaga m'a appris sur le business tient dans un rappel constant : les entreprises les plus solides se construisent sur l'empathie pour l'expérience réelle du client, et pas seulement sur du bon matériel. Un matériel de qualité compte, mais ce n'est pas toute l'histoire.
+
+Nous supprimons la complexité, nous apportons de l'assurance, nous anticipons les besoins et nous parlons la langue de nos clients, en anglais et en espagnol. Nous vendons la tranquillité d'esprit en rendant faciles les parties difficiles de l'organisation d'un événement.
+
+Cela me laisse avec une question simple, qui vaut la peine d'être posée à toute entreprise : où pourriez-vous retirer une vraie épine du pied de votre client, et lui vendre une expérience plus fluide plutôt qu'un simple produit ?

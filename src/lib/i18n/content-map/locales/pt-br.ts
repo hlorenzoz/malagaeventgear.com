@@ -458,6 +458,11 @@ export default {
 			slug: 'solucao-de-problemas-em-sistemas-audiovisuais',
 			keyword: 'solução de problemas em sistemas audiovisuais em Málaga',
 			status: 'propuesta'
+		},
+		'what-renting-av-gear-in-malaga-taught-me-about-smart-business': {
+			slug: 'o-que-o-aluguel-audiovisual-em-malaga-me-ensinou-sobre-negocios',
+			keyword: 'o que o aluguel audiovisual em Málaga me ensinou sobre negócios',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
