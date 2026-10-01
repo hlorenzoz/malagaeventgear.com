@@ -1,0 +1,187 @@
+---
+title: "Assistance technique pour événements à Malaga, en Espagne"
+description: "Assistance technique pour événements à Malaga, en Espagne : ce que fait l'équipe sur place avant, pendant et après l'événement, de l'étalonnage au démontage."
+excerpt: "Assistance technique pour événements à Malaga : ce que cela signifie réellement chez Malaga Event Gear, avec l'étalonnage, la surveillance en direct, le vrai dépannage et le démontage, phase par phase."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Réserver une assistance technique pour événements à Malaga, en Espagne, ne revient pas à louer un technicien. C'est une question de couverture : ce qui se passe réellement sur votre lieu avant l'arrivée de vos invités, pendant votre événement, si quelque chose tombe en panne, et après le départ du dernier invité. C'est ce que couvre ce guide.
+
+Si vous cherchez à savoir quel forfait met une personne sur place et ce que cela coûte, notre guide de [location d'un technicien audiovisuel](/blog/av-technician-hire/) présente en détail cette comparaison forfait par forfait. Cette page traite de la couverture elle-même, phase par phase, avec le matériel réel que gère notre équipe et les vrais projets sur lesquels nous l'avons assurée.
+
+[Réservez dès maintenant](/packages/) et confirmez le niveau de couverture sur place dont votre événement a besoin.
+
+## Table des matières
+
+-   [En bref](#en-bref)
+-   [Points clés](#points-clés)
+-   [Ce qui se passe réellement pendant votre événement : un regard phase par phase](#ce-qui-se-passe-réellement-pendant-votre-événement--un-regard-phase-par-phase)
+-   [Quelle couverture sur place obtenez-vous réellement](#quelle-couverture-sur-place-obtenez-vous-réellement)
+-   [Du matériel réel, un dépannage réel : ce que nos techniciens réparent vraiment](#du-matériel-réel-un-dépannage-réel--ce-que-nos-techniciens-réparent-vraiment)
+-   [Passer d'une source de présentation à l'autre](#passer-dune-source-de-présentation-à-lautre)
+-   [Couverture sur un événement de plusieurs jours](#couverture-sur-un-événement-de-plusieurs-jours)
+-   [L'assistance sur place que nous avons réellement assurée](#lassistance-sur-place-que-nous-avons-réellement-assurée)
+-   [Comment réserver l'assistance technique pour votre événement](#comment-réserver-lassistance-technique-pour-votre-événement)
+-   [Conclusion](#conclusion)
+-   [Questions fréquentes](#questions-fréquentes)
+    -   [Que se passe-t-il pendant mon événement ? Une checklist rapide de la couverture](#que-se-passe-t-il-pendant-mon-événement--une-checklist-rapide-de-la-couverture)
+    -   [L'assistance technique pour événements est-elle la même chose que la location d'un technicien audiovisuel ?](#lassistance-technique-pour-événements-est-elle-la-même-chose-que-la-location-dun-technicien-audiovisuel-)
+    -   [Que se passe-t-il si un microphone décroche ou si un vidéoprojecteur perd la synchronisation en pleine présentation ?](#que-se-passe-t-il-si-un-microphone-décroche-ou-si-un-vidéoprojecteur-perd-la-synchronisation-en-pleine-présentation-)
+    -   [Assurez-vous une assistance technique pour les événements de plusieurs jours ?](#assurez-vous-une-assistance-technique-pour-les-événements-de-plusieurs-jours-)
+    -   [Combien de membres de l'équipe sont sur place, et à quelle vitesse interviennent-ils ?](#combien-de-membres-de-léquipe-sont-sur-place-et-à-quelle-vitesse-interviennent-ils-)
+    -   [Le technicien surveille-t-il activement l'événement, ou reste-t-il simplement en attente ?](#le-technicien-surveille-t-il-activement-lévénement-ou-reste-t-il-simplement-en-attente-)
+    -   [L'assistance technique sur place est-elle incluse dans mon forfait, ou faut-il une réservation séparée ?](#lassistance-technique-sur-place-est-elle-incluse-dans-mon-forfait-ou-faut-il-une-réservation-séparée-)
+    -   [Quelle est la différence entre une livraison seule et une couverture complète de l'événement ?](#quelle-est-la-différence-entre-une-livraison-seule-et-une-couverture-complète-de-lévénement-)
+    -   [Assurez-vous une assistance technique pour les lieux en extérieur ?](#assurez-vous-une-assistance-technique-pour-les-lieux-en-extérieur-)
+    -   [Votre technicien peut-il passer d'une source de présentation à l'autre pendant mon événement ?](#votre-technicien-peut-il-passer-dune-source-de-présentation-à-lautre-pendant-mon-événement-)
+
+## En bref
+
+---
+
+Chez Malaga Event Gear, l'assistance technique pour événements à Malaga correspond à une équipe sur place qui fait fonctionner votre matériel en quatre phases : étalonnage avant l'arrivée de vos invités, surveillance en direct pendant votre événement, dépannage dès que quelque chose se passe mal, et démontage une fois l'événement terminé. La couverture s'étend à Malaga et à l'ensemble de la Costa del Sol.
+
+Ce guide présente ce que fait réellement notre équipe à chaque phase, le matériel réel qu'elle gère lors d'une réservation type, et la façon dont la couverture change pour un mariage, un conseil d'administration ou une conférence d'entreprise de deux jours. [Contactez-nous](/contact/) pour confirmer le niveau de couverture à votre date.
+
+## Points clés
+
+---
+
+-   L'assistance technique se déroule en quatre phases : étalonnage, surveillance en direct, dépannage et démontage, et non une simple ligne générique "technicien inclus".
+
+-   La couverture n'est pas une question de oui ou non : l'[Eco Pack](/packages/eco/) et le [Product Presentation Pack](/packages/product-presentation/) n'en proposent aucune, le [Basic MICE Pack](/packages/basic-mice/) la propose en option payante, et le [Wedding Pack](/packages/wedding/) et le [MICE Pack](/packages/mice/) l'incluent de série.
+
+-   Notre équipe dépanne du matériel réel et nommé : tables de mixage, éclairage à pédale, synchronisation du vidéoprojecteur et de l'écran, microphones sans fil, machine à fumée et plateaux de scène, et non un "système audiovisuel" générique.
+
+-   Les événements d'entreprise de plusieurs jours bénéficient d'une surveillance continue depuis un pupitre de contrôle, et non d'un technicien qui ne passe que de temps en temps.
+
+-   Sur les forfaits avec plusieurs sources de présentation, un scaler vidéo à 9 entrées permet au présentateur de passer de l'une à l'autre sans coupure visible, ou vous pouvez réserver notre technicien pour s'en charger. C'est strictement un outil de présentation : les caméras, le tournage et la diffusion en direct ne font pas partie de notre propre inventaire. Voir [Passer d'une source de présentation à l'autre](#passer-dune-source-de-présentation-à-lautre) ci-dessous.
+
+## Ce qui se passe réellement pendant votre événement : un regard phase par phase
+
+Voici ce qui se passe réellement, phase par phase, sur une réservation qui l'inclut.
+
+### Avant le début de votre événement : étalonnage et tests
+
+Notre équipe arrive avant votre premier invité et effectue le réglage de gain (gain staging) sur chaque microphone, vérifie la synchronisation entre le vidéoprojecteur et l'écran, et contrôle que l'éclairage fonctionne. C'est à ce moment qu'un microphone qui sifflerait, ou un vidéoprojecteur qui ne se synchroniserait pas, est repéré et corrigé avant que quiconque ne s'aperçoive qu'il y a eu un problème. Pour comprendre en détail ce réglage du gain, salle par salle, consultez notre guide d'[étalonnage d'un système audio](/blog/audio-system-calibration/).
+
+### Pendant votre événement : surveillance en direct
+
+Une fois votre événement lancé, le technicien reste sur les niveaux : il ajuste le gain à mesure que différents intervenants prennent le microphone, gère le passage de relais entre un intervenant qui s'assoit et le suivant qui se lève pour qu'il n'y ait pas de temps mort, et surveille en continu la chaîne de signal du son et de la vidéo, au lieu de ne passer que de temps en temps.
+
+<InlineCTA />
+
+### Quand quelque chose tourne mal : dépannage en temps réel
+
+Une connexion de microphone sans fil qui décroche ou un vidéoprojecteur qui perd la synchronisation en pleine présentation est corrigé sur place, et non diagnostiqué après que votre événement en a déjà pâti. Voir [Du matériel réel, un dépannage réel](#du-matériel-réel-un-dépannage-réel--ce-que-nos-techniciens-réparent-vraiment) ci-dessous pour le matériel précis avec lequel travaille notre équipe.
+
+### Après la fin de votre événement : démontage et récupération
+
+Une fois votre dernier invité parti, notre équipe procède au démontage rapide et à la récupération du matériel. Vous n'emballez jamais rien vous-même, et sur une réservation de plusieurs jours, la même équipe réinstalle et recalibre pour le lendemain, au lieu de repartir de zéro chaque matin.
+
+## Quelle couverture sur place obtenez-vous réellement
+
+La couverture est une question de présence, pas de prix : quelle part de votre événement a réellement quelqu'un qui la surveille. Voici comment cela se répartit selon le forfait :
+
+| Forfait | Présence sur place | Ce que cela signifie pendant votre événement |
+| --- | --- | --- |
+| [Eco Pack](/packages/eco/) | Aucune | Le DJ ou l'animateur gère ses propres niveaux. Notre équipe livre, installe et teste avant de repartir. |
+| [Product Presentation Pack](/packages/product-presentation/) | Aucune | Le présentateur gère ses propres diapositives et son microphone. Notre équipe livre, installe et teste avant de repartir. |
+| [Basic MICE Pack](/packages/basic-mice/) | Présence en option payante | Personne n'est sur place par défaut. Ajoutez l'option technicien si votre réunion nécessite une couverture en direct. |
+| [MICE Pack](/packages/mice/) | Continue, plafonnée | Un technicien surveille activement votre événement pendant 6 heures continues au maximum. |
+| [Wedding Pack](/packages/wedding/) | Continue, sans plafond | Un technicien reste sur place pendant tout l'événement, de la cérémonie à la danse, sans plafond d'heures. |
+
+Pour connaître les heures exactes, le coût de l'option et le prix de chaque forfait derrière ces lignes, consultez notre guide de [location d'un technicien audiovisuel](/blog/av-technician-hire/). Pour le déroulement complet, étape par étape, que suit notre équipe le jour de la livraison, voir [comment fonctionne la location audiovisuelle](/blog/how-audio-visual-rental-works/).
+
+## Du matériel réel, un dépannage réel : ce que nos techniciens réparent vraiment
+
+Les pages génériques d'assistance technique nomment rarement le matériel concerné. Voici le matériel précis de notre catalogue, et ce que son dépannage donne concrètement.
+
+-   **Tables de mixage.** Nos tables de mixage Soundcraft EPM-6 et Mackie Onyx 1640 sont celles que nos techniciens pilotent pendant les discours, en repérant un canal trop fort ou une entrée qui décroche avant qu'ils n'atteignent les enceintes.
+-   **Commande d'éclairage à pédale.** Nos barres Eurolite LED KLS-200 se commandent à la pédale, pas avec un signal DMX. Notre équipe règle la bonne couleur ou le bon motif pendant l'installation, pour que personne n'ait à toucher à la pédale en plein événement. Si une barre cesse de répondre, la réparer fait partie du travail du technicien.
+-   **Synchronisation du vidéoprojecteur et de l'écran.** Nos vidéoprojecteurs de la série Vivitek D5 et Christie LX505 sont associés à des écrans Da-Lite, Traulux et Projecta. Un vidéoprojecteur qui refuse de se synchroniser à la bonne taille d'écran ou au bon format d'image est exactement le genre de défaut repéré pendant la phase d'étalonnage décrite plus haut.
+-   **Microphones sans fil.** Nos microphones sans fil Audix Fusion Series perdent parfois la connexion en plein événement, généralement à cause d'interférences ou d'une pile presque vide. Nos techniciens apportent la solution (un changement de canal ou une pile neuve) au lieu de laisser votre discours se poursuivre avec un microphone muet.
+-   **Machine à fumée.** Notre machine à fumée Martin Magnum 650 demande que sa production soit gérée en fonction de la ventilation de la salle et de la détection de fumée éventuellement présente sur place, surtout en intérieur.
+-   **Plateaux de scène.** Nos plateaux de scène modulables GUIL doivent être de niveau et stables avant que quiconque ne monte dessus, ce qui se vérifie à l'étalonnage et ne se découvre pas en direct.
+
+## Passer d'une source de présentation à l'autre
+
+Sur les réservations MICE Pack avec plusieurs sources de présentation, par exemple un ordinateur portable pour les diapositives, un second ordinateur portable pour une vidéo et un lecteur DVD pour un extrait projeté, le présentateur passe lui-même de l'une à l'autre, ou vous pouvez réserver notre technicien pour gérer la commutation avec un Kramer VP-731, un scaler vidéo à 9 entrées, afin que l'écran de la salle passe proprement d'une source à l'autre, sans accroc visible ni redémarrage. Notre guide de [location de commutateur vidéo](/blog/video-switcher-rental/) en est la version approfondie, centrée sur le matériel : l'appareil réel, ce que signifient concrètement 9 entrées, et sur quels forfaits il est réellement disponible.
+
+Pour être clair sur ce que ce n'est pas : c'est un outil de commutation de présentation pour votre écran, et non une caméra, un système d'enregistrement ou de diffusion. Les caméras, le tournage et la diffusion en direct ne font pas partie de notre propre inventaire, et notre propre équipe ne réalise pas de retransmission. Si une caméra ou une diffusion compte pour votre événement, signalez-le tôt, et nous demanderons si un prestataire a à la fois le matériel et l'équipe disponibles à votre date. Si votre événement nécessite aussi de la traduction simultanée ou un système de vote interactif, ce n'est pas du matériel que nous avons nous-mêmes en stock, mais nous le coordonnons avec un partenaire sous-traitant. [Contactez-nous](/contact/) si l'un ou l'autre vous concerne.
+
+## Couverture sur un événement de plusieurs jours
+
+L'assistance technique ne repart pas de zéro chaque matin sur une réservation de plusieurs jours. Lors d'un projet d'entreprise de deux jours pour l'agence Bmotion à Benahavis, nos techniciens ont surveillé en continu les fréquences sonores et les entrées vidéo depuis un pupitre de contrôle avancé pendant les deux jours, en maintenant une commutation des sources sans accroc et sans latence, du premier mot d'ouverture aux applaudissements de clôture du deuxième jour. Lisez le récit complet dans notre article d'actualité sur l'[assistance technique pour Bmotion à Benahavis](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/).
+
+## L'assistance sur place que nous avons réellement assurée
+
+![Une cour pavée avec deux escaliers jumeaux et un fond de scène événementiel, éclairée de guirlandes lumineuses entre les palmiers au crépuscule, pour l'événement de Bmotion à Benahavis.](https://cdn.malagaeventgear.com/blog/3093/2026.05.22-23-Bmotion-Benahavis-1-576x1024.webp "La cour du lieu préparée pour l'événement d'entreprise de Bmotion à Benahavis, dans la province de Malaga, en Espagne.")
+
+La cour du lieu préparée pour l'événement d'entreprise de Bmotion à Benahavis, dans la province de Malaga, en Espagne, l'événement de deux jours décrit ci-dessus.
+
+<blockquote>
+<p lang="en">"We recently used Málaga Event Gear for our End of Season Party, and the service was outstanding. The sound and equipment were top quality, and we had a dedicated technician on-site the entire time to assist with everything we needed. Fantastic experience. Highly recommended."</p>
+<ul><li>Anna Wisser, avis Google 5 étoiles, décembre 2025</li></ul>
+</blockquote>
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1284/', '/3093/'])} speed="normal" direction="left" />
+</div>
+
+## Comment réserver l'assistance technique pour votre événement
+
+Choisissez le [Wedding Pack](/packages/wedding/) ou le [MICE Pack](/packages/mice/) si vous voulez une couverture continue sur place incluse, ou ajoutez l'option technicien à votre devis du [Basic MICE Pack](/packages/basic-mice/). [Contactez-nous](/contact/) en indiquant la date de votre événement, le nombre d'invités, le lieu, et si votre événement s'étend sur plus d'un jour, afin que nous puissions confirmer la couverture de l'équipe avant votre réservation.
+
+## Conclusion
+
+L'assistance technique pour événements chez Malaga Event Gear est un travail par phases, et non une simple ligne de devis : étalonnage avant l'arrivée de vos invités, surveillance en direct pendant votre événement, vrai dépannage sur du matériel nommé quand quelque chose se passe mal, et démontage une fois l'événement terminé. [Contactez-nous](/contact/) pour confirmer la couverture à votre date, ou consultez notre [page de location audiovisuelle](/blog/audio-visual-rental/) pour le matériel qui la sous-tend.
+
+## Questions fréquentes
+
+### Que se passe-t-il pendant mon événement ? Une checklist rapide de la couverture
+
+Étalonnage et tests avant l'arrivée de vos invités, surveillance en direct du gain et du signal pendant votre événement, dépannage sur le moment si un microphone ou un vidéoprojecteur tombe en panne, et démontage une fois votre événement terminé. Voir [Ce qui se passe réellement pendant votre événement](#ce-qui-se-passe-réellement-pendant-votre-événement--un-regard-phase-par-phase) ci-dessus pour le détail phase par phase.
+
+### L'assistance technique pour événements est-elle la même chose que la location d'un technicien audiovisuel ?
+
+Elles concernent la même équipe, vue sous deux angles différents. Notre guide de [location d'un technicien audiovisuel](/blog/av-technician-hire/) traite de la location de la personne : quel forfait en inclut un, lequel le facture en plus, et combien d'heures. Cette page traite de ce que cette personne fait réellement sur place une fois votre événement lancé.
+
+### Que se passe-t-il si un microphone décroche ou si un vidéoprojecteur perd la synchronisation en pleine présentation ?
+
+Notre technicien règle le problème sur le moment, avec le matériel précis que nous avons : un changement de canal ou de pile pour un microphone sans fil Audix, ou une nouvelle synchronisation avec la bonne association entre vidéoprojecteur Vivitek ou Christie et écran. Voir [Du matériel réel, un dépannage réel](#du-matériel-réel-un-dépannage-réel--ce-que-nos-techniciens-réparent-vraiment) ci-dessus.
+
+### Assurez-vous une assistance technique pour les événements de plusieurs jours ?
+
+Oui. Lors d'un projet d'entreprise de deux jours pour Bmotion à Benahavis, nos techniciens ont surveillé en continu le son et la vidéo depuis un pupitre de contrôle pendant les deux jours, au lieu de recalibrer de zéro chaque matin. Voir [Couverture sur un événement de plusieurs jours](#couverture-sur-un-événement-de-plusieurs-jours) ci-dessus.
+
+### Combien de membres de l'équipe sont sur place, et à quelle vitesse interviennent-ils ?
+
+Un technicien dédié est sur place pendant la durée que couvre votre forfait, et surveille directement la chaîne de signal du son et de l'image, au lieu d'être appelé une fois qu'une panne a été remarquée : une connexion qui décroche ou une lumière qui s'éteint est donc repérée et corrigée immédiatement.
+
+### Le technicien surveille-t-il activement l'événement, ou reste-t-il simplement en attente ?
+
+Il surveille activement. Avec le [Wedding Pack](/packages/wedding/) et le [MICE Pack](/packages/mice/), le technicien surveille en continu les niveaux et les entrées vidéo pendant sa présence sur place (pendant tout l'événement avec le Wedding Pack, jusqu'à 6 heures continues avec le MICE Pack). Ce n'est pas une présence en attente, appelée seulement si quelque chose tombe visiblement en panne.
+
+### L'assistance technique sur place est-elle incluse dans mon forfait, ou faut-il une réservation séparée ?
+
+Cela dépend du forfait, ce n'est pas une règle générale : elle est incluse avec le [Wedding Pack](/packages/wedding/) et le [MICE Pack](/packages/mice/), disponible en option payante avec le [Basic MICE Pack](/packages/basic-mice/), et non proposée avec l'[Eco Pack](/packages/eco/) ni le [Product Presentation Pack](/packages/product-presentation/). Voir [Quelle couverture sur place obtenez-vous réellement](#quelle-couverture-sur-place-obtenez-vous-réellement) ci-dessus pour le détail complet.
+
+### Quelle est la différence entre une livraison seule et une couverture complète de l'événement ?
+
+Avec la livraison seule, c'est-à-dire l'[Eco Pack](/packages/eco/), le [Product Presentation Pack](/packages/product-presentation/) ou le Basic MICE Pack sans l'option technicien, notre équipe livre, installe et teste le matériel, puis le laisse à votre disposition, à celle de votre DJ ou de votre présentateur, pour le faire fonctionner. Une couverture complète de l'événement signifie qu'un technicien reste sur place, en surveillant activement et en dépannant pendant toute la durée de votre événement. Consultez notre guide sur [comment fonctionne la location audiovisuelle](/blog/how-audio-visual-rental-works/) pour le processus de livraison complet dans les deux cas.
+
+### Assurez-vous une assistance technique pour les lieux en extérieur ?
+
+Oui, dans tout Malaga et sur la Costa del Sol. L'étalonnage d'un lieu en extérieur comprend les mêmes tests de signal qu'en intérieur, avec une attention supplémentaire à l'exposition aux intempéries et au câblage. Consultez notre guide de [location audiovisuelle pour événements en extérieur](/blog/audio-visual-rental-for-outdoor-events/) pour les points précis à considérer.
+
+### Votre technicien peut-il passer d'une source de présentation à l'autre pendant mon événement ?
+
+Seulement si vous réservez ce service. Par défaut, le présentateur passe lui-même d'une source à l'autre (un ordinateur portable, un second ordinateur portable, un lecteur DVD). Sur les forfaits avec un grand écran et plus d'une source de présentation, vous pouvez à la place faire gérer la commutation par notre technicien avec un scaler vidéo Kramer VP-731 à 9 entrées, pour passer proprement d'une source à l'autre. C'est un outil de commutation de présentation uniquement, et non une caméra, un système d'enregistrement ou de diffusion. Voir [Passer d'une source de présentation à l'autre](#passer-dune-source-de-présentation-à-lautre) ci-dessus.

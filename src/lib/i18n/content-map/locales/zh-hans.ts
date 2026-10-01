@@ -59,6 +59,11 @@ export default {
 			keyword: '马拉加 视听技术人员租用',
 			status: 'propuesta'
 		},
+		'technical-support-for-events': {
+			slug: '活动现场技术支持',
+			keyword: '马拉加 活动现场技术支持',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': { slug: '活动视听租赁', keyword: '马拉加 活动视听租赁', status: 'propuesta' },
 		'audio-visual-rental-for-conferences': { slug: '会议视听租赁', keyword: '马拉加 会议视听租赁', status: 'propuesta' },
 		'audio-visual-rental-for-corporate-events': {

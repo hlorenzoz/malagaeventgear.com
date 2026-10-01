@@ -67,6 +67,11 @@ export default {
 			keyword: "location d'un technicien audiovisuel à Malaga",
 			status: 'propuesta'
 		},
+		'technical-support-for-events': {
+			slug: 'assistance-technique-evenements-malaga',
+			keyword: 'assistance technique pour événements à Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'location-audiovisuelle-evenements-malaga',
 			keyword: 'location audiovisuelle pour événements à Malaga',

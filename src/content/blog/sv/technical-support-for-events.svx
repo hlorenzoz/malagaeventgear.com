@@ -1,0 +1,187 @@
+---
+title: "Teknisk support för evenemang i Malaga, Spanien"
+description: "Teknisk support för evenemang i Malaga, Spanien: vad vårt team på plats faktiskt gör före, under och efter ditt evenemang, från kalibrering till nedmontering."
+excerpt: "Teknisk support för evenemang i Malaga: vad det faktiskt innebär hos Malaga Event Gear, med kalibrering, övervakning live, riktig felsökning och nedmontering, fas för fas."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Att boka teknisk support för evenemang i Malaga, Spanien, är inte samma fråga som att hyra en tekniker. Det är en fråga om täckning: vad som faktiskt händer på din plats innan dina gäster kommer, medan ditt evenemang pågår, om något går sönder och efter att den sista gästen har gått. Det är vad den här guiden handlar om.
+
+Om du försöker avgöra vilket paket som ger en person på plats och vad det kostar går vår guide om att [hyra en AV-tekniker](/blog/av-technician-hire/) igenom den jämförelsen paket för paket i detalj. Den här sidan handlar om själva täckningen, fas för fas, med den verkliga utrustning som vårt team hanterar och de verkliga projekt där vi har levererat den.
+
+[Boka nu](/packages/) och bekräfta vilken nivå av täckning på plats ditt evenemang behöver.
+
+## Innehållsförteckning
+
+-   [Kort översikt](#kort-översikt)
+-   [Det viktigaste](#det-viktigaste)
+-   [Vad som faktiskt händer under ditt evenemang: fas för fas](#vad-som-faktiskt-händer-under-ditt-evenemang-fas-för-fas)
+-   [Hur mycket täckning på plats du faktiskt får](#hur-mycket-täckning-på-plats-du-faktiskt-får)
+-   [Verklig utrustning, verklig felsökning: vad våra tekniker faktiskt åtgärdar](#verklig-utrustning-verklig-felsökning-vad-våra-tekniker-faktiskt-åtgärdar)
+-   [Växla mellan flera presentationskällor](#växla-mellan-flera-presentationskällor)
+-   [Täckning under ett flerdagsevenemang](#täckning-under-ett-flerdagsevenemang)
+-   [Stöd på plats som vi faktiskt har levererat](#stöd-på-plats-som-vi-faktiskt-har-levererat)
+-   [Så bokar du teknisk support för ditt evenemang](#så-bokar-du-teknisk-support-för-ditt-evenemang)
+-   [Slutsats](#slutsats)
+-   [Vanliga frågor](#vanliga-frågor)
+    -   [Vad händer under mitt evenemang? En snabb checklista för täckningen](#vad-händer-under-mitt-evenemang-en-snabb-checklista-för-täckningen)
+    -   [Är teknisk support för evenemang samma sak som att hyra en AV-tekniker?](#är-teknisk-support-för-evenemang-samma-sak-som-att-hyra-en-av-tekniker)
+    -   [Vad händer om en mikrofon tappar anslutningen eller en projektor tappar synkroniseringen mitt i en presentation?](#vad-händer-om-en-mikrofon-tappar-anslutningen-eller-en-projektor-tappar-synkroniseringen-mitt-i-en-presentation)
+    -   [Erbjuder ni teknisk support för flerdagsevenemang?](#erbjuder-ni-teknisk-support-för-flerdagsevenemang)
+    -   [Hur många teammedlemmar finns på plats, och hur snabbt reagerar de?](#hur-många-teammedlemmar-finns-på-plats-och-hur-snabbt-reagerar-de)
+    -   [Övervakar teknikern evenemanget aktivt, eller står den bara på beredskap?](#övervakar-teknikern-evenemanget-aktivt-eller-står-den-bara-på-beredskap)
+    -   [Ingår teknisk support på plats i mitt paket, eller är det en separat bokning?](#ingår-teknisk-support-på-plats-i-mitt-paket-eller-är-det-en-separat-bokning)
+    -   [Vad är skillnaden mellan enbart leverans och full täckning av evenemanget?](#vad-är-skillnaden-mellan-enbart-leverans-och-full-täckning-av-evenemanget)
+    -   [Erbjuder ni teknisk support för platser utomhus?](#erbjuder-ni-teknisk-support-för-platser-utomhus)
+    -   [Kan er tekniker växla mellan flera presentationskällor under mitt evenemang?](#kan-er-tekniker-växla-mellan-flera-presentationskällor-under-mitt-evenemang)
+
+## Kort översikt
+
+---
+
+Teknisk support för evenemang i Malaga innebär hos Malaga Event Gear ett team på plats som hanterar din utrustning i fyra faser: kalibrering innan dina gäster kommer, övervakning live medan ditt evenemang pågår, felsökning i det ögonblick något går fel och nedmontering när det är slut. Täckningen gäller Malaga och hela Costa del Sol.
+
+Den här guiden går igenom vad vårt team faktiskt gör i varje fas, den verkliga utrustning som det hanterar vid en typisk bokning och hur täckningen förändras för ett bröllop, ett styrelsemöte eller en tvådagars företagskonferens. [Kontakta oss](/contact/) för att bekräfta täckningsnivån för ditt datum.
+
+## Det viktigaste
+
+---
+
+-   Teknisk support sker i fyra faser: kalibrering, övervakning live, felsökning och nedmontering, inte som en enda allmän rad om "tekniker ingår".
+
+-   Täckning är ingen ja-eller-nej-fråga: [Eco Pack](/packages/eco/) och [Product Presentation Pack](/packages/product-presentation/) har ingen, [Basic MICE Pack](/packages/basic-mice/) erbjuder den som betalt tillval, och [Wedding Pack](/packages/wedding/) och [MICE Pack](/packages/mice/) har den inkluderad som standard.
+
+-   Vårt team felsöker verklig, namngiven utrustning: mixerbord, ljusstyrning med fotpedal, synkronisering av projektor och duk, trådlösa mikrofoner, rökmaskinen och scenplattformar, inte ett allmänt "AV-system".
+
+-   Företagsevenemang som pågår flera dagar får kontinuerlig övervakning från en kontrollpanel, inte en tekniker som bara tittar förbi då och då.
+
+-   På paket med flera presentationskällor låter en videoscaler med 9 ingångar presentatören växla mellan dem utan synligt klipp, eller så bokar du vår tekniker för att sköta det åt dig. Det är strikt ett presentationsverktyg: kameror, filmning och livestreaming ingår inte i vårt eget lager. Se [Växla mellan flera presentationskällor](#växla-mellan-flera-presentationskällor) nedan.
+
+## Vad som faktiskt händer under ditt evenemang: fas för fas
+
+Så här går det faktiskt till, fas för fas, vid en bokning som inkluderar det.
+
+### Innan ditt evenemang börjar: kalibrering och tester
+
+Vårt team kommer innan din första gäst och genomför gain staging på varje mikrofon, kontrollerar synkroniseringen mellan projektor och duk och kontrollerar att belysningen fungerar. Det är här en mikrofon som skulle ge rundgång, eller en projektor som inte skulle synkronisera, upptäcks och åtgärdas innan någon ens märker att det fanns ett problem. För det djupare varför bakom den gain stagingen, rum för rum, se vår guide om [kalibrering av ljudsystem](/blog/audio-system-calibration/).
+
+### Medan ditt evenemang pågår: övervakning live
+
+När ditt evenemang väl pågår håller teknikern koll på nivåerna: justerar förstärkningen när olika talare tar mikrofonen, hanterar övergången mellan en talare som sätter sig och nästa som reser sig så att det inte blir något tomt ljud, och följer signalkedjan för ljud och bild hela tiden i stället för att bara titta förbi då och då.
+
+<InlineCTA />
+
+### När något går fel: felsökning i realtid
+
+En trådlös mikrofon som tappar anslutningen eller en projektor som tappar synkroniseringen mitt i en presentation åtgärdas på stället, inte diagnostiseras efter att ditt evenemang redan har drabbats av det. Se [Verklig utrustning, verklig felsökning](#verklig-utrustning-verklig-felsökning-vad-våra-tekniker-faktiskt-åtgärdar) nedan för den specifika utrustning som vårt team arbetar med.
+
+### Efter att ditt evenemang är slut: nedmontering och hämtning
+
+När din sista gäst har gått sköter vårt team snabb nedmontering och hämtning av utrustningen. Du packar aldrig ihop något själv, och vid en flerdagsbokning ställer samma team om och kalibrerar om inför nästa dag i stället för att börja från noll varje morgon.
+
+## Hur mycket täckning på plats du faktiskt får
+
+Täckning är en fråga om närvaro, inte om pris: hur stor del av ditt evenemang som faktiskt har någon som håller koll. Så här fördelar det sig per paket:
+
+| Paket | Närvaro på plats | Vad det innebär under ditt evenemang |
+| --- | --- | --- |
+| [Eco Pack](/packages/eco/) | Ingen | DJ:n eller värden sköter sina egna nivåer. Vårt team levererar, ställer upp och testar innan det går. |
+| [Product Presentation Pack](/packages/product-presentation/) | Ingen | Presentatören sköter sina egna bilder och sin egen mikrofon. Vårt team levererar, ställer upp och testar innan det går. |
+| [Basic MICE Pack](/packages/basic-mice/) | Närvaro som betalt tillval | Som standard är ingen på plats. Lägg till teknikeralternativet om ditt möte behöver täckning live. |
+| [MICE Pack](/packages/mice/) | Kontinuerlig, med gräns | En tekniker övervakar aktivt ditt evenemang i upp till 6 timmar i sträck. |
+| [Wedding Pack](/packages/wedding/) | Kontinuerlig, utan gräns | En tekniker finns på plats under hela evenemanget, från ceremonin till dansen, utan timgräns. |
+
+För exakta timmar, kostnaden för tillvalet och priserna per paket bakom var och en av dessa rader, se vår guide om att [hyra en AV-tekniker](/blog/av-technician-hire/). För hela steg-för-steg-processen som vårt team följer på leveransdagen, se [så fungerar AV-uthyrning](/blog/how-audio-visual-rental-works/).
+
+## Verklig utrustning, verklig felsökning: vad våra tekniker faktiskt åtgärdar
+
+Allmänna sidor om teknisk support nämner sällan vilken utrustning det rör sig om. Här är den specifika utrustningen i vår katalog och hur felsökningen ser ut.
+
+-   **Mixerbord.** Våra mixerbord Soundcraft EPM-6 och Mackie Onyx 1640 är de som våra tekniker kör under tal, och de fångar upp en för hög kanal eller en bortfallen ingång innan den når högtalarna.
+-   **Ljusstyrning med fotpedal.** Våra Eurolite LED KLS-200 ljusbalkar styrs med fotpedal, inte med en DMX-signal. Vårt team ställer in rätt färg eller mönster under uppsättningen, så att ingen behöver sträcka sig efter pedalen mitt under evenemanget. Om en balk slutar svara är det en del av teknikerns jobb att åtgärda det.
+-   **Synkronisering av projektor och duk.** Våra projektorer i serien Vivitek D5 och Christie LX505 är matchade mot dukar från Da-Lite, Traulux och Projecta. En projektor som inte vill synkronisera mot rätt dukstorlek eller bildformat är precis den sortens fel som upptäcks i kalibreringsfasen ovan.
+-   **Trådlösa mikrofoner.** Våra trådlösa mikrofoner i Audix Fusion Series tappar ibland anslutningen mitt under ett evenemang, oftast på grund av störningar eller ett nästan slut batteri. Våra tekniker har lösningen med sig (ett kanalbyte eller ett färskt batteri) i stället för att låta ditt tal fortsätta med en död mikrofon.
+-   **Rökmaskin.** Utmatningen från vår rökmaskin Martin Magnum 650 måste anpassas efter lokalens ventilation och eventuell rökdetektering på plats, särskilt inomhus.
+-   **Scenplattformar.** Våra modulära scenplattformar från GUIL måste vara i våg och stabila innan någon kliver upp på dem, vilket bekräftas vid kalibreringen och inte upptäcks live.
+
+## Växla mellan flera presentationskällor
+
+Vid MICE Pack-bokningar med fler än en presentationskälla, till exempel en bärbar dator för bilderna, en andra bärbar dator för en film och en DVD-spelare för ett uppspelat klipp, växlar presentatören själv mellan dem, eller så bokar du vår tekniker för att sköta växlingen med en Kramer VP-731, en videoscaler med 9 ingångar, så att rummets duk går rent från en källa till nästa utan synliga hack eller omstart. Vår guide om att [hyra en videoswitch](/blog/video-switcher-rental/) är den djupare, utrustningsfokuserade versionen av det här avsnittet: den verkliga enheten, vad 9 ingångar betyder i praktiken och på vilka paket den realistiskt finns tillgänglig.
+
+För att vara tydlig med vad detta inte är: det är ett växlingsverktyg för presentationer på din duk, inte ett kamera-, inspelnings- eller streamingsystem. Kameror, filmning och livestreaming ingår inte i vårt eget lager, och vårt eget team kör inte någon sändning. Om en kamera eller en stream är viktig för ditt evenemang, säg till tidigt, så frågar vi om någon leverantör har både utrustningen och personalen ledig på ditt datum. Om ditt evenemang också behöver simultantolkning eller ett interaktivt röstningssystem är det inte utrustning vi har i lager själva, men vi samordnar det genom en underleverantör. [Kontakta oss](/contact/) om något av det gäller ditt evenemang.
+
+## Täckning under ett flerdagsevenemang
+
+Teknisk support nollställs inte varje morgon vid en flerdagsbokning. Vid ett tvådagars företagsprojekt för byrån Bmotion i Benahavis övervakade våra tekniker ljudfrekvenser och videoingångar kontinuerligt från en avancerad kontrollpanel under båda dagarna och höll källväxlingen sömlös och fri från fördröjning, från det första öppningsanförandet till slutapplåden på dag två. Läs hela berättelsen i vår uppdatering om [teknisk support för Bmotion i Benahavis](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/).
+
+## Stöd på plats som vi faktiskt har levererat
+
+![En kullerstensbelagd innergård med två trappor och en eventbakgrund, dekorerad med ljusslingor mellan palmerna i skymningen, för Bmotions evenemang i Benahavis.](https://cdn.malagaeventgear.com/blog/3093/2026.05.22-23-Bmotion-Benahavis-1-576x1024.webp "Innergården på platsen förberedd för Bmotions företagsevenemang i Benahavis, Malaga-provinsen, Spanien.")
+
+Innergården på platsen förberedd för Bmotions företagsevenemang i Benahavis, Malaga-provinsen, Spanien, det tvådagarsevenemang som beskrivs ovan.
+
+<blockquote>
+<p lang="en">"We recently used Málaga Event Gear for our End of Season Party, and the service was outstanding. The sound and equipment were top quality, and we had a dedicated technician on-site the entire time to assist with everything we needed. Fantastic experience. Highly recommended."</p>
+<ul><li>Anna Wisser, Google-recension med 5 stjärnor, december 2025</li></ul>
+</blockquote>
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1284/', '/3093/'])} speed="normal" direction="left" />
+</div>
+
+## Så bokar du teknisk support för ditt evenemang
+
+Välj [Wedding Pack](/packages/wedding/) eller [MICE Pack](/packages/mice/) om du vill ha kontinuerlig täckning på plats inkluderad, eller lägg till teknikeralternativet i din offert för [Basic MICE Pack](/packages/basic-mice/). [Kontakta oss](/contact/) med datum för ditt evenemang, antal gäster, plats och om ditt evenemang pågår längre än en dag, så att vi kan bekräfta teamets täckning innan du bokar.
+
+## Slutsats
+
+Teknisk support för evenemang hos Malaga Event Gear är ett arbete i faser och inte en enskild post: kalibrering innan dina gäster kommer, övervakning live medan ditt evenemang pågår, riktig felsökning av namngiven utrustning när något går fel och nedmontering när det är slut. [Kontakta oss](/contact/) för att bekräfta täckningen för ditt datum, eller se vår [sida om AV-uthyrning](/blog/audio-visual-rental/) för utrustningen bakom.
+
+## Vanliga frågor
+
+### Vad händer under mitt evenemang? En snabb checklista för täckningen
+
+Kalibrering och tester innan dina gäster kommer, övervakning av förstärkning och signal live medan ditt evenemang pågår, felsökning på stället om en mikrofon eller projektor slutar fungera och nedmontering när ditt evenemang är slut. Se [Vad som faktiskt händer under ditt evenemang](#vad-som-faktiskt-händer-under-ditt-evenemang-fas-för-fas) ovan för hela genomgången fas för fas.
+
+### Är teknisk support för evenemang samma sak som att hyra en AV-tekniker?
+
+De gäller samma team, sett från två olika håll. Vår guide om att [hyra en AV-tekniker](/blog/av-technician-hire/) handlar om att hyra själva personen: vilket paket som inkluderar en, vilket som tar extra betalt och hur många timmar. Den här sidan handlar om vad den personen faktiskt gör på plats när ditt evenemang väl har börjat.
+
+### Vad händer om en mikrofon tappar anslutningen eller en projektor tappar synkroniseringen mitt i en presentation?
+
+Vår tekniker åtgärdar det på stället, med den specifika utrustning vi har med oss: ett kanal- eller batteribyte för en trådlös Audix-mikrofon, eller en ny synkronisering mot rätt kombination av Vivitek- eller Christie-projektor och duk. Se [Verklig utrustning, verklig felsökning](#verklig-utrustning-verklig-felsökning-vad-våra-tekniker-faktiskt-åtgärdar) ovan.
+
+### Erbjuder ni teknisk support för flerdagsevenemang?
+
+Ja. Vid ett tvådagars företagsprojekt för Bmotion i Benahavis övervakade våra tekniker ljud och bild kontinuerligt från en kontrollpanel under båda dagarna i stället för att kalibrera om från noll varje morgon. Se [Täckning under ett flerdagsevenemang](#täckning-under-ett-flerdagsevenemang) ovan.
+
+### Hur många teammedlemmar finns på plats, och hur snabbt reagerar de?
+
+En dedikerad tekniker finns på plats under den tid som ditt paket täcker och följer signalkedjan för ljud och bild direkt i stället för att kallas in efter att ett fel har upptäckts, så en anslutning som tappas eller en lampa som slocknar upptäcks och åtgärdas omedelbart.
+
+### Övervakar teknikern evenemanget aktivt, eller står den bara på beredskap?
+
+Aktivt. Med [Wedding Pack](/packages/wedding/) och [MICE Pack](/packages/mice/) följer teknikern nivåer och videoingångar hela tiden så länge den är på plats (under hela evenemanget med Wedding Pack, i upp till 6 timmar i sträck med MICE Pack). Teknikern är ingen reservnärvaro som kallas in först när något synligt går sönder.
+
+### Ingår teknisk support på plats i mitt paket, eller är det en separat bokning?
+
+Det beror på paketet och är ingen generell regel: ingår i [Wedding Pack](/packages/wedding/) och [MICE Pack](/packages/mice/), finns som betalt tillval i [Basic MICE Pack](/packages/basic-mice/) och erbjuds inte i [Eco Pack](/packages/eco/) eller [Product Presentation Pack](/packages/product-presentation/). Se [Hur mycket täckning på plats du faktiskt får](#hur-mycket-täckning-på-plats-du-faktiskt-får) ovan för hela genomgången.
+
+### Vad är skillnaden mellan enbart leverans och full täckning av evenemanget?
+
+Vid enbart leverans, alltså med [Eco Pack](/packages/eco/), [Product Presentation Pack](/packages/product-presentation/) eller Basic MICE Pack utan teknikeralternativet, levererar, ställer upp och testar vårt team utrustningen och lämnar den sedan åt dig, din DJ eller din presentatör att använda. Full täckning av evenemanget innebär att en tekniker stannar på plats och aktivt övervakar och felsöker under hela ditt evenemang. Se vår guide om [så fungerar AV-uthyrning](/blog/how-audio-visual-rental-works/) för hela leveransprocessen i båda fallen.
+
+### Erbjuder ni teknisk support för platser utomhus?
+
+Ja, i Malaga och på hela Costa del Sol. Kalibreringen för en plats utomhus innehåller samma signaltester som inomhus, med extra uppmärksamhet på väderexponering och kablage. Se vår guide om [AV-uthyrning för utomhusevenemang](/blog/audio-visual-rental-for-outdoor-events/) för de specifika övervägandena.
+
+### Kan er tekniker växla mellan flera presentationskällor under mitt evenemang?
+
+Bara om du bokar den tjänsten. Som standard växlar presentatören själv mellan källorna (en bärbar dator, en andra bärbar dator, en DVD-spelare). På paket med en stor duk och mer än en presentationskälla kan du i stället låta vår tekniker sköta växlingen med en Kramer VP-731 videoscaler med 9 ingångar, så att det går rent mellan källorna. Det är enbart ett växlingsverktyg för presentationer, inte ett kamera-, inspelnings- eller streamingsystem. Se [Växla mellan flera presentationskällor](#växla-mellan-flera-presentationskällor) ovan.

@@ -63,6 +63,11 @@ export default {
 			keyword: 'noleggio di un tecnico audiovisivo a Malaga',
 			status: 'propuesta'
 		},
+		'technical-support-for-events': {
+			slug: 'supporto-tecnico-eventi-malaga',
+			keyword: 'supporto tecnico per eventi a Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'noleggio-audiovisivo',
 			keyword: 'noleggio audiovisivo a Malaga',

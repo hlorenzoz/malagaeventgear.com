@@ -67,6 +67,11 @@ export default {
 			keyword: 'leje en AV-tekniker i Malaga',
 			status: 'propuesta'
 		},
+		'technical-support-for-events': {
+			slug: 'teknisk-support-events',
+			keyword: 'teknisk support til events i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'av-udlejning-malaga',
 			keyword: 'AV-udlejning Malaga',

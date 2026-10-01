@@ -99,6 +99,11 @@ export default {
 			keyword: 'aluguer de um técnico audiovisual em Málaga',
 			status: 'propuesta'
 		},
+		'technical-support-for-events': {
+			slug: 'apoio-tecnico-para-eventos',
+			keyword: 'apoio técnico para eventos em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'aluguer-de-audiovisuais-para-eventos',
 			keyword: 'aluguer de audiovisuais para eventos em Málaga',

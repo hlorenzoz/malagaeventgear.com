@@ -67,6 +67,11 @@ export default {
 			keyword: 'AV-technicus inhuren in Malaga',
 			status: 'propuesta'
 		},
+		'technical-support-for-events': {
+			slug: 'technische-ondersteuning-evenementen-malaga',
+			keyword: 'technische ondersteuning bij evenementen in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'audiovisuele-verhuur',
 			keyword: 'audiovisuele verhuur Malaga',

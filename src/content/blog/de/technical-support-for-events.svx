@@ -1,0 +1,187 @@
+---
+title: "Technischer Support für Veranstaltungen in Malaga, Spanien"
+description: "Technischer Support für Veranstaltungen in Malaga, Spanien: Was unser Team vor Ort vor, während und nach der Veranstaltung tut, von Kalibrierung bis Abbau."
+excerpt: "Technischer Support für Veranstaltungen in Malaga: Was das bei Malaga Event Gear heißt, mit Kalibrierung, Live-Überwachung, echter Fehlerbehebung und Abbau, Phase für Phase."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Technischer Support für Veranstaltungen in Malaga, Spanien, ist eine andere Frage als die Miete eines Technikers. Es ist eine Frage der Betreuung: Was passiert tatsächlich an Ihrem Veranstaltungsort, bevor Ihre Gäste eintreffen, während Ihre Veranstaltung läuft, wenn etwas ausfällt und nachdem der letzte Gast gegangen ist? Genau das behandelt dieser Ratgeber.
+
+Wenn Sie klären möchten, welches Paket eine Person vor Ort bringt und was das kostet, behandelt unser Ratgeber zum [AV-Techniker mieten](/blog/av-technician-hire/) diesen Vergleich Paket für Paket im Detail. Diese Seite behandelt die Betreuung selbst, Phase für Phase, mit der konkreten Technik, die unser Team betreut, und den echten Projekten, bei denen wir sie geliefert haben.
+
+[Jetzt buchen](/packages/) und bestätigen Sie, wie viel Betreuung vor Ort Ihre Veranstaltung braucht.
+
+## Inhaltsverzeichnis
+
+-   [Kurzüberblick](#kurzüberblick)
+-   [Das Wichtigste](#das-wichtigste)
+-   [Was bei Ihrer Veranstaltung tatsächlich passiert: Phase für Phase](#was-bei-ihrer-veranstaltung-tatsächlich-passiert-phase-für-phase)
+-   [Wie viel Betreuung vor Ort Sie tatsächlich bekommen](#wie-viel-betreuung-vor-ort-sie-tatsächlich-bekommen)
+-   [Echte Technik, echte Fehlerbehebung: Was unsere Techniker tatsächlich beheben](#echte-technik-echte-fehlerbehebung-was-unsere-techniker-tatsächlich-beheben)
+-   [Wechsel zwischen mehreren Präsentationsquellen](#wechsel-zwischen-mehreren-präsentationsquellen)
+-   [Betreuung bei mehrtägigen Veranstaltungen](#betreuung-bei-mehrtägigen-veranstaltungen)
+-   [Betreuung vor Ort, die wir tatsächlich geliefert haben](#betreuung-vor-ort-die-wir-tatsächlich-geliefert-haben)
+-   [So buchen Sie technischen Support für Ihre Veranstaltung](#so-buchen-sie-technischen-support-für-ihre-veranstaltung)
+-   [Fazit](#fazit)
+-   [Häufige Fragen](#häufige-fragen)
+    -   [Was passiert bei meiner Veranstaltung? Eine kurze Checkliste zur Betreuung](#was-passiert-bei-meiner-veranstaltung-eine-kurze-checkliste-zur-betreuung)
+    -   [Ist technischer Support für Veranstaltungen dasselbe wie die Miete eines AV-Technikers?](#ist-technischer-support-für-veranstaltungen-dasselbe-wie-die-miete-eines-av-technikers)
+    -   [Was passiert, wenn bei einem Mikrofon die Verbindung abbricht oder ein Beamer mitten in der Präsentation die Synchronisation verliert?](#was-passiert-wenn-bei-einem-mikrofon-die-verbindung-abbricht-oder-ein-beamer-mitten-in-der-präsentation-die-synchronisation-verliert)
+    -   [Bieten Sie technischen Support für mehrtägige Veranstaltungen an?](#bieten-sie-technischen-support-für-mehrtägige-veranstaltungen-an)
+    -   [Wie viele Teammitglieder sind vor Ort, und wie schnell reagieren sie?](#wie-viele-teammitglieder-sind-vor-ort-und-wie-schnell-reagieren-sie)
+    -   [Überwacht der Techniker die Veranstaltung aktiv oder steht er nur bereit?](#überwacht-der-techniker-die-veranstaltung-aktiv-oder-steht-er-nur-bereit)
+    -   [Ist technischer Support vor Ort in meinem Paket enthalten oder eine separate Buchung?](#ist-technischer-support-vor-ort-in-meinem-paket-enthalten-oder-eine-separate-buchung)
+    -   [Was ist der Unterschied zwischen reiner Lieferung und voller Betreuung der Veranstaltung?](#was-ist-der-unterschied-zwischen-reiner-lieferung-und-voller-betreuung-der-veranstaltung)
+    -   [Bieten Sie technischen Support für Veranstaltungsorte im Freien an?](#bieten-sie-technischen-support-für-veranstaltungsorte-im-freien-an)
+    -   [Kann Ihr Techniker während meiner Veranstaltung zwischen mehreren Präsentationsquellen umschalten?](#kann-ihr-techniker-während-meiner-veranstaltung-zwischen-mehreren-präsentationsquellen-umschalten)
+
+## Kurzüberblick
+
+---
+
+Technischer Support für Veranstaltungen in Malaga bedeutet bei Malaga Event Gear ein Team vor Ort, das Ihre Technik in vier Phasen betreibt: Kalibrierung, bevor Ihre Gäste eintreffen, Live-Überwachung, während Ihre Veranstaltung läuft, Fehlerbehebung in dem Moment, in dem etwas schiefgeht, und Abbau, sobald sie endet. Die Betreuung gilt in Malaga und an der gesamten Costa del Sol.
+
+Dieser Ratgeber zeigt, was unser Team in jeder Phase tatsächlich tut, welche konkrete Technik es bei einer typischen Buchung betreut und wie sich die Betreuung bei einer Hochzeit, einer Vorstandssitzung oder einer zweitägigen Firmenkonferenz verändert. [Kontaktieren Sie uns](/contact/), um den Betreuungsumfang für Ihren Termin zu bestätigen.
+
+## Das Wichtigste
+
+---
+
+-   Der technische Support läuft in vier Phasen ab: Kalibrierung, Live-Überwachung, Fehlerbehebung und Abbau, nicht als pauschale Zeile "Techniker inklusive".
+
+-   Die Betreuung ist keine Ja-Nein-Frage: Das [Eco Pack](/packages/eco/) und das [Product Presentation Pack](/packages/product-presentation/) haben keine, das [Basic MICE Pack](/packages/basic-mice/) bietet sie als kostenpflichtiges Extra an, und das [Wedding Pack](/packages/wedding/) sowie das [MICE Pack](/packages/mice/) enthalten sie standardmäßig.
+
+-   Unser Team behebt Fehler an konkreter, benannter Technik: Mischpulte, Lichtsteuerung per Fußpedal, Synchronisation von Beamer und Leinwand, Funkmikrofone, Nebelmaschine und Bühnenpodeste, nicht an einem pauschalen "AV-System".
+
+-   Mehrtägige Firmenveranstaltungen werden von einem Kontrollpult aus durchgehend überwacht, nicht von einem Techniker, der nur gelegentlich vorbeischaut.
+
+-   Bei Paketen mit mehreren Präsentationsquellen lässt ein Videoscaler mit 9 Eingängen den Präsentierenden ohne sichtbaren Schnitt zwischen ihnen umschalten, oder Sie buchen unseren Techniker, der das für Sie übernimmt. Das ist ausschließlich ein Präsentationswerkzeug: Kameras, Filmaufnahmen und Live-Streaming gehören nicht zu unserem eigenen Bestand. Siehe unten [Wechsel zwischen mehreren Präsentationsquellen](#wechsel-zwischen-mehreren-präsentationsquellen).
+
+## Was bei Ihrer Veranstaltung tatsächlich passiert: Phase für Phase
+
+Hier steht, was tatsächlich passiert, Phase für Phase, bei einer Buchung, die das enthält.
+
+### Bevor Ihre Veranstaltung beginnt: Kalibrierung und Tests
+
+Unser Team trifft vor Ihrem ersten Gast ein, stellt bei jedem Mikrofon die Gain-Struktur ein, prüft die Synchronisation von Beamer und Leinwand und kontrolliert, dass die Beleuchtung funktioniert. Hier fällt ein Mikrofon, das rückkoppeln würde, oder ein Beamer, der sich nicht synchronisieren würde, auf und wird behoben, bevor jemand bemerkt, dass es je ein Problem gab. Das genauere Warum hinter dieser Gain-Struktur, Raum für Raum, finden Sie in unserem Ratgeber zur [Kalibrierung der Tonanlage](/blog/audio-system-calibration/).
+
+### Während Ihre Veranstaltung läuft: Live-Überwachung
+
+Sobald Ihre Veranstaltung läuft, bleibt der Techniker an den Pegeln: Er passt den Gain an, wenn verschiedene Redner das Mikrofon übernehmen, steuert die Übergabe zwischen einem Redner, der sich setzt, und dem nächsten, der aufsteht, damit keine Tonlücke entsteht, und beobachtet die Signalkette von Ton und Bild durchgehend, statt nur hin und wieder nachzusehen.
+
+<InlineCTA />
+
+### Wenn etwas schiefgeht: Fehlerbehebung in Echtzeit
+
+Eine abgebrochene Funkmikrofonverbindung oder ein Beamer, der mitten in der Präsentation die Synchronisation verliert, wird auf der Stelle behoben und nicht erst diagnostiziert, nachdem Ihre Veranstaltung schon darunter gelitten hat. Unten unter [Echte Technik, echte Fehlerbehebung](#echte-technik-echte-fehlerbehebung-was-unsere-techniker-tatsächlich-beheben) steht, mit welcher konkreten Technik unser Team arbeitet.
+
+### Nach dem Ende Ihrer Veranstaltung: Abbau und Abholung
+
+Sobald Ihr letzter Gast gegangen ist, übernimmt unser Team den zügigen Abbau und die Abholung der Technik. Sie packen nie etwas selbst ein, und bei einer mehrtägigen Buchung stellt dasselbe Team die Technik für den nächsten Tag neu ein und kalibriert sie neu, statt jeden Morgen bei null anzufangen.
+
+## Wie viel Betreuung vor Ort Sie tatsächlich bekommen
+
+Betreuung ist eine Frage der Präsenz, nicht des Preises: Wie viel Ihrer Veranstaltung wird tatsächlich von jemandem beobachtet. So sieht es nach Paket aus:
+
+| Paket | Präsenz vor Ort | Was das während Ihrer Veranstaltung bedeutet |
+| --- | --- | --- |
+| [Eco Pack](/packages/eco/) | Keine | Der DJ oder Moderator steuert seine eigenen Pegel. Unser Team liefert, baut auf und testet, bevor es geht. |
+| [Product Presentation Pack](/packages/product-presentation/) | Keine | Der Präsentierende bedient seine eigenen Folien und sein Mikrofon. Unser Team liefert, baut auf und testet, bevor es geht. |
+| [Basic MICE Pack](/packages/basic-mice/) | Präsenz als kostenpflichtiges Extra | Standardmäßig ist niemand vor Ort. Fügen Sie die Technikeroption hinzu, wenn Ihre Besprechung eine Live-Betreuung braucht. |
+| [MICE Pack](/packages/mice/) | Durchgehend, mit Limit | Ein Techniker überwacht Ihre Veranstaltung aktiv für bis zu 6 Stunden am Stück. |
+| [Wedding Pack](/packages/wedding/) | Durchgehend, ohne Limit | Ein Techniker bleibt während der gesamten Veranstaltung vor Ort, von der Trauung bis zum Tanz, ohne Stundenlimit. |
+
+Die genauen Stunden, die Kosten des Extras und die Preise der einzelnen Pakete hinter diesen Angaben finden Sie in unserem Ratgeber zum [AV-Techniker mieten](/blog/av-technician-hire/). Den vollständigen Ablauf, den unser Team am Liefertag Schritt für Schritt befolgt, finden Sie unter [So funktioniert die AV-Vermietung](/blog/how-audio-visual-rental-works/).
+
+## Echte Technik, echte Fehlerbehebung: Was unsere Techniker tatsächlich beheben
+
+Pauschale Seiten zum technischen Support nennen selten die betroffene Technik. Hier steht die konkrete Technik aus unserem Katalog und wie die Fehlerbehebung dabei aussieht.
+
+-   **Mischpulte.** Unsere Mischpulte Soundcraft EPM-6 und Mackie Onyx 1640 fahren unsere Techniker bei Reden live und fangen einen zu lauten Kanal oder einen ausgefallenen Eingang ab, bevor er die Lautsprecher erreicht.
+-   **Lichtsteuerung per Fußpedal.** Unsere Eurolite LED KLS-200 Leisten werden per Fußpedal gesteuert, nicht per DMX-Signal. Unser Team stellt beim Aufbau die richtige Farbe oder das richtige Muster ein, damit niemand mitten in der Veranstaltung zum Pedal greifen muss. Wenn eine Leiste nicht mehr reagiert, gehört die Behebung zur Arbeit des Technikers.
+-   **Synchronisation von Beamer und Leinwand.** Unsere Beamer der Serie Vivitek D5 und Christie LX505 sind auf Leinwände von Da-Lite, Traulux und Projecta abgestimmt. Ein Beamer, der sich nicht auf die richtige Leinwandgröße oder das richtige Seitenverhältnis synchronisiert, ist genau die Art Fehler, die in der oben beschriebenen Kalibrierungsphase auffällt.
+-   **Funkmikrofone.** Unsere Funkmikrofone der Audix Fusion Series verlieren mitten in einer Veranstaltung gelegentlich die Verbindung, meist durch Störungen oder eine fast leere Batterie. Unsere Techniker bringen die Lösung mit (einen Kanalwechsel oder eine frische Batterie), statt Ihre Rede mit einem toten Mikrofon weiterlaufen zu lassen.
+-   **Nebelmaschine.** Bei unserer Nebelmaschine Martin Magnum 650 muss die Ausgabe auf die Belüftung des Raums und auf eine eventuell vorhandene Rauchmeldeanlage abgestimmt werden, besonders in Innenräumen.
+-   **Bühnenpodeste.** Unsere modularen GUIL Bühnenpodeste müssen waagerecht und sicher stehen, bevor jemand darauf tritt. Das wird bei der Kalibrierung bestätigt und nicht erst live entdeckt.
+
+## Wechsel zwischen mehreren Präsentationsquellen
+
+Bei MICE Pack Buchungen mit mehr als einer Präsentationsquelle, zum Beispiel einem Laptop für Folien, einem zweiten Laptop für ein Video und einem DVD-Player für einen eingespielten Clip, schaltet der Präsentierende selbst zwischen ihnen um, oder Sie buchen unseren Techniker, der den Wechsel mit einem Kramer VP-731, einem Videoscaler mit 9 Eingängen, übernimmt, damit die Leinwand im Raum sauber von einer Quelle zur nächsten schaltet, ohne sichtbaren Aussetzer oder Neustart. Unser Ratgeber zur [Miete eines Videoumschalters](/blog/video-switcher-rental/) ist die vertiefte, technikorientierte Fassung dieses Abschnitts: das echte Gerät, was 9 Eingänge in der Praxis bedeuten und bei welchen Paketen es realistisch verfügbar ist.
+
+Um klarzustellen, was das nicht ist: Es ist ein Umschaltwerkzeug für Ihre Präsentation auf der Leinwand, keine Kamera und kein Aufnahme- oder Streamingsystem. Kameras, Filmaufnahmen und Live-Streaming gehören nicht zu unserem eigenen Bestand, und unser eigenes Team betreibt keine Übertragung. Wenn eine Kamera oder ein Stream für Ihre Veranstaltung wichtig ist, sagen Sie es früh, dann fragen wir nach, ob ein Anbieter für Ihren Termin sowohl die Technik als auch das Personal frei hat. Wenn Ihre Veranstaltung außerdem Simultanübersetzung oder ein interaktives Abstimmungssystem braucht, ist das keine Technik, die wir selbst vorrätig haben, aber wir koordinieren sie über einen beauftragten Partner. [Kontaktieren Sie uns](/contact/), wenn eines von beidem auf Ihre Veranstaltung zutrifft.
+
+## Betreuung bei mehrtägigen Veranstaltungen
+
+Der technische Support fängt bei einer mehrtägigen Buchung nicht jeden Morgen neu an. Bei einem zweitägigen Firmenprojekt für die Agentur Bmotion in Benahavis überwachten unsere Techniker an beiden Tagen durchgehend Tonfrequenzen und Videoeingänge von einem fortschrittlichen Kontrollpult aus und hielten die Quellenumschaltung nahtlos und latenzfrei, vom ersten Eröffnungswort bis zum Schlussapplaus am zweiten Tag. Den vollständigen Bericht lesen Sie in unserer Meldung zum [technischen Support für Bmotion in Benahavis](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/).
+
+## Betreuung vor Ort, die wir tatsächlich geliefert haben
+
+![Ein gepflasterter Innenhof mit zwei Treppen und einer Eventkulisse, mit Lichterketten zwischen Palmen in der Dämmerung, für die Veranstaltung von Bmotion in Benahavis.](https://cdn.malagaeventgear.com/blog/3093/2026.05.22-23-Bmotion-Benahavis-1-576x1024.webp "Der Innenhof des Veranstaltungsortes, vorbereitet für die Firmenveranstaltung von Bmotion in Benahavis, Provinz Malaga, Spanien.")
+
+Der Innenhof des Veranstaltungsortes, vorbereitet für die Firmenveranstaltung von Bmotion in Benahavis, Provinz Malaga, Spanien, die oben beschriebene zweitägige Veranstaltung.
+
+<blockquote>
+<p lang="en">"We recently used Málaga Event Gear for our End of Season Party, and the service was outstanding. The sound and equipment were top quality, and we had a dedicated technician on-site the entire time to assist with everything we needed. Fantastic experience. Highly recommended."</p>
+<ul><li>Anna Wisser, Google-Bewertung mit 5 Sternen, Dezember 2025</li></ul>
+</blockquote>
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1284/', '/3093/'])} speed="normal" direction="left" />
+</div>
+
+## So buchen Sie technischen Support für Ihre Veranstaltung
+
+Wählen Sie das [Wedding Pack](/packages/wedding/) oder das [MICE Pack](/packages/mice/), wenn Sie durchgehende Betreuung vor Ort inklusive möchten, oder fügen Sie Ihrem Angebot für das [Basic MICE Pack](/packages/basic-mice/) die Technikeroption hinzu. [Kontaktieren Sie uns](/contact/) mit Veranstaltungsdatum, Gästezahl, Veranstaltungsort und der Angabe, ob Ihre Veranstaltung länger als einen Tag dauert, damit wir die Betreuung durch unser Team vor Ihrer Buchung bestätigen können.
+
+## Fazit
+
+Technischer Support für Veranstaltungen ist bei Malaga Event Gear Arbeit in Phasen und kein einzelner Posten: Kalibrierung, bevor Ihre Gäste eintreffen, Live-Überwachung, während Ihre Veranstaltung läuft, echte Fehlerbehebung an benannter Technik, wenn etwas schiefgeht, und Abbau, sobald sie endet. [Kontaktieren Sie uns](/contact/), um die Betreuung für Ihren Termin zu bestätigen, oder lesen Sie auf der [Seite zur AV-Vermietung](/blog/audio-visual-rental/) nach, welche Technik dahintersteht.
+
+## Häufige Fragen
+
+### Was passiert bei meiner Veranstaltung? Eine kurze Checkliste zur Betreuung
+
+Kalibrierung und Tests, bevor Ihre Gäste eintreffen, Live-Überwachung von Gain und Signal, während Ihre Veranstaltung läuft, Fehlerbehebung auf der Stelle, wenn ein Mikrofon oder ein Beamer ausfällt, und Abbau, sobald Ihre Veranstaltung endet. Die vollständige Übersicht Phase für Phase steht oben unter [Was bei Ihrer Veranstaltung tatsächlich passiert](#was-bei-ihrer-veranstaltung-tatsächlich-passiert-phase-für-phase).
+
+### Ist technischer Support für Veranstaltungen dasselbe wie die Miete eines AV-Technikers?
+
+Beides betrifft dasselbe Team, aus zwei verschiedenen Blickwinkeln. Unser Ratgeber zum [AV-Techniker mieten](/blog/av-technician-hire/) behandelt die Miete der Person: welches Paket einen enthält, welches ihn extra berechnet und wie viele Stunden. Diese Seite behandelt, was diese Person vor Ort tatsächlich tut, sobald Ihre Veranstaltung beginnt.
+
+### Was passiert, wenn bei einem Mikrofon die Verbindung abbricht oder ein Beamer mitten in der Präsentation die Synchronisation verliert?
+
+Unser Techniker behebt es im Moment, mit der konkreten Technik, die wir mitbringen: einem Kanal- oder Batteriewechsel bei einem Audix Funkmikrofon oder einer neuen Synchronisation auf die richtige Kombination aus Vivitek oder Christie Beamer und Leinwand. Siehe oben [Echte Technik, echte Fehlerbehebung](#echte-technik-echte-fehlerbehebung-was-unsere-techniker-tatsächlich-beheben).
+
+### Bieten Sie technischen Support für mehrtägige Veranstaltungen an?
+
+Ja. Bei einem zweitägigen Firmenprojekt für Bmotion in Benahavis überwachten unsere Techniker an beiden Tagen Ton und Video durchgehend von einem Kontrollpult aus, statt jeden Morgen bei null neu zu kalibrieren. Siehe oben [Betreuung bei mehrtägigen Veranstaltungen](#betreuung-bei-mehrtägigen-veranstaltungen).
+
+### Wie viele Teammitglieder sind vor Ort, und wie schnell reagieren sie?
+
+Ein eigener Techniker ist für die Dauer, die Ihr Paket abdeckt, vor Ort und beobachtet die Signalkette von Ton und Bild direkt, statt erst gerufen zu werden, wenn ein Fehler bemerkt wurde. So wird eine abgebrochene Verbindung oder ein Licht, das ausgeht, sofort bemerkt und behoben.
+
+### Überwacht der Techniker die Veranstaltung aktiv oder steht er nur bereit?
+
+Er überwacht aktiv. Beim [Wedding Pack](/packages/wedding/) und beim [MICE Pack](/packages/mice/) beobachtet der Techniker die Pegel und die Videoeingänge durchgehend, solange er vor Ort ist (beim Wedding Pack während der gesamten Veranstaltung, beim MICE Pack für bis zu 6 Stunden am Stück). Er ist keine Bereitschaftspräsenz, die nur gerufen wird, wenn etwas sichtbar ausfällt.
+
+### Ist technischer Support vor Ort in meinem Paket enthalten oder eine separate Buchung?
+
+Das hängt vom Paket ab und ist keine Pauschalregel: Enthalten beim [Wedding Pack](/packages/wedding/) und beim [MICE Pack](/packages/mice/), als kostenpflichtiges Extra beim [Basic MICE Pack](/packages/basic-mice/) verfügbar und beim [Eco Pack](/packages/eco/) sowie beim [Product Presentation Pack](/packages/product-presentation/) nicht angeboten. Die vollständige Aufschlüsselung steht oben unter [Wie viel Betreuung vor Ort Sie tatsächlich bekommen](#wie-viel-betreuung-vor-ort-sie-tatsächlich-bekommen).
+
+### Was ist der Unterschied zwischen reiner Lieferung und voller Betreuung der Veranstaltung?
+
+Bei reiner Lieferung, also beim [Eco Pack](/packages/eco/), beim [Product Presentation Pack](/packages/product-presentation/) oder beim Basic MICE Pack ohne die Technikeroption, liefert unser Team die Technik, baut sie auf und testet sie und überlässt sie dann Ihnen, Ihrem DJ oder Ihrem Präsentierenden zur Bedienung. Volle Betreuung der Veranstaltung bedeutet, dass ein Techniker vor Ort bleibt und während der gesamten Dauer Ihrer Veranstaltung aktiv überwacht und Fehler behebt. Den vollständigen Lieferablauf in beiden Fällen finden Sie in unserem Ratgeber zu [So funktioniert die AV-Vermietung](/blog/how-audio-visual-rental-works/).
+
+### Bieten Sie technischen Support für Veranstaltungsorte im Freien an?
+
+Ja, in Malaga und an der gesamten Costa del Sol. Die Kalibrierung für einen Ort im Freien umfasst dieselben Signaltests wie in einem Innenraum, mit zusätzlicher Aufmerksamkeit für Wettereinflüsse und Verkabelung. Die konkreten Besonderheiten finden Sie in unserem Ratgeber zur [AV-Vermietung für Veranstaltungen im Freien](/blog/audio-visual-rental-for-outdoor-events/).
+
+### Kann Ihr Techniker während meiner Veranstaltung zwischen mehreren Präsentationsquellen umschalten?
+
+Nur, wenn Sie diese Leistung buchen. Standardmäßig schaltet der Präsentierende selbst zwischen den Quellen um (ein Laptop, ein zweiter Laptop, ein DVD-Player). Bei Paketen mit einer großen Leinwand und mehr als einer Präsentationsquelle können Sie stattdessen unseren Techniker den Wechsel mit einem Kramer VP-731 Videoscaler mit 9 Eingängen übernehmen lassen, der sauber zwischen den Quellen schaltet. Das ist ausschließlich ein Umschaltwerkzeug für Präsentationen, keine Kamera und kein Aufnahme- oder Streamingsystem. Siehe oben [Wechsel zwischen mehreren Präsentationsquellen](#wechsel-zwischen-mehreren-präsentationsquellen).
