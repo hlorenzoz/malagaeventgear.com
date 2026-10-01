@@ -1,12 +1,12 @@
 #!/usr/bin/env bun
 /**
- * post-touch.ts — Update the `updated` field in an existing .svx frontmatter
+ * post-touch.ts — Update the `updatedDate` field in an existing .svx frontmatter
  *
  * Usage:
  *   bun scripts/post-touch.ts <slug>
  *   bun scripts/post-touch.ts mi-post-slug
  *
- * Sets (or inserts) the `updated: "YYYY-MM-DD"` field in the YAML frontmatter
+ * Sets (or inserts) the `updatedDate: "YYYY-MM-DD"` field in the YAML frontmatter
  * of src/content/blog/<slug>.svx, reflecting today's date.
  *
  * Safe: only modifies the frontmatter block — body content is preserved exactly.
@@ -34,7 +34,7 @@ function todayISO(): string {
 // ---------------------------------------------------------------------------
 
 /**
- * Parses a .svx file and updates (or inserts) the `updated` YAML field.
+ * Parses a .svx file and updates (or inserts) the `updatedDate` YAML field.
  * Returns the modified file content.
  */
 export function setUpdatedField(content: string, date: string): string {

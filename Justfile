@@ -4,7 +4,7 @@
 dev:
     bun run dev
 
-# Compila el sitio para producción optimizado para Cloudflare Pages
+# Compila el sitio para producción optimizado para Cloudflare Workers (adapter-cloudflare)
 build:
     bun run build
 
@@ -339,7 +339,7 @@ content-plan:
     claude -p --agents "$(bun scripts/keywords/agent-json.ts content-strategist)" --agent content-strategist --model sonnet --setting-sources "" --mcp-config '{"mcpServers":{}}' --strict-mcp-config --permission-mode default --disallowedTools "Bash(git push:*),Bash(git reset:*),Bash(git checkout:*),Bash(git stash:*),Bash(git restore:*),Bash(rm:*)" --allowedTools "Read,Glob,Grep,Write(.agents/context/keywords/content-plan/**),Edit(.agents/context/keywords/content-plan/**),Bash(date:*),Bash(just content-candidates:*),Bash(just keywords-tier),Bash(just content-inventory:*),Bash(just content-plan-apply:*),Bash(just content-plan-commit:*),Bash(just todo-organize:*)" --max-budget-usd 4 --output-format json "Run today's content planning."
 
 # Corrida diaria con control (scripts/keywords/daily-guard.ts). launchd la dispara a las 09:30, al iniciar sesión y cada hora,
-# y el guard decide: corre solo lo que falta del día (investigación y plan, cada uno "hecho" si su archivo de hoy está commiteado),
+# y el guard decide: corre solo lo que falta del día (investigación, FAQs y plan, cada uno "hecho" si su archivo de hoy está commiteado; las etapas son independientes y `todo-organize` corre siempre),
 # nada antes de las 09:30, sin red, con otro run en curso (lock) o tras 3 intentos. Días perdidos = una sola corrida hoy.
 # `just keywords-daily --dry-run` muestra la decisión sin correr nada. `--force` ignora hora y "hecho", para corridas manuales.
 keywords-daily *args:

@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (docs): `README.md` documenta todas las recetas `just` y los agentes (2026-10-01)
+- Seccion nueva "Comandos just" con 7 grupos (desarrollo y calidad, blog y traducciones, keywords y plan de contenido, tareas, implementador bajo demanda, base de datos y deploy, que corre solo y que corro yo), una tabla `comando | que hace | ejemplo` por grupo, el flujo de punta a punta para crear o actualizar un post y traducirlo a los 12 idiomas, y una guia de solucion de problemas (lock, hora, red, intentos, tarea bloqueada, `NEEDS BUILD`).
+- Seccion nueva "Agentes" con los 7 agentes del proyecto (rol, quien los lanza, herramientas) y la nota de que el bloque "Instrucciones para agentes globales" de `CLAUDE.md` manda sobre los agentes SEO globales.
+- Se corrige lo desactualizado: `bun run check` ya no se describe como "svelte-check + tsc" (es `wrangler types` + `svelte-kit sync` + `svelte-check`), se saca el emoji y las rayas del titulo y de las guias (regla 12) y se aclara que la corrida de punta a punta de `todo-implement` todavia no se ejercito con una tarea real.
+- Sin cambios de codigo ni de recetas. Inconsistencias encontradas y NO corregidas (fuera del alcance de este cambio): el comentario del `Justfile` de `keywords-daily` omite las FAQs y `organize`, el de `secrets` omite `INDEXNOW_KEY`, el de `build` dice "Cloudflare Pages", `scripts/post-touch.ts` documenta el campo `updated` en su cabecera pero escribe `updatedDate`, `post-images` aun emite un bloque `<picture>` para pegar a mano (la regla 4 de "Reglas del body" pide markdown simple) y `just format` corre Prettier sin configuracion en la raiz.
+
 ### Added (agents): `todo-implementer`, implementacion bajo demanda de las tareas de contenido de TODO.json
 - **Decision del usuario (2026-10-01)**: las tareas abiertas de `.agents/data/TODO.json` se implementan por prioridad, de punta a punta, SOLO bajo demanda (`just todo-implement`). La cadena diaria (`keywords-daily`) no cambia.
 - `just todo-next [--task #Tnnnn] [--max N]` (`scripts/todo/next-task.ts`, 21 tests, strict TDD): elige la proxima tarea `pendiente` de tipo `contenido` con titulo generado por el content-strategist (seccion H2/H3 o pregunta FAQ), resuelve su item del plan y devuelve `{ next, queue, skipped }`. Los `Post nuevo` (necesitan portada en R2) y las tareas escritas a mano salen en `skipped`. No escribe nada.
