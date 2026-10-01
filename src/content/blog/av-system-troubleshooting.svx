@@ -4,7 +4,7 @@ description: "AV system troubleshooting in Malaga, Spain, for self run packages:
 author: Hector Luis Lorenzo
 slug: av-system-troubleshooting
 publishDate: "2026-08-01"
-updatedDate: "2026-09-26"
+updatedDate: "2026-10-01"
 excerpt: "What to check yourself if a self run AV package stops working mid event: the Eco Pack, Product Presentation Pack and Basic MICE Pack without the technician add on, checked package by package."
 coverImage: https://cdn.malagaeventgear.com/blog/1277/high_care_hospital_marbella_conference_setup_1-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
@@ -93,7 +93,7 @@ If none of that matches your package, our [AV technician hire](/blog/av-technici
 
 We do not offer a self collection or drop off option on any package. Every booking, including these three, arrives with our own crew, who deliver, install and test the equipment before they leave, confirming speakers are powered, the microphone is live, and a screen or projector is synced if your package includes one.
 
-That matters for how you troubleshoot. If something is not working now, it worked when our crew left, so the honest first question is what has changed since then, not what might be broken. In practice that is almost always one of a small number of things: a cable that got knocked loose moving a table or a stand, a gain or volume control nudged by someone leaning on the console, a battery that has run down on a wireless handheld, or an input selected that does not match whichever laptop or device is actually connected right now.
+That matters for how you troubleshoot. If something is not working now, it worked when our crew left, so the honest first question is what has changed since then, not what might be broken. The usual suspects are a cable that got knocked loose moving a table or a stand, a gain or volume control nudged by someone leaning on the console, a battery that has run down on a wireless handheld, or an input selected that does not match whichever laptop or device is actually connected right now.
 
 For what that initial setup actually involves, gain staging and speaker placement adjusted to your specific venue rather than a fixed setting, see our [audio system calibration](/blog/audio-system-calibration/) guide. This page picks up from there: what to check if something changes after our crew leaves, not how it got calibrated to begin with.
 
@@ -123,11 +123,11 @@ The Eco Pack is the simplest of the three, and that simplicity means fewer thing
 
 This is the package with the most to check, because it is the only one of the three with both a mixing console and a wireless microphone.
 
--   Check the mixing console for a channel that has been muted or a gain fader nudged down, most commonly from someone leaning on the desk or a bag set down on it.
+-   Check the mixing console for a channel that has been muted or a gain fader nudged down, for example from someone leaning on the desk or a bag set down on it.
 -   Check that the input channel selected on the console matches the laptop or device actually connected right now, especially if more than one person has plugged in during the event.
--   Check the wireless handheld microphone's battery level and confirm it is set to the same channel as its receiver. A dropped connection is most often one of those two things, not a fault with the unit itself.
+-   Check the wireless handheld microphone's battery level and confirm it is set to the same channel as its receiver. Those are the first two things to rule out before suspecting the unit itself.
 -   Check the projector's input source selection (HDMI or the port in use) against the connected laptop, and confirm the screen is showing the same resolution the projector expects.
--   Check that every cable, HDMI, XLR and speaker, is still seated at both ends. This is the single most common cause across all three packages.
+-   Check that every cable, HDMI, XLR and speaker, is still seated at both ends. Loose cables are the first thing to rule out on all three packages.
 
 ### Basic MICE Pack Without the Technician Add On
 
@@ -155,9 +155,9 @@ The checks themselves are the same, cables, gain, battery, input selection, but 
 
 ## Real Setups We've Delivered
 
-![Projector, screen and speaker setup on a red draped stage in Coin, Malaga province, delivered and tested ahead of the PROCURE panel event.](https://cdn.malagaeventgear.com/blog/1307/lighting-sound-big-screen-projector-rental-malaga_4-1024x765.webp)
+![An HK Audio speaker on a stand beside a red draped panel table, with a projection screen behind it, at a talk of the PROCURE heritage association in a historic hall in Coin, Malaga province.](https://cdn.malagaeventgear.com/blog/1307/lighting-sound-big-screen-projector-rental-malaga_4-1024x765.webp)
 
-A projector, screen and PA speaker delivered and calibrated ahead of a community presentation in Coin, on the Costa del Sol. Once our crew leaves, this is exactly the kind of setup a self run booking is checking against, not troubleshooting a fault from a cold start.
+Sound and a projection screen for a PROCURE talk in Coin, Malaga province. Once our crew leaves, this is the kind of setup a self run booking checks against, not a fault to troubleshoot from a cold start.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1277/', '/1307/'])} speed="normal" direction="left" />
@@ -183,7 +183,7 @@ It depends on which package you have, since the three self run packages carry di
 
 ### Why did my wireless microphone cut out, and what can I do about it during the event?
 
-This applies specifically to the [Product Presentation Pack](/packages/product-presentation/), the only one of the three self run packages with a wireless microphone. Check the battery level first, then confirm it is set to the same channel as its receiver, most drops come from one of those two things rather than the unit itself. The [Eco Pack](/packages/eco/) has a wired dynamic microphone and the [Basic MICE Pack](/packages/basic-mice/)'s gooseneck microphone is wired to the podium, so neither one has this issue.
+This applies specifically to the [Product Presentation Pack](/packages/product-presentation/), the only one of the three self run packages with a wireless microphone. Check the battery level first, then confirm it is set to the same channel as its receiver, those are the first two things to rule out before suspecting the unit itself. The [Eco Pack](/packages/eco/) has a wired dynamic microphone and the [Basic MICE Pack](/packages/basic-mice/)'s gooseneck microphone is wired to the podium, so neither one has this issue.
 
 ### My projector isn't syncing to the screen, what do I check first?
 

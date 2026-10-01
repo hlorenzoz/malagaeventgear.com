@@ -1626,7 +1626,7 @@
     },
     {
       "question": "Why did my wireless microphone cut out, and what can I do about it during the event?",
-      "answer": "This applies specifically to the Product Presentation Pack, the only one of the three self run packages with a wireless microphone. Check the battery level first, then confirm it is set to the same channel as its receiver, most drops come from one of those two things rather than the unit itself. The Eco Pack has a wired dynamic microphone and the Basic MICE Pack's gooseneck microphone is wired to the podium, so neither one has this issue."
+      "answer": "This applies specifically to the Product Presentation Pack, the only one of the three self run packages with a wireless microphone. Check the battery level first, then confirm it is set to the same channel as its receiver, those are the first two things to rule out before suspecting the unit itself. The Eco Pack has a wired dynamic microphone and the Basic MICE Pack's gooseneck microphone is wired to the podium, so neither one has this issue."
     },
     {
       "question": "My projector isn't syncing to the screen, what do I check first?",
