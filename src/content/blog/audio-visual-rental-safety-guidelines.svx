@@ -4,7 +4,7 @@ description: "Audio visual rental safety guidelines in Malaga, Spain: technician
 author: Hector Luis Lorenzo
 slug: audio-visual-rental-safety-guidelines
 publishDate: "2026-08-05"
-updatedDate: "2026-09-27"
+updatedDate: "2026-10-01"
 excerpt: "The honest AV specific version of safety guidelines: who is on site to react, how our crew places speaker and microphone stands, how we think about electrical load, and the one thing our own crew genuinely does not do, overhead rigging."
 coverImage: https://cdn.malagaeventgear.com/blog/1288/malaga_congress_av_rental_setup-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
@@ -21,7 +21,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Searching for audio visual rental safety guidelines mostly turns up generic event planning checklists, tent securing, vendor vetting, weight capacity for structures, none of it specific to the AV equipment itself. What is missing almost everywhere, including from our own site until now, is the practical version: who is actually on site to react if something goes wrong, how a crew places a speaker or microphone stand so it does not become a hazard, and what a rental company honestly does and does not touch when it comes to overhead weight.
+Searching for audio visual rental safety guidelines mostly turns up generic event planning checklists, tent securing, vendor vetting, weight capacity for structures, none of it specific to the AV equipment itself. What is missing almost everywhere is the practical version: who is actually on site to react if something goes wrong, how a crew places a speaker or microphone stand so it does not become a hazard, and what a rental company honestly does and does not touch when it comes to overhead weight.
 
 This page is that practical version, built around how Malaga Event Gear actually delivers a booking, not a generic list. [Contact us](/contact/) with your venue details if you want us to walk through your specific layout before you book.
 
@@ -55,7 +55,7 @@ The honest answer to "what are your safety guidelines" is not a certification or
 
 ---
 
--   Our own crew does not build truss or fly speakers and lighting fixtures overhead. Speakers, microphones and lighting fixtures stand on their own floor tripods, confirmed against our own inventory. The one thing our crew strings up is the Wedding Pack's fairy lights, along a pergola or other structure at your venue.
+-   Our own crew does not build truss or fly speakers and lighting fixtures overhead. Speakers, microphones and lighting fixtures stand on their own floor tripods, confirmed against our own inventory. The one thing our crew strings up is the Wedding Pack's fairy lights, along a structure at your venue.
 -   A live technician, included on the [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/), can reposition a stand, tighten a connection or react to a guest bumping equipment during the event. The [Eco Pack](/packages/eco/), [Basic MICE Pack](/packages/basic-mice/) and [Product Presentation Pack](/packages/product-presentation/) are self run after our crew installs and tests the system.
 -   Our own inventory carries speaker tripods, adjustable microphone stands and lighting tripods for every setup, and our crew places each one on level ground, out of primary walkways and away from doorways.
 -   We do not publish a wattage or amperage spec sheet for our equipment. Our practical guidance is to confirm venue power capacity ahead of time and spread the load across multiple circuits, the same honesty we apply to cable lengths and weatherproofing elsewhere on this site.
@@ -71,19 +71,19 @@ On the [Wedding Pack](/packages/wedding/) and [MICE Pack](/packages/mice/), a li
 
 ## Equipment Placement and Stand Stability
 
-The speakers, microphones and lighting fixtures we deliver go on floor stands, drawn from our own inventory of speaker tripods, adjustable microphone stands and lighting tripods, and our own crew does not fly them from a ceiling or a truss. The Wedding Pack's fairy lights are the exception to the stand: our crew strings them along a pergola, beams or another structure the venue already has. That makes placement the actual safety variable, and our crew works to the same basic habits on every booking:
+The speakers, microphones and lighting fixtures we deliver go on floor stands, drawn from our own inventory of speaker tripods, adjustable microphone stands and lighting tripods, and our own crew does not fly them from a ceiling or a truss. The Wedding Pack's fairy lights are the exception to the stand: our crew strings them along a structure the venue already has. That makes placement the actual safety variable, and our crew works to the same basic habits on every booking:
 
--   **Level ground first.** A tripod on an uneven terrace or a soft lawn patch is the most common real world stability risk, and our crew checks for it before setting a stand rather than after.
+-   **Level ground first.** A tripod on an uneven terrace or a soft lawn patch is a real stability risk, so level ground is the first thing to look for before setting a stand.
 -   **Out of primary walkways.** Stands go to the side of where guests will actually move, not across the natural line between a dance floor, a bar, or the exit.
 -   **Away from doorways.** A stand blocking a door is both a trip risk and a problem if the room needs to empty quickly.
 
-The photo further down this page, from a Volvo dealership presentation, shows this in practice: an HK Audio speaker on its own tripod, positioned to the side of the guest seating area rather than in front of it.
+The photo further down this page, from a Volvo dealership presentation, shows this in practice: an HK Audio speaker on its own tripod, placed to the side of the guest seating area rather than in front of it.
 
 ## Electrical Load and Circuit Safety
 
 We do not publish a wattage or amperage spec sheet for our sound, lighting and display equipment, the same honesty we apply elsewhere on this site to cable lengths and weatherproof ratings. What we can say in practice: a venue's own circuits, not our equipment, are usually the real constraint, and an overloaded single outlet carrying a speaker system, a lighting rig and a display screen at once is the actual risk, not a fault of the gear itself.
 
-Two things help avoid it. First, tell us your venue's power situation when you book, how many outlets are near the setup area and whether they share a circuit, so our crew can plan the load before arrival rather than improvising on site. Second, on packages with a technician included, that person can move a connection to a different circuit during the event if a breaker trips, something a self run [Eco Pack](/packages/eco/) or [Basic MICE Pack](/packages/basic-mice/) setup cannot do once our crew has left.
+Two things help avoid it. First, tell us your venue's power situation when you book, how many outlets are near the setup area and whether they share a circuit, so our crew can plan the load before arrival rather than improvising on site. Second, on packages with a technician included, that person is on site if a breaker trips or a connection fails during the event, which a self run [Eco Pack](/packages/eco/) or [Basic MICE Pack](/packages/basic-mice/) setup cannot offer once our crew has left.
 
 ## Guest Safety Around Equipment
 
@@ -97,13 +97,13 @@ Being honest about our safety approach means being direct about scope. Our own c
 
 If your event genuinely requires suspended equipment, tell us early, before you book rather than on site. We can look for a specialised rigging supplier, if we can find one, and the rigging itself would be their work, never our own crew's.
 
-In practice this covers the overwhelming majority of the weddings, corporate events and private parties we deliver across Malaga, Spain, and the Costa del Sol. It is also, in its own way, a safety simplification: our own crew has no flown load calculation to get wrong, because it does not fly a speaker or a lighting fixture above a guest's head.
+Floor stand setups fit the weddings, corporate events and private parties we deliver across Malaga, Spain, and the Costa del Sol. It is also, in its own way, a safety simplification: our own crew has no flown load calculation to get wrong, because it does not fly a speaker or a lighting fixture above a guest's head.
 
 ## Real Setups We've Delivered
 
-![An HK Audio speaker on its own floor tripod, positioned to the side of the guest stool seating at a Volvo dealership presentation in Malaga, out of the main walking path in front of the venue's branded panel table.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-1024x765.webp)
+![An HK Audio speaker on its own floor tripod at the side of the stool seating at a Volvo dealership presentation in Malaga, with the venue's branded panel table behind.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-1024x765.webp)
 
-A Volvo dealership presentation where Malaga Event Gear supplied the sound system: the speaker stand sits to the side of the seating area rather than in front of it, out of the main walking path between the entrance and the seating.
+A Volvo dealership presentation where Malaga Event Gear supplied the sound system: a speaker on its own tripod sits to the side of the seating area rather than in front of it.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1267/'])} speed="normal" direction="left" />
@@ -115,7 +115,7 @@ A Volvo dealership presentation where Malaga Event Gear supplied the sound syste
 
 ## How Far in Advance to Book
 
-Every booking, and every change to one, needs at least 24 hours' notice. That window matters for safety planning too: telling us your venue's layout, power situation and expected guest flow ahead of time lets our crew plan stand placement and electrical load before arrival, rather than working it out on site while guests are already present. If your event has an unusual layout, multiple levels, or a venue you are not fully familiar with yourself, tell us as early as you can.
+Every booking needs at least 24 hours' notice. That window matters for safety planning too: telling us your venue's layout, power situation and expected guest flow ahead of time lets our crew plan stand placement and electrical load before arrival, rather than working it out on site while guests are already present. If your event has an unusual layout, multiple levels, or a venue you are not fully familiar with yourself, tell us as early as you can.
 
 ## Conclusion
 
