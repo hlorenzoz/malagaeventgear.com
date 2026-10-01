@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Added (blog): los 77 posts publicados estan traducidos a los 12 idiomas (2026-10-01)
+- Cierra el backlog de traducciones: `just content-candidates` informa `missing: 0, complete: true` (77 posts ingleses, 12 idiomas). El cupo de posts nuevos pasa a alternar 1 y 2 por dia y las tareas bloqueadas por traducciones se destraban solas en el proximo `just todo-organize`.
+- Ultimos 5 posts traducidos, cada uno precedido de una revision del ingles: `audio-visual-rental-for-private-parties`, `av-system-troubleshooting`, `7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain`, `news-malaga-event-gear-unveils-new-rebranded-website`, `what-renting-av-gear-in-malaga-taught-me-about-smart-business`.
+- Correcciones al ingles hechas antes de traducir (todas con `updatedDate` y las 12 traducciones alineadas): resena de Carlos Goettsch citada en su espanol original; el sitio NO es "solo en ingles" (se atiende en ingles y espanol); un tecnico solo es opcion en el Basic MICE Pack; el sitio pide disponibilidad por formulario, no cierra reservas online; se quitaron afirmaciones de mercado ("la mayoria de los sitios de alquiler"), "leading", "partnered with the local government", la foto 1295 (focos moviles que MEG no tiene) y captions que las fotos no respaldan.
+- Etapa siguiente (decision del usuario): correccion de las traducciones, con revision nativa por muestreo.
+
 ### Changed (agents): la ejecucion automatica diaria empieza a las 09:30
 - **Decision del usuario (2026-09-30)**: los agentes (investigacion de Ubersuggest, FAQs y plan de contenido) arrancan a las 09:30 locales, no a las 09:00.
 - `launchd`: `StartCalendarInterval` pasa a `Hour 9, Minute 30` en la plantilla, y el job instalado se reinstalo (`launchctl bootout` y `just keywords-schedule-install`). `RunAtLoad` y `StartInterval` de 3600 s no cambian.
