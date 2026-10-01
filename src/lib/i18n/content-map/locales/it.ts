@@ -303,6 +303,11 @@ export default {
 			keyword: 'supporto tecnico Bmotion a Marbella',
 			status: 'propuesta'
 		},
+		'news-malaga-event-gear-unveils-new-rebranded-website': {
+			slug: 'nuovo-sito-malaga-event-gear',
+			keyword: 'nuovo sito di Malaga Event Gear',
+			status: 'propuesta'
+		},
 		'7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain': {
 			slug: 'riunione-neighborhood-council-malaga',
 			keyword: 'riunione comunitaria del Neighborhood Council a Malaga',

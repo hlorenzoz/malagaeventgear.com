@@ -287,6 +287,11 @@ export default {
 			keyword: '马贝拉Bmotion技术支持',
 			status: 'propuesta'
 		},
+		'news-malaga-event-gear-unveils-new-rebranded-website': {
+			slug: '品牌焕新网站上线',
+			keyword: 'Malaga Event Gear全新网站',
+			status: 'propuesta'
+		},
 		'7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain': {
 			slug: '社区会议音响支持',
 			keyword: '马拉加Neighborhood Council社区会议',
