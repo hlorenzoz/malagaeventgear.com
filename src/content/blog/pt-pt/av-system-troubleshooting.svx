@@ -1,0 +1,205 @@
+---
+title: "Resolução de problemas em sistemas audiovisuais em Málaga"
+description: "Resolução de problemas em sistemas audiovisuais em Málaga, Espanha, em autogestão: Eco Pack, Product Presentation Pack e Basic MICE Pack, antes de nos ligar."
+excerpt: "Resolução de problemas em sistemas audiovisuais em Málaga: o que verificar por si se um pacote em autogestão deixar de funcionar a meio do evento, pacote a pacote, para o Eco Pack, o Product Presentation Pack e o Basic MICE Pack sem a opção de técnico."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Quem pesquisa em inglês "AV system troubleshooting" costuma partir do princípio de que um técnico já resolveu o problema, ou de que se trata de um sistema de escritório instalado de forma permanente e que lhe pertence. Nenhum dos dois casos descreve a situação a que se destina este guia de resolução de problemas em sistemas audiovisuais em Málaga, Espanha: alugou um dos nossos pacotes, não há nenhum técnico no local e algo deixou de funcionar como estava quando a nossa equipa saiu.
+
+Os nossos guias de apoio técnico para eventos e de [aluguer de um técnico audiovisual](/blog/av-technician-hire/) já tratam o outro cenário em profundidade: o que a nossa equipa faz quando um técnico faz parte da sua reserva. Esta página destina-se especificamente aos pacotes em que ninguém vigia os níveis por si: o [Eco Pack](/packages/eco/), o [Product Presentation Pack](/packages/product-presentation/) e o [Basic MICE Pack](/packages/basic-mice/) se não tiver acrescentado a opção de técnico. O que verificar por si, pacote a pacote, antes de assumir que algo está realmente avariado.
+
+[Reserve já](/packages/) e confirme qual dos nossos pacotes lhe confia a gestão do equipamento.
+
+## Índice
+
+-   [Resumo](#resumo)
+-   [Pontos principais](#pontos-principais)
+-   [Gerir o seu próprio equipamento: que pacotes são em autogestão](#gerir-o-seu-próprio-equipamento-que-pacotes-são-em-autogestão)
+-   [Antes de resolver o problema: o que já tinha acontecido antes de começar](#antes-de-resolver-o-problema-o-que-já-tinha-acontecido-antes-de-começar)
+-   [Verificação por pacote: por onde começar](#verificação-por-pacote-por-onde-começar)
+-   [Microfonia ou zumbido nas colunas](#microfonia-ou-zumbido-nas-colunas)
+-   [A quem ligar quando o problema vai além de uma verificação rápida](#a-quem-ligar-quando-o-problema-vai-além-de-uma-verificação-rápida)
+-   [Prefere um técnico a resolver o problema por si?](#prefere-um-técnico-a-resolver-o-problema-por-si)
+-   [A resolução de problemas é diferente ao ar livre?](#a-resolução-de-problemas-é-diferente-ao-ar-livre)
+-   [Montagens reais que já entregámos](#montagens-reais-que-já-entregámos)
+-   [Com que antecedência reservar](#com-que-antecedência-reservar)
+-   [Conclusão](#conclusão)
+-   [Perguntas frequentes](#perguntas-frequentes)
+    -   [Que pacotes incluem um técnico que trata da resolução de problemas por mim, e quais não incluem?](#que-pacotes-incluem-um-técnico-que-trata-da-resolução-de-problemas-por-mim-e-quais-não-incluem)
+    -   [Se estiver a gerir o meu próprio equipamento, o que devo verificar se algo deixar de funcionar?](#se-estiver-a-gerir-o-meu-próprio-equipamento-o-que-devo-verificar-se-algo-deixar-de-funcionar)
+    -   [Porque é que o meu microfone sem fios falhou e o que posso fazer durante o evento?](#porque-é-que-o-meu-microfone-sem-fios-falhou-e-o-que-posso-fazer-durante-o-evento)
+    -   [O meu projetor não sincroniza com o ecrã, o que verifico primeiro?](#o-meu-projetor-não-sincroniza-com-o-ecrã-o-que-verifico-primeiro)
+    -   [Porque é que há microfonia ou um zumbido nas colunas?](#porque-é-que-há-microfonia-ou-um-zumbido-nas-colunas)
+    -   [A quem ligo se o equipamento deixar de funcionar durante o meu evento?](#a-quem-ligo-se-o-equipamento-deixar-de-funcionar-durante-o-meu-evento)
+    -   [A Malaga Event Gear limita-se a alugar o equipamento e a ir-se embora, ou há ajuda disponível se algo correr mal mais tarde?](#a-malaga-event-gear-limita-se-a-alugar-o-equipamento-e-a-ir-se-embora-ou-há-ajuda-disponível-se-algo-correr-mal-mais-tarde)
+    -   [Posso acrescentar um técnico a meio da reserva se decidir que não quero resolver eu próprio os problemas do equipamento?](#posso-acrescentar-um-técnico-a-meio-da-reserva-se-decidir-que-não-quero-resolver-eu-próprio-os-problemas-do-equipamento)
+    -   [A resolução de problemas é diferente nos eventos ao ar livre?](#a-resolução-de-problemas-é-diferente-nos-eventos-ao-ar-livre)
+    -   [Qual é a diferença entre um técnico resolver um problema e eu resolvê-lo por mim?](#qual-é-a-diferença-entre-um-técnico-resolver-um-problema-e-eu-resolvê-lo-por-mim)
+
+## Resumo
+
+---
+
+Três pacotes da Malaga Event Gear entregam-lhe a gestão do seu próprio equipamento, sem um técnico a vigiar os níveis: o [Eco Pack](/packages/eco/), o [Product Presentation Pack](/packages/product-presentation/) e o [Basic MICE Pack](/packages/basic-mice/) se dispensar a sua opção de técnico. Cada um tem equipamento diferente, por isso o que verifica quando algo deixa de funcionar também é diferente: não existe uma única lista genérica.
+
+Este guia percorre o que a nossa equipa já tinha testado antes de sair, o que ver primeiro em cada um desses três pacotes e a quem ligar se uma verificação rápida não resolver. [Contacte-nos](/contact/) se tiver dúvidas sobre o pacote em que a sua reserva se enquadra.
+
+## Pontos principais
+
+---
+
+-   Três pacotes são realmente em autogestão: o [Eco Pack](/packages/eco/) e o [Product Presentation Pack](/packages/product-presentation/) não têm qualquer opção de técnico, e o [Basic MICE Pack](/packages/basic-mice/) só tem um se pagar a opção.
+
+-   A entrega é sempre feita por nós: a nossa equipa transporta, instala, calibra e testa todas as reservas, incluindo estas três, antes de sair do seu local. A pergunta de partida honesta é o que mudou desde a entrega, e não o que estava avariado desde o início.
+
+-   A verificação que importa depende do que o seu pacote realmente tem. O [Eco Pack](/packages/eco/) não tem mesa de mistura nem microfone sem fios, por isso a resolução de problemas de qualquer um dos dois não se aplica a ele.
+
+-   Um microfone sem fios só existe no [Product Presentation Pack](/packages/product-presentation/). O microfone de pescoço de ganso do [Basic MICE Pack](/packages/basic-mice/) está ligado por cabo ao púlpito, por isso não há bateria nem canal para verificar.
+
+-   Estamos disponíveis 24 horas por dia, 7 dias por semana, para montagens técnicas e monitorização de eventos ao vivo, por isso uma chamada é sempre possível depois de ter verificado o óbvio.
+
+## Gerir o seu próprio equipamento: que pacotes são em autogestão
+
+Nem todos os pacotes colocam um técnico no local, e a divisão está longe de ser equilibrada. Olhando para todo o nosso catálogo: o [Wedding Pack](/packages/wedding/) inclui um técnico durante todo o evento, e o [MICE Pack](/packages/mice/) inclui um até 6 horas seguidas. Nenhum dos dois é o tema desta página. O nosso guia de apoio técnico para eventos explica o que esse técnico faz realmente, fase a fase, se algum dos dois corresponder à sua reserva.
+
+Esta página trata antes os outros três pacotes:
+
+-   **[Eco Pack](/packages/eco/).** Nenhuma opção de técnico, nem sequer como extra pago. Pensado como um sistema PA de autogestão para um DJ ou anfitrião que controla os seus próprios níveis.
+-   **[Product Presentation Pack](/packages/product-presentation/).** Também sem opção de técnico. Pensado para uma apresentação empresarial, uma apresentação num concessionário ou um lançamento de produto conduzidos por quem apresenta.
+-   **[Basic MICE Pack](/packages/basic-mice/).** Está disponível um técnico, mas apenas como extra pago a 240 euros por dia. Se não o acrescentou, a sua reserva é em autogestão por defeito.
+
+Se nada disto corresponder ao seu pacote, o nosso guia de [aluguer de um técnico audiovisual](/blog/av-technician-hire/) tem a divisão completa do técnico por pacote.
+
+<InlineCTA />
+
+## Antes de resolver o problema: o que já tinha acontecido antes de começar
+
+Não oferecemos recolha nem devolução por conta própria em nenhum pacote. Todas as reservas, incluindo estas três, chegam com a nossa própria equipa, que entrega, instala e testa o equipamento antes de sair, confirmando que as colunas têm alimentação, que o microfone está ativo e que um ecrã ou projetor está sincronizado se o seu pacote incluir um.
+
+Isto é importante para a forma como resolve o problema. Se agora algo não funciona, funcionava quando a nossa equipa saiu, por isso a primeira pergunta honesta é o que mudou desde então, e não o que poderá estar avariado. Os suspeitos habituais são um cabo que se soltou ao mover uma mesa ou um suporte, um controlo de ganho ou de volume mexido por alguém que se encostou à mesa de mistura, uma bateria esgotada num microfone de mão sem fios, ou uma entrada selecionada que não corresponde ao portátil ou dispositivo que está realmente ligado neste momento.
+
+Para saber o que essa montagem inicial envolve, ajuste do ganho e posicionamento das colunas adaptados ao seu local específico e não uma definição fixa, consulte o nosso guia de [calibração do sistema de som](/blog/audio-system-calibration/). Esta página retoma a partir daí: o que verificar se algo mudar depois de a nossa equipa sair, e não como foi calibrado no início.
+
+## Verificação por pacote: por onde começar
+
+O que verifica depende do que o seu pacote realmente inclui, uma vez que nenhum destes três pacotes tem o mesmo equipamento.
+
+| | [Eco Pack](/packages/eco/) | [Product Presentation Pack](/packages/product-presentation/) | [Basic MICE Pack](/packages/basic-mice/) (sem opção de técnico) |
+| --- | --- | --- | --- |
+| Colunas | 2 colunas ativas com suportes | 2 colunas através de uma mesa de mistura | Sistema básico de reforço sonoro |
+| Microfone | 1 microfone dinâmico com fio | 1 microfone de mão sem fios | 1 microfone de pescoço de ganso com fio (montado no púlpito) |
+| Mesa de mistura | Nenhuma | Sim | Nenhuma |
+| Projetor e ecrã | Não incluídos (extra, +50 euros) | Sim, projetor de 5000 lumens e ecrã | Sim, projetor de 3000 lumens e ecrã de 2x2 m |
+| Iluminação | 2 barras de luz LED RGBW | Nenhuma | Nenhuma |
+| Técnico | Não oferecido | Não oferecido | Extra opcional, +240 euros por dia |
+
+### Eco Pack: sem mesa de mistura, sem microfone sem fios
+
+O Eco Pack é o mais simples dos três, e essa simplicidade significa menos coisas para verificar. Neste pacote não há mesa de mistura nem microfone sem fios, por isso, se um resultado de pesquisa lhe disser para verificar o canal de um recetor sem fios, isso não se aplica aqui.
+
+-   Verifique se as duas colunas ativas continuam ligadas à corrente e se o cabo que vai do ponto de mistura a cada coluna está totalmente encaixado.
+-   Verifique o cabo XLR do microfone dinâmico com fio nas duas pontas, no próprio microfone e onde se liga.
+-   Verifique a alimentação e a ligação das barras de luz LED RGBW se for a iluminação que parece estranha e não o som.
+-   Se acrescentou o projetor opcional por +50 euros, a verificação da sua fonte de entrada funciona como na secção do Product Presentation Pack abaixo.
+
+### Product Presentation Pack: mesa de mistura, projetor e microfone sem fios
+
+Este é o pacote com mais coisas para verificar, porque é o único dos três com mesa de mistura e microfone sem fios.
+
+-   Verifique na mesa de mistura se algum canal foi silenciado ou se um fader de ganho foi baixado, por exemplo por alguém encostado à mesa ou por uma mala pousada em cima dela.
+-   Verifique se o canal de entrada selecionado na mesa de mistura corresponde ao portátil ou dispositivo que está realmente ligado neste momento, sobretudo se mais do que uma pessoa se ligou durante o evento.
+-   Verifique o nível da bateria do microfone de mão sem fios e confirme que está no mesmo canal do seu recetor. Estas são as duas primeiras coisas a excluir antes de suspeitar da própria unidade.
+-   Verifique a seleção da fonte de entrada do projetor (HDMI ou a porta em uso) em relação ao portátil ligado, e confirme que o ecrã mostra a mesma resolução que o projetor espera.
+-   Verifique se todos os cabos, HDMI, XLR e das colunas, continuam bem encaixados nas duas pontas. Os cabos soltos são a primeira coisa a excluir nos três pacotes.
+
+### Basic MICE Pack sem a opção de técnico
+
+Sem a opção, o Basic MICE Pack não tem mesa de mistura para verificar nem microfone sem fios, o seu microfone de pescoço de ganso está ligado diretamente ao púlpito.
+
+-   Verifique a fonte de entrada do projetor em relação ao portátil ligado, a mesma verificação do Product Presentation Pack acima.
+-   Verifique a ligação do cabo do microfone de pescoço de ganso na base do púlpito.
+-   Verifique se os cabos de alimentação e das colunas do sistema de reforço sonoro continuam bem encaixados, uma vez que não há fader de mesa de mistura com que isolar o problema.
+
+## Microfonia ou zumbido nas colunas
+
+Isto não é específico de nenhum pacote. A microfonia, o assobio crescente quando um microfone capta o seu próprio som amplificado, costuma significar que o microfone se aproximou de uma coluna ou está agora apontado para ela, por isso movê-lo ou virá-lo um pouco para o lado é a primeira coisa a tentar. Um zumbido constante aponta com mais frequência para um cabo que cruza um cabo de alimentação, ou para uma ligação solta numa das pontas, e vale a pena refazer o percurso do cabo e voltar a encaixar as duas pontas antes de assumir que algo está avariado.
+
+## A quem ligar quando o problema vai além de uma verificação rápida
+
+Verifique primeiro o óbvio: cabos, ganho, bateria, seleção da entrada. Se isso não resolver, estamos disponíveis 24 horas por dia, 7 dias por semana, para montagens técnicas e monitorização de eventos ao vivo, em todas as reservas, incluindo estes três pacotes em autogestão. [Contacte-nos](/contact/) ou ligue para o 666 346 911 se precisar de nós a meio do evento.
+
+## Prefere um técnico a resolver o problema por si?
+
+Se esta leitura o fizer desejar que outra pessoa tratasse do assunto, essa é uma opção real num destes três pacotes. O nosso guia de [aluguer de um técnico audiovisual](/blog/av-technician-hire/) explica a que pacote o pode acrescentar e quanto custa, e o nosso guia de apoio técnico para eventos explica o que esse técnico faz realmente no local. O [Basic MICE Pack](/packages/basic-mice/) pode acrescentar um por 240 euros por dia. O [Eco Pack](/packages/eco/) e o [Product Presentation Pack](/packages/product-presentation/) não oferecem um a nenhum preço, por isso, se um técnico for um requisito indispensável para o seu evento, o [Wedding Pack](/packages/wedding/) ou o [MICE Pack](/packages/mice/) são os pacotes que incluem um de série. E se ainda não reservou, o nosso guia de [aconselhamento sobre aluguer de audiovisuais](/blog/av-equipment-consultations/) explica como associar o seu evento ao pacote certo antes de chegar a esta página.
+
+## A resolução de problemas é diferente ao ar livre?
+
+As verificações são as mesmas, cabos, ganho, bateria, seleção da entrada, mas uma reserva ao ar livre acrescenta a exposição dos cabos e o vento à lista do que pode soltar uma ligação. Consulte o nosso guia de [aluguer de audiovisuais para eventos ao ar livre](/blog/audio-visual-rental-for-outdoor-events/) para ver como planeamos o percurso dos cabos e a colocação dos suportes ao ar livre, antes mesmo de o seu evento começar.
+
+## Montagens reais que já entregámos
+
+![Uma coluna HK Audio num suporte junto a uma mesa de painel forrada a vermelho, com um ecrã de projeção atrás, numa palestra da associação de património PROCURE numa sala histórica em Coín, província de Málaga.](https://cdn.malagaeventgear.com/blog/1307/lighting-sound-big-screen-projector-rental-malaga_4-1024x765.webp "O palco e o ecrã da PROCURE equipados pela Malaga Event Gear em Coín, província de Málaga.")
+
+Som e um ecrã de projeção para uma palestra da PROCURE em Coín, província de Málaga. Depois de a nossa equipa sair, este é o tipo de montagem com que uma reserva em autogestão se confronta, e não uma avaria a resolver a partir do zero.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1277/', '/1307/'])} speed="normal" direction="left" />
+</div>
+
+## Com que antecedência reservar
+
+Todas as nossas reservas exigem pelo menos 24 horas de antecedência, incluindo os pacotes em autogestão. Se a leitura deste guia o levar a preferir acrescentar um técnico ao [Basic MICE Pack](/packages/basic-mice/), diga-nos no momento da reserva e não na véspera, uma vez que a opção tem de ser agendada tal como o próprio equipamento. A procura por pacotes com técnico atinge o pico na época de casamentos, de abril a outubro, por isso confirmar cedo conta sobretudo para o [Wedding Pack](/packages/wedding/).
+
+## Conclusão
+
+A resolução de problemas em sistemas audiovisuais em Málaga num pacote da Malaga Event Gear em autogestão parte de um facto honesto: funcionava quando a nossa equipa saiu, porque entregamos, instalamos e testamos tudo antes de sair, mesmo no [Eco Pack](/packages/eco/), no [Product Presentation Pack](/packages/product-presentation/) e no [Basic MICE Pack](/packages/basic-mice/) sem a opção. O que verificar depende do que o seu pacote realmente tem: uma mesa de mistura e um microfone sem fios num, um microfone de púlpito com fio e um projetor noutro, e cabos nos três. [Contacte-nos](/contact/) se uma verificação rápida não resolver, estamos disponíveis a qualquer hora. Para a versão gerida por um técnico, veja os nossos guias de apoio técnico para eventos e de [aluguer de um técnico audiovisual](/blog/av-technician-hire/), ou, para a nossa gama completa de equipamento, a [página de aluguer de audiovisuais em Málaga](/blog/audio-visual-rental/).
+
+## Perguntas frequentes
+
+### Que pacotes incluem um técnico que trata da resolução de problemas por mim, e quais não incluem?
+
+O [Wedding Pack](/packages/wedding/) e o [MICE Pack](/packages/mice/) incluem um de série. O [Basic MICE Pack](/packages/basic-mice/) oferece um como extra pago a 240 euros por dia. O [Eco Pack](/packages/eco/) e o [Product Presentation Pack](/packages/product-presentation/) não oferecem nenhum, a nenhum preço. Veja acima [Gerir o seu próprio equipamento](#gerir-o-seu-próprio-equipamento-que-pacotes-são-em-autogestão).
+
+### Se estiver a gerir o meu próprio equipamento, o que devo verificar se algo deixar de funcionar?
+
+Depende do pacote, uma vez que os três pacotes em autogestão têm equipamento diferente. O encaixe dos cabos aplica-se aos três. Uma mesa de mistura e um microfone sem fios só existem no [Product Presentation Pack](/packages/product-presentation/). Um projetor aplica-se ao [Product Presentation Pack](/packages/product-presentation/) e ao [Basic MICE Pack](/packages/basic-mice/), e não ao [Eco Pack](/packages/eco/), a menos que o tenha acrescentado como opção. Veja acima [Verificação por pacote](#verificação-por-pacote-por-onde-começar) para a divisão completa.
+
+### Porque é que o meu microfone sem fios falhou e o que posso fazer durante o evento?
+
+Isto aplica-se especificamente ao [Product Presentation Pack](/packages/product-presentation/), o único dos três pacotes em autogestão com microfone sem fios. Verifique primeiro o nível da bateria e depois confirme que está no mesmo canal do seu recetor: são as duas primeiras coisas a excluir antes de suspeitar da própria unidade. O [Eco Pack](/packages/eco/) tem um microfone dinâmico com fio e o microfone de pescoço de ganso do [Basic MICE Pack](/packages/basic-mice/) está ligado por cabo ao púlpito, por isso nenhum dos dois tem este problema.
+
+### O meu projetor não sincroniza com o ecrã, o que verifico primeiro?
+
+Verifique se a fonte de entrada selecionada no projetor, normalmente HDMI ou a porta em uso, corresponde ao portátil ou dispositivo que está realmente ligado neste momento. Isto aplica-se ao [Product Presentation Pack](/packages/product-presentation/) e ao [Basic MICE Pack](/packages/basic-mice/), que incluem ambos um projetor e um ecrã de série. Veja acima [Verificação por pacote](#verificação-por-pacote-por-onde-começar).
+
+### Porque é que há microfonia ou um zumbido nas colunas?
+
+A microfonia, um assobio crescente, costuma significar que um microfone se aproximou demasiado de uma coluna ou está apontado para ela, e movê-lo ou virá-lo para outro lado é a primeira coisa a tentar. Um zumbido constante aponta com mais frequência para um cabo que cruza uma linha de alimentação ou para uma ligação solta, por isso vale a pena refazer o percurso do cabo e voltar a encaixar as duas pontas antes de assumir uma avaria. Veja acima [Microfonia ou zumbido nas colunas](#microfonia-ou-zumbido-nas-colunas).
+
+### A quem ligo se o equipamento deixar de funcionar durante o meu evento?
+
+Verifique primeiro cabos, ganho, bateria e seleção da entrada. Se isso não resolver, estamos disponíveis 24 horas por dia, 7 dias por semana, para montagens técnicas e monitorização de eventos ao vivo, incluindo nos pacotes em autogestão. [Contacte-nos](/contact/) ou ligue para o 666 346 911.
+
+### A Malaga Event Gear limita-se a alugar o equipamento e a ir-se embora, ou há ajuda disponível se algo correr mal mais tarde?
+
+Entregamos, instalamos e testamos todas as reservas antes de sair, para que tudo funcione corretamente na entrega, mas não desaparecemos depois. A nossa linha está disponível 24 horas por dia, 7 dias por semana, para montagens técnicas e monitorização de eventos ao vivo, mesmo no [Eco Pack](/packages/eco/), no [Product Presentation Pack](/packages/product-presentation/) e no [Basic MICE Pack](/packages/basic-mice/) sem a opção de técnico. Veja acima [Antes de resolver o problema](#antes-de-resolver-o-problema-o-que-já-tinha-acontecido-antes-de-começar).
+
+### Posso acrescentar um técnico a meio da reserva se decidir que não quero resolver eu próprio os problemas do equipamento?
+
+No [Basic MICE Pack](/packages/basic-mice/), sim, o técnico é um extra pago a 240 euros por dia, por isso diga-nos assim que decidir e não espere pelo dia do evento, uma vez que tem de ser agendado tal como o próprio equipamento. O [Eco Pack](/packages/eco/) e o [Product Presentation Pack](/packages/product-presentation/) não oferecem técnico a nenhum preço. Veja acima [Prefere um técnico a resolver o problema por si?](#prefere-um-técnico-a-resolver-o-problema-por-si)
+
+### A resolução de problemas é diferente nos eventos ao ar livre?
+
+As verificações são as mesmas, cabos, ganho, bateria, seleção da entrada, mas o vento e a exposição dos cabos ao ar livre acrescentam mais formas de uma ligação se soltar. Consulte o nosso guia de [aluguer de audiovisuais para eventos ao ar livre](/blog/audio-visual-rental-for-outdoor-events/) para ver como nos preparamos para isso antes de o seu evento começar.
+
+### Qual é a diferença entre um técnico resolver um problema e eu resolvê-lo por mim?
+
+Um técnico vigia os níveis continuamente, por isso uma ligação perdida ou um canal silenciado é detetado no momento em que acontece. Gerir o seu próprio equipamento significa que só repara quando já está a afetar o seu evento, e a solução é a verificação rápida desta página que corresponde ao seu pacote. Nenhuma das opções está errada, trata-se de saber se o seu pacote inclui essa vigilância contínua ou não. Veja acima [Gerir o seu próprio equipamento](#gerir-o-seu-próprio-equipamento-que-pacotes-são-em-autogestão) para saber que pacotes incluem uma.

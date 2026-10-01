@@ -411,6 +411,11 @@ export default {
 			slug: 'calendrier-planification-location-audiovisuelle',
 			keyword: 'calendrier de planification de la location audiovisuelle à Malaga',
 			status: 'propuesta'
+		},
+		'av-system-troubleshooting': {
+			slug: 'depannage-systemes-audiovisuels-malaga',
+			keyword: 'dépannage des systèmes audiovisuels à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

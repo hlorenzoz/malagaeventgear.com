@@ -391,6 +391,11 @@ export default {
 			slug: '視聽租借籌備時間表',
 			keyword: '馬拉加 視聽租借籌備時間表',
 			status: 'propuesta'
+		},
+		'av-system-troubleshooting': {
+			slug: '視聽系統故障排查',
+			keyword: '馬拉加 視聽系統故障排查',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

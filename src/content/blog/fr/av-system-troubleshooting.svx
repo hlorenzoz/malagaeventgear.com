@@ -1,0 +1,205 @@
+---
+title: "Dépannage des systèmes audiovisuels à Malaga, en Espagne"
+description: "Dépannage des systèmes audiovisuels à Malaga, en Espagne, forfaits en autonomie : Eco Pack, Product Presentation Pack et Basic MICE Pack, avant de nous appeler."
+excerpt: "Dépannage des systèmes audiovisuels à Malaga : que vérifier vous-même si un forfait en autonomie cesse de fonctionner en plein événement, forfait par forfait, pour l'Eco Pack, le Product Presentation Pack et le Basic MICE Pack sans l'option technicien."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Quand on cherche en anglais "AV system troubleshooting", on suppose en général qu'un technicien a déjà réglé le problème, ou qu'il s'agit d'un système de bureau installé à demeure et qui vous appartient. Aucun des deux cas ne décrit la situation visée par ce guide de dépannage des systèmes audiovisuels à Malaga, en Espagne : vous avez loué l'un de nos forfaits, aucun technicien n'est sur place, et quelque chose a cessé de fonctionner comme à l'instant où notre équipe est partie.
+
+Nos guides sur l'assistance technique pour événements et sur la [location d'un technicien audiovisuel](/blog/av-technician-hire/) couvrent déjà l'autre scénario en détail : ce que fait notre équipe quand un technicien fait partie de votre réservation. Cette page s'adresse précisément aux forfaits où personne ne surveille les niveaux à votre place : l'[Eco Pack](/packages/eco/), le [Product Presentation Pack](/packages/product-presentation/) et le [Basic MICE Pack](/packages/basic-mice/) si vous n'avez pas ajouté l'option technicien. Ce qu'il faut vérifier vous-même, forfait par forfait, avant de supposer que quelque chose est vraiment en panne.
+
+[Réservez dès maintenant](/packages/) et confirmez lequel de nos forfaits vous confie la gestion du matériel.
+
+## Table des matières
+
+-   [En bref](#en-bref)
+-   [Points clés](#points-clés)
+-   [Gérer son propre matériel : quels forfaits fonctionnent en autonomie](#gérer-son-propre-matériel--quels-forfaits-fonctionnent-en-autonomie)
+-   [Avant de dépanner : ce qui s'est déjà passé avant que vous ne commenciez](#avant-de-dépanner--ce-qui-sest-déjà-passé-avant-que-vous-ne-commenciez)
+-   [Vérifications par forfait : par où commencer](#vérifications-par-forfait--par-où-commencer)
+-   [Larsen ou bourdonnement dans les enceintes](#larsen-ou-bourdonnement-dans-les-enceintes)
+-   [Qui appeler quand cela dépasse la vérification rapide](#qui-appeler-quand-cela-dépasse-la-vérification-rapide)
+-   [Vous préférez un technicien plutôt que de dépanner vous-même ?](#vous-préférez-un-technicien-plutôt-que-de-dépanner-vous-même-)
+-   [Le dépannage est-il différent en extérieur ?](#le-dépannage-est-il-différent-en-extérieur-)
+-   [Des installations réelles que nous avons livrées](#des-installations-réelles-que-nous-avons-livrées)
+-   [Combien de temps à l'avance réserver ?](#combien-de-temps-à-lavance-réserver-)
+-   [Conclusion](#conclusion)
+-   [Questions fréquentes](#questions-fréquentes)
+    -   [Quels forfaits incluent un technicien qui s'occupe du dépannage à ma place, et lesquels n'en incluent pas ?](#quels-forfaits-incluent-un-technicien-qui-soccupe-du-dépannage-à-ma-place-et-lesquels-nen-incluent-pas-)
+    -   [Si je gère mon propre matériel, que dois-je vérifier moi-même quand quelque chose cesse de fonctionner ?](#si-je-gère-mon-propre-matériel-que-dois-je-vérifier-moi-même-quand-quelque-chose-cesse-de-fonctionner-)
+    -   [Pourquoi mon microphone sans fil a-t-il coupé, et que puis-je faire pendant l'événement ?](#pourquoi-mon-microphone-sans-fil-a-t-il-coupé-et-que-puis-je-faire-pendant-lévénement-)
+    -   [Mon vidéoprojecteur ne se synchronise pas avec l'écran, que vérifier en premier ?](#mon-vidéoprojecteur-ne-se-synchronise-pas-avec-lécran-que-vérifier-en-premier-)
+    -   [Pourquoi y a-t-il du larsen ou un bourdonnement dans les enceintes ?](#pourquoi-y-a-t-il-du-larsen-ou-un-bourdonnement-dans-les-enceintes-)
+    -   [Qui appeler si le matériel cesse de fonctionner pendant mon événement ?](#qui-appeler-si-le-matériel-cesse-de-fonctionner-pendant-mon-événement-)
+    -   [Malaga Event Gear se contente-t-il de louer du matériel puis de disparaître, ou une aide est-elle disponible si un problème survient ensuite ?](#malaga-event-gear-se-contente-t-il-de-louer-du-matériel-puis-de-disparaître-ou-une-aide-est-elle-disponible-si-un-problème-survient-ensuite-)
+    -   [Puis-je ajouter un technicien en cours de réservation si je ne veux plus dépanner mon propre matériel ?](#puis-je-ajouter-un-technicien-en-cours-de-réservation-si-je-ne-veux-plus-dépanner-mon-propre-matériel-)
+    -   [Le dépannage est-il différent pour les événements en extérieur ?](#le-dépannage-est-il-différent-pour-les-événements-en-extérieur-)
+    -   [Quelle différence y a-t-il entre un technicien qui règle un problème et moi qui le règle moi-même ?](#quelle-différence-y-a-t-il-entre-un-technicien-qui-règle-un-problème-et-moi-qui-le-règle-moi-même-)
+
+## En bref
+
+---
+
+Trois forfaits Malaga Event Gear vous confient la gestion de votre propre matériel, sans technicien pour surveiller les niveaux : l'[Eco Pack](/packages/eco/), le [Product Presentation Pack](/packages/product-presentation/) et le [Basic MICE Pack](/packages/basic-mice/) si vous renoncez à son option technicien. Chacun comprend un matériel différent, donc ce que vous vérifiez quand quelque chose cesse de fonctionner diffère aussi, il n'existe pas une seule liste générique.
+
+Ce guide passe en revue ce que notre équipe a déjà testé avant de partir, ce qu'il faut regarder en premier sur chacun de ces trois forfaits en particulier, et qui appeler si une vérification rapide ne règle pas le problème. [Contactez-nous](/contact/) si vous ne savez pas à quel forfait correspond votre réservation.
+
+## Points clés
+
+---
+
+-   Trois forfaits fonctionnent vraiment en autonomie : l'[Eco Pack](/packages/eco/) et le [Product Presentation Pack](/packages/product-presentation/) n'ont aucune option technicien, et le [Basic MICE Pack](/packages/basic-mice/) n'en reçoit un que si vous payez l'option.
+
+-   Nous travaillons uniquement en livraison : notre équipe transporte, installe, étalonne et teste chaque réservation, y compris ces trois-là, avant de quitter votre lieu. La question de départ honnête est ce qui a changé depuis la livraison, et non ce qui était en panne dès le début.
+
+-   Les vérifications utiles dépendent de ce que contient réellement votre forfait. L'[Eco Pack](/packages/eco/) n'a ni console de mixage ni microphone sans fil, donc le dépannage de l'un ou de l'autre ne le concerne pas.
+
+-   Un microphone sans fil n'existe que sur le [Product Presentation Pack](/packages/product-presentation/). Le microphone col de cygne du [Basic MICE Pack](/packages/basic-mice/) est relié par câble au pupitre, il n'y a donc ni pile ni canal à vérifier.
+
+-   Nous sommes disponibles 24 heures sur 24 et 7 jours sur 7 pour les installations techniques et le suivi en direct des événements, donc un appel reste toujours possible une fois l'évident vérifié.
+
+## Gérer son propre matériel : quels forfaits fonctionnent en autonomie
+
+Tous les forfaits ne placent pas un technicien sur place, et la répartition est loin d'être égale. Sur l'ensemble de notre catalogue : le [Wedding Pack](/packages/wedding/) inclut un technicien pour tout l'événement, et le [MICE Pack](/packages/mice/) en inclut un pour 6 heures continues au maximum. Ni l'un ni l'autre n'est le sujet de cette page. Notre guide de l'assistance technique pour événements explique ce que fait réellement ce technicien, phase par phase, si l'un des deux correspond à votre réservation.
+
+Cette page couvre plutôt les trois autres forfaits :
+
+-   **[Eco Pack](/packages/eco/).** Aucune option technicien, pas même en option payante. Conçu comme une sonorisation PA en autonomie pour un DJ ou un animateur qui contrôle ses propres niveaux.
+-   **[Product Presentation Pack](/packages/product-presentation/).** Aucune option technicien non plus. Conçu pour une présentation d'entreprise, une présentation en concession ou un lancement de produit menés par la personne qui présente.
+-   **[Basic MICE Pack](/packages/basic-mice/).** Un technicien est disponible, mais seulement en option payante à 240 euros par jour. Si vous ne l'avez pas ajouté, votre réservation fonctionne en autonomie par défaut.
+
+Si rien de tout cela ne correspond à votre forfait, notre guide sur la [location d'un technicien audiovisuel](/blog/av-technician-hire/) présente le détail complet du technicien selon le forfait.
+
+<InlineCTA />
+
+## Avant de dépanner : ce qui s'est déjà passé avant que vous ne commenciez
+
+Nous ne proposons aucune option de retrait ou de restitution par vos soins, quel que soit le forfait. Chaque réservation, y compris ces trois-là, arrive avec notre propre équipe, qui livre, installe et teste le matériel avant de partir, en vérifiant que les enceintes sont alimentées, que le microphone est actif et qu'un écran ou un vidéoprojecteur est synchronisé si votre forfait en comprend un.
+
+Cela compte pour votre façon de dépanner. Si quelque chose ne fonctionne pas maintenant, c'est que cela fonctionnait quand notre équipe est partie, donc la première question honnête est ce qui a changé depuis, et non ce qui pourrait être en panne. Les suspects habituels sont un câble débranché par mégarde en déplaçant une table ou un pied, un réglage de gain ou de volume bougé par quelqu'un qui s'est appuyé sur la console, une pile épuisée dans un microphone main sans fil, ou une entrée sélectionnée qui ne correspond pas à l'ordinateur portable ou à l'appareil réellement connecté en ce moment.
+
+Pour savoir ce que comprend cette installation initiale, c'est-à-dire un réglage du gain et un placement des enceintes ajustés à votre lieu précis plutôt qu'un réglage fixe, consultez notre guide sur l'[étalonnage d'un système audio](/blog/audio-system-calibration/). Cette page prend le relais à partir de là : que vérifier si quelque chose change après le départ de notre équipe, et non comment l'installation a été étalonnée au départ.
+
+## Vérifications par forfait : par où commencer
+
+Ce que vous vérifiez dépend de ce que contient réellement votre forfait, puisqu'aucun de ces trois forfaits n'embarque le même matériel.
+
+| | [Eco Pack](/packages/eco/) | [Product Presentation Pack](/packages/product-presentation/) | [Basic MICE Pack](/packages/basic-mice/) (sans l'option technicien) |
+| --- | --- | --- | --- |
+| Enceintes | 2 enceintes actives sur pied | 2 enceintes via une console de mixage | Système de sonorisation de base |
+| Microphone | 1 microphone dynamique filaire | 1 microphone main sans fil | 1 microphone col de cygne filaire (fixé au pupitre) |
+| Console de mixage | Aucune | Oui | Aucune |
+| Vidéoprojecteur et écran | Non inclus (option payante, +50 euros) | Oui, vidéoprojecteur de 5000 lumens et écran | Oui, vidéoprojecteur de 3000 lumens et écran de 2x2 m |
+| Éclairage | 2 barres lumineuses LED RGBW | Aucun | Aucun |
+| Technicien | Non proposé | Non proposé | Option payante, +240 euros par jour |
+
+### Eco Pack : ni console, ni microphone sans fil
+
+L'Eco Pack est le plus simple des trois, et cette simplicité signifie moins de choses à vérifier. Ce forfait ne comprend ni console de mixage ni microphone sans fil, donc si un résultat de recherche vous dit de vérifier le canal d'un récepteur sans fil, cela ne s'applique pas ici.
+
+-   Vérifiez que les deux enceintes actives sont toujours branchées au secteur et que le câble qui va du point de mixage à chaque enceinte est bien enfoncé jusqu'au bout.
+-   Vérifiez le câble XLR du microphone dynamique filaire aux deux extrémités, au niveau du micro lui-même et à l'endroit où il se branche.
+-   Vérifiez l'alimentation et la connexion des barres lumineuses LED RGBW si c'est l'éclairage qui semble anormal plutôt que le son.
+-   Si vous avez ajouté le vidéoprojecteur en option à +50 euros, la vérification de sa source d'entrée fonctionne comme dans la section du Product Presentation Pack ci-dessous.
+
+### Product Presentation Pack : console, vidéoprojecteur et microphone sans fil
+
+C'est le forfait où il y a le plus à vérifier, car c'est le seul des trois à comprendre à la fois une console de mixage et un microphone sans fil.
+
+-   Vérifiez sur la console de mixage qu'aucune voie n'a été coupée et qu'aucun fader de gain n'a été baissé, par exemple par quelqu'un appuyé sur le pupitre ou par un sac posé dessus.
+-   Vérifiez que la voie d'entrée sélectionnée sur la console correspond à l'ordinateur portable ou à l'appareil réellement connecté en ce moment, surtout si plusieurs personnes se sont branchées pendant l'événement.
+-   Vérifiez le niveau de pile du microphone main sans fil et confirmez qu'il est réglé sur le même canal que son récepteur. Ce sont les deux premières choses à écarter avant de soupçonner l'appareil lui-même.
+-   Vérifiez la source d'entrée du vidéoprojecteur (HDMI ou le port utilisé) par rapport à l'ordinateur portable connecté, et confirmez que l'écran affiche la même résolution que celle attendue par le vidéoprojecteur.
+-   Vérifiez que chaque câble, HDMI, XLR et enceinte, est toujours bien enfoncé aux deux extrémités. Les câbles desserrés sont la première chose à écarter sur les trois forfaits.
+
+### Basic MICE Pack sans l'option technicien
+
+Sans l'option, le Basic MICE Pack n'a ni console de mixage à vérifier ni microphone sans fil, son microphone col de cygne étant relié directement au pupitre.
+
+-   Vérifiez la source d'entrée du vidéoprojecteur par rapport à l'ordinateur portable connecté, c'est la même vérification que pour le Product Presentation Pack ci-dessus.
+-   Vérifiez la connexion du câble du microphone col de cygne à la base du pupitre.
+-   Vérifiez que les câbles d'alimentation et d'enceintes du système de sonorisation sont toujours bien enfoncés, puisqu'il n'y a pas de fader de console pour isoler le problème.
+
+## Larsen ou bourdonnement dans les enceintes
+
+Ce cas ne dépend d'aucun forfait en particulier. Le larsen, ce sifflement qui monte quand un microphone capte son propre son amplifié, signifie en général que le microphone s'est rapproché d'une enceinte ou est maintenant orienté vers elle : l'éloigner ou le tourner légèrement est donc la première chose à essayer. Un bourdonnement ou un ronflement constant pointe plus souvent vers un câble qui croise un câble d'alimentation, ou vers une connexion desserrée à l'une des extrémités : reprendre le tracé du câble et rebrancher les deux extrémités vaut la peine avant de supposer qu'un appareil est défectueux.
+
+## Qui appeler quand cela dépasse la vérification rapide
+
+Vérifiez d'abord l'évident : câbles, gain, pile, sélection de l'entrée. Si cela ne règle pas le problème, nous sommes disponibles 24 heures sur 24 et 7 jours sur 7 pour les installations techniques et le suivi en direct des événements, sur chaque réservation, y compris ces trois forfaits en autonomie. [Contactez-nous](/contact/) ou appelez le 666 346 911 si vous avez besoin de nous en cours d'événement.
+
+## Vous préférez un technicien plutôt que de dépanner vous-même ?
+
+Si cette lecture vous donne envie que quelqu'un d'autre s'en occupe, c'est une vraie option sur l'un de ces trois forfaits. Notre guide sur la [location d'un technicien audiovisuel](/blog/av-technician-hire/) explique à quel forfait en ajouter un et ce que cela coûte, et notre guide de l'assistance technique pour événements explique ce que fait ce technicien une fois sur place. Le [Basic MICE Pack](/packages/basic-mice/) peut en recevoir un pour 240 euros par jour. L'[Eco Pack](/packages/eco/) et le [Product Presentation Pack](/packages/product-presentation/) n'en proposent pas, à aucun prix : si un technicien est indispensable pour votre événement, le [Wedding Pack](/packages/wedding/) ou le [MICE Pack](/packages/mice/) sont les forfaits qui en incluent un d'office. Et si vous n'avez pas encore réservé du tout, notre guide du [conseil en location audiovisuelle](/blog/av-equipment-consultations/) explique comment associer votre événement au bon forfait avant d'arriver à cette page.
+
+## Le dépannage est-il différent en extérieur ?
+
+Les vérifications elles-mêmes sont les mêmes, câbles, gain, pile, sélection de l'entrée, mais une réservation en extérieur ajoute l'exposition des câbles et le vent à la liste de ce qui peut débrancher une connexion. Consultez notre guide de la [location audiovisuelle pour événements en extérieur](/blog/audio-visual-rental-for-outdoor-events/) pour savoir comment nous prévoyons le cheminement des câbles et l'emplacement des pieds en extérieur avant même le début de votre événement.
+
+## Des installations réelles que nous avons livrées
+
+![Une enceinte HK Audio sur pied à côté d'une table de panel drapée de rouge, avec un écran de projection derrière, lors d'une conférence de l'association de patrimoine PROCURE dans une salle historique à Coín, province de Malaga.](https://cdn.malagaeventgear.com/blog/1307/lighting-sound-big-screen-projector-rental-malaga_4-1024x765.webp "La scène et l'écran PROCURE équipés par Malaga Event Gear à Coín, province de Malaga.")
+
+Son et écran de projection pour une conférence PROCURE à Coín, province de Malaga. Une fois notre équipe partie, voilà le genre d'installation que vérifie une réservation en autonomie, et non une panne à dépanner en partant de zéro.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1277/', '/1307/'])} speed="normal" direction="left" />
+</div>
+
+## Combien de temps à l'avance réserver ?
+
+Toutes nos réservations exigent un préavis d'au moins 24 heures, forfaits en autonomie compris. Si la lecture de ce guide vous fait préférer ajouter un technicien au [Basic MICE Pack](/packages/basic-mice/), dites-le-nous au moment de réserver plutôt que la veille, car l'option doit être planifiée comme le matériel lui-même. La demande pour les forfaits avec technicien atteint son pic pendant la saison des mariages, d'avril à octobre, donc confirmer tôt compte surtout pour le [Wedding Pack](/packages/wedding/) en particulier.
+
+## Conclusion
+
+Le dépannage des systèmes audiovisuels à Malaga avec un forfait Malaga Event Gear en autonomie part d'un fait honnête : cela fonctionnait quand notre équipe est partie, car nous livrons, installons et testons tout avant de repartir, même sur l'[Eco Pack](/packages/eco/), le [Product Presentation Pack](/packages/product-presentation/) et le [Basic MICE Pack](/packages/basic-mice/) sans l'option. Ce qu'il faut vérifier dépend de ce que contient réellement votre forfait : une console et un microphone sans fil sur l'un, un microphone de pupitre filaire et un vidéoprojecteur sur l'autre, et des câbles sur les trois. [Contactez-nous](/contact/) si une vérification rapide ne règle pas le problème, nous sommes disponibles à toute heure. Pour la version gérée par un technicien, consultez nos guides sur l'assistance technique pour événements et sur la [location d'un technicien audiovisuel](/blog/av-technician-hire/), ou, pour notre gamme complète de matériel, la [page de location audiovisuelle](/blog/audio-visual-rental/) à Malaga.
+
+## Questions fréquentes
+
+### Quels forfaits incluent un technicien qui s'occupe du dépannage à ma place, et lesquels n'en incluent pas ?
+
+Le [Wedding Pack](/packages/wedding/) et le [MICE Pack](/packages/mice/) en incluent un de série. Le [Basic MICE Pack](/packages/basic-mice/) en propose un en option payante à 240 euros par jour. L'[Eco Pack](/packages/eco/) et le [Product Presentation Pack](/packages/product-presentation/) n'en proposent pas du tout, à aucun prix. Voir [Gérer son propre matériel](#gérer-son-propre-matériel--quels-forfaits-fonctionnent-en-autonomie) ci-dessus.
+
+### Si je gère mon propre matériel, que dois-je vérifier moi-même quand quelque chose cesse de fonctionner ?
+
+Cela dépend de votre forfait, puisque les trois forfaits en autonomie n'embarquent pas le même matériel. La vérification de l'enfoncement des câbles vaut pour les trois. Une console de mixage et un microphone sans fil n'existent que sur le [Product Presentation Pack](/packages/product-presentation/). Un vidéoprojecteur concerne le [Product Presentation Pack](/packages/product-presentation/) et le [Basic MICE Pack](/packages/basic-mice/), mais pas l'[Eco Pack](/packages/eco/), sauf si vous l'avez ajouté en option. Voir [Vérifications par forfait](#vérifications-par-forfait--par-où-commencer) ci-dessus pour le détail complet.
+
+### Pourquoi mon microphone sans fil a-t-il coupé, et que puis-je faire pendant l'événement ?
+
+Cela concerne spécifiquement le [Product Presentation Pack](/packages/product-presentation/), le seul des trois forfaits en autonomie à comprendre un microphone sans fil. Vérifiez d'abord le niveau de pile, puis confirmez qu'il est réglé sur le même canal que son récepteur : ce sont les deux premières choses à écarter avant de soupçonner l'appareil lui-même. L'[Eco Pack](/packages/eco/) a un microphone dynamique filaire et le microphone col de cygne du [Basic MICE Pack](/packages/basic-mice/) est relié par câble au pupitre, donc ni l'un ni l'autre n'a ce problème.
+
+### Mon vidéoprojecteur ne se synchronise pas avec l'écran, que vérifier en premier ?
+
+Vérifiez que la source d'entrée sélectionnée sur le vidéoprojecteur, en général HDMI ou le port utilisé, correspond à l'ordinateur portable ou à l'appareil réellement connecté en ce moment. Cela concerne le [Product Presentation Pack](/packages/product-presentation/) et le [Basic MICE Pack](/packages/basic-mice/), qui comprennent tous deux un vidéoprojecteur et un écran de série. Voir [Vérifications par forfait](#vérifications-par-forfait--par-où-commencer) ci-dessus.
+
+### Pourquoi y a-t-il du larsen ou un bourdonnement dans les enceintes ?
+
+Le larsen, un sifflement qui monte, signifie en général qu'un microphone s'est trop rapproché d'une enceinte ou est orienté vers elle : l'éloigner ou l'orienter ailleurs est la première chose à essayer. Un bourdonnement constant pointe plus souvent vers un câble qui croise une ligne d'alimentation ou vers une connexion desserrée, donc reprendre le tracé du câble et rebrancher les deux extrémités vaut la peine avant de supposer une panne. Voir [Larsen ou bourdonnement dans les enceintes](#larsen-ou-bourdonnement-dans-les-enceintes) ci-dessus.
+
+### Qui appeler si le matériel cesse de fonctionner pendant mon événement ?
+
+Vérifiez d'abord les câbles, le gain, la pile et la sélection de l'entrée. Si cela ne règle pas le problème, nous sommes disponibles 24 heures sur 24 et 7 jours sur 7 pour les installations techniques et le suivi en direct des événements, y compris sur les forfaits en autonomie. [Contactez-nous](/contact/) ou appelez le 666 346 911.
+
+### Malaga Event Gear se contente-t-il de louer du matériel puis de disparaître, ou une aide est-elle disponible si un problème survient ensuite ?
+
+Nous livrons, installons et testons chaque réservation avant de partir, de sorte que tout fonctionne correctement à la remise, mais nous ne disparaissons pas ensuite. Notre ligne est disponible 24 heures sur 24 et 7 jours sur 7 pour les installations techniques et le suivi en direct des événements, même sur l'[Eco Pack](/packages/eco/), le [Product Presentation Pack](/packages/product-presentation/) et le [Basic MICE Pack](/packages/basic-mice/) sans l'option technicien. Voir [Avant de dépanner](#avant-de-dépanner--ce-qui-sest-déjà-passé-avant-que-vous-ne-commenciez) ci-dessus.
+
+### Puis-je ajouter un technicien en cours de réservation si je ne veux plus dépanner mon propre matériel ?
+
+Sur le [Basic MICE Pack](/packages/basic-mice/), oui : le technicien est une option payante à 240 euros par jour, alors dites-le-nous dès que vous décidez plutôt que d'attendre le jour de votre événement, car il doit être planifié comme le matériel lui-même. L'[Eco Pack](/packages/eco/) et le [Product Presentation Pack](/packages/product-presentation/) ne proposent pas de technicien, à aucun prix. Voir [Vous préférez un technicien plutôt que de dépanner vous-même ?](#vous-préférez-un-technicien-plutôt-que-de-dépanner-vous-même-) ci-dessus.
+
+### Le dépannage est-il différent pour les événements en extérieur ?
+
+Les vérifications sont les mêmes, câbles, gain, pile, sélection de l'entrée, mais le vent et l'exposition des câbles en extérieur ajoutent des façons de débrancher une connexion. Consultez notre guide de la [location audiovisuelle pour événements en extérieur](/blog/audio-visual-rental-for-outdoor-events/) pour savoir comment nous le prévoyons avant le début de votre événement.
+
+### Quelle différence y a-t-il entre un technicien qui règle un problème et moi qui le règle moi-même ?
+
+Un technicien surveille les niveaux en continu, donc une connexion coupée ou une voie en sourdine est repérée à l'instant où cela se produit. Gérer votre propre matériel signifie que vous ne le remarquez que lorsque cela affecte déjà votre événement, et la solution est celle des vérifications rapides de cette page qui correspondent à votre forfait. Aucune des deux options n'est mauvaise : tout dépend de savoir si votre forfait comprend cette surveillance continue ou non. Voir [Gérer son propre matériel](#gérer-son-propre-matériel--quels-forfaits-fonctionnent-en-autonomie) ci-dessus pour savoir quels forfaits en incluent une.

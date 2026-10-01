@@ -411,6 +411,11 @@ export default {
 			slug: 'planningsschema-audiovisuele-verhuur',
 			keyword: 'planningsschema voor audiovisuele verhuur in Malaga',
 			status: 'propuesta'
+		},
+		'av-system-troubleshooting': {
+			slug: 'problemen-oplossen-av-systemen-malaga',
+			keyword: 'oplossen van problemen met AV-systemen in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

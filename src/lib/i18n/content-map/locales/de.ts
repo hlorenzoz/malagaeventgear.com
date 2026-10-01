@@ -411,6 +411,11 @@ export default {
 			slug: 'zeitplan-av-vermietung',
 			keyword: 'Zeitplan für die AV-Vermietung in Malaga',
 			status: 'propuesta'
+		},
+		'av-system-troubleshooting': {
+			slug: 'fehlersuche-av-systeme-malaga',
+			keyword: 'Fehlersuche an AV-Systemen in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

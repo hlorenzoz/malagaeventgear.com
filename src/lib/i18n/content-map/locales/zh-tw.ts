@@ -391,6 +391,11 @@ export default {
 			slug: '影音租賃籌備時程',
 			keyword: '馬拉加 影音租賃籌備時程',
 			status: 'propuesta'
+		},
+		'av-system-troubleshooting': {
+			slug: '影音系統故障排查',
+			keyword: '馬拉加 影音系統故障排查',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

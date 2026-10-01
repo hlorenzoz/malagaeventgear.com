@@ -407,6 +407,11 @@ export default {
 			slug: 'tempistiche-pianificazione-noleggio-audiovisivo',
 			keyword: 'tempistiche di pianificazione del noleggio audiovisivo a Malaga',
 			status: 'propuesta'
+		},
+		'av-system-troubleshooting': {
+			slug: 'risoluzione-problemi-sistemi-audiovisivi-malaga',
+			keyword: 'risoluzione dei problemi dei sistemi audiovisivi a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

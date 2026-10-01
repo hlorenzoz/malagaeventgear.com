@@ -1,0 +1,205 @@
+---
+title: "Fehlersuche an AV-Systemen in Malaga, Spanien"
+description: "Fehlersuche an AV-Systemen in Malaga, Spanien, in Eigenregie: Prüfungen für Eco Pack, Product Presentation Pack und Basic MICE Pack, bevor Sie uns anrufen."
+excerpt: "Fehlersuche an AV-Systemen in Malaga: Was Sie selbst prüfen können, wenn ein Paket in Eigenregie mitten in der Veranstaltung ausfällt, Paket für Paket, für Eco Pack, Product Presentation Pack und Basic MICE Pack ohne Technikeroption."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Wer auf Englisch nach "AV system troubleshooting" sucht, geht meist davon aus, dass ein Techniker das Problem bereits gelöst hat, oder dass es um eine fest installierte Büroanlage geht, die Ihnen gehört. Keines von beidem beschreibt die Lage, für die dieser Ratgeber zur Fehlersuche an AV-Systemen in Malaga, Spanien, gedacht ist: Sie haben eines unserer Pakete gemietet, es ist kein Techniker vor Ort, und etwas funktioniert nicht mehr so wie in dem Moment, als unser Team gegangen ist.
+
+Unsere Ratgeber zum technischen Support für Veranstaltungen und zum Thema [AV-Techniker mieten](/blog/av-technician-hire/) behandeln den anderen Fall bereits ausführlich: was unser Team tut, wenn ein Techniker zu Ihrer Buchung gehört. Diese Seite ist gezielt für die Pakete gedacht, bei denen niemand die Pegel für Sie im Blick behält: das [Eco Pack](/packages/eco/), das [Product Presentation Pack](/packages/product-presentation/) und das [Basic MICE Pack](/packages/basic-mice/), wenn Sie die Technikeroption nicht hinzugefügt haben. Was Sie selbst prüfen können, Paket für Paket, bevor Sie annehmen, dass tatsächlich etwas defekt ist.
+
+[Jetzt buchen](/packages/) und bestätigen, bei welchem unserer Pakete Sie die Technik selbst bedienen.
+
+## Inhaltsverzeichnis
+
+-   [Kurzüberblick](#kurzüberblick)
+-   [Das Wichtigste](#das-wichtigste)
+-   [Die eigene Technik bedienen: Welche Pakete laufen in Eigenregie](#die-eigene-technik-bedienen-welche-pakete-laufen-in-eigenregie)
+-   [Bevor Sie den Fehler suchen: Was schon vor Ihrem Eingreifen passiert ist](#bevor-sie-den-fehler-suchen-was-schon-vor-ihrem-eingreifen-passiert-ist)
+-   [Prüfung je Paket: Womit Sie anfangen](#prüfung-je-paket-womit-sie-anfangen)
+-   [Rückkopplung oder Brummen aus den Lautsprechern](#rückkopplung-oder-brummen-aus-den-lautsprechern)
+-   [Wen Sie anrufen, wenn eine schnelle Prüfung nicht reicht](#wen-sie-anrufen-wenn-eine-schnelle-prüfung-nicht-reicht)
+-   [Lieber einen Techniker, statt selbst nach dem Fehler zu suchen?](#lieber-einen-techniker-statt-selbst-nach-dem-fehler-zu-suchen)
+-   [Ist die Fehlersuche im Freien anders?](#ist-die-fehlersuche-im-freien-anders)
+-   [Reale Aufbauten, die wir geliefert haben](#reale-aufbauten-die-wir-geliefert-haben)
+-   [Wie weit im Voraus buchen](#wie-weit-im-voraus-buchen)
+-   [Fazit](#fazit)
+-   [Häufige Fragen](#häufige-fragen)
+    -   [Welche Pakete enthalten einen Techniker, der sich um die Fehlersuche kümmert, und welche nicht?](#welche-pakete-enthalten-einen-techniker-der-sich-um-die-fehlersuche-kümmert-und-welche-nicht)
+    -   [Was sollte ich selbst prüfen, wenn ich meine Technik in Eigenregie betreibe und etwas ausfällt?](#was-sollte-ich-selbst-prüfen-wenn-ich-meine-technik-in-eigenregie-betreibe-und-etwas-ausfällt)
+    -   [Warum ist mein Funkmikrofon ausgefallen, und was kann ich während der Veranstaltung tun?](#warum-ist-mein-funkmikrofon-ausgefallen-und-was-kann-ich-während-der-veranstaltung-tun)
+    -   [Mein Beamer synchronisiert sich nicht mit der Leinwand, was prüfe ich zuerst?](#mein-beamer-synchronisiert-sich-nicht-mit-der-leinwand-was-prüfe-ich-zuerst)
+    -   [Warum gibt es Rückkopplung oder ein Brummen aus den Lautsprechern?](#warum-gibt-es-rückkopplung-oder-ein-brummen-aus-den-lautsprechern)
+    -   [Wen rufe ich an, wenn die Technik während meiner Veranstaltung ausfällt?](#wen-rufe-ich-an-wenn-die-technik-während-meiner-veranstaltung-ausfällt)
+    -   [Vermietet Malaga Event Gear nur die Technik und verabschiedet sich dann, oder gibt es Hilfe, wenn später etwas schiefgeht?](#vermietet-malaga-event-gear-nur-die-technik-und-verabschiedet-sich-dann-oder-gibt-es-hilfe-wenn-später-etwas-schiefgeht)
+    -   [Kann ich mitten in der Buchung einen Techniker hinzufügen, wenn ich meine Technik doch nicht selbst betreuen möchte?](#kann-ich-mitten-in-der-buchung-einen-techniker-hinzufügen-wenn-ich-meine-technik-doch-nicht-selbst-betreuen-möchte)
+    -   [Ist die Fehlersuche bei Veranstaltungen im Freien anders?](#ist-die-fehlersuche-bei-veranstaltungen-im-freien-anders)
+    -   [Was ist der Unterschied zwischen einem Techniker, der ein Problem behebt, und mir, der es selbst behebt?](#was-ist-der-unterschied-zwischen-einem-techniker-der-ein-problem-behebt-und-mir-der-es-selbst-behebt)
+
+## Kurzüberblick
+
+---
+
+Drei Pakete von Malaga Event Gear machen Sie zum Betreiber Ihrer eigenen Technik, ohne dass ein Techniker die Pegel beobachtet: das [Eco Pack](/packages/eco/), das [Product Presentation Pack](/packages/product-presentation/) und das [Basic MICE Pack](/packages/basic-mice/), wenn Sie auf dessen Technikeroption verzichten. Jedes enthält andere Technik, daher unterscheidet sich auch, was Sie prüfen, wenn etwas ausfällt: Es gibt keine einzelne allgemeine Checkliste.
+
+Dieser Ratgeber geht durch, was unser Team vor dem Gehen bereits getestet hat, was Sie bei diesen drei Paketen jeweils zuerst ansehen sollten und wen Sie anrufen, wenn eine schnelle Prüfung nichts löst. [Kontaktieren Sie uns](/contact/), wenn Sie unsicher sind, unter welches Paket Ihre Buchung fällt.
+
+## Das Wichtigste
+
+---
+
+-   Drei Pakete laufen wirklich in Eigenregie: Beim [Eco Pack](/packages/eco/) und beim [Product Presentation Pack](/packages/product-presentation/) gibt es überhaupt keine Technikeroption, und beim [Basic MICE Pack](/packages/basic-mice/) bekommen Sie nur dann einen Techniker, wenn Sie die Option bezahlen.
+
+-   Wir liefern ausschließlich selbst: Unser Team transportiert, installiert, kalibriert und testet jede Buchung, auch diese drei, bevor es Ihren Veranstaltungsort verlässt. Die ehrliche Ausgangsfrage lautet, was sich seit der Lieferung verändert hat, nicht, was von Anfang an defekt war.
+
+-   Welche Prüfung zählt, hängt davon ab, was Ihr Paket tatsächlich enthält. Das [Eco Pack](/packages/eco/) hat weder ein Mischpult noch ein Funkmikrofon, daher betrifft die Fehlersuche an beidem dieses Paket nicht.
+
+-   Ein Funkmikrofon gibt es nur beim [Product Presentation Pack](/packages/product-presentation/). Das Schwanenhalsmikrofon des [Basic MICE Pack](/packages/basic-mice/) ist per Kabel mit dem Rednerpult verbunden, also gibt es dort weder eine Batterie noch einen Kanal zu prüfen.
+
+-   Wir sind 24 Stunden am Tag, 7 Tage die Woche für den technischen Aufbau und die Betreuung laufender Veranstaltungen erreichbar, ein Anruf ist also immer möglich, sobald Sie das Offensichtliche geprüft haben.
+
+## Die eigene Technik bedienen: Welche Pakete laufen in Eigenregie
+
+Nicht jedes Paket bringt einen Techniker vor Ort mit, und die Aufteilung ist alles andere als ausgeglichen. Ein Blick auf unseren gesamten Katalog: Das [Wedding Pack](/packages/wedding/) enthält einen Techniker für die ganze Veranstaltung, und das [MICE Pack](/packages/mice/) enthält einen für bis zu 6 Stunden am Stück. Keines von beiden ist das Thema dieser Seite. Unser Ratgeber zum technischen Support für Veranstaltungen beschreibt, was dieser Techniker tatsächlich tut, Phase für Phase, falls eines der beiden zu Ihrer Buchung passt.
+
+Diese Seite behandelt stattdessen die anderen drei Pakete:
+
+-   **[Eco Pack](/packages/eco/).** Überhaupt keine Technikeroption, auch nicht als kostenpflichtiges Extra. Gedacht als PA-Anlage in Eigenregie für einen DJ oder Moderator, der die eigenen Pegel steuert.
+-   **[Product Presentation Pack](/packages/product-presentation/).** Ebenfalls keine Technikeroption. Gedacht für eine Firmenpräsentation, eine Autohaus-Präsentation oder einen Produktlaunch, die von der präsentierenden Person selbst bedient werden.
+-   **[Basic MICE Pack](/packages/basic-mice/).** Ein Techniker ist möglich, aber nur als kostenpflichtiges Extra zu 240 Euro pro Tag. Wenn Sie ihn nicht hinzugefügt haben, läuft Ihre Buchung standardmäßig in Eigenregie.
+
+Wenn nichts davon zu Ihrem Paket passt, finden Sie in unserem Ratgeber zum Thema [AV-Techniker mieten](/blog/av-technician-hire/) die vollständige Aufschlüsselung des Technikers je Paket.
+
+<InlineCTA />
+
+## Bevor Sie den Fehler suchen: Was schon vor Ihrem Eingreifen passiert ist
+
+Wir bieten bei keinem Paket Selbstabholung oder Selbstrückgabe an. Jede Buchung, auch diese drei, kommt mit unserem eigenen Team, das die Technik liefert, installiert und testet, bevor es geht, und dabei prüft, dass die Lautsprecher Strom haben, das Mikrofon aktiv ist und eine Leinwand oder ein Beamer synchronisiert ist, falls Ihr Paket das enthält.
+
+Das ist für Ihre Fehlersuche wichtig. Wenn jetzt etwas nicht funktioniert, hat es funktioniert, als unser Team ging, die ehrliche erste Frage lautet also, was sich seither verändert hat, nicht, was kaputt sein könnte. Die üblichen Verdächtigen sind ein Kabel, das beim Verschieben eines Tisches oder Stativs herausgerutscht ist, ein Gain- oder Lautstärkeregler, den jemand beim Anlehnen am Mischpult verstellt hat, eine leere Batterie in einem kabellosen Handmikrofon oder ein gewählter Eingang, der nicht zu dem Laptop oder Gerät passt, das gerade tatsächlich angeschlossen ist.
+
+Was dieser erste Aufbau genau umfasst, nämlich Gain-Einstellung und Lautsprecherplatzierung, abgestimmt auf Ihren konkreten Veranstaltungsort statt auf eine feste Einstellung, lesen Sie in unserem Ratgeber zur [Kalibrierung der Tonanlage](/blog/audio-system-calibration/). Diese Seite setzt dort an: was Sie prüfen, wenn sich nach dem Abgang unseres Teams etwas ändert, nicht, wie die Anlage ursprünglich kalibriert wurde.
+
+## Prüfung je Paket: Womit Sie anfangen
+
+Was Sie prüfen, hängt davon ab, was Ihr Paket tatsächlich enthält, denn keines dieser drei Pakete bringt dieselbe Technik mit.
+
+| | [Eco Pack](/packages/eco/) | [Product Presentation Pack](/packages/product-presentation/) | [Basic MICE Pack](/packages/basic-mice/) (ohne Technikeroption) |
+| --- | --- | --- | --- |
+| Lautsprecher | 2 Aktivlautsprecher auf Stativen | 2 Lautsprecher über ein Mischpult | Einfache Beschallungsanlage |
+| Mikrofon | 1 kabelgebundenes dynamisches Mikrofon | 1 kabelloses Handmikrofon | 1 kabelgebundenes Schwanenhalsmikrofon (am Rednerpult montiert) |
+| Mischpult | Keines | Ja | Keines |
+| Beamer und Leinwand | Nicht enthalten (Extra, +50 Euro) | Ja, Beamer mit 5000 Lumen und Leinwand | Ja, Beamer mit 3000 Lumen und Leinwand 2x2 m |
+| Beleuchtung | 2 RGBW-LED-Lichtleisten | Keine | Keine |
+| Techniker | Nicht angeboten | Nicht angeboten | Optionales Extra, +240 Euro pro Tag |
+
+### Eco Pack: kein Mischpult, kein Funkmikrofon
+
+Das Eco Pack ist das einfachste der drei, und diese Einfachheit bedeutet weniger zu prüfen. In diesem Paket gibt es weder ein Mischpult noch ein Funkmikrofon. Wenn also ein Suchergebnis empfiehlt, den Kanal eines Funkempfängers zu prüfen, trifft das hier nicht zu.
+
+-   Prüfen Sie, dass beide Aktivlautsprecher noch am Strom hängen und dass das Kabel vom Mischpunkt zu jedem Lautsprecher vollständig eingesteckt ist.
+-   Prüfen Sie das XLR-Kabel des kabelgebundenen dynamischen Mikrofons an beiden Enden, am Mikrofon selbst und dort, wo es angeschlossen ist.
+-   Prüfen Sie Strom und Anschluss der RGBW-LED-Lichtleisten, wenn eher das Licht auffällig ist als der Ton.
+-   Wenn Sie den optionalen Beamer für +50 Euro hinzugefügt haben, funktioniert die Prüfung seiner Eingangsquelle wie im Abschnitt zum Product Presentation Pack unten.
+
+### Product Presentation Pack: Mischpult, Beamer und Funkmikrofon
+
+Bei diesem Paket gibt es am meisten zu prüfen, denn es ist das einzige der drei mit Mischpult und Funkmikrofon.
+
+-   Prüfen Sie am Mischpult, ob ein Kanal stummgeschaltet oder ein Gain-Fader heruntergezogen wurde, zum Beispiel durch jemanden, der sich ans Pult lehnt, oder durch eine abgestellte Tasche.
+-   Prüfen Sie, dass der am Mischpult gewählte Eingangskanal zu dem Laptop oder Gerät passt, das gerade tatsächlich angeschlossen ist, vor allem wenn sich während der Veranstaltung mehrere Personen angeschlossen haben.
+-   Prüfen Sie den Batteriestand des kabellosen Handmikrofons und vergewissern Sie sich, dass es auf denselben Kanal wie sein Empfänger eingestellt ist. Das sind die ersten beiden Dinge, die Sie ausschließen sollten, bevor Sie das Gerät selbst verdächtigen.
+-   Prüfen Sie die Wahl der Eingangsquelle des Beamers (HDMI oder der genutzte Anschluss) im Abgleich mit dem angeschlossenen Laptop und stellen Sie sicher, dass die Leinwand dieselbe Auflösung zeigt, die der Beamer erwartet.
+-   Prüfen Sie, dass jedes Kabel, HDMI, XLR und Lautsprecher, an beiden Enden noch fest sitzt. Lockere Kabel sind bei allen drei Paketen das Erste, was Sie ausschließen sollten.
+
+### Basic MICE Pack ohne Technikeroption
+
+Ohne die Option hat das Basic MICE Pack weder ein Mischpult zu prüfen noch ein Funkmikrofon, sein Schwanenhalsmikrofon ist direkt am Rednerpult angeschlossen.
+
+-   Prüfen Sie die Eingangsquelle des Beamers im Abgleich mit dem angeschlossenen Laptop, dieselbe Prüfung wie beim Product Presentation Pack oben.
+-   Prüfen Sie den Kabelanschluss des Schwanenhalsmikrofons am Fuß des Rednerpults.
+-   Prüfen Sie, dass die Strom- und Lautsprecherkabel der Beschallungsanlage noch fest sitzen, denn es gibt keinen Fader am Mischpult, mit dem sich das Problem eingrenzen ließe.
+
+## Rückkopplung oder Brummen aus den Lautsprechern
+
+Das hängt von keinem einzelnen Paket ab. Rückkopplung, das aufsteigende Pfeifen, wenn ein Mikrofon seinen eigenen verstärkten Ton aufnimmt, bedeutet meist, dass sich das Mikrofon einem Lautsprecher genähert hat oder jetzt auf ihn gerichtet ist. Es zu verschieben oder leicht wegzudrehen ist daher das Erste, was Sie versuchen sollten. Ein gleichmäßiges Brummen deutet häufiger auf ein Kabel hin, das ein Stromkabel kreuzt, oder auf einen lockeren Anschluss an einem der Enden. Den Kabelverlauf nachzuverfolgen und beide Enden neu einzustecken lohnt sich, bevor Sie einen Defekt annehmen.
+
+## Wen Sie anrufen, wenn eine schnelle Prüfung nicht reicht
+
+Prüfen Sie zuerst das Offensichtliche: Kabel, Gain, Batterie, Eingangswahl. Wenn das nichts löst, sind wir 24 Stunden am Tag, 7 Tage die Woche für den technischen Aufbau und die Betreuung laufender Veranstaltungen erreichbar, bei jeder Buchung, auch bei diesen drei Paketen in Eigenregie. [Kontaktieren Sie uns](/contact/) oder rufen Sie 666 346 911 an, wenn Sie uns mitten in der Veranstaltung brauchen.
+
+## Lieber einen Techniker, statt selbst nach dem Fehler zu suchen?
+
+Wenn Sie beim Lesen denken, dass sich besser jemand anderes darum kümmern sollte, ist das bei einem dieser drei Pakete eine echte Möglichkeit. Unser Ratgeber zum Thema [AV-Techniker mieten](/blog/av-technician-hire/) erklärt, bei welchem Paket Sie einen hinzufügen können und was er kostet, und unser Ratgeber zum technischen Support für Veranstaltungen beschreibt, was dieser Techniker vor Ort tatsächlich tut. Beim [Basic MICE Pack](/packages/basic-mice/) können Sie einen für 240 Euro pro Tag hinzufügen. Das [Eco Pack](/packages/eco/) und das [Product Presentation Pack](/packages/product-presentation/) bieten zu keinem Preis einen an. Wenn ein Techniker für Ihre Veranstaltung also unverzichtbar ist, sind das [Wedding Pack](/packages/wedding/) oder das [MICE Pack](/packages/mice/) die Pakete, die einen serienmäßig enthalten. Und falls Sie noch gar nicht gebucht haben, erklärt unser Ratgeber zur [Beratung zur AV-Vermietung](/blog/av-equipment-consultations/), wie Sie Ihre Veranstaltung dem richtigen Paket zuordnen, bevor Sie bei dieser Seite landen.
+
+## Ist die Fehlersuche im Freien anders?
+
+Die Prüfungen sind dieselben, Kabel, Gain, Batterie, Eingangswahl, aber eine Buchung im Freien fügt der Liste dessen, was einen Anschluss überhaupt erst lösen kann, ungeschützte Kabel und Wind hinzu. In unserem Ratgeber zur [AV-Vermietung für Veranstaltungen im Freien](/blog/audio-visual-rental-for-outdoor-events/) lesen Sie, wie wir Kabelwege und Stativplatzierung im Freien planen, noch bevor Ihre Veranstaltung beginnt.
+
+## Reale Aufbauten, die wir geliefert haben
+
+![Ein HK-Audio-Lautsprecher auf einem Stativ neben einem rot drapierten Podiumstisch, dahinter eine Projektionsleinwand, bei einem Vortrag des Kulturerbevereins PROCURE in einem historischen Saal in Coín, Provinz Malaga.](https://cdn.malagaeventgear.com/blog/1307/lighting-sound-big-screen-projector-rental-malaga_4-1024x765.webp "Die von Malaga Event Gear ausgestattete Bühne und Leinwand von PROCURE in Coín, Provinz Malaga.")
+
+Ton und Projektionsleinwand für einen PROCURE-Vortrag in Coín, Provinz Malaga. Sobald unser Team gegangen ist, ist das die Art von Aufbau, an der sich eine Buchung in Eigenregie orientiert, kein Fehler, den man bei null beginnend suchen müsste.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1277/', '/1307/'])} speed="normal" direction="left" />
+</div>
+
+## Wie weit im Voraus buchen
+
+Alle unsere Buchungen erfordern mindestens 24 Stunden Vorlauf, auch die Pakete in Eigenregie. Wenn Sie nach diesem Ratgeber doch lieber einen Techniker zum [Basic MICE Pack](/packages/basic-mice/) hinzufügen möchten, sagen Sie es uns bei der Buchung und nicht erst am Tag davor, denn die Option muss genauso eingeplant werden wie die Technik selbst. Die Nachfrage nach Paketen mit Techniker erreicht ihren Höhepunkt in der Hochzeitssaison von April bis Oktober, frühes Bestätigen ist daher besonders beim [Wedding Pack](/packages/wedding/) wichtig.
+
+## Fazit
+
+Die Fehlersuche an AV-Systemen in Malaga bei einem Paket von Malaga Event Gear in Eigenregie beginnt mit einer ehrlichen Tatsache: Es hat funktioniert, als unser Team ging, denn wir liefern, installieren und testen alles, bevor wir gehen, auch beim [Eco Pack](/packages/eco/), beim [Product Presentation Pack](/packages/product-presentation/) und beim [Basic MICE Pack](/packages/basic-mice/) ohne die Option. Was Sie prüfen, hängt davon ab, was Ihr Paket tatsächlich enthält: bei einem ein Mischpult und ein Funkmikrofon, bei einem anderen ein kabelgebundenes Rednerpultmikrofon und ein Beamer, und bei allen dreien Kabel. [Kontaktieren Sie uns](/contact/), wenn eine schnelle Prüfung das Problem nicht löst, wir sind rund um die Uhr erreichbar. Die Variante mit Techniker finden Sie in unseren Ratgebern zum technischen Support für Veranstaltungen und zum Thema [AV-Techniker mieten](/blog/av-technician-hire/), unser gesamtes Technikangebot auf der [Seite zur AV-Vermietung in Malaga](/blog/audio-visual-rental/).
+
+## Häufige Fragen
+
+### Welche Pakete enthalten einen Techniker, der sich um die Fehlersuche kümmert, und welche nicht?
+
+Das [Wedding Pack](/packages/wedding/) und das [MICE Pack](/packages/mice/) enthalten serienmäßig einen. Das [Basic MICE Pack](/packages/basic-mice/) bietet einen als kostenpflichtiges Extra zu 240 Euro pro Tag an. Das [Eco Pack](/packages/eco/) und das [Product Presentation Pack](/packages/product-presentation/) bieten überhaupt keinen an, zu keinem Preis. Siehe oben [Die eigene Technik bedienen](#die-eigene-technik-bedienen-welche-pakete-laufen-in-eigenregie).
+
+### Was sollte ich selbst prüfen, wenn ich meine Technik in Eigenregie betreibe und etwas ausfällt?
+
+Das hängt von Ihrem Paket ab, denn die drei Pakete in Eigenregie bringen unterschiedliche Technik mit. Der feste Sitz der Kabel gilt für alle drei. Ein Mischpult und ein Funkmikrofon gibt es nur beim [Product Presentation Pack](/packages/product-presentation/). Ein Beamer gehört zum [Product Presentation Pack](/packages/product-presentation/) und zum [Basic MICE Pack](/packages/basic-mice/), nicht zum [Eco Pack](/packages/eco/), außer Sie haben ihn als Option hinzugefügt. Die vollständige Aufschlüsselung finden Sie oben unter [Prüfung je Paket](#prüfung-je-paket-womit-sie-anfangen).
+
+### Warum ist mein Funkmikrofon ausgefallen, und was kann ich während der Veranstaltung tun?
+
+Das betrifft speziell das [Product Presentation Pack](/packages/product-presentation/), das einzige der drei Pakete in Eigenregie mit Funkmikrofon. Prüfen Sie zuerst den Batteriestand und vergewissern Sie sich dann, dass es auf denselben Kanal wie sein Empfänger eingestellt ist: Das sind die ersten beiden Dinge, die Sie ausschließen sollten, bevor Sie das Gerät selbst verdächtigen. Das [Eco Pack](/packages/eco/) hat ein kabelgebundenes dynamisches Mikrofon, und das Schwanenhalsmikrofon des [Basic MICE Pack](/packages/basic-mice/) ist per Kabel mit dem Rednerpult verbunden, daher tritt dieses Problem bei beiden nicht auf.
+
+### Mein Beamer synchronisiert sich nicht mit der Leinwand, was prüfe ich zuerst?
+
+Prüfen Sie, ob die am Beamer gewählte Eingangsquelle, meist HDMI oder der genutzte Anschluss, zu dem Laptop oder Gerät passt, das gerade tatsächlich angeschlossen ist. Das gilt für das [Product Presentation Pack](/packages/product-presentation/) und das [Basic MICE Pack](/packages/basic-mice/), die beide serienmäßig einen Beamer und eine Leinwand enthalten. Siehe oben [Prüfung je Paket](#prüfung-je-paket-womit-sie-anfangen).
+
+### Warum gibt es Rückkopplung oder ein Brummen aus den Lautsprechern?
+
+Rückkopplung, ein aufsteigendes Pfeifen, bedeutet meist, dass ein Mikrofon einem Lautsprecher zu nahe gekommen ist oder auf ihn gerichtet ist. Es zu verschieben oder wegzudrehen ist das Erste, was Sie versuchen sollten. Ein gleichmäßiges Brummen deutet häufiger auf ein Kabel hin, das eine Stromleitung kreuzt, oder auf einen lockeren Anschluss. Den Kabelverlauf nachzuverfolgen und beide Enden neu einzustecken lohnt sich, bevor Sie einen Defekt annehmen. Siehe oben [Rückkopplung oder Brummen aus den Lautsprechern](#rückkopplung-oder-brummen-aus-den-lautsprechern).
+
+### Wen rufe ich an, wenn die Technik während meiner Veranstaltung ausfällt?
+
+Prüfen Sie zuerst Kabel, Gain, Batterie und Eingangswahl. Wenn das nichts löst, sind wir 24 Stunden am Tag, 7 Tage die Woche für den technischen Aufbau und die Betreuung laufender Veranstaltungen erreichbar, auch bei Paketen in Eigenregie. [Kontaktieren Sie uns](/contact/) oder rufen Sie 666 346 911 an.
+
+### Vermietet Malaga Event Gear nur die Technik und verabschiedet sich dann, oder gibt es Hilfe, wenn später etwas schiefgeht?
+
+Wir liefern, installieren und testen jede Buchung, bevor wir gehen, sodass bei der Übergabe alles korrekt funktioniert, aber wir verschwinden danach nicht. Unsere Leitung ist 24 Stunden am Tag, 7 Tage die Woche für den technischen Aufbau und die Betreuung laufender Veranstaltungen erreichbar, auch beim [Eco Pack](/packages/eco/), beim [Product Presentation Pack](/packages/product-presentation/) und beim [Basic MICE Pack](/packages/basic-mice/) ohne die Technikeroption. Siehe oben [Bevor Sie den Fehler suchen](#bevor-sie-den-fehler-suchen-was-schon-vor-ihrem-eingreifen-passiert-ist).
+
+### Kann ich mitten in der Buchung einen Techniker hinzufügen, wenn ich meine Technik doch nicht selbst betreuen möchte?
+
+Beim [Basic MICE Pack](/packages/basic-mice/) ja, der Techniker ist ein kostenpflichtiges Extra zu 240 Euro pro Tag. Sagen Sie uns also Bescheid, sobald Sie sich entscheiden, statt bis zum Tag Ihrer Veranstaltung zu warten, denn er muss genauso eingeplant werden wie die Technik selbst. Das [Eco Pack](/packages/eco/) und das [Product Presentation Pack](/packages/product-presentation/) bieten zu keinem Preis einen Techniker an. Siehe oben [Lieber einen Techniker, statt selbst nach dem Fehler zu suchen?](#lieber-einen-techniker-statt-selbst-nach-dem-fehler-zu-suchen)
+
+### Ist die Fehlersuche bei Veranstaltungen im Freien anders?
+
+Die Prüfungen sind dieselben, Kabel, Gain, Batterie, Eingangswahl, aber Wind und ungeschützte Kabel im Freien schaffen zusätzliche Möglichkeiten, dass sich ein Anschluss löst. In unserem Ratgeber zur [AV-Vermietung für Veranstaltungen im Freien](/blog/audio-visual-rental-for-outdoor-events/) lesen Sie, wie wir dafür vorsorgen, bevor Ihre Veranstaltung beginnt.
+
+### Was ist der Unterschied zwischen einem Techniker, der ein Problem behebt, und mir, der es selbst behebt?
+
+Ein Techniker beobachtet die Pegel kontinuierlich, sodass eine abgebrochene Verbindung oder ein stummgeschalteter Kanal in dem Moment auffällt, in dem es passiert. Wenn Sie Ihre Technik selbst betreiben, bemerken Sie es erst, wenn es Ihre Veranstaltung bereits beeinträchtigt, und die Lösung ist die schnelle Prüfung auf dieser Seite, die zu Ihrem Paket passt. Keines von beidem ist falsch, es geht darum, ob Ihr Paket diese kontinuierliche Beobachtung enthält oder nicht. Siehe oben [Die eigene Technik bedienen](#die-eigene-technik-bedienen-welche-pakete-laufen-in-eigenregie), welche Pakete eine enthalten.

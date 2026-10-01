@@ -1,0 +1,205 @@
+---
+title: "Fejlfinding på AV-systemer i Malaga, Spanien"
+description: "Fejlfinding på AV-systemer i Malaga, Spanien, til pakker, du kører selv: tjek til Eco Pack, Product Presentation Pack og Basic MICE Pack, før du ringer til os."
+excerpt: "Fejlfinding på AV-systemer i Malaga: hvad du selv kan tjekke, hvis en pakke, du kører selv, holder op med at virke midt i eventet, pakke for pakke, for Eco Pack, Product Presentation Pack og Basic MICE Pack uden teknikertilkøb."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Den, der søger på engelsk efter "AV system troubleshooting", går som regel ud fra, at en tekniker allerede har løst problemet, eller at det handler om et fastinstalleret kontorsystem, som du selv ejer. Ingen af delene beskriver den situation, som denne guide til fejlfinding på AV-systemer i Malaga, Spanien, handler om: du har lejet en af vores pakker, ingen tekniker er på stedet, og noget er holdt op med at virke, som det gjorde, da vores hold gik.
+
+Vores guides om teknisk support til events og om at [leje en AV-tekniker](/blog/av-technician-hire/) dækker allerede det andet scenarie i dybden: hvad vores hold gør, når en tekniker er en del af din booking. Denne side er især til de pakker, hvor ingen holder øje med niveauerne for dig: [Eco Pack](/packages/eco/), [Product Presentation Pack](/packages/product-presentation/) og [Basic MICE Pack](/packages/basic-mice/), hvis du ikke tilføjede teknikertilkøbet. Hvad du selv kan tjekke, pakke for pakke, før du antager, at noget faktisk er i stykker.
+
+[Book nu](/packages/) og bekræft, hvilken af vores pakker der gør dig til den, der kører udstyret.
+
+## Indholdsfortegnelse
+
+-   [Kort overblik](#kort-overblik)
+-   [Det vigtigste](#det-vigtigste)
+-   [At køre dit eget udstyr: hvilke pakker du kører selv](#at-køre-dit-eget-udstyr-hvilke-pakker-du-kører-selv)
+-   [Før du fejlfinder: hvad der allerede var sket, før du begyndte](#før-du-fejlfinder-hvad-der-allerede-var-sket-før-du-begyndte)
+-   [Tjek pakke for pakke: hvad du kigger på først](#tjek-pakke-for-pakke-hvad-du-kigger-på-først)
+-   [Feedback eller brummen fra højttalerne](#feedback-eller-brummen-fra-højttalerne)
+-   [Hvem du ringer til, når det går ud over et hurtigt tjek](#hvem-du-ringer-til-når-det-går-ud-over-et-hurtigt-tjek)
+-   [Vil du hellere have en tekniker end fejlfinde selv?](#vil-du-hellere-have-en-tekniker-end-fejlfinde-selv)
+-   [Er fejlfinding anderledes udendørs?](#er-fejlfinding-anderledes-udendørs)
+-   [Rigtige opsætninger, vi har leveret](#rigtige-opsætninger-vi-har-leveret)
+-   [Hvor lang tid i forvejen du skal booke](#hvor-lang-tid-i-forvejen-du-skal-booke)
+-   [Konklusion](#konklusion)
+-   [Ofte stillede spørgsmål](#ofte-stillede-spørgsmål)
+    -   [Hvilke pakker inkluderer en tekniker, der klarer fejlfindingen for mig, og hvilke gør ikke?](#hvilke-pakker-inkluderer-en-tekniker-der-klarer-fejlfindingen-for-mig-og-hvilke-gør-ikke)
+    -   [Hvis jeg kører mit eget udstyr, hvad skal jeg selv tjekke, hvis noget holder op med at virke?](#hvis-jeg-kører-mit-eget-udstyr-hvad-skal-jeg-selv-tjekke-hvis-noget-holder-op-med-at-virke)
+    -   [Hvorfor faldt min trådløse mikrofon ud, og hvad kan jeg gøre under eventet?](#hvorfor-faldt-min-trådløse-mikrofon-ud-og-hvad-kan-jeg-gøre-under-eventet)
+    -   [Min projektor synkroniserer ikke med lærredet, hvad tjekker jeg først?](#min-projektor-synkroniserer-ikke-med-lærredet-hvad-tjekker-jeg-først)
+    -   [Hvorfor er der feedback eller brummen fra højttalerne?](#hvorfor-er-der-feedback-eller-brummen-fra-højttalerne)
+    -   [Hvem ringer jeg til, hvis udstyret holder op med at virke under mit event?](#hvem-ringer-jeg-til-hvis-udstyret-holder-op-med-at-virke-under-mit-event)
+    -   [Udlejer Malaga Event Gear bare udstyr og forsvinder så, eller er der hjælp at få, hvis noget går galt senere?](#udlejer-malaga-event-gear-bare-udstyr-og-forsvinder-så-eller-er-der-hjælp-at-få-hvis-noget-går-galt-senere)
+    -   [Kan jeg tilføje en tekniker midt i bookingen, hvis jeg beslutter, at jeg ikke vil fejlfinde mit eget udstyr?](#kan-jeg-tilføje-en-tekniker-midt-i-bookingen-hvis-jeg-beslutter-at-jeg-ikke-vil-fejlfinde-mit-eget-udstyr)
+    -   [Er fejlfinding anderledes ved events udendørs?](#er-fejlfinding-anderledes-ved-events-udendørs)
+    -   [Hvad er forskellen på, at en tekniker løser et problem, og at jeg selv løser det?](#hvad-er-forskellen-på-at-en-tekniker-løser-et-problem-og-at-jeg-selv-løser-det)
+
+## Kort overblik
+
+---
+
+Tre pakker fra Malaga Event Gear gør dig til den, der kører dit eget udstyr, uden en tekniker, der holder øje med niveauerne: [Eco Pack](/packages/eco/), [Product Presentation Pack](/packages/product-presentation/) og [Basic MICE Pack](/packages/basic-mice/), hvis du springer dets teknikertilkøb over. Hver pakke har forskelligt udstyr, så det, du tjekker, når noget holder op med at virke, er også forskelligt: der findes ikke én generel tjekliste.
+
+Denne guide gennemgår, hvad vores hold allerede havde testet, før det gik, hvad du skal kigge på først i hver af de tre pakker, og hvem du ringer til, hvis et hurtigt tjek ikke løser det. [Kontakt os](/contact/), hvis du er usikker på, hvilken pakke din booking hører under.
+
+## Det vigtigste
+
+---
+
+-   Tre pakker kører man virkelig selv: [Eco Pack](/packages/eco/) og [Product Presentation Pack](/packages/product-presentation/) har slet ingen teknikermulighed, og [Basic MICE Pack](/packages/basic-mice/) får kun en tekniker, hvis du betaler for tilkøbet.
+
+-   Vi leverer altid selv: vores hold transporterer, installerer, kalibrerer og tester hver booking, også disse tre, før det forlader dit sted. Det ærlige udgangsspørgsmål er, hvad der har ændret sig siden leveringen, ikke hvad der var i stykker fra start.
+
+-   Hvilket tjek der betyder noget, afhænger af, hvad din pakke faktisk indeholder. [Eco Pack](/packages/eco/) har hverken mixerpult eller trådløs mikrofon, så fejlfinding på nogen af dem gælder ikke den.
+
+-   En trådløs mikrofon findes kun i [Product Presentation Pack](/packages/product-presentation/). Svanehalsmikrofonen i [Basic MICE Pack](/packages/basic-mice/) er koblet med kabel til talerpulten, så der er hverken batteri eller kanal at tjekke.
+
+-   Vi er tilgængelige 24 timer i døgnet, 7 dage om ugen, til tekniske opsætninger og overvågning af events, mens de foregår, så et opkald er altid en mulighed, når du har tjekket det oplagte.
+
+## At køre dit eget udstyr: hvilke pakker du kører selv
+
+Ikke alle pakker har en tekniker på stedet, og fordelingen er langt fra jævn. Ser vi på hele vores katalog: [Wedding Pack](/packages/wedding/) inkluderer en tekniker under hele eventet, og [MICE Pack](/packages/mice/) inkluderer en i op til 6 timer i træk. Ingen af dem er, hvad denne side handler om. Vores guide om teknisk support til events beskriver, hvad den tekniker faktisk gør, fase for fase, hvis en af dem passer til din booking.
+
+Denne side dækker i stedet de tre andre pakker:
+
+-   **[Eco Pack](/packages/eco/).** Slet ingen teknikermulighed, heller ikke som tilkøb. Bygget som et PA-anlæg, man kører selv, til en DJ eller vært, der styrer sine egne niveauer.
+-   **[Product Presentation Pack](/packages/product-presentation/).** Heller ingen teknikermulighed her. Bygget til en virksomhedspræsentation, en præsentation hos en bilforhandler eller en produktlancering, som køres af den, der præsenterer.
+-   **[Basic MICE Pack](/packages/basic-mice/).** En tekniker kan fås, men kun som tilkøb til 240 euro pr. dag. Hvis du ikke har tilføjet den, kører du din booking selv som standard.
+
+Hvis intet af det passer til din pakke, har vores guide om at [leje en AV-tekniker](/blog/av-technician-hire/) hele opdelingen af teknikeren pakke for pakke.
+
+<InlineCTA />
+
+## Før du fejlfinder: hvad der allerede var sket, før du begyndte
+
+Vi tilbyder hverken selvafhentning eller selvaflevering på nogen pakke. Hver booking, også disse tre, kommer med vores eget hold, som leverer, installerer og tester udstyret, før det går, og tjekker, at højttalerne har strøm, at mikrofonen er aktiv, og at et lærred eller en projektor er synkroniseret, hvis din pakke har et.
+
+Det betyder noget for, hvordan du fejlfinder. Hvis noget ikke virker nu, virkede det, da vores hold gik, så det ærlige første spørgsmål er, hvad der har ændret sig siden da, ikke hvad der kan være i stykker. De sædvanlige mistænkte er et kabel, der er blevet revet løs, da et bord eller et stativ blev flyttet, en gain- eller lydstyrkeknap, der er blevet drejet af en, der støttede sig til mixerpulten, et batteri, der er løbet tør i en trådløs håndmikrofon, eller en valgt indgang, der ikke passer til den bærbare computer eller enhed, som faktisk er tilsluttet lige nu.
+
+Hvad den første opsætning faktisk indebærer, gain staging og højttalerplacering tilpasset netop dit sted i stedet for en fast indstilling, kan du læse i vores guide om [kalibrering af lydanlæg](/blog/audio-system-calibration/). Denne side tager over derfra: hvad du tjekker, hvis noget ændrer sig, efter vores hold er gået, ikke hvordan det blev kalibreret til at begynde med.
+
+## Tjek pakke for pakke: hvad du kigger på først
+
+Hvad du tjekker, afhænger af, hvad din pakke faktisk indeholder, da ingen af disse tre pakker har det samme udstyr.
+
+| | [Eco Pack](/packages/eco/) | [Product Presentation Pack](/packages/product-presentation/) | [Basic MICE Pack](/packages/basic-mice/) (uden teknikertilkøb) |
+| --- | --- | --- | --- |
+| Højttalere | 2 aktive højttalere på stativer | 2 højttalere via en mixerpult | Simpelt lydforstærkningsanlæg |
+| Mikrofon | 1 kabelforbundet dynamisk mikrofon | 1 trådløs håndmikrofon | 1 kabelforbundet svanehalsmikrofon (monteret på talerpulten) |
+| Mixerpult | Ingen | Ja | Ingen |
+| Projektor og lærred | Ikke inkluderet (tilkøb, +50 euro) | Ja, projektor på 5000 lumen og lærred | Ja, projektor på 3000 lumen og lærred på 2x2 m |
+| Belysning | 2 RGBW-LED-lysbjælker | Ingen | Ingen |
+| Tekniker | Ikke tilbudt | Ikke tilbudt | Valgfrit tilkøb, +240 euro pr. dag |
+
+### Eco Pack: ingen mixerpult, ingen trådløs mikrofon
+
+Eco Pack er det enkleste af de tre, og den enkelhed betyder færre ting at tjekke. Der er hverken mixerpult eller trådløs mikrofon i denne pakke, så hvis et søgeresultat siger, at du skal tjekke kanalen på en trådløs modtager, gælder det ikke her.
+
+-   Tjek, at begge aktive højttalere stadig er sat til strøm, og at kablet fra det sted, hvor lyden mixes, til hver højttaler sidder helt i.
+-   Tjek XLR-kablet til den kabelforbundne dynamiske mikrofon i begge ender, ved selve mikrofonen og der, hvor det tilsluttes.
+-   Tjek strøm og tilslutning på RGBW-LED-lysbjælkerne, hvis det er lyset, der virker forkert, og ikke lyden.
+-   Hvis du tilføjede den valgfrie projektor til +50 euro, fungerer tjekket af dens indgangskilde på samme måde som i afsnittet om Product Presentation Pack nedenfor.
+
+### Product Presentation Pack: mixerpult, projektor og trådløs mikrofon
+
+Det er pakken med mest at tjekke, fordi den som den eneste af de tre har både mixerpult og trådløs mikrofon.
+
+-   Tjek på mixerpulten, om en kanal er blevet dæmpet, eller en gainfader er skubbet ned, for eksempel af en, der har støttet sig til pulten, eller af en taske, der er stillet på den.
+-   Tjek, at den indgangskanal, der er valgt på mixerpulten, passer til den bærbare computer eller enhed, som faktisk er tilsluttet lige nu, især hvis flere personer har tilsluttet sig under eventet.
+-   Tjek batteriniveauet i den trådløse håndmikrofon, og bekræft, at den er sat til samme kanal som sin modtager. Det er de to første ting, du skal udelukke, før du mistænker selve enheden.
+-   Tjek projektorens valg af indgangskilde (HDMI eller den port, der bruges) mod den tilsluttede bærbare computer, og bekræft, at lærredet viser samme opløsning, som projektoren forventer.
+-   Tjek, at hvert kabel, HDMI, XLR og højttaler, stadig sidder fast i begge ender. Løse kabler er det første, du skal udelukke i alle tre pakker.
+
+### Basic MICE Pack uden teknikertilkøb
+
+Uden tilkøbet har Basic MICE Pack ingen mixerpult at tjekke og heller ingen trådløs mikrofon, dens svanehalsmikrofon er koblet direkte til talerpulten.
+
+-   Tjek projektorens indgangskilde mod den tilsluttede bærbare computer, det samme tjek som for Product Presentation Pack ovenfor.
+-   Tjek kabeltilslutningen på svanehalsmikrofonen ved foden af talerpulten.
+-   Tjek, at strøm- og højttalerkablerne til lydforstærkningsanlægget stadig sidder fast, da der ikke er nogen fader på en mixerpult, som kan afgrænse problemet.
+
+## Feedback eller brummen fra højttalerne
+
+Det her gælder ingen enkelt pakke. Feedback, det stigende hyl, når en mikrofon opfanger sin egen forstærkede lyd, betyder som regel, at mikrofonen er kommet tættere på en højttaler eller nu peger mod en, så at flytte den eller dreje den lidt væk er det første, du skal prøve. En jævn brummen peger oftere på et kabel, der krydser et strømkabel, eller på en løs forbindelse i den ene ende, og det er værd at følge kablets vej og sætte begge ender i igen, før du antager, at noget er defekt.
+
+## Hvem du ringer til, når det går ud over et hurtigt tjek
+
+Tjek det oplagte først: kabler, gain, batteri, valg af indgang. Hvis det ikke løser det, er vi tilgængelige 24 timer i døgnet, 7 dage om ugen, til tekniske opsætninger og overvågning af events, mens de foregår, på hver booking, også disse tre pakker, du kører selv. [Kontakt os](/contact/) eller ring på 666 346 911, hvis du har brug for os midt under eventet.
+
+## Vil du hellere have en tekniker end fejlfinde selv?
+
+Hvis du under læsningen ønsker, at en anden tog sig af det her, er det en reel mulighed på én af de tre pakker. Vores guide om at [leje en AV-tekniker](/blog/av-technician-hire/) forklarer, hvilken pakke du kan tilføje en til, og hvad det koster, og vores guide om teknisk support til events beskriver, hvad den tekniker faktisk gør på stedet. [Basic MICE Pack](/packages/basic-mice/) kan få tilføjet en for 240 euro pr. dag. [Eco Pack](/packages/eco/) og [Product Presentation Pack](/packages/product-presentation/) tilbyder ingen til nogen pris, så hvis en tekniker er et absolut krav til dit event, er [Wedding Pack](/packages/wedding/) eller [MICE Pack](/packages/mice/) de pakker, der har en med som standard. Og hvis du slet ikke har booket endnu, gennemgår vores guide om [rådgivning om AV-udlejning](/blog/av-equipment-consultations/), hvordan du matcher dit event med den rigtige pakke, før du kommer til denne side.
+
+## Er fejlfinding anderledes udendørs?
+
+Tjekkene er de samme, kabler, gain, batteri, valg af indgang, men en booking udendørs lægger udsatte kabler og vind oven i listen over ting, der kan rive en forbindelse løs. Se vores guide om [AV-udlejning til udendørs arrangementer](/blog/audio-visual-rental-for-outdoor-events/) for, hvordan vi planlægger kabelføring og stativplacering udendørs, allerede før dit event begynder.
+
+## Rigtige opsætninger, vi har leveret
+
+![En HK Audio-højttaler på et stativ ved siden af et rødt draperet panelbord, med et projektionslærred bagved, ved et foredrag i kulturarvsforeningen PROCURE i en historisk sal i Coín, Malaga-provinsen.](https://cdn.malagaeventgear.com/blog/1307/lighting-sound-big-screen-projector-rental-malaga_4-1024x765.webp "PROCUREs scene og lærred, udstyret af Malaga Event Gear i Coín, Malaga-provinsen.")
+
+Lyd og et projektionslærred til et PROCURE-foredrag i Coín, Malaga-provinsen. Når vores hold er gået, er det den slags opsætning, en booking, du kører selv, tjekkes op mod, ikke en fejl, der skal fejlfindes fra bunden.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1277/', '/1307/'])} speed="normal" direction="left" />
+</div>
+
+## Hvor lang tid i forvejen du skal booke
+
+Alle vores bookinger kræver mindst 24 timers varsel, også pakker, du kører selv. Hvis denne guide får dig til hellere at tilføje en tekniker til [Basic MICE Pack](/packages/basic-mice/), så sig det til os, når du booker, og ikke dagen før, da tilkøbet skal planlægges på samme måde som selve udstyret. Efterspørgslen på pakker med tekniker topper i bryllupssæsonen, fra april til oktober, så det betyder mest at bekræfte tidligt for [Wedding Pack](/packages/wedding/).
+
+## Konklusion
+
+Fejlfinding på AV-systemer i Malaga for en pakke fra Malaga Event Gear, du kører selv, starter med ét ærligt faktum: det virkede, da vores hold gik, fordi vi leverer, installerer og tester alt, før vi går, også på [Eco Pack](/packages/eco/), [Product Presentation Pack](/packages/product-presentation/) og [Basic MICE Pack](/packages/basic-mice/) uden tilkøbet. Hvad du tjekker, afhænger af, hvad din pakke faktisk indeholder: en mixerpult og en trådløs mikrofon på den ene, en kabelforbundet talerpultsmikrofon og en projektor på en anden, og kabler på alle tre. [Kontakt os](/contact/), hvis et hurtigt tjek ikke løser det, vi er tilgængelige døgnet rundt. For den version, hvor en tekniker klarer det, se vores guides om teknisk support til events og om at [leje en AV-tekniker](/blog/av-technician-hire/), eller for vores samlede udstyrsudvalg [siden om AV-udlejning i Malaga](/blog/audio-visual-rental/).
+
+## Ofte stillede spørgsmål
+
+### Hvilke pakker inkluderer en tekniker, der klarer fejlfindingen for mig, og hvilke gør ikke?
+
+[Wedding Pack](/packages/wedding/) og [MICE Pack](/packages/mice/) inkluderer en som standard. [Basic MICE Pack](/packages/basic-mice/) tilbyder en som tilkøb til 240 euro pr. dag. [Eco Pack](/packages/eco/) og [Product Presentation Pack](/packages/product-presentation/) tilbyder slet ingen, til nogen pris. Se [At køre dit eget udstyr](#at-køre-dit-eget-udstyr-hvilke-pakker-du-kører-selv) ovenfor.
+
+### Hvis jeg kører mit eget udstyr, hvad skal jeg selv tjekke, hvis noget holder op med at virke?
+
+Det afhænger af din pakke, da de tre pakker, du kører selv, har forskelligt udstyr. At kablerne sidder fast, gælder alle tre. En mixerpult og en trådløs mikrofon findes kun i [Product Presentation Pack](/packages/product-presentation/). En projektor gælder [Product Presentation Pack](/packages/product-presentation/) og [Basic MICE Pack](/packages/basic-mice/), ikke [Eco Pack](/packages/eco/), medmindre du har tilføjet den som tilkøb. Se [Tjek pakke for pakke](#tjek-pakke-for-pakke-hvad-du-kigger-på-først) ovenfor for hele opdelingen.
+
+### Hvorfor faldt min trådløse mikrofon ud, og hvad kan jeg gøre under eventet?
+
+Det her gælder specifikt [Product Presentation Pack](/packages/product-presentation/), den eneste af de tre pakker, du kører selv, med en trådløs mikrofon. Tjek batteriniveauet først, og bekræft derefter, at den er sat til samme kanal som sin modtager: det er de to første ting, du skal udelukke, før du mistænker selve enheden. [Eco Pack](/packages/eco/) har en kabelforbundet dynamisk mikrofon, og svanehalsmikrofonen i [Basic MICE Pack](/packages/basic-mice/) er koblet med kabel til talerpulten, så ingen af dem har det her problem.
+
+### Min projektor synkroniserer ikke med lærredet, hvad tjekker jeg først?
+
+Tjek, at den indgangskilde, der er valgt på projektoren, som regel HDMI eller den port, der bruges, passer til den bærbare computer eller enhed, som faktisk er tilsluttet lige nu. Det gælder [Product Presentation Pack](/packages/product-presentation/) og [Basic MICE Pack](/packages/basic-mice/), som begge har projektor og lærred som standard. Se [Tjek pakke for pakke](#tjek-pakke-for-pakke-hvad-du-kigger-på-først) ovenfor.
+
+### Hvorfor er der feedback eller brummen fra højttalerne?
+
+Feedback, et stigende hyl, betyder som regel, at en mikrofon er kommet for tæt på en højttaler eller peger mod en, og at flytte den eller dreje den væk er det første, du skal prøve. En jævn brummen peger oftere på et kabel, der krydser en strømledning, eller en løs forbindelse, så det er værd at følge kablets vej og sætte begge ender i igen, før du antager en fejl. Se [Feedback eller brummen fra højttalerne](#feedback-eller-brummen-fra-højttalerne) ovenfor.
+
+### Hvem ringer jeg til, hvis udstyret holder op med at virke under mit event?
+
+Tjek først kabler, gain, batteri og valg af indgang. Hvis det ikke løser det, er vi tilgængelige 24 timer i døgnet, 7 dage om ugen, til tekniske opsætninger og overvågning af events, mens de foregår, også på pakker, du kører selv. [Kontakt os](/contact/) eller ring på 666 346 911.
+
+### Udlejer Malaga Event Gear bare udstyr og forsvinder så, eller er der hjælp at få, hvis noget går galt senere?
+
+Vi leverer, installerer og tester hver booking, før vi går, så alt virker korrekt ved overdragelsen, men vi forsvinder ikke bagefter. Vores linje er tilgængelig 24 timer i døgnet, 7 dage om ugen, til tekniske opsætninger og overvågning af events, mens de foregår, selv på [Eco Pack](/packages/eco/), [Product Presentation Pack](/packages/product-presentation/) og [Basic MICE Pack](/packages/basic-mice/) uden teknikertilkøbet. Se [Før du fejlfinder](#før-du-fejlfinder-hvad-der-allerede-var-sket-før-du-begyndte) ovenfor.
+
+### Kan jeg tilføje en tekniker midt i bookingen, hvis jeg beslutter, at jeg ikke vil fejlfinde mit eget udstyr?
+
+På [Basic MICE Pack](/packages/basic-mice/) ja, teknikeren er et tilkøb til 240 euro pr. dag, så sig det til os, så snart du beslutter dig, og vent ikke til dagen for dit event, da det skal planlægges på samme måde som selve udstyret. [Eco Pack](/packages/eco/) og [Product Presentation Pack](/packages/product-presentation/) tilbyder ingen tekniker til nogen pris. Se [Vil du hellere have en tekniker end fejlfinde selv?](#vil-du-hellere-have-en-tekniker-end-fejlfinde-selv) ovenfor.
+
+### Er fejlfinding anderledes ved events udendørs?
+
+Tjekkene er de samme, kabler, gain, batteri, valg af indgang, men vind og udsatte kabler udendørs giver flere måder, en forbindelse kan blive revet løs på. Se vores guide om [AV-udlejning til udendørs arrangementer](/blog/audio-visual-rental-for-outdoor-events/) for, hvordan vi planlægger det, før dit event begynder.
+
+### Hvad er forskellen på, at en tekniker løser et problem, og at jeg selv løser det?
+
+En tekniker holder øje med niveauerne hele tiden, så en tabt forbindelse eller en dæmpet kanal opdages i samme øjeblik, det sker. Når du kører dit eget udstyr, opdager du det først, når det allerede påvirker dit event, og løsningen er det hurtige tjek på denne side, som svarer til din pakke. Ingen af delene er forkert, det handler om, hvorvidt din pakke har den løbende overvågning eller ej. Se [At køre dit eget udstyr](#at-køre-dit-eget-udstyr-hvilke-pakker-du-kører-selv) ovenfor for, hvilke pakker der har en.

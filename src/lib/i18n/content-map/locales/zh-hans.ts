@@ -391,6 +391,11 @@ export default {
 			slug: '视听租赁筹备时间表',
 			keyword: '马拉加 视听租赁筹备时间表',
 			status: 'propuesta'
+		},
+		'av-system-troubleshooting': {
+			slug: '视听系统故障排查',
+			keyword: '马拉加 视听系统故障排查',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

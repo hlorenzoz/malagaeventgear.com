@@ -1,0 +1,205 @@
+---
+title: "Felsökning av AV-system i Malaga, Spanien"
+description: "Felsökning av AV-system i Malaga, Spanien, för paket du kör själv: kontroller för Eco Pack, Product Presentation Pack och Basic MICE Pack innan du ringer oss."
+excerpt: "Felsökning av AV-system i Malaga: vad du kan kontrollera själv om ett paket du kör på egen hand slutar fungera mitt under evenemanget, paket för paket, för Eco Pack, Product Presentation Pack och Basic MICE Pack utan teknikertillval."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Den som söker på engelska efter "AV system troubleshooting" utgår oftast från att en tekniker redan har löst problemet, eller att det gäller ett fast installerat kontorssystem som du äger. Inget av det beskriver situationen den här guiden om felsökning av AV-system i Malaga, Spanien, handlar om: du har hyrt ett av våra paket, ingen tekniker finns på plats och något har slutat fungera som det gjorde när vårt team lämnade platsen.
+
+Våra guider om teknisk support för evenemang och om att [hyra en AV-tekniker](/blog/av-technician-hire/) går redan på djupet med det andra scenariot: vad vårt team gör när en tekniker ingår i din bokning. Den här sidan gäller särskilt de paket där ingen håller koll på nivåerna åt dig: [Eco Pack](/packages/eco/), [Product Presentation Pack](/packages/product-presentation/) och [Basic MICE Pack](/packages/basic-mice/) om du inte lade till teknikertillvalet. Vad du kan kontrollera själv, paket för paket, innan du antar att något verkligen är trasigt.
+
+[Boka nu](/packages/) och bekräfta vilket av våra paket som gör att du själv kör utrustningen.
+
+## Innehållsförteckning
+
+-   [Kort översikt](#kort-översikt)
+-   [Det viktigaste](#det-viktigaste)
+-   [Köra utrustningen själv: vilka paket du kör på egen hand](#köra-utrustningen-själv-vilka-paket-du-kör-på-egen-hand)
+-   [Innan du felsöker: vad som redan hänt innan du började](#innan-du-felsöker-vad-som-redan-hänt-innan-du-började)
+-   [Kontroll per paket: vad du tittar på först](#kontroll-per-paket-vad-du-tittar-på-först)
+-   [Rundgång eller brum från högtalarna](#rundgång-eller-brum-från-högtalarna)
+-   [Vem du ringer när det går utöver en snabb kontroll](#vem-du-ringer-när-det-går-utöver-en-snabb-kontroll)
+-   [Vill du ha en tekniker i stället för att felsöka själv?](#vill-du-ha-en-tekniker-i-stället-för-att-felsöka-själv)
+-   [Är felsökning annorlunda utomhus?](#är-felsökning-annorlunda-utomhus)
+-   [Verkliga uppsättningar vi har levererat](#verkliga-uppsättningar-vi-har-levererat)
+-   [Hur långt i förväg du ska boka](#hur-långt-i-förväg-du-ska-boka)
+-   [Slutsats](#slutsats)
+-   [Vanliga frågor](#vanliga-frågor)
+    -   [Vilka paket innehåller en tekniker som sköter felsökningen åt mig, och vilka gör det inte?](#vilka-paket-innehåller-en-tekniker-som-sköter-felsökningen-åt-mig-och-vilka-gör-det-inte)
+    -   [Om jag kör min egen utrustning, vad ska jag själv kontrollera om något slutar fungera?](#om-jag-kör-min-egen-utrustning-vad-ska-jag-själv-kontrollera-om-något-slutar-fungera)
+    -   [Varför föll min trådlösa mikrofon bort, och vad kan jag göra under evenemanget?](#varför-föll-min-trådlösa-mikrofon-bort-och-vad-kan-jag-göra-under-evenemanget)
+    -   [Min projektor synkar inte med duken, vad kontrollerar jag först?](#min-projektor-synkar-inte-med-duken-vad-kontrollerar-jag-först)
+    -   [Varför hörs rundgång eller brum från högtalarna?](#varför-hörs-rundgång-eller-brum-från-högtalarna)
+    -   [Vem ringer jag om utrustningen slutar fungera under mitt evenemang?](#vem-ringer-jag-om-utrustningen-slutar-fungera-under-mitt-evenemang)
+    -   [Hyr Malaga Event Gear bara ut utrustning och försvinner sedan, eller finns hjälp om något går fel senare?](#hyr-malaga-event-gear-bara-ut-utrustning-och-försvinner-sedan-eller-finns-hjälp-om-något-går-fel-senare)
+    -   [Kan jag lägga till en tekniker mitt i bokningen om jag bestämmer mig för att inte felsöka min egen utrustning?](#kan-jag-lägga-till-en-tekniker-mitt-i-bokningen-om-jag-bestämmer-mig-för-att-inte-felsöka-min-egen-utrustning)
+    -   [Är felsökning annorlunda vid evenemang utomhus?](#är-felsökning-annorlunda-vid-evenemang-utomhus)
+    -   [Vad är skillnaden mellan att en tekniker åtgärdar ett problem och att jag gör det själv?](#vad-är-skillnaden-mellan-att-en-tekniker-åtgärdar-ett-problem-och-att-jag-gör-det-själv)
+
+## Kort översikt
+
+---
+
+Tre paket från Malaga Event Gear gör att du själv kör din utrustning, utan en tekniker som håller koll på nivåerna: [Eco Pack](/packages/eco/), [Product Presentation Pack](/packages/product-presentation/) och [Basic MICE Pack](/packages/basic-mice/) om du hoppar över dess teknikertillval. Varje paket har olika utrustning, så vad du kontrollerar när något slutar fungera skiljer sig också: det finns ingen enda generell checklista.
+
+Den här guiden går igenom vad vårt team redan testat innan det lämnade platsen, vad du ska titta på först i vart och ett av de tre paketen och vem du ringer om en snabb kontroll inte löser problemet. [Kontakta oss](/contact/) om du är osäker på vilket paket din bokning gäller.
+
+## Det viktigaste
+
+---
+
+-   Tre paket körs verkligen på egen hand: [Eco Pack](/packages/eco/) och [Product Presentation Pack](/packages/product-presentation/) har inget teknikeralternativ alls, och [Basic MICE Pack](/packages/basic-mice/) får bara en tekniker om du betalar för tillvalet.
+
+-   Vi levererar alltid själva: vårt team transporterar, installerar, kalibrerar och testar varje bokning, även dessa tre, innan det lämnar din plats. Den ärliga utgångsfrågan är vad som har ändrats sedan leveransen, inte vad som var trasigt från början.
+
+-   Vilken kontroll som spelar roll beror på vad ditt paket faktiskt innehåller. [Eco Pack](/packages/eco/) har varken mixerbord eller trådlös mikrofon, så felsökning av någon av dem gäller inte där.
+
+-   En trådlös mikrofon finns bara i [Product Presentation Pack](/packages/product-presentation/). Svanhalsmikrofonen i [Basic MICE Pack](/packages/basic-mice/) är sladdansluten till talarstolen, så där finns varken batteri eller kanal att kontrollera.
+
+-   Vi är tillgängliga dygnet runt, alla dagar i veckan, för teknisk installation och övervakning av evenemang medan de pågår, så ett samtal är alltid möjligt när du har kontrollerat det självklara.
+
+## Köra utrustningen själv: vilka paket du kör på egen hand
+
+Inte alla paket har en tekniker på plats, och fördelningen är långt ifrån jämn. Om vi tittar på hela vårt sortiment: [Wedding Pack](/packages/wedding/) innehåller en tekniker under hela evenemanget, och [MICE Pack](/packages/mice/) innehåller en i upp till 6 timmar i sträck. Ingen av dem är vad den här sidan handlar om. Vår guide om teknisk support för evenemang beskriver vad den teknikern faktiskt gör, fas för fas, om någon av dem stämmer med din bokning.
+
+Den här sidan gäller i stället de andra tre paketen:
+
+-   **[Eco Pack](/packages/eco/).** Inget teknikeralternativ alls, inte ens som betalt tillval. Byggt som ett PA-system som man kör själv, för en DJ eller värd som styr sina egna nivåer.
+-   **[Product Presentation Pack](/packages/product-presentation/).** Inget teknikeralternativ här heller. Byggt för en företagspresentation, en visning hos en bilhandlare eller en produktlansering som körs av den som presenterar.
+-   **[Basic MICE Pack](/packages/basic-mice/).** En tekniker finns att få, men bara som betalt tillval för 240 euro per dag. Om du inte lade till den körs din bokning på egen hand som standard.
+
+Om inget av det stämmer med ditt paket finns hela uppdelningen av tekniker per paket i vår guide om att [hyra en AV-tekniker](/blog/av-technician-hire/).
+
+<InlineCTA />
+
+## Innan du felsöker: vad som redan hänt innan du började
+
+Vi erbjuder inte självhämtning eller självavlämning för något paket. Varje bokning, även dessa tre, kommer med vårt eget team, som levererar, installerar och testar utrustningen innan det går, och kontrollerar att högtalarna har ström, att mikrofonen är aktiv och att en duk eller projektor är synkad om ditt paket har en.
+
+Det spelar roll för hur du felsöker. Om något inte fungerar nu fungerade det när vårt team lämnade platsen, så den ärliga första frågan är vad som har ändrats sedan dess, inte vad som kan vara trasigt. De vanliga misstänkta är en sladd som lossnat när ett bord eller ett stativ flyttades, en gain- eller volymratt som rubbats av någon som lutat sig mot mixerbordet, ett batteri som tagit slut i en trådlös handmikrofon, eller en vald ingång som inte stämmer med den bärbara datorn eller enheten som faktiskt är ansluten just nu.
+
+Vad den första uppsättningen faktiskt innebär, gain staging och högtalarplacering som anpassats efter just din plats i stället för en fast inställning, kan du läsa i vår guide om [kalibrering av ljudsystem](/blog/audio-system-calibration/). Den här sidan tar vid därifrån: vad du kontrollerar om något ändras efter att vårt team lämnat platsen, inte hur det kalibrerades från början.
+
+## Kontroll per paket: vad du tittar på först
+
+Vad du kontrollerar beror på vad ditt paket faktiskt innehåller, eftersom inget av de här tre paketen har samma utrustning.
+
+| | [Eco Pack](/packages/eco/) | [Product Presentation Pack](/packages/product-presentation/) | [Basic MICE Pack](/packages/basic-mice/) (utan teknikertillval) |
+| --- | --- | --- | --- |
+| Högtalare | 2 aktiva högtalare på stativ | 2 högtalare via ett mixerbord | Enkelt ljudförstärkningssystem |
+| Mikrofon | 1 trådbunden dynamisk mikrofon | 1 trådlös handmikrofon | 1 trådbunden svanhalsmikrofon (monterad på talarstolen) |
+| Mixerbord | Inget | Ja | Inget |
+| Projektor och duk | Ingår inte (tillval, +50 euro) | Ja, projektor på 5000 lumen och duk | Ja, projektor på 3000 lumen och duk på 2x2 m |
+| Belysning | 2 RGBW-LED-ljusbalkar | Ingen | Ingen |
+| Tekniker | Erbjuds inte | Erbjuds inte | Valfritt tillval, +240 euro per dag |
+
+### Eco Pack: inget mixerbord, ingen trådlös mikrofon
+
+Eco Pack är det enklaste av de tre, och den enkelheten betyder färre saker att kontrollera. Det finns varken mixerbord eller trådlös mikrofon i det här paketet, så om ett sökresultat säger åt dig att kontrollera kanalen på en trådlös mottagare gäller det inte här.
+
+-   Kontrollera att båda de aktiva högtalarna fortfarande sitter i ett eluttag och att sladden som går från mixningspunkten till varje högtalare sitter helt i.
+-   Kontrollera XLR-kabeln till den trådbundna dynamiska mikrofonen i båda ändar, vid själva mikrofonen och där den ansluts.
+-   Kontrollera ström och anslutning på RGBW-LED-ljusbalkarna om det är belysningen som verkar fel och inte ljudet.
+-   Om du lade till den valfria projektorn för +50 euro fungerar kontrollen av dess ingångskälla på samma sätt som i avsnittet om Product Presentation Pack nedan.
+
+### Product Presentation Pack: mixerbord, projektor och trådlös mikrofon
+
+Det här är paketet med mest att kontrollera, eftersom det är det enda av de tre som har både mixerbord och trådlös mikrofon.
+
+-   Kontrollera på mixerbordet om en kanal har tystats eller en gainfader dragits ned, till exempel av någon som lutat sig mot bordet eller av en väska som ställts på det.
+-   Kontrollera att den ingångskanal som valts på mixerbordet stämmer med den bärbara datorn eller enheten som faktiskt är ansluten just nu, särskilt om flera personer har anslutit sig under evenemanget.
+-   Kontrollera batterinivån i den trådlösa handmikrofonen och bekräfta att den är inställd på samma kanal som sin mottagare. Det är de två första sakerna att utesluta innan du misstänker själva enheten.
+-   Kontrollera projektorns val av ingångskälla (HDMI eller den port som används) mot den anslutna bärbara datorn, och bekräfta att duken visar samma upplösning som projektorn förväntar sig.
+-   Kontrollera att varje kabel, HDMI, XLR och högtalarkabel, fortfarande sitter fast i båda ändar. Lösa kablar är det första att utesluta i alla tre paketen.
+
+### Basic MICE Pack utan teknikertillval
+
+Utan tillvalet har Basic MICE Pack inget mixerbord att kontrollera och inte heller någon trådlös mikrofon, dess svanhalsmikrofon är sladdansluten direkt till talarstolen.
+
+-   Kontrollera projektorns ingångskälla mot den anslutna bärbara datorn, samma kontroll som för Product Presentation Pack ovan.
+-   Kontrollera mikrofonsladdens anslutning vid foten av talarstolen.
+-   Kontrollera att ström- och högtalarkablarna till ljudförstärkningssystemet fortfarande sitter fast, eftersom det inte finns någon fader på ett mixerbord som kan avgränsa problemet.
+
+## Rundgång eller brum från högtalarna
+
+Det här gäller inget enskilt paket. Rundgång, det stigande ylet när en mikrofon fångar upp sitt eget förstärkta ljud, betyder oftast att mikrofonen har flyttats närmare en högtalare eller nu är riktad mot en, så att flytta den eller vrida den lite åt sidan är det första du ska försöka. Ett jämnt brum pekar oftare på en kabel som korsar en elkabel, eller en lös anslutning i någon av ändarna, och det är värt att följa kabelns väg och sätta i båda ändarna igen innan du antar att något är fel på utrustningen.
+
+## Vem du ringer när det går utöver en snabb kontroll
+
+Kontrollera det självklara först: kablar, gain, batteri, val av ingång. Om det inte löser det är vi tillgängliga dygnet runt, alla dagar i veckan, för teknisk installation och övervakning av evenemang medan de pågår, på varje bokning, även dessa tre paket som du kör på egen hand. [Kontakta oss](/contact/) eller ring 666 346 911 om du behöver oss mitt under evenemanget.
+
+## Vill du ha en tekniker i stället för att felsöka själv?
+
+Om du under läsningen önskar att någon annan skötte det här är det ett verkligt alternativ i ett av de tre paketen. Vår guide om att [hyra en AV-tekniker](/blog/av-technician-hire/) går igenom vilket paket du kan lägga till en i och vad det kostar, och vår guide om teknisk support för evenemang beskriver vad teknikern faktiskt gör på plats. I [Basic MICE Pack](/packages/basic-mice/) kan du lägga till en för 240 euro per dag. [Eco Pack](/packages/eco/) och [Product Presentation Pack](/packages/product-presentation/) erbjuder ingen tekniker till något pris, så om en tekniker är ett absolut krav för ditt evenemang är [Wedding Pack](/packages/wedding/) eller [MICE Pack](/packages/mice/) de paket som har en med som standard. Och om du ännu inte har bokat alls går vår guide om [rådgivning om AV-uthyrning](/blog/av-equipment-consultations/) igenom hur du matchar ditt evenemang med rätt paket innan du kommer till den här sidan.
+
+## Är felsökning annorlunda utomhus?
+
+Kontrollerna är desamma, kablar, gain, batteri, val av ingång, men en bokning utomhus lägger till utsatta kablar och vind på listan över sådant som kan rycka loss en anslutning. Se vår guide om [AV-uthyrning för utomhusevenemang](/blog/audio-visual-rental-for-outdoor-events/) för hur vi planerar kabeldragning och stativplacering utomhus redan innan ditt evenemang börjar.
+
+## Verkliga uppsättningar vi har levererat
+
+![En HK Audio-högtalare på stativ bredvid ett rött draperat panelbord, med en projektionsduk bakom, vid ett föredrag av kulturarvsföreningen PROCURE i en historisk sal i Coín, Malagaprovinsen.](https://cdn.malagaeventgear.com/blog/1307/lighting-sound-big-screen-projector-rental-malaga_4-1024x765.webp "PROCURE:s scen och duk, utrustade av Malaga Event Gear i Coín, Malagaprovinsen.")
+
+Ljud och en projektionsduk för ett PROCURE-föredrag i Coín, Malagaprovinsen. När vårt team har lämnat platsen är det här den sortens uppsättning som en bokning du kör på egen hand kontrolleras mot, inte ett fel som ska felsökas från noll.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1277/', '/1307/'])} speed="normal" direction="left" />
+</div>
+
+## Hur långt i förväg du ska boka
+
+Alla våra bokningar kräver minst 24 timmars varsel, även paket som du kör på egen hand. Om den här guiden får dig att hellre lägga till en tekniker i [Basic MICE Pack](/packages/basic-mice/), säg till när du bokar och inte dagen innan, eftersom tillvalet måste schemaläggas på samma sätt som själva utrustningen. Efterfrågan på paket med tekniker toppar under bröllopssäsongen, från april till oktober, så att bekräfta tidigt betyder mest för [Wedding Pack](/packages/wedding/).
+
+## Slutsats
+
+Felsökning av AV-system i Malaga för ett paket från Malaga Event Gear som du kör på egen hand utgår från ett ärligt faktum: det fungerade när vårt team lämnade platsen, eftersom vi levererar, installerar och testar allt innan vi går, även i [Eco Pack](/packages/eco/), [Product Presentation Pack](/packages/product-presentation/) och [Basic MICE Pack](/packages/basic-mice/) utan tillvalet. Vad du kontrollerar beror på vad ditt paket faktiskt innehåller: ett mixerbord och en trådlös mikrofon i ett, en trådbunden talarstolsmikrofon och en projektor i ett annat, och kablar i alla tre. [Kontakta oss](/contact/) om en snabb kontroll inte löser det, vi är tillgängliga dygnet runt. För den version som sköts av en tekniker, se våra guider om teknisk support för evenemang och om att [hyra en AV-tekniker](/blog/av-technician-hire/), eller för vårt kompletta utbud av utrustning [sidan om AV-uthyrning i Malaga](/blog/audio-visual-rental/).
+
+## Vanliga frågor
+
+### Vilka paket innehåller en tekniker som sköter felsökningen åt mig, och vilka gör det inte?
+
+[Wedding Pack](/packages/wedding/) och [MICE Pack](/packages/mice/) har en med som standard. [Basic MICE Pack](/packages/basic-mice/) erbjuder en som betalt tillval för 240 euro per dag. [Eco Pack](/packages/eco/) och [Product Presentation Pack](/packages/product-presentation/) erbjuder ingen alls, till något pris. Se [Köra utrustningen själv](#köra-utrustningen-själv-vilka-paket-du-kör-på-egen-hand) ovan.
+
+### Om jag kör min egen utrustning, vad ska jag själv kontrollera om något slutar fungera?
+
+Det beror på vilket paket du har, eftersom de tre paketen du kör på egen hand har olika utrustning. Att kablarna sitter fast gäller alla tre. Ett mixerbord och en trådlös mikrofon finns bara i [Product Presentation Pack](/packages/product-presentation/). En projektor gäller [Product Presentation Pack](/packages/product-presentation/) och [Basic MICE Pack](/packages/basic-mice/), inte [Eco Pack](/packages/eco/) om du inte lade till den som tillval. Se [Kontroll per paket](#kontroll-per-paket-vad-du-tittar-på-först) ovan för hela uppdelningen.
+
+### Varför föll min trådlösa mikrofon bort, och vad kan jag göra under evenemanget?
+
+Det här gäller specifikt [Product Presentation Pack](/packages/product-presentation/), det enda av de tre paketen du kör på egen hand med en trådlös mikrofon. Kontrollera batterinivån först och bekräfta sedan att den är inställd på samma kanal som sin mottagare: det är de två första sakerna att utesluta innan du misstänker själva enheten. [Eco Pack](/packages/eco/) har en trådbunden dynamisk mikrofon och svanhalsmikrofonen i [Basic MICE Pack](/packages/basic-mice/) är sladdansluten till talarstolen, så ingen av dem har det här problemet.
+
+### Min projektor synkar inte med duken, vad kontrollerar jag först?
+
+Kontrollera att den ingångskälla som valts på projektorn, oftast HDMI eller den port som används, stämmer med den bärbara datorn eller enheten som faktiskt är ansluten just nu. Det här gäller [Product Presentation Pack](/packages/product-presentation/) och [Basic MICE Pack](/packages/basic-mice/), som båda har en projektor och en duk som standard. Se [Kontroll per paket](#kontroll-per-paket-vad-du-tittar-på-först) ovan.
+
+### Varför hörs rundgång eller brum från högtalarna?
+
+Rundgång, ett stigande yl, betyder oftast att en mikrofon har kommit för nära en högtalare eller är riktad mot en, och att flytta den eller vinkla bort den är det första du ska försöka. Ett jämnt brum pekar oftare på en kabel som korsar en elledning eller en lös anslutning, så det är värt att följa kabelns väg och sätta i båda ändarna igen innan du antar ett fel. Se [Rundgång eller brum från högtalarna](#rundgång-eller-brum-från-högtalarna) ovan.
+
+### Vem ringer jag om utrustningen slutar fungera under mitt evenemang?
+
+Kontrollera kablar, gain, batteri och val av ingång först. Om det inte löser det är vi tillgängliga dygnet runt, alla dagar i veckan, för teknisk installation och övervakning av evenemang medan de pågår, även för paket som du kör på egen hand. [Kontakta oss](/contact/) eller ring 666 346 911.
+
+### Hyr Malaga Event Gear bara ut utrustning och försvinner sedan, eller finns hjälp om något går fel senare?
+
+Vi levererar, installerar och testar varje bokning innan vi går, så att allt fungerar korrekt vid överlämnandet, men vi försvinner inte därefter. Vår linje är tillgänglig dygnet runt, alla dagar i veckan, för teknisk installation och övervakning av evenemang medan de pågår, även i [Eco Pack](/packages/eco/), [Product Presentation Pack](/packages/product-presentation/) och [Basic MICE Pack](/packages/basic-mice/) utan teknikertillvalet. Se [Innan du felsöker](#innan-du-felsöker-vad-som-redan-hänt-innan-du-började) ovan.
+
+### Kan jag lägga till en tekniker mitt i bokningen om jag bestämmer mig för att inte felsöka min egen utrustning?
+
+I [Basic MICE Pack](/packages/basic-mice/) ja, teknikern är ett betalt tillval för 240 euro per dag, så säg till så fort du bestämmer dig och vänta inte till dagen för ditt evenemang, eftersom det måste schemaläggas på samma sätt som själva utrustningen. [Eco Pack](/packages/eco/) och [Product Presentation Pack](/packages/product-presentation/) erbjuder ingen tekniker till något pris. Se [Vill du ha en tekniker i stället för att felsöka själv?](#vill-du-ha-en-tekniker-i-stället-för-att-felsöka-själv) ovan.
+
+### Är felsökning annorlunda vid evenemang utomhus?
+
+Kontrollerna är desamma, kablar, gain, batteri, val av ingång, men vind och utsatta kablar utomhus ger fler sätt för en anslutning att lossna. Se vår guide om [AV-uthyrning för utomhusevenemang](/blog/audio-visual-rental-for-outdoor-events/) för hur vi planerar för det innan ditt evenemang börjar.
+
+### Vad är skillnaden mellan att en tekniker åtgärdar ett problem och att jag gör det själv?
+
+En tekniker håller koll på nivåerna hela tiden, så en tappad anslutning eller en tystad kanal fångas upp i samma stund det händer. Om du kör din egen utrustning märker du det först när det redan påverkar ditt evenemang, och åtgärden är den snabba kontroll på den här sidan som motsvarar ditt paket. Inget av alternativen är fel, det handlar om huruvida ditt paket har den löpande bevakningen eller inte. Se [Köra utrustningen själv](#köra-utrustningen-själv-vilka-paket-du-kör-på-egen-hand) ovan för vilka paket som har en.

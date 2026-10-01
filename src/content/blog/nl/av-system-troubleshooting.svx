@@ -1,0 +1,205 @@
+---
+title: "Oplossen van problemen met AV-systemen in Malaga, Spanje"
+description: "Oplossen van problemen met AV-systemen in Malaga, Spanje: zelf controleren bij Eco Pack, Product Presentation Pack en Basic MICE Pack voordat je belt."
+excerpt: "Oplossen van problemen met AV-systemen in Malaga: wat je zelf controleert als een zelf te bedienen pakket midden in het evenement stopt, pakket voor pakket, voor het Eco Pack, het Product Presentation Pack en het Basic MICE Pack zonder technicusoptie."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Wie in het Engels zoekt op "AV system troubleshooting", gaat er meestal van uit dat een technicus het al heeft opgelost, of dat het gaat om een vast geïnstalleerd kantoorsysteem dat van jou is. Geen van beide beschrijft de situatie waarvoor deze gids over het oplossen van problemen met AV-systemen in Malaga, Spanje, bedoeld is: je hebt een van onze pakketten gehuurd, er is geen technicus ter plaatse en er werkt iets niet meer zoals toen ons team vertrok.
+
+Onze gidsen over technische ondersteuning bij evenementen en over [AV-technicus inhuren](/blog/av-technician-hire/) behandelen het andere scenario al uitgebreid: wat ons team doet wanneer een technicus bij je boeking hoort. Deze pagina is er speciaal voor de pakketten waarbij niemand de niveaus voor je in de gaten houdt: het [Eco Pack](/packages/eco/), het [Product Presentation Pack](/packages/product-presentation/) en het [Basic MICE Pack](/packages/basic-mice/) als je de technicusoptie niet hebt toegevoegd. Wat je zelf controleert, pakket voor pakket, voordat je aanneemt dat er echt iets kapot is.
+
+[Boek nu](/packages/) en bevestig bij welk van onze pakketten jij de apparatuur zelf bedient.
+
+## Inhoudsopgave
+
+-   [In het kort](#in-het-kort)
+-   [Belangrijkste punten](#belangrijkste-punten)
+-   [Zelf je apparatuur bedienen: welke pakketten zelf te bedienen zijn](#zelf-je-apparatuur-bedienen-welke-pakketten-zelf-te-bedienen-zijn)
+-   [Voordat je problemen oplost: wat er al gebeurd was voordat je begon](#voordat-je-problemen-oplost-wat-er-al-gebeurd-was-voordat-je-begon)
+-   [Controle per pakket: waar je het eerst naar kijkt](#controle-per-pakket-waar-je-het-eerst-naar-kijkt)
+-   [Rondzingen of gebrom uit de luidsprekers](#rondzingen-of-gebrom-uit-de-luidsprekers)
+-   [Wie je belt als het verder gaat dan een snelle controle](#wie-je-belt-als-het-verder-gaat-dan-een-snelle-controle)
+-   [Liever een technicus dan het zelf uitzoeken?](#liever-een-technicus-dan-het-zelf-uitzoeken)
+-   [Is het oplossen van problemen buiten anders?](#is-het-oplossen-van-problemen-buiten-anders)
+-   [Echte opstellingen die we hebben geleverd](#echte-opstellingen-die-we-hebben-geleverd)
+-   [Hoe ver van tevoren boeken](#hoe-ver-van-tevoren-boeken)
+-   [Conclusie](#conclusie)
+-   [Veelgestelde vragen](#veelgestelde-vragen)
+    -   [Welke pakketten bevatten een technicus die het oplossen van problemen voor me doet, en welke niet?](#welke-pakketten-bevatten-een-technicus-die-het-oplossen-van-problemen-voor-me-doet-en-welke-niet)
+    -   [Als ik mijn eigen apparatuur bedien, wat moet ik dan zelf controleren als er iets stopt met werken?](#als-ik-mijn-eigen-apparatuur-bedien-wat-moet-ik-dan-zelf-controleren-als-er-iets-stopt-met-werken)
+    -   [Waarom viel mijn draadloze microfoon weg, en wat kan ik tijdens het evenement doen?](#waarom-viel-mijn-draadloze-microfoon-weg-en-wat-kan-ik-tijdens-het-evenement-doen)
+    -   [Mijn beamer synchroniseert niet met het scherm, wat controleer ik eerst?](#mijn-beamer-synchroniseert-niet-met-het-scherm-wat-controleer-ik-eerst)
+    -   [Waarom hoor ik rondzingen of gebrom uit de luidsprekers?](#waarom-hoor-ik-rondzingen-of-gebrom-uit-de-luidsprekers)
+    -   [Wie bel ik als de apparatuur tijdens mijn evenement stopt met werken?](#wie-bel-ik-als-de-apparatuur-tijdens-mijn-evenement-stopt-met-werken)
+    -   [Verhuurt Malaga Event Gear alleen apparatuur en is het daarna klaar, of is er hulp als er later iets misgaat?](#verhuurt-malaga-event-gear-alleen-apparatuur-en-is-het-daarna-klaar-of-is-er-hulp-als-er-later-iets-misgaat)
+    -   [Kan ik halverwege mijn boeking een technicus toevoegen als ik mijn eigen apparatuur toch niet wil beheren?](#kan-ik-halverwege-mijn-boeking-een-technicus-toevoegen-als-ik-mijn-eigen-apparatuur-toch-niet-wil-beheren)
+    -   [Is het oplossen van problemen anders bij evenementen buiten?](#is-het-oplossen-van-problemen-anders-bij-evenementen-buiten)
+    -   [Wat is het verschil tussen een technicus die een probleem verhelpt en mezelf die het verhelpt?](#wat-is-het-verschil-tussen-een-technicus-die-een-probleem-verhelpt-en-mezelf-die-het-verhelpt)
+
+## In het kort
+
+---
+
+Drie pakketten van Malaga Event Gear laten je zelf je apparatuur bedienen, zonder technicus die de niveaus in de gaten houdt: het [Eco Pack](/packages/eco/), het [Product Presentation Pack](/packages/product-presentation/) en het [Basic MICE Pack](/packages/basic-mice/) als je de technicusoptie overslaat. Elk pakket bevat andere apparatuur, dus wat je controleert als er iets stopt met werken, verschilt ook: er is geen enkele algemene checklist.
+
+Deze gids loopt langs wat ons team al had getest voordat het vertrok, waar je bij elk van die drie pakketten als eerste naar kijkt en wie je belt als een snelle controle het niet oplost. [Neem contact met ons op](/contact/) als je niet zeker weet onder welk pakket je boeking valt.
+
+## Belangrijkste punten
+
+---
+
+-   Drie pakketten zijn echt zelf te bedienen: bij het [Eco Pack](/packages/eco/) en het [Product Presentation Pack](/packages/product-presentation/) is er helemaal geen technicusoptie, en het [Basic MICE Pack](/packages/basic-mice/) krijgt alleen een technicus als je de optie betaalt.
+
+-   We leveren alles zelf: ons team vervoert, installeert, kalibreert en test elke boeking, ook deze drie, voordat het je locatie verlaat. De eerlijke beginvraag is wat er sinds de levering is veranderd, niet wat er vanaf het begin kapot was.
+
+-   Welke controle ertoe doet, hangt af van wat je pakket echt bevat. Het [Eco Pack](/packages/eco/) heeft geen mengpaneel en geen draadloze microfoon, dus problemen met een van beide oplossen is daar niet aan de orde.
+
+-   Een draadloze microfoon bestaat alleen bij het [Product Presentation Pack](/packages/product-presentation/). De zwanenhalsmicrofoon van het [Basic MICE Pack](/packages/basic-mice/) zit met een kabel aan het spreekgestoelte, dus er is geen batterij of kanaal om te controleren.
+
+-   We zijn 24 uur per dag, 7 dagen per week bereikbaar voor technische opbouw en live evenementmonitoring, dus bellen kan altijd zodra je het voor de hand liggende hebt gecontroleerd.
+
+## Zelf je apparatuur bedienen: welke pakketten zelf te bedienen zijn
+
+Niet elk pakket brengt een technicus ter plaatse, en de verdeling is verre van gelijk. Kijkend naar onze hele catalogus: het [Wedding Pack](/packages/wedding/) bevat een technicus voor het hele evenement, en het [MICE Pack](/packages/mice/) bevat er een voor maximaal 6 aaneengesloten uren. Geen van beide is waar deze pagina over gaat. Onze gids over technische ondersteuning bij evenementen beschrijft wat die technicus echt doet, fase voor fase, als een van die twee bij je boeking hoort.
+
+Deze pagina behandelt in plaats daarvan de andere drie pakketten:
+
+-   **[Eco Pack](/packages/eco/).** Helemaal geen technicusoptie, ook niet als betaalde optie. Gebouwd als zelf te bedienen pa-systeem voor een dj of gastheer die de eigen niveaus regelt.
+-   **[Product Presentation Pack](/packages/product-presentation/).** Ook hier geen technicusoptie. Gebouwd voor een zakelijke presentatie, een presentatie bij een autodealer of een productlancering die wordt gedraaid door degene die presenteert.
+-   **[Basic MICE Pack](/packages/basic-mice/).** Een technicus is mogelijk, maar alleen als betaalde optie voor 240 euro per dag. Als je die niet hebt toegevoegd, is je boeking standaard zelf te bedienen.
+
+Als niets daarvan bij je pakket past, bevat onze gids over [AV-technicus inhuren](/blog/av-technician-hire/) het volledige overzicht van de technicus per pakket.
+
+<InlineCTA />
+
+## Voordat je problemen oplost: wat er al gebeurd was voordat je begon
+
+We bieden bij geen enkel pakket zelf ophalen of terugbrengen aan. Elke boeking, ook deze drie, komt met ons eigen team, dat de apparatuur levert, installeert en test voordat het vertrekt, en controleert of de luidsprekers stroom hebben, de microfoon werkt en een scherm of beamer synchroon loopt als je pakket er een bevat.
+
+Dat is belangrijk voor hoe je problemen oplost. Als er nu iets niet werkt, werkte het toen ons team vertrok, dus de eerlijke eerste vraag is wat er sindsdien veranderd is, niet wat er kapot zou kunnen zijn. De gebruikelijke verdachten zijn een kabel die losgetrokken is bij het verschuiven van een tafel of statief, een gain- of volumeregelaar die is verdraaid door iemand die tegen het mengpaneel leunde, een lege batterij in een draadloze handmicrofoon, of een gekozen ingang die niet past bij de laptop of het apparaat dat op dit moment echt is aangesloten.
+
+Wat die eerste opstelling precies inhoudt, namelijk gainafstelling en plaatsing van de luidsprekers, aangepast aan jouw specifieke locatie in plaats van een vaste instelling, lees je in onze gids over de [kalibratie van een geluidssysteem](/blog/audio-system-calibration/). Deze pagina gaat vanaf daar verder: wat je controleert als er iets verandert nadat ons team is vertrokken, niet hoe het in eerste instantie is gekalibreerd.
+
+## Controle per pakket: waar je het eerst naar kijkt
+
+Wat je controleert, hangt af van wat je pakket echt bevat, want geen van deze drie pakketten heeft dezelfde apparatuur.
+
+| | [Eco Pack](/packages/eco/) | [Product Presentation Pack](/packages/product-presentation/) | [Basic MICE Pack](/packages/basic-mice/) (zonder technicusoptie) |
+| --- | --- | --- | --- |
+| Luidsprekers | 2 actieve luidsprekers op statieven | 2 luidsprekers via een mengpaneel | Eenvoudig geluidsversterkingssysteem |
+| Microfoon | 1 bedrade dynamische microfoon | 1 draadloze handmicrofoon | 1 bedrade zwanenhalsmicrofoon (op het spreekgestoelte gemonteerd) |
+| Mengpaneel | Geen | Ja | Geen |
+| Beamer en scherm | Niet inbegrepen (optie, +50 euro) | Ja, beamer met 5000 lumen en scherm | Ja, beamer met 3000 lumen en scherm van 2x2 m |
+| Verlichting | 2 RGBW-LED-lichtbalken | Geen | Geen |
+| Technicus | Niet aangeboden | Niet aangeboden | Betaalde optie, +240 euro per dag |
+
+### Eco Pack: geen mengpaneel, geen draadloze microfoon
+
+Het Eco Pack is het eenvoudigste van de drie, en die eenvoud betekent minder om te controleren. Dit pakket bevat geen mengpaneel en geen draadloze microfoon, dus als een zoekresultaat zegt dat je het kanaal van een draadloze ontvanger moet controleren, geldt dat hier niet.
+
+-   Controleer of beide actieve luidsprekers nog op stroom zijn aangesloten en of de kabel van het mengpunt naar elke luidspreker helemaal vastzit.
+-   Controleer de XLR-kabel van de bedrade dynamische microfoon aan beide uiteinden, bij de microfoon zelf en waar hij is aangesloten.
+-   Controleer de voeding en aansluiting van de RGBW-LED-lichtbalken als het licht er vreemd uitziet en niet het geluid.
+-   Als je de optionele beamer voor +50 euro hebt toegevoegd, werkt de controle van de ingangsbron hetzelfde als in het gedeelte over het Product Presentation Pack hieronder.
+
+### Product Presentation Pack: mengpaneel, beamer en draadloze microfoon
+
+Dit is het pakket met het meeste om te controleren, omdat het als enige van de drie zowel een mengpaneel als een draadloze microfoon heeft.
+
+-   Controleer op het mengpaneel of een kanaal is gedempt of een gainfader is teruggeschoven, bijvoorbeeld doordat iemand tegen de tafel leunde of er een tas op is gezet.
+-   Controleer of het op het mengpaneel gekozen ingangskanaal past bij de laptop of het apparaat dat op dit moment echt is aangesloten, zeker als er tijdens het evenement meerdere mensen hebben aangesloten.
+-   Controleer het batterijniveau van de draadloze handmicrofoon en bevestig dat hij op hetzelfde kanaal staat als zijn ontvanger. Dat zijn de eerste twee dingen om uit te sluiten voordat je het apparaat zelf gaat verdenken.
+-   Controleer de gekozen ingangsbron van de beamer (HDMI of de poort die in gebruik is) ten opzichte van de aangesloten laptop, en bevestig dat het scherm dezelfde resolutie toont als de beamer verwacht.
+-   Controleer of elke kabel, HDMI, XLR en luidspreker, nog aan beide uiteinden vastzit. Losse kabels zijn bij alle drie de pakketten het eerste om uit te sluiten.
+
+### Basic MICE Pack zonder technicusoptie
+
+Zonder de optie heeft het Basic MICE Pack geen mengpaneel om te controleren en ook geen draadloze microfoon: de zwanenhalsmicrofoon zit rechtstreeks met een kabel aan het spreekgestoelte.
+
+-   Controleer de ingangsbron van de beamer ten opzichte van de aangesloten laptop, dezelfde controle als bij het Product Presentation Pack hierboven.
+-   Controleer de kabelaansluiting van de zwanenhalsmicrofoon aan de voet van het spreekgestoelte.
+-   Controleer of de stroom- en luidsprekerkabels van het geluidsversterkingssysteem nog vastzitten, want er is geen fader op een mengpaneel waarmee je het probleem kunt afbakenen.
+
+## Rondzingen of gebrom uit de luidsprekers
+
+Dit hangt niet van één bepaald pakket af. Rondzingen, het oplopende gepiep als een microfoon zijn eigen versterkte geluid opvangt, betekent meestal dat de microfoon dichter bij een luidspreker is gekomen of nu op een luidspreker is gericht. Hem verplaatsen of iets wegdraaien is dus het eerste wat je probeert. Een constant gebrom wijst vaker op een kabel die een stroomkabel kruist, of op een losse verbinding aan een van de uiteinden. Het kabeltraject nalopen en beide uiteinden opnieuw aansluiten is de moeite waard voordat je aanneemt dat er iets defect is.
+
+## Wie je belt als het verder gaat dan een snelle controle
+
+Controleer eerst het voor de hand liggende: kabels, gain, batterij, ingangskeuze. Als dat het niet oplost, zijn we 24 uur per dag, 7 dagen per week bereikbaar voor technische opbouw en live evenementmonitoring, bij elke boeking, ook bij deze drie zelf te bedienen pakketten. [Neem contact met ons op](/contact/) of bel 666 346 911 als je ons midden in het evenement nodig hebt.
+
+## Liever een technicus dan het zelf uitzoeken?
+
+Als je bij het lezen denkt dat iemand anders dit beter kan regelen, is dat een echte mogelijkheid bij een van deze drie pakketten. Onze gids over [AV-technicus inhuren](/blog/av-technician-hire/) legt uit bij welk pakket je er een kunt toevoegen en wat het kost, en onze gids over technische ondersteuning bij evenementen beschrijft wat die technicus ter plaatse echt doet. Bij het [Basic MICE Pack](/packages/basic-mice/) kun je er een toevoegen voor 240 euro per dag. Het [Eco Pack](/packages/eco/) en het [Product Presentation Pack](/packages/product-presentation/) bieden er tegen geen enkele prijs een aan. Als een technicus voor jouw evenement een harde eis is, zijn het [Wedding Pack](/packages/wedding/) of het [MICE Pack](/packages/mice/) de pakketten die er standaard een bevatten. En als je nog helemaal niet hebt geboekt, legt onze gids over [advies over audiovisuele verhuur](/blog/av-equipment-consultations/) uit hoe je je evenement bij het juiste pakket zoekt voordat je op deze pagina terechtkomt.
+
+## Is het oplossen van problemen buiten anders?
+
+De controles zijn hetzelfde, kabels, gain, batterij, ingangskeuze, maar een boeking buiten voegt blootgestelde kabels en wind toe aan de lijst van dingen die een verbinding los kunnen schudden. Lees onze gids over [audiovisuele verhuur voor buitenevenementen](/blog/audio-visual-rental-for-outdoor-events/) om te zien hoe we kabeltrajecten en statiefplaatsing buiten plannen nog voordat je evenement begint.
+
+## Echte opstellingen die we hebben geleverd
+
+![Een HK Audio-luidspreker op een statief naast een rood gedrapeerde paneltafel, met een projectiescherm erachter, bij een lezing van de erfgoedvereniging PROCURE in een historische zaal in Coín, provincie Malaga.](https://cdn.malagaeventgear.com/blog/1307/lighting-sound-big-screen-projector-rental-malaga_4-1024x765.webp "Het podium en scherm van PROCURE, uitgerust door Malaga Event Gear in Coín, provincie Malaga.")
+
+Geluid en een projectiescherm voor een PROCURE-lezing in Coín, provincie Malaga. Zodra ons team is vertrokken, is dit het soort opstelling waartegen een zelf te bedienen boeking wordt gecontroleerd, geen storing die je vanaf nul moet uitzoeken.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1277/', '/1307/'])} speed="normal" direction="left" />
+</div>
+
+## Hoe ver van tevoren boeken
+
+Al onze boekingen vragen minstens 24 uur van tevoren, ook de zelf te bedienen pakketten. Als je na het lezen van deze gids toch liever een technicus aan het [Basic MICE Pack](/packages/basic-mice/) toevoegt, laat het ons dan weten bij het boeken en niet de dag ervoor, want de optie moet net zo worden ingepland als de apparatuur zelf. De vraag naar pakketten met een technicus piekt in het bruiloftsseizoen, van april tot en met oktober, dus vroeg bevestigen is vooral belangrijk voor het [Wedding Pack](/packages/wedding/).
+
+## Conclusie
+
+Het oplossen van problemen met AV-systemen in Malaga bij een zelf te bedienen pakket van Malaga Event Gear begint bij een eerlijk feit: het werkte toen ons team vertrok, want we leveren, installeren en testen alles voordat we gaan, ook bij het [Eco Pack](/packages/eco/), het [Product Presentation Pack](/packages/product-presentation/) en het [Basic MICE Pack](/packages/basic-mice/) zonder de optie. Wat je controleert, hangt af van wat je pakket echt bevat: bij het ene een mengpaneel en een draadloze microfoon, bij het andere een bedrade spreekgestoeltemicrofoon en een beamer, en bij alle drie kabels. [Neem contact met ons op](/contact/) als een snelle controle het niet oplost, we zijn dag en nacht bereikbaar. Voor de versie met een technicus lees je onze gidsen over technische ondersteuning bij evenementen en over [AV-technicus inhuren](/blog/av-technician-hire/), en voor ons volledige aanbod de [pagina over audiovisuele verhuur in Malaga](/blog/audio-visual-rental/).
+
+## Veelgestelde vragen
+
+### Welke pakketten bevatten een technicus die het oplossen van problemen voor me doet, en welke niet?
+
+Het [Wedding Pack](/packages/wedding/) en het [MICE Pack](/packages/mice/) bevatten er standaard een. Het [Basic MICE Pack](/packages/basic-mice/) biedt er een als betaalde optie voor 240 euro per dag. Het [Eco Pack](/packages/eco/) en het [Product Presentation Pack](/packages/product-presentation/) bieden er helemaal geen aan, tegen geen enkele prijs. Zie hierboven [Zelf je apparatuur bedienen](#zelf-je-apparatuur-bedienen-welke-pakketten-zelf-te-bedienen-zijn).
+
+### Als ik mijn eigen apparatuur bedien, wat moet ik dan zelf controleren als er iets stopt met werken?
+
+Dat hangt af van je pakket, want de drie zelf te bedienen pakketten hebben verschillende apparatuur. Of kabels goed vastzitten geldt voor alle drie. Een mengpaneel en een draadloze microfoon bestaan alleen bij het [Product Presentation Pack](/packages/product-presentation/). Een beamer hoort bij het [Product Presentation Pack](/packages/product-presentation/) en het [Basic MICE Pack](/packages/basic-mice/), niet bij het [Eco Pack](/packages/eco/), tenzij je hem als optie hebt toegevoegd. Zie hierboven [Controle per pakket](#controle-per-pakket-waar-je-het-eerst-naar-kijkt) voor het volledige overzicht.
+
+### Waarom viel mijn draadloze microfoon weg, en wat kan ik tijdens het evenement doen?
+
+Dit geldt specifiek voor het [Product Presentation Pack](/packages/product-presentation/), het enige van de drie zelf te bedienen pakketten met een draadloze microfoon. Controleer eerst het batterijniveau en bevestig dan dat hij op hetzelfde kanaal staat als zijn ontvanger: dat zijn de eerste twee dingen om uit te sluiten voordat je het apparaat zelf gaat verdenken. Het [Eco Pack](/packages/eco/) heeft een bedrade dynamische microfoon en de zwanenhalsmicrofoon van het [Basic MICE Pack](/packages/basic-mice/) zit met een kabel aan het spreekgestoelte, dus bij geen van beide speelt dit probleem.
+
+### Mijn beamer synchroniseert niet met het scherm, wat controleer ik eerst?
+
+Controleer of de ingangsbron die op de beamer is gekozen, meestal HDMI of de poort die in gebruik is, past bij de laptop of het apparaat dat op dit moment echt is aangesloten. Dit geldt voor het [Product Presentation Pack](/packages/product-presentation/) en het [Basic MICE Pack](/packages/basic-mice/), die allebei standaard een beamer en scherm bevatten. Zie hierboven [Controle per pakket](#controle-per-pakket-waar-je-het-eerst-naar-kijkt).
+
+### Waarom hoor ik rondzingen of gebrom uit de luidsprekers?
+
+Rondzingen, een oplopend gepiep, betekent meestal dat een microfoon te dicht bij een luidspreker is gekomen of op een luidspreker is gericht. Hem verplaatsen of wegdraaien is het eerste wat je probeert. Een constant gebrom wijst vaker op een kabel die een stroomkabel kruist of op een losse verbinding, dus het kabeltraject nalopen en beide uiteinden opnieuw aansluiten is de moeite waard voordat je aanneemt dat er iets defect is. Zie hierboven [Rondzingen of gebrom uit de luidsprekers](#rondzingen-of-gebrom-uit-de-luidsprekers).
+
+### Wie bel ik als de apparatuur tijdens mijn evenement stopt met werken?
+
+Controleer eerst kabels, gain, batterij en ingangskeuze. Als dat het niet oplost, zijn we 24 uur per dag, 7 dagen per week bereikbaar voor technische opbouw en live evenementmonitoring, ook bij zelf te bedienen pakketten. [Neem contact met ons op](/contact/) of bel 666 346 911.
+
+### Verhuurt Malaga Event Gear alleen apparatuur en is het daarna klaar, of is er hulp als er later iets misgaat?
+
+We leveren, installeren en testen elke boeking voordat we vertrekken, zodat bij de overdracht alles goed werkt, maar daarna verdwijnen we niet. Onze lijn is 24 uur per dag, 7 dagen per week bereikbaar voor technische opbouw en live evenementmonitoring, ook bij het [Eco Pack](/packages/eco/), het [Product Presentation Pack](/packages/product-presentation/) en het [Basic MICE Pack](/packages/basic-mice/) zonder de technicusoptie. Zie hierboven [Voordat je problemen oplost](#voordat-je-problemen-oplost-wat-er-al-gebeurd-was-voordat-je-begon).
+
+### Kan ik halverwege mijn boeking een technicus toevoegen als ik mijn eigen apparatuur toch niet wil beheren?
+
+Bij het [Basic MICE Pack](/packages/basic-mice/) wel, de technicus is een betaalde optie voor 240 euro per dag. Laat het ons dus weten zodra je dat besluit en wacht niet tot de dag van je evenement, want hij moet net zo worden ingepland als de apparatuur zelf. Het [Eco Pack](/packages/eco/) en het [Product Presentation Pack](/packages/product-presentation/) bieden tegen geen enkele prijs een technicus aan. Zie hierboven [Liever een technicus dan het zelf uitzoeken?](#liever-een-technicus-dan-het-zelf-uitzoeken)
+
+### Is het oplossen van problemen anders bij evenementen buiten?
+
+De controles zijn hetzelfde, kabels, gain, batterij, ingangskeuze, maar wind en blootgestelde kabels buiten zorgen voor meer manieren waarop een verbinding los kan raken. Lees onze gids over [audiovisuele verhuur voor buitenevenementen](/blog/audio-visual-rental-for-outdoor-events/) om te zien hoe we dat plannen voordat je evenement begint.
+
+### Wat is het verschil tussen een technicus die een probleem verhelpt en mezelf die het verhelpt?
+
+Een technicus houdt de niveaus continu in de gaten, dus een weggevallen verbinding of een gedempt kanaal wordt opgemerkt op het moment dat het gebeurt. Als je je eigen apparatuur bedient, merk je het pas als het je evenement al beïnvloedt, en de oplossing is de snelle controle op deze pagina die bij je pakket past. Geen van beide is fout, het gaat erom of je pakket die continue aandacht bevat of niet. Zie hierboven [Zelf je apparatuur bedienen](#zelf-je-apparatuur-bedienen-welke-pakketten-zelf-te-bedienen-zijn) voor welke pakketten er een bevatten.

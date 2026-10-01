@@ -415,6 +415,11 @@ export default {
 			slug: 'tidsplan-for-av-utleie',
 			keyword: 'tidsplan for AV-utleie i Malaga',
 			status: 'propuesta'
+		},
+		'av-system-troubleshooting': {
+			slug: 'feilsoking-av-av-systemer',
+			keyword: 'feilsøking av AV-systemer i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

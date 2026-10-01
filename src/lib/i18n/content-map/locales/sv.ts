@@ -407,6 +407,11 @@ export default {
 			slug: 'tidsplan-for-av-uthyrning',
 			keyword: 'tidsplan för AV-uthyrning i Malaga',
 			status: 'propuesta'
+		},
+		'av-system-troubleshooting': {
+			slug: 'felsokning-av-av-system',
+			keyword: 'felsökning av AV-system i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

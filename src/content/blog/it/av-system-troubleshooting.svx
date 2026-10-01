@@ -1,0 +1,205 @@
+---
+title: "Risoluzione dei problemi dei sistemi audiovisivi a Malaga"
+description: "Risoluzione dei problemi dei sistemi audiovisivi a Malaga, pacchetti autogestiti: Eco Pack, Product Presentation Pack e Basic MICE Pack, prima di chiamarci."
+excerpt: "Risoluzione dei problemi dei sistemi audiovisivi a Malaga: cosa controllare da solo se un pacchetto autogestito smette di funzionare durante l'evento, pacchetto per pacchetto, per Eco Pack, Product Presentation Pack e Basic MICE Pack senza l'opzione tecnico."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Chi cerca in inglese "AV system troubleshooting" di solito dà per scontato che un tecnico abbia già risolto il problema, oppure che si tratti di un impianto da ufficio installato in modo permanente e di tua proprietà. Nessuno dei due casi descrive la situazione di questa guida alla risoluzione dei problemi dei sistemi audiovisivi a Malaga, in Spagna: hai noleggiato uno dei nostri pacchetti, nessun tecnico è in loco e qualcosa ha smesso di funzionare come quando il nostro team è andato via.
+
+Le nostre guide al supporto tecnico per eventi e al [noleggio di un tecnico audiovisivo](/blog/av-technician-hire/) trattano già a fondo l'altro scenario: cosa fa il nostro team quando un tecnico fa parte della tua prenotazione. Questa pagina riguarda in particolare i pacchetti in cui nessuno tiene d'occhio i livelli al posto tuo: l'[Eco Pack](/packages/eco/), il [Product Presentation Pack](/packages/product-presentation/) e il [Basic MICE Pack](/packages/basic-mice/) se non hai aggiunto l'opzione tecnico. Cosa controllare da solo, pacchetto per pacchetto, prima di dare per scontato che qualcosa sia davvero rotto.
+
+[Prenota ora](/packages/) e conferma quale dei nostri pacchetti ti affida la gestione dell'attrezzatura.
+
+## Indice
+
+-   [In breve](#in-breve)
+-   [Punti chiave](#punti-chiave)
+-   [Gestire da solo l'attrezzatura: quali pacchetti sono autogestiti](#gestire-da-solo-lattrezzatura-quali-pacchetti-sono-autogestiti)
+-   [Prima di risolvere un problema: cosa era già successo prima che iniziassi](#prima-di-risolvere-un-problema-cosa-era-già-successo-prima-che-iniziassi)
+-   [Controlli per pacchetto: da cosa partire](#controlli-per-pacchetto-da-cosa-partire)
+-   [Fischio o ronzio dalle casse](#fischio-o-ronzio-dalle-casse)
+-   [Chi chiamare quando un controllo rapido non basta](#chi-chiamare-quando-un-controllo-rapido-non-basta)
+-   [Vuoi un tecnico invece di risolvere tutto da solo?](#vuoi-un-tecnico-invece-di-risolvere-tutto-da-solo)
+-   [La risoluzione dei problemi cambia all'aperto?](#la-risoluzione-dei-problemi-cambia-allaperto)
+-   [Allestimenti reali che abbiamo consegnato](#allestimenti-reali-che-abbiamo-consegnato)
+-   [Con quanto anticipo prenotare](#con-quanto-anticipo-prenotare)
+-   [Conclusione](#conclusione)
+-   [Domande frequenti](#domande-frequenti)
+    -   [Quali pacchetti includono un tecnico che gestisce i problemi al posto mio, e quali no?](#quali-pacchetti-includono-un-tecnico-che-gestisce-i-problemi-al-posto-mio-e-quali-no)
+    -   [Se gestisco da solo l'attrezzatura, cosa devo controllare io se qualcosa smette di funzionare?](#se-gestisco-da-solo-lattrezzatura-cosa-devo-controllare-io-se-qualcosa-smette-di-funzionare)
+    -   [Perché il mio microfono wireless si è interrotto e cosa posso fare durante l'evento?](#perché-il-mio-microfono-wireless-si-è-interrotto-e-cosa-posso-fare-durante-levento)
+    -   [Il proiettore non si sincronizza con lo schermo, cosa controllo per prima cosa?](#il-proiettore-non-si-sincronizza-con-lo-schermo-cosa-controllo-per-prima-cosa)
+    -   [Perché si sente un fischio o un ronzio dalle casse?](#perché-si-sente-un-fischio-o-un-ronzio-dalle-casse)
+    -   [Chi chiamo se l'attrezzatura smette di funzionare durante il mio evento?](#chi-chiamo-se-lattrezzatura-smette-di-funzionare-durante-il-mio-evento)
+    -   [Malaga Event Gear si limita a noleggiare l'attrezzatura e sparire, o c'è assistenza se qualcosa va storto in seguito?](#malaga-event-gear-si-limita-a-noleggiare-lattrezzatura-e-sparire-o-cè-assistenza-se-qualcosa-va-storto-in-seguito)
+    -   [Posso aggiungere un tecnico a prenotazione in corso se decido di non voler gestire da solo l'attrezzatura?](#posso-aggiungere-un-tecnico-a-prenotazione-in-corso-se-decido-di-non-voler-gestire-da-solo-lattrezzatura)
+    -   [La risoluzione dei problemi è diversa per gli eventi all'aperto?](#la-risoluzione-dei-problemi-è-diversa-per-gli-eventi-allaperto)
+    -   [Che differenza c'è tra un tecnico che risolve un problema e me che lo risolvo da solo?](#che-differenza-cè-tra-un-tecnico-che-risolve-un-problema-e-me-che-lo-risolvo-da-solo)
+
+## In breve
+
+---
+
+Tre pacchetti Malaga Event Gear ti affidano la gestione della tua attrezzatura, senza un tecnico che tenga d'occhio i livelli: l'[Eco Pack](/packages/eco/), il [Product Presentation Pack](/packages/product-presentation/) e il [Basic MICE Pack](/packages/basic-mice/) se rinunci alla sua opzione tecnico. Ognuno ha un'attrezzatura diversa, quindi anche ciò che controlli quando qualcosa smette di funzionare è diverso: non esiste un'unica lista generica.
+
+Questa guida passa in rassegna cosa il nostro team aveva già testato prima di andare via, cosa guardare per primo su ciascuno di questi tre pacchetti e chi chiamare se un controllo rapido non risolve. [Contattaci](/contact/) se non sei sicuro di quale pacchetto riguardi la tua prenotazione.
+
+## Punti chiave
+
+---
+
+-   Tre pacchetti sono davvero autogestiti: l'[Eco Pack](/packages/eco/) e il [Product Presentation Pack](/packages/product-presentation/) non hanno alcuna opzione tecnico, e il [Basic MICE Pack](/packages/basic-mice/) ne riceve uno solo se paghi l'opzione.
+
+-   Lavoriamo solo consegnando noi l'attrezzatura: il nostro team trasporta, installa, calibra e testa ogni prenotazione, queste tre incluse, prima di lasciare la tua sede. La domanda di partenza onesta è cosa è cambiato dalla consegna, non cosa non funzionava fin dall'inizio.
+
+-   Il controllo che conta dipende da ciò che il tuo pacchetto contiene davvero. L'[Eco Pack](/packages/eco/) non ha né mixer né microfono wireless, quindi la risoluzione dei problemi di uno dei due non lo riguarda.
+
+-   Un microfono wireless esiste solo sul [Product Presentation Pack](/packages/product-presentation/). Il microfono a collo d'oca del [Basic MICE Pack](/packages/basic-mice/) è collegato via cavo al leggio, quindi non ci sono batterie né canali da controllare.
+
+-   Siamo disponibili 24 ore su 24, 7 giorni su 7, per allestimenti tecnici e monitoraggio dal vivo degli eventi, quindi una chiamata è sempre possibile una volta controllato l'ovvio.
+
+## Gestire da solo l'attrezzatura: quali pacchetti sono autogestiti
+
+Non tutti i pacchetti portano un tecnico in loco, e la divisione è tutt'altro che equilibrata. Guardando l'intero catalogo: il [Wedding Pack](/packages/wedding/) include un tecnico per tutto l'evento, e il [MICE Pack](/packages/mice/) ne include uno per un massimo di 6 ore continuative. Nessuno dei due è l'argomento di questa pagina. La nostra guida al supporto tecnico per eventi spiega cosa fa davvero quel tecnico, fase per fase, se uno dei due descrive la tua prenotazione.
+
+Questa pagina riguarda invece gli altri tre pacchetti:
+
+-   **[Eco Pack](/packages/eco/).** Nessuna opzione tecnico, nemmeno come extra a pagamento. Pensato come impianto PA autogestito per un DJ o chi conduce che controlla i propri livelli.
+-   **[Product Presentation Pack](/packages/product-presentation/).** Nemmeno qui c'è un'opzione tecnico. Pensato per una presentazione aziendale, una presentazione in concessionaria o un lancio di prodotto gestiti da chi presenta.
+-   **[Basic MICE Pack](/packages/basic-mice/).** Un tecnico è disponibile, ma solo come extra a pagamento a 240 euro al giorno. Se non l'hai aggiunto, la tua prenotazione è autogestita per impostazione predefinita.
+
+Se nulla di tutto questo corrisponde al tuo pacchetto, la nostra guida al [noleggio di un tecnico audiovisivo](/blog/av-technician-hire/) contiene il quadro completo del tecnico pacchetto per pacchetto.
+
+<InlineCTA />
+
+## Prima di risolvere un problema: cosa era già successo prima che iniziassi
+
+Su nessun pacchetto è previsto il ritiro o la riconsegna in autonomia. Ogni prenotazione, queste tre incluse, arriva con il nostro team, che consegna, installa e testa l'attrezzatura prima di andare via, verificando che le casse siano alimentate, che il microfono sia attivo e che uno schermo o un proiettore sia sincronizzato se il tuo pacchetto ne prevede uno.
+
+Questo conta per come risolvi un problema. Se adesso qualcosa non funziona, funzionava quando il nostro team è andato via, quindi la prima domanda onesta è cosa è cambiato da allora, non cosa potrebbe essere rotto. I soliti sospetti sono un cavo uscito mentre si spostava un tavolo o un supporto, un controllo di guadagno o di volume spostato da qualcuno appoggiato al mixer, una batteria scarica in un microfono palmare wireless, o un ingresso selezionato che non corrisponde al portatile o al dispositivo effettivamente collegato in questo momento.
+
+Per capire cosa comporta quella configurazione iniziale, cioè regolazione del guadagno e posizionamento delle casse adattati alla tua sede e non un'impostazione fissa, consulta la nostra guida alla [calibrazione dell'impianto audio](/blog/audio-system-calibration/). Questa pagina riparte da lì: cosa controllare se qualcosa cambia dopo che il nostro team è andato via, non come è stato calibrato all'inizio.
+
+## Controlli per pacchetto: da cosa partire
+
+Cosa controlli dipende da ciò che il tuo pacchetto comprende davvero, perché nessuno di questi tre pacchetti ha la stessa attrezzatura.
+
+| | [Eco Pack](/packages/eco/) | [Product Presentation Pack](/packages/product-presentation/) | [Basic MICE Pack](/packages/basic-mice/) (senza opzione tecnico) |
+| --- | --- | --- | --- |
+| Casse | 2 casse attive su stativo | 2 casse tramite mixer | Impianto di rinforzo sonoro di base |
+| Microfono | 1 microfono dinamico cablato | 1 microfono palmare wireless | 1 microfono a collo d'oca cablato (fissato al leggio) |
+| Mixer | Nessuno | Sì | Nessuno |
+| Proiettore e schermo | Non inclusi (extra a pagamento, +50 euro) | Sì, proiettore da 5000 lumen e schermo | Sì, proiettore da 3000 lumen e schermo da 2x2 m |
+| Illuminazione | 2 barre luminose LED RGBW | Nessuna | Nessuna |
+| Tecnico | Non previsto | Non previsto | Extra facoltativo a pagamento, +240 euro al giorno |
+
+### Eco Pack: niente mixer, niente microfono wireless
+
+L'Eco Pack è il più semplice dei tre, e questa semplicità significa meno cose da controllare. In questo pacchetto non ci sono né un mixer né un microfono wireless, quindi se un risultato di ricerca ti dice di controllare il canale di un ricevitore wireless, qui non vale.
+
+-   Controlla che entrambe le casse attive siano ancora collegate alla corrente e che il cavo che va dal punto di mixaggio a ciascuna cassa sia inserito a fondo.
+-   Controlla il cavo XLR del microfono dinamico cablato a entrambe le estremità, sul microfono stesso e dove si collega.
+-   Controlla l'alimentazione e il collegamento delle barre luminose LED RGBW se a sembrare strana è la luce e non l'audio.
+-   Se hai aggiunto il proiettore opzionale a +50 euro, il controllo della sua sorgente d'ingresso funziona come nella sezione del Product Presentation Pack qui sotto.
+
+### Product Presentation Pack: mixer, proiettore e microfono wireless
+
+È il pacchetto con più cose da controllare, perché è l'unico dei tre ad avere sia un mixer sia un microfono wireless.
+
+-   Controlla sul mixer se un canale è stato silenziato o un fader del guadagno è stato abbassato, per esempio da qualcuno appoggiato al banco o da una borsa lasciata sopra.
+-   Controlla che il canale d'ingresso selezionato sul mixer corrisponda al portatile o al dispositivo effettivamente collegato in questo momento, soprattutto se durante l'evento si sono collegate più persone.
+-   Controlla il livello della batteria del microfono palmare wireless e conferma che sia impostato sullo stesso canale del suo ricevitore. Sono le prime due cose da escludere prima di sospettare dell'apparecchio.
+-   Controlla la selezione della sorgente d'ingresso del proiettore (HDMI o la porta in uso) rispetto al portatile collegato, e conferma che lo schermo mostri la stessa risoluzione che il proiettore si aspetta.
+-   Controlla che ogni cavo, HDMI, XLR e delle casse, sia ancora inserito a fondo a entrambe le estremità. I cavi allentati sono la prima cosa da escludere su tutti e tre i pacchetti.
+
+### Basic MICE Pack senza l'opzione tecnico
+
+Senza l'opzione, il Basic MICE Pack non ha un mixer da controllare né un microfono wireless: il suo microfono a collo d'oca è collegato direttamente al leggio.
+
+-   Controlla la sorgente d'ingresso del proiettore rispetto al portatile collegato, è lo stesso controllo del Product Presentation Pack qui sopra.
+-   Controlla il collegamento del cavo del microfono a collo d'oca alla base del leggio.
+-   Controlla che i cavi di alimentazione e delle casse dell'impianto di rinforzo sonoro siano ancora inseriti a fondo, dato che non c'è un fader del mixer con cui isolare il problema.
+
+## Fischio o ronzio dalle casse
+
+Questo caso non è specifico di un singolo pacchetto. Il fischio, quel sibilo crescente che si sente quando un microfono capta il proprio suono amplificato, di solito significa che il microfono si è avvicinato a una cassa o ora è puntato verso di essa, quindi spostarlo o girarlo leggermente è la prima cosa da provare. Un ronzio costante indica più spesso un cavo che incrocia un cavo di alimentazione, o un collegamento allentato a una delle estremità: ripercorrere il tragitto del cavo e reinserire entrambe le estremità vale la pena prima di supporre un guasto.
+
+## Chi chiamare quando un controllo rapido non basta
+
+Controlla prima l'ovvio: cavi, guadagno, batteria, selezione dell'ingresso. Se non risolve, siamo disponibili 24 ore su 24, 7 giorni su 7, per allestimenti tecnici e monitoraggio dal vivo degli eventi, su ogni prenotazione, compresi questi tre pacchetti autogestiti. [Contattaci](/contact/) o chiama il 666 346 911 se hai bisogno di noi durante l'evento.
+
+## Vuoi un tecnico invece di risolvere tutto da solo?
+
+Se leggere questa guida ti fa desiderare che se ne occupi qualcun altro, è un'opzione concreta su uno di questi tre pacchetti. La nostra guida al [noleggio di un tecnico audiovisivo](/blog/av-technician-hire/) spiega a quale pacchetto aggiungerne uno e quanto costa, e la nostra guida al supporto tecnico per eventi spiega cosa fa quel tecnico una volta in loco. Il [Basic MICE Pack](/packages/basic-mice/) può aggiungerne uno a 240 euro al giorno. L'[Eco Pack](/packages/eco/) e il [Product Presentation Pack](/packages/product-presentation/) non ne prevedono uno a nessun prezzo, quindi se un tecnico è un requisito imprescindibile per il tuo evento, il [Wedding Pack](/packages/wedding/) o il [MICE Pack](/packages/mice/) sono i pacchetti che ne includono uno di serie. E se non hai ancora prenotato, la nostra guida alla [consulenza sul noleggio audiovisivo](/blog/av-equipment-consultations/) spiega come abbinare il tuo evento al pacchetto giusto prima di arrivare a questa pagina.
+
+## La risoluzione dei problemi cambia all'aperto?
+
+I controlli sono gli stessi, cavi, guadagno, batteria, selezione dell'ingresso, ma una prenotazione all'aperto aggiunge l'esposizione dei cavi e il vento all'elenco di ciò che può far saltare un collegamento. Consulta la nostra guida al [noleggio audiovisivo per eventi all'aperto](/blog/audio-visual-rental-for-outdoor-events/) per sapere come pianifichiamo il percorso dei cavi e la posizione dei supporti all'aperto prima ancora che il tuo evento inizi.
+
+## Allestimenti reali che abbiamo consegnato
+
+![Una cassa HK Audio su stativo accanto a un tavolo dei relatori drappeggiato di rosso, con uno schermo di proiezione dietro, a un incontro dell'associazione del patrimonio PROCURE in una sala storica a Coín, provincia di Malaga.](https://cdn.malagaeventgear.com/blog/1307/lighting-sound-big-screen-projector-rental-malaga_4-1024x765.webp "Il palco e lo schermo PROCURE allestiti da Malaga Event Gear a Coín, provincia di Malaga.")
+
+Audio e schermo di proiezione per un incontro PROCURE a Coín, provincia di Malaga. Una volta che il nostro team è andato via, questo è il tipo di configurazione con cui una prenotazione autogestita si confronta, non un guasto da risolvere partendo da zero.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1277/', '/1307/'])} speed="normal" direction="left" />
+</div>
+
+## Con quanto anticipo prenotare
+
+Tutte le nostre prenotazioni richiedono un preavviso di almeno 24 ore, pacchetti autogestiti inclusi. Se leggere questa guida ti fa preferire aggiungere un tecnico al [Basic MICE Pack](/packages/basic-mice/), diccelo al momento della prenotazione e non il giorno prima, perché l'opzione va pianificata come l'attrezzatura stessa. La domanda per i pacchetti con tecnico raggiunge il picco durante la stagione dei matrimoni, da aprile a ottobre, quindi confermare per tempo conta soprattutto per il [Wedding Pack](/packages/wedding/) in particolare.
+
+## Conclusione
+
+La risoluzione dei problemi dei sistemi audiovisivi a Malaga con un pacchetto Malaga Event Gear autogestito parte da un fatto onesto: funzionava quando il nostro team è andato via, perché consegniamo, installiamo e testiamo tutto prima di lasciare la sede, anche con l'[Eco Pack](/packages/eco/), il [Product Presentation Pack](/packages/product-presentation/) e il [Basic MICE Pack](/packages/basic-mice/) senza l'opzione. Cosa controllare dipende da ciò che il tuo pacchetto contiene davvero: un mixer e un microfono wireless su uno, un microfono cablato da leggio e un proiettore su un altro, e dei cavi su tutti e tre. [Contattaci](/contact/) se un controllo rapido non risolve, siamo disponibili a qualsiasi ora. Per la versione gestita da un tecnico, consulta le nostre guide al supporto tecnico per eventi e al [noleggio di un tecnico audiovisivo](/blog/av-technician-hire/), oppure, per la nostra gamma completa di attrezzatura, la [pagina del noleggio audiovisivo](/blog/audio-visual-rental/) a Malaga.
+
+## Domande frequenti
+
+### Quali pacchetti includono un tecnico che gestisce i problemi al posto mio, e quali no?
+
+Il [Wedding Pack](/packages/wedding/) e il [MICE Pack](/packages/mice/) ne includono uno di serie. Il [Basic MICE Pack](/packages/basic-mice/) lo offre come extra a pagamento a 240 euro al giorno. L'[Eco Pack](/packages/eco/) e il [Product Presentation Pack](/packages/product-presentation/) non ne offrono affatto, a nessun prezzo. Vedi sopra [Gestire da solo l'attrezzatura](#gestire-da-solo-lattrezzatura-quali-pacchetti-sono-autogestiti).
+
+### Se gestisco da solo l'attrezzatura, cosa devo controllare io se qualcosa smette di funzionare?
+
+Dipende dal pacchetto, perché i tre pacchetti autogestiti hanno attrezzature diverse. L'inserimento a fondo dei cavi vale per tutti e tre. Un mixer e un microfono wireless esistono solo sul [Product Presentation Pack](/packages/product-presentation/). Un proiettore riguarda il [Product Presentation Pack](/packages/product-presentation/) e il [Basic MICE Pack](/packages/basic-mice/), non l'[Eco Pack](/packages/eco/) a meno che tu non l'abbia aggiunto come opzione. Vedi sopra [Controlli per pacchetto](#controlli-per-pacchetto-da-cosa-partire) per il quadro completo.
+
+### Perché il mio microfono wireless si è interrotto e cosa posso fare durante l'evento?
+
+Questo riguarda in particolare il [Product Presentation Pack](/packages/product-presentation/), l'unico dei tre pacchetti autogestiti con un microfono wireless. Controlla prima il livello della batteria, poi conferma che sia impostato sullo stesso canale del suo ricevitore: sono le prime due cose da escludere prima di sospettare dell'apparecchio. L'[Eco Pack](/packages/eco/) ha un microfono dinamico cablato e il microfono a collo d'oca del [Basic MICE Pack](/packages/basic-mice/) è collegato via cavo al leggio, quindi nessuno dei due ha questo problema.
+
+### Il proiettore non si sincronizza con lo schermo, cosa controllo per prima cosa?
+
+Controlla che la sorgente d'ingresso selezionata sul proiettore, di solito HDMI o la porta in uso, corrisponda al portatile o al dispositivo effettivamente collegato in questo momento. Questo vale per il [Product Presentation Pack](/packages/product-presentation/) e il [Basic MICE Pack](/packages/basic-mice/), che includono entrambi un proiettore e uno schermo di serie. Vedi sopra [Controlli per pacchetto](#controlli-per-pacchetto-da-cosa-partire).
+
+### Perché si sente un fischio o un ronzio dalle casse?
+
+Il fischio, un sibilo crescente, di solito significa che un microfono si è avvicinato troppo a una cassa o è puntato verso di essa: spostarlo o orientarlo altrove è la prima cosa da provare. Un ronzio costante indica più spesso un cavo che incrocia una linea di alimentazione o un collegamento allentato, quindi ripercorrere il tragitto del cavo e reinserire entrambe le estremità vale la pena prima di supporre un guasto. Vedi sopra [Fischio o ronzio dalle casse](#fischio-o-ronzio-dalle-casse).
+
+### Chi chiamo se l'attrezzatura smette di funzionare durante il mio evento?
+
+Controlla prima cavi, guadagno, batteria e selezione dell'ingresso. Se non risolve, siamo disponibili 24 ore su 24, 7 giorni su 7, per allestimenti tecnici e monitoraggio dal vivo degli eventi, anche sui pacchetti autogestiti. [Contattaci](/contact/) o chiama il 666 346 911.
+
+### Malaga Event Gear si limita a noleggiare l'attrezzatura e sparire, o c'è assistenza se qualcosa va storto in seguito?
+
+Consegniamo, installiamo e testiamo ogni prenotazione prima di andare via, così alla consegna tutto funziona correttamente, ma non scompariamo dopo. La nostra linea è disponibile 24 ore su 24, 7 giorni su 7, per allestimenti tecnici e monitoraggio dal vivo degli eventi, anche con l'[Eco Pack](/packages/eco/), il [Product Presentation Pack](/packages/product-presentation/) e il [Basic MICE Pack](/packages/basic-mice/) senza l'opzione tecnico. Vedi sopra [Prima di risolvere un problema](#prima-di-risolvere-un-problema-cosa-era-già-successo-prima-che-iniziassi).
+
+### Posso aggiungere un tecnico a prenotazione in corso se decido di non voler gestire da solo l'attrezzatura?
+
+Sul [Basic MICE Pack](/packages/basic-mice/) sì, il tecnico è un extra a pagamento a 240 euro al giorno, quindi dillo appena decidi e non aspettare il giorno dell'evento, perché va pianificato come l'attrezzatura stessa. L'[Eco Pack](/packages/eco/) e il [Product Presentation Pack](/packages/product-presentation/) non offrono un tecnico a nessun prezzo. Vedi sopra [Vuoi un tecnico invece di risolvere tutto da solo?](#vuoi-un-tecnico-invece-di-risolvere-tutto-da-solo)
+
+### La risoluzione dei problemi è diversa per gli eventi all'aperto?
+
+I controlli sono gli stessi, cavi, guadagno, batteria, selezione dell'ingresso, ma il vento e l'esposizione dei cavi all'aperto aggiungono altri modi in cui un collegamento può saltare. Consulta la nostra guida al [noleggio audiovisivo per eventi all'aperto](/blog/audio-visual-rental-for-outdoor-events/) per sapere come ci prepariamo prima dell'inizio del tuo evento.
+
+### Che differenza c'è tra un tecnico che risolve un problema e me che lo risolvo da solo?
+
+Un tecnico tiene d'occhio i livelli in modo continuo, quindi un collegamento caduto o un canale silenziato viene notato nel momento in cui accade. Gestire da solo l'attrezzatura significa accorgersene solo quando sta già incidendo sul tuo evento, e la soluzione è il controllo rapido di questa pagina che corrisponde al tuo pacchetto. Nessuna delle due strade è sbagliata, dipende dal fatto che il tuo pacchetto includa o meno quella sorveglianza continua. Vedi sopra [Gestire da solo l'attrezzatura](#gestire-da-solo-lattrezzatura-quali-pacchetti-sono-autogestiti) per sapere quali pacchetti ne includono una.

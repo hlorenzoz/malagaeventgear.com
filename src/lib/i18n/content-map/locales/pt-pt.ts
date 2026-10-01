@@ -443,6 +443,11 @@ export default {
 			slug: 'calendario-planeamento-aluguer-audiovisuais',
 			keyword: 'calendário de planeamento do aluguer de audiovisuais em Málaga',
 			status: 'propuesta'
+		},
+		'av-system-troubleshooting': {
+			slug: 'resolucao-de-problemas-em-sistemas-audiovisuais',
+			keyword: 'resolução de problemas em sistemas audiovisuais em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
