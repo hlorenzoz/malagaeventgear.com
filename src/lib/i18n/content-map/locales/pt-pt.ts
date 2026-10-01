@@ -379,6 +379,11 @@ export default {
 			keyword: 'aluguer de audiovisuais para exposições de arte em Málaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-private-parties': {
+			slug: 'aluguer-de-audiovisuais-para-festas-privadas',
+			keyword: 'aluguer de audiovisuais para festas privadas em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-hire-near-me-in-malaga-spain': {
 			slug: 'aluguer-de-audiovisuais-perto-de-mim',
 			keyword: 'aluguer de audiovisuais perto de mim',

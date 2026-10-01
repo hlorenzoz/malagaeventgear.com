@@ -327,6 +327,11 @@ export default {
 			keyword: '馬拉加 藝術展覽影音租賃',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-private-parties': {
+			slug: '私人派對影音租賃',
+			keyword: '馬拉加私人派對影音租賃',
+			status: 'propuesta'
+		},
 		'audio-visual-hire-near-me-in-malaga-spain': {
 			slug: '附近的影音租賃',
 			keyword: '馬拉加 附近的影音租賃',

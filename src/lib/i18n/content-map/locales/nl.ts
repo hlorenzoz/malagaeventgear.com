@@ -347,6 +347,11 @@ export default {
 			keyword: 'audiovisuele verhuur voor kunsttentoonstellingen in Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-private-parties': {
+			slug: 'audiovisuele-verhuur-privefeesten',
+			keyword: 'audiovisuele verhuur voor privéfeesten in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-hire-near-me-in-malaga-spain': {
 			slug: 'audiovisuele-verhuur-bij-mij-in-de-buurt',
 			keyword: 'audiovisuele verhuur bij mij in de buurt',

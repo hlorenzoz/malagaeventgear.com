@@ -347,6 +347,11 @@ export default {
 			keyword: "location audiovisuelle pour expositions d'art à Malaga",
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-private-parties': {
+			slug: 'location-audiovisuelle-fetes-privees',
+			keyword: 'location audiovisuelle pour fêtes privées à Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-hire-near-me-in-malaga-spain': {
 			slug: 'location-audiovisuelle-pres-de-chez-moi',
 			keyword: 'location audiovisuelle près de chez moi',

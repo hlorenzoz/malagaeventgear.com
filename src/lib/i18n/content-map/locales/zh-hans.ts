@@ -327,6 +327,11 @@ export default {
 			keyword: '马拉加 艺术展览视听租赁',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-private-parties': {
+			slug: '私人派对视听租赁',
+			keyword: '马拉加私人派对视听租赁',
+			status: 'propuesta'
+		},
 		'audio-visual-hire-near-me-in-malaga-spain': {
 			slug: '附近的活动视听租赁',
 			keyword: '马拉加 附近的活动视听租赁',
