@@ -57,6 +57,11 @@ export default {
 			keyword: 'location de vidéoprojecteur à Malaga',
 			status: 'propuesta'
 		},
+		'tv-screen-rental': {
+			slug: 'location-ecran-tv-malaga',
+			keyword: "location d'écran TV à Malaga",
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'location-audiovisuelle-evenements-malaga',
 			keyword: 'location audiovisuelle pour événements à Malaga',

@@ -49,6 +49,11 @@ export default {
 			keyword: '馬拉加 投影機租賃',
 			status: 'propuesta'
 		},
+		'tv-screen-rental': {
+			slug: '電視螢幕租賃',
+			keyword: '馬拉加 電視螢幕租賃',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': { slug: '影音租賃', keyword: '馬拉加 影音租賃', status: 'propuesta' },
 		'audio-visual-rental-for-conferences': { slug: '會議影音租賃', keyword: '馬拉加 會議影音租賃', status: 'propuesta' },
 		'audio-visual-rental-for-corporate-events': {

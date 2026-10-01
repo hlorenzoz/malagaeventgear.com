@@ -53,6 +53,11 @@ export default {
 			keyword: 'hyra projektor i Malaga',
 			status: 'propuesta'
 		},
+		'tv-screen-rental': {
+			slug: 'hyra-tv-skarm',
+			keyword: 'hyra tv-skärm i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'av-uthyrning-malaga',
 			keyword: 'AV-uthyrning Malaga',

@@ -89,6 +89,11 @@ export default {
 			keyword: 'aluguer de projetor em Málaga',
 			status: 'propuesta'
 		},
+		'tv-screen-rental': {
+			slug: 'aluguer-de-ecra-de-tv',
+			keyword: 'aluguer de ecrã de TV em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'aluguer-de-audiovisuais-para-eventos',
 			keyword: 'aluguer de audiovisuais para eventos em Málaga',

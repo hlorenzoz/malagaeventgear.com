@@ -53,6 +53,11 @@ export default {
 			keyword: 'noleggio proiettore a Malaga',
 			status: 'propuesta'
 		},
+		'tv-screen-rental': {
+			slug: 'noleggio-schermo-tv-malaga',
+			keyword: 'noleggio schermo TV a Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'noleggio-audiovisivo',
 			keyword: 'noleggio audiovisivo a Malaga',

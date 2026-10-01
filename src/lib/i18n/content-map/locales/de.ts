@@ -57,6 +57,11 @@ export default {
 			keyword: 'Beamer mieten in Malaga',
 			status: 'propuesta'
 		},
+		'tv-screen-rental': {
+			slug: 'tv-bildschirm-mieten-malaga',
+			keyword: 'TV-Bildschirm mieten in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'av-vermietung-malaga',
 			keyword: 'AV-Vermietung Malaga',

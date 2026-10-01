@@ -57,6 +57,11 @@ export default {
 			keyword: 'leje projektor i Malaga',
 			status: 'propuesta'
 		},
+		'tv-screen-rental': {
+			slug: 'leje-tv-skaerm',
+			keyword: 'leje tv-skærm i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'av-udlejning-malaga',
 			keyword: 'AV-udlejning Malaga',

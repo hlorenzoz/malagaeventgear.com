@@ -57,6 +57,11 @@ export default {
 			keyword: 'beamer huren in Malaga',
 			status: 'propuesta'
 		},
+		'tv-screen-rental': {
+			slug: 'tv-scherm-huren',
+			keyword: 'tv-scherm huren in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'audiovisuele-verhuur',
 			keyword: 'audiovisuele verhuur Malaga',
