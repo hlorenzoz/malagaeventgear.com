@@ -62,6 +62,11 @@ export default {
 			keyword: 'tv-scherm huren in Malaga',
 			status: 'propuesta'
 		},
+		'av-technician-hire': {
+			slug: 'av-technicus-inhuren-malaga',
+			keyword: 'AV-technicus inhuren in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'audiovisuele-verhuur',
 			keyword: 'audiovisuele verhuur Malaga',

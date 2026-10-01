@@ -94,6 +94,11 @@ export default {
 			keyword: 'aluguer de ecrã de TV em Málaga',
 			status: 'propuesta'
 		},
+		'av-technician-hire': {
+			slug: 'aluguer-de-tecnico-audiovisual',
+			keyword: 'aluguer de um técnico audiovisual em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'aluguer-de-audiovisuais-para-eventos',
 			keyword: 'aluguer de audiovisuais para eventos em Málaga',

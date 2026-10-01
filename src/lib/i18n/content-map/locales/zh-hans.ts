@@ -54,6 +54,11 @@ export default {
 			keyword: '马拉加 电视屏幕租赁',
 			status: 'propuesta'
 		},
+		'av-technician-hire': {
+			slug: '视听技术人员租用',
+			keyword: '马拉加 视听技术人员租用',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': { slug: '活动视听租赁', keyword: '马拉加 活动视听租赁', status: 'propuesta' },
 		'audio-visual-rental-for-conferences': { slug: '会议视听租赁', keyword: '马拉加 会议视听租赁', status: 'propuesta' },
 		'audio-visual-rental-for-corporate-events': {

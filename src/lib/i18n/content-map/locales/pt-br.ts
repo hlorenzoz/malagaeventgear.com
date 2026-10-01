@@ -94,6 +94,11 @@ export default {
 			keyword: 'aluguel de tela de TV em Málaga',
 			status: 'propuesta'
 		},
+		'av-technician-hire': {
+			slug: 'contratar-tecnico-audiovisual',
+			keyword: 'contratar um técnico audiovisual em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'aluguel-de-audiovisual-para-eventos',
 			keyword: 'aluguel de audiovisual para eventos em Málaga',

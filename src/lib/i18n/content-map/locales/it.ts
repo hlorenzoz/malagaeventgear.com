@@ -58,6 +58,11 @@ export default {
 			keyword: 'noleggio schermo TV a Malaga',
 			status: 'propuesta'
 		},
+		'av-technician-hire': {
+			slug: 'noleggio-tecnico-audiovisivo-malaga',
+			keyword: 'noleggio di un tecnico audiovisivo a Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'noleggio-audiovisivo',
 			keyword: 'noleggio audiovisivo a Malaga',

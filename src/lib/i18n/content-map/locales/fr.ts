@@ -62,6 +62,11 @@ export default {
 			keyword: "location d'écran TV à Malaga",
 			status: 'propuesta'
 		},
+		'av-technician-hire': {
+			slug: 'location-technicien-audiovisuel-malaga',
+			keyword: "location d'un technicien audiovisuel à Malaga",
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'location-audiovisuelle-evenements-malaga',
 			keyword: 'location audiovisuelle pour événements à Malaga',

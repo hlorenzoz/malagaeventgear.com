@@ -1,0 +1,176 @@
+---
+title: "Leje en AV-tekniker i Malaga, Spanien"
+description: "Leje en AV-tekniker i Malaga, Spanien: rigtige priser i euro, fra tilkøb til dækning af hele eventet, med de præcise timegrænser, før du booker."
+excerpt: "Leje en AV-tekniker i Malaga: hvilke pakker fra Malaga Event Gear der indeholder en, hvilke der tager ekstra betaling, og hvor mange timer hver pakke reelt dækker."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Leje en AV-tekniker i Malaga, Spanien, og ikke kun det udstyr, teknikeren betjener? Om der faktisk er en tekniker på stedet ved din booking, afhænger helt af, hvilken pakke fra Malaga Event Gear du vælger: inkluderet under hele eventet i én, inkluderet med en timegrænse i en anden, et tilkøb i en tredje og slet ikke tilbudt i de to andre.
+
+Denne guide handler om teknikeren som person og rolle, ikke om udstyret omkring vedkommende: hvilken pakke der giver en tekniker på stedet, hvad teknikeren faktisk gør, mens dit event kører, og hvordan du booker en til din dato. For selve dækningen, fase for fase, med det navngivne udstyr, som vores hold fejlfinder på, se vores guide om [teknisk support til events](/blog/technical-support-for-events/). Hvis dit event kører på en pakke uden tekniker, gennemgår vores guide om [fejlfinding på AV-systemer](/blog/av-system-troubleshooting/) i stedet, hvad du selv kan tjekke, pakke for pakke.
+
+[Book nu](/packages/) og bekræft teknikerdækningen, før dit event.
+
+## Indholdsfortegnelse
+
+-   [Kort overblik](#kort-overblik)
+-   [Det vigtigste](#det-vigtigste)
+-   [Teknikeren i hver pakke: hvad der er inkluderet, og hvad der koster ekstra](#teknikeren-i-hver-pakke-hvad-der-er-inkluderet-og-hvad-der-koster-ekstra)
+-   [Hvad en AV-tekniker faktisk gør på stedet](#hvad-en-av-tekniker-faktisk-gør-på-stedet)
+-   [Kan man leje en tekniker alene, uden udstyret?](#kan-man-leje-en-tekniker-alene-uden-udstyret)
+-   [Bryllup, firmaevent eller fest: tilpas teknikerens tilstedeværelse til dit event](#bryllup-firmaevent-eller-fest-tilpas-teknikerens-tilstedeværelse-til-dit-event)
+-   [Rigtige opsætninger med tekniker, som vi har leveret](#rigtige-opsætninger-med-tekniker-som-vi-har-leveret)
+-   [Sådan booker du en tekniker](#sådan-booker-du-en-tekniker)
+-   [Konklusion](#konklusion)
+-   [Ofte stillede spørgsmål](#ofte-stillede-spørgsmål)
+    -   [Kan jeg leje bare en AV-tekniker uden at leje jeres udstyr?](#kan-jeg-leje-bare-en-av-tekniker-uden-at-leje-jeres-udstyr)
+    -   [Hvilke pakker indeholder en AV-tekniker?](#hvilke-pakker-indeholder-en-av-tekniker)
+    -   [Hvad gør en AV-tekniker egentlig under mit event?](#hvad-gør-en-av-tekniker-egentlig-under-mit-event)
+    -   [Hvad koster det at tilføje en tekniker til Basic MICE Pack?](#hvad-koster-det-at-tilføje-en-tekniker-til-basic-mice-pack)
+    -   [Er teknikeren i Wedding Pack på stedet under hele eventet eller et bestemt antal timer?](#er-teknikeren-i-wedding-pack-på-stedet-under-hele-eventet-eller-et-bestemt-antal-timer)
+    -   [Hvad sker der, hvis mit event varer længere end teknikerens timegrænse på 6 timer i MICE Pack?](#hvad-sker-der-hvis-mit-event-varer-længere-end-teknikerens-timegrænse-på-6-timer-i-mice-pack)
+    -   [Har jeg brug for en tekniker til en lille fest eller et DJ-set?](#har-jeg-brug-for-en-tekniker-til-en-lille-fest-eller-et-dj-set)
+    -   [Hvor lang tid i forvejen skal jeg booke, hvis jeg har brug for en tekniker?](#hvor-lang-tid-i-forvejen-skal-jeg-booke-hvis-jeg-har-brug-for-en-tekniker)
+    -   [Hvilken erfaring har jeres AV-tekniker?](#hvilken-erfaring-har-jeres-av-tekniker)
+    -   [Stiller I en AV-tekniker til rådighed til events uden for byen Malaga, som Marbella eller Fuengirola?](#stiller-i-en-av-tekniker-til-rådighed-til-events-uden-for-byen-malaga-som-marbella-eller-fuengirola)
+
+## Kort overblik
+
+---
+
+Malaga Event Gear stiller en AV-tekniker til rådighed som en del af bestemte eventpakker, aldrig som en selvstændig ydelse, i Malaga og på hele Costa del Sol. Om der er en tekniker på stedet sammen med dit udstyr, afhænger af pakken: inkluderet under hele eventet, inkluderet med en timegrænse, tilgængelig som tilkøb eller slet ikke tilbudt.
+
+Denne guide angiver præcis, hvilken pakke der giver en tekniker på stedet, hvad teknikeren faktisk gør, mens dit event kører, og hvor lang tid i forvejen du skal booke en. [Kontakt os](/contact/) for at bekræfte teknikerdækningen til din dato.
+
+## Det vigtigste
+
+---
+
+-   Fem pakker, fire forskellige udfald for teknikeren: ikke tilbudt (i to af dem), tilkøb, inkluderet under hele eventet eller inkluderet med en timegrænse.
+
+-   [Wedding Pack](/packages/wedding/) er den eneste pakke med en tekniker på stedet under hele eventet, ikke et begrænset antal timer.
+
+-   [MICE Pack](/packages/mice/) inkluderer en tekniker i op til 6 timer i træk, og hver ekstra time faktureres med 40 euro.
+
+-   [Basic MICE Pack](/packages/basic-mice/) tilbyder en tekniker som tilkøb, til 240 euro pr. dag, i stedet for som standardinkludering.
+
+-   Vi sælger ikke en tekniker alene: hver teknikerbooking hører til en af vores egne udstyrspakker.
+
+## Teknikeren i hver pakke: hvad der er inkluderet, og hvad der koster ekstra
+
+Om der er en tekniker på stedet sammen med dit udstyr, er ikke en generel regel. Det fastlægges pakke for pakke, og forskellen mellem "inkluderet" og "tilkøb" er værd at tjekke, før du booker, ikke bagefter:
+
+| Pakke | Tekniker | Pris | Dækning |
+| --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | Ikke tilbudt, heller ikke som tilkøb | Ikke tilgængelig | Ikke relevant |
+| [Product Presentation Pack](/packages/product-presentation/) | Ikke tilbudt, heller ikke som tilkøb | Ikke tilgængelig | Ikke relevant |
+| [Basic MICE Pack](/packages/basic-mice/) | Tilkøb | +240 euro pr. dag | Hele eventdagen |
+| [Wedding Pack](/packages/wedding/) | Inkluderet | Inkluderet i pakkeprisen på 650 euro | Hele eventet, ingen timegrænse |
+| [MICE Pack](/packages/mice/) | Inkluderet | Inkluderet i pakkeprisen på 490 euro, +40 euro pr. ekstra time | Op til 6 timer i træk |
+
+Alle priser er ekskl. moms, med den spanske moms på 21 % tilføjet ved betalingen. Det fulde indhold af hver pakke finder du på vores [pakkeside](/packages/). Hvis du også har brug for specifikationerne på lydudstyret bag hver pakke og ikke kun kolonnen om teknikeren, gennemgår vores guide om at [leje lydanlæg](/blog/sound-system-rental/) de samme fem pakker efter antal gæster og udstyr.
+
+<InlineCTA />
+
+## Hvad en AV-tekniker faktisk gør på stedet
+
+En AV-tekniker er ikke bare en, der står ved mixerpulten. Før dit event begynder, udfører teknikeren gain staging og signaltest på lyden og eventuelle skærme og opdager en mikrofon, der er ved at give feedback, eller en projektor, der ikke vil synkronisere, før en eneste gæst er ankommet.
+
+Når eventet kører, justerer teknikeren forstærkningen, efterhånden som forskellige talere tager mikrofonen, hver med en forskellig stemme og en forskellig afstand til den, og styrer overgangen, når én taler sætter sig, og den næste rejser sig, så et øjebliks stilhed aldrig bliver til et hul i lyden. Hvis forbindelsen til en trådløs mikrofon falder ud, eller en projektor mister synkroniseringen midt i en præsentation, er det teknikerens opgave at rette det med det samme og ikke noget, du skal fejlfinde fra publikum.
+
+Det er den reelle forskel på pakkerne med en tekniker og dem uden. Med [Eco Pack](/packages/eco/) kører DJ'en eller værten sit eget set, og med [Product Presentation Pack](/packages/product-presentation/) kører præsentatoren sine egne slides og sin egen mikrofon. Med [Wedding Pack](/packages/wedding/) og [MICE Pack](/packages/mice/) er det en fra vores eget hold, der holder øje med niveauerne for dig.
+
+## Kan man leje en tekniker alene, uden udstyret?
+
+Ikke fra vores eget hold. Malaga Event Gear sælger ikke en tekniker som selvstændig ydelse, kun som en del af en af vores egne udstyrspakker. Vores teknikere sendes af sted med vores eget udstyr, og vi sender dem helst ikke ud til at betjene en opsætning, de aldrig har arbejdet med.
+
+Hvis dit event allerede har sit eget lydanlæg, sin egen skærm eller sit eget lysrig, og du kun har brug for en til at betjene det, kan du stadig spørge os. Samme logik gælder for alle andre: operatøren skal kende netop den opsætning. Fortæl os mærke og model, så kan vi spørge leverandører efter en operatør, der allerede arbejder med det udstyr og er ledig på din dato. Hvis vi ikke kan finde nogen, siger vi det, før du planlægger efter det.
+
+Det tætteste alternativ, hvis teknikeren er dit hovedbehov, er [Basic MICE Pack](/packages/basic-mice/), hvor teknikeren er et tilkøb og ikke en standardinkludering, eller [Wedding Pack](/packages/wedding/) og [MICE Pack](/packages/mice/), hvor en allerede er en del af pakken. [Kontakt os](/contact/), hvis du er usikker på, hvilken pakke der passer, så bekræfter vi, hvad der er og ikke er muligt for dit event.
+
+## Bryllup, firmaevent eller fest: tilpas teknikerens tilstedeværelse til dit event
+
+Hvilken pakke der giver mening, afhænger af, hvor længe dit event faktisk har brug for en tekniker, der holder øje, ikke kun af typen af event:
+
+-   **En privat fest eller et DJ-set** har sjældent brug for en tekniker: [Eco Pack](/packages/eco/) er et PA-anlæg, man kører selv, hvor DJ'en eller værten styrer sine egne niveauer. Se vores guide om [AV-udlejning til musikoptrædener](/blog/audio-visual-rental-for-music-performances/).
+-   **Et bryllup** kører vielse, taler, middag og dans i ét stræk, ofte længere end en fast timegrænse ville dække, og derfor indeholder [Wedding Pack](/packages/wedding/) en tekniker under hele eventet og ikke i et bestemt antal timer.
+-   **Et bestyrelsesmøde eller et lille kundemøde** med [Basic MICE Pack](/packages/basic-mice/) har ofte slet ikke brug for en tekniker på stedet, og derfor er det et valgfrit tilkøb og ikke en standardinkludering.
+-   **En produktpræsentation eller en præsentation hos en bilforhandler** med [Product Presentation Pack](/packages/product-presentation/) køres af præsentatoren, uden nogen teknikermulighed overhovedet. Hvis du vil have en tekniker på stedet til den slags event, er [MICE Pack](/packages/mice/) det næste skridt.
+-   **En større konference, en produktlancering eller et personalemøde for alle medarbejdere** med [MICE Pack](/packages/mice/) får en tekniker inkluderet i op til 6 timer i træk. Hvis dit event sandsynligvis varer længere, så budgettér med forlængelsen på 40 euro i timen i stedet for at antage, at grænsen kan strækkes.
+
+Mere om, hvordan du vælger mellem Basic MICE Pack og MICE Pack til netop et firmaevent, finder du i vores guide om [mødeteknik](/blog/audio-visual-rental-for-corporate-meetings/).
+
+## Rigtige opsætninger med tekniker, som vi har leveret
+
+![Nærbillede af en digital lydmixerpult, der blev brugt til udlejning af lydanlæg ved et borgermøde i Malaga.](https://cdn.malagaeventgear.com/blog/2494/7-years-on-the-Neighborhood-Council-Community-Meeting-1-1536x1152.webp "Det operative nervecenter: et nærbillede af lydmixerpulten og det tilhørende trådløse udstyr, der blev brugt til Neighborhood Councils borgermøde i Malaga.")
+
+Det operative nervecenter: lydmixerpulten og det tilhørende trådløse udstyr, der blev brugt til et borgermøde for Neighborhood Council, som vores hold har støttet i syv år i træk. Læs hele historien i vores opdatering om [7 års støtte til Neighborhood Councils borgermøde](/blog/7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain/).
+
+![En professionel opsætning til en firmapræsentation for FTI Consulting med en talerpult med mikrofon og bærbar computer.](https://cdn.malagaeventgear.com/blog/1793/FTI-Consulting-Setup-audio-and-microphone-system-setup-768x1024.webp "Den komplette opsætning af lyd og mikrofoner ved et firmaevent for FTI Consulting, med talerpulten i virksomhedens design og præsentationscomputeren.")
+
+Opsætningen af lyd og mikrofoner ved et firmaevent for FTI Consulting i provinsen Malaga, med talerpulten i virksomhedens design og præsentationscomputeren.
+
+Ved en todages firmaopgave i Marbella stod vores teknikere for hele transporten, den hurtige opsætning og kalibreringen af lyd og skærme før eventet, inden den første gæst ankom, som teknisk partner på stedet for et andet bureaus firmakunde. Læs mere i vores opdatering om [premium teknisk support til Bmotion i Marbella](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/).
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice')} speed="normal" direction="left" />
+</div>
+
+## Sådan booker du en tekniker
+
+At leje en AV-tekniker i Malaga følger samme proces som enhver anden pakke: vælg [Wedding Pack](/packages/wedding/) eller [MICE Pack](/packages/mice/), hvis du vil have en inkluderet, eller tilføj teknikermuligheden til din tilbudsforespørgsel på [Basic MICE Pack](/packages/basic-mice/). [Kontakt os](/contact/) med din eventdato, dit antal gæster og den forventede varighed, især hvis dit event kan løbe ud over timegrænsen på 6 timer i MICE Pack, så vi kan bekræfte teknikerens timer, før du booker.
+
+Efterspørgslen på pakker med tekniker topper i bryllupssæsonen, fra april til oktober, så lås din dato så tidligt som muligt, når den er bekræftet. For hele processen, trin for trin, som vores hold følger på leveringsdagen, se vores guide om [sådan fungerer AV-udlejning](/blog/how-audio-visual-rental-works/).
+
+## Konklusion
+
+Om der er en tekniker på stedet ved dit event, afhænger af pakken og ikke af en generel politik: ikke tilbudt med [Eco Pack](/packages/eco/) eller [Product Presentation Pack](/packages/product-presentation/), et tilkøb med [Basic MICE Pack](/packages/basic-mice/), inkluderet under hele eventet med [Wedding Pack](/packages/wedding/) og inkluderet i op til 6 timer med [MICE Pack](/packages/mice/). [Kontakt os](/contact/) for at bekræfte teknikerdækningen til din dato. For vores fulde udvalg af AV-udlejning, se [siden om AV-udlejning](/blog/audio-visual-rental/).
+
+## Ofte stillede spørgsmål
+
+### Kan jeg leje bare en AV-tekniker uden at leje jeres udstyr?
+
+Ikke en fra vores eget hold. Vi sælger ikke en tekniker som selvstændig ydelse, kun som en del af en af vores egne udstyrspakker. Se [Kan man leje en tekniker alene, uden udstyret?](#kan-man-leje-en-tekniker-alene-uden-udstyret) ovenfor, hvis dit event allerede har sit eget system.
+
+### Hvilke pakker indeholder en AV-tekniker?
+
+[Wedding Pack](/packages/wedding/) og [MICE Pack](/packages/mice/) indeholder en som standard, [Basic MICE Pack](/packages/basic-mice/) tilbyder en som tilkøb til 240 euro pr. dag, og [Eco Pack](/packages/eco/) og [Product Presentation Pack](/packages/product-presentation/) tilbyder slet ingen. Se [Teknikeren i hver pakke](#teknikeren-i-hver-pakke-hvad-der-er-inkluderet-og-hvad-der-koster-ekstra) ovenfor for den fulde oversigt.
+
+### Hvad gør en AV-tekniker egentlig under mit event?
+
+Teknikeren udfører gain staging og signaltest, før dit event begynder, justerer mikrofonniveauerne live, efterhånden som forskellige talere tager mikrofonen, styrer overgangen mellem talerne, så der ikke opstår et hul i lyden, og retter en afbrudt forbindelse eller en projektor, der mister synkroniseringen, med det samme. Se [Hvad en AV-tekniker faktisk gør på stedet](#hvad-en-av-tekniker-faktisk-gør-på-stedet) ovenfor.
+
+### Hvad koster det at tilføje en tekniker til Basic MICE Pack?
+
+240 euro pr. dag, ekskl. moms, oven i Basic MICE Packs pakkepris på 295 euro. Når teknikeren er tilføjet, er vedkommende tilgængelig hele eventdagen.
+
+### Er teknikeren i Wedding Pack på stedet under hele eventet eller et bestemt antal timer?
+
+Under hele eventet, uden timegrænse. Det er den eneste pakke, hvor teknikerdækningen ikke er begrænset til et fast antal timer, hvilket har betydning for en bryllupsdag, der løber fra vielsen til dansen.
+
+### Hvad sker der, hvis mit event varer længere end teknikerens timegrænse på 6 timer i MICE Pack?
+
+Hver ekstra time faktureres med 40 euro. Hvis dit event sandsynligvis varer længere end 6 timer, så oplys den forventede varighed, når du booker, så vi på forhånd kan bekræfte teknikerens tilgængelighed og prisen for de ekstra timer.
+
+### Har jeg brug for en tekniker til en lille fest eller et DJ-set?
+
+Normalt ikke. [Eco Pack](/packages/eco/) er et PA-anlæg, man kører selv, uden tekniker på stedet, bygget til en DJ eller vært, der styrer sine egne niveauer. Se vores guide om [AV-udlejning til musikoptrædener](/blog/audio-visual-rental-for-music-performances/).
+
+### Hvor lang tid i forvejen skal jeg booke, hvis jeg har brug for en tekniker?
+
+Så tidligt som muligt, når din eventdato er bekræftet. Efterspørgslen på pakker med tekniker, især Wedding Pack, topper i bryllupssæsonen fra april til oktober, hvor teknikerne bliver booket op først.
+
+### Hvilken erfaring har jeres AV-tekniker?
+
+Malaga Event Gear har været aktiv inden for AV-udlejning siden 1996, og hver tekniker, vi sender, kommer med vores eget udstyr, det udstyr, vedkommende betjener på din booking.
+
+### Stiller I en AV-tekniker til rådighed til events uden for byen Malaga, som Marbella eller Fuengirola?
+
+Ja. Vores pakker med tekniker dækker byen Malaga og strækker sig over hele Costa del Sol, inklusive Marbella og Fuengirola. [Kontakt os](/contact/) med dit sted, så vi kan bekræfte dækningen for din specifikke lokation.

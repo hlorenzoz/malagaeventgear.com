@@ -1,0 +1,176 @@
+---
+title: "Location d'un technicien audiovisuel à Malaga, en Espagne"
+description: "Location d'un technicien audiovisuel à Malaga, en Espagne : prix réels en euros, de l'option payante à la couverture complète, plafonds d'heures exacts."
+excerpt: "Location d'un technicien audiovisuel à Malaga : quels forfaits Malaga Event Gear en incluent un, lesquels le facturent en plus, et combien d'heures chacun couvre."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Vous cherchez la location d'un technicien audiovisuel à Malaga, en Espagne, et pas seulement le matériel qu'il fait fonctionner ? La présence d'un technicien sur place avec votre réservation dépend entièrement du forfait Malaga Event Gear que vous choisissez : inclus pour toute la durée de l'événement sur l'un, inclus avec un plafond d'heures sur un autre, en option payante sur un troisième, et pas proposé du tout sur les deux autres.
+
+Ce guide présente le technicien comme une personne et un rôle, et non le matériel qui l'entoure : quel forfait met un technicien sur place, ce qu'il fait réellement pendant votre événement et comment en réserver un pour votre date. Pour la couverture elle-même, phase par phase, avec le matériel nommé que notre équipe dépanne, consultez notre guide du [support technique pour les événements](/blog/technical-support-for-events/). Si votre événement se déroule avec un forfait sans technicien, notre guide du [dépannage des systèmes audiovisuels](/blog/av-system-troubleshooting/) explique plutôt ce que vous pouvez vérifier vous-même, forfait par forfait.
+
+[Réservez dès maintenant](/packages/) et confirmez la présence d'un technicien avant votre événement.
+
+## Table des matières
+
+-   [En bref](#en-bref)
+-   [Points clés](#points-clés)
+-   [Le technicien selon le forfait : ce qui est inclus et ce qui coûte en plus](#le-technicien-selon-le-forfait--ce-qui-est-inclus-et-ce-qui-coûte-en-plus)
+-   [Ce que fait réellement un technicien audiovisuel sur place](#ce-que-fait-réellement-un-technicien-audiovisuel-sur-place)
+-   [Peut-on louer un technicien seul, sans le matériel ?](#peut-on-louer-un-technicien-seul-sans-le-matériel-)
+-   [Mariage, entreprise ou fête : adapter la présence du technicien à votre événement](#mariage-entreprise-ou-fête--adapter-la-présence-du-technicien-à-votre-événement)
+-   [Des installations réelles avec technicien que nous avons livrées](#des-installations-réelles-avec-technicien-que-nous-avons-livrées)
+-   [Comment réserver un technicien](#comment-réserver-un-technicien)
+-   [Conclusion](#conclusion)
+-   [Questions fréquentes](#questions-fréquentes)
+    -   [Puis-je louer uniquement un technicien audiovisuel, sans louer votre matériel ?](#puis-je-louer-uniquement-un-technicien-audiovisuel-sans-louer-votre-matériel-)
+    -   [Quels forfaits incluent un technicien audiovisuel ?](#quels-forfaits-incluent-un-technicien-audiovisuel-)
+    -   [Que fait réellement un technicien audiovisuel pendant mon événement ?](#que-fait-réellement-un-technicien-audiovisuel-pendant-mon-événement-)
+    -   [Combien coûte l'ajout d'un technicien au Basic MICE Pack ?](#combien-coûte-lajout-dun-technicien-au-basic-mice-pack-)
+    -   [Le technicien du Wedding Pack est-il présent pendant tout l'événement, ou pour un nombre d'heures fixe ?](#le-technicien-du-wedding-pack-est-il-présent-pendant-tout-lévénement-ou-pour-un-nombre-dheures-fixe-)
+    -   [Que se passe-t-il si mon événement dépasse le plafond de 6 heures du technicien du MICE Pack ?](#que-se-passe-t-il-si-mon-événement-dépasse-le-plafond-de-6-heures-du-technicien-du-mice-pack-)
+    -   [Ai-je besoin d'un technicien pour une petite fête ou un DJ set ?](#ai-je-besoin-dun-technicien-pour-une-petite-fête-ou-un-dj-set-)
+    -   [Combien de temps à l'avance dois-je réserver si j'ai besoin d'un technicien ?](#combien-de-temps-à-lavance-dois-je-réserver-si-jai-besoin-dun-technicien-)
+    -   [Quelle expérience a votre technicien audiovisuel ?](#quelle-expérience-a-votre-technicien-audiovisuel-)
+    -   [Fournissez-vous un technicien audiovisuel pour des événements hors de la ville de Malaga, comme Marbella ou Fuengirola ?](#fournissez-vous-un-technicien-audiovisuel-pour-des-événements-hors-de-la-ville-de-malaga-comme-marbella-ou-fuengirola-)
+
+## En bref
+
+---
+
+Chez Malaga Event Gear, la location d'un technicien audiovisuel à Malaga et sur l'ensemble de la Costa del Sol se fait dans le cadre de forfaits d'événement précis, jamais comme prestation autonome. La présence d'un technicien sur place avec votre matériel dépend du forfait : inclus pour tout l'événement, inclus avec un plafond d'heures, disponible en option payante, ou pas proposé du tout.
+
+Ce guide indique précisément quel forfait met un technicien sur place, ce que ce technicien fait réellement pendant votre événement et combien de temps à l'avance en réserver un. [Contactez-nous](/contact/) pour confirmer la présence d'un technicien à votre date.
+
+## Points clés
+
+---
+
+-   Cinq forfaits, quatre situations différentes pour le technicien : pas proposé (sur deux d'entre eux), option payante, inclus pour tout l'événement, ou inclus avec un plafond d'heures.
+
+-   Le [Wedding Pack](/packages/wedding/) est le seul forfait avec un technicien sur place pendant tout l'événement, et non un nombre d'heures plafonné.
+
+-   Le [MICE Pack](/packages/mice/) inclut un technicien pendant 6 heures continues au maximum, chaque heure supplémentaire étant facturée 40 euros.
+
+-   Le [Basic MICE Pack](/packages/basic-mice/) propose un technicien en option payante, à 240 euros par jour, plutôt qu'en inclusion standard.
+
+-   Nous ne vendons pas de technicien seul : chaque réservation de technicien est rattachée à l'un de nos propres forfaits de matériel.
+
+## Le technicien selon le forfait : ce qui est inclus et ce qui coûte en plus
+
+La présence d'un technicien sur place avec votre matériel n'est pas une règle générale. Elle est définie forfait par forfait, et la différence entre "inclus" et "option payante" mérite d'être vérifiée avant de réserver, pas après :
+
+| Forfait | Technicien | Coût | Couverture |
+| --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | Non proposé, même en option payante | Non disponible | Sans objet |
+| [Product Presentation Pack](/packages/product-presentation/) | Non proposé, même en option payante | Non disponible | Sans objet |
+| [Basic MICE Pack](/packages/basic-mice/) | Option payante | +240 euros par jour | Journée complète de l'événement |
+| [Wedding Pack](/packages/wedding/) | Inclus | Inclus dans le prix du forfait de 650 euros | Événement complet, sans plafond d'heures |
+| [MICE Pack](/packages/mice/) | Inclus | Inclus dans le prix du forfait de 490 euros, +40 euros par heure supplémentaire | Jusqu'à 6 heures continues |
+
+Tous les prix sont HT, la TVA espagnole de 21 % étant ajoutée au moment du paiement. Consultez le détail complet de chaque forfait sur notre [page des forfaits](/packages/). Si vous avez aussi besoin des caractéristiques du matériel de sonorisation derrière chaque forfait, et pas seulement de la colonne du technicien, notre guide de [location de sonorisation](/blog/sound-system-rental/) couvre les cinq mêmes forfaits selon le nombre d'invités et le matériel.
+
+<InlineCTA />
+
+## Ce que fait réellement un technicien audiovisuel sur place
+
+Un technicien audiovisuel n'est pas simplement quelqu'un qui se tient près de la table de mixage. Avant le début de votre événement, il règle le gain et teste le signal sur le son et sur les éventuels écrans, et repère un microphone sur le point de siffler ou un vidéoprojecteur qui ne se synchronisera pas avant l'arrivée du moindre invité.
+
+Une fois l'événement lancé, il ajuste le gain à mesure que différents intervenants prennent le microphone, chacun avec une voix différente et à une distance différente de celui-ci, et gère le passage de relais quand un intervenant s'assoit et que le suivant se lève, pour qu'un instant de silence ne se transforme jamais en temps mort. Si la connexion d'un microphone sans fil se coupe, ou si un vidéoprojecteur perd la synchronisation en pleine présentation, la corriger sur le moment fait partie de son travail, et non de ce que vous dépannez depuis la salle.
+
+C'est la vraie différence entre les forfaits qui incluent un technicien et ceux qui n'en incluent pas. Avec l'[Eco Pack](/packages/eco/), le DJ ou l'animateur gère son propre set, et avec le [Product Presentation Pack](/packages/product-presentation/), le présentateur gère ses propres diapositives et son microphone. Avec le [Wedding Pack](/packages/wedding/) et le [MICE Pack](/packages/mice/), l'un de nos propres techniciens surveille les niveaux à votre place.
+
+## Peut-on louer un technicien seul, sans le matériel ?
+
+Pas auprès de notre propre équipe. Malaga Event Gear ne vend pas de technicien comme prestation autonome, seulement dans le cadre de l'un de nos propres forfaits de matériel. Nos techniciens sont envoyés avec notre propre matériel, et nous préférons ne pas les envoyer faire fonctionner une installation qu'ils n'ont jamais utilisée.
+
+Si votre événement dispose déjà de son propre système de sonorisation, de son écran ou de son éclairage et que vous avez seulement besoin de quelqu'un pour le faire fonctionner, vous pouvez quand même nous demander. La même logique vaut pour toute autre personne : l'opérateur doit connaître cette installation précise. Indiquez-nous sa marque et son modèle, et nous pouvons demander à nos fournisseurs un opérateur qui travaille déjà avec ce matériel et qui est libre à votre date. Si nous n'en trouvons pas, nous vous le dirons avant que vous ne planifiiez en comptant dessus.
+
+Le choix le plus proche si le technicien est votre besoin principal est le [Basic MICE Pack](/packages/basic-mice/), où le technicien est une option payante plutôt qu'une inclusion standard, ou le [Wedding Pack](/packages/wedding/) et le [MICE Pack](/packages/mice/), où il fait déjà partie du forfait. [Contactez-nous](/contact/) si vous hésitez sur le forfait adapté, et nous confirmerons ce qui est possible, ou non, pour votre événement.
+
+## Mariage, entreprise ou fête : adapter la présence du technicien à votre événement
+
+Le forfait qui convient dépend de la durée pendant laquelle votre événement a réellement besoin d'un technicien à son poste, et pas seulement du type d'événement :
+
+-   **Une fête privée ou un DJ set** a rarement besoin d'un technicien : l'[Eco Pack](/packages/eco/) est une sonorisation PA autonome, avec un DJ ou un animateur qui contrôle ses propres niveaux. Consultez notre guide de [location audiovisuelle pour concerts et spectacles](/blog/audio-visual-rental-for-music-performances/).
+-   **Un mariage** enchaîne cérémonie, discours, dîner et danse, souvent au-delà de ce qu'un plafond d'heures fixe couvrirait, ce qui explique pourquoi le [Wedding Pack](/packages/wedding/) inclut un technicien pour tout l'événement plutôt que pour un nombre d'heures fixe.
+-   **Un conseil d'administration ou une petite réunion client** avec le [Basic MICE Pack](/packages/basic-mice/) n'a souvent pas besoin d'un technicien sur place, ce qui explique pourquoi c'est une option facultative plutôt qu'une inclusion par défaut.
+-   **Une présentation de produit ou une présentation en concession** avec le [Product Presentation Pack](/packages/product-presentation/) est menée par le présentateur, sans aucune option de technicien. Si vous en voulez un sur place pour ce type d'événement, le [MICE Pack](/packages/mice/) est le palier supérieur.
+-   **Une conférence plus grande, un lancement de produit ou une réunion générale** avec le [MICE Pack](/packages/mice/) bénéficie d'un technicien inclus pendant 6 heures continues au maximum. Si votre événement risque de durer plus longtemps, prévoyez dans votre budget l'extension à 40 euros par heure plutôt que de supposer que le plafond sera extensible.
+
+Pour en savoir plus sur le choix entre le Basic MICE Pack et le MICE Pack pour un événement d'entreprise en particulier, consultez notre guide d'[équipement audiovisuel pour une réunion d'entreprise](/blog/audio-visual-rental-for-corporate-meetings/).
+
+## Des installations réelles avec technicien que nous avons livrées
+
+![Gros plan sur une console de mixage audio numérique utilisée pour la location de sonorisation lors d'une réunion communautaire à Malaga.](https://cdn.malagaeventgear.com/blog/2494/7-years-on-the-Neighborhood-Council-Community-Meeting-1-1536x1152.webp "Le centre névralgique de l'opération : gros plan sur la console de mixage audio et le matériel sans fil associé utilisés pour la réunion communautaire du Neighborhood Council à Malaga.")
+
+Le centre névralgique de l'opération : la console de mixage audio et le matériel sans fil associé utilisés pour une réunion communautaire du Neighborhood Council que notre équipe accompagne depuis sept années consécutives. Lisez toute l'histoire dans notre article sur les [7 années de soutien à la réunion communautaire du Neighborhood Council](/blog/7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain/).
+
+![Installation professionnelle pour une présentation d'entreprise FTI Consulting, avec un pupitre équipé d'un microphone et d'un ordinateur portable.](https://cdn.malagaeventgear.com/blog/1793/FTI-Consulting-Setup-audio-and-microphone-system-setup-768x1024.webp "L'installation complète de son et de microphones lors d'un événement d'entreprise de FTI Consulting, avec le pupitre aux couleurs de la marque et l'ordinateur portable de présentation.")
+
+L'installation de son et de microphones lors d'un événement d'entreprise de FTI Consulting dans la province de Malaga, avec le pupitre aux couleurs de la marque et l'ordinateur portable de présentation.
+
+Lors d'une mission d'entreprise de deux jours à Marbella, nos techniciens ont assuré tout le transport, le montage rapide et l'étalonnage préalable à l'événement du son et des écrans avant l'arrivée du premier invité, en tant que partenaire technique sur place du client d'entreprise d'une autre agence. En savoir plus dans notre article sur le [support technique premium pour Bmotion à Marbella](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/).
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice')} speed="normal" direction="left" />
+</div>
+
+## Comment réserver un technicien
+
+Réserver un technicien suit la même démarche que n'importe quel autre forfait : choisissez le [Wedding Pack](/packages/wedding/) ou le [MICE Pack](/packages/mice/) si vous voulez qu'il soit inclus, ou ajoutez l'option technicien à votre demande de devis pour le [Basic MICE Pack](/packages/basic-mice/). [Contactez-nous](/contact/) en indiquant la date de votre événement, le nombre d'invités et la durée prévue, surtout si votre événement risque de dépasser le plafond de 6 heures du MICE Pack, afin que nous puissions confirmer les heures du technicien avant votre réservation.
+
+La demande pour les forfaits avec technicien atteint son pic pendant la saison des mariages, d'avril à octobre, alors verrouillez votre date le plus tôt possible une fois qu'elle est confirmée. Pour le déroulement complet, étape par étape, que suit notre équipe le jour de la livraison, consultez notre guide sur [comment fonctionne la location audiovisuelle](/blog/how-audio-visual-rental-works/).
+
+## Conclusion
+
+La présence d'un technicien sur place avec votre événement dépend du forfait, et non d'une politique générale : pas proposé avec l'[Eco Pack](/packages/eco/) ni avec le [Product Presentation Pack](/packages/product-presentation/), en option payante avec le [Basic MICE Pack](/packages/basic-mice/), inclus pour tout l'événement avec le [Wedding Pack](/packages/wedding/), et inclus jusqu'à 6 heures avec le [MICE Pack](/packages/mice/). [Contactez-nous](/contact/) pour confirmer la présence d'un technicien à votre date. Pour notre gamme complète de location audiovisuelle, voir la [page de location audiovisuelle](/blog/audio-visual-rental/).
+
+## Questions fréquentes
+
+### Puis-je louer uniquement un technicien audiovisuel, sans louer votre matériel ?
+
+Pas l'un de nos propres techniciens. Nous ne vendons pas de technicien comme prestation autonome, seulement dans le cadre de l'un de nos propres forfaits de matériel. Voir [Peut-on louer un technicien seul, sans le matériel ?](#peut-on-louer-un-technicien-seul-sans-le-matériel-) ci-dessus si votre événement dispose déjà de son propre système.
+
+### Quels forfaits incluent un technicien audiovisuel ?
+
+Le [Wedding Pack](/packages/wedding/) et le [MICE Pack](/packages/mice/) en incluent un de série, le [Basic MICE Pack](/packages/basic-mice/) en propose un en option payante à 240 euros par jour, et l'[Eco Pack](/packages/eco/) et le [Product Presentation Pack](/packages/product-presentation/) n'en proposent pas du tout. Voir [Le technicien selon le forfait](#le-technicien-selon-le-forfait--ce-qui-est-inclus-et-ce-qui-coûte-en-plus) ci-dessus pour le détail complet.
+
+### Que fait réellement un technicien audiovisuel pendant mon événement ?
+
+Il règle le gain et teste le signal avant le début de votre événement, ajuste en direct les niveaux des microphones à mesure que différents intervenants prennent la parole, gère le passage de relais entre les intervenants pour qu'il n'y ait pas de temps mort, et corrige sur le moment une connexion coupée ou un vidéoprojecteur qui perd la synchronisation. Voir [Ce que fait réellement un technicien audiovisuel sur place](#ce-que-fait-réellement-un-technicien-audiovisuel-sur-place) ci-dessus.
+
+### Combien coûte l'ajout d'un technicien au Basic MICE Pack ?
+
+240 euros par jour, HT, en plus du prix de 295 euros du Basic MICE Pack. Une fois ajouté, le technicien est disponible pour toute la journée de l'événement.
+
+### Le technicien du Wedding Pack est-il présent pendant tout l'événement, ou pour un nombre d'heures fixe ?
+
+Pendant tout l'événement, sans plafond d'heures. C'est le seul forfait où la présence du technicien n'est pas limitée à un nombre d'heures fixe, ce qui compte pour un jour de mariage qui va de la cérémonie à la danse.
+
+### Que se passe-t-il si mon événement dépasse le plafond de 6 heures du technicien du MICE Pack ?
+
+Chaque heure supplémentaire est facturée 40 euros. Si votre événement risque de dépasser 6 heures, indiquez la durée prévue au moment de réserver afin que nous puissions confirmer à l'avance la disponibilité du technicien et le coût des heures supplémentaires.
+
+### Ai-je besoin d'un technicien pour une petite fête ou un DJ set ?
+
+En général non. L'[Eco Pack](/packages/eco/) est une sonorisation PA autonome, sans technicien sur place, conçue pour un DJ ou un animateur qui contrôle ses propres niveaux. Consultez notre guide de [location audiovisuelle pour concerts et spectacles](/blog/audio-visual-rental-for-music-performances/).
+
+### Combien de temps à l'avance dois-je réserver si j'ai besoin d'un technicien ?
+
+Le plus tôt possible une fois la date de votre événement confirmée. La demande pour les forfaits avec technicien, en particulier le Wedding Pack, atteint son pic pendant la saison des mariages, d'avril à octobre, lorsque les techniciens sont réservés en premier.
+
+### Quelle expérience a votre technicien audiovisuel ?
+
+Malaga Event Gear opère dans le secteur de la location audiovisuelle depuis 1996, et chaque technicien que nous envoyons arrive avec notre propre matériel, celui qu'il fait fonctionner pour votre réservation.
+
+### Fournissez-vous un technicien audiovisuel pour des événements hors de la ville de Malaga, comme Marbella ou Fuengirola ?
+
+Oui. Nos forfaits avec technicien desservent la ville de Malaga et s'étendent sur toute la Costa del Sol, y compris Marbella et Fuengirola. [Contactez-nous](/contact/) en indiquant votre lieu afin que nous confirmions la couverture pour votre site précis.

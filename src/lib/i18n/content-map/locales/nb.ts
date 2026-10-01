@@ -66,6 +66,11 @@ export default {
 			keyword: 'leie TV-skjerm i Malaga',
 			status: 'propuesta'
 		},
+		'av-technician-hire': {
+			slug: 'leie-av-tekniker',
+			keyword: 'leie en AV-tekniker i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'av-utleie-i-malaga',
 			keyword: 'AV-utleie i Malaga',

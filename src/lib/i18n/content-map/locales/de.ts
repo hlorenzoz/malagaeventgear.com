@@ -62,6 +62,11 @@ export default {
 			keyword: 'TV-Bildschirm mieten in Malaga',
 			status: 'propuesta'
 		},
+		'av-technician-hire': {
+			slug: 'av-techniker-mieten-malaga',
+			keyword: 'AV-Techniker mieten in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'av-vermietung-malaga',
 			keyword: 'AV-Vermietung Malaga',

@@ -54,6 +54,11 @@ export default {
 			keyword: '馬拉加 電視熒幕租借',
 			status: 'propuesta'
 		},
+		'av-technician-hire': {
+			slug: '視聽技術人員租用',
+			keyword: '馬拉加 視聽技術人員租用',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': { slug: '活動視聽租借', keyword: '馬拉加 活動視聽租借', status: 'propuesta' },
 		'audio-visual-rental-for-conferences': { slug: '會議視聽租借', keyword: '馬拉加 會議視聽租借', status: 'propuesta' },
 		'audio-visual-rental-for-corporate-events': {
