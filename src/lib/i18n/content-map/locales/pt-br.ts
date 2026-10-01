@@ -374,6 +374,11 @@ export default {
 			keyword: 'aluguel de audiovisual para eventos beneficentes em Málaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-art-exhibitions': {
+			slug: 'aluguel-de-audiovisual-para-exposicoes-de-arte',
+			keyword: 'aluguel de audiovisual para exposições de arte em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-hire-near-me-in-malaga-spain': {
 			slug: 'aluguel-de-audiovisual-perto-de-mim',
 			keyword: 'aluguel de audiovisual perto de mim',

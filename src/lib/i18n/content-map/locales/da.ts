@@ -342,6 +342,11 @@ export default {
 			keyword: 'AV-udlejning til velgørenhedsevents i Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-art-exhibitions': {
+			slug: 'av-udlejning-kunstudstillinger',
+			keyword: 'AV-udlejning til kunstudstillinger i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-hire-near-me-in-malaga-spain': {
 			slug: 'av-udlejning-i-naerheden-af-mig',
 			keyword: 'AV-udlejning i nærheden af mig',

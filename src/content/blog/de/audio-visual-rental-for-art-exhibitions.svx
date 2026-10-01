@@ -1,0 +1,175 @@
+---
+title: "AV-Vermietung für Kunstausstellungen in Malaga"
+description: "AV-Vermietung für Kunstausstellungen in Malaga, Spanien: Ton, Mikrofon und Bildschirm für den Empfang, und was unser eigener Bestand nicht abdeckt."
+excerpt: "AV-Vermietung für Kunstausstellungen in Malaga, Spanien: Ton, Mikrofon und Bildschirm für den Empfang, was unser eigener Bestand für die Kunst nicht abdeckt."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Suchen Sie auf Englisch nach "audio visual rental for art exhibitions", teilen sich die Ergebnisse in zwei wenig hilfreiche Arten: dünne Blogbeiträge von Verleihern, die wie eine allgemeine Checkliste wirken, und Seiten von Lichtintegratoren, die dauerhafte Systeme für Museen und Architekten planen, nicht einen einzelnen Eröffnungsabend. Keine von beiden zieht die Linie, die ein Ausstellungsveranstalter wirklich braucht. Was ein Verleiher für den Empfang selbst aufbaut, eine auf den Raum abgestimmte Beschallung, ein Mikrofon für Künstler oder Kurator, einen Bildschirm für ein Künstlerstatement oder ein Videowerk, ist bei der AV-Vermietung für Kunstausstellungen in Malaga, Spanien, eine andere Aufgabe als die Beleuchtung der Kunstwerke an den Wänden, eine spezialisierte Disziplin, die wir mit unserem eigenen Equipment nicht abdecken.
+
+Diese Seite ist diese ehrliche Version, aufgebaut um eine Vernissage oder einen Eröffnungsempfang, nicht um eine laufende Ausstellung. [Kontaktieren Sie uns](/contact/) mit der Gästezahl und der Raumaufteilung Ihrer Galerie, wenn wir das passende Paket bestätigen sollen, bevor Sie buchen.
+
+## Inhaltsverzeichnis
+
+-   [Kurzüberblick](#kurzüberblick)
+-   [Das Wichtigste](#das-wichtigste)
+-   [Was wir für eine Vernissage liefern](#was-wir-für-eine-vernissage-liefern)
+-   [Die ehrliche Grenze: Was wir für die Kunstwerke selbst nicht auf Lager haben](#die-ehrliche-grenze-was-wir-für-die-kunstwerke-selbst-nicht-auf-lager-haben)
+-   [Ein auch bei Saallicht gut lesbarer Bildschirm für ein Künstlerstatement oder ein Videowerk](#ein-auch-bei-saallicht-gut-lesbarer-bildschirm-für-ein-künstlerstatement-oder-ein-videowerk)
+-   [Ambientebeleuchtung: Atmosphäre für den Empfang, keine Beleuchtung der Kunstwerke](#ambientebeleuchtung-atmosphäre-für-den-empfang-keine-beleuchtung-der-kunstwerke)
+-   [Passendes Paket für Ihre Vernissage](#passendes-paket-für-ihre-vernissage)
+-   [Echte Aufbauten, die wir geliefert haben](#echte-aufbauten-die-wir-geliefert-haben)
+-   [Eine Veranstaltung, keine dauerhafte Installation](#eine-veranstaltung-keine-dauerhafte-installation)
+-   [Buchung und Einsatzgebiet](#buchung-und-einsatzgebiet)
+-   [Fazit](#fazit)
+-   [Häufige Fragen](#häufige-fragen)
+    -   [Welche AV-Technik brauche ich für die Eröffnung einer Kunstausstellung?](#welche-av-technik-brauche-ich-für-die-eröffnung-einer-kunstausstellung)
+    -   [Brauche ich ein Mikrofon für ein Künstlergespräch oder Eröffnungsworte?](#brauche-ich-ein-mikrofon-für-ein-künstlergespräch-oder-eröffnungsworte)
+    -   [Wie dimensionieren Sie die Beschallung für eine Vernissage?](#wie-dimensionieren-sie-die-beschallung-für-eine-vernissage)
+    -   [Können Sie ein Künstlerstatement oder ein Videowerk projizieren, während das Galerielicht an ist?](#können-sie-ein-künstlerstatement-oder-ein-videowerk-projizieren-während-das-galerielicht-an-ist)
+    -   [Liefert Malaga Event Gear Beleuchtung für die Kunstwerke selbst?](#liefert-malaga-event-gear-beleuchtung-für-die-kunstwerke-selbst)
+    -   [Welche Ambientebeleuchtung bieten Sie für den Empfang?](#welche-ambientebeleuchtung-bieten-sie-für-den-empfang)
+    -   [Was kostet AV-Vermietung für die Eröffnung einer Kunstausstellung?](#was-kostet-av-vermietung-für-die-eröffnung-einer-kunstausstellung)
+    -   [Für welche Größe einer Vernissage ist welches Paket geeignet?](#für-welche-größe-einer-vernissage-ist-welches-paket-geeignet)
+    -   [Ist bei einer Vernissage ein Techniker enthalten?](#ist-bei-einer-vernissage-ein-techniker-enthalten)
+    -   [Wie früh sollte ich AV für eine Vernissage buchen?](#wie-früh-sollte-ich-av-für-eine-vernissage-buchen)
+    -   [Stellen Sie AV für die gesamte Laufzeit der Ausstellung bereit oder nur für die Eröffnung?](#stellen-sie-av-für-die-gesamte-laufzeit-der-ausstellung-bereit-oder-nur-für-die-eröffnung)
+    -   [Sollte ein Künstlergespräch ein Handmikrofon oder ein Schwanenhalsmikrofon nutzen?](#sollte-ein-künstlergespräch-ein-handmikrofon-oder-ein-schwanenhalsmikrofon-nutzen)
+
+## Kurzüberblick
+
+---
+
+Gestützt auf Erfahrung seit 1996 bietet Malaga Event Gear AV-Vermietung für Kunstausstellungen in Malaga und an der gesamten Costa del Sol, für die Vernissage oder den Empfang einer Ausstellung: Beschallung passend zu Gästezahl und Raumakustik, ein drahtloses Mikrofon oder Schwanenhalsmikrofon für Eröffnungsworte oder ein Künstlergespräch, einen Bildschirm oder Beamer für ein Künstlerstatement oder ein Videowerk sowie RGBW-Ambientebeleuchtung oder drahtloses Uplighting für den Empfang selbst. Galeriespezifische Beleuchtung für die Kunstwerke an den Wänden gehört nicht zu unserem eigenen Bestand, was wir unten klar benennen, statt es in vager Lichtrhetorik zu verwischen.
+
+## Das Wichtigste
+
+---
+
+-   Beschallung, ein Mikrofon und ein Bildschirm passend zur Gästezahl, von einer intimen Vernissage bis zu einer Eröffnung im Galastil mit 120 Gästen.
+-   Schienenstrahler für Galerien, Bilderleuchten und Spots mit hohem CRI zur Beleuchtung der Kunstwerke selbst gehören nicht zu unserem eigenen Bestand, eine ehrliche Lücke, die man vor dem Buchen kennen sollte.
+-   Unser 5000-Lumen-Beamer bleibt bei eingeschaltetem Galerielicht gut lesbar, ausgelegt für eine Launch-Präsentation statt für einen abgedunkelten Vorführraum, und funktioniert genauso für ein Künstlerstatement oder ein Videowerk.
+-   RGBW-Lichtleisten für die Atmosphäre und ein drahtloses Uplighting-Set sind für den Empfang erhältlich, als Stimmung für den Raum gedacht, nicht als Beleuchtung für die Kunst.
+-   Dies ist eine Lieferung pro Veranstaltung für einen Eröffnungsabend oder Empfang, keine laufende Systeminstallation für eine mehrtägige oder mehrwöchige Ausstellung. Siehe [Eine Veranstaltung, keine dauerhafte Installation](#eine-veranstaltung-keine-dauerhafte-installation) unten.
+
+## Was wir für eine Vernissage liefern
+
+<InlineCTA />
+
+Eine Galerievernissage bedeutet meist stehende Gäste, die sich durch einen Raum mit harten Oberflächen bewegen, Fliesen oder polierter Beton am Boden, Putz oder Sichtmauerwerk an den Wänden. Eine auf diese Akustik abgestimmte Beschallung zählt deshalb mehr als reine Lautstärke. Wir dimensionieren 2 aktive Lautsprecher auf Stativen nach Ihrer Gästezahl und dem Raum selbst, nennen Sie uns beides bei der Buchung.
+
+Für Eröffnungsworte, eine Vorstellung durch die Kuratoren oder ein Künstlergespräch ist ein Mikrofon, mit dem sich der Sprecher von einem Rednerpult entfernen kann, in einer Galerie wichtiger als in einem Sitzungssaal, da das Publikum meist zwischen den Werken steht statt in Reihen zu sitzen. Je nach Paket ist das ein drahtloses Handmikrofon, ein Schwanenhals auf einem kleinen Podium oder das kabelgebundene dynamische Mikrofon des Eco Pack für einen kurzen Toast an einer festen Stelle.
+
+## Die ehrliche Grenze: Was wir für die Kunstwerke selbst nicht auf Lager haben
+
+Beim Umfang direkt zu sein ist hier wichtiger als auf den meisten Seiten, die wir veröffentlichen. Schienenstrahler für Galerien, Bilderleuchten und Spots mit hohem CRI, die Kunstwerke an der Wand ausleuchten sollen, gehören nicht zum eigenen Bestand von Malaga Event Gear. Über die RGBW-Lichtleisten des Eco Pack und die Lichterketten des Wedding Pack hinaus besteht unser eigener Lichtbestand aus 2 Lichtleisten Eurolite LED KLS-200, einem von Hand ausgerichteten Ambientegerät mit Fußpedal, kein Moving Head und kein DMX-gesteuertes System, 1 statischem Fresnel-Flächenlicht ADJ Encore FRI50Z und 1 kabellosen Uplighting-Set ADJ Element H6, gebaut, um eine Wand mit Farbe auszuleuchten, nicht um die wahre Farbe eines Gemäldes unter einem fokussierten Strahl wiederzugeben.
+
+Braucht Ihre Vernissage ein eigenes Lichtdesign für die Galerie, eine farbgetreue Wiedergabe auf den Kunstwerken oder Schienenstrahler, die auf einzelne Stücke gerichtet sind, kommt nichts davon aus unserem eigenen Bestand, und das sollten Sie vor dem Buchen wissen, statt es vor Ort zu entdecken. Sagen Sie uns, was die Werke brauchen, und wir können unsere Lieferanten fragen, ob einer von ihnen sie beleuchten könnte, ohne jede Zusage, bis einer Ja sagt. Aus unserem eigenen Bestand können wir tatsächlich den Empfang um die Kunst herum ausleuchten: den Raum, die Bar, die Sitzplätze, die Gäste, wie unten beschrieben.
+
+## Ein auch bei Saallicht gut lesbarer Bildschirm für ein Künstlerstatement oder ein Videowerk
+
+Gehört zum Abend ein Künstlerstatement, ein Hinweis der Kuratoren oder ein projiziertes Videowerk für die Gäste, tritt dasselbe Problem auf wie bei einer Produktvorstellung: Vernissagen finden selten im Dunkeln statt, und ein Beamer, der für einen abgedunkelten Konferenzsaal gebaut ist, wirkt flach und ausgewaschen, sobald das Licht der Galerie anbleibt, damit die Gäste die Kunst an den Wänden tatsächlich sehen können. Der Beamer unseres Product Presentation Pack ist gezielt mit 5000 Lumen ausgelegt, um in einem beleuchteten Raum gut lesbar zu bleiben, nicht in einem abgedunkelten Vorführraum, und genau diese Bedingung herrscht bei einer Vernissage.
+
+Wir stellen HDMI- und USB-C-Adapter bereit, damit ein Videowerk oder ein Statement von Ihrem eigenen Laptop oder Mediaplayer bei unserer Ankunft sofort angeschlossen werden kann, statt zu einem Kabelproblem in letzter Minute zu werden.
+
+## Ambientebeleuchtung: Atmosphäre für den Empfang, keine Beleuchtung der Kunstwerke
+
+Wo Licht bei einer Vernissage wirklich hilft, ist die Atmosphäre des Empfangs und nicht die Beleuchtung der Werke. Unser Eco Pack enthält dafür 2 RGBW-LED-Lichtleisten: warmes oder farbiges Ambientelicht im Gästebereich, nicht auf ein bestimmtes Stück gerichtet. Unser kabelloses Uplighting-Set ADJ Element H6, akkubetrieben und deshalb ohne Kabelführung über den Galerieboden, taucht aus demselben Grund eine Wand oder eine Säule in Farbe, die Atmosphäre, und kann bei der Buchung als Ergänzung besprochen werden. Keines von beiden ersetzt ein Lichtdesign für die Galerie, und keines wird hier als etwas anderes beschrieben, als es tatsächlich ist.
+
+## Passendes Paket für Ihre Vernissage
+
+| Paket | Am besten für | Gästekapazität | Techniker |
+| --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | Intime Vernissage, ohne formelles Programm | Bis zu 50 | Nicht enthalten |
+| [Basic MICE Pack](/packages/basic-mice/) | Eröffnung mit einem Künstlerstatement oder Videowerk zum Projizieren | Bis zu 40 | Optionaler Zusatz |
+| [Product Presentation Pack](/packages/product-presentation/) | Ein auch bei Saallicht gut lesbarer Bildschirm ist wichtiger als eine feste Gästezahl | Auf Präsentation ausgelegt | Nicht enthalten |
+| [MICE Pack](/packages/mice/) | Größere Eröffnung im Galastil mit formellem Programm | Bis zu 120 | Inklusive, bis zu 6 Stunden |
+
+Aktuelle Preise und alle enthaltenen Leistungen finden Sie auf unserer [Paketseite](/packages/), den gesamten Gerätebestand auf der [Seite zur AV-Vermietung](/blog/audio-visual-rental/).
+
+## Echte Aufbauten, die wir geliefert haben
+
+Ein Blick auf echte Veranstaltungen, für die wir in ganz Malaga Ton, Mikrofone und Bildschirme geliefert haben:
+
+![Ein HK-Audio-Lautsprecher auf einem Stativ neben einem Paneltisch mit Mikrofonen, in einem Innenhof mit Steinarkaden, bei einer Veranstaltung eines Berufsverbands in Malaga.](https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-1024x765.webp "Ein professionelles Tonsystem ist für eine Konferenz im Colegio Oficial de Gestores Administrativos de Malaga aufgebaut und sorgt für klaren Ton bei Präsentationen und Diskussionen.")
+
+Ein professionelles Tonsystem, aufgebaut für eine Konferenz im Colegio Oficial de Gestores Administrativos de Malaga: ein HK-Audio-Lautsprecher auf einem eigenen Stativ und Mikrofone auf dem Paneltisch, in einem Innenhof mit Steinarkaden.
+
+![Ton, Beamer und große Leinwand für eine internationale Veranstaltung in der Provinz Malaga.](https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-1024x765.webp "Ein großer Beamer und eine Leinwand, aufgebaut in einem Konferenzsaal in der Provinz Malaga, bereit für eine internationale Veranstaltung.")
+
+Ein großer Beamer und eine Leinwand, aufgebaut in einem Konferenzsaal in der Provinz Malaga, bereit für eine internationale Veranstaltung.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/2495/', '/1284/', '/1282/'])} speed="normal" direction="left" deferMount={false} />
+</div>
+
+So beschrieb es Carlos Batlles in einer 5-Sterne-Google-Bewertung (März 2025): <span lang="en">"This team delivered a flawless experience! Their MICE pack made everything easy for our event, and the team was both professional and reliable. The sound and lighting were top-notch, and you can tell they truly care about their work. Highly recommended!"</span>
+
+## Eine Veranstaltung, keine dauerhafte Installation
+
+Alles oben Genannte gilt für einen einzelnen Eröffnungsabend oder Empfang, geliefert, aufgebaut, getestet und wieder abgeholt rund um Ihre Veranstaltung. Es ist kein Systemintegrationsservice für eine laufende Ausstellung, die mehrere Wochen oder Monate steht, und wir installieren kein dauerhaftes Licht- oder AV-System in einer Galerie. Braucht Ihre Ausstellung selbst, nicht nur ihre Eröffnung, für ihre gesamte Laufzeit ein in den Raum eingebautes Lichtsystem, ist das ein anderer Anbieter als ein Verleiher pro Veranstaltung, und das sollten Sie ehrlich mit uns bei der Angebotserstellung klären, statt in die eine oder andere Richtung etwas anzunehmen.
+
+## Buchung und Einsatzgebiet
+
+Unsere Services decken Malaga, die Costa del Sol und Sevilla ohne Mindestbestellwert ab und reichen bis nach Granada bei Mietaufträgen über 400 Euro. Buchen Sie mindestens 24 Stunden im Voraus, um die Verfügbarkeit zu sichern, und früher, wenn Ihr Eröffnungstermin an die Laufzeit der Ausstellung gebunden ist.
+
+## Fazit
+
+Ehrliche AV-Vermietung für die Eröffnung einer Kunstausstellung in Malaga heißt: Beschallung und ein Mikrofon passend zur Gästezahl, ein auch bei Saallicht gut lesbarer Bildschirm, wenn ein Statement oder ein Videowerk gezeigt werden soll, und Ambientebeleuchtung für den Empfang, nicht für die Kunstwerke. [Kontaktieren Sie uns](/contact/), um Ihre Vernissage zu besprechen, und für unseren gesamten Gerätebestand sehen Sie sich den Ratgeber zur [AV-Vermietung in Malaga](/blog/audio-visual-rental/) an.
+
+## Häufige Fragen
+
+### Welche AV-Technik brauche ich für die Eröffnung einer Kunstausstellung?
+
+Beschallung passend zu Ihrer Gästezahl und der Raumakustik, ein Mikrofon für Eröffnungsworte oder ein Künstlergespräch und, wenn ein Künstlerstatement oder ein Videowerk gezeigt werden soll, einen Bildschirm oder Beamer. Siehe [Was wir für eine Vernissage liefern](#was-wir-für-eine-vernissage-liefern) oben.
+
+### Brauche ich ein Mikrofon für ein Künstlergespräch oder Eröffnungsworte?
+
+Bei den meisten Vernissagen lohnt es sich. Selbst ein kurzer Toast ist über einer stehenden Menge mit Mikrofon besser zu hören als ohne, und ein drahtloses Handmikrofon oder Schwanenhalsmikrofon lässt Sprecher sich von einem festen Punkt entfernen, was in einer Galerie wichtiger ist als in einem Sitzungssaal mit sitzendem Publikum.
+
+### Wie dimensionieren Sie die Beschallung für eine Vernissage?
+
+Nach Ihrer erwarteten Gästezahl und dem Raum selbst. Fliesen, polierter Beton oder Putz tragen den Schall anders als ein Konferenzraum mit Teppichboden. Nennen Sie uns deshalb beides bei der Buchung, damit unser Team das passende Lautsprecherpaar für den Raum mitbringt.
+
+### Können Sie ein Künstlerstatement oder ein Videowerk projizieren, während das Galerielicht an ist?
+
+Ja. Der Beamer unseres Product Presentation Pack ist gezielt mit 5000 Lumen ausgelegt, um in einem beleuchteten Raum gut lesbar zu bleiben statt in einem abgedunkelten Vorführraum, unter genau der Bedingung, unter der die meisten Vernissagen stattfinden. Siehe [Ein auch bei Saallicht gut lesbarer Bildschirm](#ein-auch-bei-saallicht-gut-lesbarer-bildschirm-für-ein-künstlerstatement-oder-ein-videowerk) oben.
+
+### Liefert Malaga Event Gear Beleuchtung für die Kunstwerke selbst?
+
+Nicht aus unserem eigenen Bestand. Schienenstrahler für Galerien, Bilderleuchten und Spots mit hohem CRI, die Kunstwerke an der Wand ausleuchten sollen, gehören nicht dazu. Siehe [Die ehrliche Grenze](#die-ehrliche-grenze-was-wir-für-die-kunstwerke-selbst-nicht-auf-lager-haben) oben, was unser Lichtbestand stattdessen genau umfasst und was zu tun ist, wenn Ihre Werke diese Art von Licht brauchen.
+
+### Welche Ambientebeleuchtung bieten Sie für den Empfang?
+
+RGBW-LED-Lichtleisten, im Eco Pack enthalten, und ein kabelloses akkubetriebenes Uplighting-Set, das eine Wand oder Säule in Farbe taucht und bei der Buchung als Ergänzung besprochen werden kann. Beides ist Empfangsatmosphäre, keine Beleuchtung der Kunstwerke. Siehe [Ambientebeleuchtung](#ambientebeleuchtung-atmosphäre-für-den-empfang-keine-beleuchtung-der-kunstwerke) oben.
+
+### Was kostet AV-Vermietung für die Eröffnung einer Kunstausstellung?
+
+Der Preis hängt vom Paket ab: Unser gesamter Katalog, vom Eco Pack bis zum MICE Pack für eine größere Eröffnung im Galastil, ist mit genauen Euro-Preisen auf unserer [Paketseite](/packages/) aufgeführt. Alle Preise verstehen sich zzgl. MwSt., die spanische Mehrwertsteuer von 21 % kommt beim Bezahlen hinzu, und jeder Preis umfasst Lieferung, Aufbau und Abbau.
+
+### Für welche Größe einer Vernissage ist welches Paket geeignet?
+
+Das Eco Pack deckt bis zu 50 Gäste ab, das Basic MICE Pack bis zu 40 und das MICE Pack bis zu 120. Das Product Presentation Pack ist auf Bildschirm und Lautsprecherpaar statt auf eine Gästezahl ausgelegt. Siehe [Passendes Paket für Ihre Vernissage](#passendes-paket-für-ihre-vernissage) oben.
+
+### Ist bei einer Vernissage ein Techniker enthalten?
+
+Nur beim MICE Pack, vor Ort inklusive für bis zu 6 zusammenhängende Stunden. Das Eco Pack, das Basic MICE Pack und das Product Presentation Pack werden von unserem Team geliefert, aufgebaut und getestet und dann für den Rest des Abends von Ihnen oder Ihrem Team bedient.
+
+### Wie früh sollte ich AV für eine Vernissage buchen?
+
+Buchen Sie mindestens 24 Stunden im Voraus, um die Verfügbarkeit zu sichern. Ist Ihr Eröffnungstermin an die Laufzeit der Ausstellung gebunden, buchen Sie so früh wie möglich, sobald Ort und Gästezahl feststehen.
+
+### Stellen Sie AV für die gesamte Laufzeit der Ausstellung bereit oder nur für die Eröffnung?
+
+Nur für die Eröffnung oder den Empfang. Wir arbeiten ausschließlich per Lieferung für eine einzelne Veranstaltung, nicht als dauerhafte Systeminstallation für eine Ausstellung, die Wochen oder Monate steht. Siehe [Eine Veranstaltung, keine dauerhafte Installation](#eine-veranstaltung-keine-dauerhafte-installation) oben.
+
+### Sollte ein Künstlergespräch ein Handmikrofon oder ein Schwanenhalsmikrofon nutzen?
+
+Ein drahtloses Handmikrofon passt zu Sprechern, die sich unter den Gästen oder zwischen den Werken bewegen möchten, enthalten im Product Presentation Pack und im MICE Pack, neben einem Schwanenhals. Ein Schwanenhals auf einem kleinen Podium passt zu Sprechern, die gern an einer Stelle bleiben, enthalten im Basic MICE Pack und im MICE Pack.

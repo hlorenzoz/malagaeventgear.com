@@ -342,6 +342,11 @@ export default {
 			keyword: 'location audiovisuelle pour événements caritatifs à Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-art-exhibitions': {
+			slug: 'location-audiovisuelle-expositions-art',
+			keyword: "location audiovisuelle pour expositions d'art à Malaga",
+			status: 'propuesta'
+		},
 		'audio-visual-hire-near-me-in-malaga-spain': {
 			slug: 'location-audiovisuelle-pres-de-chez-moi',
 			keyword: 'location audiovisuelle près de chez moi',

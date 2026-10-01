@@ -338,6 +338,11 @@ export default {
 			keyword: 'AV-uthyrning för välgörenhetsevenemang i Malaga',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-art-exhibitions': {
+			slug: 'av-uthyrning-konstutstallningar',
+			keyword: 'AV-uthyrning för konstutställningar i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-hire-near-me-in-malaga-spain': {
 			slug: 'av-uthyrning-nara-mig',
 			keyword: 'AV-uthyrning nära mig',

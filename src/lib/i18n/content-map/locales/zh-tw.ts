@@ -322,6 +322,11 @@ export default {
 			keyword: '馬拉加 慈善募款活動影音租賃',
 			status: 'propuesta'
 		},
+		'audio-visual-rental-for-art-exhibitions': {
+			slug: '藝術展覽影音租賃',
+			keyword: '馬拉加 藝術展覽影音租賃',
+			status: 'propuesta'
+		},
 		'audio-visual-hire-near-me-in-malaga-spain': {
 			slug: '附近的影音租賃',
 			keyword: '馬拉加 附近的影音租賃',
