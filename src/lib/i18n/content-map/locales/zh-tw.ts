@@ -287,6 +287,11 @@ export default {
 			keyword: '馬貝拉Bmotion技術支援',
 			status: 'propuesta'
 		},
+		'7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain': {
+			slug: '社區會議音響支援',
+			keyword: '馬拉加Neighborhood Council社區會議',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-weddings': {
 			slug: '婚禮影音租賃',
 			keyword: '馬拉加 婚禮影音租賃',

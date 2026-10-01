@@ -311,6 +311,11 @@ export default {
 			keyword: 'teknisk support Bmotion Marbella',
 			status: 'propuesta'
 		},
+		'7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain': {
+			slug: 'neighborhood-councils-nabolagsmote-malaga',
+			keyword: 'Neighborhood Councils nabolagsmøte i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-weddings': {
 			slug: 'av-utleie-bryllup',
 			keyword: 'AV-utleie for bryllup i Malaga',
