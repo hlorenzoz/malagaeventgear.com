@@ -660,7 +660,7 @@
     },
     {
       "question": "Does guest count affect calibration, and if so how?",
-      "answer": "Yes. A full room of guests, their bodies and clothing, absorbs sound differently than the same room empty during setup. That is why our crew tests as close to your doors opening as practically possible rather than calibrating hours ahead in an empty room. See Indoor, Outdoor and Guest Count above."
+      "answer": "Yes. A full room of guests, their bodies and clothing, absorbs sound differently than the same room empty during setup. That is why a room is best tested close to your doors opening, rather than calibrated hours ahead in an empty room. See Indoor, Outdoor and Guest Count above."
     },
     {
       "question": "What mixing console does MEG use for calibration, and does it depend on the package?",
@@ -672,7 +672,7 @@
     },
     {
       "question": "Does calibration include video or screen setup too?",
-      "answer": "No, not on this page. Audio calibration, gain staging and speaker tuning, is a separate process from screen and presentation source switching, which our Kramer VP-731 handles. If your event's account mentions calibrating \"sound and video networks\" together, the video half refers to that presentation scaler, not a camera or broadcast system: cameras, filming and live streaming are not in our own inventory. See Calibration in the Field above."
+      "answer": "No, not on this page. Audio calibration, gain staging and speaker tuning, is a separate process from screen and presentation source switching, which our Kramer VP-731 handles. Cameras, filming and live streaming are not in our own inventory either. See Calibration in the Field above."
     },
     {
       "question": "Is calibration done once, or does it change during the event?",
@@ -684,7 +684,7 @@
     },
     {
       "question": "How far in advance does calibration happen relative to my event start time?",
-      "answer": "Our crew arrives and calibrates ahead of your first guest, timed close enough to your doors opening that guest count and room absorption are accounted for, not hours earlier when the room is still empty. See Indoor, Outdoor and Guest Count and How Far in Advance to Book above for what that means for booking lead time."
+      "answer": "Our crew arrives and calibrates ahead of your first guest. Calibration is best timed close to your doors opening, so that guest count and room absorption are accounted for, not hours earlier when the room is still empty. See Indoor, Outdoor and Guest Count and How Far in Advance to Book above for what that means for booking lead time."
     }
   ],
   "benefits-of-audio-visual-rental": [

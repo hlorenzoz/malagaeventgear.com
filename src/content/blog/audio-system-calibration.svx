@@ -4,7 +4,7 @@ description: "Audio system calibration in Malaga, Spain: gain staging explained,
 author: Hector Luis Lorenzo
 slug: audio-system-calibration
 publishDate: "2026-08-02"
-updatedDate: "2026-09-25"
+updatedDate: "2026-10-01"
 excerpt: "What audio system calibration actually is: gain staging in plain terms, why the same speakers and console get set up differently at every venue, and the real console range our crew calibrates with, from a 6 channel Soundcraft up to a Midas M32R Live digital system."
 coverImage: https://cdn.malagaeventgear.com/blog/1279/high_care_hospital_marbella_conference_setup_2-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
@@ -100,9 +100,9 @@ Ceiling height matters for the same reason. A high, open ceiling gives sound som
 
 ## Indoor, Outdoor and Guest Count: What Actually Changes
 
-Outdoor venues remove the reflections indoor calibration accounts for, and replace them with a different problem: open air and wind carry sound away instead of returning it. There are no walls to reinforce a speaker's output, so our crew places speakers closer to the audience and often runs gain higher for the same coverage than the equivalent indoor setup would need, since there is no reflected sound filling in the gaps between speaker positions. The cover photo on this page, an outdoor conference setup for High Care Hospital in Marbella under a partially shaded patio, shows exactly this: the speaker sits close to the rows of seating rather than trying to throw sound across open garden the way an indoor PA might.
+Outdoor venues remove the reflections indoor calibration accounts for, and replace them with a different problem: open air and wind carry sound away instead of returning it. There are no walls to reinforce a speaker's output, so our crew places speakers closer to the audience and often runs gain higher for the same coverage than the equivalent indoor setup would need, since there is no reflected sound filling in the gaps between speaker positions. The cover photo on this page, an outdoor conference setup for the High Care International Hospital conference in Marbella, is the kind of venue this applies to: with no walls to return the sound, where the speakers sit relative to the audience is part of calibration.
 
-Guest count changes calibration in a way that is easy to miss entirely: a full room of people, their bodies and clothing, absorbs sound differently than the same room empty during setup. That is a real, physical difference, not a rounding error, which is why our crew tests as close to your doors opening as practically possible rather than calibrating hours ahead in an empty room and assuming it will hold once guests fill the seats.
+Guest count changes calibration in a way that is easy to miss entirely: a full room of people, their bodies and clothing, absorbs sound differently than the same room empty during setup. That is a real, physical difference, not a rounding error, which is why a room is best tested close to your doors opening, rather than calibrated hours ahead in an empty room on the assumption that it will hold once guests fill the seats.
 
 ## Same Real Equipment, Calibrated for Scale: Our Console Range
 
@@ -118,7 +118,7 @@ Worth being precise here: at the smaller end of our catalog, a console is not al
 
 ## The Midas M32R Live and MD16: Calibration on Larger Venues
 
-Our largest console pairing has never been named on this site before now: a Midas M32R Live digital mixing console, paired with an MD16 digital stage box, both confirmed in our own equipment inventory. This is the setup our crew reaches for on larger venues, the scale a [MICE Pack](/packages/mice/) booking with up to 120 guests actually needs.
+Our largest console pairing is a Midas M32R Live digital mixing console, paired with an MD16 digital stage box, both confirmed in our own equipment inventory. This is the setup our crew reaches for on larger venues, the scale a [MICE Pack](/packages/mice/) booking with up to 120 guests actually needs.
 
 What makes the MD16 worth explaining rather than just naming is what it does differently from a standard console setup. On a smaller booking, every microphone cable runs individually, in a bundle, all the way from the stage back to wherever the console sits. On a larger venue that can mean a long run of cable snaking across the floor or taped down along a wall. The MD16 changes that: it is a remote stage box that sits near the microphones themselves, on or close to the stage, and converts each one to a digital signal right there. A single cable then carries all of those channels back to the M32R Live console, wherever our crew positions it in the room, instead of a long bundle of individual microphone cables making the same trip.
 
@@ -128,13 +128,13 @@ That matters for calibration in two concrete ways. First, converting each microp
 
 Over two days in May 2026, our crew handled transport, setup and calibration for a corporate project with the agency [Bmotion](https://www.bmotionav.com/) in Marbella. Our own account of that project describes the crew conducting extensive audio tuning and visual signal testing before the first guest entered the room, specifically to catch potential acoustic reflections and interference before anyone was present to notice them. Read the full account in our [Bmotion Marbella](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/) update.
 
-Worth being precise here too: that account also mentions "pre event calibration of the sound and video networks." The video half of that sentence is our Kramer VP-731 presentation scaler, the device covered in full on our [video switcher rental](/blog/video-switcher-rental/) guide, not a camera or broadcast system. This page is strictly the audio half of that same project, gain staging and speaker tuning against the room's own acoustics, not the video or screen side. See [Does Calibration Include Video or Screen Setup Too](#does-calibration-include-video-or-screen-setup-too) below for the explicit split.
+Worth being precise here too: that account also mentions "pre event calibration of the sound and video networks." This page is strictly the audio half of that same project, gain staging and speaker tuning against the room's own acoustics, not the video or screen side. Screen and presentation source switching is covered on our [video switcher rental](/blog/video-switcher-rental/) guide. See [Does Calibration Include Video or Screen Setup Too](#does-calibration-include-video-or-screen-setup-too) below for the explicit split.
 
 ## Real Setups We've Delivered
 
-![Outdoor conference seating for High Care Hospital in Marbella, rows of chairs under a partially shaded patio with a single speaker positioned close to the audience rather than aimed across open garden.](https://cdn.malagaeventgear.com/blog/1278/high_care_hospital_marbella_conference_setup-scaled.webp)
+![Sound and monitor TV rental for a High Care International Hospital conference in Marbella.](https://cdn.malagaeventgear.com/blog/1278/high_care_hospital_marbella_conference_setup-scaled.webp)
 
-A wider view of the same High Care Hospital conference setup used as this page's cover image. The speaker and screen sit close to the seated rows under cover, a calibration choice that changes once a venue moves from a shaded patio like this one to a fully open garden or a closed indoor hall.
+A sound system and monitor set up for the High Care International Hospital conference in Marbella, the same conference as this page's cover image.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('mice', ['/1278/', '/1279/'])} speed="normal" direction="left" />
@@ -146,7 +146,7 @@ All our bookings need at least 24 hours' notice, and calibration is part of ever
 
 ## Conclusion
 
-Audio system calibration at Malaga Event Gear is not a fixed setting, it is gain staging and speaker placement adapted to the room your event is actually in, room acoustics, indoor versus outdoor, and guest count all changing what correct calibration means for identical equipment. Our console range scales with that, from a 6 channel Soundcraft EPM-6 up to a Midas M32R Live paired with an MD16 digital stage box on larger venues, named here for the first time on this site. [Contact us](/contact/) with your venue and guest count, and we will tell you honestly what calibration looks like for it. For the phase by phase version of what our crew does on site, see our [technical support for events](/blog/technical-support-for-events/) guide. For our full equipment range, see the [audio visual rental in Malaga guide](/blog/audio-visual-rental/).
+Audio system calibration at Malaga Event Gear is not a fixed setting, it is gain staging and speaker placement adapted to the room your event is actually in, room acoustics, indoor versus outdoor, and guest count all changing what correct calibration means for identical equipment. Our console range scales with that, from a 6 channel Soundcraft EPM-6 up to a Midas M32R Live paired with an MD16 digital stage box on larger venues. [Contact us](/contact/) with your venue and guest count, and we will tell you honestly what calibration looks like for it. For the phase by phase version of what our crew does on site, see our [technical support for events](/blog/technical-support-for-events/) guide. For our full equipment range, see the [audio visual rental in Malaga guide](/blog/audio-visual-rental/).
 
 ## FAQs
 
@@ -168,7 +168,7 @@ Yes. Outdoor venues have no walls to reflect sound back the way indoor rooms do,
 
 ### Does guest count affect calibration, and if so how?
 
-Yes. A full room of guests, their bodies and clothing, absorbs sound differently than the same room empty during setup. That is why our crew tests as close to your doors opening as practically possible rather than calibrating hours ahead in an empty room. See [Indoor, Outdoor and Guest Count](#indoor-outdoor-and-guest-count-what-actually-changes) above.
+Yes. A full room of guests, their bodies and clothing, absorbs sound differently than the same room empty during setup. That is why a room is best tested close to your doors opening, rather than calibrated hours ahead in an empty room. See [Indoor, Outdoor and Guest Count](#indoor-outdoor-and-guest-count-what-actually-changes) above.
 
 ### What mixing console does MEG use for calibration, and does it depend on the package?
 
@@ -180,7 +180,7 @@ The Midas M32R Live is our digital mixing console for larger venues, paired with
 
 ### Does calibration include video or screen setup too?
 
-No, not on this page. Audio calibration, gain staging and speaker tuning, is a separate process from screen and presentation source switching, which our [Kramer VP-731](/blog/video-switcher-rental/) handles. If your event's account mentions calibrating "sound and video networks" together, the video half refers to that presentation scaler, not a camera or broadcast system: cameras, filming and live streaming are not in our own inventory. See [Calibration in the Field](#calibration-in-the-field-the-bmotion-marbella-project) above.
+No, not on this page. Audio calibration, gain staging and speaker tuning, is a separate process from screen and presentation source switching, which our [Kramer VP-731](/blog/video-switcher-rental/) handles. Cameras, filming and live streaming are not in our own inventory either. See [Calibration in the Field](#calibration-in-the-field-the-bmotion-marbella-project) above.
 
 ### Is calibration done once, or does it change during the event?
 
@@ -192,4 +192,4 @@ No. Our crew calibrates every booking before you or your guests arrive, as part 
 
 ### How far in advance does calibration happen relative to my event start time?
 
-Our crew arrives and calibrates ahead of your first guest, timed close enough to your doors opening that guest count and room absorption are accounted for, not hours earlier when the room is still empty. See [Indoor, Outdoor and Guest Count](#indoor-outdoor-and-guest-count-what-actually-changes) and [How Far in Advance to Book](#how-far-in-advance-to-book) above for what that means for booking lead time.
+Our crew arrives and calibrates ahead of your first guest. Calibration is best timed close to your doors opening, so that guest count and room absorption are accounted for, not hours earlier when the room is still empty. See [Indoor, Outdoor and Guest Count](#indoor-outdoor-and-guest-count-what-actually-changes) and [How Far in Advance to Book](#how-far-in-advance-to-book) above for what that means for booking lead time.
