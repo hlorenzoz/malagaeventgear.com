@@ -347,6 +347,11 @@ export default {
 			keyword: '马拉加 视听租赁咨询',
 			status: 'propuesta'
 		},
+		'av-cable-management': {
+			slug: '视听线缆管理',
+			keyword: '马拉加 视听线缆管理',
+			status: 'propuesta'
+		},
 		'benefits-of-audio-visual-rental': {
 			slug: '活动视听租赁的好处',
 			keyword: '马拉加 活动视听租赁的好处',

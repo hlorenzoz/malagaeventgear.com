@@ -363,6 +363,11 @@ export default {
 			keyword: 'consulenza sul noleggio audiovisivo a Malaga',
 			status: 'propuesta'
 		},
+		'av-cable-management': {
+			slug: 'gestione-cavi-audiovisivi-malaga',
+			keyword: 'gestione dei cavi audiovisivi a Malaga',
+			status: 'propuesta'
+		},
 		'benefits-of-audio-visual-rental': {
 			slug: 'vantaggi-noleggio-audiovisivo',
 			keyword: 'vantaggi del noleggio audiovisivo a Malaga',

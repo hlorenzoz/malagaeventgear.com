@@ -363,6 +363,11 @@ export default {
 			keyword: 'rådgivning om AV-uthyrning i Malaga',
 			status: 'propuesta'
 		},
+		'av-cable-management': {
+			slug: 'kabelhantering-for-av',
+			keyword: 'kabelhantering för AV i Malaga',
+			status: 'propuesta'
+		},
 		'benefits-of-audio-visual-rental': {
 			slug: 'fordelar-med-av-uthyrning',
 			keyword: 'fördelar med AV-uthyrning i Malaga',

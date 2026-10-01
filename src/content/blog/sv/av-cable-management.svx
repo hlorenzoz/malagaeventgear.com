@@ -1,0 +1,183 @@
+---
+title: "Kabelhantering för AV i Malaga, Spanien"
+description: "Kabelhantering för AV i Malaga, Spanien: vad \"estetisk kabeldragning\" betyder, kabellängderna vi har och vad vårt eget team och lager inte täcker."
+excerpt: "Kabelhantering för AV i Malaga: vad \"estetisk kabeldragning\" egentligen betyder vid en bokning hos Malaga Event Gear, vilka paket som ingår, hur långt en kabel kan gå, när en svår lokal ger ett verkligt tillägg och vad som ligger utanför vårt eget team och vårt eget lager."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Den som söker på engelska efter "AV cable management" får mest tillverkare av kabelband och verkstäder som säljer hårdvara, inte ett svar på den egentliga frågan bakom sökningen: vad händer med kablarna på ditt eget evenemang? När det gäller kabelhantering för AV i Malaga, Spanien, anger fyra av våra fem paket redan "estetisk kabeldragning" eller en nära variant som en standardinkludering, ett uttryck som den här sidan förklarar.
+
+Den här sidan är den förklaringen: vad som faktiskt händer med kablarna vid en bokning hos Malaga Event Gear, varför det spelar roll för säkerheten och för dina foton, hur långt en kabel realistiskt kan gå och, lika ärligt, vad vårt eget team och vårt eget lager inte täcker.
+
+[Kontakta oss](/contact/) med uppgifter om din lokal om en viss kabellängd eller en svår lokal ingår i din planering.
+
+## Innehållsförteckning
+
+-   [Kort översikt](#kort-översikt)
+-   [Det viktigaste](#det-viktigaste)
+-   [Vad estetisk kabeldragning egentligen betyder](#vad-estetisk-kabeldragning-egentligen-betyder)
+-   [Ingår kabelhantering i varje paket?](#ingår-kabelhantering-i-varje-paket)
+-   [Hur långt kan vi dra en kabel?](#hur-långt-kan-vi-dra-en-kabel)
+-   [När en svår lokal ger ett installationstillägg](#när-en-svår-lokal-ger-ett-installationstillägg)
+-   [Det vi inte har i lager och inte installerar](#det-vi-inte-har-i-lager-och-inte-installerar)
+-   [Kabelhantering utomhus](#kabelhantering-utomhus)
+-   [Verkliga uppsättningar vi har levererat](#verkliga-uppsättningar-vi-har-levererat)
+-   [Hur långt i förväg du ska boka](#hur-långt-i-förväg-du-ska-boka)
+-   [Slutsats](#slutsats)
+-   [Vanliga frågor](#vanliga-frågor)
+    -   [Vad betyder "estetisk kabeldragning" egentligen när jag bokar ett paket?](#vad-betyder-estetisk-kabeldragning-egentligen-när-jag-bokar-ett-paket)
+    -   [Ingår kabelhantering i priset, eller kostar det extra?](#ingår-kabelhantering-i-priset-eller-kostar-det-extra)
+    -   [Skapar kablar en snubbelrisk på mitt evenemang?](#skapar-kablar-en-snubbelrisk-på-mitt-evenemang)
+    -   [Hur drar ni kablar på en utomhuslokal som en villa eller en beach club?](#hur-drar-ni-kablar-på-en-utomhuslokal-som-en-villa-eller-en-beach-club)
+    -   [Vilken är den längsta kabelsträcka MEG kan sätta upp?](#vilken-är-den-längsta-kabelsträcka-meg-kan-sätta-upp)
+    -   [Syns kablarna på mina bröllops- eller evenemangsfoton?](#syns-kablarna-på-mina-bröllops--eller-evenemangsfoton)
+    -   [Gräver ni ner kablar eller använder ni kabelramper på ytor med mycket trafik?](#gräver-ni-ner-kablar-eller-använder-ni-kabelramper-på-ytor-med-mycket-trafik)
+    -   [Påverkar vädret hur kablar hanteras utomhus?](#påverkar-vädret-hur-kablar-hanteras-utomhus)
+    -   [Vad händer om en kabel ligger i vägen eller lossnar under mitt evenemang?](#vad-händer-om-en-kabel-ligger-i-vägen-eller-lossnar-under-mitt-evenemang)
+    -   [Skiljer sig kabelhanteringen mellan en liten fest och ett stort företagsevenemang?](#skiljer-sig-kabelhanteringen-mellan-en-liten-fest-och-ett-stort-företagsevenemang)
+
+## Kort översikt
+
+---
+
+"Estetisk kabeldragning" och "skräddarsydd kabeldragning" finns redan i vår egen paketkatalog, på Eco Pack, Wedding Pack, Basic MICE Pack och MICE Pack, men katalogen förklarar inte vad orden betyder i praktiken. Den här sidan gör det: hur vårt team drar och fäster kablar i din lokal, varför det spelar roll för säkerheten och för hur ditt evenemang ser ut på foton, vilka verkliga längder vi kan dra från vårt eget lager och var en ärligt redovisad extra avgift kan förekomma.
+
+Kabelhantering är inte en separat tjänst som du lägger till en bokning. Den ingår i den professionella uppsättningen som varje paket redan innehåller, utförd av samma team som sätter upp ditt ljud, din belysning eller din skärmutrustning.
+
+## Det viktigaste
+
+---
+
+-   "Estetisk kabeldragning" är en standardinkludering, uttryckligen nämnd, i 4 av våra 5 paket: [Eco Pack](/packages/eco/), [Wedding Pack](/packages/wedding/), [Basic MICE Pack](/packages/basic-mice/) och [MICE Pack](/packages/mice/).
+
+-   Vårt lager innehåller verkliga kabellängder på upp till 42 meter för VGA, 30 meter för video och 25 meter för högtalarsträckor, så de flesta lokalupplägg ryms inom det vi redan har i lager.
+
+-   En riktigt svår lokal eller en ovanligt lång kabelsträcka kan utlösa ett verkligt installationstillägg, som vi redovisar ärligt här i stället för att spara det till dagen för ditt evenemang.
+
+-   Vårt eget team gräver inga diken och gräver inte ner kabelsträckor, och det finns ingen namngiven kabelramp eller kabelkanal av något visst märke i vårt eget lager. Båda sakerna är bra att veta före bokningen om någon av dem spelar roll för din lokal.
+
+-   Kabeldragningen ändras med storleken: en fest med [Eco Pack](/packages/eco/) har 2 högtalare och 2 ljusbalkar att dra kablar runt, ett företagsevenemang med [MICE Pack](/packages/mice/) har en 60 tums skärm, två mikrofoner och en tekniker som sköter kablarna i upp till 6 timmar i följd.
+
+## Vad estetisk kabeldragning egentligen betyder
+
+<InlineCTA />
+
+Tar man bort marknadsföringsspråket beskriver "estetisk kabeldragning" 2 konkreta saker som vårt team gör vid varje uppsättning: kablar dras längs väggar, möbellinjer eller golvkanten i stället för rakt över öppna gångvägar, och varje kabel som korsar en väg som gäster eller personal faktiskt använder fästs plant i stället för att ligga löst. Fotot längre ner på den här sidan, från en uppsättning med talarstol vid ett företagsevenemang, visar hur det ser ut i praktiken: en kabel som tejpats längs golvet, med kablarna samlade vid talarstolens fot i stället för i en härva.
+
+Det är den ärliga omfattningen. Vi beskriver inget dolt kanalsystem och ingen skräddarsydd snickerilösning, vi beskriver noggrann och konsekvent dragning och fastsättning, utförd av samma team som levererar, sätter upp och testar din utrustning, utan separat rad på fakturan i 4 av våra 5 paket.
+
+## Ingår kabelhantering i varje paket?
+
+Det ärliga svaret kräver en riktig tabell, inte ett generellt ja, eftersom formuleringen skiljer sig mellan paketen och ett pakets innehållslista inte nämner någon kabelrad alls.
+
+| Paket | Pris (exkl. moms) | Kabelrad i innehållslistan | Vad det betyder |
+| --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | 290 euro | "Estetisk kabeldragning och professionell installation" | Standardinkludering, utan tekniker på plats som sköter den vidare |
+| [Wedding Pack](/packages/wedding/) | 650 euro | "Professionell estetisk installation och kabeldragning" | Standardinkludering, plus en tekniker på plats under hela evenemanget |
+| [Basic MICE Pack](/packages/basic-mice/) | 295 euro | "...installation och estetisk kabeldragning" | Standardinkludering, ingår i transport och uppsättning |
+| [MICE Pack](/packages/mice/) | 490 euro | "...skräddarsydd kabeldragning..." | Standardinkludering, plus en inkluderad tekniker i upp till 6 timmar |
+| [Product Presentation Pack](/packages/product-presentation/) | 310 euro | Inte nämnd som en separat rad | Se nedan |
+
+[Product Presentation Pack](/packages/product-presentation/) är det enda ärliga undantaget. Dess innehållslista med 4 delar, en projektor med duk, ett ljudsystem för lokalen och en trådlös mikrofon, nämner ingen kabel- eller dragningsrad som de andra 4 paketen. Det är inte samma sak som att säga att kabeldragningen är undantagen. Varje bokning vi levererar, det här paketet inräknat, installeras av vårt eget team som en del av den uppsättning som priset redan täcker, och samma grundvanor, kablar längs väggarna och fastsatta där de korsar en väg, gäller oavsett vilket paket du har bokat. Den är bara inte utskriven som en egen punkt i paketets katalogbeskrivning som i de andra 4, och vi säger hellre det rakt ut än att släta över luckan med en rad som egentligen inte finns i våra egna uppgifter.
+
+## Hur långt kan vi dra en kabel?
+
+Lokalens upplägg är oftast den verkliga frågan bakom "ingår kabelhantering", eftersom en kabel som fysiskt inte når uttaget eller högtalarpositionen är ett större problem än hur snyggt den ligger när den väl når fram. Det här är vad vårt eget lager faktiskt har, kabeltyp för kabeltyp, längsta längd först.
+
+| Kabeltyp | Längsta längd vi har i lager |
+| --- | --- |
+| VGA | Upp till 42 meter |
+| Video (kompatibel med Kramer, Christie) | Upp till 30 meter |
+| Speakon (högtalare) | Upp till 25 meter |
+| Mikrofon | Upp till 20 meter |
+| Förlängningskabel | Upp till 20 meter |
+| Sub box | 15 meter |
+| Grenuttag | Upp till 15 meter |
+| IEC | 1,5 meter |
+
+De flesta villaterrasser, balsalar och konferensrum ryms bekvämt inom de längderna, särskilt högtalar- och mikrofonsträckor, som har mest utrymme. IEC-kabeln är den enda korta posten i listan, och det är med avsikt: den kopplar en apparat direkt till sitt eget närliggande grenuttag i stället för att spänna över ett rum, så 1,5 meter är rätt längd för det jobbet, inte en begränsning.
+
+## När en svår lokal ger ett installationstillägg
+
+Här är den del som de flesta uthyrningssidor helt utelämnar: kabelhantering ingår i den professionella uppsättningen i varje paket, men vår egen prislista har ett verkligt, separat värderat installationstillägg för riktigt svåra lokaler, prissatt från fall till fall, och våra egna lageranteckningar anger den exakta orsaken: överdriven kabeldragning på grund av lokalens svårighet. Det är ingen dold avgift. Det speglar ärligt att en enkel hotellbalsal och en villa med 3 separata terrassnivåer och ett enda avlägset eluttag inte är samma jobb, även med samma paket bokat.
+
+I praktiken ryms de flesta upplägg inom längderna i tabellen ovan och går genom ett vanligt rum eller en vanlig trädgård, och då kommer tillägget inte på tal. Berätta om din lokals upplägg när du bokar, avståndet till el, antalet nivåer och ovanlig åtkomst, så säger vi ärligt om din lokal sannolikt behöver det, före ditt evenemangsdatum och inte efteråt.
+
+## Det vi inte har i lager och inte installerar
+
+Att vara ärlig om vad "estetisk kabeldragning" omfattar betyder också att vara ärlig om vad den inte omfattar. Vårt eget team gräver inga diken och gräver inte ner kabelsträckor. Det är permanent installationsarbete, utanför vår modell med enbart leverans som hela vår verksamhet bygger på: vi levererar, sätter upp, testar och hämtar, och vi lämnar inget fastbyggt kvar i en lokal när vi har åkt. Nedgrävda kabelsträckor eller kabelsträckor under golv är jobb för en specialiserad installatör, inte för vårt eget team.
+
+Det finns inte heller någon namngiven kabelramp eller kabelkanal av något visst märke i vårt eget lager, och vi säger hellre det rakt ut än att låta en sida antyda något annat. Det vi gör i stället är dragningen och tejpningen som beskrivs ovan, längs väggar och golvkanter, utanför de viktigaste gångvägarna, vilket täcker de allra flesta lokaler vi arbetar i utan att en särskild kabelramp behövs.
+
+Om din lokal behöver kabelramper över en livlig gång, eller en nedgrävd sträcka, nämn det när du bokar. Vi kan undersöka om en av våra leverantörer skulle kunna ställa upp med ramperna eller ta sig an installationen, och vi säger till före ditt evenemang om ingen kan det.
+
+## Kabelhantering utomhus
+
+En utomhuslokal ändrar vad kabeldragningen måste ta hänsyn till, främst underlag och väderexponering, båda beskrivna i detalj i vår guide om [AV-uthyrning för utomhusevenemang](/blog/audio-visual-rental-for-outdoor-events/) i stället för att upprepas här. Den korta versionen för den här sidan: vårt team anpassar på plats samma dragnings- och fastsättningsvanor som beskrivs ovan till gräs, sand eller ojämnt terrassunderlag, i stället för att följa en enda fast metod oavsett underlag.
+
+## Verkliga uppsättningar vi har levererat
+
+![En talarstol i akryl med en gåshalsmikrofon och en bärbar dator vid ett företagsevenemang för FTI Consulting i provinsen Malaga, med en kabel som tejpats längs trägolvet och kablarna samlade vid talarstolens fot.](https://cdn.malagaeventgear.com/blog/1793/FTI-Consulting-Setup-audio-and-microphone-system-setup-768x1024.webp "Den kompletta uppsättningen av ljud och mikrofoner vid ett företagsevent för FTI Consulting, med den profilerade talarstolen och presentationsdatorn.")
+
+Kabelsträckan vid en uppsättning med talarstol för ett evenemang för FTI Consulting i provinsen Malaga: en kabel som tejpats längs golvet och kablarna samlade vid talarstolens fot. Det här är den ärliga, oglamorösa verkligheten bakom "estetisk kabeldragning": noggrann dragning och fastsättning, inget dolt system.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1278/', '/1793/'])} speed="normal" direction="left" />
+</div>
+
+## Hur långt i förväg du ska boka
+
+Alla våra bokningar kräver minst 24 timmars varsel, och det gäller kabelplaneringen lika mycket som själva utrustningen. Om din lokal har ett ovanligt upplägg, ett avlägset eluttag, flera nivåer eller något annat som kan beröra tillägget för svåra lokaler som beskrivs ovan, berätta det när du bokar och inte dagen innan, så att vi kan planera sträckan och prissätta den ärligt i förväg i stället för att justera på plats. Efterfrågan på större företags- och bröllopsbokningar, där kabelsträckorna tenderar att vara längre och mer komplicerade, når sin topp under bröllopssäsongen, från april till oktober, och under konferenssäsongen på Costa del Sol.
+
+## Slutsats
+
+När det gäller kabelhantering för AV i Malaga är "estetisk kabeldragning" en verklig standardinkludering i [Eco Pack](/packages/eco/), [Wedding Pack](/packages/wedding/), [Basic MICE Pack](/packages/basic-mice/) och [MICE Pack](/packages/mice/), och även en grundläggande, om än onämnd, del av den professionella uppsättningen i [Product Presentation Pack](/packages/product-presentation/). Det betyder noggrann dragning och fastsättning av verkliga kablar, från ett lager med sträckor på upp till 42 meter, ärligt redovisat, inklusive fallen där en svår lokal ger ett verkligt tillägg och de 2 sakerna som ligger utanför vårt eget team och vårt eget lager. [Kontakta oss](/contact/) med uppgifter om din lokal, och för hela vårt utbud av utrustning, se [sidan om AV-uthyrning i Malaga](/blog/audio-visual-rental/).
+
+## Vanliga frågor
+
+### Vad betyder "estetisk kabeldragning" egentligen när jag bokar ett paket?
+
+Noggrann, konsekvent kabeldragning längs väggar, möbellinjer eller golvkanter, där allt som korsar en gångväg tejpas plant och fästs, utförd av samma team som sätter upp din utrustning. Se [Vad estetisk kabeldragning egentligen betyder](#vad-estetisk-kabeldragning-egentligen-betyder) ovan.
+
+### Ingår kabelhantering i priset, eller kostar det extra?
+
+Ingår som standard i [Eco Pack](/packages/eco/), [Wedding Pack](/packages/wedding/), [Basic MICE Pack](/packages/basic-mice/) och [MICE Pack](/packages/mice/), som alla nämner det direkt i sin innehållslista. Innehållslistan för [Product Presentation Pack](/packages/product-presentation/) nämner ingen separat kabelrad, men en grundläggande kabeldragning ingår ändå i den professionella uppsättningen vid varje bokning. En riktigt svår lokal eller en ovanligt lång kabelsträcka kan utlösa ett verkligt, separat värderat installationstillägg, som vi redovisar ärligt här i stället för att spara det till dagen för ditt evenemang. Se [Ingår kabelhantering i varje paket?](#ingår-kabelhantering-i-varje-paket) och [När en svår lokal ger ett installationstillägg](#när-en-svår-lokal-ger-ett-installationstillägg) ovan.
+
+### Skapar kablar en snubbelrisk på mitt evenemang?
+
+Det är precis det dragningen ska förhindra: kablar hålls utanför de viktigaste gångvägarna där det går och tejpas plant överallt där de ändå korsar en. Det är en av de 2 verkliga orsakerna bakom raden "estetisk kabeldragning" i våra paket, vid sidan av hur uppsättningen ser ut på foton. Se [Vad estetisk kabeldragning egentligen betyder](#vad-estetisk-kabeldragning-egentligen-betyder) ovan.
+
+### Hur drar ni kablar på en utomhuslokal som en villa eller en beach club?
+
+Med samma vanor för dragning och fastsättning, anpassade till det underlag lokalen har, gräs, sand eller terrassplattor. Vår guide om [AV-uthyrning för utomhusevenemang](/blog/audio-visual-rental-for-outdoor-events/) går igenom underlag och elplanering utomhus i detalj. Se [Kabelhantering utomhus](#kabelhantering-utomhus) ovan.
+
+### Vilken är den längsta kabelsträcka MEG kan sätta upp?
+
+Det beror på kabeltypen. Vårt lager har VGA upp till 42 meter, video upp till 30 meter, högtalarkabel upp till 25 meter samt mikrofon- och förlängningskabel upp till 20 meter vardera. Se [Hur långt kan vi dra en kabel?](#hur-långt-kan-vi-dra-en-kabel) ovan för hela uppdelningen.
+
+### Syns kablarna på mina bröllops- eller evenemangsfoton?
+
+Vi drar kablarna just för att minimera det, längs väggar och golvkanter i stället för genom öppna siktlinjer, men vi påstår inte att kablar någonsin är helt osynliga, bara att de hålls undan så långt lokalens upplägg tillåter. Se [Vad estetisk kabeldragning egentligen betyder](#vad-estetisk-kabeldragning-egentligen-betyder) ovan.
+
+### Gräver ni ner kablar eller använder ni kabelramper på ytor med mycket trafik?
+
+Inte med vårt eget team eller vårt eget lager. Vi gräver inga diken och gräver inte ner kabelsträckor, eftersom det är permanent installationsarbete utanför vår modell med enbart leverans, och det finns ingen namngiven kabelramp eller kabelkanal i vårt eget lager. Vi drar och tejpar kablarna plant längs väggar och golvkanter i stället. Se [Det vi inte har i lager och inte installerar](#det-vi-inte-har-i-lager-och-inte-installerar) ovan.
+
+### Påverkar vädret hur kablar hanteras utomhus?
+
+Ja, på samma sätt som det påverkar resten av en utomhusuppsättning. Vår guide om [väderhänsyn vid utomhusuthyrning](/blog/weather-considerations-for-outdoor-rentals/) går igenom i detalj hur vi planerar kring det, i stället för att upprepa det här.
+
+### Vad händer om en kabel ligger i vägen eller lossnar under mitt evenemang?
+
+Med ett paket som du sköter själv, utan tekniker på plats, är en kabel som dras ur när ett bord eller ett stativ flyttas en av de vanligaste orsakerna till ett plötsligt ljud- eller anslutningsproblem. Vår guide om felsökning av AV-system går igenom vad du kan kontrollera själv om det händer mitt under evenemanget.
+
+### Skiljer sig kabelhanteringen mellan en liten fest och ett stort företagsevenemang?
+
+Vanorna är desamma, men storleken ändrar vad som ska dras. [Eco Pack](/packages/eco/) har 2 högtalare och 2 ljusbalkar att hantera kablar runt. Katalogbeskrivningen för [MICE Pack](/packages/mice/) lyfter uttryckligen fram "skräddarsydd kabeldragning", eftersom en 60 tums skärm, två mikrofoner och ett längre evenemang med en tekniker på plats som sköter kablarna hela tiden är ett genuint mer komplicerat jobb än en liten fests uppsättning. Se [Ingår kabelhantering i varje paket?](#ingår-kabelhantering-i-varje-paket) ovan.

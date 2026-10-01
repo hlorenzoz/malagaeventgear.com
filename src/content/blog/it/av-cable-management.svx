@@ -1,0 +1,183 @@
+---
+title: "Gestione dei cavi audiovisivi a Malaga, in Spagna"
+description: "Gestione dei cavi audiovisivi a Malaga, in Spagna: cosa significa \"cablaggio curato\", le lunghezze dei cavi e ciò che il nostro team e inventario non coprono."
+excerpt: "Gestione dei cavi audiovisivi a Malaga: cosa significa davvero \"cablaggio curato\" in una prenotazione Malaga Event Gear, quali pacchetti lo includono, quanto può arrivare lontano un cavo, quando una location difficile aggiunge un'integrazione reale e cosa resta fuori dal nostro team e dal nostro inventario proprio."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Una ricerca in inglese per "AV cable management" fa uscire per lo più produttori di fascette per cavi e officine che vendono hardware, non una risposta alla vera domanda che sta dietro la ricerca: che cosa succede ai cavi al tuo evento. Per la gestione dei cavi audiovisivi a Malaga, in Spagna, quattro dei nostri cinque pacchetti riportano già il "cablaggio curato" o una variante vicina come inclusione standard, un'espressione che questa pagina spiega.
+
+Questa pagina è quella spiegazione: che cosa succede davvero ai cavi in una prenotazione con Malaga Event Gear, perché conta per la sicurezza e per le tue foto, fin dove può arrivare realisticamente un cavo e, con la stessa onestà, che cosa il nostro team e il nostro inventario proprio non coprono.
+
+[Contattaci](/contact/) con i dettagli della tua location se una lunghezza di cavo precisa o una location difficile fa parte dei tuoi piani.
+
+## Indice
+
+-   [In breve](#in-breve)
+-   [Punti chiave](#punti-chiave)
+-   [Cosa significa davvero cablaggio curato](#cosa-significa-davvero-cablaggio-curato)
+-   [La gestione dei cavi è inclusa in ogni pacchetto?](#la-gestione-dei-cavi-è-inclusa-in-ogni-pacchetto)
+-   [Fin dove possiamo stendere un cavo?](#fin-dove-possiamo-stendere-un-cavo)
+-   [Quando una location difficile aggiunge un'integrazione per l'installazione](#quando-una-location-difficile-aggiunge-unintegrazione-per-linstallazione)
+-   [Cosa non abbiamo a magazzino e non installiamo](#cosa-non-abbiamo-a-magazzino-e-non-installiamo)
+-   [La gestione dei cavi all'aperto](#la-gestione-dei-cavi-allaperto)
+-   [Allestimenti reali che abbiamo consegnato](#allestimenti-reali-che-abbiamo-consegnato)
+-   [Con quanto anticipo prenotare](#con-quanto-anticipo-prenotare)
+-   [Conclusione](#conclusione)
+-   [Domande frequenti](#domande-frequenti)
+    -   [Cosa significa davvero "cablaggio curato" quando prenoto un pacchetto?](#cosa-significa-davvero-cablaggio-curato-quando-prenoto-un-pacchetto)
+    -   [La gestione dei cavi è inclusa nel prezzo o è un costo extra?](#la-gestione-dei-cavi-è-inclusa-nel-prezzo-o-è-un-costo-extra)
+    -   [I cavi creano un rischio di inciampo al mio evento?](#i-cavi-creano-un-rischio-di-inciampo-al-mio-evento)
+    -   [Come fate passare i cavi in una location all'aperto come una villa o un beach club?](#come-fate-passare-i-cavi-in-una-location-allaperto-come-una-villa-o-un-beach-club)
+    -   [Qual è il passaggio di cavo più lungo che MEG può allestire?](#qual-è-il-passaggio-di-cavo-più-lungo-che-meg-può-allestire)
+    -   [I cavi si vedranno nelle foto del mio matrimonio o evento?](#i-cavi-si-vedranno-nelle-foto-del-mio-matrimonio-o-evento)
+    -   [Interrate i cavi o usate passacavi a rampa nelle zone di passaggio?](#interrate-i-cavi-o-usate-passacavi-a-rampa-nelle-zone-di-passaggio)
+    -   [Il meteo influisce sulla gestione dei cavi all'aperto?](#il-meteo-influisce-sulla-gestione-dei-cavi-allaperto)
+    -   [Cosa succede se un cavo intralcia o si stacca durante il mio evento?](#cosa-succede-se-un-cavo-intralcia-o-si-stacca-durante-il-mio-evento)
+    -   [La gestione dei cavi cambia tra una piccola festa e un grande evento aziendale?](#la-gestione-dei-cavi-cambia-tra-una-piccola-festa-e-un-grande-evento-aziendale)
+
+## In breve
+
+---
+
+Il "cablaggio curato" e il "cablaggio personalizzato" compaiono già nel nostro catalogo dei pacchetti, nell'Eco Pack, nel Wedding Pack, nel Basic MICE Pack e nel MICE Pack, ma il catalogo non spiega che cosa significhino queste parole nella pratica. Questa pagina lo fa: come il nostro team fa passare e fissa i cavi nella tua location, perché conta per la sicurezza e per come appare il tuo evento nelle foto, le lunghezze reali che possiamo stendere dal nostro inventario proprio e dove può applicarsi un costo extra dichiarato con onestà.
+
+La gestione dei cavi non è un servizio separato da aggiungere a una prenotazione. Fa parte dell'installazione professionale che ogni pacchetto include già, eseguita dallo stesso team che installa il tuo impianto audio, le luci o il materiale per i display.
+
+## Punti chiave
+
+---
+
+-   Il "cablaggio curato" è un'inclusione standard, indicata per nome, in 4 dei nostri 5 pacchetti: l'[Eco Pack](/packages/eco/), il [Wedding Pack](/packages/wedding/), il [Basic MICE Pack](/packages/basic-mice/) e il [MICE Pack](/packages/mice/).
+
+-   Il nostro inventario comprende lunghezze di cavo reali fino a 42 metri per il VGA, 30 metri per il video e 25 metri per i collegamenti delle casse, quindi la maggior parte delle location rientra in ciò che abbiamo già a magazzino.
+
+-   Una location davvero difficile o un passaggio di cavo insolitamente lungo può far scattare un'integrazione per l'installazione reale, dichiarata qui con onestà invece di essere lasciata al giorno del tuo evento.
+
+-   Il nostro team non scava né interra i passaggi dei cavi, e nel nostro inventario proprio non c'è alcun passacavi a rampa o canalina di una marca precisa. Sono due cose da sapere prima di prenotare se per la tua location contano.
+
+-   Il passaggio dei cavi cambia con la scala: una festa con l'[Eco Pack](/packages/eco/) ha 2 casse e 2 barre luminose attorno a cui far passare i cavi, un evento aziendale con il [MICE Pack](/packages/mice/) ha un display da 60 pollici, due microfoni e un tecnico che gestisce i cavi per un massimo di 6 ore consecutive.
+
+## Cosa significa davvero cablaggio curato
+
+<InlineCTA />
+
+Togliendo il linguaggio commerciale, il "cablaggio curato" descrive 2 cose concrete che il nostro team fa a ogni allestimento: i cavi vengono fatti passare lungo i muri, le linee dei mobili o il bordo del pavimento invece che dritti attraverso i percorsi liberi, e qualsiasi cavo che attraversa un percorso che ospiti o personale useranno davvero viene fissato a terra, piatto, invece di essere lasciato libero. La foto più avanti in questa pagina, scattata a un allestimento con leggio per un evento aziendale, mostra come appare in pratica: un cavo fissato con nastro lungo il pavimento, con i cavi raccolti alla base del leggio invece di essere lasciati aggrovigliati.
+
+Questo è l'ambito reale della prestazione, detto con onestà. Non stiamo descrivendo un sistema di canaline nascoste o una soluzione di falegnameria su misura: stiamo descrivendo un passaggio e un fissaggio dei cavi accurati e costanti, eseguiti dallo stesso team che consegna, installa e collauda la tua attrezzatura, senza una voce separata in fattura su 4 dei nostri 5 pacchetti.
+
+## La gestione dei cavi è inclusa in ogni pacchetto?
+
+La risposta onesta richiede una vera tabella, non un sì generico, perché la formulazione cambia da un pacchetto all'altro e l'elenco dei contenuti di un pacchetto non nomina affatto una voce sul cablaggio.
+
+| Pacchetto | Prezzo (IVA esclusa) | Voce sul cablaggio nell'elenco dei contenuti | Cosa significa |
+| --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | 290 euro | "Cablaggio curato e installazione professionale" | Inclusione standard, senza tecnico in loco che la gestisca oltre |
+| [Wedding Pack](/packages/wedding/) | 650 euro | "Installazione e cablaggio professionali e curati" | Inclusione standard, più un tecnico in loco per tutto l'evento |
+| [Basic MICE Pack](/packages/basic-mice/) | 295 euro | "...allestimento e cablaggio curato" | Inclusione standard, compresa nel trasporto e nell'allestimento |
+| [MICE Pack](/packages/mice/) | 490 euro | "...cablaggio personalizzato..." | Inclusione standard, più un tecnico incluso fino a 6 ore |
+| [Product Presentation Pack](/packages/product-presentation/) | 310 euro | Non indicata come voce a sé | Vedi sotto |
+
+Il [Product Presentation Pack](/packages/product-presentation/) è l'unica eccezione da dichiarare onestamente. Il suo elenco di 4 elementi, un proiettore con schermo, un impianto audio per la sala e un microfono wireless, non nomina una voce sul cablaggio come fanno gli altri 4 pacchetti. Questo non vuol dire che il passaggio dei cavi ne sia escluso. Ogni prenotazione che consegniamo, questo pacchetto compreso, viene installata dal nostro team come parte dell'allestimento che quel prezzo già copre, e le stesse abitudini di base, cavi tenuti lungo i muri e fissati dove attraversano un passaggio, valgono qualunque pacchetto tu abbia prenotato. Semplicemente non è scritto come una voce a sé nella descrizione a catalogo di quel pacchetto, come invece avviene negli altri 4, e preferiamo dirlo chiaramente piuttosto che coprire il vuoto con una riga che non esiste davvero nei nostri dati.
+
+## Fin dove possiamo stendere un cavo?
+
+La disposizione della location è spesso la vera domanda dietro "la gestione dei cavi è inclusa", perché un cavo che fisicamente non arriva alla presa o alla posizione della cassa è un problema più grande di quanto sia ordinato una volta arrivato. Ecco che cosa contiene davvero il nostro inventario proprio, tipo di cavo per tipo di cavo, dalla lunghezza maggiore alla minore.
+
+| Tipo di cavo | Lunghezza massima a magazzino |
+| --- | --- |
+| VGA | Fino a 42 metri |
+| Video (compatibile Kramer, Christie) | Fino a 30 metri |
+| Speakon (casse) | Fino a 25 metri |
+| Microfono | Fino a 20 metri |
+| Prolunga elettrica | Fino a 20 metri |
+| Sub box | 15 metri |
+| Ciabatta elettrica | Fino a 15 metri |
+| IEC | 1,5 metri |
+
+La maggior parte delle terrazze di ville, delle sale da ballo e delle sale conferenze rientra comodamente in queste lunghezze, in particolare i collegamenti di casse e microfoni, che hanno più margine. Il cavo IEC è l'unica voce corta di quell'elenco, e lo è per scelta: collega direttamente un apparecchio alla propria ciabatta vicina invece di attraversare una sala, quindi 1,5 metri è la lunghezza giusta per quel compito, non un limite.
+
+## Quando una location difficile aggiunge un'integrazione per l'installazione
+
+Ecco la parte che la maggior parte delle pagine di noleggio omette del tutto: la gestione dei cavi è inclusa nell'installazione professionale di ogni pacchetto, ma il nostro listino ha un'integrazione per l'installazione reale, valorizzata a parte, per le location davvero difficili, quotata caso per caso, e le nostre note d'inventario ne indicano il motivo preciso: un cablaggio eccessivo causato dalla difficoltà della location. Non è un costo nascosto. È il riflesso onesto del fatto che una sala da ballo d'albergo semplice e una villa con 3 livelli di terrazza separati e una sola presa lontana non sono lo stesso lavoro, anche con lo stesso pacchetto prenotato.
+
+In pratica, la maggior parte delle disposizioni rientra nelle lunghezze della tabella qui sopra, passa per una normale sala o un normale giardino, e in quei casi l'integrazione non entra in gioco. Descrivici la disposizione della tua location al momento della prenotazione, la distanza dalla corrente, il numero di livelli, accessi insoliti, e ti diremo con onestà se è probabile che la tua location ne abbia bisogno prima della data del tuo evento, non dopo.
+
+## Cosa non abbiamo a magazzino e non installiamo
+
+Essere onesti su ciò che include il "cablaggio curato" significa esserlo anche su ciò che non include. Il nostro team non scava né interra i passaggi dei cavi. È un lavoro di installazione permanente, al di fuori del modello basato sulla sola consegna su cui si regge tutta la nostra attività: consegniamo, installiamo, collaudiamo e ritiriamo, e non lasciamo nulla di integrato in una location dopo la nostra partenza. I passaggi di cavo interrati o sotto pavimento sono un lavoro per un installatore specializzato, non per il nostro team.
+
+Nel nostro inventario proprio non c'è nemmeno alcun passacavi a rampa o canalina di una marca precisa, e preferiamo dirlo direttamente piuttosto che lasciare che una pagina lasci intendere il contrario. Quello che facciamo invece è il passaggio e il fissaggio con nastro descritti sopra, lungo i muri e i bordi del pavimento, fuori dai principali percorsi di passaggio, il che copre la grande maggioranza delle location in cui lavoriamo senza bisogno di un passacavi dedicato.
+
+Se la tua location ha bisogno di passacavi a rampa su un passaggio molto frequentato, o di un passaggio interrato, dillo al momento della prenotazione. Possiamo verificare se uno dei nostri fornitori potrebbe fornire i passacavi o occuparsi dell'installazione, e ti diremo prima del tuo evento se nessuno può farlo.
+
+## La gestione dei cavi all'aperto
+
+Una location all'aperto cambia ciò che il passaggio dei cavi deve aggirare, soprattutto il tipo di fondo e l'esposizione al meteo, due aspetti trattati per intero nella nostra guida al [noleggio audiovisivo per eventi all'aperto](/blog/audio-visual-rental-for-outdoor-events/) invece di essere ripetuti qui. In breve, per questa pagina: il nostro team adatta in loco le stesse abitudini di passaggio e fissaggio descritte sopra all'erba, alla sabbia o al fondo irregolare di una terrazza, invece di seguire un unico metodo qualunque sia la superficie.
+
+## Allestimenti reali che abbiamo consegnato
+
+![Un leggio in acrilico con un microfono a collo d'oca e un portatile a un evento aziendale di FTI Consulting in provincia di Malaga, con un cavo fissato con nastro lungo il pavimento in legno e i cavi raccolti alla base del leggio.](https://cdn.malagaeventgear.com/blog/1793/FTI-Consulting-Setup-audio-and-microphone-system-setup-768x1024.webp "L'allestimento completo dell'impianto audio e dei microfoni per un evento aziendale di FTI Consulting, con il leggio personalizzato con il marchio e il portatile per la presentazione.")
+
+Il passaggio dei cavi in un allestimento con leggio per un evento aziendale di FTI Consulting in provincia di Malaga: un cavo fissato con nastro lungo il pavimento e i cavi raccolti alla base del leggio. È la realtà onesta e senza glamour del "cablaggio curato": un passaggio e un fissaggio accurati dei cavi, non un sistema nascosto.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1278/', '/1793/'])} speed="normal" direction="left" />
+</div>
+
+## Con quanto anticipo prenotare
+
+Tutte le nostre prenotazioni richiedono un preavviso di almeno 24 ore, e questo vale per la pianificazione dei cavi quanto per l'attrezzatura stessa. Se la tua location ha una disposizione insolita, una presa di corrente lontana, più livelli o qualsiasi altra cosa che possa riguardare l'integrazione per location difficili descritta sopra, diccelo al momento della prenotazione e non il giorno prima, così possiamo pianificare il passaggio dei cavi e quotarlo con onestà in anticipo invece di aggiustare sul posto. La domanda per le prenotazioni aziendali e di matrimonio più grandi, dove i passaggi di cavo tendono a essere più lunghi e complessi, raggiunge il picco durante la stagione dei matrimoni, da aprile a ottobre, e durante la stagione dei congressi sulla Costa del Sol.
+
+## Conclusione
+
+Per la gestione dei cavi audiovisivi a Malaga, il "cablaggio curato" è un'inclusione standard reale dell'[Eco Pack](/packages/eco/), del [Wedding Pack](/packages/wedding/), del [Basic MICE Pack](/packages/basic-mice/) e del [MICE Pack](/packages/mice/), e anche una parte basilare, anche se non nominata, dell'installazione professionale del [Product Presentation Pack](/packages/product-presentation/). Significa passaggio e fissaggio accurati di cavi reali, da un inventario che contiene passaggi fino a 42 metri, dichiarato con onestà, compresi i casi in cui una location difficile aggiunge un'integrazione reale e le 2 cose che restano fuori dal nostro team e dal nostro inventario proprio. [Contattaci](/contact/) con i dettagli della tua location, e per tutta la nostra gamma di attrezzatura consulta la pagina del [noleggio audiovisivo a Malaga](/blog/audio-visual-rental/).
+
+## Domande frequenti
+
+### Cosa significa davvero "cablaggio curato" quando prenoto un pacchetto?
+
+Un passaggio dei cavi accurato e costante lungo i muri, le linee dei mobili o i bordi del pavimento, con tutto ciò che attraversa un percorso fissato piatto con il nastro, eseguito dallo stesso team che installa la tua attrezzatura. Vedi sopra [Cosa significa davvero cablaggio curato](#cosa-significa-davvero-cablaggio-curato).
+
+### La gestione dei cavi è inclusa nel prezzo o è un costo extra?
+
+Inclusa di serie nell'[Eco Pack](/packages/eco/), nel [Wedding Pack](/packages/wedding/), nel [Basic MICE Pack](/packages/basic-mice/) e nel [MICE Pack](/packages/mice/), che la nominano ciascuno direttamente nel proprio elenco dei contenuti. L'elenco dei contenuti del [Product Presentation Pack](/packages/product-presentation/) non nomina una voce sul cablaggio a sé, anche se un passaggio di base dei cavi fa comunque parte dell'installazione professionale di ogni prenotazione. Una location davvero difficile o un passaggio di cavo insolitamente lungo può far scattare un'integrazione per l'installazione reale, valorizzata a parte, dichiarata qui con onestà invece di essere lasciata al giorno del tuo evento. Vedi sopra [La gestione dei cavi è inclusa in ogni pacchetto?](#la-gestione-dei-cavi-è-inclusa-in-ogni-pacchetto) e [Quando una location difficile aggiunge un'integrazione per l'installazione](#quando-una-location-difficile-aggiunge-unintegrazione-per-linstallazione).
+
+### I cavi creano un rischio di inciampo al mio evento?
+
+È esattamente ciò che il passaggio dei cavi serve a evitare: cavi tenuti fuori dai percorsi principali dove possibile, e fissati piatti con il nastro ovunque ne attraversino uno. È una delle 2 ragioni reali dietro la voce "cablaggio curato" dei nostri pacchetti, insieme all'aspetto dell'allestimento nelle foto. Vedi sopra [Cosa significa davvero cablaggio curato](#cosa-significa-davvero-cablaggio-curato).
+
+### Come fate passare i cavi in una location all'aperto come una villa o un beach club?
+
+Con le stesse abitudini di passaggio e fissaggio, adattate a qualunque fondo abbia la location, erba, sabbia o pavimentazione di terrazza. La nostra guida al [noleggio audiovisivo per eventi all'aperto](/blog/audio-visual-rental-for-outdoor-events/) tratta per intero il tipo di fondo e la pianificazione dell'alimentazione all'aperto. Vedi sopra [La gestione dei cavi all'aperto](#la-gestione-dei-cavi-allaperto).
+
+### Qual è il passaggio di cavo più lungo che MEG può allestire?
+
+Dipende dal tipo di cavo. Il nostro inventario comprende VGA fino a 42 metri, video fino a 30 metri, cavo per casse fino a 25 metri e cavo microfonico e prolunga elettrica fino a 20 metri ciascuno. Vedi sopra [Fin dove possiamo stendere un cavo?](#fin-dove-possiamo-stendere-un-cavo) per il quadro completo.
+
+### I cavi si vedranno nelle foto del mio matrimonio o evento?
+
+Facciamo passare i cavi proprio per ridurre questo rischio, lungo i muri e i bordi del pavimento invece che attraverso le linee di vista aperte, ma non sosteniamo che i cavi siano mai del tutto invisibili, solo tenuti fuori mano per quanto la disposizione della location lo consente. Vedi sopra [Cosa significa davvero cablaggio curato](#cosa-significa-davvero-cablaggio-curato).
+
+### Interrate i cavi o usate passacavi a rampa nelle zone di passaggio?
+
+Non con il nostro team né con il nostro inventario proprio. Non scaviamo né interriamo i passaggi dei cavi, perché è un lavoro di installazione permanente al di fuori del nostro modello basato sulla sola consegna, e nel nostro inventario proprio non c'è alcun passacavi a rampa o canalina di una marca precisa. Facciamo passare e fissiamo i cavi piatti con il nastro lungo i muri e i bordi del pavimento. Vedi sopra [Cosa non abbiamo a magazzino e non installiamo](#cosa-non-abbiamo-a-magazzino-e-non-installiamo).
+
+### Il meteo influisce sulla gestione dei cavi all'aperto?
+
+Sì, allo stesso modo in cui influisce sul resto di un allestimento all'aperto. La nostra guida alle [considerazioni meteo per il noleggio all'aperto](/blog/weather-considerations-for-outdoor-rentals/) spiega per intero come ci organizziamo, invece di ripeterlo qui.
+
+### Cosa succede se un cavo intralcia o si stacca durante il mio evento?
+
+Con un pacchetto gestito in autonomia, senza tecnico in loco, un cavo staccato spostando un tavolo o uno stativo è una delle cause più comuni di un improvviso problema di audio o di collegamento. La nostra guida alla risoluzione dei problemi dei sistemi audiovisivi spiega che cosa controllare da solo se succede durante l'evento.
+
+### La gestione dei cavi cambia tra una piccola festa e un grande evento aziendale?
+
+Le abitudini sono le stesse, ma la scala cambia ciò che c'è da far passare. L'[Eco Pack](/packages/eco/) ha 2 casse e 2 barre luminose attorno a cui gestire i cavi. La descrizione a catalogo del [MICE Pack](/packages/mice/) cita espressamente un "cablaggio personalizzato" perché un display da 60 pollici, due microfoni e un evento più lungo con un tecnico in loco che gestisce i cavi per tutto il tempo sono un lavoro davvero più complesso dell'allestimento di una piccola festa. Vedi sopra [La gestione dei cavi è inclusa in ogni pacchetto?](#la-gestione-dei-cavi-è-inclusa-in-ogni-pacchetto).

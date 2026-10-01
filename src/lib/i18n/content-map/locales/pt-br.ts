@@ -399,6 +399,11 @@ export default {
 			keyword: 'orientação sobre aluguel de audiovisual em Málaga',
 			status: 'propuesta'
 		},
+		'av-cable-management': {
+			slug: 'organizacao-de-cabos-audiovisuais',
+			keyword: 'organização de cabos audiovisuais em Málaga',
+			status: 'propuesta'
+		},
 		'benefits-of-audio-visual-rental': {
 			slug: 'vantagens-do-aluguel-de-audiovisual',
 			keyword: 'vantagens do aluguel de audiovisual em Málaga',

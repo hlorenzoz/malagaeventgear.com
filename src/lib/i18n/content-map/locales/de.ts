@@ -367,6 +367,11 @@ export default {
 			keyword: 'Beratung zur AV-Vermietung in Malaga',
 			status: 'propuesta'
 		},
+		'av-cable-management': {
+			slug: 'av-kabelmanagement-malaga',
+			keyword: 'AV-Kabelmanagement in Malaga',
+			status: 'propuesta'
+		},
 		'benefits-of-audio-visual-rental': {
 			slug: 'vorteile-av-vermietung',
 			keyword: 'Vorteile der AV-Vermietung in Malaga',

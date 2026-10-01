@@ -1,0 +1,183 @@
+---
+title: "AV-Kabelmanagement in Malaga, Spanien"
+description: "AV-Kabelmanagement in Malaga, Spanien: was \"ästhetische Verkabelung\" bedeutet, unsere Kabellängen und was unser eigenes Team und Bestand nicht abdecken."
+excerpt: "AV-Kabelmanagement in Malaga: was \"ästhetische Verkabelung\" bei einer Buchung von Malaga Event Gear wirklich heißt, welche Pakete sie enthalten, wie weit ein Kabel reichen kann, wann ein schwieriger Veranstaltungsort eine echte zusätzliche Leistung bedingt und was außerhalb unseres eigenen Teams und Bestands liegt."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Wer auf Englisch nach "AV cable management" sucht, findet meist Hersteller von Kabelbindern und Werkstätten, die Hardware verkaufen, aber keine Antwort auf die eigentliche Frage hinter der Suche: Was passiert bei Ihrer eigenen Veranstaltung mit den Kabeln? Für das AV-Kabelmanagement in Malaga, Spanien, nennen vier unserer fünf Pakete die "ästhetische Verkabelung" oder eine nahe Variante bereits als Standardleistung, ein Begriff, den diese Seite erklärt.
+
+Diese Seite ist diese Erklärung: Was bei einer Buchung von Malaga Event Gear tatsächlich mit den Kabeln geschieht, warum das für die Sicherheit und für Ihre Fotos wichtig ist, wie weit ein Kabel realistisch reichen kann und, ebenso ehrlich, was unser eigenes Team und unser eigener Bestand nicht abdecken.
+
+[Kontaktieren Sie uns](/contact/) mit den Daten Ihres Veranstaltungsorts, wenn eine bestimmte Kabellänge oder ein schwieriger Ort Teil Ihrer Planung ist.
+
+## Inhaltsverzeichnis
+
+-   [Kurzüberblick](#kurzüberblick)
+-   [Das Wichtigste](#das-wichtigste)
+-   [Was ästhetische Verkabelung wirklich bedeutet](#was-ästhetische-verkabelung-wirklich-bedeutet)
+-   [Ist Kabelmanagement in jedem Paket enthalten?](#ist-kabelmanagement-in-jedem-paket-enthalten)
+-   [Wie weit können wir ein Kabel verlegen?](#wie-weit-können-wir-ein-kabel-verlegen)
+-   [Wann ein schwieriger Veranstaltungsort eine zusätzliche Installationsleistung bedingt](#wann-ein-schwieriger-veranstaltungsort-eine-zusätzliche-installationsleistung-bedingt)
+-   [Was wir nicht vorrätig haben und nicht installieren](#was-wir-nicht-vorrätig-haben-und-nicht-installieren)
+-   [Kabelmanagement im Freien](#kabelmanagement-im-freien)
+-   [Reale Aufbauten, die wir geliefert haben](#reale-aufbauten-die-wir-geliefert-haben)
+-   [Wie weit im Voraus buchen](#wie-weit-im-voraus-buchen)
+-   [Fazit](#fazit)
+-   [Häufige Fragen](#häufige-fragen)
+    -   [Was bedeutet "ästhetische Verkabelung" eigentlich, wenn ich ein Paket buche?](#was-bedeutet-ästhetische-verkabelung-eigentlich-wenn-ich-ein-paket-buche)
+    -   [Ist Kabelmanagement im Preis enthalten oder kostet es extra?](#ist-kabelmanagement-im-preis-enthalten-oder-kostet-es-extra)
+    -   [Sind Kabel bei meiner Veranstaltung eine Stolperfalle?](#sind-kabel-bei-meiner-veranstaltung-eine-stolperfalle)
+    -   [Wie führen Sie Kabel an einem Ort im Freien wie einer Villa oder einem Beachclub?](#wie-führen-sie-kabel-an-einem-ort-im-freien-wie-einer-villa-oder-einem-beachclub)
+    -   [Wie lang ist die längste Kabelstrecke, die MEG aufbauen kann?](#wie-lang-ist-die-längste-kabelstrecke-die-meg-aufbauen-kann)
+    -   [Sieht man die Kabel auf meinen Hochzeits- oder Veranstaltungsfotos?](#sieht-man-die-kabel-auf-meinen-hochzeits--oder-veranstaltungsfotos)
+    -   [Vergraben Sie Kabel oder nutzen Sie Kabelbrücken für stark begangene Bereiche?](#vergraben-sie-kabel-oder-nutzen-sie-kabelbrücken-für-stark-begangene-bereiche)
+    -   [Beeinflusst das Wetter, wie Kabel im Freien geführt werden?](#beeinflusst-das-wetter-wie-kabel-im-freien-geführt-werden)
+    -   [Was passiert, wenn ein Kabel im Weg liegt oder sich während meiner Veranstaltung löst?](#was-passiert-wenn-ein-kabel-im-weg-liegt-oder-sich-während-meiner-veranstaltung-löst)
+    -   [Ist das Kabelmanagement bei einer kleinen Feier anders als bei einer großen Firmenveranstaltung?](#ist-das-kabelmanagement-bei-einer-kleinen-feier-anders-als-bei-einer-großen-firmenveranstaltung)
+
+## Kurzüberblick
+
+---
+
+"Ästhetische Verkabelung" und "maßgeschneiderte Verkabelung" stehen bereits in unserem eigenen Paketkatalog, beim Eco Pack, Wedding Pack, Basic MICE Pack und MICE Pack, doch der Katalog erklärt nicht, was diese Worte in der Praxis heißen. Diese Seite tut es: wie unser Team Kabel an Ihrem Veranstaltungsort führt und sichert, warum das für die Sicherheit und für das Aussehen Ihrer Veranstaltung auf Fotos wichtig ist, welche echten Längen wir aus unserem eigenen Bestand verlegen können und wo ein ehrlich ausgewiesener Aufpreis anfallen kann.
+
+Kabelmanagement ist keine eigene Leistung, die man zu einer Buchung hinzufügt. Es gehört zum professionellen Aufbau, den jedes Paket ohnehin enthält, ausgeführt vom selben Team, das Ihre Tontechnik, Beleuchtung oder Displaytechnik aufbaut.
+
+## Das Wichtigste
+
+---
+
+-   "Ästhetische Verkabelung" ist eine feste, ausdrücklich genannte Leistung in 4 unserer 5 Pakete: im [Eco Pack](/packages/eco/), [Wedding Pack](/packages/wedding/), [Basic MICE Pack](/packages/basic-mice/) und [MICE Pack](/packages/mice/).
+
+-   Unser Bestand umfasst echte Kabellängen von bis zu 42 Metern für VGA, 30 Metern für Video und 25 Metern für Lautsprecherstrecken, sodass die meisten Raumaufteilungen in das passen, was wir ohnehin vorrätig haben.
+
+-   Ein wirklich schwieriger Ort oder eine ungewöhnlich lange Kabelstrecke kann eine echte zusätzliche Installationsleistung auslösen, die wir hier ehrlich offenlegen, statt sie für den Tag Ihrer Veranstaltung aufzuheben.
+
+-   Unser eigenes Team hebt keine Kabelgräben aus und vergräbt keine Kabelstrecken, und in unserem eigenen Bestand gibt es keine benannte Kabelbrücke und keinen Kabelkanal einer bestimmten Marke. Beides sollten Sie vor der Buchung wissen, falls es für Ihren Ort eine Rolle spielt.
+
+-   Die Kabelführung ändert sich mit dem Umfang: Bei einer Feier mit dem [Eco Pack](/packages/eco/) sind 2 Lautsprecher und 2 Lichtleisten zu umgehen, bei einer Firmenveranstaltung mit dem [MICE Pack](/packages/mice/) gibt es ein 60-Zoll-Display, zwei Mikrofone und einen Techniker, der die Kabel bis zu 6 Stunden am Stück betreut.
+
+## Was ästhetische Verkabelung wirklich bedeutet
+
+<InlineCTA />
+
+Ohne die Marketingsprache beschreibt "ästhetische Verkabelung" 2 konkrete Dinge, die unser Team bei jedem Aufbau macht: Kabel werden an Wänden, Möbelkanten oder der Fußbodenkante entlang geführt statt quer über freie Laufwege, und jedes Kabel, das einen Weg kreuzt, den Gäste oder Personal wirklich nutzen, wird flach fixiert statt lose liegen gelassen. Das Foto weiter unten auf dieser Seite, von einem Aufbau mit Rednerpult bei einer Firmenveranstaltung, zeigt, wie das in der Praxis aussieht: ein Kabel, das am Boden entlang festgeklebt ist, mit den Kabeln gebündelt am Fuß des Rednerpults statt als Wirrwarr.
+
+Das ist der ehrliche Umfang. Wir beschreiben weder ein verborgenes Kabelkanalsystem noch eine maßgefertigte Tischlerlösung, sondern sorgfältige, konsequente Kabelführung und Sicherung, ausgeführt vom selben Team, das Ihre Technik liefert, aufbaut und testet, bei 4 unserer 5 Pakete ohne eigene Rechnungsposition.
+
+## Ist Kabelmanagement in jedem Paket enthalten?
+
+Die ehrliche Antwort braucht eine echte Tabelle statt eines pauschalen Ja, denn die Formulierung unterscheidet sich je Paket, und die Leistungsliste eines Pakets nennt gar keine Verkabelungszeile.
+
+| Paket | Preis (zzgl. MwSt.) | Verkabelungszeile in der Leistungsliste | Was das bedeutet |
+| --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | 290 Euro | "Ästhetische Verkabelung und professioneller Aufbau" | Standardleistung, ohne Techniker vor Ort, der sie weiter betreut |
+| [Wedding Pack](/packages/wedding/) | 650 Euro | "Professioneller, ästhetischer Aufbau und Verkabelung" | Standardleistung, plus ein Techniker vor Ort für die gesamte Veranstaltung |
+| [Basic MICE Pack](/packages/basic-mice/) | 295 Euro | "...Aufbau und ästhetische Verkabelung" | Standardleistung, eingebunden in Transport und Aufbau |
+| [MICE Pack](/packages/mice/) | 490 Euro | "...maßgeschneiderte Verkabelung..." | Standardleistung, plus ein inbegriffener Techniker für bis zu 6 Stunden |
+| [Product Presentation Pack](/packages/product-presentation/) | 310 Euro | Nicht als eigene Zeile genannt | Siehe unten |
+
+Das [Product Presentation Pack](/packages/product-presentation/) ist die eine ehrliche Ausnahme. Seine Leistungsliste mit 4 Positionen, ein Beamer mit Leinwand, eine Beschallung für den Raum und ein kabelloses Mikrofon, nennt keine Kabel- oder Verkabelungszeile wie die anderen 4 Pakete. Das heißt nicht, dass die Kabelführung ausgeschlossen ist. Jede Buchung, die wir liefern, dieses Paket eingeschlossen, wird von unserem eigenen Team als Teil des Aufbaus installiert, den dieser Preis bereits abdeckt, und dieselben grundlegenden Gewohnheiten, Kabel an Wänden entlang und dort gesichert, wo sie einen Weg kreuzen, gelten unabhängig davon, welches Paket Sie gebucht haben. Die Kabelführung steht nur nicht als eigener Aufzählungspunkt in der Katalogbeschreibung dieses Pakets wie bei den anderen 4, und wir sagen das lieber offen, als die Lücke mit einer Zeile zu überdecken, die in unseren eigenen Daten gar nicht steht.
+
+## Wie weit können wir ein Kabel verlegen?
+
+Die Raumaufteilung ist meist die eigentliche Frage hinter "ist Kabelmanagement enthalten", denn ein Kabel, das die Steckdose oder die Lautsprecherposition physisch nicht erreicht, ist ein größeres Problem als die Ordnung, in der es danach liegt. Das hat unser eigener Bestand tatsächlich vorrätig, Kabeltyp für Kabeltyp, die längste Länge zuerst.
+
+| Kabeltyp | Längste Länge, die wir führen |
+| --- | --- |
+| VGA | Bis zu 42 Meter |
+| Video (kompatibel mit Kramer, Christie) | Bis zu 30 Meter |
+| Speakon (Lautsprecher) | Bis zu 25 Meter |
+| Mikrofon | Bis zu 20 Meter |
+| Stromverlängerung | Bis zu 20 Meter |
+| Sub box | 15 Meter |
+| Steckdosenleiste | Bis zu 15 Meter |
+| IEC | 1,5 Meter |
+
+Die meisten Villenterrassen, Ballsäle und Konferenzräume passen bequem in diese Längen, besonders bei Lautsprecher- und Mikrofonstrecken, die den meisten Spielraum haben. IEC-Kabel ist der eine kurze Eintrag in dieser Liste, und das aus gutem Grund: Es verbindet ein Gerät direkt mit seiner eigenen Steckdosenleiste in der Nähe, statt einen Raum zu überspannen, sodass 1,5 Meter die richtige Länge für diese Aufgabe sind und keine Einschränkung.
+
+## Wann ein schwieriger Veranstaltungsort eine zusätzliche Installationsleistung bedingt
+
+Hier kommt der Teil, den die meisten Verleihseiten ganz auslassen: Kabelmanagement ist im professionellen Aufbau jedes Pakets enthalten, aber unsere eigene Preisliste kennt für wirklich schwierige Orte eine echte, gesondert bewertete zusätzliche Installationsleistung, die im Einzelfall kalkuliert wird, und unsere eigenen Bestandsnotizen nennen den genauen Auslöser dafür: übermäßige Verkabelung durch die Schwierigkeit des Ortes. Das ist keine versteckte Gebühr. Es spiegelt ehrlich wider, dass ein unkomplizierter Hotelballsaal und eine Villa mit 3 getrennten Terrassenebenen und einer weit entfernten Stromquelle nicht dieselbe Aufgabe sind, selbst mit demselben gebuchten Paket.
+
+In der Praxis passen die meisten Raumaufteilungen in die Längen der Tabelle oben und verlaufen durch einen normalen Raum oder Garten, und in diesen Fällen kommt die zusätzliche Leistung nicht zur Sprache. Nennen Sie uns bei der Buchung die Aufteilung Ihres Ortes, die Entfernung zur Stromquelle, die Zahl der Ebenen und einen ungewöhnlichen Zugang, und wir sagen Ihnen ehrlich, ob Ihr Ort sie voraussichtlich braucht, vor Ihrem Veranstaltungstermin, nicht danach.
+
+## Was wir nicht vorrätig haben und nicht installieren
+
+Ehrlich zu sagen, was "ästhetische Verkabelung" umfasst, heißt auch, ehrlich zu sagen, was sie nicht umfasst. Unser eigenes Team hebt keine Kabelgräben aus und vergräbt keine Kabelstrecken. Das ist dauerhafte Installationsarbeit, außerhalb des reinen Liefermodells, auf dem unser gesamtes Geschäft beruht: Wir liefern, bauen auf, testen und holen ab, und wir lassen nach unserem Abgang nichts fest in einem Veranstaltungsort zurück. Vergrabene oder unter dem Boden verlaufende Kabelstrecken sind Sache eines spezialisierten Installationsbetriebs, nicht unseres eigenen Teams.
+
+Es gibt außerdem keine benannte Kabelbrücke und keinen Kabelkanal einer bestimmten Marke in unserem eigenen Bestand, und wir sagen das lieber direkt, als eine Seite etwas anderes andeuten zu lassen. Stattdessen führen und fixieren wir die Kabel mit Klebeband, wie oben beschrieben, an Wänden und Fußbodenkanten entlang, abseits der Hauptlaufwege, was die große Mehrheit der Orte, an denen wir arbeiten, abdeckt, ohne dass ein eigenes Kabelbrückenprodukt nötig wäre.
+
+Wenn Ihr Ort Kabelbrücken über einem stark begangenen Gang oder eine vergrabene Kabelstrecke braucht, sagen Sie es bei der Buchung. Wir können prüfen, ob einer unserer Lieferanten die Kabelbrücken stellen oder die Installation übernehmen könnte, und wir sagen Ihnen vor Ihrer Veranstaltung Bescheid, falls keiner das kann.
+
+## Kabelmanagement im Freien
+
+Ein Ort im Freien verändert, worum die Kabelführung herum arbeiten muss, vor allem die Bodenbeschaffenheit und die Witterung, beides ausführlich in unserem Ratgeber zur [AV-Vermietung für Veranstaltungen im Freien](/blog/audio-visual-rental-for-outdoor-events/) behandelt, statt es hier zu wiederholen. Die Kurzfassung für diese Seite: Unser Team passt dieselben oben beschriebenen Gewohnheiten der Kabelführung und Sicherung vor Ort an Gras, Sand oder unebenen Terrassenboden an, statt unabhängig vom Untergrund eine einzige feste Methode anzuwenden.
+
+## Reale Aufbauten, die wir geliefert haben
+
+![Ein Rednerpult aus Acryl mit Schwanenhalsmikrofon und Laptop bei einer Firmenveranstaltung von FTI Consulting in der Provinz Malaga, mit einem am Holzboden entlang festgeklebten Kabel und den am Fuß des Rednerpults gebündelten Kabeln.](https://cdn.malagaeventgear.com/blog/1793/FTI-Consulting-Setup-audio-and-microphone-system-setup-768x1024.webp "Der komplette Aufbau von Ton- und Mikrofontechnik bei einer Firmenveranstaltung von FTI Consulting, mit dem Rednerpult im Firmendesign und dem Präsentationslaptop.")
+
+Die Kabelführung bei einem Aufbau mit Rednerpult für eine Veranstaltung von FTI Consulting in der Provinz Malaga: ein am Boden entlang festgeklebtes Kabel und die am Fuß des Rednerpults gebündelten Kabel. Das ist die ehrliche, unglamouröse Wirklichkeit der "ästhetischen Verkabelung": sorgfältige Führung und Sicherung, kein verborgenes System.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1278/', '/1793/'])} speed="normal" direction="left" />
+</div>
+
+## Wie weit im Voraus buchen
+
+Alle unsere Buchungen brauchen eine Vorlaufzeit von mindestens 24 Stunden, und das gilt für die Kabelplanung genauso wie für die Technik selbst. Wenn Ihr Ort eine ungewöhnliche Aufteilung, eine weit entfernte Stromquelle, mehrere Ebenen oder irgendetwas anderes hat, das die oben beschriebene zusätzliche Leistung für schwierige Orte berühren könnte, sagen Sie es uns bei der Buchung und nicht erst am Vortag, damit wir die Kabelführung planen und ehrlich vorab kalkulieren können, statt vor Ort nachzusteuern. Die Nachfrage nach größeren Firmen- und Hochzeitsbuchungen, bei denen die Kabelstrecken tendenziell länger und aufwendiger sind, erreicht ihren Höhepunkt in der Hochzeitssaison von April bis Oktober und in der Konferenzsaison an der Costa del Sol.
+
+## Fazit
+
+Für das AV-Kabelmanagement in Malaga gilt: "Ästhetische Verkabelung" ist eine echte Standardleistung des [Eco Pack](/packages/eco/), [Wedding Pack](/packages/wedding/), [Basic MICE Pack](/packages/basic-mice/) und [MICE Pack](/packages/mice/) und auch beim [Product Presentation Pack](/packages/product-presentation/) ein grundlegender, wenn auch nicht genannter Teil des professionellen Aufbaus. Sie bedeutet sorgfältige Führung und Sicherung echter Kabel aus einem Bestand mit Strecken bis zu 42 Metern, ehrlich dargestellt, einschließlich der Fälle, in denen ein schwieriger Ort eine echte zusätzliche Leistung bedingt, und der 2 Dinge, die außerhalb unseres eigenen Teams und Bestands liegen. [Kontaktieren Sie uns](/contact/) mit den Daten Ihres Ortes, und unser gesamtes Technikangebot finden Sie auf unserer [Seite zur AV-Vermietung in Malaga](/blog/audio-visual-rental/).
+
+## Häufige Fragen
+
+### Was bedeutet "ästhetische Verkabelung" eigentlich, wenn ich ein Paket buche?
+
+Sorgfältige, konsequente Kabelführung an Wänden, Möbelkanten oder Fußbodenkanten entlang, wobei alles, was einen Laufweg kreuzt, flach festgeklebt und gesichert wird, ausgeführt vom selben Team, das Ihre Technik aufbaut. Siehe oben [Was ästhetische Verkabelung wirklich bedeutet](#was-ästhetische-verkabelung-wirklich-bedeutet).
+
+### Ist Kabelmanagement im Preis enthalten oder kostet es extra?
+
+Standardmäßig enthalten im [Eco Pack](/packages/eco/), [Wedding Pack](/packages/wedding/), [Basic MICE Pack](/packages/basic-mice/) und [MICE Pack](/packages/mice/), die es jeweils direkt in ihrer Leistungsliste nennen. Die Leistungsliste des [Product Presentation Pack](/packages/product-presentation/) nennt keine eigene Verkabelungszeile, auch wenn eine grundlegende Kabelführung trotzdem zum professionellen Aufbau jeder Buchung gehört. Ein wirklich schwieriger Ort oder eine ungewöhnlich lange Kabelstrecke kann eine echte, gesondert bewertete zusätzliche Installationsleistung auslösen, die hier ehrlich offengelegt wird, statt sie für den Tag Ihrer Veranstaltung aufzuheben. Siehe oben [Ist Kabelmanagement in jedem Paket enthalten?](#ist-kabelmanagement-in-jedem-paket-enthalten) und [Wann ein schwieriger Veranstaltungsort eine zusätzliche Installationsleistung bedingt](#wann-ein-schwieriger-veranstaltungsort-eine-zusätzliche-installationsleistung-bedingt).
+
+### Sind Kabel bei meiner Veranstaltung eine Stolperfalle?
+
+Genau das soll die Kabelführung verhindern: Kabel werden nach Möglichkeit aus den Hauptlaufwegen herausgehalten und überall dort flach festgeklebt, wo sie doch einen kreuzen. Das ist einer der 2 echten Gründe für die Zeile "ästhetische Verkabelung" in unseren Paketen, neben dem Aussehen des Aufbaus auf Fotos. Siehe oben [Was ästhetische Verkabelung wirklich bedeutet](#was-ästhetische-verkabelung-wirklich-bedeutet).
+
+### Wie führen Sie Kabel an einem Ort im Freien wie einer Villa oder einem Beachclub?
+
+Mit denselben Gewohnheiten der Führung und Sicherung, angepasst an den Bodenbelag des Ortes, Gras, Sand oder Terrassenplatten. Unser Ratgeber zur [AV-Vermietung für Veranstaltungen im Freien](/blog/audio-visual-rental-for-outdoor-events/) behandelt Bodenbeschaffenheit und Stromplanung im Freien ausführlich. Siehe oben [Kabelmanagement im Freien](#kabelmanagement-im-freien).
+
+### Wie lang ist die längste Kabelstrecke, die MEG aufbauen kann?
+
+Das hängt vom Kabeltyp ab. Unser Bestand führt VGA bis zu 42 Metern, Video bis zu 30 Metern, Lautsprecherkabel bis zu 25 Metern sowie Mikrofon- und Stromverlängerungskabel bis zu je 20 Metern. Siehe oben [Wie weit können wir ein Kabel verlegen?](#wie-weit-können-wir-ein-kabel-verlegen) für die vollständige Aufschlüsselung.
+
+### Sieht man die Kabel auf meinen Hochzeits- oder Veranstaltungsfotos?
+
+Wir führen die Kabel gezielt so, dass das möglichst nicht passiert, an Wänden und Fußbodenkanten entlang statt durch offene Sichtachsen, aber wir behaupten nicht, dass Kabel jemals völlig unsichtbar sind, sondern nur, dass sie so weit aus dem Weg gehalten werden, wie es die Raumaufteilung erlaubt. Siehe oben [Was ästhetische Verkabelung wirklich bedeutet](#was-ästhetische-verkabelung-wirklich-bedeutet).
+
+### Vergraben Sie Kabel oder nutzen Sie Kabelbrücken für stark begangene Bereiche?
+
+Nicht mit unserem eigenen Team oder unserem eigenen Bestand. Wir heben keine Kabelgräben aus und vergraben keine Kabelstrecken, denn das ist dauerhafte Installationsarbeit außerhalb unseres reinen Liefermodells, und in unserem eigenen Bestand gibt es keine benannte Kabelbrücke und keinen Kabelkanal. Stattdessen führen wir die Kabel und kleben sie flach an Wänden und Fußbodenkanten entlang fest. Siehe oben [Was wir nicht vorrätig haben und nicht installieren](#was-wir-nicht-vorrätig-haben-und-nicht-installieren).
+
+### Beeinflusst das Wetter, wie Kabel im Freien geführt werden?
+
+Ja, auf dieselbe Weise, wie es den Rest eines Aufbaus im Freien beeinflusst. Unser Ratgeber zu den [Wetterbedingungen bei Vermietungen im Freien](/blog/weather-considerations-for-outdoor-rentals/) behandelt ausführlich, wie wir darum herum planen, statt es hier zu wiederholen.
+
+### Was passiert, wenn ein Kabel im Weg liegt oder sich während meiner Veranstaltung löst?
+
+Bei einem Paket, das Sie selbst betreiben, ohne Techniker vor Ort ist ein Kabel, das beim Verschieben eines Tisches oder Stativs herausgezogen wird, eine der häufigsten Ursachen für ein plötzliches Ton- oder Verbindungsproblem. Unser Ratgeber zur Fehlersuche bei AV-Systemen erklärt, was Sie selbst prüfen können, wenn das mitten in der Veranstaltung passiert.
+
+### Ist das Kabelmanagement bei einer kleinen Feier anders als bei einer großen Firmenveranstaltung?
+
+Die Gewohnheiten sind dieselben, aber der Umfang ändert, was es zu führen gibt. Das [Eco Pack](/packages/eco/) hat 2 Lautsprecher und 2 Lichtleisten, um die herum die Kabel zu führen sind. Die Katalogbeschreibung des [MICE Pack](/packages/mice/) nennt ausdrücklich eine "maßgeschneiderte Verkabelung", weil ein 60-Zoll-Display, zwei Mikrofone und eine längere Veranstaltung mit einem Techniker vor Ort, der die Kabel die ganze Zeit betreut, eine wirklich aufwendigere Aufgabe ist als der Aufbau einer kleinen Feier. Siehe oben [Ist Kabelmanagement in jedem Paket enthalten?](#ist-kabelmanagement-in-jedem-paket-enthalten).

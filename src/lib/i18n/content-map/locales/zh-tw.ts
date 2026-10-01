@@ -347,6 +347,11 @@ export default {
 			keyword: '馬拉加 活動影音租賃諮詢',
 			status: 'propuesta'
 		},
+		'av-cable-management': {
+			slug: '影音線材管理',
+			keyword: '馬拉加 影音線材管理',
+			status: 'propuesta'
+		},
 		'benefits-of-audio-visual-rental': {
 			slug: '影音租賃的好處',
 			keyword: '馬拉加 影音租賃的好處',
