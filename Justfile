@@ -102,6 +102,30 @@ post-touch slug:
 post-images *ARGS:
     bun scripts/post-images.ts {{ARGS}}
 
+# Tras editar un post en ingles: post-touch, regenera post-faqs.json y post-toc.json y lista las traducciones por actualizar
+post-sync slug:
+    bun scripts/translate/sync.ts {{slug}}
+
+# Imprime el brief del traductor de un post (base + special/<slug>.md + cola). Acepta --out <ruta>
+post-translate-brief slug *args:
+    bun scripts/translate/mkbrief.ts {{slug}} {{args}}
+
+# Revisa las 12 traducciones de un post contra el ingles. Acepta --post-build, --strict y --locale fr,de
+post-translate-check slug *args:
+    bun scripts/translate/check.ts {{slug}} {{args}}
+
+# Cierra la traduccion de un post: checks, tests, build, sitemaps y commit LOCAL (nunca hace push). Acepta --no-commit
+post-translate-finish slug *args:
+    bun scripts/translate/finish.ts {{slug}} {{args}}
+
+# Lista que traducciones de posts faltan o estan desactualizadas. Acepta --json
+post-translations-status *args:
+    bun scripts/translate/status.ts {{args}}
+
+# Agrega las entradas del content map de un post en los 12 idiomas: just post-translate-map <slug> --map <json>
+post-translate-map slug *args:
+    bun scripts/translate/add-content-map.ts {{slug}} {{args}}
+
 # Migración WP → mdsvex en modo DRY-RUN (solo lectura — no escribe archivos ni sube a R2)
 migrate-wp-dry-run:
     bun scripts/migrate-wp/index.ts --dry-run
