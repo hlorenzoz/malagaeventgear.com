@@ -82,6 +82,11 @@ export default {
 			keyword: 'leje videoswitcher i Malaga',
 			status: 'propuesta'
 		},
+		'audio-system-calibration': {
+			slug: 'kalibrering-lydanlaeg',
+			keyword: 'kalibrering af lydanlæg i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'av-udlejning-malaga',
 			keyword: 'AV-udlejning Malaga',

@@ -1,0 +1,186 @@
+---
+title: "Kalibratie van een geluidssysteem in Malaga, Spanje"
+description: "Kalibratie van een geluidssysteem in Malaga, Spanje: gain staging uitgelegd, waarom elke locatie eigen instellingen vraagt en echte mengpanelen tot Midas M32R."
+excerpt: "Kalibratie van een geluidssysteem in Malaga: wat het echt is, gain staging in gewone taal, waarom dezelfde luidsprekers en hetzelfde mengpaneel op elke locatie anders worden ingesteld en welke echte mengpanelen ons team gebruikt om te kalibreren, van een Soundcraft met 6 kanalen tot een digitaal Midas M32R Live."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Wie in het Engels zoekt op "audio system calibration", krijgt vooral twee soorten resultaten die niet passen bij een evenementboeking: homecinemagidsen over software voor ruimtecorrectie, of technische uitleg voor installateurs die een vast systeem in een gebouw aanleggen. Geen van beide beantwoordt de vraag achter een huurboeking: wat betekent de kalibratie van een geluidssysteem in Malaga, Spanje, voor één enkel evenement, en waarom kunnen dezelfde luidsprekers en hetzelfde mengpaneel van de ene locatie naar de andere een andere instelling nodig hebben?
+
+Onze gids over [technische ondersteuning bij evenementen](/blog/technical-support-for-events/#before-your-event-starts-calibration-and-testing) noemt kalibratie al als de eerste fase die ons team uitvoert voordat je gasten aankomen, in één kort stukje. Deze pagina is de diepere versie van dat stukje: wat de kalibratie van een geluidssysteem in Malaga echt is, waarom ze per locatie verandert en welke echte mengpanelen ons team daarvoor inzet.
+
+[Boek nu](/packages/) en bevestig welk pakket bij je evenement past, we passen dezelfde echte apparatuur er in beide gevallen op aan.
+
+## Inhoudsopgave
+
+-   [In het kort](#in-het-kort)
+-   [Belangrijkste punten](#belangrijkste-punten)
+-   [Wat de kalibratie van een geluidssysteem echt betekent](#wat-de-kalibratie-van-een-geluidssysteem-echt-betekent)
+-   [Gain staging in gewone taal](#gain-staging-in-gewone-taal)
+-   [Waarom elke locatie een andere kalibratie vraagt](#waarom-elke-locatie-een-andere-kalibratie-vraagt)
+-   [Binnen, buiten en aantal gasten: wat er echt verandert](#binnen-buiten-en-aantal-gasten-wat-er-echt-verandert)
+-   [Dezelfde echte apparatuur, gekalibreerd op schaal: ons aanbod aan mengpanelen](#dezelfde-echte-apparatuur-gekalibreerd-op-schaal-ons-aanbod-aan-mengpanelen)
+-   [Het Midas M32R Live en de MD16: kalibratie op grotere locaties](#het-midas-m32r-live-en-de-md16-kalibratie-op-grotere-locaties)
+-   [Kalibratie in de praktijk: het project voor Bmotion in Marbella](#kalibratie-in-de-praktijk-het-project-voor-bmotion-in-marbella)
+-   [Echte opstellingen die we hebben geleverd](#echte-opstellingen-die-we-hebben-geleverd)
+-   [Hoe ver van tevoren boeken](#hoe-ver-van-tevoren-boeken)
+-   [Conclusie](#conclusie)
+-   [Veelgestelde vragen](#veelgestelde-vragen)
+    -   [Wat is de kalibratie van een geluidssysteem, in gewone taal?](#wat-is-de-kalibratie-van-een-geluidssysteem-in-gewone-taal)
+    -   [Wat is gain staging, en waarom is het belangrijk?](#wat-is-gain-staging-en-waarom-is-het-belangrijk)
+    -   [Waarom heeft dezelfde apparatuur op verschillende locaties een andere kalibratie nodig?](#waarom-heeft-dezelfde-apparatuur-op-verschillende-locaties-een-andere-kalibratie-nodig)
+    -   [Wordt een buitenlocatie anders gekalibreerd dan een binnenlocatie?](#wordt-een-buitenlocatie-anders-gekalibreerd-dan-een-binnenlocatie)
+    -   [Beïnvloedt het aantal gasten de kalibratie, en zo ja, hoe?](#beïnvloedt-het-aantal-gasten-de-kalibratie-en-zo-ja-hoe)
+    -   [Welk mengpaneel gebruikt MEG voor de kalibratie, en hangt dat af van het pakket?](#welk-mengpaneel-gebruikt-meg-voor-de-kalibratie-en-hangt-dat-af-van-het-pakket)
+    -   [Wat zijn het Midas M32R Live en de stagebox MD16, en wanneer gebruikt MEG ze?](#wat-zijn-het-midas-m32r-live-en-de-stagebox-md16-en-wanneer-gebruikt-meg-ze)
+    -   [Hoort er ook video of schermopstelling bij de kalibratie?](#hoort-er-ook-video-of-schermopstelling-bij-de-kalibratie)
+    -   [Wordt er één keer gekalibreerd, of verandert het tijdens het evenement?](#wordt-er-één-keer-gekalibreerd-of-verandert-het-tijdens-het-evenement)
+    -   [Moet ik erbij zijn terwijl mijn apparatuur wordt gekalibreerd?](#moet-ik-erbij-zijn-terwijl-mijn-apparatuur-wordt-gekalibreerd)
+    -   [Hoe lang voor de start van mijn evenement vindt de kalibratie plaats?](#hoe-lang-voor-de-start-van-mijn-evenement-vindt-de-kalibratie-plaats)
+
+## In het kort
+
+---
+
+Kalibratie van een geluidssysteem betekent bij Malaga Event Gear dat we elke microfoon en elke luidspreker instellen op de ruimte waarin ze echt staan, en niet alleen de apparatuur aansluiten en aanzetten. Dezelfde geluidsinstallatie en hetzelfde mengpaneel klinken anders in een zaal binnen met een laag plafond dan in een open tuin, en weer anders zodra een ruimte vol zit met gasten. Daarom voert ons team de kalibratie bij elke boeking uit, zodat de apparatuur past bij precies die locatie.
+
+Deze gids loopt door wat kalibratie echt inhoudt, gain staging in gewone taal en waarom de akoestiek van de ruimte, binnen of buiten en het aantal gasten allemaal veranderen wat een goede kalibratie is. Ook komen de echte mengpanelen aan bod waarmee ons team kalibreert, van een instapmodel met 6 kanalen tot een digitaal Midas M32R Live dat de meeste gasten nooit zien. [Neem contact met ons op](/contact/) als je wilt weten hoe dat er voor jouw locatie uitziet.
+
+## Belangrijkste punten
+
+---
+
+-   Kalibratie is geen algemene checklist. Het is gain staging op elke microfoon, de plaatsing van de luidsprekers en de instellingen van het mengpaneel, alles afgestemd op de specifieke ruimte, en geen vaste instelling die we naar elk evenement meenemen.
+
+-   Gain staging, het goed instellen van het niveau van elke ingang direct bij de bron, moet op elke locatie opnieuw gebeuren, omdat de microfoons, de afstanden en de ruimte zelf veranderen.
+
+-   De akoestiek van de ruimte, binnen of buiten en het aantal gasten veranderen allemaal wat een goede kalibratie betekent voor identieke apparatuur. Een volle zaal absorbeert geluid anders dan dezelfde zaal leeg tijdens de opbouw.
+
+-   Ons aanbod aan mengpanelen schaalt mee met het evenement: een Soundcraft EPM-6 met 6 kanalen voor kleinere boekingen, een Mackie Onyx 1640 met 16 kanalen voor middelgrote bedrijfsevenementen en een Midas M32R Live met een digitale stagebox MD16 op grotere locaties.
+
+-   Deze pagina gaat strikt over audiokalibratie. Het schakelen tussen schermen en presentaties is een apart onderwerp, dat volledig aan bod komt in onze gids over [videoswitcher huren](/blog/video-switcher-rental/).
+
+## Wat de kalibratie van een geluidssysteem echt betekent
+
+Kalibratie is het werk dat ons team doet tussen aankomst op je locatie en het moment dat je eerste gast binnenkomt: het ingangsniveau van elke microfoon instellen, de plaatsing van de luidsprekers afstemmen op de vorm van de ruimte en het mengpaneel zo instellen dat het hele systeem op een niveau staat dat in die specifieke ruimte goed klinkt, niet zo zacht dat je het op de achterste rij niet hoort, en niet zo luid dat het vervormt of vooraan gaat rondzingen. Het is niet één instelling die vooraf wordt gemaakt en ongewijzigd naar elk evenement wordt meegenomen. Het mengpaneel van het Product Presentation Pack wordt bijvoorbeeld anders ingesteld voor de showroom van een kleine autodealer dan voor een grotere congreszaal, ook al is het fysieke apparaat identiek.
+
+De reden dat kalibratie niet kan worden overgeslagen of gestandaardiseerd is simpel: het niveau van een luidspreker en de gain van een microfoon klinken alleen goed ten opzichte van de ruimte waarin ze staan. Verplaats exact dezelfde apparatuur naar een andere ruimte, en wat goed was wordt te zwak of te heet. Kalibratie is het proces om telkens opnieuw het goede niveau te vinden.
+
+## Gain staging in gewone taal
+
+Gain staging is het deel van kalibratie waarvan de meeste organisatoren de naam nog nooit hebben gehoord, terwijl het de belangrijkste factor is voor de vraag of een microfoon schoon klinkt of niet. Elke microfoon en elke audio-ingang heeft een niveau, de gain, dat direct bij de bron wordt ingesteld, voordat het signaal het hoofdvolume van het mengpaneel of de luidsprekers bereikt.
+
+Staat die gain te laag, dan klinkt de microfoon zwak en veraf, waardoor het totale volume van het paneel omhoog moet om dat te compenseren, wat ook alle achtergrondruis en ruimtegeluid samen met de stem omhoogtrekt. Staat hij te hoog, dan vervormt het signaal, een hard, krakend geluid dat clipping heet, zodra de spreker zijn stem verheft of dichter bij de microfoon komt. Goede gain staging zit daartussen: luid genoeg om aanwezig te klinken, zonder het signaal ooit in vervorming te duwen.
+
+<InlineCTA />
+
+Gain staging moet bij elk evenement opnieuw gebeuren, omdat de omstandigheden echt veranderen. Een bedrade microfoon op het spreekgestoelte in een stille vergaderruimte pikt bijna alleen de stem van de spreker op, dus de gain kan prettig hoog staan. Hetzelfde type microfoon op een buitenpodium, verder van de mond van de spreker en in concurrentie met omgevingsgeluid, vraagt een heel andere instelling. Een draadloze handmicrofoon die onder bruiloftsgasten rondgaat, verandert voortdurend van afstand, daarom stelt ons team de gain in met speelruimte (headroom), in plaats van hem krap af te stellen op één vaste positie. Niets hiervan is gokwerk, het is de reden dat ons team aankomt en test voordat je evenement begint, in plaats van te vertrouwen op een instelling van de vorige boeking.
+
+## Waarom elke locatie een andere kalibratie vraagt
+
+De akoestiek van een ruimte verandert hoe een goede kalibratie eruitziet, ook als de apparatuur gelijk blijft. Een ruimte met een laag plafond en harde oppervlakken, tegelvloeren, glazen wanden, kale steen, kaatst geluid snel terug de ruimte in. Die reflecties bereiken een microfoon bijna net zo snel als het directe geluid van een luidspreker, wat de kans op rondzingen vergroot, de aanzwellende gierende toon die een microfoon maakt als hij zijn eigen versterkte geluid oppikt. In zo'n ruimte zet ons team de gain lager en richt het de luidsprekers zorgvuldiger dan in een hogere ruimte met zachte inrichting, tapijt, gordijnen, een volledige set gestoffeerde stoelen, die geluid absorberen in plaats van terug te kaatsen.
+
+De hoogte van het plafond speelt om dezelfde reden mee. Een hoog, open plafond geeft het geluid ruimte om uit te doven in plaats van recht terug te kaatsen naar de zitplaatsen, dus hetzelfde luidsprekerniveau dat in een lage congreszaal problemen zou geven, kan in een hogere zaal prima staan. Niets hiervan zie je aan de apparatuurlijst. Je ziet het alleen door in de echte ruimte te staan.
+
+## Binnen, buiten en aantal gasten: wat er echt verandert
+
+Buitenlocaties nemen de reflecties weg waarmee kalibratie binnen rekening houdt en vervangen ze door een ander probleem: open lucht en wind voeren het geluid weg in plaats van het terug te sturen. Er zijn geen wanden die het vermogen van een luidspreker versterken, daarom plaatst ons team de luidsprekers dichter bij het publiek en werkt het voor dezelfde dekking vaak met een hogere gain dan een vergelijkbare opstelling binnen nodig zou hebben, omdat er geen teruggekaatst geluid is dat de gaten tussen de luidsprekerposities opvult. De omslagfoto van deze pagina, een buitenopstelling voor de conferentie van High Care International Hospital in Marbella, is het soort locatie waarvoor dit geldt: zonder wanden die het geluid terugsturen, hoort de plaats van de luidsprekers ten opzichte van het publiek bij de kalibratie.
+
+Het aantal gasten verandert de kalibratie op een manier die makkelijk helemaal wordt gemist: een zaal vol mensen, met hun lichamen en kleding, absorbeert geluid anders dan dezelfde zaal leeg tijdens de opbouw. Dat is een echt, fysiek verschil en geen afrondingsfout, en daarom wordt een zaal het best getest vlak voor de deuren opengaan, in plaats van uren van tevoren gekalibreerd in een lege zaal in de veronderstelling dat het wel blijft kloppen als de gasten de stoelen vullen.
+
+## Dezelfde echte apparatuur, gekalibreerd op schaal: ons aanbod aan mengpanelen
+
+Het mengpaneel in het hart van de kalibratie is niet één vast apparaat, het schaalt mee met het evenement. Onze gids over [technische ondersteuning bij evenementen](/blog/technical-support-for-events/#real-equipment-real-troubleshooting-what-our-technicians-actually-fix) noemt al twee van deze panelen als de panelen die onze technici tijdens toespraken bedienen. Hier staat waar elk past.
+
+| Schaal van het evenement | Mengpaneel | Kanalen |
+| --- | --- | --- |
+| Kleinere boekingen met een mengpaneel, zoals het [Product Presentation Pack](/packages/product-presentation/) | Soundcraft EPM-6 | 6 |
+| Middelgrote bedrijfsevenementen, een persevenement, een lancering bij een autodealer of een [Basic MICE Pack](/packages/basic-mice/) met de technicus als optie | Mackie Onyx 1640 | 16 |
+| Grotere locaties, tot de 120 gasten van het [MICE Pack](/packages/mice/) | Midas M32R Live + digitale stagebox MD16 | Zie hieronder |
+
+Het is goed om hier nauwkeurig te zijn: aan de kleinere kant van ons aanbod is een mengpaneel niet altijd onderdeel van het geheel. Het [Eco Pack](/packages/eco/) werkt rechtstreeks op twee actieve luidsprekers, zonder mengpaneel ertussen. De EPM-6 komt in beeld zodra de eigen apparatuur van een boeking een paneel bevat dat gekalibreerd moet worden.
+
+## Het Midas M32R Live en de MD16: kalibratie op grotere locaties
+
+Onze grootste combinatie is een digitaal Midas M32R Live mengpaneel met een digitale stagebox MD16, beide bevestigd in onze eigen apparatuurvoorraad. Dit is de opstelling waar ons team naar grijpt op grotere locaties, de schaal die een boeking van het [MICE Pack](/packages/mice/) met maximaal 120 gasten echt nodig heeft.
+
+Wat de MD16 het uitleggen waard maakt in plaats van alleen noemen, is wat hij anders doet dan een standaard opstelling met een paneel. Bij een kleinere boeking loopt elke microfoonkabel afzonderlijk, in een bundel, helemaal van het podium naar de plek waar het paneel staat. Op een grotere locatie kan dat een lange sliert kabels betekenen die over de vloer kronkelt of langs een muur is vastgeplakt. De MD16 verandert dat: het is een losse stagebox die vlak bij de microfoons zelf staat, op of dicht bij het podium, en elk signaal daar ter plekke omzet naar digitaal. Eén enkele kabel brengt al die kanalen dan terug naar het M32R Live paneel, waar ons team dat ook in de ruimte neerzet, in plaats van een lange bundel losse microfoonkabels die dezelfde reis maakt.
+
+Dat is voor de kalibratie op twee concrete manieren belangrijk. Ten eerste houdt het omzetten van het signaal van elke microfoon dicht bij de bron, met de voorversterkers in de stagebox in plaats van bij het paneel, het signaal schoon over een langere fysieke afstand, omdat het niet de hele weg reist als analoog signaal met laag niveau dat storing opvangt. Ten tweede geeft het ons team in een grotere ruimte echte controle kanaal voor kanaal: elke microfoon wordt afzonderlijk gevormd, in plaats van dat algemene toonaanpassingen worden gedeeld over gegroepeerde ingangen, zoals een kleiner analoog paneel als de EPM-6 moet doen. In een ruimte voor 120 gasten is die individuele controle precies waar kalibratie per locatie, het onderwerp van deze pagina, van afhangt.
+
+## Kalibratie in de praktijk: het project voor Bmotion in Marbella
+
+Twee dagen lang in mei 2026 verzorgde ons team transport, opbouw en kalibratie voor een bedrijfsproject met het bureau [Bmotion](https://www.bmotionav.com/) in Marbella. Ons eigen verslag van dat project beschrijft hoe het team uitgebreid audio afstemde en beeldsignalen testte voordat de eerste gast de zaal binnenkwam, juist om mogelijke akoestische reflecties en storingen op te sporen voordat er iemand was om ze op te merken. Lees het volledige verslag in ons bericht over [Bmotion in Marbella](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/).
+
+Ook hier een kanttekening: dat verslag noemt ook de "kalibratie van de geluids- en videonetwerken vóór het evenement". Deze pagina gaat strikt over de audiohelft van datzelfde project, gain staging en het afstemmen van luidsprekers op de eigen akoestiek van de ruimte, niet over de video- of schermkant. Het schakelen tussen bronnen voor schermen en presentaties komt aan bod in onze gids over [videoswitcher huren](/blog/video-switcher-rental/). Zie hieronder [Hoort er ook video of schermopstelling bij de kalibratie](#hoort-er-ook-video-of-schermopstelling-bij-de-kalibratie) voor de duidelijke scheiding.
+
+## Echte opstellingen die we hebben geleverd
+
+![Huur van geluid en monitor-tv voor een conferentie van High Care International Hospital in Marbella.](https://cdn.malagaeventgear.com/blog/1278/high_care_hospital_marbella_conference_setup-scaled.webp "Een geluidssysteem en een monitor opgesteld voor de conferentie van High Care International Hospital in Marbella.")
+
+Een geluidssysteem en een monitor opgesteld voor de conferentie van High Care International Hospital in Marbella, dezelfde conferentie als op de omslagfoto van deze pagina.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1278/', '/1279/'])} speed="normal" direction="left" />
+</div>
+
+## Hoe ver van tevoren boeken
+
+Voor al onze boekingen geldt een termijn van minimaal 24 uur, en kalibratie hoort bij elke boeking, ongeacht het pakket. Grotere locaties waarvoor het Midas M32R Live en de stagebox MD16 nodig zijn, hebben baat bij meer voorbereidingstijd, niet omdat de kalibratie zelf langer duurt, maar omdat ons team door de plattegrond en het aantal gasten van een grotere ruimte vooraf te bevestigen de plaatsing van de luidsprekers en de kabelroutes kan plannen voordat het aankomt, in plaats van ter plekke te improviseren. De vraag naar onze zakelijke pakketten piekt in het congresseizoen en rond grote congressen aan de Costa del Sol, dus vroeg bevestigen is vooral belangrijk voor boekingen van het [MICE Pack](/packages/mice/).
+
+## Conclusie
+
+De kalibratie van een geluidssysteem bij Malaga Event Gear is geen vaste instelling, het is gain staging en luidsprekerplaatsing afgestemd op de ruimte waarin je evenement echt plaatsvindt, waarbij de akoestiek van de ruimte, binnen of buiten en het aantal gasten allemaal veranderen wat een goede kalibratie betekent voor identieke apparatuur. Ons aanbod aan mengpanelen schaalt daarmee mee, van de Soundcraft EPM-6 met 6 kanalen tot een Midas M32R Live met een digitale stagebox MD16 op grotere locaties. [Neem contact met ons op](/contact/) met je locatie en het aantal gasten, en we vertellen je eerlijk hoe kalibratie daar uitziet. Voor de versie fase voor fase van wat ons team ter plaatse doet, lees je onze gids over [technische ondersteuning bij evenementen](/blog/technical-support-for-events/). Voor ons volledige aanbod aan apparatuur zie je de gids over [audiovisuele verhuur in Malaga](/blog/audio-visual-rental/).
+
+## Veelgestelde vragen
+
+### Wat is de kalibratie van een geluidssysteem, in gewone taal?
+
+Elke microfoon en elke luidspreker instellen op de specifieke ruimte waarin je evenement plaatsvindt, in plaats van de apparatuur aan te sluiten en aan te zetten. Het omvat gain staging op elke ingang, de plaatsing van de luidsprekers en de instellingen van het mengpaneel, alles afgestemd op de akoestiek van die ruimte en geen vaste configuratie uit het vorige evenement. Zie hierboven [Wat de kalibratie van een geluidssysteem echt betekent](#wat-de-kalibratie-van-een-geluidssysteem-echt-betekent).
+
+### Wat is gain staging, en waarom is het belangrijk?
+
+Gain staging is het goed instellen van het ingangsniveau van elke microfoon direct bij de bron, voordat het het hoofdvolume van het mengpaneel bereikt. Te laag, en het signaal klinkt zwak en pikt achtergrondgeluid op zodra het volume omhoog moet om dat te compenseren. Te hoog, en het vervormt zodra een spreker zijn stem verheft. Zie hierboven [Gain staging in gewone taal](#gain-staging-in-gewone-taal).
+
+### Waarom heeft dezelfde apparatuur op verschillende locaties een andere kalibratie nodig?
+
+De akoestiek van een ruimte verandert hoe een goede kalibratie eruitziet, ook met identieke apparatuur. Een laag plafond en harde oppervlakken, tegels, glas, kale steen, kaatsen geluid snel terug en vergroten de kans op rondzingen, dus de gain staat lager en de hoeken van de luidsprekers worden zorgvuldiger ingesteld dan in een hogere ruimte met zachte, geluidabsorberende inrichting. Zie hierboven [Waarom elke locatie een andere kalibratie vraagt](#waarom-elke-locatie-een-andere-kalibratie-vraagt).
+
+### Wordt een buitenlocatie anders gekalibreerd dan een binnenlocatie?
+
+Ja. Buitenlocaties hebben geen wanden die het geluid terugkaatsen zoals binnenruimtes, dus de luidsprekers worden dichter bij het publiek geplaatst en de gain staat voor dezelfde dekking vaak hoger, omdat er geen teruggekaatst geluid is dat de gaten tussen de luidsprekerposities opvult. Zie hierboven [Binnen, buiten en aantal gasten](#binnen-buiten-en-aantal-gasten-wat-er-echt-verandert).
+
+### Beïnvloedt het aantal gasten de kalibratie, en zo ja, hoe?
+
+Ja. Een zaal vol gasten, met hun lichamen en kleding, absorbeert geluid anders dan dezelfde zaal leeg tijdens de opbouw. Daarom wordt een zaal het best getest vlak voor de deuren opengaan, in plaats van uren van tevoren gekalibreerd in een lege zaal. Zie hierboven [Binnen, buiten en aantal gasten](#binnen-buiten-en-aantal-gasten-wat-er-echt-verandert).
+
+### Welk mengpaneel gebruikt MEG voor de kalibratie, en hangt dat af van het pakket?
+
+Ja, het schaalt mee met de grootte van het evenement: een Soundcraft EPM-6 met 6 kanalen voor kleinere boekingen met een mengpaneel, zoals het [Product Presentation Pack](/packages/product-presentation/), een Mackie Onyx 1640 met 16 kanalen voor middelgrote bedrijfsevenementen en een Midas M32R Live met een digitale stagebox MD16 op grotere locaties, tot de 120 gasten van het [MICE Pack](/packages/mice/). Het [Eco Pack](/packages/eco/) zelf heeft helemaal geen mengpaneel. Zie hierboven [Dezelfde echte apparatuur, gekalibreerd op schaal](#dezelfde-echte-apparatuur-gekalibreerd-op-schaal-ons-aanbod-aan-mengpanelen).
+
+### Wat zijn het Midas M32R Live en de stagebox MD16, en wanneer gebruikt MEG ze?
+
+Het Midas M32R Live is ons digitale mengpaneel voor grotere locaties, gecombineerd met een MD16, een losse stagebox die elke microfoon direct op het podium naar digitaal omzet en alle kanalen via één enkele kabel terugbrengt naar het paneel, in plaats van een lange bundel losse microfoonkabels. We gebruiken deze combinatie bij grotere boekingen, de schaal die ons [MICE Pack](/packages/mice/) bedient tot 120 gasten. Zie hierboven [Het Midas M32R Live en de MD16](#het-midas-m32r-live-en-de-md16-kalibratie-op-grotere-locaties).
+
+### Hoort er ook video of schermopstelling bij de kalibratie?
+
+Nee, niet op deze pagina. Audiokalibratie, gain staging en het afstemmen van luidsprekers, is een apart proces van het schakelen tussen bronnen voor schermen en presentaties, dat onze [Kramer VP-731](/blog/video-switcher-rental/) verzorgt. Camera's, filmen en livestreamen zitten ook niet in onze eigen voorraad. Zie hierboven [Kalibratie in de praktijk](#kalibratie-in-de-praktijk-het-project-voor-bmotion-in-marbella).
+
+### Wordt er één keer gekalibreerd, of verandert het tijdens het evenement?
+
+De kalibratie zelf gebeurt één keer, voordat je gasten aankomen, en legt het uitgangspunt voor je evenement vast. Wat daarna kan veranderen, een kabel die losraakt of een gainfader die wordt aangeraakt, is een aparte vraag bij de pakketten die je zelf bedient, waar niemand de niveaus in de gaten houdt. Bij pakketten met een technicus blijft de live monitoring bijsturen vanaf dat gekalibreerde uitgangspunt terwijl je evenement loopt.
+
+### Moet ik erbij zijn terwijl mijn apparatuur wordt gekalibreerd?
+
+Nee. Ons team kalibreert elke boeking voordat jij of je gasten aankomen, als onderdeel van het leveren, opbouwen en testen bij elk pakket. Je hoeft er niet bij te zijn, maar je bent welkom als je agenda dat toelaat.
+
+### Hoe lang voor de start van mijn evenement vindt de kalibratie plaats?
+
+Ons team komt aan en kalibreert voor je eerste gast. Het best kan de kalibratie vlak voor het opengaan van de deuren plaatsvinden, zodat het aantal gasten en de absorptie van de zaal zijn meegenomen, en niet uren eerder als de zaal nog leeg is. Zie hierboven [Binnen, buiten en aantal gasten](#binnen-buiten-en-aantal-gasten-wat-er-echt-verandert) en [Hoe ver van tevoren boeken](#hoe-ver-van-tevoren-boeken) voor wat dat betekent voor de boekingstermijn.

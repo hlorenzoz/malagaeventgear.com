@@ -1,0 +1,186 @@
+---
+title: "Kalibrierung der Tonanlage in Malaga, Spanien"
+description: "Kalibrierung der Tonanlage in Malaga, Spanien: Gain Staging erklärt, warum jeder Ort andere Einstellungen braucht, und echte Mischpulte bis zum Midas M32R."
+excerpt: "Kalibrierung der Tonanlage in Malaga: was das wirklich ist, Gain Staging in einfachen Worten, warum dieselben Lautsprecher und dasselbe Mischpult an jedem Veranstaltungsort anders eingestellt werden und mit welchen echten Mischpulten unser Team kalibriert, vom Soundcraft mit 6 Kanälen bis zum digitalen Midas M32R Live."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Wer auf Englisch nach "audio system calibration" sucht, findet vor allem zwei Arten von Inhalten, die nicht zu einer Veranstaltungsbuchung passen: Heimkino-Anleitungen zu Software für die Raumkorrektur oder technische Erklärtexte für Installateure, die eine feste Anlage in ein Gebäude einbauen. Keiner von beiden beantwortet die Frage hinter einer Miete: Was bedeutet die Kalibrierung der Tonanlage in Malaga, Spanien, für eine einzelne Veranstaltung, und warum können dieselben Lautsprecher und dasselbe Mischpult von einem Veranstaltungsort zum nächsten eine andere Einstellung brauchen?
+
+Unser Ratgeber zum [technischen Support für Veranstaltungen](/blog/technical-support-for-events/#before-your-event-starts-calibration-and-testing) nennt die Kalibrierung bereits als erste Phase, die unser Team vor dem Eintreffen Ihrer Gäste durchführt, in einem kurzen Absatz. Diese Seite ist die ausführlichere Fassung dieses Absatzes: was die Kalibrierung der Tonanlage in Malaga wirklich ist, warum sie sich von Ort zu Ort ändert und welche echten Mischpulte unser Team dafür einsetzt.
+
+[Jetzt buchen](/packages/) und bestätigen Sie, welches Paket zu Ihrer Veranstaltung passt, wir passen dieselbe echte Technik in jedem Fall daran an.
+
+## Inhaltsverzeichnis
+
+-   [Kurzüberblick](#kurzüberblick)
+-   [Das Wichtigste](#das-wichtigste)
+-   [Was die Kalibrierung einer Tonanlage wirklich bedeutet](#was-die-kalibrierung-einer-tonanlage-wirklich-bedeutet)
+-   [Gain Staging in einfachen Worten](#gain-staging-in-einfachen-worten)
+-   [Warum jeder Veranstaltungsort eine andere Kalibrierung braucht](#warum-jeder-veranstaltungsort-eine-andere-kalibrierung-braucht)
+-   [Drinnen, draußen und Gästezahl: was sich wirklich ändert](#drinnen-draußen-und-gästezahl-was-sich-wirklich-ändert)
+-   [Dieselbe echte Technik, nach Größe kalibriert: unsere Auswahl an Mischpulten](#dieselbe-echte-technik-nach-größe-kalibriert-unsere-auswahl-an-mischpulten)
+-   [Das Midas M32R Live und die MD16: Kalibrierung bei größeren Veranstaltungen](#das-midas-m32r-live-und-die-md16-kalibrierung-bei-größeren-veranstaltungen)
+-   [Kalibrierung im Einsatz: das Projekt für Bmotion in Marbella](#kalibrierung-im-einsatz-das-projekt-für-bmotion-in-marbella)
+-   [Echte Aufbauten, die wir geliefert haben](#echte-aufbauten-die-wir-geliefert-haben)
+-   [Wie weit im Voraus buchen](#wie-weit-im-voraus-buchen)
+-   [Fazit](#fazit)
+-   [Häufige Fragen](#häufige-fragen)
+    -   [Was ist die Kalibrierung einer Tonanlage, einfach erklärt?](#was-ist-die-kalibrierung-einer-tonanlage-einfach-erklärt)
+    -   [Was ist Gain Staging, und warum ist es wichtig?](#was-ist-gain-staging-und-warum-ist-es-wichtig)
+    -   [Warum braucht dieselbe Technik an verschiedenen Veranstaltungsorten eine andere Kalibrierung?](#warum-braucht-dieselbe-technik-an-verschiedenen-veranstaltungsorten-eine-andere-kalibrierung)
+    -   [Wird ein Veranstaltungsort im Freien anders kalibriert als einer drinnen?](#wird-ein-veranstaltungsort-im-freien-anders-kalibriert-als-einer-drinnen)
+    -   [Beeinflusst die Gästezahl die Kalibrierung, und wenn ja, wie?](#beeinflusst-die-gästezahl-die-kalibrierung-und-wenn-ja-wie)
+    -   [Welches Mischpult nutzt MEG für die Kalibrierung, und hängt das vom Paket ab?](#welches-mischpult-nutzt-meg-für-die-kalibrierung-und-hängt-das-vom-paket-ab)
+    -   [Was sind das Midas M32R Live und die Stagebox MD16, und wann setzt MEG sie ein?](#was-sind-das-midas-m32r-live-und-die-stagebox-md16-und-wann-setzt-meg-sie-ein)
+    -   [Gehört zur Kalibrierung auch die Video- oder Bildschirmeinrichtung?](#gehört-zur-kalibrierung-auch-die-video--oder-bildschirmeinrichtung)
+    -   [Wird die Kalibrierung einmal vorgenommen, oder ändert sie sich während der Veranstaltung?](#wird-die-kalibrierung-einmal-vorgenommen-oder-ändert-sie-sich-während-der-veranstaltung)
+    -   [Muss ich dabei sein, während meine Technik kalibriert wird?](#muss-ich-dabei-sein-während-meine-technik-kalibriert-wird)
+    -   [Wie lange vor Beginn meiner Veranstaltung findet die Kalibrierung statt?](#wie-lange-vor-beginn-meiner-veranstaltung-findet-die-kalibrierung-statt)
+
+## Kurzüberblick
+
+---
+
+Die Kalibrierung der Tonanlage bedeutet bei Malaga Event Gear, jedes Mikrofon und jeden Lautsprecher auf den Raum einzustellen, in dem sie tatsächlich stehen, und nicht einfach die Technik anzuschließen und einzuschalten. Dieselbe Beschallungsanlage und dasselbe Mischpult klingen in einem Saal mit niedriger Decke anders als in einem offenen Garten, und noch einmal anders, sobald sich der Raum mit Gästen füllt. Deshalb führt unser Team die Kalibrierung bei jeder einzelnen Buchung durch, damit die Technik zu genau diesem Veranstaltungsort passt.
+
+Dieser Ratgeber erklärt, was die Kalibrierung konkret umfasst, Gain Staging in einfachen Worten, warum Raumakustik, drinnen oder draußen und die Gästezahl alle verändern, wie eine richtige Kalibrierung aussieht und welche echten Mischpulte unser Team einsetzt, vom einfachen Pult mit 6 Kanälen bis zu einem digitalen Midas M32R Live, das die meisten Gäste nie zu Gesicht bekommen. [Kontaktieren Sie uns](/contact/), wenn Sie wissen möchten, wie das für Ihren Veranstaltungsort aussieht.
+
+## Das Wichtigste
+
+---
+
+-   Kalibrierung ist keine allgemeine Checkliste. Sie besteht aus Gain Staging an jedem Mikrofon, der Platzierung der Lautsprecher und den Einstellungen am Mischpult, alles abgestimmt auf den konkreten Raum, und ist keine feste Einstellung, die wir zu jeder Veranstaltung mitbringen.
+
+-   Das Gain Staging, also das richtige Einstellen des Pegels jedes Eingangs direkt an der Quelle, muss an jedem Veranstaltungsort neu gemacht werden, weil sich Mikrofone, Abstände und der Raum selbst ändern.
+
+-   Raumakustik, drinnen oder draußen und die Gästezahl verändern alle, was eine richtige Kalibrierung für identische Technik bedeutet. Ein voller Raum absorbiert Schall anders als derselbe leere Raum beim Aufbau.
+
+-   Unsere Auswahl an Mischpulten wächst mit der Veranstaltung: ein Soundcraft EPM-6 mit 6 Kanälen für kleinere Buchungen, ein Mackie Onyx 1640 mit 16 Kanälen für mittelgroße Firmenveranstaltungen und ein Midas M32R Live mit einer digitalen Stagebox MD16 an größeren Veranstaltungsorten.
+
+-   Diese Seite behandelt ausschließlich die Audiokalibrierung. Das Umschalten von Bildschirmen und Präsentationen ist ein eigenes Thema, das in unserem Ratgeber zur [Miete eines Videoumschalters](/blog/video-switcher-rental/) ausführlich behandelt wird.
+
+## Was die Kalibrierung einer Tonanlage wirklich bedeutet
+
+Die Kalibrierung ist die Arbeit, die unser Team zwischen dem Eintreffen an Ihrem Veranstaltungsort und dem ersten Gast erledigt: den Eingangspegel jedes Mikrofons einstellen, die Lautsprecherplatzierung an die Form des Raums anpassen und das Mischpult so einstellen, dass das ganze System in diesem konkreten Raum richtig klingt, weder zu leise, um in der letzten Reihe gehört zu werden, noch so laut, dass es verzerrt oder vorn eine Rückkopplung auslöst. Es ist keine einzelne Einstellung, die vorab festgelegt und unverändert zu jeder Veranstaltung mitgebracht wird. Das Mischpult des Product Presentation Pack wird zum Beispiel für den Showroom eines kleinen Autohauses anders eingestellt als für einen größeren Konferenzsaal, obwohl das Gerät dasselbe ist.
+
+Der Grund, warum sich die Kalibrierung weder überspringen noch standardisieren lässt, ist einfach: Der Pegel eines Lautsprechers und der Gain eines Mikrofons klingen nur im Verhältnis zum Raum richtig, in dem sie stehen. Stellen Sie genau dieselbe Technik in einen anderen Raum, und was richtig war, wird entweder zu schwach oder zu heiß. Die Kalibrierung ist der Vorgang, bei jeder Veranstaltung wieder das Richtige zu finden.
+
+## Gain Staging in einfachen Worten
+
+Gain Staging ist der Teil der Kalibrierung, den die meisten Gastgeber noch nie beim Namen gehört haben, obwohl er der wichtigste Faktor dafür ist, ob ein Mikrofon sauber klingt oder nicht. Jedes Mikrofon und jeder Audioeingang hat einen Pegel, den sogenannten Gain, der direkt an der Quelle eingestellt wird, noch bevor das Signal die Hauptlautstärke des Mischpults oder die Lautsprecher erreicht.
+
+Ist der Gain zu niedrig, klingt das Mikrofon schwach und weit weg, und die Gesamtlautstärke des Pults muss zum Ausgleich hochgedreht werden, wodurch auch Grundrauschen und Raumgeräusche zusammen mit der Stimme lauter werden. Ist er zu hoch, verzerrt das Signal, ein harter, knackender Klang, der Übersteuerung (Clipping) heißt, sobald der Redner die Stimme hebt oder näher ans Mikrofon tritt. Richtiges Gain Staging liegt dazwischen: laut genug, um präsent zu klingen, ohne das Signal je in die Verzerrung zu treiben.
+
+<InlineCTA />
+
+Das Gain Staging muss bei jeder Veranstaltung neu gemacht werden, weil sich die Bedingungen wirklich ändern. Ein kabelgebundenes Pultmikrofon in einem ruhigen Besprechungsraum nimmt fast nur die Stimme des Redners auf, deshalb kann sein Gain bequem hoch laufen. Dasselbe Mikrofon auf einer Bühne im Freien, weiter vom Mund des Redners entfernt und im Wettbewerb mit Umgebungsgeräuschen, braucht eine völlig andere Einstellung. Ein drahtloses Handmikrofon, das unter Hochzeitsgästen herumgereicht wird, wechselt ständig den Abstand, deshalb stellt unser Team seinen Gain mit einer Aussteuerungsreserve (Headroom) ein, statt ihn knapp auf eine feste Position abzustimmen. Nichts davon ist Raterei, es ist der Grund, warum unser Team vor Beginn Ihrer Veranstaltung eintrifft und testet, statt sich auf die Einstellung der letzten Buchung zu verlassen.
+
+## Warum jeder Veranstaltungsort eine andere Kalibrierung braucht
+
+Die Raumakustik verändert, wie eine richtige Kalibrierung aussieht, auch wenn die Technik gleich bleibt. Ein Raum mit niedriger Decke und harten Flächen, Fliesenböden, Glaswänden, nacktem Stein, wirft den Schall schnell in den Raum zurück. Diese Reflexionen erreichen ein Mikrofon fast so schnell wie der Direktschall eines Lautsprechers, was das Risiko einer Rückkopplung erhöht, des ansteigenden Pfeifens, das ein Mikrofon erzeugt, wenn es seinen eigenen verstärkten Klang aufnimmt. In einem solchen Raum stellt unser Team den Gain niedriger ein und richtet die Lautsprecher sorgfältiger aus als in einem höheren Raum mit weichen Einrichtungsgegenständen, Teppich, Vorhängen, einer vollen Bestuhlung mit Polstern, die den Schall aufnehmen, statt ihn zurückzuwerfen.
+
+Auch die Deckenhöhe spielt aus demselben Grund eine Rolle. Eine hohe, offene Decke gibt dem Schall Raum, sich zu verteilen, statt direkt zurück in den Zuschauerbereich zu reflektieren, sodass derselbe Lautsprecherpegel, der in einem niedrigen Konferenzraum Probleme machen würde, in einem höheren Saal bequem laufen kann. Nichts davon zeigt sich beim Blick auf die Technikliste. Es zeigt sich nur, wenn man im tatsächlichen Raum steht.
+
+## Drinnen, draußen und Gästezahl: was sich wirklich ändert
+
+Veranstaltungsorte im Freien nehmen die Reflexionen weg, die die Kalibrierung in Innenräumen berücksichtigt, und ersetzen sie durch ein anderes Problem: Freie Luft und Wind tragen den Schall davon, statt ihn zurückzuwerfen. Es gibt keine Wände, die die Leistung eines Lautsprechers verstärken, deshalb platziert unser Team die Lautsprecher näher am Publikum und fährt für dieselbe Abdeckung oft einen höheren Gain, als ein vergleichbarer Aufbau drinnen bräuchte, denn es gibt keinen reflektierten Schall, der die Lücken zwischen den Lautsprecherpositionen füllt. Das Titelfoto dieser Seite, ein Konferenzaufbau im Freien für die Konferenz des High Care International Hospital in Marbella, zeigt die Art von Veranstaltungsort, für die das gilt: Ohne Wände, die den Schall zurückgeben, gehört die Position der Lautsprecher im Verhältnis zum Publikum zur Kalibrierung.
+
+Die Gästezahl verändert die Kalibrierung auf eine Weise, die leicht ganz übersehen wird: Ein voller Raum, mit den Körpern und der Kleidung der Menschen, absorbiert Schall anders als derselbe Raum leer beim Aufbau. Das ist ein echter, physikalischer Unterschied und kein Rundungsfehler. Deshalb wird ein Raum am besten kurz vor der Türöffnung getestet, statt Stunden vorher in einem leeren Raum kalibriert zu werden, in der Annahme, dass die Einstellung hält, wenn die Gäste die Plätze füllen.
+
+## Dieselbe echte Technik, nach Größe kalibriert: unsere Auswahl an Mischpulten
+
+Das Mischpult im Zentrum der Kalibrierung ist kein einzelnes festes Gerät, es wächst mit der Veranstaltung. Unser Ratgeber zum [technischen Support für Veranstaltungen](/blog/technical-support-for-events/#real-equipment-real-troubleshooting-what-our-technicians-actually-fix) nennt bereits zwei dieser Pulte als die, die unsere Techniker bei Reden live fahren. Hier steht, wo welches passt.
+
+| Größe der Veranstaltung | Mischpult | Kanäle |
+| --- | --- | --- |
+| Kleinere Buchungen mit Mischpult, etwa das [Product Presentation Pack](/packages/product-presentation/) | Soundcraft EPM-6 | 6 |
+| Mittelgroße Firmenveranstaltungen, ein Pressetermin, eine Präsentation im Autohaus oder ein [Basic MICE Pack](/packages/basic-mice/) mit der Technikeroption | Mackie Onyx 1640 | 16 |
+| Größere Veranstaltungsorte, bis zu den 120 Gästen des [MICE Pack](/packages/mice/) | Midas M32R Live + digitale Stagebox MD16 | Siehe unten |
+
+Eine wichtige Klarstellung: Am kleineren Ende unseres Angebots gehört ein Mischpult nicht immer dazu. Das [Eco Pack](/packages/eco/) läuft direkt über zwei aktive Lautsprecher, ohne Mischpult dazwischen. Das EPM-6 kommt ins Spiel, sobald die eigene Technik einer Buchung ein Pult enthält, das kalibriert werden muss.
+
+## Das Midas M32R Live und die MD16: Kalibrierung bei größeren Veranstaltungen
+
+Unsere größte Pultkombination ist ein digitales Mischpult Midas M32R Live mit einer digitalen Stagebox MD16, beide in unserem eigenen Technikbestand bestätigt. Das ist der Aufbau, zu dem unser Team bei größeren Veranstaltungen greift, die Größenordnung, die eine Buchung des [MICE Pack](/packages/mice/) mit bis zu 120 Gästen tatsächlich braucht.
+
+Dass die MD16 eine Erklärung verdient und nicht nur eine Erwähnung, liegt daran, was sie anders macht als ein normaler Pultaufbau. Bei einer kleineren Buchung läuft jedes Mikrofonkabel einzeln, im Bündel, den ganzen Weg von der Bühne bis dorthin, wo das Pult steht. Bei einem größeren Veranstaltungsort kann das einen langen Strang aus Kabeln bedeuten, der sich über den Boden schlängelt oder an einer Wand festgeklebt ist. Die MD16 ändert das: Sie ist eine abgesetzte Stagebox, die nahe an den Mikrofonen selbst steht, auf oder neben der Bühne, und jedes Signal direkt dort in ein digitales umwandelt. Ein einziges Kabel bringt dann alle diese Kanäle zum M32R Live zurück, wo auch immer unser Team das Pult im Raum aufstellt, statt eines langen Bündels einzelner Mikrofonkabel auf demselben Weg.
+
+Für die Kalibrierung ist das auf zwei konkrete Arten wichtig. Erstens hält die Umwandlung jedes Mikrofonsignals nahe an der Quelle, mit den Vorverstärkern in der Stagebox statt am Pult, das Signal über eine längere Strecke sauber, denn es wandert nicht die ganze Zeit als analoges Signal mit niedrigem Pegel, das Störungen aufnimmt. Zweitens gibt es unserem Team in einem größeren Raum echte Kontrolle Kanal für Kanal: Jedes Mikrofon wird einzeln geformt, statt dass grobe Klangkorrekturen auf gruppierte Eingänge verteilt werden, wie es ein kleineres analoges Pult wie das EPM-6 tun muss. In einem Raum für 120 Gäste ist genau diese individuelle Kontrolle das, wovon die Kalibrierung für jeden Veranstaltungsort abhängt, das eigentliche Thema dieser Seite.
+
+## Kalibrierung im Einsatz: das Projekt für Bmotion in Marbella
+
+An zwei Tagen im Mai 2026 übernahm unser Team Transport, Aufbau und Kalibrierung für ein Firmenprojekt mit der Agentur [Bmotion](https://www.bmotionav.com/) in Marbella. Unser eigener Bericht über das Projekt beschreibt, wie das Team vor dem Eintreffen des ersten Gasts im Raum umfangreiche Audioabstimmung und Tests der Bildsignale durchführte, gezielt um mögliche akustische Reflexionen und Störungen zu finden, bevor jemand anwesend war, der sie bemerken konnte. Den ganzen Bericht lesen Sie in unserer Meldung zu [Bmotion in Marbella](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/).
+
+Auch hier eine Klarstellung: Dieser Bericht erwähnt außerdem die "Kalibrierung der Ton- und Videonetzwerke vor der Veranstaltung". Diese Seite behandelt ausschließlich die Audiohälfte desselben Projekts, Gain Staging und Lautsprecherabstimmung gegen die Eigenakustik des Raums, nicht die Video- oder Bildschirmseite. Das Umschalten der Quellen für Bildschirme und Präsentationen wird in unserem Ratgeber zur [Miete eines Videoumschalters](/blog/video-switcher-rental/) behandelt. Siehe unten [Gehört zur Kalibrierung auch die Video- oder Bildschirmeinrichtung](#gehört-zur-kalibrierung-auch-die-video--oder-bildschirmeinrichtung) für die klare Trennung.
+
+## Echte Aufbauten, die wir geliefert haben
+
+![Vermietung von Ton und Monitor-TV für eine Konferenz des High Care International Hospital in Marbella.](https://cdn.malagaeventgear.com/blog/1278/high_care_hospital_marbella_conference_setup-scaled.webp "Eine Tonanlage und ein Monitor, aufgebaut für die Konferenz des High Care International Hospital in Marbella.")
+
+Eine Tonanlage und ein Monitor, aufgebaut für die Konferenz des High Care International Hospital in Marbella, dieselbe Konferenz wie auf dem Titelbild dieser Seite.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1278/', '/1279/'])} speed="normal" direction="left" />
+</div>
+
+## Wie weit im Voraus buchen
+
+Für alle unsere Buchungen gilt eine Vorlaufzeit von mindestens 24 Stunden, und die Kalibrierung gehört zu jeder einzelnen, unabhängig vom Paket. Größere Veranstaltungsorte, für die das Midas M32R Live und die Stagebox MD16 gebraucht werden, profitieren von mehr Vorlauf, nicht weil die Kalibrierung selbst länger dauert, sondern weil unser Team, wenn Raumplan und Gästezahl eines größeren Raums vorab feststehen, die Lautsprecherplatzierung und die Kabelwege vor der Ankunft planen kann, statt vor Ort zu improvisieren. Die Nachfrage nach unseren Firmenpaketen erreicht ihren Höhepunkt in der Konferenzsaison und rund um große Kongresse an der Costa del Sol, deshalb zählt frühes Bestätigen vor allem bei Buchungen des [MICE Pack](/packages/mice/).
+
+## Fazit
+
+Die Kalibrierung der Tonanlage bei Malaga Event Gear ist keine feste Einstellung, sondern Gain Staging und Lautsprecherplatzierung, abgestimmt auf den Raum, in dem Ihre Veranstaltung wirklich stattfindet. Raumakustik, drinnen oder draußen und Gästezahl verändern alle, was eine richtige Kalibrierung für identische Technik bedeutet. Unsere Auswahl an Mischpulten wächst damit, vom Soundcraft EPM-6 mit 6 Kanälen bis zu einem Midas M32R Live mit einer digitalen Stagebox MD16 an größeren Veranstaltungsorten. [Kontaktieren Sie uns](/contact/) mit Ihrem Veranstaltungsort und Ihrer Gästezahl, und wir sagen Ihnen ehrlich, wie die Kalibrierung dafür aussieht. Wie unser Team vor Ort Phase für Phase vorgeht, finden Sie in unserem Ratgeber zum [technischen Support für Veranstaltungen](/blog/technical-support-for-events/). Unser gesamtes Technikangebot finden Sie im Ratgeber zur [AV-Vermietung in Malaga](/blog/audio-visual-rental/).
+
+## Häufige Fragen
+
+### Was ist die Kalibrierung einer Tonanlage, einfach erklärt?
+
+Jedes Mikrofon und jeden Lautsprecher auf den konkreten Raum Ihrer Veranstaltung einzustellen, statt die Technik anzuschließen und einzuschalten. Dazu gehören Gain Staging an jedem Eingang, die Platzierung der Lautsprecher und die Einstellungen am Mischpult, alles abgestimmt auf die Akustik dieses Raums und keine feste Konfiguration von der letzten Veranstaltung. Siehe oben [Was die Kalibrierung einer Tonanlage wirklich bedeutet](#was-die-kalibrierung-einer-tonanlage-wirklich-bedeutet).
+
+### Was ist Gain Staging, und warum ist es wichtig?
+
+Gain Staging bedeutet, den Eingangspegel jedes Mikrofons direkt an der Quelle richtig einzustellen, bevor er die Hauptlautstärke des Mischpults erreicht. Zu niedrig, und das Signal klingt schwach und nimmt Hintergrundgeräusche auf, sobald die Lautstärke zum Ausgleich hochgedreht wird. Zu hoch, und es verzerrt, sobald ein Redner die Stimme hebt. Siehe oben [Gain Staging in einfachen Worten](#gain-staging-in-einfachen-worten).
+
+### Warum braucht dieselbe Technik an verschiedenen Veranstaltungsorten eine andere Kalibrierung?
+
+Die Raumakustik verändert, wie eine richtige Kalibrierung aussieht, selbst bei identischer Technik. Eine niedrige Decke und harte Flächen, Fliesen, Glas, nackter Stein, werfen den Schall schnell zurück und erhöhen das Rückkopplungsrisiko, deshalb läuft der Gain niedriger und die Lautsprecherwinkel werden sorgfältiger eingestellt als in einem höheren Raum mit weichen, schallschluckenden Einrichtungsgegenständen. Siehe oben [Warum jeder Veranstaltungsort eine andere Kalibrierung braucht](#warum-jeder-veranstaltungsort-eine-andere-kalibrierung-braucht).
+
+### Wird ein Veranstaltungsort im Freien anders kalibriert als einer drinnen?
+
+Ja. Im Freien gibt es keine Wände, die den Schall zurückwerfen wie in Innenräumen, deshalb werden die Lautsprecher näher am Publikum platziert und der Gain läuft für dieselbe Abdeckung oft höher, denn es gibt keinen reflektierten Schall, der die Lücken zwischen den Lautsprecherpositionen füllt. Siehe oben [Drinnen, draußen und Gästezahl](#drinnen-draußen-und-gästezahl-was-sich-wirklich-ändert).
+
+### Beeinflusst die Gästezahl die Kalibrierung, und wenn ja, wie?
+
+Ja. Ein voller Raum mit Gästen, ihren Körpern und ihrer Kleidung, absorbiert Schall anders als derselbe Raum leer beim Aufbau. Deshalb wird ein Raum am besten kurz vor der Türöffnung getestet, statt Stunden vorher in einem leeren Raum kalibriert zu werden. Siehe oben [Drinnen, draußen und Gästezahl](#drinnen-draußen-und-gästezahl-was-sich-wirklich-ändert).
+
+### Welches Mischpult nutzt MEG für die Kalibrierung, und hängt das vom Paket ab?
+
+Ja, es wächst mit der Größe der Veranstaltung: ein Soundcraft EPM-6 mit 6 Kanälen für kleinere Buchungen mit Pult, etwa das [Product Presentation Pack](/packages/product-presentation/), ein Mackie Onyx 1640 mit 16 Kanälen für mittelgroße Firmenveranstaltungen und ein Midas M32R Live mit einer digitalen Stagebox MD16 an größeren Veranstaltungsorten, bis zu den 120 Gästen des [MICE Pack](/packages/mice/). Das [Eco Pack](/packages/eco/) selbst hat gar kein Mischpult. Siehe oben [Dieselbe echte Technik, nach Größe kalibriert](#dieselbe-echte-technik-nach-größe-kalibriert-unsere-auswahl-an-mischpulten).
+
+### Was sind das Midas M32R Live und die Stagebox MD16, und wann setzt MEG sie ein?
+
+Das Midas M32R Live ist unser digitales Mischpult für größere Veranstaltungsorte, kombiniert mit einer MD16, einer abgesetzten Stagebox, die jedes Mikrofon direkt an der Bühne digitalisiert und alle Kanäle über ein einziges Kabel zum Pult zurückführt, statt eines langen Bündels einzelner Mikrofonkabel. Wir setzen diese Kombination bei größeren Buchungen ein, in der Größenordnung, die unser [MICE Pack](/packages/mice/) mit bis zu 120 Gästen abdeckt. Siehe oben [Das Midas M32R Live und die MD16](#das-midas-m32r-live-und-die-md16-kalibrierung-bei-größeren-veranstaltungen).
+
+### Gehört zur Kalibrierung auch die Video- oder Bildschirmeinrichtung?
+
+Nein, nicht auf dieser Seite. Die Audiokalibrierung, Gain Staging und Lautsprecherabstimmung, ist ein eigener Vorgang, getrennt vom Umschalten der Quellen für Bildschirme und Präsentationen, das unser [Kramer VP-731](/blog/video-switcher-rental/) übernimmt. Kameras, Filmaufnahmen und Livestreaming gehören ebenfalls nicht zu unserem eigenen Bestand. Siehe oben [Kalibrierung im Einsatz](#kalibrierung-im-einsatz-das-projekt-für-bmotion-in-marbella).
+
+### Wird die Kalibrierung einmal vorgenommen, oder ändert sie sich während der Veranstaltung?
+
+Die Kalibrierung selbst findet einmal statt, bevor Ihre Gäste eintreffen, und legt die Ausgangsbasis für Ihre Veranstaltung fest. Was sich danach ändern kann, ein Kabel, das sich löst, oder ein verschobener Gain-Regler, ist eine eigene Frage bei den Paketen in Eigenregie, bei denen niemand die Pegel beobachtet. Bei Paketen mit Techniker passt die Live-Überwachung ab dieser kalibrierten Basis weiter an, während Ihre Veranstaltung läuft.
+
+### Muss ich dabei sein, während meine Technik kalibriert wird?
+
+Nein. Unser Team kalibriert jede Buchung, bevor Sie oder Ihre Gäste eintreffen, als Teil von Lieferung, Aufbau und Test bei jedem Paket. Sie müssen dabei nicht anwesend sein, sind aber willkommen, wenn Ihr Terminplan es erlaubt.
+
+### Wie lange vor Beginn meiner Veranstaltung findet die Kalibrierung statt?
+
+Unser Team trifft vor Ihrem ersten Gast ein und kalibriert. Am besten wird kurz vor der Türöffnung kalibriert, damit Gästezahl und Raumabsorption berücksichtigt sind, und nicht Stunden früher, wenn der Raum noch leer ist. Siehe oben [Drinnen, draußen und Gästezahl](#drinnen-draußen-und-gästezahl-was-sich-wirklich-ändert) und [Wie weit im Voraus buchen](#wie-weit-im-voraus-buchen), was das für die Vorlaufzeit der Buchung bedeutet.

@@ -1,0 +1,186 @@
+---
+title: "Kalibrering av lydanlegg i Malaga, Spania"
+description: "Kalibrering av lydanlegg i Malaga, Spania: gain staging forklart, hvorfor hvert sted krever andre innstillinger og de ekte mikserpultene opp til Midas M32R."
+excerpt: "Kalibrering av lydanlegg i Malaga: hva det egentlig er, gain staging med enkle ord, hvorfor de samme høyttalerne og det samme mikserpultet stilles inn ulikt på hvert sted og hvilke ekte mikserpulter teamet vårt kalibrerer med, fra en Soundcraft med 6 kanaler opp til det digitale systemet Midas M32R Live."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Søker du på engelsk etter "audio system calibration", får du mest to typer innhold som ikke passer til en arrangementsbestilling: hjemmekinoguider om programvare for romkorrigering, eller tekniske forklaringer skrevet for installatører som monterer et fast anlegg i en bygning. Ingen av dem svarer på spørsmålet bak en utleie: Hva betyr kalibrering av lydanlegg i Malaga, Spania, for ett enkelt arrangement, og hvorfor kan de samme høyttalerne og det samme mikserpultet trenge en annen innstilling fra ett sted til det neste?
+
+Guiden vår om [teknisk support for arrangementer](/blog/technical-support-for-events/#before-your-event-starts-calibration-and-testing) nevner allerede kalibrering som den første fasen teamet vårt gjennomfører før gjestene dine kommer, i ett kort avsnitt. Denne siden er den dypere versjonen av det avsnittet: hva kalibrering av lydanlegg i Malaga egentlig er, hvorfor den endrer seg fra sted til sted og hvilke ekte mikserpulter teamet vårt tilpasser seg for å komme dit.
+
+[Bestill nå](/packages/) og bekreft hvilken pakke som passer til arrangementet ditt, vi tilpasser det samme ekte utstyret til det uansett.
+
+## Innholdsfortegnelse
+
+-   [Kort oversikt](#kort-oversikt)
+-   [Det viktigste](#det-viktigste)
+-   [Hva kalibrering av et lydanlegg egentlig betyr](#hva-kalibrering-av-et-lydanlegg-egentlig-betyr)
+-   [Gain staging med enkle ord](#gain-staging-med-enkle-ord)
+-   [Hvorfor hvert sted krever en annen kalibrering](#hvorfor-hvert-sted-krever-en-annen-kalibrering)
+-   [Innendørs, utendørs og antall gjester: hva som egentlig endrer seg](#innendørs-utendørs-og-antall-gjester-hva-som-egentlig-endrer-seg)
+-   [Det samme ekte utstyret, kalibrert etter størrelse: utvalget vårt av mikserpulter](#det-samme-ekte-utstyret-kalibrert-etter-størrelse-utvalget-vårt-av-mikserpulter)
+-   [Midas M32R Live og MD16: kalibrering på større steder](#midas-m32r-live-og-md16-kalibrering-på-større-steder)
+-   [Kalibrering i praksis: prosjektet for Bmotion i Marbella](#kalibrering-i-praksis-prosjektet-for-bmotion-i-marbella)
+-   [Ekte oppsett vi har levert](#ekte-oppsett-vi-har-levert)
+-   [Hvor langt i forveien du bør bestille](#hvor-langt-i-forveien-du-bør-bestille)
+-   [Konklusjon](#konklusjon)
+-   [Ofte stilte spørsmål](#ofte-stilte-spørsmål)
+    -   [Hva er kalibrering av et lydanlegg, med enkle ord?](#hva-er-kalibrering-av-et-lydanlegg-med-enkle-ord)
+    -   [Hva er gain staging, og hvorfor er det viktig?](#hva-er-gain-staging-og-hvorfor-er-det-viktig)
+    -   [Hvorfor krever det samme utstyret ulik kalibrering på ulike steder?](#hvorfor-krever-det-samme-utstyret-ulik-kalibrering-på-ulike-steder)
+    -   [Blir et sted utendørs kalibrert annerledes enn et innendørs?](#blir-et-sted-utendørs-kalibrert-annerledes-enn-et-innendørs)
+    -   [Påvirker antall gjester kalibreringen, og i så fall hvordan?](#påvirker-antall-gjester-kalibreringen-og-i-så-fall-hvordan)
+    -   [Hvilket mikserpult bruker MEG til kalibrering, og avhenger det av pakken?](#hvilket-mikserpult-bruker-meg-til-kalibrering-og-avhenger-det-av-pakken)
+    -   [Hva er Midas M32R Live og stageboxen MD16, og når bruker MEG dem?](#hva-er-midas-m32r-live-og-stageboxen-md16-og-når-bruker-meg-dem)
+    -   [Omfatter kalibreringen også video eller oppsett av skjermer?](#omfatter-kalibreringen-også-video-eller-oppsett-av-skjermer)
+    -   [Skjer kalibreringen én gang, eller endrer den seg under arrangementet?](#skjer-kalibreringen-én-gang-eller-endrer-den-seg-under-arrangementet)
+    -   [Må jeg være til stede mens utstyret mitt kalibreres?](#må-jeg-være-til-stede-mens-utstyret-mitt-kalibreres)
+    -   [Hvor lenge før arrangementet mitt starter skjer kalibreringen?](#hvor-lenge-før-arrangementet-mitt-starter-skjer-kalibreringen)
+
+## Kort oversikt
+
+---
+
+Kalibrering av lydanlegg betyr hos Malaga Event Gear at hver mikrofon og hver høyttaler stilles inn etter rommet de faktisk står i, og ikke bare at utstyret kobles til og slås på. Det samme lydanlegget og det samme mikserpultet høres annerledes ut i en innendørs sal med lavt tak enn i en åpen hage, og igjen annerledes når et rom fylles med gjester. Derfor er kalibrering prosessen teamet vårt gjennomfører ved hver eneste bestilling, for at utstyret skal passe til akkurat det stedet.
+
+Denne guiden går gjennom hva kalibrering egentlig innebærer, gain staging med enkle ord, hvorfor romakustikken, innendørs eller utendørs og antall gjester alle endrer hvordan en riktig kalibrering ser ut og hvilke ekte mikserpulter teamet vårt kalibrerer med, fra et enkelt pult med 6 kanaler opp til et digitalt Midas M32R Live som de fleste gjester aldri ser. [Kontakt oss](/contact/) hvis du vil vite hvordan det ser ut for stedet ditt.
+
+## Det viktigste
+
+---
+
+-   Kalibrering er ikke en generisk sjekkliste. Det er gain staging på hver mikrofon, plassering av høyttalere og innstillinger på mikserpultet, alt justert etter det konkrete rommet og ikke en fast innstilling vi tar med til hvert arrangement.
+
+-   Gain staging, altså å stille nivået på hver inngang riktig ved kilden, må gjøres på nytt på hvert sted, fordi mikrofonene, avstandene og selve rommet endrer seg.
+
+-   Romakustikken, innendørs eller utendørs og antall gjester endrer alle hva en riktig kalibrering betyr for identisk utstyr. Et fullt rom absorberer lyd annerledes enn det samme rommet tomt under oppsettet.
+
+-   Utvalget vårt av mikserpulter vokser med arrangementet: en Soundcraft EPM-6 med 6 kanaler for mindre bestillinger, en Mackie Onyx 1640 med 16 kanaler for mellomstore bedriftsarrangementer og en Midas M32R Live sammen med en digital stagebox MD16 på større steder.
+
+-   Denne siden handler utelukkende om lydkalibrering. Å bytte mellom skjermer og presentasjoner er et eget tema, som er behandlet fullt ut i guiden vår om å [leie en videoswitcher](/blog/video-switcher-rental/).
+
+## Hva kalibrering av et lydanlegg egentlig betyr
+
+Kalibrering er arbeidet teamet vårt gjør mellom ankomsten til stedet ditt og den første gjesten går inn: stille inn inngangsnivået på hver mikrofon, kontrollere plasseringen av høyttalerne mot rommets form og stille inn mikserpultet slik at hele systemet ligger på et nivå som høres riktig ut i akkurat det rommet, verken for lavt til å høres på bakerste rad eller så høyt at det forvrenger eller gir tilbakekobling nær scenen. Det er ikke én innstilling som gjøres på forhånd og tas uendret med til hvert arrangement. Mikserpultet i Product Presentation Pack stilles for eksempel inn forskjellig for utstillingslokalet til en liten bilforhandler og for en større konferansesal, selv om selve enheten er den samme.
+
+Grunnen til at kalibrering verken kan hoppes over eller standardiseres, er enkel: nivået på en høyttaler og gainen på en mikrofon høres bare riktig ut i forhold til rommet de står i. Flytt nøyaktig det samme utstyret til et annet rom, og det som var riktig, blir enten for svakt eller for hett. Kalibrering er prosessen med å finne det riktige igjen, hver gang.
+
+## Gain staging med enkle ord
+
+Gain staging er den delen av kalibreringen som de fleste arrangører aldri har hørt nevnt, selv om den er den viktigste enkeltfaktoren for om en mikrofon høres ren ut eller ikke. Hver mikrofon og hver lydinngang har et nivå, kalt gain, som stilles inn direkte ved kilden, før signalet når hovedvolumet på mikserpultet eller høyttalerne.
+
+Er gainen for lav, høres mikrofonen svak og fjern ut, og pultets samlede volum må skrus opp for å kompensere, noe som drar opp bakgrunnsstøy og romlyd sammen med stemmen. Er den for høy, forvrenger signalet, en hard, knitrende lyd kalt klipping (clipping), i det øyeblikket taleren hever stemmen eller kommer nærmere mikrofonen. Riktig gain staging ligger mellom de to: høyt nok til å høres nærværende ut, uten noen gang å presse signalet inn i forvrengning.
+
+<InlineCTA />
+
+Gain staging må gjøres på nytt ved hvert arrangement, fordi variablene virkelig endrer seg. En kablet mikrofon på en talerstol i et stille møterom fanger nesten bare talerens stemme, så gainen kan ligge behagelig høyt. Samme type mikrofon på en scene utendørs, lenger fra talerens munn og i konkurranse med omgivelsesstøy, krever en helt annen innstilling. En trådløs håndholdt mikrofon som sendes rundt blant bryllupsgjester, skifter avstand hele tiden, derfor stiller teamet vårt inn gainen med headroom i stedet for å trimme den stramt mot én fast posisjon. Ingenting av dette er gjetting, det er grunnen til at teamet vårt kommer og tester før arrangementet ditt starter, i stedet for å stole på en innstilling fra forrige bestilling.
+
+## Hvorfor hvert sted krever en annen kalibrering
+
+Romakustikken endrer hvordan en riktig kalibrering ser ut, selv når utstyret er det samme. Et rom med lavt tak og harde flater, flisgulv, glassvegger, bar stein, kaster lyden raskt tilbake i rommet. Disse refleksjonene når en mikrofon nesten like raskt som direktelyden fra en høyttaler, noe som øker risikoen for tilbakekobling, den stigende hylelyden en mikrofon lager når den fanger opp sin egen forsterkede lyd. I et slikt rom stiller teamet vårt gainen lavere og retter høyttalerne mer nøye enn i et høyere rom med myke materialer, teppe, gardiner, et helt sett med polstrede stoler, som absorberer lyd i stedet for å kaste den tilbake.
+
+Takhøyden betyr noe av samme grunn. Et høyt, åpent tak gir lyden et sted å forsvinne i stedet for å reflekteres rett ned i sitteplassene, så det samme høyttalernivået som ville gitt problemer i en lav konferansesal, kan ligge behagelig i en høyere sal. Ingenting av dette går fram av utstyrslisten. Det går bare fram av å stå i selve rommet.
+
+## Innendørs, utendørs og antall gjester: hva som egentlig endrer seg
+
+Steder utendørs fjerner refleksjonene som kalibrering innendørs tar høyde for, og erstatter dem med et annet problem: åpen luft og vind fører lyden bort i stedet for å sende den tilbake. Det finnes ingen vegger som forsterker utgangen fra en høyttaler, så teamet vårt plasserer høyttalerne nærmere publikum og kjører ofte høyere gain, for den samme dekningen, enn et tilsvarende oppsett innendørs ville trenge, fordi det ikke finnes reflektert lyd som fyller hullene mellom høyttalerposisjonene. Forsidebildet på denne siden, et konferanseoppsett utendørs for konferansen for High Care International Hospital i Marbella, er den typen sted dette gjelder: uten vegger som sender lyden tilbake, er plasseringen av høyttalerne i forhold til publikum en del av kalibreringen.
+
+Antall gjester endrer kalibreringen på en måte som er lett å overse helt: et rom fullt av mennesker, med kroppene og klærne deres, absorberer lyd annerledes enn det samme rommet tomt under oppsettet. Det er en reell, fysisk forskjell og ingen avrundingsfeil, og derfor testes et rom best like før dørene åpnes, i stedet for å bli kalibrert flere timer i forveien i et tomt rom i forventning om at det holder når gjestene fyller stolene.
+
+## Det samme ekte utstyret, kalibrert etter størrelse: utvalget vårt av mikserpulter
+
+Mikserpultet i sentrum av kalibreringen er ikke ett fast stykke utstyr, det vokser med arrangementet. Guiden vår om [teknisk support for arrangementer](/blog/technical-support-for-events/#real-equipment-real-troubleshooting-what-our-technicians-actually-fix) nevner allerede to av disse pultene som dem teknikerne våre kjører under taler. Her ser du hvor hver av dem passer inn.
+
+| Arrangementets størrelse | Mikserpult | Kanaler |
+| --- | --- | --- |
+| Mindre bestillinger som omfatter et mikserpult, som [Product Presentation Pack](/packages/product-presentation/) | Soundcraft EPM-6 | 6 |
+| Mellomstore bedriftsarrangementer, et pressearrangement, en lansering hos en bilforhandler eller et [Basic MICE Pack](/packages/basic-mice/) med teknikeren som tillegg | Mackie Onyx 1640 | 16 |
+| Større steder, opp til de 120 gjestene i [MICE Pack](/packages/mice/) | Midas M32R Live + digital stagebox MD16 | Se nedenfor |
+
+Det er verdt å være presis her: i den mindre enden av utvalget vårt er et mikserpult ikke alltid en del av bildet. [Eco Pack](/packages/eco/) kjører direkte på to aktive høyttalere uten mikserpult imellom. EPM-6 kommer inn i bildet når utstyret i en bestilling omfatter et pult som skal kalibreres.
+
+## Midas M32R Live og MD16: kalibrering på større steder
+
+Det største pultparet vårt er et digitalt Midas M32R Live mikserpult sammen med en digital stagebox MD16, begge bekreftet i vårt eget utstyrslager. Det er oppsettet teamet vårt velger på større steder, den størrelsen en bestilling av [MICE Pack](/packages/mice/) med opptil 120 gjester faktisk trenger.
+
+Det som gjør at MD16 er verdt å forklare og ikke bare å nevne, er hva den gjør annerledes enn et vanlig pultoppsett. Ved en mindre bestilling går hver mikrofonkabel for seg, i en bunt, hele veien fra scenen til stedet der pultet står. På et større sted kan det bety en lang rekke kabler som slanger seg over gulvet eller er teipet fast langs en vegg. MD16 endrer det: den er en fjernstyrt stagebox som står nær selve mikrofonene, på eller nær scenen, og omdanner hvert signal til digitalt akkurat der. Én enkelt kabel fører så alle de kanalene tilbake til M32R Live pultet, uansett hvor teamet vårt plasserer det i rommet, i stedet for en lang bunt enkeltstående mikrofonkabler som gjør den samme reisen.
+
+Det betyr noe for kalibreringen på to konkrete måter. For det første holder omdanningen av hver mikrofons signal nær kilden, med forforsterkerne bygget inn i stageboxen i stedet for ved pultet, signalet rent over en lengre fysisk avstand, fordi det ikke reiser hele veien som et analogt signal på lavt nivå som plukker opp støy. For det andre gir det teamet vårt ekte kontroll kanal for kanal i et større rom, der hver mikrofon formes for seg i stedet for at brede toneinnstillinger deles mellom grupperte innganger, slik et mindre analogt pult som EPM-6 må gjøre. I et rom bygget for 120 gjester er akkurat denne individuelle kontrollen det kalibrering sted for sted, hele temaet for denne siden, avhenger av.
+
+## Kalibrering i praksis: prosjektet for Bmotion i Marbella
+
+I to dager i mai 2026 sto teamet vårt for transport, oppsett og kalibrering av et bedriftsprosjekt med byrået [Bmotion](https://www.bmotionav.com/) i Marbella. Vår egen beretning om prosjektet beskriver at teamet gjennomførte omfattende lydjustering og testing av bildesignalene før den første gjesten kom inn i rommet, nettopp for å fange opp mulige akustiske refleksjoner og forstyrrelser før noen var til stede som kunne legge merke til dem. Les hele beretningen i nyheten vår om [Bmotion i Marbella](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/).
+
+Det er verdt å være presis her også: den beretningen nevner også "kalibrering før arrangementet av lyd- og videonettverkene". Denne siden handler utelukkende om lyddelen av det samme prosjektet, gain staging og høyttalerjustering mot rommets egen akustikk, ikke video- eller skjermsiden. Å bytte mellom kilder til skjermer og presentasjoner er behandlet i guiden vår om å [leie en videoswitcher](/blog/video-switcher-rental/). Se [Omfatter kalibreringen også video eller oppsett av skjermer](#omfatter-kalibreringen-også-video-eller-oppsett-av-skjermer) nedenfor for den tydelige adskillelsen.
+
+## Ekte oppsett vi har levert
+
+![Lyd- og TV-skjermutleie til en konferanse for High Care International Hospital i Marbella.](https://cdn.malagaeventgear.com/blog/1278/high_care_hospital_marbella_conference_setup-scaled.webp "Et lydanlegg og en skjerm satt opp for konferansen for High Care International Hospital i Marbella.")
+
+Et lydanlegg og en skjerm satt opp for konferansen for High Care International Hospital i Marbella, den samme konferansen som på forsidebildet til denne siden.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1278/', '/1279/'])} speed="normal" direction="left" />
+</div>
+
+## Hvor langt i forveien du bør bestille
+
+Alle bestillingene våre krever minst 24 timers varsel, og kalibrering er en del av hver eneste av dem, uansett pakke. Større steder som krever Midas M32R Live og stageboxen MD16, har glede av mer forberedelsestid, ikke fordi selve kalibreringen tar lengre tid, men fordi en bekreftet plantegning og et bekreftet antall gjester for et større rom på forhånd lar teamet vårt planlegge høyttalerplassering og kabelføring før det ankommer, i stedet for å improvisere på stedet. Etterspørselen etter bedriftspakkene våre topper seg i konferansesesongen og rundt store kongresser på Costa del Sol, så en tidlig bekreftelse betyr mest for bestillinger av [MICE Pack](/packages/mice/).
+
+## Konklusjon
+
+Kalibrering av lydanlegg hos Malaga Event Gear er ikke en fast innstilling, det er gain staging og høyttalerplassering tilpasset rommet arrangementet ditt faktisk foregår i, der romakustikken, innendørs eller utendørs og antall gjester alle endrer hva en riktig kalibrering betyr for identisk utstyr. Utvalget vårt av mikserpulter vokser med det, fra Soundcraft EPM-6 med 6 kanaler opp til en Midas M32R Live sammen med en digital stagebox MD16 på større steder. [Kontakt oss](/contact/) med stedet ditt og antall gjester, så forteller vi deg ærlig hvordan kalibreringen ser ut for det. For versjonen fase for fase av hva teamet vårt gjør på stedet, se guiden vår om [teknisk support for arrangementer](/blog/technical-support-for-events/). For hele utvalget vårt av utstyr, se guiden om [AV-utleie i Malaga](/blog/audio-visual-rental/).
+
+## Ofte stilte spørsmål
+
+### Hva er kalibrering av et lydanlegg, med enkle ord?
+
+Å stille inn hver mikrofon og hver høyttaler etter det konkrete rommet arrangementet ditt foregår i, i stedet for å koble til utstyret og slå det på. Det omfatter gain staging på hver inngang, høyttalerplassering og innstillinger på mikserpultet, alt justert etter rommets akustikk og ikke en fast konfigurasjon fra forrige arrangement. Se [Hva kalibrering av et lydanlegg egentlig betyr](#hva-kalibrering-av-et-lydanlegg-egentlig-betyr) ovenfor.
+
+### Hva er gain staging, og hvorfor er det viktig?
+
+Gain staging er å stille inngangsnivået på hver mikrofon riktig ved kilden, før det når hovedvolumet på mikserpultet. For lavt, og signalet høres svakt ut og fanger opp bakgrunnsstøy når volumet skrus opp for å kompensere. For høyt, og det forvrenger i det øyeblikket en taler hever stemmen. Se [Gain staging med enkle ord](#gain-staging-med-enkle-ord) ovenfor.
+
+### Hvorfor krever det samme utstyret ulik kalibrering på ulike steder?
+
+Romakustikken endrer hvordan en riktig kalibrering ser ut, selv med identisk utstyr. Et lavt tak og harde flater, fliser, glass, bar stein, kaster lyden raskt tilbake og øker risikoen for tilbakekobling, så gainen ligger lavere og høyttalernes vinkler stilles inn mer nøye enn i et høyere rom med myke, lydabsorberende materialer. Se [Hvorfor hvert sted krever en annen kalibrering](#hvorfor-hvert-sted-krever-en-annen-kalibrering) ovenfor.
+
+### Blir et sted utendørs kalibrert annerledes enn et innendørs?
+
+Ja. Steder utendørs har ingen vegger som kaster lyden tilbake slik rom innendørs har, så høyttalerne plasseres nærmere publikum og gainen ligger ofte høyere for den samme dekningen, fordi det ikke finnes reflektert lyd som fyller hullene mellom høyttalerposisjonene. Se [Innendørs, utendørs og antall gjester](#innendørs-utendørs-og-antall-gjester-hva-som-egentlig-endrer-seg) ovenfor.
+
+### Påvirker antall gjester kalibreringen, og i så fall hvordan?
+
+Ja. Et rom fullt av gjester, med kroppene og klærne deres, absorberer lyd annerledes enn det samme rommet tomt under oppsettet. Derfor testes et rom best like før dørene åpnes, i stedet for å bli kalibrert flere timer i forveien i et tomt rom. Se [Innendørs, utendørs og antall gjester](#innendørs-utendørs-og-antall-gjester-hva-som-egentlig-endrer-seg) ovenfor.
+
+### Hvilket mikserpult bruker MEG til kalibrering, og avhenger det av pakken?
+
+Ja, det vokser med arrangementets størrelse: en Soundcraft EPM-6 med 6 kanaler for mindre bestillinger med mikserpult, som [Product Presentation Pack](/packages/product-presentation/), en Mackie Onyx 1640 med 16 kanaler for mellomstore bedriftsarrangementer og en Midas M32R Live med en digital stagebox MD16 på større steder, opp til de 120 gjestene i [MICE Pack](/packages/mice/). [Eco Pack](/packages/eco/) har ikke noe mikserpult i det hele tatt. Se [Det samme ekte utstyret, kalibrert etter størrelse](#det-samme-ekte-utstyret-kalibrert-etter-størrelse-utvalget-vårt-av-mikserpulter) ovenfor.
+
+### Hva er Midas M32R Live og stageboxen MD16, og når bruker MEG dem?
+
+Midas M32R Live er det digitale mikserpultet vårt for større steder, sammen med en MD16, en fjernstyrt stagebox som omdanner hver mikrofon til digital rett ved scenen og fører alle kanalene tilbake til pultet via én enkelt kabel, i stedet for en lang bunt enkeltstående mikrofonkabler. Vi bruker denne kombinasjonen ved større bestillinger, den størrelsen [MICE Pack](/packages/mice/) dekker opptil 120 gjester. Se [Midas M32R Live og MD16](#midas-m32r-live-og-md16-kalibrering-på-større-steder) ovenfor.
+
+### Omfatter kalibreringen også video eller oppsett av skjermer?
+
+Nei, ikke på denne siden. Lydkalibrering, gain staging og høyttalerjustering, er en egen prosess atskilt fra å bytte mellom kilder til skjermer og presentasjoner, som vår [Kramer VP-731](/blog/video-switcher-rental/) tar seg av. Kameraer, filming og livestreaming finnes heller ikke i vårt eget lager. Se [Kalibrering i praksis](#kalibrering-i-praksis-prosjektet-for-bmotion-i-marbella) ovenfor.
+
+### Skjer kalibreringen én gang, eller endrer den seg under arrangementet?
+
+Selve kalibreringen skjer én gang, før gjestene dine kommer, og setter utgangspunktet for arrangementet ditt. Det som kan endre seg etterpå, en kabel som trekkes løs eller en gainfader som blir dyttet borti, er et eget spørsmål på pakkene du kjører selv, der ingen følger med på nivåene. På pakker med tekniker fortsetter overvåkingen underveis å justere ut fra det kalibrerte utgangspunktet mens arrangementet pågår.
+
+### Må jeg være til stede mens utstyret mitt kalibreres?
+
+Nei. Teamet vårt kalibrerer hver bestilling før du eller gjestene dine kommer, som en del av leveringen, installasjonen og testingen på hver pakke. Du trenger ikke være til stede, men du er velkommen hvis timeplanen din tillater det.
+
+### Hvor lenge før arrangementet mitt starter skjer kalibreringen?
+
+Teamet vårt kommer og kalibrerer før den første gjesten din. Kalibreringen gjøres best like før dørene åpnes, slik at antall gjester og rommets absorpsjon er tatt med, og ikke flere timer tidligere når rommet fortsatt er tomt. Se [Innendørs, utendørs og antall gjester](#innendørs-utendørs-og-antall-gjester-hva-som-egentlig-endrer-seg) og [Hvor langt i forveien du bør bestille](#hvor-langt-i-forveien-du-bør-bestille) ovenfor for hva det betyr for bestillingstidspunktet.

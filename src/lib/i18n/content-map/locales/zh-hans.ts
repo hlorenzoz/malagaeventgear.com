@@ -74,6 +74,11 @@ export default {
 			keyword: '马拉加 视频切换器租赁',
 			status: 'propuesta'
 		},
+		'audio-system-calibration': {
+			slug: '音响系统调校',
+			keyword: '马拉加 音响系统调校',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': { slug: '活动视听租赁', keyword: '马拉加 活动视听租赁', status: 'propuesta' },
 		'audio-visual-rental-for-conferences': { slug: '会议视听租赁', keyword: '马拉加 会议视听租赁', status: 'propuesta' },
 		'audio-visual-rental-for-corporate-events': {

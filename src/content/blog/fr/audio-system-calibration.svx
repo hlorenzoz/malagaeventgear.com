@@ -1,0 +1,186 @@
+---
+title: "Étalonnage d'un système audio à Malaga, en Espagne"
+description: "Étalonnage d'un système audio à Malaga, en Espagne : gain staging expliqué, réglages propres à chaque lieu et vraie gamme de tables, jusqu'à une Midas M32R."
+excerpt: "Étalonnage d'un système audio à Malaga : ce que c'est vraiment, le gain staging en termes simples, pourquoi les mêmes enceintes et la même table de mixage se règlent différemment d'un lieu à l'autre, ainsi que la vraie gamme de tables que notre équipe étalonne, de la Soundcraft à 6 canaux jusqu'au système numérique Midas M32R Live."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Une recherche en anglais sur "audio system calibration" fait surtout remonter deux types de contenus qui ne correspondent pas à une réservation d'événement : des guides de home cinéma sur les logiciels de correction acoustique de la pièce, ou des articles d'ingénierie écrits pour des installateurs qui câblent un système permanent dans un bâtiment. Aucun des deux ne répond à la question qui se cache derrière une location : que signifie l'étalonnage d'un système audio à Malaga, en Espagne, pour un seul événement, et pourquoi les mêmes enceintes et la même table de mixage peuvent demander un réglage différent d'un lieu à l'autre.
+
+Notre guide d'[assistance technique pour événements](/blog/technical-support-for-events/#before-your-event-starts-calibration-and-testing) présente déjà l'étalonnage comme la première phase que notre équipe réalise avant l'arrivée de vos invités, dans un court paragraphe. Cette page en est la version approfondie : ce qu'est réellement l'étalonnage d'un système audio à Malaga, pourquoi il change d'un lieu à l'autre, ainsi que la vraie gamme de tables de mixage que notre équipe adapte pour y parvenir.
+
+[Réservez dès maintenant](/packages/) et confirmez le forfait qui convient à votre événement, nous y adaptons de toute façon le même matériel réel.
+
+## Table des matières
+
+-   [En bref](#en-bref)
+-   [Points clés](#points-clés)
+-   [Ce que signifie réellement l'étalonnage d'un système audio](#ce-que-signifie-réellement-létalonnage-dun-système-audio)
+-   [Le réglage du gain (gain staging) en termes simples](#le-réglage-du-gain-gain-staging-en-termes-simples)
+-   [Pourquoi chaque lieu demande un étalonnage différent](#pourquoi-chaque-lieu-demande-un-étalonnage-différent)
+-   [Intérieur, extérieur et nombre d'invités : ce qui change vraiment](#intérieur-extérieur-et-nombre-dinvités--ce-qui-change-vraiment)
+-   [Le même matériel réel, étalonné selon l'échelle : notre gamme de tables de mixage](#le-même-matériel-réel-étalonné-selon-léchelle--notre-gamme-de-tables-de-mixage)
+-   [La Midas M32R Live et le MD16 : l'étalonnage dans les grands lieux](#la-midas-m32r-live-et-le-md16--létalonnage-dans-les-grands-lieux)
+-   [L'étalonnage sur le terrain : le projet Bmotion à Marbella](#létalonnage-sur-le-terrain--le-projet-bmotion-à-marbella)
+-   [Installations réelles que nous avons livrées](#installations-réelles-que-nous-avons-livrées)
+-   [Combien de temps à l'avance réserver](#combien-de-temps-à-lavance-réserver)
+-   [Conclusion](#conclusion)
+-   [Questions fréquentes](#questions-fréquentes)
+    -   [Qu'est-ce que l'étalonnage d'un système audio, en termes simples ?](#quest-ce-que-létalonnage-dun-système-audio-en-termes-simples-)
+    -   [Qu'est-ce que le gain staging, et pourquoi est-ce important ?](#quest-ce-que-le-gain-staging-et-pourquoi-est-ce-important-)
+    -   [Pourquoi le même matériel demande-t-il un étalonnage différent selon le lieu ?](#pourquoi-le-même-matériel-demande-t-il-un-étalonnage-différent-selon-le-lieu-)
+    -   [Un lieu en extérieur est-il étalonné différemment d'un lieu en intérieur ?](#un-lieu-en-extérieur-est-il-étalonné-différemment-dun-lieu-en-intérieur-)
+    -   [Le nombre d'invités influence-t-il l'étalonnage, et si oui comment ?](#le-nombre-dinvités-influence-t-il-létalonnage-et-si-oui-comment-)
+    -   [Quelle table de mixage MEG utilise-t-elle pour l'étalonnage, et cela dépend-il du forfait ?](#quelle-table-de-mixage-meg-utilise-t-elle-pour-létalonnage-et-cela-dépend-il-du-forfait-)
+    -   [Qu'est-ce que la Midas M32R Live et le stage box MD16, et quand MEG les utilise-t-elle ?](#quest-ce-que-la-midas-m32r-live-et-le-stage-box-md16-et-quand-meg-les-utilise-t-elle-)
+    -   [L'étalonnage comprend-il aussi la vidéo ou la configuration des écrans ?](#létalonnage-comprend-il-aussi-la-vidéo-ou-la-configuration-des-écrans-)
+    -   [L'étalonnage se fait-il une seule fois, ou change-t-il pendant l'événement ?](#létalonnage-se-fait-il-une-seule-fois-ou-change-t-il-pendant-lévénement-)
+    -   [Dois-je être présent pendant l'étalonnage de mon matériel ?](#dois-je-être-présent-pendant-létalonnage-de-mon-matériel-)
+    -   [Combien de temps avant le début de mon événement l'étalonnage a-t-il lieu ?](#combien-de-temps-avant-le-début-de-mon-événement-létalonnage-a-t-il-lieu-)
+
+## En bref
+
+---
+
+L'étalonnage d'un système audio, chez Malaga Event Gear, consiste à régler chaque microphone et chaque enceinte en fonction de la salle où ils se trouvent réellement, et pas simplement à brancher le matériel et à l'allumer. Une même sonorisation et une même table de mixage ne sonnent pas pareil dans une salle intérieure au plafond bas et dans un jardin ouvert, et encore différemment une fois la salle remplie d'invités. L'étalonnage est donc le processus que notre équipe exécute à chaque réservation pour adapter le matériel à ce lieu précis.
+
+Ce guide présente ce que recouvre concrètement l'étalonnage, le gain staging en termes simples, la façon dont l'acoustique de la salle, l'intérieur ou l'extérieur et le nombre d'invités modifient ce qu'est un bon étalonnage, ainsi que la vraie gamme de tables de mixage avec lesquelles notre équipe étalonne, d'une petite table à 6 canaux jusqu'à un système numérique Midas M32R Live que la plupart des invités ne verront jamais. [Contactez-nous](/contact/) si vous voulez savoir ce que cela donne pour votre lieu.
+
+## Points clés
+
+---
+
+-   L'étalonnage n'est pas une liste de contrôle générique. C'est le gain staging sur chaque microphone, le placement des enceintes et les réglages de la table de mixage, le tout ajusté à la salle concernée, et non un réglage fixe que nous apporterions à chaque événement.
+
+-   Le gain staging, qui consiste à régler correctement le niveau de chaque entrée à la source, doit être refait dans chaque lieu, parce que les microphones, les distances et la salle elle-même changent.
+
+-   L'acoustique de la salle, l'intérieur ou l'extérieur et le nombre d'invités changent tous ce que signifie un bon étalonnage pour un matériel identique. Une salle pleine absorbe le son autrement que la même salle vide pendant l'installation.
+
+-   Notre gamme de tables de mixage évolue avec l'événement : une Soundcraft EPM-6 à 6 canaux pour les petites réservations, une Mackie Onyx 1640 à 16 canaux pour les événements d'entreprise de taille moyenne et une Midas M32R Live associée à un stage box numérique MD16 dans les grands lieux.
+
+-   Cette page traite strictement de l'étalonnage audio. La commutation des écrans et des présentations est un autre sujet, détaillé dans notre guide de [location de commutateur vidéo](/blog/video-switcher-rental/).
+
+## Ce que signifie réellement l'étalonnage d'un système audio
+
+L'étalonnage est le travail que notre équipe réalise entre son arrivée dans votre lieu et l'entrée de votre premier invité : régler le niveau d'entrée de chaque microphone, vérifier le placement des enceintes par rapport à la forme de la salle et régler la table de mixage pour que l'ensemble du système se situe à un niveau qui sonne juste dans cet espace précis, ni trop faible pour être entendu au dernier rang, ni assez fort pour saturer ou provoquer un larsen près de l'avant. Ce n'est pas un réglage unique configuré à l'avance et apporté tel quel à chaque événement. La table de mixage du Product Presentation Pack, par exemple, est réglée différemment pour un petit showroom de concessionnaire et pour une plus grande salle de conférence, alors que l'appareil physique est identique.
+
+La raison pour laquelle l'étalonnage ne peut ni être sauté ni standardisé est simple : le niveau d'une enceinte et le gain d'un microphone ne sonnent juste que par rapport à la salle où ils se trouvent. Déplacez exactement le même matériel dans une autre salle, et ce qui était correct devient soit trop faible, soit trop fort. L'étalonnage est le processus qui consiste à retrouver le bon réglage, à chaque fois.
+
+## Le réglage du gain (gain staging) en termes simples
+
+Le gain staging est la partie de l'étalonnage que la plupart des organisateurs n'ont jamais entendu nommer, alors que c'est le premier facteur qui détermine si un microphone sonne proprement ou non. Chaque microphone et chaque entrée audio a un niveau, appelé gain, réglé directement à la source, avant que le signal n'atteigne le volume général de la table de mixage ou les enceintes.
+
+Si ce gain est trop bas, le microphone sonne faible et lointain, ce qui oblige à monter le volume général de la table pour compenser, et cela fait aussi remonter le souffle de fond et le bruit de la salle en même temps que la voix. S'il est trop haut, le signal sature, avec un son dur et crépitant appelé écrêtage, dès que l'intervenant élève la voix ou se rapproche du micro. Un bon gain staging se situe entre les deux : assez fort pour être bien présent, sans jamais pousser le signal jusqu'à la distorsion.
+
+<InlineCTA />
+
+Le gain staging doit être refait à chaque événement, parce que les paramètres changent réellement. Un microphone filaire de pupitre dans une salle de réunion calme ne capte presque que la voix de l'intervenant, son gain peut donc rester confortablement élevé. Le même type de microphone sur une scène en extérieur, plus loin de la bouche de l'intervenant et en concurrence avec le bruit ambiant, demande un réglage tout à fait différent. Un microphone main sans fil que se passent les invités d'un mariage change constamment de distance, c'est pourquoi notre équipe règle son gain avec de la marge (headroom) plutôt que calé au plus juste sur une position fixe. Rien de tout cela n'est du hasard : c'est la raison pour laquelle notre équipe arrive et teste avant le début de votre événement, au lieu de se fier au réglage de la dernière réservation.
+
+## Pourquoi chaque lieu demande un étalonnage différent
+
+L'acoustique d'une salle change ce qu'est un bon étalonnage, même quand le matériel reste identique. Une salle au plafond bas et aux surfaces dures, sols carrelés, murs de verre, pierre nue, renvoie rapidement le son dans l'espace. Ces réflexions atteignent un microphone presque aussi vite que le son direct d'une enceinte, ce qui augmente le risque de larsen, ce sifflement qui monte quand un micro capte son propre son amplifié. Dans ce genre de salle, notre équipe règle le gain plus bas et oriente les enceintes avec plus de soin que dans une salle plus haute avec des matières douces, moquette, rideaux, une rangée complète de chaises rembourrées, qui absorbent le son au lieu de le renvoyer.
+
+La hauteur sous plafond compte pour la même raison. Un plafond haut et dégagé laisse au son un endroit où se dissiper, au lieu de le renvoyer droit vers les sièges, si bien que le niveau d'enceinte qui poserait problème dans une salle de conférence basse peut rester confortable dans une salle plus haute. Rien de tout cela ne se voit en regardant la liste du matériel. Cela ne se voit qu'en se tenant dans la salle réelle.
+
+## Intérieur, extérieur et nombre d'invités : ce qui change vraiment
+
+Les lieux en extérieur suppriment les réflexions dont tient compte l'étalonnage en intérieur, et les remplacent par un problème différent : l'air libre et le vent emportent le son au lieu de le renvoyer. Il n'y a pas de murs pour renforcer la sortie d'une enceinte, c'est pourquoi notre équipe place les enceintes plus près du public et règle souvent un gain plus élevé, pour la même couverture, que ce qu'exigerait une installation équivalente en intérieur, puisqu'aucun son réfléchi ne comble les écarts entre les emplacements des enceintes. La photo de couverture de cette page, une installation de conférence en extérieur pour la conférence de High Care International Hospital à Marbella, illustre le type de lieu concerné : sans murs pour renvoyer le son, l'emplacement des enceintes par rapport au public fait partie de l'étalonnage.
+
+Le nombre d'invités modifie l'étalonnage d'une manière facile à passer complètement sous silence : une salle pleine de personnes, avec leurs corps et leurs vêtements, absorbe le son autrement que la même salle vide pendant l'installation. C'est une différence physique réelle, pas une erreur d'arrondi, et c'est pourquoi une salle se teste de préférence au plus près de l'ouverture des portes, plutôt que d'être étalonnée plusieurs heures à l'avance dans une salle vide, en partant du principe que le réglage tiendra une fois les sièges occupés.
+
+## Le même matériel réel, étalonné selon l'échelle : notre gamme de tables de mixage
+
+La table de mixage au centre de l'étalonnage n'est pas un matériel unique et figé : elle évolue avec l'événement. Notre guide d'[assistance technique pour événements](/blog/technical-support-for-events/#real-equipment-real-troubleshooting-what-our-technicians-actually-fix) cite déjà deux de ces tables comme celles que nos techniciens pilotent pendant les discours. Voici la place de chacune.
+
+| Échelle de l'événement | Table de mixage | Canaux |
+| --- | --- | --- |
+| Petites réservations qui comprennent une table de mixage, comme le [Product Presentation Pack](/packages/product-presentation/) | Soundcraft EPM-6 | 6 |
+| Événements d'entreprise de taille moyenne, un événement presse, un lancement en concession ou un [Basic MICE Pack](/packages/basic-mice/) avec l'option technicien | Mackie Onyx 1640 | 16 |
+| Grands lieux, jusqu'aux 120 invités du [MICE Pack](/packages/mice/) | Midas M32R Live + stage box numérique MD16 | Voir ci-dessous |
+
+Une précision utile : à l'entrée de gamme de notre catalogue, une table de mixage ne fait pas toujours partie du dispositif. L'[Eco Pack](/packages/eco/) fonctionne directement sur deux enceintes actives, sans table de mixage entre les deux. L'EPM-6 n'entre en jeu que lorsque le matériel propre d'une réservation comprend une table de mixage à étalonner.
+
+## La Midas M32R Live et le MD16 : l'étalonnage dans les grands lieux
+
+Notre plus grand ensemble de mixage est une table de mixage numérique Midas M32R Live associée à un stage box numérique MD16, tous deux confirmés dans notre propre inventaire de matériel. C'est le dispositif que notre équipe utilise dans les grands lieux, à l'échelle de ce que demande réellement une réservation de [MICE Pack](/packages/mice/) pouvant accueillir jusqu'à 120 invités.
+
+Ce qui rend le MD16 digne d'être expliqué plutôt que simplement nommé, c'est ce qu'il fait différemment d'une installation de table classique. Sur une petite réservation, chaque câble de microphone fait son trajet individuellement, en faisceau, depuis la scène jusqu'à l'endroit où se trouve la table. Dans un grand lieu, cela peut représenter une longue traînée de câbles serpentant sur le sol ou fixés le long d'un mur. Le MD16 change cela : c'est un stage box déporté, placé près des microphones eux-mêmes, sur la scène ou à proximité, qui convertit chaque signal en numérique sur place. Un seul câble ramène alors tous ces canaux vers la table M32R Live, où que notre équipe la positionne dans la salle, au lieu d'un long faisceau de câbles de microphones individuels faisant le même trajet.
+
+Cela compte pour l'étalonnage de deux façons concrètes. D'abord, convertir le signal de chaque microphone près de la source, avec les préamplis intégrés au stage box plutôt qu'à la table, garde le signal propre sur une plus grande distance physique, puisqu'il ne voyage pas tout du long sous forme de signal analogique de faible niveau qui capte des parasites. Ensuite, cela donne à notre équipe un véritable contrôle canal par canal dans une grande salle : elle façonne chaque microphone individuellement, au lieu de partager des corrections de tonalité générales entre des entrées regroupées, comme doit le faire une table analogique plus petite telle que l'EPM-6. Dans une salle prévue pour 120 invités, ce niveau de contrôle individuel est précisément ce dont dépend l'étalonnage lieu par lieu, le sujet même de cette page.
+
+## L'étalonnage sur le terrain : le projet Bmotion à Marbella
+
+Pendant deux jours en mai 2026, notre équipe s'est chargée du transport, de l'installation et de l'étalonnage d'un projet d'entreprise avec l'agence [Bmotion](https://www.bmotionav.com/) à Marbella. Notre propre récit de ce projet décrit une équipe qui a réalisé un important travail de réglage audio et de test des signaux visuels avant l'entrée du premier invité dans la salle, précisément pour repérer d'éventuelles réflexions acoustiques et interférences avant que personne ne soit là pour les remarquer. Lisez le récit complet dans notre actualité sur [Bmotion à Marbella](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/).
+
+Une précision s'impose ici aussi : ce récit mentionne également un "étalonnage préalable à l'événement des réseaux de son et de vidéo". Cette page porte strictement sur la moitié audio de ce même projet, le gain staging et le réglage des enceintes face à l'acoustique de la salle, et non sur le côté vidéo ou écran. La commutation des sources d'écran et de présentation est traitée dans notre guide de [location de commutateur vidéo](/blog/video-switcher-rental/). Voir [L'étalonnage comprend-il aussi la vidéo ou la configuration des écrans](#létalonnage-comprend-il-aussi-la-vidéo-ou-la-configuration-des-écrans-) ci-dessous pour la séparation explicite.
+
+## Installations réelles que nous avons livrées
+
+![Location de sonorisation et d'écran moniteur pour une conférence de High Care International Hospital à Marbella.](https://cdn.malagaeventgear.com/blog/1278/high_care_hospital_marbella_conference_setup-scaled.webp "Une sonorisation et un écran moniteur installés pour la conférence de High Care International Hospital à Marbella.")
+
+Une sonorisation et un écran moniteur installés pour la conférence de High Care International Hospital à Marbella, la même conférence que celle de l'image de couverture de cette page.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1278/', '/1279/'])} speed="normal" direction="left" />
+</div>
+
+## Combien de temps à l'avance réserver
+
+Toutes nos réservations demandent un préavis d'au moins 24 heures, et l'étalonnage fait partie de chacune d'elles, quel que soit le forfait. Les grands lieux qui font appel à la Midas M32R Live et au stage box MD16 gagnent à être réservés plus tôt, non pas parce que l'étalonnage lui-même prend plus de temps, mais parce que confirmer à l'avance le plan d'une grande salle et le nombre d'invités permet à notre équipe de prévoir le placement des enceintes et le passage des câbles avant d'arriver, au lieu d'improviser sur place. La demande pour nos forfaits entreprise atteint un pic pendant la saison des conférences et autour des grands congrès de la Costa del Sol, confirmer tôt compte donc surtout pour les réservations de [MICE Pack](/packages/mice/).
+
+## Conclusion
+
+L'étalonnage d'un système audio chez Malaga Event Gear n'est pas un réglage fixe : c'est du gain staging et un placement des enceintes adaptés à la salle où se tient réellement votre événement, l'acoustique de la salle, l'intérieur ou l'extérieur et le nombre d'invités changeant tous ce qu'est un bon étalonnage pour un matériel identique. Notre gamme de tables de mixage suit cette logique, de la Soundcraft EPM-6 à 6 canaux jusqu'à une Midas M32R Live associée à un stage box numérique MD16 dans les grands lieux. [Contactez-nous](/contact/) avec votre lieu et votre nombre d'invités, et nous vous dirons honnêtement à quoi ressemble l'étalonnage dans votre cas. Pour la version phase par phase de ce que fait notre équipe sur place, consultez notre guide d'[assistance technique pour événements](/blog/technical-support-for-events/). Pour toute notre gamme de matériel, voir le guide de [location audiovisuelle à Malaga](/blog/audio-visual-rental/).
+
+## Questions fréquentes
+
+### Qu'est-ce que l'étalonnage d'un système audio, en termes simples ?
+
+Régler chaque microphone et chaque enceinte en fonction de la salle précise où se déroule votre événement, plutôt que de brancher le matériel et de l'allumer. Cela couvre le gain staging sur chaque entrée, le placement des enceintes et les réglages de la table de mixage, le tout ajusté à l'acoustique de cette salle, et non une configuration fixe apportée de l'événement précédent. Voir [Ce que signifie réellement l'étalonnage d'un système audio](#ce-que-signifie-réellement-létalonnage-dun-système-audio) ci-dessus.
+
+### Qu'est-ce que le gain staging, et pourquoi est-ce important ?
+
+Le gain staging consiste à régler correctement le niveau d'entrée de chaque microphone à la source, avant qu'il n'atteigne le volume général de la table de mixage. Trop bas, le signal sonne faible et capte du bruit de fond dès qu'on monte le volume pour compenser. Trop haut, il sature dès qu'un intervenant élève la voix. Voir [Le réglage du gain (gain staging) en termes simples](#le-réglage-du-gain-gain-staging-en-termes-simples) ci-dessus.
+
+### Pourquoi le même matériel demande-t-il un étalonnage différent selon le lieu ?
+
+L'acoustique de la salle change ce qu'est un bon étalonnage, même avec un matériel identique. Un plafond bas et des surfaces dures, carrelage, verre, pierre nue, renvoient rapidement le son et augmentent le risque de larsen, le gain est donc plus bas et l'angle des enceintes réglé avec plus de soin que dans une salle plus haute au mobilier doux qui absorbe le son. Voir [Pourquoi chaque lieu demande un étalonnage différent](#pourquoi-chaque-lieu-demande-un-étalonnage-différent) ci-dessus.
+
+### Un lieu en extérieur est-il étalonné différemment d'un lieu en intérieur ?
+
+Oui. Les lieux en extérieur n'ont pas de murs pour renvoyer le son comme les salles en intérieur, les enceintes sont donc placées plus près du public et le gain est souvent plus élevé pour la même couverture, puisqu'aucun son réfléchi ne comble les écarts entre les emplacements des enceintes. Voir [Intérieur, extérieur et nombre d'invités](#intérieur-extérieur-et-nombre-dinvités--ce-qui-change-vraiment) ci-dessus.
+
+### Le nombre d'invités influence-t-il l'étalonnage, et si oui comment ?
+
+Oui. Une salle pleine d'invités, avec leurs corps et leurs vêtements, absorbe le son autrement que la même salle vide pendant l'installation. C'est pourquoi une salle se teste de préférence au plus près de l'ouverture des portes, plutôt que d'être étalonnée plusieurs heures à l'avance dans une salle vide. Voir [Intérieur, extérieur et nombre d'invités](#intérieur-extérieur-et-nombre-dinvités--ce-qui-change-vraiment) ci-dessus.
+
+### Quelle table de mixage MEG utilise-t-elle pour l'étalonnage, et cela dépend-il du forfait ?
+
+Oui, elle évolue avec la taille de l'événement : une Soundcraft EPM-6 à 6 canaux pour les petites réservations avec table de mixage, comme le [Product Presentation Pack](/packages/product-presentation/), une Mackie Onyx 1640 à 16 canaux pour les événements d'entreprise de taille moyenne et une Midas M32R Live avec un stage box numérique MD16 dans les grands lieux, jusqu'aux 120 invités du [MICE Pack](/packages/mice/). L'[Eco Pack](/packages/eco/) lui-même n'a aucune table de mixage. Voir [Le même matériel réel, étalonné selon l'échelle](#le-même-matériel-réel-étalonné-selon-léchelle--notre-gamme-de-tables-de-mixage) ci-dessus.
+
+### Qu'est-ce que la Midas M32R Live et le stage box MD16, et quand MEG les utilise-t-elle ?
+
+La Midas M32R Live est notre table de mixage numérique pour les grands lieux, associée à un MD16, un stage box déporté qui convertit chaque microphone en numérique directement sur scène et ramène tous les canaux vers la table par un seul câble, au lieu d'un long faisceau de câbles de microphones individuels. Nous utilisons cet ensemble sur les grandes réservations, à l'échelle de ce que notre [MICE Pack](/packages/mice/) accueille, jusqu'à 120 invités. Voir [La Midas M32R Live et le MD16](#la-midas-m32r-live-et-le-md16--létalonnage-dans-les-grands-lieux) ci-dessus.
+
+### L'étalonnage comprend-il aussi la vidéo ou la configuration des écrans ?
+
+Non, pas sur cette page. L'étalonnage audio, c'est-à-dire le gain staging et le réglage des enceintes, est un processus distinct de la commutation des sources d'écran et de présentation, dont se charge notre [Kramer VP-731](/blog/video-switcher-rental/). Les caméras, le tournage et la diffusion en direct ne font pas non plus partie de notre propre inventaire. Voir [L'étalonnage sur le terrain](#létalonnage-sur-le-terrain--le-projet-bmotion-à-marbella) ci-dessus.
+
+### L'étalonnage se fait-il une seule fois, ou change-t-il pendant l'événement ?
+
+L'étalonnage proprement dit se fait une seule fois, avant l'arrivée de vos invités, et fixe la base de votre événement. Ce qui peut changer ensuite, un câble débranché par accident ou un fader de gain déplacé, est une question distincte pour les forfaits en autonomie où personne ne surveille les niveaux. Sur les forfaits avec technicien, la surveillance en direct continue d'ajuster à partir de cette base étalonnée pendant le déroulement de votre événement.
+
+### Dois-je être présent pendant l'étalonnage de mon matériel ?
+
+Non. Notre équipe étalonne chaque réservation avant votre arrivée ou celle de vos invités, dans le cadre de la livraison, de l'installation et du test inclus dans chaque forfait. Vous n'avez pas besoin d'être présent, même si vous êtes le bienvenu si votre emploi du temps le permet.
+
+### Combien de temps avant le début de mon événement l'étalonnage a-t-il lieu ?
+
+Notre équipe arrive et étalonne avant votre premier invité. Le mieux est de l'étalonner au plus près de l'ouverture des portes, afin de tenir compte du nombre d'invités et de l'absorption de la salle, et non plusieurs heures plus tôt quand la salle est encore vide. Voir [Intérieur, extérieur et nombre d'invités](#intérieur-extérieur-et-nombre-dinvités--ce-qui-change-vraiment) et [Combien de temps à l'avance réserver](#combien-de-temps-à-lavance-réserver) ci-dessus pour ce que cela implique sur le délai de réservation.

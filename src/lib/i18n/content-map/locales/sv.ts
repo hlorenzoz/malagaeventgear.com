@@ -78,6 +78,11 @@ export default {
 			keyword: 'hyra videoswitch i Malaga',
 			status: 'propuesta'
 		},
+		'audio-system-calibration': {
+			slug: 'kalibrering-ljudsystem',
+			keyword: 'kalibrering av ljudsystem i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'av-uthyrning-malaga',
 			keyword: 'AV-uthyrning Malaga',

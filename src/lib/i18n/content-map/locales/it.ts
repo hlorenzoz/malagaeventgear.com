@@ -78,6 +78,11 @@ export default {
 			keyword: 'noleggio switcher video a Malaga',
 			status: 'propuesta'
 		},
+		'audio-system-calibration': {
+			slug: 'calibrazione-impianto-audio-malaga',
+			keyword: "calibrazione dell'impianto audio a Malaga",
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'noleggio-audiovisivo',
 			keyword: 'noleggio audiovisivo a Malaga',

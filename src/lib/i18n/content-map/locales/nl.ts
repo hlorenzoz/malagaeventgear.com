@@ -82,6 +82,11 @@ export default {
 			keyword: 'videoswitcher huren in Malaga',
 			status: 'propuesta'
 		},
+		'audio-system-calibration': {
+			slug: 'kalibratie-geluidssysteem-malaga',
+			keyword: 'kalibratie van een geluidssysteem in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'audiovisuele-verhuur',
 			keyword: 'audiovisuele verhuur Malaga',

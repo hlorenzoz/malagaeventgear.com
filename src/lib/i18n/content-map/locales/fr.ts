@@ -82,6 +82,11 @@ export default {
 			keyword: 'location de commutateur vidéo à Malaga',
 			status: 'propuesta'
 		},
+		'audio-system-calibration': {
+			slug: 'etalonnage-systeme-audio-malaga',
+			keyword: "étalonnage d'un système audio à Malaga",
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'location-audiovisuelle-evenements-malaga',
 			keyword: 'location audiovisuelle pour événements à Malaga',

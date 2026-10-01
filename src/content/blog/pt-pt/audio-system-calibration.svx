@@ -1,0 +1,186 @@
+---
+title: "Calibração do sistema de som em Málaga, Espanha"
+description: "Calibração do sistema de som em Málaga, Espanha: estrutura de ganho explicada, porque cada local pede outros ajustes e a gama real de mesas, até à Midas M32R."
+excerpt: "Calibração do sistema de som em Málaga: o que é realmente, a estrutura de ganho em termos simples, porque é que as mesmas colunas e a mesma mesa de mistura são ajustadas de forma diferente em cada local e quais as mesas reais que a nossa equipa calibra, desde a Soundcraft de 6 canais até ao sistema digital Midas M32R Live."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Pesquisar em inglês por "audio system calibration" devolve sobretudo dois tipos de conteúdo que não servem para a reserva de um evento: guias de cinema em casa sobre software de correção acústica da sala, ou textos de engenharia escritos para instaladores que montam um sistema fixo num edifício. Nenhum deles responde à pergunta que está por trás de um aluguer: o que significa a calibração do sistema de som em Málaga, Espanha, para um único evento, e porque é que as mesmas colunas e a mesma mesa de mistura podem precisar de um ajuste diferente de um local para o outro.
+
+O nosso guia de [apoio técnico para eventos](/blog/technical-support-for-events/#before-your-event-starts-calibration-and-testing) já indica a calibração como a primeira fase que a nossa equipa executa antes de os seus convidados chegarem, num parágrafo curto. Esta página é a versão mais aprofundada desse parágrafo: o que é realmente a calibração do sistema de som em Málaga, porque muda de local para local e quais as mesas de mistura reais que a nossa equipa adapta para lá chegar.
+
+[Reserve já](/packages/) e confirme qual o pacote que serve o seu evento, adaptamos de qualquer forma o mesmo equipamento real.
+
+## Índice
+
+-   [Resumo](#resumo)
+-   [Pontos principais](#pontos-principais)
+-   [O que significa realmente a calibração do sistema de som](#o-que-significa-realmente-a-calibração-do-sistema-de-som)
+-   [A estrutura de ganho (gain staging) em termos simples](#a-estrutura-de-ganho-gain-staging-em-termos-simples)
+-   [Porque é que cada local precisa de uma calibração diferente](#porque-é-que-cada-local-precisa-de-uma-calibração-diferente)
+-   [Interior, exterior e número de convidados: o que realmente muda](#interior-exterior-e-número-de-convidados-o-que-realmente-muda)
+-   [O mesmo equipamento real, calibrado à escala: a nossa gama de mesas](#o-mesmo-equipamento-real-calibrado-à-escala-a-nossa-gama-de-mesas)
+-   [A Midas M32R Live e a MD16: calibração em locais maiores](#a-midas-m32r-live-e-a-md16-calibração-em-locais-maiores)
+-   [A calibração no terreno: o projeto Bmotion em Marbella](#a-calibração-no-terreno-o-projeto-bmotion-em-marbella)
+-   [Montagens reais que já entregámos](#montagens-reais-que-já-entregámos)
+-   [Com que antecedência reservar](#com-que-antecedência-reservar)
+-   [Conclusão](#conclusão)
+-   [Perguntas frequentes](#perguntas-frequentes)
+    -   [O que é a calibração do sistema de som, em termos simples?](#o-que-é-a-calibração-do-sistema-de-som-em-termos-simples)
+    -   [O que é a estrutura de ganho (gain staging) e porque é que importa?](#o-que-é-a-estrutura-de-ganho-gain-staging-e-porque-é-que-importa)
+    -   [Porque é que o mesmo equipamento precisa de calibração diferente em locais diferentes?](#porque-é-que-o-mesmo-equipamento-precisa-de-calibração-diferente-em-locais-diferentes)
+    -   [Um local no exterior é calibrado de forma diferente de um local no interior?](#um-local-no-exterior-é-calibrado-de-forma-diferente-de-um-local-no-interior)
+    -   [O número de convidados afeta a calibração e, se sim, como?](#o-número-de-convidados-afeta-a-calibração-e-se-sim-como)
+    -   [Que mesa de mistura usa a MEG para a calibração e depende do pacote?](#que-mesa-de-mistura-usa-a-meg-para-a-calibração-e-depende-do-pacote)
+    -   [O que são a Midas M32R Live e a stage box MD16 e quando é que a MEG as utiliza?](#o-que-são-a-midas-m32r-live-e-a-stage-box-md16-e-quando-é-que-a-meg-as-utiliza)
+    -   [A calibração inclui também a configuração de vídeo ou de ecrãs?](#a-calibração-inclui-também-a-configuração-de-vídeo-ou-de-ecrãs)
+    -   [A calibração é feita uma só vez ou muda durante o evento?](#a-calibração-é-feita-uma-só-vez-ou-muda-durante-o-evento)
+    -   [Preciso de estar presente enquanto o meu equipamento é calibrado?](#preciso-de-estar-presente-enquanto-o-meu-equipamento-é-calibrado)
+    -   [Com que antecedência em relação ao início do meu evento é feita a calibração?](#com-que-antecedência-em-relação-ao-início-do-meu-evento-é-feita-a-calibração)
+
+## Resumo
+
+---
+
+A calibração do sistema de som, na Malaga Event Gear, significa ajustar cada microfone e cada coluna à sala em que realmente estão, e não apenas ligar o equipamento e pô-lo a funcionar. O mesmo sistema de som e a mesma mesa de mistura soam de forma diferente numa sala interior de teto baixo e num jardim aberto, e de novo de forma diferente quando a sala se enche de convidados. Por isso, a calibração é o processo que a nossa equipa executa em cada reserva para que o equipamento se adapte a esse local específico.
+
+Este guia percorre o que a calibração envolve de facto, a estrutura de ganho em termos simples, porque é que a acústica da sala, o interior ou o exterior e o número de convidados mudam todos o que é uma calibração correta e quais as mesas reais com que a nossa equipa calibra, desde uma mesa básica de 6 canais até um sistema digital Midas M32R Live que a maioria dos convidados nunca verá. [Contacte-nos](/contact/) se quiser saber como isso se aplica ao seu local.
+
+## Pontos principais
+
+---
+
+-   A calibração não é uma lista de verificação genérica. É a estrutura de ganho em cada microfone, a colocação das colunas e as definições da mesa, tudo ajustado à sala concreta, e não uma definição fixa que levamos para todos os eventos.
+
+-   A estrutura de ganho (gain staging), ou seja, definir corretamente na origem o nível de cada entrada, tem de ser refeita em cada local, porque os microfones, as distâncias e a própria sala mudam.
+
+-   A acústica da sala, o interior ou o exterior e o número de convidados mudam todos o que significa uma calibração correta para equipamento idêntico. Uma sala cheia absorve o som de forma diferente da mesma sala vazia durante a montagem.
+
+-   A nossa gama de mesas cresce com o evento: uma Soundcraft EPM-6 de 6 canais para reservas mais pequenas, uma Mackie Onyx 1640 de 16 canais para eventos empresariais de média dimensão e uma Midas M32R Live com uma stage box digital MD16 em locais maiores.
+
+-   Esta página trata estritamente da calibração de áudio. A comutação de ecrãs e de apresentações é outro tema, tratado por inteiro no nosso guia de [aluguer de um comutador de vídeo](/blog/video-switcher-rental/).
+
+## O que significa realmente a calibração do sistema de som
+
+A calibração é o trabalho que a nossa equipa faz entre a chegada ao seu local e a entrada do primeiro convidado: ajustar o nível de entrada de cada microfone, verificar a colocação das colunas em função da forma da sala e definir a mesa para que todo o sistema fique num nível que soe correto nesse espaço específico, nem tão baixo que não se ouça na última fila, nem tão alto que distorça ou provoque microfonia junto à frente. Não é uma definição única, configurada de antemão e levada sem alterações para todos os eventos. A mesa de mistura do Product Presentation Pack, por exemplo, é definida de forma diferente para o showroom de um pequeno concessionário e para uma sala de conferências maior, embora a unidade física seja idêntica.
+
+A razão pela qual a calibração não se pode saltar nem uniformizar é simples: o nível de uma coluna e o ganho de um microfone só soam corretos em relação à sala em que estão. Leve exatamente o mesmo equipamento para outra sala, e o que estava correto passa a ser fraco de mais ou forte de mais. A calibração é o processo de voltar a encontrar o correto, de cada vez.
+
+## A estrutura de ganho (gain staging) em termos simples
+
+A estrutura de ganho é a parte da calibração que a maioria dos anfitriões nunca ouviu nomear, embora seja o fator mais importante para que um microfone soe limpo ou não. Cada microfone e cada entrada de áudio tem um nível, chamado ganho, definido diretamente na origem, antes de o sinal chegar ao volume geral da mesa ou às colunas.
+
+Se esse ganho for demasiado baixo, o microfone soa fraco e distante, obrigando a subir o volume geral da mesa para compensar, o que faz subir também o ruído de fundo e o ruído da sala juntamente com a voz. Se for demasiado alto, o sinal distorce, com um som áspero e crepitante chamado saturação (clipping), assim que o orador levanta a voz ou se aproxima do microfone. Uma boa estrutura de ganho fica entre os dois extremos: suficientemente forte para soar presente, sem nunca levar o sinal à distorção.
+
+<InlineCTA />
+
+A estrutura de ganho tem de ser refeita em cada evento, porque as variáveis mudam mesmo. Um microfone de fio num púlpito, numa sala de reuniões silenciosa, capta quase só a voz do orador, pelo que o seu ganho pode ficar confortavelmente alto. O mesmo tipo de microfone num palco exterior, mais longe da boca do orador e a competir com o ruído ambiente, precisa de uma definição completamente diferente. Um microfone de mão sem fios que passa entre os convidados de um casamento muda constantemente de distância, por isso a nossa equipa define o seu ganho com margem (headroom), em vez de o afinar ao limite para uma posição fixa. Nada disto é adivinhação, é a razão pela qual a nossa equipa chega e testa antes de o seu evento começar, em vez de confiar na definição da última reserva.
+
+## Porque é que cada local precisa de uma calibração diferente
+
+A acústica da sala muda o aspeto de uma calibração correta mesmo quando o equipamento é idêntico. Uma sala de teto baixo e superfícies duras, pavimentos de ladrilho, paredes de vidro, pedra nua, devolve o som ao espaço muito depressa. Essas reflexões chegam a um microfone quase tão depressa como o som direto de uma coluna, o que aumenta o risco de microfonia, o assobio crescente que um microfone produz quando capta o seu próprio som amplificado. Numa sala assim, a nossa equipa define o ganho mais baixo e orienta as colunas com mais cuidado do que numa sala mais alta, com mobiliário macio, alcatifa, cortinados, uma fila completa de cadeiras estofadas, que absorvem o som em vez de o devolverem.
+
+A altura do teto conta pela mesma razão. Um teto alto e aberto dá ao som espaço para se dissipar, em vez de o refletir diretamente para a zona dos lugares sentados, pelo que o mesmo nível de coluna que causaria problemas numa sala de conferências baixa pode ficar confortável numa sala mais alta. Nada disto se vê olhando para a lista de equipamento. Só se vê estando na sala real.
+
+## Interior, exterior e número de convidados: o que realmente muda
+
+Os locais ao ar livre eliminam as reflexões de que a calibração em interior tem de tratar e substituem-nas por um problema diferente: o ar livre e o vento levam o som embora em vez de o devolverem. Não há paredes para reforçar a saída de uma coluna, por isso a nossa equipa coloca as colunas mais perto do público e muitas vezes usa um ganho mais alto, para a mesma cobertura, do que uma instalação equivalente em interior exigiria, uma vez que não há som refletido a preencher as lacunas entre as posições das colunas. A fotografia de capa desta página, uma montagem de conferência ao ar livre para a conferência do High Care International Hospital em Marbella, é o tipo de local a que isto se aplica: sem paredes para devolver o som, a posição das colunas em relação ao público faz parte da calibração.
+
+O número de convidados altera a calibração de uma forma fácil de ignorar por completo: uma sala cheia de pessoas, com os seus corpos e roupas, absorve o som de forma diferente da mesma sala vazia durante a montagem. É uma diferença física real, não um arredondamento, e é por isso que uma sala é testada de preferência perto da abertura das portas, em vez de ser calibrada horas antes numa sala vazia, partindo do princípio de que a definição se manterá quando os convidados ocuparem os lugares.
+
+## O mesmo equipamento real, calibrado à escala: a nossa gama de mesas
+
+A mesa no centro da calibração não é uma peça fixa, cresce com o evento. O nosso guia de [apoio técnico para eventos](/blog/technical-support-for-events/#real-equipment-real-troubleshooting-what-our-technicians-actually-fix) já indica duas destas mesas como as que os nossos técnicos conduzem durante os discursos. Eis onde cada uma se encaixa.
+
+| Escala do evento | Mesa | Canais |
+| --- | --- | --- |
+| Reservas mais pequenas que incluem uma mesa, como o [Product Presentation Pack](/packages/product-presentation/) | Soundcraft EPM-6 | 6 |
+| Eventos empresariais de média dimensão, um evento de imprensa, o lançamento num concessionário ou um [Basic MICE Pack](/packages/basic-mice/) com o técnico como opção | Mackie Onyx 1640 | 16 |
+| Locais maiores, até aos 120 convidados do [MICE Pack](/packages/mice/) | Midas M32R Live + stage box digital MD16 | Ver abaixo |
+
+Convém ser rigoroso: na ponta mais pequena do nosso catálogo, uma mesa nem sempre faz parte do quadro. O próprio [Eco Pack](/packages/eco/) funciona diretamente com duas colunas ativas, sem mesa de mistura pelo meio. A EPM-6 entra em cena quando o equipamento próprio de uma reserva inclui uma mesa para calibrar.
+
+## A Midas M32R Live e a MD16: calibração em locais maiores
+
+O nosso maior conjunto de mesa é uma mesa de mistura digital Midas M32R Live, combinada com uma stage box digital MD16, ambas confirmadas no nosso próprio inventário de equipamento. É a configuração a que a nossa equipa recorre em locais maiores, a escala de que uma reserva do [MICE Pack](/packages/mice/) com até 120 convidados realmente precisa.
+
+O que torna a MD16 merecedora de explicação, e não apenas de uma menção, é o que ela faz de diferente de uma instalação de mesa normal. Numa reserva mais pequena, cada cabo de microfone corre individualmente, num feixe, desde o palco até ao local onde está a mesa. Num local maior, isso pode significar um longo rasto de cabos a serpentear pelo chão ou fixos ao longo de uma parede. A MD16 muda isso: é uma stage box remota que fica junto dos próprios microfones, em cima do palco ou perto dele, e converte cada sinal em digital no próprio local. Um único cabo traz depois todos esses canais de volta à mesa M32R Live, onde quer que a nossa equipa a posicione na sala, em vez de um longo feixe de cabos de microfone individuais a fazer o mesmo percurso.
+
+Isto é importante para a calibração de duas formas concretas. Primeiro, converter o sinal de cada microfone junto da origem, com os pré-amplificadores integrados na stage box e não na mesa, mantém o sinal limpo numa distância física maior, porque não viaja o tempo todo como sinal analógico de nível baixo a apanhar interferências. Segundo, dá à nossa equipa um controlo verdadeiro canal a canal numa sala maior, moldando cada microfone individualmente, em vez de partilhar correções de tom gerais por entradas agrupadas, como uma mesa analógica mais pequena como a EPM-6 tem de fazer. Numa sala preparada para 120 convidados, esse nível de controlo individual é exatamente aquilo de que depende a calibração local a local, o tema desta página.
+
+## A calibração no terreno: o projeto Bmotion em Marbella
+
+Durante dois dias de maio de 2026, a nossa equipa tratou do transporte, da montagem e da calibração de um projeto empresarial com a agência [Bmotion](https://www.bmotionav.com/) em Marbella. O nosso próprio relato desse projeto descreve a equipa a realizar uma extensa afinação de áudio e testes do sinal visual antes de o primeiro convidado entrar na sala, precisamente para detetar possíveis reflexões acústicas e interferências antes de haver alguém presente para as notar. Leia o relato completo na nossa notícia sobre a [Bmotion em Marbella](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/).
+
+Também aqui convém ser rigoroso: esse relato menciona ainda a "calibração prévia ao evento das redes de som e de vídeo". Esta página trata estritamente da metade de áudio desse mesmo projeto, a estrutura de ganho e a afinação das colunas face à acústica própria da sala, e não do lado do vídeo ou dos ecrãs. A comutação das fontes de ecrã e de apresentação é tratada no nosso guia de [aluguer de um comutador de vídeo](/blog/video-switcher-rental/). Veja abaixo [A calibração inclui também a configuração de vídeo ou de ecrãs](#a-calibração-inclui-também-a-configuração-de-vídeo-ou-de-ecrãs) para a separação explícita.
+
+## Montagens reais que já entregámos
+
+![Aluguer de som e de uma TV monitor para uma conferência do High Care International Hospital em Marbella.](https://cdn.malagaeventgear.com/blog/1278/high_care_hospital_marbella_conference_setup-scaled.webp "Um sistema de som e um monitor montados para a conferência do High Care International Hospital em Marbella.")
+
+Um sistema de som e um monitor montados para a conferência do High Care International Hospital em Marbella, a mesma conferência da imagem de capa desta página.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1278/', '/1279/'])} speed="normal" direction="left" />
+</div>
+
+## Com que antecedência reservar
+
+Todas as nossas reservas exigem pelo menos 24 horas de antecedência, e a calibração faz parte de cada uma delas, seja qual for o pacote. Os locais maiores que pedem a Midas M32R Live e a stage box MD16 beneficiam de mais antecedência, não porque a calibração em si demore mais, mas porque confirmar de antemão a planta e o número de convidados de uma sala maior permite à nossa equipa planear a colocação das colunas e o percurso dos cabos antes de chegar, em vez de improvisar no local. A procura pelos nossos pacotes empresariais atinge o pico durante a época de conferências e em torno dos grandes congressos na Costa del Sol, por isso confirmar cedo é sobretudo importante para as reservas do [MICE Pack](/packages/mice/).
+
+## Conclusão
+
+A calibração do sistema de som na Malaga Event Gear não é uma definição fixa, é estrutura de ganho e colocação de colunas adaptadas à sala em que o seu evento realmente decorre, com a acústica da sala, o interior ou o exterior e o número de convidados a mudar o que significa uma calibração correta para equipamento idêntico. A nossa gama de mesas acompanha isso, desde a Soundcraft EPM-6 de 6 canais até uma Midas M32R Live com uma stage box digital MD16 em locais maiores. [Contacte-nos](/contact/) com o seu local e o número de convidados, e diremos com franqueza como é a calibração para o seu caso. Para a versão fase a fase do que a nossa equipa faz no local, consulte o nosso guia de [apoio técnico para eventos](/blog/technical-support-for-events/). Para toda a nossa gama de equipamento, veja o guia de [aluguer de audiovisuais para eventos em Málaga](/blog/audio-visual-rental/).
+
+## Perguntas frequentes
+
+### O que é a calibração do sistema de som, em termos simples?
+
+Ajustar cada microfone e cada coluna à sala específica em que o seu evento decorre, em vez de ligar o equipamento e pô-lo a funcionar. Inclui a estrutura de ganho em cada entrada, a colocação das colunas e as definições da mesa, tudo ajustado à acústica dessa sala, e não uma configuração fixa trazida do último evento. Veja acima [O que significa realmente a calibração do sistema de som](#o-que-significa-realmente-a-calibração-do-sistema-de-som).
+
+### O que é a estrutura de ganho (gain staging) e porque é que importa?
+
+A estrutura de ganho consiste em definir corretamente o nível de entrada de cada microfone na origem, antes de chegar ao volume geral da mesa. Se for demasiado baixo, o sinal soa fraco e capta ruído de fundo quando se sobe o volume para compensar. Se for demasiado alto, distorce assim que um orador levanta a voz. Veja acima [A estrutura de ganho (gain staging) em termos simples](#a-estrutura-de-ganho-gain-staging-em-termos-simples).
+
+### Porque é que o mesmo equipamento precisa de calibração diferente em locais diferentes?
+
+A acústica da sala muda o aspeto de uma calibração correta mesmo com equipamento idêntico. Um teto baixo e superfícies duras, ladrilho, vidro, pedra nua, devolvem o som depressa e aumentam o risco de microfonia, pelo que o ganho fica mais baixo e os ângulos das colunas são definidos com mais cuidado do que numa sala mais alta com mobiliário macio que absorve o som. Veja acima [Porque é que cada local precisa de uma calibração diferente](#porque-é-que-cada-local-precisa-de-uma-calibração-diferente).
+
+### Um local no exterior é calibrado de forma diferente de um local no interior?
+
+Sim. Os locais ao ar livre não têm paredes que devolvam o som como as salas interiores, pelo que as colunas são colocadas mais perto do público e o ganho fica muitas vezes mais alto para a mesma cobertura, uma vez que não há som refletido a preencher as lacunas entre as posições das colunas. Veja acima [Interior, exterior e número de convidados](#interior-exterior-e-número-de-convidados-o-que-realmente-muda).
+
+### O número de convidados afeta a calibração e, se sim, como?
+
+Sim. Uma sala cheia de convidados, com os seus corpos e roupas, absorve o som de forma diferente da mesma sala vazia durante a montagem. É por isso que uma sala é testada de preferência perto da abertura das portas, em vez de ser calibrada horas antes numa sala vazia. Veja acima [Interior, exterior e número de convidados](#interior-exterior-e-número-de-convidados-o-que-realmente-muda).
+
+### Que mesa de mistura usa a MEG para a calibração e depende do pacote?
+
+Sim, cresce com a dimensão do evento: uma Soundcraft EPM-6 de 6 canais para reservas mais pequenas com mesa, como o [Product Presentation Pack](/packages/product-presentation/), uma Mackie Onyx 1640 de 16 canais para eventos empresariais de média dimensão e uma Midas M32R Live com uma stage box digital MD16 em locais maiores, até aos 120 convidados do [MICE Pack](/packages/mice/). O próprio [Eco Pack](/packages/eco/) não tem mesa nenhuma. Veja acima [O mesmo equipamento real, calibrado à escala](#o-mesmo-equipamento-real-calibrado-à-escala-a-nossa-gama-de-mesas).
+
+### O que são a Midas M32R Live e a stage box MD16 e quando é que a MEG as utiliza?
+
+A Midas M32R Live é a nossa mesa de mistura digital para locais maiores, combinada com uma MD16, uma stage box remota que converte cada microfone em digital mesmo no palco e traz todos os canais de volta à mesa por um único cabo, em vez de um longo feixe de cabos de microfone individuais. Usamos este conjunto em reservas maiores, a escala que o nosso [MICE Pack](/packages/mice/) serve até 120 convidados. Veja acima [A Midas M32R Live e a MD16](#a-midas-m32r-live-e-a-md16-calibração-em-locais-maiores).
+
+### A calibração inclui também a configuração de vídeo ou de ecrãs?
+
+Não, não nesta página. A calibração de áudio, a estrutura de ganho e a afinação das colunas, é um processo separado da comutação das fontes de ecrã e de apresentação, de que se encarrega o nosso [Kramer VP-731](/blog/video-switcher-rental/). Câmaras, filmagem e transmissão em direto também não estão no nosso inventário próprio. Veja acima [A calibração no terreno](#a-calibração-no-terreno-o-projeto-bmotion-em-marbella).
+
+### A calibração é feita uma só vez ou muda durante o evento?
+
+A calibração em si acontece uma só vez, antes de os seus convidados chegarem, e define a base de partida do seu evento. O que pode mudar depois, um cabo que se solta ou um fader de ganho tocado sem querer, é outra questão nos pacotes em autogestão, em que ninguém vigia os níveis. Nos pacotes com técnico, a monitorização em direto continua a ajustar a partir dessa base calibrada enquanto o seu evento decorre.
+
+### Preciso de estar presente enquanto o meu equipamento é calibrado?
+
+Não. A nossa equipa calibra cada reserva antes da sua chegada ou da chegada dos seus convidados, no âmbito do processo de entrega, instalação e teste de cada pacote. Não precisa de estar presente, embora seja bem-vindo se a sua agenda o permitir.
+
+### Com que antecedência em relação ao início do meu evento é feita a calibração?
+
+A nossa equipa chega e calibra antes do seu primeiro convidado. O melhor é calibrar perto da abertura das portas, para que o número de convidados e a absorção da sala fiquem contabilizados, e não horas antes, quando a sala ainda está vazia. Veja acima [Interior, exterior e número de convidados](#interior-exterior-e-número-de-convidados-o-que-realmente-muda) e [Com que antecedência reservar](#com-que-antecedência-reservar) para saber o que isso significa para a antecedência da reserva.

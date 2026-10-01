@@ -114,6 +114,11 @@ export default {
 			keyword: 'aluguel de switcher de vídeo em Málaga',
 			status: 'propuesta'
 		},
+		'audio-system-calibration': {
+			slug: 'calibracao-do-sistema-de-som',
+			keyword: 'calibração do sistema de som em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'aluguel-de-audiovisual-para-eventos',
 			keyword: 'aluguel de audiovisual para eventos em Málaga',

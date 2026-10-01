@@ -74,6 +74,11 @@ export default {
 			keyword: '馬拉加 視訊切換器租賃',
 			status: 'propuesta'
 		},
+		'audio-system-calibration': {
+			slug: '音響系統調校',
+			keyword: '馬拉加 音響系統調校',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': { slug: '影音租賃', keyword: '馬拉加 影音租賃', status: 'propuesta' },
 		'audio-visual-rental-for-conferences': { slug: '會議影音租賃', keyword: '馬拉加 會議影音租賃', status: 'propuesta' },
 		'audio-visual-rental-for-corporate-events': {

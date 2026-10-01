@@ -1,0 +1,186 @@
+---
+title: "Calibrazione dell'impianto audio a Malaga, in Spagna"
+description: "Calibrazione dell'impianto audio a Malaga, in Spagna: gain staging spiegato, impostazioni diverse per ogni sala e le vere console, fino a una Midas M32R."
+excerpt: "Calibrazione dell'impianto audio a Malaga: che cos'è davvero, il gain staging in parole semplici, perché le stesse casse e la stessa console si regolano in modo diverso in ogni location e quali sono le vere console che il nostro team calibra, dalla Soundcraft a 6 canali fino al sistema digitale Midas M32R Live."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Cercando "audio system calibration" in inglese si trovano soprattutto due tipi di contenuti che non c'entrano con la prenotazione di un evento: guide per l'home theater sui software di correzione acustica della stanza, oppure articoli di ingegneria scritti per gli installatori che cablano un impianto fisso in un edificio. Nessuno dei due risponde alla domanda che sta dietro a un noleggio: che cosa significa la calibrazione dell'impianto audio a Malaga, in Spagna, per un singolo evento, e perché le stesse casse e la stessa console possono richiedere una regolazione diversa da una location all'altra.
+
+La nostra guida al [supporto tecnico per eventi](/blog/technical-support-for-events/#before-your-event-starts-calibration-and-testing) indica già la calibrazione come la prima fase che il nostro team svolge prima dell'arrivo dei tuoi ospiti, in un breve paragrafo. Questa pagina ne è la versione più approfondita: che cos'è davvero la calibrazione dell'impianto audio a Malaga, perché cambia da una location all'altra e quali sono le vere console che il nostro team adatta per arrivarci.
+
+[Prenota ora](/packages/) e conferma quale pacchetto fa per il tuo evento: in ogni caso adattiamo la stessa attrezzatura reale.
+
+## Indice
+
+-   [In breve](#in-breve)
+-   [Punti chiave](#punti-chiave)
+-   [Cosa significa davvero la calibrazione dell'impianto audio](#cosa-significa-davvero-la-calibrazione-dellimpianto-audio)
+-   [La regolazione del guadagno (gain staging) in parole semplici](#la-regolazione-del-guadagno-gain-staging-in-parole-semplici)
+-   [Perché ogni location richiede una calibrazione diversa](#perché-ogni-location-richiede-una-calibrazione-diversa)
+-   [Interno, esterno e numero di ospiti: cosa cambia davvero](#interno-esterno-e-numero-di-ospiti-cosa-cambia-davvero)
+-   [Stessa attrezzatura reale, calibrata in base alla scala: la nostra gamma di console](#stessa-attrezzatura-reale-calibrata-in-base-alla-scala-la-nostra-gamma-di-console)
+-   [La Midas M32R Live e l'MD16: la calibrazione nelle sedi più grandi](#la-midas-m32r-live-e-lmd16-la-calibrazione-nelle-sedi-più-grandi)
+-   [La calibrazione sul campo: il progetto Bmotion a Marbella](#la-calibrazione-sul-campo-il-progetto-bmotion-a-marbella)
+-   [Allestimenti reali che abbiamo consegnato](#allestimenti-reali-che-abbiamo-consegnato)
+-   [Con quanto anticipo prenotare](#con-quanto-anticipo-prenotare)
+-   [Conclusione](#conclusione)
+-   [Domande frequenti](#domande-frequenti)
+    -   [Che cos'è la calibrazione dell'impianto audio, in parole semplici?](#che-cosè-la-calibrazione-dellimpianto-audio-in-parole-semplici)
+    -   [Che cos'è il gain staging e perché è importante?](#che-cosè-il-gain-staging-e-perché-è-importante)
+    -   [Perché la stessa attrezzatura richiede una calibrazione diversa in location diverse?](#perché-la-stessa-attrezzatura-richiede-una-calibrazione-diversa-in-location-diverse)
+    -   [Una location all'aperto viene calibrata in modo diverso da una al chiuso?](#una-location-allaperto-viene-calibrata-in-modo-diverso-da-una-al-chiuso)
+    -   [Il numero di ospiti influisce sulla calibrazione, e se sì come?](#il-numero-di-ospiti-influisce-sulla-calibrazione-e-se-sì-come)
+    -   [Quale console di mixaggio usa MEG per la calibrazione, e dipende dal pacchetto?](#quale-console-di-mixaggio-usa-meg-per-la-calibrazione-e-dipende-dal-pacchetto)
+    -   [Che cosa sono la Midas M32R Live e lo stage box MD16, e quando li usa MEG?](#che-cosa-sono-la-midas-m32r-live-e-lo-stage-box-md16-e-quando-li-usa-meg)
+    -   [La calibrazione comprende anche video o configurazione degli schermi?](#la-calibrazione-comprende-anche-video-o-configurazione-degli-schermi)
+    -   [La calibrazione si fa una sola volta, o cambia durante l'evento?](#la-calibrazione-si-fa-una-sola-volta-o-cambia-durante-levento)
+    -   [Devo essere presente mentre si calibra la mia attrezzatura?](#devo-essere-presente-mentre-si-calibra-la-mia-attrezzatura)
+    -   [Con quanto anticipo rispetto all'inizio del mio evento avviene la calibrazione?](#con-quanto-anticipo-rispetto-allinizio-del-mio-evento-avviene-la-calibrazione)
+
+## In breve
+
+---
+
+Calibrare l'impianto audio, per Malaga Event Gear, significa regolare ogni microfono e ogni cassa in base alla sala in cui si trovano davvero, e non limitarsi a collegare l'attrezzatura e ad accenderla. Lo stesso impianto audio e la stessa console suonano in modo diverso in una sala interna dal soffitto basso e in un giardino aperto, e ancora diversamente quando la sala si riempie di ospiti. La calibrazione è quindi il processo che il nostro team svolge a ogni singola prenotazione per adattare l'attrezzatura a quella specifica location.
+
+Questa guida spiega che cosa comporta davvero la calibrazione, il gain staging in parole semplici, perché l'acustica della sala, l'interno o l'esterno e il numero di ospiti cambiano tutti ciò che significa calibrare bene e quali sono le vere console con cui il nostro team calibra, da una piccola console a 6 canali fino a un sistema digitale Midas M32R Live che la maggior parte degli ospiti non vedrà mai. [Contattaci](/contact/) se vuoi sapere come sarebbe per la tua location.
+
+## Punti chiave
+
+---
+
+-   La calibrazione non è una lista di controllo generica. È gain staging su ogni microfono, posizionamento delle casse e impostazioni della console, il tutto regolato sulla sala specifica, e non un'impostazione fissa che portiamo a ogni evento.
+
+-   Il gain staging, cioè regolare correttamente alla fonte il livello di ogni ingresso, va rifatto in ogni location, perché i microfoni, le distanze e la sala stessa cambiano.
+
+-   L'acustica della sala, l'interno o l'esterno e il numero di ospiti cambiano tutti ciò che significa calibrare bene per un'attrezzatura identica. Una sala piena assorbe il suono in modo diverso rispetto alla stessa sala vuota durante il montaggio.
+
+-   La nostra gamma di console cresce con l'evento: una Soundcraft EPM-6 a 6 canali per le prenotazioni più piccole, una Mackie Onyx 1640 a 16 canali per gli eventi aziendali di medie dimensioni e una Midas M32R Live abbinata a uno stage box digitale MD16 nelle sedi più grandi.
+
+-   Questa pagina riguarda esclusivamente la calibrazione audio. La commutazione di schermi e presentazioni è un argomento a parte, trattato per intero nella nostra guida al [noleggio di uno switcher video](/blog/video-switcher-rental/).
+
+## Cosa significa davvero la calibrazione dell'impianto audio
+
+La calibrazione è il lavoro che il nostro team svolge tra l'arrivo nella tua location e l'ingresso del primo ospite: regolare il livello d'ingresso di ogni microfono, controllare il posizionamento delle casse rispetto alla forma della sala e impostare la console in modo che l'intero impianto stia a un livello che suona giusto in quello spazio preciso, né troppo basso per essere sentito nell'ultima fila, né abbastanza alto da distorcere o innescare il feedback vicino al palco. Non è un'impostazione unica configurata in anticipo e portata invariata a ogni evento. La console del Product Presentation Pack, per esempio, viene regolata in modo diverso per lo showroom di una piccola concessionaria e per una sala conferenze più grande, anche se l'apparecchio fisico è identico.
+
+Il motivo per cui la calibrazione non si può saltare né standardizzare è semplice: il livello di una cassa e il guadagno di un microfono suonano giusti solo in rapporto alla sala in cui si trovano. Sposta la stessa identica attrezzatura in un'altra sala e ciò che era corretto diventa troppo debole o troppo forte. La calibrazione è il processo con cui si ritrova il valore giusto, ogni volta.
+
+## La regolazione del guadagno (gain staging) in parole semplici
+
+Il gain staging è la parte della calibrazione che la maggior parte di chi organizza un evento non ha mai sentito nominare, anche se è il fattore più importante per capire se un microfono suona pulito oppure no. Ogni microfono e ogni ingresso audio ha un livello, chiamato guadagno (gain), impostato direttamente alla fonte, prima che il segnale arrivi al volume generale della console o alle casse.
+
+Se il guadagno è troppo basso, il microfono suona debole e lontano e costringe ad alzare il volume generale della console per compensare, il che fa salire anche il fruscio di fondo e il rumore della sala insieme alla voce. Se è troppo alto, il segnale si distorce, con un suono aspro e crepitante chiamato clipping, nel momento in cui chi parla alza la voce o si avvicina al microfono. Un gain staging corretto sta nel mezzo: abbastanza forte da essere ben presente, senza mai spingere il segnale fino alla distorsione.
+
+<InlineCTA />
+
+Il gain staging va rifatto a ogni evento perché le variabili cambiano davvero. Un microfono da leggio con filo in una sala riunioni silenziosa capta quasi solo la voce di chi parla, quindi il suo guadagno può restare tranquillamente alto. Lo stesso tipo di microfono su un palco all'aperto, più lontano dalla bocca di chi parla e in competizione con il rumore ambientale, richiede un'impostazione del tutto diversa. Un microfono palmare senza fili che passa di mano in mano tra gli ospiti di un matrimonio cambia continuamente distanza, per questo il nostro team ne imposta il guadagno lasciando un margine (headroom) invece di tararlo al limite su una posizione fissa. Niente di tutto questo è improvvisato: è il motivo per cui il nostro team arriva e testa prima dell'inizio del tuo evento, invece di fidarsi dell'impostazione dell'ultima prenotazione.
+
+## Perché ogni location richiede una calibrazione diversa
+
+L'acustica della sala cambia ciò che significa calibrare bene anche quando l'attrezzatura resta identica. Una sala con il soffitto basso e superfici dure, pavimenti di piastrelle, pareti di vetro, pietra a vista, rimanda il suono nello spazio molto rapidamente. Quei riflessi raggiungono un microfono quasi alla stessa velocità del suono diretto di una cassa, il che aumenta il rischio di feedback, il fischio crescente che un microfono produce quando capta il proprio suono amplificato. In una sala così, il nostro team imposta un guadagno più basso e orienta le casse con più attenzione rispetto a una sala più alta con materiali morbidi, moquette, tendaggi, una fila completa di sedie imbottite, che assorbono il suono invece di rimandarlo indietro.
+
+Anche l'altezza del soffitto conta per lo stesso motivo. Un soffitto alto e aperto lascia al suono uno spazio in cui disperdersi, invece di rimandarlo dritto giù verso i posti a sedere, quindi lo stesso livello di cassa che creerebbe problemi in una sala conferenze bassa può stare tranquillamente in una sala più alta. Niente di tutto questo emerge guardando l'elenco dell'attrezzatura. Emerge solo stando dentro la sala vera.
+
+## Interno, esterno e numero di ospiti: cosa cambia davvero
+
+Gli spazi all'aperto eliminano i riflessi di cui tiene conto la calibrazione in ambienti chiusi e li sostituiscono con un problema diverso: l'aria aperta e il vento portano via il suono invece di rimandarlo. Non ci sono pareti a rinforzare l'uscita di una cassa, quindi il nostro team posiziona le casse più vicino al pubblico e spesso imposta un guadagno più alto, a parità di copertura, rispetto a quanto servirebbe in un allestimento equivalente al chiuso, dato che non c'è suono riflesso a riempire i vuoti tra le posizioni delle casse. La foto di copertina di questa pagina, un allestimento di conferenza all'aperto per la conferenza dell'High Care International Hospital a Marbella, è il tipo di location a cui si applica tutto questo: senza pareti che rimandano il suono, la posizione delle casse rispetto al pubblico fa parte della calibrazione.
+
+Il numero di ospiti cambia la calibrazione in un modo facile da trascurare del tutto: una sala piena di persone, con i loro corpi e i loro vestiti, assorbe il suono in modo diverso rispetto alla stessa sala vuota durante il montaggio. È una differenza fisica reale, non un arrotondamento, ed è per questo che una sala si testa al meglio a ridosso dell'apertura delle porte, invece di calibrarla con ore di anticipo in una sala vuota supponendo che l'impostazione regga quando gli ospiti occuperanno i posti.
+
+## Stessa attrezzatura reale, calibrata in base alla scala: la nostra gamma di console
+
+La console al centro della calibrazione non è un unico apparecchio fisso, cresce con l'evento. La nostra guida al [supporto tecnico per eventi](/blog/technical-support-for-events/#real-equipment-real-troubleshooting-what-our-technicians-actually-fix) cita già due di queste console come quelle che i nostri tecnici gestiscono durante i discorsi. Ecco dove si colloca ciascuna.
+
+| Scala dell'evento | Console | Canali |
+| --- | --- | --- |
+| Prenotazioni più piccole che comprendono una console, come il [Product Presentation Pack](/packages/product-presentation/) | Soundcraft EPM-6 | 6 |
+| Eventi aziendali di medie dimensioni, un evento stampa, un lancio in concessionaria o un [Basic MICE Pack](/packages/basic-mice/) con l'aggiunta del tecnico | Mackie Onyx 1640 | 16 |
+| Sedi più grandi, fino ai 120 ospiti del [MICE Pack](/packages/mice/) | Midas M32R Live + stage box digitale MD16 | Vedi sotto |
+
+Una precisazione importante: nella parte più piccola del nostro catalogo, una console non fa sempre parte del quadro. L'[Eco Pack](/packages/eco/) funziona direttamente con due casse attive, senza console di mixaggio nel mezzo. L'EPM-6 entra in gioco quando l'attrezzatura propria di una prenotazione comprende una console da calibrare.
+
+## La Midas M32R Live e l'MD16: la calibrazione nelle sedi più grandi
+
+La nostra coppia di console più grande è una console di mixaggio digitale Midas M32R Live abbinata a uno stage box digitale MD16, entrambi confermati nel nostro inventario proprio di attrezzatura. È la configurazione che il nostro team sceglie nelle sedi più grandi, la scala di cui ha davvero bisogno una prenotazione del [MICE Pack](/packages/mice/) con un massimo di 120 ospiti.
+
+Ciò che rende l'MD16 degno di una spiegazione, e non solo di una citazione, è quello che fa in modo diverso da una configurazione standard con la console. In una prenotazione più piccola, ogni cavo microfonico corre singolarmente, in un fascio, per tutta la distanza dal palco fino al punto in cui si trova la console. In una sede più grande questo può significare una lunga serie di cavi che serpeggiano sul pavimento o sono fissati lungo una parete. L'MD16 cambia la situazione: è uno stage box remoto che sta vicino ai microfoni stessi, sul palco o accanto, e converte ogni segnale in digitale lì sul posto. Un solo cavo riporta poi tutti quei canali alla console M32R Live, ovunque il nostro team la posizioni nella sala, invece di un lungo fascio di cavi microfonici singoli che fanno lo stesso percorso.
+
+Questo conta per la calibrazione in due modi concreti. Primo, convertire il segnale di ogni microfono vicino alla fonte, con i preamplificatori integrati nello stage box invece che alla console, mantiene il segnale pulito su una distanza fisica più lunga, perché non viaggia per tutto il tragitto come segnale analogico a basso livello che raccoglie interferenze. Secondo, dà al nostro team un vero controllo canale per canale in una sala più grande, per modellare ogni microfono singolarmente invece di condividere correzioni di tono generali tra ingressi raggruppati, come deve fare una console analogica più piccola come l'EPM-6. In una sala pensata per 120 ospiti, questo livello di controllo individuale è esattamente ciò da cui dipende la calibrazione location per location, il tema stesso di questa pagina.
+
+## La calibrazione sul campo: il progetto Bmotion a Marbella
+
+Nell'arco di due giorni di maggio 2026, il nostro team si è occupato di trasporto, montaggio e calibrazione per un progetto aziendale con l'agenzia [Bmotion](https://www.bmotionav.com/) a Marbella. Il nostro resoconto di quel progetto descrive il team impegnato in un'ampia messa a punto audio e in test del segnale visivo prima che il primo ospite entrasse in sala, proprio per individuare possibili riflessi acustici e interferenze prima che ci fosse qualcuno ad accorgersene. Leggi il resoconto completo nel nostro aggiornamento su [Bmotion a Marbella](/blog/news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella/).
+
+Anche qui una precisazione: quel resoconto menziona anche la "calibrazione prima dell'evento delle reti audio e video". Questa pagina riguarda esclusivamente la metà audio dello stesso progetto, il gain staging e la messa a punto delle casse rispetto all'acustica della sala, non il lato video o schermi. La commutazione delle sorgenti di schermi e presentazioni è trattata nella nostra guida al [noleggio di uno switcher video](/blog/video-switcher-rental/). Vedi [La calibrazione comprende anche video o configurazione degli schermi](#la-calibrazione-comprende-anche-video-o-configurazione-degli-schermi) più sotto per la distinzione esplicita.
+
+## Allestimenti reali che abbiamo consegnato
+
+![Noleggio di impianto audio e TV monitor per una conferenza dell'High Care International Hospital a Marbella.](https://cdn.malagaeventgear.com/blog/1278/high_care_hospital_marbella_conference_setup-scaled.webp "Un impianto audio e un monitor allestiti per la conferenza dell'High Care International Hospital a Marbella.")
+
+Un impianto audio e un monitor allestiti per la conferenza dell'High Care International Hospital a Marbella, la stessa conferenza dell'immagine di copertina di questa pagina.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1278/', '/1279/'])} speed="normal" direction="left" />
+</div>
+
+## Con quanto anticipo prenotare
+
+Tutte le nostre prenotazioni richiedono un preavviso di almeno 24 ore, e la calibrazione fa parte di ognuna di esse, qualunque sia il pacchetto. Le sedi più grandi che richiedono la Midas M32R Live e lo stage box MD16 traggono vantaggio da un anticipo maggiore, non perché la calibrazione in sé richieda più tempo, ma perché confermare in anticipo la planimetria di una sala più grande e il numero di ospiti permette al nostro team di pianificare il posizionamento delle casse e il percorso dei cavi prima di arrivare, invece di improvvisare sul posto. La domanda per i nostri pacchetti aziendali raggiunge il picco durante la stagione delle conferenze e in occasione dei grandi congressi sulla Costa del Sol, quindi confermare presto conta soprattutto per le prenotazioni del [MICE Pack](/packages/mice/).
+
+## Conclusione
+
+La calibrazione dell'impianto audio per Malaga Event Gear non è un'impostazione fissa, è gain staging e posizionamento delle casse adattati alla sala in cui si svolge davvero il tuo evento, con acustica della sala, interno o esterno e numero di ospiti che cambiano tutti ciò che significa calibrare bene per un'attrezzatura identica. La nostra gamma di console cresce di pari passo, dalla Soundcraft EPM-6 a 6 canali fino a una Midas M32R Live abbinata a uno stage box digitale MD16 nelle sedi più grandi. [Contattaci](/contact/) indicando la tua location e il numero di ospiti e ti diremo con onestà come si presenta la calibrazione nel tuo caso. Per la versione fase per fase di ciò che fa il nostro team sul posto, consulta la nostra guida al [supporto tecnico per eventi](/blog/technical-support-for-events/). Per tutta la nostra gamma di attrezzatura, vedi la guida al [noleggio audiovisivo a Malaga](/blog/audio-visual-rental/).
+
+## Domande frequenti
+
+### Che cos'è la calibrazione dell'impianto audio, in parole semplici?
+
+Significa regolare ogni microfono e ogni cassa in base alla sala specifica in cui si svolge il tuo evento, invece di collegare l'attrezzatura e accenderla. Comprende il gain staging su ogni ingresso, il posizionamento delle casse e le impostazioni della console, il tutto regolato sull'acustica di quella sala e non su una configurazione fissa portata dall'ultimo evento. Vedi [Cosa significa davvero la calibrazione dell'impianto audio](#cosa-significa-davvero-la-calibrazione-dellimpianto-audio) più sopra.
+
+### Che cos'è il gain staging e perché è importante?
+
+Il gain staging consiste nel regolare correttamente alla fonte il livello d'ingresso di ogni microfono, prima che arrivi al volume generale della console. Se è troppo basso, il segnale suona debole e raccoglie rumore di fondo quando si alza il volume per compensare. Se è troppo alto, si distorce nel momento in cui chi parla alza la voce. Vedi [La regolazione del guadagno (gain staging) in parole semplici](#la-regolazione-del-guadagno-gain-staging-in-parole-semplici) più sopra.
+
+### Perché la stessa attrezzatura richiede una calibrazione diversa in location diverse?
+
+L'acustica della sala cambia ciò che significa calibrare bene anche con un'attrezzatura identica. Un soffitto basso e superfici dure, piastrelle, vetro, pietra a vista, rimandano il suono rapidamente e aumentano il rischio di feedback, quindi il guadagno resta più basso e l'orientamento delle casse viene curato di più rispetto a una sala più alta con arredi morbidi che assorbono il suono. Vedi [Perché ogni location richiede una calibrazione diversa](#perché-ogni-location-richiede-una-calibrazione-diversa) più sopra.
+
+### Una location all'aperto viene calibrata in modo diverso da una al chiuso?
+
+Sì. Gli spazi all'aperto non hanno pareti che rimandano il suono come le sale al chiuso, quindi le casse vengono posizionate più vicino al pubblico e il guadagno spesso è più alto a parità di copertura, perché non c'è suono riflesso a riempire i vuoti tra le posizioni delle casse. Vedi [Interno, esterno e numero di ospiti](#interno-esterno-e-numero-di-ospiti-cosa-cambia-davvero) più sopra.
+
+### Il numero di ospiti influisce sulla calibrazione, e se sì come?
+
+Sì. Una sala piena di ospiti, con i loro corpi e i loro vestiti, assorbe il suono in modo diverso rispetto alla stessa sala vuota durante il montaggio. Per questo una sala si testa al meglio a ridosso dell'apertura delle porte, invece di calibrarla con ore di anticipo in una sala vuota. Vedi [Interno, esterno e numero di ospiti](#interno-esterno-e-numero-di-ospiti-cosa-cambia-davvero) più sopra.
+
+### Quale console di mixaggio usa MEG per la calibrazione, e dipende dal pacchetto?
+
+Sì, cresce con le dimensioni dell'evento: una Soundcraft EPM-6 a 6 canali per le prenotazioni più piccole con console, come il [Product Presentation Pack](/packages/product-presentation/), una Mackie Onyx 1640 a 16 canali per gli eventi aziendali di medie dimensioni e una Midas M32R Live con uno stage box digitale MD16 nelle sedi più grandi, fino ai 120 ospiti del [MICE Pack](/packages/mice/). L'[Eco Pack](/packages/eco/) di per sé non ha nessuna console. Vedi [Stessa attrezzatura reale, calibrata in base alla scala](#stessa-attrezzatura-reale-calibrata-in-base-alla-scala-la-nostra-gamma-di-console) più sopra.
+
+### Che cosa sono la Midas M32R Live e lo stage box MD16, e quando li usa MEG?
+
+La Midas M32R Live è la nostra console di mixaggio digitale per le sedi più grandi, abbinata a un MD16, uno stage box remoto che converte ogni microfono in digitale direttamente sul palco e riporta tutti i canali alla console con un solo cavo, invece di un lungo fascio di cavi microfonici singoli. Usiamo questa coppia nelle prenotazioni più grandi, la scala che il nostro [MICE Pack](/packages/mice/) copre fino a 120 ospiti. Vedi [La Midas M32R Live e l'MD16](#la-midas-m32r-live-e-lmd16-la-calibrazione-nelle-sedi-più-grandi) più sopra.
+
+### La calibrazione comprende anche video o configurazione degli schermi?
+
+No, non in questa pagina. La calibrazione audio, cioè gain staging e messa a punto delle casse, è un processo separato dalla commutazione delle sorgenti di schermi e presentazioni, di cui si occupa il nostro [Kramer VP-731](/blog/video-switcher-rental/). Anche telecamere, riprese e streaming dal vivo non fanno parte del nostro inventario proprio. Vedi [La calibrazione sul campo](#la-calibrazione-sul-campo-il-progetto-bmotion-a-marbella) più sopra.
+
+### La calibrazione si fa una sola volta, o cambia durante l'evento?
+
+La calibrazione in sé avviene una sola volta, prima dell'arrivo dei tuoi ospiti, e stabilisce la base di partenza del tuo evento. Ciò che può cambiare dopo, un cavo che si stacca o un fader del guadagno spostato per caso, è una questione diversa nei pacchetti gestiti in autonomia, dove nessun tecnico controlla i livelli. Nei pacchetti con tecnico, il monitoraggio dal vivo continua a regolare partendo da quella base calibrata mentre il tuo evento prosegue.
+
+### Devo essere presente mentre si calibra la mia attrezzatura?
+
+No. Il nostro team calibra ogni prenotazione prima che arrivi tu o arrivino i tuoi ospiti, nell'ambito del processo di consegna, installazione e test previsto in ogni pacchetto. Non è necessario che tu sia presente, anche se sei il benvenuto se i tuoi impegni lo consentono.
+
+### Con quanto anticipo rispetto all'inizio del mio evento avviene la calibrazione?
+
+Il nostro team arriva e calibra prima del tuo primo ospite. La calibrazione è meglio farla a ridosso dell'apertura delle porte, in modo da tenere conto del numero di ospiti e dell'assorbimento della sala, e non ore prima, quando la sala è ancora vuota. Vedi [Interno, esterno e numero di ospiti](#interno-esterno-e-numero-di-ospiti-cosa-cambia-davvero) e [Con quanto anticipo prenotare](#con-quanto-anticipo-prenotare) più sopra per cosa significa questo sui tempi di prenotazione.

@@ -114,6 +114,11 @@ export default {
 			keyword: 'aluguer de comutador de vídeo em Málaga',
 			status: 'propuesta'
 		},
+		'audio-system-calibration': {
+			slug: 'calibracao-do-sistema-de-som',
+			keyword: 'calibração do sistema de som em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'aluguer-de-audiovisuais-para-eventos',
 			keyword: 'aluguer de audiovisuais para eventos em Málaga',

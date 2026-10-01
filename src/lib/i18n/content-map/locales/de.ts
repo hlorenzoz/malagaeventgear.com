@@ -82,6 +82,11 @@ export default {
 			keyword: 'Videoumschalter mieten in Malaga',
 			status: 'propuesta'
 		},
+		'audio-system-calibration': {
+			slug: 'kalibrierung-tonanlage-malaga',
+			keyword: 'Kalibrierung der Tonanlage in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'av-vermietung-malaga',
 			keyword: 'AV-Vermietung Malaga',
