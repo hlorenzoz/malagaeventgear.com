@@ -9,7 +9,14 @@
  * exists, is tracked and has no uncommitted diff. There is no backfill: several missed days mean
  * one run today.
  *
- * Chain: Ubersuggest research, then the FAQ agent, then the content plan.
+ * Chain: Ubersuggest research, then the FAQ agent, then the content plan. The steps are INDEPENDENT:
+ * a failed or quota-limited research never stops the FAQs or the plan from running, and each
+ * pending step is retried at the next trigger (up to the daily attempts).
+ *
+ * `organize` (`just todo-organize`) is a fifth, deterministic step: it needs no network and no
+ * agent, so it runs on every trigger after 09:30 (offline, attempts used up, agents failed or all
+ * done) unless another run holds the lock. It is idempotent and only rewrites TODO.json when
+ * something changed, which is how tasks blocked by the translation backlog unblock on their own.
  *
  * Flags: `--dry-run` prints the decision and touches nothing. `--force` ignores hour and done
  * flags (the lock and the offline check still apply) for manual runs.
@@ -52,13 +59,16 @@ export interface GuardDecision {
 	runResearch: boolean;
 	runFaqs: boolean;
 	runPlan: boolean;
+	/** Deterministic TODO.json organizer: independent of the agents, the network and the attempts. */
+	runOrganize: boolean;
 	reason: string;
 }
 
-const none = (reason: string): GuardDecision => ({
+const none = (reason: string, runOrganize = false): GuardDecision => ({
 	runResearch: false,
 	runFaqs: false,
 	runPlan: false,
+	runOrganize,
 	reason
 });
 
@@ -66,19 +76,26 @@ const none = (reason: string): GuardDecision => ({
 export function decideDailyRun(i: GuardInput): GuardDecision {
 	if (i.lockHeld) return none('another run holds the lock');
 	if (i.minutes < START_MINUTES) return none(`before ${startLabel()}`);
+	// From here on the organizer always runs: it depends on none of the conditions below.
 	if (i.researchDone && i.faqsDone && i.planDone) {
-		return none('research, faqs and plan already committed');
+		return none('research, faqs and plan already committed', true);
 	}
-	if (!i.online) return none('offline, will retry at the next trigger');
+	if (!i.online) return none('offline, will retry at the next trigger', true);
 	if (i.attemptsToday >= i.maxAttempts) {
-		return none(`daily attempts used up (${i.attemptsToday}/${i.maxAttempts})`);
+		return none(`daily attempts used up (${i.attemptsToday}/${i.maxAttempts})`, true);
 	}
-	const runPlan = !i.planDone;
-	if (!i.researchDone) {
-		return { runResearch: true, runFaqs: !i.faqsDone, runPlan, reason: 'research pending' };
-	}
-	if (!i.faqsDone) return { runResearch: false, runFaqs: true, runPlan, reason: 'faqs pending' };
-	return { runResearch: false, runFaqs: false, runPlan: true, reason: 'plan pending' };
+	const reason = !i.researchDone
+		? 'research pending'
+		: !i.faqsDone
+			? 'faqs pending'
+			: 'plan pending';
+	return {
+		runResearch: !i.researchDone,
+		runFaqs: !i.faqsDone,
+		runPlan: !i.planDone,
+		runOrganize: true,
+		reason
+	};
 }
 
 /** Pure: local time of day in minutes since midnight. `override` is `HH:MM` (tests and manual
@@ -192,9 +209,19 @@ async function isOnline(): Promise<boolean> {
 	}
 }
 
-async function run(recipe: string): Promise<void> {
+async function run(recipe: string): Promise<number> {
 	const p = Bun.spawn(['just', recipe], { stdout: 'inherit', stderr: 'inherit' });
-	await p.exited;
+	return await p.exited;
+}
+
+/** One step of the chain: a crash or a non-zero exit is logged and never stops the next step. */
+async function step(today: string, label: string, recipe: string): Promise<void> {
+	try {
+		const code = await run(recipe);
+		if (code !== 0) log(today, `${label} exited with code ${code}`);
+	} catch (e) {
+		log(today, `${label} crashed: ${e instanceof Error ? e.message : String(e)}`);
+	}
 }
 
 async function main(): Promise<void> {
@@ -226,13 +253,12 @@ async function main(): Promise<void> {
 		lockHeld: held,
 		online
 	});
-	const plan = [
+	const agentSteps = [
 		decision.runResearch && 'research',
 		decision.runFaqs && 'faqs',
 		decision.runPlan && 'plan'
-	]
-		.filter(Boolean)
-		.join(' + ');
+	].filter(Boolean);
+	const plan = [...agentSteps, decision.runOrganize && 'organize'].filter(Boolean).join(' + ');
 	const state = `research=${researchDone ? 'done' : 'pending'} faqs=${faqsDone ? 'done' : 'pending'} plan=${planDone ? 'done' : 'pending'} attempts=${attemptsToday}/${maxAttempts}`;
 	if (!plan) {
 		log(today, `skip (${decision.reason}) [${state}]`);
@@ -248,30 +274,33 @@ async function main(): Promise<void> {
 	}
 	try {
 		pruneOldAttempts(today);
-		const attempts = readAttempts(today) + 1;
-		writeFileSync(attemptsPath(today), String(attempts));
-		log(today, `run ${plan} (${decision.reason}) attempt ${attempts}/${maxAttempts}`);
-		let researchOk = researchDone;
+		// Only a run that calls an agent spends one of the daily attempts: organize-only runs are free.
+		let attempts = readAttempts(today);
+		if (agentSteps.length) {
+			attempts += 1;
+			writeFileSync(attemptsPath(today), String(attempts));
+		}
+		log(
+			today,
+			`run ${plan} (${decision.reason})${agentSteps.length ? ` attempt ${attempts}/${maxAttempts}` : ''}`
+		);
+		// The agent steps are independent: each one that is pending runs, whatever happened before it.
 		if (decision.runResearch) {
-			await run('keywords-research');
-			researchOk = await isCommitted(researchFile(today));
-			log(today, `research ${researchOk ? 'done' : 'NOT done'}`);
+			await step(today, 'research', 'keywords-research');
+			log(today, `research ${(await isCommitted(researchFile(today))) ? 'done' : 'NOT done'}`);
 		}
-		let faqsOk = faqsDone;
 		if (decision.runFaqs) {
-			await run('faq-research');
-			faqsOk = await isCommitted(faqsFile(today));
-			log(today, `faqs ${faqsOk ? 'done' : 'NOT done'}`);
-		}
-		// Plan choice: if research or the FAQs are still missing and retries remain, the plan waits
-		// for the next trigger, so it never runs on yesterday's data unless attempts run out.
-		if (decision.runPlan && !(researchOk && faqsOk) && attempts < maxAttempts && !force) {
-			log(today, 'plan deferred (research or faqs not done, retries remain)');
-			return;
+			await step(today, 'faqs', 'faq-research');
+			log(today, `faqs ${(await isCommitted(faqsFile(today))) ? 'done' : 'NOT done'}`);
 		}
 		if (decision.runPlan) {
-			await run('content-plan');
+			await step(today, 'plan', 'content-plan');
 			log(today, `plan ${(await isCommitted(planFile(today))) ? 'done' : 'NOT done'}`);
+		}
+		// Last and unconditional: it also unblocks tasks when the agents did nothing or failed.
+		if (decision.runOrganize) {
+			await step(today, 'organize', 'todo-organize');
+			log(today, 'organize finished');
 		}
 	} finally {
 		rmSync(LOCK_DIR, { recursive: true, force: true });

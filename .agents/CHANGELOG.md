@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (agents): `daily-guard.ts` ya no frena las etapas siguientes cuando una falla
+- **Decision del usuario (2026-10-01)**: un fallo de la investigacion de Ubersuggest (error, tope de presupuesto, cuota agotada) no tiene por que parar el resto de la cadena.
+- Antes, si la investigacion o las FAQs quedaban sin hacer, el plan se difería hasta el tercer intento, y `todo-organize` solo corria si el agente del plan llegaba a invocarlo (`content-plan-apply`). Ahora las etapas son independientes y cada pendiente se reintenta en el siguiente disparo.
+- Etapa nueva `organize` (`just todo-organize`), determinista y sin red: corre en cada disparo desde las 09:30, incluso offline, con los intentos agotados, con los agentes fallados o con todo hecho, salvo que otro run tenga el lock. Una corrida solo de `organize` no gasta intentos. Asi las tareas bloqueadas por traducciones se destraban solas en el siguiente disparo.
+- `decideDailyRun` suma `runOrganize` (7 tests nuevos, strict TDD); `main()` ejecuta cada etapa con `step()`, que registra un cierre anormal sin cortar la cadena. Documentado en `CLAUDE.md` ("Corridas perdidas").
+
 ### Added (blog): los 77 posts publicados estan traducidos a los 12 idiomas (2026-10-01)
 - Cierra el backlog de traducciones: `just content-candidates` informa `missing: 0, complete: true` (77 posts ingleses, 12 idiomas). El cupo de posts nuevos pasa a alternar 1 y 2 por dia y las tareas bloqueadas por traducciones se destraban solas en el proximo `just todo-organize`.
 - Ultimos 5 posts traducidos, cada uno precedido de una revision del ingles: `audio-visual-rental-for-private-parties`, `av-system-troubleshooting`, `7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain`, `news-malaga-event-gear-unveils-new-rebranded-website`, `what-renting-av-gear-in-malaga-taught-me-about-smart-business`.

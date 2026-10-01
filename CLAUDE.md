@@ -1663,14 +1663,23 @@ nada que hacer, el guard sale sin llamar a Claude.
   hecha si `ubersuggest/<hoy>.json` está trackeado y sin diff, las FAQs de hoy si
   `faqs/<hoy>.json` lo está, y el plan de hoy si `content-plan/<hoy>.json` lo está. "Hoy" es la fecha local de Europe/Madrid.
 - **Qué corre**, en cadena: investigación de Ubersuggest, después FAQs, después el plan. Corre solo lo
-  que falta. Si la investigación o las FAQs siguen sin hechas tras correr y quedan intentos, el plan
-  espera al próximo disparo, para no planificar con datos de ayer. Con los intentos agotados, el
-  plan corre igual.
+  que falta. **Las etapas son independientes** (decisión del usuario, 2026-10-01): que la
+  investigación falle, o se quede sin cuota de Ubersuggest, no frena a las FAQs ni al plan, y cada
+  etapa que falló se reintenta en el próximo disparo (hasta los intentos del día). Un plan sobre
+  los datos de ayer es mejor que ningún plan: las keywords nuevas entran al plan del día siguiente.
+- **`organize` corre siempre** (`just todo-organize`, ordena `.agents/data/TODO.json`): es una etapa
+  determinista, sin red ni agente, así que NO depende de que las demás terminen. Corre en cada
+  disparo a partir de las 09:30, incluso sin red, con los intentos agotados, con los agentes
+  fallados o con todo hecho, salvo que otro run tenga el lock. Es idempotente y solo reescribe
+  `TODO.json` si algo cambió. Así las tareas bloqueadas por traducciones se destraban solas en el
+  siguiente disparo, sin esperar al agente del plan (que también lo invoca por su cuenta). Una
+  corrida solo de `organize` no gasta intentos.
 - **Sin backfill**: varios días perdidos son UNA sola corrida hoy.
-- **Frenos**: nada antes de las 09:30, sin red (HEAD a `api.anthropic.com`, 5 s), con otro run en
-  curso (lock en `~/Library/Application Support/malagaeventgear/keywords-daily/lock`, se descarta
-  si su PID murió o tiene más de 3 horas) ni tras 3 intentos en el día (contador
-  `attempts-<hoy>` en esa carpeta, se cuenta al arrancar un run y se borran los de más de 7 días).
+- **Frenos** (de los agentes; `organize` solo respeta la hora y el lock): nada antes de las 09:30,
+  sin red (HEAD a `api.anthropic.com`, 5 s), con otro run en curso (lock en
+  `~/Library/Application Support/malagaeventgear/keywords-daily/lock`, se descarta si su PID murió
+  o tiene más de 3 horas) ni tras 3 intentos en el día (contador `attempts-<hoy>` en esa carpeta,
+  se cuenta al arrancar un run con agentes y se borran los de más de 7 días).
 - **Manual**: `just keywords-daily --dry-run` imprime la decisión sin correr ni tocar estado.
   `--force` ignora hora, "hecho" e intentos, pero respeta el lock y la red.
 - **Log**: una línea por decisión, `keywords-daily <fecha> <hora>: ...`, en

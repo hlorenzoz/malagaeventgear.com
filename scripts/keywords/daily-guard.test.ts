@@ -97,6 +97,46 @@ describe('decideDailyRun', () => {
 	});
 });
 
+describe('decideDailyRun: organize runs independently of the agents', () => {
+	it('organizes when every agent step is pending', () => {
+		expect(decideDailyRun(base).runOrganize).toBe(true);
+	});
+
+	it('organizes even when everything is already done (it unblocks tasks when the translation backlog reaches 0)', () => {
+		const d = decideDailyRun({ ...base, researchDone: true, faqsDone: true, planDone: true });
+		expect([d.runResearch, d.runFaqs, d.runPlan]).toEqual([false, false, false]);
+		expect(d.runOrganize).toBe(true);
+		expect(d.reason).toContain('already committed');
+	});
+
+	it('organizes when offline: it needs no network', () => {
+		const d = decideDailyRun({ ...base, online: false });
+		expect([d.runResearch, d.runFaqs, d.runPlan]).toEqual([false, false, false]);
+		expect(d.runOrganize).toBe(true);
+		expect(d.reason).toContain('offline');
+	});
+
+	it('organizes once the daily attempts are used up', () => {
+		const d = decideDailyRun({ ...base, attemptsToday: 3 });
+		expect([d.runResearch, d.runFaqs, d.runPlan]).toEqual([false, false, false]);
+		expect(d.runOrganize).toBe(true);
+		expect(d.reason).toContain('attempts');
+	});
+
+	it('does not organize while another run holds the lock', () => {
+		expect(decideDailyRun({ ...base, lockHeld: true }).runOrganize).toBe(false);
+	});
+
+	it('does not organize before 09:30', () => {
+		expect(decideDailyRun({ ...base, minutes: 9 * 60 + 29 }).runOrganize).toBe(false);
+	});
+
+	it('keeps the agent steps independent: a pending plan never waits for research or FAQs', () => {
+		const d = decideDailyRun({ ...base, researchDone: false, faqsDone: false, planDone: false });
+		expect([d.runResearch, d.runFaqs, d.runPlan]).toEqual([true, true, true]);
+	});
+});
+
 describe('isLockStale', () => {
 	const now = 10_000_000_000;
 	it('is stale when the pid is dead', () => {
