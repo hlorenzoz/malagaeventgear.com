@@ -1,0 +1,140 @@
+---
+title: "Consignes de sécurité pour la location audiovisuelle à Malaga"
+description: "Consignes de sécurité pour la location audiovisuelle à Malaga, en Espagne : technicien sur place, pieds, charge électrique et notre franchise sur le rigging."
+excerpt: "Les consignes de sécurité pour la location audiovisuelle à Malaga, dans leur version honnête et propre à l'audiovisuel : qui est sur place pour réagir, comment notre équipe place les pieds d'enceinte et de microphone, comment nous envisageons la charge électrique, et la seule chose que notre propre équipe ne fait vraiment pas, le rigging en hauteur."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Une recherche en anglais sur "audio visual rental safety guidelines" fait surtout remonter des listes générales de préparation d'événement, la fixation des tentes, la vérification des prestataires, la capacité de charge des structures, rien de précis sur le matériel audiovisuel lui-même. Ce qui manque presque partout dans ces résultats, c'est la version pratique des consignes de sécurité pour la location audiovisuelle à Malaga, en Espagne : qui est réellement sur place pour réagir si quelque chose tourne mal, comment une équipe place un pied d'enceinte ou de microphone pour qu'il ne devienne pas un danger, et ce qu'une société de location touche honnêtement, ou non, quand il s'agit de charges suspendues.
+
+Cette page est cette version pratique, construite autour de la façon dont Malaga Event Gear livre réellement une réservation, et non autour d'une liste générique. [Contactez-nous](/contact/) avec les détails de votre lieu si vous voulez que nous passions en revue votre configuration précise avant de réserver.
+
+## Table des matières
+
+-   [En bref](#en-bref)
+-   [Points clés](#points-clés)
+-   [La vraie différence en matière de sécurité : un technicien sur place ou une installation en autonomie](#la-vraie-différence-en-matière-de-sécurité--un-technicien-sur-place-ou-une-installation-en-autonomie)
+-   [Placement du matériel et stabilité des pieds](#placement-du-matériel-et-stabilité-des-pieds)
+-   [Charge électrique et sécurité des circuits](#charge-électrique-et-sécurité-des-circuits)
+-   [La sécurité des invités autour du matériel](#la-sécurité-des-invités-autour-du-matériel)
+-   [Ce que notre propre équipe ne fait pas : le rigging ou le truss en hauteur](#ce-que-notre-propre-équipe-ne-fait-pas--le-rigging-ou-le-truss-en-hauteur)
+-   [Des installations réelles que nous avons livrées](#des-installations-réelles-que-nous-avons-livrées)
+-   [Combien de temps à l'avance réserver](#combien-de-temps-à-lavance-réserver)
+-   [Conclusion](#conclusion)
+-   [Questions fréquentes](#questions-fréquentes)
+    -   [Malaga Event Gear utilise-t-il du rigging ou du truss pour fixer des enceintes ou des lumières en hauteur ?](#malaga-event-gear-utilise-t-il-du-rigging-ou-du-truss-pour-fixer-des-enceintes-ou-des-lumières-en-hauteur-)
+    -   [Qui est réellement sur place pour régler un problème de sécurité pendant mon événement ?](#qui-est-réellement-sur-place-pour-régler-un-problème-de-sécurité-pendant-mon-événement-)
+    -   [Comment protégez-vous les invités autour des pieds d'enceinte et de microphone ?](#comment-protégez-vous-les-invités-autour-des-pieds-denceinte-et-de-microphone-)
+    -   [Malaga Event Gear vérifie-t-il la charge électrique ou la capacité des circuits avant l'installation ?](#malaga-event-gear-vérifie-t-il-la-charge-électrique-ou-la-capacité-des-circuits-avant-linstallation-)
+    -   [Les câbles représentent-ils un risque pour la sécurité lors de mon événement ?](#les-câbles-représentent-ils-un-risque-pour-la-sécurité-lors-de-mon-événement-)
+    -   [La météo change-t-elle la sécurité de l'installation du matériel en extérieur ?](#la-météo-change-t-elle-la-sécurité-de-linstallation-du-matériel-en-extérieur-)
+
+## En bref
+
+---
+
+La vraie réponse à "quelles sont vos consignes de sécurité" n'est ni une certification ni une fiche technique publiée, c'est la description de la façon dont notre équipe travaille réellement : enceintes, microphones et projecteurs d'éclairage sur leurs propres pieds au sol, pas de construction de truss ni de rigging suspendu par notre propre équipe, un placement soigné des pieds hors des principaux passages et, sur les forfaits qui en comprennent un, un technicien sur place qui peut réagir si quelque chose bouge pendant l'événement. Cette page les passe en revue un par un, avec la seule lacune à signaler honnêtement : sur nos forfaits en autonomie, personne n'est sur place pour repérer un problème après le départ de notre équipe.
+
+## Points clés
+
+---
+
+-   Notre propre équipe ne construit pas de truss et n'accroche pas d'enceintes ni de projecteurs d'éclairage en hauteur. Enceintes, microphones et projecteurs d'éclairage reposent sur leurs propres trépieds au sol, confirmés par rapport à notre propre inventaire. La seule chose que notre équipe tend, ce sont les guirlandes lumineuses du Wedding Pack, le long d'une structure de votre lieu.
+-   Un technicien sur place, inclus avec le [Wedding Pack](/packages/wedding/) et le [MICE Pack](/packages/mice/), peut repositionner un pied, resserrer une connexion ou réagir si un invité heurte le matériel pendant l'événement. L'[Eco Pack](/packages/eco/), le [Basic MICE Pack](/packages/basic-mice/) et le [Product Presentation Pack](/packages/product-presentation/) fonctionnent en autonomie une fois que notre équipe a installé et testé le système.
+-   Notre propre inventaire comprend des trépieds d'enceinte, des pieds de microphone réglables et des trépieds d'éclairage pour chaque installation, et notre équipe place chacun sur un sol plat, hors des passages principaux et à l'écart des portes.
+-   Nous ne publions pas de fiche technique de puissance ou d'intensité pour notre matériel. Notre conseil pratique est de confirmer à l'avance la capacité électrique du lieu et de répartir la charge sur plusieurs circuits, avec la même franchise que nous appliquons ailleurs sur ce site aux longueurs de câble et à la résistance aux intempéries.
+-   Nous travaillons uniquement en livraison. Notre propre équipe se charge de l'installation et de la récupération dans tous les cas, le client n'a donc jamais à déplacer ou à régler le matériel lui-même.
+
+## La vraie différence en matière de sécurité : un technicien sur place ou une installation en autonomie
+
+<InlineCTA />
+
+Ce que l'on entend le plus souvent par "consignes de sécurité" pour du matériel audiovisuel relève en réalité d'une question de personnel, pas de produit. Un pied d'enceinte qui commence à pencher, un microphone qu'un invité envoie dans un passage, un câble qui se débranche quand on déplace une table, aucun de ces cas n'est évité par un meilleur matériel. Ils sont repérés, ou non, par la personne présente sur place pour les remarquer.
+
+Avec le [Wedding Pack](/packages/wedding/) et le [MICE Pack](/packages/mice/), un technicien sur place reste pendant l'événement, ou jusqu'à 6 heures d'affilée avec le MICE Pack. Il peut repositionner un pied, remettre un câble en place ou intervenir dès que quelque chose semble anormal. Avec l'[Eco Pack](/packages/eco/), le [Basic MICE Pack](/packages/basic-mice/) et le [Product Presentation Pack](/packages/product-presentation/), notre équipe livre, installe et teste le système de façon professionnelle, puis il fonctionne sans surveillance pour le reste de l'événement. C'est une posture de sécurité réellement différente, et mieux vaut le savoir avant de choisir un forfait, pas après.
+
+## Placement du matériel et stabilité des pieds
+
+Les enceintes, microphones et projecteurs d'éclairage que nous livrons sont posés sur des pieds au sol, pris dans notre propre inventaire de trépieds d'enceinte, de pieds de microphone réglables et de trépieds d'éclairage, et notre propre équipe ne les accroche ni au plafond ni à un truss. Les guirlandes lumineuses du Wedding Pack font exception à la règle du pied : notre équipe les tend le long d'une structure que le lieu possède déjà. Le placement devient donc la vraie variable de sécurité, et notre équipe applique les mêmes habitudes de base à chaque réservation :
+
+-   **D'abord un sol plat.** Un trépied sur une terrasse irrégulière ou un coin de pelouse meuble présente un vrai risque de stabilité : le sol plat est donc la première chose à chercher avant d'installer un pied.
+-   **Hors des passages principaux.** Les pieds se placent sur le côté de l'endroit où les invités circuleront réellement, et non sur la ligne naturelle entre une piste de danse, un bar ou la sortie.
+-   **À l'écart des portes.** Un pied qui bloque une porte est à la fois un risque de chute et un problème si la salle doit se vider rapidement.
+
+La photo plus bas sur cette page, prise lors d'une présentation dans une concession Volvo, le montre en pratique : une enceinte HK Audio sur son propre trépied, placée sur le côté de la zone d'assise des invités plutôt que devant.
+
+## Charge électrique et sécurité des circuits
+
+Nous ne publions pas de fiche technique de puissance ou d'intensité pour notre matériel de sonorisation, d'éclairage et d'affichage, avec la même franchise que nous appliquons ailleurs sur ce site aux longueurs de câble et aux indices de résistance aux intempéries. Ce que nous pouvons dire en pratique : ce sont généralement les circuits du lieu, et non notre matériel, qui constituent la vraie contrainte, et une seule prise surchargée qui alimente à la fois un système de sonorisation, un dispositif d'éclairage et un écran d'affichage est le vrai risque, et non un défaut du matériel lui-même.
+
+Deux choses aident à l'éviter. D'abord, indiquez-nous la situation électrique de votre lieu au moment de réserver, combien de prises se trouvent près de la zone d'installation et si elles partagent un même circuit, afin que notre équipe prévoie la charge avant son arrivée au lieu d'improviser sur place. Ensuite, avec les forfaits qui comprennent un technicien, cette personne est sur place si un disjoncteur saute ou si une connexion lâche pendant l'événement, ce qu'une installation en autonomie avec l'[Eco Pack](/packages/eco/) ou le [Basic MICE Pack](/packages/basic-mice/) ne peut pas offrir une fois que notre équipe est partie.
+
+## La sécurité des invités autour du matériel
+
+Une fois le matériel placé et sous tension, le risque restant consiste surtout à tenir les invités, et leurs verres, à l'écart. Un trépied d'enceinte ou d'éclairage est stable sur un sol plat dans des conditions normales, mais il n'est pas conçu pour qu'on s'y appuie, qu'un invité le déplace ou qu'on y pose un verre. Notre équipe place les pieds en tenant compte de cela, hors des chemins que les gens empruntent réellement et à l'écart des endroits où une foule est susceptible de se rassembler, en particulier près d'une piste de danse ou d'un bar.
+
+Avec le [Wedding Pack](/packages/wedding/) et le [MICE Pack](/packages/mice/), notre technicien sur place constitue aussi une seconde couche de protection : si un pied est bousculé ou si un invité s'approche trop d'un passage de câbles, il peut intervenir en temps réel. Avec un forfait en autonomie, cette responsabilité repose sur le placement initial que notre équipe réalise avant de partir, ce qui explique précisément pourquoi le placement hors des passages principaux compte davantage, et non moins, sur ces réservations.
+
+## Ce que notre propre équipe ne fait pas : le rigging ou le truss en hauteur
+
+Être honnête sur notre approche de la sécurité, c'est être direct sur notre périmètre. Notre propre équipe ne construit pas de truss et n'accroche pas d'enceintes ni de projecteurs d'éclairage à une grille de plafond, à un truss de scène ou à un line array suspendu. Nos enceintes, nos microphones et nos projecteurs d'éclairage reposent au sol ou sur pied, chacun sur son propre trépied, et la seule chose que notre équipe tend, ce sont les guirlandes lumineuses du Wedding Pack, le long d'une structure que votre lieu possède déjà.
+
+Si votre événement exige réellement du matériel suspendu, dites-le-nous tôt, avant de réserver et non sur place. Nous pouvons chercher un fournisseur de rigging spécialisé, si nous en trouvons un, et le rigging lui-même serait son travail, jamais celui de notre propre équipe.
+
+Les installations sur pied conviennent aux mariages, aux événements d'entreprise et aux fêtes privées que nous livrons à Malaga et sur la Costa del Sol. C'est aussi, à sa façon, une simplification en matière de sécurité : notre propre équipe n'a aucun calcul de charge suspendue à rater, puisqu'elle n'accroche ni enceinte ni projecteur d'éclairage au-dessus de la tête d'un invité.
+
+## Des installations réelles que nous avons livrées
+
+![Une enceinte HK Audio sur son propre trépied au sol, sur le côté des tabourets d'assise, lors d'une présentation dans une concession Volvo à Malaga, avec la table d'intervenants aux couleurs de la marque du lieu derrière.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-1024x765.webp "Le système de sonorisation HK Audio fourni par Malaga Event Gear pour une présentation dans une concession Volvo à Malaga.")
+
+Une présentation dans une concession Volvo où Malaga Event Gear a fourni le système de sonorisation : une enceinte sur son propre trépied se trouve sur le côté de la zone d'assise plutôt que devant.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1267/'])} speed="normal" direction="left" />
+</div>
+
+<blockquote>
+<p lang="en">"We recently used Málaga Event Gear for our End of Season Party, and the service was outstanding. The sound and equipment were top quality, and we had a dedicated technician on-site the entire time to assist with everything we needed. Fantastic experience. Highly recommended."</p>
+<ul><li>Anna Wisser, avis Google 5 étoiles, décembre 2025</li></ul>
+</blockquote>
+
+## Combien de temps à l'avance réserver
+
+Toute réservation demande un préavis d'au moins 24 heures. Ce délai compte aussi pour la planification de la sécurité : nous indiquer à l'avance la disposition de votre lieu, sa situation électrique et le flux d'invités prévu permet à notre équipe de planifier le placement des pieds et la charge électrique avant son arrivée, plutôt que de le déterminer sur place alors que les invités sont déjà là. Si votre événement a une disposition inhabituelle, plusieurs niveaux ou un lieu que vous ne connaissez pas bien vous-même, dites-le-nous le plus tôt possible.
+
+## Conclusion
+
+Les consignes de sécurité pour la location audiovisuelle à Malaga, pour le matériel que Malaga Event Gear fournit réellement, se résument à 4 pratiques honnêtes. Enceintes, microphones et projecteurs d'éclairage reposent sur des pieds au sol, sans truss ni rigging suspendu de la part de notre propre équipe. Les pieds sont placés hors des passages et des portes. L'alimentation du lieu est planifiée à l'avance plutôt que supposée. Et avec le [Wedding Pack](/packages/wedding/) et le [MICE Pack](/packages/mice/), un technicien sur place peut réagir si quelque chose bouge pendant l'événement. [Contactez-nous](/contact/) avec les détails de votre lieu, et pour toute notre gamme de matériel, consultez la page de [location audiovisuelle à Malaga](/blog/audio-visual-rental/).
+
+## Questions fréquentes
+
+### Malaga Event Gear utilise-t-il du rigging ou du truss pour fixer des enceintes ou des lumières en hauteur ?
+
+Non, pas avec notre propre équipe. Nos enceintes, nos microphones et nos projecteurs d'éclairage sont posés au sol ou sur pied, chacun sur son propre trépied, confirmés par rapport à notre propre inventaire, et l'équipe ne construit pas de truss et n'accroche pas d'enceintes ni de projecteurs d'éclairage en hauteur. La seule chose que notre équipe tend, ce sont les guirlandes lumineuses du Wedding Pack, le long d'une structure de votre lieu. Voir [Ce que notre propre équipe ne fait pas : le rigging ou le truss en hauteur](#ce-que-notre-propre-équipe-ne-fait-pas--le-rigging-ou-le-truss-en-hauteur) ci-dessus.
+
+### Qui est réellement sur place pour régler un problème de sécurité pendant mon événement ?
+
+Uniquement avec le [Wedding Pack](/packages/wedding/) et le [MICE Pack](/packages/mice/), qui comprennent un technicien sur place pouvant repositionner un pied, remettre un câble en place ou réagir si un invité heurte le matériel pendant l'événement. L'[Eco Pack](/packages/eco/), le [Basic MICE Pack](/packages/basic-mice/) et le [Product Presentation Pack](/packages/product-presentation/) fonctionnent en autonomie une fois que notre équipe a installé et testé le système : personne n'est donc sur place pour réagir ensuite. Voir [La vraie différence en matière de sécurité](#la-vraie-différence-en-matière-de-sécurité--un-technicien-sur-place-ou-une-installation-en-autonomie) ci-dessus.
+
+### Comment protégez-vous les invités autour des pieds d'enceinte et de microphone ?
+
+Notre équipe place les pieds sur un sol plat, hors des passages principaux et à l'écart des portes, afin que les invités ne passent ni au travers ni autour de matériel en fonctionnement. Avec les forfaits qui comprennent un technicien, cette personne surveille aussi si un pied est bousculé ou si un invité se tient trop près pendant l'événement lui-même. Voir [La sécurité des invités autour du matériel](#la-sécurité-des-invités-autour-du-matériel) ci-dessus.
+
+### Malaga Event Gear vérifie-t-il la charge électrique ou la capacité des circuits avant l'installation ?
+
+Nous ne publions pas de fiche technique de puissance ou d'intensité pour notre matériel, mais nous nous renseignons sur la situation électrique de votre lieu au moment de la réservation, combien de prises se trouvent près de la zone d'installation et si elles partagent un circuit, afin que notre équipe prévoie la charge à l'avance plutôt que d'improviser sur place. Voir [Charge électrique et sécurité des circuits](#charge-électrique-et-sécurité-des-circuits) ci-dessus.
+
+### Les câbles représentent-ils un risque pour la sécurité lors de mon événement ?
+
+Ils peuvent en être un s'ils traînent en travers d'un chemin de passage, et c'est précisément pourquoi notre équipe fait cheminer et fixe les câbles, le long des murs et du bord du sol, scotchés à plat partout où un câble traverse un passage, dans le cadre de chaque installation plutôt que d'en faire un souci à part.
+
+### La météo change-t-elle la sécurité de l'installation du matériel en extérieur ?
+
+Oui, principalement à cause de l'humidité près des câbles et des connecteurs, et du vent qui affecte la stabilité des pieds sur l'herbe, le sable ou une terrasse ouverte. Nous ne publions pas d'indice de résistance aux intempéries pour notre matériel, et lors des réservations en extérieur nous planifions le placement des pieds et le cheminement des câbles en fonction des conditions réelles du jour, plutôt que d'appliquer une méthode fixe quelle que soit la météo.

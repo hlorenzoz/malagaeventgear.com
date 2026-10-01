@@ -391,6 +391,11 @@ export default {
 			slug: 'entreprise-location-audiovisuelle-malaga',
 			keyword: 'entreprise de location audiovisuelle à Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-safety-guidelines': {
+			slug: 'consignes-securite-location-audiovisuelle-malaga',
+			keyword: 'consignes de sécurité pour la location audiovisuelle à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

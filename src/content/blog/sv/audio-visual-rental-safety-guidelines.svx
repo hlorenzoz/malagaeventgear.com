@@ -1,0 +1,140 @@
+---
+title: "Säkerhetsriktlinjer för AV-uthyrning i Malaga"
+description: "Säkerhetsriktlinjer för AV-uthyrning i Malaga, Spanien: tekniker på plats, placering av stativ, elbelastning och vår ärliga redovisning om rigging."
+excerpt: "Säkerhetsriktlinjerna för AV-uthyrning i Malaga i den ärliga, AV-specifika versionen: vem som finns på plats för att agera, hur vårt team placerar högtalar- och mikrofonstativ, hur vi tänker kring elbelastning och det enda som vårt eget team verkligen inte gör, rigging ovanför huvudhöjd."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+En sökning på engelska efter "audio visual rental safety guidelines" ger mest generella checklistor för evenemangsplanering, förankring av tält, granskning av leverantörer och bärförmåga hos konstruktioner, inget av det specifikt för själva AV-utrustningen. Det som saknas nästan överallt i de resultaten är den praktiska versionen av säkerhetsriktlinjer för AV-uthyrning i Malaga, Spanien: vem som faktiskt finns på plats för att agera om något går fel, hur ett team placerar ett högtalar- eller mikrofonstativ så att det inte blir en fara, och vad ett uthyrningsföretag ärligt hanterar och inte hanterar när det gäller last ovanför huvudhöjd.
+
+Den här sidan är den praktiska versionen, byggd kring hur Malaga Event Gear faktiskt levererar en bokning, inte kring en generell lista. [Kontakta oss](/contact/) med uppgifter om din lokal om du vill att vi går igenom din specifika planlösning innan du bokar.
+
+## Innehållsförteckning
+
+-   [Kort översikt](#kort-översikt)
+-   [Det viktigaste](#det-viktigaste)
+-   [Den verkliga säkerhetsskillnaden: en tekniker på plats eller en uppsättning du sköter själv](#den-verkliga-säkerhetsskillnaden-en-tekniker-på-plats-eller-en-uppsättning-du-sköter-själv)
+-   [Placering av utrustning och stativens stabilitet](#placering-av-utrustning-och-stativens-stabilitet)
+-   [Elbelastning och säkerhet för elgrupper](#elbelastning-och-säkerhet-för-elgrupper)
+-   [Gästernas säkerhet runt utrustningen](#gästernas-säkerhet-runt-utrustningen)
+-   [Det vårt eget team inte gör: rigging eller truss ovanför huvudhöjd](#det-vårt-eget-team-inte-gör-rigging-eller-truss-ovanför-huvudhöjd)
+-   [Verkliga uppsättningar vi har levererat](#verkliga-uppsättningar-vi-har-levererat)
+-   [Hur långt i förväg du ska boka](#hur-långt-i-förväg-du-ska-boka)
+-   [Slutsats](#slutsats)
+-   [Vanliga frågor](#vanliga-frågor)
+    -   [Använder Malaga Event Gear rigging eller truss för att montera högtalare eller ljus ovanför huvudhöjd?](#använder-malaga-event-gear-rigging-eller-truss-för-att-montera-högtalare-eller-ljus-ovanför-huvudhöjd)
+    -   [Vem finns egentligen på plats för att hantera ett säkerhetsproblem under mitt evenemang?](#vem-finns-egentligen-på-plats-för-att-hantera-ett-säkerhetsproblem-under-mitt-evenemang)
+    -   [Hur håller ni gäster säkra runt högtalar- och mikrofonstativ?](#hur-håller-ni-gäster-säkra-runt-högtalar--och-mikrofonstativ)
+    -   [Kontrollerar Malaga Event Gear elbelastning eller elgruppernas kapacitet före uppsättningen?](#kontrollerar-malaga-event-gear-elbelastning-eller-elgruppernas-kapacitet-före-uppsättningen)
+    -   [Är kablar en säkerhetsrisk vid mitt evenemang?](#är-kablar-en-säkerhetsrisk-vid-mitt-evenemang)
+    -   [Ändrar vädret hur säkert utrustningen kan ställas upp utomhus?](#ändrar-vädret-hur-säkert-utrustningen-kan-ställas-upp-utomhus)
+
+## Kort översikt
+
+---
+
+Det ärliga svaret på "vilka är era säkerhetsriktlinjer" är inget certifikat och inget publicerat datablad, det är en beskrivning av hur vårt team faktiskt arbetar: högtalare, mikrofoner och armaturer på egna stativ på golvet, ingen byggnation av truss och ingen upphängd rigging av vårt eget team, noggrann placering av stativen utanför de viktigaste gångvägarna och, på de paket som har en, en tekniker på plats som kan agera om något flyttar sig under evenemanget. Den här sidan går igenom varje del i tur och ordning, plus den enda ärliga luckan: på våra paket som du sköter själv finns ingen på plats som kan fånga upp ett problem efter att vårt team har lämnat.
+
+## Det viktigaste
+
+---
+
+-   Vårt eget team bygger inte truss och hänger inte upp högtalare eller armaturer ovanför huvudhöjd. Högtalare, mikrofoner och armaturer står på egna stativ på golvet, bekräftat mot vårt eget lager. Det enda vårt team spänner upp är ljusslingorna i Wedding Pack, längs en konstruktion i din lokal.
+-   En tekniker på plats, som ingår i [Wedding Pack](/packages/wedding/) och [MICE Pack](/packages/mice/), kan flytta ett stativ, dra åt en anslutning eller agera om en gäst stöter till utrustningen under evenemanget. [Eco Pack](/packages/eco/), [Basic MICE Pack](/packages/basic-mice/) och [Product Presentation Pack](/packages/product-presentation/) sköter du själv efter att vårt team har installerat och testat systemet.
+-   Vårt eget lager innehåller högtalarstativ, justerbara mikrofonstativ och ljusstativ för varje uppsättning, och vårt team placerar varje stativ på plant underlag, utanför de viktigaste gångvägarna och bort från dörrar.
+-   Vi publicerar inget datablad med watt eller ampere för vår utrustning. Vårt praktiska råd är att bekräfta lokalens elkapacitet i förväg och fördela belastningen över flera grupper, med samma ärlighet som vi tillämpar på andra ställen på den här webbplatsen när det gäller kabellängder och väderbeständighet.
+-   Vi arbetar bara med leverans. Vårt eget team sköter alltid uppsättning och hämtning, så kunden förväntas aldrig flytta eller justera utrustningen själv.
+
+## Den verkliga säkerhetsskillnaden: en tekniker på plats eller en uppsättning du sköter själv
+
+<InlineCTA />
+
+Det mesta som människor menar med "säkerhetsriktlinjer" för AV-utrustning är i själva verket en bemanningsfråga, inte en produktfråga. Ett högtalarstativ som börjar luta, en mikrofon som en gäst stöter ut i en gångväg, en kabel som lossnar när ett bord flyttas, inget av det förhindras av bättre utrustning. Det upptäcks, eller inte, av den som finns på plats för att märka det.
+
+Med [Wedding Pack](/packages/wedding/) och [MICE Pack](/packages/mice/) stannar en tekniker på plats under evenemanget, eller i upp till 6 sammanhängande timmar med MICE Pack. Personen kan flytta ett stativ, ordna en lös kabel eller gripa in så fort något ser fel ut. Med [Eco Pack](/packages/eco/), [Basic MICE Pack](/packages/basic-mice/) och [Product Presentation Pack](/packages/product-presentation/) levererar, installerar och testar vårt team systemet professionellt, och sedan går det utan uppsikt under resten av evenemanget. Det är en verkligt annorlunda säkerhetsposition, och det är värt att känna till innan du väljer paket, inte efteråt.
+
+## Placering av utrustning och stativens stabilitet
+
+Högtalarna, mikrofonerna och armaturerna vi levererar står på golvstativ, hämtade från vårt eget lager av högtalarstativ, justerbara mikrofonstativ och ljusstativ, och vårt eget team hänger inte upp dem i ett tak eller en truss. Ljusslingorna i Wedding Pack är undantaget från stativet: vårt team spänner upp dem längs en konstruktion som lokalen redan har. Det gör placeringen till den verkliga säkerhetsvariabeln, och vårt team följer samma grundvanor vid varje bokning:
+
+-   **Plant underlag först.** Ett stativ på en ojämn terrass eller en mjuk gräsplätt är en verklig stabilitetsrisk, så plant underlag är det första man letar efter innan ett stativ ställs upp.
+-   **Utanför de viktigaste gångvägarna.** Stativen placeras vid sidan av där gästerna faktiskt kommer att röra sig, inte tvärs över den naturliga linjen mellan ett dansgolv, en bar eller utgången.
+-   **Bort från dörrar.** Ett stativ som blockerar en dörr är både en snubbelrisk och ett problem om rummet snabbt behöver tömmas.
+
+Fotot längre ner på den här sidan, från en presentation hos en Volvo-återförsäljare, visar det i praktiken: en HK Audio-högtalare på sitt eget stativ, placerad vid sidan av gästernas sittplatser i stället för framför.
+
+## Elbelastning och säkerhet för elgrupper
+
+Vi publicerar inget datablad med watt eller ampere för vår ljud-, ljus- och skärmutrustning, med samma ärlighet som vi tillämpar på andra ställen på den här webbplatsen när det gäller kabellängder och väderbeständighetsklasser. Det vi kan säga i praktiken: lokalens egna elgrupper, inte vår utrustning, är oftast den verkliga begränsningen, och ett enda överbelastat vägguttag som matar ett ljudsystem, en ljusuppsättning och en skärm samtidigt är den faktiska risken, inte ett fel på själva utrustningen.
+
+Två saker hjälper till att undvika det. För det första: berätta för oss hur strömsituationen ser ut i din lokal när du bokar, hur många vägguttag som finns nära uppsättningsplatsen och om de delar grupp, så att vårt team kan planera belastningen före ankomsten i stället för att improvisera på plats. För det andra, på paket med tekniker finns den personen på plats om en säkring löser ut eller en anslutning går sönder under evenemanget, något som en uppsättning du sköter själv med [Eco Pack](/packages/eco/) eller [Basic MICE Pack](/packages/basic-mice/) inte kan erbjuda när vårt team har lämnat.
+
+## Gästernas säkerhet runt utrustningen
+
+När utrustningen är placerad och påslagen handlar den återstående risken mest om att hålla gäster, och deras drinkar, borta från den. Ett högtalar- eller ljusstativ står stabilt på plant underlag under normala förhållanden, men är inte gjort för att lutas mot, flyttas av en gäst eller användas som ställe att ställa ett glas. Vårt team placerar stativen med det i åtanke, utanför de vägar människor faktiskt går och bort från platser där en folksamling sannolikt samlas, särskilt nära ett dansgolv eller en bar.
+
+Med [Wedding Pack](/packages/wedding/) och [MICE Pack](/packages/mice/) är vår tekniker på plats också ett andra skyddslager här: om ett stativ knuffas till eller en gäst kommer för nära en kabelsträcka kan personen ingripa i realtid. På ett paket som du sköter själv ligger det ansvaret på den första placeringen som vårt team gör innan det går, och det är precis därför placering utanför de viktigaste gångvägarna betyder mer, inte mindre, vid de bokningarna.
+
+## Det vårt eget team inte gör: rigging eller truss ovanför huvudhöjd
+
+Att vara ärlig om vårt säkerhetsarbete innebär att vara rak om vår omfattning. Vårt eget team bygger inte truss och hänger inte upp högtalare eller armaturer från ett takrutnät, en scentruss eller en upphängd line array. Våra högtalare, mikrofoner och armaturer står på golvet eller på stativ, var och en på sitt eget stativ, och det enda vårt team spänner upp är ljusslingorna i Wedding Pack, längs en konstruktion som din lokal redan har.
+
+Om ditt evenemang verkligen kräver upphängd utrustning, säg till tidigt, innan du bokar och inte på plats. Vi kan söka efter en specialiserad riggleverantör, om vi kan hitta en, och själva riggningen skulle vara dennes arbete, aldrig vårt eget teams.
+
+Uppsättningar på golvstativ passar de bröllop, företagsevenemang och privata fester som vi levererar till i Malaga och på Costa del Sol. Det är också, på sitt sätt, en förenkling för säkerheten: vårt eget team har ingen beräkning av upphängd last att räkna fel på, eftersom det inte hänger upp en högtalare eller en armatur ovanför en gästs huvud.
+
+## Verkliga uppsättningar vi har levererat
+
+![En HK Audio-högtalare på sitt eget golvstativ vid sidan av sittplatserna på pallar vid en presentation hos en Volvo-återförsäljare i Malaga, med lokalens panelbord med varumärke bakom.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-1024x765.webp "HK Audio-ljudsystemet som Malaga Event Gear levererade till en presentation hos en Volvo-återförsäljare i Malaga.")
+
+En presentation hos en Volvo-återförsäljare där Malaga Event Gear levererade ljudsystemet: en högtalare på sitt eget stativ står vid sidan av sittplatserna i stället för framför.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1267/'])} speed="normal" direction="left" />
+</div>
+
+<blockquote>
+<p lang="en">"We recently used Málaga Event Gear for our End of Season Party, and the service was outstanding. The sound and equipment were top quality, and we had a dedicated technician on-site the entire time to assist with everything we needed. Fantastic experience. Highly recommended."</p>
+<ul><li>Anna Wisser, Google-recension med 5 stjärnor, december 2025</li></ul>
+</blockquote>
+
+## Hur långt i förväg du ska boka
+
+Varje bokning kräver minst 24 timmars varsel. Det fönstret räknas också för säkerhetsplaneringen: när du berättar för oss i förväg hur din lokal är planerad, hur strömsituationen ser ut och hur gästflödet väntas bli kan vårt team planera placeringen av stativen och elbelastningen före ankomsten, i stället för att reda ut det på plats när gästerna redan är där. Om ditt evenemang har en ovanlig planlösning, flera våningar eller en lokal du inte själv känner väl, säg till så tidigt du kan.
+
+## Slutsats
+
+Säkerhetsriktlinjer för AV-uthyrning i Malaga, för den utrustning som Malaga Event Gear faktiskt levererar, handlar om 4 ärliga arbetssätt. Högtalare, mikrofoner och armaturer står på golvstativ, utan truss eller upphängd rigging från vårt eget team. Stativen placeras utanför gångvägar och dörrar. Lokalens strömförsörjning planeras i förväg i stället för att antas. Och med [Wedding Pack](/packages/wedding/) och [MICE Pack](/packages/mice/) kan en tekniker på plats agera om något flyttar sig under evenemanget. [Kontakta oss](/contact/) med uppgifter om din lokal, och för hela vårt utbud av utrustning, se [sidan om AV-uthyrning i Malaga](/blog/audio-visual-rental/).
+
+## Vanliga frågor
+
+### Använder Malaga Event Gear rigging eller truss för att montera högtalare eller ljus ovanför huvudhöjd?
+
+Nej, inte med vårt eget team. Våra högtalare, mikrofoner och armaturer står på golvet eller på stativ, var och en på sitt eget stativ, bekräftat mot vårt eget lager, och teamet bygger inte truss och hänger inte upp högtalare eller armaturer ovanför huvudhöjd. Det enda vårt team spänner upp är ljusslingorna i Wedding Pack, längs en konstruktion i din lokal. Se [Det vårt eget team inte gör: rigging eller truss ovanför huvudhöjd](#det-vårt-eget-team-inte-gör-rigging-eller-truss-ovanför-huvudhöjd) ovan.
+
+### Vem finns egentligen på plats för att hantera ett säkerhetsproblem under mitt evenemang?
+
+Bara med [Wedding Pack](/packages/wedding/) och [MICE Pack](/packages/mice/). I dem ingår en tekniker på plats som kan flytta ett stativ, ordna en lös kabel eller agera om en gäst stöter till utrustningen under evenemanget. [Eco Pack](/packages/eco/), [Basic MICE Pack](/packages/basic-mice/) och [Product Presentation Pack](/packages/product-presentation/) sköter du själv efter att vårt team har installerat och testat systemet, så efteråt finns ingen på plats som kan agera. Se [Den verkliga säkerhetsskillnaden](#den-verkliga-säkerhetsskillnaden-en-tekniker-på-plats-eller-en-uppsättning-du-sköter-själv) ovan.
+
+### Hur håller ni gäster säkra runt högtalar- och mikrofonstativ?
+
+Vårt team placerar stativen på plant underlag, utanför de viktigaste gångvägarna och bort från dörrar, så att gäster inte går igenom eller runt utrustning som är i bruk. På paket med tekniker håller den personen också utkik efter ett stativ som knuffas till eller en gäst som står för nära under själva evenemanget. Se [Gästernas säkerhet runt utrustningen](#gästernas-säkerhet-runt-utrustningen) ovan.
+
+### Kontrollerar Malaga Event Gear elbelastning eller elgruppernas kapacitet före uppsättningen?
+
+Vi publicerar inget datablad med watt eller ampere för vår utrustning, men vi frågar om strömsituationen i din lokal när du bokar, hur många vägguttag som finns nära uppsättningsplatsen och om de delar grupp, så att vårt team kan planera belastningen i förväg i stället för att improvisera på plats. Se [Elbelastning och säkerhet för elgrupper](#elbelastning-och-säkerhet-för-elgrupper) ovan.
+
+### Är kablar en säkerhetsrisk vid mitt evenemang?
+
+De kan vara det om de ligger lösa över en gångväg, och det är precis därför vårt team drar och fäster kablarna, längs väggar och golvkanter, tejpade plant där en sträcka korsar en väg, som en del av varje uppsättning i stället för att lämna det som en separat fråga.
+
+### Ändrar vädret hur säkert utrustningen kan ställas upp utomhus?
+
+Ja, främst när det gäller fukt vid kablar och kontakter, och vind som påverkar stativens stabilitet på gräs, sand eller en öppen terrass. Vi publicerar ingen väderbeständighetsklass för någon av våra utrustningar, och vid bokningar utomhus planerar vi stativens placering och kabeldragningen utifrån de faktiska förhållandena på dagen, i stället för en fast metod oavsett väder.

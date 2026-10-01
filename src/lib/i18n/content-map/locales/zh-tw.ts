@@ -371,6 +371,11 @@ export default {
 			slug: '老牌影音租賃公司',
 			keyword: '馬拉加 老牌影音租賃公司',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-safety-guidelines': {
+			slug: '影音租賃安全指南',
+			keyword: '馬拉加 影音租賃安全指南',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

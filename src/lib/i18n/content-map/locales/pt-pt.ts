@@ -423,6 +423,11 @@ export default {
 			slug: 'empresa-de-aluguer-de-audiovisuais-em-malaga',
 			keyword: 'empresa de aluguer de audiovisuais em Málaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-safety-guidelines': {
+			slug: 'diretrizes-seguranca-aluguer-audiovisuais-malaga',
+			keyword: 'diretrizes de segurança para o aluguer de audiovisuais em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

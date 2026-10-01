@@ -391,6 +391,11 @@ export default {
 			slug: 'av-udlejningsvirksomhed-malaga',
 			keyword: 'AV-udlejningsvirksomhed i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-safety-guidelines': {
+			slug: 'sikkerhedsretningslinjer-av-udlejning-malaga',
+			keyword: 'sikkerhedsretningslinjer for AV-udlejning i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -371,6 +371,11 @@ export default {
 			slug: '老牌活动视听租赁公司',
 			keyword: '马拉加 老牌活动视听租赁公司',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-safety-guidelines': {
+			slug: '视听租赁安全指南',
+			keyword: '马拉加 视听租赁安全指南',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

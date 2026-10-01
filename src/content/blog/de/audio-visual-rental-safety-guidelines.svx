@@ -1,0 +1,140 @@
+---
+title: "Sicherheitsrichtlinien zur AV-Vermietung in Malaga"
+description: "Sicherheitsrichtlinien zur AV-Vermietung in Malaga, Spanien: Techniker vor Ort, Platzierung der Stative, Stromlast und unsere ehrliche Angabe zum Rigging."
+excerpt: "Die Sicherheitsrichtlinien zur AV-Vermietung in Malaga in ihrer ehrlichen, auf AV zugeschnittenen Fassung: wer vor Ort ist, um zu reagieren, wie unser Team Lautsprecher- und Mikrofonstative platziert, wie wir die Stromlast betrachten und das eine, was unser eigenes Team wirklich nicht tut, das Rigging über Kopf."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Wer auf Englisch nach "audio visual rental safety guidelines" sucht, findet meist allgemeine Checklisten zur Eventplanung, zur Sicherung von Zelten, zur Prüfung von Dienstleistern und zur Tragfähigkeit von Konstruktionen, nichts davon bezieht sich auf die AV-Technik selbst. Was in diesen Ergebnissen fast überall fehlt, ist die praktische Version der Sicherheitsrichtlinien zur AV-Vermietung in Malaga, Spanien: wer tatsächlich vor Ort ist, um zu reagieren, wenn etwas schiefgeht, wie ein Team ein Lautsprecher- oder Mikrofonstativ so aufstellt, dass es keine Gefahr wird, und was ein Verleihunternehmen bei Lasten über Kopf ehrlich anfasst und was nicht.
+
+Diese Seite ist diese praktische Version, aufgebaut darauf, wie Malaga Event Gear eine Buchung tatsächlich ausliefert, und nicht auf einer allgemeinen Liste. [Kontaktieren Sie uns](/contact/) mit den Daten Ihres Veranstaltungsorts, wenn wir vor der Buchung gemeinsam Ihre konkrete Raumaufteilung durchgehen sollen.
+
+## Inhaltsverzeichnis
+
+-   [Kurzüberblick](#kurzüberblick)
+-   [Das Wichtigste](#das-wichtigste)
+-   [Der eigentliche Sicherheitsunterschied: ein Techniker vor Ort oder ein Aufbau in Eigenregie](#der-eigentliche-sicherheitsunterschied-ein-techniker-vor-ort-oder-ein-aufbau-in-eigenregie)
+-   [Platzierung der Technik und Standfestigkeit der Stative](#platzierung-der-technik-und-standfestigkeit-der-stative)
+-   [Stromlast und Sicherheit der Stromkreise](#stromlast-und-sicherheit-der-stromkreise)
+-   [Die Sicherheit der Gäste rund um die Technik](#die-sicherheit-der-gäste-rund-um-die-technik)
+-   [Was unser eigenes Team nicht tut: Rigging oder Traversen über Kopf](#was-unser-eigenes-team-nicht-tut-rigging-oder-traversen-über-kopf)
+-   [Reale Aufbauten, die wir geliefert haben](#reale-aufbauten-die-wir-geliefert-haben)
+-   [Wie weit im Voraus buchen](#wie-weit-im-voraus-buchen)
+-   [Fazit](#fazit)
+-   [Häufige Fragen](#häufige-fragen)
+    -   [Nutzt Malaga Event Gear Rigging oder Traversen, um Lautsprecher oder Lichter über Kopf zu montieren?](#nutzt-malaga-event-gear-rigging-oder-traversen-um-lautsprecher-oder-lichter-über-kopf-zu-montieren)
+    -   [Wer ist während meiner Veranstaltung tatsächlich vor Ort, um ein Sicherheitsproblem zu lösen?](#wer-ist-während-meiner-veranstaltung-tatsächlich-vor-ort-um-ein-sicherheitsproblem-zu-lösen)
+    -   [Wie halten Sie Gäste rund um Lautsprecher- und Mikrofonstative sicher?](#wie-halten-sie-gäste-rund-um-lautsprecher--und-mikrofonstative-sicher)
+    -   [Prüft Malaga Event Gear vor dem Aufbau die Stromlast oder Stromkreiskapazität?](#prüft-malaga-event-gear-vor-dem-aufbau-die-stromlast-oder-stromkreiskapazität)
+    -   [Sind Kabel bei meiner Veranstaltung ein Sicherheitsrisiko?](#sind-kabel-bei-meiner-veranstaltung-ein-sicherheitsrisiko)
+    -   [Verändert das Wetter, wie sicher die Technik im Freien aufgebaut werden kann?](#verändert-das-wetter-wie-sicher-die-technik-im-freien-aufgebaut-werden-kann)
+
+## Kurzüberblick
+
+---
+
+Die ehrliche Antwort auf "wie lauten Ihre Sicherheitsrichtlinien" ist weder ein Zertifikat noch ein veröffentlichtes Datenblatt, sondern eine Beschreibung, wie unser Team tatsächlich arbeitet: Lautsprecher, Mikrofone und Scheinwerfer auf eigenen Bodenstativen, kein Traversenbau und kein abgehängtes Rigging durch unser eigenes Team, eine sorgfältige Platzierung der Stative abseits der Hauptlaufwege und, bei den Paketen, die einen enthalten, ein Techniker vor Ort, der reagieren kann, wenn sich während der Veranstaltung etwas verschiebt. Diese Seite behandelt jeden dieser Punkte der Reihe nach, dazu die eine ehrliche Lücke: Bei unseren Paketen in Eigenregie ist niemand vor Ort, der ein Problem bemerkt, nachdem unser Team gegangen ist.
+
+## Das Wichtigste
+
+---
+
+-   Unser eigenes Team baut keine Traversen und hängt keine Lautsprecher oder Scheinwerfer über Kopf ab. Lautsprecher, Mikrofone und Scheinwerfer stehen auf eigenen Bodenstativen, abgeglichen mit unserem eigenen Bestand. Das Einzige, was unser Team aufspannt, sind die Lichterketten des Wedding Pack, entlang einer Konstruktion an Ihrem Veranstaltungsort.
+-   Ein Techniker vor Ort, enthalten im [Wedding Pack](/packages/wedding/) und im [MICE Pack](/packages/mice/), kann ein Stativ umstellen, eine Verbindung festziehen oder reagieren, wenn ein Gast während der Veranstaltung gegen die Technik stößt. Das [Eco Pack](/packages/eco/), das [Basic MICE Pack](/packages/basic-mice/) und das [Product Presentation Pack](/packages/product-presentation/) laufen in Eigenregie, nachdem unser Team das System aufgebaut und getestet hat.
+-   Unser eigener Bestand umfasst für jeden Aufbau Lautsprecherstative, verstellbare Mikrofonstative und Lichtstative, und unser Team stellt jedes auf ebenem Boden auf, abseits der Hauptlaufwege und von Türen.
+-   Wir veröffentlichen kein Datenblatt mit Watt- oder Ampere-Angaben für unsere Technik. Unser praktischer Rat ist, die Stromkapazität des Veranstaltungsorts vorab zu bestätigen und die Last auf mehrere Stromkreise zu verteilen, mit derselben Ehrlichkeit, die wir an anderer Stelle auf dieser Website bei Kabellängen und Wetterfestigkeit anwenden.
+-   Wir arbeiten ausschließlich im Liefermodell. Unser eigenes Team übernimmt in jedem Fall Aufbau und Abholung, sodass vom Kunden nie erwartet wird, die Technik selbst zu bewegen oder einzustellen.
+
+## Der eigentliche Sicherheitsunterschied: ein Techniker vor Ort oder ein Aufbau in Eigenregie
+
+<InlineCTA />
+
+Was die meisten mit "Sicherheitsrichtlinien" für AV-Technik meinen, ist in Wirklichkeit eine Frage des Personals, nicht des Produkts. Ein Stativ, das sich zu neigen beginnt, ein Mikrofon, das ein Gast in einen Laufweg stößt, ein Kabel, das sich löst, wenn ein Tisch verschoben wird, nichts davon wird durch bessere Hardware verhindert. Es wird bemerkt oder eben nicht, je nachdem, wer vor Ort ist, um es zu sehen.
+
+Beim [Wedding Pack](/packages/wedding/) und beim [MICE Pack](/packages/mice/) bleibt ein Techniker vor Ort für die Veranstaltung, beim MICE Pack für bis zu 6 Stunden am Stück. Er kann ein Stativ umstellen, ein loses Kabel richten oder eingreifen, sobald etwas nicht stimmt. Beim [Eco Pack](/packages/eco/), [Basic MICE Pack](/packages/basic-mice/) und [Product Presentation Pack](/packages/product-presentation/) liefert, installiert und testet unser Team das System professionell, danach läuft es für den Rest der Veranstaltung ohne Aufsicht. Das ist eine grundlegend andere Sicherheitslage, und es lohnt sich, sie vor der Wahl eines Pakets zu kennen, nicht danach.
+
+## Platzierung der Technik und Standfestigkeit der Stative
+
+Die Lautsprecher, Mikrofone und Scheinwerfer, die wir liefern, stehen auf Bodenstativen aus unserem eigenen Bestand an Lautsprecherstativen, verstellbaren Mikrofonstativen und Lichtstativen, und unser eigenes Team hängt sie weder an der Decke noch an einer Traverse ab. Die Lichterketten des Wedding Pack sind die Ausnahme vom Stativ: Unser Team spannt sie entlang einer Konstruktion, die der Veranstaltungsort bereits hat. Damit ist die Platzierung die eigentliche Sicherheitsvariable, und unser Team hält sich bei jeder Buchung an dieselben Grundregeln:
+
+-   **Zuerst ebener Boden.** Ein Stativ auf einer unebenen Terrasse oder einer weichen Rasenstelle ist ein echtes Standfestigkeitsrisiko, deshalb ist ebener Boden das Erste, wonach man vor dem Aufstellen eines Stativs sucht.
+-   **Abseits der Hauptlaufwege.** Stative stehen seitlich davon, wo sich die Gäste tatsächlich bewegen werden, nicht auf der natürlichen Linie zwischen Tanzfläche, Bar oder Ausgang.
+-   **Abseits von Türen.** Ein Stativ, das eine Tür blockiert, ist sowohl eine Stolpergefahr als auch ein Problem, wenn der Raum schnell geräumt werden muss.
+
+Das Foto weiter unten auf dieser Seite, von einer Präsentation in einem Volvo-Autohaus, zeigt das in der Praxis: ein HK-Audio-Lautsprecher auf seinem eigenen Stativ, seitlich des Sitzbereichs der Gäste platziert statt davor.
+
+## Stromlast und Sicherheit der Stromkreise
+
+Wir veröffentlichen kein Datenblatt mit Watt- oder Ampere-Angaben für unsere Ton-, Licht- und Bildschirmtechnik, mit derselben Ehrlichkeit, die wir an anderer Stelle auf dieser Website bei Kabellängen und Wetterfestigkeitsangaben anwenden. Was wir in der Praxis sagen können: Die Stromkreise des Veranstaltungsorts, nicht unsere Technik, sind meist die eigentliche Einschränkung, und eine überlastete einzelne Steckdose, an der gleichzeitig eine Beschallungsanlage, eine Lichtanlage und ein Bildschirm hängen, ist das tatsächliche Risiko, nicht ein Fehler der Geräte selbst.
+
+Zwei Dinge helfen, das zu vermeiden. Erstens: Nennen Sie uns bei der Buchung die Stromsituation Ihres Veranstaltungsorts, wie viele Steckdosen in der Nähe des Aufbaubereichs liegen und ob sie sich einen Stromkreis teilen, damit unser Team die Last vor der Ankunft planen kann, statt vor Ort zu improvisieren. Zweitens ist bei Paketen mit Techniker diese Person vor Ort, falls während der Veranstaltung eine Sicherung auslöst oder eine Verbindung ausfällt, was ein Aufbau in Eigenregie mit dem [Eco Pack](/packages/eco/) oder dem [Basic MICE Pack](/packages/basic-mice/) nicht bieten kann, sobald unser Team gegangen ist.
+
+## Die Sicherheit der Gäste rund um die Technik
+
+Sobald die Technik aufgestellt und eingeschaltet ist, geht es beim verbleibenden Risiko vor allem darum, Gäste und ihre Getränke fernzuhalten. Ein Lautsprecher- oder Lichtstativ steht unter normalen Bedingungen auf ebenem Boden stabil, ist aber nicht dafür gedacht, dass man sich darauf stützt, ein Gast es verschiebt oder ein Glas darauf abstellt. Unser Team platziert die Stative mit diesem Gedanken, abseits der Wege, die Menschen tatsächlich gehen, und abseits der Stellen, an denen sich voraussichtlich eine Menge versammelt, besonders bei einer Tanzfläche oder einer Bar.
+
+Beim [Wedding Pack](/packages/wedding/) und beim [MICE Pack](/packages/mice/) ist unser Techniker vor Ort hier außerdem eine zweite Schutzebene: Wird ein Stativ angestoßen oder kommt ein Gast einer Kabelführung zu nahe, kann er in Echtzeit eingreifen. Bei einem Paket in Eigenregie liegt diese Verantwortung bei der ersten Platzierung, die unser Team vor dem Gehen vornimmt, und genau deshalb ist die Platzierung abseits der Hauptlaufwege bei diesen Buchungen wichtiger, nicht weniger wichtig.
+
+## Was unser eigenes Team nicht tut: Rigging oder Traversen über Kopf
+
+Ehrlich zu sein über unseren Sicherheitsansatz heißt, direkt zu sein über unseren Umfang. Unser eigenes Team baut keine Traversen und hängt keine Lautsprecher oder Scheinwerfer an einem Deckenraster, einer Bühnentraverse oder einem abgehängten Line-Array ab. Unsere Lautsprecher, Mikrofone und Scheinwerfer stehen auf dem Boden oder auf Stativen, jedes auf seinem eigenen Stativ, und das Einzige, was unser Team aufspannt, sind die Lichterketten des Wedding Pack, entlang einer Konstruktion, die Ihr Veranstaltungsort bereits hat.
+
+Wenn Ihre Veranstaltung wirklich abgehängte Technik verlangt, sagen Sie es uns früh, vor der Buchung und nicht vor Ort. Wir können nach einem spezialisierten Rigging-Anbieter suchen, falls wir einen finden, und das Rigging selbst wäre dessen Arbeit, niemals die unseres eigenen Teams.
+
+Aufbauten auf Bodenstativen passen zu den Hochzeiten, Firmenveranstaltungen und privaten Feiern, die wir in Malaga und an der Costa del Sol liefern. Es ist auch auf seine Weise eine Vereinfachung für die Sicherheit: Unser eigenes Team hat keine Berechnung einer abgehängten Last, bei der etwas schiefgehen könnte, denn es hängt weder einen Lautsprecher noch einen Scheinwerfer über dem Kopf eines Gastes auf.
+
+## Reale Aufbauten, die wir geliefert haben
+
+![Ein HK-Audio-Lautsprecher auf seinem eigenen Bodenstativ seitlich des Sitzbereichs mit Hockern bei einer Präsentation in einem Volvo-Autohaus in Malaga, dahinter der Podiumstisch mit dem Branding des Veranstaltungsorts.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-1024x765.webp "Die HK-Audio-Tonanlage, die Malaga Event Gear für eine Präsentation bei einem Volvo-Autohaus in Malaga geliefert hat.")
+
+Eine Präsentation in einem Volvo-Autohaus, bei der Malaga Event Gear die Tonanlage gestellt hat: Ein Lautsprecher auf seinem eigenen Stativ steht seitlich des Sitzbereichs statt davor.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1267/'])} speed="normal" direction="left" />
+</div>
+
+<blockquote>
+<p lang="en">"We recently used Málaga Event Gear for our End of Season Party, and the service was outstanding. The sound and equipment were top quality, and we had a dedicated technician on-site the entire time to assist with everything we needed. Fantastic experience. Highly recommended."</p>
+<ul><li>Anna Wisser, Google-Bewertung mit 5 Sternen, Dezember 2025</li></ul>
+</blockquote>
+
+## Wie weit im Voraus buchen
+
+Jede Buchung braucht mindestens 24 Stunden Vorlauf. Dieses Zeitfenster zählt auch für die Sicherheitsplanung: Wenn Sie uns vorab die Aufteilung Ihres Veranstaltungsorts, die Stromsituation und den erwarteten Gästefluss nennen, kann unser Team die Platzierung der Stative und die Stromlast vor der Ankunft planen, statt sie vor Ort zu klären, wenn die Gäste schon da sind. Wenn Ihre Veranstaltung eine ungewöhnliche Aufteilung, mehrere Ebenen oder einen Ort hat, den Sie selbst nicht gut kennen, sagen Sie es uns so früh wie möglich.
+
+## Fazit
+
+Die Sicherheitsrichtlinien zur AV-Vermietung in Malaga laufen für die Technik, die Malaga Event Gear tatsächlich liefert, auf 4 ehrliche Praktiken hinaus. Lautsprecher, Mikrofone und Scheinwerfer stehen auf Bodenstativen, ohne Traversen oder abgehängtes Rigging durch unser eigenes Team. Stative stehen abseits von Laufwegen und Türen. Die Stromversorgung des Orts wird vorab geplant statt vorausgesetzt. Und beim [Wedding Pack](/packages/wedding/) und beim [MICE Pack](/packages/mice/) kann ein Techniker vor Ort reagieren, wenn sich während der Veranstaltung etwas verschiebt. [Kontaktieren Sie uns](/contact/) mit den Daten Ihres Veranstaltungsorts, und unser gesamtes Technikangebot finden Sie auf unserer [Seite zur AV-Vermietung in Malaga](/blog/audio-visual-rental/).
+
+## Häufige Fragen
+
+### Nutzt Malaga Event Gear Rigging oder Traversen, um Lautsprecher oder Lichter über Kopf zu montieren?
+
+Nein, nicht mit unserem eigenen Team. Unsere Lautsprecher, Mikrofone und Scheinwerfer stehen auf dem Boden oder auf Stativen, jedes auf seinem eigenen Stativ, abgeglichen mit unserem eigenen Bestand, und das Team baut keine Traversen und hängt keine Lautsprecher oder Scheinwerfer über Kopf ab. Das Einzige, was unser Team aufspannt, sind die Lichterketten des Wedding Pack, entlang einer Konstruktion an Ihrem Veranstaltungsort. Siehe [Was unser eigenes Team nicht tut: Rigging oder Traversen über Kopf](#was-unser-eigenes-team-nicht-tut-rigging-oder-traversen-über-kopf) weiter oben.
+
+### Wer ist während meiner Veranstaltung tatsächlich vor Ort, um ein Sicherheitsproblem zu lösen?
+
+Nur beim [Wedding Pack](/packages/wedding/) und beim [MICE Pack](/packages/mice/), die einen Techniker vor Ort enthalten, der ein Stativ umstellen, ein loses Kabel richten oder reagieren kann, wenn ein Gast während der Veranstaltung gegen die Technik stößt. Das [Eco Pack](/packages/eco/), das [Basic MICE Pack](/packages/basic-mice/) und das [Product Presentation Pack](/packages/product-presentation/) laufen in Eigenregie, nachdem unser Team das System aufgebaut und getestet hat, danach ist also niemand vor Ort, der reagieren könnte. Siehe [Der eigentliche Sicherheitsunterschied](#der-eigentliche-sicherheitsunterschied-ein-techniker-vor-ort-oder-ein-aufbau-in-eigenregie) weiter oben.
+
+### Wie halten Sie Gäste rund um Lautsprecher- und Mikrofonstative sicher?
+
+Unser Team stellt Stative auf ebenem Boden auf, abseits der Hauptlaufwege und von Türen, damit Gäste nicht durch oder um laufende Technik herumgehen müssen. Bei Paketen mit Techniker achtet diese Person während der Veranstaltung außerdem darauf, ob ein Stativ angestoßen wird oder ein Gast zu nah steht. Siehe [Die Sicherheit der Gäste rund um die Technik](#die-sicherheit-der-gäste-rund-um-die-technik) weiter oben.
+
+### Prüft Malaga Event Gear vor dem Aufbau die Stromlast oder Stromkreiskapazität?
+
+Wir veröffentlichen kein Datenblatt mit Watt- oder Ampere-Angaben für unsere Technik, fragen aber bei der Buchung nach der Stromsituation Ihres Veranstaltungsorts, wie viele Steckdosen in der Nähe des Aufbaubereichs liegen und ob sie sich einen Stromkreis teilen, damit unser Team die Last vorab planen kann, statt vor Ort zu improvisieren. Siehe [Stromlast und Sicherheit der Stromkreise](#stromlast-und-sicherheit-der-stromkreise) weiter oben.
+
+### Sind Kabel bei meiner Veranstaltung ein Sicherheitsrisiko?
+
+Das können sie sein, wenn sie lose über einen Laufweg liegen, und genau deshalb führt und sichert unser Team die Kabel, entlang von Wänden und Fußbodenkanten, flach festgeklebt, wo immer eine Strecke einen Weg kreuzt, als Teil jedes Aufbaus und nicht als separates Thema.
+
+### Verändert das Wetter, wie sicher die Technik im Freien aufgebaut werden kann?
+
+Ja, vor allem durch Feuchtigkeit an Kabeln und Steckverbindern und durch Wind, der die Standfestigkeit der Stative auf Gras, Sand oder einer offenen Terrasse beeinflusst. Wir veröffentlichen für keines unserer Geräte eine Wetterfestigkeitsangabe, und bei Buchungen im Freien planen wir die Platzierung der Stative und die Kabelführung nach den tatsächlichen Bedingungen am Tag, statt eine feste Methode unabhängig vom Wetter anzuwenden.

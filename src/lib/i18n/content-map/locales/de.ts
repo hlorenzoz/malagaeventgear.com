@@ -391,6 +391,11 @@ export default {
 			slug: 'firma-fuer-av-vermietung-malaga',
 			keyword: 'Firma für AV-Vermietung in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-safety-guidelines': {
+			slug: 'sicherheitsrichtlinien-av-vermietung-malaga',
+			keyword: 'Sicherheitsrichtlinien zur AV-Vermietung in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

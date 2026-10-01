@@ -1,0 +1,140 @@
+---
+title: "Veiligheidsrichtlijnen voor audiovisuele verhuur in Malaga"
+description: "Veiligheidsrichtlijnen voor audiovisuele verhuur in Malaga, Spanje: technicus ter plaatse, statieven, elektrische belasting en onze eerlijkheid over rigging."
+excerpt: "De veiligheidsrichtlijnen voor audiovisuele verhuur in Malaga in de eerlijke, AV-specifieke versie: wie ter plaatse is om te reageren, hoe ons team luidspreker- en microfoonstatieven plaatst, hoe we over elektrische belasting denken en het ene dat ons eigen team echt niet doet, rigging boven het hoofd."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Wie in het Engels zoekt op "audio visual rental safety guidelines", vindt vooral algemene checklists voor evenementplanning, het vastzetten van tenten, het screenen van leveranciers en het draagvermogen van constructies, niets daarvan specifiek voor de AV-apparatuur zelf. Wat in die resultaten bijna overal ontbreekt, is de praktische versie van de veiligheidsrichtlijnen voor audiovisuele verhuur in Malaga, Spanje: wie er echt ter plaatse is om te reageren als er iets misgaat, hoe een team een luidspreker- of microfoonstatief zo plaatst dat het geen gevaar wordt, en wat een verhuurbedrijf eerlijk wel en niet aanraakt als het gaat om gewicht boven het hoofd.
+
+Deze pagina is die praktische versie, opgebouwd rond hoe Malaga Event Gear een boeking echt aflevert, en niet rond een algemene lijst. [Neem contact met ons op](/contact/) met de gegevens van je locatie als je wilt dat we je specifieke indeling samen doorlopen voordat je boekt.
+
+## Inhoudsopgave
+
+-   [In het kort](#in-het-kort)
+-   [Belangrijkste punten](#belangrijkste-punten)
+-   [Het echte veiligheidsverschil: een technicus ter plaatse of een opstelling die je zelf bedient](#het-echte-veiligheidsverschil-een-technicus-ter-plaatse-of-een-opstelling-die-je-zelf-bedient)
+-   [Plaatsing van apparatuur en stabiliteit van statieven](#plaatsing-van-apparatuur-en-stabiliteit-van-statieven)
+-   [Elektrische belasting en veiligheid van stroomgroepen](#elektrische-belasting-en-veiligheid-van-stroomgroepen)
+-   [De veiligheid van gasten rond de apparatuur](#de-veiligheid-van-gasten-rond-de-apparatuur)
+-   [Wat ons eigen team niet doet: rigging of truss boven het hoofd](#wat-ons-eigen-team-niet-doet-rigging-of-truss-boven-het-hoofd)
+-   [Echte opstellingen die we hebben geleverd](#echte-opstellingen-die-we-hebben-geleverd)
+-   [Hoe ver van tevoren boeken](#hoe-ver-van-tevoren-boeken)
+-   [Conclusie](#conclusie)
+-   [Veelgestelde vragen](#veelgestelde-vragen)
+    -   [Gebruikt Malaga Event Gear rigging of truss om luidsprekers of lampen boven het hoofd te monteren?](#gebruikt-malaga-event-gear-rigging-of-truss-om-luidsprekers-of-lampen-boven-het-hoofd-te-monteren)
+    -   [Wie is er tijdens mijn evenement echt ter plaatse om een veiligheidsprobleem op te lossen?](#wie-is-er-tijdens-mijn-evenement-echt-ter-plaatse-om-een-veiligheidsprobleem-op-te-lossen)
+    -   [Hoe houden jullie gasten veilig rond luidspreker- en microfoonstatieven?](#hoe-houden-jullie-gasten-veilig-rond-luidspreker--en-microfoonstatieven)
+    -   [Controleert Malaga Event Gear de elektrische belasting of de capaciteit van de stroomgroepen vóór de opbouw?](#controleert-malaga-event-gear-de-elektrische-belasting-of-de-capaciteit-van-de-stroomgroepen-vóór-de-opbouw)
+    -   [Zijn kabels een veiligheidsrisico op mijn evenement?](#zijn-kabels-een-veiligheidsrisico-op-mijn-evenement)
+    -   [Verandert het weer hoe veilig de apparatuur buiten kan worden opgebouwd?](#verandert-het-weer-hoe-veilig-de-apparatuur-buiten-kan-worden-opgebouwd)
+
+## In het kort
+
+---
+
+Het eerlijke antwoord op "wat zijn jullie veiligheidsrichtlijnen" is geen certificaat en geen gepubliceerd specificatieblad, het is een beschrijving van hoe ons team echt werkt: luidsprekers, microfoons en lampen op hun eigen statieven op de vloer, geen trussbouw en geen opgehangen rigging door ons eigen team, een zorgvuldige plaatsing van de statieven buiten de hoofdlooppaden en, bij de pakketten die er een bevatten, een technicus ter plaatse die kan reageren als er tijdens het evenement iets verschuift. Deze pagina behandelt ze stuk voor stuk, plus de ene eerlijke leemte: bij onze pakketten die je zelf bedient is er niemand ter plaatse om een probleem op te merken nadat ons team is vertrokken.
+
+## Belangrijkste punten
+
+---
+
+-   Ons eigen team bouwt geen trussen en hangt geen luidsprekers of lampen boven het hoofd op. Luidsprekers, microfoons en lampen staan op hun eigen statieven op de vloer, bevestigd ten opzichte van onze eigen voorraad. Het enige wat ons team spant, zijn de lichtsnoeren van het Wedding Pack, langs een constructie op jouw locatie.
+-   Een technicus ter plaatse, inbegrepen bij het [Wedding Pack](/packages/wedding/) en het [MICE Pack](/packages/mice/), kan een statief verplaatsen, een verbinding vastzetten of reageren als een gast tijdens het evenement tegen de apparatuur aan stoot. Het [Eco Pack](/packages/eco/), het [Basic MICE Pack](/packages/basic-mice/) en het [Product Presentation Pack](/packages/product-presentation/) bedien je zelf nadat ons team het systeem heeft geïnstalleerd en getest.
+-   Onze eigen voorraad omvat voor elke opstelling luidsprekerstatieven, verstelbare microfoonstatieven en lichtstatieven, en ons team zet elk statief op vlakke grond, buiten de hoofdlooppaden en uit de buurt van deuren.
+-   We publiceren geen specificatieblad met wattages of ampères voor onze apparatuur. Ons praktische advies is om het stroomvermogen van de locatie vooraf te bevestigen en de belasting over meerdere groepen te verdelen, met dezelfde eerlijkheid die we elders op deze site toepassen op kabellengtes en weerbestendigheid.
+-   We werken uitsluitend met levering. Ons eigen team verzorgt in elk geval de opbouw en het ophalen, zodat van de klant nooit wordt verwacht dat die de apparatuur zelf verplaatst of bijstelt.
+
+## Het echte veiligheidsverschil: een technicus ter plaatse of een opstelling die je zelf bedient
+
+<InlineCTA />
+
+Wat de meeste mensen met "veiligheidsrichtlijnen" voor AV-apparatuur bedoelen, is eigenlijk een bemanningsvraag, geen productvraag. Een statief dat begint te hellen, een microfoon die een gast in een looppad stoot, een kabel die losraakt als een tafel wordt verschoven, niets daarvan wordt voorkomen door betere hardware. Het wordt opgemerkt, of niet, door wie ter plaatse is om het te zien.
+
+Bij het [Wedding Pack](/packages/wedding/) en het [MICE Pack](/packages/mice/) blijft een technicus ter plaatse voor het evenement, of bij het MICE Pack tot 6 aaneengesloten uren. Die persoon kan een statief verplaatsen, een losse kabel herstellen of ingrijpen zodra er iets niet goed lijkt. Bij het [Eco Pack](/packages/eco/), het [Basic MICE Pack](/packages/basic-mice/) en het [Product Presentation Pack](/packages/product-presentation/) levert ons team het systeem, installeert en test het professioneel, waarna het de rest van het evenement zonder toezicht draait. Dat is een echt andere veiligheidspositie, en het is goed om dat te weten voordat je een pakket kiest, niet erna.
+
+## Plaatsing van apparatuur en stabiliteit van statieven
+
+De luidsprekers, microfoons en lampen die we leveren, gaan op statieven op de vloer, uit onze eigen voorraad luidsprekerstatieven, verstelbare microfoonstatieven en lichtstatieven, en ons eigen team hangt ze niet op aan een plafond of een truss. De lichtsnoeren van het Wedding Pack zijn de uitzondering op het statief: ons team spant ze langs een constructie die de locatie al heeft. Daardoor is plaatsing de echte veiligheidsvariabele, en ons team houdt zich bij elke boeking aan dezelfde basisregels:
+
+-   **Eerst vlakke grond.** Een statief op een oneffen terras of een zacht stuk gazon is een echt stabiliteitsrisico, dus vlakke grond is het eerste om naar te zoeken voordat een statief wordt neergezet.
+-   **Buiten de hoofdlooppaden.** Statieven staan naast de plek waar gasten daadwerkelijk lopen, niet op de natuurlijke lijn tussen een dansvloer, een bar of de uitgang.
+-   **Uit de buurt van deuren.** Een statief dat een deur blokkeert is zowel een struikelgevaar als een probleem als de zaal snel moet worden ontruimd.
+
+De foto verderop op deze pagina, van een presentatie bij een Volvo-dealer, laat dit in de praktijk zien: een HK Audio-luidspreker op zijn eigen statief, naast het zitgedeelte van de gasten geplaatst in plaats van ervoor.
+
+## Elektrische belasting en veiligheid van stroomgroepen
+
+We publiceren geen specificatieblad met wattages of ampères voor onze geluids-, licht- en schermapparatuur, met dezelfde eerlijkheid die we elders op deze site toepassen op kabellengtes en weerbestendigheidsklassen. Wat we in de praktijk wel kunnen zeggen: de eigen stroomgroepen van een locatie, niet onze apparatuur, vormen meestal de echte beperking, en één overbelast stopcontact dat tegelijk een geluidssysteem, een lichtopstelling en een beeldscherm voedt is het werkelijke risico, geen fout van de apparatuur zelf.
+
+Twee dingen helpen om dat te voorkomen. Ten eerste: vertel ons bij het boeken hoe het met de stroom op je locatie is gesteld, hoeveel stopcontacten er bij het opbouwgebied zijn en of ze dezelfde groep delen, zodat ons team de belasting kan plannen vóór aankomst in plaats van ter plekke te improviseren. Ten tweede is bij pakketten met een technicus die persoon ter plaatse als er tijdens het evenement een stroomgroep uitvalt of een verbinding het begeeft, wat een opstelling die je zelf bedient met het [Eco Pack](/packages/eco/) of het [Basic MICE Pack](/packages/basic-mice/) niet kan bieden zodra ons team is vertrokken.
+
+## De veiligheid van gasten rond de apparatuur
+
+Zodra de apparatuur staat en aanstaat, gaat het resterende risico vooral om gasten, en hun drankjes, uit de buurt houden. Een luidspreker- of lichtstatief staat onder normale omstandigheden stabiel op vlakke grond, maar is er niet voor gemaakt om tegenaan te leunen, door een gast te worden verplaatst of als plek voor een glas te dienen. Ons team plaatst de statieven met dat in gedachten, buiten de paden waar mensen echt lopen en uit de buurt van plekken waar waarschijnlijk een menigte samenkomt, vooral bij een dansvloer of een bar.
+
+Bij het [Wedding Pack](/packages/wedding/) en het [MICE Pack](/packages/mice/) is onze technicus ter plaatse hier ook een tweede laag: als een statief wordt aangestoten of een gast te dicht bij een kabeltraject komt, kan die persoon in real time ingrijpen. Bij een pakket dat je zelf bedient ligt die verantwoordelijkheid bij de eerste plaatsing die ons team doet voordat het vertrekt, en juist daarom telt plaatsing buiten de hoofdlooppaden bij die boekingen zwaarder, niet minder zwaar.
+
+## Wat ons eigen team niet doet: rigging of truss boven het hoofd
+
+Eerlijk zijn over onze aanpak van veiligheid betekent direct zijn over ons werkgebied. Ons eigen team bouwt geen trussen en hangt geen luidsprekers of lampen op aan een plafondrooster, een podiumtruss of een opgehangen line array. Onze luidsprekers, microfoons en lampen staan op de vloer of op een statief, elk op zijn eigen statief, en het enige wat ons team spant, zijn de lichtsnoeren van het Wedding Pack, langs een constructie die jouw locatie al heeft.
+
+Als je evenement echt opgehangen apparatuur nodig heeft, zeg het ons dan vroeg, voordat je boekt en niet ter plekke. We kunnen op zoek gaan naar een gespecialiseerde riggingleverancier, als we er een kunnen vinden, en de rigging zelf zou dan zijn werk zijn, nooit dat van ons eigen team.
+
+Opstellingen op statieven op de vloer passen bij de bruiloften, bedrijfsevenementen en privéfeesten die we in Malaga en aan de Costa del Sol leveren. Het is op zijn eigen manier ook een veiligheidsvereenvoudiging: ons eigen team heeft geen berekening van een opgehangen last die fout kan gaan, omdat het geen luidspreker of lamp boven het hoofd van een gast ophangt.
+
+## Echte opstellingen die we hebben geleverd
+
+![Een HK Audio-luidspreker op zijn eigen statief op de vloer, naast de zitplaatsen op krukken bij een presentatie in een Volvo-dealer in Malaga, met daarachter de paneltafel in huisstijl van de locatie.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-1024x765.webp "Het HK Audio-geluidssysteem dat Malaga Event Gear leverde voor een presentatie bij een Volvo-dealer in Malaga.")
+
+Een presentatie bij een Volvo-dealer waar Malaga Event Gear het geluidssysteem leverde: een luidspreker op zijn eigen statief staat naast het zitgedeelte in plaats van ervoor.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1269/', '/1267/'])} speed="normal" direction="left" />
+</div>
+
+<blockquote>
+<p lang="en">"We recently used Málaga Event Gear for our End of Season Party, and the service was outstanding. The sound and equipment were top quality, and we had a dedicated technician on-site the entire time to assist with everything we needed. Fantastic experience. Highly recommended."</p>
+<ul><li>Anna Wisser, Google-review met 5 sterren, december 2025</li></ul>
+</blockquote>
+
+## Hoe ver van tevoren boeken
+
+Elke boeking vraagt minimaal 24 uur vooruit. Dat tijdvenster telt ook mee voor de veiligheidsplanning: als je ons van tevoren de indeling van je locatie, de stroomsituatie en de verwachte gastenstroom vertelt, kan ons team de plaatsing van de statieven en de elektrische belasting plannen vóór aankomst, in plaats van het ter plekke uit te zoeken terwijl de gasten er al zijn. Als je evenement een ongewone indeling heeft, meerdere verdiepingen of een locatie die je zelf niet goed kent, laat het ons dan zo vroeg mogelijk weten.
+
+## Conclusie
+
+De veiligheidsrichtlijnen voor audiovisuele verhuur in Malaga komen, voor de apparatuur die Malaga Event Gear echt levert, neer op 4 eerlijke werkwijzen. Luidsprekers, microfoons en lampen staan op statieven op de vloer, zonder truss of opgehangen rigging door ons eigen team. Statieven staan buiten looppaden en bij deuren vandaan. Het stroomvermogen van de locatie wordt vooraf gepland in plaats van aangenomen. En bij het [Wedding Pack](/packages/wedding/) en het [MICE Pack](/packages/mice/) kan een technicus ter plaatse reageren als er tijdens het evenement iets verschuift. [Neem contact met ons op](/contact/) met de gegevens van je locatie, en voor ons volledige assortiment bekijk je onze [pagina over audiovisuele verhuur in Malaga](/blog/audio-visual-rental/).
+
+## Veelgestelde vragen
+
+### Gebruikt Malaga Event Gear rigging of truss om luidsprekers of lampen boven het hoofd te monteren?
+
+Nee, niet met ons eigen team. Onze luidsprekers, microfoons en lampen staan op de vloer of op een statief, elk op zijn eigen statief, bevestigd ten opzichte van onze eigen voorraad, en het team bouwt geen trussen en hangt geen luidsprekers of lampen boven het hoofd op. Het enige wat ons team spant, zijn de lichtsnoeren van het Wedding Pack, langs een constructie op jouw locatie. Zie [Wat ons eigen team niet doet: rigging of truss boven het hoofd](#wat-ons-eigen-team-niet-doet-rigging-of-truss-boven-het-hoofd) hierboven.
+
+### Wie is er tijdens mijn evenement echt ter plaatse om een veiligheidsprobleem op te lossen?
+
+Alleen bij het [Wedding Pack](/packages/wedding/) en het [MICE Pack](/packages/mice/), die een technicus ter plaatse bevatten die een statief kan verplaatsen, een losse kabel kan herstellen of kan reageren als een gast tijdens het evenement tegen de apparatuur aan stoot. Het [Eco Pack](/packages/eco/), het [Basic MICE Pack](/packages/basic-mice/) en het [Product Presentation Pack](/packages/product-presentation/) bedien je zelf nadat ons team het systeem heeft geïnstalleerd en getest, dus daarna is er niemand ter plaatse om te reageren. Zie [Het echte veiligheidsverschil](#het-echte-veiligheidsverschil-een-technicus-ter-plaatse-of-een-opstelling-die-je-zelf-bedient) hierboven.
+
+### Hoe houden jullie gasten veilig rond luidspreker- en microfoonstatieven?
+
+Ons team plaatst statieven op vlakke grond, buiten de hoofdlooppaden en uit de buurt van deuren, zodat gasten niet door of rond werkende apparatuur lopen. Bij pakketten met een technicus let die persoon tijdens het evenement ook op een statief dat wordt aangestoten of een gast die te dichtbij staat. Zie [De veiligheid van gasten rond de apparatuur](#de-veiligheid-van-gasten-rond-de-apparatuur) hierboven.
+
+### Controleert Malaga Event Gear de elektrische belasting of de capaciteit van de stroomgroepen vóór de opbouw?
+
+We publiceren geen specificatieblad met wattages of ampères voor onze apparatuur, maar we vragen bij het boeken naar de stroomsituatie van je locatie, hoeveel stopcontacten er bij het opbouwgebied zijn en of ze dezelfde groep delen, zodat ons team de belasting vooraf kan plannen in plaats van ter plekke te improviseren. Zie [Elektrische belasting en veiligheid van stroomgroepen](#elektrische-belasting-en-veiligheid-van-stroomgroepen) hierboven.
+
+### Zijn kabels een veiligheidsrisico op mijn evenement?
+
+Dat kunnen ze zijn als ze los over een looppad liggen, en juist daarom legt en bevestigt ons team de kabels, langs muren en vloerranden, plat vastgetapet waar een traject een pad kruist, als onderdeel van elke opbouw en niet als een apart punt.
+
+### Verandert het weer hoe veilig de apparatuur buiten kan worden opgebouwd?
+
+Ja, vooral door vocht bij kabels en connectoren en door wind die de stabiliteit van statieven op gras, zand of een open terras beïnvloedt. We publiceren voor geen van onze apparatuur een weerbestendigheidsklasse, en bij boekingen buiten plannen we de plaatsing van de statieven en het leggen van kabels rond de werkelijke omstandigheden op de dag zelf, in plaats van een vaste methode ongeacht het weer.

@@ -391,6 +391,11 @@ export default {
 			slug: 'audiovisueel-verhuurbedrijf-malaga',
 			keyword: 'audiovisueel verhuurbedrijf in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-safety-guidelines': {
+			slug: 'veiligheidsrichtlijnen-audiovisuele-verhuur-malaga',
+			keyword: 'veiligheidsrichtlijnen voor audiovisuele verhuur in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
