@@ -1,10 +1,11 @@
 ---
 title: "Malaga Event Gear Unveils a Faster, Rebranded Website"
-description: "Malaga Event Gear, the AV rental company in Malaga, Spain, relaunches with a faster, rebuilt website and fixed price online booking across the Costa del Sol."
+description: "Malaga Event Gear, the AV rental company in Malaga, Spain, relaunches with a faster, rebuilt website and fixed prices published online across the Costa del Sol."
 author: "Hector Luis Lorenzo"
 slug: news-malaga-event-gear-unveils-new-rebranded-website
 publishDate: "2026-06-15"
-excerpt: "Malaga Event Gear has relaunched its website with a refreshed brand and a faster, rebuilt platform, making it easier to book professional sound, lighting, and audiovisual equipment online, at fixed prices, across Málaga and the Costa del Sol."
+updatedDate: "2026-10-01"
+excerpt: "Malaga Event Gear has relaunched its website with a refreshed brand and a faster, rebuilt platform, making it easier to see the price of professional sound, lighting, and audiovisual equipment and check your date online, at fixed prices, across Málaga and the Costa del Sol."
 coverImage: "https://cdn.malagaeventgear.com/blog/3094/malagaeventgear.webp"
 categories: ["News", "Audio Visual Rental"]
 tags: ["rebranding", "company news", "malaga"]
@@ -18,11 +19,11 @@ targetPage: "/"
 
 Malaga Event Gear (MEG), an audiovisual and event equipment rental service active on the Costa del Sol since 1996, has relaunched its website at [malagaeventgear.com](/) with a refreshed brand and a rebuilt platform.
 
-The new site keeps what has set MEG apart for years: 100% online booking with fixed, standardized prices, so clients can confirm their gear without waiting on a manual quote.
+The new site keeps fixed, standardized prices published online, so clients know the cost of their gear before they ask and can check their date without waiting on a manual quote.
 
-## A Website Built Around Online Booking
+## A Website Built Around Clear Prices
 
-In most of the rental industry, securing equipment still means emails, phone calls, and back-and-forth quotes. MEG built its new site around the opposite idea: browse the [rental packages](/packages/), see the price, and book in one sitting.
+MEG built its new site around a simple idea: browse the [rental packages](/packages/), see the price, and send your event date through the form to check availability.
 
 Every package lists its inclusions and a clear price up front, whether you are planning a [wedding](/packages/wedding/), a [corporate conference](/packages/mice/), or a private celebration.
 
@@ -32,7 +33,7 @@ Performance was the priority. The site was rebuilt to load quickly on phones and
 
 Pages are organized by occasion and by need, so the path from "I have an event" to "my gear is booked" stays short.
 
-## Nearly Three Decades, More Than a Thousand Events
+## Since 1996, More Than a Thousand Clients
 
 The brand is new. The track record is not. MEG has worked in audiovisual production since 1996 and has served more than 1,000 clients across Málaga, Marbella, and the wider Costa del Sol, with delivery and on-site setup included rather than counter pickup.
 
