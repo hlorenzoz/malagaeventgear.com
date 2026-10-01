@@ -400,6 +400,11 @@ export default {
 			slug: 'sikkerhetsretningslinjer-av-utleie-malaga',
 			keyword: 'sikkerhetsretningslinjer for AV-utleie i Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-planning-timeline': {
+			slug: 'tidsplan-for-av-utleie',
+			keyword: 'tidsplan for AV-utleie i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

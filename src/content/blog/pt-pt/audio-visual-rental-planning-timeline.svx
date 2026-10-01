@@ -1,0 +1,123 @@
+---
+title: "Calendário de planeamento do aluguer de audiovisuais em Málaga"
+description: "Calendário de planeamento do aluguer de audiovisuais em Málaga, Espanha, na MEG: pacote segundo os convidados, preço fixo, 24 horas é o único prazo real."
+excerpt: "Calendário de planeamento do aluguer de audiovisuais em Málaga: não existe uma tabela de datas para isto. O que realmente decide o calendário de um aluguer audiovisual com a MEG é o número de convidados e o pacote adequado, aquilo de que precisamos de si para fazer o orçamento e um único prazo real: 24 horas, nem mais nem menos."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+    import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+    import { getImagesForPackage } from '$lib/data/gallery';
+    import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Se pesquisar em inglês "audio visual rental planning timeline", a maioria dos resultados entrega-lhe um calendário: reservar com 4 a 6 meses de antecedência para uma grande conferência, 6 a 8 semanas para um casamento ou um evento empresarial, 2 a 4 semanas para algo pequeno. Este calendário de planeamento do aluguer de audiovisuais em Málaga, Espanha, não lhe vai entregar essa tabela. Um número fixo ignora o que realmente decide uma reserva aqui: o número de convidados e o pacote adequado, aquilo de que precisamos de si para fazer um orçamento rigoroso e um único prazo real, 24 horas de antecedência, que vale da mesma forma quer reserve hoje quer reserve na próxima primavera.
+
+Esta página é essa versão honesta, construída em torno do modo como uma reserva na MEG avança realmente desde um primeiro pedido até uma montagem entregue. Se estiver a planear especificamente um casamento, a MEG publica também noutra parte do site uma versão dedicada a casamentos desta mesma questão, com preços ligados ao Wedding Pack. Para toda a nossa gama de equipamento, consulte o nosso guia de [aluguer de audiovisuais para eventos em Málaga](/blog/audio-visual-rental/).
+
+## Índice
+
+-   [Resumo](#resumo)
+-   [Pontos principais](#pontos-principais)
+-   [A primeira decisão real: número de convidados e pacote adequado](#a-primeira-decisão-real-número-de-convidados-e-pacote-adequado)
+-   [O que precisamos de si para fazer um orçamento rigoroso](#o-que-precisamos-de-si-para-fazer-um-orçamento-rigoroso)
+-   [O único prazo rígido: 24 horas, não uma antecedência sugerida](#o-único-prazo-rígido-24-horas-não-uma-antecedência-sugerida)
+-   [O que não muda, reserve cedo ou tarde](#o-que-não-muda-reserve-cedo-ou-tarde)
+-   [Montagens reais que já entregámos](#montagens-reais-que-já-entregámos)
+-   [Reservar na Costa del Sol, em Sevilha e em Granada](#reservar-na-costa-del-sol-em-sevilha-e-em-granada)
+-   [Conclusão](#conclusão)
+-   [Perguntas frequentes](#perguntas-frequentes)
+    -   [Com que antecedência devo reservar aluguer de audiovisuais em Málaga?](#com-que-antecedência-devo-reservar-aluguer-de-audiovisuais-em-málaga)
+    -   [Reservar mais cedo dá-me um preço melhor?](#reservar-mais-cedo-dá-me-um-preço-melhor)
+    -   [De que informações precisam de mim para enviar um orçamento?](#de-que-informações-precisam-de-mim-para-enviar-um-orçamento)
+    -   [Posso acrescentar equipamento ou horas de técnico depois de já ter reservado?](#posso-acrescentar-equipamento-ou-horas-de-técnico-depois-de-já-ter-reservado)
+    -   [Há um sinal ou um contrato antes de a minha data ficar garantida?](#há-um-sinal-ou-um-contrato-antes-de-a-minha-data-ficar-garantida)
+    -   [Qual é a antecedência mínima para uma reserva?](#qual-é-a-antecedência-mínima-para-uma-reserva)
+
+## Resumo
+
+---
+
+O calendário de planeamento honesto de um aluguer audiovisual com a MEG não é uma contagem decrescente, é uma curta sequência de decisões. Defina o número de convidados previsto, que o encaminha para um pacote. Indique-nos a data, o local e o pacote que lhe interessa, para podermos fazer o orçamento. Cumpra a antecedência mínima de 24 horas que rege qualquer pedido de equipamento ou de serviços. O preço do pacote não muda com a antecedência com que reserva, e apenas 2 pacotes em todo o catálogo incluem um técnico. São estes factos, e não um número de semanas, que determinam realmente quando deve contactar-nos.
+
+## Pontos principais
+
+---
+
+-   Não existe uma tabela de antecedências baseada no calendário. O número de convidados e o pacote adequado são a primeira decisão real, não uma data no calendário.
+-   O preço dos pacotes é fixo: Eco Pack 290 euros, Basic MICE Pack 295 euros, Product Presentation Pack 310 euros, MICE Pack 490 euros, Wedding Pack 650 euros, todos sem IVA, independentemente de reservar com semanas ou meses de antecedência.
+-   Apenas o [Wedding Pack](/packages/wedding/) e o [MICE Pack](/packages/mice/) incluem um técnico no local em todo o catálogo, o MICE Pack até 6 horas seguidas. Todos os outros pacotes são geridos por si depois de a nossa equipa os instalar e testar.
+-   O único prazo universal é a antecedência mínima de 24 horas para pedidos de equipamento e de serviços.
+-   A MEG trabalha apenas com entrega. A nossa equipa entrega, instala, testa e recolhe, por isso não há nenhuma etapa de levantamento por si em torno da qual planear uma margem.
+
+## A primeira decisão real: número de convidados e pacote adequado
+
+<InlineCTA />
+
+A maioria dos guias de planeamento começa por uma data. Nós começamos pelo número de convidados, porque é ele que determina qual o pacote adequado, e cada pacote tem uma capacidade real: o [Eco Pack](/packages/eco/) cobre até 50 convidados, gerido por si, o [Basic MICE Pack](/packages/basic-mice/) até 40, gerido por si, o [Wedding Pack](/packages/wedding/) até 80 com um técnico durante todo o evento e o [MICE Pack](/packages/mice/) até 120 com um técnico até 6 horas seguidas. O [Product Presentation Pack](/packages/product-presentation/) não tem um limite fixo de convidados, uma vez que é dimensionado em torno de um ecrã e de um par de colunas e não do número de pessoas na sala.
+
+Acertar nisto antes de reservar importa mais do que escolher uma data com bastante antecedência, porque um número de convidados que ultrapasse a capacidade de um pacote depois da reserva implica passar para outro pacote, de maior capacidade, e não uma quantidade a acrescentar. Essa mudança depende de o sistema maior, e no Wedding Pack ou no MICE Pack de um técnico, continuar livre na sua data, que é precisamente o tipo de coisa que é mais fácil confirmar cedo do que corrigir tarde.
+
+## O que precisamos de si para fazer um orçamento rigoroso
+
+O verdadeiro estrangulamento de qualquer calendário de aluguer audiovisual não é uma contagem decrescente, é saber se temos o suficiente para lhe fazer um orçamento rigoroso à primeira. O nosso processo tem 4 etapas: escolhe um pacote, pede um orçamento através do nosso formulário de pedido, a nossa equipa contacta-o para fechar os detalhes e confirmar a reserva, e depois tratamos da entrega, da montagem, da configuração e da desmontagem. Para avançar depressa nas etapas 2 e 3, partilhe a data do seu evento, o local, o número de convidados previsto e o pacote que lhe interessa. Estes 4 dados permitem-nos confirmar o equipamento e, quando for caso disso, a disponibilidade de um técnico numa única troca, em vez de várias idas e vindas.
+
+## O único prazo rígido: 24 horas, não uma antecedência sugerida
+
+Qualquer pedido de equipamento ou de serviços precisa de uma antecedência mínima de 24 horas para garantir a disponibilidade de agenda e de logística. É a única regra que realmente aplicamos. Se precisar de mais depois de reservar, um maior número de convidados, um microfone adicional, horas de técnico extra no MICE Pack, diga-nos o mais cedo possível, uma vez que cada um destes pedidos depende do que ainda estiver livre na sua data. Nada disto se torna mais rígido ou mais flexível consoante a distância do seu evento, e é exatamente por isso que não publicamos uma tabela de antecedências separada para eventos grandes e pequenos. O prazo é o mesmo nos dois casos. O que muda é a margem que deixa para reagir se uma data ou um pedido de acréscimo não estiver disponível.
+
+## O que não muda, reserve cedo ou tarde
+
+Alguns guias sugerem que reservar cedo dá uma tarifa melhor. Na MEG não é assim: cada pacote da nossa lista tem um preço único, sem IVA, e nenhum inclui desconto por antecedência nem suplemento de última hora. Reservar com mais antecedência protege a disponibilidade, em particular nos horários de técnico do [Wedding Pack](/packages/wedding/) e do [MICE Pack](/packages/mice/) nos períodos mais movimentados do ano, mas não altera o que paga.
+
+## Montagens reais que já entregámos
+
+![Sala de reuniões comunitárias vazia, equipada com cadeiras brancas e equipamento de aluguer de sistema de som, em Málaga, Espanha.](https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-1536x1152.webp "Uma sala de conferências vazia preparada para uma reunião comunitária do Neighborhood Council em Málaga, com o sistema de som e o equipamento para eventos fornecidos de forma profissional.")
+
+Uma reserva recorrente, e não pontual: a MEG fornece o sistema de som da reunião comunitária do Neighborhood Council em Málaga, Espanha, todos os anos há sete anos consecutivos, em cada ano através do mesmo processo de pedido de orçamento descrito acima.
+
+As palavras de um cliente sobre como foi o processo:
+
+<div class="my-12 overflow-hidden w-full">
+    <ImageMarquee images={getImagesForPackage('mice', ['/1282/', '/2495/'])} speed="normal" direction="left" />
+</div>
+
+<blockquote>
+<p lang="en">"I am really satisfied with this team, they exceeded my expectations. Having a meeting in Malaga, it was a huge help that I did not have to care about the visual solutions and the sound, they made it easy and smooth. They answered all my questions and delivered a high quality equipment to the meeting. Totally worth it!"</p>
+<ul><li>Dániel Gombár, avaliação de 5 estrelas no Google, março de 2025</li></ul>
+</blockquote>
+
+## Reservar na Costa del Sol, em Sevilha e em Granada
+
+O local é um dos 4 dados que pedimos precisamente porque altera a logística, e não o prazo de antecedência. Na Costa del Sol (a cidade de Málaga, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmádena e Estepona) não há nenhum mínimo especial. Sevilha também é servida. Granada, por ficar fora da província, exige normalmente um valor de aluguer superior a 400 euros para cobrir a deslocação de um único dia, o que convém saber quando está a dimensionar um pacote para um evento em Granada, embora se aplique ali a mesma antecedência mínima de 24 horas e não uma mais longa.
+
+## Conclusão
+
+O verdadeiro calendário de planeamento do aluguer de audiovisuais em Málaga resume-se a 3 coisas e não a um número de semanas. Primeiro, confronte o número de convidados com a capacidade real de um pacote. Depois, indique-nos a data, o local, o número de convidados e o pacote que lhe interessa, para podermos fazer o orçamento de uma só vez. Por fim, cumpra a antecedência mínima de 24 horas que rege qualquer reserva. O preço não muda com a antecedência com que reserva. [Contacte-nos](/contact/) com esses dados e, para o catálogo completo por trás desta página, consulte o nosso guia de [aluguer de audiovisuais para eventos em Málaga](/blog/audio-visual-rental/).
+
+## Perguntas frequentes
+
+### Com que antecedência devo reservar aluguer de audiovisuais em Málaga?
+
+Não existe uma regra fixa nem uma tabela de calendário. O que realmente importa é confirmar o número de convidados face à capacidade real de um pacote e contactar-nos com antecedência suficiente para que o equipamento, e um técnico se o seu pacote incluir um, ainda esteja livre na sua data. Veja [A primeira decisão real](#a-primeira-decisão-real-número-de-convidados-e-pacote-adequado) acima.
+
+### Reservar mais cedo dá-me um preço melhor?
+
+Não. Cada pacote tem um único preço, sem IVA, independentemente da antecedência com que reserva. Reservar mais cedo protege a disponibilidade, em particular do técnico incluído no [Wedding Pack](/packages/wedding/) e no [MICE Pack](/packages/mice/), mas não reduz o que paga. Veja [O que não muda](#o-que-não-muda-reserve-cedo-ou-tarde) acima.
+
+### De que informações precisam de mim para enviar um orçamento?
+
+A data do seu evento, o local, o número de convidados previsto e o pacote que lhe interessa. Estes 4 dados permitem-nos confirmar numa única troca a disponibilidade do equipamento e do técnico. Veja [O que precisamos de si](#o-que-precisamos-de-si-para-fazer-um-orçamento-rigoroso) acima.
+
+### Posso acrescentar equipamento ou horas de técnico depois de já ter reservado?
+
+Sim, um pedido de acréscimo é possível, sujeito à mesma antecedência mínima de 24 horas que qualquer pedido, e é confirmado em função do equipamento ou do tempo de técnico que ainda estiver realmente disponível na sua data, não sendo garantido só por ser pedido. Veja [O único prazo rígido](#o-único-prazo-rígido-24-horas-não-uma-antecedência-sugerida) acima.
+
+### Há um sinal ou um contrato antes de a minha data ficar garantida?
+
+Não publicamos uma política de sinal nem de contrato para o equipamento audiovisual. A sua data é confirmada pelo mesmo processo de 4 etapas descrito acima, pedido de orçamento, fecho dos detalhes pela nossa equipa e confirmação, e não por uma etapa separada de sinal ou de contrato assinado. Se um acordo específico for importante para o seu planeamento, pergunte-nos diretamente na fase do orçamento.
+
+### Qual é a antecedência mínima para uma reserva?
+
+24 horas, para qualquer aluguer de equipamento para eventos ou serviço técnico. Não existe uma versão mais curta ou mais longa desta regra para eventos maiores ou mais pequenos. Veja [O único prazo rígido](#o-único-prazo-rígido-24-horas-não-uma-antecedência-sugerida) acima.

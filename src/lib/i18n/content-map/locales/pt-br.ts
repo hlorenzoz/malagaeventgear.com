@@ -428,6 +428,11 @@ export default {
 			slug: 'diretrizes-seguranca-aluguel-audiovisual-malaga',
 			keyword: 'diretrizes de segurança para aluguel de audiovisual em Málaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-planning-timeline': {
+			slug: 'cronograma-planejamento-aluguel-audiovisual',
+			keyword: 'cronograma de planejamento do aluguel de audiovisual em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

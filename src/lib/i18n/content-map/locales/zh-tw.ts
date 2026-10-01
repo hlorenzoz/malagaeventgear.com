@@ -376,6 +376,11 @@ export default {
 			slug: '影音租賃安全指南',
 			keyword: '馬拉加 影音租賃安全指南',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-planning-timeline': {
+			slug: '影音租賃籌備時程',
+			keyword: '馬拉加 影音租賃籌備時程',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -392,6 +392,11 @@ export default {
 			slug: 'linee-guida-sicurezza-noleggio-audiovisivo-malaga',
 			keyword: 'linee guida di sicurezza per il noleggio audiovisivo a Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-planning-timeline': {
+			slug: 'tempistiche-pianificazione-noleggio-audiovisivo',
+			keyword: 'tempistiche di pianificazione del noleggio audiovisivo a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

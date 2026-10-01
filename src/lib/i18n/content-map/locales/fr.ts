@@ -396,6 +396,11 @@ export default {
 			slug: 'consignes-securite-location-audiovisuelle-malaga',
 			keyword: 'consignes de sécurité pour la location audiovisuelle à Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-planning-timeline': {
+			slug: 'calendrier-planification-location-audiovisuelle',
+			keyword: 'calendrier de planification de la location audiovisuelle à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

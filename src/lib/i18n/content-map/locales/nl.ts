@@ -396,6 +396,11 @@ export default {
 			slug: 'veiligheidsrichtlijnen-audiovisuele-verhuur-malaga',
 			keyword: 'veiligheidsrichtlijnen voor audiovisuele verhuur in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-planning-timeline': {
+			slug: 'planningsschema-audiovisuele-verhuur',
+			keyword: 'planningsschema voor audiovisuele verhuur in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

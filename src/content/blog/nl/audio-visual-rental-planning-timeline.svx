@@ -1,0 +1,123 @@
+---
+title: "Planningsschema voor audiovisuele verhuur in Malaga, Spanje"
+description: "Planningsschema voor audiovisuele verhuur in Malaga, Spanje, bij MEG: aantal gasten bepaalt het pakket, de prijs blijft gelijk, 24 uur is de enige deadline."
+excerpt: "Planningsschema voor audiovisuele verhuur in Malaga: daar bestaat geen kalendertabel voor. Wat de planning van een AV-verhuur bij MEG echt bepaalt, is het aantal gasten en het passende pakket, wat we van je nodig hebben om een offerte te maken en één echte deadline: 24 uur, niet meer en niet minder."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+    import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+    import { getImagesForPackage } from '$lib/data/gallery';
+    import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Zoek je in het Engels op "audio visual rental planning timeline", dan geven de meeste resultaten je een kalender: 4 tot 6 maanden van tevoren boeken voor een grote conferentie, 6 tot 8 weken voor een bruiloft of bedrijfsevenement, 2 tot 4 weken voor iets kleins. Die tabel geeft ons planningsschema voor audiovisuele verhuur in Malaga, Spanje, je niet. Een vast getal negeert wat hier echt bepaalt of een boeking lukt: het aantal gasten en het passende pakket, wat wij van je nodig hebben om een nauwkeurige offerte te maken en één echte deadline, 24 uur van tevoren, die hetzelfde geldt of je vandaag boekt of volgend voorjaar.
+
+Deze pagina is die eerlijke versie, opgebouwd rond hoe een boeking bij MEG echt verloopt van een eerste aanvraag tot een opgeleverde opstelling. Als je specifiek een bruiloft plant, publiceert MEG elders op de site ook een op bruiloften gerichte versie van dezelfde vraag, met prijzen gekoppeld aan het Wedding Pack. Voor ons volledige aanbod aan apparatuur lees je onze gids over [audiovisuele verhuur in Malaga](/blog/audio-visual-rental/).
+
+## Inhoudsopgave
+
+-   [In het kort](#in-het-kort)
+-   [Belangrijkste punten](#belangrijkste-punten)
+-   [De eerste echte beslissing: aantal gasten en passend pakket](#de-eerste-echte-beslissing-aantal-gasten-en-passend-pakket)
+-   [Wat we van je nodig hebben voor een nauwkeurige offerte](#wat-we-van-je-nodig-hebben-voor-een-nauwkeurige-offerte)
+-   [De ene harde deadline: 24 uur, geen aanbevolen doorlooptijd](#de-ene-harde-deadline-24-uur-geen-aanbevolen-doorlooptijd)
+-   [Wat niet verandert, hoe vroeg of laat je ook boekt](#wat-niet-verandert-hoe-vroeg-of-laat-je-ook-boekt)
+-   [Echte opstellingen die we hebben geleverd](#echte-opstellingen-die-we-hebben-geleverd)
+-   [Boeken aan de Costa del Sol, in Sevilla en in Granada](#boeken-aan-de-costa-del-sol-in-sevilla-en-in-granada)
+-   [Conclusie](#conclusie)
+-   [Veelgestelde vragen](#veelgestelde-vragen)
+    -   [Hoe ver van tevoren moet ik audiovisuele verhuur in Malaga boeken?](#hoe-ver-van-tevoren-moet-ik-audiovisuele-verhuur-in-malaga-boeken)
+    -   [Krijg ik een betere prijs als ik eerder boek?](#krijg-ik-een-betere-prijs-als-ik-eerder-boek)
+    -   [Welke gegevens hebben jullie van me nodig voor een offerte?](#welke-gegevens-hebben-jullie-van-me-nodig-voor-een-offerte)
+    -   [Kan ik apparatuur of technicusuren toevoegen nadat ik al heb geboekt?](#kan-ik-apparatuur-of-technicusuren-toevoegen-nadat-ik-al-heb-geboekt)
+    -   [Is er een aanbetaling of een contract voordat mijn datum vaststaat?](#is-er-een-aanbetaling-of-een-contract-voordat-mijn-datum-vaststaat)
+    -   [Wat is de minimale termijn van tevoren voor een boeking?](#wat-is-de-minimale-termijn-van-tevoren-voor-een-boeking)
+
+## In het kort
+
+---
+
+Het eerlijke planningsschema voor een AV-verhuur bij MEG is geen aftelling, maar een korte reeks beslissingen. Bepaal het verwachte aantal gasten, dat je naar een pakket leidt. Laat ons je datum, locatie en pakketvoorkeur weten, zodat we er een offerte voor kunnen maken. Houd de minimale termijn van 24 uur van tevoren aan, die geldt voor elke aanvraag voor apparatuur of diensten. De pakketprijs verandert niet met hoe ver van tevoren je boekt, en slechts 2 pakketten in de hele catalogus worden geleverd met een technicus. Die feiten, geen aantal weken, bepalen echt wanneer je contact met ons moet opnemen.
+
+## Belangrijkste punten
+
+---
+
+-   Er is geen op de kalender gebaseerde tabel met doorlooptijden. Aantal gasten en passend pakket is de eerste echte beslissing, geen datum op een kalender.
+-   De pakketprijs staat vast: Eco Pack 290 euro, Basic MICE Pack 295 euro, Product Presentation Pack 310 euro, MICE Pack 490 euro, Wedding Pack 650 euro, allemaal excl. btw, ongeacht hoeveel weken of maanden van tevoren je boekt.
+-   Alleen het [Wedding Pack](/packages/wedding/) en het [MICE Pack](/packages/mice/) bevatten in de hele catalogus een technicus ter plaatse, het MICE Pack voor maximaal 6 aaneengesloten uur. Elk ander pakket bedien je zelf nadat ons team het heeft geïnstalleerd en getest.
+-   De enige universele deadline is de minimale termijn van 24 uur van tevoren voor aanvragen voor apparatuur en diensten.
+-   MEG werkt uitsluitend met levering. Ons team levert, installeert, test en haalt de apparatuur op, dus er is geen stap met zelf ophalen waar je een buffer omheen moet plannen.
+
+## De eerste echte beslissing: aantal gasten en passend pakket
+
+<InlineCTA />
+
+De meeste planningsgidsen beginnen met een datum. Wij beginnen met het aantal gasten, omdat dat bepaalt welk pakket past, en elk pakket heeft een echte capaciteit: het [Eco Pack](/packages/eco/) dekt tot 50 gasten, zelf bediend, het [Basic MICE Pack](/packages/basic-mice/) tot 40, zelf bediend, het [Wedding Pack](/packages/wedding/) tot 80 met de hele tijd een technicus erbij en het [MICE Pack](/packages/mice/) tot 120 met een technicus voor maximaal 6 aaneengesloten uur. Het [Product Presentation Pack](/packages/product-presentation/) heeft geen vast maximum aan gasten, omdat het is afgestemd op een scherm en een paar luidsprekers en niet op het aantal mensen in de zaal.
+
+Dit goed regelen voordat je boekt is belangrijker dan een datum ver genoeg van tevoren kiezen, want een aantal gasten dat na het boeken boven de capaciteit van een pakket uitkomt, betekent overstappen op een ander pakket met meer capaciteit en niet een hoeveelheid die je erbij boekt. Die overstap hangt ervan af of het grotere systeem, en bij het Wedding Pack of MICE Pack een technicus, voor jouw datum nog vrij is, en precies dat is iets wat je vroeg makkelijker bevestigt dan laat herstelt.
+
+## Wat we van je nodig hebben voor een nauwkeurige offerte
+
+Het echte knelpunt in elk AV-planningsschema is geen aftelling, maar of we genoeg hebben om je in één keer een nauwkeurige offerte te geven. Ons proces bestaat uit 4 stappen: je kiest een pakket, je vraagt via ons aanvraagformulier een offerte aan, ons team neemt contact met je op om de details af te ronden en de boeking te bevestigen, en daarna regelen wij levering, opbouw, configuratie en afbouw. Om stap 2 en 3 snel te doorlopen, deel je de datum van je evenement, de locatie, het verwachte aantal gasten en welk pakket je interesseert. Met die 4 gegevens kunnen we apparatuur en, waar relevant, de beschikbaarheid van een technicus in één keer bevestigen, in plaats van in meerdere rondes heen en weer.
+
+## De ene harde deadline: 24 uur, geen aanbevolen doorlooptijd
+
+Elke aanvraag voor apparatuur of diensten heeft een minimale termijn van 24 uur van tevoren nodig om planning en logistieke beschikbaarheid te garanderen. Dat is de enige regel die we echt hanteren. Heb je na het boeken meer nodig, een groter aantal gasten, een extra microfoon, extra technicusuren bij het MICE Pack, laat het ons dan zo vroeg mogelijk weten, want elk daarvan hangt af van wat er voor jouw datum nog vrij is. Niets daarvan wordt strenger of soepeler afhankelijk van hoe ver je evenement weg is, en precies daarom publiceren we geen aparte tabel met doorlooptijden voor grote en kleine evenementen. De termijn is in beide gevallen hetzelfde. Wat verandert, is hoeveel ruimte je jezelf geeft om te reageren als een datum of een verzoek om iets toe te voegen niet beschikbaar is.
+
+## Wat niet verandert, hoe vroeg of laat je ook boekt
+
+Sommige gidsen suggereren dat eerder boeken een betere prijs oplevert. Bij MEG niet: elk pakket in onze lijst heeft één vaste prijs, excl. btw, en in geen ervan zit een korting voor vroeg boeken of een toeslag voor last minute. Eerder boeken beschermt de beschikbaarheid, vooral voor de technicusplekken van het [Wedding Pack](/packages/wedding/) en het [MICE Pack](/packages/mice/) in drukkere perioden van het jaar, maar het verandert niet wat je betaalt.
+
+## Echte opstellingen die we hebben geleverd
+
+![Lege gemeenschapsruimte, ingericht met witte stoelen en gehuurde geluidsapparatuur in Malaga, Spanje.](https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-1536x1152.webp "Een lege conferentieruimte, ingericht voor een gemeenschapsbijeenkomst van de Neighborhood Council in Malaga, met het professioneel geleverde geluidssysteem en de evenementenapparatuur.")
+
+Een terugkerende boeking, geen eenmalige: MEG levert al zeven jaar op rij elk jaar het geluidssysteem voor de gemeenschapsbijeenkomst van de Neighborhood Council in Malaga, Spanje, elk jaar via hetzelfde offerteproces dat hierboven is beschreven.
+
+Wat een klant zelf zegt over hoe het proces voelde:
+
+<div class="my-12 overflow-hidden w-full">
+    <ImageMarquee images={getImagesForPackage('mice', ['/1282/', '/2495/'])} speed="normal" direction="left" />
+</div>
+
+<blockquote>
+<p lang="en">"I am really satisfied with this team, they exceeded my expectations. Having a meeting in Malaga, it was a huge help that I did not have to care about the visual solutions and the sound, they made it easy and smooth. They answered all my questions and delivered a high quality equipment to the meeting. Totally worth it!"</p>
+<ul><li>Dániel Gombár, Google-review met 5 sterren, maart 2025</li></ul>
+</blockquote>
+
+## Boeken aan de Costa del Sol, in Sevilla en in Granada
+
+De locatie is een van de 4 gegevens waar we om vragen, juist omdat die de logistiek verandert en niet de termijn. Aan de Costa del Sol (de stad Malaga, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena en Estepona) geldt geen bijzonder minimum. Ook Sevilla wordt bediend. Voor Granada, dat buiten de provincie ligt, is meestal een huurwaarde van meer dan 400 euro nodig om de reis van één dag te dekken. Dat is goed om te weten als je een pakket kiest voor een evenement in Granada, al geldt ook daar dezelfde minimale termijn van 24 uur van tevoren en geen langere.
+
+## Conclusie
+
+Het echte planningsschema voor audiovisuele verhuur in Malaga komt neer op 3 dingen, geen aantal weken. Ten eerste: stem je aantal gasten af op de echte capaciteit van een pakket. Ten tweede: geef ons je datum, locatie, aantal gasten en pakketvoorkeur, zodat we in één keer een offerte kunnen maken. Ten derde: houd de minimale termijn van 24 uur van tevoren aan die voor elke boeking geldt. De prijs verandert niet met hoe ver van tevoren je boekt. [Neem contact met ons op](/contact/) en stuur die gegevens mee. Voor de volledige catalogus achter deze pagina lees je onze gids over [audiovisuele verhuur in Malaga](/blog/audio-visual-rental/).
+
+## Veelgestelde vragen
+
+### Hoe ver van tevoren moet ik audiovisuele verhuur in Malaga boeken?
+
+Er is geen vaste regel of kalendertabel. Waar het echt om gaat, is je aantal gasten afstemmen op de echte capaciteit van een pakket en tijdig contact opnemen, zodat de apparatuur, en een technicus als je pakket er een bevat, voor jouw datum nog vrij is. Zie [De eerste echte beslissing](#de-eerste-echte-beslissing-aantal-gasten-en-passend-pakket) hierboven.
+
+### Krijg ik een betere prijs als ik eerder boek?
+
+Nee. Elk pakket heeft één vaste prijs, excl. btw, ongeacht hoe ver van tevoren je boekt. Eerder boeken beschermt de beschikbaarheid, vooral voor de technicus die bij het [Wedding Pack](/packages/wedding/) en het [MICE Pack](/packages/mice/) hoort, maar het verlaagt niet wat je betaalt. Zie [Wat niet verandert](#wat-niet-verandert-hoe-vroeg-of-laat-je-ook-boekt) hierboven.
+
+### Welke gegevens hebben jullie van me nodig voor een offerte?
+
+De datum van je evenement, de locatie, het verwachte aantal gasten en welk pakket je interesseert. Met die 4 gegevens kunnen we de beschikbaarheid van apparatuur en technicus in één keer bevestigen. Zie [Wat we van je nodig hebben](#wat-we-van-je-nodig-hebben-voor-een-nauwkeurige-offerte) hierboven.
+
+### Kan ik apparatuur of technicusuren toevoegen nadat ik al heb geboekt?
+
+Ja, een verzoek om iets toe te voegen is mogelijk, met dezelfde minimale termijn van 24 uur van tevoren als elk verzoek, en het wordt bevestigd op basis van de apparatuur of technicustijd die voor jouw datum nog echt beschikbaar is, het is niet gegarandeerd op verzoek. Zie [De ene harde deadline](#de-ene-harde-deadline-24-uur-geen-aanbevolen-doorlooptijd) hierboven.
+
+### Is er een aanbetaling of een contract voordat mijn datum vaststaat?
+
+We publiceren geen beleid voor een aanbetaling of een contract voor AV-apparatuur. Je datum wordt bevestigd via hetzelfde hierboven beschreven proces van 4 stappen, offerteaanvraag, afronding van de details door ons team en bevestiging, en niet via een aparte stap met aanbetaling of ondertekend contract. Als een bepaalde afspraak voor je planning belangrijk is, vraag er dan direct naar bij de offerte.
+
+### Wat is de minimale termijn van tevoren voor een boeking?
+
+24 uur, voor elke verhuur van evenementenapparatuur of technische dienst. Er is geen kortere of langere versie van deze regel voor grotere of kleinere evenementen. Zie [De ene harde deadline](#de-ene-harde-deadline-24-uur-geen-aanbevolen-doorlooptijd) hierboven.

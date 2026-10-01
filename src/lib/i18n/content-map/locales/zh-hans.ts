@@ -376,6 +376,11 @@ export default {
 			slug: '视听租赁安全指南',
 			keyword: '马拉加 视听租赁安全指南',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-planning-timeline': {
+			slug: '视听租赁筹备时间表',
+			keyword: '马拉加 视听租赁筹备时间表',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

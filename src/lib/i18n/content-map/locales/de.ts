@@ -396,6 +396,11 @@ export default {
 			slug: 'sicherheitsrichtlinien-av-vermietung-malaga',
 			keyword: 'Sicherheitsrichtlinien zur AV-Vermietung in Malaga',
 			status: 'propuesta'
+		},
+		'audio-visual-rental-planning-timeline': {
+			slug: 'zeitplan-av-vermietung',
+			keyword: 'Zeitplan für die AV-Vermietung in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

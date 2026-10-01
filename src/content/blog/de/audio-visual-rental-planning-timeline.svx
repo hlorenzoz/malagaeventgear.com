@@ -1,0 +1,123 @@
+---
+title: "Zeitplan für die AV-Vermietung in Malaga, Spanien"
+description: "Zeitplan für die AV-Vermietung in Malaga, Spanien, bei MEG: Gästezahl bestimmt das Paket, der Preis bleibt gleich, 24 Stunden Vorlauf sind die einzige Frist."
+excerpt: "Zeitplan für die AV-Vermietung in Malaga: Dafür gibt es keine Kalendertabelle. Was den Zeitplan einer AV-Vermietung bei MEG wirklich bestimmt, sind die Gästezahl und das passende Paket, was wir von Ihnen für ein Angebot brauchen, und eine einzige echte Frist: 24 Stunden, nicht mehr und nicht weniger."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+    import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+    import { getImagesForPackage } from '$lib/data/gallery';
+    import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Wer auf Englisch nach "audio visual rental planning timeline" sucht, bekommt in den meisten Ergebnissen einen Kalender serviert: 4 bis 6 Monate im Voraus buchen für eine große Konferenz, 6 bis 8 Wochen für eine Hochzeit oder eine Firmenveranstaltung, 2 bis 4 Wochen für etwas Kleines. Diese Tabelle gibt Ihnen unser Zeitplan für die AV-Vermietung in Malaga, Spanien, nicht an die Hand. Eine feste Zahl blendet aus, was bei uns tatsächlich über eine Buchung entscheidet: die Gästezahl und das passende Paket, was wir von Ihnen für ein genaues Angebot brauchen und eine einzige echte Frist, 24 Stunden Vorlauf, die gleichermaßen gilt, ob Sie heute oder erst im nächsten Frühjahr buchen.
+
+Diese Seite ist die ehrliche Version, aufgebaut darum, wie eine Buchung bei MEG tatsächlich von der ersten Anfrage bis zum gelieferten Aufbau verläuft. Wenn Sie speziell eine Hochzeit planen, veröffentlicht MEG an anderer Stelle der Website auch eine auf Hochzeiten ausgerichtete Version derselben Frage, mit Preisen rund um das Wedding Pack. Unsere gesamte Technik finden Sie in unserem Ratgeber zur [AV-Vermietung in Malaga](/blog/audio-visual-rental/).
+
+## Inhaltsverzeichnis
+
+-   [Kurzüberblick](#kurzüberblick)
+-   [Das Wichtigste](#das-wichtigste)
+-   [Die erste echte Entscheidung: Gästezahl und passendes Paket](#die-erste-echte-entscheidung-gästezahl-und-passendes-paket)
+-   [Was wir von Ihnen für ein genaues Angebot brauchen](#was-wir-von-ihnen-für-ein-genaues-angebot-brauchen)
+-   [Die eine feste Frist: 24 Stunden, keine empfohlene Vorlaufzeit](#die-eine-feste-frist-24-stunden-keine-empfohlene-vorlaufzeit)
+-   [Was gleich bleibt, egal ob Sie früh oder spät buchen](#was-gleich-bleibt-egal-ob-sie-früh-oder-spät-buchen)
+-   [Echte Aufbauten, die wir geliefert haben](#echte-aufbauten-die-wir-geliefert-haben)
+-   [Buchen an der Costa del Sol, in Sevilla und in Granada](#buchen-an-der-costa-del-sol-in-sevilla-und-in-granada)
+-   [Fazit](#fazit)
+-   [Häufige Fragen](#häufige-fragen)
+    -   [Wie weit im Voraus sollte ich AV-Vermietung in Malaga buchen?](#wie-weit-im-voraus-sollte-ich-av-vermietung-in-malaga-buchen)
+    -   [Bekomme ich einen besseren Preis, wenn ich früher buche?](#bekomme-ich-einen-besseren-preis-wenn-ich-früher-buche)
+    -   [Welche Angaben brauchen Sie von mir für ein Angebot?](#welche-angaben-brauchen-sie-von-mir-für-ein-angebot)
+    -   [Kann ich Technik oder Technikerstunden hinzufügen, nachdem ich schon gebucht habe?](#kann-ich-technik-oder-technikerstunden-hinzufügen-nachdem-ich-schon-gebucht-habe)
+    -   [Gibt es eine Anzahlung oder einen Vertrag, bevor mein Termin gesichert ist?](#gibt-es-eine-anzahlung-oder-einen-vertrag-bevor-mein-termin-gesichert-ist)
+    -   [Wie lang ist die Mindestvorlaufzeit für eine Buchung?](#wie-lang-ist-die-mindestvorlaufzeit-für-eine-buchung)
+
+## Kurzüberblick
+
+---
+
+Der ehrliche Zeitplan für eine AV-Vermietung bei MEG ist kein Countdown, sondern eine kurze Abfolge von Entscheidungen. Legen Sie Ihre erwartete Gästezahl fest, die Sie zu einem Paket führt. Nennen Sie uns Termin, Ort und das Paket, das Sie interessiert, damit wir es anbieten können. Halten Sie die Mindestvorlaufzeit von 24 Stunden ein, die für jede Anfrage zu Technik oder Services gilt. Der Paketpreis ändert sich nicht damit, wie weit im Voraus Sie buchen, und nur 2 Pakete im gesamten Katalog kommen mit einem Techniker. Diese Fakten, nicht eine Wochenzahl, bestimmen tatsächlich, wann Sie sich bei uns melden sollten.
+
+## Das Wichtigste
+
+---
+
+-   Es gibt keine kalenderbasierte Tabelle mit Vorlaufzeiten. Gästezahl und passendes Paket sind die erste echte Entscheidung, nicht ein Datum im Kalender.
+-   Die Paketpreise sind fest: Eco Pack 290 Euro, Basic MICE Pack 295 Euro, Product Presentation Pack 310 Euro, MICE Pack 490 Euro, Wedding Pack 650 Euro, alle zzgl. MwSt., unabhängig davon, wie viele Wochen oder Monate im Voraus Sie buchen.
+-   Nur das [Wedding Pack](/packages/wedding/) und das [MICE Pack](/packages/mice/) enthalten im gesamten Katalog einen Techniker vor Ort, das MICE Pack für bis zu 6 Stunden am Stück. Jedes andere Paket bedienen Sie selbst, nachdem unser Team es installiert und getestet hat.
+-   Die einzige allgemeine Frist ist die Mindestvorlaufzeit von 24 Stunden für Anfragen zu Technik und Services.
+-   MEG arbeitet ausschließlich mit Lieferung. Unser Team liefert, installiert, testet und holt ab, deshalb gibt es keinen Selbstabholschritt, um den Sie einen Puffer einplanen müssten.
+
+## Die erste echte Entscheidung: Gästezahl und passendes Paket
+
+<InlineCTA />
+
+Die meisten Planungsratgeber beginnen mit einem Datum. Wir beginnen mit der Gästezahl, denn sie bestimmt, welches Paket passt, und jedes Paket hat eine echte Kapazität: Das [Eco Pack](/packages/eco/) deckt bis zu 50 Gäste ab, selbst bedient, das [Basic MICE Pack](/packages/basic-mice/) bis zu 40, selbst bedient, das [Wedding Pack](/packages/wedding/) bis zu 80 mit einem Techniker durchgehend und das [MICE Pack](/packages/mice/) bis zu 120 mit einem Techniker für bis zu 6 Stunden am Stück. Das [Product Presentation Pack](/packages/product-presentation/) hat keine feste Gästegrenze, weil es um eine Leinwand und ein Lautsprecherpaar herum dimensioniert ist und nicht nach der Personenzahl im Raum.
+
+Das vor der Buchung richtig zu klären ist wichtiger, als ein Datum weit genug im Voraus zu wählen, denn eine Gästezahl, die nach der Buchung über die Kapazität eines Pakets hinauswächst, bedeutet den Wechsel zu einem anderen Paket mit höherer Kapazität und keine Menge, die man einfach dazubucht. Dieser Wechsel hängt davon ab, ob die größere Anlage und beim Wedding Pack oder MICE Pack ein Techniker an Ihrem Termin noch frei ist, und genau das lässt sich früh leichter bestätigen als spät beheben.
+
+## Was wir von Ihnen für ein genaues Angebot brauchen
+
+Der eigentliche Engpass in jedem AV-Zeitplan ist kein Countdown, sondern die Frage, ob wir genug haben, um Ihnen gleich beim ersten Durchgang ein genaues Angebot zu machen. Unser Ablauf besteht aus 4 Schritten: Sie wählen ein Paket, Sie fordern über unser Anfrageformular ein Angebot an, unser Team meldet sich bei Ihnen, um die Details festzulegen und die Buchung zu bestätigen, und dann übernehmen wir Lieferung, Aufbau, Einrichtung und Abbau. Damit die Schritte 2 und 3 schnell gehen, nennen Sie uns Ihr Veranstaltungsdatum, den Veranstaltungsort, Ihre erwartete Gästezahl und das Paket, das Sie interessiert. Mit diesen 4 Angaben können wir Technik und gegebenenfalls die Verfügbarkeit eines Technikers in einem Austausch bestätigen statt in mehreren Abstimmungsrunden.
+
+## Die eine feste Frist: 24 Stunden, keine empfohlene Vorlaufzeit
+
+Jede Anfrage zu Technik oder Services braucht mindestens 24 Stunden Vorlauf, damit Terminplanung und Logistik gesichert sind. Das ist die einzige Regel, die wir tatsächlich durchsetzen. Wenn Sie nach der Buchung mehr brauchen, eine größere Gästezahl, ein zusätzliches Mikrofon, zusätzliche Technikerstunden beim MICE Pack, sagen Sie uns so früh wie möglich Bescheid, denn jedes davon hängt davon ab, was an Ihrem Termin noch frei ist. Nichts davon wird strenger oder lockerer, je nachdem, wie weit Ihre Veranstaltung entfernt ist, und genau deshalb veröffentlichen wir keine getrennte Vorlauftabelle für große und kleine Veranstaltungen. Die Frist ist in beiden Fällen dieselbe. Was sich ändert, ist der Spielraum, den Sie sich lassen, um zu reagieren, falls ein Termin oder ein Zusatzwunsch nicht verfügbar ist.
+
+## Was gleich bleibt, egal ob Sie früh oder spät buchen
+
+Manche Ratgeber behaupten, frühes Buchen bringe einen besseren Preis. Bei MEG ist das nicht so: Jedes Paket in unserer Liste hat einen festen Preis zzgl. MwSt., und in keinem steckt ein Frühbucherrabatt oder ein Kurzfristzuschlag. Früher zu buchen schützt die Verfügbarkeit, besonders bei den Technikerterminen von [Wedding Pack](/packages/wedding/) und [MICE Pack](/packages/mice/) in den stärker ausgelasteten Zeiten des Jahres, es ändert aber nicht, was Sie zahlen.
+
+## Echte Aufbauten, die wir geliefert haben
+
+![Leerer Gemeinschaftsraum, mit weißen Stühlen und Miettechnik für die Beschallung eingerichtet, in Malaga, Spanien.](https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-1536x1152.webp "Ein leerer Konferenzraum, für eine Gemeindeversammlung des Neighborhood Council in Malaga eingerichtet, mit der professionell bereitgestellten Tonanlage und Veranstaltungstechnik.")
+
+Eine wiederkehrende Buchung, keine einmalige: MEG stellt die Tonanlage für die Gemeindeversammlung des Neighborhood Council in Malaga, Spanien, seit sieben Jahren in Folge jedes Jahr bereit, jedes Jahr über denselben oben beschriebenen Ablauf der Angebotsanfrage.
+
+Die Worte eines Kunden dazu, wie sich der Ablauf angefühlt hat:
+
+<div class="my-12 overflow-hidden w-full">
+    <ImageMarquee images={getImagesForPackage('mice', ['/1282/', '/2495/'])} speed="normal" direction="left" />
+</div>
+
+<blockquote>
+<p lang="en">"I am really satisfied with this team, they exceeded my expectations. Having a meeting in Malaga, it was a huge help that I did not have to care about the visual solutions and the sound, they made it easy and smooth. They answered all my questions and delivered a high quality equipment to the meeting. Totally worth it!"</p>
+<ul><li>Dániel Gombár, Google-Bewertung mit 5 Sternen, März 2025</li></ul>
+</blockquote>
+
+## Buchen an der Costa del Sol, in Sevilla und in Granada
+
+Der Ort gehört zu den 4 Angaben, nach denen wir genau deshalb fragen, weil er die Logistik verändert und nicht die Vorlaufzeit. An der Costa del Sol (die Stadt Malaga, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena und Estepona) gibt es kein besonderes Minimum. Auch Sevilla wird beliefert. Granada liegt außerhalb der Provinz und verlangt in der Regel einen Mietwert über 400 Euro, um die Anfahrt an einem einzigen Tag abzudecken. Das ist gut zu wissen, wenn Sie ein Paket für eine Veranstaltung in Granada dimensionieren, auch wenn dort dieselbe Mindestvorlaufzeit von 24 Stunden gilt und keine längere.
+
+## Fazit
+
+Der wirkliche Zeitplan für die AV-Vermietung in Malaga besteht aus 3 Dingen und nicht aus einer Wochenzahl. Erstens: Gleichen Sie Ihre Gästezahl mit der echten Kapazität eines Pakets ab. Zweitens: Nennen Sie uns Termin, Ort, Gästezahl und Paketwunsch, damit wir in einem Durchgang anbieten können. Drittens: Halten Sie die Mindestvorlaufzeit von 24 Stunden ein, die für jede Buchung gilt. Der Preis ändert sich nicht damit, wie weit im Voraus Sie buchen. [Kontaktieren Sie uns](/contact/) mit diesen Angaben, und den gesamten Katalog hinter dieser Seite finden Sie in unserem Ratgeber zur [AV-Vermietung in Malaga](/blog/audio-visual-rental/).
+
+## Häufige Fragen
+
+### Wie weit im Voraus sollte ich AV-Vermietung in Malaga buchen?
+
+Es gibt keine feste Regel und keine Kalendertabelle. Worauf es wirklich ankommt, ist, Ihre Gästezahl mit der echten Kapazität eines Pakets abzugleichen und sich früh genug zu melden, damit die Technik, und ein Techniker, falls Ihr Paket einen enthält, an Ihrem Termin noch frei ist. Siehe [Die erste echte Entscheidung](#die-erste-echte-entscheidung-gästezahl-und-passendes-paket) oben.
+
+### Bekomme ich einen besseren Preis, wenn ich früher buche?
+
+Nein. Jedes Paket hat einen festen Preis zzgl. MwSt., unabhängig davon, wie weit im Voraus Sie buchen. Früher zu buchen schützt die Verfügbarkeit, besonders beim Techniker, der im [Wedding Pack](/packages/wedding/) und im [MICE Pack](/packages/mice/) enthalten ist, es senkt aber nicht, was Sie zahlen. Siehe [Was gleich bleibt](#was-gleich-bleibt-egal-ob-sie-früh-oder-spät-buchen) oben.
+
+### Welche Angaben brauchen Sie von mir für ein Angebot?
+
+Ihr Veranstaltungsdatum, den Veranstaltungsort, Ihre erwartete Gästezahl und das Paket, das Sie interessiert. Mit diesen 4 Angaben können wir die Verfügbarkeit von Technik und Techniker in einem Austausch bestätigen. Siehe [Was wir von Ihnen brauchen](#was-wir-von-ihnen-für-ein-genaues-angebot-brauchen) oben.
+
+### Kann ich Technik oder Technikerstunden hinzufügen, nachdem ich schon gebucht habe?
+
+Ja, ein Zusatzwunsch ist möglich, mit derselben Mindestvorlaufzeit von 24 Stunden wie jede Anfrage, und er wird danach bestätigt, welche Technik oder Technikerzeit an Ihrem Termin tatsächlich noch frei ist, er ist nicht auf Zuruf garantiert. Siehe [Die eine feste Frist](#die-eine-feste-frist-24-stunden-keine-empfohlene-vorlaufzeit) oben.
+
+### Gibt es eine Anzahlung oder einen Vertrag, bevor mein Termin gesichert ist?
+
+Wir veröffentlichen keine Regelung zu Anzahlung oder Vertrag für AV-Technik. Ihr Termin wird über denselben oben beschriebenen Ablauf in 4 Schritten bestätigt, Angebotsanfrage, Festlegung der Details durch unser Team und Bestätigung, und nicht über einen eigenen Schritt mit Anzahlung oder unterschriebenem Vertrag. Wenn Ihnen für Ihre Planung eine bestimmte Vereinbarung wichtig ist, fragen Sie uns direkt bei der Angebotserstellung.
+
+### Wie lang ist die Mindestvorlaufzeit für eine Buchung?
+
+24 Stunden, für jede Anfrage zu Technik für Veranstaltungen oder zu einem technischen Service. Für größere oder kleinere Veranstaltungen gibt es keine kürzere oder längere Version dieser Regel. Siehe [Die eine feste Frist](#die-eine-feste-frist-24-stunden-keine-empfohlene-vorlaufzeit) oben.

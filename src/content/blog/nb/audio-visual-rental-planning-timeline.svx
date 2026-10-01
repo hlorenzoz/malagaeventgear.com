@@ -1,0 +1,123 @@
+---
+title: "Tidsplan for AV-utleie i Malaga, Spania"
+description: "Tidsplan for AV-utleie i Malaga, Spania, hos MEG: antall gjester avgjør pakken, prisen endres ikke med ledetiden, 24 timers varsel er den eneste fristen."
+excerpt: "Tidsplan for AV-utleie i Malaga: det finnes ingen kalendertabell for det. Det som egentlig avgjør tidsplanen for en AV-utleie hos MEG, er antall gjester og pakken som passer, hva vi trenger fra deg for å gi et tilbud, og én eneste reell frist: 24 timer, verken mer eller mindre."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+    import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+    import { getImagesForPackage } from '$lib/data/gallery';
+    import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Søker du på engelsk etter "audio visual rental planning timeline", gir de fleste resultatene deg en kalender: bestill 4 til 6 måneder i forveien for en stor konferanse, 6 til 8 uker for et bryllup eller et bedriftsarrangement, 2 til 4 uker for noe lite. Den tabellen får du ikke i vår tidsplan for AV-utleie i Malaga, Spania. Et fast tall ser bort fra det som faktisk avgjør en bestilling hos oss: antall gjester og hvilken pakke som passer, hva vi trenger fra deg for å kunne gi et nøyaktig tilbud og én eneste reell frist, 24 timers varsel, som gjelder likt enten du bestiller i dag eller neste vår.
+
+Denne siden er den ærlige versjonen, bygget rundt hvordan en bestilling hos MEG faktisk går fra en første henvendelse til et levert oppsett. Hvis du planlegger et bryllup spesielt, publiserer MEG også et annet sted på nettstedet en bryllupsrettet versjon av det samme spørsmålet, med priser knyttet til Wedding Pack. For hele utvalget vårt av utstyr, se guiden vår om [AV-utleie i Malaga](/blog/audio-visual-rental/).
+
+## Innholdsfortegnelse
+
+-   [Kort oversikt](#kort-oversikt)
+-   [Det viktigste](#det-viktigste)
+-   [Den første virkelige beslutningen: antall gjester og pakke som passer](#den-første-virkelige-beslutningen-antall-gjester-og-pakke-som-passer)
+-   [Hva vi trenger fra deg for å gi et nøyaktig tilbud](#hva-vi-trenger-fra-deg-for-å-gi-et-nøyaktig-tilbud)
+-   [Den ene harde fristen: 24 timer, ikke en anbefalt ledetid](#den-ene-harde-fristen-24-timer-ikke-en-anbefalt-ledetid)
+-   [Det som ikke endres, enten du bestiller tidlig eller sent](#det-som-ikke-endres-enten-du-bestiller-tidlig-eller-sent)
+-   [Ekte oppsett vi har levert](#ekte-oppsett-vi-har-levert)
+-   [Bestille i Costa del Sol, i Sevilla og i Granada](#bestille-i-costa-del-sol-i-sevilla-og-i-granada)
+-   [Konklusjon](#konklusjon)
+-   [Ofte stilte spørsmål](#ofte-stilte-spørsmål)
+    -   [Hvor langt i forveien bør jeg bestille AV-utleie i Malaga?](#hvor-langt-i-forveien-bør-jeg-bestille-av-utleie-i-malaga)
+    -   [Får jeg bedre pris hvis jeg bestiller tidligere?](#får-jeg-bedre-pris-hvis-jeg-bestiller-tidligere)
+    -   [Hvilke opplysninger trenger dere fra meg for å sende et tilbud?](#hvilke-opplysninger-trenger-dere-fra-meg-for-å-sende-et-tilbud)
+    -   [Kan jeg legge til utstyr eller teknikertimer etter at jeg allerede har bestilt?](#kan-jeg-legge-til-utstyr-eller-teknikertimer-etter-at-jeg-allerede-har-bestilt)
+    -   [Er det et depositum eller en kontrakt før datoen min er sikret?](#er-det-et-depositum-eller-en-kontrakt-før-datoen-min-er-sikret)
+    -   [Hva er minste varsel for en bestilling?](#hva-er-minste-varsel-for-en-bestilling)
+
+## Kort oversikt
+
+---
+
+Den ærlige tidsplanen for en AV-utleie hos MEG er ingen nedtelling, men en kort rekke beslutninger. Bestem forventet antall gjester, som peker deg mot en pakke. Fortell oss dato, sted og hvilken pakke du er interessert i, slik at vi kan gi et tilbud. Overhold minste varsel på 24 timer, som gjelder for enhver forespørsel om utstyr eller tjenester. Pakkeprisen endres ikke med hvor langt i forveien du bestiller, og bare 2 pakker i hele katalogen kommer med tekniker. Det er disse faktaene, ikke et antall uker, som egentlig avgjør når du bør ta kontakt.
+
+## Det viktigste
+
+---
+
+-   Det finnes ingen kalenderbasert tabell over frister. Antall gjester og pakke som passer er den første virkelige beslutningen, ikke en dato i kalenderen.
+-   Pakkeprisene er faste: Eco Pack 290 euro, Basic MICE Pack 295 euro, Product Presentation Pack 310 euro, MICE Pack 490 euro, Wedding Pack 650 euro, alle eks. mva., uansett hvor mange uker eller måneder i forveien du bestiller.
+-   Bare [Wedding Pack](/packages/wedding/) og [MICE Pack](/packages/mice/) inkluderer en tekniker på stedet i hele katalogen, MICE Pack i opptil 6 timer sammenhengende. Alle andre pakker betjener du selv etter at teamet vårt har installert og testet dem.
+-   Den eneste universelle fristen er minste varsel på 24 timer for forespørsler om utstyr og tjenester.
+-   MEG jobber utelukkende med levering. Teamet vårt leverer, installerer, tester og henter utstyret, så det finnes ikke noe selvhentingstrinn som du må planlegge en buffer rundt.
+
+## Den første virkelige beslutningen: antall gjester og pakke som passer
+
+<InlineCTA />
+
+De fleste planleggingsguider starter med en dato. Vi starter med antall gjester, fordi det avgjør hvilken pakke som passer, og hver pakke har en virkelig kapasitet: [Eco Pack](/packages/eco/) dekker opptil 50 gjester og betjenes av deg selv, [Basic MICE Pack](/packages/basic-mice/) opptil 40 og betjenes av deg selv, [Wedding Pack](/packages/wedding/) opptil 80 med tekniker gjennom hele arrangementet og [MICE Pack](/packages/mice/) opptil 120 med tekniker i opptil 6 timer sammenhengende. [Product Presentation Pack](/packages/product-presentation/) har ingen fast gjestegrense, fordi den er dimensjonert rundt et lerret og et par høyttalere i stedet for antall personer i lokalet.
+
+Å få dette riktig før du bestiller betyr mer enn å velge en dato langt i forveien, for et antall gjester som etter bestillingen vokser forbi kapasiteten til en pakke, betyr et bytte til en annen pakke med større kapasitet og ikke en mengde du legger til. Det byttet avhenger av om det større systemet, og for Wedding Pack eller MICE Pack en tekniker, fortsatt er ledig på datoen din, og det er nettopp den typen ting som er lettere å bekrefte tidlig enn å rette opp sent.
+
+## Hva vi trenger fra deg for å gi et nøyaktig tilbud
+
+Den egentlige flaskehalsen i enhver AV-tidsplan er ikke en nedtelling, men om vi har nok til å kunne gi deg et nøyaktig tilbud allerede første gang. Prosessen vår har 4 trinn: du velger en pakke, du ber om tilbud via henvendelsesskjemaet vårt, teamet vårt kontakter deg for å ferdigstille detaljene og bekrefte bestillingen, og deretter tar vi oss av levering, oppsett, konfigurering og nedrigging. For å komme raskt gjennom trinn 2 og 3 deler du datoen for arrangementet ditt, stedet, forventet antall gjester og hvilken pakke du er interessert i. Med de 4 opplysningene kan vi bekrefte utstyr og, der det er relevant, tilgjengeligheten til en tekniker i én samlet utveksling i stedet for flere runder frem og tilbake.
+
+## Den ene harde fristen: 24 timer, ikke en anbefalt ledetid
+
+Enhver forespørsel om utstyr eller tjenester krever minst 24 timers varsel for å sikre planlegging og logistikk. Det er den eneste regelen vi faktisk håndhever. Hvis du trenger mer etter bestillingen, et større antall gjester, en ekstra mikrofon, ekstra teknikertimer på MICE Pack, si fra så tidlig som mulig, for hver av dem avhenger av hva som fortsatt er ledig på datoen din. Ingenting av dette blir strengere eller mykere avhengig av hvor langt unna arrangementet ditt er, og det er nettopp derfor vi ikke publiserer en egen tabell over frister for store og små arrangementer. Vinduet er det samme i begge tilfeller. Det som endres, er hvor mye slingringsmonn du gir deg selv til å reagere hvis en dato eller en forespørsel om tillegg ikke er tilgjengelig.
+
+## Det som ikke endres, enten du bestiller tidlig eller sent
+
+Noen guider antyder at det gir bedre pris å bestille tidlig. Hos MEG gjør det ikke det: hver pakke i listen vår har én fast pris, eks. mva., og ingen av dem har innebygd rabatt for tidlig bestilling eller tillegg for sen bestilling. Å bestille tidligere beskytter tilgjengeligheten, særlig for teknikerplassene i [Wedding Pack](/packages/wedding/) og [MICE Pack](/packages/mice/) i de travlere periodene av året, men det endrer ikke hva du betaler.
+
+## Ekte oppsett vi har levert
+
+![Tomt lokale for nabolagsmøte, satt opp med hvite stoler og leid lydutstyr, i Malaga, Spania.](https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-1536x1152.webp "Et tomt konferanselokale satt opp for Neighborhood Councils nabolagsmøte i Malaga, med det profesjonelt leverte lydsystemet og arrangementsutstyret.")
+
+En tilbakevendende bestilling, ikke en engangsbestilling: MEG har levert lydsystemet til Neighborhood Councils nabolagsmøte i Malaga, Spania, hvert år i sju år på rad, hvert år via den samme prosessen for tilbudsforespørsel som beskrevet ovenfor.
+
+En kundes egne ord om hvordan prosessen føltes:
+
+<div class="my-12 overflow-hidden w-full">
+    <ImageMarquee images={getImagesForPackage('mice', ['/1282/', '/2495/'])} speed="normal" direction="left" />
+</div>
+
+<blockquote>
+<p lang="en">"I am really satisfied with this team, they exceeded my expectations. Having a meeting in Malaga, it was a huge help that I did not have to care about the visual solutions and the sound, they made it easy and smooth. They answered all my questions and delivered a high quality equipment to the meeting. Totally worth it!"</p>
+<ul><li>Dániel Gombár, Google-anmeldelse med 5 stjerner, mars 2025</li></ul>
+</blockquote>
+
+## Bestille i Costa del Sol, i Sevilla og i Granada
+
+Stedet er en av de 4 opplysningene vi spør om nettopp fordi det endrer logistikken og ikke varselet. I Costa del Sol (byen Malaga, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmádena og Estepona) er det ingen særskilt minstegrense. Sevilla betjenes også. Granada, som ligger utenfor provinsen, krever vanligvis en leieverdi over 400 euro for å dekke reisen på én enkelt dag, noe som er greit å vite når du dimensjonerer en pakke for et arrangement i Granada, selv om det samme minste varselet på 24 timer gjelder der, ikke et lengre.
+
+## Konklusjon
+
+En virkelig tidsplan for AV-utleie i Malaga består av 3 ting og ikke av et antall uker. For det første: sammenlign antall gjester med den virkelige kapasiteten til en pakke. For det andre: gi oss dato, sted, antall gjester og hvilken pakke du er interessert i, slik at vi kan gi et tilbud i ett trinn. For det tredje: overhold minste varsel på 24 timer som gjelder for enhver bestilling. Prisen endres ikke med hvor langt i forveien du bestiller. [Ta kontakt](/contact/) med disse opplysningene, og for hele katalogen bak denne siden, se guiden vår om [AV-utleie i Malaga](/blog/audio-visual-rental/).
+
+## Ofte stilte spørsmål
+
+### Hvor langt i forveien bør jeg bestille AV-utleie i Malaga?
+
+Det finnes ingen fast regel eller kalendertabell. Det som egentlig betyr noe, er å sammenligne antall gjester med den virkelige kapasiteten til en pakke og ta kontakt tidlig nok til at utstyret, og en tekniker hvis pakken din inkluderer en, fortsatt er ledig på datoen din. Se [Den første virkelige beslutningen](#den-første-virkelige-beslutningen-antall-gjester-og-pakke-som-passer) ovenfor.
+
+### Får jeg bedre pris hvis jeg bestiller tidligere?
+
+Nei. Hver pakke har én fast pris, eks. mva., uansett hvor langt i forveien du bestiller. Å bestille tidligere beskytter tilgjengeligheten, særlig for teknikeren som er inkludert i [Wedding Pack](/packages/wedding/) og [MICE Pack](/packages/mice/), men det senker ikke hva du betaler. Se [Det som ikke endres](#det-som-ikke-endres-enten-du-bestiller-tidlig-eller-sent) ovenfor.
+
+### Hvilke opplysninger trenger dere fra meg for å sende et tilbud?
+
+Datoen for arrangementet ditt, stedet, forventet antall gjester og hvilken pakke du er interessert i. Med de 4 opplysningene kan vi bekrefte tilgjengeligheten til utstyr og tekniker i én samlet utveksling. Se [Hva vi trenger fra deg](#hva-vi-trenger-fra-deg-for-å-gi-et-nøyaktig-tilbud) ovenfor.
+
+### Kan jeg legge til utstyr eller teknikertimer etter at jeg allerede har bestilt?
+
+Ja, en forespørsel om tillegg er mulig, med det samme minste varselet på 24 timer som enhver forespørsel, og den bekreftes ut fra hvilket utstyr eller hvilken teknikertid som faktisk fortsatt er ledig på datoen din, den er ikke garantert bare fordi du ber om den. Se [Den ene harde fristen](#den-ene-harde-fristen-24-timer-ikke-en-anbefalt-ledetid) ovenfor.
+
+### Er det et depositum eller en kontrakt før datoen min er sikret?
+
+Vi publiserer ingen policy for depositum eller kontrakt for AV-utstyr. Datoen din bekreftes gjennom den samme prosessen i 4 trinn som er beskrevet ovenfor, tilbudsforespørsel, at teamet vårt ferdigstiller detaljene og bekreftelse, og ikke gjennom et eget trinn med depositum eller signert kontrakt. Hvis en bestemt avtale er viktig for planleggingen din, spør oss direkte når du ber om tilbud.
+
+### Hva er minste varsel for en bestilling?
+
+24 timer, for all utleie av arrangementsutstyr eller teknisk tjeneste. Det finnes ingen kortere eller lengre versjon av denne regelen for større eller mindre arrangementer. Se [Den ene harde fristen](#den-ene-harde-fristen-24-timer-ikke-en-anbefalt-ledetid) ovenfor.

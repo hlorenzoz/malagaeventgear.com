@@ -1,0 +1,123 @@
+---
+title: "Calendrier de planification de la location audiovisuelle à Malaga"
+description: "Calendrier de planification de la location audiovisuelle à Malaga, en Espagne, chez MEG : forfait selon les invités, prix fixe, 24 h de préavis, seule échéance."
+excerpt: "Calendrier de planification de la location audiovisuelle à Malaga : il n'existe pas de tableau de dates pour cela. Ce qui décide vraiment du calendrier d'une location audiovisuelle avec MEG, c'est le nombre d'invités et le choix du forfait, ce dont nous avons besoin de vous pour établir un devis, et une seule vraie échéance : 24 heures, ni plus ni moins."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+    import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+    import { getImagesForPackage } from '$lib/data/gallery';
+    import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Une recherche en anglais sur "audio visual rental planning timeline" renvoie surtout un calendrier : réserver 4 à 6 mois à l'avance pour une grande conférence, 6 à 8 semaines pour un mariage ou un événement d'entreprise, 2 à 4 semaines pour quelque chose de petit. Notre calendrier de planification de la location audiovisuelle à Malaga, en Espagne, ne vous remettra pas ce tableau. Un chiffre fixe ignore ce qui décide réellement d'une réservation chez nous : le nombre d'invités et le choix du forfait, ce dont nous avons besoin de vous pour établir un devis précis, et une seule vraie échéance, un préavis de 24 heures, qui vaut de la même façon que vous réserviez aujourd'hui ou au printemps prochain.
+
+Cette page en est la version honnête, construite autour de la façon dont une réservation chez MEG passe réellement d'une première demande à une installation livrée. Si vous préparez un mariage en particulier, MEG publie aussi ailleurs sur le site une version axée sur le mariage de cette même question, avec une tarification liée au Wedding Pack. Pour toute notre gamme de matériel, consultez notre guide de [location audiovisuelle à Malaga](/blog/audio-visual-rental/).
+
+## Table des matières
+
+-   [En bref](#en-bref)
+-   [Points clés](#points-clés)
+-   [La première vraie décision : nombre d'invités et choix du forfait](#la-première-vraie-décision--nombre-dinvités-et-choix-du-forfait)
+-   [Ce dont nous avons besoin de vous pour établir un devis précis](#ce-dont-nous-avons-besoin-de-vous-pour-établir-un-devis-précis)
+-   [La seule échéance ferme : 24 heures, pas un délai conseillé](#la-seule-échéance-ferme--24-heures-pas-un-délai-conseillé)
+-   [Ce qui ne change pas, que vous réserviez tôt ou tard](#ce-qui-ne-change-pas-que-vous-réserviez-tôt-ou-tard)
+-   [Des installations réelles que nous avons livrées](#des-installations-réelles-que-nous-avons-livrées)
+-   [Réserver sur la Costa del Sol, à Séville et à Grenade](#réserver-sur-la-costa-del-sol-à-séville-et-à-grenade)
+-   [Conclusion](#conclusion)
+-   [Questions fréquentes](#questions-fréquentes)
+    -   [Combien de temps à l'avance faut-il réserver une location audiovisuelle à Malaga ?](#combien-de-temps-à-lavance-faut-il-réserver-une-location-audiovisuelle-à-malaga-)
+    -   [Réserver plus tôt permet-il d'obtenir un meilleur prix ?](#réserver-plus-tôt-permet-il-dobtenir-un-meilleur-prix-)
+    -   [De quelles informations avez-vous besoin pour établir un devis ?](#de-quelles-informations-avez-vous-besoin-pour-établir-un-devis-)
+    -   [Puis-je ajouter du matériel ou des heures de technicien après avoir déjà réservé ?](#puis-je-ajouter-du-matériel-ou-des-heures-de-technicien-après-avoir-déjà-réservé-)
+    -   [Faut-il verser un acompte ou signer un contrat avant que ma date soit bloquée ?](#faut-il-verser-un-acompte-ou-signer-un-contrat-avant-que-ma-date-soit-bloquée-)
+    -   [Quel est le préavis minimum pour une réservation ?](#quel-est-le-préavis-minimum-pour-une-réservation-)
+
+## En bref
+
+---
+
+Le calendrier de planification honnête d'une location audiovisuelle avec MEG n'est pas un compte à rebours, c'est une courte suite de décisions. Fixez votre nombre d'invités prévu, qui vous oriente vers un forfait. Indiquez-nous votre date, votre lieu et le forfait qui vous intéresse pour que nous puissions établir le devis. Respectez le préavis minimum de 24 heures qui régit toute demande de matériel ou de service. Le prix d'un forfait ne varie pas selon le délai de réservation, et seuls 2 forfaits de tout le catalogue comprennent un technicien. Ce sont ces faits, et non un nombre de semaines, qui déterminent réellement le moment où nous contacter.
+
+## Points clés
+
+---
+
+-   Il n'existe pas de tableau de délais fondé sur un calendrier. Le nombre d'invités et le choix du forfait sont la première vraie décision, pas une date sur un calendrier.
+-   Le prix des forfaits est fixe : Eco Pack 290 euros, Basic MICE Pack 295 euros, Product Presentation Pack 310 euros, MICE Pack 490 euros, Wedding Pack 650 euros, tous hors TVA, quel que soit le nombre de semaines ou de mois à l'avance que vous réservez.
+-   Dans tout le catalogue, seuls le [Wedding Pack](/packages/wedding/) et le [MICE Pack](/packages/mice/) comprennent un technicien sur place, le MICE Pack pour 6 heures continues au maximum. Tous les autres forfaits sont à gérer vous-même une fois que notre équipe les a installés et testés.
+-   La seule échéance universelle est le préavis minimum de 24 heures pour les demandes de matériel et de service.
+-   MEG travaille uniquement en livraison. Notre équipe livre, installe, teste et récupère le matériel : il n'y a donc pas d'étape de retrait par vos soins autour de laquelle prévoir une marge.
+
+## La première vraie décision : nombre d'invités et choix du forfait
+
+<InlineCTA />
+
+La plupart des guides de planification commencent par une date. Nous commençons par un nombre d'invités, parce que c'est lui qui détermine quel forfait convient, et chaque forfait intègre une vraie capacité : l'[Eco Pack](/packages/eco/) couvre jusqu'à 50 invités en autonomie, le [Basic MICE Pack](/packages/basic-mice/) jusqu'à 40 en autonomie, le [Wedding Pack](/packages/wedding/) jusqu'à 80 avec un technicien tout au long de l'événement, et le [MICE Pack](/packages/mice/) jusqu'à 120 avec un technicien pendant 6 heures continues au maximum. Le [Product Presentation Pack](/packages/product-presentation/) n'a pas de plafond d'invités fixe, car il est dimensionné autour d'un écran et d'une paire d'enceintes plutôt que d'un nombre de personnes dans la salle.
+
+Bien régler ce point avant de réserver compte plus que de choisir une date suffisamment lointaine, car un nombre d'invités qui dépasse la capacité d'un forfait après la réservation oblige à passer à un autre forfait, de capacité supérieure, et non à ajouter une quantité. Ce changement dépend de la disponibilité, à votre date, du système plus grand et, pour le Wedding Pack ou le MICE Pack, d'un technicien, ce qui est justement le genre de chose plus facile à confirmer tôt qu'à rattraper tard.
+
+## Ce dont nous avons besoin de vous pour établir un devis précis
+
+Le vrai goulot d'étranglement de tout calendrier de location audiovisuelle n'est pas un compte à rebours : c'est de savoir si nous avons assez d'éléments pour établir un devis précis dès le premier échange. Notre processus se déroule en 4 étapes : vous choisissez un forfait, vous demandez un devis via notre formulaire de demande, notre équipe vous contacte pour finaliser les détails et confirmer la réservation, puis nous nous occupons de la livraison, de l'installation, de la configuration et du démontage. Pour avancer vite dans les étapes 2 et 3, indiquez la date de votre événement, le lieu, le nombre d'invités attendu et le forfait qui vous intéresse. Ces 4 informations nous permettent de confirmer le matériel et, le cas échéant, la disponibilité d'un technicien en un seul échange, plutôt qu'en plusieurs allers-retours.
+
+## La seule échéance ferme : 24 heures, pas un délai conseillé
+
+Toute demande de matériel ou de service nécessite un préavis minimum de 24 heures pour garantir la disponibilité du planning et de la logistique. C'est la seule règle que nous appliquons réellement. Si vous avez besoin de plus après la réservation, un plus grand nombre d'invités, un microphone supplémentaire, des heures de technicien en plus sur le MICE Pack, dites-le-nous le plus tôt possible, car chacun de ces ajouts dépend de ce qui reste libre à votre date. Rien n'est plus strict ni plus souple selon que votre événement est proche ou lointain, et c'est justement pourquoi nous ne publions pas de tableau de délais distinct pour les grands événements et pour les petits. Le délai est le même dans les deux cas. Ce qui change, c'est la marge que vous vous laissez pour réagir si une date ou une demande d'ajout n'est pas disponible.
+
+## Ce qui ne change pas, que vous réserviez tôt ou tard
+
+Certains guides laissent entendre que réserver tôt donne un meilleur tarif. Chez MEG, ce n'est pas le cas : chaque forfait de notre liste porte un prix unique, hors TVA, et aucun ne comporte de remise pour réservation anticipée ni de supplément de dernière minute. Réserver plus tôt protège la disponibilité, en particulier pour les créneaux de technicien du [Wedding Pack](/packages/wedding/) et du [MICE Pack](/packages/mice/) pendant les périodes plus chargées de l'année, mais cela ne change pas ce que vous payez.
+
+## Des installations réelles que nous avons livrées
+
+![Salle de réunion communautaire vide, aménagée avec des chaises blanches et du matériel de location de sonorisation à Malaga, en Espagne.](https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-1536x1152.webp "Une salle de conférence vide aménagée pour une réunion communautaire du Neighborhood Council à Malaga, avec le système de sonorisation et le matériel événementiel fournis par des professionnels.")
+
+Une réservation récurrente, et non ponctuelle : MEG fournit la sonorisation de la réunion communautaire du Neighborhood Council à Malaga, en Espagne, chaque année depuis sept années consécutives, chaque fois par le même processus de demande de devis décrit plus haut.
+
+Un client décrit avec ses propres mots ce que ce processus lui a fait ressentir :
+
+<div class="my-12 overflow-hidden w-full">
+    <ImageMarquee images={getImagesForPackage('mice', ['/1282/', '/2495/'])} speed="normal" direction="left" />
+</div>
+
+<blockquote>
+<p lang="en">"I am really satisfied with this team, they exceeded my expectations. Having a meeting in Malaga, it was a huge help that I did not have to care about the visual solutions and the sound, they made it easy and smooth. They answered all my questions and delivered a high quality equipment to the meeting. Totally worth it!"</p>
+<ul><li>Dániel Gombár, avis Google 5 étoiles, mars 2025</li></ul>
+</blockquote>
+
+## Réserver sur la Costa del Sol, à Séville et à Grenade
+
+Le lieu est l'une des 4 informations que nous demandons précisément parce qu'il change la logistique, et non le délai de préavis. Sur la Costa del Sol (la ville de Malaga, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena et Estepona), il n'y a aucun minimum particulier. Séville est également desservie. Grenade, située hors de la province, exige généralement une valeur de location supérieure à 400 euros pour couvrir le déplacement d'une journée, ce qui est bon à savoir quand vous dimensionnez un forfait pour un événement à Grenade, même si le même préavis minimum de 24 heures s'applique là aussi, et non un délai plus long.
+
+## Conclusion
+
+Le vrai calendrier de planification de la location audiovisuelle à Malaga tient en 3 éléments, et non en un nombre de semaines. D'abord, confrontez votre nombre d'invités à la capacité réelle d'un forfait. Ensuite, donnez-nous votre date, votre lieu, votre nombre d'invités et le forfait qui vous intéresse, pour que nous puissions établir le devis en un seul échange. Enfin, respectez le préavis minimum de 24 heures qui régit toute réservation. Le prix ne varie pas selon le délai de réservation. [Contactez-nous](/contact/) avec ces informations, et pour tout le catalogue derrière cette page, consultez notre guide de [location audiovisuelle à Malaga](/blog/audio-visual-rental/).
+
+## Questions fréquentes
+
+### Combien de temps à l'avance faut-il réserver une location audiovisuelle à Malaga ?
+
+Il n'existe ni règle fixe ni tableau de dates. Ce qui compte vraiment, c'est de vérifier votre nombre d'invités par rapport à la capacité réelle d'un forfait, et de nous contacter assez tôt pour que le matériel, et un technicien si votre forfait en comprend un, soit encore libre à votre date. Voir [La première vraie décision](#la-première-vraie-décision--nombre-dinvités-et-choix-du-forfait) ci-dessus.
+
+### Réserver plus tôt permet-il d'obtenir un meilleur prix ?
+
+Non. Chaque forfait porte un prix unique, hors TVA, quel que soit le délai de réservation. Réserver plus tôt protège la disponibilité, en particulier pour le technicien inclus avec le [Wedding Pack](/packages/wedding/) et le [MICE Pack](/packages/mice/), mais cela ne réduit pas ce que vous payez. Voir [Ce qui ne change pas](#ce-qui-ne-change-pas-que-vous-réserviez-tôt-ou-tard) ci-dessus.
+
+### De quelles informations avez-vous besoin pour établir un devis ?
+
+La date de votre événement, le lieu, le nombre d'invités attendu et le forfait qui vous intéresse. Ces 4 informations nous permettent de confirmer la disponibilité du matériel et du technicien en un seul échange. Voir [Ce dont nous avons besoin de vous](#ce-dont-nous-avons-besoin-de-vous-pour-établir-un-devis-précis) ci-dessus.
+
+### Puis-je ajouter du matériel ou des heures de technicien après avoir déjà réservé ?
+
+Oui, une demande d'ajout est possible, soumise au même préavis minimum de 24 heures que toute demande, et elle est confirmée en fonction du matériel ou du temps de technicien réellement encore disponibles à votre date, sans être garantie sur simple demande. Voir [La seule échéance ferme](#la-seule-échéance-ferme--24-heures-pas-un-délai-conseillé) ci-dessus.
+
+### Faut-il verser un acompte ou signer un contrat avant que ma date soit bloquée ?
+
+Nous ne publions pas de politique d'acompte ni de contrat pour le matériel audiovisuel. Votre date est confirmée par le même processus en 4 étapes décrit plus haut, demande de devis, finalisation des détails par notre équipe, puis confirmation, et non par une étape distincte d'acompte ou de contrat signé. Si un arrangement précis compte pour votre planification, demandez-le-nous directement au moment du devis.
+
+### Quel est le préavis minimum pour une réservation ?
+
+24 heures, pour toute location de matériel événementiel ou tout service technique. Il n'existe pas de version plus courte ou plus longue de cette règle pour les événements plus grands ou plus petits. Voir [La seule échéance ferme](#la-seule-échéance-ferme--24-heures-pas-un-délai-conseillé) ci-dessus.
