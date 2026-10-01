@@ -1,0 +1,178 @@
+---
+title: "Location de commutateur vidéo à Malaga, en Espagne"
+description: "Location de commutateur vidéo à Malaga, en Espagne : le vrai Kramer VP-731, géré par le présentateur ou notre technicien si réservé. Jamais de matériel caméra."
+excerpt: "Location de commutateur vidéo à Malaga : le vrai commutateur de notre catalogue audiovisuel, un Kramer VP-731 à 9 entrées qui commute des sources de présentation, piloté par le présentateur ou confié à notre technicien, avec une frontière nette entre ce matériel et la production caméra ou diffusion en direct."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Une recherche en anglais sur "video switcher rental" fait généralement remonter deux produits très différents : un commutateur de présentation qui fait passer l'écran d'une salle d'un ordinateur portable à un lecteur DVD, et un commutateur de caméras ou mélangeur vidéo conçu pour le streaming en direct et la production de diffusion. Notre guide d'[assistance technique pour événements](/blog/technical-support-for-events/#switching-between-multiple-presentation-sources) mentionne déjà notre commutateur dans une courte section, présenté comme un outil que le présentateur peut piloter directement ou confier à notre technicien pendant un événement. Cette page sur la location de commutateur vidéo à Malaga, en Espagne, en est la version plus approfondie, centrée sur le matériel : ce que nous avons exactement en stock, ce qu'il n'est pas, sur quels forfaits il est réellement disponible et une comparaison honnête avec l'usage d'une source de présentation unique.
+
+Malaga Event Gear possède cet appareil en propre et le déploie à Malaga et sur le reste de la Costa del Sol, piloté directement par le présentateur ou par notre technicien si vous réservez ce service. Ce qui suit présente un seul produit réel, décrit honnêtement, y compris là où s'arrête notre certitude à son sujet, et non une fiche technique réécrite.
+
+## Table des matières
+
+-   [En bref](#en-bref)
+-   [Points clés](#points-clés)
+-   [L'appareil réel que nous avons en stock : un Kramer VP-731, 9 entrées](#lappareil-réel-que-nous-avons-en-stock--un-kramer-vp-731-9-entrées)
+-   [Ce que 9 entrées signifient concrètement](#ce-que-9-entrées-signifient-concrètement)
+-   [Commutateur vidéo ou commutateur de caméras : la question qui compte le plus](#commutateur-vidéo-ou-commutateur-de-caméras--la-question-qui-compte-le-plus)
+-   [Commutateur vidéo ou source de présentation unique : ce qui change](#commutateur-vidéo-ou-source-de-présentation-unique--ce-qui-change)
+-   [Sur quels forfaits il est disponible, et tarification](#sur-quels-forfaits-il-est-disponible-et-tarification)
+-   [Installations réelles que nous avons livrées](#installations-réelles-que-nous-avons-livrées)
+-   [Combien de temps à l'avance réserver](#combien-de-temps-à-lavance-réserver)
+-   [Conclusion](#conclusion)
+-   [Questions fréquentes](#questions-fréquentes)
+    -   [Qu'est-ce qu'un commutateur vidéo, et que comprend la location de commutateur vidéo de MEG ?](#quest-ce-quun-commutateur-vidéo-et-que-comprend-la-location-de-commutateur-vidéo-de-meg-)
+    -   [Est-ce la même chose qu'un commutateur de caméras ou qu'un commutateur de production de streaming en direct ?](#est-ce-la-même-chose-quun-commutateur-de-caméras-ou-quun-commutateur-de-production-de-streaming-en-direct-)
+    -   [Entre combien de sources peut-il commuter ?](#entre-combien-de-sources-peut-il-commuter-)
+    -   [Puis-je louer uniquement le commutateur, sans technicien ?](#puis-je-louer-uniquement-le-commutateur-sans-technicien-)
+    -   [Commutateur vidéo ou mélangeur de caméras pour le streaming en direct, quelle est la vraie différence ?](#commutateur-vidéo-ou-mélangeur-de-caméras-pour-le-streaming-en-direct-quelle-est-la-vraie-différence-)
+    -   [Quels forfaits l'incluent, et combien cela coûte-t-il ?](#quels-forfaits-lincluent-et-combien-cela-coûte-t-il-)
+    -   [Entre quelles sources peut-il réellement commuter ?](#entre-quelles-sources-peut-il-réellement-commuter-)
+    -   [Louez-vous l'enregistreur DVD, ou d'autre matériel d'enregistrement, séparément du commutateur ?](#louez-vous-lenregistreur-dvd-ou-dautre-matériel-denregistrement-séparément-du-commutateur-)
+    -   [Ai-je besoin de cela pour un petit événement, ou seulement pour de plus grandes réservations d'entreprise ?](#ai-je-besoin-de-cela-pour-un-petit-événement-ou-seulement-pour-de-plus-grandes-réservations-dentreprise-)
+    -   [Comment cela se compare-t-il à l'utilisation d'un seul ordinateur portable pour ma présentation ?](#comment-cela-se-compare-t-il-à-lutilisation-dun-seul-ordinateur-portable-pour-ma-présentation-)
+    -   [Puis-je apporter mes propres appareils à commuter ?](#puis-je-apporter-mes-propres-appareils-à-commuter-)
+    -   [Combien de temps à l'avance dois-je réserver cela ?](#combien-de-temps-à-lavance-dois-je-réserver-cela-)
+
+## En bref
+
+---
+
+Malaga Event Gear dispose d'un seul commutateur vidéo, un Kramer VP-731 à 9 entrées, proposé comme un article à part, en dehors de nos forfaits événementiels standard. C'est un vrai matériel d'inventaire, déployé sur les réservations qui utilisent plus d'une source de présentation, à Malaga et sur le reste de la Costa del Sol, le présentateur commutant lui-même entre les sources ou notre technicien s'en chargeant si vous réservez ce service. Il n'est inclus ni dans l'[Eco Pack](/packages/eco/), ni dans le [Product Presentation Pack](/packages/product-presentation/), ni dans le [Basic MICE Pack](/packages/basic-mice/), ni dans le [Wedding Pack](/packages/wedding/), ni dans le [MICE Pack](/packages/mice/), et il n'existe aucun tarif à la carte publié : [contactez-nous](/contact/) avec les détails de votre événement et nous confirmerons la disponibilité et un devis.
+
+Le point le plus important à retenir sur cet appareil : c'est un commutateur de présentation pour votre écran, et non un commutateur de caméras, un mélangeur vidéo ni un outil de production de streaming. Les caméras, le tournage et la diffusion en direct ne font pas partie de notre propre inventaire, et notre propre équipe ne les gère pas. Si votre événement en a besoin, dites-le-nous et nous pourrons sonder nos prestataires, sans promesse que l'un d'eux puisse y répondre. Voir [Commutateur vidéo ou commutateur de caméras](#commutateur-vidéo-ou-commutateur-de-caméras--la-question-qui-compte-le-plus) ci-dessous.
+
+## Points clés
+
+---
+
+-   Un seul appareil réel : un Kramer VP-731, scaler vidéo à 9 entrées, et non un commutateur de caméras ni de diffusion.
+-   Sources réelles confirmées entre lesquelles il commute : un ordinateur portable, un second ordinateur portable et un lecteur DVD. Il n'existe ni caméra de documents ni visualiseur dans notre propre inventaire.
+-   Les 9 entrées physiques offrent une vraie marge, mais une réservation d'entreprise typique utilise 2 à 3 sources, pas 9 en même temps.
+-   Inclus dans aucun de nos 5 forfaits, et chiffré sur demande. Le présentateur peut le piloter lui-même, ou vous pouvez réserver notre technicien pour s'en charger.
+-   Explicitement pas de commutation de caméras, pas de mélangeur vidéo en direct, pas de matériel de production de streaming ou de diffusion.
+
+## L'appareil réel que nous avons en stock : un Kramer VP-731, 9 entrées
+
+Un commutateur vidéo, en tant que terme général, recouvre tout, du petit boîtier matriciel HDMI au mélangeur vidéo de diffusion complet avec entrées caméra et bus de prévisualisation. Ce que MEG a réellement en stock sous ce nom est un produit précis : un Kramer VP-731, un scaler vidéo et commutateur à 9 entrées. Nous possédons exactement une unité.
+
+Nous sommes précis ici à dessein. Notre catalogue de matériel confirme les sources pour lesquelles cet appareil est configuré : un ordinateur portable pour les diapositives, un second ordinateur portable pour une vidéo d'appui et un lecteur DVD pour un extrait projeté, issu d'une unité LG-RH7500 (enregistreur DVD et disque dur) également présente dans notre inventaire. Il n'y a ni caméra de documents ni visualiseur dans notre propre inventaire, et nous n'improviserons pas de substitut à partir de ce que nous possédons. [Commutateur vidéo ou commutateur de caméras](#commutateur-vidéo-ou-commutateur-de-caméras--la-question-qui-compte-le-plus) ci-dessous explique comment nous traitons une demande en ce sens.
+
+<InlineCTA />
+
+## Ce que 9 entrées signifient concrètement
+
+Les 9 entrées physiques du VP-731 sont une vraie caractéristique, et nous n'allons pas gonfler ce que la plupart des événements en font. Un événement d'entreprise a rarement besoin de plus de 2 ou 3 sources de présentation sur un même écran, en général un ordinateur portable pour la présentation principale, un second pour un insert vidéo et, à l'occasion, un lecteur DVD pour un extrait projeté. C'est l'usage réel et honnête de cet appareil, et non 9 sources alimentées en même temps.
+
+Cette marge existe parce que l'appareil la permet, et non parce que nous nous attendons à ce qu'une réservation remplisse les 9 entrées. Concrètement, elle signifie une commutation propre entre les 2 ou 3 sources que votre événement a réellement, que le présentateur la pilote lui-même ou que notre technicien la gère pour vous, de sorte que l'écran de la salle passe de l'une à l'autre sans accroc visible ni redémarrage. Si votre événement compte vraiment plus de 3 sources à gérer, [contactez-nous](/contact/) avec les détails et nous confirmerons si c'est réaliste le jour J.
+
+## Commutateur vidéo ou commutateur de caméras : la question qui compte le plus
+
+C'est le point le plus important de cette page. Un commutateur vidéo, au sens de présentation que propose MEG, et un commutateur de caméras ou mélangeur vidéo conçu pour le streaming en direct et la production de diffusion sont deux catégories de matériel différentes, pour deux métiers différents, et on les confond constamment dans les recherches générales sur l'expression anglaise "video switcher".
+
+Ce que fait notre Kramer VP-731 : il prend des sources de présentation (un ordinateur portable, un second ordinateur portable, un lecteur DVD) et fait passer proprement l'écran de la salle de l'une à l'autre, piloté directement par le présentateur ou par notre technicien si vous réservez ce service.
+
+Ce qu'il ne fait pas : il n'accepte pas d'entrées de caméra, il ne produit pas de flux programme pour une diffusion en direct et il n'a ni sortie de prévisualisation ni sortie d'enregistrement pour un usage de diffusion. Les caméras, le tournage et la diffusion en direct ne font pas partie de notre propre inventaire, et notre propre équipe ne les gère pas. Un enregistrement filmé, une diffusion en direct pour des participants à distance ou un mixage de diffusion multicaméra relèvent d'une tout autre catégorie de matériel et d'équipe. Si votre événement a besoin de l'un d'eux, ou d'une caméra de documents, décrivez-le-nous. Nous pouvons voir si un prestataire avec lequel nous travaillons pourrait s'en charger, et si aucun ne le peut, nous vous le dirons franchement. Demandez-nous aussi directement si vous hésitez sur la catégorie dont votre événement a besoin.
+
+## Commutateur vidéo ou source de présentation unique : ce qui change
+
+Tous les événements n'ont pas besoin de commutation de sources. Voici ce qui change réellement entre une présentation avec un seul ordinateur portable et une réservation qui ajoute le commutateur vidéo :
+
+| | Source de présentation unique | Commutateur vidéo ajouté |
+| --- | --- | --- |
+| Sources à l'écran | Un ordinateur portable, branché directement sur le vidéoprojecteur ou l'écran | Un ordinateur portable, un second ordinateur portable et un lecteur DVD, commutés selon les besoins |
+| Changer de source en cours d'événement | Manuel : débrancher et rebrancher, avec un écran noir visible ou un redémarrage | Le présentateur passe d'une source à l'autre directement, ou notre technicien le fait pour vous, sans accroc visible ni redémarrage |
+| Qui s'en occupe | Le présentateur, ou personne | Le présentateur, ou notre technicien si vous réservez ce service |
+| Cas d'usage réaliste | Un seul intervenant, une seule présentation, pas d'insert vidéo | Un programme de conférence avec plus d'un présentateur ou un segment vidéo au sein d'une présentation en direct |
+| Inclus dans un forfait | Oui, sur tout forfait avec un écran | Non, article à part sur devis |
+
+Si votre événement se résume à un intervenant avec une seule présentation, une source unique est réellement plus simple et rien ne change pour vous. Si votre programme alterne entre deux ordinateurs portables, ou entre une présentation et un extrait vidéo projeté, le commutateur supprime le tâtonnement visible d'un câble rebranché en direct devant votre public.
+
+## Sur quels forfaits il est disponible, et tarification
+
+Aucun de nos cinq forfaits, l'[Eco Pack](/packages/eco/), le [Product Presentation Pack](/packages/product-presentation/), le [Basic MICE Pack](/packages/basic-mice/), le [Wedding Pack](/packages/wedding/) ou le [MICE Pack](/packages/mice/), n'inclut le commutateur vidéo comme prestation standard. Il n'a de sens pratique que sur une réservation qui comprend déjà un écran et plus d'une source de présentation, ce qui, dans notre catalogue, désigne les forfaits entreprise :
+
+-   **[MICE Pack](/packages/mice/)**, avec son écran d'affichage LED de 60 pouces et son technicien en direct dédié inclus de série, est le forfait sur lequel cet appareil est le plus demandé, pour un programme d'entreprise avec plus d'un intervenant ou un insert vidéo au sein d'une keynote. Ce technicien inclus s'occupe du son et des microphones. Dites-nous à la réservation si vous souhaitez aussi qu'il gère le commutateur, sinon le présentateur commute directement.
+-   **[Basic MICE Pack](/packages/basic-mice/)**, avec son écran de projection de 2x2 m, peut ajouter le commutateur vidéo. Sans l'option d'assistant technique en direct sur place, le présentateur commute directement entre les sources. Ajoutez cette option si vous préférez que notre technicien le gère pour vous.
+
+L'[Eco Pack](/packages/eco/) n'a pas d'écran inclus et est conçu pour une installation DJ ou fête en autogestion, et le [Wedding Pack](/packages/wedding/) n'inclut pas non plus d'écran de projection : le commutateur vidéo ne convient donc réellement à aucun de ces deux forfaits. Il n'existe aucun tarif à la carte publié pour le commutateur lui-même. [Contactez-nous](/contact/) avec votre forfait, votre programme et le nombre de sources de présentation que votre événement compte réellement, et nous confirmerons la disponibilité et un devis plutôt que d'en inventer un ici.
+
+## Installations réelles que nous avons livrées
+
+Un aperçu d'une installation réelle dans une salle de conférence de la province de Malaga :
+
+![Location de vidéoprojecteur et d'écran pour un événement dans la province de Malaga.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-1024x765.webp "Un grand vidéoprojecteur et un écran installés dans une salle de conférence de la province de Malaga, prêts pour une présentation ou un affichage audiovisuel.")
+
+Un grand vidéoprojecteur et un écran installés dans une salle de conférence de la province de Malaga, prêts pour une présentation ou un affichage audiovisuel.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1268/', '/1273/'])} speed="normal" direction="left" />
+</div>
+
+Nos techniciens ont également surveillé en continu les entrées vidéo depuis un panneau de contrôle avancé pendant un projet d'entreprise de deux jours pour l'agence Bmotion à Benahavis, garantissant une commutation fluide et sans latence. Lisez le récit complet dans notre actualité sur l'[assistance technique pour Bmotion à Benahavis](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/).
+
+## Combien de temps à l'avance réserver
+
+Réservez le plus tôt possible une fois la date, le lieu et le programme de votre événement confirmés. La demande sur la Costa del Sol atteint son pic pendant la saison des conférences d'entreprise et autour des grands congrès, et nos techniciens sont les premiers à être réservés si vous voulez que l'un d'eux gère le commutateur pour vous. Comme le commutateur vidéo est un exemplaire unique dans notre inventaire, le confirmer tôt nous laisse aussi le temps de vérifier qu'il est réellement libre à votre date, que le présentateur le pilote ou que notre technicien s'en charge, en plus du forfait que vous avez déjà réservé.
+
+## Conclusion
+
+La location de commutateur vidéo à Malaga, pour MEG en particulier, c'est un produit réel : un Kramer VP-731 à 9 entrées, piloté directement par le présentateur ou par notre technicien si vous réservez ce service, confirmé avec un ordinateur portable, un second ordinateur portable et un lecteur DVD comme sources réelles, et présenté honnêtement autour d'une réservation typique à 2 ou 3 sources plutôt que d'un flux à 9 voies. C'est strictement un commutateur de présentation pour l'écran de votre salle, et non un commutateur de caméras, un mélangeur vidéo ni un outil de production de streaming, et il n'est inclus dans aucun de nos 5 forfaits. [Contactez-nous](/contact/) avec le programme de votre événement et le nombre de sources de présentation que vous avez réellement, et nous confirmerons la disponibilité et un devis. Pour en savoir plus sur le pilotage de cet appareil par vos soins ou sur la réservation de notre technicien pour cela pendant votre événement, consultez notre guide d'[assistance technique pour événements](/blog/technical-support-for-events/), ou, pour toute la gamme de matériel dans laquelle s'inscrit cet appareil, notre guide de [location audiovisuelle à Malaga](/blog/audio-visual-rental/).
+
+## Questions fréquentes
+
+### Qu'est-ce qu'un commutateur vidéo, et que comprend la location de commutateur vidéo de MEG ?
+
+Un commutateur vidéo fait passer proprement un écran d'une source de présentation à une autre, au lieu d'imposer un changement de câble manuel. La version réelle de MEG est un Kramer VP-731, un scaler vidéo et commutateur à 9 entrées, que le présentateur peut piloter lui-même ou confier à notre technicien si vous réservez ce service. Voir [L'appareil réel que nous avons en stock](#lappareil-réel-que-nous-avons-en-stock--un-kramer-vp-731-9-entrées) ci-dessus pour savoir exactement ce qu'il est et ce qu'il n'est pas.
+
+### Est-ce la même chose qu'un commutateur de caméras ou qu'un commutateur de production de streaming en direct ?
+
+Non. C'est la distinction la plus importante de cette page. Notre Kramer VP-731 commute des sources de présentation, un ordinateur portable, un second ordinateur portable, un lecteur DVD, vers l'écran de votre salle. Il n'accepte pas d'entrées de caméra et il n'est pas conçu pour le streaming en direct ni pour la production de diffusion. Les caméras, le tournage et la diffusion en direct ne font pas non plus partie de notre propre inventaire. Voir [Commutateur vidéo ou commutateur de caméras](#commutateur-vidéo-ou-commutateur-de-caméras--la-question-qui-compte-le-plus) ci-dessus.
+
+### Entre combien de sources peut-il commuter ?
+
+L'appareil a 9 entrées physiques, mais l'usage honnête et typique sur nos réservations réelles est de 2 à 3 sources, un ordinateur portable, un second ordinateur portable et, à l'occasion, un lecteur DVD, et non 9 à la fois. Voir [Ce que 9 entrées signifient concrètement](#ce-que-9-entrées-signifient-concrètement) ci-dessus.
+
+### Puis-je louer uniquement le commutateur, sans technicien ?
+
+Oui. Le présentateur peut piloter lui-même le commutateur, en passant d'une source à l'autre. Si vous préférez que notre technicien s'en charge pour vous, ajoutez l'option d'assistant technique en direct sur place sur le [Basic MICE Pack](/packages/basic-mice/). Sur le [MICE Pack](/packages/mice/), le technicien inclus s'occupe du son et des microphones de série. Dites-nous à la réservation si vous souhaitez aussi qu'il gère le commutateur, sinon le présentateur commute directement. Comme nous travaillons uniquement en livraison, nous ne proposons pas non plus de retrait par le client, dans un cas comme dans l'autre : notre équipe livre, installe et teste l'appareil avant de repartir, que le présentateur ou notre technicien le pilote le jour J.
+
+### Commutateur vidéo ou mélangeur de caméras pour le streaming en direct, quelle est la vraie différence ?
+
+Un commutateur vidéo comme le nôtre commute entre des sources de présentation pour l'écran d'une salle, d'un ordinateur portable à un autre ordinateur portable puis à un lecteur DVD. Un commutateur de caméras ou mélangeur vidéo pour le streaming en direct accepte plusieurs flux de caméras et produit une sortie programme pour une diffusion ou un flux vers des spectateurs à distance, une catégorie de matériel entièrement différente, avec une chaîne de signal différente. MEG possède le premier. Le second, ainsi que les caméras, le tournage et la diffusion en direct qui vont avec, ne font pas partie de notre propre inventaire. Si votre événement a besoin d'un enregistrement filmé ou d'un flux vers des participants à distance, voir [Commutateur vidéo ou commutateur de caméras](#commutateur-vidéo-ou-commutateur-de-caméras--la-question-qui-compte-le-plus) ci-dessus.
+
+### Quels forfaits l'incluent, et combien cela coûte-t-il ?
+
+Aucun de nos cinq forfaits ne l'inclut de série. Il s'associe de façon réaliste au [MICE Pack](/packages/mice/), qui comprend déjà un écran et un technicien, ou au [Basic MICE Pack](/packages/basic-mice/), où le présentateur peut le piloter directement ou où vous pouvez ajouter l'option d'assistant technique si vous préférez que notre technicien le gère. Il n'existe aucun tarif à la carte publié. [Contactez-nous](/contact/) avec votre forfait et votre programme et nous confirmerons la disponibilité et un devis. Voir [Sur quels forfaits il est disponible](#sur-quels-forfaits-il-est-disponible-et-tarification) ci-dessus.
+
+### Entre quelles sources peut-il réellement commuter ?
+
+Sources réelles confirmées : un ordinateur portable, un second ordinateur portable et un lecteur DVD, issu d'une unité LG-RH7500 (enregistreur DVD et disque dur) de notre inventaire. Il n'y a ni caméra de documents ni visualiseur dans notre propre inventaire, et aucun ne figure donc dans cette liste. Voir [Commutateur vidéo ou commutateur de caméras](#commutateur-vidéo-ou-commutateur-de-caméras--la-question-qui-compte-le-plus) ci-dessus si votre événement en a besoin.
+
+### Louez-vous l'enregistreur DVD, ou d'autre matériel d'enregistrement, séparément du commutateur ?
+
+Non. L'enregistreur DVD et disque dur LG-RH7500 est l'une des trois sources confirmées du commutateur, et non un article de location autonome, et il n'a pas d'entrée caméra. Si vous cherchez une location de matériel d'enregistrement au sens de caméras, d'objectifs ou de matériel de production pour filmer votre événement, rien de tout cela ne figure dans notre propre inventaire : ce que nous possédons, c'est du matériel audio, d'écrans et d'éclairage pour événements. Voir [Commutateur vidéo ou commutateur de caméras](#commutateur-vidéo-ou-commutateur-de-caméras--la-question-qui-compte-le-plus) ci-dessus pour savoir comment nous traitons cette demande.
+
+### Ai-je besoin de cela pour un petit événement, ou seulement pour de plus grandes réservations d'entreprise ?
+
+Seulement si votre événement a plus d'une source de présentation sur le même écran. Un seul intervenant avec une seule présentation n'en a pas besoin : une connexion d'ordinateur portable unique est réellement plus simple. Il devient pertinent sur un programme de conférence avec plus d'un présentateur, ou sur une keynote qui inclut un insert vidéo, c'est pourquoi on le voit presque exclusivement sur nos réservations MICE d'entreprise plutôt que sur des fêtes privées.
+
+### Comment cela se compare-t-il à l'utilisation d'un seul ordinateur portable pour ma présentation ?
+
+Un seul ordinateur portable est plus simple et ne demande rien de plus, et c'est le bon choix si votre événement a réellement un présentateur et une présentation. La différence apparaît dès qu'une deuxième source entre en jeu : l'ordinateur portable d'un second intervenant ou un extrait vidéo projeté. Sans le commutateur, ce changement de source oblige à débrancher et rebrancher un câble en direct, avec un écran noir visible ou un redémarrage. Avec lui, le présentateur passe d'une source à l'autre directement, ou notre technicien le fait pour vous si vous réservez ce service, sans interruption visible. Voir [Commutateur vidéo ou source de présentation unique](#commutateur-vidéo-ou-source-de-présentation-unique--ce-qui-change) ci-dessus pour la comparaison complète.
+
+### Puis-je apporter mes propres appareils à commuter ?
+
+Oui, dans les types de sources confirmés : un ordinateur portable ou un second ordinateur portable se connecte comme n'importe quel ordinateur portable de présentation sur nos forfaits, via les adaptateurs HDMI et USB-C que nous fournissons déjà. Indiquez-nous à la réservation les appareils que votre événement utilisera réellement, afin que notre technicien confirme à l'avance la compatibilité et la connexion, plutôt que de dépanner en direct.
+
+### Combien de temps à l'avance dois-je réserver cela ?
+
+Réservez le plus tôt possible une fois la date, le lieu et le programme de votre événement confirmés. Voir [Combien de temps à l'avance réserver](#combien-de-temps-à-lavance-réserver) ci-dessus. Comme il s'agit d'un exemplaire unique dans notre inventaire, le confirmer tôt compte davantage ici que pour du matériel que nous avons en plus grande quantité, surtout si vous voulez que notre technicien le gère plutôt que le présentateur.

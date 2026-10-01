@@ -77,6 +77,11 @@ export default {
 			keyword: 'leje af scenemonitor i Malaga',
 			status: 'propuesta'
 		},
+		'video-switcher-rental': {
+			slug: 'leje-videoswitcher',
+			keyword: 'leje videoswitcher i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'av-udlejning-malaga',
 			keyword: 'AV-udlejning Malaga',

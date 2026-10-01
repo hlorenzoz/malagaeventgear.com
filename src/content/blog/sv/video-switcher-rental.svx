@@ -1,0 +1,178 @@
+---
+title: "Hyra videoswitch i Malaga, Spanien"
+description: "Hyra videoswitch i Malaga, Spanien: den riktiga Kramer VP-731, som presentatören eller vår tekniker sköter, om du bokar den tjänsten. Aldrig kamerautrustning."
+excerpt: "Hyra videoswitch i Malaga: den riktiga videoswitchen i vår AV-katalog, en Kramer VP-731 med 9 ingångar, som växlar presentationskällor som presentatören kan sköta själv eller lämna till vår tekniker, med en tydlig gräns mot produktion med kameror eller livesändning."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+En sökning på engelska efter "video switcher rental" ger oftast två helt olika produkter: en presentationsswitch som växlar rummets skärm mellan en bärbar dator och en DVD-spelare, och en kameraswitch eller bildmixer som är byggd för livestreaming och sändningsproduktion. Vår guide om [teknisk support för evenemang](/blog/technical-support-for-events/#switching-between-multiple-presentation-sources) nämner redan vår switch i ett kort avsnitt, framställd som något presentatören kan sköta direkt eller lämna över till vår tekniker under ett evenemang. Den här sidan om att hyra videoswitch i Malaga, Spanien, är den djupare, utrustningsfokuserade versionen: exakt vad vi har i lager, vad den inte är, på vilka paket den realistiskt finns tillgänglig och en ärlig jämförelse mot att köra en enda presentationskälla.
+
+Malaga Event Gear äger den här enheten själva och använder den i Malaga och på resten av Costa del Sol, skött direkt av presentatören eller av vår tekniker om du bokar den tjänsten. Det som följer är en enda riktig produkt, ärligt beskriven, inklusive var vår säkerhet kring den tar slut, och inte ett omskrivet datablad.
+
+## Innehållsförteckning
+
+-   [Kort översikt](#kort-översikt)
+-   [Det viktigaste](#det-viktigaste)
+-   [Den riktiga enheten vi har i lager: en Kramer VP-731, 9 ingångar](#den-riktiga-enheten-vi-har-i-lager-en-kramer-vp-731-9-ingångar)
+-   [Vad 9 ingångar betyder i praktiken](#vad-9-ingångar-betyder-i-praktiken)
+-   [Videoswitch eller kameraswitch: frågan som betyder mest](#videoswitch-eller-kameraswitch-frågan-som-betyder-mest)
+-   [Videoswitch eller en enda presentationskälla: vad som förändras](#videoswitch-eller-en-enda-presentationskälla-vad-som-förändras)
+-   [Vilka paket den finns tillgänglig på, och priser](#vilka-paket-den-finns-tillgänglig-på-och-priser)
+-   [Verkliga uppsättningar vi har levererat](#verkliga-uppsättningar-vi-har-levererat)
+-   [Hur långt i förväg du ska boka](#hur-långt-i-förväg-du-ska-boka)
+-   [Slutsats](#slutsats)
+-   [Vanliga frågor](#vanliga-frågor)
+    -   [Vad är en videoswitch, och vad ingår i MEG:s uthyrning av videoswitch?](#vad-är-en-videoswitch-och-vad-ingår-i-megs-uthyrning-av-videoswitch)
+    -   [Är det samma sak som en kameraswitch eller en produktionsswitch för livestreaming?](#är-det-samma-sak-som-en-kameraswitch-eller-en-produktionsswitch-för-livestreaming)
+    -   [Mellan hur många källor kan den växla?](#mellan-hur-många-källor-kan-den-växla)
+    -   [Kan jag hyra bara switchen utan tekniker?](#kan-jag-hyra-bara-switchen-utan-tekniker)
+    -   [Videoswitch eller kamera- eller bildmixer för livestreaming, vad är den verkliga skillnaden?](#videoswitch-eller-kamera--eller-bildmixer-för-livestreaming-vad-är-den-verkliga-skillnaden)
+    -   [Vilka paket ingår den i, och vad kostar den?](#vilka-paket-ingår-den-i-och-vad-kostar-den)
+    -   [Mellan vilka källor kan den faktiskt växla?](#mellan-vilka-källor-kan-den-faktiskt-växla)
+    -   [Hyr ni ut DVD-inspelaren, eller annan inspelningsutrustning, separat från switchen?](#hyr-ni-ut-dvd-inspelaren-eller-annan-inspelningsutrustning-separat-från-switchen)
+    -   [Behöver jag den här för ett litet evenemang, eller bara för större företagsbokningar?](#behöver-jag-den-här-för-ett-litet-evenemang-eller-bara-för-större-företagsbokningar)
+    -   [Hur jämför den sig med att bara använda en bärbar dator för min presentation?](#hur-jämför-den-sig-med-att-bara-använda-en-bärbar-dator-för-min-presentation)
+    -   [Kan jag ta med mina egna enheter att växla mellan?](#kan-jag-ta-med-mina-egna-enheter-att-växla-mellan)
+    -   [Hur långt i förväg ska jag boka den?](#hur-långt-i-förväg-ska-jag-boka-den)
+
+## Kort översikt
+
+---
+
+Malaga Event Gear har en videoswitch i lager, en Kramer VP-731 med 9 ingångar, som en egen artikel vid sidan av våra vanliga evenemangspaket. Det är verklig utrustning, som används vid bokningar med mer än en presentationskälla, i Malaga och på resten av Costa del Sol, där presentatören växlar mellan källorna själv eller vår tekniker sköter det om du bokar den tjänsten. Den ingår inte i [Eco Pack](/packages/eco/), [Product Presentation Pack](/packages/product-presentation/), [Basic MICE Pack](/packages/basic-mice/), [Wedding Pack](/packages/wedding/) eller [MICE Pack](/packages/mice/), och det finns inget publicerat styckpris, så [kontakta oss](/contact/) med uppgifter om ditt evenemang så bekräftar vi tillgänglighet och en offert.
+
+Det viktigaste att förstå om den här enheten: den är en presentationsswitch för din skärm, inte en kameraswitch, en bildmixer eller ett verktyg för streamingproduktion. Kameror, filmning och livesändning finns inte i vårt eget lager, och vårt eget team sköter dem inte. Om ditt evenemang behöver någon av dem, säg till så kan vi höra av oss till våra leverantörer, utan löfte om att någon kan ta uppdraget. Se [Videoswitch eller kameraswitch](#videoswitch-eller-kameraswitch-frågan-som-betyder-mest) nedan.
+
+## Det viktigaste
+
+---
+
+-   En riktig enhet: en Kramer VP-731, videoscaler med 9 ingångar, inte en kamera- eller sändningsswitch.
+-   Bekräftade riktiga källor som den växlar mellan: en bärbar dator, en andra bärbar dator och en DVD-spelare. Det finns ingen dokumentkamera eller visualizer i vårt eget lager.
+-   9 fysiska ingångar ger verkligt utrymme, men en typisk företagsbokning använder 2 till 3 källor, inte 9 samtidigt.
+-   Ingår inte i något av våra 5 paket och offereras på begäran. Presentatören kan sköta den direkt, eller så bokar du vår tekniker som sköter den.
+-   Uttryckligen ingen kameraväxling, ingen bildmixer för livesändning, ingen utrustning för streaming- eller sändningsproduktion.
+
+## Den riktiga enheten vi har i lager: en Kramer VP-731, 9 ingångar
+
+En videoswitch, som allmänt begrepp, rymmer allt från en liten HDMI-matrislåda till en komplett bildmixer för sändning med kameraingångar och förhandsvisningsbuss. Det MEG faktiskt har i lager under det namnet är en specifik produkt: en Kramer VP-731, en videoscaler och switch med 9 ingångar. Vi äger exakt en enhet.
+
+Vi är medvetet precisa här. Vår utrustningskatalog bekräftar de källor som den här enheten är uppsatt för: en bärbar dator för bilderna, en andra bärbar dator för en stödjande film och en DVD-spelare för ett uppspelat klipp, som kommer från en DVD-inspelare med hårddisk av modellen LG-RH7500 som också finns i vårt lager. Det finns ingen dokumentkamera eller visualizer i vårt eget lager, och vi improviserar inte fram en ersättare av det vi äger. [Videoswitch eller kameraswitch](#videoswitch-eller-kameraswitch-frågan-som-betyder-mest) nedan går igenom hur vi hanterar en förfrågan om en sådan.
+
+<InlineCTA />
+
+## Vad 9 ingångar betyder i praktiken
+
+Att VP-731 har 9 fysiska ingångar är en riktig specifikation, och vi tänker inte blåsa upp vad de flesta evenemang gör med dem. Ett företagsevenemang behöver sällan mer än 2 eller 3 presentationskällor på en enda skärm, vanligtvis en bärbar dator för huvudpresentationen, en andra bärbar dator för ett filminslag och ibland en DVD-spelare för ett uppspelat klipp. Det är det verkliga, ärliga användningsfallet för den här enheten, inte en samtidig matning av 9 källor.
+
+Utrymmet finns för att enheten klarar det, inte för att vi förväntar oss att en bokning fyller alla 9 ingångarna. I praktiken innebär utrymmet en ren växling mellan de 2 eller 3 källor som ditt evenemang faktiskt har, oavsett om presentatören sköter det direkt eller vår tekniker sköter det åt dig, så att rummets skärm går från den ena till nästa utan synliga hack eller omstart. Om ditt evenemang verkligen har fler än 3 källor att hantera, [kontakta oss](/contact/) med uppgifterna så bekräftar vi om det är realistiskt på dagen.
+
+## Videoswitch eller kameraswitch: frågan som betyder mest
+
+Det här är det viktigaste på hela sidan. En videoswitch i den presentationsmening som MEG erbjuder och en kameraswitch eller bildmixer byggd för livestreaming och sändningsproduktion är två olika kategorier av utrustning för två olika jobb, och de blandas ihop hela tiden i allmänna sökningar på det engelska uttrycket "video switcher".
+
+Vad vår Kramer VP-731 gör: den tar emot presentationskällor (en bärbar dator, en andra bärbar dator, en DVD-spelare) och växlar rummets skärm rent mellan dem, skött direkt av presentatören eller av vår tekniker om du bokar den tjänsten.
+
+Vad den inte gör: den tar inte emot kameraingångar, den producerar ingen programsignal för en livesändning och den har ingen förhandsvisnings- eller inspelningsutgång för sändningsbruk. Kameror, filmning och livesändning finns inte i vårt eget lager, och vårt eget team sköter dem inte. En filmad inspelning, en livesändning till deltagare på distans eller en sändningsmix med flera kameror är en helt annan kategori av utrustning och personal. Om ditt evenemang behöver något av det, eller en dokumentkamera, beskriv det för oss. Vi kan undersöka om en leverantör vi arbetar med kan ta det, och om ingen kan säger vi det rakt ut. Fråga oss gärna direkt också om du är osäker på vilken kategori ditt evenemang behöver.
+
+## Videoswitch eller en enda presentationskälla: vad som förändras
+
+Alla evenemang behöver inte växla mellan källor. Det här är vad som verkligen förändras mellan en presentation med en enda bärbar dator och en bokning som lägger till videoswitchen:
+
+| | Enda presentationskälla | Videoswitch tillagd |
+| --- | --- | --- |
+| Källor på skärmen | En bärbar dator, ansluten direkt till projektorn eller skärmen | En bärbar dator, en andra bärbar dator och en DVD-spelare, som växlas efter behov |
+| Byte av källa mitt under evenemanget | Manuellt: dra ur och anslut igen, med en synlig svart skärm eller en omstart | Presentatören växlar direkt mellan källorna, eller så gör vår tekniker det åt dig, utan synliga hack eller omstart |
+| Vem som sköter det | Presentatören, eller ingen | Presentatören, eller vår tekniker om du bokar den tjänsten |
+| Realistiskt användningsfall | En enda talare, ett enda bildspel, inget filminslag | Ett konferensprogram med mer än en presentatör eller ett filmsegment i en livepresentation |
+| Ingår i ett paket | Ja, i alla paket med skärm | Nej, en separat artikel med offert på begäran |
+
+Om ditt evenemang är en talare med ett enda bildspel är en enda källa faktiskt enklare och inget här förändras för dig. Om ditt program växlar mellan två bärbara datorer, eller mellan ett bildspel och ett uppspelat filmklipp, tar switchen bort det synliga trasslet med att ansluta om en kabel live inför publiken.
+
+## Vilka paket den finns tillgänglig på, och priser
+
+Videoswitchen ingår inte som standard i något av våra fem paket, [Eco Pack](/packages/eco/), [Product Presentation Pack](/packages/product-presentation/), [Basic MICE Pack](/packages/basic-mice/), [Wedding Pack](/packages/wedding/) eller [MICE Pack](/packages/mice/). Den är bara praktiskt meningsfull vid en bokning som redan har en skärm och mer än en presentationskälla, vilket i vår katalog betyder företagspaketen:
+
+-   **[MICE Pack](/packages/mice/)**, med sin LED-skärm på 60 tum och en dedikerad tekniker på plats som ingår som standard, är där den här enheten efterfrågas oftast, för ett företagsprogram med mer än en talare eller ett filminslag i en keynote. Den inkluderade teknikern sköter ljudet och mikrofonerna. Säg till vid bokningen om du vill att teknikern också ska sköta switchen, annars växlar presentatören direkt.
+-   **[Basic MICE Pack](/packages/basic-mice/)**, med sin projektionsduk på 2x2 m, kan lägga till videoswitchen. Utan tillvalet med teknisk assistent på plats växlar presentatören direkt mellan källorna. Lägg till det tillvalet om du hellre vill att vår tekniker sköter den åt dig.
+
+I [Eco Pack](/packages/eco/) ingår ingen skärm, och paketet är byggt för en DJ- eller festuppsättning på egen hand. [Wedding Pack](/packages/wedding/) har inte heller någon projektionsduk, så videoswitchen passar egentligen inte någon av de två. Det finns inget publicerat styckpris för själva switchen. [Kontakta oss](/contact/) med ditt paket, ditt program och hur många presentationskällor ditt evenemang faktiskt har, så bekräftar vi tillgänglighet och en offert i stället för att hitta på en här.
+
+## Verkliga uppsättningar vi har levererat
+
+En titt på en verklig konferenssalsuppsättning i provinsen Malaga:
+
+![Uthyrning av projektor och skärm för ett evenemang i provinsen Malaga.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-1024x765.webp "En stor projektor och en duk uppställda i en konferenssal i provinsen Malaga, redo för en presentation eller en audiovisuell visning.")
+
+En stor projektor och en duk uppställda i en konferenssal i provinsen Malaga, redo för en presentation eller en audiovisuell visning.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1268/', '/1273/'])} speed="normal" direction="left" />
+</div>
+
+Våra tekniker övervakade också videoingångarna kontinuerligt från en avancerad kontrollpanel under ett tvådagars företagsprojekt för byrån Bmotion i Benahavis, och höll växlingen mellan ingångarna sömlös och fri från fördröjning. Läs hela berättelsen i vår uppdatering om [teknisk support för Bmotion i Benahavis](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/).
+
+## Hur långt i förväg du ska boka
+
+Boka så tidigt du kan när ditt evenemangsdatum, din lokal och ditt program är bekräftade. Efterfrågan på Costa del Sol toppar under företagskonferenssäsongen och kring stora kongresser, och våra tekniker blir fullbokade först om du vill ha en som sköter switchen åt dig. Eftersom videoswitchen är en enda enhet i vårt lager ger en tidig bekräftelse oss också tid att kontrollera att den verkligen är ledig på ditt datum, oavsett om presentatören sköter den eller vår tekniker gör det, vid sidan av det paket du redan har bokat.
+
+## Slutsats
+
+Att hyra videoswitch i Malaga hos MEG handlar specifikt om en riktig produkt: en Kramer VP-731 med 9 ingångar, skött direkt av presentatören eller av vår tekniker om du bokar den tjänsten, bekräftad mot en bärbar dator, en andra bärbar dator och en DVD-spelare som riktiga källor, och ärligt inramad kring en typisk bokning med 2 till 3 källor snarare än en matning med 9. Den är strikt en presentationsswitch för rummets skärm, inte en kameraswitch, en bildmixer eller ett verktyg för streamingproduktion, och den ingår inte i något av våra 5 paket. [Kontakta oss](/contact/) med ditt evenemangsprogram och hur många presentationskällor du faktiskt har, så bekräftar vi tillgänglighet och en offert. För mer om att sköta den här enheten själv eller boka vår tekniker för den under ditt evenemang, se vår guide om [teknisk support för evenemang](/blog/technical-support-for-events/), eller för hela utrustningsutbudet som den här enheten tillhör, vår guide om [AV-uthyrning i Malaga](/blog/audio-visual-rental/).
+
+## Vanliga frågor
+
+### Vad är en videoswitch, och vad ingår i MEG:s uthyrning av videoswitch?
+
+En videoswitch växlar en skärm rent mellan fler än en presentationskälla i stället för att tvinga fram ett manuellt kabelbyte. MEG:s riktiga version är en Kramer VP-731, en videoscaler och switch med 9 ingångar, som presentatören kan sköta direkt eller lämna över till vår tekniker om du bokar den tjänsten. Se [Den riktiga enheten vi har i lager](#den-riktiga-enheten-vi-har-i-lager-en-kramer-vp-731-9-ingångar) ovan för exakt vad den är och vad den inte är.
+
+### Är det samma sak som en kameraswitch eller en produktionsswitch för livestreaming?
+
+Nej. Det här är den viktigaste skillnaden på sidan. Vår Kramer VP-731 växlar presentationskällor, en bärbar dator, en andra bärbar dator, en DVD-spelare, till rummets skärm. Den tar inte emot kameraingångar och är inte byggd för livestreaming eller sändningsproduktion. Kameror, filmning och livesändning finns inte heller i vårt eget lager. Se [Videoswitch eller kameraswitch](#videoswitch-eller-kameraswitch-frågan-som-betyder-mest) ovan.
+
+### Mellan hur många källor kan den växla?
+
+Enheten har 9 fysiska ingångar, men det ärliga, typiska användningsfallet vid våra verkliga bokningar är 2 till 3 källor, en bärbar dator, en andra bärbar dator och ibland en DVD-spelare, inte 9 samtidigt. Se [Vad 9 ingångar betyder i praktiken](#vad-9-ingångar-betyder-i-praktiken) ovan.
+
+### Kan jag hyra bara switchen utan tekniker?
+
+Ja. Presentatören kan sköta switchen direkt och växla mellan källorna själv. Om du hellre vill att vår tekniker sköter den åt dig, lägg till tillvalet med teknisk assistent på plats i [Basic MICE Pack](/packages/basic-mice/). I [MICE Pack](/packages/mice/) sköter den inkluderade teknikern ljudet och mikrofonerna som standard. Säg till vid bokningen om du vill att teknikern också ska sköta switchen, annars växlar presentatören direkt. Eftersom vi bara arbetar med leverans erbjuder vi inte heller självhämtning i något av fallen: vårt team levererar, ställer upp och testar enheten innan vi lämnar den, oavsett om presentatören eller vår tekniker sköter den på dagen.
+
+### Videoswitch eller kamera- eller bildmixer för livestreaming, vad är den verkliga skillnaden?
+
+En videoswitch som vår växlar mellan presentationskällor för rummets skärm, från en bärbar dator till en bärbar dator till en DVD-spelare. En kameraswitch eller bildmixer för livestreaming tar emot flera kamerasignaler och producerar en programutgång för en sändning eller en ström till tittare på distans, en helt annan kategori av utrustning med en annan signalkedja. MEG har den första i lager. Den andra, och kamerorna, filmningen och livesändningen som hör till, finns inte i vårt eget lager. Om ditt evenemang behöver en filmad inspelning eller en ström till deltagare på distans, se [Videoswitch eller kameraswitch](#videoswitch-eller-kameraswitch-frågan-som-betyder-mest) ovan.
+
+### Vilka paket ingår den i, och vad kostar den?
+
+Den ingår inte som standard i något av våra fem paket. Den passar realistiskt ihop med [MICE Pack](/packages/mice/), som redan har en skärm och en tekniker, eller [Basic MICE Pack](/packages/basic-mice/), där presentatören kan sköta den direkt eller du kan lägga till tillvalet med teknisk assistent om du hellre vill att vår tekniker sköter den. Det finns inget publicerat styckpris. [Kontakta oss](/contact/) med ditt paket och ditt program så bekräftar vi tillgänglighet och en offert. Se [Vilka paket den finns tillgänglig på](#vilka-paket-den-finns-tillgänglig-på-och-priser) ovan.
+
+### Mellan vilka källor kan den faktiskt växla?
+
+Bekräftade, riktiga källor: en bärbar dator, en andra bärbar dator och en DVD-spelare, hämtad från en DVD-inspelare med hårddisk av modellen LG-RH7500 i vårt lager. Det finns ingen dokumentkamera eller visualizer i vårt eget lager, så ingen av dem finns med på den listan. Se [Videoswitch eller kameraswitch](#videoswitch-eller-kameraswitch-frågan-som-betyder-mest) ovan om ditt evenemang behöver någon av dem.
+
+### Hyr ni ut DVD-inspelaren, eller annan inspelningsutrustning, separat från switchen?
+
+Nej. DVD-inspelaren med hårddisk LG-RH7500 är en av switchens tre bekräftade källor, inte en fristående uthyrningsartikel, och den har ingen kameraingång. Om du letar efter uthyrning av inspelningsutrustning i betydelsen kameror, objektiv eller produktionsutrustning för att filma ditt evenemang finns inget av det i vårt eget lager: det vi äger är ljud-, skärm- och ljusutrustning för evenemang. Se [Videoswitch eller kameraswitch](#videoswitch-eller-kameraswitch-frågan-som-betyder-mest) ovan för hur vi hanterar en sådan förfrågan.
+
+### Behöver jag den här för ett litet evenemang, eller bara för större företagsbokningar?
+
+Bara om ditt evenemang har mer än en presentationskälla på samma skärm. En enda talare med ett enda bildspel behöver den inte, en enda anslutning för en bärbar dator är faktiskt enklare. Den blir relevant i ett konferensprogram med mer än en presentatör, eller en keynote med ett filminslag, vilket är därför den nästan bara dyker upp vid våra MICE-bokningar för företag och inte vid privata fester.
+
+### Hur jämför den sig med att bara använda en bärbar dator för min presentation?
+
+En enda bärbar dator är enklare och behöver inget extra, och det är rätt val om ditt evenemang verkligen har en presentatör och ett bildspel. Skillnaden syns i samma stund som en andra källa kommer in, en andra talares bärbara dator eller ett uppspelat filmklipp. Utan switchen innebär det källbytet att du drar ur och ansluter om en kabel live, med en synlig svart skärm eller en omstart. Med den växlar presentatören direkt mellan källorna, eller så gör vår tekniker det åt dig om du bokar den tjänsten, utan synligt avbrott. Se [Videoswitch eller en enda presentationskälla](#videoswitch-eller-en-enda-presentationskälla-vad-som-förändras) ovan för hela jämförelsen.
+
+### Kan jag ta med mina egna enheter att växla mellan?
+
+Ja, inom de bekräftade källtyperna: en bärbar dator eller en andra bärbar dator ansluts på samma sätt som vilken presentationsdator som helst i våra paket, via de HDMI- och USB-C-adaptrar vi redan tillhandahåller. Berätta vid bokningen vilka enheter ditt evenemang faktiskt kommer att använda, så att vår tekniker kan bekräfta kompatibiliteten och anslutningen i förväg i stället för att felsöka live.
+
+### Hur långt i förväg ska jag boka den?
+
+Boka så tidigt du kan när ditt evenemangsdatum, din lokal och ditt program är bekräftade. Se [Hur långt i förväg du ska boka](#hur-långt-i-förväg-du-ska-boka) ovan. Eftersom det är en enda enhet i vårt lager spelar en tidig bekräftelse större roll här än för utrustning vi har i större antal, särskilt om du vill att vår tekniker ska sköta den i stället för presentatören.

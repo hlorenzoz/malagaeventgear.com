@@ -109,6 +109,11 @@ export default {
 			keyword: 'aluguel de retorno de palco em Málaga',
 			status: 'propuesta'
 		},
+		'video-switcher-rental': {
+			slug: 'aluguel-de-switcher-de-video',
+			keyword: 'aluguel de switcher de vídeo em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'aluguel-de-audiovisual-para-eventos',
 			keyword: 'aluguel de audiovisual para eventos em Málaga',

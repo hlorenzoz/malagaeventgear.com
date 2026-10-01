@@ -1,0 +1,178 @@
+---
+title: "Aluguel de switcher de vídeo em Málaga, Espanha"
+description: "Aluguel de switcher de vídeo em Málaga, Espanha: o verdadeiro Kramer VP-731, operado pelo apresentador ou pelo nosso técnico, se reservado. Nunca câmeras."
+excerpt: "Aluguel de switcher de vídeo em Málaga: o verdadeiro switcher do nosso catálogo AV, um Kramer VP-731 com 9 entradas, que alterna fontes de apresentação operadas pelo apresentador ou passadas ao nosso técnico, com uma linha clara em relação à produção com câmeras ou transmissão ao vivo."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Uma busca em inglês por "video switcher rental" costuma trazer dois produtos muito diferentes: um switcher de apresentações que alterna a tela de uma sala entre um notebook e um aparelho de DVD, e um switcher de câmeras ou mixer de vídeo feito para transmissão ao vivo e produção broadcast. O nosso guia de [suporte técnico para eventos](/blog/technical-support-for-events/#switching-between-multiple-presentation-sources) já menciona o nosso switcher em uma seção curta, apresentado como algo que o apresentador pode operar diretamente ou passar ao nosso técnico durante um evento. Esta página sobre aluguel de switcher de vídeo em Málaga, Espanha, é a versão mais aprofundada e focada no equipamento: o que temos exatamente em estoque, o que ele não é, em quais pacotes está realisticamente disponível e uma comparação honesta com o uso de uma única fonte de apresentação.
+
+A Malaga Event Gear é dona deste equipamento e o utiliza em Málaga e no restante da Costa del Sol, operado diretamente pelo apresentador ou pelo nosso técnico, se você reservar esse serviço. O que segue é um único produto real, descrito com honestidade, inclusive até onde vai a nossa certeza sobre ele, e não uma ficha técnica reescrita.
+
+## Sumário
+
+-   [Resumo](#resumo)
+-   [Destaques](#destaques)
+-   [O equipamento real que temos em estoque: um Kramer VP-731, 9 entradas](#o-equipamento-real-que-temos-em-estoque-um-kramer-vp-731-9-entradas)
+-   [O que 9 entradas significam na prática](#o-que-9-entradas-significam-na-prática)
+-   [Switcher de vídeo ou switcher de câmeras: a pergunta que mais importa](#switcher-de-vídeo-ou-switcher-de-câmeras-a-pergunta-que-mais-importa)
+-   [Switcher de vídeo ou uma única fonte de apresentação: o que muda](#switcher-de-vídeo-ou-uma-única-fonte-de-apresentação-o-que-muda)
+-   [Em quais pacotes está disponível, e preços](#em-quais-pacotes-está-disponível-e-preços)
+-   [Montagens reais que já entregamos](#montagens-reais-que-já-entregamos)
+-   [Com quanta antecedência reservar](#com-quanta-antecedência-reservar)
+-   [Conclusão](#conclusão)
+-   [Perguntas frequentes](#perguntas-frequentes)
+    -   [O que é um switcher de vídeo e o que inclui o aluguel de switcher de vídeo da MEG?](#o-que-é-um-switcher-de-vídeo-e-o-que-inclui-o-aluguel-de-switcher-de-vídeo-da-meg)
+    -   [É a mesma coisa que um switcher de câmeras ou um switcher de produção para transmissão ao vivo?](#é-a-mesma-coisa-que-um-switcher-de-câmeras-ou-um-switcher-de-produção-para-transmissão-ao-vivo)
+    -   [Entre quantas fontes ele consegue alternar?](#entre-quantas-fontes-ele-consegue-alternar)
+    -   [Posso alugar só o switcher, sem técnico?](#posso-alugar-só-o-switcher-sem-técnico)
+    -   [Switcher de vídeo ou mixer de câmeras para transmissão ao vivo, qual é a diferença real?](#switcher-de-vídeo-ou-mixer-de-câmeras-para-transmissão-ao-vivo-qual-é-a-diferença-real)
+    -   [Quais pacotes o incluem e quanto custa?](#quais-pacotes-o-incluem-e-quanto-custa)
+    -   [Entre quais fontes ele consegue realmente alternar?](#entre-quais-fontes-ele-consegue-realmente-alternar)
+    -   [Vocês alugam o gravador de DVD, ou outro equipamento de gravação, separadamente do switcher?](#vocês-alugam-o-gravador-de-dvd-ou-outro-equipamento-de-gravação-separadamente-do-switcher)
+    -   [Preciso disso para um evento pequeno ou só para reservas corporativas maiores?](#preciso-disso-para-um-evento-pequeno-ou-só-para-reservas-corporativas-maiores)
+    -   [Como isso se compara a usar apenas um notebook na minha apresentação?](#como-isso-se-compara-a-usar-apenas-um-notebook-na-minha-apresentação)
+    -   [Posso trazer os meus próprios dispositivos para alternar?](#posso-trazer-os-meus-próprios-dispositivos-para-alternar)
+    -   [Com quanta antecedência devo reservar?](#com-quanta-antecedência-devo-reservar)
+
+## Resumo
+
+---
+
+A Malaga Event Gear tem em estoque um switcher de vídeo, um Kramer VP-731 com 9 entradas, como item separado dos nossos pacotes de eventos padrão. É inventário real, usado em reservas com mais de uma fonte de apresentação, em Málaga e no restante da Costa del Sol, com o apresentador alternando diretamente entre as fontes ou com o nosso técnico cuidando disso, se você reservar esse serviço. Ele não está incluído no [Eco Pack](/packages/eco/), no [Product Presentation Pack](/packages/product-presentation/), no [Basic MICE Pack](/packages/basic-mice/), no [Wedding Pack](/packages/wedding/) nem no [MICE Pack](/packages/mice/), e não há preço avulso publicado, então [entre em contato](/contact/) com os detalhes do seu evento e confirmaremos a disponibilidade e um orçamento.
+
+O mais importante a entender sobre este equipamento: ele é um switcher de apresentações para a sua tela, e não um switcher de câmeras, um mixer de vídeo nem uma ferramenta de produção de transmissão. Câmeras, filmagem e transmissão ao vivo não fazem parte do nosso próprio inventário, e a nossa própria equipe não as opera. Se o seu evento precisar de alguma delas, avise-nos e podemos sondar os nossos fornecedores, sem promessa de que algum consiga atender. Veja [Switcher de vídeo ou switcher de câmeras](#switcher-de-vídeo-ou-switcher-de-câmeras-a-pergunta-que-mais-importa) mais abaixo.
+
+## Destaques
+
+---
+
+-   Um único equipamento real: um Kramer VP-731, scaler de vídeo de 9 entradas, e não um switcher de câmeras nem de broadcast.
+-   Fontes reais confirmadas entre as quais ele alterna: um notebook, um segundo notebook e um aparelho de DVD. Não existe câmera de documentos nem visualizador no nosso próprio inventário.
+-   As 9 entradas físicas são uma margem real, mas uma reserva corporativa típica usa 2 a 3 fontes, e não 9 ao mesmo tempo.
+-   Não está incluído em nenhum dos nossos 5 pacotes e é orçado sob consulta. O apresentador pode operá-lo diretamente, ou você pode reservar o nosso técnico para cuidar disso.
+-   Explicitamente sem comutação de câmeras, sem mixer de vídeo ao vivo, sem equipamento de produção de streaming ou broadcast.
+
+## O equipamento real que temos em estoque: um Kramer VP-731, 9 entradas
+
+Um switcher de vídeo, como termo geral, abrange tudo, desde uma pequena caixa matricial HDMI até um mixer de vídeo de broadcast completo, com entradas de câmera e barramento de pré-visualização. O que a MEG realmente tem em estoque com esse nome é um produto específico: um Kramer VP-731, um scaler e switcher de vídeo de 9 entradas. Temos exatamente uma unidade.
+
+Somos precisos aqui de propósito. O nosso catálogo de equipamentos confirma as fontes para as quais esta unidade está configurada: um notebook para os slides, um segundo notebook para um vídeo de apoio e um aparelho de DVD para um trecho exibido, vindo de uma unidade LG-RH7500 (gravador de DVD e disco rígido) que também faz parte do nosso inventário. Não há câmera de documentos nem visualizador no nosso próprio inventário, e não vamos improvisar um substituto com o que possuímos. [Switcher de vídeo ou switcher de câmeras](#switcher-de-vídeo-ou-switcher-de-câmeras-a-pergunta-que-mais-importa) mais abaixo explica como tratamos um pedido desse tipo.
+
+<InlineCTA />
+
+## O que 9 entradas significam na prática
+
+As 9 entradas físicas do VP-731 são uma especificação real, e não vamos inflar o que a maioria dos eventos faz com elas. Um evento corporativo raramente precisa de mais de 2 ou 3 fontes de apresentação em uma única tela, normalmente um notebook para a apresentação principal, um segundo notebook para uma inserção de vídeo e, ocasionalmente, um aparelho de DVD para um trecho exibido. Esse é o caso de uso real e honesto deste equipamento, e não uma alimentação simultânea de 9 fontes.
+
+A margem existe porque a unidade a permite, e não porque esperamos que uma reserva preencha as 9 entradas. Na prática, essa margem significa uma comutação limpa entre as 2 ou 3 fontes que o seu evento realmente tem, seja o apresentador quem a faz diretamente, seja o nosso técnico quem cuida disso para você, para que a tela da sala passe de uma para a seguinte sem falhas visíveis nem reinicialização. Se o seu evento tiver mesmo mais de 3 fontes para gerenciar, [entre em contato](/contact/) com os detalhes e confirmaremos se é realista no dia.
+
+## Switcher de vídeo ou switcher de câmeras: a pergunta que mais importa
+
+Este é o ponto mais importante desta página. Um switcher de vídeo, no sentido de apresentação que a MEG oferece, e um switcher de câmeras ou mixer de vídeo feito para transmissão ao vivo e produção broadcast são duas categorias de equipamento diferentes, para dois trabalhos diferentes, e são confundidos o tempo todo nas buscas gerais pela expressão inglesa "video switcher".
+
+O que o nosso Kramer VP-731 faz: recebe fontes de apresentação (um notebook, um segundo notebook, um aparelho de DVD) e alterna a tela da sala de forma limpa entre elas, operado diretamente pelo apresentador ou pelo nosso técnico, se você reservar esse serviço.
+
+O que ele não faz: não aceita entradas de câmera, não produz um sinal de programa para uma transmissão ao vivo e não tem saída de pré-visualização nem de gravação para uso em broadcast. Câmeras, filmagem e transmissão ao vivo não fazem parte do nosso próprio inventário, e a nossa própria equipe não as opera. Uma gravação filmada, uma transmissão ao vivo para participantes remotos ou uma mixagem de broadcast com várias câmeras são uma categoria de equipamento e de equipe completamente diferente. Se o seu evento precisar de algum desses itens, ou de uma câmera de documentos, descreva para nós o que precisa. Podemos ver se um fornecedor com quem trabalhamos poderia assumir o pedido e, se nenhum puder, diremos isso com clareza. Pergunte-nos também diretamente se você não tiver certeza de qual categoria o seu evento precisa.
+
+## Switcher de vídeo ou uma única fonte de apresentação: o que muda
+
+Nem todo evento precisa de comutação de fontes. Veja o que realmente muda entre uma apresentação com um único notebook e uma reserva que adiciona o switcher de vídeo:
+
+| | Uma única fonte de apresentação | Switcher de vídeo adicionado |
+| --- | --- | --- |
+| Fontes na tela | Um notebook, ligado diretamente ao projetor ou à tela | Um notebook, um segundo notebook e um aparelho de DVD, alternados conforme a necessidade |
+| Trocar de fonte no meio do evento | Manual: desconectar e reconectar, com uma tela preta visível ou uma reinicialização | O apresentador alterna diretamente entre as fontes, ou o nosso técnico faz isso para você, sem falhas visíveis nem reinicialização |
+| Quem opera | O apresentador, ou ninguém | O apresentador, ou o nosso técnico se você reservar esse serviço |
+| Caso de uso realista | Um único palestrante, uma única apresentação, sem inserção de vídeo | Uma programação de conferência com mais de um apresentador ou um segmento de vídeo dentro de uma apresentação ao vivo |
+| Incluído em um pacote | Sim, em qualquer pacote com tela | Não, item à parte, com orçamento sob consulta |
+
+Se o seu evento é um único palestrante com uma única apresentação, uma só fonte é realmente mais simples e nada muda para você. Se a sua programação alterna entre dois notebooks, ou entre uma apresentação e um trecho de vídeo exibido, o switcher elimina a atrapalhação visível de reconectar um cabo ao vivo na frente do seu público.
+
+## Em quais pacotes está disponível, e preços
+
+Nenhum dos nossos cinco pacotes, o [Eco Pack](/packages/eco/), o [Product Presentation Pack](/packages/product-presentation/), o [Basic MICE Pack](/packages/basic-mice/), o [Wedding Pack](/packages/wedding/) ou o [MICE Pack](/packages/mice/), inclui o switcher de vídeo como item padrão. Ele só faz sentido na prática em uma reserva que já tenha uma tela e mais de uma fonte de apresentação, o que, no nosso catálogo, significa os pacotes corporativos:
+
+-   **[MICE Pack](/packages/mice/)**, com a sua tela de LED de 60 polegadas e o técnico ao vivo dedicado incluídos de série, é onde este equipamento é mais pedido, para uma programação corporativa com mais de um palestrante ou uma inserção de vídeo dentro de uma keynote. Esse técnico incluído opera o som e os microfones. Avise-nos na reserva se quiser que ele também cuide do switcher, caso contrário o apresentador alterna diretamente.
+-   **[Basic MICE Pack](/packages/basic-mice/)**, com a sua tela de projeção de 2x2 m, pode adicionar o switcher de vídeo. Sem a opção de assistente técnico ao vivo no local, o apresentador alterna diretamente entre as fontes. Adicione essa opção se preferir que o nosso técnico cuide disso para você.
+
+O [Eco Pack](/packages/eco/) não inclui tela e foi pensado para uma montagem de DJ ou festa por conta própria, e o [Wedding Pack](/packages/wedding/) também não inclui tela de projeção, então o switcher de vídeo realmente não se encaixa em nenhum dos dois. Não há preço avulso publicado para o próprio switcher. [Entre em contato](/contact/) com o seu pacote, a sua programação e quantas fontes de apresentação o seu evento realmente tem, e confirmaremos a disponibilidade e um orçamento em vez de inventar um aqui.
+
+## Montagens reais que já entregamos
+
+Uma olhada em uma montagem real em uma sala de conferências da província de Málaga:
+
+![Aluguel de projetor e tela para um evento na província de Málaga.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-1024x765.webp "Um grande projetor e uma tela montados em uma sala de conferências na província de Málaga, prontos para uma apresentação ou exibição audiovisual.")
+
+Um grande projetor e uma tela montados em uma sala de conferências na província de Málaga, prontos para uma apresentação ou exibição audiovisual.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1268/', '/1273/'])} speed="normal" direction="left" />
+</div>
+
+Os nossos técnicos também monitoraram continuamente as entradas de vídeo a partir de um painel de controle avançado ao longo de um projeto corporativo de dois dias para a agência Bmotion em Benahavis, mantendo a comutação das entradas fluida e sem latência. Leia o relato completo na nossa atualização sobre o [suporte técnico para a Bmotion em Benahavis](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/).
+
+## Com quanta antecedência reservar
+
+Reserve o quanto antes, assim que a data, o local e a programação do seu evento estiverem confirmados. A procura na Costa del Sol chega ao pico durante a temporada de conferências corporativas e em torno dos grandes congressos, e os nossos técnicos são a primeira coisa a esgotar se você quiser que um deles cuide do switcher para você. Como o switcher de vídeo é uma unidade única no nosso inventário, confirmá-lo cedo também nos dá tempo para verificar se ele está realmente livre na sua data, seja o apresentador quem o opere, seja o nosso técnico, além do pacote que você já reservou.
+
+## Conclusão
+
+O aluguel de switcher de vídeo em Málaga, para a MEG em particular, é um produto real: um Kramer VP-731 com 9 entradas, operado diretamente pelo apresentador ou pelo nosso técnico, se você reservar esse serviço, confirmado com um notebook, um segundo notebook e um aparelho de DVD como fontes reais, e enquadrado com honestidade em uma reserva típica de 2 a 3 fontes e não em uma alimentação de 9 fontes. Ele é estritamente um switcher de apresentações para a tela da sua sala, e não um switcher de câmeras, um mixer de vídeo nem uma ferramenta de produção de streaming, e não está incluído em nenhum dos nossos 5 pacotes. [Entre em contato](/contact/) com a programação do seu evento e o número de fontes de apresentação que você realmente tem, e confirmaremos a disponibilidade e um orçamento. Para saber mais sobre operar este equipamento por conta própria ou reservar o nosso técnico para isso durante o seu evento, veja o nosso guia de [suporte técnico para eventos](/blog/technical-support-for-events/) ou, para toda a linha de equipamentos em que ele se insere, o nosso guia de [aluguel de audiovisual para eventos em Málaga](/blog/audio-visual-rental/).
+
+## Perguntas frequentes
+
+### O que é um switcher de vídeo e o que inclui o aluguel de switcher de vídeo da MEG?
+
+Um switcher de vídeo alterna uma tela de forma limpa entre mais de uma fonte de apresentação, em vez de obrigar a trocar cabos manualmente. A versão real da MEG é um Kramer VP-731, um scaler e switcher de vídeo de 9 entradas, que o apresentador pode operar diretamente ou passar ao nosso técnico, se você reservar esse serviço. Veja [O equipamento real que temos em estoque](#o-equipamento-real-que-temos-em-estoque-um-kramer-vp-731-9-entradas) acima para saber exatamente o que ele é e o que não é.
+
+### É a mesma coisa que um switcher de câmeras ou um switcher de produção para transmissão ao vivo?
+
+Não. Esta é a distinção mais importante desta página. O nosso Kramer VP-731 alterna fontes de apresentação, um notebook, um segundo notebook, um aparelho de DVD, para a tela da sua sala. Ele não aceita entradas de câmera e não foi feito para transmissão ao vivo nem produção broadcast. Câmeras, filmagem e transmissão ao vivo também não estão no nosso próprio inventário. Veja [Switcher de vídeo ou switcher de câmeras](#switcher-de-vídeo-ou-switcher-de-câmeras-a-pergunta-que-mais-importa) acima.
+
+### Entre quantas fontes ele consegue alternar?
+
+A unidade tem 9 entradas físicas, mas o caso de uso honesto e típico nas nossas reservas reais é de 2 a 3 fontes, um notebook, um segundo notebook e, ocasionalmente, um aparelho de DVD, e não 9 ao mesmo tempo. Veja [O que 9 entradas significam na prática](#o-que-9-entradas-significam-na-prática) acima.
+
+### Posso alugar só o switcher, sem técnico?
+
+Sim. O apresentador pode operar o switcher diretamente, alternando ele mesmo entre as fontes. Se você preferir que o nosso técnico cuide disso, adicione a opção de assistente técnico ao vivo no local no [Basic MICE Pack](/packages/basic-mice/). No [MICE Pack](/packages/mice/), o técnico incluído opera o som e os microfones de série. Avise-nos na reserva se quiser que ele também cuide do switcher, caso contrário o apresentador alterna diretamente. Como trabalhamos só com entrega, também não oferecemos retirada própria em nenhum dos casos: a nossa equipe entrega, monta e testa a unidade antes de ir embora, seja o apresentador ou o nosso técnico quem a opere no dia.
+
+### Switcher de vídeo ou mixer de câmeras para transmissão ao vivo, qual é a diferença real?
+
+Um switcher de vídeo como o nosso alterna entre fontes de apresentação para a tela de uma sala, de um notebook para um notebook e para um aparelho de DVD. Um switcher de câmeras ou mixer de vídeo para transmissão ao vivo aceita vários sinais de câmera e produz uma saída de programa para uma emissão ou uma transmissão para espectadores remotos, uma categoria de equipamento completamente diferente, com uma cadeia de sinal diferente. A MEG tem em estoque o primeiro. O segundo, e as câmeras, a filmagem e a transmissão ao vivo que o acompanham, não estão no nosso próprio inventário. Se o seu evento precisar de uma gravação filmada ou de uma transmissão para participantes remotos, veja [Switcher de vídeo ou switcher de câmeras](#switcher-de-vídeo-ou-switcher-de-câmeras-a-pergunta-que-mais-importa) acima.
+
+### Quais pacotes o incluem e quanto custa?
+
+Nenhum dos nossos cinco pacotes o inclui de série. Ele se combina de forma realista com o [MICE Pack](/packages/mice/), que já inclui tela e técnico, ou com o [Basic MICE Pack](/packages/basic-mice/), em que o apresentador pode operá-lo diretamente ou você pode adicionar a opção de assistente técnico se preferir que o nosso técnico cuide disso. Não há preço avulso publicado. [Entre em contato](/contact/) com o seu pacote e a sua programação e confirmaremos a disponibilidade e um orçamento. Veja [Em quais pacotes está disponível](#em-quais-pacotes-está-disponível-e-preços) acima.
+
+### Entre quais fontes ele consegue realmente alternar?
+
+Fontes reais confirmadas: um notebook, um segundo notebook e um aparelho de DVD, vindo de uma unidade LG-RH7500 (gravador de DVD e disco rígido) do nosso inventário. Não há câmera de documentos nem visualizador no nosso próprio inventário, então nenhum dos dois consta dessa lista. Veja [Switcher de vídeo ou switcher de câmeras](#switcher-de-vídeo-ou-switcher-de-câmeras-a-pergunta-que-mais-importa) acima se o seu evento precisar de algum deles.
+
+### Vocês alugam o gravador de DVD, ou outro equipamento de gravação, separadamente do switcher?
+
+Não. O gravador de DVD e disco rígido LG-RH7500 é uma das três fontes confirmadas do switcher, e não um item de aluguel independente, e não tem entrada de câmera. Se você procura aluguel de equipamento de gravação no sentido de câmeras, lentes ou equipamento de produção para filmar o seu evento, nada disso está no nosso próprio inventário: o que possuímos é equipamento de áudio, telas e iluminação para eventos. Veja [Switcher de vídeo ou switcher de câmeras](#switcher-de-vídeo-ou-switcher-de-câmeras-a-pergunta-que-mais-importa) acima para saber como tratamos esse pedido.
+
+### Preciso disso para um evento pequeno ou só para reservas corporativas maiores?
+
+Só se o seu evento tiver mais de uma fonte de apresentação na mesma tela. Um único palestrante com uma única apresentação não precisa dele, uma única conexão de notebook é realmente mais simples. Ele se torna relevante em uma programação de conferência com mais de um apresentador, ou em uma keynote que inclua uma inserção de vídeo, e é por isso que aparece quase só nas nossas reservas corporativas MICE e não em festas particulares.
+
+### Como isso se compara a usar apenas um notebook na minha apresentação?
+
+Um único notebook é mais simples e não precisa de nada extra, e é a escolha certa se o seu evento realmente tiver um apresentador e uma apresentação. A diferença aparece no momento em que entra uma segunda fonte, o notebook de um segundo palestrante ou um trecho de vídeo exibido. Sem o switcher, essa troca de fonte significa desconectar e reconectar um cabo ao vivo, com uma tela preta visível ou uma reinicialização. Com ele, o apresentador alterna diretamente entre as fontes, ou o nosso técnico faz isso para você, se você reservar esse serviço, sem interrupção visível. Veja [Switcher de vídeo ou uma única fonte de apresentação](#switcher-de-vídeo-ou-uma-única-fonte-de-apresentação-o-que-muda) acima para a comparação completa.
+
+### Posso trazer os meus próprios dispositivos para alternar?
+
+Sim, dentro dos tipos de fonte confirmados: um notebook ou um segundo notebook se conecta como qualquer notebook de apresentação nos nossos pacotes, por meio dos adaptadores HDMI e USB-C que já fornecemos. Conte-nos na reserva quais dispositivos o seu evento realmente vai usar, para que o nosso técnico confirme antecipadamente a compatibilidade e a conexão, em vez de resolver o problema ao vivo.
+
+### Com quanta antecedência devo reservar?
+
+Reserve o quanto antes, assim que a data, o local e a programação do seu evento estiverem confirmados. Veja [Com quanta antecedência reservar](#com-quanta-antecedência-reservar) acima. Como é uma unidade única no nosso inventário, confirmá-lo cedo importa mais aqui do que para equipamentos que temos em maior quantidade, principalmente se você quiser que o nosso técnico o opere em vez do apresentador.

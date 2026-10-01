@@ -1,0 +1,178 @@
+---
+title: "Leje videoswitcher i Malaga, Spanien"
+description: "Leje videoswitcher i Malaga, Spanien: den rigtige Kramer VP-731, styret af præsentatoren eller vores tekniker, hvis du booker det. Aldrig kameraudstyr."
+excerpt: "Leje videoswitcher i Malaga: den rigtige videoswitcher i vores AV-katalog, en Kramer VP-731 med 9 indgange, der skifter mellem præsentationskilder, som præsentatoren selv kan styre eller overlade til vores tekniker, med en tydelig grænse til kamera- eller livestreamingproduktion."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+En engelsk søgning på "video switcher rental" giver som regel to vidt forskellige produkter: en præsentationsswitcher, der skifter rummets skærm mellem en bærbar computer og en DVD-afspiller, og en kameraswitcher eller billedmixer bygget til livestreaming og broadcastproduktion. Vores guide om [teknisk support til events](/blog/technical-support-for-events/#switching-between-multiple-presentation-sources) nævner allerede vores switcher i et kort afsnit, fremstillet som noget, præsentatoren kan styre direkte eller overlade til vores tekniker under et event. Denne side om at leje videoswitcher i Malaga, Spanien, er den dybere, udstyrsorienterede version: hvad vi helt præcist har på lager, hvad den ikke er, på hvilke pakker den realistisk set er tilgængelig og en ærlig sammenligning med at køre med én enkelt præsentationskilde.
+
+Malaga Event Gear ejer selv denne enhed og bruger den i Malaga og på resten af Costa del Sol, styret direkte af præsentatoren eller af vores tekniker, hvis du booker den ydelse. Det følgende er ét rigtigt produkt, beskrevet ærligt, også dér hvor vores sikkerhed om det holder op, og ikke et omskrevet datablad.
+
+## Indholdsfortegnelse
+
+-   [Kort overblik](#kort-overblik)
+-   [Det vigtigste](#det-vigtigste)
+-   [Den rigtige enhed, vi har på lager: en Kramer VP-731, 9 indgange](#den-rigtige-enhed-vi-har-på-lager-en-kramer-vp-731-9-indgange)
+-   [Hvad 9 indgange betyder i praksis](#hvad-9-indgange-betyder-i-praksis)
+-   [Videoswitcher eller kameraswitcher: spørgsmålet, der betyder mest](#videoswitcher-eller-kameraswitcher-spørgsmålet-der-betyder-mest)
+-   [Videoswitcher eller én præsentationskilde: hvad der ændrer sig](#videoswitcher-eller-én-præsentationskilde-hvad-der-ændrer-sig)
+-   [Hvilke pakker den er tilgængelig på, og priser](#hvilke-pakker-den-er-tilgængelig-på-og-priser)
+-   [Rigtige opsætninger, vi har leveret](#rigtige-opsætninger-vi-har-leveret)
+-   [Hvor langt i forvejen du skal booke](#hvor-langt-i-forvejen-du-skal-booke)
+-   [Konklusion](#konklusion)
+-   [Ofte stillede spørgsmål](#ofte-stillede-spørgsmål)
+    -   [Hvad er en videoswitcher, og hvad omfatter MEG's udlejning af videoswitcher?](#hvad-er-en-videoswitcher-og-hvad-omfatter-megs-udlejning-af-videoswitcher)
+    -   [Er det det samme som en kameraswitcher eller en produktionsswitcher til livestreaming?](#er-det-det-samme-som-en-kameraswitcher-eller-en-produktionsswitcher-til-livestreaming)
+    -   [Mellem hvor mange kilder kan den skifte?](#mellem-hvor-mange-kilder-kan-den-skifte)
+    -   [Kan jeg leje bare switcheren uden tekniker?](#kan-jeg-leje-bare-switcheren-uden-tekniker)
+    -   [Videoswitcher eller kamera- og billedmixer til livestreaming, hvad er den reelle forskel?](#videoswitcher-eller-kamera--og-billedmixer-til-livestreaming-hvad-er-den-reelle-forskel)
+    -   [Hvilke pakker inkluderer den, og hvad koster den?](#hvilke-pakker-inkluderer-den-og-hvad-koster-den)
+    -   [Mellem hvilke kilder kan den faktisk skifte?](#mellem-hvilke-kilder-kan-den-faktisk-skifte)
+    -   [Udlejer I DVD-optageren eller andet optageudstyr separat fra switcheren?](#udlejer-i-dvd-optageren-eller-andet-optageudstyr-separat-fra-switcheren)
+    -   [Har jeg brug for det til et lille event, eller kun til større firmabookinger?](#har-jeg-brug-for-det-til-et-lille-event-eller-kun-til-større-firmabookinger)
+    -   [Hvordan er det sammenlignet med bare at bruge én bærbar computer til min præsentation?](#hvordan-er-det-sammenlignet-med-bare-at-bruge-én-bærbar-computer-til-min-præsentation)
+    -   [Kan jeg medbringe mine egne enheder at skifte mellem?](#kan-jeg-medbringe-mine-egne-enheder-at-skifte-mellem)
+    -   [Hvor langt i forvejen skal jeg booke den?](#hvor-langt-i-forvejen-skal-jeg-booke-den)
+
+## Kort overblik
+
+---
+
+Malaga Event Gear har én videoswitcher på lager, en Kramer VP-731 med 9 indgange, som en separat vare ved siden af vores standardpakker til events. Det er rigtigt udstyr, brugt ved bookinger med mere end én præsentationskilde, i Malaga og på resten af Costa del Sol, hvor præsentatoren selv skifter mellem kilderne, eller vores tekniker styrer det, hvis du booker den ydelse. Den er ikke inkluderet i [Eco Pack](/packages/eco/), [Product Presentation Pack](/packages/product-presentation/), [Basic MICE Pack](/packages/basic-mice/), [Wedding Pack](/packages/wedding/) eller [MICE Pack](/packages/mice/), og der er ingen offentliggjort enkeltpris, så [kontakt os](/contact/) med detaljerne om dit event, så bekræfter vi tilgængelighed og et tilbud.
+
+Det vigtigste at forstå om denne enhed: den er en præsentationsswitcher til din skærm, ikke en kameraswitcher, en billedmixer eller et værktøj til streamingproduktion. Kameraer, filmning og livestreaming findes ikke i vores eget lager, og vores eget team betjener dem ikke. Hvis dit event har brug for noget af det, så sig til, og vi kan høre vores leverandører, uden løfte om, at nogen kan dække det. Se [Videoswitcher eller kameraswitcher](#videoswitcher-eller-kameraswitcher-spørgsmålet-der-betyder-mest) nedenfor.
+
+## Det vigtigste
+
+---
+
+-   Én rigtig enhed: en Kramer VP-731, videoscaler med 9 indgange, ikke en kamera- eller broadcastswitcher.
+-   Bekræftede, rigtige kilder, den skifter mellem: en bærbar computer, en anden bærbar computer og en DVD-afspiller. Der findes intet dokumentkamera eller visualizer i vores eget lager.
+-   9 fysiske indgange giver en reel margen, men en typisk firmabooking bruger 2 til 3 kilder, ikke 9 på én gang.
+-   Ikke inkluderet i nogen af vores 5 pakker og tilbudt efter forespørgsel. Præsentatoren kan styre den direkte, eller du kan booke vores tekniker til at styre den.
+-   Udtrykkeligt ikke kameraskift, ikke en livebilledmixer, ikke udstyr til streaming- eller broadcastproduktion.
+
+## Den rigtige enhed, vi har på lager: en Kramer VP-731, 9 indgange
+
+En videoswitcher som generelt begreb dækker alt fra en lille HDMI-matrixboks til en komplet billedmixer til broadcast med kameraindgange og previewbus. Det, MEG reelt har på lager under det navn, er ét bestemt produkt: en Kramer VP-731, en videoscaler og switcher med 9 indgange. Vi ejer præcis én enhed.
+
+Vi er præcise her med vilje. Vores udstyrskatalog bekræfter de kilder, enheden er sat op til: en bærbar computer til slides, en anden bærbar computer til en understøttende video og en DVD-afspiller til et klip, der vises, hentet fra en DVD-optager med harddisk af typen LG-RH7500, som også findes i vores lager. Der findes intet dokumentkamera eller visualizer i vores eget lager, og vi improviserer ikke en erstatning ud af det, vi ejer. [Videoswitcher eller kameraswitcher](#videoswitcher-eller-kameraswitcher-spørgsmålet-der-betyder-mest) nedenfor gennemgår, hvordan vi håndterer en forespørgsel om det.
+
+<InlineCTA />
+
+## Hvad 9 indgange betyder i praksis
+
+At VP-731 har 9 fysiske indgange, er en reel specifikation, og vi vil ikke pumpe op, hvad de fleste events bruger dem til. Et firmaevent har sjældent brug for mere end 2 eller 3 præsentationskilder på én skærm, typisk en bærbar computer til hovedpræsentationen, en anden bærbar computer til et videoindslag og en gang imellem en DVD-afspiller til et klip, der vises. Det er den rigtige, ærlige brug af denne enhed, ikke en samtidig tilførsel fra 9 kilder.
+
+Marginen findes, fordi enheden kan det, ikke fordi vi forventer, at en booking fylder alle 9 indgange. I praksis betyder den margen et rent skift mellem de 2 eller 3 kilder, dit event faktisk har, uanset om præsentatoren styrer det direkte, eller vores tekniker styrer det for dig, så rummets skærm går fra den ene til den næste uden synlige hak eller genstart. Hvis dit event virkelig har mere end 3 kilder at styre, så [kontakt os](/contact/) med detaljerne, og vi bekræfter, om det er realistisk på dagen.
+
+## Videoswitcher eller kameraswitcher: spørgsmålet, der betyder mest
+
+Det er det vigtigste på denne side. En videoswitcher i den præsentationsbetydning, MEG tilbyder, og en kameraswitcher eller billedmixer bygget til livestreaming og broadcastproduktion er to forskellige kategorier udstyr til to forskellige opgaver, og de bliver hele tiden forvekslet i generelle søgninger på det engelske udtryk "video switcher".
+
+Hvad vores Kramer VP-731 gør: den tager imod præsentationskilder (en bærbar computer, en anden bærbar computer, en DVD-afspiller) og skifter rummets skærm rent mellem dem, styret direkte af præsentatoren eller af vores tekniker, hvis du booker den ydelse.
+
+Hvad den ikke gør: den tager ikke imod kameraindgange, den producerer ikke et programsignal til en livestream og den har hverken preview- eller optageudgang til broadcastbrug. Kameraer, filmning og livestreaming findes ikke i vores eget lager, og vores eget team betjener dem ikke. En filmet optagelse, en livestream til deltagere på afstand eller en broadcastmix med flere kameraer er en helt anden kategori af udstyr og mandskab. Hvis dit event har brug for noget af det, eller for et dokumentkamera, så beskriv det for os. Vi kan undersøge, om en leverandør, vi arbejder med, kan tage det, og hvis ingen kan, siger vi det ligeud. Spørg os også direkte, hvis du er usikker på, hvilken kategori dit event har brug for.
+
+## Videoswitcher eller én præsentationskilde: hvad der ændrer sig
+
+Ikke alle events har brug for skift mellem kilder. Her er, hvad der reelt ændrer sig mellem en præsentation med én bærbar computer og en booking, der tilføjer videoswitcheren:
+
+| | Én præsentationskilde | Videoswitcher tilføjet |
+| --- | --- | --- |
+| Kilder på skærmen | Én bærbar computer, tilsluttet direkte til projektoren eller skærmen | En bærbar computer, en anden bærbar computer og en DVD-afspiller, der skiftes mellem efter behov |
+| Skift af kilde midt i eventet | Manuelt: træk stikket ud og sæt det i igen, med en synlig sort skærm eller en genstart | Præsentatoren skifter direkte mellem kilderne, eller vores tekniker gør det for dig, uden synlige hak eller genstart |
+| Hvem styrer det | Præsentatoren, eller ingen | Præsentatoren, eller vores tekniker, hvis du booker den ydelse |
+| Realistisk brug | Én taler, én præsentation med slides, intet videoindslag | Et konferenceprogram med mere end én præsentator eller et videosegment i en live præsentation |
+| Inkluderet i en pakke | Ja, i enhver pakke med en skærm | Nej, en separat vare med tilbud efter forespørgsel |
+
+Hvis dit event er én taler med én præsentation, er én enkelt kilde faktisk enklere, og intet her ændrer sig for dig. Hvis dit program skifter mellem to bærbare computere, eller mellem en præsentation og et klip, der vises, fjerner switcheren det synlige bøvl med at tilslutte et kabel om live foran dit publikum.
+
+## Hvilke pakker den er tilgængelig på, og priser
+
+Ingen af vores fem pakker, [Eco Pack](/packages/eco/), [Product Presentation Pack](/packages/product-presentation/), [Basic MICE Pack](/packages/basic-mice/), [Wedding Pack](/packages/wedding/) eller [MICE Pack](/packages/mice/), inkluderer videoswitcheren som standard. Den giver kun praktisk mening ved en booking, der allerede har en skærm og mere end én præsentationskilde, hvilket i vores katalog betyder firmapakkerne:
+
+-   **[MICE Pack](/packages/mice/)**, med sin LED-skærm på 60 tommer og en dedikeret tekniker på stedet inkluderet som standard, er der, hvor denne enhed bliver efterspurgt oftest, til et firmaprogram med mere end én taler eller et videoindslag i en keynote. Den inkluderede tekniker betjener lyden og mikrofonerne. Sig til ved bookingen, hvis du også vil have, at teknikeren styrer switcheren, ellers skifter præsentatoren direkte.
+-   **[Basic MICE Pack](/packages/basic-mice/)**, med sit projektionslærred på 2x2 m, kan tilføje videoswitcheren. Uden tilkøbet af en teknisk assistent på stedet skifter præsentatoren direkte mellem kilderne. Tilføj det tilkøb, hvis du hellere vil have, at vores tekniker styrer den for dig.
+
+[Eco Pack](/packages/eco/) har ingen skærm inkluderet og er bygget til en DJ- eller festopsætning i egen drift, og [Wedding Pack](/packages/wedding/) inkluderer heller ikke et projektionslærred, så videoswitcheren passer reelt ikke til nogen af dem. Der er ingen offentliggjort enkeltpris på selve switcheren. [Kontakt os](/contact/) med din pakke, dit program og hvor mange præsentationskilder dit event faktisk har, så bekræfter vi tilgængelighed og et tilbud i stedet for at finde på et her.
+
+## Rigtige opsætninger, vi har leveret
+
+Et kig på en rigtig opsætning i en konferencesal i Malaga-provinsen:
+
+![Udlejning af projektor og skærm til et event i Malaga-provinsen.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-1024x765.webp "En stor projektor og et lærred stillet op i en konferencesal i Malaga-provinsen, klar til en præsentation eller en audiovisuel fremvisning.")
+
+En stor projektor og et lærred stillet op i en konferencesal i Malaga-provinsen, klar til en præsentation eller en audiovisuel fremvisning.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1268/', '/1273/'])} speed="normal" direction="left" />
+</div>
+
+Vores teknikere overvågede også videoindgangene løbende fra et avanceret kontrolpanel under et todages firmaprojekt for bureauet Bmotion i Benahavis og holdt skiftet mellem indgangene sømløst og uden forsinkelse. Læs hele beretningen i vores opdatering om [teknisk support til Bmotion i Benahavis](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/).
+
+## Hvor langt i forvejen du skal booke
+
+Book så tidligt som muligt, når dit events dato, lokation og program er bekræftet. Efterspørgslen på Costa del Sol topper i firmakonferencesæsonen og omkring de store kongresser, og vores teknikere er det første, der bliver booket op, hvis du vil have en til at styre switcheren for dig. Fordi videoswitcheren er én enkelt enhed i vores lager, giver en tidlig bekræftelse os også tid til at tjekke, at den reelt er ledig på din dato, uanset om præsentatoren styrer den, eller vores tekniker gør, ved siden af den pakke, du allerede har booket.
+
+## Konklusion
+
+At leje videoswitcher i Malaga hos MEG handler specifikt om ét rigtigt produkt: en Kramer VP-731 med 9 indgange, styret direkte af præsentatoren eller af vores tekniker, hvis du booker den ydelse, bekræftet mod en bærbar computer, en anden bærbar computer og en DVD-afspiller som rigtige kilder, og ærligt rammesat omkring en typisk booking med 2 til 3 kilder frem for en tilførsel fra 9. Den er strengt taget en præsentationsswitcher til rummets skærm, ikke en kameraswitcher, en billedmixer eller et værktøj til streamingproduktion, og den er ikke inkluderet i nogen af vores 5 pakker. [Kontakt os](/contact/) med dit eventprogram og antallet af præsentationskilder, du faktisk har, så bekræfter vi tilgængelighed og et tilbud. Læs mere om at styre denne enhed selv eller booke vores tekniker til det under dit event i vores guide om [teknisk support til events](/blog/technical-support-for-events/), eller i vores guide om [AV-udlejning i Malaga](/blog/audio-visual-rental/) for hele det udstyrsudvalg, enheden hører til i.
+
+## Ofte stillede spørgsmål
+
+### Hvad er en videoswitcher, og hvad omfatter MEG's udlejning af videoswitcher?
+
+En videoswitcher skifter en skærm rent mellem mere end én præsentationskilde i stedet for at tvinge et manuelt kabelskift. MEG's rigtige version er en Kramer VP-731, en videoscaler og switcher med 9 indgange, som præsentatoren kan styre direkte eller overlade til vores tekniker, hvis du booker den ydelse. Se [Den rigtige enhed, vi har på lager](#den-rigtige-enhed-vi-har-på-lager-en-kramer-vp-731-9-indgange) ovenfor for præcis, hvad den er, og hvad den ikke er.
+
+### Er det det samme som en kameraswitcher eller en produktionsswitcher til livestreaming?
+
+Nej. Det er den vigtigste forskel på denne side. Vores Kramer VP-731 skifter præsentationskilder, en bærbar computer, en anden bærbar computer, en DVD-afspiller, til rummets skærm. Den tager ikke imod kameraindgange og er ikke bygget til livestreaming eller broadcastproduktion. Kameraer, filmning og livestreaming findes heller ikke i vores eget lager. Se [Videoswitcher eller kameraswitcher](#videoswitcher-eller-kameraswitcher-spørgsmålet-der-betyder-mest) ovenfor.
+
+### Mellem hvor mange kilder kan den skifte?
+
+Enheden har 9 fysiske indgange, men den ærlige, typiske brug ved vores rigtige bookinger er 2 til 3 kilder, en bærbar computer, en anden bærbar computer og en gang imellem en DVD-afspiller, ikke 9 på én gang. Se [Hvad 9 indgange betyder i praksis](#hvad-9-indgange-betyder-i-praksis) ovenfor.
+
+### Kan jeg leje bare switcheren uden tekniker?
+
+Ja. Præsentatoren kan styre switcheren direkte og selv skifte mellem kilderne. Hvis du hellere vil have, at vores tekniker styrer den for dig, så tilføj tilkøbet af en teknisk assistent på stedet på [Basic MICE Pack](/packages/basic-mice/). På [MICE Pack](/packages/mice/) betjener den inkluderede tekniker lyden og mikrofonerne som standard. Sig til ved bookingen, hvis du også vil have, at teknikeren styrer switcheren, ellers skifter præsentatoren direkte. Da vi kun arbejder med levering, tilbyder vi heller ikke selvafhentning i nogen af tilfældene: vores team leverer, stiller op og tester enheden, før vi forlader den, uanset om præsentatoren eller vores tekniker styrer den på dagen.
+
+### Videoswitcher eller kamera- og billedmixer til livestreaming, hvad er den reelle forskel?
+
+En videoswitcher som vores skifter mellem præsentationskilder til et rums skærm, fra en bærbar computer til en bærbar computer til en DVD-afspiller. En kameraswitcher eller billedmixer til livestreaming tager imod flere kamerasignaler og producerer en programudgang til en udsendelse eller en stream til seere på afstand, en helt anden kategori udstyr med en anden signalkæde. MEG har den første på lager. Den anden, samt kameraer, filmning og livestreaming, som hører med, findes ikke i vores eget lager. Hvis dit event har brug for en filmet optagelse eller en stream til deltagere på afstand, se [Videoswitcher eller kameraswitcher](#videoswitcher-eller-kameraswitcher-spørgsmålet-der-betyder-mest) ovenfor.
+
+### Hvilke pakker inkluderer den, og hvad koster den?
+
+Ingen af vores fem pakker inkluderer den som standard. Den passer realistisk sammen med [MICE Pack](/packages/mice/), som allerede har en skærm og en tekniker, eller [Basic MICE Pack](/packages/basic-mice/), hvor præsentatoren kan styre den direkte, eller du kan tilføje tilkøbet af en teknisk assistent, hvis du hellere vil have, at vores tekniker styrer den. Der er ingen offentliggjort enkeltpris. [Kontakt os](/contact/) med din pakke og dit program, så bekræfter vi tilgængelighed og et tilbud. Se [Hvilke pakker den er tilgængelig på](#hvilke-pakker-den-er-tilgængelig-på-og-priser) ovenfor.
+
+### Mellem hvilke kilder kan den faktisk skifte?
+
+Bekræftede, rigtige kilder: en bærbar computer, en anden bærbar computer og en DVD-afspiller, hentet fra en DVD-optager med harddisk af typen LG-RH7500 i vores lager. Der findes intet dokumentkamera eller visualizer i vores eget lager, så ingen af dem står på den liste. Se [Videoswitcher eller kameraswitcher](#videoswitcher-eller-kameraswitcher-spørgsmålet-der-betyder-mest) ovenfor, hvis dit event har brug for en af dem.
+
+### Udlejer I DVD-optageren eller andet optageudstyr separat fra switcheren?
+
+Nej. DVD-optageren med harddisk LG-RH7500 er en af switcherens tre bekræftede kilder og ikke en selvstændig lejevare, og den har ingen kameraindgang. Hvis du leder efter udlejning af optageudstyr i betydningen kameraer, objektiver eller produktionsudstyr til at filme dit event, er intet af det i vores eget lager: det, vi ejer, er lyd-, skærm- og lysudstyr til events. Se [Videoswitcher eller kameraswitcher](#videoswitcher-eller-kameraswitcher-spørgsmålet-der-betyder-mest) ovenfor for, hvordan vi håndterer den forespørgsel.
+
+### Har jeg brug for det til et lille event, eller kun til større firmabookinger?
+
+Kun hvis dit event har mere end én præsentationskilde på den samme skærm. Én taler med én præsentation har ikke brug for den, ét enkelt tilslutningspunkt til en bærbar computer er faktisk enklere. Den bliver relevant i et konferenceprogram med mere end én præsentator eller en keynote med et videoindslag, og derfor optræder den næsten kun ved vores MICE-bookinger til virksomheder og ikke ved private fester.
+
+### Hvordan er det sammenlignet med bare at bruge én bærbar computer til min præsentation?
+
+Én bærbar computer er enklere og kræver intet ekstra, og det er det rigtige valg, hvis dit event reelt har én præsentator og én præsentation. Forskellen viser sig i det øjeblik, en anden kilde kommer ind, en anden talers bærbare computer eller et klip, der vises. Uden switcheren betyder det kildeskift, at du trækker et kabel ud og sætter det i igen live, med en synlig sort skærm eller en genstart. Med den skifter præsentatoren direkte mellem kilderne, eller vores tekniker gør det for dig, hvis du booker den ydelse, uden synligt afbræk. Se [Videoswitcher eller én præsentationskilde](#videoswitcher-eller-én-præsentationskilde-hvad-der-ændrer-sig) ovenfor for den fulde sammenligning.
+
+### Kan jeg medbringe mine egne enheder at skifte mellem?
+
+Ja, inden for de bekræftede kildetyper: en bærbar computer eller en anden bærbar computer tilsluttes på samme måde som enhver præsentationscomputer på vores pakker, via de HDMI- og USB-C-adaptere, vi allerede leverer. Fortæl os ved bookingen, hvilke enheder dit event faktisk skal bruge, så vores tekniker kan bekræfte kompatibiliteten og tilslutningen på forhånd i stedet for at fejlfinde live.
+
+### Hvor langt i forvejen skal jeg booke den?
+
+Book så tidligt som muligt, når dit events dato, lokation og program er bekræftet. Se [Hvor langt i forvejen du skal booke](#hvor-langt-i-forvejen-du-skal-booke) ovenfor. Fordi det er én enkelt enhed i vores lager, betyder en tidlig bekræftelse mere her end for udstyr, vi har i større antal, især hvis du vil have, at vores tekniker styrer den i stedet for præsentatoren.

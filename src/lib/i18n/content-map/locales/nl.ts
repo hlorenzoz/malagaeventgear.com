@@ -77,6 +77,11 @@ export default {
 			keyword: 'podiummonitor huren in Malaga',
 			status: 'propuesta'
 		},
+		'video-switcher-rental': {
+			slug: 'videoswitcher-huren-malaga',
+			keyword: 'videoswitcher huren in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'audiovisuele-verhuur',
 			keyword: 'audiovisuele verhuur Malaga',

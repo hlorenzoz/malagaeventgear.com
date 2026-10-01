@@ -1,0 +1,178 @@
+---
+title: "Videoumschalter mieten in Malaga, Spanien"
+description: "Videoumschalter mieten in Malaga, Spanien: der echte Kramer VP-731, bedient vom Präsentierenden oder bei Buchung von unserem Techniker. Nie Kameratechnik."
+excerpt: "Videoumschalter mieten in Malaga: der echte Videoumschalter in unserem AV-Katalog, ein Kramer VP-731 mit 9 Eingängen, der Präsentationsquellen umschaltet, die der Präsentierende selbst bedient oder an unseren Techniker abgibt, und eine klare Grenze zu Kamera- oder Livestream-Produktion."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Eine englische Suche nach "video switcher rental" liefert meist zwei sehr verschiedene Produkte: einen Präsentationsumschalter, der den Bildschirm eines Raums zwischen einem Laptop und einem DVD-Player umschaltet, und einen Kameraumschalter oder Bildmischer für Livestreaming und Broadcast-Produktion. Unser Ratgeber zum [technischen Support für Veranstaltungen](/blog/technical-support-for-events/#switching-between-multiple-presentation-sources) erwähnt unseren Umschalter bereits in einem kurzen Abschnitt, dargestellt als etwas, das der Präsentierende direkt bedienen oder während einer Veranstaltung an unseren Techniker abgeben kann. Diese Seite zum Thema Videoumschalter mieten in Malaga, Spanien, ist die vertiefte, technikorientierte Fassung: was wir genau im Bestand haben, was er nicht ist, bei welchen Paketen er realistisch verfügbar ist und ein ehrlicher Vergleich mit dem Betrieb einer einzelnen Präsentationsquelle.
+
+Malaga Event Gear besitzt dieses Gerät selbst und setzt es in Malaga und an der gesamten Costa del Sol ein, bedient vom Präsentierenden direkt oder von unserem Techniker, wenn Sie diese Leistung buchen. Was folgt, ist ein einziges echtes Produkt, ehrlich beschrieben, einschließlich der Stelle, an der unsere Gewissheit darüber endet, und kein umgeschriebenes Datenblatt.
+
+## Inhaltsverzeichnis
+
+-   [Kurzüberblick](#kurzüberblick)
+-   [Das Wichtigste](#das-wichtigste)
+-   [Das echte Gerät in unserem Bestand: ein Kramer VP-731, 9 Eingänge](#das-echte-gerät-in-unserem-bestand-ein-kramer-vp-731-9-eingänge)
+-   [Was 9 Eingänge in der Praxis bedeuten](#was-9-eingänge-in-der-praxis-bedeuten)
+-   [Videoumschalter oder Kameraumschalter: die Frage, auf die es am meisten ankommt](#videoumschalter-oder-kameraumschalter-die-frage-auf-die-es-am-meisten-ankommt)
+-   [Videoumschalter oder einzelne Präsentationsquelle: was sich ändert](#videoumschalter-oder-einzelne-präsentationsquelle-was-sich-ändert)
+-   [Bei welchen Paketen er verfügbar ist, und Preise](#bei-welchen-paketen-er-verfügbar-ist-und-preise)
+-   [Echte Aufbauten, die wir geliefert haben](#echte-aufbauten-die-wir-geliefert-haben)
+-   [Wie weit im Voraus buchen](#wie-weit-im-voraus-buchen)
+-   [Fazit](#fazit)
+-   [Häufige Fragen](#häufige-fragen)
+    -   [Was ist ein Videoumschalter, und was umfasst die Miete des Videoumschalters von MEG?](#was-ist-ein-videoumschalter-und-was-umfasst-die-miete-des-videoumschalters-von-meg)
+    -   [Ist das dasselbe wie ein Kameraumschalter oder ein Umschalter für Livestream-Produktion?](#ist-das-dasselbe-wie-ein-kameraumschalter-oder-ein-umschalter-für-livestream-produktion)
+    -   [Zwischen wie vielen Quellen kann er umschalten?](#zwischen-wie-vielen-quellen-kann-er-umschalten)
+    -   [Kann ich nur den Umschalter ohne Techniker mieten?](#kann-ich-nur-den-umschalter-ohne-techniker-mieten)
+    -   [Videoumschalter oder Kamera- bzw. Bildmischer für Livestreaming, was ist der eigentliche Unterschied?](#videoumschalter-oder-kamera--bzw-bildmischer-für-livestreaming-was-ist-der-eigentliche-unterschied)
+    -   [Welche Pakete enthalten ihn, und was kostet er?](#welche-pakete-enthalten-ihn-und-was-kostet-er)
+    -   [Zwischen welchen Quellen kann er tatsächlich umschalten?](#zwischen-welchen-quellen-kann-er-tatsächlich-umschalten)
+    -   [Vermieten Sie den DVD-Recorder oder andere Aufnahmetechnik getrennt vom Umschalter?](#vermieten-sie-den-dvd-recorder-oder-andere-aufnahmetechnik-getrennt-vom-umschalter)
+    -   [Brauche ich das für eine kleine Veranstaltung oder nur für größere Firmenbuchungen?](#brauche-ich-das-für-eine-kleine-veranstaltung-oder-nur-für-größere-firmenbuchungen)
+    -   [Wie schneidet das im Vergleich dazu ab, einfach einen Laptop für meine Präsentation zu nutzen?](#wie-schneidet-das-im-vergleich-dazu-ab-einfach-einen-laptop-für-meine-präsentation-zu-nutzen)
+    -   [Kann ich meine eigenen Geräte zum Umschalten mitbringen?](#kann-ich-meine-eigenen-geräte-zum-umschalten-mitbringen)
+    -   [Wie weit im Voraus sollte ich das buchen?](#wie-weit-im-voraus-sollte-ich-das-buchen)
+
+## Kurzüberblick
+
+---
+
+Malaga Event Gear hat einen Videoumschalter im Bestand, einen Kramer VP-731 mit 9 Eingängen, als eigenen Posten neben unseren Standard-Veranstaltungspaketen. Er ist echter Bestand und wird bei Buchungen mit mehr als einer Präsentationsquelle in Malaga und an der gesamten Costa del Sol eingesetzt, wobei der Präsentierende direkt zwischen den Quellen umschaltet oder unser Techniker das übernimmt, wenn Sie diese Leistung buchen. Er ist weder im [Eco Pack](/packages/eco/) noch im [Product Presentation Pack](/packages/product-presentation/) noch im [Basic MICE Pack](/packages/basic-mice/) noch im [Wedding Pack](/packages/wedding/) noch im [MICE Pack](/packages/mice/) gebündelt, und es gibt keinen veröffentlichten Einzelpreis, also [kontaktieren Sie uns](/contact/) mit den Details Ihrer Veranstaltung, und wir bestätigen Verfügbarkeit und ein Angebot.
+
+Das Wichtigste, was man über dieses Gerät verstehen muss: Es ist ein Präsentationsumschalter für Ihren Bildschirm, kein Kameraumschalter, kein Bildmischer und kein Werkzeug für Streaming-Produktion. Kameras, Filmaufnahmen und Livestreaming gehören nicht zu unserem eigenen Bestand, und unser eigenes Team betreibt sie nicht. Wenn Ihre Veranstaltung eines davon braucht, sagen Sie uns Bescheid, und wir können bei unseren Lieferanten nachfragen, ohne Zusage, dass einer es abdecken kann. Siehe unten [Videoumschalter oder Kameraumschalter](#videoumschalter-oder-kameraumschalter-die-frage-auf-die-es-am-meisten-ankommt).
+
+## Das Wichtigste
+
+---
+
+-   Ein echtes Gerät: ein Kramer VP-731, Videoscaler mit 9 Eingängen, kein Kamera- oder Broadcast-Umschalter.
+-   Bestätigte echte Quellen, zwischen denen er umschaltet: ein Laptop, ein zweiter Laptop und ein DVD-Player. In unserem eigenen Bestand gibt es keine Dokumentenkamera und keinen Visualizer.
+-   9 physische Eingänge sind echter Spielraum, aber eine typische Firmenbuchung nutzt 2 bis 3 Quellen, nicht 9 gleichzeitig.
+-   In keinem unserer 5 Pakete enthalten und auf Anfrage angeboten. Der Präsentierende kann ihn direkt bedienen, oder Sie buchen unseren Techniker, der ihn übernimmt.
+-   Ausdrücklich kein Kameraumschalter, kein Live-Bildmischer, keine Streaming- oder Broadcast-Produktionstechnik.
+
+## Das echte Gerät in unserem Bestand: ein Kramer VP-731, 9 Eingänge
+
+Ein Videoumschalter als Oberbegriff umfasst alles, von der kleinen HDMI-Matrixbox bis zum vollwertigen Broadcast-Bildmischer mit Kameraeingängen und Vorschaubus. Was MEG unter diesem Namen tatsächlich im Bestand hat, ist ein bestimmtes Produkt: ein Kramer VP-731, ein Videoscaler und Umschalter mit 9 Eingängen. Wir besitzen genau ein Gerät.
+
+Wir sind hier absichtlich genau. Unser Gerätekatalog bestätigt die Quellen, für die dieses Gerät eingerichtet ist: ein Laptop für Folien, ein zweiter Laptop für ein ergänzendes Video und ein DVD-Player für einen eingespielten Clip, gespeist von einem DVD-Recorder mit Festplatte LG-RH7500, der ebenfalls in unserem Bestand ist. In unserem eigenen Bestand gibt es keine Dokumentenkamera und keinen Visualizer, und wir werden aus dem, was wir besitzen, keinen Ersatz improvisieren. [Videoumschalter oder Kameraumschalter](#videoumschalter-oder-kameraumschalter-die-frage-auf-die-es-am-meisten-ankommt) weiter unten erklärt, wie wir mit einer solchen Anfrage umgehen.
+
+<InlineCTA />
+
+## Was 9 Eingänge in der Praxis bedeuten
+
+Die 9 physischen Eingänge des VP-731 sind eine echte technische Angabe, und wir werden nicht aufblasen, was die meisten Veranstaltungen damit tun. Eine Firmenveranstaltung braucht selten mehr als 2 oder 3 Präsentationsquellen auf einem Bildschirm, typischerweise einen Laptop für die Hauptpräsentation, einen zweiten Laptop für einen Videoeinspieler und gelegentlich einen DVD-Player für einen eingespielten Clip. Das ist der echte, ehrliche Anwendungsfall dieses Geräts, kein gleichzeitiger Betrieb mit 9 Quellen.
+
+Der Spielraum ist da, weil das Gerät ihn bietet, nicht weil wir erwarten, dass eine Buchung alle 9 Eingänge belegt. In der Praxis bedeutet dieser Spielraum ein sauberes Umschalten zwischen den 2 oder 3 Quellen, die Ihre Veranstaltung tatsächlich hat, ob der Präsentierende es direkt bedient oder unser Techniker es für Sie übernimmt, sodass der Bildschirm im Raum ohne sichtbaren Aussetzer oder Neustart von einer Quelle zur nächsten wechselt. Wenn Ihre Veranstaltung wirklich mehr als 3 Quellen zu bedienen hat, [kontaktieren Sie uns](/contact/) mit den Details, und wir bestätigen, ob das am Tag realistisch ist.
+
+## Videoumschalter oder Kameraumschalter: die Frage, auf die es am meisten ankommt
+
+Das ist das Wichtigste auf dieser Seite. Ein Videoumschalter im Präsentationssinn, wie MEG ihn anbietet, und ein Kameraumschalter oder Bildmischer für Livestreaming und Broadcast-Produktion sind zwei verschiedene Gerätekategorien für zwei verschiedene Aufgaben, und sie werden in allgemeinen Suchen nach dem englischen Begriff "video switcher" ständig verwechselt.
+
+Was unser Kramer VP-731 tut: Er nimmt Präsentationsquellen an (einen Laptop, einen zweiten Laptop, einen DVD-Player) und schaltet den Bildschirm im Raum sauber zwischen ihnen um, bedient vom Präsentierenden direkt oder von unserem Techniker, wenn Sie diese Leistung buchen.
+
+Was er nicht tut: Er nimmt keine Kameraeingänge an, er erzeugt kein Programmsignal für einen Livestream und er hat weder einen Vorschau- noch einen Aufnahmeausgang für den Broadcast-Einsatz. Kameras, Filmaufnahmen und Livestreaming gehören nicht zu unserem eigenen Bestand, und unser eigenes Team betreibt sie nicht. Eine Filmaufzeichnung, ein Livestream für Teilnehmende aus der Ferne oder ein Broadcast-Mix mit mehreren Kameras ist eine ganz andere Kategorie von Technik und Personal. Wenn Ihre Veranstaltung eines davon braucht, oder eine Dokumentenkamera, beschreiben Sie es uns. Wir können prüfen, ob ein Lieferant, mit dem wir arbeiten, es übernehmen könnte, und wenn keiner es kann, sagen wir es klar. Fragen Sie uns auch direkt, wenn Sie unsicher sind, welche Kategorie Ihre Veranstaltung braucht.
+
+## Videoumschalter oder einzelne Präsentationsquelle: was sich ändert
+
+Nicht jede Veranstaltung braucht das Umschalten von Quellen. Das ändert sich tatsächlich zwischen einer Präsentation mit einem einzelnen Laptop und einer Buchung, die den Videoumschalter ergänzt:
+
+| | Einzelne Präsentationsquelle | Videoumschalter ergänzt |
+| --- | --- | --- |
+| Quellen auf dem Bildschirm | Ein Laptop, direkt an den Beamer oder das Display angeschlossen | Ein Laptop, ein zweiter Laptop und ein DVD-Player, nach Bedarf umgeschaltet |
+| Quellenwechsel mitten in der Veranstaltung | Manuell: abziehen und neu anschließen, mit sichtbar schwarzem Bild oder einem Neustart | Der Präsentierende schaltet direkt zwischen den Quellen um, oder unser Techniker übernimmt das für Sie, ohne sichtbaren Aussetzer oder Neustart |
+| Wer es bedient | Der Präsentierende oder niemand | Der Präsentierende oder unser Techniker, wenn Sie diese Leistung buchen |
+| Realistischer Anwendungsfall | Ein einzelner Redner, eine Folienpräsentation, kein Videoeinspieler | Ein Konferenzprogramm mit mehr als einem Präsentierenden oder ein Videosegment innerhalb einer Live-Präsentation |
+| In einem Paket enthalten | Ja, in jedem Paket mit Bildschirm | Nein, eigener Posten mit Angebot auf Anfrage |
+
+Wenn Ihre Veranstaltung aus einem Redner mit einer Folienpräsentation besteht, ist eine einzelne Quelle tatsächlich einfacher, und für Sie ändert sich hier nichts. Wenn Ihr Programm zwischen zwei Laptops oder zwischen einer Folienpräsentation und einem eingespielten Videoclip wechselt, beseitigt der Umschalter das sichtbare Gefummel, ein Kabel live vor Ihrem Publikum neu anzuschließen.
+
+## Bei welchen Paketen er verfügbar ist, und Preise
+
+Keines unserer fünf Pakete, das [Eco Pack](/packages/eco/), das [Product Presentation Pack](/packages/product-presentation/), das [Basic MICE Pack](/packages/basic-mice/), das [Wedding Pack](/packages/wedding/) oder das [MICE Pack](/packages/mice/), enthält den Videoumschalter als Standardleistung. Er ergibt praktisch nur bei einer Buchung Sinn, die bereits einen Bildschirm und mehr als eine Präsentationsquelle hat, was in unserem Katalog die Firmenpakete bedeutet:
+
+-   **[MICE Pack](/packages/mice/)** mit seinem 60-Zoll-LED-Display und dem fest zugeordneten Live-Techniker, serienmäßig enthalten, ist das Paket, bei dem dieses Gerät am häufigsten angefragt wird, für ein Firmenprogramm mit mehr als einem Redner oder einem Videoeinspieler innerhalb einer Keynote. Dieser enthaltene Techniker bedient Ton und Mikrofone. Sagen Sie uns bei der Buchung, wenn er auch den Umschalter bedienen soll, andernfalls schaltet der Präsentierende direkt um.
+-   **[Basic MICE Pack](/packages/basic-mice/)** mit seiner 2x2-m-Leinwand kann den Videoumschalter ergänzen. Ohne die Option des technischen Live-Assistenten vor Ort schaltet der Präsentierende direkt zwischen den Quellen um. Ergänzen Sie diese Option, wenn Sie möchten, dass unser Techniker das für Sie übernimmt.
+
+Im [Eco Pack](/packages/eco/) ist kein Bildschirm enthalten, es ist für ein DJ- oder Party-Setup in Eigenregie gebaut, und auch das [Wedding Pack](/packages/wedding/) enthält keine Projektionsleinwand, daher passt der Videoumschalter zu keinem der beiden wirklich. Es gibt keinen veröffentlichten Einzelpreis für den Umschalter selbst. [Kontaktieren Sie uns](/contact/) mit Ihrem Paket, Ihrem Programm und der Anzahl der Präsentationsquellen, die Ihre Veranstaltung tatsächlich hat, und wir bestätigen Verfügbarkeit und ein Angebot, statt hier eines zu erfinden.
+
+## Echte Aufbauten, die wir geliefert haben
+
+Ein Blick auf einen echten Konferenzsaal-Aufbau in der Provinz Malaga:
+
+![Beamer- und Leinwandvermietung für eine Veranstaltung in der Provinz Malaga.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-1024x765.webp "Ein großer Beamer und eine Leinwand sind in einem Konferenzsaal in der Provinz Malaga aufgebaut, bereit für eine Präsentation oder eine audiovisuelle Darstellung.")
+
+Ein großer Beamer und eine Leinwand sind in einem Konferenzsaal in der Provinz Malaga aufgebaut, bereit für eine Präsentation oder eine audiovisuelle Darstellung.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('mice', ['/1268/', '/1273/'])} speed="normal" direction="left" />
+</div>
+
+Unsere Techniker haben außerdem bei einem zweitägigen Firmenprojekt für die Agentur Bmotion in Benahavis die Videoeingänge von einem fortschrittlichen Bedienpult aus kontinuierlich überwacht und so das Umschalten der Eingänge nahtlos und latenzfrei gehalten. Den ganzen Bericht lesen Sie in unserem Beitrag zum [technischen Support für Bmotion in Benahavis](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/).
+
+## Wie weit im Voraus buchen
+
+Buchen Sie so früh wie möglich, sobald Veranstaltungstermin, Ort und Programm feststehen. Die Nachfrage an der Costa del Sol erreicht ihren Höhepunkt in der Saison der Firmenkonferenzen und rund um große Kongresse, und unsere Techniker sind als Erstes ausgebucht, wenn Sie einen für die Bedienung des Umschalters möchten. Da der Videoumschalter ein einzelnes Gerät in unserem Bestand ist, gibt uns eine frühe Bestätigung außerdem Zeit zu prüfen, ob er an Ihrem Termin wirklich frei ist, egal ob der Präsentierende ihn bedient oder unser Techniker, zusätzlich zu dem Paket, das Sie bereits gebucht haben.
+
+## Fazit
+
+Videoumschalter mieten in Malaga heißt bei MEG im Besonderen: ein einziges echtes Produkt, ein Kramer VP-731 mit 9 Eingängen, bedient vom Präsentierenden direkt oder von unserem Techniker, wenn Sie diese Leistung buchen, bestätigt mit einem Laptop, einem zweiten Laptop und einem DVD-Player als echte Quellen, und ehrlich eingeordnet an einer typischen Buchung mit 2 bis 3 Quellen statt an einem Betrieb mit 9 Quellen. Er ist strikt ein Präsentationsumschalter für den Bildschirm Ihres Raums, kein Kameraumschalter, kein Bildmischer und kein Werkzeug für Streaming-Produktion, und er ist in keinem unserer 5 Pakete gebündelt. [Kontaktieren Sie uns](/contact/) mit Ihrem Veranstaltungsprogramm und der Anzahl der Präsentationsquellen, die Sie tatsächlich haben, und wir bestätigen Verfügbarkeit und ein Angebot. Mehr dazu, wie Sie dieses Gerät selbst bedienen oder unseren Techniker dafür während Ihrer Veranstaltung buchen, finden Sie in unserem Ratgeber zum [technischen Support für Veranstaltungen](/blog/technical-support-for-events/), und das gesamte Gerätespektrum, in das sich dieses Gerät einfügt, in unserem Ratgeber zur [AV-Vermietung in Malaga](/blog/audio-visual-rental/).
+
+## Häufige Fragen
+
+### Was ist ein Videoumschalter, und was umfasst die Miete des Videoumschalters von MEG?
+
+Ein Videoumschalter schaltet einen Bildschirm sauber zwischen mehr als einer Präsentationsquelle um, statt einen manuellen Kabelwechsel zu erzwingen. Die echte Version von MEG ist ein Kramer VP-731, ein Videoscaler und Umschalter mit 9 Eingängen, den der Präsentierende direkt bedienen oder an unseren Techniker abgeben kann, wenn Sie diese Leistung buchen. Siehe oben [Das echte Gerät in unserem Bestand](#das-echte-gerät-in-unserem-bestand-ein-kramer-vp-731-9-eingänge), um genau zu erfahren, was er ist und was nicht.
+
+### Ist das dasselbe wie ein Kameraumschalter oder ein Umschalter für Livestream-Produktion?
+
+Nein. Das ist die wichtigste Unterscheidung auf dieser Seite. Unser Kramer VP-731 schaltet Präsentationsquellen, einen Laptop, einen zweiten Laptop, einen DVD-Player, auf den Bildschirm Ihres Raums. Er nimmt keine Kameraeingänge an und ist nicht für Livestreaming oder Broadcast-Produktion gebaut. Kameras, Filmaufnahmen und Livestreaming gehören ebenfalls nicht zu unserem eigenen Bestand. Siehe oben [Videoumschalter oder Kameraumschalter](#videoumschalter-oder-kameraumschalter-die-frage-auf-die-es-am-meisten-ankommt).
+
+### Zwischen wie vielen Quellen kann er umschalten?
+
+Das Gerät hat 9 physische Eingänge, aber der ehrliche, typische Anwendungsfall bei unseren echten Buchungen sind 2 bis 3 Quellen, ein Laptop, ein zweiter Laptop und gelegentlich ein DVD-Player, nicht 9 gleichzeitig. Siehe oben [Was 9 Eingänge in der Praxis bedeuten](#was-9-eingänge-in-der-praxis-bedeuten).
+
+### Kann ich nur den Umschalter ohne Techniker mieten?
+
+Ja. Der Präsentierende kann den Umschalter direkt bedienen und selbst zwischen den Quellen wechseln. Wenn Sie möchten, dass unser Techniker das für Sie übernimmt, ergänzen Sie die Option des technischen Live-Assistenten vor Ort beim [Basic MICE Pack](/packages/basic-mice/). Beim [MICE Pack](/packages/mice/) bedient der enthaltene Techniker serienmäßig Ton und Mikrofone. Sagen Sie uns bei der Buchung, wenn er auch den Umschalter bedienen soll, andernfalls schaltet der Präsentierende direkt um. Da wir ausschließlich mit Lieferung arbeiten, bieten wir in beiden Fällen auch keine Selbstabholung an: Unser Team liefert, baut auf und testet das Gerät, bevor es geht, ob es am Tag der Präsentierende oder unser Techniker bedient.
+
+### Videoumschalter oder Kamera- bzw. Bildmischer für Livestreaming, was ist der eigentliche Unterschied?
+
+Ein Videoumschalter wie unserer schaltet zwischen Präsentationsquellen für den Bildschirm eines Raums um, von einem Laptop zu einem Laptop zu einem DVD-Player. Ein Kameraumschalter oder Bildmischer für Livestreaming nimmt mehrere Kamerasignale an und erzeugt einen Programmausgang für eine Übertragung oder einen Stream an Zuschauer in der Ferne, eine völlig andere Gerätekategorie mit einer anderen Signalkette. MEG hat den ersten im Bestand. Der zweite, und die Kameras, Filmaufnahmen und das Livestreaming, die dazugehören, gehören nicht zu unserem eigenen Bestand. Wenn Ihre Veranstaltung eine Filmaufzeichnung oder einen Stream für Teilnehmende aus der Ferne braucht, siehe oben [Videoumschalter oder Kameraumschalter](#videoumschalter-oder-kameraumschalter-die-frage-auf-die-es-am-meisten-ankommt).
+
+### Welche Pakete enthalten ihn, und was kostet er?
+
+Keines unserer fünf Pakete enthält ihn serienmäßig. Realistisch passt er zum [MICE Pack](/packages/mice/), das bereits Bildschirm und Techniker enthält, oder zum [Basic MICE Pack](/packages/basic-mice/), bei dem der Präsentierende ihn direkt bedienen kann oder Sie die Option des technischen Assistenten ergänzen können, wenn Sie möchten, dass unser Techniker ihn übernimmt. Es gibt keinen veröffentlichten Einzelpreis. [Kontaktieren Sie uns](/contact/) mit Ihrem Paket und Ihrem Programm, und wir bestätigen Verfügbarkeit und ein Angebot. Siehe oben [Bei welchen Paketen er verfügbar ist](#bei-welchen-paketen-er-verfügbar-ist-und-preise).
+
+### Zwischen welchen Quellen kann er tatsächlich umschalten?
+
+Bestätigte, echte Quellen: ein Laptop, ein zweiter Laptop und ein DVD-Player, gespeist von einem DVD-Recorder mit Festplatte LG-RH7500 aus unserem Bestand. In unserem eigenen Bestand gibt es keine Dokumentenkamera und keinen Visualizer, daher steht keines von beiden auf dieser Liste. Siehe oben [Videoumschalter oder Kameraumschalter](#videoumschalter-oder-kameraumschalter-die-frage-auf-die-es-am-meisten-ankommt), wenn Ihre Veranstaltung eines davon braucht.
+
+### Vermieten Sie den DVD-Recorder oder andere Aufnahmetechnik getrennt vom Umschalter?
+
+Nein. Der DVD-Recorder mit Festplatte LG-RH7500 ist eine der drei bestätigten Quellen des Umschalters, kein eigenständiger Mietartikel, und er hat keinen Kameraeingang. Wenn Sie Aufnahmetechnik zur Miete suchen, also Kameras, Objektive oder Produktionstechnik, um Ihre Veranstaltung zu filmen, ist nichts davon in unserem eigenen Bestand: Was wir besitzen, ist Audio-, Bildschirm- und Lichttechnik für Veranstaltungen. Siehe oben [Videoumschalter oder Kameraumschalter](#videoumschalter-oder-kameraumschalter-die-frage-auf-die-es-am-meisten-ankommt), wie wir mit dieser Anfrage umgehen.
+
+### Brauche ich das für eine kleine Veranstaltung oder nur für größere Firmenbuchungen?
+
+Nur wenn Ihre Veranstaltung mehr als eine Präsentationsquelle auf demselben Bildschirm hat. Ein einzelner Redner mit einer Folienpräsentation braucht ihn nicht, ein einzelner Laptop-Anschluss ist tatsächlich einfacher. Relevant wird er bei einem Konferenzprogramm mit mehr als einem Präsentierenden oder einer Keynote mit Videoeinspieler, weshalb er fast ausschließlich bei unseren Firmenbuchungen im MICE-Bereich vorkommt und nicht bei privaten Feiern.
+
+### Wie schneidet das im Vergleich dazu ab, einfach einen Laptop für meine Präsentation zu nutzen?
+
+Ein einzelner Laptop ist einfacher und braucht nichts Zusätzliches, und er ist die richtige Wahl, wenn Ihre Veranstaltung wirklich einen Präsentierenden und eine Folienpräsentation hat. Der Unterschied zeigt sich in dem Moment, in dem eine zweite Quelle dazukommt, der Laptop eines zweiten Redners oder ein eingespielter Videoclip. Ohne den Umschalter bedeutet dieser Quellenwechsel, live ein Kabel abzuziehen und neu anzuschließen, mit sichtbar schwarzem Bild oder einem Neustart. Mit ihm schaltet der Präsentierende direkt zwischen den Quellen um, oder unser Techniker übernimmt das für Sie, wenn Sie diese Leistung buchen, ohne sichtbare Unterbrechung. Siehe oben [Videoumschalter oder einzelne Präsentationsquelle](#videoumschalter-oder-einzelne-präsentationsquelle-was-sich-ändert) für den vollständigen Vergleich.
+
+### Kann ich meine eigenen Geräte zum Umschalten mitbringen?
+
+Ja, im Rahmen der bestätigten Quellentypen: Ein Laptop oder ein zweiter Laptop wird genauso angeschlossen wie jeder Präsentationslaptop bei unseren Paketen, über die HDMI- und USB-C-Adapter, die wir ohnehin bereitstellen. Sagen Sie uns bei der Buchung, welche Geräte Ihre Veranstaltung tatsächlich nutzt, damit unser Techniker Kompatibilität und Anschluss vorab bestätigen kann, statt live Fehler zu beheben.
+
+### Wie weit im Voraus sollte ich das buchen?
+
+Buchen Sie so früh wie möglich, sobald Veranstaltungstermin, Ort und Programm feststehen. Siehe oben [Wie weit im Voraus buchen](#wie-weit-im-voraus-buchen). Da es ein einzelnes Gerät in unserem Bestand ist, ist eine frühe Bestätigung hier wichtiger als bei Technik, die wir in größerer Stückzahl haben, besonders wenn Sie möchten, dass unser Techniker es bedient statt des Präsentierenden.

@@ -81,6 +81,11 @@ export default {
 			keyword: 'leie av scenemonitor i Malaga',
 			status: 'propuesta'
 		},
+		'video-switcher-rental': {
+			slug: 'leie-videoswitcher',
+			keyword: 'leie videoswitcher i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'av-utleie-i-malaga',
 			keyword: 'AV-utleie i Malaga',

@@ -73,6 +73,11 @@ export default {
 			keyword: 'hyra scenmonitor i Malaga',
 			status: 'propuesta'
 		},
+		'video-switcher-rental': {
+			slug: 'hyra-videoswitch',
+			keyword: 'hyra videoswitch i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'av-uthyrning-malaga',
 			keyword: 'AV-uthyrning Malaga',

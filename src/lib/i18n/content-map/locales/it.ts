@@ -73,6 +73,11 @@ export default {
 			keyword: 'noleggio monitor da palco a Malaga',
 			status: 'propuesta'
 		},
+		'video-switcher-rental': {
+			slug: 'noleggio-switcher-video-malaga',
+			keyword: 'noleggio switcher video a Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'noleggio-audiovisivo',
 			keyword: 'noleggio audiovisivo a Malaga',

@@ -77,6 +77,11 @@ export default {
 			keyword: 'Bühnenmonitor mieten in Malaga',
 			status: 'propuesta'
 		},
+		'video-switcher-rental': {
+			slug: 'videoumschalter-mieten-malaga',
+			keyword: 'Videoumschalter mieten in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'av-vermietung-malaga',
 			keyword: 'AV-Vermietung Malaga',

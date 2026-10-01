@@ -77,6 +77,11 @@ export default {
 			keyword: 'location de retours de scène à Malaga',
 			status: 'propuesta'
 		},
+		'video-switcher-rental': {
+			slug: 'location-commutateur-video-malaga',
+			keyword: 'location de commutateur vidéo à Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'location-audiovisuelle-evenements-malaga',
 			keyword: 'location audiovisuelle pour événements à Malaga',

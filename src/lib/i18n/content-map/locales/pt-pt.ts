@@ -109,6 +109,11 @@ export default {
 			keyword: 'aluguer de monitores de palco em Málaga',
 			status: 'propuesta'
 		},
+		'video-switcher-rental': {
+			slug: 'aluguer-de-comutador-de-video',
+			keyword: 'aluguer de comutador de vídeo em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'aluguer-de-audiovisuais-para-eventos',
 			keyword: 'aluguer de audiovisuais para eventos em Málaga',
