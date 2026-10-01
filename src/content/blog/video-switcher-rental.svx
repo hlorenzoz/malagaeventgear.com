@@ -4,7 +4,7 @@ description: "Video switcher rental in Malaga, Spain: the real Kramer VP-731, ru
 author: Hector Luis Lorenzo
 slug: video-switcher-rental
 publishDate: "2026-08-01"
-updatedDate: "2026-09-26"
+updatedDate: "2026-10-01"
 excerpt: "The real video switcher in our AV catalog: one Kramer VP-731, 9 inputs, presentation source switching the presenter can run or hand to our technician, and an explicit line between that and camera or live streaming production."
 coverImage: https://cdn.malagaeventgear.com/blog/1288/malaga_congress_av_rental_setup-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
@@ -45,6 +45,7 @@ Malaga Event Gear owns this device ourselves and deploys it across Malaga, Spain
     -   [Video switcher vs camera or vision mixer for live streaming, what is the real difference?](#video-switcher-vs-camera-or-vision-mixer-for-live-streaming-what-is-the-real-difference)
     -   [Which packages include this, and how much does it cost?](#which-packages-include-this-and-how-much-does-it-cost)
     -   [What sources can it actually switch between?](#what-sources-can-it-actually-switch-between)
+    -   [Do you rent the DVD recorder, or other recording equipment, separately from the switcher?](#do-you-rent-the-dvd-recorder-or-other-recording-equipment-separately-from-the-switcher)
     -   [Do I need this for a small event, or only for larger corporate bookings?](#do-i-need-this-for-a-small-event-or-only-for-larger-corporate-bookings)
     -   [How does this compare to just using one laptop for my presentation?](#how-does-this-compare-to-just-using-one-laptop-for-my-presentation)
     -   [Can I bring my own devices to switch between?](#can-i-bring-my-own-devices-to-switch-between)
@@ -72,7 +73,7 @@ The single most important thing to understand about this device: it is a present
 
 A video switcher, as a general term, covers everything from a small HDMI matrix box to a full broadcast vision mixer with camera inputs and a preview bus. What MEG actually stocks under that name is one specific product: a Kramer VP-731, a 9 input video scaler and switcher. We own exactly one unit.
 
-We are being precise here on purpose. Our equipment catalog confirms the sources this unit has actually been used with on real bookings: a laptop for slides, a second laptop for a supporting video, and a DVD player for a screened clip, drawn from an LG-RH7500 DVD recorder and hard disk unit also in our inventory. There is no document camera or visualizer in our own inventory, and we will not improvise a substitute from what we do own. [Video Switcher vs Camera Switcher](#video-switcher-vs-camera-switcher-the-question-that-matters-most) below covers how we handle a request for one.
+We are being precise here on purpose. Our equipment catalog confirms the sources this unit is set up for: a laptop for slides, a second laptop for a supporting video, and a DVD player for a screened clip, drawn from an LG-RH7500 DVD recorder and hard disk unit also in our inventory. There is no document camera or visualizer in our own inventory, and we will not improvise a substitute from what we do own. [Video Switcher vs Camera Switcher](#video-switcher-vs-camera-switcher-the-question-that-matters-most) below covers how we handle a request for one.
 
 <InlineCTA />
 
@@ -115,17 +116,17 @@ The [Eco Pack](/packages/eco/) has no screen included and is built for a self ru
 
 ## Real Setups We've Delivered
 
-Real event technology our crew has managed on presentation heavy corporate bookings in Malaga:
+A look at a real conference hall setup in the province of Malaga:
 
-![Multiple projection screens running simultaneously at a large conference hall in the province of Malaga.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-1024x765.webp)
+![Projector and screen rental for an event in the province of Malaga.](https://cdn.malagaeventgear.com/blog/1273/malaga_event_projector_screen_rental-1024x765.webp)
 
-A large conference hall in the province of Malaga with more than one screen live at once. Venues with more than one screen or presentation source are exactly where clean source switching prevents an awkward on screen fumble.
+A large projector and screen set up in a conference hall in the province of Malaga, ready for a presentation or audiovisual display.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('mice', ['/1268/', '/1273/'])} speed="normal" direction="left" />
 </div>
 
-Our crew also managed continuous video input switching across a two day corporate project for the agency Bmotion in Benahavis, keeping the transition between sources latency free from the first opening remark through the closing session on day two. Read the full account in our [technical support for Bmotion in Benahavis](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/) update.
+Our technicians also monitored the video inputs continuously from an advanced control panel across a two day corporate project for the agency Bmotion in Benahavis, keeping input switching seamless and latency free. Read the full account in our [technical support for Bmotion in Benahavis](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/) update.
 
 ## How Far in Advance to Book
 
