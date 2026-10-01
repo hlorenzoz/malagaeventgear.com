@@ -126,6 +126,11 @@ post-translations-status *args:
 post-translate-map slug *args:
     bun scripts/translate/add-content-map.ts {{slug}} {{args}}
 
+# El id (rehype-slug) que recibe cada encabezado, para los anclajes internos de una traduccion: just post-heading-id "Titulo uno" "Titulo dos"
+[positional-arguments]
+post-heading-id *args:
+    @bun scripts/translate/heading-id.ts "$@"
+
 # Migración WP → mdsvex en modo DRY-RUN (solo lectura — no escribe archivos ni sube a R2)
 migrate-wp-dry-run:
     bun scripts/migrate-wp/index.ts --dry-run
@@ -251,6 +256,70 @@ todo-add *args:
 [positional-arguments]
 todo-set *args:
     @bun scripts/todo/todo.ts set "$@"
+
+# ─── Agentes de implementación (todo-implementer) ─────────────────────────────
+# Ver CLAUDE.md, "Agentes de implementación (todo-implementer)". Solo bajo demanda, nunca programado.
+
+# La próxima tarea implementable de TODO.json (pendiente, contenido, sección H2/H3 o pregunta FAQ de un plan). JSON.
+# `--task #T0036` elige una, `--max N` lista N. Los `Post nuevo` y las tareas escritas a mano salen en `skipped`. No escribe nada.
+[positional-arguments]
+todo-next *args:
+    @bun scripts/todo/next-task.ts "$@"
+
+# Implementa por prioridad las tareas abiertas de TODO.json, de punta a punta: edita el post ingles, lo commitea, traduce a los 12 idiomas,
+# lo verifica con un agente independiente y commitea LOCAL. Nunca hace push ni commitea TODO.json. Solo bajo demanda.
+#   just todo-implement                      la proxima tarea (una)
+#   just todo-implement --task '#T0036'      una tarea concreta
+#   just todo-implement --max 2              hasta 2 tareas, una tras otra
+#   just todo-implement --dry-run [...]      NO llama a Claude: corre `just todo-next` e imprime el comando
+# Tope de gasto: 30 USD por tarea (`--max N` lo multiplica), o el valor de TODO_IMPLEMENT_BUDGET.
+# Mismo aislamiento que content-plan: --setting-sources "" (ningun settings), --strict-mcp-config con config MCP VACIA,
+# --permission-mode default y --disallowedTools. Los 4 agentes (orquestador, escritor, traductor, verificador) entran juntos por
+# --agents desde sus .md (scripts/keywords/agent-json.ts), y el orquestador delega con la herramienta Agent. Los permisos son de TODA la
+# sesion: Write y Edit solo en el blog, sus datos generados, el content map y el changelog, y Bash solo para los comandos listados.
+[positional-arguments]
+todo-implement *args:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    dry=0; max=1; prev=""; rest=()
+    for a in "$@"; do
+        if [[ "$a" == "--dry-run" ]]; then dry=1; continue; fi
+        if [[ "$prev" == "--max" ]]; then max="$a"; fi
+        rest+=("$a"); prev="$a"
+    done
+    [[ "$max" =~ ^[0-9]+$ && "$max" -ge 1 ]] || { echo "--max necesita un entero de 1 o mas" >&2; exit 2; }
+    DENIED="Bash(git push:*),Bash(git reset:*),Bash(git checkout:*),Bash(git stash:*),Bash(git restore:*),Bash(git rebase:*),Bash(git clean:*),Bash(git commit --amend:*),Bash(rm:*)"
+    ALLOWED_TOOLS="Read,Glob,Grep,Agent,Write(src/content/blog/**),Edit(src/content/blog/**),Write(src/lib/data/post-faqs.json),Edit(src/lib/data/post-faqs.json),Write(src/lib/data/post-toc.json),Edit(src/lib/data/post-toc.json),Write(src/lib/i18n/content-map/**),Edit(src/lib/i18n/content-map/**),Write(.agents/CHANGELOG.md),Edit(.agents/CHANGELOG.md),Bash(date:*),Bash(rg:*),Bash(git status:*),Bash(git diff:*),Bash(git log:*),Bash(git show:*),Bash(git add:*),Bash(git commit:*),Bash(just todo-next:*),Bash(just todo-list:*),Bash(just todo-set:*),Bash(just todo-organize:*),Bash(just content-inventory:*),Bash(just post-sync:*),Bash(just post-heading-id:*),Bash(just post-translate-brief:*),Bash(just post-translate-check:*),Bash(just post-translate-map:*),Bash(just post-translate-finish:*),Bash(just post-translations-status:*),Bash(just keywords-sync),Bash(just todo-implement-commit:*),Bash(bunx vitest run:*)"
+    BUDGET="${TODO_IMPLEMENT_BUDGET:-$((30 * max))}"
+    AGENTS_CMD="bun scripts/keywords/agent-json.ts todo-implementer post-writer post-translator post-verifier"
+    PROMPT="Implement the open content tasks of TODO.json by priority, following your procedure. Arguments: ${rest[*]:-none}"
+    cmd=(claude -p --agents "$($AGENTS_CMD)" --agent todo-implementer --model sonnet --setting-sources "" --mcp-config '{"mcpServers":{}}' --strict-mcp-config --permission-mode default --disallowedTools "$DENIED" --allowedTools "$ALLOWED_TOOLS" --max-budget-usd "$BUDGET" --output-format json "$PROMPT")
+    if [[ "$dry" == 1 ]]; then
+        echo "== just todo-next ${rest[*]:-}"
+        just todo-next ${rest[@]+"${rest[@]}"}
+        echo "== command that would run (dry run, Claude is NOT called)"
+        prev=""
+        for el in "${cmd[@]}"; do
+            if [[ "$prev" == "--agents" ]]; then printf '%s ' "\"\$($AGENTS_CMD)\""; else printf '%q ' "$el"; fi
+            prev="$el"
+        done
+        echo
+        exit 0
+    fi
+    exec "${cmd[@]}"
+
+# Commitea SOLO .agents/data/keywords.json tras implementar una tarea, después de correr los tests de keywords. Mismo --no-verify
+# y misma razón que content-plan-commit. NUNCA .agents/data/TODO.json. Uso: just todo-implement-commit '#T0036' <slug>
+todo-implement-commit task slug:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    [[ "{{ task }}" =~ ^#T[0-9]{4}$ ]] || { echo "tarea inválida: {{ task }}" >&2; exit 1; }
+    [[ "{{ slug }}" =~ ^[a-z0-9]+(-[a-z0-9]+)*$ ]] || { echo "slug inválido: {{ slug }}" >&2; exit 1; }
+    bunx vitest run scripts/keywords
+    git diff --quiet -- .agents/data/keywords.json && { echo "keywords.json sin cambios, nada que commitear"; exit 0; }
+    git add -- .agents/data/keywords.json
+    git commit --no-verify -m "chore(keywords): sync after {{ task }} {{ slug }}" -- .agents/data/keywords.json
+    git log -1 --format='%h %s'
 
 # Commitea SOLO .agents/data/keywords.json y el plan del día, después de correr los tests de keywords. NUNCA .agents/data/TODO.json: lleva cambios sin
 # commitear de otra sesión. Mismo --no-verify y misma razón que keywords-commit.

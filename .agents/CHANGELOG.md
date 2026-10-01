@@ -7,6 +7,14 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Added (agents): `todo-implementer`, implementacion bajo demanda de las tareas de contenido de TODO.json
+- **Decision del usuario (2026-10-01)**: las tareas abiertas de `.agents/data/TODO.json` se implementan por prioridad, de punta a punta, SOLO bajo demanda (`just todo-implement`). La cadena diaria (`keywords-daily`) no cambia.
+- `just todo-next [--task #Tnnnn] [--max N]` (`scripts/todo/next-task.ts`, 21 tests, strict TDD): elige la proxima tarea `pendiente` de tipo `contenido` con titulo generado por el content-strategist (seccion H2/H3 o pregunta FAQ), resuelve su item del plan y devuelve `{ next, queue, skipped }`. Los `Post nuevo` (necesitan portada en R2) y las tareas escritas a mano salen en `skipped`. No escribe nada.
+- Cuatro agentes en `.claude/agents/`: `todo-implementer` (orquestador, delega con la herramienta Agent, uno a la vez), `post-writer` (edita el post ingles), `post-translator` (los 12 idiomas, modo UPDATE o NEW) y `post-verifier` (solo lectura, sin Write ni Edit). `agent-json.ts` acepta varios nombres y emite un solo JSON para `--agents` (compatible con el uso de un nombre).
+- `just todo-implement [--task] [--max N] [--dry-run]`: corrida headless con el aislamiento de `content-plan` (`--setting-sources ""`, MCP vacio, `--permission-mode default`, `--disallowedTools`), Write y Edit solo en el blog, sus datos generados, el content map y el changelog. Tope 30 USD por tarea (`TODO_IMPLEMENT_BUDGET`). `--dry-run` no llama a Claude. Nunca hace push ni commitea TODO.json. `just todo-implement-commit` commitea solo `keywords.json`. `just post-heading-id` da el id de un encabezado para los anclajes de las traducciones.
+- Corregido (`applyTranslationGate`): `todo-organize` reabria cualquier tarea `bloqueada` del content-strategist al terminar las traducciones. Ahora solo reabre las que bloqueo la puerta (nota `bloqueada hasta terminar las traducciones...`), asi una tarea bloqueada por el agente o por el usuario sigue bloqueada. Test nuevo.
+- `CLAUDE.md`: seccion "Agentes de implementacion", bloque "Instrucciones para agentes globales (overrides del proyecto)" y correccion de los textos que decian que ningun post estaba traducido (los 77 posts estan traducidos a los 12 idiomas, 924 archivos).
+
 ### Fixed (agents): `daily-guard.ts` ya no frena las etapas siguientes cuando una falla
 - **Decision del usuario (2026-10-01)**: un fallo de la investigacion de Ubersuggest (error, tope de presupuesto, cuota agotada) no tiene por que parar el resto de la cadena.
 - Antes, si la investigacion o las FAQs quedaban sin hacer, el plan se difería hasta el tercer intento, y `todo-organize` solo corria si el agente del plan llegaba a invocarlo (`content-plan-apply`). Ahora las etapas son independientes y cada pendiente se reintenta en el siguiente disparo.

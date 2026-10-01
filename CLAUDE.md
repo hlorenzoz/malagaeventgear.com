@@ -57,20 +57,20 @@ explícita y fechada del usuario, como cualquier otro idioma.
 El portugués de Portugal y el de Brasil tienen **contenido propio cada uno**, no una copia con
 otra etiqueta. Las tres variantes de chino cubren a cualquier lector chino, venga de donde venga.
 
-**Estado (2026-09-24): páginas principales y paquetes publicados en los 13 idiomas. El blog
-sigue solo en inglés: el mecanismo de posts traducidos está listo (ver "Posts traducidos" en
-"Blog Content Authoring"), pero todavía no hay ningún post traducido.** Un idioma se publica recién cuando TODO su contenido está
+**Estado (2026-10-01): páginas principales, paquetes y blog publicados en los 13 idiomas. Los 77
+posts publicados están traducidos a los 12 idiomas (924 archivos), con el mecanismo de posts
+traducidos en producción (ver "Posts traducidos" en "Blog Content Authoring").** Un idioma se publica recién cuando TODO su contenido está
 traducido: la lista de idiomas publicados es `PAGE_LOCALES` en `src/lib/i18n/availability.ts`
-(hoy los 13). En una página traducida el menú lleva a "Blog (in English)" y ningún listado muestra
+(hoy los 13). Si un idioma no tiene posts publicados, el menú lleva a "Blog (in English)" y ningún listado muestra
 títulos de posts en inglés (`i18n.postsPublished`). La implementación va por fases:
 
 | Fase | Qué | Estado |
 | :--- | :--- | :--- |
 | 0 | Documentación (este archivo) | hecha |
-| 1 | Mapa de contenido (keyword, URL) por idioma | hecha para páginas, paquetes y categorías. Los posts se mapean en cada lote de la Fase 4 |
+| 1 | Mapa de contenido (keyword, URL) por idioma | hecha para páginas, paquetes, categorías y posts (los posts se mapearon en la Fase 4) |
 | 2 | Infraestructura de URLs por idioma, hreflang y sitemaps | hecha |
 | 3 | Páginas principales y paquetes en los 13 idiomas | hecha (2026-09-24): 17 páginas y 5 paquetes por idioma, 18 HTML prerenderizados por idioma |
-| 4 | Posts del blog, por lotes de silo | en curso: mecanismo listo (posts traducidos, palabras estructurales por idioma, sitemaps por idioma, guards). Ningún post traducido todavía |
+| 4 | Posts del blog, por lotes de silo | hecha (2026-10-01): los 77 posts en los 12 idiomas (924 archivos), con palabras estructurales por idioma, sitemaps por idioma y guards. Sigue la etapa de corrección con revisión nativa por muestreo |
 
 Todo lo marcado **"(pendiente, Fase N)"** en este archivo describe el objetivo, no lo que existe.
 Al cerrar cada fase se actualiza este archivo con rutas y conteos reales. Una fase no se da por
@@ -469,6 +469,32 @@ Dos hechos de esta copia que contradicen prácticas comunes, no los repitas de m
    ayuda ni perjudica. El `/llms.txt` del sitio se mantiene por decisión del usuario (2026-09-28),
    para otros sistemas, no como señal para Google.
 
+### Instrucciones para agentes globales (overrides del proyecto)
+
+Los agentes globales (`seo-auditor`, `seo-fixer`, `local-content-writer`, `content-gap-analyst`,
+`reverse-silo-architect`, `gbp-site-architect`) y los comandos `/seo:*` y `/local-seo:*` siguen
+estas reglas POR ENCIMA de su propio texto, que es genérico para todo cliente:
+
+1. **Reverse silo, regla 3**: el target tiene exactamente UN enlace hacia el silo, al ÚLTIMO
+   supporting post de la cadena. Eso NO es un defecto CRITICAL: la regla antigua "el target nunca
+   enlaza hacia afuera" queda reemplazada (ver "Reverse Silo del Blog"). Es un defecto que el target
+   tenga dos o más enlaces a supporting posts, o uno a un post que no es el último.
+2. **SERP a analizar**: la inglesa localizada a España (`hl=en`, `gl=es`), nunca google.es en
+   español.
+3. **Nunca escribir copy en español**: el español NO es un idioma del sitio (MEG solo ATIENDE en
+   español). Todo contenido va en inglés y en los 12 idiomas de [Idiomas soportados](#idiomas-soportados).
+4. **`FAQPage` es INFO, no un defecto** (decisión pendiente del usuario, 2026-09-28), y `llms.txt` no
+   es una señal de Google.
+5. **Documentación de Google**: la copia del proyecto, `.agents/context/seo/`, nunca la global.
+6. **Regla 12, excepciones**: la puntuación china de ancho completo, y los guiones de palabras
+   compuestas del neerlandés y del alemán (`LED-verlichting`, `LED-Beleuchtung`). Los nombres de
+   marca o modelo con guion también.
+7. **Archivos y recetas**: el post inglés es `src/content/blog/<slug>.svx`, sus traducciones
+   `src/content/blog/<locale>/<slug>.svx`, y `post-faqs.json` y `post-toc.json` se regeneran, nunca se
+   editan a mano. Tras editar un post inglés: `just post-sync <slug>`, `just post-translate-check <slug>`,
+   `just post-translations-status`. Para ver el inventario: `just content-inventory`.
+8. **Todo post nuevo o modificado sale en los 13 idiomas en el mismo cambio.**
+
 ### Cuándo NO usar estos agentes
 
 | Necesidad | Usar en su lugar |
@@ -485,7 +511,7 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
 
 - **Build**: `bun run build` (= `wrangler types` + `bun scripts/fix-types.ts` + `vite build`).
   El HTML prerenderizado aterriza en **`.svelte-kit/cloudflare/`** (321 archivos `.html` en el build
-  revisado el 2026-09-24 con las páginas en los 13 idiomas, unos 1.300 cuando también estén los posts).
+  revisado el 2026-09-24 con las páginas en los 13 idiomas, antes de los posts traducidos, que suman 924 páginas más desde el 2026-10-01).
   Preview de producción: `bun run preview` (puerto 4173). Dev: puerto 5173. NO es `out/` ni
   `dist/`, y NO se asume `bun run build` sin los pasos de `wrangler types` / `fix-types.ts`.
 - **Reglas del stack que no se ven en el código de una página** (verificadas el 2026-09-24):
@@ -512,7 +538,7 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
   | Qué | Dónde |
   | :--- | :--- |
   | Canonical | Por página en `+page.svelte` vía `SeoHead canonicalUrl`, siempre con trailing slash. Paquetes y blog lo derivan de `siteConfig.url` |
-  | Hreflang | Solo en el `<head>`, vía `SeoHead` desde `page.data.alternates` (resuelto en `(public)/+layout.server.ts`). Recíproco, autorreferente, `x-default` al inglés. Los sitemaps NO llevan `xhtml:link`. Solo se emite hacia los idiomas donde esa página está publicada (hoy los 13 para páginas y paquetes, solo el inglés para el blog). Ver [Internacionalización (i18n)](#internacionalización-i18n) |
+  | Hreflang | Solo en el `<head>`, vía `SeoHead` desde `page.data.alternates` (resuelto en `(public)/+layout.server.ts`). Recíproco, autorreferente, `x-default` al inglés. Los sitemaps NO llevan `xhtml:link`. Solo se emite hacia los idiomas donde esa página está publicada (hoy los 13 para páginas y paquetes, y para cada post los idiomas donde está traducido: hoy los 12 en los 77 posts). Ver [Internacionalización (i18n)](#internacionalización-i18n) |
   | Registro de rutas | No hay uno central: `STATIC_SITEMAP_PAGES` en `src/lib/utils/sitemap.ts` + `packages[].route` + glob de `src/content/blog/*.svx` |
   | Datos estructurados (JSON-LD) | `src/lib/utils/schema.ts` (constructores). Docs: `docs/structured-data.md`, `.agents/STRUCTURED_DATA.md` |
   | Metadatos de página | `src/lib/components/seo/SeoHead.svelte` |
@@ -899,7 +925,7 @@ son solo para traducir los posts que ya existían antes de la Fase 4.
 
 ### Posts traducidos (Fase 4)
 
-El mecanismo está en producción, pero todavía no hay ningún post traducido. Cómo funciona:
+El mecanismo está en producción y los 77 posts publicados están traducidos a los 12 idiomas (924 archivos, 2026-10-01). Cómo funciona:
 
 - **Ubicación**: `src/content/blog/<locale>/<slug-en>.svx`. El nombre del archivo es el slug
   INGLÉS, la identidad del post en todos los idiomas. El slug y la keyword del idioma viven solo en
@@ -1075,12 +1101,12 @@ edición, en su idioma, y su `sourceUpdated` pasa a la nueva `updatedDate` ingle
 traducciones, la edición inglesa entra antes de su turno de traducción, así se traduce una sola vez
 con el contenido ya actualizado.
 
-**Etapa inicial de traducción (decisión del usuario, 2026-09-29)**: hasta que TODOS los posts
-publicados estén traducidos a los 12 idiomas, no se crea contenido nuevo ni se actualiza el que
-existe. Primero se termina de traducir. La regla del párrafo anterior (actualizar antes de traducir)
-se aplica recién después de esa etapa. El content-strategist sigue planificando, pero sus tareas
-quedan `bloqueada` en `.agents/data/TODO.json` y se destraban solas al terminar (ver "`TODO.json`: formato de
-tareas"). El 2026-09-29 faltaban 240 traducciones: 20 posts de 77.
+**Etapa inicial de traducción (decisión del usuario, 2026-09-29), terminada el 2026-10-01** (los 77
+posts están traducidos, ver "Estado" en "Idiomas soportados"): mientras faltó alguna traducción no
+se creó ni se actualizó contenido. Desde ahora rige la regla del párrafo anterior (actualizar el
+inglés y sus 12 traducciones en el mismo cambio). Las tareas del content-strategist se destraban
+solas (ver "`TODO.json`: formato de tareas") y las implementa `todo-implementer` (ver "Agentes de
+implementación").
 
 ### Publicación: solo por push (sin cron)
 
@@ -1533,7 +1559,7 @@ cadena y sus piezas deterministas (todas en `scripts/keywords/`, strict TDD):
   clúster, H2/H3 en orden y preguntas de FAQ, para el chequeo de canibalización.
 - **Cupo de posts nuevos (decisión del usuario, 2026-09-29)**: mientras algún post inglés
   publicado no tenga su traducción en alguno de los 12 idiomas, 1 post nuevo por día (el 2026-09-29
-  faltaban 240 traducciones: 20 posts de 77). Con todo traducido, el máximo alterna 1 y 2 por día
+  faltaban 240 traducciones: 20 posts de 77, desde el 2026-10-01 no falta ninguna). Con todo traducido, el máximo alterna 1 y 2 por día
   (paridad del número de día, así no se corta a fin de mes). Es un techo, no una meta. Cada post
   nuevo sale con sus 12 traducciones en el mismo cambio. Lo impone el código:
   `plan-to-todo.ts --check` (dentro de `just content-plan-apply`) rechaza un plan que lo supere, y
@@ -1700,3 +1726,43 @@ algo, agrega también su propio schema de `stats` ahí, nunca reutiliza el de ot
 Antes de crear o actualizar contenido de un cluster, se consulta `.agents/data/keywords.json` (por `cluster` o
 por `id`) y se actualiza su estado (`covered`/`published`, nunca a mano: correr `just
 keywords-sync` después de publicar) en el mismo cambio.
+
+---
+
+## Agentes de implementación (todo-implementer)
+
+Implementan por prioridad las tareas abiertas de `.agents/data/TODO.json`, de punta a punta: editar el
+post inglés, regenerar las cachés, traducir a los 12 idiomas, verificar con un agente independiente y
+commitear LOCAL. **Solo bajo demanda** (decisión del usuario, 2026-10-01): nada programado los
+dispara y la cadena diaria (`keywords-daily`) no cambia.
+
+| Receta o archivo | Qué hace |
+| :--- | :--- |
+| `just todo-next [--task '#T0036'] [--max N]` | JSON `{ next, queue, skipped }`, solo lee (`scripts/todo/next-task.ts`). Implementable: `pendiente`, `contenido`, título generado por el content-strategist y plan resuelto desde el Origen. Orden: prioridad, `anotada` más vieja, id |
+| `just todo-implement [--task] [--max N] [--dry-run]` | Corrida headless (`claude -p`) con el aislamiento de `content-plan`. `--dry-run` no llama a Claude. Tope 30 USD por tarea (`TODO_IMPLEMENT_BUDGET`) |
+| `todo-implementer`, `post-writer`, `post-translator`, `post-verifier` (`.claude/agents/`) | Orquestador (delega con la herramienta Agent, un agente a la vez), editor del inglés, traductor de los 12 idiomas (solo, nunca en paralelo) y verificador independiente (sin Write ni Edit) |
+| `just post-sync`, `post-translate-brief`, `post-translate-check`, `post-translate-map`, `post-translate-finish`, `post-translations-status`, `post-heading-id` | Las piezas deterministas (`scripts/translate/`) |
+| `just todo-implement-commit '#Txxxx' <slug>` | Commitea SOLO `.agents/data/keywords.json`, con `--no-verify` por el mismo motivo que `content-plan-commit` |
+
+Flujo por tarea: preflight (nada en el índice, nada modificado en `src/` ni `scripts/`,
+`post-translations-status` completo) -> `todo-set --estado "en curso"` -> triage (si ya está cubierta,
+canibaliza o pide un hecho sin respaldo: `bloqueada` con la nota `bloqueada por todo-implementer
+<fecha>: <motivo>`) -> post-writer (inglés, `post-sync`, entrada de `.agents/CHANGELOG.md`) -> commit
+`feat(blog): <slug> ...` -> post-translator (modo UPDATE) -> post-verifier (hasta 2 vueltas de
+reparación) -> `post-translate-finish` (checks, tests, build, commit local de las traducciones) ->
+`keywords-sync`, `todo-organize`, tarea `hecha` -> commit de `keywords.json`.
+
+- **Alcance v1**: solo `add-section` (H2/H3) y `add-faq`. Un `Post nuevo` necesita imagen de portada
+  en R2 y enlaces de silo, y sale en `skipped`. Las tareas escritas a mano tampoco se toman.
+- **Nunca** hace push (denegado por las flags de la receta), nunca commitea
+  `.agents/data/TODO.json` y no agrega `Co-Authored-By`. Si una corrida se corta tras el commit del
+  inglés, las traducciones quedan desactualizadas: `just post-translations-status` lo muestra y se
+  retoma a mano. `todo-organize` solo reabre las tareas que bloqueó la puerta de traducciones: una
+  tarea bloqueada por el agente o por el usuario sigue bloqueada.
+- Los permisos son los de TODA la sesión, no uno por agente: Write y Edit solo en
+  `src/content/blog/**`, `post-faqs.json`, `post-toc.json`, `src/lib/i18n/content-map/**` y
+  `.agents/CHANGELOG.md`, y Bash solo para los comandos de la receta.
+- **Verificado el 2026-10-01 con pruebas de humo de menos de 0,5 USD**: la herramienta Agent
+  funciona en modo headless con `--agents`, y los subagentes heredan los permisos acotados de la
+  sesión (un subagente escribió en `src/content/blog/` y se le bloqueó `src/lib/`). Aún no hay una
+  corrida real de punta a punta: la primera conviene mirarla.

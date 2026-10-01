@@ -342,6 +342,13 @@ describe('applyTranslationGate', () => {
 		expect(applyTranslationGate(tasks, true)).toEqual(tasks);
 	});
 
+	it('never unblocks a task that someone else blocked (no gate note): todo-implementer and the user block with their own note', () => {
+		const mine = t({ estado: 'bloqueada', nota: 'bloqueada por todo-implementer 2026-10-01: ya cubierta' });
+		const bare = t({ id: '#T0002', estado: 'bloqueada' });
+		expect(applyTranslationGate([mine, bare], true)).toEqual([mine, bare]);
+		expect(applyTranslationGate([mine, bare], false)).toEqual([mine, bare]);
+	});
+
 	it('drops the note from a blocked task that got completed', () => {
 		const [out] = applyTranslationGate(
 			[t({ estado: 'hecha', hecha: '2026-10-01', nota: `${TRANSLATION_GATE_NOTE}, marcada hecha por plan-coverage` })],

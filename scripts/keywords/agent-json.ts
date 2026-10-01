@@ -5,9 +5,11 @@
  * allowlist leaks into its permissions, and that also stops the CLI from loading project agents.
  * Converting the file on every run keeps the markdown as the only source of the agent.
  *
- * Usage: `bun scripts/keywords/agent-json.ts [name-or-path]` (used by `just keywords-research` with
- * no argument and by `just content-plan` with `content-strategist`). A bare name resolves to
- * `.claude/agents/<name>.md`, anything with a `/` or ending in `.md` is taken as a path.
+ * Usage: `bun scripts/keywords/agent-json.ts [name-or-path ...]` (used by `just keywords-research`
+ * with no argument and by `just content-plan` with `content-strategist`). A bare name resolves to
+ * `.claude/agents/<name>.md`, anything with a `/` or ending in `.md` is taken as a path. Several
+ * names print ONE JSON with all the agents (`just todo-implement` bundles its four agents so the
+ * orchestrator can delegate to the others through the Agent tool).
  */
 
 import { readFileSync } from 'node:fs';
@@ -59,6 +61,18 @@ export function agentMarkdownToJson(markdown: string): Record<string, AgentJson>
 	};
 }
 
+/** Pure: several agent files merged in one `--agents` object. Throws on a repeated agent name. */
+export function agentsMarkdownToJson(markdowns: string[]): Record<string, AgentJson> {
+	const merged: Record<string, AgentJson> = {};
+	for (const markdown of markdowns) {
+		for (const [name, agent] of Object.entries(agentMarkdownToJson(markdown))) {
+			if (name in merged) throw new Error(`agent "${name}" is defined twice`);
+			merged[name] = agent;
+		}
+	}
+	return merged;
+}
+
 /** Pure: the agent file a CLI argument points to. */
 export function resolveAgentPath(arg: string | undefined, cwd: string): string {
 	const target = arg || 'ubersuggest-analyst';
@@ -66,7 +80,12 @@ export function resolveAgentPath(arg: string | undefined, cwd: string): string {
 	return join(cwd, '.claude/agents', `${target}.md`);
 }
 
+/** Pure: the agent files of every CLI argument, the default agent when there is none. */
+export function resolveAgentPaths(args: string[], cwd: string): string[] {
+	return (args.length > 0 ? args : [undefined]).map((arg) => resolveAgentPath(arg, cwd));
+}
+
 if (import.meta.main) {
-	const path = resolveAgentPath(process.argv[2], process.cwd());
-	console.log(JSON.stringify(agentMarkdownToJson(readFileSync(path, 'utf8'))));
+	const paths = resolveAgentPaths(process.argv.slice(2), process.cwd());
+	console.log(JSON.stringify(agentsMarkdownToJson(paths.map((p) => readFileSync(p, 'utf8')))));
 }

@@ -1,5 +1,10 @@
 import { describe, it, expect } from 'vitest';
-import { agentMarkdownToJson, resolveAgentPath } from './agent-json';
+import {
+	agentMarkdownToJson,
+	agentsMarkdownToJson,
+	resolveAgentPath,
+	resolveAgentPaths
+} from './agent-json';
 
 const AGENT_MD = `---
 name: ubersuggest-analyst
@@ -64,7 +69,9 @@ describe('the real ubersuggest-analyst agent file', () => {
 
 describe('resolveAgentPath', () => {
 	it('defaults to the keyword researcher', () => {
-		expect(resolveAgentPath(undefined, '/repo')).toBe('/repo/.claude/agents/ubersuggest-analyst.md');
+		expect(resolveAgentPath(undefined, '/repo')).toBe(
+			'/repo/.claude/agents/ubersuggest-analyst.md'
+		);
 	});
 
 	it('resolves a bare name and takes a path as is', () => {
@@ -187,7 +194,14 @@ describe('the real faq-researcher agent file and its headless run', () => {
 		expect(run).toContain('agent-json.ts faq-researcher');
 		expect(run).toContain('Write(.agents/context/keywords/faqs/**)');
 		expect(run).not.toMatch(/--allowedTools[^\n]*Bash\(git/);
-		for (const denied of ['git push', 'git reset', 'git checkout', 'git stash', 'git restore', 'rm']) {
+		for (const denied of [
+			'git push',
+			'git reset',
+			'git checkout',
+			'git stash',
+			'git restore',
+			'rm'
+		]) {
 			expect(run).toContain(`Bash(${denied}:*)`);
 		}
 	});
@@ -211,5 +225,165 @@ describe('the real faq-researcher agent file and its headless run', () => {
 		expect(commit).toContain('--no-verify');
 		expect(commit).toContain('.agents/data/keywords.json');
 		expect(commit).not.toMatch(/TODO/);
+	});
+});
+
+describe('agentsMarkdownToJson', () => {
+	const other = AGENT_MD.replace('ubersuggest-analyst', 'faq-researcher').replace(
+		'tools: Read, Write, mcp__ubersuggest__user_limits',
+		'tools: Read, Glob'
+	);
+
+	it('merges several agents in one object, each keyed by its name', () => {
+		const json = agentsMarkdownToJson([AGENT_MD, other]);
+		expect(Object.keys(json)).toEqual(['ubersuggest-analyst', 'faq-researcher']);
+		expect(json['faq-researcher'].tools).toEqual(['Read', 'Glob']);
+	});
+
+	it('with one agent returns exactly what agentMarkdownToJson returns (backward compatible)', () => {
+		expect(agentsMarkdownToJson([AGENT_MD])).toEqual(agentMarkdownToJson(AGENT_MD));
+	});
+
+	it('throws when two files declare the same agent name', () => {
+		expect(() => agentsMarkdownToJson([AGENT_MD, AGENT_MD])).toThrow(/ubersuggest-analyst/);
+	});
+});
+
+describe('resolveAgentPaths', () => {
+	it('with no argument keeps the single default agent', () => {
+		expect(resolveAgentPaths([], '/repo')).toEqual(['/repo/.claude/agents/ubersuggest-analyst.md']);
+	});
+
+	it('resolves every name, in order', () => {
+		expect(resolveAgentPaths(['a', 'b'], '/repo')).toEqual([
+			'/repo/.claude/agents/a.md',
+			'/repo/.claude/agents/b.md'
+		]);
+	});
+});
+
+const TODO_TEAM = ['todo-implementer', 'post-writer', 'post-translator', 'post-verifier'];
+
+/** Pure: the top level, comma separated entries of a `--allowedTools` style string. */
+function splitTools(list: string): string[] {
+	const out: string[] = [];
+	let depth = 0;
+	let current = '';
+	for (const ch of list) {
+		if (ch === '(') depth++;
+		if (ch === ')') depth--;
+		if (ch === ',' && depth === 0) {
+			out.push(current.trim());
+			current = '';
+		} else current += ch;
+	}
+	if (current.trim()) out.push(current.trim());
+	return out;
+}
+
+describe('the todo-implementer team (todo-implement headless run)', () => {
+	const agentFiles = import.meta.glob('/.claude/agents/*.md', {
+		query: '?raw',
+		import: 'default',
+		eager: true
+	}) as Record<string, string>;
+	const team = TODO_TEAM.map((name) => agentFiles[`/.claude/agents/${name}.md`]);
+	const run = recipe('todo-implement *args:');
+	const allowed = splitTools(/ALLOWED_TOOLS="([^"]+)"/.exec(run)?.[1] ?? '');
+	const allowedNames = new Set(allowed.map((t) => t.replace(/\(.*$/, '')));
+
+	it('has the four agent files, each with a name that matches its file and a description', () => {
+		TODO_TEAM.forEach((name, i) => {
+			expect(team[i], `${name}.md exists`).toBeTruthy();
+			const agent = agentMarkdownToJson(team[i])[name];
+			expect(agent, `${name} is keyed by its name`).toBeTruthy();
+			expect(agent.description.length).toBeGreaterThan(40);
+			expect(agent.tools.length).toBeGreaterThan(0);
+		});
+	});
+
+	it('bundles the four agents in one --agents JSON and runs the orchestrator as main agent', () => {
+		expect(run).toContain(`agent-json.ts ${TODO_TEAM.join(' ')}`);
+		expect(run).toContain('--agent todo-implementer');
+		expect(run).toContain('--model sonnet');
+	});
+
+	it('mirrors the isolation flags of content-plan with an empty MCP config', () => {
+		expect(run).toContain('--setting-sources ""');
+		expect(run).toContain('--strict-mcp-config');
+		expect(run).toContain(`--mcp-config '{"mcpServers":{}}'`);
+		expect(run).toContain('--permission-mode default');
+		for (const denied of [
+			'git push',
+			'git reset',
+			'git checkout',
+			'git stash',
+			'git restore',
+			'rm'
+		]) {
+			expect(run).toContain(`Bash(${denied}:*)`);
+		}
+	});
+
+	it('allows every tool name the four agents list, and nothing like push or deploy', () => {
+		expect(allowed.length).toBeGreaterThan(0);
+		TODO_TEAM.forEach((name, i) => {
+			for (const tool of agentMarkdownToJson(team[i])[name].tools) {
+				expect(allowedNames.has(tool), `${name}: ${tool}`).toBe(true);
+			}
+		});
+		expect(allowed.join(' ')).not.toMatch(/git push|deploy|migrate|post-images|migrate-wp/);
+	});
+
+	it('limits Write and Edit to the blog, its generated data, the content map and the changelog', () => {
+		const writes = allowed.filter((t) => /^(Write|Edit)\(/.test(t));
+		expect(writes.length).toBeGreaterThan(0);
+		const allowedRoots = [
+			'src/content/blog/**',
+			'src/lib/data/post-faqs.json',
+			'src/lib/data/post-toc.json',
+			'src/lib/i18n/content-map/**',
+			'.agents/CHANGELOG.md'
+		];
+		for (const w of writes) {
+			expect(
+				allowedRoots.some((r) => w.endsWith(`(${r})`)),
+				w
+			).toBe(true);
+		}
+		expect(allowed).not.toContain('Write');
+		expect(allowed).not.toContain('Edit');
+		expect(allowed).not.toContain('Bash');
+	});
+
+	it('never lets the agents touch git history beyond add and commit, nor TODO.json', () => {
+		const git = allowed.filter((t) => t.startsWith('Bash(git'));
+		for (const g of git) expect(g).toMatch(/^Bash\(git (status|diff|log|show|add|commit)/);
+		expect(run).not.toMatch(/Write\([^)]*TODO/);
+		expect(run).toContain('--max-budget-usd');
+		expect(run).toContain('TODO_IMPLEMENT_BUDGET');
+	});
+
+	it('the verifier has no Write or Edit (read only by capability) and only the orchestrator spawns agents', () => {
+		const tools = (name: string) => agentMarkdownToJson(team[TODO_TEAM.indexOf(name)])[name].tools;
+		expect(tools('post-verifier')).not.toContain('Write');
+		expect(tools('post-verifier')).not.toContain('Edit');
+		expect(tools('todo-implementer')).toContain('Agent');
+		for (const worker of ['post-writer', 'post-translator', 'post-verifier']) {
+			expect(tools(worker)).not.toContain('Agent');
+		}
+	});
+
+	it('dry-run never calls claude: it only prints the command and runs just todo-next', () => {
+		expect(run).toContain('--dry-run');
+		expect(run).toContain('just todo-next');
+		expect(run).toMatch(/exec "\$\{cmd\[@\]\}"/);
+	});
+
+	it('todo-implement-commit stages only keywords.json, never the task list', () => {
+		const commit = recipe('todo-implement-commit task slug:');
+		expect(commit).toContain('--no-verify');
+		expect(commit).toContain('.agents/data/keywords.json');
+		expect(commit).not.toMatch(/TODO\.json/);
 	});
 });

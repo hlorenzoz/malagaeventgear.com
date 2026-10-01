@@ -173,7 +173,8 @@ const setNota = (t: Task, nota: string | undefined): Task => {
 /** Pure: the translation gate (user decision, 2026-09-29). While any published English post lacks
  *  a translation (`translationsDone` false), open content-strategist tasks wait as `bloqueada` with
  *  TRANSLATION_GATE_NOTE, and they go back to `pendiente` once every post is translated. Tasks from
- *  anyone else, tasks `en curso` and done tasks keep their Estado (a done task only loses the note). */
+ *  anyone else, tasks `en curso` and done tasks keep their Estado (a done task only loses the note).
+ *  A task someone else blocked (the user, `todo-implementer`) has no gate note and is never reopened here. */
 export function applyTranslationGate(tasks: Task[], translationsDone: boolean): Task[] {
 	return tasks.map((t) => {
 		if (!isTranslationGated(t.origen)) return t;
@@ -186,7 +187,8 @@ export function applyTranslationGate(tasks: Task[], translationsDone: boolean): 
 				nota: t.nota ? `${t.nota}, ${TRANSLATION_GATE_NOTE}` : TRANSLATION_GATE_NOTE
 			};
 		}
-		if (translationsDone && t.estado === 'bloqueada') {
+		// Only what the gate blocked (its note) comes back: a task blocked by someone else stays blocked.
+		if (translationsDone && t.estado === 'bloqueada' && gated) {
 			return { ...setNota(t, withoutGateNote(t.nota)), estado: 'pendiente' };
 		}
 		return t;
