@@ -13,6 +13,6 @@ coverImage: "https://cdn.malagaeventgear.com/blog-media/fixtures/draft-cover.web
 draft: true
 ---
 
-This post has `draft: true` and should never be included in any public output — not the index, not sitemaps, not category/author pages.
+This post has `draft: true` and should never be included in any public output: not the index, not sitemaps, not category/author pages.
 
 It exists to verify the draft filtering logic.
