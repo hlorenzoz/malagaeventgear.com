@@ -64,6 +64,11 @@ export default {
 			keyword: '馬拉加 活動現場技術支援',
 			status: 'propuesta'
 		},
+		'stage-monitor-rental': {
+			slug: '舞台監聽喇叭租借',
+			keyword: '馬拉加 舞台監聽喇叭租借',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': { slug: '活動視聽租借', keyword: '馬拉加 活動視聽租借', status: 'propuesta' },
 		'audio-visual-rental-for-conferences': { slug: '會議視聽租借', keyword: '馬拉加 會議視聽租借', status: 'propuesta' },
 		'audio-visual-rental-for-corporate-events': {

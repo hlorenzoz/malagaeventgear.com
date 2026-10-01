@@ -76,6 +76,11 @@ export default {
 			keyword: 'teknisk support for arrangementer i Malaga',
 			status: 'propuesta'
 		},
+		'stage-monitor-rental': {
+			slug: 'leie-av-scenemonitor',
+			keyword: 'leie av scenemonitor i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'av-utleie-i-malaga',
 			keyword: 'AV-utleie i Malaga',

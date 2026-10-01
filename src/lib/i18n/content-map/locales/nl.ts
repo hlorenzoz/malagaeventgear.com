@@ -72,6 +72,11 @@ export default {
 			keyword: 'technische ondersteuning bij evenementen in Malaga',
 			status: 'propuesta'
 		},
+		'stage-monitor-rental': {
+			slug: 'podiummonitor-huren-malaga',
+			keyword: 'podiummonitor huren in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'audiovisuele-verhuur',
 			keyword: 'audiovisuele verhuur Malaga',

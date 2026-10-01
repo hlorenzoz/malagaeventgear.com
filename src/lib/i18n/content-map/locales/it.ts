@@ -68,6 +68,11 @@ export default {
 			keyword: 'supporto tecnico per eventi a Malaga',
 			status: 'propuesta'
 		},
+		'stage-monitor-rental': {
+			slug: 'noleggio-monitor-da-palco-malaga',
+			keyword: 'noleggio monitor da palco a Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'noleggio-audiovisivo',
 			keyword: 'noleggio audiovisivo a Malaga',

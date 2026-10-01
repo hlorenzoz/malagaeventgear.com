@@ -68,6 +68,11 @@ export default {
 			keyword: 'teknisk support för evenemang i Malaga',
 			status: 'propuesta'
 		},
+		'stage-monitor-rental': {
+			slug: 'hyra-scenmonitor',
+			keyword: 'hyra scenmonitor i Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'av-uthyrning-malaga',
 			keyword: 'AV-uthyrning Malaga',

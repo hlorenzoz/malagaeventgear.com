@@ -72,6 +72,11 @@ export default {
 			keyword: 'assistance technique pour événements à Malaga',
 			status: 'propuesta'
 		},
+		'stage-monitor-rental': {
+			slug: 'location-retours-de-scene-malaga',
+			keyword: 'location de retours de scène à Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'location-audiovisuelle-evenements-malaga',
 			keyword: 'location audiovisuelle pour événements à Malaga',

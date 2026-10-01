@@ -72,6 +72,11 @@ export default {
 			keyword: 'technischer Support für Veranstaltungen in Malaga',
 			status: 'propuesta'
 		},
+		'stage-monitor-rental': {
+			slug: 'buehnenmonitor-mieten-malaga',
+			keyword: 'Bühnenmonitor mieten in Malaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'av-vermietung-malaga',
 			keyword: 'AV-Vermietung Malaga',

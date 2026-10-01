@@ -104,6 +104,11 @@ export default {
 			keyword: 'apoio técnico para eventos em Málaga',
 			status: 'propuesta'
 		},
+		'stage-monitor-rental': {
+			slug: 'aluguer-de-monitores-de-palco',
+			keyword: 'aluguer de monitores de palco em Málaga',
+			status: 'propuesta'
+		},
 		'audio-visual-rental': {
 			slug: 'aluguer-de-audiovisuais-para-eventos',
 			keyword: 'aluguer de audiovisuais para eventos em Málaga',
