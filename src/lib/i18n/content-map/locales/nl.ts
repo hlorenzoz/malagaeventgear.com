@@ -362,6 +362,11 @@ export default {
 			keyword: 'audiovisuele verhuurpakketten aanpassen in Malaga',
 			status: 'propuesta'
 		},
+		'av-equipment-consultations': {
+			slug: 'advies-audiovisuele-verhuur-malaga',
+			keyword: 'advies over audiovisuele verhuur in Malaga',
+			status: 'propuesta'
+		},
 		'benefits-of-audio-visual-rental': {
 			slug: 'voordelen-audiovisuele-verhuur',
 			keyword: 'voordelen van audiovisuele verhuur in Malaga',

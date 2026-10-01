@@ -358,6 +358,11 @@ export default {
 			keyword: 'anpassa paket för AV-uthyrning i Malaga',
 			status: 'propuesta'
 		},
+		'av-equipment-consultations': {
+			slug: 'radgivning-av-uthyrning',
+			keyword: 'rådgivning om AV-uthyrning i Malaga',
+			status: 'propuesta'
+		},
 		'benefits-of-audio-visual-rental': {
 			slug: 'fordelar-med-av-uthyrning',
 			keyword: 'fördelar med AV-uthyrning i Malaga',

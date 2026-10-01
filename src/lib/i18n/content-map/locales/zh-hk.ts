@@ -342,6 +342,11 @@ export default {
 			keyword: '馬拉加 如何自訂活動視聽租借套餐',
 			status: 'propuesta'
 		},
+		'av-equipment-consultations': {
+			slug: '視聽租借諮詢',
+			keyword: '馬拉加 視聽租借諮詢',
+			status: 'propuesta'
+		},
 		'benefits-of-audio-visual-rental': {
 			slug: '活動視聽租借的好處',
 			keyword: '馬拉加 活動視聽租借的好處',

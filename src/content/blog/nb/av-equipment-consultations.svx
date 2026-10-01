@@ -1,0 +1,193 @@
+---
+title: "Rådgivning om AV-utleie i Malaga, Spania"
+description: "Rådgivning om AV-utleie i Malaga, Spania: en gratis tabell etter antall gjester og arrangementstype som viser hvilken av våre 5 pakker som passer for deg."
+excerpt: "Rådgivning om AV-utleie i Malaga: slik matcher du arrangementet ditt med en av våre 5 AV-pakker før du bestiller noe, med en ekte tabell over antall gjester og arrangementstype hentet rett fra vår egen katalog, hva som skjer ved grensen mellom to pakker og hva vi egentlig trenger fra deg for å kunne hjelpe."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Den som søker på engelsk etter "AV equipment consultations", finner mest generelle sjekklister, listeartikler i stil med "spørsmål du bør stille AV-leverandøren din" som høres likedan ut for et bryllup som for en produktlansering. Det er ikke den avgjørelsen de fleste egentlig står fast i før de bestiller hos oss. Det virkelige spørsmålet, som rådgivning om AV-utleie i Malaga, Spania, svarer på, er smalere: hvilken av våre 5 faste pakker passer for akkurat ditt arrangement, før vi leverer en eneste høyttaler.
+
+Vår guide til å [tilpasse pakker for AV-utleie](/blog/how-to-customize-av-rental-packages/) dekker allerede hva som skjer etter at du har valgt en pakke, nemlig listen over betalte tilvalg med priser. Denne siden er steget før: hvordan du lander på riktig pakke fra begynnelsen, med de samme gjesteantallene, arrangementstypene og teknikerreglene som allerede ligger i vår egen katalog, samlet på ett sted.
+
+[Kontakt oss](/contact/) med dato, antall gjester og sted for arrangementet ditt, så forteller vi deg ærlig hvilken pakke som passer, uten at det koster noe å spørre.
+
+## Innholdsfortegnelse
+
+-   [Kort oversikt](#kort-oversikt)
+-   [Det viktigste](#det-viktigste)
+-   [Er rådgivning gratis?](#er-rådgivning-gratis)
+-   [Hvilke opplysninger vi trenger fra deg](#hvilke-opplysninger-vi-trenger-fra-deg)
+-   [Beslutningstabellen: hvilken pakke for hvilket arrangement](#beslutningstabellen-hvilken-pakke-for-hvilket-arrangement)
+-   [Når antallet gjester havner mellom to pakker](#når-antallet-gjester-havner-mellom-to-pakker)
+-   [Hvorfor Product Presentation Pack ikke har en gjestegrense](#hvorfor-product-presentation-pack-ikke-har-en-gjestegrense)
+-   [Endrer stedet hvilken pakke du trenger?](#endrer-stedet-hvilken-pakke-du-trenger)
+-   [Basic MICE Pack eller MICE Pack: den reelle forskjellen](#basic-mice-pack-eller-mice-pack-den-reelle-forskjellen)
+-   [Trenger du en tekniker, eller kan du styre alt selv?](#trenger-du-en-tekniker-eller-kan-du-styre-alt-selv)
+-   [Ekte oppsett vi har levert](#ekte-oppsett-vi-har-levert)
+-   [Hvor langt i forveien du bør bestille](#hvor-langt-i-forveien-du-bør-bestille)
+-   [Konklusjon](#konklusjon)
+-   [Ofte stilte spørsmål](#ofte-stilte-spørsmål)
+    -   [Hvilken pakke er riktig for arrangementet mitt?](#hvilken-pakke-er-riktig-for-arrangementet-mitt)
+    -   [Hvilke opplysninger trenger dere for å hjelpe meg å velge?](#hvilke-opplysninger-trenger-dere-for-å-hjelpe-meg-å-velge)
+    -   [Er rådgivningen gratis?](#er-rådgivningen-gratis)
+    -   [Trenger jeg en tekniker inkludert, eller kan jeg styre utstyret selv?](#trenger-jeg-en-tekniker-inkludert-eller-kan-jeg-styre-utstyret-selv)
+    -   [Antallet gjester mine havner mellom to pakker, hvilken bør jeg velge?](#antallet-gjester-mine-havner-mellom-to-pakker-hvilken-bør-jeg-velge)
+    -   [Hvorfor oppgir Product Presentation Pack ikke et antall gjester?](#hvorfor-oppgir-product-presentation-pack-ikke-et-antall-gjester)
+    -   [Hva er den reelle forskjellen mellom Basic MICE Pack og MICE Pack?](#hva-er-den-reelle-forskjellen-mellom-basic-mice-pack-og-mice-pack)
+    -   [Påvirker stedet hvilken pakke jeg bør velge?](#påvirker-stedet-hvilken-pakke-jeg-bør-velge)
+    -   [Hvor langt i forveien bør jeg be om rådgivning?](#hvor-langt-i-forveien-bør-jeg-be-om-rådgivning)
+    -   [Kan jeg tilpasse en pakke etter at jeg har bestilt den?](#kan-jeg-tilpasse-en-pakke-etter-at-jeg-har-bestilt-den)
+    -   [Hva om jeg ikke vet i det hele tatt hva jeg trenger?](#hva-om-jeg-ikke-vet-i-det-hele-tatt-hva-jeg-trenger)
+
+## Kort oversikt
+
+---
+
+Rådgivning om AV-utleie i Malaga hos Malaga Event Gear er en gratis samtale om hvilken av våre 5 faste pakker som passer for arrangementet ditt, basert på ditt virkelige antall gjester, arrangementstype og sted. Det er verken en betalt designtjeneste eller en tom utstyrskatalog der du må bygge alt fra bunnen av. Vi har skrevet denne guiden for å legge fram selve avgjørelsen, pakke mot arrangement, på ett sted, med tall som allerede finnes i vår egen katalog.
+
+Denne siden går gjennom hele beslutningstabellen, hva du gjør når antallet gjester havner mellom to pakker, hvorfor én pakke hopper helt over spørsmålet om antall gjester og hva vi egentlig trenger fra deg for å gi deg et rett svar. [Kontakt oss](/contact/) med opplysningene om arrangementet ditt, så forteller vi deg ærlig hvilken pakke som passer.
+
+## Det viktigste
+
+---
+
+-   Å spørre oss hvilken pakke som passer for arrangementet ditt koster ikke noe i seg selv. Hver pakkepris i katalogen vår dekker allerede levering, oppsett og test, og det finnes ingen egen avgift for rådgivning noe sted.
+
+-   5 pakker, 5 ulike regler for antall gjester: 4 har en gjestegrense, og én, [Product Presentation Pack](/packages/product-presentation/), velges i stedet etter arrangementstype.
+
+-   Et antall gjester mellom to pakkegrenser er ikke et myntkast. Arrangementstypen avgjør hvilken vei du bør lene deg, ikke det nøyaktige antallet gjester.
+
+-   Vi trenger 4 opplysninger for å kunne hjelpe deg ordentlig: datoen for arrangementet ditt, stedet, det forventede antallet gjester og om du allerede har en pakke i tankene eller bare en beskrivelse av arrangementet.
+
+-   Denne siden handler utelukkende om å velge en pakke før du bestiller. For hva som skjer når en tekniker først er på stedet, kan du lese vår guide om teknisk support for arrangementer.
+
+## Er rådgivning gratis?
+
+Ja, helt rett fram: å fortelle oss dato, antall gjester og sted for arrangementet ditt og spørre hvilken pakke som passer, koster ingenting. Hver pris i katalogen vår, fra [Eco Pack](/packages/eco/) til 290 euro opp til [Wedding Pack](/packages/wedding/) til 650 euro, dekker allerede levering, oppsett, test og nedrigging. I prisene våre finnes det ingen egen linje for samtalen som fører deg til riktig pakke.
+
+Det endrer hvordan du bør gripe kontakten an. Du trenger ikke vite på forhånd hvilken pakke du vil bestille før du tar kontakt. Det er nok å beskrive arrangementet, antall gjester og stedet, og å matche det med en av våre 5 pakker er nøyaktig det resten av denne siden og en ekte samtale med oss er til for.
+
+<InlineCTA />
+
+## Hvilke opplysninger vi trenger fra deg
+
+Et presist svar fra oss avhenger av 4 konkrete opplysninger, de samme 4 feltene som allerede styrer hvert tilbud vi sender: datoen for arrangementet ditt, stedet, det forventede antallet gjester og hvilken type utstyr eller pakke du er interessert i, enten det er et bestemt pakkenavn eller bare en beskrivelse av det du planlegger. Vi svarer på engelsk eller spansk og kan nås på telefon på 666 346 911, via WhatsApp eller på e-post.
+
+Når vi har de 4 opplysningene, følger prosessen vår de samme 4 trinnene som enhver annen bestilling: du forteller oss om arrangementet ditt, vi sender et tilbud, vi bekrefter detaljene sammen, og vi leverer. Bestillinger krever minst 24 timers varsel, så jo tidligere du tar kontakt med de 4 opplysningene, desto mer plass har vi til å treffe riktig pakke første gang i stedet for å justere den i siste liten.
+
+## Beslutningstabellen: hvilken pakke for hvilket arrangement
+
+Her er tabellen: antall gjester, arrangementstype, teknikerregel og pris side om side, for alle 5 pakkene, der hvert tall er hentet fra vår egen katalog.
+
+| Pakke | Pris (eks. mva.) | Gjestegrense | Hva som avgjør | Tekniker | Typisk arrangement |
+| --- | --- | --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | 290 euro | Opptil 50 gjester | Antall gjester | Ikke tilbudt, heller ikke som betalt tilvalg | Privat fest eller sosial sammenkomst |
+| [Basic MICE Pack](/packages/basic-mice/) | 295 euro | Opptil 40 gjester | Antall gjester | Betalt tilvalg, 240 euro per dag | Lite ledermøte eller styrerom |
+| [Product Presentation Pack](/packages/product-presentation/) | 310 euro | Ingen gjestegrense oppgitt | Arrangementstype: bedriftspresentasjon, presentasjon hos en forhandler eller produktlansering | Ikke tilbudt, heller ikke som betalt tilvalg | Presentasjon som presentatøren holder selv |
+| [MICE Pack](/packages/mice/) | 490 euro | Opptil 120 gjester | Antall gjester | Inkludert, opptil 6 timer i strekk, 40 euro per ekstra time | Større konferanse eller produktlansering |
+| [Wedding Pack](/packages/wedding/) | 650 euro | Opptil 80 gjester | Antall gjester | Inkludert, hele arrangementet, ingen timegrense | Fra vielsen til dansen |
+
+Sortert etter pris blir tabellen også omtrent sortert etter størrelse, og det er ikke tilfeldig: antall gjester og teknikerdekning øker sammen med prisen, med [Product Presentation Pack](/packages/product-presentation/) som det ene bevisste unntaket midt i. På [pakkesiden](/packages/) vår finner du hele utstyrslisten bak hver rad.
+
+## Når antallet gjester havner mellom to pakker
+
+Et vanlig spørsmål: hva skjer når antallet gjester ligger mellom to grenser, for eksempel 45 til 55 gjester, mellom grensen på 40 gjester for [Basic MICE Pack](/packages/basic-mice/) og grensen på 50 gjester for [Eco Pack](/packages/eco/)? Det ærlige svaret kommer ikke av tallene alene. Det avhenger av hva slags arrangement du holder.
+
+Er det en privat fest eller en sosial sammenkomst med 45 til 55 gjester, dekker grensen på 50 gjester for [Eco Pack](/packages/eco/) deg allerede komfortabelt: hold øye med øvre del av intervallet i stedet for å behandle den som en hard vegg. Er det et bedriftsmøte eller en presentasjon med samme antall gjester, er det ærlige ikke å presse det inn under grensen på 40 gjester for [Basic MICE Pack](/packages/basic-mice/). Lydforsterkningen i den pakken er dimensjonert for et styrerom, ikke for et lokale som ligger 5 til 15 gjester over grensen sin. Gå heller opp til [MICE Pack](/packages/mice/), bygget for opptil 120 gjester, i stedet for å tøye en pakke utover den lokalstørrelsen den faktisk ble designet for.
+
+Den generelle regelen: å ligge noen få gjester over eller under en grense betyr mindre enn om arrangementstypen din passer til utstyret. En fest med 5 gjester over grensen for Eco Pack er en avrunding. Et bedriftsmøte med 5 gjester over grensen for Basic MICE Pack er et tegn på at du bør se på neste pakke opp, ikke runde ned.
+
+## Hvorfor Product Presentation Pack ikke har en gjestegrense
+
+Alle de andre pakkene i katalogen vår oppgir et høyeste antall gjester. [Product Presentation Pack](/packages/product-presentation/) gjør ikke det, og det er ikke et hull i dataene våre, men en bevisst forskjell i hvordan akkurat denne pakken velges. Dens egen katalogbeskrivelse nevner direkte arrangementene den er bygget for: en bedriftspresentasjon, en presentasjon hos en forhandler eller en produktlansering, avgjort av hva arrangementet faktisk er og ikke av hvor mange stoler det står i lokalet.
+
+Resonnementet holder når man ser på hva pakken inneholder: en prosjektor på 5000 lumen og et lerret, et lite mikserpult og én trådløs håndmikrofon til den som presenterer. Den er dimensjonert for en presentatør og et publikum som ser på et lerret: et forhandlershowroom med 15 gjester og en bedriftspresentasjon med 45 gjester bruker det samme utstyret på samme måte, projiserte bilder og stemmen til én taler forsterket i lokalet. Antall gjester endrer faktisk ingenting ved det oppsettet skal gjøre. Arrangementstypen gjør det.
+
+## Endrer stedet hvilken pakke du trenger?
+
+Typen sted, innendørs eller utendørs, hotellets ballsal, en privat villa eller et kontor, er en reell opplysning i bestillingen din, men endrer sjelden alene hvilken pakke du trenger. Antall gjester og arrangementstype avgjør pakken først. Stedet avgjør særlig hva vi planlegger rundt når pakken er valgt: et utendørsbryllup ved en villa bruker den samme [Wedding Pack](/packages/wedding/) som et innendørsbryllup av samme størrelse i en hotellballsal, men stedet endrer hvordan vi planlegger kabelføring og eksponering for været, noe som er behandlet fullt ut i vår guide til [AV-utleie til utendørsarrangementer](/blog/audio-visual-rental-for-outdoor-events/).
+
+Der stedet har direkte betydning, er det likevel verdt å nevne under rådgivningen: en hotellballsal kan ha sine egne AV-begrensninger eller regler om godkjente leverandører som bør bekreftes på forhånd, og en privat villa eller hage påvirker tilgangen til strøm og oppsettiden på en måte et møterom innendørs ikke gjør. Fortell oss hvor arrangementet holdes når du tar kontakt, selv om det er antall gjester og arrangementstype som gjør det meste av jobben når vi matcher deg med en pakke.
+
+## Basic MICE Pack eller MICE Pack: den reelle forskjellen
+
+Både [Basic MICE Pack](/packages/basic-mice/) og [MICE Pack](/packages/mice/) passer for bedriftsmøter, og det er nettopp derfor forskjellen mellom dem ofte etterspørres. Den reelle forskjellen er ikke bare gjestegrensen, 40 mot 120, men hva som er standard og hva som er valgfritt. Prosjektoren, lerretet og svanehalsmikrofonen i Basic MICE Pack er laget for et lite ledermøte der en tekniker reelt sett er valgfri, derfor tilvalget til 240 euro per dag i stedet for en standardinkludering. MICE Pack legger til en 60-tommers LED-skjerm, enda en trådløs mikrofon og en dedikert tekniker som er inkludert som standard i opptil 6 timer i strekk, fordi et lokale for opptil 120 gjester som regel trenger noen som aktivt følger med på nivåene, ikke en tilfeldig sjekk.
+
+Prisforskjellen, 295 euro mot 490 euro, gjenspeiler den forskjellen i hva som er inkludert, ikke bare et større lokale. Er arrangementet ditt et lite internt møte med færre enn 40 gjester der du gjerne kjører din egen laptop og dine egne lysbilder, strekker Basic MICE Pack faktisk til. Inviterer du eksterne gjester, har en lengre agenda eller rett og slett ikke vil være den som må følge med på et mikrofonnivå under sin egen presentasjon, er teknikeren som er inkludert i MICE Pack den reelle grunnen til å gå opp, ikke bare den ekstra gjestekapasiteten.
+
+## Trenger du en tekniker, eller kan du styre alt selv?
+
+Om en tekniker er verdt det, avhenger av hvor mye oppmerksomhet du vil ha fri under ditt eget arrangement, ikke av en fast regel. Vår guide om å leie en AV-tekniker går gjennom hele oppdelingen pakke for pakke: inkludert og uten timegrense i [Wedding Pack](/packages/wedding/), inkludert opptil 6 timer i [MICE Pack](/packages/mice/), betalt tilvalg i [Basic MICE Pack](/packages/basic-mice/) og ikke tilbudt i det hele tatt i [Eco Pack](/packages/eco/) eller [Product Presentation Pack](/packages/product-presentation/).
+
+Velger du en av de 3 pakkene uten tekniker på stedet, betyr ikke det at du står alene hvis noe endrer seg midt under arrangementet. Vår guide om [feilsøking av AV-systemer](/blog/av-system-troubleshooting/) går gjennom nøyaktig hva du kan sjekke selv, pakke for pakke, og vi kan nås døgnet rundt hvis en rask sjekk ikke løser det. Det er verdt å ta opp under rådgivningen hvis du vil ha løpende teknikerdekning, fordi det kan endre hvilken pakke som gir mening, selv med samme antall gjester.
+
+## Ekte oppsett vi har levert
+
+![To HK Audio-høyttalere på stativ og et panelbord med profilering og svanehalsmikrofoner, foran en lav scene og roll up-bannere hos en Volvo-forhandler i Malaga, med rader av krakker.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-1536x1147.webp "HK Audio-lydsystemet Malaga Event Gear leverte til en presentasjon hos en Volvo-forhandler i Malaga.")
+
+HK Audio-lydsystemet Malaga Event Gear leverte til en presentasjon hos en Volvo-forhandler i Malaga, det samme forhandlerarrangementet som forsidebildet på denne siden. Vi leverte bare lydsystemet: HK Audio-høyttalere på stativ og svanehalsmikrofoner.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1266/', '/1267/'])} speed="normal" direction="left" />
+</div>
+
+## Hvor langt i forveien du bør bestille
+
+Alle våre bestillinger krever minst 24 timers varsel, og det gjelder rådgivningen like mye som utstyret: jo tidligere du forteller oss dato, antall gjester og sted for arrangementet ditt, desto mer plass har vi til å matche deg med riktig pakke og bekrefte at en tekniker er ledig hvis du trenger en. Faller arrangementet ditt i bryllupssesongen, fra april til oktober, eller i konferansesesongen på Costa del Sol, ta kontakt så tidlig du kan, fordi pakker med tekniker og de større bestillingene av MICE Pack blir utsolgt først i de periodene.
+
+## Konklusjon
+
+Å velge riktig AV-pakke handler om 3 reelle opplysninger: antall gjester, arrangementstype og om du vil ha en tekniker på stedet, mens stedet først og fremst former detaljene når disse 3 har pekt ut en pakke. Å be oss om hjelp med det koster ikke noe i seg selv, fordi hver pris i katalogen vår allerede dekker levering, oppsett og test. [Kontakt oss](/contact/) med dato, antall gjester og sted for arrangementet ditt, så forteller vi deg ærlig hvilken av våre 5 pakker som passer. For alt utstyret bak hver pakke på denne siden kan du se [siden om AV-utleie](/blog/audio-visual-rental/).
+
+## Ofte stilte spørsmål
+
+### Hvilken pakke er riktig for arrangementet mitt?
+
+Det avhenger mest av antall gjester og arrangementstype: [Eco Pack](/packages/eco/) for en fest med opptil 50 gjester, [Basic MICE Pack](/packages/basic-mice/) for et møte med opptil 40 gjester, [Product Presentation Pack](/packages/product-presentation/) for en presentasjon, en presentasjon hos en forhandler eller en produktlansering uansett antall gjester, [MICE Pack](/packages/mice/) for et større bedriftsarrangement med opptil 120 gjester og [Wedding Pack](/packages/wedding/) for et bryllup med opptil 80 gjester. Se [Beslutningstabellen: hvilken pakke for hvilket arrangement](#beslutningstabellen-hvilken-pakke-for-hvilket-arrangement) ovenfor for hele oppdelingen.
+
+### Hvilke opplysninger trenger dere for å hjelpe meg å velge?
+
+Datoen for arrangementet ditt, stedet, det forventede antallet gjester og hvilken type utstyr eller pakke du er interessert i, selv om det bare er en beskrivelse av arrangementet og ikke et pakkenavn. Se [Hvilke opplysninger vi trenger fra deg](#hvilke-opplysninger-vi-trenger-fra-deg) ovenfor.
+
+### Er rådgivningen gratis?
+
+Ja. Å spørre hvilken pakke som passer for arrangementet ditt koster ikke noe i seg selv, hver pakkepris dekker allerede levering, oppsett og test, og i prisene våre finnes det ingen egen avgift for samtalen som fører dit. Se [Er rådgivning gratis?](#er-rådgivning-gratis) ovenfor.
+
+### Trenger jeg en tekniker inkludert, eller kan jeg styre utstyret selv?
+
+Det avhenger av hvor mye oppmerksomhet du vil ha fri under arrangementet ditt, ikke av en fast regel. Vår guide om å leie en AV-tekniker har hele oppdelingen pakke for pakke, og vår guide om [feilsøking av AV-systemer](/blog/av-system-troubleshooting/) tar for seg hva du kan sjekke selv med de 3 pakkene uten tekniker på stedet. Se [Trenger du en tekniker, eller kan du styre alt selv?](#trenger-du-en-tekniker-eller-kan-du-styre-alt-selv) ovenfor.
+
+### Antallet gjester mine havner mellom to pakker, hvilken bør jeg velge?
+
+Hold deg til arrangementstypen, ikke det nøyaktige antallet gjester. En fest med noen få gjester over grensen på 50 gjester for [Eco Pack](/packages/eco/) er sjelden et problem. Et bedriftsmøte med noen få gjester over grensen på 40 gjester for [Basic MICE Pack](/packages/basic-mice/) er et tegn på at du bør gå opp til [MICE Pack](/packages/mice/) i stedet for å runde ned. Se [Når antallet gjester havner mellom to pakker](#når-antallet-gjester-havner-mellom-to-pakker) ovenfor.
+
+### Hvorfor oppgir Product Presentation Pack ikke et antall gjester?
+
+Fordi den velges etter hva arrangementet ditt er, en bedriftspresentasjon, en presentasjon hos en forhandler eller en produktlansering, og ikke etter hvor mange som deltar. Prosjektoren, lerretet og den ene trådløse mikrofonen fungerer likt, enten 15 eller 45 gjester ser på. Se [Hvorfor Product Presentation Pack ikke har en gjestegrense](#hvorfor-product-presentation-pack-ikke-har-en-gjestegrense) ovenfor.
+
+### Hva er den reelle forskjellen mellom Basic MICE Pack og MICE Pack?
+
+Utover gjestegrensen, 40 mot 120, er den reelle forskjellen hva som er standard: [MICE Pack](/packages/mice/) har som standard en tekniker i opptil 6 timer i strekk og en 60-tommers LED-skjerm, mens [Basic MICE Pack](/packages/basic-mice/) bare tilbyr en tekniker som betalt tilvalg til 240 euro per dag. Se [Basic MICE Pack eller MICE Pack](#basic-mice-pack-eller-mice-pack-den-reelle-forskjellen) ovenfor.
+
+### Påvirker stedet hvilken pakke jeg bør velge?
+
+Sjelden alene. Antall gjester og arrangementstype avgjør pakken først, og stedet former særlig hva vi planlegger rundt etterpå: kabelføring og eksponering for været utendørs eller AV-begrensninger i en hotellballsal. Se [Endrer stedet hvilken pakke du trenger?](#endrer-stedet-hvilken-pakke-du-trenger) ovenfor.
+
+### Hvor langt i forveien bør jeg be om rådgivning?
+
+Så tidlig som mulig når datoen for arrangementet ditt er satt. Bestillinger krever minst 24 timers varsel, og hvis du tar kontakt tidligere, har vi mer plass til å bekrefte riktig pakke og at en tekniker er ledig, særlig i bryllupssesongen fra april til oktober. Se [Hvor langt i forveien du bør bestille](#hvor-langt-i-forveien-du-bør-bestille) ovenfor.
+
+### Kan jeg tilpasse en pakke etter at jeg har bestilt den?
+
+Ja. Hver pakke kan utvides med betalte tilvalg: prosjektorer og lerret, ekstra mikrofoner, premium talerstoler, scene og ekstra teknikertimer. Vår guide til å [tilpasse pakker for AV-utleie](/blog/how-to-customize-av-rental-packages/) har hele listen med priser.
+
+### Hva om jeg ikke vet i det hele tatt hva jeg trenger?
+
+Beskriv arrangementet ditt i stedet for å prøve å gjette et pakkenavn. Fortell oss dato, antall gjester, sted og hva slags arrangement det er, en fest, et møte, en presentasjon eller et bryllup, så matcher vi det med en av våre 5 pakker for deg. [Kontakt oss](/contact/) og ta utgangspunkt i arrangementet, ikke i katalogen.

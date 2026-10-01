@@ -342,6 +342,11 @@ export default {
 			keyword: '马拉加 如何定制活动视听租赁套餐',
 			status: 'propuesta'
 		},
+		'av-equipment-consultations': {
+			slug: '视听租赁咨询',
+			keyword: '马拉加 视听租赁咨询',
+			status: 'propuesta'
+		},
 		'benefits-of-audio-visual-rental': {
 			slug: '活动视听租赁的好处',
 			keyword: '马拉加 活动视听租赁的好处',

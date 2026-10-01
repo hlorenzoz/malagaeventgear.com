@@ -1,0 +1,193 @@
+---
+title: "Beratung zur AV-Vermietung in Malaga, Spanien"
+description: "Beratung zur AV-Vermietung in Malaga, Spanien: eine kostenlose Tabelle nach Gästezahl und Veranstaltungsart, die zeigt, welches unserer 5 Pakete zu Ihnen passt."
+excerpt: "Beratung zur AV-Vermietung in Malaga: So ordnen Sie Ihre Veranstaltung vor jeder Buchung einem unserer 5 AV-Pakete zu, mit einer echten Tabelle nach Gästezahl und Veranstaltungsart direkt aus unserem eigenen Katalog, was an den Grenzen zwischen zwei Paketen passiert und was wir von Ihnen wirklich brauchen, um Ihnen zu helfen."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Wer auf Englisch nach "AV equipment consultations" sucht, findet meist allgemeine Checklisten, Listenartikel im Stil von "Fragen an Ihren AV-Anbieter", die für eine Hochzeit genauso klingen wie für eine Produkteinführung. Das ist nicht die Entscheidung, an der die meisten vor einer Buchung bei uns tatsächlich hängen. Die eigentliche Frage, die eine Beratung zur AV-Vermietung in Malaga, Spanien, klärt, ist enger: Welches unserer 5 festen Pakete passt zu Ihrer konkreten Veranstaltung, bevor wir auch nur einen Lautsprecher liefern.
+
+Unser Ratgeber zum [Anpassen von AV-Vermietungspaketen](/blog/how-to-customize-av-rental-packages/) behandelt bereits, was nach der Paketwahl kommt, nämlich die Liste der Extras mit ihren Preisen. Diese Seite ist der Schritt davor: wie Sie von Anfang an das richtige Paket finden, anhand derselben Gästezahlen, Veranstaltungsarten und Technikerregeln, die schon in unserem eigenen Katalog stehen, hier an einer Stelle zusammengestellt.
+
+[Kontaktieren Sie uns](/contact/) mit Datum, Gästezahl und Veranstaltungsort Ihrer Veranstaltung, und wir sagen Ihnen ehrlich, welches Paket passt, ohne dass Sie für die Frage etwas zahlen.
+
+## Inhaltsverzeichnis
+
+-   [Kurzüberblick](#kurzüberblick)
+-   [Das Wichtigste](#das-wichtigste)
+-   [Ist eine Beratung kostenlos?](#ist-eine-beratung-kostenlos)
+-   [Welche Angaben wir von Ihnen brauchen](#welche-angaben-wir-von-ihnen-brauchen)
+-   [Die Entscheidungstabelle: Welches Paket für welche Veranstaltung](#die-entscheidungstabelle-welches-paket-für-welche-veranstaltung)
+-   [Wenn Ihre Gästezahl zwischen zwei Paketen liegt](#wenn-ihre-gästezahl-zwischen-zwei-paketen-liegt)
+-   [Warum das Product Presentation Pack keine Gästegrenze hat](#warum-das-product-presentation-pack-keine-gästegrenze-hat)
+-   [Beeinflusst Ihr Veranstaltungsort, welches Paket Sie brauchen?](#beeinflusst-ihr-veranstaltungsort-welches-paket-sie-brauchen)
+-   [Basic MICE Pack oder MICE Pack: der echte Unterschied](#basic-mice-pack-oder-mice-pack-der-echte-unterschied)
+-   [Brauchen Sie einen Techniker, oder können Sie alles selbst bedienen?](#brauchen-sie-einen-techniker-oder-können-sie-alles-selbst-bedienen)
+-   [Reale Aufbauten, die wir geliefert haben](#reale-aufbauten-die-wir-geliefert-haben)
+-   [Wie weit im Voraus buchen](#wie-weit-im-voraus-buchen)
+-   [Fazit](#fazit)
+-   [Häufige Fragen](#häufige-fragen)
+    -   [Welches Paket passt zu meiner Veranstaltung?](#welches-paket-passt-zu-meiner-veranstaltung)
+    -   [Welche Angaben brauchen Sie, damit Sie mir bei der Wahl helfen können?](#welche-angaben-brauchen-sie-damit-sie-mir-bei-der-wahl-helfen-können)
+    -   [Ist die Beratung kostenlos?](#ist-die-beratung-kostenlos)
+    -   [Brauche ich einen Techniker im Paket, oder kann ich die Technik selbst bedienen?](#brauche-ich-einen-techniker-im-paket-oder-kann-ich-die-technik-selbst-bedienen)
+    -   [Meine Gästezahl liegt zwischen zwei Paketen, welches soll ich wählen?](#meine-gästezahl-liegt-zwischen-zwei-paketen-welches-soll-ich-wählen)
+    -   [Warum nennt das Product Presentation Pack keine Gästezahl?](#warum-nennt-das-product-presentation-pack-keine-gästezahl)
+    -   [Was ist der echte Unterschied zwischen dem Basic MICE Pack und dem MICE Pack?](#was-ist-der-echte-unterschied-zwischen-dem-basic-mice-pack-und-dem-mice-pack)
+    -   [Beeinflusst mein Veranstaltungsort, welches Paket ich wählen sollte?](#beeinflusst-mein-veranstaltungsort-welches-paket-ich-wählen-sollte)
+    -   [Wie früh sollte ich mich für eine Beratung melden?](#wie-früh-sollte-ich-mich-für-eine-beratung-melden)
+    -   [Kann ich ein Paket anpassen, nachdem ich es schon gebucht habe?](#kann-ich-ein-paket-anpassen-nachdem-ich-es-schon-gebucht-habe)
+    -   [Was, wenn ich überhaupt nicht weiß, was ich brauche?](#was-wenn-ich-überhaupt-nicht-weiß-was-ich-brauche)
+
+## Kurzüberblick
+
+---
+
+Eine Beratung zur AV-Vermietung in Malaga mit Malaga Event Gear ist ein kostenloses Gespräch darüber, welches unserer 5 festen Pakete zu Ihrer Veranstaltung passt, auf Grundlage Ihrer tatsächlichen Gästezahl, Ihrer Veranstaltungsart und Ihres Veranstaltungsorts. Es ist keine kostenpflichtige Planungsleistung und auch kein leerer Technikkatalog, aus dem Sie von null etwas zusammenbauen müssen. Wir haben diesen Ratgeber geschrieben, um die Entscheidung selbst, Paket gegen Veranstaltung, an einer Stelle darzustellen, mit Zahlen, die in unserem eigenen Katalog schon existieren.
+
+Diese Seite führt durch die vollständige Entscheidungstabelle, durch das richtige Vorgehen, wenn Ihre Gästezahl zwischen zwei Paketen liegt, und dazu, warum ein Paket die Frage nach der Gästezahl ganz überspringt und was wir von Ihnen wirklich brauchen, um Ihnen eine klare Antwort zu geben. [Kontaktieren Sie uns](/contact/) mit den Eckdaten Ihrer Veranstaltung, und wir sagen Ihnen ehrlich, welches Paket passt.
+
+## Das Wichtigste
+
+---
+
+-   Uns zu fragen, welches Paket zu Ihrer Veranstaltung passt, kostet für sich genommen nichts. Jeder Paketpreis in unserem Katalog deckt bereits Lieferung, Aufbau und Test ab, und eine eigene Beratungsgebühr gibt es darin nirgends.
+
+-   5 Pakete, 5 verschiedene Regeln zur Gästezahl: 4 sind nach Gästezahl begrenzt, und eines, das [Product Presentation Pack](/packages/product-presentation/), wird stattdessen nach Veranstaltungsart gewählt.
+
+-   Eine Gästezahl zwischen zwei Paketgrenzen ist kein Münzwurf. Die Veranstaltungsart entscheidet, in welche Richtung Sie tendieren, nicht die genaue Gästezahl.
+
+-   Wir brauchen 4 Angaben, um Ihnen richtig zu helfen: Ihr Veranstaltungsdatum, Ihren Veranstaltungsort, Ihre erwartete Gästezahl und ob Sie schon ein Paket im Kopf haben oder nur eine Beschreibung der Veranstaltung.
+
+-   Diese Seite behandelt ausschließlich die Wahl eines Pakets vor der Buchung. Was passiert, sobald ein Techniker vor Ort ist, lesen Sie in unserem Ratgeber zum technischen Support für Veranstaltungen.
+
+## Ist eine Beratung kostenlos?
+
+Ja, ganz klar: Uns Ihr Veranstaltungsdatum, Ihre Gästezahl und Ihren Veranstaltungsort zu nennen und zu fragen, welches Paket passt, kostet nichts. Jeder Preis in unserem Katalog, vom [Eco Pack](/packages/eco/) für 290 Euro bis zum [Wedding Pack](/packages/wedding/) für 650 Euro, deckt bereits Lieferung, Aufbau, Test und Abbau ab. In unserer Preisgestaltung gibt es keine eigene Position für das Gespräch, das Sie zum richtigen Paket führt.
+
+Das ändert, wie Sie bei der Kontaktaufnahme vorgehen sollten. Sie müssen nicht schon wissen, welches Paket Sie buchen wollen, bevor Sie sich melden. Es genügt, Ihre Veranstaltung, die Gästezahl und den Veranstaltungsort zu beschreiben. Das Ganze einem unserer 5 Pakete zuzuordnen, ist genau das, wofür der Rest dieser Seite und ein echtes Gespräch mit uns da sind.
+
+<InlineCTA />
+
+## Welche Angaben wir von Ihnen brauchen
+
+Eine genaue Antwort von uns hängt von 4 konkreten Angaben ab, denselben 4 Feldern, die schon jedes Angebot bestimmen, das wir verschicken: Ihr Veranstaltungsdatum, Ihr Veranstaltungsort, Ihre erwartete Gästezahl und die Art der Technik oder des Pakets, für die Sie sich interessieren, sei es ein bestimmter Paketname oder nur eine Beschreibung dessen, was Sie planen. Wir antworten auf Englisch oder Spanisch und sind telefonisch unter 666 346 911, per WhatsApp oder per E-Mail erreichbar.
+
+Sobald wir diese 4 Angaben haben, läuft unser Ablauf in denselben 4 Schritten wie jede andere Buchung: Sie schildern uns Ihre Veranstaltung, wir schicken ein Angebot, wir klären die Details gemeinsam, und wir liefern. Buchungen brauchen eine Vorlaufzeit von mindestens 24 Stunden. Je früher Sie sich mit diesen 4 Angaben melden, desto mehr Spielraum haben wir, das Paket gleich beim ersten Mal richtig zu treffen, statt es spät noch anzupassen.
+
+## Die Entscheidungstabelle: Welches Paket für welche Veranstaltung
+
+Hier ist die Tabelle: Gästezahl, Veranstaltungsart, Technikerregel und Preis nebeneinander, für alle 5 Pakete, jede Zahl daraus stammt aus unserem eigenen Katalog.
+
+| Paket | Preis (zzgl. MwSt.) | Gästegrenze | Was entscheidet | Techniker | Typische Veranstaltung |
+| --- | --- | --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | 290 Euro | Bis zu 50 Gäste | Gästezahl | Nicht angeboten, auch nicht als kostenpflichtiges Extra | Private Feier oder geselliges Beisammensein |
+| [Basic MICE Pack](/packages/basic-mice/) | 295 Euro | Bis zu 40 Gäste | Gästezahl | Kostenpflichtiges Extra, 240 Euro pro Tag | Kleine Führungsrunde oder Vorstandssitzung |
+| [Product Presentation Pack](/packages/product-presentation/) | 310 Euro | Keine Gästegrenze veröffentlicht | Veranstaltungsart: Firmenpräsentation, Autohaus-Präsentation oder Produktlaunch | Nicht angeboten, auch nicht als kostenpflichtiges Extra | Präsentation, die der Präsentierende selbst durchführt |
+| [MICE Pack](/packages/mice/) | 490 Euro | Bis zu 120 Gäste | Gästezahl | Enthalten, bis zu 6 Stunden am Stück, 40 Euro pro zusätzlicher Stunde | Größere Konferenz oder Produktlaunch |
+| [Wedding Pack](/packages/wedding/) | 650 Euro | Bis zu 80 Gäste | Gästezahl | Enthalten, ganze Veranstaltung, ohne Stundenlimit | Von der Trauung bis zum Tanz |
+
+Nach Preis sortiert ordnet sich die Tabelle auch grob nach Größe, und das ist kein Zufall: Gästezahl und Technikerabdeckung steigen gemeinsam mit dem Preis, mit dem [Product Presentation Pack](/packages/product-presentation/) als der einen bewussten Ausnahme in der Mitte. Auf unserer [Paketseite](/packages/) finden Sie die vollständige Technikliste hinter jeder Zeile.
+
+## Wenn Ihre Gästezahl zwischen zwei Paketen liegt
+
+Eine häufige Frage: Was passiert, wenn Ihre Gästezahl zwischen zwei Grenzen liegt, zum Beispiel bei 45 bis 55 Gästen, zwischen der Grenze von 40 Gästen beim [Basic MICE Pack](/packages/basic-mice/) und der Grenze von 50 Gästen beim [Eco Pack](/packages/eco/)? Die ehrliche Antwort ergibt sich nicht allein aus den Zahlen. Sie hängt davon ab, was für eine Veranstaltung Sie durchführen.
+
+Handelt es sich um eine private Feier oder ein geselliges Beisammensein mit 45 bis 55 Gästen, deckt die Grenze von 50 Gästen beim [Eco Pack](/packages/eco/) Sie bereits bequem ab: Behalten Sie das obere Ende dieses Bereichs im Auge, statt es als feste Mauer zu behandeln. Handelt es sich bei derselben Gästezahl um ein Firmenmeeting oder eine Präsentation, ist es nicht ehrlich, das Ganze in die Grenze von 40 Gästen beim [Basic MICE Pack](/packages/basic-mice/) zu pressen. Die Beschallung dieses Pakets ist auf einen Besprechungsraum ausgelegt, nicht auf einen Raum, der 5 bis 15 Gäste über seiner Grenze liegt. Steigen Sie stattdessen auf das [MICE Pack](/packages/mice/) um, ausgelegt für bis zu 120 Gäste, statt ein Paket über die Raumgröße hinaus zu dehnen, für die es tatsächlich entworfen wurde.
+
+Die allgemeine Regel: Ein paar Gäste über oder unter einer Grenze zählen weniger als die Frage, ob Ihre Veranstaltungsart zur Technik passt. Eine Feier mit 5 Gästen über der Grenze des Eco Pack ist ein Rundungsfehler. Ein Firmenmeeting mit 5 Gästen über der Grenze des Basic MICE Pack ist ein Zeichen, das nächsthöhere Paket anzusehen, statt abzurunden.
+
+## Warum das Product Presentation Pack keine Gästegrenze hat
+
+Jedes andere Paket in unserem Katalog nennt eine maximale Gästezahl. Das [Product Presentation Pack](/packages/product-presentation/) tut es nicht, und das ist keine Lücke in unseren Daten, sondern ein bewusster Unterschied dabei, wie dieses eine Paket gewählt wird. Seine eigene Katalogbeschreibung nennt direkt die Veranstaltungen, für die es gebaut ist: eine Firmenpräsentation, eine Autohaus-Präsentation oder einen Produktlaunch, bestimmt davon, was die Veranstaltung tatsächlich ist, und nicht davon, wie viele Stühle im Raum stehen.
+
+Die Begründung trägt, sobald man sich ansieht, was das Paket enthält: einen Beamer mit 5000 Lumen und eine Leinwand, ein kleines Mischpult und ein kabelloses Handmikrofon für die präsentierende Person. Es ist auf eine präsentierende Person und ein Publikum zugeschnitten, das auf eine Leinwand schaut: Ein Autohaus-Showroom mit 15 Gästen und eine Firmenpräsentation mit 45 Gästen nutzen dieselbe Technik auf dieselbe Weise, projizierte Bilder und die Stimme eines einzelnen Sprechers, im Raum verstärkt. Die Gästezahl ändert tatsächlich nichts daran, was dieser Aufbau leisten muss. Die Veranstaltungsart schon.
+
+## Beeinflusst Ihr Veranstaltungsort, welches Paket Sie brauchen?
+
+Die Art des Veranstaltungsorts, drinnen oder draußen, Hotelballsaal, private Villa oder Büro, ist eine echte Angabe für Ihre Buchung, ändert aber für sich genommen selten, welches Paket Sie brauchen. Zuerst entscheiden Gästezahl und Veranstaltungsart über das Paket. Der Veranstaltungsort bestimmt vor allem, worauf wir uns einstellen, sobald das Paket feststeht: Eine Hochzeit im Freien in einer Villa nutzt dasselbe [Wedding Pack](/packages/wedding/) wie eine Hochzeit gleicher Größe drinnen in einem Hotelballsaal, aber der Ort ändert, wie wir Kabelwege und Wetterschutz planen, ausführlich behandelt in unserem Ratgeber zur [AV-Vermietung für Veranstaltungen im Freien](/blog/audio-visual-rental-for-outdoor-events/).
+
+Wo der Veranstaltungsort direkt zählt, sollten Sie ihn in jedem Fall in der Beratung erwähnen: Ein Hotelballsaal kann eigene AV-Einschränkungen oder Vorgaben zu zugelassenen Dienstleistern haben, die vorab zu klären sind, und eine private Villa oder ein Garten wirkt sich auf Stromzugang und Aufbauzeit aus, wie es ein Besprechungsraum drinnen nicht tut. Nennen Sie uns Ihren Veranstaltungsort, wenn Sie sich melden, auch wenn Gästezahl und Veranstaltungsart den Großteil der Arbeit beim Zuordnen eines Pakets leisten.
+
+## Basic MICE Pack oder MICE Pack: der echte Unterschied
+
+Sowohl das [Basic MICE Pack](/packages/basic-mice/) als auch das [MICE Pack](/packages/mice/) bedienen Firmenmeetings, und genau deshalb wird nach dem Unterschied zwischen beiden so oft gefragt. Der eigentliche Abstand liegt nicht nur in der Gästegrenze, 40 gegenüber 120, sondern darin, was Standard und was optional ist. Beamer, Leinwand und Schwanenhalsmikrofon des Basic MICE Pack sind für ein kleines Führungsmeeting gedacht, bei dem ein Techniker tatsächlich optional ist, daher das Extra für 240 Euro pro Tag statt einer Standardleistung. Das MICE Pack ergänzt ein LED-Display mit 60 Zoll, ein zweites kabelloses Mikrofon und einen eigenen Techniker, der als Standard für bis zu 6 Stunden am Stück enthalten ist, weil ein Raum für bis zu 120 Gäste in der Regel jemanden braucht, der die Pegel aktiv im Blick hat, und nicht eine gelegentliche Kontrolle.
+
+Der Preisunterschied, 295 Euro gegenüber 490 Euro, spiegelt diesen Unterschied im Lieferumfang wider und nicht nur einen größeren Raum. Ist Ihre Veranstaltung ein kleines internes Meeting mit weniger als 40 Gästen, bei dem Sie Ihren eigenen Laptop und Ihre Folien gern selbst bedienen, reicht das Basic MICE Pack tatsächlich aus. Laden Sie externe Gäste ein, haben Sie eine längere Tagesordnung oder möchten Sie bei Ihrer eigenen Präsentation einfach nicht derjenige sein, der einen Mikrofonpegel im Auge behalten muss, ist der enthaltene Techniker des MICE Pack der eigentliche Grund für den Umstieg, nicht nur die zusätzliche Gästekapazität.
+
+## Brauchen Sie einen Techniker, oder können Sie alles selbst bedienen?
+
+Ob sich ein Techniker lohnt, hängt davon ab, wie viel Aufmerksamkeit Sie bei Ihrer eigenen Veranstaltung frei haben möchten, und nicht von einer festen Regel. Unser Ratgeber zum Mieten eines AV-Technikers erklärt die ganze Aufschlüsselung Paket für Paket: enthalten und ohne Stundenlimit beim [Wedding Pack](/packages/wedding/), enthalten bis zu 6 Stunden beim [MICE Pack](/packages/mice/), ein kostenpflichtiges Extra beim [Basic MICE Pack](/packages/basic-mice/) und gar nicht angeboten beim [Eco Pack](/packages/eco/) oder [Product Presentation Pack](/packages/product-presentation/).
+
+Wenn Sie eines der 3 Pakete ohne Techniker vor Ort wählen, heißt das nicht, dass Sie auf sich allein gestellt sind, falls sich mitten in der Veranstaltung etwas ändert. Unser Ratgeber zur [Fehlersuche an AV-Systemen](/blog/av-system-troubleshooting/) geht genau durch, was Sie selbst prüfen können, Paket für Paket, und wir sind rund um die Uhr erreichbar, falls eine kurze Prüfung das Problem nicht löst. Ob Sie diese durchgehende Technikerbetreuung wünschen, sollten Sie in Ihrer Beratung ansprechen, denn sie kann verändern, welches Paket sinnvoll ist, selbst bei gleicher Gästezahl.
+
+## Reale Aufbauten, die wir geliefert haben
+
+![Zwei HK-Audio-Lautsprecher auf Stativen und ein Podiumstisch mit Branding und Schwanenhalsmikrofonen, vor einer niedrigen Bühne und Roll-up-Bannern in einem Volvo-Autohaus in Malaga, mit Hockerreihen.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-1536x1147.webp "Die HK-Audio-Tonanlage, die Malaga Event Gear für eine Präsentation bei einem Volvo-Autohaus in Malaga geliefert hat.")
+
+Die HK-Audio-Tonanlage, die Malaga Event Gear für eine Präsentation bei einem Volvo-Autohaus in Malaga geliefert hat, bei derselben Autohaus-Veranstaltung wie auf dem Titelbild dieser Seite. Wir haben nur die Tonanlage geliefert: HK-Audio-Lautsprecher auf Stativen und Schwanenhalsmikrofone.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1266/', '/1267/'])} speed="normal" direction="left" />
+</div>
+
+## Wie weit im Voraus buchen
+
+Alle unsere Buchungen brauchen eine Vorlaufzeit von mindestens 24 Stunden, und das gilt für die Beratung genauso wie für die Technik: Je früher Sie uns Ihr Veranstaltungsdatum, Ihre Gästezahl und Ihren Veranstaltungsort nennen, desto mehr Spielraum haben wir, Sie dem richtigen Paket zuzuordnen und die Verfügbarkeit eines Technikers zu bestätigen, falls Sie einen brauchen. Fällt Ihre Veranstaltung in die Hochzeitssaison von April bis Oktober oder in die Konferenzsaison an der Costa del Sol, melden Sie sich so früh wie möglich, denn Pakete mit Techniker und größere Buchungen des MICE Pack sind in diesen Zeiträumen als Erstes vergeben.
+
+## Fazit
+
+Die Wahl des richtigen AV-Pakets läuft auf 3 echte Angaben hinaus: Ihre Gästezahl, Ihre Veranstaltungsart und ob Sie einen Techniker vor Ort möchten, wobei der Veranstaltungsort vor allem die Details prägt, sobald diese 3 Sie zu einem Paket führen. Uns um Hilfe dabei zu bitten, kostet für sich genommen nichts, denn jeder Preis in unserem Katalog deckt bereits Lieferung, Aufbau und Test ab. [Kontaktieren Sie uns](/contact/) mit Datum, Gästezahl und Veranstaltungsort Ihrer Veranstaltung, und wir sagen Ihnen ehrlich, welches unserer 5 Pakete passt. Die gesamte Technik hinter jedem Paket auf dieser Seite finden Sie auf unserer [Seite zur AV-Vermietung](/blog/audio-visual-rental/).
+
+## Häufige Fragen
+
+### Welches Paket passt zu meiner Veranstaltung?
+
+Das hängt vor allem von Gästezahl und Veranstaltungsart ab: das [Eco Pack](/packages/eco/) für eine Feier mit bis zu 50 Gästen, das [Basic MICE Pack](/packages/basic-mice/) für ein Meeting mit bis zu 40 Gästen, das [Product Presentation Pack](/packages/product-presentation/) für eine Präsentation, eine Autohaus-Präsentation oder einen Produktlaunch unabhängig von der Gästezahl, das [MICE Pack](/packages/mice/) für eine größere Firmenveranstaltung mit bis zu 120 Gästen und das [Wedding Pack](/packages/wedding/) für eine Hochzeit mit bis zu 80 Gästen. Die vollständige Aufschlüsselung finden Sie oben unter [Die Entscheidungstabelle: Welches Paket für welche Veranstaltung](#die-entscheidungstabelle-welches-paket-für-welche-veranstaltung).
+
+### Welche Angaben brauchen Sie, damit Sie mir bei der Wahl helfen können?
+
+Ihr Veranstaltungsdatum, Ihren Veranstaltungsort, Ihre erwartete Gästezahl und die Art der Technik oder des Pakets, für die Sie sich interessieren, auch wenn es nur eine Beschreibung der Veranstaltung statt eines Paketnamens ist. Siehe oben [Welche Angaben wir von Ihnen brauchen](#welche-angaben-wir-von-ihnen-brauchen).
+
+### Ist die Beratung kostenlos?
+
+Ja. Zu fragen, welches Paket zu Ihrer Veranstaltung passt, kostet für sich genommen nichts, denn jeder Paketpreis deckt bereits Lieferung, Aufbau und Test ab, und für das Gespräch, das Sie dorthin führt, gibt es in unserer Preisgestaltung keine eigene Gebühr. Siehe oben [Ist eine Beratung kostenlos?](#ist-eine-beratung-kostenlos).
+
+### Brauche ich einen Techniker im Paket, oder kann ich die Technik selbst bedienen?
+
+Das hängt davon ab, wie viel Aufmerksamkeit Sie bei Ihrer Veranstaltung frei haben möchten, und nicht von einer festen Regel. Unser Ratgeber zum Mieten eines AV-Technikers enthält die vollständige Aufschlüsselung Paket für Paket, und unser Ratgeber zur [Fehlersuche an AV-Systemen](/blog/av-system-troubleshooting/) erklärt, was Sie bei den 3 Paketen ohne Techniker vor Ort selbst prüfen können. Siehe oben [Brauchen Sie einen Techniker, oder können Sie alles selbst bedienen?](#brauchen-sie-einen-techniker-oder-können-sie-alles-selbst-bedienen).
+
+### Meine Gästezahl liegt zwischen zwei Paketen, welches soll ich wählen?
+
+Richten Sie sich nach der Veranstaltungsart, nicht nach der genauen Gästezahl. Eine Feier mit ein paar Gästen über der Grenze von 50 Gästen beim [Eco Pack](/packages/eco/) ist selten ein Problem. Ein Firmenmeeting mit ein paar Gästen über der Grenze von 40 Gästen beim [Basic MICE Pack](/packages/basic-mice/) ist ein Zeichen, auf das [MICE Pack](/packages/mice/) umzusteigen, statt abzurunden. Siehe oben [Wenn Ihre Gästezahl zwischen zwei Paketen liegt](#wenn-ihre-gästezahl-zwischen-zwei-paketen-liegt).
+
+### Warum nennt das Product Presentation Pack keine Gästezahl?
+
+Weil es danach gewählt wird, was Ihre Veranstaltung ist, eine Firmenpräsentation, eine Autohaus-Präsentation oder ein Produktlaunch, und nicht danach, wie viele Personen teilnehmen. Beamer, Leinwand und das einzelne kabellose Mikrofon funktionieren gleich, ob 15 oder 45 Gäste zuschauen. Siehe oben [Warum das Product Presentation Pack keine Gästegrenze hat](#warum-das-product-presentation-pack-keine-gästegrenze-hat).
+
+### Was ist der echte Unterschied zwischen dem Basic MICE Pack und dem MICE Pack?
+
+Über die Gästegrenze hinaus, 40 gegenüber 120, liegt der echte Unterschied darin, was Standard ist: Das [MICE Pack](/packages/mice/) enthält standardmäßig einen Techniker für bis zu 6 Stunden am Stück und ein LED-Display mit 60 Zoll, während das [Basic MICE Pack](/packages/basic-mice/) einen Techniker nur als Extra für 240 Euro pro Tag anbietet. Siehe oben [Basic MICE Pack oder MICE Pack](#basic-mice-pack-oder-mice-pack-der-echte-unterschied).
+
+### Beeinflusst mein Veranstaltungsort, welches Paket ich wählen sollte?
+
+Für sich genommen selten. Gästezahl und Veranstaltungsart entscheiden zuerst über das Paket, der Veranstaltungsort prägt vor allem, worauf wir uns danach einstellen: Kabelwege und Wetterschutz im Freien oder AV-Einschränkungen in einem Hotelballsaal. Siehe oben [Beeinflusst Ihr Veranstaltungsort, welches Paket Sie brauchen?](#beeinflusst-ihr-veranstaltungsort-welches-paket-sie-brauchen).
+
+### Wie früh sollte ich mich für eine Beratung melden?
+
+So früh wie möglich, sobald Ihr Veranstaltungsdatum feststeht. Buchungen brauchen mindestens 24 Stunden Vorlauf, und wenn Sie sich früher melden, haben wir mehr Spielraum, das richtige Paket und die Verfügbarkeit eines Technikers zu bestätigen, besonders in der Hochzeitssaison von April bis Oktober. Siehe oben [Wie weit im Voraus buchen](#wie-weit-im-voraus-buchen).
+
+### Kann ich ein Paket anpassen, nachdem ich es schon gebucht habe?
+
+Ja. Jedes Paket lässt sich um kostenpflichtige Extras erweitern: Beamer und Leinwände, zusätzliche Mikrofone, Premium-Rednerpulte, Bühnenelemente und zusätzliche Technikerstunden. Unser Ratgeber zum [Anpassen von AV-Vermietungspaketen](/blog/how-to-customize-av-rental-packages/) enthält die vollständige Liste mit Preisen.
+
+### Was, wenn ich überhaupt nicht weiß, was ich brauche?
+
+Beschreiben Sie Ihre Veranstaltung, statt zu versuchen, einen Paketnamen zu erraten. Nennen Sie uns Datum, Gästezahl, Veranstaltungsort und die Art der Veranstaltung, eine Feier, ein Meeting, eine Präsentation oder eine Hochzeit, und wir ordnen sie für Sie einem unserer 5 Pakete zu. [Kontaktieren Sie uns](/contact/) und gehen Sie von der Veranstaltung aus, nicht vom Katalog.

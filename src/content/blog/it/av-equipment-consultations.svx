@@ -1,0 +1,193 @@
+---
+title: "Consulenza sul noleggio audiovisivo a Malaga, in Spagna"
+description: "Consulenza sul noleggio audiovisivo a Malaga, in Spagna: una tabella gratuita per ospiti e tipo di evento, per capire quale dei nostri 5 pacchetti fa per te."
+excerpt: "Consulenza sul noleggio audiovisivo a Malaga: come abbinare il tuo evento a uno dei nostri 5 pacchetti audiovisivi prima di prenotare qualsiasi cosa, con una vera tabella per numero di ospiti e tipo di evento tratta dal nostro catalogo, cosa succede tra un pacchetto e l'altro e di che cosa abbiamo davvero bisogno da te."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Cercando in inglese "AV equipment consultations" si trovano per lo più liste di controllo generiche, articoli del tipo "domande da fare al tuo fornitore audiovisivo" che valgono uguali per un matrimonio e per il lancio di un prodotto. Non è questa la decisione su cui si blocca davvero la maggior parte delle persone prima di prenotare con noi. La vera domanda, quella a cui risponde una consulenza sul noleggio audiovisivo a Malaga, in Spagna, è più circoscritta: quale dei nostri 5 pacchetti fissi si adatta al tuo evento specifico, prima che consegniamo anche una sola cassa.
+
+La nostra guida per [personalizzare un pacchetto di noleggio audiovisivo a Malaga](/blog/how-to-customize-av-rental-packages/) copre già che cosa succede dopo aver scelto il pacchetto, cioè l'elenco degli extra a pagamento con i relativi prezzi. Questa pagina è il passo precedente: come trovare il pacchetto giusto fin dall'inizio, usando gli stessi numeri di ospiti, tipi di evento e regole sul tecnico che già si trovano nel nostro catalogo, riuniti qui in un unico posto.
+
+[Contattaci](/contact/) indicando la data dell'evento, il numero di ospiti e la location, e ti diremo con onestà quale pacchetto fa per te, senza alcun costo per chiedere.
+
+## Indice
+
+-   [In breve](#in-breve)
+-   [Punti chiave](#punti-chiave)
+-   [Una consulenza è gratuita?](#una-consulenza-è-gratuita)
+-   [Le informazioni di cui abbiamo bisogno da te](#le-informazioni-di-cui-abbiamo-bisogno-da-te)
+-   [La tabella decisionale: quale pacchetto per quale evento](#la-tabella-decisionale-quale-pacchetto-per-quale-evento)
+-   [Quando il numero di ospiti cade tra due pacchetti](#quando-il-numero-di-ospiti-cade-tra-due-pacchetti)
+-   [Perché il Product Presentation Pack non ha un limite di ospiti](#perché-il-product-presentation-pack-non-ha-un-limite-di-ospiti)
+-   [La sede dell'evento cambia il pacchetto di cui hai bisogno?](#la-sede-dellevento-cambia-il-pacchetto-di-cui-hai-bisogno)
+-   [Basic MICE Pack o MICE Pack: la vera differenza](#basic-mice-pack-o-mice-pack-la-vera-differenza)
+-   [Ti serve un tecnico o puoi gestire tutto da solo?](#ti-serve-un-tecnico-o-puoi-gestire-tutto-da-solo)
+-   [Allestimenti reali che abbiamo consegnato](#allestimenti-reali-che-abbiamo-consegnato)
+-   [Con quanto anticipo prenotare](#con-quanto-anticipo-prenotare)
+-   [Conclusione](#conclusione)
+-   [Domande frequenti](#domande-frequenti)
+    -   [Quale pacchetto è adatto al mio evento?](#quale-pacchetto-è-adatto-al-mio-evento)
+    -   [Di quali informazioni avete bisogno per aiutarmi a scegliere?](#di-quali-informazioni-avete-bisogno-per-aiutarmi-a-scegliere)
+    -   [La consulenza è gratuita?](#la-consulenza-è-gratuita)
+    -   [Mi serve un tecnico incluso o posso gestire io l'attrezzatura?](#mi-serve-un-tecnico-incluso-o-posso-gestire-io-lattrezzatura)
+    -   [Il mio numero di ospiti cade tra due pacchetti, quale scelgo?](#il-mio-numero-di-ospiti-cade-tra-due-pacchetti-quale-scelgo)
+    -   [Perché il Product Presentation Pack non indica un numero di ospiti?](#perché-il-product-presentation-pack-non-indica-un-numero-di-ospiti)
+    -   [Qual è la vera differenza tra il Basic MICE Pack e il MICE Pack?](#qual-è-la-vera-differenza-tra-il-basic-mice-pack-e-il-mice-pack)
+    -   [La sede dell'evento influisce sul pacchetto da scegliere?](#la-sede-dellevento-influisce-sul-pacchetto-da-scegliere)
+    -   [Con quanto anticipo devo prenotare la consulenza?](#con-quanto-anticipo-devo-prenotare-la-consulenza)
+    -   [Posso personalizzare un pacchetto dopo averlo già prenotato?](#posso-personalizzare-un-pacchetto-dopo-averlo-già-prenotato)
+    -   [E se non so affatto di che cosa ho bisogno?](#e-se-non-so-affatto-di-che-cosa-ho-bisogno)
+
+## In breve
+
+---
+
+Una consulenza sul noleggio audiovisivo a Malaga con Malaga Event Gear è una conversazione gratuita per capire quale dei nostri 5 pacchetti fissi si adatta al tuo evento, partendo dal numero reale di ospiti, dal tipo di evento e dalla location. Non è un servizio di progettazione a pagamento e nemmeno un catalogo di attrezzatura vuoto da cui costruire tutto da zero. Abbiamo scritto questa guida per presentare la decisione in sé, pacchetto contro evento, in un unico posto, con numeri che esistono già nel nostro catalogo.
+
+Questa pagina illustra la tabella decisionale completa, cosa fare quando il numero di ospiti cade tra due pacchetti, perché un pacchetto salta del tutto la domanda sul numero di ospiti e di che cosa abbiamo davvero bisogno da te per darti una risposta chiara. [Contattaci](/contact/) con i dettagli del tuo evento e ti diremo con onestà quale pacchetto fa per te.
+
+## Punti chiave
+
+---
+
+-   Chiederci quale pacchetto si adatta al tuo evento non costa nulla di per sé. Ogni prezzo di pacchetto del nostro catalogo copre già consegna, allestimento e collaudo: non esiste alcuna tariffa separata per la consulenza.
+
+-   5 pacchetti, 5 regole diverse sul numero di ospiti: 4 hanno un limite di ospiti, e uno solo, il [Product Presentation Pack](/packages/product-presentation/), si sceglie invece in base al tipo di evento.
+
+-   Un numero di ospiti a metà tra due limiti non è una questione di testa o croce. A decidere da che parte pendere è il tipo di evento, non il numero esatto di ospiti.
+
+-   Ci servono 4 informazioni per aiutarti come si deve: la data dell'evento, la location, il numero di ospiti previsto e se hai già un pacchetto in mente o soltanto una descrizione dell'evento.
+
+-   Questa pagina riguarda esclusivamente la scelta di un pacchetto prima di prenotare. Per ciò che succede una volta che un tecnico è in loco, consulta la nostra guida al supporto tecnico per eventi.
+
+## Una consulenza è gratuita?
+
+Sì, senza giri di parole: dirci la data dell'evento, il numero di ospiti e la location e chiedere quale pacchetto fa per te non costa nulla. Ogni prezzo del nostro catalogo, dall'[Eco Pack](/packages/eco/) da 290 euro fino al [Wedding Pack](/packages/wedding/) da 650 euro, copre già consegna, allestimento, collaudo e smontaggio. Nei nostri prezzi non c'è nessuna voce separata per la conversazione che ti porta al pacchetto giusto.
+
+Questo cambia il modo in cui conviene contattarci. Non serve sapere già quale pacchetto prenotare prima di scriverci. Basta descrivere l'evento, il numero di ospiti e la location, e abbinarli a uno dei nostri 5 pacchetti è esattamente lo scopo del resto di questa pagina e di una vera conversazione con noi.
+
+<InlineCTA />
+
+## Le informazioni di cui abbiamo bisogno da te
+
+Per darti una risposta precisa servono 4 informazioni concrete, gli stessi 4 campi che già guidano ogni preventivo che inviamo: la data dell'evento, la location, il numero di ospiti previsto e il tipo di attrezzatura o di pacchetto che ti interessa, che sia il nome di un pacchetto specifico o soltanto una descrizione di ciò che stai organizzando. Rispondiamo in inglese o in spagnolo e siamo raggiungibili per telefono al 666 346 911, su WhatsApp o via email.
+
+Una volta ricevute queste 4 informazioni, il nostro processo segue gli stessi 4 passaggi di qualsiasi altra prenotazione: ci racconti il tuo evento, ti inviamo un preventivo, confermiamo insieme i dettagli e consegniamo. Le prenotazioni richiedono un preavviso di almeno 24 ore, quindi prima ci contatti con quelle 4 informazioni, più margine abbiamo per centrare il pacchetto giusto al primo colpo invece di correggerlo all'ultimo momento.
+
+## La tabella decisionale: quale pacchetto per quale evento
+
+Ecco la tabella: numero di ospiti, tipo di evento, regola sul tecnico e prezzo, affiancati, per tutti i 5 pacchetti, con ogni numero preso dal nostro catalogo.
+
+| Pacchetto | Prezzo (IVA esclusa) | Limite di ospiti | Cosa decide | Tecnico | Evento tipico |
+| --- | --- | --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | 290 euro | Fino a 50 ospiti | Numero di ospiti | Non previsto, nemmeno come extra a pagamento | Festa privata o ritrovo tra amici |
+| [Basic MICE Pack](/packages/basic-mice/) | 295 euro | Fino a 40 ospiti | Numero di ospiti | Extra a pagamento, 240 euro al giorno | Piccola riunione dirigenziale o sala del consiglio |
+| [Product Presentation Pack](/packages/product-presentation/) | 310 euro | Nessun limite di ospiti pubblicato | Tipo di evento: presentazione aziendale, presentazione in concessionaria o lancio di prodotto | Non previsto, nemmeno come extra a pagamento | Presentazione gestita dal relatore stesso |
+| [MICE Pack](/packages/mice/) | 490 euro | Fino a 120 ospiti | Numero di ospiti | Incluso, fino a 6 ore continuative, 40 euro per ogni ora aggiuntiva | Conferenza più ampia o lancio di prodotto |
+| [Wedding Pack](/packages/wedding/) | 650 euro | Fino a 80 ospiti | Numero di ospiti | Incluso, per tutto l'evento, senza limite di ore | Dalla cerimonia nuziale ai balli |
+
+Ordinata per prezzo, la tabella finisce per ordinarsi più o meno anche per dimensione, e non è un caso: numero di ospiti e copertura del tecnico crescono insieme al prezzo, con il [Product Presentation Pack](/packages/product-presentation/) come unica eccezione voluta, a metà strada. Consulta la nostra [pagina dei pacchetti](/packages/) per l'elenco completo dell'attrezzatura dietro ogni riga.
+
+## Quando il numero di ospiti cade tra due pacchetti
+
+Una domanda frequente: che cosa succede quando il numero di ospiti sta tra due limiti, per esempio da 45 a 55 ospiti, tra il limite di 40 ospiti del [Basic MICE Pack](/packages/basic-mice/) e il limite di 50 ospiti dell'[Eco Pack](/packages/eco/)? La risposta onesta non viene dai soli numeri. Dipende dal tipo di evento che stai organizzando.
+
+Se è una festa privata o un ritrovo tra amici da 45 a 55 ospiti, il limite di 50 ospiti dell'[Eco Pack](/packages/eco/) ti copre già con comodo: tieni d'occhio la parte alta di quella fascia invece di trattarla come un muro invalicabile. Se è una riunione o una presentazione aziendale con lo stesso numero di ospiti, la scelta onesta non è far stare tutto nel limite di 40 ospiti del [Basic MICE Pack](/packages/basic-mice/). L'impianto audio di quel pacchetto è dimensionato per una sala del consiglio, non per una sala che supera il suo limite di 5-15 ospiti. Passa invece al [MICE Pack](/packages/mice/), pensato per un massimo di 120 ospiti, piuttosto che tirare un pacchetto oltre la dimensione di sala per cui è stato davvero progettato.
+
+La regola generale: qualche ospite in più o in meno rispetto a un limite conta meno del fatto che il tipo di evento corrisponda all'attrezzatura. Una festa con 5 ospiti in più rispetto al limite dell'Eco Pack è un arrotondamento. Una riunione aziendale con 5 ospiti in più rispetto al limite del Basic MICE Pack è il segnale che conviene guardare il pacchetto successivo, non arrotondare per difetto.
+
+## Perché il Product Presentation Pack non ha un limite di ospiti
+
+Ogni altro pacchetto del nostro catalogo indica un numero massimo di ospiti. Il [Product Presentation Pack](/packages/product-presentation/) no, e non è una lacuna nei nostri dati: è una differenza voluta nel modo in cui si sceglie quel pacchetto. La sua descrizione nel catalogo indica direttamente gli eventi per cui è pensato: una presentazione aziendale, una presentazione in concessionaria o un lancio di prodotto, decisi da ciò che l'evento è davvero e non da quante sedie ci sono nella sala.
+
+Il ragionamento regge se guardi che cosa contiene il pacchetto: un proiettore da 5000 lumen e uno schermo, una piccola console di mixaggio e un microfono palmare wireless per chi presenta. È dimensionato per un relatore e un pubblico che guarda uno schermo: uno showroom di concessionaria con 15 ospiti e una presentazione aziendale con 45 ospiti usano la stessa attrezzatura nello stesso modo, immagini proiettate e la voce di un solo relatore amplificata nella sala. Il numero di ospiti non cambia davvero ciò che quell'allestimento deve fare. Il tipo di evento sì.
+
+## La sede dell'evento cambia il pacchetto di cui hai bisogno?
+
+Il tipo di sede, al chiuso o all'aperto, sala da ballo di un hotel, villa privata o ufficio, è un dato reale della tua prenotazione, ma da solo raramente cambia il pacchetto di cui hai bisogno. A decidere per primi il pacchetto sono il numero di ospiti e il tipo di evento. La sede determina soprattutto ciò su cui pianifichiamo una volta scelto il pacchetto: un matrimonio all'aperto in una villa usa lo stesso [Wedding Pack](/packages/wedding/) di un matrimonio al chiuso nella sala da ballo di un hotel con lo stesso numero di ospiti, ma la sede cambia il modo in cui pianifichiamo il passaggio dei cavi e l'esposizione agli agenti atmosferici, come spieghiamo per esteso nella nostra guida al [noleggio audiovisivo per eventi all'aperto](/blog/audio-visual-rental-for-outdoor-events/).
+
+Dove la sede conta direttamente, vale la pena dirlo durante la consulenza in ogni caso: la sala da ballo di un hotel può avere restrizioni audiovisive proprie o regole sui fornitori ammessi da confermare in anticipo, e una villa privata o un giardino incidono sull'accesso all'alimentazione elettrica e sui tempi di allestimento in modi che una sala riunioni al chiuso non conosce. Indicaci la sede quando ci contatti, anche se sono il numero di ospiti e il tipo di evento a fare la maggior parte del lavoro nell'abbinarti a un pacchetto.
+
+## Basic MICE Pack o MICE Pack: la vera differenza
+
+Sia il [Basic MICE Pack](/packages/basic-mice/) sia il [MICE Pack](/packages/mice/) servono per le riunioni aziendali, ed è proprio per questo che la differenza tra i due ci viene chiesta spesso. Il divario reale non è solo il limite di ospiti, 40 contro 120: è ciò che è standard e ciò che è facoltativo. Il proiettore, lo schermo e il microfono a collo d'oca del Basic MICE Pack sono pensati per una piccola riunione dirigenziale in cui il tecnico è davvero facoltativo, da qui l'extra a 240 euro al giorno invece di un'inclusione standard. Il MICE Pack aggiunge un display LED da 60 pollici, un secondo microfono wireless e un tecnico dedicato incluso di serie per un massimo di 6 ore continuative, perché una sala pensata per un massimo di 120 ospiti in genere ha bisogno di qualcuno che controlli attivamente i livelli, non di un passaggio occasionale.
+
+La differenza di prezzo, 295 euro contro 490 euro, riflette questa differenza di ciò che è incluso, non solo una sala più grande. Se il tuo evento è una piccola riunione interna con meno di 40 ospiti in cui ti senti a tuo agio a gestire da solo il tuo portatile e le tue slide, il Basic MICE Pack basta davvero. Se inviti ospiti esterni, hai un programma più lungo o semplicemente non vuoi essere tu a controllare il livello di un microfono durante la tua stessa presentazione, il tecnico incluso del MICE Pack è la vera ragione per passare al pacchetto superiore, non solo la capienza in più.
+
+## Ti serve un tecnico o puoi gestire tutto da solo?
+
+Se valga la pena avere un tecnico dipende da quanta attenzione vuoi avere libera durante il tuo evento, non da una regola fissa. La nostra guida al noleggio di un tecnico audiovisivo spiega tutto pacchetto per pacchetto: incluso e senza limite di ore sul [Wedding Pack](/packages/wedding/), incluso fino a 6 ore sul [MICE Pack](/packages/mice/), extra a pagamento sul [Basic MICE Pack](/packages/basic-mice/) e non previsto affatto sull'[Eco Pack](/packages/eco/) e sul [Product Presentation Pack](/packages/product-presentation/).
+
+Se scegli uno dei 3 pacchetti senza tecnico in loco, questo non significa che sei lasciato solo se qualcosa cambia a evento in corso. La nostra guida alla [risoluzione dei problemi dei sistemi audiovisivi](/blog/av-system-troubleshooting/) spiega esattamente che cosa controllare da solo, pacchetto per pacchetto, e siamo raggiungibili 24 ore su 24 se un controllo rapido non risolve. Decidere se vuoi quella copertura continua di un tecnico è un tema da affrontare durante la consulenza, perché può cambiare quale pacchetto ha senso anche con lo stesso numero di ospiti.
+
+## Allestimenti reali che abbiamo consegnato
+
+![Due casse HK Audio su treppiedi e un tavolo dei relatori con il marchio e microfoni a collo d'oca, davanti a un palco basso e a banner roll up, in una concessionaria Volvo a Malaga, con file di sgabelli.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-1536x1147.webp "L'impianto audio HK Audio fornito da Malaga Event Gear per una presentazione in una concessionaria Volvo a Malaga.")
+
+L'impianto audio HK Audio che Malaga Event Gear ha fornito per una presentazione in una concessionaria Volvo a Malaga, lo stesso evento in concessionaria della copertina di questa pagina. Abbiamo fornito soltanto l'impianto audio: casse HK Audio su treppiedi e microfoni a collo d'oca.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1266/', '/1267/'])} speed="normal" direction="left" />
+</div>
+
+## Con quanto anticipo prenotare
+
+Tutte le nostre prenotazioni richiedono un preavviso di almeno 24 ore, e questo vale per la consulenza quanto per l'attrezzatura: prima ci comunichi la data dell'evento, il numero di ospiti e la location, più margine abbiamo per abbinarti al pacchetto giusto e confermare la disponibilità di un tecnico, se ti serve. Se il tuo evento cade durante la stagione dei matrimoni, da aprile a ottobre, o durante la stagione dei congressi sulla Costa del Sol, contattaci il prima possibile, perché in quei periodi i pacchetti con tecnico e le prenotazioni più grandi del MICE Pack si esauriscono per primi.
+
+## Conclusione
+
+Scegliere il pacchetto audiovisivo giusto si riduce a 3 elementi concreti: il numero di ospiti, il tipo di evento e se vuoi un tecnico in loco, con la sede che plasma soprattutto i dettagli una volta che quei 3 elementi ti indicano un pacchetto. Chiederci aiuto non costa nulla di per sé: ogni prezzo del nostro catalogo copre già consegna, allestimento e collaudo. [Contattaci](/contact/) con la data, il numero di ospiti e la location del tuo evento e ti diremo con onestà quale dei nostri 5 pacchetti fa per te. Per tutta l'attrezzatura dietro ogni pacchetto di questa pagina, consulta la nostra [pagina del noleggio audiovisivo](/blog/audio-visual-rental/).
+
+## Domande frequenti
+
+### Quale pacchetto è adatto al mio evento?
+
+Dipende soprattutto dal numero di ospiti e dal tipo di evento: l'[Eco Pack](/packages/eco/) per una festa fino a 50 ospiti, il [Basic MICE Pack](/packages/basic-mice/) per una riunione fino a 40 ospiti, il [Product Presentation Pack](/packages/product-presentation/) per una presentazione, una presentazione in concessionaria o un lancio di prodotto a prescindere dal numero di ospiti, il [MICE Pack](/packages/mice/) per un evento aziendale più grande fino a 120 ospiti e il [Wedding Pack](/packages/wedding/) per un matrimonio fino a 80 ospiti. Vedi [La tabella decisionale: quale pacchetto per quale evento](#la-tabella-decisionale-quale-pacchetto-per-quale-evento) sopra per il dettaglio completo.
+
+### Di quali informazioni avete bisogno per aiutarmi a scegliere?
+
+La data dell'evento, la location, il numero di ospiti previsto e il tipo di attrezzatura o di pacchetto che ti interessa, anche se è solo una descrizione dell'evento e non il nome di un pacchetto. Vedi [Le informazioni di cui abbiamo bisogno da te](#le-informazioni-di-cui-abbiamo-bisogno-da-te) sopra.
+
+### La consulenza è gratuita?
+
+Sì. Chiedere quale pacchetto si adatta al tuo evento non costa nulla di per sé: ogni prezzo di pacchetto copre già consegna, allestimento e collaudo, e nei nostri prezzi non c'è alcuna tariffa separata per la conversazione che ti porta a scegliere. Vedi [Una consulenza è gratuita?](#una-consulenza-è-gratuita) sopra.
+
+### Mi serve un tecnico incluso o posso gestire io l'attrezzatura?
+
+Dipende da quanta attenzione vuoi avere libera durante il tuo evento, non da una regola fissa. La nostra guida al noleggio di un tecnico audiovisivo spiega tutto pacchetto per pacchetto, e la nostra guida alla [risoluzione dei problemi dei sistemi audiovisivi](/blog/av-system-troubleshooting/) spiega che cosa controllare da solo con i 3 pacchetti senza tecnico in loco. Vedi [Ti serve un tecnico o puoi gestire tutto da solo?](#ti-serve-un-tecnico-o-puoi-gestire-tutto-da-solo) sopra.
+
+### Il mio numero di ospiti cade tra due pacchetti, quale scelgo?
+
+Affidati al tipo di evento, non al numero esatto di ospiti. Una festa con qualche ospite in più rispetto al limite di 50 ospiti dell'[Eco Pack](/packages/eco/) è raramente un problema. Una riunione aziendale con qualche ospite in più rispetto al limite di 40 ospiti del [Basic MICE Pack](/packages/basic-mice/) è il segnale che conviene passare al [MICE Pack](/packages/mice/) invece di arrotondare per difetto. Vedi [Quando il numero di ospiti cade tra due pacchetti](#quando-il-numero-di-ospiti-cade-tra-due-pacchetti) sopra.
+
+### Perché il Product Presentation Pack non indica un numero di ospiti?
+
+Perché si sceglie in base a ciò che è il tuo evento, una presentazione aziendale, una presentazione in concessionaria o un lancio di prodotto, e non in base a quante persone partecipano. Il suo proiettore, lo schermo e l'unico microfono wireless funzionano allo stesso modo sia che 15 o 45 ospiti stiano guardando. Vedi [Perché il Product Presentation Pack non ha un limite di ospiti](#perché-il-product-presentation-pack-non-ha-un-limite-di-ospiti) sopra.
+
+### Qual è la vera differenza tra il Basic MICE Pack e il MICE Pack?
+
+Oltre al limite di ospiti, 40 contro 120, la vera differenza è ciò che è standard: il [MICE Pack](/packages/mice/) include di serie un tecnico per un massimo di 6 ore continuative e un display LED da 60 pollici, mentre il [Basic MICE Pack](/packages/basic-mice/) offre un tecnico solo come extra a pagamento da 240 euro al giorno. Vedi [Basic MICE Pack o MICE Pack](#basic-mice-pack-o-mice-pack-la-vera-differenza) sopra.
+
+### La sede dell'evento influisce sul pacchetto da scegliere?
+
+Raramente da sola. Il numero di ospiti e il tipo di evento decidono per primi il pacchetto, la sede plasma soprattutto ciò su cui pianifichiamo dopo: il passaggio dei cavi e l'esposizione agli agenti atmosferici all'aperto, oppure le restrizioni audiovisive in una sala da ballo di un hotel. Vedi [La sede dell'evento cambia il pacchetto di cui hai bisogno?](#la-sede-dellevento-cambia-il-pacchetto-di-cui-hai-bisogno) sopra.
+
+### Con quanto anticipo devo prenotare la consulenza?
+
+Il prima possibile, una volta fissata la data dell'evento. Le prenotazioni richiedono un preavviso di almeno 24 ore, e contattarci prima ci dà più margine per confermare il pacchetto giusto e la disponibilità di un tecnico, soprattutto durante la stagione dei matrimoni da aprile a ottobre. Vedi [Con quanto anticipo prenotare](#con-quanto-anticipo-prenotare) sopra.
+
+### Posso personalizzare un pacchetto dopo averlo già prenotato?
+
+Sì. Ogni pacchetto può essere ampliato con extra a pagamento: proiettori e schermi, microfoni aggiuntivi, leggii premium, palco e ore aggiuntive di tecnico. La nostra guida per [personalizzare un pacchetto di noleggio audiovisivo a Malaga](/blog/how-to-customize-av-rental-packages/) contiene l'elenco completo con i prezzi.
+
+### E se non so affatto di che cosa ho bisogno?
+
+Descrivi il tuo evento invece di provare a indovinare il nome di un pacchetto. Indicaci la data, il numero di ospiti, la location e che tipo di evento è, una festa, una riunione, una presentazione o un matrimonio, e lo abbineremo noi a uno dei nostri 5 pacchetti. [Contattaci](/contact/) e parti dall'evento, non dal catalogo.

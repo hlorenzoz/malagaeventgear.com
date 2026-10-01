@@ -1,0 +1,193 @@
+---
+title: "Conseil en location audiovisuelle à Malaga, en Espagne"
+description: "Conseil en location audiovisuelle à Malaga, en Espagne : un tableau gratuit selon les invités et l'événement, pour savoir lequel de nos 5 forfaits convient."
+excerpt: "Conseil en location audiovisuelle à Malaga : comment associer votre événement à l'un de nos 5 forfaits audiovisuels avant de réserver quoi que ce soit, avec un vrai tableau selon le nombre d'invités et le type d'événement tiré de notre propre catalogue, ce qui se passe entre deux forfaits et ce dont nous avons réellement besoin de vous."
+publishDate: "2026-10-01"
+sourceUpdated: "2026-10-01"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Une recherche en anglais sur "AV equipment consultations" ramène surtout des listes de contrôle génériques, des articles du type "questions à poser à votre prestataire audiovisuel" qui se lisent de la même façon pour un mariage et pour un lancement de produit. Ce n'est pas la décision qui bloque vraiment la plupart des gens avant de réserver chez nous. La vraie question, celle que tranche un conseil en location audiovisuelle à Malaga, en Espagne, est plus étroite : lequel de nos 5 forfaits fixes convient à votre événement précis, avant que nous livrions la moindre enceinte.
+
+Notre guide pour [personnaliser un forfait de location audiovisuelle à Malaga](/blog/how-to-customize-av-rental-packages/) couvre déjà ce qui se passe une fois votre forfait choisi, c'est-à-dire la liste des options avec leur prix. Cette page se situe une étape avant : comment trouver le bon forfait dès le départ, à partir des mêmes nombres d'invités, types d'événement et règles de technicien qui figurent déjà dans notre propre catalogue, réunis ici en un seul endroit.
+
+[Contactez-nous](/contact/) en indiquant la date de votre événement, le nombre d'invités et le lieu, et nous vous dirons honnêtement quel forfait convient, sans frais pour poser la question.
+
+## Table des matières
+
+-   [En bref](#en-bref)
+-   [Points clés](#points-clés)
+-   [Un conseil est-il gratuit ?](#un-conseil-est-il-gratuit-)
+-   [Les informations dont nous avons besoin](#les-informations-dont-nous-avons-besoin)
+-   [Le tableau de décision : quel forfait pour quel événement](#le-tableau-de-décision--quel-forfait-pour-quel-événement)
+-   [Quand votre nombre d'invités se situe entre deux forfaits](#quand-votre-nombre-dinvités-se-situe-entre-deux-forfaits)
+-   [Pourquoi le Product Presentation Pack n'a pas de plafond d'invités](#pourquoi-le-product-presentation-pack-na-pas-de-plafond-dinvités)
+-   [Votre lieu change-t-il le forfait dont vous avez besoin ?](#votre-lieu-change-t-il-le-forfait-dont-vous-avez-besoin-)
+-   [Basic MICE Pack ou MICE Pack : la vraie différence](#basic-mice-pack-ou-mice-pack--la-vraie-différence)
+-   [Faut-il un technicien, ou pouvez-vous tout gérer vous-même ?](#faut-il-un-technicien-ou-pouvez-vous-tout-gérer-vous-même-)
+-   [Des installations réelles que nous avons livrées](#des-installations-réelles-que-nous-avons-livrées)
+-   [Combien de temps à l'avance réserver ?](#combien-de-temps-à-lavance-réserver-)
+-   [Conclusion](#conclusion)
+-   [Questions fréquentes](#questions-fréquentes)
+    -   [Quel forfait convient à mon événement ?](#quel-forfait-convient-à-mon-événement-)
+    -   [De quelles informations avez-vous besoin pour m'aider à choisir ?](#de-quelles-informations-avez-vous-besoin-pour-maider-à-choisir-)
+    -   [Un conseil est-il gratuit ?](#un-conseil-est-il-gratuit--1)
+    -   [Ai-je besoin d'un technicien inclus, ou puis-je gérer le matériel moi-même ?](#ai-je-besoin-dun-technicien-inclus-ou-puis-je-gérer-le-matériel-moi-même-)
+    -   [Mon nombre d'invités se situe entre deux forfaits, lequel choisir ?](#mon-nombre-dinvités-se-situe-entre-deux-forfaits-lequel-choisir-)
+    -   [Pourquoi le Product Presentation Pack n'indique-t-il pas de nombre d'invités ?](#pourquoi-le-product-presentation-pack-nindique-t-il-pas-de-nombre-dinvités-)
+    -   [Quelle est la vraie différence entre le Basic MICE Pack et le MICE Pack ?](#quelle-est-la-vraie-différence-entre-le-basic-mice-pack-et-le-mice-pack-)
+    -   [Mon lieu influence-t-il le forfait que je dois choisir ?](#mon-lieu-influence-t-il-le-forfait-que-je-dois-choisir-)
+    -   [Combien de temps à l'avance dois-je demander conseil ?](#combien-de-temps-à-lavance-dois-je-demander-conseil-)
+    -   [Puis-je personnaliser un forfait après l'avoir déjà réservé ?](#puis-je-personnaliser-un-forfait-après-lavoir-déjà-réservé-)
+    -   [Et si je ne sais pas du tout ce dont j'ai besoin ?](#et-si-je-ne-sais-pas-du-tout-ce-dont-jai-besoin-)
+
+## En bref
+
+---
+
+Un conseil en location audiovisuelle à Malaga avec Malaga Event Gear est une conversation gratuite pour savoir lequel de nos 5 forfaits fixes convient à votre événement, à partir de votre nombre réel d'invités, de votre type d'événement et de votre lieu. Ce n'est ni une prestation de conception payante, ni un catalogue de matériel vierge à composer de zéro. Nous avons conçu ce guide pour exposer la décision elle-même, forfait contre événement, en un seul endroit, avec des chiffres qui existent déjà dans notre propre catalogue.
+
+Cette page présente le tableau de décision complet, ce qu'il faut faire quand votre nombre d'invités tombe entre deux forfaits, pourquoi un forfait ignore complètement la question du nombre d'invités, et ce dont nous avons réellement besoin de vous pour vous donner une réponse franche. [Contactez-nous](/contact/) avec les détails de votre événement et nous vous dirons honnêtement quel forfait convient.
+
+## Points clés
+
+---
+
+-   Nous demander quel forfait convient à votre événement ne coûte rien en soi. Chaque prix de forfait de notre catalogue couvre déjà la livraison, l'installation et les tests : il n'existe aucun frais de conseil distinct.
+
+-   5 forfaits, 5 règles différentes pour le nombre d'invités : 4 sont plafonnés par le nombre d'invités, et un seul, le [Product Presentation Pack](/packages/product-presentation/), se choisit plutôt selon le type d'événement.
+
+-   Un nombre d'invités situé entre deux plafonds n'est pas un pile ou face. Le type d'événement indique dans quel sens pencher, pas le nombre exact d'invités.
+
+-   Nous avons besoin de 4 informations pour vous aider correctement : la date de votre événement, le lieu, le nombre d'invités attendu, et si vous avez déjà un forfait en tête ou seulement une description de l'événement.
+
+-   Cette page porte uniquement sur le choix d'un forfait avant de réserver. Pour ce qui se passe une fois qu'un technicien est sur place, consultez notre guide sur l'assistance technique pour événements.
+
+## Un conseil est-il gratuit ?
+
+Oui, tout simplement : nous indiquer la date de votre événement, le nombre d'invités et le lieu, puis demander quel forfait convient, ne coûte rien. Chaque prix de notre catalogue, de l'[Eco Pack](/packages/eco/) à 290 euros jusqu'au [Wedding Pack](/packages/wedding/) à 650 euros, couvre déjà la livraison, l'installation, les tests et le démontage. Notre tarification ne comporte aucune ligne distincte pour la conversation qui vous mène au bon forfait.
+
+Cela change la façon d'aborder la prise de contact. Vous n'avez pas besoin de savoir à l'avance quel forfait réserver avant de nous écrire. Décrire votre événement, le nombre d'invités et le lieu suffit, et l'associer à l'un de nos 5 forfaits, c'est exactement à cela que servent le reste de cette page et une vraie conversation avec nous.
+
+<InlineCTA />
+
+## Les informations dont nous avons besoin
+
+Pour vous répondre avec précision, nous avons besoin de 4 informations réelles, les mêmes 4 champs qui alimentent déjà chaque devis que nous envoyons : la date de votre événement, le lieu, le nombre d'invités attendu, et le type de matériel ou de forfait qui vous intéresse, qu'il s'agisse du nom d'un forfait précis ou d'une simple description de ce que vous prévoyez. Nous répondons en anglais ou en espagnol, et vous pouvez nous joindre par téléphone au 666 346 911, par WhatsApp ou par e-mail.
+
+Une fois ces 4 informations en main, notre processus suit les mêmes 4 étapes que n'importe quelle autre réservation : vous nous décrivez votre événement, nous envoyons un devis, nous confirmons ensemble les détails, puis nous livrons. Les réservations nécessitent un préavis d'au moins 24 heures, donc plus tôt vous nous contactez avec ces 4 informations, plus nous avons de marge pour trouver le bon forfait du premier coup plutôt que de l'ajuster au dernier moment.
+
+## Le tableau de décision : quel forfait pour quel événement
+
+Voici le tableau : nombre d'invités, type d'événement, règle du technicien et prix, côte à côte, pour les 5 forfaits, chaque chiffre provenant de notre propre catalogue.
+
+| Forfait | Prix (HT) | Plafond d'invités | Ce qui décide | Technicien | Événement type |
+| --- | --- | --- | --- | --- | --- |
+| [Eco Pack](/packages/eco/) | 290 euros | Jusqu'à 50 invités | Nombre d'invités | Non proposé, même en option payante | Fête privée ou rencontre entre proches |
+| [Basic MICE Pack](/packages/basic-mice/) | 295 euros | Jusqu'à 40 invités | Nombre d'invités | Option payante, 240 euros par jour | Petite réunion de direction ou salle de conseil |
+| [Product Presentation Pack](/packages/product-presentation/) | 310 euros | Aucun plafond d'invités publié | Type d'événement : présentation d'entreprise, présentation en concession ou lancement de produit | Non proposé, même en option payante | Présentation menée par le présentateur lui-même |
+| [MICE Pack](/packages/mice/) | 490 euros | Jusqu'à 120 invités | Nombre d'invités | Inclus, jusqu'à 6 heures continues, 40 euros par heure supplémentaire | Conférence plus importante ou lancement de produit |
+| [Wedding Pack](/packages/wedding/) | 650 euros | Jusqu'à 80 invités | Nombre d'invités | Inclus, tout l'événement, sans plafond d'heures | De la cérémonie de mariage jusqu'à la danse |
+
+Classé par prix, le tableau se classe aussi à peu près par échelle, et ce n'est pas un hasard : le nombre d'invités et la couverture technique augmentent ensemble avec le prix, le [Product Presentation Pack](/packages/product-presentation/) étant la seule exception volontaire, au milieu. Consultez notre [page des forfaits](/packages/) pour la liste complète du matériel derrière chaque ligne.
+
+## Quand votre nombre d'invités se situe entre deux forfaits
+
+Une question fréquente : que se passe-t-il quand votre nombre d'invités se situe entre deux plafonds, par exemple 45 à 55 invités, entre le plafond de 40 invités du [Basic MICE Pack](/packages/basic-mice/) et le plafond de 50 invités de l'[Eco Pack](/packages/eco/) ? La réponse honnête ne vient pas des chiffres seuls. Elle dépend du type d'événement que vous organisez.
+
+S'il s'agit d'une fête privée ou d'une rencontre entre proches avec 45 à 55 invités, le plafond de 50 invités de l'[Eco Pack](/packages/eco/) vous couvre déjà confortablement : surveillez le haut de cette fourchette plutôt que d'y voir un mur infranchissable. S'il s'agit d'une réunion ou d'une présentation d'entreprise avec ce même nombre d'invités, la bonne démarche n'est pas de la faire entrer de force dans le plafond de 40 invités du [Basic MICE Pack](/packages/basic-mice/). La sonorisation de ce forfait est dimensionnée pour une salle de conseil, pas pour une salle qui dépasse sa limite de 5 à 15 invités. Passez plutôt au [MICE Pack](/packages/mice/), conçu pour jusqu'à 120 invités, au lieu d'étirer un forfait au-delà de la taille de salle pour laquelle il a réellement été conçu.
+
+La règle générale : avoir quelques invités de plus ou de moins qu'un plafond compte moins que la question de savoir si votre type d'événement correspond au matériel. Une fête avec 5 invités de plus que le plafond de l'Eco Pack n'est qu'un arrondi. Une réunion d'entreprise avec 5 invités de plus que le plafond du Basic MICE Pack est le signe qu'il faut regarder le forfait du dessus, et non arrondir vers le bas.
+
+## Pourquoi le Product Presentation Pack n'a pas de plafond d'invités
+
+Tous les autres forfaits de notre catalogue indiquent un nombre maximal d'invités. Le [Product Presentation Pack](/packages/product-presentation/) n'en indique pas, et ce n'est pas une lacune de nos données : c'est une différence voulue dans la façon dont ce forfait se choisit. Sa propre description dans le catalogue nomme directement les événements pour lesquels il est conçu : une présentation d'entreprise, une présentation en concession ou un lancement de produit, déterminés par ce qu'est réellement l'événement, et non par le nombre de chaises dans la salle.
+
+Le raisonnement tient dès qu'on regarde ce que contient le forfait : un vidéoprojecteur de 5000 lumens et un écran, une petite console de mixage et un microphone main sans fil pour la personne qui présente. Il est dimensionné pour un présentateur et un public qui regarde un écran : une salle d'exposition de concession avec 15 invités et une présentation d'entreprise avec 45 invités utilisent le même matériel de la même façon, des visuels projetés et la voix d'un seul intervenant renforcée dans la salle. Le nombre d'invités ne change réellement rien à ce que cette installation doit faire. Le type d'événement, si.
+
+## Votre lieu change-t-il le forfait dont vous avez besoin ?
+
+Le type de lieu, intérieur ou extérieur, salle de bal d'hôtel, villa privée ou bureau, est une vraie donnée de votre réservation, mais il change rarement à lui seul le forfait dont vous avez besoin. Le nombre d'invités et le type d'événement déterminent d'abord le forfait. Le lieu détermine surtout ce que nous prévoyons une fois ce forfait choisi : un mariage en extérieur dans une villa utilise le même [Wedding Pack](/packages/wedding/) qu'un mariage en intérieur dans une salle de bal d'hôtel de même taille, mais le lieu change la façon dont nous planifions le passage des câbles et l'exposition aux intempéries, ce que détaille notre guide de [location audiovisuelle pour événements en extérieur](/blog/audio-visual-rental-for-outdoor-events/).
+
+Là où le lieu compte directement, mieux vaut le mentionner pendant votre conseil quoi qu'il en soit : une salle de bal d'hôtel peut avoir ses propres restrictions audiovisuelles ou des règles de prestataires agréés à confirmer à l'avance, et une villa privée ou un jardin influence l'accès à l'électricité et le temps d'installation d'une façon qu'une salle de réunion en intérieur ne connaît pas. Indiquez-nous votre lieu quand vous nous contactez, même si ce sont le nombre d'invités et le type d'événement qui font l'essentiel du travail pour vous associer à un forfait.
+
+## Basic MICE Pack ou MICE Pack : la vraie différence
+
+Le [Basic MICE Pack](/packages/basic-mice/) et le [MICE Pack](/packages/mice/) s'adressent tous deux aux réunions d'entreprise, ce qui explique justement pourquoi on nous interroge souvent sur la différence entre les deux. L'écart réel ne se limite pas au plafond d'invités, 40 contre 120 : il porte sur ce qui est standard et ce qui est optionnel. Le vidéoprojecteur, l'écran et le microphone col de cygne du Basic MICE Pack sont conçus pour une petite réunion de direction où un technicien est vraiment facultatif, d'où l'option à 240 euros par jour plutôt qu'une inclusion standard. Le MICE Pack ajoute un écran LED de 60 pouces, un deuxième microphone sans fil et un technicien dédié inclus de série pendant 6 heures continues au maximum, parce qu'une salle prévue pour jusqu'à 120 invités a généralement besoin de quelqu'un qui surveille activement les niveaux, et non d'un passage occasionnel.
+
+L'écart de prix, 295 euros contre 490 euros, reflète cette différence de contenu, pas seulement une salle plus grande. Si votre événement est une petite réunion interne de moins de 40 invités où vous êtes à l'aise pour gérer vous-même votre ordinateur portable et vos diapositives, le Basic MICE Pack suffit réellement. Si vous invitez des personnes extérieures, si vous avez un programme plus long, ou si vous ne voulez simplement pas être celui qui surveille le niveau d'un microphone pendant sa propre présentation, le technicien inclus du MICE Pack est la vraie raison de passer au forfait supérieur, et pas seulement la capacité d'invités supplémentaire.
+
+## Faut-il un technicien, ou pouvez-vous tout gérer vous-même ?
+
+L'intérêt d'avoir un technicien dépend de la disponibilité d'esprit que vous voulez garder pendant votre propre événement, et non d'une règle fixe. Notre guide de la location d'un technicien audiovisuel détaille tout, forfait par forfait : inclus et sans plafond d'heures avec le [Wedding Pack](/packages/wedding/), inclus jusqu'à 6 heures avec le [MICE Pack](/packages/mice/), en option payante avec le [Basic MICE Pack](/packages/basic-mice/), et pas proposé du tout avec l'[Eco Pack](/packages/eco/) ni le [Product Presentation Pack](/packages/product-presentation/).
+
+Si vous choisissez l'un des 3 forfaits sans technicien sur place, cela ne veut pas dire que vous êtes livré à vous-même si quelque chose change en cours d'événement. Notre guide de [dépannage des systèmes audiovisuels](/blog/av-system-troubleshooting/) explique exactement quoi vérifier vous-même, forfait par forfait, et nous sommes joignables 24 heures sur 24 si une vérification rapide ne règle pas le problème. Décider si vous voulez cette présence continue d'un technicien mérite d'être évoqué pendant votre conseil, car cela peut changer le forfait le plus adapté, même avec le même nombre d'invités.
+
+## Des installations réelles que nous avons livrées
+
+![Deux enceintes HK Audio sur pieds et une table d'intervenants aux couleurs de la marque avec des microphones col de cygne, devant une petite scène et des kakémonos dans une concession Volvo à Malaga, avec des rangées de tabourets.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-1536x1147.webp "Le système de sonorisation HK Audio fourni par Malaga Event Gear pour une présentation dans une concession Volvo à Malaga.")
+
+Le système de sonorisation HK Audio que Malaga Event Gear a fourni pour une présentation dans une concession Volvo à Malaga, le même événement en concession que la couverture de cette page. Nous avons fourni uniquement le système de sonorisation : des enceintes HK Audio sur pieds et des microphones col de cygne.
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1266/', '/1267/'])} speed="normal" direction="left" />
+</div>
+
+## Combien de temps à l'avance réserver ?
+
+Toutes nos réservations nécessitent un préavis d'au moins 24 heures, et cela vaut autant pour le conseil que pour le matériel : plus tôt vous nous indiquez la date de votre événement, le nombre d'invités et le lieu, plus nous avons de marge pour vous associer au bon forfait et confirmer la disponibilité d'un technicien si vous en voulez un. Si votre événement tombe pendant la saison des mariages, d'avril à octobre, ou pendant la saison des congrès sur la Costa del Sol, contactez-nous le plus tôt possible, car les forfaits avec technicien et les grosses réservations de MICE Pack se remplissent en premier pendant ces périodes.
+
+## Conclusion
+
+Choisir le bon forfait audiovisuel revient à 3 critères réels : votre nombre d'invités, votre type d'événement, et le fait de vouloir ou non un technicien sur place, le lieu façonnant surtout les détails une fois que ces 3 critères vous orientent vers un forfait. Nous demander de vous aider ne coûte rien en soi : chaque prix de notre catalogue couvre déjà la livraison, l'installation et les tests. [Contactez-nous](/contact/) avec la date, le nombre d'invités et le lieu de votre événement, et nous vous dirons honnêtement lequel de nos 5 forfaits convient. Pour toute la gamme de matériel derrière chaque forfait de cette page, consultez notre [page de location audiovisuelle](/blog/audio-visual-rental/).
+
+## Questions fréquentes
+
+### Quel forfait convient à mon événement ?
+
+Cela dépend surtout de votre nombre d'invités et de votre type d'événement : l'[Eco Pack](/packages/eco/) pour une fête jusqu'à 50 invités, le [Basic MICE Pack](/packages/basic-mice/) pour une réunion jusqu'à 40 invités, le [Product Presentation Pack](/packages/product-presentation/) pour une présentation, une présentation en concession ou un lancement de produit quel que soit le nombre d'invités, le [MICE Pack](/packages/mice/) pour un événement d'entreprise plus important jusqu'à 120 invités, et le [Wedding Pack](/packages/wedding/) pour un mariage jusqu'à 80 invités. Voir [Le tableau de décision : quel forfait pour quel événement](#le-tableau-de-décision--quel-forfait-pour-quel-événement) ci-dessus pour le détail complet.
+
+### De quelles informations avez-vous besoin pour m'aider à choisir ?
+
+La date de votre événement, le lieu, le nombre d'invités attendu, et le type de matériel ou de forfait qui vous intéresse, même s'il s'agit seulement d'une description de l'événement plutôt que du nom d'un forfait. Voir [Les informations dont nous avons besoin](#les-informations-dont-nous-avons-besoin) ci-dessus.
+
+### Un conseil est-il gratuit ?
+
+Oui. Demander quel forfait convient à votre événement ne coûte rien en soi : chaque prix de forfait couvre déjà la livraison, l'installation et les tests, et notre tarification ne comporte aucun frais distinct pour la conversation qui vous y mène. Voir [Un conseil est-il gratuit ?](#un-conseil-est-il-gratuit-) ci-dessus.
+
+### Ai-je besoin d'un technicien inclus, ou puis-je gérer le matériel moi-même ?
+
+Cela dépend de la disponibilité d'esprit que vous voulez garder pendant votre événement, et non d'une règle fixe. Notre guide de la location d'un technicien audiovisuel détaille tout, forfait par forfait, et notre guide de [dépannage des systèmes audiovisuels](/blog/av-system-troubleshooting/) explique quoi vérifier vous-même avec les 3 forfaits sans technicien sur place. Voir [Faut-il un technicien, ou pouvez-vous tout gérer vous-même ?](#faut-il-un-technicien-ou-pouvez-vous-tout-gérer-vous-même-) ci-dessus.
+
+### Mon nombre d'invités se situe entre deux forfaits, lequel choisir ?
+
+Fiez-vous au type d'événement, pas au nombre exact d'invités. Une fête avec quelques invités de plus que le plafond de 50 invités de l'[Eco Pack](/packages/eco/) pose rarement problème. Une réunion d'entreprise avec quelques invités de plus que le plafond de 40 invités du [Basic MICE Pack](/packages/basic-mice/) est le signe qu'il faut passer au [MICE Pack](/packages/mice/) plutôt qu'arrondir vers le bas. Voir [Quand votre nombre d'invités se situe entre deux forfaits](#quand-votre-nombre-dinvités-se-situe-entre-deux-forfaits) ci-dessus.
+
+### Pourquoi le Product Presentation Pack n'indique-t-il pas de nombre d'invités ?
+
+Parce qu'il se choisit selon ce qu'est votre événement, une présentation d'entreprise, une présentation en concession ou un lancement de produit, et non selon le nombre de personnes présentes. Son vidéoprojecteur, son écran et son unique microphone sans fil fonctionnent de la même façon, que 15 ou 45 invités regardent. Voir [Pourquoi le Product Presentation Pack n'a pas de plafond d'invités](#pourquoi-le-product-presentation-pack-na-pas-de-plafond-dinvités) ci-dessus.
+
+### Quelle est la vraie différence entre le Basic MICE Pack et le MICE Pack ?
+
+Au-delà du plafond d'invités, 40 contre 120, la vraie différence tient à ce qui est standard : le [MICE Pack](/packages/mice/) inclut de série un technicien pendant 6 heures continues au maximum et un écran LED de 60 pouces, alors que le [Basic MICE Pack](/packages/basic-mice/) ne propose un technicien qu'en option payante à 240 euros par jour. Voir [Basic MICE Pack ou MICE Pack](#basic-mice-pack-ou-mice-pack--la-vraie-différence) ci-dessus.
+
+### Mon lieu influence-t-il le forfait que je dois choisir ?
+
+Rarement à lui seul. Le nombre d'invités et le type d'événement déterminent d'abord le forfait, et le lieu façonne surtout ce que nous prévoyons ensuite : le passage des câbles et l'exposition aux intempéries en extérieur, ou les restrictions audiovisuelles d'une salle de bal d'hôtel. Voir [Votre lieu change-t-il le forfait dont vous avez besoin ?](#votre-lieu-change-t-il-le-forfait-dont-vous-avez-besoin-) ci-dessus.
+
+### Combien de temps à l'avance dois-je demander conseil ?
+
+Le plus tôt possible une fois la date de votre événement fixée. Les réservations nécessitent un préavis d'au moins 24 heures, et nous contacter plus tôt nous laisse plus de marge pour confirmer le bon forfait et la disponibilité d'un technicien, surtout pendant la saison des mariages, d'avril à octobre. Voir [Combien de temps à l'avance réserver ?](#combien-de-temps-à-lavance-réserver-) ci-dessus.
+
+### Puis-je personnaliser un forfait après l'avoir déjà réservé ?
+
+Oui. Chaque forfait peut être complété par des options payantes : vidéoprojecteurs et écrans, microphones supplémentaires, pupitres premium, scène et heures de technicien supplémentaires. Notre guide pour [personnaliser un forfait de location audiovisuelle à Malaga](/blog/how-to-customize-av-rental-packages/) contient la liste complète avec les prix.
+
+### Et si je ne sais pas du tout ce dont j'ai besoin ?
+
+Décrivez votre événement plutôt que d'essayer de deviner le nom d'un forfait. Indiquez-nous la date, le nombre d'invités, le lieu et le type d'événement, fête, réunion, présentation ou mariage, et nous l'associerons pour vous à l'un de nos 5 forfaits. [Contactez-nous](/contact/) et partez de l'événement, pas du catalogue.
