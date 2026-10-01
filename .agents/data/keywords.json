@@ -83848,6 +83848,24 @@
       }
     },
     {
+      "id": "how-to-record-live-music-performance",
+      "question": "how to record live music performance",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "seeds": [
+            "audio-visual-rental-for-music-performances"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-to-use-adaptiq-audio-calibration-system",
       "question": "how to use adaptiq audio calibration system",
       "keywordId": "audio-system-calibration",
@@ -85908,6 +85926,24 @@
       }
     },
     {
+      "id": "what-cuisine-is-gala",
+      "question": "what cuisine is gala",
+      "keywordId": "audio-visual-rental-for-gala-dinners",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "seeds": [
+            "audio-visual-rental-for-gala-dinners"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-do-i-need-to-rent-for-an-outdoor-wedding",
       "question": "What do I need to rent for an outdoor wedding?",
       "keywordId": "outdoor-wedding-rental-considerations",
@@ -86116,6 +86152,24 @@
           "lastSeen": "2026-10-01",
           "urls": [
             "/blog/audio-visual-rental-for-private-parties/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-food-is-served-at-a-gala-dinner",
+      "question": "what food is served at a gala dinner",
+      "keywordId": "audio-visual-rental-for-gala-dinners",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "seeds": [
+            "audio-visual-rental-for-gala-dinners"
           ]
         }
       }
@@ -86463,6 +86517,24 @@
       }
     },
     {
+      "id": "what-is-a-gala-dinner-in-spain",
+      "question": "what is a gala dinner in spain",
+      "keywordId": "audio-visual-rental-for-gala-dinners",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "seeds": [
+            "audio-visual-rental-for-gala-dinners"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-is-a-gooseneck-microphone",
       "question": "What is a gooseneck microphone?",
       "keywordId": "headset-lavalier-microphone-rental",
@@ -86564,9 +86636,10 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30",
+          "lastSeen": "2026-10-01",
           "seeds": [
-            "audio-visual-rental-companies"
+            "audio-visual-rental-companies",
+            "audio-visual-rental-for-product-launches"
           ]
         }
       }
@@ -86657,6 +86730,24 @@
           "lastSeen": "2026-10-01",
           "urls": [
             "/blog/audio-system-calibration/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-is-gala-food-theme",
+      "question": "what is gala food theme",
+      "keywordId": "audio-visual-rental-for-gala-dinners",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-01",
+          "lastSeen": "2026-10-01",
+          "seeds": [
+            "audio-visual-rental-for-gala-dinners"
           ]
         }
       }

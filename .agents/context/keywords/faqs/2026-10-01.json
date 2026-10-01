@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-01",
+  "run": {
+    "status": "ok",
+    "calls": [
+      {
+        "tool": "google_suggestions",
+        "args": "{\"keywords\":[\"audio visual rental\",\"audio visual rental for art exhibitions\",\"audio visual rental for corporate events\",\"audio visual rental for corporate meetings\",\"audio visual rental for gala dinners\",\"audio visual rental for music performances\",\"audio visual rental for outdoor events\",\"audio visual rental for press conferences\",\"audio visual rental for private parties\",\"audio visual rental for product launches\"],\"language\":\"en\",\"country\":\"es\"}",
+        "outcome": "ok"
+      }
+    ]
+  },
+  "suggestions": [
+    { "seed": "audio-visual-rental-for-gala-dinners", "phrase": "what is gala food theme" },
+    { "seed": "audio-visual-rental-for-gala-dinners", "phrase": "what is a gala dinner in spain" },
+    { "seed": "audio-visual-rental-for-gala-dinners", "phrase": "what cuisine is gala" },
+    { "seed": "audio-visual-rental-for-gala-dinners", "phrase": "what food is served at a gala dinner" },
+    { "seed": "audio-visual-rental-for-music-performances", "phrase": "how to record live music performance" },
+    { "seed": "audio-visual-rental-for-product-launches", "phrase": "what is an audiovisual platform" }
+  ]
+}
