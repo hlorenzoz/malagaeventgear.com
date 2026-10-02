@@ -49562,8 +49562,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/sound-system-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -49612,6 +49612,10 @@
             "ctr": 0,
             "position": 30
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02"
         },
         "content-plan": {
           "firstSeen": "2026-10-01",
@@ -57206,8 +57210,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/sound-system-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -57245,6 +57249,10 @@
               "2026-08": 140
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02"
         },
         "content-plan": {
           "firstSeen": "2026-10-01",
@@ -63991,8 +63999,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/sound-system-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -64030,6 +64038,10 @@
               "2026-08": 110
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02"
         },
         "content-plan": {
           "firstSeen": "2026-10-01",
@@ -65319,8 +65331,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/sound-system-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -65358,6 +65370,10 @@
               "2026-08": 140
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02"
         },
         "content-plan": {
           "firstSeen": "2026-10-01",
@@ -80303,6 +80319,24 @@
           "lastSeen": "2026-10-02",
           "urls": [
             "/blog/projector-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "do-you-deliver-sound-system-rental-near-me-outside-malaga-city",
+      "question": "Do you deliver sound system rental near me outside Malaga city?",
+      "keywordId": "sound-system-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/sound-system-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "urls": [
+            "/blog/sound-system-rental/"
           ]
         }
       }
