@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-02",
+  "taskId": "#T0043",
+  "slug": "audio-visual-rental-for-outdoor-events",
+  "searchTerm": "audio visual rental for outdoor events Do you rent an inflatable movie screen for an outdoor event?",
+  "status": "partial",
+  "reason": "Google position 2 (funflicks.com) returned HTTP 403 Forbidden on fetch, so position 4 (freedomfunusa.com) was read instead; the SERP is dominated by US backyard-party rental companies with US-specific terms, discarded below.",
+  "serp": {
+    "query": "inflatable movie screen rental for outdoor events",
+    "localized": false,
+    "results": [
+      {
+        "rank": 1,
+        "url": "https://rentforevent.com/product/inflatable-outdoor-projector-movie-screen/",
+        "title": "Inflatable Outdoor Projector Movie Screen"
+      },
+      {
+        "rank": 2,
+        "url": "https://www.magicjumprentals.com/rentals/47_projector-screens/427_inflatable-movie-screen",
+        "title": "Inflatable Movie Screen Rental, Outdoor Movie Screen, Backyard Movie Screen"
+      },
+      {
+        "rank": 3,
+        "url": "https://www.freedomfunusa.com/category/outdoor-movie-screen",
+        "title": "Projector & Outdoor Movie Screen Rental"
+      }
+    ]
+  },
+  "terms": [
+    { "term": "Inflatable movie screen", "kind": "entity", "seenIn": 3 },
+    { "term": "Projector", "kind": "entity", "seenIn": 3 },
+    { "term": "Sound system", "kind": "related", "seenIn": 3 },
+    { "term": "Delivery and setup", "kind": "related", "seenIn": 3 },
+    { "term": "Screen size options", "kind": "related", "seenIn": 3 },
+    { "term": "Drive-in movie", "kind": "entity", "seenIn": 2 },
+    { "term": "Outdoor movie night", "kind": "related", "seenIn": 2 },
+    { "term": "Backyard party", "kind": "related", "seenIn": 2 },
+    { "term": "Corporate event", "kind": "entity", "seenIn": 2 },
+    { "term": "What is the cancellation policy?", "kind": "question", "seenIn": 2 },
+    { "term": "How large is the movie screen?", "kind": "question", "seenIn": 2 },
+    { "term": "Is setup included?", "kind": "question", "seenIn": 2 },
+    { "term": "Shure wireless microphone", "kind": "entity", "seenIn": 1 },
+    { "term": "Fast-fold projector screen", "kind": "entity", "seenIn": 1 },
+    { "term": "LED video wall", "kind": "entity", "seenIn": 1 },
+    { "term": "Portable generator", "kind": "entity", "seenIn": 1 },
+    { "term": "Blower pump", "kind": "entity", "seenIn": 1 },
+    { "term": "Popcorn machine rental", "kind": "entity", "seenIn": 1 },
+    { "term": "Is a generator included?", "kind": "question", "seenIn": 1 },
+    { "term": "PA speakers", "kind": "entity", "seenIn": 1 },
+    { "term": "Blu-ray player", "kind": "entity", "seenIn": 1 },
+    { "term": "Audio mixer", "kind": "entity", "seenIn": 1 },
+    { "term": "Lumen brightness", "kind": "related", "seenIn": 1 },
+    { "term": "Movie licensing", "kind": "related", "seenIn": 1 },
+    { "term": "How many guests can attend?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Virtual event production", "reason": "unrelated digital/virtual service, not relevant to an outdoor inflatable screen FAQ" },
+    { "term": "Hybrid event production", "reason": "unrelated digital/hybrid service, not relevant to an outdoor inflatable screen FAQ" },
+    { "term": "SIOTO certification", "reason": "US-specific inflatable-operator certification body, not applicable in Spain" },
+    { "term": "Two 20 AMP power outlets", "reason": "US electrical standard (120V/20A circuits), Spain uses 230V" },
+    { "term": "HOA community night", "reason": "US homeowner-association culture term, not applicable in Spain" },
+    { "term": "Tailgating party", "reason": "US sports-culture event type, not applicable in Spain" },
+    { "term": "Crystal-clear picture", "reason": "marketing slogan, not vocabulary" }
+  ]
+}
