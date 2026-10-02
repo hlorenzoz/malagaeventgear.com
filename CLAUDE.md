@@ -1577,9 +1577,10 @@ cadena y sus piezas deterministas (todas en `scripts/keywords/`, strict TDD):
   se suma a cada keyword del plan y por eso `content-candidates` no la vuelve a proponer. NUNCA
   cambia el estado, y una keyword inexistente entra como `idea`. (2) `importers/plan-coverage.ts` pasa a `covered` (con el `targetUrl`) una keyword `idea` SOLO si un plan commiteado la lista en un ítem `add-section` o `add-faq` y el post destino ya tiene lo pedido: un H2/H3 que contiene el `heading` del ítem, o una pregunta igual a su `question` en `post-faqs.json` (ambos normalizados). Una keyword que nunca se planificó no se toca, aunque aparezca en un encabezado. Un ítem `new-post` no necesita nada extra: el importador del blog marca la keyword `published` cuando el post existe. Todo estado que no sea `idea` queda bloqueado por `merge.ts`.
 - **Qué commitea y qué no**: `just content-plan-commit <plan>` corre los tests de
-  `scripts/keywords` y commitea SOLO `.agents/data/keywords.json` y el plan (`--no-verify`, mismo motivo que
-  `keywords-commit`). NUNCA `.agents/data/TODO.json`: suele llevar cambios sin commitear de otra sesión, así que
-  queda modificado en el árbol de trabajo para que lo revise el usuario. Nunca hace push.
+  `scripts/keywords` y commitea `.agents/data/keywords.json` y el plan (`--no-verify`, mismo motivo que
+  `keywords-commit`), y después encadena `just todo-commit`, que commitea `.agents/data/TODO.json` en su
+  propio commit `chore(todo)` (decisión del usuario, 2026-10-02, ver "Los agentes commitean
+  `.agents/data/TODO.json`" más abajo). Nunca hace push.
 - **Aislamiento**: `just content-plan` usa los mismos flags que `keywords-research`
   (`--setting-sources ""`, `--strict-mcp-config` con config MCP vacía, `--permission-mode default`,
   mismo `--disallowedTools`, `--max-budget-usd 4`), y el agente entra por `--agents` desde su `.md`
@@ -1674,8 +1675,28 @@ cuando el archivo cambia de verdad, así correr el organizador cada día no rees
 - **Migración (2026-09-30)**: las 44 tareas del texto pasaron a JSON con sus campos y las 996 líneas
   de descripción intactas. Las 35 tareas de una persona se clasificaron por `tipo` una sola vez, y
   las del content-strategist son `contenido`.
-- **Los agentes no commitean `.agents/data/TODO.json`**: queda modificado en el árbol de trabajo
-  para que lo revise el usuario (`content-plan-commit` nunca lo agrega).
+- **Los agentes commitean `.agents/data/TODO.json` (decisión del usuario, 2026-10-02)**. Reemplaza
+  la regla anterior ("los agentes no lo commitean, queda para que lo revise el usuario"). Lo hace una
+  sola receta, `just todo-commit ["chore(todo): <qué>"]` (`message` por defecto `chore(todo): sync
+  TODO.json`), y solo ella: ningún agente hace `git add` ni `git commit` de ese archivo por su cuenta.
+  - **Solo si cambió y solo si valida**: sin cambios sale en silencio (exit 0). Si el archivo no valida
+    contra su schema (`scripts/todo/todo.ts list` lo carga con Zod, por ejemplo una edición a mano a
+    medio hacer) NO lo commitea y sale con error. Un cambio a mano que ya estuviera en el archivo se
+    commitea junto con el resto: es el costo de la decisión.
+  - **Quién la llama**: `content-plan-commit` (después de commitear el plan), `todo-implement-commit`
+    (después de `keywords.json`, y aunque este no haya cambiado), el paso `organize` de `daily-guard.ts`
+    cuando cambió el archivo (`shouldCommitTodo`), y el orquestador `todo-implementer` cuando bloquea o
+    detiene una tarea. Cada cambio de `TODO.json` va en su propio commit `chore(todo)`, nunca mezclado
+    con `keywords.json` ni con el plan.
+  - **Mensaje**: debe empezar por `chore(todo): ` y no llevar comillas, backticks, `$` ni `\`. El mensaje
+    llega al script como argumento posicional (`"$1"`), nunca interpolado: `just` pega `{{ ... }}` como
+    texto y una comilla rompería el string (probado con un repo descartable, 2026-10-02). Las demás
+    recetas `*-commit` validan `{{ task }}`, `{{ slug }}` y `{{ plan }}` con ese mismo patrón
+    interpolado, que se puede esquivar con comillas. Es una debilidad anterior, sin corregir.
+  - Va con `--no-verify` por el mismo motivo que `keywords-commit`: el hook de pre-commit guarda en
+    stash el trabajo sin stagear y pisaría el de otra sesión.
+  - Nunca hace push. Los agentes siguen sin escribir `TODO.json` a mano: solo `todo-set`, `todo-add` y
+    `todo-organize` lo cambian.
 
 ### Corridas perdidas (`daily-guard.ts`)
 
@@ -1699,7 +1720,9 @@ nada que hacer, el guard sale sin llamar a Claude.
   fallados o con todo hecho, salvo que otro run tenga el lock. Es idempotente y solo reescribe
   `TODO.json` si algo cambió. Así las tareas bloqueadas por traducciones se destraban solas en el
   siguiente disparo, sin esperar al agente del plan (que también lo invoca por su cuenta). Una
-  corrida solo de `organize` no gasta intentos.
+  corrida solo de `organize` no gasta intentos. Si `organize` cambió `TODO.json`, el guard corre
+  `just todo-commit` justo después (decisión del usuario, 2026-10-02): solo si valida, y un fallo
+  del commit se registra como `step-failed` y nunca frena nada más.
 - **Sin backfill**: varios días perdidos son UNA sola corrida hoy.
 - **Frenos** (de los agentes; `organize` solo respeta la hora y el lock): nada antes de las 09:30,
   sin red (HEAD a `api.anthropic.com`, 5 s), con otro run en curso (lock en
@@ -1741,6 +1764,7 @@ dispara y la cadena diaria (`keywords-daily`) no cambia.
 | `just todo-next [--task '#T0036'] [--max N]` | JSON `{ next, queue, skipped }`, solo lee (`scripts/todo/next-task.ts`). Implementable: `pendiente`, `contenido`, título generado por el content-strategist y plan resuelto desde el Origen. Orden: prioridad, `anotada` más vieja, id |
 | `just todo-implement [--task] [--max N] [--dry-run]` | Corrida headless (`claude -p`) con el aislamiento de `content-plan`. `--dry-run` no llama a Claude. Tope 30 USD por tarea (`TODO_IMPLEMENT_BUDGET`) |
 | `todo-implementer`, `post-writer`, `post-translator`, `post-verifier`, `serp-term-researcher` (`.claude/agents/`) | Orquestador (delega con la herramienta Agent, un agente a la vez), editor del inglés, traductor de los 12 idiomas (solo, nunca en paralelo), verificador independiente (sin Write ni Edit) e investigador del SERP real (el único con WebSearch y WebFetch) |
+| `just todo-commit ["chore(todo): ..."]` | Commitea SOLO `.agents/data/TODO.json`, si cambió y valida. La encadenan `content-plan-commit`, `todo-implement-commit`, el paso `organize` del guard y el orquestador al bloquear una tarea |
 | `just nlp-terms-check <archivo>` | Valida el archivo de términos NLP del investigador (`scripts/keywords/nlp-terms-check.ts`, schema en `nlp-terms.schema.ts`) e imprime el resumen que el orquestador le pasa a `post-writer`. El orquestador confía en esta salida, nunca en el reporte del investigador |
 | `just post-sync`, `post-translate-brief`, `post-translate-check`, `post-translate-map`, `post-translate-finish`, `post-translations-status`, `post-heading-id` | Las piezas deterministas (`scripts/translate/`) |
 | `just todo-implement-commit '#Txxxx' <slug>` | Commitea SOLO `.agents/data/keywords.json`, con `--no-verify` por el mismo motivo que `content-plan-commit` |
@@ -1753,12 +1777,14 @@ falla se sigue sin ellos) -> post-writer (inglés con esos términos, `post-sync
 `.agents/CHANGELOG.md`) -> commit
 `feat(blog): <slug> ...` -> post-translator (modo UPDATE) -> post-verifier (hasta 2 vueltas de
 reparación) -> `post-translate-finish` (checks, tests, build, commit local de las traducciones) ->
-`keywords-sync`, `todo-organize`, tarea `hecha` -> commit de `keywords.json`.
+`keywords-sync`, `todo-organize`, tarea `hecha` -> commit de `keywords.json` y, aparte, de
+`TODO.json` (`todo-commit`).
 
 - **Alcance v1**: solo `add-section` (H2/H3) y `add-faq`. Un `Post nuevo` necesita imagen de portada
   en R2 y enlaces de silo, y sale en `skipped`. Las tareas escritas a mano tampoco se toman.
-- **Nunca** hace push (denegado por las flags de la receta), nunca commitea
-  `.agents/data/TODO.json` y no agrega `Co-Authored-By`. Si una corrida se corta tras el commit del
+- **Nunca** hace push (denegado por las flags de la receta) y no agrega `Co-Authored-By`.
+  `.agents/data/TODO.json` se commitea solo con `just todo-commit` (ver "Los agentes commitean
+  `.agents/data/TODO.json`"), en su propio commit. Si una corrida se corta tras el commit del
   inglés, las traducciones quedan desactualizadas: `just post-translations-status` lo muestra y se
   retoma a mano. `todo-organize` solo reabre las tareas que bloqueó la puerta de traducciones: una
   tarea bloqueada por el agente o por el usuario sigue bloqueada.

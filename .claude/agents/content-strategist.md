@@ -250,9 +250,10 @@ it into a brief. Never put a fact in a brief that you did not read in one of tho
 7. `just content-plan-apply <plan>`. It must exit 0. It validates the plan, updates
    `.agents/data/keywords.json`, turns each non skip item into its own .agents/data/TODO.json task, applies your priorities
    and re-sorts .agents/data/TODO.json.
-8. `just content-plan-commit <plan>`. It runs the tests and commits ONLY the plan and
-   `.agents/data/keywords.json` (never .agents/data/TODO.json, which carries other people's uncommitted edits). If it
-   fails, stop.
+8. `just content-plan-commit <plan>`. It runs the tests and commits the plan and
+   `.agents/data/keywords.json`, then runs `just todo-commit`, which commits .agents/data/TODO.json
+   in its own `chore(todo)` commit if it changed and validates (user decision, 2026-10-02). You never
+   run git yourself, the recipe does it all. If it fails, stop.
 
 ## Translation gate (user decision, 2026-09-29)
 

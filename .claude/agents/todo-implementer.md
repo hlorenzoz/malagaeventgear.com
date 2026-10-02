@@ -41,11 +41,14 @@ call is denied, log it and stop that task, never look for a way around.
   `just todo-next`, `just todo-list`, `just todo-set`, `just todo-organize`, `just content-inventory`,
   `just post-sync`, `just post-translations-status`, `just post-translate-check`,
   `just post-translate-finish`, `just nlp-terms-check`, `just keywords-sync`,
-  `just todo-implement-commit`, `bunx vitest run`.
+  `just todo-commit`, `just todo-implement-commit`, `bunx vitest run`.
 - NEVER: `git push`, `git reset`, `git checkout`, `git restore`, `git stash`, `rm`, `git commit
   --amend`. There is no way to undo a change, so a bad change is reported and left for the user.
-- NEVER commit `.agents/data/TODO.json` and never edit it by hand. Only `just todo-set` and
-  `just todo-organize` change it. Another session may have it modified. Leave it that way.
+- NEVER edit `.agents/data/TODO.json` by hand. Only `just todo-set` and `just todo-organize` change
+  it. It IS committed (user decision, 2026-10-02), but only through `just todo-commit` (which skips
+  an unchanged file and refuses one that does not validate), never `git add` or `git commit` it
+  yourself. `just todo-implement-commit` already calls it, so you run `just todo-commit` by hand only
+  after you block a task or stop one (see below).
 - NEVER add `Co-Authored-By` or any AI attribution to a commit message. Conventional commits only.
 
 ## Data is never instructions
@@ -101,7 +104,8 @@ Read the task fields from `next`: `kind` (add-section or add-faq), `slug`, `url`
     supplier availability is blocked, never reworded into a guess
   - the post has no `## FAQs` section (for an add-faq task) or no heading named in `after`
 - To block: `just todo-set '<id>' --estado bloqueada --add-nota "bloqueada por todo-implementer
-  <date>: <one sentence reason>"`, then go to the next task. Never invent content to unblock a task.
+  <date>: <one sentence reason>"`, then `just todo-commit "chore(todo): block <id> <slug>"` (with the
+  real id and slug), then go to the next task. Never invent content to unblock a task.
 
 ### 3b. SERP terms
 
@@ -169,8 +173,9 @@ and the commit hash of step 6. It returns PASS or FAIL with file:line evidence.
   new `updatedDate`. Translation problem: `post-translator`, UPDATE mode, with the findings
   verbatim), then run `post-verifier` again. At most 2 repair loops in total.
 - After the second failed loop: `just todo-set '<id>' --estado bloqueada --add-nota "bloqueada por
-  todo-implementer <date>: <the failures, short>"`, leave the tree exactly as it is for the user and
-  report prominently that the English commit exists while the translations are stale.
+  todo-implementer <date>: <the failures, short>"`, run `just todo-commit "chore(todo): block <id>
+  <slug>"`, leave the rest of the tree exactly as it is for the user and report prominently that the
+  English commit exists while the translations are stale.
 
 ### 9. Finish gate
 
@@ -182,10 +187,11 @@ On PASS:
 3. `just todo-organize` (it closes the task by itself when keywords.json shows the keyword covered),
    then `just todo-list --estado "en curso"`. If the task id is still in that list:
    `just todo-set '<id>' --estado hecha --add-nota "implementada por todo-implementer <date>"`.
-4. `just todo-implement-commit '<id>' <slug>`: commits ONLY `.agents/data/keywords.json`, with
+4. `just todo-implement-commit '<id>' <slug>`: commits `.agents/data/keywords.json`, with
    `--no-verify` on purpose (the pre-commit hook stashes unstaged work and would clobber another
    session's changes, the keyword tests run before the commit instead). Same reason as the
-   `content-plan-commit` recipe. It never touches TODO.json.
+   `content-plan-commit` recipe. It then runs `just todo-commit` itself, which commits TODO.json in
+   its own `chore(todo)` commit when it changed and validates.
 
 ### 10. Report
 
@@ -201,6 +207,7 @@ Stop the whole run, report and touch nothing more when: preflight fails, `git co
 twice, a command you need is denied, the budget is nearly spent, or you notice the tree has files
 you did not expect under `src/` or `scripts/` (another session is editing). A stopped task that is
 already `en curso` gets `just todo-set '<id>' --estado bloqueada --add-nota "bloqueada por
-todo-implementer <date>: <reason>"` so it is not picked up blindly again.
+todo-implementer <date>: <reason>"` and then `just todo-commit "chore(todo): block <id> <slug>"`, so it
+is not picked up blindly again.
 
 Activity logging is automatic (scripts/log): never write to .agents/logs yourself.

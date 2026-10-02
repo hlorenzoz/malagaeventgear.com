@@ -143,10 +143,33 @@ describe('the content-plan headless run and its scheduler', () => {
 		expect(run).not.toMatch(/--allowedTools[^\n]*Bash\(git/);
 	});
 
-	it('content-plan-commit never stages the task list', () => {
+	it('content-plan-commit stages keywords.json and the plan, then hands the task list to todo-commit', () => {
 		const commit = recipe('content-plan-commit plan:');
 		expect(commit).toContain('--no-verify');
-		expect(commit).not.toMatch(/TODO/);
+		expect(commit).toContain('just todo-commit');
+		// TODO.json is committed only through todo-commit (which validates it), never staged here.
+		expect(commit).not.toMatch(/git (add|commit)[^\n]*TODO\.json/);
+	});
+
+	it('todo-commit commits only a changed, schema valid TODO.json (user decision, 2026-10-02)', () => {
+		const commit = recipe('todo-commit message=');
+		expect(commit).toContain('--no-verify');
+		expect(commit).toContain('scripts/todo/todo.ts list');
+		expect(commit).toMatch(/git add -- \.agents\/data\/TODO\.json\n/);
+		expect(commit).toMatch(/git commit --no-verify -m "\$msg" -- \.agents\/data\/TODO\.json\n/);
+		// The message reaches the script as a positional argument, never interpolated into it: just
+		// pastes `{{ message }}` as text, so a quote in it would break out of the string (found with
+		// a throwaway repo on 2026-10-02) and run as shell.
+		expect(justfile).toContain('[positional-arguments]\ntodo-commit message=');
+		expect(commit).not.toContain('{{ message }}');
+		expect(commit).toContain('msg="$1"');
+		// Nothing else is ever staged or pushed from here.
+		expect(commit).not.toMatch(/git add -A|git add \.|keywords\.json|git push/);
+		// Validation runs before the add, and an unchanged file exits without a commit.
+		expect(commit.indexOf('todo.ts list')).toBeLessThan(commit.indexOf('git add'));
+		expect(commit).toMatch(/git diff --quiet -- \.agents\/data\/TODO\.json/);
+		// The message is checked so a caller cannot smuggle shell into the commit command.
+		expect(commit).toMatch(/chore\\\(todo\\\)/);
 	});
 
 	it('keywords-daily delegates to the daily guard, which runs research then plan', () => {
@@ -449,10 +472,21 @@ describe('the todo-implementer team (todo-implement headless run)', () => {
 		expect(run.indexOf('todo-implement-log.ts start')).toBeGreaterThan(dryExit);
 	});
 
-	it('todo-implement-commit stages only keywords.json, never the task list', () => {
+	it('todo-implement-commit commits keywords.json, then hands the task list to todo-commit', () => {
 		const commit = recipe('todo-implement-commit task slug:');
 		expect(commit).toContain('--no-verify');
 		expect(commit).toContain('.agents/data/keywords.json');
-		expect(commit).not.toMatch(/TODO\.json/);
+		expect(commit).toContain('just todo-commit');
+		expect(commit).not.toMatch(/git (add|commit)[^\n]*TODO\.json/);
+		// An unchanged keywords.json must not skip the task list: no early exit before todo-commit.
+		expect(commit).not.toMatch(/exit 0/);
+	});
+
+	it('the orchestrator may run todo-commit and is told to commit TODO.json only through it', () => {
+		expect(allowed).toContain('Bash(just todo-commit:*)');
+		const orchestrator = team[TODO_TEAM.indexOf('todo-implementer')];
+		expect(orchestrator).toContain('just todo-commit');
+		expect(orchestrator).not.toMatch(/NEVER commit `\.agents\/data\/TODO\.json`/);
+		expect(orchestrator).toMatch(/never `git add` or `git commit` it\s+yourself/i);
 	});
 });

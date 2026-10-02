@@ -17,6 +17,8 @@
  * agent, so it runs on every trigger after 09:30 (offline, attempts used up, agents failed or all
  * done) unless another run holds the lock. It is idempotent and only rewrites TODO.json when
  * something changed, which is how tasks blocked by the translation backlog unblock on their own.
+ * When it changed TODO.json the guard runs `just todo-commit` right after (user decision,
+ * 2026-10-02: TODO.json is committed by the automation, only if it validates).
  *
  * Activity log (`scripts/log/agent-log.ts`, mode `auto`): a run that executes something writes
  * run-start, one step-done or step-failed per step and run-end. The hourly noise (before 09:30,
@@ -134,6 +136,12 @@ export function clockMinutes(override: string | undefined, now: Date): number {
 /** Pure: a lock is stale when its process is gone or it is older than 3 hours. */
 export function isLockStale(info: { pidAlive: boolean; ageMs: number }): boolean {
 	return !info.pidAlive || info.ageMs > LOCK_MAX_AGE_MS;
+}
+
+/** Pure: organize hands TODO.json to `just todo-commit` only when it succeeded and really changed
+ *  the file (a failed organize may have left it half written, and an unchanged file has nothing to commit). */
+export function shouldCommitTodo(organizeFailure: string | null, changed: boolean): boolean {
+	return organizeFailure === null && changed;
 }
 
 // ---- I/O below ----
@@ -440,6 +448,13 @@ async function main(): Promise<void> {
 					'todo-organize',
 					`file=${TODO_FILE} changed=${changed ? 'yes' : 'no'} minutes=${(ms / 60_000).toFixed(1)}`
 				);
+			}
+			if (shouldCommitTodo(failure, changed)) {
+				const t1 = Date.now();
+				const commitFailure = await step(today, 'todo-commit', 'todo-commit');
+				if (commitFailure) {
+					alog('step-failed', 'todo-commit', stepFailedDetail(commitFailure, Date.now() - t1));
+				}
 			}
 		}
 		if (agentSteps.length) {

@@ -7,6 +7,15 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (agents): las recetas y los agentes ahora commitean `TODO.json` (2026-10-02)
+- **Decision del usuario**: se invierte la regla "los agentes no commitean `.agents/data/TODO.json`". Una sola receta nueva, `just todo-commit ["chore(todo): ..."]`, es la unica que lo commitea, en su propio commit `chore(todo)`, nunca mezclado con `keywords.json` ni con el plan.
+- `todo-commit` commitea solo si el archivo cambio **y** valida contra su schema (`scripts/todo/todo.ts list`). Sin cambios sale en silencio, con el archivo invalido sale con error y no commitea (una edicion a mano a medio hacer no se cuela). Un cambio a mano que ya estuviera en el archivo se commitea junto con el resto. `--no-verify` por el mismo motivo que `keywords-commit`. Nunca hace push.
+- **Fix de seguridad encontrado al probarla en un repo descartable**: la primera version interpolaba `{{ message }}` dentro del script y una comilla en el mensaje rompia el chequeo (se podia colar shell). Ahora el mensaje entra como argumento posicional (`[positional-arguments]`, `msg="$1"`) y la receta rechaza comillas, backticks, `$` y `\`. Un intento de inyeccion real no ejecuto nada.
+- Quien la llama: `content-plan-commit` (despues del plan), `todo-implement-commit` (despues de `keywords.json`, y aunque este no haya cambiado: se saco el `exit 0` temprano), el paso `organize` de `daily-guard.ts` cuando cambio el archivo (helper puro `shouldCommitTodo`, con test) y el orquestador `todo-implementer` al bloquear o detener una tarea (`Bash(just todo-commit:*)` permitido en `todo-implement`).
+- `todo-implementer.md` y `content-strategist.md`: se reemplaza el "NEVER commit TODO.json" por "nunca `git add` ni `git commit` a mano, solo `just todo-commit`". Los agentes siguen sin escribir `TODO.json` a mano.
+- Tests: 5 nuevos o reescritos en `agent-json.test.ts` (los 3 que prohibian `TODO` en las recetas ahora exigen el encadenado, mas la receta, el mensaje posicional y el permiso del orquestador) y 1 en `daily-guard.test.ts`.
+- Debilidad anterior NO corregida (fuera de alcance): `todo-implement-commit`, `content-plan-commit` y otras validan `{{ task }}`, `{{ slug }}` o `{{ plan }}` con el mismo patron interpolado, que tambien se puede esquivar con comillas. Hoy solo las llaman agentes con valores ya validados.
+
 ### Added (agents): `post-writer` cubre terminos NLP del SERP real (2026-10-02)
 - **Decision del usuario**: `post-writer` incluye terminos NLP alrededor de la keyword objetivo al crear o actualizar un post, y esos terminos vienen del SERP real, no solo del repo. Se habilitan `WebSearch` y `WebFetch`.
 - Agente nuevo `.claude/agents/serp-term-researcher.md` (Read, Write, Glob, Bash, WebSearch, WebFetch, sin Edit): busca en Google el termino de la tarea (la `keyword` del post mas el heading o la pregunta), abre las 3 primeras paginas organicas y extrae solo terminos cortos (entidades, vocabulario relacionado, preguntas), nunca prosa. Escribe `.agents/context/keywords/nlp-terms/YYYY-MM-DD-T####.json` (directorio con `.gitkeep`).

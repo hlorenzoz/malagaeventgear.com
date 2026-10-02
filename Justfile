@@ -269,7 +269,8 @@ todo-next *args:
     @bun scripts/todo/next-task.ts "$@"
 
 # Implementa por prioridad las tareas abiertas de TODO.json, de punta a punta: edita el post ingles, lo commitea, traduce a los 12 idiomas,
-# lo verifica con un agente independiente y commitea LOCAL. Nunca hace push ni commitea TODO.json. Solo bajo demanda.
+# lo verifica con un agente independiente y commitea LOCAL. Nunca hace push. TODO.json se commitea solo con `just todo-commit`
+# (decision del usuario, 2026-10-02). Solo bajo demanda.
 #   just todo-implement                      la proxima tarea (una)
 #   just todo-implement --task '#T0036'      una tarea concreta
 #   just todo-implement --max 2              hasta 2 tareas, una tras otra
@@ -295,7 +296,7 @@ todo-implement *args:
     done
     [[ "$max" =~ ^[0-9]+$ && "$max" -ge 1 ]] || { echo "--max necesita un entero de 1 o mas" >&2; exit 2; }
     DENIED="Bash(git push:*),Bash(git reset:*),Bash(git checkout:*),Bash(git stash:*),Bash(git restore:*),Bash(git rebase:*),Bash(git clean:*),Bash(git commit --amend:*),Bash(rm:*)"
-    ALLOWED_TOOLS="Read,Glob,Grep,Agent,WebSearch,WebFetch,Write(.agents/context/keywords/nlp-terms/**),Edit(.agents/context/keywords/nlp-terms/**),Write(src/content/blog/**),Edit(src/content/blog/**),Write(src/lib/data/post-faqs.json),Edit(src/lib/data/post-faqs.json),Write(src/lib/data/post-toc.json),Edit(src/lib/data/post-toc.json),Write(src/lib/i18n/content-map/**),Edit(src/lib/i18n/content-map/**),Write(.agents/CHANGELOG.md),Edit(.agents/CHANGELOG.md),Bash(date:*),Bash(rg:*),Bash(git status:*),Bash(git diff:*),Bash(git log:*),Bash(git show:*),Bash(git add:*),Bash(git commit:*),Bash(just todo-next:*),Bash(just todo-list:*),Bash(just todo-set:*),Bash(just todo-organize:*),Bash(just content-inventory:*),Bash(just post-sync:*),Bash(just post-heading-id:*),Bash(just post-translate-brief:*),Bash(just post-translate-check:*),Bash(just post-translate-map:*),Bash(just post-translate-finish:*),Bash(just post-translations-status:*),Bash(just keywords-sync),Bash(just nlp-terms-check:*),Bash(just todo-implement-commit:*),Bash(bunx vitest run:*)"
+    ALLOWED_TOOLS="Read,Glob,Grep,Agent,WebSearch,WebFetch,Write(.agents/context/keywords/nlp-terms/**),Edit(.agents/context/keywords/nlp-terms/**),Write(src/content/blog/**),Edit(src/content/blog/**),Write(src/lib/data/post-faqs.json),Edit(src/lib/data/post-faqs.json),Write(src/lib/data/post-toc.json),Edit(src/lib/data/post-toc.json),Write(src/lib/i18n/content-map/**),Edit(src/lib/i18n/content-map/**),Write(.agents/CHANGELOG.md),Edit(.agents/CHANGELOG.md),Bash(date:*),Bash(rg:*),Bash(git status:*),Bash(git diff:*),Bash(git log:*),Bash(git show:*),Bash(git add:*),Bash(git commit:*),Bash(just todo-next:*),Bash(just todo-list:*),Bash(just todo-set:*),Bash(just todo-organize:*),Bash(just content-inventory:*),Bash(just post-sync:*),Bash(just post-heading-id:*),Bash(just post-translate-brief:*),Bash(just post-translate-check:*),Bash(just post-translate-map:*),Bash(just post-translate-finish:*),Bash(just post-translations-status:*),Bash(just keywords-sync),Bash(just nlp-terms-check:*),Bash(just todo-commit:*),Bash(just todo-implement-commit:*),Bash(bunx vitest run:*)"
     BUDGET="${TODO_IMPLEMENT_BUDGET:-$((30 * max))}"
     AGENTS_CMD="bun scripts/keywords/agent-json.ts todo-implementer post-writer post-translator post-verifier serp-term-researcher"
     PROMPT="Implement the open content tasks of TODO.json by priority, following your procedure. Arguments: ${rest[*]:-none}"
@@ -331,22 +332,44 @@ todo-implement *args:
 nlp-terms-check file:
     @bun scripts/keywords/nlp-terms-check.ts {{ file }}
 
-# Commitea SOLO .agents/data/keywords.json tras implementar una tarea, después de correr los tests de keywords. Mismo --no-verify
-# y misma razón que content-plan-commit. NUNCA .agents/data/TODO.json. Uso: just todo-implement-commit '#T0036' <slug>
+# Commitea SOLO .agents/data/TODO.json (decisión del usuario, 2026-10-02: los agentes y las recetas sí lo commitean). Solo si cambió y
+# SOLO si valida contra su schema (`todo.ts list` lo carga con Zod): un archivo a medio editar a mano no se commitea y sale con error.
+# Mismo --no-verify y misma razón que keywords-commit. Lo encadenan content-plan-commit, todo-implement-commit y el paso organize del guard.
+# Un cambio a mano que ya estuviera en el archivo se commitea junto con el resto. Uso: just todo-commit "chore(todo): <qué>"
+[positional-arguments]
+todo-commit message='chore(todo): sync TODO.json':
+    #!/usr/bin/env bash
+    set -euo pipefail
+    msg="$1"
+    [[ "$msg" =~ ^chore\(todo\):\ [^\"\`\$\\]+$ ]] || { echo "mensaje inválido (debe empezar por 'chore(todo): ' y no llevar comillas, backticks, \$ ni \\): $msg" >&2; exit 1; }
+    git diff --quiet -- .agents/data/TODO.json && { echo "TODO.json sin cambios, nada que commitear"; exit 0; }
+    bun scripts/todo/todo.ts list > /dev/null || { echo "TODO.json no valida contra su schema: NO se commitea. Corregilo y volvé a correr just todo-commit" >&2; exit 1; }
+    git add -- .agents/data/TODO.json
+    git commit --no-verify -m "$msg" -- .agents/data/TODO.json
+    git log -1 --format='%h %s'
+    bun scripts/log/agent-log.ts --mode "${AGENT_LOG_MODE:-auto}" --actor todo-commit --event commit --last-commit --detail "file=.agents/data/TODO.json" || true
+
+# Commitea .agents/data/keywords.json tras implementar una tarea, después de correr los tests de keywords, y después TODO.json con
+# `just todo-commit` (aunque keywords.json no haya cambiado). Mismo --no-verify y misma razón que content-plan-commit.
+# Uso: just todo-implement-commit '#T0036' <slug>
 todo-implement-commit task slug:
     #!/usr/bin/env bash
     set -euo pipefail
     [[ "{{ task }}" =~ ^#T[0-9]{4}$ ]] || { echo "tarea inválida: {{ task }}" >&2; exit 1; }
     [[ "{{ slug }}" =~ ^[a-z0-9]+(-[a-z0-9]+)*$ ]] || { echo "slug inválido: {{ slug }}" >&2; exit 1; }
     bunx vitest run scripts/keywords
-    git diff --quiet -- .agents/data/keywords.json && { echo "keywords.json sin cambios, nada que commitear"; exit 0; }
-    git add -- .agents/data/keywords.json
-    git commit --no-verify -m "chore(keywords): sync after {{ task }} {{ slug }}" -- .agents/data/keywords.json
-    git log -1 --format='%h %s'
-    bun scripts/log/agent-log.ts --mode "${AGENT_LOG_MODE:-demanda}" --actor todo-implementer --event commit --last-commit --detail "task={{ task }} slug={{ slug }}" || true
+    if git diff --quiet -- .agents/data/keywords.json; then
+        echo "keywords.json sin cambios, nada que commitear"
+    else
+        git add -- .agents/data/keywords.json
+        git commit --no-verify -m "chore(keywords): sync after {{ task }} {{ slug }}" -- .agents/data/keywords.json
+        git log -1 --format='%h %s'
+        bun scripts/log/agent-log.ts --mode "${AGENT_LOG_MODE:-demanda}" --actor todo-implementer --event commit --last-commit --detail "task={{ task }} slug={{ slug }}" || true
+    fi
+    just todo-commit "chore(todo): close {{ task }} {{ slug }}"
 
-# Commitea SOLO .agents/data/keywords.json y el plan del día, después de correr los tests de keywords. NUNCA .agents/data/TODO.json: lleva cambios sin
-# commitear de otra sesión. Mismo --no-verify y misma razón que keywords-commit.
+# Commitea .agents/data/keywords.json y el plan del día, después de correr los tests de keywords, y después TODO.json con `just todo-commit`
+# (las tareas que el plan acaba de generar). Mismo --no-verify y misma razón que keywords-commit.
 content-plan-commit plan:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -356,6 +379,7 @@ content-plan-commit plan:
     git commit --no-verify -m "chore(keywords): daily content plan $(basename "{{ plan }}" .json)" -- .agents/data/keywords.json "{{ plan }}"
     git log -1 --format='%h %s'
     bun scripts/log/agent-log.ts --mode "${AGENT_LOG_MODE:-auto}" --actor content-strategist --event commit --last-commit --detail "file={{ plan }}" || true
+    just todo-commit "chore(todo): add tasks from the content plan $(basename "{{ plan }}" .json)"
 
 # Corre el agente diario de contenido, con el mismo aislamiento que keywords-research: --setting-sources "" (ningún settings),
 # --strict-mcp-config con una config MCP VACÍA (no necesita ningún MCP), --permission-mode default y el mismo --disallowedTools.

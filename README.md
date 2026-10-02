@@ -202,7 +202,7 @@ a mano. Ver CLAUDE.md, "Investigación de keywords".
 | `content-candidates [n]` | JSON con las N candidatas de contenido del día (20 por defecto) y el cupo de posts nuevos | `just content-candidates 10` |
 | `content-inventory [--cluster c]` | JSON con los posts ingleses, sus H2/H3 y FAQs. Acepta el clúster con o sin `--cluster` | `just content-inventory --cluster "audio visual rental"` |
 | `content-plan-apply <plan>` | Valida el plan, corre `keywords-sync` y `todo-organize` | `just content-plan-apply .agents/context/keywords/content-plan/2026-10-01.json` |
-| `content-plan-commit <plan>` | Commitea solo `keywords.json` y el plan, nunca `TODO.json` | `just content-plan-commit .agents/context/keywords/content-plan/2026-10-01.json` |
+| `content-plan-commit <plan>` | Commitea `keywords.json` y el plan, y después encadena `todo-commit` para `TODO.json` | `just content-plan-commit .agents/context/keywords/content-plan/2026-10-01.json` |
 
 Cómo usarlos:
 
@@ -224,6 +224,7 @@ el JSON. La escritura es atómica y se reintenta una vez si otra sesión modific
 | `todo-list [filtros]` | Tabla de tareas. Filtros `--estado`, `--prioridad`, `--tipo`, `--origen`, `--texto` | `just todo-list --prioridad alta --tipo contenido` |
 | `todo-add --titulo "..."` | Crea una tarea del usuario con el siguiente id. Opciones `--prioridad`, `--tipo`, `--desc`, `--desc-file` | `just todo-add --titulo "Revisar fotos" --tipo imagenes --desc-file nota.txt` |
 | `todo-set <id> [opciones]` | Cambia `--estado`, `--prioridad`, `--tipo` o suma `--add-nota` | `just todo-set '#T0007' --estado hecha` |
+| `todo-commit ["chore(todo): ..."]` | Commitea solo `TODO.json`, si cambió y valida contra su schema. Sin cambios no hace nada, con el archivo inválido sale con error y no commitea. La encadenan `content-plan-commit`, `todo-implement-commit` y el guard diario | `just todo-commit "chore(todo): close #T0037 tv-screen-rental"` |
 | `todo-organize [--dry-run] [--needs-priority] [--file ruta]` | Valida, suma las tareas de los planes y de los reportes, cierra las cubiertas, bloquea por traducciones y ordena | `just todo-organize --dry-run` |
 | `todo-next [--task id] [--max N]` | JSON `{ next, queue, skipped }` con lo que implementaría `todo-implement`. Solo lee | `just todo-next --max 3` |
 
@@ -271,13 +272,14 @@ Qué hace, paso a paso, con un agente a la vez:
    reparación.
 7. **Finish gate**: `post-translate-finish` (checks, tests, build y commit local de las
    traducciones), `keywords-sync`, `todo-organize`, la tarea pasa a `hecha` y
-   `todo-implement-commit` commitea `keywords.json`.
+   `todo-implement-commit` commitea `keywords.json` y después `TODO.json` (`todo-commit`).
 
 Alcance y límites:
 
 - **v1 implementa solo tareas `add-section` y `add-faq`.** Las `Post nuevo` (necesitan portada en
   R2 y enlaces de silo) y las tareas escritas a mano salen en `skipped` de `todo-next`.
-- **Nunca hace push**, nunca commitea `TODO.json` y no agrega `Co-Authored-By`.
+- **Nunca hace push** y no agrega `Co-Authored-By`. `TODO.json` se commitea solo con `todo-commit`,
+  en su propio commit `chore(todo)`.
 - **Presupuesto**: `--max-budget-usd` de 30 USD por tarea (`--max N` lo multiplica). Con la variable
   `TODO_IMPLEMENT_BUDGET` se fija el tope total de la corrida: `TODO_IMPLEMENT_BUDGET=15 just
   todo-implement`. Una tarea real cuesta varios USD y el build tarda unos 11 minutos.

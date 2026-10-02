@@ -4,9 +4,19 @@ import {
 	clockMinutes,
 	decideDailyRun,
 	isLockStale,
+	shouldCommitTodo,
 	skipLogReason,
 	type GuardInput
 } from './daily-guard';
+
+describe('shouldCommitTodo', () => {
+	it('commits only when organize succeeded and TODO.json really changed', () => {
+		expect(shouldCommitTodo(null, true)).toBe(true);
+		expect(shouldCommitTodo(null, false)).toBe(false);
+		expect(shouldCommitTodo('exit code 1', true)).toBe(false);
+		expect(shouldCommitTodo('crashed: boom', false)).toBe(false);
+	});
+});
 
 const base: GuardInput = {
 	today: '2026-09-30',
