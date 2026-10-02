@@ -3,25 +3,6 @@
   "updated": "2026-10-02",
   "tasks": [
     {
-      "id": "#T0051",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/projector-rental/: \"Do you deliver projector rental near me outside Malaga city?\"",
-      "anotada": "2026-10-01",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-01, ítem 9)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/projector-rental.svx",
-        "Keywords: rental projector near me (google-ads 20/mo (below tier 100), gsc pos 21 1 impr), debajo del tier",
-        "Qué cubrir: Confirmar que el projector rental ya se entrega, instala y prueba en toda Malaga capital y en el resto de la Costa del Sol, como ya dice el Brief Overview del post. Nombrar 2 o 3 localidades de ejemplo de siteConfig.serviceAreas (nunca una lista larga de ciudades: spam-policies.md desaconseja los bloques de texto con ciudades y regiones). No prometer un radio de entrega exacto ni un recargo por distancia que no este confirmado en packages.ts, y no repetir los datos de lumens o precio que ya cubren otros FAQs del mismo post.",
-        "Por qué: Revise /blog/projector-rental/ completo: el Brief Overview ya dice que se entrega 'across Malaga and the wider Costa del Sol', pero ningun heading ni FAQ nombra la cobertura de zona de forma explicita como si lo hacen los posts near-me del mismo silo (por ejemplo 'Do you deliver audio video rental outside Malaga city?' en audio-video-rental-near-me-in-malaga-spain.svx). No corresponde un post nuevo (seria una variante near-me casi identica a un post ya existente del silo, riesgo de doorway abuse segun spam-policies.md), asi que la intencion entra como FAQ nueva en el propio post. Subo prioridad a alta por el ranking en pagina 2/3 (pos 21) con impresiones reales.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0052",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -1439,6 +1420,27 @@
         "do rental cars have microphones (Cinco preguntas fuera de mercado o de un negocio distinto: 'do rental cars have microphones' es sobre coches de alquiler, no eventos; 'is there a video rental store near me' y 'what were the video rental stores' son sobre tiendas de alquiler de peliculas (tipo Blockbuster), un negocio no relacionado; 'how much does it cost to rent a video camera' y 'where to rent video equipment' apuntan a camaras de video/foto, que CLAUDE.md confirma retiradas del inventario desde 2026-07-31 ('Los posts que afirman que MEG no ofrece camaras ni servicios de video/foto son correctos tal cual estan publicados. No reabrir esta pregunta sin un update explicito del negocio'). Ninguna pasa el filtro de encaje (paso 1 del metodo de decision).)",
         "how many lumens do i need for a conference room projector (/blog/projector-rental/ ya tiene el FAQ 'What brightness or lumens do I need for a daylit or brightly lit room?', misma intencion (elegir lumens segun la luz/sala) con otras palabras. Agregar una FAQ nueva casi identica repetiria lo que ya esta publicado en el mismo post.)",
         "what cuisine is gala (Pregunta sin relacion con equipamiento audiovisual ni eventos: 'gala' aqui parece referirse a un tipo de manzana o a otro sentido de la palabra, no a una cena de gala. No pasa el filtro de encaje (paso 1): no es algo que MEG venda o resuelva para un evento, y no hay forma honesta de responderla desde el inventario o los paquetes.)"
+      ]
+    },
+    {
+      "id": "#T0051",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/projector-rental/: \"Do you deliver projector rental near me outside Malaga city?\"",
+      "anotada": "2026-10-01",
+      "hecha": "2026-10-02",
+      "origen": "content-strategist (plan 2026-10-01, ítem 9)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/projector-rental.svx",
+        "Keywords: rental projector near me (google-ads 20/mo (below tier 100), gsc pos 21 1 impr), debajo del tier",
+        "Qué cubrir: Confirmar que el projector rental ya se entrega, instala y prueba en toda Malaga capital y en el resto de la Costa del Sol, como ya dice el Brief Overview del post. Nombrar 2 o 3 localidades de ejemplo de siteConfig.serviceAreas (nunca una lista larga de ciudades: spam-policies.md desaconseja los bloques de texto con ciudades y regiones). No prometer un radio de entrega exacto ni un recargo por distancia que no este confirmado en packages.ts, y no repetir los datos de lumens o precio que ya cubren otros FAQs del mismo post.",
+        "Por qué: Revise /blog/projector-rental/ completo: el Brief Overview ya dice que se entrega 'across Malaga and the wider Costa del Sol', pero ningun heading ni FAQ nombra la cobertura de zona de forma explicita como si lo hacen los posts near-me del mismo silo (por ejemplo 'Do you deliver audio video rental outside Malaga city?' en audio-video-rental-near-me-in-malaga-spain.svx). No corresponde un post nuevo (seria una variante near-me casi identica a un post ya existente del silo, riesgo de doorway abuse segun spam-policies.md), asi que la intencion entra como FAQ nueva en el propio post. Subo prioridad a alta por el ranking en pagina 2/3 (pos 21) con impresiones reales.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
