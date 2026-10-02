@@ -1823,6 +1823,26 @@ reparación) -> `post-translate-finish` (checks, tests, build, commit local de l
   absoluta pierde los corchetes de `[MEG - Malaga Event Gear (malagaeventgear.com)]` y no matchea la
   regla, por eso el agente escribe siempre con la ruta relativa. No se probó todavía el orquestador
   completo con el paso 3b.
+- **Primera corrida real con el paso 3b (#T0043, 2026-10-02) y lo que dejó**: el investigador de SERP
+  y `todo-commit` funcionaron (el archivo de términos y los commits `chore(todo)` salieron bien), pero
+  el orquestador lanzó a `post-translator` en segundo plano y cerró su turno con "I'll stand by for
+  the completion notification". En `claude -p`, el CLI espera 600 s a las tareas en segundo plano y
+  luego mata todo: el traductor quedó a medias (`fr` solo con las fechas, sin la FAQ), el
+  verificador y el cierre no corrieron y la tarea siguió `en curso`. Se recuperó a mano, con agentes
+  en primer plano, y de paso el verificador independiente encontró una falsedad en la FAQ en inglés
+  (generalizaba la pantalla de 2x2 m del Basic MICE Pack a todo el inventario), corregida antes de
+  commitear las traducciones. Dos arreglos:
+  - `todo-implementer.md` tiene la sección "Agents run in the FOREGROUND, always": `run_in_background:
+    false` en TODA llamada a Agent, y nunca cerrar el turno con un agente en marcha (lo exige
+    `agent-json.test.ts`). No se tocó `CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS`: no está probado que con
+    `0` el orquestador reciba la notificación.
+  - `just post-translations-status` ya no dice `complete` si una traducción publicada y fresca tiene
+    otra estructura que el inglés (cantidad de preguntas de FAQ, secciones de resumen y de
+    destacados, con el mismo `structureMismatches` de `post-structure.test.ts`). Añade la columna
+    `structure` y la cuenta `out of structure` cuando hay diferencias. Antes solo miraba publicación
+    y fechas, así que "complete" no probaba que el contenido estuviera. Los gates de traducción
+    (`new-post-quota.ts`, la cuota de posts y el bloqueo de `todo-organize`) NO cambian: siguen
+    contando faltantes y desactualizadas.
 - **Verificado el 2026-10-01 con pruebas de humo de menos de 0,5 USD**: la herramienta Agent
   funciona en modo headless con `--agents`, y los subagentes heredan los permisos acotados de la
   sesión (un subagente escribió en `src/content/blog/` y se le bloqueó `src/lib/`). Aún no hay una

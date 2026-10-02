@@ -106,7 +106,7 @@ editado sale en los 13 idiomas en el mismo cambio.
 | `post-sync <slug>` | Tras editar el inglés: `post-touch` + regenera `post-faqs.json` y `post-toc.json` + lista traducciones por actualizar | `just post-sync projector-rental` |
 | `post-images [carpeta] [--dry-run]` | Convierte las imágenes de `assets/` a WebP y AVIF, las sube a R2 y actualiza `scripts/migrate-wp/manifest.json` | `just post-images evento-ECOC2026 --dry-run` |
 | `post-heading-id "<h>"...` | Imprime el id (`rehype-slug`) de cada encabezado, para los anclajes internos de una traducción | `just post-heading-id "Preguntas frecuentes"` |
-| `post-translations-status [--json]` | Qué traducciones faltan o están desactualizadas. Sin pendientes imprime `complete: ...` | `just post-translations-status` |
+| `post-translations-status [--json]` | Qué traducciones faltan, están desactualizadas o tienen otra estructura que el inglés (FAQ, resumen, destacados). Sin pendientes imprime `complete: ...` | `just post-translations-status` |
 | `post-translate-brief <slug> [--out ruta]` | Imprime el brief del traductor del post (base + `special/<slug>.md` + cola) | `just post-translate-brief projector-rental --out brief.md` |
 | `post-translate-map <slug> --map <json o ->` | Agrega la entrada del content map del post en los idiomas del JSON (`{ "fr": { "slug": "...", "keyword": "..." } }`) | `just post-translate-map projector-rental --map mapa.json` |
 | `post-translate-check <slug> [--strict] [--locale fr,de] [--post-build]` | Revisa las 12 traducciones contra el inglés. Sale con error si algo falla | `just post-translate-check projector-rental --strict` |

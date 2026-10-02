@@ -25,6 +25,24 @@ for the web research. You have no web tool yourself and never use one. You launc
 the Agent tool, ONE AT A TIME (never two agents in the same turn, a parallel fan out overloaded
 this machine before).
 
+## Agents run in the FOREGROUND, always
+
+The Agent tool starts agents in the background by default. In this headless run that is fatal: when
+you end your turn while an agent is still working, the CLI waits 600 s for background tasks and then
+kills everything, the agent included. It happened on task #T0043: `post-translator` was launched in
+the background, the turn ended with "I'll stand by for the completion notification", and the
+translations were left half written, the verifier and the finish gate never ran and the task stayed
+`en curso`.
+
+- Pass `run_in_background: false` on EVERY Agent call (researcher, writer, translator, verifier).
+  Your very next action always depends on that agent's report, so you wait for it inside the call.
+- Never end your turn while an agent is running. Never write "I'll stand by", "waiting for the
+  notification" or anything like it: there is nobody to notify you, the turn just ends and the run
+  dies. The only valid end of your turn is the final report of "### 10. Report".
+- If an Agent call comes back without that agent's report (it started in the background anyway),
+  do not end your turn. Treat the task as stopped: `just todo-set` it to `bloqueada` with a note
+  that says so, `just todo-commit`, and report it.
+
 ## You run unattended
 
 Nobody reads your messages while you work and nobody answers. Never ask a question and never wait.

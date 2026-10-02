@@ -484,6 +484,18 @@ describe('the todo-implementer team (todo-implement headless run)', () => {
 		expect(commit).not.toMatch(/exit 0/);
 	});
 
+	// 2026-10-02, task #T0043: the orchestrator launched post-translator in the background and ended
+	// its turn with "I'll stand by for the completion notification". In `claude -p` the CLI waited
+	// 600 s for background tasks and then killed everything, translator included: 11 of 12 locales
+	// half written, the verifier and the finish gate never ran, the task left "en curso".
+	it('the orchestrator launches every agent in the foreground and never ends its turn while one runs', () => {
+		const orchestrator = team[TODO_TEAM.indexOf('todo-implementer')];
+		expect(orchestrator).toContain('run_in_background: false');
+		expect(orchestrator).toMatch(/600\s+s/);
+		expect(orchestrator).toMatch(/never end your turn while an agent is running/i);
+		expect(orchestrator).toMatch(/stand by/i);
+	});
+
 	it('the orchestrator may run todo-commit and is told to commit TODO.json only through it', () => {
 		expect(allowed).toContain('Bash(just todo-commit:*)');
 		const orchestrator = team[TODO_TEAM.indexOf('todo-implementer')];
