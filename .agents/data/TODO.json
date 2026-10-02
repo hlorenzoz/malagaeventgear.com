@@ -86,25 +86,6 @@
       ]
     },
     {
-      "id": "#T0043",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/audio-visual-rental-for-outdoor-events/: \"Do you rent an inflatable movie screen for an outdoor event?\"",
-      "anotada": "2026-09-30",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-09-30, ítem 5)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/audio-visual-rental-for-outdoor-events.svx",
-        "Keywords: inflatable movie screen rental (google-ads 110/mo (in tier 100)), dentro del tier",
-        "Qué cubrir: Responder con honestidad que una pantalla inflable de cine al aire libre no esta en el inventario propio de MEG: confirmado, no aparece en .agents/context/inventario/2026.09.26 - Equipamiento.csv ni en packages.ts (las unicas pantallas propias son las del projector-rental.svx, 2x2m fijas, no inflables). Encuadrar la respuesta segun la capa 2 de 'Posicionamiento: soluciones integrales para eventos' de CLAUDE.md: invitar al cliente a contar que necesita para que MEG lo busque con sus proveedores, sin mencionar marca, modelo, precio, disponibilidad ni plazo, y sin dar a entender que es equipo propio de MEG. Enlazar a projector-rental.svx para la opcion de pantalla propia si el evento es en un espacio cerrado o con electricidad estable.",
-        "Por qué: Revise /blog/projector-rental/ (pantallas propias 2x2m, no inflables, 'What We Don't Stock' no menciona pantallas de cine al aire libre) y /blog/audio-visual-rental-for-outdoor-events/ (FAQs actuales: lluvia, generador, sonido exterior, terreno, plazo de reserva, ninguna sobre pantallas). Es una necesidad real de evento (cine de verano/noche de pelicula al aire libre) que MEG no tiene en inventario propio pero puede resolver por proveedores segun el modelo de posicionamiento de CLAUDE.md, asi que no es un skip por Fit, y el hueco real esta en el post de eventos al aire libre, no en uno nuevo (no pasaria Goldilocks como post independiente con esta unica evidencia).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0047",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -1458,6 +1439,27 @@
         "do rental cars have microphones (Cinco preguntas fuera de mercado o de un negocio distinto: 'do rental cars have microphones' es sobre coches de alquiler, no eventos; 'is there a video rental store near me' y 'what were the video rental stores' son sobre tiendas de alquiler de peliculas (tipo Blockbuster), un negocio no relacionado; 'how much does it cost to rent a video camera' y 'where to rent video equipment' apuntan a camaras de video/foto, que CLAUDE.md confirma retiradas del inventario desde 2026-07-31 ('Los posts que afirman que MEG no ofrece camaras ni servicios de video/foto son correctos tal cual estan publicados. No reabrir esta pregunta sin un update explicito del negocio'). Ninguna pasa el filtro de encaje (paso 1 del metodo de decision).)",
         "how many lumens do i need for a conference room projector (/blog/projector-rental/ ya tiene el FAQ 'What brightness or lumens do I need for a daylit or brightly lit room?', misma intencion (elegir lumens segun la luz/sala) con otras palabras. Agregar una FAQ nueva casi identica repetiria lo que ya esta publicado en el mismo post.)",
         "what cuisine is gala (Pregunta sin relacion con equipamiento audiovisual ni eventos: 'gala' aqui parece referirse a un tipo de manzana o a otro sentido de la palabra, no a una cena de gala. No pasa el filtro de encaje (paso 1): no es algo que MEG venda o resuelva para un evento, y no hay forma honesta de responderla desde el inventario o los paquetes.)"
+      ]
+    },
+    {
+      "id": "#T0043",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/audio-visual-rental-for-outdoor-events/: \"Do you rent an inflatable movie screen for an outdoor event?\"",
+      "anotada": "2026-09-30",
+      "hecha": "2026-10-02",
+      "origen": "content-strategist (plan 2026-09-30, ítem 5)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audio-visual-rental-for-outdoor-events.svx",
+        "Keywords: inflatable movie screen rental (google-ads 110/mo (in tier 100)), dentro del tier",
+        "Qué cubrir: Responder con honestidad que una pantalla inflable de cine al aire libre no esta en el inventario propio de MEG: confirmado, no aparece en .agents/context/inventario/2026.09.26 - Equipamiento.csv ni en packages.ts (las unicas pantallas propias son las del projector-rental.svx, 2x2m fijas, no inflables). Encuadrar la respuesta segun la capa 2 de 'Posicionamiento: soluciones integrales para eventos' de CLAUDE.md: invitar al cliente a contar que necesita para que MEG lo busque con sus proveedores, sin mencionar marca, modelo, precio, disponibilidad ni plazo, y sin dar a entender que es equipo propio de MEG. Enlazar a projector-rental.svx para la opcion de pantalla propia si el evento es en un espacio cerrado o con electricidad estable.",
+        "Por qué: Revise /blog/projector-rental/ (pantallas propias 2x2m, no inflables, 'What We Don't Stock' no menciona pantallas de cine al aire libre) y /blog/audio-visual-rental-for-outdoor-events/ (FAQs actuales: lluvia, generador, sonido exterior, terreno, plazo de reserva, ninguna sobre pantallas). Es una necesidad real de evento (cine de verano/noche de pelicula al aire libre) que MEG no tiene en inventario propio pero puede resolver por proveedores segun el modelo de posicionamiento de CLAUDE.md, asi que no es un skip por Fit, y el hueco real esta en el post de eventos al aire libre, no en uno nuevo (no pasaria Goldilocks como post independiente con esta unica evidencia).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
