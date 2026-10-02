@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): tv-screen-rental, nueva FAQ sobre el sourcing de LED video walls con proveedores
+- **Tarea #T0037** (`post-writer`), origen: plan de contenido `.agents/context/keywords/content-plan/2026-09-29.json`, item 10 (`keywords: ["led screen rental"]`, `action: add-faq`, evidencia google-ads 390/mo, gsc pos 33.33, 43 impr).
+- Se agrega la pregunta `### Can Malaga Event Gear source an LED video wall through a supplier?` al final de `## FAQs`, con su bullet en el indice inline. Responde que el video wall LED no esta en el inventario propio (solo el panel de 60 pulgadas del MICE Pack) y suma el encuadre de sourcing con proveedores (consultamos, sin prometer disponibilidad, marca, modelo ni precio), consistente con la FAQ existente "Do you rent LED video walls or modular LED panels?" y con la seccion "What We Don't Stock" del mismo post.
+- `updatedDate` paso a 2026-10-02 (`just post-sync tv-screen-rental`), que regenero `post-faqs.json` y `post-toc.json`.
+- Las 12 traducciones (fr, it, de, nl, pt-pt, pt-br, sv, da, nb, zh-hans, zh-tw, zh-hk) quedan desactualizadas y pendientes de la misma edicion en su idioma.
+
 ### Changed (docs): `README.md` documenta todas las recetas `just` y los agentes (2026-10-01)
 - Seccion nueva "Comandos just" con 7 grupos (desarrollo y calidad, blog y traducciones, keywords y plan de contenido, tareas, implementador bajo demanda, base de datos y deploy, que corre solo y que corro yo), una tabla `comando | que hace | ejemplo` por grupo, el flujo de punta a punta para crear o actualizar un post y traducirlo a los 12 idiomas, y una guia de solucion de problemas (lock, hora, red, intentos, tarea bloqueada, `NEEDS BUILD`).
 - Seccion nueva "Agentes" con los 7 agentes del proyecto (rol, quien los lanza, herramientas) y la nota de que el bloque "Instrucciones para agentes globales" de `CLAUDE.md` manda sobre los agentes SEO globales.
