@@ -161,7 +161,7 @@ a mano. Ver CLAUDE.md, "Investigación de keywords".
 | :--- | :--- | :--- | :--- |
 | 1. Investigación | `keywords-research` | `ubersuggest-analyst` (MCP de Ubersuggest) | 4 USD |
 | 2. FAQs | `faq-research` | `faq-researcher` (autocompletado de Google) | 2 USD |
-| 3. Plan de contenido | `content-plan` | `content-strategist` | 4 USD |
+| 3. Plan de contenido | `content-plan` | `content-strategist` | 10 USD |
 | 4. Orden de tareas | `todo-organize` | ninguno (determinista, sin red) | 0 |
 
 `keywords-daily` es `scripts/keywords/daily-guard.ts`. Qué hace en cada disparo:
@@ -188,7 +188,7 @@ a mano. Ver CLAUDE.md, "Investigación de keywords".
 | `keywords-schedule-install` | Copia la plantilla de launchd a `~/Library/LaunchAgents/com.malagaeventgear.keyword-research.plist`, completa las rutas y la arranca | `just keywords-schedule-install` |
 | `keywords-research` | Agente de Ubersuggest (`claude -p`, aislado, 4 USD). Lo llama el guard | `just keywords-research` |
 | `faq-research` | Agente de FAQs (aislado, 2 USD). Lo llama el guard | `just faq-research` |
-| `content-plan` | Agente del plan (aislado, 4 USD). Lo llama el guard | `just content-plan` |
+| `content-plan` | Agente del plan (aislado, 10 USD). Lo llama el guard | `just content-plan` |
 | `keywords-seeds [n]` | JSON con la agenda del día y las N semillas de investigación (3 por defecto) | `just keywords-seeds 5` |
 | `faq-seeds [n]` | JSON con las N keywords del día para el agente de FAQs (10 por defecto) | `just faq-seeds` |
 | `keywords-sync` | Reconstruye `keywords.json` desde las fuentes del repo y los lotes commiteados. Idempotente | `just keywords-sync` |

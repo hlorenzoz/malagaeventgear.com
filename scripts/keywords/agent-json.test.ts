@@ -124,7 +124,9 @@ describe('the content-plan headless run and its scheduler', () => {
 		expect(run).toContain('--permission-mode default');
 		expect(run).toContain('--agent content-strategist');
 		expect(run).toContain('agent-json.ts content-strategist');
-		expect(run).toContain('--max-budget-usd 4');
+		// Raised from 4 to 10 on 2026-10-02: the 09:30 plan run spent 3.85 USD of the old cap.
+		expect(run).toContain('--max-budget-usd 10');
+		expect(run).not.toContain('--max-budget-usd 4 ');
 		for (const denied of [
 			'git push',
 			'git reset',
@@ -489,4 +491,28 @@ describe('the todo-implementer team (todo-implement headless run)', () => {
 		expect(orchestrator).not.toMatch(/NEVER commit `\.agents\/data\/TODO\.json`/);
 		expect(orchestrator).toMatch(/never `git add` or `git commit` it\s+yourself/i);
 	});
+});
+
+describe('the daily agents know how to call tools in a headless run', () => {
+	// The 2026-10-02 09:30 run lost turns (and money) to denied calls: `cd "..." && just ...`,
+	// scratch scripts in /tmp, python, git status, and reading a saved tool result from outside
+	// the repo. The todo-implementer already says it, the three daily agents did not.
+	const DAILY = ['ubersuggest-analyst', 'faq-researcher', 'content-strategist'];
+	const files = import.meta.glob('/.claude/agents/*.md', {
+		query: '?raw',
+		import: 'default',
+		eager: true
+	}) as Record<string, string>;
+
+	for (const name of DAILY) {
+		it(`${name} has the one command per call rules`, () => {
+			const text = files[`/.claude/agents/${name}.md`];
+			expect(text, `${name}.md exists`).toBeTruthy();
+			expect(text).toContain('## How to call tools in this run');
+			expect(text).toContain('ONE command per Bash call');
+			expect(text).toMatch(/Never `cd`/);
+			expect(text).toMatch(/scratch scripts/);
+			expect(text).toMatch(/saved to a file outside the repository/);
+		});
+	}
 });

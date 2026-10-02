@@ -1583,11 +1583,19 @@ cadena y sus piezas deterministas (todas en `scripts/keywords/`, strict TDD):
   `.agents/data/TODO.json`" más abajo). Nunca hace push.
 - **Aislamiento**: `just content-plan` usa los mismos flags que `keywords-research`
   (`--setting-sources ""`, `--strict-mcp-config` con config MCP vacía, `--permission-mode default`,
-  mismo `--disallowedTools`, `--max-budget-usd 4`), y el agente entra por `--agents` desde su `.md`
+  mismo `--disallowedTools`, `--max-budget-usd 10`), y el agente entra por `--agents` desde su `.md`
   (`agent-json.ts content-strategist`). `Write` y `Edit` solo bajo `content-plan/`. Todo lo que
   lee está dentro del repo: en modo `default` leer fuera del repo pide permiso, y en `-p` eso es
   una denegación (verificado el 2026-09-29). Por eso la metodología de POP vive en
   `.agents/context/pop/` y no se lee desde `~/.agents/`.
+  - **Tope subido de 4 a 10 USD (pedido del usuario, 2026-10-02)** solo para este agente: la corrida
+    de las 09:30 de ese día gastó 3,85 USD (50 turnos) de los 4. Los de Ubersuggest (4 USD, gastó
+    1,11) y FAQs (2 USD, gastó 0,67) no cambian.
+  - **Los tres agentes diarios (`ubersuggest-analyst`, `faq-researcher`, `content-strategist`) llevan la
+    sección "How to call tools in this run"** (la exige `agent-json.test.ts`): un comando por llamada
+    de Bash, nunca `cd` ni `&&`, sin scripts en `/tmp` ni `python3`, y un resultado demasiado grande
+    se guarda fuera del repo y no se puede leer, así que se pide menos. En esa corrida hubo 3, 3 y 5
+    llamadas denegadas por eso, y cada una cuesta un turno.
 - **Las dos autoridades del agente (pedido del usuario, 2026-09-29)**: (1) la documentación de
   Google en `.agents/context/seo/`, de forma estricta. Lee `creating-helpful-content.md` completo
   en cada corrida, y `spam-policies.md` (scaled content, doorway, keyword stuffing),

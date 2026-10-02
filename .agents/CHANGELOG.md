@@ -7,6 +7,13 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (agents): tope de `content-plan` a 10 USD y regla de un comando por llamada en los 3 agentes diarios (2026-10-02)
+- **Revision de la corrida real de las 09:30**: el agente del plan gasto 3,85 USD de 4 (50 turnos, 5 llamadas denegadas), el de Ubersuggest 1,11 (3 denegadas) y el de FAQs 0,67 (3 denegadas). Las denegaciones eran bloqueos correctos pero cada una costo un turno: `cd "..." && just ...` (la forma encadenada no matchea la regla), scripts en `/tmp`, `python3`, `git status` y leer desde `~/.claude/projects` un resultado grande guardado fuera del repo.
+- Pedido del usuario: `just content-plan` pasa de `--max-budget-usd 4` a `10`. Solo ese agente. `keywords-research` (4) y `faq-research` (2) no cambian, les sobraba margen.
+- `ubersuggest-analyst.md`, `faq-researcher.md` y `content-strategist.md`: seccion nueva "How to call tools in this run" (un comando por llamada de Bash, nunca `cd` ni `&&`, sin scripts de scratch ni `python3`, y un resultado demasiado grande se guarda fuera del repo y no se puede leer, asi que se pide menos). El `todo-implementer` ya lo tenia.
+- `agent-json.test.ts`: el test del tope exige 10, y 3 tests nuevos (uno por agente diario) exigen la seccion.
+- Aclaracion: la corrida de las 09:30 tambien fallo en sus commits de Ubersuggest y FAQs porque el gate de tests de `keywords-commit` y `faqs-commit` coincidio con mi fase RED del TDD de `serp-term-researcher`. Los lotes se commitearon a mano a las 10:00.
+
 ### Changed (agents): las recetas y los agentes ahora commitean `TODO.json` (2026-10-02)
 - **Decision del usuario**: se invierte la regla "los agentes no commitean `.agents/data/TODO.json`". Una sola receta nueva, `just todo-commit ["chore(todo): ..."]`, es la unica que lo commitea, en su propio commit `chore(todo)`, nunca mezclado con `keywords.json` ni con el plan.
 - `todo-commit` commitea solo si el archivo cambio **y** valida contra su schema (`scripts/todo/todo.ts list`). Sin cambios sale en silencio, con el archivo invalido sale con error y no commitea (una edicion a mano a medio hacer no se cuela). Un cambio a mano que ya estuviera en el archivo se commitea junto con el resto. `--no-verify` por el mismo motivo que `keywords-commit`. Nunca hace push.
