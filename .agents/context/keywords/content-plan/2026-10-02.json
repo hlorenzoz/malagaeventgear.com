@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-02",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 30,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "items": [
+    {
+      "keywords": ["audio rental equipment near me", "mic rent near me"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "audio rental equipment near me: google-ads 70/mo (below tier 100) | mic rent near me: google-ads 70/mo (below tier 100)",
+      "reason": "Dos variantes 'cerca de mi' de la misma intencion generica ya resuelta por /blog/audio-visual-hire-near-me-in-malaga-spain/ y /blog/audio-video-rental-near-me-in-malaga-spain/ (FAQs 'How much does audio visual hire cost near me?', 'Do you deliver audio video rental outside Malaga city?'), mas el FAQ de microfonos de /blog/sound-system-rental/ ('What type of microphone do I need for my event?', 'Is a wireless microphone available, or only wired?'). Crear un post o heading nuevo por cada variante lexica de 'near me' es el patron que spam-policies.md describe como Doorway abuse ('multiple domain names or pages targeted at specific regions or cities that funnel users to one page'; 'creating substantially similar pages that are closer to search results than a clearly defined, browseable hierarchy')."
+    },
+    {
+      "keywords": ["hire stereo system", "sound system on hire", "audio rental service"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "hire stereo system: google-ads 70/mo (below tier 100) | sound system on hire: google-ads 70/mo (below tier 100) | audio rental service: google-ads 50/mo (below tier 100)",
+      "reason": "Las tres frases son sinonimos lexicos britanicos/genericos de la propia keyword objetivo de /blog/sound-system-rental/ ('sound system rental'), que ya cubre eleccion por aforo, PA vs DJ, indoor/outdoor y precio con la seccion 'Choosing Your Sound System by Guest Count' y el FAQ 'What is included in a sound system rental?'. Un heading nuevo titulado 'hire a stereo system' o similar solo repetiria el post entero: no hay subtema nuevo que cubrir, asi que corresponde skip en vez de add-section."
+    },
+    {
+      "keywords": [
+        "movie screen rental",
+        "outdoor movie screen rental",
+        "outdoor movie projector and screen rental",
+        "outdoor movie theater screen rental",
+        "outdoor projector screen rental",
+        "outdoor theater screen rental",
+        "screen projector outdoor rental",
+        "rent a projector for outdoor movies"
+      ],
+      "cluster": "audio visual rental",
+      "action": "new-post",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "movie screen rental: google-ads 70/mo (below tier 100) | outdoor movie projector and screen rental: google-ads 70/mo (below tier 100) | outdoor movie screen rental: google-ads 70/mo (below tier 100) | outdoor movie theater screen rental: google-ads 70/mo (below tier 100) | outdoor projector screen rental: google-ads 70/mo (below tier 100) | outdoor theater screen rental: google-ads 70/mo (below tier 100) | screen projector outdoor rental: google-ads 70/mo (below tier 100) | rent a projector for outdoor movies: google-ads 50/mo (below tier 100)",
+      "reason": "Ocho frases de Google Ads son la misma intencion semantica (proyector y pantalla para una noche de cine al aire libre), agrupadas en un solo item. Busque 'movie' y 'cinema' en el inventario completo de just content-inventory (los 77 posts) y no aparece en ningun lado: ni /blog/projector-rental/ (cubre lumens, 4K, proyeccion sobre fachada, pero no el formato de noche de cine) ni /blog/audio-visual-rental-for-outdoor-events/ (generador y clima para AV al aire libre en general, sin pantalla) ni /blog/tv-screen-rental/ (pantalla de 60 pulgadas explicitamente de interior) cubren este caso de uso. Pasa Goldilocks: sigue el mismo patron que los ~30 posts 'audio-visual-rental-for-<evento>' del silo (un evento especifico, ni mas ancho que el pilar ni demasiado estrecho). Respaldo real de inventario: el Eco Pack tiene el complemento opcional 'Projector & projection screen' (+50 euros, packages.ts PRICE_POINTS.projectorScreen), el Product Presentation Pack incluye 1 pantalla de proyeccion frontal con soporte y 1 proyector de 5000 lumens, el Basic MICE Pack incluye una pantalla de 2x2m con proyector de 3000 lumens, y el CSV de inventario (2026.09.26) lista la pantalla mas grande (Da-Lite 2,30x3,00m, proyeccion frontal y retroproyeccion) y los dos proyectores (Vivitek D5 3000 lumens x2, Christie LX505 5000 lumens). El sonido ya esta resuelto por /blog/sound-system-rental/, seccion 'Indoor and Outdoor Sound System Rental'. Es people-first real: las noches de cine al aire libre en villas y terrazas son un formato de fiesta privada habitual en el clima de la Costa del Sol, no solo una keyword con volumen. Prioridad media porque las 8 frases estan debajo del tier (50-70 vs 100-200), es la keyword de mejor avalancheFit disponible hoy entre las candidatas no cubiertas.",
+      "newPost": {
+        "slug": "outdoor-movie-screen-and-projector-rental",
+        "title": "Outdoor Movie Screen Rental in Malaga, Spain",
+        "keyword": "outdoor movie screen rental",
+        "targetPage": "/blog/audio-visual-rental/",
+        "prevSibling": "projector-rental",
+        "nextSibling": "audio-visual-rental-for-outdoor-events",
+        "outline": [
+          { "level": 2, "text": "What an Outdoor Movie Night Needs" },
+          { "level": 2, "text": "Outdoor Movie Screen Rental: Choosing Your Screen and Projector Size" },
+          { "level": 2, "text": "Sound for an Outdoor Movie: PA Speakers, Not a Home Cinema System" },
+          { "level": 2, "text": "Power, Weather and Timing From Dusk to Dark" },
+          { "level": 2, "text": "Matching Your Outdoor Movie Night to a Package" }
+        ],
+        "brief": "Keyword verbatim 'outdoor movie screen rental' va en el titulo y en el segundo H2; el resto de headings usa fraseo natural (el candidato trae 8 variantes lexicas casi identicas, agrupadas en este unico post). Enlace hacia abajo al pilar /blog/audio-visual-rental/ con anchor descriptivo tipo 'our full audio visual rental range in Malaga', nunca 'click here'. Entra en la cadena lateral entre /blog/projector-rental/ (hermano anterior, mismo equipo) y /blog/audio-visual-rental-for-outdoor-events/ (hermano siguiente, mismo contexto al aire libre): ambos deben reescribirse para enlazar a este post nuevo, y el implementador confirma el orden exacto en /map antes de tocarlos. El pilar audio-visual-rental todavia no tiene su enlace de vuelta implementado (CLAUDE.md, 'Reverse Silo del Blog', estado 2026-09-29), asi que este post no cambia ese enlace. Datos permitidos, todos verificados: Eco Pack, complemento opcional 'Projector & projection screen' por +50 euros (packages.ts, PRICE_POINTS.projectorScreen); Product Presentation Pack, incluye 1 pantalla de proyeccion frontal con soporte y 1 proyector de 5000 lumens; Basic MICE Pack, pantalla de 2x2m con proyector de 3000 lumens; CSV 2026.09.26: pantalla Da-Lite 2,30x3,00m (la mas grande, proyeccion frontal y retroproyeccion), 2x proyector Vivitek D5 3000 lumens, 1x Christie LX505 5000 lumens. Para el sonido, reusar lo ya confirmado en /blog/sound-system-rental/ (PA activo, uso outdoor) en vez de inventar un 'sistema de cine'. La seccion de clima/generador reusa los hechos ya publicados en /blog/audio-visual-rental-for-outdoor-events/ (generador disponible, superficies de cesped/arena). NUNCA afirmar que MEG ya hizo una noche de cine al aire libre: no hay post News que lo respalde (regla 4 del posicionamiento, CLAUDE.md), asi que la seccion 'Real Setups We've Delivered' de la plantilla debe reusar entregas reales de proyector/pantalla ya descritas en otros posts (por ejemplo projector-rental), nunca inventar un caso de noche de cine. Si un cliente pide una pantalla mas grande que la Da-Lite 2,30x3,00m, usar la formula del posicionamiento de soluciones integrales: 'no esta en nuestro inventario propio, contanos que necesitas y buscamos la solucion con nuestros proveedores', sin prometer tamano ni plazo."
+      }
+    },
+    {
+      "keywords": ["pa hire", "public address hire", "pa equipment hire", "pa system hire"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "pa hire: google-ads 70/mo (below tier 100) | public address hire: google-ads 70/mo (below tier 100) | pa equipment hire: google-ads 40/mo (below tier 100) | pa system hire: google-ads 40/mo (below tier 100)",
+      "reason": "Las cuatro frases son la misma intencion (alquilar un sistema de megafonia/PA), ya cubierta por /blog/sound-system-rental/ con la seccion 'PA System or DJ Sound: Matching Equipment to the Event' y el FAQ 'Is a PA system rental the same as a sound system rental?' (mas 'Do you offer a portable, battery powered or self collect PA system?'). Un heading o FAQ nuevo repetiria lo que ya responde ese FAQ casi palabra por palabra."
+    },
+    {
+      "keywords": ["concert backline"],
+      "cluster": "audio visual rental",
+      "action": "add-faq",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 50/mo (below tier 100)",
+      "targetUrl": "/blog/audio-visual-rental-for-music-performances/",
+      "file": "src/content/blog/audio-visual-rental-for-music-performances.svx",
+      "question": "Do you provide concert backline, like amps or a drum kit, for a live band?",
+      "brief": "Responder que el backline de instrumentos (amplificadores de guitarra/bajo, bateria, atriles de instrumento) no esta en el inventario propio de MEG: el CSV de 2026.09.26 solo lista PA (HK Audio), mesas de mezcla, microfonos Audix y proyectores/pantallas, ningun amplificador de instrumento ni bateria. Usar la formula exacta del posicionamiento de soluciones integrales de CLAUDE.md: 'no esta en nuestro inventario propio' + 'contanos que necesitas y buscamos la solucion con nuestros proveedores', sin prometer disponibilidad ni plazo ('si la hay'), sin dar marca, modelo ni precio. Mantener la distincion ya hecha en el post: MEG SI trae el PA, el microfono y las luces; el musico trae y conecta su propio instrumental a esa mesa de mezcla, como ya dice el FAQ existente 'What is the difference between a setup for a DJ and a live band?'. No contradecir esa FAQ.",
+      "reason": "El post ya dice que una banda 'runs their instruments through their own mixer into our sound system', pero ningun FAQ nombra el backline (amplis, bateria) como algo que MEG pueda ayudar a conseguir via proveedor. Es una pregunta real de banda/evento musical, distinta de la pregunta ya cubierta sobre DJ vs banda, y encaja exactamente en la capa 2 del posicionamiento de soluciones integrales (CLAUDE.md) en vez de cerrarse con un 'no' categorico. Prioridad media: unica keyword, por debajo del tier, sin variantes duplicadas que ameriten un post nuevo."
+    },
+    {
+      "keywords": ["led outdoor screen rental", "outdoor led screen rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "led outdoor screen rental: google-ads 50/mo (below tier 100) | outdoor led screen rental: google-ads 50/mo (below tier 100)",
+      "reason": "Ambas frases buscan un muro/panel LED (no un proyector con pantalla, ya cubierto en el item nuevo de este plan), y /blog/tv-screen-rental/ ya responde exactamente eso con el FAQ 'Do you rent LED video walls or modular LED panels?' (no, el inventario propio es un panel plano unico de 60 pulgadas) y 'Can Malaga Event Gear source an LED video wall through a supplier?' (si, via proveedor, capa 2 del posicionamiento). Un heading o FAQ nuevo repetiria esa respuesta ya publicada."
+    },
+    {
+      "keywords": ["how much does it cost to rent sound equipment"],
+      "cluster": "audio visual rental",
+      "action": "add-faq",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "just content-candidates newFaqs (id how-much-does-it-cost-to-rent-sound-equipment), keywordId audiovisual-equipment-rental-service, sin volumen medido",
+      "targetUrl": "/blog/sound-system-rental/",
+      "file": "src/content/blog/sound-system-rental.svx",
+      "question": "How much does it cost to rent sound equipment?",
+      "brief": "Responder con los precios reales de packages.ts por nivel (Eco Pack, Wedding Pack, Product Presentation Pack, Basic MICE Pack, MICE Pack segun corresponda a 'solo sonido'), remitiendo a /packages/ para el detalle completo, sin inventar una cifra que no este en ese archivo. Aclarar que el precio depende del aforo y de si se necesita tecnico, ya como lo hacen otros posts del silo (por ejemplo la seccion 'Choosing Your Sound System by Guest Count' del propio post). No repetir el FAQ ya existente sobre PA vs sonido general.",
+      "reason": "Revise las 13 preguntas de FAQ de /blog/sound-system-rental/ completas: cubre PA vs DJ, generador, microfonos, mezcladora, pero ninguna pregunta de precio, a diferencia de casi todos los demas posts del silo (que si tienen 'How much does audio visual rental cost for...'). Es un hueco real de contenido en la pagina mas natural para esta pregunta exacta ('sound equipment'), no solo una keyword con volumen: alguien que llega a esta pagina especifica razonablemente espera ver el precio. Prioridad media: sin volumen medido (unknown), viene de newFaqs sin dato de busquedas."
+    },
+    {
+      "keywords": ["what is considered audio visual equipment"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "just content-candidates newFaqs (id what-is-considered-audio-visual-equipment), keywordId audiovisual-equipment-rental-service, sin volumen medido",
+      "reason": "El pilar /blog/audio-visual-rental/ ya tiene el FAQ 'What is audio visual equipment?', la misma pregunta con una palabra de diferencia ('considered' vs nada). Agregar una FAQ casi identica en otro post crearia canibalizacion dentro del mismo silo en vez de una pregunta nueva."
+    },
+    {
+      "keywords": ["where to rent sound equipment"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "just content-candidates newFaqs (id where-to-rent-sound-equipment), keywordId audiovisual-equipment-rental-service, sin volumen medido",
+      "reason": "Es una pregunta de ubicacion/proveedor, ya respondida por el FAQ del pilar 'What areas does Malaga Event Gear serve?' y por /blog/audio-visual-rental-company/ ('Is Malaga Event Gear a real, established audio visual rental company?'). Tratarla como una variante mas del grupo 'near me' ya cubierto en este mismo plan: un post o FAQ nuevo por cada forma de preguntar 'donde' cae en el mismo patron de Doorway abuse citado arriba."
+    },
+    {
+      "keywords": [
+        "do rental cars have microphones",
+        "how much does it cost to rent a video camera",
+        "is there a video rental store near me",
+        "what were the video rental stores",
+        "where to rent video equipment"
+      ],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "just content-candidates newFaqs (ids do-rental-cars-have-microphones, how-much-does-it-cost-to-rent-a-video-camera, is-there-a-video-rental-store-near-me, what-were-the-video-rental-stores, where-to-rent-video-equipment), sin volumen medido",
+      "reason": "Cinco preguntas fuera de mercado o de un negocio distinto: 'do rental cars have microphones' es sobre coches de alquiler, no eventos; 'is there a video rental store near me' y 'what were the video rental stores' son sobre tiendas de alquiler de peliculas (tipo Blockbuster), un negocio no relacionado; 'how much does it cost to rent a video camera' y 'where to rent video equipment' apuntan a camaras de video/foto, que CLAUDE.md confirma retiradas del inventario desde 2026-07-31 ('Los posts que afirman que MEG no ofrece camaras ni servicios de video/foto son correctos tal cual estan publicados. No reabrir esta pregunta sin un update explicito del negocio'). Ninguna pasa el filtro de encaje (paso 1 del metodo de decision)."
+    },
+    {
+      "keywords": ["how many lumens do i need for a conference room projector"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "just content-candidates newFaqs (id how-many-lumens-do-i-need-for-a-conference-room-projector), keywordId projector-rental, sin volumen medido",
+      "reason": "/blog/projector-rental/ ya tiene el FAQ 'What brightness or lumens do I need for a daylit or brightly lit room?', misma intencion (elegir lumens segun la luz/sala) con otras palabras. Agregar una FAQ nueva casi identica repetiria lo que ya esta publicado en el mismo post."
+    },
+    {
+      "keywords": ["what cuisine is gala"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "just content-candidates newFaqs (id what-cuisine-is-gala), keywordId audio-visual-rental-for-gala-dinners, sin volumen medido",
+      "reason": "Pregunta sin relacion con equipamiento audiovisual ni eventos: 'gala' aqui parece referirse a un tipo de manzana o a otro sentido de la palabra, no a una cena de gala. No pasa el filtro de encaje (paso 1): no es algo que MEG venda o resuelva para un evento, y no hay forma honesta de responderla desde el inventario o los paquetes."
+    }
+  ],
+  "todo": [
+    {
+      "id": "#T0001",
+      "priority": "media",
+      "reason": "Es una mejora real de UX y manejo de errores del formulario de leads (autocompletar campos, agregar la URL del paquete solicitado a la notificacion interna) sin indicacion de que bloquee el envio de leads hoy ni de una fecha limite declarada en la propia tarea."
+    },
+    {
+      "id": "#T0004",
+      "priority": "media",
+      "reason": "Pide persistir errores en base de datos para poder revisarlos despues; es una mejora de observabilidad real pero sin indicacion de que algo este fallando sin registro hoy ni de una fecha limite en el propio texto de la tarea."
+    },
+    {
+      "id": "#T0007",
+      "priority": "baja",
+      "reason": "Es un widget nuevo (PWA Installer) explorable y sin usuarios pidiendolo segun el propio texto: una mejora de producto deseable pero sin ningun efecto en contenido, SEO ni en algo ya publicado que este mal."
+    },
+    {
+      "id": "#T0008",
+      "priority": "media",
+      "reason": "Pide un banner de cookies con toggles reales via Cloudflare Zaraz segun preferencia del usuario; es una mejora de cumplimiento y UX real, pero el propio texto no indica que el sitio este hoy sin ningun aviso de cookies ni declara una fecha limite, asi que no alcanza el umbral de 'bloquea publicar o indexar' de alta."
+    }
+  ]
+}

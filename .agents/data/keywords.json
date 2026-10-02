@@ -4894,6 +4894,16 @@
               "2026-08": 50
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -5011,6 +5021,16 @@
               "2026-07": 30,
               "2026-08": 20
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -14959,6 +14979,16 @@
               "2026-08": 30
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "add-faq",
+            "targetUrl": "/blog/audio-visual-rental-for-music-performances/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -19530,6 +19560,34 @@
       "opportunity": null,
       "opportunityReason": null,
       "firstSeen": "2026-09-29",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "do-rental-cars-have-microphones",
+      "keyword": "do rental cars have microphones",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-10-02",
       "lastResearched": null,
       "notes": ""
     },
@@ -30165,6 +30223,16 @@
               "2026-08": 40
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -30789,12 +30857,12 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-09-29",
-          "lastSeen": "2026-09-29",
+          "lastSeen": "2026-10-02",
           "stats": {
-            "asOf": "2026-09-29",
+            "asOf": "2026-10-02",
             "action": "skip",
             "targetUrl": null,
-            "priority": "low"
+            "priority": "medium"
           }
         }
       },
@@ -30834,6 +30902,34 @@
       "notes": ""
     },
     {
+      "id": "how-much-does-it-cost-to-rent-a-video-camera",
+      "keyword": "how much does it cost to rent a video camera",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-10-02",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
       "id": "how-much-does-it-cost-to-rent-sound-equipment",
       "keyword": "how much does it cost to rent sound equipment",
       "locale": "en",
@@ -30846,12 +30942,12 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-09-29",
-          "lastSeen": "2026-09-29",
+          "lastSeen": "2026-10-02",
           "stats": {
-            "asOf": "2026-09-29",
+            "asOf": "2026-10-02",
             "action": "add-faq",
             "targetUrl": "/blog/sound-system-rental/",
-            "priority": "low"
+            "priority": "medium"
           }
         }
       },
@@ -32738,6 +32834,34 @@
       "notes": ""
     },
     {
+      "id": "is-there-a-video-rental-store-near-me",
+      "keyword": "is there a video rental store near me",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-10-02",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
       "id": "jumbo-movie-screen-rental",
       "keyword": "jumbo movie screen rental",
       "locale": "en",
@@ -34550,6 +34674,16 @@
               "2026-07": 40,
               "2026-08": 40
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -38887,6 +39021,16 @@
               "2026-08": 110
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -40591,6 +40735,16 @@
               "2026-07": 90,
               "2026-08": 70
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "new-post",
+            "targetUrl": "/blog/outdoor-movie-screen-and-projector-rental/",
+            "priority": "medium"
           }
         }
       },
@@ -42892,6 +43046,16 @@
               "2026-08": 40
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -43076,6 +43240,16 @@
               "2026-07": 90,
               "2026-08": 90
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "new-post",
+            "targetUrl": "/blog/outdoor-movie-screen-and-projector-rental/",
+            "priority": "medium"
           }
         }
       },
@@ -43347,6 +43521,16 @@
               "2026-08": 90
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "new-post",
+            "targetUrl": "/blog/outdoor-movie-screen-and-projector-rental/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -43454,6 +43638,16 @@
               "2026-07": 90,
               "2026-08": 90
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "new-post",
+            "targetUrl": "/blog/outdoor-movie-screen-and-projector-rental/",
+            "priority": "medium"
           }
         }
       },
@@ -43933,6 +44127,16 @@
               "2026-08": 90
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "new-post",
+            "targetUrl": "/blog/outdoor-movie-screen-and-projector-rental/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -44333,6 +44537,16 @@
               "2026-07": 90,
               "2026-08": 90
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "new-post",
+            "targetUrl": "/blog/outdoor-movie-screen-and-projector-rental/",
+            "priority": "medium"
           }
         }
       },
@@ -44765,6 +44979,16 @@
               "2026-08": 40
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -44936,6 +45160,16 @@
               "2026-07": 30,
               "2026-08": 40
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -45769,6 +46003,16 @@
               "2026-07": 40,
               "2026-08": 40
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -52856,6 +53100,16 @@
               "2026-08": 40
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -54248,6 +54502,16 @@
               "2026-07": 70,
               "2026-08": 50
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "new-post",
+            "targetUrl": "/blog/outdoor-movie-screen-and-projector-rental/",
+            "priority": "medium"
           }
         }
       },
@@ -59602,6 +59866,16 @@
               "2026-08": 90
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "new-post",
+            "targetUrl": "/blog/outdoor-movie-screen-and-projector-rental/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -64560,6 +64834,16 @@
               "2026-07": 70,
               "2026-08": 40
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -77056,6 +77340,34 @@
       "notes": ""
     },
     {
+      "id": "what-cuisine-is-gala",
+      "keyword": "what cuisine is gala",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-10-02",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
       "id": "what-is-a-gooseneck-microphone",
       "keyword": "What is a gooseneck microphone?",
       "locale": "en",
@@ -77202,12 +77514,12 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-09-29",
-          "lastSeen": "2026-09-29",
+          "lastSeen": "2026-10-02",
           "stats": {
-            "asOf": "2026-09-29",
+            "asOf": "2026-10-02",
             "action": "skip",
             "targetUrl": null,
-            "priority": "low"
+            "priority": "medium"
           }
         }
       },
@@ -77293,6 +77605,34 @@
       "opportunity": null,
       "opportunityReason": null,
       "firstSeen": "2026-09-29",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "what-were-the-video-rental-stores",
+      "keyword": "what were the video rental stores",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-10-02",
       "lastResearched": null,
       "notes": ""
     },
@@ -77454,18 +77794,46 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-09-29",
-          "lastSeen": "2026-09-29",
+          "lastSeen": "2026-10-02",
           "stats": {
-            "asOf": "2026-09-29",
+            "asOf": "2026-10-02",
             "action": "skip",
             "targetUrl": null,
-            "priority": "low"
+            "priority": "medium"
           }
         }
       },
       "opportunity": null,
       "opportunityReason": null,
       "firstSeen": "2026-09-29",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "where-to-rent-video-equipment",
+      "keyword": "where to rent video equipment",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "stats": {
+            "asOf": "2026-10-02",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-10-02",
       "lastResearched": null,
       "notes": ""
     },
@@ -88913,6 +89281,18 @@
       "firstSeen": "2026-09-29"
     },
     {
+      "id": "ubersuggest--affordable-audio-visual-rental-companies-in-spain-for-small-business-presentations",
+      "prompt": "Affordable audio visual rental companies in Spain for small business presentations",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
+    },
+    {
       "id": "ubersuggest--affordable-audiovisual-equipment-rental-service-in-spain-with-professional-support",
       "prompt": "Affordable audiovisual equipment rental service in Spain with professional support?",
       "keywordId": "audiovisual-equipment-rental-service",
@@ -89019,6 +89399,30 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-09-30"
+    },
+    {
+      "id": "ubersuggest--audio-visual-rental-companies-in-spain-with-bilingual-support-for-international-clients",
+      "prompt": "Audio visual rental companies in Spain with bilingual support for international clients",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
+    },
+    {
+      "id": "ubersuggest--audio-visual-rental-companies-in-spain-with-flexible-rental-periods-and-competitive-prices",
+      "prompt": "Audio visual rental companies in Spain with flexible rental periods and competitive prices",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
     },
     {
       "id": "ubersuggest--audio-visual-rental-companies-near-me-with-technical-support-included",
@@ -89201,6 +89605,42 @@
       "firstSeen": "2026-09-30"
     },
     {
+      "id": "ubersuggest--best-audio-visual-rental-companies-in-spain-offering-the-latest-sound-technology",
+      "prompt": "Best audio visual rental companies in Spain offering the latest sound technology",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
+    },
+    {
+      "id": "ubersuggest--best-audio-visual-rental-companies-in-spain-with-delivery-and-setup-services",
+      "prompt": "Best audio visual rental companies in Spain with delivery and setup services",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
+    },
+    {
+      "id": "ubersuggest--best-audio-visual-rental-companies-near-me-in-spain-with-247-customer-support",
+      "prompt": "Best audio visual rental companies near me in Spain with 24/7 customer support",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
+    },
+    {
       "id": "ubersuggest--best-audio-visual-rental-company-for-multi-day-events-in-spain",
       "prompt": "Best audio visual rental company for multi-day events in Spain?",
       "keywordId": "audio-visual-rental",
@@ -89333,6 +89773,18 @@
       "firstSeen": "2026-09-30"
     },
     {
+      "id": "ubersuggest--best-deals-on-audio-visual-rentals-in-spain-for-trade-shows-and-exhibitions",
+      "prompt": "Best deals on audio visual rentals in Spain for trade shows and exhibitions",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
+    },
+    {
       "id": "ubersuggest--best-deals-on-audiovisual-equipment-rental-services-for-festivals-in-spain",
       "prompt": "Best deals on audiovisual equipment rental services for festivals in Spain?",
       "keywordId": "audiovisual-equipment-rental-service",
@@ -89441,6 +89893,18 @@
       "firstSeen": "2026-09-29"
     },
     {
+      "id": "ubersuggest--comparing-malaga-event-gear-and-other-top-audio-visual-rental-companies-in-spain-for-event-av-needs",
+      "prompt": "Comparing Malaga Event Gear and other top audio visual rental companies in Spain for event AV needs",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
+    },
+    {
       "id": "ubersuggest--comparing-malaga-event-gear-audio-system-calibration-to-other-spain-based-providers",
       "prompt": "Comparing Malaga Event Gear audio system calibration to other Spain-based providers",
       "keywordId": "audio-system-calibration",
@@ -89543,6 +90007,18 @@
       "firstSeen": "2026-09-30"
     },
     {
+      "id": "ubersuggest--malaga-event-gear-vs-other-audio-visual-rental-companies-in-spain-which-is-better",
+      "prompt": "Malaga Event Gear vs other audio visual rental companies in Spain: which is better?",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
+    },
+    {
       "id": "ubersuggest--malaga-event-gear-vs-other-audiovisual-rental-services-near-me-in-spain-which-is-better",
       "prompt": "Malaga Event Gear vs other audiovisual rental services near me in Spain, which is better?",
       "keywordId": "audiovisual-equipment-rental-service",
@@ -89625,6 +90101,30 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-09-30"
+    },
+    {
+      "id": "ubersuggest--recommendations-for-audio-visual-rental-companies-in-spain-that-offer-customized-av-packages",
+      "prompt": "Recommendations for audio visual rental companies in Spain that offer customized AV packages",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
+    },
+    {
+      "id": "ubersuggest--recommendations-for-audio-visual-rental-companies-in-spain-that-provide-led-screens",
+      "prompt": "Recommendations for audio visual rental companies in Spain that provide LED screens",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
     },
     {
       "id": "ubersuggest--recommendations-for-audio-visual-rental-services-with-4k-projectors-in-spain",
@@ -89723,6 +90223,18 @@
       "firstSeen": "2026-09-30"
     },
     {
+      "id": "ubersuggest--top-rated-audio-visual-rental-companies-near-me-in-spain-for-large-conferences",
+      "prompt": "Top-rated audio visual rental companies near me in Spain for large conferences",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
+    },
+    {
       "id": "ubersuggest--top-rated-audio-visual-rental-providers-in-spain-for-conferences",
       "prompt": "Top-rated audio visual rental providers in Spain for conferences?",
       "keywordId": "audio-visual-rental",
@@ -89793,6 +90305,18 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--what-are-the-best-audio-visual-rental-companies-in-spain-for-corporate-events",
+      "prompt": "What are the best audio visual rental companies in Spain for corporate events?",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
     },
     {
       "id": "ubersuggest--what-audiovisual-equipment-rental-service-is-best-for-a-small-business-presentation-in-spain",
@@ -90087,6 +90611,18 @@
       "firstSeen": "2026-09-30"
     },
     {
+      "id": "ubersuggest--where-can-i-rent-high-quality-audio-visual-equipment-for-a-product-launch-in-spain",
+      "prompt": "Where can I rent high-quality audio visual equipment for a product launch in Spain?",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
+    },
+    {
       "id": "ubersuggest--where-can-i-rent-high-quality-audiovisual-equipment-for-a-conference-in-spain",
       "prompt": "Where can I rent high-quality audiovisual equipment for a conference in Spain?",
       "keywordId": "audiovisual-equipment-rental-service",
@@ -90195,6 +90731,18 @@
       "firstSeen": "2026-09-29"
     },
     {
+      "id": "ubersuggest--where-to-find-reliable-audio-visual-rental-companies-in-spain-for-film-production-shoots",
+      "prompt": "Where to find reliable audio visual rental companies in Spain for film production shoots?",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
+    },
+    {
       "id": "ubersuggest--where-to-hire-audio-video-rental-near-me-with-the-latest-led-screens",
       "prompt": "Where to hire audio video rental near me with the latest LED screens?",
       "keywordId": "audio-video-rental-near-me",
@@ -90205,6 +90753,18 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-09-30"
+    },
+    {
+      "id": "ubersuggest--where-to-hire-audio-visual-equipment-for-a-virtual-event-in-spain",
+      "prompt": "Where to hire audio visual equipment for a virtual event in Spain?",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
     },
     {
       "id": "ubersuggest--where-to-hire-audio-visual-equipment-for-outdoor-events-in-spain",
@@ -90351,6 +90911,30 @@
       "firstSeen": "2026-09-30"
     },
     {
+      "id": "ubersuggest--which-audio-visual-rental-company-in-spain-has-the-best-reputation-for-tech-support-during-events",
+      "prompt": "Which audio visual rental company in Spain has the best reputation for tech support during events?",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
+    },
+    {
+      "id": "ubersuggest--which-audio-visual-rental-company-in-spain-specializes-in-outdoor-event-solutions",
+      "prompt": "Which audio visual rental company in Spain specializes in outdoor event solutions?",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
+    },
+    {
       "id": "ubersuggest--which-audio-visual-rental-company-offers-the-best-deals-near-me-in-spain",
       "prompt": "Which audio visual rental company offers the best deals near me in Spain?",
       "keywordId": "audio-visual-rental",
@@ -90361,6 +90945,30 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-09-30"
+    },
+    {
+      "id": "ubersuggest--which-audio-visual-rental-company-offers-the-best-value-for-weddings-in-spain",
+      "prompt": "Which audio visual rental company offers the best value for weddings in Spain?",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
+    },
+    {
+      "id": "ubersuggest--which-audio-visual-rental-company-should-i-choose-for-a-music-festival-in-spain",
+      "prompt": "Which audio visual rental company should I choose for a music festival in Spain?",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-02"
     },
     {
       "id": "ubersuggest--which-audiovisual-equipment-rental-company-offers-the-best-value-for-weddings-in-spain",
