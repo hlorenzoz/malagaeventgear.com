@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-02",
+  "taskId": "#T0052",
+  "slug": "sound-system-rental",
+  "searchTerm": "sound system rental Do you deliver sound system rental near me outside Malaga city?",
+  "status": "ok",
+  "serp": {
+    "query": "do you deliver sound system rental outside the city",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://rentforevent.com/audio-sound-rentals/", "title": "Audio Rental" },
+      { "rank": 2, "url": "https://www.avrentalexpress.com/outdoor-speaker-rental", "title": "Rental Express" },
+      { "rank": 3, "url": "https://aarental.com/", "title": "Audio Visual Services & AV Equipment Rental Nationwide" }
+    ]
+  },
+  "terms": [
+    { "term": "Wireless microphones", "kind": "related", "seenIn": 3 },
+    { "term": "Pioneer CDJ", "kind": "entity", "seenIn": 2 },
+    { "term": "Walkie talkies", "kind": "entity", "seenIn": 2 },
+    { "term": "Weddings", "kind": "entity", "seenIn": 2 },
+    { "term": "Birthday parties", "kind": "entity", "seenIn": 2 },
+    { "term": "Conferences", "kind": "entity", "seenIn": 2 },
+    { "term": "Outdoor events", "kind": "entity", "seenIn": 2 },
+    { "term": "Audio mixer", "kind": "entity", "seenIn": 2 },
+    { "term": "PA systems", "kind": "entity", "seenIn": 2 },
+    { "term": "What areas do you deliver to?", "kind": "question", "seenIn": 2 },
+    { "term": "Delivery radius", "kind": "related", "seenIn": 1 },
+    { "term": "Same-day delivery", "kind": "related", "seenIn": 1 },
+    { "term": "Rush delivery and pickup", "kind": "related", "seenIn": 1 },
+    { "term": "Which venues can be serviced?", "kind": "question", "seenIn": 1 },
+    { "term": "What audio equipment does the company provide?", "kind": "question", "seenIn": 1 },
+    { "term": "What types of audio rentals exist?", "kind": "question", "seenIn": 1 },
+    { "term": "Sound console", "kind": "entity", "seenIn": 1 },
+    { "term": "Line arrays", "kind": "entity", "seenIn": 1 },
+    { "term": "Subwoofers", "kind": "entity", "seenIn": 1 },
+    { "term": "DJ controllers", "kind": "entity", "seenIn": 1 },
+    { "term": "Karaoke systems", "kind": "entity", "seenIn": 1 },
+    { "term": "Megaphones", "kind": "entity", "seenIn": 1 },
+    { "term": "Intercom systems", "kind": "entity", "seenIn": 1 },
+    { "term": "Generators", "kind": "entity", "seenIn": 1 },
+    { "term": "Lighting systems", "kind": "entity", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Las Vegas", "reason": "place outside Spain" },
+    { "term": "Miami", "reason": "place outside Spain" },
+    { "term": "Los Angeles", "reason": "place outside Spain" },
+    { "term": "New York", "reason": "place outside Spain" },
+    { "term": "Chicago", "reason": "place outside Spain" },
+    { "term": "Houston", "reason": "place outside Spain" },
+    { "term": "Western U S regions", "reason": "term of the US market, not Spain" },
+    { "term": "Multiple state locations", "reason": "term of the US market, not Spain" },
+    { "term": "National service for select events", "reason": "US nationwide service claim, not vocabulary for a Spain-based business" },
+    { "term": "Parts of New Jersey", "reason": "place outside Spain" },
+    { "term": "Westchester region", "reason": "place outside Spain" },
+    { "term": "Long Island", "reason": "place outside Spain" },
+    { "term": "20 mile radius from Chelsea", "reason": "place outside Spain" },
+    { "term": "25 mile radius of Passaic", "reason": "place outside Spain" },
+    { "term": "Monday-Friday special pricing", "reason": "pricing term, not vocabulary" },
+    { "term": "Why choose this rental company?", "reason": "marketing question, not topic vocabulary" },
+    { "term": "Should customers choose this company?", "reason": "marketing question, not topic vocabulary" },
+    { "term": "Who are the company's professional technicians?", "reason": "company-bio question, not coverage/equipment vocabulary" }
+  ]
+}
