@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-02",
+  "taskId": "#T0051",
+  "slug": "projector-rental",
+  "searchTerm": "projector rental Do you deliver projector rental near me outside Malaga city?",
+  "status": "failed",
+  "reason": "Tried the literal question plus two rephrasings. All three searches returned only US-localized AV/construction rental sites, an unrelated international projector directory, or Malaga Airbnb listings. No organic result was Spain-relevant or usable without discarding nearly every term.",
+  "serp": {
+    "query": "Do you deliver projector rental near me outside Malaga city?",
+    "localized": false,
+    "results": []
+  },
+  "terms": [],
+  "discarded": []
+}
