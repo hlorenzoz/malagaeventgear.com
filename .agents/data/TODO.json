@@ -3,25 +3,6 @@
   "updated": "2026-10-02",
   "tasks": [
     {
-      "id": "#T0052",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"Do you deliver sound system rental near me outside Malaga city?\"",
-      "anotada": "2026-10-01",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-01, ítem 10)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/sound-system-rental.svx",
-        "Keywords: rent sound system near me, sound rental near me, sound system rental near me, portable sound system rental near me (portable sound system rental near me: google-ads 10/mo (below tier 100), gsc pos 30 1 impr | rent sound system near me: google-ads 90/mo (below tier 100) | sound rental near me: google-ads 90/mo (below tier 100) | sound system rental near me: google-ads 90/mo (below tier 100)), debajo del tier",
-        "Qué cubrir: Confirmar que el sound system rental ya se entrega en villas, fincas y hoteles de toda la Costa del Sol, como ya dice la seccion 'Indoor and Outdoor Sound System Rental' del post, nombrando 2 o 3 localidades de ejemplo de siteConfig.serviceAreas sin listar las 23 (evita el bloque de ciudades que spam-policies.md desaconseja). No contradecir ni repetir la FAQ existente 'Do you offer a portable, battery powered or self collect PA system?' (respuesta: no, ningun paquete es portatil ni autocolecta): esta FAQ nueva es sobre zona de cobertura, no sobre portabilidad del equipo. No prometer generador ni disponibilidad fuera de lo que ya confirma la FAQ sobre el generador.",
-        "Por qué: Revise /blog/sound-system-rental/ completo: la seccion 'Indoor and Outdoor Sound System Rental' ya dice que la mayoria de las instalaciones son en villas, terrazas privadas y hoteles 'across Malaga and the Costa del Sol', pero ningun heading ni FAQ nombra la cobertura de zona de forma explicita como 'near me', a diferencia de los posts near-me dedicados del silo audio visual rental. Las cuatro variantes son la misma intencion (encontrar un alquiler de sistema de sonido cerca). No corresponde un post near-me nuevo (seria casi identico a los dos posts near-me ya publicados del mismo silo, riesgo de doorway abuse segun spam-policies.md), asi que entra como FAQ nueva en el propio post. Subo prioridad a alta por el ranking en pagina 2/3 de 'portable sound system rental near me' (pos 30) con impresiones reales.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0054",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -1440,6 +1421,27 @@
         "Keywords: rental projector near me (google-ads 20/mo (below tier 100), gsc pos 21 1 impr), debajo del tier",
         "Qué cubrir: Confirmar que el projector rental ya se entrega, instala y prueba en toda Malaga capital y en el resto de la Costa del Sol, como ya dice el Brief Overview del post. Nombrar 2 o 3 localidades de ejemplo de siteConfig.serviceAreas (nunca una lista larga de ciudades: spam-policies.md desaconseja los bloques de texto con ciudades y regiones). No prometer un radio de entrega exacto ni un recargo por distancia que no este confirmado en packages.ts, y no repetir los datos de lumens o precio que ya cubren otros FAQs del mismo post.",
         "Por qué: Revise /blog/projector-rental/ completo: el Brief Overview ya dice que se entrega 'across Malaga and the wider Costa del Sol', pero ningun heading ni FAQ nombra la cobertura de zona de forma explicita como si lo hacen los posts near-me del mismo silo (por ejemplo 'Do you deliver audio video rental outside Malaga city?' en audio-video-rental-near-me-in-malaga-spain.svx). No corresponde un post nuevo (seria una variante near-me casi identica a un post ya existente del silo, riesgo de doorway abuse segun spam-policies.md), asi que la intencion entra como FAQ nueva en el propio post. Subo prioridad a alta por el ranking en pagina 2/3 (pos 21) con impresiones reales.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0052",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"Do you deliver sound system rental near me outside Malaga city?\"",
+      "anotada": "2026-10-01",
+      "hecha": "2026-10-02",
+      "origen": "content-strategist (plan 2026-10-01, ítem 10)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/sound-system-rental.svx",
+        "Keywords: rent sound system near me, sound rental near me, sound system rental near me, portable sound system rental near me (portable sound system rental near me: google-ads 10/mo (below tier 100), gsc pos 30 1 impr | rent sound system near me: google-ads 90/mo (below tier 100) | sound rental near me: google-ads 90/mo (below tier 100) | sound system rental near me: google-ads 90/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Confirmar que el sound system rental ya se entrega en villas, fincas y hoteles de toda la Costa del Sol, como ya dice la seccion 'Indoor and Outdoor Sound System Rental' del post, nombrando 2 o 3 localidades de ejemplo de siteConfig.serviceAreas sin listar las 23 (evita el bloque de ciudades que spam-policies.md desaconseja). No contradecir ni repetir la FAQ existente 'Do you offer a portable, battery powered or self collect PA system?' (respuesta: no, ningun paquete es portatil ni autocolecta): esta FAQ nueva es sobre zona de cobertura, no sobre portabilidad del equipo. No prometer generador ni disponibilidad fuera de lo que ya confirma la FAQ sobre el generador.",
+        "Por qué: Revise /blog/sound-system-rental/ completo: la seccion 'Indoor and Outdoor Sound System Rental' ya dice que la mayoria de las instalaciones son en villas, terrazas privadas y hoteles 'across Malaga and the Costa del Sol', pero ningun heading ni FAQ nombra la cobertura de zona de forma explicita como 'near me', a diferencia de los posts near-me dedicados del silo audio visual rental. Las cuatro variantes son la misma intencion (encontrar un alquiler de sistema de sonido cerca). No corresponde un post near-me nuevo (seria casi identico a los dos posts near-me ya publicados del mismo silo, riesgo de doorway abuse segun spam-policies.md), asi que entra como FAQ nueva en el propio post. Subo prioridad a alta por el ranking en pagina 2/3 de 'portable sound system rental near me' (pos 30) con impresiones reales.",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
