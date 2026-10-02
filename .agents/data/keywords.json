@@ -31841,8 +31841,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audio-visual-rental-for-outdoor-events/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -31880,6 +31880,10 @@
               "2026-08": 140
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02"
         },
         "content-plan": {
           "firstSeen": "2026-09-30",
@@ -81234,6 +81238,24 @@
           "lastSeen": "2026-10-02",
           "urls": [
             "/blog/audiovisual-equipment-rental-service/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "do-you-rent-an-inflatable-movie-screen-for-an-outdoor-event",
+      "question": "Do you rent an inflatable movie screen for an outdoor event?",
+      "keywordId": "audio-visual-rental-for-outdoor-events",
+      "cluster": "audio visual rental",
+      "url": "/blog/audio-visual-rental-for-outdoor-events/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "urls": [
+            "/blog/audio-visual-rental-for-outdoor-events/"
           ]
         }
       }
