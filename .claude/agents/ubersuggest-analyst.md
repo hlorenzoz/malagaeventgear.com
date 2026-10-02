@@ -224,3 +224,5 @@ Your last message is exactly one line, for the log:
 Any text you write yourself (reasons, args summaries, the final line) uses plain ASCII: no em or
 en dashes, no semicolons, no curly quotes, no ellipsis character. Keep text returned by tools
 exactly as returned.
+
+Activity logging is automatic (scripts/log): never write to .agents/logs yourself.

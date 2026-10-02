@@ -1766,3 +1766,24 @@ reparación) -> `post-translate-finish` (checks, tests, build, commit local de l
   funciona en modo headless con `--agents`, y los subagentes heredan los permisos acotados de la
   sesión (un subagente escribió en `src/content/blog/` y se le bloqueó `src/lib/`). Aún no hay una
   corrida real de punta a punta: la primera conviene mirarla.
+
+### Registro de actividad de los agentes (`.agents/logs/`)
+
+Un archivo por mes, `.agents/logs/YYYY-MM.log` (mes de Europe/Madrid, el archivo nuevo aparece con el
+primer evento del mes). Lo escribe CÓDIGO (`scripts/log/`), nunca los agentes: no tienen Write ahí y
+no deben intentarlo. Una línea por evento, de cinco campos:
+
+`YYYY-MM-DD HH:MM | auto|demanda | <actor> | <evento> | <detalle clave=valor ...>`
+
+- **Eventos**: `run-start`, `run-end`, `step-done`, `step-failed`, `commit`, `task-done`,
+  `task-blocked`, `task-skipped`, `info`.
+- **Quién escribe**: el guard diario (`daily-guard.ts`, modo `auto`: investigación, FAQs, plan,
+  organize y sus commits), `just todo-implement` y `translate/finish.ts` (modo `demanda`) y los
+  `*-commit`. Solo se registran las corridas que ejecutan algo: lo que salta cada hora no se anota
+  (offline y sin intentos, una vez al día).
+- **Para qué sirve**: "qué completaron los agentes este mes". `rg "task-done" .agents/logs/2026-10.log`,
+  `rg "step-failed|task-blocked" .agents/logs/`.
+- Los recipes no lo commitean: queda modificado en el árbol y lo commitea el usuario. No lleva
+  secretos ni textos de reseñas. Detalle de una sola línea, tope de 400 caracteres, solo ASCII.
+  `--dry-run` nunca escribe. `AGENT_LOG_DIR` redirige la carpeta (tests y simulaciones).
+

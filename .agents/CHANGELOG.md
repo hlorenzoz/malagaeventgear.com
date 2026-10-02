@@ -7,6 +7,15 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Added (infra): registro mensual de actividad de los agentes `.agents/logs/YYYY-MM.log` (2026-10-02)
+- Nuevo `scripts/log/`: `agent-log.ts` (`monthFile`, `formatLine`, `appendAgentLog`, CLI `--mode --actor --event --detail --last-commit`, override `AGENT_LOG_DIR`), `step-summary.ts` (conteos de lotes y plan) y `todo-implement-log.ts` (run-start y run-end de `todo-implement`), con sus tests. Un archivo por mes (mes de Europe/Madrid), una linea por evento, solo ASCII, escrita por codigo y nunca por el LLM. `appendAgentLog` nunca lanza: un fallo imprime un aviso en stderr.
+- `scripts/keywords/daily-guard.ts` (modo `auto`): run-start, step-done o step-failed por etapa (investigacion, FAQs, plan, organize, con conteos), run-end, y `info` una vez al dia para offline o intentos agotados. Lo que salta cada hora no se registra y `--dry-run` nunca escribe. Nueva funcion pura `skipLogReason`.
+- Recipes `keywords-commit`, `faqs-commit`, `content-plan-commit` y `todo-implement-commit`: evento `commit` con hash y asunto. `scripts/translate/finish.ts`: evento `commit` (slug, hash, archivos) y `step-failed`, modo `demanda` salvo `AGENT_LOG_MODE=auto`.
+- `just todo-implement`: ya no termina en `exec claude`. Guarda HEAD, corre claude capturando su JSON, lo imprime igual que antes y conserva el exit code, y registra run-start, task-done|task-blocked|task-skipped por tarea (estado final leido de TODO.json) y run-end (is_error, costo, minutos, turnos, commits nuevos). `--dry-run` sigue sin costo ni escritura.
+- `.gitignore`: `*.log` ignoraba todo, se agregan `!.agents/logs/` y `!.agents/logs/*.log`. `.agents/logs/.gitkeep`. Los logs no los commitea ningun recipe.
+- Docs: seccion en `CLAUDE.md` y `README.md`, y una frase en los agentes `todo-implementer`, `content-strategist`, `ubersuggest-analyst`, `faq-researcher` y `post-translator` (el log es automatico, no escribir en `.agents/logs`).
+- Entrada retroactiva de la primera corrida real (#T0037, 2026-10-02) como semilla del `2026-10.log`.
+
 ### Changed (blog): tv-screen-rental, nueva FAQ sobre el sourcing de LED video walls con proveedores
 - **Tarea #T0037** (`post-writer`), origen: plan de contenido `.agents/context/keywords/content-plan/2026-09-29.json`, item 10 (`keywords: ["led screen rental"]`, `action: add-faq`, evidencia google-ads 390/mo, gsc pos 33.33, 43 impr).
 - Se agrega la pregunta `### Can Malaga Event Gear source an LED video wall through a supplier?` al final de `## FAQs`, con su bullet en el indice inline. Responde que el video wall LED no esta en el inventario propio (solo el panel de 60 pulgadas del MICE Pack) y suma el encuadre de sourcing con proveedores (consultamos, sin prometer disponibilidad, marca, modelo ni precio), consistente con la FAQ existente "Do you rent LED video walls or modular LED panels?" y con la seccion "What We Don't Stock" del mismo post.

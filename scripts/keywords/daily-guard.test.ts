@@ -4,6 +4,7 @@ import {
 	clockMinutes,
 	decideDailyRun,
 	isLockStale,
+	skipLogReason,
 	type GuardInput
 } from './daily-guard';
 
@@ -166,5 +167,33 @@ describe('clockMinutes', () => {
 	it('ignores a malformed override instead of turning it into midnight', () => {
 		expect(clockMinutes('abc', at(15, 48))).toBe(15 * 60 + 48);
 		expect(clockMinutes('25:99', at(15, 48))).toBe(15 * 60 + 48);
+	});
+});
+
+describe('skipLogReason: the only skips that reach the activity log', () => {
+	it('logs offline (something is pending and the network is down)', () => {
+		expect(skipLogReason({ ...base, online: false })).toBe('offline');
+	});
+
+	it('logs attempts-exhausted', () => {
+		expect(skipLogReason({ ...base, attemptsToday: 3 })).toBe('attempts-exhausted');
+	});
+
+	it('does not log the hourly noise: before 09:30, lock held, or everything already committed', () => {
+		expect(skipLogReason({ ...base, minutes: 9 * 60 + 29, online: false })).toBeNull();
+		expect(skipLogReason({ ...base, lockHeld: true, online: false })).toBeNull();
+		expect(
+			skipLogReason({
+				...base,
+				researchDone: true,
+				faqsDone: true,
+				planDone: true,
+				online: false
+			})
+		).toBeNull();
+	});
+
+	it('does not log a run that executes something', () => {
+		expect(skipLogReason(base)).toBeNull();
 	});
 });

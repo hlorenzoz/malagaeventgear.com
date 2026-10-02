@@ -15,11 +15,16 @@
  * It stops at the first failing step. It refuses to start, and again before committing, when
  * anything is already staged (so it can never sweep another session's work into the commit).
  * It never pushes and adds no attribution to the message. --no-commit stops after step 5.
+ *
+ * Activity log (`scripts/log/agent-log.ts`): the commit is recorded as a `commit` event and a
+ * failed step as `step-failed`, actor `post-translator`, mode `demanda` unless the env var
+ * `AGENT_LOG_MODE` says `auto`. Logging never changes the outcome of this script.
  */
 import { existsSync, readFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { PREFIXED_LOCALES } from '../../src/lib/i18n/locales';
+import { appendAgentLog, commitDetail, modeFromEnv } from '../log/agent-log';
 import { assertSlug } from './brief-lib';
 
 /** The only paths the commit may contain. */
@@ -60,6 +65,16 @@ export function commitCommands(slug: string): string[][] {
 	];
 }
 
+/** Detail of the `commit` event of the activity log. */
+export function commitLogDetail(
+	slug: string,
+	hash: string,
+	subject: string,
+	files: number
+): string {
+	return `slug=${slug} ${commitDetail(hash, subject, `files=${files}`)}`;
+}
+
 export function countLocs(xml: string): number {
 	return (xml.match(/<loc>/g) ?? []).length;
 }
@@ -89,8 +104,21 @@ export function tailLines(text: string, n: number): string {
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const CHECK = join('scripts', 'translate', 'check.ts');
 
+let currentSlug: string | null = null;
+
+/** One line of the monthly activity log. Never throws. */
+function alog(event: 'commit' | 'step-failed', detail: string): void {
+	appendAgentLog({
+		mode: modeFromEnv(process.env.AGENT_LOG_MODE, 'demanda'),
+		actor: 'post-translator',
+		event,
+		detail
+	});
+}
+
 function fail(message: string): never {
 	console.error(`\n[finish] ${message}`);
+	if (currentSlug) alog('step-failed', `slug=${currentSlug} step=finish reason="${message}"`);
 	process.exit(1);
 }
 
@@ -131,6 +159,7 @@ function main(): void {
 		console.error(`[finish] there is no English post src/content/blog/${slug}.svx`);
 		process.exit(2);
 	}
+	currentSlug = slug;
 	if (!noCommit) {
 		const refusal = stagedRefusal(nameList(git(['diff', '--cached', '--name-only'])));
 		if (refusal) fail(`refusing to run: ${refusal}`);
@@ -174,6 +203,8 @@ function main(): void {
 	if (staged.length === 0) fail('there is nothing to commit under the translation paths');
 	git(commit.slice(1));
 	console.log(tailLines(git(['log', '--oneline', '-1']), 1));
+	const [hash, ...subject] = git(['log', '-1', '--format=%h%x09%s']).trim().split('\t');
+	alog('commit', commitLogDetail(slug, hash, subject.join('\t'), staged.length));
 	console.log(`${staged.length} file(s) committed. Not pushed.`);
 }
 

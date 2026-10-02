@@ -18,6 +18,11 @@
  * done) unless another run holds the lock. It is idempotent and only rewrites TODO.json when
  * something changed, which is how tasks blocked by the translation backlog unblock on their own.
  *
+ * Activity log (`scripts/log/agent-log.ts`, mode `auto`): a run that executes something writes
+ * run-start, one step-done or step-failed per step and run-end. The hourly noise (before 09:30,
+ * lock held, everything already committed, an organize that changed nothing) is NEVER logged, and
+ * offline or attempts-exhausted are logged once per day. `--dry-run` never writes to the log.
+ *
  * Flags: `--dry-run` prints the decision and touches nothing. `--force` ignores hour and done
  * flags (the lock and the offline check still apply) for manual runs.
  * Env `KEYWORDS_DAILY_TODAY` (YYYY-MM-DD) and `KEYWORDS_DAILY_TIME` (HH:MM) override the clock, for tests.
@@ -34,6 +39,15 @@ import {
 } from 'node:fs';
 import { homedir } from 'node:os';
 import { join } from 'node:path';
+import { appendAgentLog, hasLoggedToday, readMonthLog, type LogEvent } from '../log/agent-log';
+import {
+	runEndDetail,
+	stepDoneDetail,
+	stepFailedDetail,
+	summarizeFaqs,
+	summarizePlan,
+	summarizeResearch
+} from '../log/step-summary';
 
 /** Local time (minutes since midnight) before which nothing runs: 09:30, the scheduler's time. */
 export const START_MINUTES = 9 * 60 + 30;
@@ -96,6 +110,17 @@ export function decideDailyRun(i: GuardInput): GuardDecision {
 		runOrganize: true,
 		reason
 	};
+}
+
+/** Pure: the only skips worth a line in the activity log (once per day): the network is down or the
+ *  daily attempts are used up while something is still pending. Everything else that skips is
+ *  hourly noise and returns null. */
+export function skipLogReason(i: GuardInput): 'offline' | 'attempts-exhausted' | null {
+	if (i.lockHeld || i.minutes < START_MINUTES) return null;
+	if (i.researchDone && i.faqsDone && i.planDone) return null;
+	if (!i.online) return 'offline';
+	if (i.attemptsToday >= i.maxAttempts) return 'attempts-exhausted';
+	return null;
 }
 
 /** Pure: local time of day in minutes since midnight. `override` is `HH:MM` (tests and manual
@@ -214,13 +239,72 @@ async function run(recipe: string): Promise<number> {
 	return await p.exited;
 }
 
-/** One step of the chain: a crash or a non-zero exit is logged and never stops the next step. */
-async function step(today: string, label: string, recipe: string): Promise<void> {
+/** One step of the chain: a crash or a non-zero exit is logged and never stops the next step.
+ *  Returns why it failed (null when the recipe exited 0). */
+async function step(today: string, label: string, recipe: string): Promise<string | null> {
 	try {
 		const code = await run(recipe);
-		if (code !== 0) log(today, `${label} exited with code ${code}`);
+		if (code !== 0) {
+			log(today, `${label} exited with code ${code}`);
+			return `exit code ${code}`;
+		}
+		return null;
 	} catch (e) {
-		log(today, `${label} crashed: ${e instanceof Error ? e.message : String(e)}`);
+		const msg = e instanceof Error ? e.message : String(e);
+		log(today, `${label} crashed: ${msg}`);
+		return `crashed: ${msg}`;
+	}
+}
+
+/** One line of the monthly activity log (mode auto). Never throws. */
+function alog(event: LogEvent, actor: string, detail: string): void {
+	appendAgentLog({ mode: 'auto', actor, event, detail });
+}
+
+const TODO_FILE = '.agents/data/TODO.json';
+
+function readText(file: string): string {
+	try {
+		return readFileSync(file, 'utf8');
+	} catch {
+		return '';
+	}
+}
+
+interface AgentStep {
+	label: string;
+	actor: string;
+	recipe: string;
+	file: string;
+	summarize: (json: unknown) => string;
+}
+
+/** Counts of the file an agent step produced, or '' when it cannot be read. */
+function countsOf(s: AgentStep): string {
+	try {
+		return s.summarize(JSON.parse(readFileSync(s.file, 'utf8')));
+	} catch {
+		return '';
+	}
+}
+
+/** Runs one agent step, logs its outcome and records it in `outcome`. */
+async function agentStep(
+	today: string,
+	s: AgentStep,
+	outcome: { done: string[]; failed: string[] }
+): Promise<void> {
+	const t0 = Date.now();
+	const failure = await step(today, s.label, s.recipe);
+	const committed = await isCommitted(s.file);
+	log(today, `${s.label} ${committed ? 'done' : 'NOT done'}`);
+	const ms = Date.now() - t0;
+	if (committed) {
+		outcome.done.push(s.label);
+		alog('step-done', s.actor, stepDoneDetail(s.file, countsOf(s), ms));
+	} else {
+		outcome.failed.push(s.label);
+		alog('step-failed', s.actor, stepFailedDetail(failure ?? 'file not committed', ms));
 	}
 }
 
@@ -242,7 +326,7 @@ async function main(): Promise<void> {
 	const planDone = !force && (await isCommitted(planFile(today)));
 	const attemptsToday = readAttempts(today);
 	const online = held ? true : await isOnline();
-	const decision = decideDailyRun({
+	const guardInput: GuardInput = {
 		today,
 		minutes: force ? START_MINUTES : minutes,
 		researchDone,
@@ -252,7 +336,8 @@ async function main(): Promise<void> {
 		maxAttempts,
 		lockHeld: held,
 		online
-	});
+	};
+	const decision = decideDailyRun(guardInput);
 	const agentSteps = [
 		decision.runResearch && 'research',
 		decision.runFaqs && 'faqs',
@@ -262,6 +347,10 @@ async function main(): Promise<void> {
 	const state = `research=${researchDone ? 'done' : 'pending'} faqs=${faqsDone ? 'done' : 'pending'} plan=${planDone ? 'done' : 'pending'} attempts=${attemptsToday}/${maxAttempts}`;
 	if (!plan) {
 		log(today, `skip (${decision.reason}) [${state}]`);
+		const why = dryRun ? null : skipLogReason(guardInput);
+		if (why && !hasLoggedToday(readMonthLog(), today, `reason=${why}`)) {
+			alog('info', 'daily-guard', `reason=${why} attempts=${attemptsToday}/${maxAttempts}`);
+		}
 		return;
 	}
 	if (dryRun) {
@@ -284,23 +373,77 @@ async function main(): Promise<void> {
 			today,
 			`run ${plan} (${decision.reason})${agentSteps.length ? ` attempt ${attempts}/${maxAttempts}` : ''}`
 		);
+		const runStart = Date.now();
+		const outcome = { done: [] as string[], failed: [] as string[] };
+		if (agentSteps.length) {
+			alog(
+				'run-start',
+				'daily-guard',
+				`steps=${plan.replace(/ \+ /g, '+')} attempt=${attempts}/${maxAttempts} reason="${decision.reason}"${force ? ' forced=yes' : ''}`
+			);
+		}
 		// The agent steps are independent: each one that is pending runs, whatever happened before it.
 		if (decision.runResearch) {
-			await step(today, 'research', 'keywords-research');
-			log(today, `research ${(await isCommitted(researchFile(today))) ? 'done' : 'NOT done'}`);
+			await agentStep(
+				today,
+				{
+					label: 'research',
+					actor: 'ubersuggest-analyst',
+					recipe: 'keywords-research',
+					file: researchFile(today),
+					summarize: summarizeResearch
+				},
+				outcome
+			);
 		}
 		if (decision.runFaqs) {
-			await step(today, 'faqs', 'faq-research');
-			log(today, `faqs ${(await isCommitted(faqsFile(today))) ? 'done' : 'NOT done'}`);
+			await agentStep(
+				today,
+				{
+					label: 'faqs',
+					actor: 'faq-researcher',
+					recipe: 'faq-research',
+					file: faqsFile(today),
+					summarize: summarizeFaqs
+				},
+				outcome
+			);
 		}
 		if (decision.runPlan) {
-			await step(today, 'plan', 'content-plan');
-			log(today, `plan ${(await isCommitted(planFile(today))) ? 'done' : 'NOT done'}`);
+			await agentStep(
+				today,
+				{
+					label: 'plan',
+					actor: 'content-strategist',
+					recipe: 'content-plan',
+					file: planFile(today),
+					summarize: summarizePlan
+				},
+				outcome
+			);
 		}
 		// Last and unconditional: it also unblocks tasks when the agents did nothing or failed.
+		// It is logged when it changed TODO.json, failed, or ran inside a run that calls agents:
+		// an organize that changes nothing, hour after hour, would flood the log.
 		if (decision.runOrganize) {
-			await step(today, 'organize', 'todo-organize');
+			const t0 = Date.now();
+			const before = readText(TODO_FILE);
+			const failure = await step(today, 'organize', 'todo-organize');
 			log(today, 'organize finished');
+			const changed = before !== readText(TODO_FILE);
+			const ms = Date.now() - t0;
+			if (failure) {
+				alog('step-failed', 'todo-organize', stepFailedDetail(failure, ms));
+			} else if (changed || agentSteps.length) {
+				alog(
+					'step-done',
+					'todo-organize',
+					`file=${TODO_FILE} changed=${changed ? 'yes' : 'no'} minutes=${(ms / 60_000).toFixed(1)}`
+				);
+			}
+		}
+		if (agentSteps.length) {
+			alog('run-end', 'daily-guard', runEndDetail({ ...outcome, ms: Date.now() - runStart }));
 		}
 	} finally {
 		rmSync(LOCK_DIR, { recursive: true, force: true });

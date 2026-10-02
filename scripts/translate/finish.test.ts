@@ -4,6 +4,7 @@ import {
 	commitCommands,
 	commitMessage,
 	countLocs,
+	commitLogDetail,
 	formatSitemapCounts,
 	nameList,
 	outsideCommitPaths,
@@ -90,5 +91,13 @@ describe('tailLines', () => {
 	it('keeps the last lines, dropping a trailing blank', () => {
 		expect(tailLines('a\nb\nc\nd\n', 2)).toBe('c\nd');
 		expect(tailLines('a', 5)).toBe('a');
+	});
+});
+
+describe('commitLogDetail', () => {
+	it('records the slug, the hash and the number of files', () => {
+		expect(commitLogDetail('tv-screen-rental', '76a95f2', 'feat(blog): translate x', 49)).toBe(
+			'slug=tv-screen-rental hash=76a95f2 subject="feat(blog): translate x" files=49'
+		);
 	});
 });

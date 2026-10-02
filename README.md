@@ -336,6 +336,31 @@ Instalación del scheduler: `just keywords-schedule-install` (una sola vez por m
 está dormido a las 09:30, `launchd` corre el job al despertar. Si está apagado, los otros dos
 disparos (inicio de sesión y cada hora) recuperan la corrida de hoy.
 
+### Registro de actividad de los agentes
+
+Cada mes tiene un único archivo, `.agents/logs/YYYY-MM.log` (por ejemplo `2026-10.log`). El primer
+evento de un mes nuevo crea el archivo. Lo escribe código (`scripts/log/`), nunca el LLM, así que
+el formato no depende de lo que diga un agente. Una línea por evento:
+
+```
+YYYY-MM-DD HH:MM | auto|demanda | <actor> | <evento> | <detalle clave=valor ...>
+```
+
+- `auto` es la cadena diaria (`keywords-daily`) y `demanda` son las corridas que lanzo yo
+  (`todo-implement`, `post-translate-finish`).
+- Eventos: `run-start`, `run-end`, `step-done`, `step-failed`, `commit`, `task-done`,
+  `task-blocked`, `task-skipped`, `info`.
+- Las corridas que no ejecutan nada (antes de las 09:30, ya commiteado, un organize sin cambios) no
+  dejan línea, y `--dry-run` nunca escribe.
+- Los recipes no commitean el log: queda modificado en el árbol y lo commiteo yo. No lleva secretos
+  ni textos de reseñas.
+
+```bash
+rg "task-done" .agents/logs/2026-10.log          # qué se completó este mes
+rg "step-failed|task-blocked" .agents/logs/      # qué falló o quedó bloqueado
+rg "^2026-10-02" .agents/logs/2026-10.log        # un día
+```
+
 ### Solución de problemas
 
 | Síntoma | Causa y qué hacer |

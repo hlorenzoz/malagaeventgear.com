@@ -110,3 +110,5 @@ brief is the contract. Do not run the build and do not commit: the orchestrator 
 Per locale: the file, what you inserted (heading or question as translated), any doubt (a term, a
 fact, a structure issue). Then the real output of `just post-translate-check <slug>` (the status
 line and any warning) and of `just post-translations-status`. Say what you could not verify.
+
+Activity logging is automatic (scripts/log): never write to .agents/logs yourself.

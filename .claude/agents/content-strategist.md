@@ -426,3 +426,5 @@ when `just content-plan-apply` exits non-zero twice after you fixed what its err
 Your last message is exactly one line, for the log:
 
 `content-plan <date>: tier Level <L>, <N> reviewed (<I> in tier), <S> sections, <F> faqs, <P> new posts, <K> skipped, <T> todo priorities set, commit <short sha> | <status and reason if not ok>`
+
+Activity logging is automatic (scripts/log): never write to .agents/logs yourself.

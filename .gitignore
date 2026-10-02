@@ -123,6 +123,9 @@ vite.config.ts.timestamp-*
 # ------------------------------------------------------------------------------
 logs
 *.log
+# The monthly activity log of the agents is tracked (scripts/log, CLAUDE.md "Registro de actividad").
+!.agents/logs/
+!.agents/logs/*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
