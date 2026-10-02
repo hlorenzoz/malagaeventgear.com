@@ -262,7 +262,13 @@ describe('resolveAgentPaths', () => {
 	});
 });
 
-const TODO_TEAM = ['todo-implementer', 'post-writer', 'post-translator', 'post-verifier'];
+const TODO_TEAM = [
+	'todo-implementer',
+	'post-writer',
+	'post-translator',
+	'post-verifier',
+	'serp-term-researcher'
+];
 
 /** Pure: the top level, comma separated entries of a `--allowedTools` style string. */
 function splitTools(list: string): string[] {
@@ -292,7 +298,7 @@ describe('the todo-implementer team (todo-implement headless run)', () => {
 	const allowed = splitTools(/ALLOWED_TOOLS="([^"]+)"/.exec(run)?.[1] ?? '');
 	const allowedNames = new Set(allowed.map((t) => t.replace(/\(.*$/, '')));
 
-	it('has the four agent files, each with a name that matches its file and a description', () => {
+	it('has the five agent files, each with a name that matches its file and a description', () => {
 		TODO_TEAM.forEach((name, i) => {
 			expect(team[i], `${name}.md exists`).toBeTruthy();
 			const agent = agentMarkdownToJson(team[i])[name];
@@ -302,7 +308,7 @@ describe('the todo-implementer team (todo-implement headless run)', () => {
 		});
 	});
 
-	it('bundles the four agents in one --agents JSON and runs the orchestrator as main agent', () => {
+	it('bundles the five agents in one --agents JSON and runs the orchestrator as main agent', () => {
 		expect(run).toContain(`agent-json.ts ${TODO_TEAM.join(' ')}`);
 		expect(run).toContain('--agent todo-implementer');
 		expect(run).toContain('--model sonnet');
@@ -325,7 +331,7 @@ describe('the todo-implementer team (todo-implement headless run)', () => {
 		}
 	});
 
-	it('allows every tool name the four agents list, and nothing like push or deploy', () => {
+	it('allows every tool name the five agents list, and nothing like push or deploy', () => {
 		expect(allowed.length).toBeGreaterThan(0);
 		TODO_TEAM.forEach((name, i) => {
 			for (const tool of agentMarkdownToJson(team[i])[name].tools) {
@@ -335,7 +341,7 @@ describe('the todo-implementer team (todo-implement headless run)', () => {
 		expect(allowed.join(' ')).not.toMatch(/git push|deploy|migrate|post-images|migrate-wp/);
 	});
 
-	it('limits Write and Edit to the blog, its generated data, the content map and the changelog', () => {
+	it('limits Write and Edit to the blog, its generated data, the content map, the changelog and the SERP term files', () => {
 		const writes = allowed.filter((t) => /^(Write|Edit)\(/.test(t));
 		expect(writes.length).toBeGreaterThan(0);
 		const allowedRoots = [
@@ -343,7 +349,8 @@ describe('the todo-implementer team (todo-implement headless run)', () => {
 			'src/lib/data/post-faqs.json',
 			'src/lib/data/post-toc.json',
 			'src/lib/i18n/content-map/**',
-			'.agents/CHANGELOG.md'
+			'.agents/CHANGELOG.md',
+			'.agents/context/keywords/nlp-terms/**'
 		];
 		for (const w of writes) {
 			expect(
@@ -354,6 +361,15 @@ describe('the todo-implementer team (todo-implement headless run)', () => {
 		expect(allowed).not.toContain('Write');
 		expect(allowed).not.toContain('Edit');
 		expect(allowed).not.toContain('Bash');
+	});
+
+	it('pairs every Write rule with an Edit rule on the same path (the CLI only honors the Edit rule for the Write tool)', () => {
+		// Verified 2026-10-02 with a headless run: `--allowedTools "Write(path)"` alone was denied,
+		// `Edit(path)` alone let the Write tool create the file.
+		const paths = (kind: string) =>
+			allowed.filter((t) => t.startsWith(`${kind}(`)).map((t) => t.slice(kind.length));
+		const editPaths = new Set(paths('Edit'));
+		for (const p of paths('Write')) expect(editPaths.has(p), `Edit${p} next to Write${p}`).toBe(true);
 	});
 
 	it('never lets the agents touch git history beyond add and commit, nor TODO.json', () => {
@@ -369,15 +385,68 @@ describe('the todo-implementer team (todo-implement headless run)', () => {
 		expect(tools('post-verifier')).not.toContain('Write');
 		expect(tools('post-verifier')).not.toContain('Edit');
 		expect(tools('todo-implementer')).toContain('Agent');
-		for (const worker of ['post-writer', 'post-translator', 'post-verifier']) {
+		for (const worker of [
+			'post-writer',
+			'post-translator',
+			'post-verifier',
+			'serp-term-researcher'
+		]) {
 			expect(tools(worker)).not.toContain('Agent');
 		}
+	});
+
+	it('only the serp-term-researcher can reach the web, and it cannot edit the site', () => {
+		const tools = (name: string) => agentMarkdownToJson(team[TODO_TEAM.indexOf(name)])[name].tools;
+		expect(allowed).toContain('WebSearch');
+		expect(allowed).toContain('WebFetch');
+		expect(tools('serp-term-researcher')).toEqual(
+			expect.arrayContaining(['WebSearch', 'WebFetch', 'Write', 'Read'])
+		);
+		expect(tools('serp-term-researcher')).not.toContain('Edit');
+		for (const name of TODO_TEAM.filter((n) => n !== 'serp-term-researcher')) {
+			expect(tools(name), name).not.toContain('WebSearch');
+			expect(tools(name), name).not.toContain('WebFetch');
+		}
+	});
+
+	it('hands the SERP terms from the researcher to the writer through the validator', () => {
+		expect(allowed).toContain('Bash(just nlp-terms-check:*)');
+		expect(recipe('nlp-terms-check file:')).toContain('scripts/keywords/nlp-terms-check.ts');
+		const text = (name: string) => team[TODO_TEAM.indexOf(name)];
+		expect(text('todo-implementer')).toContain('serp-term-researcher');
+		expect(text('todo-implementer')).toContain('just nlp-terms-check');
+		expect(text('post-writer')).toContain('SERP terms');
+		expect(text('serp-term-researcher')).toContain('just nlp-terms-check');
+	});
+
+	it('tells the researcher to write with the repo relative path, never an absolute one', () => {
+		// The project folder name has brackets, and a model that rebuilds the absolute path drops
+		// them, so the write misses the permission rule (seen in the 2026-10-02 smoke test).
+		const text = team[TODO_TEAM.indexOf('serp-term-researcher')];
+		expect(text).toContain('repo relative path');
+		expect(text).toMatch(/never an absolute path/i);
 	});
 
 	it('dry-run never calls claude: it only prints the command and runs just todo-next', () => {
 		expect(run).toContain('--dry-run');
 		expect(run).toContain('just todo-next');
-		expect(run).toMatch(/exec "\$\{cmd\[@\]\}"/);
+	});
+
+	it('logs the run (demanda) around claude, prints its json and keeps its exit code', () => {
+		expect(run).toContain('AGENT_LOG_MODE=demanda');
+		expect(run).toMatch(/"\$\{cmd\[@\]\}" > "\$claude_json" \|\| code=\$\?/);
+		expect(run).toContain('cat "$claude_json"');
+		expect(run).toContain('exit "$code"');
+		expect(run).toContain('scripts/log/todo-implement-log.ts start');
+		expect(run).toContain('scripts/log/todo-implement-log.ts end');
+		// A logging failure never changes the recipe outcome.
+		expect(run).toMatch(/todo-implement-log\.ts end[^\n]*\|\| true/);
+	});
+
+	it('the dry-run branch exits before any log call, so a dry run never writes the log', () => {
+		const dryExit = run.indexOf('exit 0');
+		expect(dryExit).toBeGreaterThan(0);
+		expect(run.indexOf('todo-implement-log.ts start')).toBeGreaterThan(dryExit);
 	});
 
 	it('todo-implement-commit stages only keywords.json, never the task list', () => {

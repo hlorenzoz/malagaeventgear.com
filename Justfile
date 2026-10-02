@@ -178,6 +178,7 @@ keywords-commit batch:
     git add -- .agents/data/keywords.json .agents/data/ubersuggest.json "{{ batch }}"
     git commit --no-verify -m "chore(keywords): daily Ubersuggest research $(basename "{{ batch }}" .json)" -- .agents/data/keywords.json .agents/data/ubersuggest.json "{{ batch }}"
     git log -1 --format='%h %s'
+    bun scripts/log/agent-log.ts --mode "${AGENT_LOG_MODE:-auto}" --actor ubersuggest-analyst --event commit --last-commit --detail "file={{ batch }}" || true
 
 # Regenera .agents/data/ubersuggest.json (el registro fechado de reportes) desde los lotes commiteados. `--stdout` no escribe
 keywords-report-log *args:
@@ -204,6 +205,7 @@ faqs-commit batch:
     git add -- .agents/data/keywords.json "{{ batch }}"
     git commit --no-verify -m "chore(keywords): daily FAQ research $(basename "{{ batch }}" .json)" -- .agents/data/keywords.json "{{ batch }}"
     git log -1 --format='%h %s'
+    bun scripts/log/agent-log.ts --mode "${AGENT_LOG_MODE:-auto}" --actor faq-researcher --event commit --last-commit --detail "file={{ batch }}" || true
 
 # Corre el agente diario de FAQs (autocompletado de Google vía el MCP de Ubersuggest, no gasta reports). Mismo aislamiento que
 # keywords-research: --setting-sources "", --strict-mcp-config, --permission-mode default y el mismo --disallowedTools.
@@ -274,9 +276,13 @@ todo-next *args:
 #   just todo-implement --dry-run [...]      NO llama a Claude: corre `just todo-next` e imprime el comando
 # Tope de gasto: 30 USD por tarea (`--max N` lo multiplica), o el valor de TODO_IMPLEMENT_BUDGET.
 # Mismo aislamiento que content-plan: --setting-sources "" (ningun settings), --strict-mcp-config con config MCP VACIA,
-# --permission-mode default y --disallowedTools. Los 4 agentes (orquestador, escritor, traductor, verificador) entran juntos por
-# --agents desde sus .md (scripts/keywords/agent-json.ts), y el orquestador delega con la herramienta Agent. Los permisos son de TODA la
-# sesion: Write y Edit solo en el blog, sus datos generados, el content map y el changelog, y Bash solo para los comandos listados.
+# --permission-mode default y --disallowedTools. Los 5 agentes (orquestador, escritor, traductor, verificador e investigador de SERP) entran
+# juntos por --agents desde sus .md (scripts/keywords/agent-json.ts), y el orquestador delega con la herramienta Agent. Los permisos son de
+# TODA la sesion: Write y Edit solo en el blog, sus datos generados, el content map y el changelog (mas Write en nlp-terms/ para el
+# investigador), y Bash solo para los comandos listados. WebSearch y WebFetch estan permitidos en la sesion, pero el campo `tools` de cada
+# agente limita quien puede usarlos: solo serp-term-researcher los lista (lo exige scripts/keywords/agent-json.test.ts).
+# Deja sus lineas en .agents/logs/YYYY-MM.log (scripts/log, modo demanda: run-start, task-done|blocked|skipped, run-end con costo y commits).
+# El log lo escribe codigo, nunca el LLM. `--dry-run` no escribe nada.
 [positional-arguments]
 todo-implement *args:
     #!/usr/bin/env bash
@@ -289,9 +295,9 @@ todo-implement *args:
     done
     [[ "$max" =~ ^[0-9]+$ && "$max" -ge 1 ]] || { echo "--max necesita un entero de 1 o mas" >&2; exit 2; }
     DENIED="Bash(git push:*),Bash(git reset:*),Bash(git checkout:*),Bash(git stash:*),Bash(git restore:*),Bash(git rebase:*),Bash(git clean:*),Bash(git commit --amend:*),Bash(rm:*)"
-    ALLOWED_TOOLS="Read,Glob,Grep,Agent,Write(src/content/blog/**),Edit(src/content/blog/**),Write(src/lib/data/post-faqs.json),Edit(src/lib/data/post-faqs.json),Write(src/lib/data/post-toc.json),Edit(src/lib/data/post-toc.json),Write(src/lib/i18n/content-map/**),Edit(src/lib/i18n/content-map/**),Write(.agents/CHANGELOG.md),Edit(.agents/CHANGELOG.md),Bash(date:*),Bash(rg:*),Bash(git status:*),Bash(git diff:*),Bash(git log:*),Bash(git show:*),Bash(git add:*),Bash(git commit:*),Bash(just todo-next:*),Bash(just todo-list:*),Bash(just todo-set:*),Bash(just todo-organize:*),Bash(just content-inventory:*),Bash(just post-sync:*),Bash(just post-heading-id:*),Bash(just post-translate-brief:*),Bash(just post-translate-check:*),Bash(just post-translate-map:*),Bash(just post-translate-finish:*),Bash(just post-translations-status:*),Bash(just keywords-sync),Bash(just todo-implement-commit:*),Bash(bunx vitest run:*)"
+    ALLOWED_TOOLS="Read,Glob,Grep,Agent,WebSearch,WebFetch,Write(.agents/context/keywords/nlp-terms/**),Edit(.agents/context/keywords/nlp-terms/**),Write(src/content/blog/**),Edit(src/content/blog/**),Write(src/lib/data/post-faqs.json),Edit(src/lib/data/post-faqs.json),Write(src/lib/data/post-toc.json),Edit(src/lib/data/post-toc.json),Write(src/lib/i18n/content-map/**),Edit(src/lib/i18n/content-map/**),Write(.agents/CHANGELOG.md),Edit(.agents/CHANGELOG.md),Bash(date:*),Bash(rg:*),Bash(git status:*),Bash(git diff:*),Bash(git log:*),Bash(git show:*),Bash(git add:*),Bash(git commit:*),Bash(just todo-next:*),Bash(just todo-list:*),Bash(just todo-set:*),Bash(just todo-organize:*),Bash(just content-inventory:*),Bash(just post-sync:*),Bash(just post-heading-id:*),Bash(just post-translate-brief:*),Bash(just post-translate-check:*),Bash(just post-translate-map:*),Bash(just post-translate-finish:*),Bash(just post-translations-status:*),Bash(just keywords-sync),Bash(just nlp-terms-check:*),Bash(just todo-implement-commit:*),Bash(bunx vitest run:*)"
     BUDGET="${TODO_IMPLEMENT_BUDGET:-$((30 * max))}"
-    AGENTS_CMD="bun scripts/keywords/agent-json.ts todo-implementer post-writer post-translator post-verifier"
+    AGENTS_CMD="bun scripts/keywords/agent-json.ts todo-implementer post-writer post-translator post-verifier serp-term-researcher"
     PROMPT="Implement the open content tasks of TODO.json by priority, following your procedure. Arguments: ${rest[*]:-none}"
     cmd=(claude -p --agents "$($AGENTS_CMD)" --agent todo-implementer --model sonnet --setting-sources "" --mcp-config '{"mcpServers":{}}' --strict-mcp-config --permission-mode default --disallowedTools "$DENIED" --allowedTools "$ALLOWED_TOOLS" --max-budget-usd "$BUDGET" --output-format json "$PROMPT")
     if [[ "$dry" == 1 ]]; then
@@ -306,7 +312,24 @@ todo-implement *args:
         echo
         exit 0
     fi
-    exec "${cmd[@]}"
+    # Registro de actividad (scripts/log, modo demanda): lo escribe codigo, nunca el LLM. Nunca cambia la salida ni el exit code.
+    export AGENT_LOG_MODE=demanda
+    start_head="$(git rev-parse HEAD)"
+    next_json="$(mktemp)"; claude_json="$(mktemp)"
+    trap 'rm -f "$next_json" "$claude_json"' EXIT
+    just todo-next ${rest[@]+"${rest[@]}"} > "$next_json" 2>/dev/null || true
+    bun scripts/log/todo-implement-log.ts start --next "$next_json" --budget "$BUDGET" -- ${rest[@]+"${rest[@]}"} || true
+    started=$SECONDS
+    code=0
+    "${cmd[@]}" > "$claude_json" || code=$?
+    cat "$claude_json"
+    bun scripts/log/todo-implement-log.ts end --next "$next_json" --out "$claude_json" --exit "$code" --start-head "$start_head" --seconds "$((SECONDS - started))" -- ${rest[@]+"${rest[@]}"} || true
+    exit "$code"
+
+# Valida el archivo de terminos NLP del investigador de SERP (.agents/context/keywords/nlp-terms/YYYY-MM-DD-T####.json) e imprime el
+# resumen compacto que el orquestador le pasa a post-writer. Sale con error y la lista de problemas si el archivo es invalido.
+nlp-terms-check file:
+    @bun scripts/keywords/nlp-terms-check.ts {{ file }}
 
 # Commitea SOLO .agents/data/keywords.json tras implementar una tarea, después de correr los tests de keywords. Mismo --no-verify
 # y misma razón que content-plan-commit. NUNCA .agents/data/TODO.json. Uso: just todo-implement-commit '#T0036' <slug>
@@ -320,6 +343,7 @@ todo-implement-commit task slug:
     git add -- .agents/data/keywords.json
     git commit --no-verify -m "chore(keywords): sync after {{ task }} {{ slug }}" -- .agents/data/keywords.json
     git log -1 --format='%h %s'
+    bun scripts/log/agent-log.ts --mode "${AGENT_LOG_MODE:-demanda}" --actor todo-implementer --event commit --last-commit --detail "task={{ task }} slug={{ slug }}" || true
 
 # Commitea SOLO .agents/data/keywords.json y el plan del día, después de correr los tests de keywords. NUNCA .agents/data/TODO.json: lleva cambios sin
 # commitear de otra sesión. Mismo --no-verify y misma razón que keywords-commit.
@@ -331,6 +355,7 @@ content-plan-commit plan:
     git add -- .agents/data/keywords.json "{{ plan }}"
     git commit --no-verify -m "chore(keywords): daily content plan $(basename "{{ plan }}" .json)" -- .agents/data/keywords.json "{{ plan }}"
     git log -1 --format='%h %s'
+    bun scripts/log/agent-log.ts --mode "${AGENT_LOG_MODE:-auto}" --actor content-strategist --event commit --last-commit --detail "file={{ plan }}" || true
 
 # Corre el agente diario de contenido, con el mismo aislamiento que keywords-research: --setting-sources "" (ningún settings),
 # --strict-mcp-config con una config MCP VACÍA (no necesita ningún MCP), --permission-mode default y el mismo --disallowedTools.

@@ -1740,14 +1740,17 @@ dispara y la cadena diaria (`keywords-daily`) no cambia.
 | :--- | :--- |
 | `just todo-next [--task '#T0036'] [--max N]` | JSON `{ next, queue, skipped }`, solo lee (`scripts/todo/next-task.ts`). Implementable: `pendiente`, `contenido`, título generado por el content-strategist y plan resuelto desde el Origen. Orden: prioridad, `anotada` más vieja, id |
 | `just todo-implement [--task] [--max N] [--dry-run]` | Corrida headless (`claude -p`) con el aislamiento de `content-plan`. `--dry-run` no llama a Claude. Tope 30 USD por tarea (`TODO_IMPLEMENT_BUDGET`) |
-| `todo-implementer`, `post-writer`, `post-translator`, `post-verifier` (`.claude/agents/`) | Orquestador (delega con la herramienta Agent, un agente a la vez), editor del inglés, traductor de los 12 idiomas (solo, nunca en paralelo) y verificador independiente (sin Write ni Edit) |
+| `todo-implementer`, `post-writer`, `post-translator`, `post-verifier`, `serp-term-researcher` (`.claude/agents/`) | Orquestador (delega con la herramienta Agent, un agente a la vez), editor del inglés, traductor de los 12 idiomas (solo, nunca en paralelo), verificador independiente (sin Write ni Edit) e investigador del SERP real (el único con WebSearch y WebFetch) |
+| `just nlp-terms-check <archivo>` | Valida el archivo de términos NLP del investigador (`scripts/keywords/nlp-terms-check.ts`, schema en `nlp-terms.schema.ts`) e imprime el resumen que el orquestador le pasa a `post-writer`. El orquestador confía en esta salida, nunca en el reporte del investigador |
 | `just post-sync`, `post-translate-brief`, `post-translate-check`, `post-translate-map`, `post-translate-finish`, `post-translations-status`, `post-heading-id` | Las piezas deterministas (`scripts/translate/`) |
 | `just todo-implement-commit '#Txxxx' <slug>` | Commitea SOLO `.agents/data/keywords.json`, con `--no-verify` por el mismo motivo que `content-plan-commit` |
 
 Flujo por tarea: preflight (nada en el índice, nada modificado en `src/` ni `scripts/`,
 `post-translations-status` completo) -> `todo-set --estado "en curso"` -> triage (si ya está cubierta,
 canibaliza o pide un hecho sin respaldo: `bloqueada` con la nota `bloqueada por todo-implementer
-<fecha>: <motivo>`) -> post-writer (inglés, `post-sync`, entrada de `.agents/CHANGELOG.md`) -> commit
+<fecha>: <motivo>`) -> serp-term-researcher (SERP real, términos NLP, validados con `nlp-terms-check`, si
+falla se sigue sin ellos) -> post-writer (inglés con esos términos, `post-sync`, entrada de
+`.agents/CHANGELOG.md`) -> commit
 `feat(blog): <slug> ...` -> post-translator (modo UPDATE) -> post-verifier (hasta 2 vueltas de
 reparación) -> `post-translate-finish` (checks, tests, build, commit local de las traducciones) ->
 `keywords-sync`, `todo-organize`, tarea `hecha` -> commit de `keywords.json`.
@@ -1760,8 +1763,32 @@ reparación) -> `post-translate-finish` (checks, tests, build, commit local de l
   retoma a mano. `todo-organize` solo reabre las tareas que bloqueó la puerta de traducciones: una
   tarea bloqueada por el agente o por el usuario sigue bloqueada.
 - Los permisos son los de TODA la sesión, no uno por agente: Write y Edit solo en
-  `src/content/blog/**`, `post-faqs.json`, `post-toc.json`, `src/lib/i18n/content-map/**` y
-  `.agents/CHANGELOG.md`, y Bash solo para los comandos de la receta.
+  `src/content/blog/**`, `post-faqs.json`, `post-toc.json`, `src/lib/i18n/content-map/**`,
+  `.agents/CHANGELOG.md` y `.agents/context/keywords/nlp-terms/**`, y Bash solo para los comandos de la
+  receta. **Cada regla `Write(ruta)` va con su `Edit(ruta)`**: verificado el 2026-10-02 que el CLI
+  headless solo honra la regla `Edit` para la herramienta Write, y que `Write(ruta)` sola se deniega
+  en silencio (lo exige `scripts/keywords/agent-json.test.ts`).
+- **Términos NLP del SERP real (decisión del usuario, 2026-10-02)**: antes de editar, el orquestador
+  lanza a `serp-term-researcher`, que busca en Google el término de la tarea (la `keyword` del post
+  más el heading o la pregunta), abre las 3 primeras páginas orgánicas y extrae SOLO términos cortos
+  (entidades, vocabulario relacionado, preguntas), nunca prosa. Escribe
+  `.agents/context/keywords/nlp-terms/YYYY-MM-DD-T####.json` (una por tarea, se commitea con el
+  cambio inglés) y `post-writer` los usa como vocabulario a cubrir con sus palabras, pasados por su
+  filtro de honestidad: que un competidor ofrezca "video wall" o un modelo concreto no prueba que MEG
+  lo tenga. Se habilitaron `WebSearch` y `WebFetch` en la sesión, pero el campo `tools` de cada agente
+  decide quién los usa: solo el investigador los lista (lo exige el test). El contenido web es dato no
+  confiable: `nlp-terms.schema.ts` solo deja pasar términos de hasta 6 palabras (preguntas de hasta
+  12), con un juego cerrado de caracteres (sin URLs, markup ni frases) y sin palabras que se dirijan a
+  un agente. Si el investigador falla o el archivo es inválido, la tarea sigue sin términos del SERP,
+  no se bloquea. La búsqueda NO se localiza a España (`localized: false`: la herramienta no lo
+  permite), por eso `post-writer` filtra por mercado.
+- **Verificado el 2026-10-02 con una prueba de humo del investigador (0,56 USD, 15 turnos, sin
+  denegaciones)**: `WebSearch` y `WebFetch` funcionan en `claude -p` con `--allowedTools`, el archivo
+  salió válido y `just nlp-terms-check` lo aceptó. Dos trampas que costaron dos corridas fallidas:
+  la regla `Write(ruta)` sola se deniega (hace falta `Edit(ruta)`), y un modelo que arma la ruta
+  absoluta pierde los corchetes de `[MEG - Malaga Event Gear (malagaeventgear.com)]` y no matchea la
+  regla, por eso el agente escribe siempre con la ruta relativa. No se probó todavía el orquestador
+  completo con el paso 3b.
 - **Verificado el 2026-10-01 con pruebas de humo de menos de 0,5 USD**: la herramienta Agent
   funciona en modo headless con `--agents`, y los subagentes heredan los permisos acotados de la
   sesión (un subagente escribió en `src/content/blog/` y se le bloqueó `src/lib/`). Aún no hay una

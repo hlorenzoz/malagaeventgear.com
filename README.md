@@ -247,7 +247,8 @@ Implementa las tareas de contenido abiertas de `TODO.json` por prioridad, de pun
 
 | Comando | Qué hace | Ejemplo |
 | :--- | :--- | :--- |
-| `todo-implement [--task id] [--max N] [--dry-run]` | Corrida headless de Claude con los 4 agentes. `--dry-run` no llama a Claude: corre `todo-next` e imprime el comando | `just todo-implement --task '#T0037'` |
+| `todo-implement [--task id] [--max N] [--dry-run]` | Corrida headless de Claude con los 5 agentes. `--dry-run` no llama a Claude: corre `todo-next` e imprime el comando | `just todo-implement --task '#T0037'` |
+| `nlp-terms-check <archivo>` | Valida el archivo de términos NLP del investigador de SERP e imprime el resumen que recibe `post-writer`. Sale con error y la lista de problemas si es inválido | `just nlp-terms-check .agents/context/keywords/nlp-terms/2026-10-02-T0037.json` |
 | `todo-implement-commit <id> <slug>` | Commitea solo `keywords.json` tras implementar una tarea. Lo usa el orquestador | `just todo-implement-commit '#T0037' tv-screen-rental` |
 
 Qué hace, paso a paso, con un agente a la vez:
@@ -256,14 +257,19 @@ Qué hace, paso a paso, con un agente a la vez:
    y `post-translations-status` en `complete:`. Si no, se detiene sin tocar nada.
 2. Elige la tarea con `todo-next`, la marca `en curso` y hace el triage. Si ya está cubierta,
    canibaliza otro post o pide un hecho sin respaldo, la pasa a `bloqueada` con una nota.
-3. **`post-writer`** edita el post inglés (sección H2 o H3, o una pregunta de FAQ), corre
-   `post-sync` y escribe la entrada de `.agents/CHANGELOG.md`. El orquestador commitea
-   `feat(blog): <slug> ...`.
-4. **`post-translator`** (modo UPDATE) aplica la misma edición a los 12 idiomas.
-5. **`post-verifier`** revisa de forma independiente, sin Write ni Edit: `post-translate-check
+3. **`serp-term-researcher`** busca en Google el término de la tarea, abre las 3 primeras páginas
+   orgánicas y guarda solo términos NLP cortos (entidades, vocabulario relacionado, preguntas) en
+   `.agents/context/keywords/nlp-terms/YYYY-MM-DD-T####.json`. El orquestador lo valida con
+   `just nlp-terms-check`. Si falla, la tarea sigue sin esos términos, no se bloquea.
+4. **`post-writer`** edita el post inglés (sección H2 o H3, o una pregunta de FAQ) cubriendo esos
+   términos con sus palabras (y filtrándolos contra el inventario real), corre `post-sync` y escribe
+   la entrada de `.agents/CHANGELOG.md`. El orquestador commitea `feat(blog): <slug> ...` junto con el
+   archivo de términos.
+5. **`post-translator`** (modo UPDATE) aplica la misma edición a los 12 idiomas.
+6. **`post-verifier`** revisa de forma independiente, sin Write ni Edit: `post-translate-check
    --strict`, tests, estado de traducciones y honestidad del texto. Si falla, hasta 2 vueltas de
    reparación.
-6. **Finish gate**: `post-translate-finish` (checks, tests, build y commit local de las
+7. **Finish gate**: `post-translate-finish` (checks, tests, build y commit local de las
    traducciones), `keywords-sync`, `todo-organize`, la tarea pasa a `hecha` y
    `todo-implement-commit` commitea `keywords.json`.
 
@@ -276,7 +282,12 @@ Alcance y límites:
   `TODO_IMPLEMENT_BUDGET` se fija el tope total de la corrida: `TODO_IMPLEMENT_BUDGET=15 just
   todo-implement`. Una tarea real cuesta varios USD y el build tarda unos 11 minutos.
 - Los permisos valen para toda la sesión: Write y Edit solo en el blog, sus datos generados, el
-  content map y el changelog. Bash solo para los comandos de la receta.
+  content map, el changelog y `nlp-terms/`. Bash solo para los comandos de la receta. `WebSearch` y
+  `WebFetch` están permitidos en la sesión, pero solo `serp-term-researcher` los lista en sus
+  herramientas, y lo que lee de la web es dato no confiable (el validador solo deja pasar términos
+  cortos).
+- La búsqueda del investigador no se localiza a España: la herramienta no lo permite, y el archivo lo
+  deja dicho en `localized: false`. `post-writer` filtra los términos por mercado e inventario.
 
 **Estado honesto: la corrida de punta a punta todavía no se ejercitó con una tarea real.** Solo se
 probó con pruebas de humo (menos de 0,5 USD) que la herramienta Agent funciona en modo headless y
@@ -387,6 +398,7 @@ MCP estricto, permisos acotados).
 | `post-writer` | Edita el post inglés (sección o FAQ) | `todo-implementer`, o a mano | Read, Write, Edit, Glob, Grep, Bash |
 | `post-translator` | Traduce o actualiza los 12 idiomas de un post | `todo-implementer`, o a mano | Read, Write, Edit, Glob, Grep, Bash |
 | `post-verifier` | Verificación independiente, solo lectura (PASS o FAIL) | `todo-implementer`, o a mano | Read, Glob, Grep, Bash |
+| `serp-term-researcher` | Lee el SERP real y guarda términos NLP cortos del top 3 orgánico | `todo-implementer`, o a mano | Read, Write, Glob, Bash, WebSearch, WebFetch |
 
 Los agentes SEO globales (`seo-auditor`, `seo-fixer`, `local-content-writer`,
 `content-gap-analyst`, `reverse-silo-architect`, `gbp-site-architect`) y los comandos `/seo:*` y
