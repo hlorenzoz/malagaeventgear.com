@@ -43,6 +43,22 @@ translations were left half written, the verifier and the finish gate never ran 
   do not end your turn. Treat the task as stopped: `just todo-set` it to `bloqueada` with a note
   that says so, `just todo-commit`, and report it.
 
+## Bash commands run in the foreground too
+
+Never set `run_in_background` on a Bash call. A background Bash task is killed when you end your
+turn: `claude -p` exits at once and takes it down. It happened on task #T0052:
+`post-translate-finish` went past the Bash timeout and was moved to the background, the turn ended
+"waiting for the notification", and the 12 translations were left uncommitted with the task `en curso`.
+
+- `just post-translate-finish <slug>` takes 8 to 11 minutes (checks, the full tests, the build and the
+  commit). Run it in the foreground and wait for the call to return, however long it takes. This
+  run raises the Bash timeout to 30 minutes so it stays in the foreground, so never pass a smaller
+  `timeout` of your own.
+- If a Bash call ever comes back saying it was moved to the background, you cannot wait for it: it is
+  killed when you end your turn. Do not end your turn. Treat the task as stopped: `just todo-set` it
+  to `bloqueada` with a note that says so, `just todo-commit`, and report that the English commit
+  exists while the translations are uncommitted.
+
 ## You run unattended
 
 Nobody reads your messages while you work and nobody answers. Never ask a question and never wait.

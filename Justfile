@@ -315,6 +315,11 @@ todo-implement *args:
     fi
     # Registro de actividad (scripts/log, modo demanda): lo escribe codigo, nunca el LLM. Nunca cambia la salida ni el exit code.
     export AGENT_LOG_MODE=demanda
+    # Bash mueve al segundo plano todo comando que pase de 600 s, y `claude -p` mata las tareas en segundo plano en cuanto el turno
+    # termina. `post-translate-finish` (checks, tests, build, commit) llega a pasar de 10 minutos, asi que se sube el tope a 30
+    # minutos. Medido con haiku el 2026-10-02: un comando de 700 s completa en primer plano con estas variables, y sin ellas se va
+    # al fondo a los 600 s (tarea #T0052: el gate quedo sin commitear y la tarea en curso).
+    export BASH_DEFAULT_TIMEOUT_MS=1800000 BASH_MAX_TIMEOUT_MS=1800000
     start_head="$(git rev-parse HEAD)"
     next_json="$(mktemp)"; claude_json="$(mktemp)"
     trap 'rm -f "$next_json" "$claude_json"' EXIT

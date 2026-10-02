@@ -1856,6 +1856,25 @@ reparación) -> `post-translate-finish` (checks, tests, build, commit local de l
     localizar a España y solo devolvió sitios de EE. UU. y listados de Airbnb. La tarea siguió sin
     términos, como está diseñado. Las preguntas de ese tipo no sirven para esa investigación.
   - El verificador leyó a fondo solo 3 idiomas de 12 (de, zh-tw y sv) y el resto por estructura.
+- **Tercera corrida real (#T0052, 2026-10-02): se cortó otra vez, con otra causa.** Quedó el commit
+  en inglés, las 12 traducciones escritas pero sin commitear y la tarea `en curso`. `post-translate-finish`
+  (checks, tests, build, commit) pasó el tope por defecto de Bash, 600 s: la herramienta lo movió al
+  segundo plano, el orquestador cerró su turno "esperando la notificación" y `claude -p` salió de
+  inmediato, matándolo. Este es un mecanismo distinto del de #T0043: ahí el CLI esperó 600 s por un
+  AGENTE en segundo plano y después lo mató, y con una tarea de BASH en segundo plano no espera nada.
+  Medido con haiku (0,03 a 0,08 USD cada prueba): con `run_in_background` el proceso salió a los 4 s y
+  perdió la tarea. Un comando de 700 s en primer plano se movió al fondo a los 600 s por defecto y
+  completó con `BASH_DEFAULT_TIMEOUT_MS` y `BASH_MAX_TIMEOUT_MS` en 1800000. El orquestador había
+  dicho que era un tope de 120 s: era un error suyo, el de `-p` es 600 s. Arreglo:
+  - `just todo-implement` exporta esas dos variables (30 minutos), después del `--dry-run` para que un
+    ensayo no tenga efectos. Lo exige `agent-json.test.ts`.
+  - `todo-implementer.md` tiene la sección "Bash commands run in the foreground too": nunca
+    `run_in_background` en Bash, `post-translate-finish` (8 a 11 minutos) siempre en primer plano sin
+    un `timeout` propio más chico, y si una llamada vuelve "movida al segundo plano", la tarea se
+    trata como detenida en vez de cerrar el turno esperándola.
+  - Se recuperó a mano, con agentes en primer plano: verificador PASS, gate propio de 8 minutos y los
+    commits `4c718c6`, `dd65034` y `3c5661d`. Esta vez el investigador de SERP sí funcionó (25 términos).
+  - Sin verificar: el orquestador entero con estas variables, que se prueba con la próxima corrida real.
 - **Verificado el 2026-10-01 con pruebas de humo de menos de 0,5 USD**: la herramienta Agent
   funciona en modo headless con `--agents`, y los subagentes heredan los permisos acotados de la
   sesión (un subagente escribió en `src/content/blog/` y se le bloqueó `src/lib/`). Aún no hay una

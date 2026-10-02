@@ -496,6 +496,28 @@ describe('the todo-implementer team (todo-implement headless run)', () => {
 		expect(orchestrator).toMatch(/stand by/i);
 	});
 
+	// 2026-10-02, task #T0052: `post-translate-finish` (checks, tests, build, commit) went past the
+	// 600 s default Bash timeout, the tool moved it to the background, the orchestrator ended its
+	// turn "waiting for the notification" and `claude -p` exited at once, killing it: 12 translations
+	// uncommitted, the task left "en curso". Measured with haiku: a 700 s command in the foreground
+	// is moved to the background at 600 s by default and completes with these two variables raised.
+	it('raises the Bash timeouts of the run so the finish gate can stay in the foreground', () => {
+		expect(run).toContain('BASH_DEFAULT_TIMEOUT_MS=1800000');
+		expect(run).toContain('BASH_MAX_TIMEOUT_MS=1800000');
+		// Exported before the run starts, and after the dry run exit, so a dry run stays side effect free.
+		expect(run.indexOf('BASH_DEFAULT_TIMEOUT_MS')).toBeGreaterThan(run.indexOf('--dry-run'));
+		expect(run.indexOf('BASH_MAX_TIMEOUT_MS')).toBeLessThan(run.lastIndexOf('"${cmd[@]}"'));
+	});
+
+	it('the orchestrator never backgrounds a Bash command and runs the finish gate in the foreground', () => {
+		const orchestrator = team[TODO_TEAM.indexOf('todo-implementer')];
+		expect(orchestrator).toMatch(/Never set `run_in_background` on a Bash call/i);
+		expect(orchestrator).toContain('post-translate-finish');
+		expect(orchestrator).toMatch(/moved to the background/i);
+		expect(orchestrator).toMatch(/30 minutes/);
+		expect(orchestrator).toMatch(/dies with your turn|killed when you end your turn/i);
+	});
+
 	it('the orchestrator may run todo-commit and is told to commit TODO.json only through it', () => {
 		expect(allowed).toContain('Bash(just todo-commit:*)');
 		const orchestrator = team[TODO_TEAM.indexOf('todo-implementer')];
