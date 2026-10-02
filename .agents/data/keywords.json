@@ -58655,8 +58655,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/projector-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -58705,6 +58705,10 @@
             "ctr": 0,
             "position": 21
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02"
         },
         "content-plan": {
           "firstSeen": "2026-10-01",
@@ -80281,6 +80285,24 @@
           "lastSeen": "2026-10-02",
           "urls": [
             "/blog/audio-video-rental-near-me-in-malaga-spain/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "do-you-deliver-projector-rental-near-me-outside-malaga-city",
+      "question": "Do you deliver projector rental near me outside Malaga city?",
+      "keywordId": "projector-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/projector-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-02",
+          "lastSeen": "2026-10-02",
+          "urls": [
+            "/blog/projector-rental/"
           ]
         }
       }
