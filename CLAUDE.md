@@ -1843,6 +1843,19 @@ reparación) -> `post-translate-finish` (checks, tests, build, commit local de l
     y fechas, así que "complete" no probaba que el contenido estuviera. Los gates de traducción
     (`new-post-quota.ts`, la cuota de posts y el bloqueo de `todo-organize`) NO cambian: siguen
     contando faltantes y desactualizadas.
+- **Segunda corrida real (#T0051, 2026-10-02): primera de punta a punta sin cortes.** 33 minutos, 6,52
+  USD, 34 turnos, 4 commits (inglés, 12 traducciones, `keywords.json`, `chore(todo)`), verificador
+  PASS y `post-translations-status` completo. Confirma el arreglo del primer plano. Lo que dejó:
+  - **15 llamadas denegadas** (todas bloqueadas por la lista de permisos): `cd "..." && ...`,
+    `export PATH=...`, `git -C <dir>`, `just --justfile <ruta>`, bucles `for` de shell, `sed`, `awk`,
+    `grep`, `python3` y un `git stash`. No se sabe qué agente hizo cada una. Cada una cuesta un turno.
+    `post-writer`, `post-translator` y `post-verifier` llevan ahora la sección "How to call tools in
+    this run" con esas formas (la exige `agent-json.test.ts`), igual que los tres agentes diarios.
+    Que recorte turnos y costo es una hipótesis hasta medir la próxima corrida.
+  - **El investigador de SERP terminó `failed`** con una pregunta "near me": la búsqueda no se puede
+    localizar a España y solo devolvió sitios de EE. UU. y listados de Airbnb. La tarea siguió sin
+    términos, como está diseñado. Las preguntas de ese tipo no sirven para esa investigación.
+  - El verificador leyó a fondo solo 3 idiomas de 12 (de, zh-tw y sv) y el resto por estructura.
 - **Verificado el 2026-10-01 con pruebas de humo de menos de 0,5 USD**: la herramienta Agent
   funciona en modo headless con `--agents`, y los subagentes heredan los permisos acotados de la
   sesión (un subagente escribió en `src/content/blog/` y se le bloqueó `src/lib/`). Aún no hay una

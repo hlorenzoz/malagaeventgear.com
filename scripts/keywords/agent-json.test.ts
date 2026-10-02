@@ -528,3 +528,31 @@ describe('the daily agents know how to call tools in a headless run', () => {
 		});
 	}
 });
+
+describe('the implementer subagents know which call forms are denied in a headless run', () => {
+	// 2026-10-02, task #T0051: 15 calls were denied in a real run and none of the three workers
+	// had the rule. The denied forms: `cd "..." && ...`, `export PATH=...`, `git -C <dir>`,
+	// `just --justfile <path>`, shell `for` loops, sed, awk, grep, python3 and `git stash`.
+	const WORKERS = ['post-writer', 'post-translator', 'post-verifier'];
+	const files = import.meta.glob('/.claude/agents/*.md', {
+		query: '?raw',
+		import: 'default',
+		eager: true
+	}) as Record<string, string>;
+
+	for (const name of WORKERS) {
+		it(`${name} has the call form rules`, () => {
+			const text = files[`/.claude/agents/${name}.md`];
+			expect(text, `${name}.md exists`).toBeTruthy();
+			expect(text).toContain('## How to call tools in this run');
+			expect(text).toContain('ONE command per Bash call');
+			expect(text).toMatch(/never `cd`/i);
+			expect(text).toContain('git -C');
+			expect(text).toContain('--justfile');
+			expect(text).toContain('export PATH');
+			expect(text).toContain('git stash');
+			expect(text).toMatch(/shell `for` loop/);
+			expect(text).toMatch(/`sed`, `awk`, `grep`/);
+		});
+	}
+});
