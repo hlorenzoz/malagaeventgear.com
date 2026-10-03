@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "tasks": [
     {
       "id": "#T0054",
@@ -453,25 +453,6 @@
         "Keywords: how much does it cost to rent sound equipment (just content-candidates newFaqs (id how-much-does-it-cost-to-rent-sound-equipment), keywordId audiovisual-equipment-rental-service, sin volumen medido), sin volumen",
         "Qué cubrir: Responder con los precios reales de packages.ts por nivel (Eco Pack, Wedding Pack, Product Presentation Pack, Basic MICE Pack, MICE Pack segun corresponda a 'solo sonido'), remitiendo a /packages/ para el detalle completo, sin inventar una cifra que no este en ese archivo. Aclarar que el precio depende del aforo y de si se necesita tecnico, ya como lo hacen otros posts del silo (por ejemplo la seccion 'Choosing Your Sound System by Guest Count' del propio post). No repetir el FAQ ya existente sobre PA vs sonido general.",
         "Por qué: Revise las 13 preguntas de FAQ de /blog/sound-system-rental/ completas: cubre PA vs DJ, generador, microfonos, mezcladora, pero ninguna pregunta de precio, a diferencia de casi todos los demas posts del silo (que si tienen 'How much does audio visual rental cost for...'). Es un hueco real de contenido en la pagina mas natural para esta pregunta exacta ('sound equipment'), no solo una keyword con volumen: alguien que llega a esta pagina especifica razonablemente espera ver el precio. Prioridad media: sin volumen medido (unknown), viene de newFaqs sin dato de busquedas.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
-      "id": "#T0036",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Nueva sección H2 en /blog/sound-system-rental/: \"Booking and Service Area\"",
-      "anotada": "2026-09-29",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-09-29, ítem 9)",
-      "notas": [],
-      "descripcion": [
-        "Archivo: src/content/blog/sound-system-rental.svx",
-        "Ubicación: después de \"Indoor and Outdoor Sound System Rental\"",
-        "Keywords: rental sound equipment near me (google-ads 70/mo, gsc pos 27.52 27 impr)",
-        "Qué cubrir: State where MEG delivers sound system rentals and how far ahead to book, reusing only facts already published elsewhere on the site: Costa del Sol coverage (Malaga, Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas) plus Sevilla and Granada, per the audio-visual-rental pillar's 'Serving Malaga and the Whole Costa del Sol' section; the Granada 400 euro minimum booking, per tips-for-reducing-wedding-rental-costs; and the 24 hour minimum notice, per audio-visual-rental-planning-timeline. Do not invent a new travel radius, a new town, or a same day delivery promise not stated in those posts.",
-        "Por qué: Checked /blog/audio-video-rental-near-me-in-malaga-spain/ and /blog/audio-visual-hire-near-me-in-malaga-spain/, both generic AV near-me pages already targeting the pillar, so a third near-me page would cannibalize them. Checked /blog/sound-system-rental/, the correct home for the sound-specific version of this intent: unlike most posts in this cluster it has no 'Booking and Service Area' heading, only scattered area mentions, which is a real gap for this local-intent phrase. Adding a section there (not a new post) avoids cannibalizing the two existing near-me posts.",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
@@ -1378,6 +1359,27 @@
         "Añade full support para PWA",
         "",
         "Crea un PWA Installer (widget) que va a salir debajo del widget de WhatsApp y encima de la Cookie bar, pero solamente 3 segundos luego que el usuario haya hecho scroll below the fold (debajo de la sección header)."
+      ]
+    },
+    {
+      "id": "#T0036",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Nueva sección H2 en /blog/sound-system-rental/: \"Booking and Service Area\"",
+      "anotada": "2026-09-29",
+      "hecha": "2026-10-03",
+      "origen": "content-strategist (plan 2026-09-29, ítem 9)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Archivo: src/content/blog/sound-system-rental.svx",
+        "Ubicación: después de \"Indoor and Outdoor Sound System Rental\"",
+        "Keywords: rental sound equipment near me (google-ads 70/mo, gsc pos 27.52 27 impr)",
+        "Qué cubrir: State where MEG delivers sound system rentals and how far ahead to book, reusing only facts already published elsewhere on the site: Costa del Sol coverage (Malaga, Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas) plus Sevilla and Granada, per the audio-visual-rental pillar's 'Serving Malaga and the Whole Costa del Sol' section; the Granada 400 euro minimum booking, per tips-for-reducing-wedding-rental-costs; and the 24 hour minimum notice, per audio-visual-rental-planning-timeline. Do not invent a new travel radius, a new town, or a same day delivery promise not stated in those posts.",
+        "Por qué: Checked /blog/audio-video-rental-near-me-in-malaga-spain/ and /blog/audio-visual-hire-near-me-in-malaga-spain/, both generic AV near-me pages already targeting the pillar, so a third near-me page would cannibalize them. Checked /blog/sound-system-rental/, the correct home for the sound-specific version of this intent: unlike most posts in this cluster it has no 'Booking and Service Area' heading, only scattered area mentions, which is a real gap for this local-intent phrase. Adding a section there (not a new post) avoids cannibalizing the two existing near-me posts.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
