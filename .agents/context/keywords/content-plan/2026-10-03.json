@@ -1,0 +1,220 @@
+{
+  "date": "2026-10-03",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 30,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "todo": [
+    {
+      "id": "#T0009",
+      "priority": "media",
+      "reason": "Mejora real de SEO/UX (soporte de OpenGraph para compartir en redes, descripcion: 'Anade soporte para OpenGraph segun corresponda'), sin urgencia declarada y sin que bloquee publicacion ni indexacion."
+    }
+  ],
+  "items": [
+    {
+      "keywords": ["projector screen rental near me", "rent a projector and screen near me"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 40/mo (below tier 100)",
+      "reason": "Variante 'near me' de projector rental. La intencion ya esta cubierta por la FAQ 'Do you deliver projector rental near me outside Malaga city?' de /blog/projector-rental/. Crear una pagina o seccion nueva solo por la coletilla 'near me' seria un doorway (spam-policies.md, Doorway abuse): la demanda de localidad va a la FAQ o seccion de area de servicio ya existente, nunca a contenido nuevo por variante geografica."
+    },
+    {
+      "keywords": ["public address system for hire", "public address system hire"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 40/mo (below tier 100)",
+      "reason": "'Public address system' es sinonimo de PA/sound system, ya resuelto en /blog/sound-system-rental/ por la FAQ 'Is a PA system rental the same as a sound system rental?' y por el uso de 'PA system' en todo el cuerpo del post (titulo de seccion 'PA System or DJ Sound'). Un heading nuevo solo repetiria lo ya dicho."
+    },
+    {
+      "keywords": ["big screen projector rental", "hire a screen and projector", "hire screen projector", "projector and screen hire"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 30/mo (below tier 100)",
+      "reason": "Variantes lexicas de 'projector rental', ya cubiertas por /blog/projector-rental/: el H2 'Projector and Screen Pricing by Package' describe exactamente el combo pantalla + proyector que nunca se vende separado, y las imagenes del post ya usan la frase 'big screen projector rental malaga' en el alt text. No hay intencion distinta que respaldar con contenido nuevo (reverse-silo-topical-authority.md, keyword clustering vs semantic clustering: mismo intento, mismas palabras)."
+    },
+    {
+      "keywords": ["rent movie projector"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 30/mo (below tier 100)",
+      "reason": "La intencion real (proyector para cine al aire libre / movie night) ya esta resuelta en la FAQ 'Do you rent an inflatable movie screen for an outdoor event?' de /blog/audio-visual-rental-for-outdoor-events.svx: explica que la pantalla inflable no es inventario propio, que nuestro proyector y pantalla 2x2m del Basic MICE Pack sirven para interior o terraza con corriente estable, y que para una proyeccion al aire libre buscamos solucion con proveedores."
+    },
+    {
+      "keywords": ["audio hire"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 30/mo (below tier 100)",
+      "reason": "Termino generico equivalente a 'sound system rental' / 'PA system hire', ya cubierto en /blog/sound-system-rental/ (titulo, Key Highlights, tabla de paquetes por aforo). Agregar un heading nuevo solo repetiria contenido existente."
+    },
+    {
+      "keywords": ["dj speaker rental", "rent a dj set", "rent dj set"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 30/mo (below tier 100)",
+      "reason": "Cubierto por la FAQ 'Do I need a PA system for a DJ set, or something different for a speech heavy event?' y la seccion 'PA System or DJ Sound: Matching Equipment to the Event' de /blog/sound-system-rental/, que explica que el Eco Pack es el PA autogestionado para DJ set, sin tecnico. Misma intencion, sin hueco real que llenar."
+    },
+    {
+      "keywords": ["event speaker rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 30/mo (below tier 100)",
+      "reason": "'Speaker rental' para eventos es el producto central de /blog/sound-system-rental/ (altavoces PA activos, ver Key Highlights y la tabla por aforo 'Choosing Your Sound System by Guest Count'). Mismo contenido ya publicado, no amerita un heading nuevo."
+    },
+    {
+      "keywords": ["led screen hire", "led screen on hire"],
+      "cluster": "audio visual rental",
+      "action": "add-faq",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 30/mo (below tier 100)",
+      "reason": "'LED screen' es ambiguo entre la pantalla LED de 60 pulgadas que si tenemos (incluida en el MICE Pack, 490 euros) y el video wall LED modular que no tenemos (ya cubierto por la FAQ 'Do you rent LED video walls or modular LED panels?'). Ninguna FAQ de /blog/tv-screen-rental/ usa literalmente la frase 'LED screen', asi que una FAQ nueva que distinga ambos productos agrega valor real de desambiguacion sin repetir las existentes.",
+      "targetUrl": "/blog/tv-screen-rental/",
+      "file": "src/content/blog/tv-screen-rental.svx",
+      "question": "Do you rent an LED screen?",
+      "brief": "Responder que si por 'LED screen' se busca la pantalla plana de 60 pulgadas, si la tenemos: es el display LED de alta definicion del MICE Pack (490 euros ex IVA, hasta 120 invitados, con tecnico incluido hasta 6 horas), el mismo producto ya descrito en 'TV Screen Rental Pricing and What's Included'. Si en cambio se busca un video wall o panel LED modular, aclarar que no esta en nuestro inventario propio (enlazar a 'What We Don't Stock') y usar la frase de posicionamiento de CLAUDE.md: contanos que necesitas y buscamos la solucion con nuestros proveedores, sin marca, modelo, cantidad, precio ni plazo prometido."
+    },
+    {
+      "keywords": ["audio and video rentals", "audio and visual rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 20/mo (below tier 100)",
+      "reason": "Son la misma keyword que el pilar /blog/audio-visual-rental/ ('audio visual rental'), solo con 'and' agregado. Crear contenido nuevo para esta variante seria canibalizacion de silo: el pilar ya mantiene esa keyword de cabecera (reverse-silo-topical-authority.md, 'No silo overlap' y 'Content cannibalization')."
+    },
+    {
+      "keywords": ["audio visual equipment rental service near me"],
+      "cluster": "audiovisual equipment rental service",
+      "action": "add-section",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 20/mo (below tier 100)",
+      "reason": "Es la variante 'near me' del propio pilar del silo audiovisual equipment rental service, que hoy no tiene ninguna seccion de area de servicio (a diferencia de sus hermanos /blog/sound-system-rental/ y /blog/audio-visual-rental/, que si la tienen). Por la regla de doorway abuse, la demanda de 'near me' sobre un pilar va a una seccion de ese mismo pilar, nunca a una pagina nueva por localidad. Revise los 68 headings de los posts de la cadena (via content-inventory e inspeccion directa del .svx) y ninguno cubre el area de servicio de este pilar en especifico.",
+      "targetUrl": "/blog/audiovisual-equipment-rental-service/",
+      "file": "src/content/blog/audiovisual-equipment-rental-service.svx",
+      "headingLevel": 2,
+      "heading": "Booking and Service Area",
+      "after": "Real Specialized Equipment Setups We've Delivered",
+      "brief": "Reusar los mismos hechos ya publicados en /blog/sound-system-rental/ (seccion 'Booking and Service Area') y en /blog/audio-visual-rental/ (seccion 'Serving Malaga and the Whole Costa del Sol'): cobertura en Malaga y toda la Costa del Sol (Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas), alcance mas amplio a Sevilla, Granada, Ronda, Nerja y Antequera, el minimo de 400 euros para reservas en Granada y el aviso minimo de 24 horas para programar. No inventar ningun dato nuevo de cobertura. No agregar enlaces nuevos a otros supporting posts del silo: el pilar mantiene su unico enlace de vuelta ya existente (hacia headset-lavalier-microphone-rental, via la seccion de microfonos)."
+    },
+    {
+      "keywords": ["hire pa system near me"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 20/mo (below tier 100)",
+      "reason": "Cubierto por la FAQ 'Do you deliver sound system rental near me outside Malaga city?' y la seccion 'Booking and Service Area' de /blog/sound-system-rental/, que ya listan el area de cobertura fuera de la ciudad de Malaga (Marbella, Estepona, Fuengirola, etc.)."
+    },
+    {
+      "keywords": ["how much does it cost to rent sound equipment"],
+      "cluster": "audio visual rental",
+      "action": "add-faq",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "pregunta enlazada desde newFaqs de content-candidates (keywordId: audiovisual-equipment-rental-service), sin volumen medido",
+      "reason": "El post /blog/sound-system-rental/ ya publica el precio por paquete en la tabla 'Choosing Your Sound System by Guest Count' y en el Brief Overview, pero ninguna de sus 14 FAQ responde la pregunta de costo en ese formato directo de pregunta y respuesta. Agregar la FAQ hace explicito un precio que ya esta publicado, sin inventar ninguna cifra nueva.",
+      "targetUrl": "/blog/sound-system-rental/",
+      "file": "src/content/blog/sound-system-rental.svx",
+      "question": "How much does it cost to rent sound equipment?",
+      "brief": "Resumir la tabla ya publicada en 'Choosing Your Sound System by Guest Count': Eco Pack 290 euros (hasta 50 invitados), Basic MICE Pack 295 euros (hasta 40), Wedding Pack 650 euros (hasta 80, con tecnico incluido), MICE Pack 490 euros (hasta 120, con tecnico incluido hasta 6 horas), Product Presentation Pack 310 euros. Aclarar que todos los precios son sin IVA, con 21 por ciento anadido en el checkout. No agregar ningun precio o paquete que no este ya en esa tabla."
+    },
+    {
+      "keywords": ["what is considered audio visual equipment"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "pregunta enlazada desde newFaqs de content-candidates (keywordId: audiovisual-equipment-rental-service), sin volumen medido",
+      "reason": "Pregunta practicamente idéntica a la FAQ existente 'What is audio visual equipment?' de /blog/audio-visual-rental/, que ya define el termino con ejemplos reales del catalogo propio (altavoces PA, microfonos, proyector de 5000 lumens, pantalla LED de 60 pulgadas, barras RGBW). Una FAQ nueva solo repetiria la respuesta existente."
+    },
+    {
+      "keywords": ["where to rent sound equipment"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "pregunta enlazada desde newFaqs de content-candidates (keywordId: audiovisual-equipment-rental-service), sin volumen medido",
+      "reason": "Cubierto por la seccion 'Booking and Service Area' de /blog/sound-system-rental/, que ya dice donde entregamos (Malaga y toda la Costa del Sol) y bajo que condiciones (minimo de 24 horas, excepcion de Granada)."
+    },
+    {
+      "keywords": ["do rental cars have microphones"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "pregunta enlazada desde newFaqs de content-candidates (keywordId: audio-visual-rental-company), sin volumen medido",
+      "reason": "Pregunta sobre alquiler de autos (si los coches de alquiler traen microfono de serie), un negocio totalmente distinto al de MEG. Fuera de mercado: ni inventario propio ni servicio que MEG resuelva via proveedores para un evento."
+    },
+    {
+      "keywords": ["how much does it cost to rent a video camera"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "pregunta enlazada desde newFaqs de content-candidates (keywordId: audio-video-rental-near-me), sin volumen medido",
+      "reason": "No hay camara de video en el CSV de inventario mas reciente (.agents/context/inventario/) ni en packages.ts, y el caso no encaja con el framing de 'buscamos la solucion con nuestros proveedores' porque la intencion de busqueda es de alquiler de camara para uso general, no una necesidad de produccion de evento que MEG resuelva. Fuera de mercado."
+    },
+    {
+      "keywords": ["is there a video rental store near me"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "pregunta enlazada desde newFaqs de content-candidates (keywordId: audio-video-rental-near-me), sin volumen medido",
+      "reason": "Pregunta sobre tiendas de alquiler de peliculas/videos (negocio tipo Blockbuster), no sobre equipamiento audiovisual para eventos. Negocio distinto, fuera de mercado."
+    },
+    {
+      "keywords": ["what were the video rental stores"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "pregunta enlazada desde newFaqs de content-candidates (keywordId: audio-video-rental-near-me), sin volumen medido",
+      "reason": "Pregunta de trivia historica sobre cadenas de alquiler de videos (p. ej. Blockbuster), sin relacion con el negocio de MEG. Fuera de mercado, y MEG no tiene ninguna experiencia real que contar sobre ese tema (regla 5, Experience solo sale de posts News)."
+    },
+    {
+      "keywords": ["where to rent video equipment"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "pregunta enlazada desde newFaqs de content-candidates (keywordId: audio-video-rental-near-me), sin volumen medido",
+      "reason": "Misma intencion que cubre /blog/audio-video-rental-near-me-in-malaga-spain/, centrado en pantallas y proyectores para eventos ('Which Screen or Projector Fits Your Room', 'Costa del Sol Coverage'). No hay un hueco de contenido distinto que llenar."
+    },
+    {
+      "keywords": ["how many lumens do i need for a conference room projector"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "pregunta enlazada desde newFaqs de content-candidates (keywordId: projector-rental), sin volumen medido",
+      "reason": "Cubierto literalmente por la FAQ 'What brightness or lumens do I need for a daylit or brightly lit room?' y el H2 'Choosing a Lumens Tier for Your Room' de /blog/projector-rental/, que ya detallan el tier de 3000 lumens (Basic MICE Pack) contra el de 5000 lumens (Product Presentation Pack)."
+    },
+    {
+      "keywords": ["what cuisine is gala"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "pregunta enlazada desde newFaqs de content-candidates (keywordId: audio-visual-rental-for-gala-dinners), sin volumen medido",
+      "reason": "Pregunta sobre gastronomia de gala, no sobre equipamiento audiovisual. MEG no vende ni cataliza catering; fuera de mercado para este sitio."
+    }
+  ]
+}

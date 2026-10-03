@@ -3147,6 +3147,16 @@
               "2026-08": 20
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -3380,6 +3390,16 @@
               "2026-07": 10,
               "2026-08": 40
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -4148,6 +4168,16 @@
               "2026-07": 10,
               "2026-08": 20
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -6923,6 +6953,16 @@
               "2026-07": 20,
               "2026-08": 20
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "add-section",
+            "targetUrl": "/blog/audiovisual-equipment-rental-service/",
+            "priority": "medium"
           }
         }
       },
@@ -13588,6 +13628,16 @@
               "2026-08": 50
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -19327,6 +19377,16 @@
               "2026-08": 30
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -19576,9 +19636,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-10-02",
-          "lastSeen": "2026-10-02",
+          "lastSeen": "2026-10-03",
           "stats": {
-            "asOf": "2026-10-02",
+            "asOf": "2026-10-03",
             "action": "skip",
             "targetUrl": null,
             "priority": "medium"
@@ -24997,6 +25057,16 @@
               "2026-08": 50
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -28177,6 +28247,16 @@
               "2026-08": 20
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -29307,6 +29387,16 @@
               "2026-08": 20
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -29597,6 +29687,16 @@
               "2026-07": 20,
               "2026-08": 20
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -30857,9 +30957,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-09-29",
-          "lastSeen": "2026-10-02",
+          "lastSeen": "2026-10-03",
           "stats": {
-            "asOf": "2026-10-02",
+            "asOf": "2026-10-03",
             "action": "skip",
             "targetUrl": null,
             "priority": "medium"
@@ -30914,9 +31014,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-10-02",
-          "lastSeen": "2026-10-02",
+          "lastSeen": "2026-10-03",
           "stats": {
-            "asOf": "2026-10-02",
+            "asOf": "2026-10-03",
             "action": "skip",
             "targetUrl": null,
             "priority": "medium"
@@ -30942,9 +31042,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-09-29",
-          "lastSeen": "2026-10-02",
+          "lastSeen": "2026-10-03",
           "stats": {
-            "asOf": "2026-10-02",
+            "asOf": "2026-10-03",
             "action": "add-faq",
             "targetUrl": "/blog/sound-system-rental/",
             "priority": "medium"
@@ -32850,9 +32950,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-10-02",
-          "lastSeen": "2026-10-02",
+          "lastSeen": "2026-10-03",
           "stats": {
-            "asOf": "2026-10-02",
+            "asOf": "2026-10-03",
             "action": "skip",
             "targetUrl": null,
             "priority": "medium"
@@ -34873,6 +34973,16 @@
               "2026-08": 20
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "add-faq",
+            "targetUrl": "/blog/tv-screen-rental/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -35055,6 +35165,16 @@
               "2026-07": 40,
               "2026-08": 20
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "add-faq",
+            "targetUrl": "/blog/tv-screen-rental/",
+            "priority": "medium"
           }
         }
       },
@@ -51503,6 +51623,16 @@
               "2026-08": 20
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -52732,6 +52862,16 @@
               "2026-08": 50
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -53172,6 +53312,16 @@
               "2026-08": 40
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -53225,6 +53375,16 @@
               "2026-07": 40,
               "2026-08": 40
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -53991,6 +54151,16 @@
               "2026-08": 20
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -54456,6 +54626,16 @@
               "2026-07": 70,
               "2026-08": 50
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -55439,6 +55619,16 @@
               "2026-08": 20
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -56168,6 +56358,16 @@
               "2026-07": 40,
               "2026-08": 50
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-03",
+          "lastSeen": "2026-10-03",
+          "stats": {
+            "asOf": "2026-10-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -77380,9 +77580,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-10-02",
-          "lastSeen": "2026-10-02",
+          "lastSeen": "2026-10-03",
           "stats": {
-            "asOf": "2026-10-02",
+            "asOf": "2026-10-03",
             "action": "skip",
             "targetUrl": null,
             "priority": "medium"
@@ -77542,9 +77742,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-09-29",
-          "lastSeen": "2026-10-02",
+          "lastSeen": "2026-10-03",
           "stats": {
-            "asOf": "2026-10-02",
+            "asOf": "2026-10-03",
             "action": "skip",
             "targetUrl": null,
             "priority": "medium"
@@ -77649,9 +77849,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-10-02",
-          "lastSeen": "2026-10-02",
+          "lastSeen": "2026-10-03",
           "stats": {
-            "asOf": "2026-10-02",
+            "asOf": "2026-10-03",
             "action": "skip",
             "targetUrl": null,
             "priority": "medium"
@@ -77822,9 +78022,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-09-29",
-          "lastSeen": "2026-10-02",
+          "lastSeen": "2026-10-03",
           "stats": {
-            "asOf": "2026-10-02",
+            "asOf": "2026-10-03",
             "action": "skip",
             "targetUrl": null,
             "priority": "medium"
@@ -77850,9 +78050,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-10-02",
-          "lastSeen": "2026-10-02",
+          "lastSeen": "2026-10-03",
           "stats": {
-            "asOf": "2026-10-02",
+            "asOf": "2026-10-03",
             "action": "skip",
             "targetUrl": null,
             "priority": "medium"
