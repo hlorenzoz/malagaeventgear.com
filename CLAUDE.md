@@ -677,6 +677,17 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
     ADX212, con base K&M y pinza D-Clip). Son los únicos de cuello de ganso del inventario, así
     que el de atril del Basic MICE Pack y del MICE Pack sale de esas 4 unidades, que sirven
     tanto para atril como para mesa.
+  - **Columnas (column array) en el inventario propio (confirmado 2026-10-03 por el usuario)**: MEG
+    tiene sistemas de columnas (column array) propios, aunque el CSV `2026.09.26` no las lista (solo
+    HK Audio PR:O 12A, 12, 10-X y los subwoofers 18-S) ni `packages.ts` las nombra. Por la precedencia
+    de arriba (el CSV puede estar desactualizado), los posts que dicen que el inventario cubre sistemas
+    de columnas son correctos tal cual y no se tocan. **La marca de las columnas es HK Audio (confirmado
+    el 2026-10-03 por el usuario)**, aunque el CSV solo liste las cajas PR:O: las leyendas, los textos
+    alternativos y las frases que dicen "HK Audio column array" (6 posts, imagen `blog/1788`) son
+    correctos tal cual. **NO está confirmado el modelo ni la cantidad**: ninguna página puede dar un
+    modelo ni un número de columnas. El caso documentado de columnas con subwoofers entregadas es el
+    post `News` de Bmotion en Benahavís, en un lugar parecido a una villa (esto último lo confirmó el
+    usuario el 2026-10-03, no figura en el post).
   - **Qué hace el técnico en el evento (confirmado 2026-09-26 por el negocio)**: opera el
     sonido y los micrófonos. Las diapositivas las maneja siempre el ponente. Si durante el
     evento falla el proyector, la pantalla o una luz, el técnico lo resuelve. El cambio de

@@ -7,6 +7,14 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (docs): CLAUDE.md registra que MEG tiene columnas (column array) propias (2026-10-03)
+- **Confirmado por el usuario el 2026-10-03**: MEG tiene sistemas de columnas (column array) en su inventario propio. El verificador independiente las habia marcado como sin respaldo porque el CSV `2026.09.26` solo lista HK Audio PR:O (12A, 12, 10-X y subwoofers 18-S) y `packages.ts` solo habla de active speakers. Por la precedencia del CSV (puede estar desactualizado) los posts que dicen que el inventario cubre sistemas de columnas (15 menciones en 6 posts ingleses, mas sus traducciones) son correctos y no se tocan.
+- Nuevo punto en "Inventario real de equipamiento" de `CLAUDE.md` con la fecha y la fuente, para que escritores y verificadores no lo vuelvan a marcar.
+- **La marca de las columnas es HK Audio (confirmado por el usuario el 2026-10-03)**, aunque el CSV solo liste las cajas PR:O. Las leyendas, los textos alternativos y las frases que dicen "HK Audio column array" (6 posts, imagen `blog/1788`) son correctos y no se tocan.
+- **Sigue sin confirmar**: el modelo y la cantidad de las columnas. Ninguna pagina puede dar un modelo ni un numero de columnas.
+- Tambien se anota, confirmado por el usuario, que el evento de Bmotion en Benahavis fue en un lugar parecido a una villa (no figura en el post `News`).
+- Sin cambios de codigo ni de contenido publicado.
+
 ### Changed (blog): sound-system-rental, se quitan dos afirmaciones de proporcion sin fuente (2026-10-03)
 - Origen: el verificador independiente marco dos frases de proporcion en el texto mas viejo del post. Ninguna fuente del repo da el reparto de reservas por tipo de local, y la regla de Honestidad prohibe un especifico que el negocio no puede verificar. La tercera instancia (respuesta de la FAQ de cobertura) ya se habia corregido en `5b59eb5`.
 - Seccion "Indoor and Outdoor Sound System Rental": se quito "Most of the sound system bookings we deliver are on ..." y la clausula final "which reflects where these systems actually get used" (insinuaba frecuencia). Ahora dice "We deliver sound systems to villas, terraces and hotel ballrooms across Malaga and the Costa del Sol, indoors and outdoors alike", igual que la linea de "Real setups delivered" del propio post. Las frases de Eco Pack (villas, jardines y salas privadas) y Wedding Pack (villas, fincas y hoteles de boda) se mantienen: ambas salen del `specBody` de `packages.ts`.
