@@ -1,7 +1,118 @@
 {
 	"version": 1,
-	"updated": "2026-10-01",
+	"updated": "2026-10-03",
 	"reports": [
+		{
+			"date": "2026-10-03",
+			"kind": "competitor-keywords",
+			"status": "ok",
+			"reason": "domain_keywords returned no organic ranking data for either tracked competitor in locId 2724 (Spain, en): No organic ranking data for avhirespain.com in locId 2724. Retry without locId for global data, or with the location the target actually ranks in. (same message for sonidomalaga.com)",
+			"calls": [
+				{
+					"tool": "user_limits",
+					"outcome": "ok"
+				},
+				{
+					"tool": "list_projects",
+					"outcome": "ok"
+				},
+				{
+					"tool": "domain_keywords",
+					"outcome": "empty"
+				},
+				{
+					"tool": "domain_keywords",
+					"outcome": "empty"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "empty"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "quota"
+				},
+				{
+					"tool": "user_limits",
+					"outcome": "ok"
+				}
+			],
+			"summary": [
+				"competitor-keywords: avhirespain.com - 0 organic keywords ranking in locId 2724",
+				"competitor-keywords: sonidomalaga.com - 0 organic keywords ranking in locId 2724",
+				"No retry without locId per instructions, so no competitor rows available today"
+			],
+			"findings": [],
+			"discovered": {
+				"keywords": 0,
+				"aiPrompts": 21
+			}
+		},
+		{
+			"date": "2026-10-02",
+			"kind": "domain-keywords",
+			"status": "ok",
+			"calls": [
+				{
+					"tool": "domain_keywords",
+					"outcome": "empty"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "empty"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				},
+				{
+					"tool": "keyword_overview",
+					"outcome": "quota"
+				}
+			],
+			"summary": [
+				"domain_keywords for malagaeventgear.com returned 0 rows.",
+				"Reason given: No organic ranking data for malagaeventgear.com in locId 2724.",
+				"Call used limit 50, locId 2724 (Spain, en), per instructions not retried without locId."
+			],
+			"findings": [],
+			"discovered": {
+				"keywords": 0,
+				"aiPrompts": 59
+			}
+		},
 		{
 			"date": "2026-10-01",
 			"kind": "ai-visibility",

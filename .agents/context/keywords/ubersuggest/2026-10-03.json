@@ -1,0 +1,252 @@
+{
+  "date": "2026-10-03",
+  "run": {
+    "status": "partial",
+    "reason": "Report of the day (competitor-keywords) returned no organic ranking data for either competitor in locId 2724 (Spain, en). The 3 daily reports quota was spent on the 2 competitor domain_keywords calls plus the seed's keyword_suggestions/serp_analysis calls, so content_ideas and keyword_overview could not run.",
+    "quotaBefore": {
+      "reports": 3,
+      "content_ideas": 10,
+      "keywords": 20,
+      "keywords_per_project": 25,
+      "top_pages": 10,
+      "brands": 1,
+      "prompts_per_brand": 10,
+      "prompts_per_keyword": 10,
+      "monthly_keyword_metrics_updates_limits": 10,
+      "monthly_keyword_metrics_updates_used": 0,
+      "brand_operations_limits": 100,
+      "brand_operations_used": 0,
+      "topics_per_brand": 10,
+      "aiw_words_limits": 2000,
+      "aiw_words_used": 0
+    },
+    "quotaAfter": {
+      "reports": 3,
+      "content_ideas": 10,
+      "keywords": 20,
+      "keywords_per_project": 25,
+      "top_pages": 10,
+      "brands": 1,
+      "prompts_per_brand": 10,
+      "prompts_per_keyword": 10,
+      "monthly_keyword_metrics_updates_limits": 10,
+      "monthly_keyword_metrics_updates_used": 0,
+      "brand_operations_limits": 100,
+      "brand_operations_used": 0,
+      "topics_per_brand": 10,
+      "aiw_words_limits": 2000,
+      "aiw_words_used": 0
+    },
+    "calls": [
+      {
+        "tool": "user_limits",
+        "args": "before",
+        "outcome": "ok"
+      },
+      {
+        "tool": "list_projects",
+        "args": "",
+        "outcome": "ok"
+      },
+      {
+        "tool": "domain_keywords",
+        "args": "domain=avhirespain.com limit=30 locId=2724 lang=en",
+        "outcome": "empty"
+      },
+      {
+        "tool": "domain_keywords",
+        "args": "domain=sonidomalaga.com limit=30 locId=2724 lang=en",
+        "outcome": "empty"
+      },
+      {
+        "tool": "industry_prompts",
+        "args": "brand=Malaga Event Gear domain=malagaeventgear.com topics=[all in one wedding rental packages, audio visual rental companies, av equipment checklist for conference] locId=2724 lang=en",
+        "outcome": "ok"
+      },
+      {
+        "tool": "article_title_suggestions",
+        "args": "keyword='all in one wedding rental packages' locId=2724 lang=en",
+        "outcome": "ok"
+      },
+      {
+        "tool": "keyword_suggestions",
+        "args": "keywords=['all in one wedding rental packages'] locId=2724 lang=en",
+        "outcome": "empty"
+      },
+      {
+        "tool": "serp_analysis",
+        "args": "keyword='all in one wedding rental packages' locId=2724 lang=en limit=10",
+        "outcome": "empty"
+      },
+      {
+        "tool": "content_ideas",
+        "args": "keywords=['all in one wedding rental packages'] locId=2724 lang=en limit=5",
+        "outcome": "quota"
+      },
+      {
+        "tool": "user_limits",
+        "args": "after",
+        "outcome": "ok"
+      }
+    ],
+    "skipped": [
+      {
+        "step": "content_ideas for 'all in one wedding rental packages'",
+        "reason": "HTTP 403: You have reached the daily reports limit: 3. Quota exhausted after the 2 competitor domain_keywords calls plus keyword_suggestions and serp_analysis for the first seed."
+      },
+      {
+        "step": "keyword_overview for new promising keywords",
+        "reason": "reports quota exhausted for the day (see content_ideas error above); also no new keywords without metrics were found today to evaluate."
+      },
+      {
+        "step": "keyword_metrics (search_difficulty/search_intent) for monthlyDue",
+        "reason": "keywords-seeds reported monthlyDue: false today, so this section does not apply."
+      },
+      {
+        "step": "FAQs via Google Suggestions/PAA",
+        "reason": "No google_suggestions tool is available to this agent; FAQ discovery is the faq-researcher's job per instructions. faqs left empty."
+      },
+      {
+        "step": "retry domain_keywords for avhirespain.com/sonidomalaga.com without locId",
+        "reason": "Both calls returned 'No organic ranking data ... in locId 2724'. Instructions explicitly forbid retrying without locId after an empty report result (2026-09-30 precedent replaced Spain positions with global ones), so left as empty with no retry."
+      }
+    ]
+  },
+  "keywords": [],
+  "faqs": [],
+  "aiPrompts": [
+    {
+      "prompt": "What are the best all in one wedding rental packages available in Spain?",
+      "keyword": "all in one wedding rental packages",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "Which all in one wedding rental package offers the best value for a medium-sized wedding?",
+      "keyword": "all in one wedding rental packages",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "Can you compare all in one wedding rental packages from Malaga Event Gear with other providers in Spain?",
+      "keyword": "all in one wedding rental packages",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "Where can I find affordable all in one wedding rental packages near me in Spain?",
+      "keyword": "all in one wedding rental packages",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "What all in one wedding rental packages include decoration, seating, and catering equipment?",
+      "keyword": "all in one wedding rental packages",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "Top-rated all in one wedding rental packages for beach weddings in Spain?",
+      "keyword": "all in one wedding rental packages",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "Which all in one wedding rental package is best for a luxury wedding in Spain?",
+      "keyword": "all in one wedding rental packages",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "What’s the best AV equipment checklist for a mid-sized conference in Spain?",
+      "keyword": "av equipment checklist for conference",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "Which AV gear should I prioritize for a corporate conference setup?",
+      "keyword": "av equipment checklist for conference",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "AV equipment checklist vs rental package: What’s more cost-effective for a conference?",
+      "keyword": "av equipment checklist for conference",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "Best value AV equipment bundles for conference presentations near me in Spain",
+      "keyword": "av equipment checklist for conference",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "Where can I rent AV equipment for conferences with a complete checklist included?",
+      "keyword": "av equipment checklist for conference",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "Recommendations for AV equipment checklists that cover sound, lighting, and video for conferences",
+      "keyword": "av equipment checklist for conference",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "Top-rated AV equipment checklists tailored for conference organizers in Spain",
+      "keyword": "av equipment checklist for conference",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "What are the best audio visual rental companies in Spain for corporate events?",
+      "keyword": "audio visual rental companies",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "Which audio visual rental company offers the best value for weddings in Spain?",
+      "keyword": "audio visual rental companies",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "Top-rated audio visual rental companies near me in Spain for large conferences",
+      "keyword": "audio visual rental companies",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "Malaga Event Gear vs other audio visual rental companies in Spain: which is better?",
+      "keyword": "audio visual rental companies",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "Where can I rent high-quality audio visual equipment for a product launch in Spain?",
+      "keyword": "audio visual rental companies",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "Best audio visual rental companies in Spain with delivery and setup services",
+      "keyword": "audio visual rental companies",
+      "source": "ubersuggest-ai-prompt-ideas"
+    },
+    {
+      "prompt": "Affordable audio visual rental companies in Spain for small business presentations",
+      "keyword": "audio visual rental companies",
+      "source": "ubersuggest-ai-prompt-ideas"
+    }
+  ],
+  "research": {
+    "all in one wedding rental packages": {
+      "titleIdeas": [
+        "How to Choose an All in One Wedding Rental Package for Your Malaga Celebration",
+        "All in One Wedding Rental Packages versus Building Your Own AV Setup: Pros and Cons for Costa del Sol Weddings",
+        "Why Couples in Malaga Are Choosing All in One Wedding Rental Packages and What to Ask Before You Book"
+      ]
+    }
+  },
+  "rank": [],
+  "discarded": [],
+  "report": {
+    "kind": "competitor-keywords",
+    "status": "ok",
+    "reason": "domain_keywords returned no organic ranking data for either tracked competitor in locId 2724 (Spain, en): No organic ranking data for avhirespain.com in locId 2724. Retry without locId for global data, or with the location the target actually ranks in. (same message for sonidomalaga.com)",
+    "summary": [
+      "competitor-keywords: avhirespain.com - 0 organic keywords ranking in locId 2724",
+      "competitor-keywords: sonidomalaga.com - 0 organic keywords ranking in locId 2724",
+      "No retry without locId per instructions, so no competitor rows available today"
+    ],
+    "metrics": {
+      "avhirespain.com_results": 0,
+      "sonidomalaga.com_results": 0
+    },
+    "seoCounts": {},
+    "seo": [],
+    "rows": []
+  }
+}
