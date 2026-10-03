@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-03",
+  "taskId": "#T0036",
+  "slug": "sound-system-rental",
+  "searchTerm": "sound system rental booking and service area",
+  "status": "ok",
+  "serp": {
+    "query": "sound system rental booking service area",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://www.seattleeventrentals.com/", "title": "Seattle Event Rentals" },
+      { "rank": 2, "url": "https://www.djcwest.com/speaker-rental/", "title": "Speaker Rental - C West Entertainment" },
+      { "rank": 3, "url": "https://www.cseservices.org/items/sound-system-rental/", "title": "Sound System Rentals for Parties & Celebrations" }
+    ]
+  },
+  "terms": [
+    { "term": "Service area", "kind": "related", "seenIn": 3 },
+    { "term": "Delivery and setup", "kind": "related", "seenIn": 1 },
+    { "term": "Reservation process", "kind": "related", "seenIn": 1 },
+    { "term": "Online booking", "kind": "related", "seenIn": 1 },
+    { "term": "Rental package", "kind": "related", "seenIn": 1 },
+    { "term": "Indoor and outdoor events", "kind": "related", "seenIn": 1 },
+    { "term": "Event rentals", "kind": "related", "seenIn": 1 },
+    { "term": "Seamless setup", "kind": "related", "seenIn": 1 },
+    { "term": "Do you provide delivery and setup?", "kind": "question", "seenIn": 1 },
+    { "term": "What is the reservation process?", "kind": "question", "seenIn": 1 },
+    { "term": "How do I book a system?", "kind": "question", "seenIn": 1 },
+    { "term": "When is online booking available?", "kind": "question", "seenIn": 1 },
+    { "term": "Which geographic areas receive service?", "kind": "question", "seenIn": 1 },
+    { "term": "What is included in the rental package?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Greater Seattle Area", "reason": "place other than Spain (US service-area name)" },
+    { "term": "Harbor Avenue exit", "reason": "hyper-local US route detail, not applicable in Spain" },
+    { "term": "Phoenix metropolitan area", "reason": "place other than Spain (US service-area name)" },
+    { "term": "Northeastern Pennsylvania", "reason": "place other than Spain (US service-area name)" },
+    { "term": "Crisp clear audio", "reason": "marketing slogan, not vocabulary" }
+  ]
+}
