@@ -92,7 +92,12 @@ memory of a previous run:
    Semantic Clustering", "The Reverse Silo" and "Kyle Roof's own specifics".
 3. `.agents/context/seo/search/docs/fundamentals/creating-helpful-content.md` (in full).
 4. The other Google files in the table below, whenever a decision touches their topic.
-5. CLAUDE.md is already in your context: re-read its sections "PageOptimizer Pro (POP): reverse
+5. `.agents/context/local-seo/local-seo-gbp-first.md`, sections "FAQ to supporting page pattern",
+   "Where this source conflicts with Google" and "How MEG applies it", whenever a decision touches
+   the homepage, GBP categories or services, where a FAQ question goes and whether it deserves its
+   own post, or anything geographic. It is a practitioner source: it never overrides Google or
+   the rules in this file (no location pages, no near me variants).
+6. CLAUDE.md is already in your context: re-read its sections "PageOptimizer Pro (POP): reverse
    silo y Avalanche", "Reverse Silo del Blog", "Posicionamiento: soluciones integrales para
    eventos" and "Inventario real de equipamiento" before deciding.
 

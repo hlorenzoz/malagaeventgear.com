@@ -342,7 +342,8 @@ segunda copia deriva en silencio porque son instrucciones en prosa, no código.
   `link-building/outreach-crm-analysis.md` (2026-09-28): el diseño del CRM de outreach (flujo
   local a través de Claude con commit y push, datos personales fuera del repo público), el estado
   real de Resend (el cron de reseñas nunca envió: su worker no tiene `RESEND_API_KEY`), las
-  cuotas de Resend y las decisiones pendientes. Y `seo/`: la copia local de la documentación de
+  cuotas de Resend y las decisiones pendientes. `local-seo/`: el resumen de SEO local de Caleb
+  Ulku y sus fuentes (ver la regla 9 de "Instrucciones para agentes globales"). Y `seo/`: la copia local de la documentación de
   Google Search Central (ver "Google Search Central: leer la copia local" más abajo).
   **Sí hay export de GSC**: dos zips en
   `google-search-console-gsc/` (2026-08-06 y 2026-09-23, el más reciente con 486 consultas). Se
@@ -494,6 +495,20 @@ estas reglas POR ENCIMA de su propio texto, que es genérico para todo cliente:
    editan a mano. Tras editar un post inglés: `just post-sync <slug>`, `just post-translate-check <slug>`,
    `just post-translations-status`. Para ver el inventario: `just content-inventory`.
 8. **Todo post nuevo o modificado sale en los 13 idiomas en el mismo cambio.**
+9. **SEO local (Caleb Ulku, decisión del usuario, 2026-10-04)**: la metodología de SEO local
+   (señales de consistencia de la landing del GBP, Core 30, enlaces editoriales, FAQ que enlaza a
+   su página de soporte, rank grid y "top 3%", operación del GBP, citaciones y enlaces locales)
+   vive en `~/.agents/context/seo/local-seo-gbp-first.md` (canónica, la leen los agentes
+   globales) y en su copia del proyecto `.agents/context/local-seo/local-seo-gbp-first.md` (la
+   leen los agentes del repo, que no pueden leer fuera de él). Las dos se mantienen iguales,
+   salvo la sección "How MEG applies it" de la copia, que es el override de MEG: el blog
+   multilingüe en reverse silo se queda, sin páginas por localidad ni punto de referencia, sin
+   enlaces comprados (cámaras de comercio y patrocinios siguen la regla 4 de
+   `link-building/media-and-pr-plan.md`), el `#organization` sigue saliendo del layout, y sin
+   datos de rank grid toda decisión de "top 3%" dice que corrió sin datos. Caleb es una fuente
+   comercial (vende los enlaces que recomienda): ante un conflicto gana Google, como dice la
+   tabla "Where this source conflicts with Google" del archivo. Las transcripciones (`.srt`)
+   están en `.agents/context/local-seo/caleb-ulku/` (la variante `en-US` es la limpia).
 
 ### Cuándo NO usar estos agentes
 

@@ -1,0 +1,972 @@
+1
+00:00:00,170 --> 00:00:01,940
+Two plumbers in Houston, Texas.
+
+2
+00:00:01,980 --> 00:00:04,940
+One of them has over
+5, 000 glowing reviews.
+
+3
+00:00:04,990 --> 00:00:06,830
+The other one has 12.
+
+4
+00:00:06,920 --> 00:00:08,699
+Which one do you think
+ranks higher on Google?
+
+5
+00:00:08,829 --> 00:00:10,389
+Now, you're probably gonna be surprised.
+
+6
+00:00:10,469 --> 00:00:14,219
+The business with 12 reviews is
+in the first position, while the
+
+7
+00:00:14,219 --> 00:00:17,060
+business with 5, 000 is in the 13th.
+
+8
+00:00:17,119 --> 00:00:20,910
+Now, this is just the tip of the iceberg
+when it comes to local SEO myths.
+
+9
+00:00:21,009 --> 00:00:24,570
+I'm Caleb Ulku, and in this video,
+I'm going to break down exactly
+
+10
+00:00:24,570 --> 00:00:28,440
+what works for ranking in local
+SEO, and what's a waste of time.
+
+11
+00:00:28,654 --> 00:00:31,875
+By the end of this video, you're going
+to have a blueprint that's going to allow
+
+12
+00:00:31,875 --> 00:00:34,265
+you to rank any business in the top three.
+
+13
+00:00:34,425 --> 00:00:36,525
+Now I'm not just talking
+about theory here.
+
+14
+00:00:36,735 --> 00:00:42,394
+I started my SEO agency in 2016 and I
+built it to seven figures in three years.
+
+15
+00:00:42,455 --> 00:00:45,754
+Since then, I've helped hundreds
+of entrepreneurs build and
+
+16
+00:00:45,755 --> 00:00:48,095
+grow their own SEO agencies.
+
+17
+00:00:48,245 --> 00:00:52,175
+Now I want you to stick around because I'm
+going to share the exact chat GPT prompts
+
+18
+00:00:52,175 --> 00:00:57,945
+that my agency uses every single day for
+local SEO and the simple method we use.
+
+19
+00:00:58,205 --> 00:01:00,025
+to get our clients five star reviews.
+
+20
+00:01:00,105 --> 00:01:04,845
+Now the heart of local SEO is your
+Google business profile or GBP.
+
+21
+00:01:04,894 --> 00:01:08,925
+When there's a local search with the
+map displayed, the businesses GBP is
+
+22
+00:01:08,925 --> 00:01:11,405
+being shown, not the business's website.
+
+23
+00:01:11,695 --> 00:01:16,375
+And for those searches, roughly 60
+to 70 percent of the searchers of
+
+24
+00:01:16,375 --> 00:01:20,975
+the users are going to click or call
+one of those three featured results.
+
+25
+00:01:21,075 --> 00:01:22,295
+Now the one they choose.
+
+26
+00:01:22,540 --> 00:01:25,730
+isn't really based on their
+position, like an organic SEO.
+
+27
+00:01:25,940 --> 00:01:29,530
+It's much more a function of
+the quantity and quality of the
+
+28
+00:01:29,530 --> 00:01:31,090
+reviews those businesses have.
+
+29
+00:01:31,410 --> 00:01:35,449
+At the beginning, I mentioned two
+GBPs in Houston with massively
+
+30
+00:01:35,450 --> 00:01:36,570
+different review counts.
+
+31
+00:01:36,780 --> 00:01:38,959
+Reviews are crucial for driving calls.
+
+32
+00:01:38,999 --> 00:01:41,020
+They're just not actually that important.
+
+33
+00:01:42,015 --> 00:01:45,145
+So here's a screencap of the
+three plumbers ranked on top
+
+34
+00:01:45,155 --> 00:01:46,845
+for a search of Plumber Houston.
+
+35
+00:01:46,885 --> 00:01:48,775
+Now, which of these
+plumbers would you call?
+
+36
+00:01:48,815 --> 00:01:51,340
+The plumber with 2, 800 4.
+
+37
+00:01:51,340 --> 00:01:54,964
+7 star reviews, or this
+guy with 12 5 star reviews?
+
+38
+00:01:55,025 --> 00:01:59,544
+In our experience, ideal
+average rating is between 4.
+
+39
+00:01:59,565 --> 00:02:00,115
+stars.
+
+40
+00:02:00,305 --> 00:02:05,375
+A perfect 5 star rating doesn't do as
+well to establish trust with consumers.
+
+41
+00:02:05,455 --> 00:02:09,415
+But we don't really care about conversion
+if there isn't any traffic to begin with.
+
+42
+00:02:09,685 --> 00:02:12,894
+If the GBP you're looking at
+is ranked in the 13th position,
+
+43
+00:02:13,135 --> 00:02:15,035
+they aren't getting any calls.
+
+44
+00:02:15,085 --> 00:02:18,524
+Conversion optimization can't
+help if no one ever sees it.
+
+45
+00:02:18,565 --> 00:02:22,530
+The first page for local search
+is the top three positions, and
+
+46
+00:02:22,530 --> 00:02:24,380
+that's where you need to be.
+
+47
+00:02:24,380 --> 00:02:28,696
+Oh, I mentioned the plumber in the
+13th position with over 5, 000 4.
+
+48
+00:02:28,696 --> 00:02:29,815
+7 star reviews?
+
+49
+00:02:29,835 --> 00:02:37,465
+So let's break down what's important
+for GBP ranking and what that plumber
+
+50
+00:02:37,465 --> 00:02:39,465
+with 5, 000 reviews is doing wrong.
+
+51
+00:02:39,505 --> 00:02:41,065
+So first, category.
+
+52
+00:02:41,095 --> 00:02:42,594
+You need more than one.
+
+53
+00:02:42,655 --> 00:02:46,224
+You should be targeting three or four
+relevant categories at a minimum.
+
+54
+00:02:46,284 --> 00:02:49,944
+Here's a chat GPT prompt to help you
+come up with those secondary categories.
+
+55
+00:02:51,674 --> 00:02:53,954
+Number two, complete the GBP.
+
+56
+00:02:54,274 --> 00:02:57,945
+Every single box must be filled out.
+
+57
+00:02:58,214 --> 00:03:01,274
+Here's a quick prompt we use to
+generate a business description.
+
+58
+00:03:03,575 --> 00:03:07,224
+And three, you need to
+regularly post on the GBP.
+
+59
+00:03:07,524 --> 00:03:11,154
+You should be targeting at least
+one post every week, but you don't
+
+60
+00:03:11,155 --> 00:03:12,575
+need to do these posts manually.
+
+61
+00:03:12,644 --> 00:03:15,899
+You can use a tool, like GoHighLevel,
+to schedule these posts manually.
+
+62
+00:03:15,900 --> 00:03:21,580
+Now the GBP posts should sometimes include
+special offers, mention seasonal local
+
+63
+00:03:21,580 --> 00:03:23,480
+events, or showcase specific services.
+
+64
+00:03:23,894 --> 00:03:27,564
+Here's the chat GPT prompt that we
+use to have all these posts written.
+
+65
+00:03:27,635 --> 00:03:31,265
+Use this, generate 15 to 30
+posts, and schedule them to go
+
+66
+00:03:31,265 --> 00:03:33,404
+live once per week, at least.
+
+67
+00:03:33,724 --> 00:03:38,015
+Then, schedule them to repeat and
+delete the previous matching post.
+
+68
+00:03:38,094 --> 00:03:42,724
+This gives you instant, year round
+GVP posts done in under 20 minutes.
+
+69
+00:03:42,980 --> 00:03:44,820
+So now you're making some real progress.
+
+70
+00:03:44,820 --> 00:03:47,790
+You have a GBP with three
+to five categories and every
+
+71
+00:03:47,790 --> 00:03:48,940
+single box is completed.
+
+72
+00:03:49,150 --> 00:03:53,340
+Your GBP posts are going to be active
+and posting until the end of time.
+
+73
+00:03:53,560 --> 00:03:57,620
+So let's shift to a way to build a
+digital footprint for your business.
+
+74
+00:03:57,860 --> 00:03:58,580
+Citations.
+
+75
+00:03:59,585 --> 00:04:02,855
+Now, my team does citations manually
+because it's typically more accurate.
+
+76
+00:04:03,055 --> 00:04:04,924
+It is time consuming, but it's worth it.
+
+77
+00:04:05,215 --> 00:04:07,575
+You should do as many
+citations as you can.
+
+78
+00:04:07,805 --> 00:04:10,665
+Don't waste time analyzing
+your competitors to see how
+
+79
+00:04:10,665 --> 00:04:12,004
+many citations they have.
+
+80
+00:04:12,075 --> 00:04:13,204
+Just do all of them.
+
+81
+00:04:13,255 --> 00:04:16,304
+Creating social media accounts
+linked to the business website
+
+82
+00:04:16,344 --> 00:04:17,854
+is another type of citation.
+
+83
+00:04:18,084 --> 00:04:20,284
+You should also do all of those.
+
+84
+00:04:20,365 --> 00:04:23,075
+Now, if you don't want to do
+it yourself, and I understand
+
+85
+00:04:23,075 --> 00:04:24,525
+that, we often use IceCreamTruck.
+
+86
+00:04:25,205 --> 00:04:28,274
+shop for these citations and
+social profile creations.
+
+87
+00:04:28,610 --> 00:04:31,450
+Okay, so let's talk about schema markup.
+
+88
+00:04:31,610 --> 00:04:35,130
+This is code that helps Google's
+algorithm understand who you
+
+89
+00:04:35,130 --> 00:04:36,920
+are and what your business is.
+
+90
+00:04:37,099 --> 00:04:41,300
+For a local business, you
+need to use JSON LD format.
+
+91
+00:04:41,550 --> 00:04:43,110
+This is recommended by Google.
+
+92
+00:04:43,150 --> 00:04:48,260
+We're going to put that schema on
+exactly one URL and one URL only.
+
+93
+00:04:48,510 --> 00:04:52,030
+Do not put the schema on every
+single page of the website.
+
+94
+00:04:52,109 --> 00:04:55,969
+It only goes on the page
+that the GBP is linked to.
+
+95
+00:04:56,340 --> 00:05:01,565
+And if you don't know what JSON LDMarkup
+means or how to write it, No problem.
+
+96
+00:05:01,655 --> 00:05:03,784
+Chat, GBT will write the schema for you.
+
+97
+00:05:03,875 --> 00:05:07,715
+Now, make sure that the information
+that you put in this prompt exactly
+
+98
+00:05:07,715 --> 00:05:10,445
+matches the GBP character for character.
+
+99
+00:05:10,534 --> 00:05:13,685
+Once the schema is generated, it
+should be inserted as code into
+
+100
+00:05:13,685 --> 00:05:15,515
+the head section of the website.
+
+101
+00:05:15,544 --> 00:05:19,294
+Then you're going to want to test it with
+the Google structured data testing tool.
+
+102
+00:05:19,505 --> 00:05:20,854
+Just go to the tool.
+
+103
+00:05:20,885 --> 00:05:21,695
+You can Google it.
+
+104
+00:05:23,055 --> 00:05:27,555
+If you see any errors or warnings,
+ask ChatGPT for edits, replace the
+
+105
+00:05:27,555 --> 00:05:31,415
+code, and go again until you have
+zero errors and zero warnings.
+
+106
+00:05:31,474 --> 00:05:33,364
+Now it's time to focus on your website.
+
+107
+00:05:33,425 --> 00:05:38,425
+Google uses a blended algorithm for local
+rankings, so that means your organic
+
+108
+00:05:38,425 --> 00:05:40,985
+rankings influences your GBP ranking.
+
+109
+00:05:41,155 --> 00:05:45,145
+In other words, if your website is on
+the 8th page of organic results, forget
+
+110
+00:05:45,145 --> 00:05:47,065
+about trying to rank your GBP right now.
+
+111
+00:05:47,115 --> 00:05:49,745
+You'll need to focus on
+improving your organic ranking.
+
+112
+00:05:50,635 --> 00:05:54,645
+To do that, we want to build two
+types of relevance on your website
+
+113
+00:05:54,685 --> 00:05:56,095
+to improve the organic ranking.
+
+114
+00:05:56,255 --> 00:06:01,274
+Number one is geographic relevance,
+and number two is topical relevance.
+
+115
+00:06:01,325 --> 00:06:05,035
+The first step of this is to generate
+some ideas of what topics and
+
+116
+00:06:05,035 --> 00:06:07,084
+geographies that you want to write about.
+
+117
+00:06:07,094 --> 00:06:11,095
+So here's the prompt that we use
+with ChatGPT to help with generating
+
+118
+00:06:11,095 --> 00:06:12,915
+ideas for local businesses.
+
+119
+00:06:15,030 --> 00:06:16,879
+Now I want to tell you
+about a client of ours.
+
+120
+00:06:16,929 --> 00:06:21,189
+They used to pay over 8, 000
+per month for SEO services.
+
+121
+00:06:21,249 --> 00:06:25,409
+They were receiving over 100, 000
+clicks per month from Google search,
+
+122
+00:06:25,619 --> 00:06:27,629
+but barely any actual customers.
+
+123
+00:06:27,919 --> 00:06:30,549
+The problem, they were
+missing local relevance.
+
+124
+00:06:30,629 --> 00:06:34,269
+Here's what the local rank position
+looked like for their target keyword.
+
+125
+00:06:34,399 --> 00:06:38,780
+There's a lot of solid ranking out in Lake
+Michigan, for some reason, and very, very
+
+126
+00:06:38,780 --> 00:06:40,859
+close to their address, but not much else.
+
+127
+00:06:41,234 --> 00:06:44,594
+Remember, 4 is the first
+position on the second page.
+
+128
+00:06:44,624 --> 00:06:49,164
+Now we fix this by first optimizing
+their home page for local intent.
+
+129
+00:06:49,494 --> 00:06:52,635
+Second, creating supporting
+content for the primary keyword
+
+130
+00:06:52,655 --> 00:06:54,145
+and target neighborhoods.
+
+131
+00:06:54,244 --> 00:06:58,724
+And third, we use the people also ask
+section for additional content ideas.
+
+132
+00:06:58,885 --> 00:07:01,184
+And here's what that local
+ranking map looks like now.
+
+133
+00:07:01,265 --> 00:07:06,224
+It's a clear dramatic improvement in local
+rankings and, more importantly, in calls.
+
+134
+00:07:06,514 --> 00:07:09,844
+Now, in the description of this video,
+I'm going to put a link to join my free
+
+135
+00:07:09,844 --> 00:07:14,024
+school community where you can download a
+PDF that breaks down the exact structure
+
+136
+00:07:14,044 --> 00:07:18,664
+of the local website we used to achieve
+this local and topical relevance.
+
+137
+00:07:18,714 --> 00:07:22,655
+So I'm going to, again, use
+Plumber Houston as an example of
+
+138
+00:07:22,664 --> 00:07:26,284
+how we use the People Also Ask
+section to generate content ideas.
+
+139
+00:07:26,324 --> 00:07:28,754
+So we'll start by typing
+Plumber into Google.
+
+140
+00:07:29,025 --> 00:07:31,854
+And you'll see a People Also Ask
+section that looks a lot like this.
+
+141
+00:07:32,085 --> 00:07:35,514
+Now, you're only going to get a handful
+of questions at first, but if you click
+
+142
+00:07:35,514 --> 00:07:38,864
+on any of them, you're going to get
+more and more and more that pop up.
+
+143
+00:07:39,034 --> 00:07:39,944
+It looks like this.
+
+144
+00:07:39,994 --> 00:07:44,985
+So write an article answering each one of
+these questions, with the city name added.
+
+145
+00:07:45,224 --> 00:07:48,975
+For example, write an article,
+What does a plumber do in Houston?
+
+146
+00:07:49,355 --> 00:07:52,625
+I want you to then source a
+quality external link to every
+
+147
+00:07:52,625 --> 00:07:54,594
+new article you write and publish.
+
+148
+00:07:54,765 --> 00:07:58,205
+This is very important, as
+external links are how Google
+
+149
+00:07:58,205 --> 00:08:00,135
+knows the content is high quality.
+
+150
+00:08:00,500 --> 00:08:03,670
+Remember, Google is an
+algorithm and it can't read.
+
+151
+00:08:04,160 --> 00:08:05,420
+We use IceCreamTruck.
+
+152
+00:08:05,440 --> 00:08:08,130
+shop to source a lot
+of our external links.
+
+153
+00:08:08,710 --> 00:08:13,120
+Now Google uses math, it's an algorithm,
+to decide what content is about.
+
+154
+00:08:13,600 --> 00:08:17,859
+It wants to use user data to decide
+if the content is good or not, but if
+
+155
+00:08:17,859 --> 00:08:21,180
+it's lacking user data, for example
+if you're on the second page and
+
+156
+00:08:21,180 --> 00:08:25,210
+no one ever sees your content, it's
+going to use links from quality sites.
+
+157
+00:08:25,330 --> 00:08:28,500
+Additionally, you'll want to set up
+rank tracking for your local clients.
+
+158
+00:08:28,875 --> 00:08:32,694
+Rank tracking lets you know which
+geographies and which keywords you
+
+159
+00:08:32,694 --> 00:08:34,914
+need to produce supporting content for.
+
+160
+00:08:35,115 --> 00:08:38,224
+The best tool I found for this
+type of local rank tracking
+
+161
+00:08:38,355 --> 00:08:39,694
+is called Local Dominator.
+
+162
+00:08:39,824 --> 00:08:43,254
+I'll put a link in the description if
+you're interested in grabbing that tool.
+
+163
+00:08:43,525 --> 00:08:45,775
+It's the same one we use at my agency.
+
+164
+00:08:45,805 --> 00:08:47,944
+So at the beginning of this
+video, I promised I'd give you
+
+165
+00:08:47,944 --> 00:08:49,744
+my best way to generate reviews.
+
+166
+00:08:49,754 --> 00:08:53,464
+So first, you're going to grab the review
+link from the Google Business Profile.
+
+167
+00:08:53,629 --> 00:08:56,469
+First, log into your Google
+account, and then select the
+
+168
+00:08:56,479 --> 00:08:57,949
+business you want more reviews for.
+
+169
+00:08:57,989 --> 00:09:01,300
+Hit this down arrow here,
+and then hit, Ask for Review.
+
+170
+00:09:01,409 --> 00:09:02,599
+That's gonna give you a link.
+
+171
+00:09:02,800 --> 00:09:07,269
+Now, take that link, and ask your local
+client to text their prior customers a
+
+172
+00:09:07,269 --> 00:09:09,649
+simple message that includes that link.
+
+173
+00:09:09,749 --> 00:09:13,099
+The message should be something
+like, Hey, hope you're doing well.
+
+174
+00:09:13,179 --> 00:09:16,749
+If you are happy with our services
+at Business Name, would you mind
+
+175
+00:09:16,749 --> 00:09:18,219
+leaving us a quick review here?
+
+176
+00:09:18,564 --> 00:09:19,014
+Link.
+
+177
+00:09:19,014 --> 00:09:20,044
+Thanks for your support.
+
+178
+00:09:20,224 --> 00:09:20,844
+Owner name.
+
+179
+00:09:20,935 --> 00:09:25,324
+Now, I know this sounds super simple,
+but a text coming from the same phone
+
+180
+00:09:25,334 --> 00:09:29,264
+number the customer is already interacting
+with has a massive success rate.
+
+181
+00:09:29,564 --> 00:09:34,284
+We've seen over a 50 percent conversion
+rate in getting prior customers to leave
+
+182
+00:09:34,284 --> 00:09:39,505
+reviews versus Less than a 5 percent
+conversion rate if we use email or even
+
+183
+00:09:39,505 --> 00:09:41,515
+a text campaign from a different number.
+
+184
+00:09:41,845 --> 00:09:46,535
+This method is so powerful that at my
+agency, we actually added language in
+
+185
+00:09:46,535 --> 00:09:50,424
+our contract that the local business
+owner must send this text message out
+
+186
+00:09:50,615 --> 00:09:56,750
+to former customers regularly This
+quick, simple text, we've seen dozens
+
+187
+00:09:56,750 --> 00:09:59,200
+of reviews within weeks using this.
+
+188
+00:09:59,260 --> 00:10:03,100
+Local SEO is a powerful way for a
+business to grow in their local market.
+
+189
+00:10:03,330 --> 00:10:07,290
+Ranking in the top three across a
+city like Houston easily translates
+
+190
+00:10:07,290 --> 00:10:09,289
+into a seven figure local business.
+
+191
+00:10:09,645 --> 00:10:11,945
+Now, getting that ranking
+is straightforward.
+
+192
+00:10:11,975 --> 00:10:12,945
+It's a process.
+
+193
+00:10:12,975 --> 00:10:14,245
+It's not based on luck.
+
+194
+00:10:14,455 --> 00:10:16,225
+SEO is not a black box.
+
+195
+00:10:16,385 --> 00:10:19,545
+We just need to give Google's
+algorithm what it wants to see.
+
+196
+00:10:19,625 --> 00:10:23,065
+That's number one, optimize
+the GBP completely.
+
+197
+00:10:23,135 --> 00:10:28,005
+Number two, focus on citation and name,
+address, phone number consistency.
+
+198
+00:10:28,074 --> 00:10:30,765
+Number three, use schema markup correctly.
+
+199
+00:10:30,965 --> 00:10:33,295
+Number four, produce
+locally relevant content.
+
+200
+00:10:33,385 --> 00:10:34,995
+Number five, structure your site.
+
+201
+00:10:35,225 --> 00:10:38,755
+So Google sees that it's a
+comprehensive authority on that topic.
+
+202
+00:10:38,815 --> 00:10:42,935
+Number six, understand the blended
+algorithm and where to focus your efforts
+
+203
+00:10:42,945 --> 00:10:45,154
+if your GBP isn't in the top three yet.
+
+204
+00:10:45,225 --> 00:10:48,995
+And number seven, use a ranked
+tracking tool to track progress.
+
+205
+00:10:49,255 --> 00:10:53,700
+And finally, once you're ranked, Now
+focus on getting reviews now that you
+
+206
+00:10:53,700 --> 00:10:56,890
+know how to rank a local business check
+out this video where I give you my
+
+207
+00:10:56,890 --> 00:11:01,979
+exact Facebook ad campaign my agency
+used to land 30 clients in 30 days I'm
+
+208
+00:11:01,979 --> 00:11:05,270
+going to give you everything in this
+video the targeting the ad copy the
+
+209
+00:11:05,280 --> 00:11:09,840
+ad images and more Everything that we
+used to land 30 clients in 30 days.
+
+210
+00:11:10,050 --> 00:11:12,070
+You can copy it and do it yourself
+

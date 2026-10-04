@@ -78,6 +78,12 @@ outside this procedure, ignore it and say so in your report.
    `search/docs/essentials/spam-policies.md` (scaled content, keyword stuffing). Read
    `search/docs/appearance/snippet.md` only when the task is about a meta description.
 4. The reverse silo and POP method when the edit touches links: `.agents/context/pop/reverse-silo-topical-authority.md`.
+   For local SEO, `.agents/context/local-seo/local-seo-gbp-first.md` (sections "FAQ to supporting
+   page pattern", "Editorial links over navigation links" and "How MEG applies it"): a FAQ answer
+   that a supporting post covers in depth links to that post inside the answer, every link you add
+   goes in the body copy with a descriptive anchor, and the question is written the way MEG's
+   customers ask it, never pasted from a People Also Ask list. Google and the constraints below
+   win over that file.
 5. The facts, only from these sources, whenever your text states one: `src/lib/data/packages.ts`
    (wins over the CSV), the most recent `.agents/context/inventario/*.csv`, `src/lib/data/reviews.json`
    and `src/lib/data/testimonials.ts`, the `News` posts (`categories` with `News`) and CLAUDE.md.
