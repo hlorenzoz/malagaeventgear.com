@@ -2637,6 +2637,16 @@
               "2026-08": 0
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -3304,6 +3314,16 @@
               "2026-08": 0
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -3643,6 +3663,16 @@
               "2026-08": 0
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -3800,6 +3830,16 @@
               "2026-07": 0,
               "2026-08": 10
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -3977,6 +4017,16 @@
               "2026-07": 0,
               "2026-08": 0
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "add-faq",
+            "targetUrl": "/blog/sound-system-rental/",
+            "priority": "medium"
           }
         }
       },
@@ -4373,6 +4423,16 @@
               "2026-08": 10
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -4515,6 +4575,16 @@
               "2026-07": 10,
               "2026-08": 10
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -4682,6 +4752,16 @@
               "2026-08": 10
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -4735,6 +4815,16 @@
               "2026-07": 10,
               "2026-08": 10
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -5177,6 +5267,16 @@
               "2026-08": 10
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -5230,6 +5330,16 @@
               "2026-07": 0,
               "2026-08": 10
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -5390,6 +5500,16 @@
               "2026-08": 0
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -5508,6 +5628,16 @@
               "2026-07": 10,
               "2026-08": 10
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -19668,9 +19798,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-10-02",
-          "lastSeen": "2026-10-03",
+          "lastSeen": "2026-10-04",
           "stats": {
-            "asOf": "2026-10-03",
+            "asOf": "2026-10-04",
             "action": "skip",
             "targetUrl": null,
             "priority": "medium"
@@ -30989,9 +31119,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-09-29",
-          "lastSeen": "2026-10-03",
+          "lastSeen": "2026-10-04",
           "stats": {
-            "asOf": "2026-10-03",
+            "asOf": "2026-10-04",
             "action": "skip",
             "targetUrl": null,
             "priority": "medium"
@@ -31001,6 +31131,34 @@
       "opportunity": null,
       "opportunityReason": null,
       "firstSeen": "2026-09-29",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "how-much-does-a-wedding-planner-cost",
+      "keyword": "how much does a wedding planner cost",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-10-04",
       "lastResearched": null,
       "notes": ""
     },
@@ -31046,9 +31204,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-10-02",
-          "lastSeen": "2026-10-03",
+          "lastSeen": "2026-10-04",
           "stats": {
-            "asOf": "2026-10-03",
+            "asOf": "2026-10-04",
             "action": "skip",
             "targetUrl": null,
             "priority": "medium"
@@ -31074,9 +31232,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-09-29",
-          "lastSeen": "2026-10-03",
+          "lastSeen": "2026-10-04",
           "stats": {
-            "asOf": "2026-10-03",
+            "asOf": "2026-10-04",
             "action": "add-faq",
             "targetUrl": "/blog/sound-system-rental/",
             "priority": "medium"
@@ -32982,9 +33140,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-10-02",
-          "lastSeen": "2026-10-03",
+          "lastSeen": "2026-10-04",
           "stats": {
-            "asOf": "2026-10-03",
+            "asOf": "2026-10-04",
             "action": "skip",
             "targetUrl": null,
             "priority": "medium"
@@ -37714,6 +37872,16 @@
               "2026-08": 10
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -37898,6 +38066,16 @@
               "2026-07": 20,
               "2026-08": 30
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -45921,6 +46099,16 @@
               "2026-08": 20
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -46278,6 +46466,16 @@
               "2026-08": 20
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -46497,6 +46695,16 @@
               "2026-07": 20,
               "2026-08": 20
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -59825,6 +60033,16 @@
               "2026-08": 20
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -72722,6 +72940,16 @@
               "2026-08": 20
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-04",
+          "lastSeen": "2026-10-04",
+          "stats": {
+            "asOf": "2026-10-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -77774,9 +78002,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-09-29",
-          "lastSeen": "2026-10-03",
+          "lastSeen": "2026-10-04",
           "stats": {
-            "asOf": "2026-10-03",
+            "asOf": "2026-10-04",
             "action": "skip",
             "targetUrl": null,
             "priority": "medium"
@@ -77881,9 +78109,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-10-02",
-          "lastSeen": "2026-10-03",
+          "lastSeen": "2026-10-04",
           "stats": {
-            "asOf": "2026-10-03",
+            "asOf": "2026-10-04",
             "action": "skip",
             "targetUrl": null,
             "priority": "medium"
@@ -78054,9 +78282,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-09-29",
-          "lastSeen": "2026-10-03",
+          "lastSeen": "2026-10-04",
           "stats": {
-            "asOf": "2026-10-03",
+            "asOf": "2026-10-04",
             "action": "skip",
             "targetUrl": null,
             "priority": "medium"
@@ -78082,9 +78310,9 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-10-02",
-          "lastSeen": "2026-10-03",
+          "lastSeen": "2026-10-04",
           "stats": {
-            "asOf": "2026-10-03",
+            "asOf": "2026-10-04",
             "action": "skip",
             "targetUrl": null,
             "priority": "medium"
