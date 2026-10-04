@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-04",
+  "run": {
+    "status": "partial",
+    "reason": "google_suggestions returned data for all 10 seeds, but none of the returned phrases (suggestions, comparisons, prepositions or questions groups) started with a question word (who/what/when/where/why/how/which/can/is/are/does/do/should/will). All results were location- or category-modified phrases (e.g. 'near me', city names, 'rental company'). No qualifying question phrases were found to copy.",
+    "calls": [
+      {
+        "tool": "google_suggestions",
+        "args": "keywords=[audio visual rental, audio visual rental for art exhibitions, audio visual rental for corporate events, audio visual rental for corporate meetings, audio visual rental for outdoor events, audio visual rental for press conferences, audio visual rental for private parties, audio visual rental for religious events, audio visual rental for remote presentations, audio visual rental for seminars]; language=en; country=es",
+        "outcome": "ok"
+      }
+    ]
+  },
+  "suggestions": []
+}
