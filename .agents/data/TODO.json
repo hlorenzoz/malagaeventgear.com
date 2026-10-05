@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "tasks": [
     {
       "id": "#T0054",
@@ -394,6 +394,25 @@
         "3. (Opcional) Zaraz s.js aparece en staging sin cache TTL (7KB): revisar si se está usando; si no, desactivarlo.",
         "",
         "Verificación tras deploy + purge + toggle: npx lighthouse https://malagaeventgear.com/blog/ --only-categories=performance --form-factor=mobile -> objetivo FCP <2.5s, LCP <3s, score >=85. (nuevo.malagaeventgear.com fue dado de baja, ya no resuelve; usar producción o localhost:4173)."
+      ]
+    },
+    {
+      "id": "#T0067",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/audio-visual-rental-for-music-performances/: \"Do you provide backline for a live band?\"",
+      "anotada": "2026-10-05",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-05, ítem 4)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audio-visual-rental-for-music-performances.svx",
+        "Keywords: backline hire stage systems, backline sound system (google-ads 10/mo (below tier 100); google-ads 10/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Responder que el backline (amplificadores, bateria, teclados) no esta en nuestro inventario propio y que, si la banda lo necesita, nos cuenten que necesitan y buscamos una solucion con nuestros proveedores. Sin marca, modelo, cantidad, precio, disponibilidad ni plazo, y sin presentarlo como equipo propio. Mencionar lo que si aporta MEG: el sonido PA y la tecnica, segun el inventario CSV y packages.ts. Enlazar a la seccion DJ Set, Live Band or Duo.",
+        "Por qué: Ningun post trata backline (guitarras, bateria, teclados para una banda). Es una necesidad real en actuaciones en vivo que MEG puede resolver con proveedores, asi que encaja como FAQ en el post de musica en vivo, sin post nuevo (Goldilocks, demasiado estrecho).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
@@ -1438,6 +1457,26 @@
         "Añade full support para PWA",
         "",
         "Crea un PWA Installer (widget) que va a salir debajo del widget de WhatsApp y encima de la Cookie bar, pero solamente 3 segundos luego que el usuario haya hecho scroll below the fold (debajo de la sección header)."
+      ]
+    },
+    {
+      "id": "#T0068",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-05",
+      "anotada": "2026-10-05",
+      "hecha": "2026-10-05",
+      "origen": "content-strategist (plan 2026-10-05, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "audio video equipment rental near me (Variantes near me de un intent ya servido por /blog/audio-video-rental-near-me-in-malaga-spain/ y su seccion de cobertura (Costa del Sol Coverage, Not Just Malaga City). Otra pagina o seccion seria Doorway abuse (spam-policies.md).)",
+        "av rental pricing (Mismo intent que el pilar. Precios cubiertos en /blog/audio-visual-rental/ (FAQ \"How much does audio visual rental cost in Malaga?\") y /blog/benefits-of-audio-visual-rental/ (heading \"The Real Cost Comparison\"). Un heading nuevo solo repetiria lo existente.)",
+        "audio visual hire ltd (Busquedas de nombre de empresa concreta (una Ltd britanica y una empresa de Las Vegas). Fuera de mercado y sin intent propio para MEG. Ver creating-helpful-content.md.)",
+        "battery powered pa system hire (Cubierto en /blog/sound-system-rental/, FAQ \"Do you offer a portable, battery powered or self collect PA system?\" (responde que no esta en inventario).)",
+        "big screen hire (Cubierto en /blog/tv-screen-rental/ (headings \"What We Don't Stock: LED Video Walls and Modular LED Panels\", FAQs de tamanos y \"Can Malaga Event Gear source an LED video wall through a supplier?\") y /blog/projector-rental/ (\"What's the largest screen size available?\").)",
+        "backyard movie screen rental (Cubierto en /blog/audio-visual-rental-for-outdoor-events/, FAQ \"Do you rent an inflatable movie screen for an outdoor event?\" y en projector-rental para pantallas de proyeccion.)"
       ]
     },
     {
