@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-05",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 20,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "todo": [],
+  "items": [
+    {
+      "keywords": ["audio video equipment rental near me", "audio video rentals near me", "audio visual equipment hire near me"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100); google-ads 10/mo (below tier 100); google-ads 10/mo (below tier 100)",
+      "reason": "Variantes near me de un intent ya servido por /blog/audio-video-rental-near-me-in-malaga-spain/ y su seccion de cobertura (Costa del Sol Coverage, Not Just Malaga City). Otra pagina o seccion seria Doorway abuse (spam-policies.md)."
+    },
+    {
+      "keywords": ["av rental pricing", "av rental solutions", "av system hire"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100); google-ads 10/mo (below tier 100); google-ads 10/mo (below tier 100)",
+      "reason": "Mismo intent que el pilar. Precios cubiertos en /blog/audio-visual-rental/ (FAQ \"How much does audio visual rental cost in Malaga?\") y /blog/benefits-of-audio-visual-rental/ (heading \"The Real Cost Comparison\"). Un heading nuevo solo repetiria lo existente."
+    },
+    {
+      "keywords": ["audio visual hire ltd", "av vegas audio video lighting backline & stage rental"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100); google-ads 10/mo (below tier 100)",
+      "reason": "Busquedas de nombre de empresa concreta (una Ltd britanica y una empresa de Las Vegas). Fuera de mercado y sin intent propio para MEG. Ver creating-helpful-content.md."
+    },
+    {
+      "keywords": ["backline hire stage systems", "backline sound system"],
+      "cluster": "audio visual rental",
+      "action": "add-faq",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100); google-ads 10/mo (below tier 100)",
+      "reason": "Ningun post trata backline (guitarras, bateria, teclados para una banda). Es una necesidad real en actuaciones en vivo que MEG puede resolver con proveedores, asi que encaja como FAQ en el post de musica en vivo, sin post nuevo (Goldilocks, demasiado estrecho).",
+      "targetUrl": "/blog/audio-visual-rental-for-music-performances/",
+      "file": "src/content/blog/audio-visual-rental-for-music-performances.svx",
+      "question": "Do you provide backline for a live band?",
+      "brief": "Responder que el backline (amplificadores, bateria, teclados) no esta en nuestro inventario propio y que, si la banda lo necesita, nos cuenten que necesitan y buscamos una solucion con nuestros proveedores. Sin marca, modelo, cantidad, precio, disponibilidad ni plazo, y sin presentarlo como equipo propio. Mencionar lo que si aporta MEG: el sonido PA y la tecnica, segun el inventario CSV y packages.ts. Enlazar a la seccion DJ Set, Live Band or Duo."
+    },
+    {
+      "keywords": ["battery powered pa system hire", "battery powered pa system rental", "battery powered sound system rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100); google-ads 10/mo (below tier 100); google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto en /blog/sound-system-rental/, FAQ \"Do you offer a portable, battery powered or self collect PA system?\" (responde que no esta en inventario)."
+    },
+    {
+      "keywords": ["big screen hire", "big screens for hire", "big screen hire events", "big led screen rental", "big screen and projector rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100); google-ads 10/mo (below tier 100); google-ads 10/mo (below tier 100); google-ads 10/mo (below tier 100); google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto en /blog/tv-screen-rental/ (headings \"What We Don't Stock: LED Video Walls and Modular LED Panels\", FAQs de tamanos y \"Can Malaga Event Gear source an LED video wall through a supplier?\") y /blog/projector-rental/ (\"What's the largest screen size available?\")."
+    },
+    {
+      "keywords": ["backyard movie screen rental", "big movie screen rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100); google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto en /blog/audio-visual-rental-for-outdoor-events/, FAQ \"Do you rent an inflatable movie screen for an outdoor event?\" y en projector-rental para pantallas de proyeccion."
+    }
+  ]
+}

@@ -5823,6 +5823,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -6258,6 +6268,16 @@
               "2026-07": 10,
               "2026-08": 10
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -6805,6 +6825,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -7681,6 +7711,16 @@
               "2026-07": 0,
               "2026-08": 0
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
           }
         }
       },
@@ -11587,6 +11627,16 @@
               "2026-08": 10
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -11723,6 +11773,16 @@
               "2026-07": 10,
               "2026-08": 0
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -11995,6 +12055,16 @@
               "2026-07": 0,
               "2026-08": 0
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -12336,6 +12406,16 @@
               "2026-08": 10
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": "low",
@@ -12463,6 +12543,16 @@
               "2026-08": 10
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "add-faq",
+            "targetUrl": "/blog/audio-visual-rental-for-music-performances/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -12516,6 +12606,16 @@
               "2026-07": 10,
               "2026-08": 10
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "add-faq",
+            "targetUrl": "/blog/audio-visual-rental-for-music-performances/",
+            "priority": "medium"
           }
         }
       },
@@ -12624,6 +12724,16 @@
               "2026-07": 10,
               "2026-08": 10
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -12775,6 +12885,16 @@
               "2026-08": 0
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -12829,6 +12949,16 @@
               "2026-08": 10
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -12882,6 +13012,16 @@
               "2026-07": 10,
               "2026-08": 10
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -13400,6 +13540,16 @@
               "2026-08": 0
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -13454,6 +13604,16 @@
               "2026-08": 10
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -13507,6 +13667,16 @@
               "2026-07": 10,
               "2026-08": 10
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -13591,6 +13761,16 @@
               "2026-08": 20
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -13644,6 +13824,16 @@
               "2026-07": 0,
               "2026-08": 0
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -13924,6 +14114,16 @@
               "2026-07": 10,
               "2026-08": 0
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-05",
+          "lastSeen": "2026-10-05",
+          "stats": {
+            "asOf": "2026-10-05",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
