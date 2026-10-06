@@ -26,3 +26,33 @@
 2026-10-03 08:10 | demanda | todo-commit | commit | hash=072b761 subject="chore(todo): close #T0036 sound-system-rental" file=.agents/data/TODO.json
 2026-10-03 08:11 | demanda | todo-implementer | task-done | task=#T0036 hecha=2026-10-03 titulo="Nueva sección H2 en /blog/sound-system-rental/: 'Booking and Service Area'"
 2026-10-03 08:11 | demanda | todo-implementer | run-end | is_error=false exit=0 cost_usd=6.96 minutes=23.7 turns=35 subtype=success commits=f72bfd8,8abb1ff,a84054e,072b761
+2026-10-03 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-03 09:33 | auto | ubersuggest-analyst | commit | hash=4a5a41c subject="chore(keywords): daily Ubersuggest research 2026-10-03" file=.agents/context/keywords/ubersuggest/2026-10-03.json
+2026-10-03 09:33 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-03.json keywords=0 faqs=0 ai_prompts=21 discarded=0 status=partial minutes=3.5
+2026-10-03 09:35 | auto | faq-researcher | commit | hash=f422ff6 subject="chore(keywords): daily FAQ research 2026-10-03" file=.agents/context/keywords/faqs/2026-10-03.json
+2026-10-03 09:35 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-03.json suggestions=0 status=partial minutes=2.1
+2026-10-03 09:43 | auto | content-strategist | commit | hash=20e8958 subject="chore(keywords): daily content plan 2026-10-03" file=.agents/context/keywords/content-plan/2026-10-03.json
+2026-10-03 09:44 | auto | todo-commit | commit | hash=e89637e subject="chore(todo): add tasks from the content plan 2026-10-03" file=.agents/data/TODO.json
+2026-10-03 09:44 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-03.json items=21 add-section=1 new-post=0 add-faq=2 skip=18 minutes=8.4
+2026-10-03 09:44 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-03 09:44 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=14.0
+2026-10-04 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-04 09:36 | auto | ubersuggest-analyst | commit | hash=d4c6ae9 subject="chore(keywords): daily Ubersuggest research 2026-10-04" file=.agents/context/keywords/ubersuggest/2026-10-04.json
+2026-10-04 09:36 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-04.json keywords=21 faqs=0 ai_prompts=59 discarded=1 status=partial minutes=5.9
+2026-10-04 09:39 | auto | faq-researcher | commit | hash=1457f88 subject="chore(keywords): daily FAQ research 2026-10-04" file=.agents/context/keywords/faqs/2026-10-04.json
+2026-10-04 09:39 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-04.json suggestions=0 status=partial minutes=2.4
+2026-10-04 09:44 | auto | content-strategist | commit | hash=e18b800 subject="chore(keywords): daily content plan 2026-10-04" file=.agents/context/keywords/content-plan/2026-10-04.json
+2026-10-04 09:44 | auto | todo-commit | commit | hash=f0f2c51 subject="chore(todo): add tasks from the content plan 2026-10-04" file=.agents/data/TODO.json
+2026-10-04 09:44 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-04.json items=19 add-section=0 new-post=0 add-faq=1 skip=18 minutes=5.6
+2026-10-04 09:44 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-04 09:44 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=13.9
+2026-10-05 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-05 09:31 | auto | ubersuggest-analyst | commit | hash=d84e4d9 subject="chore(keywords): daily Ubersuggest research 2026-10-05" file=.agents/context/keywords/ubersuggest/2026-10-05.json
+2026-10-05 09:31 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-05.json keywords=1 faqs=0 ai_prompts=53 discarded=2 status=partial minutes=1.7
+2026-10-05 09:33 | auto | faq-researcher | commit | hash=4f91cfa subject="chore(keywords): daily FAQ research 2026-10-05" file=.agents/context/keywords/faqs/2026-10-05.json
+2026-10-05 09:33 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-05.json suggestions=0 status=partial minutes=1.3
+2026-10-05 09:33 | auto | content-strategist | commit | hash=9f3b81b subject="chore(keywords): daily content plan 2026-10-05" file=.agents/context/keywords/content-plan/2026-10-05.json
+2026-10-05 09:33 | auto | todo-commit | commit | hash=f87b343 subject="chore(todo): add tasks from the content plan 2026-10-05" file=.agents/data/TODO.json
+2026-10-05 09:34 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-05.json items=7 add-section=0 new-post=0 add-faq=1 skip=6 minutes=1.0
+2026-10-05 09:34 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-05 09:34 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=3.9
