@@ -29,7 +29,7 @@ esas tres categorias tiene sentido real para el negocio antes de darlas de alta.
 
 ## Categoria primaria
 
-**Audio visual equipment hire service**
+**Audio visual equipment hire service** | 480
 
 Es el core de lo que el negocio ES, no solo lo que hace. Lleva el mayor peso de ranking, por eso
 concentro aca los servicios de alquiler de equipo AV puro (sonido, video, iluminacion basica,
@@ -86,7 +86,7 @@ permanente.
 
 ---
 
-## Categoria secundaria: Audiovisual equipment rental service
+## Categoria secundaria: Audiovisual equipment rental service | 3,6k
 
 Casi duplicada de la primaria en concepto, pero Google la trata como categoria distinta. Para
 que sume cobertura en vez de canibalizar la primaria, la reservo para variantes de equipo que la
@@ -114,7 +114,7 @@ primaria no cubrio (evita listar el mismo servicio dos veces).
 
 ---
 
-## Categoria secundaria: Event technology service
+## Categoria secundaria: Event technology service | 2,4k
 
 Distinta de las dos anteriores porque cubre software y tecnologia de gestion de eventos, no el
 hardware en si. Buen intent match para busquedas de "solucion" mas que de "alquiler de equipo".
@@ -168,7 +168,7 @@ hardware en si. Buen intent match para busquedas de "solucion" mas que de "alqui
 
 ---
 
-## Categoria secundaria: Audio visual equipment supplier
+## Categoria secundaria: Audio visual equipment supplier | 14,8k
 
 (Fusiono aca "Audio-visual equipment supplier": son la misma categoria con distinta grafia, ver
 nota previa). Reservada para instalacion, mantenimiento, venta y soluciones tecnicas mas
@@ -220,7 +220,7 @@ supplier evita partir en dos el mismo producto (cartel digital) segun si es inst
 
 ---
 
-## Categoria secundaria: Audio visual consultant
+## Categoria secundaria: Audio visual consultant | 6,6k
 
 Diseno, integracion y consultoria tecnica de sistemas AV. Se diferencia de "supplier" en que ahi
 vendes/instalas producto, y aca vendes criterio tecnico y diseno de sistema.
@@ -273,7 +273,7 @@ vendes/instalas producto, y aca vendes criterio tecnico y diseno de sistema.
 
 ---
 
-## Categoria secundaria: Stage lighting equipment supplier
+## Categoria secundaria: Stage lighting equipment supplier | 1,6k
 
 Todo lo que es iluminacion de escenario/evento en si (equipo y diseno tecnico de iluminacion),
 distinto de "Lighting consultant" que es consultoria de iluminacion general (residencial,
@@ -333,7 +333,7 @@ comercial, arquitectonica).
 
 ---
 
-## Categoria secundaria (con reserva): Lighting consultant
+## Categoria secundaria (con reserva): Lighting consultant | 3,6k
 
 De los ~50 servicios que trae esta categoria en el finder, la gran mayoria son de diseno de
 iluminacion residencial/comercial/arquitectonica (museos, hospitales, retail, oficinas), que no es
@@ -341,6 +341,7 @@ lo que hace un alquiler de equipo AV para eventos. Asigno solo los que tienen in
 El resto queda listado abajo como fuera de alcance del negocio, no como error de categorizacion.
 
 Con encaje real para el negocio:
+
 - Event lighting consultation
 - Theatrical lighting consultation
 - Custom lighting design
@@ -364,18 +365,18 @@ Estas tres categorias son reales y Google las soporta, pero los servicios que tr
 ellas son mayormente de otro rubro. No estoy inventando categorias alternativas, solo marcando
 que su lista de servicios no aplica a un alquiler de equipo AV para eventos:
 
-**Equipment rental agency**
+**Equipment rental agency** | 12,1k
 De ~50 servicios, solo estos tienen relacion con eventos: Event equipment rental, Tent rental, PA
 system rental (duplicado, ya esta en primaria), Lighting tower rental, Generator rental, Portable
 restroom rental. El resto (excavadoras, montacargas, compactadoras, motosierras) es maquinaria de
 construccion, sin relacion con el negocio.
 
-**Equipment supplier**
+**Equipment supplier** | 8,1k
 Igual patron: de ~50 servicios, solo "Audio visual equipment rental" (ya cubierto en primaria) y
 "Lighting equipment supplier" (ya listado arriba en Stage lighting equipment supplier) tienen
 relacion. El resto es equipamiento industrial, medico, de laboratorio, gastronomico, etc.
 
-**Costume rental service / Costume hire service**
+**Costume rental service** | 8,1k / **Costume hire service** | 110
 Categoria completa fuera del rubro AV. Si Malaga Event Gear efectivamente alquila vestuario o
 disfraces para eventos tematicos, avisame y te armo el listado completo desde aca (el finder trae
 ~50 servicios de disfraces). Si no, te recomiendo no dar de alta esta categoria: diluye la
@@ -383,13 +384,14 @@ relevancia tematica del perfil en lugar de sumarla.
 
 ---
 
-## Categoria secundaria (revision recomendada): Party equipment rental service
+## Categoria secundaria (revision recomendada): Party equipment rental service | 18,1k
 
 Mezcla servicios de eventos generales (mobiliario, catering, inflables) que Malaga Event Gear
 probablemente no ofrece si el posicionamiento actual es AV puro. Separo lo que tiene overlap
 directo con AV/staging de lo que es puramente mobiliario/catering de fiesta:
 
 Con relacion directa al negocio AV/staging:
+
 - Party lighting rental (duplicado conceptual con Stage lighting rental, decidi cual mantener)
 - Dance floor rentals
 - Bar rental (si arman barra tecnica/DJ)
@@ -411,11 +413,7 @@ necesario es de alcance de negocio, ya marcado arriba, no de categoria inexisten
 
 ## Resumen de categoria primaria vs secundarias
 
-- Primaria: **Audio visual equipment hire service**
-- Secundarias fuertes (alta relacion con el negocio): Audiovisual equipment rental service, Event
-  technology service, Audio visual equipment supplier, Audio visual consultant, Stage lighting
-  equipment supplier
-- Secundarias con reserva (confirmar con el negocio real): Lighting consultant (parcial), Party
-  equipment rental service (parcial)
-- No recomendadas sin confirmacion explicita: Equipment rental agency, Equipment supplier,
-  Costume rental service / Costume hire service
+- Primaria: **Audio visual equipment hire service** | 480
+- Secundarias fuertes (alta relacion con el negocio): Audiovisual equipment rental service | 3,6k, Event technology service | 2,4k, Audio visual equipment supplier | 14,8k, Audio visual consultant | 6,6k, Stage lighting equipment supplier | 1,6k
+- Secundarias con reserva (confirmar con el negocio real): Lighting consultant | 3,6k (parcial), Party equipment rental service | 18,1k (parcial)
+- No recomendadas sin confirmacion explicita: Equipment rental agency | 12,1k, Equipment supplier | 8,1k, Costume rental service | 8,1k / Costume hire service | 110
