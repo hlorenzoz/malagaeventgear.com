@@ -3,57 +3,6 @@
   "updated": "2026-10-07",
   "tasks": [
     {
-      "id": "#T0054",
-      "estado": "en curso",
-      "prioridad": "alta",
-      "tipo": "visibilidad-ia",
-      "titulo": "IA: no aparecemos en \"Which company rents PA speakers and wireless microphones for a wedding on the Costa del Sol?\"",
-      "anotada": "2026-10-01",
-      "hecha": null,
-      "origen": "ubersuggest (ai-visibility, which-company-rents-pa-speakers-and-wireless-microphones-for-a-wedding-on-the-costa-del-sol)",
-      "notas": [
-        "bloqueada hasta terminar las traducciones de todos los posts"
-      ],
-      "descripcion": [
-        "Marcas que si aparecen: Promusic Marbella, AEA Sound System Rent Marbella, Sonido e Iluminacion Pro-Sound, Nerja Sound & Lighting, Marbel...",
-        "Reporte ai-visibility de ubersuggest del 2026-10-01."
-      ]
-    },
-    {
-      "id": "#T0055",
-      "estado": "en curso",
-      "prioridad": "alta",
-      "tipo": "visibilidad-ia",
-      "titulo": "IA: no aparecemos en \"Who rents TV screens for exhibitor stands at a trade fair in Malaga?\"",
-      "anotada": "2026-10-01",
-      "hecha": null,
-      "origen": "ubersuggest (ai-visibility, who-rents-tv-screens-for-exhibitor-stands-at-a-trade-fair-in-malaga)",
-      "notas": [
-        "bloqueada hasta terminar las traducciones de todos los posts"
-      ],
-      "descripcion": [
-        "Marcas que si aparecen: ninguna",
-        "Reporte ai-visibility de ubersuggest del 2026-10-01."
-      ]
-    },
-    {
-      "id": "#T0056",
-      "estado": "en curso",
-      "prioridad": "alta",
-      "tipo": "visibilidad-ia",
-      "titulo": "IA: no aparecemos en \"Which company provides sound and lighting hire for weddings in Marbella?\"",
-      "anotada": "2026-10-01",
-      "hecha": null,
-      "origen": "ubersuggest (ai-visibility, which-company-provides-sound-and-lighting-hire-for-weddings-in-marbella)",
-      "notas": [
-        "bloqueada hasta terminar las traducciones de todos los posts"
-      ],
-      "descripcion": [
-        "Marcas que si aparecen: ninguna",
-        "Reporte ai-visibility de ubersuggest del 2026-10-01."
-      ]
-    },
-    {
       "id": "#T0047",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -1410,6 +1359,68 @@
         "Qué cubrir: Responder con los precios reales de packages.ts por nivel (Eco Pack, Wedding Pack, Product Presentation Pack, Basic MICE Pack, MICE Pack segun corresponda a 'solo sonido'), remitiendo a /packages/ para el detalle completo, sin inventar una cifra que no este en ese archivo. Aclarar que el precio depende del aforo y de si se necesita tecnico, ya como lo hacen otros posts del silo (por ejemplo la seccion 'Choosing Your Sound System by Guest Count' del propio post). No repetir el FAQ ya existente sobre PA vs sonido general.",
         "Por qué: Revise las 13 preguntas de FAQ de /blog/sound-system-rental/ completas: cubre PA vs DJ, generador, microfonos, mezcladora, pero ninguna pregunta de precio, a diferencia de casi todos los demas posts del silo (que si tienen 'How much does audio visual rental cost for...'). Es un hueco real de contenido en la pagina mas natural para esta pregunta exacta ('sound equipment'), no solo una keyword con volumen: alguien que llega a esta pagina especifica razonablemente espera ver el precio. Prioridad media: sin volumen medido (unknown), viene de newFaqs sin dato de busquedas.",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0054",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "visibilidad-ia",
+      "titulo": "IA: no aparecemos en \"Which company rents PA speakers and wireless microphones for a wedding on the Costa del Sol?\"",
+      "anotada": "2026-10-01",
+      "hecha": "2026-10-07",
+      "origen": "ubersuggest (ai-visibility, which-company-rents-pa-speakers-and-wireless-microphones-for-a-wedding-on-the-costa-del-sol)",
+      "notas": [
+        "bloqueada hasta terminar las traducciones de todos los posts",
+        "2026-10-07 FAQ 'Can I rent PA speakers and wireless microphones for a wedding on the Costa del Sol?' en wedding-rentals",
+        "13 idiomas (commit f72325d3)",
+        "junto con #T0056. Verificador PASS. zh-tw ajustado a terminos de Taiwan (c2bc8a09)"
+      ],
+      "descripcion": [
+        "Marcas que si aparecen: Promusic Marbella, AEA Sound System Rent Marbella, Sonido e Iluminacion Pro-Sound, Nerja Sound & Lighting, Marbel...",
+        "Reporte ai-visibility de ubersuggest del 2026-10-01."
+      ]
+    },
+    {
+      "id": "#T0055",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "visibilidad-ia",
+      "titulo": "IA: no aparecemos en \"Who rents TV screens for exhibitor stands at a trade fair in Malaga?\"",
+      "anotada": "2026-10-01",
+      "hecha": "2026-10-07",
+      "origen": "ubersuggest (ai-visibility, who-rents-tv-screens-for-exhibitor-stands-at-a-trade-fair-in-malaga)",
+      "notas": [
+        "bloqueada hasta terminar las traducciones de todos los posts",
+        "2026-10-07 FAQ 'Can you supply TV screens for an exhibitor stand at a trade show in Malaga?' en audio-visual-rental-for-trade-shows",
+        "13 idiomas (commit 6aae6055)",
+        "enlazada a la News de ECOC. Verificador PASS. Opcional: decir 'a different size of TV screen' para no sugerir que cubre pantallas de proyeccion. Medir efecto: repetir el reporte ai-visibility de Ubersuggest en unas semanas (una sola foto",
+        "un solo motor)"
+      ],
+      "descripcion": [
+        "Marcas que si aparecen: ninguna",
+        "Reporte ai-visibility de ubersuggest del 2026-10-01."
+      ]
+    },
+    {
+      "id": "#T0056",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "visibilidad-ia",
+      "titulo": "IA: no aparecemos en \"Which company provides sound and lighting hire for weddings in Marbella?\"",
+      "anotada": "2026-10-01",
+      "hecha": "2026-10-07",
+      "origen": "ubersuggest (ai-visibility, which-company-provides-sound-and-lighting-hire-for-weddings-in-marbella)",
+      "notas": [
+        "bloqueada hasta terminar las traducciones de todos los posts",
+        "2026-10-07 FAQ 'Do you provide sound and lighting hire for weddings in Marbella?' en wedding-rentals",
+        "13 idiomas (commit f72325d3)",
+        "con la luz descrita con honestidad (sin cabezas moviles",
+        "DMX ni rig). Sin pagina por localidad (doorway abuse). Verificador PASS"
+      ],
+      "descripcion": [
+        "Marcas que si aparecen: ninguna",
+        "Reporte ai-visibility de ubersuggest del 2026-10-01."
       ]
     },
     {
