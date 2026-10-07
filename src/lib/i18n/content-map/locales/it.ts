@@ -427,6 +427,11 @@ export default {
 			slug: 'noleggiare-audiovisivi-a-malaga-mi-ha-insegnato-a-fare-impresa',
 			keyword: 'noleggiare audiovisivi a Malaga mi ha insegnato a fare impresa',
 			status: 'propuesta'
+		},
+		'outdoor-movie-screen-and-projector-rental': {
+			slug: 'noleggio-schermo-cinema-allaperto-malaga',
+			keyword: "noleggio schermo per cinema all'aperto a Malaga",
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

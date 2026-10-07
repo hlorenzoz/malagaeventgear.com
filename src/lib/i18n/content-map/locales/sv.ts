@@ -427,6 +427,11 @@ export default {
 			slug: 'vad-av-uthyrning-i-malaga-har-lart-mig-om-smart-foretagande',
 			keyword: 'vad AV-uthyrning i Malaga har lärt mig om smart företagande',
 			status: 'propuesta'
+		},
+		'outdoor-movie-screen-and-projector-rental': {
+			slug: 'uthyrning-duk-utomhusbio-malaga',
+			keyword: 'uthyrning av duk för utomhusbio i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

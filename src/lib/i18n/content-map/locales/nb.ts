@@ -435,6 +435,11 @@ export default {
 			slug: 'hva-av-utleien-i-malaga-har-laert-meg-om-smart-forretningsdrift',
 			keyword: 'hva AV-utleien i Malaga har lært meg om smart forretningsdrift',
 			status: 'propuesta'
+		},
+		'outdoor-movie-screen-and-projector-rental': {
+			slug: 'utleie-lerret-utendorskino-malaga',
+			keyword: 'utleie av lerret til utendørskino i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

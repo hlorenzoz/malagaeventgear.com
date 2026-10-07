@@ -431,6 +431,11 @@ export default {
 			slug: 'ce-que-louer-audiovisuel-a-malaga-appris-sur-le-business',
 			keyword: "ce que louer de l'audiovisuel à Malaga m'a appris sur le business",
 			status: 'propuesta'
+		},
+		'outdoor-movie-screen-and-projector-rental': {
+			slug: 'location-ecran-cinema-plein-air-malaga',
+			keyword: "location d'écran de cinéma en plein air à Malaga",
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

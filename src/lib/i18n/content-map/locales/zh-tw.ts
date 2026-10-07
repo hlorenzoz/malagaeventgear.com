@@ -411,6 +411,11 @@ export default {
 			slug: '影音租賃生意經',
 			keyword: '我在馬拉加做影音租賃學到的精明生意經',
 			status: 'propuesta'
+		},
+		'outdoor-movie-screen-and-projector-rental': {
+			slug: '戶外電影螢幕租賃',
+			keyword: '馬拉加 戶外電影螢幕租賃',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

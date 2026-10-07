@@ -463,6 +463,11 @@ export default {
 			slug: 'o-que-o-aluguel-audiovisual-em-malaga-me-ensinou-sobre-negocios',
 			keyword: 'o que o aluguel audiovisual em Málaga me ensinou sobre negócios',
 			status: 'propuesta'
+		},
+		'outdoor-movie-screen-and-projector-rental': {
+			slug: 'aluguel-de-tela-de-cinema-ao-ar-livre-malaga',
+			keyword: 'aluguel de tela de cinema ao ar livre em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

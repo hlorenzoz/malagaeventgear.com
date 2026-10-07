@@ -431,6 +431,11 @@ export default {
 			slug: 'was-mich-die-av-vermietung-in-malaga-ueber-geschaeftssinn-lehrte',
 			keyword: 'was mich die AV-Vermietung in Malaga über Geschäftssinn lehrte',
 			status: 'propuesta'
+		},
+		'outdoor-movie-screen-and-projector-rental': {
+			slug: 'freiluftkino-leinwand-mieten-malaga',
+			keyword: 'Freiluftkino-Leinwand mieten in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -431,6 +431,11 @@ export default {
 			slug: 'wat-audiovisuele-verhuur-in-malaga-me-leerde-over-slim-ondernemen',
 			keyword: 'wat audiovisuele verhuur in Malaga me leerde over slim ondernemen',
 			status: 'propuesta'
+		},
+		'outdoor-movie-screen-and-projector-rental': {
+			slug: 'openluchtbioscoopscherm-huren-malaga',
+			keyword: 'openluchtbioscoopscherm huren in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
