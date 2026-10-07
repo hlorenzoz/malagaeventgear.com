@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): timeline-for-booking-wedding-rentals, mencion editorial del partner Top Group Express en "Booking and Service Area" (2026-10-07)
+- Tarea #T0034 (mencion de TGE, post 2 de 4, pedido directo del orquestador).
+- Se agrego un parrafo corto al final de la seccion "Booking and Service Area" de `src/content/blog/timeline-for-booking-wedding-rentals.svx`: en una boda de destino en la Costa del Sol, las habitaciones de los invitados que llegan de fuera se planifican con la misma antelacion que el sonido. Aclara que el alojamiento no es servicio de MEG (solo equipo audiovisual). Un solo enlace a `https://topgroupexpress.com/en` con el ancla "hotel rooms for wedding guests" (distinta de las de los otros 3 posts). Enlace editorial normal, sin `rel="sponsored"` (partners, sin comision). Solo "years of experience", sin anos ni cifras de TGE, dirigido a quien organiza el viaje del grupo (wedding planners, agencias, DMC), sin prometer reserva directa a la pareja. Sin encabezado nuevo.
+- `updatedDate` paso a 2026-10-07 via `just post-sync`; `post-faqs.json` y `post-toc.json` regenerados.
+- Las 12 traducciones quedan stale y se actualizan en el mismo cambio.
+
 ### Changed (blog): event-technology-service, mencion editorial del partner Top Group Express en "How Far in Advance to Book" (2026-10-07)
 - Tarea #T0034 (mencion de TGE, post 1 de 4, pedido directo del orquestador).
 - Se agrego un parrafo corto al final de la seccion "How Far in Advance to Book" de `src/content/blog/event-technology-service.svx`: las fechas de un congreso son fijas, asi que el hotel de grupo lleva la misma antelacion que la parte tecnica. Un solo enlace a `https://topgroupexpress.com/en` con el ancla "group hotel reservations through Top Group Express" (distinta de las de los otros 3 posts). Enlace editorial normal, sin `rel="sponsored"` (partners, sin comision). Solo "years of experience", sin anos ni cifras de TGE, dirigido a quien organiza el viaje del grupo (agencias, DMC, empresas). Sin encabezado nuevo.
