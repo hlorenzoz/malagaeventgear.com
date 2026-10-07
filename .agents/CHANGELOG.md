@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): wedding-rentals, mencion editorial del partner Top Group Express en "Booking and Service Area" (2026-10-07)
+- Tarea #T0034 (mencion de TGE, tanda 2, post 2 de 6, pedido directo del orquestador).
+- Se agrego un parrafo corto al final de la seccion "Booking and Service Area" de `src/content/blog/wedding-rentals.svx` (pilar de bodas): en una boda de destino con invitados que llegan en avion, las habitaciones se planifican junto con la fecha y el lugar. Aclara que el alojamiento no es servicio de MEG (solo equipo audiovisual) y que TGE es un servicio para profesionales, pensado para quien organiza el viaje del grupo (wedding planner, agencia, DMC), sin prometer reserva directa a la pareja. Un solo enlace a `https://topgroupexpress.com/en` con el ancla "a hotel block for a destination wedding group" (distinta de las de los otros posts). Enlace editorial normal, sin `rel="sponsored"` (partners, sin comision). Solo "years of experience", sin anos ni cifras de TGE. Sin encabezado nuevo y sin enlaces a supporting posts.
+- `updatedDate` paso a 2026-10-07 via `just post-sync` (antes 2026-09-26); `post-faqs.json` y `post-toc.json` regenerados.
+- Las 12 traducciones quedan stale y se actualizan en el mismo cambio.
+
 ### Changed (blog): audio-visual-rental, mencion editorial del partner Top Group Express en "MICE Pack: Comprehensive Audiovisual Setup for Success" (2026-10-07)
 - Tarea #T0034 (mencion de TGE, tanda 2, post 1 de 6, pedido directo del orquestador).
 - Se agrego un parrafo corto al final de la subseccion "MICE Pack: Comprehensive Audiovisual Setup for Success" de `src/content/blog/audio-visual-rental.svx` (pilar): los grupos corporativos y de incentivo que viajan a la Costa del Sol tambien necesitan alojamiento. Aclara que el alojamiento no es servicio de MEG (solo equipo audiovisual y el tecnico en sitio). Un solo enlace a `https://topgroupexpress.com/en` con el ancla "hotel rooms for incentive trips" (distinta de las de los otros posts). Enlace editorial normal, sin `rel="sponsored"` (partners, sin comision). Solo "years of experience", sin anos ni cifras de TGE, dirigido a quien organiza el viaje del grupo (agencias, DMC, empresas), sin prometer reserva directa. Sin encabezado nuevo y sin enlaces a supporting posts.
