@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): stage-lighting-rental, nueva FAQ "Can I rent lights for a DJ set or a party?" (2026-10-07)
+- Tarea #T0070 (plan de contenido 2026-10-07, keyword "dj lights for hire", google-ads 10/mo).
+- Se agrego al final de `## FAQs` en `src/content/blog/stage-lighting-rental.svx` la pregunta "Can I rent lights for a DJ set or a party?". Responde con Eco Pack (2 barras RGBW, 290 euros ex VAT, hasta 50 invitados, enlace), ADJ Element H6 Pack (cotizacion aparte) y barras Eurolite con pedal, no DMX. Moving heads, lasers y strobes fuera del inventario propio, busqueda con proveedores si la hay. Ninguna cifra nueva. El post no tiene `## Table of Contents` inline, no hubo bullet que anadir.
+- `updatedDate` paso a 2026-10-07 via `just post-sync`; `post-faqs.json` y `post-toc.json` regenerados.
+- Las 12 traducciones quedan stale y se actualizan en el mismo cambio.
+
 ### Changed (blog): sound-system-rental, nueva FAQ "How much does it cost to rent sound equipment?" (2026-10-07)
 - Tarea #T0063 (plan de contenido 2026-10-07, keyword "how much does it cost to rent sound equipment", newFaqs de content-candidates, sin volumen medido).
 - FAQ nueva al final de `## FAQs` y bullet en el Table of Contents inline. Resume los precios ya publicados en la tabla de paquetes (Eco 290, Basic MICE 295, Product Presentation 310, MICE 490, Wedding 650), sin IVA, con 21 por ciento en el checkout. Ninguna cifra nueva.

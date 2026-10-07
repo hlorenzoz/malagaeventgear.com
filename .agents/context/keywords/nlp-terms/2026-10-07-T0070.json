@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-07",
+  "taskId": "#T0070",
+  "slug": "stage-lighting-rental",
+  "searchTerm": "stage lighting rental Can I rent lights for a DJ set or a party?",
+  "status": "partial",
+  "reason": "Localization not confirmed. Skipped: 2 JSON API endpoints, centric.events (404), a redirecting article, hygglo (marketplace), idjnow (403). Read results 4, 5, 8 of the list; the directory page is thin on lighting.",
+  "serp": {
+    "query": "can I rent lights for a DJ set or a party",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://rentforevent.com/?p=17395", "title": "Why rent DJ lighting" },
+      { "rank": 2, "url": "https://eventplanner.net/directory/c_lighting-and-sound-systems-rental.html?page=11", "title": "Lighting and Sound Systems Rental" },
+      { "rank": 3, "url": "https://beatrent4.odoo.com/", "title": "beatrent4.odoo.com" }
+    ]
+  },
+  "terms": [
+    { "term": "stage lighting", "kind": "related", "seenIn": 3 },
+    { "term": "weddings", "kind": "entity", "seenIn": 3 },
+    { "term": "parties", "kind": "entity", "seenIn": 3 },
+    { "term": "corporate events", "kind": "entity", "seenIn": 3 },
+    { "term": "conferences", "kind": "entity", "seenIn": 3 },
+    { "term": "strobes", "kind": "entity", "seenIn": 2 },
+    { "term": "lasers", "kind": "entity", "seenIn": 2 },
+    { "term": "festivals", "kind": "entity", "seenIn": 2 },
+    { "term": "trade shows", "kind": "entity", "seenIn": 2 },
+    { "term": "PA systems", "kind": "entity", "seenIn": 2 },
+    { "term": "LED screens", "kind": "entity", "seenIn": 2 },
+    { "term": "moving heads", "kind": "entity", "seenIn": 1 },
+    { "term": "uplighting", "kind": "entity", "seenIn": 1 },
+    { "term": "LED lights", "kind": "entity", "seenIn": 1 },
+    { "term": "gobos", "kind": "entity", "seenIn": 1 },
+    { "term": "follow spots", "kind": "entity", "seenIn": 1 },
+    { "term": "lighting consoles", "kind": "entity", "seenIn": 1 },
+    { "term": "wash towers", "kind": "entity", "seenIn": 1 },
+    { "term": "truss setups", "kind": "entity", "seenIn": 1 },
+    { "term": "smoke machines", "kind": "entity", "seenIn": 1 },
+    { "term": "DJ sets", "kind": "entity", "seenIn": 1 },
+    { "term": "Chauvet DJ", "kind": "entity", "seenIn": 1 },
+    { "term": "light synchronization with music", "kind": "related", "seenIn": 1 },
+    { "term": "lighting design", "kind": "related", "seenIn": 1 },
+    { "term": "How should DJ lighting be chosen?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Philips LED Rent", "reason": "competitor name" },
+    { "term": "BeatRent", "reason": "competitor name" },
+    { "term": "Beirut", "reason": "place other than Spain" },
+    { "term": "Why rent from this company", "reason": "marketing, not vocabulary" },
+    { "term": "Lighting designers on staff", "reason": "about another company" },
+    { "term": "Pioneer CDJ 3000", "reason": "DJ player, off topic for lighting FAQ" }
+  ]
+}
