@@ -15375,8 +15375,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audio-visual-rental-for-music-performances/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -15414,6 +15414,10 @@
               "2026-08": 30
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
         },
         "content-plan": {
           "firstSeen": "2026-10-02",
@@ -81688,6 +81692,24 @@
           "lastSeen": "2026-10-07",
           "urls": [
             "/blog/audio-visual-rental-for-remote-presentations/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "do-you-provide-concert-backline-like-amps-or-a-drum-kit-for-a-live-band",
+      "question": "Do you provide concert backline, like amps or a drum kit, for a live band?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "audio visual rental",
+      "url": "/blog/audio-visual-rental-for-music-performances/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
+          "urls": [
+            "/blog/audio-visual-rental-for-music-performances/"
           ]
         }
       }
