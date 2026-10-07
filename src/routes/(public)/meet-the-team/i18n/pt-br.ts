@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-07';
 
 export default {
 	seo: {
@@ -12,12 +12,12 @@ export default {
 		badge: 'Quem está por trás da MEG',
 		title: 'Nossa equipe',
 		intro:
-			'Conheça os especialistas talentosos da Malaga Event Gear. Da montagem à engenharia em tempo real, garantimos uma experiência sem estresse.'
+			'Conheça os especialistas talentosos da Malaga Event Gear. Da montagem ao suporte técnico durante o seu evento, garantimos uma experiência sem estresse.'
 	},
 	technical: {
 		title: 'Equipe técnica',
-		subtitle: 'Engenharia e montagem audiovisual',
-		body: 'Técnicos audiovisuais experientes que garantem a montagem impecável e o funcionamento perfeito de todo o equipamento de som, iluminação e telas.'
+		subtitle: 'Montagem audiovisual e suporte técnico',
+		body: 'Técnicos audiovisuais experientes que montam o equipamento de som, iluminação e telas, operam o som e os microfones durante o evento e resolvem qualquer falha no projetor, na tela ou na iluminação.'
 	},
 	sales: {
 		title: 'Equipe comercial',

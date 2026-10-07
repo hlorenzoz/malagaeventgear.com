@@ -42,7 +42,7 @@ export default {
 				'Professionelle Funkmikrofone für Reden und Ansagen',
 				'Transport in Malaga und Umgebung',
 				'Professioneller, ästhetischer Aufbau und Verkabelung',
-				'Technische Überwachung und Support vor Ort während der Veranstaltung',
+				'Techniker vor Ort während der Veranstaltung, der den Ton und die Mikrofone bedient und jede Störung an der Technik behebt',
 				'Schneller Abbau und Abholung nach der Veranstaltung'
 			],
 			optional: ['Professionelle Nebelmaschine (+{price:smokeMachine})'],
@@ -211,7 +211,7 @@ export default {
 		'on-site-technician': {
 			question: 'Stellen Sie während der Veranstaltung einen Techniker vor Ort?',
 			answer:
-				'Ja. Mehrere Pakete, wie das Wedding Pack und das vollständige MICE Pack, beinhalten einen festen Techniker, der während Ihrer gesamten Veranstaltung die technische Kontrolle und Betreuung übernimmt. Bei Paketen, in denen dies nicht enthalten ist (zum Beispiel im Basic MICE Pack), kann technische Unterstützung vor Ort optional ab {price:technicianDay} pro Tag hinzugebucht werden.'
+				'Ja. Mehrere Pakete, wie das Wedding Pack und das vollständige MICE Pack, beinhalten einen festen Techniker, der während Ihrer gesamten Veranstaltung den Ton und die Mikrofone bedient und bei jeder Störung an Projektor, Bildschirm oder Licht eingreift. Bei Paketen, in denen dies nicht enthalten ist (zum Beispiel im Basic MICE Pack), kann technische Unterstützung vor Ort optional ab {price:technicianDay} pro Tag hinzugebucht werden.'
 		},
 		'equipment-brands': {
 			question: 'Mit welchen Technikmarken arbeiten Sie?',

@@ -42,7 +42,7 @@ export default {
 				'Profesjonelle trådløse mikrofoner til taler og kunngjøringer',
 				'Transport i Malaga og omkringliggende områder',
 				'Profesjonell installasjon og estetisk kabelføring',
-				'Teknisk kontroll og support på stedet under hele arrangementet',
+				'Tekniker på stedet under arrangementet, som betjener lyden og mikrofonene og utbedrer feil på utstyret',
 				'Rask nedrigging og henting etter arrangementet'
 			],
 			optional: ['Profesjonell røyk-/tåkemaskin (+{price:smokeMachine})'],
@@ -212,7 +212,7 @@ export default {
 		'on-site-technician': {
 			question: 'Tilbyr dere en tekniker på stedet under arrangementet?',
 			answer:
-				'Ja. Flere pakker, som Wedding Pack og det fullstendige MICE Pack, inkluderer en dedikert tekniker på stedet som tar hånd om teknisk kontroll og support gjennom hele arrangementet. For pakker der dette ikke er inkludert (for eksempel Basic MICE Pack), kan teknisk assistanse på stedet legges til som tillegg fra {price:technicianDay} per dag.'
+				'Ja. Flere pakker, som Wedding Pack og det fullstendige MICE Pack, inkluderer en dedikert tekniker på stedet som betjener lyden og mikrofonene og utbedrer feil på projektor, skjerm eller lys gjennom hele arrangementet. For pakker der dette ikke er inkludert (for eksempel Basic MICE Pack), kan teknisk assistanse på stedet legges til som tillegg fra {price:technicianDay} per dag.'
 		},
 		'equipment-brands': {
 			question: 'Hvilke utstyrsmerker jobber dere med?',

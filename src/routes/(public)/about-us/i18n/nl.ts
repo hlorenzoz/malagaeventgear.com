@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-26';
+export const updated = '2026-10-07';
 
 const copy = {
 	seo: {
@@ -47,7 +47,7 @@ const copy = {
 		},
 		technicians: {
 			title: 'Eventtechnici',
-			body: 'Ervaren geluids- en lichttechnici die toezicht houden op de opbouw, bediening en live monitoring.'
+			body: 'Ervaren technici die de opbouw verzorgen, tijdens je evenement het geluid en de microfoons bedienen en elke storing aan projector, scherm of verlichting verhelpen.'
 		},
 		effects: {
 			title: 'Speciale effecten',

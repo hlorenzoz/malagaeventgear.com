@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-07';
 
 export default {
 	seo: {
@@ -17,7 +17,7 @@ export default {
 	technical: {
 		title: 'Teknisk personale',
 		subtitle: 'AV-teknikk og installasjon',
-		body: 'Erfarne lyd- og bildeteknikere som sikrer sømløs installasjon og problemfri drift av alt lyd-, lys- og skjermutstyr.'
+		body: 'Erfarne lyd- og bildeteknikere som installerer alt lyd-, lys- og skjermutstyr, betjener lyden og mikrofonene under arrangementet og utbedrer feil på projektor, skjerm eller lys.'
 	},
 	sales: {
 		title: 'Salgsteam',

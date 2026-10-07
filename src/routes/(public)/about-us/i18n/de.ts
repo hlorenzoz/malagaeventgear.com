@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-26';
+export const updated = '2026-10-07';
 
 export default {
 	seo: {
@@ -47,7 +47,7 @@ export default {
 		},
 		technicians: {
 			title: 'Veranstaltungstechniker',
-			body: 'Erfahrene Ton- und Lichttechniker, die Aufbau und Betrieb übernehmen und Ihre Veranstaltung live überwachen.'
+			body: 'Erfahrene Techniker, die den Aufbau übernehmen und während Ihrer Veranstaltung den Ton und die Mikrofone bedienen sowie bei jeder Störung an Projektor, Bildschirm oder Licht eingreifen.'
 		},
 		effects: {
 			title: 'Spezialeffekte',

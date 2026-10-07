@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-07';
 
 const copy = {
 	seo: {
@@ -17,7 +17,7 @@ const copy = {
 	technical: {
 		title: 'Teknisk personale',
 		subtitle: 'AV-teknik og opsætning',
-		body: 'Erfarne AV-teknikere, der sikrer problemfri opsætning og drift af alt lyd-, lys- og skærmudstyr.'
+		body: 'Erfarne AV-teknikere, der opsætter alt lyd-, lys- og skærmudstyr, betjener lyden og mikrofonerne under eventet og afhjælper fejl på projektor, skærm eller lys.'
 	},
 	sales: {
 		title: 'Salgsteam',

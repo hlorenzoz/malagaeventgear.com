@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-26';
+export const updated = '2026-10-07';
 
 export default {
 	seo: {
@@ -47,7 +47,7 @@ export default {
 		},
 		technicians: {
 			title: 'Técnicos de eventos',
-			body: 'Técnicos de som e iluminação experientes, disponíveis para supervisionar a montagem, o funcionamento e a monitorização ao vivo.'
+			body: 'Técnicos experientes que tratam da montagem, operam o som e os microfones e resolvem qualquer avaria no projetor, no ecrã ou na iluminação durante o seu evento.'
 		},
 		effects: {
 			title: 'Efeitos especiais',

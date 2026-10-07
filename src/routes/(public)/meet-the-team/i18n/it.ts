@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-07';
 
 const copy = {
 	seo: {
@@ -12,12 +12,12 @@ const copy = {
 		badge: "Chi c'è dietro MEG",
 		title: 'Il nostro team',
 		intro:
-			"Conosci gli specialisti di talento di Malaga Event Gear. Dall'allestimento alla regia dal vivo, garantiamo un'esperienza senza stress."
+			"Conosci gli specialisti di talento di Malaga Event Gear. Dall'allestimento all'assistenza tecnica durante il tuo evento, garantiamo un'esperienza senza stress."
 	},
 	technical: {
 		title: 'Personale tecnico',
-		subtitle: 'Ingegneria e allestimento audiovisivo',
-		body: "Tecnici audiovisivi esperti che garantiscono l'allestimento impeccabile e il funzionamento fluido di tutte le attrezzature audio, luci e schermi."
+		subtitle: 'Allestimento audiovisivo e assistenza tecnica',
+		body: "Tecnici audiovisivi esperti che allestiscono le attrezzature audio, luci e schermi, gestiscono l'audio e i microfoni durante l'evento e risolvono qualsiasi guasto a proiettore, schermo o luci."
 	},
 	sales: {
 		title: 'Team commerciale',

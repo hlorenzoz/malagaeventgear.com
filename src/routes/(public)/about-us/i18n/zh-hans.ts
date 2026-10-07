@@ -1,11 +1,12 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-26';
+export const updated = '2026-10-07';
 
 const copy = {
 	seo: {
 		title: '马拉加视听设备租赁公司 | MEG',
-		description: '认识Malaga Event Gear的专业团队！我们致力于以顶级设备，为您的婚礼、企业活动及派对打造难忘体验。'
+		description:
+			'认识Malaga Event Gear的专业团队！我们致力于以顶级设备，为您的婚礼、企业活动及派对打造难忘体验。'
 	},
 	hero: {
 		badge: '我们是谁',
@@ -45,7 +46,7 @@ const copy = {
 		},
 		technicians: {
 			title: '活动技术人员',
-			body: '经验丰富的音响与灯光技术人员，全程负责设备搭建、运行及现场监控。'
+			body: '经验丰富的技术人员，负责设备搭建、操作音响和麦克风，并在活动期间处理投影仪、屏幕或灯光的任何故障。'
 		},
 		effects: {
 			title: '特效设备',

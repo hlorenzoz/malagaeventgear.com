@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-26';
+export const updated = '2026-10-07';
 
 export default {
 	seo: {
@@ -46,7 +46,7 @@ export default {
 		},
 		technicians: {
 			title: '活動技術人員',
-			body: '經驗豐富的音響與燈光技術人員，全程監督您的搭建、操作與現場運作。'
+			body: '經驗豐富的技術人員，負責設備搭建、操作音響與麥克風，並在活動期間處理投影機、螢幕或燈光的任何故障。'
 		},
 		effects: {
 			title: '特殊效果',

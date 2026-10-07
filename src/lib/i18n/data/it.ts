@@ -42,7 +42,7 @@ export default {
 				'Microfoni wireless professionali per discorsi e annunci',
 				'Trasporto a Malaga e dintorni',
 				'Installazione e cablaggio professionali e curati',
-				"Regia tecnica dal vivo e assistenza tecnica in loco durante l'evento",
+				"Tecnico in loco durante l'evento, che gestisce l'audio e i microfoni e risolve qualsiasi guasto alle attrezzature",
 				"Smontaggio rapido e ritiro dell'attrezzatura dopo l'evento"
 			],
 			optional: ['Macchina del fumo professionale (+{price:smokeMachine})'],
@@ -212,7 +212,7 @@ export default {
 		'on-site-technician': {
 			question: "Fornite un tecnico in loco durante l'evento?",
 			answer:
-				"Sì. Diversi pacchetti, come il Wedding Pack e il MICE Pack completo, includono un tecnico dedicato dal vivo che si occupa della regia e dell'assistenza tecnica durante tutto l'evento. Per i pacchetti in cui non è incluso (ad esempio il Basic MICE Pack), l'assistenza tecnica in loco può essere aggiunta come opzione a partire da {price:technicianDay} al giorno."
+				"Sì. Diversi pacchetti, come il Wedding Pack e il MICE Pack completo, includono un tecnico dedicato dal vivo che gestisce l'audio e i microfoni e risolve qualsiasi guasto a proiettore, schermo o luci durante tutto l'evento. Per i pacchetti in cui non è incluso (ad esempio il Basic MICE Pack), l'assistenza tecnica in loco può essere aggiunta come opzione a partire da {price:technicianDay} al giorno."
 		},
 		'equipment-brands': {
 			question: 'Con quali marchi di attrezzature lavorate?',

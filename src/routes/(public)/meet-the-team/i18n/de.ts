@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-07';
 
 export default {
 	seo: {
@@ -17,7 +17,7 @@ export default {
 	technical: {
 		title: 'Technisches Personal',
 		subtitle: 'AV-Technik & Aufbau',
-		body: 'Erfahrene AV-Techniker, die den reibungslosen Aufbau und Betrieb aller Ton-, Licht- und Leinwandtechnik gewährleisten.'
+		body: 'Erfahrene AV-Techniker, die die Ton-, Licht- und Leinwandtechnik aufbauen, während der Veranstaltung den Ton und die Mikrofone bedienen und bei jeder Störung an Projektor, Bildschirm oder Licht eingreifen.'
 	},
 	sales: {
 		title: 'Vertriebsteam',

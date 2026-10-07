@@ -41,7 +41,7 @@ export default {
 				'专业无线麦克风，用于致辞与宣布环节',
 				'马拉加及周边地区运输服务',
 				'专业美观的搭建与走线',
-				'活动期间现场技术控制与工程支持',
+				'活动期间现场技术人员，负责操作音响和麦克风，并处理设备故障',
 				'活动结束后快速拆卸与物流回收'
 			],
 			optional: ['专业烟雾机（+{price:smokeMachine}）'],
@@ -207,7 +207,7 @@ export default {
 		'on-site-technician': {
 			question: '活动期间是否提供现场技术人员？',
 			answer:
-				'是的。部分套餐（例如Wedding Pack及完整版MICE Pack）已包含专属现场技术人员，全程负责技术控制与工程支持。对于未包含此项服务的套餐（例如Basic MICE Pack），可选择额外添加现场技术协助，价格从每天{price:technicianDay}起。'
+				'是的。部分套餐（例如Wedding Pack及完整版MICE Pack）已包含专属现场技术人员，全程负责操作音响和麦克风，并处理投影仪、屏幕或灯光的任何故障。对于未包含此项服务的套餐（例如Basic MICE Pack），可选择额外添加现场技术协助，价格从每天{price:technicianDay}起。'
 		},
 		'equipment-brands': {
 			question: '你们使用哪些设备品牌？',

@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-26';
+export const updated = '2026-10-07';
 
 const copy = {
 	seo: {
@@ -17,7 +17,7 @@ const copy = {
 	story: {
 		title: 'Notre mission et notre histoire',
 		p1: "Malaga Event Gear est présent dans le secteur audiovisuel depuis 1996, et nous travaillons en tant qu'indépendants depuis 2010. En trois décennies, nous avons développé une véritable passion pour les événements sans faille et une acoustique cristalline.",
-		p2: "Nous travaillons exclusivement en livraison, avec installation sur place, ce qui signifie que nous ne disposons pas de boutique physique. Nous apportons directement nos systèmes haut de gamme, notre câblage et notre assistance à votre villa, hôtel ou lieu de réception, partout à Malaga et sur la Costa del Sol."
+		p2: 'Nous travaillons exclusivement en livraison, avec installation sur place, ce qui signifie que nous ne disposons pas de boutique physique. Nous apportons directement nos systèmes haut de gamme, notre câblage et notre assistance à votre villa, hôtel ou lieu de réception, partout à Malaga et sur la Costa del Sol.'
 	},
 	stats: {
 		experienceTitle: "Années d'expérience",
@@ -47,7 +47,7 @@ const copy = {
 		},
 		technicians: {
 			title: 'Techniciens événementiels',
-			body: "Des techniciens son et lumière expérimentés, disponibles pour superviser l'installation, l'exploitation et le suivi en direct de votre matériel."
+			body: "Des techniciens expérimentés qui s'occupent de l'installation, du son et des micros, et dépannent tout projecteur, écran ou éclairage en panne pendant votre événement."
 		},
 		effects: {
 			title: 'Effets spéciaux',

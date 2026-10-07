@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-07';
 
 const copy = {
 	seo: {
@@ -12,12 +12,12 @@ const copy = {
 		badge: 'Qui se cache derrière MEG',
 		title: 'Notre équipe',
 		intro:
-			"Découvrez les spécialistes talentueux de Malaga Event Gear. De l'installation à la régie en direct, nous garantissons une expérience sans stress."
+			"Découvrez les spécialistes talentueux de Malaga Event Gear. De l'installation à l'assistance technique pendant votre événement, nous garantissons une expérience sans stress."
 	},
 	technical: {
 		title: 'Personnel technique',
-		subtitle: 'Ingénierie et installation audiovisuelles',
-		body: "Des techniciens audiovisuels expérimentés qui assurent une installation sans accroc et un fonctionnement fluide de tout le matériel de son, d'éclairage et d'écrans."
+		subtitle: 'Installation audiovisuelle et assistance technique',
+		body: "Des techniciens audiovisuels expérimentés qui installent le matériel de son, d'éclairage et d'écrans, s'occupent du son et des micros pendant l'événement et dépannent tout projecteur, écran ou éclairage en panne."
 	},
 	sales: {
 		title: 'Équipe commerciale',

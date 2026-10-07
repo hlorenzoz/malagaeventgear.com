@@ -140,7 +140,7 @@ const packagesData: EventPackage[] = [
 			'Professional wireless microphones for speeches and announcements',
 			'Transport in Malaga and surrounding areas',
 			'Professional aesthetic setup and cabling',
-			'On site live technical control and engineering support during the event',
+			'On site technician during the event who operates the sound and microphones and fixes any equipment fault',
 			'Post event rapid teardown and logistics pickup'
 		],
 		optional: ['Professional smoke/fog machine (+{price:smokeMachine})'],

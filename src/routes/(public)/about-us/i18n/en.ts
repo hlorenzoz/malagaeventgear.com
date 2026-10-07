@@ -46,7 +46,7 @@ const copy = {
 		},
 		technicians: {
 			title: 'Event Technicians',
-			body: 'Experienced sound and lighting technicians available to oversee your setup, operation, and live monitoring.'
+			body: 'Experienced technicians who handle your setup, operate the sound and microphones, and fix any projector, screen or light fault during your event.'
 		},
 		effects: {
 			title: 'Special Effects',

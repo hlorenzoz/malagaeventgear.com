@@ -1,21 +1,23 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-07';
 
 const copy = {
 	seo: {
 		title: '马拉加视听设备租赁团队 | MEG',
-		description: '认识Malaga Event Gear的团队！了解我们经验丰富的团队如何为西班牙马拉加的专业服务与顺畅活动保驾护航。'
+		description:
+			'认识Malaga Event Gear的团队！了解我们经验丰富的团队如何为西班牙马拉加的专业服务与顺畅活动保驾护航。'
 	},
 	hero: {
 		badge: 'MEG幕后团队',
 		title: '认识团队',
-		intro: '认识Malaga Event Gear才华横溢的专业团队。从设备搭建到实时工程支持，我们确保您拥有省心无忧的体验。'
+		intro:
+			'认识Malaga Event Gear才华横溢的专业团队。从设备搭建到活动期间的现场技术支持，我们确保您拥有省心无忧的体验。'
 	},
 	technical: {
 		title: '技术人员',
-		subtitle: '视听工程与搭建',
-		body: '经验丰富的视听技术人员，确保所有音响、灯光及屏幕设备的顺畅搭建与稳定运行。'
+		subtitle: '视听搭建与技术支持',
+		body: '经验丰富的视听技术人员，负责搭建音响、灯光及屏幕设备，在活动期间操作音响和麦克风，并处理投影仪、屏幕或灯光的任何故障。'
 	},
 	sales: {
 		title: '销售团队',

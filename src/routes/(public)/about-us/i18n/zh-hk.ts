@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-26';
+export const updated = '2026-10-07';
 
 export default {
 	seo: {
@@ -27,8 +27,7 @@ export default {
 	},
 	offer: {
 		title: '我們提供的服務',
-		intro:
-			'我們提供多元化的租借服務，度身配合婚禮、企業活動、私人派對及MICE會議等各類活動需求。',
+		intro: '我們提供多元化的租借服務，度身配合婚禮、企業活動、私人派對及MICE會議等各類活動需求。',
 		sound: {
 			title: '音響系統',
 			body: '由適合私人派對的小型喇叭組合，到適合大型場地的高保真主動式PA音響系統，一應俱全。'
@@ -47,7 +46,7 @@ export default {
 		},
 		technicians: {
 			title: '活動技術人員',
-			body: '經驗豐富的音響及燈光技術人員，隨時為您的搭建、操作及現場監控提供支援。'
+			body: '經驗豐富的技術人員，負責搭建器材、操作音響及咪高峰，並在活動期間處理投影機、屏幕或燈光的任何故障。'
 		},
 		effects: {
 			title: '特效',

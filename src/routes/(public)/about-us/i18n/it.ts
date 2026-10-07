@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-26';
+export const updated = '2026-10-07';
 
 const copy = {
 	seo: {
@@ -47,7 +47,7 @@ const copy = {
 		},
 		technicians: {
 			title: 'Tecnici per eventi',
-			body: "Tecnici audio e luci esperti disponibili per supervisionare l'allestimento, il funzionamento e il monitoraggio dal vivo."
+			body: "Tecnici esperti che si occupano dell'allestimento, gestiscono l'audio e i microfoni e risolvono qualsiasi guasto a proiettore, schermo o luci durante il tuo evento."
 		},
 		effects: {
 			title: 'Effetti speciali',

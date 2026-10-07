@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-07';
 
 export default {
 	seo: {
@@ -12,12 +12,12 @@ export default {
 		badge: 'MEG的幕後推手',
 		title: '認識團隊',
 		intro:
-			'認識Malaga Event Gear的專業團隊成員。從搭建到即時工程操作，我們保證您擁有零壓力的體驗。'
+			'認識Malaga Event Gear的專業團隊成員。從搭建到活動期間的現場技術支援，我們保證您擁有零壓力的體驗。'
 	},
 	technical: {
 		title: '技術人員',
-		subtitle: '影音工程與搭建',
-		body: '經驗豐富的影音技術人員，確保所有音響、燈光與螢幕設備的搭建及運作順暢無誤。'
+		subtitle: '影音搭建與技術支援',
+		body: '經驗豐富的影音技術人員，負責搭建音響、燈光與螢幕設備，在活動期間操作音響與麥克風，並處理投影機、螢幕或燈光的任何故障。'
 	},
 	sales: {
 		title: '業務團隊',

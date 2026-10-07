@@ -42,7 +42,7 @@ export default {
 				'Professionele draadloze microfoons voor speeches en aankondigingen',
 				'Vervoer in Malaga en omstreken',
 				'Professionele, esthetische opbouw en bekabeling',
-				'Live technische controle en ondersteuning ter plaatse tijdens het evenement',
+				'Technicus ter plaatse tijdens het evenement, die het geluid en de microfoons bedient en elke storing aan de apparatuur verhelpt',
 				'Snelle afbraak en ophalen van de apparatuur na afloop'
 			],
 			optional: ['Professionele rookmachine (+{price:smokeMachine})'],
@@ -211,7 +211,7 @@ export default {
 		'on-site-technician': {
 			question: 'Bieden jullie een technicus ter plaatse tijdens het evenement?',
 			answer:
-				'Ja. Verschillende pakketten, zoals het Wedding Pack en het volledige MICE Pack, omvatten een vaste technicus die tijdens je hele evenement zorgt voor technische controle en ondersteuning. Bij pakketten waar dit niet is inbegrepen (bijvoorbeeld het Basic MICE Pack), kan technische ondersteuning ter plaatse optioneel worden toegevoegd vanaf {price:technicianDay} per dag.'
+				'Ja. Verschillende pakketten, zoals het Wedding Pack en het volledige MICE Pack, omvatten een vaste technicus die tijdens je hele evenement het geluid en de microfoons bedient en elke storing aan projector, scherm of verlichting verhelpt. Bij pakketten waar dit niet is inbegrepen (bijvoorbeeld het Basic MICE Pack), kan technische ondersteuning ter plaatse optioneel worden toegevoegd vanaf {price:technicianDay} per dag.'
 		},
 		'equipment-brands': {
 			question: 'Met welke apparatuurmerken werken jullie?',

@@ -9,12 +9,12 @@ const copy = {
 		badge: 'Who is Behind MEG',
 		title: 'Meet The Team',
 		intro:
-			'Meet the talented specialists at Malaga Event Gear. From setup to real time engineering, we guarantee a stress free experience.'
+			'Meet the talented specialists at Malaga Event Gear. From setup to technical support during your event, we guarantee a stress free experience.'
 	},
 	technical: {
 		title: 'Technical Personnel',
-		subtitle: 'AV Engineering & Setup',
-		body: 'Experienced audiovisual technicians who ensure the seamless setup and smooth operation of all sound, lighting, and screen equipment.'
+		subtitle: 'AV Setup & Technical Support',
+		body: 'Experienced audiovisual technicians who set up the sound, lighting, and screen equipment, operate the sound and microphones during the event, and fix any projector, screen or light fault.'
 	},
 	sales: {
 		title: 'Sales Team',

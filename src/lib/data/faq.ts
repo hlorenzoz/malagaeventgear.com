@@ -135,7 +135,7 @@ const faqData: FaqItem[] = [
 		onHomepage: false,
 		question: 'Do you provide an on site technician during the event?',
 		answer:
-			'Yes. Several packages (such as the Wedding Pack and the full MICE Pack) include a dedicated live technician who handles technical control and engineering support throughout your event. For packages where it is not included (for example the Basic MICE Pack), on site technical assistance can be added as an option from {price:technicianDay} per day.'
+			'Yes. Several packages (such as the Wedding Pack and the full MICE Pack) include a dedicated live technician who operates the sound and microphones and fixes any projector, screen or light fault throughout your event. For packages where it is not included (for example the Basic MICE Pack), on site technical assistance can be added as an option from {price:technicianDay} per day.'
 	},
 	{
 		id: 'equipment-brands',

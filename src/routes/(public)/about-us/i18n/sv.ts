@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-26';
+export const updated = '2026-10-07';
 
 export default {
 	seo: {
@@ -47,7 +47,7 @@ export default {
 		},
 		technicians: {
 			title: 'Eventtekniker',
-			body: 'Erfarna ljud- och ljustekniker som kan övervaka installation, drift och monitorering under evenemanget.'
+			body: 'Erfarna tekniker som tar hand om installationen, sköter ljudet och mikrofonerna och åtgärdar fel på projektor, skärm eller belysning under ditt evenemang.'
 		},
 		effects: {
 			title: 'Specialeffekter',

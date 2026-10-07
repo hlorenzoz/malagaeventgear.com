@@ -42,7 +42,7 @@ export default {
 				'Microfones sem fios profissionais para discursos e anúncios',
 				'Transporte em Málaga e arredores',
 				'Montagem estética profissional e cablagem',
-				'Controlo técnico ao vivo e apoio de engenharia no local durante o evento',
+				'Técnico no local durante o evento, que opera o som e os microfones e resolve qualquer avaria no equipamento',
 				'Desmontagem rápida e recolha logística após o evento'
 			],
 			optional: ['Máquina de fumo profissional (+{price:smokeMachine})'],
@@ -212,7 +212,7 @@ export default {
 		'on-site-technician': {
 			question: 'Disponibilizam um técnico no local durante o evento?',
 			answer:
-				'Sim. Vários pacotes, como o Wedding Pack e o MICE Pack completo, incluem um técnico dedicado ao vivo que assegura o controlo técnico e o apoio de engenharia ao longo do seu evento. Nos pacotes em que não está incluído (por exemplo, o Basic MICE Pack), a assistência técnica no local pode ser adicionada como opção a partir de {price:technicianDay} por dia.'
+				'Sim. Vários pacotes, como o Wedding Pack e o MICE Pack completo, incluem um técnico dedicado ao vivo que opera o som e os microfones e resolve qualquer avaria no projetor, no ecrã ou na iluminação ao longo do seu evento. Nos pacotes em que não está incluído (por exemplo, o Basic MICE Pack), a assistência técnica no local pode ser adicionada como opção a partir de {price:technicianDay} por dia.'
 		},
 		'equipment-brands': {
 			question: 'Com que marcas de equipamento trabalham?',

@@ -42,7 +42,7 @@ export default {
 				'Microphones sans fil professionnels pour discours et annonces',
 				'Transport à Malaga et dans les environs',
 				'Installation et câblage professionnels et soignés',
-				"Régie technique en direct et assistance d'un technicien sur place pendant l'événement",
+				"Technicien sur place pendant l'événement, qui s'occupe du son et des micros et dépanne tout équipement en panne",
 				"Démontage rapide et enlèvement du matériel après l'événement"
 			],
 			optional: ['Machine à fumée professionnelle (+{price:smokeMachine})'],
@@ -212,7 +212,7 @@ export default {
 		'on-site-technician': {
 			question: "Fournissez-vous un technicien sur place pendant l'événement ?",
 			answer:
-				"Oui. Plusieurs forfaits, comme le Wedding Pack et le MICE Pack complet, incluent un technicien dédié en direct qui assure la régie et l'assistance technique tout au long de votre événement. Pour les forfaits où ce n'est pas inclus (par exemple le Basic MICE Pack), une assistance technique sur place peut être ajoutée en option à partir de {price:technicianDay} par jour."
+				"Oui. Plusieurs forfaits, comme le Wedding Pack et le MICE Pack complet, incluent un technicien dédié sur place qui s'occupe du son et des micros et dépanne tout projecteur, écran ou éclairage en panne tout au long de votre événement. Pour les forfaits où ce n'est pas inclus (par exemple le Basic MICE Pack), une assistance technique sur place peut être ajoutée en option à partir de {price:technicianDay} par jour."
 		},
 		'equipment-brands': {
 			question: 'Avec quelles marques de matériel travaillez-vous ?',

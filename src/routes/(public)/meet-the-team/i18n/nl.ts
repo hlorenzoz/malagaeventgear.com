@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-07';
 
 const copy = {
 	seo: {
@@ -17,7 +17,7 @@ const copy = {
 	technical: {
 		title: 'Technisch personeel',
 		subtitle: 'AV-techniek & opbouw',
-		body: 'Ervaren audiovisuele technici die zorgen voor een vlekkeloze opbouw en soepele werking van alle geluids-, verlichtings- en schermapparatuur.'
+		body: 'Ervaren audiovisuele technici die de geluids-, verlichtings- en schermapparatuur opbouwen, tijdens het evenement het geluid en de microfoons bedienen en elke storing aan projector, scherm of verlichting verhelpen.'
 	},
 	sales: {
 		title: 'Salesteam',

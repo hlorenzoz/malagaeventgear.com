@@ -41,7 +41,7 @@ export default {
 				'專業無線咪高峰，供致辭及宣布事項使用',
 				'馬拉加及周邊地區運送服務',
 				'專業美觀搭建與理線',
-				'活動期間現場技術控制及工程支援',
+				'活動期間現場技術人員，負責操作音響及咪高峰，並處理器材故障',
 				'活動結束後迅速拆卸及物流收回'
 			],
 			optional: ['專業煙霧機（+{price:smokeMachine}）'],
@@ -207,7 +207,7 @@ export default {
 		'on-site-technician': {
 			question: '活動期間你們會提供現場技術人員嗎？',
 			answer:
-				'會的。部分套餐（例如Wedding Pack及完整版MICE Pack）已包含專屬現場技術人員，全程負責技術控制及工程支援。若套餐未包含此服務（例如Basic MICE Pack），可加購現場技術協助，價格由每日{price:technicianDay}起。'
+				'會的。部分套餐（例如Wedding Pack及完整版MICE Pack）已包含專屬現場技術人員，全程負責操作音響及咪高峰，並處理投影機、屏幕或燈光的任何故障。若套餐未包含此服務（例如Basic MICE Pack），可加購現場技術協助，價格由每日{price:technicianDay}起。'
 		},
 		'equipment-brands': {
 			question: '你們使用哪些器材品牌？',
