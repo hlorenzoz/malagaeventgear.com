@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-07",
+  "run": {
+    "status": "partial",
+    "quotaBefore": {"reports": 3, "brand_operations_limits": 100, "brand_operations_used": 0, "monthly_keyword_metrics_updates_limits": 10, "monthly_keyword_metrics_updates_used": 0},
+    "quotaAfter": {"reports": 3, "brand_operations_limits": 100, "brand_operations_used": 0, "monthly_keyword_metrics_updates_limits": 10, "monthly_keyword_metrics_updates_used": 0},
+    "calls": [
+      {"tool": "domain_top_pages", "args": "malagaeventgear.com limit 10 locId 2724", "outcome": "empty"},
+      {"tool": "domain_overview", "args": "malagaeventgear.com locId 2724", "outcome": "ok"},
+      {"tool": "traffic_value", "args": "malagaeventgear.com with project id", "outcome": "failed"},
+      {"tool": "industry_prompts", "args": "seed audio visual rental companies", "outcome": "ok"},
+      {"tool": "industry_prompts", "args": "seed av equipment checklist for conference", "outcome": "ok"},
+      {"tool": "industry_prompts", "args": "seed conference table microphone rental", "outcome": "ok"},
+      {"tool": "article_title_suggestions", "args": "seed audio visual rental companies", "outcome": "ok"},
+      {"tool": "keyword_suggestions", "args": "seed audio visual rental companies locId 2724", "outcome": "ok"},
+      {"tool": "serp_analysis", "args": "seed audio visual rental companies limit 10 locId 2724", "outcome": "ok"},
+      {"tool": "content_ideas", "args": "seed audio visual rental companies limit 5 locId 2724", "outcome": "quota"}
+    ],
+    "skipped": [
+      {"step": "traffic_value", "reason": "HTTP 403 Insufficient scope for this endpoint"},
+      {"step": "content_ideas", "reason": "HTTP 403 daily reports limit 3 reached"},
+      {"step": "keyword_overview", "reason": "daily reports quota exhausted"},
+      {"step": "keyword_suggestions and serp_analysis for seeds 2 and 3", "reason": "daily reports quota exhausted, only first seed researched"},
+      {"step": "keyword_metrics", "reason": "monthlyDue is false"},
+      {"step": "faqs", "reason": "Google autocomplete FAQs belong to the faq-researcher"},
+      {"step": "user_limits quotaAfter", "reason": "user_limits counters did not change after the calls, so reports remaining is not visible there"}
+    ]
+  },
+  "keywords": [
+    {"keyword": "audio visual rental companies near me", "cluster": "audio visual rental", "source": "ubersuggest-suggestions", "metrics": {"volume": {"value": 10, "source": "ubersuggest", "asOf": "2026-10-07"}, "difficulty": {"value": 5, "source": "ubersuggest", "asOf": "2026-10-07"}, "cpc": {"value": 0, "source": "ubersuggest", "asOf": "2026-10-07"}}}
+  ],
+  "faqs": [],
+  "aiPrompts": [
+    {"prompt": "What are the best audio visual rental companies in Spain for corporate events?", "keyword": "audio visual rental companies", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which audio visual rental company offers the best value for weddings in Spain?", "keyword": "audio visual rental companies", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Top-rated audio visual rental companies near me in Spain for large conferences", "keyword": "audio visual rental companies", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Malaga Event Gear vs other audio visual rental companies in Spain: which is better?", "keyword": "audio visual rental companies", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where can I rent high-quality audio visual equipment for a product launch in Spain?", "keyword": "audio visual rental companies", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best audio visual rental companies in Spain with delivery and setup services", "keyword": "audio visual rental companies", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Affordable audio visual rental companies in Spain for small business presentations", "keyword": "audio visual rental companies", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Recommendations for audio visual rental companies in Spain that provide LED screens", "keyword": "audio visual rental companies", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Audio visual rental companies in Spain with flexible rental periods and competitive prices", "keyword": "audio visual rental companies", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Comparing Malaga Event Gear and other top audio visual rental companies in Spain for event AV needs", "keyword": "audio visual rental companies", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best deals on audio visual rentals in Spain for trade shows and exhibitions", "keyword": "audio visual rental companies", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Audio visual rental companies in Spain with bilingual support for international clients", "keyword": "audio visual rental companies", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Recommendations for audio visual rental companies in Spain that offer customized AV packages", "keyword": "audio visual rental companies", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which audio visual rental company in Spain has the best reputation for tech support during events?", "keyword": "audio visual rental companies", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "What is the best AV equipment checklist for a mid-sized conference in Spain?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which AV gear should I prioritize for a corporate conference setup?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "AV equipment checklist vs rental package: What is more cost-effective for a conference?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where can I rent AV equipment for conferences with a complete checklist included?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Recommendations for AV equipment checklists that cover sound, lighting, and video for conferences", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which AV equipment checklist is ideal for a conference with breakout sessions and multiple rooms?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which AV setup checklist includes all essential gear for hybrid conferences?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best AV equipment checklist for conferences with high attendee capacity and Q&A sessions", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best AV equipment checklist for conferences focusing on clear audio and audience interaction", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "What is the best conference table microphone rental service in Spain?", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where can I rent high-quality conference table microphones near me?", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Affordable conference table microphone rental options for corporate meetings in Spain", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Conference table microphone rental vs wireless microphone systems for meetings", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best value conference table microphone rental packages for small conferences", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where to find conference table microphone rentals with quick setup in Spain", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which conference table microphone rental should I choose for a 10-person meeting?", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Malaga Event Gear vs other conference table microphone rental providers in Spain", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Conference table microphone rental for hybrid meetings: which options work best?", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Conference table microphone rental services that include technical support in Spain", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas"}
+  ],
+  "research": {
+    "audio visual rental companies": {
+      "serp": {
+        "localPack": true,
+        "aiOverview": false,
+        "top": [
+          "http://www.avisualpro.es/en/",
+          "http://www.eventplanner.net/directory/c_audiovisual-equipment-rental.html",
+          "http://dimaraudiovisual.es/en/rental-of-events-audiovisual-equipment-madrid/",
+          "http://ensun.io/search/audio-visual-rental/spain",
+          "http://revenuebase.ai/companies/audio-visual-equipment-rental-companies/spain/madrid"
+        ],
+        "asOf": "2026-10-07"
+      },
+      "titleIdeas": [
+        "How to choose audio visual rental companies on the Costa del Sol: a step-by-step checklist",
+        "Comparing audio visual rental companies for conferences and trade shows in Malaga",
+        "Case study: how a local audio visual rental company delivered a flawless FYCMA conference with limited inventory"
+      ]
+    }
+  },
+  "rank": [],
+  "discarded": [
+    {"text": "audio visual rental companies in dubai", "reason": "another market"},
+    {"text": "audio visual rental companies in abu dhabi", "reason": "another market"},
+    {"text": "Which audio visual rental company should I choose for a music festival in Spain?", "reason": "festival production is outside MEG's offer"},
+    {"text": "Where to hire audio visual equipment for a virtual event in Spain?", "reason": "virtual events are not MEG's service"},
+    {"text": "Which audio visual rental company in Spain specializes in outdoor event solutions?", "reason": "outdoor specialist positioning does not fit MEG"},
+    {"text": "Where to find reliable audio visual rental companies in Spain for film production shoots?", "reason": "film production is not MEG's market"},
+    {"text": "Best audio visual rental companies near me in Spain with 24/7 customer support", "reason": "24/7 support claim MEG cannot make"},
+    {"text": "Best audio visual rental companies in Spain offering the latest sound technology", "reason": "latest technology claim does not match MEG inventory"},
+    {"text": "Where to buy AV equipment checklist templates for professional conference planning?", "reason": "buying templates, no hire intent"},
+    {"text": "Where to find comprehensive AV equipment checklists for conferences in Madrid and nearby areas?", "reason": "another market"},
+    {"text": "Best AV equipment checklist for a small conference budget under 1000 euros in Spain", "reason": "fixed budget claim, kept out to avoid price implications"},
+    {"text": "Malaga Event Gear vs local AV rental companies: Which offers a better conference checklist?", "reason": "duplicate of other brand comparison prompts"},
+    {"text": "Recommendations for portable AV equipment checklists perfect for pop-up conferences in Spain", "reason": "pop-up conferences are off niche"},
+    {"text": "Best AV equipment checklist for a conference with remote streaming capabilities", "reason": "streaming is not MEG's service"},
+    {"text": "Best AV equipment checklists and rental combos for conferences in Spain deals", "reason": "duplicate deals prompt"},
+    {"text": "What AV equipment checklist should I use for a tech conference requiring advanced video displays?", "reason": "advanced video displays not in MEG inventory"},
+    {"text": "What is the difference between Malaga Event Gear and other AV providers for conference setups?", "reason": "duplicate of other brand comparison prompts"},
+    {"text": "Top-rated AV equipment checklists tailored for conference organizers in Spain", "reason": "duplicate checklist prompt"},
+    {"text": "Best value AV equipment bundles for conference presentations near me in Spain", "reason": "duplicate bundle prompt"},
+    {"text": "Top-rated conference table microphone rentals for boardroom use", "reason": "no Spain context, duplicate"},
+    {"text": "Recommendations for conference table microphone rentals with noise-canceling features", "reason": "feature not in MEG inventory"},
+    {"text": "Conference table microphone rental companies offering daily and weekly rates", "reason": "rate structure MEG does not publish"},
+    {"text": "Conference table microphone rental with integrated speakerphone capabilities", "reason": "speakerphone gear not in MEG inventory"},
+    {"text": "Best conference table microphone rental deals for multi-day events in Spain", "reason": "duplicate deals prompt"},
+    {"text": "Where to hire conference table microphones with adjustable volume controls?", "reason": "feature not in MEG inventory"},
+    {"text": "Compare Malaga Event Gear conference table microphone rental prices with competitors", "reason": "duplicate brand comparison prompt"},
+    {"text": "Which conference table microphone rental is best for a noisy environment?", "reason": "off niche"},
+    {"text": "Best conference table microphone rental for professional video conferencing setups", "reason": "video conferencing is not MEG's service"},
+    {"text": "Where can I rent conference table microphones with multi-device connectivity in Spain?", "reason": "feature not in MEG inventory"}
+  ],
+  "report": {
+    "kind": "top-pages",
+    "status": "partial",
+    "reason": "domain_top_pages returned noData and traffic_value failed with HTTP 403 Insufficient scope",
+    "summary": [
+      "domain_overview: organic keywords 4, traffic 38, domainAuthority 6, backlinks 86, refDomains 65",
+      "Only ranking keyword listed: audio visual rental companies, position 54, volume 10, sd 5",
+      "domain_top_pages: noData. traffic_value: 403. Reports cost not measurable, user_limits stayed at reports 3"
+    ],
+    "metrics": {"organic": 4, "traffic": 38, "domainAuthority": 6, "backlinks": 86, "refDomains": 65},
+    "seoCounts": {},
+    "seo": [],
+    "rows": [
+      {"label": "http://malagaeventgear.com/blog/audio-visual-rental-companies/", "values": {"keyword": "audio visual rental companies", "position": 54, "volume": 10, "traffic": 0}}
+    ]
+  }
+}

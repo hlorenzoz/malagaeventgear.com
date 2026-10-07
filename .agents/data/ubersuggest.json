@@ -1,7 +1,65 @@
 {
 	"version": 1,
-	"updated": "2026-10-05",
+	"updated": "2026-10-07",
 	"reports": [
+		{
+			"date": "2026-10-07",
+			"kind": "top-pages",
+			"status": "partial",
+			"reason": "domain_top_pages returned noData and traffic_value failed with HTTP 403 Insufficient scope",
+			"calls": [
+				{
+					"tool": "domain_top_pages",
+					"outcome": "empty"
+				},
+				{
+					"tool": "domain_overview",
+					"outcome": "ok"
+				},
+				{
+					"tool": "traffic_value",
+					"outcome": "failed"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "ok"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "quota"
+				}
+			],
+			"summary": [
+				"domain_overview: organic keywords 4, traffic 38, domainAuthority 6, backlinks 86, refDomains 65",
+				"Only ranking keyword listed: audio visual rental companies, position 54, volume 10, sd 5",
+				"domain_top_pages: noData. traffic_value: 403. Reports cost not measurable, user_limits stayed at reports 3"
+			],
+			"findings": [],
+			"discovered": {
+				"keywords": 1,
+				"aiPrompts": 33
+			}
+		},
 		{
 			"date": "2026-10-05",
 			"kind": "backlinks",
