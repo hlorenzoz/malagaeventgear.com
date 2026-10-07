@@ -267,7 +267,15 @@
       "anotada": "2026-10-07",
       "hecha": null,
       "origen": "usuario",
-      "notas": [],
+      "notas": [
+        "verificador 2026-10-07: ademas meet-the-team/i18n/en.ts:17 ('technicians who ensure the seamless setup and smooth operation of all sound",
+        "lighting",
+        "and screen equipment') y packages.ts:143 (Wedding Pack: 'On site live technical control and engineering support'). Frases que describen a un tecnico que coloca o maneja luces viven tambien en los posts fuente que alimentan post-faqs.json (stage-lighting-rental y lighting-ideas-for-wedding-rentals: 'deployed with a technician who manages placement and",
+        "for the uplighting kit",
+        "color'",
+        "'our technician places them around whatever shelter'): corregir en el post y correr just post-sync. Aviso aparte: la frase nueva de stage-uplighting 'If a fixture fails during the event",
+        "our technician is there to fix it' sugiere tecnico presente en toda reserva de uplighting; el kit esta en ningun paquete y el tecnico solo va en Wedding y MICE o como extra pagado: valorar 'if a technician is on site'"
+      ],
       "descripcion": [
         "Origen: hallazgo de #T0020 parte A (2026-10-07). Misma familia que #T0020: el hecho del negocio es que el tecnico opera el sonido y los microfonos y arregla fallas de proyector, pantalla y luces (CLAUDE.md, \"Que hace el tecnico en el evento\").",
         "Textos que todavia se pueden leer como tecnico de iluminacion u operador, sin tocar (13 idiomas cada uno):",
