@@ -397,24 +397,6 @@
       ]
     },
     {
-      "id": "#T0069",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"How much does it cost to rent a PA system?\"",
-      "anotada": "2026-10-07",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-07, ítem 1)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/sound-system-rental.svx",
-        "Keywords: cost to rent a pa system, concert sound system rental prices (google-ads 10/mo (below tier 100)), debajo del tier",
-        "Por qué: Pregunta de precio que los clientes de MEG hacen de verdad. /blog/sound-system-rental/ tiene 14 FAQs y ninguna trata el coste de alquilar un PA (sí lo hace projector-rental). Se agrupa con el FAQ vinculado 'how much does it cost to rent sound equipment' (misma intención). Los precios de concierto se resuelven con la misma respuesta por paquete.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0070",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1267,6 +1249,27 @@
         "5. El resto (equipo, técnica, genéricos, planning-timeline, near me).",
         "Ya traducidos al 2026-09-26: los 12 posts de la lista de \"Malaga, Spain en lo ya traducido\" más",
         "questions-to-ask-wedding-rental-companies."
+      ]
+    },
+    {
+      "id": "#T0069",
+      "estado": "bloqueada",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"How much does it cost to rent a PA system?\"",
+      "anotada": "2026-10-07",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-07, ítem 1)",
+      "notas": [
+        "bloqueada por todo-implementer 2026-10-07: el post ya tiene la FAQ equivalente 'How much does it cost to rent sound equipment?' (misma intencion",
+        "precios por paquete); el plan ya esta satisfecho"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/sound-system-rental.svx",
+        "Keywords: cost to rent a pa system, concert sound system rental prices (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Por qué: Pregunta de precio que los clientes de MEG hacen de verdad. /blog/sound-system-rental/ tiene 14 FAQs y ninguna trata el coste de alquilar un PA (sí lo hace projector-rental). Se agrupa con el FAQ vinculado 'how much does it cost to rent sound equipment' (misma intención). Los precios de concierto se resuelven con la misma respuesta por paquete.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
