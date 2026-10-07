@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): audio-visual-rental, nueva seccion "Where to Rent Audio Visual Equipment in Malaga" (2026-10-07)
+- Tarea #T0072 (pedido directo del orquestador, respuesta directa a "donde alquilar equipo audiovisual en Malaga").
+- Se agrego un H2 en `src/content/blog/audio-visual-rental.svx`, tras "Audio Visual Equipment We Rent in Malaga" y antes de "Serving Malaga and the Whole Costa del Sol". Lleva el NAP exacto de `site.ts` (Av. de Barcelona, 34, Distrito Centro, 29009 Malaga, 666 346 911), atencion en ingles o espanol, publico (eventos corporativos, bodas, eventos privados), lo propio frente a lo fuera de paquete (microfonos de corbata y diadema, kit de uplighting, a pedido) y la formula "no esta en nuestro inventario propio, contanos y buscamos con proveedores, si la hay". Sin enlaces a supporting posts, solo `/contact/`. Se omitio ", Spain" del encabezado porque la primera mencion del pais ya esta en la introduccion. Ninguna cifra, marca ni precio nuevo.
+- `updatedDate` paso a 2026-10-07 via `just post-sync`; `post-faqs.json` y `post-toc.json` regenerados.
+- Las 12 traducciones quedan stale y se actualizan en el mismo cambio.
+
 ### Changed (blog): tv-screen-rental, nueva FAQ "What screen size do I need for my conference room?" (2026-10-07)
 - Tarea #T0041 (plan de contenido 2026-10-07, keyword "What screen size do I need for my conference room?", research-paa newFaq enlazada a tv-screen-rental).
 - Se agrego al final de `## FAQs` en `src/content/blog/tv-screen-rental.svx` la pregunta con su bullet en el `## Table of Contents` inline. Responde con el unico tamano propio (60 pulgadas HD LED del MICE Pack), sin necesidad de sala oscura, y para salas profundas remite a la guia de proyectores (3000 y 5000 lumenes). Ninguna cifra ni tamano nuevo.
