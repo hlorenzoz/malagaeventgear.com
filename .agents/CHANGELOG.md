@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): tv-screen-rental, nueva FAQ "Do you rent an LED screen?" (2026-10-07)
+- Tarea #T0061 (plan de contenido 2026-10-07, keywords "led screen hire" y "led screen on hire", google-ads 30/mo).
+- Se agrego al final de `## FAQs` en `src/content/blog/tv-screen-rental.svx` la pregunta "Do you rent an LED screen?" y su bullet en el `## Table of Contents` inline. Distingue la pantalla plana de 60 pulgadas del MICE Pack (490 euros ex VAT, hasta 120 invitados, tecnico hasta 6 horas, enlace a la seccion de precios) del video wall o paneles LED modulares, que no estan en el inventario propio (enlace a "What We Don't Stock", busqueda con proveedores si la hay, sin marca, modelo, precio ni plazo).
+- `updatedDate` paso a 2026-10-07 via `just post-sync`; `post-faqs.json` y `post-toc.json` regenerados.
+- Las 12 traducciones quedan stale y se actualizan en el mismo cambio.
+
 ### Changed (blog): audio-visual-rental-for-music-performances, nueva FAQ de backline (2026-10-07)
 - Tarea #T0058 (plan de contenido 2026-10-07, keyword "concert backline", google-ads 50/mo).
 - Se agrego al final de `## FAQs` en `src/content/blog/audio-visual-rental-for-music-performances.svx` la pregunta "Do you provide concert backline, like amps or a drum kit, for a live band?". Dice que el backline no esta en el inventario propio, que buscamos solucion con proveedores si la hay (sin promesa de disponibilidad ni plazo) y que MEG trae PA, microfono y luces mientras la banda conecta su instrumental a su mesa. Sin marca, modelo ni precio. El post no tiene `## Table of Contents` inline, no hubo bullet que anadir.

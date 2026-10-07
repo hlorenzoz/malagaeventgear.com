@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-07",
+  "taskId": "#T0061",
+  "slug": "tv-screen-rental",
+  "searchTerm": "TV screen rental Do you rent an LED screen?",
+  "status": "ok",
+  "serp": {
+    "query": "Do you rent an LED screen?",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://www.kirklandwa.gov/Government/Departments/Parks-and-Community-Services/Special-Event-Services/Rent-an-LED-Screen", "title": "Rent an LED Screen" },
+      { "rank": 2, "url": "https://www.ems-events.co.uk/exploring-led-rentals-for-events-and-exhibitions", "title": "exploring led rentals for events and exhibitions" },
+      { "rank": 3, "url": "https://rentforevent.com/?p=14724", "title": "rentforevent.com" }
+    ]
+  },
+  "terms": [
+    { "term": "LED video wall", "kind": "entity", "seenIn": 2 },
+    { "term": "Outdoor LED screen", "kind": "entity", "seenIn": 2 },
+    { "term": "Indoor LED screen", "kind": "entity", "seenIn": 2 },
+    { "term": "Mobile LED screen", "kind": "entity", "seenIn": 2 },
+    { "term": "Corporate events", "kind": "entity", "seenIn": 2 },
+    { "term": "Festivals", "kind": "entity", "seenIn": 2 },
+    { "term": "Concerts", "kind": "entity", "seenIn": 1 },
+    { "term": "Trade shows", "kind": "entity", "seenIn": 1 },
+    { "term": "Weddings", "kind": "entity", "seenIn": 1 },
+    { "term": "Sports events", "kind": "entity", "seenIn": 1 },
+    { "term": "Hybrid events", "kind": "entity", "seenIn": 1 },
+    { "term": "Live camera feeds", "kind": "entity", "seenIn": 1 },
+    { "term": "HDMI input", "kind": "entity", "seenIn": 1 },
+    { "term": "HD-SDI input", "kind": "entity", "seenIn": 1 },
+    { "term": "Curved LED screen", "kind": "entity", "seenIn": 1 },
+    { "term": "Full-service rental", "kind": "related", "seenIn": 2 },
+    { "term": "Installation and setup", "kind": "related", "seenIn": 2 },
+    { "term": "Weatherproof rating", "kind": "related", "seenIn": 1 },
+    { "term": "Live streaming", "kind": "related", "seenIn": 1 },
+    { "term": "Damage deposit", "kind": "related", "seenIn": 1 },
+    { "term": "Cancellation policy", "kind": "related", "seenIn": 1 },
+    { "term": "What LED screen types exist?", "kind": "question", "seenIn": 1 },
+    { "term": "Why rent rather than buy an LED screen?", "kind": "question", "seenIn": 1 },
+    { "term": "How do I rent an LED screen?", "kind": "question", "seenIn": 2 },
+    { "term": "What factors determine the right screen?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Rent For Event", "reason": "competitor name" },
+    { "term": "Bazelmans AV", "reason": "competitor name" },
+    { "term": "Trailer-mounted LED display", "reason": "US municipal trailer product, not MEG's market" },
+    { "term": "IP67 weatherproof rating", "reason": "specific to one US trailer product" },
+    { "term": "Facility Use Permit option", "reason": "US city administrative term" },
+    { "term": "Four-hour minimum rental", "reason": "one city's policy, not general vocabulary" },
+    { "term": "Travel fees for off-site events", "reason": "pricing and fee term of another provider" },
+    { "term": "Typical pricing ranges", "reason": "prices" }
+  ]
+}
