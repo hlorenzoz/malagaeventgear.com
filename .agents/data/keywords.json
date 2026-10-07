@@ -80330,6 +80330,24 @@
       }
     },
     {
+      "id": "can-i-rent-pa-speakers-and-wireless-microphones-for-a-wedding-on-the-costa-del-sol",
+      "question": "Can I rent PA speakers and wireless microphones for a wedding on the Costa del Sol?",
+      "keywordId": "wedding-rentals",
+      "cluster": "wedding rentals",
+      "url": "/blog/wedding-rentals/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
+          "urls": [
+            "/blog/wedding-rentals/"
+          ]
+        }
+      }
+    },
+    {
       "id": "can-i-use-my-own-laptop-with-your-setup",
       "question": "Can I use my own laptop with your setup?",
       "keywordId": "audio-visual-rental-for-remote-presentations",
@@ -80772,6 +80790,24 @@
           "lastSeen": "2026-10-07",
           "urls": [
             "/blog/outdoor-movie-screen-and-projector-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-you-supply-tv-screens-for-an-exhibitor-stand-at-a-trade-show-in-malaga",
+      "question": "Can you supply TV screens for an exhibitor stand at a trade show in Malaga?",
+      "keywordId": "audio-visual-rental-for-trade-shows",
+      "cluster": "audio visual rental",
+      "url": "/blog/audio-visual-rental-for-trade-shows/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
+          "urls": [
+            "/blog/audio-visual-rental-for-trade-shows/"
           ]
         }
       }
@@ -82090,6 +82126,24 @@
         "site-faq": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-10-07"
+        }
+      }
+    },
+    {
+      "id": "do-you-provide-sound-and-lighting-hire-for-weddings-in-marbella",
+      "question": "Do you provide sound and lighting hire for weddings in Marbella?",
+      "keywordId": "wedding-rentals",
+      "cluster": "wedding rentals",
+      "url": "/blog/wedding-rentals/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
+          "urls": [
+            "/blog/wedding-rentals/"
+          ]
         }
       }
     },
