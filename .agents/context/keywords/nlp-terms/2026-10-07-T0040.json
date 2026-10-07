@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-07",
+  "taskId": "#T0040",
+  "slug": "audiovisual-equipment-rental-service",
+  "searchTerm": "audiovisual equipment rental service Why do some corporate setups use two microphones at the podium?",
+  "status": "partial",
+  "reason": "Google positions 1-2 (sweetwater.com) gave HTTP 403, 3 was empty, 4-6 were forums. Read positions 7, 8 and 10. The fohonline page is a press conference case study, loosely on topic.",
+  "serp": {
+    "query": "Why do some corporate setups use two microphones at the podium?",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://www.prosoundweb.com/built-for-a-purpose-podium-and-lavalier-mics/", "title": "Built For A Purpose – Podium and Lavalier Mics" },
+      { "rank": 2, "url": "https://fohonline.com/?p=108886", "title": "Earthworks Podium Microphones Capture Florida Governor's Press Conference" },
+      { "rank": 3, "url": "https://www.prosoundweb.com/same-but-different-working-corporate-events/2/", "title": "Same But Different: Working Corporate Events" }
+    ]
+  },
+  "terms": [
+    { "term": "podium microphone", "kind": "entity", "seenIn": 3 },
+    { "term": "wireless lavalier microphone", "kind": "entity", "seenIn": 2 },
+    { "term": "mixing console", "kind": "entity", "seenIn": 2 },
+    { "term": "mix-minus feeds", "kind": "related", "seenIn": 2 },
+    { "term": "gooseneck condenser microphone", "kind": "entity", "seenIn": 1 },
+    { "term": "cardioid pickup pattern", "kind": "related", "seenIn": 1 },
+    { "term": "supercardioid pattern", "kind": "related", "seenIn": 1 },
+    { "term": "XLR connectors", "kind": "entity", "seenIn": 1 },
+    { "term": "shock mounting", "kind": "related", "seenIn": 1 },
+    { "term": "conference microphone system", "kind": "entity", "seenIn": 1 },
+    { "term": "main PA system", "kind": "entity", "seenIn": 1 },
+    { "term": "confidence monitor", "kind": "entity", "seenIn": 1 },
+    { "term": "Q&A microphones", "kind": "entity", "seenIn": 1 },
+    { "term": "recording feeds", "kind": "related", "seenIn": 1 },
+    { "term": "video feeds", "kind": "related", "seenIn": 1 },
+    { "term": "feedback prevention", "kind": "related", "seenIn": 1 },
+    { "term": "signal routing", "kind": "related", "seenIn": 1 },
+    { "term": "press conference", "kind": "entity", "seenIn": 1 },
+    { "term": "Earthworks FMR500", "kind": "entity", "seenIn": 1 },
+    { "term": "Soundcraft Si Compact 24", "kind": "entity", "seenIn": 1 },
+    { "term": "Why use purpose-designed podium microphones?", "kind": "question", "seenIn": 1 },
+    { "term": "How do pickup patterns affect performance?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Florida governor's press conference", "reason": "place outside Spain" },
+    { "term": "Meyer Sound UPA-1P loudspeakers", "reason": "single product mention from a brand case study" },
+    { "term": "manufacturing facility", "reason": "not audio vocabulary" }
+  ]
+}
