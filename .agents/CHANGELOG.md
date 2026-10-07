@@ -7,6 +7,11 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (blog): stage-uplighting, el tecnico ya no opera los focos durante el evento (2026-10-07)
+- Tarea #T0020 parte B. Hecho de negocio (CLAUDE.md, "Que hace el tecnico en el evento"): el tecnico opera sonido y microfonos y arregla un fallo si algo se rompe. Nunca opera luces ni imagen. El color y la colocacion del kit ADJ Element H6 Pack se fijan en el montaje, antes de que lleguen los invitados.
+- Frases corregidas: "our technician manages the fixtures through your event" (seccion del kit, ahora sin tecnico y sin prometer horas), "our technician sets the color for your event on site" (seccion del kit y FAQ de colores, ahora "our crew sets the color at setup"), "checking and repositioning fixtures as needed" (FAQ de bateria, ahora el equipo instala y prueba antes y el tecnico arregla un fallo). Tambien: colocacion en cobertura, fila "Technician" de la tabla (ahora "Placement and color"), exteriores, FAQ de diferencias y de cuantos focos, "deployed with a technician" en la intro y el resumen, el pie de foto de la tarima MICE y el enlace a AV technician hire.
+- Sin hechos nuevos, sin cambios de encabezados, FAQ ni enlaces. `updatedDate` paso a 2026-10-07 con `just post-sync`: las 12 traducciones quedan desactualizadas y reciben las mismas frases en el mismo cambio.
+
 ### Fixed (copy): el tecnico a pedido opera sonido y microfonos y arregla fallos, ya no es "ingeniero de sonido y luz" (2026-10-07)
 - Tarea #T0020 parte A. Hecho de negocio (CLAUDE.md, "Que hace el tecnico en el evento", 2026-09-26): el tecnico opera el sonido y los microfonos, y si falla el proyector, la pantalla o una luz, lo resuelve. Las diapositivas las maneja el ponente. Nunca se lo presenta como ingeniero o tecnico de luces.
 - FAQ `technician` de cada pagina de paquete: "you can request a dedicated sound/light engineer to stay at your venue" pasa a "a dedicated technician to stay at your venue to operate the sound and microphones and to fix any projector, screen or light fault". Archivos: `src/routes/(public)/packages/[slug]/i18n/<locale>.ts` (en y los 12 idiomas: fr, it, de, nl, pt-pt, pt-br, sv, da, nb, zh-hans, zh-tw, zh-hk). Sin hechos nuevos ni importes.
