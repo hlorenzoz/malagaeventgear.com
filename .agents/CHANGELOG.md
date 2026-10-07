@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): audio-visual-rental, mencion editorial del partner Top Group Express en "MICE Pack: Comprehensive Audiovisual Setup for Success" (2026-10-07)
+- Tarea #T0034 (mencion de TGE, tanda 2, post 1 de 6, pedido directo del orquestador).
+- Se agrego un parrafo corto al final de la subseccion "MICE Pack: Comprehensive Audiovisual Setup for Success" de `src/content/blog/audio-visual-rental.svx` (pilar): los grupos corporativos y de incentivo que viajan a la Costa del Sol tambien necesitan alojamiento. Aclara que el alojamiento no es servicio de MEG (solo equipo audiovisual y el tecnico en sitio). Un solo enlace a `https://topgroupexpress.com/en` con el ancla "hotel rooms for incentive trips" (distinta de las de los otros posts). Enlace editorial normal, sin `rel="sponsored"` (partners, sin comision). Solo "years of experience", sin anos ni cifras de TGE, dirigido a quien organiza el viaje del grupo (agencias, DMC, empresas), sin prometer reserva directa. Sin encabezado nuevo y sin enlaces a supporting posts.
+- `updatedDate` ya era 2026-10-07 (cambio del mismo dia, por eso `post-sync` no lo movio); `post-faqs.json` y `post-toc.json` regenerados sin cambios de estructura.
+- Las 12 traducciones quedan desactualizadas en contenido y se actualizan en el mismo cambio (`post-translations-status` no las marca porque la fecha es la misma).
+
 ### Changed (blog): audio-visual-rental-planning-timeline, mencion editorial del partner Top Group Express en "Booking Across the Costa del Sol, Sevilla and Granada" (2026-10-07)
 - Tarea #T0034 (mencion de TGE, post 4 de 4, pedido directo del orquestador).
 - Se agrego un parrafo corto al final de la seccion "Booking Across the Costa del Sol, Sevilla and Granada" de `src/content/blog/audio-visual-rental-planning-timeline.svx`: el aviso de 24 horas solo cubre la parte tecnica, y el hotel de un grupo que viaja para el evento se planifica con mucha mas antelacion. Aclara que el alojamiento no es servicio de MEG (solo equipo audiovisual). Un solo enlace a `https://topgroupexpress.com/en` con el ancla "reserving accommodation for a group" (distinta de las de los otros 5 posts). Enlace editorial normal, sin `rel="sponsored"` (partners, sin comision). Solo "years of experience", sin anos, plazos ni cifras de TGE, dirigido a quien organiza el viaje del grupo (agencias, DMC, empresas), sin prometer reserva directa. Sin encabezado nuevo.
