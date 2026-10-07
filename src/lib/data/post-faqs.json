@@ -910,7 +910,7 @@
     },
     {
       "question": "Is Your Stage Lighting DMX Controlled or Programmable?",
-      "answer": "No. The Eurolite bar runs on a foot pedal, the Fresnel is a fixed zoom wash light with no automated movement, and the uplighting kit's color is set by our technician on site, not through a DMX signal or an app. See Foot Pedal Control, Not DMX above."
+      "answer": "No. The Eurolite bar runs on a foot pedal, the Fresnel is a fixed zoom wash light with no automated movement, and the uplighting kit's color is set by our crew at setup, not through a DMX signal or an app. See Foot Pedal Control, Not DMX above."
     },
     {
       "question": "Do You Offer Moving Head or Intelligent Lighting Fixtures?",
@@ -938,7 +938,7 @@
     },
     {
       "question": "Is Stage Lighting Available for Outdoor Events?",
-      "answer": "Yes, with an honest caveat. We have not confirmed a weatherproof or IP rating for any of our 5 fixtures, the 3 specialty items or the RGBW bars and fairy lights bundled into a package, so we do not market any of them as rated outdoor equipment. In practice, our technician assesses conditions on site, places fixtures around whatever shelter the venue offers, and recommends a covered backup position if rain is a real risk on your date. See Outdoor Use: Power and Honest Weather Limits above for the fixture by fixture mounting and power breakdown."
+      "answer": "Yes, with an honest caveat. We have not confirmed a weatherproof or IP rating for any of our 5 fixtures, the 3 specialty items or the RGBW bars and fairy lights bundled into a package, so we do not market any of them as rated outdoor equipment. In practice, our crew assesses conditions on site at setup, places fixtures around whatever shelter the venue offers, and recommends a covered backup position if rain is a real risk on your date. See Outdoor Use: Power and Honest Weather Limits above for the fixture by fixture mounting and power breakdown."
     },
     {
       "question": "Do You Provide Power for Outdoor Lighting Away From an Outlet?",
@@ -950,7 +950,7 @@
     },
     {
       "question": "Does Stage Lighting Rental Include a Technician, or Do I Run It Myself?",
-      "answer": "It depends on the fixture. The Eco Pack's RGBW light bars are set up and tested by our crew, then run without a technician for the rest of your event. The Wedding Pack's fairy lights come with a technician on site for the event. The Eurolite bars, Fresnel and uplighting kit are deployed with a technician who manages placement and, for the uplighting kit, color."
+      "answer": "It depends on the fixture. The Eco Pack's RGBW light bars are set up and tested by our crew, then run without a technician for the rest of your event. The Wedding Pack's fairy lights come with a technician on site for the event. The Eurolite bars, Fresnel and uplighting kit are placed by our crew at setup, and for the uplighting kit the crew also sets the color. A technician is on site only with the Wedding Pack, the MICE Pack or as a paid add on, and then fixes a fixture that fails during the event."
     },
     {
       "question": "Is \"Wireless Stage Lighting\" the Same as Your Uplighting Kit?",
@@ -1062,7 +1062,7 @@
     },
     {
       "question": "How Long Does the Battery Last?",
-      "answer": "We have not confirmed a runtime figure for the ADJ Element H6 Pack, so we are not going to publish one here. What we can confirm is that the kit is battery powered and our crew installs and tests it before the event. If a fixture fails during the event, our technician is there to fix it."
+      "answer": "We have not confirmed a runtime figure for the ADJ Element H6 Pack, so we are not going to publish one here. What we can confirm is that the kit is battery powered and our crew installs and tests it before the event. If a technician is on site (with the Wedding Pack, the MICE Pack or as a paid add on), they fix a fixture that fails during the event. Otherwise the kit runs on its own after our crew tests it."
     },
     {
       "question": "Can Uplighting Be Used Outdoors?",
@@ -1428,11 +1428,11 @@
     },
     {
       "question": "Does a Finca, Villa Terrace, Marquee or Ballroom Change What You Recommend?",
-      "answer": "Mostly in whether a fixture needs weather considered. We have not confirmed a weatherproof rating for the uplighting kit or our specialty fixtures, so for an open air finca or terrace wedding, our technician places them around whatever shelter the venue offers and confirms a covered backup position on site. An indoor ballroom or marquee removes that question entirely."
+      "answer": "Mostly in whether a fixture needs weather considered. We have not confirmed a weatherproof rating for the uplighting kit or our specialty fixtures, so for an open air finca or terrace wedding, our crew places them at setup around whatever shelter the venue offers and confirms a covered backup position on site. An indoor ballroom or marquee removes that question entirely."
     },
     {
       "question": "Does Wedding Stage Lighting Include a Technician?",
-      "answer": "It depends on the fixture. The Wedding Pack's fairy lights come with a technician on site for the event. The Eco Pack's RGBW spotlights are set up and tested, then self run. The uplighting kit, the Eurolite bar and the Fresnel are all deployed with a technician who manages placement, and for the uplighting kit, color, for your event."
+      "answer": "It depends on the fixture. The Wedding Pack's fairy lights come with a technician on site for the event. The Eco Pack's RGBW spotlights are set up and tested, then self run. The uplighting kit, the Eurolite bar and the Fresnel are all placed by our crew at setup, before your guests arrive, and for the uplighting kit the crew also sets the color. A technician is on site only with the Wedding Pack, the MICE Pack or as a paid add on, and then fixes a fixture that fails during the event."
     }
   ],
   "audio-visual-rental-for-seminars": [

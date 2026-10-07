@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (blog): stage-lighting-rental, stage-lighting-for-weddings y stage-uplighting, el tecnico ya no coloca ni maneja los focos (2026-10-07)
+- Tarea #T0075 parte D. Hecho de negocio (CLAUDE.md, "Que hace el tecnico en el evento"): el tecnico opera sonido y microfonos y arregla un fallo de luz. Colocar y fijar el color de los focos es del equipo en el montaje, antes de que lleguen los invitados.
+- `stage-lighting-rental` y `stage-lighting-for-weddings`: "our technician places/assesses/sets" pasa a "our crew ... at setup" (colocacion con lluvia o sin resguardo, color del kit ADJ Element H6 Pack, apuntado de la barra Eurolite y el Fresnel, FAQ de exteriores, de DMX y de "include a technician"). La FAQ del tecnico dice ahora que solo hay tecnico con el Wedding Pack, el MICE Pack o como add on de pago, y que arregla un fallo. La fila "technician managed" de la tabla del kit pasa a "placed and colored by our crew at setup". En la FAQ de pedal se quita "or technician" (no se sabe quien lo pisa).
+- `stage-uplighting`: la FAQ de bateria ya no dice "our technician is there to fix it" para toda reserva. Si hay tecnico (Wedding Pack, MICE Pack o add on de pago) arregla el foco, si no el kit corre solo tras la prueba del equipo.
+- Sin hechos nuevos, sin cambios de encabezados, FAQ ni enlaces. `updatedDate`: `stage-lighting-for-weddings` paso a 2026-10-07 (12 traducciones desactualizadas). `stage-lighting-rental` y `stage-uplighting` ya estaban en 2026-10-07, asi que NO se mueven y el test de frescura no marca sus traducciones: las 12 traducciones de cada una reciben las mismas frases en el mismo cambio igualmente.
+
 ### Fixed (copy): el tecnico ya no es ingeniero ni operador de luces en about-us, meet-the-team, Wedding Pack y FAQ (2026-10-07)
 - Tarea #T0075 parte C. Hecho de negocio (CLAUDE.md, "Que hace el tecnico en el evento"): el tecnico opera sonido y microfonos y arregla un fallo de proyector, pantalla o luz. Nunca lleva el show, ni opera imagen o luces, ni es ingeniero o tecnico de luces. Mismo tono y traducciones que `technician.a` de las paginas de paquete (commit fa8bf80e).
 - `about-us` (`offer.technicians.body`): "sound and lighting technicians available to oversee your setup, operation, and live monitoring" pasa a "technicians who handle your setup, operate the sound and microphones, and fix any projector, screen or light fault during your event", en ingles y 12 idiomas.
