@@ -433,25 +433,6 @@
       ]
     },
     {
-      "id": "#T0067",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/audio-visual-rental-for-music-performances/: \"Do you provide backline for a live band?\"",
-      "anotada": "2026-10-05",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-05, ítem 4)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/audio-visual-rental-for-music-performances.svx",
-        "Keywords: backline hire stage systems, backline sound system (google-ads 10/mo (below tier 100); google-ads 10/mo (below tier 100)), debajo del tier",
-        "Qué cubrir: Responder que el backline (amplificadores, bateria, teclados) no esta en nuestro inventario propio y que, si la banda lo necesita, nos cuenten que necesitan y buscamos una solucion con nuestros proveedores. Sin marca, modelo, cantidad, precio, disponibilidad ni plazo, y sin presentarlo como equipo propio. Mencionar lo que si aporta MEG: el sonido PA y la tecnica, segun el inventario CSV y packages.ts. Enlazar a la seccion DJ Set, Live Band or Duo.",
-        "Por qué: Ningun post trata backline (guitarras, bateria, teclados para una banda). Es una necesidad real en actuaciones en vivo que MEG puede resolver con proveedores, asi que encaja como FAQ en el post de musica en vivo, sin post nuevo (Goldilocks, demasiado estrecho).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0057",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1286,6 +1267,29 @@
         "5. El resto (equipo, técnica, genéricos, planning-timeline, near me).",
         "Ya traducidos al 2026-09-26: los 12 posts de la lista de \"Malaga, Spain en lo ya traducido\" más",
         "questions-to-ask-wedding-rental-companies."
+      ]
+    },
+    {
+      "id": "#T0067",
+      "estado": "bloqueada",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/audio-visual-rental-for-music-performances/: \"Do you provide backline for a live band?\"",
+      "anotada": "2026-10-05",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-05, ítem 4)",
+      "notas": [
+        "bloqueada por todo-implementer 2026-10-07: el post ya tiene la FAQ equivalente 'Do you provide concert backline",
+        "like amps or a drum kit",
+        "for a live band?' en EN y los 12 idiomas; plan ya satisfecho"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audio-visual-rental-for-music-performances.svx",
+        "Keywords: backline hire stage systems, backline sound system (google-ads 10/mo (below tier 100); google-ads 10/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Responder que el backline (amplificadores, bateria, teclados) no esta en nuestro inventario propio y que, si la banda lo necesita, nos cuenten que necesitan y buscamos una solucion con nuestros proveedores. Sin marca, modelo, cantidad, precio, disponibilidad ni plazo, y sin presentarlo como equipo propio. Mencionar lo que si aporta MEG: el sonido PA y la tecnica, segun el inventario CSV y packages.ts. Enlazar a la seccion DJ Set, Live Band or Duo.",
+        "Por qué: Ningun post trata backline (guitarras, bateria, teclados para una banda). Es una necesidad real en actuaciones en vivo que MEG puede resolver con proveedores, asi que encaja como FAQ en el post de musica en vivo, sin post nuevo (Goldilocks, demasiado estrecho).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
