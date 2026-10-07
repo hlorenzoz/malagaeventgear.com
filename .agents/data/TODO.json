@@ -3,66 +3,6 @@
   "updated": "2026-10-07",
   "tasks": [
     {
-      "id": "#T0054",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "visibilidad-ia",
-      "titulo": "IA: no aparecemos en \"Which company rents PA speakers and wireless microphones for a wedding on the Costa del Sol?\"",
-      "anotada": "2026-10-01",
-      "hecha": null,
-      "origen": "ubersuggest (ai-visibility, which-company-rents-pa-speakers-and-wireless-microphones-for-a-wedding-on-the-costa-del-sol)",
-      "notas": [],
-      "descripcion": [
-        "Marcas que si aparecen: Promusic Marbella, AEA Sound System Rent Marbella, Sonido e Iluminacion Pro-Sound, Nerja Sound & Lighting, Marbel...",
-        "Reporte ai-visibility de ubersuggest del 2026-10-01."
-      ]
-    },
-    {
-      "id": "#T0055",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "visibilidad-ia",
-      "titulo": "IA: no aparecemos en \"Who rents TV screens for exhibitor stands at a trade fair in Malaga?\"",
-      "anotada": "2026-10-01",
-      "hecha": null,
-      "origen": "ubersuggest (ai-visibility, who-rents-tv-screens-for-exhibitor-stands-at-a-trade-fair-in-malaga)",
-      "notas": [],
-      "descripcion": [
-        "Marcas que si aparecen: ninguna",
-        "Reporte ai-visibility de ubersuggest del 2026-10-01."
-      ]
-    },
-    {
-      "id": "#T0056",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "visibilidad-ia",
-      "titulo": "IA: no aparecemos en \"Which company provides sound and lighting hire for weddings in Marbella?\"",
-      "anotada": "2026-10-01",
-      "hecha": null,
-      "origen": "ubersuggest (ai-visibility, which-company-provides-sound-and-lighting-hire-for-weddings-in-marbella)",
-      "notas": [],
-      "descripcion": [
-        "Marcas que si aparecen: ninguna",
-        "Reporte ai-visibility de ubersuggest del 2026-10-01."
-      ]
-    },
-    {
-      "id": "#T0047",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"projector hire\" (new_content)",
-      "anotada": "2026-09-30",
-      "hecha": null,
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/projector-hire)",
-      "notas": [],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto medium, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
-      ]
-    },
-    {
       "id": "#T0048",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -375,25 +315,71 @@
       ]
     },
     {
-      "id": "#T0057",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Post nuevo /blog/outdoor-movie-screen-and-projector-rental/: Outdoor Movie Screen Rental in Malaga, Spain",
-      "anotada": "2026-10-02",
+      "id": "#T0054",
+      "estado": "bloqueada",
+      "prioridad": "alta",
+      "tipo": "visibilidad-ia",
+      "titulo": "IA: no aparecemos en \"Which company rents PA speakers and wireless microphones for a wedding on the Costa del Sol?\"",
+      "anotada": "2026-10-01",
       "hecha": null,
-      "origen": "content-strategist (plan 2026-10-02, ítem 3)",
-      "notas": [],
+      "origen": "ubersuggest (ai-visibility, which-company-rents-pa-speakers-and-wireless-microphones-for-a-wedding-on-the-costa-del-sol)",
+      "notas": [
+        "bloqueada hasta terminar las traducciones de todos los posts"
+      ],
       "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Silo: \"audio visual rental\"",
-        "Keyword: outdoor movie screen rental",
-        "Estructura: H2 What an Outdoor Movie Night Needs, H2 Outdoor Movie Screen Rental: Choosing Your Screen and Projector Size, H2 Sound for an Outdoor Movie: PA Speakers, Not a Home Cinema System, H2 Power, Weather and Timing From Dusk to Dark, H2 Matching Your Outdoor Movie Night to a Package",
-        "Keywords: movie screen rental, outdoor movie screen rental, outdoor movie projector and screen rental, outdoor movie theater screen rental, outdoor projector screen rental, outdoor theater screen rental, screen projector outdoor rental, rent a projector for outdoor movies (movie screen rental: google-ads 70/mo (below tier 100) | outdoor movie projector and screen rental: google-ads 70/mo (below tier 100) | outdoor movie screen rental: google-ads 70/mo (below tier 100) | outdoor movie theater screen rental: google-ads 70/mo (below tier 100) | outdoor projector screen rental: google-ads 70/mo (below tier 100) | outdoor theater screen rental: google-ads 70/mo (below tier 100) | screen projector outdoor rental: google-ads 70/mo (below tier 100) | rent a projector for outdoor movies: google-ads 50/mo (below tier 100)), debajo del tier",
-        "Qué cubrir: Keyword verbatim 'outdoor movie screen rental' va en el titulo y en el segundo H2; el resto de headings usa fraseo natural (el candidato trae 8 variantes lexicas casi identicas, agrupadas en este unico post). Enlace hacia abajo al pilar /blog/audio-visual-rental/ con anchor descriptivo tipo 'our full audio visual rental range in Malaga', nunca 'click here'. Entra en la cadena lateral entre /blog/projector-rental/ (hermano anterior, mismo equipo) y /blog/audio-visual-rental-for-outdoor-events/ (hermano siguiente, mismo contexto al aire libre): ambos deben reescribirse para enlazar a este post nuevo, y el implementador confirma el orden exacto en /map antes de tocarlos. El pilar audio-visual-rental todavia no tiene su enlace de vuelta implementado (CLAUDE.md, 'Reverse Silo del Blog', estado 2026-09-29), asi que este post no cambia ese enlace. Datos permitidos, todos verificados: Eco Pack, complemento opcional 'Projector & projection screen' por +50 euros (packages.ts, PRICE_POINTS.projectorScreen); Product Presentation Pack, incluye 1 pantalla de proyeccion frontal con soporte y 1 proyector de 5000 lumens; Basic MICE Pack, pantalla de 2x2m con proyector de 3000 lumens; CSV 2026.09.26: pantalla Da-Lite 2,30x3,00m (la mas grande, proyeccion frontal y retroproyeccion), 2x proyector Vivitek D5 3000 lumens, 1x Christie LX505 5000 lumens. Para el sonido, reusar lo ya confirmado en /blog/sound-system-rental/ (PA activo, uso outdoor) en vez de inventar un 'sistema de cine'. La seccion de clima/generador reusa los hechos ya publicados en /blog/audio-visual-rental-for-outdoor-events/ (generador disponible, superficies de cesped/arena). NUNCA afirmar que MEG ya hizo una noche de cine al aire libre: no hay post News que lo respalde (regla 4 del posicionamiento, CLAUDE.md), asi que la seccion 'Real Setups We've Delivered' de la plantilla debe reusar entregas reales de proyector/pantalla ya descritas en otros posts (por ejemplo projector-rental), nunca inventar un caso de noche de cine. Si un cliente pide una pantalla mas grande que la Da-Lite 2,30x3,00m, usar la formula del posicionamiento de soluciones integrales: 'no esta en nuestro inventario propio, contanos que necesitas y buscamos la solucion con nuestros proveedores', sin prometer tamano ni plazo.",
-        "Por qué: Ocho frases de Google Ads son la misma intencion semantica (proyector y pantalla para una noche de cine al aire libre), agrupadas en un solo item. Busque 'movie' y 'cinema' en el inventario completo de just content-inventory (los 77 posts) y no aparece en ningun lado: ni /blog/projector-rental/ (cubre lumens, 4K, proyeccion sobre fachada, pero no el formato de noche de cine) ni /blog/audio-visual-rental-for-outdoor-events/ (generador y clima para AV al aire libre en general, sin pantalla) ni /blog/tv-screen-rental/ (pantalla de 60 pulgadas explicitamente de interior) cubren este caso de uso. Pasa Goldilocks: sigue el mismo patron que los ~30 posts 'audio-visual-rental-for-<evento>' del silo (un evento especifico, ni mas ancho que el pilar ni demasiado estrecho). Respaldo real de inventario: el Eco Pack tiene el complemento opcional 'Projector & projection screen' (+50 euros, packages.ts PRICE_POINTS.projectorScreen), el Product Presentation Pack incluye 1 pantalla de proyeccion frontal con soporte y 1 proyector de 5000 lumens, el Basic MICE Pack incluye una pantalla de 2x2m con proyector de 3000 lumens, y el CSV de inventario (2026.09.26) lista la pantalla mas grande (Da-Lite 2,30x3,00m, proyeccion frontal y retroproyeccion) y los dos proyectores (Vivitek D5 3000 lumens x2, Christie LX505 5000 lumens). El sonido ya esta resuelto por /blog/sound-system-rental/, seccion 'Indoor and Outdoor Sound System Rental'. Es people-first real: las noches de cine al aire libre en villas y terrazas son un formato de fiesta privada habitual en el clima de la Costa del Sol, no solo una keyword con volumen. Prioridad media porque las 8 frases estan debajo del tier (50-70 vs 100-200), es la keyword de mejor avalancheFit disponible hoy entre las candidatas no cubiertas.",
-        "Enlaces: hacia arriba a /blog/audio-visual-rental/, entre projector-rental y audio-visual-rental-for-outdoor-events",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+        "Marcas que si aparecen: Promusic Marbella, AEA Sound System Rent Marbella, Sonido e Iluminacion Pro-Sound, Nerja Sound & Lighting, Marbel...",
+        "Reporte ai-visibility de ubersuggest del 2026-10-01."
+      ]
+    },
+    {
+      "id": "#T0055",
+      "estado": "bloqueada",
+      "prioridad": "alta",
+      "tipo": "visibilidad-ia",
+      "titulo": "IA: no aparecemos en \"Who rents TV screens for exhibitor stands at a trade fair in Malaga?\"",
+      "anotada": "2026-10-01",
+      "hecha": null,
+      "origen": "ubersuggest (ai-visibility, who-rents-tv-screens-for-exhibitor-stands-at-a-trade-fair-in-malaga)",
+      "notas": [
+        "bloqueada hasta terminar las traducciones de todos los posts"
+      ],
+      "descripcion": [
+        "Marcas que si aparecen: ninguna",
+        "Reporte ai-visibility de ubersuggest del 2026-10-01."
+      ]
+    },
+    {
+      "id": "#T0056",
+      "estado": "bloqueada",
+      "prioridad": "alta",
+      "tipo": "visibilidad-ia",
+      "titulo": "IA: no aparecemos en \"Which company provides sound and lighting hire for weddings in Marbella?\"",
+      "anotada": "2026-10-01",
+      "hecha": null,
+      "origen": "ubersuggest (ai-visibility, which-company-provides-sound-and-lighting-hire-for-weddings-in-marbella)",
+      "notas": [
+        "bloqueada hasta terminar las traducciones de todos los posts"
+      ],
+      "descripcion": [
+        "Marcas que si aparecen: ninguna",
+        "Reporte ai-visibility de ubersuggest del 2026-10-01."
+      ]
+    },
+    {
+      "id": "#T0047",
+      "estado": "bloqueada",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"projector hire\" (new_content)",
+      "anotada": "2026-09-30",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/projector-hire)",
+      "notas": [
+        "bloqueada hasta terminar las traducciones de todos los posts"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto medium, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
       ]
     },
     {
@@ -1060,6 +1046,30 @@
         "5. El resto (equipo, técnica, genéricos, planning-timeline, near me).",
         "Ya traducidos al 2026-09-26: los 12 posts de la lista de \"Malaga, Spain en lo ya traducido\" más",
         "questions-to-ask-wedding-rental-companies."
+      ]
+    },
+    {
+      "id": "#T0057",
+      "estado": "bloqueada",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Post nuevo /blog/outdoor-movie-screen-and-projector-rental/: Outdoor Movie Screen Rental in Malaga, Spain",
+      "anotada": "2026-10-02",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-02, ítem 3)",
+      "notas": [
+        "bloqueada hasta terminar las traducciones de todos los posts"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Silo: \"audio visual rental\"",
+        "Keyword: outdoor movie screen rental",
+        "Estructura: H2 What an Outdoor Movie Night Needs, H2 Outdoor Movie Screen Rental: Choosing Your Screen and Projector Size, H2 Sound for an Outdoor Movie: PA Speakers, Not a Home Cinema System, H2 Power, Weather and Timing From Dusk to Dark, H2 Matching Your Outdoor Movie Night to a Package",
+        "Keywords: movie screen rental, outdoor movie screen rental, outdoor movie projector and screen rental, outdoor movie theater screen rental, outdoor projector screen rental, outdoor theater screen rental, screen projector outdoor rental, rent a projector for outdoor movies (movie screen rental: google-ads 70/mo (below tier 100) | outdoor movie projector and screen rental: google-ads 70/mo (below tier 100) | outdoor movie screen rental: google-ads 70/mo (below tier 100) | outdoor movie theater screen rental: google-ads 70/mo (below tier 100) | outdoor projector screen rental: google-ads 70/mo (below tier 100) | outdoor theater screen rental: google-ads 70/mo (below tier 100) | screen projector outdoor rental: google-ads 70/mo (below tier 100) | rent a projector for outdoor movies: google-ads 50/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Keyword verbatim 'outdoor movie screen rental' va en el titulo y en el segundo H2; el resto de headings usa fraseo natural (el candidato trae 8 variantes lexicas casi identicas, agrupadas en este unico post). Enlace hacia abajo al pilar /blog/audio-visual-rental/ con anchor descriptivo tipo 'our full audio visual rental range in Malaga', nunca 'click here'. Entra en la cadena lateral entre /blog/projector-rental/ (hermano anterior, mismo equipo) y /blog/audio-visual-rental-for-outdoor-events/ (hermano siguiente, mismo contexto al aire libre): ambos deben reescribirse para enlazar a este post nuevo, y el implementador confirma el orden exacto en /map antes de tocarlos. El pilar audio-visual-rental todavia no tiene su enlace de vuelta implementado (CLAUDE.md, 'Reverse Silo del Blog', estado 2026-09-29), asi que este post no cambia ese enlace. Datos permitidos, todos verificados: Eco Pack, complemento opcional 'Projector & projection screen' por +50 euros (packages.ts, PRICE_POINTS.projectorScreen); Product Presentation Pack, incluye 1 pantalla de proyeccion frontal con soporte y 1 proyector de 5000 lumens; Basic MICE Pack, pantalla de 2x2m con proyector de 3000 lumens; CSV 2026.09.26: pantalla Da-Lite 2,30x3,00m (la mas grande, proyeccion frontal y retroproyeccion), 2x proyector Vivitek D5 3000 lumens, 1x Christie LX505 5000 lumens. Para el sonido, reusar lo ya confirmado en /blog/sound-system-rental/ (PA activo, uso outdoor) en vez de inventar un 'sistema de cine'. La seccion de clima/generador reusa los hechos ya publicados en /blog/audio-visual-rental-for-outdoor-events/ (generador disponible, superficies de cesped/arena). NUNCA afirmar que MEG ya hizo una noche de cine al aire libre: no hay post News que lo respalde (regla 4 del posicionamiento, CLAUDE.md), asi que la seccion 'Real Setups We've Delivered' de la plantilla debe reusar entregas reales de proyector/pantalla ya descritas en otros posts (por ejemplo projector-rental), nunca inventar un caso de noche de cine. Si un cliente pide una pantalla mas grande que la Da-Lite 2,30x3,00m, usar la formula del posicionamiento de soluciones integrales: 'no esta en nuestro inventario propio, contanos que necesitas y buscamos la solucion con nuestros proveedores', sin prometer tamano ni plazo.",
+        "Por qué: Ocho frases de Google Ads son la misma intencion semantica (proyector y pantalla para una noche de cine al aire libre), agrupadas en un solo item. Busque 'movie' y 'cinema' en el inventario completo de just content-inventory (los 77 posts) y no aparece en ningun lado: ni /blog/projector-rental/ (cubre lumens, 4K, proyeccion sobre fachada, pero no el formato de noche de cine) ni /blog/audio-visual-rental-for-outdoor-events/ (generador y clima para AV al aire libre en general, sin pantalla) ni /blog/tv-screen-rental/ (pantalla de 60 pulgadas explicitamente de interior) cubren este caso de uso. Pasa Goldilocks: sigue el mismo patron que los ~30 posts 'audio-visual-rental-for-<evento>' del silo (un evento especifico, ni mas ancho que el pilar ni demasiado estrecho). Respaldo real de inventario: el Eco Pack tiene el complemento opcional 'Projector & projection screen' (+50 euros, packages.ts PRICE_POINTS.projectorScreen), el Product Presentation Pack incluye 1 pantalla de proyeccion frontal con soporte y 1 proyector de 5000 lumens, el Basic MICE Pack incluye una pantalla de 2x2m con proyector de 3000 lumens, y el CSV de inventario (2026.09.26) lista la pantalla mas grande (Da-Lite 2,30x3,00m, proyeccion frontal y retroproyeccion) y los dos proyectores (Vivitek D5 3000 lumens x2, Christie LX505 5000 lumens). El sonido ya esta resuelto por /blog/sound-system-rental/, seccion 'Indoor and Outdoor Sound System Rental'. Es people-first real: las noches de cine al aire libre en villas y terrazas son un formato de fiesta privada habitual en el clima de la Costa del Sol, no solo una keyword con volumen. Prioridad media porque las 8 frases estan debajo del tier (50-70 vs 100-200), es la keyword de mejor avalancheFit disponible hoy entre las candidatas no cubiertas.",
+        "Enlaces: hacia arriba a /blog/audio-visual-rental/, entre projector-rental y audio-visual-rental-for-outdoor-events",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
