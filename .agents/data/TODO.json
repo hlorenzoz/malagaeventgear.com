@@ -471,26 +471,6 @@
       ]
     },
     {
-      "id": "#T0062",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Nueva sección H2 en /blog/audiovisual-equipment-rental-service/: \"Booking and Service Area\"",
-      "anotada": "2026-10-03",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-03, ítem 10)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/audiovisual-equipment-rental-service.svx",
-        "Ubicación: después de \"Real Specialized Equipment Setups We've Delivered\"",
-        "Keywords: audio visual equipment rental service near me (google-ads 20/mo (below tier 100)), debajo del tier",
-        "Qué cubrir: Reusar los mismos hechos ya publicados en /blog/sound-system-rental/ (seccion 'Booking and Service Area') y en /blog/audio-visual-rental/ (seccion 'Serving Malaga and the Whole Costa del Sol'): cobertura en Malaga y toda la Costa del Sol (Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas), alcance mas amplio a Sevilla, Granada, Ronda, Nerja y Antequera, el minimo de 400 euros para reservas en Granada y el aviso minimo de 24 horas para programar. No inventar ningun dato nuevo de cobertura. No agregar enlaces nuevos a otros supporting posts del silo: el pilar mantiene su unico enlace de vuelta ya existente (hacia headset-lavalier-microphone-rental, via la seccion de microfonos).",
-        "Por qué: Es la variante 'near me' del propio pilar del silo audiovisual equipment rental service, que hoy no tiene ninguna seccion de area de servicio (a diferencia de sus hermanos /blog/sound-system-rental/ y /blog/audio-visual-rental/, que si la tienen). Por la regla de doorway abuse, la demanda de 'near me' sobre un pilar va a una seccion de ese mismo pilar, nunca a una pagina nueva por localidad. Revise los 68 headings de los posts de la cadena (via content-inventory e inspeccion directa del .svx) y ninguno cubre el area de servicio de este pilar en especifico.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0063",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1476,6 +1456,28 @@
         "Keywords: led screen hire, led screen on hire (google-ads 30/mo (below tier 100)), debajo del tier",
         "Qué cubrir: Responder que si por 'LED screen' se busca la pantalla plana de 60 pulgadas, si la tenemos: es el display LED de alta definicion del MICE Pack (490 euros ex IVA, hasta 120 invitados, con tecnico incluido hasta 6 horas), el mismo producto ya descrito en 'TV Screen Rental Pricing and What's Included'. Si en cambio se busca un video wall o panel LED modular, aclarar que no esta en nuestro inventario propio (enlazar a 'What We Don't Stock') y usar la frase de posicionamiento de CLAUDE.md: contanos que necesitas y buscamos la solucion con nuestros proveedores, sin marca, modelo, cantidad, precio ni plazo prometido.",
         "Por qué: 'LED screen' es ambiguo entre la pantalla LED de 60 pulgadas que si tenemos (incluida en el MICE Pack, 490 euros) y el video wall LED modular que no tenemos (ya cubierto por la FAQ 'Do you rent LED video walls or modular LED panels?'). Ninguna FAQ de /blog/tv-screen-rental/ usa literalmente la frase 'LED screen', asi que una FAQ nueva que distinga ambos productos agrega valor real de desambiguacion sin repetir las existentes.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0062",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Nueva sección H2 en /blog/audiovisual-equipment-rental-service/: \"Booking and Service Area\"",
+      "anotada": "2026-10-03",
+      "hecha": "2026-10-07",
+      "origen": "content-strategist (plan 2026-10-03, ítem 10)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audiovisual-equipment-rental-service.svx",
+        "Ubicación: después de \"Real Specialized Equipment Setups We've Delivered\"",
+        "Keywords: audio visual equipment rental service near me (google-ads 20/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Reusar los mismos hechos ya publicados en /blog/sound-system-rental/ (seccion 'Booking and Service Area') y en /blog/audio-visual-rental/ (seccion 'Serving Malaga and the Whole Costa del Sol'): cobertura en Malaga y toda la Costa del Sol (Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas), alcance mas amplio a Sevilla, Granada, Ronda, Nerja y Antequera, el minimo de 400 euros para reservas en Granada y el aviso minimo de 24 horas para programar. No inventar ningun dato nuevo de cobertura. No agregar enlaces nuevos a otros supporting posts del silo: el pilar mantiene su unico enlace de vuelta ya existente (hacia headset-lavalier-microphone-rental, via la seccion de microfonos).",
+        "Por qué: Es la variante 'near me' del propio pilar del silo audiovisual equipment rental service, que hoy no tiene ninguna seccion de area de servicio (a diferencia de sus hermanos /blog/sound-system-rental/ y /blog/audio-visual-rental/, que si la tienen). Por la regla de doorway abuse, la demanda de 'near me' sobre un pilar va a una seccion de ese mismo pilar, nunca a una pagina nueva por localidad. Revise los 68 headings de los posts de la cadena (via content-inventory e inspeccion directa del .svx) y ninguno cubre el area de servicio de este pilar en especifico.",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
