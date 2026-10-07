@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-07';
 
 export default {
 	benefits: {
@@ -15,7 +15,7 @@ export default {
 		},
 		areas: {
 			q: 'Quais regiões vocês atendem na Andaluzia?',
-			a: 'Atendemos diariamente a cidade de Málaga, Marbella e toda a Costa del Sol. Também atendemos Sevilha e Granada (para pedidos acima de {price:outOfProvinceMinimum}). No momento não oferecemos a opção de retirada, já que trabalhamos exclusivamente com entrega.'
+			a: 'Atendemos diariamente a cidade de Málaga, Marbella e toda a Costa del Sol. Também atendemos Sevilha sem pedido mínimo e Granada para pedidos acima de {price:outOfProvinceMinimum}. No momento não oferecemos a opção de retirada, já que trabalhamos exclusivamente com entrega.'
 		},
 		rain: {
 			q: 'O que acontece se chover em um evento ao ar livre?',

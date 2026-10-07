@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-07';
 
 const copy = {
 	seo: {
@@ -15,7 +15,8 @@ const copy = {
 	},
 	whatsappLinkText: 'Send os en besked',
 	messages: {
-		packIntro: 'Hej, jeg er interesseret i at booke pakken: {pack}. Giv mig gerne besked om ledighed og detaljer.',
+		packIntro:
+			'Hej, jeg er interesseret i at booke pakken: {pack}. Giv mig gerne besked om ledighed og detaljer.',
 		categoryIntro:
 			'Hej, jeg er interesseret i at booke udstyr fra kategorien: {category}. Jeg ser frem til jeres tilbud.'
 	},

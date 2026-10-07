@@ -1,11 +1,12 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-25';
+export const updated = '2026-10-07';
 
 const copy = {
 	seo: {
 		title: '马拉加设备租赁常见问题 | MEG',
-		description: '查看Malaga Event Gear专业视听设备租赁的常见问题解答，涵盖套餐内容、服务范围（马拉加/太阳海岸）及预订要求。'
+		description:
+			'查看Malaga Event Gear专业视听设备租赁的常见问题解答，涵盖套餐内容、服务范围（马拉加/太阳海岸）及预订要求。'
 	},
 	hero: {
 		badge: '常见咨询',

@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-25';
+export const updated = '2026-10-07';
 
 export default {
 	seo: {
@@ -11,8 +11,7 @@ export default {
 	hero: {
 		badge: '常見查詢',
 		title: '常見問題',
-		intro:
-			'關於我們的專業視聽器材租借、運送、搭建及預約流程，您需要知道的一切盡在此頁。'
+		intro: '關於我們的專業視聽器材租借、運送、搭建及預約流程，您需要知道的一切盡在此頁。'
 	},
 	filters: {
 		all: '所有問題',

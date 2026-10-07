@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-25';
+export const updated = '2026-10-07';
 
 export default {
 	seo: {

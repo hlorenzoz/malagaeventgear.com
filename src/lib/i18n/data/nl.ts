@@ -3,7 +3,7 @@ import type { DataCopy } from '../data-copy';
 export default {
 	packages: {
 		eco: {
-			updated: '2026-09-24',
+			updated: '2026-10-07',
 			desc: 'Met het Eco Pack huur je een voordelige geluidsset voor je feest in Malaga, ideaal voor privéfeesten of kleine evenementen tot 50 gasten. Inclusief degelijk basisgeluid en sfeerverlichting.',
 			includes: [
 				'2 hoogwaardige actieve speakers met standaards',
@@ -11,19 +11,22 @@ export default {
 				'2 lichtbalken met RGBW-LED-spots',
 				'Esthetische bekabeling en professionele opbouw'
 			],
-			optional: ['Beamer & projectiescherm (+{price:projectorScreen})', 'Professionele rookmachine (+{price:smokeMachine})'],
+			optional: [
+				'Beamer & projectiescherm (+{price:projectorScreen})',
+				'Professionele rookmachine (+{price:smokeMachine})'
+			],
 			seo: { title: 'Eco Pack: geluidsset huren voor je feest in Malaga | MEG' },
 			landing: {
 				badge: 'Kleine evenementen & feesten',
 				rateLabel: 'Voordelig totaaltarief',
 				vatNote: '(+{vat} btw), opbouw en vervoer inbegrepen',
 				specTitle: 'Tot 50 gasten',
-				specBody: 'Perfect voor villa\'s, tuinen en privézalen.',
+				specBody: "Perfect voor villa's, tuinen en privézalen.",
 				highlightTitle: 'Zorgeloze service',
 				highlightBody:
 					'We werken uitsluitend op basis van levering met rechtstreekse opbouw. We brengen de apparatuur, installeren deze professioneel, testen geluid en licht, en halen alles weer op na het evenement.',
 				includesLabel: 'Wat is inbegrepen',
-				optionalLabel: 'Optionele extra\'s',
+				optionalLabel: "Optionele extra's",
 				ctaHeading: 'Leg je boeking nu vast',
 				ctaBody:
 					'Vul ons snelle offerteformulier in om de beschikbaarheid van dit pakket voor jouw datum te checken. We reageren zo snel mogelijk!',
@@ -31,7 +34,7 @@ export default {
 			}
 		},
 		wedding: {
-			updated: '2026-09-24',
+			updated: '2026-10-07',
 			desc: 'Het Wedding Pack is tot in de puntjes ontworpen voor magische, onvergetelijke bruiloften. Zo huur je geluid en licht voor je bruiloft op topniveau: een professioneel geluidssysteem van topkwaliteit, romantische sfeerverlichting en draadloze microfoons voor ontroerende speeches.',
 			includes: [
 				'Actief PA-systeem van topkwaliteit voor maximaal 80 gasten',
@@ -49,7 +52,7 @@ export default {
 				rateLabel: 'Premium totaaltarief',
 				vatNote: '(+{vat} btw), opbouw en live ondersteuning inbegrepen',
 				specTitle: 'Tot 80 gasten',
-				specBody: 'Perfect voor prachtige villa\'s, finca\'s en trouwhotels.',
+				specBody: "Perfect voor prachtige villa's, finca's en trouwhotels.",
 				highlightTitle: 'Live technicus ter plaatse',
 				highlightBody:
 					'Geen zorgen meer over rondzingende microfoons of beeldproblemen. Dit pakket omvat volledige live technische monitoring en akoestische bijstellingen tijdens je diner en de speeches.',
@@ -61,7 +64,7 @@ export default {
 			}
 		},
 		'product-presentation': {
-			updated: '2026-09-24',
+			updated: '2026-10-07',
 			desc: 'Ontworpen voor zakelijke presentaties, showroomevenementen en productlanceringen met grote visuele impact. Zo huur je een beamer en scherm voor je presentatie, met haarscherpe beelden.',
 			includes: [
 				'1 frontprojectiescherm met stabiele standaard',
@@ -91,7 +94,7 @@ export default {
 			}
 		},
 		'basic-mice': {
-			updated: '2026-09-24',
+			updated: '2026-10-07',
 			desc: 'Essentiële, krachtige audiovisuele opstelling voor kleine directievergaderingen, conferenties en presentaties tot 40 gasten. Ideaal als je vergaderapparatuur wilt huren voor een kleine bijeenkomst.',
 			includes: [
 				'2x2 m projectiescherm en een beamer met hoge lichtopbrengst (3000 lumen)',
@@ -119,7 +122,7 @@ export default {
 			}
 		},
 		mice: {
-			updated: '2026-09-26',
+			updated: '2026-10-07',
 			desc: 'Complete zakelijke MICE-oplossing met een groot beeldscherm, premium actieve geluidsversterking, een zwanenhalsmicrofoon en een draadloze handmicrofoon, plus een vaste technicus ter plaatse. Zo huur je congrestechniek in Malaga waarbij aan elk detail van je evenement is gedacht.',
 			includes: [
 				'Premium HD-LED-scherm van 60 inch met designstandaard',
@@ -144,7 +147,7 @@ export default {
 				highlightBody:
 					'Een gespecialiseerde AV-technicus blijft tot 6 uur onafgebroken ter plaatse, runt het geluid en de microfoons en lost elk probleem met het scherm op, zodat je top, conferentie of productlancering zonder onderbreking verloopt.',
 				includesLabel: 'Inbegrepen premiumdiensten',
-				optionalLabel: 'Optionele extra\'s',
+				optionalLabel: "Optionele extra's",
 				ctaHeading: 'Geef je zakelijke evenement extra slagkracht',
 				ctaBody:
 					'Bied een vlekkeloze zakelijke ervaring met premium AV-apparatuur en vaste technische ondersteuning. Neem vandaag nog contact op met ons team om de beschikbaarheid voor je datum te bevestigen.',
@@ -169,7 +172,8 @@ export default {
 				'Hoewel "Malaga" in onze naam zit, reikt onze dienstverlening ver voorbij de stad. We zijn vooral actief aan de hele Costa del Sol, waaronder Malaga stad, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena en Estepona. We bedienen ook Sevilla en Granada, al is voor Granada doorgaans een boeking van meer dan {price:outOfProvinceMinimum} vereist vanwege de reisafstand buiten de provincie.'
 		},
 		'what-makes-unique': {
-			question: 'Wat maakt Malaga Event Gear (MEG) uniek in vergelijking met andere verhuurbedrijven voor audiovisuele apparatuur?',
+			question:
+				'Wat maakt Malaga Event Gear (MEG) uniek in vergelijking met andere verhuurbedrijven voor audiovisuele apparatuur?',
 			answer:
 				'MEG onderscheidt zich door een klantgerichte, gestroomlijnde aanpak: levering en professionele opbouw door ons eigen team bij elke boeking, een technicus ter plaatse bij het Wedding Pack en het MICE Pack, apparatuur van premium merken en transparante totaalprijzen. We werken toe naar een 100% online boekingservaring met vaste, gestandaardiseerde prijzen en volledig transparante transacties.'
 		},
@@ -189,14 +193,15 @@ export default {
 				'Malaga Event Gear (MEG) communiceert met klanten in het Engels en Spaans. We zijn 24 uur per dag, 7 dagen per week bereikbaar voor technische opbouw en live evenementmonitoring.'
 		},
 		'contact-info': {
-			question: 'Hoe kunnen klanten contact opnemen met Malaga Event Gear (MEG), en welke informatie moeten zij verstrekken?',
+			question:
+				'Hoe kunnen klanten contact opnemen met Malaga Event Gear (MEG), en welke informatie moeten zij verstrekken?',
 			answer:
 				'Je kunt ons telefonisch bereiken op 666 346 911, via WhatsApp of per e-mail. Voor een nauwkeurige offerte vragen we je om de datum van je evenement, de locatie, het verwachte aantal gasten en het type apparatuur of pakket waarin je interesse hebt door te geven. Bekijk onze contactpagina voor meer informatie.'
 		},
 		'delivery-setup': {
 			question: 'Bieden jullie levering en opbouw voor geluids- en lichtapparatuur?',
 			answer:
-				'Ja. MEG verzorgt volledige levering, professionele opbouw en afbraak na afloop voor alle geluids- en lichtverhuur. Onze service omvat vervoer, installatie, wegwerken van kabels, geluids- en lichtcontroles, en optionele technische ondersteuning ter plaatse in Málaga, Marbella, Fuengirola, Torremolinos, Estepona en omliggende regio\'s.'
+				"Ja. MEG verzorgt volledige levering, professionele opbouw en afbraak na afloop voor alle geluids- en lichtverhuur. Onze service omvat vervoer, installatie, wegwerken van kabels, geluids- en lichtcontroles, en optionele technische ondersteuning ter plaatse in Málaga, Marbella, Fuengirola, Torremolinos, Estepona en omliggende regio's."
 		},
 		'vat-pricing': {
 			question: 'Zijn jullie pakketprijzen inclusief btw?',
@@ -221,7 +226,7 @@ export default {
 		'streaming-recording': {
 			question: 'Bieden jullie livestreaming en multicamera-opnames aan?',
 			answer:
-				'Niet uit onze eigen voorraad. Camera\'s, filmopnames en livestreaming horen daar niet bij, dus we verzorgen zelf geen productie met meerdere camera\'s. Wij leveren het geluid, het scherm en de verlichting in de zaal, en voor een hybride of virtueel evenement neem je meestal zelf je laptop, streamingsoftware en internetverbinding mee. Heeft je evenement een cameraploeg of een streamingopstelling nodig, laat het ons weten: we kunnen nagaan of een van onze leveranciers dat kan verzorgen, als die er is.'
+				"Niet uit onze eigen voorraad. Camera's, filmopnames en livestreaming horen daar niet bij, dus we verzorgen zelf geen productie met meerdere camera's. Wij leveren het geluid, het scherm en de verlichting in de zaal, en voor een hybride of virtueel evenement neem je meestal zelf je laptop, streamingsoftware en internetverbinding mee. Heeft je evenement een cameraploeg of een streamingopstelling nodig, laat het ons weten: we kunnen nagaan of een van onze leveranciers dat kan verzorgen, als die er is."
 		},
 		'translation-voting': {
 			question: 'Bieden jullie simultaanvertaling of interactieve stemsystemen aan?',
@@ -241,58 +246,102 @@ export default {
 		'minimum-order-granada': {
 			question: 'Is er een minimumbestelling voor service buiten de Costa del Sol?',
 			answer:
-				'Binnen de Costa del Sol geldt geen speciaal minimum. Voor verder gelegen bestemmingen buiten de provincie, zoals Granada, vragen we een minimale huurwaarde van meer dan {price:outOfProvinceMinimum} om de logistieke reis van een dag te dekken. Ook Sevilla wordt bediend. Neem contact op om de voorwaarden voor jouw specifieke locatie te bevestigen.'
+				'Binnen de Costa del Sol geldt geen speciaal minimum. Ook Sevilla wordt bediend, zonder minimumbestelling. Alleen voor Granada, een verder gelegen bestemming buiten de provincie, vragen we een minimale huurwaarde van meer dan {price:outOfProvinceMinimum} om de logistieke reis van een dag te dekken. Neem contact op om de voorwaarden voor jouw specifieke locatie te bevestigen.'
 		},
 		'customize-package': {
 			question: 'Kan ik een pakket aanpassen of uitbreiden voor mijn specifieke wensen?',
 			answer:
-				'Ja. Elk pakket kan worden uitgebreid met extra\'s zoals beamers en schermen, een professionele rookmachine (Martin Magnum 650), extra microfoons, premium spreekgestoelten van acryl, modulaire podiumplatforms en extra uren van een technicus ter plaatse. Vertel ons je wensen bij het aanvragen van een offerte en we stellen de perfecte configuratie samen voor je evenement.'
+				"Ja. Elk pakket kan worden uitgebreid met extra's zoals beamers en schermen, een professionele rookmachine (Martin Magnum 650), extra microfoons, premium spreekgestoelten van acryl, modulaire podiumplatforms en extra uren van een technicus ter plaatse. Vertel ons je wensen bij het aanvragen van een offerte en we stellen de perfecte configuratie samen voor je evenement."
 		}
 	},
 	gallery: {
-		'https://cdn.malagaeventgear.com/blog/1638/wedding_rings_heart_book-600x400.webp': 'Details van een huwelijksceremonie',
-		'https://cdn.malagaeventgear.com/blog/1632/wedding_reception_decor-600x375.webp': 'Elegante decoratie van een bruiloftsreceptie',
-		'https://cdn.malagaeventgear.com/blog/1625/beach_wedding_table_decor-600x400.webp': 'Gedekte en versierde tafel voor een bruiloft op het strand',
-		'https://cdn.malagaeventgear.com/blog/1631/wedding_table_setting-600x400.webp': 'Romantisch gedekte bruiloftstafel',
-		'https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-600x400.webp': 'Dinertafel van een avondbruiloft met zacht licht',
-		'https://cdn.malagaeventgear.com/blog/1629/beach_wedding_setup-600x400.webp': 'Prachtige opstelling voor een huwelijksceremonie op het strand',
-		'https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-600x400.webp': 'Ingerichte zaal voor een huwelijksceremonie binnen',
-		'https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding-600x400.webp': 'Ceremonieboog van een tropische strandbruiloft',
-		'https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-600x400.webp': 'Gangpad met stoelen bij een tropische strandbruiloft',
-		'https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-scaled-600x448.webp': 'AV-installatie te huur voor een internationaal evenement in Malaga',
-		'https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1-600x401.webp': 'Illustratieve foto van een congreszaal met projectieschermen en een camera op een statief',
-		'https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-scaled-600x448.webp': 'Geluid te huur voor de vergadering van een beroepsvereniging',
-		'https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-600x450.webp': 'Geluidsinstallatie voor een buurtvergadering',
-		'https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp': 'Geluid en licht op het podium bij een MICE-evenement',
-		'https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled-600x448.webp': 'Geluidssysteem te huur voor een grootschalig congres in Hotel Alfonso XIII, Sevilla',
-		'https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-scaled-600x448.webp': 'Podiumopstelling voor een congres in Hotel Alfonso XIII, Sevilla',
-		'https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-scaled-600x448.webp': 'Geluidsinstallatie voor een presentatie bij een Volvo-dealer in Malaga',
-		'https://cdn.malagaeventgear.com/blog/1261/methacrylate_lectern_outdoor_event-600x448.webp': 'Spreekgestoelte van methacrylaat bij een evenement buiten',
-		'https://cdn.malagaeventgear.com/blog/1292/malaga_event_lighting_display_projector_sound_rental_3-scaled-600x448.webp': 'Professioneel beeldscherm, projector en geluidssysteem te huur',
-		'https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled-600x448.webp': 'Indrukwekkende installatie met licht en geluid voor een evenement',
-		'https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1-600x450.webp': 'Licht en geluid voor een evenement met scherm',
-		'https://cdn.malagaeventgear.com/blog/1195/sound-system-tennis-championship-2024-setup-600x338.webp': 'Geluidsinstallatie voor een tenniskampioenschap',
-		'https://cdn.malagaeventgear.com/blog/1788/2025-10-05-DJ-audio-and-microphone-system-setup-600x450.webp': 'Opstelling van DJ-geluid en microfoons',
-		'https://cdn.malagaeventgear.com/blog/1289/malaga_event_lighting_display_projector_sound_rental_1-scaled-600x448.webp': 'Professionele evenementverlichting en projectiescherm',
-		'https://cdn.malagaeventgear.com/blog/1294/malaga_event_lighting_big_display_projector_sound_rental_1-scaled-600x448.webp': 'Podium, geluid, beeld en opstelling op maat',
-		'https://cdn.malagaeventgear.com/blog/1327/malaga_concert_lighting_microphone_audio_rental-scaled-600x448.webp': 'Concertverlichting, microfoons en geluid te huur',
-		'https://cdn.malagaeventgear.com/blog/1275/malaga_sound_system_rental_outdoor_event-scaled-600x448.webp': 'Geluidssysteem te huur op het dakterras van Hotel Alfonso XIII, Sevilla',
-		'https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-600x448.webp': 'Geluid en licht te huur voor evenementen met een liveband',
-		'https://cdn.malagaeventgear.com/blog/1323/rental-audio-system-parties-events-600x448.webp': 'Verhuur van een geluidssysteem in Malaga voor een strandfeest met professionele dj-apparatuur, luidsprekers en een uitgelaten menigte',
-		'https://cdn.malagaeventgear.com/blog/1324/rent-microphone-parties-concerts-events-malaga-600x803.webp': 'Livemuziek tijdens een evenement in Malaga met een zangeres met professionele microfoon en een gitarist, voor een levendige en elegante sfeer',
-		'https://cdn.malagaeventgear.com/blog/1325/audio-lighting-sound-system-microphone-rental-malaga-600x803.webp': 'Een dj en een gitarist treden op met professionele geluids- en lichtapparatuur tijdens een buitenevenement in de provincie Malaga',
-		'https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-600x803.webp': 'Podium en geluidssysteem voor een concert in de provincie Malaga',
-		'https://cdn.malagaeventgear.com/blog/1787/2025-10-05-at-DJ-audio-and-microphone-system-setup-600x800.webp': 'Detailopname van professionele dj-apparatuur met mediaspeler en mixer tijdens het evenement van een vrouwelijke dj',
-		'https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-600x450.webp': 'Vijf beeldschermen op een rij op een exposantenstand op ECOC 2026, Malaga',
-		'https://cdn.malagaeventgear.com/blog/3099/ecoc2026-malaga-spain-2-600x450.webp': 'Drie standschermen geïnstalleerd voor een exposant op de beurs van ECOC 2026',
-		'https://cdn.malagaeventgear.com/blog/3097/ecoc2026-malaga-spain-5-600x450.webp': 'Afgewerkte exposantenstand op ECOC 2026 met geïnstalleerd beeldscherm',
-		'https://cdn.malagaeventgear.com/blog/3102/ecoc2026-malaga-spain-3-600x450.webp': 'Standscherm geïnstalleerd op de beurs van ECOC 2026 in Malaga',
-		'https://cdn.malagaeventgear.com/blog/3098/ecoc2026-malaga-spain-9-600x450.webp': 'Scherm voor technologiedemonstraties op een exposantenstand van ECOC 2026',
-		'https://cdn.malagaeventgear.com/blog/3101/ecoc2026-malaga-spain-11-600x450.webp': 'Standschermen met live productcontent op ECOC 2026, Malaga',
-		'https://cdn.malagaeventgear.com/blog/3105/ecoc2026-malaga-spain-6-600x450.webp': 'Teams van exposanten nemen hun stands in gebruik op ECOC 2026, FYCMA Malaga',
-		'https://cdn.malagaeventgear.com/blog/3106/ecoc2026-malaga-spain-7-600x450.webp': 'Exposanten sluiten laptops aan op hun standschermen op ECOC 2026',
-		'https://cdn.malagaeventgear.com/blog/3100/ecoc2026-malaga-spain-10-600x450.webp': 'Beeldschermen op naburige exposantenstands op ECOC 2026',
-		'https://cdn.malagaeventgear.com/blog/3103/ecoc2026-malaga-spain-12-600x450.webp': 'Opbouw op de beursvloer van ECOC 2026 in FYCMA, Malaga',
-		'https://cdn.malagaeventgear.com/blog/3104/ecoc2026-malaga-spain-1-600x450.webp': 'Bezoekers naast een standscherm op de beurs van ECOC 2026'
+		'https://cdn.malagaeventgear.com/blog/1638/wedding_rings_heart_book-600x400.webp':
+			'Details van een huwelijksceremonie',
+		'https://cdn.malagaeventgear.com/blog/1632/wedding_reception_decor-600x375.webp':
+			'Elegante decoratie van een bruiloftsreceptie',
+		'https://cdn.malagaeventgear.com/blog/1625/beach_wedding_table_decor-600x400.webp':
+			'Gedekte en versierde tafel voor een bruiloft op het strand',
+		'https://cdn.malagaeventgear.com/blog/1631/wedding_table_setting-600x400.webp':
+			'Romantisch gedekte bruiloftstafel',
+		'https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-600x400.webp':
+			'Dinertafel van een avondbruiloft met zacht licht',
+		'https://cdn.malagaeventgear.com/blog/1629/beach_wedding_setup-600x400.webp':
+			'Prachtige opstelling voor een huwelijksceremonie op het strand',
+		'https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-600x400.webp':
+			'Ingerichte zaal voor een huwelijksceremonie binnen',
+		'https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding-600x400.webp':
+			'Ceremonieboog van een tropische strandbruiloft',
+		'https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-600x400.webp':
+			'Gangpad met stoelen bij een tropische strandbruiloft',
+		'https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-scaled-600x448.webp':
+			'AV-installatie te huur voor een internationaal evenement in Malaga',
+		'https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1-600x401.webp':
+			'Illustratieve foto van een congreszaal met projectieschermen en een camera op een statief',
+		'https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-scaled-600x448.webp':
+			'Geluid te huur voor de vergadering van een beroepsvereniging',
+		'https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-600x450.webp':
+			'Geluidsinstallatie voor een buurtvergadering',
+		'https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp':
+			'Geluid en licht op het podium bij een MICE-evenement',
+		'https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled-600x448.webp':
+			'Geluidssysteem te huur voor een grootschalig congres in Hotel Alfonso XIII, Sevilla',
+		'https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-scaled-600x448.webp':
+			'Podiumopstelling voor een congres in Hotel Alfonso XIII, Sevilla',
+		'https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-scaled-600x448.webp':
+			'Geluidsinstallatie voor een presentatie bij een Volvo-dealer in Malaga',
+		'https://cdn.malagaeventgear.com/blog/1261/methacrylate_lectern_outdoor_event-600x448.webp':
+			'Spreekgestoelte van methacrylaat bij een evenement buiten',
+		'https://cdn.malagaeventgear.com/blog/1292/malaga_event_lighting_display_projector_sound_rental_3-scaled-600x448.webp':
+			'Professioneel beeldscherm, projector en geluidssysteem te huur',
+		'https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled-600x448.webp':
+			'Indrukwekkende installatie met licht en geluid voor een evenement',
+		'https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1-600x450.webp':
+			'Licht en geluid voor een evenement met scherm',
+		'https://cdn.malagaeventgear.com/blog/1195/sound-system-tennis-championship-2024-setup-600x338.webp':
+			'Geluidsinstallatie voor een tenniskampioenschap',
+		'https://cdn.malagaeventgear.com/blog/1788/2025-10-05-DJ-audio-and-microphone-system-setup-600x450.webp':
+			'Opstelling van DJ-geluid en microfoons',
+		'https://cdn.malagaeventgear.com/blog/1289/malaga_event_lighting_display_projector_sound_rental_1-scaled-600x448.webp':
+			'Professionele evenementverlichting en projectiescherm',
+		'https://cdn.malagaeventgear.com/blog/1294/malaga_event_lighting_big_display_projector_sound_rental_1-scaled-600x448.webp':
+			'Podium, geluid, beeld en opstelling op maat',
+		'https://cdn.malagaeventgear.com/blog/1327/malaga_concert_lighting_microphone_audio_rental-scaled-600x448.webp':
+			'Concertverlichting, microfoons en geluid te huur',
+		'https://cdn.malagaeventgear.com/blog/1275/malaga_sound_system_rental_outdoor_event-scaled-600x448.webp':
+			'Geluidssysteem te huur op het dakterras van Hotel Alfonso XIII, Sevilla',
+		'https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-600x448.webp':
+			'Geluid en licht te huur voor evenementen met een liveband',
+		'https://cdn.malagaeventgear.com/blog/1323/rental-audio-system-parties-events-600x448.webp':
+			'Verhuur van een geluidssysteem in Malaga voor een strandfeest met professionele dj-apparatuur, luidsprekers en een uitgelaten menigte',
+		'https://cdn.malagaeventgear.com/blog/1324/rent-microphone-parties-concerts-events-malaga-600x803.webp':
+			'Livemuziek tijdens een evenement in Malaga met een zangeres met professionele microfoon en een gitarist, voor een levendige en elegante sfeer',
+		'https://cdn.malagaeventgear.com/blog/1325/audio-lighting-sound-system-microphone-rental-malaga-600x803.webp':
+			'Een dj en een gitarist treden op met professionele geluids- en lichtapparatuur tijdens een buitenevenement in de provincie Malaga',
+		'https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-600x803.webp':
+			'Podium en geluidssysteem voor een concert in de provincie Malaga',
+		'https://cdn.malagaeventgear.com/blog/1787/2025-10-05-at-DJ-audio-and-microphone-system-setup-600x800.webp':
+			'Detailopname van professionele dj-apparatuur met mediaspeler en mixer tijdens het evenement van een vrouwelijke dj',
+		'https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-600x450.webp':
+			'Vijf beeldschermen op een rij op een exposantenstand op ECOC 2026, Malaga',
+		'https://cdn.malagaeventgear.com/blog/3099/ecoc2026-malaga-spain-2-600x450.webp':
+			'Drie standschermen geïnstalleerd voor een exposant op de beurs van ECOC 2026',
+		'https://cdn.malagaeventgear.com/blog/3097/ecoc2026-malaga-spain-5-600x450.webp':
+			'Afgewerkte exposantenstand op ECOC 2026 met geïnstalleerd beeldscherm',
+		'https://cdn.malagaeventgear.com/blog/3102/ecoc2026-malaga-spain-3-600x450.webp':
+			'Standscherm geïnstalleerd op de beurs van ECOC 2026 in Malaga',
+		'https://cdn.malagaeventgear.com/blog/3098/ecoc2026-malaga-spain-9-600x450.webp':
+			'Scherm voor technologiedemonstraties op een exposantenstand van ECOC 2026',
+		'https://cdn.malagaeventgear.com/blog/3101/ecoc2026-malaga-spain-11-600x450.webp':
+			'Standschermen met live productcontent op ECOC 2026, Malaga',
+		'https://cdn.malagaeventgear.com/blog/3105/ecoc2026-malaga-spain-6-600x450.webp':
+			'Teams van exposanten nemen hun stands in gebruik op ECOC 2026, FYCMA Malaga',
+		'https://cdn.malagaeventgear.com/blog/3106/ecoc2026-malaga-spain-7-600x450.webp':
+			'Exposanten sluiten laptops aan op hun standschermen op ECOC 2026',
+		'https://cdn.malagaeventgear.com/blog/3100/ecoc2026-malaga-spain-10-600x450.webp':
+			'Beeldschermen op naburige exposantenstands op ECOC 2026',
+		'https://cdn.malagaeventgear.com/blog/3103/ecoc2026-malaga-spain-12-600x450.webp':
+			'Opbouw op de beursvloer van ECOC 2026 in FYCMA, Malaga',
+		'https://cdn.malagaeventgear.com/blog/3104/ecoc2026-malaga-spain-1-600x450.webp':
+			'Bezoekers naast een standscherm op de beurs van ECOC 2026'
 	}
 } satisfies DataCopy;

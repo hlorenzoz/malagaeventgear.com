@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-07';
 
 const copy = {
 	benefits: {
@@ -15,11 +15,11 @@ const copy = {
 		},
 		areas: {
 			q: 'Welke gebieden bedienen jullie in Andalusië?',
-			a: 'We bedienen dagelijks Malaga stad, Marbella en de hele Costa del Sol. Daarnaast leveren we in Sevilla en Granada (bij bestellingen van meer dan {price:outOfProvinceMinimum}). Op dit moment bieden we geen ophaalmogelijkheid aan, omdat we uitsluitend op leveringsbasis werken.'
+			a: 'We bedienen dagelijks Malaga stad, Marbella en de hele Costa del Sol. Daarnaast leveren we in Sevilla zonder minimumbestelling en in Granada bij bestellingen van meer dan {price:outOfProvinceMinimum}. Op dit moment bieden we geen ophaalmogelijkheid aan, omdat we uitsluitend op leveringsbasis werken.'
 		},
 		rain: {
 			q: 'Wat gebeurt er als het regent tijdens een buitenevenement?',
-			a: 'Als je evenement buiten plaatsvindt, hebben we een overdekte ruimte nodig (tenten, pergola\'s) om de elektrische apparatuur te beschermen. Bij regen zonder overkapping zoeken we samen met je een oplossing om de apparatuur naar binnen te verplaatsen. De veiligheid van gasten en de bescherming van de elektrische apparatuur staan bij ons voorop.'
+			a: "Als je evenement buiten plaatsvindt, hebben we een overdekte ruimte nodig (tenten, pergola's) om de elektrische apparatuur te beschermen. Bij regen zonder overkapping zoeken we samen met je een oplossing om de apparatuur naar binnen te verplaatsen. De veiligheid van gasten en de bescherming van de elektrische apparatuur staan bij ons voorop."
 		},
 		technician: {
 			q: 'Wat gebeurt er als ik tijdens mijn evenement een technicus nodig heb?',

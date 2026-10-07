@@ -38,7 +38,7 @@ const SeoSchema = z.object({
 	title: LocalizedTextSchema,
 	serviceName: z.string(),
 	serviceType: z.string()
-});// Main package Zod schema
+}); // Main package Zod schema
 export const PackageSchema = z.object({
 	id: z.string(),
 	slug: z.string(),
@@ -80,19 +80,22 @@ const packagesData: EventPackage[] = [
 		id: 'eco',
 		slug: 'eco',
 		route: '/packages/eco/',
-		updated: '2026-05-31',
+		updated: '2026-10-07',
 		navIcon: 'eco',
 		name: 'Eco Pack',
 		price: 290,
 		image: '/images/packages/eco.webp',
 		desc: 'Ideal for private parties or small events of up to 50 guests. Includes basic solid sound and ambient lighting.',
 		includes: [
-				'2 High quality active speakers with stands',
-				'1 Wired dynamic microphone',
-				'2 Light bars with RGBW LED spotlights',
-				'Aesthetic cabling and professional setup'
-			],
-		optional: ['Projector & projection screen (+{price:projectorScreen})', 'Professional smoke/fog machine (+{price:smokeMachine})'],
+			'2 High quality active speakers with stands',
+			'1 Wired dynamic microphone',
+			'2 Light bars with RGBW LED spotlights',
+			'Aesthetic cabling and professional setup'
+		],
+		optional: [
+			'Projector & projection screen (+{price:projectorScreen})',
+			'Professional smoke/fog machine (+{price:smokeMachine})'
+		],
 		maxGuests: 50,
 		popular: false,
 		category: 'social',
@@ -112,11 +115,13 @@ const packagesData: EventPackage[] = [
 			specTitle: 'Up to 50 Guests',
 			specBody: 'Perfect for villas, gardens, and private rooms.',
 			highlightTitle: 'Stress Free Service',
-			highlightBody: 'We operate as a delivery only model with direct setups. We bring the gear, install it professionally, test the sound and lights, and retrieve everything after the event.',
+			highlightBody:
+				'We operate as a delivery only model with direct setups. We bring the gear, install it professionally, test the sound and lights, and retrieve everything after the event.',
 			includesLabel: 'What is Included',
 			optionalLabel: 'Optional Extras',
 			ctaHeading: 'Secure Your Booking Today',
-			ctaBody: 'Fill out our quick technical quote request to check package availability for your date. We get back to you as soon as possible!',
+			ctaBody:
+				'Fill out our quick technical quote request to check package availability for your date. We get back to you as soon as possible!',
 			ctaButton: 'Book This Package'
 		}
 	},
@@ -124,20 +129,20 @@ const packagesData: EventPackage[] = [
 		id: 'wedding',
 		slug: 'wedding',
 		route: '/packages/wedding/',
-		updated: '2026-05-31',
+		updated: '2026-10-07',
 		navIcon: 'favorite',
 		name: 'Wedding Pack',
 		price: 650,
 		desc: 'Designed to perfection for magical and unforgettable wedding celebrations. Includes a professional high end acoustic system, romantic ambient lighting, and wireless microphones for moving speeches.',
 		includes: [
-				'High end active PA acoustic sound system for up to 80 guests',
-				'Fairy lights / warm LED strings for romantic ambient lighting',
-				'Professional wireless microphones for speeches and announcements',
-				'Transport in Malaga and surrounding areas',
-				'Professional aesthetic setup and cabling',
-				'On site live technical control and engineering support during the event',
-				'Post event rapid teardown and logistics pickup'
-			],
+			'High end active PA acoustic sound system for up to 80 guests',
+			'Fairy lights / warm LED strings for romantic ambient lighting',
+			'Professional wireless microphones for speeches and announcements',
+			'Transport in Malaga and surrounding areas',
+			'Professional aesthetic setup and cabling',
+			'On site live technical control and engineering support during the event',
+			'Post event rapid teardown and logistics pickup'
+		],
 		optional: ['Professional smoke/fog machine (+{price:smokeMachine})'],
 		maxGuests: 80,
 		popular: true,
@@ -160,10 +165,12 @@ const packagesData: EventPackage[] = [
 			specBody: 'Perfect for beautiful villas, fincas, and wedding hotels.',
 			highlightIcon: 'engineering',
 			highlightTitle: 'Live On Site Technician',
-			highlightBody: 'Never worry about microphone feedback or visual issues. This package includes full live on site technical monitoring and acoustic adjustments throughout your banquet and speeches.',
+			highlightBody:
+				'Never worry about microphone feedback or visual issues. This package includes full live on site technical monitoring and acoustic adjustments throughout your banquet and speeches.',
 			includesLabel: 'Premium Inclusions',
 			ctaHeading: 'Make Your Celebration Magic',
-			ctaBody: 'Bookings for weddings fill up quickly. Secure your date with our technical crew today to guarantee the finest sound and romantic lighting on your special day.',
+			ctaBody:
+				'Bookings for weddings fill up quickly. Secure your date with our technical crew today to guarantee the finest sound and romantic lighting on your special day.',
 			ctaButton: 'Book This Wedding Pack'
 		}
 	},
@@ -171,18 +178,18 @@ const packagesData: EventPackage[] = [
 		id: 'presentation',
 		slug: 'product-presentation',
 		route: '/packages/product-presentation/',
-		updated: '2026-09-24',
+		updated: '2026-10-07',
 		navIcon: 'co_present',
 		name: 'Product Presentation Pack',
 		price: 310,
 		image: '/images/packages/product-presentation.webp',
 		desc: 'Designed for corporate presentations, dealership showcases, and product launches with high visual impact.',
 		includes: [
-				'1 Front projection screen with stable stand',
-				'1 High brightness projector (5000 lumens) for crisp visuals',
-				'Venue sound system with 2 speakers & mixing console',
-				'1 Premium wireless handheld microphone for speakers'
-			],
+			'1 Front projection screen with stable stand',
+			'1 High brightness projector (5000 lumens) for crisp visuals',
+			'Venue sound system with 2 speakers & mixing console',
+			'1 Premium wireless handheld microphone for speakers'
+		],
 		popular: false,
 		category: 'corporate',
 		purpose: ['presentation', 'corporate'],
@@ -200,14 +207,16 @@ const packagesData: EventPackage[] = [
 			specTitle: 'High Brightness Projector',
 			specBody: '5000 lumen projector, ideal for lit rooms.',
 			highlightTitle: 'Flawless Corporate Branding',
-			highlightBody: 'Maximize the attention of your dealership launch, hotel press release, or product showcase. Our professional setup aligns pristine graphic detail with high performance speech amplification.',
+			highlightBody:
+				'Maximize the attention of your dealership launch, hotel press release, or product showcase. Our professional setup aligns pristine graphic detail with high performance speech amplification.',
 			includesLabel: 'What is Included',
 			note: {
 				title: 'Setup & Connection Support',
 				body: 'We provide all necessary adapters (HDMI, USB-C) and audio interfaces to connect your company laptops, tablets, or players seamlessly.'
 			},
 			ctaHeading: 'Elevate Your Product Showcase',
-			ctaBody: 'Give your audience the visual clarity and professional sound they deserve. Contact our technical team today to confirm availability.',
+			ctaBody:
+				'Give your audience the visual clarity and professional sound they deserve. Contact our technical team today to confirm availability.',
 			ctaButton: 'Book This Presentation Pack'
 		}
 	},
@@ -215,18 +224,18 @@ const packagesData: EventPackage[] = [
 		id: 'mice-basic',
 		slug: 'basic-mice',
 		route: '/packages/basic-mice/',
-		updated: '2026-05-31',
+		updated: '2026-10-07',
 		navIcon: 'groups',
 		name: 'Basic MICE Pack',
 		price: 295,
 		image: '/images/packages/basic-mice.webp',
 		desc: 'Essential, high performance audiovisual setup for small executive meetings, conferences, and presentations up to 40 guests.',
 		includes: [
-				'2x2m Projection screen with high brightness 3000 lumen projector',
-				'Basic crystal clear sound reinforcement system for up to 40 people',
-				'1 Professional gooseneck microphone for podium/lectern',
-				'Logistics transport, setup, and aesthetic wiring'
-			],
+			'2x2m Projection screen with high brightness 3000 lumen projector',
+			'Basic crystal clear sound reinforcement system for up to 40 people',
+			'1 Professional gooseneck microphone for podium/lectern',
+			'Logistics transport, setup, and aesthetic wiring'
+		],
 		optional: ['Dedicated on site live technical assistant (+{price:technicianDay}/day)'],
 		maxGuests: 40,
 		popular: false,
@@ -247,11 +256,13 @@ const packagesData: EventPackage[] = [
 			specTitle: 'Up to 40 Guests',
 			specBody: 'Designed for boardrooms, private salons, and hotel suites.',
 			highlightTitle: 'Clear Speech Intelligibility',
-			highlightBody: 'Professional gooseneck microphone configuration guarantees absolute clarity for board addresses, press announcements, or investor panels without echo or feedback.',
+			highlightBody:
+				'Professional gooseneck microphone configuration guarantees absolute clarity for board addresses, press announcements, or investor panels without echo or feedback.',
 			includesLabel: 'What is Included',
 			optionalLabel: 'Optional Support',
 			ctaHeading: 'Plan Your Executive Meeting',
-			ctaBody: 'Coordinate seamless corporate AV logistics with Malaga Event Gear. Connect with our experts to secure a professional boardroom experience.',
+			ctaBody:
+				'Coordinate seamless corporate AV logistics with Malaga Event Gear. Connect with our experts to secure a professional boardroom experience.',
 			ctaButton: 'Book Basic MICE Pack'
 		}
 	},
@@ -259,24 +270,24 @@ const packagesData: EventPackage[] = [
 		id: 'mice-full',
 		slug: 'mice',
 		route: '/packages/mice/',
-		updated: '2026-09-26',
+		updated: '2026-10-07',
 		navIcon: 'corporate_fare',
 		name: 'MICE Pack',
 		price: 490,
 		image: '/images/packages/mice.webp',
 		desc: 'Comprehensive corporate MICE solution featuring a large format display screen, premium active sound reinforcement, a gooseneck microphone plus a wireless handheld microphone, and dedicated live technician support.',
 		includes: [
-				'Premium 60 inch high definition LED display screen with designer stand',
-				'Professional active speakers and high performance sound system',
-				'1 Gooseneck microphone + 1 wireless handheld microphone',
-				'1 Dedicated specialized live AV technician (up to 6 hours continuous support)',
-				'Logistics delivery, custom wiring setup, and post event teardown'
-			],
+			'Premium 60 inch high definition LED display screen with designer stand',
+			'Professional active speakers and high performance sound system',
+			'1 Gooseneck microphone + 1 wireless handheld microphone',
+			'1 Dedicated specialized live AV technician (up to 6 hours continuous support)',
+			'Logistics delivery, custom wiring setup, and post event teardown'
+		],
 		optional: [
-				'Additional live technical assistant support hour (+{price:technicianHour}/h)',
-				'Premium methacrylate/acrylic modern lectern (+{price:lectern})',
-				'Modular stage platforms / staging (+{price:stagingPerSqm} per square meter)'
-			],
+			'Additional live technical assistant support hour (+{price:technicianHour}/h)',
+			'Premium methacrylate/acrylic modern lectern (+{price:lectern})',
+			'Modular stage platforms / staging (+{price:stagingPerSqm} per square meter)'
+		],
 		maxGuests: 120,
 		popular: false,
 		category: 'corporate',
@@ -285,7 +296,8 @@ const packagesData: EventPackage[] = [
 		optionalTags: ['lectern', 'staging', 'technical-assistant'],
 		seo: {
 			title: 'MICE Pack Corporate AV, LED Display & Technician | MEG',
-			serviceName: 'MICE Pack LED Display, Sound & Live Technician Rental - Malaga Event Gear (MEG)',
+			serviceName:
+				'MICE Pack LED Display, Sound & Live Technician Rental - Malaga Event Gear (MEG)',
 			serviceType: 'Audio visual MICE corporate event rentals with live technician'
 		},
 		landing: {
@@ -297,11 +309,13 @@ const packagesData: EventPackage[] = [
 			specBody: 'High definition large format screen for impactful corporate visuals.',
 			highlightIcon: 'engineering',
 			highlightTitle: 'Dedicated Live Technician',
-			highlightBody: 'A specialized AV technician stays on site for up to 6 continuous hours, running the sound and microphones and solving any issue with the screen, so your summit, conference, or product launch runs without interruption.',
+			highlightBody:
+				'A specialized AV technician stays on site for up to 6 continuous hours, running the sound and microphones and solving any issue with the screen, so your summit, conference, or product launch runs without interruption.',
 			includesLabel: 'Premium Inclusions',
 			optionalLabel: 'Optional Extras',
 			ctaHeading: 'Power Your Corporate Event',
-			ctaBody: 'Deliver a flawless corporate experience with premium AV and dedicated technical support. Contact our team today to confirm availability for your date.',
+			ctaBody:
+				'Deliver a flawless corporate experience with premium AV and dedicated technical support. Contact our team today to confirm availability for your date.',
 			ctaButton: 'Book MICE Pack'
 		}
 	}
@@ -344,14 +358,16 @@ export const VAT_RATE = 0.21;
  */
 export function formatPrice(amount: number, lang: Locale = 'en'): string {
 	if (lang === 'en') return `${CURRENCY_SYMBOL}${amount}`;
-	return new Intl.NumberFormat(LOCALE_META[lang].intl, {
-		style: 'currency',
-		currency: CURRENCY,
-		maximumFractionDigits: 0
-	})
-		.format(amount)
-		// Intl separates with a no break space, and CLAUDE.md §12 allows plain spaces only.
-		.replace(/[  ]/g, ' ');
+	return (
+		new Intl.NumberFormat(LOCALE_META[lang].intl, {
+			style: 'currency',
+			currency: CURRENCY,
+			maximumFractionDigits: 0
+		})
+			.format(amount)
+			// Intl separates with a no break space, and CLAUDE.md §12 allows plain spaces only.
+			.replace(/[  ]/g, ' ')
+	);
 }
 
 /**
@@ -389,7 +405,10 @@ export function isPricePoint(key: string): key is PricePoint {
 
 /** The VAT rate as a percentage in the page language: `21%` in English, `21 %` in French. */
 export function formatVat(lang: Locale = 'en'): string {
-	return new Intl.NumberFormat(LOCALE_META[lang].intl, { style: 'percent', maximumFractionDigits: 1 })
+	return new Intl.NumberFormat(LOCALE_META[lang].intl, {
+		style: 'percent',
+		maximumFractionDigits: 1
+	})
 		.format(VAT_RATE)
 		.replace(/[\u00a0\u202f]/g, ' ');
 }
@@ -403,7 +422,8 @@ export function formatVat(lang: Locale = 'en'): string {
 export function withPrices(text: string, lang: Locale = 'en'): string {
 	return text
 		.replace(/\{price:([A-Za-z0-9]+)\}/g, (token, key: string) => {
-			if (!isPricePoint(key)) throw new Error(`Unknown price token ${token}: add it to PRICE_POINTS`);
+			if (!isPricePoint(key))
+				throw new Error(`Unknown price token ${token}: add it to PRICE_POINTS`);
 			return formatPrice(PRICE_POINTS[key], lang);
 		})
 		.replaceAll('{vat}', formatVat(lang));
@@ -417,7 +437,9 @@ export function renderTokens<T>(value: T, lang: Locale = 'en'): T {
 	if (typeof value === 'string') return withPrices(value, lang) as T;
 	if (Array.isArray(value)) return value.map((item) => renderTokens(item, lang)) as T;
 	if (value && typeof value === 'object') {
-		return Object.fromEntries(Object.entries(value).map(([k, v]) => [k, renderTokens(v, lang)])) as T;
+		return Object.fromEntries(
+			Object.entries(value).map(([k, v]) => [k, renderTokens(v, lang)])
+		) as T;
 	}
 	return value;
 }
@@ -501,15 +523,7 @@ const PACKAGE_RULES: {
 	// El slug es la señal limpia (los títulos mezclan temas, p. ej. "Press Conferences
 	// AND Corporate Events"), por eso va PRIMERO entre las reglas de eventos.
 	{
-		slugPatterns: [
-			/seminar/,
-			/training/,
-			/virtual/,
-			/remote/,
-			/presentation/,
-			/launch/,
-			/webinar/
-		],
+		slugPatterns: [/seminar/, /training/, /virtual/, /remote/, /presentation/, /launch/, /webinar/],
 		keywordPatterns: [
 			/\bpresentation\b/i,
 			/\bproduct\s+launch\b/i,
@@ -631,17 +645,44 @@ const PACKAGE_SIGNALS: Record<string, { slug: RegExp[]; category: RegExp[]; keyw
 	mice: {
 		slug: [/gala/, /sports/, /corporate-event/, /charity/, /fundrais/],
 		category: [/\bcorporate\b/i, /\bmice\b/i, /\bevent/i, /\bconference/i, /\bmeeting/i],
-		keyword: [/\bgala\b/i, /\bsports?\b/i, /\bcorporate\b/i, /\bconference/i, /\bmice\b/i, /\bcharity\b/i, /\bfundrais/i]
+		keyword: [
+			/\bgala\b/i,
+			/\bsports?\b/i,
+			/\bcorporate\b/i,
+			/\bconference/i,
+			/\bmice\b/i,
+			/\bcharity\b/i,
+			/\bfundrais/i
+		]
 	},
 	'product-presentation': {
 		slug: [/seminar/, /training/, /virtual/, /remote/, /presentation/, /launch/, /webinar/],
 		category: [/\bcorporate\b/i, /\bpresentation\b/i, /\blaunch\b/i],
-		keyword: [/\bpresentation\b/i, /\bproduct\s+launch\b/i, /\blaunch\b/i, /\bseminar/i, /\bwebinar/i, /\btraining\b/i, /\bvirtual\b/i, /\bshowcase\b/i, /\bdealership\b/i, /\bproduct\b/i]
+		keyword: [
+			/\bpresentation\b/i,
+			/\bproduct\s+launch\b/i,
+			/\blaunch\b/i,
+			/\bseminar/i,
+			/\bwebinar/i,
+			/\btraining\b/i,
+			/\bvirtual\b/i,
+			/\bshowcase\b/i,
+			/\bdealership\b/i,
+			/\bproduct\b/i
+		]
 	},
 	eco: {
 		slug: [/music/, /performance/, /concert/],
 		category: [/\bparty\b/i, /\bprivate\b/i, /\bcelebration\b/i],
-		keyword: [/\bparty\b/i, /\bbirthday\b/i, /\bcelebration\b/i, /\bbudget\b/i, /\bprivate\b/i, /\bmusic\b/i, /\bconcert\b/i]
+		keyword: [
+			/\bparty\b/i,
+			/\bbirthday\b/i,
+			/\bcelebration\b/i,
+			/\bbudget\b/i,
+			/\bprivate\b/i,
+			/\bmusic\b/i,
+			/\bconcert\b/i
+		]
 	}
 };
 

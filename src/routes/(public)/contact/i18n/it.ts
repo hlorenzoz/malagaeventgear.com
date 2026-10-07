@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-07';
 
 const copy = {
 	seo: {
@@ -15,7 +15,8 @@ const copy = {
 	},
 	whatsappLinkText: 'Inviaci un messaggio',
 	messages: {
-		packIntro: 'Ciao, sono interessato/a a prenotare il pacchetto: {pack}. Potete indicarmi la disponibilità e i dettagli?',
+		packIntro:
+			'Ciao, sono interessato/a a prenotare il pacchetto: {pack}. Potete indicarmi la disponibilità e i dettagli?',
 		categoryIntro:
 			'Ciao, sono interessato/a a prenotare attrezzature dalla categoria: {category}. Resto in attesa del vostro preventivo.'
 	},

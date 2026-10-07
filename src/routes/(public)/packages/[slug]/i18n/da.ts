@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-07';
 
 const copy = {
 	benefits: {
@@ -15,7 +15,7 @@ const copy = {
 		},
 		areas: {
 			q: 'Hvilke områder dækker I i Andalusien?',
-			a: 'Vi betjener Malaga by, Marbella og hele Costa del Sol dagligt. Vi betjener også Sevilla og Granada (til bestillinger over {price:outOfProvinceMinimum}). Vi tilbyder i øjeblikket ikke afhentning, da vi udelukkende arbejder med levering.'
+			a: 'Vi betjener Malaga by, Marbella og hele Costa del Sol dagligt. Vi betjener også Sevilla uden krav om minimumsbestilling og Granada til bestillinger over {price:outOfProvinceMinimum}. Vi tilbyder i øjeblikket ikke afhentning, da vi udelukkende arbejder med levering.'
 		},
 		rain: {
 			q: 'Hvad sker der, hvis det regner ved et udendørs event?',

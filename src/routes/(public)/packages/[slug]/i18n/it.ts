@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-07';
 
 const copy = {
 	benefits: {
@@ -11,11 +11,11 @@ const copy = {
 	faqs: {
 		delivery: {
 			q: "La consegna e l'allestimento sono inclusi nel prezzo del pacchetto?",
-			a: "Sì, per i pacchetti premium (come il {wedding} e il {mice}), sono inclusi la consegna professionale completa, il cablaggio e lo smontaggio a Malaga e nei comuni limitrofi. Per i pacchetti standard, potrebbe essere applicato un piccolo costo logistico a seconda della posizione esatta del tuo evento."
+			a: 'Sì, per i pacchetti premium (come il {wedding} e il {mice}), sono inclusi la consegna professionale completa, il cablaggio e lo smontaggio a Malaga e nei comuni limitrofi. Per i pacchetti standard, potrebbe essere applicato un piccolo costo logistico a seconda della posizione esatta del tuo evento.'
 		},
 		areas: {
 			q: 'Quali zone coprite in Andalusia?',
-			a: "Operiamo ogni giorno a Malaga capitale, a Marbella e in tutta la Costa del Sol. Serviamo anche Siviglia e Granada (per ordini superiori a {price:outOfProvinceMinimum}). Al momento non è previsto il ritiro in sede da parte del cliente, perché lavoriamo solo con consegna."
+			a: 'Operiamo ogni giorno a Malaga capitale, a Marbella e in tutta la Costa del Sol. Serviamo anche Siviglia senza ordine minimo e Granada per ordini superiori a {price:outOfProvinceMinimum}. Al momento non è previsto il ritiro in sede da parte del cliente, perché lavoriamo solo con consegna.'
 		},
 		rain: {
 			q: "Cosa succede se piove durante un evento all'aperto?",

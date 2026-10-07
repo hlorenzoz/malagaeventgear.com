@@ -7,6 +7,13 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (copy): el minimo de 400 euros solo aplica a Granada, Sevilla va sin minimo, en ingles y los 12 idiomas (2026-10-07)
+- Tarea #T0032. Regla de negocio (`.agents/BUSINESS.md` seccion 3, `siteConfig.serviceAreas`): Sevilla se atiende completa SIN minimo, solo Granada exige pedidos sobre `PRICE_POINTS.outOfProvinceMinimum`. Dos textos se podian leer como si el minimo valiera tambien para Sevilla.
+- FAQ de zonas de cada pagina de paquete: "We also service Seville and Granada (for orders over {price:outOfProvinceMinimum})" pasa a "We also service Seville with no minimum order, and Granada for orders over {price:outOfProvinceMinimum}" (el parentesis abarcaba las dos ciudades). Archivos: `src/routes/(public)/packages/[slug]/i18n/<locale>.ts` (en y los 12 idiomas).
+- FAQ `minimum-order-granada` (`/faq/` y `/contact/`): "For more distant, out of province destinations such as Granada, we require..." ("such as" sugeria otros destinos con minimo) pasa a "Sevilla is also served with no minimum order. Only Granada, a more distant out of province destination, requires...". Archivos: `src/lib/data/faq.ts` (fuente) y `src/lib/i18n/data/<locale>.ts` (12 idiomas). Mismo token `{price:outOfProvinceMinimum}`, sin importes literales.
+- Fechas (regla 11), todas a 2026-10-07: `updated` de los 5 paquetes en `src/lib/data/packages.ts` y de los 5 paquetes en cada `src/lib/i18n/data/<locale>.ts`, `export const updated` de `packages/[slug]/i18n`, `faq/i18n` y `contact/i18n` en los 12 idiomas, y `contentUpdated` de `faq/meta.ts` y `contact/meta.ts`.
+- Sin cambio: `service-areas` de `faq.ts` ("though Granada typically requires") y los Terms of Service (solo Granada con minimo) ya eran claros.
+
 ### Changed (blog): wedding-rentals, 2 FAQs de visibilidad en IA (2026-10-07)
 - Tareas #T0054 y #T0056 (visibilidad en IA, prompts de ChatGPT sobre PA y microfonos inalambricos en la Costa del Sol y sobre sonido e iluminacion para bodas en Marbella), hechas en UN solo cambio del pilar.
 - Dos preguntas nuevas al final de `## FAQs`: "Can I rent PA speakers and wireless microphones for a wedding on the Costa del Sol?" (Wedding Pack, Eco Pack como opcion menor, microfonos de corbata y diadema aparte a pedido, entrega, montaje y desmontaje incluidos) y "Do you provide sound and lighting hire for weddings in Marbella?" (si para sonido, Marbella dentro de la zona de servicio, iluminacion propia limitada y lo demas con la frase de "no esta en nuestro inventario propio, buscamos la solucion con proveedores, si la hay"). Sin precios nuevos, sin enlaces a supporting posts. El post no tiene indice en linea, no hay bullets que sumar.

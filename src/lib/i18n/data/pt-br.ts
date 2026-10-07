@@ -3,7 +3,7 @@ import type { DataCopy } from '../data-copy';
 export default {
 	packages: {
 		eco: {
-			updated: '2026-09-24',
+			updated: '2026-10-07',
 			desc: 'Ideal para festas particulares ou eventos pequenos de até 50 convidados. Este aluguel de som e luz para festas pequenas em Málaga inclui um sistema de som básico e confiável e iluminação ambiente.',
 			includes: [
 				'2 caixas de som ativas de alta qualidade com pedestais',
@@ -11,7 +11,10 @@ export default {
 				'2 barras de luz com spots de LED RGBW',
 				'Cabeamento organizado e montagem profissional'
 			],
-			optional: ['Projetor e tela de projeção (+{price:projectorScreen})', 'Máquina de fumaça profissional (+{price:smokeMachine})'],
+			optional: [
+				'Projetor e tela de projeção (+{price:projectorScreen})',
+				'Máquina de fumaça profissional (+{price:smokeMachine})'
+			],
 			seo: { title: 'Eco Pack: aluguel de som e luz para festas em Málaga | MEG' },
 			landing: {
 				badge: 'Eventos pequenos e festas',
@@ -31,7 +34,7 @@ export default {
 			}
 		},
 		wedding: {
-			updated: '2026-09-24',
+			updated: '2026-10-07',
 			desc: 'Pensado nos mínimos detalhes para casamentos mágicos e inesquecíveis. Este aluguel de equipamento de som para casamento em Málaga inclui sistema acústico profissional de alto nível, iluminação ambiente romântica e microfones sem fio para os discursos mais emocionantes.',
 			includes: [
 				'Sistema de som PA ativo de alto nível para até 80 convidados',
@@ -61,7 +64,7 @@ export default {
 			}
 		},
 		'product-presentation': {
-			updated: '2026-09-24',
+			updated: '2026-10-07',
 			desc: 'Feito para apresentações corporativas, showrooms de concessionárias e lançamentos de produto com alto impacto visual. Perfeito para quem busca aluguel de projetor para lançamento de produto em Málaga.',
 			includes: [
 				'1 tela de projeção frontal com suporte estável',
@@ -91,7 +94,7 @@ export default {
 			}
 		},
 		'basic-mice': {
-			updated: '2026-09-24',
+			updated: '2026-10-07',
 			desc: 'Estrutura audiovisual essencial e de alto desempenho para pequenas reuniões executivas, conferências e apresentações com até 40 convidados. Ideal como equipamento audiovisual para pequenas reuniões corporativas em Málaga.',
 			includes: [
 				'Tela de projeção de 2x2m com projetor de alto brilho de 3000 lumens',
@@ -119,7 +122,7 @@ export default {
 			}
 		},
 		mice: {
-			updated: '2026-09-26',
+			updated: '2026-10-07',
 			desc: 'Solução corporativa completa de MICE com tela de grande formato, reforço de som ativo premium, um microfone gooseneck e um microfone de mão sem fio, além de suporte de técnico dedicado ao vivo. Ideal como equipamento audiovisual para conferências e congressos em Málaga.',
 			includes: [
 				'Tela de LED premium de 60 polegadas em alta definição com suporte de design',
@@ -190,7 +193,8 @@ export default {
 				'A Malaga Event Gear (MEG) se comunica com os clientes em inglês e espanhol. Estamos disponíveis 24 horas por dia, 7 dias por semana, para montagens técnicas e monitoramento de eventos ao vivo.'
 		},
 		'contact-info': {
-			question: 'Como os clientes podem entrar em contato com a Malaga Event Gear (MEG) e quais informações devem fornecer?',
+			question:
+				'Como os clientes podem entrar em contato com a Malaga Event Gear (MEG) e quais informações devem fornecer?',
 			answer:
 				'Você pode falar conosco por telefone no 666 346 911, pelo WhatsApp ou por e-mail. Para receber um orçamento preciso, informe a data do seu evento, o local, o número esperado de convidados e o tipo de equipamento ou pacote de seu interesse. Veja nossa página de contato para mais detalhes.'
 		},
@@ -242,7 +246,7 @@ export default {
 		'minimum-order-granada': {
 			question: 'Existe um pedido mínimo para atendimento fora da Costa del Sol?',
 			answer:
-				'Dentro da Costa del Sol não há um mínimo especial. Para destinos mais distantes e fora da província, como Granada, exigimos um valor mínimo de aluguel acima de {price:outOfProvinceMinimum} para cobrir o deslocamento logístico de um dia. Também atendemos Sevilha. Fale conosco para confirmar as condições para o seu local específico.'
+				'Dentro da Costa del Sol não há um mínimo especial. Também atendemos Sevilha, sem pedido mínimo. Apenas Granada, um destino mais distante e fora da província, exige um valor mínimo de aluguel acima de {price:outOfProvinceMinimum} para cobrir o deslocamento logístico de um dia. Fale conosco para confirmar as condições para o seu local específico.'
 		},
 		'customize-package': {
 			question: 'Posso personalizar ou ampliar um pacote para minhas necessidades específicas?',
@@ -251,49 +255,93 @@ export default {
 		}
 	},
 	gallery: {
-		'https://cdn.malagaeventgear.com/blog/1638/wedding_rings_heart_book-600x400.webp': 'Detalhes de uma cerimônia de casamento',
-		'https://cdn.malagaeventgear.com/blog/1632/wedding_reception_decor-600x375.webp': 'Decoração elegante de uma recepção de casamento',
-		'https://cdn.malagaeventgear.com/blog/1625/beach_wedding_table_decor-600x400.webp': 'Mesa de casamento na praia, montada e decorada',
-		'https://cdn.malagaeventgear.com/blog/1631/wedding_table_setting-600x400.webp': 'Mesa de casamento romântica',
-		'https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-600x400.webp': 'Mesa do jantar de um casamento à noite, com iluminação suave',
-		'https://cdn.malagaeventgear.com/blog/1629/beach_wedding_setup-600x400.webp': 'Linda montagem para uma cerimônia de casamento na praia',
-		'https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-600x400.webp': 'Montagem de um salão para cerimônia de casamento em ambiente fechado',
-		'https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding-600x400.webp': 'Arco da cerimônia de um casamento tropical na praia',
-		'https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-600x400.webp': 'Corredor com cadeiras em um casamento tropical na praia',
-		'https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-scaled-600x448.webp': 'Sistema audiovisual para aluguel em um evento internacional em Málaga',
-		'https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1-600x401.webp': 'Foto ilustrativa de uma sala de conferências com telas de projeção e uma câmera em um tripé',
-		'https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-scaled-600x448.webp': 'Aluguel de som para a reunião de uma associação profissional',
-		'https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-600x450.webp': 'Montagem de som para uma reunião comunitária',
-		'https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp': 'Som e iluminação no palco em um evento MICE',
-		'https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled-600x448.webp': 'Aluguel de sistema de som para um congresso de grande porte no Hotel Alfonso XIII, Sevilha',
-		'https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-scaled-600x448.webp': 'Montagem de palco para um congresso no Hotel Alfonso XIII, Sevilha',
-		'https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-scaled-600x448.webp': 'Sistema de som para uma apresentação em uma concessionária Volvo em Málaga',
-		'https://cdn.malagaeventgear.com/blog/1261/methacrylate_lectern_outdoor_event-600x448.webp': 'Púlpito de metacrilato em um evento ao ar livre',
-		'https://cdn.malagaeventgear.com/blog/1292/malaga_event_lighting_display_projector_sound_rental_3-scaled-600x448.webp': 'Aluguel de tela profissional, projetor e sistema de som',
-		'https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled-600x448.webp': 'Impressionante instalação de iluminação e som para um evento',
-		'https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1-600x450.webp': 'Iluminação e som para um evento com tela',
-		'https://cdn.malagaeventgear.com/blog/1195/sound-system-tennis-championship-2024-setup-600x338.webp': 'Montagem de som para um campeonato de tênis',
-		'https://cdn.malagaeventgear.com/blog/1788/2025-10-05-DJ-audio-and-microphone-system-setup-600x450.webp': 'Montagem de som e microfones para DJ',
-		'https://cdn.malagaeventgear.com/blog/1289/malaga_event_lighting_display_projector_sound_rental_1-scaled-600x448.webp': 'Iluminação profissional para eventos e tela de projeção',
-		'https://cdn.malagaeventgear.com/blog/1294/malaga_event_lighting_big_display_projector_sound_rental_1-scaled-600x448.webp': 'Palco, som, imagem e montagem personalizada',
-		'https://cdn.malagaeventgear.com/blog/1327/malaga_concert_lighting_microphone_audio_rental-scaled-600x448.webp': 'Aluguel de iluminação de show, microfones e som',
-		'https://cdn.malagaeventgear.com/blog/1275/malaga_sound_system_rental_outdoor_event-scaled-600x448.webp': 'Aluguel de sistema de som no terraço do Hotel Alfonso XIII, Sevilha',
-		'https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-600x448.webp': 'Aluguel de som e iluminação para eventos com banda ao vivo',
-		'https://cdn.malagaeventgear.com/blog/1323/rental-audio-system-parties-events-600x448.webp': 'Aluguel de sistema de som em Malaga para uma festa na praia, com equipamento de DJ profissional, caixas de som e um público animado',
-		'https://cdn.malagaeventgear.com/blog/1324/rent-microphone-parties-concerts-events-malaga-600x803.webp': 'Apresentação musical ao vivo em um evento em Malaga com uma cantora com microfone profissional e um violonista, criando uma atmosfera vibrante e elegante',
-		'https://cdn.malagaeventgear.com/blog/1325/audio-lighting-sound-system-microphone-rental-malaga-600x803.webp': 'Um DJ e um violonista se apresentam no palco com equipamento profissional de som e luz durante um evento ao ar livre na província de Málaga',
-		'https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-600x803.webp': 'Palco e sistema de som para um show na província de Málaga',
-		'https://cdn.malagaeventgear.com/blog/1787/2025-10-05-at-DJ-audio-and-microphone-system-setup-600x800.webp': 'Detalhe de um equipamento profissional de DJ com media player e mixer no evento de uma DJ mulher',
-		'https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-600x450.webp': 'Cinco telas instaladas em fila em um estande de expositor na ECOC 2026, Málaga',
-		'https://cdn.malagaeventgear.com/blog/3099/ecoc2026-malaga-spain-2-600x450.webp': 'Três telas de estande instaladas para um expositor na exposição da ECOC 2026',
-		'https://cdn.malagaeventgear.com/blog/3097/ecoc2026-malaga-spain-5-600x450.webp': 'Estande de expositor da ECOC 2026 finalizado, com a tela instalada',
-		'https://cdn.malagaeventgear.com/blog/3102/ecoc2026-malaga-spain-3-600x450.webp': 'Tela de estande instalada na exposição da ECOC 2026 em Málaga',
-		'https://cdn.malagaeventgear.com/blog/3098/ecoc2026-malaga-spain-9-600x450.webp': 'Tela de demonstração de tecnologia em um estande de expositor da ECOC 2026',
-		'https://cdn.malagaeventgear.com/blog/3101/ecoc2026-malaga-spain-11-600x450.webp': 'Telas de estande exibindo conteúdo de produtos ao vivo na ECOC 2026, Málaga',
-		'https://cdn.malagaeventgear.com/blog/3105/ecoc2026-malaga-spain-6-600x450.webp': 'Equipes dos expositores colocando os estandes em funcionamento na ECOC 2026, FYCMA Málaga',
-		'https://cdn.malagaeventgear.com/blog/3106/ecoc2026-malaga-spain-7-600x450.webp': 'Expositores conectando notebooks às telas do estande na ECOC 2026',
-		'https://cdn.malagaeventgear.com/blog/3100/ecoc2026-malaga-spain-10-600x450.webp': 'Telas em estandes de expositores vizinhos na ECOC 2026',
-		'https://cdn.malagaeventgear.com/blog/3103/ecoc2026-malaga-spain-12-600x450.webp': 'Montagem no pavilhão da exposição da ECOC 2026 no FYCMA, Málaga',
-		'https://cdn.malagaeventgear.com/blog/3104/ecoc2026-malaga-spain-1-600x450.webp': 'Visitantes ao lado de uma tela de estande na exposição da ECOC 2026'
+		'https://cdn.malagaeventgear.com/blog/1638/wedding_rings_heart_book-600x400.webp':
+			'Detalhes de uma cerimônia de casamento',
+		'https://cdn.malagaeventgear.com/blog/1632/wedding_reception_decor-600x375.webp':
+			'Decoração elegante de uma recepção de casamento',
+		'https://cdn.malagaeventgear.com/blog/1625/beach_wedding_table_decor-600x400.webp':
+			'Mesa de casamento na praia, montada e decorada',
+		'https://cdn.malagaeventgear.com/blog/1631/wedding_table_setting-600x400.webp':
+			'Mesa de casamento romântica',
+		'https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-600x400.webp':
+			'Mesa do jantar de um casamento à noite, com iluminação suave',
+		'https://cdn.malagaeventgear.com/blog/1629/beach_wedding_setup-600x400.webp':
+			'Linda montagem para uma cerimônia de casamento na praia',
+		'https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-600x400.webp':
+			'Montagem de um salão para cerimônia de casamento em ambiente fechado',
+		'https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding-600x400.webp':
+			'Arco da cerimônia de um casamento tropical na praia',
+		'https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-600x400.webp':
+			'Corredor com cadeiras em um casamento tropical na praia',
+		'https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-scaled-600x448.webp':
+			'Sistema audiovisual para aluguel em um evento internacional em Málaga',
+		'https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1-600x401.webp':
+			'Foto ilustrativa de uma sala de conferências com telas de projeção e uma câmera em um tripé',
+		'https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-scaled-600x448.webp':
+			'Aluguel de som para a reunião de uma associação profissional',
+		'https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-600x450.webp':
+			'Montagem de som para uma reunião comunitária',
+		'https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp':
+			'Som e iluminação no palco em um evento MICE',
+		'https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled-600x448.webp':
+			'Aluguel de sistema de som para um congresso de grande porte no Hotel Alfonso XIII, Sevilha',
+		'https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-scaled-600x448.webp':
+			'Montagem de palco para um congresso no Hotel Alfonso XIII, Sevilha',
+		'https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-scaled-600x448.webp':
+			'Sistema de som para uma apresentação em uma concessionária Volvo em Málaga',
+		'https://cdn.malagaeventgear.com/blog/1261/methacrylate_lectern_outdoor_event-600x448.webp':
+			'Púlpito de metacrilato em um evento ao ar livre',
+		'https://cdn.malagaeventgear.com/blog/1292/malaga_event_lighting_display_projector_sound_rental_3-scaled-600x448.webp':
+			'Aluguel de tela profissional, projetor e sistema de som',
+		'https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled-600x448.webp':
+			'Impressionante instalação de iluminação e som para um evento',
+		'https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1-600x450.webp':
+			'Iluminação e som para um evento com tela',
+		'https://cdn.malagaeventgear.com/blog/1195/sound-system-tennis-championship-2024-setup-600x338.webp':
+			'Montagem de som para um campeonato de tênis',
+		'https://cdn.malagaeventgear.com/blog/1788/2025-10-05-DJ-audio-and-microphone-system-setup-600x450.webp':
+			'Montagem de som e microfones para DJ',
+		'https://cdn.malagaeventgear.com/blog/1289/malaga_event_lighting_display_projector_sound_rental_1-scaled-600x448.webp':
+			'Iluminação profissional para eventos e tela de projeção',
+		'https://cdn.malagaeventgear.com/blog/1294/malaga_event_lighting_big_display_projector_sound_rental_1-scaled-600x448.webp':
+			'Palco, som, imagem e montagem personalizada',
+		'https://cdn.malagaeventgear.com/blog/1327/malaga_concert_lighting_microphone_audio_rental-scaled-600x448.webp':
+			'Aluguel de iluminação de show, microfones e som',
+		'https://cdn.malagaeventgear.com/blog/1275/malaga_sound_system_rental_outdoor_event-scaled-600x448.webp':
+			'Aluguel de sistema de som no terraço do Hotel Alfonso XIII, Sevilha',
+		'https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-600x448.webp':
+			'Aluguel de som e iluminação para eventos com banda ao vivo',
+		'https://cdn.malagaeventgear.com/blog/1323/rental-audio-system-parties-events-600x448.webp':
+			'Aluguel de sistema de som em Malaga para uma festa na praia, com equipamento de DJ profissional, caixas de som e um público animado',
+		'https://cdn.malagaeventgear.com/blog/1324/rent-microphone-parties-concerts-events-malaga-600x803.webp':
+			'Apresentação musical ao vivo em um evento em Malaga com uma cantora com microfone profissional e um violonista, criando uma atmosfera vibrante e elegante',
+		'https://cdn.malagaeventgear.com/blog/1325/audio-lighting-sound-system-microphone-rental-malaga-600x803.webp':
+			'Um DJ e um violonista se apresentam no palco com equipamento profissional de som e luz durante um evento ao ar livre na província de Málaga',
+		'https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-600x803.webp':
+			'Palco e sistema de som para um show na província de Málaga',
+		'https://cdn.malagaeventgear.com/blog/1787/2025-10-05-at-DJ-audio-and-microphone-system-setup-600x800.webp':
+			'Detalhe de um equipamento profissional de DJ com media player e mixer no evento de uma DJ mulher',
+		'https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-600x450.webp':
+			'Cinco telas instaladas em fila em um estande de expositor na ECOC 2026, Málaga',
+		'https://cdn.malagaeventgear.com/blog/3099/ecoc2026-malaga-spain-2-600x450.webp':
+			'Três telas de estande instaladas para um expositor na exposição da ECOC 2026',
+		'https://cdn.malagaeventgear.com/blog/3097/ecoc2026-malaga-spain-5-600x450.webp':
+			'Estande de expositor da ECOC 2026 finalizado, com a tela instalada',
+		'https://cdn.malagaeventgear.com/blog/3102/ecoc2026-malaga-spain-3-600x450.webp':
+			'Tela de estande instalada na exposição da ECOC 2026 em Málaga',
+		'https://cdn.malagaeventgear.com/blog/3098/ecoc2026-malaga-spain-9-600x450.webp':
+			'Tela de demonstração de tecnologia em um estande de expositor da ECOC 2026',
+		'https://cdn.malagaeventgear.com/blog/3101/ecoc2026-malaga-spain-11-600x450.webp':
+			'Telas de estande exibindo conteúdo de produtos ao vivo na ECOC 2026, Málaga',
+		'https://cdn.malagaeventgear.com/blog/3105/ecoc2026-malaga-spain-6-600x450.webp':
+			'Equipes dos expositores colocando os estandes em funcionamento na ECOC 2026, FYCMA Málaga',
+		'https://cdn.malagaeventgear.com/blog/3106/ecoc2026-malaga-spain-7-600x450.webp':
+			'Expositores conectando notebooks às telas do estande na ECOC 2026',
+		'https://cdn.malagaeventgear.com/blog/3100/ecoc2026-malaga-spain-10-600x450.webp':
+			'Telas em estandes de expositores vizinhos na ECOC 2026',
+		'https://cdn.malagaeventgear.com/blog/3103/ecoc2026-malaga-spain-12-600x450.webp':
+			'Montagem no pavilhão da exposição da ECOC 2026 no FYCMA, Málaga',
+		'https://cdn.malagaeventgear.com/blog/3104/ecoc2026-malaga-spain-1-600x450.webp':
+			'Visitantes ao lado de uma tela de estande na exposição da ECOC 2026'
 	}
 } satisfies DataCopy;

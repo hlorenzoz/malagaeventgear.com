@@ -1,12 +1,12 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-25';
+export const updated = '2026-10-07';
 
 const copy = {
 	seo: {
 		title: 'Questions fréquentes location audiovisuel | MEG',
 		description:
-			"Trouvez des réponses claires aux questions fréquentes sur la location de matériel audiovisuel professionnel de Malaga Event Gear : forfaits, zone de service (Malaga/Costa del Sol) et conditions de réservation."
+			'Trouvez des réponses claires aux questions fréquentes sur la location de matériel audiovisuel professionnel de Malaga Event Gear : forfaits, zone de service (Malaga/Costa del Sol) et conditions de réservation.'
 	},
 	hero: {
 		badge: 'Questions courantes',

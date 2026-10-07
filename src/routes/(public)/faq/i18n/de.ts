@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-25';
+export const updated = '2026-10-07';
 
 export default {
 	seo: {
@@ -11,7 +11,8 @@ export default {
 	hero: {
 		badge: 'Häufige Fragen',
 		title: 'Häufig gestellte Fragen',
-		intro: 'Alles, was Sie über unseren professionellen Verleih von Veranstaltungstechnik, die Lieferung, den Aufbau und den Buchungsablauf wissen müssen.'
+		intro:
+			'Alles, was Sie über unseren professionellen Verleih von Veranstaltungstechnik, die Lieferung, den Aufbau und den Buchungsablauf wissen müssen.'
 	},
 	filters: {
 		all: 'Alle Fragen',

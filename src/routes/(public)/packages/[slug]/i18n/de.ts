@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-07';
 
 export default {
 	benefits: {
@@ -15,7 +15,7 @@ export default {
 		},
 		areas: {
 			q: 'Welche Gebiete in Andalusien decken Sie ab?',
-			a: 'Wir sind täglich in Malaga Stadt, Marbella und an der gesamten Costa del Sol im Einsatz. Ebenso bedienen wir Sevilla und Granada (bei Bestellungen über {price:outOfProvinceMinimum}). Derzeit bieten wir keine Abholoption an, da wir ausschließlich mit Lieferung arbeiten.'
+			a: 'Wir sind täglich in Malaga Stadt, Marbella und an der gesamten Costa del Sol im Einsatz. Ebenso bedienen wir Sevilla ohne Mindestbestellwert und Granada bei Bestellungen über {price:outOfProvinceMinimum}. Derzeit bieten wir keine Abholoption an, da wir ausschließlich mit Lieferung arbeiten.'
 		},
 		rain: {
 			q: 'Was passiert bei Regen während einer Veranstaltung im Freien?',

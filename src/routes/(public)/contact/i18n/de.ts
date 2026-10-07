@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-07';
 
 export default {
 	seo: {
@@ -15,7 +15,8 @@ export default {
 	},
 	whatsappLinkText: 'Schreiben Sie uns',
 	messages: {
-		packIntro: 'Hallo, ich möchte folgendes Paket buchen: {pack}. Bitte teilen Sie mir die Verfügbarkeit und die Details mit.',
+		packIntro:
+			'Hallo, ich möchte folgendes Paket buchen: {pack}. Bitte teilen Sie mir die Verfügbarkeit und die Details mit.',
 		categoryIntro:
 			'Hallo, ich möchte Technik aus folgender Kategorie mieten: {category}. Ich freue mich auf Ihr Angebot.'
 	},

@@ -3,7 +3,7 @@ import type { DataCopy } from '../data-copy';
 export default {
 	packages: {
 		eco: {
-			updated: '2026-09-24',
+			updated: '2026-10-07',
 			desc: 'Perfekt til leje af lyd og lys til en lille fest i Malaga eller andre private events med op til 50 gæster. Inkluderer et solidt basislydanlæg og stemningsbelysning.',
 			includes: [
 				'2 aktive højttalere af høj kvalitet med stativer',
@@ -11,7 +11,10 @@ export default {
 				'2 LED-lysbjælker med RGBW-spots',
 				'Æstetisk kabelføring og professionel opsætning'
 			],
-			optional: ['Projektor og projektorlærred (+{price:projectorScreen})', 'Professionel røg-/tågemaskine (+{price:smokeMachine})'],
+			optional: [
+				'Projektor og projektorlærred (+{price:projectorScreen})',
+				'Professionel røg-/tågemaskine (+{price:smokeMachine})'
+			],
 			seo: { title: 'Eco Pack: leje af lyd og lys til lille fest i Malaga | MEG' },
 			landing: {
 				badge: 'Mindre events og fester',
@@ -31,7 +34,7 @@ export default {
 			}
 		},
 		wedding: {
-			updated: '2026-09-24',
+			updated: '2026-10-07',
 			desc: 'Skabt til magiske og uforglemmelige bryllupsfejringer. Inkluderer et professionelt lydanlæg i topklasse, romantisk stemningsbelysning og trådløse mikrofoner til bevægende taler.',
 			includes: [
 				'Aktivt PA-lydanlæg i topklasse til op til 80 gæster',
@@ -61,7 +64,7 @@ export default {
 			}
 		},
 		'product-presentation': {
-			updated: '2026-09-24',
+			updated: '2026-10-07',
 			desc: 'Designet til virksomhedspræsentationer, forhandlerfremvisninger og produktlanceringer med stor visuel effekt.',
 			includes: [
 				'1 lærred til frontprojektion med stabilt stativ',
@@ -91,7 +94,7 @@ export default {
 			}
 		},
 		'basic-mice': {
-			updated: '2026-09-24',
+			updated: '2026-10-07',
 			desc: 'Grundlæggende, højtydende AV-opsætning til mindre ledermøder, konferencer og præsentationer med op til 40 gæster.',
 			includes: [
 				'2x2 m projektorlærred og projektor med høj lysstyrke (3000 lumen)',
@@ -119,7 +122,7 @@ export default {
 			}
 		},
 		mice: {
-			updated: '2026-09-26',
+			updated: '2026-10-07',
 			desc: 'Omfattende MICE-løsning til virksomheder med en storformatsskærm, aktivt lydanlæg i premiumkvalitet, en svanehalsmikrofon og en trådløs håndmikrofon samt dedikeret teknikersupport på stedet.',
 			includes: [
 				'60-tommer HD-LED-skærm i premiumkvalitet med designstativ',
@@ -169,7 +172,8 @@ export default {
 				'Selvom "Malaga" indgår i vores navn, rækker vores services langt ud over selve byen. Vi opererer primært på hele Costa del Sol, herunder Malaga by, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena og Estepona. Vi betjener også Sevilla og Granada, selvom Granada typisk kræver bookinger over {price:outOfProvinceMinimum} på grund af den ekstra transportafstand uden for provinsen.'
 		},
 		'what-makes-unique': {
-			question: 'Hvad gør Malaga Event Gear (MEG) unik sammenlignet med andre AV-udlejningsvirksomheder?',
+			question:
+				'Hvad gør Malaga Event Gear (MEG) unik sammenlignet med andre AV-udlejningsvirksomheder?',
 			answer:
 				'MEG adskiller sig med en kundefokuseret og strømlinet tilgang: levering og professionel opsætning ved vores eget team ved hver booking, en tekniker på stedet inkluderet i Wedding Pack og MICE Pack, udstyr fra premiummærker og gennemsigtige samlede priser. Vi bevæger os mod en 100% online bookingoplevelse med standardiserede faste priser og fuldt gennemsigtige transaktioner.'
 		},
@@ -189,7 +193,8 @@ export default {
 				'Malaga Event Gear (MEG) kommunikerer med kunder på engelsk og spansk. Vi er tilgængelige 24 timer i døgnet, 7 dage om ugen, til tekniske opsætninger og overvågning af events, mens de foregår.'
 		},
 		'contact-info': {
-			question: 'Hvordan kan kunder kontakte Malaga Event Gear (MEG), og hvilke oplysninger bør de give?',
+			question:
+				'Hvordan kan kunder kontakte Malaga Event Gear (MEG), og hvilke oplysninger bør de give?',
 			answer:
 				'Du kan kontakte os telefonisk på 666 346 911, via WhatsApp eller e-mail. For at få et præcist tilbud bedes du oplyse din eventdato, sted, forventet antal gæster og hvilken type udstyr eller pakke, du er interesseret i. Se vores kontaktside for flere detaljer.'
 		},
@@ -241,7 +246,7 @@ export default {
 		'minimum-order-granada': {
 			question: 'Er der et minimumsbeløb for opgaver uden for Costa del Sol?',
 			answer:
-				'Inden for Costa del Sol er der intet særligt minimum. Til mere fjerntliggende destinationer uden for provinsen, som Granada, kræver vi en minimumsudlejningsværdi på over {price:outOfProvinceMinimum} for at dække den logistiske transport på én dag. Vi betjener også Sevilla. Kontakt os for at bekræfte betingelserne for din specifikke lokation.'
+				'Inden for Costa del Sol er der intet særligt minimum. Vi betjener også Sevilla, uden krav om minimumsbestilling. Kun Granada, en mere fjerntliggende destination uden for provinsen, kræver en minimumsudlejningsværdi på over {price:outOfProvinceMinimum} for at dække den logistiske transport på én dag. Kontakt os for at bekræfte betingelserne for din specifikke lokation.'
 		},
 		'customize-package': {
 			question: 'Kan jeg tilpasse eller udvide en pakke til mine specifikke behov?',
@@ -250,49 +255,93 @@ export default {
 		}
 	},
 	gallery: {
-		'https://cdn.malagaeventgear.com/blog/1638/wedding_rings_heart_book-600x400.webp': 'Detaljer fra en vielse',
-		'https://cdn.malagaeventgear.com/blog/1632/wedding_reception_decor-600x375.webp': 'Elegant pynt ved en bryllupsreception',
-		'https://cdn.malagaeventgear.com/blog/1625/beach_wedding_table_decor-600x400.webp': 'Dækket og pyntet bord til et strandbryllup',
-		'https://cdn.malagaeventgear.com/blog/1631/wedding_table_setting-600x400.webp': 'Romantisk dækket bryllupsbord',
-		'https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-600x400.webp': 'Middagsbord ved et aftenbryllup med blød belysning',
-		'https://cdn.malagaeventgear.com/blog/1629/beach_wedding_setup-600x400.webp': 'Smuk opstilling til en vielse på stranden',
-		'https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-600x400.webp': 'Opstilling i en sal til en vielse indendørs',
-		'https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding-600x400.webp': 'Vielsesbue ved et tropisk strandbryllup',
-		'https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-600x400.webp': 'Midtergang med stole ved et tropisk strandbryllup',
-		'https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-scaled-600x448.webp': 'AV-anlæg til leje til et internationalt event i Malaga',
-		'https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1-600x401.webp': 'Illustrativt foto af en konferencesal med projektionslærreder og et kamera på stativ',
-		'https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-scaled-600x448.webp': 'Lyd til leje til et møde i en faglig forening',
-		'https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-600x450.webp': 'Lydopstilling til et borgermøde',
-		'https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp': 'Lyd og lys på scenen ved et MICE-event',
-		'https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled-600x448.webp': 'Lydanlæg til leje til en stor kongres på Hotel Alfonso XIII, Sevilla',
-		'https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-scaled-600x448.webp': 'Sceneopstilling til en kongres på Hotel Alfonso XIII, Sevilla',
-		'https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-scaled-600x448.webp': 'Lydanlæg til en præsentation hos en Volvo-forhandler i Malaga',
-		'https://cdn.malagaeventgear.com/blog/1261/methacrylate_lectern_outdoor_event-600x448.webp': 'Talerstol i metakrylat ved et udendørs event',
-		'https://cdn.malagaeventgear.com/blog/1292/malaga_event_lighting_display_projector_sound_rental_3-scaled-600x448.webp': 'Professionel skærm, projektor og lydanlæg til leje',
-		'https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled-600x448.webp': 'Imponerende installation af lys og lyd til et event',
-		'https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1-600x450.webp': 'Lys og lyd til et event med skærm',
-		'https://cdn.malagaeventgear.com/blog/1195/sound-system-tennis-championship-2024-setup-600x338.webp': 'Lydopstilling til et tennismesterskab',
-		'https://cdn.malagaeventgear.com/blog/1788/2025-10-05-DJ-audio-and-microphone-system-setup-600x450.webp': 'Opstilling af DJ-lyd og mikrofoner',
-		'https://cdn.malagaeventgear.com/blog/1289/malaga_event_lighting_display_projector_sound_rental_1-scaled-600x448.webp': 'Professionel eventbelysning og projektionslærred',
-		'https://cdn.malagaeventgear.com/blog/1294/malaga_event_lighting_big_display_projector_sound_rental_1-scaled-600x448.webp': 'Scene, lyd, billede og skræddersyet opstilling',
-		'https://cdn.malagaeventgear.com/blog/1327/malaga_concert_lighting_microphone_audio_rental-scaled-600x448.webp': 'Koncertbelysning, mikrofoner og lyd til leje',
-		'https://cdn.malagaeventgear.com/blog/1275/malaga_sound_system_rental_outdoor_event-scaled-600x448.webp': 'Lydanlæg til leje på tagterrassen på Hotel Alfonso XIII, Sevilla',
-		'https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-600x448.webp': 'Lyd og lys til leje til events med liveband',
-		'https://cdn.malagaeventgear.com/blog/1323/rental-audio-system-parties-events-600x448.webp': 'Udlejning af lydanlæg i Malaga til en strandfest med professionelt DJ-udstyr, højttalere og en livlig folkemængde',
-		'https://cdn.malagaeventgear.com/blog/1324/rent-microphone-parties-concerts-events-malaga-600x803.webp': 'Levende musik til et event i Malaga med en sanger med professionel mikrofon og en guitarist, der skaber en levende og elegant stemning',
-		'https://cdn.malagaeventgear.com/blog/1325/audio-lighting-sound-system-microphone-rental-malaga-600x803.webp': 'En DJ og guitarist optræder på scenen med professionelt lyd- og lysudstyr til et udendørs event i Malaga-provinsen',
-		'https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-600x803.webp': 'Podium og lydanlæg til en koncert i Malaga-provinsen',
-		'https://cdn.malagaeventgear.com/blog/1787/2025-10-05-at-DJ-audio-and-microphone-system-setup-600x800.webp': 'Nærbillede af professionelt DJ-udstyr med medieafspiller og mixer ved en kvindelig DJs event',
-		'https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-600x450.webp': 'Fem skærme monteret på række på en udstillerstand ved ECOC 2026, Malaga',
-		'https://cdn.malagaeventgear.com/blog/3099/ecoc2026-malaga-spain-2-600x450.webp': 'Tre standskærme installeret for en udstiller på udstillingen ved ECOC 2026',
-		'https://cdn.malagaeventgear.com/blog/3097/ecoc2026-malaga-spain-5-600x450.webp': 'Færdig udstillerstand ved ECOC 2026 med sin skærm installeret',
-		'https://cdn.malagaeventgear.com/blog/3102/ecoc2026-malaga-spain-3-600x450.webp': 'Standskærm installeret på udstillingen ved ECOC 2026 i Malaga',
-		'https://cdn.malagaeventgear.com/blog/3098/ecoc2026-malaga-spain-9-600x450.webp': 'Skærm til teknologidemonstrationer på en udstillerstand ved ECOC 2026',
-		'https://cdn.malagaeventgear.com/blog/3101/ecoc2026-malaga-spain-11-600x450.webp': 'Standskærme, der viser produktindhold live ved ECOC 2026, Malaga',
-		'https://cdn.malagaeventgear.com/blog/3105/ecoc2026-malaga-spain-6-600x450.webp': 'Udstillernes hold tager deres stande i drift ved ECOC 2026, FYCMA Malaga',
-		'https://cdn.malagaeventgear.com/blog/3106/ecoc2026-malaga-spain-7-600x450.webp': 'Udstillere tilslutter bærbare computere til deres standskærme ved ECOC 2026',
-		'https://cdn.malagaeventgear.com/blog/3100/ecoc2026-malaga-spain-10-600x450.webp': 'Skærme på nabostande ved ECOC 2026',
-		'https://cdn.malagaeventgear.com/blog/3103/ecoc2026-malaga-spain-12-600x450.webp': 'Opbygning på udstillingsgulvet ved ECOC 2026 i FYCMA, Malaga',
-		'https://cdn.malagaeventgear.com/blog/3104/ecoc2026-malaga-spain-1-600x450.webp': 'Besøgende ved siden af en standskærm på udstillingen ved ECOC 2026'
+		'https://cdn.malagaeventgear.com/blog/1638/wedding_rings_heart_book-600x400.webp':
+			'Detaljer fra en vielse',
+		'https://cdn.malagaeventgear.com/blog/1632/wedding_reception_decor-600x375.webp':
+			'Elegant pynt ved en bryllupsreception',
+		'https://cdn.malagaeventgear.com/blog/1625/beach_wedding_table_decor-600x400.webp':
+			'Dækket og pyntet bord til et strandbryllup',
+		'https://cdn.malagaeventgear.com/blog/1631/wedding_table_setting-600x400.webp':
+			'Romantisk dækket bryllupsbord',
+		'https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-600x400.webp':
+			'Middagsbord ved et aftenbryllup med blød belysning',
+		'https://cdn.malagaeventgear.com/blog/1629/beach_wedding_setup-600x400.webp':
+			'Smuk opstilling til en vielse på stranden',
+		'https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-600x400.webp':
+			'Opstilling i en sal til en vielse indendørs',
+		'https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding-600x400.webp':
+			'Vielsesbue ved et tropisk strandbryllup',
+		'https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-600x400.webp':
+			'Midtergang med stole ved et tropisk strandbryllup',
+		'https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-scaled-600x448.webp':
+			'AV-anlæg til leje til et internationalt event i Malaga',
+		'https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1-600x401.webp':
+			'Illustrativt foto af en konferencesal med projektionslærreder og et kamera på stativ',
+		'https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-scaled-600x448.webp':
+			'Lyd til leje til et møde i en faglig forening',
+		'https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-600x450.webp':
+			'Lydopstilling til et borgermøde',
+		'https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp':
+			'Lyd og lys på scenen ved et MICE-event',
+		'https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled-600x448.webp':
+			'Lydanlæg til leje til en stor kongres på Hotel Alfonso XIII, Sevilla',
+		'https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-scaled-600x448.webp':
+			'Sceneopstilling til en kongres på Hotel Alfonso XIII, Sevilla',
+		'https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-scaled-600x448.webp':
+			'Lydanlæg til en præsentation hos en Volvo-forhandler i Malaga',
+		'https://cdn.malagaeventgear.com/blog/1261/methacrylate_lectern_outdoor_event-600x448.webp':
+			'Talerstol i metakrylat ved et udendørs event',
+		'https://cdn.malagaeventgear.com/blog/1292/malaga_event_lighting_display_projector_sound_rental_3-scaled-600x448.webp':
+			'Professionel skærm, projektor og lydanlæg til leje',
+		'https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled-600x448.webp':
+			'Imponerende installation af lys og lyd til et event',
+		'https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1-600x450.webp':
+			'Lys og lyd til et event med skærm',
+		'https://cdn.malagaeventgear.com/blog/1195/sound-system-tennis-championship-2024-setup-600x338.webp':
+			'Lydopstilling til et tennismesterskab',
+		'https://cdn.malagaeventgear.com/blog/1788/2025-10-05-DJ-audio-and-microphone-system-setup-600x450.webp':
+			'Opstilling af DJ-lyd og mikrofoner',
+		'https://cdn.malagaeventgear.com/blog/1289/malaga_event_lighting_display_projector_sound_rental_1-scaled-600x448.webp':
+			'Professionel eventbelysning og projektionslærred',
+		'https://cdn.malagaeventgear.com/blog/1294/malaga_event_lighting_big_display_projector_sound_rental_1-scaled-600x448.webp':
+			'Scene, lyd, billede og skræddersyet opstilling',
+		'https://cdn.malagaeventgear.com/blog/1327/malaga_concert_lighting_microphone_audio_rental-scaled-600x448.webp':
+			'Koncertbelysning, mikrofoner og lyd til leje',
+		'https://cdn.malagaeventgear.com/blog/1275/malaga_sound_system_rental_outdoor_event-scaled-600x448.webp':
+			'Lydanlæg til leje på tagterrassen på Hotel Alfonso XIII, Sevilla',
+		'https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-600x448.webp':
+			'Lyd og lys til leje til events med liveband',
+		'https://cdn.malagaeventgear.com/blog/1323/rental-audio-system-parties-events-600x448.webp':
+			'Udlejning af lydanlæg i Malaga til en strandfest med professionelt DJ-udstyr, højttalere og en livlig folkemængde',
+		'https://cdn.malagaeventgear.com/blog/1324/rent-microphone-parties-concerts-events-malaga-600x803.webp':
+			'Levende musik til et event i Malaga med en sanger med professionel mikrofon og en guitarist, der skaber en levende og elegant stemning',
+		'https://cdn.malagaeventgear.com/blog/1325/audio-lighting-sound-system-microphone-rental-malaga-600x803.webp':
+			'En DJ og guitarist optræder på scenen med professionelt lyd- og lysudstyr til et udendørs event i Malaga-provinsen',
+		'https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-600x803.webp':
+			'Podium og lydanlæg til en koncert i Malaga-provinsen',
+		'https://cdn.malagaeventgear.com/blog/1787/2025-10-05-at-DJ-audio-and-microphone-system-setup-600x800.webp':
+			'Nærbillede af professionelt DJ-udstyr med medieafspiller og mixer ved en kvindelig DJs event',
+		'https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-600x450.webp':
+			'Fem skærme monteret på række på en udstillerstand ved ECOC 2026, Malaga',
+		'https://cdn.malagaeventgear.com/blog/3099/ecoc2026-malaga-spain-2-600x450.webp':
+			'Tre standskærme installeret for en udstiller på udstillingen ved ECOC 2026',
+		'https://cdn.malagaeventgear.com/blog/3097/ecoc2026-malaga-spain-5-600x450.webp':
+			'Færdig udstillerstand ved ECOC 2026 med sin skærm installeret',
+		'https://cdn.malagaeventgear.com/blog/3102/ecoc2026-malaga-spain-3-600x450.webp':
+			'Standskærm installeret på udstillingen ved ECOC 2026 i Malaga',
+		'https://cdn.malagaeventgear.com/blog/3098/ecoc2026-malaga-spain-9-600x450.webp':
+			'Skærm til teknologidemonstrationer på en udstillerstand ved ECOC 2026',
+		'https://cdn.malagaeventgear.com/blog/3101/ecoc2026-malaga-spain-11-600x450.webp':
+			'Standskærme, der viser produktindhold live ved ECOC 2026, Malaga',
+		'https://cdn.malagaeventgear.com/blog/3105/ecoc2026-malaga-spain-6-600x450.webp':
+			'Udstillernes hold tager deres stande i drift ved ECOC 2026, FYCMA Malaga',
+		'https://cdn.malagaeventgear.com/blog/3106/ecoc2026-malaga-spain-7-600x450.webp':
+			'Udstillere tilslutter bærbare computere til deres standskærme ved ECOC 2026',
+		'https://cdn.malagaeventgear.com/blog/3100/ecoc2026-malaga-spain-10-600x450.webp':
+			'Skærme på nabostande ved ECOC 2026',
+		'https://cdn.malagaeventgear.com/blog/3103/ecoc2026-malaga-spain-12-600x450.webp':
+			'Opbygning på udstillingsgulvet ved ECOC 2026 i FYCMA, Malaga',
+		'https://cdn.malagaeventgear.com/blog/3104/ecoc2026-malaga-spain-1-600x450.webp':
+			'Besøgende ved siden af en standskærm på udstillingen ved ECOC 2026'
 	}
 } satisfies DataCopy;

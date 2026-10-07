@@ -3,7 +3,7 @@ import type { DataCopy } from '../data-copy';
 export default {
 	packages: {
 		eco: {
-			updated: '2026-09-24',
+			updated: '2026-10-07',
 			desc: '马拉加小型派对音响灯光套餐，适合最多50位宾客的私人派对或小型活动，包含稳定的基础音响与氛围灯光。',
 			includes: [
 				'2台高品质有源音箱及支架',
@@ -11,7 +11,10 @@ export default {
 				'2条配备RGBW LED聚光灯的灯排',
 				'美观走线与专业搭建'
 			],
-			optional: ['投影仪及投影幕布（+{price:projectorScreen}）', '专业烟雾机（+{price:smokeMachine}）'],
+			optional: [
+				'投影仪及投影幕布（+{price:projectorScreen}）',
+				'专业烟雾机（+{price:smokeMachine}）'
+			],
 			seo: { title: 'Eco Pack：马拉加小型派对音响灯光租赁 | MEG' },
 			landing: {
 				badge: '小型活动与派对',
@@ -30,7 +33,7 @@ export default {
 			}
 		},
 		wedding: {
-			updated: '2026-09-24',
+			updated: '2026-10-07',
 			desc: '马拉加婚礼音响灯光麦克风套餐，专为梦幻难忘的婚礼庆典精心打造，配备专业高端音响系统、浪漫氛围灯光及无线麦克风，让动人致辞清晰动听。',
 			includes: [
 				'高端有源PA音响系统，适用于最多80位宾客',
@@ -54,12 +57,13 @@ export default {
 					'无需担心麦克风啸叫或画面问题。本套餐提供全程现场技术监控，并在宴会与致辞期间随时调整音效。',
 				includesLabel: '高端配置内容',
 				ctaHeading: '让您的庆典绽放光彩',
-				ctaBody: '婚礼档期十分抢手，请尽快联系我们的技术团队锁定日期，为您的特别一天预留顶级音效与浪漫灯光。',
+				ctaBody:
+					'婚礼档期十分抢手，请尽快联系我们的技术团队锁定日期，为您的特别一天预留顶级音效与浪漫灯光。',
 				ctaButton: '预订Wedding Pack'
 			}
 		},
 		'product-presentation': {
-			updated: '2026-09-24',
+			updated: '2026-10-07',
 			desc: '马拉加新品发布投影仪屏幕套餐，专为企业演示、经销商展示及产品发布会打造，呈现震撼的视觉效果。',
 			includes: [
 				'1块配稳固支架的前投投影幕布',
@@ -88,7 +92,7 @@ export default {
 			}
 		},
 		'basic-mice': {
-			updated: '2026-09-24',
+			updated: '2026-10-07',
 			desc: '马拉加小型企业会议设备套餐，为最多40位宾客的高管会议、小型会议及演示活动提供必备的高性能视听配置。',
 			includes: [
 				'2x2米投影幕布，配3000流明高亮度投影仪',
@@ -110,12 +114,13 @@ export default {
 				includesLabel: '套餐包含',
 				optionalLabel: '可选支持服务',
 				ctaHeading: '规划您的高管会议',
-				ctaBody: '让Malaga Event Gear为您统筹顺畅的企业视听物流。立即联系我们的专家，打造专业的会议室体验。',
+				ctaBody:
+					'让Malaga Event Gear为您统筹顺畅的企业视听物流。立即联系我们的专家，打造专业的会议室体验。',
 				ctaButton: '预订Basic MICE Pack'
 			}
 		},
 		mice: {
-			updated: '2026-09-26',
+			updated: '2026-10-07',
 			desc: '马拉加大型会展音响投影套餐，为企业提供全面的会展解决方案，配备大尺寸显示屏、高端有源扩声系统、鹅颈麦克风和无线手持麦克风，以及专属现场技术支持。',
 			includes: [
 				'高端60英寸高清LED显示屏，配设计款支架',
@@ -142,7 +147,8 @@ export default {
 				includesLabel: '高端配置内容',
 				optionalLabel: '可选附加项目',
 				ctaHeading: '为您的企业活动注入强大支持',
-				ctaBody: '借助高端视听设备与专属技术支持，呈现完美的企业活动体验。立即联系我们确认您活动当天的档期。',
+				ctaBody:
+					'借助高端视听设备与专属技术支持，呈现完美的企业活动体验。立即联系我们确认您活动当天的档期。',
 				ctaButton: '预订MICE Pack'
 			}
 		}
@@ -236,7 +242,7 @@ export default {
 		'minimum-order-granada': {
 			question: '太阳海岸以外地区的服务是否有最低消费要求？',
 			answer:
-				'在太阳海岸范围内没有特别的最低消费要求。对于格拉纳达等跨省的较远地区，我们要求最低租赁金额超过{price:outOfProvinceMinimum}，以覆盖单日往返的物流成本。我们也服务塞维利亚地区，具体条件请联系我们确认。'
+				'在太阳海岸范围内没有特别的最低消费要求。塞维利亚同样提供服务，没有最低订单要求。只有路途较远的跨省地区格拉纳达，我们才要求最低租赁金额超过{price:outOfProvinceMinimum}，以覆盖单日往返的物流成本。具体条件请联系我们确认。'
 		},
 		'customize-package': {
 			question: '我可以根据自身需求定制或扩展套餐吗？',
@@ -245,49 +251,93 @@ export default {
 		}
 	},
 	gallery: {
-		'https://cdn.malagaeventgear.com/blog/1638/wedding_rings_heart_book-600x400.webp': '婚礼仪式细节',
-		'https://cdn.malagaeventgear.com/blog/1632/wedding_reception_decor-600x375.webp': '优雅的婚宴布置',
-		'https://cdn.malagaeventgear.com/blog/1625/beach_wedding_table_decor-600x400.webp': '海滩婚礼餐桌摆设与装饰',
-		'https://cdn.malagaeventgear.com/blog/1631/wedding_table_setting-600x400.webp': '浪漫的婚礼餐桌布置',
-		'https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-600x400.webp': '柔和灯光下的晚间婚宴餐桌',
-		'https://cdn.malagaeventgear.com/blog/1629/beach_wedding_setup-600x400.webp': '美丽的海滩婚礼仪式布置',
-		'https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-600x400.webp': '室内婚礼仪式大厅布置',
-		'https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding-600x400.webp': '热带海滩婚礼仪式拱门',
-		'https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-600x400.webp': '摆放座椅的热带海滩婚礼通道',
-		'https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-scaled-600x448.webp': '马拉加国际活动的视听租赁系统',
-		'https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1-600x401.webp': '示意图：设有投影幕布和三脚架摄像机的会议厅',
-		'https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-scaled-600x448.webp': '专业协会会议音响租赁',
-		'https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-600x450.webp': '社区会议音响布置',
-		'https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp': 'MICE活动舞台上的音响与灯光',
-		'https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled-600x448.webp': '塞维利亚Hotel Alfonso XIII大型会议音响系统租赁',
-		'https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-scaled-600x448.webp': '塞维利亚Hotel Alfonso XIII会议舞台布置',
-		'https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-scaled-600x448.webp': '马拉加一家Volvo经销商演示活动的音响系统',
-		'https://cdn.malagaeventgear.com/blog/1261/methacrylate_lectern_outdoor_event-600x448.webp': '户外活动中的亚克力讲台',
-		'https://cdn.malagaeventgear.com/blog/1292/malaga_event_lighting_display_projector_sound_rental_3-scaled-600x448.webp': '专业显示屏、投影仪及音响系统租赁',
-		'https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled-600x448.webp': '令人惊艳的活动灯光与音响安装',
-		'https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1-600x450.webp': '活动屏幕的灯光与音响',
-		'https://cdn.malagaeventgear.com/blog/1195/sound-system-tennis-championship-2024-setup-600x338.webp': '网球锦标赛体育音响布置',
-		'https://cdn.malagaeventgear.com/blog/1788/2025-10-05-DJ-audio-and-microphone-system-setup-600x450.webp': 'DJ音响与麦克风系统布置',
-		'https://cdn.malagaeventgear.com/blog/1289/malaga_event_lighting_display_projector_sound_rental_1-scaled-600x448.webp': '专业活动灯光与投影幕布',
-		'https://cdn.malagaeventgear.com/blog/1294/malaga_event_lighting_big_display_projector_sound_rental_1-scaled-600x448.webp': '舞台、音响、视觉及定制布置',
-		'https://cdn.malagaeventgear.com/blog/1327/malaga_concert_lighting_microphone_audio_rental-scaled-600x448.webp': '演唱会灯光、麦克风及音响租赁',
-		'https://cdn.malagaeventgear.com/blog/1275/malaga_sound_system_rental_outdoor_event-scaled-600x448.webp': '塞维利亚Hotel Alfonso XIII屋顶露台音响系统租赁',
-		'https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-600x448.webp': '现场乐队活动的音响与灯光租赁',
-		'https://cdn.malagaeventgear.com/blog/1323/rental-audio-system-parties-events-600x448.webp': '在马拉加为一场沙滩派对提供的音响系统租赁，配备专业DJ设备、音箱，现场气氛热烈',
-		'https://cdn.malagaeventgear.com/blog/1324/rent-microphone-parties-concerts-events-malaga-600x803.webp': '在马拉加一场活动上的现场音乐表演，一名歌手手持专业麦克风与一名吉他手同台，营造出活力优雅的氛围',
-		'https://cdn.malagaeventgear.com/blog/1325/audio-lighting-sound-system-microphone-rental-malaga-600x803.webp': '一名DJ与一名吉他手在马拉加省的一场户外活动上同台演出，配备专业音响与灯光设备',
-		'https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-600x803.webp': '马拉加省一场音乐会的舞台与音响系统',
-		'https://cdn.malagaeventgear.com/blog/1787/2025-10-05-at-DJ-audio-and-microphone-system-setup-600x800.webp': '一场女DJ活动上专业DJ设备的特写，配有媒体播放器和调音台',
-		'https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-600x450.webp': '马拉加ECOC 2026展会上，一个参展商展位上一字排开安装的五块显示屏',
-		'https://cdn.malagaeventgear.com/blog/3099/ecoc2026-malaga-spain-2-600x450.webp': 'ECOC 2026展会上为一家参展商安装的三块展位屏幕',
-		'https://cdn.malagaeventgear.com/blog/3097/ecoc2026-malaga-spain-5-600x450.webp': '已布置完成、装好显示屏的ECOC 2026参展商展位',
-		'https://cdn.malagaeventgear.com/blog/3102/ecoc2026-malaga-spain-3-600x450.webp': '马拉加ECOC 2026展会上安装的展位显示屏',
-		'https://cdn.malagaeventgear.com/blog/3098/ecoc2026-malaga-spain-9-600x450.webp': 'ECOC 2026参展商展位上的技术演示屏幕',
-		'https://cdn.malagaeventgear.com/blog/3101/ecoc2026-malaga-spain-11-600x450.webp': '马拉加ECOC 2026上实时播放产品内容的展位屏幕',
-		'https://cdn.malagaeventgear.com/blog/3105/ecoc2026-malaga-spain-6-600x450.webp': 'ECOC 2026参展商团队在马拉加FYCMA调试各自的展位',
-		'https://cdn.malagaeventgear.com/blog/3106/ecoc2026-malaga-spain-7-600x450.webp': 'ECOC 2026上，参展商将笔记本电脑连接到展位屏幕',
-		'https://cdn.malagaeventgear.com/blog/3100/ecoc2026-malaga-spain-10-600x450.webp': 'ECOC 2026相邻参展商展位上的显示屏',
-		'https://cdn.malagaeventgear.com/blog/3103/ecoc2026-malaga-spain-12-600x450.webp': '马拉加FYCMA的ECOC 2026展厅布展现场',
-		'https://cdn.malagaeventgear.com/blog/3104/ecoc2026-malaga-spain-1-600x450.webp': 'ECOC 2026展会上，参观者站在展位显示屏旁'
+		'https://cdn.malagaeventgear.com/blog/1638/wedding_rings_heart_book-600x400.webp':
+			'婚礼仪式细节',
+		'https://cdn.malagaeventgear.com/blog/1632/wedding_reception_decor-600x375.webp':
+			'优雅的婚宴布置',
+		'https://cdn.malagaeventgear.com/blog/1625/beach_wedding_table_decor-600x400.webp':
+			'海滩婚礼餐桌摆设与装饰',
+		'https://cdn.malagaeventgear.com/blog/1631/wedding_table_setting-600x400.webp':
+			'浪漫的婚礼餐桌布置',
+		'https://cdn.malagaeventgear.com/blog/1628/evening_wedding_reception_table-600x400.webp':
+			'柔和灯光下的晚间婚宴餐桌',
+		'https://cdn.malagaeventgear.com/blog/1629/beach_wedding_setup-600x400.webp':
+			'美丽的海滩婚礼仪式布置',
+		'https://cdn.malagaeventgear.com/blog/1635/indoor_wedding_ceremony_hall-600x400.webp':
+			'室内婚礼仪式大厅布置',
+		'https://cdn.malagaeventgear.com/blog/1630/tropical_beach_wedding-600x400.webp':
+			'热带海滩婚礼仪式拱门',
+		'https://cdn.malagaeventgear.com/blog/1636/tropical_beach_wedding_aisle-600x400.webp':
+			'摆放座椅的热带海滩婚礼通道',
+		'https://cdn.malagaeventgear.com/blog/1282/malaga_international_event_av_rental-scaled-600x448.webp':
+			'马拉加国际活动的视听租赁系统',
+		'https://cdn.malagaeventgear.com/blog/2278/audio-visual-rental-for-virtual-events-in-Malaga-1-600x401.webp':
+			'示意图：设有投影幕布和三脚架摄像机的会议厅',
+		'https://cdn.malagaeventgear.com/blog/1284/colegio_oficial_gestores_administrativos_malaga_audio_rental_1-scaled-600x448.webp':
+			'专业协会会议音响租赁',
+		'https://cdn.malagaeventgear.com/blog/2495/7-years-on-the-Neighborhood-Council-Community-Meeting-600x450.webp':
+			'社区会议音响布置',
+		'https://cdn.malagaeventgear.com/blog/1331/malaga_mice_event_audio_lighting_podium_rental-600x449.webp':
+			'MICE活动舞台上的音响与灯光',
+		'https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled-600x448.webp':
+			'塞维利亚Hotel Alfonso XIII大型会议音响系统租赁',
+		'https://cdn.malagaeventgear.com/blog/1269/hotel_alfonso_xiii_congress_stage-scaled-600x448.webp':
+			'塞维利亚Hotel Alfonso XIII会议舞台布置',
+		'https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-scaled-600x448.webp':
+			'马拉加一家Volvo经销商演示活动的音响系统',
+		'https://cdn.malagaeventgear.com/blog/1261/methacrylate_lectern_outdoor_event-600x448.webp':
+			'户外活动中的亚克力讲台',
+		'https://cdn.malagaeventgear.com/blog/1292/malaga_event_lighting_display_projector_sound_rental_3-scaled-600x448.webp':
+			'专业显示屏、投影仪及音响系统租赁',
+		'https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled-600x448.webp':
+			'令人惊艳的活动灯光与音响安装',
+		'https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1-600x450.webp':
+			'活动屏幕的灯光与音响',
+		'https://cdn.malagaeventgear.com/blog/1195/sound-system-tennis-championship-2024-setup-600x338.webp':
+			'网球锦标赛体育音响布置',
+		'https://cdn.malagaeventgear.com/blog/1788/2025-10-05-DJ-audio-and-microphone-system-setup-600x450.webp':
+			'DJ音响与麦克风系统布置',
+		'https://cdn.malagaeventgear.com/blog/1289/malaga_event_lighting_display_projector_sound_rental_1-scaled-600x448.webp':
+			'专业活动灯光与投影幕布',
+		'https://cdn.malagaeventgear.com/blog/1294/malaga_event_lighting_big_display_projector_sound_rental_1-scaled-600x448.webp':
+			'舞台、音响、视觉及定制布置',
+		'https://cdn.malagaeventgear.com/blog/1327/malaga_concert_lighting_microphone_audio_rental-scaled-600x448.webp':
+			'演唱会灯光、麦克风及音响租赁',
+		'https://cdn.malagaeventgear.com/blog/1275/malaga_sound_system_rental_outdoor_event-scaled-600x448.webp':
+			'塞维利亚Hotel Alfonso XIII屋顶露台音响系统租赁',
+		'https://cdn.malagaeventgear.com/blog/1272/malaga_sound_lighting_rental_event-scaled-600x448.webp':
+			'现场乐队活动的音响与灯光租赁',
+		'https://cdn.malagaeventgear.com/blog/1323/rental-audio-system-parties-events-600x448.webp':
+			'在马拉加为一场沙滩派对提供的音响系统租赁，配备专业DJ设备、音箱，现场气氛热烈',
+		'https://cdn.malagaeventgear.com/blog/1324/rent-microphone-parties-concerts-events-malaga-600x803.webp':
+			'在马拉加一场活动上的现场音乐表演，一名歌手手持专业麦克风与一名吉他手同台，营造出活力优雅的氛围',
+		'https://cdn.malagaeventgear.com/blog/1325/audio-lighting-sound-system-microphone-rental-malaga-600x803.webp':
+			'一名DJ与一名吉他手在马拉加省的一场户外活动上同台演出，配备专业音响与灯光设备',
+		'https://cdn.malagaeventgear.com/blog/1330/malaga_concert_podium_sound_system-600x803.webp':
+			'马拉加省一场音乐会的舞台与音响系统',
+		'https://cdn.malagaeventgear.com/blog/1787/2025-10-05-at-DJ-audio-and-microphone-system-setup-600x800.webp':
+			'一场女DJ活动上专业DJ设备的特写，配有媒体播放器和调音台',
+		'https://cdn.malagaeventgear.com/blog/3096/ecoc2026-malaga-spain-4-600x450.webp':
+			'马拉加ECOC 2026展会上，一个参展商展位上一字排开安装的五块显示屏',
+		'https://cdn.malagaeventgear.com/blog/3099/ecoc2026-malaga-spain-2-600x450.webp':
+			'ECOC 2026展会上为一家参展商安装的三块展位屏幕',
+		'https://cdn.malagaeventgear.com/blog/3097/ecoc2026-malaga-spain-5-600x450.webp':
+			'已布置完成、装好显示屏的ECOC 2026参展商展位',
+		'https://cdn.malagaeventgear.com/blog/3102/ecoc2026-malaga-spain-3-600x450.webp':
+			'马拉加ECOC 2026展会上安装的展位显示屏',
+		'https://cdn.malagaeventgear.com/blog/3098/ecoc2026-malaga-spain-9-600x450.webp':
+			'ECOC 2026参展商展位上的技术演示屏幕',
+		'https://cdn.malagaeventgear.com/blog/3101/ecoc2026-malaga-spain-11-600x450.webp':
+			'马拉加ECOC 2026上实时播放产品内容的展位屏幕',
+		'https://cdn.malagaeventgear.com/blog/3105/ecoc2026-malaga-spain-6-600x450.webp':
+			'ECOC 2026参展商团队在马拉加FYCMA调试各自的展位',
+		'https://cdn.malagaeventgear.com/blog/3106/ecoc2026-malaga-spain-7-600x450.webp':
+			'ECOC 2026上，参展商将笔记本电脑连接到展位屏幕',
+		'https://cdn.malagaeventgear.com/blog/3100/ecoc2026-malaga-spain-10-600x450.webp':
+			'ECOC 2026相邻参展商展位上的显示屏',
+		'https://cdn.malagaeventgear.com/blog/3103/ecoc2026-malaga-spain-12-600x450.webp':
+			'马拉加FYCMA的ECOC 2026展厅布展现场',
+		'https://cdn.malagaeventgear.com/blog/3104/ecoc2026-malaga-spain-1-600x450.webp':
+			'ECOC 2026展会上，参观者站在展位显示屏旁'
 	}
 } satisfies DataCopy;

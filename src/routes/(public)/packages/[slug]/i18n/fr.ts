@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-07';
 
 const copy = {
 	benefits: {
@@ -15,7 +15,7 @@ const copy = {
 		},
 		areas: {
 			q: 'Quelles zones couvrez-vous en Andalousie ?',
-			a: "Nous desservons quotidiennement Malaga capitale, Marbella et toute la Costa del Sol. Nous intervenons aussi à Séville et à Grenade (pour les commandes supérieures à {price:outOfProvinceMinimum}). Nous ne proposons actuellement pas d'option de retrait, car nous fonctionnons uniquement selon un modèle de livraison."
+			a: "Nous desservons quotidiennement Malaga capitale, Marbella et toute la Costa del Sol. Nous intervenons aussi à Séville, sans minimum de commande, et à Grenade pour les commandes supérieures à {price:outOfProvinceMinimum}. Nous ne proposons actuellement pas d'option de retrait, car nous fonctionnons uniquement selon un modèle de livraison."
 		},
 		rain: {
 			q: "Que se passe-t-il s'il pleut lors d'un événement en extérieur ?",
@@ -23,7 +23,7 @@ const copy = {
 		},
 		technician: {
 			q: "Que se passe-t-il si j'ai besoin d'un technicien pendant mon événement ?",
-			a: "Nos forfaits premium (comme le {wedding} et le {mice}) incluent déjà un suivi technique sur place. Pour les autres forfaits, vous pouvez demander un technicien son et lumière dédié, présent sur votre lieu de réception, pour une expérience sans stress."
+			a: 'Nos forfaits premium (comme le {wedding} et le {mice}) incluent déjà un suivi technique sur place. Pour les autres forfaits, vous pouvez demander un technicien son et lumière dédié, présent sur votre lieu de réception, pour une expérience sans stress.'
 		}
 	},
 	popularBadge: 'Le plus demandé',
