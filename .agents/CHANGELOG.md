@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): audio-visual-rental-for-music-performances, nueva FAQ de backline (2026-10-07)
+- Tarea #T0058 (plan de contenido 2026-10-07, keyword "concert backline", google-ads 50/mo).
+- Se agrego al final de `## FAQs` en `src/content/blog/audio-visual-rental-for-music-performances.svx` la pregunta "Do you provide concert backline, like amps or a drum kit, for a live band?". Dice que el backline no esta en el inventario propio, que buscamos solucion con proveedores si la hay (sin promesa de disponibilidad ni plazo) y que MEG trae PA, microfono y luces mientras la banda conecta su instrumental a su mesa. Sin marca, modelo ni precio. El post no tiene `## Table of Contents` inline, no hubo bullet que anadir.
+- `updatedDate` paso a 2026-10-07 via `just post-sync`; `post-faqs.json` y `post-toc.json` regenerados.
+- Las 12 traducciones quedan stale y se actualizan en el mismo cambio.
+
 ### Added (docs): metodologia de SEO local de Caleb Ulku, contrastada con Google (2026-10-04)
 - Pedido del usuario: resumir las 4 transcripciones de Caleb Ulku (`.agents/context/local-seo/caleb-ulku/`) como contexto de SEO y actualizar las referencias y los agentes de contenido para sitios de negocios locales. Decision del usuario: metodologia global y overrides de MEG en el proyecto.
 - Nuevo `~/.agents/context/seo/local-seo-gbp-first.md` (global, canonico): GBP como objetivo de ranking, completitud del GBP, las 7+1 senales de consistencia de la landing del GBP, Core 30, enlaces editoriales frente a los de navegacion, FAQ que enlaza a su pagina de soporte, rank grid y "top 3%", operacion del GBP, citaciones y enlaces locales. Incluye la tabla "Where this source conflicts with Google": compra de enlaces, enlaces pagados sin `sponsored`, 40 paginas con un 90% de IA, reformular PAA para disimular, paginas por barrio o punto de referencia, schema en una sola URL, widget de resenas con markup y fotos con geotag. En todos gana Google, con la cita de `spam-policies`, `qualify-outbound-links`, `review-snippet` y el PDF.
