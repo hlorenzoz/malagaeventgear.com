@@ -54,6 +54,21 @@
       ]
     },
     {
+      "id": "#T0047",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"projector hire\" (new_content)",
+      "anotada": "2026-09-30",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/projector-hire)",
+      "notas": [],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto medium, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
+      ]
+    },
+    {
       "id": "#T0048",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -363,23 +378,6 @@
         "3. (Opcional) Zaraz s.js aparece en staging sin cache TTL (7KB): revisar si se está usando; si no, desactivarlo.",
         "",
         "Verificación tras deploy + purge + toggle: npx lighthouse https://malagaeventgear.com/blog/ --only-categories=performance --form-factor=mobile -> objetivo FCP <2.5s, LCP <3s, score >=85. (nuevo.malagaeventgear.com fue dado de baja, ya no resuelve; usar producción o localhost:4173)."
-      ]
-    },
-    {
-      "id": "#T0047",
-      "estado": "bloqueada",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"projector hire\" (new_content)",
-      "anotada": "2026-09-30",
-      "hecha": null,
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/projector-hire)",
-      "notas": [
-        "bloqueada hasta terminar las traducciones de todos los posts"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto medium, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
       ]
     },
     {
@@ -1351,7 +1349,6 @@
       "hecha": "2026-10-07",
       "origen": "content-strategist (plan 2026-10-02, ítem 3)",
       "notas": [
-        "bloqueada hasta terminar las traducciones de todos los posts",
         "2026-10-07 post nuevo outdoor-movie-screen-and-projector-rental en 13 idiomas (ingles 6356e75",
         "hermanos c43262f",
         "traducciones 9d6e834",
