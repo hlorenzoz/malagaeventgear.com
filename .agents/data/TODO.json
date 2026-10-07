@@ -226,33 +226,6 @@
       ]
     },
     {
-      "id": "#T0032",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "contenido",
-      "titulo": "Copia del sitio: el mínimo de 400 euros se lee como si aplicara a Sevilla",
-      "anotada": "2026-09-25",
-      "hecha": null,
-      "origen": "migrada",
-      "notas": [
-        "prioridad asignada por content-strategist el 2026-09-30: El texto indica que dos frases de copia ya publicada dan a entender que el minimo de 400 euros sin IVA aplica a Sevilla",
-        "cuando la regla real (BUSINESS.md seccion 3) es que Sevilla no tiene minimo y solo Granada lo tiene: un hecho de negocio incorrecto ya publicado."
-      ],
-      "descripcion": [
-        "Regla (.agents/BUSINESS.md sección 3, site.ts serviceAreas): Sevilla con cobertura completa y sin",
-        "mínimo, Granada solo con reservas de más de 400 euros sin IVA. Los posts ingleses se corrigieron en",
-        "la reescritura del 2026-09-25. Quedan dos frases ambiguas en copia que se publica en 13 idiomas:",
-        "- src/routes/(public)/packages/[slug]/i18n/<locale>.ts, FAQ de zona: \"We also service Seville and",
-        "  Granada (for orders over {price:outOfProvinceMinimum})\": el paréntesis se puede leer como si",
-        "  valiera para las dos ciudades.",
-        "- src/lib/data/faq.ts (~176) y sus 12 traducciones en src/lib/i18n/data/<locale>.ts: \"For more",
-        "  distant, out of province destinations such as Granada, we require a minimum...\": \"such as\"",
-        "  sugiere que hay otros destinos con mínimo.",
-        "Arreglo: reescribir las dos en inglés y en los 12 idiomas en el mismo cambio, con la fecha de la",
-        "página o del paquete actualizada (regla de frescura)."
-      ]
-    },
-    {
       "id": "#T0033",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -1501,6 +1474,37 @@
         "Qué cubrir: State honestly that MEG's own inventory has one screen size, the 60 inch high definition LED display on the MICE Pack, which reads clearly as a single panel in a conference room without needing a darkened space, per this page's 'TV Screen or Projector: Which One Does Your Event Need?' section. For a room too large for one panel to read across, point to the projector rental guide's 3000 and 5000 lumen tiers instead. Do not invent additional screen sizes MEG does not stock.",
         "Por qué: Checked /blog/tv-screen-rental/'s FAQ list: it answers 'What screen sizes are available?' and 'Do you rent a 55 inch screen?' but never frames the answer around a conference room specifically, which the 'TV Screen or Projector' section addresses only indirectly. Real gap, not a duplicate.",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0032",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "Copia del sitio: el mínimo de 400 euros se lee como si aplicara a Sevilla",
+      "anotada": "2026-09-25",
+      "hecha": "2026-10-07",
+      "origen": "migrada",
+      "notas": [
+        "prioridad asignada por content-strategist el 2026-09-30: El texto indica que dos frases de copia ya publicada dan a entender que el minimo de 400 euros sin IVA aplica a Sevilla",
+        "cuando la regla real (BUSINESS.md seccion 3) es que Sevilla no tiene minimo y solo Granada lo tiene: un hecho de negocio incorrecto ya publicado.",
+        "2026-10-07 reescritas las dos frases ambiguas (FAQ de zona de los 5 paquetes y minimum-order-granada en faq.ts) en 13 idiomas: Sevilla sin minimo",
+        "solo Granada con el minimo (token outOfProvinceMinimum). Fechas de paquetes",
+        "faq y contact movidas a 2026-10-07. Commit a7137be7 (incluye el formateo de Biome del hook de pre-commit sobre los archivos tocados). No tocadas por no ser ambiguas: FAQ service-areas y Terminos de Servicio. Opcional: la pregunta 'minimum order for service outside the Costa del Sol' podria reescribirse porque Sevilla esta fuera de la Costa del Sol. Verificado con 7307 tests",
+        "svelte-check y build; sin Playwright ni verificador independiente"
+      ],
+      "descripcion": [
+        "Regla (.agents/BUSINESS.md sección 3, site.ts serviceAreas): Sevilla con cobertura completa y sin",
+        "mínimo, Granada solo con reservas de más de 400 euros sin IVA. Los posts ingleses se corrigieron en",
+        "la reescritura del 2026-09-25. Quedan dos frases ambiguas en copia que se publica en 13 idiomas:",
+        "- src/routes/(public)/packages/[slug]/i18n/<locale>.ts, FAQ de zona: \"We also service Seville and",
+        "  Granada (for orders over {price:outOfProvinceMinimum})\": el paréntesis se puede leer como si",
+        "  valiera para las dos ciudades.",
+        "- src/lib/data/faq.ts (~176) y sus 12 traducciones en src/lib/i18n/data/<locale>.ts: \"For more",
+        "  distant, out of province destinations such as Granada, we require a minimum...\": \"such as\"",
+        "  sugiere que hay otros destinos con mínimo.",
+        "Arreglo: reescribir las dos en inglés y en los 12 idiomas en el mismo cambio, con la fecha de la",
+        "página o del paquete actualizada (regla de frescura)."
       ]
     },
     {
