@@ -551,25 +551,6 @@
       ]
     },
     {
-      "id": "#T0058",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/audio-visual-rental-for-music-performances/: \"Do you provide concert backline, like amps or a drum kit, for a live band?\"",
-      "anotada": "2026-10-02",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-02, ítem 5)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/audio-visual-rental-for-music-performances.svx",
-        "Keywords: concert backline (google-ads 50/mo (below tier 100)), debajo del tier",
-        "Qué cubrir: Responder que el backline de instrumentos (amplificadores de guitarra/bajo, bateria, atriles de instrumento) no esta en el inventario propio de MEG: el CSV de 2026.09.26 solo lista PA (HK Audio), mesas de mezcla, microfonos Audix y proyectores/pantallas, ningun amplificador de instrumento ni bateria. Usar la formula exacta del posicionamiento de soluciones integrales de CLAUDE.md: 'no esta en nuestro inventario propio' + 'contanos que necesitas y buscamos la solucion con nuestros proveedores', sin prometer disponibilidad ni plazo ('si la hay'), sin dar marca, modelo ni precio. Mantener la distincion ya hecha en el post: MEG SI trae el PA, el microfono y las luces; el musico trae y conecta su propio instrumental a esa mesa de mezcla, como ya dice el FAQ existente 'What is the difference between a setup for a DJ and a live band?'. No contradecir esa FAQ.",
-        "Por qué: El post ya dice que una banda 'runs their instruments through their own mixer into our sound system', pero ningun FAQ nombra el backline (amplis, bateria) como algo que MEG pueda ayudar a conseguir via proveedor. Es una pregunta real de banda/evento musical, distinta de la pregunta ya cubierta sobre DJ vs banda, y encaja exactamente en la capa 2 del posicionamiento de soluciones integrales (CLAUDE.md) en vez de cerrarse con un 'no' categorico. Prioridad media: unica keyword, por debajo del tier, sin variantes duplicadas que ameriten un post nuevo.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0017",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1494,6 +1475,27 @@
         "corporate av rentals (Cubierto por /blog/audio-visual-rental-for-corporate-events/ y /blog/audio-visual-rental-for-corporate-meetings/. Otra página sería canibalización.)",
         "cost to rent a projector and screen (Cubierto por /blog/projector-rental/: encabezado 'Projector and Screen Pricing by Package' y FAQ 'How much does a projector rental cost?'. La keyword data projector hire es el mismo tema que el keyword del post.)",
         "cpl av hire (Parece una búsqueda de marca de otra empresa de alquiler, sin intención de evento que MEG pueda resolver. Fuera de encaje.)"
+      ]
+    },
+    {
+      "id": "#T0058",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/audio-visual-rental-for-music-performances/: \"Do you provide concert backline, like amps or a drum kit, for a live band?\"",
+      "anotada": "2026-10-02",
+      "hecha": "2026-10-07",
+      "origen": "content-strategist (plan 2026-10-02, ítem 5)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audio-visual-rental-for-music-performances.svx",
+        "Keywords: concert backline (google-ads 50/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Responder que el backline de instrumentos (amplificadores de guitarra/bajo, bateria, atriles de instrumento) no esta en el inventario propio de MEG: el CSV de 2026.09.26 solo lista PA (HK Audio), mesas de mezcla, microfonos Audix y proyectores/pantallas, ningun amplificador de instrumento ni bateria. Usar la formula exacta del posicionamiento de soluciones integrales de CLAUDE.md: 'no esta en nuestro inventario propio' + 'contanos que necesitas y buscamos la solucion con nuestros proveedores', sin prometer disponibilidad ni plazo ('si la hay'), sin dar marca, modelo ni precio. Mantener la distincion ya hecha en el post: MEG SI trae el PA, el microfono y las luces; el musico trae y conecta su propio instrumental a esa mesa de mezcla, como ya dice el FAQ existente 'What is the difference between a setup for a DJ and a live band?'. No contradecir esa FAQ.",
+        "Por qué: El post ya dice que una banda 'runs their instruments through their own mixer into our sound system', pero ningun FAQ nombra el backline (amplis, bateria) como algo que MEG pueda ayudar a conseguir via proveedor. Es una pregunta real de banda/evento musical, distinta de la pregunta ya cubierta sobre DJ vs banda, y encaja exactamente en la capa 2 del posicionamiento de soluciones integrales (CLAUDE.md) en vez de cerrarse con un 'no' categorico. Prioridad media: unica keyword, por debajo del tier, sin variantes duplicadas que ameriten un post nuevo.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
