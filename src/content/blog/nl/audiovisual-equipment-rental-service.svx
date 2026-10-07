@@ -1,9 +1,10 @@
 ---
 title: "Verhuur van audiovisuele apparatuur in Malaga, Spanje"
-description: "Verhuur van audiovisuele apparatuur in Malaga: de gespecialiseerde beamer van 5000 lumen, RGBW-verlichting, draadloze microfoons en effecten naast onze basispakketten."
+description: "Verhuur van audiovisuele apparatuur in Malaga: gespecialiseerde beamer van 5000 lumen, RGBW-verlichting, draadloze microfoons en effecten naast onze pakketten."
 excerpt: "De gespecialiseerde laag van onze AV-catalogus: de beamer van 5000 lumen, speciale podiumverlichting en uplighting, draadloze microfoons, een ledscherm van 60 inch en een rookmachine, plus een eerlijke lijst van wat we niet in huis hebben."
 publishDate: "2026-09-25"
-sourceUpdated: "2026-09-25"
+sourceUpdated: "2026-10-07"
+updatedDate: "2026-10-07"
 ---
 
 <script>
@@ -115,6 +116,14 @@ Modulaire platforms en podiumbouw voor het project van Bmotion in Marbella, same
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('mice', ['/1299/', '/3093/', '/3076/', '/1192/'])} speed="normal" direction="left" />
 </div>
+
+## Boeking en servicegebied
+
+We zitten in Malaga en leveren op de hele Costa del Sol: Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona en Mijas vallen allemaal binnen ons gewone servicegebied, met een ruimere dekking tot in Sevilla, Granada, Ronda, Nerja en Antequera. Ons team brengt de beamers, draadloze microfoons en verlichting mee, installeert en test ze en haalt alles na je evenement weer op. [Neem contact met ons op](/contact/) met de plaats van je locatie en het aantal gasten, dan bevestigen we het passende pakket en de levering.
+
+Granada is de enige uitzondering op die gelijkmatige dekking. Een boeking daar moet in totaal boven de 400 euro uitkomen om de logistieke reis van één dag te dekken, terwijl Malaga, de rest van de Costa del Sol en Sevilla geen minimum kennen.
+
+Elke aanvraag vraagt minimaal 24 uur van tevoren, zodat planning en logistieke beschikbaarheid gegarandeerd zijn. Die termijn blijft hetzelfde, hoe ver je evenement ook weg ligt, dus vroeg boeken geeft je de meeste keuze als je voorkeurspakket of technicus niet vrij is.
 
 ## Hoe ver vooruit je moet boeken
 

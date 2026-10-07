@@ -1,9 +1,10 @@
 ---
 title: "Loueur de matériel audiovisuel à Malaga, Espagne"
-description: "Loueur de matériel audiovisuel à Malaga : le vidéoprojecteur spécialisé de 5000 lumens, l'éclairage RGBW, les micros sans fil et les effets, au-delà de nos forfaits."
+description: "Loueur de matériel audiovisuel à Malaga : vidéoprojecteur spécialisé de 5000 lumens, éclairage RGBW, micros sans fil et les effets, au-delà de nos forfaits."
 excerpt: "La couche spécialisée de notre catalogue audiovisuel : le vidéoprojecteur de 5000 lumens, l'éclairage de scène spécialisé et l'uplighting, les micros sans fil, un écran LED de 60 pouces et une machine à fumée, avec une liste honnête de ce que nous n'avons pas en stock."
 publishDate: "2026-09-25"
-sourceUpdated: "2026-09-25"
+sourceUpdated: "2026-10-07"
+updatedDate: "2026-10-07"
 ---
 
 <script>
@@ -115,6 +116,14 @@ Les plateaux modulables et la scène déployés pour le projet Bmotion à Marbel
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('mice', ['/1299/', '/3093/', '/3076/', '/1192/'])} speed="normal" direction="left" />
 </div>
+
+## Réservation et zone de service
+
+Nous sommes basés à Malaga et nous livrons sur toute la Costa del Sol : Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona et Mijas font toutes partie de notre zone de service habituelle, et notre couverture s'étend plus loin jusqu'à Séville, Grenade, Ronda, Nerja et Antequera. Notre équipe apporte les vidéoprojecteurs, les micros sans fil et l'éclairage, les installe et les teste, puis récupère le tout après votre événement. [Contactez-nous](/contact/) en indiquant la ville de votre lieu et le nombre d'invités, et nous vous confirmerons le forfait et la livraison qui conviennent.
+
+Grenade est la seule exception à cette couverture uniforme. Une réservation là-bas doit dépasser 400 euros au total pour couvrir le déplacement logistique d'une seule journée, alors que Malaga, le reste de la Costa del Sol et Séville n'ont aucun minimum de ce type.
+
+Chaque demande exige un préavis minimum de 24 heures afin de garantir la disponibilité du planning et de la logistique. Ce délai reste le même, quelle que soit la date de votre événement, donc réserver tôt vous laisse le plus de choix si le forfait ou le créneau de technicien que vous préférez n'est pas libre.
 
 ## Combien de temps à l'avance réserver
 

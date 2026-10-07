@@ -3,7 +3,8 @@ title: "Servizio di noleggio audio video a Malaga, Spagna"
 description: "Servizio di noleggio audio video a Malaga: il proiettore specialistico da 5000 lumen, luci RGBW, microfoni wireless ed effetti oltre ai nostri pacchetti base."
 excerpt: "La parte specialistica del nostro catalogo audiovisivo: il proiettore da 5000 lumen, l'illuminazione scenica speciale e l'uplighting, i microfoni wireless, uno schermo LED da 60 pollici e una macchina del fumo, con un elenco onesto di ciò che non abbiamo a magazzino."
 publishDate: "2026-09-25"
-sourceUpdated: "2026-09-25"
+sourceUpdated: "2026-10-07"
+updatedDate: "2026-10-07"
 ---
 
 <script>
@@ -115,6 +116,14 @@ Pedane modulari e palco allestiti per il progetto Bmotion a Marbella, insieme a 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('mice', ['/1299/', '/3093/', '/3076/', '/1192/'])} speed="normal" direction="left" />
 </div>
+
+## Prenotazione e area di servizio
+
+Siamo a Malaga e consegniamo su tutta la Costa del Sol: Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona e Mijas rientrano tutte nella nostra area di servizio abituale, con una copertura più ampia che arriva fino a Siviglia, Granada, Ronda, Nerja e Antequera. Il nostro team porta proiettori, microfoni wireless e luci, li installa e li collauda, e ritira tutto dopo il tuo evento. [Contattaci](/contact/) indicando il comune della tua sede e il numero di ospiti, e ti confermeremo il pacchetto e la consegna più adatti.
+
+Granada è l'unica eccezione a questa copertura uniforme. Una prenotazione lì deve superare i 400 euro in totale per coprire la trasferta logistica di un solo giorno, mentre Malaga, il resto della Costa del Sol e Siviglia non hanno alcun minimo.
+
+Ogni richiesta richiede un preavviso minimo di 24 ore per garantire la disponibilità di programmazione e logistica. Questo margine resta lo stesso a prescindere da quanto sia lontano il tuo evento, quindi prenotare con anticipo ti lascia più scelta se il pacchetto o la fascia del tecnico che preferisci non sono liberi.
 
 ## Con quanto anticipo prenotare
 

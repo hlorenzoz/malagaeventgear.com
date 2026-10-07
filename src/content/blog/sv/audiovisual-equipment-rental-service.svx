@@ -1,9 +1,10 @@
 ---
 title: "Uthyrning av audiovisuell utrustning i Malaga, Spanien"
-description: "Uthyrning av audiovisuell utrustning i Malaga: den specialiserade projektorn på 5000 lumen, RGBW-belysning, trådlösa mikrofoner och effekter utöver våra AV-paket."
+description: "Uthyrning av audiovisuell utrustning i Malaga: specialiserad projektor på 5000 lumen, RGBW-belysning, trådlösa mikrofoner och effekter utöver våra AV-paket."
 excerpt: "Det specialiserade lagret i vår AV-katalog: projektorn på 5000 lumen, specialbelysning för scen och uplighting, trådlösa mikrofoner, en LED-skärm på 60 tum och en rökmaskin, plus en ärlig lista över det vi inte har i lager."
 publishDate: "2026-09-25"
-sourceUpdated: "2026-09-25"
+sourceUpdated: "2026-10-07"
+updatedDate: "2026-10-07"
 ---
 
 <script>
@@ -115,6 +116,14 @@ Modulära plattformar och scen byggda för Bmotions projekt i Marbella, tillsamm
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('mice', ['/1299/', '/3093/', '/3076/', '/1192/'])} speed="normal" direction="left" />
 </div>
+
+## Bokning och verksamhetsområde
+
+Vi har vår bas i Malaga och levererar över hela Costa del Sol: Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona och Mijas ligger alla inom vårt ordinarie verksamhetsområde, och vår täckning sträcker sig längre till Sevilla, Granada, Ronda, Nerja och Antequera. Vårt team tar med projektorerna, de trådlösa mikrofonerna och belysningen, installerar och testar dem och hämtar allt efter ditt event. [Kontakta oss](/contact/) med orten för din lokal och antalet gäster, så bekräftar vi vilket paket och vilken leverans som passar.
+
+Granada är det enda undantaget från den jämna täckningen. En bokning där måste uppgå till mer än 400 euro totalt för att täcka den logistiska resan under en enda dag, medan Malaga, resten av Costa del Sol och Sevilla inte har något sådant minimum.
+
+Varje förfrågan kräver minst 24 timmars varsel för att säkra planeringen och den logistiska tillgängligheten. Den tiden är densamma oavsett hur långt bort ditt event ligger, så om du bokar tidigt får du störst urval om ditt föredragna paket eller din tekniker inte är ledig.
 
 ## Hur långt i förväg du ska boka
 

@@ -3,7 +3,8 @@ title: "Utleie av audiovisuelt utstyr i Malaga, Spania"
 description: "Utleie av audiovisuelt utstyr i Malaga: den spesialiserte prosjektoren på 5000 lumen, RGBW-lys, trådløse mikrofoner og effekter utover AV-pakkene våre."
 excerpt: "Det spesialiserte laget i AV-katalogen vår: prosjektoren på 5000 lumen, spesiallys for scenen og uplighting, trådløse mikrofoner, en LED-skjerm på 60 tommer og en røykmaskin, pluss en ærlig liste over det vi ikke har på lager."
 publishDate: "2026-09-25"
-sourceUpdated: "2026-09-25"
+sourceUpdated: "2026-10-07"
+updatedDate: "2026-10-07"
 ---
 
 <script>
@@ -115,6 +116,14 @@ Modulære plattformer og scene bygget for Bmotions prosjekt i Marbella, sammen m
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('mice', ['/1299/', '/3093/', '/3076/', '/1192/'])} speed="normal" direction="left" />
 </div>
+
+## Bestilling og tjenesteområde
+
+Vi har base i Malaga og leverer over hele Costa del Sol: Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona og Mijas ligger alle innenfor vårt vanlige tjenesteområde, og dekningen vår strekker seg videre til Sevilla, Granada, Ronda, Nerja og Antequera. Teamet vårt tar med prosjektorene, de trådløse mikrofonene og lyset, installerer og tester dem og henter alt etter arrangementet ditt. [Kontakt oss](/contact/) med stedet for lokalet ditt og antall gjester, så bekrefter vi hvilken pakke og levering som passer.
+
+Granada er det eneste unntaket fra den jevne dekningen. En bestilling der må ha en totalsum på over 400 euro for å dekke den logistiske reisen på én enkelt dag, mens Malaga, resten av Costa del Sol og Sevilla ikke har noe slikt minimum.
+
+Hver forespørsel krever minst 24 timers varsel for å sikre planleggingen og den logistiske tilgjengeligheten. Det varselet er det samme uansett hvor langt unna arrangementet ditt ligger, så bestiller du tidlig, har du størst valgfrihet hvis den foretrukne pakken eller teknikeren din ikke er ledig.
 
 ## Hvor lang tid i forveien du bør bestille
 

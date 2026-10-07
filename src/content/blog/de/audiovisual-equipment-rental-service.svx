@@ -3,7 +3,8 @@ title: "AV-Technik-Verleih in Malaga, Spanien"
 description: "AV-Technik-Verleih in Malaga: der spezialisierte Beamer mit 5000 Lumen, RGBW-Licht, Funkmikrofone und Effekte als Ebene über unseren AV-Kernpaketen."
 excerpt: "Die spezialisierte Ebene unseres AV-Katalogs: der Beamer mit 5000 Lumen, Spezialbeleuchtung für die Bühne und Uplighting, Funkmikrofone, ein 60-Zoll-LED-Display und eine Nebelmaschine, dazu eine ehrliche Liste dessen, was wir nicht im Bestand haben."
 publishDate: "2026-09-25"
-sourceUpdated: "2026-09-25"
+sourceUpdated: "2026-10-07"
+updatedDate: "2026-10-07"
 ---
 
 <script>
@@ -115,6 +116,14 @@ Modulare Podeste und Bühnenelemente beim Projekt von Bmotion in Marbella, zusam
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('mice', ['/1299/', '/3093/', '/3076/', '/1192/'])} speed="normal" direction="left" />
 </div>
+
+## Buchung und Einsatzgebiet
+
+Wir sitzen in Malaga und liefern an der gesamten Costa del Sol: Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona und Mijas liegen alle in unserem regulären Einsatzgebiet, und weiter reicht unsere Abdeckung bis nach Sevilla, Granada, Ronda, Nerja und Antequera. Unser Team bringt die Beamer, Funkmikrofone und die Beleuchtung mit, baut sie auf, testet sie und holt nach Ihrer Veranstaltung alles wieder ab. [Kontaktieren Sie uns](/contact/) mit dem Ort Ihrer Location und der Gästezahl, und wir bestätigen Ihnen das passende Paket und die passende Lieferung.
+
+Granada ist die einzige Ausnahme von dieser einheitlichen Abdeckung. Eine Buchung dort muss insgesamt über 400 Euro liegen, um die logistische Anfahrt an einem einzigen Tag abzudecken, während Malaga, der Rest der Costa del Sol und Sevilla keinen solchen Mindestbetrag haben.
+
+Jede Anfrage braucht mindestens 24 Stunden Vorlauf, damit Terminplanung und logistische Verfügbarkeit gesichert sind. Diese Frist bleibt gleich, egal wie weit Ihre Veranstaltung entfernt ist, daher haben Sie bei früher Buchung die größte Auswahl, falls Ihr bevorzugtes Paket oder Ihr Wunschtermin für den Techniker nicht frei ist.
 
 ## Wie früh Sie buchen sollten
 

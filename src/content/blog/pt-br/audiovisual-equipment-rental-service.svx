@@ -3,7 +3,8 @@ title: "Locação de equipamentos audiovisuais em Málaga, Espanha"
 description: "Locação de equipamentos audiovisuais em Málaga: o projetor especializado de 5000 lumens, luz RGBW, microfones sem fio e efeitos além dos nossos pacotes básicos."
 excerpt: "A camada especializada do nosso catálogo audiovisual: o projetor de 5000 lumens, a iluminação de palco especializada e o uplighting, os microfones sem fio, uma tela de LED de 60 polegadas e uma máquina de fumaça, com uma lista honesta do que não temos em estoque."
 publishDate: "2026-09-25"
-sourceUpdated: "2026-09-25"
+sourceUpdated: "2026-10-07"
+updatedDate: "2026-10-07"
 ---
 
 <script>
@@ -115,6 +116,14 @@ Plataformas modulares e palco montados para o projeto da Bmotion em Marbella, ju
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('mice', ['/1299/', '/3093/', '/3076/', '/1192/'])} speed="normal" direction="left" />
 </div>
+
+## Reserva e área de atendimento
+
+Estamos sediados em Málaga e entregamos em toda a Costa del Sol: Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona e Mijas ficam todas dentro da nossa área de atendimento regular, com uma cobertura mais ampla que chega a Sevilha, Granada, Ronda, Nerja e Antequera. Nossa equipe leva os projetores, os microfones sem fio e a iluminação, instala e testa tudo, e recolhe o material depois do seu evento. [Fale conosco](/contact/) informando a cidade do seu local e o número de convidados, e vamos confirmar o pacote e a entrega adequados.
+
+Granada é a única exceção a essa cobertura uniforme. Uma reserva lá precisa passar de 400 euros no total para cobrir o deslocamento logístico de um único dia, enquanto Málaga, o resto da Costa del Sol e Sevilha não têm esse mínimo.
+
+Cada pedido exige uma antecedência mínima de 24 horas para garantir a disponibilidade de agenda e de logística. Esse prazo continua o mesmo, não importa quão distante seja o seu evento, então reservar cedo deixa você com mais escolha caso o pacote ou o horário de técnico que você prefere não esteja livre.
 
 ## Com quanta antecedência reservar
 

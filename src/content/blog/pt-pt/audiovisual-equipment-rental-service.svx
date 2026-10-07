@@ -3,7 +3,8 @@ title: "Aluguer de material audiovisual em Málaga, Espanha"
 description: "Aluguer de material audiovisual em Málaga: o projetor especializado de 5000 lumens, luz RGBW, microfones sem fios e efeitos além dos nossos pacotes base."
 excerpt: "A camada especializada do nosso catálogo audiovisual: o projetor de 5000 lumens, a iluminação de palco especializada e o uplighting, os microfones sem fios, um ecrã LED de 60 polegadas e uma máquina de fumo, com uma lista honesta do que não temos em stock."
 publishDate: "2026-09-25"
-sourceUpdated: "2026-09-25"
+sourceUpdated: "2026-10-07"
+updatedDate: "2026-10-07"
 ---
 
 <script>
@@ -115,6 +116,14 @@ Plataformas modulares e palco montados para o projeto da Bmotion em Marbella, ju
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('mice', ['/1299/', '/3093/', '/3076/', '/1192/'])} speed="normal" direction="left" />
 </div>
+
+## Reserva e zona de serviço
+
+Estamos sediados em Málaga e entregamos em toda a Costa del Sol: Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona e Mijas ficam todas dentro da nossa zona de serviço habitual, com uma cobertura mais alargada que chega a Sevilha, Granada, Ronda, Nerja e Antequera. A nossa equipa leva os projetores, os microfones sem fios e a iluminação, instala e testa tudo, e recolhe o material depois do seu evento. [Contacte-nos](/contact/) com a localidade do seu espaço e o número de convidados, e confirmaremos o pacote e a entrega adequados.
+
+Granada é a única exceção a esta cobertura uniforme. Uma reserva aí tem de ultrapassar 400 euros no total para cobrir a deslocação logística de um único dia, ao passo que Málaga, o resto da Costa del Sol e Sevilha não têm esse mínimo.
+
+Cada pedido exige uma antecedência mínima de 24 horas para garantir a disponibilidade de agenda e de logística. Esse prazo mantém-se igual, por mais distante que seja o seu evento, pelo que reservar cedo deixa-lhe mais escolha se o pacote ou o horário de técnico que prefere não estiver livre.
 
 ## Com quanta antecedência reservar
 
