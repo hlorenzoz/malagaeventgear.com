@@ -3,6 +3,57 @@
   "updated": "2026-10-07",
   "tasks": [
     {
+      "id": "#T0054",
+      "estado": "en curso",
+      "prioridad": "alta",
+      "tipo": "visibilidad-ia",
+      "titulo": "IA: no aparecemos en \"Which company rents PA speakers and wireless microphones for a wedding on the Costa del Sol?\"",
+      "anotada": "2026-10-01",
+      "hecha": null,
+      "origen": "ubersuggest (ai-visibility, which-company-rents-pa-speakers-and-wireless-microphones-for-a-wedding-on-the-costa-del-sol)",
+      "notas": [
+        "bloqueada hasta terminar las traducciones de todos los posts"
+      ],
+      "descripcion": [
+        "Marcas que si aparecen: Promusic Marbella, AEA Sound System Rent Marbella, Sonido e Iluminacion Pro-Sound, Nerja Sound & Lighting, Marbel...",
+        "Reporte ai-visibility de ubersuggest del 2026-10-01."
+      ]
+    },
+    {
+      "id": "#T0055",
+      "estado": "en curso",
+      "prioridad": "alta",
+      "tipo": "visibilidad-ia",
+      "titulo": "IA: no aparecemos en \"Who rents TV screens for exhibitor stands at a trade fair in Malaga?\"",
+      "anotada": "2026-10-01",
+      "hecha": null,
+      "origen": "ubersuggest (ai-visibility, who-rents-tv-screens-for-exhibitor-stands-at-a-trade-fair-in-malaga)",
+      "notas": [
+        "bloqueada hasta terminar las traducciones de todos los posts"
+      ],
+      "descripcion": [
+        "Marcas que si aparecen: ninguna",
+        "Reporte ai-visibility de ubersuggest del 2026-10-01."
+      ]
+    },
+    {
+      "id": "#T0056",
+      "estado": "en curso",
+      "prioridad": "alta",
+      "tipo": "visibilidad-ia",
+      "titulo": "IA: no aparecemos en \"Which company provides sound and lighting hire for weddings in Marbella?\"",
+      "anotada": "2026-10-01",
+      "hecha": null,
+      "origen": "ubersuggest (ai-visibility, which-company-provides-sound-and-lighting-hire-for-weddings-in-marbella)",
+      "notas": [
+        "bloqueada hasta terminar las traducciones de todos los posts"
+      ],
+      "descripcion": [
+        "Marcas que si aparecen: ninguna",
+        "Reporte ai-visibility de ubersuggest del 2026-10-01."
+      ]
+    },
+    {
       "id": "#T0048",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -312,57 +363,6 @@
         "3. (Opcional) Zaraz s.js aparece en staging sin cache TTL (7KB): revisar si se está usando; si no, desactivarlo.",
         "",
         "Verificación tras deploy + purge + toggle: npx lighthouse https://malagaeventgear.com/blog/ --only-categories=performance --form-factor=mobile -> objetivo FCP <2.5s, LCP <3s, score >=85. (nuevo.malagaeventgear.com fue dado de baja, ya no resuelve; usar producción o localhost:4173)."
-      ]
-    },
-    {
-      "id": "#T0054",
-      "estado": "bloqueada",
-      "prioridad": "alta",
-      "tipo": "visibilidad-ia",
-      "titulo": "IA: no aparecemos en \"Which company rents PA speakers and wireless microphones for a wedding on the Costa del Sol?\"",
-      "anotada": "2026-10-01",
-      "hecha": null,
-      "origen": "ubersuggest (ai-visibility, which-company-rents-pa-speakers-and-wireless-microphones-for-a-wedding-on-the-costa-del-sol)",
-      "notas": [
-        "bloqueada hasta terminar las traducciones de todos los posts"
-      ],
-      "descripcion": [
-        "Marcas que si aparecen: Promusic Marbella, AEA Sound System Rent Marbella, Sonido e Iluminacion Pro-Sound, Nerja Sound & Lighting, Marbel...",
-        "Reporte ai-visibility de ubersuggest del 2026-10-01."
-      ]
-    },
-    {
-      "id": "#T0055",
-      "estado": "bloqueada",
-      "prioridad": "alta",
-      "tipo": "visibilidad-ia",
-      "titulo": "IA: no aparecemos en \"Who rents TV screens for exhibitor stands at a trade fair in Malaga?\"",
-      "anotada": "2026-10-01",
-      "hecha": null,
-      "origen": "ubersuggest (ai-visibility, who-rents-tv-screens-for-exhibitor-stands-at-a-trade-fair-in-malaga)",
-      "notas": [
-        "bloqueada hasta terminar las traducciones de todos los posts"
-      ],
-      "descripcion": [
-        "Marcas que si aparecen: ninguna",
-        "Reporte ai-visibility de ubersuggest del 2026-10-01."
-      ]
-    },
-    {
-      "id": "#T0056",
-      "estado": "bloqueada",
-      "prioridad": "alta",
-      "tipo": "visibilidad-ia",
-      "titulo": "IA: no aparecemos en \"Which company provides sound and lighting hire for weddings in Marbella?\"",
-      "anotada": "2026-10-01",
-      "hecha": null,
-      "origen": "ubersuggest (ai-visibility, which-company-provides-sound-and-lighting-hire-for-weddings-in-marbella)",
-      "notas": [
-        "bloqueada hasta terminar las traducciones de todos los posts"
-      ],
-      "descripcion": [
-        "Marcas que si aparecen: ninguna",
-        "Reporte ai-visibility de ubersuggest del 2026-10-01."
       ]
     },
     {
