@@ -398,7 +398,7 @@
     },
     {
       "id": "#T0072",
-      "estado": "pendiente",
+      "estado": "en curso",
       "prioridad": "media",
       "tipo": "contenido",
       "titulo": "Pilar /blog/audio-visual-rental/: seccion H2 \"donde alquilar equipo audiovisual en Malaga\" (Local Dominator)",
@@ -1265,50 +1265,6 @@
       ]
     },
     {
-      "id": "#T0069",
-      "estado": "bloqueada",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"How much does it cost to rent a PA system?\"",
-      "anotada": "2026-10-07",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-07, ítem 1)",
-      "notas": [
-        "bloqueada por todo-implementer 2026-10-07: el post ya tiene la FAQ equivalente 'How much does it cost to rent sound equipment?' (misma intencion",
-        "precios por paquete); el plan ya esta satisfecho"
-      ],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/sound-system-rental.svx",
-        "Keywords: cost to rent a pa system, concert sound system rental prices (google-ads 10/mo (below tier 100)), debajo del tier",
-        "Por qué: Pregunta de precio que los clientes de MEG hacen de verdad. /blog/sound-system-rental/ tiene 14 FAQs y ninguna trata el coste de alquilar un PA (sí lo hace projector-rental). Se agrupa con el FAQ vinculado 'how much does it cost to rent sound equipment' (misma intención). Los precios de concierto se resuelven con la misma respuesta por paquete.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
-      "id": "#T0067",
-      "estado": "bloqueada",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/audio-visual-rental-for-music-performances/: \"Do you provide backline for a live band?\"",
-      "anotada": "2026-10-05",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-05, ítem 4)",
-      "notas": [
-        "bloqueada por todo-implementer 2026-10-07: el post ya tiene la FAQ equivalente 'Do you provide concert backline",
-        "like amps or a drum kit",
-        "for a live band?' en EN y los 12 idiomas; plan ya satisfecho"
-      ],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/audio-visual-rental-for-music-performances.svx",
-        "Keywords: backline hire stage systems, backline sound system (google-ads 10/mo (below tier 100); google-ads 10/mo (below tier 100)), debajo del tier",
-        "Qué cubrir: Responder que el backline (amplificadores, bateria, teclados) no esta en nuestro inventario propio y que, si la banda lo necesita, nos cuenten que necesitan y buscamos una solucion con nuestros proveedores. Sin marca, modelo, cantidad, precio, disponibilidad ni plazo, y sin presentarlo como equipo propio. Mencionar lo que si aporta MEG: el sonido PA y la tecnica, segun el inventario CSV y packages.ts. Enlazar a la seccion DJ Set, Live Band or Duo.",
-        "Por qué: Ningun post trata backline (guitarras, bateria, teclados para una banda). Es una necesidad real en actuaciones en vivo que MEG puede resolver con proveedores, asi que encaja como FAQ en el post de musica en vivo, sin post nuevo (Goldilocks, demasiado estrecho).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0073",
       "estado": "pendiente",
       "prioridad": "baja",
@@ -1342,6 +1298,29 @@
         "Añade full support para PWA",
         "",
         "Crea un PWA Installer (widget) que va a salir debajo del widget de WhatsApp y encima de la Cookie bar, pero solamente 3 segundos luego que el usuario haya hecho scroll below the fold (debajo de la sección header)."
+      ]
+    },
+    {
+      "id": "#T0069",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"How much does it cost to rent a PA system?\"",
+      "anotada": "2026-10-07",
+      "hecha": "2026-10-07",
+      "origen": "content-strategist (plan 2026-10-07, ítem 1)",
+      "notas": [
+        "bloqueada por todo-implementer 2026-10-07: el post ya tiene la FAQ equivalente 'How much does it cost to rent sound equipment?' (misma intencion",
+        "precios por paquete); el plan ya esta satisfecho",
+        "solapa con #T0063 (FAQ de costo en sound-system-rental)",
+        "cerrada el 2026-10-07"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/sound-system-rental.svx",
+        "Keywords: cost to rent a pa system, concert sound system rental prices (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Por qué: Pregunta de precio que los clientes de MEG hacen de verdad. /blog/sound-system-rental/ tiene 14 FAQs y ninguna trata el coste de alquilar un PA (sí lo hace projector-rental). Se agrupa con el FAQ vinculado 'how much does it cost to rent sound equipment' (misma intención). Los precios de concierto se resuelven con la misma respuesta por paquete.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
@@ -1382,6 +1361,31 @@
         "corporate av rentals (Cubierto por /blog/audio-visual-rental-for-corporate-events/ y /blog/audio-visual-rental-for-corporate-meetings/. Otra página sería canibalización.)",
         "cost to rent a projector and screen (Cubierto por /blog/projector-rental/: encabezado 'Projector and Screen Pricing by Package' y FAQ 'How much does a projector rental cost?'. La keyword data projector hire es el mismo tema que el keyword del post.)",
         "cpl av hire (Parece una búsqueda de marca de otra empresa de alquiler, sin intención de evento que MEG pueda resolver. Fuera de encaje.)"
+      ]
+    },
+    {
+      "id": "#T0067",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/audio-visual-rental-for-music-performances/: \"Do you provide backline for a live band?\"",
+      "anotada": "2026-10-05",
+      "hecha": "2026-10-07",
+      "origen": "content-strategist (plan 2026-10-05, ítem 4)",
+      "notas": [
+        "bloqueada por todo-implementer 2026-10-07: el post ya tiene la FAQ equivalente 'Do you provide concert backline",
+        "like amps or a drum kit",
+        "for a live band?' en EN y los 12 idiomas; plan ya satisfecho",
+        "duplicada de #T0058 (misma FAQ de backline)",
+        "cerrada el 2026-10-07"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audio-visual-rental-for-music-performances.svx",
+        "Keywords: backline hire stage systems, backline sound system (google-ads 10/mo (below tier 100); google-ads 10/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Responder que el backline (amplificadores, bateria, teclados) no esta en nuestro inventario propio y que, si la banda lo necesita, nos cuenten que necesitan y buscamos una solucion con nuestros proveedores. Sin marca, modelo, cantidad, precio, disponibilidad ni plazo, y sin presentarlo como equipo propio. Mencionar lo que si aporta MEG: el sonido PA y la tecnica, segun el inventario CSV y packages.ts. Enlazar a la seccion DJ Set, Live Band or Duo.",
+        "Por qué: Ningun post trata backline (guitarras, bateria, teclados para una banda). Es una necesidad real en actuaciones en vivo que MEG puede resolver con proveedores, asi que encaja como FAQ en el post de musica en vivo, sin post nuevo (Goldilocks, demasiado estrecho).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
