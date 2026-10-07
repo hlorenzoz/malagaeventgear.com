@@ -105,35 +105,6 @@
       ]
     },
     {
-      "id": "#T0020",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "traduccion",
-      "titulo": "Qué hace el técnico: dos textos traducidos por revisar",
-      "anotada": "2026-09-26",
-      "hecha": null,
-      "origen": "migrada",
-      "notas": [
-        "prioridad asignada por content-strategist el 2026-10-01: El texto confirma que dos textos ya traducidos a los 13 idiomas (packages/[slug] y stage-uplighting.svx) todavia dan a entender que el tecnico opera las luces",
-        "un hecho de negocio ya corregido en otros posts el 2026-09-26 pero que sigue mal en estos dos",
-        "lo que viola la regla de Honestidad de CLAUDE.md sobre hechos ya publicados."
-      ],
-      "descripcion": [
-        "Hecho del negocio (CLAUDE.md, \"Qué hace el técnico en el evento\", 2026-09-26): opera el sonido y",
-        "los micrófonos, resuelve fallas de proyector, pantalla y luces, y el switcher Kramer solo si se",
-        "contrata. Ya corregidos en el cambio de ese día: audio-visual-rental, event-technology-service,",
-        "technical-support-for-events, video-switcher-rental, tv-screen-rental,",
-        "latest-trends-in-wedding-rentals, el highlightBody del MICE Pack y el paso \"run the show\" de los",
-        "diccionarios. Quedan dos textos traducidos a los 13 idiomas que rozan \"opera las luces\":",
-        "- src/routes/(public)/packages/[slug]/i18n/<locale>.ts:32: \"you can request a dedicated",
-        "  sound/light engineer to stay at your venue\". El técnico no es un iluminador.",
-        "- stage-uplighting.svx:74, 101 y 155: \"our technician manages the fixtures through your event\",",
-        "  \"sets the color for your event on site\", \"checking and repositioning fixtures as needed\".",
-        "  Aclarar que el color se fija en el montaje y que el técnico resuelve si algo falla.",
-        "Cada uno en inglés y en sus 12 traducciones en el mismo cambio, con sus fechas."
-      ]
-    },
-    {
       "id": "#T0029",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -285,6 +256,25 @@
         "3. (Opcional) Zaraz s.js aparece en staging sin cache TTL (7KB): revisar si se está usando; si no, desactivarlo.",
         "",
         "Verificación tras deploy + purge + toggle: npx lighthouse https://malagaeventgear.com/blog/ --only-categories=performance --form-factor=mobile -> objetivo FCP <2.5s, LCP <3s, score >=85. (nuevo.malagaeventgear.com fue dado de baja, ya no resuelve; usar producción o localhost:4173)."
+      ]
+    },
+    {
+      "id": "#T0075",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Copia: otros textos que leen al tecnico como operador de luces (about-us, packages.ts, faq.ts, meet-the-team)",
+      "anotada": "2026-10-07",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [],
+      "descripcion": [
+        "Origen: hallazgo de #T0020 parte A (2026-10-07). Misma familia que #T0020: el hecho del negocio es que el tecnico opera el sonido y los microfonos y arregla fallas de proyector, pantalla y luces (CLAUDE.md, \"Que hace el tecnico en el evento\").",
+        "Textos que todavia se pueden leer como tecnico de iluminacion u operador, sin tocar (13 idiomas cada uno):",
+        "- src/routes/(public)/about-us/i18n/<locale>.ts linea ~49-50: \"Experienced sound and lighting technicians available to oversee your setup, operation, and live monitoring.\" (confirmados fr, de, nl, sv, da, nb; revisar it, pt-pt, pt-br y zh, que pueden usar otra redaccion).",
+        "- src/lib/data/packages.ts:143 (inclusion \"Technical control and engineering support\") y src/lib/data/faq.ts:138 (FAQ technician), con sus copias en src/lib/i18n/data/<locale>.ts (~44-45 y ~210-215). Revisar fr, it y da, que no coincidieron en la busqueda.",
+        "- src/routes/(public)/meet-the-team/i18n/en.ts lineas 12 y 16: \"real time engineering\" y \"AV Engineering & Setup\" (revisar los otros idiomas).",
+        "No son errores claros: \"sound and lighting technicians\" puede significar quien instala equipo de sonido y luz. DECIDIR si se corrigen. Si si: reescribir en ingles y en 12 idiomas con fechas (regla 11), como en #T0020 parte A."
       ]
     },
     {
@@ -1475,6 +1465,39 @@
         "Qué cubrir: State honestly that MEG's own inventory has one screen size, the 60 inch high definition LED display on the MICE Pack, which reads clearly as a single panel in a conference room without needing a darkened space, per this page's 'TV Screen or Projector: Which One Does Your Event Need?' section. For a room too large for one panel to read across, point to the projector rental guide's 3000 and 5000 lumen tiers instead. Do not invent additional screen sizes MEG does not stock.",
         "Por qué: Checked /blog/tv-screen-rental/'s FAQ list: it answers 'What screen sizes are available?' and 'Do you rent a 55 inch screen?' but never frames the answer around a conference room specifically, which the 'TV Screen or Projector' section addresses only indirectly. Real gap, not a duplicate.",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0020",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "traduccion",
+      "titulo": "Qué hace el técnico: dos textos traducidos por revisar",
+      "anotada": "2026-09-26",
+      "hecha": "2026-10-07",
+      "origen": "migrada",
+      "notas": [
+        "prioridad asignada por content-strategist el 2026-10-01: El texto confirma que dos textos ya traducidos a los 13 idiomas (packages/[slug] y stage-uplighting.svx) todavia dan a entender que el tecnico opera las luces",
+        "un hecho de negocio ya corregido en otros posts el 2026-09-26 pero que sigue mal en estos dos",
+        "lo que viola la regla de Honestidad de CLAUDE.md sobre hechos ya publicados.",
+        "2026-10-07 parte A (FAQ del tecnico en las paginas de paquete",
+        "13 idiomas) commit fa8bf80e; parte B (stage-uplighting",
+        "14 frases corregidas",
+        "13 idiomas) commit 2726489b. Otros textos de la misma familia anotados en una tarea nueva para decidir"
+      ],
+      "descripcion": [
+        "Hecho del negocio (CLAUDE.md, \"Qué hace el técnico en el evento\", 2026-09-26): opera el sonido y",
+        "los micrófonos, resuelve fallas de proyector, pantalla y luces, y el switcher Kramer solo si se",
+        "contrata. Ya corregidos en el cambio de ese día: audio-visual-rental, event-technology-service,",
+        "technical-support-for-events, video-switcher-rental, tv-screen-rental,",
+        "latest-trends-in-wedding-rentals, el highlightBody del MICE Pack y el paso \"run the show\" de los",
+        "diccionarios. Quedan dos textos traducidos a los 13 idiomas que rozan \"opera las luces\":",
+        "- src/routes/(public)/packages/[slug]/i18n/<locale>.ts:32: \"you can request a dedicated",
+        "  sound/light engineer to stay at your venue\". El técnico no es un iluminador.",
+        "- stage-uplighting.svx:74, 101 y 155: \"our technician manages the fixtures through your event\",",
+        "  \"sets the color for your event on site\", \"checking and repositioning fixtures as needed\".",
+        "  Aclarar que el color se fija en el montaje y que el técnico resuelve si algo falla.",
+        "Cada uno en inglés y en sus 12 traducciones en el mismo cambio, con sus fechas."
       ]
     },
     {
