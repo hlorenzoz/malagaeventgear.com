@@ -570,25 +570,6 @@
       ]
     },
     {
-      "id": "#T0059",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"How much does it cost to rent sound equipment?\"",
-      "anotada": "2026-10-02",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-02, ítem 7)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/sound-system-rental.svx",
-        "Keywords: how much does it cost to rent sound equipment (just content-candidates newFaqs (id how-much-does-it-cost-to-rent-sound-equipment), keywordId audiovisual-equipment-rental-service, sin volumen medido), sin volumen",
-        "Qué cubrir: Responder con los precios reales de packages.ts por nivel (Eco Pack, Wedding Pack, Product Presentation Pack, Basic MICE Pack, MICE Pack segun corresponda a 'solo sonido'), remitiendo a /packages/ para el detalle completo, sin inventar una cifra que no este en ese archivo. Aclarar que el precio depende del aforo y de si se necesita tecnico, ya como lo hacen otros posts del silo (por ejemplo la seccion 'Choosing Your Sound System by Guest Count' del propio post). No repetir el FAQ ya existente sobre PA vs sonido general.",
-        "Por qué: Revise las 13 preguntas de FAQ de /blog/sound-system-rental/ completas: cubre PA vs DJ, generador, microfonos, mezcladora, pero ninguna pregunta de precio, a diferencia de casi todos los demas posts del silo (que si tienen 'How much does audio visual rental cost for...'). Es un hueco real de contenido en la pagina mas natural para esta pregunta exacta ('sound equipment'), no solo una keyword con volumen: alguien que llega a esta pagina especifica razonablemente espera ver el precio. Prioridad media: sin volumen medido (unknown), viene de newFaqs sin dato de busquedas.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0017",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1513,6 +1494,28 @@
         "corporate av rentals (Cubierto por /blog/audio-visual-rental-for-corporate-events/ y /blog/audio-visual-rental-for-corporate-meetings/. Otra página sería canibalización.)",
         "cost to rent a projector and screen (Cubierto por /blog/projector-rental/: encabezado 'Projector and Screen Pricing by Package' y FAQ 'How much does a projector rental cost?'. La keyword data projector hire es el mismo tema que el keyword del post.)",
         "cpl av hire (Parece una búsqueda de marca de otra empresa de alquiler, sin intención de evento que MEG pueda resolver. Fuera de encaje.)"
+      ]
+    },
+    {
+      "id": "#T0059",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"How much does it cost to rent sound equipment?\"",
+      "anotada": "2026-10-02",
+      "hecha": "2026-10-07",
+      "origen": "content-strategist (plan 2026-10-02, ítem 7)",
+      "notas": [
+        "duplicada de #T0063 (misma FAQ en sound-system-rental)",
+        "cerrada el 2026-10-07"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/sound-system-rental.svx",
+        "Keywords: how much does it cost to rent sound equipment (just content-candidates newFaqs (id how-much-does-it-cost-to-rent-sound-equipment), keywordId audiovisual-equipment-rental-service, sin volumen medido), sin volumen",
+        "Qué cubrir: Responder con los precios reales de packages.ts por nivel (Eco Pack, Wedding Pack, Product Presentation Pack, Basic MICE Pack, MICE Pack segun corresponda a 'solo sonido'), remitiendo a /packages/ para el detalle completo, sin inventar una cifra que no este en ese archivo. Aclarar que el precio depende del aforo y de si se necesita tecnico, ya como lo hacen otros posts del silo (por ejemplo la seccion 'Choosing Your Sound System by Guest Count' del propio post). No repetir el FAQ ya existente sobre PA vs sonido general.",
+        "Por qué: Revise las 13 preguntas de FAQ de /blog/sound-system-rental/ completas: cubre PA vs DJ, generador, microfonos, mezcladora, pero ninguna pregunta de precio, a diferencia de casi todos los demas posts del silo (que si tienen 'How much does audio visual rental cost for...'). Es un hueco real de contenido en la pagina mas natural para esta pregunta exacta ('sound equipment'), no solo una keyword con volumen: alguien que llega a esta pagina especifica razonablemente espera ver el precio. Prioridad media: sin volumen medido (unknown), viene de newFaqs sin dato de busquedas.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
