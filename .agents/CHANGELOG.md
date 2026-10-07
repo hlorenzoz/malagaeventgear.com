@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): all-in-one-wedding-rental-packages, mencion editorial del partner Top Group Express en "What "All in One" Doesn't Cover" (2026-10-07)
+- Tarea #T0034 (mencion de TGE, tanda 2, post 3 de 6, pedido directo del orquestador).
+- Se agrego un parrafo corto al final de la seccion "What "All in One" Doesn't Cover" de `src/content/blog/all-in-one-wedding-rental-packages.svx` (lo que el paquete no incluye): el alojamiento de invitados no es audiovisual, no forma parte del Wedding Pack y no es servicio de MEG. Para quien organiza una boda de destino (planner, agencia, DMC) menciona a TGE como partner. Un solo enlace a `https://topgroupexpress.com/en` con el ancla "lodging for out of town wedding guests" (distinta de las de los otros posts). Enlace editorial normal, sin `rel="sponsored"` (partners, sin comision). Solo "years of experience", sin anos ni cifras de TGE, sin prometer reserva directa a la pareja. No se agrego nada a lo que incluye el paquete. Sin encabezado nuevo y sin enlaces a supporting posts.
+- `updatedDate` paso a 2026-10-07 via `just post-sync` (antes 2026-09-26); `post-faqs.json` y `post-toc.json` regenerados.
+- Las 12 traducciones quedan stale y se actualizan en el mismo cambio.
+
 ### Changed (blog): wedding-rentals, mencion editorial del partner Top Group Express en "Booking and Service Area" (2026-10-07)
 - Tarea #T0034 (mencion de TGE, tanda 2, post 2 de 6, pedido directo del orquestador).
 - Se agrego un parrafo corto al final de la seccion "Booking and Service Area" de `src/content/blog/wedding-rentals.svx` (pilar de bodas): en una boda de destino con invitados que llegan en avion, las habitaciones se planifican junto con la fecha y el lugar. Aclara que el alojamiento no es servicio de MEG (solo equipo audiovisual) y que TGE es un servicio para profesionales, pensado para quien organiza el viaje del grupo (wedding planner, agencia, DMC), sin prometer reserva directa a la pareja. Un solo enlace a `https://topgroupexpress.com/en` con el ancla "a hotel block for a destination wedding group" (distinta de las de los otros posts). Enlace editorial normal, sin `rel="sponsored"` (partners, sin comision). Solo "years of experience", sin anos ni cifras de TGE. Sin encabezado nuevo y sin enlaces a supporting posts.
