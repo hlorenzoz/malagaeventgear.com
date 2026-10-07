@@ -405,7 +405,17 @@
       "anotada": "2026-10-07",
       "hecha": null,
       "origen": "usuario",
-      "notas": [],
+      "notas": [
+        "paso 1 de Local Dominator (lista de equipo por categoria): ya existe 'Audio Visual Equipment We Rent in Malaga'. No duplicar. Reforzar solo con inventario propio",
+        "paso 2 ('Who We Rent To'",
+        "incluye film shoots): usar solo eventos corporativos",
+        "bodas y funciones privadas. MEG no tiene post News ni respaldo de rodajes de cine. No afirmar film shoots",
+        "paso 3 (mapa embebido): NAP y telefono si",
+        "como texto. Mapa solo como enlace a Google Maps o iframe lazy",
+        "sin tocar LCP ni CWV (regla 10). Medir antes si se embebe",
+        "paso 4 (enlace desde el menu principal a una pagina nueva): no aplica",
+        "no hay pagina nueva. El pilar ya existe en el blog"
+      ],
       "descripcion": [
         "Origen: sugerencia de Local Dominator (AI Visibility Game Plan, 2026-10-07), adaptada a las reglas del proyecto. Prompt: \"Where can I rent audio visual equipment in Malaga?\". En Local Dominator MEG sale en 1 de 2 motores, con visibilidad 50% y posicion #1 cuando aparece. Google AI Mode cita sobre todo el GBP.",
         "Decision del usuario (2026-10-07): NO se crea una pagina nueva \"AV Rental in Malaga\" (canibalizaria al pilar). Se agrega una seccion H2 al pilar /blog/audio-visual-rental/.",
@@ -1315,24 +1325,6 @@
       ]
     },
     {
-      "id": "#T0040",
-      "estado": "pendiente",
-      "prioridad": "baja",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/audiovisual-equipment-rental-service/: \"Why do some corporate setups use two microphones at the podium?\"",
-      "anotada": "2026-09-29",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-09-29, ítem 19)",
-      "notas": [],
-      "descripcion": [
-        "Archivo: src/content/blog/audiovisual-equipment-rental-service.svx",
-        "Keywords: Why does a podium sometimes have two microphones? (research-paa newFaq linked to keywordId headset-lavalier-microphone-rental)",
-        "Qué cubrir: Answer using MEG's own MICE Pack, which pairs a fixed gooseneck microphone for the podium address with a separate wireless handheld microphone so a presenter can step away for Q&A or hand it to another speaker, per this page's 'Wireless and Gooseneck Microphone Systems' section and the sound-system-rental package table. Describe this as MEG's own setup, not a universal AV convention, and do not invent a reason beyond what those two microphones are documented to do.",
-        "Por qué: Generic AV trivia as written, but MEG has a real, documented answer through its own MICE Pack setup, so it is reframed around that fact rather than answered as an abstract industry convention. Placed on /blog/audiovisual-equipment-rental-service/ next to the gooseneck definition FAQ from this same plan, since both draw on the same 'Wireless and Gooseneck Microphone Systems' section. Checked the post's FAQ list, no existing question covers this.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0041",
       "estado": "pendiente",
       "prioridad": "baja",
@@ -1575,6 +1567,26 @@
         "Keywords: What is a gooseneck microphone? (research-paa newFaq linked to keywordId headset-lavalier-microphone-rental)",
         "Qué cubrir: Define a gooseneck microphone as a flexible neck microphone fixed to a lectern or podium stand for a speaker who stays in one place. Then state MEG's own professional gooseneck microphones, deployed on the Basic MICE Pack (the podium microphone) and the MICE Pack (gooseneck plus a wireless handheld), per this page's 'Wireless and Gooseneck Microphone Systems' section and the sound-system-rental package table. Do not claim a gooseneck mic is available as a standalone rental outside those packages.",
         "Por qué: The tool linked this to /blog/headset-lavalier-microphone-rental/, but that post compares lavalier and headset mics and only mentions gooseneck mics in passing. The actual gooseneck content lives on /blog/audiovisual-equipment-rental-service/ under its 'Wireless and Gooseneck Microphone Systems' heading, which has no definitional FAQ yet. Checked both posts' FAQ lists, neither already asks this question.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0040",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/audiovisual-equipment-rental-service/: \"Why do some corporate setups use two microphones at the podium?\"",
+      "anotada": "2026-09-29",
+      "hecha": "2026-10-07",
+      "origen": "content-strategist (plan 2026-09-29, ítem 19)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Archivo: src/content/blog/audiovisual-equipment-rental-service.svx",
+        "Keywords: Why does a podium sometimes have two microphones? (research-paa newFaq linked to keywordId headset-lavalier-microphone-rental)",
+        "Qué cubrir: Answer using MEG's own MICE Pack, which pairs a fixed gooseneck microphone for the podium address with a separate wireless handheld microphone so a presenter can step away for Q&A or hand it to another speaker, per this page's 'Wireless and Gooseneck Microphone Systems' section and the sound-system-rental package table. Describe this as MEG's own setup, not a universal AV convention, and do not invent a reason beyond what those two microphones are documented to do.",
+        "Por qué: Generic AV trivia as written, but MEG has a real, documented answer through its own MICE Pack setup, so it is reframed around that fact rather than answered as an abstract industry convention. Placed on /blog/audiovisual-equipment-rental-service/ next to the gooseneck definition FAQ from this same plan, since both draw on the same 'Wireless and Gooseneck Microphone Systems' section. Checked the post's FAQ list, no existing question covers this.",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
