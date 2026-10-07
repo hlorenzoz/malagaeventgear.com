@@ -95,7 +95,16 @@
       "origen": "migrada",
       "notas": [
         "prioridad asignada por content-strategist el 2026-09-30: El texto confirma que traducciones ya publicadas (ej. outdoor-wedding-rental-considerations) no cumplen la decision del usuario del 2026-09-28 de usar la keyword del idioma en el cuerpo",
-        "no solo en titulo y meta."
+        "no solo en titulo y meta.",
+        "2026-10-07: audio-visual-rental da 20 avisos strict en 11 idiomas (solo nb pasa): fr",
+        "pt-pt",
+        "pt-br",
+        "zh-hans",
+        "zh-tw con 1 aparicion en el cuerpo (hacen falta 2). it sin keyword en el primer parrafo. de",
+        "nl",
+        "sv",
+        "da sin keyword en primer parrafo",
+        "cuerpo (0) ni titulo. zh-hk sin keyword en primer parrafo ni cuerpo. Ejemplo de que es un patron de todo el blog"
       ],
       "descripcion": [
         "Desde lighting-ideas-for-wedding-rentals, cada traducción usa su keyword del mapa de contenido",
@@ -394,23 +403,6 @@
         "3. (Opcional) Zaraz s.js aparece en staging sin cache TTL (7KB): revisar si se está usando; si no, desactivarlo.",
         "",
         "Verificación tras deploy + purge + toggle: npx lighthouse https://malagaeventgear.com/blog/ --only-categories=performance --form-factor=mobile -> objetivo FCP <2.5s, LCP <3s, score >=85. (nuevo.malagaeventgear.com fue dado de baja, ya no resuelve; usar producción o localhost:4173)."
-      ]
-    },
-    {
-      "id": "#T0074",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "traduccion",
-      "titulo": "Traducciones de /blog/audio-visual-rental/: 20 avisos de uso de keyword en 11 idiomas (strict)",
-      "anotada": "2026-10-07",
-      "hecha": null,
-      "origen": "usuario",
-      "notas": [],
-      "descripcion": [
-        "Origen: `just post-translate-check audio-visual-rental --strict` (2026-10-07, verificador de #T0072): 20 problemas en 11 idiomas, todos de uso de keyword en texto anterior a #T0072. La keyword de cada idioma sale de src/lib/i18n/content-map/locales/<locale>.ts, nunca de traducir la inglesa.",
-        "Detalle: fr, pt-pt, pt-br, zh-hans, zh-tw: la keyword aparece 1 vez en el cuerpo (hacen falta 2). it: falta en el primer parrafo. de, nl, sv, da: falta en el primer parrafo, en el cuerpo (0 veces) y en el titulo. zh-hk: falta en el primer parrafo y en el cuerpo. Solo nb pasa.",
-        "Alcance por confirmar: correr `just post-translate-check <slug> --strict` en los demas posts para ver si es un patron de todo el blog. Si lo es, conviene un lote por silo y no un post suelto.",
-        "Reglas: sin relleno de keywords (politica de spam de Google), keyword nativa por idioma con status propuesta, los cambios mueven updatedDate del post ingles solo si cambia el contenido ingles. Una edicion solo de traducciones NO mueve la fecha inglesa, pero si la updatedDate de esa traduccion. Typography regla 12."
       ]
     },
     {
@@ -1378,6 +1370,26 @@
         "Que cubrir: respuesta directa a \"donde alquilar equipo audiovisual en Malaga\": MEG, direccion y telefono con el NAP exacto de site.ts, que se alquila (SOLO inventario propio, CSV mas reciente y packages.ts), para quien (eventos corporativos, bodas, funciones privadas, sin inventar casos), y la capa 2 del posicionamiento: lo que no esta en el inventario propio se busca con proveedores, sin prometer disponibilidad ni plazo.",
         "No hacer: no agregar enlaces a supporting posts (el pilar solo tiene permitido UN enlace al ultimo supporting de la cadena, hoy pendiente), no listar equipo que MEG no tiene, no duplicar lo que ya dicen \"Audio Visual Equipment We Rent in Malaga\" y \"Serving Malaga and the Whole Costa del Sol\", no incrustar mapa si pesa en LCP.",
         "Va en los 13 idiomas en el mismo cambio y mueve updatedDate. Tarea manual: todo-implement no la toma (no es titulo del content-strategist), se hace con post-writer y post-translator."
+      ]
+    },
+    {
+      "id": "#T0074",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "traduccion",
+      "titulo": "Traducciones de /blog/audio-visual-rental/: 20 avisos de uso de keyword en 11 idiomas (strict)",
+      "anotada": "2026-10-07",
+      "hecha": "2026-10-07",
+      "origen": "usuario",
+      "notas": [
+        "duplicada de #T0023 (mismo problema: keyword del idioma en el cuerpo de traducciones anteriores al 2026-09-28)",
+        "cerrada el 2026-10-07"
+      ],
+      "descripcion": [
+        "Origen: `just post-translate-check audio-visual-rental --strict` (2026-10-07, verificador de #T0072): 20 problemas en 11 idiomas, todos de uso de keyword en texto anterior a #T0072. La keyword de cada idioma sale de src/lib/i18n/content-map/locales/<locale>.ts, nunca de traducir la inglesa.",
+        "Detalle: fr, pt-pt, pt-br, zh-hans, zh-tw: la keyword aparece 1 vez en el cuerpo (hacen falta 2). it: falta en el primer parrafo. de, nl, sv, da: falta en el primer parrafo, en el cuerpo (0 veces) y en el titulo. zh-hk: falta en el primer parrafo y en el cuerpo. Solo nb pasa.",
+        "Alcance por confirmar: correr `just post-translate-check <slug> --strict` en los demas posts para ver si es un patron de todo el blog. Si lo es, conviene un lote por silo y no un post suelto.",
+        "Reglas: sin relleno de keywords (politica de spam de Google), keyword nativa por idioma con status propuesta, los cambios mueven updatedDate del post ingles solo si cambia el contenido ingles. Una edicion solo de traducciones NO mueve la fecha inglesa, pero si la updatedDate de esa traduccion. Typography regla 12."
       ]
     },
     {
