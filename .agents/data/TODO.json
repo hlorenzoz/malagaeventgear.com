@@ -85,37 +85,6 @@
       ]
     },
     {
-      "id": "#T0023",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "traduccion",
-      "titulo": "Keyword del idioma en el cuerpo de las traducciones anteriores al 2026-09-28",
-      "anotada": "2026-09-28",
-      "hecha": null,
-      "origen": "migrada",
-      "notas": [
-        "prioridad asignada por content-strategist el 2026-09-30: El texto confirma que traducciones ya publicadas (ej. outdoor-wedding-rental-considerations) no cumplen la decision del usuario del 2026-09-28 de usar la keyword del idioma en el cuerpo",
-        "no solo en titulo y meta.",
-        "2026-10-07: audio-visual-rental da 20 avisos strict en 11 idiomas (solo nb pasa): fr",
-        "pt-pt",
-        "pt-br",
-        "zh-hans",
-        "zh-tw con 1 aparicion en el cuerpo (hacen falta 2). it sin keyword en el primer parrafo. de",
-        "nl",
-        "sv",
-        "da sin keyword en primer parrafo",
-        "cuerpo (0) ni titulo. zh-hk sin keyword en primer parrafo ni cuerpo. Ejemplo de que es un patron de todo el blog"
-      ],
-      "descripcion": [
-        "Desde lighting-ideas-for-wedding-rentals, cada traducción usa su keyword del mapa de contenido",
-        "en el cuerpo (primer párrafo y conclusión), no solo en título y meta. Los posts traducidos antes",
-        "no lo cumplen en todos los idiomas: confirmado en outdoor-wedding-rental-considerations (0",
-        "apariciones en el cuerpo en los 12 idiomas). Revisar con un script (keyword sin la ciudad,",
-        "contada después de </script>) todos los posts traducidos y sumar la keyword donde falte, sin",
-        "mover fechas si solo se integra la keyword en una frase existente."
-      ]
-    },
-    {
       "id": "#T0026",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -1256,6 +1225,39 @@
         "Origen: sugerencia de Local Dominator (AI Visibility Game Plan, 2026-10-07). Estado: pendiente, sin fecha.",
         "Buscar directorios del sector (produccion de eventos y alquiler audiovisual en Espana) donde figuran competidores como Alquilavisual u Objetivo 50, y crear fichas gratuitas.",
         "Reglas: NAP exacto de site.ts (Malaga Event Gear / Av. de Barcelona, 34, Distrito Centro, 29009 Malaga / 666 346 911). Nada de enlaces pagados (ver regla 4 de .agents/context/link-building/media-and-pr-plan.md y la politica de spam de Google). Anotar cada enlace conseguido en el registro de ese archivo. No prometer atencion en otros idiomas que no sean ingles y espanol."
+      ]
+    },
+    {
+      "id": "#T0023",
+      "estado": "pendiente",
+      "prioridad": "baja",
+      "tipo": "traduccion",
+      "titulo": "Keyword del idioma en el cuerpo de las traducciones anteriores al 2026-09-28",
+      "anotada": "2026-09-28",
+      "hecha": null,
+      "origen": "migrada",
+      "notas": [
+        "prioridad asignada por content-strategist el 2026-09-30: El texto confirma que traducciones ya publicadas (ej. outdoor-wedding-rental-considerations) no cumplen la decision del usuario del 2026-09-28 de usar la keyword del idioma en el cuerpo",
+        "no solo en titulo y meta.",
+        "2026-10-07: audio-visual-rental da 20 avisos strict en 11 idiomas (solo nb pasa): fr",
+        "pt-pt",
+        "pt-br",
+        "zh-hans",
+        "zh-tw con 1 aparicion en el cuerpo (hacen falta 2). it sin keyword en el primer parrafo. de",
+        "nl",
+        "sv",
+        "da sin keyword en primer parrafo",
+        "cuerpo (0) ni titulo. zh-hk sin keyword en primer parrafo ni cuerpo. Ejemplo de que es un patron de todo el blog",
+        "pospuesta por el usuario el 2026-10-07",
+        "retomar luego"
+      ],
+      "descripcion": [
+        "Desde lighting-ideas-for-wedding-rentals, cada traducción usa su keyword del mapa de contenido",
+        "en el cuerpo (primer párrafo y conclusión), no solo en título y meta. Los posts traducidos antes",
+        "no lo cumplen en todos los idiomas: confirmado en outdoor-wedding-rental-considerations (0",
+        "apariciones en el cuerpo en los 12 idiomas). Revisar con un script (keyword sin la ciudad,",
+        "contada después de </script>) todos los posts traducidos y sumar la keyword donde falte, sin",
+        "mover fechas si solo se integra la keyword en una frase existente."
       ]
     },
     {
