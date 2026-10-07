@@ -3,21 +3,6 @@
   "updated": "2026-10-07",
   "tasks": [
     {
-      "id": "#T0047",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"projector hire\" (new_content)",
-      "anotada": "2026-09-30",
-      "hecha": null,
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/projector-hire)",
-      "notas": [],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto medium, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
-      ]
-    },
-    {
       "id": "#T0048",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -1394,6 +1379,25 @@
       "descripcion": [
         "Marcas que si aparecen: ninguna",
         "Reporte ai-visibility de ubersuggest del 2026-10-01."
+      ]
+    },
+    {
+      "id": "#T0047",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"projector hire\" (new_content)",
+      "anotada": "2026-09-30",
+      "hecha": "2026-10-07",
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/projector-hire)",
+      "notas": [
+        "2026-10-07 decision: NO post nuevo (projector hire: 10 busquedas/mes",
+        "23 impresiones GSC en posicion 35",
+        "canibalizaria projector-rental). Se agrego 'also called projector hire' a la intro de projector-rental (commit 5c4d175a). No se agrego FAQ de coste porque ya existe 'How much does a projector rental cost?' con los tres precios. No se agrego FAQ de un solo dia porque el post y packages.ts no dan duracion ni minimos de alquiler (CONFIRMAR con el negocio si se quiere). Las 12 traducciones NO llevan la frase a proposito: 'hire' es un sinonimo del ingles britanico sin equivalente en los otros idiomas. Medir en GSC dentro de unas semanas"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto medium, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
       ]
     },
     {
