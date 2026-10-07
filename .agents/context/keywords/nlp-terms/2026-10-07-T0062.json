@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-07",
+  "taskId": "#T0062",
+  "slug": "audiovisual-equipment-rental-service",
+  "searchTerm": "audio visual equipment rental service near me",
+  "status": "partial",
+  "reason": "Thin SERP of directories and university AV loan pages, no hire companies. Skipped position 1 (empty restricted directory record) and a 404 directory entry; read positions 2, 3 and 5. Vocabulary fits booking and service area only loosely.",
+  "serp": {
+    "query": "audiovisual equipment rental booking service area",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://stmarys.ac.uk/it/av-multimedia-services/equipment-bookings.aspx", "title": "equipment bookings" },
+      { "rank": 2, "url": "https://wgtn.ac.nz/digital-solutions/audio-visual-services/portable-audiovisual-equipment", "title": "Audiovisual equipment" },
+      { "rank": 3, "url": "https://qmul.ac.uk/its/services/catalogue/audiovisual", "title": "qmul.ac.uk" }
+    ]
+  },
+  "terms": [
+    { "term": "audio-visual equipment", "kind": "related", "seenIn": 3 },
+    { "term": "advance booking", "kind": "related", "seenIn": 3 },
+    { "term": "How are AV bookings made?", "kind": "question", "seenIn": 3 },
+    { "term": "projectors", "kind": "entity", "seenIn": 2 },
+    { "term": "projector screens", "kind": "entity", "seenIn": 2 },
+    { "term": "webcams", "kind": "entity", "seenIn": 2 },
+    { "term": "wireless microphones", "kind": "entity", "seenIn": 2 },
+    { "term": "PA speakers", "kind": "entity", "seenIn": 2 },
+    { "term": "speakers", "kind": "entity", "seenIn": 2 },
+    { "term": "digital audio recorders", "kind": "entity", "seenIn": 2 },
+    { "term": "AV bookings", "kind": "related", "seenIn": 2 },
+    { "term": "amplifier", "kind": "entity", "seenIn": 1 },
+    { "term": "wired microphones", "kind": "entity", "seenIn": 1 },
+    { "term": "LCD screens", "kind": "entity", "seenIn": 1 },
+    { "term": "AV cables", "kind": "entity", "seenIn": 1 },
+    { "term": "HDMI", "kind": "entity", "seenIn": 1 },
+    { "term": "lecterns", "kind": "entity", "seenIn": 1 },
+    { "term": "document cameras", "kind": "entity", "seenIn": 1 },
+    { "term": "conference phones", "kind": "entity", "seenIn": 1 },
+    { "term": "assistive listening systems", "kind": "entity", "seenIn": 1 },
+    { "term": "delivery and setup", "kind": "related", "seenIn": 1 },
+    { "term": "portable audiovisual equipment", "kind": "related", "seenIn": 1 },
+    { "term": "limited quantities", "kind": "related", "seenIn": 1 },
+    { "term": "When should bookings be made?", "kind": "question", "seenIn": 1 },
+    { "term": "What are service hours?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Zoom", "reason": "software platform, not rental equipment" },
+    { "term": "Panopto", "reason": "software platform, not rental equipment" },
+    { "term": "QReview lecture capture", "reason": "university specific service" },
+    { "term": "Waldegrave Drawing Room", "reason": "room name of a UK university" },
+    { "term": "Billiard Room", "reason": "room name of a UK university" },
+    { "term": "teaching rooms", "reason": "university specific, not event hire" },
+    { "term": "Teaching Technology team", "reason": "university department name" },
+    { "term": "bank holidays and college closure days", "reason": "university specific" },
+    { "term": "24/7/365 hours of service", "reason": "slogan style claim" },
+    { "term": "How much does this cost?", "reason": "price topic" },
+    { "term": "VHS video players", "reason": "obsolete and off topic" },
+    { "term": "Multi Tech Audio Visual Inc", "reason": "competitor name, Canadian directory record" }
+  ]
+}

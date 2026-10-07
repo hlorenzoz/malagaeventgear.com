@@ -4,7 +4,7 @@ description: "Audiovisual equipment rental service in Malaga: the specialized 50
 author: Hector Luis Lorenzo
 slug: audiovisual-equipment-rental-service
 publishDate: "2026-07-31"
-updatedDate: "2026-09-25"
+updatedDate: "2026-10-07"
 excerpt: "The niche layer of our AV catalog: the 5000 lumen projector, specialty stage lighting and uplighting, wireless mics, a 60 inch LED display and a smoke machine, plus an honest list of what we do not stock."
 coverImage: https://cdn.malagaeventgear.com/blog/1299/podium-lighting-sound-big-screen-projector-rental-malaga.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
@@ -124,6 +124,14 @@ Modular platforms and staging deployed for the Bmotion Marbella project, alongsi
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('mice', ['/1299/', '/3093/', '/3076/', '/1192/'])} speed="normal" direction="left" />
 </div>
+
+## Booking and Service Area
+
+We are based in Malaga and deliver across the Costa del Sol: Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona and Mijas are all inside our regular service area, with wider coverage reaching Sevilla, Granada, Ronda, Nerja and Antequera. Our crew brings the projectors, wireless microphones and lighting, installs and tests them, and collects everything after your event. [Contact us](/contact/) with your venue's town and guest count, and we will confirm the right package and delivery for it.
+
+Granada is the one exception to that even coverage. A booking there needs a total over 400 euros to cover the single day logistical travel, while Malaga, the rest of the Costa del Sol and Sevilla carry no such minimum.
+
+Every request needs a minimum of 24 hours notice to guarantee scheduling and logistical availability. That window stays the same however far ahead your event is, so booking early leaves you the most choice if your preferred package or technician slot is not free.
 
 ## How Far in Advance to Book
 

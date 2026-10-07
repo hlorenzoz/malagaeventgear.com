@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): audiovisual-equipment-rental-service, nueva seccion "Booking and Service Area" (2026-10-07)
+- Tarea #T0062 (plan de contenido 2026-10-07, keyword "audio visual equipment rental service near me", google-ads 20/mo).
+- Se agrego `## Booking and Service Area` en `src/content/blog/audiovisual-equipment-rental-service.svx`, justo despues de "Real Specialized Equipment Setups We've Delivered". Cobertura en Malaga y Costa del Sol (Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas), alcance a Sevilla, Granada, Ronda, Nerja y Antequera, minimo de 400 euros en Granada y aviso minimo de 24 horas, copiados de sound-system-rental y audio-visual-rental. Sin enlaces nuevos. El post no tiene `## Table of Contents` inline, no hubo bullet que anadir.
+- `updatedDate` paso a 2026-10-07 via `just post-sync`; `post-faqs.json` y `post-toc.json` regenerados.
+- Las 12 traducciones quedan stale y se actualizan en el mismo cambio.
+
 ### Changed (blog): tv-screen-rental, nueva FAQ "Do you rent an LED screen?" (2026-10-07)
 - Tarea #T0061 (plan de contenido 2026-10-07, keywords "led screen hire" y "led screen on hire", google-ads 30/mo).
 - Se agrego al final de `## FAQs` en `src/content/blog/tv-screen-rental.svx` la pregunta "Do you rent an LED screen?" y su bullet en el `## Table of Contents` inline. Distingue la pantalla plana de 60 pulgadas del MICE Pack (490 euros ex VAT, hasta 120 invitados, tecnico hasta 6 horas, enlace a la seccion de precios) del video wall o paneles LED modulares, que no estan en el inventario propio (enlace a "What We Don't Stock", busqueda con proveedores si la hay, sin marca, modelo, precio ni plazo).
