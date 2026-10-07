@@ -78303,10 +78303,14 @@
       "cluster": "audiovisual equipment rental service",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audiovisual-equipment-rental-service/",
+      "status": "covered",
       "reason": null,
       "sources": {
+        "blog": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
+        },
         "content-plan": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-29",
@@ -88173,10 +88177,17 @@
       "question": "What is a gooseneck microphone?",
       "keywordId": "headset-lavalier-microphone-rental",
       "cluster": "audiovisual equipment rental service",
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audiovisual-equipment-rental-service/",
+      "status": "answered",
       "reason": null,
       "sources": {
+        "post": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
+          "urls": [
+            "/blog/audiovisual-equipment-rental-service/"
+          ]
+        },
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-10-07"
