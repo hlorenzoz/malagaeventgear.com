@@ -228,6 +228,8 @@ Elk MICE Pack wordt geleverd met een scherm van 60 inch, een hoogwaardig geluids
 
 Kies dit pakket om een geslaagde, professionele en boeiende ervaring te garanderen voor alle deelnemers.
 
+Incentivegroepen en zakelijke groepen die naar de Costa del Sol reizen, hebben ook een plek om te verblijven nodig. Accommodatie is geen dienst van ons, wij leveren audiovisuele apparatuur en de technicus ter plaatse, maar onze partner Top Group Express heeft jarenlange ervaring met [hotelkamers voor incentivereizen](https://topgroupexpress.com/en) en werkt samen met de bureaus, DMC's en bedrijven die de reis van een groep organiseren.
+
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('mice')} speed="normal" direction="left" />

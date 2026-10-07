@@ -228,6 +228,8 @@ FTI Consulting企业活动的完整音响与麦克风系统布置，配有带品
 
 选择这一套餐，为所有与会者带来成功、专业且引人入胜的体验。
 
+前往太阳海岸的奖励旅游团队和企业团队同样需要住宿。住宿不属于我们的服务，我们提供的是视听设备和现场技术人员，但我们的合作伙伴Top Group Express在[奖励旅游团队的酒店客房](https://topgroupexpress.com/zh)方面拥有多年经验，与安排团队行程的旅行社、目的地管理公司（DMC）及企业合作。
+
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('mice')} speed="normal" direction="left" />

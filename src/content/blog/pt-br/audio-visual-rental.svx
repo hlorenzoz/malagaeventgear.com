@@ -230,6 +230,8 @@ Cada MICE Pack vem com uma tela de 60 polegadas, sistema de som de alta qualidad
 
 Escolha este pacote para garantir uma experiência bem-sucedida, profissional e envolvente para todos os participantes.
 
+Grupos de incentivo e grupos corporativos que viajam para a Costa del Sol também precisam de um lugar para ficar. A hospedagem não faz parte dos nossos serviços: fornecemos equipamento audiovisual e o técnico no local, mas nosso parceiro Top Group Express tem anos de experiência com [quartos de hotel para viagens de incentivo](https://topgroupexpress.com/en) e trabalha com as agências, DMCs e empresas que organizam a viagem de um grupo.
+
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('mice')} speed="normal" direction="left" />
