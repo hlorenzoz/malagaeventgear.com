@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { auditTranslations, malformedTranslations } from './translation-audit';
+import { auditTranslations, malformedTranslations, missingTranslations } from './translation-audit';
+import { PREFIXED_LOCALES } from '$lib/i18n/locales';
 import type { GlobResult, TranslationGlob } from './blog-pipeline';
 import type { LocaleContentMap } from '$lib/i18n/content-map/schema';
 
@@ -95,5 +96,44 @@ describe('malformedTranslations (what fails the build)', () => {
 
 	it('does not fail the build for a stale translation (the test suite guards that)', () => {
 		expect(malformed({ '../../content/blog/de/a.svx': fm({ sourceUpdated: '2026-01-10' }) })).toEqual([]);
+	});
+});
+
+describe('missingTranslations (a published English post is published in every locale)', () => {
+	const maps = { de: map, fr: { ...map, posts: { a: { slug: 'a-fr', keyword: 'kw', status: 'propuesta' as const } } } };
+
+	it('lists every locale that does not publish a published English post', () => {
+		const missing = missingTranslations(english, { '../../content/blog/de/a.svx': fm() }, maps, NOW);
+		expect(missing).toContain('fr/a: not published (no translation, a draft, a future publishDate or no content map entry)');
+		expect(missing.some((m) => m.startsWith('de/a:'))).toBe(false);
+		expect(missing).toHaveLength(PREFIXED_LOCALES.length - 1);
+	});
+
+	it('counts a draft, a future or an unmapped translation as missing', () => {
+		const t = {
+			'../../content/blog/de/a.svx': fm({ draft: true }),
+			'../../content/blog/fr/a.svx': fm({ publishDate: '2026-12-01' })
+		};
+		const missing = missingTranslations(english, t, maps, NOW);
+		expect(missing.some((m) => m.startsWith('de/a:'))).toBe(true);
+		expect(missing.some((m) => m.startsWith('fr/a:'))).toBe(true);
+	});
+
+	it('is empty when every locale publishes it', () => {
+		const t: TranslationGlob = {};
+		const all: Record<string, LocaleContentMap> = {};
+		for (const locale of PREFIXED_LOCALES) {
+			t[`../../content/blog/${locale}/a.svx`] = fm();
+			all[locale] = map;
+		}
+		expect(missingTranslations(english, t, all, NOW)).toEqual([]);
+	});
+
+	it('does not ask for a translation of an English draft or future post', () => {
+		const base = english['../../content/blog/a.svx'].metadata as Record<string, unknown>;
+		const draft: GlobResult = { '../../content/blog/a.svx': { metadata: { ...base, draft: true } } };
+		expect(missingTranslations(draft, {}, {}, NOW)).toEqual([]);
+		const future: GlobResult = { '../../content/blog/a.svx': { metadata: { ...base, publishDate: '2026-12-01', updatedDate: undefined } } };
+		expect(missingTranslations(future, {}, {}, NOW)).toEqual([]);
 	});
 });

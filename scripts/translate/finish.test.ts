@@ -21,6 +21,27 @@ describe('commitMessage', () => {
 	});
 });
 
+describe('commit scope (one commit: the English post and its 12 translations)', () => {
+	it('includes the English post paths, the changelog and the SERP terms file', () => {
+		expect(COMMIT_PATHS).toContain('src/content/blog');
+		expect(COMMIT_PATHS).toContain('.agents/CHANGELOG.md');
+		expect(COMMIT_PATHS).toContain('.agents/context/keywords/nlp-terms');
+	});
+	it('takes a custom conventional message for a content change', () => {
+		expect(commitMessage('p', 'feat(blog): p add FAQ on x')).toBe('feat(blog): p add FAQ on x');
+		expect(commitCommands('p', 'feat(blog): p add FAQ on x').at(-1)).toEqual([
+			'git',
+			'commit',
+			'-m',
+			'feat(blog): p add FAQ on x'
+		]);
+	});
+	it('refuses a message that is not conventional or carries attribution', () => {
+		expect(() => commitMessage('p', 'add FAQ')).toThrow(/conventional/);
+		expect(() => commitMessage('p', 'feat(blog): p x\n\nCo-Authored-By: Someone')).toThrow(/attribution/);
+	});
+});
+
 describe('nameList', () => {
 	it('splits git name output into paths', () => {
 		expect(nameList('a/b.svx\nc.ts\n\n')).toEqual(['a/b.svx', 'c.ts']);

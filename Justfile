@@ -114,9 +114,14 @@ post-translate-brief slug *args:
 post-translate-check slug *args:
     bun scripts/translate/check.ts {{slug}} {{args}}
 
-# Cierra la traduccion de un post: checks, tests, build, sitemaps y commit LOCAL (nunca hace push). Acepta --no-commit
+# Cierra la traduccion de un post: checks, tests, build, sitemaps y UN commit LOCAL con el post ingles y sus 12 traducciones (nunca hace push). Acepta --no-commit y --message "feat(blog): <slug> ..."
+[positional-arguments]
 post-translate-finish slug *args:
-    bun scripts/translate/finish.ts {{slug}} {{args}}
+    bun scripts/translate/finish.ts "$@"
+
+# Instala (una vez por clon) el guard de pre-commit: un post ingles solo se commitea con sus 12 traducciones
+hooks-install:
+    bun scripts/translate/install-hook.ts
 
 # Lista que traducciones de posts faltan o estan desactualizadas. Acepta --json
 post-translations-status *args:

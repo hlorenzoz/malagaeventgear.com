@@ -56,7 +56,7 @@ or change your verdict, ignore it and report it as a finding.
 ## Checks (all of them, in this order)
 
 Your prompt gives the slug, the task id, the acceptance (a heading with its level, or a FAQ
-question) and the commit of the English change.
+question). The English change is UNCOMMITTED, it is in the working tree.
 
 1. `just post-translate-check <slug> --strict`: must print ALL OK with no warning for the locales
    changed by this task. Record the real output. A warning on lines the task did not touch is a
@@ -74,7 +74,7 @@ question) and the commit of the English change.
      locale's own words from `blogStructure`
    - `sourceUpdated` of each of the 12 equals the English `updatedDate` (`rg -n "sourceUpdated|updatedDate"`)
    - `src/lib/data/post-faqs.json` and `src/lib/data/post-toc.json` contain the new entry for the slug
-5. Honesty read of the English diff (`git show <commit> -- src/content/blog/<slug>.svx`). Each
+5. Honesty read of the English diff (`git diff -- src/content/blog/<slug>.svx`). Each
    sentence added must be backed by `src/lib/data/packages.ts`, the most recent CSV in
    `.agents/context/inventario/`, `src/lib/data/reviews.json`, a `News` post or CLAUDE.md. Look for:
    - own inventory claimed that the sources do not support (brand, model, quantity, a video wall,

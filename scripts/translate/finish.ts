@@ -2,15 +2,18 @@
 /**
  * finish.ts: closes the translation of one post.
  *
- *   bun scripts/translate/finish.ts <slug> [--no-commit]
+ *   bun scripts/translate/finish.ts <slug> [--no-commit] [--message "feat(blog): <slug> ..."]
  *
  * 1. check.ts <slug>                       the 12 translations against the English
  * 2. bunx vitest run scripts src/lib       the full suite
  * 3. bun run build
  * 4. per locale post-sitemap counts        printed, and each sitemap must exist and have URLs
  * 5. check.ts <slug> --post-build          in-page anchors of the built pages
- * 6. a LOCAL commit of ONLY src/content/blog, src/lib/i18n/content-map,
- *    src/lib/data/post-faqs.json and src/lib/data/post-toc.json
+ * 6. ONE LOCAL commit of ONLY src/content/blog (the English post AND its 12 translations),
+ *    src/lib/i18n/content-map, src/lib/data/post-faqs.json, src/lib/data/post-toc.json,
+ *    .agents/CHANGELOG.md and .agents/context/keywords/nlp-terms. Nothing of the post is
+ *    committed before this step: the pre-commit guard (commit-guard.ts) refuses an English post
+ *    without its translations.
  *
  * It stops at the first failing step. It refuses to start, and again before committing, when
  * anything is already staged (so it can never sweep another session's work into the commit).
@@ -27,16 +30,35 @@ import { PREFIXED_LOCALES } from '../../src/lib/i18n/locales';
 import { appendAgentLog, commitDetail, modeFromEnv } from '../log/agent-log';
 import { assertSlug } from './brief-lib';
 
-/** The only paths the commit may contain. */
+/**
+ * The only paths the commit may contain. The English post and its 12 translations go in ONE commit
+ * (a commit that publishes the English post alone is refused by commit-guard.ts), so the changelog
+ * entry and the SERP terms file of the content task are part of it.
+ */
 export const COMMIT_PATHS = [
 	'src/content/blog',
 	'src/lib/i18n/content-map',
 	'src/lib/data/post-faqs.json',
-	'src/lib/data/post-toc.json'
+	'src/lib/data/post-toc.json',
+	'.agents/CHANGELOG.md',
+	'.agents/context/keywords/nlp-terms'
 ];
 
-export function commitMessage(slug: string): string {
-	return `feat(blog): translate ${slug} into the 12 site languages`;
+/**
+ * The commit message: by default the one of a brand new translation. A content change (a new
+ * section or FAQ) passes its own with `--message`, which must be a conventional commit and carry
+ * no attribution (CLAUDE.md).
+ */
+export function commitMessage(slug: string, custom?: string): string {
+	if (custom === undefined) return `feat(blog): translate ${slug} into the 12 site languages`;
+	const message = custom.trim();
+	if (!/^(feat|fix|docs|chore|refactor|test)(\([a-z0-9-]+\))?: \S/.test(message)) {
+		throw new Error(`--message must be a conventional commit ("feat(blog): <slug> ..."), got "${message}"`);
+	}
+	if (/co-authored-by|generated with|🤖/i.test(message)) {
+		throw new Error('--message must not carry attribution (no Co-Authored-By, no "Generated with")');
+	}
+	return message;
 }
 
 /** Lines of `git ... --name-only` output. */
@@ -58,10 +80,10 @@ export function outsideCommitPaths(files: string[]): string[] {
 }
 
 /** The git commands of the local commit, in order. There is no push. */
-export function commitCommands(slug: string): string[][] {
+export function commitCommands(slug: string, message?: string): string[][] {
 	return [
 		['git', 'add', '--', ...COMMIT_PATHS],
-		['git', 'commit', '-m', commitMessage(slug)]
+		['git', 'commit', '-m', commitMessage(slug, message)]
 	];
 }
 
@@ -144,9 +166,15 @@ function git(args: string[]): string {
 function main(): void {
 	const args = process.argv.slice(2);
 	const noCommit = args.includes('--no-commit');
-	const slug = args.find((a) => !a.startsWith('--'));
+	const messageAt = args.indexOf('--message');
+	const message = messageAt >= 0 ? args[messageAt + 1] : undefined;
+	if (messageAt >= 0 && !message) {
+		console.error('[finish] --message needs a value');
+		process.exit(2);
+	}
+	const slug = args.find((a, i) => !a.startsWith('--') && i !== messageAt + 1);
 	if (!slug) {
-		console.error('Usage: bun scripts/translate/finish.ts <slug> [--no-commit]');
+		console.error('Usage: bun scripts/translate/finish.ts <slug> [--no-commit] [--message "feat(blog): <slug> ..."]');
 		process.exit(2);
 	}
 	try {
@@ -160,6 +188,12 @@ function main(): void {
 		process.exit(2);
 	}
 	currentSlug = slug;
+	try {
+		commitMessage(slug, message);
+	} catch (error) {
+		console.error(`[finish] ${(error as Error).message}`);
+		process.exit(2);
+	}
 	if (!noCommit) {
 		const refusal = stagedRefusal(nameList(git(['diff', '--cached', '--name-only'])));
 		if (refusal) fail(`refusing to run: ${refusal}`);
@@ -187,7 +221,7 @@ function main(): void {
 	}
 
 	console.log('\n== commit (local, no push)');
-	const [add, commit] = commitCommands(slug);
+	const [add, commit] = commitCommands(slug, message);
 	// The index may have changed during the long steps above.
 	const refusal = stagedRefusal(nameList(git(['diff', '--cached', '--name-only'])));
 	if (refusal) fail(`refusing to commit: ${refusal}`);

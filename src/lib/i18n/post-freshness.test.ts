@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { auditTranslations } from '$lib/data/translation-audit';
+import { auditTranslations, missingTranslations } from '$lib/data/translation-audit';
 import { englishGlob, translationGlob } from '$lib/data/blog-files.testutil';
 import { CONTENT_MAPS } from './content-map/all';
 
@@ -13,6 +13,13 @@ import { CONTENT_MAPS } from './content-map/all';
 describe('translated posts', () => {
 	it('are valid, mapped and not older than their English post', () => {
 		expect(auditTranslations(englishGlob, translationGlob, CONTENT_MAPS)).toEqual([]);
+	});
+
+	// Rule 1 of "Reglas mandatorias de idioma": new content ships in the 13 languages in the same
+	// change. The fix is the missing translation (`just post-translate-brief <slug>`), never an
+	// allowlist, and never publishing the English post first: keep it `draft: true` until then.
+	it('exist in every locale for every published English post', () => {
+		expect(missingTranslations(englishGlob, translationGlob, CONTENT_MAPS)).toEqual([]);
 	});
 
 	it('reads the translation folders only, never an English root post', () => {

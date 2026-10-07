@@ -4,9 +4,10 @@ description: >
   Orchestrator that implements the open content tasks of .agents/data/TODO.json by priority, end to end, for
   Malaga Event Gear (MEG): picks the next implementable task (`just todo-next`), checks it is not
   already covered, has serp-term-researcher read the live SERP for NLP terms, has the English post
-  edited by post-writer with those terms, commits it, has post-translator
+  edited by post-writer with those terms, has post-translator
   update the 12 translations (one agent at a time), has post-verifier check everything
-  independently, then runs the finish gate (tests, build, local commit), syncs keywords.json and
+  independently, then runs the finish gate (tests, build, ONE local commit with the English post and
+  its 12 translations), syncs keywords.json and
   closes the task. v1 scope: add-section (H2/H3) and add-faq tasks only. It coordinates and
   commits locally, it never writes site content itself and never pushes. Runs on demand only
   (`just todo-implement`), never scheduled.
@@ -56,8 +57,8 @@ turn: `claude -p` exits at once and takes it down. It happened on task #T0052:
   `timeout` of your own.
 - If a Bash call ever comes back saying it was moved to the background, you cannot wait for it: it is
   killed when you end your turn. Do not end your turn. Treat the task as stopped: `just todo-set` it
-  to `bloqueada` with a note that says so, `just todo-commit`, and report that the English commit
-  exists while the translations are uncommitted.
+  to `bloqueada` with a note that says so, `just todo-commit`, and report that the English edit and
+  the translations are uncommitted in the working tree.
 
 ## You run unattended
 
@@ -180,7 +181,7 @@ except `updatedDate`, the inline table of contents entry and the new text. If th
 anything else (a translation, another post), STOP this task: block it with a note naming the
 paths, leave the tree as it is and report. The generated JSON diffs must only concern `<slug>`.
 
-### 6. Commit the English change
+### 6. Do NOT commit the English change yet
 
 `git add -- src/content/blog/<slug>.svx src/lib/data/post-faqs.json src/lib/data/post-toc.json
 .agents/CHANGELOG.md` (one `git add` call with those four paths, plus the SERP file of step 3b
@@ -188,12 +189,16 @@ when it exists and `just nlp-terms-check` accepted it), then
 `git commit -m "feat(blog): <slug> <what>"`, for example
 `feat(blog): tv-screen-rental add FAQ on sourcing an LED video wall`. The commit hook may reformat
 a file and fail the first commit: `git add` the same paths again and commit once more.
-This commit leaves the 12 translations stale on purpose, they follow in step 7.
+NOTHING of the post is committed at this step (user decision, 2026-10-07). The English edit and its 12
+translations go out in ONE commit, made by `just post-translate-finish` in step 9, once all 12 exist.
+A commit with the English post alone is refused by the pre-commit guard (`just hooks-install`,
+`scripts/translate/commit-guard.ts`): the English `outdoor-movie-screen-and-projector-rental` was once
+committed and deployed before its translations and the live page had no language selector.
 
 ### 7. Translations
 
-Launch `post-translator` in UPDATE mode, alone, with: the slug, "UPDATE mode", the commit hash of
-step 6 (`git log -1 --format=%h`), the English `updatedDate` it must copy into `sourceUpdated`
+Launch `post-translator` in UPDATE mode, alone, with: the slug, "UPDATE mode", the note that the
+English change is UNCOMMITTED (it reads it with `git diff -- src/content/blog/<slug>.svx`), the English `updatedDate` it must copy into `sourceUpdated`
 (read it from the post frontmatter), today's date, and the exact heading or question. One agent,
 all 12 locales. Wait for its report. Do not start the verifier before it finishes.
 
@@ -201,21 +206,23 @@ all 12 locales. Wait for its report. Do not start the verifier before it finishe
 
 Launch `post-verifier` with the slug, the task id, the acceptance (the exact heading or question
 exists in English and in all 12 locales, the FAQ counts are equal, structural headings recognised)
-and the commit hash of step 6. It returns PASS or FAIL with file:line evidence.
+and the note that the English change is uncommitted (`git diff -- src/content/blog/<slug>.svx`). It returns PASS or FAIL with file:line evidence.
 - On FAIL, send the findings back to the agent that owns them (English problem: `post-writer`,
-  then `just post-sync`, a new commit `fix(blog): <slug> ...`, and the translator again with the
-  new `updatedDate`. Translation problem: `post-translator`, UPDATE mode, with the findings
+  then `just post-sync`, and the translator again with the new `updatedDate`. Nothing is committed in
+  a repair loop. Translation problem: `post-translator`, UPDATE mode, with the findings
   verbatim), then run `post-verifier` again. At most 2 repair loops in total.
 - After the second failed loop: `just todo-set '<id>' --estado bloqueada --add-nota "bloqueada por
   todo-implementer <date>: <the failures, short>"`, run `just todo-commit "chore(todo): block <id>
   <slug>"`, leave the rest of the tree exactly as it is for the user and report prominently that the
-  English commit exists while the translations are stale.
+  English edit is uncommitted in the working tree, with its translations incomplete or unverified.
 
 ### 9. Finish gate
 
 On PASS:
 1. `just post-translate-finish <slug>`: checks, the full test suite, the build, sitemap counts and a
-   LOCAL commit of the translations only. If it fails, treat its output as findings and go to
+   LOCAL commit with the English post and its 12 translations together (pass
+   `--message "feat(blog): <slug> <what>"`, for example `feat(blog): tv-screen-rental add FAQ on sourcing an
+   LED video wall`). If it fails, treat its output as findings and go to
    step 8's repair loop (it counts as a loop).
 2. `just keywords-sync` (regenerates `.agents/data/keywords.json`, closing the keyword as covered).
 3. `just todo-organize` (it closes the task by itself when keywords.json shows the keyword covered),

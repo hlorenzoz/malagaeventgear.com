@@ -92,6 +92,26 @@ cerrada con este archivo desactualizado.
    no puede quedar corregido en inglés y desactualizado en otros 12 idiomas.
 3. **Agregar o quitar un idioma es una decisión explícita del usuario, con fecha**, igual que
    crear una categoría del blog. Ningún agente lo decide por su cuenta.
+4. **Un post inglés nunca se commitea ni se publica sin sus 12 traducciones (decisión del usuario,
+   2026-10-07).** El post inglés y sus traducciones salen en UN solo commit, hecho cuando las 12
+   existen. Un post que no está listo se queda en `draft: true`. Por qué: el post
+   `outdoor-movie-screen-and-projector-rental` se commiteó y desplegó solo en inglés, y la página en
+   vivo salió sin `hreflang` y sin selector de idioma (el selector se oculta si la página existe en un
+   solo idioma). Se impone en tres capas:
+   - **Suite**: `src/lib/i18n/post-freshness.test.ts` (`missingTranslations` de
+     `src/lib/data/translation-audit.ts`) falla si un post inglés publicado no está publicado en
+     alguno de los 12 idiomas (traducción ausente, borrador, `publishDate` futuro o sin entrada en el
+     mapa de contenido). La solución es la traducción que falta, nunca un allowlist.
+   - **Commit**: el guard `scripts/translate/commit-guard.ts` (hook de pre-commit, se instala una vez
+     por clon con `just hooks-install`) mira el ÍNDICE y rechaza un commit que agrega o modifica un
+     post inglés no borrador si alguno de los 12 idiomas no tiene su traducción en ese mismo commit,
+     o la tiene como borrador o con `sourceUpdated` anterior al último cambio inglés. Un post
+     `draft: true` queda exento (`just post-new` lo crea antes de traducirlo). `--no-verify` lo salta:
+     las recetas que lo usan (`keywords-commit`, `todo-commit`...) no tocan posts.
+   - **Flujo**: `just post-translate-finish <slug> [--message "feat(blog): <slug> ..."]` hace el
+     commit único del post inglés, sus 12 traducciones, `content-map`, `post-faqs.json`,
+     `post-toc.json`, `.agents/CHANGELOG.md` y el archivo de términos del SERP. Nada del post se
+     commitea antes, tampoco "el inglés primero".
 
 ### Hechos del negocio sobre idiomas (confirmados por el usuario, 2026-09-24)
 
@@ -1808,9 +1828,9 @@ Flujo por tarea: preflight (nada en el índice, nada modificado en `src/` ni `sc
 canibaliza o pide un hecho sin respaldo: `bloqueada` con la nota `bloqueada por todo-implementer
 <fecha>: <motivo>`) -> serp-term-researcher (SERP real, términos NLP, validados con `nlp-terms-check`, si
 falla se sigue sin ellos) -> post-writer (inglés con esos términos, `post-sync`, entrada de
-`.agents/CHANGELOG.md`) -> commit
-`feat(blog): <slug> ...` -> post-translator (modo UPDATE) -> post-verifier (hasta 2 vueltas de
-reparación) -> `post-translate-finish` (checks, tests, build, commit local de las traducciones) ->
+`.agents/CHANGELOG.md`, SIN commitear) -> post-translator (modo UPDATE) -> post-verifier (hasta 2
+vueltas de reparación) -> `post-translate-finish --message "feat(blog): <slug> ..."` (checks, tests,
+build y UN commit local con el post inglés y sus 12 traducciones, regla 4 de idioma) ->
 `keywords-sync`, `todo-organize`, tarea `hecha` -> commit de `keywords.json` y, aparte, de
 `TODO.json` (`todo-commit`).
 
@@ -1818,9 +1838,9 @@ reparación) -> `post-translate-finish` (checks, tests, build, commit local de l
   en R2 y enlaces de silo, y sale en `skipped`. Las tareas escritas a mano tampoco se toman.
 - **Nunca** hace push (denegado por las flags de la receta) y no agrega `Co-Authored-By`.
   `.agents/data/TODO.json` se commitea solo con `just todo-commit` (ver "Los agentes commitean
-  `.agents/data/TODO.json`"), en su propio commit. Si una corrida se corta tras el commit del
-  inglés, las traducciones quedan desactualizadas: `just post-translations-status` lo muestra y se
-  retoma a mano. `todo-organize` solo reabre las tareas que bloqueó la puerta de traducciones: una
+  `.agents/data/TODO.json`"), en su propio commit. Si una corrida se corta, el cambio inglés y las
+  traducciones quedan SIN commitear en el árbol (el guard de pre-commit rechaza el inglés solo): se
+  retoma a mano con `just post-translations-status` y `just post-translate-finish <slug>`. `todo-organize` solo reabre las tareas que bloqueó la puerta de traducciones: una
   tarea bloqueada por el agente o por el usuario sigue bloqueada.
 - Los permisos son los de TODA la sesión, no uno por agente: Write y Edit solo en
   `src/content/blog/**`, `post-faqs.json`, `post-toc.json`, `src/lib/i18n/content-map/**`,

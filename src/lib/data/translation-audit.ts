@@ -96,3 +96,36 @@ export function auditTranslations(
 	}
 	return problems;
 }
+
+/**
+ * Every PUBLISHED English post must be published in each of the 12 locales (CLAUDE.md, "Reglas
+ * mandatorias de idioma", rule 1: all new content ships in the 13 languages in the same change).
+ * `<locale>/<en-slug>: ...` for each pair the build would not publish: no file, a draft, a future
+ * `publishDate`, or no content map entry. An English draft or future post asks for nothing. Empty
+ * means complete. Guarded by post-freshness.test.ts, and at commit time by
+ * scripts/translate/commit-guard.ts.
+ */
+export function missingTranslations(
+	englishGlob: GlobResult,
+	translations: TranslationGlob,
+	maps: Partial<Record<string, LocaleContentMap>>,
+	now: Date = new Date()
+): string[] {
+	const english = buildPostsFromGlob(englishGlob, now);
+	// A malformed file already fails `auditTranslations`: here it just counts as not published.
+	const valid = Object.fromEntries(
+		Object.entries(translations).filter(([, m]) => TranslatedPostSchema.safeParse(m.metadata).success)
+	);
+	const problems: string[] = [];
+	for (const locale of PREFIXED_LOCALES) {
+		const published = new Set(buildLocalizedPosts(locale, english, valid, maps[locale] ?? null, now).map((p) => p.slug));
+		for (const post of english) {
+			if (!published.has(post.slug)) {
+				problems.push(
+					`${locale}/${post.slug}: not published (no translation, a draft, a future publishDate or no content map entry)`
+				);
+			}
+		}
+	}
+	return problems;
+}

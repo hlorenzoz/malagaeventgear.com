@@ -84,8 +84,8 @@ earlier posts"): `just post-translate-brief <slug>` prints them with the slug fi
 
 ## UPDATE mode (the case after a content task)
 
-Your prompt gives: the slug, the commit of the English change, the English `updatedDate` and
-today's date. First read the English change: `git show <commit> -- src/content/blog/<slug>.svx`
+Your prompt gives: the slug, the English `updatedDate` and today's date. The English change is
+UNCOMMITTED. First read it: `git diff -- src/content/blog/<slug>.svx`
 (the new heading or question, its text, its position, and its inline table of contents entry).
 
 For EACH of the 12 locales, in this order: fr, it, de, nl, pt-pt, pt-br, sv, da, nb, zh-hans,
