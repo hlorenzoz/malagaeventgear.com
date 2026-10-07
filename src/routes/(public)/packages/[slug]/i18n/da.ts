@@ -23,7 +23,7 @@ const copy = {
 		},
 		technician: {
 			q: 'Hvad sker der, hvis jeg har brug for en tekniker under mit event?',
-			a: 'Vores premiumpakker (som {wedding} og {mice}) inkluderer allerede teknisk overvågning på stedet. For andre pakker kan du anmode om en dedikeret lyd-/lystekniker, der bliver i lokalet, så du får en stressfri oplevelse.'
+			a: 'Vores premiumpakker (som {wedding} og {mice}) inkluderer allerede teknisk overvågning på stedet. For andre pakker kan du anmode om en dedikeret tekniker, der bliver i lokalet, betjener lyden og mikrofonerne og afhjælper fejl på projektor, skærm eller lys, så du får en stressfri oplevelse.'
 		}
 	},
 	popularBadge: 'Mest populær',

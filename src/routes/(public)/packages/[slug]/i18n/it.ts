@@ -23,7 +23,7 @@ const copy = {
 		},
 		technician: {
 			q: 'Cosa succede se ho bisogno di un tecnico durante il mio evento?',
-			a: "I nostri pacchetti premium (come il {wedding} e il {mice}) includono già il monitoraggio tecnico in loco. Per gli altri pacchetti, puoi richiedere un tecnico audio e luci dedicato, presente nella tua location, per un'esperienza senza stress."
+			a: "I nostri pacchetti premium (come il {wedding} e il {mice}) includono già il monitoraggio tecnico in loco. Per gli altri pacchetti, puoi richiedere un tecnico dedicato, presente nella tua location, che gestisce l'audio e i microfoni e risolve qualsiasi guasto a proiettore, schermo o luci, per un'esperienza senza stress."
 		}
 	},
 	popularBadge: 'Il più richiesto',

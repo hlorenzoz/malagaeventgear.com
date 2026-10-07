@@ -23,7 +23,7 @@ export default {
 		},
 		technician: {
 			q: 'Hva skjer hvis jeg trenger en tekniker under arrangementet mitt?',
-			a: 'Våre pakker i premiumklasse (som {wedding} og {mice}) inkluderer allerede teknisk overvåking på stedet. For andre pakker kan du be om en dedikert lyd-/lystekniker som blir i lokalet, slik at du får en stressfri opplevelse.'
+			a: 'Våre pakker i premiumklasse (som {wedding} og {mice}) inkluderer allerede teknisk overvåking på stedet. For andre pakker kan du be om en dedikert tekniker som blir i lokalet, betjener lyden og mikrofonene og utbedrer feil på projektor, skjerm eller lys, slik at du får en stressfri opplevelse.'
 		}
 	},
 	popularBadge: 'Mest populær',

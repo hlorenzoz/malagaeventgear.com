@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (copy): el tecnico a pedido opera sonido y microfonos y arregla fallos, ya no es "ingeniero de sonido y luz" (2026-10-07)
+- Tarea #T0020 parte A. Hecho de negocio (CLAUDE.md, "Que hace el tecnico en el evento", 2026-09-26): el tecnico opera el sonido y los microfonos, y si falla el proyector, la pantalla o una luz, lo resuelve. Las diapositivas las maneja el ponente. Nunca se lo presenta como ingeniero o tecnico de luces.
+- FAQ `technician` de cada pagina de paquete: "you can request a dedicated sound/light engineer to stay at your venue" pasa a "a dedicated technician to stay at your venue to operate the sound and microphones and to fix any projector, screen or light fault". Archivos: `src/routes/(public)/packages/[slug]/i18n/<locale>.ts` (en y los 12 idiomas: fr, it, de, nl, pt-pt, pt-br, sv, da, nb, zh-hans, zh-tw, zh-hk). Sin hechos nuevos ni importes.
+- Fechas (regla 11): el `export const updated` de esas 12 copias y el `updated` de los 5 paquetes ya eran 2026-10-07 por un cambio anterior del mismo dia, no se mueven. Las paginas `/packages/<slug>/` no tienen `meta.ts` propio.
+- Pendiente (otras partes de #T0020, sin tocar): "sound and lighting technicians" en `about-us/i18n/<locale>.ts`, y "technical control and engineering support" en `faq.ts` (`technician`), `packages.ts` (inclusion del Wedding Pack y del MICE Pack) y sus 12 traducciones en `src/lib/i18n/data/<locale>.ts`.
+
 ### Changed (blog): projector-rental, la variante "hire" en la introduccion (2026-10-07)
 - Tarea #T0047 (oportunidad de keyword "projector hire", Ubersuggest 2026-09-30, 10 busquedas al mes, 23 impresiones en GSC a posicion media 34,8). Un post nuevo no se justifica (canibalizaria `projector-rental`): se refuerza este.
 - Primer parrafo: "Looking for a projector rental in Malaga, Spain?" pasa a "Looking for a projector rental in Malaga, Spain, also called projector hire?". La keyword "projector rental" y la primera mencion "Malaga, Spain" quedan igual. Es la unica vez que el post usa "hire".

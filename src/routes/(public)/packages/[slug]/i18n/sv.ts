@@ -23,7 +23,7 @@ export default {
 		},
 		technician: {
 			q: 'Vad händer om jag behöver en tekniker under mitt evenemang?',
-			a: 'Våra premiumpaket (som {wedding} och {mice}) inkluderar redan teknisk övervakning på plats. För övriga paket kan du begära en dedikerad ljud-/ljustekniker som stannar kvar i lokalen, för en stressfri upplevelse.'
+			a: 'Våra premiumpaket (som {wedding} och {mice}) inkluderar redan teknisk övervakning på plats. För övriga paket kan du begära en dedikerad tekniker som stannar kvar i lokalen, sköter ljudet och mikrofonerna och åtgärdar fel på projektor, skärm eller belysning, för en stressfri upplevelse.'
 		}
 	},
 	popularBadge: 'Mest populär',

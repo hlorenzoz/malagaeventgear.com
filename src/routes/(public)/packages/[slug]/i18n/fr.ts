@@ -23,7 +23,7 @@ const copy = {
 		},
 		technician: {
 			q: "Que se passe-t-il si j'ai besoin d'un technicien pendant mon événement ?",
-			a: 'Nos forfaits premium (comme le {wedding} et le {mice}) incluent déjà un suivi technique sur place. Pour les autres forfaits, vous pouvez demander un technicien son et lumière dédié, présent sur votre lieu de réception, pour une expérience sans stress.'
+			a: "Nos forfaits premium (comme le {wedding} et le {mice}) incluent déjà un suivi technique sur place. Pour les autres forfaits, vous pouvez demander un technicien dédié, présent sur votre lieu de réception, qui s'occupe du son et des micros et dépanne tout projecteur, écran ou éclairage en panne, pour une expérience sans stress."
 		}
 	},
 	popularBadge: 'Le plus demandé',

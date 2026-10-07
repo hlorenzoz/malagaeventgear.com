@@ -23,7 +23,7 @@ const copy = {
 		},
 		technician: {
 			q: 'Wat gebeurt er als ik tijdens mijn evenement een technicus nodig heb?',
-			a: 'Onze premium pakketten (zoals het {wedding} en het {mice}) bevatten al technische monitoring ter plaatse. Voor andere pakketten kun je een eigen geluids- en lichttechnicus aanvragen die op je locatie blijft, voor een zorgeloze ervaring.'
+			a: 'Onze premium pakketten (zoals het {wedding} en het {mice}) bevatten al technische monitoring ter plaatse. Voor andere pakketten kun je een eigen technicus aanvragen die op je locatie blijft, het geluid en de microfoons bedient en elke storing aan projector, scherm of verlichting verhelpt, voor een zorgeloze ervaring.'
 		}
 	},
 	popularBadge: 'Meest gekozen',

@@ -29,7 +29,7 @@ const copy = {
 		},
 		technician: {
 			q: 'What happens if I need a technician during my event?',
-			a: 'Our premium packages (like the {wedding} and {mice}) already include on site technical monitoring. For other packages, you can request a dedicated sound/light engineer to stay at your venue for a stress free experience.'
+			a: 'Our premium packages (like the {wedding} and {mice}) already include on site technical monitoring. For other packages, you can request a dedicated technician to stay at your venue to operate the sound and microphones and to fix any projector, screen or light fault, for a stress free experience.'
 		}
 	},
 	popularBadge: 'Most Popular',

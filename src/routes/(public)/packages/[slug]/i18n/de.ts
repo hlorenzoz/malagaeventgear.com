@@ -23,7 +23,7 @@ export default {
 		},
 		technician: {
 			q: 'Was passiert, wenn ich während meiner Veranstaltung einen Techniker benötige?',
-			a: 'Unsere Premiumpakete (wie das {wedding} und das {mice}) beinhalten bereits eine technische Betreuung vor Ort während der Veranstaltung. Bei anderen Paketen können Sie einen eigenen Ton- und Lichttechniker anfordern, der für ein stressfreies Erlebnis an Ihrem Veranstaltungsort bleibt.'
+			a: 'Unsere Premiumpakete (wie das {wedding} und das {mice}) beinhalten bereits eine technische Betreuung vor Ort während der Veranstaltung. Bei anderen Paketen können Sie einen eigenen Techniker anfordern, der an Ihrem Veranstaltungsort bleibt, den Ton und die Mikrofone bedient und bei jeder Störung an Projektor, Bildschirm oder Licht eingreift, für ein stressfreies Erlebnis.'
 		}
 	},
 	popularBadge: 'Am beliebtesten',

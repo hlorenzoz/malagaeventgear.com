@@ -23,7 +23,7 @@ export default {
 		},
 		technician: {
 			q: 'O que acontece se eu precisar de um técnico durante o meu evento?',
-			a: 'Os nossos pacotes premium (como o {wedding} e o {mice}) já incluem monitorização técnica no local. Para os restantes pacotes, pode solicitar um engenheiro de som/luz dedicado que permaneça no local do seu evento, para uma experiência sem complicações.'
+			a: 'Os nossos pacotes premium (como o {wedding} e o {mice}) já incluem monitorização técnica no local. Para os restantes pacotes, pode solicitar um técnico dedicado que permaneça no local do seu evento, opere o som e os microfones e resolva qualquer avaria no projetor, no ecrã ou na iluminação, para uma experiência sem complicações.'
 		}
 	},
 	popularBadge: 'Mais popular',
