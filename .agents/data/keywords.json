@@ -44254,11 +44254,11 @@
       "id": "outdoor-movie-screen-rental",
       "keyword": "outdoor movie screen rental",
       "locale": "en",
-      "cluster": "unassigned",
+      "cluster": "audio visual rental",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "status": "published",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -44296,6 +44296,10 @@
               "2026-08": 90
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
         },
         "content-plan": {
           "firstSeen": "2026-10-02",
@@ -80182,6 +80186,24 @@
       }
     },
     {
+      "id": "can-i-play-the-film-from-my-own-laptop-or-streaming-device",
+      "question": "Can I play the film from my own laptop or streaming device?",
+      "keywordId": "outdoor-movie-screen-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
+          "urls": [
+            "/blog/outdoor-movie-screen-and-projector-rental/"
+          ]
+        }
+      }
+    },
+    {
       "id": "can-i-rent-a-projection-screen-without-a-projector-or-vice-versa",
       "question": "Can I Rent a Projection Screen Without a Projector, or Vice Versa?",
       "keywordId": "audiovisual-equipment-rental-service",
@@ -80732,6 +80754,24 @@
           "lastSeen": "2026-10-07",
           "urls": [
             "/blog/sound-system-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-you-set-up-an-outdoor-movie-screen-on-grass-or-sand",
+      "question": "Can you set up an outdoor movie screen on grass or sand?",
+      "keywordId": "outdoor-movie-screen-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
+          "urls": [
+            "/blog/outdoor-movie-screen-and-projector-rental/"
           ]
         }
       }
@@ -82428,6 +82468,24 @@
           "lastSeen": "2026-10-07",
           "urls": [
             "/blog/weather-considerations-for-outdoor-rentals/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "do-you-supply-the-film-or-the-licence-to-show-it",
+      "question": "Do you supply the film or the licence to show it?",
+      "keywordId": "outdoor-movie-screen-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
+          "urls": [
+            "/blog/outdoor-movie-screen-and-projector-rental/"
           ]
         }
       }
@@ -84670,6 +84728,24 @@
           "lastSeen": "2026-09-30",
           "seeds": [
             "all-in-one-wedding-rental-packages"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-does-an-outdoor-movie-screen-and-projector-rental-cost",
+      "question": "How much does an outdoor movie screen and projector rental cost?",
+      "keywordId": "outdoor-movie-screen-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
+          "urls": [
+            "/blog/outdoor-movie-screen-and-projector-rental/"
           ]
         }
       }
@@ -88109,6 +88185,24 @@
       }
     },
     {
+      "id": "what-if-the-venue-has-no-power-point-or-rain-is-forecast",
+      "question": "What if the venue has no power point or rain is forecast?",
+      "keywordId": "outdoor-movie-screen-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
+          "urls": [
+            "/blog/outdoor-movie-screen-and-projector-rental/"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-if-the-weather-forces-a-swap-between-an-indoor-and-outdoor-venue",
       "question": "What if the weather forces a swap between an indoor and outdoor venue?",
       "keywordId": "managing-last-minute-wedding-rental-changes",
@@ -89410,6 +89504,24 @@
       }
     },
     {
+      "id": "what-size-screen-do-i-need-for-an-outdoor-movie-night-and-for-how-many-guests",
+      "question": "What size screen do I need for an outdoor movie night, and for how many guests?",
+      "keywordId": "outdoor-movie-screen-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
+          "urls": [
+            "/blog/outdoor-movie-screen-and-projector-rental/"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-size-screen-or-projector-do-i-need",
       "question": "What size screen or projector do I need?",
       "keywordId": "audio-video-rental-near-me",
@@ -89495,6 +89607,24 @@
           "lastSeen": "2026-10-07",
           "urls": [
             "/blog/stage-lighting-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-time-is-it-dark-enough-to-start-an-outdoor-movie",
+      "question": "What time is it dark enough to start an outdoor movie?",
+      "keywordId": "outdoor-movie-screen-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
+          "urls": [
+            "/blog/outdoor-movie-screen-and-projector-rental/"
           ]
         }
       }
