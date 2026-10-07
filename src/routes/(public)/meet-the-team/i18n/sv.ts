@@ -12,7 +12,7 @@ export default {
 		badge: 'Vilka står bakom MEG',
 		title: 'Vårt team',
 		intro:
-			'Möt de talangfulla specialisterna på Malaga Event Gear. Från installation till teknisk drift i realtid garanterar vi en stressfri upplevelse.'
+			'Möt de talangfulla specialisterna på Malaga Event Gear. Från installation till teknisk support under ditt evenemang garanterar vi en stressfri upplevelse.'
 	},
 	technical: {
 		title: 'Teknisk personal',

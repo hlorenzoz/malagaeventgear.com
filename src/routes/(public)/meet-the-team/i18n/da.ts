@@ -12,7 +12,7 @@ const copy = {
 		badge: 'Hvem står bag MEG',
 		title: 'Mød teamet',
 		intro:
-			'Mød de dygtige specialister hos Malaga Event Gear. Fra opsætning til teknik i realtid garanterer vi en stressfri oplevelse.'
+			'Mød de dygtige specialister hos Malaga Event Gear. Fra opsætning til teknisk support under dit event garanterer vi en stressfri oplevelse.'
 	},
 	technical: {
 		title: 'Teknisk personale',
