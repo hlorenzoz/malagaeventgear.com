@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): tv-screen-rental, nueva FAQ "What screen size do I need for my conference room?" (2026-10-07)
+- Tarea #T0041 (plan de contenido 2026-10-07, keyword "What screen size do I need for my conference room?", research-paa newFaq enlazada a tv-screen-rental).
+- Se agrego al final de `## FAQs` en `src/content/blog/tv-screen-rental.svx` la pregunta con su bullet en el `## Table of Contents` inline. Responde con el unico tamano propio (60 pulgadas HD LED del MICE Pack), sin necesidad de sala oscura, y para salas profundas remite a la guia de proyectores (3000 y 5000 lumenes). Ninguna cifra ni tamano nuevo.
+- `updatedDate` ya era 2026-10-07 (cambio del mismo dia), `post-faqs.json` y `post-toc.json` regenerados.
+- Las 12 traducciones siguen en el mismo cambio (FAQ nueva por traducir).
+
 ### Changed (blog): audiovisual-equipment-rental-service, nueva FAQ "Why do some corporate setups use two microphones at the podium?" (2026-10-07)
 - Tarea #T0040 (plan de contenido 2026-10-07, keyword "Why does a podium sometimes have two microphones?", research-paa newFaq enlazada a headset-lavalier-microphone-rental).
 - Se agrego al final de `## FAQs` en `src/content/blog/audiovisual-equipment-rental-service.svx`, tras "What Is a Gooseneck Microphone?", la pregunta "Why Do Some Corporate Setups Use Two Microphones at the Podium?". Se responde con el montaje propio del MICE Pack (1 gooseneck fijo al podio + 1 inalambrico de mano, tecnico incluido), sin presentarlo como convencion universal. Enlace al MICE Pack y a la seccion del post. Ninguna cifra nueva. El post no tiene `## Table of Contents` inline, no hubo bullet que anadir.

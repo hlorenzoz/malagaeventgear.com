@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-07",
+  "taskId": "#T0041",
+  "slug": "tv-screen-rental",
+  "searchTerm": "TV screen rental What screen size do I need for my conference room?",
+  "status": "partial",
+  "reason": "Google position 2 (lifesize.com) skipped: it redirected to another host. Position 4 (yealink.com) read instead. Pages are sizing guides, not hire pages.",
+  "serp": {
+    "query": "What screen size do I need for my conference room?",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://smartway2.com/whats-the-ideal-size-of-tv-for-your-conference-room/", "title": "whats the ideal size of tv for your conference room" },
+      { "rank": 2, "url": "https://www.qs-tech.com/newsinfo113.html", "title": "www.qs-tech.com" },
+      { "rank": 3, "url": "https://www.yealink.com/en/onepage/P3-Sep7-how-to-choose-the-best-video-conferencing-monitor-for-modern-workplaces", "title": "How to Choose the Best Video Conferencing Monitor for Modern Workplaces" }
+    ]
+  },
+  "terms": [
+    { "term": "viewing distance", "kind": "related", "seenIn": 3 },
+    { "term": "viewing angle", "kind": "related", "seenIn": 2 },
+    { "term": "diagonal screen size", "kind": "related", "seenIn": 2 },
+    { "term": "video calls", "kind": "related", "seenIn": 2 },
+    { "term": "video conferencing", "kind": "related", "seenIn": 2 },
+    { "term": "presentations", "kind": "entity", "seenIn": 2 },
+    { "term": "boardroom meetings", "kind": "entity", "seenIn": 2 },
+    { "term": "brainstorming sessions", "kind": "entity", "seenIn": 2 },
+    { "term": "display size", "kind": "related", "seenIn": 2 },
+    { "term": "video wall", "kind": "entity", "seenIn": 1 },
+    { "term": "LED display", "kind": "entity", "seenIn": 1 },
+    { "term": "projector screen", "kind": "entity", "seenIn": 1 },
+    { "term": "55 inch display", "kind": "entity", "seenIn": 1 },
+    { "term": "65 inch display", "kind": "entity", "seenIn": 1 },
+    { "term": "75 inch display", "kind": "entity", "seenIn": 1 },
+    { "term": "86 inch display", "kind": "entity", "seenIn": 1 },
+    { "term": "screen height", "kind": "related", "seenIn": 1 },
+    { "term": "image height", "kind": "related", "seenIn": 1 },
+    { "term": "aspect ratio", "kind": "related", "seenIn": 1 },
+    { "term": "pixel pitch", "kind": "related", "seenIn": 1 },
+    { "term": "resolution", "kind": "related", "seenIn": 1 },
+    { "term": "brightness", "kind": "related", "seenIn": 1 },
+    { "term": "HDMI connectors", "kind": "entity", "seenIn": 1 },
+    { "term": "What viewing distance requires which screen size?", "kind": "question", "seenIn": 1 },
+    { "term": "How does content type influence screen sizing?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Yealink MeetingBoard Pro", "reason": "manufacturer product name from a vendor page, not MEG inventory vocabulary" },
+    { "term": "QSTECH X Wall V3", "reason": "manufacturer model of a vendor page" },
+    { "term": "Smartway2", "reason": "company name" },
+    { "term": "Clear Touch", "reason": "company name" },
+    { "term": "Microsoft Teams Rooms", "reason": "software platform of a vendor page" },
+    { "term": "Zoom Rooms", "reason": "software platform of a vendor page" },
+    { "term": "occupancy data", "reason": "workplace IT vocabulary, not event hire" },
+    { "term": "feet measurements", "reason": "US units, MEG uses metres" }
+  ]
+}
