@@ -397,6 +397,23 @@
       ]
     },
     {
+      "id": "#T0074",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "traduccion",
+      "titulo": "Traducciones de /blog/audio-visual-rental/: 20 avisos de uso de keyword en 11 idiomas (strict)",
+      "anotada": "2026-10-07",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [],
+      "descripcion": [
+        "Origen: `just post-translate-check audio-visual-rental --strict` (2026-10-07, verificador de #T0072): 20 problemas en 11 idiomas, todos de uso de keyword en texto anterior a #T0072. La keyword de cada idioma sale de src/lib/i18n/content-map/locales/<locale>.ts, nunca de traducir la inglesa.",
+        "Detalle: fr, pt-pt, pt-br, zh-hans, zh-tw: la keyword aparece 1 vez en el cuerpo (hacen falta 2). it: falta en el primer parrafo. de, nl, sv, da: falta en el primer parrafo, en el cuerpo (0 veces) y en el titulo. zh-hk: falta en el primer parrafo y en el cuerpo. Solo nb pasa.",
+        "Alcance por confirmar: correr `just post-translate-check <slug> --strict` en los demas posts para ver si es un patron de todo el blog. Si lo es, conviene un lote por silo y no un post suelto.",
+        "Reglas: sin relleno de keywords (politica de spam de Google), keyword nativa por idioma con status propuesta, los cambios mueven updatedDate del post ingles solo si cambia el contenido ingles. Una edicion solo de traducciones NO mueve la fecha inglesa, pero si la updatedDate de esa traduccion. Typography regla 12."
+      ]
+    },
+    {
       "id": "#T0057",
       "estado": "pendiente",
       "prioridad": "media",
