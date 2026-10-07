@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-05",
+  "updated": "2026-10-07",
   "tasks": [
     {
       "id": "#T0054",
@@ -394,6 +394,42 @@
         "3. (Opcional) Zaraz s.js aparece en staging sin cache TTL (7KB): revisar si se está usando; si no, desactivarlo.",
         "",
         "Verificación tras deploy + purge + toggle: npx lighthouse https://malagaeventgear.com/blog/ --only-categories=performance --form-factor=mobile -> objetivo FCP <2.5s, LCP <3s, score >=85. (nuevo.malagaeventgear.com fue dado de baja, ya no resuelve; usar producción o localhost:4173)."
+      ]
+    },
+    {
+      "id": "#T0069",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"How much does it cost to rent a PA system?\"",
+      "anotada": "2026-10-07",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-07, ítem 1)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/sound-system-rental.svx",
+        "Keywords: cost to rent a pa system, concert sound system rental prices (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Por qué: Pregunta de precio que los clientes de MEG hacen de verdad. /blog/sound-system-rental/ tiene 14 FAQs y ninguna trata el coste de alquilar un PA (sí lo hace projector-rental). Se agrupa con el FAQ vinculado 'how much does it cost to rent sound equipment' (misma intención). Los precios de concierto se resuelven con la misma respuesta por paquete.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0070",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/stage-lighting-rental/: \"Can I rent lights for a DJ set or a party?\"",
+      "anotada": "2026-10-07",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-07, ítem 2)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/stage-lighting-rental.svx",
+        "Keywords: dj lights for hire (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Por qué: La intención es iluminación para una fiesta con DJ. /blog/stage-lighting-rental/ (pilar) no tiene ninguna FAQ sobre luces para DJ y su lista de FAQs no la repite. Una FAQ evita crear un post nuevo (Goldilocks: demasiado estrecho).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
@@ -1457,6 +1493,26 @@
         "Añade full support para PWA",
         "",
         "Crea un PWA Installer (widget) que va a salir debajo del widget de WhatsApp y encima de la Cookie bar, pero solamente 3 segundos luego que el usuario haya hecho scroll below the fold (debajo de la sección header)."
+      ]
+    },
+    {
+      "id": "#T0071",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-07",
+      "anotada": "2026-10-07",
+      "hecha": "2026-10-07",
+      "origen": "content-strategist (plan 2026-10-07, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "dj sound system hire (Cubierto por /blog/sound-system-rental/, encabezado 'PA System or DJ Sound: Matching Equipment to the Event', y por /blog/audio-visual-rental-for-music-performances/. Un post nuevo sería canibalización.)",
+        "concert audio rental (Misma intención que la renta de sonido para actuaciones musicales, ya servida por /blog/audio-visual-rental-for-music-performances/ y /blog/sound-system-rental/. Un post o sección nueva repetiría lo existente (creating-helpful-content.md).)",
+        "concert equipment rental near me (Variante near me de una intención ya cubierta. Los posts near me ya existen y una página nueva sería doorway abuse (spam-policies.md).)",
+        "corporate av rentals (Cubierto por /blog/audio-visual-rental-for-corporate-events/ y /blog/audio-visual-rental-for-corporate-meetings/. Otra página sería canibalización.)",
+        "cost to rent a projector and screen (Cubierto por /blog/projector-rental/: encabezado 'Projector and Screen Pricing by Package' y FAQ 'How much does a projector rental cost?'. La keyword data projector hire es el mismo tema que el keyword del post.)",
+        "cpl av hire (Parece una búsqueda de marca de otra empresa de alquiler, sin intención de evento que MEG pueda resolver. Fuera de encaje.)"
       ]
     },
     {
