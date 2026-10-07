@@ -259,33 +259,6 @@
       ]
     },
     {
-      "id": "#T0075",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Copia: otros textos que leen al tecnico como operador de luces (about-us, packages.ts, faq.ts, meet-the-team)",
-      "anotada": "2026-10-07",
-      "hecha": null,
-      "origen": "usuario",
-      "notas": [
-        "verificador 2026-10-07: ademas meet-the-team/i18n/en.ts:17 ('technicians who ensure the seamless setup and smooth operation of all sound",
-        "lighting",
-        "and screen equipment') y packages.ts:143 (Wedding Pack: 'On site live technical control and engineering support'). Frases que describen a un tecnico que coloca o maneja luces viven tambien en los posts fuente que alimentan post-faqs.json (stage-lighting-rental y lighting-ideas-for-wedding-rentals: 'deployed with a technician who manages placement and",
-        "for the uplighting kit",
-        "color'",
-        "'our technician places them around whatever shelter'): corregir en el post y correr just post-sync. Aviso aparte: la frase nueva de stage-uplighting 'If a fixture fails during the event",
-        "our technician is there to fix it' sugiere tecnico presente en toda reserva de uplighting; el kit esta en ningun paquete y el tecnico solo va en Wedding y MICE o como extra pagado: valorar 'if a technician is on site'"
-      ],
-      "descripcion": [
-        "Origen: hallazgo de #T0020 parte A (2026-10-07). Misma familia que #T0020: el hecho del negocio es que el tecnico opera el sonido y los microfonos y arregla fallas de proyector, pantalla y luces (CLAUDE.md, \"Que hace el tecnico en el evento\").",
-        "Textos que todavia se pueden leer como tecnico de iluminacion u operador, sin tocar (13 idiomas cada uno):",
-        "- src/routes/(public)/about-us/i18n/<locale>.ts linea ~49-50: \"Experienced sound and lighting technicians available to oversee your setup, operation, and live monitoring.\" (confirmados fr, de, nl, sv, da, nb; revisar it, pt-pt, pt-br y zh, que pueden usar otra redaccion).",
-        "- src/lib/data/packages.ts:143 (inclusion \"Technical control and engineering support\") y src/lib/data/faq.ts:138 (FAQ technician), con sus copias en src/lib/i18n/data/<locale>.ts (~44-45 y ~210-215). Revisar fr, it y da, que no coincidieron en la busqueda.",
-        "- src/routes/(public)/meet-the-team/i18n/en.ts lineas 12 y 16: \"real time engineering\" y \"AV Engineering & Setup\" (revisar los otros idiomas).",
-        "No son errores claros: \"sound and lighting technicians\" puede significar quien instala equipo de sonido y luz. DECIDIR si se corrigen. Si si: reescribir en ingles y en 12 idiomas con fechas (regla 11), como en #T0020 parte A."
-      ]
-    },
-    {
       "id": "#T0017",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1132,6 +1105,44 @@
         "Detalle: fr, pt-pt, pt-br, zh-hans, zh-tw: la keyword aparece 1 vez en el cuerpo (hacen falta 2). it: falta en el primer parrafo. de, nl, sv, da: falta en el primer parrafo, en el cuerpo (0 veces) y en el titulo. zh-hk: falta en el primer parrafo y en el cuerpo. Solo nb pasa.",
         "Alcance por confirmar: correr `just post-translate-check <slug> --strict` en los demas posts para ver si es un patron de todo el blog. Si lo es, conviene un lote por silo y no un post suelto.",
         "Reglas: sin relleno de keywords (politica de spam de Google), keyword nativa por idioma con status propuesta, los cambios mueven updatedDate del post ingles solo si cambia el contenido ingles. Una edicion solo de traducciones NO mueve la fecha inglesa, pero si la updatedDate de esa traduccion. Typography regla 12."
+      ]
+    },
+    {
+      "id": "#T0075",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Copia: otros textos que leen al tecnico como operador de luces (about-us, packages.ts, faq.ts, meet-the-team)",
+      "anotada": "2026-10-07",
+      "hecha": "2026-10-07",
+      "origen": "usuario",
+      "notas": [
+        "verificador 2026-10-07: ademas meet-the-team/i18n/en.ts:17 ('technicians who ensure the seamless setup and smooth operation of all sound",
+        "lighting",
+        "and screen equipment') y packages.ts:143 (Wedding Pack: 'On site live technical control and engineering support'). Frases que describen a un tecnico que coloca o maneja luces viven tambien en los posts fuente que alimentan post-faqs.json (stage-lighting-rental y lighting-ideas-for-wedding-rentals: 'deployed with a technician who manages placement and",
+        "for the uplighting kit",
+        "color'",
+        "'our technician places them around whatever shelter'): corregir en el post y correr just post-sync. Aviso aparte: la frase nueva de stage-uplighting 'If a fixture fails during the event",
+        "our technician is there to fix it' sugiere tecnico presente en toda reserva de uplighting; el kit esta en ningun paquete y el tecnico solo va en Wedding y MICE o como extra pagado: valorar 'if a technician is on site'",
+        "2026-10-07 parte C (about-us",
+        "meet-the-team",
+        "inclusion del Wedding Pack",
+        "FAQ on-site-technician; 13 idiomas) commit 69ddd799; parte D (stage-lighting-rental",
+        "stage-lighting-for-weddings",
+        "stage-uplighting; 13 idiomas) commit 1c4c2d61; arreglos del verificador (meet-the-team da/nb/sv",
+        "quitado el 'solo' agregado en las traducciones de stage-lighting-rental) commit 69a2e627. SIN CORREGIR por no ser luces (decidir): packages.ts:169 highlightBody Wedding Pack 'full live on site technical monitoring and acoustic adjustments' (precedido de 'visual issues'",
+        "que el Wedding Pack no cubre); packages/[slug]/i18n/en.ts:32 'already include on site technical monitoring'; faq.ts:104 'available 24 hours a day",
+        "7 days a week for technical setups and live event monitoring' (promesa de disponibilidad); post-faqs.json 'our technician places speakers / manages that placement / places and levels the system' (sonido",
+        "probablemente correcto); stage-monitor-rental.svx:89 'operated by a sound engineer' y 'technician managed signal chain'; scripts/migrate-wp/manifest.json captions viejos de WordPress ('sound engineer operates a control panel'",
+        "~30). Verificado con 7307 tests; sin build ni Playwright"
+      ],
+      "descripcion": [
+        "Origen: hallazgo de #T0020 parte A (2026-10-07). Misma familia que #T0020: el hecho del negocio es que el tecnico opera el sonido y los microfonos y arregla fallas de proyector, pantalla y luces (CLAUDE.md, \"Que hace el tecnico en el evento\").",
+        "Textos que todavia se pueden leer como tecnico de iluminacion u operador, sin tocar (13 idiomas cada uno):",
+        "- src/routes/(public)/about-us/i18n/<locale>.ts linea ~49-50: \"Experienced sound and lighting technicians available to oversee your setup, operation, and live monitoring.\" (confirmados fr, de, nl, sv, da, nb; revisar it, pt-pt, pt-br y zh, que pueden usar otra redaccion).",
+        "- src/lib/data/packages.ts:143 (inclusion \"Technical control and engineering support\") y src/lib/data/faq.ts:138 (FAQ technician), con sus copias en src/lib/i18n/data/<locale>.ts (~44-45 y ~210-215). Revisar fr, it y da, que no coincidieron en la busqueda.",
+        "- src/routes/(public)/meet-the-team/i18n/en.ts lineas 12 y 16: \"real time engineering\" y \"AV Engineering & Setup\" (revisar los otros idiomas).",
+        "No son errores claros: \"sound and lighting technicians\" puede significar quien instala equipo de sonido y luz. DECIDIR si se corrigen. Si si: reescribir en ingles y en 12 idiomas con fechas (regla 11), como en #T0020 parte A."
       ]
     },
     {
