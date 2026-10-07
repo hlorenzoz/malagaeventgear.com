@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): audio-visual-rental-for-product-launches, mencion editorial del partner Top Group Express en "Booking and Service Area" (2026-10-07)
+- Tarea #T0034 (mencion de TGE, tanda 2, post 5 de 6, pedido directo del orquestador).
+- Se agrego un parrafo corto al final del primer parrafo de la seccion "Booking and Service Area" de `src/content/blog/audio-visual-rental-for-product-launches.svx`: si distribuidores, partners o prensa viajan para el lanzamiento, sus habitaciones tambien se reservan. Aclara que el alojamiento no es servicio de MEG (solo equipo audiovisual). Un solo enlace a `https://topgroupexpress.com/en` con el ancla "rooms for distributors and press travelling to a launch" (distinta de las de los otros posts). Enlace editorial normal, sin `rel="sponsored"` (partners, sin comision). Solo "years of experience", sin anos ni cifras de TGE, dirigido a quien organiza el viaje del grupo (agencias, DMC, empresas), sin prometer reserva directa. No dice que MEG haya suministrado el lanzamiento de una marca concreta. Sin encabezado nuevo y sin enlaces a supporting posts.
+- `updatedDate` paso a 2026-10-07 via `just post-sync` (antes 2026-09-27); `post-faqs.json` y `post-toc.json` regenerados.
+- Las 12 traducciones quedan stale y se actualizan en el mismo cambio.
+
 ### Changed (blog): audio-visual-rental-for-gala-dinners, mencion editorial del partner Top Group Express en "Booking and Service Area" (2026-10-07)
 - Tarea #T0034 (mencion de TGE, tanda 2, post 4 de 6, pedido directo del orquestador).
 - Se agrego un parrafo corto al final de la seccion "Booking and Service Area" de `src/content/blog/audio-visual-rental-for-gala-dinners.svx`: si los invitados viajan para la gala (cena de clausura de un congreso o viaje de incentivo), sus habitaciones tambien se planifican. Aclara que el alojamiento no es servicio de MEG (solo equipo audiovisual). Un solo enlace a `https://topgroupexpress.com/en` con el ancla "rooms for guests travelling to a gala" (distinta de las de los otros posts). Enlace editorial normal, sin `rel="sponsored"` (partners, sin comision). Solo "years of experience", sin anos ni cifras de TGE, dirigido a quien organiza el viaje del grupo (agencias, DMC, empresas), sin prometer reserva directa. No dice que MEG haya suministrado una gala de un congreso o viaje concreto. Sin encabezado nuevo y sin enlaces a supporting posts.
