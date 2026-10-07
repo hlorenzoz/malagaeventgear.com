@@ -397,37 +397,6 @@
       ]
     },
     {
-      "id": "#T0072",
-      "estado": "en curso",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pilar /blog/audio-visual-rental/: seccion H2 \"donde alquilar equipo audiovisual en Malaga\" (Local Dominator)",
-      "anotada": "2026-10-07",
-      "hecha": null,
-      "origen": "usuario",
-      "notas": [
-        "paso 1 de Local Dominator (lista de equipo por categoria): ya existe 'Audio Visual Equipment We Rent in Malaga'. No duplicar. Reforzar solo con inventario propio",
-        "paso 2 ('Who We Rent To'",
-        "incluye film shoots): usar solo eventos corporativos",
-        "bodas y funciones privadas. MEG no tiene post News ni respaldo de rodajes de cine. No afirmar film shoots",
-        "paso 3 (mapa embebido): NAP y telefono si",
-        "como texto. Mapa solo como enlace a Google Maps o iframe lazy",
-        "sin tocar LCP ni CWV (regla 10). Medir antes si se embebe",
-        "paso 4 (enlace desde el menu principal a una pagina nueva): no aplica",
-        "no hay pagina nueva. El pilar ya existe en el blog"
-      ],
-      "descripcion": [
-        "Origen: sugerencia de Local Dominator (AI Visibility Game Plan, 2026-10-07), adaptada a las reglas del proyecto. Prompt: \"Where can I rent audio visual equipment in Malaga?\". En Local Dominator MEG sale en 1 de 2 motores, con visibilidad 50% y posicion #1 cuando aparece. Google AI Mode cita sobre todo el GBP.",
-        "Decision del usuario (2026-10-07): NO se crea una pagina nueva \"AV Rental in Malaga\" (canibalizaria al pilar). Se agrega una seccion H2 al pilar /blog/audio-visual-rental/.",
-        "Archivo: src/content/blog/audio-visual-rental.svx",
-        "Ubicacion sugerida: despues de \"Audio Visual Equipment We Rent in Malaga\" y antes de \"Serving Malaga and the Whole Costa del Sol\".",
-        "Heading sugerido (a validar): \"Where to Rent Audio Visual Equipment in Malaga, Spain\".",
-        "Que cubrir: respuesta directa a \"donde alquilar equipo audiovisual en Malaga\": MEG, direccion y telefono con el NAP exacto de site.ts, que se alquila (SOLO inventario propio, CSV mas reciente y packages.ts), para quien (eventos corporativos, bodas, funciones privadas, sin inventar casos), y la capa 2 del posicionamiento: lo que no esta en el inventario propio se busca con proveedores, sin prometer disponibilidad ni plazo.",
-        "No hacer: no agregar enlaces a supporting posts (el pilar solo tiene permitido UN enlace al ultimo supporting de la cadena, hoy pendiente), no listar equipo que MEG no tiene, no duplicar lo que ya dicen \"Audio Visual Equipment We Rent in Malaga\" y \"Serving Malaga and the Whole Costa del Sol\", no incrustar mapa si pesa en LCP.",
-        "Va en los 13 idiomas en el mismo cambio y mueve updatedDate. Tarea manual: todo-implement no la toma (no es titulo del content-strategist), se hace con post-writer y post-translator."
-      ]
-    },
-    {
       "id": "#T0057",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1361,6 +1330,37 @@
         "corporate av rentals (Cubierto por /blog/audio-visual-rental-for-corporate-events/ y /blog/audio-visual-rental-for-corporate-meetings/. Otra página sería canibalización.)",
         "cost to rent a projector and screen (Cubierto por /blog/projector-rental/: encabezado 'Projector and Screen Pricing by Package' y FAQ 'How much does a projector rental cost?'. La keyword data projector hire es el mismo tema que el keyword del post.)",
         "cpl av hire (Parece una búsqueda de marca de otra empresa de alquiler, sin intención de evento que MEG pueda resolver. Fuera de encaje.)"
+      ]
+    },
+    {
+      "id": "#T0072",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pilar /blog/audio-visual-rental/: seccion H2 \"donde alquilar equipo audiovisual en Malaga\" (Local Dominator)",
+      "anotada": "2026-10-07",
+      "hecha": "2026-10-07",
+      "origen": "usuario",
+      "notas": [
+        "paso 1 de Local Dominator (lista de equipo por categoria): ya existe 'Audio Visual Equipment We Rent in Malaga'. No duplicar. Reforzar solo con inventario propio",
+        "paso 2 ('Who We Rent To'",
+        "incluye film shoots): usar solo eventos corporativos",
+        "bodas y funciones privadas. MEG no tiene post News ni respaldo de rodajes de cine. No afirmar film shoots",
+        "paso 3 (mapa embebido): NAP y telefono si",
+        "como texto. Mapa solo como enlace a Google Maps o iframe lazy",
+        "sin tocar LCP ni CWV (regla 10). Medir antes si se embebe",
+        "paso 4 (enlace desde el menu principal a una pagina nueva): no aplica",
+        "no hay pagina nueva. El pilar ya existe en el blog"
+      ],
+      "descripcion": [
+        "Origen: sugerencia de Local Dominator (AI Visibility Game Plan, 2026-10-07), adaptada a las reglas del proyecto. Prompt: \"Where can I rent audio visual equipment in Malaga?\". En Local Dominator MEG sale en 1 de 2 motores, con visibilidad 50% y posicion #1 cuando aparece. Google AI Mode cita sobre todo el GBP.",
+        "Decision del usuario (2026-10-07): NO se crea una pagina nueva \"AV Rental in Malaga\" (canibalizaria al pilar). Se agrega una seccion H2 al pilar /blog/audio-visual-rental/.",
+        "Archivo: src/content/blog/audio-visual-rental.svx",
+        "Ubicacion sugerida: despues de \"Audio Visual Equipment We Rent in Malaga\" y antes de \"Serving Malaga and the Whole Costa del Sol\".",
+        "Heading sugerido (a validar): \"Where to Rent Audio Visual Equipment in Malaga, Spain\".",
+        "Que cubrir: respuesta directa a \"donde alquilar equipo audiovisual en Malaga\": MEG, direccion y telefono con el NAP exacto de site.ts, que se alquila (SOLO inventario propio, CSV mas reciente y packages.ts), para quien (eventos corporativos, bodas, funciones privadas, sin inventar casos), y la capa 2 del posicionamiento: lo que no esta en el inventario propio se busca con proveedores, sin prometer disponibilidad ni plazo.",
+        "No hacer: no agregar enlaces a supporting posts (el pilar solo tiene permitido UN enlace al ultimo supporting de la cadena, hoy pendiente), no listar equipo que MEG no tiene, no duplicar lo que ya dicen \"Audio Visual Equipment We Rent in Malaga\" y \"Serving Malaga and the Whole Costa del Sol\", no incrustar mapa si pesa en LCP.",
+        "Va en los 13 idiomas en el mismo cambio y mueve updatedDate. Tarea manual: todo-implement no la toma (no es titulo del content-strategist), se hace con post-writer y post-translator."
       ]
     },
     {
