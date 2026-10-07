@@ -557,8 +557,9 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
     solo formateador, linter apagado) y la versión fijada en `package.json`. `just format [rutas]`
     formatea y `just format-check [rutas]` lista lo que formatearía distinto. Cubre `ts`, `js`, `mjs`,
     `svelte` y `css`. Biome NO soporta markdown, yaml ni `.svx`: esos no los formatea nadie. El repo no
-    se reformateó de golpe (hoy unos dos tercios de los archivos de código difieren de la config, las
-    líneas anchas escritas a mano y por agentes): un reformateo completo es un commit aparte, decidido
+    se reformateó de golpe (hoy 396 de 723 archivos de código difieren de la config, las
+    líneas anchas escritas a mano y por agentes. Con Prettier a igual config da 397: el formateador no
+    cambia nada): un reformateo completo es un commit aparte, decidido
     por el usuario. `.pre-commit-config.yaml` declara el hook de Biome, pero el framework `pre-commit`
     no está instalado como hook en este clon (el hook instalado solo tiene GGA y el guard de
     traducciones), así que ningún formateador se impone en el commit hoy.

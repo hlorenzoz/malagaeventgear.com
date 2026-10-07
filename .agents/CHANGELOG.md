@@ -11,7 +11,7 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 - Decision del usuario: usa Biome desde la extension del editor, sin config versionada, mientras el repo declaraba Prettier (`just format`, `.pre-commit-config.yaml`). Se unifica en Biome.
 - `biome.json` (tabs, comillas simples, sin comas finales, ancho 100, `indentScriptAndStyle` para Svelte, linter y assist apagados) y `@biomejs/biome` 2.5.15 fijado en `package.json` y `bun.lock`. Cubre ts, js, mjs, svelte y css. Biome no soporta markdown, yaml ni `.svx`.
 - `just format [rutas]` usa Biome y `just format-check [rutas]` lista las diferencias sin escribir. `.pre-commit-config.yaml` reemplaza el hook de Prettier por uno local de Biome (el framework no esta instalado como hook en este clon).
-- No se reformateo el repo: con la config, unos dos tercios de los archivos de codigo cambiarian. Es un commit aparte.
+- No se reformateo el repo: con la config, 396 de 723 archivos de codigo cambiarian (Prettier con la misma config: 397). Es un commit aparte.
 
 ### Added (i18n): un post ingles no se commitea ni se publica sin sus 12 traducciones (2026-10-07)
 - Motivo: `outdoor-movie-screen-and-projector-rental` se commiteo y desplego solo en ingles (commit 6356e75c), las traducciones llegaron despues (9d6e8348). La pagina en vivo salio sin hreflang y sin selector de idioma, porque `LanguageSwitcher.svelte` se oculta cuando la pagina existe en un solo idioma. Rompia la regla 1 de idiomas.
