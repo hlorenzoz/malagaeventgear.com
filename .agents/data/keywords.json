@@ -7107,8 +7107,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audiovisual-equipment-rental-service/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -7146,6 +7146,10 @@
               "2026-08": 20
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
         },
         "content-plan": {
           "firstSeen": "2026-10-03",
