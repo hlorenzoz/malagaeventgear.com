@@ -78520,10 +78520,14 @@
       "cluster": "audio visual rental",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/tv-screen-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
+        "blog": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
+        },
         "content-plan": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-29",
@@ -89172,10 +89176,17 @@
       "question": "What screen size do I need for my conference room?",
       "keywordId": "tv-screen-rental",
       "cluster": "audio visual rental",
-      "url": null,
-      "status": "idea",
+      "url": "/blog/tv-screen-rental/",
+      "status": "answered",
       "reason": null,
       "sources": {
+        "post": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
+          "urls": [
+            "/blog/tv-screen-rental/"
+          ]
+        },
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-10-07"
