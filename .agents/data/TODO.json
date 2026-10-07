@@ -452,44 +452,6 @@
       ]
     },
     {
-      "id": "#T0065",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"How much does it cost to rent sound equipment?\"",
-      "anotada": "2026-10-04",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-04, ítem 10)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/sound-system-rental.svx",
-        "Keywords: audio equipment rental prices, how much does it cost to rent sound equipment (google-ads 10/mo (below tier 100); autocomplete/PAA, sin volumen medido (newFaqs, keywordId audiovisual-equipment-rental-service)), debajo del tier",
-        "Qué cubrir: Responder con los precios reales de packages.ts en los que el sonido va incluido (nunca como linea suelta): Eco Pack 290 EUR, hasta 50 invitados, sonido activo basico mas microfono dinamico; Wedding Pack 650 EUR, hasta 80 invitados, sistema PA activo de alta gama mas microfonos inalambricos y tecnico en sitio; Product Presentation Pack 310 EUR y Basic MICE Pack 295 EUR, que incluyen sonido junto con pantalla/proyector. Aclarar que el sonido no se vende como linea aislada, el precio varia segun el paquete y el numero de invitados, y remitir a /contact/ para un presupuesto exacto. No inventar un precio por hora ni un 'alquiler de sonido solo' que no existe en el catalogo.",
-        "Por qué: El pilar /blog/audio-visual-rental/ ya responde el precio general (\"How much does audio visual rental cost in Malaga?\"), pero el supporting post especifico de sonido, /blog/sound-system-rental/, no tiene ninguna FAQ de precio pese a que los demas supporting posts del mismo silo si la tienen (TV screen, projector, stage monitor, headset/lavalier). Es el hueco real: el long tail pregunta por el precio del EQUIPO DE SONIDO en particular, no por el paquete de AV completo.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
-      "id": "#T0063",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"How much does it cost to rent sound equipment?\"",
-      "anotada": "2026-10-03",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-03, ítem 12)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/sound-system-rental.svx",
-        "Keywords: how much does it cost to rent sound equipment (pregunta enlazada desde newFaqs de content-candidates (keywordId: audiovisual-equipment-rental-service), sin volumen medido), sin volumen",
-        "Qué cubrir: Resumir la tabla ya publicada en 'Choosing Your Sound System by Guest Count': Eco Pack 290 euros (hasta 50 invitados), Basic MICE Pack 295 euros (hasta 40), Wedding Pack 650 euros (hasta 80, con tecnico incluido), MICE Pack 490 euros (hasta 120, con tecnico incluido hasta 6 horas), Product Presentation Pack 310 euros. Aclarar que todos los precios son sin IVA, con 21 por ciento anadido en el checkout. No agregar ningun precio o paquete que no este ya en esa tabla.",
-        "Por qué: El post /blog/sound-system-rental/ ya publica el precio por paquete en la tabla 'Choosing Your Sound System by Guest Count' y en el Brief Overview, pero ninguna de sus 14 FAQ responde la pregunta de costo en ese formato directo de pregunta y respuesta. Agregar la FAQ hace explicito un precio que ya esta publicado, sin inventar ninguna cifra nueva.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0057",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1327,24 +1289,6 @@
       ]
     },
     {
-      "id": "#T0038",
-      "estado": "pendiente",
-      "prioridad": "baja",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"How much does it cost to rent sound equipment in Malaga?\"",
-      "anotada": "2026-09-29",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-09-29, ítem 11)",
-      "notas": [],
-      "descripcion": [
-        "Archivo: src/content/blog/sound-system-rental.svx",
-        "Keywords: how much does it cost to rent sound equipment (ubersuggest newFaq linked to keywordId audiovisual-equipment-rental-service, no volume or impressions given)",
-        "Qué cubrir: Answer using only the five package prices already published in this same post's 'Choosing Your Sound System by Guest Count' table: Eco Pack 290 euros up to 50 guests, Basic MICE Pack 295 euros up to 40 guests, Wedding Pack 650 euros up to 80 guests with a technician, MICE Pack 490 euros up to 120 guests with a technician up to 6 hours, Product Presentation Pack 310 euros with no guest cap, all ex VAT with 21 percent Spanish VAT added at checkout. Do not add a new number, only restate the table already on this page.",
-        "Por qué: Best answered by /blog/sound-system-rental/, not the audiovisual-equipment-rental-service page the tool linked it to, since sound-system-rental is where the actual package pricing table lives. Checked its FAQ list: it has no direct 'how much does it cost' question even though the Brief Overview and the guest count table already state the numbers, so this is a real gap, not a duplicate.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0039",
       "estado": "pendiente",
       "prioridad": "baja",
@@ -1439,6 +1383,27 @@
       ]
     },
     {
+      "id": "#T0065",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"How much does it cost to rent sound equipment?\"",
+      "anotada": "2026-10-04",
+      "hecha": "2026-10-07",
+      "origen": "content-strategist (plan 2026-10-04, ítem 10)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/sound-system-rental.svx",
+        "Keywords: audio equipment rental prices, how much does it cost to rent sound equipment (google-ads 10/mo (below tier 100); autocomplete/PAA, sin volumen medido (newFaqs, keywordId audiovisual-equipment-rental-service)), debajo del tier",
+        "Qué cubrir: Responder con los precios reales de packages.ts en los que el sonido va incluido (nunca como linea suelta): Eco Pack 290 EUR, hasta 50 invitados, sonido activo basico mas microfono dinamico; Wedding Pack 650 EUR, hasta 80 invitados, sistema PA activo de alta gama mas microfonos inalambricos y tecnico en sitio; Product Presentation Pack 310 EUR y Basic MICE Pack 295 EUR, que incluyen sonido junto con pantalla/proyector. Aclarar que el sonido no se vende como linea aislada, el precio varia segun el paquete y el numero de invitados, y remitir a /contact/ para un presupuesto exacto. No inventar un precio por hora ni un 'alquiler de sonido solo' que no existe en el catalogo.",
+        "Por qué: El pilar /blog/audio-visual-rental/ ya responde el precio general (\"How much does audio visual rental cost in Malaga?\"), pero el supporting post especifico de sonido, /blog/sound-system-rental/, no tiene ninguna FAQ de precio pese a que los demas supporting posts del mismo silo si la tienen (TV screen, projector, stage monitor, headset/lavalier). Es el hueco real: el long tail pregunta por el precio del EQUIPO DE SONIDO en particular, no por el paquete de AV completo.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
       "id": "#T0061",
       "estado": "hecha",
       "prioridad": "media",
@@ -1482,6 +1447,27 @@
       ]
     },
     {
+      "id": "#T0063",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"How much does it cost to rent sound equipment?\"",
+      "anotada": "2026-10-03",
+      "hecha": "2026-10-07",
+      "origen": "content-strategist (plan 2026-10-03, ítem 12)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/sound-system-rental.svx",
+        "Keywords: how much does it cost to rent sound equipment (pregunta enlazada desde newFaqs de content-candidates (keywordId: audiovisual-equipment-rental-service), sin volumen medido), sin volumen",
+        "Qué cubrir: Resumir la tabla ya publicada en 'Choosing Your Sound System by Guest Count': Eco Pack 290 euros (hasta 50 invitados), Basic MICE Pack 295 euros (hasta 40), Wedding Pack 650 euros (hasta 80, con tecnico incluido), MICE Pack 490 euros (hasta 120, con tecnico incluido hasta 6 horas), Product Presentation Pack 310 euros. Aclarar que todos los precios son sin IVA, con 21 por ciento anadido en el checkout. No agregar ningun precio o paquete que no este ya en esa tabla.",
+        "Por qué: El post /blog/sound-system-rental/ ya publica el precio por paquete en la tabla 'Choosing Your Sound System by Guest Count' y en el Brief Overview, pero ninguna de sus 14 FAQ responde la pregunta de costo en ese formato directo de pregunta y respuesta. Agregar la FAQ hace explicito un precio que ya esta publicado, sin inventar ninguna cifra nueva.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
       "id": "#T0058",
       "estado": "hecha",
       "prioridad": "media",
@@ -1521,6 +1507,26 @@
         "Keywords: how much does it cost to rent sound equipment (just content-candidates newFaqs (id how-much-does-it-cost-to-rent-sound-equipment), keywordId audiovisual-equipment-rental-service, sin volumen medido), sin volumen",
         "Qué cubrir: Responder con los precios reales de packages.ts por nivel (Eco Pack, Wedding Pack, Product Presentation Pack, Basic MICE Pack, MICE Pack segun corresponda a 'solo sonido'), remitiendo a /packages/ para el detalle completo, sin inventar una cifra que no este en ese archivo. Aclarar que el precio depende del aforo y de si se necesita tecnico, ya como lo hacen otros posts del silo (por ejemplo la seccion 'Choosing Your Sound System by Guest Count' del propio post). No repetir el FAQ ya existente sobre PA vs sonido general.",
         "Por qué: Revise las 13 preguntas de FAQ de /blog/sound-system-rental/ completas: cubre PA vs DJ, generador, microfonos, mezcladora, pero ninguna pregunta de precio, a diferencia de casi todos los demas posts del silo (que si tienen 'How much does audio visual rental cost for...'). Es un hueco real de contenido en la pagina mas natural para esta pregunta exacta ('sound equipment'), no solo una keyword con volumen: alguien que llega a esta pagina especifica razonablemente espera ver el precio. Prioridad media: sin volumen medido (unknown), viene de newFaqs sin dato de busquedas.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0038",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"How much does it cost to rent sound equipment in Malaga?\"",
+      "anotada": "2026-09-29",
+      "hecha": "2026-10-07",
+      "origen": "content-strategist (plan 2026-09-29, ítem 11)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Archivo: src/content/blog/sound-system-rental.svx",
+        "Keywords: how much does it cost to rent sound equipment (ubersuggest newFaq linked to keywordId audiovisual-equipment-rental-service, no volume or impressions given)",
+        "Qué cubrir: Answer using only the five package prices already published in this same post's 'Choosing Your Sound System by Guest Count' table: Eco Pack 290 euros up to 50 guests, Basic MICE Pack 295 euros up to 40 guests, Wedding Pack 650 euros up to 80 guests with a technician, MICE Pack 490 euros up to 120 guests with a technician up to 6 hours, Product Presentation Pack 310 euros with no guest cap, all ex VAT with 21 percent Spanish VAT added at checkout. Do not add a new number, only restate the table already on this page.",
+        "Por qué: Best answered by /blog/sound-system-rental/, not the audiovisual-equipment-rental-service page the tool linked it to, since sound-system-rental is where the actual package pricing table lives. Checked its FAQ list: it has no direct 'how much does it cost' question even though the Brief Overview and the guest count table already state the numbers, so this is a real gap, not a duplicate.",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
