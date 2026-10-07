@@ -7,10 +7,22 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): wedding-rentals, 2 FAQs de visibilidad en IA (2026-10-07)
+- Tareas #T0054 y #T0056 (visibilidad en IA, prompts de ChatGPT sobre PA y microfonos inalambricos en la Costa del Sol y sobre sonido e iluminacion para bodas en Marbella), hechas en UN solo cambio del pilar.
+- Dos preguntas nuevas al final de `## FAQs`: "Can I rent PA speakers and wireless microphones for a wedding on the Costa del Sol?" (Wedding Pack, Eco Pack como opcion menor, microfonos de corbata y diadema aparte a pedido, entrega, montaje y desmontaje incluidos) y "Do you provide sound and lighting hire for weddings in Marbella?" (si para sonido, Marbella dentro de la zona de servicio, iluminacion propia limitada y lo demas con la frase de "no esta en nuestro inventario propio, buscamos la solucion con proveedores, si la hay"). Sin precios nuevos, sin enlaces a supporting posts. El post no tiene indice en linea, no hay bullets que sumar.
+- `updatedDate` ya era 2026-10-07: `just post-sync` regenero `post-faqs.json` y `post-toc.json` sin mover la fecha.
+- Las 12 traducciones siguen en el mismo cambio (el estado las marca fuera de estructura, no desactualizadas, porque `sourceUpdated` ya es 2026-10-07).
+
 ### Fixed (llms.txt): la descripcion de Meet the Team ya no afirma algo que la pagina no dice (2026-10-07)
 - Revision completa de `/llms.txt` contra sus fuentes (`site.ts`, `packages.ts`, `faq.ts`, posts, `reviews.json`, paginas `about-us`, `equipment`, `meet-the-team`). Todo coincide salvo una frase.
 - `src/routes/(public)/llms.txt/+server.ts`: la entrada de Meet the Team decia "the cofounder in charge of the website", pero la pagina solo presenta al cofundador como SEO Specialist. Ahora dice "the cofounder, who is an SEO specialist".
 - Sin cambio de fechas de paginas: `/llms.txt` no es contenido indexable ni lleva fecha de frescura.
+
+### Changed (blog): audio-visual-rental-for-trade-shows, FAQ sobre pantallas de TV para un stand (2026-10-07)
+- Tarea #T0055 (visibilidad en IA, prompt "Who rents TV screens for exhibitor stands at a trade fair in Malaga?"), origen: plan de contenido, item de FAQ.
+- Pregunta nueva al final de `## FAQs`: "Can you supply TV screens for an exhibitor stand at a trade show in Malaga?", con su bullet en el indice. Responde si, con la pantalla LED de 60 pulgadas del MICE Pack (panel plano, no video wall), entrega, cableado y desmontaje incluidos, el caso real de ECOC 2026 en FYCMA (enlace al post News) y la frase de "no esta en nuestro inventario propio" para mas de una pantalla, otro tamano o video wall.
+- `updatedDate` pasa a 2026-10-07 con `just post-sync` (regenera `post-faqs.json` y `post-toc.json`).
+- Las 12 traducciones quedan desactualizadas y siguen en el mismo cambio.
 
 ### Changed (tooling): el hook de pre-commit queda activo, formatea y despues corre los tests (2026-10-07)
 - Pedido del usuario: que el pre-commit formatee los cambios antes de correr los tests, para que un problema de formato salte como test que falla. Antes el framework `pre-commit` no estaba instalado como hook en este clon y `.pre-commit-config.yaml` era inerte.
