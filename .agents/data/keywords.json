@@ -3979,8 +3979,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/sound-system-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -4018,6 +4018,10 @@
               "2026-08": 0
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
         },
         "content-plan": {
           "firstSeen": "2026-10-04",
@@ -31647,10 +31651,14 @@
       "cluster": "audio visual rental",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/sound-system-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
+        "blog": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
+        },
         "content-plan": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-10-04",
@@ -85106,9 +85114,9 @@
       "id": "how-much-does-it-cost-to-rent-sound-equipment",
       "question": "how much does it cost to rent sound equipment",
       "keywordId": "audiovisual-equipment-rental-service",
-      "cluster": "unassigned",
-      "url": null,
-      "status": "idea",
+      "cluster": "audio visual rental",
+      "url": "/blog/sound-system-rental/",
+      "status": "answered",
       "reason": null,
       "sources": {
         "google-autocomplete": {
@@ -85116,6 +85124,13 @@
           "lastSeen": "2026-09-29",
           "seeds": [
             "audiovisual-equipment-rental-service"
+          ]
+        },
+        "post": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
+          "urls": [
+            "/blog/sound-system-rental/"
           ]
         }
       }
