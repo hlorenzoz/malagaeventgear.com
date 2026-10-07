@@ -728,7 +728,7 @@
     },
     {
       "question": "What's the largest screen size available?",
-      "answer": "The screen included in the Basic MICE Pack is 2x2 meters. If you need a larger image, see Why the Screen Is Always Bundled With the Projector above."
+      "answer": "The screen included in the Basic MICE Pack is 2x2 meters. We also hold a larger Da-Lite screen of 2.30 x 3.00 meters, for front and rear projection. It is separate equipment, not included in any package, and we quote it on request together with a projector. A screen larger than that is not in our own inventory: tell us what you need and we look for the solution with our suppliers, if there is one. See also Why the Screen Is Always Bundled With the Projector above."
     },
     {
       "question": "What brightness or lumens do I need for a daylit or brightly lit room?",
@@ -2133,6 +2133,36 @@
       "answer": "Book as early as you can once your stage plot and performer count are confirmed, particularly since our own stock is capped at 8 wedges. Demand peaks during wedding season, April through October. See How Far in Advance to Book above."
     }
   ],
+  "outdoor-movie-screen-and-projector-rental": [
+    {
+      "question": "What size screen do I need for an outdoor movie night, and for how many guests?",
+      "answer": "It depends on how far back your audience sits more than on the headcount alone. The 2x2m screen on the Basic MICE Pack suits a small, close audience, while a larger crowd or a long lawn points to the separate Da-Lite 2.30 x 3.00 m screen, which is quoted on request. Tell us your guest count and the layout of the venue and we confirm what fits. See Outdoor Movie Screen Rental: Choosing Your Screen and Projector Size above."
+    },
+    {
+      "question": "Can you set up an outdoor movie screen on grass or sand?",
+      "answer": "Yes, our crew manages cable runs and stand placement for the actual ground surface at your venue when we install. Beach and rooftop venues add wind exposure, which affects where the stands go, so tell us how open the venue is when you book. See Power, Weather and Timing From Dusk to Dark above."
+    },
+    {
+      "question": "What time is it dark enough to start an outdoor movie?",
+      "answer": "There is no single time, because dusk shifts through the year on the Costa del Sol and your venue may have its own lights. Plan the film to start after the sky has darkened and the venue lights you can control are off, and use the time before for arrivals and food. A brighter projector, such as the 5000 lumen one on the Product Presentation Pack, helps when some light stays on, but it does not replace darkness."
+    },
+    {
+      "question": "Do you supply the film or the licence to show it?",
+      "answer": "No. We supply the screen, the projector, the PA sound and the crew who set them up. The film, and the licence to show it to your audience, are the client's responsibility, and licensing is not part of our service."
+    },
+    {
+      "question": "Can I play the film from my own laptop or streaming device?",
+      "answer": "Yes, most screenings run from the host's own laptop, tablet or player. On the Product Presentation Pack we provide HDMI and USB-C adapters plus audio interfaces so your device connects to our screen and sound system. Have the film saved on the device so the screening does not depend on the venue's connection."
+    },
+    {
+      "question": "What if the venue has no power point or rain is forecast?",
+      "answer": "Tents and generators are not in our own inventory. Tell us early when your venue has no reliable power or no cover at all, and we can try to source a generator or a tent from a supplier, with no promise of availability for your date or a deadline. For rain, arrange a covered backup area with your venue in advance. See Power, Weather and Timing From Dusk to Dark above."
+    },
+    {
+      "question": "How much does an outdoor movie screen and projector rental cost?",
+      "answer": "The Eco Pack is 290 euros base plus a 50 euro add on for the projector and screen. The Basic MICE Pack, with its 2x2m screen and 3000 lumen projector, is 295 euros. The Product Presentation Pack, with its 5000 lumen projector and front projection screen, is 310 euros. All prices are ex VAT, with 21 percent Spanish VAT added at checkout, and include delivery, setup and teardown. The Da-Lite 2.30 x 3.00 m screen is separate equipment and quoted on request."
+    }
+  ],
   "wedding-rentals-online": [
     {
       "question": "Can I book and pay for the Wedding Pack entirely online, with no phone call?",
@@ -2204,7 +2234,7 @@
     },
     {
       "question": "Do you rent an inflatable movie screen for an outdoor event?",
-      "answer": "An inflatable movie screen for an outdoor movie night is not in our own inventory. Our own projection screens come bundled with a projector, and the one in the Basic MICE Pack is 2x2m, delivered, installed and tested as described in our Projector Rental guide, which suits an indoor venue or a terrace with stable power rather than an open air screening. Tell us the screen size, the projector and the sound system your event needs, and we look for a solution with our suppliers, the same way we source a generator or a tent when a venue falls short, though availability for your date is never a given."
+      "answer": "An inflatable movie screen for an outdoor movie night is not in our own inventory. Our own projection screens come bundled with a projector, and the one in the Basic MICE Pack is 2x2m, delivered, installed and tested as described in our outdoor movie screen rental guide, which covers screen and projector sizes, sound, power and dusk timing for an open air screening. Tell us the screen size, the projector and the sound system your event needs, and we look for a solution with our suppliers, the same way we source a generator or a tent when a venue falls short, though availability for your date is never a given."
     }
   ],
   "audio-visual-rental-for-small-businesses": [

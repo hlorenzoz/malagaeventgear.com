@@ -6132,6 +6132,98 @@
       "level": 3
     }
   ],
+  "outdoor-movie-screen-and-projector-rental": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "what-an-outdoor-movie-night-needs",
+      "text": "What an Outdoor Movie Night Needs",
+      "level": 2
+    },
+    {
+      "id": "outdoor-movie-screen-rental-choosing-your-screen-and-projector-size",
+      "text": "Outdoor Movie Screen Rental: Choosing Your Screen and Projector Size",
+      "level": 2
+    },
+    {
+      "id": "sound-for-an-outdoor-movie-pa-speakers-not-a-home-cinema-system",
+      "text": "Sound for an Outdoor Movie: PA Speakers, Not a Home Cinema System",
+      "level": 2
+    },
+    {
+      "id": "power-weather-and-timing-from-dusk-to-dark",
+      "text": "Power, Weather and Timing From Dusk to Dark",
+      "level": 2
+    },
+    {
+      "id": "matching-your-outdoor-movie-night-to-a-package",
+      "text": "Matching Your Outdoor Movie Night to a Package",
+      "level": 2
+    },
+    {
+      "id": "real-projector-and-screen-setups-weve-delivered",
+      "text": "Real Projector and Screen Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "booking-and-service-area",
+      "text": "Booking and Service Area",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "what-size-screen-do-i-need-for-an-outdoor-movie-night-and-for-how-many-guests",
+      "text": "What size screen do I need for an outdoor movie night, and for how many guests?",
+      "level": 3
+    },
+    {
+      "id": "can-you-set-up-an-outdoor-movie-screen-on-grass-or-sand",
+      "text": "Can you set up an outdoor movie screen on grass or sand?",
+      "level": 3
+    },
+    {
+      "id": "what-time-is-it-dark-enough-to-start-an-outdoor-movie",
+      "text": "What time is it dark enough to start an outdoor movie?",
+      "level": 3
+    },
+    {
+      "id": "do-you-supply-the-film-or-the-licence-to-show-it",
+      "text": "Do you supply the film or the licence to show it?",
+      "level": 3
+    },
+    {
+      "id": "can-i-play-the-film-from-my-own-laptop-or-streaming-device",
+      "text": "Can I play the film from my own laptop or streaming device?",
+      "level": 3
+    },
+    {
+      "id": "what-if-the-venue-has-no-power-point-or-rain-is-forecast",
+      "text": "What if the venue has no power point or rain is forecast?",
+      "level": 3
+    },
+    {
+      "id": "how-much-does-an-outdoor-movie-screen-and-projector-rental-cost",
+      "text": "How much does an outdoor movie screen and projector rental cost?",
+      "level": 3
+    }
+  ],
   "wedding-rentals-online": [
     {
       "id": "brief-overview",

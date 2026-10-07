@@ -35,6 +35,14 @@
  * Defecto conocido del chequeo: una cadena correcta de 3 o más hermanos (A <-> B <-> C) también
  * es fuertemente conexa, así que este guard no distingue una cadena de una malla. Ver .agents/data/TODO.json.
  *
+ * Actualizado 2026-10-07: la componente pasó de 60 a 61 nodos. Entró
+ * outdoor-movie-screen-and-projector-rental por los enlaces laterales entre hermanos del silo
+ * audio visual rental que exige el reverse silo, en los dos sentidos (projector-rental <-> nuevo
+ * <-> audio-visual-rental-for-outdoor-events, una cadena de tres nodos). Mismo caso que la entrada
+ * del 2026-09-25: projector-rental y audio-visual-rental-for-outdoor-events ya estaban en esta
+ * componente, así que todo hermano enlazado en los dos sentidos con ellos queda dentro. No es una
+ * malla nueva.
+ *
  * Formato de cada signature: los slugs de la componente, deduplicados, ordenados
  * alfabéticamente y unidos con `|` (mismo formato que usa internamente `findStronglyConnectedComponents`
  * a través de `validateSiloGraph`).
@@ -83,6 +91,7 @@ export const KNOWN_SILO_CYCLE_DEBT: readonly string[] = [
 		'lighting-ideas-for-wedding-rentals',
 		'making-the-most-of-wedding-rentals',
 		'managing-last-minute-wedding-rental-changes',
+		'outdoor-movie-screen-and-projector-rental',
 		'outdoor-wedding-rental-considerations',
 		'projector-rental',
 		'pros-and-cons-of-wedding-rentals',
