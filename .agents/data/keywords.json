@@ -19133,8 +19133,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/stage-lighting-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -19172,6 +19172,10 @@
               "2026-08": 10
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
         },
         "content-plan": {
           "firstSeen": "2026-10-07",
@@ -80251,6 +80255,24 @@
           "lastSeen": "2026-10-07",
           "urls": [
             "/blog/video-switcher-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-i-rent-lights-for-a-dj-set-or-a-party",
+      "question": "Can I rent lights for a DJ set or a party?",
+      "keywordId": "stage-lighting-rental",
+      "cluster": "stage lighting rental",
+      "url": "/blog/stage-lighting-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
+          "urls": [
+            "/blog/stage-lighting-rental/"
           ]
         }
       }
