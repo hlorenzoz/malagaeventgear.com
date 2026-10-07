@@ -552,7 +552,11 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
 - **Reglas del stack que no se ven en el código de una página** (verificadas el 2026-09-24):
   - **Gate antes de commitear**: `just check` (= `wrangler types` + `fix-types.ts` + `svelte-kit
     sync` + `svelte-check`) más `just test`. El gate completo suma Playwright, `just build` y
-    `just test-lighthouse`. Prettier corre solo por `.pre-commit-config.yaml`.
+    `just test-lighthouse`. Formato (verificado 2026-10-07): el usuario formatea con Biome desde la
+    extensión del editor, sin configuración en el repo (no hay `biome.json` ni dependencia). El hook
+    instalado en `.git/hooks/pre-commit` NO corre Prettier: `.pre-commit-config.yaml` lo declara, pero
+    el framework `pre-commit` no está instalado como hook. `just format` sí usa Prettier. Ningún
+    formateador se impone en el commit hoy.
   - **Trailing slash**: lo impone `export const trailingSlash = 'always'` en
     `src/routes/+layout.ts`. No se agrega a mano en cada ruta.
   - **CSS inline**: `kit.inlineStyleThreshold: 102400` en `svelte.config.js`. Se compara contra el
