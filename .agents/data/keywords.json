@@ -78835,10 +78835,14 @@
       "cluster": "audiovisual equipment rental service",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audiovisual-equipment-rental-service/",
+      "status": "covered",
       "reason": null,
       "sources": {
+        "blog": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
+        },
         "content-plan": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-29",
@@ -90104,6 +90108,24 @@
           "lastSeen": "2026-09-30",
           "seeds": [
             "audio-system-calibration"
+          ]
+        }
+      }
+    },
+    {
+      "id": "why-do-some-corporate-setups-use-two-microphones-at-the-podium",
+      "question": "Why Do Some Corporate Setups Use Two Microphones at the Podium?",
+      "keywordId": "audiovisual-equipment-rental-service",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/audiovisual-equipment-rental-service/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
+          "urls": [
+            "/blog/audiovisual-equipment-rental-service/"
           ]
         }
       }
