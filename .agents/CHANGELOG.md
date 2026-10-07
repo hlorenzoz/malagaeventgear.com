@@ -7,6 +7,11 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (llms.txt): la descripcion de Meet the Team ya no afirma algo que la pagina no dice (2026-10-07)
+- Revision completa de `/llms.txt` contra sus fuentes (`site.ts`, `packages.ts`, `faq.ts`, posts, `reviews.json`, paginas `about-us`, `equipment`, `meet-the-team`). Todo coincide salvo una frase.
+- `src/routes/(public)/llms.txt/+server.ts`: la entrada de Meet the Team decia "the cofounder in charge of the website", pero la pagina solo presenta al cofundador como SEO Specialist. Ahora dice "the cofounder, who is an SEO specialist".
+- Sin cambio de fechas de paginas: `/llms.txt` no es contenido indexable ni lleva fecha de frescura.
+
 ### Changed (tooling): el hook de pre-commit queda activo, formatea y despues corre los tests (2026-10-07)
 - Pedido del usuario: que el pre-commit formatee los cambios antes de correr los tests, para que un problema de formato salte como test que falla. Antes el framework `pre-commit` no estaba instalado como hook en este clon y `.pre-commit-config.yaml` era inerte.
 - `.pre-commit-config.yaml`: orden de hooks = espacios y final de linea, Biome (solo archivos del commit), guard de traducciones, `vitest run scripts src/lib`. Los hooks de espacios excluyen `src/content/`, `.agents/context/` y `worker-configuration.d.ts`. `check-added-large-files` excluye tambien `scripts/migrate-wp/manifest.json` y `worker-configuration.d.ts` (de lo contrario bloquearia `just post-images`).

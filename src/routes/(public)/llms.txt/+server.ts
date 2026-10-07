@@ -24,14 +24,17 @@ const BASE_URL = siteConfig.url;
 const abs = (path: string) => `${BASE_URL}${path}`;
 
 /** `- [title](url): description`, the entry format required by the spec. */
-const entry = (title: string, path: string, description: string) => `- [${title}](${abs(path)}): ${description}`;
+const entry = (title: string, path: string, description: string) =>
+	`- [${title}](${abs(path)}): ${description}`;
 
 /** Human readable descriptions per blog category slug, falling back to the name. */
 const CATEGORY_BLURBS: Record<string, string> = {
 	events: 'Articles on planning and equipping events of every type and size.',
-	'audio-visual-rental': 'How AV rental works, choosing a provider, comparing quotes and avoiding common rental mistakes.',
+	'audio-visual-rental':
+		'How AV rental works, choosing a provider, comparing quotes and avoiding common rental mistakes.',
 	weddings: 'Wedding guides on sound, lighting, microphones and coordinating rentals with venues.',
-	'corporate-enterprise': 'AV setups for conferences, seminars, training sessions, press conferences and product launches.',
+	'corporate-enterprise':
+		'AV setups for conferences, seminars, training sessions, press conferences and product launches.',
 	gadgets: 'Close looks at the equipment MEG rents out.',
 	news: 'Company announcements and reports on real events MEG equipped.'
 };
@@ -44,15 +47,23 @@ const LANGUAGE_NAMES: Record<string, string> = { en: 'English', es: 'Spanish' };
  * customer service languages on purpose: the site is read in more languages than MEG answers in.
  */
 function websiteLanguages(): string {
-	return PAGE_LOCALES.map((locale) => `${LOCALE_META[locale].nativeName} (${abs(withLocale(locale, '/'))})`).join(', ');
+	return PAGE_LOCALES.map(
+		(locale) => `${LOCALE_META[locale].nativeName} (${abs(withLocale(locale, '/'))})`
+	).join(', ');
 }
 
 /** A list of items as one sentence: `a, b and c`. */
 const listOf = (items: string[]) =>
-	items.length < 2 ? items.join('') : `${items.slice(0, -1).join(', ')} and ${items[items.length - 1]}`;
+	items.length < 2
+		? items.join('')
+		: `${items.slice(0, -1).join(', ')} and ${items[items.length - 1]}`;
 
 /** A catalog item inside a sentence: `Aesthetic cabling` -> `aesthetic cabling`, `2 High quality` -> `2 high quality`, acronyms (`LED`, `PA`) kept. */
-const inSentence = (item: string) => item.replace(/^((?:[\dx]+m?\s)?)([A-Z])(?=[a-z])/, (_, count: string, first: string) => count + first.toLowerCase());
+const inSentence = (item: string) =>
+	item.replace(
+		/^((?:[\dx]+m?\s)?)([A-Z])(?=[a-z])/,
+		(_, count: string, first: string) => count + first.toLowerCase()
+	);
 
 /** Text as a sentence that ends in a period. */
 const sentence = (text: string) => (/[.!?]$/.test(text.trim()) ? text.trim() : `${text.trim()}.`);
@@ -68,7 +79,11 @@ function buildLlmsTxt(): string {
 			const extras = pkg.optional?.length
 				? ` Optional extras: ${listOf(pkg.optional.map((extra) => inSentence(withPrices(extra, 'en'))))}.`
 				: '';
-			return entry(`${pkg.name} - ${pkg.price} EUR`, pkg.route, `${sentence(pkg.desc)}${capacity} Includes: ${listOf(pkg.includes.map(inSentence))}.${extras}`);
+			return entry(
+				`${pkg.name} - ${pkg.price} EUR`,
+				pkg.route,
+				`${sentence(pkg.desc)}${capacity} Includes: ${listOf(pkg.includes.map(inSentence))}.${extras}`
+			);
 		})
 		.join('\n');
 
@@ -83,10 +98,18 @@ function buildLlmsTxt(): string {
 		.join('\n');
 
 	const categoryEntries = categories
-		.map((cat) => entry(cat.name, `/blog/category/${cat.slug}/`, CATEGORY_BLURBS[cat.slug] ?? `Articles filed under ${cat.name}.`))
+		.map((cat) =>
+			entry(
+				cat.name,
+				`/blog/category/${cat.slug}/`,
+				CATEGORY_BLURBS[cat.slug] ?? `Articles filed under ${cat.name}.`
+			)
+		)
 		.join('\n');
 
-	const faqEntries = faqs.map((item) => `- **${item.question}** ${withPrices(item.answer, 'en')}`).join('\n');
+	const faqEntries = faqs
+		.map((item) => `- **${item.question}** ${withPrices(item.answer, 'en')}`)
+		.join('\n');
 
 	const { min, max } = getPriceRange();
 	const vatPercent = Math.round(VAT_RATE * 100);
@@ -102,7 +125,7 @@ ${entry('Home', '/', "Overview of MEG's audiovisual rental service, the event pa
 ${entry('Event Packages', '/packages/', `Every rental package with its fixed price in EUR (excluding ${vatPercent}% VAT), guest capacity, included equipment and optional extras.`)}
 ${entry('Equipment Catalog', '/equipment/', 'Professional sound systems, LED lighting, 3000 and 5000 lumen projectors with screens, a 60 inch LED display, wireless and gooseneck microphones and a smoke machine available for hire.')}
 ${entry('About Us', '/about-us/', `Company history in the audiovisual industry since ${siteConfig.foundingYear}, independent operation since 2010, and the delivery and setup service model.`)}
-${entry('Meet the Team', '/meet-the-team/', 'The technical personnel who set up and operate the equipment, the sales team who handle quotes and bookings, and the cofounder in charge of the website.')}
+${entry('Meet the Team', '/meet-the-team/', 'The technical personnel who set up and operate the equipment, the sales team who handle quotes and bookings, and the cofounder, who is an SEO specialist.')}
 ${entry('FAQ', '/faq/', 'Answers on services, delivery and setup, coverage area, booking, VAT, notice time and what each package includes. Every answer is also below, under Frequently Asked Questions.')}
 ${entry('Contact', '/contact/', 'Contact form, phone, WhatsApp and email for quote requests and availability checks.')}
 
