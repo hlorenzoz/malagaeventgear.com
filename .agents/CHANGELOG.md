@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): sound-system-rental, nueva FAQ "How much does it cost to rent sound equipment?" (2026-10-07)
+- Tarea #T0063 (plan de contenido 2026-10-07, keyword "how much does it cost to rent sound equipment", newFaqs de content-candidates, sin volumen medido).
+- FAQ nueva al final de `## FAQs` y bullet en el Table of Contents inline. Resume los precios ya publicados en la tabla de paquetes (Eco 290, Basic MICE 295, Product Presentation 310, MICE 490, Wedding 650), sin IVA, con 21 por ciento en el checkout. Ninguna cifra nueva.
+- `updatedDate` paso a 2026-10-07 via `just post-sync`; `post-faqs.json` y `post-toc.json` regenerados.
+- Las 12 traducciones quedan stale y se actualizan en el mismo cambio.
+
 ### Changed (blog): audiovisual-equipment-rental-service, nueva seccion "Booking and Service Area" (2026-10-07)
 - Tarea #T0062 (plan de contenido 2026-10-07, keyword "audio visual equipment rental service near me", google-ads 20/mo).
 - Se agrego `## Booking and Service Area` en `src/content/blog/audiovisual-equipment-rental-service.svx`, justo despues de "Real Specialized Equipment Setups We've Delivered". Cobertura en Malaga y Costa del Sol (Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas), alcance a Sevilla, Granada, Ronda, Nerja y Antequera, minimo de 400 euros en Granada y aviso minimo de 24 horas, copiados de sound-system-rental y audio-visual-rental. Sin enlaces nuevos. El post no tiene `## Table of Contents` inline, no hubo bullet que anadir.

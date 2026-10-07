@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-07",
+  "taskId": "#T0063",
+  "slug": "sound-system-rental",
+  "searchTerm": "sound system rental How much does it cost to rent sound equipment?",
+  "status": "partial",
+  "reason": "Only 2 pages read. Google positions 1 and 2 (ems-events ?p= links) gave 404, so its canonical London page was read. Position 4 duplicates 3. A forum thread was skipped. Both pages are city specific (Miami, London).",
+  "serp": {
+    "query": "How much does it cost to rent sound equipment?",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://rentforevent.com/?p=25083", "title": "How Much Does It Cost to Rent a Sound System in Miami?" },
+      { "rank": 2, "url": "https://www.ems-events.co.uk/cost-to-rent-a-sound-system-in-london", "title": "cost to rent a sound system in london" }
+    ]
+  },
+  "terms": [
+    { "term": "PA system", "kind": "entity", "seenIn": 2 },
+    { "term": "Speakers", "kind": "entity", "seenIn": 2 },
+    { "term": "Subwoofers", "kind": "entity", "seenIn": 2 },
+    { "term": "Wireless microphones", "kind": "entity", "seenIn": 2 },
+    { "term": "DJ equipment", "kind": "entity", "seenIn": 2 },
+    { "term": "Mixers", "kind": "entity", "seenIn": 2 },
+    { "term": "Conferences", "kind": "entity", "seenIn": 2 },
+    { "term": "Concerts", "kind": "entity", "seenIn": 2 },
+    { "term": "Corporate events", "kind": "entity", "seenIn": 2 },
+    { "term": "Delivery and setup", "kind": "related", "seenIn": 2 },
+    { "term": "Rental duration", "kind": "related", "seenIn": 2 },
+    { "term": "Factors affecting rental pricing", "kind": "related", "seenIn": 2 },
+    { "term": "Technical support", "kind": "related", "seenIn": 2 },
+    { "term": "Sound coverage", "kind": "related", "seenIn": 2 },
+    { "term": "Weddings", "kind": "entity", "seenIn": 1 },
+    { "term": "Line arrays", "kind": "entity", "seenIn": 1 },
+    { "term": "Amplifiers", "kind": "entity", "seenIn": 1 },
+    { "term": "Karaoke sound systems", "kind": "entity", "seenIn": 1 },
+    { "term": "Cables and stands", "kind": "entity", "seenIn": 1 },
+    { "term": "On-site technician", "kind": "related", "seenIn": 1 },
+    { "term": "Live mixing engineer", "kind": "related", "seenIn": 1 },
+    { "term": "Damage waiver", "kind": "related", "seenIn": 1 },
+    { "term": "What factors influence rental pricing?", "kind": "question", "seenIn": 2 },
+    { "term": "What is the typical cost range for sound system rentals?", "kind": "question", "seenIn": 2 },
+    { "term": "What hidden expenses should renters expect?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Miami", "reason": "place other than Spain" },
+    { "term": "London", "reason": "place other than Spain" },
+    { "term": "Price ranges", "reason": "prices and currencies" },
+    { "term": "Competitor speaker models", "reason": "competitor inventory models, not confirmed for MEG" },
+    { "term": "Competitor site names", "reason": "competitor names" },
+    { "term": "Rush deliveries", "reason": "marketing style wording" }
+  ]
+}
