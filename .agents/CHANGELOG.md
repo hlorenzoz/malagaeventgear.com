@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): audio-visual-rental-for-sports-events, mencion editorial del partner Top Group Express en "Why Choose Malaga Event Gear for Your Sports AV Needs?" (2026-10-07)
+- Tarea #T0034 (mencion de TGE, post 3 de 4, pedido directo del orquestador).
+- Se agrego un parrafo corto en la seccion "Why Choose Malaga Event Gear for Your Sports AV Needs?" de `src/content/blog/audio-visual-rental-for-sports-events.svx`: equipos y delegaciones que viajan a un torneo en la Costa del Sol tambien necesitan alojamiento. Aclara que el alojamiento no es servicio de MEG (solo equipo audiovisual). Un solo enlace a `https://topgroupexpress.com/en` con el ancla "hotels for teams and delegations" (distinta de las de los otros posts). Enlace editorial normal, sin `rel="sponsored"` (partners, sin comision). Solo "years of experience", sin anos ni cifras de TGE, dirigido a quien organiza el viaje del grupo (agencias, DMC, empresas, club o federacion), sin prometer reserva directa y sin afirmar que MEG o TGE participaron en ningun evento deportivo. Sin encabezado nuevo.
+- `updatedDate` paso a 2026-10-07 via `just post-sync`; `post-faqs.json` y `post-toc.json` regenerados.
+- Las 12 traducciones quedan stale y se actualizan en el mismo cambio.
+
 ### Changed (blog): timeline-for-booking-wedding-rentals, mencion editorial del partner Top Group Express en "Booking and Service Area" (2026-10-07)
 - Tarea #T0034 (mencion de TGE, post 2 de 4, pedido directo del orquestador).
 - Se agrego un parrafo corto al final de la seccion "Booking and Service Area" de `src/content/blog/timeline-for-booking-wedding-rentals.svx`: en una boda de destino en la Costa del Sol, las habitaciones de los invitados que llegan de fuera se planifican con la misma antelacion que el sonido. Aclara que el alojamiento no es servicio de MEG (solo equipo audiovisual). Un solo enlace a `https://topgroupexpress.com/en` con el ancla "hotel rooms for wedding guests" (distinta de las de los otros 3 posts). Enlace editorial normal, sin `rel="sponsored"` (partners, sin comision). Solo "years of experience", sin anos ni cifras de TGE, dirigido a quien organiza el viaje del grupo (wedding planners, agencias, DMC), sin prometer reserva directa a la pareja. Sin encabezado nuevo.
