@@ -21,7 +21,7 @@ targetPage: "/blog/audio-visual-rental/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for a projector rental in Malaga, Spain? A projector is only half the setup, since it needs a screen sized to it and enough lumens to stay legible against your venue's actual lighting, whether that is a darkened conference hall or a bright dealership showroom lit for photography.
+Looking for a projector rental in Malaga, Spain, also called projector hire? A projector is only half the setup, since it needs a screen sized to it and enough lumens to stay legible against your venue's actual lighting, whether that is a darkened conference hall or a bright dealership showroom lit for photography.
 
 Malaga Event Gear never rents a projector without a projection screen: the two are always bundled, delivered, installed and tested by our own crew across Malaga and the wider Costa del Sol. Pricing is real and published up front, tied to a lumens tier, not a quote only form.
 

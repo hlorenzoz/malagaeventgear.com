@@ -7,6 +7,13 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): projector-rental, la variante "hire" en la introduccion (2026-10-07)
+- Tarea #T0047 (oportunidad de keyword "projector hire", Ubersuggest 2026-09-30, 10 busquedas al mes, 23 impresiones en GSC a posicion media 34,8). Un post nuevo no se justifica (canibalizaria `projector-rental`): se refuerza este.
+- Primer parrafo: "Looking for a projector rental in Malaga, Spain?" pasa a "Looking for a projector rental in Malaga, Spain, also called projector hire?". La keyword "projector rental" y la primera mencion "Malaga, Spain" quedan igual. Es la unica vez que el post usa "hire".
+- FAQ de coste NO agregada: "How much does a projector rental cost?" ya responde con los tres precios de paquete, el IVA del 21 por ciento y el enlace a la seccion de precios, asi que "How much does projector hire cost in Malaga?" seria un duplicado. La alternativa "Can I hire a projector for one day in Malaga?" tampoco: ni el post ni `packages.ts` dicen nada sobre dias de alquiler ni minimos.
+- `updatedDate` ya era 2026-10-07: `just post-sync` regenero `post-faqs.json` y `post-toc.json` sin mover la fecha (sin cambios de FAQ ni de indice).
+- Las 12 traducciones siguen en el mismo cambio (el estado las marca al dia porque `sourceUpdated` ya es 2026-10-07, pero su primer parrafo debe recibir la frase).
+
 ### Fixed (copy): el minimo de 400 euros solo aplica a Granada, Sevilla va sin minimo, en ingles y los 12 idiomas (2026-10-07)
 - Tarea #T0032. Regla de negocio (`.agents/BUSINESS.md` seccion 3, `siteConfig.serviceAreas`): Sevilla se atiende completa SIN minimo, solo Granada exige pedidos sobre `PRICE_POINTS.outOfProvinceMinimum`. Dos textos se podian leer como si el minimo valiera tambien para Sevilla.
 - FAQ de zonas de cada pagina de paquete: "We also service Seville and Granada (for orders over {price:outOfProvinceMinimum})" pasa a "We also service Seville with no minimum order, and Granada for orders over {price:outOfProvinceMinimum}" (el parentesis abarcaba las dos ciudades). Archivos: `src/routes/(public)/packages/[slug]/i18n/<locale>.ts` (en y los 12 idiomas).
