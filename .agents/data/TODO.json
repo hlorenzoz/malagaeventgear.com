@@ -397,24 +397,6 @@
       ]
     },
     {
-      "id": "#T0070",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/stage-lighting-rental/: \"Can I rent lights for a DJ set or a party?\"",
-      "anotada": "2026-10-07",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-07, ítem 2)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/stage-lighting-rental.svx",
-        "Keywords: dj lights for hire (google-ads 10/mo (below tier 100)), debajo del tier",
-        "Por qué: La intención es iluminación para una fiesta con DJ. /blog/stage-lighting-rental/ (pilar) no tiene ninguna FAQ sobre luces para DJ y su lista de FAQs no la repite. Una FAQ evita crear un post nuevo (Goldilocks: demasiado estrecho).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0057",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1367,6 +1349,26 @@
         "Añade full support para PWA",
         "",
         "Crea un PWA Installer (widget) que va a salir debajo del widget de WhatsApp y encima de la Cookie bar, pero solamente 3 segundos luego que el usuario haya hecho scroll below the fold (debajo de la sección header)."
+      ]
+    },
+    {
+      "id": "#T0070",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/stage-lighting-rental/: \"Can I rent lights for a DJ set or a party?\"",
+      "anotada": "2026-10-07",
+      "hecha": "2026-10-07",
+      "origen": "content-strategist (plan 2026-10-07, ítem 2)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/stage-lighting-rental.svx",
+        "Keywords: dj lights for hire (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Por qué: La intención es iluminación para una fiesta con DJ. /blog/stage-lighting-rental/ (pilar) no tiene ninguna FAQ sobre luces para DJ y su lista de FAQs no la repite. Una FAQ evita crear un post nuevo (Goldilocks: demasiado estrecho).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
