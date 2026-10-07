@@ -1325,24 +1325,6 @@
       ]
     },
     {
-      "id": "#T0041",
-      "estado": "pendiente",
-      "prioridad": "baja",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/tv-screen-rental/: \"What screen size do I need for my conference room?\"",
-      "anotada": "2026-09-29",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-09-29, ítem 20)",
-      "notas": [],
-      "descripcion": [
-        "Archivo: src/content/blog/tv-screen-rental.svx",
-        "Keywords: What screen size do I need for my conference room? (research-paa newFaq linked to keywordId tv-screen-rental)",
-        "Qué cubrir: State honestly that MEG's own inventory has one screen size, the 60 inch high definition LED display on the MICE Pack, which reads clearly as a single panel in a conference room without needing a darkened space, per this page's 'TV Screen or Projector: Which One Does Your Event Need?' section. For a room too large for one panel to read across, point to the projector rental guide's 3000 and 5000 lumen tiers instead. Do not invent additional screen sizes MEG does not stock.",
-        "Por qué: Checked /blog/tv-screen-rental/'s FAQ list: it answers 'What screen sizes are available?' and 'Do you rent a 55 inch screen?' but never frames the answer around a conference room specifically, which the 'TV Screen or Projector' section addresses only indirectly. Real gap, not a duplicate.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0007",
       "estado": "pendiente",
       "prioridad": "baja",
@@ -1587,6 +1569,26 @@
         "Keywords: Why does a podium sometimes have two microphones? (research-paa newFaq linked to keywordId headset-lavalier-microphone-rental)",
         "Qué cubrir: Answer using MEG's own MICE Pack, which pairs a fixed gooseneck microphone for the podium address with a separate wireless handheld microphone so a presenter can step away for Q&A or hand it to another speaker, per this page's 'Wireless and Gooseneck Microphone Systems' section and the sound-system-rental package table. Describe this as MEG's own setup, not a universal AV convention, and do not invent a reason beyond what those two microphones are documented to do.",
         "Por qué: Generic AV trivia as written, but MEG has a real, documented answer through its own MICE Pack setup, so it is reframed around that fact rather than answered as an abstract industry convention. Placed on /blog/audiovisual-equipment-rental-service/ next to the gooseneck definition FAQ from this same plan, since both draw on the same 'Wireless and Gooseneck Microphone Systems' section. Checked the post's FAQ list, no existing question covers this.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0041",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/tv-screen-rental/: \"What screen size do I need for my conference room?\"",
+      "anotada": "2026-09-29",
+      "hecha": "2026-10-07",
+      "origen": "content-strategist (plan 2026-09-29, ítem 20)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Archivo: src/content/blog/tv-screen-rental.svx",
+        "Keywords: What screen size do I need for my conference room? (research-paa newFaq linked to keywordId tv-screen-rental)",
+        "Qué cubrir: State honestly that MEG's own inventory has one screen size, the 60 inch high definition LED display on the MICE Pack, which reads clearly as a single panel in a conference room without needing a darkened space, per this page's 'TV Screen or Projector: Which One Does Your Event Need?' section. For a room too large for one panel to read across, point to the projector rental guide's 3000 and 5000 lumen tiers instead. Do not invent additional screen sizes MEG does not stock.",
+        "Por qué: Checked /blog/tv-screen-rental/'s FAQ list: it answers 'What screen sizes are available?' and 'Do you rent a 55 inch screen?' but never frames the answer around a conference room specifically, which the 'TV Screen or Projector' section addresses only indirectly. Real gap, not a duplicate.",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
