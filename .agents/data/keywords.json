@@ -35541,8 +35541,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/tv-screen-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -35580,6 +35580,10 @@
               "2026-08": 20
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
         },
         "content-plan": {
           "firstSeen": "2026-10-03",
@@ -35734,8 +35738,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/tv-screen-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -35773,6 +35777,10 @@
               "2026-08": 20
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07"
         },
         "content-plan": {
           "firstSeen": "2026-10-03",
@@ -82211,6 +82219,24 @@
           "lastSeen": "2026-10-07",
           "urls": [
             "/blog/audio-visual-rental-for-outdoor-events/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "do-you-rent-an-led-screen",
+      "question": "Do you rent an LED screen?",
+      "keywordId": "tv-screen-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/tv-screen-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-07",
+          "lastSeen": "2026-10-07",
+          "urls": [
+            "/blog/tv-screen-rental/"
           ]
         }
       }
