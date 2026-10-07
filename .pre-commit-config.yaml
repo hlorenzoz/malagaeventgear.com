@@ -1,19 +1,46 @@
+# Se instala una vez por clon con `just hooks-install` (necesita el comando `pre-commit`, brew install pre-commit).
+# Orden de los hooks, que importa: primero los que arreglan archivos (espacios, final de linea, Biome),
+# despues el guard de traducciones y al ultimo los tests. Asi los tests corren sobre el codigo YA formateado
+# y un problema de formato aparece como un test que falla (decision del usuario, 2026-10-07).
+# Cuando un hook modifica un archivo el commit falla la primera vez: `git add` de los mismos archivos y commit otra vez.
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.6.0
     hooks:
+      # Sin tocar el copy editorial (posts, traducciones), los documentos importados ni los archivos generados.
       - id: trailing-whitespace
+        exclude: ^(src/content/|\.agents/context/|worker-configuration\.d\.ts$)
       - id: end-of-file-fixer
+        exclude: ^(src/content/|\.agents/context/|worker-configuration\.d\.ts$)
       - id: check-yaml
       - id: check-added-large-files
-        # .agents/data/keywords.json es un archivo de datos deliberado (unos 2,6 MB), ver CLAUDE.md "Investigación de keywords"
-        exclude: ^\.agents/data/keywords\.json$
+        # Archivos de datos o generados, grandes a proposito:
+        # - .agents/data/keywords.json, ver CLAUDE.md "Investigación de keywords" (unos 2,6 MB)
+        # - scripts/migrate-wp/manifest.json, lo escribe `just post-images` (unos 6 MB)
+        # - worker-configuration.d.ts, lo genera `wrangler types`
+        exclude: ^(\.agents/data/keywords\.json|scripts/migrate-wp/manifest\.json|worker-configuration\.d\.ts)$
 
-  # Biome (biome.json), la misma version que package.json. Formatea solo los archivos que el commit toca.
   - repo: local
     hooks:
+      # Biome (biome.json), la misma version que package.json. Formatea solo los archivos que el commit toca.
       - id: biome-format
         name: biome format
         entry: bunx biome format --write --no-errors-on-unmatched --files-ignore-unknown=true
         language: system
         types_or: [ts, javascript, svelte, css]
+
+      # Un post ingles solo se commitea con sus 12 traducciones (CLAUDE.md, regla 4 de idiomas).
+      - id: translations-guard
+        name: translations guard
+        entry: bun scripts/translate/commit-guard.ts
+        language: system
+        pass_filenames: false
+        always_run: true
+
+      # Los tests corren despues de formatear, sobre lo que se va a commitear (unos 25 s).
+      - id: vitest
+        name: vitest (scripts, src/lib)
+        entry: bunx vitest run scripts src/lib
+        language: system
+        pass_filenames: false
+        always_run: true

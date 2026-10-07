@@ -94,8 +94,8 @@ function git(args: string[]): { code: number; out: string } {
 }
 
 function main(): void {
-	const changed = git(['diff', '--cached', '--name-only', '--diff-filter=AM']).out
-		.split('\n')
+	const changed = git(['diff', '--cached', '--name-only', '--diff-filter=AM'])
+		.out.split('\n')
 		.filter((l) => l.trim().length > 0);
 	const read = (path: string): string | null => {
 		const r = git(['show', `:${path}`]);

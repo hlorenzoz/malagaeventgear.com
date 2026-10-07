@@ -191,8 +191,8 @@ when it exists and `just nlp-terms-check` accepted it), then
 a file and fail the first commit: `git add` the same paths again and commit once more.
 NOTHING of the post is committed at this step (user decision, 2026-10-07). The English edit and its 12
 translations go out in ONE commit, made by `just post-translate-finish` in step 9, once all 12 exist.
-A commit with the English post alone is refused by the pre-commit guard (`just hooks-install`,
-`scripts/translate/commit-guard.ts`): the English `outdoor-movie-screen-and-projector-rental` was once
+A commit with the English post alone is refused by the pre-commit guard (the `translations-guard` hook of
+`.pre-commit-config.yaml`, `scripts/translate/commit-guard.ts`): the English `outdoor-movie-screen-and-projector-rental` was once
 committed and deployed before its translations and the live page had no language selector.
 
 ### 7. Translations

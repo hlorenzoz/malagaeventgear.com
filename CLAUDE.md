@@ -102,8 +102,8 @@ cerrada con este archivo desactualizado.
      `src/lib/data/translation-audit.ts`) falla si un post inglés publicado no está publicado en
      alguno de los 12 idiomas (traducción ausente, borrador, `publishDate` futuro o sin entrada en el
      mapa de contenido). La solución es la traducción que falta, nunca un allowlist.
-   - **Commit**: el guard `scripts/translate/commit-guard.ts` (hook de pre-commit, se instala una vez
-     por clon con `just hooks-install`) mira el ÍNDICE y rechaza un commit que agrega o modifica un
+   - **Commit**: el guard `scripts/translate/commit-guard.ts` (hook `translations-guard` de
+     `.pre-commit-config.yaml`, se instala una vez por clon con `just hooks-install`) mira el ÍNDICE y rechaza un commit que agrega o modifica un
      post inglés no borrador si alguno de los 12 idiomas no tiene su traducción en ese mismo commit,
      o la tiene como borrador o con `sourceUpdated` anterior al último cambio inglés. Un post
      `draft: true` queda exento (`just post-new` lo crea antes de traducirlo). `--no-verify` lo salta:
@@ -559,10 +559,19 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
     `svelte` y `css`. Biome NO soporta markdown, yaml ni `.svx`: esos no los formatea nadie. El repo no
     se reformateó de golpe (hoy 396 de 723 archivos de código difieren de la config, las
     líneas anchas escritas a mano y por agentes. Con Prettier a igual config da 397: el formateador no
-    cambia nada): un reformateo completo es un commit aparte, decidido
-    por el usuario. `.pre-commit-config.yaml` declara el hook de Biome, pero el framework `pre-commit`
-    no está instalado como hook en este clon (el hook instalado solo tiene GGA y el guard de
-    traducciones), así que ningún formateador se impone en el commit hoy.
+    cambia nada): un reformateo completo es un commit aparte, y el usuario decidió el 2026-10-07 NO
+    hacerlo. En su lugar el hook de pre-commit formatea solo los archivos que cada commit toca, así que
+    el código se va migrando de a poco: tocar un archivo viejo lo reformatea ENTERO (el diff de ese
+    commit trae cambios de formato ajenos al cambio). **Hook de pre-commit (activo desde 2026-10-07,
+    `just hooks-install`, necesita `brew install pre-commit`)**: `.pre-commit-config.yaml` corre, en
+    este orden, los arreglos de espacios y final de línea (sin tocar `src/content/`, `.agents/context/`
+    ni archivos generados), Biome sobre los archivos del commit, el guard de traducciones y por último
+    `vitest run scripts src/lib` (unos 25 s). Los tests van DESPUÉS de formatear a propósito: un
+    problema de formato aparece como un test que falla. Cuando un hook modifica un archivo el commit
+    falla la primera vez: `git add` de los mismos archivos y commit otra vez (`post-translate-finish`
+    ya reintenta solo una vez). pre-commit guarda en stash lo que no está en staging mientras corre:
+    por eso las recetas que commitean datos mientras otra sesión escribe usan `--no-verify`
+    (`keywords-commit`, `todo-commit`...). `git commit --no-verify` salta todo el hook.
   - **Trailing slash**: lo impone `export const trailingSlash = 'always'` en
     `src/routes/+layout.ts`. No se agrega a mano en cada ruta.
   - **CSS inline**: `kit.inlineStyleThreshold: 102400` en `svelte.config.js`. Se compara contra el
@@ -1955,4 +1964,3 @@ no deben intentarlo. Una línea por evento, de cinco campos:
 - Los recipes no lo commitean: queda modificado en el árbol y lo commitea el usuario. No lleva
   secretos ni textos de reseñas. Detalle de una sola línea, tope de 400 caracteres, solo ASCII.
   `--dry-run` nunca escribe. `AGENT_LOG_DIR` redirige la carpeta (tests y simulaciones).
-

@@ -123,9 +123,9 @@ post-translate-check slug *args:
 post-translate-finish slug *args:
     bun scripts/translate/finish.ts "$@"
 
-# Instala (una vez por clon) el guard de pre-commit: un post ingles solo se commitea con sus 12 traducciones
+# Instala (una vez por clon) el hook de pre-commit de .pre-commit-config.yaml: Biome, guard de traducciones y tests. Necesita `pre-commit` (brew install pre-commit)
 hooks-install:
-    bun scripts/translate/install-hook.ts
+    pre-commit install
 
 # Lista que traducciones de posts faltan o estan desactualizadas. Acepta --json
 post-translations-status *args:
@@ -418,4 +418,3 @@ keywords-schedule-install:
     sd '__HOME__' "$HOME" "$dest"; \
     launchctl bootstrap gui/$(id -u) "$dest"; \
     echo "Instalado y arrancado: $dest"
-

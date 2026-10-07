@@ -7,6 +7,13 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (tooling): el hook de pre-commit queda activo, formatea y despues corre los tests (2026-10-07)
+- Pedido del usuario: que el pre-commit formatee los cambios antes de correr los tests, para que un problema de formato salte como test que falla. Antes el framework `pre-commit` no estaba instalado como hook en este clon y `.pre-commit-config.yaml` era inerte.
+- `.pre-commit-config.yaml`: orden de hooks = espacios y final de linea, Biome (solo archivos del commit), guard de traducciones, `vitest run scripts src/lib`. Los hooks de espacios excluyen `src/content/`, `.agents/context/` y `worker-configuration.d.ts`. `check-added-large-files` excluye tambien `scripts/migrate-wp/manifest.json` y `worker-configuration.d.ts` (de lo contrario bloquearia `just post-images`).
+- `just hooks-install` ahora es `pre-commit install` (modo migracion: el hook anterior queda en `.git/hooks/pre-commit.legacy` y se sigue ejecutando, solo tiene el bloque GGA comentado). Se borro `scripts/translate/install-hook.ts` (y su test): el guard vive en el config versionado en vez de en un archivo local de `.git/hooks`.
+- `scripts/translate/finish.ts`: si el commit falla porque un hook arreglo un archivo, vuelve a hacer `git add` de las mismas rutas y reintenta una vez; un segundo fallo es real y se informa.
+- No se reformateo el repo: cada commit formatea solo los archivos que toca.
+
 ### Changed (tooling): el formateador del proyecto pasa de Prettier a Biome (2026-10-07)
 - Decision del usuario: usa Biome desde la extension del editor, sin config versionada, mientras el repo declaraba Prettier (`just format`, `.pre-commit-config.yaml`). Se unifica en Biome.
 - `biome.json` (tabs, comillas simples, sin comas finales, ancho 100, `indentScriptAndStyle` para Svelte, linter y assist apagados) y `@biomejs/biome` 2.5.15 fijado en `package.json` y `bun.lock`. Cubre ts, js, mjs, svelte y css. Biome no soporta markdown, yaml ni `.svx`.

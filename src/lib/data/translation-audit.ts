@@ -39,18 +39,31 @@ export function malformedTranslationFiles(
 	maps: Partial<Record<string, LocaleContentMap>>
 ): { path: string; problem: string }[] {
 	const problems: { path: string; problem: string }[] = [];
-	const englishSlugs = new Set(Object.keys(englishGlob).map((p) => p.split('/').pop()!.replace(/\.svx$/, '')));
+	const englishSlugs = new Set(
+		Object.keys(englishGlob).map((p) =>
+			p
+				.split('/')
+				.pop()!
+				.replace(/\.svx$/, '')
+		)
+	);
 
 	for (const [path, module] of Object.entries(translations)) {
 		const info = translationPathInfo(path);
 		if (!info) {
 			const folder = path.split('/').slice(-2, -1)[0];
-			problems.push({ path, problem: `${path}: ${folder} is not a prefixed site locale (src/lib/i18n/locales.ts)` });
+			problems.push({
+				path,
+				problem: `${path}: ${folder} is not a prefixed site locale (src/lib/i18n/locales.ts)`
+			});
 			continue;
 		}
 		const id = `${info.locale}/${info.enSlug}`;
 		if (!englishSlugs.has(info.enSlug)) {
-			problems.push({ path, problem: `${id}: there is no English post src/content/blog/${info.enSlug}.svx` });
+			problems.push({
+				path,
+				problem: `${id}: there is no English post src/content/blog/${info.enSlug}.svx`
+			});
 			continue;
 		}
 		const parsed = TranslatedPostSchema.safeParse(module.metadata);
@@ -59,7 +72,10 @@ export function malformedTranslationFiles(
 			continue;
 		}
 		if (!parsed.data.draft && !maps[info.locale]?.posts[info.enSlug]) {
-			problems.push({ path, problem: `${id}: missing from content-map/locales/${info.locale}.ts posts (slug and keyword)` });
+			problems.push({
+				path,
+				problem: `${id}: missing from content-map/locales/${info.locale}.ts posts (slug and keyword)`
+			});
 		}
 	}
 	return problems;
@@ -80,7 +96,9 @@ export function auditTranslations(
 	const problems = malformedTranslations(englishGlob, translations, maps);
 	// Freshness only over the files that parse: a malformed one is already reported.
 	const valid = Object.fromEntries(
-		Object.entries(translations).filter(([, m]) => TranslatedPostSchema.safeParse(m.metadata).success)
+		Object.entries(translations).filter(
+			([, m]) => TranslatedPostSchema.safeParse(m.metadata).success
+		)
 	);
 	const english = buildPostsFromGlob(englishGlob, now);
 	const englishBySlug = new Map(english.map((p) => [p.slug, p]));
@@ -114,11 +132,15 @@ export function missingTranslations(
 	const english = buildPostsFromGlob(englishGlob, now);
 	// A malformed file already fails `auditTranslations`: here it just counts as not published.
 	const valid = Object.fromEntries(
-		Object.entries(translations).filter(([, m]) => TranslatedPostSchema.safeParse(m.metadata).success)
+		Object.entries(translations).filter(
+			([, m]) => TranslatedPostSchema.safeParse(m.metadata).success
+		)
 	);
 	const problems: string[] = [];
 	for (const locale of PREFIXED_LOCALES) {
-		const published = new Set(buildLocalizedPosts(locale, english, valid, maps[locale] ?? null, now).map((p) => p.slug));
+		const published = new Set(
+			buildLocalizedPosts(locale, english, valid, maps[locale] ?? null, now).map((p) => p.slug)
+		);
 		for (const post of english) {
 			if (!published.has(post.slug)) {
 				problems.push(

@@ -53,10 +53,14 @@ export function commitMessage(slug: string, custom?: string): string {
 	if (custom === undefined) return `feat(blog): translate ${slug} into the 12 site languages`;
 	const message = custom.trim();
 	if (!/^(feat|fix|docs|chore|refactor|test)(\([a-z0-9-]+\))?: \S/.test(message)) {
-		throw new Error(`--message must be a conventional commit ("feat(blog): <slug> ..."), got "${message}"`);
+		throw new Error(
+			`--message must be a conventional commit ("feat(blog): <slug> ..."), got "${message}"`
+		);
 	}
 	if (/co-authored-by|generated with|🤖/i.test(message)) {
-		throw new Error('--message must not carry attribution (no Co-Authored-By, no "Generated with")');
+		throw new Error(
+			'--message must not carry attribution (no Co-Authored-By, no "Generated with")'
+		);
 	}
 	return message;
 }
@@ -156,6 +160,12 @@ function runQuiet(label: string, cmd: string[], tail = 12): void {
 	console.log(tailLines(out, tail));
 }
 
+/** Runs git and returns its exit code and output, without stopping the script. */
+function tryGit(args: string[]): { code: number; out: string } {
+	const r = Bun.spawnSync(['git', ...args], { cwd: ROOT, stdout: 'pipe', stderr: 'pipe' });
+	return { code: r.exitCode, out: `${r.stdout.toString()}${r.stderr.toString()}` };
+}
+
 /** Runs a command and returns its output (git state queries). */
 function git(args: string[]): string {
 	const r = Bun.spawnSync(['git', ...args], { cwd: ROOT, stdout: 'pipe', stderr: 'pipe' });
@@ -174,7 +184,9 @@ function main(): void {
 	}
 	const slug = args.find((a, i) => !a.startsWith('--') && i !== messageAt + 1);
 	if (!slug) {
-		console.error('Usage: bun scripts/translate/finish.ts <slug> [--no-commit] [--message "feat(blog): <slug> ..."]');
+		console.error(
+			'Usage: bun scripts/translate/finish.ts <slug> [--no-commit] [--message "feat(blog): <slug> ..."]'
+		);
 		process.exit(2);
 	}
 	try {
@@ -235,7 +247,22 @@ function main(): void {
 		);
 	}
 	if (staged.length === 0) fail('there is nothing to commit under the translation paths');
-	git(commit.slice(1));
+	// The pre-commit hooks (Biome, whitespace) fix a file and fail the first attempt by design: stage
+	// the same paths again and commit once more. A second failure is a real one (a failing test).
+	let attempt = tryGit(commit.slice(1));
+	if (attempt.code !== 0) {
+		console.log(
+			'[finish] the commit hooks failed or changed files: staging the same paths and retrying once'
+		);
+		git(add.slice(1));
+		attempt = tryGit(commit.slice(1));
+		if (attempt.code !== 0) {
+			console.error(tailLines(attempt.out, 40));
+			fail(
+				'the commit was refused twice by the pre-commit hooks (output above), nothing was committed'
+			);
+		}
+	}
 	console.log(tailLines(git(['log', '--oneline', '-1']), 1));
 	const [hash, ...subject] = git(['log', '-1', '--format=%h%x09%s']).trim().split('\t');
 	alog('commit', commitLogDetail(slug, hash, subject.join('\t'), staged.length));

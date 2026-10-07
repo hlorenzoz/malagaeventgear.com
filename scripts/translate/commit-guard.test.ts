@@ -43,12 +43,20 @@ describe('guardProblems (a commit that touches a published English post)', () =>
 	});
 
 	it('accepts a translation whose sourceUpdated matches the last English change', () => {
-		const files = Object.fromEntries(PREFIXED_LOCALES.map((l) => [tr(l), translation().replace('2026-10-01', '2026-10-05')]));
-		expect(guardProblems([EN], index({ [EN]: english('updatedDate: "2026-10-05"\n'), ...files }))).toEqual([]);
+		const files = Object.fromEntries(
+			PREFIXED_LOCALES.map((l) => [tr(l), translation().replace('2026-10-01', '2026-10-05')])
+		);
+		expect(
+			guardProblems([EN], index({ [EN]: english('updatedDate: "2026-10-05"\n'), ...files }))
+		).toEqual([]);
 	});
 
 	it('flags a draft translation, it would never publish', () => {
-		const files: Record<string, string> = { [EN]: english(), ...allTranslations, [tr('fr')]: translation('draft: true\n') };
+		const files: Record<string, string> = {
+			[EN]: english(),
+			...allTranslations,
+			[tr('fr')]: translation('draft: true\n')
+		};
 		expect(guardProblems([EN], index(files))).toEqual(['fr/a: the translation is still a draft']);
 	});
 
@@ -66,7 +74,9 @@ describe('guardProblems (a commit that touches a published English post)', () =>
 	});
 
 	it('ignores files that are not an English post (translations, other content)', () => {
-		expect(guardProblems([tr('de'), 'src/lib/x.ts', 'src/content/blog/de/'], index({}))).toEqual([]);
+		expect(guardProblems([tr('de'), 'src/lib/x.ts', 'src/content/blog/de/'], index({}))).toEqual(
+			[]
+		);
 	});
 
 	it('reports an unreadable English post instead of passing it', () => {
