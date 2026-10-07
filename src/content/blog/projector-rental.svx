@@ -133,7 +133,7 @@ Conference attendees seated in front of the main projection screen during a pres
 Our crew also ran the full technical production for a four day international conference at [PROGOLD SUMMIT 2026 in Torremolinos](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/), where high resolution display screens and bright projection systems presented complex data and multimedia content clearly under the venue's own corporate lighting conditions, the exact lit room scenario the 5000 lumen tier exists for.
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/'])} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/', '/2278/'])} speed="normal" direction="left" />
 </div>
 
 ## How Far in Advance to Book

@@ -22,7 +22,7 @@ Contattaci oggi stesso per scoprire la nostra [gamma di attrezzatura e pacchetti
 
 ---
 
-Malaga Event Gear fornisce uno schermo di proiezione e un proiettore, sempre in coppia, più casse attive PA per le proiezioni all'aperto in ville, terrazze, giardini e location in riva al mare. Il nostro team consegna, installa, testa e ritira tutto, e i prezzi sono pubblicati in anticipo, da 295 euro al netto dell'IVA per un pacchetto che include schermo, proiettore e audio.
+Malaga Event Gear fornisce uno schermo di proiezione e un proiettore, sempre in coppia, più casse PA per le proiezioni all'aperto in ville, terrazze, giardini e location in riva al mare. Il nostro team consegna, installa, testa e ritira tutto, e i prezzi sono pubblicati in anticipo, da 295 euro al netto dell'IVA per un pacchetto che include schermo, proiettore e audio.
 
 Dicci la tua location, il numero di ospiti e la dimensione di schermo che hai in mente, e ti confermiamo cosa va bene. [Contattaci](/contact/) per cominciare.
 
@@ -36,7 +36,7 @@ Dicci la tua location, il numero di ospiti e la dimensione di schermo che hai in
 
 -   Uno schermo Da-Lite più grande, da 2.30 x 3.00 m, per proiezione frontale e retroproiezione, è un'attrezzatura a parte, non inclusa in nessun pacchetto e quotata su richiesta.
 
--   L'audio arriva da casse attive PA su stativi, non da un impianto home cinema.
+-   L'audio arriva da casse PA, non da un impianto home cinema.
 
 -   Generatori e tende non fanno parte del nostro inventario proprio: conferma con noi la corrente della location al momento della prenotazione, e leggi [Alimentazione, meteo e orari: dal tramonto al buio](#alimentazione-meteo-e-orari-dal-tramonto-al-buio).
 
@@ -81,7 +81,7 @@ Se vuoi uno schermo più grande di 2.30 x 3.00 m, non fa parte del nostro invent
 
 ## L'audio per un film all'aperto: casse PA, non un impianto home cinema
 
-La colonna sonora di un film è fatta soprattutto di dialoghi, e i dialoghi hanno bisogno di casse abbastanza potenti e chiare da raggiungere il fondo del pubblico. È esattamente ciò che fa un impianto PA, ed è ciò che consegniamo: casse attive su stativi, testate nella tua location prima dell'arrivo del pubblico.
+La colonna sonora di un film è fatta soprattutto di dialoghi, e i dialoghi hanno bisogno di casse abbastanza potenti e chiare da raggiungere il fondo del pubblico. È esattamente ciò che fa un impianto PA, ed è ciò che consegniamo: casse PA, testate nella tua location prima dell'arrivo del pubblico.
 
 -   L'[Eco Pack](/packages/eco/) include 2 casse attive con stativi per fino a 50 ospiti, gestito in autonomia senza tecnico sul posto, più l'extra opzionale di proiettore e schermo.
 
@@ -89,7 +89,7 @@ La colonna sonora di un film è fatta soprattutto di dialoghi, e i dialoghi hann
 
 -   Il [MICE Pack](/packages/mice/) porta casse attive professionali per fino a 120 ospiti, con un tecnico per fino a 6 ore.
 
-Il Wedding Pack e il MICE Pack non includono né proiettore né schermo. Per un pubblico più numeroso, dicci la combinazione di audio, schermo e proiettore di cui hai bisogno e ti confermiamo cosa è possibile.
+Il Wedding Pack e il MICE Pack non includono né proiettore né schermo di proiezione. Per un pubblico più numeroso, dicci la combinazione di audio, schermo e proiettore di cui hai bisogno e ti confermiamo cosa è possibile.
 
 Senza pareti su cui riflettersi, l'aria aperta disperde il suono più lontano di una sala, quindi le casse sono posizionate in modo da proiettare lungo tutto lo spazio. Sii onesto con te stesso su ciò che ottieni: un PA chiaro e potente, non un impianto surround né home cinema. La nostra attrezzatura audio propria è il PA descritto sopra. Se la tua serata richiede un impianto surround o home cinema, dicci di cosa hai bisogno e cerchiamo la soluzione con i nostri fornitori, se ce n'è una.
 
@@ -126,7 +126,7 @@ Nessuno di questi è una serata di cinema all'aperto. Sono prenotazioni di proie
 ![File di partecipanti a una conferenza nella provincia di Malaga che guardano una presentazione sul grande schermo di proiezione principale alimentato da un proiettore a noleggio.](https://cdn.malagaeventgear.com/blog/1305/lighting-sound-big-screen-projector-rental-malaga_6.webp "Partecipanti a una conferenza seduti davanti al grande schermo di proiezione principale durante una presentazione.")
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/'])} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/', '/2278/'])} speed="normal" direction="left" />
 </div>
 
 ## Prenotazione e area di servizio

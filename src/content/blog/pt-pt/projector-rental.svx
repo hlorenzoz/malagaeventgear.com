@@ -126,7 +126,7 @@ Participantes numa conferência sentados diante do ecrã de projeção principal
 A nossa equipa também assegurou toda a produção técnica de uma conferência internacional de quatro dias na [PROGOLD SUMMIT 2026, em Torremolinos](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/), onde ecrãs de alta resolução e sistemas de projeção luminosos apresentaram dados complexos e conteúdos multimédia com clareza sob a iluminação empresarial do próprio local, exatamente o cenário de sala iluminada para o qual existe o nível de 5000 lumens.
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/'])} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/', '/2278/'])} speed="normal" direction="left" />
 </div>
 
 ## Com que antecedência reservar

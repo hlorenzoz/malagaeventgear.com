@@ -22,7 +22,7 @@ Contacte-nos hoje mesmo para conhecer a nossa [gama de equipamento e pacotes](/p
 
 ---
 
-A Malaga Event Gear fornece um ecrã de projeção e um projetor, sempre em par, mais colunas ativas PA para sessões ao ar livre em vivendas, terraços, jardins e espaços junto à praia. A nossa equipa entrega, monta, testa e recolhe tudo, e os preços são publicados desde logo, a partir de 295 euros sem IVA por um pacote que reúne ecrã, projetor e som.
+A Malaga Event Gear fornece um ecrã de projeção e um projetor, sempre em par, mais colunas PA para sessões ao ar livre em vivendas, terraços, jardins e espaços junto à praia. A nossa equipa entrega, monta, testa e recolhe tudo, e os preços são publicados desde logo, a partir de 295 euros sem IVA por um pacote que reúne ecrã, projetor e som.
 
 Diga-nos o seu espaço, o número de convidados e o tamanho de ecrã que tem em mente, e confirmamos o que serve. [Contacte-nos](/contact/) para começar.
 
@@ -36,7 +36,7 @@ Diga-nos o seu espaço, o número de convidados e o tamanho de ecrã que tem em 
 
 -   Um ecrã Da-Lite maior, de 2.30 x 3.00 m, para projeção frontal e retroprojeção, é equipamento à parte, não incluído em nenhum pacote e orçamentado a pedido.
 
--   O som vem de colunas ativas PA em tripés, não de um sistema de cinema em casa.
+-   O som vem de colunas PA, não de um sistema de cinema em casa.
 
 -   Geradores e tendas não fazem parte do nosso inventário próprio: confirme connosco a eletricidade do espaço ao reservar, e veja [Eletricidade, meteorologia e horário, do entardecer à escuridão](#eletricidade-meteorologia-e-horário-do-entardecer-à-escuridão).
 
@@ -81,7 +81,7 @@ Se quiser um ecrã maior do que 2.30 x 3.00 m, esse não faz parte do nosso inve
 
 ## Som para um filme ao ar livre: colunas PA, não um sistema de cinema em casa
 
-A banda sonora de um filme é sobretudo diálogo, e o diálogo precisa de colunas potentes e nítidas o suficiente para chegar ao fundo do público. É exatamente isso que um sistema PA faz, e é o que entregamos: colunas ativas em tripés, testadas no seu espaço antes de o público chegar.
+A banda sonora de um filme é sobretudo diálogo, e o diálogo precisa de colunas potentes e nítidas o suficiente para chegar ao fundo do público. É exatamente isso que um sistema PA faz, e é o que entregamos: colunas PA, testadas no seu espaço antes de o público chegar.
 
 -   O [Eco Pack](/packages/eco/) inclui 2 colunas ativas com tripés para até 50 convidados, operado de forma autónoma e sem técnico no local, mais o extra opcional de projetor e ecrã.
 
@@ -89,7 +89,7 @@ A banda sonora de um filme é sobretudo diálogo, e o diálogo precisa de coluna
 
 -   O [MICE Pack](/packages/mice/) traz colunas ativas profissionais para até 120 convidados, com um técnico até 6 horas.
 
-O Wedding Pack e o MICE Pack não incluem projetor nem ecrã. Para um público maior, diga-nos a combinação de som, ecrã e projetor de que precisa e confirmamos o que é possível.
+O Wedding Pack e o MICE Pack não incluem projetor nem ecrã de projeção. Para um público maior, diga-nos a combinação de som, ecrã e projetor de que precisa e confirmamos o que é possível.
 
 Sem paredes onde o som possa refletir, o ar livre dispersa o som mais longe do que uma sala, por isso as colunas são colocadas de modo a projetar o som por todo o espaço. Seja honesto consigo próprio quanto ao que isso lhe dá: um PA claro e potente, não um sistema surround nem de cinema em casa. O nosso próprio equipamento de som é o PA descrito acima. Se a sua noite precisar de um sistema surround ou de cinema em casa, diga-nos e procuramos a solução com os nossos fornecedores, se existir.
 
@@ -126,7 +126,7 @@ Nenhuma destas é uma noite de cinema ao ar livre. São reservas de projetor e e
 ![Filas de participantes numa conferência na província de Málaga a ver uma apresentação no ecrã de projeção principal, alimentado por um projetor alugado.](https://cdn.malagaeventgear.com/blog/1305/lighting-sound-big-screen-projector-rental-malaga_6.webp "Participantes numa conferência sentados diante do ecrã de projeção principal durante uma apresentação.")
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/'])} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/', '/2278/'])} speed="normal" direction="left" />
 </div>
 
 ## Reserva e zona de serviço

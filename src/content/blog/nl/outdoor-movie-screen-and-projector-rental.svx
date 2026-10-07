@@ -22,7 +22,7 @@ Neem vandaag nog contact met ons op om ons [aanbod aan apparatuur en pakketten](
 
 ---
 
-Malaga Event Gear levert een projectiescherm en een beamer, altijd als paar, plus actieve PA-luidsprekers voor openluchtvoorstellingen in villa's, op terrassen, in tuinen en op strandlocaties. Onze crew levert, installeert, test en haalt alles weer op, en de prijzen staan vooraf online, vanaf 295 euro excl. btw voor een gebundeld pakket met scherm, beamer en geluid.
+Malaga Event Gear levert een projectiescherm en een beamer, altijd als paar, plus PA-luidsprekers voor openluchtvoorstellingen in villa's, op terrassen, in tuinen en op strandlocaties. Onze crew levert, installeert, test en haalt alles weer op, en de prijzen staan vooraf online, vanaf 295 euro excl. btw voor een gebundeld pakket met scherm, beamer en geluid.
 
 Vertel ons je locatie, het aantal gasten en de schermgrootte die je in gedachten hebt, en we bevestigen wat past. [Neem contact met ons op](/contact/) om te beginnen.
 
@@ -36,7 +36,7 @@ Vertel ons je locatie, het aantal gasten en de schermgrootte die je in gedachten
 
 -   Een groter Da-Lite-scherm van 2.30 x 3.00 m, voor front- en achterprojectie, is losse apparatuur, zit in geen enkel pakket en wordt op aanvraag geoffreerd.
 
--   Het geluid komt van actieve PA-luidsprekers op statieven, niet van een thuisbioscoopsysteem.
+-   Het geluid komt van PA-luidsprekers, niet van een thuisbioscoopsysteem.
 
 -   Generatoren en tenten zitten niet in onze eigen voorraad: bevestig bij het boeken de stroomvoorziening van de locatie en zie [Stroom, weer en timing van schemering tot donker](#stroom-weer-en-timing-van-schemering-tot-donker).
 
@@ -81,7 +81,7 @@ Wil je een scherm dat groter is dan 2.30 x 3.00 m, dan zit dat niet in onze eige
 
 ## Geluid voor een film buiten: PA-luidsprekers, geen thuisbioscoopsysteem
 
-Een filmsoundtrack bestaat vooral uit dialoog, en dialoog vraagt om luidsprekers die luid en helder genoeg zijn om de achterkant van het publiek te bereiken. Precies dat doet een PA-systeem, en dat is wat we leveren: actieve luidsprekers op statieven, getest op jouw locatie voordat het publiek arriveert.
+Een filmsoundtrack bestaat vooral uit dialoog, en dialoog vraagt om luidsprekers die luid en helder genoeg zijn om de achterkant van het publiek te bereiken. Precies dat doet een PA-systeem, en dat is wat we leveren: PA-luidsprekers, getest op jouw locatie voordat het publiek arriveert.
 
 -   Het [Eco Pack](/packages/eco/) bevat 2 actieve luidsprekers met statieven voor maximaal 50 gasten, zelf te bedienen zonder technicus ter plaatse, plus de optionele extra met beamer en scherm.
 
@@ -89,7 +89,7 @@ Een filmsoundtrack bestaat vooral uit dialoog, en dialoog vraagt om luidsprekers
 
 -   Het [MICE Pack](/packages/mice/) brengt professionele actieve luidsprekers voor maximaal 120 gasten, met een technicus tot 6 uur.
 
-Het Wedding Pack en het MICE Pack bevatten geen beamer of scherm. Heb je een groter publiek, vertel ons dan welke combinatie van geluid, scherm en beamer je nodig hebt en we bevestigen wat mogelijk is.
+Het Wedding Pack en het MICE Pack bevatten geen beamer of projectiescherm. Heb je een groter publiek, vertel ons dan welke combinatie van geluid, scherm en beamer je nodig hebt en we bevestigen wat mogelijk is.
 
 Zonder muren om tegenaan te weerkaatsen verspreidt geluid zich in de open lucht verder dan in een ruimte, dus de luidsprekers worden zo geplaatst dat ze over de hele ruimte uitstralen. Wees eerlijk tegenover jezelf over wat je daarmee krijgt: een heldere, krachtige PA, geen surround- of thuisbioscoopsysteem. Onze eigen geluidsapparatuur is de hierboven beschreven PA. Heeft je avond een surround- of thuisbioscoopsysteem nodig, laat het ons dan weten, en we zoeken een oplossing bij onze leveranciers, als die er is.
 
@@ -126,7 +126,7 @@ Geen van deze is een openluchtfilmavond. Het zijn boekingen van beamer en scherm
 ![Rijen conferentiedeelnemers in de provincie Malaga die een presentatie volgen op het hoofdprojectiescherm, aangestuurd door een gehuurde beamer.](https://cdn.malagaeventgear.com/blog/1305/lighting-sound-big-screen-projector-rental-malaga_6.webp "Conferentiedeelnemers zitten tijdens een presentatie voor het hoofdprojectiescherm.")
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/'])} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/', '/2278/'])} speed="normal" direction="left" />
 </div>
 
 ## Boeking en servicegebied

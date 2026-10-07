@@ -22,7 +22,7 @@ Entre em contato conosco hoje mesmo para conhecer a nossa [linha de equipamentos
 
 ---
 
-A Malaga Event Gear fornece uma tela de projeção e um projetor, sempre em par, além de caixas de som ativas PA para sessões ao ar livre em casas, terraços, jardins e locais à beira da praia. Nossa equipe entrega, monta, testa e retira tudo, e os preços são publicados de antemão, a partir de 295 euros sem IVA por um pacote que reúne tela, projetor e som.
+A Malaga Event Gear fornece uma tela de projeção e um projetor, sempre em par, além de caixas de som PA para sessões ao ar livre em casas, terraços, jardins e locais à beira da praia. Nossa equipe entrega, monta, testa e retira tudo, e os preços são publicados de antemão, a partir de 295 euros sem IVA por um pacote que reúne tela, projetor e som.
 
 Conte para a gente o seu local, o número de convidados e o tamanho de tela que você tem em mente, e confirmamos o que serve. [Entre em contato conosco](/contact/) para começar.
 
@@ -36,7 +36,7 @@ Conte para a gente o seu local, o número de convidados e o tamanho de tela que 
 
 -   Uma tela Da-Lite maior, de 2.30 x 3.00 m, para projeção frontal e retroprojeção, é um equipamento à parte, não incluído em nenhum pacote e orçado sob consulta.
 
--   O som vem de caixas de som ativas PA em tripés, não de um sistema de home theater.
+-   O som vem de caixas de som PA, não de um sistema de home theater.
 
 -   Geradores e tendas não fazem parte do nosso estoque próprio: confirme com a gente a energia do local na hora de reservar e veja [Energia elétrica, clima e horário, do entardecer ao escuro](#energia-elétrica-clima-e-horário-do-entardecer-ao-escuro).
 
@@ -81,7 +81,7 @@ Se você quiser uma tela maior que 2.30 x 3.00 m, ela não faz parte do nosso es
 
 ## Som para um filme ao ar livre: caixas de som PA, não um sistema de home theater
 
-A trilha sonora de um filme é feita principalmente de diálogo, e o diálogo precisa de caixas de som potentes e nítidas o bastante para chegar ao fundo do público. É exatamente isso que um sistema PA faz, e é o que entregamos: caixas de som ativas em tripés, testadas no seu local antes de o público chegar.
+A trilha sonora de um filme é feita principalmente de diálogo, e o diálogo precisa de caixas de som potentes e nítidas o bastante para chegar ao fundo do público. É exatamente isso que um sistema PA faz, e é o que entregamos: caixas de som PA, testadas no seu local antes de o público chegar.
 
 -   O [Eco Pack](/packages/eco/) inclui 2 caixas de som ativas com tripés para até 50 convidados, operado de forma autônoma e sem técnico no local, mais o extra opcional de projetor e tela.
 
@@ -89,7 +89,7 @@ A trilha sonora de um filme é feita principalmente de diálogo, e o diálogo pr
 
 -   O [MICE Pack](/packages/mice/) traz caixas de som ativas profissionais para até 120 convidados, com um técnico por até 6 horas.
 
-O Wedding Pack e o MICE Pack não incluem projetor nem tela. Para um público maior, conte para a gente a combinação de som, tela e projetor de que você precisa e confirmamos o que é possível.
+O Wedding Pack e o MICE Pack não incluem projetor nem tela de projeção. Para um público maior, conte para a gente a combinação de som, tela e projetor de que você precisa e confirmamos o que é possível.
 
 Sem paredes para o som refletir, o ar livre dispersa o som mais longe do que uma sala, então as caixas de som são posicionadas de modo a projetar o som por todo o espaço. Seja honesto consigo mesmo sobre o que isso entrega: um PA claro e potente, não um sistema surround nem de home theater. O nosso equipamento de som próprio é o PA descrito acima. Se a sua noite precisar de um sistema surround ou de home theater, fale com a gente e procuramos a solução com os nossos fornecedores, se existir.
 
@@ -126,7 +126,7 @@ Nenhuma destas é uma noite de cinema ao ar livre. São reservas de projetor e t
 ![Fileiras de participantes de uma conferência na província de Málaga assistindo a uma apresentação na tela de projeção principal, alimentada por um projetor alugado.](https://cdn.malagaeventgear.com/blog/1305/lighting-sound-big-screen-projector-rental-malaga_6.webp "Participantes de uma conferência sentados diante da tela de projeção principal durante uma apresentação.")
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/'])} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/', '/2278/'])} speed="normal" direction="left" />
 </div>
 
 ## Reserva e área de atendimento

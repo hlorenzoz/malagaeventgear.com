@@ -30,7 +30,7 @@ Contact us today to explore our [range of equipment and packages](/packages/).
 
 ---
 
-Malaga Event Gear supplies a projection screen and a projector, always as a pair, plus active PA speakers for outdoor screenings at villas, terraces, gardens and beach venues. Our crew delivers, installs, tests and collects everything, and prices are published up front, from 295 euros ex VAT for a bundled screen, projector and sound package.
+Malaga Event Gear supplies a projection screen and a projector, always as a pair, plus PA speakers for outdoor screenings at villas, terraces, gardens and beach venues. Our crew delivers, installs, tests and collects everything, and prices are published up front, from 295 euros ex VAT for a bundled screen, projector and sound package.
 
 Tell us your venue, your guest count and the screen size you have in mind, and we confirm what fits. [Contact us](/contact/) to start.
 
@@ -44,7 +44,7 @@ Tell us your venue, your guest count and the screen size you have in mind, and w
 
 -   A larger Da-Lite screen of 2.30 x 3.00 m, for front and rear projection, is separate equipment, not included in any package and quoted on request.
 
--   Sound comes from active PA speakers on stands, not a home cinema system.
+-   Sound comes from PA speakers, not a home cinema system.
 
 -   Generators and tents are not in our own inventory: confirm the venue's power with us when you book, and see [Power, Weather and Timing From Dusk to Dark](#power-weather-and-timing-from-dusk-to-dark).
 
@@ -89,7 +89,7 @@ If you want a screen bigger than 2.30 x 3.00 m, that is not in our own inventory
 
 ## Sound for an Outdoor Movie: PA Speakers, Not a Home Cinema System
 
-A film soundtrack is mostly dialogue, and dialogue needs speakers loud and clear enough to reach the back of the audience. That is exactly what a PA system does, and it is what we deliver: active speakers on stands, tested at your venue before the audience arrives.
+A film soundtrack is mostly dialogue, and dialogue needs speakers loud and clear enough to reach the back of the audience. That is exactly what a PA system does, and it is what we deliver: PA speakers, tested at your venue before the audience arrives.
 
 -   The [Eco Pack](/packages/eco/) includes 2 active speakers with stands for up to 50 guests, self run with no technician on site, plus the optional projector and screen add on.
 
@@ -97,7 +97,7 @@ A film soundtrack is mostly dialogue, and dialogue needs speakers loud and clear
 
 -   The [MICE Pack](/packages/mice/) brings professional active speakers for up to 120 guests with a technician for up to 6 hours.
 
-The Wedding Pack and the MICE Pack do not list a projector and screen among their inclusions. For a larger crowd, tell us the combination of sound, screen and projector you need and we confirm what is possible.
+The Wedding Pack and the MICE Pack do not list a projector and projection screen among their inclusions. For a larger crowd, tell us the combination of sound, screen and projector you need and we confirm what is possible.
 
 With no walls to reflect off, open air disperses sound further than a room does, so the speakers are placed to project across the space. Be honest with yourself about what that gives you: a clear, powerful PA, not a surround sound or home cinema system. Our own sound equipment is the PA described above. If your night needs a surround or home cinema system, tell us and we look for the solution with our suppliers, if there is one.
 
@@ -134,7 +134,7 @@ None of these is an outdoor movie night. They are projector and screen bookings 
 ![Rows of conference attendees in the province of Malaga watching a presentation on the main projection screen powered by a rented projector.](https://cdn.malagaeventgear.com/blog/1305/lighting-sound-big-screen-projector-rental-malaga_6.webp "Conference attendees seated in front of the main projection screen during a presentation.")
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/'])} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/', '/2278/'])} speed="normal" direction="left" />
 </div>
 
 ## Booking and Service Area

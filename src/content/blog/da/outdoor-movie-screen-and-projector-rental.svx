@@ -22,7 +22,7 @@ Kontakt os i dag for at udforske vores [udvalg af udstyr og pakker](/packages/).
 
 ---
 
-Malaga Event Gear leverer et projektionslærred og en projektor, altid som et par, plus aktive PA-højttalere til udendørsvisninger i villaer, på terrasser, i haver og på steder ved stranden. Vores team leverer, installerer, tester og henter det hele, og priserne er offentliggjort på forhånd, fra 295 euro ekskl. moms for en pakke med lærred, projektor og lyd.
+Malaga Event Gear leverer et projektionslærred og en projektor, altid som et par, plus PA-højttalere til udendørsvisninger i villaer, på terrasser, i haver og på steder ved stranden. Vores team leverer, installerer, tester og henter det hele, og priserne er offentliggjort på forhånd, fra 295 euro ekskl. moms for en pakke med lærred, projektor og lyd.
 
 Fortæl os, hvilket sted du har, hvor mange gæster du regner med, og hvilken lærredsstørrelse du har i tankerne, så bekræfter vi, hvad der passer. [Kontakt os](/contact/) for at komme i gang.
 
@@ -36,7 +36,7 @@ Fortæl os, hvilket sted du har, hvor mange gæster du regner med, og hvilken l�
 
 -   Et større Da-Lite-lærred på 2.30 x 3.00 m til front- og bagprojektion er separat udstyr, indgår ikke i nogen pakke og tilbydes på forespørgsel.
 
--   Lyden kommer fra aktive PA-højttalere på stativer, ikke fra et hjemmebiosystem.
+-   Lyden kommer fra PA-højttalere, ikke fra et hjemmebiosystem.
 
 -   Generatorer og telte er ikke på vores eget lager: bekræft stedets strøm med os, når du booker, og læs [Strøm, vejr og timing fra skumring til mørke](#strøm-vejr-og-timing-fra-skumring-til-mørke).
 
@@ -81,7 +81,7 @@ Hvis du ønsker et lærred, der er større end 2.30 x 3.00 m, er det ikke på vo
 
 ## Lyd til en film udendørs: PA-højttalere, ikke et hjemmebiosystem
 
-Et filmlydspor består mest af dialog, og dialog kræver højttalere, der er kraftige og klare nok til at nå publikums bagerste del. Det er præcis, hvad et PA-system gør, og det er det, vi leverer: aktive højttalere på stativer, testet på dit sted, før publikum ankommer.
+Et filmlydspor består mest af dialog, og dialog kræver højttalere, der er kraftige og klare nok til at nå publikums bagerste del. Det er præcis, hvad et PA-system gør, og det er det, vi leverer: PA-højttalere, testet på dit sted, før publikum ankommer.
 
 -   [Eco Pack](/packages/eco/) indeholder 2 aktive højttalere med stativer til op til 50 gæster, som du selv betjener uden tekniker på stedet, plus det valgfrie tilvalg med projektor og lærred.
 
@@ -89,7 +89,7 @@ Et filmlydspor består mest af dialog, og dialog kræver højttalere, der er kra
 
 -   [MICE Pack](/packages/mice/) leverer professionelle aktive højttalere til op til 120 gæster med en tekniker i op til 6 timer.
 
-Wedding Pack og MICE Pack indeholder hverken projektor eller lærred. Til et større publikum kan du fortælle os, hvilken kombination af lyd, lærred og projektor du har brug for, så bekræfter vi, hvad der er muligt.
+Wedding Pack og MICE Pack indeholder hverken projektor eller projektionslærred. Til et større publikum kan du fortælle os, hvilken kombination af lyd, lærred og projektor du har brug for, så bekræfter vi, hvad der er muligt.
 
 Uden vægge, som lyden kan blive kastet tilbage fra, spreder lyden sig længere i det fri end i et rum, så højttalerne placeres, så de projicerer ud over hele området. Vær ærlig over for dig selv om, hvad det giver dig: et klart, kraftfuldt PA, ikke et surround- eller hjemmebiosystem. Vores eget lydudstyr er det PA, der er beskrevet ovenfor. Hvis din aften kræver et surround- eller hjemmebiosystem, så fortæl os det, så leder vi efter en løsning hos vores leverandører, hvis der er en.
 
@@ -126,7 +126,7 @@ Ingen af dem er en filmaften udendørs. Det er bookinger af projektor og lærred
 ![Rækker af konferencedeltagere i provinsen Malaga, der følger en præsentation på det store projektionslærred, drevet af en lejet projektor.](https://cdn.malagaeventgear.com/blog/1305/lighting-sound-big-screen-projector-rental-malaga_6.webp "Konferencedeltagere, der sidder foran det store projektionslærred under en præsentation.")
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/'])} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/', '/2278/'])} speed="normal" direction="left" />
 </div>
 
 ## Booking og serviceområde

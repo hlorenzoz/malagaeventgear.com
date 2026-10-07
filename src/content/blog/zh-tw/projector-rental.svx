@@ -126,7 +126,7 @@ Malaga Event Gear為馬拉加及整個太陽海岸地區的私人派對、高階
 我們的團隊還負責了[托雷莫利諾斯PROGOLD SUMMIT 2026](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/)為期四天的國際會議的全部技術製作，高解析度顯示螢幕和明亮的投影系統在場地自身的企業照明條件下清楚呈現了複雜資料和多媒體內容，這正是5000流明等級所針對的明亮場地情境。
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/'])} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/', '/2278/'])} speed="normal" direction="left" />
 </div>
 
 ## 需要提前多久預約

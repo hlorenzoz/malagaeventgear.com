@@ -22,7 +22,7 @@ Kontaktieren Sie uns noch heute, um unser [Angebot an Technik und Paketen](/pack
 
 ---
 
-Malaga Event Gear liefert eine Projektionsleinwand und einen Beamer, immer als Paar, dazu aktive PA-Lautsprecher für Freiluftvorführungen in Villen, auf Terrassen, in Gärten und an Strandlocations. Unsere Crew liefert, installiert, testet und holt alles wieder ab, und die Preise sind vorab veröffentlicht, ab 295 Euro zzgl. MwSt. für ein Paket aus Leinwand, Beamer und Ton.
+Malaga Event Gear liefert eine Projektionsleinwand und einen Beamer, immer als Paar, dazu PA-Lautsprecher für Freiluftvorführungen in Villen, auf Terrassen, in Gärten und an Strandlocations. Unsere Crew liefert, installiert, testet und holt alles wieder ab, und die Preise sind vorab veröffentlicht, ab 295 Euro zzgl. MwSt. für ein Paket aus Leinwand, Beamer und Ton.
 
 Nennen Sie uns Ihre Location, die Gästezahl und die Leinwandgröße, die Ihnen vorschwebt, und wir bestätigen, was passt. [Kontaktieren Sie uns](/contact/), um zu starten.
 
@@ -36,7 +36,7 @@ Nennen Sie uns Ihre Location, die Gästezahl und die Leinwandgröße, die Ihnen 
 
 -   Eine größere Da-Lite-Leinwand von 2.30 x 3.00 m für Front- und Rückprojektion ist separate Technik, in keinem Paket enthalten und auf Anfrage kalkuliert.
 
--   Der Ton kommt von aktiven PA-Lautsprechern auf Stativen, nicht von einer Heimkinoanlage.
+-   Der Ton kommt von PA-Lautsprechern, nicht von einer Heimkinoanlage.
 
 -   Generatoren und Zelte gehören nicht zu unserem eigenen Bestand: Bestätigen Sie uns bei der Buchung die Stromversorgung der Location und lesen Sie [Strom, Wetter und Timing von der Dämmerung bis zur Dunkelheit](#strom-wetter-und-timing-von-der-dämmerung-bis-zur-dunkelheit).
 
@@ -81,7 +81,7 @@ Wenn Sie eine Leinwand brauchen, die größer ist als 2.30 x 3.00 m, ist das nic
 
 ## Ton für einen Film im Freien: PA-Lautsprecher, keine Heimkinoanlage
 
-Ein Filmsoundtrack besteht überwiegend aus Dialog, und Dialog braucht Lautsprecher, die laut und klar genug sind, um die letzte Reihe des Publikums zu erreichen. Genau das leistet eine PA-Anlage, und genau das liefern wir: aktive Lautsprecher auf Stativen, getestet an Ihrer Location, bevor das Publikum eintrifft.
+Ein Filmsoundtrack besteht überwiegend aus Dialog, und Dialog braucht Lautsprecher, die laut und klar genug sind, um die letzte Reihe des Publikums zu erreichen. Genau das leistet eine PA-Anlage, und genau das liefern wir: PA-Lautsprecher, getestet an Ihrer Location, bevor das Publikum eintrifft.
 
 -   Das [Eco Pack](/packages/eco/) enthält 2 aktive Lautsprecher mit Stativen für bis zu 50 Gäste, in Eigenregie bedient ohne Techniker vor Ort, plus das optionale Extra mit Beamer und Leinwand.
 
@@ -89,7 +89,7 @@ Ein Filmsoundtrack besteht überwiegend aus Dialog, und Dialog braucht Lautsprec
 
 -   Das [MICE Pack](/packages/mice/) bringt professionelle aktive Lautsprecher für bis zu 120 Gäste mit einem Techniker für bis zu 6 Stunden.
 
-Das Wedding Pack und das MICE Pack enthalten weder Beamer noch Leinwand. Für ein größeres Publikum nennen Sie uns die Kombination aus Ton, Leinwand und Beamer, die Sie brauchen, und wir bestätigen, was möglich ist.
+Das Wedding Pack und das MICE Pack enthalten weder Beamer noch Projektionsleinwand. Für ein größeres Publikum nennen Sie uns die Kombination aus Ton, Leinwand und Beamer, die Sie brauchen, und wir bestätigen, was möglich ist.
 
 Ohne Wände, an denen sich der Schall brechen kann, verteilt sich der Ton im Freien weiter als in einem Raum, deshalb werden die Lautsprecher so platziert, dass sie über den Platz hinweg abstrahlen. Seien Sie ehrlich zu sich selbst, was Sie damit bekommen: eine klare, kräftige PA, keine Surround- oder Heimkinoanlage. Unsere eigene Tontechnik ist die oben beschriebene PA. Wenn Ihr Abend eine Surround- oder Heimkinoanlage braucht, sagen Sie es uns, und wir suchen eine Lösung bei unseren Lieferanten, falls es eine gibt.
 
@@ -126,7 +126,7 @@ Keines davon ist ein Freiluftkinoabend. Es sind Buchungen von Beamer und Leinwan
 ![Reihen von Konferenzteilnehmern in der Provinz Malaga, die eine Präsentation auf der Hauptprojektionsleinwand verfolgen, die von einem gemieteten Beamer bespielt wird.](https://cdn.malagaeventgear.com/blog/1305/lighting-sound-big-screen-projector-rental-malaga_6.webp "Konferenzteilnehmer sitzen während einer Präsentation vor der Hauptprojektionsleinwand.")
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/'])} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/', '/2278/'])} speed="normal" direction="left" />
 </div>
 
 ## Buchung und Servicegebiet

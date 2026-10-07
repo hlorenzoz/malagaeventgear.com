@@ -126,7 +126,7 @@ Konferencedeltagere, der sidder foran det store projektionslærred under en præ
 Vores team stod også for hele den tekniske produktion af en international konference over fire dage ved [PROGOLD SUMMIT 2026 i Torremolinos](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/), hvor skærme med høj opløsning og lysstærke projektionssystemer viste komplekse data og multimedieindhold tydeligt under lokalets egen virksomhedsbelysning, præcis det scenarie med et oplyst lokale, som niveauet på 5000 lumen er til for.
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/'])} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/', '/2278/'])} speed="normal" direction="left" />
 </div>
 
 ## Hvor tidligt du skal booke

@@ -22,7 +22,7 @@ Kontakta oss redan i dag för att utforska vårt [utbud av utrustning och paket]
 
 ---
 
-Malaga Event Gear tillhandahåller en projektionsduk och en projektor, alltid som par, plus aktiva PA-högtalare för visningar utomhus på villor, terrasser, i trädgårdar och på strandnära lokaler. Vårt team levererar, installerar, testar och hämtar allt, och priserna publiceras i förväg, från 295 euro exklusive moms för ett paket med duk, projektor och ljud.
+Malaga Event Gear tillhandahåller en projektionsduk och en projektor, alltid som par, plus PA-högtalare för visningar utomhus på villor, terrasser, i trädgårdar och på strandnära lokaler. Vårt team levererar, installerar, testar och hämtar allt, och priserna publiceras i förväg, från 295 euro exklusive moms för ett paket med duk, projektor och ljud.
 
 Berätta för oss vilken lokal du har, hur många gäster du räknar med och vilken dukstorlek du tänker dig, så bekräftar vi vad som passar. [Kontakta oss](/contact/) för att komma igång.
 
@@ -36,7 +36,7 @@ Berätta för oss vilken lokal du har, hur många gäster du räknar med och vil
 
 -   En större Da-Lite-duk på 2.30 x 3.00 m, för front- och bakprojektion, är separat utrustning, ingår inte i något paket och offereras på begäran.
 
--   Ljudet kommer från aktiva PA-högtalare på stativ, inte från ett hemmabiosystem.
+-   Ljudet kommer från PA-högtalare, inte från ett hemmabiosystem.
 
 -   Generatorer och tält finns inte i vårt eget lager: bekräfta lokalens el med oss när du bokar, och läs [Ström, väder och timing från skymning till mörker](#ström-väder-och-timing-från-skymning-till-mörker).
 
@@ -81,7 +81,7 @@ Om du vill ha en duk som är större än 2.30 x 3.00 m finns den inte i vårt eg
 
 ## Ljud för en film utomhus: PA-högtalare, inte ett hemmabiosystem
 
-Ett filmljudspår består mest av dialog, och dialog kräver högtalare som är kraftfulla och tydliga nog för att nå publikens bakre delar. Det är precis vad ett PA-system gör, och det är vad vi levererar: aktiva högtalare på stativ, testade i din lokal innan publiken kommer.
+Ett filmljudspår består mest av dialog, och dialog kräver högtalare som är kraftfulla och tydliga nog för att nå publikens bakre delar. Det är precis vad ett PA-system gör, och det är vad vi levererar: PA-högtalare, testade i din lokal innan publiken kommer.
 
 -   [Eco Pack](/packages/eco/) innehåller 2 aktiva högtalare med stativ för upp till 50 gäster, som du sköter själv utan tekniker på plats, plus det valfria tillvalet med projektor och duk.
 
@@ -89,7 +89,7 @@ Ett filmljudspår består mest av dialog, och dialog kräver högtalare som är 
 
 -   [MICE Pack](/packages/mice/) ger professionella aktiva högtalare för upp till 120 gäster med en tekniker i upp till 6 timmar.
 
-Wedding Pack och MICE Pack innehåller ingen projektor eller duk. För en större publik berättar du vilken kombination av ljud, duk och projektor du behöver, så bekräftar vi vad som är möjligt.
+Wedding Pack och MICE Pack innehåller ingen projektor eller projektionsduk. För en större publik berättar du vilken kombination av ljud, duk och projektor du behöver, så bekräftar vi vad som är möjligt.
 
 Utan väggar som ljudet kan reflekteras mot sprids ljudet längre utomhus än i ett rum, så högtalarna placeras för att projicera över hela ytan. Var ärlig mot dig själv om vad det ger dig: ett tydligt, kraftfullt PA, inte ett surround- eller hemmabiosystem. Vår egen ljudutrustning är det PA som beskrivs ovan. Om din kväll behöver ett surround- eller hemmabiosystem, berätta för oss så letar vi efter en lösning hos våra leverantörer, om det finns någon.
 
@@ -126,7 +126,7 @@ Ingen av dessa är en filmkväll utomhus. De är bokningar av projektor och duk 
 ![Rader av konferensdeltagare i provinsen Malaga som tittar på en presentation på den stora projektionsduken, driven av en hyrd projektor.](https://cdn.malagaeventgear.com/blog/1305/lighting-sound-big-screen-projector-rental-malaga_6.webp "Konferensdeltagare som sitter framför den stora projektionsduken under en presentation.")
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/'])} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/', '/2278/'])} speed="normal" direction="left" />
 </div>
 
 ## Bokning och serviceområde

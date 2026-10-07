@@ -22,7 +22,7 @@ Contactez-nous dès aujourd'hui pour découvrir notre [gamme de matériel et de 
 
 ---
 
-Malaga Event Gear fournit un écran de projection et un vidéoprojecteur, toujours en paire, ainsi que des enceintes actives de sonorisation pour des projections en plein air dans des villas, sur des terrasses, dans des jardins et sur des lieux en bord de plage. Notre équipe livre, installe, teste et récupère l'ensemble, et les prix sont publiés d'emblée, à partir de 295 euros HT pour un forfait regroupant écran, vidéoprojecteur et son.
+Malaga Event Gear fournit un écran de projection et un vidéoprojecteur, toujours en paire, ainsi que des enceintes de sonorisation pour des projections en plein air dans des villas, sur des terrasses, dans des jardins et sur des lieux en bord de plage. Notre équipe livre, installe, teste et récupère l'ensemble, et les prix sont publiés d'emblée, à partir de 295 euros HT pour un forfait regroupant écran, vidéoprojecteur et son.
 
 Indiquez-nous votre lieu, votre nombre d'invités et la taille d'écran que vous avez en tête, et nous confirmons ce qui convient. [Contactez-nous](/contact/) pour commencer.
 
@@ -36,7 +36,7 @@ Indiquez-nous votre lieu, votre nombre d'invités et la taille d'écran que vous
 
 -   Un écran Da-Lite plus grand, de 2.30 x 3.00 m, pour la projection frontale et la rétroprojection, est un matériel à part, non inclus dans un forfait et chiffré sur demande.
 
--   Le son vient d'enceintes actives de sonorisation sur pieds, pas d'un système home cinéma.
+-   Le son vient d'enceintes de sonorisation, pas d'un système home cinéma.
 
 -   Les groupes électrogènes et les tentes ne font pas partie de notre propre inventaire : confirmez avec nous l'alimentation électrique du lieu au moment de la réservation, et consultez [Électricité, météo et horaire, du crépuscule à la nuit noire](#électricité-météo-et-horaire-du-crépuscule-à-la-nuit-noire).
 
@@ -81,7 +81,7 @@ Si vous voulez un écran plus grand que 2.30 x 3.00 m, il ne figure pas dans not
 
 ## Le son d'un film en plein air : des enceintes de sonorisation, pas un système home cinéma
 
-Une bande-son de film est surtout faite de dialogues, et les dialogues demandent des enceintes assez puissantes et claires pour atteindre le fond du public. C'est exactement ce que fait une sonorisation, et c'est ce que nous livrons : des enceintes actives sur pieds, testées sur votre lieu avant l'arrivée du public.
+Une bande-son de film est surtout faite de dialogues, et les dialogues demandent des enceintes assez puissantes et claires pour atteindre le fond du public. C'est exactement ce que fait une sonorisation, et c'est ce que nous livrons : des enceintes de sonorisation, testées sur votre lieu avant l'arrivée du public.
 
 -   L'[Eco Pack](/packages/eco/) comprend 2 enceintes actives avec pieds pour jusqu'à 50 invités, utilisées en autonomie sans technicien sur place, ainsi que l'option vidéoprojecteur et écran.
 
@@ -89,7 +89,7 @@ Une bande-son de film est surtout faite de dialogues, et les dialogues demandent
 
 -   Le [MICE Pack](/packages/mice/) apporte des enceintes actives professionnelles pour jusqu'à 120 invités, avec un technicien jusqu'à 6 heures.
 
-Le Wedding Pack et le MICE Pack n'incluent ni vidéoprojecteur ni écran. Pour un public plus nombreux, dites-nous la combinaison de son, d'écran et de vidéoprojecteur qu'il vous faut et nous confirmons ce qui est possible.
+Le Wedding Pack et le MICE Pack n'incluent ni vidéoprojecteur ni écran de projection. Pour un public plus nombreux, dites-nous la combinaison de son, d'écran et de vidéoprojecteur qu'il vous faut et nous confirmons ce qui est possible.
 
 Sans murs sur lesquels se réfléchir, le plein air disperse le son plus loin qu'une salle, et les enceintes sont donc placées de façon à projeter à travers l'espace. Soyez honnête avec vous-même sur ce que cela vous apporte : une sonorisation claire et puissante, pas un système surround ni un système home cinéma. Notre propre matériel de sonorisation est la sonorisation décrite ci-dessus. Si votre soirée nécessite un système surround ou home cinéma, dites-le-nous et nous cherchons la solution avec nos fournisseurs, s'il y en a une.
 
@@ -126,7 +126,7 @@ Aucune de ces installations n'est une soirée cinéma en plein air. Ce sont des 
 ![Rangées de participants à une conférence dans la province de Malaga, regardant une présentation sur l'écran de projection principal alimenté par un vidéoprojecteur loué.](https://cdn.malagaeventgear.com/blog/1305/lighting-sound-big-screen-projector-rental-malaga_6.webp "Des participants à une conférence assis devant l'écran de projection principal pendant une présentation.")
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/'])} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/', '/2278/'])} speed="normal" direction="left" />
 </div>
 
 ## Réservation et zone de service

@@ -22,7 +22,7 @@ Kontakt oss i dag for å utforske [utvalget vårt av utstyr og pakker](/packages
 
 ---
 
-Malaga Event Gear leverer et prosjeksjonslerret og en prosjektor, alltid som et par, pluss aktive PA-høyttalere til visninger utendørs i villaer, på terrasser, i hager og på steder ved stranden. Teamet vårt leverer, installerer, tester og henter alt, og prisene er publisert på forhånd, fra 295 euro eks. mva. for en pakke med lerret, prosjektor og lyd.
+Malaga Event Gear leverer et prosjeksjonslerret og en prosjektor, alltid som et par, pluss PA-høyttalere til visninger utendørs i villaer, på terrasser, i hager og på steder ved stranden. Teamet vårt leverer, installerer, tester og henter alt, og prisene er publisert på forhånd, fra 295 euro eks. mva. for en pakke med lerret, prosjektor og lyd.
 
 Fortell oss hvilket sted du har, hvor mange gjester du regner med og hvilken lerretstørrelse du har i tankene, så bekrefter vi hva som passer. [Kontakt oss](/contact/) for å komme i gang.
 
@@ -36,7 +36,7 @@ Fortell oss hvilket sted du har, hvor mange gjester du regner med og hvilken ler
 
 -   Et større Da-Lite-lerret på 2.30 x 3.00 m, for front- og bakprosjeksjon, er separat utstyr, inngår ikke i noen pakke og tilbys på forespørsel.
 
--   Lyden kommer fra aktive PA-høyttalere på stativer, ikke fra et hjemmekinoanlegg.
+-   Lyden kommer fra PA-høyttalere, ikke fra et hjemmekinoanlegg.
 
 -   Generatorer og telt er ikke på vårt eget lager: bekreft strømmen på stedet med oss når du bestiller, og les [Strøm, vær og timing fra skumring til mørke](#strøm-vær-og-timing-fra-skumring-til-mørke).
 
@@ -81,7 +81,7 @@ Hvis du vil ha et lerret som er større enn 2.30 x 3.00 m, er det ikke på vårt
 
 ## Lyd til en film utendørs: PA-høyttalere, ikke et hjemmekinoanlegg
 
-Et filmlydspor består mest av dialog, og dialog krever høyttalere som er kraftige og tydelige nok til å nå bakerst i publikummet. Det er nøyaktig det et PA-system gjør, og det er det vi leverer: aktive høyttalere på stativer, testet på stedet ditt før publikummet kommer.
+Et filmlydspor består mest av dialog, og dialog krever høyttalere som er kraftige og tydelige nok til å nå bakerst i publikummet. Det er nøyaktig det et PA-system gjør, og det er det vi leverer: PA-høyttalere, testet på stedet ditt før publikummet kommer.
 
 -   [Eco Pack](/packages/eco/) inneholder 2 aktive høyttalere med stativer for opptil 50 gjester, som du betjener selv uten tekniker på stedet, pluss det valgfrie tilvalget med prosjektor og lerret.
 
@@ -89,7 +89,7 @@ Et filmlydspor består mest av dialog, og dialog krever høyttalere som er kraft
 
 -   [MICE Pack](/packages/mice/) gir profesjonelle aktive høyttalere for opptil 120 gjester med en tekniker i opptil 6 timer.
 
-Wedding Pack og MICE Pack inneholder verken prosjektor eller lerret. For et større publikum kan du fortelle oss hvilken kombinasjon av lyd, lerret og prosjektor du trenger, så bekrefter vi hva som er mulig.
+Wedding Pack og MICE Pack inneholder verken prosjektor eller prosjeksjonslerret. For et større publikum kan du fortelle oss hvilken kombinasjon av lyd, lerret og prosjektor du trenger, så bekrefter vi hva som er mulig.
 
 Uten vegger som lyden kan reflekteres mot, sprer lyden seg lenger utendørs enn i et rom, så høyttalerne plasseres slik at de projiserer utover hele området. Vær ærlig mot deg selv om hva det gir deg: et tydelig, kraftig PA, ikke et surround- eller hjemmekinoanlegg. Vårt eget lydutstyr er PA-et som er beskrevet ovenfor. Hvis kvelden din krever et surround- eller hjemmekinoanlegg, si fra, så ser vi etter en løsning hos leverandørene våre, hvis det finnes en.
 
@@ -126,7 +126,7 @@ Ingen av disse er en filmkveld utendørs. Det er bestillinger av prosjektor og l
 ![Rader med konferansedeltakere i provinsen Malaga som følger en presentasjon på det store prosjeksjonslerretet, drevet av en leid prosjektor.](https://cdn.malagaeventgear.com/blog/1305/lighting-sound-big-screen-projector-rental-malaga_6.webp "Konferansedeltakere som sitter foran det store prosjeksjonslerretet under en presentasjon.")
 
 <div class="my-12 overflow-hidden w-full">
-	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/'])} speed="normal" direction="left" />
+	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1302/', '/1305/', '/1267/', '/2278/'])} speed="normal" direction="left" />
 </div>
 
 ## Bestilling og serviceområde
