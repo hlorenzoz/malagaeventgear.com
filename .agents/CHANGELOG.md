@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): audiovisual-equipment-rental-service, nueva FAQ "What is a gooseneck microphone?" (2026-10-07)
+- Tarea #T0039 (plan de contenido 2026-10-07, keyword "What is a gooseneck microphone?", research-paa newFaq).
+- Se agrego al final de `## FAQs` en `src/content/blog/audiovisual-equipment-rental-service.svx` la pregunta "What Is a Gooseneck Microphone?". Define el microfono de cuello flexible fijo a atril o podio y dice que es el microfono de podio del Basic MICE Pack y va con un inalambrico de mano en el MICE Pack, solo dentro de esos paquetes, no como alquiler suelto. Enlaces a ambos paquetes y a la seccion del post. Ninguna cifra nueva. El post no tiene `## Table of Contents` inline, no hubo bullet que anadir.
+- `updatedDate` ya era 2026-10-07 (cambio del mismo dia), `post-faqs.json` y `post-toc.json` regenerados.
+- Las 12 traducciones siguen en el mismo cambio (FAQ nueva por traducir).
+
 ### Changed (blog): stage-lighting-rental, nueva FAQ "Can I rent lights for a DJ set or a party?" (2026-10-07)
 - Tarea #T0070 (plan de contenido 2026-10-07, keyword "dj lights for hire", google-ads 10/mo).
 - Se agrego al final de `## FAQs` en `src/content/blog/stage-lighting-rental.svx` la pregunta "Can I rent lights for a DJ set or a party?". Responde con Eco Pack (2 barras RGBW, 290 euros ex VAT, hasta 50 invitados, enlace), ADJ Element H6 Pack (cotizacion aparte) y barras Eurolite con pedal, no DMX. Moving heads, lasers y strobes fuera del inventario propio, busqueda con proveedores si la hay. Ninguna cifra nueva. El post no tiene `## Table of Contents` inline, no hubo bullet que anadir.

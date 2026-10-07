@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-07",
+  "taskId": "#T0039",
+  "slug": "audiovisual-equipment-rental-service",
+  "searchTerm": "audiovisual equipment rental service What is a gooseneck microphone?",
+  "status": "partial",
+  "reason": "Google position 3 (rs-online.vn) gave HTTP 404 and position 4 (thomann.de/gr) redirected to another host, not followed. Thomann UK (position 6) read instead. Pages are mostly shops, so terms lean to product specs.",
+  "serp": {
+    "query": "What is a gooseneck microphone?",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://soundpro.com/collections/gooseneck-microphones?page=6", "title": "Gooseneck Microphones" },
+      { "rank": 2, "url": "https://cie-group.com/how-to-av/videos-and-blogs/what-is-a-gooseneck-microphone", "title": "what is a gooseneck microphone" },
+      { "rank": 3, "url": "https://www.thomann.co.uk/shure_mx418s_schwanenhalsmikrofon.htm", "title": "To the page content" }
+    ]
+  },
+  "terms": [
+    { "term": "gooseneck microphone", "kind": "entity", "seenIn": 3 },
+    { "term": "Shure", "kind": "entity", "seenIn": 3 },
+    { "term": "polar pattern", "kind": "related", "seenIn": 3 },
+    { "term": "lectern", "kind": "related", "seenIn": 3 },
+    { "term": "conferencing", "kind": "related", "seenIn": 3 },
+    { "term": "houses of worship", "kind": "related", "seenIn": 2 },
+    { "term": "public address paging", "kind": "related", "seenIn": 2 },
+    { "term": "Audio-Technica", "kind": "entity", "seenIn": 2 },
+    { "term": "windshield", "kind": "related", "seenIn": 2 },
+    { "term": "microphone capsule", "kind": "related", "seenIn": 2 },
+    { "term": "cardioid", "kind": "related", "seenIn": 2 },
+    { "term": "mounting", "kind": "related", "seenIn": 2 },
+    { "term": "adjustable height and angle", "kind": "related", "seenIn": 1 },
+    { "term": "boundary microphone", "kind": "entity", "seenIn": 1 },
+    { "term": "desktop base", "kind": "entity", "seenIn": 1 },
+    { "term": "mute switch", "kind": "related", "seenIn": 1 },
+    { "term": "condenser capsule", "kind": "related", "seenIn": 1 },
+    { "term": "feedback reduction", "kind": "related", "seenIn": 1 },
+    { "term": "Audix", "kind": "entity", "seenIn": 1 },
+    { "term": "Earthworks", "kind": "entity", "seenIn": 1 },
+    { "term": "AKG", "kind": "entity", "seenIn": 1 },
+    { "term": "lecture halls", "kind": "entity", "seenIn": 1 },
+    { "term": "What is a gooseneck microphone?", "kind": "question", "seenIn": 1 },
+    { "term": "How does a gooseneck microphone work?", "kind": "question", "seenIn": 1 },
+    { "term": "How can you mount a gooseneck microphone?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Why should customers choose this retailer?", "reason": "marketing slogan, not vocabulary" },
+    { "term": "Shure UK", "reason": "market-specific company name; kept as Shure" },
+    { "term": "Gooseneck 45cm length", "reason": "product spec for one model, not general vocabulary" },
+    { "term": "What customers purchased this product?", "reason": "shop page boilerplate" }
+  ]
+}

@@ -5073,6 +5073,11 @@
       "id": "do-you-rent-staging-truss-or-pipe-and-drape",
       "text": "Do You Rent Staging, Truss or Pipe and Drape?",
       "level": 3
+    },
+    {
+      "id": "what-is-a-gooseneck-microphone",
+      "text": "What Is a Gooseneck Microphone?",
+      "level": 3
     }
   ],
   "technical-support-for-events": [
