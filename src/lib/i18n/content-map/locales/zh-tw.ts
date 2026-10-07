@@ -31,7 +31,7 @@ export default {
 		mice: { slug: '會展方案', keyword: '馬拉加 大型會展音響投影方案', status: 'propuesta' }
 	},
 	categories: {
-		'audio-visual-rental': { slug: '影音租賃', name: '影音設備租賃' },
+		'audio-visual-rental': { slug: '影音設備租賃', name: '影音設備租賃' },
 		'corporate-enterprise': { slug: '企業活動', name: '企業活動' },
 		events: { slug: '活動', name: '活動' },
 		gadgets: { slug: '科技小物', name: '科技小物' },
