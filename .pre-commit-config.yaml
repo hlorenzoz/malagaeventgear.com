@@ -9,11 +9,11 @@ repos:
         # .agents/data/keywords.json es un archivo de datos deliberado (unos 2,6 MB), ver CLAUDE.md "Investigación de keywords"
         exclude: ^\.agents/data/keywords\.json$
 
-  - repo: https://github.com/rbubley/mirrors-prettier
-    rev: v3.3.1
+  # Biome (biome.json), la misma version que package.json. Formatea solo los archivos que el commit toca.
+  - repo: local
     hooks:
-      - id: prettier
-        types_or: [javascript, ts, svelte, css, markdown, yaml]
-        additional_dependencies:
-          - prettier@3.3.1
-          - prettier-plugin-svelte@3.2.3
+      - id: biome-format
+        name: biome format
+        entry: bunx biome format --write --no-errors-on-unmatched --files-ignore-unknown=true
+        language: system
+        types_or: [ts, javascript, svelte, css]

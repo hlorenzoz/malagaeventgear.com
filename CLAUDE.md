@@ -552,11 +552,16 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
 - **Reglas del stack que no se ven en el código de una página** (verificadas el 2026-09-24):
   - **Gate antes de commitear**: `just check` (= `wrangler types` + `fix-types.ts` + `svelte-kit
     sync` + `svelte-check`) más `just test`. El gate completo suma Playwright, `just build` y
-    `just test-lighthouse`. Formato (verificado 2026-10-07): el usuario formatea con Biome desde la
-    extensión del editor, sin configuración en el repo (no hay `biome.json` ni dependencia). El hook
-    instalado en `.git/hooks/pre-commit` NO corre Prettier: `.pre-commit-config.yaml` lo declara, pero
-    el framework `pre-commit` no está instalado como hook. `just format` sí usa Prettier. Ningún
-    formateador se impone en el commit hoy.
+    `just test-lighthouse`. Formato (decisión del usuario, 2026-10-07): **Biome**, no
+    Prettier. La config está en `biome.json` (tabs, comillas simples, sin comas finales, ancho 100,
+    solo formateador, linter apagado) y la versión fijada en `package.json`. `just format [rutas]`
+    formatea y `just format-check [rutas]` lista lo que formatearía distinto. Cubre `ts`, `js`, `mjs`,
+    `svelte` y `css`. Biome NO soporta markdown, yaml ni `.svx`: esos no los formatea nadie. El repo no
+    se reformateó de golpe (hoy unos dos tercios de los archivos de código difieren de la config, las
+    líneas anchas escritas a mano y por agentes): un reformateo completo es un commit aparte, decidido
+    por el usuario. `.pre-commit-config.yaml` declara el hook de Biome, pero el framework `pre-commit`
+    no está instalado como hook en este clon (el hook instalado solo tiene GGA y el guard de
+    traducciones), así que ningún formateador se impone en el commit hoy.
   - **Trailing slash**: lo impone `export const trailingSlash = 'always'` en
     `src/routes/+layout.ts`. No se agrega a mano en cada ruta.
   - **CSS inline**: `kit.inlineStyleThreshold: 102400` en `svelte.config.js`. Se compara contra el

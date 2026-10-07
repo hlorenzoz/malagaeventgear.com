@@ -24,9 +24,13 @@ gen:
 install:
     bun install
 
-# Formatea todo el código fuente utilizando Prettier de forma consistente con bunx
-format:
-    bunx prettier --write .
+# Formatea el codigo (ts, js, mjs, svelte, css) con Biome, segun biome.json. No toca markdown, yaml ni .svx (Biome no los soporta)
+format *paths:
+    bunx biome format --write {{paths}}
+
+# Lista los archivos de codigo que Biome formatearia distinto, sin escribir nada. Acepta rutas
+format-check *paths:
+    bunx biome format {{paths}}
 
 # Ejecuta las pruebas de integración E2E con Playwright
 playwright:
