@@ -1,0 +1,76 @@
+{
+	"date": "2026-10-08",
+	"run": {
+		"status": "ok",
+		"candidatesReviewed": 20,
+		"tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+	},
+	"items": [
+		{
+			"keywords": ["dj system for rent", "dj speaker hire", "hire music system for party", "hire dj mixer"],
+			"cluster": "audio visual rental",
+			"action": "add-faq",
+			"priority": "medium",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Misma intención (equipo de DJ o música para fiesta). /blog/sound-system-rental/ ya tiene el H2 'PA System or DJ Sound' y la FAQ del mezclador, pero ninguna pregunta responde a quien busca un sistema de DJ completo. Una FAQ lo aclara con honestidad sin crear página nueva (creating-helpful-content.md: mejorar la existente).",
+			"targetUrl": "/blog/sound-system-rental/",
+			"file": "src/content/blog/sound-system-rental.svx",
+			"question": "Can I rent a complete DJ system for a party?"
+		},
+		{
+			"keywords": ["dj sound system rental near me", "dj speaker hire near me", "dj speaker rental near me"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Variante 'near me' de una página existente: /blog/sound-system-rental/ ya cubre la demanda y su FAQ 'Do you deliver sound system rental near me outside Malaga city?'. Doorway abuse en spam-policies.md."
+		},
+		{
+			"keywords": ["hire projector near me", "hire a projector near me", "hire a projector and screen near me"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Variante 'near me' de /blog/projector-rental/, que ya tiene la FAQ 'Do you deliver projector rental near me outside Malaga city?'. Doorway abuse en spam-policies.md."
+		},
+		{
+			"keywords": ["hire an outdoor projector", "hire outdoor movie projector", "hire outdoor screen and projector"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Cubierto por /blog/outdoor-movie-screen-and-projector-rental/, secciones 'Outdoor Movie Screen Rental: Choosing Your Screen and Projector Size' y 'What an Outdoor Movie Night Needs'. Una página nueva sería canibalización."
+		},
+		{
+			"keywords": ["event projector screen", "fast fold screen rental", "fastfold screen hire"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Cubierto por /blog/projector-rental/, FAQs 'Can I rent just a projection screen, without a projector?' y 'Is a screen included with the projector' y la sección 'Why the Screen Is Always Bundled With the Projector'. No consta un modelo fast fold en el inventario, no se puede respaldar."
+		},
+		{
+			"keywords": ["event led screen rental", "giant screen hire", "exhibition screen hire"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Cubierto por /blog/tv-screen-rental/: sección 'What We Don't Stock: LED Video Walls and Modular LED Panels', FAQ 'Can Malaga Event Gear source an LED video wall through a supplier?' y la sección de stands de exposición. Ya está el encuadre de proveedores."
+		},
+		{
+			"keywords": ["gamma pro lights and sounds rental"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Búsqueda del nombre de otra empresa de alquiler: intención navegacional ajena, MEG no puede responderla (creating-helpful-content.md, contenido solo para atraer visitas)."
+		}
+	]
+}
