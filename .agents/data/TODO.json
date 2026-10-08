@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "tasks": [
     {
       "id": "#T0048",
@@ -770,36 +770,6 @@
       ]
     },
     {
-      "id": "#T0002",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "otro",
-      "titulo": "Comments",
-      "anotada": null,
-      "hecha": null,
-      "origen": "migrada",
-      "notas": [
-        "estado por confirmar (tenía \"❌ ✅\")",
-        "prioridad por defecto"
-      ],
-      "descripcion": []
-    },
-    {
-      "id": "#T0003",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "infraestructura",
-      "titulo": "Tracking Google Analytics & Cloudflare Zaraz",
-      "anotada": null,
-      "hecha": null,
-      "origen": "migrada",
-      "notas": [
-        "estado por confirmar (tenía \"❌ ✅\")",
-        "prioridad por defecto"
-      ],
-      "descripcion": []
-    },
-    {
       "id": "#T0004",
       "estado": "pendiente",
       "prioridad": "media",
@@ -896,35 +866,6 @@
       ]
     },
     {
-      "id": "#T0019",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "traduccion",
-      "titulo": "Orden de traducción de los posts (decisión del usuario, 2026-09-26)",
-      "anotada": null,
-      "hecha": null,
-      "origen": "migrada",
-      "notas": [
-        "prioridad asignada por content-strategist el 2026-10-01: Es una guia de orden de traduccion (decision del usuario del 2026-09-26) que ya esta en curso y evita canibalizacion al traducir primero el pilar y despues sus supporting en cadena",
-        "sin ningun bloqueo declarado mas alla del propio proceso que ya se sigue."
-      ],
-      "descripcion": [
-        "Primero el clúster de conferencias y eventos corporativos, después bodas, después el resto:",
-        "1. Pilar audio-visual-rental (todos los posts corporativos cuelgan de él: el pilar se traduce",
-        "   antes que sus supporting, para que los enlaces del silo salgan localizados). EN CURSO.",
-        "2. Tipos de evento corporativo: conferences, corporate-events, corporate-meetings,",
-        "   press-conferences, seminars, trade-shows, product-launches, training-sessions, gala-dinners,",
-        "   remote-presentations, virtual-events. Los de la tanda 1 de TGE (conferences, corporate-events,",
-        "   trade-shows) llevan antes su mención a TGE y su FAQ nueva en inglés.",
-        "3. News corporativos: ProGold Summit 2026, ECOC 2026, Bmotion Benahavís, Bmotion Marbella (tanda 1",
-        "   de TGE para los tres primeros).",
-        "4. Bodas: siguen en pros-and-cons-of-wedding-rentals (el orden de post-order.txt).",
-        "5. El resto (equipo, técnica, genéricos, planning-timeline, near me).",
-        "Ya traducidos al 2026-09-26: los 12 posts de la lista de \"Malaga, Spain en lo ya traducido\" más",
-        "questions-to-ask-wedding-rental-companies."
-      ]
-    },
-    {
       "id": "#T0073",
       "estado": "pendiente",
       "prioridad": "baja",
@@ -991,6 +932,69 @@
         "Añade full support para PWA",
         "",
         "Crea un PWA Installer (widget) que va a salir debajo del widget de WhatsApp y encima de la Cookie bar, pero solamente 3 segundos luego que el usuario haya hecho scroll below the fold (debajo de la sección header)."
+      ]
+    },
+    {
+      "id": "#T0002",
+      "estado": "bloqueada",
+      "prioridad": "baja",
+      "tipo": "otro",
+      "titulo": "Comments",
+      "anotada": null,
+      "hecha": null,
+      "origen": "migrada",
+      "notas": [
+        "estado por confirmar (tenía \"❌ ✅\")",
+        "prioridad por defecto",
+        "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
+      ],
+      "descripcion": []
+    },
+    {
+      "id": "#T0003",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "infraestructura",
+      "titulo": "Tracking Google Analytics & Cloudflare Zaraz",
+      "anotada": null,
+      "hecha": "2026-10-08",
+      "origen": "migrada",
+      "notas": [
+        "estado por confirmar (tenía \"❌ ✅\")",
+        "prioridad por defecto",
+        "cerrada por el usuario el 2026-10-08: el tracking de Google Analytics y Cloudflare Zaraz ya esta hecho"
+      ],
+      "descripcion": []
+    },
+    {
+      "id": "#T0019",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "traduccion",
+      "titulo": "Orden de traducción de los posts (decisión del usuario, 2026-09-26)",
+      "anotada": null,
+      "hecha": "2026-10-08",
+      "origen": "migrada",
+      "notas": [
+        "prioridad asignada por content-strategist el 2026-10-01: Es una guia de orden de traduccion (decision del usuario del 2026-09-26) que ya esta en curso y evita canibalizacion al traducir primero el pilar y despues sus supporting en cadena",
+        "sin ningun bloqueo declarado mas alla del propio proceso que ya se sigue.",
+        "cerrada por el usuario el 2026-10-08: obsoleta",
+        "los posts ya estan traducidos a los 12 idiomas"
+      ],
+      "descripcion": [
+        "Primero el clúster de conferencias y eventos corporativos, después bodas, después el resto:",
+        "1. Pilar audio-visual-rental (todos los posts corporativos cuelgan de él: el pilar se traduce",
+        "   antes que sus supporting, para que los enlaces del silo salgan localizados). EN CURSO.",
+        "2. Tipos de evento corporativo: conferences, corporate-events, corporate-meetings,",
+        "   press-conferences, seminars, trade-shows, product-launches, training-sessions, gala-dinners,",
+        "   remote-presentations, virtual-events. Los de la tanda 1 de TGE (conferences, corporate-events,",
+        "   trade-shows) llevan antes su mención a TGE y su FAQ nueva en inglés.",
+        "3. News corporativos: ProGold Summit 2026, ECOC 2026, Bmotion Benahavís, Bmotion Marbella (tanda 1",
+        "   de TGE para los tres primeros).",
+        "4. Bodas: siguen en pros-and-cons-of-wedding-rentals (el orden de post-order.txt).",
+        "5. El resto (equipo, técnica, genéricos, planning-timeline, near me).",
+        "Ya traducidos al 2026-09-26: los 12 posts de la lista de \"Malaga, Spain en lo ya traducido\" más",
+        "questions-to-ask-wedding-rental-companies."
       ]
     },
     {
