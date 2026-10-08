@@ -1017,7 +1017,10 @@
       "origen": "usuario",
       "notas": [
         "fuente: Local Dominator",
-        "Site Audit 2026-10-05"
+        "Site Audit 2026-10-05",
+        "verificado 2026-10-08: los dos enlaces share.google redirigen a la misma entidad de Google",
+        "kgmid=/g/11lzwbvtxp (misma ficha). CID de Maps decodificado de siteConfig.reviewUrl: 1378227528097734863",
+        "sin confirmar a la vista"
       ],
       "descripcion": [
         "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
