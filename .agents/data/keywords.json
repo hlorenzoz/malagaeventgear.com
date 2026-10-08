@@ -8140,6 +8140,61 @@
             "position": 38.5
           }
         },
+        "ubersuggest": {
+          "firstSeen": "2026-10-08",
+          "lastSeen": "2026-10-08",
+          "via": [
+            "content-ideas",
+            "seo-opportunities",
+            "serp",
+            "title-ideas"
+          ],
+          "stats": {
+            "asOf": "2026-10-08",
+            "volume": 10,
+            "difficulty": 5,
+            "cpc": 0,
+            "serp": {
+              "localPack": true,
+              "aiOverview": false,
+              "top": [
+                "http://www.avisualpro.es/en/",
+                "http://www.eventplanner.net/directory/c_audiovisual-equipment-rental.html",
+                "http://dimaraudiovisual.es/en/rental-of-events-audiovisual-equipment-madrid/",
+                "http://ensun.io/search/audio-visual-rental/spain",
+                "http://revenuebase.ai/companies/audio-visual-equipment-rental-companies/spain/madrid"
+              ],
+              "asOf": "2026-10-08"
+            },
+            "contentIdeas": [
+              {
+                "url": "http://ensun.io/search/audio-visual-rental/united-arab-emirates",
+                "estVisits": 0
+              },
+              {
+                "url": "http://www.hiretablets.ae/top-av-audio-visual-rental-companies-in-dubai/",
+                "estVisits": 0
+              },
+              {
+                "url": "http://qataryellowpagesonline.com/computer-market/products/av-rental-dubai-audio-visual-rental-companies-in-dubaiuae-811551.htm",
+                "estVisits": 0
+              },
+              {
+                "url": "http://mindspiritdesign.com/event-technology-companies/",
+                "estVisits": 0
+              },
+              {
+                "url": "http://omanyellowpagesonline.com/co-vrs-technologies/1297106/products/811551/av-rental-dubai-%7C-audio-visual-rental-companies-in-.html",
+                "estVisits": 0
+              }
+            ],
+            "titleIdeas": [
+              "Essential questions to ask audio visual rental companies before you book",
+              "Local versus national audio visual rental companies: choosing the right AV partner in Malaga",
+              "How to plan AV for a conference on the Costa del Sol with a rental company"
+            ]
+          }
+        },
         "blog": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-10-08"
@@ -8149,10 +8204,10 @@
           "lastSeen": "2026-10-08"
         }
       },
-      "opportunity": null,
-      "opportunityReason": null,
+      "opportunity": "low",
+      "opportunityReason": "volume 10 with difficulty 5",
       "firstSeen": "2026-09-29",
-      "lastResearched": null,
+      "lastResearched": "2026-10-08",
       "notes": ""
     },
     {
@@ -8215,12 +8270,12 @@
         },
         "ubersuggest": {
           "firstSeen": "2026-10-05",
-          "lastSeen": "2026-10-07",
+          "lastSeen": "2026-10-08",
           "via": [
             "suggestions"
           ],
           "stats": {
-            "asOf": "2026-10-07",
+            "asOf": "2026-10-08",
             "volume": 10,
             "difficulty": 5,
             "cpc": 0
@@ -8234,7 +8289,7 @@
       "opportunity": "low",
       "opportunityReason": "volume 10 with difficulty 5",
       "firstSeen": "2026-09-29",
-      "lastResearched": "2026-10-07",
+      "lastResearched": "2026-10-08",
       "notes": "Covered per the Google Ads / Ubersuggest keyword audit closed 2026-08-06 (engram: google_ads_keyword_audit_2026-08-06): already served by existing content, no new post needed."
     },
     {
@@ -9650,19 +9705,17 @@
         },
         "ubersuggest": {
           "firstSeen": "2026-09-29",
-          "lastSeen": "2026-10-04",
+          "lastSeen": "2026-10-08",
           "via": [
             "project",
             "seo-opportunities",
             "serp"
           ],
           "stats": {
-            "asOf": "2026-09-30",
+            "asOf": "2026-10-08",
             "volume": 20,
             "difficulty": 7,
-            "cpc": 0,
-            "position": null,
-            "rankingUrl": null
+            "cpc": 0
           }
         },
         "google-autocomplete": {
@@ -9677,7 +9730,7 @@
       "opportunity": "medium",
       "opportunityReason": "gsc: position 18.79 with 75 impressions",
       "firstSeen": "2026-09-29",
-      "lastResearched": "2026-10-04",
+      "lastResearched": "2026-10-08",
       "notes": ""
     },
     {
@@ -58793,23 +58846,23 @@
         },
         "ubersuggest": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-04",
+          "lastSeen": "2026-10-08",
           "via": [
-            "project"
+            "project",
+            "seo-opportunities"
           ],
           "stats": {
-            "asOf": "2026-09-30",
+            "asOf": "2026-10-08",
             "volume": 10,
             "difficulty": 13,
-            "position": 25,
-            "rankingUrl": "https://malagaeventgear.com/blog/tv-screen-rental/?srsltid=AU7gw4UWdr_Ypg0gzd9hoZ99VYdylYcy3Od8gtmDFzKbKh6upCjkWiGX"
+            "cpc": 0
           }
         }
       },
       "opportunity": "low",
       "opportunityReason": "volume 10 with difficulty 13",
       "firstSeen": "2026-09-29",
-      "lastResearched": "2026-10-04",
+      "lastResearched": "2026-10-08",
       "notes": ""
     },
     {
@@ -62176,16 +62229,16 @@
         },
         "ubersuggest": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-04",
+          "lastSeen": "2026-10-08",
           "via": [
-            "project"
+            "project",
+            "seo-opportunities"
           ],
           "stats": {
-            "asOf": "2026-09-30",
+            "asOf": "2026-10-08",
             "volume": 10,
             "difficulty": 5,
-            "position": 53,
-            "rankingUrl": "https://malagaeventgear.com/?srsltid=AU7gw4WCrhIe6DGyr2PtMEIqGDGRllhMnKF3VKkzfrwfTf6z9r3E6vi4"
+            "cpc": 0
           }
         },
         "content-plan": {
@@ -62202,7 +62255,7 @@
       "opportunity": "high",
       "opportunityReason": "gsc: position 21.11 with 101 impressions",
       "firstSeen": "2026-09-29",
-      "lastResearched": "2026-10-04",
+      "lastResearched": "2026-10-08",
       "notes": ""
     },
     {
@@ -63154,23 +63207,23 @@
         },
         "ubersuggest": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-04",
+          "lastSeen": "2026-10-08",
           "via": [
-            "project"
+            "project",
+            "seo-opportunities"
           ],
           "stats": {
-            "asOf": "2026-09-30",
+            "asOf": "2026-10-08",
             "volume": 40,
             "difficulty": 13,
-            "position": 39,
-            "rankingUrl": "https://malagaeventgear.com/blog/audio-visual-rental/?srsltid=AU7gw4W9jttmxomNTBbHjiKk-BEReAV9CxbCVQXY3L3MlZ-d21KQKzd7"
+            "cpc": 0
           }
         }
       },
       "opportunity": "high",
       "opportunityReason": "gsc: position 20 with 133 impressions",
       "firstSeen": "2026-09-29",
-      "lastResearched": "2026-10-04",
+      "lastResearched": "2026-10-08",
       "notes": ""
     },
     {
@@ -66035,23 +66088,23 @@
         },
         "ubersuggest": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-04",
+          "lastSeen": "2026-10-08",
           "via": [
-            "project"
+            "project",
+            "seo-opportunities"
           ],
           "stats": {
-            "asOf": "2026-09-30",
+            "asOf": "2026-10-08",
             "volume": 10,
             "difficulty": 5,
-            "position": 49,
-            "rankingUrl": "https://malagaeventgear.com/blog/sound-system-rental/?srsltid=AU7gw4XMmA9PvT3t2n9ebAYemGouy19UZGb7e_MJ9wHPu9m3HrGZihve"
+            "cpc": 0
           }
         }
       },
       "opportunity": "medium",
       "opportunityReason": "gsc: position 18.12 with 24 impressions",
       "firstSeen": "2026-09-29",
-      "lastResearched": "2026-10-04",
+      "lastResearched": "2026-10-08",
       "notes": "Covered per the Google Ads / Ubersuggest keyword audit closed 2026-08-06 (engram: google_ads_keyword_audit_2026-08-06): already served by existing content, no new post needed."
     },
     {
