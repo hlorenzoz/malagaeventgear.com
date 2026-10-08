@@ -19906,8 +19906,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/sound-system-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -19945,6 +19945,10 @@
               "2026-08": 10
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-08",
+          "lastSeen": "2026-10-08"
         },
         "content-plan": {
           "firstSeen": "2026-10-08",
@@ -20162,8 +20166,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/sound-system-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -20201,6 +20205,10 @@
               "2026-08": 10
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-08",
+          "lastSeen": "2026-10-08"
         },
         "content-plan": {
           "firstSeen": "2026-10-08",
@@ -29569,8 +29577,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/sound-system-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -29608,6 +29616,10 @@
               "2026-08": 10
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-08",
+          "lastSeen": "2026-10-08"
         },
         "content-plan": {
           "firstSeen": "2026-10-08",
@@ -29983,8 +29995,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/sound-system-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -30022,6 +30034,10 @@
               "2026-08": 10
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-08",
+          "lastSeen": "2026-10-08"
         },
         "content-plan": {
           "firstSeen": "2026-10-08",
@@ -80479,6 +80495,24 @@
       }
     },
     {
+      "id": "can-i-rent-a-complete-dj-system-for-a-party",
+      "question": "Can I rent a complete DJ system for a party?",
+      "keywordId": "sound-system-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/sound-system-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-08",
+          "lastSeen": "2026-10-08",
+          "urls": [
+            "/blog/sound-system-rental/"
+          ]
+        }
+      }
+    },
+    {
       "id": "can-i-rent-a-projection-screen-without-a-projector-or-vice-versa",
       "question": "Can I Rent a Projection Screen Without a Projector, or Vice Versa?",
       "keywordId": "audiovisual-equipment-rental-service",
@@ -83587,6 +83621,24 @@
           "lastSeen": "2026-10-08",
           "urls": [
             "/blog/audio-visual-rental-for-small-businesses/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-do-i-know-a-rental-sound-system-will-be-reliable-on-the-day",
+      "question": "How do I know a rental sound system will be reliable on the day?",
+      "keywordId": "sound-system-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/sound-system-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-08",
+          "lastSeen": "2026-10-08",
+          "urls": [
+            "/blog/sound-system-rental/"
           ]
         }
       }
@@ -87275,6 +87327,24 @@
           "lastSeen": "2026-10-08",
           "urls": [
             "/blog/weather-considerations-for-outdoor-rentals/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "is-your-sound-equipment-the-latest-model",
+      "question": "Is your sound equipment the latest model?",
+      "keywordId": "sound-system-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/sound-system-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-08",
+          "lastSeen": "2026-10-08",
+          "urls": [
+            "/blog/sound-system-rental/"
           ]
         }
       }
