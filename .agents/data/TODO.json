@@ -410,7 +410,12 @@
       "hecha": null,
       "origen": "usuario",
       "notas": [
-        "las FAQs que dependen de un dato del negocio esperan a #T0087"
+        "las FAQs que dependen de un dato del negocio esperan a #T0087",
+        "2 de 5 FAQs hechas el 2026-10-08 (boda de lujo y boda de invierno)",
+        "commit 3dcd4444",
+        "con /code-review. Terminos NLP solo para la de lujo. Faltan 81 a 100 invitados",
+        "mas de un dia y bodas de destino",
+        "que esperan los datos 1 y 4 de #T0087"
       ],
       "descripcion": [
         "Objetivo: responder 5 prompts de IA sobre bodas (81 a 100 invitados, invierno, lujo, varios dias, bodas de destino en Andalucia). El silo de bodas es solo de AV (sonido, iluminacion, proyeccion).",
