@@ -19,7 +19,7 @@ const copy = {
 	partner: {
 		badge: 'Vores partner til hotelbookinger for grupper',
 		title: 'Hotelværelser til din gruppe, med Top Group Express',
-		body: 'Et arrangement, der bringer folk til Malaga, kræver også værelser til dem. Overnatning er ikke vores ydelse: vi leverer AV-udstyret. Til værelserne samarbejder vi med vores partner Top Group Express, en bookingplatform til gruppers hotelophold med flere års erfaring, bygget til de fagfolk, der arrangerer rejsen.',
+		body: 'Et arrangement, der bringer folk til Malaga, kræver også værelser til dem. Overnatning er ikke vores ydelse: vi leverer AV-udstyret. Til værelserne samarbejder vi med vores partner Top Group Express, en bookingplatform til gruppers hotelophold med mangeårig erfaring, bygget til de fagfolk, der arrangerer rejsen.',
 		points: [
 			'Én forespørgsel giver tilbud fra flere hoteller',
 			'Bekræft, betal og fakturer samme sted',

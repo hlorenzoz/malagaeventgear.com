@@ -19,7 +19,7 @@ export default {
 	partner: {
 		badge: 'Nosso parceiro para reservas de hotel em grupo',
 		title: 'Quartos de hotel para seu grupo, com a Top Group Express',
-		body: 'Um evento que traz gente a Málaga também precisa de quartos para essas pessoas. Hospedagem não é um serviço nosso: nós fornecemos o equipamento audiovisual. Para os quartos, trabalhamos com nossa parceira Top Group Express, uma central de reservas de hospedagem em hotéis para grupos com anos de experiência, feita para os profissionais que organizam a viagem.',
+		body: 'Um evento que traz gente a Málaga também precisa de quartos para essas pessoas. Hospedagem não é um serviço nosso: nós fornecemos o equipamento audiovisual. Para os quartos, trabalhamos com nosso parceiro Top Group Express, uma central de reservas de hospedagem em hotéis para grupos com anos de experiência, feita para os profissionais que organizam a viagem.',
 		points: [
 			'Um único pedido traz cotações de vários hotéis',
 			'Confirme, pague e fature no mesmo lugar',

@@ -19,7 +19,7 @@ export default {
 	partner: {
 		badge: 'Vår partner för hotellbokningar för grupper',
 		title: 'Hotellrum för din grupp, med Top Group Express',
-		body: 'Ett evenemang som tar människor till Malaga behöver också rum åt dem. Logi är inte vår tjänst: vi levererar ljud- och bildutrustningen. För rummen samarbetar vi med vår partner Top Group Express, en bokningsplattform för gruppers hotellvistelser med flera års erfarenhet, byggd för de yrkespersoner som organiserar resan.',
+		body: 'Ett evenemang som tar människor till Malaga behöver också rum åt dem. Logi är inte vår tjänst: vi levererar ljud- och bildutrustningen. För rummen samarbetar vi med vår partner Top Group Express, en bokningsplattform för gruppers hotellvistelser med mångårig erfarenhet, byggd för de yrkespersoner som organiserar resan.',
 		points: [
 			'En förfrågan ger offerter från flera hotell',
 			'Bekräfta, betala och fakturera på samma ställe',
