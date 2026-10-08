@@ -1,6 +1,6 @@
 /**
  * Malaga Event Gear (MEG) - Configuración Unificada del Sitio y Negocio
- * 
+ *
  * Este archivo actúa como la única fuente de verdad (Single Source of Truth)
  * para toda la información corporativa, de contacto, geográfica e institucional
  * utilizada tanto en la UI como en el SEO técnico (datos estructurados / JSON-LD).
@@ -21,9 +21,11 @@ export const siteConfig = {
 	serviceLanguages: ['en', 'es'] as const,
 	// Dirección de display (footer), idéntica a la ficha de Google Maps / GMB (NAP consistente).
 	displayAddress: 'Av. de Barcelona, 34, Distrito Centro, 29009 Málaga',
-	// Perfil de Google My Business — ÚNICA fuente para todos los links al perfil del sitio
+	// Perfil de Google My Business: ÚNICA fuente para todos los links al perfil del sitio
 	// (direcciones del footer/contacto y el listing "Google My Business").
-	googleBusinessProfile: 'https://share.google/VclWknaPevh6mN3VF',
+	// Es la ficha en Google Maps por su CID, el mismo que codifica reviewUrl. Sin `hl`: cada
+	// visitante la ve en su idioma. La reutilizan el mapa de la home, "See all reviews", sameAs y llms.txt.
+	googleBusinessProfile: 'https://www.google.com/maps?cid=1378227528097734863',
 	emails: {
 		hire: 'hire@malagaeventgear.com',
 		contact: 'contact@malagaeventgear.com',
@@ -39,15 +41,7 @@ export const siteConfig = {
 	operatingHours: {
 		opens: '08:00',
 		closes: '20:00',
-		dayOfWeek: [
-			'Monday',
-			'Tuesday',
-			'Wednesday',
-			'Thursday',
-			'Friday',
-			'Saturday',
-			'Sunday'
-		]
+		dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 	},
 	address: {
 		streetAddress: 'Av. de Barcelona, 34, Distrito Centro',

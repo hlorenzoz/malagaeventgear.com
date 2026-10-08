@@ -3,7 +3,6 @@
 	import { i18n } from '$lib/i18n.svelte';
 	import { siteConfig } from '$lib/data/site';
 
-	const googleShareUrl = 'https://share.google/VclWknaPevh6mN3VF';
 	const googleEmbedMapUrl =
 		'https://maps.google.com/maps?q=Malaga+Event+Gear,+Av.+de+Barcelona,+34,+Distrito+Centro,+29009+M%C3%A1laga&t=&z=15&ie=UTF8&iwloc=&output=embed';
 </script>
@@ -11,7 +10,9 @@
 <section id="google-location-section" class="py-20 px-margin-mobile md:px-margin-desktop relative">
 	<div class="max-w-container-max mx-auto text-center">
 		<div class="mb-10">
-			<span class="inline-block px-4 py-2 rounded-full glass-panel font-label-sm text-electric-blue uppercase tracking-widest mb-4">
+			<span
+				class="inline-block px-4 py-2 rounded-full glass-panel font-label-sm text-electric-blue uppercase tracking-widest mb-4"
+			>
 				{i18n.t.googleMap.badge}
 			</span>
 			<h2 class="font-headline-lg text-[32px] md:text-headline-lg text-on-background mb-4">
@@ -22,7 +23,9 @@
 			</p>
 		</div>
 
-		<div class="glass-card p-3 md:p-6 rounded-2xl ambient-shadow border border-border-glass max-w-5xl mx-auto overflow-hidden">
+		<div
+			class="glass-card p-3 md:p-6 rounded-2xl ambient-shadow border border-border-glass max-w-5xl mx-auto overflow-hidden"
+		>
 			<div class="relative w-full overflow-hidden rounded-xl bg-surface-container-low">
 				<iframe
 					src={googleEmbedMapUrl}
@@ -36,7 +39,7 @@
 
 			<div class="mt-6 flex flex-wrap items-center justify-center gap-4">
 				<a
-					href={googleShareUrl}
+					href={siteConfig.googleBusinessProfile}
 					target="_blank"
 					rel="noopener noreferrer"
 					id="google-share-external-link"

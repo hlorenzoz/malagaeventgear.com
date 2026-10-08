@@ -1,8 +1,9 @@
 import { z } from 'zod';
 import reviewsRaw from './reviews.json';
+import { siteConfig } from './site';
 
-// Public Google My Business profile (reviews) share link for Malaga Event Gear.
-export const GMB_PROFILE_URL = 'https://share.google/xlg0PV3QeGBNKVnA9';
+// Public Google My Business profile of Malaga Event Gear. Single source: siteConfig.
+export const GMB_PROFILE_URL = siteConfig.googleBusinessProfile;
 
 // A single Google review, rendered as a testimonial card
 export const TestimonialSchema = z.object({

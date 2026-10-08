@@ -11,14 +11,18 @@ test.describe('Testimonials Section (Google Reviews) E2E Tests', () => {
 		await revealLazyContent(page);
 	});
 
-	test('should render the testimonials section below the fold on the home page', async ({ page }) => {
+	test('should render the testimonials section below the fold on the home page', async ({
+		page
+	}) => {
 		const section = page.locator('[data-testid="testimonials"]');
 		await expect(section).toBeAttached();
 		await section.scrollIntoViewIfNeeded();
 		await expect(section).toBeVisible();
 	});
 
-	test('should display the aggregate rating block with the total review count', async ({ page }) => {
+	test('should display the aggregate rating block with the total review count', async ({
+		page
+	}) => {
 		const section = page.locator('[data-testid="testimonials"]');
 		await section.scrollIntoViewIfNeeded();
 
@@ -74,7 +78,10 @@ test.describe('Testimonials Section (Google Reviews) E2E Tests', () => {
 
 		const seeAll = section.locator('[data-testid="see-all-reviews"]');
 		await expect(seeAll).toBeVisible();
-		await expect(seeAll).toHaveAttribute('href', 'https://share.google/xlg0PV3QeGBNKVnA9');
+		await expect(seeAll).toHaveAttribute(
+			'href',
+			'https://www.google.com/maps?cid=1378227528097734863'
+		);
 		await expect(seeAll).toHaveAttribute('target', '_blank');
 	});
 
