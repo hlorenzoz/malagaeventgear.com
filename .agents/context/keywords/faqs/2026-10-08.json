@@ -1,0 +1,15 @@
+{
+	"date": "2026-10-08",
+	"run": {
+		"status": "partial",
+		"reason": "google_suggestions returned no phrase starting with a question word for any of the 10 seeds",
+		"calls": [
+			{
+				"tool": "google_suggestions",
+				"args": "10 seed keywords, language en, country es",
+				"outcome": "empty"
+			}
+		]
+	},
+	"suggestions": []
+}
