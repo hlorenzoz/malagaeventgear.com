@@ -975,7 +975,9 @@
         "iluminacion y sonido; confeti y fuegos no son de MEG. publishDate 2024-11-20 (fecha del evento",
         "decision del usuario) y updatedDate 2026-10-08. Fuente oficial leida y enlazada. Sumado a la regla 4 de CLAUDE.md. Enlazado desde audio-visual-rental-for-sports-events y audiovisual-equipment-rental-service. Verificador: FAIL por una frase (que las tres jugadoras destacaron en individuales",
         "la fuente solo lo dice de Bronzetti)",
-        "corregida"
+        "corregida",
+        "2026-10-08: slug acortado antes del push a billie-jean-king-cup-2024-sound-and-lighting (44 caracteres",
+        "commit f5e59d78). Regla nueva en CLAUDE.md: maximo 60 caracteres por slug de post nuevo"
       ],
       "descripcion": [
         "Decisión del usuario del 2026-09-25 (CLAUDE.md, \"Posicionamiento\", regla 4): la Experience",
