@@ -80423,6 +80423,24 @@
       }
     },
     {
+      "id": "can-i-hire-a-smoke-machine-for-a-party-on-the-costa-del-sol",
+      "question": "Can I hire a smoke machine for a party on the Costa del Sol?",
+      "keywordId": "smoke-machine-rental",
+      "cluster": "stage lighting rental",
+      "url": "/blog/smoke-machine-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-08",
+          "lastSeen": "2026-10-08",
+          "urls": [
+            "/blog/smoke-machine-rental/"
+          ]
+        }
+      }
+    },
+    {
       "id": "can-i-hire-just-an-av-technician-without-renting-your-equipment",
       "question": "Can I hire just an AV technician, without renting your equipment?",
       "keywordId": "av-technician-hire",
@@ -81027,6 +81045,24 @@
           "lastSeen": "2026-10-08",
           "urls": [
             "/blog/projector-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-you-provide-av-equipment-and-a-technician-for-a-hotel-meeting-in-torremolinos",
+      "question": "Can you provide AV equipment and a technician for a hotel meeting in Torremolinos?",
+      "keywordId": "audio-visual-rental-for-corporate-meetings",
+      "cluster": "audio visual rental",
+      "url": "/blog/audio-visual-rental-for-corporate-meetings/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-08",
+          "lastSeen": "2026-10-08",
+          "urls": [
+            "/blog/audio-visual-rental-for-corporate-meetings/"
           ]
         }
       }
