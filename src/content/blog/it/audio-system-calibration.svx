@@ -3,7 +3,8 @@ title: "Calibrazione dell'impianto audio a Malaga, in Spagna"
 description: "Calibrazione dell'impianto audio a Malaga, in Spagna: gain staging spiegato, impostazioni diverse per ogni sala e le vere console, fino a una Midas M32R."
 excerpt: "Calibrazione dell'impianto audio a Malaga: che cos'è davvero, il gain staging in parole semplici, perché le stesse casse e la stessa console si regolano in modo diverso in ogni location e quali sono le vere console che il nostro team calibra, dalla Soundcraft a 6 canali fino al sistema digitale Midas M32R Live."
 publishDate: "2026-10-01"
-sourceUpdated: "2026-10-01"
+updatedDate: "2026-10-08"
+sourceUpdated: "2026-10-08"
 ---
 
 <script>
@@ -44,6 +45,8 @@ La nostra guida al [supporto tecnico per eventi](/blog/technical-support-for-eve
     -   [La calibrazione si fa una sola volta, o cambia durante l'evento?](#la-calibrazione-si-fa-una-sola-volta-o-cambia-durante-levento)
     -   [Devo essere presente mentre si calibra la mia attrezzatura?](#devo-essere-presente-mentre-si-calibra-la-mia-attrezzatura)
     -   [Con quanto anticipo rispetto all'inizio del mio evento avviene la calibrazione?](#con-quanto-anticipo-rispetto-allinizio-del-mio-evento-avviene-la-calibrazione)
+    -   [La calibrazione è diversa per un set da DJ o un evento di musica dal vivo?](#la-calibrazione-è-diversa-per-un-set-da-dj-o-un-evento-di-musica-dal-vivo)
+    -   [Devo calibrare io l'impianto audio o lasciarlo al vostro team?](#devo-calibrare-io-limpianto-audio-o-lasciarlo-al-vostro-team)
 
 ## In breve
 
@@ -184,3 +187,13 @@ No. Il nostro team calibra ogni prenotazione prima che arrivi tu o arrivino i tu
 ### Con quanto anticipo rispetto all'inizio del mio evento avviene la calibrazione?
 
 Il nostro team arriva e calibra prima del tuo primo ospite. La calibrazione è meglio farla a ridosso dell'apertura delle porte, in modo da tenere conto del numero di ospiti e dell'assorbimento della sala, e non ore prima, quando la sala è ancora vuota. Vedi [Interno, esterno e numero di ospiti](#interno-esterno-e-numero-di-ospiti-cosa-cambia-davvero) e [Con quanto anticipo prenotare](#con-quanto-anticipo-prenotare) più sopra per cosa significa questo sui tempi di prenotazione.
+
+### La calibrazione è diversa per un set da DJ o un evento di musica dal vivo?
+
+Un po': il principio è lo stesso, ma ciò che il team imposta dipende dalla sorgente. Con l'[Eco Pack](/packages/eco/) un DJ o una band porta e gestisce il proprio mixer o controller, quindi il team calibra ciò che forniamo noi: il posizionamento delle casse, il microfono e un test dell'impianto nella sala. Il posizionamento delle casse conta di più per una band, perché i microfoni voce aperti vicino alle casse comportano più rischio di feedback di un DJ con un solo microfono per gli annunci. Il DJ o la band regola poi il livello del proprio mixer, e di eventuali microfoni che porta con sé, durante il suo soundcheck. Se un set ha bisogno di più bassi, i subwoofer HK Audio PR:O 18-S fanno parte del nostro inventario proprio, anche se nessun pacchetto standard li nomina, quindi [contattaci](/contact/) indicando il numero di ospiti e la location.
+
+### Devo calibrare io l'impianto audio o lasciarlo al vostro team?
+
+Lascialo al team: la calibrazione fa parte di ogni prenotazione con noi, quindi non calibri tu l'impianto che forniamo. Lavoriamo solo con consegna, senza ritiro di persona: il nostro team consegna, installa, calibra e testa l'impianto prima che arrivi tu o arrivino i tuoi ospiti.
+
+Durante l'evento, l'[Eco Pack](/packages/eco/) e il [Product Presentation Pack](/packages/product-presentation/) sono in autogestione, quindi tu o il tuo presentatore usate un impianto già calibrato, e un DJ o una band regola comunque il livello del proprio mixer. Il [Wedding Pack](/packages/wedding/) e il [MICE Pack](/packages/mice/) includono un tecnico che gestisce l'audio e i microfoni, mentre il [Basic MICE Pack](/packages/basic-mice/) ne offre uno come extra a pagamento. [Contattaci](/contact/) con la tua location e il numero di ospiti e ti confermiamo quale pacchetto fa al caso tuo.

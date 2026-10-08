@@ -3,7 +3,8 @@ title: "Calibração do sistema de som em Málaga, Espanha"
 description: "Calibração do sistema de som em Málaga, Espanha: gain staging explicado, por que cada local pede ajustes diferentes e a gama real de mesas, até a Midas M32R."
 excerpt: "Calibração do sistema de som em Málaga: o que ela realmente é, o gain staging em termos simples, por que as mesmas caixas de som e a mesma mesa de mixagem são ajustadas de um jeito diferente em cada local e quais são as mesas reais que a nossa equipe calibra, da Soundcraft de 6 canais ao sistema digital Midas M32R Live."
 publishDate: "2026-10-01"
-sourceUpdated: "2026-10-01"
+updatedDate: "2026-10-08"
+sourceUpdated: "2026-10-08"
 ---
 
 <script>
@@ -44,6 +45,8 @@ O nosso guia de [suporte técnico para eventos](/blog/technical-support-for-even
     -   [A calibração é feita uma única vez ou muda durante o evento?](#a-calibração-é-feita-uma-única-vez-ou-muda-durante-o-evento)
     -   [Preciso estar presente enquanto o meu equipamento é calibrado?](#preciso-estar-presente-enquanto-o-meu-equipamento-é-calibrado)
     -   [Com quanta antecedência em relação ao início do meu evento a calibração é feita?](#com-quanta-antecedência-em-relação-ao-início-do-meu-evento-a-calibração-é-feita)
+    -   [A calibração é diferente para um set de DJ ou um evento de música ao vivo?](#a-calibração-é-diferente-para-um-set-de-dj-ou-um-evento-de-música-ao-vivo)
+    -   [Devo calibrar o sistema de som eu mesmo ou deixar com a equipe de vocês?](#devo-calibrar-o-sistema-de-som-eu-mesmo-ou-deixar-com-a-equipe-de-vocês)
 
 ## Resumo
 
@@ -184,3 +187,13 @@ Não. A nossa equipe calibra cada reserva antes de você ou os seus convidados c
 ### Com quanta antecedência em relação ao início do meu evento a calibração é feita?
 
 A nossa equipe chega e calibra antes do seu primeiro convidado. O melhor é calibrar perto da abertura das portas, para que o número de convidados e a absorção da sala sejam levados em conta, e não horas antes, quando a sala ainda está vazia. Veja acima [Ambiente interno, externo e número de convidados](#ambiente-interno-externo-e-número-de-convidados-o-que-realmente-muda) e [Com quanta antecedência reservar](#com-quanta-antecedência-reservar) para saber o que isso significa para o prazo da reserva.
+
+### A calibração é diferente para um set de DJ ou um evento de música ao vivo?
+
+Um pouco: o princípio é o mesmo, mas o que a equipe monta depende da fonte. No [Eco Pack](/packages/eco/), o DJ ou a banda traz e opera a própria mesa de mixagem ou o próprio controlador, então a equipe calibra o que nós fornecemos: o posicionamento das caixas de som, o microfone e um teste do sistema na sala. O posicionamento das caixas importa mais para uma banda, porque microfones de voz abertos perto das caixas trazem mais risco de microfonia do que um DJ com um único microfone para avisos. O DJ ou a banda ajusta depois o nível da própria mesa de mixagem, e de quaisquer microfones que traga, na sua passagem de som. Se um set precisar de mais graves, os subwoofers HK Audio PR:O 18-S fazem parte do nosso inventário próprio, embora nenhum pacote padrão os cite. [Entre em contato](/contact/) com o número de convidados e o local.
+
+### Devo calibrar o sistema de som eu mesmo ou deixar com a equipe de vocês?
+
+Deixe com a equipe: a calibração faz parte de toda reserva conosco, então você não calibra o sistema que fornecemos. Trabalhamos apenas com entrega, sem retirada por conta do cliente, e a nossa equipe entrega, instala, calibra e testa o sistema antes de você ou os seus convidados chegarem.
+
+Durante o evento, o [Eco Pack](/packages/eco/) e o [Product Presentation Pack](/packages/product-presentation/) são em autogestão, então você ou o seu apresentador usam um sistema que já está calibrado, e um DJ ou uma banda ainda ajusta o nível da própria mesa de mixagem. O [Wedding Pack](/packages/wedding/) e o [MICE Pack](/packages/mice/) incluem um técnico que opera o som e os microfones, e o [Basic MICE Pack](/packages/basic-mice/) oferece um como extra pago. [Entre em contato](/contact/) com o seu local e o número de convidados e confirmamos qual pacote se encaixa.

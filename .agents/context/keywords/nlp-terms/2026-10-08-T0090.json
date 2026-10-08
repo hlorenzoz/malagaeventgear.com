@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-08",
+  "taskId": "#T0090",
+  "slug": "audio-system-calibration",
+  "searchTerm": "audio system calibration Is calibration different for a DJ set or live music event?",
+  "status": "partial",
+  "reason": "Not localized to Spain (tool cannot). First query gave patents, so a second was used. Read 3 distinct sites (UK retailer, mixing blog, calibration software vendor, from query 1). Skipped: PMT redirect, Gear4Music 403, Violet 526, forum. Mostly general PA tuning, DJ detail thin.",
+  "serp": {
+    "query": "how to tune a PA system for a DJ or band",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://electromarket.co.uk/guide/speakers/setting-up-a-pa-system-for-bands-and-djs", "title": "A Guide To Setting Up A PA System for Bands and DJs" },
+      { "rank": 2, "url": "https://mixingaband.com/ringing-out-or-tuning-your-venue-pa/", "title": "Ringing Out or Tuning Your Venue PA" },
+      { "rank": 3, "url": "https://www.sonarworks.com/blog/learn/what-are-the-applications-of-soundid-reference-in-live-sound-reinforcement", "title": "what are the applications of soundid reference in live sound reinforcement" }
+    ]
+  },
+  "terms": [
+    { "term": "speaker placement", "kind": "related", "seenIn": 3 },
+    { "term": "feedback", "kind": "related", "seenIn": 3 },
+    { "term": "soundcheck", "kind": "related", "seenIn": 2 },
+    { "term": "EQ", "kind": "related", "seenIn": 2 },
+    { "term": "DSP", "kind": "entity", "seenIn": 2 },
+    { "term": "flat frequency response", "kind": "related", "seenIn": 2 },
+    { "term": "live sound", "kind": "related", "seenIn": 2 },
+    { "term": "venue acoustics", "kind": "related", "seenIn": 2 },
+    { "term": "frequency buildup", "kind": "related", "seenIn": 2 },
+    { "term": "feedback frequencies", "kind": "related", "seenIn": 2 },
+    { "term": "mixing desk", "kind": "entity", "seenIn": 2 },
+    { "term": "Where should speakers be positioned?", "kind": "question", "seenIn": 2 },
+    { "term": "time alignment", "kind": "related", "seenIn": 1 },
+    { "term": "delay processor", "kind": "entity", "seenIn": 1 },
+    { "term": "sound level meter", "kind": "entity", "seenIn": 1 },
+    { "term": "spectrum analyzer", "kind": "entity", "seenIn": 1 },
+    { "term": "pink noise test", "kind": "related", "seenIn": 1 },
+    { "term": "calibration microphone", "kind": "entity", "seenIn": 1 },
+    { "term": "subwoofers", "kind": "entity", "seenIn": 1 },
+    { "term": "monitor wedges", "kind": "entity", "seenIn": 1 },
+    { "term": "DJ controller", "kind": "entity", "seenIn": 1 },
+    { "term": "mobile DJ gigs", "kind": "entity", "seenIn": 1 },
+    { "term": "small club", "kind": "entity", "seenIn": 1 },
+    { "term": "How do I prevent feedback?", "kind": "question", "seenIn": 1 },
+    { "term": "How do I find problem frequencies in a room?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Vonyx VD715A and other Vonyx models", "reason": "retailer own brand models" },
+    { "term": "SoundID Reference", "reason": "competing software product name" },
+    { "term": "Sonarworks", "reason": "vendor brand name" },
+    { "term": "surround channel counts", "reason": "home cinema or studio term, off topic" },
+    { "term": "Monitor controller", "reason": "studio monitoring term, off topic" },
+    { "term": "Stereo and multichannel setups", "reason": "studio term, off topic" },
+    { "term": "Gaffer tape cable management", "reason": "generic setup advice, not calibration" },
+    { "term": "Pub bands", "reason": "UK venue type, not MEG market" }
+  ]
+}

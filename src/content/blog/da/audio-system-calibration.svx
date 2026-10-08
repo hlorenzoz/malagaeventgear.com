@@ -3,7 +3,8 @@ title: "Kalibrering af lydanlæg i Malaga, Spanien"
 description: "Kalibrering af lydanlæg i Malaga, Spanien: gain staging forklaret, hvorfor hvert sted kræver andre indstillinger og de rigtige mixerpulte op til Midas M32R."
 excerpt: "Kalibrering af lydanlæg i Malaga: hvad det egentlig er, gain staging i almindeligt sprog, hvorfor de samme højttalere og det samme mixerpult indstilles forskelligt på hvert sted og hvilke rigtige mixerpulte vores hold kalibrerer med, fra en Soundcraft med 6 kanaler op til det digitale system Midas M32R Live."
 publishDate: "2026-10-01"
-sourceUpdated: "2026-10-01"
+updatedDate: "2026-10-08"
+sourceUpdated: "2026-10-08"
 ---
 
 <script>
@@ -44,6 +45,8 @@ Vores guide til [teknisk support til events](/blog/technical-support-for-events/
     -   [Sker kalibreringen én gang, eller ændrer den sig under eventet?](#sker-kalibreringen-én-gang-eller-ændrer-den-sig-under-eventet)
     -   [Skal jeg være til stede, mens mit udstyr bliver kalibreret?](#skal-jeg-være-til-stede-mens-mit-udstyr-bliver-kalibreret)
     -   [Hvor lang tid før mit events start sker kalibreringen?](#hvor-lang-tid-før-mit-events-start-sker-kalibreringen)
+    -   [Er kalibreringen anderledes til et DJ-set eller et livemusikevent?](#er-kalibreringen-anderledes-til-et-dj-set-eller-et-livemusikevent)
+    -   [Skal jeg kalibrere lydanlægget selv eller overlade det til jeres hold?](#skal-jeg-kalibrere-lydanlægget-selv-eller-overlade-det-til-jeres-hold)
 
 ## Kort overblik
 
@@ -184,3 +187,13 @@ Nej. Vores hold kalibrerer hver booking, før du eller dine gæster ankommer, so
 ### Hvor lang tid før mit events start sker kalibreringen?
 
 Vores hold ankommer og kalibrerer før din første gæst. Kalibreringen sker bedst kort før dørene åbner, så antallet af gæster og rummets absorption er taget med, og ikke flere timer tidligere, når rummet stadig er tomt. Se [Indendørs, udendørs og antal gæster](#indendørs-udendørs-og-antal-gæster-hvad-der-egentlig-ændrer-sig) og [Hvor langt i forvejen du skal booke](#hvor-langt-i-forvejen-du-skal-booke) ovenfor for, hvad det betyder for bookingtidspunktet.
+
+### Er kalibreringen anderledes til et DJ-set eller et livemusikevent?
+
+Lidt: princippet er det samme, men det, holdet stiller ind, afhænger af kilden. Med [Eco Pack](/packages/eco/) tager en DJ eller et band sit eget mixerpult eller sin egen controller med og kører udstyret selv, så holdet kalibrerer det, vi leverer: højttalernes placering, mikrofonen og en test af anlægget i lokalet. Højttalernes placering betyder mere for et band, fordi åbne vokalmikrofoner tæt på højttalerne giver større risiko for feedback end en DJ med én mikrofon til meddelelser. DJ'en eller bandet indstiller derefter niveauet på sit eget mixerpult og på de mikrofoner, de selv tager med, til deres soundcheck. Hvis et set har brug for mere bas, findes HK Audio PR:O 18-S subwoofere i vores eget lager, selv om ingen standardpakke nævner dem. [Kontakt os](/contact/) med dit antal gæster og dit lokale.
+
+### Skal jeg kalibrere lydanlægget selv eller overlade det til jeres hold?
+
+Overlad det til holdet: kalibrering er en del af hver booking hos os, så du kalibrerer ikke det anlæg, vi leverer. Vi arbejder udelukkende med levering, uden selvafhentning, og vores hold leverer, installerer, kalibrerer og tester anlægget, før du eller dine gæster ankommer.
+
+Under eventet er [Eco Pack](/packages/eco/) og [Product Presentation Pack](/packages/product-presentation/) pakker, du selv kører, så du eller din oplægsholder bruger et anlæg, der allerede er kalibreret, og en DJ eller et band indstiller stadig niveauet på sit eget mixerpult. [Wedding Pack](/packages/wedding/) og [MICE Pack](/packages/mice/) har en tekniker, der betjener lyden og mikrofonerne, og [Basic MICE Pack](/packages/basic-mice/) tilbyder en som et betalt tilkøb. [Kontakt os](/contact/) med dit lokale og dit antal gæster, så bekræfter vi, hvilken pakke der passer.

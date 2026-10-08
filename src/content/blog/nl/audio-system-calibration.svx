@@ -3,7 +3,8 @@ title: "Kalibratie van een geluidssysteem in Malaga, Spanje"
 description: "Kalibratie van een geluidssysteem in Malaga, Spanje: gain staging uitgelegd, waarom elke locatie eigen instellingen vraagt en echte mengpanelen tot Midas M32R."
 excerpt: "Kalibratie van een geluidssysteem in Malaga: wat het echt is, gain staging in gewone taal, waarom dezelfde luidsprekers en hetzelfde mengpaneel op elke locatie anders worden ingesteld en welke echte mengpanelen ons team gebruikt om te kalibreren, van een Soundcraft met 6 kanalen tot een digitaal Midas M32R Live."
 publishDate: "2026-10-01"
-sourceUpdated: "2026-10-01"
+updatedDate: "2026-10-08"
+sourceUpdated: "2026-10-08"
 ---
 
 <script>
@@ -44,6 +45,8 @@ Onze gids over [technische ondersteuning bij evenementen](/blog/technical-suppor
     -   [Wordt er één keer gekalibreerd, of verandert het tijdens het evenement?](#wordt-er-één-keer-gekalibreerd-of-verandert-het-tijdens-het-evenement)
     -   [Moet ik erbij zijn terwijl mijn apparatuur wordt gekalibreerd?](#moet-ik-erbij-zijn-terwijl-mijn-apparatuur-wordt-gekalibreerd)
     -   [Hoe lang voor de start van mijn evenement vindt de kalibratie plaats?](#hoe-lang-voor-de-start-van-mijn-evenement-vindt-de-kalibratie-plaats)
+    -   [Is kalibratie anders bij een dj-set of een livemuziekevenement?](#is-kalibratie-anders-bij-een-dj-set-of-een-livemuziekevenement)
+    -   [Moet ik het geluidssysteem zelf kalibreren of overlaten aan jullie team?](#moet-ik-het-geluidssysteem-zelf-kalibreren-of-overlaten-aan-jullie-team)
 
 ## In het kort
 
@@ -184,3 +187,13 @@ Nee. Ons team kalibreert elke boeking voordat jij of je gasten aankomen, als ond
 ### Hoe lang voor de start van mijn evenement vindt de kalibratie plaats?
 
 Ons team komt aan en kalibreert voor je eerste gast. Het best kan de kalibratie vlak voor het opengaan van de deuren plaatsvinden, zodat het aantal gasten en de absorptie van de zaal zijn meegenomen, en niet uren eerder als de zaal nog leeg is. Zie hierboven [Binnen, buiten en aantal gasten](#binnen-buiten-en-aantal-gasten-wat-er-echt-verandert) en [Hoe ver van tevoren boeken](#hoe-ver-van-tevoren-boeken) voor wat dat betekent voor de boekingstermijn.
+
+### Is kalibratie anders bij een dj-set of een livemuziekevenement?
+
+Een beetje: het principe is hetzelfde, maar wat het team instelt hangt af van de bron. Bij het [Eco Pack](/packages/eco/) neemt een dj of band het eigen mengpaneel of de eigen controller mee en bedient die zelf, dus kalibreert het team wat wij leveren: de plaatsing van de luidsprekers, de microfoon en een test van het systeem in de ruimte. De plaatsing van de luidsprekers telt zwaarder bij een band, omdat open zangmicrofoons vlak bij de luidsprekers meer kans op rondzingen geven dan een dj met één microfoon voor aankondigingen. De dj of band stelt daarna het niveau van het eigen mengpaneel, en van alle microfoons die ze meenemen, in tijdens de eigen soundcheck. Heeft een set meer laag nodig, dan staan HK Audio PR:O 18-S subwoofers in onze eigen voorraad, al noemt geen enkel standaardpakket ze. [Neem contact met ons op](/contact/) met je aantal gasten en je locatie.
+
+### Moet ik het geluidssysteem zelf kalibreren of overlaten aan jullie team?
+
+Laat het aan het team over: kalibratie hoort bij elke boeking bij ons, dus je kalibreert het systeem dat wij leveren niet zelf. We werken alleen met levering, zonder zelf ophalen, en ons team levert, installeert, kalibreert en test het systeem voordat jij of je gasten aankomen.
+
+Tijdens het evenement worden het [Eco Pack](/packages/eco/) en het [Product Presentation Pack](/packages/product-presentation/) zelf bediend, dus jij of je presentator gebruikt een systeem dat al gekalibreerd is, en een dj of band stelt nog steeds het niveau van het eigen mengpaneel in. Het [Wedding Pack](/packages/wedding/) en het [MICE Pack](/packages/mice/) bevatten een technicus die het geluid en de microfoons bedient, en het [Basic MICE Pack](/packages/basic-mice/) biedt er een aan als betaalde extra. [Neem contact met ons op](/contact/) met je locatie en je aantal gasten, dan bevestigen we welk pakket past.

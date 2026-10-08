@@ -3,7 +3,8 @@ title: "Kalibrierung der Tonanlage in Malaga, Spanien"
 description: "Kalibrierung der Tonanlage in Malaga, Spanien: Gain Staging erklärt, warum jeder Ort andere Einstellungen braucht, und echte Mischpulte bis zum Midas M32R."
 excerpt: "Kalibrierung der Tonanlage in Malaga: was das wirklich ist, Gain Staging in einfachen Worten, warum dieselben Lautsprecher und dasselbe Mischpult an jedem Veranstaltungsort anders eingestellt werden und mit welchen echten Mischpulten unser Team kalibriert, vom Soundcraft mit 6 Kanälen bis zum digitalen Midas M32R Live."
 publishDate: "2026-10-01"
-sourceUpdated: "2026-10-01"
+updatedDate: "2026-10-08"
+sourceUpdated: "2026-10-08"
 ---
 
 <script>
@@ -44,6 +45,8 @@ Unser Ratgeber zum [technischen Support für Veranstaltungen](/blog/technical-su
     -   [Wird die Kalibrierung einmal vorgenommen, oder ändert sie sich während der Veranstaltung?](#wird-die-kalibrierung-einmal-vorgenommen-oder-ändert-sie-sich-während-der-veranstaltung)
     -   [Muss ich dabei sein, während meine Technik kalibriert wird?](#muss-ich-dabei-sein-während-meine-technik-kalibriert-wird)
     -   [Wie lange vor Beginn meiner Veranstaltung findet die Kalibrierung statt?](#wie-lange-vor-beginn-meiner-veranstaltung-findet-die-kalibrierung-statt)
+    -   [Ist die Kalibrierung bei einem DJ-Set oder einer Live-Musikveranstaltung anders?](#ist-die-kalibrierung-bei-einem-dj-set-oder-einer-live-musikveranstaltung-anders)
+    -   [Soll ich die Tonanlage selbst kalibrieren oder es Ihrem Team überlassen?](#soll-ich-die-tonanlage-selbst-kalibrieren-oder-es-ihrem-team-überlassen)
 
 ## Kurzüberblick
 
@@ -184,3 +187,13 @@ Nein. Unser Team kalibriert jede Buchung, bevor Sie oder Ihre Gäste eintreffen,
 ### Wie lange vor Beginn meiner Veranstaltung findet die Kalibrierung statt?
 
 Unser Team trifft vor Ihrem ersten Gast ein und kalibriert. Am besten wird kurz vor der Türöffnung kalibriert, damit Gästezahl und Raumabsorption berücksichtigt sind, und nicht Stunden früher, wenn der Raum noch leer ist. Siehe oben [Drinnen, draußen und Gästezahl](#drinnen-draußen-und-gästezahl-was-sich-wirklich-ändert) und [Wie weit im Voraus buchen](#wie-weit-im-voraus-buchen), was das für die Vorlaufzeit der Buchung bedeutet.
+
+### Ist die Kalibrierung bei einem DJ-Set oder einer Live-Musikveranstaltung anders?
+
+Ein wenig: Das Prinzip ist dasselbe, aber was das Team einrichtet, hängt von der Quelle ab. Beim [Eco Pack](/packages/eco/) bringt ein DJ oder eine Band ein eigenes Mischpult oder einen eigenen Controller mit und bedient das Gerät selbst, deshalb kalibriert das Team das, was wir liefern: die Platzierung der Lautsprecher, das Mikrofon und einen Test der Anlage im Raum. Die Lautsprecherplatzierung ist bei einer Band wichtiger, weil offene Gesangsmikrofone nahe an den Lautsprechern ein höheres Rückkopplungsrisiko bergen als ein DJ mit einem einzigen Mikrofon für Durchsagen. Den Pegel des eigenen Mischpults und aller Mikrofone, die sie mitbringen, stellt der DJ oder die Band anschließend bei ihrem Soundcheck ein. Wenn ein Set mehr Tiefbass braucht, gehören HK Audio PR:O 18-S Subwoofer zu unserem eigenen Bestand, auch wenn kein Standardpaket sie nennt. [Kontaktieren Sie uns](/contact/) mit Ihrer Gästezahl und Ihrem Veranstaltungsort.
+
+### Soll ich die Tonanlage selbst kalibrieren oder es Ihrem Team überlassen?
+
+Überlassen Sie es dem Team: Die Kalibrierung gehört bei uns zu jeder Buchung, Sie kalibrieren die Anlage, die wir liefern, also nicht selbst. Wir arbeiten ausschließlich mit Lieferung, ohne Selbstabholung, und unser Team liefert, installiert, kalibriert und testet die Anlage, bevor Sie oder Ihre Gäste eintreffen.
+
+Während der Veranstaltung laufen das [Eco Pack](/packages/eco/) und das [Product Presentation Pack](/packages/product-presentation/) in Eigenregie, Sie oder Ihr Redner nutzen also eine bereits kalibrierte Anlage, und ein DJ oder eine Band stellt den Pegel des eigenen Mischpults weiterhin selbst ein. Das [Wedding Pack](/packages/wedding/) und das [MICE Pack](/packages/mice/) enthalten einen Techniker, der Ton und Mikrofone bedient, und das [Basic MICE Pack](/packages/basic-mice/) bietet einen als kostenpflichtige Zusatzoption an. [Kontaktieren Sie uns](/contact/) mit Ihrem Veranstaltungsort und Ihrer Gästezahl, dann bestätigen wir, welches Paket passt.

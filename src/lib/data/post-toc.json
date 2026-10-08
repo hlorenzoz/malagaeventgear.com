@@ -2201,6 +2201,16 @@
       "id": "how-far-in-advance-does-calibration-happen-relative-to-my-event-start-time",
       "text": "How far in advance does calibration happen relative to my event start time?",
       "level": 3
+    },
+    {
+      "id": "is-calibration-different-for-a-dj-set-or-live-music-event",
+      "text": "Is calibration different for a DJ set or live music event?",
+      "level": 3
+    },
+    {
+      "id": "should-i-calibrate-the-sound-system-myself-or-leave-it-to-your-crew",
+      "text": "Should I calibrate the sound system myself or leave it to your crew?",
+      "level": 3
     }
   ],
   "benefits-of-audio-visual-rental": [

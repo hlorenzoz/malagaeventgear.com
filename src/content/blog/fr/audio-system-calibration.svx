@@ -3,7 +3,8 @@ title: "Étalonnage d'un système audio à Malaga, en Espagne"
 description: "Étalonnage d'un système audio à Malaga, en Espagne : gain staging expliqué, réglages propres à chaque lieu et vraie gamme de tables, jusqu'à une Midas M32R."
 excerpt: "Étalonnage d'un système audio à Malaga : ce que c'est vraiment, le gain staging en termes simples, pourquoi les mêmes enceintes et la même table de mixage se règlent différemment d'un lieu à l'autre, ainsi que la vraie gamme de tables que notre équipe étalonne, de la Soundcraft à 6 canaux jusqu'au système numérique Midas M32R Live."
 publishDate: "2026-10-01"
-sourceUpdated: "2026-10-01"
+updatedDate: "2026-10-08"
+sourceUpdated: "2026-10-08"
 ---
 
 <script>
@@ -44,6 +45,8 @@ Notre guide d'[assistance technique pour événements](/blog/technical-support-f
     -   [L'étalonnage se fait-il une seule fois, ou change-t-il pendant l'événement ?](#létalonnage-se-fait-il-une-seule-fois-ou-change-t-il-pendant-lévénement-)
     -   [Dois-je être présent pendant l'étalonnage de mon matériel ?](#dois-je-être-présent-pendant-létalonnage-de-mon-matériel-)
     -   [Combien de temps avant le début de mon événement l'étalonnage a-t-il lieu ?](#combien-de-temps-avant-le-début-de-mon-événement-létalonnage-a-t-il-lieu-)
+    -   [L'étalonnage est-il différent pour un set de DJ ou un événement de musique live ?](#létalonnage-est-il-différent-pour-un-set-de-dj-ou-un-événement-de-musique-live-)
+    -   [Dois-je étalonner moi-même le système audio ou laisser votre équipe s'en charger ?](#dois-je-étalonner-moi-même-le-système-audio-ou-laisser-votre-équipe-sen-charger-)
 
 ## En bref
 
@@ -184,3 +187,13 @@ Non. Notre équipe étalonne chaque réservation avant votre arrivée ou celle d
 ### Combien de temps avant le début de mon événement l'étalonnage a-t-il lieu ?
 
 Notre équipe arrive et étalonne avant votre premier invité. Le mieux est de l'étalonner au plus près de l'ouverture des portes, afin de tenir compte du nombre d'invités et de l'absorption de la salle, et non plusieurs heures plus tôt quand la salle est encore vide. Voir [Intérieur, extérieur et nombre d'invités](#intérieur-extérieur-et-nombre-dinvités--ce-qui-change-vraiment) et [Combien de temps à l'avance réserver](#combien-de-temps-à-lavance-réserver) ci-dessus pour ce que cela implique sur le délai de réservation.
+
+### L'étalonnage est-il différent pour un set de DJ ou un événement de musique live ?
+
+Un peu : le principe est le même, mais ce que l'équipe met en place dépend de la source. Avec l'[Eco Pack](/packages/eco/), un DJ ou un groupe apporte et utilise sa propre table de mixage ou son propre contrôleur, de sorte que l'équipe étalonne ce que nous fournissons : le placement des enceintes, le microphone et un test du système dans la salle. Le placement des enceintes compte davantage pour un groupe, car des microphones de chant ouverts près des enceintes présentent plus de risque de larsen qu'un DJ avec un seul microphone pour les annonces. Le DJ ou le groupe règle ensuite le niveau de sa propre table de mixage, et de tous les microphones qu'il apporte, pendant sa balance. Si un set demande plus de graves, des subwoofers HK Audio PR:O 18-S figurent dans notre propre inventaire, même si aucun forfait standard ne les mentionne : [contactez-nous](/contact/) en indiquant votre nombre d'invités et votre lieu.
+
+### Dois-je étalonner moi-même le système audio ou laisser votre équipe s'en charger ?
+
+Laissez-le à l'équipe : l'étalonnage fait partie de chaque réservation chez nous, vous n'étalonnez donc pas le système que nous fournissons. Nous travaillons en livraison uniquement, sans retrait par vos soins, et notre équipe livre, installe, étalonne et teste le système avant votre arrivée ou celle de vos invités.
+
+Pendant l'événement, l'[Eco Pack](/packages/eco/) et le [Product Presentation Pack](/packages/product-presentation/) sont en autonomie : vous ou votre présentateur utilisez un système déjà étalonné, et un DJ ou un groupe règle toujours le niveau de sa propre table de mixage. Le [Wedding Pack](/packages/wedding/) et le [MICE Pack](/packages/mice/) comprennent un technicien qui s'occupe du son et des microphones, et le [Basic MICE Pack](/packages/basic-mice/) en propose un en option payante. [Contactez-nous](/contact/) avec votre lieu et votre nombre d'invités, et nous vous confirmerons quel forfait convient.
