@@ -251,7 +251,11 @@
       "hecha": null,
       "origen": "usuario",
       "notas": [
-        "bloqueada hasta aprobar el plan de #T0085"
+        "bloqueada hasta aprobar el plan de #T0085",
+        "TGE (decision del usuario",
+        "2026-10-08): enlace normal",
+        "sin sponsored ni nofollow",
+        "pasa autoridad. Anula el punto 5 de la descripcion que pedia confirmarlo"
       ],
       "descripcion": [
         "Depende de #T0085: no arranca hasta que el plan del clúster de eventos esté aprobado por el usuario. Esta tarea ejecuta ese plan.",
