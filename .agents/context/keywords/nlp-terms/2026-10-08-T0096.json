@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-08",
+  "taskId": "#T0096",
+  "slug": "smoke-machine-rental",
+  "searchTerm": "smoke machine rental Can I hire a smoke machine for a party on the Costa del Sol?",
+  "status": "partial",
+  "reason": "Not localized to Spain (tool cannot), results mostly UK. Skipped rank 1 (catalogue page, no smoke content) and bookingonline.co.uk pages (unreachable). Rank 3 comes from a second query 'smoke machine rental for party'. All 3 are rental shops, not in-depth answers.",
+  "serp": {
+    "query": "hire a smoke machine for a party",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://daniellay.co.uk/?p=37060", "title": "Daniel Lay Event Services" },
+      { "rank": 2, "url": "https://addtoevent.co.uk/listings/smoke-machines/dublin", "title": "addtoevent.co.uk" },
+      { "rank": 3, "url": "https://rentalhq.com/party-machine", "title": "Rent Party Machines: Bubble, Fog, Smoke, Snow" }
+    ]
+  },
+  "terms": [
+    { "term": "smoke machines", "kind": "entity", "seenIn": 3 },
+    { "term": "fog machines", "kind": "entity", "seenIn": 3 },
+    { "term": "haze machines", "kind": "entity", "seenIn": 3 },
+    { "term": "low fog machines", "kind": "entity", "seenIn": 3 },
+    { "term": "weddings", "kind": "entity", "seenIn": 3 },
+    { "term": "birthday parties", "kind": "entity", "seenIn": 2 },
+    { "term": "strobe lighting", "kind": "entity", "seenIn": 2 },
+    { "term": "bubble machines", "kind": "entity", "seenIn": 2 },
+    { "term": "fog fluid", "kind": "related", "seenIn": 2 },
+    { "term": "delivery and collection", "kind": "related", "seenIn": 2 },
+    { "term": "corporate events", "kind": "entity", "seenIn": 1 },
+    { "term": "ADJ VF400", "kind": "entity", "seenIn": 1 },
+    { "term": "ADJ Entour Faze", "kind": "entity", "seenIn": 1 },
+    { "term": "Fog Fury Jett", "kind": "entity", "seenIn": 1 },
+    { "term": "Mister Kool II", "kind": "entity", "seenIn": 1 },
+    { "term": "Magic FX", "kind": "entity", "seenIn": 1 },
+    { "term": "Smoke Factory", "kind": "entity", "seenIn": 1 },
+    { "term": "smoke alarm interference", "kind": "related", "seenIn": 1 },
+    { "term": "wireless remote controller", "kind": "related", "seenIn": 1 },
+    { "term": "floor to ceiling fog", "kind": "related", "seenIn": 1 },
+    { "term": "dry ice", "kind": "entity", "seenIn": 1 },
+    { "term": "Halloween parties", "kind": "entity", "seenIn": 1 },
+    { "term": "Which smoke machine suits my event?", "kind": "question", "seenIn": 1 },
+    { "term": "What are fog and haze machines used for?", "kind": "question", "seenIn": 1 },
+    { "term": "What safety practices apply to rented machines?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Daniel Lay Event Services", "reason": "competitor name" },
+    { "term": "EPH Creative", "reason": "competitor name" },
+    { "term": "Day hire price", "reason": "price" },
+    { "term": "Minimum spend fee", "reason": "price" },
+    { "term": "VAT and delivery costs", "reason": "prices and UK tax" },
+    { "term": "Kent Surrey Sussex London", "reason": "places other than Spain" },
+    { "term": "Smoke machine hire in Dublin", "reason": "place other than Spain" },
+    { "term": "ARA affiliated rental store", "reason": "US market term" },
+    { "term": "Flame and foam machines", "reason": "off topic, effects other than smoke" },
+    { "term": "Firework displays", "reason": "off topic, pyrotechnics" },
+    { "term": "Silent disco headsets", "reason": "off topic" }
+  ]
+}
