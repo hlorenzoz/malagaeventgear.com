@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-08",
+  "taskId": "#T0095",
+  "slug": "pros-and-cons-of-wedding-rentals",
+  "searchTerm": "pros and cons of wedding rentals Is the Wedding Pack enough for a luxury wedding?",
+  "status": "partial",
+  "reason": "Not localized to Spain (tool cannot). One query, 3 distinct UK sites. Skipped: a vendor directory listing, a 2nd page of the same site, a marketplace vendor page, a 404. No page covers projection or screens. No luxury tier found.",
+  "serp": {
+    "query": "luxury wedding sound and lighting what you need",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://www.boho-weddings.com/55553/sound-and-lighting-at-your-wedding/", "title": "sound and lighting at your wedding" },
+      { "rank": 2, "url": "https://leisuretec.co.uk/blogs/leisuretec-blog/6-sound-and-lighting-must-haves-for-weddings", "title": "6 Sound and Lighting Must-Haves for Weddings" },
+      { "rank": 3, "url": "https://www.doremievent.com/?p=19056", "title": "How to Make Your Wedding Shine with Stunning Lighting & Sound" }
+    ]
+  },
+  "terms": [
+    { "term": "Which lighting suits a wedding?", "kind": "question", "seenIn": 3 },
+    { "term": "moving head lights", "kind": "entity", "seenIn": 3 },
+    { "term": "first dance", "kind": "related", "seenIn": 3 },
+    { "term": "band performance", "kind": "related", "seenIn": 3 },
+    { "term": "DJ equipment", "kind": "entity", "seenIn": 3 },
+    { "term": "mixer", "kind": "entity", "seenIn": 3 },
+    { "term": "speaker systems", "kind": "entity", "seenIn": 3 },
+    { "term": "smoke machine", "kind": "entity", "seenIn": 2 },
+    { "term": "haze effects", "kind": "related", "seenIn": 2 },
+    { "term": "bubble machine", "kind": "entity", "seenIn": 2 },
+    { "term": "LED uplighters", "kind": "entity", "seenIn": 2 },
+    { "term": "custom gobos", "kind": "entity", "seenIn": 2 },
+    { "term": "spotlights", "kind": "entity", "seenIn": 2 },
+    { "term": "wireless microphones", "kind": "entity", "seenIn": 2 },
+    { "term": "wedding reception", "kind": "entity", "seenIn": 2 },
+    { "term": "outdoor wedding", "kind": "entity", "seenIn": 2 },
+    { "term": "stage monitors", "kind": "entity", "seenIn": 2 },
+    { "term": "colour wash lighting", "kind": "related", "seenIn": 2 },
+    { "term": "mood lighting", "kind": "related", "seenIn": 2 },
+    { "term": "soundcheck", "kind": "related", "seenIn": 2 },
+    { "term": "Which microphones suit weddings?", "kind": "question", "seenIn": 1 },
+    { "term": "Should couples choose a DJ or a live band?", "kind": "question", "seenIn": 1 },
+    { "term": "How do indoor and outdoor weddings differ?", "kind": "question", "seenIn": 1 },
+    { "term": "line array speakers", "kind": "entity", "seenIn": 1 },
+    { "term": "sound restrictor", "kind": "related", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Inspira Sound & Lighting", "reason": "competitor name seen in search results, page not read" },
+    { "term": "The Knot", "reason": "US wedding site cited as a source" },
+    { "term": "BS7909", "reason": "UK standard, other market" },
+    { "term": "village hall", "reason": "UK venue type, not MEG market" },
+    { "term": "dry venue", "reason": "UK venue term" },
+    { "term": "marquee wedding", "reason": "tent, outside the audio visual silo" },
+    { "term": "canopy structures", "reason": "tents, outside the silo" },
+    { "term": "white performance equipment", "reason": "decor matching, outside the silo" },
+    { "term": "string quartets", "reason": "musicians, not equipment" },
+    { "term": "flame machine", "reason": "special effect MEG does not own" },
+    { "term": "laser effects", "reason": "not in MEG inventory" },
+    { "term": "RCF PA systems", "reason": "single vendor brand mention" },
+    { "term": "Pioneer CDJ 2000 decks", "reason": "single vendor brand mention" },
+    { "term": "iPod sound packages", "reason": "UK vendor package wording" },
+    { "term": "December weddings", "reason": "seasonal marketing wording" }
+  ]
+}

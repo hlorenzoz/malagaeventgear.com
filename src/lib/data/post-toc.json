@@ -616,6 +616,11 @@
       "id": "can-i-negotiate-the-price-or-get-a-self-pickup-option-to-save-money",
       "text": "Can I negotiate the price or get a self pickup option to save money?",
       "level": 3
+    },
+    {
+      "id": "is-the-wedding-pack-enough-for-a-luxury-wedding",
+      "text": "Is the Wedding Pack enough for a luxury wedding?",
+      "level": 3
     }
   ],
   "audio-visual-hire-near-me-in-malaga-spain": [
@@ -3386,6 +3391,11 @@
     {
       "id": "does-a-rooms-acoustics-affect-microphone-feedback",
       "text": "Does a room's acoustics affect microphone feedback?",
+      "level": 3
+    },
+    {
+      "id": "is-the-wedding-pack-a-good-fit-for-a-winter-wedding-in-spain",
+      "text": "Is the Wedding Pack a good fit for a winter wedding in Spain?",
       "level": 3
     }
   ],
