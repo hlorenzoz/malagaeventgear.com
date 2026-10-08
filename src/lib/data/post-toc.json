@@ -335,6 +335,11 @@
       "id": "how-far-in-advance-should-i-book-malaga-event-gear",
       "text": "How far in advance should I book Malaga Event Gear?",
       "level": 3
+    },
+    {
+      "id": "which-languages-does-malaga-event-gear-work-in-with-international-clients",
+      "text": "Which languages does Malaga Event Gear work in with international clients?",
+      "level": 3
     }
   ],
   "how-to-choose-wedding-rentals": [
@@ -5783,6 +5788,11 @@
     {
       "id": "how-far-in-advance-should-i-book-an-audio-visual-rental-company",
       "text": "How far in advance should I book an audio visual rental company?",
+      "level": 3
+    },
+    {
+      "id": "how-do-i-compare-audio-visual-rental-prices-between-companies",
+      "text": "How do I compare audio visual rental prices between companies?",
       "level": 3
     }
   ],

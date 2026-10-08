@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-08",
+  "taskId": "#T0094",
+  "slug": "audio-visual-rental-companies",
+  "searchTerm": "audio visual rental companies How do I compare audio visual rental prices between companies?",
+  "status": "ok",
+  "reason": "Not localized to Spain (tool cannot). All 3 pages are on one AV vendor site (helloendless.com), largely the same quote guide, so cross-page counts overstate agreement. US oriented: venue and union terms discarded.",
+  "serp": {
+    "query": "how to compare audio visual rental quotes",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://helloendless.com/av-quotes/", "title": "av quotes" },
+      { "rank": 2, "url": "https://helloendless.com/?p=23813", "title": "helloendless.com" },
+      { "rank": 3, "url": "https://helloendless.com/?p=6179", "title": "helloendless.com" }
+    ]
+  },
+  "terms": [
+    { "term": "line items", "kind": "related", "seenIn": 3 },
+    { "term": "audio section", "kind": "related", "seenIn": 3 },
+    { "term": "video section", "kind": "related", "seenIn": 3 },
+    { "term": "lighting section", "kind": "related", "seenIn": 3 },
+    { "term": "labor section", "kind": "related", "seenIn": 3 },
+    { "term": "expenses section", "kind": "related", "seenIn": 3 },
+    { "term": "truss rigging", "kind": "entity", "seenIn": 3 },
+    { "term": "power distribution", "kind": "related", "seenIn": 3 },
+    { "term": "pipe and drape", "kind": "entity", "seenIn": 3 },
+    { "term": "projection screen", "kind": "entity", "seenIn": 3 },
+    { "term": "media technicians", "kind": "related", "seenIn": 3 },
+    { "term": "event crew", "kind": "related", "seenIn": 3 },
+    { "term": "overtime charges", "kind": "related", "seenIn": 3 },
+    { "term": "day rate", "kind": "related", "seenIn": 3 },
+    { "term": "in-house AV company", "kind": "related", "seenIn": 3 },
+    { "term": "What is an AV quote?", "kind": "question", "seenIn": 3 },
+    { "term": "How do I read an AV quote?", "kind": "question", "seenIn": 3 },
+    { "term": "How do I compare costs between quotes?", "kind": "question", "seenIn": 3 },
+    { "term": "Does the quote include all costs and fees?", "kind": "question", "seenIn": 3 },
+    { "term": "apples-to-apples comparison", "kind": "related", "seenIn": 2 },
+    { "term": "generic equipment descriptions", "kind": "related", "seenIn": 2 },
+    { "term": "loading dock fee", "kind": "related", "seenIn": 2 },
+    { "term": "service fee", "kind": "related", "seenIn": 2 },
+    { "term": "damage deposit", "kind": "related", "seenIn": 2 },
+    { "term": "Does equipment brand matter?", "kind": "question", "seenIn": 2 }
+  ],
+  "discarded": [
+    { "term": "Hello Endless", "reason": "competitor name" },
+    { "term": "Projector Central", "reason": "third party resource name" },
+    { "term": "Discount percentage", "reason": "price related" },
+    { "term": "Credit card fee", "reason": "price related, payment terms" },
+    { "term": "Union labor rules", "reason": "US market term" },
+    { "term": "Per diem", "reason": "US market term" },
+    { "term": "Fire marshal permits", "reason": "US market term" },
+    { "term": "20-amp circuits", "reason": "US standard" },
+    { "term": "Genie lifts", "reason": "brand and US market term" },
+    { "term": "Haze and CO2 effects", "reason": "off topic for quote comparison" },
+    { "term": "Keynote and PowerPoint", "reason": "off topic software" }
+  ]
+}
