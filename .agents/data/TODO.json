@@ -445,6 +445,70 @@
       ]
     },
     {
+      "id": "#T0097",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "[Local Dominator] Home: cifras de Our Impact in Numbers (27+, 2,500+, +95%) contradicen site.ts y no tienen fuente",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [
+        "fuente: Local Dominator",
+        "Site Audit 2026-10-05"
+      ],
+      "descripcion": [
+        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
+        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
+        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
+        "",
+        "Hallazgo del reporte: cuenta \"27+ Years of Experience\", \"2,500+ Happy Clients\" y \"+95% Satisfaction Rate\" como senales de confianza detectadas.",
+        "Verificacion: es al reves, son un riesgo. Los tres numeros estan escritos a mano en src/routes/(public)/+page.svelte (lineas 370, 382 y 394, igual en main) y contradicen las fuentes del proyecto:",
+        "- siteConfig.clientCount es 1000 (.agents/BUSINESS.md: \"Over 1,000+ satisfied clients\"). /about-us/ y el formulario muestran 1,000+ y la home 2,500+: dos cifras distintas en el mismo sitio.",
+        "- siteConfig.foundingYear es 1996, que en 2026 son 30 anos, no 27.",
+        "- \"+95% Satisfaction Rate\" no tiene ninguna fuente en el repo.",
+        "Regla de CLAUDE.md, \"Honestidad\": nunca un especifico que el negocio no pueda verificar.",
+        "",
+        "Que hacer:",
+        "1. Confirmar con el negocio la cifra de clientes y si existe un dato real detras del 95%.",
+        "2. Clientes: leer siteConfig.clientCount con formatNumber (token {clients}), nunca un literal.",
+        "3. Anos: derivarlos de siteConfig.foundingYear, o escribir \"since 1996\".",
+        "4. Satisfaccion: quitar la tarjeta si no hay fuente. Alternativa verificable: la nota media y la cantidad de resenas de getReviewsMeta().",
+        "5. Vale para los 13 idiomas (los numeros estan en el template, no en los diccionarios). Actualizar contentUpdated de la home y el e2e."
+      ]
+    },
+    {
+      "id": "#T0098",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "seo-tecnico",
+      "titulo": "[Local Dominator] Home: las reseñas de Google no están en el HTML servido (LazyMount)",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [
+        "fuente: Local Dominator",
+        "Site Audit 2026-10-05"
+      ],
+      "descripcion": [
+        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
+        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
+        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
+        "",
+        "Hallazgo del reporte: \"Direct customer testimonials/reviews visible on the page\" figura como senal ausente, y el plan de accion pide \"Showcase Testimonials & Case Studies\".",
+        "Verificacion: confirmado en parte. La home SI tiene la seccion de resenas de Google, pero no esta en el HTML servido: src/routes/(public)/+page.svelte la monta con LazyMount y un import dinamico (lineas 767 a 774), asi que el texto de las resenas solo existe despues de ejecutar JavaScript y de hacer scroll. En el HTML de produccion no hay ni un texto de resena.",
+        "Sin verificar: si Googlebot llega a renderizarla. No se probo con la inspeccion de URL de Search Console.",
+        "Por que importa: las resenas visibles en la pagina de destino del GBP son la senal 5 de .agents/context/local-seo/local-seo-gbp-first.md, y CLAUDE.md pide que el contenido vaya en el HTML servido.",
+        "",
+        "Que hacer:",
+        "1. Comprobar en Search Console (inspeccion de URL, HTML renderizado) si las resenas aparecen.",
+        "2. Si no aparecen: prerenderizar el texto de las resenas (autor, nota, texto, atributo lang) y dejar perezoso solo el JavaScript del carrusel.",
+        "3. El lazy mount se puso por rendimiento: medir antes y despues con chrome-devtools-mcp y lighthouse (regla 10). No empeorar LCP ni CLS.",
+        "4. Las resenas nunca se traducen. Sin marcado de resenas propio en el JSON-LD (ver review-snippet.md en .agents/context/seo/).",
+        "5. Los \"case studies\" que pide el reporte ya existen: son los posts News enlazados desde la home."
+      ]
+    },
+    {
       "id": "#T0048",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -910,6 +974,71 @@
       ]
     },
     {
+      "id": "#T0099",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "seo-tecnico",
+      "titulo": "[Local Dominator] Home: title, H1 y meta description, decidir Hire (categoría del GBP) o Rental (keyword del reporte)",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [
+        "fuente: Local Dominator",
+        "Site Audit 2026-10-05"
+      ],
+      "descripcion": [
+        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
+        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
+        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
+        "",
+        "Hallazgos del reporte: la keyword objetivo no esta en el title (alta), ni en la meta description (media). Propone title \"Audio Visual Equipment Rental Málaga | Sound & Lighting Hire | MEG\" y H1 \"Professional Audio Visual Equipment Rental in Málaga\". Dice que la pagina usa sobre todo \"hire\" en vez de \"rental\".",
+        "Verificacion:",
+        "- \"Usa sobre todo hire\" es falso: en el HTML servido \"rental\" aparece 44 veces y \"hire\" 9. La propia tabla de densidad del reporte da \"rental\" 11 veces.",
+        "- El title y el H1 dicen \"Audio Visual Equipment Hire Service in Malaga\" a proposito: es la categoria primaria del GBP (primera de siteConfig.categories) mas la ciudad, las senales 1 y 2 de local-seo-gbp-first.md. Cambiarlos a \"Rental\" rompe esa coincidencia.",
+        "- Las propuestas del reporte incumplen sus propios limites: title de 66 caracteres sobre 60 y meta description de 233 sobre 160. Los actuales miden 51 y 159.",
+        "- La keyword la eligio quien corrio la auditoria, y el reporte busca la frase exacta con tilde (\"Málaga\"). El sitio ingles escribe \"Malaga\".",
+        "A favor del reporte (keywords.json): \"audio visual equipment rental\" tiene 210 busquedas al mes en Google Ads y \"audio visual equipment hire\" 90. Pero \"rental\" ya es el objetivo de los pilares /blog/audio-visual-rental/ y /blog/audiovisual-equipment-rental-service/ (260 busquedas): mover la home a \"rental\" puede canibalizarlos.",
+        "",
+        "Que hacer (decision del usuario):",
+        "1. Confirmar en la ficha viva del GBP que la categoria primaria sigue siendo \"Audio Visual Equipment Hire Service\".",
+        "2. Recomendacion: mantener title y H1. Revisar que el primer parrafo repita la categoria y la ciudad (senal 2), con \"Malaga, Spain\" en la primera mencion.",
+        "3. Opcional: que la meta description diga \"audio visual equipment rental\" de forma natural sin pasar de 160 caracteres.",
+        "4. Cualquier cambio va en los 13 idiomas con su keyword del mapa de contenido, nunca traduciendo la inglesa."
+      ]
+    },
+    {
+      "id": "#T0100",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "seo-tecnico",
+      "titulo": "[Local Dominator] Enlaces al Google Business Profile: dos enlaces share.google distintos y uno repetido a mano",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [
+        "fuente: Local Dominator",
+        "Site Audit 2026-10-05"
+      ],
+      "descripcion": [
+        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
+        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
+        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
+        "",
+        "Hallazgo del reporte: falta un enlace directo al Google Business Profile en la pagina (debilidad, senal ausente y accion de prioridad media).",
+        "Verificacion: falso positivo. La home tiene 3 enlaces al perfil (boton de \"Find Us on Google\", direccion del footer y \"Google My Business\" del footer) y el perfil esta en sameAs del JSON-LD. Usan el enlace corto https://share.google/..., que la herramienta no reconoce como GBP.",
+        "Lo que la verificacion SI encontro:",
+        "- Hay dos enlaces share.google distintos: VclWknaPevh6mN3VF (siteConfig.googleBusinessProfile y GoogleEmbedSection.svelte) y xlg0PV3QeGBNKVnA9 (GMB_PROFILE_URL en src/lib/data/testimonials.ts). No se pudo comprobar que los dos abran la misma ficha: redirigen a una pagina de Google que necesita JavaScript.",
+        "- GoogleEmbedSection.svelte repite el enlace a mano en vez de leer siteConfig.googleBusinessProfile.",
+        "- El mapa embebido busca por texto (nombre y direccion), no por el identificador de la ficha.",
+        "",
+        "Que hacer:",
+        "1. Abrir los dos enlaces en un navegador y confirmar a que ficha lleva cada uno.",
+        "2. Dejar una sola fuente (siteConfig) y que GoogleEmbedSection y testimonials.ts la lean.",
+        "3. Valorar el enlace canonico de Maps con CID en lugar del corto, y el embed por place id. Si cambia, revisar sameAs.",
+        "4. Buscar en todo el repo antes de cambiar (el NAP y estos enlaces estan repetidos en varios archivos)."
+      ]
+    },
+    {
       "id": "#T0017",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1271,6 +1400,121 @@
       ]
     },
     {
+      "id": "#T0101",
+      "estado": "pendiente",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "[Local Dominator] Home: H2 What do we sell? sugiere venta en un servicio de alquiler",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [
+        "fuente: Local Dominator",
+        "Site Audit 2026-10-05"
+      ],
+      "descripcion": [
+        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
+        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
+        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
+        "",
+        "Hallazgo del reporte: el H2 \"What do we sell?\" es raro para un servicio de alquiler, sugiere venta (prioridad baja).",
+        "Verificacion: valido. El texto sale de impact/sellQ en src/lib/i18n/messages/en.ts (linea 72) y MEG alquila, no vende. Es el primero de un bloque de cuatro preguntas (\"What do we sell?\", \"Who is it for?\", \"What does it cost?\", \"How does it work?\").",
+        "Relacionado, no lo dice el reporte: la senal 4 de local-seo-gbp-first.md pide las categorias secundarias del GBP y los servicios principales como H2 de la pagina de destino. Hoy ningun H2 de la home nombra una categoria secundaria.",
+        "",
+        "Que hacer:",
+        "1. Reescribir sellQ sin \"sell\" (por ejemplo \"What do we rent?\" o \"What do we offer?\", que tambien cubre lo que MEG consigue con proveedores).",
+        "2. Revisar el mismo texto en los 12 diccionarios restantes: puede arrastrar el verbo \"vender\".",
+        "3. Decidir aparte si algun H2 pasa a nombrar las categorias secundarias. Es un cambio mayor de la home, no parte de este arreglo.",
+        "4. Cambio de contenido: contentUpdated de la home y la fecha de cada idioma."
+      ]
+    },
+    {
+      "id": "#T0102",
+      "estado": "pendiente",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "[Local Dominator] Home: nombrar las marcas reales del inventario (hoy solo Martin Magnum)",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [
+        "fuente: Local Dominator",
+        "Site Audit 2026-10-05"
+      ],
+      "descripcion": [
+        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
+        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
+        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
+        "",
+        "Hallazgos del reporte: \"Mention Equipment Brands\" (prioridad baja) y, como subtemas ausentes, la lista de marcas y las especificaciones tecnicas (lumenes del proyector, potencia del sonido).",
+        "Verificacion: valido para la home. En el HTML servido la unica marca es Martin Magnum (una vez). No aparecen HK Audio, Audix, Vivitek ni Christie. La auditoria rastreo solo la home, asi que no vio /equipment/ ni los posts, donde si estan.",
+        "",
+        "Que hacer:",
+        "1. Nombrar en la seccion \"Available Categories\" de la home las marcas y modelos reales, cada uno una vez y sin lista de relleno.",
+        "2. Solo lo que respaldan packages.ts y el CSV mas reciente de .agents/context/inventario/. De las columnas se puede decir HK Audio, sin modelo ni cantidad.",
+        "3. Marcas y modelos no se traducen. El cambio va en los 13 idiomas, con contentUpdated de la home.",
+        "4. No prometer como propio lo que se consigue con proveedores."
+      ]
+    },
+    {
+      "id": "#T0103",
+      "estado": "pendiente",
+      "prioridad": "baja",
+      "tipo": "seo-tecnico",
+      "titulo": "[Local Dominator] Home: enlace a /equipment/ solo con icono, sin nombre accesible ni texto de ancla",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [
+        "fuente: Local Dominator",
+        "Site Audit 2026-10-05"
+      ],
+      "descripcion": [
+        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
+        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
+        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
+        "",
+        "Hallazgo del reporte: en \"Internal Links (Body Content)\" hay enlaces con texto \"(empty)\": /equipment/ y las tarjetas de posts y noticias.",
+        "Verificacion:",
+        "- /equipment/: confirmado. En src/routes/(public)/+page.svelte (linea 555) hay un enlace que solo contiene el icono de flecha, sin aria-label ni texto. No tiene nombre accesible ni texto de ancla.",
+        "- Tarjetas del blog: falso positivo. El enlace de la imagen lleva aria-label con el titulo del post y al lado hay otro enlace con el titulo como texto.",
+        "",
+        "Que hacer:",
+        "1. Darle nombre accesible al enlace del icono (aria-label traducido desde el diccionario, en los 13 idiomas), o envolver la tarjeta entera en el enlace.",
+        "2. Revisar con la skill a11y-debugging si el patron se repite en otras tarjetas de la home.",
+        "3. Sumar el caso a un e2e."
+      ]
+    },
+    {
+      "id": "#T0104",
+      "estado": "pendiente",
+      "prioridad": "baja",
+      "tipo": "negocio",
+      "titulo": "[Local Dominator] Confirmar con el negocio seguro, garantía, certificaciones y sostenibilidad antes de publicarlos",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [
+        "fuente: Local Dominator",
+        "Site Audit 2026-10-05"
+      ],
+      "descripcion": [
+        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
+        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
+        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
+        "",
+        "Hallazgos del reporte, como senales de confianza y subtemas ausentes: seguro o garantia del alquiler (\"Insured or Bonded\"), licencias o certificaciones (\"Licensed or Certified\"), garantia de servicio, politicas de seguridad y seguro, certificaciones del equipo tecnico y practicas de sostenibilidad mas alla del nombre Eco Pack.",
+        "Verificacion: nada de esto esta en el repo ni en .agents/BUSINESS.md. No se puede publicar sin que el negocio lo confirme (regla \"Honestidad\" de CLAUDE.md). La ausencia no es una senal negativa para un negocio chico (PDF de Quality Raters, 3.3.5).",
+        "",
+        "Que preguntar al negocio:",
+        "1. ¿Tiene seguro de responsabilidad civil para los eventos? Con que cobertura se puede publicar?",
+        "2. ¿Que pasa si un equipo falla durante el evento? ¿Hay sustitucion o garantia que se pueda prometer?",
+        "3. ¿Hay alguna certificacion o formacion del equipo tecnico que se pueda nombrar?",
+        "4. ¿Hay alguna practica real de sostenibilidad? El nombre Eco Pack no la implica.",
+        "Solo lo confirmado se publica, en /about-us/ o /faq/ y en los 13 idiomas. Lo no confirmado no se escribe."
+      ]
+    },
+    {
       "id": "#T0073",
       "estado": "pendiente",
       "prioridad": "baja",
@@ -1578,6 +1822,35 @@
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate (just post-touch). Flujo: just post-sync, post-translator en modo UPDATE, just post-translate-check y just post-translate-finish (UN commit con el ingles y sus 12 traducciones).",
         "Honestidad: inventario propio separado de lo que se consigue con proveedores, precios solo con los helpers, ningun competidor nombrado, nada que el negocio no haya confirmado.",
         "Origen: analisis de los aiPrompts de .agents/context/keywords/ubersuggest/*.json (2026-10-08). Veredicto de cada prompt en .agents/context/keywords/ai-prompts-gap-analysis-2026-10-08.md. Los prompts siguen en idea en keywords.json hasta publicar: despues just keywords-sync."
+      ]
+    },
+    {
+      "id": "#T0105",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "seo-tecnico",
+      "titulo": "[Local Dominator] Hallazgos descartados tras verificar el Site Audit del 2026-10-05",
+      "anotada": "2026-10-08",
+      "hecha": "2026-10-08",
+      "origen": "usuario",
+      "notas": [
+        "fuente: Local Dominator",
+        "Site Audit 2026-10-05"
+      ],
+      "descripcion": [
+        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
+        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
+        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
+        "",
+        "Hallazgos del reporte que se descartan, con el motivo:",
+        "- \"Low Keyword Density: 0%, aim for 0.5-3%\" y \"Integrate Target Keyword Naturally\": la densidad de keyword no es una senal de Google, y repetir la frase exacta hasta un porcentaje es lo que spam-policies.md describe como keyword stuffing. El 0% mide la frase exacta con tilde (\"Málaga\"), que el sitio ingles no usa.",
+        "- \"Enhance Local Signals with Sub-Entities\" (barrios como Centro Historico, El Palo o Teatinos, y lugares como la Alcazaba o el Museo Picasso): spam-policies.md pone \"bloques de texto que listan ciudades y regiones\" como ejemplo de keyword stuffing, y el proyecto no hace paginas ni listas por localidad. La geografia entra solo con eventos reales de los posts News (la home ya nombra Marbella, Torremolinos y Benahavis por esas noticias). MEG no tiene trabajos confirmados en la Alcazaba ni en el Museo Picasso.",
+        "- \"Team bios\" y \"Detailed About Us section\": existen /about-us/ y /meet-the-team/. La auditoria rastreo una sola pagina.",
+        "- \"Specific major venues\": ya estan en los posts News enlazados desde la home (FYCMA, Hotel Melia Costa del Sol).",
+        "- \"Text/HTML Ratio 4.73%\": no es una senal de Google. El HTML pesa por el CSS en linea, puesto a proposito (inlineStyleThreshold) para FCP y LCP.",
+        "- \"Update H1 Heading\" y el title sugerido: ver la tarea del title y el H1 (el H1 actual es la categoria primaria del GBP).",
+        "- \"Add Google Business Profile Link\": el enlace existe. Ver la tarea de los enlaces del perfil.",
+        "El resto de los hallazgos tiene su propia tarea, todas con \"[Local Dominator]\" en el titulo."
       ]
     },
     {
