@@ -83662,6 +83662,24 @@
       }
     },
     {
+      "id": "how-do-i-compare-audio-visual-rental-prices-between-companies",
+      "question": "How do I compare audio visual rental prices between companies?",
+      "keywordId": "audio-visual-rental-companies",
+      "cluster": "audio visual rental",
+      "url": "/blog/audio-visual-rental-companies/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-08",
+          "lastSeen": "2026-10-08",
+          "urls": [
+            "/blog/audio-visual-rental-companies/"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-do-i-know-a-rental-sound-system-will-be-reliable-on-the-day",
       "question": "How do I know a rental sound system will be reliable on the day?",
       "keywordId": "sound-system-rental",
@@ -90414,6 +90432,24 @@
           "lastSeen": "2026-09-30",
           "seeds": [
             "audio-video-rental-near-me"
+          ]
+        }
+      }
+    },
+    {
+      "id": "which-languages-does-malaga-event-gear-work-in-with-international-clients",
+      "question": "Which languages does Malaga Event Gear work in with international clients?",
+      "keywordId": "audio-visual-rental-company",
+      "cluster": "audio visual rental",
+      "url": "/blog/audio-visual-rental-company/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-08",
+          "lastSeen": "2026-10-08",
+          "urls": [
+            "/blog/audio-visual-rental-company/"
           ]
         }
       }
