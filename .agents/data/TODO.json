@@ -3,6 +3,29 @@
   "updated": "2026-10-08",
   "tasks": [
     {
+      "id": "#T0076",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "Home: seccion del partnership con Top Group Express (TGE) como partner de reservas de hotel para grupos",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [],
+      "descripcion": [
+        "Pedido del usuario (2026-10-08): incluir en la home page una seccion que muestre el partnership de MEG con Top Group Express (TGE) como partner de reservas de hotel para grupos.",
+        "Contexto y reglas ya decididas (ver #T0034, hecha, y .agents/context/TGE.txt):",
+        "- TGE y MEG son PARTNERS, no afiliados: sin comision ni pago. El enlace es editorial normal, sin rel=\"sponsored\". Si algun dia hay contraprestacion, pasa a rel=\"sponsored\" y se declara.",
+        "- Solo \"anos de experiencia\": nunca un ano ni las cifras de TGE.txt seccion 8.4 (minimo de habitaciones, horas de cotizacion, numero de hoteles, \"primera central de Europa\").",
+        "- Publico: TGE es un servicio para profesionales (agencias, DMC, empresas, wedding planners). No prometer que un particular reserva directo. CONFIRMAR con TGE (TGE.txt seccion 9, pregunta 5).",
+        "- El alojamiento NO es servicio de MEG: decirlo claro.",
+        "- Enlace a la version de TGE del idioma del lector: en, fr, it y zh (zh-hans, zh-tw y zh-hk van a /zh). El resto a /en.",
+        "- Riesgo a cuidar (politica de spam de Google, \"excessive link exchanges\" y \"partner pages exclusively for the sake of cross-linking\"): ya hay 16 posts con un enlace a TGE. La seccion de la home suma un enlace mas en la pagina de mas peso: un solo enlace, con contenido util para quien organiza el viaje del grupo, no un bloque solo de logo y enlace.",
+        "Alcance tecnico: seccion nueva en la home (componente Svelte 5), copia en los 13 idiomas en el mismo cambio (src/routes/(public)/i18n o el diccionario de la home, con fecha de la pagina, regla 11), sin romper LCP ni CLS de la home (regla 10: medir antes y despues), prueba E2E (regla 8) y entrada en CHANGELOG (regla 9). Es una funcionalidad nueva: va con SDD (regla 6).",
+        "Decisiones pendientes del usuario: donde va en la home (orden de secciones), si lleva el logo de TGE (hace falta el archivo y permiso de uso) y el texto del titular."
+      ]
+    },
+    {
       "id": "#T0048",
       "estado": "pendiente",
       "prioridad": "alta",
