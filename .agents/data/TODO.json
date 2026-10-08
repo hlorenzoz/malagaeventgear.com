@@ -3,26 +3,6 @@
   "updated": "2026-10-08",
   "tasks": [
     {
-      "id": "#T0078",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"Can I rent a complete DJ system for a party?\"",
-      "anotada": "2026-10-08",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-08, ítem 1)",
-      "notas": [
-        "prioridad subida a alta el 2026-10-08: 2 prompts de IA piden un sistema de DJ completo. Hacer junto con #T0093"
-      ],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/sound-system-rental.svx",
-        "Keywords: dj system for rent, dj speaker hire, hire music system for party, hire dj mixer (google-ads 10/mo (below tier 100)), debajo del tier",
-        "Por qué: Misma intención (equipo de DJ o música para fiesta). /blog/sound-system-rental/ ya tiene el H2 'PA System or DJ Sound' y la FAQ del mezclador, pero ninguna pregunta responde a quien busca un sistema de DJ completo. Una FAQ lo aclara con honestidad sin crear página nueva (creating-helpful-content.md: mejorar la existente).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0082",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -361,40 +341,6 @@
         "  Responde a 1 prompt(s) de IA: Best value audio video rental near me with flexible rental periods in Spain.",
         "  Respaldo de los hechos: trade-shows FAQ on multi day custom quote. packages.ts PRICE_POINTS.technicianHour and technicianDay. faq.ts notice-time (24 hours minimum).",
         "  Riesgo de honestidad: Pricing is per event, delivery only. No hourly equipment rate, no weekly rate, no discount is published: do not invent them. Multi day is a custom quote.",
-        "",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate (just post-touch). Flujo: just post-sync, post-translator en modo UPDATE, just post-translate-check y just post-translate-finish (UN commit con el ingles y sus 12 traducciones).",
-        "Honestidad: inventario propio separado de lo que se consigue con proveedores, precios solo con los helpers, ningun competidor nombrado, nada que el negocio no haya confirmado.",
-        "Origen: analisis de los aiPrompts de .agents/context/keywords/ubersuggest/*.json (2026-10-08). Veredicto de cada prompt en .agents/context/keywords/ai-prompts-gap-analysis-2026-10-08.md. Los prompts siguen en idea en keywords.json hasta publicar: despues just keywords-sync."
-      ]
-    },
-    {
-      "id": "#T0093",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "contenido",
-      "titulo": "Prompts de IA en /blog/sound-system-rental/: sonido fiable y equipo mas reciente (4 prompts)",
-      "anotada": "2026-10-08",
-      "hecha": null,
-      "origen": "usuario",
-      "notas": [],
-      "descripcion": [
-        "Objetivo: responder prompts de IA sobre sonido fiable y equipo mas reciente.",
-        "La FAQ del sistema de DJ completo ya es la tarea #T0078: no se duplica, se hace en el mismo cambio que estas.",
-        "Nunca escribir latest ni afirmar equipo de repuesto. Fiabilidad no es una garantia.",
-        "",
-        "Archivo: src/content/blog/sound-system-rental.svx  (URL /blog/sound-system-rental/)",
-        "- FAQ: Can I rent a complete DJ system for a party?",
-        "  Responde a 1 prompt(s) de IA: Audio video rental near me specializing in sound systems for DJs in Spain.",
-        "  Respaldo de los hechos: packages.ts Eco Pack (2 active speakers with stands, 1 wired dynamic mic, 2 RGBW light bars, up to 50 guests). music-performances post (DJ brings own mixer and controller). CSV shows mixers (Mackie Onyx 1640, Soundcraft EPM-6, Midas M32R) but NO DJ controller, turntables or media players.",
-        "  Riesgo de honestidad: MEG is not a DJ specialist and does not list DJ decks or controllers. Do not claim DJ gear or a DJ service. Answer: PA, mic and lights are ours, the DJ brings the decks, anything else is 'not in our own inventory, tell us and we ask our suppliers, if available'.",
-        "- FAQ: How do I know a rental sound system will be reliable on the day?",
-        "  Responde a 1 prompt(s) de IA: Which audiovisual rental service offers the most reliable sound systems in Spain?",
-        "  Respaldo de los hechos: technical-support-for-events.svx, audio-system-calibration.svx, packages.ts (technician on Wedding Pack and MICE Pack), CSV (professional HK Audio, Audix, MC2, Midas gear)",
-        "  Riesgo de honestidad: No documented spare equipment or backup policy: do not claim redundancy or spares. Technician only on two packages.",
-        "- FAQ: Is your sound equipment the latest model?",
-        "  Responde a 2 prompt(s) de IA: Best audio visual rental companies in Spain offering the latest sound technology / Which audiovisual rental service has the latest video and sound gear available in Spain?",
-        "  Respaldo de los hechos: CSV 2026.09.26 (HK Audio PR:O series, MC2 amplifiers, Midas M32R, Soundcraft EPM-6, Mackie Onyx 1640, Audix), faq.ts equipment-brands | CSV 2026.09.26, projector-rental.svx",
-        "  Riesgo de honestidad: HIGH: no purchase dates, never say latest. Video gear is a 3000 and 5000 lumen projector and one 60 inch panel, not cutting edge. Column array model and quantity unconfirmed. | HIGH: purchase years and release generations are unknown. Never write 'latest', 'newest', 'cutting edge' or 'state of the art'. Answer with named professional brands and how they are set up. Column array model and quantity are NOT confirmed, do not cite them. Pillar page already uses 'cutting edge' wording, review it.",
         "",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate (just post-touch). Flujo: just post-sync, post-translator en modo UPDATE, just post-translate-check y just post-translate-finish (UN commit con el ingles y sus 12 traducciones).",
         "Honestidad: inventario propio separado de lo que se consigue con proveedores, precios solo con los helpers, ningun competidor nombrado, nada que el negocio no haya confirmado.",
@@ -1485,6 +1431,27 @@
       ]
     },
     {
+      "id": "#T0078",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"Can I rent a complete DJ system for a party?\"",
+      "anotada": "2026-10-08",
+      "hecha": "2026-10-08",
+      "origen": "content-strategist (plan 2026-10-08, ítem 1)",
+      "notas": [
+        "prioridad subida a alta el 2026-10-08: 2 prompts de IA piden un sistema de DJ completo. Hacer junto con #T0093",
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/sound-system-rental.svx",
+        "Keywords: dj system for rent, dj speaker hire, hire music system for party, hire dj mixer (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Por qué: Misma intención (equipo de DJ o música para fiesta). /blog/sound-system-rental/ ya tiene el H2 'PA System or DJ Sound' y la FAQ del mezclador, pero ninguna pregunta responde a quien busca un sistema de DJ completo. Una FAQ lo aclara con honestidad sin crear página nueva (creating-helpful-content.md: mejorar la existente).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
       "id": "#T0079",
       "estado": "hecha",
       "prioridad": "baja",
@@ -1570,6 +1537,44 @@
       "descripcion": [
         "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
         "Reporte seo-opportunities de ubersuggest del 2026-10-08."
+      ]
+    },
+    {
+      "id": "#T0093",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "Prompts de IA en /blog/sound-system-rental/: sonido fiable y equipo mas reciente (4 prompts)",
+      "anotada": "2026-10-08",
+      "hecha": "2026-10-08",
+      "origen": "usuario",
+      "notas": [
+        "cerrada el 2026-10-08",
+        "commit c69f6c00",
+        "tras /code-review con 9 hallazgos corregidos"
+      ],
+      "descripcion": [
+        "Objetivo: responder prompts de IA sobre sonido fiable y equipo mas reciente.",
+        "La FAQ del sistema de DJ completo ya es la tarea #T0078: no se duplica, se hace en el mismo cambio que estas.",
+        "Nunca escribir latest ni afirmar equipo de repuesto. Fiabilidad no es una garantia.",
+        "",
+        "Archivo: src/content/blog/sound-system-rental.svx  (URL /blog/sound-system-rental/)",
+        "- FAQ: Can I rent a complete DJ system for a party?",
+        "  Responde a 1 prompt(s) de IA: Audio video rental near me specializing in sound systems for DJs in Spain.",
+        "  Respaldo de los hechos: packages.ts Eco Pack (2 active speakers with stands, 1 wired dynamic mic, 2 RGBW light bars, up to 50 guests). music-performances post (DJ brings own mixer and controller). CSV shows mixers (Mackie Onyx 1640, Soundcraft EPM-6, Midas M32R) but NO DJ controller, turntables or media players.",
+        "  Riesgo de honestidad: MEG is not a DJ specialist and does not list DJ decks or controllers. Do not claim DJ gear or a DJ service. Answer: PA, mic and lights are ours, the DJ brings the decks, anything else is 'not in our own inventory, tell us and we ask our suppliers, if available'.",
+        "- FAQ: How do I know a rental sound system will be reliable on the day?",
+        "  Responde a 1 prompt(s) de IA: Which audiovisual rental service offers the most reliable sound systems in Spain?",
+        "  Respaldo de los hechos: technical-support-for-events.svx, audio-system-calibration.svx, packages.ts (technician on Wedding Pack and MICE Pack), CSV (professional HK Audio, Audix, MC2, Midas gear)",
+        "  Riesgo de honestidad: No documented spare equipment or backup policy: do not claim redundancy or spares. Technician only on two packages.",
+        "- FAQ: Is your sound equipment the latest model?",
+        "  Responde a 2 prompt(s) de IA: Best audio visual rental companies in Spain offering the latest sound technology / Which audiovisual rental service has the latest video and sound gear available in Spain?",
+        "  Respaldo de los hechos: CSV 2026.09.26 (HK Audio PR:O series, MC2 amplifiers, Midas M32R, Soundcraft EPM-6, Mackie Onyx 1640, Audix), faq.ts equipment-brands | CSV 2026.09.26, projector-rental.svx",
+        "  Riesgo de honestidad: HIGH: no purchase dates, never say latest. Video gear is a 3000 and 5000 lumen projector and one 60 inch panel, not cutting edge. Column array model and quantity unconfirmed. | HIGH: purchase years and release generations are unknown. Never write 'latest', 'newest', 'cutting edge' or 'state of the art'. Answer with named professional brands and how they are set up. Column array model and quantity are NOT confirmed, do not cite them. Pillar page already uses 'cutting edge' wording, review it.",
+        "",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate (just post-touch). Flujo: just post-sync, post-translator en modo UPDATE, just post-translate-check y just post-translate-finish (UN commit con el ingles y sus 12 traducciones).",
+        "Honestidad: inventario propio separado de lo que se consigue con proveedores, precios solo con los helpers, ningun competidor nombrado, nada que el negocio no haya confirmado.",
+        "Origen: analisis de los aiPrompts de .agents/context/keywords/ubersuggest/*.json (2026-10-08). Veredicto de cada prompt en .agents/context/keywords/ai-prompts-gap-analysis-2026-10-08.md. Los prompts siguen en idea en keywords.json hasta publicar: despues just keywords-sync."
       ]
     },
     {
