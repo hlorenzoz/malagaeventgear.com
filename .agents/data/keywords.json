@@ -87172,6 +87172,42 @@
       }
     },
     {
+      "id": "is-the-wedding-pack-a-good-fit-for-a-winter-wedding-in-spain",
+      "question": "Is the Wedding Pack a good fit for a winter wedding in Spain?",
+      "keywordId": "indoor-wedding-rental-essentials",
+      "cluster": "wedding rentals",
+      "url": "/blog/indoor-wedding-rental-essentials/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-08",
+          "lastSeen": "2026-10-08",
+          "urls": [
+            "/blog/indoor-wedding-rental-essentials/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "is-the-wedding-pack-enough-for-a-luxury-wedding",
+      "question": "Is the Wedding Pack enough for a luxury wedding?",
+      "keywordId": "pros-and-cons-of-wedding-rentals",
+      "cluster": "wedding rentals",
+      "url": "/blog/pros-and-cons-of-wedding-rentals/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-08",
+          "lastSeen": "2026-10-08",
+          "urls": [
+            "/blog/pros-and-cons-of-wedding-rentals/"
+          ]
+        }
+      }
+    },
+    {
       "id": "is-the-wedding-pack-technician-on-site-for-the-whole-event-or-a-set-number-of-hours",
       "question": "Is the Wedding Pack technician on site for the whole event, or a set number of hours?",
       "keywordId": "av-technician-hire",
