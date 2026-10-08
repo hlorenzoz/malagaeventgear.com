@@ -251,7 +251,12 @@
       "hecha": null,
       "origen": "usuario",
       "notas": [
-        "las FAQs que dependen de un dato del negocio esperan a #T0087"
+        "las FAQs que dependen de un dato del negocio esperan a #T0087",
+        "2 de 3 FAQs hechas el 2026-10-08 (DJ o musica en vivo",
+        "y quien calibra)",
+        "commit 161f04b0",
+        "con /code-review y terminos NLP. Falta la FAQ de contratar la calibracion sola",
+        "que espera el dato 3 de #T0087"
       ],
       "descripcion": [
         "Objetivo: responder 7 prompts de IA sobre calibracion de audio. Hallazgo clave: MEG NO vende calibracion como servicio aparte. Esta incluida en cada entrega (faq.ts: instalado y calibrado por nuestro equipo) y el tecnico no se vende suelto (av-technician-hire.svx).",
