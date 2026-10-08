@@ -41,24 +41,6 @@
       ]
     },
     {
-      "id": "#T0045",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"audiovisual equipment rental service\" (new_content)",
-      "anotada": "2026-09-30",
-      "hecha": null,
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/audiovisual-equipment-rental-service)",
-      "notas": [
-        "cerrada por el reporte de ubersuggest",
-        "reabierta por ubersuggest el 2026-10-08"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
-      ]
-    },
-    {
       "id": "#T0048",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -1062,6 +1044,25 @@
       "descripcion": [
         "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
         "Reporte seo-opportunities de ubersuggest del 2026-10-08."
+      ]
+    },
+    {
+      "id": "#T0045",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"audiovisual equipment rental service\" (new_content)",
+      "anotada": "2026-09-30",
+      "hecha": "2026-10-08",
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/audiovisual-equipment-rental-service)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-08",
+        "cerrada por el reporte de ubersuggest"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
       ]
     },
     {
