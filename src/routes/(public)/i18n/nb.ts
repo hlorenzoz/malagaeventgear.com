@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-26';
+export const updated = '2026-10-08';
 
 export default {
 	seo: {
@@ -15,6 +15,20 @@ export default {
 		soundImageAlt: 'Utleie av profesjonelt lydanlegg',
 		lightImageAlt: 'Utleie av spektakulært lys til arrangementer',
 		visualImageAlt: 'Utleie av prosjektorer og HD-bilder til arrangementer'
+	},
+	partner: {
+		badge: 'Vår partner for hotellbestillinger for grupper',
+		title: 'Hotellrom til gruppen din, med Top Group Express',
+		body: 'Et arrangement som bringer folk til Malaga, trenger også rom til dem. Overnatting er ikke vår tjeneste: vi leverer AV-utstyret. For rommene samarbeider vi med partneren vår, Top Group Express, en bestillingsplattform for hotellopphold for grupper med flere års erfaring, bygget for fagfolkene som organiserer reisen.',
+		points: [
+			'Én forespørsel gir tilbud fra flere hoteller',
+			'Bekreft, betal og fakturer på samme sted',
+			'For reisebyråer, destinasjonsselskaper (DMC) og turoperatører'
+		],
+		note: 'Top Group Express er et uavhengig selskap. Tjenesten er for fagfolk i reisebransjen.',
+		cta: 'Besøk Top Group Express',
+		imageAlt:
+			'Nettappen Top Group Express på skjermen til en bærbar PC, med hotelltilbud for grupper og utestående betalinger.'
 	},
 	faqSection: {
 		moreQuestions: 'Har du flere spørsmål?',

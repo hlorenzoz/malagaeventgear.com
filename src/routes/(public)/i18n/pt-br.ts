@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-26';
+export const updated = '2026-10-08';
 
 export default {
 	seo: {
@@ -15,6 +15,20 @@ export default {
 		soundImageAlt: 'Aluguel de sistema de som profissional',
 		lightImageAlt: 'Aluguel de iluminação espetacular para eventos',
 		visualImageAlt: 'Aluguel de projetores e visuais HD para eventos'
+	},
+	partner: {
+		badge: 'Nosso parceiro para reservas de hotel em grupo',
+		title: 'Quartos de hotel para seu grupo, com a Top Group Express',
+		body: 'Um evento que traz gente a Málaga também precisa de quartos para essas pessoas. Hospedagem não é um serviço nosso: nós fornecemos o equipamento audiovisual. Para os quartos, trabalhamos com nossa parceira Top Group Express, uma central de reservas de hospedagem em hotéis para grupos com anos de experiência, feita para os profissionais que organizam a viagem.',
+		points: [
+			'Um único pedido traz cotações de vários hotéis',
+			'Confirme, pague e fature no mesmo lugar',
+			'Para agências de viagens, DMCs e operadoras de turismo'
+		],
+		note: 'A Top Group Express é uma empresa independente. O serviço dela é voltado a profissionais de viagens.',
+		cta: 'Visite a Top Group Express',
+		imageAlt:
+			'O aplicativo web da Top Group Express na tela de um notebook, mostrando cotações de hotéis para grupos e pagamentos pendentes.'
 	},
 	faqSection: {
 		moreQuestions: 'Tem mais dúvidas?',
