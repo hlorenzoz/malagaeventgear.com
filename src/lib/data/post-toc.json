@@ -3785,6 +3785,21 @@
       "id": "how-much-does-it-cost-to-rent-sound-equipment",
       "text": "How much does it cost to rent sound equipment?",
       "level": 3
+    },
+    {
+      "id": "can-i-rent-a-complete-dj-system-for-a-party",
+      "text": "Can I rent a complete DJ system for a party?",
+      "level": 3
+    },
+    {
+      "id": "how-do-i-know-a-rental-sound-system-will-be-reliable-on-the-day",
+      "text": "How do I know a rental sound system will be reliable on the day?",
+      "level": 3
+    },
+    {
+      "id": "is-your-sound-equipment-the-latest-model",
+      "text": "Is your sound equipment the latest model?",
+      "level": 3
     }
   ],
   "wedding-rentals-near-me": [
