@@ -22,17 +22,17 @@
 		'@context': 'https://schema.org',
 		'@type': 'CollectionPage',
 		'@id': `${i18n.absolute('/blog/')}#webpage`,
-		'url': i18n.absolute('/blog/'),
-		'inLanguage': LOCALE_META[i18n.lang].htmlLang,
-		'name': copy.schema.name,
-		'isPartOf': {
+		url: i18n.absolute('/blog/'),
+		inLanguage: LOCALE_META[i18n.lang].htmlLang,
+		name: copy.schema.name,
+		isPartOf: {
 			'@type': 'WebSite',
 			'@id': 'https://malagaeventgear.com/#website',
-			'url': 'https://malagaeventgear.com/',
-			'name': 'Malaga Event Gear'
+			url: 'https://malagaeventgear.com/',
+			name: 'Malaga Event Gear'
 		},
-		'description': copy.schema.description,
-		'numberOfItems': posts.length
+		description: copy.schema.description,
+		numberOfItems: posts.length
 	});
 
 	function formatDate(dateStr: string): string {
@@ -56,18 +56,34 @@
 />
 
 <!-- Hero & Presentation Section -->
-<section class="relative px-margin-mobile md:px-margin-desktop py-20 md:py-32 max-w-container-max mx-auto text-center flex flex-col items-center justify-center overflow-hidden">
+<section
+	class="relative px-margin-mobile md:px-margin-desktop py-20 md:py-32 max-w-container-max mx-auto text-center flex flex-col items-center justify-center overflow-hidden"
+>
 	<!-- Dynamic Ambient Glow Backgrounds -->
-	<div class="absolute -top-40 left-1/4 w-[500px] h-[500px] bg-electric-blue rounded-full blur-[140px] opacity-15 pointer-events-none"></div>
-	<div class="absolute -bottom-40 right-1/4 w-[400px] h-[400px] bg-primary rounded-full blur-[140px] opacity-10 pointer-events-none"></div>
+	<div
+		class="absolute -top-40 left-1/4 w-[500px] h-[500px] bg-electric-blue rounded-full blur-[140px] opacity-15 pointer-events-none"
+	></div>
+	<div
+		class="absolute -bottom-40 right-1/4 w-[400px] h-[400px] bg-primary rounded-full blur-[140px] opacity-10 pointer-events-none"
+	></div>
 
-	<span class="font-label-lg text-electric-blue uppercase tracking-[0.2em] mb-4 block reveal active is-revealed">
+	<span
+		class="font-label-lg text-electric-blue uppercase tracking-[0.2em] mb-4 block reveal active is-revealed"
+	>
 		{copy.hero.badge}
 	</span>
-	<h1 class="font-headline-lg-mobile md:font-display-lg text-headline-lg-mobile md:text-display-lg text-on-surface mb-6 max-w-4xl mx-auto leading-tight reveal active is-revealed">
-		{copy.hero.titlePrefix}{i18n.space}<span class="text-transparent bg-clip-text bg-linear-to-r from-primary to-electric-blue">{copy.hero.titleHighlight}</span>
+	<h1
+		class="font-headline-lg-mobile md:font-display-lg text-headline-lg-mobile md:text-display-lg text-on-surface mb-6 max-w-4xl mx-auto leading-tight reveal active is-revealed"
+	>
+		{copy.hero.titlePrefix}{i18n.space}<span
+			class="text-transparent bg-clip-text bg-linear-to-r from-primary to-electric-blue"
+			>{copy.hero.titleHighlight}</span
+		>
 	</h1>
-	<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-10 reveal active is-revealed" style="transition-delay: 100ms;">
+	<p
+		class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-10 reveal active is-revealed"
+		style="transition-delay: 100ms;"
+	>
 		{copy.hero.intro}
 	</p>
 </section>
@@ -87,7 +103,10 @@
 				     `auto` recuerda el alto real una vez renderizada → CLS se mantiene en 0. -->
 				<article
 					data-testid="post-card"
-					class="relative bg-surface-container-low border border-border-glass rounded-[20px] overflow-hidden hover:border-electric-blue/40 transition-colors duration-300 flex flex-col {i === 0 ? '' : '[content-visibility:auto] [contain-intrinsic-size:auto_420px]'}"
+					class="relative bg-surface-container-low border border-border-glass rounded-[20px] overflow-hidden hover:border-electric-blue/40 transition-colors duration-300 flex flex-col {i ===
+					0
+						? ''
+						: '[content-visibility:auto] [contain-intrinsic-size:auto_420px]'}"
 				>
 					<!-- Cover Image -->
 					{#if post.coverImage}
@@ -102,7 +121,7 @@
 								class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
 								loading={i === 0 ? 'eager' : 'lazy'}
 								fetchpriority={i === 0 ? 'high' : undefined}
-							/>
+							>
 						</a>
 					{/if}
 
@@ -110,7 +129,9 @@
 						<!-- Categories + News badge -->
 						<div class="flex flex-wrap items-center gap-2 mb-3">
 							{#if post.isNews}
-								<span class="px-2 py-0.5 rounded-full text-xs font-label-sm bg-electric-blue-strong text-white uppercase tracking-wider">
+								<span
+									class="px-2 py-0.5 rounded-full text-xs font-label-sm bg-electric-blue-strong text-white uppercase tracking-wider"
+								>
 									{copy.newsBadge}
 								</span>
 							{/if}
@@ -126,7 +147,10 @@
 
 						<!-- Title -->
 						<h2 class="font-headline-sm text-headline-sm text-on-surface mb-3 leading-tight">
-							<a href={i18n.href(`/blog/${post.slug}/`)} class="hover:text-electric-blue transition-colors">
+							<a
+								href={i18n.href(`/blog/${post.slug}/`)}
+								class="hover:text-electric-blue transition-colors"
+							>
 								{post.title}
 							</a>
 						</h2>
@@ -139,7 +163,9 @@
 						{/if}
 
 						<!-- Meta: date + read more -->
-						<div class="flex items-center justify-between mt-auto pt-4 border-t border-border-glass">
+						<div
+							class="flex items-center justify-between mt-auto pt-4 border-t border-border-glass"
+						>
 							<time datetime={post.publishDate} class="text-xs text-on-surface-variant">
 								{formatDate(post.publishDate)}
 							</time>
@@ -158,18 +184,27 @@
 </section>
 
 <!-- Core Clusters We Cover + CTAs -->
-<section data-testid="blog-clusters" class="px-margin-mobile md:px-margin-desktop py-16 md:py-24 max-w-4xl mx-auto border-t border-border-glass">
+<section
+	data-testid="blog-clusters"
+	class="px-margin-mobile md:px-margin-desktop py-16 md:py-24 max-w-4xl mx-auto border-t border-border-glass"
+>
 	<div class="relative flex flex-col items-center text-center">
 		<!-- Ambient glow -->
-		<div class="absolute -inset-x-10 -top-10 h-64 bg-electric-blue rounded-full blur-[160px] opacity-10 pointer-events-none"></div>
+		<div
+			class="absolute -inset-x-10 -top-10 h-64 bg-electric-blue rounded-full blur-[160px] opacity-10 pointer-events-none"
+		></div>
 
-		<h2 class="relative z-10 font-label-sm text-electric-blue uppercase tracking-widest mb-8">
+		<h2
+			class="clusters-heading relative z-10 font-label-sm text-electric-blue uppercase tracking-widest mb-8"
+		>
 			{copy.clustersHeading}
 		</h2>
 
 		<div class="relative z-10 w-full grid grid-cols-2 md:grid-cols-3 gap-4">
 			{#each clusters as cluster}
-				<div class="p-6 rounded-2xl bg-surface-container-low border border-border-glass backdrop-blur-md flex flex-col items-center gap-3 hover:border-electric-blue/40 transition-colors duration-300">
+				<div
+					class="p-6 rounded-2xl bg-surface-container-low border border-border-glass backdrop-blur-md flex flex-col items-center gap-3 hover:border-electric-blue/40 transition-colors duration-300"
+				>
 					<Icon name={cluster.icon} size="28" className="text-on-surface" />
 					<span class="font-label-sm text-on-surface">
 						{cluster.label}
@@ -178,7 +213,9 @@
 			{/each}
 		</div>
 
-		<div class="relative z-10 flex flex-col sm:flex-row items-center gap-4 mt-12 w-full justify-center">
+		<div
+			class="relative z-10 flex flex-col sm:flex-row items-center gap-4 mt-12 w-full justify-center"
+		>
 			<a
 				href={i18n.href('/contact/')}
 				class="w-full sm:w-auto px-8 py-3 rounded-full bg-electric-blue-strong text-white font-label-lg uppercase tracking-wider hover:shadow-lg hover:shadow-electric-blue/30 active:scale-95 transition-all duration-300 flex items-center justify-center gap-2"
@@ -198,3 +235,11 @@
 
 <!-- Google My Business reviews carousel (reused component) -->
 <Testimonials />
+
+<style>
+	/* The heading sits on the blue ambient glow. In the light theme the regular accent only
+	   reaches 4.11:1 against it, so it takes the strong accent there (5.35:1, WCAG AA). */
+	:global([data-theme="light"]) .clusters-heading {
+		color: var(--electric-blue-strong);
+	}
+</style>

@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (blog): contraste del titulo "Core Clusters We Cover" en tema claro (2026-10-08)
+- PageSpeed (movil, `/blog/`) marcaba el `h2` de la seccion `blog-clusters` por contraste insuficiente, con Accesibilidad en 96. El titulo usa `text-electric-blue` y queda encima del resplandor azul de fondo (`bg-electric-blue`, `opacity-10`). Lighthouse mezcla ese resplandor con el fondo de la pagina y no cuenta el desenfoque: en tema claro da 4,11:1 (`#1d66e5` sobre el fondo mezclado), por debajo del 4,5:1 de WCAG AA. En tema oscuro da 5,08:1 y no fallaba.
+- Arreglo en `src/routes/(public)/blog/+page.svelte`: clase `clusters-heading` en el `h2` y una regla con `:global([data-theme='light'])` que le pone `--electric-blue-strong` solo en tema claro (5,35:1). El tema oscuro no cambia. No se toco el token `--electric-blue`, que se usa en todo el sitio.
+- Test nuevo, `tests/blog-clusters-contrast.spec.ts`: calcula el contraste del titulo contra el resplandor mezclado con el fondo, en los dos temas, y exige 4,5:1. Fallaba en tema claro antes del arreglo (4,11) y pasa despues.
+- Sin verificar: no se volvio a correr Lighthouse ni PageSpeed sobre un build, el numero de Accesibilidad se confirma despues del deploy.
+
 ### Added (home): seccion del partner Top Group Express, reservas de hotel para grupos (2026-10-08)
 - Tarea #T0076. Seccion estatica nueva en la home, `src/lib/components/home/PartnerSection.svelte` (`data-testid="partner-tge"`), despues de la vista previa de precios y antes del `LazyMount` de Testimonials. Dos columnas en escritorio (texto e imagen) y apilada en movil. Sale en el HTML prerenderizado: sin contenedor de scroll, sin `LazyMount`, sin preload y sin render solo en cliente. No toca el hero, su preload, el title ni el h1.
 - Imagen: la captura de la app web de TGE, `blog/3107` (`tge-app`), subida con `post-images`, en `<picture>` con AVIF y WebP (400, 600, 768, 1024 y 1536 de ancho), `width="1024"`, `height="642"`, `loading="lazy"`. Tiene fondo transparente y va directo sobre la tarjeta, sin caja detras, para verse igual en tema oscuro y claro.
