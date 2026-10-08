@@ -5,10 +5,18 @@ export default {
 		'/': { path: '/', keyword: '馬拉加 影音設備出租', status: 'propuesta' },
 		'/about-us/': { path: '/關於我們/', keyword: '馬拉加 影音設備出租公司', status: 'propuesta' },
 		'/contact/': { path: '/聯絡我們/', keyword: '馬拉加 影音設備出租報價', status: 'propuesta' },
-		'/equipment/': { path: '/設備/', keyword: '馬拉加 投影機螢幕燈光音響出租', status: 'propuesta' },
+		'/equipment/': {
+			path: '/設備/',
+			keyword: '馬拉加 投影機螢幕燈光音響出租',
+			status: 'propuesta'
+		},
 		'/packages/': { path: '/方案/', keyword: '馬拉加 活動出租方案價格', status: 'propuesta' },
 		'/faq/': { path: '/常見問題/', keyword: '馬拉加 設備出租常見問題', status: 'propuesta' },
-		'/meet-the-team/': { path: '/認識團隊/', keyword: '馬拉加 影音設備出租團隊', status: 'propuesta' },
+		'/meet-the-team/': {
+			path: '/認識團隊/',
+			keyword: '馬拉加 影音設備出租團隊',
+			status: 'propuesta'
+		},
 		'/blog/': { path: '/部落格/', keyword: '馬拉加 活動企劃部落格', status: 'propuesta' },
 		'/blog/categories/': { path: '/部落格/分類/', keyword: '部落格文章分類', status: 'propuesta' },
 		'/sitemap/': { path: '/網站地圖/', keyword: '網站地圖', status: 'propuesta' },
@@ -27,7 +35,11 @@ export default {
 			keyword: '馬拉加 新品發表投影機螢幕方案',
 			status: 'propuesta'
 		},
-		'basic-mice': { slug: '基礎會議方案', keyword: '馬拉加 小型企業會議設備方案', status: 'propuesta' },
+		'basic-mice': {
+			slug: '基礎會議方案',
+			keyword: '馬拉加 小型企業會議設備方案',
+			status: 'propuesta'
+		},
 		mice: { slug: '會展方案', keyword: '馬拉加 大型會展音響投影方案', status: 'propuesta' }
 	},
 	categories: {
@@ -80,7 +92,11 @@ export default {
 			status: 'propuesta'
 		},
 		'audio-visual-rental': { slug: '影音租賃', keyword: '馬拉加 影音租賃', status: 'propuesta' },
-		'audio-visual-rental-for-conferences': { slug: '會議影音租賃', keyword: '馬拉加 會議影音租賃', status: 'propuesta' },
+		'audio-visual-rental-for-conferences': {
+			slug: '會議影音租賃',
+			keyword: '馬拉加 會議影音租賃',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-corporate-events': {
 			slug: '企業活動影音租賃',
 			keyword: '馬拉加 企業活動影音租賃',
@@ -91,7 +107,11 @@ export default {
 			keyword: '馬拉加 產品發表會影音租賃',
 			status: 'propuesta'
 		},
-		'event-technology-service': { slug: '活動燈光舞台架設', keyword: '馬拉加 活動燈光舞台架設', status: 'propuesta' },
+		'event-technology-service': {
+			slug: '活動燈光舞台架設',
+			keyword: '馬拉加 活動燈光舞台架設',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-corporate-meetings': {
 			slug: '董事會影音租賃',
 			keyword: '馬拉加 董事會影音租賃',
@@ -267,11 +287,12 @@ export default {
 			keyword: '馬拉加 線上活動影音租賃',
 			status: 'propuesta'
 		},
-		'news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos': {
-			slug: '托雷莫利諾斯2026年峰會影音製作',
-			keyword: '托雷莫利諾斯PROGOLD SUMMIT 2026影音製作',
-			status: 'propuesta'
-		},
+		'news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos':
+			{
+				slug: '托雷莫利諾斯2026年峰會影音製作',
+				keyword: '托雷莫利諾斯PROGOLD SUMMIT 2026影音製作',
+				status: 'propuesta'
+			},
 		'news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga': {
 			slug: '光通訊展2026攤位螢幕安裝',
 			keyword: '馬拉加ECOC 2026攤位螢幕',
@@ -282,11 +303,12 @@ export default {
 			keyword: '貝納阿維斯Bmotion影音製作',
 			status: 'propuesta'
 		},
-		'news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella': {
-			slug: '馬貝拉活動技術支援',
-			keyword: '馬貝拉Bmotion技術支援',
-			status: 'propuesta'
-		},
+		'news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella':
+			{
+				slug: '馬貝拉活動技術支援',
+				keyword: '馬貝拉Bmotion技術支援',
+				status: 'propuesta'
+			},
 		'news-malaga-event-gear-unveils-new-rebranded-website': {
 			slug: '品牌煥新網站上線',
 			keyword: 'Malaga Event Gear全新網站',
@@ -416,6 +438,12 @@ export default {
 			slug: '戶外電影螢幕租賃',
 			keyword: '馬拉加 戶外電影螢幕租賃',
 			status: 'propuesta'
-		}
+		},
+		'news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga':
+			{
+				slug: '網球團體賽燈光音響',
+				keyword: 'Billie Jean King Cup 2024',
+				status: 'propuesta'
+			}
 	}
 } satisfies LocaleContentMap;

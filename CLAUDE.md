@@ -664,6 +664,11 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
        (`news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis`).
      - ECOC 2026 en FYCMA, 20 a 24 de septiembre de 2026: pantallas en los stands de expositores
        (`news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga`).
+     - Billie Jean King Cup 2024 en Málaga, noviembre de 2024: sonido durante los partidos del
+       torneo y, en la ceremonia de premiación, iluminación y sonido
+       (`news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga`,
+       publicado el 2026-10-08 con `publishDate` 2024-11-20, la fecha del evento, por decisión del
+       usuario).
      `news-malaga-event-gear-unveils-new-rebranded-website` es `News` pero no es un evento. Un
      caso sin su post `News` (como los dos de arriba) no se usa como Experience. Un caso nuevo
      entra cuando se publica su post `News`, y se suma a esta lista en el mismo cambio.
@@ -765,10 +770,14 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
     ni cañones de confeti, ni fuegos artificiales en su inventario propio. Nunca se presentan
     como propios. Si se mencionan, van con la regla 2 del posicionamiento de soluciones
     integrales (arriba). `smoke-machine-rental.svx` explica fog vs haze vs low lying fog.
-  - **Billie Jean King Cup 2024 (confirmado 2026-09-25 por el negocio)**: en la ceremonia de
-    premiación MEG suministró SOLO la iluminación y el sonido. El confeti y los fuegos
+  - **Billie Jean King Cup 2024 (confirmado 2026-09-25 y ampliado el 2026-10-08 por el negocio)**:
+    MEG dio el sonido durante los PARTIDOS del torneo (las fotos 1193 a 1196 muestran la mesa de
+    mezclas con un partido en juego) y, en la ceremonia de premiación, suministró la iluminación y
+    el sonido. Nada más está confirmado: ni pantallas, ni marcador, ni vídeo, ni marcas, modelos o
+    cantidades de equipo usados ahí, ni el nombre del pabellón. El confeti y los fuegos
     artificiales que se ven en las fotos no fueron de MEG. Ningún texto, alt ni pie de foto
     (posts, traducciones, `scripts/migrate-wp/manifest.json`) puede dar a entender lo contrario.
+    Su post `News` está en la lista de la regla 4 del posicionamiento.
   - **Evento en el concesionario Volvo (Vypsa) de Málaga (confirmado 2026-09-27 por el negocio)**:
     MEG suministró SOLO el sistema de audio (cajas HK Audio en trípodes y micrófonos de cuello de
     ganso). No hubo pantalla ni proyector. Las fotos 1266 y 1267 muestran las cajas, la mesa de

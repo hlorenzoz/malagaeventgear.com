@@ -43,6 +43,12 @@
  * componente, así que todo hermano enlazado en los dos sentidos con ellos queda dentro. No es una
  * malla nueva.
  *
+ * Actualizado 2026-10-08: la componente pasó de 61 a 62 nodos. Entró el post News
+ * news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga
+ * (tarea #T0029). El post de deportes y el pilar audiovisual-equipment-rental-service lo enlazan
+ * como caso de Experience (regla 4 del posicionamiento), y el News enlaza de vuelta a la guía de
+ * deportes. Mismo caso que el News del consejo vecinal, que ya estaba en esta componente.
+ *
  * Formato de cada signature: los slugs de la componente, deduplicados, ordenados
  * alfabéticamente y unidos con `|` (mismo formato que usa internamente `findStronglyConnectedComponents`
  * a través de `validateSiloGraph`).
@@ -92,6 +98,7 @@ export const KNOWN_SILO_CYCLE_DEBT: readonly string[] = [
 		'making-the-most-of-wedding-rentals',
 		'managing-last-minute-wedding-rental-changes',
 		'outdoor-movie-screen-and-projector-rental',
+		'news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga',
 		'outdoor-wedding-rental-considerations',
 		'projector-rental',
 		'pros-and-cons-of-wedding-rentals',

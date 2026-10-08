@@ -4,28 +4,72 @@ export default {
 	pages: {
 		'/': { path: '/', keyword: 'leje AV-udstyr Malaga', status: 'propuesta' },
 		'/about-us/': { path: '/om-os/', keyword: 'AV-udlejningsfirma Malaga', status: 'propuesta' },
-		'/contact/': { path: '/kontakt/', keyword: 'kontakt udlejning AV-udstyr Malaga', status: 'propuesta' },
-		'/equipment/': { path: '/udstyr/', keyword: 'leje lyd- og lysudstyr Malaga', status: 'propuesta' },
-		'/packages/': { path: '/pakker/', keyword: 'udlejningspakker til events Malaga', status: 'propuesta' },
-		'/faq/': { path: '/faq/', keyword: 'ofte stillede spørgsmål udstyrsudlejning Malaga', status: 'propuesta' },
-		'/meet-the-team/': { path: '/mod-teamet/', keyword: 'lydteknikere Malaga', status: 'propuesta' },
+		'/contact/': {
+			path: '/kontakt/',
+			keyword: 'kontakt udlejning AV-udstyr Malaga',
+			status: 'propuesta'
+		},
+		'/equipment/': {
+			path: '/udstyr/',
+			keyword: 'leje lyd- og lysudstyr Malaga',
+			status: 'propuesta'
+		},
+		'/packages/': {
+			path: '/pakker/',
+			keyword: 'udlejningspakker til events Malaga',
+			status: 'propuesta'
+		},
+		'/faq/': {
+			path: '/faq/',
+			keyword: 'ofte stillede spørgsmål udstyrsudlejning Malaga',
+			status: 'propuesta'
+		},
+		'/meet-the-team/': {
+			path: '/mod-teamet/',
+			keyword: 'lydteknikere Malaga',
+			status: 'propuesta'
+		},
 		'/blog/': { path: '/blog/', keyword: 'blog om udstyrsudlejning Malaga', status: 'propuesta' },
-		'/blog/categories/': { path: '/blog/kategorier/', keyword: 'blogkategorier Malaga Event Gear', status: 'propuesta' },
+		'/blog/categories/': {
+			path: '/blog/kategorier/',
+			keyword: 'blogkategorier Malaga Event Gear',
+			status: 'propuesta'
+		},
 		'/sitemap/': { path: '/sitemap/', keyword: 'sitemap Malaga Event Gear', status: 'propuesta' },
-		'/privacy-policy/': { path: '/privatlivspolitik/', keyword: 'privatlivspolitik Malaga Event Gear', status: 'propuesta' },
+		'/privacy-policy/': {
+			path: '/privatlivspolitik/',
+			keyword: 'privatlivspolitik Malaga Event Gear',
+			status: 'propuesta'
+		},
 		'/terms-of-service/': {
 			path: '/vilkar-og-betingelser/',
 			keyword: 'vilkår og betingelser udstyrsudlejning',
 			status: 'propuesta'
 		},
-		'/gdpr/': { path: '/gdpr/', keyword: 'GDPR databeskyttelse Malaga Event Gear', status: 'propuesta' },
-		'/cookie-policy/': { path: '/cookiepolitik/', keyword: 'cookiepolitik Malaga Event Gear', status: 'propuesta' },
+		'/gdpr/': {
+			path: '/gdpr/',
+			keyword: 'GDPR databeskyttelse Malaga Event Gear',
+			status: 'propuesta'
+		},
+		'/cookie-policy/': {
+			path: '/cookiepolitik/',
+			keyword: 'cookiepolitik Malaga Event Gear',
+			status: 'propuesta'
+		},
 		'/thank-you/': { path: '/tak/' }
 	},
 	segments: { category: 'kategori', author: 'forfatter' },
 	packages: {
-		eco: { slug: 'eco-pakke', keyword: 'leje lyd og lys til lille fest Malaga', status: 'propuesta' },
-		wedding: { slug: 'bryllupspakke', keyword: 'leje lyd og lys til bryllup Malaga', status: 'propuesta' },
+		eco: {
+			slug: 'eco-pakke',
+			keyword: 'leje lyd og lys til lille fest Malaga',
+			status: 'propuesta'
+		},
+		wedding: {
+			slug: 'bryllupspakke',
+			keyword: 'leje lyd og lys til bryllup Malaga',
+			status: 'propuesta'
+		},
 		'product-presentation': {
 			slug: 'produktlancering-pakke',
 			keyword: 'leje projektor til produktlancering Malaga',
@@ -287,11 +331,12 @@ export default {
 			keyword: 'AV-udlejning til virtuelle events i Malaga',
 			status: 'propuesta'
 		},
-		'news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos': {
-			slug: 'audiovisuel-produktion-progold-summit-2026-torremolinos',
-			keyword: 'audiovisuel produktion PROGOLD SUMMIT 2026 Torremolinos',
-			status: 'propuesta'
-		},
+		'news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos':
+			{
+				slug: 'audiovisuel-produktion-progold-summit-2026-torremolinos',
+				keyword: 'audiovisuel produktion PROGOLD SUMMIT 2026 Torremolinos',
+				status: 'propuesta'
+			},
 		'news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga': {
 			slug: 'standskaerme-ecoc-2026-malaga',
 			keyword: 'standskærme ECOC 2026 Malaga',
@@ -302,11 +347,12 @@ export default {
 			keyword: 'audiovisuel produktion Bmotion Benahavís',
 			status: 'propuesta'
 		},
-		'news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella': {
-			slug: 'teknisk-support-bmotion-marbella',
-			keyword: 'teknisk support Bmotion Marbella',
-			status: 'propuesta'
-		},
+		'news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella':
+			{
+				slug: 'teknisk-support-bmotion-marbella',
+				keyword: 'teknisk support Bmotion Marbella',
+				status: 'propuesta'
+			},
 		'news-malaga-event-gear-unveils-new-rebranded-website': {
 			slug: 'malaga-event-gears-nye-hjemmeside',
 			keyword: 'Malaga Event Gears nye hjemmeside',
@@ -436,6 +482,12 @@ export default {
 			slug: 'udlejning-laerred-udendorsbiograf-malaga',
 			keyword: 'udlejning af lærred til udendørsbiograf i Malaga',
 			status: 'propuesta'
-		}
+		},
+		'news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga':
+			{
+				slug: 'lys-lyd-billie-jean-king-cup-2024-malaga',
+				keyword: 'Billie Jean King Cup 2024 i Malaga',
+				status: 'propuesta'
+			}
 	}
 } satisfies LocaleContentMap;

@@ -2,14 +2,26 @@ import type { LocaleContentMap } from '../schema.ts';
 
 export default {
 	pages: {
-		'/': { path: '/', keyword: 'aluguel de equipamento audiovisual em Málaga', status: 'propuesta' },
+		'/': {
+			path: '/',
+			keyword: 'aluguel de equipamento audiovisual em Málaga',
+			status: 'propuesta'
+		},
 		'/about-us/': {
 			path: '/sobre-nos/',
 			keyword: 'empresa de aluguel de equipamento audiovisual em Málaga',
 			status: 'propuesta'
 		},
-		'/contact/': { path: '/contato/', keyword: 'contato aluguel de equipamento audiovisual Málaga', status: 'propuesta' },
-		'/equipment/': { path: '/equipamentos/', keyword: 'aluguel de equipamento de som e luz Málaga', status: 'propuesta' },
+		'/contact/': {
+			path: '/contato/',
+			keyword: 'contato aluguel de equipamento audiovisual Málaga',
+			status: 'propuesta'
+		},
+		'/equipment/': {
+			path: '/equipamentos/',
+			keyword: 'aluguel de equipamento de som e luz Málaga',
+			status: 'propuesta'
+		},
 		'/packages/': {
 			path: '/pacotes/',
 			keyword: 'pacotes de aluguel de equipamento para eventos Málaga',
@@ -20,14 +32,26 @@ export default {
 			keyword: 'perguntas frequentes aluguel de equipamento Málaga',
 			status: 'propuesta'
 		},
-		'/meet-the-team/': { path: '/nossa-equipe/', keyword: 'técnicos de som e luz Málaga', status: 'propuesta' },
-		'/blog/': { path: '/blog/', keyword: 'blog sobre aluguel de equipamento audiovisual Málaga', status: 'propuesta' },
+		'/meet-the-team/': {
+			path: '/nossa-equipe/',
+			keyword: 'técnicos de som e luz Málaga',
+			status: 'propuesta'
+		},
+		'/blog/': {
+			path: '/blog/',
+			keyword: 'blog sobre aluguel de equipamento audiovisual Málaga',
+			status: 'propuesta'
+		},
 		'/blog/categories/': {
 			path: '/blog/categorias/',
 			keyword: 'categorias do blog Malaga Event Gear',
 			status: 'propuesta'
 		},
-		'/sitemap/': { path: '/mapa-do-site/', keyword: 'mapa do site Malaga Event Gear', status: 'propuesta' },
+		'/sitemap/': {
+			path: '/mapa-do-site/',
+			keyword: 'mapa do site Malaga Event Gear',
+			status: 'propuesta'
+		},
 		'/privacy-policy/': {
 			path: '/politica-de-privacidade/',
 			keyword: 'política de privacidade Malaga Event Gear',
@@ -38,7 +62,11 @@ export default {
 			keyword: 'termos de uso aluguel de equipamento',
 			status: 'propuesta'
 		},
-		'/gdpr/': { path: '/gdpr/', keyword: 'GDPR conformidade e proteção de dados Malaga Event Gear', status: 'propuesta' },
+		'/gdpr/': {
+			path: '/gdpr/',
+			keyword: 'GDPR conformidade e proteção de dados Malaga Event Gear',
+			status: 'propuesta'
+		},
 		'/cookie-policy/': {
 			path: '/politica-de-cookies/',
 			keyword: 'política de cookies Malaga Event Gear',
@@ -48,7 +76,11 @@ export default {
 	},
 	segments: { category: 'categoria', author: 'autor' },
 	packages: {
-		eco: { slug: 'pacote-eco', keyword: 'aluguel de som e luz para festas pequenas Málaga', status: 'propuesta' },
+		eco: {
+			slug: 'pacote-eco',
+			keyword: 'aluguel de som e luz para festas pequenas Málaga',
+			status: 'propuesta'
+		},
 		wedding: {
 			slug: 'pacote-casamento',
 			keyword: 'aluguel de equipamento de som para casamento Málaga',
@@ -71,7 +103,10 @@ export default {
 		}
 	},
 	categories: {
-		'audio-visual-rental': { slug: 'aluguel-de-equipamento-audiovisual', name: 'Aluguel de equipamento audiovisual' },
+		'audio-visual-rental': {
+			slug: 'aluguel-de-equipamento-audiovisual',
+			name: 'Aluguel de equipamento audiovisual'
+		},
 		'corporate-enterprise': { slug: 'empresas-corporativo', name: 'Empresas' },
 		events: { slug: 'eventos', name: 'Eventos' },
 		gadgets: { slug: 'gadgets', name: 'Gadgets' },
@@ -319,11 +354,12 @@ export default {
 			keyword: 'aluguel de audiovisual para eventos virtuais em Málaga',
 			status: 'propuesta'
 		},
-		'news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos': {
-			slug: 'producao-audiovisual-progold-summit-2026-torremolinos',
-			keyword: 'produção audiovisual do PROGOLD SUMMIT 2026 em Torremolinos',
-			status: 'propuesta'
-		},
+		'news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos':
+			{
+				slug: 'producao-audiovisual-progold-summit-2026-torremolinos',
+				keyword: 'produção audiovisual do PROGOLD SUMMIT 2026 em Torremolinos',
+				status: 'propuesta'
+			},
 		'news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga': {
 			slug: 'telas-de-estande-ecoc-2026-malaga',
 			keyword: 'telas de estande da ECOC 2026 em Málaga',
@@ -334,11 +370,12 @@ export default {
 			keyword: 'produção audiovisual Bmotion em Benahavís',
 			status: 'propuesta'
 		},
-		'news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella': {
-			slug: 'suporte-tecnico-bmotion-marbella',
-			keyword: 'suporte técnico Bmotion em Marbella',
-			status: 'propuesta'
-		},
+		'news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella':
+			{
+				slug: 'suporte-tecnico-bmotion-marbella',
+				keyword: 'suporte técnico Bmotion em Marbella',
+				status: 'propuesta'
+			},
 		'news-malaga-event-gear-unveils-new-rebranded-website': {
 			slug: 'novo-site-malaga-event-gear',
 			keyword: 'novo site da Malaga Event Gear',
@@ -468,6 +505,12 @@ export default {
 			slug: 'aluguel-de-tela-de-cinema-ao-ar-livre-malaga',
 			keyword: 'aluguel de tela de cinema ao ar livre em Málaga',
 			status: 'propuesta'
-		}
+		},
+		'news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga':
+			{
+				slug: 'iluminacao-som-billie-jean-king-cup-2024-malaga',
+				keyword: 'Billie Jean King Cup 2024 em Málaga',
+				status: 'propuesta'
+			}
 	}
 } satisfies LocaleContentMap;

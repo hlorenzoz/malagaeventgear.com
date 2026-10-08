@@ -3,25 +3,81 @@ import type { LocaleContentMap } from '../schema.ts';
 export default {
 	pages: {
 		'/': { path: '/', keyword: 'noleggio attrezzature audiovisive a Malaga', status: 'propuesta' },
-		'/about-us/': { path: '/chi-siamo/', keyword: 'azienda di noleggio audiovisivi a Malaga', status: 'propuesta' },
-		'/contact/': { path: '/contatti/', keyword: 'preventivo noleggio audiovisivi Malaga', status: 'propuesta' },
-		'/equipment/': { path: '/attrezzature/', keyword: 'catalogo noleggio attrezzature audiovisive', status: 'propuesta' },
-		'/packages/': { path: '/pacchetti/', keyword: 'prezzi noleggio audiovisivi Malaga', status: 'propuesta' },
-		'/faq/': { path: '/domande-frequenti/', keyword: 'domande frequenti noleggio audiovisivi', status: 'propuesta' },
-		'/meet-the-team/': { path: '/il-nostro-team/', keyword: 'tecnici audiovisivi Malaga Event Gear', status: 'propuesta' },
-		'/blog/': { path: '/blog/', keyword: 'blog noleggio audiovisivi ed eventi Malaga', status: 'propuesta' },
-		'/blog/categories/': { path: '/blog/categorie/', keyword: 'categorie del blog eventi', status: 'propuesta' },
-		'/sitemap/': { path: '/mappa-del-sito/', keyword: 'mappa del sito Malaga Event Gear', status: 'propuesta' },
-		'/privacy-policy/': { path: '/informativa-privacy/', keyword: 'informativa privacy Malaga Event Gear', status: 'propuesta' },
-		'/terms-of-service/': { path: '/termini-e-condizioni/', keyword: 'termini e condizioni Malaga Event Gear', status: 'propuesta' },
-		'/gdpr/': { path: '/gdpr/', keyword: 'protezione dati GDPR Malaga Event Gear', status: 'propuesta' },
-		'/cookie-policy/': { path: '/informativa-cookie/', keyword: 'informativa cookie Malaga Event Gear', status: 'propuesta' },
+		'/about-us/': {
+			path: '/chi-siamo/',
+			keyword: 'azienda di noleggio audiovisivi a Malaga',
+			status: 'propuesta'
+		},
+		'/contact/': {
+			path: '/contatti/',
+			keyword: 'preventivo noleggio audiovisivi Malaga',
+			status: 'propuesta'
+		},
+		'/equipment/': {
+			path: '/attrezzature/',
+			keyword: 'catalogo noleggio attrezzature audiovisive',
+			status: 'propuesta'
+		},
+		'/packages/': {
+			path: '/pacchetti/',
+			keyword: 'prezzi noleggio audiovisivi Malaga',
+			status: 'propuesta'
+		},
+		'/faq/': {
+			path: '/domande-frequenti/',
+			keyword: 'domande frequenti noleggio audiovisivi',
+			status: 'propuesta'
+		},
+		'/meet-the-team/': {
+			path: '/il-nostro-team/',
+			keyword: 'tecnici audiovisivi Malaga Event Gear',
+			status: 'propuesta'
+		},
+		'/blog/': {
+			path: '/blog/',
+			keyword: 'blog noleggio audiovisivi ed eventi Malaga',
+			status: 'propuesta'
+		},
+		'/blog/categories/': {
+			path: '/blog/categorie/',
+			keyword: 'categorie del blog eventi',
+			status: 'propuesta'
+		},
+		'/sitemap/': {
+			path: '/mappa-del-sito/',
+			keyword: 'mappa del sito Malaga Event Gear',
+			status: 'propuesta'
+		},
+		'/privacy-policy/': {
+			path: '/informativa-privacy/',
+			keyword: 'informativa privacy Malaga Event Gear',
+			status: 'propuesta'
+		},
+		'/terms-of-service/': {
+			path: '/termini-e-condizioni/',
+			keyword: 'termini e condizioni Malaga Event Gear',
+			status: 'propuesta'
+		},
+		'/gdpr/': {
+			path: '/gdpr/',
+			keyword: 'protezione dati GDPR Malaga Event Gear',
+			status: 'propuesta'
+		},
+		'/cookie-policy/': {
+			path: '/informativa-cookie/',
+			keyword: 'informativa cookie Malaga Event Gear',
+			status: 'propuesta'
+		},
 		'/thank-you/': { path: '/grazie/' }
 	},
 	segments: { category: 'categoria', author: 'autore' },
 	packages: {
 		eco: { slug: 'eco', keyword: 'noleggio audio e luci economico Malaga', status: 'propuesta' },
-		wedding: { slug: 'matrimonio', keyword: 'noleggio audio e luci per matrimoni Malaga', status: 'propuesta' },
+		wedding: {
+			slug: 'matrimonio',
+			keyword: 'noleggio audio e luci per matrimoni Malaga',
+			status: 'propuesta'
+		},
 		'product-presentation': {
 			slug: 'presentazione-prodotto',
 			keyword: 'noleggio proiettore e schermo per presentazioni Malaga',
@@ -32,7 +88,11 @@ export default {
 			keyword: 'noleggio audiovisivi per riunioni aziendali Malaga',
 			status: 'propuesta'
 		},
-		mice: { slug: 'mice', keyword: 'noleggio audiovisivi per congressi e conferenze Malaga', status: 'propuesta' }
+		mice: {
+			slug: 'mice',
+			keyword: 'noleggio audiovisivi per congressi e conferenze Malaga',
+			status: 'propuesta'
+		}
 	},
 	categories: {
 		'audio-visual-rental': { slug: 'noleggio-audiovisivi', name: 'Noleggio audiovisivi' },
@@ -283,11 +343,12 @@ export default {
 			keyword: 'noleggio audiovisivo per eventi virtuali a Malaga',
 			status: 'propuesta'
 		},
-		'news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos': {
-			slug: 'produzione-audiovisiva-progold-summit-2026-torremolinos',
-			keyword: 'produzione audiovisiva PROGOLD SUMMIT 2026 a Torremolinos',
-			status: 'propuesta'
-		},
+		'news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos':
+			{
+				slug: 'produzione-audiovisiva-progold-summit-2026-torremolinos',
+				keyword: 'produzione audiovisiva PROGOLD SUMMIT 2026 a Torremolinos',
+				status: 'propuesta'
+			},
 		'news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga': {
 			slug: 'schermi-stand-ecoc-2026-malaga',
 			keyword: 'schermi per stand ECOC 2026 a Malaga',
@@ -298,11 +359,12 @@ export default {
 			keyword: 'produzione audiovisiva Bmotion a Benahavís',
 			status: 'propuesta'
 		},
-		'news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella': {
-			slug: 'supporto-tecnico-bmotion-marbella',
-			keyword: 'supporto tecnico Bmotion a Marbella',
-			status: 'propuesta'
-		},
+		'news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella':
+			{
+				slug: 'supporto-tecnico-bmotion-marbella',
+				keyword: 'supporto tecnico Bmotion a Marbella',
+				status: 'propuesta'
+			},
 		'news-malaga-event-gear-unveils-new-rebranded-website': {
 			slug: 'nuovo-sito-malaga-event-gear',
 			keyword: 'nuovo sito di Malaga Event Gear',
@@ -432,6 +494,12 @@ export default {
 			slug: 'noleggio-schermo-cinema-allaperto-malaga',
 			keyword: "noleggio schermo per cinema all'aperto a Malaga",
 			status: 'propuesta'
-		}
+		},
+		'news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga':
+			{
+				slug: 'audio-luci-billie-jean-king-cup-2024-malaga',
+				keyword: 'Billie Jean King Cup 2024 a Malaga',
+				status: 'propuesta'
+			}
 	}
 } satisfies LocaleContentMap;

@@ -5,10 +5,18 @@ export default {
 		'/': { path: '/', keyword: '马拉加 视听设备租赁', status: 'propuesta' },
 		'/about-us/': { path: '/关于我们/', keyword: '马拉加 视听设备租赁公司', status: 'propuesta' },
 		'/contact/': { path: '/联系我们/', keyword: '马拉加 视听设备租赁报价', status: 'propuesta' },
-		'/equipment/': { path: '/设备/', keyword: '马拉加 投影仪屏幕灯光设备租赁', status: 'propuesta' },
+		'/equipment/': {
+			path: '/设备/',
+			keyword: '马拉加 投影仪屏幕灯光设备租赁',
+			status: 'propuesta'
+		},
 		'/packages/': { path: '/套餐/', keyword: '马拉加 活动租赁套餐价格', status: 'propuesta' },
 		'/faq/': { path: '/常见问题/', keyword: '马拉加 设备租赁常见问题', status: 'propuesta' },
-		'/meet-the-team/': { path: '/认识团队/', keyword: '马拉加 视听设备租赁团队', status: 'propuesta' },
+		'/meet-the-team/': {
+			path: '/认识团队/',
+			keyword: '马拉加 视听设备租赁团队',
+			status: 'propuesta'
+		},
 		'/blog/': { path: '/博客/', keyword: '马拉加 活动策划博客', status: 'propuesta' },
 		'/blog/categories/': { path: '/博客/分类/', keyword: '博客文章分类', status: 'propuesta' },
 		'/sitemap/': { path: '/网站地图/', keyword: '网站地图', status: 'propuesta' },
@@ -27,7 +35,11 @@ export default {
 			keyword: '马拉加 新品发布投影仪屏幕套餐',
 			status: 'propuesta'
 		},
-		'basic-mice': { slug: '基础会议套餐', keyword: '马拉加 小型企业会议设备套餐', status: 'propuesta' },
+		'basic-mice': {
+			slug: '基础会议套餐',
+			keyword: '马拉加 小型企业会议设备套餐',
+			status: 'propuesta'
+		},
 		mice: { slug: '会展套餐', keyword: '马拉加 大型会展音响投影套餐', status: 'propuesta' }
 	},
 	categories: {
@@ -79,8 +91,16 @@ export default {
 			keyword: '马拉加 音响系统调校',
 			status: 'propuesta'
 		},
-		'audio-visual-rental': { slug: '活动视听租赁', keyword: '马拉加 活动视听租赁', status: 'propuesta' },
-		'audio-visual-rental-for-conferences': { slug: '会议视听租赁', keyword: '马拉加 会议视听租赁', status: 'propuesta' },
+		'audio-visual-rental': {
+			slug: '活动视听租赁',
+			keyword: '马拉加 活动视听租赁',
+			status: 'propuesta'
+		},
+		'audio-visual-rental-for-conferences': {
+			slug: '会议视听租赁',
+			keyword: '马拉加 会议视听租赁',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-corporate-events': {
 			slug: '企业活动视听租赁',
 			keyword: '马拉加 企业活动视听租赁',
@@ -91,7 +111,11 @@ export default {
 			keyword: '马拉加 新品发布会视听租赁',
 			status: 'propuesta'
 		},
-		'event-technology-service': { slug: '活动灯光舞台搭建', keyword: '马拉加 活动灯光舞台搭建', status: 'propuesta' },
+		'event-technology-service': {
+			slug: '活动灯光舞台搭建',
+			keyword: '马拉加 活动灯光舞台搭建',
+			status: 'propuesta'
+		},
 		'audio-visual-rental-for-corporate-meetings': {
 			slug: '董事会视听租赁',
 			keyword: '马拉加 董事会视听租赁',
@@ -267,11 +291,12 @@ export default {
 			keyword: '马拉加 线上活动视听租赁',
 			status: 'propuesta'
 		},
-		'news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos': {
-			slug: '托雷莫利诺斯2026年峰会视听制作',
-			keyword: '托雷莫利诺斯PROGOLD SUMMIT 2026视听制作',
-			status: 'propuesta'
-		},
+		'news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos':
+			{
+				slug: '托雷莫利诺斯2026年峰会视听制作',
+				keyword: '托雷莫利诺斯PROGOLD SUMMIT 2026视听制作',
+				status: 'propuesta'
+			},
 		'news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga': {
 			slug: '光通信展2026展位屏幕安装',
 			keyword: '马拉加ECOC 2026展位屏幕',
@@ -282,11 +307,12 @@ export default {
 			keyword: '贝纳阿维斯Bmotion视听制作',
 			status: 'propuesta'
 		},
-		'news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella': {
-			slug: '马贝拉活动技术支持',
-			keyword: '马贝拉Bmotion技术支持',
-			status: 'propuesta'
-		},
+		'news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella':
+			{
+				slug: '马贝拉活动技术支持',
+				keyword: '马贝拉Bmotion技术支持',
+				status: 'propuesta'
+			},
 		'news-malaga-event-gear-unveils-new-rebranded-website': {
 			slug: '品牌焕新网站上线',
 			keyword: 'Malaga Event Gear全新网站',
@@ -416,6 +442,12 @@ export default {
 			slug: '户外电影屏幕租赁',
 			keyword: '马拉加 户外电影屏幕租赁',
 			status: 'propuesta'
-		}
+		},
+		'news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga':
+			{
+				slug: '网球团体赛灯光音响',
+				keyword: 'Billie Jean King Cup 2024',
+				status: 'propuesta'
+			}
 	}
 } satisfies LocaleContentMap;
