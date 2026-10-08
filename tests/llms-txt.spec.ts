@@ -84,7 +84,8 @@ test.describe('llms.txt (llmstxt.org standard) E2E Tests', () => {
 	test('should price every optional extra from PRICE_POINTS', async ({ request }) => {
 		const text = await (await request.get(`${baseUrl}/llms.txt`)).text();
 		for (const pkg of packages) {
-			for (const extra of pkg.optional ?? []) expect(text.toLowerCase()).toContain(withPrices(extra, 'en').toLowerCase());
+			for (const extra of pkg.optional ?? [])
+				expect(text.toLowerCase()).toContain(withPrices(extra, 'en').toLowerCase());
 		}
 	});
 
@@ -101,11 +102,14 @@ test.describe('llms.txt (llmstxt.org standard) E2E Tests', () => {
 		}
 	});
 
-	test('should list every News post, the only published source of past events', async ({ request }) => {
+	test('should list every News post, the only published source of past events', async ({
+		request
+	}) => {
 		const text = await (await request.get(`${baseUrl}/llms.txt`)).text();
 		// CLAUDE.md, Posicionamiento rule 4: Experience comes only from the blog's News posts.
 		for (const slug of [
 			'7-years-of-support-for-neighborhood-council-community-meeting-in-malaga-spain',
+			'billie-jean-king-cup-2024-sound-and-lighting',
 			'news-malaga-event-gear-delivers-premium-technical-support-for-bmotions-high-profile-corporate-project-in-marbella',
 			'news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos',
 			'news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis',
@@ -116,7 +120,9 @@ test.describe('llms.txt (llmstxt.org standard) E2E Tests', () => {
 		}
 	});
 
-	test('should separate the own inventory from what MEG sources through suppliers', async ({ request }) => {
+	test('should separate the own inventory from what MEG sources through suppliers', async ({
+		request
+	}) => {
 		const text = await (await request.get(`${baseUrl}/llms.txt`)).text();
 		// CLAUDE.md, Posicionamiento: two layers, and a hedge instead of a promise of availability.
 		expect(text).toContain('Integral event solutions');
@@ -128,7 +134,9 @@ test.describe('llms.txt (llmstxt.org standard) E2E Tests', () => {
 
 	test('should state the real Google rating and review count', async ({ request }) => {
 		const text = await (await request.get(`${baseUrl}/llms.txt`)).text();
-		expect(text).toContain(`${reviews.meta.averageRating} out of 5 from ${reviews.meta.totalCount} Google reviews`);
+		expect(text).toContain(
+			`${reviews.meta.averageRating} out of 5 from ${reviews.meta.totalCount} Google reviews`
+		);
 	});
 
 	test('should not claim what MEG does not offer or publish', async ({ request }) => {
@@ -143,7 +151,9 @@ test.describe('llms.txt (llmstxt.org standard) E2E Tests', () => {
 		expect(text).not.toMatch(/[\u2013\u2014\u2018\u2019\u201C\u201D\u2026\u00A0]/);
 		expect(text).not.toMatch(/\w; \w/);
 		// No English style hyphenated compounds in the prose written by the endpoint.
-		expect(text).not.toMatch(/\b(all-inclusive|delivery-only|deep-dives|hands-on|write-ups|Wedding-specific|delivery-and-setup|Machine-readable|Human-readable)\b/i);
+		expect(text).not.toMatch(
+			/\b(all-inclusive|delivery-only|deep-dives|hands-on|write-ups|Wedding-specific|delivery-and-setup|Machine-readable|Human-readable)\b/i
+		);
 	});
 
 	test('should expose NAP and contact data consistent with siteConfig', async ({ request }) => {

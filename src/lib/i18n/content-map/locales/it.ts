@@ -495,11 +495,10 @@ export default {
 			keyword: "noleggio schermo per cinema all'aperto a Malaga",
 			status: 'propuesta'
 		},
-		'news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga':
-			{
-				slug: 'audio-luci-billie-jean-king-cup-2024-malaga',
-				keyword: 'Billie Jean King Cup 2024 a Malaga',
-				status: 'propuesta'
-			}
+		'billie-jean-king-cup-2024-sound-and-lighting': {
+			slug: 'audio-luci-billie-jean-king-cup-2024-malaga',
+			keyword: 'Billie Jean King Cup 2024 a Malaga',
+			status: 'propuesta'
+		}
 	}
 } satisfies LocaleContentMap;

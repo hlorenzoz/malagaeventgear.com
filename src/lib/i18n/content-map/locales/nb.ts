@@ -491,11 +491,10 @@ export default {
 			keyword: 'utleie av lerret til utendørskino i Malaga',
 			status: 'propuesta'
 		},
-		'news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga':
-			{
-				slug: 'lys-lyd-billie-jean-king-cup-2024-malaga',
-				keyword: 'Billie Jean King Cup 2024 i Malaga',
-				status: 'propuesta'
-			}
+		'billie-jean-king-cup-2024-sound-and-lighting': {
+			slug: 'lys-lyd-billie-jean-king-cup-2024-malaga',
+			keyword: 'Billie Jean King Cup 2024 i Malaga',
+			status: 'propuesta'
+		}
 	}
 } satisfies LocaleContentMap;

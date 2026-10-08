@@ -14142,6 +14142,28 @@
       "notes": ""
     },
     {
+      "id": "billie-jean-king-cup-2024-sound-and-lighting",
+      "keyword": "billie jean king cup 2024 sound and lighting",
+      "locale": "en",
+      "cluster": "news",
+      "topic": null,
+      "intent": null,
+      "url": "/blog/billie-jean-king-cup-2024-sound-and-lighting/",
+      "status": "published",
+      "reason": null,
+      "sources": {
+        "blog": {
+          "firstSeen": "2026-10-08",
+          "lastSeen": "2026-10-08"
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-10-08",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
       "id": "birthday-lights-hire",
       "keyword": "birthday lights hire",
       "locale": "en",
@@ -42858,28 +42880,6 @@
       "opportunity": null,
       "opportunityReason": null,
       "firstSeen": "2026-09-29",
-      "lastResearched": null,
-      "notes": ""
-    },
-    {
-      "id": "news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga",
-      "keyword": "news malaga event gear supplies sound and lighting for the billie jean king cup 2024 in malaga",
-      "locale": "en",
-      "cluster": "news",
-      "topic": null,
-      "intent": null,
-      "url": "/blog/news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga/",
-      "status": "published",
-      "reason": null,
-      "sources": {
-        "blog": {
-          "firstSeen": "2026-10-08",
-          "lastSeen": "2026-10-08"
-        }
-      },
-      "opportunity": null,
-      "opportunityReason": null,
-      "firstSeen": "2026-10-08",
       "lastResearched": null,
       "notes": ""
     },

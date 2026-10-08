@@ -443,11 +443,10 @@ export default {
 			keyword: '馬拉加 戶外電影熒幕租借',
 			status: 'propuesta'
 		},
-		'news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga':
-			{
-				slug: '網球團體賽燈光音響',
-				keyword: 'Billie Jean King Cup 2024',
-				status: 'propuesta'
-			}
+		'billie-jean-king-cup-2024-sound-and-lighting': {
+			slug: '網球團體賽燈光音響',
+			keyword: 'Billie Jean King Cup 2024',
+			status: 'propuesta'
+		}
 	}
 } satisfies LocaleContentMap;

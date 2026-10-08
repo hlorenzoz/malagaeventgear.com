@@ -44,7 +44,7 @@
  * malla nueva.
  *
  * Actualizado 2026-10-08: la componente pasó de 61 a 62 nodos. Entró el post News
- * news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga
+ * billie-jean-king-cup-2024-sound-and-lighting
  * (tarea #T0029). El post de deportes y el pilar audiovisual-equipment-rental-service lo enlazan
  * como caso de Experience (regla 4 del posicionamiento), y el News enlaza de vuelta a la guía de
  * deportes. Mismo caso que el News del consejo vecinal, que ya estaba en esta componente.
@@ -98,7 +98,7 @@ export const KNOWN_SILO_CYCLE_DEBT: readonly string[] = [
 		'making-the-most-of-wedding-rentals',
 		'managing-last-minute-wedding-rental-changes',
 		'outdoor-movie-screen-and-projector-rental',
-		'news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga',
+		'billie-jean-king-cup-2024-sound-and-lighting',
 		'outdoor-wedding-rental-considerations',
 		'projector-rental',
 		'pros-and-cons-of-wedding-rentals',

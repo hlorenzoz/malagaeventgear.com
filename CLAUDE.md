@@ -666,7 +666,7 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
        (`news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga`).
      - Billie Jean King Cup 2024 en Málaga, noviembre de 2024: sonido durante los partidos del
        torneo y, en la ceremonia de premiación, iluminación y sonido
-       (`news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga`,
+       (`billie-jean-king-cup-2024-sound-and-lighting`,
        publicado el 2026-10-08 con `publishDate` 2024-11-20, la fecha del evento, por decisión del
        usuario).
      `news-malaga-event-gear-unveils-new-rebranded-website` es `News` pero no es un evento. Un
@@ -996,6 +996,41 @@ Esto crea `src/content/blog/<slug>.svx` con frontmatter válido y `draft: true`.
 el mismo cambio (regla 1 de [Reglas mandatorias de idioma](#reglas-mandatorias-de-idioma)): sus 12
 traducciones se crean antes de publicarlo, ver "Posts traducidos" más abajo. Los lotes por silo
 son solo para traducir los posts que ya existían antes de la Fase 4.
+
+### Longitud del slug (decisión del usuario, 2026-10-08)
+
+**El slug de un post nuevo tiene como máximo 60 caracteres**, y lo normal son 3 a 6 palabras. El
+slug NO es el título ni un titular: es el nombre corto del tema.
+
+- **Por qué**: el post de la Billie Jean King Cup 2024 se creó con un slug de 94 caracteres
+  (`news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga`),
+  copiando el patrón de los posts `News` anteriores. El usuario lo rechazó y quedó en
+  `billie-jean-king-cup-2024-sound-and-lighting` (44).
+- **Google no da un número.** `.agents/context/seo/search/docs/crawling-indexing/url-structure.md`
+  pide URLs simples y descriptivas, con palabras legibles, y no fija un máximo de caracteres. El tope
+  de 60 es una regla de ESTE proyecto, no una cita de Google: nunca decir que "Google recomienda N
+  caracteres". Referencia interna: la mediana de los slugs del blog es 35 y el percentil 90 es 43.
+- **Cómo se arma**: el tema y, si hace falta, lo que lo distingue. Sin la marca (`malaga-event-gear`),
+  sin el prefijo `news-`, sin artículos ni preposiciones de relleno (`for-the`, `in-the`) y sin
+  repetir la ciudad si no distingue nada. Para un post `News`: `<evento>-<año>-<qué hizo MEG>`. El rol
+  del post lo da `siloRole: news` en el frontmatter, no el slug: ningún código depende del prefijo.
+- **`just post-new` deriva el slug del título**, así que un título largo da un slug largo. El slug se
+  decide ANTES de escribir el cuerpo: se crea el archivo con su nombre corto (o se renombra en ese
+  momento), y `keyword` es ese slug sin guiones.
+- **Slugs por idioma**: la misma regla vale para los slugs del mapa de contenido
+  (`src/lib/i18n/content-map/locales/<locale>.ts`) en los idiomas latinos. En chino el slug va en
+  caracteres chinos y es corto por naturaleza.
+- **Los slugs largos ya publicados NO se tocan**: cambiar una URL publicada exige un 301 por idioma.
+  Son 6: 4 `News` (de 88 a 113 caracteres), el del consejo vecinal (77) y
+  `what-renting-av-gear-in-malaga-taught-me-about-smart-business` (61). No son un modelo a copiar.
+- **Renombrar un slug solo antes del push.** Un slug arrastra todo esto, y se cambia en el mismo
+  commit: el archivo inglés y sus 12 traducciones (el nombre del archivo es el slug inglés), `slug` y
+  `keyword` del frontmatter, la clave del post en los 12 mapas de contenido, cada enlace
+  `/blog/<slug>/` en otros posts y en sus traducciones, `src/lib/data/silo-cycle-debt.ts`,
+  `tests/llms-txt.spec.ts` si es un post `News`, este archivo y `.agents/CHANGELOG.md`. Después
+  `just post-sync <slug>` (regenera `post-faqs.json` y `post-toc.json`). `keywords.json` solo agrega y
+  deja una entrada huérfana con el slug viejo: se restaura la versión anterior al post
+  (`git show <commit>^:.agents/data/keywords.json`) y se corre `just keywords-sync`.
 
 ### Posts traducidos (Fase 4)
 
