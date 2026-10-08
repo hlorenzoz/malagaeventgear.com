@@ -951,6 +951,45 @@
       ]
     },
     {
+      "id": "#T0100",
+      "estado": "en curso",
+      "prioridad": "media",
+      "tipo": "seo-tecnico",
+      "titulo": "[Local Dominator] Enlaces al Google Business Profile: dos enlaces share.google distintos y uno repetido a mano",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [
+        "fuente: Local Dominator",
+        "Site Audit 2026-10-05",
+        "verificado 2026-10-08: los dos enlaces share.google redirigen a la misma entidad de Google",
+        "kgmid=/g/11lzwbvtxp (misma ficha). CID de Maps decodificado de siteConfig.reviewUrl: 1378227528097734863",
+        "sin confirmar a la vista",
+        "2026-10-08: enlace unificado en siteConfig.googleBusinessProfile (https://www.google.com/maps?cid=1378227528097734863",
+        "confirmado por el usuario)",
+        "reutilizado por GoogleEmbedSection y testimonials.ts",
+        "con guard google-profile-link.test.ts. Sin commitear. Queda por decidir el iframe del mapa (sigue por nombre y direccion) y el enlace share.google del post audio-visual-hire-near-me"
+      ],
+      "descripcion": [
+        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
+        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
+        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
+        "",
+        "Hallazgo del reporte: falta un enlace directo al Google Business Profile en la pagina (debilidad, senal ausente y accion de prioridad media).",
+        "Verificacion: falso positivo. La home tiene 3 enlaces al perfil (boton de \"Find Us on Google\", direccion del footer y \"Google My Business\" del footer) y el perfil esta en sameAs del JSON-LD. Usan el enlace corto https://share.google/..., que la herramienta no reconoce como GBP.",
+        "Lo que la verificacion SI encontro:",
+        "- Hay dos enlaces share.google distintos: VclWknaPevh6mN3VF (siteConfig.googleBusinessProfile y GoogleEmbedSection.svelte) y xlg0PV3QeGBNKVnA9 (GMB_PROFILE_URL en src/lib/data/testimonials.ts). No se pudo comprobar que los dos abran la misma ficha: redirigen a una pagina de Google que necesita JavaScript.",
+        "- GoogleEmbedSection.svelte repite el enlace a mano en vez de leer siteConfig.googleBusinessProfile.",
+        "- El mapa embebido busca por texto (nombre y direccion), no por el identificador de la ficha.",
+        "",
+        "Que hacer:",
+        "1. Abrir los dos enlaces en un navegador y confirmar a que ficha lleva cada uno.",
+        "2. Dejar una sola fuente (siteConfig) y que GoogleEmbedSection y testimonials.ts la lean.",
+        "3. Valorar el enlace canonico de Maps con CID en lugar del corto, y el embed por place id. Si cambia, revisar sameAs.",
+        "4. Buscar en todo el repo antes de cambiar (el NAP y estos enlaces estan repetidos en varios archivos)."
+      ]
+    },
+    {
       "id": "#T0077",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1004,41 +1043,6 @@
         "2. Recomendacion: mantener title y H1. Revisar que el primer parrafo repita la categoria y la ciudad (senal 2), con \"Malaga, Spain\" en la primera mencion.",
         "3. Opcional: que la meta description diga \"audio visual equipment rental\" de forma natural sin pasar de 160 caracteres.",
         "4. Cualquier cambio va en los 13 idiomas con su keyword del mapa de contenido, nunca traduciendo la inglesa."
-      ]
-    },
-    {
-      "id": "#T0100",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "seo-tecnico",
-      "titulo": "[Local Dominator] Enlaces al Google Business Profile: dos enlaces share.google distintos y uno repetido a mano",
-      "anotada": "2026-10-08",
-      "hecha": null,
-      "origen": "usuario",
-      "notas": [
-        "fuente: Local Dominator",
-        "Site Audit 2026-10-05",
-        "verificado 2026-10-08: los dos enlaces share.google redirigen a la misma entidad de Google",
-        "kgmid=/g/11lzwbvtxp (misma ficha). CID de Maps decodificado de siteConfig.reviewUrl: 1378227528097734863",
-        "sin confirmar a la vista"
-      ],
-      "descripcion": [
-        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
-        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
-        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
-        "",
-        "Hallazgo del reporte: falta un enlace directo al Google Business Profile en la pagina (debilidad, senal ausente y accion de prioridad media).",
-        "Verificacion: falso positivo. La home tiene 3 enlaces al perfil (boton de \"Find Us on Google\", direccion del footer y \"Google My Business\" del footer) y el perfil esta en sameAs del JSON-LD. Usan el enlace corto https://share.google/..., que la herramienta no reconoce como GBP.",
-        "Lo que la verificacion SI encontro:",
-        "- Hay dos enlaces share.google distintos: VclWknaPevh6mN3VF (siteConfig.googleBusinessProfile y GoogleEmbedSection.svelte) y xlg0PV3QeGBNKVnA9 (GMB_PROFILE_URL en src/lib/data/testimonials.ts). No se pudo comprobar que los dos abran la misma ficha: redirigen a una pagina de Google que necesita JavaScript.",
-        "- GoogleEmbedSection.svelte repite el enlace a mano en vez de leer siteConfig.googleBusinessProfile.",
-        "- El mapa embebido busca por texto (nombre y direccion), no por el identificador de la ficha.",
-        "",
-        "Que hacer:",
-        "1. Abrir los dos enlaces en un navegador y confirmar a que ficha lleva cada uno.",
-        "2. Dejar una sola fuente (siteConfig) y que GoogleEmbedSection y testimonials.ts la lean.",
-        "3. Valorar el enlace canonico de Maps con CID en lugar del corto, y el embed por place id. Si cambia, revisar sameAs.",
-        "4. Buscar en todo el repo antes de cambiar (el NAP y estos enlaces estan repetidos en varios archivos)."
       ]
     },
     {
