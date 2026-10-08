@@ -128,49 +128,6 @@
       ]
     },
     {
-      "id": "#T0029",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "negocio",
-      "titulo": "Billie Jean King Cup 2024 sin post News",
-      "anotada": "2026-09-25",
-      "hecha": null,
-      "origen": "migrada",
-      "notas": [
-        "prioridad asignada por content-strategist el 2026-09-30: El texto confirma que la Billie Jean King Cup 2024 se usa como Experience en audio-visual-rental-for-sports-events.svx sin tener post News propio",
-        "lo que incumple directamente la decision del usuario del 2026-09-25 (CLAUDE.md",
-        "regla 4 de posicionamiento) ya en contenido publicado."
-      ],
-      "descripcion": [
-        "Decisión del usuario del 2026-09-25 (CLAUDE.md, \"Posicionamiento\", regla 4): la Experience",
-        "publicada sale SOLO de los posts News del blog. La Billie Jean King Cup 2024 no tiene post News:",
-        "hoy solo se menciona en audio-visual-rental-for-sports-events.svx y",
-        "audiovisual-equipment-rental-service.svx. Hasta que exista su post News no se suma a la lista de",
-        "casos de la regla 4.",
-        "Pedido del usuario (2026-09-25): escribir el post News del evento (Billie Jean King Cup 2024,",
-        "Málaga, España) y sumarlo como Experience de MEG. Antes de escribirlo:",
-        "1. Leer la noticia oficial para el contexto del evento:",
-        "   https://www.billiejeankingcup.com/es/noticias/italia-la-quinta-se-hizo-esperar",
-        "   Usarla solo como contexto (resultado, fechas, sede). No copiar su texto.",
-        "2. Enlazar esa noticia desde el post (backlink normal, sin nofollow ni sponsored), para citar la",
-        "   fuente oficial del evento.",
-        "3. Hechos confirmados por el usuario: MEG proveyó SOLO el servicio audiovisual (iluminación y",
-        "   sonido). La máquina de confeti y los fuegos artificiales NO fueron de MEG. Ningún texto, alt ni",
-        "   pie de foto puede dar a entender lo contrario.",
-        "4. Usar las fotos del evento que ya están en el CDN: blog/1189, blog/1190 y blog/1191",
-        "   (billie-jean-king-cup-*), más las que usa audio-visual-rental-for-sports-events.svx. Con alt y",
-        "   pie en cada idioma, sin atribuirle a MEG el confeti ni los fuegos.",
-        "5. CONFIRMAR el alcance: CLAUDE.md dice iluminación y sonido \"en la ceremonia de premiación\",",
-        "   pero audio-visual-rental-for-sports-events.svx dice \"the full lights and sound setup ... from",
-        "   the tennis court sound system to the awards ceremony stage\" (todo el torneo) y habla de",
-        "   \"scoreboard display\". Aclarar con el usuario qué cubrió MEG y corregir el post de deportes si",
-        "   no coincide.",
-        "Formato: siloRole news, targetPage \"/\", categoría News, en los 13 idiomas en el mismo cambio. Al",
-        "publicarlo, sumarlo a la lista de la regla 4 de CLAUDE.md y enlazarlo desde las dos menciones",
-        "actuales."
-      ]
-    },
-    {
       "id": "#T0030",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -279,6 +236,29 @@
         "3. (Opcional) Zaraz s.js aparece en staging sin cache TTL (7KB): revisar si se está usando; si no, desactivarlo.",
         "",
         "Verificación tras deploy + purge + toggle: npx lighthouse https://malagaeventgear.com/blog/ --only-categories=performance --form-factor=mobile -> objetivo FCP <2.5s, LCP <3s, score >=85. (nuevo.malagaeventgear.com fue dado de baja, ya no resuelve; usar producción o localhost:4173)."
+      ]
+    },
+    {
+      "id": "#T0077",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "imagenes",
+      "titulo": "Fotos de la Billie Jean King Cup: alt y pies que no describen la foto en 2 posts y el manifest",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [],
+      "descripcion": [
+        "Origen: verificador de #T0029 (2026-10-08). Textos de fotos de la Billie Jean King Cup 2024 que describen algo que la foto no muestra. No se tocaron al escribir el post News. Fotos vistas el 2026-10-08:",
+        "- 1191/1192 (celebracion): esta tomada a pie de pista, y se ven el confeti y las fuentes pirotecnicas (no son de MEG).",
+        "- 1190/1189 (podio): se ve el podio iluminado con haces de luz, con equipos y oficiales. El sistema de sonido NO se ve.",
+        "- 1195/1196 y 1193/1194: mesa de mezclas con un partido en juego detras.",
+        "Que corregir, en ingles y en los 12 idiomas:",
+        "- audio-visual-rental-for-sports-events.svx linea ~81 y audiovisual-equipment-rental-service.svx linea ~86: alt \"seen from the stands of the indoor arena\" (no es desde las gradas, y \"indoor arena\" describe un pabellon que no esta confirmado).",
+        "- audio-visual-rental-for-sports-events.svx lineas ~85 y ~87: alt y pie de 1190 \"Stage setup with professional lights and sound system\" y \"A lit stage with a sound system\" (el sonido no se ve).",
+        "- scripts/migrate-wp/manifest.json: los mismos alt y pies de 1189 a 1196 (incluido un pie con HTML <p> y guiones).",
+        "- audiovisual-equipment-rental-service.svx: conserva un \"We do not stock ... confetti cannons\" plano, que por la regla 2 del posicionamiento va como \"no esta en nuestro inventario propio, contanos y buscamos la solucion\".",
+        "El post News ya usa los textos corregidos: sirven de modelo."
       ]
     },
     {
@@ -452,34 +432,6 @@
         "  se pone el caption del manifest como título markdown, `stock-photos.test.ts` falla porque no dice",
         "  \"illustrative\". Decidir: ¿el caption del manifest de las fotos de banco pasa a decir que es",
         "  ilustrativo (y se traduce como título), o las traducciones siguen sin figcaption?"
-      ]
-    },
-    {
-      "id": "#T0025",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "negocio",
-      "titulo": "CONFIRMAR: ¿la Billie Jean King Cup 2024 puede usarse como Experience sin post News?",
-      "anotada": "2026-09-28",
-      "hecha": null,
-      "origen": "migrada",
-      "notas": [
-        "prioridad asignada por content-strategist el 2026-09-30: Es una pregunta de confirmacion para el negocio (si la excepcion de la BJK Cup sin post News es aceptable)",
-        "no un hallazgo tecnico en si mismo",
-        "lo que encaja como 'confirmacion que el negocio debe dar'."
-      ],
-      "descripcion": [
-        "La regla 4 del posicionamiento (CLAUDE.md) dice que la Experience sale SOLO de los posts News, y",
-        "que un caso sin su post News no se usa. La BJK Cup no tiene post News, pero su dato está confirmado",
-        "(solo iluminación y sonido en la ceremonia de premiación) y se usa como caso en",
-        "audio-visual-rental-for-sports-events (sección \"Case Study\") y audiovisual-equipment-rental-service",
-        "(ya traducido). El 2026-09-28 se alinearon los textos al dato confirmado (22e151e) y se tradujo así.",
-        "Decidir: sumar la BJK Cup a la lista de la regla 4 (o escribir su post News), o sacarla como",
-        "Experience de esos dos posts y sus traducciones.",
-        "Además: el manifest etiqueta las fotos 1196 y 1194 como \"match play\", y sus pies hablan del",
-        "sonido \"durante el campeonato\" y \"para jugadores y espectadores\". El dato confirmado es solo luz",
-        "y sonido en la ceremonia de premiación. Confirmar si MEG también puso sonido durante los partidos;",
-        "si no, corregir esos dos pies (y el manifest) para que hablen solo de la ceremonia."
       ]
     },
     {
@@ -972,6 +924,87 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0025",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "negocio",
+      "titulo": "CONFIRMAR: ¿la Billie Jean King Cup 2024 puede usarse como Experience sin post News?",
+      "anotada": "2026-09-28",
+      "hecha": "2026-10-08",
+      "origen": "migrada",
+      "notas": [
+        "prioridad asignada por content-strategist el 2026-09-30: Es una pregunta de confirmacion para el negocio (si la excepcion de la BJK Cup sin post News es aceptable)",
+        "no un hallazgo tecnico en si mismo",
+        "lo que encaja como 'confirmacion que el negocio debe dar'.",
+        "resuelta el 2026-10-08 con #T0029: se escribio el post News",
+        "asi que la BJK Cup 2024 ya cuenta como Experience. El usuario confirmo que MEG tambien sonorizo los partidos",
+        "por lo que los pies de 1194 y 1196 ('durante el campeonato'",
+        "'para jugadores y espectadores') son correctos"
+      ],
+      "descripcion": [
+        "La regla 4 del posicionamiento (CLAUDE.md) dice que la Experience sale SOLO de los posts News, y",
+        "que un caso sin su post News no se usa. La BJK Cup no tiene post News, pero su dato está confirmado",
+        "(solo iluminación y sonido en la ceremonia de premiación) y se usa como caso en",
+        "audio-visual-rental-for-sports-events (sección \"Case Study\") y audiovisual-equipment-rental-service",
+        "(ya traducido). El 2026-09-28 se alinearon los textos al dato confirmado (22e151e) y se tradujo así.",
+        "Decidir: sumar la BJK Cup a la lista de la regla 4 (o escribir su post News), o sacarla como",
+        "Experience de esos dos posts y sus traducciones.",
+        "Además: el manifest etiqueta las fotos 1196 y 1194 como \"match play\", y sus pies hablan del",
+        "sonido \"durante el campeonato\" y \"para jugadores y espectadores\". El dato confirmado es solo luz",
+        "y sonido en la ceremonia de premiación. Confirmar si MEG también puso sonido durante los partidos;",
+        "si no, corregir esos dos pies (y el manifest) para que hablen solo de la ceremonia."
+      ]
+    },
+    {
+      "id": "#T0029",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "negocio",
+      "titulo": "Billie Jean King Cup 2024 sin post News",
+      "anotada": "2026-09-25",
+      "hecha": "2026-10-08",
+      "origen": "migrada",
+      "notas": [
+        "prioridad asignada por content-strategist el 2026-09-30: El texto confirma que la Billie Jean King Cup 2024 se usa como Experience en audio-visual-rental-for-sports-events.svx sin tener post News propio",
+        "lo que incumple directamente la decision del usuario del 2026-09-25 (CLAUDE.md",
+        "regla 4 de posicionamiento) ya en contenido publicado.",
+        "2026-10-08 post News news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga en 13 idiomas (commits 8b600690 y 31143862). Alcance confirmado por el usuario: sonido durante los partidos y",
+        "en la ceremonia",
+        "iluminacion y sonido; confeti y fuegos no son de MEG. publishDate 2024-11-20 (fecha del evento",
+        "decision del usuario) y updatedDate 2026-10-08. Fuente oficial leida y enlazada. Sumado a la regla 4 de CLAUDE.md. Enlazado desde audio-visual-rental-for-sports-events y audiovisual-equipment-rental-service. Verificador: FAIL por una frase (que las tres jugadoras destacaron en individuales",
+        "la fuente solo lo dice de Bronzetti)",
+        "corregida"
+      ],
+      "descripcion": [
+        "Decisión del usuario del 2026-09-25 (CLAUDE.md, \"Posicionamiento\", regla 4): la Experience",
+        "publicada sale SOLO de los posts News del blog. La Billie Jean King Cup 2024 no tiene post News:",
+        "hoy solo se menciona en audio-visual-rental-for-sports-events.svx y",
+        "audiovisual-equipment-rental-service.svx. Hasta que exista su post News no se suma a la lista de",
+        "casos de la regla 4.",
+        "Pedido del usuario (2026-09-25): escribir el post News del evento (Billie Jean King Cup 2024,",
+        "Málaga, España) y sumarlo como Experience de MEG. Antes de escribirlo:",
+        "1. Leer la noticia oficial para el contexto del evento:",
+        "   https://www.billiejeankingcup.com/es/noticias/italia-la-quinta-se-hizo-esperar",
+        "   Usarla solo como contexto (resultado, fechas, sede). No copiar su texto.",
+        "2. Enlazar esa noticia desde el post (backlink normal, sin nofollow ni sponsored), para citar la",
+        "   fuente oficial del evento.",
+        "3. Hechos confirmados por el usuario: MEG proveyó SOLO el servicio audiovisual (iluminación y",
+        "   sonido). La máquina de confeti y los fuegos artificiales NO fueron de MEG. Ningún texto, alt ni",
+        "   pie de foto puede dar a entender lo contrario.",
+        "4. Usar las fotos del evento que ya están en el CDN: blog/1189, blog/1190 y blog/1191",
+        "   (billie-jean-king-cup-*), más las que usa audio-visual-rental-for-sports-events.svx. Con alt y",
+        "   pie en cada idioma, sin atribuirle a MEG el confeti ni los fuegos.",
+        "5. CONFIRMAR el alcance: CLAUDE.md dice iluminación y sonido \"en la ceremonia de premiación\",",
+        "   pero audio-visual-rental-for-sports-events.svx dice \"the full lights and sound setup ... from",
+        "   the tennis court sound system to the awards ceremony stage\" (todo el torneo) y habla de",
+        "   \"scoreboard display\". Aclarar con el usuario qué cubrió MEG y corregir el post de deportes si",
+        "   no coincide.",
+        "Formato: siloRole news, targetPage \"/\", categoría News, en los 13 idiomas en el mismo cambio. Al",
+        "publicarlo, sumarlo a la lista de la regla 4 de CLAUDE.md y enlazarlo desde las dos menciones",
+        "actuales."
+      ]
     },
     {
       "id": "#T0003",
