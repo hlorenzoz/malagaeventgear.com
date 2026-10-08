@@ -26,6 +26,39 @@
       ]
     },
     {
+      "id": "#T0082",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"sound and light rental\" (new_content)",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-and-light-rental)",
+      "notas": [],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
+      ]
+    },
+    {
+      "id": "#T0045",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"audiovisual equipment rental service\" (new_content)",
+      "anotada": "2026-09-30",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/audiovisual-equipment-rental-service)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-08"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
+      ]
+    },
+    {
       "id": "#T0048",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -259,6 +292,24 @@
         "- scripts/migrate-wp/manifest.json: los mismos alt y pies de 1189 a 1196 (incluido un pie con HTML <p> y guiones).",
         "- audiovisual-equipment-rental-service.svx: conserva un \"We do not stock ... confetti cannons\" plano, que por la regla 2 del posicionamiento va como \"no esta en nuestro inventario propio, contanos y buscamos la solucion\".",
         "El post News ya usa los textos corregidos: sirven de modelo."
+      ]
+    },
+    {
+      "id": "#T0078",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"Can I rent a complete DJ system for a party?\"",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-08, ítem 1)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/sound-system-rental.svx",
+        "Keywords: dj system for rent, dj speaker hire, hire music system for party, hire dj mixer (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Por qué: Misma intención (equipo de DJ o música para fiesta). /blog/sound-system-rental/ ya tiene el H2 'PA System or DJ Sound' y la FAQ del mezclador, pero ninguna pregunta responde a quien busca un sistema de DJ completo. Una FAQ lo aclara con honestidad sin crear página nueva (creating-helpful-content.md: mejorar la existente).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
@@ -924,6 +975,94 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0079",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-08",
+      "anotada": "2026-10-08",
+      "hecha": "2026-10-08",
+      "origen": "content-strategist (plan 2026-10-08, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "dj sound system rental near me (Variante 'near me' de una página existente: /blog/sound-system-rental/ ya cubre la demanda y su FAQ 'Do you deliver sound system rental near me outside Malaga city?'. Doorway abuse en spam-policies.md.)",
+        "hire projector near me (Variante 'near me' de /blog/projector-rental/, que ya tiene la FAQ 'Do you deliver projector rental near me outside Malaga city?'. Doorway abuse en spam-policies.md.)",
+        "hire an outdoor projector (Cubierto por /blog/outdoor-movie-screen-and-projector-rental/, secciones 'Outdoor Movie Screen Rental: Choosing Your Screen and Projector Size' y 'What an Outdoor Movie Night Needs'. Una página nueva sería canibalización.)",
+        "event projector screen (Cubierto por /blog/projector-rental/, FAQs 'Can I rent just a projection screen, without a projector?' y 'Is a screen included with the projector' y la sección 'Why the Screen Is Always Bundled With the Projector'. No consta un modelo fast fold en el inventario, no se puede respaldar.)",
+        "event led screen rental (Cubierto por /blog/tv-screen-rental/: sección 'What We Don't Stock: LED Video Walls and Modular LED Panels', FAQ 'Can Malaga Event Gear source an LED video wall through a supplier?' y la sección de stands de exposición. Ya está el encuadre de proveedores.)",
+        "gamma pro lights and sounds rental (Búsqueda del nombre de otra empresa de alquiler: intención navegacional ajena, MEG no puede responderla (creating-helpful-content.md, contenido solo para atraer visitas).)"
+      ]
+    },
+    {
+      "id": "#T0080",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"sound equipment rental\" (new_content)",
+      "anotada": "2026-10-08",
+      "hecha": "2026-10-08",
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-equipment-rental)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
+      ]
+    },
+    {
+      "id": "#T0081",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"sound system rental for events\" (new_content)",
+      "anotada": "2026-10-08",
+      "hecha": "2026-10-08",
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-system-rental-for-events)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
+      ]
+    },
+    {
+      "id": "#T0083",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"audio visual rental companies\" (existing_content)",
+      "anotada": "2026-10-08",
+      "hecha": "2026-10-08",
+      "origen": "ubersuggest (seo-opportunities, keyword/existing-content/audio-visual-rental-companies)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY existing_content. impacto low, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
+      ]
+    },
+    {
+      "id": "#T0084",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"rent tv screen\" (new_content)",
+      "anotada": "2026-10-08",
+      "hecha": "2026-10-08",
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/rent-tv-screen)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
+      ]
     },
     {
       "id": "#T0025",
@@ -2057,23 +2196,6 @@
         "lighting rental (Ya ranquea en posicion 3.31 con 26 impresiones para el pilar /blog/stage-lighting-rental/, el unico contenido de iluminacion de eventos de MEG. La posicion 3.31 esta fuera del rango de pagina 2/3 (8 a 30) que justificaria subir prioridad, y el rendimiento ya es excelente: no hace falta heading ni post nuevo.)",
         "led screen hire for events (Revise /blog/tv-screen-rental/: cubre la pantalla propia de 60 pulgadas ('big screen') y tiene la seccion 'What We Don't Stock: LED Video Walls and Modular LED Panels' mas la FAQ 'Do you rent LED video walls or modular LED panels?' con el encuadre correcto de proveedores para el video wall ('led screen'). Prioridad subida a alta por el ranking en pagina 2/3 con impresiones reales; sigue siendo skip porque ambos terminos ya estan respondidos sin necesidad de heading nuevo.)",
         "malaga wedding packages (Revise el pilar /blog/wedding-rentals/: ya cubre 'What's Included in the Wedding Pack', precio (650 euros), invitados (80) y la FAQ 'How much do wedding rentals cost in Malaga?'; tambien revise /blog/all-in-one-wedding-rental-packages/ por posible solape, sin conflicto. El termino generico 'paquetes de boda en Malaga' es la intencion central del propio pilar del silo wedding rentals, no una necesidad distinta. Prioridad subida a alta por el ranking en pagina 2/3 (pos 15) con impresiones reales.)"
-      ]
-    },
-    {
-      "id": "#T0045",
-      "estado": "hecha",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"audiovisual equipment rental service\" (new_content)",
-      "anotada": "2026-09-30",
-      "hecha": "2026-09-30",
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/audiovisual-equipment-rental-service)",
-      "notas": [
-        "cerrada por el reporte de ubersuggest"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
       ]
     },
     {
