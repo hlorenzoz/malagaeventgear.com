@@ -198,39 +198,6 @@
       ]
     },
     {
-      "id": "#T0015",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "seo-tecnico",
-      "titulo": "Performance /blog/ (PSI móvil 66 -> objetivo 85+)",
-      "anotada": null,
-      "hecha": null,
-      "origen": "migrada",
-      "notas": [
-        "estado por confirmar (tenía \"❌ ✅\")",
-        "prioridad asignada por content-strategist el 2026-09-30: El diagnostico propio con Lighthouse ya identifico una tarea larga de 2669ms antes del FCP en produccion que hunde el PSI movil de /blog/ a 66",
-        "afectando directamente la experiencia de pagina que Google usa como factor de ranking (creating-helpful-content.md",
-        "'Provide a great page experience')."
-      ],
-      "descripcion": [
-        "Diagnóstico (Lighthouse propio contra nuevo.malagaeventgear.com/blog/, 2026-06-10):",
-        "",
-        "CORRECCIÓN a la nota anterior de /packages/: el challenge-platform de Bot Fight Mode SÍ afecta el score, y mucho. jsd/main.js consume 5,333ms de CPU (throttle 4x), con un long task de 2,669ms ANTES del FCP -> por eso TBT=0 y no aparece como culpable. El desglose del LCP lo confirma: element render delay 1,750ms = 67% del LCP (la imagen ya descargó pero el main thread está ocupado). Está inyectado en producción Y staging.",
-        "",
-        "✅ Aplicado (repo): re-compresión de los rungs 600w/700w de covers de q82 a q70 + cwebp -m 6 (~-31% por imagen: LCP image 52.2KB -> 36.6KB). Scripts gen-cover-variants.ts (ahora con QUALITY/FORCE env) y gen-cover-thumbs.ts (dedup de rungs por ancho). Archivos ya subidos a R2 + cover-thumbs.json regenerado.",
-        "",
-        "PENDIENTE (Cloudflare dashboard, NO repo):",
-        "",
-        "1. Purge de cache CDN: los 78 rungs regenerados mantienen el mismo nombre con max-age=1y -> el edge sigue sirviendo los viejos. Caching > Configuration > Purge by URL (máx 30 por tanda), lista completa en __utils/purge-cover-rungs.txt.",
-        "",
-        "2. Bot Fight Mode / JavaScript Detections: Off (Security > Bots). Vale ~25-30 puntos de PSI en /blog/. Los formularios ya están protegidos por Turnstile; BFM solo aporta anti-scraping genérico. DECISIÓN PENDIENTE del usuario (evaluar tradeoff seguridad/performance).",
-        "",
-        "3. (Opcional) Zaraz s.js aparece en staging sin cache TTL (7KB): revisar si se está usando; si no, desactivarlo.",
-        "",
-        "Verificación tras deploy + purge + toggle: npx lighthouse https://malagaeventgear.com/blog/ --only-categories=performance --form-factor=mobile -> objetivo FCP <2.5s, LCP <3s, score >=85. (nuevo.malagaeventgear.com fue dado de baja, ya no resuelve; usar producción o localhost:4173)."
-      ]
-    },
-    {
       "id": "#T0077",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1184,6 +1151,41 @@
         "cerrada por el usuario el 2026-10-08: el tracking de Google Analytics y Cloudflare Zaraz ya esta hecho"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0015",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "seo-tecnico",
+      "titulo": "Performance /blog/ (PSI móvil 66 -> objetivo 85+)",
+      "anotada": null,
+      "hecha": "2026-10-08",
+      "origen": "migrada",
+      "notas": [
+        "estado por confirmar (tenía \"❌ ✅\")",
+        "prioridad asignada por content-strategist el 2026-09-30: El diagnostico propio con Lighthouse ya identifico una tarea larga de 2669ms antes del FCP en produccion que hunde el PSI movil de /blog/ a 66",
+        "afectando directamente la experiencia de pagina que Google usa como factor de ranking (creating-helpful-content.md",
+        "'Provide a great page experience').",
+        "cerrada por el usuario el 2026-10-08: cache purgada y Bot Fight Mode apagado en el dashboard. PSI movil de /blog/ en 80 (objetivo 85+). Verificado ese dia con curl: /cdn-cgi/challenge-platform/scripts/jsd/main.js se sigue inyectando en produccion",
+        "causa sin confirmar"
+      ],
+      "descripcion": [
+        "Diagnóstico (Lighthouse propio contra nuevo.malagaeventgear.com/blog/, 2026-06-10):",
+        "",
+        "CORRECCIÓN a la nota anterior de /packages/: el challenge-platform de Bot Fight Mode SÍ afecta el score, y mucho. jsd/main.js consume 5,333ms de CPU (throttle 4x), con un long task de 2,669ms ANTES del FCP -> por eso TBT=0 y no aparece como culpable. El desglose del LCP lo confirma: element render delay 1,750ms = 67% del LCP (la imagen ya descargó pero el main thread está ocupado). Está inyectado en producción Y staging.",
+        "",
+        "✅ Aplicado (repo): re-compresión de los rungs 600w/700w de covers de q82 a q70 + cwebp -m 6 (~-31% por imagen: LCP image 52.2KB -> 36.6KB). Scripts gen-cover-variants.ts (ahora con QUALITY/FORCE env) y gen-cover-thumbs.ts (dedup de rungs por ancho). Archivos ya subidos a R2 + cover-thumbs.json regenerado.",
+        "",
+        "PENDIENTE (Cloudflare dashboard, NO repo):",
+        "",
+        "1. Purge de cache CDN: los 78 rungs regenerados mantienen el mismo nombre con max-age=1y -> el edge sigue sirviendo los viejos. Caching > Configuration > Purge by URL (máx 30 por tanda), lista completa en __utils/purge-cover-rungs.txt.",
+        "",
+        "2. Bot Fight Mode / JavaScript Detections: Off (Security > Bots). Vale ~25-30 puntos de PSI en /blog/. Los formularios ya están protegidos por Turnstile; BFM solo aporta anti-scraping genérico. DECISIÓN PENDIENTE del usuario (evaluar tradeoff seguridad/performance).",
+        "",
+        "3. (Opcional) Zaraz s.js aparece en staging sin cache TTL (7KB): revisar si se está usando; si no, desactivarlo.",
+        "",
+        "Verificación tras deploy + purge + toggle: npx lighthouse https://malagaeventgear.com/blog/ --only-categories=performance --form-factor=mobile -> objetivo FCP <2.5s, LCP <3s, score >=85. (nuevo.malagaeventgear.com fue dado de baja, ya no resuelve; usar producción o localhost:4173)."
+      ]
     },
     {
       "id": "#T0019",
