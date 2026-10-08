@@ -357,7 +357,11 @@
       "hecha": null,
       "origen": "usuario",
       "notas": [
-        "las FAQs que dependen de un dato del negocio esperan a #T0087"
+        "las FAQs que dependen de un dato del negocio esperan a #T0087",
+        "2 de 3 FAQs hechas el 2026-10-08 (comparar precios e idiomas)",
+        "commit d7068f22",
+        "con /code-review. Falta la FAQ de descuentos",
+        "que espera el dato 2 de #T0087"
       ],
       "descripcion": [
         "Objetivo: responder prompts de IA sobre descuentos, como comparar precios entre empresas e idiomas de atencion.",
