@@ -242,6 +242,44 @@
       ]
     },
     {
+      "id": "#T0086",
+      "estado": "bloqueada",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "Crear el contenido del clúster de eventos: posts, enlaces internos, 13 idiomas, términos NLP, prompts de IA y referencia a TGE",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [
+        "bloqueada hasta aprobar el plan de #T0085"
+      ],
+      "descripcion": [
+        "Depende de #T0085: no arranca hasta que el plan del clúster de eventos esté aprobado por el usuario. Esta tarea ejecuta ese plan.",
+        "",
+        "Objetivo: crear el contenido del nuevo clúster de eventos, post por post, con enlaces internos, traducciones a todos los idiomas, términos NLP, prompts de IA relevantes y la referencia a Top Group Express (TGE).",
+        "",
+        "Por cada post del clúster",
+        "1. Términos NLP: serp-term-researcher lee el SERP real del término y deja .agents/context/keywords/nlp-terms/YYYY-MM-DD-T####.json, validado con just nlp-terms-check. Si falla, el post sigue sin términos del SERP y se dice.",
+        "2. Prompts de IA: revisar los aiPrompts de los lotes de .agents/context/keywords/ubersuggest/*.json (y su estado en keywords.json) y elegir los relevantes para el tema del post. Se responden en el contenido como sección o FAQ, con palabras propias. Un prompt sin evaluar es \"sin datos\", nunca \"no aparecemos\".",
+        "3. Inglés: post-writer escribe el post con esos términos y prompts. Slug de 60 caracteres como máximo, decidido antes del cuerpo. Frontmatter con keyword, siloRole, targetPage y categorías del vocabulario controlado. Portada e imágenes en R2 con just post-images. Nace con draft: true.",
+        "4. Enlaces internos, todos en el CUERPO: al pilar (target), a los hermanos adyacentes de la cadena en ambos sentidos, y a los posts News relevantes como Experience. Al entrar un post nuevo al final de la cadena, el enlace único del pilar se MUEVE a ese post. Enlaces escritos en su forma inglesa.",
+        "5. TGE en cada post: referencia a Top Group Express (https://topgroupexpress.com/en) para reservas de hotel de grupos y lo que corresponda al tema, con el mismo criterio de los posts que ya lo nombran (audio-visual-rental-for-conferences, for-corporate-events, for-trade-shows, for-sports-events, wedding-rentals): el alojamiento no es servicio de MEG, TGE es el partner, es un servicio para profesionales (agencias, DMC, empresas). Anchor distinto y natural en cada post, sin repetir el mismo texto. Antes de escribir, confirmar con el usuario si el enlace a un partner lleva rel sponsored (qualify-outbound-links.md y regla de sponsored de link-building/media-and-pr-plan.md).",
+        "6. Traducciones: post-translator, solo y de a un agente por vez, a los 12 idiomas con just post-translate-brief <slug>, keyword y slug por idioma en el mapa de contenido (status propuesta). Wording de TGE alineado con el que ya usan los posts y la home en cada idioma.",
+        "7. Verificación: post-verifier independiente, y just post-translate-check <slug>.",
+        "8. Cierre: just post-translate-finish <slug> --message \"feat(blog): <slug> ...\". UN commit local con el inglés y sus 12 traducciones. Nunca el inglés primero. Sin push.",
+        "9. Después: just keywords-sync, entrada en .agents/CHANGELOG.md, sitemaps por idioma verificados y updatedDate del pilar si cambió su enlace.",
+        "",
+        "Reglas que mandan",
+        "- Honestidad: inventario propio distinguido de lo que se consigue con proveedores, Experience solo de posts News, datos de Málaga con fuente oficial citada, fotos de banco marcadas como ilustrativas.",
+        "- \"Malaga, Spain\" en la primera mención geográfica. Regla 12 de tipografía. Atención solo en inglés y español.",
+        "- Google manda sobre POP: sin páginas por localidad, sin near me, sin contenido a escala. Cada post tiene que aportar algo propio.",
+        "- Cupo de posts nuevos por día (new-post-quota) y orden de publicación por tier de Avalanche, según el plan de #T0085.",
+        "- todo-implementer v1 no toma Post nuevo: la orquestación la lleva una sesión, con los agentes en primer plano y uno a la vez.",
+        "",
+        "Subtareas: al aprobarse el plan de #T0085 se crea una tarea hija por post, y esta queda como la tarea madre del clúster."
+      ]
+    },
+    {
       "id": "#T0077",
       "estado": "pendiente",
       "prioridad": "media",
