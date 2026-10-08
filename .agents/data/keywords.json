@@ -86686,6 +86686,24 @@
       }
     },
     {
+      "id": "is-calibration-different-for-a-dj-set-or-live-music-event",
+      "question": "Is calibration different for a DJ set or live music event?",
+      "keywordId": "audio-system-calibration",
+      "cluster": "audio visual rental",
+      "url": "/blog/audio-system-calibration/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-08",
+          "lastSeen": "2026-10-08",
+          "urls": [
+            "/blog/audio-system-calibration/"
+          ]
+        }
+      }
+    },
+    {
       "id": "is-calibration-done-once-or-does-it-change-during-the-event",
       "question": "Is calibration done once, or does it change during the event?",
       "keywordId": "audio-system-calibration",
@@ -87525,6 +87543,24 @@
           "lastSeen": "2026-10-08",
           "urls": [
             "/blog/essential-items-for-wedding-rentals/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "should-i-calibrate-the-sound-system-myself-or-leave-it-to-your-crew",
+      "question": "Should I calibrate the sound system myself or leave it to your crew?",
+      "keywordId": "audio-system-calibration",
+      "cluster": "audio visual rental",
+      "url": "/blog/audio-system-calibration/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-08",
+          "lastSeen": "2026-10-08",
+          "urls": [
+            "/blog/audio-system-calibration/"
           ]
         }
       }
