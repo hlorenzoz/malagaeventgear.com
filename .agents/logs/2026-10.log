@@ -125,3 +125,73 @@
 2026-10-07 13:29 | demanda | todo-commit | commit | hash=ea6c696 subject="chore(todo): close #T0041 tv-screen-rental" file=.agents/data/TODO.json
 2026-10-07 13:29 | demanda | todo-implementer | task-done | task=#T0041 hecha=2026-10-07 titulo="Pregunta FAQ en /blog/tv-screen-rental/: 'What screen size do I need for my conference room?'"
 2026-10-07 13:29 | demanda | todo-implementer | run-end | is_error=false exit=0 cost_usd=1.43 minutes=8.6 turns=23 subtype=success commits=936443a,86994ad,0cc7fb5,ea6c696
+2026-10-07 13:33 | auto | todo-commit | commit | hash=8e8e7c3 subject="chore(todo): close #T0067 and #T0069 as duplicates, start #T0072" file=.agents/data/TODO.json
+2026-10-07 13:52 | demanda | post-translator | commit | slug=audio-visual-rental hash=d87a042 subject="feat(blog): translate audio-visual-rental into the 12 site languages" files=13
+2026-10-07 13:55 | auto | todo-commit | commit | hash=c9c9ec5 subject="chore(todo): close #T0072 audio-visual-rental" file=.agents/data/TODO.json
+2026-10-07 13:57 | auto | todo-commit | commit | hash=9600690 subject="chore(todo): add keyword usage task for audio-visual-rental translations" file=.agents/data/TODO.json
+2026-10-07 13:57 | auto | todo-commit | commit | hash=3431e0d subject="chore(todo): fold keyword usage findings into #T0023" file=.agents/data/TODO.json
+2026-10-07 14:00 | auto | todo-commit | commit | hash=53c162d subject="chore(todo): postpone #T0023" file=.agents/data/TODO.json
+2026-10-07 14:06 | auto | todo-commit | commit | hash=7708913 subject="chore(todo): prioritize #T0034 (TGE partner)" file=.agents/data/TODO.json
+2026-10-07 14:11 | demanda | post-translator | commit | slug=event-technology-service hash=d2d0616 subject="feat(blog): translate event-technology-service into the 12 site languages" files=12
+2026-10-07 14:21 | demanda | post-translator | commit | slug=timeline-for-booking-wedding-rentals hash=3afa37f subject="feat(blog): translate timeline-for-booking-wedding-rentals into the 12 site languages" files=12
+2026-10-07 14:32 | demanda | post-translator | commit | slug=audio-visual-rental-for-sports-events hash=a0e53c5 subject="feat(blog): translate audio-visual-rental-for-sports-events into the 12 site languages" files=12
+2026-10-07 14:44 | demanda | post-translator | commit | slug=audio-visual-rental-planning-timeline hash=9693eae subject="feat(blog): translate audio-visual-rental-planning-timeline into the 12 site languages" files=12
+2026-10-07 14:47 | auto | todo-commit | commit | hash=4428892 subject="chore(todo): record #T0034 tanda 1 progress" file=.agents/data/TODO.json
+2026-10-07 15:05 | demanda | post-translator | commit | slug=audio-visual-rental hash=5440083 subject="feat(blog): translate audio-visual-rental into the 12 site languages" files=12
+2026-10-07 15:13 | demanda | post-translator | commit | slug=wedding-rentals hash=eefd6f6 subject="feat(blog): translate wedding-rentals into the 12 site languages" files=12
+2026-10-07 15:22 | demanda | post-translator | commit | slug=all-in-one-wedding-rental-packages hash=4715332 subject="feat(blog): translate all-in-one-wedding-rental-packages into the 12 site languages" files=12
+2026-10-07 15:31 | demanda | post-translator | commit | slug=audio-visual-rental-for-gala-dinners hash=6bd1d5e subject="feat(blog): translate audio-visual-rental-for-gala-dinners into the 12 site languages" files=12
+2026-10-07 15:39 | demanda | post-translator | commit | slug=audio-visual-rental-for-product-launches hash=1ace73c subject="feat(blog): translate audio-visual-rental-for-product-launches into the 12 site languages" files=12
+2026-10-07 15:48 | demanda | post-translator | commit | slug=av-equipment-consultations hash=73b8da2 subject="feat(blog): translate av-equipment-consultations into the 12 site languages" files=12
+2026-10-07 15:52 | auto | todo-commit | commit | hash=69fcc119 subject="chore(todo): close #T0034 TGE partner mentions" file=.agents/data/TODO.json
+2026-10-07 16:05 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=yes minutes=0.0
+2026-10-07 16:05 | auto | todo-commit | commit | hash=a3bfc54f subject="chore(todo): sync TODO.json" file=.agents/data/TODO.json
+2026-10-07 16:21 | demanda | post-translator | step-failed | slug=outdoor-movie-screen-and-projector-rental step=finish reason="vitest run scripts src/lib failed (exit 1), nothing was committed"
+2026-10-07 16:26 | demanda | post-translator | commit | slug=outdoor-movie-screen-and-projector-rental hash=9d6e8348 subject="feat(blog): translate outdoor-movie-screen-and-projector-rental into the 12 site languages" files=24
+2026-10-07 16:37 | auto | todo-commit | commit | hash=d7d7d83d subject="chore(todo): close #T0057 outdoor movie screen post" file=.agents/data/TODO.json
+2026-10-07 16:51 | auto | todo-commit | commit | hash=bce2a5ad subject="chore(todo): start AI visibility tasks #T0054 #T0055 #T0056" file=.agents/data/TODO.json
+2026-10-07 18:52 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=yes minutes=0.1
+2026-10-07 18:53 | auto | todo-commit | commit | hash=87d28f29 subject="chore(todo): sync TODO.json" file=.agents/data/TODO.json
+2026-10-07 18:54 | demanda | post-translator | step-failed | slug=audio-visual-rental-for-trade-shows step=finish reason="refusing to commit: 2 file(s) already staged (.agents/CHANGELOG.md, src/routes/(public)/llms.txt/+server.ts): commit or unstage them first, this script only commits the translation paths"
+2026-10-07 19:03 | demanda | post-translator | step-failed | slug=wedding-rentals step=finish reason="refusing to run: 1 file(s) already staged (.agents/CHANGELOG.md): commit or unstage them first, this script only commits the translation paths"
+2026-10-07 19:08 | demanda | post-translator | commit | slug=wedding-rentals hash=f72325d3 subject="feat(blog): wedding-rentals add FAQs on PA and wireless microphones and on sound and lighting in Marbella, in English and the 12 site languages" files=16
+2026-10-07 19:13 | auto | todo-commit | commit | hash=0f01b44b subject="chore(todo): close AI visibility tasks #T0054 #T0055 #T0056" file=.agents/data/TODO.json
+2026-10-07 19:24 | auto | todo-commit | commit | hash=8ccebce6 subject="chore(todo): close #T0032 Seville and Granada minimum wording" file=.agents/data/TODO.json
+2026-10-07 19:49 | auto | todo-commit | commit | hash=6cb114a6 subject="chore(todo): close #T0047 projector hire" file=.agents/data/TODO.json
+2026-10-07 19:53 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=yes minutes=0.0
+2026-10-07 19:53 | auto | todo-commit | commit | hash=0e235809 subject="chore(todo): sync TODO.json" file=.agents/data/TODO.json
+2026-10-07 20:09 | demanda | post-translator | commit | slug=stage-uplighting hash=2726489b subject="fix(blog): stage-uplighting the technician fixes faults, the crew sets the colour and placement at setup, in English and the 12 site languages" files=15
+2026-10-07 20:09 | auto | todo-commit | commit | hash=e2efe97e subject="chore(todo): close #T0020 and note related technician wording" file=.agents/data/TODO.json
+2026-10-07 20:12 | auto | todo-commit | commit | hash=2dfedfec subject="chore(todo): extend #T0075 with verifier findings" file=.agents/data/TODO.json
+2026-10-07 21:05 | demanda | post-translator | commit | slug=stage-lighting-rental hash=1c4c2d61 subject="fix(blog): the technician fixes faults, the crew places the lights and sets the colour at setup, in stage-lighting-rental, stage-lighting-for-weddings and stage-uplighting, in English and the 12 site languages" files=41
+2026-10-07 21:13 | auto | todo-commit | commit | hash=8a2a3096 subject="chore(todo): close #T0075 technician wording" file=.agents/data/TODO.json
+2026-10-08 06:02 | auto | todo-commit | commit | hash=6e22ab11 subject="chore(todo): close #T0019 and #T0003, park #T0002 comments system" file=.agents/data/TODO.json
+2026-10-08 06:11 | auto | todo-commit | commit | hash=6097e3db subject="chore(todo): add home page TGE partnership section task" file=.agents/data/TODO.json
+2026-10-08 06:33 | demanda | post-translator | step-failed | slug=news-malaga-event-gear-supplies-sound-and-lighting-for-the-billie-jean-king-cup-2024-in-malaga step=finish reason="the commit was refused twice by the pre-commit hooks (output above), nothing was committed"
+2026-10-08 08:59 | auto | todo-commit | commit | hash=c6965eba subject="chore(todo): close #T0029 and #T0025, add BJK Cup photo captions task" file=.agents/data/TODO.json
+2026-10-08 09:19 | auto | todo-commit | commit | hash=a98587b9 subject="chore(todo): note the shortened slug in #T0029" file=.agents/data/TODO.json
+2026-10-08 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-08 09:31 | auto | ubersuggest-analyst | commit | hash=340079b7 subject="chore(keywords): daily Ubersuggest research 2026-10-08" file=.agents/context/keywords/ubersuggest/2026-10-08.json
+2026-10-08 09:31 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-08.json keywords=7 faqs=0 ai_prompts=57 discarded=5 status=partial minutes=1.7
+2026-10-08 09:33 | auto | faq-researcher | commit | hash=f35a8558 subject="chore(keywords): daily FAQ research 2026-10-08" file=.agents/context/keywords/faqs/2026-10-08.json
+2026-10-08 09:33 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-08.json suggestions=0 status=partial minutes=1.6
+2026-10-08 09:35 | auto | content-strategist | commit | hash=81b526c0 subject="chore(keywords): daily content plan 2026-10-08" file=.agents/context/keywords/content-plan/2026-10-08.json
+2026-10-08 09:35 | auto | todo-commit | commit | hash=9d2b44ca subject="chore(todo): add tasks from the content plan 2026-10-08" file=.agents/data/TODO.json
+2026-10-08 09:35 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-08.json items=7 add-section=0 new-post=0 add-faq=1 skip=6 minutes=1.9
+2026-10-08 09:35 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=yes minutes=0.0
+2026-10-08 09:35 | auto | todo-commit | commit | hash=20796594 subject="chore(todo): sync TODO.json" file=.agents/data/TODO.json
+2026-10-08 09:35 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=5.2
+2026-10-08 10:09 | auto | todo-commit | commit | hash=5b421db9 subject="chore(todo): close #T0076 home TGE partner section" file=.agents/data/TODO.json
+2026-10-08 10:29 | auto | todo-commit | commit | hash=409f71b4 subject="chore(todo): close #T0015 blog performance" file=.agents/data/TODO.json
+2026-10-08 10:34 | auto | todo-commit | commit | hash=35875eae subject="chore(todo): add #T0085 events content cluster analysis" file=.agents/data/TODO.json
+2026-10-08 10:40 | auto | todo-commit | commit | hash=e1a66df3 subject="chore(todo): add #T0086 events cluster content" file=.agents/data/TODO.json
+2026-10-08 10:42 | auto | todo-commit | commit | hash=171e5ef3 subject="chore(todo): note the TGE link decision on #T0086" file=.agents/data/TODO.json
+2026-10-08 10:43 | auto | todo-commit | commit | hash=549cd3d7 subject="chore(todo): add #T0087-#T0096 from AI prompts gap analysis" file=.agents/data/TODO.json
+2026-10-08 11:50 | demanda | post-translator | commit | slug=sound-system-rental hash=c69f6c00 subject="feat(blog): sound-system-rental, 3 FAQ questions from AI prompts (DJ system, reliability, latest model)" files=16
+2026-10-08 11:50 | demanda | todo-implementer | commit | hash=0ce94e19 subject="chore(keywords): sync after #T0093 sound-system-rental" task=#T0093 slug=sound-system-rental
+2026-10-08 11:50 | auto | todo-commit | commit | hash=8ef039d5 subject="chore(todo): close #T0093 sound-system-rental" file=.agents/data/TODO.json
+2026-10-08 12:16 | demanda | post-translator | commit | slug=audio-visual-rental-for-corporate-meetings hash=3ce415ef subject="feat(blog): audio-visual-rental-for-corporate-meetings, FAQ on a hotel meeting in Torremolinos from AI prompts" files=30
+2026-10-08 12:21 | demanda | post-translator | step-failed | slug=smoke-machine-rental step=finish reason="there is nothing to commit under the translation paths"
+2026-10-08 12:21 | demanda | todo-implementer | commit | hash=15a3c71d subject="chore(keywords): sync after #T0096 smoke-machine-rental" task=#T0096 slug=smoke-machine-rental
+2026-10-08 12:21 | auto | todo-commit | commit | hash=e775ba42 subject="chore(todo): close #T0096 smoke-machine-rental" file=.agents/data/TODO.json
+2026-10-08 12:23 | auto | todo-commit | commit | hash=8304e63a subject="chore(todo): add Local Dominator site audit tasks T0097 to T0105" file=.agents/data/TODO.json
