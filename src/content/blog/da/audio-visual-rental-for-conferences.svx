@@ -3,7 +3,8 @@ title: "Konferenceteknik i Malaga, Spanien"
 description: "Konferenceteknik i Malaga, Spanien: det AV-udstyr en konference har brug for, med lyd, projektion, skærm og tekniker på stedet, langs hele Costa del Sol."
 excerpt: "Konferenceteknik i Malaga, Spanien: det AV-udstyr en konference har brug for, med lyd, projektion, skærm og tekniker på stedet, langs hele Costa del Sol."
 publishDate: "2026-09-26"
-sourceUpdated: "2026-09-26"
+updatedDate: "2026-10-09"
+sourceUpdated: "2026-10-09"
 ---
 
 <script>
@@ -112,6 +113,84 @@ Vores katalog dækker det, en plenumsession eller sideløbende session på en ko
 | Podium i methacrylat og modulær scene | Talerpodium og scenetilbehør |
 
 Se hele gennemgangen på [siden om AV-udlejning](/blog/audio-visual-rental/).
+
+## Tjekliste for AV-udstyr til en konference
+
+Det her er arbejdslisten, du kan gennemgå med hver leverandør. For hvad hvert enkelt punkt gør, se [Udstyr vi bruger til konferencer](#udstyr-vi-bruger-til-konferencer).
+
+### Hvad du bør prioritere først
+
+Start med lokalet, ikke med udstyret. Afklar fire ting, før du beder en leverandør om et tilbud:
+
+-   Hvor mange personer hovedsalen rummer. Vores to konferencepakker dækker op til 40 gæster (Basic MICE Pack) og op til 120 (MICE Pack).
+
+-   Hvor mange sessioner der kører samtidig.
+
+-   Hvem der taler, og hvordan: en keynote ved podiet, en paneldebat eller spørgsmål fra salen.
+
+-   Hvad lokalet allerede stiller til rådighed.
+
+Hvis budgettet skal række langt, så beskyt PA-anlægget og mikrofonerne først. Ingen af de to konferencepakker inkluderer belysning, og scene er et valgfrit tilkøb kun på MICE Pack.
+
+### Lyd og mikrofoner
+
+Tæl stemmerne først, og match derefter hver stemme med en mikrofon:
+
+-   Podium eller panelbord: en svanehalsmikrofon. [Basic MICE Pack](/packages/basic-mice/) og [MICE Pack](/packages/mice/) inkluderer hver én, og vi ejer fire svanehalsbordmikrofoner fra Audix.
+
+-   Spørgsmål fra salen: en trådløs håndmikrofon, som MICE Pack inkluderer.
+
+-   En taler, der går rundt: et Audix RAD-360 knaphulssæt eller et Audix HT5 headset, begge separate varer, der prissættes efter forespørgsel.
+
+-   Hvem der styrer lyden: på MICE Pack styrer teknikeren lyden og mikrofonerne.
+
+### Video og skærme
+
+Spørg, hvad hvert lokale skal vise:
+
+-   Projektor eller skærm: projektoren på 5000 lumen hører til Product Presentation Pack og passer til et lyst lokale. Basic MICE Pack har en projektor på 3000 lumen, og MICE Pack har LED-skærmen på 60 tommer og ingen projektor.
+
+-   LED-væg eller videovæg: findes ikke på vores eget lager, da vores storskærm er én flad skærm på 60 tommer. Fortæl os, hvad du har brug for, så leder vi efter en løsning hos vores leverandører, hvis der findes en.
+
+-   Slides: taleren kører altid sine egne. At skifte skærmen mellem bærbare computere gør vores tekniker kun, hvis du bestiller den ydelse.
+
+### Sideløbende sessioner, der kører samtidig
+
+Hvert sideløbende lokale har brug for sin egen lyd, sin egen skærm og sin egen mikrofon, og [Plenum og sideløbende sessioner](#plenum-og-sideløbende-sessioner-av-der-matcher-din-konferences-format) forklarer, hvilken pakke der passer til hvilket lokale. Tjek for hvert lokale:
+
+-   Adskillelse: om væggene mellem lokalerne forhindrer, at lyden når ind i lokalet ved siden af.
+
+-   Support: hvem der retter en fejl i det lokale. Basic MICE Pack har kun en tekniker som valgfrit tilkøb.
+
+-   Lokaler: fortæl os, hvor mange der kører samtidig, så bekræfter vi tilgængeligheden for din dato.
+
+### Små eller midlertidige konferencer
+
+Til ét lille lokale skrumper listen til fire punkter: lærred, projektor, lyd og en mikrofon. [Basic MICE Pack](/packages/basic-mice/) rummer alle fire, med et lærred på 2x2 m og en svanehalsmikrofon. Til en lancering eller en demo har [Product Presentation Pack](/packages/product-presentation/) en projektor på 5000 lumen og et lærred, to højttalere med en mixerpult og en trådløs håndmikrofon. Vi arbejder kun med levering, uden selvafhentning: vores team transporterer og installerer udstyret.
+
+### En lille konference med et begrænset budget
+
+Hvis dit budget er omkring 1.000 euro, så læs det som før moms, sådan som vores priser opgives, da der lægges 21 % moms oveni. Hvis dit beløb allerede inkluderer moms, så dividér det med 1,21 først.
+
+Det mest direkte valg til en lille konference er Basic MICE Pack alene, til 295 euro ekskl. moms, med transport og opsætning inkluderet. En plenumsession plus ét sideløbende lokale lægger MICE Pack til for 490 euro, så de to kommer op på 785 euro ekskl. moms. Begrænsningen er tiden: teknikeren på MICE Pack dækker op til 6 timer, og ekstra timer faktureres oveni.
+
+### Talere på afstand og streaming
+
+Hvis en taler deltager på afstand, så stil disse spørgsmål til lokalet og dine leverandører:
+
+-   Har lokalet en kabelforbundet internetforbindelse som reserve til sit wifi?
+
+-   Hvem medbringer kameraet og softwaren til videoopkald?
+
+-   Hvordan når talerens stemme på afstand ind i salen, og salens stemme ud til taleren?
+
+Kameraer og livestreaming findes ikke på vores eget lager. Til et hybridevent medbringer du som regel din egen bærbare computer, din egen streamingsoftware og din egen internetforbindelse. Fortæl os, hvad du har brug for, så leder vi efter en løsning hos vores leverandører, hvis der findes en.
+
+### En tjekliste eller en pakke til leje?
+
+En tjekliste er listen over, hvad du skal spørge hver leverandør om. En pakke er én leverandørs svar på den liste til én pris. [MICE Pack](/packages/mice/) samler for eksempel en LED-skærm på 60 tommer, aktive højttalere, en svanehalsmikrofon og en trådløs håndmikrofon, en tekniker, levering, kabelopsætning og nedtagning efter eventet.
+
+Hvis du sammensætter opsætningen hos flere leverandører, så bed hver af dem om de samme linjer: levering, opsætning, nedtagning, tekniker og moms. [Send os din liste](/contact/), så matcher vi den med en pakke.
 
 ## Levering, opsætning og support på stedet
 

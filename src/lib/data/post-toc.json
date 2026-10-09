@@ -849,6 +849,51 @@
       "level": 2
     },
     {
+      "id": "av-equipment-checklist-for-a-conference",
+      "text": "AV Equipment Checklist for a Conference",
+      "level": 2
+    },
+    {
+      "id": "what-to-prioritize-first",
+      "text": "What to Prioritize First",
+      "level": 3
+    },
+    {
+      "id": "sound-and-microphones",
+      "text": "Sound and Microphones",
+      "level": 3
+    },
+    {
+      "id": "video-and-displays",
+      "text": "Video and Displays",
+      "level": 3
+    },
+    {
+      "id": "breakout-rooms-running-in-parallel",
+      "text": "Breakout Rooms Running in Parallel",
+      "level": 3
+    },
+    {
+      "id": "small-or-pop-up-conferences",
+      "text": "Small or Pop Up Conferences",
+      "level": 3
+    },
+    {
+      "id": "a-small-conference-on-a-budget",
+      "text": "A Small Conference on a Budget",
+      "level": 3
+    },
+    {
+      "id": "remote-speakers-and-streaming",
+      "text": "Remote Speakers and Streaming",
+      "level": 3
+    },
+    {
+      "id": "a-checklist-or-a-rental-package",
+      "text": "A Checklist or a Rental Package?",
+      "level": 3
+    },
+    {
       "id": "delivery-setup-and-on-site-support",
       "text": "Delivery, Setup and On Site Support",
       "level": 2

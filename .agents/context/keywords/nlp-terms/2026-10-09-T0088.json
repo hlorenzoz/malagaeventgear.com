@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-09",
+  "taskId": "#T0088",
+  "slug": "audio-visual-rental-for-conferences",
+  "searchTerm": "audio visual rental for conferences AV Equipment Checklist for a Conference",
+  "status": "partial",
+  "reason": "Not localized to Spain (tool cannot). One query, 3 distinct UK sites. Skipped Google 2 and 6 (same sites as 1 and 3) and 4 (template site). Pages use UK wording and name no brands or models. No page covers a small or budget conference.",
+  "serp": {
+    "query": "conference AV equipment checklist",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://www.franklinsgardens.co.uk/news/av-visual-equipment-checklist-for-event-planners", "title": "Audio Visual Equipment Checklist For Event Planners" },
+      { "rank": 2, "url": "https://www.ems-events.co.uk/right-av-equipment-for-conferences", "title": "Choosing the Right AV Equipment for Conferences" },
+      { "rank": 3, "url": "https://centric.events/blog/conference-audio-visual-a-v-checklist-audio-video-lighting/", "title": "Conference Audio Visual (A/V) Checklist: Audio, Video and Lighting" }
+    ]
+  },
+  "terms": [
+    { "term": "wireless microphones", "kind": "entity", "seenIn": 3 },
+    { "term": "PA system", "kind": "entity", "seenIn": 3 },
+    { "term": "projectors", "kind": "entity", "seenIn": 3 },
+    { "term": "screens", "kind": "entity", "seenIn": 3 },
+    { "term": "lavalier microphones", "kind": "entity", "seenIn": 2 },
+    { "term": "handheld microphones", "kind": "entity", "seenIn": 2 },
+    { "term": "mixer", "kind": "entity", "seenIn": 2 },
+    { "term": "speakers", "kind": "entity", "seenIn": 2 },
+    { "term": "LED wall", "kind": "entity", "seenIn": 2 },
+    { "term": "stage lighting", "kind": "entity", "seenIn": 2 },
+    { "term": "video cameras", "kind": "entity", "seenIn": 2 },
+    { "term": "live stream", "kind": "related", "seenIn": 2 },
+    { "term": "keynote presentation", "kind": "entity", "seenIn": 2 },
+    { "term": "panel discussion", "kind": "entity", "seenIn": 2 },
+    { "term": "audience Q&A", "kind": "related", "seenIn": 2 },
+    { "term": "test run before event", "kind": "related", "seenIn": 2 },
+    { "term": "What microphones do you need?", "kind": "question", "seenIn": 2 },
+    { "term": "breakout room", "kind": "entity", "seenIn": 1 },
+    { "term": "hybrid events", "kind": "entity", "seenIn": 1 },
+    { "term": "confidence monitor", "kind": "entity", "seenIn": 1 },
+    { "term": "redundant signal paths", "kind": "related", "seenIn": 1 },
+    { "term": "hardline internet backup", "kind": "related", "seenIn": 1 },
+    { "term": "What AV do breakout rooms need?", "kind": "question", "seenIn": 1 },
+    { "term": "Should you buy or rent AV equipment?", "kind": "question", "seenIn": 1 },
+    { "term": "What requirements should planners establish first?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Franklin Gardens AV packages", "reason": "venue offer, competitor wording" },
+    { "term": "Choosing AV hire in London", "reason": "place other than Spain" },
+    { "term": "Finding AV suppliers in London", "reason": "place other than Spain" },
+    { "term": "bulk rates", "reason": "pricing wording" },
+    { "term": "sponsor AV revenue", "reason": "marketing angle, outside the silo" },
+    { "term": "75 to 98 inch TVs", "reason": "sizes MEG may not own, writer checks inventory" },
+    { "term": "Zoom Teams custom CDN", "reason": "third party platform names" },
+    { "term": "walk-on stingers", "reason": "show production wording, not MEG scope" },
+    { "term": "brand color accents", "reason": "decor wording" },
+    { "term": "video walls", "reason": "not in MEG own inventory" },
+    { "term": "delay fills", "reason": "single page, large venue rig" },
+    { "term": "camera shading", "reason": "broadcast production, not MEG scope" }
+  ]
+}

@@ -3,7 +3,8 @@ title: "AV-uthyrning för konferenser i Malaga, Spanien"
 description: "AV-uthyrning för konferenser i Malaga, Spanien: plenarsession och parallellsessioner, ljud, projektion och en tekniker på plats, längs hela Costa del Sol."
 excerpt: "AV-uthyrning för konferenser i Malaga, Spanien: plenarsession och parallellsessioner, ljud, projektion och en tekniker på plats, längs hela Costa del Sol."
 publishDate: "2026-09-26"
-sourceUpdated: "2026-09-26"
+updatedDate: "2026-10-09"
+sourceUpdated: "2026-10-09"
 ---
 
 <script>
@@ -112,6 +113,84 @@ Vår katalog täcker vad en plenarsession eller parallellsession på en konferen
 | Podium i metakrylat och modulär scen | Talarpodium och sceningredienser |
 
 Se hela genomgången på [sidan om AV-uthyrning](/blog/audio-visual-rental/).
+
+## Checklista för AV-utrustning till en konferens
+
+Det här är arbetslistan att gå igenom med varje leverantör. För vad varje del gör, se [Utrustning vi använder till konferenser](#utrustning-vi-använder-till-konferenser).
+
+### Vad du bör prioritera först
+
+Börja med rummet, inte med utrustningen. Avgör fyra saker innan du ber någon leverantör om en offert:
+
+-   Hur många personer huvudsalen rymmer. Våra två konferenspaket täcker upp till 40 gäster (Basic MICE Pack) och upp till 120 (MICE Pack).
+
+-   Hur många sessioner som pågår samtidigt.
+
+-   Vem som talar och hur: ett huvudanförande vid podiet, en paneldiskussion eller frågor från publiken.
+
+-   Vad lokalen redan tillhandahåller.
+
+Om budgeten måste räcka långt, skydda PA-systemet och mikrofonerna först. Inget av de två konferenspaketen innehåller belysning, och scen är ett valfritt tillval enbart på MICE Pack.
+
+### Ljud och mikrofoner
+
+Räkna rösterna först och matcha sedan varje röst med en mikrofon:
+
+-   Podium eller panelbord: en gåshalsmikrofon. [Basic MICE Pack](/packages/basic-mice/) och [MICE Pack](/packages/mice/) innehåller var sin, och vi äger fyra gåshalsmikrofoner för bord från Audix.
+
+-   Frågor från salen: en trådlös handmikrofon, som MICE Pack innehåller.
+
+-   En talare som går omkring: ett myggset Audix RAD-360 eller ett headset Audix HT5, båda separata artiklar som offereras på begäran.
+
+-   Vem som sköter ljudet: på MICE Pack sköter teknikern ljudet och mikrofonerna.
+
+### Video och skärmar
+
+Fråga vad varje rum behöver visa:
+
+-   Projektor eller skärm: projektorn på 5000 lumen hör till Product Presentation Pack och passar en ljus lokal. Basic MICE Pack har en projektor på 3000 lumen, och MICE Pack har LED-skärmen på 60 tum och ingen projektor.
+
+-   LED-vägg eller videovägg: finns inte i vårt eget lager, eftersom vår storbildsskärm är en enda platt skärm på 60 tum. Berätta vad du behöver så söker vi en lösning hos våra leverantörer, om det finns någon.
+
+-   Presentationsbilder: talaren kör alltid sina egna. Att byta skärmens källa mellan bärbara datorer gör vår tekniker bara om du köper den tjänsten.
+
+### Parallellsessioner som pågår samtidigt
+
+Varje parallellt rum behöver eget ljud, egen skärm och egen mikrofon, och [Plenarsession och parallellsessioner](#plenarsession-och-parallellsessioner-av-som-passar-din-konferens-format) förklarar vilket paket som passar vilket rum. Kontrollera för varje rum:
+
+-   Avskärmning: om väggarna mellan rummen hindrar ljudet från att nå rummet bredvid.
+
+-   Support: vem som åtgärdar ett fel i det rummet. Basic MICE Pack har en tekniker bara som valfritt tillval.
+
+-   Rum: berätta hur många som pågår samtidigt så bekräftar vi tillgängligheten för ditt datum.
+
+### Små eller tillfälliga konferenser
+
+För ett enda litet rum krymper listan till fyra delar: duk, projektor, ljud och en mikrofon. [Basic MICE Pack](/packages/basic-mice/) rymmer alla fyra, med en duk på 2x2 m och en gåshalsmikrofon. För en lansering eller en demo ger [Product Presentation Pack](/packages/product-presentation/) en projektor på 5000 lumen och en duk, två högtalare med mixerbord och en trådlös handmikrofon. Vi arbetar bara med leverans, utan avhämtning på egen hand: vårt team transporterar och installerar utrustningen.
+
+### En liten konferens med begränsad budget
+
+Om din budget ligger kring 1 000 euro, läs den som före moms, så som våra priser anges, eftersom 21 % moms läggs på. Om ditt belopp redan inkluderar moms, dividera det med 1,21 först.
+
+Det mest direkta valet för en liten konferens är enbart Basic MICE Pack, för 295 euro exklusive moms, med transport och uppsättning inkluderade. En plenarsession plus ett parallellt rum lägger till MICE Pack för 490 euro, så de två blir tillsammans 785 euro exklusive moms. Begränsningen är tiden: teknikern på MICE Pack täcker upp till 6 timmar, och extra timmar debiteras utöver detta.
+
+### Talare på distans och streaming
+
+Om en talare deltar på distans, ställ de här frågorna till lokalen och dina leverantörer:
+
+-   Har lokalen en trådbunden internetanslutning som reserv till sitt wifi?
+
+-   Vem tar med kameran och programvaran för videosamtal?
+
+-   Hur når den distansdeltagande talarens röst salen, och salens röst talaren?
+
+Kameror och livestreaming finns inte i vårt eget lager. Till ett hybridevenemang tar du vanligtvis med din egen bärbara dator, din egen streamingprogramvara och din egen internetanslutning. Berätta vad du behöver så söker vi en lösning hos våra leverantörer, om det finns någon.
+
+### En checklista eller ett uthyrningspaket?
+
+En checklista är listan över vad du ska fråga varje leverantör. Ett paket är en leverantörs svar på den listan till ett pris. [MICE Pack](/packages/mice/) samlar till exempel en LED-skärm på 60 tum, aktiva högtalare, en gåshalsmikrofon och en trådlös handmikrofon, en tekniker, leverans, kabeluppsättning och nedmontering efter evenemanget.
+
+Om du bygger uppsättningen av flera leverantörer, be var och en om samma rader: leverans, uppsättning, nedmontering, tekniker och moms. [Skicka oss din lista](/contact/) så matchar vi den mot ett paket.
 
 ## Leverans, uppsättning och support på plats
 
