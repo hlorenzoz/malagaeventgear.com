@@ -1027,42 +1027,26 @@
       ]
     },
     {
-      "id": "#T0100",
+      "id": "#T0077",
       "estado": "en curso",
       "prioridad": "media",
-      "tipo": "seo-tecnico",
-      "titulo": "[Local Dominator] Enlaces al Google Business Profile: dos enlaces share.google distintos y uno repetido a mano",
+      "tipo": "imagenes",
+      "titulo": "Fotos de la Billie Jean King Cup: alt y pies que no describen la foto en 2 posts y el manifest",
       "anotada": "2026-10-08",
       "hecha": null,
       "origen": "usuario",
-      "notas": [
-        "fuente: Local Dominator",
-        "Site Audit 2026-10-05",
-        "verificado 2026-10-08: los dos enlaces share.google redirigen a la misma entidad de Google",
-        "kgmid=/g/11lzwbvtxp (misma ficha). CID de Maps decodificado de siteConfig.reviewUrl: 1378227528097734863",
-        "sin confirmar a la vista",
-        "2026-10-08: enlace unificado en siteConfig.googleBusinessProfile (https://www.google.com/maps?cid=1378227528097734863",
-        "confirmado por el usuario)",
-        "reutilizado por GoogleEmbedSection y testimonials.ts",
-        "con guard google-profile-link.test.ts. Sin commitear. Queda por decidir el iframe del mapa (sigue por nombre y direccion) y el enlace share.google del post audio-visual-hire-near-me"
-      ],
+      "notas": [],
       "descripcion": [
-        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
-        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
-        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
-        "",
-        "Hallazgo del reporte: falta un enlace directo al Google Business Profile en la pagina (debilidad, senal ausente y accion de prioridad media).",
-        "Verificacion: falso positivo. La home tiene 3 enlaces al perfil (boton de \"Find Us on Google\", direccion del footer y \"Google My Business\" del footer) y el perfil esta en sameAs del JSON-LD. Usan el enlace corto https://share.google/..., que la herramienta no reconoce como GBP.",
-        "Lo que la verificacion SI encontro:",
-        "- Hay dos enlaces share.google distintos: VclWknaPevh6mN3VF (siteConfig.googleBusinessProfile y GoogleEmbedSection.svelte) y xlg0PV3QeGBNKVnA9 (GMB_PROFILE_URL en src/lib/data/testimonials.ts). No se pudo comprobar que los dos abran la misma ficha: redirigen a una pagina de Google que necesita JavaScript.",
-        "- GoogleEmbedSection.svelte repite el enlace a mano en vez de leer siteConfig.googleBusinessProfile.",
-        "- El mapa embebido busca por texto (nombre y direccion), no por el identificador de la ficha.",
-        "",
-        "Que hacer:",
-        "1. Abrir los dos enlaces en un navegador y confirmar a que ficha lleva cada uno.",
-        "2. Dejar una sola fuente (siteConfig) y que GoogleEmbedSection y testimonials.ts la lean.",
-        "3. Valorar el enlace canonico de Maps con CID en lugar del corto, y el embed por place id. Si cambia, revisar sameAs.",
-        "4. Buscar en todo el repo antes de cambiar (el NAP y estos enlaces estan repetidos en varios archivos)."
+        "Origen: verificador de #T0029 (2026-10-08). Textos de fotos de la Billie Jean King Cup 2024 que describen algo que la foto no muestra. No se tocaron al escribir el post News. Fotos vistas el 2026-10-08:",
+        "- 1191/1192 (celebracion): esta tomada a pie de pista, y se ven el confeti y las fuentes pirotecnicas (no son de MEG).",
+        "- 1190/1189 (podio): se ve el podio iluminado con haces de luz, con equipos y oficiales. El sistema de sonido NO se ve.",
+        "- 1195/1196 y 1193/1194: mesa de mezclas con un partido en juego detras.",
+        "Que corregir, en ingles y en los 12 idiomas:",
+        "- audio-visual-rental-for-sports-events.svx linea ~81 y audiovisual-equipment-rental-service.svx linea ~86: alt \"seen from the stands of the indoor arena\" (no es desde las gradas, y \"indoor arena\" describe un pabellon que no esta confirmado).",
+        "- audio-visual-rental-for-sports-events.svx lineas ~85 y ~87: alt y pie de 1190 \"Stage setup with professional lights and sound system\" y \"A lit stage with a sound system\" (el sonido no se ve).",
+        "- scripts/migrate-wp/manifest.json: los mismos alt y pies de 1189 a 1196 (incluido un pie con HTML <p> y guiones).",
+        "- audiovisual-equipment-rental-service.svx: conserva un \"We do not stock ... confetti cannons\" plano, que por la regla 2 del posicionamiento va como \"no esta en nuestro inventario propio, contanos y buscamos la solucion\".",
+        "El post News ya usa los textos corregidos: sirven de modelo."
       ]
     },
     {
@@ -1102,29 +1086,6 @@
         "3. Alt de la imagen blog/1323 en /blog/sound-system-rental/ (linea 143 del ingles): dice \"featuring professional DJ equipment\", y el post ahora aclara que MEG no tiene equipo de DJ propio. Confirmar si la foto es de un evento de MEG y corregir el alt en los 13 idiomas.",
         "4. Frase \"The pack has one flat price, so a winter date does not change it\" en la FAQ de boda de invierno de /blog/indoor-wedding-rental-essentials/ (commit 3dcd4444). Es coherente con otros dos posts, pero es un compromiso escrito: un recargo de temporada futuro la volveria falsa. Decidir si se mantiene.",
         "5. Horario comercial. En #T0093 se quito de /blog/sound-system-rental/ la frase \"commercial enquiries are answered daily from 08:00 to 20:00\" (el /code-review la marco como promesa de respuesta). El post de conferencias y .agents/BUSINESS.md si publican ese horario. Decidir si se repone como horario de atencion, sin prometer tiempo de respuesta."
-      ]
-    },
-    {
-      "id": "#T0077",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "imagenes",
-      "titulo": "Fotos de la Billie Jean King Cup: alt y pies que no describen la foto en 2 posts y el manifest",
-      "anotada": "2026-10-08",
-      "hecha": null,
-      "origen": "usuario",
-      "notas": [],
-      "descripcion": [
-        "Origen: verificador de #T0029 (2026-10-08). Textos de fotos de la Billie Jean King Cup 2024 que describen algo que la foto no muestra. No se tocaron al escribir el post News. Fotos vistas el 2026-10-08:",
-        "- 1191/1192 (celebracion): esta tomada a pie de pista, y se ven el confeti y las fuentes pirotecnicas (no son de MEG).",
-        "- 1190/1189 (podio): se ve el podio iluminado con haces de luz, con equipos y oficiales. El sistema de sonido NO se ve.",
-        "- 1195/1196 y 1193/1194: mesa de mezclas con un partido en juego detras.",
-        "Que corregir, en ingles y en los 12 idiomas:",
-        "- audio-visual-rental-for-sports-events.svx linea ~81 y audiovisual-equipment-rental-service.svx linea ~86: alt \"seen from the stands of the indoor arena\" (no es desde las gradas, y \"indoor arena\" describe un pabellon que no esta confirmado).",
-        "- audio-visual-rental-for-sports-events.svx lineas ~85 y ~87: alt y pie de 1190 \"Stage setup with professional lights and sound system\" y \"A lit stage with a sound system\" (el sonido no se ve).",
-        "- scripts/migrate-wp/manifest.json: los mismos alt y pies de 1189 a 1196 (incluido un pie con HTML <p> y guiones).",
-        "- audiovisual-equipment-rental-service.svx: conserva un \"We do not stock ... confetti cannons\" plano, que por la regla 2 del posicionamiento va como \"no esta en nuestro inventario propio, contanos y buscamos la solucion\".",
-        "El post News ya usa los textos corregidos: sirven de modelo."
       ]
     },
     {
@@ -1739,6 +1700,48 @@
         "hire sound system near me (Variante 'near me' de una página existente: /blog/sound-system-rental/ ya tiene la FAQ 'Do you deliver sound system rental near me outside Malaga city?'. Doorway abuse en spam-policies.md.)",
         "inflatable movie screen rental near me (Variante 'near me' de la intención de pantalla hinchable ya cubierta por la FAQ propuesta en el post de cine al aire libre. Doorway abuse en spam-policies.md.)",
         "la audio rentals (Fuera de mercado: Los Angeles, no Málaga ni su zona de servicio.)"
+      ]
+    },
+    {
+      "id": "#T0100",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "seo-tecnico",
+      "titulo": "[Local Dominator] Enlaces al Google Business Profile: dos enlaces share.google distintos y uno repetido a mano",
+      "anotada": "2026-10-08",
+      "hecha": "2026-10-09",
+      "origen": "usuario",
+      "notas": [
+        "fuente: Local Dominator",
+        "Site Audit 2026-10-05",
+        "verificado 2026-10-08: los dos enlaces share.google redirigen a la misma entidad de Google",
+        "kgmid=/g/11lzwbvtxp (misma ficha). CID de Maps decodificado de siteConfig.reviewUrl: 1378227528097734863",
+        "sin confirmar a la vista",
+        "2026-10-08: enlace unificado en siteConfig.googleBusinessProfile (https://www.google.com/maps?cid=1378227528097734863",
+        "confirmado por el usuario)",
+        "reutilizado por GoogleEmbedSection y testimonials.ts",
+        "con guard google-profile-link.test.ts. Sin commitear. Queda por decidir el iframe del mapa (sigue por nombre y direccion) y el enlace share.google del post audio-visual-hire-near-me",
+        "2026-10-09: el tercer enlace share.google (post audio-visual-hire-near-me y sus 12 traducciones) llevaba a la misma ficha y paso al enlace de Maps",
+        "commit c88f14cf. Ya no queda share.google en src. Solo falta decidir el iframe del mapa",
+        "2026-10-09: el mapa embebido se queda como esta (decision del usuario). Tarea cerrada"
+      ],
+      "descripcion": [
+        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
+        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
+        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
+        "",
+        "Hallazgo del reporte: falta un enlace directo al Google Business Profile en la pagina (debilidad, senal ausente y accion de prioridad media).",
+        "Verificacion: falso positivo. La home tiene 3 enlaces al perfil (boton de \"Find Us on Google\", direccion del footer y \"Google My Business\" del footer) y el perfil esta en sameAs del JSON-LD. Usan el enlace corto https://share.google/..., que la herramienta no reconoce como GBP.",
+        "Lo que la verificacion SI encontro:",
+        "- Hay dos enlaces share.google distintos: VclWknaPevh6mN3VF (siteConfig.googleBusinessProfile y GoogleEmbedSection.svelte) y xlg0PV3QeGBNKVnA9 (GMB_PROFILE_URL en src/lib/data/testimonials.ts). No se pudo comprobar que los dos abran la misma ficha: redirigen a una pagina de Google que necesita JavaScript.",
+        "- GoogleEmbedSection.svelte repite el enlace a mano en vez de leer siteConfig.googleBusinessProfile.",
+        "- El mapa embebido busca por texto (nombre y direccion), no por el identificador de la ficha.",
+        "",
+        "Que hacer:",
+        "1. Abrir los dos enlaces en un navegador y confirmar a que ficha lleva cada uno.",
+        "2. Dejar una sola fuente (siteConfig) y que GoogleEmbedSection y testimonials.ts la lean.",
+        "3. Valorar el enlace canonico de Maps con CID en lugar del corto, y el embed por place id. Si cambia, revisar sameAs.",
+        "4. Buscar en todo el repo antes de cambiar (el NAP y estos enlaces estan repetidos en varios archivos)."
       ]
     },
     {
