@@ -8,3 +8,11 @@ import { LOCALE_META, type Locale } from './locales';
 export function formatNumber(value: number, locale: Locale): string {
 	return new Intl.NumberFormat(LOCALE_META[locale].intl).format(value).replace(/[  ]/g, ' ');
 }
+
+/** A review rating with one decimal, in the page language (`5.0` in English, `5,0` in German). */
+export function formatRating(value: number, locale: Locale): string {
+	return new Intl.NumberFormat(LOCALE_META[locale].intl, {
+		minimumFractionDigits: 1,
+		maximumFractionDigits: 1
+	}).format(value);
+}

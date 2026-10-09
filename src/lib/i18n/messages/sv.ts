@@ -18,7 +18,8 @@ const t = {
 	// Language notices (CLAUDE.md, "Idiomas soportados")
 	notices: {
 		serviceLanguages: 'Vi svarar på engelska eller spanska.',
-		legalTranslation: 'Detta är en översättning. Om den skiljer sig från den engelska versionen gäller den engelska versionen.',
+		legalTranslation:
+			'Detta är en översättning. Om den skiljer sig från den engelska versionen gäller den engelska versionen.',
 		readEnglish: 'Läs den engelska versionen'
 	},
 	// Breadcrumb names, keyed by English path segment (see i18n/breadcrumbs.ts)
@@ -47,28 +48,34 @@ const t = {
 		titlePart1: 'Hyra',
 		titleGradient: 'eventteknik',
 		titlePart2: 'i Malaga',
-		subtitle: 'Upplev kristallklart ljud och fantastisk belysning med vår förstklassiga utrustning. Perfekt för bröllop, företagsevenemang och exklusiva fester på Costa del Sol.',
+		subtitle:
+			'Upplev kristallklart ljud och fantastisk belysning med vår förstklassiga utrustning. Perfekt för bröllop, företagsevenemang och exklusiva fester på Costa del Sol.',
 		viewPricing: 'Se priser',
 		contactUs: 'Kontakta oss'
 	},
 	// Bento Info Cards
 	bento: {
 		card1Title: '#1 Felfri installation',
-		card1Text: 'Dedikerad teknisk support som säkerställer att ditt evenemang flyter på utan bekymmer från start till slut.',
+		card1Text:
+			'Dedikerad teknisk support som säkerställer att ditt evenemang flyter på utan bekymmer från start till slut.',
 		card2Title: '#2 Skräddarsydda paket',
-		card2Text: 'Flexibla hyrespaket utformade för att passa alla evenemangsstorlekar, lokaler och budgetar perfekt.',
+		card2Text:
+			'Flexibla hyrespaket utformade för att passa alla evenemangsstorlekar, lokaler och budgetar perfekt.',
 		card3Title: '#3 Toppmodern teknik',
-		card3Text: 'Njut av toppmodern ljud- och bildutrustning som lyfter din produktions visuella och ljudmässiga kvalitet.'
+		card3Text:
+			'Njut av toppmodern ljud- och bildutrustning som lyfter din produktions visuella och ljudmässiga kvalitet.'
 	},
 	// Overview (At a Glance: answer-engine optimization)
 	overview: {
 		badge: 'I korthet',
 		sellQ: 'Vad säljer vi?',
-		sellA: 'Vi hyr ut professionell ljud- och bildutrustning, till exempel ljudsystem, scenbelysning, projektorer och dukar, för evenemang i Malaga och på Costa del Sol. Leverans, installation och teknisk support på plats ingår.',
+		sellA:
+			'Vi hyr ut professionell ljud- och bildutrustning, till exempel ljudsystem, scenbelysning, projektorer och dukar, för evenemang i Malaga och på Costa del Sol. Leverans, installation och teknisk support på plats ingår.',
 		whoQ: 'Vem är det för?',
 		whoA: 'Par som planerar bröllop, företag som arrangerar konferenser och företagsevenemang, och alla som ordnar en fest eller ett privat firande och vill ha felfritt ljud och ljus utan att köpa utrustningen.',
 		costQ: 'Vad kostar det?',
-		costA: 'Fasta paketpriser utan dolda avgifter, anpassade efter ditt evenemangs storlek, plus skräddarsydda offerter för större produktioner.',
+		costA:
+			'Fasta paketpriser utan dolda avgifter, anpassade efter ditt evenemangs storlek, plus skräddarsydda offerter för större produktioner.',
 		costFrom: 'Från',
 		howQ: 'Hur går det till?',
 		howA: 'Fyra enkla steg: välj ditt paket, begär en offert, vi bekräftar och förbereder din utrustning, och vårt team levererar och installerar allt på dagen för ditt evenemang.'
@@ -76,29 +83,33 @@ const t = {
 	// Impact
 	impact: {
 		title: 'Våra resultat i siffror',
-		years: 'Års erfarenhet',
+		since: 'Sedan {year}',
+		industry: 'I AV-branschen',
 		clients: 'Nöjda kunder',
-		satisfaction: 'Nöjdhetsgrad'
+		rating: 'Google-betyg ({n} recensioner)'
 	},
 	// Categories
 	categories: {
 		badge: 'Förstklassig utrustning',
 		title: 'Tillgängliga kategorier',
 		soundTitle: 'Ljudsystem',
-		soundText: 'Kristallklart ljud i hög kvalitet, perfekt för intima bröllop eller stora företagskonferenser. Vi arbetar med ledande varumärken för att säkerställa högsta akustiska kvalitet.',
+		soundText:
+			'Kristallklart ljud i hög kvalitet, perfekt för intima bröllop eller stora företagskonferenser. Vi arbetar med ledande varumärken för att säkerställa högsta akustiska kvalitet.',
 		lightTitle: 'Belysning',
 		lightText: 'Dynamiska belysningslösningar som skapar den perfekta stämningen i din lokal.',
 		visualTitle: 'Projektorer och dukar',
 		visualText: 'Skarpa bilder i hög definition för presentationer med stort visuellt intryck.',
 		fxTitle: 'Rökmaskin',
-		fxText: 'Ge dansgolvet eller scenen mer atmosfär med vår professionella rökmaskin Martin Magnum 650.',
+		fxText:
+			'Ge dansgolvet eller scenen mer atmosfär med vår professionella rökmaskin Martin Magnum 650.',
 		bookEquipment: 'Boka paket'
 	},
 	// Pricing
 	pricing: {
 		badge: 'Transparenta priser',
 		title: 'Skräddarsydda paket för alla evenemang',
-		subtitle: 'Välj bland våra flexibla hyrespaket som passar alla evenemangsstorlekar och budgetar perfekt. Vi gör planeringen enkel!',
+		subtitle:
+			'Välj bland våra flexibla hyrespaket som passar alla evenemangsstorlekar och budgetar perfekt. Vi gör planeringen enkel!',
 		includes: 'Inkluderar:',
 		includedServices: 'Inkluderade tjänster:',
 		optional: 'Tillval:',
@@ -154,7 +165,8 @@ const t = {
 	contact: {
 		badge: 'Omedelbart svar dygnet runt',
 		title: 'Kontakta oss',
-		subtitle: 'Redo att lyfta ditt evenemang? Kontakta vårt tekniska team för skräddarsydda offerter, kontroll av utrustningens tillgänglighet och professionell rådgivning.',
+		subtitle:
+			'Redo att lyfta ditt evenemang? Kontakta vårt tekniska team för skräddarsydda offerter, kontroll av utrustningens tillgänglighet och professionell rådgivning.',
 		detailsTitle: 'Kontaktuppgifter',
 		phone: 'Telefon',
 		whatsapp: 'WhatsApp',
@@ -177,7 +189,8 @@ const t = {
 		formSubmit: 'Skicka förfrågan',
 		formSubmitting: 'Skickar...',
 		formRequiredError: 'Fyll i alla obligatoriska fält.',
-		formErrorSubmit: 'Något gick fel när din förfrågan skulle skickas. Försök igen eller mejla oss direkt.',
+		formErrorSubmit:
+			'Något gick fel när din förfrågan skulle skickas. Försök igen eller mejla oss direkt.',
 		formErrorTurnstile: 'Säkerhetsverifieringen misslyckades. Försök igen.',
 		formErrorRateLimited: 'För många förfrågningar. Vänta några minuter och försök igen.',
 		lockedFieldNote: 'Genererat automatiskt på grund av ett fel. Fältet kan inte redigeras.',
@@ -193,7 +206,8 @@ const t = {
 		errorDetailComments: 'Kommentarer',
 		successTitle: 'Offertförfrågan skickad!',
 		successText1: 'Hej',
-		successText2: 'vi har tagit emot din förfrågan. Vårt tekniska team i Malaga kommer att granska den och kontakta dig via e-post (',
+		successText2:
+			'vi har tagit emot din förfrågan. Vårt tekniska team i Malaga kommer att granska den och kontakta dig via e-post (',
 		successText3: ') så snart som möjligt.',
 		successButton: 'Skicka en ny förfrågan',
 		faqTitle: 'Vanliga frågor'
@@ -202,7 +216,8 @@ const t = {
 	packages: {
 		badge: 'Utvalda paket',
 		title: 'Välj ditt perfekta paket',
-		subtitle: 'Skräddarsytt för alla tillfällen. Alla paket inkluderar transport, installation och teknisk support på plats.',
+		subtitle:
+			'Skräddarsytt för alla tillfällen. Alla paket inkluderar transport, installation och teknisk support på plats.',
 		enquire: 'Begär en offert'
 	},
 	// How It Works
@@ -212,11 +227,13 @@ const t = {
 		s1Title: 'Välj ditt paket',
 		s1Desc: 'Bläddra bland våra paket och välj det som passar ditt evenemangs storlek och stil.',
 		s2Title: 'Begär en offert',
-		s2Desc: 'Fyll i vårt snabba formulär. Vi svarar så snart som möjligt med fullständig tillgänglighet.',
+		s2Desc:
+			'Fyll i vårt snabba formulär. Vi svarar så snart som möjligt med fullständig tillgänglighet.',
 		s3Title: 'Bekräfta och planera',
 		s3Desc: 'Vårt team bekräftar logistik, tillgång till lokalen och alla tekniska detaljer.',
 		s4Title: 'Njut av ditt evenemang',
-		s4Desc: 'Vi levererar, sätter upp och testar allt, och hämtar allt efter ditt evenemang. Noll stress för dig.'
+		s4Desc:
+			'Vi levererar, sätter upp och testar allt, och hämtar allt efter ditt evenemang. Noll stress för dig.'
 	},
 	// Pricing Preview
 	pricingPreview: {
@@ -270,7 +287,8 @@ const t = {
 		errorTurnstile: 'Säkerhetsverifieringen misslyckades. Försök igen.',
 		errorRateLimited: 'För många förfrågningar. Vänta några minuter och försök igen.',
 		emailFailTitle: 'Vi kunde inte skicka din bekräftelse',
-		emailFailBody: 'Din förfrågan sparades, men vårt e-postsystem kunde inte skicka den. Kontakta vårt team direkt så att vi inte tappar bort din förfrågan.',
+		emailFailBody:
+			'Din förfrågan sparades, men vårt e-postsystem kunde inte skicka den. Kontakta vårt team direkt så att vi inte tappar bort din förfrågan.',
 		emailFailAction: 'Kontakta teamet',
 		emailFailDismiss: 'Stäng',
 		countryCode: 'Landskod',
@@ -323,7 +341,8 @@ const t = {
 		listings: 'Kataloger',
 		onlinePresence: 'Onlinenärvaro',
 		moreInformation: 'Mer information',
-		moreInfoText: 'Vill du veta mer? Kontakta oss för information om uthyrning av eventutrustning, priser och tillgänglighet.',
+		moreInfoText:
+			'Vill du veta mer? Kontakta oss för information om uthyrning av eventutrustning, priser och tillgänglighet.',
 		tel: 'Tel',
 		clickToChat: 'Klicka för att chatta',
 		emails: 'E-postadresser',
@@ -380,7 +399,8 @@ const t = {
 			wedding: 'Välj {name}: professionellt ljud och romantisk belysning för din stora dag.',
 			'basic-mice': 'Välj {name}: klart ljud och skarp bild för ledningsmöten och konferenser.',
 			mice: 'Välj {name}: förstklassig LED-skärm, ljud och en tekniker på plats.',
-			'product-presentation': 'Välj {name}: ljusstark projektor, duk och ljud för presentationer som gör intryck.',
+			'product-presentation':
+				'Välj {name}: ljusstark projektor, duk och ljud för presentationer som gör intryck.',
 			eco: 'Välj {name}: bra ljud och stämningsbelysning för upp till {guests} gäster.'
 		},
 		priceFrom: 'Från {price}',
@@ -400,8 +420,10 @@ const t = {
 	errorPage: {
 		notFoundHeading: 'Sidan hittades inte',
 		genericHeading: 'Något gick fel',
-		notFoundBody: 'Sidan du letar efter finns inte eller har flyttats. Börja om från startsidan eller kontakta oss.',
-		genericBody: 'Vi stötte på ett problem när din förfrågan skulle behandlas. Gå tillbaka till startsidan eller kontakta oss så löser vi det.',
+		notFoundBody:
+			'Sidan du letar efter finns inte eller har flyttats. Börja om från startsidan eller kontakta oss.',
+		genericBody:
+			'Vi stötte på ett problem när din förfrågan skulle behandlas. Gå tillbaka till startsidan eller kontakta oss så löser vi det.',
 		contactUs: 'Kontakta oss',
 		backHome: 'Till startsidan'
 	}

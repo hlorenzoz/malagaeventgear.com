@@ -22,7 +22,8 @@ const en = {
 		// Shown on pages in a language MEG does not answer in (every locale but en and es)
 		serviceLanguages: 'We reply in English or Spanish.',
 		// Top of every translated legal page
-		legalTranslation: 'This is a translation. If it differs from the English version, the English version prevails.',
+		legalTranslation:
+			'This is a translation. If it differs from the English version, the English version prevails.',
 		readEnglish: 'Read the English version'
 	},
 	// Breadcrumb names, keyed by English path segment (see i18n/breadcrumbs.ts)
@@ -53,28 +54,34 @@ const en = {
 		titlePart1: 'Audio Visual',
 		titleGradient: 'Equipment Hire Service',
 		titlePart2: 'in Malaga',
-		subtitle: 'Experience crystal clear sound and stunning lighting with our premium equipment. Perfect for weddings, corporate events, and exclusive parties on the Costa del Sol.',
+		subtitle:
+			'Experience crystal clear sound and stunning lighting with our premium equipment. Perfect for weddings, corporate events, and exclusive parties on the Costa del Sol.',
 		viewPricing: 'View Pricing',
 		contactUs: 'Contact Us'
 	},
 	// Bento Info Cards
 	bento: {
 		card1Title: '#1 Flawless Setup',
-		card1Text: 'Dedicated technical support to ensure your event runs smoothly from start to finish without any worries.',
+		card1Text:
+			'Dedicated technical support to ensure your event runs smoothly from start to finish without any worries.',
 		card2Title: '#2 Tailored Packages',
-		card2Text: 'Flexible rental packages designed to perfectly fit any event size, venue, and budget.',
+		card2Text:
+			'Flexible rental packages designed to perfectly fit any event size, venue, and budget.',
 		card3Title: '#3 Cutting Edge Tech',
-		card3Text: 'Enjoy state of the art audiovisual gear that elevates the visual and sound quality of your production.'
+		card3Text:
+			'Enjoy state of the art audiovisual gear that elevates the visual and sound quality of your production.'
 	},
 	// Overview (At a Glance: answer-engine optimization)
 	overview: {
 		badge: 'At a Glance',
 		sellQ: 'What do we sell?',
-		sellA: 'We rent premium audiovisual equipment (professional sound systems, stage lighting, projectors and screens) for events across Malaga and the Costa del Sol, including delivery, setup and on site technical support.',
+		sellA:
+			'We rent premium audiovisual equipment (professional sound systems, stage lighting, projectors and screens) for events across Malaga and the Costa del Sol, including delivery, setup and on site technical support.',
 		whoQ: 'Who is it for?',
 		whoA: 'Couples planning weddings, companies running conferences and corporate events, and anyone hosting a party or private celebration who wants flawless sound and lighting without buying the gear.',
 		costQ: 'What does it cost?',
-		costA: 'Fixed price packages with no hidden fees, scaled to your event size, plus tailored quotes for larger productions.',
+		costA:
+			'Fixed price packages with no hidden fees, scaled to your event size, plus tailored quotes for larger productions.',
 		costFrom: 'From',
 		howQ: 'How does it work?',
 		howA: 'Four simple steps: pick your package, request a quote, we confirm and prepare your gear, and our team delivers and sets everything up on the day of your event.'
@@ -82,29 +89,33 @@ const en = {
 	// Impact
 	impact: {
 		title: 'Our Impact in Numbers',
-		years: 'Years of Experience',
+		since: 'Since {year}',
+		industry: 'In the audiovisual industry',
 		clients: 'Happy Clients',
-		satisfaction: 'Satisfaction Rate'
+		rating: 'Google rating ({n} reviews)'
 	},
 	// Categories
 	categories: {
 		badge: 'Premium Gear',
 		title: 'Available Categories',
 		soundTitle: 'Sound Systems',
-		soundText: 'Crystal clear high fidelity sound, ideal for intimate weddings or large corporate conferences. We work with leading brands to ensure the highest acoustic fidelity.',
+		soundText:
+			'Crystal clear high fidelity sound, ideal for intimate weddings or large corporate conferences. We work with leading brands to ensure the highest acoustic fidelity.',
 		lightTitle: 'Lighting',
 		lightText: 'Dynamic lighting solutions to create the perfect atmosphere in your venue space.',
 		visualTitle: 'Projectors & Screens',
 		visualText: 'Sharp, high definition visuals for presentations with high visual impact.',
 		fxTitle: 'Smoke Machine',
-		fxText: 'Add atmosphere to your dance floor or stage with our professional Martin Magnum 650 smoke machine.',
+		fxText:
+			'Add atmosphere to your dance floor or stage with our professional Martin Magnum 650 smoke machine.',
 		bookEquipment: 'Book Packages'
 	},
 	// Pricing
 	pricing: {
 		badge: 'Transparent Pricing',
 		title: 'Tailored Packages for Every Event',
-		subtitle: 'Choose from our flexible rental packages designed to perfectly fit any event size and budget. We make planning simple!',
+		subtitle:
+			'Choose from our flexible rental packages designed to perfectly fit any event size and budget. We make planning simple!',
 		includes: 'Includes:',
 		includedServices: 'Included Services:',
 		optional: 'Optional:',
@@ -160,7 +171,8 @@ const en = {
 	contact: {
 		badge: 'Immediate Response 24/7',
 		title: 'Get in Touch',
-		subtitle: 'Ready to elevate your event? Contact our technical team to receive tailored quotes, check equipment availability, and get expert advice.',
+		subtitle:
+			'Ready to elevate your event? Contact our technical team to receive tailored quotes, check equipment availability, and get expert advice.',
 		detailsTitle: 'Contact Details',
 		phone: 'Phone',
 		whatsapp: 'WhatsApp',
@@ -183,7 +195,8 @@ const en = {
 		formSubmit: 'Send Request',
 		formSubmitting: 'Sending...',
 		formRequiredError: 'Please fill out all required fields.',
-		formErrorSubmit: 'Something went wrong sending your request. Please try again or email us directly.',
+		formErrorSubmit:
+			'Something went wrong sending your request. Please try again or email us directly.',
 		formErrorTurnstile: 'Security verification failed. Please try again.',
 		formErrorRateLimited: 'Too many requests. Please wait a few minutes and try again.',
 		lockedFieldNote: "Automatically generated from an error. This field can't be edited.",
@@ -199,7 +212,8 @@ const en = {
 		errorDetailComments: 'Comments',
 		successTitle: 'Quote Requested!',
 		successText1: 'Hi',
-		successText2: 'we received your request successfully. Our technical team in Malaga will evaluate it and contact you by email (',
+		successText2:
+			'we received your request successfully. Our technical team in Malaga will evaluate it and contact you by email (',
 		successText3: ') as soon as possible.',
 		successButton: 'Send another request',
 		faqTitle: 'Frequently Asked Questions'
@@ -213,7 +227,8 @@ const en = {
 	packages: {
 		badge: 'Featured Packages',
 		title: 'Choose Your Perfect Pack',
-		subtitle: 'Tailored for every occasion. All packages include transport, setup, and on site technical support.',
+		subtitle:
+			'Tailored for every occasion. All packages include transport, setup, and on site technical support.',
 		enquire: 'Get a Quote'
 	},
 	// How It Works
@@ -227,7 +242,8 @@ const en = {
 		s3Title: 'Confirm & Plan',
 		s3Desc: 'Our team confirms logistics, venue access, and every technical detail.',
 		s4Title: 'Enjoy Your Event',
-		s4Desc: 'We deliver, set up and test everything, and collect it after your event. Zero stress for you.'
+		s4Desc:
+			'We deliver, set up and test everything, and collect it after your event. Zero stress for you.'
 	},
 	// Pricing Preview
 	pricingPreview: {
@@ -265,7 +281,8 @@ const en = {
 		phoneLabelInput: 'Phone / WhatsApp *',
 		eventDateLabel: 'Event Date *',
 		commentsLabel: 'Questions or Comments',
-		commentsPlaceholder: 'Tell us about your event: venue, number of guests, special requirements...',
+		commentsPlaceholder:
+			'Tell us about your event: venue, number of guests, special requirements...',
 		submitBtn: 'Check Date Availability',
 		submitting: 'Sending...',
 		errorRequired: 'This field is required.',
@@ -281,7 +298,8 @@ const en = {
 		errorTurnstile: 'Security verification failed. Please try again.',
 		errorRateLimited: 'Too many requests. Please wait a few minutes and try again.',
 		emailFailTitle: "We couldn't send your confirmation",
-		emailFailBody: 'Your request was saved, but our email system failed to send it. Please contact our team directly so we don\'t lose your enquiry.',
+		emailFailBody:
+			"Your request was saved, but our email system failed to send it. Please contact our team directly so we don't lose your enquiry.",
 		emailFailAction: 'Contact the team',
 		emailFailDismiss: 'Close',
 		countryCode: 'Country Code',
@@ -334,7 +352,8 @@ const en = {
 		listings: 'Listings',
 		onlinePresence: 'Online Presence',
 		moreInformation: 'More Information',
-		moreInfoText: 'Need more details? Contact us for info on our event gear rentals, pricing, and availability.',
+		moreInfoText:
+			'Need more details? Contact us for info on our event gear rentals, pricing, and availability.',
 		tel: 'Tel',
 		clickToChat: 'Click To Chat',
 		emails: 'Emails',
@@ -402,7 +421,8 @@ const en = {
 			wedding: 'Get the {name}: professional sound and romantic lighting for your special day.',
 			'basic-mice': 'Get the {name}: clear AV for executive meetings and conferences.',
 			mice: 'Get the {name}: premium LED display, sound, and a live technician.',
-			'product-presentation': 'Get the {name}: a high brightness projector, screen and audio for high impact showcases.',
+			'product-presentation':
+				'Get the {name}: a high brightness projector, screen and audio for high impact showcases.',
 			eco: 'Get the {name}: solid sound and ambient lighting for up to {guests} guests.'
 		},
 		priceFrom: 'From {price}',
@@ -423,8 +443,10 @@ const en = {
 	errorPage: {
 		notFoundHeading: 'Page not found',
 		genericHeading: 'Something went wrong',
-		notFoundBody: "The page you're looking for doesn't exist or moved. Try from the homepage or get in touch.",
-		genericBody: 'We hit a problem processing your request. Head back home or contact us and we will sort it out.',
+		notFoundBody:
+			"The page you're looking for doesn't exist or moved. Try from the homepage or get in touch.",
+		genericBody:
+			'We hit a problem processing your request. Head back home or contact us and we will sort it out.',
 		contactUs: 'Contact us',
 		backHome: 'Back home'
 	}

@@ -73,22 +73,21 @@ const t = {
 		sellA:
 			'Noleggiamo attrezzature audiovisive di alta gamma (impianti audio professionali, illuminazione scenica, proiettori e schermi) per eventi in tutta Malaga e sulla Costa del Sol, con consegna, allestimento e assistenza tecnica in loco inclusi.',
 		whoQ: 'A chi è rivolto?',
-		whoA:
-			"Alle coppie che organizzano il matrimonio, alle aziende che gestiscono conferenze ed eventi aziendali e a chiunque organizzi una festa o una celebrazione privata e desideri un suono e un'illuminazione impeccabili senza dover acquistare le attrezzature.",
+		whoA: "Alle coppie che organizzano il matrimonio, alle aziende che gestiscono conferenze ed eventi aziendali e a chiunque organizzi una festa o una celebrazione privata e desideri un suono e un'illuminazione impeccabili senza dover acquistare le attrezzature.",
 		costQ: 'Quanto costa?',
 		costA:
 			'Pacchetti a prezzo fisso senza costi nascosti, calibrati sulla dimensione del tuo evento, oltre a preventivi su misura per produzioni più grandi.',
 		costFrom: 'A partire da',
 		howQ: 'Come funziona?',
-		howA:
-			'Quattro semplici passi: scegli il tuo pacchetto, richiedi un preventivo, noi confermiamo e prepariamo le attrezzature, e il giorno del tuo evento il nostro team consegna e allestisce tutto.'
+		howA: 'Quattro semplici passi: scegli il tuo pacchetto, richiedi un preventivo, noi confermiamo e prepariamo le attrezzature, e il giorno del tuo evento il nostro team consegna e allestisce tutto.'
 	},
 	// Impact
 	impact: {
 		title: 'I nostri numeri',
-		years: 'Anni di esperienza',
+		since: 'Dal {year}',
+		industry: 'Nel settore audiovisivo',
 		clients: 'Clienti soddisfatti',
-		satisfaction: 'Tasso di soddisfazione'
+		rating: 'Valutazione Google ({n} recensioni)'
 	},
 	// Categories
 	categories: {
@@ -235,9 +234,11 @@ const t = {
 		s2Desc:
 			'Compila il nostro modulo rapido. Ti risponderemo il prima possibile con la disponibilità completa.',
 		s3Title: 'Conferma e pianifica',
-		s3Desc: "Il nostro team conferma la logistica, l'accesso alla location e ogni dettaglio tecnico.",
+		s3Desc:
+			"Il nostro team conferma la logistica, l'accesso alla location e ogni dettaglio tecnico.",
 		s4Title: 'Goditi il tuo evento',
-		s4Desc: "Consegniamo, allestiamo e testiamo tutto, poi ritiriamo tutto dopo il tuo evento. Zero stress per te."
+		s4Desc:
+			'Consegniamo, allestiamo e testiamo tutto, poi ritiriamo tutto dopo il tuo evento. Zero stress per te.'
 	},
 	// Pricing Preview
 	pricingPreview: {
@@ -293,7 +294,7 @@ const t = {
 		errorRateLimited: 'Troppe richieste. Attendi qualche minuto e riprova.',
 		emailFailTitle: 'Non siamo riusciti a inviare la tua conferma',
 		emailFailBody:
-			"La tua richiesta è stata salvata, ma il nostro sistema di posta non è riuscito a inviarla. Contatta direttamente il nostro team, così la tua richiesta non andrà persa.",
+			'La tua richiesta è stata salvata, ma il nostro sistema di posta non è riuscito a inviarla. Contatta direttamente il nostro team, così la tua richiesta non andrà persa.',
 		emailFailAction: 'Contatta il team',
 		emailFailDismiss: 'Chiudi',
 		countryCode: 'Prefisso internazionale',
@@ -318,7 +319,8 @@ const t = {
 	googleMap: {
 		badge: 'Posizione e profilo Google',
 		title: 'Trovaci su Google',
-		subtitle: 'Visita il nostro profilo ufficiale Google Business o scopri dove ci troviamo a Malaga.',
+		subtitle:
+			'Visita il nostro profilo ufficiale Google Business o scopri dove ci troviamo a Malaga.',
 		viewOnGoogle: 'Vedi su Google Maps',
 		mapTitle: 'Malaga Event Gear - Profilo Google Business'
 	},
@@ -401,10 +403,13 @@ const t = {
 			eco: 'Stai organizzando un evento privato?'
 		},
 		subline: {
-			wedding: 'Scopri il {name}: audio professionale e luci romantiche per il tuo giorno speciale.',
-			'basic-mice': 'Scopri il {name}: audio e video nitidi per riunioni dirigenziali e conferenze.',
+			wedding:
+				'Scopri il {name}: audio professionale e luci romantiche per il tuo giorno speciale.',
+			'basic-mice':
+				'Scopri il {name}: audio e video nitidi per riunioni dirigenziali e conferenze.',
 			mice: 'Scopri il {name}: display LED di alta gamma, audio e un tecnico sul posto.',
-			'product-presentation': 'Scopri il {name}: proiettore ad alta luminosità, schermo e audio per presentazioni di grande impatto.',
+			'product-presentation':
+				'Scopri il {name}: proiettore ad alta luminosità, schermo e audio per presentazioni di grande impatto.',
 			eco: "Scopri il {name}: un buon impianto audio e luci d'atmosfera fino a {guests} ospiti."
 		},
 		priceFrom: 'A partire da {price}',

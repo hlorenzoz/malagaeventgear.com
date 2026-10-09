@@ -72,22 +72,21 @@ const t = {
 		sellA:
 			'Alugamos equipamento audiovisual premium (sistemas de som profissionais, iluminação de palco, projetores e telas) para eventos em Málaga e na Costa del Sol, com entrega, montagem e suporte técnico no local incluídos.',
 		whoQ: 'Para quem é?',
-		whoA:
-			'Casais planejando o casamento, empresas organizando conferências e eventos corporativos, e qualquer pessoa que vá dar uma festa ou celebração particular e queira som e iluminação impecáveis sem precisar comprar o equipamento.',
+		whoA: 'Casais planejando o casamento, empresas organizando conferências e eventos corporativos, e qualquer pessoa que vá dar uma festa ou celebração particular e queira som e iluminação impecáveis sem precisar comprar o equipamento.',
 		costQ: 'Quanto custa?',
 		costA:
 			'Pacotes com preço fixo e sem taxas escondidas, ajustados ao tamanho do seu evento, além de orçamentos personalizados para produções maiores.',
 		costFrom: 'A partir de',
 		howQ: 'Como funciona?',
-		howA:
-			'Quatro passos simples: escolha seu pacote, peça um orçamento, nós confirmamos e preparamos seu equipamento, e nossa equipe faz a entrega e a montagem completa no dia do seu evento.'
+		howA: 'Quatro passos simples: escolha seu pacote, peça um orçamento, nós confirmamos e preparamos seu equipamento, e nossa equipe faz a entrega e a montagem completa no dia do seu evento.'
 	},
 	// Impact
 	impact: {
 		title: 'Nosso impacto em números',
-		years: 'Anos de experiência',
+		since: 'Desde {year}',
+		industry: 'No setor audiovisual',
 		clients: 'Clientes satisfeitos',
-		satisfaction: 'Taxa de satisfação'
+		rating: 'Nota no Google ({n} avaliações)'
 	},
 	// Categories
 	categories: {
@@ -97,7 +96,8 @@ const t = {
 		soundText:
 			'Som cristalino de alta fidelidade, ideal para casamentos íntimos ou grandes conferências corporativas. Trabalhamos com marcas líderes para garantir a mais alta fidelidade acústica.',
 		lightTitle: 'Iluminação',
-		lightText: 'Soluções de iluminação dinâmica para criar a atmosfera perfeita no seu local de evento.',
+		lightText:
+			'Soluções de iluminação dinâmica para criar a atmosfera perfeita no seu local de evento.',
 		visualTitle: 'Projetores e telas',
 		visualText: 'Imagens nítidas em alta definição para apresentações com alto impacto visual.',
 		fxTitle: 'Máquina de fumaça',
@@ -226,13 +226,16 @@ const t = {
 		badge: 'Como funciona',
 		title: 'Seu evento em 4 passos simples',
 		s1Title: 'Escolha seu pacote',
-		s1Desc: 'Explore nossos pacotes e escolha o que combina com o tamanho e o estilo do seu evento.',
+		s1Desc:
+			'Explore nossos pacotes e escolha o que combina com o tamanho e o estilo do seu evento.',
 		s2Title: 'Peça um orçamento',
-		s2Desc: 'Preencha nosso formulário rápido. Respondemos o mais rápido possível com a disponibilidade completa.',
+		s2Desc:
+			'Preencha nosso formulário rápido. Respondemos o mais rápido possível com a disponibilidade completa.',
 		s3Title: 'Confirme e planeje',
 		s3Desc: 'Nossa equipe confirma a logística, o acesso ao local e cada detalhe técnico.',
 		s4Title: 'Aproveite seu evento',
-		s4Desc: 'Entregamos, montamos e testamos tudo, e recolhemos tudo depois do seu evento. Zero estresse para você.'
+		s4Desc:
+			'Entregamos, montamos e testamos tudo, e recolhemos tudo depois do seu evento. Zero estresse para você.'
 	},
 	// Pricing Preview
 	pricingPreview: {
@@ -397,9 +400,11 @@ const t = {
 		},
 		subline: {
 			wedding: 'Conheça o {name}: som profissional e iluminação romântica para o seu grande dia.',
-			'basic-mice': 'Conheça o {name}: imagem e som nítidos para reuniões executivas e conferências.',
+			'basic-mice':
+				'Conheça o {name}: imagem e som nítidos para reuniões executivas e conferências.',
 			mice: 'Conheça o {name}: tela de LED de alto nível, som e um técnico no local.',
-			'product-presentation': 'Conheça o {name}: projetor de alto brilho, tela e som para apresentações de grande impacto.',
+			'product-presentation':
+				'Conheça o {name}: projetor de alto brilho, tela e som para apresentações de grande impacto.',
 			eco: 'Conheça o {name}: som de qualidade e iluminação ambiente para até {guests} convidados.'
 		},
 		priceFrom: 'A partir de {price}',
@@ -419,7 +424,8 @@ const t = {
 	errorPage: {
 		notFoundHeading: 'Página não encontrada',
 		genericHeading: 'Algo deu errado',
-		notFoundBody: 'A página que você procura não existe ou foi movida. Volte para a página inicial ou fale conosco.',
+		notFoundBody:
+			'A página que você procura não existe ou foi movida. Volte para a página inicial ou fale conosco.',
 		genericBody:
 			'Tivemos um problema ao processar sua solicitação. Volte para a página inicial ou fale conosco e resolveremos isso.',
 		contactUs: 'Fale conosco',

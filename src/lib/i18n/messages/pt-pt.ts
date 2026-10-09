@@ -18,7 +18,8 @@ const t = {
 	// Language notices (CLAUDE.md, "Idiomas soportados")
 	notices: {
 		serviceLanguages: 'Respondemos em inglês ou espanhol.',
-		legalTranslation: 'Esta é uma tradução. Se diferir da versão em inglês, prevalece a versão em inglês.',
+		legalTranslation:
+			'Esta é uma tradução. Se diferir da versão em inglês, prevalece a versão em inglês.',
 		readEnglish: 'Ler a versão em inglês'
 	},
 	// Breadcrumb names, keyed by English path segment (see i18n/breadcrumbs.ts)
@@ -47,28 +48,34 @@ const t = {
 		titlePart1: 'Aluguer de equipamento',
 		titleGradient: 'audiovisual',
 		titlePart2: 'em Málaga',
-		subtitle: 'Desfrute de som cristalino e iluminação deslumbrante com o nosso equipamento premium. Perfeito para casamentos, eventos corporativos e festas exclusivas na Costa del Sol.',
+		subtitle:
+			'Desfrute de som cristalino e iluminação deslumbrante com o nosso equipamento premium. Perfeito para casamentos, eventos corporativos e festas exclusivas na Costa del Sol.',
 		viewPricing: 'Ver preços',
 		contactUs: 'Contacte-nos'
 	},
 	// Bento Info Cards
 	bento: {
 		card1Title: '#1 Montagem impecável',
-		card1Text: 'Apoio técnico dedicado para garantir que o seu evento decorre sem percalços do início ao fim, sem preocupações.',
+		card1Text:
+			'Apoio técnico dedicado para garantir que o seu evento decorre sem percalços do início ao fim, sem preocupações.',
 		card2Title: '#2 Pacotes personalizados',
-		card2Text: 'Pacotes de aluguer flexíveis, concebidos para se adaptarem na perfeição a qualquer dimensão de evento, local e orçamento.',
+		card2Text:
+			'Pacotes de aluguer flexíveis, concebidos para se adaptarem na perfeição a qualquer dimensão de evento, local e orçamento.',
 		card3Title: '#3 Tecnologia de ponta',
-		card3Text: 'Desfrute de equipamento audiovisual de última geração que eleva a qualidade visual e sonora da sua produção.'
+		card3Text:
+			'Desfrute de equipamento audiovisual de última geração que eleva a qualidade visual e sonora da sua produção.'
 	},
 	// Overview (At a Glance: answer-engine optimization)
 	overview: {
 		badge: 'Num relance',
 		sellQ: 'O que vendemos?',
-		sellA: 'Alugamos equipamento audiovisual premium (sistemas de som profissionais, iluminação de palco, projetores e ecrãs) para eventos em Málaga e na Costa del Sol, com entrega, montagem e apoio técnico no local incluídos.',
+		sellA:
+			'Alugamos equipamento audiovisual premium (sistemas de som profissionais, iluminação de palco, projetores e ecrãs) para eventos em Málaga e na Costa del Sol, com entrega, montagem e apoio técnico no local incluídos.',
 		whoQ: 'Para quem é?',
 		whoA: 'Casais a planear o casamento, empresas que organizam conferências e eventos corporativos, e qualquer pessoa que organize uma festa ou celebração privada e queira som e iluminação impecáveis sem ter de comprar o equipamento.',
 		costQ: 'Quanto custa?',
-		costA: 'Pacotes com preço fixo e sem custos ocultos, adaptados à dimensão do seu evento, além de orçamentos personalizados para produções de maior escala.',
+		costA:
+			'Pacotes com preço fixo e sem custos ocultos, adaptados à dimensão do seu evento, além de orçamentos personalizados para produções de maior escala.',
 		costFrom: 'A partir de',
 		howQ: 'Como funciona?',
 		howA: 'Quatro passos simples: escolha o seu pacote, peça um orçamento, confirmamos e preparamos o seu equipamento, e a nossa equipa entrega e monta tudo no dia do seu evento.'
@@ -76,29 +83,34 @@ const t = {
 	// Impact
 	impact: {
 		title: 'O nosso impacto em números',
-		years: 'Anos de experiência',
+		since: 'Desde {year}',
+		industry: 'No setor audiovisual',
 		clients: 'Clientes satisfeitos',
-		satisfaction: 'Taxa de satisfação'
+		rating: 'Classificação no Google ({n} avaliações)'
 	},
 	// Categories
 	categories: {
 		badge: 'Equipamento premium',
 		title: 'Categorias disponíveis',
 		soundTitle: 'Sistemas de som',
-		soundText: 'Som cristalino de alta fidelidade, ideal para casamentos intimistas ou grandes conferências corporativas. Trabalhamos com marcas líderes para garantir a máxima fidelidade acústica.',
+		soundText:
+			'Som cristalino de alta fidelidade, ideal para casamentos intimistas ou grandes conferências corporativas. Trabalhamos com marcas líderes para garantir a máxima fidelidade acústica.',
 		lightTitle: 'Iluminação',
 		lightText: 'Soluções de iluminação dinâmica para criar o ambiente perfeito no seu espaço.',
 		visualTitle: 'Projetores e ecrãs',
-		visualText: 'Imagens nítidas e de alta definição para apresentações com elevado impacto visual.',
+		visualText:
+			'Imagens nítidas e de alta definição para apresentações com elevado impacto visual.',
 		fxTitle: 'Máquina de fumo',
-		fxText: 'Dê mais ambiente à sua pista de dança ou ao seu palco com a nossa máquina de fumo profissional Martin Magnum 650.',
+		fxText:
+			'Dê mais ambiente à sua pista de dança ou ao seu palco com a nossa máquina de fumo profissional Martin Magnum 650.',
 		bookEquipment: 'Reservar pacotes'
 	},
 	// Pricing
 	pricing: {
 		badge: 'Preços transparentes',
 		title: 'Pacotes personalizados para cada evento',
-		subtitle: 'Escolha entre os nossos pacotes de aluguer flexíveis, concebidos para se adaptarem na perfeição a qualquer dimensão de evento e orçamento. Facilitamos o planeamento!',
+		subtitle:
+			'Escolha entre os nossos pacotes de aluguer flexíveis, concebidos para se adaptarem na perfeição a qualquer dimensão de evento e orçamento. Facilitamos o planeamento!',
 		includes: 'Inclui:',
 		includedServices: 'Serviços incluídos:',
 		optional: 'Opcional:',
@@ -154,7 +166,8 @@ const t = {
 	contact: {
 		badge: 'Resposta imediata 24/7',
 		title: 'Entre em contacto',
-		subtitle: 'Pronto para elevar o seu evento? Contacte a nossa equipa técnica para receber orçamentos personalizados, verificar a disponibilidade de equipamento e obter aconselhamento especializado.',
+		subtitle:
+			'Pronto para elevar o seu evento? Contacte a nossa equipa técnica para receber orçamentos personalizados, verificar a disponibilidade de equipamento e obter aconselhamento especializado.',
 		detailsTitle: 'Dados de contacto',
 		phone: 'Telefone',
 		whatsapp: 'WhatsApp',
@@ -177,7 +190,8 @@ const t = {
 		formSubmit: 'Enviar pedido',
 		formSubmitting: 'A enviar...',
 		formRequiredError: 'Por favor, preencha todos os campos obrigatórios.',
-		formErrorSubmit: 'Ocorreu um problema ao enviar o seu pedido. Tente novamente ou contacte-nos diretamente por email.',
+		formErrorSubmit:
+			'Ocorreu um problema ao enviar o seu pedido. Tente novamente ou contacte-nos diretamente por email.',
 		formErrorTurnstile: 'A verificação de segurança falhou. Tente novamente.',
 		formErrorRateLimited: 'Demasiados pedidos. Aguarde alguns minutos e tente novamente.',
 		lockedFieldNote: 'Gerado automaticamente a partir de um erro. Este campo não pode ser editado.',
@@ -193,7 +207,8 @@ const t = {
 		errorDetailComments: 'Comentários',
 		successTitle: 'Orçamento pedido!',
 		successText1: 'Olá',
-		successText2: 'recebemos o seu pedido com sucesso. A nossa equipa técnica em Málaga irá avaliá-lo e entrar em contacto consigo por email (',
+		successText2:
+			'recebemos o seu pedido com sucesso. A nossa equipa técnica em Málaga irá avaliá-lo e entrar em contacto consigo por email (',
 		successText3: ') o mais brevemente possível.',
 		successButton: 'Enviar outro pedido',
 		faqTitle: 'Perguntas frequentes'
@@ -202,7 +217,8 @@ const t = {
 	packages: {
 		badge: 'Pacotes em destaque',
 		title: 'Escolha o seu pacote perfeito',
-		subtitle: 'Adaptados a cada ocasião. Todos os pacotes incluem transporte, montagem e apoio técnico no local.',
+		subtitle:
+			'Adaptados a cada ocasião. Todos os pacotes incluem transporte, montagem e apoio técnico no local.',
 		enquire: 'Pedir um orçamento'
 	},
 	// How It Works
@@ -210,13 +226,16 @@ const t = {
 		badge: 'Como funciona',
 		title: 'O seu evento em 4 passos simples',
 		s1Title: 'Escolha o seu pacote',
-		s1Desc: 'Explore os nossos pacotes e escolha o que melhor se adapta à dimensão e ao estilo do seu evento.',
+		s1Desc:
+			'Explore os nossos pacotes e escolha o que melhor se adapta à dimensão e ao estilo do seu evento.',
 		s2Title: 'Peça um orçamento',
-		s2Desc: 'Preencha o nosso formulário rápido. Respondemos o mais brevemente possível com a disponibilidade completa.',
+		s2Desc:
+			'Preencha o nosso formulário rápido. Respondemos o mais brevemente possível com a disponibilidade completa.',
 		s3Title: 'Confirme e planeie',
 		s3Desc: 'A nossa equipa confirma a logística, o acesso ao local e todos os detalhes técnicos.',
 		s4Title: 'Desfrute do seu evento',
-		s4Desc: 'Entregamos, montamos e testamos tudo, e recolhemos tudo depois do seu evento. Zero stress para si.'
+		s4Desc:
+			'Entregamos, montamos e testamos tudo, e recolhemos tudo depois do seu evento. Zero stress para si.'
 	},
 	// Pricing Preview
 	pricingPreview: {
@@ -254,7 +273,8 @@ const t = {
 		phoneLabelInput: 'Telefone / WhatsApp *',
 		eventDateLabel: 'Data do evento *',
 		commentsLabel: 'Perguntas ou comentários',
-		commentsPlaceholder: 'Fale-nos do seu evento: local, número de convidados, requisitos especiais...',
+		commentsPlaceholder:
+			'Fale-nos do seu evento: local, número de convidados, requisitos especiais...',
 		submitBtn: 'Verificar disponibilidade da data',
 		submitting: 'A enviar...',
 		errorRequired: 'Este campo é obrigatório.',
@@ -270,7 +290,8 @@ const t = {
 		errorTurnstile: 'A verificação de segurança falhou. Tente novamente.',
 		errorRateLimited: 'Demasiados pedidos. Aguarde alguns minutos e tente novamente.',
 		emailFailTitle: 'Não foi possível enviar a sua confirmação',
-		emailFailBody: 'O seu pedido foi guardado, mas o nosso sistema de email não o conseguiu enviar. Contacte a nossa equipa diretamente para não perdermos o seu pedido.',
+		emailFailBody:
+			'O seu pedido foi guardado, mas o nosso sistema de email não o conseguiu enviar. Contacte a nossa equipa diretamente para não perdermos o seu pedido.',
 		emailFailAction: 'Contactar a equipa',
 		emailFailDismiss: 'Fechar',
 		countryCode: 'Indicativo do país',
@@ -280,7 +301,8 @@ const t = {
 	// Thank-you page
 	thankYou: {
 		headline: 'Obrigado! O seu pedido está a caminho.',
-		subheadline: 'Recebemos o seu pedido e entraremos em contacto consigo o mais brevemente possível.',
+		subheadline:
+			'Recebemos o seu pedido e entraremos em contacto consigo o mais brevemente possível.',
 		responseTime: 'Resposta prevista: o mais brevemente possível',
 		backToPackages: 'Ver todos os pacotes',
 		whatsappCta: 'Ou contacte-nos já pelo WhatsApp',
@@ -295,7 +317,8 @@ const t = {
 	googleMap: {
 		badge: 'Localização e perfil do Google',
 		title: 'Encontre-nos no Google',
-		subtitle: 'Visite o nosso perfil oficial do Google Business ou veja a nossa localização em Málaga.',
+		subtitle:
+			'Visite o nosso perfil oficial do Google Business ou veja a nossa localização em Málaga.',
 		viewOnGoogle: 'Ver no Google Maps',
 		mapTitle: 'Malaga Event Gear - Perfil do Google Business'
 	},
@@ -323,7 +346,8 @@ const t = {
 		listings: 'Diretórios',
 		onlinePresence: 'Presença online',
 		moreInformation: 'Mais informação',
-		moreInfoText: 'Precisa de mais detalhes? Contacte-nos para obter informações sobre os nossos alugueres de equipamento para eventos, preços e disponibilidade.',
+		moreInfoText:
+			'Precisa de mais detalhes? Contacte-nos para obter informações sobre os nossos alugueres de equipamento para eventos, preços e disponibilidade.',
 		tel: 'Tel',
 		clickToChat: 'Clique para conversar',
 		emails: 'Emails',
@@ -378,9 +402,11 @@ const t = {
 		},
 		subline: {
 			wedding: 'Conheça o {name}: som profissional e iluminação romântica para o seu grande dia.',
-			'basic-mice': 'Conheça o {name}: imagem e som nítidos para reuniões de direção e conferências.',
+			'basic-mice':
+				'Conheça o {name}: imagem e som nítidos para reuniões de direção e conferências.',
 			mice: 'Conheça o {name}: ecrã LED de topo, som e um técnico no local.',
-			'product-presentation': 'Conheça o {name}: projetor de alta luminosidade, ecrã e som para apresentações de grande impacto.',
+			'product-presentation':
+				'Conheça o {name}: projetor de alta luminosidade, ecrã e som para apresentações de grande impacto.',
 			eco: 'Conheça o {name}: bom som e iluminação ambiente para até {guests} convidados.'
 		},
 		priceFrom: 'A partir de {price}',
@@ -400,8 +426,10 @@ const t = {
 	errorPage: {
 		notFoundHeading: 'Página não encontrada',
 		genericHeading: 'Ocorreu um problema',
-		notFoundBody: 'A página que procura não existe ou foi movida. Volte à página inicial ou entre em contacto connosco.',
-		genericBody: 'Ocorreu um problema ao processar o seu pedido. Volte à página inicial ou contacte-nos e resolveremos a situação.',
+		notFoundBody:
+			'A página que procura não existe ou foi movida. Volte à página inicial ou entre em contacto connosco.',
+		genericBody:
+			'Ocorreu um problema ao processar o seu pedido. Volte à página inicial ou contacte-nos e resolveremos a situação.',
 		contactUs: 'Contacte-nos',
 		backHome: 'Voltar ao início'
 	}

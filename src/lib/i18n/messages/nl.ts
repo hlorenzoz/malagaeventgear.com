@@ -18,7 +18,8 @@ const t = {
 	// Language notices (CLAUDE.md, "Idiomas soportados")
 	notices: {
 		serviceLanguages: 'We antwoorden in het Engels of Spaans.',
-		legalTranslation: 'Dit is een vertaling. Bij verschillen met de Engelse versie geldt de Engelse versie.',
+		legalTranslation:
+			'Dit is een vertaling. Bij verschillen met de Engelse versie geldt de Engelse versie.',
 		readEnglish: 'Lees de Engelse versie'
 	},
 	// Breadcrumb names, keyed by English path segment (see i18n/breadcrumbs.ts)
@@ -47,28 +48,34 @@ const t = {
 		titlePart1: 'Audiovisuele apparatuur',
 		titleGradient: 'huren',
 		titlePart2: 'in Malaga',
-		subtitle: 'Ervaar kristalhelder geluid en verbluffende verlichting met onze premium apparatuur. Perfect voor bruiloften, bedrijfsevenementen en exclusieve feesten aan de Costa del Sol.',
+		subtitle:
+			'Ervaar kristalhelder geluid en verbluffende verlichting met onze premium apparatuur. Perfect voor bruiloften, bedrijfsevenementen en exclusieve feesten aan de Costa del Sol.',
 		viewPricing: 'Bekijk prijzen',
 		contactUs: 'Neem contact op'
 	},
 	// Bento Info Cards
 	bento: {
 		card1Title: '#1 Vlekkeloze opbouw',
-		card1Text: 'Toegewijde technische ondersteuning, zodat je evenement van begin tot eind zonder zorgen verloopt.',
+		card1Text:
+			'Toegewijde technische ondersteuning, zodat je evenement van begin tot eind zonder zorgen verloopt.',
 		card2Title: '#2 Pakketten op maat',
-		card2Text: 'Flexibele huurpakketten, perfect afgestemd op elke evenementgrootte, locatie en elk budget.',
+		card2Text:
+			'Flexibele huurpakketten, perfect afgestemd op elke evenementgrootte, locatie en elk budget.',
 		card3Title: '#3 Geavanceerde technologie',
-		card3Text: 'Geniet van hypermoderne audiovisuele apparatuur die de beeld- en geluidskwaliteit van je productie naar een hoger niveau tilt.'
+		card3Text:
+			'Geniet van hypermoderne audiovisuele apparatuur die de beeld- en geluidskwaliteit van je productie naar een hoger niveau tilt.'
 	},
 	// Overview (At a Glance: answer-engine optimization)
 	overview: {
 		badge: 'In het kort',
 		sellQ: 'Wat verkopen we?',
-		sellA: 'We verhuren premium audiovisuele apparatuur, zoals professionele geluidssystemen, podiumverlichting, beamers en schermen, voor evenementen in Malaga en aan de Costa del Sol, inclusief levering, opbouw en technische ondersteuning ter plaatse.',
+		sellA:
+			'We verhuren premium audiovisuele apparatuur, zoals professionele geluidssystemen, podiumverlichting, beamers en schermen, voor evenementen in Malaga en aan de Costa del Sol, inclusief levering, opbouw en technische ondersteuning ter plaatse.',
 		whoQ: 'Voor wie is dit?',
 		whoA: 'Stellen die een bruiloft plannen, bedrijven die conferenties en zakelijke evenementen organiseren, en iedereen die een feest of privéviering geeft en vlekkeloos geluid en licht wil zonder de apparatuur zelf te kopen.',
 		costQ: 'Wat kost het?',
-		costA: 'Pakketten met een vaste prijs zonder verborgen kosten, afgestemd op de grootte van je evenement, plus offertes op maat voor grotere producties.',
+		costA:
+			'Pakketten met een vaste prijs zonder verborgen kosten, afgestemd op de grootte van je evenement, plus offertes op maat voor grotere producties.',
 		costFrom: 'Vanaf',
 		howQ: 'Hoe werkt het?',
 		howA: 'Vier eenvoudige stappen: kies je pakket, vraag een offerte aan, wij bevestigen en bereiden je apparatuur voor, en ons team levert en installeert alles op de dag van je evenement.'
@@ -76,29 +83,33 @@ const t = {
 	// Impact
 	impact: {
 		title: 'Onze impact in cijfers',
-		years: 'Jaar ervaring',
+		since: 'Sinds {year}',
+		industry: 'In de audiovisuele sector',
 		clients: 'Tevreden klanten',
-		satisfaction: 'Tevredenheidsscore'
+		rating: 'Google-beoordeling ({n} reviews)'
 	},
 	// Categories
 	categories: {
 		badge: 'Premium apparatuur',
 		title: 'Beschikbare categorieën',
 		soundTitle: 'Geluidssystemen',
-		soundText: 'Kristalhelder hifigeluid, ideaal voor intieme bruiloften of grote zakelijke conferenties. We werken met toonaangevende merken voor de hoogste akoestische kwaliteit.',
+		soundText:
+			'Kristalhelder hifigeluid, ideaal voor intieme bruiloften of grote zakelijke conferenties. We werken met toonaangevende merken voor de hoogste akoestische kwaliteit.',
 		lightTitle: 'Verlichting',
 		lightText: 'Dynamische verlichtingsoplossingen voor de perfecte sfeer op je locatie.',
 		visualTitle: 'Beamers & schermen',
 		visualText: 'Scherpe beelden in high definition voor presentaties met grote visuele impact.',
 		fxTitle: 'Rookmachine',
-		fxText: 'Geef je dansvloer of podium extra sfeer met onze professionele rookmachine, de Martin Magnum 650.',
+		fxText:
+			'Geef je dansvloer of podium extra sfeer met onze professionele rookmachine, de Martin Magnum 650.',
 		bookEquipment: 'Pakketten boeken'
 	},
 	// Pricing
 	pricing: {
 		badge: 'Transparante prijzen',
 		title: 'Pakketten op maat voor elk evenement',
-		subtitle: 'Kies uit onze flexibele huurpakketten, perfect afgestemd op elke evenementgrootte en elk budget. Wij maken plannen eenvoudig!',
+		subtitle:
+			'Kies uit onze flexibele huurpakketten, perfect afgestemd op elke evenementgrootte en elk budget. Wij maken plannen eenvoudig!',
 		includes: 'Inclusief:',
 		includedServices: 'Inbegrepen diensten:',
 		optional: 'Optioneel:',
@@ -122,7 +133,7 @@ const t = {
 		capacity: 'Omvang evenement',
 		price: 'Budget',
 		equipment: 'Inbegrepen apparatuur',
-		extras: 'Optionele extra\'s',
+		extras: "Optionele extra's",
 		sortBy: 'Sorteer op',
 		party: 'Feesten',
 		wedding: 'Bruiloften',
@@ -154,7 +165,8 @@ const t = {
 	contact: {
 		badge: 'Direct bereikbaar 24/7',
 		title: 'Neem contact op',
-		subtitle: 'Klaar om je evenement naar een hoger niveau te tillen? Neem contact op met ons technisch team voor offertes op maat, beschikbaarheid van apparatuur en deskundig advies.',
+		subtitle:
+			'Klaar om je evenement naar een hoger niveau te tillen? Neem contact op met ons technisch team voor offertes op maat, beschikbaarheid van apparatuur en deskundig advies.',
 		detailsTitle: 'Contactgegevens',
 		phone: 'Telefoon',
 		whatsapp: 'WhatsApp',
@@ -177,10 +189,12 @@ const t = {
 		formSubmit: 'Verstuur aanvraag',
 		formSubmitting: 'Versturen...',
 		formRequiredError: 'Vul alle verplichte velden in.',
-		formErrorSubmit: 'Er is iets misgegaan bij het versturen van je aanvraag. Probeer het opnieuw of mail ons rechtstreeks.',
+		formErrorSubmit:
+			'Er is iets misgegaan bij het versturen van je aanvraag. Probeer het opnieuw of mail ons rechtstreeks.',
 		formErrorTurnstile: 'Beveiligingsverificatie mislukt. Probeer het opnieuw.',
 		formErrorRateLimited: 'Te veel aanvragen. Wacht een paar minuten en probeer het opnieuw.',
-		lockedFieldNote: 'Automatisch gegenereerd vanuit een foutmelding. Dit veld kan niet worden bewerkt.',
+		lockedFieldNote:
+			'Automatisch gegenereerd vanuit een foutmelding. Dit veld kan niet worden bewerkt.',
 		errorPrefillMessage:
 			'Hoi, ik heb via jullie website een pakketaanvraag ingediend, maar de bevestigingsmail is niet aangekomen. Kunnen jullie bevestigen dat jullie mijn aanvraag hebben ontvangen? Referentie: {ref}',
 		errorDetailsHeader: 'Ingediende gegevens:',
@@ -193,7 +207,8 @@ const t = {
 		errorDetailComments: 'Opmerkingen',
 		successTitle: 'Offerte aangevraagd!',
 		successText1: 'Hoi',
-		successText2: 'we hebben je aanvraag goed ontvangen. Ons technisch team in Malaga beoordeelt deze en neemt per e-mail contact met je op (',
+		successText2:
+			'we hebben je aanvraag goed ontvangen. Ons technisch team in Malaga beoordeelt deze en neemt per e-mail contact met je op (',
 		successText3: ') zodra dat mogelijk is.',
 		successButton: 'Verstuur nog een aanvraag',
 		faqTitle: 'Veelgestelde vragen'
@@ -202,7 +217,8 @@ const t = {
 	packages: {
 		badge: 'Uitgelichte pakketten',
 		title: 'Kies jouw perfecte pakket',
-		subtitle: 'Op maat voor elke gelegenheid. Alle pakketten zijn inclusief vervoer, opbouw en technische ondersteuning ter plaatse.',
+		subtitle:
+			'Op maat voor elke gelegenheid. Alle pakketten zijn inclusief vervoer, opbouw en technische ondersteuning ter plaatse.',
 		enquire: 'Offerte aanvragen'
 	},
 	// How It Works
@@ -210,19 +226,23 @@ const t = {
 		badge: 'Hoe het werkt',
 		title: 'Je evenement in 4 eenvoudige stappen',
 		s1Title: 'Kies je pakket',
-		s1Desc: 'Bekijk onze pakketten en kies het pakket dat past bij de grootte en stijl van je evenement.',
+		s1Desc:
+			'Bekijk onze pakketten en kies het pakket dat past bij de grootte en stijl van je evenement.',
 		s2Title: 'Vraag een offerte aan',
-		s2Desc: 'Vul ons korte formulier in. We reageren zo snel mogelijk met alle informatie over de beschikbaarheid.',
+		s2Desc:
+			'Vul ons korte formulier in. We reageren zo snel mogelijk met alle informatie over de beschikbaarheid.',
 		s3Title: 'Bevestig en plan',
 		s3Desc: 'Ons team bevestigt de logistiek, de toegang tot de locatie en elk technisch detail.',
 		s4Title: 'Geniet van je evenement',
-		s4Desc: 'Wij leveren, bouwen alles op en testen het, en halen het na je evenement weer op. Voor jou volledig zorgeloos.'
+		s4Desc:
+			'Wij leveren, bouwen alles op en testen het, en halen het na je evenement weer op. Voor jou volledig zorgeloos.'
 	},
 	// Pricing Preview
 	pricingPreview: {
 		badge: 'Transparante prijzen',
 		title: 'Eenvoudige prijzen, alles inbegrepen',
-		subtitle: 'Geen verborgen kosten. Vervoer, opbouw en technische ondersteuning altijd inbegrepen.',
+		subtitle:
+			'Geen verborgen kosten. Vervoer, opbouw en technische ondersteuning altijd inbegrepen.',
 		viewAll: 'Bekijk alle pakketten'
 	},
 	// FAQ
@@ -266,11 +286,13 @@ const t = {
 		errorHoneypot: 'Spam gedetecteerd.',
 		noCardRequired: 'Geen creditcard nodig om beschikbaarheid te checken',
 		quickResponseNote: 'Reactie zo snel mogelijk',
-		errorSubmit: 'Er is iets misgegaan. Probeer het opnieuw of neem rechtstreeks contact met ons op.',
+		errorSubmit:
+			'Er is iets misgegaan. Probeer het opnieuw of neem rechtstreeks contact met ons op.',
 		errorTurnstile: 'Beveiligingsverificatie mislukt. Probeer het opnieuw.',
 		errorRateLimited: 'Te veel aanvragen. Wacht een paar minuten en probeer het opnieuw.',
 		emailFailTitle: 'We konden je bevestiging niet versturen',
-		emailFailBody: 'Je aanvraag is opgeslagen, maar ons e-mailsysteem kon deze niet versturen. Neem rechtstreeks contact op met ons team, zodat we je aanvraag niet missen.',
+		emailFailBody:
+			'Je aanvraag is opgeslagen, maar ons e-mailsysteem kon deze niet versturen. Neem rechtstreeks contact op met ons team, zodat we je aanvraag niet missen.',
 		emailFailAction: 'Neem contact op met het team',
 		emailFailDismiss: 'Sluiten',
 		countryCode: 'Landcode',
@@ -323,7 +345,8 @@ const t = {
 		listings: 'Vermeldingen',
 		onlinePresence: 'Online aanwezigheid',
 		moreInformation: 'Meer informatie',
-		moreInfoText: 'Meer details nodig? Neem contact met ons op voor informatie over onze verhuur van evenementapparatuur, prijzen en beschikbaarheid.',
+		moreInfoText:
+			'Meer details nodig? Neem contact met ons op voor informatie over onze verhuur van evenementapparatuur, prijzen en beschikbaarheid.',
 		tel: 'Tel',
 		clickToChat: 'Klik om te chatten',
 		emails: 'E-mails',
@@ -377,10 +400,13 @@ const t = {
 			eco: 'Plan je een privéfeest?'
 		},
 		subline: {
-			wedding: 'Kies het {name}: professioneel geluid en romantische verlichting voor je grote dag.',
-			'basic-mice': 'Kies het {name}: helder beeld en geluid voor directievergaderingen en congressen.',
+			wedding:
+				'Kies het {name}: professioneel geluid en romantische verlichting voor je grote dag.',
+			'basic-mice':
+				'Kies het {name}: helder beeld en geluid voor directievergaderingen en congressen.',
 			mice: 'Kies het {name}: eersteklas ledscherm, geluid en een technicus ter plaatse.',
-			'product-presentation': 'Kies het {name}: een lichtsterke projector, scherm en geluid voor presentaties die indruk maken.',
+			'product-presentation':
+				'Kies het {name}: een lichtsterke projector, scherm en geluid voor presentaties die indruk maken.',
 			eco: 'Kies het {name}: goed geluid en sfeerverlichting voor maximaal {guests} gasten.'
 		},
 		priceFrom: 'Vanaf {price}',
@@ -400,8 +426,10 @@ const t = {
 	errorPage: {
 		notFoundHeading: 'Pagina niet gevonden',
 		genericHeading: 'Er is iets misgegaan',
-		notFoundBody: 'De pagina die je zoekt bestaat niet meer of is verplaatst. Ga naar de homepage of neem contact met ons op.',
-		genericBody: 'Er ging iets mis bij het verwerken van je aanvraag. Ga terug naar home of neem contact met ons op, dan lossen we het op.',
+		notFoundBody:
+			'De pagina die je zoekt bestaat niet meer of is verplaatst. Ga naar de homepage of neem contact met ons op.',
+		genericBody:
+			'Er ging iets mis bij het verwerken van je aanvraag. Ga terug naar home of neem contact met ons op, dan lossen we het op.',
 		contactUs: 'Neem contact op',
 		backHome: 'Terug naar home'
 	}

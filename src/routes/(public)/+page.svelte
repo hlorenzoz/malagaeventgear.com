@@ -16,6 +16,9 @@
 	import { HERO_MOBILE, HERO_FULL, HERO_SRCSET } from '$lib/assets/hero';
 	import { packageImageVariant } from '$lib/assets/package-images';
 	import { afterLcp } from '$lib/utils/after-lcp';
+	import { siteConfig } from '$lib/data/site';
+	import { getReviewsMeta } from '$lib/data/testimonials';
+	import { formatNumber, formatRating } from '$lib/i18n/format';
 
 	let { data } = $props();
 	// Copy in the page language (./i18n/<locale>.ts, loaded by +page.ts)
@@ -41,6 +44,15 @@
 
 	// Cheapest package price for the "What does it cost?" answer (derived, see CLAUDE.md §7)
 	let minPrice = $derived(getPriceRange().min);
+
+	// "Our Impact in Numbers": every figure comes from a source, none is typed here.
+	// `since` is "Since {year}" in each language. The year is shown large, so the words around
+	// it are split: what goes before sits above it, what follows stays next to it.
+	const reviewsMeta = getReviewsMeta();
+	let impactSince = $derived.by(() => {
+		const [before = '', after = ''] = i18n.t.impact.since.split('{year}');
+		return { before: before.trim(), after };
+	});
 
 	// "At a Glance" Q&A block (answer-engine optimization). Question text rendered as <h2>.
 	let overview = $derived([
@@ -354,6 +366,7 @@
 
 <!-- Impact in Numbers Section -->
 <section
+	data-testid="impact-section"
 	class="py-24 px-margin-mobile md:px-margin-desktop relative border-y border-border-glass bg-surface-container-low transition-colors duration-300"
 >
 	<div class="max-w-container-max mx-auto text-center">
@@ -362,38 +375,49 @@
 		</h2>
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 			<div
-				class="glass-card p-8 rounded-xl relative overflow-hidden group reveal active is-revealed"
+				class="glass-card p-8 rounded-xl relative overflow-hidden group reveal active is-revealed flex flex-col justify-end"
 			>
 				<div
 					class="absolute inset-0 bg-gradient-to-br from-electric-blue/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
 				></div>
-				<div class="font-display-lg text-display-lg text-gradient mb-2">27+</div>
+				{#if impactSince.before}
+					<div class="font-label-lg text-on-surface-variant tracking-widest uppercase">
+						{impactSince.before}
+					</div>
+				{/if}
+				<div class="font-display-lg text-display-lg text-gradient mb-2">
+					{siteConfig.foundingYear}{impactSince.after}
+				</div>
 				<div class="font-label-lg text-on-surface-variant tracking-widest uppercase">
-					{i18n.t.impact.years}
+					{i18n.t.impact.industry}
 				</div>
 			</div>
 
 			<div
-				class="glass-card p-8 rounded-xl relative overflow-hidden group reveal active is-revealed"
+				class="glass-card p-8 rounded-xl relative overflow-hidden group reveal active is-revealed flex flex-col justify-end"
 			>
 				<div
 					class="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
 				></div>
-				<div class="font-display-lg text-display-lg text-gradient mb-2">2,500+</div>
+				<div class="font-display-lg text-display-lg text-gradient mb-2">
+					{formatNumber(siteConfig.clientCount, i18n.lang)}+
+				</div>
 				<div class="font-label-lg text-on-surface-variant tracking-widest uppercase">
 					{i18n.t.impact.clients}
 				</div>
 			</div>
 
 			<div
-				class="glass-card p-8 rounded-xl relative overflow-hidden group reveal active is-revealed"
+				class="glass-card p-8 rounded-xl relative overflow-hidden group reveal active is-revealed flex flex-col justify-end"
 			>
 				<div
 					class="absolute inset-0 bg-gradient-to-br from-secondary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
 				></div>
-				<div class="font-display-lg text-display-lg text-gradient mb-2">+95%</div>
+				<div class="font-display-lg text-display-lg text-gradient mb-2">
+					{formatRating(reviewsMeta.averageRating, i18n.lang)}
+				</div>
 				<div class="font-label-lg text-on-surface-variant tracking-widest uppercase">
-					{i18n.t.impact.satisfaction}
+					{i18n.t.impact.rating.replace('{n}', formatNumber(reviewsMeta.totalCount, i18n.lang))}
 				</div>
 			</div>
 		</div>

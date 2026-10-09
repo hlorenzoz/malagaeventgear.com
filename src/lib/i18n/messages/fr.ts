@@ -72,22 +72,21 @@ const t = {
 		sellA:
 			'Nous louons du matériel audiovisuel haut de gamme (systèmes de son professionnels, éclairage scénique, vidéoprojecteurs et écrans) pour des événements dans toute la région de Malaga et sur la Costa del Sol, avec livraison, installation et assistance technique sur place incluses.',
 		whoQ: 'À qui nous adressons-nous ?',
-		whoA:
-			'Aux couples qui préparent leur mariage, aux entreprises qui organisent des conférences et des événements professionnels, et à toute personne qui organise une fête ou une célébration privée et souhaite un son et un éclairage parfaits sans acheter le matériel.',
+		whoA: 'Aux couples qui préparent leur mariage, aux entreprises qui organisent des conférences et des événements professionnels, et à toute personne qui organise une fête ou une célébration privée et souhaite un son et un éclairage parfaits sans acheter le matériel.',
 		costQ: 'Quel est le tarif ?',
 		costA:
 			'Des forfaits à prix fixe sans frais cachés, adaptés à la taille de votre événement, ainsi que des devis sur mesure pour les productions plus importantes.',
 		costFrom: 'À partir de',
 		howQ: 'Comment ça se passe ?',
-		howA:
-			'Quatre étapes simples : choisissez votre forfait, demandez un devis, nous confirmons et préparons votre matériel, puis notre équipe livre et installe tout le jour de votre événement.'
+		howA: 'Quatre étapes simples : choisissez votre forfait, demandez un devis, nous confirmons et préparons votre matériel, puis notre équipe livre et installe tout le jour de votre événement.'
 	},
 	// Impact
 	impact: {
 		title: 'Notre impact en chiffres',
-		years: "Années d'expérience",
+		since: 'Depuis {year}',
+		industry: "Dans l'audiovisuel",
 		clients: 'Clients satisfaits',
-		satisfaction: 'Taux de satisfaction'
+		rating: 'Note Google ({n} avis)'
 	},
 	// Categories
 	categories: {
@@ -97,7 +96,8 @@ const t = {
 		soundText:
 			"Un son haute fidélité cristallin, idéal pour un mariage intimiste comme pour une grande conférence d'entreprise. Nous travaillons avec les meilleures marques pour garantir la plus haute fidélité acoustique.",
 		lightTitle: 'Éclairage',
-		lightText: "Des solutions d'éclairage dynamiques pour créer l'ambiance parfaite dans votre lieu de réception.",
+		lightText:
+			"Des solutions d'éclairage dynamiques pour créer l'ambiance parfaite dans votre lieu de réception.",
 		visualTitle: 'Vidéoprojecteurs et écrans',
 		visualText: 'Des visuels nets et haute définition pour des présentations à fort impact visuel.',
 		fxTitle: 'Machine à fumée',
@@ -127,7 +127,8 @@ const t = {
 		clearAll: 'Tout effacer',
 		resetFilters: 'Réinitialiser les filtres',
 		showingResults: '{visible} forfaits affichés sur {total}',
-		noResults: 'Aucun forfait ne correspond à vos filtres. Essayez de supprimer certains critères !',
+		noResults:
+			'Aucun forfait ne correspond à vos filtres. Essayez de supprimer certains critères !',
 		openFilters: 'Filtres',
 		done: 'Afficher les résultats',
 		purpose: "Type d'événement",
@@ -194,7 +195,8 @@ const t = {
 			"Une erreur s'est produite lors de l'envoi de votre demande. Veuillez réessayer ou nous écrire directement par e-mail.",
 		formErrorTurnstile: 'La vérification de sécurité a échoué. Veuillez réessayer.',
 		formErrorRateLimited: 'Trop de tentatives. Veuillez patienter quelques minutes puis réessayer.',
-		lockedFieldNote: "Généré automatiquement à partir d'une erreur : ce champ ne peut pas être modifié.",
+		lockedFieldNote:
+			"Généré automatiquement à partir d'une erreur : ce champ ne peut pas être modifié.",
 		errorPrefillMessage:
 			"Bonjour, j'ai soumis une demande de forfait sur votre site mais l'e-mail de confirmation n'a pas pu être envoyé. Pourriez-vous confirmer la bonne réception de ma demande ? Référence : {ref}",
 		errorDetailsHeader: 'Informations envoyées :',
@@ -217,7 +219,8 @@ const t = {
 	packages: {
 		badge: 'Nos forfaits phares',
 		title: 'Choisissez votre forfait idéal',
-		subtitle: "Adaptés à chaque occasion. Tous nos forfaits incluent le transport, l'installation et l'assistance technique sur place.",
+		subtitle:
+			"Adaptés à chaque occasion. Tous nos forfaits incluent le transport, l'installation et l'assistance technique sur place.",
 		enquire: 'Demander un devis'
 	},
 	// How It Works
@@ -225,13 +228,16 @@ const t = {
 		badge: 'Comment ça marche',
 		title: 'Votre événement en 4 étapes simples',
 		s1Title: 'Choisissez votre forfait',
-		s1Desc: 'Parcourez nos forfaits et choisissez celui qui correspond à la taille et au style de votre événement.',
+		s1Desc:
+			'Parcourez nos forfaits et choisissez celui qui correspond à la taille et au style de votre événement.',
 		s2Title: 'Demandez un devis',
-		s2Desc: 'Remplissez notre formulaire rapide. Nous répondons dans les plus brefs délais avec toutes les disponibilités.',
+		s2Desc:
+			'Remplissez notre formulaire rapide. Nous répondons dans les plus brefs délais avec toutes les disponibilités.',
 		s3Title: 'Confirmez et planifiez',
 		s3Desc: "Notre équipe confirme la logistique, l'accès au lieu et chaque détail technique.",
 		s4Title: 'Profitez de votre événement',
-		s4Desc: "Nous livrons, installons et testons tout, puis nous venons tout récupérer après votre événement. Zéro stress pour vous."
+		s4Desc:
+			'Nous livrons, installons et testons tout, puis nous venons tout récupérer après votre événement. Zéro stress pour vous.'
 	},
 	// Pricing Preview
 	pricingPreview: {
@@ -269,7 +275,8 @@ const t = {
 		phoneLabelInput: 'Téléphone / WhatsApp *',
 		eventDateLabel: "Date de l'événement *",
 		commentsLabel: 'Questions ou commentaires',
-		commentsPlaceholder: "Parlez-nous de votre événement : lieu, nombre d'invités, besoins particuliers...",
+		commentsPlaceholder:
+			"Parlez-nous de votre événement : lieu, nombre d'invités, besoins particuliers...",
 		submitBtn: 'Vérifier la disponibilité',
 		submitting: 'Envoi en cours...',
 		errorRequired: 'Ce champ est obligatoire.',
@@ -296,7 +303,8 @@ const t = {
 	// Thank-you page
 	thankYou: {
 		headline: 'Merci ! Votre demande est en route.',
-		subheadline: 'Nous avons bien reçu votre demande et vous répondrons dans les plus brefs délais.',
+		subheadline:
+			'Nous avons bien reçu votre demande et vous répondrons dans les plus brefs délais.',
 		responseTime: 'Réponse estimée : dans les plus brefs délais',
 		backToPackages: 'Voir tous les forfaits',
 		whatsappCta: 'Ou contactez-nous dès maintenant sur WhatsApp',
@@ -338,7 +346,7 @@ const t = {
 		localAddress: 'Adresse locale',
 		listings: 'Fiches et annuaires',
 		onlinePresence: 'Présence en ligne',
-		moreInformation: 'Plus d\'informations',
+		moreInformation: "Plus d'informations",
 		moreInfoText:
 			'Besoin de plus de détails ? Contactez-nous pour en savoir plus sur nos locations de matériel événementiel, nos tarifs et nos disponibilités.',
 		tel: 'Tél',
@@ -394,10 +402,13 @@ const t = {
 			eco: 'Vous préparez un événement privé ?'
 		},
 		subline: {
-			wedding: 'Découvrez le {name} : une sonorisation professionnelle et un éclairage romantique pour votre grand jour.',
-			'basic-mice': 'Découvrez le {name} : un son et une image nets pour vos réunions de direction et vos conférences.',
+			wedding:
+				'Découvrez le {name} : une sonorisation professionnelle et un éclairage romantique pour votre grand jour.',
+			'basic-mice':
+				'Découvrez le {name} : un son et une image nets pour vos réunions de direction et vos conférences.',
 			mice: 'Découvrez le {name} : écran LED haut de gamme, sonorisation et technicien sur place.',
-			'product-presentation': 'Découvrez le {name} : projecteur haute luminosité, écran et son pour des présentations percutantes.',
+			'product-presentation':
+				'Découvrez le {name} : projecteur haute luminosité, écran et son pour des présentations percutantes.',
 			eco: "Découvrez le {name} : une bonne sonorisation et un éclairage d'ambiance jusqu'à {guests} invités."
 		},
 		priceFrom: 'À partir de {price}',
@@ -417,7 +428,8 @@ const t = {
 	errorPage: {
 		notFoundHeading: 'Page introuvable',
 		genericHeading: "Une erreur s'est produite",
-		notFoundBody: "La page que vous recherchez n'existe pas ou a été déplacée. Retournez à l'accueil ou contactez-nous.",
+		notFoundBody:
+			"La page que vous recherchez n'existe pas ou a été déplacée. Retournez à l'accueil ou contactez-nous.",
 		genericBody:
 			"Nous avons rencontré un problème lors du traitement de votre demande. Retournez à l'accueil ou contactez-nous et nous trouverons une solution.",
 		contactUs: 'Nous contacter',

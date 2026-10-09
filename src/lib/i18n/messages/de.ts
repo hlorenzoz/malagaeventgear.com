@@ -56,47 +56,57 @@ const t = {
 	},
 	bento: {
 		card1Title: '#1 Reibungsloser Aufbau',
-		card1Text: 'Engagierter technischer Support sorgt dafür, dass Ihre Veranstaltung von Anfang bis Ende sorgenfrei abläuft.',
+		card1Text:
+			'Engagierter technischer Support sorgt dafür, dass Ihre Veranstaltung von Anfang bis Ende sorgenfrei abläuft.',
 		card2Title: '#2 Maßgeschneiderte Pakete',
-		card2Text: 'Flexible Mietpakete, die perfekt zu jeder Veranstaltungsgröße, jedem Veranstaltungsort und jedem Budget passen.',
+		card2Text:
+			'Flexible Mietpakete, die perfekt zu jeder Veranstaltungsgröße, jedem Veranstaltungsort und jedem Budget passen.',
 		card3Title: '#3 Modernste Technik',
-		card3Text: 'Genießen Sie hochmoderne Veranstaltungstechnik, die die visuelle und klangliche Qualität Ihrer Produktion aufwertet.'
+		card3Text:
+			'Genießen Sie hochmoderne Veranstaltungstechnik, die die visuelle und klangliche Qualität Ihrer Produktion aufwertet.'
 	},
 	overview: {
 		badge: 'Auf einen Blick',
 		sellQ: 'Was bieten wir an?',
-		sellA: 'Wir vermieten hochwertige Veranstaltungstechnik (professionelle Beschallungsanlagen, Bühnenbeleuchtung, Beamer und Leinwände) für Events in ganz Malaga und an der Costa del Sol, inklusive Lieferung, Aufbau und technischem Support vor Ort.',
+		sellA:
+			'Wir vermieten hochwertige Veranstaltungstechnik (professionelle Beschallungsanlagen, Bühnenbeleuchtung, Beamer und Leinwände) für Events in ganz Malaga und an der Costa del Sol, inklusive Lieferung, Aufbau und technischem Support vor Ort.',
 		whoQ: 'Für wen ist das gedacht?',
 		whoA: 'Für Paare, die eine Hochzeit planen, Unternehmen, die Konferenzen und Firmenevents veranstalten, und alle, die eine Party oder private Feier mit einwandfreiem Klang und Licht ausrichten wollen, ohne die Technik selbst zu kaufen.',
 		costQ: 'Was kostet das?',
-		costA: 'Festpreispakete ohne versteckte Kosten, passend zur Größe Ihrer Veranstaltung, plus individuelle Angebote für größere Produktionen.',
+		costA:
+			'Festpreispakete ohne versteckte Kosten, passend zur Größe Ihrer Veranstaltung, plus individuelle Angebote für größere Produktionen.',
 		costFrom: 'Ab',
 		howQ: 'Wie funktioniert das?',
 		howA: 'Vier einfache Schritte: Paket auswählen, Angebot anfordern, wir bestätigen und bereiten Ihre Technik vor, und unser Team liefert und baut am Tag Ihrer Veranstaltung alles auf.'
 	},
 	impact: {
 		title: 'Unsere Zahlen',
-		years: 'Jahre Erfahrung',
+		since: 'Seit {year}',
+		industry: 'In der AV-Branche',
 		clients: 'Zufriedene Kunden',
-		satisfaction: 'Zufriedenheitsrate'
+		rating: 'Google-Bewertung ({n} Rezensionen)'
 	},
 	categories: {
 		badge: 'Erstklassige Technik',
 		title: 'Verfügbare Kategorien',
 		soundTitle: 'Beschallungsanlagen',
-		soundText: 'Glasklarer High-Fidelity-Sound, ideal für intime Hochzeiten oder große Firmenkonferenzen. Wir arbeiten mit führenden Marken, um höchste Klangtreue zu garantieren.',
+		soundText:
+			'Glasklarer High-Fidelity-Sound, ideal für intime Hochzeiten oder große Firmenkonferenzen. Wir arbeiten mit führenden Marken, um höchste Klangtreue zu garantieren.',
 		lightTitle: 'Beleuchtung',
-		lightText: 'Dynamische Beleuchtungslösungen für die perfekte Atmosphäre an Ihrem Veranstaltungsort.',
+		lightText:
+			'Dynamische Beleuchtungslösungen für die perfekte Atmosphäre an Ihrem Veranstaltungsort.',
 		visualTitle: 'Beamer & Leinwände',
 		visualText: 'Scharfe HD-Bilder für Präsentationen mit hoher visueller Wirkung.',
 		fxTitle: 'Nebelmaschine',
-		fxText: 'Sorgen Sie mit unserer professionellen Nebelmaschine Martin Magnum 650 für Atmosphäre auf Ihrer Tanzfläche oder Bühne.',
+		fxText:
+			'Sorgen Sie mit unserer professionellen Nebelmaschine Martin Magnum 650 für Atmosphäre auf Ihrer Tanzfläche oder Bühne.',
 		bookEquipment: 'Pakete buchen'
 	},
 	pricing: {
 		badge: 'Transparente Preise',
 		title: 'Maßgeschneiderte Pakete für jede Veranstaltung',
-		subtitle: 'Wählen Sie aus unseren flexiblen Mietpaketen, die perfekt zu jeder Veranstaltungsgröße und jedem Budget passen. Wir machen die Planung einfach!',
+		subtitle:
+			'Wählen Sie aus unseren flexiblen Mietpaketen, die perfekt zu jeder Veranstaltungsgröße und jedem Budget passen. Wir machen die Planung einfach!',
 		includes: 'Enthält:',
 		includedServices: 'Enthaltene Leistungen:',
 		optional: 'Optional:',
@@ -150,7 +160,8 @@ const t = {
 	contact: {
 		badge: 'Sofortige Antwort rund um die Uhr',
 		title: 'Kontaktieren Sie uns',
-		subtitle: 'Bereit, Ihre Veranstaltung aufzuwerten? Kontaktieren Sie unser technisches Team: Wir erstellen Ihnen ein maßgeschneidertes Angebot, prüfen die Verfügbarkeit der Technik und beraten Sie fachkundig.',
+		subtitle:
+			'Bereit, Ihre Veranstaltung aufzuwerten? Kontaktieren Sie unser technisches Team: Wir erstellen Ihnen ein maßgeschneidertes Angebot, prüfen die Verfügbarkeit der Technik und beraten Sie fachkundig.',
 		detailsTitle: 'Kontaktdaten',
 		phone: 'Telefon',
 		whatsapp: 'WhatsApp',
@@ -173,10 +184,13 @@ const t = {
 		formSubmit: 'Anfrage senden',
 		formSubmitting: 'Wird gesendet...',
 		formRequiredError: 'Bitte füllen Sie alle Pflichtfelder aus.',
-		formErrorSubmit: 'Beim Senden Ihrer Anfrage ist etwas schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt eine E-Mail.',
+		formErrorSubmit:
+			'Beim Senden Ihrer Anfrage ist etwas schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt eine E-Mail.',
 		formErrorTurnstile: 'Sicherheitsprüfung fehlgeschlagen. Bitte versuchen Sie es erneut.',
-		formErrorRateLimited: 'Zu viele Anfragen. Bitte warten Sie einige Minuten und versuchen Sie es erneut.',
-		lockedFieldNote: 'Automatisch aus einem Fehler erzeugt. Dieses Feld kann nicht bearbeitet werden.',
+		formErrorRateLimited:
+			'Zu viele Anfragen. Bitte warten Sie einige Minuten und versuchen Sie es erneut.',
+		lockedFieldNote:
+			'Automatisch aus einem Fehler erzeugt. Dieses Feld kann nicht bearbeitet werden.',
 		errorPrefillMessage:
 			'Hallo, ich habe auf Ihrer Website eine Paketanfrage gesendet, aber die Bestätigungs-E-Mail konnte nicht zugestellt werden. Könnten Sie bitte bestätigen, dass Sie meine Anfrage erhalten haben? Referenz: {ref}',
 		errorDetailsHeader: 'Übermittelte Details:',
@@ -189,7 +203,8 @@ const t = {
 		errorDetailComments: 'Anmerkungen',
 		successTitle: 'Angebot angefordert!',
 		successText1: 'Hallo',
-		successText2: 'wir haben Ihre Anfrage erfolgreich erhalten. Unser technisches Team in Malaga wird sie prüfen und Sie so schnell wie möglich per E-Mail kontaktieren (',
+		successText2:
+			'wir haben Ihre Anfrage erfolgreich erhalten. Unser technisches Team in Malaga wird sie prüfen und Sie so schnell wie möglich per E-Mail kontaktieren (',
 		successText3: ').',
 		successButton: 'Weitere Anfrage senden',
 		faqTitle: 'Häufig gestellte Fragen'
@@ -197,25 +212,31 @@ const t = {
 	packages: {
 		badge: 'Beliebte Pakete',
 		title: 'Wählen Sie Ihr perfektes Paket',
-		subtitle: 'Maßgeschneidert für jeden Anlass. Alle Pakete beinhalten Transport, Aufbau und technischen Support vor Ort.',
+		subtitle:
+			'Maßgeschneidert für jeden Anlass. Alle Pakete beinhalten Transport, Aufbau und technischen Support vor Ort.',
 		enquire: 'Angebot anfordern'
 	},
 	process: {
 		badge: 'So funktioniert es',
 		title: 'Ihre Veranstaltung in 4 einfachen Schritten',
 		s1Title: 'Paket auswählen',
-		s1Desc: 'Sehen Sie sich unsere Pakete an und wählen Sie das passende für Größe und Stil Ihrer Veranstaltung.',
+		s1Desc:
+			'Sehen Sie sich unsere Pakete an und wählen Sie das passende für Größe und Stil Ihrer Veranstaltung.',
 		s2Title: 'Angebot anfordern',
-		s2Desc: 'Füllen Sie unser kurzes Formular aus. Wir antworten so schnell wie möglich mit allen Informationen zur Verfügbarkeit.',
+		s2Desc:
+			'Füllen Sie unser kurzes Formular aus. Wir antworten so schnell wie möglich mit allen Informationen zur Verfügbarkeit.',
 		s3Title: 'Bestätigen & planen',
-		s3Desc: 'Unser Team bestätigt Logistik, Zugang zum Veranstaltungsort und jedes technische Detail.',
+		s3Desc:
+			'Unser Team bestätigt Logistik, Zugang zum Veranstaltungsort und jedes technische Detail.',
 		s4Title: 'Genießen Sie Ihre Veranstaltung',
-		s4Desc: 'Wir liefern, bauen alles auf und testen es, und holen es nach Ihrer Veranstaltung wieder ab. Null Stress für Sie.'
+		s4Desc:
+			'Wir liefern, bauen alles auf und testen es, und holen es nach Ihrer Veranstaltung wieder ab. Null Stress für Sie.'
 	},
 	pricingPreview: {
 		badge: 'Transparente Preise',
 		title: 'Einfache Preise, alles inklusive',
-		subtitle: 'Keine versteckten Kosten. Transport, Aufbau und technischer Support immer inklusive.',
+		subtitle:
+			'Keine versteckten Kosten. Transport, Aufbau und technischer Support immer inklusive.',
 		viewAll: 'Alle Pakete ansehen'
 	},
 	faq: {
@@ -244,7 +265,8 @@ const t = {
 		phoneLabelInput: 'Telefon / WhatsApp *',
 		eventDateLabel: 'Veranstaltungsdatum *',
 		commentsLabel: 'Fragen oder Anmerkungen',
-		commentsPlaceholder: 'Erzählen Sie uns von Ihrer Veranstaltung: Veranstaltungsort, Anzahl der Gäste, besondere Anforderungen...',
+		commentsPlaceholder:
+			'Erzählen Sie uns von Ihrer Veranstaltung: Veranstaltungsort, Anzahl der Gäste, besondere Anforderungen...',
 		submitBtn: 'Verfügbarkeit prüfen',
 		submitting: 'Wird gesendet...',
 		errorRequired: 'Dieses Feld ist erforderlich.',
@@ -256,11 +278,14 @@ const t = {
 		errorHoneypot: 'Spam erkannt.',
 		noCardRequired: 'Keine Kreditkarte erforderlich, um die Verfügbarkeit zu prüfen',
 		quickResponseNote: 'Antwort so schnell wie möglich',
-		errorSubmit: 'Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt.',
+		errorSubmit:
+			'Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt.',
 		errorTurnstile: 'Sicherheitsprüfung fehlgeschlagen. Bitte versuchen Sie es erneut.',
-		errorRateLimited: 'Zu viele Anfragen. Bitte warten Sie einige Minuten und versuchen Sie es erneut.',
+		errorRateLimited:
+			'Zu viele Anfragen. Bitte warten Sie einige Minuten und versuchen Sie es erneut.',
 		emailFailTitle: 'Ihre Bestätigung konnte nicht gesendet werden',
-		emailFailBody: 'Ihre Anfrage wurde gespeichert, aber unser E-Mail-System konnte sie nicht senden. Bitte kontaktieren Sie unser Team direkt, damit Ihre Anfrage nicht verloren geht.',
+		emailFailBody:
+			'Ihre Anfrage wurde gespeichert, aber unser E-Mail-System konnte sie nicht senden. Bitte kontaktieren Sie unser Team direkt, damit Ihre Anfrage nicht verloren geht.',
 		emailFailAction: 'Team kontaktieren',
 		emailFailDismiss: 'Schließen',
 		countryCode: 'Landesvorwahl',
@@ -282,7 +307,8 @@ const t = {
 	googleMap: {
 		badge: 'Standort & Google-Profil',
 		title: 'Finden Sie uns bei Google',
-		subtitle: 'Besuchen Sie unser offizielles Google-Unternehmensprofil oder sehen Sie unseren Standort in Malaga.',
+		subtitle:
+			'Besuchen Sie unser offizielles Google-Unternehmensprofil oder sehen Sie unseren Standort in Malaga.',
 		viewOnGoogle: 'Auf Google Maps ansehen',
 		mapTitle: 'Malaga Event Gear: Google-Unternehmensprofil'
 	},
@@ -309,7 +335,8 @@ const t = {
 		listings: 'Einträge',
 		onlinePresence: 'Onlinepräsenz',
 		moreInformation: 'Weitere Informationen',
-		moreInfoText: 'Benötigen Sie weitere Details? Kontaktieren Sie uns für Informationen zu unserem Technikverleih, unseren Preisen und der Verfügbarkeit.',
+		moreInfoText:
+			'Benötigen Sie weitere Details? Kontaktieren Sie uns für Informationen zu unserem Technikverleih, unseren Preisen und der Verfügbarkeit.',
 		tel: 'Tel',
 		clickToChat: 'Zum Chatten klicken',
 		emails: 'E-Mails',
@@ -363,9 +390,11 @@ const t = {
 		},
 		subline: {
 			wedding: 'Das {name}: professioneller Sound und romantisches Licht für Ihren großen Tag.',
-			'basic-mice': 'Das {name}: klare Ton- und Bildtechnik für Vorstandssitzungen und Konferenzen.',
+			'basic-mice':
+				'Das {name}: klare Ton- und Bildtechnik für Vorstandssitzungen und Konferenzen.',
 			mice: 'Das {name}: hochwertiges LED-Display, Beschallung und ein Techniker vor Ort.',
-			'product-presentation': 'Das {name}: lichtstarker Projektor, Leinwand und Ton für eindrucksvolle Präsentationen.',
+			'product-presentation':
+				'Das {name}: lichtstarker Projektor, Leinwand und Ton für eindrucksvolle Präsentationen.',
 			eco: 'Das {name}: guter Sound und stimmungsvolles Licht für bis zu {guests} Gäste.'
 		},
 		priceFrom: 'Ab {price}',
@@ -383,8 +412,10 @@ const t = {
 	errorPage: {
 		notFoundHeading: 'Seite nicht gefunden',
 		genericHeading: 'Etwas ist schiefgelaufen',
-		notFoundBody: 'Die gesuchte Seite existiert nicht mehr oder wurde verschoben. Versuchen Sie es von der Startseite aus oder kontaktieren Sie uns.',
-		genericBody: 'Bei der Bearbeitung Ihrer Anfrage ist ein Problem aufgetreten. Kehren Sie zur Startseite zurück oder kontaktieren Sie uns, dann kümmern wir uns darum.',
+		notFoundBody:
+			'Die gesuchte Seite existiert nicht mehr oder wurde verschoben. Versuchen Sie es von der Startseite aus oder kontaktieren Sie uns.',
+		genericBody:
+			'Bei der Bearbeitung Ihrer Anfrage ist ein Problem aufgetreten. Kehren Sie zur Startseite zurück oder kontaktieren Sie uns, dann kümmern wir uns darum.',
 		contactUs: 'Kontaktieren Sie uns',
 		backHome: 'Zurück zur Startseite'
 	}

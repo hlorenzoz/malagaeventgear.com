@@ -59,9 +59,11 @@ const t = {
 		card1Text:
 			'Dedikeret teknisk support, så dit event forløber problemfrit fra start til slut, helt uden bekymringer.',
 		card2Title: '#2 Skræddersyede pakker',
-		card2Text: 'Fleksible udlejningspakker, der passer perfekt til ethvert event uanset størrelse, lokale og budget.',
+		card2Text:
+			'Fleksible udlejningspakker, der passer perfekt til ethvert event uanset størrelse, lokale og budget.',
 		card3Title: '#3 Den nyeste teknologi',
-		card3Text: 'Nyd topmoderne AV-udstyr, der løfter både billed- og lydkvaliteten i din produktion.'
+		card3Text:
+			'Nyd topmoderne AV-udstyr, der løfter både billed- og lydkvaliteten i din produktion.'
 	},
 	// Overview (At a Glance: answer-engine optimization)
 	overview: {
@@ -70,21 +72,21 @@ const t = {
 		sellA:
 			'Vi udlejer AV-udstyr i topklasse, herunder professionelle lydsystemer, scenebelysning, projektorer og lærreder, til events i Malaga og på Costa del Sol, inklusive levering, opsætning og teknisk support på stedet.',
 		whoQ: 'Hvem er det til?',
-		whoA:
-			'Par, der planlægger bryllup, virksomheder, der afholder konferencer og firmaevents, og alle, der holder en fest eller privat fejring og ønsker fejlfri lyd og lys uden selv at skulle købe udstyret.',
+		whoA: 'Par, der planlægger bryllup, virksomheder, der afholder konferencer og firmaevents, og alle, der holder en fest eller privat fejring og ønsker fejlfri lyd og lys uden selv at skulle købe udstyret.',
 		costQ: 'Hvad koster det?',
-		costA: 'Faste pakkepriser uden skjulte gebyrer, tilpasset dit events størrelse, samt skræddersyede tilbud til større produktioner.',
+		costA:
+			'Faste pakkepriser uden skjulte gebyrer, tilpasset dit events størrelse, samt skræddersyede tilbud til større produktioner.',
 		costFrom: 'Fra',
 		howQ: 'Hvordan foregår det?',
-		howA:
-			'Fire enkle trin: vælg din pakke, anmod om et tilbud, vi bekræfter og forbereder dit udstyr, og vores team leverer og sætter det hele op på selve eventdagen.'
+		howA: 'Fire enkle trin: vælg din pakke, anmod om et tilbud, vi bekræfter og forbereder dit udstyr, og vores team leverer og sætter det hele op på selve eventdagen.'
 	},
 	// Impact
 	impact: {
 		title: 'Vores resultater i tal',
-		years: 'Års erfaring',
+		since: 'Siden {year}',
+		industry: 'I AV-branchen',
 		clients: 'Tilfredse kunder',
-		satisfaction: 'Tilfredshedsgrad'
+		rating: 'Google-bedømmelse ({n} anmeldelser)'
 	},
 	// Categories
 	categories: {
@@ -98,7 +100,8 @@ const t = {
 		visualTitle: 'Projektorer og lærreder',
 		visualText: 'Skarpe billeder i høj opløsning til præsentationer med stor visuel effekt.',
 		fxTitle: 'Røgmaskine',
-		fxText: 'Giv dansegulvet eller scenen ekstra stemning med vores professionelle røgmaskine Martin Magnum 650.',
+		fxText:
+			'Giv dansegulvet eller scenen ekstra stemning med vores professionelle røgmaskine Martin Magnum 650.',
 		bookEquipment: 'Book pakker'
 	},
 	// Pricing
@@ -186,7 +189,8 @@ const t = {
 		formSubmit: 'Send anmodning',
 		formSubmitting: 'Sender...',
 		formRequiredError: 'Udfyld venligst alle påkrævede felter.',
-		formErrorSubmit: 'Noget gik galt under afsendelsen af din anmodning. Prøv igen, eller skriv til os direkte på e-mail.',
+		formErrorSubmit:
+			'Noget gik galt under afsendelsen af din anmodning. Prøv igen, eller skriv til os direkte på e-mail.',
 		formErrorTurnstile: 'Sikkerhedsbekræftelsen mislykkedes. Prøv venligst igen.',
 		formErrorRateLimited: 'For mange anmodninger. Vent et par minutter, og prøv igen.',
 		lockedFieldNote: 'Genereret automatisk på grund af en fejl. Feltet kan ikke redigeres.',
@@ -202,7 +206,8 @@ const t = {
 		errorDetailComments: 'Kommentarer',
 		successTitle: 'Anmodning om tilbud sendt!',
 		successText1: 'Hej',
-		successText2: 'vi har modtaget din anmodning. Vores tekniske team i Malaga gennemgår den og kontakter dig på e-mail (',
+		successText2:
+			'vi har modtaget din anmodning. Vores tekniske team i Malaga gennemgår den og kontakter dig på e-mail (',
 		successText3: ') hurtigst muligt.',
 		successButton: 'Send en ny anmodning',
 		faqTitle: 'Ofte stillede spørgsmål'
@@ -211,7 +216,8 @@ const t = {
 	packages: {
 		badge: 'Udvalgte pakker',
 		title: 'Vælg din perfekte pakke',
-		subtitle: 'Skræddersyet til enhver lejlighed. Alle pakker inkluderer transport, opsætning og teknisk support på stedet.',
+		subtitle:
+			'Skræddersyet til enhver lejlighed. Alle pakker inkluderer transport, opsætning og teknisk support på stedet.',
 		enquire: 'Få et tilbud'
 	},
 	// How It Works
@@ -221,11 +227,13 @@ const t = {
 		s1Title: 'Vælg din pakke',
 		s1Desc: 'Gennemse vores pakker, og vælg den, der passer til dit events størrelse og stil.',
 		s2Title: 'Anmod om et tilbud',
-		s2Desc: 'Udfyld vores hurtige formular. Vi svarer hurtigst muligt med fuld oversigt over ledighed.',
+		s2Desc:
+			'Udfyld vores hurtige formular. Vi svarer hurtigst muligt med fuld oversigt over ledighed.',
 		s3Title: 'Bekræft og planlæg',
 		s3Desc: 'Vores team bekræfter logistik, adgang til lokalet og alle tekniske detaljer.',
 		s4Title: 'Nyd dit event',
-		s4Desc: 'Vi leverer, sætter op og tester det hele, og henter det hele igen efter dit event. Nul stress for dig.'
+		s4Desc:
+			'Vi leverer, sætter op og tester det hele, og henter det hele igen efter dit event. Nul stress for dig.'
 	},
 	// Pricing Preview
 	pricingPreview: {
@@ -333,7 +341,8 @@ const t = {
 		listings: 'Fortegnelser',
 		onlinePresence: 'Online tilstedeværelse',
 		moreInformation: 'Mere information',
-		moreInfoText: 'Har du brug for flere detaljer? Kontakt os for information om vores udlejning af eventudstyr, priser og ledighed.',
+		moreInfoText:
+			'Har du brug for flere detaljer? Kontakt os for information om vores udlejning af eventudstyr, priser og ledighed.',
 		tel: 'Tlf.',
 		clickToChat: 'Klik for at chatte',
 		emails: 'E-mails',
@@ -390,7 +399,8 @@ const t = {
 			wedding: 'Vælg {name}: professionel lyd og romantisk belysning til jeres store dag.',
 			'basic-mice': 'Vælg {name}: klar lyd og billede til ledelsesmøder og konferencer.',
 			mice: 'Vælg {name}: førsteklasses LED-skærm, lyd og en tekniker på stedet.',
-			'product-presentation': 'Vælg {name}: lysstærk projektor, lærred og lyd til præsentationer, der gør indtryk.',
+			'product-presentation':
+				'Vælg {name}: lysstærk projektor, lærred og lyd til præsentationer, der gør indtryk.',
 			eco: 'Vælg {name}: god lyd og stemningsbelysning til op til {guests} gæster.'
 		},
 		priceFrom: 'Fra {price}',
@@ -410,7 +420,8 @@ const t = {
 	errorPage: {
 		notFoundHeading: 'Siden blev ikke fundet',
 		genericHeading: 'Noget gik galt',
-		notFoundBody: 'Siden, du leder efter, findes ikke eller er blevet flyttet. Start fra forsiden, eller kontakt os.',
+		notFoundBody:
+			'Siden, du leder efter, findes ikke eller er blevet flyttet. Start fra forsiden, eller kontakt os.',
 		genericBody:
 			'Vi stødte på et problem under behandlingen af din anmodning. Gå tilbage til forsiden, eller kontakt os, så løser vi det.',
 		contactUs: 'Kontakt os',

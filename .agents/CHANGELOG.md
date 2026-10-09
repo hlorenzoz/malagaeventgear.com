@@ -7,6 +7,15 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (home): cifras de "Our Impact in Numbers" leidas de su fuente, en los 13 idiomas (2026-10-09)
+- Tarea #T0097 (origen: Local Dominator, Site Audit del 2026-10-05). Las tres tarjetas estaban escritas a mano en `src/routes/(public)/+page.svelte` ("27+", "2,500+", "+95%") y contradecian `siteConfig` y `/about-us/`: fundacion en 1996 (30 años, no 27), 1.000 clientes, y el 95% no tenia ninguna fuente.
+- Decision del usuario (2026-10-09): la cifra de clientes nunca se conto, es un aproximado y queda en "1,000+". La satisfaccion recien se empieza a medir con las reseñas, asi que no se publica un porcentaje. Los años se escriben como "Since 1996".
+- Tarjeta 1: "Since 1996 / In the audiovisual industry", con el año de `siteConfig.foundingYear`. Tarjeta 2: `siteConfig.clientCount` con `formatNumber` ("1,000+", "1.000+" en aleman). Tarjeta 3: la nota media y la cantidad de reseñas de Google (`getReviewsMeta()`), "5.0 / Google rating (8 reviews)", con `formatRating` nuevo en `src/lib/i18n/format.ts` ("5,0" en aleman y frances).
+- Diccionarios: en el grupo `impact` de los 13 `src/lib/i18n/messages/<locale>.ts`, `years` y `satisfaction` pasan a `since` (con `{year}`), `industry` y `rating` (con `{n}`). El año va grande y las palabras de `since` se reparten: lo que va antes queda arriba, lo que sigue queda junto al año ("自 1996 年起").
+- Las tres tarjetas se alinean abajo (`flex flex-col justify-end`) para que los numeros queden a la misma altura en escritorio, donde la primera tiene una linea mas. Comprobado en el navegador a 500 y 1280 px.
+- Tests: `src/lib/i18n/home-impact.test.ts` (ninguna cifra escrita a mano, cada una leida de su fuente, las tres etiquetas con sus tokens en los 13 idiomas), `formatRating` en `format.test.ts` y `tests/home-impact.spec.ts` (home inglesa y alemana).
+- Frescura: `contentUpdated` de la home y `updated` de sus 12 copias de idioma pasan a 2026-10-09.
+
 ### Changed (blog): audio-visual-hire-near-me-in-malaga-spain, enlace a la ficha de Google Maps (2026-10-09)
 - Cierre de la tarea #T0100 (origen: Local Dominator, Site Audit del 2026-10-05). El enlace del texto "5 star reviews" era un tercer enlace corto, `share.google/XZezNAA0ENMEfzZdW`. Comprobado en un navegador: redirige a la misma entidad de Google que los otros dos (`kgmid=/g/11lzwbvtxp`), es decir, a la ficha de MEG.
 - Pasa a `https://www.google.com/maps?cid=1378227528097734863`, el mismo de `siteConfig.googleBusinessProfile`, en el post ingles y en sus 12 traducciones. Ya no queda ningun enlace `share.google` en `src/`.

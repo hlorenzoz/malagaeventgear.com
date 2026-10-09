@@ -47,7 +47,8 @@ const t = {
 		titlePart1: '馬拉加視聽器材',
 		titleGradient: '租借',
 		titlePart2: '服務',
-		subtitle: '透過我們的頂級器材，體驗清晰音效與璀璨燈光，是太陽海岸婚禮、企業活動及尊尚派對的完美之選。',
+		subtitle:
+			'透過我們的頂級器材，體驗清晰音效與璀璨燈光，是太陽海岸婚禮、企業活動及尊尚派對的完美之選。',
 		viewPricing: '查看價格',
 		contactUs: '聯絡我們'
 	},
@@ -64,7 +65,8 @@ const t = {
 	overview: {
 		badge: '一覽重點',
 		sellQ: '我們提供什麼服務？',
-		sellA: '我們為馬拉加及太陽海岸地區的各類活動提供頂級視聽器材租借服務，包括專業音響系統、舞台燈光、投影機與熒幕，並提供運送、搭建及現場技術支援。',
+		sellA:
+			'我們為馬拉加及太陽海岸地區的各類活動提供頂級視聽器材租借服務，包括專業音響系統、舞台燈光、投影機與熒幕，並提供運送、搭建及現場技術支援。',
 		whoQ: '適合什麼人使用？',
 		whoA: '適合籌備婚禮的新人、舉辦會議與企業活動的公司，以及希望擁有完美音效與燈光，而毋須購買器材的派對或私人慶祝活動主辦人。',
 		costQ: '費用是多少？',
@@ -76,16 +78,18 @@ const t = {
 	// Impact
 	impact: {
 		title: '我們的成績數字',
-		years: '年經驗',
+		since: '自 {year} 年起',
+		industry: '深耕視聽行業',
 		clients: '滿意客戶',
-		satisfaction: '滿意度'
+		rating: 'Google 評分（{n} 則評論）'
 	},
 	// Categories
 	categories: {
 		badge: '頂級器材',
 		title: '可供選擇的器材類別',
 		soundTitle: '音響系統',
-		soundText: '清晰逼真的高保真音效，無論是溫馨婚禮還是大型企業會議都能完美呈現。我們選用頂尖品牌，確保最佳音效質素。',
+		soundText:
+			'清晰逼真的高保真音效，無論是溫馨婚禮還是大型企業會議都能完美呈現。我們選用頂尖品牌，確保最佳音效質素。',
 		lightTitle: '燈光',
 		lightText: '多變的燈光方案，為您的活動場地營造完美氣氛。',
 		visualTitle: '投影機與熒幕',
@@ -154,7 +158,8 @@ const t = {
 	contact: {
 		badge: '24小時全天候即時回覆',
 		title: '聯絡我們',
-		subtitle: '準備好提升您的活動水準？請聯絡我們的技術團隊，索取度身訂造報價、查詢器材可預約狀況，並獲取專業意見。',
+		subtitle:
+			'準備好提升您的活動水準？請聯絡我們的技術團隊，索取度身訂造報價、查詢器材可預約狀況，並獲取專業意見。',
 		detailsTitle: '聯絡資料',
 		phone: '電話',
 		whatsapp: 'WhatsApp',
@@ -270,7 +275,8 @@ const t = {
 		errorTurnstile: '安全驗證失敗，請重試。',
 		errorRateLimited: '請求次數過多，請稍候幾分鐘後再試。',
 		emailFailTitle: '確認電郵未能寄出',
-		emailFailBody: '您的申請已儲存，但我們的電郵系統寄送失敗。請直接與我們的團隊聯絡，以免遺漏您的查詢。',
+		emailFailBody:
+			'您的申請已儲存，但我們的電郵系統寄送失敗。請直接與我們的團隊聯絡，以免遺漏您的查詢。',
 		emailFailAction: '聯絡團隊',
 		emailFailDismiss: '關閉',
 		countryCode: '國碼',
