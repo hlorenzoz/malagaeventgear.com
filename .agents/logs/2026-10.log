@@ -195,3 +195,31 @@
 2026-10-08 12:21 | demanda | todo-implementer | commit | hash=15a3c71d subject="chore(keywords): sync after #T0096 smoke-machine-rental" task=#T0096 slug=smoke-machine-rental
 2026-10-08 12:21 | auto | todo-commit | commit | hash=e775ba42 subject="chore(todo): close #T0096 smoke-machine-rental" file=.agents/data/TODO.json
 2026-10-08 12:23 | auto | todo-commit | commit | hash=8304e63a subject="chore(todo): add Local Dominator site audit tasks T0097 to T0105" file=.agents/data/TODO.json
+2026-10-08 12:41 | auto | todo-commit | commit | hash=74456be0 subject="chore(todo): note on T0100, both share.google links resolve to the same profile" file=.agents/data/TODO.json
+2026-10-08 12:51 | auto | todo-commit | commit | hash=413273b7 subject="chore(todo): T0100 in progress, profile link unified in siteConfig" file=.agents/data/TODO.json
+2026-10-08 12:59 | auto | todo-commit | commit | hash=359aa6be subject="chore(todo): add T0106, compact Google reviews carousel under package CTAs" file=.agents/data/TODO.json
+2026-10-08 14:04 | demanda | post-translator | step-failed | slug=audio-visual-rental-companies step=finish reason="build failed (exit 1), nothing was committed"
+2026-10-08 14:08 | demanda | post-translator | step-failed | slug=audio-visual-rental-companies step=finish reason="vitest run scripts src/lib failed (exit 1), nothing was committed"
+2026-10-08 14:40 | demanda | post-translator | commit | slug=audio-visual-rental-companies hash=d7068f22 subject="feat(blog): 2 FAQ questions from AI prompts (#T0094), comparing AV rental prices and the languages MEG works in" files=30
+2026-10-08 14:40 | demanda | todo-implementer | commit | hash=66312708 subject="chore(keywords): sync after #T0094 audio-visual-rental-companies" task=#T0094 slug=audio-visual-rental-companies
+2026-10-08 14:40 | auto | todo-commit | commit | hash=a7721ff5 subject="chore(todo): close #T0094 audio-visual-rental-companies" file=.agents/data/TODO.json
+2026-10-08 15:03 | demanda | post-translator | commit | slug=audio-system-calibration hash=161f04b0 subject="feat(blog): audio-system-calibration, 2 FAQ questions from AI prompts (#T0090), DJ or live music and who calibrates" files=17
+2026-10-08 15:03 | demanda | todo-implementer | commit | hash=9a426255 subject="chore(keywords): sync after #T0090 audio-system-calibration" task=#T0090 slug=audio-system-calibration
+2026-10-08 15:03 | auto | todo-commit | commit | hash=e6a0fa25 subject="chore(todo): close #T0090 audio-system-calibration" file=.agents/data/TODO.json
+2026-10-08 16:00 | demanda | post-translator | commit | slug=pros-and-cons-of-wedding-rentals hash=3dcd4444 subject="feat(blog): 2 FAQ questions from AI prompts (#T0095), Wedding Pack for a luxury wedding and for a winter wedding" files=30
+2026-10-08 16:00 | demanda | todo-implementer | commit | hash=885adf98 subject="chore(keywords): sync after #T0095 pros-and-cons-of-wedding-rentals" task=#T0095 slug=pros-and-cons-of-wedding-rentals
+2026-10-08 16:00 | auto | todo-commit | commit | hash=d203fe4a subject="chore(todo): close #T0095 pros-and-cons-of-wedding-rentals" file=.agents/data/TODO.json
+2026-10-09 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-09 09:32 | auto | ubersuggest-analyst | commit | hash=e64957e8 subject="chore(keywords): daily Ubersuggest research 2026-10-09" file=.agents/context/keywords/ubersuggest/2026-10-09.json
+2026-10-09 09:32 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-09.json keywords=0 faqs=0 ai_prompts=68 discarded=2 status=partial minutes=2.6
+2026-10-09 09:34 | auto | faq-researcher | commit | hash=a6f68a70 subject="chore(keywords): daily FAQ research 2026-10-09" file=.agents/context/keywords/faqs/2026-10-09.json
+2026-10-09 09:34 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-09.json suggestions=0 status=partial minutes=2.1
+2026-10-09 09:35 | auto | content-strategist | commit | hash=ca7fdac7 subject="chore(keywords): daily content plan 2026-10-09" file=.agents/context/keywords/content-plan/2026-10-09.json
+2026-10-09 09:35 | auto | todo-commit | commit | hash=f4c1bfdc subject="chore(todo): add tasks from the content plan 2026-10-09" file=.agents/data/TODO.json
+2026-10-09 09:35 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-09.json items=7 add-section=0 new-post=0 add-faq=1 skip=6 minutes=1.0
+2026-10-09 09:35 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-09 09:35 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=5.8
+2026-10-09 10:06 | demanda | post-translator | commit | slug=audio-visual-rental-for-conferences hash=4ce13084 subject="feat(blog): audio-visual-rental-for-conferences, AV equipment checklist section from AI prompts (#T0088)" files=16
+2026-10-09 10:06 | auto | todo-commit | commit | hash=29950fe4 subject="chore(todo): close #T0088 audio-visual-rental-for-conferences" file=.agents/data/TODO.json
+2026-10-09 10:35 | auto | todo-commit | commit | hash=57699746 subject="chore(todo): add pending confirmations and decisions from the AI prompts batch" file=.agents/data/TODO.json
+2026-10-09 14:14 | auto | todo-commit | commit | hash=4466993c subject="chore(todo): close T0100, T0077 in progress and pending notes" file=.agents/data/TODO.json
