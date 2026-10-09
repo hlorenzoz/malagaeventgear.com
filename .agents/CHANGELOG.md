@@ -7,6 +7,15 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Added (blog): tira angosta de reseñas de Google dentro de cada CTA de paquete (2026-10-09)
+- Tarea #T0106 (pedido del usuario, 2026-10-08): debajo de cada CTA de paquete, un scroll horizontal con las reseñas de Google, mas estrecho que la seccion de reseñas.
+- Componente nuevo `src/lib/components/testimonials/ReviewsStrip.svelte`: una linea de resumen (nota, estrellas, "Based on N reviews" y el enlace "See all reviews" a `siteConfig.googleBusinessProfile`) y una fila de tarjetas chicas con scroll horizontal nativo (`overflow-x` con snap, sin JavaScript propio). Mismos datos que `Testimonials.svelte` (`getTestimonials`, `getReviewsMeta`). Mide 169 px de alto, en escritorio y en movil.
+- Se monta dentro de `PostCTA.svelte`, asi que sale en los dos CTA de cada post (el del cuerpo, via `InlineCTA`, y el del final) y en los 13 idiomas. Se quito de `BlogPost.svelte` el carrusel grande que cerraba el post (`Testimonials` compacto, unos 700 px): la tira lo reemplaza.
+- Las reseñas van en el HTML servido, en su idioma original y con su `lang`, nunca traducidas. El chrome reutiliza textos que ya existian en el diccionario `testimonials` (`basedOn`, `seeAll`, `badge`, `outOfFiveStars`): no hay textos nuevos que traducir. Sin marcado de reseñas en el JSON-LD.
+- Accesibilidad: la fila es alcanzable con teclado (`tabindex="0"`, `role="group"` con etiqueta), el enlace tiene 44 px de alto de zona tactil, y una reseña larga se lee con scroll dentro de su tarjeta en vez de cortarse. Comprobado en el navegador en tema oscuro y claro, a 1280 y 400 px, sin desbordar la pagina.
+- Tests: `tests/post-cta-reviews.spec.ts` (6 casos: la tira en cada CTA con todas las reseñas, alto menor de 260 px y sin el bloque grande, scroll lateral sin ensanchar la pagina, nota y enlace al perfil, reseñas en el HTML sin JavaScript, post aleman con reseñas sin traducir y chrome traducido). Pasan tambien `blog.spec.ts`, `share.spec.ts`, `blog-translations.spec.ts` y `blog-image-sizes.spec.ts`.
+- Sin medir con Lighthouse. El cambio quita el JavaScript del carrusel de los posts y no agrega imagenes.
+
 ### Fixed (home): las reseñas de Google van en el HTML servido (2026-10-09)
 - Tarea #T0098 (origen: Local Dominator, Site Audit del 2026-10-05, que marcaba como ausentes las reseñas visibles en la pagina). La home las montaba con `LazyMount` y un import dinamico, asi que el texto solo existia despues de ejecutar JavaScript y hacer scroll: el HTML prerenderizado no tenia ninguna tarjeta. Las reseñas visibles en la pagina de destino del GBP son la señal 5 de `.agents/context/local-seo/local-seo-gbp-first.md`.
 - `src/routes/(public)/+page.svelte`: `Testimonials` se importa de forma estatica y se renderiza en el servidor, dentro de un contenedor con `content-visibility: auto` y `contain-intrinsic-size: auto 760px` (el navegador no lo maqueta hasta que se acerca a la pantalla, y el tamaño reservado evita saltos). Vale para los 13 idiomas: las 7 tarjetas salen en el HTML de `/` y de `/zh-hans/`, cada una en su idioma original con su `lang`.

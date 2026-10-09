@@ -148,15 +148,22 @@
 
 <div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop py-16 md:py-24">
 	<!-- 3-col grid: [packages | content | toc] on desktop; single col on mobile -->
-	<div class="lg:grid lg:grid-cols-[minmax(0,210px)_minmax(0,1fr)_minmax(0,240px)] lg:gap-10 lg:items-start">
-
+	<div
+		class="lg:grid lg:grid-cols-[minmax(0,210px)_minmax(0,1fr)_minmax(0,240px)] lg:gap-10 lg:items-start"
+	>
 		<!-- ── Col 1: Packages Rail (desktop only, sticky) ── -->
 		<aside
 			class="hidden lg:block lg:sticky lg:top-24 lg:self-start lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto"
 			aria-label={i18n.t.blog.packagesSidebarAria}
 		>
 			<PackagesRail packages={railPackages} />
-			<ShareThis mode="sidebar" visible={isTopVisible} url={canonicalUrl} title={post.title} coverImage={post.coverImage} />
+			<ShareThis
+				mode="sidebar"
+				visible={isTopVisible}
+				url={canonicalUrl}
+				title={post.title}
+				coverImage={post.coverImage}
+			/>
 		</aside>
 
 		<!-- ── Col 2: Main content ── -->
@@ -174,7 +181,7 @@
 						class="w-full h-full object-cover"
 						loading="eager"
 						fetchpriority="high"
-					/>
+					>
 				</div>
 			{/if}
 
@@ -194,15 +201,22 @@
 					</div>
 				{/if}
 
-				<h1 class="font-display-lg text-[2.25rem] sm:text-[2.75rem] md:text-[3.5rem] lg:text-[4rem] leading-[1.12] tracking-tight text-on-surface text-center mt-3 mb-8">
+				<h1
+					class="font-display-lg text-[2.25rem] sm:text-[2.75rem] md:text-[3.5rem] lg:text-[4rem] leading-[1.12] tracking-tight text-on-surface text-center mt-3 mb-8"
+				>
 					{post.title}
 				</h1>
 
 				<!-- Meta: author + date -->
-				<div class="flex flex-wrap items-center justify-center gap-4 text-on-surface-variant font-body-sm text-body-sm">
+				<div
+					class="flex flex-wrap items-center justify-center gap-4 text-on-surface-variant font-body-sm text-body-sm"
+				>
 					<span>
 						{i18n.t.blog.byAuthor}
-						<a href={i18n.href(`/blog/author/${authorSlug}/`)} class="text-electric-blue hover:underline ml-1">
+						<a
+							href={i18n.href(`/blog/author/${authorSlug}/`)}
+							class="text-electric-blue hover:underline ml-1"
+						>
 							{post.author}
 						</a>
 					</span>
@@ -225,7 +239,12 @@
 
 			<!-- Share Widget (Top, inline) -->
 			<div bind:this={topShareEl}>
-				<ShareThis mode="inline" url={canonicalUrl} title={post.title} coverImage={post.coverImage} />
+				<ShareThis
+					mode="inline"
+					url={canonicalUrl}
+					title={post.title}
+					coverImage={post.coverImage}
+				/>
 			</div>
 
 			<!-- Post Body (mdsvex content rendered via children snippet) -->
@@ -238,7 +257,9 @@
 				<footer class="mt-12 pt-8 border-t border-border-glass">
 					<div class="flex flex-wrap gap-2">
 						{#each tags as tag}
-							<span class="px-3 py-1 rounded-full text-xs font-label-sm bg-surface-container-low border border-border-glass text-on-surface-variant">
+							<span
+								class="px-3 py-1 rounded-full text-xs font-label-sm bg-surface-container-low border border-border-glass text-on-surface-variant"
+							>
 								{tag}
 							</span>
 						{/each}
@@ -248,9 +269,6 @@
 
 			<!-- Post CTA (package-driven, copy in the page language) -->
 			<PostCTA pkg={resolvedPackage} />
-
-			<!-- Compact Testimonials carousel (no heading) -->
-			<Testimonials variant="carousel" heading={false} compact />
 		</article>
 
 		<!-- ── Col 3: Table of Contents (desktop only, sticky) ── -->
@@ -260,13 +278,18 @@
 		>
 			<TableOfContents toc={post.toc} />
 		</aside>
-
 	</div>
 </div>
 
 <!-- Mobile FAB and Drawer Share (hidden on lg+) -->
 <div class="lg:hidden">
-	<ShareThis mode="drawer" visible={isTopVisible} url={canonicalUrl} title={post.title} coverImage={post.coverImage} />
+	<ShareThis
+		mode="drawer"
+		visible={isTopVisible}
+		url={canonicalUrl}
+		title={post.title}
+		coverImage={post.coverImage}
+	/>
 </div>
 
 <ClickToTweet url={canonicalUrl} title={post.title} />
@@ -289,9 +312,9 @@
 	}
 
 	:global(.faq-item) {
-		border: 1px solid var(--color-border-glass, rgba(255,255,255,0.1));
+		border: 1px solid var(--color-border-glass, rgba(255, 255, 255, 0.1));
 		border-radius: 12px;
-		background: var(--color-surface-container-low, rgba(255,255,255,0.04));
+		background: var(--color-surface-container-low, rgba(255, 255, 255, 0.04));
 		backdrop-filter: blur(8px);
 		margin-bottom: 0.75rem;
 		overflow: hidden;
@@ -299,7 +322,7 @@
 	}
 
 	:global(.faq-item:hover) {
-		border-color: rgba(59,130,246,0.4);
+		border-color: rgba(59, 130, 246, 0.4);
 	}
 
 	:global(.faq-q) {
@@ -323,7 +346,7 @@
 
 	/* Chevron via pseudo-element */
 	:global(.faq-q::after) {
-		content: '';
+		content: "";
 		display: inline-block;
 		width: 0.5em;
 		height: 0.5em;
@@ -360,8 +383,8 @@
 		margin: 1.5rem 0 2rem;
 		padding: 1.25rem 1.5rem;
 		border-radius: 12px;
-		border: 1px solid var(--color-border-glass, rgba(255,255,255,0.1));
-		background: var(--color-surface-container-low, rgba(255,255,255,0.04));
+		border: 1px solid var(--color-border-glass, rgba(255, 255, 255, 0.1));
+		background: var(--color-surface-container-low, rgba(255, 255, 255, 0.04));
 		backdrop-filter: blur(8px);
 	}
 
@@ -406,18 +429,14 @@
 		margin: 2rem 0;
 		padding: 1.5rem;
 		border-radius: 16px;
-		border: 1px solid var(--color-border-glass, rgba(255,255,255,0.1));
-		background: var(--color-surface-container-low, rgba(255,255,255,0.04));
+		border: 1px solid var(--color-border-glass, rgba(255, 255, 255, 0.1));
+		background: var(--color-surface-container-low, rgba(255, 255, 255, 0.04));
 		backdrop-filter: blur(12px);
 	}
 
 	:global(.section-card--highlights) {
 		border-color: rgba(59, 130, 246, 0.35);
-		background: linear-gradient(
-			135deg,
-			rgba(59, 130, 246, 0.07) 0%,
-			rgba(139, 92, 246, 0.05) 100%
-		);
+		background: linear-gradient(135deg, rgba(59, 130, 246, 0.07) 0%, rgba(139, 92, 246, 0.05) 100%);
 	}
 
 	:global(.section-card-title) {
@@ -566,7 +585,7 @@
 	}
 
 	:global(.prose hr) {
-		border-color: var(--color-border-glass, rgba(255,255,255,0.1));
+		border-color: var(--color-border-glass, rgba(255, 255, 255, 0.1));
 		margin: 2.5rem 0;
 	}
 

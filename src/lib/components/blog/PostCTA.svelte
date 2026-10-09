@@ -3,6 +3,7 @@
 	import { packageImageVariant } from '$lib/assets/package-images';
 	import { i18n } from '$lib/i18n.svelte';
 	import { postCtaCopy } from './post-cta-copy';
+	import ReviewsStrip from '$lib/components/testimonials/ReviewsStrip.svelte';
 
 	let {
 		pkg
@@ -15,11 +16,7 @@
 	let copy = $derived(postCtaCopy(pkg, i18n.t, i18n.lang));
 </script>
 
-<aside
-	class="post-cta"
-	data-testid="post-cta"
-	aria-label={copy.aria}
->
+<aside class="post-cta" data-testid="post-cta" aria-label={copy.aria}>
 	<div class="post-cta-inner">
 		<!-- Package image -->
 		{#if pkg.image}
@@ -28,7 +25,10 @@
 				     80px: a DPR 1 el navegador elige 96w, a DPR 1.75 o 2 elige 160w. -->
 				<img
 					src={packageImageVariant(pkg.image, 'thumb')}
-					srcset="{packageImageVariant(pkg.image, 'thumb-sm')} 96w, {packageImageVariant(pkg.image, 'thumb')} 160w"
+					srcset="{packageImageVariant(pkg.image, 'thumb-sm')} 96w, {packageImageVariant(
+						pkg.image,
+						'thumb'
+					)} 160w"
 					sizes="80px"
 					alt={pkg.name}
 					width="80"
@@ -36,7 +36,7 @@
 					loading="lazy"
 					decoding="async"
 					class="post-cta-img"
-				/>
+				>
 			</div>
 		{/if}
 
@@ -44,16 +44,17 @@
 		<div class="post-cta-body">
 			<p class="post-cta-headline">{copy.headline}</p>
 			<p class="post-cta-subline">{copy.subline}</p>
-			<p class="post-cta-price">{copy.price.before}<strong>{copy.price.amount}</strong>{copy.price.after}{i18n.space}<span>{copy.vat}</span></p>
+			<p class="post-cta-price">
+				{copy.price.before}<strong>{copy.price.amount}</strong>{copy.price.after}{i18n.space}<span
+					>{copy.vat}</span
+				>
+			</p>
 
 			<!-- CTAs -->
 			<div class="post-cta-actions">
-				<a
-					href={i18n.href(pkg.route)}
-					class="post-cta-btn-primary"
-					data-testid="post-cta-primary"
-				>
-					{copy.view} →
+				<a href={i18n.href(pkg.route)} class="post-cta-btn-primary" data-testid="post-cta-primary">
+					{copy.view}
+					→
 				</a>
 				<a
 					href={i18n.href('/contact/')}
@@ -65,6 +66,9 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Google reviews, as a narrow strip (user request, 2026-10-08). -->
+	<ReviewsStrip />
 </aside>
 
 <style>
@@ -72,11 +76,7 @@
 		margin: 2.5rem 0;
 		border-radius: 16px;
 		border: 1px solid rgba(59, 130, 246, 0.3);
-		background: linear-gradient(
-			135deg,
-			rgba(59, 130, 246, 0.08) 0%,
-			rgba(139, 92, 246, 0.06) 100%
-		);
+		background: linear-gradient(135deg, rgba(59, 130, 246, 0.08) 0%, rgba(139, 92, 246, 0.06) 100%);
 		backdrop-filter: blur(12px);
 		overflow: hidden;
 	}
