@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-09",
+  "run": {
+    "status": "partial",
+    "reason": "No returned phrase started with an English question word. One seed (audio visual rental for religious events) failed in the tool.",
+    "calls": [
+      {
+        "tool": "google_suggestions",
+        "args": "10 seeds, language en, country es",
+        "outcome": "ok"
+      }
+    ]
+  },
+  "suggestions": []
+}
