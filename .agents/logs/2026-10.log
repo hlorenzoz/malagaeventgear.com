@@ -223,3 +223,8 @@
 2026-10-09 10:06 | auto | todo-commit | commit | hash=29950fe4 subject="chore(todo): close #T0088 audio-visual-rental-for-conferences" file=.agents/data/TODO.json
 2026-10-09 10:35 | auto | todo-commit | commit | hash=57699746 subject="chore(todo): add pending confirmations and decisions from the AI prompts batch" file=.agents/data/TODO.json
 2026-10-09 14:14 | auto | todo-commit | commit | hash=4466993c subject="chore(todo): close T0100, T0077 in progress and pending notes" file=.agents/data/TODO.json
+2026-10-09 15:07 | auto | todo-commit | commit | hash=8975f6e1 subject="chore(todo): T0097 in progress, home impact figures read from their sources" file=.agents/data/TODO.json
+2026-10-09 15:13 | auto | todo-commit | commit | hash=ad1907af subject="chore(todo): close T0097" file=.agents/data/TODO.json
+2026-10-09 15:28 | auto | todo-commit | commit | hash=d4f4d9b4 subject="chore(todo): close T0098" file=.agents/data/TODO.json
+2026-10-09 15:44 | auto | todo-commit | commit | hash=7b063222 subject="chore(todo): close T0106" file=.agents/data/TODO.json
+2026-10-09 16:54 | auto | todo-commit | commit | hash=cb530fbe subject="chore(todo): close T0033, split the silo guard defect into its own task" file=.agents/data/TODO.json
