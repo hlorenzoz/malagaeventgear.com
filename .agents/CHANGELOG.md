@@ -7,6 +7,16 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): "Malaga, Spain" en la primera mencion de los posts que faltaban, en los 13 idiomas (2026-10-09)
+- Tarea #T0018, parte de posts (regla de CLAUDE.md seccion 5: la primera mencion geografica de Malaga en el cuerpo nombra el pais, y la meta description tambien cuando entra en 160 caracteres). Estado medido con un script sobre los 79 posts publicados en los 13 idiomas: faltaba en 10 posts en todos los idiomas, en 1 post en 9 idiomas y en 6 posts solo en ingles.
+- En los 13 idiomas: `audiovisual-equipment-rental-service`, `event-technology-service`, `headset-lavalier-microphone-rental`, `smoke-machine-rental`, `stage-lighting-rental`, `stage-uplighting`, `tips-for-reducing-wedding-rental-costs`, `unique-wedding-ceremony-rentals`, `wedding-rentals` y `wedding-rentals-near-me`. Cada idioma con su forma: "Malaga, en Espagne", "Malaga, in Spagna", "Malaga, Spanien", "Malaga, Spanje", "Málaga, Espanha", "Malaga, Spania" y "西班牙马拉加" o "西班牙馬拉加". En cada traduccion se aplico a SU primera mencion, que no siempre esta en la misma frase que en ingles.
+- `how-to-choose-wedding-rentals`: el ingles ya cumplia. En las 9 traducciones de escritura latina el pais estaba en una frase posterior y no en la primera mencion: se movio a la primera y se quito de la segunda, para no repetirlo.
+- Solo en ingles (sus traducciones ya cumplian): `av-cable-management`, `av-equipment-consultations`, `av-system-troubleshooting` y `stage-monitor-rental`, mas el texto del enlace al pilar en `audio-system-calibration` y `audio-visual-rental-planning-timeline`.
+- Meta description: se agrego el pais solo donde el resultado queda en 160 caracteres o menos. En ingles, en 4 posts (`headset-lavalier-microphone-rental`, `event-technology-service`, `wedding-rentals`, `wedding-rentals-near-me`). En las traducciones varia por idioma, y las que pasaban de 160 se dejaron igual.
+- Sin tocar fechas: aclarar el pais no es un cambio de contenido (regla 11), asi que `updatedDate` y `sourceUpdated` no se movieron, ni tampoco titulos ni `excerpt`. `just post-translations-status` sigue completo.
+- Pendiente de #T0018: la pasada sobre paginas y paquetes (`src/routes/(public)/**/i18n/*.ts`, `packages.ts`, `src/lib/i18n/data/<locale>.ts`), que no se hizo aca.
+- Defecto viejo encontrado, sin tocar: el titulo frances de `unique-wedding-ceremony-rentals` mide 67 caracteres y `just post-translate-check` lo rechaza (maximo 65). No lo causo este cambio.
+
 ### Changed (home): las reseñas pasan debajo de los precios y el partner debajo de las reseñas (2026-10-09)
 - Pedido del usuario (2026-10-09). En `src/routes/(public)/+page.svelte` el orden era precios ("Transparent Pricing"), partner de hoteles para grupos (Top Group Express) y reseñas de Google ("Client Reviews"). Ahora es precios, reseñas y partner. Solo se movieron los dos bloques: no cambia ningun texto, y vale para los 13 idiomas.
 - Test nuevo en `tests/testimonials.spec.ts` que comprueba ese orden en el DOM. Es un cambio de orden, no de contenido: no se movio ninguna fecha de frescura.

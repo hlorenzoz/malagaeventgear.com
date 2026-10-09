@@ -1,6 +1,6 @@
 ---
 title: "Uthyrning till bröllop nära mig, Malaga"
-description: "Uthyrning till bröllop nära mig i Malaga: Malaga Event Gear levererar ljud, ljus och mikrofoner direkt till din lokal. Inget showroom, bara leverans."
+description: "Uthyrning till bröllop nära mig i Malaga, Spanien: Malaga Event Gear levererar ljud, ljus och mikrofoner direkt till din lokal. Inget showroom, bara leverans."
 excerpt: "\"Nära mig\" betyder inget showroom hos Malaga Event Gear. Vi levererar bara: ljudet, ljuset och mikrofonerna i Wedding Pack reser till din lokal, monteras, körs och hämtas igen, inte tvärtom."
 publishDate: "2026-09-26"
 sourceUpdated: "2026-09-25"
@@ -12,7 +12,7 @@ sourceUpdated: "2026-09-25"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Letar du efter uthyrning till bröllop nära mig i Malaga? För Malaga Event Gear betyder "nära mig" inte ett showroom du kan gå in i. Vi är ett audiovisuellt företag som bara levererar, utan butik att besöka. Det vi gör är att ta med ljudet, ljuset och mikrofonerna i [Wedding Pack](/packages/wedding/) till din lokal, montera det, köra det genom vigsel och mottagning, och sedan hämta det igen. För den fullständiga bilden av vad vi täcker för bröllop, se vår översikt [uthyrning till bröllop](/blog/wedding-rentals/).
+Letar du efter uthyrning till bröllop nära mig i Malaga, Spanien? För Malaga Event Gear betyder "nära mig" inte ett showroom du kan gå in i. Vi är ett audiovisuellt företag som bara levererar, utan butik att besöka. Det vi gör är att ta med ljudet, ljuset och mikrofonerna i [Wedding Pack](/packages/wedding/) till din lokal, montera det, köra det genom vigsel och mottagning, och sedan hämta det igen. För den fullständiga bilden av vad vi täcker för bröllop, se vår översikt [uthyrning till bröllop](/blog/wedding-rentals/).
 
 ## Kort översikt
 

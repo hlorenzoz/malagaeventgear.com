@@ -1,6 +1,6 @@
 ---
 title: "Wedding Rentals in Malaga, Spain | AV for Your Wedding Day"
-description: "Wedding rentals in Malaga: PA sound for up to 80 guests, wireless mics for vows, fairy light ambient lighting and a technician, from 650 euros ex VAT."
+description: "Wedding rentals in Malaga, Spain: PA sound for up to 80 guests, wireless mics for vows, fairy light ambient lighting and a technician, from 650 euros ex VAT."
 author: Hector Luis Lorenzo
 slug: wedding-rentals
 publishDate: 2026-01-06
@@ -21,7 +21,7 @@ targetPage: "/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for wedding rentals in Malaga? Malaga Event Gear provides the audio visual side of your day: PA sound for the ceremony and speeches, wireless microphones for vows, fairy light ambient lighting for the reception, and a live technician on site throughout, delivered, installed and tested by our own team.
+Looking for wedding rentals in Malaga, Spain? Malaga Event Gear provides the audio visual side of your day: PA sound for the ceremony and speeches, wireless microphones for vows, fairy light ambient lighting for the reception, and a live technician on site throughout, delivered, installed and tested by our own team.
 
 Backed by experience going back to 1996, we build our [Wedding Pack](/packages/wedding/) around what actually goes wrong at a wedding if nobody is watching it: a microphone that feeds back during the vows, or a sound system that doesn't reach the back row. A technician on site catches that before your guests notice.
 

@@ -13,7 +13,7 @@ sourceUpdated: "2026-10-07"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Está procurando locação para casamento em Málaga? A Malaga Event Gear cuida da parte audiovisual do seu dia: som PA para a cerimônia e os discursos, microfones sem fio para os votos, iluminação ambiente com varais de luzes para a recepção e um técnico no local do começo ao fim, tudo entregue, instalado e testado pela nossa própria equipe.
+Está procurando locação para casamento em Málaga, Espanha? A Malaga Event Gear cuida da parte audiovisual do seu dia: som PA para a cerimônia e os discursos, microfones sem fio para os votos, iluminação ambiente com varais de luzes para a recepção e um técnico no local do começo ao fim, tudo entregue, instalado e testado pela nossa própria equipe.
 
 Com uma experiência que vem desde 1996, montamos o nosso [Wedding Pack](/packages/wedding/) em torno do que realmente dá errado em um casamento quando ninguém está de olho: um microfone que dá microfonia durante os votos, ou um sistema de som que não chega à última fileira. Um técnico no local percebe o problema antes que os seus convidados notem.
 

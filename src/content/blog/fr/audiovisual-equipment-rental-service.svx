@@ -13,7 +13,7 @@ updatedDate: "2026-10-09"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Vous cherchez un loueur de matériel audiovisuel à Malaga ? Vous connaissez peut-être déjà notre article pilier sur la [location audiovisuelle](/blog/audio-visual-rental/), puisque les deux termes désignent le même service de base. Cette page existe pour une raison plus précise : réunir en un seul endroit la couche spécialisée de notre catalogue, à savoir la gamme de vidéoprojecteurs de 5000 lumens, les projecteurs RGBW, l'éclairage de scène spécialisé et l'uplighting, les systèmes de microphones sans fil et col de cygne, l'écran LED de 60 pouces et notre machine à fumée, et dire clairement ce qui n'en fait pas partie.
+Vous cherchez un loueur de matériel audiovisuel à Malaga, en Espagne ? Vous connaissez peut-être déjà notre article pilier sur la [location audiovisuelle](/blog/audio-visual-rental/), puisque les deux termes désignent le même service de base. Cette page existe pour une raison plus précise : réunir en un seul endroit la couche spécialisée de notre catalogue, à savoir la gamme de vidéoprojecteurs de 5000 lumens, les projecteurs RGBW, l'éclairage de scène spécialisé et l'uplighting, les systèmes de microphones sans fil et col de cygne, l'écran LED de 60 pouces et notre machine à fumée, et dire clairement ce qui n'en fait pas partie.
 
 Malaga Event Gear (MEG) livre, installe et teste lui-même chacun de ces équipements, à Malaga et sur toute la Costa del Sol, avec une expérience qui remonte à 1996. Rien de ce qui suit n'est une liste de souhaits. Chaque élément est soit une inclusion réelle d'un forfait avec un prix publié en euros, soit un "pas dans notre propre inventaire" assumé.
 

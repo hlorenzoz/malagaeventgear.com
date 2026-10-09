@@ -157,7 +157,7 @@ The checks themselves are the same, cables, gain, battery, input selection, but 
 
 ![An HK Audio speaker on a stand beside a red draped panel table, with a projection screen behind it, at a talk of the PROCURE heritage association in a historic hall in Coin, Malaga province.](https://cdn.malagaeventgear.com/blog/1307/lighting-sound-big-screen-projector-rental-malaga_4-1024x765.webp)
 
-Sound and a projection screen for a PROCURE talk in Coin, Malaga province. Once our crew leaves, this is the kind of setup a self run booking checks against, not a fault to troubleshoot from a cold start.
+Sound and a projection screen for a PROCURE talk in Coin, in the province of Malaga, Spain. Once our crew leaves, this is the kind of setup a self run booking checks against, not a fault to troubleshoot from a cold start.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1277/', '/1307/'])} speed="normal" direction="left" />

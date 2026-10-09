@@ -13,7 +13,7 @@ sourceUpdated: "2026-10-08"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Wer in Malaga eine Nebelmaschine mieten möchte, landet meist auf Seiten, die einfach die Maschine verkaufen. Diese Seite fängt woanders an, denn die Maschine ist der einfache Teil.
+Wer in Malaga, Spanien, eine Nebelmaschine mieten möchte, landet meist auf Seiten, die einfach die Maschine verkaufen. Diese Seite fängt woanders an, denn die Maschine ist der einfache Teil.
 
 Eine Nebelmaschine ist keine Dekoration. Sie hat genau einen Zweck: **Licht, das durch klare Luft fällt, ist unsichtbar**. Einen Lichtstrahl sehen Sie nur, wenn in der Luft etwas ist, auf das er treffen kann. Wer Licht ohne Nebel mietet, bekommt beleuchtete Flächen. Mit Nebel werden die Lichtstrahlen selbst sichtbar, und genau das ist der Look, den fast alle eigentlich im Kopf hatten.
 

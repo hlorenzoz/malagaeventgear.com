@@ -13,7 +13,7 @@ sourceUpdated: "2026-10-07"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Vous cherchez une location de matériel pour mariage à Malaga ? Malaga Event Gear s'occupe de la partie audiovisuelle de votre journée : la sonorisation de la cérémonie et des discours, des microphones sans fil pour les vœux, un éclairage d'ambiance en guirlandes lumineuses pour la réception et un technicien présent sur place du début à la fin, le tout livré, installé et testé par notre propre équipe.
+Vous cherchez une location de matériel pour mariage à Malaga, en Espagne ? Malaga Event Gear s'occupe de la partie audiovisuelle de votre journée : la sonorisation de la cérémonie et des discours, des microphones sans fil pour les vœux, un éclairage d'ambiance en guirlandes lumineuses pour la réception et un technicien présent sur place du début à la fin, le tout livré, installé et testé par notre propre équipe.
 
 Forts d'une expérience qui remonte à 1996, nous avons conçu notre [Wedding Pack](/packages/wedding/) autour de ce qui tourne vraiment mal lors d'un mariage quand personne n'y veille : un micro qui siffle pendant les vœux, ou une sono qui n'atteint pas le dernier rang. Un technicien sur place repère le problème avant que vos invités ne le remarquent.
 

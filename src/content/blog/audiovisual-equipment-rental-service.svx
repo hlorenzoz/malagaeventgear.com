@@ -21,7 +21,7 @@ targetPage: "/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Looking for an audiovisual equipment rental service in Malaga? If you searched that exact phrase, you likely already found our [audio visual rental](/blog/audio-visual-rental/) page, since the two terms describe the same core service. This page exists for a narrower reason: to lay out the specialized and niche layer of our catalog, the 5000 lumen projector tier, RGBW spotlights, specialty stage lighting and uplighting, wireless and gooseneck microphone systems, the 60 inch LED display and our smoke machine, in one place, and to say plainly what falls outside it.
+Looking for an audiovisual equipment rental service in Malaga, Spain? If you searched that exact phrase, you likely already found our [audio visual rental](/blog/audio-visual-rental/) page, since the two terms describe the same core service. This page exists for a narrower reason: to lay out the specialized and niche layer of our catalog, the 5000 lumen projector tier, RGBW spotlights, specialty stage lighting and uplighting, wireless and gooseneck microphone systems, the 60 inch LED display and our smoke machine, in one place, and to say plainly what falls outside it.
 
 Malaga Event Gear (MEG) delivers, installs and tests every piece of this equipment ourselves, across Malaga and the wider Costa del Sol, backed by experience going back to 1996. Nothing below is a wishlist. Every item is either a real package inclusion with a published euro price, or an honest "not in our own inventory."
 

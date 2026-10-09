@@ -141,7 +141,7 @@ If you choose one of the 3 packages with no technician on site, that does not me
 
 ![Two HK Audio speakers on tripods and a branded panel table with gooseneck microphones, in front of a low stage and roll up banners inside a Volvo dealership in Malaga, with rows of stool seating.](https://cdn.malagaeventgear.com/blog/1267/volvo_mice_event_setup_1-1536x1147.webp)
 
-The HK Audio sound system Malaga Event Gear supplied for a presentation at a Volvo dealership in Malaga, the same dealership event as this page's cover. We supplied only the sound system: HK Audio speakers on tripods and gooseneck microphones.
+The HK Audio sound system Malaga Event Gear supplied for a presentation at a Volvo dealership in Malaga, Spain, the same dealership event as this page's cover. We supplied only the sound system: HK Audio speakers on tripods and gooseneck microphones.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('product-presentation', ['/1266/', '/1267/'])} speed="normal" direction="left" />

@@ -13,7 +13,7 @@ sourceUpdated: "2026-10-08"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-A maioria das páginas sobre aluguer de máquina de fumo em Málaga vende a máquina. Esta começa noutro sítio, porque a máquina é a parte fácil.
+A maioria das páginas sobre aluguer de máquina de fumo em Málaga, Espanha, vende a máquina. Esta começa noutro sítio, porque a máquina é a parte fácil.
 
 Uma máquina de fumo não é uma decoração. Existe por uma única razão: **a luz que atravessa o ar limpo é invisível**. Só vê o feixe quando há alguma coisa no ar em que ele possa bater. Alugue iluminação sem fumo e fica com superfícies iluminadas. Junte fumo e passa a ver os próprios feixes, que é o efeito que quase toda a gente tinha realmente em mente.
 

@@ -1,6 +1,6 @@
 ---
 title: "Event Technology Service in Malaga, Spain"
-description: "Event technology service in Malaga: real event lighting, modular stage platforms, and an on site technician on hand, plus what we honestly don't stock."
+description: "Event technology service in Malaga, Spain: real event lighting, modular stage platforms, and an on site technician on hand, plus what we honestly don't stock."
 author: Hector Luis Lorenzo
 slug: event-technology-service
 publishDate: "2026-07-31"
@@ -21,7 +21,7 @@ targetPage: "/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Searched for an event technology service in Malaga? Locally that phrase covers a lot of ground, and not all of it is ground we cover with our own equipment. Some Malaga production companies use "event technology" to mean live streaming, video mapping, LED walls and interactive touchscreens. Malaga Event Gear (MEG) does not own any of that, and we would rather tell you that up front than let you find out after a call.
+Searched for an event technology service in Malaga, Spain? Locally that phrase covers a lot of ground, and not all of it is ground we cover with our own equipment. Some Malaga production companies use "event technology" to mean live streaming, video mapping, LED walls and interactive touchscreens. Malaga Event Gear (MEG) does not own any of that, and we would rather tell you that up front than let you find out after a call.
 
 What we do offer, under this same name, is the physical layer: RGBW and specialty event lighting, modular stage platforms sized to your room, and an on site technician who runs the sound and microphones during your event and fixes the lighting or screen if anything fails. This page indexes that real layer, backed by experience going back to 1996, and closes with a direct list of what falls outside it.
 

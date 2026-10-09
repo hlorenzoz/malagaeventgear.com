@@ -135,7 +135,7 @@ An outdoor venue changes what cable routing has to work around, mainly ground su
 
 ![An acrylic lectern with a gooseneck microphone and a laptop at an FTI Consulting corporate event in the province of Malaga, with a cable run taped along the wooden floor and the cables gathered at the base of the lectern.](https://cdn.malagaeventgear.com/blog/1793/FTI-Consulting-Setup-audio-and-microphone-system-setup-768x1024.webp)
 
-The cable run at a corporate lectern setup for an FTI Consulting event in the province of Malaga: a run taped along the floor and the cables gathered at the base of the lectern. This is the honest, unglamorous reality of "aesthetic cabling": careful routing and securing, not a hidden system.
+The cable run at a corporate lectern setup for an FTI Consulting event in the province of Malaga, Spain: a run taped along the floor and the cables gathered at the base of the lectern. This is the honest, unglamorous reality of "aesthetic cabling": careful routing and securing, not a hidden system.
 
 <div class="my-12 overflow-hidden w-full">
 	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1278/', '/1793/'])} speed="normal" direction="left" />

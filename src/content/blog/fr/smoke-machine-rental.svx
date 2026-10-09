@@ -13,7 +13,7 @@ sourceUpdated: "2026-10-08"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-La plupart des pages de location de machine à fumée à Malaga vendent la machine. Celle-ci commence ailleurs, parce que la machine est la partie facile.
+La plupart des pages de location de machine à fumée à Malaga, en Espagne, vendent la machine. Celle-ci commence ailleurs, parce que la machine est la partie facile.
 
 Une machine à fumée n'est pas une décoration. Elle existe pour une seule raison : **la lumière qui traverse un air pur est invisible**. Vous ne voyez le faisceau que si l'air contient quelque chose qu'il peut éclairer. Louez de l'éclairage sans fumée et vous obtenez des surfaces éclairées. Ajoutez de la fumée et ce sont les faisceaux eux-mêmes qui apparaissent, et c'est l'effet que presque tout le monde avait en tête.
 

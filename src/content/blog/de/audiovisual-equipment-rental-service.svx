@@ -1,6 +1,6 @@
 ---
 title: "AV-Technik-Verleih in Malaga, Spanien"
-description: "AV-Technik-Verleih in Malaga: der spezialisierte Beamer mit 5000 Lumen, RGBW-Licht, Funkmikrofone und Effekte als Ebene über unseren AV-Kernpaketen."
+description: "AV-Technik-Verleih in Malaga, Spanien: der spezialisierte Beamer mit 5000 Lumen, RGBW-Licht, Funkmikrofone und Effekte als Ebene über unseren AV-Kernpaketen."
 excerpt: "Die spezialisierte Ebene unseres AV-Katalogs: der Beamer mit 5000 Lumen, Spezialbeleuchtung für die Bühne und Uplighting, Funkmikrofone, ein 60-Zoll-LED-Display und eine Nebelmaschine, dazu eine ehrliche Liste dessen, was wir nicht im Bestand haben."
 publishDate: "2026-09-25"
 sourceUpdated: "2026-10-09"
@@ -13,7 +13,7 @@ updatedDate: "2026-10-09"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Sie suchen einen AV-Technik-Verleih in Malaga? Dann kennen Sie vielleicht schon unseren Grundlagenartikel zur [AV-Vermietung](/blog/audio-visual-rental/), denn beide Begriffe beschreiben dieselbe Kernleistung. Diese Seite gibt es aus einem engeren Grund: Sie zeigt die spezialisierte Ebene unseres Katalogs an einem Ort, also die Beamer-Klasse mit 5000 Lumen, RGBW-Spots, Spezialbeleuchtung für die Bühne und Uplighting, Funk- und Schwanenhalsmikrofone, das 60-Zoll-LED-Display sowie unsere Nebelmaschine, und sie sagt klar, was nicht dazugehört.
+Sie suchen einen AV-Technik-Verleih in Malaga, Spanien? Dann kennen Sie vielleicht schon unseren Grundlagenartikel zur [AV-Vermietung](/blog/audio-visual-rental/), denn beide Begriffe beschreiben dieselbe Kernleistung. Diese Seite gibt es aus einem engeren Grund: Sie zeigt die spezialisierte Ebene unseres Katalogs an einem Ort, also die Beamer-Klasse mit 5000 Lumen, RGBW-Spots, Spezialbeleuchtung für die Bühne und Uplighting, Funk- und Schwanenhalsmikrofone, das 60-Zoll-LED-Display sowie unsere Nebelmaschine, und sie sagt klar, was nicht dazugehört.
 
 Malaga Event Gear (MEG) liefert, installiert und testet jedes dieser Geräte selbst, in Malaga und an der gesamten Costa del Sol, gestützt auf Erfahrung, die bis ins Jahr 1996 zurückreicht. Nichts davon ist eine Wunschliste. Jeder Punkt ist entweder ein echter Paketbestandteil mit veröffentlichtem Preis in Euro oder ein ehrliches "nicht in unserem eigenen Bestand".
 

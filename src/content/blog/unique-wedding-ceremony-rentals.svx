@@ -21,7 +21,7 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Searching for unique wedding ceremony rentals in Malaga usually turns up arches, altars, backdrops and specialty furniture, none of which is in Malaga Event Gear's own inventory. What we do supply for a ceremony is the sound: a PA system tuned for vows, a microphone for the officiant, and ambient lighting layered onto whatever space someone else decorates. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview.
+Searching for unique wedding ceremony rentals in Malaga, Spain, usually turns up arches, altars, backdrops and specialty furniture, none of which is in Malaga Event Gear's own inventory. What we do supply for a ceremony is the sound: a PA system tuned for vows, a microphone for the officiant, and ambient lighting layered onto whatever space someone else decorates. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview.
 
 ## Brief Overview
 

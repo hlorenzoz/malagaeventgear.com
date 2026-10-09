@@ -1,6 +1,6 @@
 ---
 title: "Wedding Rentals Near Me in Malaga, Spain"
-description: "Wedding rentals near me in Malaga: Malaga Event Gear delivers sound, lighting and microphones straight to your venue. No showroom, delivery only."
+description: "Wedding rentals near me in Malaga, Spain: Malaga Event Gear delivers sound, lighting and microphones straight to your venue. No showroom, delivery only."
 author: Hector Luis Lorenzo
 slug: wedding-rentals-near-me
 publishDate: "2026-01-09"
@@ -21,7 +21,7 @@ targetPage: "/blog/wedding-rentals/"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Searching for wedding rentals near me in Malaga? For Malaga Event Gear, "near me" does not mean a showroom you can walk into. We are a delivery only audio visual company with no storefront to visit. What we do is bring the [Wedding Pack's](/packages/wedding/) sound, lighting and microphones to your venue, set it up, run it through the ceremony and reception, then collect it again. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview.
+Searching for wedding rentals near me in Malaga, Spain? For Malaga Event Gear, "near me" does not mean a showroom you can walk into. We are a delivery only audio visual company with no storefront to visit. What we do is bring the [Wedding Pack's](/packages/wedding/) sound, lighting and microphones to your venue, set it up, run it through the ceremony and reception, then collect it again. For the full picture of what we cover for weddings, see our [wedding rentals](/blog/wedding-rentals/) overview.
 
 ## Brief Overview
 

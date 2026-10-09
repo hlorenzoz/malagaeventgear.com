@@ -13,7 +13,7 @@ sourceUpdated: "2026-10-08"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-De fleste sider om å leie røykmaskin i Malaga selger selve maskinen. Denne siden begynner et annet sted, fordi maskinen er den enkle delen.
+De fleste sider om å leie røykmaskin i Malaga, Spania, selger selve maskinen. Denne siden begynner et annet sted, fordi maskinen er den enkle delen.
 
 En røykmaskin er ikke pynt. Den finnes av én grunn: **lys som går gjennom ren luft, er usynlig**. Du ser bare strålen når det er noe i luften som den kan treffe. Leier du lys uten røyk, får du opplyste flater. Legger du til røyk, får du selve strålene, og det er det uttrykket nesten alle egentlig så for seg.
 

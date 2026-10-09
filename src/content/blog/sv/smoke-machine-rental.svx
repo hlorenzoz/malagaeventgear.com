@@ -13,7 +13,7 @@ sourceUpdated: "2026-10-08"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-De flesta sidor om att hyra rökmaskin i Malaga säljer själva maskinen. Den här börjar någon annanstans, eftersom maskinen är den enkla delen.
+De flesta sidor om att hyra rökmaskin i Malaga, Spanien, säljer själva maskinen. Den här börjar någon annanstans, eftersom maskinen är den enkla delen.
 
 En rökmaskin är ingen dekoration. Den finns av ett enda skäl: **ljus som färdas genom ren luft syns inte**. Du ser bara strålen när det finns något i luften för den att träffa. Hyr belysning utan rök och du får upplysta ytor. Lägg till rök och du ser själva strålarna, vilket är den effekt nästan alla egentligen hade tänkt sig.
 

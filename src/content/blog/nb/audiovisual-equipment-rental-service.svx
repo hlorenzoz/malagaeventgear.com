@@ -1,6 +1,6 @@
 ---
 title: "Utleie av audiovisuelt utstyr i Malaga, Spania"
-description: "Utleie av audiovisuelt utstyr i Malaga: den spesialiserte prosjektoren på 5000 lumen, RGBW-lys, trådløse mikrofoner og effekter utover AV-pakkene våre."
+description: "Utleie av audiovisuelt utstyr i Malaga, Spania: den spesialiserte prosjektoren på 5000 lumen, RGBW-lys, trådløse mikrofoner og effekter utover AV-pakkene våre."
 excerpt: "Det spesialiserte laget i AV-katalogen vår: prosjektoren på 5000 lumen, spesiallys for scenen og uplighting, trådløse mikrofoner, en LED-skjerm på 60 tommer og en røykmaskin, pluss en ærlig liste over det vi ikke har på lager."
 publishDate: "2026-09-25"
 sourceUpdated: "2026-10-09"
@@ -13,7 +13,7 @@ updatedDate: "2026-10-09"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Ser du etter utleie av audiovisuelt utstyr i Malaga? Da kjenner du kanskje allerede vår grundige guide om [AV-utleie](/blog/audio-visual-rental/), fordi de to begrepene beskriver den samme kjernetjenesten. Denne siden finnes av en smalere grunn: Den samler det spesialiserte laget i katalogen vår på ett sted, altså prosjektorklassen på 5000 lumen, RGBW-spotlights, spesiallys for scenen og uplighting, trådløse mikrofoner og svanehalsmikrofoner, LED-skjermen på 60 tommer samt røykmaskinen vår, og den sier tydelig hva som faller utenfor.
+Ser du etter utleie av audiovisuelt utstyr i Malaga, Spania? Da kjenner du kanskje allerede vår grundige guide om [AV-utleie](/blog/audio-visual-rental/), fordi de to begrepene beskriver den samme kjernetjenesten. Denne siden finnes av en smalere grunn: Den samler det spesialiserte laget i katalogen vår på ett sted, altså prosjektorklassen på 5000 lumen, RGBW-spotlights, spesiallys for scenen og uplighting, trådløse mikrofoner og svanehalsmikrofoner, LED-skjermen på 60 tommer samt røykmaskinen vår, og den sier tydelig hva som faller utenfor.
 
 Malaga Event Gear (MEG) leverer, installerer og tester alt dette utstyret selv, i Malaga og langs hele Costa del Sol, med erfaring som går tilbake til 1996. Ingenting av det som følger, er en ønskeliste. Hvert punkt er enten en reell del av en pakke med publisert pris i euro eller et ærlig "finnes ikke på vårt eget lager".
 
