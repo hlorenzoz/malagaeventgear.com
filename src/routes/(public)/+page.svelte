@@ -785,9 +785,6 @@
 	</div>
 </section>
 
-<!-- Partner Section: Top Group Express, group hotel bookings (static, prerendered) -->
-<PartnerSection copy={copy.partner} href={tgeUrl(i18n.lang)} />
-
 <!-- Testimonials Section (Google Reviews).
      Rendered on the server so the review text is in the HTML a crawler receives (reviews shown
      on the GBP landing page are a local consistency signal). `content-visibility: auto` keeps the
@@ -795,6 +792,9 @@
 <div style="content-visibility: auto; contain-intrinsic-size: auto 760px;">
 	<Testimonials />
 </div>
+
+<!-- Partner Section: Top Group Express, group hotel bookings (static, prerendered) -->
+<PartnerSection copy={copy.partner} href={tgeUrl(i18n.lang)} />
 
 <!-- Google Location / Share Section -->
 <GoogleEmbedSection />

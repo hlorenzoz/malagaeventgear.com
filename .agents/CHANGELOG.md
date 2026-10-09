@@ -7,6 +7,10 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (home): las reseñas pasan debajo de los precios y el partner debajo de las reseñas (2026-10-09)
+- Pedido del usuario (2026-10-09). En `src/routes/(public)/+page.svelte` el orden era precios ("Transparent Pricing"), partner de hoteles para grupos (Top Group Express) y reseñas de Google ("Client Reviews"). Ahora es precios, reseñas y partner. Solo se movieron los dos bloques: no cambia ningun texto, y vale para los 13 idiomas.
+- Test nuevo en `tests/testimonials.spec.ts` que comprueba ese orden en el DOM. Es un cambio de orden, no de contenido: no se movio ninguna fecha de frescura.
+
 ### Changed (blog): enlaces entre posts hermanos del silo audio visual rental, en los 13 idiomas (2026-10-09)
 - Tarea #T0033 (reverse silo, regla 2: cada post de soporte enlaza a sus hermanos adyacentes en el cuerpo, en los dos sentidos). En el silo del pilar `/blog/audio-visual-rental/`, 7 de 42 posts de soporte no enlazaban a ningun hermano: `audio-visual-rental-for-weddings`, `benefits-of-audio-visual-rental`, `audio-visual-rental-for-private-parties`, `stage-monitor-rental`, `audio-visual-rental-safety-guidelines`, `audio-visual-rental-planning-timeline` y `audio-visual-rental-for-art-exhibitions`. Comprobado con un script sobre los posts ingleses antes y despues: ya no queda ninguno sin enlace de salida ni de entrada.
 - Orden de la cadena: por `publishDate`, la regla de CLAUDE.md cuando no hay orden explicito. El CSV de POP no sirve para estos posts: sus vecinos son articulos que nunca se escribieron (insurance options, best display screens...). Coincide con el CSV en los dos pares que si existen (weddings y virtual events, safety guidelines y planning timeline).

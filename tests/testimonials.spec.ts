@@ -24,6 +24,29 @@ test.describe('Testimonials in the served HTML', () => {
 	});
 });
 
+// Section order on the home page (user request, 2026-10-09): pricing, then the client reviews,
+// then the partner for group hotel bookings.
+test.describe('Home page section order', () => {
+	test('client reviews follow the pricing section and come before the partner section', async ({
+		page
+	}) => {
+		await page.goto('/');
+		const order = await page.evaluate(() => {
+			const pricing = document.querySelector('[data-testid="packages-carousel-track"]');
+			const reviews = document.querySelector('[data-testid="testimonials"]');
+			const partner = document.querySelector('[data-testid="partner-tge"]');
+			if (!pricing || !reviews || !partner) return null;
+			const before = (a: Element, b: Element) =>
+				Boolean(a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING);
+			return {
+				pricingThenReviews: before(pricing, reviews),
+				reviewsThenPartner: before(reviews, partner)
+			};
+		});
+		expect(order).toEqual({ pricingThenReviews: true, reviewsThenPartner: true });
+	});
+});
+
 test.describe('Testimonials Section (Google Reviews) E2E Tests', () => {
 	test.beforeEach(async ({ page }) => {
 		await page.goto('/');
