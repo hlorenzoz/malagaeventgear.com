@@ -27,6 +27,38 @@
       ]
     },
     {
+      "id": "#T0112",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "traduccion",
+      "titulo": "Traducir al español las páginas principales del sitio (sin posts) y actualizar las referencias",
+      "anotada": "2026-10-09",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [],
+      "descripcion": [
+        "Pedido del usuario (2026-10-09): traducir al español solamente las paginas principales del sitio y actualizar las referencias que correspondan. Prioridad alta.",
+        "",
+        "Es una decision explicita y fechada del usuario de volver a sumar el español, como exige CLAUDE.md (\"Sin español\", decision del 2026-09-24 por la tarde, que esta tarea cambia). El alcance es parcial: paginas principales, NO los posts del blog.",
+        "",
+        "Contexto que ayuda a la decision: en Search Console (export del 2026-09-29) hay busquedas en español con impresiones y sin contenido que las atienda, por ejemplo \"alquiler iluminacion eventos malaga\" (65 impresiones), \"iluminacion eventos malaga\" (52), \"alquiler de equipos de iluminación para eventos en malaga\" (27) y \"alquiler de equipos audiovisuales para eventos en malaga\" (26). MEG ya atiende en español.",
+        "",
+        "Alcance a confirmar al empezar (que cuenta como pagina principal): home, /packages/ y los 5 paquetes, /equipment/, /about-us/, /meet-the-team/, /contact/, /faq/, y las legales (privacy, terms, gdpr, cookie) con su aviso de que prevalece la version inglesa. Son las 17 paginas y 5 paquetes que hoy tiene cada idioma.",
+        "",
+        "Que hay que tocar:",
+        "1. Idioma: sumar es a LOCALES y LOCALE_META (src/lib/i18n/locales.ts), con prefijo /es/, hreflang es y og:locale es_ES, y a PAGE_LOCALES (src/lib/i18n/availability.ts).",
+        "2. Copia: diccionario src/lib/i18n/messages/es.ts, copia de paquetes, FAQ y alt de la galeria en src/lib/i18n/data/es.ts, y la copia de cada pagina en src/routes/(public)/<ruta>/i18n/es.ts con su fecha propia. Nombres de paquete, NAP, marcas y modelos sin traducir. Precios solo con formatPrice y los tokens. Las reseñas no se traducen.",
+        "3. Mapa de contenido: src/lib/i18n/content-map/locales/es.ts con el slug y la keyword de cada pagina, construidas con el vocabulario con que busca un nativo y status propuesta. Usar keywords.json y el export de GSC como evidencia.",
+        "4. Referencias: hreflang reciproco en las paginas, selector de idioma, page-sitemap-es.xml en sitemap_index.xml, /llms.txt, y el JSON-LD (availableLanguage ya declara en y es).",
+        "5. Punto a resolver de diseño: hoy un idioma se publica cuando TODO su contenido esta traducido, y los posts no entran en esta tarea. Ya existe el caso previsto: si un idioma no tiene posts, el menu lleva a \"Blog (in English)\" y ningun listado muestra titulos en ingles (i18n.postsPublished). Comprobar que ese camino funciona con es, que el guard de traducciones de posts no exige el español (missingTranslations, commit-guard.ts, post-freshness.test.ts) y que localized-completeness.test.ts lo acepta.",
+        "6. Emails: las plantillas ya son bilingues en y es. Revisar que un lead que llega desde /es/ reciba la plantilla española.",
+        "7. Documentacion: actualizar CLAUDE.md en el mismo cambio (tabla de idiomas, \"Sin español\", \"13 idiomas\" pasa a 14, reglas de idioma, la regla 3 de los agentes globales \"nunca escribir copy en español\"), y los agentes del repo que repiten esa regla.",
+        "8. Tests: e2e de las paginas en /es/, hreflang, sitemaps y precache del PWA. Build y Lighthouse.",
+        "",
+        "Cuidados: seguir SDD (regla 6). Español de España, con revision nativa (el usuario es hablante nativo). Nunca prometer atencion en otro idioma que no sea ingles o español. Sin paginas de relleno en ingles bajo /es/."
+      ]
+    },
+    {
       "id": "#T0082",
       "estado": "pendiente",
       "prioridad": "alta",
