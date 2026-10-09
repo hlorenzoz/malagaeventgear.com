@@ -3,6 +3,30 @@
   "updated": "2026-10-09",
   "tasks": [
     {
+      "id": "#T0109",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "negocio",
+      "titulo": "CONFIRMAR: fotos de videoconferencia y camaras en la galeria de audio-visual-rental-for-conferences",
+      "anotada": "2026-10-09",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [],
+      "descripcion": [
+        "Hallazgo del /code-review de #T0088 (2026-10-09). El post /blog/audio-visual-rental-for-conferences/ se contradice.",
+        "",
+        "- La seccion nueva \"Remote Speakers and Streaming\" (commit 4ce13084) dice que camaras y streaming en vivo no estan en el inventario propio de MEG.",
+        "- La galeria de la seccion \"What Clients Say About Our Conference AV\" del mismo post (lineas 74 a 82 del ingles) muestra fotos cuyo alt o pie hablan de \"A technician's video conferencing monitors with a remote panelist on screen\" y de \"broadcast camera equipment\".",
+        "",
+        "CONFIRMAR con el negocio:",
+        "1. Si esas fotos son de un evento real de MEG.",
+        "2. Quien puso los monitores de videoconferencia y las camaras (MEG, el cliente, el venue u otro proveedor).",
+        "",
+        "Segun la respuesta: corregir alt y pies en el post ingles y en sus 12 traducciones (y en scripts/migrate-wp/manifest.json si salen de ahi), para que digan que suministro MEG y que no. Si son fotos de banco, tratarlas como ilustrativas (STOCK_PHOTO_IDS en src/lib/data/gallery.ts) y sacarlas de una seccion de Experience real.",
+        "No tocar los textos hasta tener la respuesta: no se adivina."
+      ]
+    },
+    {
       "id": "#T0082",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -1058,6 +1082,26 @@
         "Qué cubrir: Responder con honestidad: una pantalla hinchable no está en el inventario propio (las pantallas propias son la de 2x2m del Basic MICE Pack, la del Product Presentation Pack y la Da-Lite de 2.30 x 3.00 m, ver packages.ts). Decir 'no está en nuestro inventario, cuéntanos qué necesitas y buscamos una solución con nuestros proveedores'. Explicar qué debe indicar el cliente (lugar, número de invitados, tamaño deseado). No dar marca, modelo, tamaño, precio, disponibilidad ni plazo. No inventar precios de hinchables.",
         "Por qué: Misma intención (pantalla de cine hinchable con proyector) en seis variantes. El post /blog/outdoor-movie-screen-and-projector-rental/ no menciona pantallas hinchables en ningún encabezado ni FAQ. Es una necesidad de evento que MEG resuelve con proveedores, así que va como FAQ y no como post nuevo (Goldilocks, creating-helpful-content.md).",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0110",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "negocio",
+      "titulo": "DECIDIR: 5 decisiones abiertas del lote de prompts de IA (guiones sv da nb, NLP en T0093, alt 1323, precio unico, horario)",
+      "anotada": "2026-10-09",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [],
+      "descripcion": [
+        "Decisiones que quedaron abiertas al implementar las tareas de prompts de IA (#T0088 a #T0096), 2026-10-08 y 2026-10-09. Ninguna frena un commit ya hecho. El usuario las dejo pendientes el 2026-10-09.",
+        "",
+        "1. Regla 12, guiones de compuestos. La excepcion de CLAUDE.md cubre solo neerlandes y aleman. En sueco, danes y noruego el guion tambien es ortografia obligatoria (DJ-set, AV-udstyr, AV-utstyr, line array-system) y ya esta publicado en muchos posts. Decidir si se amplia la excepcion a sv, da y nb en CLAUDE.md (regla 12 y override 6 de los agentes globales).",
+        "2. Terminos NLP en #T0093. /blog/sound-system-rental/ (commit c69f6c00) salio sin el paso de serp-term-researcher. Decidir si se hace una segunda pasada: mueve el post y sus 12 traducciones otra vez.",
+        "3. Alt de la imagen blog/1323 en /blog/sound-system-rental/ (linea 143 del ingles): dice \"featuring professional DJ equipment\", y el post ahora aclara que MEG no tiene equipo de DJ propio. Confirmar si la foto es de un evento de MEG y corregir el alt en los 13 idiomas.",
+        "4. Frase \"The pack has one flat price, so a winter date does not change it\" en la FAQ de boda de invierno de /blog/indoor-wedding-rental-essentials/ (commit 3dcd4444). Es coherente con otros dos posts, pero es un compromiso escrito: un recargo de temporada futuro la volveria falsa. Decidir si se mantiene.",
+        "5. Horario comercial. En #T0093 se quito de /blog/sound-system-rental/ la frase \"commercial enquiries are answered daily from 08:00 to 20:00\" (el /code-review la marco como promesa de respuesta). El post de conferencias y .agents/BUSINESS.md si publican ese horario. Decidir si se repone como horario de atencion, sin prometer tiempo de respuesta."
       ]
     },
     {
