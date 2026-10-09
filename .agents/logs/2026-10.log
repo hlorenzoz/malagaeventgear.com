@@ -228,3 +228,5 @@
 2026-10-09 15:28 | auto | todo-commit | commit | hash=d4f4d9b4 subject="chore(todo): close T0098" file=.agents/data/TODO.json
 2026-10-09 15:44 | auto | todo-commit | commit | hash=7b063222 subject="chore(todo): close T0106" file=.agents/data/TODO.json
 2026-10-09 16:54 | auto | todo-commit | commit | hash=cb530fbe subject="chore(todo): close T0033, split the silo guard defect into its own task" file=.agents/data/TODO.json
+2026-10-09 21:10 | auto | todo-commit | commit | hash=db97371c subject="chore(todo): add T0112, Spanish translation of the main pages" file=.agents/data/TODO.json
+2026-10-09 22:00 | auto | todo-commit | commit | hash=58eefb8d subject="chore(todo): T0018 posts done, pages and packages pending" file=.agents/data/TODO.json
