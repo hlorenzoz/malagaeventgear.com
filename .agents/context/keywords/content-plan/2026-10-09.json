@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-09",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 20,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "items": [
+    {
+      "keywords": ["inflatable movie screen hire", "inflatable movie screen and projector rental", "inflatable movie screen with projector rental", "inflatable screen hire", "large inflatable movie screen rental", "inflatable movie screen rental prices"],
+      "cluster": "audio visual rental",
+      "action": "add-faq",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Misma intención (pantalla de cine hinchable con proyector) en seis variantes. El post /blog/outdoor-movie-screen-and-projector-rental/ no menciona pantallas hinchables en ningún encabezado ni FAQ. Es una necesidad de evento que MEG resuelve con proveedores, así que va como FAQ y no como post nuevo (Goldilocks, creating-helpful-content.md).",
+      "targetUrl": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "file": "src/content/blog/outdoor-movie-screen-and-projector-rental.svx",
+      "question": "Do you rent an inflatable outdoor movie screen?",
+      "brief": "Responder con honestidad: una pantalla hinchable no está en el inventario propio (las pantallas propias son la de 2x2m del Basic MICE Pack, la del Product Presentation Pack y la Da-Lite de 2.30 x 3.00 m, ver packages.ts). Decir 'no está en nuestro inventario, cuéntanos qué necesitas y buscamos una solución con nuestros proveedores'. Explicar qué debe indicar el cliente (lugar, número de invitados, tamaño deseado). No dar marca, modelo, tamaño, precio, disponibilidad ni plazo. No inventar precios de hinchables."
+    },
+    {
+      "keywords": ["large outdoor movie screen rental", "large movie screen rentals", "jumbo movie screen rental", "large outdoor projector screen rental", "large outdoor screen hire", "indoor movie screen rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/outdoor-movie-screen-and-projector-rental/, secciones sobre el tamaño de pantalla y 'A bigger picture or a bigger crowd' (Da-Lite 2.30 x 3.00 m y pantallas mayores vía proveedores). Una pantalla de cine interior se sirve con los packs de proyector y pantalla del mismo post. Un encabezado nuevo repetiría lo existente."
+    },
+    {
+      "keywords": ["indoor led screen hire", "large led screen hire", "large led screen rental", "large outdoor led screen for hire"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/tv-screen-rental/: sección 'What We Don't Stock: LED Video Walls and Modular LED Panels' y FAQs 'Do you rent LED video walls or modular LED panels?', 'Can Malaga Event Gear source an LED video wall through a supplier?' y 'Do you rent an LED screen?'. Crear otra página sería canibalización."
+    },
+    {
+      "keywords": ["hire sound system for party"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/sound-system-rental/, FAQ 'Can I rent a complete DJ system for a party?' y secciones de PA o DJ. Sin intención distinta."
+    },
+    {
+      "keywords": ["hire sound system near me"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Variante 'near me' de una página existente: /blog/sound-system-rental/ ya tiene la FAQ 'Do you deliver sound system rental near me outside Malaga city?'. Doorway abuse en spam-policies.md."
+    },
+    {
+      "keywords": ["inflatable movie screen rental near me"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Variante 'near me' de la intención de pantalla hinchable ya cubierta por la FAQ propuesta en el post de cine al aire libre. Doorway abuse en spam-policies.md."
+    },
+    {
+      "keywords": ["la audio rentals"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Fuera de mercado: Los Angeles, no Málaga ni su zona de servicio."
+    }
+  ]
+}
