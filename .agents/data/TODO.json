@@ -487,37 +487,6 @@
       ]
     },
     {
-      "id": "#T0098",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "seo-tecnico",
-      "titulo": "[Local Dominator] Home: las reseñas de Google no están en el HTML servido (LazyMount)",
-      "anotada": "2026-10-08",
-      "hecha": null,
-      "origen": "usuario",
-      "notas": [
-        "fuente: Local Dominator",
-        "Site Audit 2026-10-05"
-      ],
-      "descripcion": [
-        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
-        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
-        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
-        "",
-        "Hallazgo del reporte: \"Direct customer testimonials/reviews visible on the page\" figura como senal ausente, y el plan de accion pide \"Showcase Testimonials & Case Studies\".",
-        "Verificacion: confirmado en parte. La home SI tiene la seccion de resenas de Google, pero no esta en el HTML servido: src/routes/(public)/+page.svelte la monta con LazyMount y un import dinamico (lineas 767 a 774), asi que el texto de las resenas solo existe despues de ejecutar JavaScript y de hacer scroll. En el HTML de produccion no hay ni un texto de resena.",
-        "Sin verificar: si Googlebot llega a renderizarla. No se probo con la inspeccion de URL de Search Console.",
-        "Por que importa: las resenas visibles en la pagina de destino del GBP son la senal 5 de .agents/context/local-seo/local-seo-gbp-first.md, y CLAUDE.md pide que el contenido vaya en el HTML servido.",
-        "",
-        "Que hacer:",
-        "1. Comprobar en Search Console (inspeccion de URL, HTML renderizado) si las resenas aparecen.",
-        "2. Si no aparecen: prerenderizar el texto de las resenas (autor, nota, texto, atributo lang) y dejar perezoso solo el JavaScript del carrusel.",
-        "3. El lazy mount se puso por rendimiento: medir antes y despues con chrome-devtools-mcp y lighthouse (regla 10). No empeorar LCP ni CLS.",
-        "4. Las resenas nunca se traducen. Sin marcado de resenas propio en el JSON-LD (ver review-snippet.md en .agents/context/seo/).",
-        "5. Los \"case studies\" que pide el reporte ya existen: son los posts News enlazados desde la home."
-      ]
-    },
-    {
       "id": "#T0106",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -1705,6 +1674,39 @@
         "3. Anos: derivarlos de siteConfig.foundingYear, o escribir \"since 1996\".",
         "4. Satisfaccion: quitar la tarjeta si no hay fuente. Alternativa verificable: la nota media y la cantidad de resenas de getReviewsMeta().",
         "5. Vale para los 13 idiomas (los numeros estan en el template, no en los diccionarios). Actualizar contentUpdated de la home y el e2e."
+      ]
+    },
+    {
+      "id": "#T0098",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "seo-tecnico",
+      "titulo": "[Local Dominator] Home: las reseñas de Google no están en el HTML servido (LazyMount)",
+      "anotada": "2026-10-08",
+      "hecha": "2026-10-09",
+      "origen": "usuario",
+      "notas": [
+        "fuente: Local Dominator",
+        "Site Audit 2026-10-05",
+        "2026-10-09: commit de fix(home) T0098. Reseñas renderizadas en el servidor",
+        "medido con Lighthouse sin regresion. Falta comprobarlo con la inspeccion de URL de Search Console"
+      ],
+      "descripcion": [
+        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
+        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
+        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
+        "",
+        "Hallazgo del reporte: \"Direct customer testimonials/reviews visible on the page\" figura como senal ausente, y el plan de accion pide \"Showcase Testimonials & Case Studies\".",
+        "Verificacion: confirmado en parte. La home SI tiene la seccion de resenas de Google, pero no esta en el HTML servido: src/routes/(public)/+page.svelte la monta con LazyMount y un import dinamico (lineas 767 a 774), asi que el texto de las resenas solo existe despues de ejecutar JavaScript y de hacer scroll. En el HTML de produccion no hay ni un texto de resena.",
+        "Sin verificar: si Googlebot llega a renderizarla. No se probo con la inspeccion de URL de Search Console.",
+        "Por que importa: las resenas visibles en la pagina de destino del GBP son la senal 5 de .agents/context/local-seo/local-seo-gbp-first.md, y CLAUDE.md pide que el contenido vaya en el HTML servido.",
+        "",
+        "Que hacer:",
+        "1. Comprobar en Search Console (inspeccion de URL, HTML renderizado) si las resenas aparecen.",
+        "2. Si no aparecen: prerenderizar el texto de las resenas (autor, nota, texto, atributo lang) y dejar perezoso solo el JavaScript del carrusel.",
+        "3. El lazy mount se puso por rendimiento: medir antes y despues con chrome-devtools-mcp y lighthouse (regla 10). No empeorar LCP ni CLS.",
+        "4. Las resenas nunca se traducen. Sin marcado de resenas propio en el JSON-LD (ver review-snippet.md en .agents/context/seo/).",
+        "5. Los \"case studies\" que pide el reporte ya existen: son los posts News enlazados desde la home."
       ]
     },
     {
