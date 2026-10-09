@@ -623,50 +623,6 @@
       ]
     },
     {
-      "id": "#T0033",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "seo-tecnico",
-      "titulo": "Reverse silo: posts de soporte sin enlace a sus hermanos",
-      "anotada": "2026-09-25",
-      "hecha": null,
-      "origen": "migrada",
-      "notas": [
-        "prioridad asignada por content-strategist el 2026-10-01: El hallazgo confirma que 7 de 41 posts de soporte del silo audio visual rental",
-        "ya publicados",
-        "no enlazan a ningun hermano adyacente",
-        "lo que incumple directamente la regla mandatoria del reverse silo de CLAUDE.md (cadena lateral obligatoria) en contenido que ya esta en produccion."
-      ],
-      "descripcion": [
-        "Hallazgo del code-review de stage-lighting-for-weddings. CLAUDE.md exige que cada post de soporte",
-        "enlace a sus hermanos adyacentes, en los dos sentidos. En el silo stage lighting se arregló el",
-        "2026-09-25 (bodas enlaza a stage-uplighting y a smoke-machine-rental, y stage-uplighting enlaza a",
-        "bodas). Chequeo con script el mismo día, sobre los posts ingleses: en el silo audio visual rental,",
-        "7 de 41 posts de soporte no enlazan a ningún hermano:",
-        "- audio-visual-rental-safety-guidelines",
-        "- audio-visual-rental-for-weddings",
-        "- audio-visual-rental-planning-timeline",
-        "- benefits-of-audio-visual-rental",
-        "- audio-visual-rental-for-art-exhibitions",
-        "- audio-visual-rental-for-private-parties",
-        "- stage-monitor-rental",
-        "El silo wedding rentals (20) no tiene huecos. headset-lavalier-microphone-rental es el único post",
-        "de soporte de su silo, así que no tiene hermanos todavía.",
-        "Cómo seguir: correr /seo:reverse-silo-review para fijar el orden de la cadena del silo audio visual",
-        "rental (el CSV de POP es el plan), y agregar los enlaces en inglés ANTES del turno de traducción",
-        "de cada post, así se traducen una sola vez. Un enlace en su forma inglesa a un hermano ya",
-        "traducido se localiza solo en el build.",
-        "Defecto del guard a resolver antes (encontrado el 2026-09-25): validateSiloGraph",
-        "(src/lib/data/site-map.ts) marca como malla toda componente fuertemente conexa de 3 o más posts,",
-        "pero una cadena correcta A <-> B <-> C también lo es. Con el guard actual, enlazar bien los",
-        "hermanos de un silo de 3 o más posts falla la suite, salvo que esos posts ya estén en la deuda de",
-        "src/lib/data/silo-cycle-debt.ts (así pasó con stage-lighting-for-weddings y smoke-machine-rental,",
-        "que se sumaron a la línea base el 2026-09-25). Arreglo propuesto, con test primero: aceptar la",
-        "componente cuando sus enlaces son todos recíprocos y forman un camino (n - 1 pares, grado máximo",
-        "2), y seguir marcando todo lo demás."
-      ]
-    },
-    {
       "id": "#T0035",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -988,6 +944,20 @@
         "3. Alt de la imagen blog/1323 en /blog/sound-system-rental/ (linea 143 del ingles): dice \"featuring professional DJ equipment\", y el post ahora aclara que MEG no tiene equipo de DJ propio. Confirmar si la foto es de un evento de MEG y corregir el alt en los 13 idiomas.",
         "4. Frase \"The pack has one flat price, so a winter date does not change it\" en la FAQ de boda de invierno de /blog/indoor-wedding-rental-essentials/ (commit 3dcd4444). Es coherente con otros dos posts, pero es un compromiso escrito: un recargo de temporada futuro la volveria falsa. Decidir si se mantiene.",
         "5. Horario comercial. En #T0093 se quito de /blog/sound-system-rental/ la frase \"commercial enquiries are answered daily from 08:00 to 20:00\" (el /code-review la marco como promesa de respuesta). El post de conferencias y .agents/BUSINESS.md si publican ese horario. Decidir si se repone como horario de atencion, sin prometer tiempo de respuesta."
+      ]
+    },
+    {
+      "id": "#T0111",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "seo-tecnico",
+      "titulo": "validateSiloGraph no distingue una cadena correcta de hermanos de una malla",
+      "anotada": "2026-10-09",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [],
+      "descripcion": [
+        "Arreglo propuesto, con test primero: aceptar la componente cuando sus enlaces son todos reciprocos y forman un camino (n - 1 pares, grado maximo 2), y seguir marcando todo lo demas. Ensenarle tambien el enlace unico del pilar al ultimo post de la cadena (regla 3 del reverse silo)."
       ]
     },
     {
@@ -1752,6 +1722,53 @@
         "- Diseño: seguir DESIGN.md y probar los dos temas. Objetivos táctiles de 44 px y navegación por teclado.",
         "- Sin marcado de reseñas propio en el JSON-LD.",
         "- Seguir SDD (regla 6), y sumar o actualizar los e2e (tests/testimonials.spec.ts, tests/blog-translations.spec.ts)."
+      ]
+    },
+    {
+      "id": "#T0033",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "seo-tecnico",
+      "titulo": "Reverse silo: posts de soporte sin enlace a sus hermanos",
+      "anotada": "2026-09-25",
+      "hecha": "2026-10-09",
+      "origen": "migrada",
+      "notas": [
+        "prioridad asignada por content-strategist el 2026-10-01: El hallazgo confirma que 7 de 41 posts de soporte del silo audio visual rental",
+        "ya publicados",
+        "no enlazan a ningun hermano adyacente",
+        "lo que incumple directamente la regla mandatoria del reverse silo de CLAUDE.md (cadena lateral obligatoria) en contenido que ya esta en produccion.",
+        "2026-10-09: hecha",
+        "commit 69a2e30c. 17 enlaces reciprocos en 11 posts y sus 12 traducciones",
+        "cadena por publishDate. El defecto de validateSiloGraph queda en una tarea aparte"
+      ],
+      "descripcion": [
+        "Hallazgo del code-review de stage-lighting-for-weddings. CLAUDE.md exige que cada post de soporte",
+        "enlace a sus hermanos adyacentes, en los dos sentidos. En el silo stage lighting se arregló el",
+        "2026-09-25 (bodas enlaza a stage-uplighting y a smoke-machine-rental, y stage-uplighting enlaza a",
+        "bodas). Chequeo con script el mismo día, sobre los posts ingleses: en el silo audio visual rental,",
+        "7 de 41 posts de soporte no enlazan a ningún hermano:",
+        "- audio-visual-rental-safety-guidelines",
+        "- audio-visual-rental-for-weddings",
+        "- audio-visual-rental-planning-timeline",
+        "- benefits-of-audio-visual-rental",
+        "- audio-visual-rental-for-art-exhibitions",
+        "- audio-visual-rental-for-private-parties",
+        "- stage-monitor-rental",
+        "El silo wedding rentals (20) no tiene huecos. headset-lavalier-microphone-rental es el único post",
+        "de soporte de su silo, así que no tiene hermanos todavía.",
+        "Cómo seguir: correr /seo:reverse-silo-review para fijar el orden de la cadena del silo audio visual",
+        "rental (el CSV de POP es el plan), y agregar los enlaces en inglés ANTES del turno de traducción",
+        "de cada post, así se traducen una sola vez. Un enlace en su forma inglesa a un hermano ya",
+        "traducido se localiza solo en el build.",
+        "Defecto del guard a resolver antes (encontrado el 2026-09-25): validateSiloGraph",
+        "(src/lib/data/site-map.ts) marca como malla toda componente fuertemente conexa de 3 o más posts,",
+        "pero una cadena correcta A <-> B <-> C también lo es. Con el guard actual, enlazar bien los",
+        "hermanos de un silo de 3 o más posts falla la suite, salvo que esos posts ya estén en la deuda de",
+        "src/lib/data/silo-cycle-debt.ts (así pasó con stage-lighting-for-weddings y smoke-machine-rental,",
+        "que se sumaron a la línea base el 2026-09-25). Arreglo propuesto, con test primero: aceptar la",
+        "componente cuando sus enlaces son todos recíprocos y forman un camino (n - 1 pares, grado máximo",
+        "2), y seguir marcando todo lo demás."
       ]
     },
     {
