@@ -3,6 +3,43 @@
   "updated": "2026-10-09",
   "tasks": [
     {
+      "id": "#T0097",
+      "estado": "en curso",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "[Local Dominator] Home: cifras de Our Impact in Numbers (27+, 2,500+, +95%) contradicen site.ts y no tienen fuente",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [
+        "fuente: Local Dominator",
+        "Site Audit 2026-10-05",
+        "2026-10-09: implementado sin commitear. Decision del usuario: clientes 1,000+ (aproximado",
+        "nunca se contaron)",
+        "Since 1996 en vez de años",
+        "y nota de Google en vez del 95%. Ver CHANGELOG"
+      ],
+      "descripcion": [
+        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
+        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
+        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
+        "",
+        "Hallazgo del reporte: cuenta \"27+ Years of Experience\", \"2,500+ Happy Clients\" y \"+95% Satisfaction Rate\" como senales de confianza detectadas.",
+        "Verificacion: es al reves, son un riesgo. Los tres numeros estan escritos a mano en src/routes/(public)/+page.svelte (lineas 370, 382 y 394, igual en main) y contradicen las fuentes del proyecto:",
+        "- siteConfig.clientCount es 1000 (.agents/BUSINESS.md: \"Over 1,000+ satisfied clients\"). /about-us/ y el formulario muestran 1,000+ y la home 2,500+: dos cifras distintas en el mismo sitio.",
+        "- siteConfig.foundingYear es 1996, que en 2026 son 30 anos, no 27.",
+        "- \"+95% Satisfaction Rate\" no tiene ninguna fuente en el repo.",
+        "Regla de CLAUDE.md, \"Honestidad\": nunca un especifico que el negocio no pueda verificar.",
+        "",
+        "Que hacer:",
+        "1. Confirmar con el negocio la cifra de clientes y si existe un dato real detras del 95%.",
+        "2. Clientes: leer siteConfig.clientCount con formatNumber (token {clients}), nunca un literal.",
+        "3. Anos: derivarlos de siteConfig.foundingYear, o escribir \"since 1996\".",
+        "4. Satisfaccion: quitar la tarjeta si no hay fuente. Alternativa verificable: la nota media y la cantidad de resenas de getReviewsMeta().",
+        "5. Vale para los 13 idiomas (los numeros estan en el template, no en los diccionarios). Actualizar contentUpdated de la home y el e2e."
+      ]
+    },
+    {
       "id": "#T0109",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -484,39 +521,6 @@
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate (just post-touch). Flujo: just post-sync, post-translator en modo UPDATE, just post-translate-check y just post-translate-finish (UN commit con el ingles y sus 12 traducciones).",
         "Honestidad: inventario propio separado de lo que se consigue con proveedores, precios solo con los helpers, ningun competidor nombrado, nada que el negocio no haya confirmado.",
         "Origen: analisis de los aiPrompts de .agents/context/keywords/ubersuggest/*.json (2026-10-08). Veredicto de cada prompt en .agents/context/keywords/ai-prompts-gap-analysis-2026-10-08.md. Los prompts siguen en idea en keywords.json hasta publicar: despues just keywords-sync."
-      ]
-    },
-    {
-      "id": "#T0097",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "contenido",
-      "titulo": "[Local Dominator] Home: cifras de Our Impact in Numbers (27+, 2,500+, +95%) contradicen site.ts y no tienen fuente",
-      "anotada": "2026-10-08",
-      "hecha": null,
-      "origen": "usuario",
-      "notas": [
-        "fuente: Local Dominator",
-        "Site Audit 2026-10-05"
-      ],
-      "descripcion": [
-        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
-        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
-        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
-        "",
-        "Hallazgo del reporte: cuenta \"27+ Years of Experience\", \"2,500+ Happy Clients\" y \"+95% Satisfaction Rate\" como senales de confianza detectadas.",
-        "Verificacion: es al reves, son un riesgo. Los tres numeros estan escritos a mano en src/routes/(public)/+page.svelte (lineas 370, 382 y 394, igual en main) y contradicen las fuentes del proyecto:",
-        "- siteConfig.clientCount es 1000 (.agents/BUSINESS.md: \"Over 1,000+ satisfied clients\"). /about-us/ y el formulario muestran 1,000+ y la home 2,500+: dos cifras distintas en el mismo sitio.",
-        "- siteConfig.foundingYear es 1996, que en 2026 son 30 anos, no 27.",
-        "- \"+95% Satisfaction Rate\" no tiene ninguna fuente en el repo.",
-        "Regla de CLAUDE.md, \"Honestidad\": nunca un especifico que el negocio no pueda verificar.",
-        "",
-        "Que hacer:",
-        "1. Confirmar con el negocio la cifra de clientes y si existe un dato real detras del 95%.",
-        "2. Clientes: leer siteConfig.clientCount con formatNumber (token {clients}), nunca un literal.",
-        "3. Anos: derivarlos de siteConfig.foundingYear, o escribir \"since 1996\".",
-        "4. Satisfaccion: quitar la tarjeta si no hay fuente. Alternativa verificable: la nota media y la cantidad de resenas de getReviewsMeta().",
-        "5. Vale para los 13 idiomas (los numeros estan en el template, no en los diccionarios). Actualizar contentUpdated de la home y el e2e."
       ]
     },
     {
