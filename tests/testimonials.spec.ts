@@ -1,13 +1,36 @@
 import { test, expect } from '@playwright/test';
 import { revealLazyContent } from './support/lazy';
 
+// The reviews are part of the HTML the server sends, not content that only exists after
+// JavaScript runs and the visitor scrolls: a crawler that does not scroll must still read them.
+test.describe('Testimonials in the served HTML', () => {
+	test('the home page HTML carries every review, in its original language', async ({ request }) => {
+		const html = await (await request.get('/')).text();
+		const cards = html.match(/data-testid="testimonial-card"/g) ?? [];
+		expect(cards.length).toBeGreaterThanOrEqual(7);
+		expect(html).toContain('Anna Wisser');
+		expect(html).toContain('Ting Ting Yu');
+		expect(html).toMatch(/<p[^>]*lang="es"/);
+		expect(html).toMatch(/<p[^>]*lang="zh"/);
+	});
+
+	test('a translated home page quotes the same reviews, untranslated', async ({ request }) => {
+		const en = await (await request.get('/')).text();
+		const de = await (await request.get('/de/')).text();
+		const quote = (html: string) =>
+			html.match(/data-testid="testimonial-text"[^>]*>([^<]{20,})/)?.[1];
+		expect(quote(de)).toBeDefined();
+		expect(quote(de)).toBe(quote(en));
+	});
+});
+
 test.describe('Testimonials Section (Google Reviews) E2E Tests', () => {
 	test.beforeEach(async ({ page }) => {
 		await page.goto('/');
 		await page.waitForLoadState('networkidle');
-		// The testimonials block is wrapped in LazyMount and only mounts once its
-		// placeholder scrolls near the viewport. Trip that observer before the tests
-		// assert on [data-testid="testimonials"], which otherwise never attaches.
+		// The testimonials block is server rendered. Other below the fold sections of the
+		// home page still mount lazily and change the page height, so walk the page once
+		// before asserting on positions.
 		await revealLazyContent(page);
 	});
 

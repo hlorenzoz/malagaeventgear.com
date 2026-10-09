@@ -7,6 +7,13 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (home): las reseñas de Google van en el HTML servido (2026-10-09)
+- Tarea #T0098 (origen: Local Dominator, Site Audit del 2026-10-05, que marcaba como ausentes las reseñas visibles en la pagina). La home las montaba con `LazyMount` y un import dinamico, asi que el texto solo existia despues de ejecutar JavaScript y hacer scroll: el HTML prerenderizado no tenia ninguna tarjeta. Las reseñas visibles en la pagina de destino del GBP son la señal 5 de `.agents/context/local-seo/local-seo-gbp-first.md`.
+- `src/routes/(public)/+page.svelte`: `Testimonials` se importa de forma estatica y se renderiza en el servidor, dentro de un contenedor con `content-visibility: auto` y `contain-intrinsic-size: auto 760px` (el navegador no lo maqueta hasta que se acerca a la pantalla, y el tamaño reservado evita saltos). Vale para los 13 idiomas: las 7 tarjetas salen en el HTML de `/` y de `/zh-hans/`, cada una en su idioma original con su `lang`.
+- `TestimonialCard.svelte`: `data-testid="testimonial-text"` en el texto de la reseña, para los tests.
+- Medicion con Lighthouse (movil, 3 corridas, `bun run preview` local). Antes: rendimiento 84 a 86, FCP 2,46 a 2,55 s, LCP 3,69 a 3,84 s, TBT 0 a 79 ms, CLS 0. Despues: rendimiento 85 a 86, FCP 2,54 a 2,63 s, LCP 3,52 a 3,78 s, TBT 0 a 73 ms, CLS 0. Sin regresion medible salvo unos 80 ms de FCP, dentro del ruido de 3 corridas. El HTML de la home pesa 274 KB.
+- Tests: dos nuevos en `tests/testimonials.spec.ts` que leen el HTML sin ejecutar JavaScript (todas las tarjetas presentes con su `lang`, y la home alemana cita la misma reseña sin traducir). `LazyMount.svelte` queda sin uso en el sitio (se conserva). Sin marcado de reseñas en el JSON-LD. No se probo con la inspeccion de URL de Search Console.
+
 ### Fixed (home): cifras de "Our Impact in Numbers" leidas de su fuente, en los 13 idiomas (2026-10-09)
 - Tarea #T0097 (origen: Local Dominator, Site Audit del 2026-10-05). Las tres tarjetas estaban escritas a mano en `src/routes/(public)/+page.svelte` ("27+", "2,500+", "+95%") y contradecian `siteConfig` y `/about-us/`: fundacion en 1996 (30 años, no 27), 1.000 clientes, y el 95% no tenia ninguna fuente.
 - Decision del usuario (2026-10-09): la cifra de clientes nunca se conto, es un aproximado y queda en "1,000+". La satisfaccion recien se empieza a medir con las reseñas, asi que no se publica un porcentaje. Los años se escriben como "Since 1996".

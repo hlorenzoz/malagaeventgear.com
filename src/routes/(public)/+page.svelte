@@ -1,6 +1,6 @@
 <script lang="ts">
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
-	import LazyMount from '$lib/components/util/LazyMount.svelte';
+	import Testimonials from '$lib/components/testimonials/Testimonials.svelte';
 	import { i18n } from '$lib/i18n.svelte';
 	import { faqCopy, pkgCopy } from '$lib/i18n/data-copy.svelte';
 	import { packages, getPriceRange, formatPrice } from '$lib/data/packages';
@@ -789,13 +789,12 @@
 <PartnerSection copy={copy.partner} href={tgeUrl(i18n.lang)} />
 
 <!-- Testimonials Section (Google Reviews).
-     Below the fold: lazy-mounted + code-split (dynamic import) so its carousel JS and
-     DOM stay out of the initial bundle and the critical render window. -->
-<LazyMount minHeight="760px">
-	{#await import('$lib/components/testimonials/Testimonials.svelte') then { default: Testimonials }}
-		<Testimonials />
-	{/await}
-</LazyMount>
+     Rendered on the server so the review text is in the HTML a crawler receives (reviews shown
+     on the GBP landing page are a local consistency signal). `content-visibility: auto` keeps the
+     browser from laying it out until it nears the viewport, and the reserved size avoids a shift. -->
+<div style="content-visibility: auto; contain-intrinsic-size: auto 760px;">
+	<Testimonials />
+</div>
 
 <!-- Google Location / Share Section -->
 <GoogleEmbedSection />
