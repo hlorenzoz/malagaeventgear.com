@@ -49,6 +49,13 @@
  * como caso de Experience (regla 4 del posicionamiento), y el News enlaza de vuelta a la guía de
  * deportes. Mismo caso que el News del consejo vecinal, que ya estaba en esta componente.
  *
+ * Actualizado 2026-10-09: la componente pasó de 62 a 71 nodos (tarea #T0033). Entraron audio-visual-rental-for-art-exhibitions, audio-visual-rental-for-private-parties, audio-visual-rental-for-trade-shows, audio-visual-rental-for-weddings, audio-visual-rental-planning-timeline, audio-visual-rental-safety-guidelines, benefits-of-audio-visual-rental, stage-monitor-rental, wedding-rentals
+ * por los enlaces laterales entre hermanos adyacentes del silo audio visual rental que exige el
+ * reverse silo, en los dos sentidos y en orden de publishDate: 7 posts de soporte no enlazaban a
+ * ningún hermano. Mismo caso que las entradas del 2026-09-25 y del 2026-10-07: sus vecinos ya
+ * estaban en esta componente, así que todo hermano enlazado en los dos sentidos con ellos queda
+ * dentro. No es una malla nueva.
+ *
  * Formato de cada signature: los slugs de la componente, deduplicados, ordenados
  * alfabéticamente y unidos con `|` (mismo formato que usa internamente `findStronglyConnectedComponents`
  * a través de `validateSiloGraph`).
@@ -62,6 +69,7 @@ export const KNOWN_SILO_CYCLE_DEBT: readonly string[] = [
 		'audio-visual-hire-near-me-in-malaga-spain',
 		'audio-visual-rental-companies',
 		'audio-visual-rental-company',
+		'audio-visual-rental-for-art-exhibitions',
 		'audio-visual-rental-for-charity-fundraisers',
 		'audio-visual-rental-for-conferences',
 		'audio-visual-rental-for-corporate-events',
@@ -70,19 +78,26 @@ export const KNOWN_SILO_CYCLE_DEBT: readonly string[] = [
 		'audio-visual-rental-for-music-performances',
 		'audio-visual-rental-for-outdoor-events',
 		'audio-visual-rental-for-press-conferences',
+		'audio-visual-rental-for-private-parties',
 		'audio-visual-rental-for-product-launches',
 		'audio-visual-rental-for-religious-events',
 		'audio-visual-rental-for-remote-presentations',
 		'audio-visual-rental-for-seminars',
 		'audio-visual-rental-for-small-businesses',
 		'audio-visual-rental-for-sports-events',
+		'audio-visual-rental-for-trade-shows',
 		'audio-visual-rental-for-training-sessions',
 		'audio-visual-rental-for-virtual-events',
+		'audio-visual-rental-for-weddings',
+		'audio-visual-rental-planning-timeline',
+		'audio-visual-rental-safety-guidelines',
 		'audiovisual-equipment-rental-service',
 		'av-cable-management',
 		'av-equipment-consultations',
 		'av-system-troubleshooting',
 		'av-technician-hire',
+		'benefits-of-audio-visual-rental',
+		'billie-jean-king-cup-2024-sound-and-lighting',
 		'common-av-rental-mistakes',
 		'eco-friendly-wedding-rental-options',
 		'essential-items-for-wedding-rentals',
@@ -98,16 +113,16 @@ export const KNOWN_SILO_CYCLE_DEBT: readonly string[] = [
 		'making-the-most-of-wedding-rentals',
 		'managing-last-minute-wedding-rental-changes',
 		'outdoor-movie-screen-and-projector-rental',
-		'billie-jean-king-cup-2024-sound-and-lighting',
 		'outdoor-wedding-rental-considerations',
 		'projector-rental',
 		'pros-and-cons-of-wedding-rentals',
 		'protecting-your-wedding-rental-items',
 		'questions-to-ask-wedding-rental-companies',
-		'sound-system-rental',
-		'stage-uplighting',
-		'stage-lighting-for-weddings',
 		'smoke-machine-rental',
+		'sound-system-rental',
+		'stage-lighting-for-weddings',
+		'stage-monitor-rental',
+		'stage-uplighting',
 		'technical-support-for-events',
 		'timeline-for-booking-wedding-rentals',
 		'tips-for-reducing-wedding-rental-costs',
@@ -115,6 +130,7 @@ export const KNOWN_SILO_CYCLE_DEBT: readonly string[] = [
 		'unique-wedding-ceremony-rentals',
 		'video-switcher-rental',
 		'weather-considerations-for-outdoor-rentals',
+		'wedding-rentals',
 		'wedding-rentals-near-me',
 		'wedding-rentals-online'
 	]
