@@ -487,40 +487,6 @@
       ]
     },
     {
-      "id": "#T0106",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "diseno",
-      "titulo": "Carrusel compacto de reseñas de Google debajo de cada CTA de paquete",
-      "anotada": "2026-10-08",
-      "hecha": null,
-      "origen": "usuario",
-      "notas": [
-        "PostCTA se usa en BlogPost.svelte (final del post) y dentro del cuerpo via InlineCTA.svelte: un post puede tener dos CTA",
-        "decidir si el carrusel va bajo los dos o solo bajo uno"
-      ],
-      "descripcion": [
-        "Pedido del usuario (2026-10-08): debajo de cada CTA de paquete del sitio, un carrusel horizontal con las reseñas de Google My Business, como la sección de reseñas de la home pero con un diseño más estrecho, para que no ocupe tanto espacio.",
-        "",
-        "Qué es cada pieza:",
-        "- CTA de paquete: src/lib/components/blog/PostCTA.svelte (la tarjeta \"Organising a corporate event? Get the Basic MICE Pack...\", con precio y los botones \"View the ... Pack\" y \"Get a free quote\"). Confirmar dónde más se muestra un CTA de paquete antes de empezar: el pedido dice \"cada CTA de paquetes en el sitio\".",
-        "- Reseñas actuales: src/lib/components/testimonials/Testimonials.svelte (home), con los datos de src/lib/data/testimonials.ts (getTestimonials, getReviewsMeta) y el enlace \"See all reviews\" a siteConfig.googleBusinessProfile.",
-        "",
-        "Qué hacer:",
-        "1. Una variante compacta del carrusel (scroll horizontal con snap), reutilizando los datos y la tarjeta de reseña, no un segundo componente con datos propios. Menos alto que el de la home: tarjetas más bajas, sin el bloque grande \"EXCELLENT\" o con una sola línea de nota y cantidad.",
-        "2. Montarla debajo de cada CTA de paquete, en los 13 idiomas. El chrome (títulos, botones, etiquetas aria) sale del diccionario de cada idioma.",
-        "3. Las reseñas nunca se traducen: van en su idioma original con su atributo lang.",
-        "4. Si se puede, elegir reseñas relevantes para el paquete del CTA. Si no hay ninguna, las generales. Nunca inventar ni parafrasear.",
-        "5. Que el texto de las reseñas vaya en el HTML servido (ver la tarea #T0098: hoy las de la home solo existen tras ejecutar JavaScript).",
-        "",
-        "Cuidados:",
-        "- Rendimiento: el CTA aparece en todos los posts. Medir antes y después con chrome-devtools-mcp y lighthouse (regla 10), sin CLS ni JavaScript de más en la carga inicial.",
-        "- Diseño: seguir DESIGN.md y probar los dos temas. Objetivos táctiles de 44 px y navegación por teclado.",
-        "- Sin marcado de reseñas propio en el JSON-LD.",
-        "- Seguir SDD (regla 6), y sumar o actualizar los e2e (tests/testimonials.spec.ts, tests/blog-translations.spec.ts)."
-      ]
-    },
-    {
       "id": "#T0048",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -1749,6 +1715,43 @@
         "2. Dejar una sola fuente (siteConfig) y que GoogleEmbedSection y testimonials.ts la lean.",
         "3. Valorar el enlace canonico de Maps con CID en lugar del corto, y el embed por place id. Si cambia, revisar sameAs.",
         "4. Buscar en todo el repo antes de cambiar (el NAP y estos enlaces estan repetidos en varios archivos)."
+      ]
+    },
+    {
+      "id": "#T0106",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "diseno",
+      "titulo": "Carrusel compacto de reseñas de Google debajo de cada CTA de paquete",
+      "anotada": "2026-10-08",
+      "hecha": "2026-10-09",
+      "origen": "usuario",
+      "notas": [
+        "PostCTA se usa en BlogPost.svelte (final del post) y dentro del cuerpo via InlineCTA.svelte: un post puede tener dos CTA",
+        "decidir si el carrusel va bajo los dos o solo bajo uno",
+        "2026-10-09: hecha",
+        "tira ReviewsStrip dentro de PostCTA (los dos CTA de cada post)",
+        "reemplaza el carrusel grande del final del post"
+      ],
+      "descripcion": [
+        "Pedido del usuario (2026-10-08): debajo de cada CTA de paquete del sitio, un carrusel horizontal con las reseñas de Google My Business, como la sección de reseñas de la home pero con un diseño más estrecho, para que no ocupe tanto espacio.",
+        "",
+        "Qué es cada pieza:",
+        "- CTA de paquete: src/lib/components/blog/PostCTA.svelte (la tarjeta \"Organising a corporate event? Get the Basic MICE Pack...\", con precio y los botones \"View the ... Pack\" y \"Get a free quote\"). Confirmar dónde más se muestra un CTA de paquete antes de empezar: el pedido dice \"cada CTA de paquetes en el sitio\".",
+        "- Reseñas actuales: src/lib/components/testimonials/Testimonials.svelte (home), con los datos de src/lib/data/testimonials.ts (getTestimonials, getReviewsMeta) y el enlace \"See all reviews\" a siteConfig.googleBusinessProfile.",
+        "",
+        "Qué hacer:",
+        "1. Una variante compacta del carrusel (scroll horizontal con snap), reutilizando los datos y la tarjeta de reseña, no un segundo componente con datos propios. Menos alto que el de la home: tarjetas más bajas, sin el bloque grande \"EXCELLENT\" o con una sola línea de nota y cantidad.",
+        "2. Montarla debajo de cada CTA de paquete, en los 13 idiomas. El chrome (títulos, botones, etiquetas aria) sale del diccionario de cada idioma.",
+        "3. Las reseñas nunca se traducen: van en su idioma original con su atributo lang.",
+        "4. Si se puede, elegir reseñas relevantes para el paquete del CTA. Si no hay ninguna, las generales. Nunca inventar ni parafrasear.",
+        "5. Que el texto de las reseñas vaya en el HTML servido (ver la tarea #T0098: hoy las de la home solo existen tras ejecutar JavaScript).",
+        "",
+        "Cuidados:",
+        "- Rendimiento: el CTA aparece en todos los posts. Medir antes y después con chrome-devtools-mcp y lighthouse (regla 10), sin CLS ni JavaScript de más en la carga inicial.",
+        "- Diseño: seguir DESIGN.md y probar los dos temas. Objetivos táctiles de 44 px y navegación por teclado.",
+        "- Sin marcado de reseñas propio en el JSON-LD.",
+        "- Seguir SDD (regla 6), y sumar o actualizar los e2e (tests/testimonials.spec.ts, tests/blog-translations.spec.ts)."
       ]
     },
     {
