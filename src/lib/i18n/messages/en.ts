@@ -108,7 +108,8 @@ const en = {
 		fxTitle: 'Smoke Machine',
 		fxText:
 			'Add atmosphere to your dance floor or stage with our professional Martin Magnum 650 smoke machine.',
-		bookEquipment: 'Book Packages'
+		bookEquipment: 'Book Packages',
+		viewEquipment: 'See all our equipment'
 	},
 	// Pricing
 	pricing: {

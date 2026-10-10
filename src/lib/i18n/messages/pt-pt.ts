@@ -103,7 +103,8 @@ const t = {
 		fxTitle: 'Máquina de fumo',
 		fxText:
 			'Dê mais ambiente à sua pista de dança ou ao seu palco com a nossa máquina de fumo profissional Martin Magnum 650.',
-		bookEquipment: 'Reservar pacotes'
+		bookEquipment: 'Reservar pacotes',
+		viewEquipment: 'Ver todo o nosso equipamento'
 	},
 	// Pricing
 	pricing: {

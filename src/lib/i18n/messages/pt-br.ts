@@ -103,7 +103,8 @@ const t = {
 		fxTitle: 'Máquina de fumaça',
 		fxText:
 			'Dê mais clima à sua pista de dança ou ao seu palco com nossa máquina de fumaça profissional Martin Magnum 650.',
-		bookEquipment: 'Reservar pacotes'
+		bookEquipment: 'Reservar pacotes',
+		viewEquipment: 'Ver todos os nossos equipamentos'
 	},
 	// Pricing
 	pricing: {

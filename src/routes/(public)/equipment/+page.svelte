@@ -46,15 +46,24 @@
 />
 
 <!-- Main Header Section -->
-<section class="relative px-margin-mobile md:px-margin-desktop py-20 md:py-32 max-w-container-max mx-auto text-center flex flex-col items-center justify-center">
+<section
+	class="relative px-margin-mobile md:px-margin-desktop py-20 md:py-32 max-w-container-max mx-auto text-center flex flex-col items-center justify-center"
+>
 	<!-- Ambient decoration glow -->
-	<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary-container rounded-full blur-[120px] opacity-20 pointer-events-none"></div>
-	
+	<div
+		class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary-container rounded-full blur-[120px] opacity-20 pointer-events-none"
+	></div>
+
 	<span class="font-label-lg text-electric-blue uppercase tracking-[0.2em] mb-4 block">
 		{copy.hero.badge}
 	</span>
-	<h1 class="font-headline-lg-mobile md:font-display-lg text-headline-lg-mobile md:text-display-lg text-on-surface mb-6 max-w-4xl mx-auto leading-tight">
-		{copy.hero.titlePart1}{i18n.space}<span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-electric-blue">{copy.hero.titlePart2}</span>
+	<h1
+		class="font-headline-lg-mobile md:font-display-lg text-headline-lg-mobile md:text-display-lg text-on-surface mb-6 max-w-4xl mx-auto leading-tight"
+	>
+		{copy.hero.titlePart1}{i18n.space}<span
+			class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-electric-blue"
+			>{copy.hero.titlePart2}</span
+		>
 	</h1>
 	<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-10">
 		{copy.hero.subtitle}
@@ -63,16 +72,24 @@
 
 <!-- Featured Package: MICE Pack -->
 <section class="px-margin-mobile md:px-margin-desktop py-16 max-w-container-max mx-auto">
-	<div class="relative bg-surface-container-low border border-border-glass rounded-[24px] overflow-hidden group reveal active is-revealed">
+	<div
+		class="relative bg-surface-container-low border border-border-glass rounded-[24px] overflow-hidden group reveal active is-revealed"
+	>
 		<!-- Hover ambient shadow -->
-		<div class="absolute -inset-1 bg-gradient-to-r from-electric-blue/10 to-electric-blue-strong/10 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
-		
+		<div
+			class="absolute -inset-1 bg-gradient-to-r from-electric-blue/10 to-electric-blue-strong/10 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"
+		></div>
+
 		<div class="relative grid grid-cols-1 lg:grid-cols-2 gap-0">
 			<!-- Featured Image -->
 			<div class="relative h-[400px] lg:h-auto overflow-hidden">
 				<picture class="absolute inset-0 w-full h-full">
-					<source media="(max-width: 1023px)" srcset={packageImageVariant('/images/packages/mice.webp', 'mobile')} type="image/webp" />
-					<source media="(min-width: 1024px)" srcset={MICE_EQUIPMENT_PAGE_IMAGE} type="image/webp" />
+					<source
+						media="(max-width: 1023px)"
+						srcset={packageImageVariant('/images/packages/mice.webp', 'mobile')}
+						type="image/webp"
+					>
+					<source media="(min-width: 1024px)" srcset={MICE_EQUIPMENT_PAGE_IMAGE} type="image/webp">
 					<img
 						alt={copy.featured.imageAlt}
 						class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out opacity-80"
@@ -82,17 +99,25 @@
 						decoding="async"
 						width="800"
 						height="600"
-					/>
+					>
 				</picture>
-				<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent lg:bg-gradient-to-r"></div>
-				<div class="absolute top-6 left-6 bg-surface-glass backdrop-blur-md border border-border-glass rounded-full px-4 py-1.5 flex items-center gap-2">
+				<div
+					class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent lg:bg-gradient-to-r"
+				></div>
+				<div
+					class="absolute top-6 left-6 bg-surface-glass backdrop-blur-md border border-border-glass rounded-full px-4 py-1.5 flex items-center gap-2"
+				>
 					<div class="w-2 h-2 rounded-full bg-electric-blue animate-pulse"></div>
-					<span class="font-label-sm text-label-sm text-on-surface uppercase">{copy.featured.badge}</span>
+					<span class="font-label-sm text-label-sm text-on-surface uppercase"
+						>{copy.featured.badge}</span
+					>
 				</div>
 			</div>
 
 			<!-- Content Details -->
-			<div class="p-8 md:p-16 flex flex-col justify-center relative z-10 bg-surface-glass backdrop-blur-xl">
+			<div
+				class="p-8 md:p-16 flex flex-col justify-center relative z-10 bg-surface-glass backdrop-blur-xl"
+			>
 				<h2 class="font-headline-md text-headline-md text-on-surface mb-4">{micePkg.name}</h2>
 				<p class="font-body-md text-body-md text-on-surface-variant mb-8">
 					{pkgCopy(micePkg).desc}
@@ -119,8 +144,15 @@
 
 				<div class="flex flex-col sm:flex-row items-center gap-6 mt-auto">
 					<div class="text-left w-full sm:w-auto">
-						<span class="block font-label-sm text-label-sm text-on-surface-variant">{i18n.t.pricing.from}</span>
-						<span class="font-headline-md text-[28px] text-primary">{formatPrice(micePkg.price, i18n.lang)}{i18n.space}<span class="text-[14px] text-on-surface-variant">{i18n.t.pricing.plusVatShort}</span></span>
+						<span class="block font-label-sm text-label-sm text-on-surface-variant"
+							>{i18n.t.pricing.from}</span
+						>
+						<span class="font-headline-md text-[28px] text-primary"
+							>{formatPrice(micePkg.price, i18n.lang)}{i18n.space}<span
+								class="text-[14px] text-on-surface-variant"
+								>{i18n.t.pricing.plusVatShort}</span
+							></span
+						>
 					</div>
 					<a
 						class="w-full sm:w-auto px-8 py-3 rounded-full bg-electric-blue-strong text-white font-label-lg uppercase tracking-wider hover:shadow-lg hover:shadow-electric-blue/30 active:scale-95 transition-all duration-300 ml-auto flex items-center justify-center gap-2"
@@ -146,53 +178,86 @@
 			</p>
 		</div>
 	</div>
-	
+
 	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[400px]">
 		<!-- Audio -->
-		<div class="group relative rounded-[20px] overflow-hidden border border-border-glass bg-surface-container-low lg:col-span-2 row-span-1 reveal active is-revealed">
+		<div
+			class="group relative rounded-[20px] overflow-hidden border border-border-glass bg-surface-container-low lg:col-span-2 row-span-1 reveal active is-revealed"
+		>
 			<img
 				alt={copy.audio.imageAlt}
-				class="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-90 transition-opacity duration-500 pointer-events-none" 
-				src={coverThumbs['https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled.webp']?.thumb ?? 'https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled.webp'}
-				srcset={coverThumbs['https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled.webp']?.srcset}
+				class="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-90 transition-opacity duration-500 pointer-events-none"
+				src={coverThumbs[
+					'https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled.webp'
+				]?.thumb ??
+					'https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled.webp'}
+				srcset={coverThumbs[
+					'https://cdn.malagaeventgear.com/blog/1276/malaga_congress_sound_system_rental-scaled.webp'
+				]?.srcset}
 				sizes="(max-width: 767px) 400px, 600px"
 				loading="lazy"
 				decoding="async"
 				width="600"
 				height="400"
-			/>
-			<div class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-background via-background/70 to-transparent"></div>
-			<div class="absolute inset-0 bg-surface-glass backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-			<div class="absolute bottom-0 left-0 w-full p-8 flex flex-col justify-end h-full z-10 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-				<div class="w-12 h-12 rounded-full bg-primary-container/50 border border-electric-blue/30 flex items-center justify-center mb-4 backdrop-blur-md">
+			>
+			<div
+				class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-background via-background/70 to-transparent"
+			></div>
+			<div
+				class="absolute inset-0 bg-surface-glass backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+			></div>
+			<div
+				class="absolute bottom-0 left-0 w-full p-8 flex flex-col justify-end h-full z-10 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500"
+			>
+				<div
+					class="w-12 h-12 rounded-full bg-primary-container/50 border border-electric-blue/30 flex items-center justify-center mb-4 backdrop-blur-md"
+				>
 					<Icon name="speaker" className="text-primary" />
 				</div>
-				<h3 class="font-headline-md text-[28px] text-on-surface mb-2">{i18n.t.categories.soundTitle}</h3>
-				<p class="font-body-md text-body-md text-on-surface-variant max-w-md opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+				<h3 class="font-headline-md text-[28px] text-on-surface mb-2">
+					{i18n.t.categories.soundTitle}
+				</h3>
+				<p
+					class="font-body-md text-body-md text-on-surface-variant max-w-md opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100"
+				>
 					{copy.audio.desc}
 				</p>
 			</div>
 		</div>
 
 		<!-- Lighting -->
-		<div class="group relative rounded-[20px] overflow-hidden border border-border-glass bg-surface-container-low row-span-1 reveal active is-revealed" style="transition-delay: 100ms;">
+		<div
+			class="group relative rounded-[20px] overflow-hidden border border-border-glass bg-surface-container-low row-span-1 reveal active is-revealed"
+			style="transition-delay: 100ms;"
+		>
 			<img
 				alt={copy.lighting.imageAlt}
-				class="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-90 transition-opacity duration-500 pointer-events-none" 
-				src={coverThumbs['https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled.webp']?.thumb ?? 'https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled.webp'}
-				srcset={coverThumbs['https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled.webp']?.srcset}
+				class="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-90 transition-opacity duration-500 pointer-events-none"
+				src={coverThumbs[
+					'https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled.webp'
+				]?.thumb ??
+					'https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled.webp'}
+				srcset={coverThumbs[
+					'https://cdn.malagaeventgear.com/blog/1297/malaga_event_lighting_sound_system_rental_2-scaled.webp'
+				]?.srcset}
 				sizes="(max-width: 767px) 400px, 600px"
 				loading="lazy"
 				decoding="async"
 				width="600"
 				height="400"
-			/>
-			<div class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-background via-background/70 to-transparent"></div>
+			>
+			<div
+				class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-background via-background/70 to-transparent"
+			></div>
 			<div class="absolute bottom-0 left-0 w-full p-8 z-10">
-				<div class="w-12 h-12 rounded-full bg-primary-container/50 border border-primary/30 flex items-center justify-center mb-4 backdrop-blur-md">
+				<div
+					class="w-12 h-12 rounded-full bg-primary-container/50 border border-primary/30 flex items-center justify-center mb-4 backdrop-blur-md"
+				>
 					<Icon name="lightbulb" className="text-primary" />
 				</div>
-				<h3 class="font-headline-md text-[24px] text-on-surface mb-2">{i18n.t.categories.lightTitle}</h3>
+				<h3 class="font-headline-md text-[24px] text-on-surface mb-2">
+					{i18n.t.categories.lightTitle}
+				</h3>
 				<p class="font-body-md text-body-md text-on-surface-variant text-sm line-clamp-2">
 					{copy.lighting.desc}
 				</p>
@@ -200,24 +265,38 @@
 		</div>
 
 		<!-- Visuals -->
-		<div class="group relative rounded-[20px] overflow-hidden border border-border-glass bg-surface-container-low row-span-1 reveal active is-revealed" style="transition-delay: 200ms;">
+		<div
+			class="group relative rounded-[20px] overflow-hidden border border-border-glass bg-surface-container-low row-span-1 reveal active is-revealed"
+			style="transition-delay: 200ms;"
+		>
 			<img
 				alt={copy.visuals.imageAlt}
-				class="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-90 transition-opacity duration-500 pointer-events-none" 
-				src={coverThumbs['https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1.webp']?.thumb ?? 'https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1.webp'}
-				srcset={coverThumbs['https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1.webp']?.srcset}
+				class="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-90 transition-opacity duration-500 pointer-events-none"
+				src={coverThumbs[
+					'https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1.webp'
+				]?.thumb ??
+					'https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1.webp'}
+				srcset={coverThumbs[
+					'https://cdn.malagaeventgear.com/blog/1301/lighting-sound-big-screen-projector-rental-malaga_1.webp'
+				]?.srcset}
 				sizes="(max-width: 767px) 400px, 600px"
 				loading="lazy"
 				decoding="async"
 				width="600"
 				height="400"
-			/>
-			<div class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-background via-background/70 to-transparent"></div>
+			>
+			<div
+				class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-background via-background/70 to-transparent"
+			></div>
 			<div class="absolute bottom-0 left-0 w-full p-8 z-10">
-				<div class="w-12 h-12 rounded-full bg-primary-container/50 border border-primary/30 flex items-center justify-center mb-4 backdrop-blur-md">
+				<div
+					class="w-12 h-12 rounded-full bg-primary-container/50 border border-primary/30 flex items-center justify-center mb-4 backdrop-blur-md"
+				>
 					<Icon name="videocam" className="text-primary" />
 				</div>
-				<h3 class="font-headline-md text-[24px] text-on-surface mb-2">{i18n.t.categories.visualTitle}</h3>
+				<h3 class="font-headline-md text-[24px] text-on-surface mb-2">
+					{i18n.t.categories.visualTitle}
+				</h3>
 				<p class="font-body-md text-body-md text-on-surface-variant text-sm line-clamp-2">
 					{copy.visuals.desc}
 				</p>
@@ -225,21 +304,35 @@
 		</div>
 
 		<!-- Special Effects -->
-		<div class="group relative rounded-[20px] overflow-hidden border border-border-glass bg-surface-container-low lg:col-span-2 row-span-1 reveal active is-revealed" style="transition-delay: 300ms;">
+		<div
+			class="group relative rounded-[20px] overflow-hidden border border-border-glass bg-surface-container-low lg:col-span-2 row-span-1 reveal active is-revealed"
+			style="transition-delay: 300ms;"
+		>
 			<img
 				alt={copy.effects.imageAlt}
-				class="absolute inset-0 w-full h-full object-cover opacity-45 group-hover:opacity-60 transition-opacity duration-500 pointer-events-none" 
-				src={coverThumbs['https://cdn.malagaeventgear.com/blog/1296/malaga_event_lighting_sound_system_rental-scaled.webp']?.thumb ?? 'https://cdn.malagaeventgear.com/blog/1296/malaga_event_lighting_sound_system_rental-scaled.webp'}
-				srcset={coverThumbs['https://cdn.malagaeventgear.com/blog/1296/malaga_event_lighting_sound_system_rental-scaled.webp']?.srcset}
+				class="absolute inset-0 w-full h-full object-cover opacity-45 group-hover:opacity-60 transition-opacity duration-500 pointer-events-none"
+				src={coverThumbs[
+					'https://cdn.malagaeventgear.com/blog/1296/malaga_event_lighting_sound_system_rental-scaled.webp'
+				]?.thumb ??
+					'https://cdn.malagaeventgear.com/blog/1296/malaga_event_lighting_sound_system_rental-scaled.webp'}
+				srcset={coverThumbs[
+					'https://cdn.malagaeventgear.com/blog/1296/malaga_event_lighting_sound_system_rental-scaled.webp'
+				]?.srcset}
 				sizes="(max-width: 767px) 400px, 600px"
 				loading="lazy"
 				decoding="async"
 				width="600"
 				height="400"
-			/>
-			<div class="absolute inset-0 bg-gradient-to-r from-background via-background/20 to-transparent"></div>
-			<div class="absolute top-0 left-0 w-full h-full p-8 flex flex-col justify-center z-10 max-w-lg">
-				<div class="w-12 h-12 rounded-full bg-primary-container/50 border border-primary/30 flex items-center justify-center mb-4 backdrop-blur-md">
+			>
+			<div
+				class="absolute inset-0 bg-gradient-to-r from-background via-background/20 to-transparent"
+			></div>
+			<div
+				class="absolute top-0 left-0 w-full h-full p-8 flex flex-col justify-center z-10 max-w-lg"
+			>
+				<div
+					class="w-12 h-12 rounded-full bg-primary-container/50 border border-primary/30 flex items-center justify-center mb-4 backdrop-blur-md"
+				>
 					<Icon name="memory" className="text-primary" />
 				</div>
 				<h3 class="font-headline-md text-[28px] text-on-surface mb-4">{copy.effects.title}</h3>
@@ -260,7 +353,9 @@
 <!-- Gallery Marquee Section -->
 <section class="py-24 overflow-hidden relative">
 	<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center mb-12">
-		<span class="inline-block px-4 py-2 rounded-full glass-panel font-label-sm text-electric-blue uppercase tracking-widest mb-4">
+		<span
+			class="inline-block px-4 py-2 rounded-full glass-panel font-label-sm text-electric-blue uppercase tracking-widest mb-4"
+		>
 			{i18n.t.gallery.titleHome}
 		</span>
 	</div>
@@ -276,20 +371,33 @@
 
 <!-- Special Effects banner -->
 <section class="py-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
-	<div class="glass-panel rounded-2xl overflow-hidden relative group h-[200px] flex items-center px-8 reveal active is-revealed">
-		<div class="absolute right-0 top-0 bottom-0 w-1/2 bg-gradient-to-l from-electric-blue/10 to-transparent opacity-50"></div>
+	<div
+		class="glass-panel rounded-2xl overflow-hidden relative group h-[200px] flex items-center px-8 reveal active is-revealed"
+	>
+		<div
+			class="absolute right-0 top-0 bottom-0 w-1/2 bg-gradient-to-l from-electric-blue/10 to-transparent opacity-50"
+		></div>
 		<div class="relative z-20 flex w-full justify-between items-center">
 			<div>
-				<h2 class="font-headline-md text-headline-md text-on-surface mb-2">{i18n.t.categories.fxTitle}</h2>
+				<h2 class="font-headline-md text-headline-md text-on-surface mb-2">
+					{i18n.t.categories.fxTitle}
+				</h2>
 				<p class="font-body-md text-on-surface-variant max-w-lg">
 					{i18n.t.categories.fxText}
 				</p>
 			</div>
 			<a
 				href={i18n.href('/packages/')}
+				title={i18n.t.categories.bookEquipment}
+				data-testid="equipment-packages-link"
 				class="hidden md:flex w-16 h-16 rounded-full border border-border-glass items-center justify-center hover:bg-on-surface/5 active:scale-90 transition-all duration-300 text-on-surface"
 			>
-				<Icon name="arrow_forward" size="32" className="group-hover:translate-x-1 transition-transform" />
+				<Icon
+					name="arrow_forward"
+					size="32"
+					className="group-hover:translate-x-1 transition-transform"
+				/>
+				<span class="sr-only">{i18n.t.categories.bookEquipment}</span>
 			</a>
 		</div>
 	</div>

@@ -102,7 +102,8 @@ const t = {
 		fxTitle: 'Rookmachine',
 		fxText:
 			'Geef je dansvloer of podium extra sfeer met onze professionele rookmachine, de Martin Magnum 650.',
-		bookEquipment: 'Pakketten boeken'
+		bookEquipment: 'Pakketten boeken',
+		viewEquipment: 'Bekijk al onze apparatuur'
 	},
 	// Pricing
 	pricing: {

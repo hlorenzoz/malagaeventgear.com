@@ -578,6 +578,8 @@
 				</div>
 				<a
 					href={i18n.href('/equipment/')}
+					title={i18n.t.categories.viewEquipment}
+					data-testid="categories-equipment-link"
 					class="hidden md:flex w-16 h-16 rounded-full border border-border-glass items-center justify-center hover:bg-on-surface/5 active:scale-90 transition-all duration-300 text-on-surface"
 				>
 					<Icon
@@ -585,6 +587,7 @@
 						size="32"
 						className="group-hover:translate-x-1 transition-transform"
 					/>
+					<span class="sr-only">{i18n.t.categories.viewEquipment}</span>
 				</a>
 			</div>
 		</div>

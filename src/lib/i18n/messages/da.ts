@@ -102,7 +102,8 @@ const t = {
 		fxTitle: 'Røgmaskine',
 		fxText:
 			'Giv dansegulvet eller scenen ekstra stemning med vores professionelle røgmaskine Martin Magnum 650.',
-		bookEquipment: 'Book pakker'
+		bookEquipment: 'Book pakker',
+		viewEquipment: 'Se alt vores udstyr'
 	},
 	// Pricing
 	pricing: {

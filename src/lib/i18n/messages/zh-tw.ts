@@ -96,7 +96,8 @@ const t = {
 		visualText: '清晰高畫質視覺效果，為簡報活動帶來震撼視覺衝擊。',
 		fxTitle: '煙霧機',
 		fxText: '使用我們專業的Martin Magnum 650煙霧機，為您的舞池或舞台增添氛圍。',
-		bookEquipment: '預約方案'
+		bookEquipment: '預約方案',
+		viewEquipment: '查看我們的全部設備'
 	},
 	// Pricing
 	pricing: {

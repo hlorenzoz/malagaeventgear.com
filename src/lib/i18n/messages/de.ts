@@ -100,7 +100,8 @@ const t = {
 		fxTitle: 'Nebelmaschine',
 		fxText:
 			'Sorgen Sie mit unserer professionellen Nebelmaschine Martin Magnum 650 für Atmosphäre auf Ihrer Tanzfläche oder Bühne.',
-		bookEquipment: 'Pakete buchen'
+		bookEquipment: 'Pakete buchen',
+		viewEquipment: 'Unsere gesamte Ausrüstung ansehen'
 	},
 	pricing: {
 		badge: 'Transparente Preise',

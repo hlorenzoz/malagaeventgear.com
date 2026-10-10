@@ -102,7 +102,8 @@ const t = {
 		fxTitle: 'Rökmaskin',
 		fxText:
 			'Ge dansgolvet eller scenen mer atmosfär med vår professionella rökmaskin Martin Magnum 650.',
-		bookEquipment: 'Boka paket'
+		bookEquipment: 'Boka paket',
+		viewEquipment: 'Se all vår utrustning'
 	},
 	// Pricing
 	pricing: {
