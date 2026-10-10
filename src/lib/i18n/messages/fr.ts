@@ -70,7 +70,7 @@ const t = {
 		badge: "En un coup d'œil",
 		sellQ: 'Que proposons-nous ?',
 		sellA:
-			'Nous louons du matériel audiovisuel haut de gamme (systèmes de son professionnels, éclairage scénique, vidéoprojecteurs et écrans) pour des événements dans toute la région de Malaga et sur la Costa del Sol, avec livraison, installation et assistance technique sur place incluses.',
+			'Nous louons du matériel audiovisuel haut de gamme (systèmes de son professionnels, éclairage scénique, vidéoprojecteurs et écrans) pour des événements dans toute la région de Malaga, en Espagne, et sur la Costa del Sol, avec livraison, installation et assistance technique sur place incluses.',
 		whoQ: 'À qui nous adressons-nous ?',
 		whoA: 'Aux couples qui préparent leur mariage, aux entreprises qui organisent des conférences et des événements professionnels, et à toute personne qui organise une fête ou une célébration privée et souhaite un son et un éclairage parfaits sans acheter le matériel.',
 		costQ: 'Quel est le tarif ?',
@@ -111,7 +111,7 @@ const t = {
 		badge: 'Tarifs transparents',
 		title: 'Des forfaits sur mesure pour chaque événement',
 		subtitle:
-			"Choisissez parmi nos forfaits de location flexibles, conçus pour s'adapter parfaitement à la taille et au budget de chaque événement. Nous simplifions l'organisation !",
+			"Choisissez parmi nos forfaits de location flexibles, conçus pour s'adapter parfaitement à la taille et au budget de chaque événement. Notre équipe à Malaga, en Espagne, simplifie l'organisation !",
 		includes: 'Inclus :',
 		includedServices: 'Services inclus :',
 		optional: 'En option :',
@@ -169,7 +169,7 @@ const t = {
 		badge: 'Réponse immédiate, 24h/24 et 7j/7',
 		title: 'Contactez-nous',
 		subtitle:
-			"Prêt à sublimer votre événement ? Contactez notre équipe technique pour recevoir un devis sur mesure, vérifier la disponibilité du matériel et obtenir des conseils d'experts.",
+			"Prêt à sublimer votre événement ? Contactez notre équipe technique à Malaga, en Espagne, pour recevoir un devis sur mesure, vérifier la disponibilité du matériel et obtenir des conseils d'experts.",
 		detailsTitle: 'Coordonnées',
 		phone: 'Téléphone',
 		whatsapp: 'WhatsApp',

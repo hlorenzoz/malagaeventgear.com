@@ -16,7 +16,7 @@ export default {
 		titlePart1: 'Lyft ditt evenemang med',
 		titlePart2: 'förstklassig utrustning',
 		subtitle:
-			'Utforska vår katalog med högkvalitativt ljud, spektakulär belysning och en rökmaskin för atmosfär. Vi har de perfekta verktygen för att göra ditt firande oförglömligt.'
+			'Utforska vår katalog med högkvalitativt ljud, spektakulär belysning och en rökmaskin för atmosfär. Från Malaga, Spanien, har vi de perfekta verktygen för att göra ditt firande oförglömligt.'
 	},
 	featured: {
 		imageAlt: 'MICE-paket med ljud- och bildutrustning för möten',

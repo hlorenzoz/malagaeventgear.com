@@ -52,7 +52,7 @@ export default {
 				rateLabel: 'Tariffa premium tutto incluso',
 				vatNote: '(+{vat} IVA), allestimento e assistenza dal vivo inclusi',
 				specTitle: 'Fino a 80 ospiti',
-				specBody: 'Perfetto per splendide ville, fincas e hotel per matrimoni.',
+				specBody: 'Perfetto per splendide ville, finca e hotel per matrimoni.',
 				highlightTitle: 'Tecnico presente in loco',
 				highlightBody:
 					'Niente più fischi dei microfoni o problemi video. Questo pacchetto include il monitoraggio tecnico completo dal vivo e le regolazioni acustiche per tutta la durata del banchetto e dei discorsi.',
@@ -170,7 +170,7 @@ export default {
 		'service-areas': {
 			question: 'Dove offre i suoi servizi Malaga Event Gear (MEG)?',
 			answer:
-				"Anche se 'Malaga' compare nel nostro nome, i nostri servizi vanno ben oltre la città. Operiamo principalmente in tutta la Costa del Sol, tra cui Malaga capitale, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena ed Estepona. Serviamo anche Siviglia e Granada, anche se Granada richiede generalmente prenotazioni superiori a {price:outOfProvinceMinimum} per via della distanza fuori provincia."
+				"Anche se 'Malaga' compare nel nostro nome, i nostri servizi vanno ben oltre la città. Operiamo principalmente in tutta la Costa del Sol, tra cui la città di Malaga, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena ed Estepona. Serviamo anche Siviglia e Granada, anche se Granada richiede generalmente prenotazioni superiori a {price:outOfProvinceMinimum} per via della distanza fuori provincia."
 		},
 		'what-makes-unique': {
 			question:

@@ -6,7 +6,7 @@ export default {
 	seo: {
 		title: 'Møt teamet | Malaga Event Gear',
 		description:
-			'Møt lydteknikerne og resten av teamet i Malaga! Lær om det erfarne teamet bak vår profesjonelle service og våre sømløse arrangementer i Malaga, Spania.'
+			'Møt lydteknikerne og resten av teamet i Malaga, Spania! Lær om det erfarne teamet bak vår profesjonelle service og våre sømløse arrangementer i Malaga.'
 	},
 	hero: {
 		badge: 'Hvem står bak MEG',

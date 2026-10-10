@@ -16,7 +16,7 @@ const copy = {
 		titlePart1: 'Valorizza il tuo evento con',
 		titlePart2: 'attrezzature premium',
 		subtitle:
-			'Scopri il nostro catalogo di audio ad alta fedeltà e illuminazione spettacolare, oltre alla nostra macchina del fumo per creare atmosfera. Abbiamo tutto il necessario per rendere indimenticabile la tua celebrazione.'
+			'Scopri il nostro catalogo di audio ad alta fedeltà e illuminazione spettacolare, oltre alla nostra macchina del fumo per creare atmosfera. Da Malaga, in Spagna, abbiamo tutto il necessario per rendere indimenticabile la tua celebrazione.'
 	},
 	featured: {
 		imageAlt: 'Allestimento audiovisivo del MICE Pack per riunioni',
@@ -29,7 +29,8 @@ const copy = {
 	},
 	catalog: {
 		title: 'Categorie tecniche',
-		subtitle: 'Sfoglia il nostro inventario per soddisfare le esigenze tecniche della tua produzione.'
+		subtitle:
+			'Sfoglia il nostro inventario per soddisfare le esigenze tecniche della tua produzione.'
 	},
 	audio: {
 		imageAlt: 'Attrezzatura audio professionale a noleggio',

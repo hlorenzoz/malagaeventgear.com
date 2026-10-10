@@ -16,7 +16,7 @@ export default {
 		titlePart1: 'Ihre Veranstaltung, aufgewertet durch',
 		titlePart2: 'erstklassige Technik',
 		subtitle:
-			'Entdecken Sie unseren Katalog mit hochwertigem Klang, spektakulärer Beleuchtung und einer Nebelmaschine für Atmosphäre. Bei uns finden Sie alles, um Ihre Feier unvergesslich zu machen.'
+			'Entdecken Sie unseren Katalog mit hochwertigem Klang, spektakulärer Beleuchtung und einer Nebelmaschine für Atmosphäre. Bei uns in Malaga, Spanien, finden Sie alles, um Ihre Feier unvergesslich zu machen.'
 	},
 	featured: {
 		imageAlt: 'Aufbau des MICE Pack für Meetings',
@@ -29,7 +29,8 @@ export default {
 	},
 	catalog: {
 		title: 'Technische Kategorien',
-		subtitle: 'Finden Sie in unserem Sortiment die passende Technik für die Anforderungen Ihrer Produktion.'
+		subtitle:
+			'Finden Sie in unserem Sortiment die passende Technik für die Anforderungen Ihrer Produktion.'
 	},
 	audio: {
 		imageAlt: 'Professionelle Beschallungstechnik zur Miete',

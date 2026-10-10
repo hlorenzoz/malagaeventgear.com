@@ -169,7 +169,7 @@ export default {
 		'service-areas': {
 			question: 'Waar biedt Malaga Event Gear (MEG) haar diensten aan?',
 			answer:
-				'Hoewel "Malaga" in onze naam zit, reikt onze dienstverlening ver voorbij de stad. We zijn vooral actief aan de hele Costa del Sol, waaronder Malaga stad, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena en Estepona. We bedienen ook Sevilla en Granada, al is voor Granada doorgaans een boeking van meer dan {price:outOfProvinceMinimum} vereist vanwege de reisafstand buiten de provincie.'
+				'Hoewel "Malaga" in onze naam zit, reikt onze dienstverlening ver voorbij de stad. We zijn vooral actief aan de hele Costa del Sol, waaronder de stad Malaga, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena en Estepona. We bedienen ook Sevilla en Granada, al is voor Granada doorgaans een boeking van meer dan {price:outOfProvinceMinimum} vereist vanwege de reisafstand buiten de provincie.'
 		},
 		'what-makes-unique': {
 			question:

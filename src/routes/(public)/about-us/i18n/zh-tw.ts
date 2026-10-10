@@ -6,7 +6,7 @@ export default {
 	seo: {
 		title: '關於我們：馬拉加影音設備出租公司 | MEG',
 		description:
-			'認識Malaga Event Gear的專業團隊！我們是馬拉加的影音設備出租公司，致力於運用頂級設備，讓您的婚禮、企業活動與派對成為難忘回憶。'
+			'認識Malaga Event Gear的專業團隊！我們是西班牙馬拉加的影音設備出租公司，致力於運用頂級設備，讓您的婚禮、企業活動與派對成為難忘回憶。'
 	},
 	hero: {
 		badge: '我們是誰',

@@ -16,7 +16,7 @@ export default {
 		titlePart1: 'Eleve o nível do seu evento com',
 		titlePart2: 'equipamento premium',
 		subtitle:
-			'Explore nosso catálogo de som de alta fidelidade e iluminação espetacular, além da nossa máquina de fumaça para criar clima. Temos as ferramentas perfeitas para tornar sua celebração inesquecível.'
+			'Explore nosso catálogo de som de alta fidelidade e iluminação espetacular, além da nossa máquina de fumaça para criar clima. A partir de Málaga, na Espanha, temos as ferramentas perfeitas para tornar sua celebração inesquecível.'
 	},
 	featured: {
 		imageAlt: 'Montagem do MICE Pack audiovisual para reuniões',

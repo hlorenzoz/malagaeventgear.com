@@ -71,7 +71,7 @@ const t = {
 		badge: 'In breve',
 		sellQ: 'Cosa offriamo?',
 		sellA:
-			'Noleggiamo attrezzature audiovisive di alta gamma (impianti audio professionali, illuminazione scenica, proiettori e schermi) per eventi in tutta Malaga e sulla Costa del Sol, con consegna, allestimento e assistenza tecnica in loco inclusi.',
+			'Noleggiamo attrezzature audiovisive di alta gamma (impianti audio professionali, illuminazione scenica, proiettori e schermi) per eventi in tutta Malaga, in Spagna, e sulla Costa del Sol, con consegna, allestimento e assistenza tecnica in loco inclusi.',
 		whoQ: 'A chi è rivolto?',
 		whoA: "Alle coppie che organizzano il matrimonio, alle aziende che gestiscono conferenze ed eventi aziendali e a chiunque organizzi una festa o una celebrazione privata e desideri un suono e un'illuminazione impeccabili senza dover acquistare le attrezzature.",
 		costQ: 'Quanto costa?',
@@ -112,7 +112,7 @@ const t = {
 		badge: 'Prezzi trasparenti',
 		title: 'Pacchetti su misura per ogni evento',
 		subtitle:
-			'Scegli tra i nostri pacchetti di noleggio flessibili, pensati per adattarsi perfettamente a qualsiasi dimensione di evento e budget. Organizzare diventa semplice!',
+			"Scegli tra i nostri pacchetti di noleggio flessibili, pensati per adattarsi perfettamente a qualsiasi dimensione di evento e budget. Il nostro team a Malaga, in Spagna, rende semplice l'organizzazione!",
 		includes: 'Include:',
 		includedServices: 'Servizi inclusi:',
 		optional: 'Opzionale:',
@@ -169,7 +169,7 @@ const t = {
 		badge: 'Risposta immediata 24/7',
 		title: 'Mettiti in contatto',
 		subtitle:
-			'Pronto a valorizzare il tuo evento? Contatta il nostro team tecnico per ricevere preventivi su misura, verificare la disponibilità delle attrezzature e ottenere consigli da esperti.',
+			'Pronto a valorizzare il tuo evento? Contatta il nostro team tecnico a Malaga, in Spagna, per ricevere preventivi su misura, verificare la disponibilità delle attrezzature e ottenere consigli da esperti.',
 		detailsTitle: 'Recapiti',
 		phone: 'Telefono',
 		whatsapp: 'WhatsApp',

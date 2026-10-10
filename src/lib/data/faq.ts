@@ -66,7 +66,7 @@ const faqData: FaqItem[] = [
 		onContact: true,
 		question: 'Where does Malaga Event Gear (MEG) offer its services?',
 		answer:
-			'While "Malaga" is in our name, our services extend well beyond the city. We primarily operate across the Costa del Sol, including Malaga capital, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena, and Estepona. We also serve Sevilla and Granada, though Granada typically requires bookings exceeding {price:outOfProvinceMinimum} due to the out of province travel distance.'
+			'While "Malaga" is in our name, our services extend well beyond the city. We primarily operate across the Costa del Sol, including the city of Malaga, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena, and Estepona. We also serve Sevilla and Granada, though Granada typically requires bookings exceeding {price:outOfProvinceMinimum} due to the out of province travel distance.'
 	},
 	{
 		id: 'what-makes-unique',

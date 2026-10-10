@@ -169,7 +169,7 @@ export default {
 		'service-areas': {
 			question: 'Où Malaga Event Gear (MEG) propose-t-il ses services ?',
 			answer:
-				'Bien que "Malaga" figure dans notre nom, nos services vont bien au-delà de la ville. Nous intervenons principalement sur toute la Costa del Sol : Malaga capitale, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena et Estepona. Nous desservons également Séville et Grenade, bien que Grenade nécessite généralement une réservation supérieure à {price:outOfProvinceMinimum} en raison de la distance de déplacement hors province.'
+				'Bien que "Malaga" figure dans notre nom, nos services vont bien au-delà de la ville. Nous intervenons principalement sur toute la Costa del Sol : la ville de Malaga, Marbella, Coín, Ronda, Mijas, Nerja, Torremolinos, Fuengirola, Benalmadena et Estepona. Nous desservons également Séville et Grenade, bien que Grenade nécessite généralement une réservation supérieure à {price:outOfProvinceMinimum} en raison de la distance de déplacement hors province.'
 		},
 		'what-makes-unique': {
 			question:

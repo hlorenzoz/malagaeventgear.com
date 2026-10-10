@@ -70,7 +70,7 @@ const t = {
 		badge: 'I korthet',
 		sellQ: 'Vad säljer vi?',
 		sellA:
-			'Vi hyr ut professionell ljud- och bildutrustning, till exempel ljudsystem, scenbelysning, projektorer och dukar, för evenemang i Malaga och på Costa del Sol. Leverans, installation och teknisk support på plats ingår.',
+			'Vi hyr ut professionell ljud- och bildutrustning, till exempel ljudsystem, scenbelysning, projektorer och dukar, för evenemang i Malaga, Spanien, och på Costa del Sol. Leverans, installation och teknisk support på plats ingår.',
 		whoQ: 'Vem är det för?',
 		whoA: 'Par som planerar bröllop, företag som arrangerar konferenser och företagsevenemang, och alla som ordnar en fest eller ett privat firande och vill ha felfritt ljud och ljus utan att köpa utrustningen.',
 		costQ: 'Vad kostar det?',
@@ -110,7 +110,7 @@ const t = {
 		badge: 'Transparenta priser',
 		title: 'Skräddarsydda paket för alla evenemang',
 		subtitle:
-			'Välj bland våra flexibla hyrespaket som passar alla evenemangsstorlekar och budgetar perfekt. Vi gör planeringen enkel!',
+			'Välj bland våra flexibla hyrespaket som passar alla evenemangsstorlekar och budgetar perfekt. Vårt team i Malaga, Spanien, gör planeringen enkel!',
 		includes: 'Inkluderar:',
 		includedServices: 'Inkluderade tjänster:',
 		optional: 'Tillval:',
@@ -167,7 +167,7 @@ const t = {
 		badge: 'Omedelbart svar dygnet runt',
 		title: 'Kontakta oss',
 		subtitle:
-			'Redo att lyfta ditt evenemang? Kontakta vårt tekniska team för skräddarsydda offerter, kontroll av utrustningens tillgänglighet och professionell rådgivning.',
+			'Redo att lyfta ditt evenemang? Kontakta vårt tekniska team i Malaga, Spanien, för skräddarsydda offerter, kontroll av utrustningens tillgänglighet och professionell rådgivning.',
 		detailsTitle: 'Kontaktuppgifter',
 		phone: 'Telefon',
 		whatsapp: 'WhatsApp',

@@ -6,7 +6,7 @@ export default {
 	seo: {
 		title: '馬拉加影音設備出租服務 | MEG',
 		description:
-			'Malaga Event Gear（MEG）為馬拉加的婚禮、企業活動與派對提供頂級音響系統、絢麗燈光、投影機與螢幕租賃服務。'
+			'Malaga Event Gear（MEG）為西班牙馬拉加的婚禮、企業活動與派對提供頂級音響系統、絢麗燈光、投影機與螢幕租賃服務。'
 	},
 	hero: {
 		imageAlt: '太陽海岸上搭配專業影音燈光的頂級活動舞台'

@@ -6,7 +6,7 @@ export default {
 	seo: {
 		title: '認識團隊 | Malaga Event Gear',
 		description:
-			'認識Malaga Event Gear的團隊！了解我們經驗豐富的馬拉加影音設備出租團隊，如何以專業服務打造順暢的活動。'
+			'認識Malaga Event Gear的團隊！了解我們經驗豐富的西班牙馬拉加影音設備出租團隊，如何以專業服務打造順暢的活動。'
 	},
 	hero: {
 		badge: 'MEG的幕後推手',

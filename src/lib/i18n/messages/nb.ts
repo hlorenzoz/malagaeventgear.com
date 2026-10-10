@@ -70,7 +70,7 @@ const t = {
 		badge: 'Kort fortalt',
 		sellQ: 'Hva selger vi?',
 		sellA:
-			'Vi leier ut profesjonelt lyd- og bildeutstyr, som lydanlegg, scenelys, prosjektorer og lerret, til arrangementer i Malaga og på Costa del Sol, inkludert levering, installasjon og teknisk support på stedet.',
+			'Vi leier ut profesjonelt lyd- og bildeutstyr, som lydanlegg, scenelys, prosjektorer og lerret, til arrangementer i Malaga, Spania, og på Costa del Sol, inkludert levering, installasjon og teknisk support på stedet.',
 		whoQ: 'Hvem er det for?',
 		whoA: 'Par som planlegger bryllup, bedrifter som arrangerer konferanser og bedriftsarrangementer, og alle som skal ha fest eller privat feiring og ønsker feilfri lyd og lys uten å kjøpe utstyret selv.',
 		costQ: 'Hva koster det?',
@@ -110,7 +110,7 @@ const t = {
 		badge: 'Åpne priser',
 		title: 'Skreddersydde pakker for alle arrangementer',
 		subtitle:
-			'Velg blant våre fleksible leiepakker, tilpasset ethvert arrangement og budsjett. Vi gjør planleggingen enkel!',
+			'Velg blant våre fleksible leiepakker, tilpasset ethvert arrangement og budsjett. Vårt team i Malaga, Spania, gjør planleggingen enkel!',
 		includes: 'Inkluderer:',
 		includedServices: 'Inkluderte tjenester:',
 		optional: 'Valgfritt:',
@@ -167,7 +167,7 @@ const t = {
 		badge: 'Umiddelbar respons hele døgnet',
 		title: 'Ta kontakt',
 		subtitle:
-			'Klar til å løfte arrangementet ditt? Kontakt vårt tekniske team for skreddersydde tilbud, sjekk av utstyrets tilgjengelighet og faglige råd.',
+			'Klar til å løfte arrangementet ditt? Kontakt vårt tekniske team i Malaga, Spania, for skreddersydde tilbud, sjekk av utstyrets tilgjengelighet og faglige råd.',
 		detailsTitle: 'Kontaktinformasjon',
 		phone: 'Telefon',
 		whatsapp: 'WhatsApp',

@@ -16,7 +16,7 @@ const copy = {
 		titlePart1: 'Geluids- en lichtapparatuur huren voor',
 		titlePart2: 'elk evenement in Malaga',
 		subtitle:
-			'Ontdek onze catalogus met hifigeluid, spectaculaire verlichting en een rookmachine voor extra sfeer. We hebben alles in huis om jouw feest onvergetelijk te maken.'
+			'Ontdek onze catalogus met hifigeluid, spectaculaire verlichting en een rookmachine voor extra sfeer. Vanuit Malaga, Spanje, hebben we alles in huis om jouw feest onvergetelijk te maken.'
 	},
 	featured: {
 		imageAlt: 'Opstelling van het MICE Pack voor vergaderingen',
@@ -29,7 +29,8 @@ const copy = {
 	},
 	catalog: {
 		title: 'Technische categorieën',
-		subtitle: 'Blader door onze inventaris om te zien wat past bij de technische wensen van je productie.'
+		subtitle:
+			'Blader door onze inventaris om te zien wat past bij de technische wensen van je productie.'
 	},
 	audio: {
 		imageAlt: 'Professionele geluidsapparatuur voor verhuur',

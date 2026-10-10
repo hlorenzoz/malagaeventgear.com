@@ -76,7 +76,7 @@ const en = {
 		badge: 'At a Glance',
 		sellQ: 'What do we sell?',
 		sellA:
-			'We rent premium audiovisual equipment (professional sound systems, stage lighting, projectors and screens) for events across Malaga and the Costa del Sol, including delivery, setup and on site technical support.',
+			'We rent premium audiovisual equipment (professional sound systems, stage lighting, projectors and screens) for events across Malaga, Spain, and the Costa del Sol, including delivery, setup and on site technical support.',
 		whoQ: 'Who is it for?',
 		whoA: 'Couples planning weddings, companies running conferences and corporate events, and anyone hosting a party or private celebration who wants flawless sound and lighting without buying the gear.',
 		costQ: 'What does it cost?',
@@ -116,7 +116,7 @@ const en = {
 		badge: 'Transparent Pricing',
 		title: 'Tailored Packages for Every Event',
 		subtitle:
-			'Choose from our flexible rental packages designed to perfectly fit any event size and budget. We make planning simple!',
+			'Choose from our flexible rental packages, designed to perfectly fit any event size and budget. Our team in Malaga, Spain, makes planning simple!',
 		includes: 'Includes:',
 		includedServices: 'Included Services:',
 		optional: 'Optional:',
@@ -173,7 +173,7 @@ const en = {
 		badge: 'Immediate Response 24/7',
 		title: 'Get in Touch',
 		subtitle:
-			'Ready to elevate your event? Contact our technical team to receive tailored quotes, check equipment availability, and get expert advice.',
+			'Ready to elevate your event? Contact our technical team in Malaga, Spain, to receive tailored quotes, check equipment availability, and get expert advice.',
 		detailsTitle: 'Contact Details',
 		phone: 'Phone',
 		whatsapp: 'WhatsApp',

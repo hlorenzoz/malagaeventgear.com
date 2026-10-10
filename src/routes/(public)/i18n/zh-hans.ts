@@ -6,7 +6,7 @@ const copy = {
 	seo: {
 		title: '马拉加视听设备租赁服务 | MEG',
 		description:
-			'Malaga Event Gear（MEG）在马拉加为婚礼、企业活动及派对提供优质音响系统、震撼灯光、投影仪及屏幕租赁服务。'
+			'Malaga Event Gear（MEG）在西班牙马拉加为婚礼、企业活动及派对提供优质音响系统、震撼灯光、投影仪及屏幕租赁服务。'
 	},
 	hero: {
 		imageAlt: '太阳海岸配备专业视听灯光的高端活动舞台'

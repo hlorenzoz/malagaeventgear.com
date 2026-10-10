@@ -6,7 +6,7 @@ export default {
 	seo: {
 		title: '馬拉加設備租賃常見問題 | MEG',
 		description:
-			'查閱Malaga Event Gear專業視聽器材租借的常見問題，內容涵蓋套餐、服務範圍（馬拉加／太陽海岸）及預約要求。'
+			'查閱Malaga Event Gear專業視聽器材租借的常見問題，內容涵蓋套餐、服務範圍（西班牙馬拉加／太陽海岸）及預約要求。'
 	},
 	hero: {
 		badge: '常見查詢',

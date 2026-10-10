@@ -6,7 +6,7 @@ const copy = {
 	seo: {
 		title: 'Audiovisuele apparatuur huren in Malaga | MEG',
 		description:
-			'Malaga Event Gear (MEG) verhuurt premium geluid, verlichting, beamers en schermen voor bruiloften, bedrijfsevenementen en feesten in Malaga.'
+			'Malaga Event Gear (MEG) verhuurt premium geluid, verlichting, beamers en schermen voor bruiloften, bedrijfsevenementen en feesten in Malaga, Spanje.'
 	},
 	hero: {
 		imageAlt:

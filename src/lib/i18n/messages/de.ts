@@ -69,7 +69,7 @@ const t = {
 		badge: 'Auf einen Blick',
 		sellQ: 'Was bieten wir an?',
 		sellA:
-			'Wir vermieten hochwertige Veranstaltungstechnik (professionelle Beschallungsanlagen, Bühnenbeleuchtung, Beamer und Leinwände) für Events in ganz Malaga und an der Costa del Sol, inklusive Lieferung, Aufbau und technischem Support vor Ort.',
+			'Wir vermieten hochwertige Veranstaltungstechnik (professionelle Beschallungsanlagen, Bühnenbeleuchtung, Beamer und Leinwände) für Events in ganz Malaga, Spanien, und an der Costa del Sol, inklusive Lieferung, Aufbau und technischem Support vor Ort.',
 		whoQ: 'Für wen ist das gedacht?',
 		whoA: 'Für Paare, die eine Hochzeit planen, Unternehmen, die Konferenzen und Firmenevents veranstalten, und alle, die eine Party oder private Feier mit einwandfreiem Klang und Licht ausrichten wollen, ohne die Technik selbst zu kaufen.',
 		costQ: 'Was kostet das?',
@@ -107,7 +107,7 @@ const t = {
 		badge: 'Transparente Preise',
 		title: 'Maßgeschneiderte Pakete für jede Veranstaltung',
 		subtitle:
-			'Wählen Sie aus unseren flexiblen Mietpaketen, die perfekt zu jeder Veranstaltungsgröße und jedem Budget passen. Wir machen die Planung einfach!',
+			'Wählen Sie aus unseren flexiblen Mietpaketen, die perfekt zu jeder Veranstaltungsgröße und jedem Budget passen. Unser Team in Malaga, Spanien, macht die Planung einfach!',
 		includes: 'Enthält:',
 		includedServices: 'Enthaltene Leistungen:',
 		optional: 'Optional:',
@@ -162,7 +162,7 @@ const t = {
 		badge: 'Sofortige Antwort rund um die Uhr',
 		title: 'Kontaktieren Sie uns',
 		subtitle:
-			'Bereit, Ihre Veranstaltung aufzuwerten? Kontaktieren Sie unser technisches Team: Wir erstellen Ihnen ein maßgeschneidertes Angebot, prüfen die Verfügbarkeit der Technik und beraten Sie fachkundig.',
+			'Bereit, Ihre Veranstaltung aufzuwerten? Kontaktieren Sie unser technisches Team in Malaga, Spanien: Wir erstellen Ihnen ein maßgeschneidertes Angebot, prüfen die Verfügbarkeit der Technik und beraten Sie fachkundig.',
 		detailsTitle: 'Kontaktdaten',
 		phone: 'Telefon',
 		whatsapp: 'WhatsApp',

@@ -70,7 +70,7 @@ const t = {
 		badge: 'Kort fortalt',
 		sellQ: 'Hvad sælger vi?',
 		sellA:
-			'Vi udlejer AV-udstyr i topklasse, herunder professionelle lydsystemer, scenebelysning, projektorer og lærreder, til events i Malaga og på Costa del Sol, inklusive levering, opsætning og teknisk support på stedet.',
+			'Vi udlejer AV-udstyr i topklasse, herunder professionelle lydsystemer, scenebelysning, projektorer og lærreder, til events i Malaga, Spanien, og på Costa del Sol, inklusive levering, opsætning og teknisk support på stedet.',
 		whoQ: 'Hvem er det til?',
 		whoA: 'Par, der planlægger bryllup, virksomheder, der afholder konferencer og firmaevents, og alle, der holder en fest eller privat fejring og ønsker fejlfri lyd og lys uden selv at skulle købe udstyret.',
 		costQ: 'Hvad koster det?',
@@ -110,7 +110,7 @@ const t = {
 		badge: 'Gennemsigtige priser',
 		title: 'Skræddersyede pakker til ethvert event',
 		subtitle:
-			'Vælg mellem vores fleksible udlejningspakker, der passer perfekt til ethvert events størrelse og budget. Vi gør planlægningen enkel!',
+			'Vælg mellem vores fleksible udlejningspakker, der passer perfekt til ethvert events størrelse og budget. Vores team i Malaga, Spanien, gør planlægningen enkel!',
 		includes: 'Inkluderer:',
 		includedServices: 'Inkluderede ydelser:',
 		optional: 'Valgfrit:',
@@ -167,7 +167,7 @@ const t = {
 		badge: 'Øjeblikkeligt svar, 24/7',
 		title: 'Kom i kontakt',
 		subtitle:
-			'Klar til at løfte dit event? Kontakt vores tekniske team for at få et skræddersyet tilbud, tjekke udstyrets ledighed og få ekspertrådgivning.',
+			'Klar til at løfte dit event? Kontakt vores tekniske team i Malaga, Spanien, for at få et skræddersyet tilbud, tjekke udstyrets ledighed og få ekspertrådgivning.',
 		detailsTitle: 'Kontaktoplysninger',
 		phone: 'Telefon',
 		whatsapp: 'WhatsApp',

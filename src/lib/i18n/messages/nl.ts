@@ -70,7 +70,7 @@ const t = {
 		badge: 'In het kort',
 		sellQ: 'Wat verkopen we?',
 		sellA:
-			'We verhuren premium audiovisuele apparatuur, zoals professionele geluidssystemen, podiumverlichting, beamers en schermen, voor evenementen in Malaga en aan de Costa del Sol, inclusief levering, opbouw en technische ondersteuning ter plaatse.',
+			'We verhuren premium audiovisuele apparatuur, zoals professionele geluidssystemen, podiumverlichting, beamers en schermen, voor evenementen in Malaga, Spanje, en aan de Costa del Sol, inclusief levering, opbouw en technische ondersteuning ter plaatse.',
 		whoQ: 'Voor wie is dit?',
 		whoA: 'Stellen die een bruiloft plannen, bedrijven die conferenties en zakelijke evenementen organiseren, en iedereen die een feest of privéviering geeft en vlekkeloos geluid en licht wil zonder de apparatuur zelf te kopen.',
 		costQ: 'Wat kost het?',
@@ -110,7 +110,7 @@ const t = {
 		badge: 'Transparante prijzen',
 		title: 'Pakketten op maat voor elk evenement',
 		subtitle:
-			'Kies uit onze flexibele huurpakketten, perfect afgestemd op elke evenementgrootte en elk budget. Wij maken plannen eenvoudig!',
+			'Kies uit onze flexibele huurpakketten, perfect afgestemd op elke evenementgrootte en elk budget. Ons team in Malaga, Spanje, maakt plannen eenvoudig!',
 		includes: 'Inclusief:',
 		includedServices: 'Inbegrepen diensten:',
 		optional: 'Optioneel:',
@@ -167,7 +167,7 @@ const t = {
 		badge: 'Direct bereikbaar 24/7',
 		title: 'Neem contact op',
 		subtitle:
-			'Klaar om je evenement naar een hoger niveau te tillen? Neem contact op met ons technisch team voor offertes op maat, beschikbaarheid van apparatuur en deskundig advies.',
+			'Klaar om je evenement naar een hoger niveau te tillen? Neem contact op met ons technisch team in Malaga, Spanje, voor offertes op maat, beschikbaarheid van apparatuur en deskundig advies.',
 		detailsTitle: 'Contactgegevens',
 		phone: 'Telefoon',
 		whatsapp: 'WhatsApp',

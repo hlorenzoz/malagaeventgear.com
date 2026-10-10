@@ -70,7 +70,7 @@ const t = {
 		badge: 'Num relance',
 		sellQ: 'O que vendemos?',
 		sellA:
-			'Alugamos equipamento audiovisual premium (sistemas de som profissionais, iluminação de palco, projetores e ecrãs) para eventos em Málaga e na Costa del Sol, com entrega, montagem e apoio técnico no local incluídos.',
+			'Alugamos equipamento audiovisual premium (sistemas de som profissionais, iluminação de palco, projetores e ecrãs) para eventos em Málaga, Espanha, e na Costa del Sol, com entrega, montagem e apoio técnico no local incluídos.',
 		whoQ: 'Para quem é?',
 		whoA: 'Casais a planear o casamento, empresas que organizam conferências e eventos corporativos, e qualquer pessoa que organize uma festa ou celebração privada e queira som e iluminação impecáveis sem ter de comprar o equipamento.',
 		costQ: 'Quanto custa?',
@@ -111,7 +111,7 @@ const t = {
 		badge: 'Preços transparentes',
 		title: 'Pacotes personalizados para cada evento',
 		subtitle:
-			'Escolha entre os nossos pacotes de aluguer flexíveis, concebidos para se adaptarem na perfeição a qualquer dimensão de evento e orçamento. Facilitamos o planeamento!',
+			'Escolha entre os nossos pacotes de aluguer flexíveis, concebidos para se adaptarem na perfeição a qualquer dimensão de evento e orçamento. A nossa equipa em Málaga, Espanha, facilita o planeamento!',
 		includes: 'Inclui:',
 		includedServices: 'Serviços incluídos:',
 		optional: 'Opcional:',
@@ -168,7 +168,7 @@ const t = {
 		badge: 'Resposta imediata 24/7',
 		title: 'Entre em contacto',
 		subtitle:
-			'Pronto para elevar o seu evento? Contacte a nossa equipa técnica para receber orçamentos personalizados, verificar a disponibilidade de equipamento e obter aconselhamento especializado.',
+			'Pronto para elevar o seu evento? Contacte a nossa equipa técnica em Málaga, Espanha, para receber orçamentos personalizados, verificar a disponibilidade de equipamento e obter aconselhamento especializado.',
 		detailsTitle: 'Dados de contacto',
 		phone: 'Telefone',
 		whatsapp: 'WhatsApp',
