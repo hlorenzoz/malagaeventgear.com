@@ -1314,6 +1314,20 @@
       ]
     },
     {
+      "id": "#T0119",
+      "estado": "pendiente",
+      "prioridad": "baja",
+      "tipo": "traduccion",
+      "titulo": "Tres problemas viejos de post-translate-check en posts de bodas",
+      "anotada": "2026-10-10",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [],
+      "descripcion": [
+        "Cambiar un titulo es un cambio de contenido de esa traduccion: mueve su updatedDate."
+      ]
+    },
+    {
       "id": "#T0101",
       "estado": "pendiente",
       "prioridad": "baja",
