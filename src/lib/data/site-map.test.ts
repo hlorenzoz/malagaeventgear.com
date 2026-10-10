@@ -2,7 +2,7 @@
  * Tests de site-map.ts.
  *
  * (1) Dientes del reverse silo: todos los posts reales (.svx) declaran metadata válida.
- *     Reemplaza al viejo guard de scripts/site-graph — la validación sobrevive, la
+ *     Reemplaza al viejo guard de scripts/site-graph: la validación sobrevive, la
  *     comparación byte-a-byte del artefacto committeado ya no (el mapa deriva en vivo en /map).
  * (2) View-model determinista y bien formado a partir de fixtures sintéticos.
  */
@@ -10,9 +10,14 @@ import { describe, it, expect } from 'vitest';
 import matter from 'gray-matter';
 import type { BlogPost, Category, Author } from '$lib/types/blog';
 import type { EventPackage } from '$lib/data/packages';
-import { validateSiloGraph, buildSiteMap, extractBlogLinks, findStronglyConnectedComponents } from './site-map';
+import {
+	validateSiloGraph,
+	buildSiteMap,
+	extractBlogLinks,
+	findStronglyConnectedComponents
+} from './site-map';
 
-// Contenido real leído con import.meta.glob (?raw) — no node:fs (CLAUDE.md §3). No podemos
+// Contenido real leído con import.meta.glob (?raw): no node:fs (CLAUDE.md §3). No podemos
 // importar $lib/data/blog en un unit test: arrastra el módulo virtual `virtual:blog-meta`.
 const rawPosts = import.meta.glob('../../content/blog/*.svx', {
 	query: '?raw',
@@ -30,7 +35,13 @@ const FIXTURES = new Set(['draft-post-test-fixture', 'future-post-test-fixture']
 function realPosts(): (BlogPost & { blogLinks: string[] })[] {
 	const s = (v: unknown) => (v == null ? undefined : String(v));
 	return Object.entries(rawPosts)
-		.map(([path, src]) => ({ slug: path.split('/').pop()!.replace(/\.svx$/, ''), src }))
+		.map(([path, src]) => ({
+			slug: path
+				.split('/')
+				.pop()!
+				.replace(/\.svx$/, ''),
+			src
+		}))
 		.filter(({ slug }) => !FIXTURES.has(slug))
 		.map(({ slug, src }) => {
 			const parsed = matter(src);
@@ -83,9 +94,27 @@ describe('validateSiloGraph', () => {
 
 	it('flags a cycle in the sibling interlinking graph', () => {
 		const posts = [
-			{ slug: 'a', url: '/blog/a/', siloRole: 'supporting', targetPage: '/blog/pillar/', blogLinks: ['b'] },
-			{ slug: 'b', url: '/blog/b/', siloRole: 'supporting', targetPage: '/blog/pillar/', blogLinks: ['c'] },
-			{ slug: 'c', url: '/blog/c/', siloRole: 'supporting', targetPage: '/blog/pillar/', blogLinks: ['a'] },
+			{
+				slug: 'a',
+				url: '/blog/a/',
+				siloRole: 'supporting',
+				targetPage: '/blog/pillar/',
+				blogLinks: ['b']
+			},
+			{
+				slug: 'b',
+				url: '/blog/b/',
+				siloRole: 'supporting',
+				targetPage: '/blog/pillar/',
+				blogLinks: ['c']
+			},
+			{
+				slug: 'c',
+				url: '/blog/c/',
+				siloRole: 'supporting',
+				targetPage: '/blog/pillar/',
+				blogLinks: ['a']
+			},
 			{ slug: 'pillar', url: '/blog/pillar/', siloRole: 'pillar', targetPage: '/', blogLinks: [] }
 		] as (BlogPost & { blogLinks: string[] })[];
 		const errors = validateSiloGraph(posts);
@@ -94,8 +123,20 @@ describe('validateSiloGraph', () => {
 
 	it('accepts a chain (no cycle) in the sibling interlinking graph', () => {
 		const posts = [
-			{ slug: 'a', url: '/blog/a/', siloRole: 'supporting', targetPage: '/blog/pillar/', blogLinks: ['b'] },
-			{ slug: 'b', url: '/blog/b/', siloRole: 'supporting', targetPage: '/blog/pillar/', blogLinks: [] },
+			{
+				slug: 'a',
+				url: '/blog/a/',
+				siloRole: 'supporting',
+				targetPage: '/blog/pillar/',
+				blogLinks: ['b']
+			},
+			{
+				slug: 'b',
+				url: '/blog/b/',
+				siloRole: 'supporting',
+				targetPage: '/blog/pillar/',
+				blogLinks: []
+			},
 			{ slug: 'pillar', url: '/blog/pillar/', siloRole: 'pillar', targetPage: '/', blogLinks: [] }
 		] as (BlogPost & { blogLinks: string[] })[];
 		expect(validateSiloGraph(posts)).toEqual([]);
@@ -103,11 +144,184 @@ describe('validateSiloGraph', () => {
 
 	it('does NOT flag a reciprocal 2-node edge between adjacent siblings (that IS the expected chain)', () => {
 		const posts = [
-			{ slug: 'a', url: '/blog/a/', siloRole: 'supporting', targetPage: '/blog/pillar/', blogLinks: ['b'] },
-			{ slug: 'b', url: '/blog/b/', siloRole: 'supporting', targetPage: '/blog/pillar/', blogLinks: ['a'] },
+			{
+				slug: 'a',
+				url: '/blog/a/',
+				siloRole: 'supporting',
+				targetPage: '/blog/pillar/',
+				blogLinks: ['b']
+			},
+			{
+				slug: 'b',
+				url: '/blog/b/',
+				siloRole: 'supporting',
+				targetPage: '/blog/pillar/',
+				blogLinks: ['a']
+			},
 			{ slug: 'pillar', url: '/blog/pillar/', siloRole: 'pillar', targetPage: '/', blogLinks: [] }
 		] as (BlogPost & { blogLinks: string[] })[];
 		expect(validateSiloGraph(posts)).toEqual([]);
+	});
+});
+
+describe('validateSiloGraph: a correct chain is not a mesh (#T0111)', () => {
+	type P = BlogPost & { blogLinks: string[] };
+	const sup = (slug: string, links: string[]) =>
+		({
+			slug,
+			url: `/blog/${slug}/`,
+			siloRole: 'supporting',
+			targetPage: '/blog/pillar/',
+			blogLinks: links
+		}) as P;
+	const pillar = (links: string[]) =>
+		({
+			slug: 'pillar',
+			url: '/blog/pillar/',
+			siloRole: 'pillar',
+			targetPage: '/',
+			blogLinks: links
+		}) as P;
+	const cycles = (posts: P[]) =>
+		validateSiloGraph(posts).filter((e) => e.includes('ciclo de interlinking'));
+
+	it('accepts three siblings chained in both directions (A <-> B <-> C)', () => {
+		// Strongly connected, so the old check called it a mesh, yet it is exactly the chain the
+		// reverse silo asks for: each post links to its adjacent siblings, both ways.
+		expect(cycles([sup('a', ['b']), sup('b', ['a', 'c']), sup('c', ['b']), pillar([])])).toEqual(
+			[]
+		);
+	});
+
+	it('accepts a longer chain, with every sibling also linking down to the pillar', () => {
+		expect(
+			cycles([
+				sup('a', ['b', 'pillar']),
+				sup('b', ['a', 'c', 'pillar']),
+				sup('c', ['b', 'd', 'pillar']),
+				sup('d', ['c', 'pillar']),
+				pillar([])
+			])
+		).toEqual([]);
+	});
+
+	it('still flags a ring: every pair reciprocal, but the chain closes on itself', () => {
+		expect(
+			cycles([sup('a', ['b', 'c']), sup('b', ['a', 'c']), sup('c', ['a', 'b']), pillar([])])
+		).toHaveLength(1);
+	});
+
+	it('still flags a hub: one sibling linked both ways with three others', () => {
+		expect(
+			cycles([
+				sup('hub', ['a', 'b', 'c']),
+				sup('a', ['hub']),
+				sup('b', ['hub']),
+				sup('c', ['hub']),
+				pillar([])
+			])
+		).toHaveLength(1);
+	});
+
+	it('still flags a chain with a one way shortcut between non adjacent siblings', () => {
+		expect(
+			cycles([sup('a', ['b', 'c']), sup('b', ['a', 'c']), sup('c', ['b']), pillar([])])
+		).toHaveLength(1);
+	});
+
+	it('accepts the pillar closing the circuit with ONE link to an end of the chain (rule 3)', () => {
+		expect(
+			cycles([
+				sup('a', ['b', 'pillar']),
+				sup('b', ['a', 'c', 'pillar']),
+				sup('c', ['b', 'pillar']),
+				pillar(['c'])
+			])
+		).toEqual([]);
+	});
+
+	it('accepts the pillar and a chain of two', () => {
+		expect(cycles([sup('a', ['b', 'pillar']), sup('b', ['a', 'pillar']), pillar(['b'])])).toEqual(
+			[]
+		);
+	});
+
+	it('flags a pillar that links to a sibling in the middle of the chain', () => {
+		expect(
+			cycles([
+				sup('a', ['b', 'pillar']),
+				sup('b', ['a', 'c', 'pillar']),
+				sup('c', ['b', 'pillar']),
+				pillar(['b'])
+			])
+		).toHaveLength(1);
+	});
+
+	it('flags a pillar that links to two siblings', () => {
+		expect(
+			cycles([
+				sup('a', ['b', 'pillar']),
+				sup('b', ['a', 'c', 'pillar']),
+				sup('c', ['b', 'pillar']),
+				pillar(['a', 'c'])
+			])
+		).toHaveLength(1);
+	});
+
+	it('accepts the circuit when the pillar has siloRole both', () => {
+		const both = {
+			slug: 'pillar',
+			url: '/blog/pillar/',
+			siloRole: 'both',
+			targetPage: '/blog/other/',
+			blogLinks: ['c']
+		} as P;
+		expect(
+			cycles([
+				sup('a', ['b', 'pillar']),
+				sup('b', ['a', 'c', 'pillar']),
+				sup('c', ['b', 'pillar']),
+				both
+			])
+		).toEqual([]);
+	});
+
+	it('flags a row of posts from different silos, even when every link goes both ways', () => {
+		const inSilo = (slug: string, target: string, links: string[]) =>
+			({
+				slug,
+				url: `/blog/${slug}/`,
+				siloRole: 'supporting',
+				targetPage: target,
+				blogLinks: links
+			}) as P;
+		expect(
+			cycles([
+				inSilo('a', '/blog/pillar/', ['b']),
+				inSilo('b', '/blog/other/', ['a', 'c']),
+				inSilo('c', '/blog/pillar/', ['b']),
+				pillar([])
+			])
+		).toHaveLength(1);
+	});
+
+	it('flags a chain closed by a pillar that is not the target of its siblings', () => {
+		const other = (slug: string, links: string[]) =>
+			({
+				slug,
+				url: `/blog/${slug}/`,
+				siloRole: 'supporting',
+				targetPage: '/blog/other/',
+				blogLinks: links
+			}) as P;
+		expect(
+			cycles([
+				other('a', ['b', 'pillar']),
+				other('b', ['a', 'c', 'pillar']),
+				other('c', ['b', 'pillar']),
+				pillar(['c'])
+			])
+		).toHaveLength(1);
 	});
 });
 
@@ -173,7 +387,13 @@ describe('findStronglyConnectedComponents', () => {
 
 // --- Fixtures sintéticos para el view-model --------------------------------
 
-function post(slug: string, siloRole: string, targetPage?: string, keyword?: string, dates?: { publishDate?: string; updatedDate?: string }): BlogPost {
+function post(
+	slug: string,
+	siloRole: string,
+	targetPage?: string,
+	keyword?: string,
+	dates?: { publishDate?: string; updatedDate?: string }
+): BlogPost {
 	return {
 		slug,
 		url: `/blog/${slug}/`,
@@ -187,8 +407,13 @@ function post(slug: string, siloRole: string, targetPage?: string, keyword?: str
 
 const FIXTURE_INPUT = {
 	posts: [
-		post('av-rental', 'pillar', '/', 'audio visual rental', { publishDate: '2026-07-01', updatedDate: '2026-07-25' }),
-		post('av-conferences', 'supporting', '/blog/av-rental/', 'av for conferences', { publishDate: '2026-07-22' }),
+		post('av-rental', 'pillar', '/', 'audio visual rental', {
+			publishDate: '2026-07-01',
+			updatedDate: '2026-07-25'
+		}),
+		post('av-conferences', 'supporting', '/blog/av-rental/', 'av for conferences', {
+			publishDate: '2026-07-22'
+		}),
 		post('news-item', 'news', '/', undefined, { publishDate: '2026-07-24' }),
 		post('corporate-item', 'standalone', undefined, undefined, { publishDate: '2026-07-15' })
 	],
@@ -196,9 +421,21 @@ const FIXTURE_INPUT = {
 		{ name: 'Eco Pack', route: '/packages/eco/', price: 290, updated: '2026-05-31' },
 		{ name: 'Wedding Pack', route: '/packages/wedding/', price: 650, updated: '2026-05-31' }
 	] as EventPackage[],
-	categories: [{ name: 'Weddings', slug: 'weddings', count: 3, lastmod: '2026-07-25' }] as Category[],
-	authors: [{ name: 'Hector Lorenzo', slug: 'hector-lorenzo', count: 5, lastmod: '2026-07-25' }] as Author[],
-	staticPages: ['', 'about-us', 'contact', 'privacy-policy', 'sitemap', 'packages', 'blog'] as const,
+	categories: [
+		{ name: 'Weddings', slug: 'weddings', count: 3, lastmod: '2026-07-25' }
+	] as Category[],
+	authors: [
+		{ name: 'Hector Lorenzo', slug: 'hector-lorenzo', count: 5, lastmod: '2026-07-25' }
+	] as Author[],
+	staticPages: [
+		'',
+		'about-us',
+		'contact',
+		'privacy-policy',
+		'sitemap',
+		'packages',
+		'blog'
+	] as const,
 	pageFreshness: new Map([
 		['', '2026-01-01'],
 		['about-us', '2026-02-02']
@@ -240,7 +477,7 @@ describe('buildSiteMap', () => {
 		expect(v.corePages.find((p) => p.url === '/contact/')?.updated).toBeUndefined();
 		expect(v.packages.find((p) => p.url === '/packages/eco/')?.updated).toBe('2026-05-31');
 		expect(v.silos[0].updated).toBe('2026-07-25'); // updatedDate
-		expect(v.silos[0].kids[0].updated).toBeUndefined(); // no updatedDate -> undefined (renders — never)
+		expect(v.silos[0].kids[0].updated).toBeUndefined(); // no updatedDate -> undefined (renders: never)
 		expect(v.silos[0].kids[0].publishDate).toBe('2026-07-22'); // carried for IndexNow eligibility
 	});
 

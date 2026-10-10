@@ -1,5 +1,5 @@
 /**
- * silo-cycle-debt.ts — baseline de deuda preexistente de interlinking lateral entre siblings.
+ * silo-cycle-debt.ts: baseline de deuda preexistente de interlinking lateral entre siblings.
  *
  * `validateSiloGraph` (site-map.ts) detecta componentes fuertemente conexas (Tarjan) de 3+
  * nodos en el grafo de links `/blog/<slug>/` dentro del cuerpo de cada post: eso significa
@@ -55,6 +55,19 @@
  * ningún hermano. Mismo caso que las entradas del 2026-09-25 y del 2026-10-07: sus vecinos ya
  * estaban en esta componente, así que todo hermano enlazado en los dos sentidos con ellos queda
  * dentro. No es una malla nueva.
+ *
+ * Actualizado 2026-10-10 (tarea #T0111): este archivo no cambió. Lo que cambió es el guard:
+ * `validateSiloGraph` ya no marca una componente con forma de cadena (`isSiloChain` en
+ * site-map.ts: hermanos del mismo silo enlazados en los dos sentidos formando un camino, y esa
+ * cadena cerrada por el enlace único de su pilar a un extremo, regla 3 del reverse silo). Eso
+ * resuelve el "defecto conocido del chequeo" que anota la entrada del 2026-09-25, pero SOLO para
+ * un silo cuyos posts no estén en la malla de abajo. Mientras la malla exista, un hermano nuevo
+ * bien encadenado a un post de ella sigue uniéndose a esta componente, le cambia la firma y hay
+ * que sumarlo acá, como en las entradas del 2026-09-25, 2026-10-07 y 2026-10-09. Se probó leer
+ * este archivo como lista de posts (aceptar un post nuevo con hasta 2 vecinos recíprocos) y se
+ * descartó en la revisión: fallaba con un pilar que entra a la malla, con los enlaces a posts
+ * News que el proyecto pide como Experience, y dejaba pasar un anillo de posts nuevos a través
+ * del pilar. Hace falta una regla por rol de post, anotada como tarea aparte.
  *
  * Formato de cada signature: los slugs de la componente, deduplicados, ordenados
  * alfabéticamente y unidos con `|` (mismo formato que usa internamente `findStronglyConnectedComponents`

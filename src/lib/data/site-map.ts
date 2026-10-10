@@ -1,12 +1,12 @@
 /**
- * site-map.ts — Modelo de datos del mapa COMPLETO del sitio (para la ruta /map).
+ * site-map.ts: Modelo de datos del mapa COMPLETO del sitio (para la ruta /map).
  *
  * Función pura y determinista: recibe posts, paquetes, categorías y autores (todo derivado
  * del contenido) y produce (a) la validación del reverse silo del blog y (b) el view-model
  * que consume /map/+page.svelte, incluido el diagrama Mermaid del árbol completo.
  *
  * Reemplaza al viejo artefacto `.agents/site-structure-map.md`: ya no hay archivo generado
- * ni guard de staleness — /map deriva en vivo desde el frontmatter (fuente única de verdad:
+ * ni guard de staleness: /map deriva en vivo desde el frontmatter (fuente única de verdad:
  * `keyword` / `siloRole` / `targetPage` en cada post, más el catálogo de paquetes).
  */
 
@@ -22,17 +22,17 @@ const PAGE_LABELS: Record<string, string> = {
 	'': 'Home',
 	'about-us': 'About Us',
 	'meet-the-team': 'Meet the Team',
-	'equipment': 'Equipment',
-	'contact': 'Contact',
-	'faq': 'FAQ',
+	equipment: 'Equipment',
+	contact: 'Contact',
+	faq: 'FAQ',
 	'privacy-policy': 'Privacy Policy',
 	'terms-of-service': 'Terms of Service',
-	'gdpr': 'GDPR',
+	gdpr: 'GDPR',
 	'cookie-policy': 'Cookie Policy',
-	'sitemap': 'Sitemap',
+	sitemap: 'Sitemap',
 	'blog/categories': 'Blog Categories',
-	'packages': 'Packages',
-	'blog': 'Blog'
+	packages: 'Packages',
+	blog: 'Blog'
 };
 
 // Rutas que son "hubs" (secciones con hijos propios): no se listan como páginas sueltas.
@@ -190,6 +190,93 @@ export function findStronglyConnectedComponents(graph: Map<string, string[]>): s
 }
 
 /**
+ * true cuando una componente fuertemente conexa del grafo de enlaces tiene la forma que pide el
+ * reverse silo (CLAUDE.md, "Reverse Silo del Blog"), y por lo tanto NO es una malla:
+ *
+ * - Una CADENA: hermanos del MISMO silo (mismo `targetPage`), donde cada enlace entre dos de
+ *   ellos va en los dos sentidos y esos pares forman un camino (n - 1 pares, cada post con 2
+ *   vecinos como mucho, todos conectados). `A <-> B <-> C` es una cadena. Un anillo, un post
+ *   enlazado con tres hermanos, un atajo de un solo sentido entre dos que no son vecinos, o una
+ *   fila de posts de silos distintos, no lo son.
+ * - Una cadena CERRADA POR SU PILAR (regla 3): los hermanos forman una cadena, ese pilar es su
+ *   `targetPage`, pueden enlazarlo, y el pilar devuelve UN solo enlace, a un extremo de la
+ *   cadena. Enlazar a un post del medio, o a dos, no es el circuito de la regla.
+ *
+ * Un pilar es un post con `siloRole` 'pillar' o 'both', igual que en buildSilos. Solo se miran
+ * los enlaces entre posts de la componente. Qué extremo es "el último" de la cadena no se
+ * comprueba acá: el grafo no tiene orden, solo dos extremos.
+ */
+export function isSiloChain(
+	component: string[],
+	graph: Map<string, string[]>,
+	posts: Map<string, Pick<BlogPost, 'siloRole' | 'targetPage' | 'url'>>
+): boolean {
+	const members = new Set(component);
+	// Los enlaces de cada post hacia otros posts de la componente, una sola vez.
+	const links = new Map(
+		component.map((slug) => [
+			slug,
+			new Set((graph.get(slug) ?? []).filter((other) => other !== slug && members.has(other)))
+		])
+	);
+
+	// El pilar de la componente es el post al que apuntan los demás como `targetPage`.
+	const isPillarRole = (slug: string) => {
+		const role = posts.get(slug)?.siloRole;
+		return role === 'pillar' || role === 'both';
+	};
+	const urls = new Map(component.map((slug) => [slug, posts.get(slug)?.url]));
+	const targetedBy = (slug: string) =>
+		component.filter((other) => other !== slug && posts.get(other)?.targetPage === urls.get(slug));
+	const pillars = component.filter((slug) => isPillarRole(slug) && targetedBy(slug).length > 0);
+	if (pillars.length > 1) return false;
+	const pillar = pillars[0];
+	const chain = component.filter((slug) => slug !== pillar);
+	if (chain.length === 0) return false;
+
+	// Hermanos del mismo silo: todos con el mismo target (y, si el pilar está, que sea él).
+	const target = posts.get(chain[0])?.targetPage;
+	if (!target || chain.some((slug) => posts.get(slug)?.targetPage !== target)) return false;
+	if (pillar && target !== urls.get(pillar)) return false;
+
+	// Todo enlace entre hermanos es recíproco, y los pares forman un camino.
+	const neighbours = new Map(chain.map((slug) => [slug, new Set<string>()]));
+	for (const slug of chain) {
+		for (const other of links.get(slug)!) {
+			if (other === pillar) continue;
+			if (!links.get(other)!.has(slug)) return false;
+			neighbours.get(slug)!.add(other);
+		}
+	}
+	let pairs = 0;
+	for (const set of neighbours.values()) {
+		if (set.size > 2) return false;
+		pairs += set.size;
+	}
+	if (pairs / 2 !== chain.length - 1) return false;
+	// n - 1 pares con 2 vecinos como mucho todavía admite un anillo más un post suelto: hay que
+	// poder recorrer toda la cadena desde uno de sus posts.
+	const reached = new Set([chain[0]]);
+	const queue = [chain[0]];
+	while (queue.length) {
+		for (const next of neighbours.get(queue.pop()!)!) {
+			if (!reached.has(next)) {
+				reached.add(next);
+				queue.push(next);
+			}
+		}
+	}
+	if (reached.size !== chain.length) return false;
+
+	if (!pillar) return true;
+
+	// El pilar que cierra el circuito devuelve un solo enlace, a un extremo.
+	const back = [...links.get(pillar)!];
+	if (back.length !== 1) return false;
+	return neighbours.get(back[0])!.size <= 1;
+}
+
+/**
  * Valida los posts contra el contrato de reverse silo. Devuelve la lista de violaciones
  * (vacía = OK). Opera sobre BlogPost (url ya derivada), no sobre el frontmatter crudo.
  *
@@ -199,7 +286,8 @@ export function findStronglyConnectedComponents(graph: Map<string, string[]>): s
  * pilar, nunca formando un circuito. Sin `blogLinks` este chequeo simplemente no encuentra
  * ciclos (no rompe callers que no lo proveen). "Nuevos" porque el sitio real tiene deuda
  * preexistente (ver `silo-cycle-debt.ts`) que este chequeo NO exige resolver de una - solo
- * evita que un componente NUEVO (no listado en el baseline) se cuele sin ser notado.
+ * evita que un componente NUEVO (no listado en el baseline) se cuele sin ser notado. Una
+ * componente con forma de cadena (`isSiloChain`) es lo que el reverse silo pide y no se marca.
  */
 export function validateSiloGraph(posts: (BlogPost & { blogLinks?: string[] })[]): string[] {
 	const errors: string[] = [];
@@ -243,12 +331,15 @@ export function validateSiloGraph(posts: (BlogPost & { blogLinks?: string[] })[]
 
 	const linkGraph = new Map<string, string[]>();
 	for (const p of posts) linkGraph.set(p.slug, p.blogLinks ?? []);
+	const bySlug = new Map(posts.map((p) => [p.slug, p]));
 	const knownDebt = new Set(KNOWN_SILO_CYCLE_DEBT);
 	for (const component of findStronglyConnectedComponents(linkGraph)) {
 		// Un par reciproco entre 2 siblings adyacentes ES la cadena esperada (CLAUDE.md
-		// "cadena, no todos-con-todos"), no un error. Solo una componente de 3+ nodos indica
-		// que el interlinking lateral dejó de ser una cadena y se volvió una malla.
+		// "cadena, no todos-con-todos"), no un error.
 		if (component.length < 3) continue;
+		// Una cadena de 3 o más hermanos (A <-> B <-> C) también es fuertemente conexa, y sigue
+		// siendo la cadena esperada. Solo es una malla lo que no tiene esa forma.
+		if (isSiloChain(component, linkGraph, bySlug)) continue;
 		const signature = [...component].sort().join('|');
 		if (knownDebt.has(signature)) continue; // deuda preexistente ya documentada, no bloquea
 		errors.push(
@@ -291,12 +382,12 @@ export function byUpdatedAsc<T extends { url: string; updated?: string }>(a: T, 
 	return dateOnly(a.updated).localeCompare(dateOnly(b.updated)) || byUrl(a, b);
 }
 
-function buildSilos(
-	posts: BlogPost[]
-): { silos: SiloNode[]; news: SiloChild[]; standalone: SiloChild[] } {
-	const pillars = posts
-		.filter((p) => p.siloRole === 'pillar' || p.siloRole === 'both')
-		.sort(byUrl);
+function buildSilos(posts: BlogPost[]): {
+	silos: SiloNode[];
+	news: SiloChild[];
+	standalone: SiloChild[];
+} {
+	const pillars = posts.filter((p) => p.siloRole === 'pillar' || p.siloRole === 'both').sort(byUrl);
 
 	const silos: SiloNode[] = pillars.map((pillar) => {
 		const kids = posts

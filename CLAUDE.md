@@ -1283,10 +1283,15 @@ La metodología (reverse silo y Avalanche, con las fuentes de Kyle Roof) está e
      (3) no tienen ese enlace. `event-technology-service` no tiene supporting posts todavía.
      Agregarlo es un cambio de contenido del pilar: en los 13 idiomas y con `updatedDate` (reglas
      de idioma 1 y 2, regla 11).
-   - **Guard de ciclos**: con ese enlace, el target y su cadena forman una componente fuertemente
-     conexa en `validateSiloGraph` (`src/lib/data/site-map.ts`). Al implementarlo hay que enseñarle
-     al guard que ese patrón (cadena más un único enlace target -> último) es el esperado, en vez de
-     sumar firmas a `silo-cycle-debt.ts`.
+   - **Guard de ciclos (2026-10-10, parcial)**: con ese enlace, el target y su cadena forman una
+     componente fuertemente conexa en `validateSiloGraph` (`src/lib/data/site-map.ts`). El guard
+     ya reconoce ese patrón y no lo marca (`isSiloChain`: hermanos del mismo silo enlazados en los
+     dos sentidos formando un camino, más un único enlace del pilar a un extremo). Qué extremo es
+     "el último" no lo comprueba. Límite: solo sirve para un silo cuyos posts NO están en la malla
+     conocida de `silo-cycle-debt.ts` (71 posts al 2026-10-10, una sola componente). En
+     `audio-visual-rental`, `wedding-rentals` y `stage-lighting-rental` el pilar y sus hermanos
+     nuevos se unen a esa malla, le cambian la firma y hay que sumarlos a mano a ese archivo. No
+     es un fallo del post: es la deuda de la malla, que sigue sin limpiar.
 
 ### Los silos de MEG
 
