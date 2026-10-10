@@ -32752,8 +32752,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -32792,6 +32792,10 @@
             }
           }
         },
+        "blog": {
+          "firstSeen": "2026-10-10",
+          "lastSeen": "2026-10-10"
+        },
         "content-plan": {
           "firstSeen": "2026-10-09",
           "lastSeen": "2026-10-09",
@@ -32816,8 +32820,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -32855,6 +32859,10 @@
               "2026-08": 10
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-10",
+          "lastSeen": "2026-10-10"
         },
         "content-plan": {
           "firstSeen": "2026-10-09",
@@ -33012,8 +33020,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -33052,6 +33060,10 @@
             }
           }
         },
+        "blog": {
+          "firstSeen": "2026-10-10",
+          "lastSeen": "2026-10-10"
+        },
         "content-plan": {
           "firstSeen": "2026-10-09",
           "lastSeen": "2026-10-09",
@@ -33076,8 +33088,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -33115,6 +33127,10 @@
               "2026-08": 20
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-10",
+          "lastSeen": "2026-10-10"
         },
         "content-plan": {
           "firstSeen": "2026-10-09",
@@ -33410,8 +33426,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -33449,6 +33465,10 @@
               "2026-08": 10
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-10",
+          "lastSeen": "2026-10-10"
         },
         "content-plan": {
           "firstSeen": "2026-10-09",
@@ -34449,8 +34469,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -34488,6 +34508,10 @@
               "2026-08": 10
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-10",
+          "lastSeen": "2026-10-10"
         },
         "content-plan": {
           "firstSeen": "2026-10-09",
@@ -83069,6 +83093,24 @@
           "lastSeen": "2026-10-10",
           "urls": [
             "/blog/audio-visual-rental-for-outdoor-events/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "do-you-rent-an-inflatable-outdoor-movie-screen",
+      "question": "Do you rent an inflatable outdoor movie screen?",
+      "keywordId": "outdoor-movie-screen-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-10",
+          "lastSeen": "2026-10-10",
+          "urls": [
+            "/blog/outdoor-movie-screen-and-projector-rental/"
           ]
         }
       }
