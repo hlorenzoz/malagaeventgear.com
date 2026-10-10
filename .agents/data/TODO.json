@@ -3,31 +3,6 @@
   "updated": "2026-10-10",
   "tasks": [
     {
-      "id": "#T0116",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "infraestructura",
-      "titulo": "Rotacion de semillas del faq-researcher trabada: las mismas 10 semillas y 0 preguntas desde el 2026-10-02",
-      "anotada": "2026-10-10",
-      "hecha": null,
-      "origen": "usuario",
-      "notas": [],
-      "descripcion": [
-        "Hallazgo del 2026-10-10 al revisar la corrida diaria. El faq-researcher devuelve 0 preguntas desde el 2026-10-02 (lotes del 02, 05, 07, 08, 09 y 10, todos status partial con 0 suggestions), y cada dia consulta las MISMAS 10 semillas: audio visual rental y sus 9 variantes \"audio visual rental for ...\".",
-        "",
-        "Causa raiz, verificada en el codigo: scripts/keywords/faq-seeds.ts (pickFaqSeeds) calcula lastConsulted SOLO a partir de batch.suggestions. Una semilla que no devuelve ninguna frase con palabra de pregunta no deja rastro en el lote (faq-batch.schema.ts no guarda que semillas se consultaron), asi que sigue contando como \"nunca consultada\" y vuelve a salir primera. El orden entre las nunca consultadas es alfabetico por id, por eso siempre son las mismas 10. La rotacion por el catalogo esta trabada.",
-        "",
-        "Arreglo propuesto (cambio de codigo: SDD y strict TDD):",
-        "1. faq-batch.schema.ts: campo seeds (ids consultados) en el lote, opcional para que los lotes viejos sigan validando.",
-        "2. pickFaqSeeds: usar batch.seeds ademas de suggestions para lastConsulted. Test: una semilla consultada sin resultados no vuelve a salir al dia siguiente.",
-        "3. .claude/agents/faq-researcher.md: que el agente escriba seeds con los ids de just faq-seeds, y agent-json.test.ts si hace falta.",
-        "4. Decidir que hacer con los lotes ya commiteados sin seeds (sus args dicen \"10 seeds\" sin listar ids): o se asume que consultaron las 10 de siempre, o se dejan y la rotacion arranca desde el arreglo.",
-        "",
-        "Sin verificar: si google_suggestions de verdad no devuelve preguntas para esas 10 semillas o si la llamada del agente falla en silencio (el 2026-10-01 las mismas semillas dieron 6 frases). Conviene probar una llamada a mano al arreglar.",
-        "Efecto hoy: el content-strategist no recibe FAQs nuevas de autocompletado desde hace mas de una semana. El resto de la cadena (Ubersuggest, plan, organize) corre bien."
-      ]
-    },
-    {
       "id": "#T0109",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -1581,6 +1556,37 @@
         "led screen hire price (Una sola intencion (pantalla LED que MEG gestiona via proveedores). Ya cubierta en /blog/tv-screen-rental/: seccion 'What We Don't Stock: LED Video Walls and Modular LED Panels' y FAQs 'Do you rent an LED screen?' y 'Can Malaga Event Gear source an LED video wall through a supplier?'. Una pagina nueva implicaria stock propio y canibalizaria.)",
         "light and sound rental price (Cubierto por /blog/sound-system-rental/ ('How much does it cost to rent sound equipment?') y /blog/stage-lighting-rental/ ('Which MEG Packages Bundle Both Sound and Lighting Together?').)",
         "loudspeaker rental near me (Variantes 'near me' de paginas existentes. Ya existe /blog/audio-video-rental-near-me-in-malaga-spain/ y /blog/sound-system-rental/ (FAQ de entrega fuera de Malaga). Doorway abuse, spam-policies.md.)"
+      ]
+    },
+    {
+      "id": "#T0116",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "infraestructura",
+      "titulo": "Rotacion de semillas del faq-researcher trabada: las mismas 10 semillas y 0 preguntas desde el 2026-10-02",
+      "anotada": "2026-10-10",
+      "hecha": "2026-10-10",
+      "origen": "usuario",
+      "notas": [
+        "cerrada el 2026-10-10: commits 753744d9 y el de seedProblems. Campo seeds en el lote",
+        "ingest lo exige",
+        "semillas cortas primero",
+        "2 semillas por llamada. Con /code-review (10 hallazgos). Sin verificar: una corrida real del agente",
+        "la de manana 09:30"
+      ],
+      "descripcion": [
+        "Hallazgo del 2026-10-10 al revisar la corrida diaria. El faq-researcher devuelve 0 preguntas desde el 2026-10-02 (lotes del 02, 05, 07, 08, 09 y 10, todos status partial con 0 suggestions), y cada dia consulta las MISMAS 10 semillas: audio visual rental y sus 9 variantes \"audio visual rental for ...\".",
+        "",
+        "Causa raiz, verificada en el codigo: scripts/keywords/faq-seeds.ts (pickFaqSeeds) calcula lastConsulted SOLO a partir de batch.suggestions. Una semilla que no devuelve ninguna frase con palabra de pregunta no deja rastro en el lote (faq-batch.schema.ts no guarda que semillas se consultaron), asi que sigue contando como \"nunca consultada\" y vuelve a salir primera. El orden entre las nunca consultadas es alfabetico por id, por eso siempre son las mismas 10. La rotacion por el catalogo esta trabada.",
+        "",
+        "Arreglo propuesto (cambio de codigo: SDD y strict TDD):",
+        "1. faq-batch.schema.ts: campo seeds (ids consultados) en el lote, opcional para que los lotes viejos sigan validando.",
+        "2. pickFaqSeeds: usar batch.seeds ademas de suggestions para lastConsulted. Test: una semilla consultada sin resultados no vuelve a salir al dia siguiente.",
+        "3. .claude/agents/faq-researcher.md: que el agente escriba seeds con los ids de just faq-seeds, y agent-json.test.ts si hace falta.",
+        "4. Decidir que hacer con los lotes ya commiteados sin seeds (sus args dicen \"10 seeds\" sin listar ids): o se asume que consultaron las 10 de siempre, o se dejan y la rotacion arranca desde el arreglo.",
+        "",
+        "Sin verificar: si google_suggestions de verdad no devuelve preguntas para esas 10 semillas o si la llamada del agente falla en silencio (el 2026-10-01 las mismas semillas dieron 6 frases). Conviene probar una llamada a mano al arreglar.",
+        "Efecto hoy: el content-strategist no recibe FAQs nuevas de autocompletado desde hace mas de una semana. El resto de la cadena (Ubersuggest, plan, organize) corre bien."
       ]
     },
     {
