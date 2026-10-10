@@ -35347,8 +35347,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/projector-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -35386,6 +35386,10 @@
               "2026-08": 0
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-10",
+          "lastSeen": "2026-10-10"
         },
         "content-plan": {
           "firstSeen": "2026-10-10",
@@ -83205,6 +83209,24 @@
           "lastSeen": "2026-10-10",
           "urls": [
             "/blog/tv-screen-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "do-you-rent-projectors-for-large-venues-or-big-rooms",
+      "question": "Do you rent projectors for large venues or big rooms?",
+      "keywordId": "projector-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/projector-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-10",
+          "lastSeen": "2026-10-10",
+          "urls": [
+            "/blog/projector-rental/"
           ]
         }
       }
