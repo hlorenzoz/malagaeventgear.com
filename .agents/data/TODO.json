@@ -878,28 +878,6 @@
       ]
     },
     {
-      "id": "#T0118",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "seo-tecnico",
-      "titulo": "Guard del silo: regla por rol de post para no regenerar silo-cycle-debt.ts con cada hermano nuevo",
-      "anotada": "2026-10-10",
-      "hecha": null,
-      "origen": "usuario",
-      "notas": [],
-      "descripcion": [
-        "Resto de #T0111 (cerrada el 2026-10-10). El guard validateSiloGraph ya reconoce una cadena de hermanos (isSiloChain), pero compara la FIRMA EXACTA de la malla conocida de src/lib/data/silo-cycle-debt.ts (71 posts, una sola componente). Cada hermano nuevo bien encadenado a un post de la malla se une a esa componente, le cambia la firma y obliga a sumarlo a mano al archivo (paso el 2026-09-25, 2026-10-07 y 2026-10-09). Lo mismo va a pasar al agregar el enlace del pilar al ultimo post (regla 3) en audio-visual-rental, wedding-rentals y stage-lighting-rental.",
-        "",
-        "Se probo leer el archivo como lista de posts y aceptar un post nuevo con hasta 2 vecinos reciprocos. Se descarto en el /code-review porque:",
-        "- Un pilar que entra a la malla falla: tiene decenas de enlaces entrantes de sus hermanos y devuelve uno.",
-        "- Los enlaces a posts News (Experience, regla 5 del contenido) cuentan como tercer vecino, y un News nuevo citado por varias guias tambien falla.",
-        "- Excluir el pilar propio deja pasar un anillo de posts nuevos enganchado a la malla a traves del pilar.",
-        "- Un post de la deuda puede ganar enlaces sin limite sin que nada falle.",
-        "",
-        "Que hace falta: una regla POR ROL. Hermanos = posts supporting con el mismo targetPage. Para ellos, hasta 2 enlaces reciprocos con hermanos. Aparte y permitidos: el enlace al pilar, el enlace del pilar al ultimo (uno), los enlaces a y desde posts News, y decidir que se hace con los enlaces entre silos. Es un cambio de diseno del guard: SDD y tests primero. Alternativa: limpiar la malla, que es la deuda de fondo."
-      ]
-    },
-    {
       "id": "#T0110",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1611,6 +1589,31 @@
         "Resto de #T0018 (cerrada el 2026-10-10). La tarea pedia unificar en italiano la palabra finca, que es invariable. Se hizo en la copia de paquetes (src/lib/i18n/data/it.ts, commit 5a349962). El blog italiano sigue usando el plural fincas en 7 posts de src/content/blog/it/.",
         "",
         "Que hacer: cambiar fincas por finca en esos posts italianos (solo la traduccion italiana, el ingles no cambia) y mover updatedDate de cada traduccion tocada. Es una correccion de la traduccion, entra en la etapa de correccion (#T0024) si se prefiere agrupar."
+      ]
+    },
+    {
+      "id": "#T0118",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "seo-tecnico",
+      "titulo": "Guard del silo: regla por rol de post para no regenerar silo-cycle-debt.ts con cada hermano nuevo",
+      "anotada": "2026-10-10",
+      "hecha": "2026-10-10",
+      "origen": "usuario",
+      "notas": [
+        "commit 802546db. Regla por rol y deuda por post (41 entradas). La malla sigue sin limpiar: es trabajo de contenido en los 13 idiomas",
+        "sin tarea propia"
+      ],
+      "descripcion": [
+        "Resto de #T0111 (cerrada el 2026-10-10). El guard validateSiloGraph ya reconoce una cadena de hermanos (isSiloChain), pero compara la FIRMA EXACTA de la malla conocida de src/lib/data/silo-cycle-debt.ts (71 posts, una sola componente). Cada hermano nuevo bien encadenado a un post de la malla se une a esa componente, le cambia la firma y obliga a sumarlo a mano al archivo (paso el 2026-09-25, 2026-10-07 y 2026-10-09). Lo mismo va a pasar al agregar el enlace del pilar al ultimo post (regla 3) en audio-visual-rental, wedding-rentals y stage-lighting-rental.",
+        "",
+        "Se probo leer el archivo como lista de posts y aceptar un post nuevo con hasta 2 vecinos reciprocos. Se descarto en el /code-review porque:",
+        "- Un pilar que entra a la malla falla: tiene decenas de enlaces entrantes de sus hermanos y devuelve uno.",
+        "- Los enlaces a posts News (Experience, regla 5 del contenido) cuentan como tercer vecino, y un News nuevo citado por varias guias tambien falla.",
+        "- Excluir el pilar propio deja pasar un anillo de posts nuevos enganchado a la malla a traves del pilar.",
+        "- Un post de la deuda puede ganar enlaces sin limite sin que nada falle.",
+        "",
+        "Que hace falta: una regla POR ROL. Hermanos = posts supporting con el mismo targetPage. Para ellos, hasta 2 enlaces reciprocos con hermanos. Aparte y permitidos: el enlace al pilar, el enlace del pilar al ultimo (uno), los enlaces a y desde posts News, y decidir que se hace con los enlaces entre silos. Es un cambio de diseno del guard: SDD y tests primero. Alternativa: limpiar la malla, que es la deuda de fondo."
       ]
     },
     {
