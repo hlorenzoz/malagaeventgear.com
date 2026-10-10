@@ -947,47 +947,6 @@
       ]
     },
     {
-      "id": "#T0077",
-      "estado": "en curso",
-      "prioridad": "media",
-      "tipo": "imagenes",
-      "titulo": "Fotos de la Billie Jean King Cup: alt y pies que no describen la foto en 2 posts y el manifest",
-      "anotada": "2026-10-08",
-      "hecha": null,
-      "origen": "usuario",
-      "notas": [],
-      "descripcion": [
-        "Origen: verificador de #T0029 (2026-10-08). Textos de fotos de la Billie Jean King Cup 2024 que describen algo que la foto no muestra. No se tocaron al escribir el post News. Fotos vistas el 2026-10-08:",
-        "- 1191/1192 (celebracion): esta tomada a pie de pista, y se ven el confeti y las fuentes pirotecnicas (no son de MEG).",
-        "- 1190/1189 (podio): se ve el podio iluminado con haces de luz, con equipos y oficiales. El sistema de sonido NO se ve.",
-        "- 1195/1196 y 1193/1194: mesa de mezclas con un partido en juego detras.",
-        "Que corregir, en ingles y en los 12 idiomas:",
-        "- audio-visual-rental-for-sports-events.svx linea ~81 y audiovisual-equipment-rental-service.svx linea ~86: alt \"seen from the stands of the indoor arena\" (no es desde las gradas, y \"indoor arena\" describe un pabellon que no esta confirmado).",
-        "- audio-visual-rental-for-sports-events.svx lineas ~85 y ~87: alt y pie de 1190 \"Stage setup with professional lights and sound system\" y \"A lit stage with a sound system\" (el sonido no se ve).",
-        "- scripts/migrate-wp/manifest.json: los mismos alt y pies de 1189 a 1196 (incluido un pie con HTML <p> y guiones).",
-        "- audiovisual-equipment-rental-service.svx: conserva un \"We do not stock ... confetti cannons\" plano, que por la regla 2 del posicionamiento va como \"no esta en nuestro inventario propio, contanos y buscamos la solucion\".",
-        "El post News ya usa los textos corregidos: sirven de modelo."
-      ]
-    },
-    {
-      "id": "#T0114",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/projector-rental/: \"Do you rent projectors for large venues or big rooms?\"",
-      "anotada": "2026-10-10",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-10, ítem 2)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/projector-rental.svx",
-        "Keywords: large venue projector rental (google-ads 10/mo (below tier 100)), debajo del tier",
-        "Por qué: projector-rental tiene secciones de lumenes y de lo que no se stockea, pero ninguna pregunta sobre salas grandes. Es una pregunta real de clientes y se responde con los dos proyectores propios mas el marco de proveedores. Sin cambio de silo ni nueva pagina.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0110",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1639,6 +1598,29 @@
       ]
     },
     {
+      "id": "#T0114",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/projector-rental/: \"Do you rent projectors for large venues or big rooms?\"",
+      "anotada": "2026-10-10",
+      "hecha": "2026-10-10",
+      "origen": "content-strategist (plan 2026-10-10, ítem 2)",
+      "notas": [
+        "marcada hecha por plan-coverage",
+        "commit 0b21fdce",
+        "con /code-review (9 hallazgos verificados",
+        "los de contenido corregidos)"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/projector-rental.svx",
+        "Keywords: large venue projector rental (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Por qué: projector-rental tiene secciones de lumenes y de lo que no se stockea, pero ninguna pregunta sobre salas grandes. Es una pregunta real de clientes y se responde con los dos proyectores propios mas el marco de proveedores. Sin cambio de silo ni nueva pagina.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
       "id": "#T0115",
       "estado": "hecha",
       "prioridad": "baja",
@@ -1679,6 +1661,33 @@
         "Qué cubrir: Responder con honestidad: una pantalla hinchable no está en el inventario propio (las pantallas propias son la de 2x2m del Basic MICE Pack, la del Product Presentation Pack y la Da-Lite de 2.30 x 3.00 m, ver packages.ts). Decir 'no está en nuestro inventario, cuéntanos qué necesitas y buscamos una solución con nuestros proveedores'. Explicar qué debe indicar el cliente (lugar, número de invitados, tamaño deseado). No dar marca, modelo, tamaño, precio, disponibilidad ni plazo. No inventar precios de hinchables.",
         "Por qué: Misma intención (pantalla de cine hinchable con proyector) en seis variantes. El post /blog/outdoor-movie-screen-and-projector-rental/ no menciona pantallas hinchables en ningún encabezado ni FAQ. Es una necesidad de evento que MEG resuelve con proveedores, así que va como FAQ y no como post nuevo (Goldilocks, creating-helpful-content.md).",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0077",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "imagenes",
+      "titulo": "Fotos de la Billie Jean King Cup: alt y pies que no describen la foto en 2 posts y el manifest",
+      "anotada": "2026-10-08",
+      "hecha": "2026-10-10",
+      "origen": "usuario",
+      "notas": [
+        "cerrada el 2026-10-10: el commit 2157d578 entro (posts",
+        "12 traducciones y manifest)",
+        "con /code-review"
+      ],
+      "descripcion": [
+        "Origen: verificador de #T0029 (2026-10-08). Textos de fotos de la Billie Jean King Cup 2024 que describen algo que la foto no muestra. No se tocaron al escribir el post News. Fotos vistas el 2026-10-08:",
+        "- 1191/1192 (celebracion): esta tomada a pie de pista, y se ven el confeti y las fuentes pirotecnicas (no son de MEG).",
+        "- 1190/1189 (podio): se ve el podio iluminado con haces de luz, con equipos y oficiales. El sistema de sonido NO se ve.",
+        "- 1195/1196 y 1193/1194: mesa de mezclas con un partido en juego detras.",
+        "Que corregir, en ingles y en los 12 idiomas:",
+        "- audio-visual-rental-for-sports-events.svx linea ~81 y audiovisual-equipment-rental-service.svx linea ~86: alt \"seen from the stands of the indoor arena\" (no es desde las gradas, y \"indoor arena\" describe un pabellon que no esta confirmado).",
+        "- audio-visual-rental-for-sports-events.svx lineas ~85 y ~87: alt y pie de 1190 \"Stage setup with professional lights and sound system\" y \"A lit stage with a sound system\" (el sonido no se ve).",
+        "- scripts/migrate-wp/manifest.json: los mismos alt y pies de 1189 a 1196 (incluido un pie con HTML <p> y guiones).",
+        "- audiovisual-equipment-rental-service.svx: conserva un \"We do not stock ... confetti cannons\" plano, que por la regla 2 del posicionamiento va como \"no esta en nuestro inventario propio, contanos y buscamos la solucion\".",
+        "El post News ya usa los textos corregidos: sirven de modelo."
       ]
     },
     {
