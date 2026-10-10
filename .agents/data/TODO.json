@@ -1006,25 +1006,6 @@
       ]
     },
     {
-      "id": "#T0107",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/outdoor-movie-screen-and-projector-rental/: \"Do you rent an inflatable outdoor movie screen?\"",
-      "anotada": "2026-10-09",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-09, ítem 1)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/outdoor-movie-screen-and-projector-rental.svx",
-        "Keywords: inflatable movie screen hire, inflatable movie screen and projector rental, inflatable movie screen with projector rental, inflatable screen hire, large inflatable movie screen rental, inflatable movie screen rental prices (google-ads 10/mo (below tier 100)), debajo del tier",
-        "Qué cubrir: Responder con honestidad: una pantalla hinchable no está en el inventario propio (las pantallas propias son la de 2x2m del Basic MICE Pack, la del Product Presentation Pack y la Da-Lite de 2.30 x 3.00 m, ver packages.ts). Decir 'no está en nuestro inventario, cuéntanos qué necesitas y buscamos una solución con nuestros proveedores'. Explicar qué debe indicar el cliente (lugar, número de invitados, tamaño deseado). No dar marca, modelo, tamaño, precio, disponibilidad ni plazo. No inventar precios de hinchables.",
-        "Por qué: Misma intención (pantalla de cine hinchable con proyector) en seis variantes. El post /blog/outdoor-movie-screen-and-projector-rental/ no menciona pantallas hinchables en ningún encabezado ni FAQ. Es una necesidad de evento que MEG resuelve con proveedores, así que va como FAQ y no como post nuevo (Goldilocks, creating-helpful-content.md).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0110",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1670,6 +1651,29 @@
         "led screen hire price (Una sola intencion (pantalla LED que MEG gestiona via proveedores). Ya cubierta en /blog/tv-screen-rental/: seccion 'What We Don't Stock: LED Video Walls and Modular LED Panels' y FAQs 'Do you rent an LED screen?' y 'Can Malaga Event Gear source an LED video wall through a supplier?'. Una pagina nueva implicaria stock propio y canibalizaria.)",
         "light and sound rental price (Cubierto por /blog/sound-system-rental/ ('How much does it cost to rent sound equipment?') y /blog/stage-lighting-rental/ ('Which MEG Packages Bundle Both Sound and Lighting Together?').)",
         "loudspeaker rental near me (Variantes 'near me' de paginas existentes. Ya existe /blog/audio-video-rental-near-me-in-malaga-spain/ y /blog/sound-system-rental/ (FAQ de entrega fuera de Malaga). Doorway abuse, spam-policies.md.)"
+      ]
+    },
+    {
+      "id": "#T0107",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/outdoor-movie-screen-and-projector-rental/: \"Do you rent an inflatable outdoor movie screen?\"",
+      "anotada": "2026-10-09",
+      "hecha": "2026-10-10",
+      "origen": "content-strategist (plan 2026-10-09, ítem 1)",
+      "notas": [
+        "marcada hecha por plan-coverage",
+        "commit a09b244c",
+        "con /code-review (8 hallazgos verificados y corregidos). El post hermano audio-visual-rental-for-outdoor-events ya tenia casi la misma pregunta"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/outdoor-movie-screen-and-projector-rental.svx",
+        "Keywords: inflatable movie screen hire, inflatable movie screen and projector rental, inflatable movie screen with projector rental, inflatable screen hire, large inflatable movie screen rental, inflatable movie screen rental prices (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Responder con honestidad: una pantalla hinchable no está en el inventario propio (las pantallas propias son la de 2x2m del Basic MICE Pack, la del Product Presentation Pack y la Da-Lite de 2.30 x 3.00 m, ver packages.ts). Decir 'no está en nuestro inventario, cuéntanos qué necesitas y buscamos una solución con nuestros proveedores'. Explicar qué debe indicar el cliente (lugar, número de invitados, tamaño deseado). No dar marca, modelo, tamaño, precio, disponibilidad ni plazo. No inventar precios de hinchables.",
+        "Por qué: Misma intención (pantalla de cine hinchable con proyector) en seis variantes. El post /blog/outdoor-movie-screen-and-projector-rental/ no menciona pantallas hinchables en ningún encabezado ni FAQ. Es una necesidad de evento que MEG resuelve con proveedores, así que va como FAQ y no como post nuevo (Goldilocks, creating-helpful-content.md).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
