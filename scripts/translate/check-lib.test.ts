@@ -510,6 +510,29 @@ describe('checkLocale', () => {
 		expect(run(zh, 'zh-hans').issues.join('|')).not.toMatch(/title is/);
 	});
 
+	it('accepts a long title that is exactly the locale keyword, and nothing longer', () => {
+		// The brief asks for the keyword verbatim in the title: when the keyword alone is over the
+		// limit, the only fix would be another keyword, which is not a translation error.
+		const keyword = 'elementi essenziali per il noleggio attrezzature per matrimoni a Malaga';
+		expect(keyword.length).toBeGreaterThan(65);
+		const m = map();
+		m.posts.mine.keyword = keyword;
+		const titled = (title: string) => good.replace(/^title: .*$/m, `title: "${title}"`);
+		const exact = 'Elementi essenziali per il noleggio attrezzature per matrimoni a Malaga';
+		expect(run(titled(exact), 'it', m).issues.join('|')).not.toMatch(/title is/);
+		expect(run(titled(`${exact} oggi`), 'it', m).issues.join('|')).toMatch(/title is/);
+		// The exception leaves a trace, also in strict mode, where it must not fail the check.
+		expect(run(titled(exact), 'it', m).warnings.join('|')).toMatch(/accepted/);
+		expect(run(titled(exact), 'it', m, { strict: true }).issues.join('|')).not.toMatch(/title is/);
+		// Spacing does not matter, and without a content map entry there is no exception.
+		expect(
+			run(titled(exact.replace(' per il ', '  per il ')), 'it', m).issues.join('|')
+		).not.toMatch(/title is/);
+		const noEntry = map();
+		delete noEntry.posts.mine;
+		expect(run(titled(exact), 'it', noEntry).issues.join('|')).toMatch(/title is/);
+	});
+
 	it('flags forbidden characters and semicolons', () => {
 		expect(run(good.replace('Plus de', `Plus ${EM} de`)).issues.join('|')).toMatch(/em dash/);
 		expect(run(good.replace('Plus de', 'Plus; de')).issues.join('|')).toMatch(/semicolon/);

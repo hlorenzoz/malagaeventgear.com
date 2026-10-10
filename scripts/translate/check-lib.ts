@@ -547,7 +547,14 @@ export function checkLocale({
 	}
 	report.titleLength = length(values.title ?? '');
 	report.descriptionLength = length(values.description ?? '');
-	if (!zh && report.titleLength > TITLE_MAX)
+	// A title that is exactly the locale keyword is as short as the brief allows (the keyword goes
+	// verbatim in the title): a keyword over the limit is a keyword decision, not a title to trim.
+	const titleIsKeyword = !!report.keyword && flat(values.title ?? '') === flat(report.keyword);
+	if (!zh && report.titleLength > TITLE_MAX && titleIsKeyword)
+		report.warnings.push(
+			`title is ${report.titleLength} characters (max ${TITLE_MAX}), accepted: it is exactly the locale keyword`
+		);
+	if (!zh && report.titleLength > TITLE_MAX && !titleIsKeyword)
 		issues.push(`title is ${report.titleLength} characters (max ${TITLE_MAX})`);
 	if (!zh && report.descriptionLength > DESCRIPTION_MAX) {
 		issues.push(`description is ${report.descriptionLength} characters (max ${DESCRIPTION_MAX})`);
