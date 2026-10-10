@@ -1292,24 +1292,6 @@
       ]
     },
     {
-      "id": "#T0119",
-      "estado": "pendiente",
-      "prioridad": "baja",
-      "tipo": "traduccion",
-      "titulo": "Tres problemas viejos de post-translate-check en posts de bodas",
-      "anotada": "2026-10-10",
-      "hecha": null,
-      "origen": "usuario",
-      "notas": [
-        "2026-10-10: resueltos el titulo frances y el falso positivo chino (era del chequeo",
-        "no de la traduccion). Queda SOLO el titulo italiano de essential-items-for-wedding-rentals: es la keyword italiana del mapa de contenido (71 caracteres)",
-        "acortarlo es decidir otra keyword"
-      ],
-      "descripcion": [
-        "Cambiar un titulo es un cambio de contenido de esa traduccion: mueve su updatedDate."
-      ]
-    },
-    {
       "id": "#T0101",
       "estado": "pendiente",
       "prioridad": "baja",
@@ -1618,6 +1600,26 @@
         "- Un post de la deuda puede ganar enlaces sin limite sin que nada falle.",
         "",
         "Que hace falta: una regla POR ROL. Hermanos = posts supporting con el mismo targetPage. Para ellos, hasta 2 enlaces reciprocos con hermanos. Aparte y permitidos: el enlace al pilar, el enlace del pilar al ultimo (uno), los enlaces a y desde posts News, y decidir que se hace con los enlaces entre silos. Es un cambio de diseno del guard: SDD y tests primero. Alternativa: limpiar la malla, que es la deuda de fondo."
+      ]
+    },
+    {
+      "id": "#T0119",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "traduccion",
+      "titulo": "Tres problemas viejos de post-translate-check en posts de bodas",
+      "anotada": "2026-10-10",
+      "hecha": "2026-10-10",
+      "origen": "usuario",
+      "notas": [
+        "2026-10-10: resueltos el titulo frances y el falso positivo chino (era del chequeo",
+        "no de la traduccion). Queda SOLO el titulo italiano de essential-items-for-wedding-rentals: es la keyword italiana del mapa de contenido (71 caracteres)",
+        "acortarlo es decidir otra keyword",
+        "Decision del usuario 2026-10-10: el titulo italiano de 71 caracteres se queda",
+        "es la keyword del idioma"
+      ],
+      "descripcion": [
+        "Cambiar un titulo es un cambio de contenido de esa traduccion: mueve su updatedDate."
       ]
     },
     {
