@@ -1432,35 +1432,6 @@
       ]
     },
     {
-      "id": "#T0103",
-      "estado": "pendiente",
-      "prioridad": "baja",
-      "tipo": "seo-tecnico",
-      "titulo": "[Local Dominator] Home: enlace a /equipment/ solo con icono, sin nombre accesible ni texto de ancla",
-      "anotada": "2026-10-08",
-      "hecha": null,
-      "origen": "usuario",
-      "notas": [
-        "fuente: Local Dominator",
-        "Site Audit 2026-10-05"
-      ],
-      "descripcion": [
-        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
-        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
-        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
-        "",
-        "Hallazgo del reporte: en \"Internal Links (Body Content)\" hay enlaces con texto \"(empty)\": /equipment/ y las tarjetas de posts y noticias.",
-        "Verificacion:",
-        "- /equipment/: confirmado. En src/routes/(public)/+page.svelte (linea 555) hay un enlace que solo contiene el icono de flecha, sin aria-label ni texto. No tiene nombre accesible ni texto de ancla.",
-        "- Tarjetas del blog: falso positivo. El enlace de la imagen lleva aria-label con el titulo del post y al lado hay otro enlace con el titulo como texto.",
-        "",
-        "Que hacer:",
-        "1. Darle nombre accesible al enlace del icono (aria-label traducido desde el diccionario, en los 13 idiomas), o envolver la tarjeta entera en el enlace.",
-        "2. Revisar con la skill a11y-debugging si el patron se repite en otras tarjetas de la home.",
-        "3. Sumar el caso a un e2e."
-      ]
-    },
-    {
       "id": "#T0104",
       "estado": "pendiente",
       "prioridad": "baja",
@@ -1688,6 +1659,38 @@
         "- scripts/migrate-wp/manifest.json: los mismos alt y pies de 1189 a 1196 (incluido un pie con HTML <p> y guiones).",
         "- audiovisual-equipment-rental-service.svx: conserva un \"We do not stock ... confetti cannons\" plano, que por la regla 2 del posicionamiento va como \"no esta en nuestro inventario propio, contanos y buscamos la solucion\".",
         "El post News ya usa los textos corregidos: sirven de modelo."
+      ]
+    },
+    {
+      "id": "#T0103",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "seo-tecnico",
+      "titulo": "[Local Dominator] Home: enlace a /equipment/ solo con icono, sin nombre accesible ni texto de ancla",
+      "anotada": "2026-10-08",
+      "hecha": "2026-10-10",
+      "origen": "usuario",
+      "notas": [
+        "fuente: Local Dominator",
+        "Site Audit 2026-10-05",
+        "commit e596444b",
+        "con /code-review (9 hallazgos verificados). Abierto: los dos enlaces siguen ocultos en movil (hidden md:flex) y la etiqueta no coincide con la tarjeta de la maquina de humo",
+        "es decision de diseno"
+      ],
+      "descripcion": [
+        "Fuente: Local Dominator, Site Audit del 2026-10-05 (solo la home inglesa, 1 pagina rastreada, keyword objetivo \"audio visual equipment rental Málaga\", nota 72: contenido 45, tecnico 100, SEO local 79).",
+        "Reporte: https://site-audit.localdominator.co/share/audit/ba0facabf1ba4f41a63341bbe312860d (solo carga con JavaScript). Exportes en .agents/context/local-dominator/site/.",
+        "Verificado el 2026-10-08 contra el HTML en produccion (curl de https://malagaeventgear.com/) y el codigo de feat/i18n.",
+        "",
+        "Hallazgo del reporte: en \"Internal Links (Body Content)\" hay enlaces con texto \"(empty)\": /equipment/ y las tarjetas de posts y noticias.",
+        "Verificacion:",
+        "- /equipment/: confirmado. En src/routes/(public)/+page.svelte (linea 555) hay un enlace que solo contiene el icono de flecha, sin aria-label ni texto. No tiene nombre accesible ni texto de ancla.",
+        "- Tarjetas del blog: falso positivo. El enlace de la imagen lleva aria-label con el titulo del post y al lado hay otro enlace con el titulo como texto.",
+        "",
+        "Que hacer:",
+        "1. Darle nombre accesible al enlace del icono (aria-label traducido desde el diccionario, en los 13 idiomas), o envolver la tarjeta entera en el enlace.",
+        "2. Revisar con la skill a11y-debugging si el patron se repite en otras tarjetas de la home.",
+        "3. Sumar el caso a un e2e."
       ]
     },
     {
