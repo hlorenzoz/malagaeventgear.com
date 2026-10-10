@@ -1314,22 +1314,6 @@
       ]
     },
     {
-      "id": "#T0117",
-      "estado": "pendiente",
-      "prioridad": "baja",
-      "tipo": "traduccion",
-      "titulo": "Italiano: fincas a finca en los posts del blog (resto de T0018)",
-      "anotada": "2026-10-10",
-      "hecha": null,
-      "origen": "usuario",
-      "notas": [],
-      "descripcion": [
-        "Resto de #T0018 (cerrada el 2026-10-10). La tarea pedia unificar en italiano la palabra finca, que es invariable. Se hizo en la copia de paquetes (src/lib/i18n/data/it.ts, commit 5a349962). El blog italiano sigue usando el plural fincas en 7 posts de src/content/blog/it/.",
-        "",
-        "Que hacer: cambiar fincas por finca en esos posts italianos (solo la traduccion italiana, el ingles no cambia) y mover updatedDate de cada traduccion tocada. Es una correccion de la traduccion, entra en la etapa de correccion (#T0024) si se prefiere agrupar."
-      ]
-    },
-    {
       "id": "#T0101",
       "estado": "pendiente",
       "prioridad": "baja",
@@ -1595,6 +1579,24 @@
         "",
         "Sin verificar: si google_suggestions de verdad no devuelve preguntas para esas 10 semillas o si la llamada del agente falla en silencio (el 2026-10-01 las mismas semillas dieron 6 frases). Conviene probar una llamada a mano al arreglar.",
         "Efecto hoy: el content-strategist no recibe FAQs nuevas de autocompletado desde hace mas de una semana. El resto de la cadena (Ubersuggest, plan, organize) corre bien."
+      ]
+    },
+    {
+      "id": "#T0117",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "traduccion",
+      "titulo": "Italiano: fincas a finca en los posts del blog (resto de T0018)",
+      "anotada": "2026-10-10",
+      "hecha": "2026-10-10",
+      "origen": "usuario",
+      "notas": [
+        "commit 0f9235f2. Sin mover updatedDate: la regla 11 dice que una correccion de ortografia no la mueve. Regla italiana sumada a scripts/translate/brief-base.md"
+      ],
+      "descripcion": [
+        "Resto de #T0018 (cerrada el 2026-10-10). La tarea pedia unificar en italiano la palabra finca, que es invariable. Se hizo en la copia de paquetes (src/lib/i18n/data/it.ts, commit 5a349962). El blog italiano sigue usando el plural fincas en 7 posts de src/content/blog/it/.",
+        "",
+        "Que hacer: cambiar fincas por finca en esos posts italianos (solo la traduccion italiana, el ingles no cambia) y mover updatedDate de cada traduccion tocada. Es una correccion de la traduccion, entra en la etapa de correccion (#T0024) si se prefiere agrupar."
       ]
     },
     {
