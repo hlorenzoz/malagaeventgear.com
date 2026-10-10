@@ -29,7 +29,12 @@
         "contact",
         "faq",
         "meet-the-team en 13 idiomas",
-        "con test tests/malaga-spain-first-mention.spec.ts y dos /code-review). Faltan las 5 paginas de detalle de paquete y Malaga capital en packages/[slug]/i18n y terms-of-service/i18n"
+        "con test tests/malaga-spain-first-mention.spec.ts y dos /code-review). Faltan las 5 paginas de detalle de paquete y Malaga capital en packages/[slug]/i18n y terms-of-service/i18n",
+        "2026-10-10: parte 3 parcial",
+        "commit 5eabd729 (Malaga capital a the city of Malaga en paginas de paquete y terminos",
+        "5 idiomas). PENDIENTE DE DECISION DEL USUARIO: el pais en la primera mencion de las 5 paginas de detalle de paquete. En 43 de 65 combinaciones la primera mencion es la descripcion compartida del paquete (src/lib/i18n/data)",
+        "que tambien es meta description y sale en home",
+        "equipment y packages. No se puede cumplir editando cadenas sin repetir el pais en esas paginas"
       ],
       "descripcion": [
         "Decisión del usuario del 2026-09-26, regla en CLAUDE.md §5 (\"Malaga, Spain\"): la primera mención",
