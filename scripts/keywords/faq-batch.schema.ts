@@ -1,7 +1,7 @@
 /**
  * faq-batch.schema.ts: the daily FAQ batch, written by the faq-researcher agent to
  * `.agents/context/keywords/faqs/YYYY-MM-DD.json`. The agent only copies the raw Google
- * autocomplete phrases with the seed that produced each one: it does not classify them, decide
+ * autocomplete phrases with the seed that produced each one, plus the ids of all the seeds it asked: it does not classify them, decide
  * which are questions or judge relevance. `ingest-faqs.ts` does all of that.
  */
 
@@ -24,6 +24,12 @@ export const FaqBatchSchema = z.strictObject({
 			)
 			.default([])
 	}),
+	/**
+	 * The id of EVERY seed consulted in this run, also the ones that returned no question. The
+	 * rotation (faq-seeds.ts) reads it: a seed with no result must still count as consulted, or it
+	 * comes back first every day. Empty in the batches written before the field existed.
+	 */
+	seeds: z.array(z.string().min(1)).default([]),
 	suggestions: z
 		.array(z.strictObject({ seed: z.string().min(1), phrase: z.string().min(1) }))
 		.default([])

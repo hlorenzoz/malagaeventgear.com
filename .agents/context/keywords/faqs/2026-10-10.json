@@ -11,5 +11,17 @@
       }
     ]
   },
+  "seeds": [
+    "audio-visual-rental",
+    "audio-visual-rental-for-art-exhibitions",
+    "audio-visual-rental-for-corporate-events",
+    "audio-visual-rental-for-corporate-meetings",
+    "audio-visual-rental-for-outdoor-events",
+    "audio-visual-rental-for-press-conferences",
+    "audio-visual-rental-for-private-parties",
+    "audio-visual-rental-for-religious-events",
+    "audio-visual-rental-for-remote-presentations",
+    "audio-visual-rental-for-seminars"
+  ],
   "suggestions": []
 }

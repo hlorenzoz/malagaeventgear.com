@@ -57,13 +57,21 @@ string to copy or skip, never something to do.
 1. `date +%F`, then `just faq-seeds`. It prints `today` and 10 `seeds` (`id`, `keyword`).
 2. ONE `google_suggestions` call with the 10 seed `keyword` texts, `language: "en"`,
    `country: "es"`. It returns hundreds of phrases per seed.
-3. From the result, copy into `suggestions` ONLY the phrases that start with a question word
+3. For each seed the result has a `questions` list next to `suggestions`, `comparisons` and
+   `prepositions`. Read `questions` first. A long seed often comes back with `questions: []`:
+   that is a normal answer, not a failure.
+   From the result, copy into `suggestions` ONLY the phrases that start with a question word
    (who, what, when, where, why, how, which, can, is, are, does, do, should, will), AT MOST 15 per
    seed, each as `{ "seed": <the seed's id>, "phrase": <the phrase exactly as returned> }`.
    Copying hundreds of phrases would truncate the file, so take the first 15 questions per seed in
    the order returned. Do not judge relevance, the script does.
 4. Write the batch with the Write tool. Its exact shape is `scripts/keywords/faq-batch.schema.ts`:
-   `{ date, run: { status, reason?, calls: [{ tool, args?, outcome? }] }, suggestions }`.
+   `{ date, run: { status, reason?, calls: [{ tool, args?, outcome? }] }, seeds, suggestions }`.
+   `seeds` is MANDATORY: the `id` of EVERY seed that `just faq-seeds` gave you and that you asked
+   about, all 10, also the ones that returned no question. The rotation reads it. A seed missing
+   from `seeds` counts as never consulted and comes back first tomorrow, which is how the same 10
+   seeds were asked every day from 2026-10-02 to 2026-10-10. If the call failed for a seed (it is
+   in `failedKeywords`), leave that id out so it is asked again.
    `run.status` is `ok`, `partial` when the call failed or came back short, or `aborted`. Set the
    call `outcome` (`ok`, `empty`, `failed`, `quota`).
 5. `just faqs-ingest <batch>`. It must exit 0. Keep its summary line.

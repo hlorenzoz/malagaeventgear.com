@@ -3,7 +3,8 @@
  * faq-seeds.ts: the keywords the faq-researcher asks Google autocomplete about today
  * (`just faq-seeds [n]`, default 10). Pool: `published` or `planned` keywords, never the `news` or
  * `standalone` clusters (their keyword is a headline, not a search). Never consulted first, then
- * the least recently consulted (from the committed FAQ batches), so 10 a day walk the catalog.
+ * the least recently consulted (from the `seeds` of the committed FAQ batches, whether or not a
+ * seed returned a question), so 10 a day walk the catalog.
  * Prints JSON: the agent never opens the 1.7 MB keywords.json.
  */
 
@@ -18,12 +19,18 @@ const SEEDABLE = new Set<KeywordEntry['status']>(['published', 'planned']);
 const UNSEEDABLE_CLUSTERS = new Set(['news', 'standalone']);
 
 /** Pure: up to `n` seeds, least recently consulted first. */
-export function pickFaqSeeds(pool: KeywordEntry[], history: FaqBatch[], n: number = DEFAULT_N): KeywordEntry[] {
+export function pickFaqSeeds(
+	pool: KeywordEntry[],
+	history: FaqBatch[],
+	n: number = DEFAULT_N
+): KeywordEntry[] {
 	const lastConsulted = new Map<string, string>();
+	// `seeds` lists every seed of the run. `suggestions` is read too for the batches written
+	// before that field existed, which only left a trace of the seeds that returned a question.
 	for (const b of history) {
-		for (const s of b.suggestions) {
-			const prev = lastConsulted.get(s.seed);
-			if (!prev || b.date > prev) lastConsulted.set(s.seed, b.date);
+		for (const seed of [...b.seeds, ...b.suggestions.map((s) => s.seed)]) {
+			const prev = lastConsulted.get(seed);
+			if (!prev || b.date > prev) lastConsulted.set(seed, b.date);
 		}
 	}
 	return pool
