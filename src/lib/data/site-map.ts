@@ -12,7 +12,7 @@
 
 import type { BlogPost, Category, Author } from '$lib/types/blog';
 import type { EventPackage } from '$lib/data/packages';
-import { KNOWN_SILO_CYCLE_DEBT } from '$lib/data/silo-cycle-debt';
+import { KNOWN_SILO_LINK_DEBT, type SiloLinkDebt } from '$lib/data/silo-cycle-debt';
 
 export const SILO_ROLES = ['pillar', 'supporting', 'both', 'news', 'standalone'] as const;
 export type SiloRole = (typeof SILO_ROLES)[number];
@@ -221,14 +221,12 @@ export function isSiloChain(
 	);
 
 	// El pilar de la componente es el post al que apuntan los demás como `targetPage`.
-	const isPillarRole = (slug: string) => {
-		const role = posts.get(slug)?.siloRole;
-		return role === 'pillar' || role === 'both';
-	};
 	const urls = new Map(component.map((slug) => [slug, posts.get(slug)?.url]));
 	const targetedBy = (slug: string) =>
 		component.filter((other) => other !== slug && posts.get(other)?.targetPage === urls.get(slug));
-	const pillars = component.filter((slug) => isPillarRole(slug) && targetedBy(slug).length > 0);
+	const pillars = component.filter(
+		(slug) => isPillar(posts.get(slug)) && targetedBy(slug).length > 0
+	);
 	if (pillars.length > 1) return false;
 	const pillar = pillars[0];
 	const chain = component.filter((slug) => slug !== pillar);
@@ -276,20 +274,103 @@ export function isSiloChain(
 	return neighbours.get(back[0])!.size <= 1;
 }
 
+type LinkedPost = BlogPost & { blogLinks?: string[] };
+
+/** Un post de soporte: alimenta a un pilar y tiene hermanos (los demás con su mismo target). */
+function isSupporting(p: Pick<BlogPost, 'siloRole'> | undefined): boolean {
+	return p?.siloRole === 'supporting' || p?.siloRole === 'both';
+}
+
+/** Un pilar: 'pillar' o 'both', igual que en buildSilos. */
+function isPillar(p: Pick<BlogPost, 'siloRole'> | undefined): boolean {
+	return p?.siloRole === 'pillar' || p?.siloRole === 'both';
+}
+
+/** Los otros posts a los que enlaza un post, sin repetir. */
+function linkedSlugs(p: LinkedPost): string[] {
+	return [...new Set(p.blogLinks ?? [])].filter((slug) => slug !== p.slug);
+}
+
+/** Máximo de hermanos de un post en una cadena: el anterior y el siguiente. */
+const MAX_SIBLING_LINKS = 2;
+
+/**
+ * Por cada post de soporte, `[recíprocos, salientes]`: a cuántos HERMANOS (posts de soporte con
+ * su mismo `targetPage`) enlaza y con cuántos de ellos el enlace va en los dos sentidos. No
+ * cuentan el enlace al pilar, los posts News ni los posts de otro silo. Es la medida de la regla
+ * "cadena, no todos con todos": en una cadena cada post tiene 2 hermanos como mucho.
+ */
+export function siblingLinkCounts(posts: LinkedPost[]): Map<string, [number, number]> {
+	const bySlug = new Map(posts.map((p) => [p.slug, p]));
+	const siblings = (p: LinkedPost) =>
+		linkedSlugs(p).filter((slug) => {
+			const other = bySlug.get(slug);
+			return isSupporting(other) && other!.targetPage === p.targetPage;
+		});
+	const counts = new Map<string, [number, number]>();
+	for (const p of posts) {
+		if (!isSupporting(p) || !p.targetPage) continue;
+		const out = siblings(p);
+		const reciprocal = out.filter((slug) => (bySlug.get(slug)!.blogLinks ?? []).includes(p.slug));
+		counts.set(p.slug, [reciprocal.length, out.length]);
+	}
+	return counts;
+}
+
+/**
+ * Entradas de la deuda (`silo-cycle-debt.ts`) que sobran: el post ya no existe o no es un post
+ * de soporte, o el guard pasa igual sin esa entrada. Una entrada cuyo número no coincide con el
+ * real la marca `validateSiloGraph`.
+ */
+export function siloLinkDebtProblems(
+	posts: LinkedPost[],
+	debt: SiloLinkDebt = KNOWN_SILO_LINK_DEBT
+): string[] {
+	const counts = siblingLinkCounts(posts);
+	const problems: string[] = [];
+	for (const slug of Object.keys(debt)) {
+		const real = counts.get(slug);
+		if (!real) {
+			problems.push(
+				`silo-cycle-debt.ts: "${slug}" no es un post de soporte que exista, quitá la entrada`
+			);
+			continue;
+		}
+		// Sobre el límite la entrada hace falta siempre. Dentro del límite solo si el post rompe la
+		// forma de la cadena (un atajo de un sentido): se comprueba validando sin ella.
+		if (real[0] > MAX_SIBLING_LINKS || real[1] > MAX_SIBLING_LINKS) continue;
+		const without = Object.fromEntries(Object.entries(debt).filter(([key]) => key !== slug));
+		if (validateSiloGraph(posts, without).length <= validateSiloGraph(posts, debt).length) {
+			problems.push(
+				`silo-cycle-debt.ts: "${slug}" ya cumple la regla sin su entrada ([${real.join(', ')}]), quitala`
+			);
+		}
+	}
+	return problems;
+}
+
 /**
  * Valida los posts contra el contrato de reverse silo. Devuelve la lista de violaciones
  * (vacía = OK). Opera sobre BlogPost (url ya derivada), no sobre el frontmatter crudo.
  *
- * Además de siloRole/targetPage, detecta ciclos NUEVOS en el grafo de interlinking lateral
- * (`blogLinks`, si el caller lo provee - ver `extractBlogLinks`): la regla "cadena, no
- * todos-con-todos" (CLAUDE.md) exige que los siblings de un silo se linkeen en cadena hacia el
- * pilar, nunca formando un circuito. Sin `blogLinks` este chequeo simplemente no encuentra
- * ciclos (no rompe callers que no lo proveen). "Nuevos" porque el sitio real tiene deuda
- * preexistente (ver `silo-cycle-debt.ts`) que este chequeo NO exige resolver de una - solo
- * evita que un componente NUEVO (no listado en el baseline) se cuele sin ser notado. Una
- * componente con forma de cadena (`isSiloChain`) es lo que el reverse silo pide y no se marca.
+ * Además de siloRole/targetPage, comprueba la regla "cadena, no todos con todos" (CLAUDE.md)
+ * sobre los enlaces del cuerpo (`blogLinks`, ver `extractBlogLinks`. Sin ellos no hay nada que
+ * comprobar y no rompe a quien no los pasa). Es una regla POR ROL:
+ *
+ * 1. Un post de soporte enlaza con 2 hermanos como mucho (`siblingLinkCounts`). Los posts que
+ *    hoy lo superan están en `debt` (`silo-cycle-debt.ts`) con su número exacto: no pueden
+ *    empeorar, y cuando mejoran la entrada baja con ellos.
+ * 2. Un pilar devuelve un solo enlace a su silo (regla 3 del reverse silo).
+ * 3. Entre los posts fuera de la deuda, los enlaces de cada silo forman cadenas (`isSiloChain`).
+ *
+ * No cuentan los enlaces al pilar, a posts News ni a posts de otro silo. Límites conocidos: los
+ * enlaces entre silos no se limitan, y un post de la deuda puede recibir enlaces de un solo
+ * sentido sin que su número cambie (cada post nuevo solo puede dar 2).
  */
-export function validateSiloGraph(posts: (BlogPost & { blogLinks?: string[] })[]): string[] {
+export function validateSiloGraph(
+	posts: LinkedPost[],
+	debt: SiloLinkDebt = KNOWN_SILO_LINK_DEBT
+): string[] {
 	const errors: string[] = [];
 	const urls = new Set(posts.map((p) => p.url));
 	urls.add('/'); // el home es un target válido para los pilares
@@ -329,22 +410,86 @@ export function validateSiloGraph(posts: (BlogPost & { blogLinks?: string[] })[]
 		}
 	}
 
-	const linkGraph = new Map<string, string[]>();
-	for (const p of posts) linkGraph.set(p.slug, p.blogLinks ?? []);
 	const bySlug = new Map(posts.map((p) => [p.slug, p]));
-	const knownDebt = new Set(KNOWN_SILO_CYCLE_DEBT);
-	for (const component of findStronglyConnectedComponents(linkGraph)) {
-		// Un par reciproco entre 2 siblings adyacentes ES la cadena esperada (CLAUDE.md
-		// "cadena, no todos-con-todos"), no un error.
-		if (component.length < 3) continue;
-		// Una cadena de 3 o más hermanos (A <-> B <-> C) también es fuertemente conexa, y sigue
-		// siendo la cadena esperada. Solo es una malla lo que no tiene esa forma.
-		if (isSiloChain(component, linkGraph, bySlug)) continue;
-		const signature = [...component].sort().join('|');
-		if (knownDebt.has(signature)) continue; // deuda preexistente ya documentada, no bloquea
-		errors.push(
-			`ciclo de interlinking detectado entre siblings (grupo de ${component.length} nodos): ${[...component].sort().join(', ')}`
-		);
+	const counts = siblingLinkCounts(posts);
+	const inDebt = (slug: string) => Object.hasOwn(debt, slug);
+
+	// Regla por rol (1): un post de soporte tiene 2 hermanos como mucho. Un post de la deuda
+	// conocida queda clavado en su número: no puede empeorar, y si mejora la entrada baja con él.
+	for (const [slug, [reciprocal, out]] of counts) {
+		const where = bySlug.get(slug)!.url;
+		if (inDebt(slug)) {
+			const [knownReciprocal, knownOut] = debt[slug];
+			if (reciprocal === knownReciprocal && out === knownOut) continue;
+			const worse = reciprocal > knownReciprocal || out > knownOut;
+			errors.push(
+				`${where}: enlaces con hermanos [recíprocos, salientes] = [${reciprocal}, ${out}], y silo-cycle-debt.ts anota [${knownReciprocal}, ${knownOut}]. ${
+					worse
+						? 'Este post ya estaba sobre el límite de una cadena y no puede sumar otro hermano: encadená el post nuevo a un hermano con lugar'
+						: 'Mejoró: bajá esa entrada al número real (o quitala si ya no supera el límite)'
+				}`
+			);
+			continue;
+		}
+		if (reciprocal > MAX_SIBLING_LINKS) {
+			errors.push(
+				`${where}: enlazado en los dos sentidos con ${reciprocal} hermanos (máximo ${MAX_SIBLING_LINKS}: el anterior y el siguiente de la cadena)`
+			);
+		} else if (out > MAX_SIBLING_LINKS) {
+			errors.push(
+				`${where}: enlaza a ${out} hermanos de su silo (máximo ${MAX_SIBLING_LINKS}: el anterior y el siguiente de la cadena)`
+			);
+		}
+	}
+
+	// Regla por rol (2): el pilar devuelve UN solo enlace a su silo (regla 3 del reverse silo).
+	for (const p of posts) {
+		if (!isPillar(p)) continue;
+		const back = linkedSlugs(p).filter((slug) => {
+			const other = bySlug.get(slug);
+			return isSupporting(other) && other!.targetPage === p.url;
+		});
+		if (back.length > 1) {
+			errors.push(
+				`${p.url}: el pilar tiene ${back.length} enlaces hacia su silo (${back.sort().join(', ')}), y la regla 3 pide uno solo, al último post de la cadena`
+			);
+		}
+	}
+
+	// La forma de la cadena, silo por silo, entre los posts que NO están en la deuda: sus enlaces
+	// entre sí tienen que formar cadenas (`isSiloChain`), nunca un anillo, un atajo ni un ciclo de
+	// un solo sentido. Los posts de la deuda quedan fuera del grafo, no lo tapan: los gobierna su
+	// número de arriba. En un silo sin deuda entra también su pilar, y se comprueba que su enlace de
+	// vuelta vaya a un extremo. En un silo con deuda la cadena limpia es un tramo, sin extremos
+	// reales, y del pilar solo se comprueba que devuelva un enlace. Los enlaces a posts News y a
+	// otros silos no entran: están permitidos y no forman parte de la cadena.
+	const silos = new Map<string, string[]>();
+	for (const slug of counts.keys()) {
+		const target = bySlug.get(slug)!.targetPage!;
+		silos.set(target, [...(silos.get(target) ?? []), slug]);
+	}
+	for (const [target, siblings] of silos) {
+		const clean = siblings.filter((slug) => !inDebt(slug));
+		const pillar = posts.find((p) => p.url === target && isPillar(p));
+		const members = new Set(clean);
+		if (pillar && clean.length === siblings.length) members.add(pillar.slug);
+		const linkGraph = new Map<string, string[]>();
+		for (const slug of members) {
+			linkGraph.set(
+				slug,
+				linkedSlugs(bySlug.get(slug)!).filter((other) => members.has(other))
+			);
+		}
+		for (const component of findStronglyConnectedComponents(linkGraph)) {
+			// Un par recíproco entre 2 hermanos adyacentes ES la cadena esperada, no un error.
+			if (component.length < 3) continue;
+			// Una cadena de 3 o más hermanos (A <-> B <-> C) también es fuertemente conexa, y sigue
+			// siendo la cadena esperada. Solo es una malla lo que no tiene esa forma.
+			if (isSiloChain(component, linkGraph, bySlug)) continue;
+			errors.push(
+				`ciclo de interlinking detectado entre siblings (grupo de ${component.length} nodos): ${[...component].sort().join(', ')}`
+			);
+		}
 	}
 
 	return errors;

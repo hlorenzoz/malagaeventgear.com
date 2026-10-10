@@ -1031,7 +1031,7 @@ slug NO es el título ni un titular: es el nombre corto del tema.
 - **Renombrar un slug solo antes del push.** Un slug arrastra todo esto, y se cambia en el mismo
   commit: el archivo inglés y sus 12 traducciones (el nombre del archivo es el slug inglés), `slug` y
   `keyword` del frontmatter, la clave del post en los 12 mapas de contenido, cada enlace
-  `/blog/<slug>/` en otros posts y en sus traducciones, `src/lib/data/silo-cycle-debt.ts`,
+  `/blog/<slug>/` en otros posts y en sus traducciones, `src/lib/data/silo-cycle-debt.ts` (si el post tiene entrada),
   `tests/llms-txt.spec.ts` si es un post `News`, este archivo y `.agents/CHANGELOG.md`. Después
   `just post-sync <slug>` (regenera `post-faqs.json` y `post-toc.json`). `keywords.json` solo agrega y
   deja una entrada huérfana con el slug viejo: se restaura la versión anterior al post
@@ -1283,15 +1283,24 @@ La metodología (reverse silo y Avalanche, con las fuentes de Kyle Roof) está e
      (3) no tienen ese enlace. `event-technology-service` no tiene supporting posts todavía.
      Agregarlo es un cambio de contenido del pilar: en los 13 idiomas y con `updatedDate` (reglas
      de idioma 1 y 2, regla 11).
-   - **Guard de ciclos (2026-10-10, parcial)**: con ese enlace, el target y su cadena forman una
-     componente fuertemente conexa en `validateSiloGraph` (`src/lib/data/site-map.ts`). El guard
-     ya reconoce ese patrón y no lo marca (`isSiloChain`: hermanos del mismo silo enlazados en los
-     dos sentidos formando un camino, más un único enlace del pilar a un extremo). Qué extremo es
-     "el último" no lo comprueba. Límite: solo sirve para un silo cuyos posts NO están en la malla
-     conocida de `silo-cycle-debt.ts` (71 posts al 2026-10-10, una sola componente). En
-     `audio-visual-rental`, `wedding-rentals` y `stage-lighting-rental` el pilar y sus hermanos
-     nuevos se unen a esa malla, le cambian la firma y hay que sumarlos a mano a ese archivo. No
-     es un fallo del post: es la deuda de la malla, que sigue sin limpiar.
+   - **Guard del silo: regla por rol (2026-10-10, #T0118)**. `validateSiloGraph`
+     (`src/lib/data/site-map.ts`) ya no compara la firma de la malla. Comprueba, sobre los posts
+     ingleses: (1) un post de soporte enlaza con 2 hermanos como mucho (hermanos: posts de soporte
+     con su mismo `targetPage`), contando los enlaces recíprocos y los salientes. (2) Un pilar
+     devuelve un solo enlace a su silo. (3) Entre los posts fuera de la deuda, los enlaces de cada
+     silo forman cadenas (`isSiloChain`). No cuentan los enlaces al pilar, a posts News ni a posts
+     de otro silo (decisión del usuario, 2026-10-10).
+     - **Deuda por post**: `src/lib/data/silo-cycle-debt.ts` (`KNOWN_SILO_LINK_DEBT`) anota los 41
+       posts que hoy superan el límite, con su número exacto `[recíprocos, salientes]`. Uno de
+       ellos no puede sumar otro hermano, y si mejora hay que bajar su entrada. Una entrada que
+       sobra también falla.
+     - **Un post nuevo se encadena a un hermano con lugar** (menos de 2 hermanos), nunca a uno de
+       esa lista: así no hay que tocar el archivo. NUNCA se agrega un post nuevo a la lista para
+       poner el test en verde: la lista solo se achica.
+     - **Límites conocidos**: no comprueba qué extremo es "el último". En un silo con deuda no
+       comprueba que el enlace del pilar vaya a un extremo. Los enlaces entre silos no se limitan.
+       Un post de la lista puede recibir enlaces de un solo sentido sin que su número cambie. La
+       malla sigue sin limpiar: es trabajo de contenido, en los 13 idiomas.
 
 ### Los silos de MEG
 

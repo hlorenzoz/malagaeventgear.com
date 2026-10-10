@@ -14,6 +14,8 @@ import {
 	validateSiloGraph,
 	buildSiteMap,
 	extractBlogLinks,
+	siblingLinkCounts,
+	siloLinkDebtProblems,
 	findStronglyConnectedComponents
 } from './site-map';
 
@@ -61,9 +63,10 @@ describe('validateSiloGraph', () => {
 	it('every non-fixture post declares valid reverse silo metadata, and has no NEW interlinking cycles', () => {
 		// Reemplaza al viejo guard de scripts/site-graph: los dientes de validación sobreviven;
 		// la comparación byte-a-byte del artefacto committeado ya no aplica (el mapa deriva en vivo).
-		// La deuda preexistente de interlinking en malla (ver silo-cycle-debt.ts) ya está
-		// filtrada dentro de validateSiloGraph - este assert solo falla ante un ciclo NUEVO.
+		// Los posts que hoy superan el límite de una cadena están anotados en silo-cycle-debt.ts con
+		// su número exacto. Falla si uno empeora, si uno mejora sin bajar su entrada, o si sobra una.
 		expect(validateSiloGraph(realPosts())).toEqual([]);
+		expect(siloLinkDebtProblems(realPosts())).toEqual([]);
 	});
 
 	it('flags a supporting post that points at the homepage instead of a pillar', () => {
@@ -286,7 +289,7 @@ describe('validateSiloGraph: a correct chain is not a mesh (#T0111)', () => {
 		).toEqual([]);
 	});
 
-	it('flags a row of posts from different silos, even when every link goes both ways', () => {
+	it('accepts a row of posts from different silos: links between silos do not count', () => {
 		const inSilo = (slug: string, target: string, links: string[]) =>
 			({
 				slug,
@@ -302,10 +305,10 @@ describe('validateSiloGraph: a correct chain is not a mesh (#T0111)', () => {
 				inSilo('c', '/blog/pillar/', ['b']),
 				pillar([])
 			])
-		).toHaveLength(1);
+		).toEqual([]);
 	});
 
-	it('flags a chain closed by a pillar that is not the target of its siblings', () => {
+	it('accepts a pillar linking to a post of another silo: it is not its link back', () => {
 		const other = (slug: string, links: string[]) =>
 			({
 				slug,
@@ -321,7 +324,187 @@ describe('validateSiloGraph: a correct chain is not a mesh (#T0111)', () => {
 				other('c', ['b', 'pillar']),
 				pillar(['c'])
 			])
-		).toHaveLength(1);
+		).toEqual([]);
+	});
+});
+
+describe('validateSiloGraph: rule per role, debt per post (#T0118)', () => {
+	type P = BlogPost & { blogLinks: string[] };
+	const sup = (slug: string, links: string[], target = '/blog/pillar/') =>
+		({
+			slug,
+			url: `/blog/${slug}/`,
+			siloRole: 'supporting',
+			targetPage: target,
+			blogLinks: links
+		}) as P;
+	const pillar = (links: string[], slug = 'pillar') =>
+		({ slug, url: `/blog/${slug}/`, siloRole: 'pillar', targetPage: '/', blogLinks: links }) as P;
+	const news = (slug: string, links: string[]) =>
+		({ slug, url: `/blog/${slug}/`, siloRole: 'news', targetPage: '/', blogLinks: links }) as P;
+
+	// A small mesh: `d` is linked both ways with x, y and z, and `x` also links one way to z.
+	const DEBT = { d: [3, 3], x: [2, 3] } as const;
+	const mesh = (extraD: string[] = [], extraZ: string[] = []) => [
+		sup('d', ['x', 'y', 'z', 'pillar', ...extraD]),
+		sup('x', ['d', 'y', 'z']),
+		sup('y', ['d', 'x']),
+		sup('z', ['d', 'tail', ...extraZ]),
+		sup('tail', ['z'])
+	];
+
+	it('counts reciprocal and outbound sibling links per supporting post', () => {
+		const counts = siblingLinkCounts([...mesh(), pillar([])]);
+		expect(counts.get('d')).toEqual([3, 3]);
+		expect(counts.get('x')).toEqual([2, 3]);
+		expect(counts.get('tail')).toEqual([1, 1]);
+		expect(counts.has('pillar')).toBe(false);
+	});
+
+	it('accepts the known mesh exactly as recorded', () => {
+		expect(validateSiloGraph([...mesh(), pillar([])], DEBT)).toEqual([]);
+	});
+
+	it('accepts a new sibling chained to a post with room, with no edit of the debt', () => {
+		const posts = [...mesh(), sup('fresh', ['tail', 'pillar']), pillar([])];
+		posts.find((p) => p.slug === 'tail')!.blogLinks.push('fresh');
+		expect(validateSiloGraph(posts, DEBT)).toEqual([]);
+	});
+
+	it('flags a debt post that gets worse, naming the recorded and the real numbers', () => {
+		const posts = [...mesh(['fresh']), sup('fresh', ['d']), pillar([])];
+		const errors = validateSiloGraph(posts, DEBT);
+		expect(errors).toHaveLength(1);
+		expect(errors[0]).toContain('/blog/d/');
+		expect(errors[0]).toContain('[4, 4]');
+		expect(errors[0]).toContain('[3, 3]');
+	});
+
+	it('flags a debt post that got better, so the recorded number goes down with it', () => {
+		const posts = [...mesh(), pillar([])];
+		posts.find((p) => p.slug === 'x')!.blogLinks = ['d', 'y'];
+		const errors = validateSiloGraph(posts, DEBT);
+		expect(errors).toHaveLength(1);
+		expect(errors[0]).toContain('/blog/x/');
+		expect(errors[0]).toContain('[2, 2]');
+	});
+
+	it('flags a post outside the debt linked both ways with three siblings', () => {
+		const errors = validateSiloGraph(
+			[
+				sup('hub', ['a', 'b', 'c']),
+				sup('a', ['hub']),
+				sup('b', ['hub']),
+				sup('c', ['hub']),
+				pillar([])
+			],
+			{}
+		);
+		expect(errors.some((e) => e.includes('/blog/hub/') && e.includes('3 hermanos'))).toBe(true);
+	});
+
+	it('flags a post outside the debt that links out to three siblings, even one way', () => {
+		const errors = validateSiloGraph(
+			[sup('fan', ['a', 'b', 'c']), sup('a', []), sup('b', []), sup('c', []), pillar([])],
+			{}
+		);
+		expect(errors).toHaveLength(1);
+		expect(errors[0]).toContain('/blog/fan/');
+	});
+
+	it('does not count the link to the pillar, News posts or posts of another silo', () => {
+		const posts = [
+			sup('a', ['b', 'pillar', 'n1', 'n2', 'n3', 'o1']),
+			sup('b', ['a', 'c', 'pillar', 'n1']),
+			sup('c', ['b', 'pillar']),
+			sup('o1', ['a'], '/blog/other/'),
+			news('n1', ['a', 'b']),
+			news('n2', []),
+			news('n3', []),
+			pillar([]),
+			pillar([], 'other')
+		];
+		expect(validateSiloGraph(posts, {})).toEqual([]);
+	});
+
+	it('accepts a pillar that joins the mesh with its one link back (rule 3)', () => {
+		expect(validateSiloGraph([...mesh(), pillar(['tail'])], DEBT)).toEqual([]);
+	});
+
+	it('flags a pillar with two links into its own silo, also inside the mesh', () => {
+		const errors = validateSiloGraph([...mesh(), pillar(['tail', 'y'])], DEBT);
+		expect(errors).toHaveLength(1);
+		expect(errors[0]).toContain('/blog/pillar/');
+		expect(errors[0]).toContain('2 enlaces');
+	});
+
+	it('accepts a News post linked by many guides that links back, inside the mesh', () => {
+		const posts = [...mesh(), news('n', ['d', 'x', 'y']), pillar(['tail'])];
+		for (const slug of ['d', 'x', 'y', 'z'])
+			posts.find((p) => p.slug === slug)!.blogLinks.push('n');
+		expect(validateSiloGraph(posts, DEBT)).toEqual([]);
+	});
+
+	it('flags a ring of new posts, also when it hangs from the mesh through the pillar', () => {
+		const posts = [
+			...mesh(),
+			sup('r1', ['r2', 'r3', 'pillar']),
+			sup('r2', ['r1', 'r3', 'pillar']),
+			sup('r3', ['r1', 'r2', 'pillar']),
+			pillar(['r1'])
+		];
+		const errors = validateSiloGraph(posts, DEBT);
+		expect(errors.some((e) => e.includes('ciclo de interlinking') && e.includes('r1'))).toBe(true);
+	});
+
+	it('flags a one way ring of new posts in a silo that carries debt (the debt does not hide it)', () => {
+		const posts = [
+			...mesh(),
+			sup('r1', ['r2', 'pillar']),
+			sup('r2', ['r3', 'pillar']),
+			sup('r3', ['r1', 'pillar']),
+			pillar(['r1'])
+		];
+		const errors = validateSiloGraph(posts, DEBT);
+		expect(errors).toHaveLength(1);
+		expect(errors[0]).toContain('r1, r2, r3');
+	});
+
+	it('does not let two entries that are not needed hide a ring between them', () => {
+		const ring = [
+			sup('r1', ['r2', 'r3']),
+			sup('r2', ['r1', 'r3']),
+			sup('r3', ['r1', 'r2']),
+			pillar([])
+		];
+		const debt = { r1: [2, 2], r2: [2, 2] } as const;
+		expect(siloLinkDebtProblems(ring, debt).length).toBeGreaterThan(0);
+	});
+
+	it('keeps quiet about an entry whose number is off but is still over the limit', () => {
+		const posts = [...mesh(['fresh']), sup('fresh', ['d']), pillar([])];
+		expect(siloLinkDebtProblems(posts, DEBT)).toEqual([]);
+	});
+
+	it('needs the entry of a post within the limit whose one way link closes a chain', () => {
+		const posts = [sup('a', ['b']), sup('b', ['a', 'c']), sup('c', ['b', 'a']), pillar([])];
+		expect(validateSiloGraph(posts, {})).toHaveLength(1);
+		expect(validateSiloGraph(posts, { c: [1, 2] })).toEqual([]);
+		expect(siloLinkDebtProblems(posts, { c: [1, 2] })).toEqual([]);
+	});
+
+	it('reports a debt entry for a post that is gone, is not a supporting post or no longer needs it', () => {
+		const posts = [...mesh(), pillar([])];
+		expect(siloLinkDebtProblems(posts, DEBT)).toEqual([]);
+		const problems = siloLinkDebtProblems(posts, {
+			...DEBT,
+			ghost: [3, 3],
+			pillar: [3, 3],
+			tail: [1, 1]
+		});
+		expect(problems).toHaveLength(3);
+		expect(problems.join('\n')).toContain('ghost');
+		expect(problems.join('\n')).toContain('tail');
 	});
 });
 
