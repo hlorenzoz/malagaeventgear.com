@@ -35,11 +35,18 @@ const decode = (value: string) => {
 };
 
 async function render(body: string, filename: string, plugins: unknown[]): Promise<string> {
-	return (await compile(body, { ...BLOG_MARKDOWN_OPTIONS, rehypePlugins: plugins as never, filename }))?.code ?? '';
+	return (
+		(await compile(body, { ...BLOG_MARKDOWN_OPTIONS, rehypePlugins: plugins as never, filename }))
+			?.code ?? ''
+	);
 }
 
 /** Section links of the translated posts that miss an id of the target translated page. */
-async function anchorProblems(dir: string, now: Date, maps: Partial<Record<string, LocaleContentMap>>): Promise<string[]> {
+async function anchorProblems(
+	dir: string,
+	now: Date,
+	maps: Partial<Record<string, LocaleContentMap>>
+): Promise<string[]> {
 	const state = computeBlogState({ dir, now, maps: maps as never });
 	const shared = globalThis as Shared;
 	const saved = { links: shared.__megLocalizedLinks, ids: shared.__megHeadingIds };
@@ -50,18 +57,29 @@ async function anchorProblems(dir: string, now: Date, maps: Partial<Record<strin
 	try {
 		for (const [locale, localeState] of Object.entries(state.locales)) {
 			const table = (links as Record<string, Record<string, string>>)[locale] ?? {};
-			const slugOf = new Map(localeState!.availability.posts.map((slug) => [table[`/blog/${slug}/`], slug]));
+			const slugOf = new Map(
+				localeState!.availability.posts.map((slug) => [table[`/blog/${slug}/`], slug])
+			);
 			const idsOf = new Map<string, Promise<Set<string>>>();
 			const pageIds = (slug: string) => {
 				if (!idsOf.has(slug)) {
 					const body = readPost(join(dir, locale, `${slug}.svx`)).body;
-					idsOf.set(slug, render(body, `/src/content/blog/${locale}/${slug}.svx`, [rehypeSlug]).then((html) => new Set([...html.matchAll(/\sid="([^"]*)"/g)].map((m) => m[1]))));
+					idsOf.set(
+						slug,
+						render(body, `/src/content/blog/${locale}/${slug}.svx`, [rehypeSlug]).then(
+							(html) => new Set([...html.matchAll(/\sid="([^"]*)"/g)].map((m) => m[1]))
+						)
+					);
 				}
 				return idsOf.get(slug)!;
 			};
 			for (const slug of localeState!.availability.posts) {
 				const filename = `/src/content/blog/${locale}/${slug}.svx`;
-				const html = await render(readPost(join(dir, locale, `${slug}.svx`)).body, filename, [rehypeSlug, rehypeInternalLinks, rehypeLocalizeLinks]);
+				const html = await render(readPost(join(dir, locale, `${slug}.svx`)).body, filename, [
+					rehypeSlug,
+					rehypeInternalLinks,
+					rehypeLocalizeLinks
+				]);
 				for (const [, href] of html.matchAll(/<a\s[^>]*?href="([^"]*)"/g)) {
 					const hash = href.indexOf('#');
 					if (hash === -1) continue;
@@ -69,7 +87,9 @@ async function anchorProblems(dir: string, now: Date, maps: Partial<Record<strin
 					if (!target) continue;
 					const fragment = decode(href.slice(hash + 1));
 					if (!(await pageIds(target)).has(fragment)) {
-						problems.push(`${locale}/${slug}.svx: ${href} (no id "${fragment}" on the ${locale} page of ${target})`);
+						problems.push(
+							`${locale}/${slug}.svx: ${href} (no id "${fragment}" on the ${locale} page of ${target})`
+						);
 					}
 				}
 			}
@@ -92,7 +112,10 @@ describe('anchorProblems (fixture)', () => {
 		`title: "${title}"\ndescription: "An English description long enough."\nauthor: "Hector Luis Lorenzo"\npublishDate: 2026-01-10\nexcerpt: "An English excerpt long enough."\ncoverImage: "https://cdn.malagaeventgear.com/blog/x.webp"\nsiloRole: standalone`;
 	const deFm = `title: "Titel"\ndescription: "Eine Beschreibung, lang genug."\nexcerpt: "Ein Auszug, lang genug."\npublishDate: "2026-09-01"\nsourceUpdated: "2026-01-10"`;
 	const map: LocaleContentMap = {
-		pages: { '/': { path: '/' }, '/blog/': { path: '/blog/', keyword: 'blog', status: 'propuesta' } },
+		pages: {
+			'/': { path: '/' },
+			'/blog/': { path: '/blog/', keyword: 'blog', status: 'propuesta' }
+		},
 		segments: { category: 'kategorie', author: 'autor' },
 		packages: {},
 		categories: {},
@@ -104,7 +127,11 @@ describe('anchorProblems (fixture)', () => {
 	};
 	const NOW = new Date('2026-09-24T12:00:00Z');
 
-	put('a.svx', englishFm('A'), 'See [lighting](/blog/b/#event-lighting) and [staging](/blog/c/#staging).\n');
+	put(
+		'a.svx',
+		englishFm('A'),
+		'See [lighting](/blog/b/#event-lighting) and [staging](/blog/c/#staging).\n'
+	);
 	put('b.svx', englishFm('B'), "## Event Lighting\n\n## What We Don't Offer\n");
 	put('c.svx', englishFm('C'), '## Intro\n\n## Staging\n');
 	put('de/a.svx', deFm, 'Siehe [Licht](/blog/b/#event-lighting) und [Buehne](/blog/c/#staging).\n');
@@ -131,5 +158,6 @@ describe('anchorProblems (fixture)', () => {
 describe('translated posts on disk', () => {
 	it('every section link to another post published in the locale lands on an id of that page', async () => {
 		expect(await anchorProblems(BLOG_DIR, new Date(), CONTENT_MAPS as never)).toEqual([]);
-	}, 60_000);
+		// Reads every translated post: about 27 s idle, over 60 s when the machine is loaded.
+	}, 180_000);
 });
