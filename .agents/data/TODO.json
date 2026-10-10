@@ -878,6 +878,28 @@
       ]
     },
     {
+      "id": "#T0118",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "seo-tecnico",
+      "titulo": "Guard del silo: regla por rol de post para no regenerar silo-cycle-debt.ts con cada hermano nuevo",
+      "anotada": "2026-10-10",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [],
+      "descripcion": [
+        "Resto de #T0111 (cerrada el 2026-10-10). El guard validateSiloGraph ya reconoce una cadena de hermanos (isSiloChain), pero compara la FIRMA EXACTA de la malla conocida de src/lib/data/silo-cycle-debt.ts (71 posts, una sola componente). Cada hermano nuevo bien encadenado a un post de la malla se une a esa componente, le cambia la firma y obliga a sumarlo a mano al archivo (paso el 2026-09-25, 2026-10-07 y 2026-10-09). Lo mismo va a pasar al agregar el enlace del pilar al ultimo post (regla 3) en audio-visual-rental, wedding-rentals y stage-lighting-rental.",
+        "",
+        "Se probo leer el archivo como lista de posts y aceptar un post nuevo con hasta 2 vecinos reciprocos. Se descarto en el /code-review porque:",
+        "- Un pilar que entra a la malla falla: tiene decenas de enlaces entrantes de sus hermanos y devuelve uno.",
+        "- Los enlaces a posts News (Experience, regla 5 del contenido) cuentan como tercer vecino, y un News nuevo citado por varias guias tambien falla.",
+        "- Excluir el pilar propio deja pasar un anillo de posts nuevos enganchado a la malla a traves del pilar.",
+        "- Un post de la deuda puede ganar enlaces sin limite sin que nada falle.",
+        "",
+        "Que hace falta: una regla POR ROL. Hermanos = posts supporting con el mismo targetPage. Para ellos, hasta 2 enlaces reciprocos con hermanos. Aparte y permitidos: el enlace al pilar, el enlace del pilar al ultimo (uno), los enlaces a y desde posts News, y decidir que se hace con los enlaces entre silos. Es un cambio de diseno del guard: SDD y tests primero. Alternativa: limpiar la malla, que es la deuda de fondo."
+      ]
+    },
+    {
       "id": "#T0110",
       "estado": "pendiente",
       "prioridad": "media",
@@ -895,20 +917,6 @@
         "3. Alt de la imagen blog/1323 en /blog/sound-system-rental/ (linea 143 del ingles): dice \"featuring professional DJ equipment\", y el post ahora aclara que MEG no tiene equipo de DJ propio. Confirmar si la foto es de un evento de MEG y corregir el alt en los 13 idiomas.",
         "4. Frase \"The pack has one flat price, so a winter date does not change it\" en la FAQ de boda de invierno de /blog/indoor-wedding-rental-essentials/ (commit 3dcd4444). Es coherente con otros dos posts, pero es un compromiso escrito: un recargo de temporada futuro la volveria falsa. Decidir si se mantiene.",
         "5. Horario comercial. En #T0093 se quito de /blog/sound-system-rental/ la frase \"commercial enquiries are answered daily from 08:00 to 20:00\" (el /code-review la marco como promesa de respuesta). El post de conferencias y .agents/BUSINESS.md si publican ese horario. Decidir si se repone como horario de atencion, sin prometer tiempo de respuesta."
-      ]
-    },
-    {
-      "id": "#T0111",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "seo-tecnico",
-      "titulo": "validateSiloGraph no distingue una cadena correcta de hermanos de una malla",
-      "anotada": "2026-10-09",
-      "hecha": null,
-      "origen": "usuario",
-      "notas": [],
-      "descripcion": [
-        "Arreglo propuesto, con test primero: aceptar la componente cuando sus enlaces son todos reciprocos y forman un camino (n - 1 pares, grado maximo 2), y seguir marcando todo lo demas. Ensenarle tambien el enlace unico del pilar al ultimo post de la cadena (regla 3 del reverse silo)."
       ]
     },
     {
@@ -1610,6 +1618,24 @@
         "Qué cubrir: Responder con honestidad: una pantalla hinchable no está en el inventario propio (las pantallas propias son la de 2x2m del Basic MICE Pack, la del Product Presentation Pack y la Da-Lite de 2.30 x 3.00 m, ver packages.ts). Decir 'no está en nuestro inventario, cuéntanos qué necesitas y buscamos una solución con nuestros proveedores'. Explicar qué debe indicar el cliente (lugar, número de invitados, tamaño deseado). No dar marca, modelo, tamaño, precio, disponibilidad ni plazo. No inventar precios de hinchables.",
         "Por qué: Misma intención (pantalla de cine hinchable con proyector) en seis variantes. El post /blog/outdoor-movie-screen-and-projector-rental/ no menciona pantallas hinchables en ningún encabezado ni FAQ. Es una necesidad de evento que MEG resuelve con proveedores, así que va como FAQ y no como post nuevo (Goldilocks, creating-helpful-content.md).",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0111",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "seo-tecnico",
+      "titulo": "validateSiloGraph no distingue una cadena correcta de hermanos de una malla",
+      "anotada": "2026-10-09",
+      "hecha": "2026-10-10",
+      "origen": "usuario",
+      "notas": [
+        "cerrada el 2026-10-10: isSiloChain reconoce la cadena de hermanos y la cadena cerrada por su pilar",
+        "con /code-review (10 hallazgos). Sin efecto sobre el sitio de hoy (una sola malla de 71 posts). La lectura de la deuda como lista se probo y se revirtio",
+        "queda como tarea aparte"
+      ],
+      "descripcion": [
+        "Arreglo propuesto, con test primero: aceptar la componente cuando sus enlaces son todos reciprocos y forman un camino (n - 1 pares, grado maximo 2), y seguir marcando todo lo demas. Ensenarle tambien el enlace unico del pilar al ultimo post de la cadena (regla 3 del reverse silo)."
       ]
     },
     {
