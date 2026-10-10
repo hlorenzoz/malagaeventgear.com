@@ -249,6 +249,32 @@ export function linksOf(body: string): string[] {
 		.sort();
 }
 
+// A Chinese afternoon or evening clock time, read in 24 hours like "11pm". The part of the day
+// comes before the hour (xiawu, bangwan, wanshang) and dian or shi after it, then optional
+// minutes ("30 fen", or ban for half past). A range names the part of the day once: its second
+// hour ("8 dian dao 11 dian") is read the same way. Night words that also cover the small hours
+// (yejian, yewan, wanjian) are left alone on purpose: "yejian 1 dian" is 1am.
+const ZH_HOUR = String.raw`(\d{1,2})\s*(?:[\u70B9\u9EDE\u65F6\u6642]\s*(?:(\d{1,2})\s*\u5206?|(\u534A))?|:(\d{2}))`;
+const ZH_PM_CLOCK = new RegExp(
+	String.raw`(\u4E0B\u5348|\u508D\u665A|\u665A\u4E0A)\s*` +
+		ZH_HOUR +
+		String.raw`(?:(\s*[\u5230\u81F3~-]\s*)` +
+		ZH_HOUR +
+		')?',
+	'g'
+);
+/** 12 at night (wanshang) is midnight, 0, like "12am". Any other afternoon hour adds 12. */
+function zhPm(word: string, hour: string, min?: string, half?: string, colonMin?: string): string {
+	const h = Number(hour);
+	const hour24 = h === 12 ? (word === '晚上' ? 0 : 12) : h < 12 ? h + 12 : h;
+	return `${hour24}:${(colonMin ?? (half ? '30' : (min ?? '00'))).padStart(2, '0')} `;
+}
+function zhPmClock(_m: string, word: string, ...g: (string | undefined)[]): string {
+	const [h1, m1, half1, c1, sep, h2, m2, half2, c2] = g;
+	const first = zhPm(word, h1!, m1, half1, c1);
+	return h2 ? `${first}${sep}${zhPm(word, h2, m2, half2, c2)}` : first;
+}
+
 /**
  * The digit groups of a body, sorted: without link targets, URLs and the script block, with
  * thousand separators removed (1.000, 1,000 and 1 000 are 1000) and clock times read in 24 hours
@@ -267,6 +293,7 @@ export function numbersOf(body: string): string[] {
 		)
 		.replace(/[1-5]\s*\u661F/g, '')
 		.replace(/\d{1,2}\s*\u6708/g, '')
+		.replace(ZH_PM_CLOCK, zhPmClock)
 		.replace(
 			/(\d{1,2})(?::(\d{2}))?\s*([ap])\.?m\b\.?/gi,
 			(_m, h: string, min: string | undefined, ap: string) => {

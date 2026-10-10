@@ -7,6 +7,11 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (translate): dos de los tres avisos viejos de post-translate-check (#T0119) (2026-10-10)
+- Falso positivo en chino: `outdoor-wedding-rental-considerations` daba "numbers differ: missing 23, extra 11" en zh-hans, zh-tw y zh-hk. El inglés dice "11pm" y el chino "晚上11点", que es lo mismo: la traducción estaba bien y el chequeo no leía la hora china. `numbersOf` (`scripts/translate/check-lib.ts`) ahora lee una hora china de tarde o noche (下午, 傍晚 o 晚上 antes del número) en 24 horas, igual que "11pm", con minutos (30分, 半, 8:30), medianoche (晚上12点 es 0) y la segunda hora de un rango (晚上8点到11点). Tests primero. Tras el /code-review: la primera versión perdía los minutos, leía mal la medianoche y trataba 夜间1点 (la 1 de la madrugada) como las 13. No lee números chinos (十一点) ni de ancho completo, ni 下午3-5点. Las traducciones no se tocaron.
+- Título francés de `unique-wedding-ceremony-rentals`: de 67 a 59 caracteres ("Sonorisation de cérémonie de mariage à Malaga pour vos vœux"). Conserva la keyword del idioma. Sin mover `updatedDate`: el recorte no cambia la información del post (regla 11, lo marcó el /code-review).
+- Sin resolver: el título italiano de `essential-items-for-wedding-rentals` (71 caracteres, máximo 65). El título ES la keyword del idioma en el mapa de contenido ("elementi essenziali per il noleggio attrezzature per matrimoni a Malaga"), y el brief pide la keyword textual en el título. Acortarlo es cambiar la keyword italiana, que es una decisión de keyword, no una corrección.
+
 ### Changed (blog): el guard del reverse silo pasa de la firma de la malla a una regla por rol (#T0118) (2026-10-10)
 - Problema: `validateSiloGraph` comparaba la firma exacta de la componente de la malla (71 posts). Cada hermano nuevo bien encadenado le cambiaba la firma y había que regenerarla a mano (2026-09-25, 2026-10-07, 2026-10-08, 2026-10-09).
 - Regla nueva, por rol: (1) un post de soporte enlaza con 2 hermanos de su silo como mucho, en enlaces recíprocos y en salientes (`siblingLinkCounts`). (2) Un pilar devuelve un solo enlace a su silo. (3) Entre los posts fuera de la deuda, los enlaces de cada silo forman cadenas (`isSiloChain`, de #T0111). No cuentan los enlaces al pilar, a posts News ni a otros silos.

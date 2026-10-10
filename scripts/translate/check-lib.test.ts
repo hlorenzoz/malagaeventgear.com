@@ -249,6 +249,34 @@ describe('numbersOf', () => {
 		expect(numbersOf('Until 8 p.m. and from 11 AM')).toEqual(['11', '20']);
 		expect(numbersOf('Until 8:30 pm')).toEqual(numbersOf('Bis 20:30 Uhr'));
 	});
+	it('reads a Chinese clock time with its part of the day as the same 24 hour number', () => {
+		const en = numbersOf('often somewhere between 11pm and 1am');
+		expect(en).toEqual(['1', '23']);
+		// 晚上11点到凌晨1点 (simplified) and 晚上11點到凌晨1點 (traditional)
+		expect(numbersOf('\u665a\u4e0a11\u70b9\u5230\u51cc\u66681\u70b9\u4e4b\u95f4')).toEqual(en);
+		expect(numbersOf('\u665a\u4e0a11\u9ede\u5230\u51cc\u66681\u9ede\u4e4b\u9593')).toEqual(en);
+		// 下午3点 is 15, 上午9点 stays 9, 中午12点 stays 12, and a bare 3点 is left alone.
+		expect(numbersOf('\u4e0b\u53483\u70b9')).toEqual(['15']);
+		expect(numbersOf('\u4e0a\u53489\u70b9')).toEqual(['9']);
+		expect(numbersOf('\u4e2d\u534812\u70b9')).toEqual(['12']);
+		expect(numbersOf('3\u70b9')).toEqual(['3']);
+	});
+	it('reads Chinese minutes, half past, midnight and the second hour of a range', () => {
+		// 晚上8点30分, 晚上8点半 and 晚上8:30
+		const half = numbersOf('Until 8:30 pm');
+		expect(numbersOf('\u665a\u4e0a8\u70b930\u5206')).toEqual(half);
+		expect(numbersOf('\u665a\u4e0a8\u70b9\u534a')).toEqual(half);
+		expect(numbersOf('\u665a\u4e0a8:30')).toEqual(half);
+		// 晚上12点 is midnight, like 12am. 下午12点 stays 12.
+		expect(numbersOf('\u665a\u4e0a12\u70b9')).toEqual(numbersOf('until 12am'));
+		expect(numbersOf('\u4e0b\u534812\u70b9')).toEqual(['12']);
+		// 晚上8点到11点: the part of the day covers both hours. 下午3-5点 (no 点 after the first hour) is not read.
+		expect(numbersOf('\u665a\u4e0a8\u70b9\u523011\u70b9')).toEqual(numbersOf('8pm to 11pm'));
+		// 夜间1点 is 1am: a night word that also covers the small hours is not read as pm.
+		expect(numbersOf('\u591c\u95f41\u70b9')).toEqual(numbersOf('1am'));
+		// A number after the time is not swallowed: 晚上8点，50位宾客
+		expect(numbersOf('\u665a\u4e0a8\u70b9\uff0c50\u4f4d\u5bbe\u5ba2')).toEqual(['20', '50']);
+	});
 	it('joins a thousand written with a space (French style)', () => {
 		expect(numbersOf('plus de 1 000 clients et 3 000 lumens')).toEqual(['1000', '3000']);
 		expect(numbersOf('50 guests and 120 seats')).toEqual(['120', '50']);
