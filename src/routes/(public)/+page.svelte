@@ -67,6 +67,9 @@
 			i18n.t.pricing.plusVat +
 			i18n.stop
 	);
+	// The rest of the cost answer, with its separator. It sits right after </strong> on the same
+	// line and nothing follows it in that branch, so reformatting the block cannot add a space.
+	let costTail = $derived(i18n.space + i18n.t.overview.costA);
 
 	// "At a Glance" Q&A block (answer-engine optimization). Question text rendered as <h2>.
 	let overview = $derived([
@@ -365,9 +368,10 @@
 				</div>
 				<p class="font-body-md text-body-md text-on-surface-variant">
 					{#if item.cost}
-						<strong class="text-on-surface">{costLead}</strong>{i18n.space}
+						<strong class="text-on-surface">{costLead}</strong>{costTail}
+					{:else}
+						{item.a}
 					{/if}
-					{item.a}
 				</p>
 			</div>
 		{/each}
