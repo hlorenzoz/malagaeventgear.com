@@ -24,7 +24,7 @@ const copy = {
 	},
 	limits: {
 		title: 'Limiti geografici e operativi',
-		p1: 'I nostri servizi sono concentrati principalmente nella provincia di Malaga e sulla Costa del Sol (tra cui Malaga capitale, Marbella, Fuengirola, Torremolinos, Estepona, Siviglia e zone limitrofe). Il servizio a Granada è disponibile solo per pacchetti superiori a {price:outOfProvinceMinimum} a causa dei costi di trasferta fuori provincia in giornata.',
+		p1: 'I nostri servizi sono concentrati principalmente nella provincia di Malaga e sulla Costa del Sol (tra cui la città di Malaga, Marbella, Fuengirola, Torremolinos, Estepona, Siviglia e zone limitrofe). Il servizio a Granada è disponibile solo per pacchetti superiori a {price:outOfProvinceMinimum} a causa dei costi di trasferta fuori provincia in giornata.',
 		p2: "Malaga Event Gear opera 7 giorni su 7, dalle 8:00 alle 20:00 per richieste commerciali, e 24 ore su 24, 7 giorni su 7, per la logistica tecnica e l'assistenza per l'allestimento.",
 		p3: "Per garantire l'assoluta precisione tecnica per il nostro pubblico internazionale, tutte le comunicazioni, la documentazione e le prenotazioni tramite il sito avvengono in inglese o in spagnolo."
 	},

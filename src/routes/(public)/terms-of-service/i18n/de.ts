@@ -24,7 +24,7 @@ export default {
 	},
 	limits: {
 		title: 'Geografische & betriebliche Grenzen',
-		p1: 'Unsere Leistungen konzentrieren sich hauptsächlich auf die Provinz Malaga und die Costa del Sol (einschließlich Malaga Stadt, Marbella, Fuengirola, Torremolinos, Estepona, Sevilla und angrenzender Gebiete). Einsätze in Granada sind wegen des Reiseaufwands für eine Tagesfahrt außerhalb der Provinz nur bei Paketen über {price:outOfProvinceMinimum} möglich.',
+		p1: 'Unsere Leistungen konzentrieren sich hauptsächlich auf die Provinz Malaga und die Costa del Sol (einschließlich der Stadt Malaga, Marbella, Fuengirola, Torremolinos, Estepona, Sevilla und angrenzender Gebiete). Einsätze in Granada sind wegen des Reiseaufwands für eine Tagesfahrt außerhalb der Provinz nur bei Paketen über {price:outOfProvinceMinimum} möglich.',
 		p2: 'Malaga Event Gear ist 7 Tage die Woche von 8:00 bis 20:00 Uhr für geschäftliche Anfragen erreichbar sowie rund um die Uhr für technische Logistik und Unterstützung beim Aufbau.',
 		p3: 'Um absolute technische Genauigkeit für unser internationales Publikum zu gewährleisten, erfolgen die gesamte Kommunikation, Dokumentation und Buchung auf Englisch oder Spanisch.'
 	},

@@ -24,7 +24,7 @@ const copy = {
 	},
 	limits: {
 		title: 'Geografische & operationele grenzen',
-		p1: 'Onze diensten zijn voornamelijk geconcentreerd in de provincie Malaga en aan de Costa del Sol (waaronder Malaga stad, Marbella, Fuengirola, Torremolinos, Estepona, Sevilla en aangrenzende gebieden). Granada bedienen we alleen bij pakketten van meer dan {price:outOfProvinceMinimum}, vanwege de extra reiskosten van een dagtrip buiten de provincie.',
+		p1: 'Onze diensten zijn voornamelijk geconcentreerd in de provincie Malaga en aan de Costa del Sol (waaronder de stad Malaga, Marbella, Fuengirola, Torremolinos, Estepona, Sevilla en aangrenzende gebieden). Granada bedienen we alleen bij pakketten van meer dan {price:outOfProvinceMinimum}, vanwege de extra reiskosten van een dagtrip buiten de provincie.',
 		p2: 'Malaga Event Gear is 7 dagen per week bereikbaar, van 8.00 tot 20.00 uur voor commerciële aanvragen, en 24 uur per dag, 7 dagen per week voor technische logistiek en opbouwondersteuning.',
 		p3: 'Om absolute technische nauwkeurigheid te garanderen voor ons internationale publiek, verlopen alle communicatie, documentatie en boekingen in het Engels of het Spaans.'
 	},

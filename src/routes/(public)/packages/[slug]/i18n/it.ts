@@ -15,7 +15,7 @@ const copy = {
 		},
 		areas: {
 			q: 'Quali zone coprite in Andalusia?',
-			a: 'Operiamo ogni giorno a Malaga capitale, a Marbella e in tutta la Costa del Sol. Serviamo anche Siviglia senza ordine minimo e Granada per ordini superiori a {price:outOfProvinceMinimum}. Al momento non è previsto il ritiro in sede da parte del cliente, perché lavoriamo solo con consegna.'
+			a: 'Operiamo ogni giorno nella città di Malaga, a Marbella e in tutta la Costa del Sol. Serviamo anche Siviglia senza ordine minimo e Granada per ordini superiori a {price:outOfProvinceMinimum}. Al momento non è previsto il ritiro in sede da parte del cliente, perché lavoriamo solo con consegna.'
 		},
 		rain: {
 			q: "Cosa succede se piove durante un evento all'aperto?",

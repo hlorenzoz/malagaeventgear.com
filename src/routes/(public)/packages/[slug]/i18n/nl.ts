@@ -15,7 +15,7 @@ const copy = {
 		},
 		areas: {
 			q: 'Welke gebieden bedienen jullie in Andalusië?',
-			a: 'We bedienen dagelijks Malaga stad, Marbella en de hele Costa del Sol. Daarnaast leveren we in Sevilla zonder minimumbestelling en in Granada bij bestellingen van meer dan {price:outOfProvinceMinimum}. Op dit moment bieden we geen ophaalmogelijkheid aan, omdat we uitsluitend op leveringsbasis werken.'
+			a: 'We bedienen dagelijks de stad Malaga, Marbella en de hele Costa del Sol. Daarnaast leveren we in Sevilla zonder minimumbestelling en in Granada bij bestellingen van meer dan {price:outOfProvinceMinimum}. Op dit moment bieden we geen ophaalmogelijkheid aan, omdat we uitsluitend op leveringsbasis werken.'
 		},
 		rain: {
 			q: 'Wat gebeurt er als het regent tijdens een buitenevenement?',
