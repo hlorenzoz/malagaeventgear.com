@@ -114,6 +114,7 @@ Per locale: the slug and keyword you chose, the title, and any doubt (a term, a 
 - publishDate is gated in UTC at build time ("2026-09-28" means 2026-09-28T00:00Z). If the UTC date is still earlier, the build skips the translation silently: check `date -u` before building and never report pages that are not in the build. The check script also flags a `publishDate` in the future.
 - Brands: MEG's only Martin item is ONE Martin Magnum 650 smoke machine, an optional add on (Eco Pack and Wedding Pack). Never present Martin as an included lighting brand. Sound brands are Audix and HK Audio.
 - Titles never add a subtitle or separator (" | ...") that the English title does not have, in any locale.
+- Italian: "finca" is an invariable loanword. The plural is "finca" with a plural article ("molte finca", "nelle finca"), never "fincas".
 - Chinese: "finca" is 庄园 / 莊園, never left in Latin script. "Malaga Event Gear" stays verbatim, including inside stock photo disclaimers (并非Malaga Event Gear的活动).
 - Meta descriptions and excerpts open with the locale keyword and keep the brand when the English does, like the siblings.
 - The locale keyword must appear in the body (first paragraph and at least once more). When the English quotes an English search phrase, say it is in English ("auf Englisch", "på engelsk") and then use the locale keyword.

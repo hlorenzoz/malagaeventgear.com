@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (blog): "finca" invariable en los posts italianos (#T0117) (2026-10-10)
+- Resto de #T0018: el blog italiano usaba el plural "fincas" (16 veces en 7 posts de `src/content/blog/it/`, una de ellas un H2 de `essential-items-for-wedding-rentals`), mientras la copia de paquetes ya decía "finca". Ahora dice "finca" en todos, con su artículo plural ("molte finca", "nelle finca"). El inglés no cambió.
+- Sin cambio de fechas: es una corrección de ortografía, y la regla 11 dice que eso no mueve `updatedDate`. La tarea pedía moverla y estaba mal: lo marcó el /code-review y se revirtió.
+- Para que no vuelva: `scripts/translate/brief-base.md` suma la regla italiana al lado de la china. Sin guard automático.
+- Nada enlaza al id viejo del H2 (los enlaces a secciones se escriben con el fragmento inglés). `just post-translate-check` da los mismos problemas que antes del cambio en 3 de esos posts (título italiano de 71 caracteres, título francés de 67, números en las 3 variantes de chino): ya estaban y no se tocaron.
+
 ### Fixed (blog): el guard del reverse silo reconoce una cadena de hermanos y no la marca como malla (#T0111) (2026-10-10)
 - Defecto: `validateSiloGraph` (`src/lib/data/site-map.ts`) marcaba como malla toda componente fuertemente conexa de 3 o más posts. Una cadena correcta de hermanos (A <-> B <-> C) también lo es, así que el guard no distinguía lo que el reverse silo pide de lo que prohíbe.
 - Arreglo (`isSiloChain`): se acepta la componente cuando son hermanos del mismo silo (mismo `targetPage`), todos sus enlaces entre ellos van en los dos sentidos y forman un camino (n - 1 pares, 2 vecinos como mucho, todos conectados). También la cadena cerrada por su pilar, regla 3 del reverse silo: el pilar (`siloRole` pillar o both) es el target de esos hermanos y devuelve UN solo enlace, a un extremo. Sigue fallando un anillo, un post enlazado con tres hermanos, un atajo de un solo sentido, un pilar que enlaza al medio de la cadena o a dos posts, un pilar que no es el target de esos hermanos y una fila de posts de silos distintos.
