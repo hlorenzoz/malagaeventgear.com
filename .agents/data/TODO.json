@@ -970,24 +970,6 @@
       ]
     },
     {
-      "id": "#T0113",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"Do I need to rent a separate amplifier with the speakers and microphone?\"",
-      "anotada": "2026-10-10",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-10, ítem 1)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/sound-system-rental.svx",
-        "Keywords: microphone and amp rental (google-ads 10/mo (below tier 100)), debajo del tier",
-        "Por qué: Ninguna pregunta de /blog/sound-system-rental/ responde si hace falta un amplificador aparte. Los altavoces del inventario son activos, asi que la duda es real y MEG puede responderla. Revisado: sound-system-rental, stage-monitor-rental (amplificadores solo para monitores pasivos).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0114",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1632,6 +1614,29 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0113",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"Do I need to rent a separate amplifier with the speakers and microphone?\"",
+      "anotada": "2026-10-10",
+      "hecha": "2026-10-10",
+      "origen": "content-strategist (plan 2026-10-10, ítem 1)",
+      "notas": [
+        "marcada hecha por plan-coverage",
+        "commit d33da502",
+        "con /code-review (8 hallazgos verificados",
+        "los de contenido corregidos)"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/sound-system-rental.svx",
+        "Keywords: microphone and amp rental (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Por qué: Ninguna pregunta de /blog/sound-system-rental/ responde si hace falta un amplificador aparte. Los altavoces del inventario son activos, asi que la duda es real y MEG puede responderla. Revisado: sound-system-rental, stage-monitor-rental (amplificadores solo para monitores pasivos).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
     },
     {
       "id": "#T0115",
