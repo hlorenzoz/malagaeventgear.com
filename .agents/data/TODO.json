@@ -20,7 +20,16 @@
         "commit 6bf7ac06 (10 posts en 13 idiomas",
         "1 en 9 idiomas",
         "6 solo en ingles",
-        "medido con script: ya no falta en ningun post). Falta la pasada sobre paginas y paquetes"
+        "medido con script: ya no falta en ningun post). Falta la pasada sobre paginas y paquetes",
+        "2026-10-10: paginas principales hechas",
+        "commit 5a349962 (home",
+        "about-us",
+        "equipment",
+        "packages",
+        "contact",
+        "faq",
+        "meet-the-team en 13 idiomas",
+        "con test tests/malaga-spain-first-mention.spec.ts y dos /code-review). Faltan las 5 paginas de detalle de paquete y Malaga capital en packages/[slug]/i18n y terms-of-service/i18n"
       ],
       "descripcion": [
         "Decisión del usuario del 2026-09-26, regla en CLAUDE.md §5 (\"Malaga, Spain\"): la primera mención",
