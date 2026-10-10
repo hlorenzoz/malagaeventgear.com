@@ -40740,8 +40740,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/sound-system-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -40779,6 +40779,10 @@
               "2026-08": 10
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-10",
+          "lastSeen": "2026-10-10"
         },
         "content-plan": {
           "firstSeen": "2026-10-10",
@@ -81884,6 +81888,24 @@
           "lastSeen": "2026-10-10",
           "urls": [
             "/blog/audio-visual-rental-companies/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "do-i-need-to-rent-a-separate-amplifier-with-the-speakers-and-microphone",
+      "question": "Do I need to rent a separate amplifier with the speakers and microphone?",
+      "keywordId": "sound-system-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/sound-system-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-10",
+          "lastSeen": "2026-10-10",
+          "urls": [
+            "/blog/sound-system-rental/"
           ]
         }
       }
