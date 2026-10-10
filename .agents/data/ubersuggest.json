@@ -1,7 +1,55 @@
 {
 	"version": 1,
-	"updated": "2026-10-09",
+	"updated": "2026-10-10",
 	"reports": [
+		{
+			"date": "2026-10-10",
+			"kind": "domain-keywords",
+			"status": "ok",
+			"calls": [
+				{
+					"tool": "domain_keywords",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "ok"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				}
+			],
+			"summary": [
+				"domain_keywords for malagaeventgear.com locId 2724 returned 1 ranking keyword",
+				"audio visual rental companies at position 54, volume 10, sd 5"
+			],
+			"findings": [],
+			"discovered": {
+				"keywords": 1,
+				"aiPrompts": 58
+			}
+		},
 		{
 			"date": "2026-10-09",
 			"kind": "ai-visibility",
