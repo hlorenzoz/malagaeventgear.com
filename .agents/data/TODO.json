@@ -1300,7 +1300,11 @@
       "anotada": "2026-10-10",
       "hecha": null,
       "origen": "usuario",
-      "notas": [],
+      "notas": [
+        "2026-10-10: resueltos el titulo frances y el falso positivo chino (era del chequeo",
+        "no de la traduccion). Queda SOLO el titulo italiano de essential-items-for-wedding-rentals: es la keyword italiana del mapa de contenido (71 caracteres)",
+        "acortarlo es decidir otra keyword"
+      ],
       "descripcion": [
         "Cambiar un titulo es un cambio de contenido de esa traduccion: mueve su updatedDate."
       ]
