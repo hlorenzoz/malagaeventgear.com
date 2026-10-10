@@ -1630,13 +1630,22 @@ de Google vía el MCP de Ubersuggest, gratis, no gasta `reports`). El agente de 
 tiene.
 
 - **Entrada**: `just faq-seeds` (`faq-seeds.ts`), 10 keywords `published` o `planned` (nunca los
-  clusters `news` ni `standalone`), las que hace más tiempo no se consultan. Con 10 por día recorre
-  el catálogo entero en rotación.
+  clusters `news` ni `standalone`). Primero las nunca consultadas, de la keyword más corta a la más
+  larga (el autocompletado devuelve preguntas para "projector rental" y casi nada para "audio
+  visual rental for corporate events"), y después las que hace más tiempo no se consultan. Con 10
+  por día recorre el catálogo entero en rotación.
 - **Lote**: `.agents/context/keywords/faqs/YYYY-MM-DD.json` (`faq-batch.schema.ts`, estricto). El
-  agente solo copia frases crudas con su semilla. `google_suggestions` devuelve cientos de frases
-  por semilla, así que copia solo las que empiezan con palabra de pregunta, hasta 15 por semilla.
-  Las demás frases de autocompletado ya no entran a `keywords.json`: eran las 43 del lote del
-  2026-09-30 del agente de Ubersuggest.
+  agente pregunta de a 2 semillas por llamada y copia frases crudas con su semilla, solo de la
+  lista `questions` de la respuesta y solo las que empiezan con palabra de pregunta, hasta 15 por
+  semilla. Las demás frases de autocompletado ya no entran a `keywords.json`: eran las 43 del lote
+  del 2026-09-30 del agente de Ubersuggest.
+- **`seeds` (2026-10-10)**: el lote guarda el id de TODAS las semillas que se enviaron a la
+  herramienta, también las que no devolvieron ninguna pregunta. La rotación lee ese campo. Antes
+  leía solo `suggestions`, así que una semilla sin resultado no dejaba rastro y volvía a salir
+  primera: del 2026-10-02 al 2026-10-10 se consultaron las mismas 10 semillas y entraron 0
+  preguntas. `just faqs-ingest` rechaza un lote nuevo sin `seeds`, con una semilla que no es un id
+  de `keywords.json`, o con una sugerencia cuya semilla no está en `seeds` (salvo un lote
+  `aborted`). Los lotes anteriores al campo siguen validando, con `seeds` vacío.
 - **Clasificación**: `just faqs-ingest <lote>` (`ingest-faqs.ts`). `isQuestion` decide qué es
   pregunta (primera palabra), `relevance.ts` filtra lo que no es del mercado de MEG (a `discarded`),
   y el merge es el mismo de las demás fuentes. Nunca se etiquetan como People Also Ask.

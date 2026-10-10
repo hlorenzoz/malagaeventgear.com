@@ -42,9 +42,39 @@ export function isQuestion(phrase: string): boolean {
 	return QUESTION_WORDS.has(first);
 }
 
+/**
+ * Pure: what is wrong with the `seeds` of a NEW batch (empty when it is fine). The rotation of
+ * `faq-seeds.ts` depends on this field, so a batch that omits it, or fills it with something that
+ * is not a keyword id, would hand out the same seeds again tomorrow with every step green. Only
+ * an aborted run, which asked nothing, may have none. Not applied when `sync.ts` replays the
+ * batches written before the field existed.
+ */
+export function seedProblems(batch: FaqBatch, knownIds: ReadonlySet<string>): string[] {
+	const problems: string[] = [];
+	if (batch.seeds.length === 0 && batch.run.status !== 'aborted')
+		problems.push(
+			'`seeds` is empty: list the id of every seed from `just faq-seeds` that was asked, also the ones with no question'
+		);
+	const unknown = batch.seeds.filter((id) => !knownIds.has(id));
+	if (unknown.length)
+		problems.push(
+			`\`seeds\` must hold keyword ids (the \`id\` printed by \`just faq-seeds\`), not keyword text: ${unknown.join(', ')}`
+		);
+	const listed = new Set(batch.seeds);
+	const unlisted = [...new Set(batch.suggestions.map((s) => s.seed))].filter(
+		(id) => !listed.has(id)
+	);
+	if (unlisted.length)
+		problems.push(`a suggestion names a seed that is not in \`seeds\`: ${unlisted.join(', ')}`);
+	return problems;
+}
+
 /** Pure: the FAQ batch in the shape `ingestBatch` merges. Phrases the relevance filter rejects go
  *  to `discarded` with its reason, questions included. */
-export function faqBatchToKeywordBatch(batch: FaqBatch, serviceAreas: readonly string[]): KeywordBatch {
+export function faqBatchToKeywordBatch(
+	batch: FaqBatch,
+	serviceAreas: readonly string[]
+): KeywordBatch {
 	const keywords: KeywordBatch['keywords'] = [];
 	const faqs: KeywordBatch['faqs'] = [];
 	const discarded: KeywordBatch['discarded'] = [];
@@ -83,6 +113,12 @@ if (import.meta.main) {
 	const existing = existsSync(path)
 		? KeywordsFileSchema.parse(JSON.parse(readFileSync(path, 'utf8')))
 		: null;
+	const problems = seedProblems(parsed.data, new Set(existing?.keywords.map((k) => k.id) ?? []));
+	if (problems.length) {
+		console.error(`[ingest-faqs] invalid batch ${batchPath}:`);
+		for (const p of problems) console.error(`  - ${p}`);
+		process.exit(1);
+	}
 	const { siteConfig } = await import('../../src/lib/data/site');
 	const result = ingestBatch(
 		faqBatchToKeywordBatch(parsed.data, siteConfig.serviceAreas),

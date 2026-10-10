@@ -2,7 +2,8 @@
 /**
  * faq-seeds.ts: the keywords the faq-researcher asks Google autocomplete about today
  * (`just faq-seeds [n]`, default 10). Pool: `published` or `planned` keywords, never the `news` or
- * `standalone` clusters (their keyword is a headline, not a search). Never consulted first, then
+ * `standalone` clusters (their keyword is a headline, not a search). Never consulted first
+ * (shortest keyword first), then
  * the least recently consulted (from the `seeds` of the committed FAQ batches, whether or not a
  * seed returned a question), so 10 a day walk the catalog.
  * Prints JSON: the agent never opens the 1.7 MB keywords.json.
@@ -17,6 +18,8 @@ import { KeywordsFileSchema, type KeywordEntry } from './schema';
 const DEFAULT_N = 10;
 const SEEDABLE = new Set<KeywordEntry['status']>(['published', 'planned']);
 const UNSEEDABLE_CLUSTERS = new Set(['news', 'standalone']);
+
+const words = (keyword: string) => keyword.trim().split(/\s+/).length;
 
 /** Pure: up to `n` seeds, least recently consulted first. */
 export function pickFaqSeeds(
@@ -38,7 +41,10 @@ export function pickFaqSeeds(
 		.sort((a, b) => {
 			const da = lastConsulted.get(a.id);
 			const db = lastConsulted.get(b.id);
-			if (!da && !db) return a.id.localeCompare(b.id);
+			// Never consulted: the shortest keyword first. Autocomplete returns questions for a short
+			// seed and next to nothing for a long one, and plain alphabetical order put a run of long
+			// "audio visual rental for ..." seeds first.
+			if (!da && !db) return words(a.keyword) - words(b.keyword) || a.id.localeCompare(b.id);
 			if (!da) return -1;
 			if (!db) return 1;
 			return da.localeCompare(db) || a.id.localeCompare(b.id);

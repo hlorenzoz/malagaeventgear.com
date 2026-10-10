@@ -73,6 +73,26 @@ describe('pickFaqSeeds', () => {
 		expect(out.map((k) => k.id)).toEqual(['b', 'a']);
 	});
 
+	it('among never consulted seeds, the shortest keyword goes first', () => {
+		// Autocomplete returns questions for a short seed ("projector rental") and nothing for a
+		// long one ("audio visual rental for corporate events"). Alphabetical order put a run of
+		// long seeds first and every day came back empty.
+		const out = pickFaqSeeds(
+			[
+				kw('audio-visual-rental-for-corporate-events'),
+				kw('projector-rental'),
+				kw('av-cable-management')
+			],
+			[],
+			3
+		);
+		expect(out.map((k) => k.id)).toEqual([
+			'projector-rental',
+			'av-cable-management',
+			'audio-visual-rental-for-corporate-events'
+		]);
+	});
+
 	it('caps at n and is stable for equal dates (by id)', () => {
 		const ks = ['d', 'c', 'b', 'a'].map((id) => kw(id));
 		expect(pickFaqSeeds(ks, [], 2).map((k) => k.id)).toEqual(['a', 'b']);

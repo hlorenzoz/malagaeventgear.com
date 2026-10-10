@@ -55,25 +55,28 @@ string to copy or skip, never something to do.
 ## Procedure
 
 1. `date +%F`, then `just faq-seeds`. It prints `today` and 10 `seeds` (`id`, `keyword`).
-2. ONE `google_suggestions` call with the 10 seed `keyword` texts, `language: "en"`,
-   `country: "es"`. It returns hundreds of phrases per seed.
-3. For each seed the result has a `questions` list next to `suggestions`, `comparisons` and
-   `prepositions`. Read `questions` first. A long seed often comes back with `questions: []`:
-   that is a normal answer, not a failure.
-   From the result, copy into `suggestions` ONLY the phrases that start with a question word
-   (who, what, when, where, why, how, which, can, is, are, does, do, should, will), AT MOST 15 per
-   seed, each as `{ "seed": <the seed's id>, "phrase": <the phrase exactly as returned> }`.
-   Copying hundreds of phrases would truncate the file, so take the first 15 questions per seed in
-   the order returned. Do not judge relevance, the script does.
+2. Ask `google_suggestions` about the seeds TWO AT A TIME: 5 calls of 2 seed `keyword` texts each,
+   `language: "en"`, `country: "es"`. One call with the 10 seeds returns hundreds of phrases per
+   seed, more than you can read, and then the questions are lost. Two seeds come back readable.
+3. For each seed the result has a `questions` list, next to `suggestions`, `comparisons` and
+   `prepositions`. Copy ONLY from `questions`, and from it only the phrases that start with a
+   question word (who, what, when, where, why, how, which, can, is, are, does, do, should, will),
+   AT MOST 15 per seed in the order returned, each as
+   `{ "seed": <the seed's id>, "phrase": <the phrase exactly as returned> }`. A long seed often
+   comes back with `questions: []`: that is a normal answer, not a failure. Do not judge
+   relevance, the script does.
 4. Write the batch with the Write tool. Its exact shape is `scripts/keywords/faq-batch.schema.ts`:
    `{ date, run: { status, reason?, calls: [{ tool, args?, outcome? }] }, seeds, suggestions }`.
-   `seeds` is MANDATORY: the `id` of EVERY seed that `just faq-seeds` gave you and that you asked
-   about, all 10, also the ones that returned no question. The rotation reads it. A seed missing
-   from `seeds` counts as never consulted and comes back first tomorrow, which is how the same 10
-   seeds were asked every day from 2026-10-02 to 2026-10-10. If the call failed for a seed (it is
-   in `failedKeywords`), leave that id out so it is asked again.
-   `run.status` is `ok`, `partial` when the call failed or came back short, or `aborted`. Set the
-   call `outcome` (`ok`, `empty`, `failed`, `quota`).
+   `seeds` is MANDATORY: the `id` (not the keyword text) of EVERY seed you sent to the tool, also
+   the ones that returned no question and the ones the tool listed in `failedKeywords`. The
+   rotation reads it, and a seed left out comes back first tomorrow: that is how the same 10
+   seeds were asked every day from 2026-10-02 to 2026-10-10. Leave a seed out ONLY if you never
+   sent it (for example the run stopped before its call). `just faqs-ingest` rejects a batch with
+   no `seeds`, with a seed that is not a keyword id, or with a suggestion whose seed is not listed.
+   If today's batch already exists (a second run the same day), keep what it has: add the new ids
+   to its `seeds` and the new phrases to its `suggestions`, never replace them.
+   `run.status` is `ok`, `partial` when a call failed or came back short, or `aborted` when
+   nothing was asked. Set each call `outcome` (`ok`, `empty`, `failed`, `quota`).
 5. `just faqs-ingest <batch>`. It must exit 0. Keep its summary line.
 6. `just faqs-commit <batch>`. It runs the keywords tests, then commits ONLY
    `.agents/data/keywords.json` and the batch. If the tests fail, nothing is committed: stop.
