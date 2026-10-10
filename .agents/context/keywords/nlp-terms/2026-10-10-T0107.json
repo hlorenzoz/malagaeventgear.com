@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-10",
+  "taskId": "#T0107",
+  "slug": "outdoor-movie-screen-and-projector-rental",
+  "searchTerm": "outdoor movie screen and projector rental Do you rent an inflatable outdoor movie screen?",
+  "status": "partial",
+  "reason": "Not localized to Spain (tool cannot). Rank 1 from 'inflatable movie screen hire', ranks 2 and 3 from the longer query. Skipped airquee (404, 429), ausleisure and atawa (403). 3 distinct AU and US sites, so US terms discarded.",
+  "serp": {
+    "query": "inflatable outdoor movie screen and projector rental",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://tassieopenaircinemas.com.au/large-screens", "title": "Tassie Open Air Cinemas 5M Outdoor Inflatable Screen at Bangor Vineyard Shed" },
+      { "rank": 2, "url": "https://nationaleventpros.com/rent/general/outdoor-inflatable-movie-screen/", "title": "12 or 20 ft Outdoor Inflatable Movie Screen" },
+      { "rank": 3, "url": "https://www.skyhighpartyrentals.com/houston/inflatable-movie-screening", "title": "inflatable movie screening" }
+    ]
+  },
+  "terms": [
+    { "term": "inflatable movie screen", "kind": "entity", "seenIn": 3 },
+    { "term": "projector", "kind": "entity", "seenIn": 3 },
+    { "term": "sound system", "kind": "entity", "seenIn": 3 },
+    { "term": "drive-in movie", "kind": "entity", "seenIn": 3 },
+    { "term": "setup and takedown", "kind": "related", "seenIn": 3 },
+    { "term": "screen sizes", "kind": "related", "seenIn": 3 },
+    { "term": "movie license", "kind": "related", "seenIn": 2 },
+    { "term": "front projection", "kind": "related", "seenIn": 2 },
+    { "term": "popcorn machine", "kind": "entity", "seenIn": 2 },
+    { "term": "technical host", "kind": "entity", "seenIn": 2 },
+    { "term": "power outlet", "kind": "related", "seenIn": 2 },
+    { "term": "corporate events", "kind": "entity", "seenIn": 2 },
+    { "term": "nighttime screening", "kind": "related", "seenIn": 2 },
+    { "term": "What screen sizes are available?", "kind": "question", "seenIn": 2 },
+    { "term": "backyard movie night", "kind": "entity", "seenIn": 1 },
+    { "term": "school movie nights", "kind": "entity", "seenIn": 1 },
+    { "term": "poolside screenings", "kind": "entity", "seenIn": 1 },
+    { "term": "generator", "kind": "entity", "seenIn": 1 },
+    { "term": "Do I need a movie license?", "kind": "question", "seenIn": 1 },
+    { "term": "How do you set up the inflatable movie screen?", "kind": "question", "seenIn": 1 },
+    { "term": "How much space is needed for setup?", "kind": "question", "seenIn": 1 },
+    { "term": "Can it be set up indoors?", "kind": "question", "seenIn": 1 },
+    { "term": "Can we do the movie screening during daylight hours?", "kind": "question", "seenIn": 1 },
+    { "term": "Does rental time include setup and takedown?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Tassie Open Air Cinemas", "reason": "competitor name" },
+    { "term": "National Event Pros", "reason": "competitor name" },
+    { "term": "Sky High Party Rentals", "reason": "competitor name" },
+    { "term": "Criterion Pictures and Swank", "reason": "US licensing companies" },
+    { "term": "Washington State", "reason": "US state" },
+    { "term": "20A 110V electrical outlet", "reason": "US electrical standard" },
+    { "term": "state inspection certificate", "reason": "US regulation" },
+    { "term": "certificate of insurance", "reason": "US booking wording" },
+    { "term": "12 or 20 ft screens", "reason": "US sizes, writer checks inventory" },
+    { "term": "truck mounted LED screen", "reason": "not MEG scope" },
+    { "term": "6000 Watt generator", "reason": "US spec, writer checks inventory" },
+    { "term": "sponsorship and advertising space", "reason": "marketing angle" },
+    { "term": "contactless rental delivery", "reason": "marketing wording" },
+    { "term": "reservation deposit", "reason": "pricing and policy wording" },
+    { "term": "hot dog roller grill", "reason": "concessions, outside MEG scope" },
+    { "term": "virtual game show", "reason": "entertainment add on, not MEG scope" }
+  ]
+}
