@@ -4,7 +4,8 @@ export const updated = '2026-10-07';
 
 export default {
 	benefits: {
-		delivery: 'Gratis installation och leverans (Malaga och Costa del Sol)',
+		delivery:
+			'Gratis installation och leverans ({city:Malaga och Costa del Sol, Spanien|Malaga och Costa del Sol})',
 		brands: 'Förstklassiga varumärken (HK Audio, Audix, Midas)',
 		support: 'Möjlighet till teknisk support på plats'
 	},

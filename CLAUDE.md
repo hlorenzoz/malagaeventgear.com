@@ -858,7 +858,11 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
   forma: "Malaga, Spanien", "马拉加（西班牙）"...). Después va "Malaga" a secas: repetirlo en
   cada mención suena forzado y se acerca al relleno de keywords. La meta description nombra el
   país cuando entra en 160 caracteres. Los títulos no se fuerzan. "Malaga Event Gear" es la
-  marca y no cuenta como mención. Por qué: en GSC (export del 2026-09-23) las búsquedas con
+  marca y no cuenta como mención. El país va en un texto propio de la página, nunca en copia
+  compartida (descripciones e inclusiones de paquete, el subtítulo del mapa), y ubica a MEG o a
+  su equipo, nunca restringe el evento del cliente. En la página de detalle de paquete, donde la
+  primera mención es copia compartida, se usa el token `{city:...}` (ver la sección 7). Lo vigila
+  `tests/malaga-spain-first-mention.spec.ts`, en 12 páginas y los 13 idiomas. Por qué: en GSC (export del 2026-09-23) las búsquedas con
   "spain" son el 27% de las impresiones, más que las que llevan "malaga", el público es sobre
   todo extranjero, y "Malaga" también es un suburbio de Perth y una ciudad de Colombia. Aclarar
   el país no es un cambio de contenido: no mueve `updatedDate` (regla 11).
@@ -893,6 +897,7 @@ Las directrices visuales completas (paleta de colores, tipografía, espaciado, c
   | El porcentaje de IVA dentro de un texto traducible | token `{vat}`, renderizado desde `VAT_RATE` con el formato del idioma (`21%`, `21 %`). Nunca `21%` literal |
   | Cantidad de clientes (`1,000+`) | `siteConfig.clientCount` (fuente: `.agents/BUSINESS.md`), formateada con `formatNumber`. En copia, `{clients}` |
   | Un importe dentro de un texto traducible | token `{price:clave}` con una clave de `PRICE_POINTS` (`'Proyector (+{price:projectorScreen})'`), renderizado con `withPrices(text, lang)`. Los diccionarios (`(public)/+layout.ts`) y la copia de página (`loadPageCopy`) se cargan ya renderizados con `renderTokens`, y `pkgCopy()` y `faqCopy()` también lo aplican: ningún componente tiene que llamar a `withPrices`. Nunca un número en la copia, ni siquiera como `{price:50}` |
+  | Una mención de Málaga que lleva el país solo si es la primera de la página | token `{city:CON PAÍS\|SIN PAÍS}`, con las dos redacciones escritas por el traductor (`{city:Malaga, Spanien\|Malaga}`, `{city:西班牙马拉加\|马拉加}`). Todo lo que pasa por `withPrices`, `renderTokens`, `pkgCopy` o `loadPageCopy` sale SIN PAÍS. Solo la página de detalle de paquete (`packages/[slug]/+page.svelte`) pide el token sin resolver y le pone el país a la primera mención con `renderCityFirst`, sobre la descripción del paquete y después la viñeta de entrega. Se permite SOLO en el `desc` de un paquete en `src/lib/i18n/data/<locale>.ts` y en `benefits.delivery` de `src/routes/(public)/packages/[slug]/i18n/<locale>.ts`. Está prohibido en `packages.ts` (la fuente inglesa: `/llms.txt` la lee sin renderizar, y ninguna descripción inglesa menciona Málaga). Al traducir o editar esas dos cadenas el token se conserva, y SIN PAÍS es el texto que ven las demás páginas. Un token mal escrito hace fallar el build. Lo vigila `src/lib/data/city-first-mention.test.ts` |
 
 - **Nombres de paquete sin traducir:** el `name` de cada paquete es el mismo en los 13 idiomas, porque es la referencia común para cualquier cliente. `packages.ts` guarda la copia SOLO en inglés (la fuente). Cada traducción vive en `src/lib/i18n/data/<locale>.ts` y se lee con `pkgCopy(pkg)` (y `faqCopy(item)` para `faq.ts`). En las traducciones de FAQ, la lista de precios se escribe con el token `{packagesWithPrices}`, nunca con precios literales.
 - **Un único nodo `#organization`:** el `priceRange` (y todo el NAP) se emite **solo** desde `buildLocalBusinessSchema()` en `src/lib/utils/schema.ts`, que lo deriva del catálogo. Las páginas que necesiten referirse a la empresa lo hacen **por `@id`** (`{'@id': '.../#organization'}`), nunca redefiniendo el nodo. Redefinirlo ya produjo dos verdades simultáneas (`'€€'` en `schema.ts` vs `'290€ - 650€'` en `/about-us/`, con direcciones distintas).

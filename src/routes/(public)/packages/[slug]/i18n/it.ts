@@ -4,7 +4,8 @@ export const updated = '2026-10-07';
 
 const copy = {
 	benefits: {
-		delivery: 'Consegna e allestimento gratuiti (Malaga e Costa del Sol)',
+		delivery:
+			'Consegna e allestimento gratuiti ({city:Malaga e Costa del Sol, in Spagna|Malaga e Costa del Sol})',
 		brands: 'Marchi premium (HK Audio, Audix, Midas)',
 		support: 'Assistenza tecnica in loco disponibile'
 	},

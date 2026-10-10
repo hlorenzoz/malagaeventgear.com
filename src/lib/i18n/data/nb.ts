@@ -4,7 +4,7 @@ export default {
 	packages: {
 		eco: {
 			updated: '2026-10-07',
-			desc: 'Eco Pack er den perfekte pakken for å leie lyd og lys til en liten fest i Malaga: ideell for private fester eller mindre arrangementer med opptil 50 gjester. Inkluderer et solid grunnleggende lydanlegg og stemningslys.',
+			desc: 'Eco Pack er den perfekte pakken for å leie lyd og lys til en liten fest i {city:Malaga, Spania|Malaga}: ideell for private fester eller mindre arrangementer med opptil 50 gjester. Inkluderer et solid grunnleggende lydanlegg og stemningslys.',
 			includes: [
 				'2 aktive høyttalere av høy kvalitet med stativ',
 				'1 kablet dynamisk mikrofon',
@@ -35,7 +35,7 @@ export default {
 		},
 		wedding: {
 			updated: '2026-10-07',
-			desc: 'Wedding Pack er skapt for magiske og uforglemmelige bryllupsfeiringer. Her kan du leie lyd og lys til bryllup i Malaga: et profesjonelt lydanlegg i toppklasse, romantisk stemningslys og trådløse mikrofoner til rørende taler.',
+			desc: 'Wedding Pack er skapt for magiske og uforglemmelige bryllupsfeiringer. Her kan du leie lyd og lys til bryllup i {city:Malaga, Spania|Malaga}: et profesjonelt lydanlegg i toppklasse, romantisk stemningslys og trådløse mikrofoner til rørende taler.',
 			includes: [
 				'PA-lydanlegg i toppklasse for opptil 80 gjester',
 				'Lysslynger med varmt LED-lys for romantisk stemningslys',
@@ -65,7 +65,7 @@ export default {
 		},
 		'product-presentation': {
 			updated: '2026-10-07',
-			desc: 'Utformet for bedriftspresentasjoner, forhandlervisninger og produktlanseringer med stort visuelt inntrykk. Her kan du leie prosjektor til produktlansering i Malaga, med skarpe og tydelige bilder.',
+			desc: 'Utformet for bedriftspresentasjoner, forhandlervisninger og produktlanseringer med stort visuelt inntrykk. Her kan du leie prosjektor til produktlansering i {city:Malaga, Spania|Malaga}, med skarpe og tydelige bilder.',
 			includes: [
 				'1 frontprojeksjonslerret med stabilt stativ',
 				'1 prosjektor med høy lysstyrke (5000 lumen) for skarpe bilder',
@@ -95,7 +95,7 @@ export default {
 		},
 		'basic-mice': {
 			updated: '2026-10-07',
-			desc: 'Grunnleggende, høytytende lyd- og bildeoppsett for mindre ledermøter, konferanser og presentasjoner med opptil 40 gjester. Perfekt AV-utstyr til mindre bedriftsmøter i Malaga.',
+			desc: 'Grunnleggende, høytytende lyd- og bildeoppsett for mindre ledermøter, konferanser og presentasjoner med opptil 40 gjester. Perfekt AV-utstyr til mindre bedriftsmøter i {city:Malaga, Spania|Malaga}.',
 			includes: [
 				'2x2 m projeksjonslerret og prosjektor med høy lysstyrke (3000 lumen)',
 				'Grunnleggende krystallklart lydanlegg for opptil 40 personer',
@@ -123,7 +123,7 @@ export default {
 		},
 		mice: {
 			updated: '2026-10-07',
-			desc: 'Komplett MICE-løsning for bedrifter, med storformatsskjerm, aktivt lydanlegg i premiumklasse, en svanehalsmikrofon og en trådløs håndmikrofon samt en dedikert tekniker på stedet. Her finner du AV-utstyr til konferanser i Malaga, tilpasset hver detalj i arrangementet ditt.',
+			desc: 'Komplett MICE-løsning for bedrifter, med storformatsskjerm, aktivt lydanlegg i premiumklasse, en svanehalsmikrofon og en trådløs håndmikrofon samt en dedikert tekniker på stedet. Her finner du AV-utstyr til konferanser i {city:Malaga, Spania|Malaga}, tilpasset hver detalj i arrangementet ditt.',
 			includes: [
 				'LED-skjerm i premiumklasse på 60 tommer, med stilrent stativ',
 				'Profesjonelle aktive høyttalere og høytytende lydanlegg',

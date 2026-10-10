@@ -4,7 +4,7 @@ export const updated = '2026-10-07';
 
 export default {
 	benefits: {
-		delivery: '免費搭建與運送（馬拉加及太陽海岸地區）',
+		delivery: '免費搭建與運送（{city:西班牙馬拉加及太陽海岸地區|馬拉加及太陽海岸地區}）',
 		brands: '頂級品牌設備（HK Audio、Audix、Midas）',
 		support: '提供現場技術支援'
 	},

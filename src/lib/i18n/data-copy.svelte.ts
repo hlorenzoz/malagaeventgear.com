@@ -27,6 +27,16 @@ export function pkgCopy(pkg: EventPackage): PackageCopy {
 	return renderTokens(copy, i18n.lang);
 }
 
+/**
+ * The package description with its `{city:WITH|PLAIN}` token kept, for the package detail page
+ * only: it names the country on its first mention (renderCityFirst). Every other reader goes
+ * through pkgCopy and gets the plain wording.
+ */
+export function pkgDescWithCityToken(pkg: EventPackage): string {
+	const desc = dataCopy()?.packages[pkg.slug]?.desc ?? pkg.desc;
+	return withPrices(desc, i18n.lang, { city: 'keep' });
+}
+
 export function faqCopy(item: FaqItem): FaqCopy {
 	const copy = dataCopy()?.faqs[item.id] ?? item;
 	const answer = copy.answer.replaceAll('{packagesWithPrices}', packagesWithPrices(i18n.lang));

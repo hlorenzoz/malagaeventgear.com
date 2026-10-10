@@ -10,7 +10,7 @@
 // here - `{wedding}` / `{mice}` are filled in +page.svelte from getPackageBySlug(...).name.
 const copy = {
 	benefits: {
-		delivery: 'Free setup & delivery (Malaga & Costa del Sol)',
+		delivery: 'Free setup & delivery ({city:Malaga & Costa del Sol, Spain|Malaga & Costa del Sol})',
 		brands: 'Premium brands (HK Audio, Audix, Midas)',
 		support: 'On site technical support available'
 	},

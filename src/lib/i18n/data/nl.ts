@@ -4,7 +4,7 @@ export default {
 	packages: {
 		eco: {
 			updated: '2026-10-07',
-			desc: 'Met het Eco Pack huur je een voordelige geluidsset voor je feest in Malaga, ideaal voor privéfeesten of kleine evenementen tot 50 gasten. Inclusief degelijk basisgeluid en sfeerverlichting.',
+			desc: 'Met het Eco Pack huur je een voordelige geluidsset voor je feest in {city:Malaga, Spanje|Malaga}, ideaal voor privéfeesten of kleine evenementen tot 50 gasten. Inclusief degelijk basisgeluid en sfeerverlichting.',
 			includes: [
 				'2 hoogwaardige actieve speakers met standaards',
 				'1 bekabelde dynamische microfoon',
@@ -123,7 +123,7 @@ export default {
 		},
 		mice: {
 			updated: '2026-10-07',
-			desc: 'Complete zakelijke MICE-oplossing met een groot beeldscherm, premium actieve geluidsversterking, een zwanenhalsmicrofoon en een draadloze handmicrofoon, plus een vaste technicus ter plaatse. Zo huur je congrestechniek in Malaga waarbij aan elk detail van je evenement is gedacht.',
+			desc: 'Complete zakelijke MICE-oplossing met een groot beeldscherm, premium actieve geluidsversterking, een zwanenhalsmicrofoon en een draadloze handmicrofoon, plus een vaste technicus ter plaatse. Zo huur je congrestechniek in {city:Malaga, Spanje,|Malaga} waarbij aan elk detail van je evenement is gedacht.',
 			includes: [
 				'Premium HD-LED-scherm van 60 inch met designstandaard',
 				'Professionele actieve speakers en krachtig geluidssysteem',

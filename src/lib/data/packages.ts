@@ -414,31 +414,77 @@ export function formatVat(lang: Locale = 'en'): string {
 }
 
 /**
- * Renders the catalog tokens of a copy string with the values that own them, in the page
- * language: `{price:key}` from PRICE_POINTS through formatPrice (`'Projector (+{price:projectorScreen})'`)
- * and `{vat}` from VAT_RATE. An unknown price key throws, which fails the prerender instead of
- * publishing a broken token. Guarded by no-hardcoded-prices.test.ts.
+ * `{city:WITH|PLAIN}`: two wordings of a mention of Malaga, with and without the country
+ * (CLAUDE.md section 5: the first geographic mention on a page names the country, later ones do
+ * not). Package copy is shared by several pages, so it cannot name the country itself: it would
+ * repeat on every page that lists the packages. The copy carries both wordings, every page
+ * renders PLAIN, and only the package detail page picks WITH for its first mention through
+ * renderCityFirst. Guarded by city-first-mention.test.ts.
  */
-export function withPrices(text: string, lang: Locale = 'en'): string {
-	return text
+const CITY_TOKEN = /\{city:([^|{}]+)\|([^|{}]+)\}/g;
+
+export interface TokenOptions {
+	/** 'plain' (default) renders the wording without the country. 'keep' leaves the token as is. */
+	city?: 'plain' | 'keep';
+}
+
+/**
+ * What is left of a city token once the well formed ones are gone: a near miss such as
+ * `{ city:...}`, `{City:...}` or one typed with full width braces or colon in a Chinese file.
+ */
+export const CITY_TOKEN_LEFTOVER = /[{\uff5b]\s*city\s*[:\uff1a]/i;
+
+/** Fails loudly on a token that would otherwise be published as raw text. */
+function assertCityTokens(text: string): void {
+	if (CITY_TOKEN_LEFTOVER.test(text.replace(CITY_TOKEN, '')))
+		throw new Error(`Malformed city token in "${text}": write {city:WITH COUNTRY|WITHOUT}`);
+}
+
+/**
+ * Over the texts of ONE page in reading order, the first `{city:WITH|PLAIN}` token becomes WITH
+ * and every other one PLAIN. The texts must come with their tokens kept (`city: 'keep'`).
+ */
+export function renderCityFirst(texts: string[]): string[] {
+	let named = false;
+	return texts.map((text) => {
+		assertCityTokens(text);
+		return text.replace(CITY_TOKEN, (_token, withCountry: string, plain: string) => {
+			if (named) return plain;
+			named = true;
+			return withCountry;
+		});
+	});
+}
+
+/**
+ * Renders the catalog tokens of a copy string with the values that own them, in the page
+ * language: `{price:key}` from PRICE_POINTS through formatPrice (`'Projector (+{price:projectorScreen})'`),
+ * `{vat}` from VAT_RATE and `{city:WITH|PLAIN}` as PLAIN. An unknown price key or a malformed
+ * city token throws, which fails the prerender instead of publishing a broken token. Guarded by
+ * no-hardcoded-prices.test.ts and city-first-mention.test.ts.
+ */
+export function withPrices(text: string, lang: Locale = 'en', options: TokenOptions = {}): string {
+	assertCityTokens(text);
+	const rendered = text
 		.replace(/\{price:([A-Za-z0-9]+)\}/g, (token, key: string) => {
 			if (!isPricePoint(key))
 				throw new Error(`Unknown price token ${token}: add it to PRICE_POINTS`);
 			return formatPrice(PRICE_POINTS[key], lang);
 		})
 		.replaceAll('{vat}', formatVat(lang));
+	return options.city === 'keep' ? rendered : rendered.replace(CITY_TOKEN, '$2');
 }
 
 /**
  * withPrices over every string of a copy object (dictionaries, page copy, package copy), keeping
  * its shape. Copy is rendered once, where it is loaded, so no component has to remember to.
  */
-export function renderTokens<T>(value: T, lang: Locale = 'en'): T {
-	if (typeof value === 'string') return withPrices(value, lang) as T;
-	if (Array.isArray(value)) return value.map((item) => renderTokens(item, lang)) as T;
+export function renderTokens<T>(value: T, lang: Locale = 'en', options: TokenOptions = {}): T {
+	if (typeof value === 'string') return withPrices(value, lang, options) as T;
+	if (Array.isArray(value)) return value.map((item) => renderTokens(item, lang, options)) as T;
 	if (value && typeof value === 'object') {
 		return Object.fromEntries(
-			Object.entries(value).map(([k, v]) => [k, renderTokens(v, lang)])
+			Object.entries(value).map(([k, v]) => [k, renderTokens(v, lang, options)])
 		) as T;
 	}
 	return value;

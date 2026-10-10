@@ -4,7 +4,7 @@ export default {
 	packages: {
 		eco: {
 			updated: '2026-10-07',
-			desc: 'Mit dem Eco Pack mieten Sie eine günstige Partyanlage in Malaga, ideal für private Feiern oder kleine Veranstaltungen mit bis zu 50 Gästen. Enthalten sind eine solide Grundbeschallung und Ambientebeleuchtung.',
+			desc: 'Mit dem Eco Pack mieten Sie eine günstige Partyanlage in {city:Malaga, Spanien|Malaga}, ideal für private Feiern oder kleine Veranstaltungen mit bis zu 50 Gästen. Enthalten sind eine solide Grundbeschallung und Ambientebeleuchtung.',
 			includes: [
 				'2 hochwertige Aktivlautsprecher mit Stativen',
 				'1 kabelgebundenes dynamisches Mikrofon',
@@ -35,7 +35,7 @@ export default {
 		},
 		wedding: {
 			updated: '2026-10-07',
-			desc: 'Mit dem Wedding Pack mieten Sie die perfekte Hochzeitstechnik in Malaga: eine professionelle Beschallungsanlage der Spitzenklasse, romantische Ambientebeleuchtung und Funkmikrofone für bewegende Reden bei magischen, unvergesslichen Hochzeitsfeiern.',
+			desc: 'Mit dem Wedding Pack mieten Sie die perfekte Hochzeitstechnik in {city:Malaga, Spanien|Malaga}: eine professionelle Beschallungsanlage der Spitzenklasse, romantische Ambientebeleuchtung und Funkmikrofone für bewegende Reden bei magischen, unvergesslichen Hochzeitsfeiern.',
 			includes: [
 				'Aktive PA-Anlage der Spitzenklasse für bis zu 80 Gäste',
 				'Lichterketten / warme LED-Lichterschläuche für romantische Ambientebeleuchtung',
@@ -123,7 +123,7 @@ export default {
 		},
 		mice: {
 			updated: '2026-10-07',
-			desc: 'Kongresstechnik mieten in Malaga: eine umfassende MICE-Komplettlösung mit großformatigem Display, hochwertiger aktiver Beschallung, einem Schwanenhalsmikrofon und einem kabellosen Handmikrofon sowie fester Betreuung durch einen Techniker vor Ort.',
+			desc: 'Kongresstechnik mieten in {city:Malaga, Spanien|Malaga}: eine umfassende MICE-Komplettlösung mit großformatigem Display, hochwertiger aktiver Beschallung, einem Schwanenhalsmikrofon und einem kabellosen Handmikrofon sowie fester Betreuung durch einen Techniker vor Ort.',
 			includes: [
 				'Hochwertiges 60-Zoll-LED-Display in High Definition mit Designstandfuß',
 				'Professionelle Aktivlautsprecher und leistungsstarke Beschallungsanlage',

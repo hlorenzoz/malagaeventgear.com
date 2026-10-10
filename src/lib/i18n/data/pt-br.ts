@@ -4,7 +4,7 @@ export default {
 	packages: {
 		eco: {
 			updated: '2026-10-07',
-			desc: 'Ideal para festas particulares ou eventos pequenos de até 50 convidados. Este aluguel de som e luz para festas pequenas em Málaga inclui um sistema de som básico e confiável e iluminação ambiente.',
+			desc: 'Ideal para festas particulares ou eventos pequenos de até 50 convidados. Este aluguel de som e luz para festas pequenas em {city:Málaga, na Espanha,|Málaga} inclui um sistema de som básico e confiável e iluminação ambiente.',
 			includes: [
 				'2 caixas de som ativas de alta qualidade com pedestais',
 				'1 microfone dinâmico com fio',
@@ -35,7 +35,7 @@ export default {
 		},
 		wedding: {
 			updated: '2026-10-07',
-			desc: 'Pensado nos mínimos detalhes para casamentos mágicos e inesquecíveis. Este aluguel de equipamento de som para casamento em Málaga inclui sistema acústico profissional de alto nível, iluminação ambiente romântica e microfones sem fio para os discursos mais emocionantes.',
+			desc: 'Pensado nos mínimos detalhes para casamentos mágicos e inesquecíveis. Este aluguel de equipamento de som para casamento em {city:Málaga, na Espanha,|Málaga} inclui sistema acústico profissional de alto nível, iluminação ambiente romântica e microfones sem fio para os discursos mais emocionantes.',
 			includes: [
 				'Sistema de som PA ativo de alto nível para até 80 convidados',
 				'Varais de luzes / cordões de LED em luz quente para iluminação ambiente romântica',
@@ -65,7 +65,7 @@ export default {
 		},
 		'product-presentation': {
 			updated: '2026-10-07',
-			desc: 'Feito para apresentações corporativas, showrooms de concessionárias e lançamentos de produto com alto impacto visual. Perfeito para quem busca aluguel de projetor para lançamento de produto em Málaga.',
+			desc: 'Feito para apresentações corporativas, showrooms de concessionárias e lançamentos de produto com alto impacto visual. Perfeito para quem busca aluguel de projetor para lançamento de produto em {city:Málaga, na Espanha|Málaga}.',
 			includes: [
 				'1 tela de projeção frontal com suporte estável',
 				'1 projetor de alto brilho (5000 lumens) para imagens nítidas',
@@ -95,7 +95,7 @@ export default {
 		},
 		'basic-mice': {
 			updated: '2026-10-07',
-			desc: 'Estrutura audiovisual essencial e de alto desempenho para pequenas reuniões executivas, conferências e apresentações com até 40 convidados. Ideal como equipamento audiovisual para pequenas reuniões corporativas em Málaga.',
+			desc: 'Estrutura audiovisual essencial e de alto desempenho para pequenas reuniões executivas, conferências e apresentações com até 40 convidados. Ideal como equipamento audiovisual para pequenas reuniões corporativas em {city:Málaga, na Espanha|Málaga}.',
 			includes: [
 				'Tela de projeção de 2x2m com projetor de alto brilho de 3000 lumens',
 				'Sistema básico de reforço de som cristalino para até 40 pessoas',
@@ -123,7 +123,7 @@ export default {
 		},
 		mice: {
 			updated: '2026-10-07',
-			desc: 'Solução corporativa completa de MICE com tela de grande formato, reforço de som ativo premium, um microfone gooseneck e um microfone de mão sem fio, além de suporte de técnico dedicado ao vivo. Ideal como equipamento audiovisual para conferências e congressos em Málaga.',
+			desc: 'Solução corporativa completa de MICE com tela de grande formato, reforço de som ativo premium, um microfone gooseneck e um microfone de mão sem fio, além de suporte de técnico dedicado ao vivo. Ideal como equipamento audiovisual para conferências e congressos em {city:Málaga, na Espanha|Málaga}.',
 			includes: [
 				'Tela de LED premium de 60 polegadas em alta definição com suporte de design',
 				'Caixas de som ativas profissionais e sistema de som de alto desempenho',

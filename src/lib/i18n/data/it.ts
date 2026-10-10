@@ -4,7 +4,7 @@ export default {
 	packages: {
 		eco: {
 			updated: '2026-10-07',
-			desc: "Noleggio audio e luci economico a Malaga, ideale per feste private o piccoli eventi fino a 50 ospiti. Include un impianto audio di base affidabile e un'illuminazione d'ambiente.",
+			desc: "Noleggio audio e luci economico a {city:Malaga, in Spagna|Malaga}, ideale per feste private o piccoli eventi fino a 50 ospiti. Include un impianto audio di base affidabile e un'illuminazione d'ambiente.",
 			includes: [
 				'2 casse attive di alta qualità con stativi',
 				'1 microfono dinamico cablato',
@@ -35,7 +35,7 @@ export default {
 		},
 		wedding: {
 			updated: '2026-10-07',
-			desc: "Noleggio audio e luci per matrimoni a Malaga, pensato nei minimi dettagli per celebrazioni magiche e indimenticabili. Include un impianto acustico professionale di alta gamma, un'illuminazione d'ambiente romantica e microfoni wireless per discorsi emozionanti.",
+			desc: "Noleggio audio e luci per matrimoni a {city:Malaga, in Spagna|Malaga}, pensato nei minimi dettagli per celebrazioni magiche e indimenticabili. Include un impianto acustico professionale di alta gamma, un'illuminazione d'ambiente romantica e microfoni wireless per discorsi emozionanti.",
 			includes: [
 				'Impianto audio PA attivo di alta gamma per un massimo di 80 ospiti',
 				"Lucine e strisce LED a luce calda per un'illuminazione d'ambiente romantica",
@@ -65,7 +65,7 @@ export default {
 		},
 		'product-presentation': {
 			updated: '2026-10-07',
-			desc: 'Noleggio di proiettore e schermo a Malaga, pensato per presentazioni aziendali, showroom di concessionarie e lanci di prodotto ad alto impatto visivo.',
+			desc: 'Noleggio di proiettore e schermo a {city:Malaga, in Spagna|Malaga}, pensato per presentazioni aziendali, showroom di concessionarie e lanci di prodotto ad alto impatto visivo.',
 			includes: [
 				'1 schermo di proiezione frontale con stativo stabile',
 				'1 proiettore ad alta luminosità (5000 lumen) per immagini nitide',
@@ -95,7 +95,7 @@ export default {
 		},
 		'basic-mice': {
 			updated: '2026-10-07',
-			desc: 'Noleggio audiovisivi per riunioni aziendali a Malaga: un allestimento essenziale e ad alte prestazioni per piccole riunioni dirigenziali, conferenze e presentazioni fino a 40 ospiti.',
+			desc: 'Noleggio audiovisivi per riunioni aziendali a {city:Malaga, in Spagna|Malaga}: un allestimento essenziale e ad alte prestazioni per piccole riunioni dirigenziali, conferenze e presentazioni fino a 40 ospiti.',
 			includes: [
 				'Schermo di proiezione 2x2m con proiettore ad alta luminosità da 3000 lumen',
 				'Impianto audio di base dal suono cristallino per un massimo di 40 persone',
@@ -123,7 +123,7 @@ export default {
 		},
 		mice: {
 			updated: '2026-10-07',
-			desc: "La soluzione completa di noleggio audiovisivi per congressi e conferenze a Malaga, con schermo grande formato, impianto audio attivo premium, un microfono a collo d'oca e un microfono palmare wireless, oltre all'assistenza tecnica dal vivo dedicata.",
+			desc: "La soluzione completa di noleggio audiovisivi per congressi e conferenze a {city:Malaga, in Spagna|Malaga}, con schermo grande formato, impianto audio attivo premium, un microfono a collo d'oca e un microfono palmare wireless, oltre all'assistenza tecnica dal vivo dedicata.",
 			includes: [
 				'Schermo LED premium ad alta definizione da 60 pollici con stativo di design',
 				'Casse attive professionali e impianto audio ad alte prestazioni',

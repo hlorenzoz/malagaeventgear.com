@@ -4,7 +4,7 @@ export default {
 	packages: {
 		eco: {
 			updated: '2026-10-07',
-			desc: 'Eco Pack är det perfekta billiga festpaketet att hyra i Malaga, för privata fester eller mindre evenemang med upp till 50 gäster. Inkluderar ett stabilt grundläggande ljudsystem och stämningsbelysning.',
+			desc: 'Eco Pack är det perfekta billiga festpaketet att hyra i {city:Malaga, Spanien|Malaga}, för privata fester eller mindre evenemang med upp till 50 gäster. Inkluderar ett stabilt grundläggande ljudsystem och stämningsbelysning.',
 			includes: [
 				'2 högkvalitativa aktiva högtalare med stativ',
 				'1 trådbunden dynamisk mikrofon',
@@ -123,7 +123,7 @@ export default {
 		},
 		mice: {
 			updated: '2026-10-07',
-			desc: 'Komplett MICE-lösning för företag med en storformatsskärm, förstklassig aktiv ljudförstärkning, en gåshalsmikrofon och en trådlös handmikrofon samt en dedikerad livetekniker. Hyr kongressteknik i Malaga med allt som ditt evenemang behöver.',
+			desc: 'Komplett MICE-lösning för företag med en storformatsskärm, förstklassig aktiv ljudförstärkning, en gåshalsmikrofon och en trådlös handmikrofon samt en dedikerad livetekniker. Hyr kongressteknik i {city:Malaga, Spanien,|Malaga} med allt som ditt evenemang behöver.',
 			includes: [
 				'60-tums LED-skärm i hög definition och premiumkvalitet, med designstativ',
 				'Professionella aktiva högtalare och kraftfullt ljudsystem',

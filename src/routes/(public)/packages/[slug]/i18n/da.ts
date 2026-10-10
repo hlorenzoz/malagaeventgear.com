@@ -4,7 +4,8 @@ export const updated = '2026-10-07';
 
 const copy = {
 	benefits: {
-		delivery: 'Gratis opsætning og levering (Malaga og Costa del Sol)',
+		delivery:
+			'Gratis opsætning og levering ({city:Malaga og Costa del Sol, Spanien|Malaga og Costa del Sol})',
 		brands: 'Premiummærker (HK Audio, Audix, Midas)',
 		support: 'Mulighed for teknisk support på stedet'
 	},

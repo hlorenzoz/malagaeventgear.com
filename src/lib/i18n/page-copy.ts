@@ -1,5 +1,5 @@
 import type { Locale } from './locales';
-import { renderTokens } from '$lib/data/packages';
+import { renderTokens, type TokenOptions } from '$lib/data/packages';
 
 /**
  * Page specific copy, colocated with its page: `src/routes/(public)/<page>/i18n/<locale>.ts`.
@@ -14,12 +14,15 @@ import { renderTokens } from '$lib/data/packages';
  *
  * A missing locale falls back to English, which the completeness guard forbids for every
  * PUBLISHED locale. Catalog tokens ({price:key}, {vat}) come back rendered in the locale.
+ * `options.city: 'keep'` leaves the `{city:WITH|PLAIN}` tokens for a page that names the country
+ * on its first mention itself (the package detail page).
  */
 export async function loadPageCopy<T>(
 	loaders: Record<string, () => Promise<unknown>>,
-	locale: Locale
+	locale: Locale,
+	options: TokenOptions = {}
 ): Promise<T> {
 	const loader = loaders[`./i18n/${locale}.ts`] ?? loaders['./i18n/en.ts'];
 	if (!loader) throw new Error('page copy: ./i18n/en.ts is missing');
-	return renderTokens(((await loader()) as { default: T }).default, locale);
+	return renderTokens(((await loader()) as { default: T }).default, locale, options);
 }

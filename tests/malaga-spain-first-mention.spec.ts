@@ -8,14 +8,17 @@ import { PUBLISHED_LOCALES, localized, type Locale } from './support/i18n';
  * 160 characters. Titles and headings are never forced, and "Malaga Event Gear" (the brand) and the
  * NAP address ("29009 Malaga") are not mentions.
  *
- * The country goes only into copy owned by ONE page that renders before any shared catalog copy
- * (the package cards, the Google embed): never into a string used on 2 or more pages.
+ * The country appears ONLY on the first mention of each page. Copy owned by one page carries it
+ * directly. Shared catalog copy (package descriptions, the delivery bullet) renders PLAIN
+ * everywhere (home, /equipment/, /packages/, meta descriptions, schema, llms.txt) through the
+ * `{city:WITH|PLAIN}` token, and only the package detail page renders WITH on its first token
+ * (src/lib/data/packages.ts, renderCityFirst). A raw `{city` in a served page is a leaked token.
  *
  * Checked on the served HTML (Playwright `request`, no page load), because that is what Google
  * reads. Reviews (any element with a `lang` attribute) are never part of the check.
  */
 
-const PAGES = [
+const MAIN_PAGES = [
 	'/',
 	'/about-us/',
 	'/equipment/',
@@ -24,22 +27,33 @@ const PAGES = [
 	'/faq/',
 	'/meet-the-team/'
 ];
+// The five package detail pages: hero shows the shared package desc, then the delivery bullet.
+const PACKAGE_PAGES = [
+	'/packages/eco/',
+	'/packages/wedding/',
+	'/packages/basic-mice/',
+	'/packages/mice/',
+	'/packages/product-presentation/'
+];
+const PAGES = [...MAIN_PAGES, ...PACKAGE_PAGES];
 const LOCALES: Locale[] = ['en', ...PUBLISHED_LOCALES];
 
 // Country forms (the ones the site already uses). Latin scripts: the country follows the city,
 // after a comma. Chinese: the country goes BEFORE the city ("西班牙马拉加"), or right after it in
 // full width parentheses ("马拉加（西班牙）", the form CLAUDE.md documents).
+// The country directly after the city ("Malaga, Spain"), or closing the same short phrase
+// ("Malaga & Costa del Sol, Spain"), with no sentence end in between.
 const AFTER_CITY: Partial<Record<Locale, RegExp>> = {
-	en: /^,\s*Spain\b/,
-	fr: /^,\s*en Espagne\b/,
-	it: /^,\s*in Spagna\b/,
-	de: /^,\s*Spanien\b/,
-	nl: /^,\s*Spanje\b/,
-	'pt-pt': /^,\s*Espanha\b/,
-	'pt-br': /^,\s*na Espanha\b/,
-	sv: /^,\s*Spanien\b/,
-	da: /^,\s*Spanien\b/,
-	nb: /^,\s*Spania\b/
+	en: /^[^.!?:;()]{0,24}?,\s*Spain\b/,
+	fr: /^[^.!?:;()]{0,24}?,\s*en Espagne\b/,
+	it: /^[^.!?:;()]{0,24}?,\s*in Spagna\b/,
+	de: /^[^.!?:;()]{0,24}?,\s*Spanien\b/,
+	nl: /^[^.!?:;()]{0,24}?,\s*Spanje\b/,
+	'pt-pt': /^[^.!?:;()]{0,24}?,\s*Espanha\b/,
+	'pt-br': /^[^.!?:;()]{0,24}?,\s*na Espanha\b/,
+	sv: /^[^.!?:;()]{0,24}?,\s*Spanien\b/,
+	da: /^[^.!?:;()]{0,24}?,\s*Spanien\b/,
+	nb: /^[^.!?:;()]{0,24}?,\s*Spania\b/
 };
 const BEFORE_CITY = /西班牙$/;
 const AFTER_CITY_ZH = /^（西班牙）/;
@@ -162,7 +176,7 @@ function hasCountry(locale: Locale, text: string, at: { index: number; length: n
 			BEFORE_CITY.test(text.slice(Math.max(0, at.index - 3), at.index)) ||
 			AFTER_CITY_ZH.test(text.slice(at.index + at.length, at.index + at.length + 6))
 		);
-	return AFTER_CITY[locale]!.test(text.slice(at.index + at.length, at.index + at.length + 20));
+	return AFTER_CITY[locale]!.test(text.slice(at.index + at.length, at.index + at.length + 44));
 }
 
 function excerpt(text: string, at: { index: number; length: number }): string {
@@ -178,6 +192,11 @@ test.describe('First mention of Malaga names the country', () => {
 				const res = await request.get(path!);
 				expect(res.status()).toBe(200);
 				const html = await res.text();
+
+				expect(
+					html,
+					`${locale} ${path}: a {city:...} token leaked into the served HTML`
+				).not.toMatch(/[{\uff5b]\s*city\s*[:\uff1a]/i);
 
 				const body = mainText(html);
 				// A parse failure must not pass as "no mention".
@@ -195,12 +214,31 @@ test.describe('First mention of Malaga names the country', () => {
 
 				const description = metaDescription(html);
 				const inDescription = firstMention(description);
+				// On a package detail page the description is the package desc with its token rendered
+				// WITH when the result fits in 160 characters, so the same rule holds on all 12 pages.
 				if (inDescription && description.length + FORM_LENGTH[locale] <= 160) {
 					expect(
 						hasCountry(locale, description, inDescription),
 						`${locale} ${path}: the description mentions Malaga without the country and still fits in 160 characters: "${description}"`
 					).toBe(true);
 				}
+			});
+		}
+	}
+
+	// The listing pages render the shared package copy PLAIN: the WITH wording of the Eco Pack
+	// desc (country inside the phrase) belongs to the package detail page only.
+	const ECO_WITH: Partial<Record<Locale, string>> = {
+		de: 'Partyanlage in Malaga, Spanien',
+		'zh-hans': '西班牙马拉加小型派对'
+	};
+	for (const [locale, phrase] of Object.entries(ECO_WITH) as [Locale, string][]) {
+		for (const enPath of ['/', '/packages/', '/equipment/']) {
+			test(`${locale} ${enPath} does not show the package desc with the country`, async ({
+				request
+			}) => {
+				const html = decode(await (await request.get((await localized(locale, enPath))!)).text());
+				expect(html).not.toContain(phrase);
 			});
 		}
 	}

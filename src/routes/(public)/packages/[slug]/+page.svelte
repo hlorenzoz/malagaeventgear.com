@@ -5,9 +5,9 @@
 	import LeadForm from '$lib/components/forms/LeadForm.svelte';
 	import Testimonials from '$lib/components/testimonials/Testimonials.svelte';
 	import { i18n } from '$lib/i18n.svelte';
-	import { pkgCopy } from '$lib/i18n/data-copy.svelte';
+	import { pkgCopy, pkgDescWithCityToken } from '$lib/i18n/data-copy.svelte';
 	import { siteConfig } from '$lib/data/site';
-	import { getPackageBySlug, formatPrice } from '$lib/data/packages';
+	import { getPackageBySlug, formatPrice, renderCityFirst } from '$lib/data/packages';
 	import type { PageData } from './$types';
 	import { buildServiceSchema, buildFAQSchema } from '$lib/utils/schema';
 	import ShareThis from '$lib/components/blog/ShareThis.svelte';
@@ -23,6 +23,14 @@
 	let copy = $derived(pkgCopy(pkg));
 	// Page-level copy (hero benefits, generic FAQs, UI strings), shared by every package slug
 	let pageCopy = $derived(data.copy);
+	// First mention of Malaga on this page names the country (CLAUDE.md section 5). The hero shows
+	// the package description and then the delivery bullet, so the first `{city:WITH|PLAIN}` token
+	// of those two, in that order, gets the country and the other stays plain.
+	let [heroDesc, deliveryBenefit] = $derived(
+		renderCityFirst([pkgDescWithCityToken(pkg), data.deliveryWithCityToken])
+	);
+	// The meta description names the country too, but only when it still fits in 160 characters.
+	let metaDescription = $derived(heroDesc.length <= 160 ? heroDesc : copy.desc);
 	let packageImages = $derived(getImagesForPackage(pkg.id));
 	let canonicalUrl = $derived(`${siteConfig.url}${pkg.route}`);
 
@@ -36,7 +44,7 @@
 
 	// Localized hero benefits
 	const heroBenefits = $derived([
-		{ icon: 'package_2', text: pageCopy.benefits.delivery },
+		{ icon: 'package_2', text: deliveryBenefit },
 		{ icon: 'check_circle', text: pageCopy.benefits.brands },
 		{ icon: 'support_agent', text: pageCopy.benefits.support }
 	]);
@@ -50,20 +58,18 @@
 	]);
 
 	let seoSchema = $derived(
-		buildServiceSchema(
-			{
-				name: pkg.name,
-				description: copy.desc,
-				price: pkg.price,
-				// This language version of the page: each one is its own node (never the English URL).
-				url: i18n.href(pkg.route),
-				category: pkg.seo.serviceType
-			}
-		)
+		buildServiceSchema({
+			name: pkg.name,
+			description: heroDesc,
+			price: pkg.price,
+			// This language version of the page: each one is its own node (never the English URL).
+			url: i18n.href(pkg.route),
+			category: pkg.seo.serviceType
+		})
 	);
 
 	let faqSchema = $derived(
-		buildFAQSchema(packageFaqs.map(faq => ({ question: faq.q, answer: faq.a })))
+		buildFAQSchema(packageFaqs.map((faq) => ({ question: faq.q, answer: faq.a })))
 	);
 
 	// Sticky CTA: hide when lead-form is in viewport
@@ -129,8 +135,8 @@
 
 <SeoHead
 	title={copy.seo.title}
-	description={copy.desc}
-	canonicalUrl={canonicalUrl}
+	description={metaDescription}
+	{canonicalUrl}
 	image={pkg.image}
 	jsonLdSchema={[seoSchema, faqSchema]}
 />
@@ -154,19 +160,29 @@
 
 <div class="relative w-full z-10">
 	<!-- ─── Hero ──────────────────────────────────────────────────────────── -->
-	<section class="py-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto text-center reveal active is-revealed">
-		<span class="inline-block px-4 py-2 rounded-full glass-panel font-label-sm text-electric-blue uppercase tracking-widest mb-4">
+	<section
+		class="py-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto text-center reveal active is-revealed"
+	>
+		<span
+			class="inline-block px-4 py-2 rounded-full glass-panel font-label-sm text-electric-blue uppercase tracking-widest mb-4"
+		>
 			{copy.landing.badge}
 		</span>
-		<h1 class="font-headline-lg-mobile md:font-headline-lg text-[40px] md:text-display-lg leading-tight mb-6 text-on-background">
+		<h1
+			class="font-headline-lg-mobile md:font-headline-lg text-[40px] md:text-display-lg leading-tight mb-6 text-on-background"
+		>
 			{pkg.name}
 		</h1>
-		<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl mx-auto leading-relaxed mb-6">
-			{copy.desc}
+		<p
+			class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl mx-auto leading-relaxed mb-6"
+		>
+			{heroDesc}
 		</p>
 
 		<!-- Hero benefits bullets -->
-		<div class="flex flex-col sm:flex-row items-center justify-center gap-x-8 gap-y-3 max-w-3xl mx-auto mb-10 font-label-sm text-on-surface-variant">
+		<div
+			class="flex flex-col sm:flex-row items-center justify-center gap-x-8 gap-y-3 max-w-3xl mx-auto mb-10 font-label-sm text-on-surface-variant"
+		>
 			{#each heroBenefits as benefit}
 				<div class="flex items-center gap-2">
 					<Icon name={benefit.icon} size="18" className="text-electric-blue shrink-0" />
@@ -186,16 +202,22 @@
 
 	<!-- ─── Price anchor + Trust signals ─────────────────────────────────── -->
 	<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto mb-16">
-		<div class="glass-panel rounded-2xl p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+		<div
+			class="glass-panel rounded-2xl p-8 flex flex-col md:flex-row items-center justify-between gap-6"
+		>
 			<!-- Price -->
 			<div class="flex flex-wrap items-center gap-x-3 gap-y-2">
 				<span class="font-label-md text-on-surface-variant uppercase tracking-wider">
 					{copy.landing.rateLabel}
 				</span>
-				<span class="text-display-lg font-bold text-electric-blue">{formatPrice(pkg.price, i18n.lang)}</span>
+				<span class="text-display-lg font-bold text-electric-blue"
+					>{formatPrice(pkg.price, i18n.lang)}</span
+				>
 				<span class="text-sm text-on-surface-variant">{copy.landing.vatNote}</span>
 				{#if pkg.popular}
-					<span class="inline-block bg-electric-blue-strong text-white px-3 py-1 rounded-full font-label-sm tracking-wider uppercase ml-2">
+					<span
+						class="inline-block bg-electric-blue-strong text-white px-3 py-1 rounded-full font-label-sm tracking-wider uppercase ml-2"
+					>
 						{pageCopy.popularBadge}
 					</span>
 				{/if}
@@ -232,8 +254,9 @@
 	</section>
 
 	<!-- ─── Main content grid ─────────────────────────────────────────────── -->
-	<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter mb-20">
-
+	<div
+		class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter mb-20"
+	>
 		<!-- Left col: Includes + Optional -->
 		<div class="lg:col-span-7 flex flex-col gap-6">
 			<!-- Package image -->
@@ -242,8 +265,8 @@
 				{@const desktopImage = packageImageVariant(pkg.image, 'desktop')}
 				<div class="w-full h-56 rounded-xl overflow-hidden relative">
 					<picture class="absolute inset-0 w-full h-full">
-						<source media="(max-width: 767px)" srcset={mobileImage} type="image/webp" />
-						<source media="(min-width: 768px)" srcset={desktopImage} type="image/webp" />
+						<source media="(max-width: 767px)" srcset={mobileImage} type="image/webp">
+						<source media="(min-width: 768px)" srcset={desktopImage} type="image/webp">
 						<img
 							alt={pkg.name}
 							class="w-full h-full object-cover opacity-90"
@@ -252,29 +275,39 @@
 							decoding="async"
 							width="800"
 							height="380"
-						/>
+						>
 					</picture>
-					<div class="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent pointer-events-none"></div>
+					<div
+						class="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent pointer-events-none"
+					></div>
 				</div>
 			{/if}
 
 			<!-- Includes -->
 			<div class="glass-panel rounded-xl p-8 relative overflow-hidden">
-				<div class="absolute -bottom-20 -right-20 w-48 h-48 bg-electric-blue/5 rounded-full blur-3xl pointer-events-none"></div>
-				<h2 class="font-headline-md text-headline-md text-on-surface mb-6 border-b border-border-glass pb-4">
+				<div
+					class="absolute -bottom-20 -right-20 w-48 h-48 bg-electric-blue/5 rounded-full blur-3xl pointer-events-none"
+				></div>
+				<h2
+					class="font-headline-md text-headline-md text-on-surface mb-6 border-b border-border-glass pb-4"
+				>
 					{copy.landing.includesLabel}
 				</h2>
 				<ul class="space-y-4">
 					{#each copy.includes as item}
 						<li class="flex items-start gap-3">
 							<Icon name="check_circle" size="20" className="text-electric-blue mt-0.5 shrink-0" />
-							<span class="font-body-md text-body-md text-on-surface-variant leading-relaxed">{item}</span>
+							<span class="font-body-md text-body-md text-on-surface-variant leading-relaxed"
+								>{item}</span
+							>
 						</li>
 					{/each}
 				</ul>
 
 				{#if copy.optional && copy.landing.optionalLabel}
-					<h3 class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider mt-8 mb-4">
+					<h3
+						class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider mt-8 mb-4"
+					>
 						{copy.landing.optionalLabel}
 					</h3>
 					<ul class="space-y-3">
@@ -324,9 +357,13 @@
 	</div>
 
 	<!-- ─── Process Timeline Section ──────────────────────────────────────── -->
-	<section class="py-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto border-t border-border-glass">
+	<section
+		class="py-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto border-t border-border-glass"
+	>
 		<div class="text-center mb-16">
-			<span class="inline-block px-4 py-2 rounded-full glass-panel font-label-sm text-electric-blue uppercase tracking-widest mb-4">
+			<span
+				class="inline-block px-4 py-2 rounded-full glass-panel font-label-sm text-electric-blue uppercase tracking-widest mb-4"
+			>
 				{i18n.t.process.badge}
 			</span>
 			<h2 class="font-headline-lg text-[32px] md:text-headline-lg text-on-background">
@@ -337,35 +374,51 @@
 		<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
 			<!-- Step 1 -->
 			<div class="glass-panel rounded-2xl p-6 relative flex flex-col h-full">
-				<div class="absolute -top-4 -left-4 w-10 h-10 rounded-full bg-electric-blue-strong text-white font-bold flex items-center justify-center shadow-lg">
+				<div
+					class="absolute -top-4 -left-4 w-10 h-10 rounded-full bg-electric-blue-strong text-white font-bold flex items-center justify-center shadow-lg"
+				>
 					1
 				</div>
 				<h3 class="font-headline-sm text-lg text-on-surface mb-2 mt-2">{i18n.t.process.s1Title}</h3>
-				<p class="font-body-md text-sm text-on-surface-variant leading-relaxed">{i18n.t.process.s1Desc}</p>
+				<p class="font-body-md text-sm text-on-surface-variant leading-relaxed">
+					{i18n.t.process.s1Desc}
+				</p>
 			</div>
 			<!-- Step 2 -->
 			<div class="glass-panel rounded-2xl p-6 relative flex flex-col h-full">
-				<div class="absolute -top-4 -left-4 w-10 h-10 rounded-full bg-electric-blue-strong text-white font-bold flex items-center justify-center shadow-lg">
+				<div
+					class="absolute -top-4 -left-4 w-10 h-10 rounded-full bg-electric-blue-strong text-white font-bold flex items-center justify-center shadow-lg"
+				>
 					2
 				</div>
 				<h3 class="font-headline-sm text-lg text-on-surface mb-2 mt-2">{i18n.t.process.s2Title}</h3>
-				<p class="font-body-md text-sm text-on-surface-variant leading-relaxed">{i18n.t.process.s2Desc}</p>
+				<p class="font-body-md text-sm text-on-surface-variant leading-relaxed">
+					{i18n.t.process.s2Desc}
+				</p>
 			</div>
 			<!-- Step 3 -->
 			<div class="glass-panel rounded-2xl p-6 relative flex flex-col h-full">
-				<div class="absolute -top-4 -left-4 w-10 h-10 rounded-full bg-electric-blue-strong text-white font-bold flex items-center justify-center shadow-lg">
+				<div
+					class="absolute -top-4 -left-4 w-10 h-10 rounded-full bg-electric-blue-strong text-white font-bold flex items-center justify-center shadow-lg"
+				>
 					3
 				</div>
 				<h3 class="font-headline-sm text-lg text-on-surface mb-2 mt-2">{i18n.t.process.s3Title}</h3>
-				<p class="font-body-md text-sm text-on-surface-variant leading-relaxed">{i18n.t.process.s3Desc}</p>
+				<p class="font-body-md text-sm text-on-surface-variant leading-relaxed">
+					{i18n.t.process.s3Desc}
+				</p>
 			</div>
 			<!-- Step 4 -->
 			<div class="glass-panel rounded-2xl p-6 relative flex flex-col h-full">
-				<div class="absolute -top-4 -left-4 w-10 h-10 rounded-full bg-electric-blue-strong text-white font-bold flex items-center justify-center shadow-lg">
+				<div
+					class="absolute -top-4 -left-4 w-10 h-10 rounded-full bg-electric-blue-strong text-white font-bold flex items-center justify-center shadow-lg"
+				>
 					4
 				</div>
 				<h3 class="font-headline-sm text-lg text-on-surface mb-2 mt-2">{i18n.t.process.s4Title}</h3>
-				<p class="font-body-md text-sm text-on-surface-variant leading-relaxed">{i18n.t.process.s4Desc}</p>
+				<p class="font-body-md text-sm text-on-surface-variant leading-relaxed">
+					{i18n.t.process.s4Desc}
+				</p>
 			</div>
 		</div>
 	</section>
@@ -374,7 +427,9 @@
 	{#if packageImages.length > 0}
 		<section class="py-16 overflow-hidden relative w-full">
 			<div class="px-margin-mobile md:px-margin-desktop text-center mb-10">
-				<span class="inline-block px-4 py-2 rounded-full glass-panel font-label-sm text-electric-blue uppercase tracking-widest mb-4">
+				<span
+					class="inline-block px-4 py-2 rounded-full glass-panel font-label-sm text-electric-blue uppercase tracking-widest mb-4"
+				>
 					{i18n.t.gallery.titlePackage.replace('{pack}', pkg.name)}
 				</span>
 			</div>
@@ -388,9 +443,13 @@
 	</div>
 
 	<!-- ─── Package FAQs Section ──────────────────────────────────────────── -->
-	<section class="py-20 px-margin-mobile md:px-margin-desktop max-w-4xl mx-auto border-t border-border-glass">
+	<section
+		class="py-20 px-margin-mobile md:px-margin-desktop max-w-4xl mx-auto border-t border-border-glass"
+	>
 		<div class="text-center mb-12">
-			<span class="inline-block px-4 py-2 rounded-full glass-panel font-label-sm text-electric-blue uppercase tracking-widest mb-4">
+			<span
+				class="inline-block px-4 py-2 rounded-full glass-panel font-label-sm text-electric-blue uppercase tracking-widest mb-4"
+			>
 				{i18n.t.contact.faqTitle}
 			</span>
 			<h2 class="font-headline-lg text-[32px] md:text-headline-lg text-on-background">
@@ -402,13 +461,19 @@
 			{#each packageFaqs as faq}
 				<div class="glass-panel rounded-2xl overflow-hidden transition-all duration-300">
 					<details class="group">
-						<summary class="flex items-center justify-between p-6 font-headline-sm text-base md:text-lg text-on-surface cursor-pointer list-none focus:outline-none">
+						<summary
+							class="flex items-center justify-between p-6 font-headline-sm text-base md:text-lg text-on-surface cursor-pointer list-none focus:outline-none"
+						>
 							<span>{faq.q}</span>
-							<span class="text-electric-blue transition-transform duration-300 group-open:rotate-180">
+							<span
+								class="text-electric-blue transition-transform duration-300 group-open:rotate-180"
+							>
 								<Icon name="expand_more" size="24" />
 							</span>
 						</summary>
-						<div class="px-6 pb-6 pt-2 border-t border-border-glass/50 font-body-md text-sm md:text-base text-on-surface-variant leading-relaxed">
+						<div
+							class="px-6 pb-6 pt-2 border-t border-border-glass/50 font-body-md text-sm md:text-base text-on-surface-variant leading-relaxed"
+						>
 							{faq.a}
 						</div>
 					</details>
@@ -419,6 +484,12 @@
 
 	<!-- Mobile FAB and Drawer Share (hidden on lg+) -->
 	<div class="lg:hidden">
-		<ShareThis mode="drawer" visible={isTopVisible} url={canonicalUrl} title={pkg.name} coverImage={pkg.image} />
+		<ShareThis
+			mode="drawer"
+			visible={isTopVisible}
+			url={canonicalUrl}
+			title={pkg.name}
+			coverImage={pkg.image}
+		/>
 	</div>
 </div>

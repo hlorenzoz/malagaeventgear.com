@@ -4,7 +4,7 @@ export default {
 	packages: {
 		eco: {
 			updated: '2026-10-07',
-			desc: 'Perfekt til leje af lyd og lys til en lille fest i Malaga eller andre private events med op til 50 gæster. Inkluderer et solidt basislydanlæg og stemningsbelysning.',
+			desc: 'Perfekt til leje af lyd og lys til en lille fest i {city:Malaga, Spanien,|Malaga} eller andre private events med op til 50 gæster. Inkluderer et solidt basislydanlæg og stemningsbelysning.',
 			includes: [
 				'2 aktive højttalere af høj kvalitet med stativer',
 				'1 kablet dynamisk mikrofon',
