@@ -3875,6 +3875,11 @@
       "id": "is-your-sound-equipment-the-latest-model",
       "text": "Is your sound equipment the latest model?",
       "level": 3
+    },
+    {
+      "id": "do-i-need-to-rent-a-separate-amplifier-with-the-speakers-and-microphone",
+      "text": "Do I need to rent a separate amplifier with the speakers and microphone?",
+      "level": 3
     }
   ],
   "wedding-rentals-near-me": [

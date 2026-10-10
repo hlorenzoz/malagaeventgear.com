@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-10",
+  "taskId": "#T0113",
+  "slug": "sound-system-rental",
+  "searchTerm": "sound system rental Do I need to rent a separate amplifier with the speakers and microphone?",
+  "status": "partial",
+  "reason": "Not localized to Spain (tool cannot). All 3 pages from 'do I need an amplifier for active PA speakers' (Google positions 1, 3, 4). Skipped position 2 (pmtonline redirects to another site). 'microphone and amp rental' gave only vendor listings. UK, India sites.",
+  "serp": {
+    "query": "do I need an amplifier for active PA speakers",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://www.digitaldjtips.com/beginners-guide-to-pa-systems-part-2-common-questions/", "title": "Beginner's Guide To PA Systems, Part 2: Common Questions" },
+      { "rank": 2, "url": "https://bajaao.com/blogs/blog/active-vs-passive-pa-speakers", "title": "active vs passive pa speakers" },
+      { "rank": 3, "url": "https://www.andertons.co.uk/live-pa/pa-systems/power-amps", "title": "PA Power Amps" }
+    ]
+  },
+  "terms": [
+    { "term": "active PA speakers", "kind": "entity", "seenIn": 3 },
+    { "term": "power amplifier", "kind": "entity", "seenIn": 3 },
+    { "term": "built in amplifier", "kind": "related", "seenIn": 3 },
+    { "term": "PA system", "kind": "entity", "seenIn": 3 },
+    { "term": "band PA setup", "kind": "entity", "seenIn": 3 },
+    { "term": "passive PA speakers", "kind": "entity", "seenIn": 2 },
+    { "term": "PA mixer", "kind": "entity", "seenIn": 2 },
+    { "term": "line level signal", "kind": "related", "seenIn": 2 },
+    { "term": "Yamaha", "kind": "entity", "seenIn": 2 },
+    { "term": "Do I need an amplifier with a PA system?", "kind": "question", "seenIn": 2 },
+    { "term": "powered speakers", "kind": "related", "seenIn": 1 },
+    { "term": "subwoofers", "kind": "entity", "seenIn": 1 },
+    { "term": "XLR inputs", "kind": "related", "seenIn": 1 },
+    { "term": "crossover", "kind": "related", "seenIn": 1 },
+    { "term": "power outlet", "kind": "related", "seenIn": 1 },
+    { "term": "wattage", "kind": "related", "seenIn": 1 },
+    { "term": "weddings", "kind": "entity", "seenIn": 1 },
+    { "term": "open air events", "kind": "entity", "seenIn": 1 },
+    { "term": "mobile DJs", "kind": "entity", "seenIn": 1 },
+    { "term": "school PA system", "kind": "entity", "seenIn": 1 },
+    { "term": "QSC Audio", "kind": "entity", "seenIn": 1 },
+    { "term": "Bose", "kind": "entity", "seenIn": 1 },
+    { "term": "Do active PA speakers need a power amp?", "kind": "question", "seenIn": 1 },
+    { "term": "What is a passive PA speaker?", "kind": "question", "seenIn": 1 },
+    { "term": "How much wattage do I need?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Digital DJ Tips", "reason": "competitor or publisher name" },
+    { "term": "Bajaao", "reason": "retailer name" },
+    { "term": "Andertons", "reason": "retailer name" },
+    { "term": "Yamaha Stagepas 300", "reason": "specific model, writer checks inventory" },
+    { "term": "LD Systems Lax 6 D", "reason": "specific model, writer checks inventory" },
+    { "term": "Samson RSX112A", "reason": "specific model, writer checks inventory" },
+    { "term": "Mackie and Peavey", "reason": "brands MEG does not list, writer checks inventory" },
+    { "term": "DJ controller and sound card", "reason": "DJ gear, not MEG scope" },
+    { "term": "Rane SL Series", "reason": "DJ gear, not MEG scope" },
+    { "term": "home sound systems", "reason": "consumer use, not event hire" },
+    { "term": "speaker magnet demagnetization", "reason": "too niche for the answer" },
+    { "term": "Active PA speaker bundles", "reason": "retail sales wording" },
+    { "term": "rave volumes", "reason": "event type outside MEG scope" }
+  ]
+}
