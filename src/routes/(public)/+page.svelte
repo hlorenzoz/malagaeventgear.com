@@ -23,6 +23,9 @@
 	let { data } = $props();
 	// Copy in the page language (./i18n/<locale>.ts, loaded by +page.ts)
 	const copy = $derived(data.copy);
+	// End of the hero <h1>, joined here and not in the markup: a line break between the </span>
+	// and the expression renders as an ASCII space, which is wrong inside Chinese copy.
+	const heroTitleTail = $derived(i18n.space + i18n.t.hero.titlePart2);
 
 	const coverThumbs = coverThumbsRaw as Record<string, { thumb: string; srcset?: string }>;
 
@@ -53,6 +56,17 @@
 		const [before = '', after = ''] = i18n.t.impact.since.split('{year}');
 		return { before: before.trim(), after };
 	});
+
+	// Bold lead of the cost answer ("From €290 + VAT."), joined here and not in the markup: a line
+	// break or a literal space between two pieces renders as an ASCII space inside Chinese copy.
+	let costLead = $derived(
+		i18n.t.overview.costFrom +
+			i18n.space +
+			formatPrice(minPrice, i18n.lang) +
+			i18n.space +
+			i18n.t.pricing.plusVat +
+			i18n.stop
+	);
 
 	// "At a Glance" Q&A block (answer-engine optimization). Question text rendered as <h2>.
 	let overview = $derived([
@@ -275,8 +289,7 @@
 				     transparent fill is treated as non-contentful by Chrome and disqualifies the
 				     whole <h1> as an LCP candidate, which caused NO_LCP. The gradient ran between
 				     two near-identical blues, so the solid color is visually equivalent. -->
-				<span class="text-electric-blue font-bold">{i18n.t.hero.titleGradient}</span>
-				{i18n.space}{i18n.t.hero.titlePart2}
+				<span class="text-electric-blue font-bold">{i18n.t.hero.titleGradient}</span>{heroTitleTail}
 			</h1>
 			<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
 				{i18n.t.hero.subtitle}
@@ -352,10 +365,7 @@
 				</div>
 				<p class="font-body-md text-body-md text-on-surface-variant">
 					{#if item.cost}
-						<strong class="text-on-surface"
-							>{i18n.t.overview.costFrom} {formatPrice(minPrice, i18n.lang)}{i18n.space}{i18n.t
-								.pricing.plusVat}{i18n.stop}</strong
-						>{i18n.space}
+						<strong class="text-on-surface">{costLead}</strong>{i18n.space}
 					{/if}
 					{item.a}
 				</p>
