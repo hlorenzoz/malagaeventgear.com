@@ -1,0 +1,102 @@
+{
+	"date": "2026-10-10",
+	"run": {
+		"status": "ok",
+		"candidatesReviewed": 20,
+		"tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+	},
+	"items": [
+		{
+			"keywords": ["microphone and amp rental"],
+			"cluster": "audio visual rental",
+			"action": "add-faq",
+			"priority": "medium",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Ninguna pregunta de /blog/sound-system-rental/ responde si hace falta un amplificador aparte. Los altavoces del inventario son activos, asi que la duda es real y MEG puede responderla. Revisado: sound-system-rental, stage-monitor-rental (amplificadores solo para monitores pasivos).",
+			"targetUrl": "/blog/sound-system-rental/",
+			"file": "src/content/blog/sound-system-rental.svx",
+			"question": "Do I need to rent a separate amplifier with the speakers and microphone?"
+		},
+		{
+			"keywords": ["large venue projector rental"],
+			"cluster": "audio visual rental",
+			"action": "add-faq",
+			"priority": "medium",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "projector-rental tiene secciones de lumenes y de lo que no se stockea, pero ninguna pregunta sobre salas grandes. Es una pregunta real de clientes y se responde con los dos proyectores propios mas el marco de proveedores. Sin cambio de silo ni nueva pagina.",
+			"targetUrl": "/blog/projector-rental/",
+			"file": "src/content/blog/projector-rental.svx",
+			"question": "Do you rent projectors for large venues or big rooms?"
+		},
+		{
+			"keywords": ["large projector screen hire", "large projector screen rental"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Cubierto por /blog/projector-rental/, FAQ 'What's the largest screen size available?' y seccion 'Why the Screen Is Always Bundled With the Projector'. Una pagina nueva seria canibalizacion."
+		},
+		{
+			"keywords": ["lcd projector and screen rental", "lcd projector on hire"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Misma intencion que /blog/projector-rental/ (keyword projector rental, proyector y pantalla siempre juntos, seccion 'What We Don't Stock' aclara que no se publica tecnologia LCD). Variante lexica sin intencion nueva."
+		},
+		{
+			"keywords": ["lcd screen hire"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Cubierto por /blog/tv-screen-rental/, seccion 'Is a TV Screen the Same as a Display Monitor or Plasma Screen?'."
+		},
+		{
+			"keywords": [
+				"led screen hire price",
+				"led screen rent price",
+				"led screen rental for wedding",
+				"led screen for marriage rent",
+				"led screen for stage rental",
+				"led stage screen rental",
+				"led screens for events rent",
+				"mobile led screen hire",
+				"mobile led screen rental"
+			],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Una sola intencion (pantalla LED que MEG gestiona via proveedores). Ya cubierta en /blog/tv-screen-rental/: seccion 'What We Don't Stock: LED Video Walls and Modular LED Panels' y FAQs 'Do you rent an LED screen?' y 'Can Malaga Event Gear source an LED video wall through a supplier?'. Una pagina nueva implicaria stock propio y canibalizaria."
+		},
+		{
+			"keywords": ["light and sound rental price"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Cubierto por /blog/sound-system-rental/ ('How much does it cost to rent sound equipment?') y /blog/stage-lighting-rental/ ('Which MEG Packages Bundle Both Sound and Lighting Together?')."
+		},
+		{
+			"keywords": [
+				"loudspeaker rental near me",
+				"mic and speaker rental near me",
+				"mic and speaker on rent near me"
+			],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Variantes 'near me' de paginas existentes. Ya existe /blog/audio-video-rental-near-me-in-malaga-spain/ y /blog/sound-system-rental/ (FAQ de entrega fuera de Malaga). Doorway abuse, spam-policies.md."
+		}
+	]
+}
