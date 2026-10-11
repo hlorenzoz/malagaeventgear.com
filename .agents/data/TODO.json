@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "tasks": [
     {
       "id": "#T0109",
@@ -878,6 +878,25 @@
       ]
     },
     {
+      "id": "#T0120",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"Can I rent a Neumann or other studio condenser microphone for my event?\"",
+      "anotada": "2026-10-11",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-11, ítem 1)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/sound-system-rental.svx",
+        "Keywords: neumann microphone rental (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Responder que los micrófonos propios de MEG son los del inventario real (revisar el CSV más reciente de .agents/context/inventario y la sección Equipment We Use del propio post, marcas Audix y Shure) y que un micro de estudio como Neumann no está en el inventario propio. Enmarcar como: no está en nuestro inventario, cuéntanos qué necesitas y buscamos una solución con nuestros proveedores. No indicar marca, modelo, cantidad, precio, disponibilidad ni plazo, y no presentarlo como equipo propio. Mencionar que para voz en directo suele bastar un micro de inventario, sin inventar especificaciones.",
+        "Por qué: Es una pregunta concreta de un cliente que busca un micro de estudio de una marca que MEG no tiene en inventario. Encaja con la capa 2 (sourcing con proveedores). El post sound-system-rental ya tiene FAQs de micrófonos (tipo de micro, inalámbrico) pero ninguna menciona Neumann ni micros de estudio. Es una FAQ y no un post nuevo: demasiado estrecho (Goldilocks) y volumen 10. Ver creating-helpful-content.md: solo vale si MEG puede responder de verdad, y aquí responde con su servicio de sourcing.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
       "id": "#T0110",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1461,6 +1480,23 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0121",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-11",
+      "anotada": "2026-10-11",
+      "hecha": "2026-10-11",
+      "origen": "content-strategist (plan 2026-10-11, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "movie night screen rental (Misma intención semántica: alquilar pantalla y proyector para cine al aire libre. Cubierto por /blog/outdoor-movie-screen-and-projector-rental/, con las secciones What an Outdoor Movie Night Needs y Outdoor Movie Screen Rental: Choosing Your Screen and Projector Size, y las FAQs sobre césped o arena e hinchable (Do you rent an inflatable outdoor movie screen?). Un post nuevo sería canibalización de silo.)",
+        "music sound system rental (Sinónimos de sound system rental. Cubierto por /blog/sound-system-rental/: FAQs Can I rent a complete DJ system for a party?, Do you offer a portable, battery powered or self collect PA system? e Is a PA system rental the same as a sound system rental?. Una FAQ más sería repetir lo que ya está. Ver creating-helpful-content.md: contenido sin valor añadido.)",
+        "movie screen and projector rental near me (Variantes near me de páginas que ya existen (sound-system-rental, outdoor-movie-screen-and-projector-rental y audio-video-rental-near-me-in-malaga-spain). Doorway abuse en spam-policies.md: no se crean variantes near me. La demanda geográfica ya se atiende en las secciones Booking and Service Area.)"
+      ]
     },
     {
       "id": "#T0113",
