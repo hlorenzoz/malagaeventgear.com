@@ -43526,8 +43526,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/sound-system-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -43565,6 +43565,10 @@
               "2026-08": 0
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11"
         },
         "content-plan": {
           "firstSeen": "2026-10-11",
@@ -81192,6 +81196,24 @@
       "sources": {
         "post": {
           "firstSeen": "2026-10-08",
+          "lastSeen": "2026-10-11",
+          "urls": [
+            "/blog/sound-system-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-i-rent-a-neumann-or-other-studio-condenser-microphone-for-my-event",
+      "question": "Can I rent a Neumann or other studio condenser microphone for my event?",
+      "keywordId": "sound-system-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/sound-system-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-11",
           "lastSeen": "2026-10-11",
           "urls": [
             "/blog/sound-system-rental/"
