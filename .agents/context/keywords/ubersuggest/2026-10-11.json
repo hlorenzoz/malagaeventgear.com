@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-11",
+  "run": {
+    "status": "partial",
+    "reason": "Both competitor reports came back empty for locId 2724, daily reports quota then spent",
+    "quotaBefore": { "reports": 0, "monthly_keyword_metrics_updates": 0, "brand_operations": 0 },
+    "quotaAfter": { "reports": 3, "monthly_keyword_metrics_updates": 0, "brand_operations": 0 },
+    "calls": [
+      { "tool": "user_limits", "args": "none", "outcome": "ok" },
+      { "tool": "list_projects", "args": "none", "outcome": "ok" },
+      { "tool": "domain_keywords", "args": "avhirespain.com limit 30 locId 2724 en", "outcome": "empty" },
+      { "tool": "domain_keywords", "args": "sonidomalaga.com limit 30 locId 2724 en", "outcome": "empty" },
+      { "tool": "industry_prompts", "args": "seed audio visual rental for art exhibitions", "outcome": "ok" },
+      { "tool": "industry_prompts", "args": "seed av equipment checklist for conference", "outcome": "ok" },
+      { "tool": "industry_prompts", "args": "seed conference table microphone rental", "outcome": "ok" },
+      { "tool": "article_title_suggestions", "args": "seed audio visual rental for art exhibitions", "outcome": "ok" },
+      { "tool": "keyword_suggestions", "args": "seed audio visual rental for art exhibitions locId 2724", "outcome": "empty" },
+      { "tool": "serp_analysis", "args": "seed audio visual rental for art exhibitions limit 10 locId 2724", "outcome": "empty" },
+      { "tool": "content_ideas", "args": "seed audio visual rental for art exhibitions limit 5 locId 2724", "outcome": "quota" }
+    ],
+    "skipped": [
+      { "step": "competitor-keywords retry without locId", "reason": "Both domains returned no organic data for locId 2724. Not retried without locId by rule" },
+      { "step": "content_ideas", "reason": "HTTP 403 daily reports limit 3 reached" },
+      { "step": "keyword_overview", "reason": "daily reports quota exhausted and no new keywords to look up" },
+      { "step": "keyword_metrics", "reason": "monthlyDue is false" }
+    ],
+    "monthlyRun": false
+  },
+  "keywords": [],
+  "faqs": [],
+  "aiPrompts": [
+    { "prompt": "Best audio visual rental services for art exhibitions in Spain", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Affordable audio visual equipment rental for gallery shows near me", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Top-rated audio visual rental companies for art exhibitions in Spain", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where can I rent high-quality audio visual gear for art exhibitions in Spain?", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best value audio visual rental packages for art exhibitions on a budget", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Audio visual rental for art exhibitions: Malaga Event Gear vs local competitors", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which audio visual rental service is best for immersive art exhibitions in Spain?", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Recommendations for audio visual rental that includes projectors and sound systems for art shows", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best audio visual rental with flexible rental periods for art exhibitions near me", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where to hire professional audio visual equipment for art exhibitions in Spain?", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Audio visual rental options for contemporary art exhibitions in Spain", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best audio visual rental for outdoor art exhibitions in Spain", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Malaga Event Gear audio visual rental reviews compared to other Spanish providers", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "High-end audio visual rental for art exhibitions with interactive display support", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best audio visual rental service with installation support for art exhibitions in Spain", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where to find reliable audio visual rental for art exhibitions with technical support in Spain", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which audio visual rental company offers the best deals for art exhibitions in Spain?", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Audio visual rental for art exhibitions: LED screens vs projection mapping, which is better?", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best audio visual rental for small art exhibitions in galleries near me", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Audio visual rental for art exhibitions with multi-language audio support in Spain", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "What’s the best AV equipment checklist for a mid-sized conference in Spain?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which AV gear should I prioritize for a corporate conference setup?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "AV equipment checklist vs rental package: What’s more cost-effective for a conference?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best value AV equipment bundles for conference presentations near me in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where can I rent AV equipment for conferences with a complete checklist included?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Recommendations for AV equipment checklists that cover sound, lighting, and video for conferences", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Top-rated AV equipment checklists tailored for conference organizers in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "What’s the difference between Malaga Event Gear and other AV providers for conference setups?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best AV equipment checklist for a conference with remote streaming capabilities", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which AV equipment checklist is ideal for a conference with breakout sessions and multiple rooms?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best AV equipment checklist for a small conference budget under €1000 in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Malaga Event Gear vs local AV rental companies: Which offers a better conference checklist?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which AV setup checklist includes all essential gear for hybrid conferences?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Recommendations for portable AV equipment checklists perfect for pop-up conferences in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best AV equipment checklist for conferences with high attendee capacity and Q&A sessions", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best deals on AV equipment checklists and rental combos for conferences in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "What AV equipment checklist should I use for a tech conference requiring advanced video displays?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best AV equipment checklist for conferences focusing on clear audio and audience interaction", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "What is the best conference table microphone rental service in Spain?", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where can I rent high-quality conference table microphones near me?", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Affordable conference table microphone rental options for corporate meetings in Spain", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Top-rated conference table microphone rentals for boardroom use", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Conference table microphone rental vs wireless microphone systems for meetings", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best value conference table microphone rental packages for small conferences", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Recommendations for conference table microphone rentals with noise-canceling features", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where to find conference table microphone rentals with quick setup in Spain", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Conference table microphone rental companies offering daily and weekly rates", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which conference table microphone rental should I choose for a 10-person meeting?", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Malaga Event Gear vs other conference table microphone rental providers in Spain", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Conference table microphone rental with integrated speakerphone capabilities", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best conference table microphone rental deals for multi-day events in Spain", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where to hire conference table microphones with adjustable volume controls?", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Conference table microphone rental for hybrid meetings: which options work best?", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Compare Malaga Event Gear conference table microphone rental prices with competitors", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Conference table microphone rental services that include technical support in Spain", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which conference table microphone rental is best for a noisy environment?", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best conference table microphone rental for professional video conferencing setups", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where can I rent conference table microphones with multi-device connectivity in Spain?", "keyword": "conference table microphone rental", "source": "ubersuggest-ai-prompt-ideas" }
+  ],
+  "research": {
+    "audio visual rental for art exhibitions": {
+      "titleIdeas": [
+        "How to plan AV for an art exhibition in Malaga: sound, projection and discreet lighting",
+        "In-house gear or sourced equipment: choosing the right AV rental partner for art exhibitions",
+        "Best AV set-ups for art exhibitions on the Costa del Sol"
+      ]
+    }
+  },
+  "rank": [],
+  "discarded": [
+    { "text": "Where to find comprehensive AV equipment checklists for conferences in Madrid and nearby areas?", "reason": "another market (Madrid)" },
+    { "text": "Where to buy AV equipment checklist templates for professional conference planning?", "reason": "buying templates, no hire intent" }
+  ],
+  "report": {
+    "kind": "competitor-keywords",
+    "status": "failed",
+    "reason": "domain_keywords returned no organic ranking data for avhirespain.com and sonidomalaga.com with locId 2724",
+    "summary": [
+      "avhirespain.com: no organic ranking data in locId 2724",
+      "sonidomalaga.com: no organic ranking data in locId 2724"
+    ],
+    "metrics": {},
+    "seoCounts": {},
+    "seo": [],
+    "rows": []
+  }
+}

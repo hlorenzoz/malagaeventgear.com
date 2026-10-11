@@ -1,7 +1,68 @@
 {
 	"version": 1,
-	"updated": "2026-10-10",
+	"updated": "2026-10-11",
 	"reports": [
+		{
+			"date": "2026-10-11",
+			"kind": "competitor-keywords",
+			"status": "failed",
+			"reason": "domain_keywords returned no organic ranking data for avhirespain.com and sonidomalaga.com with locId 2724",
+			"calls": [
+				{
+					"tool": "user_limits",
+					"outcome": "ok"
+				},
+				{
+					"tool": "list_projects",
+					"outcome": "ok"
+				},
+				{
+					"tool": "domain_keywords",
+					"outcome": "empty"
+				},
+				{
+					"tool": "domain_keywords",
+					"outcome": "empty"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "empty"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "quota"
+				}
+			],
+			"summary": [
+				"avhirespain.com: no organic ranking data in locId 2724",
+				"sonidomalaga.com: no organic ranking data in locId 2724"
+			],
+			"findings": [],
+			"discovered": {
+				"keywords": 0,
+				"aiPrompts": 58
+			}
+		},
 		{
 			"date": "2026-10-10",
 			"kind": "domain-keywords",
