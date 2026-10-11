@@ -3,6 +3,20 @@
   "updated": "2026-10-11",
   "tasks": [
     {
+      "id": "#T0122",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "negocio",
+      "titulo": "CONFIRMAR: el Neumann MCM 114 y los Audix F9 siguen en el inventario",
+      "anotada": "2026-10-11",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [],
+      "descripcion": [
+        "Confirmar con el negocio ANTES del push que los dos siguen en el inventario, y que el MCM 114 es un set de pinza para cuerdas. Si alguno se dio de baja, corregir la FAQ en los 13 idiomas."
+      ]
+    },
+    {
       "id": "#T0109",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -878,25 +892,6 @@
       ]
     },
     {
-      "id": "#T0120",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"Can I rent a Neumann or other studio condenser microphone for my event?\"",
-      "anotada": "2026-10-11",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-11, ítem 1)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/sound-system-rental.svx",
-        "Keywords: neumann microphone rental (google-ads 10/mo (below tier 100)), debajo del tier",
-        "Qué cubrir: Responder que los micrófonos propios de MEG son los del inventario real (revisar el CSV más reciente de .agents/context/inventario y la sección Equipment We Use del propio post, marcas Audix y Shure) y que un micro de estudio como Neumann no está en el inventario propio. Enmarcar como: no está en nuestro inventario, cuéntanos qué necesitas y buscamos una solución con nuestros proveedores. No indicar marca, modelo, cantidad, precio, disponibilidad ni plazo, y no presentarlo como equipo propio. Mencionar que para voz en directo suele bastar un micro de inventario, sin inventar especificaciones.",
-        "Por qué: Es una pregunta concreta de un cliente que busca un micro de estudio de una marca que MEG no tiene en inventario. Encaja con la capa 2 (sourcing con proveedores). El post sound-system-rental ya tiene FAQs de micrófonos (tipo de micro, inalámbrico) pero ninguna menciona Neumann ni micros de estudio. Es una FAQ y no un post nuevo: demasiado estrecho (Goldilocks) y volumen 10. Ver creating-helpful-content.md: solo vale si MEG puede responder de verdad, y aquí responde con su servicio de sourcing.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0110",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1480,6 +1475,27 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0120",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/sound-system-rental/: \"Can I rent a Neumann or other studio condenser microphone for my event?\"",
+      "anotada": "2026-10-11",
+      "hecha": "2026-10-11",
+      "origen": "content-strategist (plan 2026-10-11, ítem 1)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/sound-system-rental.svx",
+        "Keywords: neumann microphone rental (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Responder que los micrófonos propios de MEG son los del inventario real (revisar el CSV más reciente de .agents/context/inventario y la sección Equipment We Use del propio post, marcas Audix y Shure) y que un micro de estudio como Neumann no está en el inventario propio. Enmarcar como: no está en nuestro inventario, cuéntanos qué necesitas y buscamos una solución con nuestros proveedores. No indicar marca, modelo, cantidad, precio, disponibilidad ni plazo, y no presentarlo como equipo propio. Mencionar que para voz en directo suele bastar un micro de inventario, sin inventar especificaciones.",
+        "Por qué: Es una pregunta concreta de un cliente que busca un micro de estudio de una marca que MEG no tiene en inventario. Encaja con la capa 2 (sourcing con proveedores). El post sound-system-rental ya tiene FAQs de micrófonos (tipo de micro, inalámbrico) pero ninguna menciona Neumann ni micros de estudio. Es una FAQ y no un post nuevo: demasiado estrecho (Goldilocks) y volumen 10. Ver creating-helpful-content.md: solo vale si MEG puede responder de verdad, y aquí responde con su servicio de sourcing.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
     },
     {
       "id": "#T0121",
