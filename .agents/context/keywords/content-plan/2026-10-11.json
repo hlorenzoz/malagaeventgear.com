@@ -1,0 +1,73 @@
+{
+	"date": "2026-10-11",
+	"run": {
+		"status": "ok",
+		"candidatesReviewed": 20,
+		"tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+	},
+	"todo": [],
+	"items": [
+		{
+			"keywords": ["neumann microphone rental"],
+			"cluster": "audio visual rental",
+			"action": "add-faq",
+			"priority": "medium",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Es una pregunta concreta de un cliente que busca un micro de estudio de una marca que MEG no tiene en inventario. Encaja con la capa 2 (sourcing con proveedores). El post sound-system-rental ya tiene FAQs de micrófonos (tipo de micro, inalámbrico) pero ninguna menciona Neumann ni micros de estudio. Es una FAQ y no un post nuevo: demasiado estrecho (Goldilocks) y volumen 10. Ver creating-helpful-content.md: solo vale si MEG puede responder de verdad, y aquí responde con su servicio de sourcing.",
+			"targetUrl": "/blog/sound-system-rental/",
+			"file": "src/content/blog/sound-system-rental.svx",
+			"question": "Can I rent a Neumann or other studio condenser microphone for my event?",
+			"brief": "Responder que los micrófonos propios de MEG son los del inventario real (revisar el CSV más reciente de .agents/context/inventario y la sección Equipment We Use del propio post, marcas Audix y Shure) y que un micro de estudio como Neumann no está en el inventario propio. Enmarcar como: no está en nuestro inventario, cuéntanos qué necesitas y buscamos una solución con nuestros proveedores. No indicar marca, modelo, cantidad, precio, disponibilidad ni plazo, y no presentarlo como equipo propio. Mencionar que para voz en directo suele bastar un micro de inventario, sin inventar especificaciones."
+		},
+		{
+			"keywords": [
+				"movie night screen rental",
+				"movie projector hire",
+				"movie projector screen outdoor rental",
+				"movie projector screen rental",
+				"movie screen hire",
+				"movie screen rental for backyard",
+				"open air cinema inflatable movie screen",
+				"outdoor cinema projector hire"
+			],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo each (below tier 100)",
+			"reason": "Misma intención semántica: alquilar pantalla y proyector para cine al aire libre. Cubierto por /blog/outdoor-movie-screen-and-projector-rental/, con las secciones What an Outdoor Movie Night Needs y Outdoor Movie Screen Rental: Choosing Your Screen and Projector Size, y las FAQs sobre césped o arena e hinchable (Do you rent an inflatable outdoor movie screen?). Un post nuevo sería canibalización de silo."
+		},
+		{
+			"keywords": [
+				"music sound system rental",
+				"music system hire",
+				"music system rental",
+				"music system rental for party",
+				"mobile sound system rental"
+			],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo each (below tier 100)",
+			"reason": "Sinónimos de sound system rental. Cubierto por /blog/sound-system-rental/: FAQs Can I rent a complete DJ system for a party?, Do you offer a portable, battery powered or self collect PA system? e Is a PA system rental the same as a sound system rental?. Una FAQ más sería repetir lo que ya está. Ver creating-helpful-content.md: contenido sin valor añadido."
+		},
+		{
+			"keywords": [
+				"movie screen and projector rental near me",
+				"movie screen rentals near me",
+				"music equipment hire near me",
+				"music system for rent near me",
+				"music system hire near me",
+				"music system rental near me"
+			],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo each (below tier 100)",
+			"reason": "Variantes near me de páginas que ya existen (sound-system-rental, outdoor-movie-screen-and-projector-rental y audio-video-rental-near-me-in-malaga-spain). Doorway abuse en spam-policies.md: no se crean variantes near me. La demanda geográfica ya se atiende en las secciones Booking and Service Area."
+		}
+	]
+}
