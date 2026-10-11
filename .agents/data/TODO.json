@@ -3,20 +3,6 @@
   "updated": "2026-10-11",
   "tasks": [
     {
-      "id": "#T0122",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "negocio",
-      "titulo": "CONFIRMAR: el Neumann MCM 114 y los Audix F9 siguen en el inventario",
-      "anotada": "2026-10-11",
-      "hecha": null,
-      "origen": "usuario",
-      "notas": [],
-      "descripcion": [
-        "Confirmar con el negocio ANTES del push que los dos siguen en el inventario, y que el MCM 114 es un set de pinza para cuerdas. Si alguno se dio de baja, corregir la FAQ en los 13 idiomas."
-      ]
-    },
-    {
       "id": "#T0109",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -1512,6 +1498,23 @@
         "movie night screen rental (Misma intención semántica: alquilar pantalla y proyector para cine al aire libre. Cubierto por /blog/outdoor-movie-screen-and-projector-rental/, con las secciones What an Outdoor Movie Night Needs y Outdoor Movie Screen Rental: Choosing Your Screen and Projector Size, y las FAQs sobre césped o arena e hinchable (Do you rent an inflatable outdoor movie screen?). Un post nuevo sería canibalización de silo.)",
         "music sound system rental (Sinónimos de sound system rental. Cubierto por /blog/sound-system-rental/: FAQs Can I rent a complete DJ system for a party?, Do you offer a portable, battery powered or self collect PA system? e Is a PA system rental the same as a sound system rental?. Una FAQ más sería repetir lo que ya está. Ver creating-helpful-content.md: contenido sin valor añadido.)",
         "movie screen and projector rental near me (Variantes near me de páginas que ya existen (sound-system-rental, outdoor-movie-screen-and-projector-rental y audio-video-rental-near-me-in-malaga-spain). Doorway abuse en spam-policies.md: no se crean variantes near me. La demanda geográfica ya se atiende en las secciones Booking and Service Area.)"
+      ]
+    },
+    {
+      "id": "#T0122",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "negocio",
+      "titulo": "CONFIRMAR: el Neumann MCM 114 y los Audix F9 siguen en el inventario",
+      "anotada": "2026-10-11",
+      "hecha": "2026-10-11",
+      "origen": "usuario",
+      "notas": [
+        "Respuesta del usuario 2026-10-11: si el CSV de inventario lo dice",
+        "vale. La FAQ queda como esta"
+      ],
+      "descripcion": [
+        "Confirmar con el negocio ANTES del push que los dos siguen en el inventario, y que el MCM 114 es un set de pinza para cuerdas. Si alguno se dio de baja, corregir la FAQ en los 13 idiomas."
       ]
     },
     {
