@@ -80358,6 +80358,42 @@
       }
     },
     {
+      "id": "are-wedding",
+      "question": "are wedding",
+      "keywordId": "wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
+      "id": "are-wedding-dresses-rental",
+      "question": "are wedding dresses rental",
+      "keywordId": "wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
       "id": "are-you-a-convention-or-event-agency-or-an-av-equipment-supplier",
       "question": "Are you a convention or event agency, or an AV equipment supplier?",
       "keywordId": "audio-visual-rental-for-conferences",
@@ -80422,6 +80458,24 @@
           "lastSeen": "2026-10-11",
           "urls": [
             "/blog/headset-lavalier-microphone-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-a-landlord-enter-without-permission-in-spain",
+      "question": "can a landlord enter without permission in spain",
+      "keywordId": "lectern-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "lectern-rental"
           ]
         }
       }
@@ -80494,6 +80548,24 @@
           "lastSeen": "2026-10-11",
           "urls": [
             "/blog/audio-visual-hire-near-me-in-malaga-spain/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-borrell-weddings-events",
+      "question": "can borrell weddings & events",
+      "keywordId": "wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "wedding-rentals"
           ]
         }
       }
@@ -81180,6 +81252,42 @@
       }
     },
     {
+      "id": "can-rental-barcelona",
+      "question": "can rental barcelona",
+      "keywordId": "lectern-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "lectern-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-stage-lighting",
+      "question": "can stage lighting",
+      "keywordId": "stage-uplighting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "stage-uplighting"
+          ]
+        }
+      }
+    },
+    {
       "id": "can-stage-lighting-be-combined-with-staging-platforms-for-a-corporate-presentation",
       "question": "Can Stage Lighting Be Combined With Staging Platforms for a Corporate Presentation?",
       "keywordId": "stage-lighting-rental",
@@ -81324,6 +81432,24 @@
       }
     },
     {
+      "id": "can-wedding-dress-rentals-be-altered",
+      "question": "can wedding dress rentals be altered",
+      "keywordId": "wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
       "id": "can-wedding-lighting-include-gobo-or-monogram-projection",
       "question": "Can wedding lighting include gobo or monogram projection?",
       "keywordId": "lighting-ideas-for-wedding-rentals",
@@ -81460,6 +81586,78 @@
           "lastSeen": "2026-10-11",
           "urls": [
             "/blog/audio-visual-rental-for-corporate-meetings/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-you-rent-a-projector",
+      "question": "can you rent a projector",
+      "keywordId": "projector-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "projector-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-you-rent-a-wedding-arch",
+      "question": "can you rent a wedding arch",
+      "keywordId": "wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-you-rent-land-for-a-wedding",
+      "question": "can you rent land for a wedding",
+      "keywordId": "wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-you-rent-plates-for-a-wedding",
+      "question": "can you rent plates for a wedding",
+      "keywordId": "wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "wedding-rentals"
           ]
         }
       }
@@ -84329,6 +84527,24 @@
       }
     },
     {
+      "id": "how-does-stage-lighting-work",
+      "question": "how does stage lighting work",
+      "keywordId": "stage-uplighting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "stage-uplighting"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-does-the-booking-process-work-with-malaga-event-gear",
       "question": "How does the booking process work with Malaga Event Gear?",
       "keywordId": "faq-booking",
@@ -85529,6 +85745,60 @@
       }
     },
     {
+      "id": "how-much-are-wedding-chair-rentals",
+      "question": "how much are wedding chair rentals",
+      "keywordId": "wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-are-wedding-rentals",
+      "question": "how much are wedding rentals",
+      "keywordId": "wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-do-rentals-cost-for-a-wedding",
+      "question": "how much do rentals cost for a wedding",
+      "keywordId": "wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-do-wedding-rentals-cost-in-malaga",
       "question": "How much do wedding rentals cost in Malaga?",
       "keywordId": "wedding-rentals",
@@ -85542,6 +85812,61 @@
           "lastSeen": "2026-10-11",
           "urls": [
             "/blog/wedding-rentals/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-does-a-aircraft-technician-make",
+      "question": "how much does a aircraft technician make",
+      "keywordId": "av-technician-hire",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "av-technician-hire"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-does-a-av-cost",
+      "question": "how much does a av cost",
+      "keywordId": "av-cable-management",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "av-cable-management",
+            "av-equipment-consultations"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-does-a-cable-cost-per-month",
+      "question": "how much does a cable cost per month",
+      "keywordId": "av-cable-management",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "av-cable-management"
           ]
         }
       }
@@ -85963,6 +86288,24 @@
       }
     },
     {
+      "id": "how-much-does-cable-cost",
+      "question": "how much does cable cost",
+      "keywordId": "av-cable-management",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "av-cable-management"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-does-it-cost-a-wedding-in-spain",
       "question": "how much does it cost a wedding in spain",
       "keywordId": "all-in-one-wedding-rental-packages",
@@ -86053,6 +86396,24 @@
       }
     },
     {
+      "id": "how-much-does-it-cost-to-rent-a-barn-for-a-wedding",
+      "question": "how much does it cost to rent a barn for a wedding",
+      "keywordId": "wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-does-it-cost-to-rent-a-conference-room",
       "question": "how much does it cost to rent a conference room",
       "keywordId": "audio-visual-rental-for-conferences",
@@ -86084,6 +86445,42 @@
           "lastSeen": "2026-10-11",
           "urls": [
             "/blog/headset-lavalier-microphone-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-does-it-cost-to-rent-a-projector",
+      "question": "how much does it cost to rent a projector",
+      "keywordId": "projector-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "projector-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-does-it-cost-to-rent-a-projector-for-a-day",
+      "question": "how much does it cost to rent a projector for a day",
+      "keywordId": "projector-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "projector-rental"
           ]
         }
       }
@@ -86240,6 +86637,42 @@
       }
     },
     {
+      "id": "how-much-is-projector-rental",
+      "question": "how much is projector rental",
+      "keywordId": "projector-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "projector-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-rent-projector",
+      "question": "how much rent projector",
+      "keywordId": "projector-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "projector-rental"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-sound-power-does-an-outdoor-wedding-need-compared-to-indoors",
       "question": "How much sound power does an outdoor wedding need compared to indoors?",
       "keywordId": "outdoor-wedding-rental-considerations",
@@ -86253,6 +86686,78 @@
           "lastSeen": "2026-10-11",
           "urls": [
             "/blog/outdoor-wedding-rental-considerations/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-to-rent-a-projector-for-a-day",
+      "question": "how much to rent a projector for a day",
+      "keywordId": "projector-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "projector-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-to-rent-projector-and-screen",
+      "question": "how much to rent projector and screen",
+      "keywordId": "projector-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "projector-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-to-rent-projector-in-lagos",
+      "question": "how much to rent projector in lagos",
+      "keywordId": "projector-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "projector-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-to-rent-projector-in-nigeria",
+      "question": "how much to rent projector in nigeria",
+      "keywordId": "projector-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "projector-rental"
           ]
         }
       }
@@ -86348,6 +86853,42 @@
       }
     },
     {
+      "id": "how-projectors-work",
+      "question": "how projectors work",
+      "keywordId": "projector-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "projector-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-build-a-lectern",
+      "question": "how to build a lectern",
+      "keywordId": "lectern-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "lectern-rental"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-to-calibrate-sound-system",
       "question": "how to calibrate sound system",
       "keywordId": "audio-system-calibration",
@@ -86438,6 +86979,24 @@
       }
     },
     {
+      "id": "how-to-make-a-lectern",
+      "question": "how to make a lectern",
+      "keywordId": "lectern-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "lectern-rental"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-to-plan-a-wedding-in-3-months",
       "question": "how to plan a wedding in 3 months",
       "keywordId": "all-in-one-wedding-rental-packages",
@@ -86469,6 +87028,42 @@
           "lastSeen": "2026-10-01",
           "seeds": [
             "audio-visual-rental-for-music-performances"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-rent-a-projector",
+      "question": "how to rent a projector",
+      "keywordId": "projector-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "projector-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-rent-an-electric-bike-in-barcelona",
+      "question": "how to rent an electric bike in barcelona",
+      "keywordId": "lectern-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "lectern-rental"
           ]
         }
       }
@@ -88125,6 +88720,24 @@
       }
     },
     {
+      "id": "what-are-av-equipments",
+      "question": "what are av equipments",
+      "keywordId": "av-equipment-consultations",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "av-equipment-consultations"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-are-some-of-the-popular-packages-offered-by-malaga-event-gear",
       "question": "What are some of the popular packages offered by Malaga Event Gear?",
       "keywordId": "faq-booking",
@@ -88189,6 +88802,42 @@
           "lastSeen": "2026-10-11",
           "urls": [
             "/blog/pros-and-cons-of-wedding-rentals/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-are-wedding-event-rentals",
+      "question": "what are wedding event rentals",
+      "keywordId": "wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-are-wedding-rentals",
+      "question": "what are wedding rentals",
+      "keywordId": "wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "wedding-rentals"
           ]
         }
       }
@@ -88624,6 +89273,24 @@
       }
     },
     {
+      "id": "what-counts-as-av-equipment",
+      "question": "what counts as av equipment",
+      "keywordId": "av-equipment-consultations",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "av-equipment-consultations"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-cuisine-is-gala",
       "question": "what cuisine is gala",
       "keywordId": "audio-visual-rental-for-gala-dinners",
@@ -88801,6 +89468,24 @@
       }
     },
     {
+      "id": "what-event-catering",
+      "question": "what event catering",
+      "keywordId": "event-technology-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "event-technology-service"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-events-does-malaga-event-gear-cover",
       "question": "What events does Malaga Event Gear cover?",
       "keywordId": "audio-visual-rental-company",
@@ -88886,6 +89571,24 @@
           "lastSeen": "2026-10-11",
           "urls": [
             "/blog/outdoor-wedding-rental-considerations/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-happened-to-event-electronics",
+      "question": "what happened to event electronics",
+      "keywordId": "event-technology-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "event-technology-service"
           ]
         }
       }
@@ -89422,6 +90125,24 @@
       }
     },
     {
+      "id": "what-is-event-technology",
+      "question": "what is event technology",
+      "keywordId": "event-technology-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "event-technology-service"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-is-event-technology-and-what-does-meg-actually-provide",
       "question": "What Is \"Event Technology\" and What Does MEG Actually Provide?",
       "keywordId": "event-technology-service",
@@ -89435,6 +90156,42 @@
           "lastSeen": "2026-10-11",
           "urls": [
             "/blog/event-technology-service/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-is-event-technology-services",
+      "question": "what is event technology services",
+      "keywordId": "event-technology-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "event-technology-service"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-is-event-technology-space",
+      "question": "what is event technology space",
+      "keywordId": "event-technology-service",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "event-technology-service"
           ]
         }
       }
@@ -89635,6 +90392,42 @@
       }
     },
     {
+      "id": "what-is-stage-lighting-called",
+      "question": "what is stage lighting called",
+      "keywordId": "stage-uplighting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "stage-uplighting"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-is-stage-lighting-used-for",
+      "question": "what is stage lighting used for",
+      "keywordId": "stage-uplighting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "stage-uplighting"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-is-stage-uplighting-and-how-does-it-work",
       "question": "What Is Stage Uplighting and How Does It Work?",
       "keywordId": "stage-uplighting",
@@ -89648,6 +90441,24 @@
           "lastSeen": "2026-10-11",
           "urls": [
             "/blog/stage-uplighting/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-is-stage-wash-lighting",
+      "question": "what is stage wash lighting",
+      "keywordId": "stage-uplighting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "stage-uplighting"
           ]
         }
       }
@@ -90134,6 +90945,24 @@
       }
     },
     {
+      "id": "what-makes-stage-lighting-important-to-play-productions",
+      "question": "what makes stage lighting important to play productions",
+      "keywordId": "stage-uplighting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "stage-uplighting"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-microphone-do-you-use-for-the-vows-and-who-holds-it",
       "question": "What microphone do you use for the vows, and who holds it?",
       "keywordId": "audio-visual-rental-for-weddings",
@@ -90219,6 +91048,24 @@
           "lastSeen": "2026-10-11",
           "urls": [
             "/blog/av-system-troubleshooting/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-party-rentals",
+      "question": "what party rentals",
+      "keywordId": "wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "wedding-rentals"
           ]
         }
       }
@@ -90570,6 +91417,24 @@
       }
     },
     {
+      "id": "what-stage-lighting",
+      "question": "what stage lighting",
+      "keywordId": "stage-uplighting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "stage-uplighting"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-stage-lighting-equipment-does-meg-actually-stock",
       "question": "What Stage Lighting Equipment Does MEG Actually Stock?",
       "keywordId": "stage-lighting-rental",
@@ -90855,6 +91720,24 @@
       }
     },
     {
+      "id": "when-lighting-a-stage-what-is-most-important",
+      "question": "when lighting a stage what is most important",
+      "keywordId": "stage-uplighting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "stage-uplighting"
+          ]
+        }
+      }
+    },
+    {
       "id": "when-should-i-send-my-run-of-show-to-the-technician",
       "question": "When should I send my run of show to the technician?",
       "keywordId": "making-the-most-of-wedding-rentals",
@@ -90873,6 +91756,24 @@
       }
     },
     {
+      "id": "when-should-the-lights-be-lit",
+      "question": "when should the lights be lit",
+      "keywordId": "stage-uplighting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "stage-uplighting"
+          ]
+        }
+      }
+    },
+    {
       "id": "when-to-calibrate",
       "question": "when to calibrate",
       "keywordId": "audio-system-calibration",
@@ -90886,6 +91787,24 @@
           "lastSeen": "2026-09-30",
           "seeds": [
             "audio-system-calibration"
+          ]
+        }
+      }
+    },
+    {
+      "id": "where-are-stage-lights-located",
+      "question": "where are stage lights located",
+      "keywordId": "stage-uplighting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "stage-uplighting"
           ]
         }
       }
@@ -91104,6 +92023,24 @@
       }
     },
     {
+      "id": "who-equipment",
+      "question": "who equipment",
+      "keywordId": "av-equipment-consultations",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "av-equipment-consultations"
+          ]
+        }
+      }
+    },
+    {
       "id": "who-handles-the-equipment-if-it-rains-me-or-your-crew",
       "question": "Who handles the equipment if it rains, me or your crew?",
       "keywordId": "weather-considerations-for-outdoor-rentals",
@@ -91158,6 +92095,24 @@
       }
     },
     {
+      "id": "who-manages-stage-lights",
+      "question": "who manages stage lights",
+      "keywordId": "stage-uplighting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "stage-uplighting"
+          ]
+        }
+      }
+    },
+    {
       "id": "who-pays-for-a-wedding-in-spain",
       "question": "who pays for a wedding in spain",
       "keywordId": "all-in-one-wedding-rental-packages",
@@ -91171,6 +92126,60 @@
           "lastSeen": "2026-09-30",
           "seeds": [
             "all-in-one-wedding-rental-packages"
+          ]
+        }
+      }
+    },
+    {
+      "id": "who-works-the-lighting-on-the-stage",
+      "question": "who works the lighting on the stage",
+      "keywordId": "stage-uplighting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "stage-uplighting"
+          ]
+        }
+      }
+    },
+    {
+      "id": "why-are-stage-lights-hot",
+      "question": "why are stage lights hot",
+      "keywordId": "stage-uplighting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "stage-uplighting"
+          ]
+        }
+      }
+    },
+    {
+      "id": "why-are-stage-lights-so-bright",
+      "question": "why are stage lights so bright",
+      "keywordId": "stage-uplighting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "stage-uplighting"
           ]
         }
       }
@@ -91389,6 +92398,24 @@
       }
     },
     {
+      "id": "why-is-stage-lighting-important",
+      "question": "why is stage lighting important",
+      "keywordId": "stage-uplighting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "stage-uplighting"
+          ]
+        }
+      }
+    },
+    {
       "id": "why-is-technical-support-important-during-events-with-av-rentals",
       "question": "Why is technical support important during events with AV rentals?",
       "keywordId": "how-audio-visual-rental-works",
@@ -91438,6 +92465,24 @@
           "lastSeen": "2026-10-11",
           "urls": [
             "/blog/av-cable-management/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "will-event-rentals",
+      "question": "will event rentals",
+      "keywordId": "wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-11",
+          "lastSeen": "2026-10-11",
+          "seeds": [
+            "wedding-rentals"
           ]
         }
       }
