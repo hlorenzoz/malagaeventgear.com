@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-11",
+  "taskId": "#T0120",
+  "slug": "sound-system-rental",
+  "searchTerm": "sound system rental Can I rent a Neumann or other studio condenser microphone for my event?",
+  "status": "partial",
+  "reason": "Thin SERP of retail and peer to peer listings, not event hire. Google positions 3 and 4 gave HTTP 404, so positions 1, 2 and 5 were read. Positions 1 and 2 are the same site. Positions 6 to 10 not read.",
+  "serp": {
+    "query": "Neumann microphone rental",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://www.musicorp.com.au/neumann/?page=2", "title": "www.musicorp.com.au" },
+      { "rank": 2, "url": "https://www.musicorp.com.au/neumann/", "title": "www.musicorp.com.au" },
+      { "rank": 3, "url": "https://www.thomann.co.uk/neumann_km184_mt_stereo_rental_bundle.htm", "title": "Neumann KM184 mt Stereo Rental Bundle" }
+    ]
+  },
+  "terms": [
+    { "term": "Small diaphragm condenser microphone", "kind": "entity", "seenIn": 3 },
+    { "term": "Vocal microphone", "kind": "entity", "seenIn": 3 },
+    { "term": "Large diaphragm condenser microphone", "kind": "entity", "seenIn": 2 },
+    { "term": "Neumann microphones", "kind": "entity", "seenIn": 2 },
+    { "term": "Neumann KM184", "kind": "entity", "seenIn": 2 },
+    { "term": "Stereo microphone pair", "kind": "entity", "seenIn": 2 },
+    { "term": "Drum microphone set", "kind": "entity", "seenIn": 2 },
+    { "term": "Broadcast condenser microphone", "kind": "entity", "seenIn": 2 },
+    { "term": "Shock mount", "kind": "entity", "seenIn": 2 },
+    { "term": "Monitor alignment microphone", "kind": "entity", "seenIn": 2 },
+    { "term": "Studio monitors", "kind": "entity", "seenIn": 2 },
+    { "term": "Studio headphones", "kind": "entity", "seenIn": 2 },
+    { "term": "Cardioid polar pattern", "kind": "related", "seenIn": 2 },
+    { "term": "Recording and mixing", "kind": "related", "seenIn": 2 },
+    { "term": "Minimum rental period", "kind": "related", "seenIn": 2 },
+    { "term": "How do I rent Neumann equipment?", "kind": "question", "seenIn": 2 },
+    { "term": "Neumann TLM103", "kind": "entity", "seenIn": 1 },
+    { "term": "Neumann TLM102", "kind": "entity", "seenIn": 1 },
+    { "term": "Neumann U87", "kind": "entity", "seenIn": 1 },
+    { "term": "Tube microphone", "kind": "entity", "seenIn": 1 },
+    { "term": "Stereo microphone bar", "kind": "entity", "seenIn": 1 },
+    { "term": "Microphone clamp", "kind": "entity", "seenIn": 1 },
+    { "term": "Overhead microphones", "kind": "entity", "seenIn": 1 },
+    { "term": "Omnidirectional pattern", "kind": "related", "seenIn": 1 },
+    { "term": "Hypercardioid pattern", "kind": "related", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Musicorp Australia", "reason": "competitor name" },
+    { "term": "The Polygon Group", "reason": "competitor name" },
+    { "term": "Australia-wide delivery", "reason": "place other than Spain" },
+    { "term": "Weekly and per-term rental rates", "reason": "prices" },
+    { "term": "Money-back guarantee", "reason": "marketing slogan" },
+    { "term": "Three-year warranty", "reason": "retail marketing claim" },
+    { "term": "Schools music rental", "reason": "other market, not event hire" },
+    { "term": "Pre-loved equipment", "reason": "retail sales vocabulary" },
+    { "term": "AES67 audio networking", "reason": "studio monitor networking, off topic for events" },
+    { "term": "Item number 640467", "reason": "retail catalogue data" }
+  ]
+}
