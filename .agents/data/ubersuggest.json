@@ -1,7 +1,65 @@
 {
 	"version": 1,
-	"updated": "2026-10-11",
+	"updated": "2026-10-12",
 	"reports": [
+		{
+			"date": "2026-10-12",
+			"kind": "rank-tracking",
+			"status": "ok",
+			"calls": [
+				{
+					"tool": "project_position_info",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "ok"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				},
+				{
+					"tool": "keyword_overview",
+					"outcome": "ok"
+				}
+			],
+			"summary": [
+				"20 tracked keywords, up 10, down 5, unchanged 5. Average position 42.71 on 2026-10-05 to 34 on 2026-10-12.",
+				"Top 3: 1 to 3. Top 10: 0 to 3. Top 100: 17 to 12. Not ranking: 2 to 2.",
+				"Next update 2026-10-19."
+			],
+			"findings": [
+				{
+					"key": "rank/malaga-wedding-packages-all-inclusive",
+					"title": "Recuperar \"malaga wedding packages all inclusive\": dejo de rankear (era 28)"
+				}
+			],
+			"discovered": {
+				"keywords": 21,
+				"aiPrompts": 58
+			}
+		},
 		{
 			"date": "2026-10-11",
 			"kind": "competitor-keywords",
