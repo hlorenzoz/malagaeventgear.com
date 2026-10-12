@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-12",
+  "run": {
+    "status": "ok",
+    "calls": [
+      { "tool": "google_suggestions", "args": "gooseneck microphone rental, smoke machine rental (es, en)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "sound system rental, stage lighting rental (es, en)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "stage monitor rental, stage platform rental (es, en)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "stage riser rental, TV screen rental (es, en)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "video switcher rental, wedding rentals online (es, en)", "outcome": "ok" }
+    ]
+  },
+  "seeds": [
+    "gooseneck-microphone-rental",
+    "smoke-machine-rental",
+    "sound-system-rental",
+    "stage-lighting-rental",
+    "stage-monitor-rental",
+    "stage-platform-rental",
+    "stage-riser-rental",
+    "tv-screen-rental",
+    "video-switcher-rental",
+    "wedding-rentals-online"
+  ],
+  "suggestions": [
+    { "seed": "gooseneck-microphone-rental", "phrase": "are gooseneck microphones good" },
+    { "seed": "smoke-machine-rental", "phrase": "how much is a fog machine rental" },
+    { "seed": "smoke-machine-rental", "phrase": "where can i rent a smoke machine" },
+    { "seed": "smoke-machine-rental", "phrase": "how much to rent a smoke machine" },
+    { "seed": "sound-system-rental", "phrase": "is sound system rental is a good investment business" },
+    { "seed": "sound-system-rental", "phrase": "how much does it cost to install a sound system" },
+    { "seed": "sound-system-rental", "phrase": "how much is sound system rental" },
+    { "seed": "sound-system-rental", "phrase": "how to start a sound system rental business" },
+    { "seed": "sound-system-rental", "phrase": "how much is a sound system rental in the philippines" },
+    { "seed": "sound-system-rental", "phrase": "how much is sound equipment rental" },
+    { "seed": "sound-system-rental", "phrase": "how much is pa system rental" },
+    { "seed": "sound-system-rental", "phrase": "how much sound system" },
+    { "seed": "sound-system-rental", "phrase": "how much is sound equipment hire" },
+    { "seed": "sound-system-rental", "phrase": "how much should a sound system cost" },
+    { "seed": "stage-monitor-rental", "phrase": "how do stage monitors work" },
+    { "seed": "stage-monitor-rental", "phrase": "what do stage monitors do" },
+    { "seed": "stage-monitor-rental", "phrase": "are stage monitors necessary" },
+    { "seed": "stage-monitor-rental", "phrase": "how stage monitors work" },
+    { "seed": "stage-monitor-rental", "phrase": "how many stage monitors do you need" },
+    { "seed": "stage-monitor-rental", "phrase": "how much does spotahome charge" },
+    { "seed": "stage-monitor-rental", "phrase": "how much does a stage cost to rent" },
+    { "seed": "stage-monitor-rental", "phrase": "how much does a stage cost" },
+    { "seed": "video-switcher-rental", "phrase": "how do video switchers work" },
+    { "seed": "video-switcher-rental", "phrase": "what do video switchers do" },
+    { "seed": "wedding-rentals-online", "phrase": "why have a wedding" },
+    { "seed": "wedding-rentals-online", "phrase": "why have a wedding reddit" },
+    { "seed": "wedding-rentals-online", "phrase": "how much does it cost a wedding in spain" }
+  ]
+}

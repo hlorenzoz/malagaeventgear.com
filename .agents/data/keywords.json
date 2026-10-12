@@ -80578,6 +80578,42 @@
       }
     },
     {
+      "id": "are-gooseneck-microphones-good",
+      "question": "are gooseneck microphones good",
+      "keywordId": "gooseneck-microphone-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "gooseneck-microphone-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "are-stage-monitors-necessary",
+      "question": "are stage monitors necessary",
+      "keywordId": "stage-monitor-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "stage-monitor-rental"
+          ]
+        }
+      }
+    },
+    {
       "id": "are-wedding",
       "question": "are wedding",
       "keywordId": "wedding-rentals",
@@ -84639,6 +84675,42 @@
       }
     },
     {
+      "id": "how-do-stage-monitors-work",
+      "question": "how do stage monitors work",
+      "keywordId": "stage-monitor-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "stage-monitor-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-do-video-switchers-work",
+      "question": "how do video switchers work",
+      "keywordId": "video-switcher-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "video-switcher-rental"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-do-you-keep-guests-safe-around-speaker-stands-and-microphone-stands",
       "question": "How do you keep guests safe around speaker stands and microphone stands?",
       "keywordId": "audio-visual-rental-safety-guidelines",
@@ -85929,6 +86001,24 @@
       }
     },
     {
+      "id": "how-many-stage-monitors-do-you-need",
+      "question": "how many stage monitors do you need",
+      "keywordId": "stage-monitor-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "stage-monitor-rental"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-many-uplights-do-i-need-for-my-ceremony-backdrop",
       "question": "How Many Uplights Do I Need for My Ceremony Backdrop?",
       "keywordId": "stage-lighting-for-weddings",
@@ -86141,6 +86231,42 @@
           "lastSeen": "2026-10-12",
           "urls": [
             "/blog/smoke-machine-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-does-a-stage-cost",
+      "question": "how much does a stage cost",
+      "keywordId": "stage-monitor-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "stage-monitor-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-does-a-stage-cost-to-rent",
+      "question": "how much does a stage cost to rent",
+      "keywordId": "stage-monitor-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "stage-monitor-rental"
           ]
         }
       }
@@ -86554,9 +86680,10 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30",
+          "lastSeen": "2026-10-12",
           "seeds": [
-            "all-in-one-wedding-rental-packages"
+            "all-in-one-wedding-rental-packages",
+            "wedding-rentals-online"
           ]
         }
       }
@@ -86629,6 +86756,24 @@
           "lastSeen": "2026-09-30",
           "seeds": [
             "audio-visual-hire-near-me"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-does-it-cost-to-install-a-sound-system",
+      "question": "how much does it cost to install a sound system",
+      "keywordId": "sound-system-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "sound-system-rental"
           ]
         }
       }
@@ -86785,6 +86930,24 @@
       }
     },
     {
+      "id": "how-much-does-spotahome-charge",
+      "question": "how much does spotahome charge",
+      "keywordId": "stage-monitor-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "stage-monitor-rental"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-does-stage-lighting-rental-cost-in-malaga",
       "question": "How Much Does Stage Lighting Rental Cost in Malaga?",
       "keywordId": "stage-lighting-rental",
@@ -86857,6 +87020,42 @@
       }
     },
     {
+      "id": "how-much-is-a-fog-machine-rental",
+      "question": "how much is a fog machine rental",
+      "keywordId": "smoke-machine-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "smoke-machine-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-is-a-sound-system-rental-in-the-philippines",
+      "question": "how much is a sound system rental in the philippines",
+      "keywordId": "sound-system-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "sound-system-rental"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-is-it-to-hire-a-videographer",
       "question": "how much is it to hire a videographer",
       "keywordId": "audio-visual-hire-near-me",
@@ -86870,6 +87069,24 @@
           "lastSeen": "2026-09-30",
           "seeds": [
             "audio-visual-hire-near-me"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-is-pa-system-rental",
+      "question": "how much is pa system rental",
+      "keywordId": "sound-system-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "sound-system-rental"
           ]
         }
       }
@@ -86893,6 +87110,60 @@
       }
     },
     {
+      "id": "how-much-is-sound-equipment-hire",
+      "question": "how much is sound equipment hire",
+      "keywordId": "sound-system-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "sound-system-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-is-sound-equipment-rental",
+      "question": "how much is sound equipment rental",
+      "keywordId": "sound-system-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "sound-system-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-is-sound-system-rental",
+      "question": "how much is sound system rental",
+      "keywordId": "sound-system-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "sound-system-rental"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-rent-projector",
       "question": "how much rent projector",
       "keywordId": "projector-rental",
@@ -86906,6 +87177,24 @@
           "lastSeen": "2026-10-11",
           "seeds": [
             "projector-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-should-a-sound-system-cost",
+      "question": "how much should a sound system cost",
+      "keywordId": "sound-system-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "sound-system-rental"
           ]
         }
       }
@@ -86929,6 +87218,24 @@
       }
     },
     {
+      "id": "how-much-sound-system",
+      "question": "how much sound system",
+      "keywordId": "sound-system-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "sound-system-rental"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-to-rent-a-projector-for-a-day",
       "question": "how much to rent a projector for a day",
       "keywordId": "projector-rental",
@@ -86942,6 +87249,24 @@
           "lastSeen": "2026-10-11",
           "seeds": [
             "projector-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-to-rent-a-smoke-machine",
+      "question": "how much to rent a smoke machine",
+      "keywordId": "smoke-machine-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "smoke-machine-rental"
           ]
         }
       }
@@ -87104,6 +87429,24 @@
           "lastSeen": "2026-10-11",
           "seeds": [
             "projector-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-stage-monitors-work",
+      "question": "how stage monitors work",
+      "keywordId": "stage-monitor-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "stage-monitor-rental"
           ]
         }
       }
@@ -87302,6 +87645,24 @@
           "lastSeen": "2026-10-11",
           "seeds": [
             "lectern-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-start-a-sound-system-rental-business",
+      "question": "how to start a sound system rental business",
+      "keywordId": "sound-system-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "sound-system-rental"
           ]
         }
       }
@@ -88289,6 +88650,24 @@
           "lastSeen": "2026-10-12",
           "urls": [
             "/blog/how-audio-visual-rental-works/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "is-sound-system-rental-is-a-good-investment-business",
+      "question": "is sound system rental is a good investment business",
+      "keywordId": "sound-system-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "sound-system-rental"
           ]
         }
       }
@@ -89560,6 +89939,42 @@
           "lastSeen": "2026-10-12",
           "urls": [
             "/blog/outdoor-wedding-rental-considerations/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-do-stage-monitors-do",
+      "question": "what do stage monitors do",
+      "keywordId": "stage-monitor-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "stage-monitor-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-do-video-switchers-do",
+      "question": "what do video switchers do",
+      "keywordId": "video-switcher-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "video-switcher-rental"
           ]
         }
       }
@@ -92048,6 +92463,24 @@
       }
     },
     {
+      "id": "where-can-i-rent-a-smoke-machine",
+      "question": "where can i rent a smoke machine",
+      "keywordId": "smoke-machine-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "smoke-machine-rental"
+          ]
+        }
+      }
+    },
+    {
       "id": "where-does-malaga-event-gear-meg-offer-its-services",
       "question": "Where does Malaga Event Gear (MEG) offer its services?",
       "keywordId": "faq-logistics",
@@ -92610,9 +93043,28 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30",
+          "lastSeen": "2026-10-12",
           "seeds": [
-            "all-in-one-wedding-rental-packages"
+            "all-in-one-wedding-rental-packages",
+            "wedding-rentals-online"
+          ]
+        }
+      }
+    },
+    {
+      "id": "why-have-a-wedding-reddit",
+      "question": "why have a wedding reddit",
+      "keywordId": "wedding-rentals-online",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-12",
+          "lastSeen": "2026-10-12",
+          "seeds": [
+            "wedding-rentals-online"
           ]
         }
       }
