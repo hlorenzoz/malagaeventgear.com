@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "tasks": [
     {
       "id": "#T0109",
@@ -878,6 +878,40 @@
       ]
     },
     {
+      "id": "#T0123",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/audio-visual-rental-for-outdoor-events/: \"Can you supply a large LED screen for an outdoor event?\"",
+      "anotada": "2026-10-12",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-12, ítem 1)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audio-visual-rental-for-outdoor-events.svx",
+        "Keywords: outdoor led screen hire (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Responder que una pantalla LED grande para exterior no esta en el inventario propio (el inventario propio incluye proyector con pantalla de proyeccion y la pantalla LED de 60 pulgadas del MICE Pack, ver packages.ts) y que el cliente indica tamano, ubicacion y horario y MEG busca una solucion con sus proveedores. Usar el mismo encuadre que la FAQ de la pantalla hinchable: sin marca, modelo, cantidad, precio, disponibilidad ni plazo. Mencionar que la potencia y el sol directo del lugar condicionan la solucion. No presentarla como equipo propio.",
+        "Por qué: Ninguna entrada cubre una pantalla LED grande para exterior: tv-screen-rental solo trata pantallas de TV y su FAQ de exterior es de otro alcance. Es una necesidad sourced (muro LED no esta en el inventario propio), asi que va como FAQ en el post de eventos al aire libre, sin pagina nueva (creating-helpful-content.md: mejorar la pagina existente).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0125",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "keywords",
+      "titulo": "Recuperar \"malaga wedding packages all inclusive\": dejo de rankear (era 28)",
+      "anotada": "2026-10-12",
+      "hecha": null,
+      "origen": "ubersuggest (rank-tracking, rank/malaga-wedding-packages-all-inclusive)",
+      "notas": [],
+      "descripcion": [
+        "Base: mejor posicion de los ultimos 90 dias.",
+        "Reporte rank-tracking de ubersuggest del 2026-10-12."
+      ]
+    },
+    {
       "id": "#T0110",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1461,6 +1495,24 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0124",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-12",
+      "anotada": "2026-10-12",
+      "hecha": "2026-10-12",
+      "origen": "content-strategist (plan 2026-10-12, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "outdoor inflatable movie screen and projector rental (Cubierto por /blog/outdoor-movie-screen-and-projector-rental/, FAQ 'Do you rent an inflatable outdoor movie screen?', y por /blog/audio-visual-rental-for-outdoor-events/, FAQ 'Do you rent an inflatable movie screen for an outdoor event?'. Una pagina nueva seria canibalizacion.)",
+        "outdoor movie equipment rental (Misma intencion que el post existente /blog/outdoor-movie-screen-and-projector-rental/ (keyword 'outdoor movie screen rental', H2 'Outdoor Movie Screen Rental: Choosing Your Screen and Projector Size'). Solo cambia hire/rental: cubierto, sin seccion nueva que repita lo existente.)",
+        "outdoor inflatable movie screen rental near me (Variantes 'near me' de una pagina existente (/blog/outdoor-movie-screen-and-projector-rental/): doorway abuse segun spam-policies.md. La demanda local ya se atiende en su seccion de zona de servicio.)",
+        "outdoor pa hire (Cubierto por /blog/sound-system-rental/, H2 'Indoor and Outdoor Sound System Rental' y FAQ 'Can you set up a sound system outdoors, or only indoors?', y por /blog/audio-visual-rental-for-outdoor-events/ (FAQ 'How does an outdoor sound system differ from an indoor one?'). Misma intencion, sin heading nuevo que anada algo.)"
+      ]
     },
     {
       "id": "#T0120",
