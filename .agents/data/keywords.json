@@ -16510,8 +16510,8 @@
       "cluster": "audiovisual equipment rental service",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "planned",
+      "url": "/blog/conference-table-microphone-rental/",
+      "status": "published",
       "reason": null,
       "sources": {
         "ubersuggest": {
@@ -16526,6 +16526,10 @@
             "difficulty": 4,
             "cpc": 0
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-13",
+          "lastSeen": "2026-10-13"
         },
         "research": {
           "firstSeen": "2026-09-29",
@@ -81148,6 +81152,24 @@
       }
     },
     {
+      "id": "are-table-microphones-suitable-for-a-boardroom",
+      "question": "Are table microphones suitable for a boardroom?",
+      "keywordId": "conference-table-microphone-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/conference-table-microphone-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-13",
+          "lastSeen": "2026-10-13",
+          "urls": [
+            "/blog/conference-table-microphone-rental/"
+          ]
+        }
+      }
+    },
+    {
       "id": "are-wedding",
       "question": "are wedding",
       "keywordId": "wedding-rentals",
@@ -81988,6 +82010,24 @@
       }
     },
     {
+      "id": "can-i-rent-table-microphones-for-several-days",
+      "question": "Can I rent table microphones for several days?",
+      "keywordId": "conference-table-microphone-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/conference-table-microphone-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-13",
+          "lastSeen": "2026-10-13",
+          "urls": [
+            "/blog/conference-table-microphone-rental/"
+          ]
+        }
+      }
+    },
+    {
       "id": "can-i-use-my-own-laptop-with-your-setup",
       "question": "Can I use my own laptop with your setup?",
       "keywordId": "audio-visual-rental-for-remote-presentations",
@@ -82163,6 +82203,24 @@
           "lastSeen": "2026-10-13",
           "urls": [
             "/blog/stage-lighting-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-table-microphones-connect-to-laptops-and-phones",
+      "question": "Can table microphones connect to laptops and phones?",
+      "keywordId": "conference-table-microphone-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/conference-table-microphone-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-13",
+          "lastSeen": "2026-10-13",
+          "urls": [
+            "/blog/conference-table-microphone-rental/"
           ]
         }
       }
@@ -83042,6 +83100,24 @@
           "lastSeen": "2026-09-30",
           "seeds": [
             "audio-visual-rental-company"
+          ]
+        }
+      }
+    },
+    {
+      "id": "do-table-microphones-cancel-background-noise",
+      "question": "Do table microphones cancel background noise?",
+      "keywordId": "conference-table-microphone-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/conference-table-microphone-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-13",
+          "lastSeen": "2026-10-13",
+          "urls": [
+            "/blog/conference-table-microphone-rental/"
           ]
         }
       }
@@ -84287,6 +84363,24 @@
           "lastSeen": "2026-10-13",
           "urls": [
             "/blog/projector-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "do-you-rent-speakerphones-or-conference-phones",
+      "question": "Do you rent speakerphones or conference phones?",
+      "keywordId": "conference-table-microphone-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/conference-table-microphone-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-13",
+          "lastSeen": "2026-10-13",
+          "urls": [
+            "/blog/conference-table-microphone-rental/"
           ]
         }
       }
@@ -86208,6 +86302,24 @@
           "lastSeen": "2026-10-13",
           "urls": [
             "/blog/audio-visual-rental-for-trade-shows/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-fast-can-table-microphones-be-set-up",
+      "question": "How fast can table microphones be set up?",
+      "keywordId": "conference-table-microphone-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/conference-table-microphone-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-13",
+          "lastSeen": "2026-10-13",
+          "urls": [
+            "/blog/conference-table-microphone-rental/"
           ]
         }
       }
@@ -93517,6 +93629,24 @@
           "lastSeen": "2026-10-13",
           "urls": [
             "/blog/stage-lighting-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "which-microphone-suits-a-noisy-room",
+      "question": "Which microphone suits a noisy room?",
+      "keywordId": "conference-table-microphone-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/conference-table-microphone-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-13",
+          "lastSeen": "2026-10-13",
+          "urls": [
+            "/blog/conference-table-microphone-rental/"
           ]
         }
       }
