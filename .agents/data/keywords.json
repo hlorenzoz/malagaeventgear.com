@@ -83336,6 +83336,24 @@
       }
     },
     {
+      "id": "do-you-offer-all-inclusive-wedding-packages-in-malaga",
+      "question": "Do you offer all inclusive wedding packages in Malaga?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "wedding rentals",
+      "url": "/blog/all-in-one-wedding-rental-packages/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-13",
+          "lastSeen": "2026-10-13",
+          "urls": [
+            "/blog/all-in-one-wedding-rental-packages/"
+          ]
+        }
+      }
+    },
+    {
       "id": "do-you-offer-delivery-and-setup-for-sound-and-lighting-equipment",
       "question": "Do you offer delivery and setup for sound and lighting equipment?",
       "keywordId": "faq-services",
