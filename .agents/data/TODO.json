@@ -901,7 +901,10 @@
       "anotada": "2026-10-09",
       "hecha": null,
       "origen": "usuario",
-      "notas": [],
+      "notas": [
+        "Decision 1 (guiones sv da nb) cerrada el 2026-10-13: excepcion ampliada en CLAUDE.md",
+        "post-translator.md y brief-base.md. Quedan las decisiones 2 a 5"
+      ],
       "descripcion": [
         "Decisiones que quedaron abiertas al implementar las tareas de prompts de IA (#T0088 a #T0096), 2026-10-08 y 2026-10-09. Ninguna frena un commit ya hecho. El usuario las dejo pendientes el 2026-10-09.",
         "",
