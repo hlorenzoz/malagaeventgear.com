@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import en from '../../src/lib/i18n/messages/en';
 
 const PACKAGE_URL = '/packages/basic-mice/';
 
@@ -9,7 +10,7 @@ async function mockApiLeadsSuccess(page: import('@playwright/test').Page) {
 			route.fulfill({
 				status: 201,
 				contentType: 'application/json',
-				body: JSON.stringify({ ok: true, leadId: 'test-lead-id' }),
+				body: JSON.stringify({ ok: true, leadId: 'test-lead-id' })
 			});
 		} else {
 			route.continue();
@@ -175,4 +176,66 @@ test.describe('LeadForm — Phase 2 E2E', () => {
 		// Button gets disabled after first click (isLoading = true), so only 1 request max
 		expect(apiRequests.length).toBeLessThanOrEqual(1);
 	});
+});
+
+// The lead is saved but its emails were not sent (Resend failed, or its secrets are missing):
+// the API answers 201 with emailStatus 'failed' or 'skipped'. The visitor must not land on the
+// thank you page as if everything went well. A modal offers the contact form, which arrives
+// filled in with what was typed and with the package page it came from (#T0001).
+test.describe('LeadForm: the lead is saved but the email did not go out', () => {
+	for (const emailStatus of ['failed', 'skipped'] as const) {
+		test(`emailStatus ${emailStatus} opens the rescue modal and fills the contact form`, async ({
+			page
+		}) => {
+			await page.route('**/api/leads', (route) => {
+				if (route.request().method() !== 'POST') return route.continue();
+				return route.fulfill({
+					status: 201,
+					contentType: 'application/json',
+					body: JSON.stringify({ ok: true, leadId: 'lead-no-email', emailStatus })
+				});
+			});
+			await page.goto(PACKAGE_URL);
+			await page.waitForLoadState('networkidle');
+
+			const eventDay = new Date();
+			eventDay.setDate(eventDay.getDate() + 2);
+			const dateStr = eventDay.toISOString().split('T')[0];
+			await page.fill('#lead-name', 'Maria Garcia');
+			await page.fill('#lead-email', 'maria@example.com');
+			await page.fill('#phone', '600123456');
+			await page.fill('#lead-event-date', dateStr);
+			await page.fill('#lead-comments', 'Panel for forty guests');
+			await page.locator('#lead-form form button[type="submit"]').click();
+
+			// No thank you page: the modal says the email failed.
+			const modal = page.locator('dialog.error-modal');
+			await expect(modal).toBeVisible();
+			await expect(modal).toContainText(en.leadForm.emailFailTitle);
+			expect(page.url()).not.toContain('/thank-you/');
+
+			await modal.getByRole('button', { name: en.leadForm.emailFailAction }).click();
+			await page.waitForURL('**/contact/**', { timeout: 5000 });
+
+			// The URL carries the reference only, never what the visitor typed.
+			const url = new URL(page.url());
+			expect(url.searchParams.get('errtype')).toBe('email');
+			expect(url.searchParams.get('lead')).toBe('lead-no-email');
+			expect(page.url()).not.toContain('maria');
+			expect(page.url()).not.toContain('600123456');
+
+			// The contact form arrives filled in, and its message names the package page.
+			await expect(page.locator('#name')).toHaveValue('Maria Garcia');
+			await expect(page.locator('#email')).toHaveValue('maria@example.com');
+			await expect(page.locator('#date')).toHaveValue(dateStr);
+			const message = page.locator('#message');
+			await expect(message).toHaveValue(new RegExp(en.contact.errorDetailsHeader));
+			await expect(message).toHaveValue(/\/packages\/basic-mice\//);
+			await expect(message).toHaveValue(/lead-no-email/);
+			await expect(message).toHaveValue(/Panel for forty guests/);
+
+			// The carried data is read once and removed.
+			expect(await page.evaluate(() => sessionStorage.getItem('meg:lead-error'))).toBeNull();
+		});
+	}
 });
