@@ -82,6 +82,11 @@ export function mergeSources(existing: Sources, incoming: Sources): Sources {
  * `opportunity`/`opportunityReason` are still zeroed, see module docs). With an existing entry,
  * identity fields (`status`, `url`, `reason`, `cluster`) are kept from `existing` unless it is
  * still `idea`, in which case `incoming`'s proposal wins.
+ *
+ * One step forward is allowed on a locked entry: a keyword that was `planned` or `draft` (decided
+ * before its post existed, so with no url) becomes `published` with the url of its post when a
+ * source reports it published. Its cluster, reason and notes stay as decided. Nothing else moves
+ * a locked entry, and `covered` and `rejected` never become `published` this way.
  */
 export function mergeKeyword(
 	existing: KeywordEntry | undefined,
@@ -90,6 +95,9 @@ export function mergeKeyword(
 	if (!existing) return { ...incoming, opportunity: null, opportunityReason: null };
 
 	const identityLocked = existing.status !== 'idea';
+	const nowPublished =
+		(existing.status === 'planned' || existing.status === 'draft') &&
+		incoming.status === 'published';
 
 	return {
 		id: existing.id,
@@ -98,8 +106,8 @@ export function mergeKeyword(
 		cluster: identityLocked ? existing.cluster : incoming.cluster,
 		topic: existing.topic ?? incoming.topic,
 		intent: existing.intent ?? incoming.intent,
-		url: identityLocked ? existing.url : incoming.url,
-		status: identityLocked ? existing.status : incoming.status,
+		url: identityLocked && !nowPublished ? existing.url : incoming.url,
+		status: identityLocked && !nowPublished ? existing.status : incoming.status,
 		reason: identityLocked ? existing.reason : incoming.reason,
 		sources: mergeSources(existing.sources, incoming.sources),
 		opportunity: null,

@@ -80,6 +80,61 @@ describe('mergeKeyword: protecting a non idea entry', () => {
 	});
 });
 
+describe('mergeKeyword: a planned keyword whose post gets published', () => {
+	// A keyword decided before its post exists is `planned` (or `draft`) with no url. When the
+	// post is published the blog source reports it `published` with its url: that is the next
+	// step of the same lifecycle, not a lower confidence source overwriting a decision.
+	const planned = keyword({
+		id: 'conference-table-microphone-rental',
+		keyword: 'conference table microphone rental',
+		status: 'planned',
+		url: null,
+		cluster: 'audiovisual equipment rental service',
+		notes: 'planned in the conferences research',
+		sources: { research: { firstSeen: '2026-09-25', lastSeen: '2026-09-25' } }
+	});
+	const fromBlog = keyword({
+		id: 'conference-table-microphone-rental',
+		keyword: 'conference table microphone rental',
+		status: 'published',
+		url: '/blog/conference-table-microphone-rental/',
+		cluster: 'unassigned',
+		notes: ''
+	});
+
+	it('moves planned to published and takes the url of the post', () => {
+		const merged = mergeKeyword(planned, fromBlog);
+		expect(merged.status).toBe('published');
+		expect(merged.url).toBe('/blog/conference-table-microphone-rental/');
+	});
+
+	it('does the same from draft', () => {
+		const merged = mergeKeyword({ ...planned, status: 'draft' }, fromBlog);
+		expect(merged.status).toBe('published');
+	});
+
+	it('keeps the cluster and the notes that were decided when it was planned', () => {
+		const merged = mergeKeyword(planned, fromBlog);
+		expect(merged.cluster).toBe('audiovisual equipment rental service');
+		expect(merged.notes).toBe('planned in the conferences research');
+	});
+
+	it('does not let any other status move a planned keyword', () => {
+		for (const status of ['idea', 'covered', 'rejected', 'draft'] as const) {
+			const merged = mergeKeyword(planned, { ...fromBlog, status, url: '/blog/other/' });
+			expect(merged.status, status).toBe('planned');
+			expect(merged.url, status).toBeNull();
+		}
+	});
+
+	it('does not move a covered or rejected keyword to published', () => {
+		for (const status of ['covered', 'rejected'] as const) {
+			const existing = { ...planned, status, url: '/blog/audio-visual-rental/' };
+			expect(mergeKeyword(existing, fromBlog).status, status).toBe(status);
+		}
+	});
+});
+
 describe('mergeKeyword: upgrading an idea entry', () => {
 	it('lets an idea entry be promoted by an incoming source', () => {
 		const idea = keyword({ status: 'idea', url: null, cluster: 'unassigned' });
@@ -256,7 +311,13 @@ function faq(overrides: Partial<FaqEntry> = {}): FaqEntry {
 		url: '/blog/audio-visual-rental/',
 		status: 'answered',
 		reason: null,
-		sources: { post: { firstSeen: '2026-09-29', lastSeen: '2026-09-29', urls: ['/blog/audio-visual-rental/'] } },
+		sources: {
+			post: {
+				firstSeen: '2026-09-29',
+				lastSeen: '2026-09-29',
+				urls: ['/blog/audio-visual-rental/']
+			}
+		},
 		...overrides
 	};
 }
@@ -267,7 +328,9 @@ describe('mergeFaq', () => {
 		const incoming = faq({
 			status: 'idea',
 			url: null,
-			sources: { 'google-autocomplete': { firstSeen: '2026-09-30', lastSeen: '2026-09-30', seeds: ['a'] } }
+			sources: {
+				'google-autocomplete': { firstSeen: '2026-09-30', lastSeen: '2026-09-30', seeds: ['a'] }
+			}
 		});
 		expect(mergeFaq(existing, incoming).status).toBe('answered');
 	});
@@ -290,7 +353,13 @@ describe('mergeFaq', () => {
 		const auto = faq({
 			status: 'idea',
 			url: null,
-			sources: { 'google-autocomplete': { firstSeen: '2026-09-30', lastSeen: '2026-09-30', seeds: ['b', 'a'] } }
+			sources: {
+				'google-autocomplete': {
+					firstSeen: '2026-09-30',
+					lastSeen: '2026-09-30',
+					seeds: ['b', 'a']
+				}
+			}
 		});
 		const merged = mergeFaq(post, auto);
 		expect(Object.keys(merged.sources).sort()).toEqual(['google-autocomplete', 'post']);
@@ -307,13 +376,25 @@ describe('mergeFaq', () => {
 		});
 		const again = faq({
 			sources: {
-				'google-autocomplete': { firstSeen: '2026-10-02', lastSeen: '2026-10-02', seeds: ['a', 'b'] },
+				'google-autocomplete': {
+					firstSeen: '2026-10-02',
+					lastSeen: '2026-10-02',
+					seeds: ['a', 'b']
+				},
 				post: { firstSeen: '2026-10-02', lastSeen: '2026-10-02', urls: ['/blog/a/'] }
 			}
 		});
 		const merged = mergeFaq(first, again).sources;
-		expect(merged['google-autocomplete']).toEqual({ firstSeen: '2026-09-30', lastSeen: '2026-10-02', seeds: ['a', 'b'] });
-		expect(merged.post).toEqual({ firstSeen: '2026-09-29', lastSeen: '2026-10-02', urls: ['/blog/a/', '/blog/b/'] });
+		expect(merged['google-autocomplete']).toEqual({
+			firstSeen: '2026-09-30',
+			lastSeen: '2026-10-02',
+			seeds: ['a', 'b']
+		});
+		expect(merged.post).toEqual({
+			firstSeen: '2026-09-29',
+			lastSeen: '2026-10-02',
+			urls: ['/blog/a/', '/blog/b/']
+		});
 	});
 
 	it('replaces ubersuggest stats wholesale with the newer asOf', () => {
@@ -322,7 +403,10 @@ describe('mergeFaq', () => {
 			lastSeen: asOf,
 			stats: { asOf, volume, difficulty: null, cpc: null }
 		});
-		const merged = mergeFaq(faq({ sources: { ubersuggest: stat('2026-09-01', 10) } }), faq({ sources: { ubersuggest: stat('2026-10-01', 30) } }));
+		const merged = mergeFaq(
+			faq({ sources: { ubersuggest: stat('2026-09-01', 10) } }),
+			faq({ sources: { ubersuggest: stat('2026-10-01', 30) } })
+		);
 		expect(merged.sources.ubersuggest?.stats?.volume).toBe(30);
 	});
 });
