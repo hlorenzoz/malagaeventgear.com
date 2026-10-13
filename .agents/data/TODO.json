@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "tasks": [
     {
       "id": "#T0109",
@@ -878,6 +878,25 @@
       ]
     },
     {
+      "id": "#T0126",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/outdoor-movie-screen-and-projector-rental/: \"Can I rent a portable movie screen for an outdoor event?\"",
+      "anotada": "2026-10-13",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-13, ítem 6)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/outdoor-movie-screen-and-projector-rental.svx",
+        "Keywords: portable movie screen rental (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Responder que las pantallas de MEG son pantallas de proyeccion con soporte que el equipo entrega, monta, prueba y recoge (Product Presentation Pack con pantalla frontal y soporte estable, Basic MICE Pack con pantalla de 2x2m, pantalla Da-Lite 2.30 x 3.00 m bajo peticion), segun la tabla del propio post y packages.ts. No prometer pantalla de autorecogida, ni peso o medidas de transporte, ni modelo hinchable (ver la FAQ de la pantalla hinchable). Si el cliente necesita otro tipo, 'cuentanos y buscamos una solucion con nuestros proveedores' sin plazo ni marca.",
+        "Por qué: Intencion de alquilar una pantalla de cine facil de montar en exterior. /blog/outdoor-movie-screen-and-projector-rental/ cubre pantallas y proyector, pero ninguna FAQ responde a 'portable' (solo la hinchable). Es una pregunta real de clientes y MEG puede responderla con su inventario. No justifica un post nuevo (Goldilocks).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
       "id": "#T0123",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1495,6 +1514,25 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0127",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-13",
+      "anotada": "2026-10-13",
+      "hecha": "2026-10-13",
+      "origen": "content-strategist (plan 2026-10-13, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "pa sound system rental (Misma intencion que /blog/sound-system-rental/: ya cubierta por el H2 'PA System or DJ Sound: Matching Equipment to the Event' y la FAQ 'Is a PA system rental the same as a sound system rental?'. Otra pagina seria canibalizacion (creating-helpful-content.md). 'PA dry hire' (sin tecnico) lo cubre la FAQ 'Can I rent just speakers, without a microphone or technician?'.)",
+        "pa system for hire near me (Variante near me de una pagina existente: doorway abuse (spam-policies.md). La demanda ya se atiende en /blog/sound-system-rental/ con la FAQ 'Do you deliver sound system rental near me outside Malaga city?' y la seccion 'Booking and Service Area'.)",
+        "pa system rental price (Cubierta por la FAQ 'How much does it cost to rent sound equipment?' de /blog/sound-system-rental/ (precios reales de Eco, Basic MICE, Product Presentation, MICE y Wedding) y la FAQ 'Is a PA system rental the same as a sound system rental?' que dice que no hay un nivel de precio PA aparte. Una pregunta nueva solo repetiria lo mismo.)",
+        "pa and sound engineer hire (Cubierta por la FAQ 'Do you provide a technician with the sound system?' de /blog/sound-system-rental/ y por /blog/av-technician-hire/ (seccion 'Technician by Package: What's Included and What Costs Extra').)",
+        "party sound hire (Cubierta por /blog/audio-visual-rental-for-private-parties/ y por la FAQ 'Can I rent a complete DJ system for a party?' de /blog/sound-system-rental/. Una pagina nueva competiria con ambas.)"
+      ]
     },
     {
       "id": "#T0124",
