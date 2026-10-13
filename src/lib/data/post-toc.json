@@ -6384,6 +6384,11 @@
       "id": "do-you-rent-an-inflatable-outdoor-movie-screen",
       "text": "Do you rent an inflatable outdoor movie screen?",
       "level": 3
+    },
+    {
+      "id": "can-i-rent-a-portable-movie-screen-for-an-outdoor-event",
+      "text": "Can I rent a portable movie screen for an outdoor event?",
+      "level": 3
     }
   ],
   "wedding-rentals-online": [

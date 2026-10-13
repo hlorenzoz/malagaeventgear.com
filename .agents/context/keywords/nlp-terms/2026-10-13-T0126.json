@@ -1,0 +1,64 @@
+{
+	"date": "2026-10-13",
+	"taskId": "#T0126",
+	"slug": "outdoor-movie-screen-and-projector-rental",
+	"searchTerm": "portable movie screen rental",
+	"status": "ok",
+	"serp": {
+		"query": "can I rent a portable movie screen for an outdoor event",
+		"localized": false,
+		"results": [
+			{
+				"rank": 1,
+				"url": "https://nationaleventpros.com/rent/games2u/outdoor-inflatable-movie-screen",
+				"title": "Event Rentals: 12' or 20' Outdoor Inflatable Movie Screen"
+			},
+			{
+				"rank": 2,
+				"url": "https://rentforevent.com/tampa/visuals/outdoor-movie-rental/outdoor-indoor-11ft-fast-fold/",
+				"title": "Product Overview:"
+			},
+			{
+				"rank": 3,
+				"url": "https://rentforevent.com/austin/visuals/outdoor-movie-rental/outdoor-indoor-14ft-inflatable/",
+				"title": "Product Overview:"
+			}
+		]
+	},
+	"terms": [
+		{ "term": "outdoor movie screen", "kind": "entity", "seenIn": 3 },
+		{ "term": "front projection", "kind": "related", "seenIn": 3 },
+		{ "term": "movie night", "kind": "entity", "seenIn": 3 },
+		{ "term": "drive-in movie night", "kind": "entity", "seenIn": 3 },
+		{ "term": "speakers", "kind": "entity", "seenIn": 3 },
+		{ "term": "delivery and setup", "kind": "related", "seenIn": 3 },
+		{ "term": "What is included with a screen rental?", "kind": "question", "seenIn": 3 },
+		{ "term": "inflatable movie screen", "kind": "entity", "seenIn": 2 },
+		{ "term": "projector and screen rental", "kind": "related", "seenIn": 2 },
+		{ "term": "rear projection", "kind": "related", "seenIn": 2 },
+		{ "term": "DVD player", "kind": "entity", "seenIn": 2 },
+		{ "term": "4200 lumen projector", "kind": "entity", "seenIn": 2 },
+		{ "term": "attendee capacity", "kind": "related", "seenIn": 2 },
+		{ "term": "cables and wiring kit", "kind": "related", "seenIn": 2 },
+		{ "term": "corporate movie night", "kind": "entity", "seenIn": 2 },
+		{ "term": "LED wall rental", "kind": "entity", "seenIn": 2 },
+		{ "term": "live sports screening", "kind": "entity", "seenIn": 2 },
+		{ "term": "fast fold screen", "kind": "entity", "seenIn": 2 },
+		{ "term": "community event", "kind": "entity", "seenIn": 2 },
+		{ "term": "How much does a movie screen rental cost?", "kind": "question", "seenIn": 2 },
+		{ "term": "How do I get an accurate quote?", "kind": "question", "seenIn": 2 },
+		{ "term": "Blu-ray player", "kind": "entity", "seenIn": 1 },
+		{ "term": "AV technician setup", "kind": "related", "seenIn": 1 },
+		{ "term": "movie license", "kind": "related", "seenIn": 1 },
+		{ "term": "backyard movie party", "kind": "entity", "seenIn": 1 }
+	],
+	"discarded": [
+		{ "term": "20A/110V electrical outlet", "reason": "US electrical standard" },
+		{ "term": "Washington State", "reason": "place outside Spain" },
+		{ "term": "24 hour rental price", "reason": "price" },
+		{ "term": "Red Carpet Package", "reason": "competitor product package name" },
+		{ "term": "Popcorn machine", "reason": "catering add on, not audiovisual vocabulary" },
+		{ "term": "Professionally cleaned and sanitized equipment", "reason": "marketing claim" },
+		{ "term": "Product SKU", "reason": "shop page label, not vocabulary" }
+	]
+}
