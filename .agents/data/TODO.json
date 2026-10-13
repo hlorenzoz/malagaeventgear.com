@@ -897,25 +897,6 @@
       ]
     },
     {
-      "id": "#T0123",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/audio-visual-rental-for-outdoor-events/: \"Can you supply a large LED screen for an outdoor event?\"",
-      "anotada": "2026-10-12",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-12, ítem 1)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/audio-visual-rental-for-outdoor-events.svx",
-        "Keywords: outdoor led screen hire (google-ads 10/mo (below tier 100)), debajo del tier",
-        "Qué cubrir: Responder que una pantalla LED grande para exterior no esta en el inventario propio (el inventario propio incluye proyector con pantalla de proyeccion y la pantalla LED de 60 pulgadas del MICE Pack, ver packages.ts) y que el cliente indica tamano, ubicacion y horario y MEG busca una solucion con sus proveedores. Usar el mismo encuadre que la FAQ de la pantalla hinchable: sin marca, modelo, cantidad, precio, disponibilidad ni plazo. Mencionar que la potencia y el sol directo del lugar condicionan la solucion. No presentarla como equipo propio.",
-        "Por qué: Ninguna entrada cubre una pantalla LED grande para exterior: tv-screen-rental solo trata pantallas de TV y su FAQ de exterior es de otro alcance. Es una necesidad sourced (muro LED no esta en el inventario propio), asi que va como FAQ en el post de eventos al aire libre, sin pagina nueva (creating-helpful-content.md: mejorar la pagina existente).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0125",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1532,6 +1513,27 @@
         "pa system rental price (Cubierta por la FAQ 'How much does it cost to rent sound equipment?' de /blog/sound-system-rental/ (precios reales de Eco, Basic MICE, Product Presentation, MICE y Wedding) y la FAQ 'Is a PA system rental the same as a sound system rental?' que dice que no hay un nivel de precio PA aparte. Una pregunta nueva solo repetiria lo mismo.)",
         "pa and sound engineer hire (Cubierta por la FAQ 'Do you provide a technician with the sound system?' de /blog/sound-system-rental/ y por /blog/av-technician-hire/ (seccion 'Technician by Package: What's Included and What Costs Extra').)",
         "party sound hire (Cubierta por /blog/audio-visual-rental-for-private-parties/ y por la FAQ 'Can I rent a complete DJ system for a party?' de /blog/sound-system-rental/. Una pagina nueva competiria con ambas.)"
+      ]
+    },
+    {
+      "id": "#T0123",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/audio-visual-rental-for-outdoor-events/: \"Can you supply a large LED screen for an outdoor event?\"",
+      "anotada": "2026-10-12",
+      "hecha": "2026-10-13",
+      "origen": "content-strategist (plan 2026-10-12, ítem 1)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audio-visual-rental-for-outdoor-events.svx",
+        "Keywords: outdoor led screen hire (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Responder que una pantalla LED grande para exterior no esta en el inventario propio (el inventario propio incluye proyector con pantalla de proyeccion y la pantalla LED de 60 pulgadas del MICE Pack, ver packages.ts) y que el cliente indica tamano, ubicacion y horario y MEG busca una solucion con sus proveedores. Usar el mismo encuadre que la FAQ de la pantalla hinchable: sin marca, modelo, cantidad, precio, disponibilidad ni plazo. Mencionar que la potencia y el sol directo del lugar condicionan la solucion. No presentarla como equipo propio.",
+        "Por qué: Ninguna entrada cubre una pantalla LED grande para exterior: tv-screen-rental solo trata pantallas de TV y su FAQ de exterior es de otro alcance. Es una necesidad sourced (muro LED no esta en el inventario propio), asi que va como FAQ en el post de eventos al aire libre, sin pagina nueva (creating-helpful-content.md: mejorar la pagina existente).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
