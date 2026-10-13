@@ -1,0 +1,116 @@
+{
+	"date": "2026-10-13",
+	"run": {
+		"status": "partial",
+		"reason": "Daily reports quota (3) exhausted: backlinks report plus keyword_suggestions, serp_analysis and content_ideas for seed 1 returned no data.",
+		"quotaBefore": { "reports": 0, "brand_operations_used": 0, "monthly_keyword_metrics_updates_used": 0 },
+		"quotaAfter": { "reports": 3, "brand_operations_used": 0, "monthly_keyword_metrics_updates_used": 0 },
+		"calls": [
+			{ "tool": "backlinks_overview", "args": "malagaeventgear.com", "outcome": "ok" },
+			{ "tool": "backlink_opportunity", "args": "positive avhirespain.com, sonidomalaga.com, negative malagaeventgear.com, limit 20", "outcome": "empty" },
+			{ "tool": "industry_prompts", "args": "seed audio visual rental for art exhibitions", "outcome": "ok" },
+			{ "tool": "industry_prompts", "args": "seed av equipment checklist for conference", "outcome": "ok" },
+			{ "tool": "industry_prompts", "args": "seed destination wedding av costa del sol", "outcome": "ok" },
+			{ "tool": "article_title_suggestions", "args": "seed 1, locId 2724", "outcome": "ok" },
+			{ "tool": "keyword_suggestions", "args": "seed 1, locId 2724", "outcome": "empty" },
+			{ "tool": "serp_analysis", "args": "seed 1, limit 10, locId 2724", "outcome": "empty" },
+			{ "tool": "content_ideas", "args": "seed 1, limit 5, locId 2724", "outcome": "empty" },
+			{ "tool": "keyword_suggestions", "args": "seed 2, locId 2724", "outcome": "quota" }
+		],
+		"skipped": [
+			{ "step": "keyword_suggestions seed 2", "reason": "HTTP 403 daily reports limit 3 reached" },
+			{ "step": "keyword_overview", "reason": "daily reports quota exhausted" },
+			{ "step": "faqs", "reason": "Google autocomplete is the faq-researcher job" },
+			{ "step": "keyword_metrics", "reason": "monthlyDue is false" }
+		]
+	},
+	"keywords": [],
+	"faqs": [],
+	"aiPrompts": [
+		{ "prompt": "Best audio visual rental services for art exhibitions in Spain", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Affordable audio visual equipment rental for gallery shows near me", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Top-rated audio visual rental companies for art exhibitions in Spain", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Where can I rent high-quality audio visual gear for art exhibitions in Spain?", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Best value audio visual rental packages for art exhibitions on a budget", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Audio visual rental for art exhibitions: Malaga Event Gear vs local competitors", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Which audio visual rental service is best for immersive art exhibitions in Spain?", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Recommendations for audio visual rental that includes projectors and sound systems for art shows", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Best audio visual rental with flexible rental periods for art exhibitions near me", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Where to hire professional audio visual equipment for art exhibitions in Spain?", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Audio visual rental options for contemporary art exhibitions in Spain", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Best audio visual rental for outdoor art exhibitions in Spain", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Malaga Event Gear audio visual rental reviews compared to other Spanish providers", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "High-end audio visual rental for art exhibitions with interactive display support", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Best audio visual rental service with installation support for art exhibitions in Spain", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Where to find reliable audio visual rental for art exhibitions with technical support in Spain", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Which audio visual rental company offers the best deals for art exhibitions in Spain?", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Audio visual rental for art exhibitions: LED screens vs projection mapping, which is better?", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Best audio visual rental for small art exhibitions in galleries near me", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Audio visual rental for art exhibitions with multi-language audio support in Spain", "keyword": "audio visual rental for art exhibitions", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "What's the best AV equipment checklist for a mid-sized conference in Spain?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Which AV gear should I prioritize for a corporate conference setup?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "AV equipment checklist vs rental package: What's more cost-effective for a conference?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Best value AV equipment bundles for conference presentations near me in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Where can I rent AV equipment for conferences with a complete checklist included?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Recommendations for AV equipment checklists that cover sound, lighting, and video for conferences", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Top-rated AV equipment checklists tailored for conference organizers in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "What's the difference between Malaga Event Gear and other AV providers for conference setups?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Best AV equipment checklist for a conference with remote streaming capabilities", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Which AV equipment checklist is ideal for a conference with breakout sessions and multiple rooms?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Best AV equipment checklist for a small conference budget under 1000 euros in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Malaga Event Gear vs local AV rental companies: Which offers a better conference checklist?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Which AV setup checklist includes all essential gear for hybrid conferences?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Recommendations for portable AV equipment checklists perfect for pop-up conferences in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Best AV equipment checklist for conferences with high attendee capacity and Q&A sessions", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Best deals on AV equipment checklists and rental combos for conferences in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "What AV equipment checklist should I use for a tech conference requiring advanced video displays?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Best AV equipment checklist for conferences focusing on clear audio and audience interaction", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "What is the best destination wedding AV service in Costa del Sol for a medium-sized event?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Which destination wedding AV providers in Costa del Sol offer the best sound and lighting packages?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Costa del Sol destination wedding AV rental vs full-service AV production: which is better for my wedding?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Top-rated destination wedding AV companies near Marbella, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Where can I hire affordable destination wedding AV equipment in Costa del Sol?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Best destination wedding AV services in Costa del Sol for outdoor beach ceremonies", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Comparing Malaga Event Gear vs other destination wedding AV suppliers in Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Recommendations for destination wedding AV providers in Costa del Sol that support live streaming", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Which destination wedding AV company in Costa del Sol offers bilingual technical support?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Best value destination wedding AV packages in Costa del Sol for intimate weddings under 50 guests", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Where to find last-minute destination wedding AV rentals in Costa del Sol?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Most reliable destination wedding AV providers in Costa del Sol with onsite technicians", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Best destination wedding AV setups in Costa del Sol for evening receptions with dance floors", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Comparing wired vs wireless AV solutions for destination weddings in Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Top destination wedding AV gear rental shops near Fuengirola, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Which destination wedding AV company in Costa del Sol offers custom lighting design?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Best destination wedding AV companies in Costa del Sol for multilingual events", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Affordable destination wedding AV hire near Malaga airport, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" }
+	],
+	"research": {
+		"audio visual rental for art exhibitions": {
+			"titleIdeas": [
+				"How to choose the right AV rental for your art exhibition in Malaga",
+				"AV checklist for gallery openings and installation-ready exhibitions",
+				"Projector, LED wall or video mapping? Comparing AV options for art exhibitions"
+			]
+		}
+	},
+	"rank": [],
+	"discarded": [
+		{ "text": "Where to buy AV equipment checklist templates for professional conference planning?", "reason": "buying templates, no hire intent" },
+		{ "text": "Where to find comprehensive AV equipment checklists for conferences in Madrid and nearby areas?", "reason": "Madrid is outside MEG service areas" },
+		{ "text": "Costa del Sol destination wedding AV companies specializing in drone videography and audio", "reason": "drone videography is not a MEG service" },
+		{ "text": "Where to buy or rent high-end destination wedding AV equipment in Costa del Sol?", "reason": "includes buying equipment, not a hire-only intent" }
+	],
+	"report": {
+		"kind": "backlinks",
+		"status": "partial",
+		"reason": "backlink_opportunity returned no referring domains for competitors avhirespain.com and sonidomalaga.com",
+		"summary": [
+			"Domain authority 6, 93 backlinks, 69 referring domains, 0 gov/edu, follow 0, nofollow 7 as returned.",
+			"Opportunities: none returned. Backlinks report cost 1 report in total (reports 0 to 1 after both calls)."
+		],
+		"metrics": { "domainAuthority": 6, "backlinks": 93, "refDomains": 69, "refDomainsGovEdu": 0, "follow": 0, "noFollow": 7 },
+		"seoCounts": {},
+		"seo": [],
+		"rows": []
+	}
+}
