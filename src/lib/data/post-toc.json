@@ -4774,6 +4774,11 @@
       "level": 2
     },
     {
+      "id": "our-all-inclusive-wedding-pack-in-malaga",
+      "text": "Our All Inclusive Wedding Pack in Malaga",
+      "level": 2
+    },
+    {
       "id": "whats-included-at-650-euros",
       "text": "What's Included, at 650 Euros",
       "level": 2
@@ -4811,6 +4816,11 @@
     {
       "id": "does-the-all-in-one-package-include-venue-catering-or-furniture",
       "text": "Does the all in one package include venue, catering or furniture?",
+      "level": 3
+    },
+    {
+      "id": "do-you-offer-all-inclusive-wedding-packages-in-malaga",
+      "text": "Do you offer all inclusive wedding packages in Malaga?",
       "level": 3
     },
     {

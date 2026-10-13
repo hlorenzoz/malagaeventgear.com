@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-13",
+  "taskId": "#T0125",
+  "slug": "all-in-one-wedding-rental-packages",
+  "searchTerm": "all in one wedding rental packages Do you offer all inclusive wedding packages in Malaga?",
+  "status": "partial",
+  "reason": "Google position 3 was the same page as position 1 (spain4weddings, other URL), so it was skipped. Position 4 (Barcelo) was read: it names no package contents, so it adds little. SERP was not localized to Spain.",
+  "serp": {
+    "query": "malaga wedding packages all inclusive",
+    "localized": false,
+    "results": [
+      {
+        "rank": 1,
+        "url": "https://spain4weddings.com/?p=15903",
+        "title": "Exclusive Wedding Malaga: Luxury Planning in Andalusia"
+      },
+      {
+        "rank": 2,
+        "url": "https://www.weddingjournalonline.com/?p=66629",
+        "title": "Your Perfect Wedding in Spain at Sunset Beach Club | Wedding Journal"
+      },
+      {
+        "rank": 3,
+        "url": "https://www.barcelo.com/en-gb/hotels/i--malaga--weddings/",
+        "title": "Hotels Malaga Province Weddings | Barcelo.com"
+      }
+    ]
+  },
+  "terms": [
+    { "term": "What is included in the wedding package?", "kind": "question", "seenIn": 2 },
+    { "term": "What extras are available for the wedding?", "kind": "question", "seenIn": 2 },
+    { "term": "inclusive wedding package", "kind": "related", "seenIn": 2 },
+    { "term": "wedding planner", "kind": "related", "seenIn": 2 },
+    { "term": "wedding coordinator", "kind": "related", "seenIn": 2 },
+    { "term": "canapé reception", "kind": "related", "seenIn": 2 },
+    { "term": "wedding menu", "kind": "related", "seenIn": 2 },
+    { "term": "wine beer and soft drinks", "kind": "related", "seenIn": 2 },
+    { "term": "DJ", "kind": "entity", "seenIn": 2 },
+    { "term": "flowers and decorations", "kind": "related", "seenIn": 2 },
+    { "term": "wedding ceremony", "kind": "entity", "seenIn": 2 },
+    { "term": "wedding venue", "kind": "entity", "seenIn": 2 },
+    { "term": "guest accommodation", "kind": "related", "seenIn": 3 },
+    { "term": "open bar", "kind": "related", "seenIn": 1 },
+    { "term": "photographer and videographer", "kind": "related", "seenIn": 1 },
+    { "term": "live music", "kind": "related", "seenIn": 1 },
+    { "term": "transportation", "kind": "related", "seenIn": 1 },
+    { "term": "tableware and linen", "kind": "related", "seenIn": 1 },
+    { "term": "chairs and tables", "kind": "related", "seenIn": 1 },
+    { "term": "wedding cake", "kind": "related", "seenIn": 1 },
+    { "term": "table plans", "kind": "related", "seenIn": 1 },
+    { "term": "chair covers", "kind": "related", "seenIn": 1 },
+    { "term": "destination wedding", "kind": "entity", "seenIn": 1 },
+    { "term": "Can the package be customised?", "kind": "question", "seenIn": 1 },
+    { "term": "Where do guests stay?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Sunset Beach Club", "reason": "venue and competitor brand" },
+    { "term": "Barcelo", "reason": "competitor brand" },
+    { "term": "MyBarcelo membership", "reason": "brand loyalty scheme" },
+    { "term": "Best Price Guaranteed", "reason": "marketing slogan" },
+    { "term": "Top discounts", "reason": "marketing slogan" },
+    { "term": "Exclusive wedding venue", "reason": "marketing slogan" },
+    { "term": "Caminito del Rey", "reason": "tourist place, not package vocabulary" },
+    { "term": "How much does a package cost?", "reason": "price topic" },
+    { "term": "Tourist excursions", "reason": "tourism, not package contents" },
+    { "term": "Horse-drawn carriages", "reason": "single page extra, off topic for AV" }
+  ]
+}
