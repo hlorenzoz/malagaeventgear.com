@@ -51015,8 +51015,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -51054,6 +51054,10 @@
               "2026-08": 10
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-13",
+          "lastSeen": "2026-10-13"
         },
         "content-plan": {
           "firstSeen": "2026-10-13",
@@ -81817,6 +81821,24 @@
           "lastSeen": "2026-10-13",
           "urls": [
             "/blog/sound-system-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-i-rent-a-portable-movie-screen-for-an-outdoor-event",
+      "question": "Can I rent a portable movie screen for an outdoor event?",
+      "keywordId": "outdoor-movie-screen-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-13",
+          "lastSeen": "2026-10-13",
+          "urls": [
+            "/blog/outdoor-movie-screen-and-projector-rental/"
           ]
         }
       }
