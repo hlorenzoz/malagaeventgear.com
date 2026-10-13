@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-13';
 
 const copy = {
 	seo: {
@@ -12,7 +12,7 @@ const copy = {
 		badge: 'Websitegids',
 		title: 'Sitemap',
 		intro:
-			'Bekijk onze volledige gids met statische pagina\'s, gespecialiseerde evenementenpakketten en blogcontent.'
+			"Bekijk onze volledige gids met statische pagina's, gespecialiseerde evenementenpakketten en blogcontent."
 	},
 	portals: {
 		heading: 'Belangrijkste secties',

@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-13';
 
 const copy = {
 	seo: {
@@ -11,7 +11,8 @@ const copy = {
 	hero: {
 		badge: 'Annuaire du site',
 		title: 'Plan du site',
-		intro: 'Explorez notre annuaire complet des pages statiques, des forfaits événementiels spécialisés et des articles du blog.'
+		intro:
+			'Explorez notre annuaire complet des pages statiques, des forfaits événementiels spécialisés et des articles du blog.'
 	},
 	portals: {
 		heading: 'Pages principales',

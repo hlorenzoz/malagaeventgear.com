@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-13';
 
 export default {
 	seo: {
@@ -11,7 +11,8 @@ export default {
 	hero: {
 		badge: 'Oversikt over nettstedet',
 		title: 'Nettstedskart',
-		intro: 'Utforsk vår komplette oversikt over statiske sider, spesialiserte arrangementspakker og blogginnhold.'
+		intro:
+			'Utforsk vår komplette oversikt over statiske sider, spesialiserte arrangementspakker og blogginnhold.'
 	},
 	portals: {
 		heading: 'Hovedsider',

@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-13';
 
 export default {
 	seo: {
@@ -11,7 +11,8 @@ export default {
 	hero: {
 		badge: 'Diretório do site',
 		title: 'Mapa do site',
-		intro: 'Explore nosso diretório completo de páginas estáticas, pacotes de eventos especializados e conteúdo do blog.'
+		intro:
+			'Explore nosso diretório completo de páginas estáticas, pacotes de eventos especializados e conteúdo do blog.'
 	},
 	portals: {
 		heading: 'Páginas principais',

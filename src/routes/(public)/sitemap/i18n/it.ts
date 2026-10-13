@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-13';
 
 const copy = {
 	seo: {
@@ -11,7 +11,8 @@ const copy = {
 	hero: {
 		badge: 'Indice del sito',
 		title: 'Mappa del sito',
-		intro: 'Esplora il nostro elenco completo di pagine statiche, pacchetti evento specializzati e contenuti del blog.'
+		intro:
+			'Esplora il nostro elenco completo di pagine statiche, pacchetti evento specializzati e contenuti del blog.'
 	},
 	portals: {
 		heading: 'Pagine principali',

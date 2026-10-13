@@ -1,11 +1,12 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-13';
 
 const copy = {
 	seo: {
 		title: '网站地图 | Malaga Event Gear',
-		description: '浏览Malaga Event Gear的网站地图，查找我们全部专业视听及灯光租赁服务、套餐及联系方式的链接。'
+		description:
+			'浏览Malaga Event Gear的网站地图，查找我们全部专业视听及灯光租赁服务、套餐及联系方式的链接。'
 	},
 	hero: {
 		badge: '网站目录',

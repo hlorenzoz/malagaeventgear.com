@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-13';
 
 export default {
 	seo: {
@@ -11,8 +11,7 @@ export default {
 	hero: {
 		badge: '網站目錄',
 		title: '網站地圖',
-		intro:
-			'瀏覽我們的完整目錄，內容涵蓋靜態頁面、專屬活動套餐及網誌內容。'
+		intro: '瀏覽我們的完整目錄，內容涵蓋靜態頁面、專屬活動套餐及網誌內容。'
 	},
 	portals: {
 		heading: '主要入口',

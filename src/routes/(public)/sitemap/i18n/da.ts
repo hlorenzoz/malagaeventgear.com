@@ -1,6 +1,6 @@
 import type { Copy } from './en';
 
-export const updated = '2026-09-24';
+export const updated = '2026-10-13';
 
 const copy = {
 	seo: {
@@ -11,7 +11,8 @@ const copy = {
 	hero: {
 		badge: 'Hjemmesidens indhold',
 		title: 'Sitemap',
-		intro: 'Udforsk vores fulde oversigt over statiske sider, specialiserede eventpakker og blogindhold.'
+		intro:
+			'Udforsk vores fulde oversigt over statiske sider, specialiserede eventpakker og blogindhold.'
 	},
 	portals: {
 		heading: 'Hovedsider',

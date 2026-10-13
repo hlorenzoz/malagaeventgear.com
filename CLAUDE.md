@@ -1285,8 +1285,10 @@ La metodología (reverse silo y Avalanche, con las fuentes de Kyle Roof) está e
      segundo enlace).
    - **Todos los enlaces del silo van en el CUERPO del contenido** (Kyle Roof): menú, sidebar y
      footer no cuentan.
-   - **Estado al 2026-09-29, pendiente de implementar**: solo `audiovisual-equipment-rental-service`
-     cumple (enlaza a `headset-lavalier-microphone-rental`, su único supporting post).
+   - **Estado (2026-09-29 para los tres silos grandes, 2026-10-13 para el primero), pendiente de implementar**: solo `audiovisual-equipment-rental-service`
+     cumple. Desde el 2026-10-13 tiene 2 supporting posts encadenados
+     (`headset-lavalier-microphone-rental` <-> `conference-table-microphone-rental`) y su único
+     enlace al silo va al último, `conference-table-microphone-rental` (#T0089).
      `audio-visual-rental` (41 supporting posts), `wedding-rentals` (20) y `stage-lighting-rental`
      (3) no tienen ese enlace. `event-technology-service` no tiene supporting posts todavía.
      Agregarlo es un cambio de contenido del pilar: en los 13 idiomas y con `updatedDate` (reglas
