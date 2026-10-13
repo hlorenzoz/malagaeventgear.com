@@ -342,6 +342,113 @@
       "level": 3
     }
   ],
+  "conference-table-microphone-rental": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "our-four-audix-gooseneck-table-microphones",
+      "text": "Our Four Audix Gooseneck Table Microphones",
+      "level": 2
+    },
+    {
+      "id": "which-package-includes-a-table-microphone",
+      "text": "Which Package Includes a Table Microphone",
+      "level": 2
+    },
+    {
+      "id": "how-many-table-microphones-a-meeting-needs",
+      "text": "How Many Table Microphones a Meeting Needs",
+      "level": 2
+    },
+    {
+      "id": "table-microphone-or-wireless-microphone-which-fits-a-meeting",
+      "text": "Table Microphone or Wireless Microphone: Which Fits a Meeting?",
+      "level": 2
+    },
+    {
+      "id": "who-controls-the-volume-and-is-a-technician-included",
+      "text": "Who Controls the Volume, and Is a Technician Included?",
+      "level": 2
+    },
+    {
+      "id": "table-microphones-for-video-calls-and-hybrid-meetings",
+      "text": "Table Microphones for Video Calls and Hybrid Meetings",
+      "level": 2
+    },
+    {
+      "id": "how-much-does-a-table-microphone-rental-cost",
+      "text": "How Much Does a Table Microphone Rental Cost?",
+      "level": 2
+    },
+    {
+      "id": "how-to-choose-a-conference-table-microphone-rental",
+      "text": "How to Choose a Conference Table Microphone Rental",
+      "level": 2
+    },
+    {
+      "id": "real-setups-weve-delivered",
+      "text": "Real Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "where-we-deliver-and-how-to-book",
+      "text": "Where We Deliver and How to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "can-i-rent-table-microphones-for-several-days",
+      "text": "Can I rent table microphones for several days?",
+      "level": 3
+    },
+    {
+      "id": "how-fast-can-table-microphones-be-set-up",
+      "text": "How fast can table microphones be set up?",
+      "level": 3
+    },
+    {
+      "id": "do-table-microphones-cancel-background-noise",
+      "text": "Do table microphones cancel background noise?",
+      "level": 3
+    },
+    {
+      "id": "which-microphone-suits-a-noisy-room",
+      "text": "Which microphone suits a noisy room?",
+      "level": 3
+    },
+    {
+      "id": "are-table-microphones-suitable-for-a-boardroom",
+      "text": "Are table microphones suitable for a boardroom?",
+      "level": 3
+    },
+    {
+      "id": "can-table-microphones-connect-to-laptops-and-phones",
+      "text": "Can table microphones connect to laptops and phones?",
+      "level": 3
+    },
+    {
+      "id": "do-you-rent-speakerphones-or-conference-phones",
+      "text": "Do you rent speakerphones or conference phones?",
+      "level": 3
+    }
+  ],
   "how-to-choose-wedding-rentals": [
     {
       "id": "brief-overview",

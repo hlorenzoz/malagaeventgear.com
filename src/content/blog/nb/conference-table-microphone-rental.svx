@@ -1,0 +1,175 @@
+---
+title: "Leie bordmikrofon i Malaga, Spania"
+description: "Leie bordmikrofon i Malaga, Spania: fire svanehalsmikrofoner fra Audix, hvilken pakke som inneholder en, og hvordan du planlegger et møte eller et panel."
+excerpt: "Fire kablede bordmikrofoner med svanehals fra Audix, hvilken MICE-pakke som inneholder en, hvor mange et møte trenger, hvem som styrer lydnivået og hva vi skaffer når du trenger flere."
+publishDate: "2026-10-13"
+sourceUpdated: "2026-10-13"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Å leie bordmikrofon i Malaga, Spania, betyr som regel et møte der flere personer snakker fra plassene sine: et styrerom, et panel bak et bord, en kundeworkshop i en hotellsuite. Denne siden forklarer hvilke bordmikrofoner vi faktisk eier, hvilken pakke som inneholder en, hvor mange et møte trenger, hvem som styrer lydnivået, og hva vi gjør når møtet ditt krever mer enn det vårt eget lager dekker.
+
+Malaga Event Gear (MEG) eier fire bordmikrofoner med svanehals fra Audix og leverer, installerer og tester dem sammen med et lydanlegg i Malaga og langs hele Costa del Sol. De er en del av vår [utleie av audiovisuelt utstyr](/blog/audiovisual-equipment-rental-service/), og nedenfor sier vi tydelig hva vi ikke påstår om dem.
+
+## Innholdsfortegnelse
+
+-   [Kort oversikt](#kort-oversikt)
+-   [Det viktigste](#det-viktigste)
+-   [Våre fire bordmikrofoner med svanehals fra Audix](#våre-fire-bordmikrofoner-med-svanehals-fra-audix)
+-   [Hvilken pakke som inneholder en bordmikrofon](#hvilken-pakke-som-inneholder-en-bordmikrofon)
+-   [Hvor mange bordmikrofoner et møte trenger](#hvor-mange-bordmikrofoner-et-møte-trenger)
+-   [Bordmikrofon eller trådløs mikrofon: hva passer til et møte?](#bordmikrofon-eller-trådløs-mikrofon-hva-passer-til-et-møte)
+-   [Hvem styrer lydnivået, og er en tekniker inkludert?](#hvem-styrer-lydnivået-og-er-en-tekniker-inkludert)
+-   [Bordmikrofoner til videosamtaler og hybridmøter](#bordmikrofoner-til-videosamtaler-og-hybridmøter)
+-   [Hva koster det å leie en bordmikrofon?](#hva-koster-det-å-leie-en-bordmikrofon)
+-   [Slik velger du en bordmikrofon å leie](#slik-velger-du-en-bordmikrofon-å-leie)
+-   [Ekte oppsett vi har levert](#ekte-oppsett-vi-har-levert)
+-   [Hvor vi leverer og hvordan du bestiller](#hvor-vi-leverer-og-hvordan-du-bestiller)
+-   [Konklusjon](#konklusjon)
+-   [Ofte stilte spørsmål](#ofte-stilte-spørsmål)
+    -   [Kan jeg leie bordmikrofoner i flere dager?](#kan-jeg-leie-bordmikrofoner-i-flere-dager)
+    -   [Hvor raskt kan bordmikrofoner settes opp?](#hvor-raskt-kan-bordmikrofoner-settes-opp)
+    -   [Demper bordmikrofoner bakgrunnsstøy?](#demper-bordmikrofoner-bakgrunnsstøy)
+    -   [Hvilken mikrofon passer i et støyende rom?](#hvilken-mikrofon-passer-i-et-støyende-rom)
+    -   [Passer bordmikrofoner i et styrerom?](#passer-bordmikrofoner-i-et-styrerom)
+    -   [Kan bordmikrofoner kobles til bærbare datamaskiner og telefoner?](#kan-bordmikrofoner-kobles-til-bærbare-datamaskiner-og-telefoner)
+    -   [Leier dere ut høyttalertelefoner eller konferansetelefoner?](#leier-dere-ut-høyttalertelefoner-eller-konferansetelefoner)
+
+## Kort oversikt
+
+---
+
+Malaga Event Gear eier fire bordmikrofoner med svanehals fra Audix, to ADX12 og to ADX212, hver med en K&M-fot og en Audix D-Clip. De er koblet med kabel til mikserpultet i lydanlegget, slik at hver taler blir sittende ved bordet mens nivået styres fra ett sted. [Basic MICE Pack](/packages/basic-mice/) og [MICE Pack](/packages/mice/) inneholder en hver. Flere bordmikrofoner til et panel er et tilvalg etter tilbud, og mer enn fire betyr leverandører.
+
+## Det viktigste
+
+---
+
+-   Fire bordmikrofoner i vårt eget lager: 2 Audix ADX12 og 2 Audix ADX212, med svanehals, en K&M-fot og en Audix D-Clip.
+-   Koblet med kabel til mikserpultet. Vi påstår ingenting om Bluetooth, USB eller støyreduksjon for dem.
+-   En svanehalsmikrofon i Basic MICE Pack og en svanehalsmikrofon pluss en trådløs håndmikrofon i MICE Pack, som også inneholder en tekniker i opptil 6 timer.
+-   Ekstra bordmikrofoner til et panel har ingen publisert pris og gis som tilvalg etter tilbud. Mer enn fire har vi ikke i vårt eget lager, så vi ser hos leverandører, hvis det finnes en løsning.
+-   Teknikeren vår betjener lyden og mikrofonene. Taleren kjører selv sine egne lysbilder.
+
+## Våre fire bordmikrofoner med svanehals fra Audix
+
+Bordmikrofonene våre er fire svanehalsenheter fra Audix: to ADX12 og to ADX212. Hver står på en K&M-fot med en Audix D-Clip. En svanehals har en bøyelig hals, så du kan justere høyde og vinkel mot talerens munn, og den er kablet, noe som betyr at den går inn i lydanleggets mikserpult i stedet for å fungere alene. De samme fire brukes til en talerstol eller et bord, så fire er taket for det vi eier av denne typen mikrofon.
+
+![To HK Audio-høyttalere på stativ og et panelbord med svanehalsmikrofoner foran en lav scene hos en Volvo-forhandler i Malaga.](https://cdn.malagaeventgear.com/blog/1266/volvo_mice_event_setup-1024x765.webp "Svanehalsmikrofoner på et panelbord hos en Volvo-forhandler i Malaga, der vi bare leverte lydsystemet: HK Audio-høyttalere på stativ og mikrofonene.")
+
+Vi publiserer ikke noe datablad for dem. Ingen polarmønster, ikke noe frekvensområde, og ingen påstand om en volumknapp på mikrofonen, en dempeknapp, Bluetooth, USB eller støyreduksjon. Hvis noe av dette har betydning for møtet ditt, si fra, så forteller vi tydelig hva vi kan og ikke kan tilby.
+
+<InlineCTA />
+
+## Hvilken pakke som inneholder en bordmikrofon
+
+To av pakkene våre inneholder en. [Basic MICE Pack](/packages/basic-mice/) til 295 euro eks. mva. inneholder en profesjonell svanehalsmikrofon, en prosjektor på 3000 lumen med et lerret på 2x2m og lydforsterkning for opptil 40 gjester. Den er laget for et styrerom, en privat salong eller en hotellsuite. [MICE Pack](/packages/mice/) til 490 euro eks. mva. inneholder en svanehalsmikrofon pluss en trådløs håndmikrofon, en LED-skjerm på 60 tommer og en tekniker på stedet i opptil 6 timer, for opptil 120 gjester.
+
+Ingen av de andre tre pakkene våre inneholder en svanehalsmikrofon. Ingen av de to MICE-pakkene inneholder mer enn en. Har møtet ditt flere talere som sitter ned, er pakken grunnlaget, og de ekstra bordmikrofonene legges oppå etter tilbud.
+
+## Hvor mange bordmikrofoner et møte trenger
+
+Vi bruker ikke noe fast forhold som en mikrofon per person. Antallet avhenger av hvem som snakker, hvordan bordet er satt opp og hvordan rommet låter. Et møte der en eller to personer presenterer og resten lytter, er en annen jobb enn et rundt bord der alle deltar. Fortell oss hvordan setene er ordnet og hvor mange som skal snakke når du ber om et tilbud, så foreslår vi et oppsett.
+
+Ta et møte med 10 personer. Begynn med pakken: en svanehalsmikrofon i Basic MICE Pack, pluss en trådløs håndmikrofon i MICE Pack som kan gis videre til den som snakker. Legg deretter til bordmikrofoner for plassene der det skal snakkes mest. Vi eier fire, så opptil fire kan komme fra vårt eget lager, hvis de er ledige på datoen din. En femte eller flere har vi ikke i vårt eget lager: fortell oss hva du trenger, så ser vi etter en løsning hos leverandørene våre, hvis det finnes en.
+
+## Bordmikrofon eller trådløs mikrofon: hva passer til et møte?
+
+En bordmikrofon passer til talere som blir sittende på samme sted. En trådløs mikrofon passer til noen som beveger seg eller gir mikrofonen videre. Sammenlign dem etter bruk, ikke etter spesifikasjoner:
+
+| Mikrofon | Passer best til | Husk |
+| --- | --- | --- |
+| Bordmikrofon med svanehals (Audix ADX12, ADX212) | Talere som sitter ved et møtebord, et panelbord eller en talerstol | Kablet, så taleren må holde seg innenfor rekkevidden til stativet |
+| Trådløs håndmikrofon (Audix) | Spørsmål og svar, en taler som går rundt, en mikrofon som sendes rundt i rommet | Noen må holde den og gi den videre |
+| Mygg (AUDIX RAD-360) | En foredragsholder som trenger begge hendene frie og en diskret mikrofon | Bare 2 sett, et tilvalg etter tilbud utenfor pakkene |
+| Headset (AUDIX HT5) | En foredragsholder som beveger seg og gestikulerer | Bare 1 enhet, synlig på video, et tilvalg etter tilbud |
+
+For en foredragsholder som vil ha begge hendene frie, går guiden vår om å [leie mygg og headset](/blog/headset-lavalier-microphone-rental/) gjennom de to myggsettene og headsetmikrofonen i detalj. En måte å blande de to typene på er en svanehalsmikrofon ved bordet og en trådløs håndmikrofon til spørsmål, og det er nettopp slik MICE Pack er bygget opp.
+
+## Hvem styrer lydnivået, og er en tekniker inkludert?
+
+Nivået på hver bordmikrofon stilles inn på mikserpultet. Teamet vårt stiller det inn når vi installerer og tester anlegget før møtet ditt, og justerer gain og mikrofonplassering etter rommet. Guiden vår om [kalibrering av lydanlegg](/blog/audio-system-calibration/) forklarer gain staging på enkelt vis.
+
+Under møtet avhenger det av pakken hvem som rører mikserpultet. MICE Pack inneholder en tekniker på stedet i opptil 6 timer, som betjener lyden og mikrofonene og løser enhver feil på lyden eller skjermen. En ekstra time koster 40 euro. På Basic MICE Pack er en tekniker valgfri til 240 euro per dag, og uten en blir nivåene stående som de ble stilt inn ved installasjonen, så ditt eget team tar seg av enhver endring på mikserpultet. Taleren kjører alltid selv sine egne lysbilder.
+
+## Bordmikrofoner til videosamtaler og hybridmøter
+
+Bordmikrofonene våre mater lydanlegget vårt, slik at menneskene i rommet hører hver taler. Vi lover ikke at romblandingen kan sendes inn i en videosamtale. Hvordan en deltaker på avstand hører rommet, avhenger av hvordan samtalen er koblet, så fortell oss hvilken bærbar datamaskin og hvilken programvare du bruker, så bekrefter vi hva som er mulig før du bestiller.
+
+Det vi leverer er romsiden: lyd, mikrofoner og en prosjektor med lerret eller en LED-skjerm på 60 tommer. Du tar med din bærbare datamaskin, konferanseprogramvaren din og internettforbindelsen din. Kameraer og streaming har vi ikke i vårt eget lager. Det har vi heller ikke høyttalertelefoner, konferansetelefoner og utstyr til videokonferanser, og derfor nevner vi ikke noe merke eller noen modell. Fortell oss hva du trenger, så ser vi etter en løsning hos leverandørene våre, hvis det finnes en. Guiden vår om [møteteknikk](/blog/audio-visual-rental-for-corporate-meetings/) tar for seg den oppdelingen for hybridmøter.
+
+## Hva koster det å leie en bordmikrofon?
+
+Kostnaden har tre deler. Pakken kommer først: 295 euro eks. mva. for Basic MICE Pack eller 490 euro eks. mva. for MICE Pack, med transport og oppsett inkludert og spansk mva. på 21 prosent oppå. Teknikeren kommer som nummer to: inkludert i opptil 6 timer på MICE Pack, 240 euro per dag på Basic MICE Pack.
+
+Ekstra bordmikrofoner er den tredje delen. Vi publiserer ikke noen pris for en enkelt, så vi gjetter ikke på noe tall her. Fortell oss om møtet, så gir vi tilbud på pakken og de ekstra mikrofonene samlet.
+
+## Slik velger du en bordmikrofon å leie
+
+Uansett hvem du leier hos, er disse fem spørsmålene verdt å stille. Her er svarene våre:
+
+-   **Hvem eier mikrofonene?** Fire bordmikrofoner med svanehals fra Audix er våre. Alt utover dem skaffer vi hos leverandører, og det forteller vi deg.
+-   **Hvordan er de koblet til?** Med kabel til mikserpultet i lydanlegget.
+-   **Hvem setter dem opp og tester dem?** Teamet vårt leverer, installerer og tester dem. Vi jobber utelukkende med levering, uten selvhenting.
+-   **Hvem betjener dem under møtet?** En tekniker, hvis pakken din inneholder en eller hvis du legger til en. Ellers blir nivåene stående som de ble stilt inn.
+-   **Hva er ikke dekket?** Høyttalertelefoner, konferansetelefoner, utstyr til videokonferanser, kameraer og streaming har vi ikke i vårt eget lager.
+
+## Ekte oppsett vi har levert
+
+På den fire dager lange [PROGOLD SUMMIT 2026 i Torremolinos](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/) installerte og overvåket teamet vårt anlegget hele veien, med trådløse mikrofoner og svanehalsmikrofoner til foredragsholderne. Til et todagers [arrangement med Bmotion i Benahavís](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/) utstyrte vi foredragsholderne med svanehalsmikrofoner på en talerstol av metakrylat til formelle taler, ved siden av trådløse mikrofoner til paneler og spørsmål og svar.
+
+En av Google-anmeldelsene våre kommer fra en kunde som holdt et møte i Malaga:
+
+<blockquote>
+<p lang="en">"I am really satisfied with this team, they exceeded my expectations. Having a meeting in Malaga, it was a huge help that I did not have to care about the visual solutions and the sound, they made it easy and smooth. They answered all my questions and delivered a high quality equipment to the meeting. Totally worth it!"</p>
+<ul><li>Dániel Gombár, Google-anmeldelse med 5 stjerner, mars 2025</li></ul>
+</blockquote>
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1266/', '/1267/', '/2278/'])} speed="normal" direction="left" />
+</div>
+
+## Hvor vi leverer og hvordan du bestiller
+
+Å lete etter utleie i nærheten av deg betyr mindre enn om utstyret kommer fram til lokalet ditt. Vi har base i Malaga og leverer langs hele Costa del Sol: Marbella, Fuengirola, Torremolinos, Benalmádena, Estepona, Mijas, Ronda og Nerja ligger alle i serviceområdet vårt, og vi betjener også Sevilla uten minsteordre. Granada krever en bestilling over 400 euro for å dekke den logistiske reisen for dagen.
+
+Vi jobber utelukkende med levering, uten selvhenting, så ingen henter bordmikrofoner hos oss. Hver bestilling krever minst 24 timers varsel, og å bestille så snart datoen er satt gir deg størst utvalg. [Kontakt oss](/contact/) med lokalet ditt, datoen din og hvor mange som skal snakke.
+
+## Konklusjon
+
+Å leie bordmikrofon i Malaga betyr hos oss fire kablede svanehalsmikrofoner fra Audix som vi selv eier: en i Basic MICE Pack, en i MICE Pack, flere etter tilbud til et panel og leverandører utover fire. Høyttalertelefoner og konferansetelefoner ligger utenfor vårt eget lager, og det sier vi før du bestiller. [Kontakt oss](/contact/) med opplysninger om arrangementet ditt, eller se det bredere utvalget på siden vår om [utleie av audiovisuelt utstyr](/blog/audiovisual-equipment-rental-service/).
+
+## Ofte stilte spørsmål
+
+### Kan jeg leie bordmikrofoner i flere dager?
+
+Ja, som en bestilling over flere dager som prises individuelt. Vi priser per arrangement og publiserer verken dags- eller ukepris eller rabatt for flere dager, så et møte eller en konferanse over flere dager får et tilbud på mål. Vi har støttet den fire dager lange PROGOLD SUMMIT 2026 i Torremolinos med trådløse mikrofoner og svanehalsmikrofoner. Vi jobber utelukkende med levering. [Kontakt oss](/contact/) med datoene dine, så gir vi tilbud på hele bestillingen.
+
+### Hvor raskt kan bordmikrofoner settes opp?
+
+Vi publiserer ingen oppsettstid, fordi den avhenger av rommet, kabelføringen og hvor mange mikrofoner som står på bordet. Det som er fast, er rekkefølgen i arbeidet: Teamet vårt leverer, installerer og tester mikrofonene sammen med lydanlegget før møtet ditt begynner. Hver bestilling krever minst 24 timers varsel. Det er et minimum, ikke et løfte om levering samme dag, så bestill så snart datoen er satt.
+
+### Demper bordmikrofoner bakgrunnsstøy?
+
+Vi påstår ikke støyreduksjon for bordmikrofonene våre Audix ADX12 og ADX212. Det som hjelper i praksis, er hvordan de settes opp: gain stilles inn på mikserpultet, og mikrofonen plasseres tett på talerens munn, slik at stemmen skiller seg fra rommet. Se [Hvem styrer lydnivået](#hvem-styrer-lydnivået-og-er-en-tekniker-inkludert) ovenfor.
+
+### Hvilken mikrofon passer i et støyende rom?
+
+En som blir tett på talerens munn. I et høyt rom sitter en trådløs håndmikrofon eller en headsetmikrofon nærmere enn en bordmikrofon, så stemmen konkurrerer mindre med rommet. En svanehalsmikrofon fungerer likevel når den plasseres tett på og teamet vårt stiller inn gain. Se [Bordmikrofon eller trådløs mikrofon](#bordmikrofon-eller-trådløs-mikrofon-hva-passer-til-et-møte) ovenfor.
+
+### Passer bordmikrofoner i et styrerom?
+
+Ja. En bordmikrofon med svanehals er det [Basic MICE Pack](/packages/basic-mice/) bruker til et møte i styrerom eller hotellsuite med opptil 40 gjester, med en prosjektor, et lerret og lyd. Skal flere personer som sitter ned snakke, er ekstra bordmikrofoner et tilvalg etter tilbud. Guiden vår om [møteteknikk](/blog/audio-visual-rental-for-corporate-meetings/) forklarer hvordan et styremøte skiller seg fra en konferanse.
+
+### Kan bordmikrofoner kobles til bærbare datamaskiner og telefoner?
+
+Våre er kablede svanehalsmikrofoner som går inn i lydanleggets mikserpult, ikke i en bærbar datamaskin eller en telefon. En bærbar datamaskin er en egen tilkobling, til lydanlegget og skjermen, ikke til mikrofonene. Product Presentation Pack er den som lister HDMI- og USB-C-adaptere og lydgrensesnitt, så ved et Basic MICE Pack eller et MICE Pack må du fortelle oss ved bestillingen hvilke porter den bærbare datamaskinen din har. Mikrofoner med Bluetooth, USB eller tilkobling til flere enheter har vi ikke i vårt eget lager. Fortell oss hva du trenger, så ser vi etter en løsning hos leverandørene våre, hvis det finnes en.
+
+### Leier dere ut høyttalertelefoner eller konferansetelefoner?
+
+Ikke fra vårt eget lager. Høyttalertelefoner, konferansetelefoner og utstyr til videokonferanser er ikke en del av det. Fortell oss hva møtet ditt trenger, så ser vi etter en løsning hos leverandørene våre, hvis det finnes en, uten å love tilgjengelighet eller leveringstid. Se [Bordmikrofoner til videosamtaler og hybridmøter](#bordmikrofoner-til-videosamtaler-og-hybridmøter) ovenfor.

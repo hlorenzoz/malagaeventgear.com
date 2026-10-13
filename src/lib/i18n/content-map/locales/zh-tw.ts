@@ -443,6 +443,11 @@ export default {
 			slug: '網球團體賽燈光音響',
 			keyword: 'Billie Jean King Cup 2024',
 			status: 'propuesta'
+		},
+		'conference-table-microphone-rental': {
+			slug: '會議桌上型麥克風租賃',
+			keyword: '馬拉加 會議桌上型麥克風租賃',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

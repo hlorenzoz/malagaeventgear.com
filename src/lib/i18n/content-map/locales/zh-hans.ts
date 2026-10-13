@@ -447,6 +447,11 @@ export default {
 			slug: '网球团体赛灯光音响',
 			keyword: 'Billie Jean King Cup 2024',
 			status: 'propuesta'
+		},
+		'conference-table-microphone-rental': {
+			slug: '会议桌面麦克风租赁',
+			keyword: '马拉加 会议桌面麦克风租赁',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

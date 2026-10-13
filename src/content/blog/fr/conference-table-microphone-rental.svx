@@ -1,0 +1,175 @@
+---
+title: "Location de micros de table pour réunion à Malaga, Espagne"
+description: "Location de micros de table pour réunion à Malaga, Espagne : quatre micros Audix à col de cygne, le forfait qui en inclut un et comment organiser votre réunion."
+excerpt: "Quatre micros de table Audix filaires à col de cygne, le forfait MICE qui en comprend un, combien une réunion en demande, qui règle le volume et ce que nous trouvons quand il vous en faut plus."
+publishDate: "2026-10-13"
+sourceUpdated: "2026-10-13"
+---
+
+<script>
+	import ImageMarquee from '$lib/components/home/ImageMarquee.svelte';
+	import { getImagesForPackage } from '$lib/data/gallery';
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Si vous cherchez une location de micros de table pour réunion à Malaga, en Espagne, il s'agit généralement d'une réunion où plusieurs personnes prennent la parole depuis leur siège : une salle de conseil, un panel derrière une table, un atelier client dans une suite d'hôtel. Cette page explique quels micros de table nous possédons réellement, quel forfait en comprend un, de combien une réunion a besoin, qui contrôle le volume, et ce que nous faisons quand votre réunion demande plus que ce que couvre notre propre inventaire.
+
+Malaga Event Gear (MEG) possède quatre micros de table à col de cygne Audix et les livre, les installe et les teste avec un système de sonorisation à Malaga et sur l'ensemble de la Costa del Sol. Ils font partie de ce que décrit notre page [loueur de matériel audiovisuel](/blog/audiovisual-equipment-rental-service/), et nous disons ci-dessous clairement ce que nous ne prétendons pas à leur sujet.
+
+## Table des matières
+
+-   [En bref](#en-bref)
+-   [Points clés](#points-clés)
+-   [Nos quatre micros de table à col de cygne Audix](#nos-quatre-micros-de-table-à-col-de-cygne-audix)
+-   [Quel forfait comprend un micro de table](#quel-forfait-comprend-un-micro-de-table)
+-   [Combien de micros de table faut-il pour une réunion](#combien-de-micros-de-table-faut-il-pour-une-réunion)
+-   [Micro de table ou micro sans fil : lequel convient à une réunion ?](#micro-de-table-ou-micro-sans-fil--lequel-convient-à-une-réunion-)
+-   [Qui règle le volume, et un technicien est-il inclus ?](#qui-règle-le-volume-et-un-technicien-est-il-inclus-)
+-   [Micros de table pour les appels vidéo et les réunions hybrides](#micros-de-table-pour-les-appels-vidéo-et-les-réunions-hybrides)
+-   [Combien coûte la location d'un micro de table ?](#combien-coûte-la-location-dun-micro-de-table-)
+-   [Comment choisir sa location de micros de table](#comment-choisir-sa-location-de-micros-de-table)
+-   [Des installations réelles que nous avons réalisées](#des-installations-réelles-que-nous-avons-réalisées)
+-   [Où nous livrons et comment réserver](#où-nous-livrons-et-comment-réserver)
+-   [Conclusion](#conclusion)
+-   [Questions fréquentes](#questions-fréquentes)
+    -   [Puis-je louer des micros de table pour plusieurs jours ?](#puis-je-louer-des-micros-de-table-pour-plusieurs-jours-)
+    -   [En combien de temps installe-t-on des micros de table ?](#en-combien-de-temps-installe-t-on-des-micros-de-table-)
+    -   [Les micros de table suppriment-ils le bruit de fond ?](#les-micros-de-table-suppriment-ils-le-bruit-de-fond-)
+    -   [Quel micro convient à une salle bruyante ?](#quel-micro-convient-à-une-salle-bruyante-)
+    -   [Les micros de table conviennent-ils à une salle de conseil ?](#les-micros-de-table-conviennent-ils-à-une-salle-de-conseil-)
+    -   [Les micros de table se branchent-ils sur un ordinateur portable ou un téléphone ?](#les-micros-de-table-se-branchent-ils-sur-un-ordinateur-portable-ou-un-téléphone-)
+    -   [Louez-vous des haut-parleurs de conférence ou des téléphones de conférence ?](#louez-vous-des-haut-parleurs-de-conférence-ou-des-téléphones-de-conférence-)
+
+## En bref
+
+---
+
+Malaga Event Gear possède quatre micros de table à col de cygne Audix, deux ADX12 et deux ADX212, chacun avec un pied K&M et une pince Audix D-Clip. Ils sont reliés par câble à la console de mixage du système de sonorisation : chaque intervenant reste assis à la table pendant que le niveau se gère depuis un seul endroit. Le [Basic MICE Pack](/packages/basic-mice/) et le [MICE Pack](/packages/mice/) en comprennent un chacun. Des micros de table supplémentaires pour un panel sont une option sur devis, et au-delà de quatre, il faut passer par des fournisseurs.
+
+## Points clés
+
+---
+
+-   Quatre micros de table dans notre propre inventaire : 2 Audix ADX12 et 2 Audix ADX212, à col de cygne, avec un pied K&M et une pince Audix D-Clip.
+-   Reliés par câble à la console de mixage. Nous ne revendiquons ni Bluetooth, ni USB, ni réduction de bruit pour eux.
+-   Un col de cygne dans le Basic MICE Pack, et un col de cygne plus un micro main sans fil dans le MICE Pack, qui comprend aussi un technicien jusqu'à 6 heures.
+-   Les micros de table supplémentaires pour un panel n'ont pas de prix publié et sont proposés en option sur devis. Au-delà de quatre, ils ne font pas partie de notre propre inventaire, donc nous regardons du côté des fournisseurs, s'il y en a un.
+-   Notre technicien gère le son et les micros. L'intervenant fait défiler lui-même ses diapositives.
+
+## Nos quatre micros de table à col de cygne Audix
+
+Nos micros de table sont quatre appareils à col de cygne Audix : deux ADX12 et deux ADX212. Chacun repose sur un pied K&M avec une pince Audix D-Clip. Un col de cygne a un tube flexible, ce qui permet de régler sa hauteur et son angle vers la bouche de l'intervenant, et il est filaire, c'est-à-dire qu'il se branche sur la console de mixage du système de sonorisation au lieu de fonctionner seul. Les mêmes quatre servent aussi bien pour un pupitre que pour une table, donc quatre est le plafond de ce que nous possédons pour ce type de micro.
+
+![Deux enceintes HK Audio sur trépieds et une table de panel avec des micros à col de cygne, devant une petite scène basse dans un concessionnaire Volvo à Malaga.](https://cdn.malagaeventgear.com/blog/1266/volvo_mice_event_setup-1024x765.webp "Des micros à col de cygne sur une table de panel dans un concessionnaire Volvo à Malaga, où nous avons fourni uniquement le système audio : des enceintes HK Audio sur trépieds et les micros.")
+
+Nous ne publions pas de fiche technique pour eux. Pas de directivité, pas de plage de fréquences, et aucune affirmation sur une molette de volume sur le micro, un bouton de mise en sourdine, le Bluetooth, l'USB ou la réduction de bruit. Si l'un de ces points compte pour votre réunion, dites-le-nous et nous vous disons clairement ce que nous pouvons et ne pouvons pas proposer.
+
+<InlineCTA />
+
+## Quel forfait comprend un micro de table
+
+Deux de nos forfaits en comprennent un. Le [Basic MICE Pack](/packages/basic-mice/), à 295 euros HT, comprend un micro professionnel à col de cygne, un vidéoprojecteur de 3000 lumens avec un écran de 2x2m et une sonorisation pour jusqu'à 40 invités. Il est conçu pour une salle de conseil, un salon privé ou une suite d'hôtel. Le [MICE Pack](/packages/mice/), à 490 euros HT, comprend un micro à col de cygne plus un micro main sans fil, un écran LED de 60 pouces et un technicien sur place jusqu'à 6 heures, pour jusqu'à 120 invités.
+
+Aucun de nos trois autres forfaits ne comprend de col de cygne. Aucun des deux forfaits MICE n'en comprend plus d'un. Si votre réunion compte plusieurs intervenants assis, le forfait est la base et les micros de table supplémentaires s'y ajoutent sur devis.
+
+## Combien de micros de table faut-il pour une réunion
+
+Nous n'appliquons pas de ratio fixe du type un micro par personne. Le nombre dépend de qui parle, de la disposition de la table et de l'acoustique de la salle. Une réunion où une ou deux personnes présentent et les autres écoutent est un travail différent d'une table ronde où tout le monde participe. Indiquez-nous la disposition des sièges et le nombre de personnes qui prendront la parole quand vous demandez un devis, et nous vous proposons une installation.
+
+Prenons une réunion de 10 personnes. On part du forfait : un col de cygne dans le Basic MICE Pack, plus un micro main sans fil dans le MICE Pack que l'on peut passer à celui qui parle. Puis on ajoute des micros de table pour les sièges où l'on parlera le plus. Nous en possédons quatre, donc jusqu'à quatre peuvent venir de notre propre inventaire, s'ils sont libres à votre date. Un cinquième ou plus ne fait pas partie de notre propre inventaire : dites-nous ce qu'il vous faut et nous cherchons une solution avec nos fournisseurs, s'il y en a une.
+
+## Micro de table ou micro sans fil : lequel convient à une réunion ?
+
+Un micro de table convient à des intervenants qui restent assis au même endroit. Un micro sans fil convient à quelqu'un qui se déplace ou qui passe le micro. Comparez-les selon l'usage, pas selon la fiche technique :
+
+| Micro | Convient le mieux à | À garder en tête |
+| --- | --- | --- |
+| Micro de table à col de cygne (Audix ADX12, ADX212) | Des intervenants assis à une table de réunion, une table de panel ou un pupitre | Filaire : l'intervenant reste à portée du pied |
+| Micro main sans fil (Audix) | Questions-réponses, un intervenant qui se déplace, un micro qui circule dans la salle | Quelqu'un doit le tenir et le passer |
+| Micro cravate (AUDIX RAD-360) | Un présentateur qui a besoin de ses deux mains libres et d'un micro discret | 2 ensembles seulement, option sur devis hors forfaits |
+| Micro serre-tête (AUDIX HT5) | Un présentateur qui se déplace et gesticule | 1 seul, visible à l'image, option sur devis |
+
+Pour un présentateur qui veut garder les deux mains libres, notre guide de [location de micros cravate et serre-tête](/blog/headset-lavalier-microphone-rental/) détaille les deux ensembles cravate et le micro serre-tête. Une façon de combiner les deux types est un col de cygne à la table et un micro main sans fil pour les questions, ce qui est exactement la composition du MICE Pack.
+
+## Qui règle le volume, et un technicien est-il inclus ?
+
+Le niveau de chaque micro de table se règle sur la console de mixage. Notre équipe le règle pendant l'installation et le test du système avant votre réunion, en ajustant le gain et le placement des micros selon la salle. Notre guide sur l'[étalonnage d'un système audio](/blog/audio-system-calibration/) explique le réglage du gain en termes simples.
+
+Pendant la réunion, la personne qui touche à la console dépend du forfait. Le MICE Pack comprend un technicien sur place jusqu'à 6 heures, qui gère le son et les micros et résout toute panne de son ou d'écran. Une heure supplémentaire coûte 40 euros. Avec le Basic MICE Pack, un technicien est en option à 240 euros par jour, et sans lui les niveaux réglés à l'installation restent tels quels, donc votre propre équipe gère tout changement à la console. L'intervenant fait toujours défiler lui-même ses diapositives.
+
+## Micros de table pour les appels vidéo et les réunions hybrides
+
+Nos micros de table alimentent notre système de sonorisation, de sorte que les personnes présentes dans la salle entendent chaque intervenant. Nous ne promettons pas que le mixage de la salle puisse être envoyé dans un appel vidéo. La façon dont un participant à distance entend la salle dépend de la manière dont l'appel est connecté, alors indiquez-nous quel ordinateur portable et quel logiciel vous utilisez et nous confirmons ce qui est possible avant que vous ne réserviez.
+
+Ce que nous fournissons, c'est le côté salle : le son, les micros, et un vidéoprojecteur avec un écran ou un écran LED de 60 pouces. Vous apportez votre ordinateur portable, votre logiciel de visioconférence et votre connexion internet. Les caméras et la diffusion en direct ne font pas partie de notre propre inventaire. Les haut-parleurs de conférence, les téléphones de conférence et le matériel de visioconférence non plus, et c'est pourquoi nous ne citons aucune marque ni aucun modèle. Dites-nous ce qu'il vous faut et nous cherchons une solution avec nos fournisseurs, s'il y en a une. Notre guide sur l'[équipement audiovisuel pour une réunion d'entreprise](/blog/audio-visual-rental-for-corporate-meetings/) traite de ce partage des rôles pour les réunions hybrides.
+
+## Combien coûte la location d'un micro de table ?
+
+Le coût se compose de trois éléments. Le forfait vient en premier : 295 euros HT pour le Basic MICE Pack ou 490 euros HT pour le MICE Pack, transport et installation inclus, avec la TVA espagnole de 21 % en plus. Le technicien vient en second : inclus jusqu'à 6 heures avec le MICE Pack, 240 euros par jour avec le Basic MICE Pack.
+
+Les micros de table supplémentaires viennent en troisième. Nous ne publions pas de prix pour un micro seul, donc nous ne devinerons pas de chiffre ici. Décrivez-nous la réunion et nous chiffrons ensemble le forfait et les micros supplémentaires.
+
+## Comment choisir sa location de micros de table
+
+Quel que soit le prestataire, ces cinq questions valent la peine d'être posées. Voici nos réponses :
+
+-   **À qui appartiennent les micros ?** Quatre micros de table à col de cygne Audix sont à nous. Tout ce qui va au-delà est trouvé auprès de fournisseurs, et nous vous le disons.
+-   **Comment sont-ils reliés ?** Par câble à la console de mixage du système de sonorisation.
+-   **Qui les installe et les teste ?** Notre équipe les livre, les installe et les teste. Nous travaillons uniquement en livraison, sans retrait sur place.
+-   **Qui les gère pendant la réunion ?** Un technicien, si votre forfait en comprend un ou si vous en ajoutez un. Sinon, les niveaux restent tels que réglés.
+-   **Qu'est-ce qui n'est pas couvert ?** Les haut-parleurs de conférence, les téléphones de conférence, le matériel de visioconférence, les caméras et la diffusion en direct ne font pas partie de notre propre inventaire.
+
+## Des installations réelles que nous avons réalisées
+
+Lors du [PROGOLD SUMMIT 2026 à Torremolinos](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/), sur quatre jours, notre équipe a installé le système et l'a surveillé tout du long, avec des micros sans fil et à col de cygne pour les présentateurs. Pour un [événement Bmotion à Benahavís](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/) de deux jours, nous avons équipé les présentateurs de micros à col de cygne sur un pupitre en méthacrylate pour les allocutions formelles, en plus de micros sans fil pour les panels et les questions-réponses.
+
+Un de nos avis Google vient d'un client qui a tenu une réunion à Malaga :
+
+<blockquote>
+<p lang="en">"I am really satisfied with this team, they exceeded my expectations. Having a meeting in Malaga, it was a huge help that I did not have to care about the visual solutions and the sound, they made it easy and smooth. They answered all my questions and delivered a high quality equipment to the meeting. Totally worth it!"</p>
+<ul><li>Dániel Gombár, avis Google 5 étoiles, mars 2025</li></ul>
+</blockquote>
+
+<div class="my-12 overflow-hidden w-full">
+	<ImageMarquee images={getImagesForPackage('basic-mice', ['/1266/', '/1267/', '/2278/'])} speed="normal" direction="left" />
+</div>
+
+## Où nous livrons et comment réserver
+
+Chercher une location près de chez soi compte moins que de savoir si le matériel arrive jusqu'à votre lieu. Nous sommes basés à Malaga et livrons sur toute la Costa del Sol : Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas, Ronda et Nerja font toutes partie de notre zone de service, et nous desservons aussi Séville sans minimum de commande. Grenade demande une réservation de plus de 400 euros pour couvrir le déplacement logistique de la journée.
+
+Nous travaillons uniquement en livraison, sans retrait sur place, donc personne ne vient récupérer de micros de table chez nous. Chaque réservation demande un préavis d'au moins 24 heures, et réserver dès que votre date est fixée vous laisse le plus de choix. [Contactez-nous](/contact/) en indiquant votre lieu, votre date et le nombre de personnes qui prendront la parole.
+
+## Conclusion
+
+La location de micros de table pour réunion à Malaga, chez MEG, ce sont quatre micros à col de cygne Audix filaires qui nous appartiennent : un dans le Basic MICE Pack, un dans le MICE Pack, d'autres sur devis pour un panel, et des fournisseurs au-delà de quatre. Les haut-parleurs de conférence et les téléphones de conférence sont hors de notre propre inventaire, et nous le disons avant la réservation. [Contactez-nous](/contact/) avec les détails de votre événement, ou découvrez l'ensemble de l'offre sur notre page [loueur de matériel audiovisuel](/blog/audiovisual-equipment-rental-service/).
+
+## Questions fréquentes
+
+### Puis-je louer des micros de table pour plusieurs jours ?
+
+Oui, sous la forme d'une réservation de plusieurs jours chiffrée au cas par cas. Nous facturons par événement et ne publions ni tarif journalier ou hebdomadaire ni remise pour plusieurs jours : une réunion ou une conférence sur plusieurs jours reçoit donc un devis sur mesure. Nous avons assuré le PROGOLD SUMMIT 2026, sur quatre jours à Torremolinos, avec des micros sans fil et à col de cygne. Nous travaillons uniquement en livraison. [Contactez-nous](/contact/) avec vos dates et nous chiffrons l'ensemble de la réservation.
+
+### En combien de temps installe-t-on des micros de table ?
+
+Nous ne publions pas de durée d'installation, parce qu'elle dépend de la salle, du passage des câbles et du nombre de micros posés sur la table. Ce qui est fixe, c'est l'ordre du travail : notre équipe livre, installe et teste les micros avec le système de sonorisation avant le début de votre réunion. Chaque réservation demande un préavis d'au moins 24 heures. C'est un minimum, pas la promesse d'une livraison le jour même, alors réservez dès que la date est fixée.
+
+### Les micros de table suppriment-ils le bruit de fond ?
+
+Nous ne revendiquons aucune réduction de bruit pour nos micros de table Audix ADX12 et ADX212. Ce qui aide en pratique, c'est leur mise en place : le gain est réglé sur la console de mixage et le micro est placé près de la bouche de l'intervenant, de sorte que la voix se détache de la salle. Voir [Qui règle le volume](#qui-règle-le-volume-et-un-technicien-est-il-inclus-) plus haut.
+
+### Quel micro convient à une salle bruyante ?
+
+Un micro qui reste près de la bouche de l'intervenant. Dans une salle bruyante, un micro main sans fil ou un micro serre-tête se tient plus près qu'un micro de table, donc la voix rivalise moins avec la salle. Un col de cygne fonctionne quand même s'il est placé près de la bouche et que notre équipe règle son gain. Voir [Micro de table ou micro sans fil](#micro-de-table-ou-micro-sans-fil--lequel-convient-à-une-réunion-) plus haut.
+
+### Les micros de table conviennent-ils à une salle de conseil ?
+
+Oui. Un micro de table à col de cygne est ce qu'utilise le [Basic MICE Pack](/packages/basic-mice/) pour une réunion en salle de conseil ou en suite d'hôtel jusqu'à 40 invités, avec un vidéoprojecteur, un écran et du son. Si plusieurs personnes assises doivent prendre la parole, des micros de table supplémentaires sont une option sur devis. Notre guide sur l'[équipement audiovisuel pour une réunion d'entreprise](/blog/audio-visual-rental-for-corporate-meetings/) explique en quoi une réunion de conseil diffère d'une conférence.
+
+### Les micros de table se branchent-ils sur un ordinateur portable ou un téléphone ?
+
+Les nôtres sont des micros à col de cygne filaires qui se branchent sur la console de mixage du système de sonorisation, pas sur un ordinateur portable ni sur un téléphone. Un ordinateur portable est une connexion distincte, vers le système de sonorisation et l'écran, pas vers les micros. Le Product Presentation Pack est celui qui liste des adaptateurs HDMI et USB-C et des interfaces audio, donc avec un Basic MICE Pack ou un MICE Pack, indiquez-nous au moment de la réservation de quels ports dispose votre ordinateur portable. Les micros à connectivité Bluetooth, USB ou avec plusieurs appareils ne font pas partie de notre propre inventaire. Dites-nous ce qu'il vous faut et nous cherchons une solution avec nos fournisseurs, s'il y en a une.
+
+### Louez-vous des haut-parleurs de conférence ou des téléphones de conférence ?
+
+Pas depuis notre propre inventaire. Les haut-parleurs de conférence, les téléphones de conférence et le matériel de visioconférence n'en font pas partie. Dites-nous ce dont votre réunion a besoin et nous cherchons une solution avec nos fournisseurs, s'il y en a une, sans promettre de disponibilité ni de délai. Voir [Micros de table pour les appels vidéo et les réunions hybrides](#micros-de-table-pour-les-appels-vidéo-et-les-réunions-hybrides) plus haut.

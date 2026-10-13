@@ -479,6 +479,11 @@ export default {
 			slug: 'licht-ton-billie-jean-king-cup-2024-malaga',
 			keyword: 'Billie Jean King Cup 2024 in Malaga',
 			status: 'propuesta'
+		},
+		'conference-table-microphone-rental': {
+			slug: 'tischmikrofon-mieten-malaga',
+			keyword: 'Tischmikrofon mieten in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -115,6 +115,36 @@
       "answer": "Malaga Event Gear communicates with clients in English and Spanish, and only those two. Our website is published in several languages so you can read it in your own, but we answer enquiries, send quotes and deal with you in English or Spanish. If you are an international client, write to us in either one through our contact page."
     }
   ],
+  "conference-table-microphone-rental": [
+    {
+      "question": "Can I rent table microphones for several days?",
+      "answer": "Yes, as a multi day booking quoted individually. We price per event and publish no daily or weekly rate and no multi day discount, so a meeting or conference over several days gets a custom quote. We supported the four day PROGOLD SUMMIT 2026 in Torremolinos with wireless and gooseneck microphones. We work delivery only. Contact us with your dates and we quote the whole booking."
+    },
+    {
+      "question": "How fast can table microphones be set up?",
+      "answer": "We publish no setup time, because it depends on the room, the cable run and how many microphones sit on the table. What is fixed is the order of work: our crew delivers, installs and tests the microphones with the sound system before your meeting starts. Every booking needs at least 24 hours of notice. That is a minimum, not a promise of same day delivery, so book as soon as the date is set."
+    },
+    {
+      "question": "Do table microphones cancel background noise?",
+      "answer": "We do not claim noise cancelling for our Audix ADX12 and ADX212 table microphones. What helps in practice is how they are set up: the gain is set at the mixing console and the microphone is placed close to the speaker's mouth, so the voice stands out from the room. See Who Controls the Volume above."
+    },
+    {
+      "question": "Which microphone suits a noisy room?",
+      "answer": "One that stays close to the speaker's mouth. In a loud room a wireless handheld or a headband microphone sits closer than a table microphone, so the voice competes less with the room. A gooseneck still works when it is placed close and its gain is set by our crew. See Table Microphone or Wireless Microphone above."
+    },
+    {
+      "question": "Are table microphones suitable for a boardroom?",
+      "answer": "Yes. A gooseneck table microphone is what the Basic MICE Pack uses for a boardroom or hotel suite meeting of up to 40 guests, with a projector, a screen and sound. If several seated people will speak, extra table microphones are an add on by quote. Our guide to audio visual rental for corporate meetings explains how a board meeting differs from a conference."
+    },
+    {
+      "question": "Can table microphones connect to laptops and phones?",
+      "answer": "Ours are wired gooseneck microphones that run into the mixing console of the sound system, not into a laptop or a phone. A laptop is a separate connection, to the sound system and the screen, not to the microphones. The Product Presentation Pack is the one that lists HDMI and USB-C adapters and audio interfaces, so on a Basic MICE Pack or a MICE Pack tell us which ports your laptop has when you book. Microphones with Bluetooth, USB or multi device connectivity are not in our own inventory. Tell us what you need and we look for a solution with our suppliers, if there is one."
+    },
+    {
+      "question": "Do you rent speakerphones or conference phones?",
+      "answer": "Not from our own inventory. Speakerphones, conference phones and video conferencing hardware are not part of it. Tell us what your meeting needs and we look for a solution with our suppliers, if there is one, without promising availability or a lead time. See Table Microphones for Video Calls and Hybrid Meetings above."
+    }
+  ],
   "how-to-choose-wedding-rentals": [
     {
       "question": "How do I know which wedding rental package I need?",
@@ -1740,7 +1770,7 @@
     },
     {
       "question": "Do You Offer Headset or Lavalier Microphones?",
-      "answer": "Yes. We stock wireless lavalier and headset microphones as a separate item from our package inclusions, for a presenter or performer who needs a hands free mic. See Wireless and Gooseneck Microphone Systems above, and our headset and lavalier microphone rental guide for the full comparison and pricing."
+      "answer": "Yes. We stock wireless lavalier and headset microphones as a separate item from our package inclusions, for a presenter or performer who needs a hands free mic. See Wireless and Gooseneck Microphone Systems above. Contact us with your event details and we confirm availability and a quote."
     },
     {
       "question": "Do You Provide Simultaneous Interpretation or Translation Equipment?",

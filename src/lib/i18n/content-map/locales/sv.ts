@@ -479,6 +479,11 @@ export default {
 			slug: 'ljus-ljud-billie-jean-king-cup-2024-malaga',
 			keyword: 'Billie Jean King Cup 2024 i Malaga',
 			status: 'propuesta'
+		},
+		'conference-table-microphone-rental': {
+			slug: 'hyra-bordsmikrofon-malaga',
+			keyword: 'hyra bordsmikrofon i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

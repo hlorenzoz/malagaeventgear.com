@@ -1,0 +1,72 @@
+{
+	"date": "2026-10-13",
+	"taskId": "#T0089",
+	"slug": "conference-table-microphone-rental",
+	"searchTerm": "conference table microphone rental",
+	"status": "partial",
+	"reason": "First query gave 2 readable pages (PRG, Rent For Event): positions 3 (unrelated), 4 (HTTP 503) and 9 (403) skipped. Merged a 3rd page from the query 'gooseneck microphone rental for meetings' (4Wall, its position 1). US vendors only.",
+	"serp": {
+		"query": "conference table microphone rental",
+		"localized": false,
+		"results": [
+			{
+				"rank": 1,
+				"url": "https://prggear.com/product-category/audio-rental/audio-communications/audio-communications-conference-mic-systems/",
+				"title": "audio communications conference mic systems"
+			},
+			{
+				"rank": 2,
+				"url": "https://rentforevent.com/chicago/audio/microphone-rental/table-mic-stand/",
+				"title": "Product Overview:"
+			},
+			{
+				"rank": 3,
+				"url": "https://www.4wall.com/rentals/9759291/shure-mx418-microflex-gooseneck-microphone",
+				"title": "Rentals » Inventory » Audio » Wireless »"
+			}
+		]
+	},
+	"terms": [
+		{ "term": "Shure", "kind": "entity", "seenIn": 3 },
+		{ "term": "meetings", "kind": "related", "seenIn": 3 },
+		{ "term": "gooseneck microphone", "kind": "entity", "seenIn": 2 },
+		{ "term": "Shure MX418 Microflex", "kind": "entity", "seenIn": 2 },
+		{ "term": "desktop microphone", "kind": "related", "seenIn": 2 },
+		{ "term": "boardrooms", "kind": "related", "seenIn": 2 },
+		{ "term": "conferences", "kind": "related", "seenIn": 2 },
+		{ "term": "Shure MX412", "kind": "entity", "seenIn": 1 },
+		{ "term": "panels", "kind": "related", "seenIn": 1 },
+		{ "term": "central control unit", "kind": "entity", "seenIn": 1 },
+		{ "term": "chairman and delegate units", "kind": "entity", "seenIn": 1 },
+		{ "term": "Televic G3", "kind": "entity", "seenIn": 1 },
+		{ "term": "voting and non-voting units", "kind": "related", "seenIn": 1 },
+		{ "term": "wireless conference systems", "kind": "related", "seenIn": 1 },
+		{ "term": "feedback control", "kind": "related", "seenIn": 1 },
+		{ "term": "room sizing", "kind": "related", "seenIn": 1 },
+		{ "term": "shock mount", "kind": "entity", "seenIn": 1 },
+		{ "term": "foam windscreen", "kind": "entity", "seenIn": 1 },
+		{ "term": "preamp", "kind": "entity", "seenIn": 1 },
+		{ "term": "speech intelligibility", "kind": "related", "seenIn": 1 },
+		{ "term": "18-inch gooseneck", "kind": "related", "seenIn": 1 },
+		{ "term": "table mic stand", "kind": "entity", "seenIn": 1 },
+		{ "term": "lavalier microphone", "kind": "entity", "seenIn": 1 },
+		{
+			"term": "How do conference microphone systems help meetings?",
+			"kind": "question",
+			"seenIn": 1
+		},
+		{ "term": "What comes with the rental?", "kind": "question", "seenIn": 1 }
+	],
+	"discarded": [
+		{ "term": "PRG Gear", "reason": "competitor name" },
+		{ "term": "Rent For Event", "reason": "competitor name" },
+		{ "term": "4Wall", "reason": "competitor name" },
+		{ "term": "Rental price per 24 hours", "reason": "price" },
+		{ "term": "Delivery cost", "reason": "price" },
+		{ "term": "Pickup not available", "reason": "vendor logistics, not vocabulary" },
+		{ "term": "Request a quote", "reason": "marketing call to action" },
+		{ "term": "Where are PRG Gear's locations?", "reason": "competitor and US places" },
+		{ "term": "DJ equipment rental", "reason": "unrelated category menu item" },
+		{ "term": "Drum-set microphone package", "reason": "unrelated to table microphones" }
+	]
+}

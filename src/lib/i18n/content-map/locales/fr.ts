@@ -503,6 +503,11 @@ export default {
 			slug: 'eclairage-son-billie-jean-king-cup-2024-malaga',
 			keyword: 'Billie Jean King Cup 2024 à Malaga',
 			status: 'propuesta'
+		},
+		'conference-table-microphone-rental': {
+			slug: 'location-micros-de-table-reunion',
+			keyword: 'location de micros de table pour réunion à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

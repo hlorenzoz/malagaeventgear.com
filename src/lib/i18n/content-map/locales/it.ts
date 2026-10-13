@@ -499,6 +499,11 @@ export default {
 			slug: 'audio-luci-billie-jean-king-cup-2024-malaga',
 			keyword: 'Billie Jean King Cup 2024 a Malaga',
 			status: 'propuesta'
+		},
+		'conference-table-microphone-rental': {
+			slug: 'noleggio-microfoni-da-tavolo-riunioni',
+			keyword: 'noleggio microfoni da tavolo per riunioni a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
