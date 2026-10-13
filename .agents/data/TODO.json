@@ -3,6 +3,20 @@
   "updated": "2026-10-13",
   "tasks": [
     {
+      "id": "#T0128",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "seo-tecnico",
+      "titulo": "INVESTIGAR: el trafico de Google cae desde junio de 2026 (de 121 clics al mes a unos 24)",
+      "anotada": "2026-10-13",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [],
+      "descripcion": [
+        "Tambien: el importador de keywords lee solo los zip de .agents/context/keywords/google-search-console-gsc/. Este export es una carpeta en otra ruta y no entra en keywords.json."
+      ]
+    },
+    {
       "id": "#T0109",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -790,21 +804,6 @@
       ]
     },
     {
-      "id": "#T0125",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "keywords",
-      "titulo": "Recuperar \"malaga wedding packages all inclusive\": dejo de rankear (era 28)",
-      "anotada": "2026-10-12",
-      "hecha": null,
-      "origen": "ubersuggest (rank-tracking, rank/malaga-wedding-packages-all-inclusive)",
-      "notas": [],
-      "descripcion": [
-        "Base: mejor posicion de los ultimos 90 dias.",
-        "Reporte rank-tracking de ubersuggest del 2026-10-12."
-      ]
-    },
-    {
       "id": "#T0110",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1451,6 +1450,24 @@
         "Qué cubrir: Responder que una pantalla LED grande para exterior no esta en el inventario propio (el inventario propio incluye proyector con pantalla de proyeccion y la pantalla LED de 60 pulgadas del MICE Pack, ver packages.ts) y que el cliente indica tamano, ubicacion y horario y MEG busca una solucion con sus proveedores. Usar el mismo encuadre que la FAQ de la pantalla hinchable: sin marca, modelo, cantidad, precio, disponibilidad ni plazo. Mencionar que la potencia y el sol directo del lugar condicionan la solucion. No presentarla como equipo propio.",
         "Por qué: Ninguna entrada cubre una pantalla LED grande para exterior: tv-screen-rental solo trata pantallas de TV y su FAQ de exterior es de otro alcance. Es una necesidad sourced (muro LED no esta en el inventario propio), asi que va como FAQ en el post de eventos al aire libre, sin pagina nueva (creating-helpful-content.md: mejorar la pagina existente).",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0125",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "keywords",
+      "titulo": "Recuperar \"malaga wedding packages all inclusive\": dejo de rankear (era 28)",
+      "anotada": "2026-10-12",
+      "hecha": "2026-10-13",
+      "origen": "ubersuggest (rank-tracking, rank/malaga-wedding-packages-all-inclusive)",
+      "notas": [
+        "commit del post en 13 idiomas: seccion H2 y FAQ con el vocabulario all inclusive que la reescritura de julio habia quitado. La caida que marca Ubersuggest NO esta confirmada: el export de GSC del 2026-10-13 es un total de 12 meses",
+        "sin serie por consulta"
+      ],
+      "descripcion": [
+        "Base: mejor posicion de los ultimos 90 dias.",
+        "Reporte rank-tracking de ubersuggest del 2026-10-12."
       ]
     },
     {
