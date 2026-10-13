@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-13",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 20,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "items": [
+    {
+      "keywords": ["pa sound system rental", "pa sound system hire", "pa sound system for hire", "pa sound rental", "pa sound hire", "pa dry hire"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Misma intencion que /blog/sound-system-rental/: ya cubierta por el H2 'PA System or DJ Sound: Matching Equipment to the Event' y la FAQ 'Is a PA system rental the same as a sound system rental?'. Otra pagina seria canibalizacion (creating-helpful-content.md). 'PA dry hire' (sin tecnico) lo cubre la FAQ 'Can I rent just speakers, without a microphone or technician?'."
+    },
+    {
+      "keywords": ["pa system for hire near me", "pa system for rent near me", "pa sound system rental near me", "pa speaker rental near me", "pa equipment rental near me"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Variante near me de una pagina existente: doorway abuse (spam-policies.md). La demanda ya se atiende en /blog/sound-system-rental/ con la FAQ 'Do you deliver sound system rental near me outside Malaga city?' y la seccion 'Booking and Service Area'."
+    },
+    {
+      "keywords": ["pa system rental price", "pa system rental cost", "pa system hire cost", "pa system hire prices", "pa hire cost", "pa hire prices"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierta por la FAQ 'How much does it cost to rent sound equipment?' de /blog/sound-system-rental/ (precios reales de Eco, Basic MICE, Product Presentation, MICE y Wedding) y la FAQ 'Is a PA system rental the same as a sound system rental?' que dice que no hay un nivel de precio PA aparte. Una pregunta nueva solo repetiria lo mismo."
+    },
+    {
+      "keywords": ["pa and sound engineer hire"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierta por la FAQ 'Do you provide a technician with the sound system?' de /blog/sound-system-rental/ y por /blog/av-technician-hire/ (seccion 'Technician by Package: What's Included and What Costs Extra')."
+    },
+    {
+      "keywords": ["party sound hire"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierta por /blog/audio-visual-rental-for-private-parties/ y por la FAQ 'Can I rent a complete DJ system for a party?' de /blog/sound-system-rental/. Una pagina nueva competiria con ambas."
+    },
+    {
+      "keywords": ["portable movie screen rental"],
+      "cluster": "audio visual rental",
+      "action": "add-faq",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Intencion de alquilar una pantalla de cine facil de montar en exterior. /blog/outdoor-movie-screen-and-projector-rental/ cubre pantallas y proyector, pero ninguna FAQ responde a 'portable' (solo la hinchable). Es una pregunta real de clientes y MEG puede responderla con su inventario. No justifica un post nuevo (Goldilocks).",
+      "targetUrl": "/blog/outdoor-movie-screen-and-projector-rental/",
+      "file": "src/content/blog/outdoor-movie-screen-and-projector-rental.svx",
+      "question": "Can I rent a portable movie screen for an outdoor event?",
+      "brief": "Responder que las pantallas de MEG son pantallas de proyeccion con soporte que el equipo entrega, monta, prueba y recoge (Product Presentation Pack con pantalla frontal y soporte estable, Basic MICE Pack con pantalla de 2x2m, pantalla Da-Lite 2.30 x 3.00 m bajo peticion), segun la tabla del propio post y packages.ts. No prometer pantalla de autorecogida, ni peso o medidas de transporte, ni modelo hinchable (ver la FAQ de la pantalla hinchable). Si el cliente necesita otro tipo, 'cuentanos y buscamos una solucion con nuestros proveedores' sin plazo ni marca."
+    }
+  ]
+}
