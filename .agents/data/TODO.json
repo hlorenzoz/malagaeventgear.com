@@ -19,7 +19,8 @@
         "unas 830 en agosto",
         "unas 400 en septiembre",
         "163 a 372 desde el 19 de septiembre. Las URLs viejas de WordPress ya casi no aparecen (2 clics",
-        "199 impresiones): Google proceso la mudanza. Cada URL nueva rinde mucho menos que su vieja en 12 meses: /wedding-rentals/ 62 clics pos 22,8 contra /blog/wedding-rentals/ 3 clics pos 34. /hire-sound-system-in-malaga/ 65 clics pos 27 contra /blog/sound-system-rental/ 12 clics pos 41. /hire-microphone-in-malaga/ 13 clics pos 7,9 contra /blog/headset-lavalier-microphone-rental/ 0 clics y 2 impresiones (el 301 lleva a un post de otro tema). /eco-pack/ 12 clics pos 30 contra /packages/eco/ 1 clic pos 70. malaga wedding packages all inclusive sigue en pos 8,26 con 7 clics: GSC no muestra la caida que marco Ubersuggest"
+        "199 impresiones): Google proceso la mudanza. Cada URL nueva rinde mucho menos que su vieja en 12 meses: /wedding-rentals/ 62 clics pos 22,8 contra /blog/wedding-rentals/ 3 clics pos 34. /hire-sound-system-in-malaga/ 65 clics pos 27 contra /blog/sound-system-rental/ 12 clics pos 41. /hire-microphone-in-malaga/ 13 clics pos 7,9 contra /blog/headset-lavalier-microphone-rental/ 0 clics y 2 impresiones (el 301 lleva a un post de otro tema). /eco-pack/ 12 clics pos 30 contra /packages/eco/ 1 clic pos 70. malaga wedding packages all inclusive sigue en pos 8,26 con 7 clics: GSC no muestra la caida que marco Ubersuggest",
+        "Decision del usuario 2026-10-13: NO actuar todavia. Darle mas tiempo a los cambios de titulos y descripciones antes de comparar pagina por pagina. Volver a mirar con el proximo export"
       ],
       "descripcion": [
         "Tambien: el importador de keywords lee solo los zip de .agents/context/keywords/google-search-console-gsc/. Este export es una carpeta en otra ruta y no entra en keywords.json."
