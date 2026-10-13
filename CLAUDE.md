@@ -507,9 +507,13 @@ estas reglas POR ENCIMA de su propio texto, que es genérico para todo cliente:
 4. **`FAQPage` es INFO, no un defecto** (decisión pendiente del usuario, 2026-09-28), y `llms.txt` no
    es una señal de Google.
 5. **Documentación de Google**: la copia del proyecto, `.agents/context/seo/`, nunca la global.
-6. **Regla 12, excepciones**: la puntuación china de ancho completo, y los guiones de palabras
-   compuestas del neerlandés y del alemán (`LED-verlichting`, `LED-Beleuchtung`). Los nombres de
-   marca o modelo con guion también.
+6. **Regla 12, excepciones**: la puntuación china de ancho completo, y los guiones de ortografía
+   de las palabras compuestas del neerlandés, el alemán, el sueco, el danés y el noruego
+   (`LED-verlichting`, `LED-Beleuchtung`, `LED-skärm`, `AV-udstyr`, `DJ-sett`). Los nombres
+   de marca o modelo con guion también. En sueco, danés y noruego entró el 2026-10-13 (el usuario
+   pidió cerrar la decisión 1 de #T0110): ahí un compuesto con una sigla o un número lleva guion
+   por norma, y ya estaba publicado así en muchos posts. Sigue prohibido el guion al estilo inglés
+   que une palabras comunes (`leverans-bara`): esos compuestos se escriben juntos.
 7. **Archivos y recetas**: el post inglés es `src/content/blog/<slug>.svx`, sus traducciones
    `src/content/blog/<locale>/<slug>.svx`, y `post-faqs.json` y `post-toc.json` se regeneran, nunca se
    editan a mano. Tras editar un post inglés: `just post-sync <slug>`, `just post-translate-check <slug>`,
@@ -966,6 +970,10 @@ scripts.
 
 **Aclaración**: esto NO significa borrar tildes ni la ñ. `Málaga` y `configuración` son
 idioma, no tipografía de IA, y se mantienen. Solo se prohíben los caracteres de la tabla.
+
+**Guiones de ortografía**: en neerlandés, alemán, sueco, danés y noruego, el guion de un compuesto
+con una sigla o un número (`LED-verlichting`, `LED-Beleuchtung`, `LED-skärm`, `AV-udstyr`) es
+idioma y queda exento. Un guion al estilo inglés entre palabras comunes sigue prohibido.
 
 **Chino**: la puntuación china de ancho completo (`，`, `。`, `、`, `「」` y el resto) también es
 idioma y queda exenta de la tabla en el contenido `zh-hans`, `zh-tw` y `zh-hk`. En los demás

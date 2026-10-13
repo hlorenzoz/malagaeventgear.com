@@ -69,8 +69,10 @@ earlier posts"): `just post-translate-brief <slug>` prints them with the slug fi
   `blogStructure` words (`src/lib/i18n/messages/<locale>.ts`) exactly, never the English "FAQs".
 - Rule 12: ASCII punctuation, straight quotes only in Latin locales (no guillemets, no German low
   quotes), no semicolons in prose, no English style hyphenated compounds, no serial comma. Chinese
-  keeps its full width punctuation but never a doubled em dash or doubled ellipsis. Dutch and German
-  spelling hyphens (LED-verlichting, LED-Beleuchtung) are language and stay.
+  keeps its full width punctuation but never a doubled em dash or doubled ellipsis. Dutch, German,
+  Swedish, Danish and Norwegian spelling hyphens in a compound with an abbreviation or a number
+  (LED-verlichting, LED-Beleuchtung, LED-skärm, AV-udstyr, DJ-sett) are language and stay. An
+  English style hyphen between common words is still out: write those compounds closed.
 - Package names (Eco Pack, Wedding Pack, Product Presentation Pack, Basic MICE Pack, MICE Pack),
   brands, models, the company name and the NAP are never translated.
 - Quoted customer reviews stay VERBATIM in their original language with their `lang` attribute.

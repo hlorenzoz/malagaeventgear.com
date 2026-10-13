@@ -7,6 +7,11 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (docs): la excepción de guiones de la regla 12 cubre también sueco, danés y noruego (#T0110, decisión 1) (2026-10-13)
+- La excepción cubría solo neerlandés y alemán. En sueco, danés y noruego el guion de un compuesto con una sigla o un número (`LED-skärm`, `AV-udstyr`, `DJ-sett`) también es ortografía obligatoria, y ya estaba publicado así en muchos posts. Cada /code-review lo marcaba como posible violación.
+- Cambia `CLAUDE.md` (regla 12 y override 6 de los agentes globales), `.claude/agents/post-translator.md` y `scripts/translate/brief-base.md`. Sigue prohibido el guion al estilo inglés entre palabras comunes.
+- No cambia ningún post. El usuario pidió cerrar esta decisión el 2026-10-13 sin elegir una opción: se tomó la que coincide con la norma de esos idiomas. Es reversible.
+
 ### Added (blog): FAQ de pantalla de cine portátil en outdoor-movie-screen-and-projector-rental (#T0126) (2026-10-13)
 - Origen: content-plan 2026-10-13, ítem add-faq. Pregunta nueva al final del FAQ, justo después de "Do you rent an inflatable outdoor movie screen?": "Can I rent a portable movie screen for an outdoor event?". El post no tiene índice inline, solo se regeneraron `post-faqs.json` y `post-toc.json`.
 - La respuesta dice que no es un producto para llevarse: MEG trabaja solo con entrega, sin recogida propia (lo dice `src/lib/data/faq.ts`), el equipo entrega, monta, prueba y recoge, y la pantalla va siempre con su proyector (lo dice el propio post). Nombra las cuatro opciones que publica el post: el Eco Pack con su extra de proyector y pantalla, la pantalla de 2x2 m del Basic MICE Pack, la de proyección frontal con soporte estable del Product Presentation Pack y la Da-Lite de 2,30 x 3,00 m, aparte y con presupuesto a pedido (CSV `2026.09.26`, línea 81). Otro tipo de pantalla va con la regla 2 de soluciones integrales. Sin peso, tamaño plegado, maleta ni tiempo de montaje.
