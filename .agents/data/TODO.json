@@ -878,25 +878,6 @@
       ]
     },
     {
-      "id": "#T0126",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/outdoor-movie-screen-and-projector-rental/: \"Can I rent a portable movie screen for an outdoor event?\"",
-      "anotada": "2026-10-13",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-13, ítem 6)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/outdoor-movie-screen-and-projector-rental.svx",
-        "Keywords: portable movie screen rental (google-ads 10/mo (below tier 100)), debajo del tier",
-        "Qué cubrir: Responder que las pantallas de MEG son pantallas de proyeccion con soporte que el equipo entrega, monta, prueba y recoge (Product Presentation Pack con pantalla frontal y soporte estable, Basic MICE Pack con pantalla de 2x2m, pantalla Da-Lite 2.30 x 3.00 m bajo peticion), segun la tabla del propio post y packages.ts. No prometer pantalla de autorecogida, ni peso o medidas de transporte, ni modelo hinchable (ver la FAQ de la pantalla hinchable). Si el cliente necesita otro tipo, 'cuentanos y buscamos una solucion con nuestros proveedores' sin plazo ni marca.",
-        "Por qué: Intencion de alquilar una pantalla de cine facil de montar en exterior. /blog/outdoor-movie-screen-and-projector-rental/ cubre pantallas y proyector, pero ninguna FAQ responde a 'portable' (solo la hinchable). Es una pregunta real de clientes y MEG puede responderla con su inventario. No justifica un post nuevo (Goldilocks).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0125",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1495,6 +1476,27 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0126",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/outdoor-movie-screen-and-projector-rental/: \"Can I rent a portable movie screen for an outdoor event?\"",
+      "anotada": "2026-10-13",
+      "hecha": "2026-10-13",
+      "origen": "content-strategist (plan 2026-10-13, ítem 6)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/outdoor-movie-screen-and-projector-rental.svx",
+        "Keywords: portable movie screen rental (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Responder que las pantallas de MEG son pantallas de proyeccion con soporte que el equipo entrega, monta, prueba y recoge (Product Presentation Pack con pantalla frontal y soporte estable, Basic MICE Pack con pantalla de 2x2m, pantalla Da-Lite 2.30 x 3.00 m bajo peticion), segun la tabla del propio post y packages.ts. No prometer pantalla de autorecogida, ni peso o medidas de transporte, ni modelo hinchable (ver la FAQ de la pantalla hinchable). Si el cliente necesita otro tipo, 'cuentanos y buscamos una solucion con nuestros proveedores' sin plazo ni marca.",
+        "Por qué: Intencion de alquilar una pantalla de cine facil de montar en exterior. /blog/outdoor-movie-screen-and-projector-rental/ cubre pantallas y proyector, pero ninguna FAQ responde a 'portable' (solo la hinchable). Es una pregunta real de clientes y MEG puede responderla con su inventario. No justifica un post nuevo (Goldilocks).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
     },
     {
       "id": "#T0127",
