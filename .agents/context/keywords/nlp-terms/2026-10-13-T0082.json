@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-13",
+  "taskId": "#T0082",
+  "slug": "sound-system-rental",
+  "searchTerm": "sound system rental sound and light rental",
+  "status": "partial",
+  "reason": "1st query returned only directories. Retry 'sound and lighting hire for events' gave one provider page read (position 8). 2nd query 'sound and lighting package hire for parties': provider pages 404, rest marketplaces. Only 1 page read.",
+  "serp": {
+    "query": "sound and lighting hire for events",
+    "localized": false,
+    "results": [
+      {
+        "rank": 1,
+        "url": "https://brisbanegangshow.com.au/sound-light-hire/",
+        "title": "Sound & Lighting Hire - Brisbane Gang Show"
+      }
+    ]
+  },
+  "terms": [
+    { "term": "sound and lighting package", "kind": "related", "seenIn": 1 },
+    { "term": "professional sound equipment", "kind": "related", "seenIn": 1 },
+    { "term": "professional lighting equipment", "kind": "related", "seenIn": 1 },
+    { "term": "essentials only hire", "kind": "related", "seenIn": 1 },
+    { "term": "conferences", "kind": "entity", "seenIn": 1 },
+    { "term": "concerts", "kind": "entity", "seenIn": 1 },
+    { "term": "school productions", "kind": "entity", "seenIn": 1 },
+    { "term": "community performances", "kind": "entity", "seenIn": 1 },
+    { "term": "larger events", "kind": "entity", "seenIn": 1 },
+    { "term": "event atmosphere", "kind": "related", "seenIn": 1 },
+    { "term": "hire team advice", "kind": "related", "seenIn": 1 },
+    { "term": "What sound and lighting hire is available?", "kind": "question", "seenIn": 1 },
+    { "term": "Who can use the sound and lighting equipment?", "kind": "question", "seenIn": 1 },
+    { "term": "Can I get advice on choosing equipment?", "kind": "question", "seenIn": 1 },
+    { "term": "Can I hire just a few essentials?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Brisbane Gang Show", "reason": "competitor name, Australian provider" },
+    { "term": "booking deposit", "reason": "price and payment term" },
+    { "term": "hire contract", "reason": "commercial term, not equipment vocabulary" },
+    { "term": "confirmed booking", "reason": "commercial term" },
+    { "term": "flexible hire options", "reason": "marketing slogan" },
+    { "term": "How do I secure a booking?", "reason": "payment and booking process, depends on deposit" }
+  ]
+}
