@@ -1090,36 +1090,6 @@
       ]
     },
     {
-      "id": "#T0001",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "infraestructura",
-      "titulo": "Ok, con respecto a la gestión de errores en el lead form submit:",
-      "anotada": null,
-      "hecha": null,
-      "origen": "migrada",
-      "notas": [
-        "estado por confirmar (tenía \"❌ ✅\")",
-        "título tomado de la primera línea",
-        "prioridad asignada por content-strategist el 2026-10-02: Es una mejora real de UX y manejo de errores del formulario de leads (autocompletar campos",
-        "agregar la URL del paquete solicitado a la notificacion interna) sin indicacion de que bloquee el envio de leads hoy ni de una fecha limite declarada en la propia tarea."
-      ],
-      "descripcion": [
-        "Ok, con respecto a la gestión de errores en el lead form submit:",
-        "",
-        "Autocompletar los campos del formulario de Contacto según lo especificado en el Lead Form",
-        "",
-        "En la descripción del formulario de Contacto, en la descripción (debajo del Submitted details:), añade la URL del paquete que se está solicitando (por ejemplo: https://malagaeventgear.com/packages/eco/)",
-        "",
-        "Hace falta persistir los errores en la base de datos, de forma tal que se pueda consultar desde la administración en el futuro.",
-        "",
-        "Modela la base de datos de forma tal que se pueda escalar en el futuro.",
-        "Persiste los errores mediante /api/v1/error-tracking",
-        "",
-        "Verifica que se persistan los leads y sus respuestas en la base de datos, así como el estado de los envíos de correos, etc..."
-      ]
-    },
-    {
       "id": "#T0004",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1130,7 +1100,8 @@
       "origen": "migrada",
       "notas": [
         "estado por confirmar (tenía \"❌ ✅\")",
-        "prioridad asignada por content-strategist el 2026-10-02: Pide persistir errores en base de datos para poder revisarlos despues; es una mejora de observabilidad real pero sin indicacion de que algo este fallando sin registro hoy ni de una fecha limite en el propio texto de la tarea."
+        "prioridad asignada por content-strategist el 2026-10-02: Pide persistir errores en base de datos para poder revisarlos despues; es una mejora de observabilidad real pero sin indicacion de que algo este fallando sin registro hoy ni de una fecha limite en el propio texto de la tarea.",
+        "2026-10-13: alcance heredado de T0001. Falta la ruta /api/v1/error-tracking y su tabla en D1 (hoy los errores del formulario de leads solo van a console.error). Es codigo nuevo con migracion: SDD"
       ],
       "descripcion": [
         "Verifica también la persistencia en la base de datos, de forma tal que se pueda persistir los errores de forma tal que se pueda ",
@@ -1572,6 +1543,39 @@
         "Lo implementa una sesion con agentes en primer plano: todo-implementer v1 no toma Post nuevo. Slug de 60 caracteres como maximo, decidido antes del cuerpo. Portada e imagenes en R2 con just post-images. Nace con draft: true y sale con sus 12 traducciones en UN commit (regla 4 de idioma). Enlaces del silo en el CUERPO: al pilar, al hermano adyacente (headset-lavalier-microphone-rental) y a los posts News relevantes.",
         "Honestidad: inventario propio separado de lo que se consigue con proveedores, precios solo con los helpers, ningun competidor nombrado, nada que el negocio no haya confirmado.",
         "Origen: analisis de los aiPrompts de .agents/context/keywords/ubersuggest/*.json (2026-10-08). Veredicto de cada prompt en .agents/context/keywords/ai-prompts-gap-analysis-2026-10-08.md. Los prompts siguen en idea en keywords.json hasta publicar: despues just keywords-sync."
+      ]
+    },
+    {
+      "id": "#T0001",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "infraestructura",
+      "titulo": "Ok, con respecto a la gestión de errores en el lead form submit:",
+      "anotada": null,
+      "hecha": "2026-10-13",
+      "origen": "migrada",
+      "notas": [
+        "estado por confirmar (tenía \"❌ ✅\")",
+        "título tomado de la primera línea",
+        "prioridad asignada por content-strategist el 2026-10-02: Es una mejora real de UX y manejo de errores del formulario de leads (autocompletar campos",
+        "agregar la URL del paquete solicitado a la notificacion interna) sin indicacion de que bloquee el envio de leads hoy ni de una fecha limite declarada en la propia tarea.",
+        "Verificada el 2026-10-13: el relleno del formulario de contacto",
+        "la URL del paquete bajo Submitted details y la persistencia de leads",
+        "eventos y estado de correos ya estaban hechos. Se agrego el test e2e del camino lead guardado sin correo. La persistencia de errores (/api/v1/error-tracking) NO existe y queda en T0004. Datos de produccion sin verificar: sin permiso a la D1"
+      ],
+      "descripcion": [
+        "Ok, con respecto a la gestión de errores en el lead form submit:",
+        "",
+        "Autocompletar los campos del formulario de Contacto según lo especificado en el Lead Form",
+        "",
+        "En la descripción del formulario de Contacto, en la descripción (debajo del Submitted details:), añade la URL del paquete que se está solicitando (por ejemplo: https://malagaeventgear.com/packages/eco/)",
+        "",
+        "Hace falta persistir los errores en la base de datos, de forma tal que se pueda consultar desde la administración en el futuro.",
+        "",
+        "Modela la base de datos de forma tal que se pueda escalar en el futuro.",
+        "Persiste los errores mediante /api/v1/error-tracking",
+        "",
+        "Verifica que se persistan los leads y sus respuestas en la base de datos, así como el estado de los envíos de correos, etc..."
       ]
     },
     {
