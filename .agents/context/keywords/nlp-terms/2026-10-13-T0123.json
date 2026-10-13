@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-13",
+  "taskId": "#T0123",
+  "slug": "audio-visual-rental-for-outdoor-events",
+  "searchTerm": "outdoor led screen hire",
+  "status": "partial",
+  "reason": "Not localized to Spain: results were Australian and UK suppliers. Skipped Google positions 2, 4 and 8 (supplier directory listings) and 5 to 6 (same site as rank 1). Read positions 1, 3 and 7.",
+  "serp": {
+    "query": "outdoor led screen hire",
+    "localized": false,
+    "results": [
+      {
+        "rank": 1,
+        "url": "https://bjs.com.au/hire/product/vision/led_screen/led-screen-panels/outdoor-led-screen-hire/",
+        "title": "outdoor led screen hire"
+      },
+      {
+        "rank": 2,
+        "url": "https://dynamo-led-displays.co.uk/big-screen-hire/",
+        "title": "LED Screen Hire"
+      },
+      {
+        "rank": 3,
+        "url": "https://www.thebigscreencompany.com.au/?p=581",
+        "title": "LED Screen Trailer Hire"
+      }
+    ]
+  },
+  "terms": [
+    { "term": "LED screen trailer", "kind": "entity", "seenIn": 3 },
+    { "term": "pixel pitch", "kind": "related", "seenIn": 3 },
+    { "term": "set up and pack down", "kind": "related", "seenIn": 3 },
+    { "term": "festivals", "kind": "entity", "seenIn": 3 },
+    { "term": "sporting events", "kind": "entity", "seenIn": 3 },
+    { "term": "mobile LED screen", "kind": "entity", "seenIn": 2 },
+    { "term": "indoor LED screens", "kind": "entity", "seenIn": 2 },
+    { "term": "IP65 rating", "kind": "related", "seenIn": 2 },
+    { "term": "brightness in nits", "kind": "related", "seenIn": 2 },
+    { "term": "power consumption", "kind": "related", "seenIn": 2 },
+    { "term": "corporate functions", "kind": "entity", "seenIn": 2 },
+    { "term": "outdoor cinema screenings", "kind": "entity", "seenIn": 2 },
+    { "term": "custom size LED screen", "kind": "entity", "seenIn": 1 },
+    { "term": "truss framework", "kind": "entity", "seenIn": 1 },
+    { "term": "ground supported screens", "kind": "related", "seenIn": 1 },
+    { "term": "flown or rigged screens", "kind": "related", "seenIn": 1 },
+    { "term": "live camera feed", "kind": "related", "seenIn": 1 },
+    { "term": "daylight visibility", "kind": "related", "seenIn": 1 },
+    { "term": "viewing distance", "kind": "related", "seenIn": 1 },
+    { "term": "wind limit checks", "kind": "related", "seenIn": 1 },
+    { "term": "Which pixel pitch should I choose?", "kind": "question", "seenIn": 1 },
+    { "term": "Will an outdoor screen be bright enough in daylight?", "kind": "question", "seenIn": 1 },
+    { "term": "What power does an LED screen need?", "kind": "question", "seenIn": 1 },
+    { "term": "How long does setup take?", "kind": "question", "seenIn": 1 },
+    { "term": "What screen sizes are typical?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "BJ's", "reason": "competitor name" },
+    { "term": "Dynamo LED Displays", "reason": "competitor name" },
+    { "term": "The Big Screen Company", "reason": "competitor name" },
+    { "term": "Melbourne Cup AV hire", "reason": "Australian event, other market" },
+    { "term": "AFL and NRL Grand Finals", "reason": "Australian events, other market" },
+    { "term": "Public liability insurance", "reason": "UK market term" },
+    { "term": "RAMS documents", "reason": "UK market term" },
+    { "term": "LED screen hire cost", "reason": "pricing question, prices not kept" },
+    { "term": "BJ's store locations", "reason": "competitor and place outside Spain" },
+    { "term": "Why choose this company", "reason": "marketing slogan" }
+  ]
+}

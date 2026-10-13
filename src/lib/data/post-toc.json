@@ -6620,6 +6620,11 @@
       "id": "do-you-rent-an-inflatable-movie-screen-for-an-outdoor-event",
       "text": "Do you rent an inflatable movie screen for an outdoor event?",
       "level": 3
+    },
+    {
+      "id": "can-you-supply-a-large-led-screen-for-an-outdoor-event",
+      "text": "Can you supply a large LED screen for an outdoor event?",
+      "level": 3
     }
   ],
   "audio-visual-rental-for-small-businesses": [
