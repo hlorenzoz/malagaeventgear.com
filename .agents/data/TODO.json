@@ -83,21 +83,6 @@
       ]
     },
     {
-      "id": "#T0082",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"sound and light rental\" (new_content)",
-      "anotada": "2026-10-08",
-      "hecha": null,
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-and-light-rental)",
-      "notas": [],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
-      ]
-    },
-    {
       "id": "#T0085",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -1478,6 +1463,23 @@
       "descripcion": [
         "Base: mejor posicion de los ultimos 90 dias.",
         "Reporte rank-tracking de ubersuggest del 2026-10-12."
+      ]
+    },
+    {
+      "id": "#T0082",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"sound and light rental\" (new_content)",
+      "anotada": "2026-10-08",
+      "hecha": "2026-10-13",
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-and-light-rental)",
+      "notas": [
+        "seccion H2 en /blog/sound-system-rental/ en los 13 idiomas. La keyword sigue idea en keywords.json (la tarea no viene de un plan). SERP casi sin terminos"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
       ]
     },
     {
