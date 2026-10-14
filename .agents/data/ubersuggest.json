@@ -1,7 +1,69 @@
 {
 	"version": 1,
-	"updated": "2026-10-13",
+	"updated": "2026-10-14",
 	"reports": [
+		{
+			"date": "2026-10-14",
+			"kind": "top-pages",
+			"status": "partial",
+			"reason": "domain_top_pages returned noData and traffic_value failed with HTTP 403 insufficient scope, only domain_overview answered",
+			"calls": [
+				{
+					"tool": "domain_top_pages",
+					"outcome": "empty"
+				},
+				{
+					"tool": "domain_overview",
+					"outcome": "ok"
+				},
+				{
+					"tool": "traffic_value",
+					"outcome": "failed"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "failed"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "ok"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				}
+			],
+			"summary": [
+				"domain_overview: organic keywords 4, traffic 38, domain authority 6, backlinks 93, ref domains 69",
+				"domain_top_pages: noData. traffic_value: HTTP 403",
+				"Cost in reports: domain_top_pages and domain_overview and others took reports from 0 to 2 across the run"
+			],
+			"findings": [],
+			"discovered": {
+				"keywords": 0,
+				"aiPrompts": 56
+			}
+		},
 		{
 			"date": "2026-10-13",
 			"kind": "backlinks",
