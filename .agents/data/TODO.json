@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "tasks": [
     {
       "id": "#T0085",
@@ -1360,6 +1360,26 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0129",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-14",
+      "anotada": "2026-10-14",
+      "hecha": "2026-10-14",
+      "origen": "content-strategist (plan 2026-10-14, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "portable pa rental (Misma intencion ya cubierta por /blog/sound-system-rental/: FAQ 'Do you offer a portable, battery powered or self collect PA system?' y H2 'Equipment We Use: Active PA Speakers, Column Array and Audix Microphones'. Una pagina nueva seria canibalizacion (creating-helpful-content.md).)",
+        "portable pa system rental near me (Variantes near me de una pagina existente: /blog/sound-system-rental/ ya tiene la FAQ 'Do you deliver sound system rental near me outside Malaga city?'. Doorway abuse en spam-policies.md.)",
+        "portable outdoor movie screen rental (Cubierto por /blog/outdoor-movie-screen-and-projector-rental/, FAQ 'Can I rent a portable movie screen for an outdoor event?' y H2 'Outdoor Movie Screen Rental: Choosing Your Screen and Projector Size'.)",
+        "portable projector screen rental (Cubierto por /blog/projector-rental/: FAQ 'Can I rent just a projection screen, without a projector?' y H2 'Why the Screen Is Always Bundled With the Projector'. Nada nuevo que anadir.)",
+        "projector hire near me (Variantes near me de paginas existentes: /blog/projector-rental/ ya tiene la FAQ 'Do you deliver projector rental near me outside Malaga city?' y /blog/audio-video-rental-near-me-in-malaga-spain/ cubre la demanda local. Doorway abuse en spam-policies.md.)",
+        "pro av rental (Termino generico sinonimo del head term del pilar /blog/audio-visual-rental/. Misma intencion, sin aporte propio de MEG que justifique pagina o seccion.)"
+      ]
     },
     {
       "id": "#T0126",
