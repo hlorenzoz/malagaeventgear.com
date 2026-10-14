@@ -81170,6 +81170,24 @@
       }
     },
     {
+      "id": "are-vehicles-allowed-to-make-use-of-acoustic-warnings-within-city-limits",
+      "question": "are vehicles allowed to make use of acoustic warnings within city limits",
+      "keywordId": "audio-visual-rental-safety-guidelines",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-14",
+          "lastSeen": "2026-10-14",
+          "seeds": [
+            "audio-visual-rental-safety-guidelines"
+          ]
+        }
+      }
+    },
+    {
       "id": "are-wedding",
       "question": "are wedding",
       "keywordId": "wedding-rentals",
@@ -81237,6 +81255,24 @@
           "lastSeen": "2026-10-14",
           "urls": [
             "/blog/audio-visual-rental-for-conferences/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "are-you-allowed-to-use-acoustic-signals-within-a-town",
+      "question": "are you allowed to use acoustic signals within a town",
+      "keywordId": "audio-visual-rental-safety-guidelines",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-14",
+          "lastSeen": "2026-10-14",
+          "seeds": [
+            "audio-visual-rental-safety-guidelines"
           ]
         }
       }
@@ -81396,6 +81432,24 @@
           "lastSeen": "2026-10-11",
           "seeds": [
             "wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-cell-phones-interfere-with-wireless-microphones",
+      "question": "can cell phones interfere with wireless microphones",
+      "keywordId": "wireless-handheld-microphone-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-14",
+          "lastSeen": "2026-10-14",
+          "seeds": [
+            "wireless-handheld-microphone-rental"
           ]
         }
       }
@@ -82041,6 +82095,24 @@
           "lastSeen": "2026-10-14",
           "urls": [
             "/blog/audio-visual-rental-for-remote-presentations/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-i-use-my-phone-as-a-wireless-microphone",
+      "question": "can i use my phone as a wireless microphone",
+      "keywordId": "wireless-handheld-microphone-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-14",
+          "lastSeen": "2026-10-14",
+          "seeds": [
+            "wireless-handheld-microphone-rental"
           ]
         }
       }
@@ -86471,6 +86543,24 @@
       }
     },
     {
+      "id": "how-many-audio-tracks-are-there-in-the-kids-stage",
+      "question": "how many audio tracks are there in the kids stage",
+      "keywordId": "audio-visual-rental-planning-timeline",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-14",
+          "lastSeen": "2026-10-14",
+          "seeds": [
+            "audio-visual-rental-planning-timeline"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-many-crew-members-are-on-site-and-how-fast-do-they-respond",
       "question": "How many crew members are on site, and how fast do they respond?",
       "keywordId": "technical-support-for-events",
@@ -86811,6 +86901,24 @@
       }
     },
     {
+      "id": "how-much-are-party-bus-rentals-near-me",
+      "question": "how much are party bus rentals near me",
+      "keywordId": "wedding-rentals-near-me",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-14",
+          "lastSeen": "2026-10-14",
+          "seeds": [
+            "wedding-rentals-near-me"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-are-stage-lights",
       "question": "how much are stage lights",
       "keywordId": "stage-lighting-for-weddings",
@@ -86875,9 +86983,10 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-11",
+          "lastSeen": "2026-10-14",
           "seeds": [
-            "wedding-rentals"
+            "wedding-rentals",
+            "wedding-rentals-near-me"
           ]
         }
       }
@@ -87472,11 +87581,13 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-13",
+          "lastSeen": "2026-10-14",
           "seeds": [
             "all-in-one-wedding-rental-packages",
+            "eco-friendly-wedding-rental-options",
             "indoor-wedding-rental-essentials",
             "outdoor-wedding-rental-considerations",
+            "wedding-rentals-near-me",
             "wedding-rentals-online"
           ]
         }
@@ -87583,9 +87694,10 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-11",
+          "lastSeen": "2026-10-14",
           "seeds": [
-            "wedding-rentals"
+            "wedding-rentals",
+            "wedding-rentals-near-me"
           ]
         }
       }
@@ -87676,6 +87788,24 @@
           "lastSeen": "2026-09-30",
           "seeds": [
             "audio-video-rental-near-me"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-does-it-cost-to-rent-a-wedding-venue",
+      "question": "how much does it cost to rent a wedding venue",
+      "keywordId": "wedding-rentals-near-me",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-14",
+          "lastSeen": "2026-10-14",
+          "seeds": [
+            "wedding-rentals-near-me"
           ]
         }
       }
@@ -87994,6 +88124,24 @@
       }
     },
     {
+      "id": "how-much-is-wedding-car-rental",
+      "question": "how much is wedding car rental",
+      "keywordId": "audio-visual-rental-for-weddings",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-14",
+          "lastSeen": "2026-10-14",
+          "seeds": [
+            "audio-visual-rental-for-weddings"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-rent-projector",
       "question": "how much rent projector",
       "keywordId": "projector-rental",
@@ -88192,6 +88340,60 @@
       }
     },
     {
+      "id": "how-much-to-rent-sound-system-for-wedding",
+      "question": "how much to rent sound system for wedding",
+      "keywordId": "audio-visual-rental-for-weddings",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-14",
+          "lastSeen": "2026-10-14",
+          "seeds": [
+            "audio-visual-rental-for-weddings"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-to-rent-speakers-for-wedding",
+      "question": "how much to rent speakers for wedding",
+      "keywordId": "audio-visual-rental-for-weddings",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-14",
+          "lastSeen": "2026-10-14",
+          "seeds": [
+            "audio-visual-rental-for-weddings"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-to-rent-vizcaya-for-a-wedding",
+      "question": "how much to rent vizcaya for a wedding",
+      "keywordId": "audio-visual-rental-for-weddings",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-14",
+          "lastSeen": "2026-10-14",
+          "seeds": [
+            "audio-visual-rental-for-weddings"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-wedding-gift-spain",
       "question": "how much wedding gift spain",
       "keywordId": "all-in-one-wedding-rental-packages",
@@ -88202,9 +88404,10 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-13",
+          "lastSeen": "2026-10-14",
           "seeds": [
             "all-in-one-wedding-rental-packages",
+            "eco-friendly-wedding-rental-options",
             "indoor-wedding-rental-essentials"
           ]
         }
@@ -91604,6 +91807,25 @@
       }
     },
     {
+      "id": "what-is-a-physical-audio-guide",
+      "question": "what is a physical audio guide",
+      "keywordId": "audio-visual-rental-planning-timeline",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-14",
+          "lastSeen": "2026-10-14",
+          "seeds": [
+            "audio-visual-rental-planning-timeline",
+            "audio-visual-rental-safety-guidelines"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-is-a-run-of-show-for-a-corporate-event",
       "question": "What is a run of show for a corporate event?",
       "keywordId": "audio-visual-rental-for-corporate-events",
@@ -91708,10 +91930,12 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-01",
+          "lastSeen": "2026-10-14",
           "seeds": [
             "audio-visual-rental-companies",
-            "audio-visual-rental-for-product-launches"
+            "audio-visual-rental-for-product-launches",
+            "audio-visual-rental-planning-timeline",
+            "benefits-of-audio-visual-rental"
           ]
         }
       }
@@ -92141,6 +92365,24 @@
           "lastSeen": "2026-10-14",
           "urls": [
             "/blog/how-audio-visual-rental-works/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-is-the-best-wireless-microphone",
+      "question": "what is the best wireless microphone",
+      "keywordId": "wireless-handheld-microphone-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-14",
+          "lastSeen": "2026-10-14",
+          "seeds": [
+            "wireless-handheld-microphone-rental"
           ]
         }
       }
@@ -93760,6 +94002,24 @@
       }
     },
     {
+      "id": "who-acoustic-version",
+      "question": "who acoustic version",
+      "keywordId": "audio-visual-rental-safety-guidelines",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-14",
+          "lastSeen": "2026-10-14",
+          "seeds": [
+            "audio-visual-rental-safety-guidelines"
+          ]
+        }
+      }
+    },
+    {
       "id": "who-do-i-call-if-equipment-stops-working-during-my-event",
       "question": "Who do I call if equipment stops working during my event?",
       "keywordId": "av-system-troubleshooting",
@@ -93845,6 +94105,24 @@
           "lastSeen": "2026-10-13",
           "seeds": [
             "stage-lighting-for-weddings"
+          ]
+        }
+      }
+    },
+    {
+      "id": "who-global-standard-for-safe-listening-venues-events",
+      "question": "who global standard for safe listening venues & events",
+      "keywordId": "audio-visual-rental-safety-guidelines",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-14",
+          "lastSeen": "2026-10-14",
+          "seeds": [
+            "audio-visual-rental-safety-guidelines"
           ]
         }
       }
@@ -94200,12 +94478,13 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-13",
+          "lastSeen": "2026-10-14",
           "seeds": [
             "all-in-one-wedding-rental-packages",
             "indoor-wedding-rental-essentials",
             "outdoor-wedding-rental-considerations",
             "trending-wedding-rental-ideas",
+            "wedding-rentals-near-me",
             "wedding-rentals-online"
           ]
         }

@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-14",
+  "run": {
+    "status": "ok",
+    "reason": "One call timed out and was retried once with success",
+    "calls": [
+      { "tool": "google_suggestions", "args": "unique wedding ceremony rentals, wedding rentals near me (en, es)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "wireless handheld microphone rental, audio visual rental for weddings (en, es)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "audio visual rental planning timeline, audio visual rental safety guidelines (en, es)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "av equipment checklist for conference, benefits of audio visual rental (en, es)", "outcome": "failed" },
+      { "tool": "google_suggestions", "args": "eco friendly wedding rental options, essential items for wedding rentals (en, es)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "retry: av equipment checklist for conference, benefits of audio visual rental (en, es)", "outcome": "ok" }
+    ]
+  },
+  "seeds": [
+    "unique-wedding-ceremony-rentals",
+    "wedding-rentals-near-me",
+    "wireless-handheld-microphone-rental",
+    "audio-visual-rental-for-weddings",
+    "audio-visual-rental-planning-timeline",
+    "audio-visual-rental-safety-guidelines",
+    "av-equipment-checklist-for-conference",
+    "benefits-of-audio-visual-rental",
+    "eco-friendly-wedding-rental-options",
+    "essential-items-for-wedding-rentals"
+  ],
+  "suggestions": [
+    { "seed": "wedding-rentals-near-me", "phrase": "how much does it cost to rent a wedding venue" },
+    { "seed": "wedding-rentals-near-me", "phrase": "how much do rentals cost for a wedding" },
+    { "seed": "wedding-rentals-near-me", "phrase": "why have a wedding" },
+    { "seed": "wedding-rentals-near-me", "phrase": "how much does it cost to rent a barn for a wedding" },
+    { "seed": "wedding-rentals-near-me", "phrase": "how much are party bus rentals near me" },
+    { "seed": "wedding-rentals-near-me", "phrase": "how much does it cost a wedding in spain" },
+    { "seed": "wireless-handheld-microphone-rental", "phrase": "can cell phones interfere with wireless microphones" },
+    { "seed": "wireless-handheld-microphone-rental", "phrase": "can i use my phone as a wireless microphone" },
+    { "seed": "wireless-handheld-microphone-rental", "phrase": "what is the best wireless microphone" },
+    { "seed": "audio-visual-rental-for-weddings", "phrase": "how much to rent sound system for wedding" },
+    { "seed": "audio-visual-rental-for-weddings", "phrase": "how much to rent vizcaya for a wedding" },
+    { "seed": "audio-visual-rental-for-weddings", "phrase": "how much to rent speakers for wedding" },
+    { "seed": "audio-visual-rental-for-weddings", "phrase": "how much is wedding car rental" },
+    { "seed": "audio-visual-rental-planning-timeline", "phrase": "what is an audiovisual platform" },
+    { "seed": "audio-visual-rental-planning-timeline", "phrase": "what is a physical audio guide" },
+    { "seed": "audio-visual-rental-planning-timeline", "phrase": "how many audio tracks are there in the kids stage" },
+    { "seed": "audio-visual-rental-safety-guidelines", "phrase": "are vehicles allowed to make use of acoustic warnings within city limits" },
+    { "seed": "audio-visual-rental-safety-guidelines", "phrase": "what is a physical audio guide" },
+    { "seed": "audio-visual-rental-safety-guidelines", "phrase": "who global standard for safe listening venues & events" },
+    { "seed": "audio-visual-rental-safety-guidelines", "phrase": "who acoustic version" },
+    { "seed": "audio-visual-rental-safety-guidelines", "phrase": "are you allowed to use acoustic signals within a town" },
+    { "seed": "benefits-of-audio-visual-rental", "phrase": "what is an audiovisual platform" },
+    { "seed": "eco-friendly-wedding-rental-options", "phrase": "how much wedding gift spain" },
+    { "seed": "eco-friendly-wedding-rental-options", "phrase": "how much does it cost a wedding in spain" }
+  ]
+}
