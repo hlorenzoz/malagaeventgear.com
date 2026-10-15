@@ -85483,6 +85483,24 @@
       }
     },
     {
+      "id": "how-audio-works",
+      "question": "how audio works",
+      "keywordId": "how-audio-visual-rental-works",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "how-audio-visual-rental-works"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-can-customers-contact-malaga-event-gear-meg-and-what-information-should-they-provide",
       "question": "How can customers contact Malaga Event Gear (MEG), and what information should they provide?",
       "keywordId": "faq-contact",
@@ -85547,6 +85565,24 @@
           "lastSeen": "2026-10-15",
           "urls": [
             "/blog/audio-visual-rental-for-small-businesses/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-do-audio-visualizers-work-reddit",
+      "question": "how do audio visualizers work reddit",
+      "keywordId": "how-audio-visual-rental-works",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "how-audio-visual-rental-works"
           ]
         }
       }
@@ -85688,10 +85724,12 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-13",
-          "lastSeen": "2026-10-13",
+          "lastSeen": "2026-10-15",
           "seeds": [
+            "how-to-choose-wedding-rentals",
             "indoor-wedding-rental-essentials",
-            "outdoor-wedding-rental-considerations"
+            "outdoor-wedding-rental-considerations",
+            "styling-your-wedding-rental-pieces"
           ]
         }
       }
@@ -86682,6 +86720,24 @@
       }
     },
     {
+      "id": "how-long-does-a-wedding-reception-last",
+      "question": "how long does a wedding reception last",
+      "keywordId": "timeline-for-reserving-wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "timeline-for-reserving-wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-long-does-it-take-to-hear-back-after-submitting-the-online-quote-form",
       "question": "How long does it take to hear back after submitting the online quote form?",
       "keywordId": "wedding-rentals-online",
@@ -86733,6 +86789,60 @@
             "/blog/audio-visual-rental-for-charity-fundraisers/",
             "/blog/audio-visual-rental-for-gala-dinners/",
             "/blog/audio-visual-rental-for-private-parties/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-long-is-a-wedding-from-start-to-finish",
+      "question": "how long is a wedding from start to finish",
+      "keywordId": "timeline-for-reserving-wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "timeline-for-reserving-wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-long-reception-wedding",
+      "question": "how long reception wedding",
+      "keywordId": "timeline-for-reserving-wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "timeline-for-reserving-wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-ansi-lumens-for-indoor-projector",
+      "question": "how many ansi lumens for indoor projector",
+      "keywordId": "projector-lumens-for-conference-room",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "projector-lumens-for-conference-room"
           ]
         }
       }
@@ -86861,6 +86971,78 @@
       }
     },
     {
+      "id": "how-many-lumens-do-i-need-for-a-projector-in-a-bright-room",
+      "question": "how many lumens do i need for a projector in a bright room",
+      "keywordId": "projector-lumens-for-conference-room",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "projector-lumens-for-conference-room"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-lumens-do-i-need-projector",
+      "question": "how many lumens do i need projector",
+      "keywordId": "projector-lumens-for-conference-room",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "projector-lumens-for-conference-room"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-lumens-for-conference-room-projector",
+      "question": "how many lumens for conference room projector",
+      "keywordId": "projector-lumens-for-conference-room",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "projector-lumens-for-conference-room"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-lumens-should-a-projector-have",
+      "question": "how many lumens should a projector have",
+      "keywordId": "projector-lumens-for-conference-room",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "projector-lumens-for-conference-room"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-many-microphones-are-included",
       "question": "How many microphones are included?",
       "keywordId": "audio-visual-rental-for-music-performances",
@@ -86983,6 +87165,24 @@
           "lastSeen": "2026-10-15",
           "urls": [
             "/blog/audio-visual-rental-for-virtual-events/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-rooms-to-book-for-wedding",
+      "question": "how many rooms to book for wedding",
+      "keywordId": "timeline-for-booking-wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "timeline-for-booking-wedding-rentals"
           ]
         }
       }
@@ -87291,6 +87491,24 @@
           "lastSeen": "2026-10-11",
           "seeds": [
             "av-cable-management"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-does-a-music-studio-cost",
+      "question": "how much does a music studio cost",
+      "keywordId": "how-audio-visual-rental-works",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "how-audio-visual-rental-works"
           ]
         }
       }
@@ -87776,12 +87994,17 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-14",
+          "lastSeen": "2026-10-15",
           "seeds": [
             "all-in-one-wedding-rental-packages",
             "eco-friendly-wedding-rental-options",
+            "how-to-choose-wedding-rentals",
             "indoor-wedding-rental-essentials",
             "outdoor-wedding-rental-considerations",
+            "protecting-your-wedding-rental-items",
+            "styling-your-wedding-rental-pieces",
+            "timeline-for-booking-wedding-rentals",
+            "timeline-for-reserving-wedding-rentals",
             "wedding-rentals-near-me",
             "wedding-rentals-online"
           ]
@@ -87879,6 +88102,24 @@
       }
     },
     {
+      "id": "how-much-does-it-cost-to-record-in-a-studio",
+      "question": "how much does it cost to record in a studio",
+      "keywordId": "how-audio-visual-rental-works",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "how-audio-visual-rental-works"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-does-it-cost-to-rent-a-barn-for-a-wedding",
       "question": "how much does it cost to rent a barn for a wedding",
       "keywordId": "wedding-rentals",
@@ -87965,6 +88206,24 @@
           "lastSeen": "2026-10-11",
           "seeds": [
             "projector-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-does-it-cost-to-rent-a-studio-for-music",
+      "question": "how much does it cost to rent a studio for music",
+      "keywordId": "how-audio-visual-rental-works",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "how-audio-visual-rental-works"
           ]
         }
       }
@@ -88373,6 +88632,24 @@
       }
     },
     {
+      "id": "how-much-should-a-wedding-cost",
+      "question": "how much should a wedding cost",
+      "keywordId": "protecting-your-wedding-rental-items",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "protecting-your-wedding-rental-items"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-sound-power-does-an-outdoor-wedding-need-compared-to-indoors",
       "question": "How much sound power does an outdoor wedding need compared to indoors?",
       "keywordId": "outdoor-wedding-rental-considerations",
@@ -88404,6 +88681,25 @@
           "lastSeen": "2026-10-12",
           "seeds": [
             "sound-system-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-to-give-for-a-spanish-wedding",
+      "question": "how much to give for a spanish wedding",
+      "keywordId": "how-to-choose-wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "how-to-choose-wedding-rentals",
+            "protecting-your-wedding-rental-items"
           ]
         }
       }
@@ -88599,11 +88895,14 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-14",
+          "lastSeen": "2026-10-15",
           "seeds": [
             "all-in-one-wedding-rental-packages",
             "eco-friendly-wedding-rental-options",
-            "indoor-wedding-rental-essentials"
+            "indoor-wedding-rental-essentials",
+            "protecting-your-wedding-rental-items",
+            "styling-your-wedding-rental-pieces",
+            "timeline-for-reserving-wedding-rentals"
           ]
         }
       }
@@ -88735,6 +89034,24 @@
       }
     },
     {
+      "id": "how-to-calculate-lumen-in-a-room",
+      "question": "how to calculate lumen in a room",
+      "keywordId": "projector-lumens-for-conference-room",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "projector-lumens-for-conference-room"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-to-calibrate-sound-system",
       "question": "how to calibrate sound system",
       "keywordId": "audio-system-calibration",
@@ -88802,6 +89119,42 @@
           "lastSeen": "2026-09-30",
           "seeds": [
             "audio-system-calibration"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-choose-a-wedding-venue",
+      "question": "how to choose a wedding venue",
+      "keywordId": "how-to-choose-wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "how-to-choose-wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-do-a-video-audio",
+      "question": "how to do a video audio",
+      "keywordId": "how-audio-visual-rental-works",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "how-audio-visual-rental-works"
           ]
         }
       }
@@ -90743,6 +91096,24 @@
       }
     },
     {
+      "id": "what-are-the-rules-for-getting-married-in-spain",
+      "question": "what are the rules for getting married in spain",
+      "keywordId": "protecting-your-wedding-rental-items",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "protecting-your-wedding-rental-items"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-are-wedding-event-rentals",
       "question": "what are wedding event rentals",
       "keywordId": "wedding-rentals",
@@ -91345,8 +91716,9 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-13",
-          "lastSeen": "2026-10-13",
+          "lastSeen": "2026-10-15",
           "seeds": [
+            "how-to-choose-wedding-rentals",
             "indoor-wedding-rental-essentials"
           ]
         }
@@ -92012,10 +92384,11 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-14",
-          "lastSeen": "2026-10-14",
+          "lastSeen": "2026-10-15",
           "seeds": [
             "audio-visual-rental-planning-timeline",
-            "audio-visual-rental-safety-guidelines"
+            "audio-visual-rental-safety-guidelines",
+            "how-audio-visual-rental-works"
           ]
         }
       }
@@ -93013,6 +93386,24 @@
       }
     },
     {
+      "id": "what-lighting-do-you-need-for-a-wedding",
+      "question": "what lighting do you need for a wedding",
+      "keywordId": "lighting-ideas-for-wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "lighting-ideas-for-wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-lighting-do-you-need-for-wedding",
       "question": "what lighting do you need for wedding",
       "keywordId": "stage-lighting-for-weddings",
@@ -93185,6 +93576,24 @@
           "lastSeen": "2026-10-11",
           "seeds": [
             "wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-questions-to-ask-when-planning-a-wedding",
+      "question": "what questions to ask when planning a wedding",
+      "keywordId": "questions-about-wedding-rental-policies",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "questions-about-wedding-rental-policies"
           ]
         }
       }
@@ -93585,6 +93994,25 @@
           "lastSeen": "2026-10-15",
           "urls": [
             "/blog/stage-lighting-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-time-are-weddings-in-spain",
+      "question": "what time are weddings in spain",
+      "keywordId": "timeline-for-booking-wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "timeline-for-booking-wedding-rentals",
+            "timeline-for-reserving-wedding-rentals"
           ]
         }
       }
@@ -94215,6 +94643,24 @@
       }
     },
     {
+      "id": "who-can-marry-you-in-spain",
+      "question": "who can marry you in spain",
+      "keywordId": "protecting-your-wedding-rental-items",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "protecting-your-wedding-rental-items"
+          ]
+        }
+      }
+    },
+    {
       "id": "who-do-i-call-if-equipment-stops-working-during-my-event",
       "question": "Who do I call if equipment stops working during my event?",
       "keywordId": "av-system-troubleshooting",
@@ -94300,6 +94746,24 @@
           "lastSeen": "2026-10-13",
           "seeds": [
             "stage-lighting-for-weddings"
+          ]
+        }
+      }
+    },
+    {
+      "id": "who-finalizes-weddings",
+      "question": "who finalizes weddings",
+      "keywordId": "timeline-for-reserving-wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "timeline-for-reserving-wedding-rentals"
           ]
         }
       }
@@ -94405,10 +94869,11 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-13",
+          "lastSeen": "2026-10-15",
           "seeds": [
             "all-in-one-wedding-rental-packages",
-            "outdoor-wedding-rental-considerations"
+            "outdoor-wedding-rental-considerations",
+            "protecting-your-wedding-rental-items"
           ]
         }
       }
@@ -94594,6 +95059,24 @@
       }
     },
     {
+      "id": "why-do-weddings-take-so-long",
+      "question": "why do weddings take so long",
+      "keywordId": "timeline-for-reserving-wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15",
+          "seeds": [
+            "timeline-for-reserving-wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
       "id": "why-does-a-lavalier-microphone-need-a-technician-present",
       "question": "Why does a lavalier microphone need a technician present?",
       "keywordId": "audio-visual-rental-for-weddings",
@@ -94673,11 +95156,14 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-14",
+          "lastSeen": "2026-10-15",
           "seeds": [
             "all-in-one-wedding-rental-packages",
+            "how-to-choose-wedding-rentals",
             "indoor-wedding-rental-essentials",
             "outdoor-wedding-rental-considerations",
+            "protecting-your-wedding-rental-items",
+            "questions-about-wedding-rental-policies",
             "trending-wedding-rental-ideas",
             "wedding-rentals-near-me",
             "wedding-rentals-online"
@@ -94822,9 +95308,10 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-13",
-          "lastSeen": "2026-10-13",
+          "lastSeen": "2026-10-15",
           "seeds": [
-            "common-av-rental-mistakes"
+            "common-av-rental-mistakes",
+            "protecting-your-wedding-rental-items"
           ]
         }
       }
