@@ -818,26 +818,6 @@
       ]
     },
     {
-      "id": "#T0130",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Nueva sección H2 en /blog/projector-rental/: \"Rear Projection Screen Rental\"",
-      "anotada": "2026-10-15",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-15, ítem 1)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/projector-rental.svx",
-        "Ubicación: después de \"What We Don't Stock\"",
-        "Keywords: rear projection screen rental, rear projection rental, rear projection screen hire (google-ads 10/mo (below tier 100)), debajo del tier",
-        "Qué cubrir: Explicar cuando conviene proyeccion trasera (escenarios, stands, espacio detras de la pantalla) y que no esta en nuestro inventario propio: el cliente nos cuenta que necesita y buscamos una solucion con nuestros proveedores. Sin marca, modelo, cantidad, precio, disponibilidad ni plazo. No presentarlo como equipo propio. No anadir enlaces a posts de soporte.",
-        "Por qué: Ningun post cubre proyeccion trasera (revisados projector-rental y outdoor-movie-screen-and-projector-rental). Es una necesidad de evento que MEG resuelve con proveedores, encaja como seccion en projector-rental y no como post nuevo (Goldilocks, creating-helpful-content.md).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0110",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1395,6 +1375,28 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0130",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Nueva sección H2 en /blog/projector-rental/: \"Rear Projection Screen Rental\"",
+      "anotada": "2026-10-15",
+      "hecha": "2026-10-15",
+      "origen": "content-strategist (plan 2026-10-15, ítem 1)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/projector-rental.svx",
+        "Ubicación: después de \"What We Don't Stock\"",
+        "Keywords: rear projection screen rental, rear projection rental, rear projection screen hire (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Explicar cuando conviene proyeccion trasera (escenarios, stands, espacio detras de la pantalla) y que no esta en nuestro inventario propio: el cliente nos cuenta que necesita y buscamos una solucion con nuestros proveedores. Sin marca, modelo, cantidad, precio, disponibilidad ni plazo. No presentarlo como equipo propio. No anadir enlaces a posts de soporte.",
+        "Por qué: Ningun post cubre proyeccion trasera (revisados projector-rental y outdoor-movie-screen-and-projector-rental). Es una necesidad de evento que MEG resuelve con proveedores, encaja como seccion en projector-rental y no como post nuevo (Goldilocks, creating-helpful-content.md).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
     },
     {
       "id": "#T0131",
