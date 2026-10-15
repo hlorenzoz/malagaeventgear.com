@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-15",
+  "run": { "status": "ok", "candidatesReviewed": 20,
+           "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" } },
+  "todo": [],
+  "items": [
+    {
+      "keywords": ["rear projection screen rental", "rear projection rental", "rear projection screen hire"],
+      "cluster": "audio visual rental",
+      "action": "add-section",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Ningun post cubre proyeccion trasera (revisados projector-rental y outdoor-movie-screen-and-projector-rental). Es una necesidad de evento que MEG resuelve con proveedores, encaja como seccion en projector-rental y no como post nuevo (Goldilocks, creating-helpful-content.md).",
+      "targetUrl": "/blog/projector-rental/",
+      "file": "src/content/blog/projector-rental.svx",
+      "headingLevel": 2,
+      "heading": "Rear Projection Screen Rental",
+      "after": "What We Don't Stock",
+      "brief": "Explicar cuando conviene proyeccion trasera (escenarios, stands, espacio detras de la pantalla) y que no esta en nuestro inventario propio: el cliente nos cuenta que necesita y buscamos una solucion con nuestros proveedores. Sin marca, modelo, cantidad, precio, disponibilidad ni plazo. No presentarlo como equipo propio. No anadir enlaces a posts de soporte."
+    },
+    {
+      "keywords": ["projector screen outdoor rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/outdoor-movie-screen-and-projector-rental/, heading 'Outdoor Movie Screen Rental: Choosing Your Screen and Projector Size'."
+    },
+    {
+      "keywords": ["rent inflatable tv screen"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/outdoor-movie-screen-and-projector-rental/, FAQ 'Do you rent an inflatable outdoor movie screen?'."
+    },
+    {
+      "keywords": ["projector screen rental price", "projector with screen for rent", "projector with screen on rent", "rent a tv projector", "rent a large projector screen"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/projector-rental/, headings 'Projector and Screen Pricing by Package' y 'Why the Screen Is Always Bundled With the Projector', FAQs de pantalla incluida y tamano maximo."
+    },
+    {
+      "keywords": ["projectors for hire near me", "rent a movie projector near me", "rent a movie screen and projector near me", "rent a screen and projector near me", "rent audio visual equipment near me"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Variantes 'near me' de paginas existentes: doorway abuse (spam-policies.md). Ya hay FAQ 'Do you deliver projector rental near me outside Malaga city?' en projector-rental."
+    },
+    {
+      "keywords": ["proscreens av hire"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Busqueda de marca de otra empresa, sin intencion que MEG pueda servir."
+    },
+    {
+      "keywords": ["rent a mic and speaker", "rent for sound system", "rent a stereo system"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/sound-system-rental/, FAQ 'Can I rent just speakers, without a microphone or technician?' y heading 'What's Included in a Sound System Rental'."
+    },
+    {
+      "keywords": ["rent in ear monitors"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/stage-monitor-rental/, FAQ 'Do you offer in ear monitors instead of floor wedges?'."
+    }
+  ]
+}
