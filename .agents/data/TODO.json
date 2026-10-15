@@ -146,42 +146,6 @@
       ]
     },
     {
-      "id": "#T0080",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"sound equipment rental\" (new_content)",
-      "anotada": "2026-10-08",
-      "hecha": null,
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-equipment-rental)",
-      "notas": [
-        "cerrada por el reporte de ubersuggest",
-        "reabierta por ubersuggest el 2026-10-15"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
-      ]
-    },
-    {
-      "id": "#T0083",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"audio visual rental companies\" (existing_content)",
-      "anotada": "2026-10-08",
-      "hecha": null,
-      "origen": "ubersuggest (seo-opportunities, keyword/existing-content/audio-visual-rental-companies)",
-      "notas": [
-        "cerrada por el reporte de ubersuggest",
-        "reabierta por ubersuggest el 2026-10-15"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY existing_content. impacto low, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
-      ]
-    },
-    {
       "id": "#T0087",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -490,26 +454,6 @@
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate (just post-touch). Flujo: just post-sync, post-translator en modo UPDATE, just post-translate-check y just post-translate-finish (UN commit con el ingles y sus 12 traducciones).",
         "Honestidad: inventario propio separado de lo que se consigue con proveedores, precios solo con los helpers, ningun competidor nombrado, nada que el negocio no haya confirmado.",
         "Origen: analisis de los aiPrompts de .agents/context/keywords/ubersuggest/*.json (2026-10-08). Veredicto de cada prompt en .agents/context/keywords/ai-prompts-gap-analysis-2026-10-08.md. Los prompts siguen en idea en keywords.json hasta publicar: despues just keywords-sync."
-      ]
-    },
-    {
-      "id": "#T0045",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"audiovisual equipment rental service\" (new_content)",
-      "anotada": "2026-09-30",
-      "hecha": null,
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/audiovisual-equipment-rental-service)",
-      "notas": [
-        "cerrada por el reporte de ubersuggest",
-        "reabierta por ubersuggest el 2026-10-08",
-        "cerrada por el reporte de ubersuggest",
-        "reabierta por ubersuggest el 2026-10-15"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
       ]
     },
     {
@@ -1488,6 +1432,65 @@
       "descripcion": [
         "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
         "Reporte seo-opportunities de ubersuggest del 2026-10-15."
+      ]
+    },
+    {
+      "id": "#T0080",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"sound equipment rental\" (new_content)",
+      "anotada": "2026-10-08",
+      "hecha": "2026-10-15",
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-equipment-rental)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-15",
+        "cerrada por el reporte de ubersuggest"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
+      ]
+    },
+    {
+      "id": "#T0083",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"audio visual rental companies\" (existing_content)",
+      "anotada": "2026-10-08",
+      "hecha": "2026-10-15",
+      "origen": "ubersuggest (seo-opportunities, keyword/existing-content/audio-visual-rental-companies)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-15",
+        "cerrada por el reporte de ubersuggest"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY existing_content. impacto low, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
+      ]
+    },
+    {
+      "id": "#T0045",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"audiovisual equipment rental service\" (new_content)",
+      "anotada": "2026-09-30",
+      "hecha": "2026-10-15",
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/audiovisual-equipment-rental-service)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-08",
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-15",
+        "cerrada por el reporte de ubersuggest"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
       ]
     },
     {
