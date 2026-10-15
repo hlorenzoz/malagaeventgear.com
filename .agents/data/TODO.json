@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "tasks": [
     {
       "id": "#T0085",
@@ -48,6 +48,21 @@
         "- Respetar el cupo de posts nuevos por día y SDD para lo que no sea contenido.",
         "",
         "Entregable final: un documento de plan del clúster (keywords, estructura, enlaces, orden de publicación por tier) para aprobación del usuario, y después las tareas hijas en TODO.json. Esta tarea no escribe posts."
+      ]
+    },
+    {
+      "id": "#T0133",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"audiovisual rental\" (new_content)",
+      "anotada": "2026-10-15",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/audiovisual-rental)",
+      "notas": [],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-15."
       ]
     },
     {
@@ -128,6 +143,42 @@
         "8. Tests: e2e de las paginas en /es/, hreflang, sitemaps y precache del PWA. Build y Lighthouse.",
         "",
         "Cuidados: seguir SDD (regla 6). Español de España, con revision nativa (el usuario es hablante nativo). Nunca prometer atencion en otro idioma que no sea ingles o español. Sin paginas de relleno en ingles bajo /es/."
+      ]
+    },
+    {
+      "id": "#T0080",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"sound equipment rental\" (new_content)",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-equipment-rental)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-15"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
+      ]
+    },
+    {
+      "id": "#T0083",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"audio visual rental companies\" (existing_content)",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/existing-content/audio-visual-rental-companies)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-15"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY existing_content. impacto low, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
       ]
     },
     {
@@ -439,6 +490,26 @@
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate (just post-touch). Flujo: just post-sync, post-translator en modo UPDATE, just post-translate-check y just post-translate-finish (UN commit con el ingles y sus 12 traducciones).",
         "Honestidad: inventario propio separado de lo que se consigue con proveedores, precios solo con los helpers, ningun competidor nombrado, nada que el negocio no haya confirmado.",
         "Origen: analisis de los aiPrompts de .agents/context/keywords/ubersuggest/*.json (2026-10-08). Veredicto de cada prompt en .agents/context/keywords/ai-prompts-gap-analysis-2026-10-08.md. Los prompts siguen en idea en keywords.json hasta publicar: despues just keywords-sync."
+      ]
+    },
+    {
+      "id": "#T0045",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"audiovisual equipment rental service\" (new_content)",
+      "anotada": "2026-09-30",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/audiovisual-equipment-rental-service)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-08",
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-15"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
       ]
     },
     {
@@ -800,6 +871,26 @@
         "- todo-implementer v1 no toma Post nuevo: la orquestación la lleva una sesión, con los agentes en primer plano y uno a la vez.",
         "",
         "Subtareas: al aprobarse el plan de #T0085 se crea una tarea hija por post, y esta queda como la tarea madre del clúster."
+      ]
+    },
+    {
+      "id": "#T0130",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Nueva sección H2 en /blog/projector-rental/: \"Rear Projection Screen Rental\"",
+      "anotada": "2026-10-15",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-15, ítem 1)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/projector-rental.svx",
+        "Ubicación: después de \"What We Don't Stock\"",
+        "Keywords: rear projection screen rental, rear projection rental, rear projection screen hire (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Explicar cuando conviene proyeccion trasera (escenarios, stands, espacio detras de la pantalla) y que no esta en nuestro inventario propio: el cliente nos cuenta que necesita y buscamos una solucion con nuestros proveedores. Sin marca, modelo, cantidad, precio, disponibilidad ni plazo. No presentarlo como equipo propio. No anadir enlaces a posts de soporte.",
+        "Por qué: Ningun post cubre proyeccion trasera (revisados projector-rental y outdoor-movie-screen-and-projector-rental). Es una necesidad de evento que MEG resuelve con proveedores, encaja como seccion en projector-rental y no como post nuevo (Goldilocks, creating-helpful-content.md).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
@@ -1360,6 +1451,44 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0131",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-15",
+      "anotada": "2026-10-15",
+      "hecha": "2026-10-15",
+      "origen": "content-strategist (plan 2026-10-15, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "projector screen outdoor rental (Cubierto por /blog/outdoor-movie-screen-and-projector-rental/, heading 'Outdoor Movie Screen Rental: Choosing Your Screen and Projector Size'.)",
+        "rent inflatable tv screen (Cubierto por /blog/outdoor-movie-screen-and-projector-rental/, FAQ 'Do you rent an inflatable outdoor movie screen?'.)",
+        "projector screen rental price (Cubierto por /blog/projector-rental/, headings 'Projector and Screen Pricing by Package' y 'Why the Screen Is Always Bundled With the Projector', FAQs de pantalla incluida y tamano maximo.)",
+        "projectors for hire near me (Variantes 'near me' de paginas existentes: doorway abuse (spam-policies.md). Ya hay FAQ 'Do you deliver projector rental near me outside Malaga city?' en projector-rental.)",
+        "proscreens av hire (Busqueda de marca de otra empresa, sin intencion que MEG pueda servir.)",
+        "rent a mic and speaker (Cubierto por /blog/sound-system-rental/, FAQ 'Can I rent just speakers, without a microphone or technician?' y heading 'What's Included in a Sound System Rental'.)",
+        "rent in ear monitors (Cubierto por /blog/stage-monitor-rental/, FAQ 'Do you offer in ear monitors instead of floor wedges?'.)"
+      ]
+    },
+    {
+      "id": "#T0132",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"audio visual rental company\" (new_content)",
+      "anotada": "2026-10-15",
+      "hecha": "2026-10-15",
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/audio-visual-rental-company)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-15."
+      ]
     },
     {
       "id": "#T0129",
@@ -2299,23 +2428,6 @@
       ]
     },
     {
-      "id": "#T0080",
-      "estado": "hecha",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"sound equipment rental\" (new_content)",
-      "anotada": "2026-10-08",
-      "hecha": "2026-10-08",
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-equipment-rental)",
-      "notas": [
-        "cerrada por el reporte de ubersuggest"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
-      ]
-    },
-    {
       "id": "#T0081",
       "estado": "hecha",
       "prioridad": "alta",
@@ -2329,23 +2441,6 @@
       ],
       "descripcion": [
         "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
-      ]
-    },
-    {
-      "id": "#T0083",
-      "estado": "hecha",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"audio visual rental companies\" (existing_content)",
-      "anotada": "2026-10-08",
-      "hecha": "2026-10-08",
-      "origen": "ubersuggest (seo-opportunities, keyword/existing-content/audio-visual-rental-companies)",
-      "notas": [
-        "cerrada por el reporte de ubersuggest"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY existing_content. impacto low, esfuerzo low",
         "Reporte seo-opportunities de ubersuggest del 2026-10-08."
       ]
     },
@@ -2465,25 +2560,6 @@
         "- \"Update H1 Heading\" y el title sugerido: ver la tarea del title y el H1 (el H1 actual es la categoria primaria del GBP).",
         "- \"Add Google Business Profile Link\": el enlace existe. Ver la tarea de los enlaces del perfil.",
         "El resto de los hallazgos tiene su propia tarea, todas con \"[Local Dominator]\" en el titulo."
-      ]
-    },
-    {
-      "id": "#T0045",
-      "estado": "hecha",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"audiovisual equipment rental service\" (new_content)",
-      "anotada": "2026-09-30",
-      "hecha": "2026-10-08",
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/audiovisual-equipment-rental-service)",
-      "notas": [
-        "cerrada por el reporte de ubersuggest",
-        "reabierta por ubersuggest el 2026-10-08",
-        "cerrada por el reporte de ubersuggest"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
       ]
     },
     {
