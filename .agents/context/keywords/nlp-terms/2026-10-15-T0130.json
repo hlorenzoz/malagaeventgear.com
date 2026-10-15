@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-15",
+  "taskId": "#T0130",
+  "slug": "projector-rental",
+  "searchTerm": "projector rental Rear Projection Screen Rental",
+  "status": "partial",
+  "reason": "All top results were product pages of one rental company; the fetched pages were generic inventory pages with no rear projection content, so only generic video vocabulary was usable. Duplicate host pages skipped.",
+  "serp": {
+    "query": "rear projection screen rental",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://www.4wall.com/rentals/9758474/draper-focalpoint-14-x-10-5-ft-4-3-portable-rear-projection-screen", "title": "Rentals » Inventory » Video Systems » Projection Screens »" },
+      { "rank": 2, "url": "https://www.4wall.com/rentals/9758492/draper-focalpoint-10-x-6-25-ft-16-10-portable-rear-projection-screen", "title": "Rentals » Inventory » Video » Projection Screens »" },
+      { "rank": 3, "url": "https://www.4wall.com/rentals/9758509/draper-stagescreen-16-x-9-ft-16-9-portable-rear-projection-screen", "title": "Rentals » Inventory » Video Systems » Projection Screens »" }
+    ]
+  },
+  "terms": [
+    { "term": "projectors and lenses", "kind": "entity", "seenIn": 3 },
+    { "term": "screens", "kind": "entity", "seenIn": 3 },
+    { "term": "LED walls", "kind": "entity", "seenIn": 3 },
+    { "term": "image processors", "kind": "entity", "seenIn": 3 },
+    { "term": "monitors", "kind": "entity", "seenIn": 3 },
+    { "term": "HD and 4K cameras", "kind": "entity", "seenIn": 3 },
+    { "term": "recording setups", "kind": "related", "seenIn": 3 },
+    { "term": "corporate conferences", "kind": "entity", "seenIn": 2 },
+    { "term": "tradeshows", "kind": "entity", "seenIn": 2 },
+    { "term": "live events", "kind": "entity", "seenIn": 2 },
+    { "term": "concerts", "kind": "entity", "seenIn": 2 },
+    { "term": "theatrical performances", "kind": "entity", "seenIn": 2 },
+    { "term": "exhibitions", "kind": "entity", "seenIn": 1 },
+    { "term": "What video systems are included?", "kind": "question", "seenIn": 2 }
+  ],
+  "discarded": [
+    { "term": "4Wall", "reason": "competitor name" },
+    { "term": "Draper", "reason": "brand seen only in URLs and snippet, not read on a page" },
+    { "term": "lighting audio and rigging terms", "reason": "off topic for a screen section" },
+    { "term": "TV and film productions", "reason": "different market segment" },
+    { "term": "Broadway theatre", "reason": "place of another market" },
+    { "term": "worship arts", "reason": "not relevant to MEG audience" }
+  ]
+}

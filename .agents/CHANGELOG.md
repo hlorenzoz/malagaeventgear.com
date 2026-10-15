@@ -7,6 +7,13 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): projector-rental, seccion de proyeccion trasera (#T0130) (2026-10-15)
+- Origen: plan de contenido 2026-10-15, item "rear projection screen rental" (google-ads, 10/mes). Ningun post cubria proyeccion trasera.
+- Seccion nueva `## Rear Projection Screen Rental` (id `rear-projection-screen-rental`), despues de `## What We Don't Stock` y antes de `## Real Projector Setups We've Delivered`. Su viñeta se sumo al indice inline en esa posicion.
+- El brief decia que no estaba en inventario propio, pero el CSV del 2026-09-26 (linea 81) lista la pantalla Da-Lite 2,30x3,00 con dos telas, proyeccion frontal y retroproyeccion, y el post ya la publica en un FAQ. Gana el CSV: la seccion la presenta como propia (a presupuesto con proyector, fuera de paquetes). Lo que exceda ese tamano o fondo va con la formula de proveedores, si los hay.
+- Sin marca nueva, precio, plazo ni enlaces nuevos. Terminos del SERP (parcial, delgado): no se uso ninguno, porque LED walls y similares no son inventario propio.
+- `updatedDate` quedo en 2026-10-15 (`just post-sync`, que regenero `post-faqs.json` y `post-toc.json`). Las 12 traducciones llevan la misma seccion en el mismo cambio.
+
 ### Tests (leads): prueba de punta a punta del lead guardado sin correo (#T0001) (2026-10-13)
 - Verificación de #T0001 contra el código, a pedido del usuario (no hay ningún reporte de fallo del formulario). De sus cuatro pedidos, tres ya estaban hechos: (1) el formulario de contacto llega relleno con lo que se escribió en el formulario del paquete (`LeadForm.svelte` lo pasa por `sessionStorage`, nunca por la URL, y `contact/+page.svelte` lo lee una vez y lo borra). (2) El mensaje lleva, bajo "Submitted details:", la URL de la página del paquete. (4) `submitLead` guarda el lead, sus eventos y el estado de cada correo, y un fallo de correo no revierte el lead (73 tests unitarios en verde).
 - Lo único sin hacer es (3), persistir errores por `/api/v1/error-tracking`: no existe ni la ruta ni la tabla. Es el alcance de #T0004, y queda ahí.
