@@ -1,7 +1,85 @@
 {
 	"version": 1,
-	"updated": "2026-10-14",
+	"updated": "2026-10-15",
 	"reports": [
+		{
+			"date": "2026-10-15",
+			"kind": "seo-opportunities",
+			"status": "ok",
+			"calls": [
+				{
+					"tool": "seo_opportunities",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "failed"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				}
+			],
+			"summary": [
+				"seo_opportunities returned 5 new_content and 1 existing_content keyword opportunities and 1 SITE_AUDIT item.",
+				"SITE_AUDIT content_count_words: 4 pages, impact high, effort medium.",
+				"Cost 1 report on the day."
+			],
+			"findings": [
+				{
+					"key": "keyword/new-content/sound-equipment-rental",
+					"title": "Oportunidad de keyword \"sound equipment rental\" (new_content)"
+				},
+				{
+					"key": "keyword/new-content/audiovisual-equipment-rental-service",
+					"title": "Oportunidad de keyword \"audiovisual equipment rental service\" (new_content)"
+				},
+				{
+					"key": "keyword/new-content/audio-visual-rental-company",
+					"title": "Oportunidad de keyword \"audio visual rental company\" (new_content)"
+				},
+				{
+					"key": "keyword/new-content/sound-and-light-rental",
+					"title": "Oportunidad de keyword \"sound and light rental\" (new_content)"
+				},
+				{
+					"key": "keyword/new-content/audiovisual-rental",
+					"title": "Oportunidad de keyword \"audiovisual rental\" (new_content)"
+				},
+				{
+					"key": "keyword/existing-content/audio-visual-rental-companies",
+					"title": "Oportunidad de keyword \"audio visual rental companies\" (existing_content)"
+				},
+				{
+					"key": "site-audit/content-count-words",
+					"title": "Arreglar la auditoria: content_count_words (4 paginas)"
+				}
+			],
+			"discovered": {
+				"keywords": 6,
+				"aiPrompts": 55
+			}
+		},
 		{
 			"date": "2026-10-14",
 			"kind": "top-pages",
