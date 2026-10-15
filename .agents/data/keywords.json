@@ -55989,8 +55989,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/projector-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -56029,6 +56029,10 @@
             }
           }
         },
+        "blog": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15"
+        },
         "content-plan": {
           "firstSeen": "2026-10-15",
           "lastSeen": "2026-10-15",
@@ -56053,8 +56057,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/projector-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -56093,6 +56097,10 @@
             }
           }
         },
+        "blog": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15"
+        },
         "content-plan": {
           "firstSeen": "2026-10-15",
           "lastSeen": "2026-10-15",
@@ -56117,8 +56125,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/projector-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -56156,6 +56164,10 @@
               "2026-08": 10
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-15",
+          "lastSeen": "2026-10-15"
         },
         "content-plan": {
           "firstSeen": "2026-10-15",
