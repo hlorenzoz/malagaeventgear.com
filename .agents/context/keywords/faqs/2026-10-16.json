@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-16",
+  "run": {
+    "status": "ok",
+    "calls": [
+      { "tool": "google_suggestions", "args": "timing your wedding rental bookings, weather considerations for outdoor rentals", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "audio visual rental for small businesses, audio visual rental for sports events", "outcome": "empty" },
+      { "tool": "google_suggestions", "args": "audio visual rental for trade shows, audio visual rental for training sessions", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "audio visual rental for virtual events, av equipment needed for a conference", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "destination wedding av costa del sol, how many lumens do I need", "outcome": "ok" }
+    ]
+  },
+  "seeds": [
+    "timing-your-wedding-rental-bookings",
+    "weather-considerations-for-outdoor-rentals",
+    "audio-visual-rental-for-small-businesses",
+    "audio-visual-rental-for-sports-events",
+    "audio-visual-rental-for-trade-shows",
+    "audio-visual-rental-for-training-sessions",
+    "audio-visual-rental-for-virtual-events",
+    "av-equipment-needed-for-a-conference",
+    "destination-wedding-av-costa-del-sol",
+    "how-many-lumens-do-i-need"
+  ],
+  "suggestions": [
+    { "seed": "timing-your-wedding-rental-bookings", "phrase": "what time are weddings in spain" },
+    { "seed": "timing-your-wedding-rental-bookings", "phrase": "what time do weddings usually start and end" },
+    { "seed": "timing-your-wedding-rental-bookings", "phrase": "how many hours to book wedding venue" },
+    { "seed": "timing-your-wedding-rental-bookings", "phrase": "how much does it cost a wedding in spain" },
+    { "seed": "weather-considerations-for-outdoor-rentals", "phrase": "are air tents good in wind" },
+    { "seed": "weather-considerations-for-outdoor-rentals", "phrase": "which weather conditions can be expected during summer over land in the centre of a cold air pool" },
+    { "seed": "audio-visual-rental-for-trade-shows", "phrase": "is audio visual a trade" },
+    { "seed": "audio-visual-rental-for-training-sessions", "phrase": "how much does it cost to rent a studio for music" },
+    { "seed": "av-equipment-needed-for-a-conference", "phrase": "what av equipment do i need for a conference" },
+    { "seed": "av-equipment-needed-for-a-conference", "phrase": "what equipment is needed" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for a projector" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for a room" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for a projector in a bright room" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for outdoor lighting" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for an outdoor projector" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need outdoor" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for a head torch" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need in a flashlight" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for daylight projector" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for a 12x12 room" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need to light a room" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need to light up my backyard" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for a kitchen" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for a torch" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for plants" }
+  ]
+}

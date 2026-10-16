@@ -81361,6 +81361,24 @@
       }
     },
     {
+      "id": "are-air-tents-good-in-wind",
+      "question": "are air tents good in wind",
+      "keywordId": "weather-considerations-for-outdoor-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "weather-considerations-for-outdoor-rentals"
+          ]
+        }
+      }
+    },
+    {
       "id": "are-cables-a-safety-risk-at-my-event",
       "question": "Are cables a safety risk at my event?",
       "keywordId": "audio-visual-rental-safety-guidelines",
@@ -87168,6 +87186,42 @@
       }
     },
     {
+      "id": "how-many-hours-to-book-wedding-venue",
+      "question": "how many hours to book wedding venue",
+      "keywordId": "timing-your-wedding-rental-bookings",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "timing-your-wedding-rental-bookings"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-lumens-do-i-need-for-a-12x12-room",
+      "question": "how many lumens do i need for a 12x12 room",
+      "keywordId": "how-many-lumens-do-i-need",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "how-many-lumens-do-i-need"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-many-lumens-do-i-need-for-a-conference-room-projector",
       "question": "How many lumens do I need for a conference room projector?",
       "keywordId": "projector-rental",
@@ -87183,6 +87237,60 @@
       }
     },
     {
+      "id": "how-many-lumens-do-i-need-for-a-head-torch",
+      "question": "how many lumens do i need for a head torch",
+      "keywordId": "how-many-lumens-do-i-need",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "how-many-lumens-do-i-need"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-lumens-do-i-need-for-a-kitchen",
+      "question": "how many lumens do i need for a kitchen",
+      "keywordId": "how-many-lumens-do-i-need",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "how-many-lumens-do-i-need"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-lumens-do-i-need-for-a-projector",
+      "question": "how many lumens do i need for a projector",
+      "keywordId": "how-many-lumens-do-i-need",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "how-many-lumens-do-i-need"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-many-lumens-do-i-need-for-a-projector-in-a-bright-room",
       "question": "how many lumens do i need for a projector in a bright room",
       "keywordId": "projector-lumens-for-conference-room",
@@ -87193,9 +87301,154 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-15",
-          "lastSeen": "2026-10-15",
+          "lastSeen": "2026-10-16",
           "seeds": [
+            "how-many-lumens-do-i-need",
             "projector-lumens-for-conference-room"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-lumens-do-i-need-for-a-room",
+      "question": "how many lumens do i need for a room",
+      "keywordId": "how-many-lumens-do-i-need",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "how-many-lumens-do-i-need"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-lumens-do-i-need-for-a-torch",
+      "question": "how many lumens do i need for a torch",
+      "keywordId": "how-many-lumens-do-i-need",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "how-many-lumens-do-i-need"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-lumens-do-i-need-for-an-outdoor-projector",
+      "question": "how many lumens do i need for an outdoor projector",
+      "keywordId": "how-many-lumens-do-i-need",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "how-many-lumens-do-i-need"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-lumens-do-i-need-for-daylight-projector",
+      "question": "how many lumens do i need for daylight projector",
+      "keywordId": "how-many-lumens-do-i-need",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "how-many-lumens-do-i-need"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-lumens-do-i-need-for-outdoor-lighting",
+      "question": "how many lumens do i need for outdoor lighting",
+      "keywordId": "how-many-lumens-do-i-need",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "how-many-lumens-do-i-need"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-lumens-do-i-need-for-plants",
+      "question": "how many lumens do i need for plants",
+      "keywordId": "how-many-lumens-do-i-need",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "how-many-lumens-do-i-need"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-lumens-do-i-need-in-a-flashlight",
+      "question": "how many lumens do i need in a flashlight",
+      "keywordId": "how-many-lumens-do-i-need",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "how-many-lumens-do-i-need"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-lumens-do-i-need-outdoor",
+      "question": "how many lumens do i need outdoor",
+      "keywordId": "how-many-lumens-do-i-need",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "how-many-lumens-do-i-need"
           ]
         }
       }
@@ -87214,6 +87467,42 @@
           "lastSeen": "2026-10-15",
           "seeds": [
             "projector-lumens-for-conference-room"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-lumens-do-i-need-to-light-a-room",
+      "question": "how many lumens do i need to light a room",
+      "keywordId": "how-many-lumens-do-i-need",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "how-many-lumens-do-i-need"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-lumens-do-i-need-to-light-up-my-backyard",
+      "question": "how many lumens do i need to light up my backyard",
+      "keywordId": "how-many-lumens-do-i-need",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "how-many-lumens-do-i-need"
           ]
         }
       }
@@ -88206,7 +88495,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-15",
+          "lastSeen": "2026-10-16",
           "seeds": [
             "all-in-one-wedding-rental-packages",
             "eco-friendly-wedding-rental-options",
@@ -88217,6 +88506,7 @@
             "styling-your-wedding-rental-pieces",
             "timeline-for-booking-wedding-rentals",
             "timeline-for-reserving-wedding-rentals",
+            "timing-your-wedding-rental-bookings",
             "wedding-rentals-near-me",
             "wedding-rentals-online"
           ]
@@ -88433,8 +88723,9 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-15",
-          "lastSeen": "2026-10-15",
+          "lastSeen": "2026-10-16",
           "seeds": [
+            "audio-visual-rental-for-training-sessions",
             "how-audio-visual-rental-works"
           ]
         }
@@ -90125,6 +90416,24 @@
       }
     },
     {
+      "id": "is-audio-visual-a-trade",
+      "question": "is audio visual a trade",
+      "keywordId": "audio-visual-rental-for-trade-shows",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "audio-visual-rental-for-trade-shows"
+          ]
+        }
+      }
+    },
+    {
       "id": "is-booking-one-all-in-one-package-cheaper-than-hiring-separate-av-vendors",
       "question": "Is booking one all in one package cheaper than hiring separate AV vendors?",
       "keywordId": "all-in-one-wedding-rental-packages",
@@ -91481,9 +91790,10 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30",
+          "lastSeen": "2026-10-16",
           "seeds": [
-            "av-equipment-checklist-for-conference"
+            "av-equipment-checklist-for-conference",
+            "av-equipment-needed-for-a-conference"
           ]
         }
       }
@@ -92073,6 +92383,24 @@
           "lastSeen": "2026-10-16",
           "urls": [
             "/blog/audio-visual-rental-for-virtual-events/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-equipment-is-needed",
+      "question": "what equipment is needed",
+      "keywordId": "av-equipment-needed-for-a-conference",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "av-equipment-needed-for-a-conference"
           ]
         }
       }
@@ -94221,10 +94549,29 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-15",
-          "lastSeen": "2026-10-15",
+          "lastSeen": "2026-10-16",
           "seeds": [
             "timeline-for-booking-wedding-rentals",
-            "timeline-for-reserving-wedding-rentals"
+            "timeline-for-reserving-wedding-rentals",
+            "timing-your-wedding-rental-bookings"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-time-do-weddings-usually-start-and-end",
+      "question": "what time do weddings usually start and end",
+      "keywordId": "timing-your-wedding-rental-bookings",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "timing-your-wedding-rental-bookings"
           ]
         }
       }
@@ -94832,6 +95179,24 @@
           "lastSeen": "2026-10-16",
           "urls": [
             "/blog/video-switcher-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "which-weather-conditions-can-be-expected-during-summer-over-land-in-the-centre-of-a-cold-air-pool",
+      "question": "which weather conditions can be expected during summer over land in the centre of a cold air pool",
+      "keywordId": "weather-considerations-for-outdoor-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-16",
+          "lastSeen": "2026-10-16",
+          "seeds": [
+            "weather-considerations-for-outdoor-rentals"
           ]
         }
       }
