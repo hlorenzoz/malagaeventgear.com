@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-16",
+  "run": { "status": "ok", "candidatesReviewed": 20,
+           "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" } },
+  "todo": [],
+  "items": [
+    {
+      "keywords": ["rent movie projector and screen", "screen projector on rent"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/projector-rental/, heading 'Projector and Screen Pricing by Package' y 'Why the Screen Is Always Bundled With the Projector'. El caso cine al aire libre lo cubre /blog/outdoor-movie-screen-and-projector-rental/."
+    },
+    {
+      "keywords": ["rent movie projector and screen near me", "rent projectors and screens near me", "screen and projector rental near me", "screen projector rental near me"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Variante near me de una pagina existente (/blog/projector-rental/, que ya tiene FAQ 'Do you deliver projector rental near me outside Malaga city?'). Doorway abuse en spam-policies.md."
+    },
+    {
+      "keywords": ["screen hire for events", "screen hire near me"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/tv-screen-rental/, heading 'Where a TV Screen Fits: Lobbies, Exhibition Booths, Gala Dinners and Hybrid Meetings'. La parte near me es doorway abuse."
+    },
+    {
+      "keywords": ["rent outdoor tv screen"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/tv-screen-rental/, FAQ 'Is the screen for indoor venues only, or can it go outdoors?' y por /blog/outdoor-movie-screen-and-projector-rental/."
+    },
+    {
+      "keywords": ["small pa system rental", "small pa system hire", "small pa hire"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/sound-system-rental/, heading 'Choosing Your Sound System by Guest Count' y FAQ 'Do you offer a portable, battery powered or self collect PA system?'."
+    },
+    {
+      "keywords": ["rent pa system near me", "rent sound system for party near me"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Variante near me de /blog/sound-system-rental/ (ya tiene FAQ 'Do you deliver sound system rental near me outside Malaga city?'). Doorway abuse en spam-policies.md."
+    },
+    {
+      "keywords": ["rent music system for party"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/sound-system-rental/, heading 'PA System or DJ Sound: Matching Equipment to the Event' y FAQ 'Can I rent a complete DJ system for a party?'. Tambien /blog/audio-visual-rental-for-private-parties/."
+    },
+    {
+      "keywords": ["rent sound equipment for concert"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/audio-visual-rental-for-music-performances/ y /blog/sound-system-rental/, heading 'PA System or DJ Sound: Matching Equipment to the Event'."
+    },
+    {
+      "keywords": ["rent wireless microphone and speaker", "rental of microphone and speaker"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/sound-system-rental/, FAQ 'Is a wireless microphone available, or only wired?' y 'Can I rent just speakers, without a microphone or technician?'."
+    },
+    {
+      "keywords": ["sound and stage hire"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/sound-system-rental/, heading 'Sound and Light Rental in One Package', y por /blog/audiovisual-equipment-rental-service/, heading 'Modular Staging for Corporate Events'."
+    },
+    {
+      "keywords": ["sewa dj set"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Busqueda en indonesio (sewa = alquilar), fuera del mercado de MEG. La intencion DJ ya esta en /blog/sound-system-rental/."
+    }
+  ]
+}
