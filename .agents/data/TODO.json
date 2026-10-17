@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "tasks": [
     {
       "id": "#T0085",
@@ -1437,6 +1437,27 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0135",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-17",
+      "anotada": "2026-10-17",
+      "hecha": "2026-10-17",
+      "origen": "content-strategist (plan 2026-10-17, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "sound board rental (Misma intención que la FAQ 'Can I rent an audio mixer or mixing console on its own?' de /blog/sound-system-rental/. Cubierto, una sección nueva solo repetiría la FAQ (creating-helpful-content.md, contenido pensado para buscadores).)",
+        "sound booth rental near me (Variantes near me de un post existente. Cubierto por la FAQ 'Do you deliver sound system rental near me outside Malaga city?' y la sección 'Booking and Service Area' de /blog/sound-system-rental/. Nueva página sería doorway abuse (spam-policies.md). Sound booth además es otra intención.)",
+        "sound devices 633 rental (Grabadora de campo de cine y producción de vídeo, no es una necesidad de evento que MEG resuelva ni tiene en inventario. Fuera de encaje.)",
+        "sound hire prices (Cubierto por la FAQ 'How much does it cost to rent sound equipment?' de /blog/sound-system-rental/ y por las secciones de paquetes. Sin nada nuevo que añadir.)",
+        "sound hire packages (Cubierto por /blog/sound-system-rental/, headings 'What's Included in a Sound System Rental' y 'Sound and Light Rental in One Package'. Un heading nuevo repetiría lo existente.)",
+        "sound pa hire (Sinónimos de la keyword de /blog/sound-system-rental/ (sound system rental), con la FAQ 'Is a PA system rental the same as a sound system rental?'. Mismo intento: crear otra página sería canibalización.)",
+        "sound recording equipment rental (Cubierto por la FAQ 'Do you rent audio interfaces for recording or podcasting?' de /blog/sound-system-rental/. Grabación de estudio no es el foco de eventos de MEG.)"
+      ]
     },
     {
       "id": "#T0134",
