@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-17",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 20,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "items": [
+    {
+      "keywords": ["sound board rental", "sound desk hire"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Misma intención que la FAQ 'Can I rent an audio mixer or mixing console on its own?' de /blog/sound-system-rental/. Cubierto, una sección nueva solo repetiría la FAQ (creating-helpful-content.md, contenido pensado para buscadores)."
+    },
+    {
+      "keywords": ["sound booth rental near me", "sound equipment hire near me", "sound hire near me", "sound rental equipment near me", "sound system for hire near me"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Variantes near me de un post existente. Cubierto por la FAQ 'Do you deliver sound system rental near me outside Malaga city?' y la sección 'Booking and Service Area' de /blog/sound-system-rental/. Nueva página sería doorway abuse (spam-policies.md). Sound booth además es otra intención."
+    },
+    {
+      "keywords": ["sound devices 633 rental", "sound devices rental"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Grabadora de campo de cine y producción de vídeo, no es una necesidad de evento que MEG resuelva ni tiene en inventario. Fuera de encaje."
+    },
+    {
+      "keywords": ["sound hire prices"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por la FAQ 'How much does it cost to rent sound equipment?' de /blog/sound-system-rental/ y por las secciones de paquetes. Sin nada nuevo que añadir."
+    },
+    {
+      "keywords": ["sound hire packages", "sound package rental", "sound kit hire", "sound kit rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/sound-system-rental/, headings 'What's Included in a Sound System Rental' y 'Sound and Light Rental in One Package'. Un heading nuevo repetiría lo existente."
+    },
+    {
+      "keywords": ["sound pa hire", "sound for hire", "sound gear hire", "sound gear rental", "sound system equipment rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Sinónimos de la keyword de /blog/sound-system-rental/ (sound system rental), con la FAQ 'Is a PA system rental the same as a sound system rental?'. Mismo intento: crear otra página sería canibalización."
+    },
+    {
+      "keywords": ["sound recording equipment rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por la FAQ 'Do you rent audio interfaces for recording or podcasting?' de /blog/sound-system-rental/. Grabación de estudio no es el foco de eventos de MEG."
+    }
+  ]
+}
