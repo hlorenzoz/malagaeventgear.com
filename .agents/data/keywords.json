@@ -81635,6 +81635,24 @@
       }
     },
     {
+      "id": "are-last-minute-weddings-cheaper",
+      "question": "are last minute weddings cheaper",
+      "keywordId": "managing-last-minute-wedding-rental-changes",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-17",
+          "lastSeen": "2026-10-17",
+          "seeds": [
+            "managing-last-minute-wedding-rental-changes"
+          ]
+        }
+      }
+    },
+    {
       "id": "are-outdoor-wedding-venues-profitable",
       "question": "are outdoor wedding venues profitable",
       "keywordId": "outdoor-wedding-rental-considerations",
@@ -87152,6 +87170,42 @@
       }
     },
     {
+      "id": "how-long-are-rental-contracts-in-spain",
+      "question": "how long are rental contracts in spain",
+      "keywordId": "managing-last-minute-wedding-rental-changes",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-17",
+          "lastSeen": "2026-10-17",
+          "seeds": [
+            "managing-last-minute-wedding-rental-changes"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-long-does-a-wedding-last",
+      "question": "how long does a wedding last",
+      "keywordId": "managing-last-minute-wedding-rental-changes",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-17",
+          "lastSeen": "2026-10-17",
+          "seeds": [
+            "managing-last-minute-wedding-rental-changes"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-long-does-a-wedding-reception-last",
       "question": "how long does a wedding reception last",
       "keywordId": "timeline-for-reserving-wedding-rentals",
@@ -87383,6 +87437,24 @@
           "lastSeen": "2026-10-17",
           "urls": [
             "/blog/all-in-one-wedding-rental-packages/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-guests-in-a-wedding",
+      "question": "how many guests in a wedding",
+      "keywordId": "making-the-most-of-wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-17",
+          "lastSeen": "2026-10-17",
+          "seeds": [
+            "making-the-most-of-wedding-rentals"
           ]
         }
       }
@@ -87981,6 +88053,24 @@
       }
     },
     {
+      "id": "how-many-weddings-per-year-in-the-world",
+      "question": "how many weddings per year in the world",
+      "keywordId": "making-the-most-of-wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-17",
+          "lastSeen": "2026-10-17",
+          "seeds": [
+            "making-the-most-of-wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-many-wireless-lavalier-microphones-do-you-have-available",
       "question": "How many wireless lavalier microphones do you have available?",
       "keywordId": "headset-lavalier-microphone-rental",
@@ -88317,7 +88407,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30",
+          "lastSeen": "2026-10-17",
           "seeds": [
             "all-in-one-wedding-rental-packages"
           ]
@@ -88697,18 +88787,22 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-16",
+          "lastSeen": "2026-10-17",
           "seeds": [
             "all-in-one-wedding-rental-packages",
             "eco-friendly-wedding-rental-options",
             "how-to-choose-wedding-rentals",
+            "how-to-compare-wedding-rental-quotes",
             "indoor-wedding-rental-essentials",
+            "making-the-most-of-wedding-rentals",
             "outdoor-wedding-rental-considerations",
             "protecting-your-wedding-rental-items",
+            "questions-to-ask-wedding-rental-companies",
             "styling-your-wedding-rental-pieces",
             "timeline-for-booking-wedding-rentals",
             "timeline-for-reserving-wedding-rentals",
             "timing-your-wedding-rental-bookings",
+            "tips-for-reducing-wedding-rental-costs",
             "wedding-rentals-near-me",
             "wedding-rentals-online"
           ]
@@ -89301,6 +89395,24 @@
       }
     },
     {
+      "id": "how-much-notice-to-give-tenant-uk",
+      "question": "how much notice to give tenant uk",
+      "keywordId": "managing-last-minute-wedding-rental-changes",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-17",
+          "lastSeen": "2026-10-17",
+          "seeds": [
+            "managing-last-minute-wedding-rental-changes"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-rent-projector",
       "question": "how much rent projector",
       "keywordId": "projector-rental",
@@ -89401,10 +89513,29 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-15",
-          "lastSeen": "2026-10-15",
+          "lastSeen": "2026-10-17",
           "seeds": [
             "how-to-choose-wedding-rentals",
-            "protecting-your-wedding-rental-items"
+            "protecting-your-wedding-rental-items",
+            "tips-for-reducing-wedding-rental-costs"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-to-rent-a-car-madrid",
+      "question": "how much to rent a car madrid",
+      "keywordId": "how-to-customize-av-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-17",
+          "lastSeen": "2026-10-17",
+          "seeds": [
+            "how-to-customize-av-rental-packages"
           ]
         }
       }
@@ -89600,11 +89731,13 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-15",
+          "lastSeen": "2026-10-17",
           "seeds": [
             "all-in-one-wedding-rental-packages",
             "eco-friendly-wedding-rental-options",
+            "how-to-compare-wedding-rental-quotes",
             "indoor-wedding-rental-essentials",
+            "making-the-most-of-wedding-rentals",
             "protecting-your-wedding-rental-items",
             "styling-your-wedding-rental-pieces",
             "timeline-for-reserving-wedding-rentals"
@@ -89883,6 +90016,24 @@
       }
     },
     {
+      "id": "how-to-have-a-last-minute-wedding",
+      "question": "how to have a last minute wedding",
+      "keywordId": "managing-last-minute-wedding-rental-changes",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-17",
+          "lastSeen": "2026-10-17",
+          "seeds": [
+            "managing-last-minute-wedding-rental-changes"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-to-make-a-lectern",
       "question": "how to make a lectern",
       "keywordId": "lectern-rental",
@@ -89901,6 +90052,24 @@
       }
     },
     {
+      "id": "how-to-personalize-a-rental",
+      "question": "how to personalize a rental",
+      "keywordId": "how-to-customize-av-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-17",
+          "lastSeen": "2026-10-17",
+          "seeds": [
+            "how-to-customize-av-rental-packages"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-to-plan-a-wedding-in-3-months",
       "question": "how to plan a wedding in 3 months",
       "keywordId": "all-in-one-wedding-rental-packages",
@@ -89911,7 +90080,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30",
+          "lastSeen": "2026-10-17",
           "seeds": [
             "all-in-one-wedding-rental-packages"
           ]
@@ -89932,6 +90101,60 @@
           "lastSeen": "2026-10-01",
           "seeds": [
             "audio-visual-rental-for-music-performances"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-reduce-costs-for-a-wedding",
+      "question": "how to reduce costs for a wedding",
+      "keywordId": "tips-for-reducing-wedding-rental-costs",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-17",
+          "lastSeen": "2026-10-17",
+          "seeds": [
+            "tips-for-reducing-wedding-rental-costs"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-reduce-wedding-costs-in-india",
+      "question": "how to reduce wedding costs in india",
+      "keywordId": "tips-for-reducing-wedding-rental-costs",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-17",
+          "lastSeen": "2026-10-17",
+          "seeds": [
+            "tips-for-reducing-wedding-rental-costs"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-rent-a-car-madrid",
+      "question": "how to rent a car madrid",
+      "keywordId": "how-to-customize-av-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-17",
+          "lastSeen": "2026-10-17",
+          "seeds": [
+            "how-to-customize-av-rental-packages"
           ]
         }
       }
@@ -90022,6 +90245,42 @@
           "lastSeen": "2026-09-30",
           "seeds": [
             "audio-system-calibration"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-use-avis-self-service",
+      "question": "how to use avis self service",
+      "keywordId": "how-to-customize-av-rental-packages",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-17",
+          "lastSeen": "2026-10-17",
+          "seeds": [
+            "how-to-customize-av-rental-packages"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-would-you-handle-a-last-minute-change-or-emergency-at-a-wedding",
+      "question": "how would you handle a last minute change or emergency at a wedding",
+      "keywordId": "managing-last-minute-wedding-rental-changes",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-17",
+          "lastSeen": "2026-10-17",
+          "seeds": [
+            "managing-last-minute-wedding-rental-changes"
           ]
         }
       }
@@ -91425,6 +91684,24 @@
       }
     },
     {
+      "id": "is-wedding-pro-worth-it",
+      "question": "is wedding pro worth it",
+      "keywordId": "pros-and-cons-of-wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-17",
+          "lastSeen": "2026-10-17",
+          "seeds": [
+            "pros-and-cons-of-wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
       "id": "is-wireless-stage-lighting-the-same-as-your-uplighting-kit",
       "question": "Is \"Wireless Stage Lighting\" the Same as Your Uplighting Kit?",
       "keywordId": "stage-lighting-rental",
@@ -92440,10 +92717,11 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-13",
-          "lastSeen": "2026-10-15",
+          "lastSeen": "2026-10-17",
           "seeds": [
             "how-to-choose-wedding-rentals",
-            "indoor-wedding-rental-essentials"
+            "indoor-wedding-rental-essentials",
+            "making-the-most-of-wedding-rentals"
           ]
         }
       }
@@ -92729,6 +93007,24 @@
           "lastSeen": "2026-10-11",
           "seeds": [
             "event-technology-service"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-happens-at-danish-weddings-when-either-the-bride-or-groom-leaves-the-reception-room",
+      "question": "what happens at danish weddings when either the bride or groom leaves the reception room",
+      "keywordId": "making-the-most-of-wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-17",
+          "lastSeen": "2026-10-17",
+          "seeds": [
+            "making-the-most-of-wedding-rentals"
           ]
         }
       }
@@ -94333,9 +94629,10 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-15",
-          "lastSeen": "2026-10-15",
+          "lastSeen": "2026-10-17",
           "seeds": [
-            "questions-about-wedding-rental-policies"
+            "questions-about-wedding-rental-policies",
+            "questions-for-reviewing-wedding-rental-agreements"
           ]
         }
       }
@@ -95648,11 +95945,14 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-15",
+          "lastSeen": "2026-10-17",
           "seeds": [
             "all-in-one-wedding-rental-packages",
+            "making-the-most-of-wedding-rentals",
             "outdoor-wedding-rental-considerations",
-            "protecting-your-wedding-rental-items"
+            "pros-and-cons-of-wedding-rentals",
+            "protecting-your-wedding-rental-items",
+            "tips-for-reducing-wedding-rental-costs"
           ]
         }
       }
@@ -95722,9 +96022,10 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30",
+          "lastSeen": "2026-10-17",
           "seeds": [
-            "all-in-one-wedding-rental-packages"
+            "all-in-one-wedding-rental-packages",
+            "making-the-most-of-wedding-rentals"
           ]
         }
       }
@@ -95838,6 +96139,24 @@
       }
     },
     {
+      "id": "why-do-weddings-last-so-long",
+      "question": "why do weddings last so long",
+      "keywordId": "managing-last-minute-wedding-rental-changes",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-17",
+          "lastSeen": "2026-10-17",
+          "seeds": [
+            "managing-last-minute-wedding-rental-changes"
+          ]
+        }
+      }
+    },
+    {
       "id": "why-do-weddings-take-so-long",
       "question": "why do weddings take so long",
       "keywordId": "timeline-for-reserving-wedding-rentals",
@@ -95848,8 +96167,9 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-15",
-          "lastSeen": "2026-10-15",
+          "lastSeen": "2026-10-17",
           "seeds": [
+            "making-the-most-of-wedding-rentals",
             "timeline-for-reserving-wedding-rentals"
           ]
         }
@@ -95935,14 +96255,18 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-15",
+          "lastSeen": "2026-10-17",
           "seeds": [
             "all-in-one-wedding-rental-packages",
             "how-to-choose-wedding-rentals",
+            "how-to-compare-wedding-rental-quotes",
             "indoor-wedding-rental-essentials",
+            "making-the-most-of-wedding-rentals",
             "outdoor-wedding-rental-considerations",
+            "pros-and-cons-of-wedding-rentals",
             "protecting-your-wedding-rental-items",
             "questions-about-wedding-rental-policies",
+            "tips-for-reducing-wedding-rental-costs",
             "trending-wedding-rental-ideas",
             "wedding-rentals-near-me",
             "wedding-rentals-online"
@@ -96087,9 +96411,10 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-13",
-          "lastSeen": "2026-10-15",
+          "lastSeen": "2026-10-17",
           "seeds": [
             "common-av-rental-mistakes",
+            "managing-last-minute-wedding-rental-changes",
             "protecting-your-wedding-rental-items"
           ]
         }
@@ -96109,6 +96434,24 @@
           "lastSeen": "2026-10-13",
           "seeds": [
             "technical-support-for-events"
+          ]
+        }
+      }
+    },
+    {
+      "id": "why-weddings-are-a-waste-of-money",
+      "question": "why weddings are a waste of money",
+      "keywordId": "making-the-most-of-wedding-rentals",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-17",
+          "lastSeen": "2026-10-17",
+          "seeds": [
+            "making-the-most-of-wedding-rentals"
           ]
         }
       }
