@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-18",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 20,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "items": [
+    {
+      "keywords": ["sound system rental price", "sound system for rent price", "sound system hire prices", "sound system rental cost", "speaker rental prices"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Misma intención de precio. Cubierto por /blog/sound-system-rental/, FAQ 'How much does it cost to rent sound equipment?'. Una página nueva sería canibalización (creating-helpful-content.md)."
+    },
+    {
+      "keywords": ["sound system hire near me", "sound system on hire near me", "speaker and mic rental near me", "stereo rental near me"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Variantes near me. Ya cubiertas por /blog/sound-system-rental/ (FAQ 'Do you deliver sound system rental near me outside Malaga city?' y sección Booking and Service Area) y por los posts near me existentes. Doorway abuse en spam-policies.md."
+    },
+    {
+      "keywords": ["speaker system rental", "sound to hire", "speaker with microphone rental", "speakers and mic for rent"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Misma intención que el head term del post. Cubierto por /blog/sound-system-rental/, secciones 'Equipment We Use: Active PA Speakers, Column Array and Audix Microphones' y FAQ 'Can I rent just speakers, without a microphone or technician?'."
+    },
+    {
+      "keywords": ["speaker system for wedding"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Intención ya servida por el pilar /blog/wedding-rentals/ (FAQ de altavoces PA y micrófonos inalámbricos para bodas) y /blog/audio-visual-rental-for-weddings/. Una sección nueva solo repetiría lo existente."
+    },
+    {
+      "keywords": ["stage led screen rental", "stage screen rental", "video screen rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/tv-screen-rental/: sección 'What We Don't Stock: LED Video Walls and Modular LED Panels' y FAQs 'Do you rent an LED screen?' y 'Can Malaga Event Gear source an LED video wall through a supplier?' con el encuadre de proveedores."
+    },
+    {
+      "keywords": ["video projector hire", "video projector and screen rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Cubierto por /blog/projector-rental/: 'Projector and Screen Pricing by Package' y 'Why the Screen Is Always Bundled With the Projector'. Una página nueva sería canibalización."
+    },
+    {
+      "keywords": ["ver av rentals"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "below",
+      "evidence": "google-ads 10/mo (below tier 100)",
+      "reason": "Frase sin intención clara (mezcla de idiomas, probable marca ajena). No hay nada que MEG pueda responder de forma útil."
+    }
+  ]
+}

@@ -67478,6 +67478,16 @@
               "2026-08": 0
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -67715,6 +67725,16 @@
               "2026-08": 10
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -67768,6 +67788,16 @@
               "2026-07": 0,
               "2026-08": 0
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -67947,6 +67977,16 @@
               "2026-08": 10
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -68073,6 +68113,16 @@
               "2026-07": 0,
               "2026-08": 10
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -68467,6 +68517,16 @@
               "2026-08": 0
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -68621,6 +68681,16 @@
               "2026-07": 0,
               "2026-08": 0
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -69377,6 +69447,16 @@
               "2026-07": 10,
               "2026-08": 10
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -70418,6 +70498,16 @@
               "2026-08": 0
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -70584,6 +70674,16 @@
               "2026-08": 10
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -70691,6 +70791,16 @@
               "2026-07": 10,
               "2026-08": 20
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -70822,6 +70932,16 @@
               "2026-08": 10
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -70875,6 +70995,16 @@
               "2026-07": 10,
               "2026-08": 10
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -71857,6 +71987,16 @@
               "2026-08": 10
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -72764,6 +72904,16 @@
               "2026-08": 0
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -73102,6 +73252,16 @@
               "2026-07": 10,
               "2026-08": 10
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -75460,6 +75620,16 @@
               "2026-08": 0
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": "low",
@@ -75840,6 +76010,16 @@
               "2026-08": 10
             }
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -75893,6 +76073,16 @@
               "2026-07": 10,
               "2026-08": 10
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -75969,6 +76159,16 @@
               "2026-07": 10,
               "2026-08": 10
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-18",
+          "lastSeen": "2026-10-18",
+          "stats": {
+            "asOf": "2026-10-18",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
