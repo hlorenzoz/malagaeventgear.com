@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "tasks": [
     {
       "id": "#T0085",
@@ -1437,6 +1437,27 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0136",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-18",
+      "anotada": "2026-10-18",
+      "hecha": "2026-10-18",
+      "origen": "content-strategist (plan 2026-10-18, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "sound system rental price (Misma intención de precio. Cubierto por /blog/sound-system-rental/, FAQ 'How much does it cost to rent sound equipment?'. Una página nueva sería canibalización (creating-helpful-content.md).)",
+        "sound system hire near me (Variantes near me. Ya cubiertas por /blog/sound-system-rental/ (FAQ 'Do you deliver sound system rental near me outside Malaga city?' y sección Booking and Service Area) y por los posts near me existentes. Doorway abuse en spam-policies.md.)",
+        "speaker system rental (Misma intención que el head term del post. Cubierto por /blog/sound-system-rental/, secciones 'Equipment We Use: Active PA Speakers, Column Array and Audix Microphones' y FAQ 'Can I rent just speakers, without a microphone or technician?'.)",
+        "speaker system for wedding (Intención ya servida por el pilar /blog/wedding-rentals/ (FAQ de altavoces PA y micrófonos inalámbricos para bodas) y /blog/audio-visual-rental-for-weddings/. Una sección nueva solo repetiría lo existente.)",
+        "stage led screen rental (Cubierto por /blog/tv-screen-rental/: sección 'What We Don't Stock: LED Video Walls and Modular LED Panels' y FAQs 'Do you rent an LED screen?' y 'Can Malaga Event Gear source an LED video wall through a supplier?' con el encuadre de proveedores.)",
+        "video projector hire (Cubierto por /blog/projector-rental/: 'Projector and Screen Pricing by Package' y 'Why the Screen Is Always Bundled With the Projector'. Una página nueva sería canibalización.)",
+        "ver av rentals (Frase sin intención clara (mezcla de idiomas, probable marca ajena). No hay nada que MEG pueda responder de forma útil.)"
+      ]
     },
     {
       "id": "#T0135",
