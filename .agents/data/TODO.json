@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "tasks": [
     {
       "id": "#T0085",
@@ -880,6 +880,25 @@
       ]
     },
     {
+      "id": "#T0137",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/essential-items-for-wedding-rentals/: \"Can you supply an LED screen for a wedding?\"",
+      "anotada": "2026-10-19",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-19, ítem 1)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/essential-items-for-wedding-rentals.svx",
+        "Keywords: wedding led screen rental (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Responder con el encuadre de proveedores de CLAUDE.md: una pantalla LED no está en nuestro inventario propio, nos cuentan qué necesitan (tamaño de sala, uso: fotos, vídeo de la pareja, directo) y buscamos una solución con nuestros proveedores. Sin marca, modelo, cantidad, precio, disponibilidad ni plazo. Si el cliente solo necesita proyectar, remitir al proyector y la pantalla del inventario (packages.ts / CSV de inventario). No presentarlo como equipo propio.",
+        "Por qué: Intención de boda sin cobertura: ningún encabezado ni FAQ de essential-items-for-wedding-rentals trata una pantalla LED. tv-screen-rental ya responde sobre LED en general, así que basta una FAQ en el post de boda, sin post nuevo. Fuente: creating-helpful-content.md (responde una duda real de clientes de boda).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
       "id": "#T0110",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1437,6 +1456,28 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0138",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-19",
+      "anotada": "2026-10-19",
+      "hecha": "2026-10-19",
+      "origen": "content-strategist (plan 2026-10-19, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "video screen rental near me (Variante near me de páginas que ya existen (tv-screen-rental y audio-video-rental-near-me-in-malaga-spain, encabezado 'Which Screen or Projector Fits Your Room'). Doorway abuse en spam-policies.md.)",
+        "wedding sound system hire (Cubierto por /blog/essential-items-for-wedding-rentals/, encabezado 'Getting Ceremony and Reception Sound Right', y por el Wedding Pack (PA para hasta 80 invitados). Un encabezado nuevo repetiría lo existente.)",
+        "wireless microphone and speaker rental (Cubierto por /blog/sound-system-rental/, FAQs 'Do you offer a portable, battery powered or self collect PA system?', 'Is a wireless microphone available, or only wired?' y 'Can I rent just speakers, without a microphone or technician?'.)",
+        "led video screen hire (Cubierto por /blog/tv-screen-rental/, encabezados 'What We Don't Stock: LED Video Walls and Modular LED Panels' y 'Do you rent an LED screen?'. 'high point' es otro mercado (fuera de zona de servicio).)",
+        "hire large screen projector (Misma intención que /blog/projector-rental/ y /blog/outdoor-movie-screen-and-projector-rental/ ('What an Outdoor Movie Night Needs'). Una página nueva sería canibalización. Sin volumen.)",
+        "audio hire equipment (Cubierto por /blog/sound-system-rental/ (FAQs 'Can I rent a complete DJ system for a party?' y 'Do you rent audio interfaces for recording or podcasting?'). Sin volumen, variantes léxicas de la misma intención.)",
+        "brighton sound system hire (Fuera de mercado (Brighton) o búsquedas de marca de un competidor. Sin encaje con el servicio de MEG.)",
+        "dpa microphone hire (Micrófonos DPA y de batería no figuran en el inventario propio y son para música en directo, no el evento típico de MEG. Sin volumen y sin nada propio que aportar (creating-helpful-content.md).)"
+      ]
     },
     {
       "id": "#T0136",
