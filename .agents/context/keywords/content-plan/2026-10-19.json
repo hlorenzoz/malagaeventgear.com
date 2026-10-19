@@ -1,0 +1,95 @@
+{
+	"date": "2026-10-19",
+	"run": {
+		"status": "ok",
+		"candidatesReviewed": 20,
+		"tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+	},
+	"items": [
+		{
+			"keywords": ["wedding led screen rental"],
+			"cluster": "wedding rentals",
+			"action": "add-faq",
+			"priority": "medium",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Intención de boda sin cobertura: ningún encabezado ni FAQ de essential-items-for-wedding-rentals trata una pantalla LED. tv-screen-rental ya responde sobre LED en general, así que basta una FAQ en el post de boda, sin post nuevo. Fuente: creating-helpful-content.md (responde una duda real de clientes de boda).",
+			"targetUrl": "/blog/essential-items-for-wedding-rentals/",
+			"file": "src/content/blog/essential-items-for-wedding-rentals.svx",
+			"question": "Can you supply an LED screen for a wedding?",
+			"brief": "Responder con el encuadre de proveedores de CLAUDE.md: una pantalla LED no está en nuestro inventario propio, nos cuentan qué necesitan (tamaño de sala, uso: fotos, vídeo de la pareja, directo) y buscamos una solución con nuestros proveedores. Sin marca, modelo, cantidad, precio, disponibilidad ni plazo. Si el cliente solo necesita proyectar, remitir al proyector y la pantalla del inventario (packages.ts / CSV de inventario). No presentarlo como equipo propio."
+		},
+		{
+			"keywords": ["video screen rental near me"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Variante near me de páginas que ya existen (tv-screen-rental y audio-video-rental-near-me-in-malaga-spain, encabezado 'Which Screen or Projector Fits Your Room'). Doorway abuse en spam-policies.md."
+		},
+		{
+			"keywords": ["wedding sound system hire"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Cubierto por /blog/essential-items-for-wedding-rentals/, encabezado 'Getting Ceremony and Reception Sound Right', y por el Wedding Pack (PA para hasta 80 invitados). Un encabezado nuevo repetiría lo existente."
+		},
+		{
+			"keywords": ["wireless microphone and speaker rental", "wireless speaker rental"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 10/mo (below tier 100)",
+			"reason": "Cubierto por /blog/sound-system-rental/, FAQs 'Do you offer a portable, battery powered or self collect PA system?', 'Is a wireless microphone available, or only wired?' y 'Can I rent just speakers, without a microphone or technician?'."
+		},
+		{
+			"keywords": ["led video screen hire", "led screen rental high point"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 0/mo (below tier 100)",
+			"reason": "Cubierto por /blog/tv-screen-rental/, encabezados 'What We Don't Stock: LED Video Walls and Modular LED Panels' y 'Do you rent an LED screen?'. 'high point' es otro mercado (fuera de zona de servicio)."
+		},
+		{
+			"keywords": ["hire large screen projector", "hire projector for movie night", "backyard movie screen hire", "inflatable tv screen and projector rental"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 0/mo (below tier 100)",
+			"reason": "Misma intención que /blog/projector-rental/ y /blog/outdoor-movie-screen-and-projector-rental/ ('What an Outdoor Movie Night Needs'). Una página nueva sería canibalización. Sin volumen."
+		},
+		{
+			"keywords": ["audio hire equipment", "audio party rentals", "dj equipment speaker rental", "hire sound recording equipment"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 0/mo (below tier 100)",
+			"reason": "Cubierto por /blog/sound-system-rental/ (FAQs 'Can I rent a complete DJ system for a party?' y 'Do you rent audio interfaces for recording or podcasting?'). Sin volumen, variantes léxicas de la misma intención."
+		},
+		{
+			"keywords": ["brighton sound system hire", "dj warehouse speaker hire", "dw audio and backline"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 0/mo (below tier 100)",
+			"reason": "Fuera de mercado (Brighton) o búsquedas de marca de un competidor. Sin encaje con el servicio de MEG."
+		},
+		{
+			"keywords": ["dpa microphone hire", "drum mic hire"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "below",
+			"evidence": "google-ads 0/mo (below tier 100)",
+			"reason": "Micrófonos DPA y de batería no figuran en el inventario propio y son para música en directo, no el evento típico de MEG. Sin volumen y sin nada propio que aportar (creating-helpful-content.md)."
+		}
+	]
+}
