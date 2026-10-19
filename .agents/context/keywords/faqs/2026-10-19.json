@@ -1,0 +1,27 @@
+{
+	"date": "2026-10-19",
+	"run": {
+		"status": "partial",
+		"reason": "No phrase in any questions list started with a question word, so 0 questions were copied",
+		"calls": [
+			{ "tool": "google_suggestions", "args": "audio visual rental, audio visual rental for art exhibitions", "outcome": "empty" },
+			{ "tool": "google_suggestions", "args": "audio visual rental for corporate events, audio visual rental for corporate meetings", "outcome": "empty" },
+			{ "tool": "google_suggestions", "args": "audio visual rental for outdoor events, audio visual rental for press conferences", "outcome": "empty" },
+			{ "tool": "google_suggestions", "args": "audio visual rental for private parties, audio visual rental for religious events", "outcome": "empty" },
+			{ "tool": "google_suggestions", "args": "audio visual rental for remote presentations, audio visual rental for seminars", "outcome": "empty" }
+		]
+	},
+	"seeds": [
+		"audio-visual-rental",
+		"audio-visual-rental-for-art-exhibitions",
+		"audio-visual-rental-for-corporate-events",
+		"audio-visual-rental-for-corporate-meetings",
+		"audio-visual-rental-for-outdoor-events",
+		"audio-visual-rental-for-press-conferences",
+		"audio-visual-rental-for-private-parties",
+		"audio-visual-rental-for-religious-events",
+		"audio-visual-rental-for-remote-presentations",
+		"audio-visual-rental-for-seminars"
+	],
+	"suggestions": []
+}
