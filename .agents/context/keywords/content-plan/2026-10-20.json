@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-20",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 20,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "items": [
+    {
+      "keywords": ["rent led screen for wedding", "screen on rent for wedding"],
+      "cluster": "audio visual rental",
+      "action": "add-faq",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 0/mo (below tier 100)",
+      "reason": "Misma intención: pantalla para una boda. Ningún encabezado ni FAQ de audio-visual-rental-for-weddings habla de pantallas. tv-screen-rental ya cubre la pantalla y la fuente por proveedores, así que el FAQ de la boda responde breve y no duplica. Sin página nueva (creating-helpful-content.md, people first).",
+      "targetUrl": "/blog/audio-visual-rental-for-weddings/",
+      "file": "src/content/blog/audio-visual-rental-for-weddings.svx",
+      "question": "Can I rent a screen for my wedding?"
+    },
+    {
+      "keywords": ["outdoor led screen for rent"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 0/mo (below tier 100)",
+      "reason": "Cubierto por /blog/tv-screen-rental/, secciones 'What We Don't Stock: LED Video Walls and Modular LED Panels' y FAQs 'Do you rent an LED screen?' y 'Can Malaga Event Gear source an LED video wall through a supplier?'."
+    },
+    {
+      "keywords": ["mobile movie screen rental", "outdoor projector and screen hire", "projection screen outdoor rental", "projector and screen outdoor rental", "projector and movie screen rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 0/mo (below tier 100)",
+      "reason": "Misma intención, cubierta por /blog/outdoor-movie-screen-and-projector-rental/ (heading 'Outdoor Movie Screen Rental: Choosing Your Screen and Projector Size', FAQ 'Can I rent a portable movie screen for an outdoor event?') y /blog/projector-rental/. Otra página sería canibalización."
+    },
+    {
+      "keywords": ["projector hire cost", "rent large screen projector", "theatre projector hire"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 0/mo (below tier 100)",
+      "reason": "Cubierto por /blog/projector-rental/: FAQs 'How much does a projector rental cost?', 'Do you rent projectors for large venues or big rooms?' y 'What's the largest screen size available?'. 'Theatre' no añade una necesidad que MEG responda distinta."
+    },
+    {
+      "keywords": ["sound system hire for party", "rent portable speaker system", "theatre sound hire", "stage lights and sound rentals & services"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "below",
+      "evidence": "google-ads 0/mo (below tier 100)",
+      "reason": "Cubierto por /blog/sound-system-rental/: FAQs 'Can I rent a complete DJ system for a party?', 'Do you offer a portable, battery powered or self collect PA system?' y heading 'Sound and Light Rental in One Package'. Teatro no aporta una intención distinta."
+    },
+    {
+      "keywords": ["audio visual equipment on rent", "electronic equipment rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 8.21 24 impr",
+      "reason": "Cubierto por /blog/audio-visual-rental/, heading 'Audio Visual Equipment We Rent in Malaga'. 'Electronic equipment' es vago y MEG solo alquila equipo AV, un encabezado nuevo no aportaría nada."
+    },
+    {
+      "keywords": ["alquiler material audiovisual malaga", "alquiler material audiovisual málaga"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 20.57 21 impr",
+      "reason": "Consulta en español: la intención ya la sirven /blog/audio-visual-rental/ y su traducción al español. Una página nueva en inglés no ayuda, y la variante con tilde es la misma intención."
+    },
+    {
+      "keywords": ["lights to rent"],
+      "cluster": "stage lighting rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 16.38 21 impr",
+      "reason": "Cubierto por /blog/stage-lighting-rental/, heading 'The Full Stage Lighting Roster: Every Real Fixture We Stock, By Brand and Model' y FAQ 'What Stage Lighting Equipment Does MEG Actually Stock?'."
+    }
+  ]
+}
