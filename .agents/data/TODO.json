@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "tasks": [
     {
       "id": "#T0085",
@@ -880,6 +880,24 @@
       ]
     },
     {
+      "id": "#T0139",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/audio-visual-rental-for-weddings/: \"Can I rent a screen for my wedding?\"",
+      "anotada": "2026-10-20",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-20, ítem 1)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audio-visual-rental-for-weddings.svx",
+        "Keywords: rent led screen for wedding, screen on rent for wedding (google-ads 0/mo (below tier 100)), debajo del tier",
+        "Por qué: Misma intención: pantalla para una boda. Ningún encabezado ni FAQ de audio-visual-rental-for-weddings habla de pantallas. tv-screen-rental ya cubre la pantalla y la fuente por proveedores, así que el FAQ de la boda responde breve y no duplica. Sin página nueva (creating-helpful-content.md, people first).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
       "id": "#T0137",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1456,6 +1474,27 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0140",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-20",
+      "anotada": "2026-10-20",
+      "hecha": "2026-10-20",
+      "origen": "content-strategist (plan 2026-10-20, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "outdoor led screen for rent (Cubierto por /blog/tv-screen-rental/, secciones 'What We Don't Stock: LED Video Walls and Modular LED Panels' y FAQs 'Do you rent an LED screen?' y 'Can Malaga Event Gear source an LED video wall through a supplier?'.)",
+        "mobile movie screen rental (Misma intención, cubierta por /blog/outdoor-movie-screen-and-projector-rental/ (heading 'Outdoor Movie Screen Rental: Choosing Your Screen and Projector Size', FAQ 'Can I rent a portable movie screen for an outdoor event?') y /blog/projector-rental/. Otra página sería canibalización.)",
+        "projector hire cost (Cubierto por /blog/projector-rental/: FAQs 'How much does a projector rental cost?', 'Do you rent projectors for large venues or big rooms?' y 'What's the largest screen size available?'. 'Theatre' no añade una necesidad que MEG responda distinta.)",
+        "sound system hire for party (Cubierto por /blog/sound-system-rental/: FAQs 'Can I rent a complete DJ system for a party?', 'Do you offer a portable, battery powered or self collect PA system?' y heading 'Sound and Light Rental in One Package'. Teatro no aporta una intención distinta.)",
+        "audio visual equipment on rent (Cubierto por /blog/audio-visual-rental/, heading 'Audio Visual Equipment We Rent in Malaga'. 'Electronic equipment' es vago y MEG solo alquila equipo AV, un encabezado nuevo no aportaría nada.)",
+        "alquiler material audiovisual malaga (Consulta en español: la intención ya la sirven /blog/audio-visual-rental/ y su traducción al español. Una página nueva en inglés no ayuda, y la variante con tilde es la misma intención.)",
+        "lights to rent (Cubierto por /blog/stage-lighting-rental/, heading 'The Full Stage Lighting Roster: Every Real Fixture We Stock, By Brand and Model' y FAQ 'What Stage Lighting Equipment Does MEG Actually Stock?'.)"
+      ]
     },
     {
       "id": "#T0138",
