@@ -236,6 +236,16 @@
             "ctr": 0,
             "position": 18.86
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-21",
+          "lastSeen": "2026-10-21",
+          "stats": {
+            "asOf": "2026-10-21",
+            "action": "add-faq",
+            "targetUrl": "/blog/tv-screen-rental/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -13811,6 +13821,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 12.67
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-21",
+          "lastSeen": "2026-10-21",
+          "stats": {
+            "asOf": "2026-10-21",
+            "action": "add-faq",
+            "targetUrl": "/blog/tv-screen-rental/",
+            "priority": "medium"
           }
         }
       },
@@ -30218,6 +30238,16 @@
             "ctr": 0,
             "position": 10.21
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-21",
+          "lastSeen": "2026-10-21",
+          "stats": {
+            "asOf": "2026-10-21",
+            "action": "add-faq",
+            "targetUrl": "/blog/tv-screen-rental/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -31424,6 +31454,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 26.27
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-21",
+          "lastSeen": "2026-10-21",
+          "stats": {
+            "asOf": "2026-10-21",
+            "action": "add-faq",
+            "targetUrl": "/blog/tv-screen-rental/",
+            "priority": "high"
           }
         }
       },
@@ -39655,6 +39695,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 9.93
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-21",
+          "lastSeen": "2026-10-21",
+          "stats": {
+            "asOf": "2026-10-21",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
           }
         }
       },
@@ -60866,6 +60916,16 @@
             "ctr": 0,
             "position": 10.62
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-21",
+          "lastSeen": "2026-10-21",
+          "stats": {
+            "asOf": "2026-10-21",
+            "action": "add-faq",
+            "targetUrl": "/blog/tv-screen-rental/",
+            "priority": "high"
+          }
         }
       },
       "opportunity": "low",
@@ -75340,6 +75400,16 @@
             "ctr": 0,
             "position": 17.47
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-21",
+          "lastSeen": "2026-10-21",
+          "stats": {
+            "asOf": "2026-10-21",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -75484,6 +75554,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 9.5
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-21",
+          "lastSeen": "2026-10-21",
+          "stats": {
+            "asOf": "2026-10-21",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },

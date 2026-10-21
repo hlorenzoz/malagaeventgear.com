@@ -1,0 +1,54 @@
+{
+	"date": "2026-10-21",
+	"run": {
+		"status": "ok",
+		"candidatesReviewed": 8,
+		"tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+	},
+	"items": [
+		{
+			"keywords": ["tv rentals for events", "tv hire for events"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 9.5 18 impr; gsc pos 17.47 15 impr",
+			"reason": "Cubierto por /blog/tv-screen-rental/, encabezado 'Where a TV Screen Fits: Lobbies, Exhibition Booths, Gala Dinners and Hybrid Meetings' y 'TV Screen Rental Pricing and What's Included'. Mismo intento (alquilar TV para eventos), una página nueva sería canibalización (creating-helpful-content.md, silo sin solapamiento)."
+		},
+		{
+			"keywords": ["hire tv for a day", "rent tv for a day"],
+			"cluster": "audio visual rental",
+			"action": "add-faq",
+			"priority": "high",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 26.27 15 impr; gsc pos 10.62 8 impr",
+			"reason": "Pregunta real de un cliente (alquiler de un solo día) que la página tv-screen-rental no responde de forma explícita: sus FAQs cubren tamaños, precio y varias pantallas, pero no la duración. Prioridad subida un nivel por posiciones 10 a 26 en Search Console. Revisados tv-screen-rental y audio-visual-rental-for-corporate-meetings, sin FAQ equivalente.",
+			"targetUrl": "/blog/tv-screen-rental/",
+			"file": "src/content/blog/tv-screen-rental.svx",
+			"question": "Can I rent a TV screen for just one day?",
+			"brief": "Responder si se puede alquilar la pantalla de 60 pulgadas para un solo día de evento. Comprobar en src/lib/data/packages.ts cómo se define la duración y el precio del MICE Pack (490 euros sin IVA) antes de afirmar nada, y no inventar tarifas por día ni precios sueltos de la pantalla. Recordar que la pantalla va incluida en el MICE Pack con técnico y sonido, no como artículo suelto, y enlazar a /packages/mice/."
+		},
+		{
+			"keywords": ["hire of large tv screens", "big screen for rent", "65 inch tv rental"],
+			"cluster": "audio visual rental",
+			"action": "add-faq",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 10.21 14 impr; gsc pos 12.67 6 impr; gsc pos 18.86 7 impr",
+			"reason": "Mismo intento: necesitar una pantalla más grande que la estándar. La página ya tiene FAQ para 55 pulgadas y para tamaños, pero no para 65 pulgadas ni para pantallas grandes. Capa 1 (60 pulgadas propia, ver inventario CSV 2026.09.26 y packages.ts) más capa 2 (proveedores). Revisados tv-screen-rental y outdoor-movie-screen-and-projector-rental, que cubre pantallas de cine, otro intento.",
+			"targetUrl": "/blog/tv-screen-rental/",
+			"file": "src/content/blog/tv-screen-rental.svx",
+			"question": "Do you rent a 65 inch TV or a bigger screen for a large event?",
+			"brief": "Decir con honestidad que la única pantalla propia es la de 60 pulgadas del MICE Pack (packages.ts) y que no se publica ninguna de 65 pulgadas. Para algo más grande, explicar las dos vías: proyector con pantalla (enlazar a /blog/projector-rental/) o 'cuéntanos lo que necesitas y buscamos una solución con nuestros proveedores', sin marca, modelo, precio, cantidad ni disponibilidad. No presentarlo como equipo propio."
+		},
+		{
+			"keywords": ["malaga event"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 9.93 14 impr",
+			"reason": "Frase genérica sin intención clara (puede ser buscar eventos en Málaga, no alquiler). Escribir contenido solo por este volumen va contra creating-helpful-content.md (contenido pensado para buscadores) y sería además una variante geográfica sin valor propio."
+		}
+	]
+}
