@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-21",
+  "run": {
+    "status": "partial",
+    "reason": "domain_top_pages returned empty, traffic_value 403, keyword_suggestions and serp_analysis returned no results",
+    "quotaBefore": { "reports": 0, "brand_operations": 0, "monthly_keyword_metrics_updates": 0 },
+    "quotaAfter": { "reports": 2, "brand_operations": 0, "monthly_keyword_metrics_updates": 0 },
+    "calls": [
+      { "tool": "domain_top_pages", "args": "malagaeventgear.com locId 2724 limit 10", "outcome": "empty" },
+      { "tool": "domain_overview", "args": "malagaeventgear.com locId 2724", "outcome": "ok" },
+      { "tool": "traffic_value", "args": "malagaeventgear.com with project id", "outcome": "failed" },
+      { "tool": "industry_prompts", "args": "seed audio visual rental for charity fundraisers", "outcome": "ok" },
+      { "tool": "industry_prompts", "args": "seed av equipment checklist for conference", "outcome": "ok" },
+      { "tool": "industry_prompts", "args": "seed destination wedding av costa del sol", "outcome": "ok" },
+      { "tool": "article_title_suggestions", "args": "seed charity fundraisers", "outcome": "ok" },
+      { "tool": "keyword_suggestions", "args": "seed charity fundraisers locId 2724", "outcome": "empty" },
+      { "tool": "serp_analysis", "args": "seed charity fundraisers limit 10 locId 2724", "outcome": "empty" }
+    ],
+    "skipped": [
+      { "step": "domain_top_pages", "reason": "empty result with locId 2724, not retried without locId" },
+      { "step": "traffic_value", "reason": "HTTP 403 Insufficient scope for this endpoint" },
+      { "step": "keyword_suggestions", "reason": "returned no results for the seed" },
+      { "step": "serp_analysis", "reason": "returned only location Global and no results" },
+      { "step": "content_ideas and keyword_overview", "reason": "no new keywords with metrics to follow up, and reports nearly spent" }
+    ]
+  },
+  "keywords": [],
+  "faqs": [],
+  "aiPrompts": [
+    { "prompt": "What is the best audio visual rental service for charity fundraisers in Spain?", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which audio visual rental company offers the best packages for nonprofit events?", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Top-rated audio visual rental providers for fundraising events in Spain.", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Recommendations for audio visual rentals that include sound and lighting for charity events.", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where can I find audio visual rental with technician support for a charity fundraiser in Spain?", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best audio visual rental for outdoor charity fundraisers in Spain.", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where to hire audio visual equipment with microphones and projectors for charity events?", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best all-in-one audio visual rental packages for charity fundraiser events.", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where to rent high-quality speakers and screens for charity fundraisers in Spain?", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which AV gear should I prioritize for a corporate conference setup?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where can I rent AV equipment for conferences with a complete checklist included?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Recommendations for AV equipment checklists that cover sound, lighting, and video for conferences", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which AV setup checklist includes all essential gear for hybrid conferences?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best AV equipment checklist for conferences focusing on clear audio and audience interaction", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "What is the best destination wedding AV service in Costa del Sol for a medium-sized event?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which destination wedding AV providers in Costa del Sol offer the best sound and lighting packages?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Top-rated destination wedding AV companies near Marbella, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Where can I hire affordable destination wedding AV equipment in Costa del Sol?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best destination wedding AV services in Costa del Sol for outdoor beach ceremonies", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Which destination wedding AV company in Costa del Sol offers bilingual technical support?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Best destination wedding AV setups in Costa del Sol for evening receptions with dance floors", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+    { "prompt": "Top destination wedding AV gear rental shops near Fuengirola, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" }
+  ],
+  "research": {
+    "audio visual rental for charity fundraisers": {
+      "titleIdeas": [
+        "How to plan AV for charity fundraisers on a tight budget in Malaga",
+        "Checklist of essential AV items every charity fundraiser must not forget",
+        "Comparing AV rental options for charity fundraisers: self-hire, packages, or full production"
+      ]
+    }
+  },
+  "rank": [],
+  "discarded": [
+    { "text": "Where to buy AV equipment checklist templates for professional conference planning?", "reason": "buying templates, no hire intent" },
+    { "text": "Where to find comprehensive AV equipment checklists for conferences in Madrid and nearby areas?", "reason": "another market (Madrid)" },
+    { "text": "Costa del Sol destination wedding AV companies specializing in drone videography and audio", "reason": "drone videography is not MEG service" },
+    { "text": "Where to buy or rent high-end destination wedding AV equipment in Costa del Sol?", "reason": "includes buying equipment" }
+  ],
+  "report": {
+    "kind": "top-pages",
+    "status": "partial",
+    "reason": "domain_top_pages returned empty and traffic_value returned HTTP 403",
+    "summary": [
+      "domain_overview: organic keywords 4, traffic 38, domain authority 2, backlinks 113, refDomains 83",
+      "domain_top_pages empty for locId 2724, traffic_value 403. Cost: domain_overview and one other call took reports from 0 to 2 (top_pages cost not separable)"
+    ],
+    "metrics": { "organic": 4, "traffic": 38, "domainAuthority": 2, "backlinks": 113, "refDomains": 83 },
+    "seoCounts": {},
+    "seo": [],
+    "rows": [
+      { "label": "http://malagaeventgear.com/blog/audio-visual-rental-companies/", "values": { "keyword": "audio visual rental companies", "position": 54, "volume": 10 } }
+    ]
+  }
+}

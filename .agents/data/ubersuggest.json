@@ -1,7 +1,60 @@
 {
 	"version": 1,
-	"updated": "2026-10-20",
+	"updated": "2026-10-21",
 	"reports": [
+		{
+			"date": "2026-10-21",
+			"kind": "top-pages",
+			"status": "partial",
+			"reason": "domain_top_pages returned empty and traffic_value returned HTTP 403",
+			"calls": [
+				{
+					"tool": "domain_top_pages",
+					"outcome": "empty"
+				},
+				{
+					"tool": "domain_overview",
+					"outcome": "ok"
+				},
+				{
+					"tool": "traffic_value",
+					"outcome": "failed"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "empty"
+				}
+			],
+			"summary": [
+				"domain_overview: organic keywords 4, traffic 38, domain authority 2, backlinks 113, refDomains 83",
+				"domain_top_pages empty for locId 2724, traffic_value 403. Cost: domain_overview and one other call took reports from 0 to 2 (top_pages cost not separable)"
+			],
+			"findings": [],
+			"discovered": {
+				"keywords": 0,
+				"aiPrompts": 22
+			}
+		},
 		{
 			"date": "2026-10-20",
 			"kind": "backlinks",
