@@ -78799,8 +78799,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/essential-items-for-wedding-rentals/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -78838,6 +78838,10 @@
               "2026-08": 0
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-22",
+          "lastSeen": "2026-10-22"
         },
         "content-plan": {
           "firstSeen": "2026-10-19",
@@ -84488,6 +84492,24 @@
           "lastSeen": "2026-10-22",
           "urls": [
             "/blog/audio-visual-rental-for-outdoor-events/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-you-supply-an-led-screen-for-a-wedding",
+      "question": "Can you supply an LED screen for a wedding?",
+      "keywordId": "essential-items-for-wedding-rentals",
+      "cluster": "wedding rentals",
+      "url": "/blog/essential-items-for-wedding-rentals/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-22",
+          "lastSeen": "2026-10-22",
+          "urls": [
+            "/blog/essential-items-for-wedding-rentals/"
           ]
         }
       }
