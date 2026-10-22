@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "tasks": [
     {
       "id": "#T0085",
@@ -67,21 +67,6 @@
         "Qué cubrir: Responder si se puede alquilar la pantalla de 60 pulgadas para un solo día de evento. Comprobar en src/lib/data/packages.ts cómo se define la duración y el precio del MICE Pack (490 euros sin IVA) antes de afirmar nada, y no inventar tarifas por día ni precios sueltos de la pantalla. Recordar que la pantalla va incluida en el MICE Pack con técnico y sonido, no como artículo suelto, y enlazar a /packages/mice/.",
         "Por qué: Pregunta real de un cliente (alquiler de un solo día) que la página tv-screen-rental no responde de forma explícita: sus FAQs cubren tamaños, precio y varias pantallas, pero no la duración. Prioridad subida un nivel por posiciones 10 a 26 en Search Console. Revisados tv-screen-rental y audio-visual-rental-for-corporate-meetings, sin FAQ equivalente.",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
-      "id": "#T0133",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"audiovisual rental\" (new_content)",
-      "anotada": "2026-10-15",
-      "hecha": null,
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/audiovisual-rental)",
-      "notas": [],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-10-15."
       ]
     },
     {
@@ -162,6 +147,44 @@
         "8. Tests: e2e de las paginas en /es/, hreflang, sitemaps y precache del PWA. Build y Lighthouse.",
         "",
         "Cuidados: seguir SDD (regla 6). Español de España, con revision nativa (el usuario es hablante nativo). Nunca prometer atencion en otro idioma que no sea ingles o español. Sin paginas de relleno en ingles bajo /es/."
+      ]
+    },
+    {
+      "id": "#T0081",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"sound system rental for events\" (new_content)",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-system-rental-for-events)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-22"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
+      ]
+    },
+    {
+      "id": "#T0083",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"audio visual rental companies\" (existing_content)",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/existing-content/audio-visual-rental-companies)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-15",
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-22"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY existing_content. impacto low, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
       ]
     },
     {
@@ -538,6 +561,26 @@
       ]
     },
     {
+      "id": "#T0047",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"projector hire\" (new_content)",
+      "anotada": "2026-09-30",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/projector-hire)",
+      "notas": [
+        "2026-10-07 decision: NO post nuevo (projector hire: 10 busquedas/mes",
+        "23 impresiones GSC en posicion 35",
+        "canibalizaria projector-rental). Se agrego 'also called projector hire' a la intro de projector-rental (commit 5c4d175a). No se agrego FAQ de coste porque ya existe 'How much does a projector rental cost?' con los tres precios. No se agrego FAQ de un solo dia porque el post y packages.ts no dan duracion ni minimos de alquiler (CONFIRMAR con el negocio si se quiere). Las 12 traducciones NO llevan la frase a proposito: 'hire' es un sinonimo del ingles britanico sin equivalente en los otros idiomas. Medir en GSC dentro de unas semanas",
+        "reabierta por ubersuggest el 2026-10-22"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto medium, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
+      ]
+    },
+    {
       "id": "#T0048",
       "estado": "pendiente",
       "prioridad": "alta",
@@ -896,6 +939,24 @@
         "- todo-implementer v1 no toma Post nuevo: la orquestación la lleva una sesión, con los agentes en primer plano y uno a la vez.",
         "",
         "Subtareas: al aprobarse el plan de #T0085 se crea una tarea hija por post, y esta queda como la tarea madre del clúster."
+      ]
+    },
+    {
+      "id": "#T0144",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/making-the-most-of-wedding-rentals/: \"What Are the Best Wedding Rental Ideas and Tips for Sound and Lighting?\"",
+      "anotada": "2026-10-22",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-22, ítem 1)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/making-the-most-of-wedding-rentals.svx",
+        "Keywords: wedding rental ideas, wedding rental tips (gsc pos 9.67 12 impr / gsc pos 25.43 7 impr), sin volumen",
+        "Por qué: Misma intención (ideas y consejos para alquileres de boda). Ningún post tiene una pregunta con esa formulación. Revisados lighting-ideas-for-wedding-rentals, unique-wedding-ceremony-rentals y tips-for-reducing-wedding-rental-costs: cada uno cubre un ángulo concreto, así que una pregunta en el post más general evita crear una página nueva (creating-helpful-content.md).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
@@ -1514,6 +1575,44 @@
       "descripcion": []
     },
     {
+      "id": "#T0145",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-22",
+      "anotada": "2026-10-22",
+      "hecha": "2026-10-22",
+      "origen": "content-strategist (plan 2026-10-22, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "audio visual equipment for weddings (Cubierto por /blog/audio-visual-rental-for-weddings/ y por /blog/essential-items-for-wedding-rentals/ (heading What a Wedding Actually Needs, and Where MEG Fits). Otra sección sería canibalización.)",
+        "lead time for wedding rentals (Cubierto por /blog/timeline-for-booking-wedding-rentals/, heading Why There's No Fixed Booking Window, y su FAQ sobre cuánta antelación reservar.)",
+        "rent projectors (Cubierto por /blog/projector-rental/ (heading Projector and Screen Pricing by Package). Cualquier página nueva sería canibalización.)",
+        "audio visual for outdoor events (Cubierto por /blog/audio-visual-rental-for-outdoor-events/, headings Power and Weather, Honestly y Villa, Terrace, Beach Club or Garden.)",
+        "alquiler de material audiovisual málaga (Variantes en español y alemán de intenciones ya servidas por los posts en inglés, que existen traducidos a los 13 idiomas. Una página aparte por idioma o ciudad duplicaría contenido (spam-policies.md, Doorway abuse).)",
+        "audiovisual equipment for events (Términos amplios que ya pertenecen a los pilares de audio visual rental y audiovisual equipment rental service. No hay intención distinta que justifique una página o sección nueva.)",
+        "audio test malaga (Intención ambigua o ya cubierta. audio test no es un servicio de MEG, event malaga es demasiado genérico, y spain wedding package lo cubre /blog/all-in-one-wedding-rental-packages/ con su FAQ sobre paquetes todo incluido en Malaga.)"
+      ]
+    },
+    {
+      "id": "#T0133",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"audiovisual rental\" (new_content)",
+      "anotada": "2026-10-15",
+      "hecha": "2026-10-22",
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/audiovisual-rental)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-15."
+      ]
+    },
+    {
       "id": "#T0143",
       "estado": "hecha",
       "prioridad": "baja",
@@ -1715,25 +1814,6 @@
       ],
       "descripcion": [
         "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
-      ]
-    },
-    {
-      "id": "#T0083",
-      "estado": "hecha",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"audio visual rental companies\" (existing_content)",
-      "anotada": "2026-10-08",
-      "hecha": "2026-10-15",
-      "origen": "ubersuggest (seo-opportunities, keyword/existing-content/audio-visual-rental-companies)",
-      "notas": [
-        "cerrada por el reporte de ubersuggest",
-        "reabierta por ubersuggest el 2026-10-15",
-        "cerrada por el reporte de ubersuggest"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY existing_content. impacto low, esfuerzo low",
         "Reporte seo-opportunities de ubersuggest del 2026-10-08."
       ]
     },
@@ -2696,23 +2776,6 @@
       ]
     },
     {
-      "id": "#T0081",
-      "estado": "hecha",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"sound system rental for events\" (new_content)",
-      "anotada": "2026-10-08",
-      "hecha": "2026-10-08",
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-system-rental-for-events)",
-      "notas": [
-        "cerrada por el reporte de ubersuggest"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
-      ]
-    },
-    {
       "id": "#T0084",
       "estado": "hecha",
       "prioridad": "alta",
@@ -3328,25 +3391,6 @@
         "Qué cubrir: Responder con los precios reales de packages.ts por nivel (Eco Pack, Wedding Pack, Product Presentation Pack, Basic MICE Pack, MICE Pack segun corresponda a 'solo sonido'), remitiendo a /packages/ para el detalle completo, sin inventar una cifra que no este en ese archivo. Aclarar que el precio depende del aforo y de si se necesita tecnico, ya como lo hacen otros posts del silo (por ejemplo la seccion 'Choosing Your Sound System by Guest Count' del propio post). No repetir el FAQ ya existente sobre PA vs sonido general.",
         "Por qué: Revise las 13 preguntas de FAQ de /blog/sound-system-rental/ completas: cubre PA vs DJ, generador, microfonos, mezcladora, pero ninguna pregunta de precio, a diferencia de casi todos los demas posts del silo (que si tienen 'How much does audio visual rental cost for...'). Es un hueco real de contenido en la pagina mas natural para esta pregunta exacta ('sound equipment'), no solo una keyword con volumen: alguien que llega a esta pagina especifica razonablemente espera ver el precio. Prioridad media: sin volumen medido (unknown), viene de newFaqs sin dato de busquedas.",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
-      "id": "#T0047",
-      "estado": "hecha",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"projector hire\" (new_content)",
-      "anotada": "2026-09-30",
-      "hecha": "2026-10-07",
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/projector-hire)",
-      "notas": [
-        "2026-10-07 decision: NO post nuevo (projector hire: 10 busquedas/mes",
-        "23 impresiones GSC en posicion 35",
-        "canibalizaria projector-rental). Se agrego 'also called projector hire' a la intro de projector-rental (commit 5c4d175a). No se agrego FAQ de coste porque ya existe 'How much does a projector rental cost?' con los tres precios. No se agrego FAQ de un solo dia porque el post y packages.ts no dan duracion ni minimos de alquiler (CONFIRMAR con el negocio si se quiere). Las 12 traducciones NO llevan la frase a proposito: 'hire' es un sinonimo del ingles britanico sin equivalente en los otros idiomas. Medir en GSC dentro de unas semanas"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto medium, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
       ]
     },
     {
