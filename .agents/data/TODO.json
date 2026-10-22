@@ -842,27 +842,6 @@
       ]
     },
     {
-      "id": "#T0141",
-      "estado": "bloqueada",
-      "prioridad": "alta",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/tv-screen-rental/: \"Can I rent a TV screen for just one day?\"",
-      "anotada": "2026-10-21",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-21, ítem 2)",
-      "notas": [
-        "bloqueada por todo-implementer 2026-10-22: EN edit + 12 traducciones verificadas (PASS) pero sin commit; el finish gate se niega porque 5 ficheros EN quedaron en staging y no hay comando permitido para des-stagearlos. Ejecutar 'git restore --staged' sobre ellos y luego 'just post-translate-finish tv-screen-rental'"
-      ],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/tv-screen-rental.svx",
-        "Keywords: hire tv for a day, rent tv for a day (gsc pos 26.27 15 impr; gsc pos 10.62 8 impr), sin volumen",
-        "Qué cubrir: Responder si se puede alquilar la pantalla de 60 pulgadas para un solo día de evento. Comprobar en src/lib/data/packages.ts cómo se define la duración y el precio del MICE Pack (490 euros sin IVA) antes de afirmar nada, y no inventar tarifas por día ni precios sueltos de la pantalla. Recordar que la pantalla va incluida en el MICE Pack con técnico y sonido, no como artículo suelto, y enlazar a /packages/mice/.",
-        "Por qué: Pregunta real de un cliente (alquiler de un solo día) que la página tv-screen-rental no responde de forma explícita: sus FAQs cubren tamaños, precio y varias pantallas, pero no la duración. Prioridad subida un nivel por posiciones 10 a 26 en Search Console. Revisados tv-screen-rental y audio-visual-rental-for-corporate-meetings, sin FAQ equivalente.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0086",
       "estado": "bloqueada",
       "prioridad": "alta",
@@ -1557,6 +1536,28 @@
         "alquiler de material audiovisual málaga (Variantes en español y alemán de intenciones ya servidas por los posts en inglés, que existen traducidos a los 13 idiomas. Una página aparte por idioma o ciudad duplicaría contenido (spam-policies.md, Doorway abuse).)",
         "audiovisual equipment for events (Términos amplios que ya pertenecen a los pilares de audio visual rental y audiovisual equipment rental service. No hay intención distinta que justifique una página o sección nueva.)",
         "audio test malaga (Intención ambigua o ya cubierta. audio test no es un servicio de MEG, event malaga es demasiado genérico, y spain wedding package lo cubre /blog/all-in-one-wedding-rental-packages/ con su FAQ sobre paquetes todo incluido en Malaga.)"
+      ]
+    },
+    {
+      "id": "#T0141",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/tv-screen-rental/: \"Can I rent a TV screen for just one day?\"",
+      "anotada": "2026-10-21",
+      "hecha": "2026-10-22",
+      "origen": "content-strategist (plan 2026-10-21, ítem 2)",
+      "notas": [
+        "bloqueada por todo-implementer 2026-10-22: EN edit + 12 traducciones verificadas (PASS) pero sin commit; el finish gate se niega porque 5 ficheros EN quedaron en staging y no hay comando permitido para des-stagearlos. Ejecutar 'git restore --staged' sobre ellos y luego 'just post-translate-finish tv-screen-rental'",
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/tv-screen-rental.svx",
+        "Keywords: hire tv for a day, rent tv for a day (gsc pos 26.27 15 impr; gsc pos 10.62 8 impr), sin volumen",
+        "Qué cubrir: Responder si se puede alquilar la pantalla de 60 pulgadas para un solo día de evento. Comprobar en src/lib/data/packages.ts cómo se define la duración y el precio del MICE Pack (490 euros sin IVA) antes de afirmar nada, y no inventar tarifas por día ni precios sueltos de la pantalla. Recordar que la pantalla va incluida en el MICE Pack con técnico y sonido, no como artículo suelto, y enlazar a /packages/mice/.",
+        "Por qué: Pregunta real de un cliente (alquiler de un solo día) que la página tv-screen-rental no responde de forma explícita: sus FAQs cubren tamaños, precio y varias pantallas, pero no la duración. Prioridad subida un nivel por posiciones 10 a 26 en Search Console. Revisados tv-screen-rental y audio-visual-rental-for-corporate-meetings, sin FAQ equivalente.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
