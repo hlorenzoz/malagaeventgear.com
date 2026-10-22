@@ -7,6 +7,13 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): tv-screen-rental, FAQ "Can I rent a TV screen for just one day?" (#T0141) (2026-10-22)
+- Origen: plan de contenido 2026-10-22, item "hire tv for a day / rent tv for a day" (gsc pos 26.27 y 10.62). Las FAQs no respondian la duracion.
+- FAQ nueva al final de `## FAQs` (id `can-i-rent-a-tv-screen-for-just-one-day`), con su viñeta en el indice inline. Enlaza a `/packages/mice/` y al apartado de montajes reales (reserva de dos dias de Bmotion, ya publicada en el post).
+- Solo hechos de `packages.ts`: MICE Pack 490 euros sin IVA, pantalla de 60 pulgadas, tecnico hasta 6 horas continuas, entrega, montaje y desmontaje incluidos. Sin tarifa diaria ni precio suelto de la pantalla. Otras duraciones: consulta por contacto.
+- Terminos del SERP usados: corporate event no (no aporta), delivery, set up, technician, LED, inches. Descartados: daily rental rate (no hay tarifa publicada), trade show y product launch (ya cubiertos en el post), viewing distance.
+- `updatedDate` quedo en 2026-10-22 (`just post-sync`, que regenero `post-faqs.json` y `post-toc.json`). Las 12 traducciones llevan la misma FAQ en el mismo cambio.
+
 ### Changed (blog): projector-rental, seccion de proyeccion trasera (#T0130) (2026-10-15)
 - Origen: plan de contenido 2026-10-15, item "rear projection screen rental" (google-ads, 10/mes). Ningun post cubria proyeccion trasera.
 - Seccion nueva `## Rear Projection Screen Rental` (id `rear-projection-screen-rental`), despues de `## What We Don't Stock` y antes de `## Real Projector Setups We've Delivered`. Su viñeta se sumo al indice inline en esa posicion.

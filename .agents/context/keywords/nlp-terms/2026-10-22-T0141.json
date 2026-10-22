@@ -1,0 +1,52 @@
+{
+	"date": "2026-10-22",
+	"taskId": "#T0141",
+	"slug": "tv-screen-rental",
+	"searchTerm": "TV screen rental Can I rent a TV screen for just one day?",
+	"status": "ok",
+	"serp": {
+		"query": "rent a TV screen for one day",
+		"localized": false,
+		"results": [
+			{ "rank": 1, "url": "https://daniellay.co.uk/?p=46229", "title": "daniellay.co.uk" },
+			{ "rank": 2, "url": "https://rentforevent.com/blog/how-much-does-it-cost-to-rent-a-tv-in-miami/", "title": "How Much Does It Cost To Rent a TV in Miami" },
+			{ "rank": 3, "url": "https://rentforevent.com/blog/tv-rental-the-ultimate-guide/", "title": "TV Rental - The Ultimate Guide" }
+		]
+	},
+	"terms": [
+		{ "term": "Smart TV", "kind": "entity", "seenIn": 3 },
+		{ "term": "4K display", "kind": "entity", "seenIn": 3 },
+		{ "term": "HDMI cables", "kind": "entity", "seenIn": 2 },
+		{ "term": "Mounting brackets", "kind": "entity", "seenIn": 2 },
+		{ "term": "Trade show", "kind": "entity", "seenIn": 2 },
+		{ "term": "Corporate event", "kind": "entity", "seenIn": 2 },
+		{ "term": "Daily rental rate", "kind": "related", "seenIn": 3 },
+		{ "term": "Delivery and collection", "kind": "related", "seenIn": 2 },
+		{ "term": "Screen size in inches", "kind": "related", "seenIn": 2 },
+		{ "term": "Connectivity options", "kind": "related", "seenIn": 2 },
+		{ "term": "LED screen", "kind": "entity", "seenIn": 2 },
+		{ "term": "Soundbar", "kind": "entity", "seenIn": 1 },
+		{ "term": "Projector", "kind": "entity", "seenIn": 1 },
+		{ "term": "LED video wall", "kind": "entity", "seenIn": 1 },
+		{ "term": "Projection screens", "kind": "entity", "seenIn": 1 },
+		{ "term": "Wedding", "kind": "entity", "seenIn": 1 },
+		{ "term": "Product launch", "kind": "entity", "seenIn": 1 },
+		{ "term": "Viewing distance", "kind": "related", "seenIn": 1 },
+		{ "term": "On-site technical support", "kind": "related", "seenIn": 1 },
+		{ "term": "Set-up and calibration", "kind": "related", "seenIn": 1 },
+		{ "term": "Can you rent a TV for just a few hours?", "kind": "question", "seenIn": 1 },
+		{ "term": "Where can I rent a TV for a day?", "kind": "question", "seenIn": 1 },
+		{ "term": "Do rental TVs include mounting brackets?", "kind": "question", "seenIn": 1 },
+		{ "term": "Should I choose Full HD or 4K?", "kind": "question", "seenIn": 1 },
+		{ "term": "Can you rent a TV for a week?", "kind": "question", "seenIn": 2 }
+	],
+	"discarded": [
+		{ "term": "Rent for Event", "reason": "competitor name" },
+		{ "term": "Miami", "reason": "place outside Spain" },
+		{ "term": "Day hire pricing", "reason": "price vocabulary" },
+		{ "term": "VAT", "reason": "price and tax term" },
+		{ "term": "Bundle discount", "reason": "marketing offer" },
+		{ "term": "Weekly rate", "reason": "price vocabulary" },
+		{ "term": "Netflix and Prime Video apps", "reason": "third party brands, not equipment" }
+	]
+}
