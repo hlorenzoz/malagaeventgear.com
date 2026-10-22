@@ -31589,8 +31589,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/tv-screen-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -31603,6 +31603,10 @@
             "ctr": 0,
             "position": 26.27
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-22",
+          "lastSeen": "2026-10-22"
         },
         "content-plan": {
           "firstSeen": "2026-10-21",
@@ -61069,8 +61073,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/tv-screen-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -61083,6 +61087,10 @@
             "ctr": 0,
             "position": 10.62
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-22",
+          "lastSeen": "2026-10-22"
         },
         "content-plan": {
           "firstSeen": "2026-10-21",
@@ -83673,6 +83681,24 @@
           "lastSeen": "2026-10-22",
           "urls": [
             "/blog/audiovisual-equipment-rental-service/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-i-rent-a-tv-screen-for-just-one-day",
+      "question": "Can I rent a TV screen for just one day?",
+      "keywordId": "tv-screen-rental",
+      "cluster": "audio visual rental",
+      "url": "/blog/tv-screen-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-22",
+          "lastSeen": "2026-10-22",
+          "urls": [
+            "/blog/tv-screen-rental/"
           ]
         }
       }
