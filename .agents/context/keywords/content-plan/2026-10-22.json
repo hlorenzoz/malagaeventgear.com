@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-22",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 20,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "items": [
+    {
+      "keywords": ["wedding rental ideas", "wedding rental tips"],
+      "cluster": "wedding rentals",
+      "action": "add-faq",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 9.67 12 impr / gsc pos 25.43 7 impr",
+      "reason": "Misma intención (ideas y consejos para alquileres de boda). Ningún post tiene una pregunta con esa formulación. Revisados lighting-ideas-for-wedding-rentals, unique-wedding-ceremony-rentals y tips-for-reducing-wedding-rental-costs: cada uno cubre un ángulo concreto, así que una pregunta en el post más general evita crear una página nueva (creating-helpful-content.md).",
+      "targetUrl": "/blog/making-the-most-of-wedding-rentals/",
+      "file": "src/content/blog/making-the-most-of-wedding-rentals.svx",
+      "question": "What Are the Best Wedding Rental Ideas and Tips for Sound and Lighting?"
+    },
+    {
+      "keywords": ["audio visual equipment for weddings"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 20.5 8 impr",
+      "reason": "Cubierto por /blog/audio-visual-rental-for-weddings/ y por /blog/essential-items-for-wedding-rentals/ (heading What a Wedding Actually Needs, and Where MEG Fits). Otra sección sería canibalización."
+    },
+    {
+      "keywords": ["lead time for wedding rentals"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 9.75 8 impr",
+      "reason": "Cubierto por /blog/timeline-for-booking-wedding-rentals/, heading Why There's No Fixed Booking Window, y su FAQ sobre cuánta antelación reservar."
+    },
+    {
+      "keywords": ["rent projectors"],
+      "cluster": "audiovisual equipment rental service",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 26.2 5 impr",
+      "reason": "Cubierto por /blog/projector-rental/ (heading Projector and Screen Pricing by Package). Cualquier página nueva sería canibalización."
+    },
+    {
+      "keywords": ["audio visual for outdoor events"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 17 4 impr",
+      "reason": "Cubierto por /blog/audio-visual-rental-for-outdoor-events/, headings Power and Weather, Honestly y Villa, Terrace, Beach Club or Garden."
+    },
+    {
+      "keywords": ["alquiler de material audiovisual málaga", "alquilar material audiovisual malaga", "alquiler audiovisuales malaga", "alquiler equipos audiovisuales malaga", "alquiler de material audiovisual para bodas en málaga", "alquiler iluminacion málaga", "bühnenbeleuchtung mieten"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 24 8 impr / pos 24.8 5 impr / pos 14.33 3 impr / pos 21.33 3 impr / pos 18.57 7 impr / pos 9.2 5 impr / pos 24 5 impr",
+      "reason": "Variantes en español y alemán de intenciones ya servidas por los posts en inglés, que existen traducidos a los 13 idiomas. Una página aparte por idioma o ciudad duplicaría contenido (spam-policies.md, Doorway abuse)."
+    },
+    {
+      "keywords": ["audiovisual equipment for events", "equipment rental", "av rentals", "event gear"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 24.86 7 impr / pos 22.29 7 impr / pos 9.33 3 impr / pos 20.4 10 impr",
+      "reason": "Términos amplios que ya pertenecen a los pilares de audio visual rental y audiovisual equipment rental service. No hay intención distinta que justifique una página o sección nueva."
+    },
+    {
+      "keywords": ["audio test malaga", "event malaga", "spain wedding package"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 16.4 5 impr / pos 11.25 4 impr / pos 29.75 4 impr",
+      "reason": "Intención ambigua o ya cubierta. audio test no es un servicio de MEG, event malaga es demasiado genérico, y spain wedding package lo cubre /blog/all-in-one-wedding-rental-packages/ con su FAQ sobre paquetes todo incluido en Malaga."
+    }
+  ]
+}
