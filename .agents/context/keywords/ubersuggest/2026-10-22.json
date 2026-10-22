@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-22",
+  "run": {
+    "status": "partial",
+    "quotaBefore": {"reports": 0, "monthly_keyword_metrics_updates": 0, "brand_operations_used": 0},
+    "quotaAfter": {"reports": 3, "monthly_keyword_metrics_updates": 0, "brand_operations_used": 0},
+    "calls": [
+      {"tool": "seo_opportunities", "args": "project malagaeventgear.com", "outcome": "ok"},
+      {"tool": "industry_prompts", "args": "seed audio visual rental for charity fundraisers", "outcome": "ok"},
+      {"tool": "industry_prompts", "args": "seed av equipment checklist for conference", "outcome": "ok"},
+      {"tool": "industry_prompts", "args": "seed destination wedding av costa del sol", "outcome": "ok"},
+      {"tool": "article_title_suggestions", "args": "first seed", "outcome": "ok"},
+      {"tool": "keyword_suggestions", "args": "first seed, locId 2724", "outcome": "empty"},
+      {"tool": "serp_analysis", "args": "first seed, limit 10, locId 2724", "outcome": "ok"},
+      {"tool": "content_ideas", "args": "first seed, limit 5, locId 2724", "outcome": "empty"},
+      {"tool": "keyword_overview", "args": "sound system rental for events", "outcome": "ok"},
+      {"tool": "keyword_overview", "args": "projector hire", "outcome": "ok"}
+    ],
+    "skipped": [
+      {"step": "faqs", "reason": "Google autocomplete and FAQs belong to the faq-researcher, left empty"},
+      {"step": "keyword_metrics", "reason": "monthlyDue is false"},
+      {"step": "more keyword_overview", "reason": "reports quota spent after 3 calls (keyword_suggestions, serp_analysis, content_ideas or overview calls count)"}
+    ]
+  },
+  "keywords": [
+    {"keyword": "sound system rental for events", "source": "ubersuggest-seo-opportunities", "metrics": {"volume": {"value": 10, "source": "ubersuggest", "asOf": "2026-10-22"}, "difficulty": {"value": 5, "source": "ubersuggest", "asOf": "2026-10-22"}, "cpc": {"value": 0, "source": "ubersuggest", "asOf": "2026-10-22"}}},
+    {"keyword": "projector hire", "source": "ubersuggest-seo-opportunities", "metrics": {"volume": {"value": 10, "source": "ubersuggest", "asOf": "2026-10-22"}, "difficulty": {"value": 18, "source": "ubersuggest", "asOf": "2026-10-22"}, "cpc": {"value": 0, "source": "ubersuggest", "asOf": "2026-10-22"}}},
+    {"keyword": "audio visual rental companies", "source": "ubersuggest-seo-opportunities", "metrics": {"volume": {"value": 10, "source": "ubersuggest", "asOf": "2026-10-22"}, "difficulty": {"value": 5, "source": "ubersuggest", "asOf": "2026-10-22"}, "cpc": {"value": 0, "source": "ubersuggest", "asOf": "2026-10-22"}}}
+  ],
+  "faqs": [],
+  "aiPrompts": [
+    {"prompt": "What is the best audio visual rental service for charity fundraisers in Spain?", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which audio visual rental company offers the best packages for nonprofit events?", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best budget-friendly audio visual rental options for charity fundraisers near me.", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Top-rated audio visual rental providers for fundraising events in Spain.", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Recommendations for audio visual rentals that include sound and lighting for charity events.", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where can I find audio visual rental with technician support for a charity fundraiser in Spain?", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Comparing Malaga Event Gear vs other local audio visual rentals for fundraising events.", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best audio visual rental for outdoor charity fundraisers in Spain.", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where to hire audio visual equipment with microphones and projectors for charity events?", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best all-in-one audio visual rental packages for charity fundraiser events.", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where to rent high-quality speakers and screens for charity fundraisers in Spain?", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which AV gear should I prioritize for a corporate conference setup?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where can I rent AV equipment for conferences with a complete checklist included?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Recommendations for AV equipment checklists that cover sound, lighting, and video for conferences", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "What's the difference between Malaga Event Gear and other AV providers for conference setups?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which AV setup checklist includes all essential gear for hybrid conferences?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best AV equipment checklist for conferences focusing on clear audio and audience interaction", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "What is the best destination wedding AV service in Costa del Sol for a medium-sized event?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which destination wedding AV providers in Costa del Sol offer the best sound and lighting packages?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Top-rated destination wedding AV companies near Marbella, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where can I hire affordable destination wedding AV equipment in Costa del Sol?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best destination wedding AV services in Costa del Sol for outdoor beach ceremonies", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Comparing Malaga Event Gear vs other destination wedding AV suppliers in Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which destination wedding AV company in Costa del Sol offers bilingual technical support?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Most reliable destination wedding AV providers in Costa del Sol with onsite technicians", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Affordable destination wedding AV hire near Malaga airport, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"}
+  ],
+  "research": {
+    "audio visual rental for charity fundraisers": {
+      "serp": {
+        "localPack": true,
+        "aiOverview": false,
+        "top": [
+          "http://screenglobalproduction.com/section/production-equipment-rental/category/av-equipment-audio-visual-rental/country/spain",
+          "http://www.rentall.eu/en/",
+          "http://integracion-audiovisual.es/en/directory/11332-esencialevents",
+          "http://facebook.com/rentaudiovisual.es/",
+          "http://www.eventplanner.ie/directory/c_lighting-and-sound-systems-rental.html"
+        ],
+        "asOf": "2026-10-22"
+      },
+      "titleIdeas": [
+        "How to plan audio visual for a charity fundraiser in Malaga: a practical checklist",
+        "Comparing AV rental options for charity fundraisers: packages versus bespoke solutions",
+        "How professional AV boosts donations and guest experience at charity fundraisers"
+      ]
+    }
+  },
+  "rank": [],
+  "discarded": [
+    {"text": "Where to buy AV equipment checklist templates for professional conference planning?", "reason": "buying templates, no hire intent"},
+    {"text": "Where to find comprehensive AV equipment checklists for conferences in Madrid and nearby areas?", "reason": "another market (Madrid)"},
+    {"text": "Costa del Sol destination wedding AV companies specializing in drone videography and audio", "reason": "drone videography is not MEG's service"},
+    {"text": "Where to buy or rent high-end destination wedding AV equipment in Costa del Sol?", "reason": "includes buying equipment"}
+  ],
+  "report": {
+    "kind": "seo-opportunities",
+    "status": "ok",
+    "summary": ["3 KEYWORD_OPPORTUNITY (2 new_content, 1 existing_content) and 1 SITE_AUDIT content_count_words (4 pages)."],
+    "metrics": {},
+    "seoCounts": {"content_count_words": 1, "new_content": 2, "existing_content": 1, "quick_win": 0},
+    "seo": [
+      {"type": "KEYWORD_OPPORTUNITY", "subtype": "new_content", "keyword": "sound system rental for events", "impact": "high", "effort": "low"},
+      {"type": "KEYWORD_OPPORTUNITY", "subtype": "existing_content", "keyword": "audio visual rental companies", "impact": "high", "effort": "low"},
+      {"type": "KEYWORD_OPPORTUNITY", "subtype": "new_content", "keyword": "projector hire", "impact": "high", "effort": "low"},
+      {"type": "SITE_AUDIT", "subtype": "content_count_words", "count": 4, "impact": "high", "effort": "medium"}
+    ],
+    "rows": []
+  }
+}
