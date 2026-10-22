@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): essential-items-for-wedding-rentals, FAQ "Can you supply an LED screen for a wedding?" (#T0137) (2026-10-22)
+- Origen: plan de contenido 2026-10-22, item "wedding led screen rental" (google-ads 10/mes). Ningun encabezado ni FAQ del post trataba una pantalla LED.
+- FAQ nueva al final de `## FAQs`. El post no tiene indice inline, asi que no hay viñeta que añadir. Sin enlaces nuevos (reverse silo: el post de apoyo no enlaza a tv-screen-rental).
+- Pantalla LED grande o pared LED: formula de proveedores (no esta en inventario propio, se busca solucion si la hay), sin marca, modelo, cantidad, precio ni plazo. Si solo hay que proyectar: proyectores de 3000 y 5000 lumenes y pantallas con soporte (CSV 2026-09-26). El tecnico no maneja las diapositivas.
+- `updatedDate` quedo en 2026-10-22 (`just post-sync`, que regenero `post-faqs.json` y `post-toc.json`). Las 12 traducciones llevan la misma FAQ en el mismo cambio.
+
 ### Changed (blog): tv-screen-rental, FAQ "Can I rent a TV screen for just one day?" (#T0141) (2026-10-22)
 - Origen: plan de contenido 2026-10-22, item "hire tv for a day / rent tv for a day" (gsc pos 26.27 y 10.62). Las FAQs no respondian la duracion.
 - FAQ nueva al final de `## FAQs` (id `can-i-rent-a-tv-screen-for-just-one-day`), con su viñeta en el indice inline. Enlaza a `/packages/mice/` y al apartado de montajes reales (reserva de dos dias de Bmotion, ya publicada en el post).

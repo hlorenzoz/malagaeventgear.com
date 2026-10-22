@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-22",
+  "taskId": "#T0137",
+  "slug": "essential-items-for-wedding-rentals",
+  "searchTerm": "wedding led screen rental",
+  "status": "partial",
+  "reason": "Read Google positions 1, 2 and 5. Skipped 3 (connection refused), 4 (marketplace page) and 6 (HTTP 410). SERP is vendor listings from other markets, so it is thin.",
+  "serp": {
+    "query": "Can you supply an LED screen for a wedding",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://www.weddingwire.com/biz/dynamic-displays/158c130e9acccab0.html", "title": "www.weddingwire.com" },
+      { "rank": 2, "url": "https://www.easyweddings.com.au/WeddingHire/Sydney/LARGELEDCREENSHIRE/", "title": "Easy Weddings Wedding Hire Sydney" },
+      { "rank": 3, "url": "https://www.weddingwire.in/wedding-entertainment/euphoria-led-screen--e71273", "title": "Ir al contenido principal" }
+    ]
+  },
+  "terms": [
+    { "term": "LED screen rental", "kind": "related", "seenIn": 3 },
+    { "term": "LED screen wall", "kind": "entity", "seenIn": 1 },
+    { "term": "DJ set", "kind": "related", "seenIn": 2 },
+    { "term": "High-resolution display", "kind": "related", "seenIn": 1 },
+    { "term": "Live stream ceremonies", "kind": "related", "seenIn": 1 },
+    { "term": "Live photo booth", "kind": "entity", "seenIn": 1 },
+    { "term": "Real-time hashtag feed", "kind": "related", "seenIn": 1 },
+    { "term": "Seating chart display", "kind": "related", "seenIn": 1 },
+    { "term": "Guest book messages", "kind": "related", "seenIn": 1 },
+    { "term": "Music visualizers", "kind": "related", "seenIn": 1 },
+    { "term": "Delivery and setup", "kind": "related", "seenIn": 1 },
+    { "term": "Video clips and slideshows", "kind": "related", "seenIn": 1 },
+    { "term": "Indoor and outdoor displays", "kind": "related", "seenIn": 1 },
+    { "term": "Wedding dinner screen", "kind": "entity", "seenIn": 1 },
+    { "term": "PowerPoint presentations", "kind": "related", "seenIn": 1 },
+    { "term": "Brightness and colour clarity", "kind": "related", "seenIn": 1 },
+    { "term": "Ceremony and reception", "kind": "entity", "seenIn": 1 },
+    { "term": "Pre-wedding functions", "kind": "entity", "seenIn": 1 },
+    { "term": "Wedding packages", "kind": "related", "seenIn": 1 },
+    { "term": "Custom setup add-ons", "kind": "related", "seenIn": 1 },
+    { "term": "What should a quote request include?", "kind": "question", "seenIn": 1 },
+    { "term": "Which services are included in the price?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Euphoria LED screen", "reason": "competitor name" },
+    { "term": "MEGA LED TECH", "reason": "competitor name" },
+    { "term": "Dynamic Displays", "reason": "competitor name" },
+    { "term": "Per-event rate", "reason": "price wording" },
+    { "term": "Event-based pricing", "reason": "price wording" },
+    { "term": "Price range", "reason": "price wording" },
+    { "term": "Cash payment", "reason": "payment terms of another market" },
+    { "term": "Sangeet event", "reason": "event type of another market" },
+    { "term": "4-channel mixer", "reason": "read from an image filename, not page text" },
+    { "term": "3600 watt amp", "reason": "read from an image filename, not page text" },
+    { "term": "EV Pro speakers", "reason": "read from an image filename, not page text" },
+    { "term": "Why enquire through Easy Weddings?", "reason": "marketing text of a directory" },
+    { "term": "Exclusive deals", "reason": "marketing slogan" }
+  ]
+}
