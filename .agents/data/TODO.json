@@ -940,25 +940,6 @@
       ]
     },
     {
-      "id": "#T0137",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/essential-items-for-wedding-rentals/: \"Can you supply an LED screen for a wedding?\"",
-      "anotada": "2026-10-19",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-19, ítem 1)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/essential-items-for-wedding-rentals.svx",
-        "Keywords: wedding led screen rental (google-ads 10/mo (below tier 100)), debajo del tier",
-        "Qué cubrir: Responder con el encuadre de proveedores de CLAUDE.md: una pantalla LED no está en nuestro inventario propio, nos cuentan qué necesitan (tamaño de sala, uso: fotos, vídeo de la pareja, directo) y buscamos una solución con nuestros proveedores. Sin marca, modelo, cantidad, precio, disponibilidad ni plazo. Si el cliente solo necesita proyectar, remitir al proyector y la pantalla del inventario (packages.ts / CSV de inventario). No presentarlo como equipo propio.",
-        "Por qué: Intención de boda sin cobertura: ningún encabezado ni FAQ de essential-items-for-wedding-rentals trata una pantalla LED. tv-screen-rental ya responde sobre LED en general, así que basta una FAQ en el post de boda, sin post nuevo. Fuente: creating-helpful-content.md (responde una duda real de clientes de boda).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0110",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1557,6 +1538,27 @@
         "Keywords: hire tv for a day, rent tv for a day (gsc pos 26.27 15 impr; gsc pos 10.62 8 impr), sin volumen",
         "Qué cubrir: Responder si se puede alquilar la pantalla de 60 pulgadas para un solo día de evento. Comprobar en src/lib/data/packages.ts cómo se define la duración y el precio del MICE Pack (490 euros sin IVA) antes de afirmar nada, y no inventar tarifas por día ni precios sueltos de la pantalla. Recordar que la pantalla va incluida en el MICE Pack con técnico y sonido, no como artículo suelto, y enlazar a /packages/mice/.",
         "Por qué: Pregunta real de un cliente (alquiler de un solo día) que la página tv-screen-rental no responde de forma explícita: sus FAQs cubren tamaños, precio y varias pantallas, pero no la duración. Prioridad subida un nivel por posiciones 10 a 26 en Search Console. Revisados tv-screen-rental y audio-visual-rental-for-corporate-meetings, sin FAQ equivalente.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0137",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/essential-items-for-wedding-rentals/: \"Can you supply an LED screen for a wedding?\"",
+      "anotada": "2026-10-19",
+      "hecha": "2026-10-22",
+      "origen": "content-strategist (plan 2026-10-19, ítem 1)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/essential-items-for-wedding-rentals.svx",
+        "Keywords: wedding led screen rental (google-ads 10/mo (below tier 100)), debajo del tier",
+        "Qué cubrir: Responder con el encuadre de proveedores de CLAUDE.md: una pantalla LED no está en nuestro inventario propio, nos cuentan qué necesitan (tamaño de sala, uso: fotos, vídeo de la pareja, directo) y buscamos una solución con nuestros proveedores. Sin marca, modelo, cantidad, precio, disponibilidad ni plazo. Si el cliente solo necesita proyectar, remitir al proyector y la pantalla del inventario (packages.ts / CSV de inventario). No presentarlo como equipo propio.",
+        "Por qué: Intención de boda sin cobertura: ningún encabezado ni FAQ de essential-items-for-wedding-rentals trata una pantalla LED. tv-screen-rental ya responde sobre LED en general, así que basta una FAQ en el post de boda, sin post nuevo. Fuente: creating-helpful-content.md (responde una duda real de clientes de boda).",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
