@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "tasks": [
     {
       "id": "#T0085",
@@ -1497,6 +1497,30 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0146",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-23",
+      "anotada": "2026-10-23",
+      "hecha": "2026-10-23",
+      "origen": "content-strategist (plan 2026-10-23, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "party hire malaga (Misma intencion que /blog/audio-visual-rental-for-private-parties/ (Eco Pack para fiestas privadas). Una segunda pagina seria canibalizacion y una variante de ciudad seria doorway abuse (spam-policies.md).)",
+        "spain all inclusive wedding packages (Cubierto por /blog/all-in-one-wedding-rental-packages/, encabezado 'Our All Inclusive Wedding Pack in Malaga' y FAQ 'Do you offer all inclusive wedding packages in Malaga?'. Nada que anadir sin duplicar.)",
+        "55 inch tv rental (Cubierto por /blog/tv-screen-rental/, que ya tiene la FAQ 'Do you rent a 55 inch screen?' y explica que la unica pantalla propia es la de 60 pulgadas del MICE Pack. Una pagina por tamano de pantalla seria contenido hecho para buscadores (creating-helpful-content.md).)",
+        "alquiler de equipos audiovisuales en málaga (Terminos amplios con la misma intencion que los pilares /blog/audio-visual-rental/ y /blog/audiovisual-equipment-rental-service/. La cabeza de silo ya los cubre y el espanol llega por la traduccion de esas paginas. Un post nuevo seria silo overlap.)",
+        "alquiler iluminacion led malaga (Cubierto por el pilar /blog/stage-lighting-rental/ (plantel completo, paquetes, FAQ 'Can I rent lights for a DJ set or a party?'), por /blog/stage-uplighting/ y por el H2 'Event Lighting' de /blog/event-technology-service/. Variantes de la misma intencion.)",
+        "audio malaga (Cubierto por /blog/sound-system-rental/ (FAQ 'Can I rent just speakers, without a microphone or technician?', 'What type of microphone do I need for my event?' y 'Do I need to rent a separate amplifier with the speakers and microphone?'). 'audio malaga' es demasiado vago para una seccion propia.)",
+        "bar equipment rental near me (Equipo de barra no es audiovisual y no figura en el inventario. Ademas es una variante 'near me', que el sitio ya cubre con posts existentes (doorway abuse en spam-policies.md).)",
+        "dj gear rental (Cubierto por /blog/sound-system-rental/, encabezado 'PA System or DJ Sound: Matching Equipment to the Event' y FAQ 'Can I rent a complete DJ system for a party?'.)",
+        "home entertainment & sound service (Servicio domestico, no eventos: negocio distinto al de MEG (fit).)",
+        "mice av (Cubierto por /blog/audio-visual-rental/ (H3 'MICE Pack: Comprehensive Audiovisual Setup for Success' y FAQ 'What is the MICE Pack offered by Malaga Event Gear?'), /blog/av-equipment-consultations/ (H2 'Basic MICE Pack vs MICE Pack: The Real Difference') y /blog/audio-visual-rental-for-corporate-meetings/.)"
+      ]
     },
     {
       "id": "#T0145",
