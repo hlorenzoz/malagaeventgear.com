@@ -1,0 +1,101 @@
+{
+	"date": "2026-10-23",
+	"run": {
+		"status": "ok",
+		"reason": "Los 20 candidatos son todos unknown (solo Search Console, 2 a 3 impresiones, sin volumen medido) y todos tienen ya cobertura en el sitio: ninguno justifica contenido nuevo. No se aplica ninguna prioridad a TODO.json: la unica tarea sin prioridad (#T0002 Comments) no tiene descripcion para juzgarla.",
+		"candidatesReviewed": 20,
+		"tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+	},
+	"items": [
+		{
+			"keywords": ["party hire malaga"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 17 3 impr",
+			"reason": "Misma intencion que /blog/audio-visual-rental-for-private-parties/ (Eco Pack para fiestas privadas). Una segunda pagina seria canibalizacion y una variante de ciudad seria doorway abuse (spam-policies.md)."
+		},
+		{
+			"keywords": ["spain all inclusive wedding packages", "all inclusive wedding packages"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 23 3 impr / gsc pos 24 2 impr",
+			"reason": "Cubierto por /blog/all-in-one-wedding-rental-packages/, encabezado 'Our All Inclusive Wedding Pack in Malaga' y FAQ 'Do you offer all inclusive wedding packages in Malaga?'. Nada que anadir sin duplicar."
+		},
+		{
+			"keywords": ["55 inch tv rental", "hire large screen tv"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 13 2 impr / gsc pos 8.5 2 impr",
+			"reason": "Cubierto por /blog/tv-screen-rental/, que ya tiene la FAQ 'Do you rent a 55 inch screen?' y explica que la unica pantalla propia es la de 60 pulgadas del MICE Pack. Una pagina por tamano de pantalla seria contenido hecho para buscadores (creating-helpful-content.md)."
+		},
+		{
+			"keywords": ["alquiler de equipos audiovisuales en málaga", "hire audio visual equipment", "event equipment rental", "event equipment service"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 22 2 impr / gsc pos 18.5 2 impr / gsc pos 11 2 impr / gsc pos 18 2 impr",
+			"reason": "Terminos amplios con la misma intencion que los pilares /blog/audio-visual-rental/ y /blog/audiovisual-equipment-rental-service/. La cabeza de silo ya los cubre y el espanol llega por la traduccion de esas paginas. Un post nuevo seria silo overlap."
+		},
+		{
+			"keywords": ["alquiler iluminacion led malaga", "alquiler iluminación para eventos", "event lighting hire", "light rentals"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 12 2 impr / gsc pos 9.5 2 impr / gsc pos 12 2 impr / gsc pos 8.5 2 impr",
+			"reason": "Cubierto por el pilar /blog/stage-lighting-rental/ (plantel completo, paquetes, FAQ 'Can I rent lights for a DJ set or a party?'), por /blog/stage-uplighting/ y por el H2 'Event Lighting' de /blog/event-technology-service/. Variantes de la misma intencion."
+		},
+		{
+			"keywords": ["audio malaga", "rent speaker and microphone"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 8.5 2 impr / gsc pos 11.5 2 impr",
+			"reason": "Cubierto por /blog/sound-system-rental/ (FAQ 'Can I rent just speakers, without a microphone or technician?', 'What type of microphone do I need for my event?' y 'Do I need to rent a separate amplifier with the speakers and microphone?'). 'audio malaga' es demasiado vago para una seccion propia."
+		},
+		{
+			"keywords": ["bar equipment rental near me"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 11.5 2 impr",
+			"reason": "Equipo de barra no es audiovisual y no figura en el inventario. Ademas es una variante 'near me', que el sitio ya cubre con posts existentes (doorway abuse en spam-policies.md)."
+		},
+		{
+			"keywords": ["dj gear rental"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 29.5 2 impr",
+			"reason": "Cubierto por /blog/sound-system-rental/, encabezado 'PA System or DJ Sound: Matching Equipment to the Event' y FAQ 'Can I rent a complete DJ system for a party?'."
+		},
+		{
+			"keywords": ["home entertainment & sound service"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 12 2 impr",
+			"reason": "Servicio domestico, no eventos: negocio distinto al de MEG (fit)."
+		},
+		{
+			"keywords": ["mice av", "presentation mice rentals"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 9 2 impr / gsc pos 19.5 2 impr",
+			"reason": "Cubierto por /blog/audio-visual-rental/ (H3 'MICE Pack: Comprehensive Audiovisual Setup for Success' y FAQ 'What is the MICE Pack offered by Malaga Event Gear?'), /blog/av-equipment-consultations/ (H2 'Basic MICE Pack vs MICE Pack: The Real Difference') y /blog/audio-visual-rental-for-corporate-meetings/."
+		}
+	]
+}
