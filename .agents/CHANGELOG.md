@@ -7,6 +7,11 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): making-the-most-of-wedding-rentals, FAQ "What Are the Best Wedding Rental Ideas and Tips for Sound and Lighting?" (#T0144) (2026-10-23)
+- Origen: plan de contenido 2026-10-23, item "wedding rental ideas; wedding rental tips" (gsc pos 9.67 y 25.43). Ningun post tenia esa pregunta.
+- FAQ nueva al final de `## FAQs`: microfonos inalambricos, altavoces segun el recinto, tecnico en vivo, luces de hadas y tiras LED calidas del Wedding Pack, segundo microfono como extra. Enlace solo a `/packages/wedding/` (se quito el enlace a `/blog/lighting-ideas-for-wedding-rentals/` para mantener 5 enlaces hermanos salientes, site-map.test.ts). Sin marcas, precios ni iluminacion de color. El post no tiene indice inline, no hay vineta que anadir.
+- `updatedDate` movido a 2026-10-23 con `just post-sync`. Las 12 traducciones siguen en el mismo cambio.
+
 ### Changed (blog): tv-screen-rental, FAQ "Do you rent a 65 inch TV or a bigger screen for a large event?" (#T0142) (2026-10-23)
 - Origen: plan de contenido 2026-10-23, item "hire of large tv screens; big screen for rent; 65 inch tv rental" (gsc pos 10.21, 12.67 y 18.86). El post tenia FAQ de 55 pulgadas y de tamanos, pero ninguna de 65 pulgadas ni pantallas mayores.
 - FAQ nueva al final de `## FAQs` y su vineta en el indice inline: solo la pantalla de 60 pulgadas del MICE Pack es propia, no se publica 65 pulgadas, dos vias (proyector con pantalla enlazando a `/blog/projector-rental/`, o pantalla mayor via proveedores si la hay). Sin marca, precio ni disponibilidad.

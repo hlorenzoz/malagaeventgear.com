@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-23",
+  "taskId": "#T0144",
+  "slug": "making-the-most-of-wedding-rentals",
+  "searchTerm": "making the most of wedding rentals What Are the Best Wedding Rental Ideas and Tips for Sound and Lighting?",
+  "status": "ok",
+  "serp": {
+    "query": "wedding rental ideas and tips sound and lighting",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://rentforevent.com/blog/the-ultimate-wedding-planning-checklist-how-av-rentals-can-transform-your-big-day/", "title": "The Ultimate Wedding Planning Checklist: How AV Rentals Can Transform Your Big Day" },
+      { "rank": 2, "url": "https://pink-book.co.za/wedding-tips-ideas/decor-flowers/the-importance-of-wedding-lights-sound-hire/", "title": "The Importance of Wedding Lights & Sound Hire" },
+      { "rank": 3, "url": "https://leisuretec.co.uk/blogs/leisuretec-blog/6-sound-and-lighting-must-haves-for-weddings", "title": "6 Sound and Lighting Must-Haves for Weddings" }
+    ]
+  },
+  "terms": [
+    { "term": "microphones", "kind": "entity", "seenIn": 3 },
+    { "term": "speakers", "kind": "entity", "seenIn": 3 },
+    { "term": "wireless microphones", "kind": "entity", "seenIn": 2 },
+    { "term": "mixers", "kind": "entity", "seenIn": 2 },
+    { "term": "DJ equipment", "kind": "entity", "seenIn": 2 },
+    { "term": "fairy lights", "kind": "entity", "seenIn": 2 },
+    { "term": "ceremony", "kind": "related", "seenIn": 3 },
+    { "term": "reception", "kind": "related", "seenIn": 3 },
+    { "term": "first dance", "kind": "related", "seenIn": 2 },
+    { "term": "wedding budget", "kind": "related", "seenIn": 2 },
+    { "term": "wedding lighting rental", "kind": "related", "seenIn": 2 },
+    { "term": "wedding photography and videography", "kind": "related", "seenIn": 2 },
+    { "term": "uplighting", "kind": "entity", "seenIn": 1 },
+    { "term": "moving lights", "kind": "entity", "seenIn": 1 },
+    { "term": "string lights", "kind": "entity", "seenIn": 1 },
+    { "term": "haze and bubble effects", "kind": "entity", "seenIn": 1 },
+    { "term": "battery-powered speakers", "kind": "entity", "seenIn": 1 },
+    { "term": "speaker stands and mic stands", "kind": "entity", "seenIn": 1 },
+    { "term": "AV technicians", "kind": "related", "seenIn": 1 },
+    { "term": "sound engineer", "kind": "related", "seenIn": 1 },
+    { "term": "outdoor ceremony", "kind": "related", "seenIn": 1 },
+    { "term": "venue size", "kind": "related", "seenIn": 1 },
+    { "term": "What audio equipment does a wedding need?", "kind": "question", "seenIn": 1 },
+    { "term": "What lighting and sound does a reception need?", "kind": "question", "seenIn": 1 },
+    { "term": "How do you choose AV rentals for a wedding?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "contingency fund", "reason": "money and budget wording, not equipment vocabulary" },
+    { "term": "Chinese lanterns", "reason": "decor, not audiovisual equipment" },
+    { "term": "LED video wall", "reason": "off topic for sound and lighting question" },
+    { "term": "page brand name", "reason": "competitor branding, South African market" }
+  ]
+}
