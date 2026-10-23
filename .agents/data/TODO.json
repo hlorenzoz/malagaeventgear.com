@@ -903,25 +903,6 @@
       ]
     },
     {
-      "id": "#T0142",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/tv-screen-rental/: \"Do you rent a 65 inch TV or a bigger screen for a large event?\"",
-      "anotada": "2026-10-21",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-21, ítem 3)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/tv-screen-rental.svx",
-        "Keywords: hire of large tv screens, big screen for rent, 65 inch tv rental (gsc pos 10.21 14 impr; gsc pos 12.67 6 impr; gsc pos 18.86 7 impr), sin volumen",
-        "Qué cubrir: Decir con honestidad que la única pantalla propia es la de 60 pulgadas del MICE Pack (packages.ts) y que no se publica ninguna de 65 pulgadas. Para algo más grande, explicar las dos vías: proyector con pantalla (enlazar a /blog/projector-rental/) o 'cuéntanos lo que necesitas y buscamos una solución con nuestros proveedores', sin marca, modelo, precio, cantidad ni disponibilidad. No presentarlo como equipo propio.",
-        "Por qué: Mismo intento: necesitar una pantalla más grande que la estándar. La página ya tiene FAQ para 55 pulgadas y para tamaños, pero no para 65 pulgadas ni para pantallas grandes. Capa 1 (60 pulgadas propia, ver inventario CSV 2026.09.26 y packages.ts) más capa 2 (proveedores). Revisados tv-screen-rental y outdoor-movie-screen-and-projector-rental, que cubre pantallas de cine, otro intento.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0110",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1502,6 +1483,27 @@
         "dj gear rental (Cubierto por /blog/sound-system-rental/, encabezado 'PA System or DJ Sound: Matching Equipment to the Event' y FAQ 'Can I rent a complete DJ system for a party?'.)",
         "home entertainment & sound service (Servicio domestico, no eventos: negocio distinto al de MEG (fit).)",
         "mice av (Cubierto por /blog/audio-visual-rental/ (H3 'MICE Pack: Comprehensive Audiovisual Setup for Success' y FAQ 'What is the MICE Pack offered by Malaga Event Gear?'), /blog/av-equipment-consultations/ (H2 'Basic MICE Pack vs MICE Pack: The Real Difference') y /blog/audio-visual-rental-for-corporate-meetings/.)"
+      ]
+    },
+    {
+      "id": "#T0142",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/tv-screen-rental/: \"Do you rent a 65 inch TV or a bigger screen for a large event?\"",
+      "anotada": "2026-10-21",
+      "hecha": "2026-10-23",
+      "origen": "content-strategist (plan 2026-10-21, ítem 3)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/tv-screen-rental.svx",
+        "Keywords: hire of large tv screens, big screen for rent, 65 inch tv rental (gsc pos 10.21 14 impr; gsc pos 12.67 6 impr; gsc pos 18.86 7 impr), sin volumen",
+        "Qué cubrir: Decir con honestidad que la única pantalla propia es la de 60 pulgadas del MICE Pack (packages.ts) y que no se publica ninguna de 65 pulgadas. Para algo más grande, explicar las dos vías: proyector con pantalla (enlazar a /blog/projector-rental/) o 'cuéntanos lo que necesitas y buscamos una solución con nuestros proveedores', sin marca, modelo, precio, cantidad ni disponibilidad. No presentarlo como equipo propio.",
+        "Por qué: Mismo intento: necesitar una pantalla más grande que la estándar. La página ya tiene FAQ para 55 pulgadas y para tamaños, pero no para 65 pulgadas ni para pantallas grandes. Capa 1 (60 pulgadas propia, ver inventario CSV 2026.09.26 y packages.ts) más capa 2 (proveedores). Revisados tv-screen-rental y outdoor-movie-screen-and-projector-rental, que cubre pantallas de cine, otro intento.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
