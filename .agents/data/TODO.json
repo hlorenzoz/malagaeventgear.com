@@ -922,24 +922,6 @@
       ]
     },
     {
-      "id": "#T0139",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/audio-visual-rental-for-weddings/: \"Can I rent a screen for my wedding?\"",
-      "anotada": "2026-10-20",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-20, ítem 1)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/audio-visual-rental-for-weddings.svx",
-        "Keywords: rent led screen for wedding, screen on rent for wedding (google-ads 0/mo (below tier 100)), debajo del tier",
-        "Por qué: Misma intención: pantalla para una boda. Ningún encabezado ni FAQ de audio-visual-rental-for-weddings habla de pantallas. tv-screen-rental ya cubre la pantalla y la fuente por proveedores, así que el FAQ de la boda responde breve y no duplica. Sin página nueva (creating-helpful-content.md, people first).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0110",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1520,6 +1502,26 @@
         "dj gear rental (Cubierto por /blog/sound-system-rental/, encabezado 'PA System or DJ Sound: Matching Equipment to the Event' y FAQ 'Can I rent a complete DJ system for a party?'.)",
         "home entertainment & sound service (Servicio domestico, no eventos: negocio distinto al de MEG (fit).)",
         "mice av (Cubierto por /blog/audio-visual-rental/ (H3 'MICE Pack: Comprehensive Audiovisual Setup for Success' y FAQ 'What is the MICE Pack offered by Malaga Event Gear?'), /blog/av-equipment-consultations/ (H2 'Basic MICE Pack vs MICE Pack: The Real Difference') y /blog/audio-visual-rental-for-corporate-meetings/.)"
+      ]
+    },
+    {
+      "id": "#T0139",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/audio-visual-rental-for-weddings/: \"Can I rent a screen for my wedding?\"",
+      "anotada": "2026-10-20",
+      "hecha": "2026-10-23",
+      "origen": "content-strategist (plan 2026-10-20, ítem 1)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audio-visual-rental-for-weddings.svx",
+        "Keywords: rent led screen for wedding, screen on rent for wedding (google-ads 0/mo (below tier 100)), debajo del tier",
+        "Por qué: Misma intención: pantalla para una boda. Ningún encabezado ni FAQ de audio-visual-rental-for-weddings habla de pantallas. tv-screen-rental ya cubre la pantalla y la fuente por proveedores, así que el FAQ de la boda responde breve y no duplica. Sin página nueva (creating-helpful-content.md, people first).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
