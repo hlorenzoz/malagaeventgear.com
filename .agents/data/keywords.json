@@ -59198,8 +59198,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audio-visual-rental-for-weddings/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -59237,6 +59237,10 @@
               "2026-08": 0
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23"
         },
         "content-plan": {
           "firstSeen": "2026-10-20",
@@ -63214,8 +63218,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audio-visual-rental-for-weddings/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -63253,6 +63257,10 @@
               "2026-08": 0
             }
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23"
         },
         "content-plan": {
           "firstSeen": "2026-10-20",
@@ -83885,6 +83893,24 @@
           "lastSeen": "2026-10-23",
           "urls": [
             "/blog/audiovisual-equipment-rental-service/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-i-rent-a-screen-for-my-wedding",
+      "question": "Can I rent a screen for my wedding?",
+      "keywordId": "audio-visual-rental-for-weddings",
+      "cluster": "audio visual rental",
+      "url": "/blog/audio-visual-rental-for-weddings/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23",
+          "urls": [
+            "/blog/audio-visual-rental-for-weddings/"
           ]
         }
       }
