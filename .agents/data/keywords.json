@@ -82932,7 +82932,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-14",
-          "lastSeen": "2026-10-14",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "audio-visual-rental-safety-guidelines"
           ]
@@ -83022,7 +83022,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-14",
-          "lastSeen": "2026-10-14",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "audio-visual-rental-safety-guidelines"
           ]
@@ -83199,7 +83199,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-14",
-          "lastSeen": "2026-10-14",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "wireless-handheld-microphone-rental"
           ]
@@ -83880,7 +83880,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-14",
-          "lastSeen": "2026-10-14",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "wireless-handheld-microphone-rental"
           ]
@@ -88487,7 +88487,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-14",
-          "lastSeen": "2026-10-14",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "audio-visual-rental-planning-timeline"
           ]
@@ -89242,7 +89242,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-14",
-          "lastSeen": "2026-10-14",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "wedding-rentals-near-me"
           ]
@@ -89314,7 +89314,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "wedding-rentals",
             "wedding-rentals-near-me"
@@ -89930,10 +89930,11 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-22",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "all-in-one-wedding-rental-packages",
             "eco-friendly-wedding-rental-options",
+            "essential-items-for-wedding-rentals",
             "how-to-choose-wedding-rentals",
             "how-to-compare-wedding-rental-quotes",
             "indoor-wedding-rental-essentials",
@@ -90071,7 +90072,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "wedding-rentals",
             "wedding-rentals-near-me"
@@ -90199,7 +90200,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-14",
-          "lastSeen": "2026-10-14",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "wedding-rentals-near-me"
           ]
@@ -90530,7 +90531,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-14",
-          "lastSeen": "2026-10-14",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "audio-visual-rental-for-weddings"
           ]
@@ -90820,7 +90821,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-14",
-          "lastSeen": "2026-10-14",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "audio-visual-rental-for-weddings"
           ]
@@ -90838,7 +90839,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-14",
-          "lastSeen": "2026-10-14",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "audio-visual-rental-for-weddings"
           ]
@@ -90874,10 +90875,11 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-22",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "all-in-one-wedding-rental-packages",
             "eco-friendly-wedding-rental-options",
+            "essential-items-for-wedding-rentals",
             "how-to-compare-wedding-rental-quotes",
             "indoor-wedding-rental-essentials",
             "making-the-most-of-wedding-rentals",
@@ -92218,6 +92220,24 @@
       }
     },
     {
+      "id": "is-it-cheaper-to-buy-or-rent-wedding-decor",
+      "question": "is it cheaper to buy or rent wedding decor",
+      "keywordId": "wedding-rentals-near-me",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23",
+          "seeds": [
+            "wedding-rentals-near-me"
+          ]
+        }
+      }
+    },
+    {
       "id": "is-it-cheaper-to-rent-or-buy-a-sound-system",
       "question": "Is it cheaper to rent or buy a sound system?",
       "keywordId": "how-audio-visual-rental-works",
@@ -93412,7 +93432,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-16",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "av-equipment-checklist-for-conference",
             "av-equipment-needed-for-a-conference"
@@ -94565,7 +94585,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-14",
-          "lastSeen": "2026-10-15",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "audio-visual-rental-planning-timeline",
             "audio-visual-rental-safety-guidelines",
@@ -94679,7 +94699,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "audio-visual-rental-companies",
             "audio-visual-rental-for-product-launches",
@@ -95129,7 +95149,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-14",
-          "lastSeen": "2026-10-14",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "wireless-handheld-microphone-rental"
           ]
@@ -96854,7 +96874,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-14",
-          "lastSeen": "2026-10-14",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "audio-visual-rental-safety-guidelines"
           ]
@@ -96998,7 +97018,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-14",
-          "lastSeen": "2026-10-14",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "audio-visual-rental-safety-guidelines"
           ]
@@ -97398,7 +97418,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-22",
+          "lastSeen": "2026-10-23",
           "seeds": [
             "all-in-one-wedding-rental-packages",
             "how-to-choose-wedding-rentals",
