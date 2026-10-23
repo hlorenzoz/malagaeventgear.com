@@ -885,24 +885,6 @@
       ]
     },
     {
-      "id": "#T0144",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/making-the-most-of-wedding-rentals/: \"What Are the Best Wedding Rental Ideas and Tips for Sound and Lighting?\"",
-      "anotada": "2026-10-22",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-22, ítem 1)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/making-the-most-of-wedding-rentals.svx",
-        "Keywords: wedding rental ideas, wedding rental tips (gsc pos 9.67 12 impr / gsc pos 25.43 7 impr), sin volumen",
-        "Por qué: Misma intención (ideas y consejos para alquileres de boda). Ningún post tiene una pregunta con esa formulación. Revisados lighting-ideas-for-wedding-rentals, unique-wedding-ceremony-rentals y tips-for-reducing-wedding-rental-costs: cada uno cubre un ángulo concreto, así que una pregunta en el post más general evita crear una página nueva (creating-helpful-content.md).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0110",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1483,6 +1465,26 @@
         "dj gear rental (Cubierto por /blog/sound-system-rental/, encabezado 'PA System or DJ Sound: Matching Equipment to the Event' y FAQ 'Can I rent a complete DJ system for a party?'.)",
         "home entertainment & sound service (Servicio domestico, no eventos: negocio distinto al de MEG (fit).)",
         "mice av (Cubierto por /blog/audio-visual-rental/ (H3 'MICE Pack: Comprehensive Audiovisual Setup for Success' y FAQ 'What is the MICE Pack offered by Malaga Event Gear?'), /blog/av-equipment-consultations/ (H2 'Basic MICE Pack vs MICE Pack: The Real Difference') y /blog/audio-visual-rental-for-corporate-meetings/.)"
+      ]
+    },
+    {
+      "id": "#T0144",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/making-the-most-of-wedding-rentals/: \"What Are the Best Wedding Rental Ideas and Tips for Sound and Lighting?\"",
+      "anotada": "2026-10-22",
+      "hecha": "2026-10-23",
+      "origen": "content-strategist (plan 2026-10-22, ítem 1)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/making-the-most-of-wedding-rentals.svx",
+        "Keywords: wedding rental ideas, wedding rental tips (gsc pos 9.67 12 impr / gsc pos 25.43 7 impr), sin volumen",
+        "Por qué: Misma intención (ideas y consejos para alquileres de boda). Ningún post tiene una pregunta con esa formulación. Revisados lighting-ideas-for-wedding-rentals, unique-wedding-ceremony-rentals y tips-for-reducing-wedding-rental-costs: cada uno cubre un ángulo concreto, así que una pregunta en el post más general evita crear una página nueva (creating-helpful-content.md).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
