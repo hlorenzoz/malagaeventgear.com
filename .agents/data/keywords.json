@@ -80222,8 +80222,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/making-the-most-of-wedding-rentals/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -80236,6 +80236,10 @@
             "ctr": 0,
             "position": 9.67
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23"
         },
         "content-plan": {
           "firstSeen": "2026-10-22",
@@ -80290,8 +80294,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/making-the-most-of-wedding-rentals/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -80304,6 +80308,10 @@
             "ctr": 0,
             "position": 25.43
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23"
         },
         "content-plan": {
           "firstSeen": "2026-10-22",
@@ -93439,6 +93447,24 @@
         "site-faq": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-10-23"
+        }
+      }
+    },
+    {
+      "id": "what-are-the-best-wedding-rental-ideas-and-tips-for-sound-and-lighting",
+      "question": "What Are the Best Wedding Rental Ideas and Tips for Sound and Lighting?",
+      "keywordId": "making-the-most-of-wedding-rentals",
+      "cluster": "wedding rentals",
+      "url": "/blog/making-the-most-of-wedding-rentals/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23",
+          "urls": [
+            "/blog/making-the-most-of-wedding-rentals/"
+          ]
         }
       }
     },
