@@ -36371,10 +36371,14 @@
       "cluster": "audiovisual equipment rental service",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "planned",
+      "url": "/blog/lectern-rental/",
+      "status": "published",
       "reason": null,
       "sources": {
+        "blog": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23"
+        },
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-10-23"
@@ -83864,6 +83868,24 @@
       }
     },
     {
+      "id": "can-i-rent-a-lectern-on-its-own",
+      "question": "Can I rent a lectern on its own?",
+      "keywordId": "lectern-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/lectern-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23",
+          "urls": [
+            "/blog/lectern-rental/"
+          ]
+        }
+      }
+    },
+    {
       "id": "can-i-rent-a-neumann-or-other-studio-condenser-microphone-for-my-event",
       "question": "Can I rent a Neumann or other studio condenser microphone for my event?",
       "keywordId": "sound-system-rental",
@@ -86366,6 +86388,24 @@
       }
     },
     {
+      "id": "do-you-rent-a-truss-lectern-or-a-podium",
+      "question": "Do you rent a truss lectern or a podium?",
+      "keywordId": "lectern-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/lectern-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23",
+          "urls": [
+            "/blog/lectern-rental/"
+          ]
+        }
+      }
+    },
+    {
       "id": "do-you-rent-a-video-wall-or-led-wall",
       "question": "Do You Rent a Video Wall or LED Wall?",
       "keywordId": "audiovisual-equipment-rental-service",
@@ -87065,6 +87105,24 @@
           "lastSeen": "2026-10-23",
           "urls": [
             "/blog/audio-visual-rental-for-press-conferences/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "does-the-lectern-come-with-a-microphone",
+      "question": "Does the lectern come with a microphone?",
+      "keywordId": "lectern-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/lectern-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23",
+          "urls": [
+            "/blog/lectern-rental/"
           ]
         }
       }
@@ -88880,6 +88938,24 @@
           "lastSeen": "2026-10-16",
           "seeds": [
             "timing-your-wedding-rental-bookings"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-lecterns-do-you-have",
+      "question": "How many lecterns do you have?",
+      "keywordId": "lectern-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/lectern-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23",
+          "urls": [
+            "/blog/lectern-rental/"
           ]
         }
       }
@@ -92232,6 +92308,24 @@
       }
     },
     {
+      "id": "is-a-technician-included-with-the-lectern",
+      "question": "Is a technician included with the lectern?",
+      "keywordId": "lectern-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/lectern-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23",
+          "urls": [
+            "/blog/lectern-rental/"
+          ]
+        }
+      }
+    },
+    {
       "id": "is-a-technician-included-with-wedding-rentals",
       "question": "Is a technician included with wedding rentals?",
       "keywordId": "wedding-rentals",
@@ -93464,6 +93558,24 @@
           "lastSeen": "2026-10-23",
           "urls": [
             "/blog/making-the-most-of-wedding-rentals/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-are-the-dimensions-of-the-lectern",
+      "question": "What are the dimensions of the lectern?",
+      "keywordId": "lectern-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/lectern-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23",
+          "urls": [
+            "/blog/lectern-rental/"
           ]
         }
       }
