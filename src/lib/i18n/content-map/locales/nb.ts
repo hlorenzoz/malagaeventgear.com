@@ -505,6 +505,11 @@ export default {
 			slug: 'leie-talerstol-malaga',
 			keyword: 'leie talerstol i Malaga',
 			status: 'propuesta'
+		},
+		'wireless-handheld-microphone-rental': {
+			slug: 'leie-tradlos-handmikrofon-malaga',
+			keyword: 'leie trådløs håndmikrofon i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -453,6 +453,11 @@ export default {
 			slug: '演講台租賃',
 			keyword: '馬拉加 演講台租賃',
 			status: 'propuesta'
+		},
+		'wireless-handheld-microphone-rental': {
+			slug: '無線手持麥克風租賃',
+			keyword: '馬拉加 無線手持麥克風租賃',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

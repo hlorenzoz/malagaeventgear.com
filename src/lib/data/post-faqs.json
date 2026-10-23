@@ -2504,5 +2504,31 @@
       "question": "What if I want a fully sustainable wedding, not just eco friendly AV?",
       "answer": "Pair the Wedding Pack with vendors in the other trades, venue, catering, decor and favors, since AV rental alone cannot cover those. Our wedding rental essentials guide breaks down where AV fits among the rest."
     }
+  ],
+  "wireless-handheld-microphone-rental": [
+    {
+      "question": "Can I rent a wireless handheld microphone on its own?",
+      "answer": "We quote it as a separate item. We publish no price for a handheld on its own, so we will not guess a figure. Tell us the event, the date and the venue, and we quote the microphone together with the sound it needs. We work delivery only, with no self pickup."
+    },
+    {
+      "question": "How many wireless handheld microphones can I rent?",
+      "answer": "Six wireless handhelds are in our own inventory: three Audix OM5, one OM2 and two RAD-360 sets. If your event needs more than six, they are not in our own inventory, so tell us how many and we look for a solution with our suppliers, if there is one. We do not publish how many can run at once in the same room, and we do not promise availability or a price until we have checked."
+    },
+    {
+      "question": "What does a microphone rental include?",
+      "answer": "With us, our crew delivers, installs and tests the microphone with the sound system before your event. A microphone has to connect to a sound system, so we quote it together with the sound it needs. What else comes with it depends on the package: the MICE Pack and the Wedding Pack include a technician on site, the Product Presentation Pack does not. We work delivery only, so nobody collects the equipment from us."
+    },
+    {
+      "question": "Which packages include a wireless handheld microphone?",
+      "answer": "The Product Presentation Pack and the MICE Pack each include one premium wireless handheld microphone. The Wedding Pack lists professional wireless microphones for speeches and announcements, without a count. The Eco Pack includes a wired dynamic microphone and the Basic MICE Pack a gooseneck microphone, so neither includes a wireless handheld."
+    },
+    {
+      "question": "Do you rent Shure or Sennheiser microphones?",
+      "answer": "Our wireless handhelds are Audix models. A Shure or Sennheiser wireless handheld is not in our own inventory. Tell us what you need and we look for a solution with our suppliers, if there is one. We do not promise availability or a price until we have checked. Our guide to audio visual rental for corporate meetings explains what a meeting usually needs around the microphone."
+    },
+    {
+      "question": "Is a technician included with the microphone?",
+      "answer": "It depends on the package. The MICE Pack includes a technician on site for up to 6 hours, who operates the sound and the microphones. The Wedding Pack includes one too. The Product Presentation Pack does not. The technician runs the sound, not the slides, so the speaker controls what is shown on the screen."
+    }
   ]
 }

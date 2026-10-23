@@ -513,6 +513,11 @@ export default {
 			slug: 'location-pupitre-malaga',
 			keyword: 'location de pupitre à Malaga',
 			status: 'propuesta'
+		},
+		'wireless-handheld-microphone-rental': {
+			slug: 'location-micro-main-sans-fil-malaga',
+			keyword: 'location de micro main sans fil à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

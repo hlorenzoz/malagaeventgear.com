@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-23",
+  "taskId": "#T0148",
+  "slug": "wireless-handheld-microphone-rental",
+  "searchTerm": "wireless handheld microphone rental conference wedding panel Q&A",
+  "status": "partial",
+  "reason": "Position 3 was a second URL of the Ampco page, skipped. Position 4 read instead. All 3 pages are vendors in Canada and the US, none in Spain. Search not localized to Spain.",
+  "serp": {
+    "query": "wireless handheld microphone rental for events",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://store.calgarycommunities.com/?p=99", "title": "Handheld Wireless System - Microphone - Rental Equipment" },
+      { "rank": 2, "url": "https://www.ampco-flashlight.com/en/rental/audio/wireless-systems/", "title": "Wireless systems" },
+      { "rank": 3, "url": "https://rentacomputer.com/rentals/audio-visual/microphones", "title": "rentacomputer.com" }
+    ]
+  },
+  "terms": [
+    { "term": "wireless handheld microphones", "kind": "entity", "seenIn": 3 },
+    { "term": "wireless systems", "kind": "related", "seenIn": 3 },
+    { "term": "Shure", "kind": "entity", "seenIn": 2 },
+    { "term": "headset microphones", "kind": "entity", "seenIn": 2 },
+    { "term": "bodypack transmitters", "kind": "entity", "seenIn": 2 },
+    { "term": "sound system", "kind": "related", "seenIn": 2 },
+    { "term": "What does a microphone rental include?", "kind": "question", "seenIn": 2 },
+    { "term": "Sennheiser SKM", "kind": "entity", "seenIn": 1 },
+    { "term": "Shure PGX-D", "kind": "entity", "seenIn": 1 },
+    { "term": "lavalier microphones", "kind": "entity", "seenIn": 1 },
+    { "term": "podium microphones", "kind": "entity", "seenIn": 1 },
+    { "term": "gooseneck microphones", "kind": "entity", "seenIn": 1 },
+    { "term": "UHF wireless systems", "kind": "related", "seenIn": 1 },
+    { "term": "handheld transmitters", "kind": "related", "seenIn": 1 },
+    { "term": "channel count and wireless coordination", "kind": "related", "seenIn": 1 },
+    { "term": "gain staging and feedback control", "kind": "related", "seenIn": 1 },
+    { "term": "batteries and sound checks", "kind": "related", "seenIn": 1 },
+    { "term": "windscreens", "kind": "related", "seenIn": 1 },
+    { "term": "panels and audience Q&A", "kind": "entity", "seenIn": 1 },
+    { "term": "corporate events", "kind": "entity", "seenIn": 1 },
+    { "term": "hybrid events", "kind": "entity", "seenIn": 1 },
+    { "term": "How many wireless microphones can run at once?", "kind": "question", "seenIn": 1 },
+    { "term": "How should wireless channels be planned?", "kind": "question", "seenIn": 1 },
+    { "term": "Which microphone fits a roaming presenter?", "kind": "question", "seenIn": 1 },
+    { "term": "How can feedback and audio clarity be improved?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Rentacomputer", "reason": "competitor name" },
+    { "term": "Ampco Flashlight", "reason": "competitor name" },
+    { "term": "Calgary", "reason": "place other than Spain" },
+    { "term": "Rental fee per unit", "reason": "price wording" },
+    { "term": "Premium brands", "reason": "marketing slogan" },
+    { "term": "Account manager", "reason": "vendor sales wording, not topic vocabulary" },
+    { "term": "Yard games", "reason": "unrelated to the topic" },
+    { "term": "Event tent", "reason": "unrelated to the topic" }
+  ]
+}

@@ -509,6 +509,11 @@ export default {
 			slug: 'noleggio-leggio-malaga',
 			keyword: 'noleggio leggio a Malaga',
 			status: 'propuesta'
+		},
+		'wireless-handheld-microphone-rental': {
+			slug: 'noleggio-microfono-palmare-wireless-malaga',
+			keyword: 'noleggio microfono palmare wireless a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

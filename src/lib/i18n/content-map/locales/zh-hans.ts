@@ -457,6 +457,11 @@ export default {
 			slug: '演讲台租赁',
 			keyword: '马拉加 演讲台租赁',
 			status: 'propuesta'
+		},
+		'wireless-handheld-microphone-rental': {
+			slug: '无线手持麦克风租赁',
+			keyword: '马拉加 无线手持麦克风租赁',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

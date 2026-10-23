@@ -489,6 +489,11 @@ export default {
 			slug: 'hyra-talarstol-malaga',
 			keyword: 'hyra talarstol i Malaga',
 			status: 'propuesta'
+		},
+		'wireless-handheld-microphone-rental': {
+			slug: 'hyra-tradlos-handmikrofon-malaga',
+			keyword: 'hyra trådlös handmikrofon i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

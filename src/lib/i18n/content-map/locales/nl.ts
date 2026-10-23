@@ -493,6 +493,11 @@ export default {
 			slug: 'spreekgestoelte-huren-malaga',
 			keyword: 'spreekgestoelte huren in Malaga',
 			status: 'propuesta'
+		},
+		'wireless-handheld-microphone-rental': {
+			slug: 'draadloze-handmicrofoon-huren-malaga',
+			keyword: 'draadloze handmicrofoon huren in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

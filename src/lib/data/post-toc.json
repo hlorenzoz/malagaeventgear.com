@@ -7213,5 +7213,102 @@
       "text": "What if I want a fully sustainable wedding, not just eco friendly AV?",
       "level": 3
     }
+  ],
+  "wireless-handheld-microphone-rental": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "our-six-wireless-handheld-microphones",
+      "text": "Our Six Wireless Handheld Microphones",
+      "level": 2
+    },
+    {
+      "id": "which-package-includes-a-wireless-handheld-microphone",
+      "text": "Which Package Includes a Wireless Handheld Microphone",
+      "level": 2
+    },
+    {
+      "id": "handheld-lectern-or-hands-free-which-microphone-fits",
+      "text": "Handheld, Lectern or Hands Free: Which Microphone Fits?",
+      "level": 2
+    },
+    {
+      "id": "how-many-handheld-microphones-an-event-needs",
+      "text": "How Many Handheld Microphones an Event Needs",
+      "level": 2
+    },
+    {
+      "id": "who-sets-the-levels-and-is-a-technician-included",
+      "text": "Who Sets the Levels, and Is a Technician Included?",
+      "level": 2
+    },
+    {
+      "id": "how-much-does-a-wireless-handheld-microphone-rental-cost",
+      "text": "How Much Does a Wireless Handheld Microphone Rental Cost?",
+      "level": 2
+    },
+    {
+      "id": "how-to-choose-a-wireless-handheld-microphone-rental",
+      "text": "How to Choose a Wireless Handheld Microphone Rental",
+      "level": 2
+    },
+    {
+      "id": "real-setups-weve-delivered",
+      "text": "Real Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "where-we-deliver-and-how-to-book",
+      "text": "Where We Deliver and How to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "can-i-rent-a-wireless-handheld-microphone-on-its-own",
+      "text": "Can I rent a wireless handheld microphone on its own?",
+      "level": 3
+    },
+    {
+      "id": "how-many-wireless-handheld-microphones-can-i-rent",
+      "text": "How many wireless handheld microphones can I rent?",
+      "level": 3
+    },
+    {
+      "id": "what-does-a-microphone-rental-include",
+      "text": "What does a microphone rental include?",
+      "level": 3
+    },
+    {
+      "id": "which-packages-include-a-wireless-handheld-microphone",
+      "text": "Which packages include a wireless handheld microphone?",
+      "level": 3
+    },
+    {
+      "id": "do-you-rent-shure-or-sennheiser-microphones",
+      "text": "Do you rent Shure or Sennheiser microphones?",
+      "level": 3
+    },
+    {
+      "id": "is-a-technician-included-with-the-microphone",
+      "text": "Is a technician included with the microphone?",
+      "level": 3
+    }
   ]
 }

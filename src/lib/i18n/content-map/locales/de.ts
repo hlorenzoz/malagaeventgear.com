@@ -489,6 +489,11 @@ export default {
 			slug: 'rednerpult-mieten-malaga',
 			keyword: 'Rednerpult mieten in Malaga',
 			status: 'propuesta'
+		},
+		'wireless-handheld-microphone-rental': {
+			slug: 'kabelloses-handmikrofon-mieten-malaga',
+			keyword: 'kabelloses Handmikrofon mieten in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

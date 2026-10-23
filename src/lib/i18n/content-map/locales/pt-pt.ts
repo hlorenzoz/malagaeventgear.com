@@ -520,6 +520,11 @@ export default {
 			slug: 'aluguer-de-pulpito-malaga',
 			keyword: 'aluguer de púlpito em Málaga',
 			status: 'propuesta'
+		},
+		'wireless-handheld-microphone-rental': {
+			slug: 'aluguer-microfone-de-mao-sem-fios-malaga',
+			keyword: 'aluguer de microfone de mão sem fios em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
