@@ -1468,6 +1468,26 @@
       ]
     },
     {
+      "id": "#T0147",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "Post nuevo /blog/lectern-rental/: alquiler de atriles (lote 1 de #T0085)",
+      "anotada": "2026-10-23",
+      "hecha": "2026-10-23",
+      "origen": "usuario",
+      "notas": [
+        "usuario 2026-10-23: 'hazlo' tomado como aprobacion del lote 1 de #T0085 (solo posts de equipo; el post 4 espera #T0030)"
+      ],
+      "descripcion": [
+        "Hija de #T0086 (lote 1 del plan .agents/context/keywords/corporate-cluster-plan-2026-10-13.md, post 1 de 5).",
+        "Post nuevo supporting de /blog/audiovisual-equipment-rental-service/, keyword \"lectern rental\", slug lectern-rental.",
+        "Respaldo: 2 atriles de metacrilato en el CSV 2026.09.26 (lineas 121 y 122), extra lectern de PRICE_POINTS en packages.ts (MICE Pack), foto real blog/1264, caso News de Bmotion en Benahavis.",
+        "Cadena del silo: headset-lavalier <-> conference-table <-> lectern-rental. El enlace unico del pilar pasa de conference-table al post nuevo.",
+        "Pipeline: serp-term-researcher, ingles, 12 traducciones, verificador, post-translate-finish (un solo commit), keywords-sync."
+      ]
+    },
+    {
       "id": "#T0144",
       "estado": "hecha",
       "prioridad": "media",
