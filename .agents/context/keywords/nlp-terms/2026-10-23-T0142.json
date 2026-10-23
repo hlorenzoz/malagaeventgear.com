@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-23",
+  "taskId": "#T0142",
+  "slug": "tv-screen-rental",
+  "searchTerm": "TV screen rental Do you rent a 65 inch TV or a bigger screen for a large event?",
+  "status": "partial",
+  "reason": "Read 3 pages, but results 1 and 2 are the same article on daniellay.co.uk (a blog URL and an archive URL), so effectively 2 distinct sources. Localization to Spain not confirmed.",
+  "serp": {
+    "query": "Do you rent a 65 inch TV or a bigger screen for a large event?",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://daniellay.co.uk/blog/how-renting-a-65-inch-tv-can-elevate-your-event/", "title": "how renting a 65 inch tv can elevate your event" },
+      { "rank": 2, "url": "https://daniellay.co.uk/?p=29304", "title": "Date: 18th December 2024" },
+      { "rank": 3, "url": "https://europe.4wall.com/rentals/9759456/65-high-definition-screen-monitor", "title": "Rentals » Inventory » Video Systems » Screens & Monitors » 40\" or More »" }
+    ]
+  },
+  "terms": [
+    { "term": "65 inch TV screen", "kind": "entity", "seenIn": 3 },
+    { "term": "floor stand", "kind": "entity", "seenIn": 3 },
+    { "term": "truss mounting", "kind": "related", "seenIn": 3 },
+    { "term": "HDMI cable", "kind": "entity", "seenIn": 3 },
+    { "term": "delivery setup and takedown", "kind": "related", "seenIn": 3 },
+    { "term": "technical support team", "kind": "related", "seenIn": 3 },
+    { "term": "conferences", "kind": "entity", "seenIn": 3 },
+    { "term": "trade shows and exhibitions", "kind": "entity", "seenIn": 3 },
+    { "term": "keynote speeches", "kind": "entity", "seenIn": 3 },
+    { "term": "promotional clips", "kind": "related", "seenIn": 3 },
+    { "term": "4K UHD display", "kind": "entity", "seenIn": 2 },
+    { "term": "smart TV features", "kind": "related", "seenIn": 2 },
+    { "term": "streaming apps", "kind": "related", "seenIn": 2 },
+    { "term": "stage design integration", "kind": "related", "seenIn": 2 },
+    { "term": "weddings", "kind": "entity", "seenIn": 2 },
+    { "term": "sports viewing parties", "kind": "entity", "seenIn": 2 },
+    { "term": "live broadcasts", "kind": "related", "seenIn": 2 },
+    { "term": "wall mounts", "kind": "entity", "seenIn": 1 },
+    { "term": "DisplayPort", "kind": "related", "seenIn": 1 },
+    { "term": "confidence monitor", "kind": "entity", "seenIn": 1 },
+    { "term": "audience screen", "kind": "entity", "seenIn": 1 },
+    { "term": "AV switchers", "kind": "entity", "seenIn": 1 },
+    { "term": "Why hire a 65 inch TV?", "kind": "question", "seenIn": 2 },
+    { "term": "How easy is the screen to set up?", "kind": "question", "seenIn": 2 },
+    { "term": "What comes with the rental?", "kind": "question", "seenIn": 3 }
+  ],
+  "discarded": [
+    { "term": "Daniel Lay", "reason": "competitor name" },
+    { "term": "4Wall", "reason": "competitor name" },
+    { "term": "UK hire prices in pounds", "reason": "prices and currency, other market" },
+    { "term": "London", "reason": "place other than Spain" },
+    { "term": "funerals", "reason": "not relevant event type for MEG" },
+    { "term": "hassle-free service", "reason": "marketing slogan" }
+  ]
+}

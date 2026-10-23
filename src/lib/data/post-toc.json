@@ -6143,6 +6143,11 @@
       "id": "can-i-rent-a-tv-screen-for-just-one-day",
       "text": "Can I rent a TV screen for just one day?",
       "level": 3
+    },
+    {
+      "id": "do-you-rent-a-65-inch-tv-or-a-bigger-screen-for-a-large-event",
+      "text": "Do you rent a 65 inch TV or a bigger screen for a large event?",
+      "level": 3
     }
   ],
   "audio-visual-rental-for-religious-events": [
