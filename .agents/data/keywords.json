@@ -82123,10 +82123,14 @@
       "cluster": "audiovisual equipment rental service",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "planned",
+      "url": "/blog/wireless-handheld-microphone-rental/",
+      "status": "published",
       "reason": null,
       "sources": {
+        "blog": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23"
+        },
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-10-23"
@@ -83971,6 +83975,24 @@
           "lastSeen": "2026-10-23",
           "urls": [
             "/blog/tv-screen-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-i-rent-a-wireless-handheld-microphone-on-its-own",
+      "question": "Can I rent a wireless handheld microphone on its own?",
+      "keywordId": "wireless-handheld-microphone-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/wireless-handheld-microphone-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23",
+          "urls": [
+            "/blog/wireless-handheld-microphone-rental/"
           ]
         }
       }
@@ -86545,6 +86567,24 @@
           "lastSeen": "2026-10-23",
           "urls": [
             "/blog/projector-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "do-you-rent-shure-or-sennheiser-microphones",
+      "question": "Do you rent Shure or Sennheiser microphones?",
+      "keywordId": "wireless-handheld-microphone-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/wireless-handheld-microphone-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23",
+          "urls": [
+            "/blog/wireless-handheld-microphone-rental/"
           ]
         }
       }
@@ -89554,6 +89594,24 @@
       }
     },
     {
+      "id": "how-many-wireless-handheld-microphones-can-i-rent",
+      "question": "How many wireless handheld microphones can I rent?",
+      "keywordId": "wireless-handheld-microphone-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/wireless-handheld-microphone-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23",
+          "urls": [
+            "/blog/wireless-handheld-microphone-rental/"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-many-wireless-lavalier-microphones-do-you-have-available",
       "question": "How many wireless lavalier microphones do you have available?",
       "keywordId": "headset-lavalier-microphone-rental",
@@ -92326,6 +92384,24 @@
       }
     },
     {
+      "id": "is-a-technician-included-with-the-microphone",
+      "question": "Is a technician included with the microphone?",
+      "keywordId": "wireless-handheld-microphone-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/wireless-handheld-microphone-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23",
+          "urls": [
+            "/blog/wireless-handheld-microphone-rental/"
+          ]
+        }
+      }
+    },
+    {
       "id": "is-a-technician-included-with-wedding-rentals",
       "question": "Is a technician included with wedding rentals?",
       "keywordId": "wedding-rentals",
@@ -94279,6 +94355,24 @@
             "how-to-choose-wedding-rentals",
             "indoor-wedding-rental-essentials",
             "making-the-most-of-wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-does-a-microphone-rental-include",
+      "question": "What does a microphone rental include?",
+      "keywordId": "wireless-handheld-microphone-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/wireless-handheld-microphone-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23",
+          "urls": [
+            "/blog/wireless-handheld-microphone-rental/"
           ]
         }
       }
@@ -97199,6 +97293,24 @@
           "lastSeen": "2026-10-23",
           "urls": [
             "/blog/av-equipment-consultations/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "which-packages-include-a-wireless-handheld-microphone",
+      "question": "Which packages include a wireless handheld microphone?",
+      "keywordId": "wireless-handheld-microphone-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/wireless-handheld-microphone-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-23",
+          "lastSeen": "2026-10-23",
+          "urls": [
+            "/blog/wireless-handheld-microphone-rental/"
           ]
         }
       }
