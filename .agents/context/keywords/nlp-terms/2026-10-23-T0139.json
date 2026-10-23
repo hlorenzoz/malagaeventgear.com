@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-23",
+  "taskId": "#T0139",
+  "slug": "audio-visual-rental-for-weddings",
+  "searchTerm": "audio visual rental for weddings Can I rent a screen for my wedding?",
+  "status": "partial",
+  "reason": "Google positions 2 and 4 (completewedo.com, two pages) returned HTTP 403 and were replaced by the next organic result, centric.events (position 8). Positions 6 and 7 (forums) skipped as forums. SERP is US-centric wedding vendors.",
+  "serp": {
+    "query": "can I rent a screen for my wedding",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://weddingwire.com/biz/galaxy-illumination/6bcd7bfd29651ee8.html", "title": "weddingwire.com" },
+      { "rank": 2, "url": "https://www.peerspace.com/resources/rent-projector-and-screen", "title": "Where to Rent a Projector and Screen" },
+      { "rank": 3, "url": "https://centric.events/rentals/av-rentals/projector-screen/", "title": "skip to content link" }
+    ]
+  },
+  "terms": [
+    { "term": "projector and screen rental", "kind": "entity", "seenIn": 3 },
+    { "term": "inflatable screen", "kind": "entity", "seenIn": 2 },
+    { "term": "wedding reception", "kind": "entity", "seenIn": 2 },
+    { "term": "setup and takedown", "kind": "related", "seenIn": 2 },
+    { "term": "slideshow", "kind": "related", "seenIn": 2 },
+    { "term": "audio equipment", "kind": "entity", "seenIn": 2 },
+    { "term": "dance floor", "kind": "entity", "seenIn": 2 },
+    { "term": "drape kits", "kind": "entity", "seenIn": 2 },
+    { "term": "Why rent projectors and screens?", "kind": "question", "seenIn": 2 },
+    { "term": "portable screen", "kind": "entity", "seenIn": 1 },
+    { "term": "screen tripod", "kind": "entity", "seenIn": 1 },
+    { "term": "high-lumen projectors", "kind": "entity", "seenIn": 1 },
+    { "term": "front and rear projection screens", "kind": "entity", "seenIn": 1 },
+    { "term": "screen sizes", "kind": "related", "seenIn": 1 },
+    { "term": "screen resolution and color", "kind": "related", "seenIn": 1 },
+    { "term": "oval projector screen", "kind": "entity", "seenIn": 1 },
+    { "term": "microphone and speakers", "kind": "entity", "seenIn": 1 },
+    { "term": "A/V rental shop", "kind": "related", "seenIn": 1 },
+    { "term": "rental deposit", "kind": "related", "seenIn": 1 },
+    { "term": "delivery and setup", "kind": "related", "seenIn": 1 },
+    { "term": "movie nights", "kind": "entity", "seenIn": 1 },
+    { "term": "rehearsal dinner", "kind": "entity", "seenIn": 1 },
+    { "term": "outdoor ambient setups", "kind": "related", "seenIn": 1 },
+    { "term": "dark indoor environments", "kind": "related", "seenIn": 1 },
+    { "term": "How does renting a projector and screen work?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Galaxy Illumination", "reason": "competitor name" },
+    { "term": "Centric", "reason": "competitor name" },
+    { "term": "Peerspace", "reason": "competitor or marketplace name" },
+    { "term": "Starting price", "reason": "prices" },
+    { "term": "Request pricing", "reason": "marketing wording" },
+    { "term": "Concierge rental service", "reason": "marketing slogan" },
+    { "term": "Trusted vendors", "reason": "marketing slogan" },
+    { "term": "Chocolate fountain", "reason": "off-topic decor and catering" },
+    { "term": "Laptops and mobile devices", "reason": "not about screen hire itself" }
+  ]
+}

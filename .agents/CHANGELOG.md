@@ -7,6 +7,11 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): audio-visual-rental-for-weddings, FAQ "Can I rent a screen for my wedding?" (#T0139) (2026-10-23)
+- Origen: plan de contenido 2026-10-23, item "rent led screen for wedding; screen on rent for wedding" (google-ads 0/mes). Ningun encabezado ni FAQ del post hablaba de pantallas.
+- FAQ nueva al final de `## FAQs`: pantalla no incluida en el Wedding Pack, proyectores y pantallas de proyeccion del inventario, panel de 60 pulgadas, video wall LED via proveedores si lo hay. Un enlace a `/blog/tv-screen-rental/`. El post no tiene indice inline.
+- `updatedDate` movido a 2026-10-23 con `just post-sync`. Las 12 traducciones siguen en el mismo cambio.
+
 ### Changed (blog): essential-items-for-wedding-rentals, FAQ "Can you supply an LED screen for a wedding?" (#T0137) (2026-10-22)
 - Origen: plan de contenido 2026-10-22, item "wedding led screen rental" (google-ads 10/mes). Ningun encabezado ni FAQ del post trataba una pantalla LED.
 - FAQ nueva al final de `## FAQs`. El post no tiene indice inline, asi que no hay viñeta que añadir. Sin enlaces nuevos (reverse silo: el post de apoyo no enlaza a tv-screen-rental).
