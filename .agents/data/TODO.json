@@ -1488,6 +1488,27 @@
       ]
     },
     {
+      "id": "#T0148",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "Post nuevo /blog/wireless-handheld-microphone-rental/: microfonos inalambricos de mano (lote 1 de #T0085)",
+      "anotada": "2026-10-23",
+      "hecha": "2026-10-23",
+      "origen": "usuario",
+      "notas": [
+        "usuario 2026-10-23: 'Haz esto hoy' tomado como pedido de hacer hoy el post 2 del lote 1",
+        "excepcion al tope diario (1) ya usado por lectern-rental"
+      ],
+      "descripcion": [
+        "Hija de #T0086 (lote 1 de #T0085, post 2 de 5 del plan .agents/context/keywords/corporate-cluster-plan-2026-10-13.md).",
+        "Post nuevo supporting de /blog/audiovisual-equipment-rental-service/, keyword \"wireless handheld microphone rental\", slug wireless-handheld-microphone-rental.",
+        "Respaldo: CSV 2026.09.26, 3 Audix OM5 y 1 OM2 (Fusion Series) inalambricos de mano, y 2 sets Audix RAD-360 de mano (receptor, capsula OM3, 2 antenas). packages.ts: Wedding Pack (microfonos inalambricos), Product Presentation Pack (1 de mano), MICE Pack (1 gooseneck + 1 de mano). Foto de portada blog/3084 (PROGOLD SUMMIT 2026, caso News).",
+        "Cadena del silo: headset-lavalier <-> conference-table <-> lectern-rental <-> wireless-handheld. El enlace unico del pilar pasa de lectern-rental al post nuevo.",
+        "Excepcion al tope diario de posts nuevos (1 hoy, ya usado por lectern-rental): el usuario pidio hacerlo hoy el 2026-10-23."
+      ]
+    },
+    {
       "id": "#T0144",
       "estado": "hecha",
       "prioridad": "media",
