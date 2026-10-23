@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-23",
+  "taskId": "#T0147",
+  "slug": "lectern-rental",
+  "searchTerm": "lectern rental renting a lectern or podium for a conference, speech or event",
+  "status": "partial",
+  "reason": "Skipped Google positions 2 (French copy of 1), 4 (404 page) and 5 (same site as 3). Thin SERP: vendors from France and the UK, no Spanish vendor in the top results.",
+  "serp": {
+    "query": "lectern rental for conference",
+    "localized": false,
+    "results": [
+      {
+        "rank": 1,
+        "url": "https://store.gl-events.com/en/event-solutions/furniture/accessories/stage-accessories/speakers-lectern/p/PCW832",
+        "title": "store.gl-events.com"
+      },
+      {
+        "rank": 2,
+        "url": "https://daniellay.co.uk/lectern-hire/",
+        "title": "lectern hire"
+      },
+      {
+        "rank": 3,
+        "url": "https://stlsevents.co.uk/hire/stage-hire/truss-lectern-hire/",
+        "title": "truss lectern hire"
+      }
+    ]
+  },
+  "terms": [
+    { "term": "conferences and meetings", "kind": "related", "seenIn": 3 },
+    { "term": "lectern dimensions", "kind": "related", "seenIn": 3 },
+    { "term": "What are the dimensions of a lectern?", "kind": "question", "seenIn": 3 },
+    { "term": "lectern hire", "kind": "related", "seenIn": 2 },
+    { "term": "podium hire", "kind": "related", "seenIn": 2 },
+    { "term": "truss lectern", "kind": "entity", "seenIn": 2 },
+    { "term": "microphone hire", "kind": "related", "seenIn": 2 },
+    { "term": "sound system hire", "kind": "related", "seenIn": 2 },
+    { "term": "audiovisual equipment", "kind": "entity", "seenIn": 2 },
+    { "term": "request a quote", "kind": "related", "seenIn": 2 },
+    { "term": "How much does lectern hire cost?", "kind": "question", "seenIn": 2 },
+    { "term": "Which lecterns can I hire?", "kind": "question", "seenIn": 2 },
+    { "term": "How do I request a quote?", "kind": "question", "seenIn": 2 },
+    { "term": "Unicol lectern", "kind": "entity", "seenIn": 1 },
+    { "term": "Opti Trilite 100 lectern", "kind": "entity", "seenIn": 1 },
+    { "term": "acrylic lectern", "kind": "entity", "seenIn": 1 },
+    { "term": "inclined tray", "kind": "related", "seenIn": 1 },
+    { "term": "document shelf strip", "kind": "related", "seenIn": 1 },
+    { "term": "awards ceremonies", "kind": "entity", "seenIn": 1 },
+    { "term": "trade shows", "kind": "entity", "seenIn": 1 },
+    { "term": "TV screen hire", "kind": "entity", "seenIn": 1 },
+    { "term": "music stand hire", "kind": "entity", "seenIn": 1 },
+    { "term": "set up and dismantling", "kind": "related", "seenIn": 1 },
+    { "term": "convention center", "kind": "entity", "seenIn": 1 },
+    { "term": "What other equipment can complement a lectern?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "GL events", "reason": "competitor name" },
+    { "term": "Daniel Lay Event Services", "reason": "competitor name" },
+    { "term": "STLS Events", "reason": "competitor name" },
+    { "term": "lectern hire London", "reason": "place other than Spain" },
+    { "term": "lectern hire Surrey", "reason": "place other than Spain" },
+    { "term": "hire price plus VAT", "reason": "price wording" },
+    { "term": "wishlist and account lists", "reason": "shop interface, not topic vocabulary" }
+  ]
+}

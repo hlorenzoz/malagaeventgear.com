@@ -508,6 +508,11 @@ export default {
 			slug: 'location-micros-de-table-reunion',
 			keyword: 'location de micros de table pour réunion à Malaga',
 			status: 'propuesta'
+		},
+		'lectern-rental': {
+			slug: 'location-pupitre-malaga',
+			keyword: 'location de pupitre à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

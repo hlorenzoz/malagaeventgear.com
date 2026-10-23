@@ -484,6 +484,11 @@ export default {
 			slug: 'hyra-bordsmikrofon-malaga',
 			keyword: 'hyra bordsmikrofon i Malaga',
 			status: 'propuesta'
+		},
+		'lectern-rental': {
+			slug: 'hyra-talarstol-malaga',
+			keyword: 'hyra talarstol i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

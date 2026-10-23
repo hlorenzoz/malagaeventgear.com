@@ -500,6 +500,11 @@ export default {
 			slug: 'leie-bordmikrofon-malaga',
 			keyword: 'leie bordmikrofon i Malaga',
 			status: 'propuesta'
+		},
+		'lectern-rental': {
+			slug: 'leie-talerstol-malaga',
+			keyword: 'leie talerstol i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

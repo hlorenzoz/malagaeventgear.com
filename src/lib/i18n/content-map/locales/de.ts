@@ -484,6 +484,11 @@ export default {
 			slug: 'tischmikrofon-mieten-malaga',
 			keyword: 'Tischmikrofon mieten in Malaga',
 			status: 'propuesta'
+		},
+		'lectern-rental': {
+			slug: 'rednerpult-mieten-malaga',
+			keyword: 'Rednerpult mieten in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

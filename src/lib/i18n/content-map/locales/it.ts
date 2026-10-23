@@ -504,6 +504,11 @@ export default {
 			slug: 'noleggio-microfoni-da-tavolo-riunioni',
 			keyword: 'noleggio microfoni da tavolo per riunioni a Malaga',
 			status: 'propuesta'
+		},
+		'lectern-rental': {
+			slug: 'noleggio-leggio-malaga',
+			keyword: 'noleggio leggio a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

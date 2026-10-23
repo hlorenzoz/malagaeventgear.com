@@ -448,6 +448,11 @@ export default {
 			slug: '會議桌上型麥克風租賃',
 			keyword: '馬拉加 會議桌上型麥克風租賃',
 			status: 'propuesta'
+		},
+		'lectern-rental': {
+			slug: '演講台租賃',
+			keyword: '馬拉加 演講台租賃',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

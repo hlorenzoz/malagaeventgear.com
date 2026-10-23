@@ -3114,6 +3114,103 @@
       "level": 3
     }
   ],
+  "lectern-rental": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "our-two-methacrylate-lecterns",
+      "text": "Our Two Methacrylate Lecterns",
+      "level": 2
+    },
+    {
+      "id": "which-package-lets-you-add-a-lectern",
+      "text": "Which Package Lets You Add a Lectern",
+      "level": 2
+    },
+    {
+      "id": "lectern-and-microphone-what-goes-on-top",
+      "text": "Lectern and Microphone: What Goes on Top",
+      "level": 2
+    },
+    {
+      "id": "lectern-size-height-and-placement",
+      "text": "Lectern Size, Height and Placement",
+      "level": 2
+    },
+    {
+      "id": "who-sets-the-sound-and-is-a-technician-included",
+      "text": "Who Sets the Sound, and Is a Technician Included?",
+      "level": 2
+    },
+    {
+      "id": "how-much-does-a-lectern-rental-cost",
+      "text": "How Much Does a Lectern Rental Cost?",
+      "level": 2
+    },
+    {
+      "id": "how-to-choose-a-lectern-rental",
+      "text": "How to Choose a Lectern Rental",
+      "level": 2
+    },
+    {
+      "id": "real-setups-weve-delivered",
+      "text": "Real Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "where-we-deliver-and-how-to-book",
+      "text": "Where We Deliver and How to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "can-i-rent-a-lectern-on-its-own",
+      "text": "Can I rent a lectern on its own?",
+      "level": 3
+    },
+    {
+      "id": "how-many-lecterns-do-you-have",
+      "text": "How many lecterns do you have?",
+      "level": 3
+    },
+    {
+      "id": "does-the-lectern-come-with-a-microphone",
+      "text": "Does the lectern come with a microphone?",
+      "level": 3
+    },
+    {
+      "id": "what-are-the-dimensions-of-the-lectern",
+      "text": "What are the dimensions of the lectern?",
+      "level": 3
+    },
+    {
+      "id": "do-you-rent-a-truss-lectern-or-a-podium",
+      "text": "Do you rent a truss lectern or a podium?",
+      "level": 3
+    },
+    {
+      "id": "is-a-technician-included-with-the-lectern",
+      "text": "Is a technician included with the lectern?",
+      "level": 3
+    }
+  ],
   "what-renting-av-gear-in-malaga-taught-me-about-smart-business": [
     {
       "id": "the-real-product-isnt-equipment-its-peace-of-mind",

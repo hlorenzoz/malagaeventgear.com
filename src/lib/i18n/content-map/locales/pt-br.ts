@@ -515,6 +515,11 @@ export default {
 			slug: 'aluguel-microfone-de-mesa-reunioes',
 			keyword: 'aluguel de microfone de mesa para reuniões em Málaga',
 			status: 'propuesta'
+		},
+		'lectern-rental': {
+			slug: 'aluguel-de-pulpito-malaga',
+			keyword: 'aluguel de púlpito em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

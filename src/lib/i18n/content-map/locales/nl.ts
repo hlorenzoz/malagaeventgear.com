@@ -488,6 +488,11 @@ export default {
 			slug: 'tafelmicrofoon-huren-malaga',
 			keyword: 'tafelmicrofoon huren in Malaga',
 			status: 'propuesta'
+		},
+		'lectern-rental': {
+			slug: 'spreekgestoelte-huren-malaga',
+			keyword: 'spreekgestoelte huren in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

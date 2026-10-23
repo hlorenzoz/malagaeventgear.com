@@ -452,6 +452,11 @@ export default {
 			slug: '会议桌面麦克风租赁',
 			keyword: '马拉加 会议桌面麦克风租赁',
 			status: 'propuesta'
+		},
+		'lectern-rental': {
+			slug: '演讲台租赁',
+			keyword: '马拉加 演讲台租赁',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

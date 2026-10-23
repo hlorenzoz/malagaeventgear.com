@@ -452,6 +452,11 @@ export default {
 			slug: '會議桌面咪高峰租借',
 			keyword: '馬拉加 會議桌面咪高峰租借',
 			status: 'propuesta'
+		},
+		'lectern-rental': {
+			slug: '演講台租借',
+			keyword: '馬拉加 演講台租借',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

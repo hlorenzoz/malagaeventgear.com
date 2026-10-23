@@ -1027,6 +1027,32 @@
       "answer": "Yes, with one limit: our fixtures give color wash and accent lighting for a party, not an automated club show. The simplest route is the Eco Pack, which bundles 2 RGBW LED light bars with sound at 290 euros ex VAT for up to 50 guests, set up by our crew and then run without a technician. For more color around the dance floor or the walls, the ADJ Element H6 Pack adds 6 wireless uplights, quoted separately. The Eurolite bars run on a foot pedal, not DMX, so there is no programmed light show that follows the music. Moving heads, lasers and strobes are not in our own inventory: tell us the effect you want and we look for a solution with our suppliers, if there is one. Contact us with your date and guest count."
     }
   ],
+  "lectern-rental": [
+    {
+      "question": "Can I rent a lectern on its own?",
+      "answer": "We quote it as a separate item. A premium methacrylate lectern is listed as a 50 euro optional extra of the MICE Pack, and we publish no price for one on its own, so we will not guess a figure. Tell us the event, the date and the venue, and we quote the lectern together with the sound it needs. We work delivery only, with no self pickup."
+    },
+    {
+      "question": "How many lecterns do you have?",
+      "answer": "Two methacrylate lecterns in our own inventory. If your event needs more than two, they are not in our own inventory, so tell us how many and we look for a solution with our suppliers, if there is one. We do not promise availability or a price until we have checked."
+    },
+    {
+      "question": "Does the lectern come with a microphone?",
+      "answer": "The lectern is a separate item from the microphone. Both MICE packages include a gooseneck microphone: one on the Basic MICE Pack, and one gooseneck plus one wireless handheld on the MICE Pack. Our crew installs and tests the microphone with the sound system before your event."
+    },
+    {
+      "question": "What are the dimensions of the lectern?",
+      "answer": "We publish no height or width for our lectern, because we have not published them. If the size matters for your speaker, for example a very tall or a very short presenter, tell us when you contact us. A gooseneck microphone also adjusts its height and angle toward the speaker's mouth, which helps when several people use the same lectern."
+    },
+    {
+      "question": "Do you rent a truss lectern or a podium?",
+      "answer": "Our own lecterns are the methacrylate type. A truss lectern, a lectern with a built in screen or any other style is not in our own inventory. Tell us what you need and we look for a solution with our suppliers, if there is one. We do not promise availability or a price until we have checked. Our guide to audio visual rental for corporate meetings explains what a meeting usually needs around the lectern."
+    },
+    {
+      "question": "Is a technician included with the lectern?",
+      "answer": "It depends on the package. The MICE Pack includes a technician on site for up to 6 hours, who operates the sound and the microphones. On the Basic MICE Pack a technician is optional at 240 euros per day. The technician runs the sound, not the slides, so the speaker controls what is shown on the screen."
+    }
+  ],
   "questions-to-ask-wedding-rental-companies": [
     {
       "question": "What should I ask before booking wedding AV rentals?",
