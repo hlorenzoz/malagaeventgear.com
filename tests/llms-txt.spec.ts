@@ -114,6 +114,7 @@ test.describe('llms.txt (llmstxt.org standard) E2E Tests', () => {
 			'news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos',
 			'news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis',
 			'news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga',
+			'tinkle-easyjet-event-2026-sound-and-technician',
 			'news-malaga-event-gear-unveils-new-rebranded-website'
 		]) {
 			expect(text).toContain(`${siteConfig.url}/blog/${slug}/`);

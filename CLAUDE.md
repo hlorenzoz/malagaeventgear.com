@@ -673,6 +673,11 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
        (`billie-jean-king-cup-2024-sound-and-lighting`,
        publicado el 2026-10-08 con `publishDate` 2024-11-20, la fecha del evento, por decisión del
        usuario).
+     - Evento de Tinkle (agencia de comunicación que trabaja para easyJet) en el centro de
+       Málaga, jueves 22 de octubre de 2026: SOLO sonido y técnico (confirmado por el negocio el
+       2026-10-22). La pantalla, la tarima, las sillas y la decoración de las fotos no son de MEG,
+       y el recinto no se nombra porque el negocio no lo dio
+       (`tinkle-easyjet-event-2026-sound-and-technician`, publicado el 2026-10-24).
      `news-malaga-event-gear-unveils-new-rebranded-website` es `News` pero no es un evento. Un
      caso sin su post `News` (como los dos de arriba) no se usa como Experience. Un caso nuevo
      entra cuando se publica su post `News`, y se suma a esta lista en el mismo cambio.
