@@ -146,7 +146,15 @@
 	}}
 />
 
-<div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop py-16 md:py-24">
+<!--
+	Container: 1280px (max-w-7xl) up to a 1341px viewport, so laptops and tablets from 1024 to 1341 keep
+	exactly the 3-col layout they had. From a 1342px viewport it grows by 62px (1342px), which goes
+	entirely to the content column: 1280 - 2*64 margin - 210 - 240 - 2*40 gap = 622px becomes
+	1342 - 128 - 530 = 684px (+10%). The rails keep their 210px and 240px.
+-->
+<div
+	class="max-w-7xl min-[1342px]:max-w-[1342px] mx-auto px-margin-mobile md:px-margin-desktop py-16 md:py-24"
+>
 	<!-- 3-col grid: [packages | content | toc] on desktop; single col on mobile -->
 	<div
 		class="lg:grid lg:grid-cols-[minmax(0,210px)_minmax(0,1fr)_minmax(0,240px)] lg:gap-10 lg:items-start"

@@ -11,9 +11,10 @@
 //   < 768px     100vw - 40px   (padding lateral)
 //   768-1023    100vw - 128px  (padding mayor)
 //   1024-1279   100vw - 658px  (aparece el sidebar)
-//   >= 1280     622px          (ancho maximo)
+//   1280-1341   622px          (el contenedor topa en 1280px)
+//   >= 1342     684px          (2026-10-24: el contenedor topa en 1342px, +10% para el contenido)
 export const PROSE_SIZES =
-	'(min-width: 1280px) 622px, (min-width: 1024px) calc(100vw - 658px), (min-width: 768px) calc(100vw - 128px), calc(100vw - 40px)';
+	'(min-width: 1342px) 684px, (min-width: 1280px) 622px, (min-width: 1024px) calc(100vw - 658px), (min-width: 768px) calc(100vw - 128px), calc(100vw - 40px)';
 
 // Item de galeria (.img-gallery > figure): min(82% de la columna, 440px).
 export const GALLERY_SIZES =
