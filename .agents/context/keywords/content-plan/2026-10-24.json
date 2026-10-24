@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-24",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 20,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "items": [
+    {
+      "keywords": ["uplight rental"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 8 2 impr",
+      "reason": "Misma intención que /blog/stage-uplighting/ (keyword stage uplighting, FAQ 'Does Uplighting Come With Any of Your Packages?') y /blog/stage-lighting-rental/ (H3 sobre stage uplighting). Una página nueva sería canibalización (creating-helpful-content.md)."
+    },
+    {
+      "keywords": ["wedding in spain package", "all inclusive wedding spain"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 24.5 2 impr",
+      "reason": "Cubierto por /blog/all-in-one-wedding-rental-packages/, encabezado 'Our All Inclusive Wedding Pack in Malaga' y su FAQ sobre paquetes all inclusive. Con 1 a 2 impresiones no hay señal para otra sección."
+    },
+    {
+      "keywords": ["all inclusive wedding venues"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 11 1 impr",
+      "reason": "La intención es buscar fincas o salones. MEG no ofrece venues, solo audiovisual (CLAUDE.md, posicionamiento). Fuera de encaje."
+    },
+    {
+      "keywords": ["allevents rentals"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 10 1 impr",
+      "reason": "Búsqueda del nombre de otra empresa. No hay intención de cliente que MEG pueda atender con contenido propio."
+    },
+    {
+      "keywords": ["alquiler de equipos audiovisuales", "alquiler de equipos audiovisuales para eventos en málaga"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 22 1 impr",
+      "reason": "Intención ya servida por /blog/audiovisual-equipment-rental-service/ y su traducción al español. No se crea una página por idioma fuera del flujo de traducción."
+    },
+    {
+      "keywords": ["audio and visual services", "audio video for events", "av rental services", "audio visual provider", "av companies", "av suppliers", "audiovisual event"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 12 1 impr",
+      "reason": "Variantes genéricas de la misma intención 'empresa de alquiler audiovisual'. Cubiertas por /blog/audio-visual-rental-company/, /blog/audio-visual-rental-companies/ y el pilar /blog/audio-visual-rental/. Una página nueva sería silo overlap."
+    },
+    {
+      "keywords": ["audio equipment for rent", "audio rentals"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 8 1 impr",
+      "reason": "Cabeza de término de audio ya servida por el pilar /blog/audio-visual-rental/ y los posts de alquiler de sonido del silo. Una impresión no justifica una sección."
+    },
+    {
+      "keywords": ["audio visual contractors near me", "audio visual equipment rentals near me", "av companies near me"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 21 1 impr",
+      "reason": "Variantes near me. Ya existe /blog/audio-visual-hire-near-me-in-malaga-spain/. Otra página sería doorway abuse (spam-policies.md)."
+    },
+    {
+      "keywords": ["av group malaga"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 14 1 impr",
+      "reason": "Parece búsqueda del nombre de otra empresa. Sin intención atendible con contenido propio de MEG."
+    }
+  ]
+}
