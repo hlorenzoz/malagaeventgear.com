@@ -1,8 +1,13 @@
 # Málaga Event Gear (MEG) - comandos del proyecto
 
-# Levanta el servidor de desarrollo de Vite con Bun
-dev:
-    bun run dev
+# Levanta el servidor de desarrollo de Vite con Bun. Puerto por defecto 5173 (el que usa Playwright).
+# Si choca con otro proyecto: `just dev 3001` o `just dev --port 3001`. Cualquier otra opcion de vite pasa igual.
+[positional-arguments]
+dev *args:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    if [[ $# -gt 0 && "$1" =~ ^[0-9]+$ ]]; then set -- --port "$@"; fi
+    exec bun run dev "$@"
 
 # Compila el sitio para producción optimizado para Cloudflare Workers (adapter-cloudflare)
 build:
