@@ -1471,6 +1471,29 @@
       ]
     },
     {
+      "id": "#T0150",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-24",
+      "anotada": "2026-10-24",
+      "hecha": "2026-10-24",
+      "origen": "content-strategist (plan 2026-10-24, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "uplight rental (Misma intención que /blog/stage-uplighting/ (keyword stage uplighting, FAQ 'Does Uplighting Come With Any of Your Packages?') y /blog/stage-lighting-rental/ (H3 sobre stage uplighting). Una página nueva sería canibalización (creating-helpful-content.md).)",
+        "wedding in spain package (Cubierto por /blog/all-in-one-wedding-rental-packages/, encabezado 'Our All Inclusive Wedding Pack in Malaga' y su FAQ sobre paquetes all inclusive. Con 1 a 2 impresiones no hay señal para otra sección.)",
+        "all inclusive wedding venues (La intención es buscar fincas o salones. MEG no ofrece venues, solo audiovisual (CLAUDE.md, posicionamiento). Fuera de encaje.)",
+        "allevents rentals (Búsqueda del nombre de otra empresa. No hay intención de cliente que MEG pueda atender con contenido propio.)",
+        "alquiler de equipos audiovisuales (Intención ya servida por /blog/audiovisual-equipment-rental-service/ y su traducción al español. No se crea una página por idioma fuera del flujo de traducción.)",
+        "audio and visual services (Variantes genéricas de la misma intención 'empresa de alquiler audiovisual'. Cubiertas por /blog/audio-visual-rental-company/, /blog/audio-visual-rental-companies/ y el pilar /blog/audio-visual-rental/. Una página nueva sería silo overlap.)",
+        "audio equipment for rent (Cabeza de término de audio ya servida por el pilar /blog/audio-visual-rental/ y los posts de alquiler de sonido del silo. Una impresión no justifica una sección.)",
+        "audio visual contractors near me (Variantes near me. Ya existe /blog/audio-visual-hire-near-me-in-malaga-spain/. Otra página sería doorway abuse (spam-policies.md).)",
+        "av group malaga (Parece búsqueda del nombre de otra empresa. Sin intención atendible con contenido propio de MEG.)"
+      ]
+    },
+    {
       "id": "#T0146",
       "estado": "hecha",
       "prioridad": "baja",
