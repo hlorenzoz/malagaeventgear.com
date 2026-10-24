@@ -8356,7 +8356,7 @@
         },
         "ubersuggest": {
           "firstSeen": "2026-10-08",
-          "lastSeen": "2026-10-22",
+          "lastSeen": "2026-10-24",
           "via": [
             "content-ideas",
             "domain",
@@ -8366,10 +8366,9 @@
             "title-ideas"
           ],
           "stats": {
-            "asOf": "2026-10-22",
-            "volume": 10,
-            "difficulty": 5,
-            "cpc": 0
+            "asOf": "2026-10-24",
+            "position": 54,
+            "rankingUrl": "http://malagaeventgear.com/blog/audio-visual-rental-companies/"
           }
         },
         "blog": {
@@ -8381,10 +8380,10 @@
           "lastSeen": "2026-10-24"
         }
       },
-      "opportunity": "low",
-      "opportunityReason": "volume 10 with difficulty 5",
+      "opportunity": null,
+      "opportunityReason": null,
       "firstSeen": "2026-09-29",
-      "lastResearched": "2026-10-22",
+      "lastResearched": "2026-10-24",
       "notes": ""
     },
     {
@@ -98504,6 +98503,18 @@
       "firstSeen": "2026-09-30"
     },
     {
+      "id": "ubersuggest--audio-visual-rental-options-with-easy-setup-for-small-charity-fundraisers-near-me",
+      "prompt": "Audio visual rental options with easy setup for small charity fundraisers near me.",
+      "keywordId": "audio-visual-rental-for-charity-fundraisers",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-24"
+    },
+    {
       "id": "ubersuggest--audio-visual-rental-vs-buying-equipment-which-is-more-cost-effective-for-one-time-events-in-spain",
       "prompt": "Audio visual rental vs buying equipment: which is more cost-effective for one-time events in Spain?",
       "keywordId": "audio-visual-rental",
@@ -98526,6 +98537,18 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-09-30"
+    },
+    {
+      "id": "ubersuggest--audio-visual-rental-vs-hiring-full-event-production-for-a-charity-fundraiser-which-is-better",
+      "prompt": "Audio visual rental vs hiring full event production for a charity fundraiser-which is better?",
+      "keywordId": "audio-visual-rental-for-charity-fundraisers",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-24"
     },
     {
       "id": "ubersuggest--audio-visual-rental-with-led-screen-rentals-available-in-spain-which-companies-offer-this",
@@ -98802,6 +98825,18 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-10-09"
+    },
+    {
+      "id": "ubersuggest--best-audio-visual-rental-with-video-streaming-capabilities-for-charity-fundraisers",
+      "prompt": "Best audio visual rental with video streaming capabilities for charity fundraisers.",
+      "keywordId": "audio-visual-rental-for-charity-fundraisers",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-24"
     },
     {
       "id": "ubersuggest--best-audiovisual-equipment-rental-for-concerts-and-stage-performances-in-spain",
@@ -99090,6 +99125,18 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-09-30"
+    },
+    {
+      "id": "ubersuggest--best-value-audio-visual-rental-deals-for-nonprofit-fundraiser-events",
+      "prompt": "Best value audio visual rental deals for nonprofit fundraiser events.",
+      "keywordId": "audio-visual-rental-for-charity-fundraisers",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-24"
     },
     {
       "id": "ubersuggest--best-value-audio-visual-rental-packages-for-art-exhibitions-on-a-budget",
@@ -99698,6 +99745,18 @@
       "firstSeen": "2026-09-30"
     },
     {
+      "id": "ubersuggest--should-i-rent-audio-visual-equipment-or-buy-for-recurring-charity-fundraisers",
+      "prompt": "Should I rent audio visual equipment or buy for recurring charity fundraisers?",
+      "keywordId": "audio-visual-rental-for-charity-fundraisers",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-24"
+    },
+    {
       "id": "ubersuggest--top-destination-wedding-av-gear-rental-shops-near-fuengirola-costa-del-sol",
       "prompt": "Top destination wedding AV gear rental shops near Fuengirola, Costa del Sol",
       "keywordId": "destination-wedding-av-costa-del-sol",
@@ -99864,6 +99923,18 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-10-13"
+    },
+    {
+      "id": "ubersuggest--top-reviewed-audio-visual-rental-companies-for-nonprofit-events-in-spain",
+      "prompt": "Top-reviewed audio visual rental companies for nonprofit events in Spain.",
+      "keywordId": "audio-visual-rental-for-charity-fundraisers",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-24"
     },
     {
       "id": "ubersuggest--what-all-in-one-wedding-rental-packages-include-decoration-seating-and-catering-equipment",
@@ -100710,6 +100781,18 @@
       "firstSeen": "2026-09-30"
     },
     {
+      "id": "ubersuggest--which-audio-visual-rental-companies-specialize-in-charity-fundraiser-setups-in-spain",
+      "prompt": "Which audio visual rental companies specialize in charity fundraiser setups in Spain?",
+      "keywordId": "audio-visual-rental-for-charity-fundraisers",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-24"
+    },
+    {
       "id": "ubersuggest--which-audio-visual-rental-company-in-spain-has-the-best-reputation-for-tech-support-during-events",
       "prompt": "Which audio visual rental company in Spain has the best reputation for tech support during events?",
       "keywordId": "audio-visual-rental-companies",
@@ -100792,6 +100875,18 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-10-02"
+    },
+    {
+      "id": "ubersuggest--which-audio-visual-rental-offers-the-best-customer-service-for-charity-fundraisers",
+      "prompt": "Which audio visual rental offers the best customer service for charity fundraisers?",
+      "keywordId": "audio-visual-rental-for-charity-fundraisers",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-10-24"
     },
     {
       "id": "ubersuggest--which-audio-visual-rental-service-is-best-for-immersive-art-exhibitions-in-spain",
