@@ -515,6 +515,11 @@ export default {
 			slug: 'arrangement-tinkle-easyjet-malaga-lyd-tekniker',
 			keyword: 'arrangement for Tinkle og easyJet i Malaga',
 			status: 'propuesta'
+		},
+		'stage-platform-rental': {
+			slug: 'leie-sceneplattform-malaga',
+			keyword: 'leie sceneplattform i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

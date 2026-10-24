@@ -523,6 +523,11 @@ export default {
 			slug: 'evenement-tinkle-easyjet-malaga-son-technicien',
 			keyword: 'événement Tinkle et easyJet à Malaga',
 			status: 'propuesta'
+		},
+		'stage-platform-rental': {
+			slug: 'location-estrade-malaga',
+			keyword: "location d'estrade à Malaga",
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

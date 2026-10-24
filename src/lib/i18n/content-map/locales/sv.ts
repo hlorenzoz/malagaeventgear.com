@@ -499,6 +499,11 @@ export default {
 			slug: 'evenemang-tinkle-easyjet-malaga-ljud-tekniker',
 			keyword: 'evenemang för Tinkle och easyJet i Malaga',
 			status: 'propuesta'
+		},
+		'stage-platform-rental': {
+			slug: 'hyra-scenplattform-malaga',
+			keyword: 'hyra scenplattform i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

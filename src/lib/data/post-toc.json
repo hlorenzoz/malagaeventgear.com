@@ -6739,6 +6739,103 @@
       "level": 3
     }
   ],
+  "stage-platform-rental": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "our-modular-stage-platforms",
+      "text": "Our Modular Stage Platforms",
+      "level": 2
+    },
+    {
+      "id": "which-package-lets-you-add-a-stage-platform",
+      "text": "Which Package Lets You Add a Stage Platform",
+      "level": 2
+    },
+    {
+      "id": "priced-by-the-square-meter",
+      "text": "Priced by the Square Meter",
+      "level": 2
+    },
+    {
+      "id": "how-big-a-stage-does-your-event-need",
+      "text": "How Big a Stage Does Your Event Need?",
+      "level": 2
+    },
+    {
+      "id": "height-steps-and-safety",
+      "text": "Height, Steps and Safety",
+      "level": 2
+    },
+    {
+      "id": "stage-platforms-sound-and-technician",
+      "text": "Stage Platforms, Sound and Technician",
+      "level": 2
+    },
+    {
+      "id": "how-to-choose-a-stage-platform-rental",
+      "text": "How to Choose a Stage Platform Rental",
+      "level": 2
+    },
+    {
+      "id": "real-setups-weve-delivered",
+      "text": "Real Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "where-we-deliver-and-how-to-book",
+      "text": "Where We Deliver and How to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "can-i-rent-a-stage-platform-on-its-own",
+      "text": "Can I rent a stage platform on its own?",
+      "level": 3
+    },
+    {
+      "id": "how-many-stage-platforms-do-you-have",
+      "text": "How many stage platforms do you have?",
+      "level": 3
+    },
+    {
+      "id": "what-height-are-the-stage-platforms",
+      "text": "What height are the stage platforms?",
+      "level": 3
+    },
+    {
+      "id": "do-you-rent-stage-steps-handrails-or-ramps",
+      "text": "Do you rent stage steps, handrails or ramps?",
+      "level": 3
+    },
+    {
+      "id": "how-is-a-stage-platform-rental-priced",
+      "text": "How is a stage platform rental priced?",
+      "level": 3
+    },
+    {
+      "id": "is-a-technician-included-with-the-stage-platform",
+      "text": "Is a technician included with the stage platform?",
+      "level": 3
+    }
+  ],
   "unique-wedding-ceremony-rentals": [
     {
       "id": "brief-overview",

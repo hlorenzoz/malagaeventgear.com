@@ -507,6 +507,11 @@ export default {
 			slug: 'event-tinkle-easyjet-malaga-lyd-tekniker',
 			keyword: 'event for Tinkle og easyJet i Malaga',
 			status: 'propuesta'
+		},
+		'stage-platform-rental': {
+			slug: 'leje-scenepodie-malaga',
+			keyword: 'leje scenepodie i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

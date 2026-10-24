@@ -530,6 +530,11 @@ export default {
 			slug: 'evento-tinkle-easyjet-malaga-som-tecnico',
 			keyword: 'evento Tinkle e easyJet em Málaga',
 			status: 'propuesta'
+		},
+		'stage-platform-rental': {
+			slug: 'aluguel-plataformas-de-palco-malaga',
+			keyword: 'aluguel de plataformas de palco em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

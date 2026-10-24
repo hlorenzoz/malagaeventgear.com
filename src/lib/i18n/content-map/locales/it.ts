@@ -519,6 +519,11 @@ export default {
 			slug: 'evento-tinkle-easyjet-malaga-audio-tecnico',
 			keyword: 'evento Tinkle ed easyJet a Malaga',
 			status: 'propuesta'
+		},
+		'stage-platform-rental': {
+			slug: 'noleggio-pedane-da-palco-malaga',
+			keyword: 'noleggio pedane da palco a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -467,6 +467,11 @@ export default {
 			slug: '市中心活動音響與技術人員',
 			keyword: 'Tinkle easyJet活動',
 			status: 'propuesta'
+		},
+		'stage-platform-rental': {
+			slug: '舞台平台租借',
+			keyword: '馬拉加 舞台平台租借',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

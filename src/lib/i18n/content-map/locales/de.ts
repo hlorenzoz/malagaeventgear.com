@@ -499,6 +499,11 @@ export default {
 			slug: 'event-tinkle-easyjet-malaga-ton-techniker',
 			keyword: 'Event für Tinkle und easyJet in Malaga',
 			status: 'propuesta'
+		},
+		'stage-platform-rental': {
+			slug: 'buehnenpodest-mieten-malaga',
+			keyword: 'Bühnenpodest mieten in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

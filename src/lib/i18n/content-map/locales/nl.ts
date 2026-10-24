@@ -503,6 +503,11 @@ export default {
 			slug: 'evenement-tinkle-easyjet-malaga-geluid-technicus',
 			keyword: 'evenement voor Tinkle en easyJet in Malaga',
 			status: 'propuesta'
+		},
+		'stage-platform-rental': {
+			slug: 'podium-huren-malaga',
+			keyword: 'podium huren in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

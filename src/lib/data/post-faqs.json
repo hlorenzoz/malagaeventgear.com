@@ -2337,6 +2337,32 @@
       "answer": "Usually the same or next business day. Bookings need at least 24 hours' notice regardless, so submit your request as early as you can once your date and venue are set."
     }
   ],
+  "stage-platform-rental": [
+    {
+      "question": "Can I rent a stage platform on its own?",
+      "answer": "We quote it as a separate item. Modular stage platforms are listed as a 35 euro per square meter optional extra of the MICE Pack, and we publish no price for a platform on its own, so we will not guess a figure. Tell us the room, the number of speakers and the date, and we quote the stage together with the sound it needs. We work delivery only, with no self pickup."
+    },
+    {
+      "question": "How many stage platforms do you have?",
+      "answer": "Our inventory lists modular Guil platforms of 2x1, and we do not publish how many modules we own. If your stage needs more than we have, it is not in our own inventory, so tell us the size you need and we look for a solution with our suppliers, if there is one. We do not promise availability or a price until we have checked."
+    },
+    {
+      "question": "What height are the stage platforms?",
+      "answer": "We publish no height for our platforms. If the height matters for your venue or your speakers, tell us when you contact us and we say what we can offer. A platform that has to meet a specific height or a safety standard is something to confirm in writing before you book."
+    },
+    {
+      "question": "Do you rent stage steps, handrails or ramps?",
+      "answer": "Steps, handrails and ramps are not listed as separate items in our inventory, and we publish no details of them. If your stage needs them, for example for access for people with reduced mobility, tell us and we look for a solution with our suppliers, if there is one. We do not promise availability or a price until we have checked."
+    },
+    {
+      "question": "How is a stage platform rental priced?",
+      "answer": "By the square meter. On the MICE Pack the extra is 35 euros per square meter, so a stage of 4 by 2 meters, which is 8 square meters, comes to 280 euros at that rate, an example of the arithmetic and not a quote. For any other booking we quote the stage with the rest of your event, and we do not publish a price for a platform on its own."
+    },
+    {
+      "question": "Is a technician included with the stage platform?",
+      "answer": "It depends on the package. The MICE Pack includes a technician on site for up to 6 hours, who operates the sound and the microphones. On the Basic MICE Pack a technician is optional at 240 euros per day. The technician runs the sound, not the slides, so the speaker controls what is shown on the screen."
+    }
+  ],
   "unique-wedding-ceremony-rentals": [
     {
       "question": "Should a wedding officiant use a lapel or handheld microphone?",

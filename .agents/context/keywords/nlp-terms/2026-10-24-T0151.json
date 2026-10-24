@@ -1,0 +1,59 @@
+{
+	"date": "2026-10-24",
+	"taskId": "#T0151",
+	"slug": "stage-platform-rental",
+	"searchTerm": "stage platform rental modular platforms risers staging for a conference or corporate event",
+	"status": "partial",
+	"reason": "Google position 1 (Sweetwater product page) returned HTTP 403 and was skipped. Read positions 2 to 4. Results are UK and Irish vendors and a retail store, none from Spain. Titles are the SERP titles.",
+	"serp": {
+		"query": "stage platform rental modular risers staging",
+		"localized": false,
+		"results": [
+			{ "rank": 1, "url": "https://www.djbox.ie/collections/stage-decks-modular-staging-platforms", "title": "stage decks modular staging platforms" },
+			{ "rank": 2, "url": "https://stlsevents.co.uk/hire/stage-hire/drum-riser-hire/", "title": "drum riser hire" },
+			{ "rank": 3, "url": "https://axiomevents.co.uk/technology/staging/", "title": "axiomevents.co.uk" }
+		]
+	},
+	"terms": [
+		{ "term": "modular stage platforms", "kind": "entity", "seenIn": 3 },
+		{ "term": "stage risers", "kind": "entity", "seenIn": 3 },
+		{ "term": "awards ceremonies", "kind": "entity", "seenIn": 3 },
+		{ "term": "drum risers", "kind": "entity", "seenIn": 2 },
+		{ "term": "Prolyte", "kind": "entity", "seenIn": 2 },
+		{ "term": "stage steps", "kind": "entity", "seenIn": 2 },
+		{ "term": "handrails", "kind": "entity", "seenIn": 2 },
+		{ "term": "stage ramps", "kind": "entity", "seenIn": 2 },
+		{ "term": "conferences", "kind": "entity", "seenIn": 2 },
+		{ "term": "corporate events", "kind": "entity", "seenIn": 2 },
+		{ "term": "live music", "kind": "entity", "seenIn": 2 },
+		{ "term": "festivals", "kind": "entity", "seenIn": 2 },
+		{ "term": "aluminium frame", "kind": "related", "seenIn": 2 },
+		{ "term": "adjustable legs", "kind": "related", "seenIn": 2 },
+		{ "term": "anti slip surface", "kind": "related", "seenIn": 2 },
+		{ "term": "indoor and outdoor use", "kind": "related", "seenIn": 2 },
+		{ "term": "choir riser staging", "kind": "entity", "seenIn": 1 },
+		{ "term": "public speaking events", "kind": "entity", "seenIn": 1 },
+		{ "term": "weight loading per square metre", "kind": "related", "seenIn": 1 },
+		{ "term": "skirting", "kind": "related", "seenIn": 1 },
+		{ "term": "pipe and drape", "kind": "entity", "seenIn": 1 },
+		{ "term": "risk assessments", "kind": "related", "seenIn": 1 },
+		{ "term": "What events suit staging platforms?", "kind": "question", "seenIn": 1 },
+		{ "term": "What is a drum riser?", "kind": "question", "seenIn": 1 },
+		{ "term": "Why choose modular stage decks?", "kind": "question", "seenIn": 1 }
+	],
+	"discarded": [
+		{ "term": "DJBox", "reason": "competitor and retailer name" },
+		{ "term": "STLS Events", "reason": "competitor name" },
+		{ "term": "Axiom Events", "reason": "competitor name" },
+		{ "term": "How much is drum riser rental?", "reason": "price question" },
+		{ "term": "Free setup service", "reason": "marketing slogan" },
+		{ "term": "Nationwide delivery", "reason": "marketing claim, other market" },
+		{ "term": "Click and collect", "reason": "retail wording, not hire vocabulary" },
+		{ "term": "DSA compliant access ramps", "reason": "UK standard, other market" },
+		{ "term": "COSHH", "reason": "UK regulation, other market" },
+		{ "term": "TUV rated safety frame", "reason": "certification claim of another market" },
+		{ "term": "Public liability insurance", "reason": "UK market document" },
+		{ "term": "Power Dynamics Deck750", "reason": "vendor product line, not MEG inventory vocabulary" },
+		{ "term": "Why buy stage decks from DJBox", "reason": "vendor sales heading" }
+	]
+}
