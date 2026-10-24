@@ -7,6 +7,8 @@
  *    rehypeInternalLinks then rehypeLocalizeLinks: legacy WordPress links become the English
  *    routes, then a TRANSLATED post's English routes become its locale's URLs (only what is
  *    published there, tables from scripts/vite-blog-meta.mjs).
+ *    rehypeFollowedExternalLinks then removes the nofollow that mdsvex hard codes on every
+ *    external link, only for the hosts the business vouches for.
  * 2. rehypeBlogImages enriches <img> with srcset/alt/dimensions (a translated post keeps its own
  *    alt and caption, never the English manifest's).
  * 3. rehypeImageGallery groups consecutive images into scroll-snap galleries (after
@@ -29,12 +31,14 @@ import { rehypeSectionCards } from './rehype-section-cards.mjs';
 import { rehypeImageGallery } from './rehype-image-gallery.mjs';
 import { rehypeInternalLinks } from './rehype-internal-links.mjs';
 import { rehypeLocalizeLinks } from './rehype-localize-links.mjs';
+import { rehypeFollowedExternalLinks } from './rehype-followed-external-links.mjs';
 import { rehypeTableWrap } from './rehype-table-wrap.mjs';
 
 export const BLOG_REHYPE_PLUGINS = [
 	rehypeSlug,
 	rehypeInternalLinks,
 	rehypeLocalizeLinks,
+	rehypeFollowedExternalLinks,
 	rehypeBlogImages,
 	rehypeImageGallery,
 	rehypePostToc,
