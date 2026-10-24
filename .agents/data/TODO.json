@@ -1494,6 +1494,27 @@
       ]
     },
     {
+      "id": "#T0151",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "Post nuevo /blog/stage-platform-rental/: alquiler de tarimas (lote 1 de #T0085)",
+      "anotada": "2026-10-24",
+      "hecha": "2026-10-24",
+      "origen": "usuario",
+      "notas": [
+        "usuario 2026-10-24: 'Si' a hacerlo sin cantidad ni alturas de las tarimas. Portada: foto real del News de Bmotion en Marbella (el unico caso donde el negocio confirmo plataformas de MEG)"
+      ],
+      "descripcion": [
+        "Hija de #T0086 (lote 1 de #T0085, post 3 de 5 del plan .agents/context/keywords/corporate-cluster-plan-2026-10-13.md).",
+        "Post nuevo supporting de /blog/audiovisual-equipment-rental-service/, keyword \"stage platform rental\", slug stage-platform-rental.",
+        "Respaldo: tarimas Guil de 2x1 en el CSV 2026.09.26, extra de tarimas modulares por metro cuadrado en packages.ts (MICE Pack), fotos reales de eventos de MEG con tarima.",
+        "Sin cantidad ni alturas confirmadas por el negocio: el plan decidio que el post sale igual, sin esas cifras (usuario 2026-10-24: \"Si\" a hacerlo sin ellas).",
+        "Cadena del silo: headset-lavalier <-> conference-table <-> lectern-rental <-> wireless-handheld <-> stage-platform. El enlace unico del pilar pasa de wireless-handheld al post nuevo.",
+        "Cupo de hoy: 2 posts nuevos (Tinkle News + este)."
+      ]
+    },
+    {
       "id": "#T0146",
       "estado": "hecha",
       "prioridad": "baja",
