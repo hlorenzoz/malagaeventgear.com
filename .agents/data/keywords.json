@@ -73601,10 +73601,14 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "planned",
+      "url": "/blog/stage-platform-rental/",
+      "status": "published",
       "reason": null,
       "sources": {
+        "blog": {
+          "firstSeen": "2026-10-24",
+          "lastSeen": "2026-10-24"
+        },
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-10-24"
@@ -84183,6 +84187,24 @@
       }
     },
     {
+      "id": "can-i-rent-a-stage-platform-on-its-own",
+      "question": "Can I rent a stage platform on its own?",
+      "keywordId": "stage-platform-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/stage-platform-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-24",
+          "lastSeen": "2026-10-24",
+          "urls": [
+            "/blog/stage-platform-rental/"
+          ]
+        }
+      }
+    },
+    {
       "id": "can-i-rent-a-tv-screen-for-just-one-day",
       "question": "Can I rent a TV screen for just one day?",
       "keywordId": "tv-screen-rental",
@@ -86829,6 +86851,24 @@
       }
     },
     {
+      "id": "do-you-rent-stage-steps-handrails-or-ramps",
+      "question": "Do you rent stage steps, handrails or ramps?",
+      "keywordId": "stage-platform-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/stage-platform-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-24",
+          "lastSeen": "2026-10-24",
+          "urls": [
+            "/blog/stage-platform-rental/"
+          ]
+        }
+      }
+    },
+    {
       "id": "do-you-rent-staging-truss-or-pipe-and-drape",
       "question": "Do You Rent Staging, Truss or Pipe and Drape?",
       "keywordId": "audiovisual-equipment-rental-service",
@@ -88860,6 +88900,24 @@
       }
     },
     {
+      "id": "how-is-a-stage-platform-rental-priced",
+      "question": "How is a stage platform rental priced?",
+      "keywordId": "stage-platform-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/stage-platform-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-24",
+          "lastSeen": "2026-10-24",
+          "urls": [
+            "/blog/stage-platform-rental/"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-is-the-sound-and-lighting-protected-outdoors",
       "question": "How is the sound and lighting protected outdoors?",
       "keywordId": "protecting-your-wedding-rental-items",
@@ -89756,6 +89814,24 @@
           "lastSeen": "2026-10-21",
           "seeds": [
             "stage-monitor-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-stage-platforms-do-you-have",
+      "question": "How many stage platforms do you have?",
+      "keywordId": "stage-platform-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/stage-platform-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-24",
+          "lastSeen": "2026-10-24",
+          "urls": [
+            "/blog/stage-platform-rental/"
           ]
         }
       }
@@ -92623,6 +92699,24 @@
       }
     },
     {
+      "id": "is-a-technician-included-with-the-stage-platform",
+      "question": "Is a technician included with the stage platform?",
+      "keywordId": "stage-platform-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/stage-platform-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-24",
+          "lastSeen": "2026-10-24",
+          "urls": [
+            "/blog/stage-platform-rental/"
+          ]
+        }
+      }
+    },
+    {
       "id": "is-a-technician-included-with-wedding-rentals",
       "question": "Is a technician included with wedding rentals?",
       "keywordId": "wedding-rentals",
@@ -95041,6 +95135,24 @@
           "lastSeen": "2026-10-24",
           "urls": [
             "/blog/audio-visual-rental-for-weddings/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-height-are-the-stage-platforms",
+      "question": "What height are the stage platforms?",
+      "keywordId": "stage-platform-rental",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/stage-platform-rental/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-24",
+          "lastSeen": "2026-10-24",
+          "urls": [
+            "/blog/stage-platform-rental/"
           ]
         }
       }
