@@ -842,31 +842,6 @@
       ]
     },
     {
-      "id": "#T0149",
-      "estado": "bloqueada",
-      "prioridad": "alta",
-      "tipo": "contenido",
-      "titulo": "Post News del evento Tinkle y easyJet en el centro de Malaga (22 de octubre de 2026)",
-      "anotada": "2026-10-24",
-      "hecha": null,
-      "origen": "usuario",
-      "notas": [
-        "2026-10-24: bloqueada por R2. wrangler esta logueado en la cuenta 13d0158c (lorenzozaldivar2023@gmail.com) y el bucket images vive en cc26ab18: post-images falla con Authentication error 10000. Hace falta wrangler login con la cuenta de MEG. Hecho: fotos renombradas",
-        "meta.yaml escrito",
-        "dry-run OK. Falta: subir fotos",
-        "post inglés",
-        "12 traducciones"
-      ],
-      "descripcion": [
-        "Post News del evento del jueves 2026-10-22 en el centro de Malaga para Tinkle, una agencia que trabaja para easyJet.",
-        "Hechos confirmados por el usuario (mensajes de Sergio, 2026-10-22): MEG suministro SOLO sonido y tecnico. La agencia es Tinkle (https://www.tinkle.es/), cliente final easyJet (https://www.easyjet.com/en/). Evento en el centro de Malaga, entorno \"chulo y complicado\". El encargo entro por telefono el jueves anterior (no se publica).",
-        "Fotos: assets/2026-10-22-tinkle-easyJet/ (5 fotos, local, gitignored). Salen en R2 con just post-images.",
-        "Slug: tinkle-easyjet-event-2026-sound-and-technician. Categories News, Events, Corporate & Enterprise. siloRole news, targetPage \"/\".",
-        "Sirve de Experience: al publicarse se suma a la lista de la regla 4 del posicionamiento en CLAUDE.md (mismo cambio) y a tests/llms-txt.spec.ts si lista los News.",
-        "Pantalla, tarima, sillas, plantas y escenografia NO son de MEG (solo sonido y tecnico)."
-      ]
-    },
-    {
       "id": "#T0086",
       "estado": "bloqueada",
       "prioridad": "alta",
@@ -1467,6 +1442,33 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0149",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "Post News del evento Tinkle y easyJet en el centro de Malaga (22 de octubre de 2026)",
+      "anotada": "2026-10-24",
+      "hecha": "2026-10-24",
+      "origen": "usuario",
+      "notas": [
+        "2026-10-24: bloqueada por R2. wrangler esta logueado en la cuenta 13d0158c (lorenzozaldivar2023@gmail.com) y el bucket images vive en cc26ab18: post-images falla con Authentication error 10000. Hace falta wrangler login con la cuenta de MEG. Hecho: fotos renombradas",
+        "meta.yaml escrito",
+        "dry-run OK. Falta: subir fotos",
+        "post inglés",
+        "12 traducciones",
+        "2026-10-24: login R2 resuelto (cuenta cc26ab18)",
+        "fotos subidas (ids 3110 a 3114). El usuario confirma que SI hay consentimiento de las personas que salen en la foto 3 (portada)"
+      ],
+      "descripcion": [
+        "Post News del evento del jueves 2026-10-22 en el centro de Malaga para Tinkle, una agencia que trabaja para easyJet.",
+        "Hechos confirmados por el usuario (mensajes de Sergio, 2026-10-22): MEG suministro SOLO sonido y tecnico. La agencia es Tinkle (https://www.tinkle.es/), cliente final easyJet (https://www.easyjet.com/en/). Evento en el centro de Malaga, entorno \"chulo y complicado\". El encargo entro por telefono el jueves anterior (no se publica).",
+        "Fotos: assets/2026-10-22-tinkle-easyJet/ (5 fotos, local, gitignored). Salen en R2 con just post-images.",
+        "Slug: tinkle-easyjet-event-2026-sound-and-technician. Categories News, Events, Corporate & Enterprise. siloRole news, targetPage \"/\".",
+        "Sirve de Experience: al publicarse se suma a la lista de la regla 4 del posicionamiento en CLAUDE.md (mismo cambio) y a tests/llms-txt.spec.ts si lista los News.",
+        "Pantalla, tarima, sillas, plantas y escenografia NO son de MEG (solo sonido y tecnico)."
+      ]
     },
     {
       "id": "#T0146",
