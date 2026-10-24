@@ -24,7 +24,10 @@ export const FOLLOWED_EXTERNAL_HOSTS = Object.freeze([
 	'easyjet.com',
 	// Top Group Express, the group hotel partner: a plain followed link (decision of the user,
 	// 2026-10-08, "not sponsored").
-	'topgroupexpress.com'
+	'topgroupexpress.com',
+	// ECOC 2026, the congress at FYCMA behind the News post about the exhibitor stand screens: an
+	// editorial reference to the event, not paid (decision of the user, 2026-10-24).
+	'ecoc2026.org'
 ]);
 
 /** True when `hostname` is one of the followed hosts or a subdomain of one. */

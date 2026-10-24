@@ -20,7 +20,7 @@ const BODY = [
 	'',
 	'[Hotels](https://topgroupexpress.com/en) and [ECOC](https://www.ecoc2026.org/ECOC2026).',
 	'',
-	'[Chat](https://wa.me/34666346911) and [inside](/blog/lectern-rental/).'
+	'[Chat](https://wa.me/34666346911), [other](https://www.example.org/page) and [inside](/blog/lectern-rental/).'
 ].join('\n');
 
 /** The opening tag of the first <a> whose href contains `needle`. */
@@ -53,7 +53,9 @@ describe('isFollowedHost', () => {
 			'www.easyjet.com',
 			'corporate.easyjet.com',
 			'topgroupexpress.com',
-			'WWW.EasyJet.com'
+			'WWW.EasyJet.com',
+			'ecoc2026.org',
+			'www.ecoc2026.org'
 		]) {
 			expect(isFollowedHost(host), host).toBe(true);
 		}
@@ -61,21 +63,23 @@ describe('isFollowedHost', () => {
 
 	it('rejects every other host, and look alike hosts', () => {
 		for (const host of [
-			'ecoc2026.org',
+			'example.org',
 			'wa.me',
 			'google.com',
 			'eviltinkle.es',
 			'tinkle.es.evil.com',
 			'easyjet.com.evil.com',
-			'notastopgroupexpress.com'
+			'notastopgroupexpress.com',
+			'notecoc2026.org',
+			'ecoc2026.org.evil.com'
 		]) {
 			expect(isFollowedHost(host), host).toBe(false);
 		}
 	});
 
-	it('lists the three hosts the business chose', () => {
+	it('lists the four hosts the business chose', () => {
 		expect([...FOLLOWED_EXTERNAL_HOSTS].sort()).toEqual(
-			['easyjet.com', 'tinkle.es', 'topgroupexpress.com'].sort()
+			['easyjet.com', 'ecoc2026.org', 'tinkle.es', 'topgroupexpress.com'].sort()
 		);
 	});
 });
@@ -110,7 +114,7 @@ describe('rehypeFollowedExternalLinks (tree)', () => {
 
 	it('leaves a host that was not chosen, a relative link, mailto and tel alone', () => {
 		for (const href of [
-			'https://www.ecoc2026.org/ECOC2026',
+			'https://www.example.org/page',
 			'/blog/lectern-rental/',
 			'mailto:info@malagaeventgear.com',
 			'tel:+34666346911',
@@ -132,14 +136,14 @@ describe('the post body as the build compiles it', () => {
 
 	it('with the plugin the chosen hosts are plain followed links', async () => {
 		const code = await render([rehypeFollowedExternalLinks]);
-		for (const needle of ['tinkle.es', 'easyjet.com', 'topgroupexpress.com']) {
+		for (const needle of ['tinkle.es', 'easyjet.com', 'topgroupexpress.com', 'ecoc2026.org']) {
 			expect(anchorFor(code, needle), needle).not.toMatch(/rel=/);
 		}
 	});
 
 	it('with the plugin the other external links keep nofollow', async () => {
 		const code = await render([rehypeFollowedExternalLinks]);
-		expect(anchorFor(code, 'ecoc2026.org')).toContain('rel="nofollow"');
+		expect(anchorFor(code, 'example.org')).toContain('rel="nofollow"');
 		expect(anchorFor(code, 'wa.me')).toContain('rel="nofollow"');
 	});
 });
