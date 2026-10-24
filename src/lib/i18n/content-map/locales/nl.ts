@@ -498,6 +498,11 @@ export default {
 			slug: 'draadloze-handmicrofoon-huren-malaga',
 			keyword: 'draadloze handmicrofoon huren in Malaga',
 			status: 'propuesta'
+		},
+		'tinkle-easyjet-event-2026-sound-and-technician': {
+			slug: 'evenement-tinkle-easyjet-malaga-geluid-technicus',
+			keyword: 'evenement voor Tinkle en easyJet in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

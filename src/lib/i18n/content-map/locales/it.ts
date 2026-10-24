@@ -514,6 +514,11 @@ export default {
 			slug: 'noleggio-microfono-palmare-wireless-malaga',
 			keyword: 'noleggio microfono palmare wireless a Malaga',
 			status: 'propuesta'
+		},
+		'tinkle-easyjet-event-2026-sound-and-technician': {
+			slug: 'evento-tinkle-easyjet-malaga-audio-tecnico',
+			keyword: 'evento Tinkle ed easyJet a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

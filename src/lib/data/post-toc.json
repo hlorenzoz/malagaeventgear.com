@@ -6538,6 +6538,33 @@
       "level": 3
     }
   ],
+  "tinkle-easyjet-event-2026-sound-and-technician": [
+    {
+      "id": "what-we-supplied",
+      "text": "What We Supplied",
+      "level": 2
+    },
+    {
+      "id": "a-talk-in-the-centre-of-malaga",
+      "text": "A Talk in the Centre of Malaga",
+      "level": 2
+    },
+    {
+      "id": "a-request-that-came-in-by-phone",
+      "text": "A Request That Came in by Phone",
+      "level": 2
+    },
+    {
+      "id": "what-a-talk-like-this-needs-from-the-sound",
+      "text": "What a Talk Like This Needs From the Sound",
+      "level": 2
+    },
+    {
+      "id": "organising-a-talk-or-a-panel-in-malaga",
+      "text": "Organising a Talk or a Panel in Malaga?",
+      "level": 2
+    }
+  ],
   "outdoor-movie-screen-and-projector-rental": [
     {
       "id": "brief-overview",

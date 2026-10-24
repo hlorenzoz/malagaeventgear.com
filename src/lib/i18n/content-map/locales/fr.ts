@@ -518,6 +518,11 @@ export default {
 			slug: 'location-micro-main-sans-fil-malaga',
 			keyword: 'location de micro main sans fil à Malaga',
 			status: 'propuesta'
+		},
+		'tinkle-easyjet-event-2026-sound-and-technician': {
+			slug: 'evenement-tinkle-easyjet-malaga-son-technicien',
+			keyword: 'événement Tinkle et easyJet à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

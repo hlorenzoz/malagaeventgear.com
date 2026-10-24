@@ -525,6 +525,11 @@ export default {
 			slug: 'aluguel-microfone-de-mao-sem-fio-malaga',
 			keyword: 'aluguel de microfone de mão sem fio em Málaga',
 			status: 'propuesta'
+		},
+		'tinkle-easyjet-event-2026-sound-and-technician': {
+			slug: 'evento-tinkle-easyjet-malaga-som-tecnico',
+			keyword: 'evento Tinkle e easyJet em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

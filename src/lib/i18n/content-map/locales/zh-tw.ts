@@ -458,6 +458,11 @@ export default {
 			slug: '無線手持麥克風租賃',
 			keyword: '馬拉加 無線手持麥克風租賃',
 			status: 'propuesta'
+		},
+		'tinkle-easyjet-event-2026-sound-and-technician': {
+			slug: '市中心活動音響與技術人員',
+			keyword: 'Tinkle easyJet活動',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

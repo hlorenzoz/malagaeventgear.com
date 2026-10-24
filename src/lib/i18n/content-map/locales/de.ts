@@ -494,6 +494,11 @@ export default {
 			slug: 'kabelloses-handmikrofon-mieten-malaga',
 			keyword: 'kabelloses Handmikrofon mieten in Malaga',
 			status: 'propuesta'
+		},
+		'tinkle-easyjet-event-2026-sound-and-technician': {
+			slug: 'event-tinkle-easyjet-malaga-ton-techniker',
+			keyword: 'Event für Tinkle und easyJet in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

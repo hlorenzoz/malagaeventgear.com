@@ -502,6 +502,11 @@ export default {
 			slug: 'leje-tradlos-handholdt-mikrofon-malaga',
 			keyword: 'leje trådløs håndholdt mikrofon i Malaga',
 			status: 'propuesta'
+		},
+		'tinkle-easyjet-event-2026-sound-and-technician': {
+			slug: 'event-tinkle-easyjet-malaga-lyd-tekniker',
+			keyword: 'event for Tinkle og easyJet i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -494,6 +494,11 @@ export default {
 			slug: 'hyra-tradlos-handmikrofon-malaga',
 			keyword: 'hyra trådlös handmikrofon i Malaga',
 			status: 'propuesta'
+		},
+		'tinkle-easyjet-event-2026-sound-and-technician': {
+			slug: 'evenemang-tinkle-easyjet-malaga-ljud-tekniker',
+			keyword: 'evenemang för Tinkle och easyJet i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

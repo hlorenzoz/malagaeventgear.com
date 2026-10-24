@@ -462,6 +462,11 @@ export default {
 			slug: '無線手持咪高峰租借',
 			keyword: '馬拉加 無線手持咪高峰租借',
 			status: 'propuesta'
+		},
+		'tinkle-easyjet-event-2026-sound-and-technician': {
+			slug: '市中心活動音響與技術人員',
+			keyword: 'Tinkle easyJet活動',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

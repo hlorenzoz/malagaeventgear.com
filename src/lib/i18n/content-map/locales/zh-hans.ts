@@ -462,6 +462,11 @@ export default {
 			slug: '无线手持麦克风租赁',
 			keyword: '马拉加 无线手持麦克风租赁',
 			status: 'propuesta'
+		},
+		'tinkle-easyjet-event-2026-sound-and-technician': {
+			slug: '市中心活动音响与技术人员',
+			keyword: 'Tinkle easyJet活动',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
