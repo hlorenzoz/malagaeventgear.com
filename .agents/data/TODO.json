@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "tasks": [
     {
       "id": "#T0085",
@@ -885,6 +885,24 @@
       ]
     },
     {
+      "id": "#T0152",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/tv-screen-rental/: \"How much does an LED screen rental cost?\"",
+      "anotada": "2026-10-25",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-25, ítem 1)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/tv-screen-rental.svx",
+        "Keywords: led screen rental price, led screens rental (gsc pos 10 1 impr), sin volumen",
+        "Por qué: Misma intención: precio de alquiler de pantallas LED. /blog/tv-screen-rental/ ya tiene los FAQs 'Do you rent an LED screen?' y la sección 'What We Don't Stock: LED Video Walls and Modular LED Panels', pero ningún FAQ responde al precio. Se añade un FAQ en ese post (no post nuevo, evita canibalizar).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
       "id": "#T0110",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1442,6 +1460,28 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0153",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-25",
+      "anotada": "2026-10-25",
+      "hecha": "2026-10-25",
+      "origen": "content-strategist (plan 2026-10-25, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "lcd display rental (Cubierto por /blog/tv-screen-rental/, encabezado 'Is a TV Screen the Same as a Display Monitor or Plasma Screen?'.)",
+        "conference av equipment rental (Misma intención servida por /blog/audio-visual-rental-for-conferences/ y /blog/audio-visual-rental-for-corporate-events/. Otro post sería canibalización (creating-helpful-content.md).)",
+        "exhibition equipment hire (Cubierto por /blog/audio-visual-rental-for-trade-shows/ y /blog/audio-visual-rental-for-art-exhibitions/.)",
+        "laaghangende rookmachine huren (Cubierto por /blog/smoke-machine-rental/, encabezado 'Fog, Haze and Low Lying Fog Are Three Different Products'. La versión neerlandesa ya existe en las traducciones.)",
+        "complete wedding package (Cubierto por /blog/all-in-one-wedding-rental-packages/ (Wedding Pack de 650 euros).)",
+        "av suppliers near me (Variantes 'near me' de páginas existentes: doorway abuse en spam-policies.md. La demanda local ya vive en secciones 'Booking and Service Area'.)",
+        "hire av (Frases genéricas sin intención específica, ya servidas por el pilar /blog/audio-visual-rental/. Solo señal de una impresión.)",
+        "event décor rentals wedding design standardization (Fuera de mercado o de negocio: decoración que MEG no ofrece, iluminación de cine, búsquedas de otra empresa llamada Eventgear o genéricas sin intención (creating-helpful-content.md).)"
+      ]
     },
     {
       "id": "#T0149",
