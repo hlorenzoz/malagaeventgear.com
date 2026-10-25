@@ -1,0 +1,94 @@
+{
+	"date": "2026-10-25",
+	"run": {
+		"status": "ok",
+		"candidatesReviewed": 20,
+		"tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+	},
+	"items": [
+		{
+			"keywords": ["led screen rental price", "led screens rental"],
+			"cluster": "audio visual rental",
+			"action": "add-faq",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 10 1 impr",
+			"reason": "Misma intención: precio de alquiler de pantallas LED. /blog/tv-screen-rental/ ya tiene los FAQs 'Do you rent an LED screen?' y la sección 'What We Don't Stock: LED Video Walls and Modular LED Panels', pero ningún FAQ responde al precio. Se añade un FAQ en ese post (no post nuevo, evita canibalizar).",
+			"targetUrl": "/blog/tv-screen-rental/",
+			"file": "src/content/blog/tv-screen-rental.svx",
+			"question": "How much does an LED screen rental cost?"
+		},
+		{
+			"keywords": ["lcd display rental"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 26 1 impr",
+			"reason": "Cubierto por /blog/tv-screen-rental/, encabezado 'Is a TV Screen the Same as a Display Monitor or Plasma Screen?'."
+		},
+		{
+			"keywords": ["conference av equipment rental", "conference and event equipment hire"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 8 1 impr",
+			"reason": "Misma intención servida por /blog/audio-visual-rental-for-conferences/ y /blog/audio-visual-rental-for-corporate-events/. Otro post sería canibalización (creating-helpful-content.md)."
+		},
+		{
+			"keywords": ["exhibition equipment hire"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 10 1 impr",
+			"reason": "Cubierto por /blog/audio-visual-rental-for-trade-shows/ y /blog/audio-visual-rental-for-art-exhibitions/."
+		},
+		{
+			"keywords": ["laaghangende rookmachine huren"],
+			"cluster": "stage lighting rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 16 1 impr",
+			"reason": "Cubierto por /blog/smoke-machine-rental/, encabezado 'Fog, Haze and Low Lying Fog Are Three Different Products'. La versión neerlandesa ya existe en las traducciones."
+		},
+		{
+			"keywords": ["complete wedding package"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 30 1 impr",
+			"reason": "Cubierto por /blog/all-in-one-wedding-rental-packages/ (Wedding Pack de 650 euros)."
+		},
+		{
+			"keywords": ["av suppliers near me", "dj equipment rental near me", "is it where to rent lighting equipment for a small venue near me"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 16 1 impr",
+			"reason": "Variantes 'near me' de páginas existentes: doorway abuse en spam-policies.md. La demanda local ya vive en secciones 'Booking and Service Area'."
+		},
+		{
+			"keywords": ["hire av", "hire event", "event essentials rentals", "event pro gear"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 12 1 impr",
+			"reason": "Frases genéricas sin intención específica, ya servidas por el pilar /blog/audio-visual-rental/. Solo señal de una impresión."
+		},
+		{
+			"keywords": ["event décor rentals wedding design standardization", "film lighting rentals", "malaga events", "eventgear adresse", "eventgear oy"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 8 1 impr",
+			"reason": "Fuera de mercado o de negocio: decoración que MEG no ofrece, iluminación de cine, búsquedas de otra empresa llamada Eventgear o genéricas sin intención (creating-helpful-content.md)."
+		}
+	]
+}
