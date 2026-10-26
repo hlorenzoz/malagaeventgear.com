@@ -85308,6 +85308,24 @@
       }
     },
     {
+      "id": "do-enterprise-rentals-have-cameras",
+      "question": "do enterprise rentals have cameras",
+      "keywordId": "audio-visual-rental-company",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-26",
+          "lastSeen": "2026-10-26",
+          "seeds": [
+            "audio-visual-rental-company"
+          ]
+        }
+      }
+    },
+    {
       "id": "do-i-get-a-discount-if-my-guest-count-drops-after-booking",
       "question": "Do I get a discount if my guest count drops after booking?",
       "keywordId": "managing-last-minute-wedding-rental-changes",
@@ -85696,7 +85714,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-visual-rental-company"
           ]
@@ -90901,7 +90919,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-visual-hire-near-me"
           ]
@@ -90919,7 +90937,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-visual-hire-near-me"
           ]
@@ -91083,7 +91101,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-video-rental-near-me"
           ]
@@ -91324,7 +91342,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-visual-hire-near-me"
           ]
@@ -91802,7 +91820,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-system-calibration"
           ]
@@ -91820,7 +91838,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-system-calibration"
           ]
@@ -91838,7 +91856,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-system-calibration"
           ]
@@ -91856,7 +91874,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-system-calibration"
           ]
@@ -91946,7 +91964,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-system-calibration"
           ]
@@ -91964,7 +91982,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-system-calibration"
           ]
@@ -92054,7 +92072,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-visual-rental-for-charity-fundraisers"
           ]
@@ -92144,7 +92162,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-01",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-visual-rental-for-music-performances"
           ]
@@ -92278,6 +92296,24 @@
       }
     },
     {
+      "id": "how-to-start-an-audio-visual-company",
+      "question": "how to start an audio visual company",
+      "keywordId": "audio-visual-rental-company",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-26",
+          "lastSeen": "2026-10-26",
+          "seeds": [
+            "audio-visual-rental-company"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-to-use-adaptiq-audio-calibration-system",
       "question": "how to use adaptiq audio calibration system",
       "keywordId": "audio-system-calibration",
@@ -92288,7 +92324,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-system-calibration"
           ]
@@ -93723,7 +93759,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-video-rental-near-me"
           ]
@@ -94764,7 +94800,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-01",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-visual-rental-for-gala-dinners"
           ]
@@ -95141,7 +95177,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-01",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-visual-rental-for-gala-dinners"
           ]
@@ -95573,7 +95609,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-01",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-visual-rental-for-gala-dinners"
           ]
@@ -95727,7 +95763,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-23",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-visual-rental-companies",
             "audio-visual-rental-for-product-launches",
@@ -95910,7 +95946,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-01",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-visual-rental-for-gala-dinners"
           ]
@@ -96429,7 +96465,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-visual-rental-companies",
             "audio-visual-rental-company"
@@ -97364,7 +97400,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-video-rental-near-me"
           ]
@@ -97617,7 +97653,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-system-calibration"
           ]
@@ -98250,7 +98286,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-system-calibration"
           ]
@@ -98286,7 +98322,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-09-30",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-system-calibration"
           ]
@@ -98512,7 +98548,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-18",
+          "lastSeen": "2026-10-26",
           "seeds": [
             "audio-system-calibration"
           ]
