@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "tasks": [
     {
       "id": "#T0085",
@@ -885,6 +885,116 @@
       ]
     },
     {
+      "id": "#T0154",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Nueva sección H2 en /blog/audio-visual-rental-for-weddings/: \"Projector and Screen for Wedding Photos and Videos\"",
+      "anotada": "2026-10-26",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-26, ítem 1)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audio-visual-rental-for-weddings.svx",
+        "Ubicación: después de \"Speeches at the Reception: The Handheld Microphone and the Handoff\"",
+        "Keywords: projector rental for wedding (gsc pos 13 1 impr), sin volumen",
+        "Qué cubrir: Explicar cuándo una boda necesita proyector y pantalla (proyección de fotos o vídeo de los novios en la recepción), qué debe decir el cliente a MEG (sala, luz ambiente, número de invitados) y que el equipo va con el técnico. Usar solo proyectores y pantallas de .agents/context/inventario/*.csv y src/lib/data/packages.ts, y verificar allí modelo y precio antes de citarlos. No prometer disponibilidad ni plazos, y enlazar a /blog/projector-rental/ solo si la cadena de silo lo permite.",
+        "Por qué: Intención real de clientes de boda (fotos y vídeo en recepción). /blog/projector-rental/ cubre el producto pero ninguna sección de la guía de AV para bodas trata el proyector. Se revisaron projector-rental y audio-visual-rental-for-weddings: sin encabezado equivalente. Evita post nuevo (creating-helpful-content.md: mejorar página existente).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0156",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "keywords",
+      "titulo": "Recuperar \"speaker and microphone rental\": cayo de 1 a 7",
+      "anotada": "2026-10-26",
+      "hecha": null,
+      "origen": "ubersuggest (rank-tracking, rank/speaker-and-microphone-rental)",
+      "notas": [],
+      "descripcion": [
+        "Base: mejor posicion de los ultimos 90 dias.",
+        "Reporte rank-tracking de ubersuggest del 2026-10-26."
+      ]
+    },
+    {
+      "id": "#T0157",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "keywords",
+      "titulo": "Recuperar \"sound system rental for events\": dejo de rankear (era 12)",
+      "anotada": "2026-10-26",
+      "hecha": null,
+      "origen": "ubersuggest (rank-tracking, rank/sound-system-rental-for-events)",
+      "notas": [],
+      "descripcion": [
+        "Base: mejor posicion de los ultimos 90 dias.",
+        "Reporte rank-tracking de ubersuggest del 2026-10-26."
+      ]
+    },
+    {
+      "id": "#T0158",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "keywords",
+      "titulo": "Recuperar \"speaker rental\": cayo de 6 a 52",
+      "anotada": "2026-10-26",
+      "hecha": null,
+      "origen": "ubersuggest (rank-tracking, rank/speaker-rental)",
+      "notas": [],
+      "descripcion": [
+        "Base: mejor posicion de los ultimos 90 dias.",
+        "Reporte rank-tracking de ubersuggest del 2026-10-26."
+      ]
+    },
+    {
+      "id": "#T0159",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "keywords",
+      "titulo": "Recuperar \"audio visual equipment hire\": cayo de 4 a 7",
+      "anotada": "2026-10-26",
+      "hecha": null,
+      "origen": "ubersuggest (rank-tracking, rank/audio-visual-equipment-hire)",
+      "notas": [],
+      "descripcion": [
+        "Base: mejor posicion de los ultimos 90 dias.",
+        "Reporte rank-tracking de ubersuggest del 2026-10-26."
+      ]
+    },
+    {
+      "id": "#T0160",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "keywords",
+      "titulo": "Recuperar \"hire av equipment\": dejo de rankear (era 14)",
+      "anotada": "2026-10-26",
+      "hecha": null,
+      "origen": "ubersuggest (rank-tracking, rank/hire-av-equipment)",
+      "notas": [],
+      "descripcion": [
+        "Base: mejor posicion de los ultimos 90 dias.",
+        "Reporte rank-tracking de ubersuggest del 2026-10-26."
+      ]
+    },
+    {
+      "id": "#T0161",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "keywords",
+      "titulo": "Recuperar \"rent tv screen\": cayo de 3 a 6",
+      "anotada": "2026-10-26",
+      "hecha": null,
+      "origen": "ubersuggest (rank-tracking, rank/rent-tv-screen)",
+      "notas": [],
+      "descripcion": [
+        "Base: mejor posicion de los ultimos 90 dias.",
+        "Reporte rank-tracking de ubersuggest del 2026-10-26."
+      ]
+    },
+    {
       "id": "#T0152",
       "estado": "pendiente",
       "prioridad": "media",
@@ -900,6 +1010,25 @@
         "Keywords: led screen rental price, led screens rental (gsc pos 10 1 impr), sin volumen",
         "Por qué: Misma intención: precio de alquiler de pantallas LED. /blog/tv-screen-rental/ ya tiene los FAQs 'Do you rent an LED screen?' y la sección 'What We Don't Stock: LED Video Walls and Modular LED Panels', pero ningún FAQ responde al precio. Se añade un FAQ en ese post (no post nuevo, evita canibalizar).",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0125",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "keywords",
+      "titulo": "Recuperar \"malaga wedding packages all inclusive\": dejo de rankear (era 28)",
+      "anotada": "2026-10-12",
+      "hecha": null,
+      "origen": "ubersuggest (rank-tracking, rank/malaga-wedding-packages-all-inclusive)",
+      "notas": [
+        "commit del post en 13 idiomas: seccion H2 y FAQ con el vocabulario all inclusive que la reescritura de julio habia quitado. La caida que marca Ubersuggest NO esta confirmada: el export de GSC del 2026-10-13 es un total de 12 meses",
+        "sin serie por consulta",
+        "reabierta por ubersuggest el 2026-10-26"
+      ],
+      "descripcion": [
+        "Base: mejor posicion de los ultimos 90 dias.",
+        "Reporte rank-tracking de ubersuggest del 2026-10-12."
       ]
     },
     {
@@ -1460,6 +1589,31 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0155",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-26",
+      "anotada": "2026-10-26",
+      "hecha": "2026-10-26",
+      "origen": "content-strategist (plan 2026-10-26, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "malaga weddings packages (Cubierto por /blog/all-in-one-wedding-rental-packages/ (encabezados 'Our All Inclusive Wedding Pack in Malaga' y 'What's Included, at 650 Euros'). Mismo intento: segundo post sería canibalización.)",
+        "party equipment hire (Cubierto por /blog/audio-visual-rental-for-private-parties/ (sección 'What a Private Party Actually Needs'). Un encabezado más repetiría lo existente.)",
+        "projection hire (Cubierto por /blog/projector-rental/ ('Projector and Screen Pricing by Package', 'Why the Screen Is Always Bundled With the Projector') y /blog/tv-screen-rental/. Sin intención distinta.)",
+        "reliable p2.976 party event rental led display factory (Búsqueda de fabricante (factory) de pantallas LED: otro negocio, no alquiler de eventos en Málaga. No encaja.)",
+        "remote audio visual (Cubierto por /blog/audio-visual-rental-for-remote-presentations/ ('A Remote Presenter, Not a Full Virtual Event').)",
+        "rent studio equipment (Equipo de estudio (grabación) no es un evento: MEG no lo tiene ni es su servicio. Una sola impresión, sin señal.)",
+        "rental audio visual equipment (Término amplio que ya sirve el pilar /blog/audiovisual-equipment-rental-service/ y /blog/audio-visual-rental/. Un post o sección nuevos serían canibalización.)",
+        "rental furniture wedding (MEG es solo audiovisual en bodas (CLAUDE.md, silo wedding rentals). Mobiliario no está en inventario ni es el servicio.)",
+        "rental lights (Cubierto por el pilar /blog/stage-lighting-rental/ ('The Full Stage Lighting Roster' y FAQs). Término demasiado genérico para una sección propia.)",
+        "rentals for wedding (Término amplio del pilar /blog/wedding-rentals/. Ya es su palabra clave, sin hueco para nueva sección.)",
+        "renting a speaker (Intención servida por /blog/sound-system-rental/ y los posts near me ya existentes. Variante near me: doorway abuse en spam-policies.md, no se crea nada.)"
+      ]
     },
     {
       "id": "#T0153",
@@ -2106,24 +2260,6 @@
         "Qué cubrir: Responder que una pantalla LED grande para exterior no esta en el inventario propio (el inventario propio incluye proyector con pantalla de proyeccion y la pantalla LED de 60 pulgadas del MICE Pack, ver packages.ts) y que el cliente indica tamano, ubicacion y horario y MEG busca una solucion con sus proveedores. Usar el mismo encuadre que la FAQ de la pantalla hinchable: sin marca, modelo, cantidad, precio, disponibilidad ni plazo. Mencionar que la potencia y el sol directo del lugar condicionan la solucion. No presentarla como equipo propio.",
         "Por qué: Ninguna entrada cubre una pantalla LED grande para exterior: tv-screen-rental solo trata pantallas de TV y su FAQ de exterior es de otro alcance. Es una necesidad sourced (muro LED no esta en el inventario propio), asi que va como FAQ en el post de eventos al aire libre, sin pagina nueva (creating-helpful-content.md: mejorar la pagina existente).",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
-      "id": "#T0125",
-      "estado": "hecha",
-      "prioridad": "media",
-      "tipo": "keywords",
-      "titulo": "Recuperar \"malaga wedding packages all inclusive\": dejo de rankear (era 28)",
-      "anotada": "2026-10-12",
-      "hecha": "2026-10-13",
-      "origen": "ubersuggest (rank-tracking, rank/malaga-wedding-packages-all-inclusive)",
-      "notas": [
-        "commit del post en 13 idiomas: seccion H2 y FAQ con el vocabulario all inclusive que la reescritura de julio habia quitado. La caida que marca Ubersuggest NO esta confirmada: el export de GSC del 2026-10-13 es un total de 12 meses",
-        "sin serie por consulta"
-      ],
-      "descripcion": [
-        "Base: mejor posicion de los ultimos 90 dias.",
-        "Reporte rank-tracking de ubersuggest del 2026-10-12."
       ]
     },
     {
