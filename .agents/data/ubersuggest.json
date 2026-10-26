@@ -1,7 +1,101 @@
 {
 	"version": 1,
-	"updated": "2026-10-25",
+	"updated": "2026-10-26",
 	"reports": [
+		{
+			"date": "2026-10-26",
+			"kind": "rank-tracking",
+			"status": "ok",
+			"calls": [
+				{
+					"tool": "user_limits",
+					"outcome": "ok"
+				},
+				{
+					"tool": "list_projects",
+					"outcome": "ok"
+				},
+				{
+					"tool": "project_position_info",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "ok"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "user_limits",
+					"outcome": "ok"
+				}
+			],
+			"summary": [
+				"20 tracked keywords, Spain English desktop: up 10, down 8, unchanged 2.",
+				"Top 3: 1 (was 1), top 10: 10 (was 1), top 100: 4 (was 16), not ranking: 5 (was 2).",
+				"Average position by week: 42.93, 42.71, 6.5, 19.81, 8. Next update 2026-11-02."
+			],
+			"findings": [
+				{
+					"key": "rank/speaker-and-microphone-rental",
+					"title": "Recuperar \"speaker and microphone rental\": cayo de 1 a 7"
+				},
+				{
+					"key": "rank/sound-system-rental-for-events",
+					"title": "Recuperar \"sound system rental for events\": dejo de rankear (era 12)"
+				},
+				{
+					"key": "rank/speaker-rental",
+					"title": "Recuperar \"speaker rental\": cayo de 6 a 52"
+				},
+				{
+					"key": "rank/audio-visual-equipment-hire",
+					"title": "Recuperar \"audio visual equipment hire\": cayo de 4 a 7"
+				},
+				{
+					"key": "rank/malaga-wedding-packages-all-inclusive",
+					"title": "Recuperar \"malaga wedding packages all inclusive\": dejo de rankear (era 28)"
+				},
+				{
+					"key": "rank/hire-av-equipment",
+					"title": "Recuperar \"hire av equipment\": dejo de rankear (era 14)"
+				},
+				{
+					"key": "rank/rent-tv-screen",
+					"title": "Recuperar \"rent tv screen\": cayo de 3 a 6"
+				}
+			],
+			"discovered": {
+				"keywords": 20,
+				"aiPrompts": 57
+			}
+		},
 		{
 			"date": "2026-10-25",
 			"kind": "competitor-keywords",
