@@ -1,0 +1,54 @@
+{
+	"date": "2026-10-26",
+	"taskId": "#T0154",
+	"slug": "audio-visual-rental-for-weddings",
+	"searchTerm": "projector rental for wedding",
+	"status": "partial",
+	"reason": "Not localized to Spain. Google positions 2, 3 (completewedo.com, HTTP 403), 4 (forum), 5 (forum) and 6 (atawa.com, HTTP 403) were skipped; the pages read are Google positions 1, 8 and 9. Results are mostly US, Czech and UK vendor pages, so the vocabulary is thin.",
+	"serp": {
+		"query": "projector and screen rental wedding photos videos",
+		"localized": false,
+		"results": [
+			{ "rank": 1, "url": "https://weddingwire.com/biz/galaxy-illumination/6bcd7bfd29651ee8.html", "title": "weddingwire.com" },
+			{ "rank": 2, "url": "https://shop.pragueweddings.com.host.fmm.cz/en/data-projector-screen", "title": "Data projector + screen" },
+			{ "rank": 3, "url": "https://www.thesessionshouse.com/product-page/to-rent-laser-projector-for-photo-slideshow", "title": "[To Rent] Laser projector for photo slideshow" }
+		]
+	},
+	"terms": [
+		{ "term": "projector and screen rental", "kind": "related", "seenIn": 2 },
+		{ "term": "photo slideshow", "kind": "related", "seenIn": 2 },
+		{ "term": "video playback", "kind": "related", "seenIn": 2 },
+		{ "term": "laptop connection", "kind": "related", "seenIn": 2 },
+		{ "term": "projection screen", "kind": "entity", "seenIn": 1 },
+		{ "term": "data projector", "kind": "entity", "seenIn": 1 },
+		{ "term": "laser projector", "kind": "entity", "seenIn": 1 },
+		{ "term": "4K UHD resolution", "kind": "related", "seenIn": 1 },
+		{ "term": "brightness and colour accuracy", "kind": "related", "seenIn": 1 },
+		{ "term": "HDMI adapter", "kind": "entity", "seenIn": 1 },
+		{ "term": "VGA input", "kind": "related", "seenIn": 1 },
+		{ "term": "150-inch screen", "kind": "entity", "seenIn": 1 },
+		{ "term": "inflatable screen", "kind": "entity", "seenIn": 1 },
+		{ "term": "custom framed screen", "kind": "entity", "seenIn": 1 },
+		{ "term": "indoor and outdoor screening", "kind": "related", "seenIn": 1 },
+		{ "term": "setup and takedown", "kind": "related", "seenIn": 1 },
+		{ "term": "equipment testing", "kind": "related", "seenIn": 1 },
+		{ "term": "wedding speeches", "kind": "entity", "seenIn": 1 },
+		{ "term": "wedding ceremony", "kind": "entity", "seenIn": 1 },
+		{ "term": "wedding reception", "kind": "entity", "seenIn": 1 },
+		{ "term": "video messages", "kind": "related", "seenIn": 1 },
+		{ "term": "photo booth", "kind": "entity", "seenIn": 1 },
+		{ "term": "What screen sizes are available?", "kind": "question", "seenIn": 1 },
+		{ "term": "Is the projector suitable for weddings?", "kind": "question", "seenIn": 1 }
+	],
+	"discarded": [
+		{ "term": "Couples' Choice Awards", "reason": "marketing, not vocabulary" },
+		{ "term": "Family-owned event rental business", "reason": "marketing slogan" },
+		{ "term": "Rental price", "reason": "price and currency" },
+		{ "term": "Refundable deposit requirement", "reason": "price related" },
+		{ "term": "Prague venue delivery", "reason": "place other than Spain" },
+		{ "term": "Add to cart", "reason": "shop interface text" },
+		{ "term": "Quantity selection", "reason": "shop interface text" },
+		{ "term": "Agency-client-only rental", "reason": "competitor offer wording" },
+		{ "term": "Late availability wedding package", "reason": "competitor offer wording" }
+	]
+}
