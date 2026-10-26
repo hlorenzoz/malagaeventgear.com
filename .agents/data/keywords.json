@@ -55555,8 +55555,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audio-visual-rental-for-weddings/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -55569,6 +55569,10 @@
             "ctr": 0,
             "position": 13
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-26",
+          "lastSeen": "2026-10-26"
         },
         "content-plan": {
           "firstSeen": "2026-10-26",
