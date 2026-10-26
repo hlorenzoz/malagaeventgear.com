@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-26",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 20,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "items": [
+    {
+      "keywords": ["projector rental for wedding"],
+      "cluster": "audio visual rental",
+      "action": "add-section",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 13 1 impr",
+      "reason": "Intención real de clientes de boda (fotos y vídeo en recepción). /blog/projector-rental/ cubre el producto pero ninguna sección de la guía de AV para bodas trata el proyector. Se revisaron projector-rental y audio-visual-rental-for-weddings: sin encabezado equivalente. Evita post nuevo (creating-helpful-content.md: mejorar página existente).",
+      "targetUrl": "/blog/audio-visual-rental-for-weddings/",
+      "file": "src/content/blog/audio-visual-rental-for-weddings.svx",
+      "headingLevel": 2,
+      "heading": "Projector and Screen for Wedding Photos and Videos",
+      "after": "Speeches at the Reception: The Handheld Microphone and the Handoff",
+      "brief": "Explicar cuándo una boda necesita proyector y pantalla (proyección de fotos o vídeo de los novios en la recepción), qué debe decir el cliente a MEG (sala, luz ambiente, número de invitados) y que el equipo va con el técnico. Usar solo proyectores y pantallas de .agents/context/inventario/*.csv y src/lib/data/packages.ts, y verificar allí modelo y precio antes de citarlos. No prometer disponibilidad ni plazos, y enlazar a /blog/projector-rental/ solo si la cadena de silo lo permite."
+    },
+    {
+      "keywords": ["malaga weddings packages", "marriage package"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 12 1 impr",
+      "reason": "Cubierto por /blog/all-in-one-wedding-rental-packages/ (encabezados 'Our All Inclusive Wedding Pack in Malaga' y 'What's Included, at 650 Euros'). Mismo intento: segundo post sería canibalización."
+    },
+    {
+      "keywords": ["party equipment hire", "rent party equipment"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 10 1 impr",
+      "reason": "Cubierto por /blog/audio-visual-rental-for-private-parties/ (sección 'What a Private Party Actually Needs'). Un encabezado más repetiría lo existente."
+    },
+    {
+      "keywords": ["projection hire", "screen rent", "screen rentals for events"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 9 1 impr",
+      "reason": "Cubierto por /blog/projector-rental/ ('Projector and Screen Pricing by Package', 'Why the Screen Is Always Bundled With the Projector') y /blog/tv-screen-rental/. Sin intención distinta."
+    },
+    {
+      "keywords": ["reliable p2.976 party event rental led display factory"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 13 1 impr",
+      "reason": "Búsqueda de fabricante (factory) de pantallas LED: otro negocio, no alquiler de eventos en Málaga. No encaja."
+    },
+    {
+      "keywords": ["remote audio visual"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 14 1 impr",
+      "reason": "Cubierto por /blog/audio-visual-rental-for-remote-presentations/ ('A Remote Presenter, Not a Full Virtual Event')."
+    },
+    {
+      "keywords": ["rent studio equipment"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 10 1 impr",
+      "reason": "Equipo de estudio (grabación) no es un evento: MEG no lo tiene ni es su servicio. Una sola impresión, sin señal."
+    },
+    {
+      "keywords": ["rental audio visual equipment", "rental audiovisual", "rental of audiovisual equipment"],
+      "cluster": "audiovisual equipment rental service",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 10 1 impr",
+      "reason": "Término amplio que ya sirve el pilar /blog/audiovisual-equipment-rental-service/ y /blog/audio-visual-rental/. Un post o sección nuevos serían canibalización."
+    },
+    {
+      "keywords": ["rental furniture wedding"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 10 1 impr",
+      "reason": "MEG es solo audiovisual en bodas (CLAUDE.md, silo wedding rentals). Mobiliario no está en inventario ni es el servicio."
+    },
+    {
+      "keywords": ["rental lights"],
+      "cluster": "stage lighting rental",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 29 1 impr",
+      "reason": "Cubierto por el pilar /blog/stage-lighting-rental/ ('The Full Stage Lighting Roster' y FAQs). Término demasiado genérico para una sección propia."
+    },
+    {
+      "keywords": ["rentals for wedding"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 16 1 impr",
+      "reason": "Término amplio del pilar /blog/wedding-rentals/. Ya es su palabra clave, sin hueco para nueva sección."
+    },
+    {
+      "keywords": ["renting a speaker", "speaker nearby", "sound for rent near me"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 11 1 impr",
+      "reason": "Intención servida por /blog/sound-system-rental/ y los posts near me ya existentes. Variante near me: doorway abuse en spam-policies.md, no se crea nada."
+    }
+  ]
+}
