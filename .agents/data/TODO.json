@@ -975,24 +975,6 @@
       ]
     },
     {
-      "id": "#T0152",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/tv-screen-rental/: \"How much does an LED screen rental cost?\"",
-      "anotada": "2026-10-25",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-25, ítem 1)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/tv-screen-rental.svx",
-        "Keywords: led screen rental price, led screens rental (gsc pos 10 1 impr), sin volumen",
-        "Por qué: Misma intención: precio de alquiler de pantallas LED. /blog/tv-screen-rental/ ya tiene los FAQs 'Do you rent an LED screen?' y la sección 'What We Don't Stock: LED Video Walls and Modular LED Panels', pero ningún FAQ responde al precio. Se añade un FAQ en ese post (no post nuevo, evita canibalizar).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0125",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1397,6 +1379,28 @@
       ],
       "descripcion": [
         "Añade soporte para OpenGraph según corresponda."
+      ]
+    },
+    {
+      "id": "#T0152",
+      "estado": "bloqueada",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/tv-screen-rental/: \"How much does an LED screen rental cost?\"",
+      "anotada": "2026-10-25",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-25, ítem 1)",
+      "notas": [
+        "bloqueada por todo-implementer 2026-10-26: el post ya responde al precio con 'How much does a TV screen rental cost?' (490 euros ex VAT) y 'Do you rent an LED screen?' (490 euros",
+        "MICE Pack); la intencion esta cubierta",
+        "el plan esta obsoleto"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/tv-screen-rental.svx",
+        "Keywords: led screen rental price, led screens rental (gsc pos 10 1 impr), sin volumen",
+        "Por qué: Misma intención: precio de alquiler de pantallas LED. /blog/tv-screen-rental/ ya tiene los FAQs 'Do you rent an LED screen?' y la sección 'What We Don't Stock: LED Video Walls and Modular LED Panels', pero ningún FAQ responde al precio. Se añade un FAQ en ese post (no post nuevo, evita canibalizar).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
