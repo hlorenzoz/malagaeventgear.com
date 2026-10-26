@@ -885,26 +885,6 @@
       ]
     },
     {
-      "id": "#T0154",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Nueva sección H2 en /blog/audio-visual-rental-for-weddings/: \"Projector and Screen for Wedding Photos and Videos\"",
-      "anotada": "2026-10-26",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-26, ítem 1)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/audio-visual-rental-for-weddings.svx",
-        "Ubicación: después de \"Speeches at the Reception: The Handheld Microphone and the Handoff\"",
-        "Keywords: projector rental for wedding (gsc pos 13 1 impr), sin volumen",
-        "Qué cubrir: Explicar cuándo una boda necesita proyector y pantalla (proyección de fotos o vídeo de los novios en la recepción), qué debe decir el cliente a MEG (sala, luz ambiente, número de invitados) y que el equipo va con el técnico. Usar solo proyectores y pantallas de .agents/context/inventario/*.csv y src/lib/data/packages.ts, y verificar allí modelo y precio antes de citarlos. No prometer disponibilidad ni plazos, y enlazar a /blog/projector-rental/ solo si la cadena de silo lo permite.",
-        "Por qué: Intención real de clientes de boda (fotos y vídeo en recepción). /blog/projector-rental/ cubre el producto pero ninguna sección de la guía de AV para bodas trata el proyector. Se revisaron projector-rental y audio-visual-rental-for-weddings: sin encabezado equivalente. Evita post nuevo (creating-helpful-content.md: mejorar página existente).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0156",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1589,6 +1569,28 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0154",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Nueva sección H2 en /blog/audio-visual-rental-for-weddings/: \"Projector and Screen for Wedding Photos and Videos\"",
+      "anotada": "2026-10-26",
+      "hecha": "2026-10-26",
+      "origen": "content-strategist (plan 2026-10-26, ítem 1)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audio-visual-rental-for-weddings.svx",
+        "Ubicación: después de \"Speeches at the Reception: The Handheld Microphone and the Handoff\"",
+        "Keywords: projector rental for wedding (gsc pos 13 1 impr), sin volumen",
+        "Qué cubrir: Explicar cuándo una boda necesita proyector y pantalla (proyección de fotos o vídeo de los novios en la recepción), qué debe decir el cliente a MEG (sala, luz ambiente, número de invitados) y que el equipo va con el técnico. Usar solo proyectores y pantallas de .agents/context/inventario/*.csv y src/lib/data/packages.ts, y verificar allí modelo y precio antes de citarlos. No prometer disponibilidad ni plazos, y enlazar a /blog/projector-rental/ solo si la cadena de silo lo permite.",
+        "Por qué: Intención real de clientes de boda (fotos y vídeo en recepción). /blog/projector-rental/ cubre el producto pero ninguna sección de la guía de AV para bodas trata el proyector. Se revisaron projector-rental y audio-visual-rental-for-weddings: sin encabezado equivalente. Evita post nuevo (creating-helpful-content.md: mejorar página existente).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
     },
     {
       "id": "#T0155",
