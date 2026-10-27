@@ -2415,6 +2415,16 @@
             "ctr": 0,
             "position": 34.58
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -9963,6 +9973,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-29"
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -12791,6 +12811,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 61.5
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -67750,6 +67780,16 @@
             "ctr": 0,
             "position": 33.97
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -70328,6 +70368,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 51
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -75198,6 +75248,16 @@
             "ctr": 0,
             "position": 9
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -75729,6 +75789,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 25
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -76462,6 +76532,16 @@
             "ctr": 0,
             "position": 10
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -76520,6 +76600,16 @@
             "ctr": 0,
             "position": 11
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -76548,6 +76638,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 12
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -76730,6 +76830,16 @@
             "ctr": 0,
             "position": 10
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -76896,6 +77006,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 15
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -78503,6 +78623,16 @@
             "ctr": 0,
             "position": 10
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -79025,6 +79155,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 11
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -80823,6 +80963,16 @@
             "ctr": 0,
             "position": 19
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -81212,6 +81362,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 16
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -81660,6 +81820,16 @@
             "ctr": 0,
             "position": 43.46
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -81880,6 +82050,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 68.58
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -82597,6 +82777,16 @@
             "ctr": 0,
             "position": 15
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -82710,6 +82900,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 8
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-27",
+          "lastSeen": "2026-10-27",
+          "stats": {
+            "asOf": "2026-10-27",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },

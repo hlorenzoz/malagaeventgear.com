@@ -1,0 +1,128 @@
+{
+	"date": "2026-10-27",
+	"run": {
+		"status": "ok",
+		"candidatesReviewed": 20,
+		"tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+	},
+	"todo": [],
+	"items": [
+		{
+			"keywords": ["tv rental for event", "tv screen rentals"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 11 1 impr; gsc pos 10 1 impr",
+			"reason": "Cubierto por /blog/tv-screen-rental/ (keyword TV screen rental, H2 'TV Screen Rental Pricing and What's Included' y FAQs sobre varias pantallas y un solo día). Una sección nueva repetiría lo que ya dice la página."
+		},
+		{
+			"keywords": ["tv hire near me", "tv rental near me", "where can i rent a tv near me"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 10 1 impr; gsc pos 12 1 impr; gsc pos 15 1 impr",
+			"reason": "Variante near me de /blog/tv-screen-rental/. Doorway abuse en spam-policies.md: la demanda local va a esa página y a su sección de zona de servicio, nunca a una página nueva."
+		},
+		{
+			"keywords": ["tent rentals near me wedding"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 9 1 impr",
+			"reason": "MEG no tiene carpas en su inventario y es una variante near me (Doorway abuse en spam-policies.md). /blog/weather-considerations-for-outdoor-rentals/ ya responde a la pregunta de carpas con el enfoque de proveedores."
+		},
+		{
+			"keywords": ["wedding decor rentals near me", "wedding rental decor", "wedding accessories rental"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 11 1 impr; gsc pos 19 1 impr; gsc pos 10 1 impr",
+			"reason": "Decoración y accesorios no son el negocio de MEG (silo de bodas solo AV, ver /blog/unique-wedding-ceremony-rentals/ y /blog/essential-items-for-wedding-rentals/ que ya aclaran lo que no se ofrece). Sin respuesta propia posible, según creating-helpful-content.md."
+		},
+		{
+			"keywords": ["timeline for booking wedding vendors"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 25 1 impr",
+			"reason": "Misma intención que /blog/timeline-for-booking-wedding-rentals/ (H2 'Why There's No Fixed Booking Window'). Una página nueva sería canibalización."
+		},
+		{
+			"keywords": ["up lighting for events"],
+			"cluster": "stage lighting rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 15 1 impr",
+			"reason": "Cubierto por /blog/stage-uplighting/ (keyword stage uplighting, FAQ 'Can Uplighting Be Added to a Corporate or MICE Event, Not Just a Wedding?'). Misma intención."
+		},
+		{
+			"keywords": ["wedding showroom costa del sol"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 16 1 impr",
+			"reason": "MEG no tiene showroom. /blog/wedding-rentals-online/ ya tiene la sección 'No Showroom, at Any Point in the Process'. Prometer un showroom sería falso."
+		},
+		{
+			"keywords": ["who typically covers the cost if a rental item arrives damaged before the \nevent?"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 8 1 impr",
+			"reason": "Cubierto por /blog/protecting-your-wedding-rental-items/ (FAQ 'Who is responsible if a rented item is damaged at my wedding?'). No se repite la pregunta."
+		},
+		{
+			"keywords": ["alquiler iluminacion eventos malaga"],
+			"cluster": "stage lighting rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 34.58 65 impr",
+			"reason": "Es la intención de /blog/stage-lighting-rental/ en español, que sirve la traducción al español de esa página. No se crea un post aparte por idioma ni por ciudad (spam-policies.md)."
+		},
+		{
+			"keywords": ["wedding spain packages", "spain weddings packages", "wedding weekend spain"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 43.46 52 impr; gsc pos 51 35 impr; gsc pos 68.58 45 impr",
+			"reason": "Consultas amplias de planificación de boda en España. La parte que MEG puede responder (paquete AV) ya está en /blog/all-in-one-wedding-rental-packages/ y /blog/wedding-rentals/. El resto (fin de semana de boda, venues) MEG no lo respalda: creating-helpful-content.md."
+		},
+		{
+			"keywords": ["audiovisual equipment rental"],
+			"cluster": "audiovisual equipment rental service",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 49.09 44 impr",
+			"reason": "Es el término amplio del pilar /blog/audiovisual-equipment-rental-service/. Ya lo cubre ese pilar, no necesita sección nueva."
+		},
+		{
+			"keywords": ["sound lighting events spain"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 33.97 39 impr",
+			"reason": "Consulta geográfica amplia que sirven /blog/audio-visual-rental/ y /blog/stage-lighting-rental/. Una página para España sería doorway abuse."
+		},
+		{
+			"keywords": ["av troubleshooting"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 61.5 36 impr",
+			"reason": "Cubierto por /blog/av-system-troubleshooting/, que ya existe con esa intención."
+		}
+	]
+}
