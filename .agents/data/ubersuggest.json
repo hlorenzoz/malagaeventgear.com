@@ -1,7 +1,60 @@
 {
 	"version": 1,
-	"updated": "2026-10-26",
+	"updated": "2026-10-27",
 	"reports": [
+		{
+			"date": "2026-10-27",
+			"kind": "backlinks",
+			"status": "partial",
+			"reason": "backlink_opportunity returned no rows with done false, so opportunities are unknown rather than zero",
+			"calls": [
+				{
+					"tool": "backlinks_overview",
+					"outcome": "ok"
+				},
+				{
+					"tool": "backlink_opportunity",
+					"outcome": "empty"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "failed"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				}
+			],
+			"summary": [
+				"backlinks_overview: domainAuthority 2, backlinks 125, refDomains 93, refDomainsGovEdu 0, follow 116, noFollow 9",
+				"backlink_opportunity: no rows returned (done false). The two backlinks calls together cost 1 report (reports 0 -> 1)."
+			],
+			"findings": [],
+			"discovered": {
+				"keywords": 0,
+				"aiPrompts": 57
+			}
+		},
 		{
 			"date": "2026-10-26",
 			"kind": "rank-tracking",
