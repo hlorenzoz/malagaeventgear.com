@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "tasks": [
     {
       "id": "#T0085",
@@ -1573,6 +1573,33 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0162",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-27",
+      "anotada": "2026-10-27",
+      "hecha": "2026-10-27",
+      "origen": "content-strategist (plan 2026-10-27, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "tv rental for event (Cubierto por /blog/tv-screen-rental/ (keyword TV screen rental, H2 'TV Screen Rental Pricing and What's Included' y FAQs sobre varias pantallas y un solo día). Una sección nueva repetiría lo que ya dice la página.)",
+        "tv hire near me (Variante near me de /blog/tv-screen-rental/. Doorway abuse en spam-policies.md: la demanda local va a esa página y a su sección de zona de servicio, nunca a una página nueva.)",
+        "tent rentals near me wedding (MEG no tiene carpas en su inventario y es una variante near me (Doorway abuse en spam-policies.md). /blog/weather-considerations-for-outdoor-rentals/ ya responde a la pregunta de carpas con el enfoque de proveedores.)",
+        "wedding decor rentals near me (Decoración y accesorios no son el negocio de MEG (silo de bodas solo AV, ver /blog/unique-wedding-ceremony-rentals/ y /blog/essential-items-for-wedding-rentals/ que ya aclaran lo que no se ofrece). Sin respuesta propia posible, según creating-helpful-content.md.)",
+        "timeline for booking wedding vendors (Misma intención que /blog/timeline-for-booking-wedding-rentals/ (H2 'Why There's No Fixed Booking Window'). Una página nueva sería canibalización.)",
+        "up lighting for events (Cubierto por /blog/stage-uplighting/ (keyword stage uplighting, FAQ 'Can Uplighting Be Added to a Corporate or MICE Event, Not Just a Wedding?'). Misma intención.)",
+        "wedding showroom costa del sol (MEG no tiene showroom. /blog/wedding-rentals-online/ ya tiene la sección 'No Showroom, at Any Point in the Process'. Prometer un showroom sería falso.)",
+        "who typically covers the cost if a rental item arrives damaged before the \nevent? (Cubierto por /blog/protecting-your-wedding-rental-items/ (FAQ 'Who is responsible if a rented item is damaged at my wedding?'). No se repite la pregunta.)",
+        "alquiler iluminacion eventos malaga (Es la intención de /blog/stage-lighting-rental/ en español, que sirve la traducción al español de esa página. No se crea un post aparte por idioma ni por ciudad (spam-policies.md).)",
+        "wedding spain packages (Consultas amplias de planificación de boda en España. La parte que MEG puede responder (paquete AV) ya está en /blog/all-in-one-wedding-rental-packages/ y /blog/wedding-rentals/. El resto (fin de semana de boda, venues) MEG no lo respalda: creating-helpful-content.md.)",
+        "audiovisual equipment rental (Es el término amplio del pilar /blog/audiovisual-equipment-rental-service/. Ya lo cubre ese pilar, no necesita sección nueva.)",
+        "sound lighting events spain (Consulta geográfica amplia que sirven /blog/audio-visual-rental/ y /blog/stage-lighting-rental/. Una página para España sería doorway abuse.)",
+        "av troubleshooting (Cubierto por /blog/av-system-troubleshooting/, que ya existe con esa intención.)"
+      ]
     },
     {
       "id": "#T0154",
