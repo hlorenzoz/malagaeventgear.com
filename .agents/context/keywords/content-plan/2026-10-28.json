@@ -1,0 +1,108 @@
+{
+	"date": "2026-10-28",
+	"run": {
+		"status": "ok",
+		"reason": "Los 20 candidatos son frases de Search Console sin volumen medido (unknown). Todos quedan en skip: ya cubiertos, fuera de mercado o variantes sin respaldo. Los tamaños de inventario se revisaron por encabezados, no se leyeron los posts completos.",
+		"candidatesReviewed": 20,
+		"tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+	},
+	"todo": [],
+	"items": [
+		{
+			"keywords": [
+				"all inclusive spain elopement packages",
+				"weddings in spain packages prices",
+				"package weddings in spain",
+				"wedding in spain packages",
+				"wedding package spain",
+				"wedding packages in spain"
+			],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 57 33 impr (all inclusive spain elopement packages), pos 64 32 impr (weddings in spain packages prices)",
+			"reason": "Misma intención: paquetes de boda completos en España (lugar, catering, planificación). MEG solo vende el audiovisual y no puede respaldar un paquete de boda completo (creating-helpful-content.md: no prometer lo que no se puede responder). Lo audiovisual ya está en /blog/all-in-one-wedding-rental-packages/, encabezados 'Our All Inclusive Wedding Pack in Malaga' y 'What All in One Doesn't Cover'. Una página nueva sería canibalización."
+		},
+		{
+			"keywords": ["malaga wedding"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 63.09 22 impr",
+			"reason": "Término genérico de bodas en Málaga, sin intención de alquiler audiovisual. El pilar /blog/wedding-rentals/ ya sirve la intención de MEG. Una página por ciudad sería doorway abuse (spam-policies.md)."
+		},
+		{
+			"keywords": ["all inclusive madrid wedding packages"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 60.44 25 impr",
+			"reason": "Fuera de mercado: Madrid no es el área de servicio de MEG y además pide paquete de boda completo."
+		},
+		{
+			"keywords": ["how far in advance do i book a wedding venue in miami"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 92.33 18 impr",
+			"reason": "Fuera de mercado (Miami) y es un negocio distinto (reserva de sala)."
+		},
+		{
+			"keywords": [
+				"alquiler de equipos de iluminación para eventos en malaga",
+				"alquiler de equipos de iluminación para bodas en malaga",
+				"alquiler de equipos de iluminación para congresos en malaga",
+				"alquiler de equipos audiovisuales para eventos en malaga",
+				"alquiler de equipos audiovisuales para bodas en malaga",
+				"alquiler de equipos de sonido para bodas en malaga",
+				"alquiler de equipos de sonido para congresos en malaga"
+			],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 59.85 27 impr (iluminación eventos), pos 49.85 26 impr (audiovisuales eventos)",
+			"reason": "Variantes en español de servicio por tipo de evento que ya cubren los posts en inglés y sus traducciones al español (stage-lighting-rental, audio-visual-rental, wedding-rentals, audio-visual-rental-for-conferences). Un post nuevo por combinación servicio y evento sería contenido a escala (spam-policies.md, Scaled content). Se trabaja con la traducción al español de esas páginas."
+		},
+		{
+			"keywords": ["hire projector"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 32.3 20 impr",
+			"reason": "Misma intención que 'projector rental' (variante británica 'hire'). Cubierto por /blog/projector-rental/, encabezado 'Projector and Screen Pricing by Package' y su FAQ 'How much does a projector rental cost?'. Un encabezado nuevo repetiría lo existente."
+		},
+		{
+			"keywords": ["hire a tv for the day"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 37.38 16 impr",
+			"reason": "Cubierto por /blog/tv-screen-rental/, pregunta FAQ 'Can I rent a TV screen for just one day?'."
+		},
+		{
+			"keywords": ["dj equipment hire"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 60.95 19 impr",
+			"reason": "Cubierto por /blog/sound-system-rental/, encabezado 'PA System or DJ Sound: Matching Equipment to the Event' y FAQ 'Can I rent a complete DJ system for a party?'."
+		},
+		{
+			"keywords": ["event logistics malaga"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 49.71 17 impr",
+			"reason": "La intención es logística general de eventos (transporte, producción completa), no alquiler audiovisual. MEG no puede responderla con inventario propio ni con sus proveedores confirmados. Es una variante geográfica y no justifica página nueva (spam-policies.md, Doorway abuse)."
+		}
+	]
+}
