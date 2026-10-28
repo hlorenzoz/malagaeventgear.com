@@ -1,7 +1,64 @@
 {
 	"version": 1,
-	"updated": "2026-10-27",
+	"updated": "2026-10-28",
 	"reports": [
+		{
+			"date": "2026-10-28",
+			"kind": "top-pages",
+			"status": "partial",
+			"reason": "domain_top_pages returned an empty result and traffic_value was refused with HTTP 403. Only domain_overview answered.",
+			"calls": [
+				{
+					"tool": "domain_top_pages",
+					"outcome": "empty"
+				},
+				{
+					"tool": "domain_overview",
+					"outcome": "ok"
+				},
+				{
+					"tool": "traffic_value",
+					"outcome": "failed"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "ok"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				}
+			],
+			"summary": [
+				"domain_overview: organic keywords 4, traffic 38, domain authority 2, backlinks 125, referring domains 93.",
+				"domain_top_pages returned nothing (1 report). traffic_value failed with 403. domain_overview cost 0 reports. Reports used today: 2 of 3 (the serp_analysis call took the other one)."
+			],
+			"findings": [],
+			"discovered": {
+				"keywords": 0,
+				"aiPrompts": 60
+			}
+		},
 		{
 			"date": "2026-10-27",
 			"kind": "backlinks",
