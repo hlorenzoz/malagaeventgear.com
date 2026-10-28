@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "tasks": [
     {
       "id": "#T0085",
@@ -1573,6 +1573,29 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0163",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-28",
+      "anotada": "2026-10-28",
+      "hecha": "2026-10-28",
+      "origen": "content-strategist (plan 2026-10-28, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "all inclusive spain elopement packages (Misma intención: paquetes de boda completos en España (lugar, catering, planificación). MEG solo vende el audiovisual y no puede respaldar un paquete de boda completo (creating-helpful-content.md: no prometer lo que no se puede responder). Lo audiovisual ya está en /blog/all-in-one-wedding-rental-packages/, encabezados 'Our All Inclusive Wedding Pack in Malaga' y 'What All in One Doesn't Cover'. Una página nueva sería canibalización.)",
+        "malaga wedding (Término genérico de bodas en Málaga, sin intención de alquiler audiovisual. El pilar /blog/wedding-rentals/ ya sirve la intención de MEG. Una página por ciudad sería doorway abuse (spam-policies.md).)",
+        "all inclusive madrid wedding packages (Fuera de mercado: Madrid no es el área de servicio de MEG y además pide paquete de boda completo.)",
+        "how far in advance do i book a wedding venue in miami (Fuera de mercado (Miami) y es un negocio distinto (reserva de sala).)",
+        "alquiler de equipos de iluminación para eventos en malaga (Variantes en español de servicio por tipo de evento que ya cubren los posts en inglés y sus traducciones al español (stage-lighting-rental, audio-visual-rental, wedding-rentals, audio-visual-rental-for-conferences). Un post nuevo por combinación servicio y evento sería contenido a escala (spam-policies.md, Scaled content). Se trabaja con la traducción al español de esas páginas.)",
+        "hire projector (Misma intención que 'projector rental' (variante británica 'hire'). Cubierto por /blog/projector-rental/, encabezado 'Projector and Screen Pricing by Package' y su FAQ 'How much does a projector rental cost?'. Un encabezado nuevo repetiría lo existente.)",
+        "hire a tv for the day (Cubierto por /blog/tv-screen-rental/, pregunta FAQ 'Can I rent a TV screen for just one day?'.)",
+        "dj equipment hire (Cubierto por /blog/sound-system-rental/, encabezado 'PA System or DJ Sound: Matching Equipment to the Event' y FAQ 'Can I rent a complete DJ system for a party?'.)",
+        "event logistics malaga (La intención es logística general de eventos (transporte, producción completa), no alquiler audiovisual. MEG no puede responderla con inventario propio ni con sus proveedores confirmados. Es una variante geográfica y no justifica página nueva (spam-policies.md, Doorway abuse).)"
+      ]
     },
     {
       "id": "#T0162",
