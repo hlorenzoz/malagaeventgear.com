@@ -84021,7 +84021,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "wedding-rentals"
           ]
@@ -84039,7 +84039,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "wedding-rentals"
           ]
@@ -84162,7 +84162,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "lectern-rental"
           ]
@@ -84252,7 +84252,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "wedding-rentals"
           ]
@@ -85131,7 +85131,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "lectern-rental"
           ]
@@ -85149,7 +85149,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "stage-uplighting"
           ]
@@ -85329,7 +85329,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "wedding-rentals"
           ]
@@ -85488,7 +85488,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "projector-rental"
           ]
@@ -85506,7 +85506,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "wedding-rentals"
           ]
@@ -85524,7 +85524,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "wedding-rentals"
           ]
@@ -85542,7 +85542,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "wedding-rentals"
           ]
@@ -88579,6 +88579,24 @@
       }
     },
     {
+      "id": "how-do-you-approach-basic-troubleshooting-on-an-av-issue",
+      "question": "how do you approach basic troubleshooting on an av issue",
+      "keywordId": "av-system-troubleshooting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-28",
+          "lastSeen": "2026-10-28",
+          "seeds": [
+            "av-system-troubleshooting"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-do-you-keep-guests-safe-around-speaker-stands-and-microphone-stands",
       "question": "How do you keep guests safe around speaker stands and microphone stands?",
       "keywordId": "audio-visual-rental-safety-guidelines",
@@ -88715,7 +88733,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-22",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "stage-lighting-for-weddings",
             "stage-uplighting"
@@ -88770,6 +88788,24 @@
           "lastSeen": "2026-10-28",
           "urls": [
             "/blog/video-switcher-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-does-troubleshooting-work",
+      "question": "how does troubleshooting work",
+      "keywordId": "av-system-troubleshooting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-28",
+          "lastSeen": "2026-10-28",
+          "seeds": [
+            "av-system-troubleshooting"
           ]
         }
       }
@@ -90619,7 +90655,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "wedding-rentals"
           ]
@@ -90637,7 +90673,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-23",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "wedding-rentals",
             "wedding-rentals-near-me"
@@ -90710,7 +90746,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "av-technician-hire"
           ]
@@ -90728,7 +90764,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "av-cable-management",
             "av-equipment-consultations"
@@ -90747,7 +90783,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "av-cable-management"
           ]
@@ -91235,7 +91271,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "av-cable-management"
           ]
@@ -91395,7 +91431,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-23",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "wedding-rentals",
             "wedding-rentals-near-me"
@@ -91450,7 +91486,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "projector-rental"
           ]
@@ -91468,7 +91504,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "projector-rental"
           ]
@@ -91782,7 +91818,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "projector-rental"
           ]
@@ -91890,7 +91926,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "projector-rental"
           ]
@@ -92036,7 +92072,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "projector-rental"
           ]
@@ -92090,7 +92126,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "projector-rental"
           ]
@@ -92108,7 +92144,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "projector-rental"
           ]
@@ -92126,7 +92162,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "projector-rental"
           ]
@@ -92296,7 +92332,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "projector-rental"
           ]
@@ -92332,7 +92368,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "lectern-rental"
           ]
@@ -92512,7 +92548,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "lectern-rental"
           ]
@@ -92638,7 +92674,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "projector-rental"
           ]
@@ -92656,7 +92692,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "lectern-rental"
           ]
@@ -92713,6 +92749,24 @@
           "lastSeen": "2026-10-26",
           "seeds": [
             "audio-visual-rental-company"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-troubleshoot-system",
+      "question": "how to troubleshoot system",
+      "keywordId": "av-system-troubleshooting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-28",
+          "lastSeen": "2026-10-28",
+          "seeds": [
+            "av-system-troubleshooting"
           ]
         }
       }
@@ -93625,9 +93679,10 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-23",
-          "lastSeen": "2026-10-25",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "pros-and-cons-of-wedding-rentals",
+            "wedding-rentals",
             "wedding-rentals-near-me"
           ]
         }
@@ -94560,7 +94615,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "av-equipment-consultations"
           ]
@@ -94579,6 +94634,24 @@
         "site-faq": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-10-28"
+        }
+      }
+    },
+    {
+      "id": "what-are-the-7-steps-of-troubleshooting",
+      "question": "what are the 7 steps of troubleshooting",
+      "keywordId": "av-system-troubleshooting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-28",
+          "lastSeen": "2026-10-28",
+          "seeds": [
+            "av-system-troubleshooting"
+          ]
         }
       }
     },
@@ -94719,7 +94792,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "wedding-rentals"
           ]
@@ -94737,7 +94810,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "wedding-rentals"
           ]
@@ -95186,7 +95259,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "av-equipment-consultations"
           ]
@@ -95376,6 +95449,24 @@
       }
     },
     {
+      "id": "what-does-av-reset-mean",
+      "question": "what does av reset mean",
+      "keywordId": "av-system-troubleshooting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-28",
+          "lastSeen": "2026-10-28",
+          "seeds": [
+            "av-system-troubleshooting"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-does-near-me-mean-if-malaga-event-gear-has-no-showroom",
       "question": "What does \"near me\" mean if Malaga Event Gear has no showroom?",
       "keywordId": "wedding-rentals-near-me",
@@ -95509,7 +95600,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "event-technology-service"
           ]
@@ -95617,7 +95708,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "event-technology-service"
           ]
@@ -96232,6 +96323,42 @@
       }
     },
     {
+      "id": "what-is-av-reset",
+      "question": "what is av reset",
+      "keywordId": "av-system-troubleshooting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-28",
+          "lastSeen": "2026-10-28",
+          "seeds": [
+            "av-system-troubleshooting"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-is-av-system-troubleshooting",
+      "question": "what is av system troubleshooting",
+      "keywordId": "av-system-troubleshooting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-28",
+          "lastSeen": "2026-10-28",
+          "seeds": [
+            "av-system-troubleshooting"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-is-considered-audio-visual-equipment",
       "question": "what is considered audio visual equipment",
       "keywordId": "audiovisual-equipment-rental-service",
@@ -96260,7 +96387,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "event-technology-service"
           ]
@@ -96296,7 +96423,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "event-technology-service"
           ]
@@ -96314,7 +96441,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "event-technology-service"
           ]
@@ -96527,7 +96654,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "stage-uplighting"
           ]
@@ -96545,7 +96672,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "stage-uplighting"
           ]
@@ -96581,7 +96708,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "stage-uplighting"
           ]
@@ -97134,7 +97261,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "stage-uplighting"
           ]
@@ -97242,7 +97369,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "wedding-rentals"
           ]
@@ -97643,7 +97770,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "stage-uplighting"
           ]
@@ -98002,7 +98129,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-22",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "stage-lighting-for-weddings",
             "stage-uplighting"
@@ -98039,7 +98166,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "stage-uplighting"
           ]
@@ -98075,7 +98202,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "stage-uplighting"
           ]
@@ -98450,7 +98577,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "av-equipment-consultations"
           ]
@@ -98576,7 +98703,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "stage-uplighting"
           ]
@@ -98617,7 +98744,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "stage-uplighting"
           ]
@@ -98635,7 +98762,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "stage-uplighting"
           ]
@@ -98653,7 +98780,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "stage-uplighting"
           ]
@@ -98996,6 +99123,24 @@
       }
     },
     {
+      "id": "why-is-my-av-not-working",
+      "question": "why is my av not working",
+      "keywordId": "av-system-troubleshooting",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-28",
+          "lastSeen": "2026-10-28",
+          "seeds": [
+            "av-system-troubleshooting"
+          ]
+        }
+      }
+    },
+    {
       "id": "why-is-stage-lighting-important",
       "question": "why is stage lighting important",
       "keywordId": "stage-uplighting",
@@ -99006,7 +99151,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "stage-uplighting"
           ]
@@ -99134,7 +99279,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-10-28",
           "seeds": [
             "wedding-rentals"
           ]
