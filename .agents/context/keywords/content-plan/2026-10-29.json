@@ -1,0 +1,137 @@
+{
+	"date": "2026-10-29",
+	"run": {
+		"status": "ok",
+		"candidatesReviewed": 20,
+		"tier": { "level": 100, "value": 149.5, "export": "2026-09-29" },
+		"reason": "Los 20 candidatos son frases de Search Console sin volumen medido (todos unknown) y todos ya estan cubiertos por una pagina existente, son de otro mercado o no encajan. Ninguna seccion, FAQ ni post nuevo es justificable sin crear canibalizacion."
+	},
+	"items": [
+		{
+			"keywords": ["spanish weddings packages", "weddings spain packages", "wedding package in spain", "all inclusive wedding packages in spain"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 54.23 13 impr",
+			"reason": "Cubierto por /blog/all-in-one-wedding-rental-packages/ (headings 'Our All Inclusive Wedding Pack in Malaga' y 'What \"All in One\" Doesn't Cover', FAQ 'Do you offer all inclusive wedding packages in Malaga?') y por el pilar /blog/wedding-rentals/. Una pagina nueva por 'Spain' seria una variante geografica de una pagina existente (spam-policies.md, Doorway abuse) y MEG solo vende audiovisual, no paquetes de boda completos."
+		},
+		{
+			"keywords": ["all inclusive barcelona elopement packages"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 73.43 7 impr",
+			"reason": "Fuera de mercado: Barcelona esta fuera del area de servicio de MEG y la intencion es un paquete de fuga de boda completo, no alquiler audiovisual (creating-helpful-content.md)."
+		},
+		{
+			"keywords": ["alquiler de equipos de sonido para eventos en malaga", "alquiler sonido malaga"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 90.75 12 impr",
+			"reason": "Misma intencion que /blog/sound-system-rental/ y que el pilar /blog/audio-visual-rental/ (seccion 'Where to Rent Audio Visual Equipment in Malaga'). El espanol se sirve con la traduccion de esas paginas, no con una pagina nueva."
+		},
+		{
+			"keywords": ["dj equipment rent"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 57.17 12 impr",
+			"reason": "Cubierto por /blog/sound-system-rental/ (seccion PA o DJ y FAQ sobre alquilar un sistema DJ para una fiesta) y por /blog/audio-visual-rental-for-music-performances/ (heading 'DJ Set, Live Band or Duo: What You Actually Need')."
+		},
+		{
+			"keywords": ["wedding tent hire"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 74.25 12 impr",
+			"reason": "Cubierto: /blog/weather-considerations-for-outdoor-rentals/ ya responde 'Do you supply tents, canopies or generators' y tiene el heading 'What MEG Does Not Stock'. Una pagina de carpas implicaria un producto que MEG no tiene."
+		},
+		{
+			"keywords": ["wedding furniture rental"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 37.5 8 impr",
+			"reason": "Cubierto por /blog/essential-items-for-wedding-rentals/ (FAQ 'Does the Wedding Pack include chairs, tables or linens?') y /blog/all-in-one-wedding-rental-packages/ (FAQ sobre venue, catering o mobiliario). MEG no tiene mobiliario propio."
+		},
+		{
+			"keywords": ["custom event av setups"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 60.55 11 impr",
+			"reason": "Cubierto por /blog/av-equipment-consultations/ (FAQ 'Can I customize a package after I've already booked it?') y por el pilar /blog/audio-visual-rental/. Un post nuevo duplicaria la intencion."
+		},
+		{
+			"keywords": ["hybrid event tech spain"],
+			"cluster": "event technology service",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 71.44 9 impr",
+			"reason": "Cubierto por /blog/event-technology-service/ (FAQ 'Do You Offer Live Streaming or Event Technology for Hybrid or Virtual Events?') y /blog/audio-visual-rental-for-virtual-events/. La variante 'spain' es geografica (Doorway abuse)."
+		},
+		{
+			"keywords": ["alquiler de equipos audiovisuales para congresos en malaga"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 80.38 8 impr",
+			"reason": "Cubierto por /blog/audio-visual-rental-for-conferences/ (FAQ 'What services does Malaga Event Gear provide for conferences in Malaga?' y heading 'Plenary and Breakout')."
+		},
+		{
+			"keywords": ["alquiler de iluminacion malaga"],
+			"cluster": "stage lighting rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 6.12 8 impr",
+			"reason": "Cubierto por el pilar /blog/stage-lighting-rental/ (roster completo y precios por paquete). Ya posiciona en 6.12, no hace falta contenido nuevo."
+		},
+		{
+			"keywords": ["alquiler led malaga"],
+			"cluster": "audiovisual equipment rental service",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 3.71 7 impr",
+			"reason": "Cubierto por /blog/tv-screen-rental/ (FAQs 'Do you rent an LED screen?' y 'Can Malaga Event Gear source an LED video wall through a supplier?') y por la FAQ del pilar /blog/audiovisual-equipment-rental-service/. Ya posiciona en 3.71."
+		},
+		{
+			"keywords": ["audiovisual for events", "audiovisual equipment"],
+			"cluster": "audiovisual equipment rental service",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 47.12 8 impr",
+			"reason": "Terminos amplios que pertenecen a los pilares /blog/audio-visual-rental/ (FAQ 'What is audio visual equipment?') y /blog/audiovisual-equipment-rental-service/. Una pagina nueva seria silo overlap."
+		},
+		{
+			"keywords": ["big screen tv hire", "rent 55 inch screen"],
+			"cluster": "audiovisual equipment rental service",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 7.75 8 impr",
+			"reason": "Cubierto por /blog/tv-screen-rental/ (FAQs 'Do you rent a 55 inch screen?' y 'Do you rent a 65 inch TV or a bigger screen for a large event?'). Ya posiciona en 6.75 a 7.75."
+		},
+		{
+			"keywords": ["preparing for different weather conditions during short-term rental stay"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 47 8 impr",
+			"reason": "Otro negocio: alquiler de alojamiento vacacional, no alquiler de equipos para eventos (creating-helpful-content.md, no entrar en un tema sin experiencia real)."
+		}
+	]
+}
