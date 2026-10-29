@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "tasks": [
     {
       "id": "#T0085",
@@ -48,6 +48,39 @@
         "- Respetar el cupo de posts nuevos por día y SDD para lo que no sea contenido.",
         "",
         "Entregable final: un documento de plan del clúster (keywords, estructura, enlaces, orden de publicación por tier) para aprobación del usuario, y después las tareas hijas en TODO.json. Esta tarea no escribe posts."
+      ]
+    },
+    {
+      "id": "#T0165",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"hire av equipment\" (new_content)",
+      "anotada": "2026-10-29",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/hire-av-equipment)",
+      "notas": [],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-29."
+      ]
+    },
+    {
+      "id": "#T0132",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"audio visual rental company\" (new_content)",
+      "anotada": "2026-10-15",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/audio-visual-rental-company)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-29"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-15."
       ]
     },
     {
@@ -128,6 +161,66 @@
         "8. Tests: e2e de las paginas en /es/, hreflang, sitemaps y precache del PWA. Build y Lighthouse.",
         "",
         "Cuidados: seguir SDD (regla 6). Español de España, con revision nativa (el usuario es hablante nativo). Nunca prometer atencion en otro idioma que no sea ingles o español. Sin paginas de relleno en ingles bajo /es/."
+      ]
+    },
+    {
+      "id": "#T0081",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"sound system rental for events\" (new_content)",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-system-rental-for-events)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-22",
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-29"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
+      ]
+    },
+    {
+      "id": "#T0082",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"sound and light rental\" (new_content)",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-and-light-rental)",
+      "notas": [
+        "seccion H2 en /blog/sound-system-rental/ en los 13 idiomas. La keyword sigue idea en keywords.json (la tarea no viene de un plan). SERP casi sin terminos",
+        "reabierta por ubersuggest el 2026-10-29"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
+      ]
+    },
+    {
+      "id": "#T0083",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"audio visual rental companies\" (existing_content)",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/existing-content/audio-visual-rental-companies)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-15",
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-22",
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-29"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY existing_content. impacto low, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
       ]
     },
     {
@@ -501,26 +594,6 @@
       "descripcion": [
         "Marcas que si aparecen: ninguna",
         "Reporte ai-visibility de ubersuggest del 2026-10-01."
-      ]
-    },
-    {
-      "id": "#T0047",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"projector hire\" (new_content)",
-      "anotada": "2026-09-30",
-      "hecha": null,
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/projector-hire)",
-      "notas": [
-        "2026-10-07 decision: NO post nuevo (projector hire: 10 busquedas/mes",
-        "23 impresiones GSC en posicion 35",
-        "canibalizaria projector-rental). Se agrego 'also called projector hire' a la intro de projector-rental (commit 5c4d175a). No se agrego FAQ de coste porque ya existe 'How much does a projector rental cost?' con los tres precios. No se agrego FAQ de un solo dia porque el post y packages.ts no dan duracion ni minimos de alquiler (CONFIRMAR con el negocio si se quiere). Las 12 traducciones NO llevan la frase a proposito: 'hire' es un sinonimo del ingles britanico sin equivalente en los otros idiomas. Medir en GSC dentro de unas semanas",
-        "reabierta por ubersuggest el 2026-10-22"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto medium, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
       ]
     },
     {
@@ -1575,6 +1648,72 @@
       "descripcion": []
     },
     {
+      "id": "#T0164",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-10-29",
+      "anotada": "2026-10-29",
+      "hecha": "2026-10-29",
+      "origen": "content-strategist (plan 2026-10-29, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "spanish weddings packages (Cubierto por /blog/all-in-one-wedding-rental-packages/ (headings 'Our All Inclusive Wedding Pack in Malaga' y 'What \"All in One\" Doesn't Cover', FAQ 'Do you offer all inclusive wedding packages in Malaga?') y por el pilar /blog/wedding-rentals/. Una pagina nueva por 'Spain' seria una variante geografica de una pagina existente (spam-policies.md, Doorway abuse) y MEG solo vende audiovisual, no paquetes de boda completos.)",
+        "all inclusive barcelona elopement packages (Fuera de mercado: Barcelona esta fuera del area de servicio de MEG y la intencion es un paquete de fuga de boda completo, no alquiler audiovisual (creating-helpful-content.md).)",
+        "alquiler de equipos de sonido para eventos en malaga (Misma intencion que /blog/sound-system-rental/ y que el pilar /blog/audio-visual-rental/ (seccion 'Where to Rent Audio Visual Equipment in Malaga'). El espanol se sirve con la traduccion de esas paginas, no con una pagina nueva.)",
+        "dj equipment rent (Cubierto por /blog/sound-system-rental/ (seccion PA o DJ y FAQ sobre alquilar un sistema DJ para una fiesta) y por /blog/audio-visual-rental-for-music-performances/ (heading 'DJ Set, Live Band or Duo: What You Actually Need').)",
+        "wedding tent hire (Cubierto: /blog/weather-considerations-for-outdoor-rentals/ ya responde 'Do you supply tents, canopies or generators' y tiene el heading 'What MEG Does Not Stock'. Una pagina de carpas implicaria un producto que MEG no tiene.)",
+        "wedding furniture rental (Cubierto por /blog/essential-items-for-wedding-rentals/ (FAQ 'Does the Wedding Pack include chairs, tables or linens?') y /blog/all-in-one-wedding-rental-packages/ (FAQ sobre venue, catering o mobiliario). MEG no tiene mobiliario propio.)",
+        "custom event av setups (Cubierto por /blog/av-equipment-consultations/ (FAQ 'Can I customize a package after I've already booked it?') y por el pilar /blog/audio-visual-rental/. Un post nuevo duplicaria la intencion.)",
+        "hybrid event tech spain (Cubierto por /blog/event-technology-service/ (FAQ 'Do You Offer Live Streaming or Event Technology for Hybrid or Virtual Events?') y /blog/audio-visual-rental-for-virtual-events/. La variante 'spain' es geografica (Doorway abuse).)",
+        "alquiler de equipos audiovisuales para congresos en malaga (Cubierto por /blog/audio-visual-rental-for-conferences/ (FAQ 'What services does Malaga Event Gear provide for conferences in Malaga?' y heading 'Plenary and Breakout').)",
+        "alquiler de iluminacion malaga (Cubierto por el pilar /blog/stage-lighting-rental/ (roster completo y precios por paquete). Ya posiciona en 6.12, no hace falta contenido nuevo.)",
+        "alquiler led malaga (Cubierto por /blog/tv-screen-rental/ (FAQs 'Do you rent an LED screen?' y 'Can Malaga Event Gear source an LED video wall through a supplier?') y por la FAQ del pilar /blog/audiovisual-equipment-rental-service/. Ya posiciona en 3.71.)",
+        "audiovisual for events (Terminos amplios que pertenecen a los pilares /blog/audio-visual-rental/ (FAQ 'What is audio visual equipment?') y /blog/audiovisual-equipment-rental-service/. Una pagina nueva seria silo overlap.)",
+        "big screen tv hire (Cubierto por /blog/tv-screen-rental/ (FAQs 'Do you rent a 55 inch screen?' y 'Do you rent a 65 inch TV or a bigger screen for a large event?'). Ya posiciona en 6.75 a 7.75.)",
+        "preparing for different weather conditions during short-term rental stay (Otro negocio: alquiler de alojamiento vacacional, no alquiler de equipos para eventos (creating-helpful-content.md, no entrar en un tema sin experiencia real).)"
+      ]
+    },
+    {
+      "id": "#T0166",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"speaker rental\" (new_content)",
+      "anotada": "2026-10-29",
+      "hecha": "2026-10-29",
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/speaker-rental)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-29."
+      ]
+    },
+    {
+      "id": "#T0047",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"projector hire\" (new_content)",
+      "anotada": "2026-09-30",
+      "hecha": "2026-10-29",
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/projector-hire)",
+      "notas": [
+        "2026-10-07 decision: NO post nuevo (projector hire: 10 busquedas/mes",
+        "23 impresiones GSC en posicion 35",
+        "canibalizaria projector-rental). Se agrego 'also called projector hire' a la intro de projector-rental (commit 5c4d175a). No se agrego FAQ de coste porque ya existe 'How much does a projector rental cost?' con los tres precios. No se agrego FAQ de un solo dia porque el post y packages.ts no dan duracion ni minimos de alquiler (CONFIRMAR con el negocio si se quiere). Las 12 traducciones NO llevan la frase a proposito: 'hire' es un sinonimo del ingles britanico sin equivalente en los otros idiomas. Medir en GSC dentro de unas semanas",
+        "reabierta por ubersuggest el 2026-10-22",
+        "cerrada por el reporte de ubersuggest"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto medium, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-09-30."
+      ]
+    },
+    {
       "id": "#T0163",
       "estado": "hecha",
       "prioridad": "baja",
@@ -1972,46 +2111,6 @@
       ]
     },
     {
-      "id": "#T0081",
-      "estado": "hecha",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"sound system rental for events\" (new_content)",
-      "anotada": "2026-10-08",
-      "hecha": "2026-10-22",
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-system-rental-for-events)",
-      "notas": [
-        "cerrada por el reporte de ubersuggest",
-        "reabierta por ubersuggest el 2026-10-22",
-        "cerrada por el reporte de ubersuggest"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
-      ]
-    },
-    {
-      "id": "#T0083",
-      "estado": "hecha",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"audio visual rental companies\" (existing_content)",
-      "anotada": "2026-10-08",
-      "hecha": "2026-10-22",
-      "origen": "ubersuggest (seo-opportunities, keyword/existing-content/audio-visual-rental-companies)",
-      "notas": [
-        "cerrada por el reporte de ubersuggest",
-        "reabierta por ubersuggest el 2026-10-15",
-        "cerrada por el reporte de ubersuggest",
-        "reabierta por ubersuggest el 2026-10-22",
-        "cerrada por el reporte de ubersuggest"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY existing_content. impacto low, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
-      ]
-    },
-    {
       "id": "#T0143",
       "estado": "hecha",
       "prioridad": "baja",
@@ -2181,23 +2280,6 @@
       ]
     },
     {
-      "id": "#T0132",
-      "estado": "hecha",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"audio visual rental company\" (new_content)",
-      "anotada": "2026-10-15",
-      "hecha": "2026-10-15",
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/audio-visual-rental-company)",
-      "notas": [
-        "cerrada por el reporte de ubersuggest"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-10-15."
-      ]
-    },
-    {
       "id": "#T0080",
       "estado": "hecha",
       "prioridad": "alta",
@@ -2316,23 +2398,6 @@
         "Qué cubrir: Responder que una pantalla LED grande para exterior no esta en el inventario propio (el inventario propio incluye proyector con pantalla de proyeccion y la pantalla LED de 60 pulgadas del MICE Pack, ver packages.ts) y que el cliente indica tamano, ubicacion y horario y MEG busca una solucion con sus proveedores. Usar el mismo encuadre que la FAQ de la pantalla hinchable: sin marca, modelo, cantidad, precio, disponibilidad ni plazo. Mencionar que la potencia y el sol directo del lugar condicionan la solucion. No presentarla como equipo propio.",
         "Por qué: Ninguna entrada cubre una pantalla LED grande para exterior: tv-screen-rental solo trata pantallas de TV y su FAQ de exterior es de otro alcance. Es una necesidad sourced (muro LED no esta en el inventario propio), asi que va como FAQ en el post de eventos al aire libre, sin pagina nueva (creating-helpful-content.md: mejorar la pagina existente).",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
-      "id": "#T0082",
-      "estado": "hecha",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"sound and light rental\" (new_content)",
-      "anotada": "2026-10-08",
-      "hecha": "2026-10-13",
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-and-light-rental)",
-      "notas": [
-        "seccion H2 en /blog/sound-system-rental/ en los 13 idiomas. La keyword sigue idea en keywords.json (la tarea no viene de un plan). SERP casi sin terminos"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
       ]
     },
     {
