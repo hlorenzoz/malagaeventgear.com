@@ -84003,7 +84003,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "gooseneck-microphone-rental"
           ]
@@ -84155,6 +84155,42 @@
       }
     },
     {
+      "id": "are-smoke-detectors-mandatory-in-spain",
+      "question": "are smoke detectors mandatory in spain",
+      "keywordId": "smoke-machine-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-29",
+          "lastSeen": "2026-10-29",
+          "seeds": [
+            "smoke-machine-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "are-smoke-detectors-required-in-spain",
+      "question": "are smoke detectors required in spain",
+      "keywordId": "smoke-machine-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-29",
+          "lastSeen": "2026-10-29",
+          "seeds": [
+            "smoke-machine-rental"
+          ]
+        }
+      }
+    },
+    {
       "id": "are-stage-monitors-necessary",
       "question": "are stage monitors necessary",
       "keywordId": "stage-monitor-rental",
@@ -84165,7 +84201,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "stage-monitor-rental"
           ]
@@ -85743,6 +85779,42 @@
           "lastSeen": "2026-10-28",
           "seeds": [
             "wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-you-rent-risers",
+      "question": "can you rent risers",
+      "keywordId": "stage-riser-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-29",
+          "lastSeen": "2026-10-29",
+          "seeds": [
+            "stage-riser-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-you-rent-smoke-machines",
+      "question": "can you rent smoke machines",
+      "keywordId": "smoke-machine-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-29",
+          "lastSeen": "2026-10-29",
+          "seeds": [
+            "smoke-machine-rental"
           ]
         }
       }
@@ -88730,7 +88802,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "stage-monitor-rental"
           ]
@@ -88748,7 +88820,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "video-switcher-rental"
           ]
@@ -88844,6 +88916,24 @@
           "lastSeen": "2026-10-29",
           "urls": [
             "/blog/audio-visual-rental-for-art-exhibitions/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-does-a-smoke-machine-work",
+      "question": "how does a smoke machine work",
+      "keywordId": "smoke-machine-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-29",
+          "lastSeen": "2026-10-29",
+          "seeds": [
+            "smoke-machine-rental"
           ]
         }
       }
@@ -90673,7 +90763,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "stage-monitor-rental"
           ]
@@ -91053,7 +91143,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "stage-monitor-rental"
           ]
@@ -91071,7 +91161,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "stage-monitor-rental"
           ]
@@ -91487,7 +91577,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-25",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "all-in-one-wedding-rental-packages",
             "eco-friendly-wedding-rental-options",
@@ -91593,7 +91683,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "sound-system-rental"
           ]
@@ -91844,6 +91934,24 @@
       }
     },
     {
+      "id": "how-much-does-sound-system-rental-cost",
+      "question": "how much does sound system rental cost",
+      "keywordId": "sound-system-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-29",
+          "lastSeen": "2026-10-29",
+          "seeds": [
+            "sound-system-rental"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-does-spotahome-charge",
       "question": "how much does spotahome charge",
       "keywordId": "stage-monitor-rental",
@@ -91854,7 +91962,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "stage-monitor-rental"
           ]
@@ -91952,6 +92060,24 @@
       }
     },
     {
+      "id": "how-much-is-a-good-car-sound-system",
+      "question": "how much is a good car sound system",
+      "keywordId": "sound-system-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-29",
+          "lastSeen": "2026-10-29",
+          "seeds": [
+            "sound-system-rental"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-is-a-sound-system-rental-in-the-philippines",
       "question": "how much is a sound system rental in the philippines",
       "keywordId": "sound-system-rental",
@@ -91962,9 +92088,27 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "sound-system-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-much-is-fog-machine-rental",
+      "question": "how much is fog machine rental",
+      "keywordId": "smoke-machine-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-29",
+          "lastSeen": "2026-10-29",
+          "seeds": [
+            "smoke-machine-rental"
           ]
         }
       }
@@ -91998,7 +92142,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "sound-system-rental"
           ]
@@ -92034,7 +92178,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "sound-system-rental"
           ]
@@ -92052,7 +92196,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "sound-system-rental"
           ]
@@ -92070,7 +92214,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "sound-system-rental"
           ]
@@ -92142,7 +92286,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "sound-system-rental"
           ]
@@ -92196,7 +92340,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "sound-system-rental"
           ]
@@ -92288,7 +92432,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "smoke-machine-rental"
           ]
@@ -92548,7 +92692,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "stage-monitor-rental"
           ]
@@ -92926,7 +93070,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "sound-system-rental"
           ]
@@ -94113,7 +94257,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "sound-system-rental"
           ]
@@ -94821,6 +94965,24 @@
       }
     },
     {
+      "id": "what-are-risers-on-a-stage",
+      "question": "what are risers on a stage",
+      "keywordId": "stage-riser-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-29",
+          "lastSeen": "2026-10-29",
+          "seeds": [
+            "stage-riser-rental"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-are-some-of-the-popular-packages-offered-by-malaga-event-gear",
       "question": "What are some of the popular packages offered by Malaga Event Gear?",
       "keywordId": "faq-booking",
@@ -95511,7 +95673,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "stage-monitor-rental"
           ]
@@ -95529,7 +95691,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "video-switcher-rental"
           ]
@@ -96405,6 +96567,24 @@
           "lastSeen": "2026-10-22",
           "seeds": [
             "technical-support-for-events"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-is-a-switcher-in-video-production",
+      "question": "what is a switcher in video production",
+      "keywordId": "video-switcher-rental",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-10-29",
+          "lastSeen": "2026-10-29",
+          "seeds": [
+            "video-switcher-rental"
           ]
         }
       }
@@ -98418,7 +98598,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "smoke-machine-rental"
           ]
@@ -99229,7 +99409,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-25",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "all-in-one-wedding-rental-packages",
             "how-to-choose-wedding-rentals",
@@ -99259,7 +99439,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-21",
+          "lastSeen": "2026-10-29",
           "seeds": [
             "wedding-rentals-online"
           ]
