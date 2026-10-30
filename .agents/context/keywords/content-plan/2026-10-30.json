@@ -1,0 +1,147 @@
+{
+	"date": "2026-10-30",
+	"run": {
+		"status": "ok",
+		"candidatesReviewed": 20,
+		"tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+	},
+	"items": [
+		{
+			"keywords": ["lighting for hire"],
+			"cluster": "stage lighting rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 1 7 impr",
+			"reason": "Ya posiciona en posición 1. Mismo intento que el pilar /blog/stage-lighting-rental/ (hire es sinónimo de rental), cuyo FAQ 'Can I rent lights for a DJ set or a party?' y la sección de paquetes lo cubren. Un encabezado nuevo repetiría lo que hay."
+		},
+		{
+			"keywords": ["questions to ask rental services for wedding"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 45.86 7 impr",
+			"reason": "Cubierto por /blog/questions-to-ask-wedding-rental-companies/ (keyword y FAQ 'What should I ask before booking wedding AV rentals?'). Otra página sería canibalización."
+		},
+		{
+			"keywords": ["tv monitor rental", "big screen tv rentals"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 4.43 7 impr",
+			"reason": "Cubierto por /blog/tv-screen-rental/: encabezado 'Is a TV Screen the Same as a Display Monitor or Plasma Screen?' y FAQ 'Do you rent a 65 inch TV or a bigger screen for a large event?'."
+		},
+		{
+			"keywords": [
+				"weddings in spain packages",
+				"getting married in spain packages",
+				"small wedding packages in spain",
+				"all inclusive spain vows renewal packages",
+				"wedding in malaga spain",
+				"weddings in malaga spain"
+			],
+			"cluster": "wedding rentals",
+			"action": "add-faq",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 55.14 7 impr",
+			"reason": "Misma intención: parejas que se casan en España y buscan un paquete. MEG solo vende el paquete de audio e iluminación, y /blog/all-in-one-wedding-rental-packages/ ya trata qué no cubre 'all in one', pero no responde a la pareja de destino. Una FAQ lo aclara sin crear página por ciudad (spam-policies.md, doorway abuse). Se revisaron wedding-rentals-near-me y el pilar: no tienen esta pregunta.",
+			"targetUrl": "/blog/all-in-one-wedding-rental-packages/",
+			"file": "src/content/blog/all-in-one-wedding-rental-packages.svx",
+			"question": "Can I use the Wedding Pack for a destination wedding or vow renewal in Spain?"
+		},
+		{
+			"keywords": ["alquiler de mobiliario para bodas málaga"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 84.67 6 impr",
+			"reason": "Mobiliario no es negocio de MEG (alquila audio, iluminación y vídeo). /blog/essential-items-for-wedding-rentals/ ya responde 'Does the Wedding Pack include chairs, tables or linens?'. Sin respaldo propio: creating-helpful-content.md."
+		},
+		{
+			"keywords": ["how to organize chairs for an event"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 68.83 6 impr",
+			"reason": "Distribución de sillas: MEG no alquila sillas ni tiene experiencia propia en ello. Contenido genérico sin nada de MEG (creating-helpful-content.md)."
+		},
+		{
+			"keywords": ["rental events"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 60.5 6 impr",
+			"reason": "Frase demasiado ambigua, sin intención clara. El término amplio ya lo sostienen los pilares audio visual rental y audiovisual equipment rental service."
+		},
+		{
+			"keywords": ["wedding packages"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 46.5 6 impr",
+			"reason": "Término genérico de paquetes de boda completos (lugar, catering). La parte de MEG está cubierta por el pilar /blog/wedding-rentals/ y /blog/all-in-one-wedding-rental-packages/. Se añade la FAQ de destino en otro item."
+		},
+		{
+			"keywords": ["what is the 50/20/30 rule for weddings?"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 45 6 impr",
+			"reason": "Regla de reparto de presupuesto de boda: respuesta genérica de planificación, MEG no tiene nada propio que aportar (creating-helpful-content.md). El coste del AV ya está en /blog/tips-for-reducing-wedding-rental-costs/."
+		},
+		{
+			"keywords": ["all inclusive seville wedding packages"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 59.8 5 impr",
+			"reason": "Otra ciudad y paquete completo de boda, fuera del servicio de MEG. Una variante por ciudad sería doorway abuse (spam-policies.md)."
+		},
+		{
+			"keywords": ["must have wedding reception rentals"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 55.4 5 impr",
+			"reason": "Cubierto por /blog/essential-items-for-wedding-rentals/, encabezado 'What a Wedding Actually Needs, and Where MEG Fits'."
+		},
+		{
+			"keywords": ["when to book wedding vendors"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 66.2 5 impr",
+			"reason": "Cubierto por /blog/timeline-for-booking-wedding-rentals/ (FAQ 'How far in advance should I book wedding rentals in Malaga?') y 'Step 7: When to Book' en how-to-choose-wedding-rentals."
+		},
+		{
+			"keywords": ["benefits of renting audio visual equipment"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 38.5 4 impr",
+			"reason": "Cubierto por /blog/benefits-of-audio-visual-rental/ (keyword equivalente, sección 'The Real Cost Comparison')."
+		},
+		{
+			"keywords": ["conference equipment hire"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 4.5 4 impr",
+			"reason": "Cubierto por /blog/audio-visual-rental-for-conferences/ (secciones 'Equipment We Use for Conferences' y 'AV Equipment Checklist for a Conference'). Ya está en posición 4.5."
+		}
+	],
+	"todo": []
+}

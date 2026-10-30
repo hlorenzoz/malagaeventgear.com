@@ -949,6 +949,16 @@
             "ctr": 0,
             "position": 59.8
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -1016,6 +1026,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 83.33
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "add-faq",
+            "targetUrl": "/blog/all-in-one-wedding-rental-packages/",
+            "priority": "medium"
           }
         }
       },
@@ -2406,6 +2426,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 84.67
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -13885,6 +13915,16 @@
             "ctr": 0,
             "position": 38.5
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -14783,6 +14823,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 4.33
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -17017,6 +17067,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 4.5
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -29488,6 +29548,16 @@
             "ctr": 0,
             "position": 69
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "add-faq",
+            "targetUrl": "/blog/all-in-one-wedding-rental-packages/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -33301,6 +33371,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 68.83
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -39188,6 +39268,16 @@
             "ctr": 0,
             "position": 1
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -44683,6 +44773,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-10-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -57412,6 +57512,16 @@
             "ctr": 0,
             "position": 45.86
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -62598,6 +62708,16 @@
             "ctr": 0,
             "position": 60.5
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -65409,6 +65529,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 69.2
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "add-faq",
+            "targetUrl": "/blog/all-in-one-wedding-rental-packages/",
+            "priority": "medium"
           }
         }
       },
@@ -76889,6 +77019,16 @@
             "ctr": 0,
             "position": 4.43
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -80043,6 +80183,16 @@
             "ctr": 0,
             "position": 54.83
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "add-faq",
+            "targetUrl": "/blog/all-in-one-wedding-rental-packages/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -80668,6 +80818,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -82497,6 +82657,16 @@
             "ctr": 0,
             "position": 62.33
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "add-faq",
+            "targetUrl": "/blog/all-in-one-wedding-rental-packages/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -82525,6 +82695,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 55.14
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "add-faq",
+            "targetUrl": "/blog/all-in-one-wedding-rental-packages/",
+            "priority": "medium"
           }
         }
       },
@@ -82948,6 +83128,16 @@
             "ctr": 0,
             "position": 45
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -83116,6 +83306,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 66.2
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "stats": {
+            "asOf": "2026-10-30",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
