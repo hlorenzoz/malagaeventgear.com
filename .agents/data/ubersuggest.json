@@ -1,7 +1,65 @@
 {
 	"version": 1,
-	"updated": "2026-10-29",
+	"updated": "2026-10-30",
 	"reports": [
+		{
+			"date": "2026-10-30",
+			"kind": "ai-visibility",
+			"status": "partial",
+			"reason": "All 10 tracked prompts have total_answers 0, so none has been evaluated yet",
+			"calls": [
+				{
+					"tool": "brand_config",
+					"outcome": "ok"
+				},
+				{
+					"tool": "brand_visibility_overview",
+					"outcome": "ok"
+				},
+				{
+					"tool": "brand_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "empty"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				}
+			],
+			"summary": [
+				"AI visibility 0% with 0 mentions, total_answers 0, total_prompts 10, total_competitors 0.",
+				"Update frequency MONTHLY. Prompts not evaluated yet, this is not a measured absence.",
+				"10 prompts sin evaluar (sin datos)"
+			],
+			"findings": [],
+			"discovered": {
+				"keywords": 0,
+				"aiPrompts": 30
+			}
+		},
 		{
 			"date": "2026-10-29",
 			"kind": "seo-opportunities",

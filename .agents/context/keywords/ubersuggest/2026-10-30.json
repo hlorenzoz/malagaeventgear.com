@@ -1,0 +1,92 @@
+{
+	"date": "2026-10-30",
+	"run": {
+		"status": "partial",
+		"quotaBefore": { "reports": 0, "monthly_keyword_metrics_updates": 0, "brand_operations": 0 },
+		"quotaAfter": { "reports": 1, "monthly_keyword_metrics_updates": 0, "brand_operations": 0 },
+		"calls": [
+			{ "tool": "brand_config", "args": "project_id", "outcome": "ok" },
+			{ "tool": "brand_visibility_overview", "args": "project_id, default range", "outcome": "ok" },
+			{ "tool": "brand_prompts", "args": "project_id, default range", "outcome": "ok" },
+			{ "tool": "industry_prompts", "args": "seed audio visual rental for charity fundraisers", "outcome": "ok" },
+			{ "tool": "industry_prompts", "args": "seed av equipment checklist for conference", "outcome": "ok" },
+			{ "tool": "industry_prompts", "args": "seed destination wedding av costa del sol", "outcome": "ok" },
+			{ "tool": "article_title_suggestions", "args": "seed 1, locId 2724", "outcome": "ok" },
+			{ "tool": "keyword_suggestions", "args": "seed 1, locId 2724", "outcome": "empty" },
+			{ "tool": "serp_analysis", "args": "seed 1, limit 10, locId 2724", "outcome": "empty" },
+			{ "tool": "content_ideas", "args": "seed 1, limit 5, locId 2724", "outcome": "empty" }
+		],
+		"skipped": [
+			{ "step": "keyword_overview", "reason": "no new keywords to enrich: keyword_suggestions returned no results" },
+			{ "step": "faqs", "reason": "Google autocomplete FAQs are the faq-researcher's job" },
+			{ "step": "keyword_suggestions, serp_analysis, content_ideas for seeds 2 and 3", "reason": "seed 1 returned empty on all three, so the remaining reports were not spent on seeds that are likely to be as niche" },
+			{ "step": "keyword_metrics", "reason": "monthlyDue is false" }
+		]
+	},
+	"keywords": [],
+	"faqs": [],
+	"aiPrompts": [
+		{ "prompt": "Where can I hire a sound system and microphones for a corporate event in Malaga, Spain?", "keyword": "Sound System Hire", "source": "ubersuggest-brand", "visibility": { "mentioned": false, "evaluated": false, "position": null, "brands": [], "provider": null, "asOf": "2026-10-30" } },
+		{ "prompt": "Which company rents PA speakers and wireless microphones for a wedding on the Costa del Sol?", "keyword": "Sound System Hire", "source": "ubersuggest-brand", "visibility": { "mentioned": false, "evaluated": false, "position": null, "brands": [], "provider": null, "asOf": "2026-10-30" } },
+		{ "prompt": "Where can I rent a projector and screen for a conference in Malaga?", "keyword": "Projector and Screen Rental", "source": "ubersuggest-brand", "visibility": { "mentioned": false, "evaluated": false, "position": null, "brands": [], "provider": null, "asOf": "2026-10-30" } },
+		{ "prompt": "Who rents TV screens for exhibitor stands at a trade fair in Malaga?", "keyword": "Projector and Screen Rental", "source": "ubersuggest-brand", "visibility": { "mentioned": false, "evaluated": false, "position": null, "brands": [], "provider": null, "asOf": "2026-10-30" } },
+		{ "prompt": "Which company provides sound and lighting hire for weddings in Marbella?", "keyword": "Wedding Sound and Lighting", "source": "ubersuggest-brand", "visibility": { "mentioned": false, "evaluated": false, "position": null, "brands": [], "provider": null, "asOf": "2026-10-30" } },
+		{ "prompt": "How much does a wedding sound and lighting package cost in Malaga, Spain?", "keyword": "Wedding Sound and Lighting", "source": "ubersuggest-brand", "visibility": { "mentioned": false, "evaluated": false, "position": null, "brands": [], "provider": null, "asOf": "2026-10-30" } },
+		{ "prompt": "Which AV rental company in Malaga offers packages for conferences and congresses?", "keyword": "Conference and MICE AV", "source": "ubersuggest-brand", "visibility": { "mentioned": false, "evaluated": false, "position": null, "brands": [], "provider": null, "asOf": "2026-10-30" } },
+		{ "prompt": "Who provides audiovisual equipment and a technician for a hotel meeting in Torremolinos?", "keyword": "Conference and MICE AV", "source": "ubersuggest-brand", "visibility": { "mentioned": false, "evaluated": false, "position": null, "brands": [], "provider": null, "asOf": "2026-10-30" } },
+		{ "prompt": "Where can I rent event lighting in Malaga, Spain?", "keyword": "Event Lighting and Effects", "source": "ubersuggest-brand", "visibility": { "mentioned": false, "evaluated": false, "position": null, "brands": [], "provider": null, "asOf": "2026-10-30" } },
+		{ "prompt": "Where can I hire a smoke machine for a party on the Costa del Sol?", "keyword": "Event Lighting and Effects", "source": "ubersuggest-brand", "visibility": { "mentioned": false, "evaluated": false, "position": null, "brands": [], "provider": null, "asOf": "2026-10-30" } },
+		{ "prompt": "What is the best audio visual rental service for charity fundraisers in Spain?", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Which audio visual rental company offers the best packages for nonprofit events?", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Where can I find audio visual rental with technician support for a charity fundraiser in Spain?", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Where to hire audio visual equipment with microphones and projectors for charity events?", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Best audio visual rental for outdoor charity fundraisers in Spain.", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Where to rent high-quality speakers and screens for charity fundraisers in Spain?", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Which audio visual rental companies specialize in charity fundraiser setups in Spain?", "keyword": "audio visual rental for charity fundraisers", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Where can I rent AV equipment for conferences with a complete checklist included?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Which AV gear should I prioritize for a corporate conference setup?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Which AV setup checklist includes all essential gear for hybrid conferences?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Which AV equipment checklist is ideal for a conference with breakout sessions and multiple rooms?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Best AV equipment checklist for conferences focusing on clear audio and audience interaction", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Which destination wedding AV providers in Costa del Sol offer the best sound and lighting packages?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Where can I hire affordable destination wedding AV equipment in Costa del Sol?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Top-rated destination wedding AV companies near Marbella, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Which destination wedding AV company in Costa del Sol offers bilingual technical support?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Most reliable destination wedding AV providers in Costa del Sol with onsite technicians", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Best destination wedding AV setups in Costa del Sol for evening receptions with dance floors", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Top destination wedding AV gear rental shops near Fuengirola, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" },
+		{ "prompt": "Affordable destination wedding AV hire near Malaga airport, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas" }
+	],
+	"research": {
+		"audio visual rental for charity fundraisers": {
+			"titleIdeas": [
+				"How to plan AV rental for a charity fundraiser in Malaga: a budget-friendly checklist for organizers",
+				"Essential AV elements for successful charity fundraisers, ranked by impact and cost",
+				"Renting AV vs donated gear for charity fundraisers: costs, risks and when to choose each"
+			]
+		}
+	},
+	"rank": [],
+	"discarded": [
+		{ "text": "Where to buy AV equipment checklist templates for professional conference planning?", "reason": "buying templates, no hire intent" },
+		{ "text": "Where to find comprehensive AV equipment checklists for conferences in Madrid and nearby areas?", "reason": "another market (Madrid)" },
+		{ "text": "Should I rent audio visual equipment or buy for recurring charity fundraisers?", "reason": "buying equipment angle" },
+		{ "text": "Costa del Sol destination wedding AV companies specializing in drone videography and audio", "reason": "drone videography is not in MEG inventory" },
+		{ "text": "Where to buy or rent high-end destination wedding AV equipment in Costa del Sol?", "reason": "buying equipment" },
+		{ "text": "Comparing Malaga Event Gear vs other local audio visual rentals for fundraising events.", "reason": "names MEG itself, not a neutral prompt" },
+		{ "text": "Best audio visual rental with video streaming capabilities for charity fundraisers.", "reason": "streaming is not in MEG inventory" }
+	],
+	"report": {
+		"kind": "ai-visibility",
+		"status": "partial",
+		"reason": "All 10 tracked prompts have total_answers 0, so none has been evaluated yet",
+		"summary": [
+			"AI visibility 0% with 0 mentions, total_answers 0, total_prompts 10, total_competitors 0.",
+			"Update frequency MONTHLY. Prompts not evaluated yet, this is not a measured absence."
+		],
+		"metrics": { "visibility_percentage": 0, "total_mentions": 0, "total_answers": 0, "total_prompts": 10, "total_competitors": 0 },
+		"seoCounts": {},
+		"seo": [],
+		"rows": []
+	}
+}
