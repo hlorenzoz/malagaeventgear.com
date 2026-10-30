@@ -1013,8 +1013,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/all-in-one-wedding-rental-packages/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -1027,6 +1027,10 @@
             "ctr": 0,
             "position": 83.33
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30"
         },
         "content-plan": {
           "firstSeen": "2026-10-30",
@@ -29534,8 +29538,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/all-in-one-wedding-rental-packages/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -29548,6 +29552,10 @@
             "ctr": 0,
             "position": 69
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30"
         },
         "content-plan": {
           "firstSeen": "2026-10-30",
@@ -65516,8 +65524,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/all-in-one-wedding-rental-packages/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -65530,6 +65538,10 @@
             "ctr": 0,
             "position": 69.2
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30"
         },
         "content-plan": {
           "firstSeen": "2026-10-30",
@@ -80169,8 +80181,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/all-in-one-wedding-rental-packages/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -80183,6 +80195,10 @@
             "ctr": 0,
             "position": 54.83
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30"
         },
         "content-plan": {
           "firstSeen": "2026-10-30",
@@ -82643,8 +82659,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/all-in-one-wedding-rental-packages/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -82657,6 +82673,10 @@
             "ctr": 0,
             "position": 62.33
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30"
         },
         "content-plan": {
           "firstSeen": "2026-10-30",
@@ -82682,8 +82702,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/all-in-one-wedding-rental-packages/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -82696,6 +82716,10 @@
             "ctr": 0,
             "position": 55.14
           }
+        },
+        "blog": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30"
         },
         "content-plan": {
           "firstSeen": "2026-10-30",
@@ -85660,6 +85684,24 @@
           "lastSeen": "2026-10-23",
           "seeds": [
             "wireless-handheld-microphone-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-i-use-the-wedding-pack-for-a-destination-wedding-or-vow-renewal-in-spain",
+      "question": "Can I use the Wedding Pack for a destination wedding or vow renewal in Spain?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "wedding rentals",
+      "url": "/blog/all-in-one-wedding-rental-packages/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-10-30",
+          "lastSeen": "2026-10-30",
+          "urls": [
+            "/blog/all-in-one-wedding-rental-packages/"
           ]
         }
       }
