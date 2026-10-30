@@ -898,24 +898,6 @@
       ]
     },
     {
-      "id": "#T0167",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/all-in-one-wedding-rental-packages/: \"Can I use the Wedding Pack for a destination wedding or vow renewal in Spain?\"",
-      "anotada": "2026-10-30",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-30, ítem 4)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/all-in-one-wedding-rental-packages.svx",
-        "Keywords: weddings in spain packages, getting married in spain packages, small wedding packages in spain, all inclusive spain vows renewal packages, wedding in malaga spain, weddings in malaga spain (gsc pos 55.14 7 impr), sin volumen",
-        "Por qué: Misma intención: parejas que se casan en España y buscan un paquete. MEG solo vende el paquete de audio e iluminación, y /blog/all-in-one-wedding-rental-packages/ ya trata qué no cubre 'all in one', pero no responde a la pareja de destino. Una FAQ lo aclara sin crear página por ciudad (spam-policies.md, doorway abuse). Se revisaron wedding-rentals-near-me y el pilar: no tienen esta pregunta.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0156",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1604,6 +1586,26 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0167",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/all-in-one-wedding-rental-packages/: \"Can I use the Wedding Pack for a destination wedding or vow renewal in Spain?\"",
+      "anotada": "2026-10-30",
+      "hecha": "2026-10-30",
+      "origen": "content-strategist (plan 2026-10-30, ítem 4)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/all-in-one-wedding-rental-packages.svx",
+        "Keywords: weddings in spain packages, getting married in spain packages, small wedding packages in spain, all inclusive spain vows renewal packages, wedding in malaga spain, weddings in malaga spain (gsc pos 55.14 7 impr), sin volumen",
+        "Por qué: Misma intención: parejas que se casan en España y buscan un paquete. MEG solo vende el paquete de audio e iluminación, y /blog/all-in-one-wedding-rental-packages/ ya trata qué no cubre 'all in one', pero no responde a la pareja de destino. Una FAQ lo aclara sin crear página por ciudad (spam-policies.md, doorway abuse). Se revisaron wedding-rentals-near-me y el pilar: no tienen esta pregunta.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
     },
     {
       "id": "#T0168",
