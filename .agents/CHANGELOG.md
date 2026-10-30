@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): all-in-one-wedding-rental-packages, nueva FAQ destination wedding / vow renewal (#T0167) (2026-10-30)
+- Origen: plan de contenido 2026-10-30, item cluster wedding rentals (weddings in spain packages, getting married in spain packages, gsc pos 55.14, 7 impr). Tarea #T0167.
+- FAQ nueva al final de `## FAQs`: "Can I use the Wedding Pack for a destination wedding or vow renewal in Spain?". Hechos solo del post: Wedding Pack solo AV, hasta 80 invitados, 650 euros ex VAT, zona Malaga, Costa del Sol, Sevilla y Granada sobre 400 euros; no es sede, celebrante, tramites, planner ni alojamiento. Enlaces a /packages/wedding/ y /contact/.
+- El post no tiene Table of Contents en linea. `updatedDate` a 2026-10-30; `post-faqs.json` y `post-toc.json` regenerados.
+- Las 12 traducciones quedan obsoletas y siguen en el mismo cambio.
+
 ### Changed (blog): audio-visual-rental-for-weddings, nueva seccion "Projector and Screen for Wedding Photos and Videos" (#T0154) (2026-10-26)
 - Origen: plan de contenido 2026-10-26, item "projector rental for wedding" (cluster audio visual rental, gsc pos 13, 1 impr). Tarea #T0154.
 - Seccion H2 nueva entre "Speeches at the Reception" y "The Ceremony to Reception Switch". Hechos: proyectores de 3000 y 5000 lumenes y pantallas con soporte (CSV 2026.09.26), el de 5000 "ideal para salas con luz" (packages.ts), el Wedding Pack no incluye proyector, el tecnico lleva sonido y microfonos y no las diapositivas. Sin precios, sin modelos, sin enlace nuevo (projector-rental no es vecino adyacente).

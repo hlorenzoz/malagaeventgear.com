@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-30",
+  "taskId": "#T0167",
+  "slug": "all-in-one-wedding-rental-packages",
+  "searchTerm": "all in one wedding rental packages Can I use the Wedding Pack for a destination wedding or vow renewal in Spain?",
+  "status": "partial",
+  "reason": "Skipped Google positions 2 (same page as 1), 3 (forum), 5 (Mexico resort FAQ). Read positions 1, 4, 6. SERP is wedding planning, not AV hire; page 2 is a thin listing page.",
+  "serp": {
+    "query": "can I use wedding package for destination wedding or vow renewal in Spain",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://www.spain4weddings.com/5-reasons-why-you-might-want-to-consider-having-a-vow-renewal-in-spain/", "title": "5 Reasons Why You Might Want to Consider Having a Vow Renewal in Spain - Spain4Weddings" },
+      { "rank": 2, "url": "https://theweddingtravelcompany.com/destinations", "title": "Design Your Dream Wedding Abroad - The Wedding Travel Company" },
+      { "rank": 3, "url": "https://almunecarinfo.com/how-to-get-married-in-spain/", "title": "How To Get Married In Spain - Almuñécar Info" }
+    ]
+  },
+  "terms": [
+    { "term": "vow renewal", "kind": "entity", "seenIn": 3 },
+    { "term": "destination wedding", "kind": "entity", "seenIn": 3 },
+    { "term": "wedding venues", "kind": "related", "seenIn": 3 },
+    { "term": "elopement", "kind": "entity", "seenIn": 2 },
+    { "term": "wedding planner", "kind": "entity", "seenIn": 2 },
+    { "term": "beach wedding", "kind": "entity", "seenIn": 2 },
+    { "term": "villa wedding", "kind": "entity", "seenIn": 2 },
+    { "term": "vow renewal ceremony", "kind": "entity", "seenIn": 2 },
+    { "term": "civil ceremony", "kind": "related", "seenIn": 2 },
+    { "term": "small intimate weddings", "kind": "entity", "seenIn": 1 },
+    { "term": "all-inclusive weddings", "kind": "entity", "seenIn": 1 },
+    { "term": "Costa del Sol weddings", "kind": "entity", "seenIn": 1 },
+    { "term": "celebrant", "kind": "related", "seenIn": 1 },
+    { "term": "written vows", "kind": "related", "seenIn": 1 },
+    { "term": "marriage anniversary celebration", "kind": "related", "seenIn": 1 },
+    { "term": "bespoke ceremony", "kind": "related", "seenIn": 1 },
+    { "term": "family and friends celebration", "kind": "related", "seenIn": 1 },
+    { "term": "restaurant event venue", "kind": "related", "seenIn": 1 },
+    { "term": "boat wedding", "kind": "entity", "seenIn": 1 },
+    { "term": "Why consider a vow renewal in Spain?", "kind": "question", "seenIn": 1 },
+    { "term": "Can friends and family join a renewal?", "kind": "question", "seenIn": 1 },
+    { "term": "How do I get married in Spain?", "kind": "question", "seenIn": 1 },
+    { "term": "What is a destination wedding in Spain?", "kind": "question", "seenIn": 1 },
+    { "term": "What are the options for a wedding in Spain?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Spain4Weddings", "reason": "competitor name" },
+    { "term": "The Wedding Travel Company", "reason": "competitor name" },
+    { "term": "From 2095 pounds", "reason": "price and currency" },
+    { "term": "ABTA bonded protection", "reason": "UK market term" },
+    { "term": "Trustpilot rating", "reason": "marketing, not vocabulary" },
+    { "term": "Award-winning wedding company", "reason": "marketing slogan" },
+    { "term": "Gibraltar marriage", "reason": "place other than Spain" },
+    { "term": "Ibiza Tenerife Mallorca weddings", "reason": "places not relevant to Malaga" },
+    { "term": "Free wedding ebook guide", "reason": "marketing offer" },
+    { "term": "Registro Civil", "reason": "legal paperwork, not AV vocabulary" }
+  ]
+}
