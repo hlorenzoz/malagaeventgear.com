@@ -1128,6 +1128,16 @@
             "ctr": 0,
             "position": 55
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -2530,6 +2540,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 65
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -6863,6 +6883,16 @@
             "ctr": 0,
             "position": 65.5
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -8376,6 +8406,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 37.67
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -17253,6 +17293,16 @@
             "ctr": 0,
             "position": 98
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "add-faq",
+            "targetUrl": "/blog/av-system-troubleshooting/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -17667,6 +17717,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 74.5
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "add-faq",
+            "targetUrl": "/blog/av-system-troubleshooting/",
+            "priority": "medium"
           }
         }
       },
@@ -18539,6 +18599,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 78
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -27439,6 +27509,16 @@
             "ctr": 0,
             "position": 37.33
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -29441,6 +29521,16 @@
             "ctr": 0,
             "position": 2.5
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -30988,6 +31078,16 @@
             "ctr": 0,
             "position": 42
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -31838,6 +31938,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 34.33
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
           }
         }
       },
@@ -38722,6 +38832,16 @@
             "ctr": 0,
             "position": 1
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -39316,6 +39436,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 1.75
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -41073,6 +41203,16 @@
             "ctr": 0,
             "position": 64.5
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -41101,6 +41241,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 6
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -41285,6 +41435,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-10-31"
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -42164,6 +42324,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 2
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "add-faq",
+            "targetUrl": "/blog/audio-visual-rental-for-conferences/",
+            "priority": "medium"
           }
         }
       },
@@ -58499,6 +58669,16 @@
             "ctr": 0,
             "position": 6
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -58527,6 +58707,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 3.5
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -76447,6 +76637,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-10-31"
+        },
+        "content-plan": {
+          "firstSeen": "2026-10-31",
+          "lastSeen": "2026-10-31",
+          "stats": {
+            "asOf": "2026-10-31",
+            "action": "add-faq",
+            "targetUrl": "/blog/all-in-one-wedding-rental-packages/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,

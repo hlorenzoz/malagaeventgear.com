@@ -1,0 +1,136 @@
+{
+	"date": "2026-10-31",
+	"run": {
+		"status": "ok",
+		"candidatesReviewed": 20,
+		"tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+	},
+	"items": [
+		{
+			"keywords": ["conference room av troubleshooting", "corporate av troubleshooting"],
+			"cluster": "audio visual rental",
+			"action": "add-faq",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 98 2 impr",
+			"reason": "Misma intención (resolver fallos de AV en una sala de reuniones o evento corporativo). /blog/av-system-troubleshooting/ ya tiene la sección Self Check by Package y la variante Basic MICE Pack, pero ninguna pregunta nombra la sala de conferencias. Una FAQ basta, no hace falta un post nuevo (evita canibalización).",
+			"targetUrl": "/blog/av-system-troubleshooting/",
+			"file": "src/content/blog/av-system-troubleshooting.svx",
+			"question": "What should I check first if the AV stops working in a conference room?"
+		},
+		{
+			"keywords": ["mice sound system"],
+			"cluster": "audio visual rental",
+			"action": "add-faq",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 2 2 impr",
+			"reason": "Ya aparece en posición 2. MEG vende el Basic MICE Pack y el MICE Pack (src/lib/data/packages.ts), y /blog/audio-visual-rental-for-conferences/ explica el contexto de conferencia sin una pregunta directa sobre qué es un sistema de sonido MICE. Una FAQ responde con inventario propio, sin post nuevo.",
+			"targetUrl": "/blog/audio-visual-rental-for-conferences/",
+			"file": "src/content/blog/audio-visual-rental-for-conferences.svx",
+			"question": "What does a MICE sound system include for a conference?"
+		},
+		{
+			"keywords": ["tips for wedding rental delivery"],
+			"cluster": "wedding rentals",
+			"action": "add-faq",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 44 3 impr",
+			"reason": "Intención práctica (qué preparar para la entrega del equipo). No hay un post propio y un post nuevo sería demasiado estrecho (Goldilocks). /blog/all-in-one-wedding-rental-packages/ es el apoyo más cercano y no tiene esta pregunta. Se comprobó que sus FAQs actuales no la repiten.",
+			"targetUrl": "/blog/all-in-one-wedding-rental-packages/",
+			"file": "src/content/blog/all-in-one-wedding-rental-packages.svx",
+			"question": "What should I prepare at the venue for the equipment delivery on my wedding day?"
+		},
+		{
+			"keywords": ["lighting hire", "light hire"],
+			"cluster": "stage lighting rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 1.75 4 impr",
+			"reason": "Sinónimo británico de stage lighting rental. Cubierto por /blog/stage-lighting-rental/ (FAQ 'Can I rent lights for a DJ set or a party?'). Ya posiciona en 1 a 2, un encabezado nuevo solo repetiría lo existente."
+		},
+		{
+			"keywords": ["malaga weddings all inclusive", "all inclusive wedding barcelona", "costa del sol wedding packages"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 6 4 impr",
+			"reason": "Cubierto por /blog/all-in-one-wedding-rental-packages/ (heading 'Our All Inclusive Wedding Pack in Malaga', FAQ 'Do you offer all inclusive wedding packages in Malaga?' y sección Booking and Service Area). Barcelona está fuera de mercado y una página por zona sería doorway abuse (spam-policies.md)."
+		},
+		{
+			"keywords": ["malaga weddings"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 64.5 2 impr",
+			"reason": "Término amplio genérico que pertenece al pilar /blog/wedding-rentals/, ya existente. Sin intención específica que justifique sección nueva (creating-helpful-content.md)."
+		},
+		{
+			"keywords": ["matching wedding rentals to themes"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 38.75 4 impr",
+			"reason": "Habla de temas decorativos. El silo de bodas es solo audiovisual (limpieza AV only) y MEG no ofrece decoración, así que no puede respaldar el contenido."
+		},
+		{
+			"keywords": ["alquiler equipos de sonido malaga"],
+			"cluster": "audiovisual equipment rental service",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 65 3 impr",
+			"reason": "Consulta en español de la misma intención que sound equipment rental. El contenido en español lo sirven las traducciones de los posts existentes, no un post nuevo en inglés."
+		},
+		{
+			"keywords": ["audio visual near me"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 37.67 3 impr",
+			"reason": "Variante near me ya cubierta por /blog/audio-visual-hire-near-me-in-malaga-spain/ y /blog/audio-video-rental-near-me-in-malaga-spain/. Otra página sería canibalización y doorway abuse (spam-policies.md)."
+		},
+		{
+			"keywords": ["audio visual companies"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 65.5 2 impr",
+			"reason": "Cubierto por /blog/audio-visual-rental-companies/ (secciones What to Check Before You Book y What We Stock, and What We Source)."
+		},
+		{
+			"keywords": ["rent a projector", "rent a projector and screen"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 6 2 impr",
+			"reason": "Cubierto por /blog/projector-rental/ (heading 'Projector and Screen Pricing by Package', 'Why the Screen Is Always Bundled With the Projector'). Ya posiciona en 3 a 6."
+		},
+		{
+			"keywords": ["hire sound equipment for events in barcelona", "hire lighting equipment for events in barcelona"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 34.33 3 impr",
+			"reason": "Barcelona está fuera del área de servicio de MEG (Malaga). Fuera de mercado."
+		},
+		{
+			"keywords": ["eventgear", "gear and gear"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 37.33 3 impr",
+			"reason": "Búsquedas de marca o nombre ambiguo, sin intención de alquiler definida. Un contenido solo para captarlas sería search engine-first (creating-helpful-content.md)."
+		}
+	]
+}
