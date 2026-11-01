@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "tasks": [
     {
       "id": "#T0085",
@@ -1640,6 +1640,30 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0173",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-11-01",
+      "anotada": "2026-11-01",
+      "hecha": "2026-11-01",
+      "origen": "content-strategist (plan 2026-11-01, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "rent place settings (Vajilla y cubiertos no son equipamiento de MEG y no hay inventario ni proveedor confirmado en CLAUDE.md. El pack de boda no incluye mobiliario ni menaje (FAQ de /blog/all-in-one-wedding-rental-packages/). Escribirlo seria contenido sin respaldo (creating-helpful-content.md).)",
+        "rental for wedding (Misma intencion que el pilar /blog/wedding-rentals/ (keyword wedding rentals). Una pagina o seccion nueva seria canibalizacion dentro del silo. Se mejora con el trabajo normal del pilar.)",
+        "rental of audio equipment (Variante lexica de alquiler de equipo de audio, misma intencion que el pilar /blog/audio-visual-rental/ y sus posts de sonido. Sin volumen medido, una seccion nueva solo repetiria lo existente.)",
+        "spanish wedding package (La intencion probable es un paquete completo de boda en Espana (venue, catering). MEG solo ofrece el Wedding Pack de audio e iluminacion, ya explicado en /blog/all-in-one-wedding-rental-packages/, incluida la FAQ de bodas de destino. Prometer mas seria falso.)",
+        "speakers hire (Ya posiciona en posicion 3 con el contenido actual. Es sinonimo britanico de alquiler de altavoces, misma intencion que las paginas existentes. No hace falta cambiar nada.)",
+        "touring av equipment (Equipo para giras profesionales, otro tipo de cliente. MEG no tiene inventario ni experiencia documentada en giras (creating-helpful-content.md, entrar en un nicho sin experiencia real).)",
+        "used stage equipment (Intencion de compra de segunda mano. MEG alquila y no vende equipo, negocio distinto.)",
+        "wedding in malaga (Intencion de organizar una boda en Malaga (venues, planificacion), no de alquilar AV. Una pagina asi seria de ciudad y rozaria doorway abuse (spam-policies.md). La zona de servicio ya se cubre en la seccion Booking and Service Area de los posts de boda.)",
+        "wedding resort packages (Paquetes de resort con venue y catering, un servicio que MEG no presta. Fuera de mercado.)",
+        "when should you book a wedding venue (Trata de reservar el venue, no el AV. El calendario de reserva del AV ya lo cubre /blog/timeline-for-booking-wedding-rentals/ (heading Why There's No Fixed Booking Window) y una FAQ del pilar. Una seccion nueva seria canibalizacion.)"
+      ]
     },
     {
       "id": "#T0172",
