@@ -1,0 +1,102 @@
+{
+	"date": "2026-11-01",
+	"run": {
+		"status": "ok",
+		"reason": "Todos los candidatos de hoy son frases de Search Console con 2 impresiones y sin volumen medido. Se decidieron los 12 primeros y todos son skip. Los demas candidatos quedan fuera del plan para otro dia.",
+		"candidatesReviewed": 12,
+		"tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+	},
+	"todo": [],
+	"items": [
+		{
+			"keywords": ["rent place settings"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 40 2 impr",
+			"reason": "Vajilla y cubiertos no son equipamiento de MEG y no hay inventario ni proveedor confirmado en CLAUDE.md. El pack de boda no incluye mobiliario ni menaje (FAQ de /blog/all-in-one-wedding-rental-packages/). Escribirlo seria contenido sin respaldo (creating-helpful-content.md)."
+		},
+		{
+			"keywords": ["rental for wedding", "wedding rental"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 32 2 impr / gsc pos 30.5 2 impr",
+			"reason": "Misma intencion que el pilar /blog/wedding-rentals/ (keyword wedding rentals). Una pagina o seccion nueva seria canibalizacion dentro del silo. Se mejora con el trabajo normal del pilar."
+		},
+		{
+			"keywords": ["rental of audio equipment"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 38 2 impr",
+			"reason": "Variante lexica de alquiler de equipo de audio, misma intencion que el pilar /blog/audio-visual-rental/ y sus posts de sonido. Sin volumen medido, una seccion nueva solo repetiria lo existente."
+		},
+		{
+			"keywords": ["spanish wedding package"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 57 2 impr",
+			"reason": "La intencion probable es un paquete completo de boda en Espana (venue, catering). MEG solo ofrece el Wedding Pack de audio e iluminacion, ya explicado en /blog/all-in-one-wedding-rental-packages/, incluida la FAQ de bodas de destino. Prometer mas seria falso."
+		},
+		{
+			"keywords": ["speakers hire"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 3 2 impr",
+			"reason": "Ya posiciona en posicion 3 con el contenido actual. Es sinonimo britanico de alquiler de altavoces, misma intencion que las paginas existentes. No hace falta cambiar nada."
+		},
+		{
+			"keywords": ["touring av equipment"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 39 2 impr",
+			"reason": "Equipo para giras profesionales, otro tipo de cliente. MEG no tiene inventario ni experiencia documentada en giras (creating-helpful-content.md, entrar en un nicho sin experiencia real)."
+		},
+		{
+			"keywords": ["used stage equipment"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 4 2 impr",
+			"reason": "Intencion de compra de segunda mano. MEG alquila y no vende equipo, negocio distinto."
+		},
+		{
+			"keywords": ["wedding in malaga", "weddings in malaga"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 60 2 impr / gsc pos 69.5 2 impr",
+			"reason": "Intencion de organizar una boda en Malaga (venues, planificacion), no de alquilar AV. Una pagina asi seria de ciudad y rozaria doorway abuse (spam-policies.md). La zona de servicio ya se cubre en la seccion Booking and Service Area de los posts de boda."
+		},
+		{
+			"keywords": ["wedding resort packages"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 46.5 2 impr",
+			"reason": "Paquetes de resort con venue y catering, un servicio que MEG no presta. Fuera de mercado."
+		},
+		{
+			"keywords": ["when should you book a wedding venue"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 79 2 impr",
+			"reason": "Trata de reservar el venue, no el AV. El calendario de reserva del AV ya lo cubre /blog/timeline-for-booking-wedding-rentals/ (heading Why There's No Fixed Booking Window) y una FAQ del pilar. Una seccion nueva seria canibalizacion."
+		}
+	]
+}
