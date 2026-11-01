@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-01",
+  "run": {
+    "status": "ok",
+    "calls": [
+      { "tool": "google_suggestions", "args": "audio visual rental for small businesses, audio visual rental for sports events (en, es)", "outcome": "empty" },
+      { "tool": "google_suggestions", "args": "audio visual rental for trade shows, audio visual rental for training sessions (en, es)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "audio visual rental for virtual events, av equipment needed for a conference (en, es)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "destination wedding av costa del sol, how audio visual rental works (en, es)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "how many lumens do I need, how to choose wedding rentals (en, es)", "outcome": "ok" }
+    ]
+  },
+  "seeds": [
+    "audio-visual-rental-for-small-businesses",
+    "audio-visual-rental-for-sports-events",
+    "audio-visual-rental-for-trade-shows",
+    "audio-visual-rental-for-training-sessions",
+    "audio-visual-rental-for-virtual-events",
+    "av-equipment-needed-for-a-conference",
+    "destination-wedding-av-costa-del-sol",
+    "how-audio-visual-rental-works",
+    "how-many-lumens-do-i-need",
+    "how-to-choose-wedding-rentals"
+  ],
+  "suggestions": [
+    { "seed": "audio-visual-rental-for-trade-shows", "phrase": "is audio visual a trade" },
+    { "seed": "audio-visual-rental-for-training-sessions", "phrase": "how much does it cost to rent a studio for music" },
+    { "seed": "av-equipment-needed-for-a-conference", "phrase": "what av equipment do i need for a conference" },
+    { "seed": "av-equipment-needed-for-a-conference", "phrase": "what equipment is needed" },
+    { "seed": "how-audio-visual-rental-works", "phrase": "how audio works" },
+    { "seed": "how-audio-visual-rental-works", "phrase": "how do audio visualizers work reddit" },
+    { "seed": "how-audio-visual-rental-works", "phrase": "what is a physical audio guide" },
+    { "seed": "how-audio-visual-rental-works", "phrase": "how to do a video audio" },
+    { "seed": "how-audio-visual-rental-works", "phrase": "how much does it cost to rent a studio for music" },
+    { "seed": "how-audio-visual-rental-works", "phrase": "how much does a music studio cost" },
+    { "seed": "how-audio-visual-rental-works", "phrase": "how much does it cost to record in a studio" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for a projector" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for a room" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for a projector in a bright room" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for outdoor lighting" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for an outdoor projector" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need outdoor" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for a head torch" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need flashlight" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for a 12x12 room" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for daylight projector" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need to light up my backyard" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need to light a room" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need in a kitchen" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for a torch" },
+    { "seed": "how-many-lumens-do-i-need", "phrase": "how many lumens do i need for plants" },
+    { "seed": "how-to-choose-wedding-rentals", "phrase": "why have a wedding" },
+    { "seed": "how-to-choose-wedding-rentals", "phrase": "how do wedding rentals work" },
+    { "seed": "how-to-choose-wedding-rentals", "phrase": "what do you need to rent for a wedding" },
+    { "seed": "how-to-choose-wedding-rentals", "phrase": "how to choose a wedding venue" },
+    { "seed": "how-to-choose-wedding-rentals", "phrase": "how much does it cost a wedding in spain" }
+  ]
+}

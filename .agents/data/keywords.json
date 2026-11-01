@@ -89251,7 +89251,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-15",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-audio-visual-rental-works"
           ]
@@ -89338,7 +89338,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-15",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-audio-visual-rental-works"
           ]
@@ -89482,7 +89482,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-13",
-          "lastSeen": "2026-10-30",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-to-choose-wedding-rentals",
             "indoor-wedding-rental-essentials",
@@ -90876,6 +90876,24 @@
       }
     },
     {
+      "id": "how-many-lumens-do-i-need-flashlight",
+      "question": "how many lumens do i need flashlight",
+      "keywordId": "how-many-lumens-do-i-need",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-01",
+          "lastSeen": "2026-11-01",
+          "seeds": [
+            "how-many-lumens-do-i-need"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-many-lumens-do-i-need-for-a-12x12-room",
       "question": "how many lumens do i need for a 12x12 room",
       "keywordId": "how-many-lumens-do-i-need",
@@ -90886,7 +90904,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-16",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-many-lumens-do-i-need"
           ]
@@ -90919,7 +90937,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-16",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-many-lumens-do-i-need"
           ]
@@ -90955,7 +90973,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-16",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-many-lumens-do-i-need"
           ]
@@ -90973,7 +90991,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-15",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-many-lumens-do-i-need",
             "projector-lumens-for-conference-room"
@@ -90992,7 +91010,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-16",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-many-lumens-do-i-need"
           ]
@@ -91010,7 +91028,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-16",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-many-lumens-do-i-need"
           ]
@@ -91028,7 +91046,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-16",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-many-lumens-do-i-need"
           ]
@@ -91046,7 +91064,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-16",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-many-lumens-do-i-need"
           ]
@@ -91064,7 +91082,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-16",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-many-lumens-do-i-need"
           ]
@@ -91082,7 +91100,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-16",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-many-lumens-do-i-need"
           ]
@@ -91108,6 +91126,24 @@
       }
     },
     {
+      "id": "how-many-lumens-do-i-need-in-a-kitchen",
+      "question": "how many lumens do i need in a kitchen",
+      "keywordId": "how-many-lumens-do-i-need",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-01",
+          "lastSeen": "2026-11-01",
+          "seeds": [
+            "how-many-lumens-do-i-need"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-many-lumens-do-i-need-outdoor",
       "question": "how many lumens do i need outdoor",
       "keywordId": "how-many-lumens-do-i-need",
@@ -91118,7 +91154,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-16",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-many-lumens-do-i-need"
           ]
@@ -91154,7 +91190,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-16",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-many-lumens-do-i-need"
           ]
@@ -91172,7 +91208,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-16",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-many-lumens-do-i-need"
           ]
@@ -91733,7 +91769,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-15",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-audio-visual-rental-works"
           ]
@@ -92221,7 +92257,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-31",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "all-in-one-wedding-rental-packages",
             "eco-friendly-wedding-rental-options",
@@ -92345,7 +92381,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-15",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-audio-visual-rental-works"
           ]
@@ -92454,7 +92490,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-15",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "audio-visual-rental-for-training-sessions",
             "how-audio-visual-rental-works"
@@ -93462,7 +93498,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-15",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-to-choose-wedding-rentals"
           ]
@@ -93480,7 +93516,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-15",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-audio-visual-rental-works"
           ]
@@ -94467,7 +94503,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-16",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "audio-visual-rental-for-trade-shows"
           ]
@@ -95941,7 +95977,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-31",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "av-equipment-checklist-for-conference",
             "av-equipment-needed-for-a-conference"
@@ -96389,7 +96425,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-13",
-          "lastSeen": "2026-10-30",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "how-to-choose-wedding-rentals",
             "indoor-wedding-rental-essentials",
@@ -96586,7 +96622,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-16",
-          "lastSeen": "2026-10-24",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "av-equipment-needed-for-a-conference"
           ]
@@ -97148,7 +97184,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-14",
-          "lastSeen": "2026-10-31",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "audio-visual-rental-planning-timeline",
             "audio-visual-rental-safety-guidelines",
@@ -100053,7 +100089,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-10-31",
+          "lastSeen": "2026-11-01",
           "seeds": [
             "all-in-one-wedding-rental-packages",
             "how-to-choose-wedding-rentals",
