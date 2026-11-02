@@ -42435,6 +42435,28 @@
       "notes": "Covered per the Google Ads / Ubersuggest keyword audit closed 2026-08-06 (engram: google_ads_keyword_audit_2026-08-06): already served by existing content, no new post needed."
     },
     {
+      "id": "mice-events-in-malaga",
+      "keyword": "mice events in malaga",
+      "locale": "en",
+      "cluster": "event technology service",
+      "topic": null,
+      "intent": null,
+      "url": "/blog/mice-events-in-malaga/",
+      "status": "published",
+      "reason": null,
+      "sources": {
+        "blog": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02"
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-11-02",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
       "id": "mice-events-malaga",
       "keyword": "mice events malaga",
       "locale": "en",
