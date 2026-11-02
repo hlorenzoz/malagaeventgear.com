@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-02",
+  "taskId": "#T0170",
+  "slug": "audio-visual-rental-for-conferences",
+  "searchTerm": "audio visual rental for conferences What does a MICE sound system include for a conference?",
+  "status": "ok",
+  "reason": "Thin SERP: the 3 top organic results are the same San Jose convention centre Meyer Sound press story on a fixed installation, not a general guide to what a MICE sound system includes. Terms are technical vocabulary only.",
+  "serp": {
+    "query": "What does a MICE sound system include for a conference?",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://www.installation-international.com/case-studies/san-jose-convention-centre-completes-forward-thinking-meyer-sound-install", "title": "san jose convention centre completes forward thinking meyer sound install" },
+      { "rank": 2, "url": "https://meyersound.com/news/san-jose-convention-center/", "title": "san jose convention center" },
+      { "rank": 3, "url": "https://www.fast-and-wide.com/faw-news/fast-news/11177-san-jose-convention-center-sets-world-standard", "title": "11177 san jose convention center sets world standard" }
+    ]
+  },
+  "terms": [
+    { "term": "MICE", "kind": "related", "seenIn": 3 },
+    { "term": "Meyer Sound", "kind": "entity", "seenIn": 3 },
+    { "term": "line arrays", "kind": "entity", "seenIn": 3 },
+    { "term": "subwoofers", "kind": "entity", "seenIn": 3 },
+    { "term": "networked DSP system", "kind": "entity", "seenIn": 3 },
+    { "term": "UPJunior-XP loudspeaker", "kind": "entity", "seenIn": 3 },
+    { "term": "cardioid subwoofer configuration", "kind": "related", "seenIn": 3 },
+    { "term": "constant voltage system", "kind": "related", "seenIn": 3 },
+    { "term": "low voltage systems", "kind": "related", "seenIn": 3 },
+    { "term": "loudspeaker delay", "kind": "related", "seenIn": 3 },
+    { "term": "linear phase response", "kind": "related", "seenIn": 3 },
+    { "term": "reverberation time RT60", "kind": "related", "seenIn": 3 },
+    { "term": "acoustical treatment", "kind": "related", "seenIn": 3 },
+    { "term": "zero point stage location", "kind": "related", "seenIn": 3 },
+    { "term": "exhibit hall systems", "kind": "related", "seenIn": 3 },
+    { "term": "self-powered loudspeakers", "kind": "entity", "seenIn": 2 },
+    { "term": "sound reinforcement system", "kind": "related", "seenIn": 2 },
+    { "term": "conference sessions", "kind": "related", "seenIn": 2 },
+    { "term": "coverage pattern", "kind": "related", "seenIn": 2 },
+    { "term": "status monitoring", "kind": "related", "seenIn": 2 }
+  ],
+  "discarded": [
+    { "term": "San Jose Convention Center", "reason": "place other than Spain" },
+    { "term": "Integrated Communication Systems", "reason": "installer company name" },
+    { "term": "MPS-488HP power supply", "reason": "model specific to a fixed install" },
+    { "term": "Which products were featured?", "reason": "page heading, not a useful question" }
+  ]
+}

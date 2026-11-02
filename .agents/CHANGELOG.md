@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): audio-visual-rental-for-conferences, nueva FAQ mice sound system (#T0170) (2026-11-02)
+- Origen: plan de contenido 2026-11-02, item cluster audio visual rental (mice sound system, gsc pos 2, 2 impr). Tarea #T0170.
+- FAQ nueva al final de `## FAQs`: "What does a MICE sound system include for a conference?". Hechos solo de `packages.ts` (MICE Pack y Basic MICE Pack) con enlaces a /packages/mice/ y /packages/basic-mice/. Sin marcas ni precios.
+- El post no tiene Table of Contents en linea, no hay bullet que anadir. `updatedDate` a 2026-11-02; `post-faqs.json` y `post-toc.json` regenerados.
+- Las 12 traducciones quedan obsoletas y siguen en el mismo cambio.
+
 ### Changed (blog): av-system-troubleshooting, nueva FAQ conference room (#T0169) (2026-11-02)
 - Origen: plan de contenido 2026-11-02, item cluster audio visual rental (conference room av troubleshooting, corporate av troubleshooting, gsc pos 98, 2 impr). Tarea #T0169.
 - FAQ nueva al final de `## FAQs`: "What should I check first if the AV stops working in a conference room?". Hechos solo del post: cables, input del proyector, canal mudo o gain, bateria del microfono inalambrico (solo Product Presentation Pack), linea 24/7 666 346 911. Sin marcas ni precios; solo equipo entregado por MEG, no sistemas instalados.
