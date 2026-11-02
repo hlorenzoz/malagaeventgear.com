@@ -3,6 +3,34 @@
   "updated": "2026-11-02",
   "tasks": [
     {
+      "id": "#T0179",
+      "estado": "en curso",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "Post nuevo /blog/mice-events-in-malaga/: mice events malaga (lote 1, post 4, silo event-technology-service)",
+      "anotada": "2026-11-02",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [],
+      "descripcion": [
+        "Corporate cluster plan 2026-10-13, lote 1, post 4. Keyword mice events malaga (214 impresiones medidas). Contenido de destino de la Parte 3: acceso, sedes, clima y temporada, que resuelve MEG y que un socio. Cada cifra con fuente oficial abierta al escribir. Experience solo de posts News. TGE para alojamiento de grupos. Primer hermano de la cadena del silo, el pilar recibe su primer enlace hacia el silo."
+      ]
+    },
+    {
+      "id": "#T0180",
+      "estado": "en curso",
+      "prioridad": "alta",
+      "tipo": "contenido",
+      "titulo": "Post nuevo /blog/how-to-organize-a-congress-in-malaga/: how to organize a congress in malaga (lote 1, post 5, silo event-technology-service)",
+      "anotada": "2026-11-02",
+      "hecha": null,
+      "origen": "usuario",
+      "notas": [],
+      "descripcion": [
+        "Corporate cluster plan 2026-10-13, lote 1, post 5. Ancla del cluster de planificacion. Entidades dentro del post, no keyword propia: FYCMA, Palacio de Congresos de Torremolinos y de Marbella, Convention Bureau, DMC, delegados, viaje de incentivo, run of show. MEG no es sede, ni DMC, ni organiza team building. Ultimo de la cadena: el enlace unico del pilar se mueve a este post."
+      ]
+    },
+    {
       "id": "#T0085",
       "estado": "en curso",
       "prioridad": "alta",
@@ -597,40 +625,6 @@
         "Ya corregido en audio-visual-rental-for-remote-presentations (1289, 1331) y en",
         "audio-visual-rental-for-virtual-events (1304), que describen solo lo que se ve. Con la respuesta",
         "del usuario: corregir el resto en inglés, traducciones y manifest, en un solo cambio."
-      ]
-    },
-    {
-      "id": "#T0030",
-      "estado": "pendiente",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Keyword de event-technology-service que se pisa con stage-lighting-rental",
-      "anotada": "2026-09-25",
-      "hecha": null,
-      "origen": "migrada",
-      "notas": [
-        "prioridad asignada por content-strategist el 2026-09-30: La keyword y el slug de event-technology-service se tradujeron igual que los de stage-lighting-rental en 6 idiomas",
-        "lo que crea solape de silo (cannibalization) ya publicado",
-        "justo el riesgo que el reverse silo existe para evitar."
-      ],
-      "descripcion": [
-        "Hallazgo del code-review del post stage-lighting-rental. En 6 idiomas la keyword y el slug de",
-        "event-technology-service se tradujeron como \"luz y escenario para eventos\", porque el post",
-        "inglés habla de iluminación, tarimas y técnico, y eso se pisa con la keyword del pilar de",
-        "iluminación:",
-        "- de `Licht- und Bühnentechnik Malaga` contra `Bühnenbeleuchtung mieten Malaga`",
-        "- it `luci e palco per eventi Malaga` contra `noleggio luci da palco a Malaga`",
-        "- pt-br `iluminação e palco para eventos Málaga` contra `aluguel de iluminação de palco em Málaga`",
-        "- zh-hans `活动灯光舞台搭建`, zh-tw `活動燈光舞台架設` y zh-hk `活動燈光舞台搭建` contra `舞台灯光租赁`,",
-        "  `舞台燈光出租` y `舞台燈光租借`",
-        "fr (`prestataire technique événementiel`) y pt-pt (`serviços técnicos para eventos`) muestran la",
-        "salida: la keyword de \"servicio técnico para eventos\", sin luz ni escenario.",
-        "Decisión: la keyword de iluminación se queda (es el término natural para alquilar iluminación de",
-        "escenario). No se toca event-technology-service todavía: cambiar su slug cambia URLs ya",
-        "publicadas y obliga a redirects 301 por idioma. Revisar con datos de GSC por idioma cuando haya",
-        "(consultas donde las dos páginas aparecen). Si se confirma la canibalización, re-keyear",
-        "event-technology-service en esos 6 idiomas con redirect del slug viejo, en el mismo cambio que su",
-        "actualización de TGE (tanda 1)."
       ]
     },
     {
@@ -1737,6 +1731,42 @@
       "descripcion": [
         "Base: mejor posicion de los ultimos 90 dias.",
         "Reporte rank-tracking de ubersuggest del 2026-10-26."
+      ]
+    },
+    {
+      "id": "#T0030",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Keyword de event-technology-service que se pisa con stage-lighting-rental",
+      "anotada": "2026-09-25",
+      "hecha": "2026-11-02",
+      "origen": "migrada",
+      "notas": [
+        "prioridad asignada por content-strategist el 2026-09-30: La keyword y el slug de event-technology-service se tradujeron igual que los de stage-lighting-rental en 6 idiomas",
+        "lo que crea solape de silo (cannibalization) ya publicado",
+        "justo el riesgo que el reverse silo existe para evitar.",
+        "decidido por el usuario 2026-11-02: no cambiar el slug ni la keyword de event-technology-service",
+        "las URLs publicadas se quedan como estan. Sin redirects."
+      ],
+      "descripcion": [
+        "Hallazgo del code-review del post stage-lighting-rental. En 6 idiomas la keyword y el slug de",
+        "event-technology-service se tradujeron como \"luz y escenario para eventos\", porque el post",
+        "inglés habla de iluminación, tarimas y técnico, y eso se pisa con la keyword del pilar de",
+        "iluminación:",
+        "- de `Licht- und Bühnentechnik Malaga` contra `Bühnenbeleuchtung mieten Malaga`",
+        "- it `luci e palco per eventi Malaga` contra `noleggio luci da palco a Malaga`",
+        "- pt-br `iluminação e palco para eventos Málaga` contra `aluguel de iluminação de palco em Málaga`",
+        "- zh-hans `活动灯光舞台搭建`, zh-tw `活動燈光舞台架設` y zh-hk `活動燈光舞台搭建` contra `舞台灯光租赁`,",
+        "  `舞台燈光出租` y `舞台燈光租借`",
+        "fr (`prestataire technique événementiel`) y pt-pt (`serviços técnicos para eventos`) muestran la",
+        "salida: la keyword de \"servicio técnico para eventos\", sin luz ni escenario.",
+        "Decisión: la keyword de iluminación se queda (es el término natural para alquilar iluminación de",
+        "escenario). No se toca event-technology-service todavía: cambiar su slug cambia URLs ya",
+        "publicadas y obliga a redirects 301 por idioma. Revisar con datos de GSC por idioma cuando haya",
+        "(consultas donde las dos páginas aparecen). Si se confirma la canibalización, re-keyear",
+        "event-technology-service en esos 6 idiomas con redirect del slug viejo, en el mismo cambio que su",
+        "actualización de TGE (tanda 1)."
       ]
     },
     {
