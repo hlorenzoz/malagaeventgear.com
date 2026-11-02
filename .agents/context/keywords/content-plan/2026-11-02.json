@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-02",
+  "run": {
+    "status": "ok",
+    "reason": "Los 20 candidatos son impresiones sueltas de GSC (1 impresion, sin volumen medido). Todos descartados: fuera de mercado, near me, o ya cubiertos. 262 FAQs nuevas no se revisaron hoy y quedan fuera del plan.",
+    "candidatesReviewed": 20,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "todo": [],
+  "items": [
+    {
+      "keywords": ["all included wedding venues near me", "all inclusive wedding villas", "all inclusive wedding villas spain", "all inclusive weddings spain", "bespoke weddings spain", "church rental"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 40 a 53, 1 impr cada una",
+      "reason": "Buscan locales, villas, iglesias o organizacion completa de boda. MEG solo alquila audiovisual y no vende venues ni wedding planning. La parte audiovisual ya la cubre /blog/all-in-one-wedding-rental-packages/ (secciones 'What All in One Doesn't Cover' y FAQ sobre venue y catering). Ademas 'near me' es doorway abuse (spam-policies.md)."
+    },
+    {
+      "keywords": ["bridal packages"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 57 1 impr",
+      "reason": "Misma intencion que /blog/all-in-one-wedding-rental-packages/ (Our All Inclusive Wedding Pack in Malaga). Un segundo contenido seria canibalizacion dentro del silo wedding rentals."
+    },
+    {
+      "keywords": ["alquiler de altavoces malaga", "alquiler iluminación", "alquiler iluminación pais vasco"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 3 a 95, 1 impr cada una",
+      "reason": "Consultas en espanol: el sitio tiene hoy 13 idiomas sin espanol y la brecha de contenido en espanol esta aplazada por decision del usuario. Pais Vasco esta fuera del area de servicio. Los temas ya los cubren /blog/sound-system-rental/ y /blog/stage-lighting-rental/."
+    },
+    {
+      "keywords": ["8000 lumen projector rental"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 43 1 impr",
+      "reason": "Cubierto por /blog/projector-rental/, seccion 'Choosing a Lumens Tier for Your Room' y FAQs de brillo y venues grandes. El inventario llega a 5000 lumenes (Christie LX505), y una pagina por cifra de lumenes seria casi duplicada."
+    },
+    {
+      "keywords": ["audio visual", "audio visual equipment rentals", "audiovisual hire", "audio gear", "av events companies"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 1 a 69, 1 impr cada una",
+      "reason": "Terminos amplios ya servidos por los pilares /blog/audio-visual-rental/ y /blog/audiovisual-equipment-rental-service/ y por /blog/audio-visual-rental-company/. Una pagina nueva o seccion solo repetiria lo existente (creating-helpful-content.md: contenido sin valor anadido)."
+    },
+    {
+      "keywords": ["av vendors near me", "big screen hire near me"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 1 y 5, 1 impr cada una",
+      "reason": "Variantes near me de paginas existentes (/blog/audio-visual-hire-near-me-in-malaga-spain/ y /blog/tv-screen-rental/). Doorway abuse en spam-policies.md: no se crean paginas nuevas."
+    },
+    {
+      "keywords": ["audio visual planning"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 45 1 impr",
+      "reason": "Cubierto por /blog/audio-visual-rental-planning-timeline/ y /blog/av-equipment-consultations/."
+    },
+    {
+      "keywords": ["av troubleshooting tips"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 75 1 impr",
+      "reason": "Cubierto por /blog/av-system-troubleshooting/, que ya tiene secciones de auto revision por pack y FAQs de microfono, proyector y feedback."
+    }
+  ]
+}
