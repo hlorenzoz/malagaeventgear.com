@@ -394,12 +394,17 @@ describe('the todo-implementer team (todo-implement headless run)', () => {
 		const paths = (kind: string) =>
 			allowed.filter((t) => t.startsWith(`${kind}(`)).map((t) => t.slice(kind.length));
 		const editPaths = new Set(paths('Edit'));
-		for (const p of paths('Write')) expect(editPaths.has(p), `Edit${p} next to Write${p}`).toBe(true);
+		for (const p of paths('Write'))
+			expect(editPaths.has(p), `Edit${p} next to Write${p}`).toBe(true);
 	});
 
-	it('never lets the agents touch git history beyond add and commit, nor TODO.json', () => {
+	it('lets the agents only read git, and never stage or commit (post-translate-finish commits)', () => {
 		const git = allowed.filter((t) => t.startsWith('Bash(git'));
-		for (const g of git) expect(g).toMatch(/^Bash\(git (status|diff|log|show|add|commit)/);
+		for (const g of git) expect(g).toMatch(/^Bash\(git (status|diff|log|show):/);
+		// A staged English file made post-translate-finish refuse to run (#T0169-#T0171, 2026-11-02).
+		const orchestrator = team[TODO_TEAM.indexOf('todo-implementer')];
+		expect(orchestrator).not.toMatch(/`git add --/);
+		expect(orchestrator).toMatch(/Do NOT stage or commit the English change/);
 		expect(run).not.toMatch(/Write\([^)]*TODO/);
 		expect(run).toContain('--max-budget-usd');
 		expect(run).toContain('TODO_IMPLEMENT_BUDGET');

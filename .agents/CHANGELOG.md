@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (agentes): todo-implementer ya no deja el ingles en el indice (2026-11-02)
+- Causa: el paso 6 de `.claude/agents/todo-implementer.md` mandaba `git add` de los 5 archivos del post ingles y, dos lineas despues, decia que no se commitea nada. El orquestador obedecio el `git add` y `post-translate-finish` se nego a correr con el indice sin vaciar. Bloqueo #T0169, #T0170 y #T0171 el 2026-11-02 (y antes #T0141). Con el archivo en el indice, `git diff -- <slug>.svx` tambien queda vacio para el traductor y el verificador.
+- Paso 6 reescrito: no ejecutar ningun comando git, el ingles queda sin stagear hasta `just post-translate-finish`.
+- `Bash(git add:*)` y `Bash(git commit:*)` salen de la lista de permisos de `just todo-implement` (Justfile): el commit lo hace `post-translate-finish` y los de datos, `todo-implement-commit` y `todo-commit`, que son scripts. Los agentes solo leen git.
+- `scripts/keywords/agent-json.test.ts`: el test de permisos exige solo `status|diff|log|show` y que el orquestador no tenga `git add --` ni le falte la regla del paso 6.
+
 ### Changed (blog): all-in-one-wedding-rental-packages, nueva FAQ preparar la entrega en el venue (#T0171) (2026-11-02)
 - Origen: plan de contenido 2026-11-02, item cluster wedding rentals (tips for wedding rental delivery, gsc pos 44, 3 impr). Tarea #T0171.
 - FAQ nueva al final de `## FAQs`: "What should I prepare at the venue for the equipment delivery on my wedding day?". Hechos solo del post: MEG entrega, instala, prueba y recoge el Wedding Pack, tecnico en directo, teardown y pickup incluidos. El resto son peticiones al cliente (contacto, hora de entrega, acceso, toma de corriente, espacio, normas del venue, run of show), sin horas, plazos ni tarifas. Enlace a /packages/wedding/.

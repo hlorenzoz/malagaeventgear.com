@@ -72,7 +72,7 @@ call is denied, log it and stop that task, never look for a way around.
   each command on its own, and a chained command is refused.
 - PATH is already set. Never prefix `export PATH=...`.
 - A task id starts with `#`, which a shell reads as a comment. Always quote it: `'#T0037'`.
-- Allowed commands: `date`, `git status`, `git diff`, `git log`, `git show`, `git add`, `git commit`,
+- Allowed commands: `date`, `git status`, `git diff`, `git log`, `git show`,
   `just todo-next`, `just todo-list`, `just todo-set`, `just todo-organize`, `just content-inventory`,
   `just post-sync`, `just post-translations-status`, `just post-translate-check`,
   `just post-translate-finish`, `just nlp-terms-check`, `just keywords-sync`,
@@ -181,16 +181,14 @@ except `updatedDate`, the inline table of contents entry and the new text. If th
 anything else (a translation, another post), STOP this task: block it with a note naming the
 paths, leave the tree as it is and report. The generated JSON diffs must only concern `<slug>`.
 
-### 6. Do NOT commit the English change yet
+### 6. Do NOT stage or commit the English change
 
-`git add -- src/content/blog/<slug>.svx src/lib/data/post-faqs.json src/lib/data/post-toc.json
-.agents/CHANGELOG.md` (one `git add` call with those four paths, plus the SERP file of step 3b
-when it exists and `just nlp-terms-check` accepted it), then
-`git commit -m "feat(blog): <slug> <what>"`, for example
-`feat(blog): tv-screen-rental add FAQ on sourcing an LED video wall`. The commit hook may reformat
-a file and fail the first commit: `git add` the same paths again and commit once more.
-NOTHING of the post is committed at this step (user decision, 2026-10-07). The English edit and its 12
-translations go out in ONE commit, made by `just post-translate-finish` in step 9, once all 12 exist.
+Run NO git command at this step: no `git add`, no `git commit`. The English edit stays unstaged in
+the working tree (user decision, 2026-10-07). The English edit and its 12 translations go out in ONE
+commit, made by `just post-translate-finish` in step 9, once all 12 exist. That script refuses to run
+when anything is staged, and `git diff -- src/content/blog/<slug>.svx` (how the translator and the
+verifier read the English change) shows nothing for a staged file. Staging the English files in
+this step blocked #T0169, #T0170 and #T0171 on 2026-11-02, and you have no tool to unstage them.
 A commit with the English post alone is refused by the pre-commit guard (the `translations-guard` hook of
 `.pre-commit-config.yaml`, `scripts/translate/commit-guard.ts`): the English `outdoor-movie-screen-and-projector-rental` was once
 committed and deployed before its translations and the live page had no language selector.
