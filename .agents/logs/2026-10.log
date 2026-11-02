@@ -230,3 +230,358 @@
 2026-10-09 16:54 | auto | todo-commit | commit | hash=cb530fbe subject="chore(todo): close T0033, split the silo guard defect into its own task" file=.agents/data/TODO.json
 2026-10-09 21:10 | auto | todo-commit | commit | hash=db97371c subject="chore(todo): add T0112, Spanish translation of the main pages" file=.agents/data/TODO.json
 2026-10-09 22:00 | auto | todo-commit | commit | hash=58eefb8d subject="chore(todo): T0018 posts done, pages and packages pending" file=.agents/data/TODO.json
+2026-10-10 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-10 09:31 | auto | ubersuggest-analyst | commit | hash=8beb6b3e subject="chore(keywords): daily Ubersuggest research 2026-10-10" file=.agents/context/keywords/ubersuggest/2026-10-10.json
+2026-10-10 09:31 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-10.json keywords=1 faqs=0 ai_prompts=58 discarded=2 status=partial minutes=1.6
+2026-10-10 09:33 | auto | faq-researcher | commit | hash=b78e2239 subject="chore(keywords): daily FAQ research 2026-10-10" file=.agents/context/keywords/faqs/2026-10-10.json
+2026-10-10 09:33 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-10.json suggestions=0 status=partial minutes=1.3
+2026-10-10 09:34 | auto | content-strategist | commit | hash=ab22a16f subject="chore(keywords): daily content plan 2026-10-10" file=.agents/context/keywords/content-plan/2026-10-10.json
+2026-10-10 09:34 | auto | todo-commit | commit | hash=785e81b4 subject="chore(todo): add tasks from the content plan 2026-10-10" file=.agents/data/TODO.json
+2026-10-10 09:34 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-10.json items=8 add-section=0 new-post=0 add-faq=2 skip=6 minutes=1.1
+2026-10-10 09:34 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-10 09:34 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=4.1
+2026-10-10 09:55 | auto | todo-commit | commit | hash=642cedfb subject="chore(todo): add the stuck FAQ seed rotation defect" file=.agents/data/TODO.json
+2026-10-10 10:12 | demanda | post-translator | commit | slug=outdoor-movie-screen-and-projector-rental hash=a09b244c subject="feat(blog): outdoor-movie-screen-and-projector-rental, FAQ on inflatable movie screens (#T0107)" files=17
+2026-10-10 10:13 | demanda | todo-implementer | commit | hash=f4063176 subject="chore(keywords): sync after #T0107 outdoor-movie-screen-and-projector-rental" task=#T0107 slug=outdoor-movie-screen-and-projector-rental
+2026-10-10 10:13 | auto | todo-commit | commit | hash=a1f61921 subject="chore(todo): close #T0107 outdoor-movie-screen-and-projector-rental" file=.agents/data/TODO.json
+2026-10-10 10:29 | demanda | post-translator | step-failed | slug=sound-system-rental step=finish reason="vitest run scripts src/lib failed (exit 1), nothing was committed"
+2026-10-10 10:49 | demanda | post-translator | commit | slug=sound-system-rental hash=d33da502 subject="feat(blog): sound-system-rental, FAQ on renting a separate amplifier (#T0113)" files=17
+2026-10-10 10:52 | demanda | todo-implementer | commit | hash=d3b3710d subject="chore(keywords): sync after #T0113 sound-system-rental" task=#T0113 slug=sound-system-rental
+2026-10-10 10:52 | auto | todo-commit | commit | hash=3ab5810c subject="chore(todo): close #T0113 sound-system-rental" file=.agents/data/TODO.json
+2026-10-10 11:12 | demanda | post-translator | commit | slug=projector-rental hash=0b21fdce subject="feat(blog): projector-rental, FAQ on projectors for large venues (#T0114)" files=17
+2026-10-10 11:12 | demanda | todo-implementer | commit | hash=d6ceece4 subject="chore(keywords): sync after #T0114 projector-rental" task=#T0114 slug=projector-rental
+2026-10-10 11:12 | auto | todo-commit | commit | hash=6cf6a9ae subject="chore(todo): close #T0114 projector-rental" file=.agents/data/TODO.json
+2026-10-10 11:29 | auto | todo-commit | commit | hash=58f9a030 subject="chore(todo): close #T0103 icon only links" file=.agents/data/TODO.json
+2026-10-10 17:08 | auto | todo-commit | commit | hash=11dbc1b5 subject="chore(todo): T0018 main pages done, package detail pages pending" file=.agents/data/TODO.json
+2026-10-10 17:22 | auto | todo-commit | commit | hash=f4619861 subject="chore(todo): T0018 part 3, package detail pages need a design decision" file=.agents/data/TODO.json
+2026-10-10 18:50 | auto | todo-commit | commit | hash=8220bceb subject="chore(todo): close T0018, add the Italian finca leftover" file=.agents/data/TODO.json
+2026-10-10 19:31 | auto | todo-commit | commit | hash=ab2f1777 subject="chore(todo): close T0116 FAQ seed rotation" file=.agents/data/TODO.json
+2026-10-10 19:57 | auto | todo-commit | commit | hash=989030e5 subject="chore(todo): close T0111, add the role based silo guard follow up" file=.agents/data/TODO.json
+2026-10-10 20:52 | auto | todo-commit | commit | hash=28767573 subject="chore(todo): close T0117 Italian finca wording" file=.agents/data/TODO.json
+2026-10-10 21:01 | auto | todo-commit | commit | hash=414e1dce subject="chore(todo): add the old translation check problems" file=.agents/data/TODO.json
+2026-10-10 21:24 | auto | todo-commit | commit | hash=646de619 subject="chore(todo): close T0118 role based silo guard" file=.agents/data/TODO.json
+2026-10-10 21:45 | auto | todo-commit | commit | hash=8f0f948b subject="chore(todo): T0119 two of three check problems fixed" file=.agents/data/TODO.json
+2026-10-10 22:44 | auto | todo-commit | commit | hash=874d24c6 subject="chore(todo): close T0119" file=.agents/data/TODO.json
+2026-10-11 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-11 09:31 | auto | ubersuggest-analyst | commit | hash=06fc967c subject="chore(keywords): daily Ubersuggest research 2026-10-11" file=.agents/context/keywords/ubersuggest/2026-10-11.json
+2026-10-11 09:31 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-11.json keywords=0 faqs=0 ai_prompts=58 discarded=2 status=partial minutes=1.4
+2026-10-11 09:32 | auto | faq-researcher | commit | hash=ba9a04c2 subject="chore(keywords): daily FAQ research 2026-10-11" file=.agents/context/keywords/faqs/2026-10-11.json
+2026-10-11 09:32 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-11.json suggestions=59 status=ok minutes=0.8
+2026-10-11 09:33 | auto | content-strategist | commit | hash=6aa54458 subject="chore(keywords): daily content plan 2026-10-11" file=.agents/context/keywords/content-plan/2026-10-11.json
+2026-10-11 09:33 | auto | todo-commit | commit | hash=5c820cd4 subject="chore(todo): add tasks from the content plan 2026-10-11" file=.agents/data/TODO.json
+2026-10-11 09:33 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-11.json items=4 add-section=0 new-post=0 add-faq=1 skip=3 minutes=1.0
+2026-10-11 09:33 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-11 09:33 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=3.3
+2026-10-11 15:40 | demanda | post-translator | commit | slug=sound-system-rental hash=cb2fba7c subject="feat(blog): sound-system-rental FAQ on Neumann and condenser microphones (#T0120)" files=17
+2026-10-11 15:40 | demanda | todo-implementer | commit | hash=a3abad12 subject="chore(keywords): sync after #T0120 sound-system-rental" task=#T0120 slug=sound-system-rental
+2026-10-11 15:40 | auto | todo-commit | commit | hash=ec460fe7 subject="chore(todo): close #T0120 sound-system-rental" file=.agents/data/TODO.json
+2026-10-11 16:04 | auto | todo-commit | commit | hash=81ba1128 subject="chore(todo): close T0122 inventory confirmation" file=.agents/data/TODO.json
+2026-10-12 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-12 09:32 | auto | ubersuggest-analyst | commit | hash=ac0f3b43 subject="chore(keywords): daily Ubersuggest research 2026-10-12" file=.agents/context/keywords/ubersuggest/2026-10-12.json
+2026-10-12 09:32 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-12.json keywords=21 faqs=0 ai_prompts=58 discarded=0 status=partial minutes=2.8
+2026-10-12 09:34 | auto | faq-researcher | commit | hash=609e0fcc subject="chore(keywords): daily FAQ research 2026-10-12" file=.agents/context/keywords/faqs/2026-10-12.json
+2026-10-12 09:34 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-12.json suggestions=27 status=ok minutes=1.3
+2026-10-12 09:35 | auto | content-strategist | commit | hash=c1dd3244 subject="chore(keywords): daily content plan 2026-10-12" file=.agents/context/keywords/content-plan/2026-10-12.json
+2026-10-12 09:35 | auto | todo-commit | commit | hash=b0d84620 subject="chore(todo): add tasks from the content plan 2026-10-12" file=.agents/data/TODO.json
+2026-10-12 09:35 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-12.json items=5 add-section=0 new-post=0 add-faq=1 skip=4 minutes=1.9
+2026-10-12 09:36 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-12 09:36 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=6.0
+2026-10-13 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-13 09:33 | auto | ubersuggest-analyst | commit | hash=6b032666 subject="chore(keywords): daily Ubersuggest research 2026-10-13" file=.agents/context/keywords/ubersuggest/2026-10-13.json
+2026-10-13 09:33 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-13.json keywords=0 faqs=0 ai_prompts=56 discarded=4 status=partial minutes=3.6
+2026-10-13 09:35 | auto | faq-researcher | commit | hash=9587b67a subject="chore(keywords): daily FAQ research 2026-10-13" file=.agents/context/keywords/faqs/2026-10-13.json
+2026-10-13 09:35 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-13.json suggestions=48 status=ok minutes=2.1
+2026-10-13 09:38 | auto | content-strategist | commit | hash=d227f609 subject="chore(keywords): daily content plan 2026-10-13" file=.agents/context/keywords/content-plan/2026-10-13.json
+2026-10-13 09:38 | auto | todo-commit | commit | hash=dc559bd5 subject="chore(todo): add tasks from the content plan 2026-10-13" file=.agents/data/TODO.json
+2026-10-13 09:38 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-13.json items=6 add-section=0 new-post=0 add-faq=1 skip=5 minutes=2.3
+2026-10-13 09:38 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-13 09:38 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=8.1
+2026-10-13 10:04 | demanda | post-translator | commit | slug=audio-visual-rental-for-outdoor-events hash=cb7e492d subject="feat(blog): audio-visual-rental-for-outdoor-events FAQ on large LED screens (#T0123)" files=17
+2026-10-13 10:04 | demanda | todo-implementer | commit | hash=1db624e2 subject="chore(keywords): sync after #T0123 audio-visual-rental-for-outdoor-events" task=#T0123 slug=audio-visual-rental-for-outdoor-events
+2026-10-13 10:04 | auto | todo-commit | commit | hash=25e08340 subject="chore(todo): close #T0123 audio-visual-rental-for-outdoor-events" file=.agents/data/TODO.json
+2026-10-13 10:43 | demanda | post-translator | commit | slug=outdoor-movie-screen-and-projector-rental hash=67125f36 subject="feat(blog): outdoor-movie-screen-and-projector-rental FAQ on portable screens (#T0126)" files=17
+2026-10-13 10:44 | demanda | todo-implementer | commit | hash=560852e4 subject="chore(keywords): sync after #T0126 outdoor-movie-screen-and-projector-rental" task=#T0126 slug=outdoor-movie-screen-and-projector-rental
+2026-10-13 10:44 | auto | todo-commit | commit | hash=4292eef4 subject="chore(todo): close #T0126 outdoor-movie-screen-and-projector-rental" file=.agents/data/TODO.json
+2026-10-13 10:56 | auto | todo-commit | commit | hash=8ed662c9 subject="chore(todo): T0110 hyphen decision closed" file=.agents/data/TODO.json
+2026-10-13 11:48 | demanda | post-translator | commit | slug=conference-table-microphone-rental hash=9d470570 subject="feat(blog): conference-table-microphone-rental new post in 13 languages (#T0089)" files=55
+2026-10-13 11:49 | auto | todo-commit | commit | hash=3119e638 subject="chore(todo): close T0089 conference table microphone post" file=.agents/data/TODO.json
+2026-10-13 13:57 | demanda | post-translator | commit | slug=all-in-one-wedding-rental-packages hash=1d5f54c4 subject="feat(blog): all-in-one-wedding-rental-packages all inclusive section and FAQ (#T0125)" files=17
+2026-10-13 13:57 | demanda | todo-implementer | commit | hash=1cbb510a subject="chore(keywords): sync after #T0125 all-in-one-wedding-rental-packages" task=#T0125 slug=all-in-one-wedding-rental-packages
+2026-10-13 13:57 | auto | todo-commit | commit | hash=ad3f42c0 subject="chore(todo): close #T0125 all-in-one-wedding-rental-packages" file=.agents/data/TODO.json
+2026-10-13 14:23 | auto | todo-commit | commit | hash=45716384 subject="chore(todo): T0128 three month Search Console findings" file=.agents/data/TODO.json
+2026-10-13 14:29 | auto | todo-commit | commit | hash=33107826 subject="chore(todo): T0128 wait before acting" file=.agents/data/TODO.json
+2026-10-13 14:53 | demanda | post-translator | commit | slug=sound-system-rental hash=03600968 subject="feat(blog): sound-system-rental section on sound and light rental in one package (#T0082)" files=16
+2026-10-13 14:53 | auto | todo-commit | commit | hash=f29d0059 subject="chore(todo): close #T0082 sound-system-rental" file=.agents/data/TODO.json
+2026-10-13 15:18 | auto | todo-commit | commit | hash=7360e5a1 subject="chore(todo): close T0001, scope of T0004" file=.agents/data/TODO.json
+2026-10-13 15:35 | auto | todo-commit | commit | hash=b07d0d0b subject="chore(todo): T0085 analysis done, plan awaiting approval" file=.agents/data/TODO.json
+2026-10-14 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-14 09:36 | auto | ubersuggest-analyst | commit | hash=ee9b1702 subject="chore(keywords): daily Ubersuggest research 2026-10-14" file=.agents/context/keywords/ubersuggest/2026-10-14.json
+2026-10-14 09:36 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-14.json keywords=0 faqs=0 ai_prompts=56 discarded=4 status=partial minutes=6.5
+2026-10-14 09:42 | auto | faq-researcher | commit | hash=27ddc4bd subject="chore(keywords): daily FAQ research 2026-10-14" file=.agents/context/keywords/faqs/2026-10-14.json
+2026-10-14 09:42 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-14.json suggestions=24 status=ok minutes=5.6
+2026-10-14 09:43 | auto | content-strategist | commit | hash=4b1e23b9 subject="chore(keywords): daily content plan 2026-10-14" file=.agents/context/keywords/content-plan/2026-10-14.json
+2026-10-14 09:43 | auto | todo-commit | commit | hash=fb1c3865 subject="chore(todo): add tasks from the content plan 2026-10-14" file=.agents/data/TODO.json
+2026-10-14 09:43 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-14.json items=6 add-section=0 new-post=0 add-faq=0 skip=6 minutes=1.6
+2026-10-14 09:43 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-14 09:43 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=13.8
+2026-10-15 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-15 09:32 | auto | ubersuggest-analyst | commit | hash=19272845 subject="chore(keywords): daily Ubersuggest research 2026-10-15" file=.agents/context/keywords/ubersuggest/2026-10-15.json
+2026-10-15 09:32 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-15.json keywords=6 faqs=0 ai_prompts=55 discarded=5 status=partial minutes=2.2
+2026-10-15 09:32 | auto | faq-researcher | commit | hash=5d79d251 subject="chore(keywords): daily FAQ research 2026-10-15" file=.agents/context/keywords/faqs/2026-10-15.json
+2026-10-15 09:33 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-15.json suggestions=45 status=ok minutes=0.8
+2026-10-15 09:33 | auto | content-strategist | commit | hash=cd5ece9c subject="chore(keywords): daily content plan 2026-10-15" file=.agents/context/keywords/content-plan/2026-10-15.json
+2026-10-15 09:33 | auto | todo-commit | commit | hash=c277327a subject="chore(todo): add tasks from the content plan 2026-10-15" file=.agents/data/TODO.json
+2026-10-15 09:33 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-15.json items=8 add-section=1 new-post=0 add-faq=0 skip=7 minutes=0.7
+2026-10-15 09:33 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=yes minutes=0.0
+2026-10-15 09:33 | auto | todo-commit | commit | hash=530d9548 subject="chore(todo): sync TODO.json" file=.agents/data/TODO.json
+2026-10-15 09:33 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=3.8
+2026-10-15 22:17 | demanda | todo-implementer | run-start | args="--max 2" budget_usd=60 tasks=#T0130
+2026-10-15 22:30 | demanda | post-translator | commit | slug=projector-rental hash=f3d0721b subject="feat(blog): projector-rental add section on rear projection screen rental" files=16
+2026-10-15 22:30 | demanda | todo-implementer | commit | hash=be1c5161 subject="chore(keywords): sync after #T0130 projector-rental" task=#T0130 slug=projector-rental
+2026-10-15 22:30 | demanda | todo-commit | commit | hash=89ed29dd subject="chore(todo): close #T0130 projector-rental" file=.agents/data/TODO.json
+2026-10-15 22:31 | demanda | todo-implementer | task-done | task=#T0130 hecha=2026-10-15 titulo="Nueva sección H2 en /blog/projector-rental/: 'Rear Projection Screen Rental'"
+2026-10-15 22:31 | demanda | todo-implementer | run-end | is_error=false exit=0 cost_usd=1.21 minutes=13.4 turns=20 subtype=success commits=f3d0721b,be1c5161,89ed29dd
+2026-10-16 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-16 09:31 | auto | ubersuggest-analyst | commit | hash=149903c6 subject="chore(keywords): daily Ubersuggest research 2026-10-16" file=.agents/context/keywords/ubersuggest/2026-10-16.json
+2026-10-16 09:31 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-16.json keywords=0 faqs=0 ai_prompts=66 discarded=4 status=partial minutes=1.9
+2026-10-16 09:32 | auto | faq-researcher | commit | hash=dd3a357d subject="chore(keywords): daily FAQ research 2026-10-16" file=.agents/context/keywords/faqs/2026-10-16.json
+2026-10-16 09:32 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-16.json suggestions=25 status=ok minutes=0.9
+2026-10-16 09:33 | auto | content-strategist | commit | hash=514fcbb0 subject="chore(keywords): daily content plan 2026-10-16" file=.agents/context/keywords/content-plan/2026-10-16.json
+2026-10-16 09:33 | auto | todo-commit | commit | hash=51380dab subject="chore(todo): add tasks from the content plan 2026-10-16" file=.agents/data/TODO.json
+2026-10-16 09:33 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-16.json items=11 add-section=0 new-post=0 add-faq=0 skip=11 minutes=1.1
+2026-10-16 09:33 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-16 09:33 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=3.9
+2026-10-17 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-17 09:31 | auto | ubersuggest-analyst | commit | hash=c190819c subject="chore(keywords): daily Ubersuggest research 2026-10-17" file=.agents/context/keywords/ubersuggest/2026-10-17.json
+2026-10-17 09:31 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-17.json keywords=1 faqs=0 ai_prompts=58 discarded=1 status=partial minutes=1.8
+2026-10-17 09:32 | auto | faq-researcher | commit | hash=c608554e subject="chore(keywords): daily FAQ research 2026-10-17" file=.agents/context/keywords/faqs/2026-10-17.json
+2026-10-17 09:32 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-17.json suggestions=44 status=ok minutes=0.6
+2026-10-17 09:33 | auto | content-strategist | commit | hash=69acbc5e subject="chore(keywords): daily content plan 2026-10-17" file=.agents/context/keywords/content-plan/2026-10-17.json
+2026-10-17 09:33 | auto | todo-commit | commit | hash=fc4ecd83 subject="chore(todo): add tasks from the content plan 2026-10-17" file=.agents/data/TODO.json
+2026-10-17 09:33 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-17.json items=7 add-section=0 new-post=0 add-faq=0 skip=7 minutes=0.7
+2026-10-17 09:33 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-17 09:33 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=3.1
+2026-10-18 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-18 09:31 | auto | ubersuggest-analyst | commit | hash=9d4fbba2 subject="chore(keywords): daily Ubersuggest research 2026-10-18" file=.agents/context/keywords/ubersuggest/2026-10-18.json
+2026-10-18 09:32 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-18.json keywords=0 faqs=0 ai_prompts=56 discarded=4 status=partial minutes=2.0
+2026-10-18 09:33 | auto | faq-researcher | commit | hash=077d47cb subject="chore(keywords): daily FAQ research 2026-10-18" file=.agents/context/keywords/faqs/2026-10-18.json
+2026-10-18 09:33 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-18.json suggestions=23 status=ok minutes=1.2
+2026-10-18 09:34 | auto | content-strategist | commit | hash=7e099bce subject="chore(keywords): daily content plan 2026-10-18" file=.agents/context/keywords/content-plan/2026-10-18.json
+2026-10-18 09:34 | auto | todo-commit | commit | hash=e3999699 subject="chore(todo): add tasks from the content plan 2026-10-18" file=.agents/data/TODO.json
+2026-10-18 09:34 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-18.json items=7 add-section=0 new-post=0 add-faq=0 skip=7 minutes=1.5
+2026-10-18 09:34 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-18 09:34 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=4.8
+2026-10-19 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-19 09:32 | auto | ubersuggest-analyst | commit | hash=0261282b subject="chore(keywords): daily Ubersuggest research 2026-10-19" file=.agents/context/keywords/ubersuggest/2026-10-19.json
+2026-10-19 09:32 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-19.json keywords=0 faqs=0 ai_prompts=30 discarded=10 status=partial minutes=2.4
+2026-10-19 09:33 | auto | faq-researcher | commit | hash=18529cb8 subject="chore(keywords): daily FAQ research 2026-10-19" file=.agents/context/keywords/faqs/2026-10-19.json
+2026-10-19 09:33 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-19.json suggestions=0 status=partial minutes=0.9
+2026-10-19 09:34 | auto | content-strategist | commit | hash=447e0d75 subject="chore(keywords): daily content plan 2026-10-19" file=.agents/context/keywords/content-plan/2026-10-19.json
+2026-10-19 09:34 | auto | todo-commit | commit | hash=89a4a8ce subject="chore(todo): add tasks from the content plan 2026-10-19" file=.agents/data/TODO.json
+2026-10-19 09:34 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-19.json items=9 add-section=0 new-post=0 add-faq=1 skip=8 minutes=1.0
+2026-10-19 09:34 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-19 09:34 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=4.3
+2026-10-20 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-20 09:32 | auto | ubersuggest-analyst | commit | hash=9b286d37 subject="chore(keywords): daily Ubersuggest research 2026-10-20" file=.agents/context/keywords/ubersuggest/2026-10-20.json
+2026-10-20 09:32 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-20.json keywords=1 faqs=0 ai_prompts=58 discarded=2 status=partial minutes=2.2
+2026-10-20 09:33 | auto | faq-researcher | commit | hash=73c78849 subject="chore(keywords): daily FAQ research 2026-10-20" file=.agents/context/keywords/faqs/2026-10-20.json
+2026-10-20 09:33 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-20.json suggestions=59 status=ok minutes=1.0
+2026-10-20 09:35 | auto | content-strategist | commit | hash=58f1996b subject="chore(keywords): daily content plan 2026-10-20" file=.agents/context/keywords/content-plan/2026-10-20.json
+2026-10-20 09:35 | auto | todo-commit | commit | hash=469bdead subject="chore(todo): add tasks from the content plan 2026-10-20" file=.agents/data/TODO.json
+2026-10-20 09:35 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-20.json items=8 add-section=0 new-post=0 add-faq=1 skip=7 minutes=1.8
+2026-10-20 09:35 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-20 09:35 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=5.0
+2026-10-21 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-21 09:31 | auto | ubersuggest-analyst | commit | hash=d3fb855a subject="chore(keywords): daily Ubersuggest research 2026-10-21" file=.agents/context/keywords/ubersuggest/2026-10-21.json
+2026-10-21 09:31 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-21.json keywords=0 faqs=0 ai_prompts=22 discarded=4 status=partial minutes=1.7
+2026-10-21 09:32 | auto | faq-researcher | commit | hash=8cb393c4 subject="chore(keywords): daily FAQ research 2026-10-21" file=.agents/context/keywords/faqs/2026-10-21.json
+2026-10-21 09:32 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-21.json suggestions=27 status=ok minutes=1.0
+2026-10-21 09:34 | auto | content-strategist | commit | hash=25dd4af0 subject="chore(keywords): daily content plan 2026-10-21" file=.agents/context/keywords/content-plan/2026-10-21.json
+2026-10-21 09:34 | auto | todo-commit | commit | hash=eee335f2 subject="chore(todo): add tasks from the content plan 2026-10-21" file=.agents/data/TODO.json
+2026-10-21 09:34 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-21.json items=4 add-section=0 new-post=0 add-faq=2 skip=2 minutes=1.4
+2026-10-21 09:34 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-21 09:34 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=4.2
+2026-10-22 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-22 09:30 | auto | ubersuggest-analyst | step-failed | reason="exit code 1" minutes=0.1
+2026-10-22 09:30 | auto | faq-researcher | step-failed | reason="exit code 1" minutes=0.0
+2026-10-22 09:30 | auto | content-strategist | step-failed | reason="exit code 1" minutes=0.0
+2026-10-22 09:30 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-22 09:30 | auto | daily-guard | run-end | result=failed done=none failed=research,faqs,plan minutes=0.2
+2026-10-22 10:37 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=2/3 reason="research pending"
+2026-10-22 10:37 | auto | ubersuggest-analyst | step-failed | reason="exit code 1" minutes=0.1
+2026-10-22 10:37 | auto | faq-researcher | step-failed | reason="exit code 1" minutes=0.1
+2026-10-22 10:38 | auto | content-strategist | step-failed | reason="exit code 1" minutes=0.0
+2026-10-22 10:38 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-22 10:38 | auto | daily-guard | run-end | result=failed done=none failed=research,faqs,plan minutes=0.2
+2026-10-22 12:04 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=3/3 reason="research pending"
+2026-10-22 12:04 | auto | ubersuggest-analyst | step-failed | reason="exit code 1" minutes=0.1
+2026-10-22 12:04 | auto | faq-researcher | step-failed | reason="exit code 1" minutes=0.0
+2026-10-22 12:04 | auto | content-strategist | step-failed | reason="exit code 1" minutes=0.0
+2026-10-22 12:04 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-22 12:04 | auto | daily-guard | run-end | result=failed done=none failed=research,faqs,plan minutes=0.1
+2026-10-22 15:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=4/3 reason="research pending" forced=yes
+2026-10-22 15:32 | auto | ubersuggest-analyst | commit | hash=adc8f531 subject="chore(keywords): daily Ubersuggest research 2026-10-22" file=.agents/context/keywords/ubersuggest/2026-10-22.json
+2026-10-22 15:32 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-22.json keywords=3 faqs=0 ai_prompts=26 discarded=4 status=partial minutes=2.0
+2026-10-22 15:33 | auto | faq-researcher | commit | hash=d0e6afed subject="chore(keywords): daily FAQ research 2026-10-22" file=.agents/context/keywords/faqs/2026-10-22.json
+2026-10-22 15:33 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-22.json suggestions=48 status=ok minutes=1.1
+2026-10-22 15:34 | auto | content-strategist | commit | hash=455b3a61 subject="chore(keywords): daily content plan 2026-10-22" file=.agents/context/keywords/content-plan/2026-10-22.json
+2026-10-22 15:34 | auto | todo-commit | commit | hash=eb9a7779 subject="chore(todo): add tasks from the content plan 2026-10-22" file=.agents/data/TODO.json
+2026-10-22 15:34 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-22.json items=8 add-section=0 new-post=0 add-faq=1 skip=7 minutes=1.5
+2026-10-22 15:34 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=yes minutes=0.0
+2026-10-22 15:34 | auto | todo-commit | commit | hash=d7f02c0d subject="chore(todo): sync TODO.json" file=.agents/data/TODO.json
+2026-10-22 15:34 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=4.6
+2026-10-22 15:36 | demanda | todo-implementer | run-start | args="--max 5" budget_usd=150 tasks=#T0141,#T0137,#T0139,#T0142,#T0144
+2026-10-22 15:37 | demanda | todo-implementer | run-start | args="--task #T0141" budget_usd=30 tasks=#T0141
+2026-10-22 15:44 | demanda | post-translator | step-failed | slug=tv-screen-rental step=finish reason="refusing to run: 5 file(s) already staged (.agents/CHANGELOG.md, .agents/context/keywords/nlp-terms/2026-10-22-T0141.json, src/content/blog/tv-screen-rental.svx, src/lib/data/post-faqs.json, src/lib/data/post-toc.json): commit or unstage them first, this script only commits the translation paths"
+2026-10-22 15:44 | demanda | todo-commit | commit | hash=d577e1cb subject="chore(todo): block #T0141 tv-screen-rental" file=.agents/data/TODO.json
+2026-10-22 15:44 | demanda | todo-implementer | task-blocked | task=#T0141 nota="bloqueada por todo-implementer 2026-10-22: EN edit + 12 traducciones verificadas (PASS) pero sin commit, el finish gate se niega porque 5 ficheros EN quedaron en staging y no hay comando permitido para des-stagearlos. Ejecutar 'git restore --staged' sobre ellos y luego 'just post-translate-finish tv-screen-rental'" titulo="Pregunta FAQ en /blog/tv-screen-rental/: 'Can I rent a...
+2026-10-22 15:44 | demanda | todo-implementer | run-end | is_error=false exit=0 cost_usd=1.23 minutes=6.8 turns=22 subtype=success commits=d577e1cb
+2026-10-22 15:44 | demanda | todo-implementer | run-start | args="--task #T0137" budget_usd=30 tasks=#T0137
+2026-10-22 15:44 | demanda | todo-implementer | task-skipped | task=#T0137 estado="pendiente" titulo="Pregunta FAQ en /blog/essential-items-for-wedding-rentals/: 'Can you supply an LED screen for a wedding?'"
+2026-10-22 15:44 | demanda | todo-implementer | run-end | is_error=false exit=0 cost_usd=0.04 minutes=0.2 turns=4 subtype=success commits=none
+2026-10-22 15:47 | demanda | post-translator | commit | slug=tv-screen-rental hash=0a888a3a subject="feat(blog): tv-screen-rental add FAQ on renting a TV screen for one day" files=17
+2026-10-22 15:48 | demanda | todo-implementer | commit | hash=e44a7f3b subject="chore(keywords): sync after #T0141 tv-screen-rental" task=#T0141 slug=tv-screen-rental
+2026-10-22 15:48 | auto | todo-commit | commit | hash=81c53a80 subject="chore(todo): close #T0141 tv-screen-rental" file=.agents/data/TODO.json
+2026-10-22 15:48 | demanda | todo-implementer | run-start | args="--task #T0137" budget_usd=30 tasks=#T0137
+2026-10-22 15:58 | demanda | post-translator | commit | slug=essential-items-for-wedding-rentals hash=f0e24fab subject="feat(blog): essential-items-for-wedding-rentals add FAQ on supplying an LED screen for a wedding" files=17
+2026-10-22 15:58 | demanda | todo-implementer | commit | hash=e67814b3 subject="chore(keywords): sync after #T0137 essential-items-for-wedding-rentals" task=#T0137 slug=essential-items-for-wedding-rentals
+2026-10-22 15:58 | demanda | todo-commit | commit | hash=f85aeda0 subject="chore(todo): close #T0137 essential-items-for-wedding-rentals" file=.agents/data/TODO.json
+2026-10-22 15:58 | demanda | todo-implementer | task-done | task=#T0137 hecha=2026-10-22 titulo="Pregunta FAQ en /blog/essential-items-for-wedding-rentals/: 'Can you supply an LED screen for a wedding?'"
+2026-10-22 15:58 | demanda | todo-implementer | run-end | is_error=false exit=0 cost_usd=0.95 minutes=10.7 turns=22 subtype=success commits=f0e24fab,e67814b3,f85aeda0
+2026-10-23 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-23 09:32 | auto | ubersuggest-analyst | commit | hash=3e6b5aef subject="chore(keywords): daily Ubersuggest research 2026-10-23" file=.agents/context/keywords/ubersuggest/2026-10-23.json
+2026-10-23 09:32 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-23.json keywords=0 faqs=0 ai_prompts=31 discarded=7 status=partial minutes=2.8
+2026-10-23 09:33 | auto | faq-researcher | commit | hash=4eebec3e subject="chore(keywords): daily FAQ research 2026-10-23" file=.agents/context/keywords/faqs/2026-10-23.json
+2026-10-23 09:33 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-23.json suggestions=27 status=ok minutes=0.7
+2026-10-23 09:35 | auto | content-strategist | commit | hash=f3bb2eea subject="chore(keywords): daily content plan 2026-10-23" file=.agents/context/keywords/content-plan/2026-10-23.json
+2026-10-23 09:35 | auto | todo-commit | commit | hash=a7c4b890 subject="chore(todo): add tasks from the content plan 2026-10-23" file=.agents/data/TODO.json
+2026-10-23 09:35 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-23.json items=10 add-section=0 new-post=0 add-faq=0 skip=10 minutes=1.6
+2026-10-23 09:35 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-23 09:35 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=5.0
+2026-10-23 19:39 | demanda | todo-implementer | run-start | args="--task #T0139" budget_usd=30 tasks=#T0139
+2026-10-23 19:49 | demanda | post-translator | commit | slug=audio-visual-rental-for-weddings hash=9887228e subject="feat(blog): audio-visual-rental-for-weddings add FAQ on renting a screen for a wedding" files=17
+2026-10-23 19:50 | demanda | todo-implementer | commit | hash=65743631 subject="chore(keywords): sync after #T0139 audio-visual-rental-for-weddings" task=#T0139 slug=audio-visual-rental-for-weddings
+2026-10-23 19:50 | demanda | todo-commit | commit | hash=5f34fbc4 subject="chore(todo): close #T0139 audio-visual-rental-for-weddings" file=.agents/data/TODO.json
+2026-10-23 19:50 | demanda | todo-implementer | task-done | task=#T0139 hecha=2026-10-23 titulo="Pregunta FAQ en /blog/audio-visual-rental-for-weddings/: 'Can I rent a screen for my wedding?'"
+2026-10-23 19:50 | demanda | todo-implementer | run-end | is_error=false exit=0 cost_usd=1.01 minutes=10.5 turns=23 subtype=success commits=9887228e,65743631,5f34fbc4
+2026-10-23 19:50 | demanda | todo-implementer | run-start | args="--task #T0142" budget_usd=30 tasks=#T0142
+2026-10-23 20:03 | demanda | post-translator | commit | slug=tv-screen-rental hash=90e24461 subject="feat(blog): tv-screen-rental add FAQ on renting a 65 inch TV or a bigger screen" files=17
+2026-10-23 20:03 | demanda | todo-implementer | commit | hash=49325de3 subject="chore(keywords): sync after #T0142 tv-screen-rental" task=#T0142 slug=tv-screen-rental
+2026-10-23 20:03 | demanda | todo-commit | commit | hash=75fb2be5 subject="chore(todo): close #T0142 tv-screen-rental" file=.agents/data/TODO.json
+2026-10-23 20:03 | demanda | todo-implementer | task-done | task=#T0142 hecha=2026-10-23 titulo="Pregunta FAQ en /blog/tv-screen-rental/: 'Do you rent a 65 inch TV or a bigger screen for a large event?'"
+2026-10-23 20:03 | demanda | todo-implementer | run-end | is_error=false exit=0 cost_usd=1.19 minutes=13.5 turns=20 subtype=success commits=90e24461,49325de3,75fb2be5
+2026-10-23 20:03 | demanda | todo-implementer | run-start | args="--task #T0144" budget_usd=30 tasks=#T0144
+2026-10-23 20:12 | demanda | post-translator | step-failed | slug=making-the-most-of-wedding-rentals step=finish reason="refusing to run: 5 file(s) already staged (.agents/CHANGELOG.md, .agents/context/keywords/nlp-terms/2026-10-23-T0144.json, src/content/blog/making-the-most-of-wedding-rentals.svx, src/lib/data/post-faqs.json, src/lib/data/post-toc.json): commit or unstage them first, this script only commits the translation paths"
+2026-10-23 20:13 | demanda | todo-implementer | commit | hash=fc60dce0 subject="chore(keywords): sync after #T0144 making-the-most-of-wedding-rentals" task=#T0144 slug=making-the-most-of-wedding-rentals
+2026-10-23 20:13 | demanda | todo-commit | commit | hash=8c7de724 subject="chore(todo): close #T0144 making-the-most-of-wedding-rentals" file=.agents/data/TODO.json
+2026-10-23 20:13 | demanda | todo-implementer | task-done | task=#T0144 hecha=2026-10-23 titulo="Pregunta FAQ en /blog/making-the-most-of-wedding-rentals/: 'What Are the Best Wedding Rental Ideas and Tips for Sound and Lighting?'"
+2026-10-23 20:13 | demanda | todo-implementer | run-end | is_error=false exit=0 cost_usd=1.22 minutes=9.6 turns=27 subtype=success commits=2a3eaa62,fc60dce0,8c7de724
+2026-10-23 21:06 | demanda | post-translator | step-failed | slug=lectern-rental step=finish reason="the commit was refused twice by the pre-commit hooks (output above), nothing was committed"
+2026-10-23 21:07 | auto | todo-commit | commit | hash=c1139ec7 subject="chore(todo): close #T0147 lectern-rental" file=.agents/data/TODO.json
+2026-10-23 21:58 | demanda | post-translator | commit | slug=wireless-handheld-microphone-rental hash=1f25d615 subject="feat(blog): wireless-handheld-microphone-rental new post in 13 languages (#T0148)" files=55
+2026-10-23 21:58 | auto | todo-commit | commit | hash=14c3c713 subject="chore(todo): close #T0148 wireless-handheld-microphone-rental" file=.agents/data/TODO.json
+2026-10-23 22:29 | demanda | post-translator | commit | slug=audiovisual-equipment-rental-service hash=e4e60745 subject="fix(blog): audiovisual-equipment-rental-service lecterns are an optional MICE Pack extra, not in three packs" files=14
+2026-10-24 07:02 | auto | todo-commit | commit | hash=f6efbab9 subject="chore(todo): block #T0149 tinkle easyjet news post on R2 login" file=.agents/data/TODO.json
+2026-10-24 07:47 | demanda | post-translator | commit | slug=tinkle-easyjet-event-2026-sound-and-technician hash=58ff7fa8 subject="feat(blog): tinkle-easyjet-event-2026-sound-and-technician news post in 13 languages (#T0149)" files=28
+2026-10-24 07:48 | auto | todo-commit | commit | hash=ace180ec subject="chore(todo): close #T0149 tinkle easyjet news post" file=.agents/data/TODO.json
+2026-10-24 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-24 09:31 | auto | ubersuggest-analyst | commit | hash=9b6d454f subject="chore(keywords): daily Ubersuggest research 2026-10-24" file=.agents/context/keywords/ubersuggest/2026-10-24.json
+2026-10-24 09:31 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-24.json keywords=0 faqs=0 ai_prompts=56 discarded=4 status=partial minutes=1.8
+2026-10-24 09:34 | auto | faq-researcher | step-failed | reason="file not committed" minutes=2.7
+2026-10-24 09:38 | auto | daily-guard | run-start | steps=faqs+plan+organize attempt=2/3 reason="faqs pending"
+2026-10-24 09:39 | auto | faq-researcher | commit | hash=315950e4 subject="chore(keywords): daily FAQ research 2026-10-24" file=.agents/context/keywords/faqs/2026-10-24.json
+2026-10-24 09:39 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-24.json suggestions=66 status=ok minutes=1.7
+2026-10-24 09:40 | auto | content-strategist | commit | hash=e4e9dbe7 subject="chore(keywords): daily content plan 2026-10-24" file=.agents/context/keywords/content-plan/2026-10-24.json
+2026-10-24 09:40 | auto | todo-commit | commit | hash=01fda5dd subject="chore(todo): add tasks from the content plan 2026-10-24" file=.agents/data/TODO.json
+2026-10-24 09:40 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-24.json items=9 add-section=0 new-post=0 add-faq=0 skip=9 minutes=0.6
+2026-10-24 09:40 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-24 09:40 | auto | daily-guard | run-end | result=ok done=faqs,plan failed=none minutes=2.3
+2026-10-24 10:35 | demanda | post-translator | commit | slug=stage-platform-rental hash=23581642 subject="feat(blog): stage-platform-rental new post in 13 languages (#T0151)" files=55
+2026-10-24 10:35 | auto | todo-commit | commit | hash=e114499c subject="chore(todo): close #T0151 stage-platform-rental" file=.agents/data/TODO.json
+2026-10-25 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-25 09:31 | auto | ubersuggest-analyst | commit | hash=73d545e3 subject="chore(keywords): daily Ubersuggest research 2026-10-25" file=.agents/context/keywords/ubersuggest/2026-10-25.json
+2026-10-25 09:31 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-25.json keywords=0 faqs=0 ai_prompts=56 discarded=4 status=partial minutes=1.8
+2026-10-25 09:32 | auto | faq-researcher | commit | hash=e63f3aa7 subject="chore(keywords): daily FAQ research 2026-10-25" file=.agents/context/keywords/faqs/2026-10-25.json
+2026-10-25 09:32 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-25.json suggestions=44 status=ok minutes=0.9
+2026-10-25 09:33 | auto | content-strategist | commit | hash=2e2f2528 subject="chore(keywords): daily content plan 2026-10-25" file=.agents/context/keywords/content-plan/2026-10-25.json
+2026-10-25 09:33 | auto | todo-commit | commit | hash=e775934a subject="chore(todo): add tasks from the content plan 2026-10-25" file=.agents/data/TODO.json
+2026-10-25 09:33 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-25.json items=9 add-section=0 new-post=0 add-faq=1 skip=8 minutes=0.7
+2026-10-25 09:33 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-25 09:33 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=3.4
+2026-10-26 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-26 09:32 | auto | ubersuggest-analyst | commit | hash=dfc42312 subject="chore(keywords): daily Ubersuggest research 2026-10-26" file=.agents/context/keywords/ubersuggest/2026-10-26.json
+2026-10-26 09:33 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-26.json keywords=20 faqs=0 ai_prompts=57 discarded=0 status=partial minutes=2.9
+2026-10-26 09:33 | auto | faq-researcher | commit | hash=0a80a8ae subject="chore(keywords): daily FAQ research 2026-10-26" file=.agents/context/keywords/faqs/2026-10-26.json
+2026-10-26 09:33 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-26.json suggestions=30 status=ok minutes=0.6
+2026-10-26 09:34 | auto | content-strategist | commit | hash=388028ea subject="chore(keywords): daily content plan 2026-10-26" file=.agents/context/keywords/content-plan/2026-10-26.json
+2026-10-26 09:34 | auto | todo-commit | commit | hash=9256eba6 subject="chore(todo): add tasks from the content plan 2026-10-26" file=.agents/data/TODO.json
+2026-10-26 09:34 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-26.json items=12 add-section=1 new-post=0 add-faq=0 skip=11 minutes=0.8
+2026-10-26 09:34 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-26 09:34 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=4.4
+2026-10-26 11:33 | demanda | todo-implementer | run-start | args="--task #T0154" budget_usd=30 tasks=#T0154
+2026-10-26 11:43 | demanda | post-translator | commit | slug=audio-visual-rental-for-weddings hash=3b2bfa74 subject="feat(blog): audio-visual-rental-for-weddings add projector and screen section" files=16
+2026-10-26 11:43 | demanda | todo-implementer | commit | hash=6074c86e subject="chore(keywords): sync after #T0154 audio-visual-rental-for-weddings" task=#T0154 slug=audio-visual-rental-for-weddings
+2026-10-26 11:43 | demanda | todo-commit | commit | hash=f2eac9e9 subject="chore(todo): close #T0154 audio-visual-rental-for-weddings" file=.agents/data/TODO.json
+2026-10-26 11:43 | demanda | todo-implementer | task-done | task=#T0154 hecha=2026-10-26 titulo="Nueva sección H2 en /blog/audio-visual-rental-for-weddings/: 'Projector and Screen for Wedding Photos and Videos'"
+2026-10-26 11:43 | demanda | todo-implementer | run-end | is_error=false exit=0 cost_usd=1.11 minutes=9.8 turns=21 subtype=success commits=3b2bfa74,6074c86e,f2eac9e9
+2026-10-26 11:58 | demanda | todo-implementer | run-start | args="--task #T0152" budget_usd=30 tasks=#T0152
+2026-10-26 11:58 | demanda | todo-commit | commit | hash=e0a343f3 subject="chore(todo): block #T0152 tv-screen-rental" file=.agents/data/TODO.json
+2026-10-26 11:58 | demanda | todo-implementer | task-blocked | task=#T0152 nota="bloqueada por todo-implementer 2026-10-26: el post ya responde al precio con 'How much does a TV screen rental cost?' (490 euros ex VAT) y 'Do you rent an LED screen?' (490 euros, MICE Pack), la intencion esta cubierta, el plan esta obsoleto" titulo="Pregunta FAQ en /blog/tv-screen-rental/: 'How much does an LED screen rental cost?'"
+2026-10-26 11:58 | demanda | todo-implementer | run-end | is_error=false exit=0 cost_usd=0.10 minutes=0.4 turns=10 subtype=success commits=e0a343f3
+2026-10-27 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-27 09:32 | auto | ubersuggest-analyst | commit | hash=a173384b subject="chore(keywords): daily Ubersuggest research 2026-10-27" file=.agents/context/keywords/ubersuggest/2026-10-27.json
+2026-10-27 09:32 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-27.json keywords=0 faqs=0 ai_prompts=57 discarded=3 status=partial minutes=2.3
+2026-10-27 09:32 | auto | faq-researcher | commit | hash=3ee326af subject="chore(keywords): daily FAQ research 2026-10-27" file=.agents/context/keywords/faqs/2026-10-27.json
+2026-10-27 09:33 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-27.json suggestions=0 status=ok minutes=0.7
+2026-10-27 09:34 | auto | content-strategist | commit | hash=93a50ed8 subject="chore(keywords): daily content plan 2026-10-27" file=.agents/context/keywords/content-plan/2026-10-27.json
+2026-10-27 09:34 | auto | todo-commit | commit | hash=d085bd67 subject="chore(todo): add tasks from the content plan 2026-10-27" file=.agents/data/TODO.json
+2026-10-27 09:34 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-27.json items=13 add-section=0 new-post=0 add-faq=0 skip=13 minutes=1.2
+2026-10-27 09:34 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-27 09:34 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=4.2
+2026-10-28 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-28 09:32 | auto | ubersuggest-analyst | commit | hash=c9c58f10 subject="chore(keywords): daily Ubersuggest research 2026-10-28" file=.agents/context/keywords/ubersuggest/2026-10-28.json
+2026-10-28 09:32 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-28.json keywords=0 faqs=0 ai_prompts=60 discarded=0 status=partial minutes=2.4
+2026-10-28 09:33 | auto | faq-researcher | commit | hash=8de4e22e subject="chore(keywords): daily FAQ research 2026-10-28" file=.agents/context/keywords/faqs/2026-10-28.json
+2026-10-28 09:33 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-28.json suggestions=67 status=ok minutes=1.3
+2026-10-28 09:34 | auto | content-strategist | commit | hash=bdbe685a subject="chore(keywords): daily content plan 2026-10-28" file=.agents/context/keywords/content-plan/2026-10-28.json
+2026-10-28 09:34 | auto | todo-commit | commit | hash=45894e51 subject="chore(todo): add tasks from the content plan 2026-10-28" file=.agents/data/TODO.json
+2026-10-28 09:34 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-28.json items=9 add-section=0 new-post=0 add-faq=0 skip=9 minutes=1.2
+2026-10-28 09:34 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-28 09:34 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=4.8
+2026-10-29 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-29 09:32 | auto | ubersuggest-analyst | commit | hash=e277e5dd subject="chore(keywords): daily Ubersuggest research 2026-10-29" file=.agents/context/keywords/ubersuggest/2026-10-29.json
+2026-10-29 09:32 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-29.json keywords=6 faqs=0 ai_prompts=60 discarded=0 status=partial minutes=2.2
+2026-10-29 09:32 | auto | faq-researcher | commit | hash=f5cc0d00 subject="chore(keywords): daily FAQ research 2026-10-29" file=.agents/context/keywords/faqs/2026-10-29.json
+2026-10-29 09:32 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-29.json suggestions=36 status=ok minutes=0.7
+2026-10-29 09:34 | auto | content-strategist | commit | hash=cd9601ba subject="chore(keywords): daily content plan 2026-10-29" file=.agents/context/keywords/content-plan/2026-10-29.json
+2026-10-29 09:34 | auto | todo-commit | commit | hash=261b4847 subject="chore(todo): add tasks from the content plan 2026-10-29" file=.agents/data/TODO.json
+2026-10-29 09:34 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-29.json items=14 add-section=0 new-post=0 add-faq=0 skip=14 minutes=1.2
+2026-10-29 09:34 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=yes minutes=0.0
+2026-10-29 09:34 | auto | todo-commit | commit | hash=5eff52fa subject="chore(todo): sync TODO.json" file=.agents/data/TODO.json
+2026-10-29 09:34 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=4.1
+2026-10-30 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-30 09:31 | auto | ubersuggest-analyst | commit | hash=247b8de0 subject="chore(keywords): daily Ubersuggest research 2026-10-30" file=.agents/context/keywords/ubersuggest/2026-10-30.json
+2026-10-30 09:31 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-30.json keywords=0 faqs=0 ai_prompts=30 discarded=7 status=partial minutes=1.7
+2026-10-30 09:32 | auto | faq-researcher | commit | hash=28d5c820 subject="chore(keywords): daily FAQ research 2026-10-30" file=.agents/context/keywords/faqs/2026-10-30.json
+2026-10-30 09:32 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-30.json suggestions=47 status=ok minutes=1.0
+2026-10-30 09:33 | auto | content-strategist | commit | hash=261df981 subject="chore(keywords): daily content plan 2026-10-30" file=.agents/context/keywords/content-plan/2026-10-30.json
+2026-10-30 09:33 | auto | todo-commit | commit | hash=3deb7f7f subject="chore(todo): add tasks from the content plan 2026-10-30" file=.agents/data/TODO.json
+2026-10-30 09:33 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-30.json items=14 add-section=0 new-post=0 add-faq=1 skip=13 minutes=1.1
+2026-10-30 09:33 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-30 09:33 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=3.8
+2026-10-30 12:47 | demanda | todo-implementer | run-start | args="--task #T0167" budget_usd=30 tasks=#T0167
+2026-10-30 12:58 | demanda | post-translator | commit | slug=all-in-one-wedding-rental-packages hash=b4306405 subject="feat(blog): all-in-one-wedding-rental-packages add FAQ on destination wedding and vow renewal" files=17
+2026-10-30 12:58 | demanda | todo-implementer | commit | hash=b73b3d90 subject="chore(keywords): sync after #T0167 all-in-one-wedding-rental-packages" task=#T0167 slug=all-in-one-wedding-rental-packages
+2026-10-30 12:58 | demanda | todo-commit | commit | hash=d81eea11 subject="chore(todo): close #T0167 all-in-one-wedding-rental-packages" file=.agents/data/TODO.json
+2026-10-30 12:59 | demanda | todo-implementer | task-done | task=#T0167 hecha=2026-10-30 titulo="Pregunta FAQ en /blog/all-in-one-wedding-rental-packages/: 'Can I use the Wedding Pack for a destination wedding or vow renewal in Spain?'"
+2026-10-30 12:59 | demanda | todo-implementer | run-end | is_error=false exit=0 cost_usd=0.93 minutes=11.7 turns=23 subtype=success commits=b4306405,b73b3d90,d81eea11
+2026-10-31 09:30 | auto | daily-guard | run-start | steps=research+faqs+plan+organize attempt=1/3 reason="research pending"
+2026-10-31 09:31 | auto | ubersuggest-analyst | commit | hash=352254c9 subject="chore(keywords): daily Ubersuggest research 2026-10-31" file=.agents/context/keywords/ubersuggest/2026-10-31.json
+2026-10-31 09:31 | auto | ubersuggest-analyst | step-done | file=.agents/context/keywords/ubersuggest/2026-10-31.json keywords=1 faqs=0 ai_prompts=56 discarded=4 status=partial minutes=1.6
+2026-10-31 09:32 | auto | faq-researcher | commit | hash=0f47af15 subject="chore(keywords): daily FAQ research 2026-10-31" file=.agents/context/keywords/faqs/2026-10-31.json
+2026-10-31 09:32 | auto | faq-researcher | step-done | file=.agents/context/keywords/faqs/2026-10-31.json suggestions=27 status=ok minutes=0.6
+2026-10-31 09:33 | auto | content-strategist | commit | hash=a96dcf86 subject="chore(keywords): daily content plan 2026-10-31" file=.agents/context/keywords/content-plan/2026-10-31.json
+2026-10-31 09:33 | auto | todo-commit | commit | hash=49c0039b subject="chore(todo): add tasks from the content plan 2026-10-31" file=.agents/data/TODO.json
+2026-10-31 09:33 | auto | content-strategist | step-done | file=.agents/context/keywords/content-plan/2026-10-31.json items=13 add-section=0 new-post=0 add-faq=3 skip=10 minutes=1.1
+2026-10-31 09:33 | auto | todo-organize | step-done | file=.agents/data/TODO.json changed=no minutes=0.0
+2026-10-31 09:33 | auto | daily-guard | run-end | result=ok done=research,faqs,plan failed=none minutes=3.3
