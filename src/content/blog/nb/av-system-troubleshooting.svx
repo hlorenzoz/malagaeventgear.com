@@ -3,7 +3,8 @@ title: "Feilsøking av AV-systemer i Malaga, Spania"
 description: "Feilsøking av AV-systemer i Malaga, Spania, for pakker du kjører selv: sjekker for Eco Pack, Product Presentation Pack og Basic MICE Pack før du ringer oss."
 excerpt: "Feilsøking av AV-systemer i Malaga: hva du selv kan sjekke hvis en pakke du kjører selv slutter å virke midt under arrangementet, pakke for pakke, for Eco Pack, Product Presentation Pack og Basic MICE Pack uten teknikertilvalg."
 publishDate: "2026-10-01"
-sourceUpdated: "2026-10-01"
+sourceUpdated: "2026-11-02"
+updatedDate: "2026-11-02"
 ---
 
 <script>
@@ -43,6 +44,7 @@ Guidene våre om teknisk support for arrangementer og om å [leie en AV-tekniker
     -   [Kan jeg legge til en tekniker midt i bestillingen hvis jeg bestemmer meg for at jeg ikke vil feilsøke mitt eget utstyr?](#kan-jeg-legge-til-en-tekniker-midt-i-bestillingen-hvis-jeg-bestemmer-meg-for-at-jeg-ikke-vil-feilsøke-mitt-eget-utstyr)
     -   [Er feilsøking annerledes ved arrangementer utendørs?](#er-feilsøking-annerledes-ved-arrangementer-utendørs)
     -   [Hva er forskjellen mellom at en tekniker løser et problem og at jeg løser det selv?](#hva-er-forskjellen-mellom-at-en-tekniker-løser-et-problem-og-at-jeg-løser-det-selv)
+    -   [Hva bør jeg sjekke først hvis AV-utstyret slutter å virke i et konferanserom?](#hva-bør-jeg-sjekke-først-hvis-av-utstyret-slutter-å-virke-i-et-konferanserom)
 
 ## Kort oversikt
 
@@ -203,3 +205,7 @@ Sjekkene er de samme, kabler, gain, batteri, valg av inngang, men vind og utsatt
 ### Hva er forskjellen mellom at en tekniker løser et problem og at jeg løser det selv?
 
 En tekniker følger med på nivåene hele tiden, så en tapt tilkobling eller en dempet kanal fanges opp i samme øyeblikk det skjer. Når du kjører ditt eget utstyr, merker du det først når det allerede påvirker arrangementet ditt, og løsningen er den raske sjekken på denne siden som passer til pakken din. Ingen av delene er feil, det handler om hvorvidt pakken din har den løpende overvåkingen eller ikke. Se [Å kjøre eget utstyr](#å-kjøre-eget-utstyr-hvilke-pakker-du-kjører-selv) ovenfor for hvilke pakker som har en.
+
+### Hva bør jeg sjekke først hvis AV-utstyret slutter å virke i et konferanserom?
+
+Sjekk hva som har endret seg siden teamet vårt dro, og start med kablene. Pass på at hver HDMI-, XLR- og høyttalerkabel fortsatt sitter godt i begge ender, og bekreft deretter at inngangskilden på projektoren stemmer med den bærbare datamaskinen som er koblet til akkurat nå, siden en blank skjerm eller manglende signal oftest skyldes feil inngang. For lyden bør du se etter en dempet kanal eller en gain-fader som er skjøvet ned, og på [Product Presentation Pack](/packages/product-presentation/) sjekker du batteriet i den trådløse mikrofonen. Disse sjekkene dekker utstyret vi leverte til rommet ditt, se [Sjekk per pakke](#sjekk-per-pakke-hva-du-ser-på-først) for pakken din. Hvis de ikke løser det, ring 666 346 911 eller [kontakt oss](/contact/), vi er tilgjengelige 24 timer i døgnet, 7 dager i uken.

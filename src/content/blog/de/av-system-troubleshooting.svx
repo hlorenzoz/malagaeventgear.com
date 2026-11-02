@@ -3,7 +3,8 @@ title: "Fehlersuche an AV-Systemen in Malaga, Spanien"
 description: "Fehlersuche an AV-Systemen in Malaga, Spanien, in Eigenregie: Prüfungen für Eco Pack, Product Presentation Pack und Basic MICE Pack, bevor Sie uns anrufen."
 excerpt: "Fehlersuche an AV-Systemen in Malaga: Was Sie selbst prüfen können, wenn ein Paket in Eigenregie mitten in der Veranstaltung ausfällt, Paket für Paket, für Eco Pack, Product Presentation Pack und Basic MICE Pack ohne Technikeroption."
 publishDate: "2026-10-01"
-sourceUpdated: "2026-10-01"
+sourceUpdated: "2026-11-02"
+updatedDate: "2026-11-02"
 ---
 
 <script>
@@ -43,6 +44,7 @@ Unsere Ratgeber zum technischen Support für Veranstaltungen und zum Thema [AV-T
     -   [Kann ich mitten in der Buchung einen Techniker hinzufügen, wenn ich meine Technik doch nicht selbst betreuen möchte?](#kann-ich-mitten-in-der-buchung-einen-techniker-hinzufügen-wenn-ich-meine-technik-doch-nicht-selbst-betreuen-möchte)
     -   [Ist die Fehlersuche bei Veranstaltungen im Freien anders?](#ist-die-fehlersuche-bei-veranstaltungen-im-freien-anders)
     -   [Was ist der Unterschied zwischen einem Techniker, der ein Problem behebt, und mir, der es selbst behebt?](#was-ist-der-unterschied-zwischen-einem-techniker-der-ein-problem-behebt-und-mir-der-es-selbst-behebt)
+    -   [Was sollte ich zuerst prüfen, wenn die Technik in einem Konferenzraum ausfällt?](#was-sollte-ich-zuerst-prüfen-wenn-die-technik-in-einem-konferenzraum-ausfällt)
 
 ## Kurzüberblick
 
@@ -203,3 +205,7 @@ Die Prüfungen sind dieselben, Kabel, Gain, Batterie, Eingangswahl, aber Wind un
 ### Was ist der Unterschied zwischen einem Techniker, der ein Problem behebt, und mir, der es selbst behebt?
 
 Ein Techniker beobachtet die Pegel kontinuierlich, sodass eine abgebrochene Verbindung oder ein stummgeschalteter Kanal in dem Moment auffällt, in dem es passiert. Wenn Sie Ihre Technik selbst betreiben, bemerken Sie es erst, wenn es Ihre Veranstaltung bereits beeinträchtigt, und die Lösung ist die schnelle Prüfung auf dieser Seite, die zu Ihrem Paket passt. Keines von beidem ist falsch, es geht darum, ob Ihr Paket diese kontinuierliche Beobachtung enthält oder nicht. Siehe oben [Die eigene Technik bedienen](#die-eigene-technik-bedienen-welche-pakete-laufen-in-eigenregie), welche Pakete eine enthalten.
+
+### Was sollte ich zuerst prüfen, wenn die Technik in einem Konferenzraum ausfällt?
+
+Prüfen Sie, was sich seit dem Abzug unseres Teams geändert hat, und beginnen Sie bei den Kabeln. Vergewissern Sie sich, dass jedes HDMI-, XLR- und Lautsprecherkabel an beiden Enden noch fest steckt, und kontrollieren Sie dann, ob der Eingang des Projektors zu dem Laptop passt, der gerade angeschlossen ist, denn ein schwarzes Bild oder fehlendes Signal liegt meist an einem falschen Eingang. Suchen Sie beim Ton nach einem stummgeschalteten Kanal oder einem versehentlich heruntergezogenen Gain-Regler, und prüfen Sie beim [Product Presentation Pack](/packages/product-presentation/) die Batterie des Funkmikrofons. Diese Prüfungen betreffen die Technik, die wir in Ihren Raum geliefert haben, siehe [Prüfung je Paket](#prüfung-je-paket-womit-sie-anfangen) für Ihr Paket. Wenn sie das Problem nicht lösen, rufen Sie 666 346 911 an oder [kontaktieren Sie uns](/contact/), wir sind 24 Stunden am Tag, 7 Tage die Woche erreichbar.

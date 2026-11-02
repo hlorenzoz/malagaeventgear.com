@@ -1803,6 +1803,10 @@
     {
       "question": "What is the difference between a technician fixing an issue and me fixing it myself?",
       "answer": "A technician is watching the levels continuously, so a dropped connection or a muted channel gets caught the moment it happens. Running your own equipment means you only notice once it is already affecting your event, and the fix is whichever quick check on this page matches your package. Neither is wrong, it is a question of whether your package includes that continuous watch or not. See Running Your Own Equipment above for which packages include one."
+    },
+    {
+      "question": "What should I check first if the AV stops working in a conference room?",
+      "answer": "Check what changed since our crew left, starting with the cables. Make sure every HDMI, XLR and speaker cable is still seated at both ends, then confirm the projector's input source matches the laptop plugged in right now, since a blank screen or no signal is most often a wrong input. For sound, look for a muted channel or a gain fader nudged down, and on the Product Presentation Pack check the wireless microphone battery. These checks cover the equipment we delivered to your room, see Self Check by Package for your pack. If they do not fix it, call 666 346 911 or contact us, we are available 24 hours a day, 7 days a week."
     }
   ],
   "audiovisual-equipment-rental-service": [

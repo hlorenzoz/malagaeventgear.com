@@ -4,7 +4,7 @@ description: "AV system troubleshooting in Malaga, Spain, for self run packages:
 author: Hector Luis Lorenzo
 slug: av-system-troubleshooting
 publishDate: "2026-08-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-11-02"
 excerpt: "What to check yourself if a self run AV package stops working mid event: the Eco Pack, Product Presentation Pack and Basic MICE Pack without the technician add on, checked package by package."
 coverImage: https://cdn.malagaeventgear.com/blog/1277/high_care_hospital_marbella_conference_setup_1-scaled.webp
 categories: [Audio Visual Rental, Corporate & Enterprise, Events]
@@ -52,6 +52,7 @@ Our technical support for events and [AV technician hire](/blog/av-technician-hi
     -   [Can I add a technician mid booking if I decide I don't want to troubleshoot my own equipment?](#can-i-add-a-technician-mid-booking-if-i-decide-i-dont-want-to-troubleshoot-my-own-equipment)
     -   [Is troubleshooting different for outdoor events?](#is-troubleshooting-different-for-outdoor-events)
     -   [What is the difference between a technician fixing an issue and me fixing it myself?](#what-is-the-difference-between-a-technician-fixing-an-issue-and-me-fixing-it-myself)
+    -   [What should I check first if the AV stops working in a conference room?](#what-should-i-check-first-if-the-av-stops-working-in-a-conference-room)
 
 ## Brief Overview
 
@@ -212,3 +213,7 @@ The checks are the same, cables, gain, battery, input selection, but wind and ca
 ### What is the difference between a technician fixing an issue and me fixing it myself?
 
 A technician is watching the levels continuously, so a dropped connection or a muted channel gets caught the moment it happens. Running your own equipment means you only notice once it is already affecting your event, and the fix is whichever quick check on this page matches your package. Neither is wrong, it is a question of whether your package includes that continuous watch or not. See [Running Your Own Equipment](#running-your-own-equipment-which-packages-are-self-run) above for which packages include one.
+
+### What should I check first if the AV stops working in a conference room?
+
+Check what changed since our crew left, starting with the cables. Make sure every HDMI, XLR and speaker cable is still seated at both ends, then confirm the projector's input source matches the laptop plugged in right now, since a blank screen or no signal is most often a wrong input. For sound, look for a muted channel or a gain fader nudged down, and on the [Product Presentation Pack](/packages/product-presentation/) check the wireless microphone battery. These checks cover the equipment we delivered to your room, see [Self Check by Package](#self-check-by-package-what-to-look-at-first) for your pack. If they do not fix it, call 666 346 911 or [contact us](/contact/), we are available 24 hours a day, 7 days a week.

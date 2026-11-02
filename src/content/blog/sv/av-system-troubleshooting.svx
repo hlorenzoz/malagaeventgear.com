@@ -3,7 +3,8 @@ title: "Felsökning av AV-system i Malaga, Spanien"
 description: "Felsökning av AV-system i Malaga, Spanien, för paket du kör själv: kontroller för Eco Pack, Product Presentation Pack och Basic MICE Pack innan du ringer oss."
 excerpt: "Felsökning av AV-system i Malaga: vad du kan kontrollera själv om ett paket du kör på egen hand slutar fungera mitt under evenemanget, paket för paket, för Eco Pack, Product Presentation Pack och Basic MICE Pack utan teknikertillval."
 publishDate: "2026-10-01"
-sourceUpdated: "2026-10-01"
+sourceUpdated: "2026-11-02"
+updatedDate: "2026-11-02"
 ---
 
 <script>
@@ -43,6 +44,7 @@ Våra guider om teknisk support för evenemang och om att [hyra en AV-tekniker](
     -   [Kan jag lägga till en tekniker mitt i bokningen om jag bestämmer mig för att inte felsöka min egen utrustning?](#kan-jag-lägga-till-en-tekniker-mitt-i-bokningen-om-jag-bestämmer-mig-för-att-inte-felsöka-min-egen-utrustning)
     -   [Är felsökning annorlunda vid evenemang utomhus?](#är-felsökning-annorlunda-vid-evenemang-utomhus)
     -   [Vad är skillnaden mellan att en tekniker åtgärdar ett problem och att jag gör det själv?](#vad-är-skillnaden-mellan-att-en-tekniker-åtgärdar-ett-problem-och-att-jag-gör-det-själv)
+    -   [Vad ska jag kontrollera först om AV-utrustningen slutar fungera i ett konferensrum?](#vad-ska-jag-kontrollera-först-om-av-utrustningen-slutar-fungera-i-ett-konferensrum)
 
 ## Kort översikt
 
@@ -64,7 +66,7 @@ Den här guiden går igenom vad vårt team redan testat innan det lämnade plats
 
 -   En trådlös mikrofon finns bara i [Product Presentation Pack](/packages/product-presentation/). Svanhalsmikrofonen i [Basic MICE Pack](/packages/basic-mice/) är sladdansluten till talarstolen, så där finns varken batteri eller kanal att kontrollera.
 
--   Vi är tillgängliga dygnet runt, alla dagar i veckan, för teknisk installation och övervakning av evenemang medan de pågår, så ett samtal är alltid möjligt när du har kontrollerat det självklara.
+-   Vi är tillgängliga 24 timmar om dygnet, 7 dagar i veckan, för teknisk installation och övervakning av evenemang medan de pågår, så ett samtal är alltid möjligt när du har kontrollerat det självklara.
 
 ## Köra utrustningen själv: vilka paket du kör på egen hand
 
@@ -134,7 +136,7 @@ Det här gäller inget enskilt paket. Rundgång, det stigande ylet när en mikro
 
 ## Vem du ringer när det går utöver en snabb kontroll
 
-Kontrollera det självklara först: kablar, gain, batteri, val av ingång. Om det inte löser det är vi tillgängliga dygnet runt, alla dagar i veckan, för teknisk installation och övervakning av evenemang medan de pågår, på varje bokning, även dessa tre paket som du kör på egen hand. [Kontakta oss](/contact/) eller ring 666 346 911 om du behöver oss mitt under evenemanget.
+Kontrollera det självklara först: kablar, gain, batteri, val av ingång. Om det inte löser det är vi tillgängliga 24 timmar om dygnet, 7 dagar i veckan, för teknisk installation och övervakning av evenemang medan de pågår, på varje bokning, även dessa tre paket som du kör på egen hand. [Kontakta oss](/contact/) eller ring 666 346 911 om du behöver oss mitt under evenemanget.
 
 ## Vill du ha en tekniker i stället för att felsöka själv?
 
@@ -186,11 +188,11 @@ Rundgång, ett stigande yl, betyder oftast att en mikrofon har kommit för nära
 
 ### Vem ringer jag om utrustningen slutar fungera under mitt evenemang?
 
-Kontrollera kablar, gain, batteri och val av ingång först. Om det inte löser det är vi tillgängliga dygnet runt, alla dagar i veckan, för teknisk installation och övervakning av evenemang medan de pågår, även för paket som du kör på egen hand. [Kontakta oss](/contact/) eller ring 666 346 911.
+Kontrollera kablar, gain, batteri och val av ingång först. Om det inte löser det är vi tillgängliga 24 timmar om dygnet, 7 dagar i veckan, för teknisk installation och övervakning av evenemang medan de pågår, även för paket som du kör på egen hand. [Kontakta oss](/contact/) eller ring 666 346 911.
 
 ### Hyr Malaga Event Gear bara ut utrustning och försvinner sedan, eller finns hjälp om något går fel senare?
 
-Vi levererar, installerar och testar varje bokning innan vi går, så att allt fungerar korrekt vid överlämnandet, men vi försvinner inte därefter. Vår linje är tillgänglig dygnet runt, alla dagar i veckan, för teknisk installation och övervakning av evenemang medan de pågår, även i [Eco Pack](/packages/eco/), [Product Presentation Pack](/packages/product-presentation/) och [Basic MICE Pack](/packages/basic-mice/) utan teknikertillvalet. Se [Innan du felsöker](#innan-du-felsöker-vad-som-redan-hänt-innan-du-började) ovan.
+Vi levererar, installerar och testar varje bokning innan vi går, så att allt fungerar korrekt vid överlämnandet, men vi försvinner inte därefter. Vår linje är tillgänglig 24 timmar om dygnet, 7 dagar i veckan, för teknisk installation och övervakning av evenemang medan de pågår, även i [Eco Pack](/packages/eco/), [Product Presentation Pack](/packages/product-presentation/) och [Basic MICE Pack](/packages/basic-mice/) utan teknikertillvalet. Se [Innan du felsöker](#innan-du-felsöker-vad-som-redan-hänt-innan-du-började) ovan.
 
 ### Kan jag lägga till en tekniker mitt i bokningen om jag bestämmer mig för att inte felsöka min egen utrustning?
 
@@ -203,3 +205,7 @@ Kontrollerna är desamma, kablar, gain, batteri, val av ingång, men vind och ut
 ### Vad är skillnaden mellan att en tekniker åtgärdar ett problem och att jag gör det själv?
 
 En tekniker håller koll på nivåerna hela tiden, så en tappad anslutning eller en tystad kanal fångas upp i samma stund det händer. Om du kör din egen utrustning märker du det först när det redan påverkar ditt evenemang, och åtgärden är den snabba kontroll på den här sidan som motsvarar ditt paket. Inget av alternativen är fel, det handlar om huruvida ditt paket har den löpande bevakningen eller inte. Se [Köra utrustningen själv](#köra-utrustningen-själv-vilka-paket-du-kör-på-egen-hand) ovan för vilka paket som har en.
+
+### Vad ska jag kontrollera först om AV-utrustningen slutar fungera i ett konferensrum?
+
+Kontrollera vad som har ändrats sedan vårt team lämnade, och börja med kablarna. Se till att varje HDMI-, XLR- och högtalarkabel fortfarande sitter ordentligt i båda ändar, och bekräfta sedan att projektorns ingångskälla stämmer med den bärbara dator som är ansluten just nu, eftersom en svart skärm eller ingen signal oftast beror på fel ingång. För ljudet, leta efter en tystad kanal eller ett gainreglage som har dragits ned, och på [Product Presentation Pack](/packages/product-presentation/) kontrollerar du batteriet i den trådlösa mikrofonen. De här kontrollerna gäller utrustningen vi levererade till ditt rum, se [Kontroll per paket](#kontroll-per-paket-vad-du-tittar-på-först) för ditt paket. Om de inte löser det, ring 666 346 911 eller [kontakta oss](/contact/), vi är tillgängliga 24 timmar om dygnet, 7 dagar i veckan.

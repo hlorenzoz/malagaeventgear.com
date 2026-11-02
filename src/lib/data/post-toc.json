@@ -5337,6 +5337,11 @@
       "id": "what-is-the-difference-between-a-technician-fixing-an-issue-and-me-fixing-it-myself",
       "text": "What is the difference between a technician fixing an issue and me fixing it myself?",
       "level": 3
+    },
+    {
+      "id": "what-should-i-check-first-if-the-av-stops-working-in-a-conference-room",
+      "text": "What should I check first if the AV stops working in a conference room?",
+      "level": 3
     }
   ],
   "audiovisual-equipment-rental-service": [

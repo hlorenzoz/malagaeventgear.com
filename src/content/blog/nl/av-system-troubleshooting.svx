@@ -3,7 +3,8 @@ title: "Oplossen van problemen met AV-systemen in Malaga, Spanje"
 description: "Oplossen van problemen met AV-systemen in Malaga, Spanje: zelf controleren bij Eco Pack, Product Presentation Pack en Basic MICE Pack voordat je belt."
 excerpt: "Oplossen van problemen met AV-systemen in Malaga: wat je zelf controleert als een zelf te bedienen pakket midden in het evenement stopt, pakket voor pakket, voor het Eco Pack, het Product Presentation Pack en het Basic MICE Pack zonder technicusoptie."
 publishDate: "2026-10-01"
-sourceUpdated: "2026-10-01"
+sourceUpdated: "2026-11-02"
+updatedDate: "2026-11-02"
 ---
 
 <script>
@@ -43,6 +44,7 @@ Onze gidsen over technische ondersteuning bij evenementen en over [AV-technicus 
     -   [Kan ik halverwege mijn boeking een technicus toevoegen als ik mijn eigen apparatuur toch niet wil beheren?](#kan-ik-halverwege-mijn-boeking-een-technicus-toevoegen-als-ik-mijn-eigen-apparatuur-toch-niet-wil-beheren)
     -   [Is het oplossen van problemen anders bij evenementen buiten?](#is-het-oplossen-van-problemen-anders-bij-evenementen-buiten)
     -   [Wat is het verschil tussen een technicus die een probleem verhelpt en mezelf die het verhelpt?](#wat-is-het-verschil-tussen-een-technicus-die-een-probleem-verhelpt-en-mezelf-die-het-verhelpt)
+    -   [Wat moet ik eerst controleren als de AV-apparatuur in een conferentiezaal uitvalt?](#wat-moet-ik-eerst-controleren-als-de-av-apparatuur-in-een-conferentiezaal-uitvalt)
 
 ## In het kort
 
@@ -203,3 +205,7 @@ De controles zijn hetzelfde, kabels, gain, batterij, ingangskeuze, maar wind en 
 ### Wat is het verschil tussen een technicus die een probleem verhelpt en mezelf die het verhelpt?
 
 Een technicus houdt de niveaus continu in de gaten, dus een weggevallen verbinding of een gedempt kanaal wordt opgemerkt op het moment dat het gebeurt. Als je je eigen apparatuur bedient, merk je het pas als het je evenement al beïnvloedt, en de oplossing is de snelle controle op deze pagina die bij je pakket past. Geen van beide is fout, het gaat erom of je pakket die continue aandacht bevat of niet. Zie hierboven [Zelf je apparatuur bedienen](#zelf-je-apparatuur-bedienen-welke-pakketten-zelf-te-bedienen-zijn) voor welke pakketten er een bevatten.
+
+### Wat moet ik eerst controleren als de AV-apparatuur in een conferentiezaal uitvalt?
+
+Controleer wat er is veranderd sinds ons team vertrok, te beginnen met de kabels. Zorg dat elke HDMI-, XLR- en luidsprekerkabel aan beide kanten nog goed vastzit en controleer dan of de ingangsbron van de beamer overeenkomt met de laptop die nu is aangesloten, want een zwart scherm of geen signaal komt meestal door een verkeerde ingang. Kijk voor het geluid of er een kanaal is gedempt of een gainfader is weggedraaid, en controleer bij het [Product Presentation Pack](/packages/product-presentation/) de batterij van de draadloze microfoon. Deze controles gelden voor de apparatuur die we in je zaal hebben geleverd, zie [Controle per pakket](#controle-per-pakket-waar-je-het-eerst-naar-kijkt) voor jouw pakket. Als ze het niet oplossen, bel dan 666 346 911 of [neem contact met ons op](/contact/), we zijn 24 uur per dag, 7 dagen per week bereikbaar.

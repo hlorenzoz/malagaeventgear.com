@@ -3,7 +3,8 @@ title: "Solução de problemas em sistemas audiovisuais em Málaga, Espanha"
 description: "Solução de problemas em sistemas audiovisuais em Málaga, Espanha, por conta própria: Eco Pack, Product Presentation Pack e Basic MICE Pack, antes de nos ligar."
 excerpt: "Solução de problemas em sistemas audiovisuais em Málaga: o que você mesmo pode verificar se um pacote autogerenciado parar de funcionar no meio do evento, pacote por pacote, para o Eco Pack, o Product Presentation Pack e o Basic MICE Pack sem a opção de técnico."
 publishDate: "2026-10-01"
-sourceUpdated: "2026-10-01"
+sourceUpdated: "2026-11-02"
+updatedDate: "2026-11-02"
 ---
 
 <script>
@@ -43,6 +44,7 @@ Os nossos guias de suporte técnico para eventos e de [contratação de um técn
     -   [Posso adicionar um técnico no meio da reserva se decidir que não quero resolver os problemas do meu equipamento sozinho?](#posso-adicionar-um-técnico-no-meio-da-reserva-se-decidir-que-não-quero-resolver-os-problemas-do-meu-equipamento-sozinho)
     -   [A solução de problemas é diferente em eventos ao ar livre?](#a-solução-de-problemas-é-diferente-em-eventos-ao-ar-livre)
     -   [Qual é a diferença entre um técnico resolver um problema e eu mesmo resolvê-lo?](#qual-é-a-diferença-entre-um-técnico-resolver-um-problema-e-eu-mesmo-resolvê-lo)
+    -   [O que devo verificar primeiro se o equipamento audiovisual parar de funcionar em uma sala de conferência?](#o-que-devo-verificar-primeiro-se-o-equipamento-audiovisual-parar-de-funcionar-em-uma-sala-de-conferência)
 
 ## Resumo
 
@@ -203,3 +205,7 @@ As verificações são as mesmas, cabos, ganho, bateria, seleção da entrada, m
 ### Qual é a diferença entre um técnico resolver um problema e eu mesmo resolvê-lo?
 
 Um técnico acompanha os níveis continuamente, então uma conexão perdida ou um canal silenciado é percebido no momento em que acontece. Operar o seu próprio equipamento significa que você só percebe quando isso já está afetando o seu evento, e a solução é a verificação rápida desta página que corresponde ao seu pacote. Nenhuma das duas opções está errada, trata-se de saber se o seu pacote inclui esse acompanhamento contínuo ou não. Veja acima [Operar o seu próprio equipamento](#operar-o-seu-próprio-equipamento-quais-pacotes-são-autogerenciados) para saber quais pacotes incluem um.
+
+### O que devo verificar primeiro se o equipamento audiovisual parar de funcionar em uma sala de conferência?
+
+Verifique o que mudou desde que a nossa equipe saiu, começando pelos cabos. Confirme que cada cabo HDMI, XLR e de caixa de som continua bem encaixado nas duas pontas e depois que a fonte de entrada do projetor corresponde ao notebook que está conectado agora, pois uma tela em branco ou a falta de sinal geralmente se deve a uma entrada errada. Quanto ao som, procure um canal silenciado ou um fader de ganho que tenha sido abaixado sem querer e, no [Product Presentation Pack](/packages/product-presentation/), verifique a bateria do microfone sem fio. Essas verificações cobrem o equipamento que entregamos na sua sala, veja [Verificação por pacote](#verificação-por-pacote-por-onde-começar) para o seu pacote. Se não resolverem, ligue para o 666 346 911 ou [entre em contato](/contact/), estamos disponíveis 24 horas por dia, 7 dias por semana.

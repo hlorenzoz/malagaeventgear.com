@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-02",
+  "taskId": "#T0169",
+  "slug": "av-system-troubleshooting",
+  "searchTerm": "conference room av troubleshooting",
+  "status": "ok",
+  "serp": {
+    "query": "What should I check first if the AV stops working in a conference room?",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://www.yealink.com/en/onepage/P3-how-to-troubleshoot-common-video-conferencing-problems", "title": "How to Troubleshoot Common Video Conferencing Problems" },
+      { "rank": 2, "url": "https://iqboard.net/av-integration/", "title": "av integration" },
+      { "rank": 3, "url": "https://helpdesk.lakelandcollege.edu/osticket/kb/faq.php?id=9", "title": "Frequently Asked Question" }
+    ]
+  },
+  "terms": [
+    { "term": "escalation", "kind": "related", "seenIn": 3 },
+    { "term": "HDMI cable", "kind": "entity", "seenIn": 2 },
+    { "term": "Microsoft Teams", "kind": "entity", "seenIn": 2 },
+    { "term": "input source selection", "kind": "related", "seenIn": 2 },
+    { "term": "no signal", "kind": "related", "seenIn": 2 },
+    { "term": "firmware version", "kind": "related", "seenIn": 2 },
+    { "term": "network latency", "kind": "related", "seenIn": 2 },
+    { "term": "multi-room outage", "kind": "related", "seenIn": 2 },
+    { "term": "What should I check first?", "kind": "question", "seenIn": 2 },
+    { "term": "Why is there no sound?", "kind": "question", "seenIn": 2 },
+    { "term": "When should I escalate an AV problem?", "kind": "question", "seenIn": 2 },
+    { "term": "conference room display", "kind": "entity", "seenIn": 1 },
+    { "term": "room control panel", "kind": "entity", "seenIn": 1 },
+    { "term": "USB-C cable", "kind": "entity", "seenIn": 1 },
+    { "term": "Zoom Rooms", "kind": "entity", "seenIn": 1 },
+    { "term": "video conferencing bar", "kind": "entity", "seenIn": 1 },
+    { "term": "conference speakerphone", "kind": "entity", "seenIn": 1 },
+    { "term": "swap testing", "kind": "related", "seenIn": 1 },
+    { "term": "audio feedback and echo", "kind": "related", "seenIn": 1 },
+    { "term": "packet loss", "kind": "related", "seenIn": 1 },
+    { "term": "known-good room comparison", "kind": "related", "seenIn": 1 },
+    { "term": "blank screen", "kind": "related", "seenIn": 1 },
+    { "term": "Which part of the meeting failed?", "kind": "question", "seenIn": 1 },
+    { "term": "Why won't screen sharing work?", "kind": "question", "seenIn": 1 },
+    { "term": "Why can't the room join a meeting?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Yealink MeetingBar and MVC models", "reason": "vendor product models, not MEG vocabulary" },
+    { "term": "IQBoard IQMeet IQTouch product lines", "reason": "vendor marketing product names" },
+    { "term": "lecture capture and smart classroom", "reason": "education market, off topic for corporate events" },
+    { "term": "IT support ticket and helpdesk portal", "reason": "university internal IT process" },
+    { "term": "PoE power budget and VLAN QoS", "reason": "network engineering detail beyond a first-check FAQ" }
+  ]
+}

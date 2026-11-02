@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): av-system-troubleshooting, nueva FAQ conference room (#T0169) (2026-11-02)
+- Origen: plan de contenido 2026-11-02, item cluster audio visual rental (conference room av troubleshooting, corporate av troubleshooting, gsc pos 98, 2 impr). Tarea #T0169.
+- FAQ nueva al final de `## FAQs`: "What should I check first if the AV stops working in a conference room?". Hechos solo del post: cables, input del proyector, canal mudo o gain, bateria del microfono inalambrico (solo Product Presentation Pack), linea 24/7 666 346 911. Sin marcas ni precios; solo equipo entregado por MEG, no sistemas instalados.
+- Bullet nuevo en el Table of Contents en linea. `updatedDate` a 2026-11-02; `post-faqs.json` y `post-toc.json` regenerados.
+- Las 12 traducciones quedan obsoletas y siguen en el mismo cambio.
+
 ### Changed (blog): all-in-one-wedding-rental-packages, nueva FAQ destination wedding / vow renewal (#T0167) (2026-10-30)
 - Origen: plan de contenido 2026-10-30, item cluster wedding rentals (weddings in spain packages, getting married in spain packages, gsc pos 55.14, 7 impr). Tarea #T0167.
 - FAQ nueva al final de `## FAQs`: "Can I use the Wedding Pack for a destination wedding or vow renewal in Spain?". Hechos solo del post: Wedding Pack solo AV, hasta 80 invitados, 650 euros ex VAT, zona Malaga, Costa del Sol, Sevilla y Granada sobre 400 euros; no es sede, celebrante, tramites, planner ni alojamiento. Enlaces a /packages/wedding/ y /contact/.
