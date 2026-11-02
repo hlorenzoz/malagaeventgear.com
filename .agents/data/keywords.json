@@ -42518,8 +42518,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audio-visual-rental-for-conferences/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -42532,6 +42532,10 @@
             "ctr": 0,
             "position": 2
           }
+        },
+        "blog": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02"
         },
         "content-plan": {
           "firstSeen": "2026-10-31",
@@ -96760,6 +96764,24 @@
             "how-to-choose-wedding-rentals",
             "indoor-wedding-rental-essentials",
             "making-the-most-of-wedding-rentals"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-does-a-mice-sound-system-include-for-a-conference",
+      "question": "What does a MICE sound system include for a conference?",
+      "keywordId": "audio-visual-rental-for-conferences",
+      "cluster": "audio visual rental",
+      "url": "/blog/audio-visual-rental-for-conferences/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02",
+          "urls": [
+            "/blog/audio-visual-rental-for-conferences/"
           ]
         }
       }
