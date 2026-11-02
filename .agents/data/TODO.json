@@ -958,24 +958,6 @@
       ]
     },
     {
-      "id": "#T0169",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/av-system-troubleshooting/: \"What should I check first if the AV stops working in a conference room?\"",
-      "anotada": "2026-10-31",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-31, ítem 1)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/av-system-troubleshooting.svx",
-        "Keywords: conference room av troubleshooting, corporate av troubleshooting (gsc pos 98 2 impr), sin volumen",
-        "Por qué: Misma intención (resolver fallos de AV en una sala de reuniones o evento corporativo). /blog/av-system-troubleshooting/ ya tiene la sección Self Check by Package y la variante Basic MICE Pack, pero ninguna pregunta nombra la sala de conferencias. Una FAQ basta, no hace falta un post nuevo (evita canibalización).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0170",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1476,6 +1458,30 @@
       ],
       "descripcion": [
         "Añade soporte para OpenGraph según corresponda."
+      ]
+    },
+    {
+      "id": "#T0169",
+      "estado": "bloqueada",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/av-system-troubleshooting/: \"What should I check first if the AV stops working in a conference room?\"",
+      "anotada": "2026-10-31",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-31, ítem 1)",
+      "notas": [
+        "bloqueada por todo-implementer 2026-11-02: EN edit + 12 translations done and verifier PASS",
+        "but the EN files were staged early so post-translate-finish refuses to run (needs an empty index). User: run 'git restore --staged' on the 5 staged paths",
+        "then 'just post-translate-finish av-system-troubleshooting --message \"feat(blog): av-system-troubleshooting add FAQ on conference room AV checks\"'",
+        "then keywords-sync",
+        "todo-organize."
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/av-system-troubleshooting.svx",
+        "Keywords: conference room av troubleshooting, corporate av troubleshooting (gsc pos 98 2 impr), sin volumen",
+        "Por qué: Misma intención (resolver fallos de AV en una sala de reuniones o evento corporativo). /blog/av-system-troubleshooting/ ya tiene la sección Self Check by Package y la variante Basic MICE Pack, pero ninguna pregunta nombra la sala de conferencias. Una FAQ basta, no hace falta un post nuevo (evita canibalización).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
