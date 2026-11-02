@@ -958,24 +958,6 @@
       ]
     },
     {
-      "id": "#T0171",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/all-in-one-wedding-rental-packages/: \"What should I prepare at the venue for the equipment delivery on my wedding day?\"",
-      "anotada": "2026-10-31",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-31, ítem 3)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/all-in-one-wedding-rental-packages.svx",
-        "Keywords: tips for wedding rental delivery (gsc pos 44 3 impr), sin volumen",
-        "Por qué: Intención práctica (qué preparar para la entrega del equipo). No hay un post propio y un post nuevo sería demasiado estrecho (Goldilocks). /blog/all-in-one-wedding-rental-packages/ es el apoyo más cercano y no tiene esta pregunta. Se comprobó que sus FAQs actuales no la repiten.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0156",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1440,6 +1422,27 @@
       ],
       "descripcion": [
         "Añade soporte para OpenGraph según corresponda."
+      ]
+    },
+    {
+      "id": "#T0171",
+      "estado": "bloqueada",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/all-in-one-wedding-rental-packages/: \"What should I prepare at the venue for the equipment delivery on my wedding day?\"",
+      "anotada": "2026-10-31",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-10-31, ítem 3)",
+      "notas": [
+        "bloqueada por todo-implementer 2026-11-02: EN edit + 12 translations done and verifier PASS",
+        "but post-translate-finish refuses to run with the EN files staged (step 6 staged them) and unstaging is forbidden; needs user: unstage and run just post-translate-finish all-in-one-wedding-rental-packages"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/all-in-one-wedding-rental-packages.svx",
+        "Keywords: tips for wedding rental delivery (gsc pos 44 3 impr), sin volumen",
+        "Por qué: Intención práctica (qué preparar para la entrega del equipo). No hay un post propio y un post nuevo sería demasiado estrecho (Goldilocks). /blog/all-in-one-wedding-rental-packages/ es el apoyo más cercano y no tiene esta pregunta. Se comprobó que sus FAQs actuales no la repiten.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
