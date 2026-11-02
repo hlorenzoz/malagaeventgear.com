@@ -1443,27 +1443,6 @@
       ]
     },
     {
-      "id": "#T0170",
-      "estado": "bloqueada",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/audio-visual-rental-for-conferences/: \"What does a MICE sound system include for a conference?\"",
-      "anotada": "2026-10-31",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-10-31, ítem 2)",
-      "notas": [
-        "bloqueada por todo-implementer 2026-11-02: el EN y las 12 traducciones estan hechos y verificados",
-        "pero post-translate-finish se niega a correr porque 5 ficheros del EN quedaron staged (git add); no hay permiso para desstagear. Ejecutar post-translate-finish tras desstagear."
-      ],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/audio-visual-rental-for-conferences.svx",
-        "Keywords: mice sound system (gsc pos 2 2 impr), sin volumen",
-        "Por qué: Ya aparece en posición 2. MEG vende el Basic MICE Pack y el MICE Pack (src/lib/data/packages.ts), y /blog/audio-visual-rental-for-conferences/ explica el contexto de conferencia sin una pregunta directa sobre qué es un sistema de sonido MICE. Una FAQ responde con inventario propio, sin post nuevo.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0152",
       "estado": "bloqueada",
       "prioridad": "media",
@@ -1699,6 +1678,27 @@
         "Archivo: src/content/blog/av-system-troubleshooting.svx",
         "Keywords: conference room av troubleshooting, corporate av troubleshooting (gsc pos 98 2 impr), sin volumen",
         "Por qué: Misma intención (resolver fallos de AV en una sala de reuniones o evento corporativo). /blog/av-system-troubleshooting/ ya tiene la sección Self Check by Package y la variante Basic MICE Pack, pero ninguna pregunta nombra la sala de conferencias. Una FAQ basta, no hace falta un post nuevo (evita canibalización).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0170",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/audio-visual-rental-for-conferences/: \"What does a MICE sound system include for a conference?\"",
+      "anotada": "2026-10-31",
+      "hecha": "2026-11-02",
+      "origen": "content-strategist (plan 2026-10-31, ítem 2)",
+      "notas": [
+        "bloqueada por todo-implementer 2026-11-02: el EN y las 12 traducciones estan hechos y verificados",
+        "pero post-translate-finish se niega a correr porque 5 ficheros del EN quedaron staged (git add); no hay permiso para desstagear. Ejecutar post-translate-finish tras desstagear."
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audio-visual-rental-for-conferences.svx",
+        "Keywords: mice sound system (gsc pos 2 2 impr), sin volumen",
+        "Por qué: Ya aparece en posición 2. MEG vende el Basic MICE Pack y el MICE Pack (src/lib/data/packages.ts), y /blog/audio-visual-rental-for-conferences/ explica el contexto de conferencia sin una pregunta directa sobre qué es un sistema de sonido MICE. Una FAQ responde con inventario propio, sin post nuevo.",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
