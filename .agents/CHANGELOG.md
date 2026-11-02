@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): all-in-one-wedding-rental-packages, nueva FAQ preparar la entrega en el venue (#T0171) (2026-11-02)
+- Origen: plan de contenido 2026-11-02, item cluster wedding rentals (tips for wedding rental delivery, gsc pos 44, 3 impr). Tarea #T0171.
+- FAQ nueva al final de `## FAQs`: "What should I prepare at the venue for the equipment delivery on my wedding day?". Hechos solo del post: MEG entrega, instala, prueba y recoge el Wedding Pack, tecnico en directo, teardown y pickup incluidos. El resto son peticiones al cliente (contacto, hora de entrega, acceso, toma de corriente, espacio, normas del venue, run of show), sin horas, plazos ni tarifas. Enlace a /packages/wedding/.
+- El post no tiene Table of Contents en linea. `updatedDate` a 2026-11-02; `post-faqs.json` y `post-toc.json` regenerados.
+- Las 12 traducciones quedan obsoletas y siguen en el mismo cambio.
+
 ### Changed (blog): audio-visual-rental-for-conferences, nueva FAQ mice sound system (#T0170) (2026-11-02)
 - Origen: plan de contenido 2026-11-02, item cluster audio visual rental (mice sound system, gsc pos 2, 2 impr). Tarea #T0170.
 - FAQ nueva al final de `## FAQs`: "What does a MICE sound system include for a conference?". Hechos solo de `packages.ts` (MICE Pack y Basic MICE Pack) con enlaces a /packages/mice/ y /packages/basic-mice/. Sin marcas ni precios.

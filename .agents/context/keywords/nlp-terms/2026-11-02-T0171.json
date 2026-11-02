@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-02",
+  "taskId": "#T0171",
+  "slug": "all-in-one-wedding-rental-packages",
+  "searchTerm": "tips for wedding rental delivery",
+  "status": "ok",
+  "serp": {
+    "query": "What should I prepare at the venue for wedding rental equipment delivery?",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://curatedevents.com/blog/top-wedding-rental-delivery-tips-for-a-perfect-celebration/", "title": "top wedding rental delivery tips for a perfect celebration" },
+      { "rank": 2, "url": "https://curatedevents.com/?p=5257", "title": "curatedevents.com" },
+      { "rank": 3, "url": "https://curatedevents.com/blog/top-wedding-catering-equipment-rental-tips/", "title": "Have you ever wondered if renting your wedding catering equipment is truly worth the investment?" }
+    ]
+  },
+  "terms": [
+    { "term": "rental agreement", "kind": "related", "seenIn": 3 },
+    { "term": "liability coverage", "kind": "related", "seenIn": 3 },
+    { "term": "point of contact", "kind": "related", "seenIn": 3 },
+    { "term": "floor plan", "kind": "related", "seenIn": 3 },
+    { "term": "delivery windows", "kind": "related", "seenIn": 3 },
+    { "term": "load-in", "kind": "related", "seenIn": 2 },
+    { "term": "loading docks", "kind": "related", "seenIn": 2 },
+    { "term": "service entrances", "kind": "related", "seenIn": 2 },
+    { "term": "access routes", "kind": "related", "seenIn": 2 },
+    { "term": "floor protection", "kind": "related", "seenIn": 2 },
+    { "term": "empty boxes and crates", "kind": "related", "seenIn": 2 },
+    { "term": "delivery permits", "kind": "related", "seenIn": 2 },
+    { "term": "emergency contact list", "kind": "related", "seenIn": 2 },
+    { "term": "setup and teardown", "kind": "related", "seenIn": 2 },
+    { "term": "overtime charges", "kind": "related", "seenIn": 2 },
+    { "term": "backup quantities", "kind": "related", "seenIn": 2 },
+    { "term": "buffer time", "kind": "related", "seenIn": 2 },
+    { "term": "post-event pickup", "kind": "related", "seenIn": 2 },
+    { "term": "final inventory check", "kind": "related", "seenIn": 2 },
+    { "term": "venue site visit", "kind": "related", "seenIn": 2 },
+    { "term": "rental inventory checklist", "kind": "related", "seenIn": 2 },
+    { "term": "weather contingency plan", "kind": "related", "seenIn": 2 },
+    { "term": "vendor check-ins", "kind": "related", "seenIn": 2 },
+    { "term": "How do I confirm venue delivery times and access rules?", "kind": "question", "seenIn": 2 },
+    { "term": "Where should empty boxes be stored?", "kind": "question", "seenIn": 2 }
+  ],
+  "discarded": [
+    { "term": "Curated Events", "reason": "competitor name" },
+    { "term": "Skyline Tent Co", "reason": "competitor or partner company name" },
+    { "term": "See-Hear Pro", "reason": "competitor or partner company name" },
+    { "term": "Montana Party Rentals", "reason": "competitor name" },
+    { "term": "Casa de Perrin", "reason": "competitor or partner company name" },
+    { "term": "Charleston Charlotte Savannah", "reason": "places outside Spain" },
+    { "term": "security deposit", "reason": "pricing and fees" },
+    { "term": "tents linens flatware", "reason": "decor and catering items, not audiovisual" }
+  ]
+}
