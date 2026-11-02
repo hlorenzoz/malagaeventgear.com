@@ -17477,8 +17477,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/av-system-troubleshooting/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -17491,6 +17491,10 @@
             "ctr": 0,
             "position": 98
           }
+        },
+        "blog": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02"
         },
         "content-plan": {
           "firstSeen": "2026-10-31",
@@ -17902,8 +17906,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/av-system-troubleshooting/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -17916,6 +17920,10 @@
             "ctr": 0,
             "position": 74.5
           }
+        },
+        "blog": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02"
         },
         "content-plan": {
           "firstSeen": "2026-10-31",
@@ -98937,6 +98945,24 @@
           "lastSeen": "2026-11-02",
           "urls": [
             "/blog/how-to-choose-wedding-rentals/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-should-i-check-first-if-the-av-stops-working-in-a-conference-room",
+      "question": "What should I check first if the AV stops working in a conference room?",
+      "keywordId": "av-system-troubleshooting",
+      "cluster": "audio visual rental",
+      "url": "/blog/av-system-troubleshooting/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02",
+          "urls": [
+            "/blog/av-system-troubleshooting/"
           ]
         }
       }
