@@ -33663,10 +33663,14 @@
       "cluster": "event technology service",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "planned",
+      "url": "/blog/how-to-organize-a-congress-in-malaga/",
+      "status": "published",
       "reason": null,
       "sources": {
+        "blog": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02"
+        },
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-02"
@@ -42465,6 +42469,10 @@
             "position": null,
             "rankingUrl": null
           }
+        },
+        "blog": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02"
         }
       },
       "opportunity": "low",
@@ -86571,6 +86579,24 @@
       }
     },
     {
+      "id": "can-you-deliver-to-any-venue-in-malaga-marbella-or-torremolinos",
+      "question": "Can you deliver to any venue in Malaga, Marbella or Torremolinos?",
+      "keywordId": "mice-events-malaga",
+      "cluster": "event technology service",
+      "url": "/blog/mice-events-in-malaga/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02",
+          "urls": [
+            "/blog/mice-events-in-malaga/"
+          ]
+        }
+      }
+    },
+    {
       "id": "can-you-display-the-current-bid-or-a-donor-recognition-slide",
       "question": "Can you display the current bid or a donor recognition slide?",
       "keywordId": "audio-visual-rental-for-charity-fundraisers",
@@ -86689,6 +86715,24 @@
           "lastSeen": "2026-11-02",
           "urls": [
             "/blog/audio-visual-rental-for-corporate-meetings/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-you-provide-simultaneous-interpretation-for-a-congress",
+      "question": "Can you provide simultaneous interpretation for a congress?",
+      "keywordId": "mice-events-malaga",
+      "cluster": "event technology service",
+      "url": "/blog/mice-events-in-malaga/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02",
+          "urls": [
+            "/blog/mice-events-in-malaga/"
           ]
         }
       }
@@ -86995,6 +87039,24 @@
           "lastSeen": "2026-11-02",
           "urls": [
             "/blog/managing-last-minute-wedding-rental-changes/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "do-i-need-a-destination-management-company",
+      "question": "Do I need a destination management company?",
+      "keywordId": "how-to-organize-a-congress-in-malaga",
+      "cluster": "event technology service",
+      "url": "/blog/how-to-organize-a-congress-in-malaga/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02",
+          "urls": [
+            "/blog/how-to-organize-a-congress-in-malaga/"
           ]
         }
       }
@@ -89111,6 +89173,24 @@
       }
     },
     {
+      "id": "does-malaga-event-gear-organize-mice-events-in-malaga",
+      "question": "Does Malaga Event Gear organize MICE events in Malaga?",
+      "keywordId": "mice-events-malaga",
+      "cluster": "event technology service",
+      "url": "/blog/mice-events-in-malaga/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02",
+          "urls": [
+            "/blog/mice-events-in-malaga/"
+          ]
+        }
+      }
+    },
+    {
       "id": "does-malaga-event-gear-provide-a-technician-or-is-that-extra",
       "question": "Does Malaga Event Gear provide a technician, or is that extra?",
       "keywordId": "audio-visual-rental-company",
@@ -90703,6 +90783,24 @@
           "lastSeen": "2026-11-02",
           "urls": [
             "/blog/stage-monitor-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-far-in-advance-should-i-book-the-audiovisual-side",
+      "question": "How far in advance should I book the audiovisual side?",
+      "keywordId": "how-to-organize-a-congress-in-malaga",
+      "cluster": "event technology service",
+      "url": "/blog/how-to-organize-a-congress-in-malaga/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02",
+          "urls": [
+            "/blog/how-to-organize-a-congress-in-malaga/"
           ]
         }
       }
@@ -96269,6 +96367,24 @@
       }
     },
     {
+      "id": "what-audiovisual-equipment-does-a-congress-room-need",
+      "question": "What audiovisual equipment does a congress room need?",
+      "keywordId": "how-to-organize-a-congress-in-malaga",
+      "cluster": "event technology service",
+      "url": "/blog/how-to-organize-a-congress-in-malaga/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02",
+          "urls": [
+            "/blog/how-to-organize-a-congress-in-malaga/"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-av-equipment-do-i-actually-get-for-my-stand",
       "question": "What AV equipment do I actually get for my stand?",
       "keywordId": "audio-visual-rental-for-trade-shows",
@@ -96858,6 +96974,24 @@
           "lastSeen": "2026-10-28",
           "seeds": [
             "av-system-troubleshooting"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-does-mice-stand-for",
+      "question": "What does MICE stand for?",
+      "keywordId": "mice-events-malaga",
+      "cluster": "event technology service",
+      "url": "/blog/mice-events-in-malaga/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02",
+          "urls": [
+            "/blog/mice-events-in-malaga/"
           ]
         }
       }
@@ -99678,6 +99812,24 @@
       }
     },
     {
+      "id": "where-do-i-start-to-organize-a-congress-in-malaga",
+      "question": "Where do I start to organize a congress in Malaga?",
+      "keywordId": "how-to-organize-a-congress-in-malaga",
+      "cluster": "event technology service",
+      "url": "/blog/how-to-organize-a-congress-in-malaga/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02",
+          "urls": [
+            "/blog/how-to-organize-a-congress-in-malaga/"
+          ]
+        }
+      }
+    },
+    {
       "id": "where-does-malaga-event-gear-meg-offer-its-services",
       "question": "Where does Malaga Event Gear (MEG) offer its services?",
       "keywordId": "faq-logistics",
@@ -99850,6 +100002,24 @@
           "lastSeen": "2026-11-02",
           "urls": [
             "/blog/av-equipment-consultations/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "which-package-suits-a-corporate-meeting-or-a-congress",
+      "question": "Which package suits a corporate meeting or a congress?",
+      "keywordId": "mice-events-malaga",
+      "cluster": "event technology service",
+      "url": "/blog/mice-events-in-malaga/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02",
+          "urls": [
+            "/blog/mice-events-in-malaga/"
           ]
         }
       }
