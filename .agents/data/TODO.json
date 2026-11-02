@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "tasks": [
     {
       "id": "#T0085",
@@ -898,6 +898,66 @@
       ]
     },
     {
+      "id": "#T0175",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "keywords",
+      "titulo": "Recuperar \"av hire\": cayo de 4 a 53",
+      "anotada": "2026-11-02",
+      "hecha": null,
+      "origen": "ubersuggest (rank-tracking, rank/av-hire)",
+      "notas": [],
+      "descripcion": [
+        "Base: mejor posicion de los ultimos 90 dias.",
+        "Reporte rank-tracking de ubersuggest del 2026-11-02."
+      ]
+    },
+    {
+      "id": "#T0176",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "keywords",
+      "titulo": "Recuperar \"audiovisual rental\": cayo de 6 a 10",
+      "anotada": "2026-11-02",
+      "hecha": null,
+      "origen": "ubersuggest (rank-tracking, rank/audiovisual-rental)",
+      "notas": [],
+      "descripcion": [
+        "Base: mejor posicion de los ultimos 90 dias.",
+        "Reporte rank-tracking de ubersuggest del 2026-11-02."
+      ]
+    },
+    {
+      "id": "#T0177",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "keywords",
+      "titulo": "Recuperar \"event av spain\": dejo de rankear (era 7)",
+      "anotada": "2026-11-02",
+      "hecha": null,
+      "origen": "ubersuggest (rank-tracking, rank/event-av-spain)",
+      "notas": [],
+      "descripcion": [
+        "Base: mejor posicion de los ultimos 90 dias.",
+        "Reporte rank-tracking de ubersuggest del 2026-11-02."
+      ]
+    },
+    {
+      "id": "#T0178",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "keywords",
+      "titulo": "Recuperar \"sound equipment rental\": cayo de 8 a 14",
+      "anotada": "2026-11-02",
+      "hecha": null,
+      "origen": "ubersuggest (rank-tracking, rank/sound-equipment-rental)",
+      "notas": [],
+      "descripcion": [
+        "Base: mejor posicion de los ultimos 90 dias.",
+        "Reporte rank-tracking de ubersuggest del 2026-11-02."
+      ]
+    },
+    {
       "id": "#T0169",
       "estado": "pendiente",
       "prioridad": "media",
@@ -990,36 +1050,6 @@
       "anotada": "2026-10-26",
       "hecha": null,
       "origen": "ubersuggest (rank-tracking, rank/speaker-rental)",
-      "notas": [],
-      "descripcion": [
-        "Base: mejor posicion de los ultimos 90 dias.",
-        "Reporte rank-tracking de ubersuggest del 2026-10-26."
-      ]
-    },
-    {
-      "id": "#T0159",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "keywords",
-      "titulo": "Recuperar \"audio visual equipment hire\": cayo de 4 a 7",
-      "anotada": "2026-10-26",
-      "hecha": null,
-      "origen": "ubersuggest (rank-tracking, rank/audio-visual-equipment-hire)",
-      "notas": [],
-      "descripcion": [
-        "Base: mejor posicion de los ultimos 90 dias.",
-        "Reporte rank-tracking de ubersuggest del 2026-10-26."
-      ]
-    },
-    {
-      "id": "#T0160",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "keywords",
-      "titulo": "Recuperar \"hire av equipment\": dejo de rankear (era 14)",
-      "anotada": "2026-10-26",
-      "hecha": null,
-      "origen": "ubersuggest (rank-tracking, rank/hire-av-equipment)",
       "notas": [],
       "descripcion": [
         "Base: mejor posicion de los ultimos 90 dias.",
@@ -1640,6 +1670,62 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0174",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-11-02",
+      "anotada": "2026-11-02",
+      "hecha": "2026-11-02",
+      "origen": "content-strategist (plan 2026-11-02, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "all included wedding venues near me (Buscan locales, villas, iglesias o organizacion completa de boda. MEG solo alquila audiovisual y no vende venues ni wedding planning. La parte audiovisual ya la cubre /blog/all-in-one-wedding-rental-packages/ (secciones 'What All in One Doesn't Cover' y FAQ sobre venue y catering). Ademas 'near me' es doorway abuse (spam-policies.md).)",
+        "bridal packages (Misma intencion que /blog/all-in-one-wedding-rental-packages/ (Our All Inclusive Wedding Pack in Malaga). Un segundo contenido seria canibalizacion dentro del silo wedding rentals.)",
+        "alquiler de altavoces malaga (Consultas en espanol: el sitio tiene hoy 13 idiomas sin espanol y la brecha de contenido en espanol esta aplazada por decision del usuario. Pais Vasco esta fuera del area de servicio. Los temas ya los cubren /blog/sound-system-rental/ y /blog/stage-lighting-rental/.)",
+        "8000 lumen projector rental (Cubierto por /blog/projector-rental/, seccion 'Choosing a Lumens Tier for Your Room' y FAQs de brillo y venues grandes. El inventario llega a 5000 lumenes (Christie LX505), y una pagina por cifra de lumenes seria casi duplicada.)",
+        "audio visual (Terminos amplios ya servidos por los pilares /blog/audio-visual-rental/ y /blog/audiovisual-equipment-rental-service/ y por /blog/audio-visual-rental-company/. Una pagina nueva o seccion solo repetiria lo existente (creating-helpful-content.md: contenido sin valor anadido).)",
+        "av vendors near me (Variantes near me de paginas existentes (/blog/audio-visual-hire-near-me-in-malaga-spain/ y /blog/tv-screen-rental/). Doorway abuse en spam-policies.md: no se crean paginas nuevas.)",
+        "audio visual planning (Cubierto por /blog/audio-visual-rental-planning-timeline/ y /blog/av-equipment-consultations/.)",
+        "av troubleshooting tips (Cubierto por /blog/av-system-troubleshooting/, que ya tiene secciones de auto revision por pack y FAQs de microfono, proyector y feedback.)"
+      ]
+    },
+    {
+      "id": "#T0159",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "keywords",
+      "titulo": "Recuperar \"audio visual equipment hire\": cayo de 4 a 7",
+      "anotada": "2026-10-26",
+      "hecha": "2026-11-02",
+      "origen": "ubersuggest (rank-tracking, rank/audio-visual-equipment-hire)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest"
+      ],
+      "descripcion": [
+        "Base: mejor posicion de los ultimos 90 dias.",
+        "Reporte rank-tracking de ubersuggest del 2026-10-26."
+      ]
+    },
+    {
+      "id": "#T0160",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "keywords",
+      "titulo": "Recuperar \"hire av equipment\": dejo de rankear (era 14)",
+      "anotada": "2026-10-26",
+      "hecha": "2026-11-02",
+      "origen": "ubersuggest (rank-tracking, rank/hire-av-equipment)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest"
+      ],
+      "descripcion": [
+        "Base: mejor posicion de los ultimos 90 dias.",
+        "Reporte rank-tracking de ubersuggest del 2026-10-26."
+      ]
     },
     {
       "id": "#T0173",
