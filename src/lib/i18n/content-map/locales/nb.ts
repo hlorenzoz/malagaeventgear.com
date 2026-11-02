@@ -520,6 +520,16 @@ export default {
 			slug: 'leie-sceneplattform-malaga',
 			keyword: 'leie sceneplattform i Malaga',
 			status: 'propuesta'
+		},
+		'mice-events-in-malaga': {
+			slug: 'mice-arrangementer-malaga',
+			keyword: 'MICE-arrangementer i Malaga',
+			status: 'propuesta'
+		},
+		'how-to-organize-a-congress-in-malaga': {
+			slug: 'hvordan-du-arrangerer-en-kongress-i-malaga',
+			keyword: 'hvordan du arrangerer en kongress i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

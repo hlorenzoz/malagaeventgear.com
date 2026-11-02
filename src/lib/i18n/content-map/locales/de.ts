@@ -504,6 +504,16 @@ export default {
 			slug: 'buehnenpodest-mieten-malaga',
 			keyword: 'Bühnenpodest mieten in Malaga',
 			status: 'propuesta'
+		},
+		'mice-events-in-malaga': {
+			slug: 'mice-veranstaltungen-malaga',
+			keyword: 'MICE-Veranstaltungen in Malaga',
+			status: 'propuesta'
+		},
+		'how-to-organize-a-congress-in-malaga': {
+			slug: 'wie-man-einen-kongress-in-malaga-organisiert',
+			keyword: 'wie man einen Kongress in Malaga organisiert',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

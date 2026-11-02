@@ -504,6 +504,16 @@ export default {
 			slug: 'hyra-scenplattform-malaga',
 			keyword: 'hyra scenplattform i Malaga',
 			status: 'propuesta'
+		},
+		'mice-events-in-malaga': {
+			slug: 'mice-evenemang-malaga',
+			keyword: 'MICE-evenemang i Malaga',
+			status: 'propuesta'
+		},
+		'how-to-organize-a-congress-in-malaga': {
+			slug: 'hur-man-organiserar-en-kongress-i-malaga',
+			keyword: 'hur man organiserar en kongress i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

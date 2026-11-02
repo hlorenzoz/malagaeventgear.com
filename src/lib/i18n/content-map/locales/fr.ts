@@ -528,6 +528,16 @@ export default {
 			slug: 'location-estrade-malaga',
 			keyword: "location d'estrade à Malaga",
 			status: 'propuesta'
+		},
+		'mice-events-in-malaga': {
+			slug: 'evenements-mice-malaga',
+			keyword: 'événements MICE à Malaga',
+			status: 'propuesta'
+		},
+		'how-to-organize-a-congress-in-malaga': {
+			slug: 'comment-organiser-un-congres-a-malaga',
+			keyword: 'comment organiser un congrès à Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

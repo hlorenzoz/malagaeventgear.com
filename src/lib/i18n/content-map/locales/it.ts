@@ -524,6 +524,16 @@ export default {
 			slug: 'noleggio-pedane-da-palco-malaga',
 			keyword: 'noleggio pedane da palco a Malaga',
 			status: 'propuesta'
+		},
+		'mice-events-in-malaga': {
+			slug: 'eventi-mice-malaga',
+			keyword: 'eventi MICE a Malaga',
+			status: 'propuesta'
+		},
+		'how-to-organize-a-congress-in-malaga': {
+			slug: 'come-organizzare-un-congresso-a-malaga',
+			keyword: 'come organizzare un congresso a Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

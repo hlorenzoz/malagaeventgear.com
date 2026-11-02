@@ -345,6 +345,28 @@
       "answer": "A MICE sound system is a sound reinforcement setup sized to the conference room, with speakers, microphones and, on the larger pack, a technician to run them. The MICE Pack includes professional active speakers, one gooseneck and one wireless handheld microphone, and a technician who operates the sound and microphones for up to 6 hours, for up to 120 guests.\n\nThe Basic MICE Pack is the smaller version: a sound reinforcement system for up to 40 people and one gooseneck microphone, with a technician only as an optional add on. Match the pack to the room and the number of speakers, and tell us the layout so we confirm it covers your conference sessions."
     }
   ],
+  "mice-events-in-malaga": [
+    {
+      "question": "What does MICE stand for?",
+      "answer": "MICE stands for meetings, incentives, conferences and exhibitions. In practice it covers corporate meetings, company incentive trips, congresses and trade fairs. Our part is the audiovisual side of any of them: sound, a display or a projector, microphones and a technician."
+    },
+    {
+      "question": "Does Malaga Event Gear organize MICE events in Malaga?",
+      "answer": "No. We supply the audiovisual equipment and a technician. We are not a venue, a destination management company or an event agency, and we do not organize team building. Your organizer or agency handles the rest, and we work with them on the technical side. For group hotels we work with our partner Top Group Express."
+    },
+    {
+      "question": "Which package suits a corporate meeting or a congress?",
+      "answer": "The MICE Pack, at 490 euros ex VAT, is for up to 120 guests and includes a 60 inch LED display, a gooseneck and a wireless handheld microphone and a technician for up to 6 hours. The Basic MICE Pack, at 295 euros ex VAT, is for up to 40 guests. For a bigger room, tell us the layout and the program."
+    },
+    {
+      "question": "Can you provide simultaneous interpretation for a congress?",
+      "answer": "Not with our own equipment. We coordinate interpretation with a subcontracted partner, so we do not publish a model or a price. Tell us the languages, the number of listeners and the room, and we check with the partner. Some venues also have interpretation booths, so ask the venue as well."
+    },
+    {
+      "question": "Can you deliver to any venue in Malaga, Marbella or Torremolinos?",
+      "answer": "Yes, within our service area, which includes Malaga, the Costa del Sol and Sevilla, and Granada for bookings over 400 euros. We have worked at a hotel convention center in Torremolinos and at FYCMA. Check loading access and venue rules with the venue before the day, and contact us with the address."
+    }
+  ],
   "audio-visual-rental": [
     {
       "question": "What types of events does Malaga Event Gear cater to?",
@@ -531,6 +553,24 @@
     {
       "question": "What is the minimum notice period for a booking?",
       "answer": "24 hours, for any event gear rental or technical service. There is no shorter or longer version of this rule for larger or smaller events. See The One Hard Deadline above."
+    }
+  ],
+  "how-to-organize-a-congress-in-malaga": [
+    {
+      "question": "Where do I start to organize a congress in Malaga?",
+      "answer": "With the dates, the number of delegates and the program, because the venue, the hotels and the technical side all depend on them. Then choose the venue and book the hotels. The Malaga Convention Bureau lists technical advice for organizing congresses, venue and hotel availability and local logistics among the requests it answers. The audiovisual brief comes last, and we can help with it."
+    },
+    {
+      "question": "Do I need a destination management company?",
+      "answer": "It depends on how much of the logistics you want to hand over. A destination management company or an agency can handle transport, the social program and the group's logistics. We are not one: we supply the audiovisual equipment and a technician, and we work with whichever agency or organizer you use."
+    },
+    {
+      "question": "What audiovisual equipment does a congress room need?",
+      "answer": "At least a sound system, microphones for the speakers and for questions from the floor, and a display or a projector. Some congresses add a lectern or a stage platform. A technician runs the sound and the microphones, and a multilingual congress needs interpretation equipment, which we coordinate with a subcontracted partner. The MICE Pack covers a room of up to 120 guests."
+    },
+    {
+      "question": "How far in advance should I book the audiovisual side?",
+      "answer": "Our bookings need at least 24 hours of notice, but a congress should not wait for that. The venue and the hotels are booked against your dates, so send us the brief as soon as the venue and the program are fixed, and we tell you plainly what we can supply and what we would source. We do not promise availability until we have checked."
     }
   ],
   "latest-trends-in-wedding-rentals": [

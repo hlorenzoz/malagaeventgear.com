@@ -1103,6 +1103,88 @@
       "level": 2
     }
   ],
+  "mice-events-in-malaga": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "why-malaga-works-for-mice-events",
+      "text": "Why Malaga Works for MICE Events",
+      "level": 2
+    },
+    {
+      "id": "main-venues-for-meetings-and-congresses",
+      "text": "Main Venues for Meetings and Congresses",
+      "level": 2
+    },
+    {
+      "id": "what-the-venue-gives-you-and-what-you-bring",
+      "text": "What the Venue Gives You and What You Bring",
+      "level": 2
+    },
+    {
+      "id": "what-we-supply-at-a-mice-event",
+      "text": "What We Supply at a MICE Event",
+      "level": 2
+    },
+    {
+      "id": "what-we-source-with-partners",
+      "text": "What We Source With Partners",
+      "level": 2
+    },
+    {
+      "id": "real-mice-setups-weve-delivered",
+      "text": "Real MICE Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "where-we-deliver-and-how-to-book",
+      "text": "Where We Deliver and How to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "what-does-mice-stand-for",
+      "text": "What does MICE stand for?",
+      "level": 3
+    },
+    {
+      "id": "does-malaga-event-gear-organize-mice-events-in-malaga",
+      "text": "Does Malaga Event Gear organize MICE events in Malaga?",
+      "level": 3
+    },
+    {
+      "id": "which-package-suits-a-corporate-meeting-or-a-congress",
+      "text": "Which package suits a corporate meeting or a congress?",
+      "level": 3
+    },
+    {
+      "id": "can-you-provide-simultaneous-interpretation-for-a-congress",
+      "text": "Can you provide simultaneous interpretation for a congress?",
+      "level": 3
+    },
+    {
+      "id": "can-you-deliver-to-any-venue-in-malaga-marbella-or-torremolinos",
+      "text": "Can you deliver to any venue in Malaga, Marbella or Torremolinos?",
+      "level": 3
+    }
+  ],
   "news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos": [
     {
       "id": "elevating-the-global-progold-stage",
@@ -1758,6 +1840,88 @@
     {
       "id": "beyond-community-comprehensive-event-solutions",
       "text": "**Beyond Community: Comprehensive Event Solutions**",
+      "level": 3
+    }
+  ],
+  "how-to-organize-a-congress-in-malaga": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "start-with-dates-delegates-and-program",
+      "text": "Start With Dates, Delegates and Program",
+      "level": 2
+    },
+    {
+      "id": "choose-the-venue",
+      "text": "Choose the Venue",
+      "level": 2
+    },
+    {
+      "id": "book-accommodation-for-delegates",
+      "text": "Book Accommodation for Delegates",
+      "level": 2
+    },
+    {
+      "id": "write-the-audiovisual-brief",
+      "text": "Write the Audiovisual Brief",
+      "level": 2
+    },
+    {
+      "id": "what-to-check-with-the-venue",
+      "text": "What to Check With the Venue",
+      "level": 2
+    },
+    {
+      "id": "who-does-what-in-malaga",
+      "text": "Who Does What in Malaga",
+      "level": 2
+    },
+    {
+      "id": "real-congress-setups-weve-delivered",
+      "text": "Real Congress Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "where-we-deliver-and-how-to-book",
+      "text": "Where We Deliver and How to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "where-do-i-start-to-organize-a-congress-in-malaga",
+      "text": "Where do I start to organize a congress in Malaga?",
+      "level": 3
+    },
+    {
+      "id": "do-i-need-a-destination-management-company",
+      "text": "Do I need a destination management company?",
+      "level": 3
+    },
+    {
+      "id": "what-audiovisual-equipment-does-a-congress-room-need",
+      "text": "What audiovisual equipment does a congress room need?",
+      "level": 3
+    },
+    {
+      "id": "how-far-in-advance-should-i-book-the-audiovisual-side",
+      "text": "How far in advance should I book the audiovisual side?",
       "level": 3
     }
   ],

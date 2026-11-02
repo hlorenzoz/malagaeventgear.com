@@ -512,6 +512,16 @@ export default {
 			slug: 'leje-scenepodie-malaga',
 			keyword: 'leje scenepodie i Malaga',
 			status: 'propuesta'
+		},
+		'mice-events-in-malaga': {
+			slug: 'mice-arrangementer-malaga',
+			keyword: 'MICE-arrangementer i Malaga',
+			status: 'propuesta'
+		},
+		'how-to-organize-a-congress-in-malaga': {
+			slug: 'sadan-arrangerer-du-en-kongres-i-malaga',
+			keyword: 'sådan arrangerer du en kongres i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

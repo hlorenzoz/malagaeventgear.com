@@ -472,6 +472,16 @@ export default {
 			slug: '舞台平台租借',
 			keyword: '馬拉加 舞台平台租借',
 			status: 'propuesta'
+		},
+		'mice-events-in-malaga': {
+			slug: '會展活動',
+			keyword: '馬拉加 會展活動',
+			status: 'propuesta'
+		},
+		'how-to-organize-a-congress-in-malaga': {
+			slug: '如何在馬拉加籌辦一場大會',
+			keyword: '如何在馬拉加籌辦一場大會',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

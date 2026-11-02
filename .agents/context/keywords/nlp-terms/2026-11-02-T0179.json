@@ -1,0 +1,73 @@
+{
+	"date": "2026-11-02",
+	"taskId": "#T0179",
+	"slug": "mice-events-in-malaga",
+	"searchTerm": "mice events malaga",
+	"status": "partial",
+	"reason": "Google positions 1 to 3 are Spanish language PDFs and a guide, not read (target is English). Read positions 4 (eventoplus), 9 (neventum) and 13 (tourspain, covers Cordoba and Seville). Thin SERP for AV: only eventoplus names equipment.",
+	"serp": {
+		"query": "mice events malaga",
+		"localized": false,
+		"results": [
+			{
+				"rank": 1,
+				"url": "https://www.eventoplus.com/en/destinos/costa-del-sol/",
+				"title": "costa del sol"
+			},
+			{
+				"rank": 2,
+				"url": "https://www.neventum.com/tradeshows/mice/spain",
+				"title": "Mice Trade Shows in Spain"
+			},
+			{
+				"rank": 3,
+				"url": "https://www.tourspain.es/consejerias/roma/en/events-fairs/andalusiamice/",
+				"title": "Cordoba and Seville, June 22, 2026 - June 26, 2026"
+			}
+		]
+	},
+	"terms": [
+		{ "term": "MICE events", "kind": "entity", "seenIn": 3 },
+		{ "term": "incentive travel", "kind": "related", "seenIn": 3 },
+		{ "term": "event venues", "kind": "related", "seenIn": 3 },
+		{ "term": "hotels", "kind": "related", "seenIn": 3 },
+		{ "term": "meetings and conferences", "kind": "related", "seenIn": 2 },
+		{ "term": "congress and convention centres", "kind": "entity", "seenIn": 2 },
+		{ "term": "stand builders", "kind": "entity", "seenIn": 2 },
+		{ "term": "hostess staffing", "kind": "related", "seenIn": 2 },
+		{ "term": "team building", "kind": "entity", "seenIn": 1 },
+		{ "term": "corporate events", "kind": "entity", "seenIn": 1 },
+		{ "term": "audiovisual rental and production", "kind": "related", "seenIn": 1 },
+		{ "term": "DLP 16000 lumen projectors", "kind": "entity", "seenIn": 1 },
+		{ "term": "simultaneous translation equipment", "kind": "entity", "seenIn": 1 },
+		{ "term": "videoconferencing equipment", "kind": "entity", "seenIn": 1 },
+		{ "term": "light and sound", "kind": "entity", "seenIn": 1 },
+		{ "term": "video mapping", "kind": "entity", "seenIn": 1 },
+		{ "term": "digital signage", "kind": "entity", "seenIn": 1 },
+		{ "term": "interactive touch screen kiosks", "kind": "entity", "seenIn": 1 },
+		{ "term": "staging and platforms", "kind": "entity", "seenIn": 1 },
+		{ "term": "wifi for events", "kind": "related", "seenIn": 1 },
+		{ "term": "power generators", "kind": "entity", "seenIn": 1 },
+		{ "term": "event agencies", "kind": "related", "seenIn": 1 },
+		{ "term": "Which event spaces and venues are available?", "kind": "question", "seenIn": 1 },
+		{ "term": "What do I need for my event?", "kind": "question", "seenIn": 1 },
+		{ "term": "Where can I find trusted suppliers?", "kind": "question", "seenIn": 1 }
+	],
+	"discarded": [
+		{ "term": "Hilton Curio", "reason": "hotel brand, not audiovisual vocabulary" },
+		{ "term": "Melia", "reason": "hotel brand, not audiovisual vocabulary" },
+		{ "term": "Barcelo", "reason": "hotel brand, not audiovisual vocabulary" },
+		{ "term": "Grupo eventoplus", "reason": "publisher name, competing directory" },
+		{ "term": "neventum", "reason": "publisher name, competing directory" },
+		{ "term": "Turismo de Andalucia", "reason": "organisation name, not vocabulary" },
+		{ "term": "Spanish Tourist Office Rome", "reason": "organisation of another market" },
+		{ "term": "Turkish MICE travel agencies", "reason": "terms of another market" },
+		{ "term": "Ifema Feria de Madrid", "reason": "venue outside the Malaga area" },
+		{ "term": "Fitur 2027", "reason": "trade show name, not vocabulary" },
+		{ "term": "Heavent Meetings Espana 2026", "reason": "trade show name, not vocabulary" },
+		{ "term": "FootGolf event organisation", "reason": "off topic for audiovisual hire" },
+		{ "term": "cruise passenger terminals", "reason": "off topic for audiovisual hire" },
+		{ "term": "portable and chemical toilets", "reason": "off topic for audiovisual hire" },
+		{ "term": "Costa del Sol", "reason": "place used as a destination slogan" }
+	]
+}

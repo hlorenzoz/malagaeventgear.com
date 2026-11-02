@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-02",
+  "taskId": "#T0180",
+  "slug": "how-to-organize-a-congress-in-malaga",
+  "searchTerm": "how to organize a congress in malaga",
+  "status": "partial",
+  "reason": "Thin SERP, no how-to guide. Skipped Google positions 3 (same nuba.com story) and 4 (HTTP 403). Rank 3 page (fycma.com) gave only its title, so terms come mainly from 2 pages.",
+  "serp": {
+    "query": "how to organize a congress in malaga",
+    "localized": false,
+    "results": [
+      {
+        "rank": 1,
+        "url": "https://eurojuris.be/publications-media/eurojuris-magazine/article/sun-picasso-and-the-philosophy-of-time-a-joint-french-spanish-congress-ahead-850",
+        "title": "Eurojuris Magazine"
+      },
+      {
+        "rank": 2,
+        "url": "https://nuba.com/en/success-stories/international-congress-of-success-in-malaga/",
+        "title": "Congreso internacional Málaga"
+      },
+      {
+        "rank": 3,
+        "url": "https://fycma.com/?p=530885",
+        "title": "Loading Events"
+      }
+    ]
+  },
+  "terms": [
+    { "term": "congress", "kind": "related", "seenIn": 3 },
+    { "term": "congress program", "kind": "related", "seenIn": 2 },
+    { "term": "FYCMA", "kind": "entity", "seenIn": 1 },
+    { "term": "eCongress", "kind": "entity", "seenIn": 1 },
+    { "term": "joint congress", "kind": "entity", "seenIn": 1 },
+    { "term": "annual congress", "kind": "entity", "seenIn": 1 },
+    { "term": "scientific congress", "kind": "entity", "seenIn": 1 },
+    { "term": "general assembly", "kind": "entity", "seenIn": 1 },
+    { "term": "gala dinner", "kind": "entity", "seenIn": 1 },
+    { "term": "social event", "kind": "entity", "seenIn": 1 },
+    { "term": "practical workshop", "kind": "entity", "seenIn": 1 },
+    { "term": "international delegations", "kind": "related", "seenIn": 1 },
+    { "term": "congress venue", "kind": "related", "seenIn": 1 },
+    { "term": "walkable venue", "kind": "related", "seenIn": 1 },
+    { "term": "site selection trip", "kind": "related", "seenIn": 1 },
+    { "term": "hotel accommodation", "kind": "related", "seenIn": 1 },
+    { "term": "staggered hotel departures", "kind": "related", "seenIn": 1 },
+    { "term": "logistics coordination", "kind": "related", "seenIn": 1 },
+    { "term": "simultaneous group dinners", "kind": "related", "seenIn": 1 },
+    { "term": "event planning and organization", "kind": "related", "seenIn": 1 },
+    { "term": "attendee satisfaction", "kind": "related", "seenIn": 1 },
+    { "term": "What did the congress program include?", "kind": "question", "seenIn": 1 },
+    { "term": "How were the congress logistics organized?", "kind": "question", "seenIn": 1 },
+    { "term": "Where and when is the joint congress held?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "NUBA DMC Incoming", "reason": "competitor or agency name" },
+    { "term": "Finca Paloverde", "reason": "specific third party venue, not vocabulary" },
+    { "term": "LawNet Annual Conference 2026", "reason": "named third party event, off topic" },
+    { "term": "Eurojuris Magazine", "reason": "publication name, not vocabulary" },
+    { "term": "Dine Around format", "reason": "restaurant and DMC service format, not AV vocabulary" },
+    { "term": "incentive travel", "reason": "travel agency service, off topic" },
+    { "term": "Participant count 300 attendees", "reason": "figure from one event" },
+    { "term": "Museum visit", "reason": "tourism excursion, off topic" },
+    { "term": "Time management workshop", "reason": "topic of one legal congress, off topic" },
+    { "term": "cookie consent questions", "reason": "site boilerplate, not about the topic" }
+  ]
+}

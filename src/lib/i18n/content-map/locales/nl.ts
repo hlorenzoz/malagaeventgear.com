@@ -508,6 +508,16 @@ export default {
 			slug: 'podium-huren-malaga',
 			keyword: 'podium huren in Malaga',
 			status: 'propuesta'
+		},
+		'mice-events-in-malaga': {
+			slug: 'mice-evenementen-malaga',
+			keyword: 'MICE-evenementen in Malaga',
+			status: 'propuesta'
+		},
+		'how-to-organize-a-congress-in-malaga': {
+			slug: 'hoe-je-een-congres-in-malaga-organiseert',
+			keyword: 'hoe je een congres in Malaga organiseert',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

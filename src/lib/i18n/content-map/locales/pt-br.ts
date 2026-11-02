@@ -535,6 +535,16 @@ export default {
 			slug: 'aluguel-plataformas-de-palco-malaga',
 			keyword: 'aluguel de plataformas de palco em Málaga',
 			status: 'propuesta'
+		},
+		'mice-events-in-malaga': {
+			slug: 'eventos-mice-malaga',
+			keyword: 'eventos MICE em Málaga',
+			status: 'propuesta'
+		},
+		'how-to-organize-a-congress-in-malaga': {
+			slug: 'como-organizar-um-congresso-em-malaga',
+			keyword: 'como organizar um congresso em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
