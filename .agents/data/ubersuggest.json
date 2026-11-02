@@ -1,7 +1,96 @@
 {
 	"version": 1,
-	"updated": "2026-11-01",
+	"updated": "2026-11-02",
 	"reports": [
+		{
+			"date": "2026-11-02",
+			"kind": "rank-tracking",
+			"status": "ok",
+			"calls": [
+				{
+					"tool": "project_position_info",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "empty"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				}
+			],
+			"summary": [
+				"20 tracked keywords, Spain English desktop: up 12, down 4, unchanged 4.",
+				"Top 3: 1 -> 3, top 10: 1 -> 8, not ranking: 9 -> 5. Next update 2026-11-09."
+			],
+			"findings": [
+				{
+					"key": "rank/speaker-and-microphone-rental",
+					"title": "Recuperar \"speaker and microphone rental\": cayo de 1 a 9"
+				},
+				{
+					"key": "rank/sound-system-rental-for-events",
+					"title": "Recuperar \"sound system rental for events\": dejo de rankear (era 12)"
+				},
+				{
+					"key": "rank/av-hire",
+					"title": "Recuperar \"av hire\": cayo de 4 a 53"
+				},
+				{
+					"key": "rank/speaker-rental",
+					"title": "Recuperar \"speaker rental\": cayo de 6 a 52"
+				},
+				{
+					"key": "rank/audiovisual-rental",
+					"title": "Recuperar \"audiovisual rental\": cayo de 6 a 10"
+				},
+				{
+					"key": "rank/event-av-spain",
+					"title": "Recuperar \"event av spain\": dejo de rankear (era 7)"
+				},
+				{
+					"key": "rank/malaga-wedding-packages-all-inclusive",
+					"title": "Recuperar \"malaga wedding packages all inclusive\": dejo de rankear (era 28)"
+				},
+				{
+					"key": "rank/sound-equipment-rental",
+					"title": "Recuperar \"sound equipment rental\": cayo de 8 a 14"
+				},
+				{
+					"key": "rank/rent-tv-screen",
+					"title": "Recuperar \"rent tv screen\": cayo de 3 a 6"
+				}
+			],
+			"discovered": {
+				"keywords": 20,
+				"aiPrompts": 54
+			}
+		},
 		{
 			"date": "2026-11-01",
 			"kind": "competitor-keywords",
