@@ -76883,8 +76883,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/all-in-one-wedding-rental-packages/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -76897,6 +76897,10 @@
             "ctr": 0,
             "position": 44
           }
+        },
+        "blog": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02"
         },
         "pop": {
           "firstSeen": "2026-09-29",
@@ -98985,6 +98989,24 @@
           "lastSeen": "2026-11-02",
           "urls": [
             "/blog/av-system-troubleshooting/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-should-i-prepare-at-the-venue-for-the-equipment-delivery-on-my-wedding-day",
+      "question": "What should I prepare at the venue for the equipment delivery on my wedding day?",
+      "keywordId": "all-in-one-wedding-rental-packages",
+      "cluster": "wedding rentals",
+      "url": "/blog/all-in-one-wedding-rental-packages/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-02",
+          "lastSeen": "2026-11-02",
+          "urls": [
+            "/blog/all-in-one-wedding-rental-packages/"
           ]
         }
       }
