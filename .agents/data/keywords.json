@@ -17370,6 +17370,16 @@
             "ctr": 0,
             "position": 3
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -17690,6 +17700,16 @@
             "ctr": 0,
             "position": 54
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -17756,6 +17776,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 2
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
           }
         }
       },
@@ -17845,6 +17875,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 90
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
           }
         }
       },
@@ -19178,6 +19218,16 @@
             "ctr": 0,
             "position": 2
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -19421,6 +19471,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 80
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
           }
         }
       },
@@ -19697,6 +19757,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 40
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "add-section",
+            "targetUrl": "/blog/audio-visual-rental-for-music-performances/",
+            "priority": "medium"
           }
         }
       },
@@ -20060,6 +20130,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 7
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "add-section",
+            "targetUrl": "/blog/audio-visual-rental-for-music-performances/",
+            "priority": "medium"
           }
         }
       },
@@ -21508,6 +21588,34 @@
       "notes": ""
     },
     {
+      "id": "do-enterprise-rentals-have-cameras",
+      "keyword": "do enterprise rentals have cameras",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-11-03",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
       "id": "do-rental-cars-have-microphones",
       "keyword": "do rental cars have microphones",
       "locale": "en",
@@ -21520,12 +21628,12 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-10-02",
-          "lastSeen": "2026-10-04",
+          "lastSeen": "2026-11-03",
           "stats": {
-            "asOf": "2026-10-04",
+            "asOf": "2026-11-03",
             "action": "skip",
             "targetUrl": null,
-            "priority": "medium"
+            "priority": "low"
           }
         }
       },
@@ -21843,6 +21951,16 @@
             "ctr": 0,
             "position": 5
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -21871,6 +21989,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 6
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
           }
         }
       },
@@ -22054,6 +22182,16 @@
             "ctr": 0,
             "position": 1
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -22121,6 +22259,16 @@
             "ctr": 0,
             "position": 99
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -22149,6 +22297,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 7
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
           }
         }
       },
@@ -22354,6 +22512,16 @@
             "ctr": 0,
             "position": 77
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -22484,6 +22652,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 44
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
           }
         }
       },
@@ -24448,6 +24626,16 @@
             "ctr": 0,
             "position": 49
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -26112,6 +26300,16 @@
             "ctr": 0,
             "position": 63
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -26935,6 +27133,16 @@
             "ctr": 0,
             "position": 6
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -27139,6 +27347,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 75
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
           }
         }
       },
@@ -27372,6 +27590,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 39
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
           }
         }
       },
@@ -33436,6 +33664,34 @@
       "notes": ""
     },
     {
+      "id": "how-much-does-it-cost-to-install-a-sound-system",
+      "keyword": "how much does it cost to install a sound system",
+      "locale": "en",
+      "cluster": "audiovisual equipment rental service",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-11-03",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
       "id": "how-much-does-it-cost-to-rent-a-big-screen-tv",
       "keyword": "how much does it cost to rent a big screen tv",
       "locale": "en",
@@ -33521,6 +33777,118 @@
       "opportunity": null,
       "opportunityReason": null,
       "firstSeen": "2026-09-29",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "how-much-does-sound-system-rental-cost",
+      "keyword": "how much does sound system rental cost",
+      "locale": "en",
+      "cluster": "audiovisual equipment rental service",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-11-03",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "how-much-is-a-good-car-sound-system",
+      "keyword": "how much is a good car sound system",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-11-03",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "how-much-is-a-sound-system-rental-in-the-philippines",
+      "keyword": "how much is a sound system rental in the philippines",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-11-03",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "how-much-is-pa-system-rental",
+      "keyword": "how much is pa system rental",
+      "locale": "en",
+      "cluster": "audiovisual equipment rental service",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-11-03",
       "lastResearched": null,
       "notes": ""
     },
@@ -33798,6 +34166,34 @@
       "opportunity": "medium",
       "opportunityReason": "gsc: position 17.32 with 28 impressions",
       "firstSeen": "2026-09-29",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
+      "id": "how-to-start-an-audio-visual-company",
+      "keyword": "how to start an audio visual company",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-11-03",
+          "lastSeen": "2026-11-03",
+          "stats": {
+            "asOf": "2026-11-03",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-11-03",
       "lastResearched": null,
       "notes": ""
     },
@@ -83695,11 +84091,11 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-09-29",
-          "lastSeen": "2026-10-04",
+          "lastSeen": "2026-11-03",
           "stats": {
-            "asOf": "2026-10-04",
-            "action": "skip",
-            "targetUrl": null,
+            "asOf": "2026-11-03",
+            "action": "add-faq",
+            "targetUrl": "/blog/audiovisual-equipment-rental-service/",
             "priority": "medium"
           }
         }
@@ -84019,12 +84415,12 @@
       "sources": {
         "content-plan": {
           "firstSeen": "2026-09-29",
-          "lastSeen": "2026-10-04",
+          "lastSeen": "2026-11-03",
           "stats": {
-            "asOf": "2026-10-04",
+            "asOf": "2026-11-03",
             "action": "skip",
             "targetUrl": null,
-            "priority": "medium"
+            "priority": "low"
           }
         }
       },

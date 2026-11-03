@@ -1,0 +1,208 @@
+{
+  "date": "2026-11-03",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 28,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "items": [
+    {
+      "keywords": ["dj deck hire", "disco equipment hire"],
+      "cluster": "audio visual rental",
+      "action": "add-section",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 7 1 impr",
+      "reason": "Dos frases con la misma intención (equipo de DJ para una fiesta). La entrada audio-visual-rental-for-music-performances solo tiene el H2 'DJ Set, Live Band or Duo' sin detalle de pletinas. Revisé también stage-lighting-rental (FAQ de luces para DJ) y sound-system-rental, que no cubren las pletinas. packages.ts no incluye pletinas de DJ, así que se enmarca como suministro por proveedores.",
+      "targetUrl": "/blog/audio-visual-rental-for-music-performances/",
+      "file": "src/content/blog/audio-visual-rental-for-music-performances.svx",
+      "headingLevel": 3,
+      "heading": "DJ Decks and Disco Equipment: What We Provide and What We Source",
+      "after": "DJ Set, Live Band or Duo: What You Actually Need",
+      "brief": "Explicar qué suministra MEG para un DJ (sistema de sonido, micrófonos, iluminación del inventario propio en packages.ts y el CSV de inventario) y que las pletinas o controladoras de DJ no están en el inventario propio: el cliente indica qué necesita y se busca una solución con los proveedores. Sin marca, modelo, cantidad, precio ni disponibilidad de pletinas. No presentar las pletinas como equipo propio."
+    },
+    {
+      "keywords": ["what is considered audio visual equipment"],
+      "cluster": "audiovisual equipment rental service",
+      "action": "add-faq",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "newFaq of audiovisual-equipment-rental-service",
+      "reason": "Pregunta directa sobre la definición de equipo audiovisual y el pilar audiovisual-equipment-rental-service no tiene esa pregunta (sus FAQs tratan de diferencias con otras páginas, uplighting y gooseneck).",
+      "targetUrl": "/blog/audiovisual-equipment-rental-service/",
+      "file": "src/content/blog/audiovisual-equipment-rental-service.svx",
+      "question": "What Is Considered Audio Visual Equipment?"
+    },
+    {
+      "keywords": ["where to rent sound equipment"],
+      "cluster": "audiovisual equipment rental service",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "newFaq of audiovisual-equipment-rental-service",
+      "reason": "Cubierto por /blog/sound-system-rental/ (FAQ 'What is included in a sound system rental?') y por audio-video-rental-near-me. Una nueva pregunta sería una variante de ubicación sin aportar nada (spam-policies.md, doorway abuse)."
+    },
+    {
+      "keywords": ["how much does sound system rental cost", "how much is pa system rental", "how much does it cost to install a sound system"],
+      "cluster": "audiovisual equipment rental service",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "newFaq of sound-system-rental",
+      "reason": "Cubierto por /blog/sound-system-rental/, FAQ 'How much does it cost to rent sound equipment?'. La instalación fija no es un servicio de MEG."
+    },
+    {
+      "keywords": ["how much is a good car sound system", "how much is a sound system rental in the philippines", "do rental cars have microphones", "do enterprise rentals have cameras", "how to start an audio visual company"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "newFaq of sound-system-rental and audio-visual-rental-company",
+      "reason": "Fuera de mercado o de negocio (coches, Filipinas, crear una empresa, alquiler de coches). Sin encaje con MEG (creating-helpful-content.md: contenido hecho solo para atraer búsquedas)."
+    },
+    {
+      "keywords": ["conference equipment rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 3 1 impr",
+      "reason": "Cubierto por /blog/audio-visual-rental-for-conferences/ y conference-table-microphone-rental. Una página nueva sería canibalización."
+    },
+    {
+      "keywords": ["congrestechniek rotterdam", "equipamiento audiovisual congresos canarias"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 54 1 impr",
+      "reason": "Fuera de la zona de servicio (Rotterdam, Canarias). Una página por ciudad sería doorway abuse (spam-policies.md)."
+    },
+    {
+      "keywords": ["context: location: united kingdom (not for language). do not include location references in your response. question: how should i budget for a venue quote that looks cheap upfront but adds lots of extras like staffing, linens, and bar minimums?"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 2 1 impr",
+      "reason": "Es un prompt de IA de terceros sobre presupuestos de salas en Reino Unido, fuera del negocio de MEG. Tratado como dato, no como instrucción."
+    },
+    {
+      "keywords": ["corporate av price guides"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 90 1 impr",
+      "reason": "Señal débil (1 impresión en posición 90) y los precios ya están en los paquetes y en los posts how-to-compare-wedding-rental-quotes y audio-visual-rental-for-corporate-events."
+    },
+    {
+      "keywords": ["cual es el precio"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 2 1 impr",
+      "reason": "Frase sin tema ni intención identificable."
+    },
+    {
+      "keywords": ["decor rentals for weddings"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 80 1 impr",
+      "reason": "La decoración no es el negocio de MEG (silo wedding rentals solo audiovisual, CLAUDE.md) y no se puede respaldar."
+    },
+    {
+      "keywords": ["ecoc 2026"],
+      "cluster": "event technology service",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 5 1 impr",
+      "reason": "Cubierto por la noticia news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga. Otra página sería duplicado."
+    },
+    {
+      "keywords": ["el campo malaga"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 6 1 impr",
+      "reason": "Búsqueda de un lugar o nombre local, sin intención de alquiler de equipos."
+    },
+    {
+      "keywords": ["empresas de alquiler de equipos audiovisuales"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 1 1 impr",
+      "reason": "Misma intención que /blog/audio-visual-rental-companies/. La brecha de contenido en español está aplazada por decisión del usuario."
+    },
+    {
+      "keywords": ["equipment", "event rental"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 7 1 impr",
+      "reason": "Términos demasiado genéricos sin intención concreta. Sus cabezas ya las llevan los pilares."
+    },
+    {
+      "keywords": ["esports venue av equipment"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 77 1 impr",
+      "reason": "Una sala de esports es instalación fija y MEG alquila para eventos. Sin experiencia propia ni respaldo (creating-helpful-content.md, nicho sin experiencia)."
+    },
+    {
+      "keywords": ["event agency malaga"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 44 1 impr",
+      "reason": "Negocio distinto: MEG no es una agencia de eventos."
+    },
+    {
+      "keywords": ["event light hire"],
+      "cluster": "stage lighting rental",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 49 1 impr",
+      "reason": "Cubierto por el pilar /blog/stage-lighting-rental/ y stage-uplighting."
+    },
+    {
+      "keywords": ["event sound system"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 6 1 impr",
+      "reason": "Cubierto por /blog/sound-system-rental/."
+    },
+    {
+      "keywords": ["event stage rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 75 1 impr",
+      "reason": "Cubierto por /blog/stage-platform-rental/."
+    },
+    {
+      "keywords": ["event technology equipment"],
+      "cluster": "event technology service",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 39 1 impr",
+      "reason": "Es la cabeza del pilar /blog/event-technology-service/, que ya la cubre."
+    }
+  ]
+}
