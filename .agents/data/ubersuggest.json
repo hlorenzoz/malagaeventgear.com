@@ -1,7 +1,65 @@
 {
 	"version": 1,
-	"updated": "2026-11-02",
+	"updated": "2026-11-03",
 	"reports": [
+		{
+			"date": "2026-11-03",
+			"kind": "backlinks",
+			"status": "partial",
+			"reason": "backlink_opportunity returned no rows (done false, empty list, nextKey null)",
+			"calls": [
+				{
+					"tool": "backlinks_overview",
+					"outcome": "ok"
+				},
+				{
+					"tool": "backlink_opportunity",
+					"outcome": "empty"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "empty"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				},
+				{
+					"tool": "keyword_overview",
+					"outcome": "ok"
+				}
+			],
+			"summary": [
+				"backlinks_overview: domainAuthority 2, backlinks 165, refDomains 125, govEdu 0, follow 156, noFollow 9.",
+				"backlink_opportunity for avhirespain.com and sonidomalaga.com vs own domain: 0 rows.",
+				"Cost in reports: backlinks_overview and backlink_opportunity 0 (reports stayed at 0 of 3 after both)."
+			],
+			"findings": [],
+			"discovered": {
+				"keywords": 1,
+				"aiPrompts": 57
+			}
+		},
 		{
 			"date": "2026-11-02",
 			"kind": "rank-tracking",
