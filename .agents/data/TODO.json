@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "tasks": [
     {
       "id": "#T0085",
@@ -864,6 +864,44 @@
       ]
     },
     {
+      "id": "#T0181",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Nueva sección H3 en /blog/audio-visual-rental-for-music-performances/: \"DJ Decks and Disco Equipment: What We Provide and What We Source\"",
+      "anotada": "2026-11-03",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-11-03, ítem 1)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audio-visual-rental-for-music-performances.svx",
+        "Ubicación: dentro de \"DJ Set, Live Band or Duo: What You Actually Need\"",
+        "Keywords: dj deck hire, disco equipment hire (gsc pos 7 1 impr), sin volumen",
+        "Qué cubrir: Explicar qué suministra MEG para un DJ (sistema de sonido, micrófonos, iluminación del inventario propio en packages.ts y el CSV de inventario) y que las pletinas o controladoras de DJ no están en el inventario propio: el cliente indica qué necesita y se busca una solución con los proveedores. Sin marca, modelo, cantidad, precio ni disponibilidad de pletinas. No presentar las pletinas como equipo propio.",
+        "Por qué: Dos frases con la misma intención (equipo de DJ para una fiesta). La entrada audio-visual-rental-for-music-performances solo tiene el H2 'DJ Set, Live Band or Duo' sin detalle de pletinas. Revisé también stage-lighting-rental (FAQ de luces para DJ) y sound-system-rental, que no cubren las pletinas. packages.ts no incluye pletinas de DJ, así que se enmarca como suministro por proveedores.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0182",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/audiovisual-equipment-rental-service/: \"What Is Considered Audio Visual Equipment?\"",
+      "anotada": "2026-11-03",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-11-03, ítem 2)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audiovisual-equipment-rental-service.svx",
+        "Keywords: what is considered audio visual equipment (newFaq of audiovisual-equipment-rental-service), sin volumen",
+        "Por qué: Pregunta directa sobre la definición de equipo audiovisual y el pilar audiovisual-equipment-rental-service no tiene esa pregunta (sus FAQs tratan de diferencias con otras páginas, uplighting y gooseneck).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
       "id": "#T0175",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1582,6 +1620,39 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0183",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-11-03",
+      "anotada": "2026-11-03",
+      "hecha": "2026-11-03",
+      "origen": "content-strategist (plan 2026-11-03, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "where to rent sound equipment (Cubierto por /blog/sound-system-rental/ (FAQ 'What is included in a sound system rental?') y por audio-video-rental-near-me. Una nueva pregunta sería una variante de ubicación sin aportar nada (spam-policies.md, doorway abuse).)",
+        "how much does sound system rental cost (Cubierto por /blog/sound-system-rental/, FAQ 'How much does it cost to rent sound equipment?'. La instalación fija no es un servicio de MEG.)",
+        "how much is a good car sound system (Fuera de mercado o de negocio (coches, Filipinas, crear una empresa, alquiler de coches). Sin encaje con MEG (creating-helpful-content.md: contenido hecho solo para atraer búsquedas).)",
+        "conference equipment rental (Cubierto por /blog/audio-visual-rental-for-conferences/ y conference-table-microphone-rental. Una página nueva sería canibalización.)",
+        "congrestechniek rotterdam (Fuera de la zona de servicio (Rotterdam, Canarias). Una página por ciudad sería doorway abuse (spam-policies.md).)",
+        "context: location: united kingdom (not for language). do not include location references in your response. question: how should i budget for a venue quote that looks cheap upfront but adds lots of extras like staffing, linens, and bar minimums? (Es un prompt de IA de terceros sobre presupuestos de salas en Reino Unido, fuera del negocio de MEG. Tratado como dato, no como instrucción.)",
+        "corporate av price guides (Señal débil (1 impresión en posición 90) y los precios ya están en los paquetes y en los posts how-to-compare-wedding-rental-quotes y audio-visual-rental-for-corporate-events.)",
+        "cual es el precio (Frase sin tema ni intención identificable.)",
+        "decor rentals for weddings (La decoración no es el negocio de MEG (silo wedding rentals solo audiovisual, CLAUDE.md) y no se puede respaldar.)",
+        "ecoc 2026 (Cubierto por la noticia news-malaga-event-gear-supplies-display-screens-for-exhibitor-stands-at-ecoc-2026-in-malaga. Otra página sería duplicado.)",
+        "el campo malaga (Búsqueda de un lugar o nombre local, sin intención de alquiler de equipos.)",
+        "empresas de alquiler de equipos audiovisuales (Misma intención que /blog/audio-visual-rental-companies/. La brecha de contenido en español está aplazada por decisión del usuario.)",
+        "equipment (Términos demasiado genéricos sin intención concreta. Sus cabezas ya las llevan los pilares.)",
+        "esports venue av equipment (Una sala de esports es instalación fija y MEG alquila para eventos. Sin experiencia propia ni respaldo (creating-helpful-content.md, nicho sin experiencia).)",
+        "event agency malaga (Negocio distinto: MEG no es una agencia de eventos.)",
+        "event light hire (Cubierto por el pilar /blog/stage-lighting-rental/ y stage-uplighting.)",
+        "event sound system (Cubierto por /blog/sound-system-rental/.)",
+        "event stage rental (Cubierto por /blog/stage-platform-rental/.)",
+        "event technology equipment (Es la cabeza del pilar /blog/event-technology-service/, que ya la cubre.)"
+      ]
     },
     {
       "id": "#T0174",
