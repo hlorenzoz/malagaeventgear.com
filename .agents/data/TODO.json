@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "tasks": [
     {
       "id": "#T0085",
@@ -1620,6 +1620,28 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0184",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-11-04",
+      "anotada": "2026-11-04",
+      "hecha": "2026-11-04",
+      "origen": "content-strategist (plan 2026-11-04, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "events rentals (Frases genericas sin intencion distinta de las paginas existentes (pilar audio visual rental y audio-visual-rental-for-music-performances). Una impresion no es demanda, y escribir por ella seria contenido pensado para buscadores (creating-helpful-content.md).)",
+        "hire audiovisual equipment in barcelona (Fuera de mercado: MEG presta servicio desde Malaga. Una pagina para otra ciudad seria doorway abuse (spam-policies.md).)",
+        "hire led lights (Misma intencion, ya cubierta por el pilar /blog/stage-lighting-rental/ (H2 'The Full Stage Lighting Roster', FAQ 'Can I rent lights for a DJ set or a party?') y por /blog/stage-uplighting/. Una pagina nueva seria canibalizacion.)",
+        "hire stage (Cubierta por /blog/stage-platform-rental/ (H2 'Our Modular Stage Platforms', 'How to Choose a Stage Platform Rental'). Otro encabezado solo repetiria lo existente.)",
+        "hotel wedding package (Paquete de boda de hotel es otro negocio (alojamiento y catering). MEG solo ofrece el AV, ya explicado en /blog/all-in-one-wedding-rental-packages/.)",
+        "how much does it cost to rent a big screen tv (El precio ya esta cubierto en /blog/tv-screen-rental/ (H2 'TV Screen Rental Pricing and What's Included', FAQ 'How much does a TV screen rental cost?'). La variante near me es doorway abuse (spam-policies.md).)",
+        "led light rental near me (Variantes near me de paginas existentes. La demanda local ya va a /blog/audio-visual-hire-near-me-in-malaga-spain/ y a las secciones Booking and Service Area. No se crea otra pagina (Doorway abuse, spam-policies.md).)",
+        "malaga event gear (Busqueda de marca propia, competidor extranjero y un negocio de otra zona. Ninguna pide contenido nuevo.)"
+      ]
     },
     {
       "id": "#T0183",
