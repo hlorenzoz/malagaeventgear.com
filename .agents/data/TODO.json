@@ -1391,27 +1391,6 @@
       ]
     },
     {
-      "id": "#T0182",
-      "estado": "bloqueada",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/audiovisual-equipment-rental-service/: \"What Is Considered Audio Visual Equipment?\"",
-      "anotada": "2026-11-03",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-11-03, ítem 2)",
-      "notas": [
-        "bloqueada por todo-implementer 2026-11-04: post-translate-finish passed checks",
-        "tests and build but its Bash call went to the background during the commit step; English edit and 12 translations are staged and uncommitted"
-      ],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/audiovisual-equipment-rental-service.svx",
-        "Keywords: what is considered audio visual equipment (newFaq of audiovisual-equipment-rental-service), sin volumen",
-        "Por qué: Pregunta directa sobre la definición de equipo audiovisual y el pilar audiovisual-equipment-rental-service no tiene esa pregunta (sus FAQs tratan de diferencias con otras páginas, uplighting y gooseneck).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0152",
       "estado": "bloqueada",
       "prioridad": "media",
@@ -1645,6 +1624,29 @@
         "Keywords: dj deck hire, disco equipment hire (gsc pos 7 1 impr), sin volumen",
         "Qué cubrir: Explicar qué suministra MEG para un DJ (sistema de sonido, micrófonos, iluminación del inventario propio en packages.ts y el CSV de inventario) y que las pletinas o controladoras de DJ no están en el inventario propio: el cliente indica qué necesita y se busca una solución con los proveedores. Sin marca, modelo, cantidad, precio ni disponibilidad de pletinas. No presentar las pletinas como equipo propio.",
         "Por qué: Dos frases con la misma intención (equipo de DJ para una fiesta). La entrada audio-visual-rental-for-music-performances solo tiene el H2 'DJ Set, Live Band or Duo' sin detalle de pletinas. Revisé también stage-lighting-rental (FAQ de luces para DJ) y sound-system-rental, que no cubren las pletinas. packages.ts no incluye pletinas de DJ, así que se enmarca como suministro por proveedores.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0182",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/audiovisual-equipment-rental-service/: \"What Is Considered Audio Visual Equipment?\"",
+      "anotada": "2026-11-03",
+      "hecha": "2026-11-04",
+      "origen": "content-strategist (plan 2026-11-03, ítem 2)",
+      "notas": [
+        "bloqueada por todo-implementer 2026-11-04: post-translate-finish passed checks",
+        "tests and build but its Bash call went to the background during the commit step; English edit and 12 translations are staged and uncommitted",
+        "implementada por todo-implementer 2026-11-04 (commit 4e390eda",
+        "tras desbloqueo manual: el commit del finish llego tarde)"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audiovisual-equipment-rental-service.svx",
+        "Keywords: what is considered audio visual equipment (newFaq of audiovisual-equipment-rental-service), sin volumen",
+        "Por qué: Pregunta directa sobre la definición de equipo audiovisual y el pilar audiovisual-equipment-rental-service no tiene esa pregunta (sus FAQs tratan de diferencias con otras páginas, uplighting y gooseneck).",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
