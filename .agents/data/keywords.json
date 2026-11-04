@@ -19744,8 +19744,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audio-visual-rental-for-music-performances/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -19758,6 +19758,10 @@
             "ctr": 0,
             "position": 40
           }
+        },
+        "blog": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04"
         },
         "content-plan": {
           "firstSeen": "2026-11-03",
@@ -20117,8 +20121,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audio-visual-rental-for-music-performances/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -20131,6 +20135,10 @@
             "ctr": 0,
             "position": 7
           }
+        },
+        "blog": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04"
         },
         "content-plan": {
           "firstSeen": "2026-11-03",
