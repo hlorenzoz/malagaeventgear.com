@@ -28610,6 +28610,16 @@
             "ctr": 0,
             "position": 70
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04",
+          "stats": {
+            "asOf": "2026-11-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -29309,6 +29319,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 34
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04",
+          "stats": {
+            "asOf": "2026-11-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -30981,6 +31001,16 @@
             "ctr": 0,
             "position": 43
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04",
+          "stats": {
+            "asOf": "2026-11-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -31502,6 +31532,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 2
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04",
+          "stats": {
+            "asOf": "2026-11-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -32869,6 +32909,16 @@
             "ctr": 0,
             "position": 2
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04",
+          "stats": {
+            "asOf": "2026-11-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -32897,6 +32947,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 7
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04",
+          "stats": {
+            "asOf": "2026-11-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -33484,6 +33544,16 @@
             "ctr": 0,
             "position": 65
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04",
+          "stats": {
+            "asOf": "2026-11-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -33711,6 +33781,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 1
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04",
+          "stats": {
+            "asOf": "2026-11-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -37274,6 +37354,16 @@
             "ctr": 0,
             "position": 1
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04",
+          "stats": {
+            "asOf": "2026-11-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -37933,6 +38023,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 54
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04",
+          "stats": {
+            "asOf": "2026-11-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
           }
         }
       },
@@ -39429,6 +39529,16 @@
             "ctr": 0,
             "position": 1
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04",
+          "stats": {
+            "asOf": "2026-11-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -40283,6 +40393,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 57
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04",
+          "stats": {
+            "asOf": "2026-11-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -41591,6 +41711,16 @@
             "ctr": 0,
             "position": 2
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04",
+          "stats": {
+            "asOf": "2026-11-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -42160,6 +42290,16 @@
             "ctr": 0,
             "position": 82
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04",
+          "stats": {
+            "asOf": "2026-11-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -42296,6 +42436,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 40
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04",
+          "stats": {
+            "asOf": "2026-11-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
           }
         }
       },
@@ -44064,6 +44214,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 88
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04",
+          "stats": {
+            "asOf": "2026-11-04",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
           }
         }
       },

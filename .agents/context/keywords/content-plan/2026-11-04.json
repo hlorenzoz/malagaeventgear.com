@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-04",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 16,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" },
+    "reason": "Todos los candidatos de hoy son frases de Search Console con 1 impresion y sin volumen medido. Ninguno justifica contenido nuevo."
+  },
+  "items": [
+    {
+      "keywords": ["events rentals", "festival equipment rental"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 70 1 impr",
+      "reason": "Frases genericas sin intencion distinta de las paginas existentes (pilar audio visual rental y audio-visual-rental-for-music-performances). Una impresion no es demanda, y escribir por ella seria contenido pensado para buscadores (creating-helpful-content.md)."
+    },
+    {
+      "keywords": ["hire audiovisual equipment in barcelona"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 43 1 impr",
+      "reason": "Fuera de mercado: MEG presta servicio desde Malaga. Una pagina para otra ciudad seria doorway abuse (spam-policies.md)."
+    },
+    {
+      "keywords": ["hire led lights", "light for hire", "lighting rentals"],
+      "cluster": "stage lighting rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 2 1 impr",
+      "reason": "Misma intencion, ya cubierta por el pilar /blog/stage-lighting-rental/ (H2 'The Full Stage Lighting Roster', FAQ 'Can I rent lights for a DJ set or a party?') y por /blog/stage-uplighting/. Una pagina nueva seria canibalizacion."
+    },
+    {
+      "keywords": ["hire stage", "hire staging"],
+      "cluster": "audiovisual equipment rental service",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 2 1 impr",
+      "reason": "Cubierta por /blog/stage-platform-rental/ (H2 'Our Modular Stage Platforms', 'How to Choose a Stage Platform Rental'). Otro encabezado solo repetiria lo existente."
+    },
+    {
+      "keywords": ["hotel wedding package"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 65 1 impr",
+      "reason": "Paquete de boda de hotel es otro negocio (alojamiento y catering). MEG solo ofrece el AV, ya explicado en /blog/all-in-one-wedding-rental-packages/."
+    },
+    {
+      "keywords": ["how much does it cost to rent a big screen tv", "large screen hire near me"],
+      "cluster": "audiovisual equipment rental service",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 1 1 impr",
+      "reason": "El precio ya esta cubierto en /blog/tv-screen-rental/ (H2 'TV Screen Rental Pricing and What's Included', FAQ 'How much does a TV screen rental cost?'). La variante near me es doorway abuse (spam-policies.md)."
+    },
+    {
+      "keywords": ["led light rental near me", "mic and speaker for rent near me"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 54 1 impr",
+      "reason": "Variantes near me de paginas existentes. La demanda local ya va a /blog/audio-visual-hire-near-me-in-malaga-spain/ y a las secciones Booking and Service Area. No se crea otra pagina (Doorway abuse, spam-policies.md)."
+    },
+    {
+      "keywords": ["malaga event gear", "megahertz audio visual productions & rental", "moraga booth rental"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 2 1 impr",
+      "reason": "Busqueda de marca propia, competidor extranjero y un negocio de otra zona. Ninguna pide contenido nuevo."
+    }
+  ],
+  "todo": []
+}
