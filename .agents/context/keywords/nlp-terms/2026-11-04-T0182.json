@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-04",
+  "taskId": "#T0182",
+  "slug": "audiovisual-equipment-rental-service",
+  "searchTerm": "audiovisual equipment rental service What Is Considered Audio Visual Equipment?",
+  "status": "partial",
+  "reason": "Google position 3 (missionlinen) gave HTTP 403 and was skipped; position 4 is a low quality forum, so position 6 (nearity.co) was read. SERP is mostly conferencing vendors, only partly close to event hire.",
+  "serp": {
+    "query": "what is considered audio visual equipment",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://sourceit.com.sg/pages/what-are-the-types-of-audiovisual-av-equipment", "title": "what are the types of audiovisual av equipment" },
+      { "rank": 2, "url": "https://lawinsider.com/dictionary/audio-visual-equipment", "title": "Audio Visual Equipment definition" },
+      { "rank": 3, "url": "https://www.nearity.co/blog/quality-audio-visual-equipment-is-key-to-flawless-video-calls", "title": "What is Audio Visual Equipment?" }
+    ]
+  },
+  "terms": [
+    { "term": "speakers", "kind": "entity", "seenIn": 3 },
+    { "term": "video conferencing", "kind": "related", "seenIn": 3 },
+    { "term": "microphones", "kind": "entity", "seenIn": 2 },
+    { "term": "conference cameras", "kind": "entity", "seenIn": 2 },
+    { "term": "displays and monitors", "kind": "entity", "seenIn": 2 },
+    { "term": "presentation software", "kind": "related", "seenIn": 2 },
+    { "term": "remote controls", "kind": "entity", "seenIn": 2 },
+    { "term": "virtual meetings", "kind": "related", "seenIn": 2 },
+    { "term": "business presentations", "kind": "related", "seenIn": 2 },
+    { "term": "What is audio visual equipment?", "kind": "question", "seenIn": 2 },
+    { "term": "projection systems", "kind": "entity", "seenIn": 1 },
+    { "term": "LCD projector", "kind": "entity", "seenIn": 1 },
+    { "term": "motorized screens", "kind": "entity", "seenIn": 1 },
+    { "term": "public address system", "kind": "entity", "seenIn": 1 },
+    { "term": "lighting systems", "kind": "entity", "seenIn": 1 },
+    { "term": "LED lights and spotlights", "kind": "entity", "seenIn": 1 },
+    { "term": "staging equipment", "kind": "entity", "seenIn": 1 },
+    { "term": "risers and stages", "kind": "entity", "seenIn": 1 },
+    { "term": "amplifiers", "kind": "entity", "seenIn": 1 },
+    { "term": "control systems", "kind": "entity", "seenIn": 1 },
+    { "term": "digital signage", "kind": "entity", "seenIn": 1 },
+    { "term": "audio systems", "kind": "related", "seenIn": 1 },
+    { "term": "meeting rooms", "kind": "related", "seenIn": 1 },
+    { "term": "What are the types of AV equipment?", "kind": "question", "seenIn": 1 },
+    { "term": "How do you choose the right AV equipment?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Yealink Jabra Logitech Poly MAXHUB", "reason": "conferencing vendor brands, not event hire" },
+    { "term": "NEARITY C30R", "reason": "vendor product marketing" },
+    { "term": "Title I funds", "reason": "US public funding term" },
+    { "term": "Interlocal Purchasing System", "reason": "US public procurement term" },
+    { "term": "Lease Agreement and Security Deposit", "reason": "legal contract terms of another market" },
+    { "term": "Volume discounts", "reason": "price and sales wording" },
+    { "term": "Refurbished or DOA warranty", "reason": "retail sales wording" },
+    { "term": "SourceIT", "reason": "competitor and vendor name" }
+  ]
+}

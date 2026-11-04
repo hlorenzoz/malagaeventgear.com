@@ -7,6 +7,11 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): audiovisual-equipment-rental-service, FAQ What Is Considered Audio Visual Equipment? (#T0182) (2026-11-04)
+- Origen: plan de contenido 2026-11-04, item "what is considered audio visual equipment" (newFaq del pilar).
+- Anadida al final de `## FAQs`: definicion en cuatro grupos (audio, pantalla y proyeccion, iluminacion, escenario) con lo que MEG tiene en inventario propio (packages.ts y CSV 2026.09.26). Video wall y camaras de conferencia fuera del inventario propio, con la redaccion de proveedores sin promesa. El post no tiene Table of Contents inline, asi que no se anadio bullet.
+- `updatedDate` a 2026-11-04. Las 12 traducciones siguen en el mismo cambio.
+
 ### Changed (blog): audio-visual-rental-for-music-performances, seccion H3 DJ Decks and Disco Equipment (#T0181) (2026-11-04)
 - Origen: plan de contenido 2026-11-04, item "dj deck hire, disco equipment hire" (GSC pos 7, 1 impresion).
 - Anadido `### DJ Decks and Disco Equipment: What We Provide and What We Source` al final del H2 "DJ Set, Live Band or Duo: What You Actually Need". Sonido, microfono, barras LED RGBW y humo como add on del inventario propio. Pletinas y controladoras fuera del inventario propio, con la redaccion de proveedores sin promesa de disponibilidad.
