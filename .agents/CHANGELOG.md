@@ -7,6 +7,11 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): audio-visual-rental-for-music-performances, seccion H3 DJ Decks and Disco Equipment (#T0181) (2026-11-04)
+- Origen: plan de contenido 2026-11-04, item "dj deck hire, disco equipment hire" (GSC pos 7, 1 impresion).
+- Anadido `### DJ Decks and Disco Equipment: What We Provide and What We Source` al final del H2 "DJ Set, Live Band or Duo: What You Actually Need". Sonido, microfono, barras LED RGBW y humo como add on del inventario propio. Pletinas y controladoras fuera del inventario propio, con la redaccion de proveedores sin promesa de disponibilidad.
+- `updatedDate` a 2026-11-04. Las 12 traducciones siguen en el mismo cambio. El post no tiene Table of Contents inline, asi que no se anadio bullet.
+
 ### Added (blog): mice-events-in-malaga y how-to-organize-a-congress-in-malaga, lote 1 posts 4 y 5 del silo event-technology-service (#T0179, #T0180) (2026-11-02)
 - Origen: `.agents/context/keywords/corporate-cluster-plan-2026-10-13.md`, lote 1. #T0030 queda cerrada por decision del usuario (2026-11-02): el slug y la keyword de `event-technology-service` NO cambian, sin redirects.
 - `mice-events-in-malaga` (demanda medida de `mice events malaga`, 214 impresiones. El `keyword` del frontmatter es `mice events in malaga`, el slug sin guiones, porque `mice events malaga` ya estaba `covered` por el pilar y ese estado no retrocede, y el test de `keywords.json` exige `published` en la URL propia): destino MICE para quien organiza un evento y contrata AV. Cifras con fuente oficial abierta al escribir y comprobada: Malaga Convention Bureau (memoria 2024: 2.190 reuniones, 323.100 asistentes, mas del 80% convenciones corporativas y jornadas, congresos 9,3%, incentivos 8,2%, congreso medio de mas de 300 delegados, 69,7% de fuera de la provincia), AENA (26.760.549 pasajeros en 2025), AEMET (normales 1981 a 2010 de Malaga Aeropuerto: 2.905 horas de sol, 12,1 y 25,5 grados), FYCMA (2 pabellones con 19.500 m2, auditorios de 900 y 600), Palacio de Congresos de Torremolinos (Sala Torremolinos 817 personas) y Palacio de Congresos de Marbella (auditorio de 1.520 plazas). Sin "276 rutas" ni tiempo del AVE: no se pudieron confirmar en una pagina oficial abierta.

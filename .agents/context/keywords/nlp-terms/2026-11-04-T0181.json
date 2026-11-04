@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-04",
+  "taskId": "#T0181",
+  "slug": "audio-visual-rental-for-music-performances",
+  "searchTerm": "audio visual rental for music performances DJ Decks and Disco Equipment: What We Provide and What We Source",
+  "status": "partial",
+  "reason": "Thin SERP of UK supplier listings. Skipped Google position 2 (same supplier as 1) and 3 (fetch refused). Read positions 1, 4 and 5, all on one directory.",
+  "serp": {
+    "query": "DJ deck hire disco equipment",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://www.addtoevent.co.uk/go-dj", "title": "go dj" },
+      { "rank": 2, "url": "https://www.addtoevent.co.uk/suppliers/diy-disco", "title": "diy disco" },
+      { "rank": 3, "url": "https://www.addtoevent.co.uk/suppliers/ellays-disco", "title": "ellays disco" }
+    ]
+  },
+  "terms": [
+    { "term": "disco lights", "kind": "entity", "seenIn": 2 },
+    { "term": "mobile discos", "kind": "entity", "seenIn": 2 },
+    { "term": "mobile disco equipment hire", "kind": "related", "seenIn": 2 },
+    { "term": "PA hire", "kind": "related", "seenIn": 2 },
+    { "term": "audio visual equipment", "kind": "related", "seenIn": 2 },
+    { "term": "laser lighting", "kind": "entity", "seenIn": 2 },
+    { "term": "speaker systems", "kind": "entity", "seenIn": 2 },
+    { "term": "weddings", "kind": "entity", "seenIn": 3 },
+    { "term": "corporate events", "kind": "entity", "seenIn": 3 },
+    { "term": "parties", "kind": "entity", "seenIn": 3 },
+    { "term": "DJ decks", "kind": "entity", "seenIn": 1 },
+    { "term": "Pioneer DJ decks", "kind": "entity", "seenIn": 1 },
+    { "term": "DJ mixers", "kind": "entity", "seenIn": 1 },
+    { "term": "wireless microphones", "kind": "entity", "seenIn": 1 },
+    { "term": "Shure microphones", "kind": "entity", "seenIn": 1 },
+    { "term": "Sennheiser microphones", "kind": "entity", "seenIn": 1 },
+    { "term": "active speakers", "kind": "entity", "seenIn": 1 },
+    { "term": "subwoofers", "kind": "entity", "seenIn": 1 },
+    { "term": "moving head lights", "kind": "entity", "seenIn": 1 },
+    { "term": "strobes", "kind": "entity", "seenIn": 1 },
+    { "term": "mirror balls", "kind": "entity", "seenIn": 1 },
+    { "term": "DMX light shows", "kind": "related", "seenIn": 1 },
+    { "term": "Mackie sound systems", "kind": "entity", "seenIn": 1 },
+    { "term": "equipment delivery and set up", "kind": "related", "seenIn": 1 },
+    { "term": "karaoke hire", "kind": "entity", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Go-DJ", "reason": "competitor name" },
+    { "term": "DIY Disco", "reason": "competitor name" },
+    { "term": "Ellays Disco", "reason": "competitor name" },
+    { "term": "Disco Lights Merseyside", "reason": "place outside Spain" },
+    { "term": "Public liability insurance", "reason": "contract term of another market" },
+    { "term": "PAT-tested disco equipment", "reason": "UK safety standard, another market" },
+    { "term": "Motown and club classics", "reason": "music genres of a DJ service, not equipment" },
+    { "term": "Tannoy announcements", "reason": "UK brand used as generic term" },
+    { "term": "What services does the company provide?", "reason": "directory boilerplate heading" },
+    { "term": "How do I request a quote?", "reason": "directory boilerplate heading" },
+    { "term": "How do I become a supplier?", "reason": "directory boilerplate heading" }
+  ]
+}
