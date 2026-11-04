@@ -84253,10 +84253,14 @@
       "cluster": "audio visual rental",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audiovisual-equipment-rental-service/",
+      "status": "covered",
       "reason": null,
       "sources": {
+        "blog": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04"
+        },
         "content-plan": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-03",
@@ -98515,9 +98519,9 @@
       "id": "what-is-considered-audio-visual-equipment",
       "question": "what is considered audio visual equipment",
       "keywordId": "audiovisual-equipment-rental-service",
-      "cluster": "unassigned",
-      "url": null,
-      "status": "idea",
+      "cluster": "audiovisual equipment rental service",
+      "url": "/blog/audiovisual-equipment-rental-service/",
+      "status": "answered",
       "reason": null,
       "sources": {
         "google-autocomplete": {
@@ -98525,6 +98529,13 @@
           "lastSeen": "2026-09-29",
           "seeds": [
             "audiovisual-equipment-rental-service"
+          ]
+        },
+        "post": {
+          "firstSeen": "2026-11-04",
+          "lastSeen": "2026-11-04",
+          "urls": [
+            "/blog/audiovisual-equipment-rental-service/"
           ]
         }
       }
