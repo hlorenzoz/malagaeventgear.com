@@ -864,24 +864,6 @@
       ]
     },
     {
-      "id": "#T0182",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/audiovisual-equipment-rental-service/: \"What Is Considered Audio Visual Equipment?\"",
-      "anotada": "2026-11-03",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-11-03, ítem 2)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/audiovisual-equipment-rental-service.svx",
-        "Keywords: what is considered audio visual equipment (newFaq of audiovisual-equipment-rental-service), sin volumen",
-        "Por qué: Pregunta directa sobre la definición de equipo audiovisual y el pilar audiovisual-equipment-rental-service no tiene esa pregunta (sus FAQs tratan de diferencias con otras páginas, uplighting y gooseneck).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0175",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1406,6 +1388,27 @@
       ],
       "descripcion": [
         "Añade soporte para OpenGraph según corresponda."
+      ]
+    },
+    {
+      "id": "#T0182",
+      "estado": "bloqueada",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/audiovisual-equipment-rental-service/: \"What Is Considered Audio Visual Equipment?\"",
+      "anotada": "2026-11-03",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-11-03, ítem 2)",
+      "notas": [
+        "bloqueada por todo-implementer 2026-11-04: post-translate-finish passed checks",
+        "tests and build but its Bash call went to the background during the commit step; English edit and 12 translations are staged and uncommitted"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audiovisual-equipment-rental-service.svx",
+        "Keywords: what is considered audio visual equipment (newFaq of audiovisual-equipment-rental-service), sin volumen",
+        "Por qué: Pregunta directa sobre la definición de equipo audiovisual y el pilar audiovisual-equipment-rental-service no tiene esa pregunta (sus FAQs tratan de diferencias con otras páginas, uplighting y gooseneck).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
