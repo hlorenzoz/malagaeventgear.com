@@ -864,26 +864,6 @@
       ]
     },
     {
-      "id": "#T0181",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Nueva sección H3 en /blog/audio-visual-rental-for-music-performances/: \"DJ Decks and Disco Equipment: What We Provide and What We Source\"",
-      "anotada": "2026-11-03",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-11-03, ítem 1)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/audio-visual-rental-for-music-performances.svx",
-        "Ubicación: dentro de \"DJ Set, Live Band or Duo: What You Actually Need\"",
-        "Keywords: dj deck hire, disco equipment hire (gsc pos 7 1 impr), sin volumen",
-        "Qué cubrir: Explicar qué suministra MEG para un DJ (sistema de sonido, micrófonos, iluminación del inventario propio en packages.ts y el CSV de inventario) y que las pletinas o controladoras de DJ no están en el inventario propio: el cliente indica qué necesita y se busca una solución con los proveedores. Sin marca, modelo, cantidad, precio ni disponibilidad de pletinas. No presentar las pletinas como equipo propio.",
-        "Por qué: Dos frases con la misma intención (equipo de DJ para una fiesta). La entrada audio-visual-rental-for-music-performances solo tiene el H2 'DJ Set, Live Band or Duo' sin detalle de pletinas. Revisé también stage-lighting-rental (FAQ de luces para DJ) y sound-system-rental, que no cubren las pletinas. packages.ts no incluye pletinas de DJ, así que se enmarca como suministro por proveedores.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0182",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1641,6 +1621,28 @@
         "how much does it cost to rent a big screen tv (El precio ya esta cubierto en /blog/tv-screen-rental/ (H2 'TV Screen Rental Pricing and What's Included', FAQ 'How much does a TV screen rental cost?'). La variante near me es doorway abuse (spam-policies.md).)",
         "led light rental near me (Variantes near me de paginas existentes. La demanda local ya va a /blog/audio-visual-hire-near-me-in-malaga-spain/ y a las secciones Booking and Service Area. No se crea otra pagina (Doorway abuse, spam-policies.md).)",
         "malaga event gear (Busqueda de marca propia, competidor extranjero y un negocio de otra zona. Ninguna pide contenido nuevo.)"
+      ]
+    },
+    {
+      "id": "#T0181",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Nueva sección H3 en /blog/audio-visual-rental-for-music-performances/: \"DJ Decks and Disco Equipment: What We Provide and What We Source\"",
+      "anotada": "2026-11-03",
+      "hecha": "2026-11-04",
+      "origen": "content-strategist (plan 2026-11-03, ítem 1)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audio-visual-rental-for-music-performances.svx",
+        "Ubicación: dentro de \"DJ Set, Live Band or Duo: What You Actually Need\"",
+        "Keywords: dj deck hire, disco equipment hire (gsc pos 7 1 impr), sin volumen",
+        "Qué cubrir: Explicar qué suministra MEG para un DJ (sistema de sonido, micrófonos, iluminación del inventario propio en packages.ts y el CSV de inventario) y que las pletinas o controladoras de DJ no están en el inventario propio: el cliente indica qué necesita y se busca una solución con los proveedores. Sin marca, modelo, cantidad, precio ni disponibilidad de pletinas. No presentar las pletinas como equipo propio.",
+        "Por qué: Dos frases con la misma intención (equipo de DJ para una fiesta). La entrada audio-visual-rental-for-music-performances solo tiene el H2 'DJ Set, Live Band or Duo' sin detalle de pletinas. Revisé también stage-lighting-rental (FAQ de luces para DJ) y sound-system-rental, que no cubren las pletinas. packages.ts no incluye pletinas de DJ, así que se enmarca como suministro por proveedores.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
