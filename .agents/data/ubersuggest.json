@@ -1,7 +1,69 @@
 {
 	"version": 1,
-	"updated": "2026-11-03",
+	"updated": "2026-11-04",
 	"reports": [
+		{
+			"date": "2026-11-04",
+			"kind": "top-pages",
+			"status": "partial",
+			"reason": "traffic_value failed with HTTP 403 Insufficient scope",
+			"calls": [
+				{
+					"tool": "domain_top_pages",
+					"outcome": "ok"
+				},
+				{
+					"tool": "domain_overview",
+					"outcome": "ok"
+				},
+				{
+					"tool": "traffic_value",
+					"outcome": "failed"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "ok"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				},
+				{
+					"tool": "keyword_overview",
+					"outcome": "ok"
+				}
+			],
+			"summary": [
+				"domain_top_pages returned 1 page: /blog/audio-visual-rental-companies/ with traffic 0, backlinks 0.",
+				"domain_overview: organic 7, traffic 55, domainAuthority 2, backlinks 165, refDomains 125.",
+				"Cost: top-pages plus overview plus traffic_value took reports from 0 to 1 (traffic_value 403)."
+			],
+			"findings": [],
+			"discovered": {
+				"keywords": 1,
+				"aiPrompts": 59
+			}
+		},
 		{
 			"date": "2026-11-03",
 			"kind": "backlinks",
