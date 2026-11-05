@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "tasks": [
     {
       "id": "#T0085",
@@ -51,18 +51,41 @@
       ]
     },
     {
-      "id": "#T0165",
+      "id": "#T0166",
       "estado": "pendiente",
       "prioridad": "alta",
       "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"hire av equipment\" (new_content)",
+      "titulo": "Oportunidad de keyword \"speaker rental\" (new_content)",
       "anotada": "2026-10-29",
       "hecha": null,
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/hire-av-equipment)",
-      "notas": [],
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/speaker-rental)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-11-05"
+      ],
       "descripcion": [
         "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
         "Reporte seo-opportunities de ubersuggest del 2026-10-29."
+      ]
+    },
+    {
+      "id": "#T0132",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"audio visual rental company\" (new_content)",
+      "anotada": "2026-10-15",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/audio-visual-rental-company)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-29",
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-11-05"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-15."
       ]
     },
     {
@@ -146,20 +169,48 @@
       ]
     },
     {
-      "id": "#T0082",
+      "id": "#T0081",
       "estado": "pendiente",
       "prioridad": "alta",
       "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"sound and light rental\" (new_content)",
+      "titulo": "Oportunidad de keyword \"sound system rental for events\" (new_content)",
       "anotada": "2026-10-08",
       "hecha": null,
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-and-light-rental)",
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-system-rental-for-events)",
       "notas": [
-        "seccion H2 en /blog/sound-system-rental/ en los 13 idiomas. La keyword sigue idea en keywords.json (la tarea no viene de un plan). SERP casi sin terminos",
-        "reabierta por ubersuggest el 2026-10-29"
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-22",
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-29",
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-11-05"
       ],
       "descripcion": [
         "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
+      ]
+    },
+    {
+      "id": "#T0083",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"audio visual rental companies\" (existing_content)",
+      "anotada": "2026-10-08",
+      "hecha": null,
+      "origen": "ubersuggest (seo-opportunities, keyword/existing-content/audio-visual-rental-companies)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-15",
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-22",
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-10-29",
+        "cerrada por el reporte de ubersuggest",
+        "reabierta por ubersuggest el 2026-11-05"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY existing_content. impacto low, esfuerzo low",
         "Reporte seo-opportunities de ubersuggest del 2026-10-08."
       ]
     },
@@ -1584,6 +1635,69 @@
       "descripcion": []
     },
     {
+      "id": "#T0185",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-11-05",
+      "anotada": "2026-11-05",
+      "hecha": "2026-11-05",
+      "origen": "content-strategist (plan 2026-11-05, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "music equipment for hire (Misma intención que el alquiler de audio ya servido por /blog/sound-system-rental/ y /blog/audio-visual-rental-for-music-performances/. Una sola impresión, sin señal de demanda. Una página nueva sería canibalización (creating-helpful-content.md).)",
+        "new trend party hire (Intención difusa de decoración y tendencias de fiesta, no es equipamiento AV que MEG tenga o gestione. Una impresión sin señal.)",
+        "noleggio audiovisivi (Es el término italiano de la página pilar /blog/audiovisual-equipment-rental-service/, que se cubre con la traducción al italiano. No requiere contenido nuevo en inglés.)",
+        "outdoor cinema rental (Cubierto por /blog/outdoor-movie-screen-and-projector-rental/, misma intención. Una página nueva sería canibalización.)",
+        "outdoor wedding (Cubierto por /blog/outdoor-wedding-rental-considerations/. Es un término genérico sin demanda medida y ya está en posición 2.)",
+        "party equipment rental service (Cubierto por /blog/audio-visual-rental-for-private-parties/. Una impresión, sin señal para una página nueva.)",
+        "party lighting hire (Misma intención de iluminación de fiesta, servida por /blog/stage-lighting-rental/ y /blog/stage-uplighting/. La variante near me es una variante local de una página existente (Doorway abuse, spam-policies.md).)",
+        "party speakers near me (Cubierto por /blog/sound-system-rental/, cuyas FAQs ya incluyen un sistema DJ completo y solo altavoces. La variante near me ya la sirve /blog/audio-visual-hire-near-me-in-malaga-spain/. No se crea página nueva.)",
+        "photo of stitch (Fuera de mercado: no tiene relación con el negocio de MEG.)",
+        "projector rental near me (Variante near me de /blog/projector-rental/ y de /blog/audio-video-rental-near-me-in-malaga-spain/. Doorway abuse (spam-policies.md), no se crea página nueva.)",
+        "puerto de malaga (Búsqueda de lugar o turismo, sin intención de alquiler. MEG no tiene nada propio que responder (creating-helpful-content.md).)",
+        "rent a date for a wedding (Fuera de mercado: es alquilar una acompañante, no equipamiento.)",
+        "rent a wedding arch near me (Arcos y sillas son mobiliario y decoración, no inventario AV de MEG (CLAUDE.md, silo wedding rentals solo AV). Además es una variante near me (Doorway abuse, spam-policies.md).)"
+      ]
+    },
+    {
+      "id": "#T0165",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"hire av equipment\" (new_content)",
+      "anotada": "2026-10-29",
+      "hecha": "2026-11-05",
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/hire-av-equipment)",
+      "notas": [
+        "cerrada por el reporte de ubersuggest"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-29."
+      ]
+    },
+    {
+      "id": "#T0082",
+      "estado": "hecha",
+      "prioridad": "alta",
+      "tipo": "keywords",
+      "titulo": "Oportunidad de keyword \"sound and light rental\" (new_content)",
+      "anotada": "2026-10-08",
+      "hecha": "2026-11-05",
+      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-and-light-rental)",
+      "notas": [
+        "seccion H2 en /blog/sound-system-rental/ en los 13 idiomas. La keyword sigue idea en keywords.json (la tarea no viene de un plan). SERP casi sin terminos",
+        "reabierta por ubersuggest el 2026-10-29",
+        "cerrada por el reporte de ubersuggest"
+      ],
+      "descripcion": [
+        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
+        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
+      ]
+    },
+    {
       "id": "#T0184",
       "estado": "hecha",
       "prioridad": "baja",
@@ -1996,86 +2110,6 @@
         "audiovisual for events (Terminos amplios que pertenecen a los pilares /blog/audio-visual-rental/ (FAQ 'What is audio visual equipment?') y /blog/audiovisual-equipment-rental-service/. Una pagina nueva seria silo overlap.)",
         "big screen tv hire (Cubierto por /blog/tv-screen-rental/ (FAQs 'Do you rent a 55 inch screen?' y 'Do you rent a 65 inch TV or a bigger screen for a large event?'). Ya posiciona en 6.75 a 7.75.)",
         "preparing for different weather conditions during short-term rental stay (Otro negocio: alquiler de alojamiento vacacional, no alquiler de equipos para eventos (creating-helpful-content.md, no entrar en un tema sin experiencia real).)"
-      ]
-    },
-    {
-      "id": "#T0166",
-      "estado": "hecha",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"speaker rental\" (new_content)",
-      "anotada": "2026-10-29",
-      "hecha": "2026-10-29",
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/speaker-rental)",
-      "notas": [
-        "cerrada por el reporte de ubersuggest"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto high, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-10-29."
-      ]
-    },
-    {
-      "id": "#T0132",
-      "estado": "hecha",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"audio visual rental company\" (new_content)",
-      "anotada": "2026-10-15",
-      "hecha": "2026-10-29",
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/audio-visual-rental-company)",
-      "notas": [
-        "cerrada por el reporte de ubersuggest",
-        "reabierta por ubersuggest el 2026-10-29",
-        "cerrada por el reporte de ubersuggest"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-10-15."
-      ]
-    },
-    {
-      "id": "#T0081",
-      "estado": "hecha",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"sound system rental for events\" (new_content)",
-      "anotada": "2026-10-08",
-      "hecha": "2026-10-29",
-      "origen": "ubersuggest (seo-opportunities, keyword/new-content/sound-system-rental-for-events)",
-      "notas": [
-        "cerrada por el reporte de ubersuggest",
-        "reabierta por ubersuggest el 2026-10-22",
-        "cerrada por el reporte de ubersuggest",
-        "reabierta por ubersuggest el 2026-10-29",
-        "cerrada por el reporte de ubersuggest"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY new_content. impacto low, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
-      ]
-    },
-    {
-      "id": "#T0083",
-      "estado": "hecha",
-      "prioridad": "alta",
-      "tipo": "keywords",
-      "titulo": "Oportunidad de keyword \"audio visual rental companies\" (existing_content)",
-      "anotada": "2026-10-08",
-      "hecha": "2026-10-29",
-      "origen": "ubersuggest (seo-opportunities, keyword/existing-content/audio-visual-rental-companies)",
-      "notas": [
-        "cerrada por el reporte de ubersuggest",
-        "reabierta por ubersuggest el 2026-10-15",
-        "cerrada por el reporte de ubersuggest",
-        "reabierta por ubersuggest el 2026-10-22",
-        "cerrada por el reporte de ubersuggest",
-        "reabierta por ubersuggest el 2026-10-29",
-        "cerrada por el reporte de ubersuggest"
-      ],
-      "descripcion": [
-        "Ubersuggest SEO Opportunities, KEYWORD_OPPORTUNITY existing_content. impacto low, esfuerzo low",
-        "Reporte seo-opportunities de ubersuggest del 2026-10-08."
       ]
     },
     {
