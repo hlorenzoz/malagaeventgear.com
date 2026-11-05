@@ -1,7 +1,76 @@
 {
 	"version": 1,
-	"updated": "2026-11-04",
+	"updated": "2026-11-05",
 	"reports": [
+		{
+			"date": "2026-11-05",
+			"kind": "seo-opportunities",
+			"status": "ok",
+			"calls": [
+				{
+					"tool": "seo_opportunities",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "ok"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				}
+			],
+			"summary": [
+				"KEYWORD_OPPORTUNITY: new_content 3, existing_content 1, quick_win 0.",
+				"SITE_AUDIT: content_count_words 1 issue type on 4 pages, all other checks 0."
+			],
+			"findings": [
+				{
+					"key": "keyword/new-content/sound-system-rental-for-events",
+					"title": "Oportunidad de keyword \"sound system rental for events\" (new_content)"
+				},
+				{
+					"key": "keyword/new-content/speaker-rental",
+					"title": "Oportunidad de keyword \"speaker rental\" (new_content)"
+				},
+				{
+					"key": "keyword/new-content/audio-visual-rental-company",
+					"title": "Oportunidad de keyword \"audio visual rental company\" (new_content)"
+				},
+				{
+					"key": "keyword/existing-content/audio-visual-rental-companies",
+					"title": "Oportunidad de keyword \"audio visual rental companies\" (existing_content)"
+				},
+				{
+					"key": "site-audit/content-count-words",
+					"title": "Arreglar la auditoria: content_count_words (4 paginas)"
+				}
+			],
+			"discovered": {
+				"keywords": 5,
+				"aiPrompts": 59
+			}
+		},
 		{
 			"date": "2026-11-04",
 			"kind": "top-pages",
