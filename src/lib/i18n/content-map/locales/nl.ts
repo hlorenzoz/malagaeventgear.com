@@ -518,6 +518,16 @@ export default {
 			slug: 'hoe-je-een-congres-in-malaga-organiseert',
 			keyword: 'hoe je een congres in Malaga organiseert',
 			status: 'propuesta'
+		},
+		'awards-ceremony-production': {
+			slug: 'prijsuitreiking-malaga',
+			keyword: 'prijsuitreiking in Malaga',
+			status: 'propuesta'
+		},
+		'keynote-speaker-av-requirements': {
+			slug: 'av-eisen-keynotesprekers-malaga',
+			keyword: 'AV-eisen voor keynotesprekers in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

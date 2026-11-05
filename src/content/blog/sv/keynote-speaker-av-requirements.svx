@@ -1,0 +1,147 @@
+---
+title: "AV-krav för huvudtalare i Malaga, Spanien"
+description: "AV-krav för huvudtalare i Malaga, Spanien: mikrofonen, talarstolen, skärmen och soundchecken en huvudtalare ber om, och vad vi levererar och ordnar."
+excerpt: "Vad en huvudtalare ber om på den audiovisuella sidan: vilken mikrofon, en talarstol, en skärm och en scenmonitor, en soundcheck, och vad vi levererar ur vårt eget lager."
+publishDate: "2026-11-05"
+sourceUpdated: "2026-11-05"
+---
+
+<script>
+	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
+</script>
+
+Den som söker AV-krav för huvudtalare i Malaga, Spanien, har oftast bokat en huvudtalare och fått en teknisk rider: en lista över vad talaren behöver i salen. En keynote är talet som hela evenemanget är byggt kring, så den audiovisuella sidan måste fungera på första försöket. Den här sidan översätter en typisk rider till vanliga ord, säger vad vi levererar ur vårt eget lager och säger vad vi ordnar eller inte gör.
+
+Malaga Event Gear (MEG) levererar mikrofoner, ljud, en skärm eller en projektor, en talarstol och en tekniker till företagsevenemang i Malaga och längs resten av Costa del Sol. Vi är varken en talarbyrå eller en eventbyrå. Vår del ingår i vår sida om [ljus- och scenteknik](/blog/event-technology-service/), där du kan se resten av vad vi erbjuder.
+
+## Innehållsförteckning
+
+-   [Kort översikt](#kort-översikt)
+-   [Det viktigaste](#det-viktigaste)
+-   [Vad en huvudtalare brukar be om](#vad-en-huvudtalare-brukar-be-om)
+-   [Vilken mikrofon som passar talaren](#vilken-mikrofon-som-passar-talaren)
+-   [Talarstol, skärm och bilder](#talarstol-skärm-och-bilder)
+-   [Scenmonitor, soundcheck och frågor](#scenmonitor-soundcheck-och-frågor)
+-   [Vad vi levererar och vad vi ordnar](#vad-vi-levererar-och-vad-vi-ordnar)
+-   [Så svarar du på en talares rider](#så-svarar-du-på-en-talares-rider)
+-   [Verkliga uppställningar för talare som vi har genomfört](#verkliga-uppställningar-för-talare-som-vi-har-genomfört)
+-   [Var vi levererar och hur du bokar](#var-vi-levererar-och-hur-du-bokar)
+-   [Slutsats](#slutsats)
+-   [Vanliga frågor](#vanliga-frågor)
+    -   [Vilken AV-utrustning behöver en huvudtalare?](#vilken-av-utrustning-behöver-en-huvudtalare)
+    -   [Vilken mikrofon är bäst för en huvudtalare?](#vilken-mikrofon-är-bäst-för-en-huvudtalare)
+    -   [Levererar ni en kontrollskärm eller en nedräkningsklocka?](#levererar-ni-en-kontrollskärm-eller-en-nedräkningsklocka)
+    -   [Vem kör talarens bilder?](#vem-kör-talarens-bilder)
+
+## Kort översikt
+
+---
+
+En huvudtalare ber oftast om samma få saker: en mikrofon som frigör händerna eller passar hur talaren rör sig, en talarstol eller en fri yta att stå på, en skärm som visar bilderna, ett sätt att höra sig själv och en soundcheck innan dörrarna öppnas. Malaga Event Gear levererar mikrofonerna, ljudet, en skärm eller en projektor, en talarstol och en tekniker som sköter ljudet och mikrofonerna, från [MICE Pack](/packages/mice/) för 490 euro exklusive moms för upp till 120 gäster. Talaren kör sina egna bilder. En kontrollskärm, inspelning och allt utanför vårt eget lager går via leverantörer.
+
+## Det viktigaste
+
+---
+
+-   Hand- och gåshalsmikrofoner ingår i våra paket. Myggmikrofoner och headsetmikrofoner är en separat post som offereras på begäran.
+-   En talarstol i metakrylat är ett valfritt tillval till MICE Pack för 50 euro.
+-   Teknikern sköter ljudet och mikrofonerna. Talaren kör sina egna bilder.
+-   Scenmonitorer finns i vårt lager och offereras på begäran. En kontrollskärm, en nedräkningsklocka och inspelning finns inte i vårt eget lager.
+-   En soundcheck ingår i planen: berätta tiden för oss så bekräftar vi att teknikern är på plats.
+
+-   **Vem levererar?** Vårt team levererar, installerar och testar utrustningen. Vi arbetar bara med leverans, utan avhämtning på egen hand.
+-   **Vad behöver jag skicka?** Talarens rider, lokalen och tiden för talet.
+-   **Vad ingår inte?** Talaren, bilderna och allt utanför vårt eget lager.
+
+## Vad en huvudtalare brukar be om
+
+En talares rider är en kort lista, och den upprepas från evenemang till evenemang. De vanliga punkterna är:
+
+-   **En mikrofon.** En handmikrofon, en myggmikrofon att klämma fast eller en headsetmikrofon över örat, beroende på om talaren rör sig och gestikulerar.
+-   **En talarstol eller en yta på scenen.** Vissa talare vill ha en talarstol för anteckningarna. Andra föredrar att gå omkring och vill ha en fri golvyta.
+-   **En projektorduk och en projektor, eller en skärm.** För bilderna, och ibland en video med ljud.
+-   **Ett sätt att ansluta datorn.** De flesta tar med sin egen och behöver rätt kabel.
+-   **En scenmonitor.** En talare som vänder sig mot publiken hör inte högtalarna som är riktade mot publiken, så en monitor låter talaren höra sig själv.
+-   **En soundcheck.** Ett kort test av mikrofonen och nivåerna innan publiken kommer.
+
+## Vilken mikrofon som passar talaren
+
+Mikrofonen är det som talaren bryr sig mest om, och valet beror på hur talaren talar.
+
+-   **En talare som stannar vid talarstolen** använder en gåshalsmikrofon. Vår [guide till uthyrning av talarstol](/blog/lectern-rental/) förklarar talarstolen och gåshalsen som sitter på den.
+-   **En talare som går omkring på scenen** har mer nytta av en handmikrofon, eller av en mikrofon med fria händer om talaren gestikulerar. Vi äger sex trådlösa handmikrofoner, alla från Audix, och vår [guide till uthyrning av trådlösa handmikrofoner](/blog/wireless-handheld-microphone-rental/) förklarar vilket paket som innehåller en.
+-   **En talare som behöver båda händerna fria**, för att använda en fjärrkontroll för presentationer eller visa något, vill ha en myggmikrofon eller en headsetmikrofon. Vi äger trådlösa set med myggmikrofoner och en headsetmikrofon, som en separat post som inget av våra paket innehåller. Vår [guide till mygg- och headsetmikrofoner](/blog/headset-lavalier-microphone-rental/) jämför de två.
+
+Talarens rider anger ofta typen. Om den inte gör det, fråga talaren, eftersom en ändring på dagen kostar tid som schemat inte har.
+
+## Talarstol, skärm och bilder
+
+Om talaren vill ha en talarstol listar MICE Pack en i metakrylat som ett valfritt tillval för 50 euro. Vi äger två. Gåshalsmikrofonen sätts ovanpå.
+
+För bilderna innehåller [MICE Pack](/packages/mice/) en LED-skärm på 60 tum, och [Product Presentation Pack](/packages/product-presentation/) innehåller en projektor på 5000 lumen med en duk och en trådlös premiumhandmikrofon, för 310 euro exklusive moms. För att ansluta en dator listar det paketet de adaptrar vi tillhandahåller för HDMI och USB-C och ljudgränssnitten.
+
+Talaren kör sina egna bilder. Vår tekniker sköter ljudet och mikrofonerna, så talaren eller någon i talarens team styr vad som visas. Ha presentationen på datorn och en kopia på ett USB-minne, ifall datorn går sönder.
+
+<InlineCTA />
+
+## Scenmonitor, soundcheck och frågor
+
+**Scenmonitorn.** I vårt lager finns scenmonitorer, som offereras på begäran och levereras med sin förstärkning. Inget paket innehåller någon, så berätta i din brief om talaren vill ha en.
+
+**Soundchecken.** Planera den innan dörrarna öppnas, med talaren eller någon som står in för talaren, vid den mikrofon som ska användas. Berätta tiden för oss, så bekräftar vi att teknikern är på plats. En kontroll med den riktiga mikrofonen är värd mer än vilken inställning som helst som gjorts i förväg.
+
+**Frågorna från salen.** Om keynoten slutar med frågor bärs en handmikrofon fram till den som frågar, och någon måste bära den. Berätta om du vill ha en, eftersom det är en andra mikrofon och ett tillval enligt offert.
+
+## Vad vi levererar och vad vi ordnar
+
+-   **Ur vårt eget lager:** trådlösa handmikrofoner, gåshalsmikrofoner, myggmikrofoner och headsetmikrofoner, en talarstol, aktiva högtalare, scenmonitorer, en LED-skärm på 60 tum eller en projektor med duk och en tekniker.
+-   **Tillval enligt offert:** en andra mikrofon, en myggmikrofon eller en headsetmikrofon, scenmonitorer och en extra timme med teknikern för 40 euro.
+-   **Ordnas med leverantörer, om det finns en lösning:** en kontrollskärm, en nedräkningsklocka eller en fjärrkontroll för presentationer, som inte finns i vårt eget lager. Vi lovar ingen tillgänglighet eller något pris förrän vi har kontrollerat.
+-   **Inte våra:** talaren, bilderna, inspelning och livestreaming, och allt kameraarbete.
+
+## Så svarar du på en talares rider
+
+Skicka ridern till din leverantör som den är, och svara på de här frågorna i samma meddelande:
+
+-   Vilken mikrofon vill talaren ha, och går talaren omkring?
+-   Använder talaren en talarstol?
+-   Vilken dator och vilken kontakt tar talaren med?
+-   Vill talaren höra sig själv på en scenmonitor?
+-   När är soundchecken, och när är talet?
+-   Förekommer det frågor från salen?
+
+Med det säger vi vad vi kan täcka ur vårt eget lager och vad vi skulle ordna, och matchar det mot ett paket. MICE Pack täcker teknikern i upp till 6 timmar, och en extra timme kostar 40 euro.
+
+## Verkliga uppställningar för talare som vi har genomfört
+
+Vid [PROGOLD SUMMIT 2026](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-at-progold-summit-2026-in-torremolinos/), som hölls 20 till 23 maj 2026 i kongresscentret på Hotel Melia Costa del Sol i Torremolinos, levererade vi ljudet, med trådlösa mikrofoner och gåshalsmikrofoner, under fyra dagar. Hos [Bmotion i Benahavis](/blog/news-malaga-event-gear-delivers-flawless-audiovisual-production-for-bmotion-in-benahavis/) den 22 och 23 maj 2026 omfattade uppställningen en talarstol i metakrylat med en gåshalsmikrofon.
+
+![Två presentatörer på en scen vid PROGOLD SUMMIT 2026 i Torremolinos, den ena talar i en handmikrofon, med en högtalare på ett stativ och en skärm bakom dem.](https://cdn.malagaeventgear.com/blog/3084/2026.05.20-23-PROGOLD-SUMMIT-2026-Torremolinos-Hotel-Melia-Costa-del-Sol-Centro-de-Convenciones-2-1024x576.webp "En presentatör talar i en handmikrofon på scenen vid PROGOLD SUMMIT 2026 i Torremolinos, där vi levererade ljudsystemet.")
+
+## Var vi levererar och hur du bokar
+
+Vi har vår bas i Malaga och levererar längs hela Costa del Sol: Marbella, Fuengirola, Torremolinos, Benalmadena, Estepona, Mijas, Ronda och Nerja ingår alla i vårt serviceområde, och vi betjänar också Sevilla utan minsta order. Granada kräver en bokning över 400 euro för att täcka resan under en enda dag.
+
+Vi arbetar bara med leverans, utan avhämtning på egen hand, och varje bokning kräver minst 24 timmars framförhållning. [Kontakta oss](/contact/) med talarens rider, din lokal och ditt datum. Om ditt evenemang avslutas med priser går vår guide om [prisutdelning i Malaga](/blog/awards-ceremony-production/) igenom ljudet och belysningen för ceremonin.
+
+## Slutsats
+
+AV-krav för huvudtalare i Malaga handlar om en mikrofon som passar hur talaren rör sig, en talarstol eller en fri scen, en skärm, ett sätt att höra sig själv och en soundcheck. Vi levererar mikrofonerna, ljudet, en skärm eller en projektor, en talarstol och en tekniker ur vårt eget lager, från MICE Pack för 490 euro exklusive moms. Talaren kör bilderna, och en kontrollskärm eller inspelning går via leverantörer. [Kontakta oss](/contact/) med ridern, eller se resten av vad vi erbjuder på vår sida om [ljus- och scenteknik](/blog/event-technology-service/). För att planera hela kongressen, se vår guide om [hur man organiserar en kongress i Malaga](/blog/how-to-organize-a-congress-in-malaga/).
+
+## Vanliga frågor
+
+### Vilken AV-utrustning behöver en huvudtalare?
+
+Oftast en mikrofon som passar hur talaren rör sig, en talarstol eller en fri scen, en skärm för bilderna, ett sätt att ansluta datorn, en scenmonitor för att höra sig själv och en soundcheck. En tekniker sköter ljudet och mikrofonerna, och talaren kör sina egna bilder. [MICE Pack](/packages/mice/) täcker en sal med upp till 120 gäster.
+
+### Vilken mikrofon är bäst för en huvudtalare?
+
+Det beror på hur talaren arbetar. En gåshals på en talarstol för en talare som står kvar, en handmikrofon för en som går omkring, och en myggmikrofon eller en headsetmikrofon för en som behöver båda händerna fria. Våra handmikrofoner och gåshalsmikrofoner ingår i våra paket, och mygg- och headsetmikrofoner är en separat post enligt offert.
+
+### Levererar ni en kontrollskärm eller en nedräkningsklocka?
+
+Inte ur vårt eget lager. Vi har scenmonitorer, alltså högtalare som låter talaren höra sig själv, som offereras på begäran. En kontrollskärm, en skärm som visar talaren de egna bilderna, och en nedräkningsklocka finns inte i vårt eget lager. Berätta vad du behöver så letar vi efter en lösning med våra leverantörer, om det finns någon.
+
+### Vem kör talarens bilder?
+
+Talaren eller någon i talarens team. Vår tekniker sköter ljudet och mikrofonerna, inte bilderna. Planera vem som styr skärmen, och ta med presentationen på datorn och på ett USB-minne. För att ansluta en dator tillhandahåller vi de adaptrar som vi listar på Product Presentation Pack.

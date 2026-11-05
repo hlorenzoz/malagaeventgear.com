@@ -1103,6 +1103,88 @@
       "level": 2
     }
   ],
+  "keynote-speaker-av-requirements": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "what-a-keynote-speaker-usually-asks-for",
+      "text": "What a Keynote Speaker Usually Asks For",
+      "level": 2
+    },
+    {
+      "id": "which-microphone-suits-the-speaker",
+      "text": "Which Microphone Suits the Speaker",
+      "level": 2
+    },
+    {
+      "id": "lectern-screen-and-slides",
+      "text": "Lectern, Screen and Slides",
+      "level": 2
+    },
+    {
+      "id": "stage-monitor-sound-check-and-questions",
+      "text": "Stage Monitor, Sound Check and Questions",
+      "level": 2
+    },
+    {
+      "id": "what-we-supply-and-what-we-source",
+      "text": "What We Supply and What We Source",
+      "level": 2
+    },
+    {
+      "id": "how-to-answer-a-speakers-rider",
+      "text": "How to Answer a Speaker's Rider",
+      "level": 2
+    },
+    {
+      "id": "real-speaker-setups-weve-delivered",
+      "text": "Real Speaker Setups We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "where-we-deliver-and-how-to-book",
+      "text": "Where We Deliver and How to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "what-av-does-a-keynote-speaker-need",
+      "text": "What AV does a keynote speaker need?",
+      "level": 3
+    },
+    {
+      "id": "which-microphone-is-best-for-a-keynote-speaker",
+      "text": "Which microphone is best for a keynote speaker?",
+      "level": 3
+    },
+    {
+      "id": "do-you-provide-a-confidence-monitor-or-a-countdown-clock",
+      "text": "Do you provide a confidence monitor or a countdown clock?",
+      "level": 3
+    },
+    {
+      "id": "who-runs-the-speakers-slides",
+      "text": "Who runs the speaker's slides?",
+      "level": 3
+    }
+  ],
   "mice-events-in-malaga": [
     {
       "id": "brief-overview",
@@ -6762,6 +6844,88 @@
       "id": "organising-a-talk-or-a-panel-in-malaga",
       "text": "Organising a Talk or a Panel in Malaga?",
       "level": 2
+    }
+  ],
+  "awards-ceremony-production": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "what-an-awards-ceremony-needs-from-the-audiovisual-side",
+      "text": "What an Awards Ceremony Needs From the Audiovisual Side",
+      "level": 2
+    },
+    {
+      "id": "microphones-for-the-host-and-the-winners",
+      "text": "Microphones for the Host and the Winners",
+      "level": 2
+    },
+    {
+      "id": "lighting-the-stage",
+      "text": "Lighting the Stage",
+      "level": 2
+    },
+    {
+      "id": "screen-music-and-cues",
+      "text": "Screen, Music and Cues",
+      "level": 2
+    },
+    {
+      "id": "what-we-supply-and-what-we-source",
+      "text": "What We Supply and What We Source",
+      "level": 2
+    },
+    {
+      "id": "planning-the-running-order",
+      "text": "Planning the Running Order",
+      "level": 2
+    },
+    {
+      "id": "a-real-ceremony-weve-delivered",
+      "text": "A Real Ceremony We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "where-we-deliver-and-how-to-book",
+      "text": "Where We Deliver and How to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "what-equipment-does-an-awards-ceremony-need",
+      "text": "What equipment does an awards ceremony need?",
+      "level": 3
+    },
+    {
+      "id": "how-many-microphones-do-i-need-for-a-ceremony",
+      "text": "How many microphones do I need for a ceremony?",
+      "level": 3
+    },
+    {
+      "id": "do-you-provide-stage-lighting-for-an-awards-ceremony",
+      "text": "Do you provide stage lighting for an awards ceremony?",
+      "level": 3
+    },
+    {
+      "id": "can-you-provide-confetti-or-fireworks",
+      "text": "Can you provide confetti or fireworks?",
+      "level": 3
     }
   ],
   "outdoor-movie-screen-and-projector-rental": [

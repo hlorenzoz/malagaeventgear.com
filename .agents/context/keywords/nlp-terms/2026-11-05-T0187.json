@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-05",
+  "taskId": "#T0185",
+  "slug": "keynote-speaker-av-requirements",
+  "searchTerm": "keynote speaker av requirements",
+  "status": "partial",
+  "reason": "Google position 3 returned 404, so position 4 was read. Position 2 redirected to a CDN copy. All 3 are one page speaker riders. No heading questions exist. Search not localized to Spain. Task gave no kind or heading.",
+  "serp": {
+    "query": "keynote speaker av requirements",
+    "localized": false,
+    "results": [
+      {
+        "rank": 1,
+        "url": "https://www.globalfuturist.com/user/images/speaker_info/AV-Requirements-for-Dr.pdf",
+        "title": "AV Requirements for Dr"
+      },
+      {
+        "rank": 2,
+        "url": "https://www.theequalityinstitute.com/s/Bernadette-Smith-AV-Requirements.pdf",
+        "title": "Bernadette Smith AV Requirements"
+      },
+      {
+        "rank": 3,
+        "url": "https://thesaleshunter.com/wp-content/uploads/2019/02/Mark-Hunter-Keynote-AV-Requirements.pdf",
+        "title": "Mark Hunter Keynote AV Requirements"
+      }
+    ]
+  },
+  "terms": [
+    { "term": "screen", "kind": "entity", "seenIn": 3 },
+    { "term": "PowerPoint", "kind": "entity", "seenIn": 3 },
+    { "term": "projector", "kind": "entity", "seenIn": 2 },
+    { "term": "wireless microphone", "kind": "entity", "seenIn": 2 },
+    { "term": "podium", "kind": "entity", "seenIn": 2 },
+    { "term": "speaker's own laptop", "kind": "entity", "seenIn": 2 },
+    { "term": "USB drive", "kind": "entity", "seenIn": 2 },
+    { "term": "16/9 display ratio", "kind": "related", "seenIn": 2 },
+    { "term": "videotaping", "kind": "related", "seenIn": 2 },
+    { "term": "lavalier microphone", "kind": "entity", "seenIn": 1 },
+    { "term": "clip on microphone", "kind": "entity", "seenIn": 1 },
+    { "term": "over the ear microphone", "kind": "entity", "seenIn": 1 },
+    { "term": "confidence monitor", "kind": "entity", "seenIn": 1 },
+    { "term": "progress monitor", "kind": "entity", "seenIn": 1 },
+    { "term": "countdown clock", "kind": "entity", "seenIn": 1 },
+    { "term": "presentation remote", "kind": "entity", "seenIn": 1 },
+    { "term": "sound check", "kind": "related", "seenIn": 1 },
+    { "term": "PowerPoint check", "kind": "related", "seenIn": 1 },
+    { "term": "Q&A with microphones", "kind": "related", "seenIn": 1 },
+    { "term": "audio in presentation", "kind": "related", "seenIn": 1 },
+    { "term": "AV crew", "kind": "related", "seenIn": 1 },
+    { "term": "roam the stage", "kind": "related", "seenIn": 1 },
+    { "term": "video intro", "kind": "related", "seenIn": 1 },
+    { "term": "room lighting for staging area", "kind": "related", "seenIn": 1 },
+    { "term": "noise from adjoining room", "kind": "related", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "James Canton", "reason": "person name" },
+    { "term": "Bernadette Smith", "reason": "person name" },
+    { "term": "Mark Hunter", "reason": "person name" },
+    { "term": "Charlotte Raybourn speaker management", "reason": "agency name" },
+    { "term": "MacBook Air", "reason": "speaker's own device, not an event need" },
+    { "term": "DVD copy of keynote", "reason": "outdated recording format" },
+    { "term": "chevron seating", "reason": "room layout, not audiovisual" },
+    { "term": "table with water", "reason": "catering, not audiovisual" },
+    { "term": "internet access not required", "reason": "negative statement, not vocabulary" }
+  ]
+}

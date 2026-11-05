@@ -514,6 +514,16 @@ export default {
 			slug: 'hur-man-organiserar-en-kongress-i-malaga',
 			keyword: 'hur man organiserar en kongress i Malaga',
 			status: 'propuesta'
+		},
+		'awards-ceremony-production': {
+			slug: 'prisutdelning-malaga',
+			keyword: 'prisutdelning i Malaga',
+			status: 'propuesta'
+		},
+		'keynote-speaker-av-requirements': {
+			slug: 'av-krav-huvudtalare-malaga',
+			keyword: 'AV-krav för huvudtalare i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

@@ -482,6 +482,16 @@ export default {
 			slug: '如何在馬拉加籌辦一場大會',
 			keyword: '如何在馬拉加籌辦一場大會',
 			status: 'propuesta'
+		},
+		'awards-ceremony-production': {
+			slug: '頒獎典禮',
+			keyword: '馬拉加 頒獎典禮',
+			status: 'propuesta'
+		},
+		'keynote-speaker-av-requirements': {
+			slug: '主題演講講者視聽需求',
+			keyword: '馬拉加 主題演講講者視聽需求',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

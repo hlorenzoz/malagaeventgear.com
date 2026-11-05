@@ -545,6 +545,16 @@ export default {
 			slug: 'como-organizar-um-congresso-em-malaga',
 			keyword: 'como organizar um congresso em Málaga',
 			status: 'propuesta'
+		},
+		'awards-ceremony-production': {
+			slug: 'cerimonia-de-entrega-de-premios-malaga',
+			keyword: 'cerimónia de entrega de prémios em Málaga',
+			status: 'propuesta'
+		},
+		'keynote-speaker-av-requirements': {
+			slug: 'requisitos-audiovisuais-orador-principal-malaga',
+			keyword: 'requisitos audiovisuais de um orador principal em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

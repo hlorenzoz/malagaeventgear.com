@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-05",
+  "taskId": "#T0184",
+  "slug": "awards-ceremony-production",
+  "searchTerm": "awards ceremony production",
+  "status": "partial",
+  "reason": "Read Google #1, #8 and #15. Skipped #2 (duplicate of #1), #3 and #4 (listing and agency, not fetched), #5 (case study), #6 (read, no AV detail), #7 (404). #8 and #15 are agency pages, #8 leans to video.",
+  "serp": {
+    "query": "awards ceremony production",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://www.myoneofakindevent.com/award-ceremony-production/", "title": "Award Ceremony Production and Design Guide" },
+      { "rank": 2, "url": "https://irpr.agency/blog/award-ceremony-video-production", "title": "award ceremony video production" },
+      { "rank": 3, "url": "https://ayre.events/event-production/awards/", "title": "ayre.events" }
+    ]
+  },
+  "terms": [
+    { "term": "walk-up music", "kind": "related", "seenIn": 2 },
+    { "term": "run of show", "kind": "related", "seenIn": 2 },
+    { "term": "lower thirds", "kind": "related", "seenIn": 2 },
+    { "term": "step and repeat backdrop", "kind": "entity", "seenIn": 2 },
+    { "term": "uplighting", "kind": "entity", "seenIn": 2 },
+    { "term": "moving heads", "kind": "entity", "seenIn": 2 },
+    { "term": "microphones", "kind": "entity", "seenIn": 3 },
+    { "term": "lecterns", "kind": "entity", "seenIn": 2 },
+    { "term": "podiums", "kind": "entity", "seenIn": 2 },
+    { "term": "live streaming", "kind": "related", "seenIn": 2 },
+    { "term": "multi-camera recording", "kind": "related", "seenIn": 2 },
+    { "term": "special effects", "kind": "related", "seenIn": 2 },
+    { "term": "motion graphics", "kind": "related", "seenIn": 2 },
+    { "term": "voice of God announcements", "kind": "related", "seenIn": 1 },
+    { "term": "IMAG live camera feeds", "kind": "related", "seenIn": 1 },
+    { "term": "LED video walls", "kind": "entity", "seenIn": 1 },
+    { "term": "cue sheets", "kind": "related", "seenIn": 1 },
+    { "term": "sound checks", "kind": "related", "seenIn": 1 },
+    { "term": "backup AV systems", "kind": "related", "seenIn": 1 },
+    { "term": "show calling", "kind": "related", "seenIn": 1 },
+    { "term": "winner slides", "kind": "related", "seenIn": 1 },
+    { "term": "technical rehearsal with MC", "kind": "related", "seenIn": 1 },
+    { "term": "How should the run of show flow?", "kind": "question", "seenIn": 1 },
+    { "term": "What does awards production involve?", "kind": "question", "seenIn": 1 },
+    { "term": "How are sound lighting and video run on the night?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "One of a Kind Events", "reason": "competitor name" },
+    { "term": "IRPR Agency", "reason": "competitor name" },
+    { "term": "AYRE", "reason": "competitor name" },
+    { "term": "Agency self promotion question", "reason": "marketing, not vocabulary" },
+    { "term": "DGCA drone permissions", "reason": "Indian regulation, other market" },
+    { "term": "Podcast audio repurposing", "reason": "off topic for ceremony AV" },
+    { "term": "Multi-venue logistics", "reason": "agency service, not ceremony AV" }
+  ]
+}

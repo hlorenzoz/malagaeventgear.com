@@ -345,6 +345,24 @@
       "answer": "A MICE sound system is a sound reinforcement setup sized to the conference room, with speakers, microphones and, on the larger pack, a technician to run them. The MICE Pack includes professional active speakers, one gooseneck and one wireless handheld microphone, and a technician who operates the sound and microphones for up to 6 hours, for up to 120 guests.\n\nThe Basic MICE Pack is the smaller version: a sound reinforcement system for up to 40 people and one gooseneck microphone, with a technician only as an optional add on. Match the pack to the room and the number of speakers, and tell us the layout so we confirm it covers your conference sessions."
     }
   ],
+  "keynote-speaker-av-requirements": [
+    {
+      "question": "What AV does a keynote speaker need?",
+      "answer": "Usually a microphone that suits how they move, a lectern or a clear stage, a screen for the slides, a way to connect their laptop, a stage monitor to hear themselves and a sound check. A technician runs the sound and the microphones, and the speaker runs their own slides. The MICE Pack covers a room of up to 120 guests."
+    },
+    {
+      "question": "Which microphone is best for a keynote speaker?",
+      "answer": "It depends on how the speaker works. A gooseneck on a lectern for a speaker who stays put, a handheld for one who walks, and a lavalier or a headset for one who needs both hands free. Our handhelds and gooseneck microphones are part of our packages, and lavalier and headset microphones are a separate item by quote."
+    },
+    {
+      "question": "Do you provide a confidence monitor or a countdown clock?",
+      "answer": "Not from our own inventory. We have stage monitors, which are speakers that let the speaker hear themselves, quoted on request. A confidence monitor, a screen that shows the speaker their own slides, and a countdown clock are not in our own inventory. Tell us what you need and we look for a solution with our suppliers, if there is one."
+    },
+    {
+      "question": "Who runs the speaker's slides?",
+      "answer": "The speaker or someone from the speaker's team. Our technician operates the sound and the microphones, not the slides. Plan who controls the screen, and bring the presentation on the laptop and on a USB drive. For connecting a laptop, we provide the adapters we list on the Product Presentation Pack."
+    }
+  ],
   "mice-events-in-malaga": [
     {
       "question": "What does MICE stand for?",
@@ -2339,6 +2357,24 @@
     {
       "question": "How far in advance should I book stage monitor rental?",
       "answer": "Book as early as you can once your stage plot and performer count are confirmed, particularly since our own stock is capped at 8 wedges. Demand peaks during wedding season, April through October. See How Far in Advance to Book above."
+    }
+  ],
+  "awards-ceremony-production": [
+    {
+      "question": "What equipment does an awards ceremony need?",
+      "answer": "At least a sound system, a microphone for the host, a way for each winner to be heard, light on the stage and a screen or a sign that shows who is next. A technician runs the sound and the microphones. The MICE Pack covers a room of up to 120 guests with a 60 inch LED display, a gooseneck and a wireless handheld microphone and a technician for up to 6 hours."
+    },
+    {
+      "question": "How many microphones do I need for a ceremony?",
+      "answer": "One for the host, plus one for the winners, which is either a second handheld that is passed along or a gooseneck microphone on a lectern. The MICE Pack includes one handheld and one gooseneck. A second handheld is an add on by quote, and we say plainly if your format needs more than we own."
+    },
+    {
+      "question": "Do you provide stage lighting for an awards ceremony?",
+      "answer": "Yes, within our own inventory: 2 Eurolite LED KLS-200 light bars, 1 ADJ Encore FRI50Z Fresnel wash light and 1 ADJ Element H6 Pack of 6 wireless uplights. The Eurolite bars run on a foot pedal and the other fixtures are fixed and set up by our crew, with no DMX and no moving heads. A rig or an overhead truss is not in our own inventory, and we look for a solution with our suppliers, if there is one."
+    },
+    {
+      "question": "Can you provide confetti or fireworks?",
+      "answer": "Not from our own inventory. At the awards ceremony of the Billie Jean King Cup 2024 we supplied the lighting and the sound, and the confetti and the fireworks were not ours. If your ceremony needs them, tell us what you have in mind and we check whether a supplier can cover it, if there is one. We do not promise availability or a price until we have checked."
     }
   ],
   "outdoor-movie-screen-and-projector-rental": [

@@ -538,6 +538,16 @@ export default {
 			slug: 'comment-organiser-un-congres-a-malaga',
 			keyword: 'comment organiser un congrès à Malaga',
 			status: 'propuesta'
+		},
+		'awards-ceremony-production': {
+			slug: 'ceremonie-de-remise-de-prix-malaga',
+			keyword: 'cérémonie de remise de prix à Malaga',
+			status: 'propuesta'
+		},
+		'keynote-speaker-av-requirements': {
+			slug: 'besoins-audiovisuels-conferencier-principal-malaga',
+			keyword: "besoins audiovisuels d'un conférencier principal à Malaga",
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
