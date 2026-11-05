@@ -1,0 +1,31 @@
+{
+	"date": "2026-11-05",
+	"run": {
+		"status": "ok",
+		"calls": [
+			{ "tool": "google_suggestions", "args": "seeds 1-2, en, es", "outcome": "ok" },
+			{ "tool": "google_suggestions", "args": "seeds 3-4, en, es", "outcome": "empty" },
+			{ "tool": "google_suggestions", "args": "seeds 5-6, en, es", "outcome": "ok" },
+			{ "tool": "google_suggestions", "args": "seeds 7-8, en, es", "outcome": "ok" },
+			{ "tool": "google_suggestions", "args": "seeds 9-10, en, es", "outcome": "ok" }
+		]
+	},
+	"seeds": [
+		"audio-visual-rental-for-product-launches",
+		"audio-visual-rental",
+		"audio-visual-rental-for-art-exhibitions",
+		"audio-visual-rental-for-corporate-events",
+		"audio-visual-rental-for-corporate-meetings",
+		"audio-visual-rental-for-outdoor-events",
+		"audio-visual-rental-for-press-conferences",
+		"audio-visual-rental-for-private-parties",
+		"audio-visual-rental-for-religious-events",
+		"audio-visual-rental-for-remote-presentations"
+	],
+	"suggestions": [
+		{
+			"seed": "audio-visual-rental-for-product-launches",
+			"phrase": "what is an audiovisual platform"
+		}
+	]
+}
