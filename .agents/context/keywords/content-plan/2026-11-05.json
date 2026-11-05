@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-05",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 20,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "todo": [],
+  "items": [
+    {
+      "keywords": ["music equipment for hire", "music equipment for rent"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 72 1 impr / gsc pos 51 1 impr",
+      "reason": "Misma intención que el alquiler de audio ya servido por /blog/sound-system-rental/ y /blog/audio-visual-rental-for-music-performances/. Una sola impresión, sin señal de demanda. Una página nueva sería canibalización (creating-helpful-content.md)."
+    },
+    {
+      "keywords": ["new trend party hire"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 36 1 impr",
+      "reason": "Intención difusa de decoración y tendencias de fiesta, no es equipamiento AV que MEG tenga o gestione. Una impresión sin señal."
+    },
+    {
+      "keywords": ["noleggio audiovisivi"],
+      "cluster": "audiovisual equipment rental service",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 37 1 impr",
+      "reason": "Es el término italiano de la página pilar /blog/audiovisual-equipment-rental-service/, que se cubre con la traducción al italiano. No requiere contenido nuevo en inglés."
+    },
+    {
+      "keywords": ["outdoor cinema rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 42 1 impr",
+      "reason": "Cubierto por /blog/outdoor-movie-screen-and-projector-rental/, misma intención. Una página nueva sería canibalización."
+    },
+    {
+      "keywords": ["outdoor wedding"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 2 1 impr",
+      "reason": "Cubierto por /blog/outdoor-wedding-rental-considerations/. Es un término genérico sin demanda medida y ya está en posición 2."
+    },
+    {
+      "keywords": ["party equipment rental service"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 49 1 impr",
+      "reason": "Cubierto por /blog/audio-visual-rental-for-private-parties/. Una impresión, sin señal para una página nueva."
+    },
+    {
+      "keywords": ["party lighting hire", "party lights for rent near me", "rent outdoor lights"],
+      "cluster": "stage lighting rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 1 1 impr / gsc pos 64 1 impr / gsc pos 75 1 impr",
+      "reason": "Misma intención de iluminación de fiesta, servida por /blog/stage-lighting-rental/ y /blog/stage-uplighting/. La variante near me es una variante local de una página existente (Doorway abuse, spam-policies.md)."
+    },
+    {
+      "keywords": ["party speakers near me", "rent dj speakers", "rent a sound system", "rent audio"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 5 1 impr / gsc pos 66 1 impr / gsc pos 62 1 impr / gsc pos 6 1 impr",
+      "reason": "Cubierto por /blog/sound-system-rental/, cuyas FAQs ya incluyen un sistema DJ completo y solo altavoces. La variante near me ya la sirve /blog/audio-visual-hire-near-me-in-malaga-spain/. No se crea página nueva."
+    },
+    {
+      "keywords": ["photo of stitch"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 7 1 impr",
+      "reason": "Fuera de mercado: no tiene relación con el negocio de MEG."
+    },
+    {
+      "keywords": ["projector rental near me"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 7 1 impr",
+      "reason": "Variante near me de /blog/projector-rental/ y de /blog/audio-video-rental-near-me-in-malaga-spain/. Doorway abuse (spam-policies.md), no se crea página nueva."
+    },
+    {
+      "keywords": ["puerto de malaga"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 4 1 impr",
+      "reason": "Búsqueda de lugar o turismo, sin intención de alquiler. MEG no tiene nada propio que responder (creating-helpful-content.md)."
+    },
+    {
+      "keywords": ["rent a date for a wedding"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 80 1 impr",
+      "reason": "Fuera de mercado: es alquilar una acompañante, no equipamiento."
+    },
+    {
+      "keywords": ["rent a wedding arch near me", "rent chairs for wedding"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 6 1 impr / gsc pos 48 1 impr",
+      "reason": "Arcos y sillas son mobiliario y decoración, no inventario AV de MEG (CLAUDE.md, silo wedding rentals solo AV). Además es una variante near me (Doorway abuse, spam-policies.md)."
+    }
+  ]
+}
