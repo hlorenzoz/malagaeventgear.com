@@ -13442,10 +13442,14 @@
       "cluster": "event technology service",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "planned",
+      "url": "/blog/awards-ceremony-production/",
+      "status": "published",
       "reason": null,
       "sources": {
+        "blog": {
+          "firstSeen": "2026-11-05",
+          "lastSeen": "2026-11-05"
+        },
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-05"
@@ -36412,10 +36416,14 @@
       "cluster": "event technology service",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/keynote-speaker-av-requirements/",
+      "status": "published",
       "reason": null,
       "sources": {
+        "blog": {
+          "firstSeen": "2026-11-05",
+          "lastSeen": "2026-11-05"
+        },
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-05"
@@ -87557,6 +87565,24 @@
       }
     },
     {
+      "id": "can-you-provide-confetti-or-fireworks",
+      "question": "Can you provide confetti or fireworks?",
+      "keywordId": "awards-ceremony-production",
+      "cluster": "event technology service",
+      "url": "/blog/awards-ceremony-production/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-05",
+          "lastSeen": "2026-11-05",
+          "urls": [
+            "/blog/awards-ceremony-production/"
+          ]
+        }
+      }
+    },
+    {
       "id": "can-you-provide-simultaneous-interpretation-for-a-congress",
       "question": "Can you provide simultaneous interpretation for a congress?",
       "keywordId": "mice-events-malaga",
@@ -88718,6 +88744,24 @@
       }
     },
     {
+      "id": "do-you-provide-a-confidence-monitor-or-a-countdown-clock",
+      "question": "Do you provide a confidence monitor or a countdown clock?",
+      "keywordId": "keynote-speaker-av-requirements",
+      "cluster": "event technology service",
+      "url": "/blog/keynote-speaker-av-requirements/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-05",
+          "lastSeen": "2026-11-05",
+          "urls": [
+            "/blog/keynote-speaker-av-requirements/"
+          ]
+        }
+      }
+    },
+    {
       "id": "do-you-provide-a-generator-for-venues-without-power-access",
       "question": "Do you provide a generator for venues without power access?",
       "keywordId": "audio-visual-rental-for-outdoor-events",
@@ -89229,6 +89273,24 @@
           "lastSeen": "2026-11-05",
           "urls": [
             "/blog/wedding-rentals/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "do-you-provide-stage-lighting-for-an-awards-ceremony",
+      "question": "Do you provide stage lighting for an awards ceremony?",
+      "keywordId": "awards-ceremony-production",
+      "cluster": "event technology service",
+      "url": "/blog/awards-ceremony-production/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-05",
+          "lastSeen": "2026-11-05",
+          "urls": [
+            "/blog/awards-ceremony-production/"
           ]
         }
       }
@@ -92557,6 +92619,24 @@
           "lastSeen": "2026-11-05",
           "urls": [
             "/blog/audio-visual-rental-for-product-launches/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-microphones-do-i-need-for-a-ceremony",
+      "question": "How many microphones do I need for a ceremony?",
+      "keywordId": "awards-ceremony-production",
+      "cluster": "event technology service",
+      "url": "/blog/awards-ceremony-production/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-05",
+          "lastSeen": "2026-11-05",
+          "urls": [
+            "/blog/awards-ceremony-production/"
           ]
         }
       }
@@ -97222,6 +97302,24 @@
       }
     },
     {
+      "id": "what-av-does-a-keynote-speaker-need",
+      "question": "What AV does a keynote speaker need?",
+      "keywordId": "keynote-speaker-av-requirements",
+      "cluster": "event technology service",
+      "url": "/blog/keynote-speaker-av-requirements/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-05",
+          "lastSeen": "2026-11-05",
+          "urls": [
+            "/blog/keynote-speaker-av-requirements/"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-av-equipment-do-i-actually-get-for-my-stand",
       "question": "What AV equipment do I actually get for my stand?",
       "keywordId": "audio-visual-rental-for-trade-shows",
@@ -97934,6 +98032,24 @@
           "lastSeen": "2026-11-05",
           "urls": [
             "/blog/audio-visual-rental-for-virtual-events/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-equipment-does-an-awards-ceremony-need",
+      "question": "What equipment does an awards ceremony need?",
+      "keywordId": "awards-ceremony-production",
+      "cluster": "event technology service",
+      "url": "/blog/awards-ceremony-production/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-05",
+          "lastSeen": "2026-11-05",
+          "urls": [
+            "/blog/awards-ceremony-production/"
           ]
         }
       }
@@ -100779,6 +100895,24 @@
       }
     },
     {
+      "id": "which-microphone-is-best-for-a-keynote-speaker",
+      "question": "Which microphone is best for a keynote speaker?",
+      "keywordId": "keynote-speaker-av-requirements",
+      "cluster": "event technology service",
+      "url": "/blog/keynote-speaker-av-requirements/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-05",
+          "lastSeen": "2026-11-05",
+          "urls": [
+            "/blog/keynote-speaker-av-requirements/"
+          ]
+        }
+      }
+    },
+    {
       "id": "which-microphone-suits-a-noisy-room",
       "question": "Which microphone suits a noisy room?",
       "keywordId": "conference-table-microphone-rental",
@@ -101193,6 +101327,24 @@
             "pros-and-cons-of-wedding-rentals",
             "protecting-your-wedding-rental-items",
             "tips-for-reducing-wedding-rental-costs"
+          ]
+        }
+      }
+    },
+    {
+      "id": "who-runs-the-speakers-slides",
+      "question": "Who runs the speaker's slides?",
+      "keywordId": "keynote-speaker-av-requirements",
+      "cluster": "event technology service",
+      "url": "/blog/keynote-speaker-av-requirements/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-05",
+          "lastSeen": "2026-11-05",
+          "urls": [
+            "/blog/keynote-speaker-av-requirements/"
           ]
         }
       }
