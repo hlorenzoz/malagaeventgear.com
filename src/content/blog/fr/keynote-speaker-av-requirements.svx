@@ -10,7 +10,7 @@ sourceUpdated: "2026-11-05"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Chercher les besoins audiovisuels d'un conférencier principal à Malaga, en Espagne, c'est le plus souvent être une personne qui a réservé un orateur principal et reçu une fiche technique : la liste de ce dont l'orateur a besoin dans la salle. Une keynote est l'intervention autour de laquelle tout l'événement est construit, et le volet audiovisuel doit donc fonctionner du premier coup. Cette page traduit une fiche technique type en termes simples, indique ce que nous fournissons à partir de notre propre inventaire et ce que nous allons chercher ou ne faisons pas.
+Chercher les besoins audiovisuels d'un conférencier principal à Malaga, en Espagne, c'est le plus souvent avoir réservé un orateur principal et reçu une fiche technique : la liste de ce dont l'orateur a besoin dans la salle. Une keynote est l'intervention autour de laquelle tout l'événement est construit, et le volet audiovisuel doit donc fonctionner du premier coup. Cette page traduit une fiche technique type en termes simples, indique ce que nous fournissons à partir de notre propre inventaire et ce que nous allons chercher ou ne faisons pas.
 
 Malaga Event Gear (MEG) fournit des microphones, du son, un écran ou un projecteur, un pupitre et un technicien pour des événements d'entreprise à Malaga et sur l'ensemble de la Costa del Sol. Nous ne sommes ni une agence de conférenciers ni une agence événementielle. Notre rôle relève de notre page [prestataire technique événementiel](/blog/event-technology-service/), où vous pouvez voir le reste de notre offre.
 
@@ -37,7 +37,7 @@ Malaga Event Gear (MEG) fournit des microphones, du son, un écran ou un project
 
 ---
 
-Un conférencier principal demande en général les mêmes quelques choses : un microphone qui libère ses mains ou convient à sa façon de se déplacer, un pupitre ou un espace dégagé pour se tenir, un écran qui montre ses diapositives, un moyen de s'entendre et un test son avant l'ouverture des portes. Malaga Event Gear fournit les microphones, le son, un écran ou un projecteur, un pupitre et un technicien qui opère le son et les microphones, à partir du [MICE Pack](/packages/mice/) à 490 euros HT pour jusqu'à 120 invités. L'orateur gère ses propres diapositives. Un écran de retour pour l'orateur, l'enregistrement et tout ce qui est hors de notre propre inventaire passent par des fournisseurs.
+Un conférencier principal demande en général les mêmes quelques choses : un microphone qui libère ses mains ou convient à sa façon de se déplacer, un pupitre ou un espace dégagé pour se tenir, un écran qui montre ses diapositives, un moyen de s'entendre et un test son avant l'ouverture des portes. Malaga Event Gear fournit les microphones, le son, un écran ou un projecteur, un pupitre et un technicien qui opère le son et les microphones, à partir du [MICE Pack](/packages/mice/) à 490 euros HT pour 120 invités au maximum. L'orateur gère ses propres diapositives. Un écran de retour pour l'orateur, l'enregistrement et tout ce qui est hors de notre propre inventaire passent par des fournisseurs.
 
 ## Points clés
 
@@ -132,7 +132,7 @@ Les besoins audiovisuels d'un conférencier principal à Malaga se résument à 
 
 ### De quel équipement audiovisuel un conférencier principal a-t-il besoin ?
 
-En général un microphone adapté à sa façon de se déplacer, un pupitre ou une scène dégagée, un écran pour les diapositives, un moyen de brancher son ordinateur portable, un retour de scène pour s'entendre et un test son. Un technicien opère le son et les microphones, et l'orateur gère ses propres diapositives. Le [MICE Pack](/packages/mice/) couvre une salle de jusqu'à 120 invités.
+En général un microphone adapté à sa façon de se déplacer, un pupitre ou une scène dégagée, un écran pour les diapositives, un moyen de brancher son ordinateur portable, un retour de scène pour s'entendre et un test son. Un technicien opère le son et les microphones, et l'orateur gère ses propres diapositives. Le [MICE Pack](/packages/mice/) couvre une salle pouvant accueillir jusqu'à 120 invités.
 
 ### Quel microphone est le meilleur pour un conférencier principal ?
 

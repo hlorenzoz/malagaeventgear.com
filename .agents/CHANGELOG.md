@@ -7,6 +7,11 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (blog): revision de las traducciones de awards-ceremony-production y keynote-speaker-av-requirements (2026-11-05)
+- Revision independiente de los 24 archivos (3 revisores de solo lectura por grupo de idiomas, comparando cada traduccion completa con el ingles). Ningun hecho, cifra ni negacion estaba mal en ningun idioma. Sin cambio de fechas: son correcciones de redaccion de traducciones ya publicadas el mismo dia.
+- Errores corregidos: it (`Stabilite` en voi dentro de un texto en tu), pt-br (frase de la ceremonia sin gramatica), nl (`alle camerawerk` por `al het camerawerk`). Tambien: pt-pt `cronometro` (cuenta hacia arriba) por `temporizador` y los titulos "De que equipamento audiovisual..." de pt-pt y pt-br con su anchor, fr `de jusqu'a 120` y una frase del primer parrafo, it `faretti` por `fari` como el post de iluminacion, zh-tw `影像牆` por `電視牆` y `占用` por `佔用`, zh-hk `USB記憶體` por `USB記憶棒`, zh `舞台平台` como los posts hermanos, y la concordancia y la ambiguedad de "entradas" (musica de entrada) en sv, da y nb.
+- Sin tocar, por decision previa: el anchor chino del pilar (`活动灯光舞台搭建`, `活動燈光舞台架設`, `活動燈光舞台搭建`) es el titulo del propio pilar y el caso de #T0030 (el usuario decidio no cambiar sus URLs ni su keyword). Pendiente: revision nativa por muestreo.
+
 ### Added (blog): awards-ceremony-production y keynote-speaker-av-requirements, lote 2 del silo event-technology-service (#T0186, #T0187) (2026-11-05)
 - Origen: `.agents/context/keywords/corporate-cluster-plan-2026-10-13.md`, ideas 10 y 7 de #T0035 (las dos con evidencia y sin dato del negocio pendiente). Cupo del dia: 2 posts nuevos.
 - `awards-ceremony-production`: la parte audiovisual de una entrega de premios (micros para quien presenta y quien recibe, luz del escenario, pantalla, orden del acto). Experience solo del post News `billie-jean-king-cup-2024-sound-and-lighting` (iluminacion y sonido en la ceremonia de premiacion, confeti y fuegos artificiales NO eran nuestros). Iluminacion solo del inventario real: 2 Eurolite KLS-200, 1 Fresnel ADJ Encore FRI50Z, 1 kit ADJ Element H6, barras RGBW del Eco Pack, sin DMX ni cabezas moviles. Camaras, streaming, grabacion, gráficos y muro de video: fuera del inventario propio. Portada `blog/1191`, imagen `blog/1190`.

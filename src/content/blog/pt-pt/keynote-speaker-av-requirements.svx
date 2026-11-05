@@ -10,7 +10,7 @@ sourceUpdated: "2026-11-05"
 	import InlineCTA from '$lib/components/blog/InlineCTA.svelte';
 </script>
 
-Quem procura requisitos audiovisuais de um orador principal em Málaga, Espanha, costuma ter contratado um orador principal e recebido um rider técnico: uma lista do que o orador precisa na sala. Uma keynote é a intervenção em torno da qual todo o evento é construído, por isso o lado audiovisual tem de funcionar à primeira. Esta página traduz um rider típico em termos simples, diz o que fornecemos do nosso inventário próprio e diz o que obtemos ou não fazemos.
+Quem procura requisitos audiovisuais de um orador principal em Málaga, Espanha, costuma ser alguém que contratou um orador principal e recebido um rider técnico: uma lista do que o orador precisa na sala. Uma keynote é a intervenção em torno da qual todo o evento é construído, por isso o lado audiovisual tem de funcionar à primeira. Esta página traduz um rider típico em termos simples, diz o que fornecemos do nosso inventário próprio e diz o que obtemos ou não fazemos.
 
 A Malaga Event Gear (MEG) fornece microfones, som, um ecrã ou um projetor, um púlpito e um técnico para eventos empresariais em Málaga e no resto da Costa del Sol. Não somos uma agência de oradores nem uma agência de eventos. A nossa parte insere-se na nossa página de [serviços técnicos para eventos](/blog/event-technology-service/), onde pode ver o resto da nossa oferta.
 
@@ -28,9 +28,9 @@ A Malaga Event Gear (MEG) fornece microfones, som, um ecrã ou um projetor, um p
 -   [Onde entregamos e como reservar](#onde-entregamos-e-como-reservar)
 -   [Conclusão](#conclusão)
 -   [Perguntas frequentes](#perguntas-frequentes)
-    -   [De que audiovisual precisa um orador principal?](#de-que-audiovisual-precisa-um-orador-principal)
+    -   [De que equipamento audiovisual precisa um orador principal?](#de-que-equipamento-audiovisual-precisa-um-orador-principal)
     -   [Qual é o melhor microfone para um orador principal?](#qual-é-o-melhor-microfone-para-um-orador-principal)
-    -   [Fornecem um monitor de apoio ao orador ou um cronómetro de contagem decrescente?](#fornecem-um-monitor-de-apoio-ao-orador-ou-um-cronómetro-de-contagem-decrescente)
+    -   [Fornecem um monitor de apoio ao orador ou um temporizador de contagem decrescente?](#fornecem-um-monitor-de-apoio-ao-orador-ou-um-temporizador-de-contagem-decrescente)
     -   [Quem gere os diapositivos do orador?](#quem-gere-os-diapositivos-do-orador)
 
 ## Resumo
@@ -46,7 +46,7 @@ Um orador principal costuma pedir sempre as mesmas poucas coisas: um microfone q
 -   Os microfones de mão e de pescoço de ganso fazem parte dos nossos pacotes. Os microfones de lapela e de cabeça são um item à parte, sob orçamento.
 -   Um púlpito de metacrilato é um extra opcional do MICE Pack por 50 euros.
 -   O técnico opera o som e os microfones. O orador gere os seus próprios diapositivos.
--   Os monitores de palco fazem parte do nosso inventário e são orçamentados a pedido. Um monitor de apoio ao orador, um cronómetro de contagem decrescente e a gravação não.
+-   Os monitores de palco fazem parte do nosso inventário e são orçamentados a pedido. Um monitor de apoio ao orador, um temporizador de contagem decrescente e a gravação não.
 -   Um teste de som faz parte do plano: indique-nos a hora e confirmamos que o técnico está presente.
 
 -   **Quem entrega?** A nossa equipa entrega, instala e testa o equipamento. Trabalhamos só com entrega, sem levantamento por parte do cliente.
@@ -96,7 +96,7 @@ O orador gere os seus próprios diapositivos. O nosso técnico opera o som e os 
 
 -   **Do nosso inventário próprio:** microfones de mão sem fios, microfones de pescoço de ganso, microfones de lapela e de cabeça, um púlpito, colunas ativas, monitores de palco, um ecrã LED de 60 polegadas ou um projetor com ecrã e um técnico.
 -   **Extras sob orçamento:** um segundo microfone, um de lapela ou de cabeça, monitores de palco e uma hora extra de técnico por 40 euros.
--   **Obtido junto de fornecedores, caso exista solução:** um monitor de apoio ao orador, um cronómetro de contagem decrescente ou um telecomando de apresentações, que não fazem parte do nosso inventário próprio. Não prometemos disponibilidade nem preço até termos verificado.
+-   **Obtido junto de fornecedores, caso exista solução:** um monitor de apoio ao orador, um temporizador de contagem decrescente ou um telecomando de apresentações, que não fazem parte do nosso inventário próprio. Não prometemos disponibilidade nem preço até termos verificado.
 -   **Não é nosso:** o orador, os diapositivos, a gravação e a transmissão em direto, e qualquer trabalho de câmara.
 
 ## Como responder ao rider de um orador
@@ -130,7 +130,7 @@ Os requisitos audiovisuais de um orador principal em Málaga resumem-se a um mic
 
 ## Perguntas frequentes
 
-### De que audiovisual precisa um orador principal?
+### De que equipamento audiovisual precisa um orador principal?
 
 Normalmente de um microfone que se ajuste à forma como se movimenta, um púlpito ou um palco livre, um ecrã para os diapositivos, uma forma de ligar o portátil, um monitor de palco para se ouvir e um teste de som. Um técnico opera o som e os microfones, e o orador gere os seus próprios diapositivos. O [MICE Pack](/packages/mice/) cobre uma sala de até 120 convidados.
 
@@ -138,9 +138,9 @@ Normalmente de um microfone que se ajuste à forma como se movimenta, um púlpit
 
 Depende da forma como o orador trabalha. Um pescoço de ganso num púlpito para um orador que fica no mesmo sítio, um microfone de mão para um que se desloca, e um microfone de lapela ou de cabeça para um que precisa das duas mãos livres. Os nossos microfones de mão e de pescoço de ganso fazem parte dos nossos pacotes, e os microfones de lapela e de cabeça são um item à parte, sob orçamento.
 
-### Fornecem um monitor de apoio ao orador ou um cronómetro de contagem decrescente?
+### Fornecem um monitor de apoio ao orador ou um temporizador de contagem decrescente?
 
-Não a partir do nosso inventário próprio. Temos monitores de palco, colunas que permitem ao orador ouvir-se a si próprio, orçamentados a pedido. Um monitor de apoio ao orador, um ecrã que mostra ao orador os seus próprios diapositivos, e um cronómetro de contagem decrescente não fazem parte do nosso inventário próprio. Diga-nos do que precisa e procuramos uma solução com os nossos fornecedores, caso exista.
+Não a partir do nosso inventário próprio. Temos monitores de palco, colunas que permitem ao orador ouvir-se a si próprio, orçamentados a pedido. Um monitor de apoio ao orador, um ecrã que mostra ao orador os seus próprios diapositivos, e um temporizador de contagem decrescente não fazem parte do nosso inventário próprio. Diga-nos do que precisa e procuramos uma solução com os nossos fornecedores, caso exista.
 
 ### Quem gere os diapositivos do orador?
 
