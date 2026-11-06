@@ -33545,13 +33545,17 @@
       "id": "hotel-in-house-av-vs-independent-av-supplier",
       "keyword": "hotel in house av vs independent av supplier",
       "locale": "en",
-      "cluster": "unassigned",
+      "cluster": "event technology service",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/hotel-in-house-av-vs-independent-av-supplier/",
+      "status": "published",
       "reason": null,
       "sources": {
+        "blog": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06"
+        },
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-06"
@@ -86483,6 +86487,24 @@
       }
     },
     {
+      "id": "can-an-outside-supplier-work-in-any-hotel",
+      "question": "Can an outside supplier work in any hotel?",
+      "keywordId": "hotel-in-house-av-vs-independent-av-supplier",
+      "cluster": "event technology service",
+      "url": "/blog/hotel-in-house-av-vs-independent-av-supplier/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "urls": [
+            "/blog/hotel-in-house-av-vs-independent-av-supplier/"
+          ]
+        }
+      }
+    },
+    {
       "id": "can-audio-visual-equipment-be-used-outdoors",
       "question": "Can audio visual equipment be used outdoors?",
       "keywordId": "audio-visual-hire-near-me",
@@ -90094,6 +90116,24 @@
           "lastSeen": "2026-11-06",
           "urls": [
             "/blog/weather-considerations-for-outdoor-rentals/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "does-an-independent-supplier-cost-more-than-the-hotels-av",
+      "question": "Does an independent supplier cost more than the hotel's AV?",
+      "keywordId": "hotel-in-house-av-vs-independent-av-supplier",
+      "cluster": "event technology service",
+      "url": "/blog/hotel-in-house-av-vs-independent-av-supplier/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "urls": [
+            "/blog/hotel-in-house-av-vs-independent-av-supplier/"
           ]
         }
       }
@@ -97260,6 +97300,24 @@
       }
     },
     {
+      "id": "should-i-use-the-hotels-av-or-an-outside-supplier",
+      "question": "Should I use the hotel's AV or an outside supplier?",
+      "keywordId": "hotel-in-house-av-vs-independent-av-supplier",
+      "cluster": "event technology service",
+      "url": "/blog/hotel-in-house-av-vs-independent-av-supplier/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "urls": [
+            "/blog/hotel-in-house-av-vs-independent-av-supplier/"
+          ]
+        }
+      }
+    },
+    {
       "id": "video-switcher-vs-camera-or-vision-mixer-for-live-streaming-what-is-the-real-difference",
       "question": "Video switcher vs camera or vision mixer for live streaming, what is the real difference?",
       "keywordId": "video-switcher-rental",
@@ -100417,6 +100475,24 @@
           "lastSeen": "2026-11-06",
           "urls": [
             "/blog/how-to-choose-wedding-rentals/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-should-i-ask-the-hotel-about-its-av",
+      "question": "What should I ask the hotel about its AV?",
+      "keywordId": "hotel-in-house-av-vs-independent-av-supplier",
+      "cluster": "event technology service",
+      "url": "/blog/hotel-in-house-av-vs-independent-av-supplier/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "urls": [
+            "/blog/hotel-in-house-av-vs-independent-av-supplier/"
           ]
         }
       }
