@@ -1,7 +1,57 @@
 {
 	"version": 1,
-	"updated": "2026-11-05",
+	"updated": "2026-11-06",
 	"reports": [
+		{
+			"date": "2026-11-06",
+			"kind": "ai-visibility",
+			"status": "ok",
+			"calls": [
+				{
+					"tool": "brand_config",
+					"outcome": "ok"
+				},
+				{
+					"tool": "brand_visibility_overview",
+					"outcome": "ok"
+				},
+				{
+					"tool": "brand_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "ok"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				}
+			],
+			"summary": [
+				"AI visibility: total_prompts 10, total_answers 0, brand mentions 0, visibility 0 percent.",
+				"No prompt has been evaluated yet (0 answers each), so this is not evaluated, not absent.",
+				"Competitors tracked: sonidomalaga.com, avhirespain.com. brand_operations_used 0 of 100.",
+				"10 prompts sin evaluar (sin datos)"
+			],
+			"findings": [],
+			"discovered": {
+				"keywords": 0,
+				"aiPrompts": 31
+			}
+		},
 		{
 			"date": "2026-11-05",
 			"kind": "seo-opportunities",
