@@ -1533,6 +1533,23 @@
       ]
     },
     {
+      "id": "#T0190",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Post nuevo /blog/hotel-in-house-av-vs-independent-av-supplier/: hotel in house av vs independent av supplier (silo event-technology-service)",
+      "anotada": "2026-11-06",
+      "hecha": "2026-11-06",
+      "origen": "usuario",
+      "notas": [
+        "implementada 2026-11-06",
+        "commit aa0f23b7"
+      ],
+      "descripcion": [
+        "Corporate cluster plan 2026-10-13, idea 3 de #T0035. Cuando conviene el AV del hotel y cuando un proveedor externo, para quien organiza un congreso o evento en un hotel. Sin atacar a ningun hotel con nombre. Sin demanda medida (logica de negocio): se hace porque el usuario pidio seguir con el cluster corporativo (2026-11-06). El post pendiente con demanda medida (servicios, logistica y convenciones en Malaga, unas 290 impresiones al ano) sigue esperando la decision 4 del plan."
+      ]
+    },
+    {
       "id": "#T0054",
       "estado": "hecha",
       "prioridad": "alta",
