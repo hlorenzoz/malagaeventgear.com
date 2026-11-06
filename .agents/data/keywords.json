@@ -62492,6 +62492,16 @@
             "ctr": 0,
             "position": 3
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -62520,6 +62530,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 7
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -62668,6 +62688,16 @@
             "ctr": 0,
             "position": 64
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -62760,6 +62790,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 6
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "add-section",
+            "targetUrl": "/blog/audio-visual-rental-for-weddings/",
+            "priority": "medium"
           }
         }
       },
@@ -63205,6 +63245,16 @@
             "ctr": 0,
             "position": 41
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -63426,6 +63476,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 39
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
           }
         }
       },
@@ -64629,6 +64689,16 @@
             "ctr": 0,
             "position": 5
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -64812,6 +64882,16 @@
             "ctr": 0,
             "position": 57
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -64840,6 +64920,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 7
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -65022,6 +65112,16 @@
             "ctr": 0,
             "position": 3
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -65126,6 +65226,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 72
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -66173,6 +66283,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-06"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -66201,6 +66321,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 42
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
           }
         }
       },
@@ -66863,6 +66993,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 33
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -70059,6 +70199,16 @@
             "ctr": 0,
             "position": 51
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -70219,6 +70369,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 42
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -71482,6 +71642,16 @@
             "ctr": 0,
             "position": 58
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "add-section",
+            "targetUrl": "/blog/audio-visual-rental-for-weddings/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -71949,6 +72119,16 @@
             "ctr": 0,
             "position": 80
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -72142,6 +72322,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 256
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
           }
         }
       },
@@ -72919,6 +73109,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 3
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "stats": {
+            "asOf": "2026-11-06",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },

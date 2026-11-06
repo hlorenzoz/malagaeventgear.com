@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-06",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 20,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "items": [
+    {
+      "keywords": ["rent sound system for wedding", "sound system rental for wedding"],
+      "cluster": "wedding rentals",
+      "action": "add-section",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 6 1 impr",
+      "reason": "Intención de boda con sonido que ningún encabezado de audio-visual-rental-for-weddings recoge (revisados sound-system-rental, que es genérico, y all-in-one-wedding-rental-packages). Se añade como H3 bajo la sección de baile para no crear un post nuevo. Encabezado natural en lugar de la frase literal. Cumple creating-helpful-content.md: responde a clientes reales de MEG.",
+      "targetUrl": "/blog/audio-visual-rental-for-weddings/",
+      "file": "src/content/blog/audio-visual-rental-for-weddings.svx",
+      "headingLevel": 3,
+      "heading": "Sound System Rental for a Wedding: Matching the Size to Your Guest List",
+      "after": "Dancing: When the Volume Changes",
+      "brief": "Responder qué sistema de sonido necesita una boda según invitados y espacio (ceremonia, banquete, baile), usando solo equipo y paquetes de src/lib/data/packages.ts y el CSV de inventario más reciente y el Wedding Pack. Enlazar sin crear enlaces nuevos de silo más allá de los existentes. No inventar marcas, cantidades ni precios que no estén en esos archivos."
+    },
+    {
+      "keywords": ["rent smoke machine"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 3 1 impr",
+      "reason": "Cubierto por /blog/smoke-machine-rental/ (keyword smoke machine rental, encabezados sobre la máquina real y la alarma de incendios). Un post nuevo sería canibalización."
+    },
+    {
+      "keywords": ["rent sound equipment", "renting sound equipment", "sound rental equipment", "sound rentals"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 7 1 impr",
+      "reason": "Misma intención cubierta por /blog/sound-system-rental/, que ya tiene la FAQ 'How much does it cost to rent sound equipment?' y la sección 'What's Included in a Sound System Rental'."
+    },
+    {
+      "keywords": ["rent sound equipment near me", "rent speakers for a party near me"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 64 1 impr",
+      "reason": "Variante near me de una página existente. /blog/sound-system-rental/ ya trata 'sound system rental near me' en FAQ y 'Booking and Service Area'. Doorway abuse en spam-policies.md."
+    },
+    {
+      "keywords": ["rental speakers", "speaker hire"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 5 1 impr",
+      "reason": "Cubierto por la FAQ 'Can I rent just speakers, without a microphone or technician?' y la sección de altavoces activos en /blog/sound-system-rental/."
+    },
+    {
+      "keywords": ["rent tables and chairs for wedding", "seating arrangement tips for rentals"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 39 1 impr",
+      "reason": "Mobiliario y decoración: el silo wedding rentals es solo audiovisual y MEG no ofrece mobiliario (CLAUDE.md, posicionamiento). Un post sin nada propio de MEG sería contenido genérico (creating-helpful-content.md)."
+    },
+    {
+      "keywords": ["rentals for weddings", "rentals wedding"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 7 1 impr",
+      "reason": "Término amplio que ya pertenece al pilar /blog/wedding-rentals/. Una sección nueva duplicaría el pilar."
+    },
+    {
+      "keywords": ["resort wedding packages", "small wedding packages in spain all inclusive", "spain destination wedding packages"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 80 1 impr",
+      "reason": "Intención de paquetes de boda con lugar y catering, que MEG no vende. La parte audiovisual ya está en /blog/all-in-one-wedding-rental-packages/ (FAQs de destination wedding y qué no incluye)."
+    },
+    {
+      "keywords": ["set magic audiovisual", "spanish equipment for renters"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 42 1 impr",
+      "reason": "Sin intención clara de contratar equipo audiovisual en Málaga, una impresión y sin nada que MEG pueda responder de forma genuina."
+    }
+  ]
+}
