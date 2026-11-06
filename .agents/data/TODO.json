@@ -769,26 +769,6 @@
       ]
     },
     {
-      "id": "#T0188",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Nueva sección H3 en /blog/audio-visual-rental-for-weddings/: \"Sound System Rental for a Wedding: Matching the Size to Your Guest List\"",
-      "anotada": "2026-11-06",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-11-06, ítem 1)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/audio-visual-rental-for-weddings.svx",
-        "Ubicación: dentro de \"Dancing: When the Volume Changes\"",
-        "Keywords: rent sound system for wedding, sound system rental for wedding (gsc pos 6 1 impr), sin volumen",
-        "Qué cubrir: Responder qué sistema de sonido necesita una boda según invitados y espacio (ceremonia, banquete, baile), usando solo equipo y paquetes de src/lib/data/packages.ts y el CSV de inventario más reciente y el Wedding Pack. Enlazar sin crear enlaces nuevos de silo más allá de los existentes. No inventar marcas, cantidades ni precios que no estén en esos archivos.",
-        "Por qué: Intención de boda con sonido que ningún encabezado de audio-visual-rental-for-weddings recoge (revisados sound-system-rental, que es genérico, y all-in-one-wedding-rental-packages). Se añade como H3 bajo la sección de baile para no crear un post nuevo. Encabezado natural en lugar de la frase literal. Cumple creating-helpful-content.md: responde a clientes reales de MEG.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0175",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1507,6 +1487,28 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0188",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Nueva sección H3 en /blog/audio-visual-rental-for-weddings/: \"Sound System Rental for a Wedding: Matching the Size to Your Guest List\"",
+      "anotada": "2026-11-06",
+      "hecha": "2026-11-06",
+      "origen": "content-strategist (plan 2026-11-06, ítem 1)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audio-visual-rental-for-weddings.svx",
+        "Ubicación: dentro de \"Dancing: When the Volume Changes\"",
+        "Keywords: rent sound system for wedding, sound system rental for wedding (gsc pos 6 1 impr), sin volumen",
+        "Qué cubrir: Responder qué sistema de sonido necesita una boda según invitados y espacio (ceremonia, banquete, baile), usando solo equipo y paquetes de src/lib/data/packages.ts y el CSV de inventario más reciente y el Wedding Pack. Enlazar sin crear enlaces nuevos de silo más allá de los existentes. No inventar marcas, cantidades ni precios que no estén en esos archivos.",
+        "Por qué: Intención de boda con sonido que ningún encabezado de audio-visual-rental-for-weddings recoge (revisados sound-system-rental, que es genérico, y all-in-one-wedding-rental-packages). Se añade como H3 bajo la sección de baile para no crear un post nuevo. Encabezado natural en lugar de la frase literal. Cumple creating-helpful-content.md: responde a clientes reales de MEG.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
     },
     {
       "id": "#T0189",
