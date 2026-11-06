@@ -7,6 +7,11 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): audio-visual-rental-for-weddings, seccion H3 de sistema de sonido segun invitados (#T0188) (2026-11-06)
+- Origen: plan de contenido 2026-11-06, item "rent sound system for wedding / sound system rental for wedding" (gsc pos 6, 1 impresion).
+- Anadido `### Sound System Rental for a Wedding: Matching the Size to Your Guest List` al final de `## Dancing: When the Volume Changes`. Solo hechos de `packages.ts` (Wedding Pack, 80 invitados) y del CSV del 2026-09-26 (HK Audio PR:O, PR:O 18-S, mesas de mezcla). Sin enlaces nuevos, sin precios. El post no tiene Table of Contents en linea, no hubo bullet que anadir.
+- `updatedDate` movido a 2026-11-06 con `just post-sync`, regenerados `post-faqs.json` y `post-toc.json`. Las 12 traducciones quedan desactualizadas y siguen en el mismo cambio.
+
 ### Fixed (blog): revision de las traducciones de awards-ceremony-production y keynote-speaker-av-requirements (2026-11-05)
 - Revision independiente de los 24 archivos (3 revisores de solo lectura por grupo de idiomas, comparando cada traduccion completa con el ingles). Ningun hecho, cifra ni negacion estaba mal en ningun idioma. Sin cambio de fechas: son correcciones de redaccion de traducciones ya publicadas el mismo dia.
 - Errores corregidos: it (`Stabilite` en voi dentro de un texto en tu), pt-br (frase de la ceremonia sin gramatica), nl (`alle camerawerk` por `al het camerawerk`). Tambien: pt-pt `cronometro` (cuenta hacia arriba) por `temporizador` y los titulos "De que equipamento audiovisual..." de pt-pt y pt-br con su anchor, fr `de jusqu'a 120` y una frase del primer parrafo, it `faretti` por `fari` como el post de iluminacion, zh-tw `影像牆` por `電視牆` y `占用` por `佔用`, zh-hk `USB記憶體` por `USB記憶棒`, zh `舞台平台` como los posts hermanos, y la concordancia y la ambiguedad de "entradas" (musica de entrada) en sv, da y nb.

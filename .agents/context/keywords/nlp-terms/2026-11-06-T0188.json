@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-06",
+  "taskId": "#T0188",
+  "slug": "audio-visual-rental-for-weddings",
+  "searchTerm": "audio visual rental for weddings Sound System Rental for a Wedding: Matching the Size to Your Guest List",
+  "status": "partial",
+  "reason": "Thin SERP of small vendor pages and forums. Google position 3 (sso-test.faw.cymru) refused the connection and looked like a spam page, so the next organic vendor page was read instead. Forums were skipped. Overlap between pages is low.",
+  "serp": {
+    "query": "rent sound system for wedding",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://sapphire-panda-2rln.squarespace.com", "title": "Rent a simple sound system for your wedding or event" },
+      { "rank": 2, "url": "https://www.weddingwire.com/biz/raise-the-roof-rentals/b14f069708982637.html", "title": "www.weddingwire.com" },
+      { "rank": 3, "url": "https://audioassociates.bandzoogle.com/", "title": "audioassociates.bandzoogle.com" }
+    ]
+  },
+  "terms": [
+    { "term": "wedding reception", "kind": "entity", "seenIn": 3 },
+    { "term": "wireless microphone", "kind": "entity", "seenIn": 2 },
+    { "term": "delivery and setup", "kind": "related", "seenIn": 2 },
+    { "term": "rental package", "kind": "related", "seenIn": 2 },
+    { "term": "portable speakers", "kind": "entity", "seenIn": 1 },
+    { "term": "portable sound system", "kind": "entity", "seenIn": 1 },
+    { "term": "column speaker", "kind": "entity", "seenIn": 1 },
+    { "term": "18-inch subwoofers", "kind": "entity", "seenIn": 1 },
+    { "term": "mixing console", "kind": "entity", "seenIn": 1 },
+    { "term": "sound engineer", "kind": "related", "seenIn": 1 },
+    { "term": "JBL EON ONE", "kind": "entity", "seenIn": 1 },
+    { "term": "Shure wireless microphone", "kind": "entity", "seenIn": 1 },
+    { "term": "ceremony sound", "kind": "related", "seenIn": 1 },
+    { "term": "cocktail hour audio", "kind": "related", "seenIn": 1 },
+    { "term": "dance party setup", "kind": "related", "seenIn": 1 },
+    { "term": "live band", "kind": "entity", "seenIn": 1 },
+    { "term": "officiant microphone", "kind": "entity", "seenIn": 1 },
+    { "term": "speeches and vows", "kind": "related", "seenIn": 1 },
+    { "term": "Bluetooth music connection", "kind": "related", "seenIn": 1 },
+    { "term": "aux cord", "kind": "entity", "seenIn": 1 },
+    { "term": "XLR transmitter and receiver", "kind": "related", "seenIn": 1 },
+    { "term": "speaker battery life", "kind": "related", "seenIn": 1 },
+    { "term": "Can I connect my own device?", "kind": "question", "seenIn": 1 },
+    { "term": "How long does the battery last?", "kind": "question", "seenIn": 1 },
+    { "term": "Can it be delivered and set up?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "SnapSound", "reason": "competitor product name" },
+    { "term": "Raise the Roof Rentals", "reason": "competitor name" },
+    { "term": "Couples' Choice Awards", "reason": "marketing slogan" },
+    { "term": "Daily package rates", "reason": "prices" },
+    { "term": "Starting price", "reason": "prices" },
+    { "term": "Bandzoogle website platform", "reason": "not vocabulary of the topic" },
+    { "term": "Political events", "reason": "off topic for MEG weddings section" }
+  ]
+}
