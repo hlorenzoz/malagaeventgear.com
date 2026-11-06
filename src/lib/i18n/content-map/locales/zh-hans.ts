@@ -492,6 +492,11 @@ export default {
 			slug: '主题演讲嘉宾视听需求',
 			keyword: '马拉加 主题演讲嘉宾视听需求',
 			status: 'propuesta'
+		},
+		'hotel-in-house-av-vs-independent-av-supplier': {
+			slug: '酒店自有视听还是独立视听供应商',
+			keyword: '马拉加 酒店自有视听还是独立视听供应商',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

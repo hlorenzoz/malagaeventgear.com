@@ -5145,6 +5145,88 @@
       "level": 3
     }
   ],
+  "hotel-in-house-av-vs-independent-av-supplier": [
+    {
+      "id": "brief-overview",
+      "text": "Brief Overview",
+      "level": 2
+    },
+    {
+      "id": "key-highlights",
+      "text": "Key Highlights",
+      "level": 2
+    },
+    {
+      "id": "what-to-ask-the-hotel",
+      "text": "What to Ask the Hotel",
+      "level": 2
+    },
+    {
+      "id": "when-the-hotels-own-av-is-the-easier-choice",
+      "text": "When the Hotel's Own AV Is the Easier Choice",
+      "level": 2
+    },
+    {
+      "id": "when-an-independent-supplier-makes-sense",
+      "text": "When an Independent Supplier Makes Sense",
+      "level": 2
+    },
+    {
+      "id": "what-an-outside-supplier-still-needs-from-the-hotel",
+      "text": "What an Outside Supplier Still Needs From the Hotel",
+      "level": 2
+    },
+    {
+      "id": "how-to-compare-two-quotes",
+      "text": "How to Compare Two Quotes",
+      "level": 2
+    },
+    {
+      "id": "what-we-supply-and-what-we-source",
+      "text": "What We Supply and What We Source",
+      "level": 2
+    },
+    {
+      "id": "a-real-hotel-setup-weve-delivered",
+      "text": "A Real Hotel Setup We've Delivered",
+      "level": 2
+    },
+    {
+      "id": "where-we-deliver-and-how-to-book",
+      "text": "Where We Deliver and How to Book",
+      "level": 2
+    },
+    {
+      "id": "conclusion",
+      "text": "Conclusion",
+      "level": 2
+    },
+    {
+      "id": "faqs",
+      "text": "FAQs",
+      "level": 2
+    },
+    {
+      "id": "should-i-use-the-hotels-av-or-an-outside-supplier",
+      "text": "Should I use the hotel's AV or an outside supplier?",
+      "level": 3
+    },
+    {
+      "id": "can-an-outside-supplier-work-in-any-hotel",
+      "text": "Can an outside supplier work in any hotel?",
+      "level": 3
+    },
+    {
+      "id": "what-should-i-ask-the-hotel-about-its-av",
+      "text": "What should I ask the hotel about its AV?",
+      "level": 3
+    },
+    {
+      "id": "does-an-independent-supplier-cost-more-than-the-hotels-av",
+      "text": "Does an independent supplier cost more than the hotel's AV?",
+      "level": 3
+    }
+  ],
   "all-in-one-wedding-rental-packages": [
     {
       "id": "brief-overview",

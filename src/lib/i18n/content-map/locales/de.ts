@@ -524,6 +524,11 @@ export default {
 			slug: 'av-anforderungen-keynote-redner-malaga',
 			keyword: 'AV-Anforderungen von Keynote-Rednern in Malaga',
 			status: 'propuesta'
+		},
+		'hotel-in-house-av-vs-independent-av-supplier': {
+			slug: 'hotel-av-oder-unabhaengiger-av-anbieter-malaga',
+			keyword: 'Hotel-AV oder unabhängiger AV-Anbieter in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

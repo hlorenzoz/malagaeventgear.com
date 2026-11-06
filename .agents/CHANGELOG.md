@@ -7,6 +7,14 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Added (blog): hotel-in-house-av-vs-independent-av-supplier, lote 3 del silo event-technology-service (#T0190) (2026-11-06)
+- Origen: `.agents/context/keywords/corporate-cluster-plan-2026-10-13.md`, idea 3 de #T0035, a pedido del usuario de seguir con el cluster corporativo. Sin demanda de busqueda medida (logica de negocio). Se elige porque no depende de la decision 4 del plan (post de "servicios para eventos en Malaga", la unica idea con demanda medida, unas 290 impresiones al ano), que sigue sin resolver.
+- Guia para quien organiza un evento en un hotel: que preguntar al hotel, cuando basta su equipo, cuando conviene un proveedor independiente y como comparar dos presupuestos. Todo lo que toca a hoteles va como pregunta o posibilidad, sin afirmar nada de ningun hotel (equipo, precios ni reglas), y MEG dice que es un proveedor independiente y no neutral. Complementa la FAQ breve de `audio-visual-rental-for-corporate-events` sin contradecirla. Experience solo del post News de PROGOLD SUMMIT 2026 (hotel Melia Costa del Sol, Torremolinos). Portada `blog/3087`, imagen `blog/3088`.
+- Cadena del silo ahora: `mice-events-in-malaga` <-> `how-to-organize-a-congress-in-malaga` <-> `hotel-in-house-av-vs-independent-av-supplier` <-> `keynote-speaker-av-requirements` <-> `awards-ceremony-production`. El post nuevo entra en el medio: el del congreso cambia su enlace de ponentes por el del hotel y el de ponentes cambia su enlace al congreso por el del hotel. El pilar no cambia (su unico enlace sigue en el ultimo, awards). `updatedDate` de los dos a 2026-11-06 en los 13 idiomas.
+- Terminos SERP `2026-11-06-T0190.json` (poco vocabulario propio, se anadio la pregunta de si el contrato de la sala obliga a usar el AV del hotel). 12 traducciones, 12 entradas del mapa de contenido, `post-faqs.json`, `post-toc.json` y `cover-thumbs.json` al dia.
+- Imagenes: las dos son WebP ya subidas a R2 y en el manifest (con alt y etiquetas), sin AVIF. Es el pendiente de las imagenes migradas (CLAUDE.md, 2026-09-24).
+- Pendiente: revision nativa por muestreo de las traducciones.
+
 ### Changed (blog): audio-visual-rental-for-weddings, seccion H3 de sistema de sonido segun invitados (#T0188) (2026-11-06)
 - Origen: plan de contenido 2026-11-06, item "rent sound system for wedding / sound system rental for wedding" (gsc pos 6, 1 impresion).
 - Anadido `### Sound System Rental for a Wedding: Matching the Size to Your Guest List` al final de `## Dancing: When the Volume Changes`. Solo hechos de `packages.ts` (Wedding Pack, 80 invitados) y del CSV del 2026-09-26 (HK Audio PR:O, PR:O 18-S, mesas de mezcla). Sin enlaces nuevos, sin precios. El post no tiene Table of Contents en linea, no hubo bullet que anadir.

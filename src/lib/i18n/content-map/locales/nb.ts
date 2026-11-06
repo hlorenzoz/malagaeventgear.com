@@ -540,6 +540,11 @@ export default {
 			slug: 'av-krav-hovedtalere-malaga',
 			keyword: 'AV-krav for hovedtalere i Malaga',
 			status: 'propuesta'
+		},
+		'hotel-in-house-av-vs-independent-av-supplier': {
+			slug: 'hotellets-av-eller-uavhengig-av-leverandor-malaga',
+			keyword: 'hotellets AV eller uavhengig AV-leverandør i Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

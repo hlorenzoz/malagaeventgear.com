@@ -544,6 +544,11 @@ export default {
 			slug: 'requisiti-audiovisivi-relatore-principale-malaga',
 			keyword: 'requisiti audiovisivi per un relatore principale a Malaga',
 			status: 'propuesta'
+		},
+		'hotel-in-house-av-vs-independent-av-supplier': {
+			slug: 'audiovisivo-hotel-o-fornitore-indipendente-malaga',
+			keyword: "audiovisivo dell'hotel o fornitore indipendente a Malaga",
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

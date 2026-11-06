@@ -488,6 +488,11 @@ export default {
 			slug: '主題演講講者影音需求',
 			keyword: '馬拉加 主題演講講者影音需求',
 			status: 'propuesta'
+		},
+		'hotel-in-house-av-vs-independent-av-supplier': {
+			slug: '飯店自有影音還是獨立影音供應商',
+			keyword: '馬拉加 飯店自有影音還是獨立影音供應商',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

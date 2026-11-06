@@ -548,6 +548,11 @@ export default {
 			slug: 'besoins-audiovisuels-conferencier-principal-malaga',
 			keyword: "besoins audiovisuels d'un conférencier principal à Malaga",
 			status: 'propuesta'
+		},
+		'hotel-in-house-av-vs-independent-av-supplier': {
+			slug: 'audiovisuel-hotel-ou-prestataire-independant-malaga',
+			keyword: "audiovisuel de l'hôtel ou prestataire indépendant à Malaga",
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

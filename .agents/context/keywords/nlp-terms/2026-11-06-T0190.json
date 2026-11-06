@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-06",
+  "taskId": "#T0190",
+  "slug": "hotel-in-house-av-vs-independent-av-supplier",
+  "searchTerm": "hotel in house av vs independent av supplier",
+  "status": "partial",
+  "reason": "Skipped Google position 1 (avnetwork.com, fetch returned only site navigation, no article text) and position 3 (ems-events.co.uk, HTTP 404). Read positions 2, 4 and 5. Position 5 is an unknown pages.dev blog. Search not localized to Spain.",
+  "serp": {
+    "query": "hotel in house AV vs independent AV supplier",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://helloendless.com/?p=5639", "title": "helloendless.com" },
+      { "rank": 2, "url": "https://www.socialtables.com/?p=19647", "title": "illustration of a/v system setup at hybrid event" },
+      { "rank": 3, "url": "https://elza-190.pages.dev/blog/inhouse-vs-external-av-vendor/", "title": "In-house AV vs external AV vendor: trade-offs" }
+    ]
+  },
+  "terms": [
+    { "term": "in house AV provider", "kind": "entity", "seenIn": 3 },
+    { "term": "outside AV provider", "kind": "entity", "seenIn": 3 },
+    { "term": "hybrid event", "kind": "entity", "seenIn": 3 },
+    { "term": "rigging", "kind": "related", "seenIn": 3 },
+    { "term": "hotel AV contract", "kind": "related", "seenIn": 2 },
+    { "term": "competitive AV bids", "kind": "related", "seenIn": 2 },
+    { "term": "request for proposal", "kind": "related", "seenIn": 2 },
+    { "term": "live streaming", "kind": "related", "seenIn": 2 },
+    { "term": "equipment rental rates", "kind": "related", "seenIn": 2 },
+    { "term": "service charges", "kind": "related", "seenIn": 2 },
+    { "term": "internet connectivity", "kind": "related", "seenIn": 2 },
+    { "term": "labour costs", "kind": "related", "seenIn": 2 },
+    { "term": "exclusive use clause", "kind": "related", "seenIn": 1 },
+    { "term": "venue-tested equipment", "kind": "related", "seenIn": 1 },
+    { "term": "equipment refresh cycles", "kind": "related", "seenIn": 1 },
+    { "term": "breakout sessions", "kind": "entity", "seenIn": 1 },
+    { "term": "plenary sessions", "kind": "entity", "seenIn": 1 },
+    { "term": "load-in and load-out", "kind": "related", "seenIn": 1 },
+    { "term": "commissions paid to hotels", "kind": "related", "seenIn": 1 },
+    { "term": "liability insurance", "kind": "related", "seenIn": 1 },
+    { "term": "single point of contact", "kind": "related", "seenIn": 1 },
+    { "term": "AV tech requirements checklist", "kind": "related", "seenIn": 1 },
+    { "term": "Do I have to use the hotel's AV provider?", "kind": "question", "seenIn": 1 },
+    { "term": "Does the venue allow external vendors?", "kind": "question", "seenIn": 1 },
+    { "term": "How do you remove in-house AV restrictions?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Union labor", "reason": "US market term" },
+    { "term": "Lift gate", "reason": "US logistics term" },
+    { "term": "Convention center AV", "reason": "US spelling and market" },
+    { "term": "Catering contracts", "reason": "off topic" },
+    { "term": "Signing bonuses", "reason": "US hotel sales practice" }
+  ]
+}

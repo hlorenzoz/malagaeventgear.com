@@ -528,6 +528,11 @@ export default {
 			slug: 'av-eisen-keynotesprekers-malaga',
 			keyword: 'AV-eisen voor keynotesprekers in Malaga',
 			status: 'propuesta'
+		},
+		'hotel-in-house-av-vs-independent-av-supplier': {
+			slug: 'av-van-het-hotel-of-onafhankelijke-av-leverancier-malaga',
+			keyword: 'AV van het hotel of onafhankelijke AV-leverancier in Malaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;

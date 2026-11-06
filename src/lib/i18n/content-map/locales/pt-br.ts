@@ -555,6 +555,11 @@ export default {
 			slug: 'requisitos-audiovisuais-palestrante-principal-malaga',
 			keyword: 'requisitos audiovisuais de um palestrante principal em Málaga',
 			status: 'propuesta'
+		},
+		'hotel-in-house-av-vs-independent-av-supplier': {
+			slug: 'audiovisual-do-hotel-ou-fornecedor-independente-malaga',
+			keyword: 'audiovisual do hotel ou fornecedor independente em Málaga',
+			status: 'propuesta'
 		}
 	}
 } satisfies LocaleContentMap;
