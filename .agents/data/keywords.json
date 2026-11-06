@@ -62777,8 +62777,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audio-visual-rental-for-weddings/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -62791,6 +62791,10 @@
             "ctr": 0,
             "position": 6
           }
+        },
+        "blog": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06"
         },
         "content-plan": {
           "firstSeen": "2026-11-06",
@@ -71628,8 +71632,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audio-visual-rental-for-weddings/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-search-console": {
@@ -71642,6 +71646,10 @@
             "ctr": 0,
             "position": 58
           }
+        },
+        "blog": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06"
         },
         "content-plan": {
           "firstSeen": "2026-11-06",
