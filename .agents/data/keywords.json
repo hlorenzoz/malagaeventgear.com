@@ -86213,7 +86213,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "lectern-rental"
           ]
@@ -87200,7 +87200,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "lectern-rental"
           ]
@@ -87493,6 +87493,24 @@
       }
     },
     {
+      "id": "can-you-have-two-keynote-speakers-at-an-event",
+      "question": "can you have two keynote speakers at an event",
+      "keywordId": "keynote-speaker-av-requirements",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "seeds": [
+            "keynote-speaker-av-requirements"
+          ]
+        }
+      }
+    },
+    {
       "id": "can-you-light-a-live-band-or-dj-booth-at-a-wedding",
       "question": "Can You Light a Live Band or DJ Booth at a Wedding?",
       "keywordId": "stage-lighting-for-weddings",
@@ -87611,7 +87629,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "projector-rental"
           ]
@@ -90820,7 +90838,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-28",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "av-system-troubleshooting"
           ]
@@ -91052,7 +91070,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-28",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "av-system-troubleshooting"
           ]
@@ -91903,6 +91921,24 @@
       }
     },
     {
+      "id": "how-long-do-keynote-speakers-speak-for",
+      "question": "how long do keynote speakers speak for",
+      "keywordId": "keynote-speaker-av-requirements",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "seeds": [
+            "keynote-speaker-av-requirements"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-long-does-a-wedding-last",
       "question": "how long does a wedding last",
       "keywordId": "managing-last-minute-wedding-rental-changes",
@@ -92188,6 +92224,42 @@
           "lastSeen": "2026-11-02",
           "seeds": [
             "timing-your-wedding-rental-bookings"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-keynote-speakers-can-you-have",
+      "question": "how many keynote speakers can you have",
+      "keywordId": "keynote-speaker-av-requirements",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "seeds": [
+            "keynote-speaker-av-requirements"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-many-keynote-speakers-in-a-conference",
+      "question": "how many keynote speakers in a conference",
+      "keywordId": "keynote-speaker-av-requirements",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "seeds": [
+            "keynote-speaker-av-requirements"
           ]
         }
       }
@@ -92984,6 +93056,24 @@
       }
     },
     {
+      "id": "how-much-do-keynote-speakers-get-paid",
+      "question": "how much do keynote speakers get paid",
+      "keywordId": "keynote-speaker-av-requirements",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "seeds": [
+            "keynote-speaker-av-requirements"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-much-do-rentals-cost-for-a-wedding",
       "question": "how much do rentals cost for a wedding",
       "keywordId": "wedding-rentals",
@@ -93067,7 +93157,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "av-technician-hire"
           ]
@@ -93085,7 +93175,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "av-cable-management",
             "av-equipment-consultations"
@@ -93104,7 +93194,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "av-cable-management"
           ]
@@ -93807,7 +93897,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "projector-rental"
           ]
@@ -93825,7 +93915,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "projector-rental"
           ]
@@ -94193,7 +94283,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "projector-rental"
           ]
@@ -94301,7 +94391,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "projector-rental"
           ]
@@ -94447,7 +94537,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "projector-rental"
           ]
@@ -94501,7 +94591,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "projector-rental"
           ]
@@ -94519,7 +94609,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "projector-rental"
           ]
@@ -94537,7 +94627,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "projector-rental"
           ]
@@ -94707,7 +94797,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "projector-rental"
           ]
@@ -94733,6 +94823,24 @@
       }
     },
     {
+      "id": "how-to-become-a-keynote-speaker",
+      "question": "how to become a keynote speaker",
+      "keywordId": "keynote-speaker-av-requirements",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "seeds": [
+            "keynote-speaker-av-requirements"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-to-build-a-lectern",
       "question": "how to build a lectern",
       "keywordId": "lectern-rental",
@@ -94743,7 +94851,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "lectern-rental"
           ]
@@ -94923,7 +95031,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "lectern-rental"
           ]
@@ -94962,6 +95070,24 @@
           "lastSeen": "2026-11-03",
           "seeds": [
             "all-in-one-wedding-rental-packages"
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-to-record-a-keynote-presentation-with-video",
+      "question": "how to record a keynote presentation with video",
+      "keywordId": "keynote-speaker-av-requirements",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "seeds": [
+            "keynote-speaker-av-requirements"
           ]
         }
       }
@@ -95049,7 +95175,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "projector-rental"
           ]
@@ -95067,7 +95193,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "lectern-rental"
           ]
@@ -95139,7 +95265,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-28",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "av-system-troubleshooting"
           ]
@@ -96990,7 +97116,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "av-equipment-consultations"
           ]
@@ -97041,7 +97167,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-28",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "av-system-troubleshooting"
           ]
@@ -97688,7 +97814,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "av-equipment-consultations"
           ]
@@ -97906,7 +98032,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-28",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "av-system-troubleshooting"
           ]
@@ -98083,7 +98209,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "event-technology-service"
           ]
@@ -98191,7 +98317,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "event-technology-service"
           ]
@@ -98617,6 +98743,24 @@
       }
     },
     {
+      "id": "what-is-a-keynote-speaker-at-a-conference",
+      "question": "what is a keynote speaker at a conference",
+      "keywordId": "keynote-speaker-av-requirements",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "seeds": [
+            "keynote-speaker-av-requirements"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-is-a-physical-audio-guide",
       "question": "what is a physical audio guide",
       "keywordId": "audio-visual-rental-planning-timeline",
@@ -98834,7 +98978,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-28",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "av-system-troubleshooting"
           ]
@@ -98852,7 +98996,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-28",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "av-system-troubleshooting"
           ]
@@ -98895,7 +99039,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "event-technology-service"
           ]
@@ -98931,7 +99075,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "event-technology-service"
           ]
@@ -98949,7 +99093,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "event-technology-service"
           ]
@@ -100645,6 +100789,24 @@
       }
     },
     {
+      "id": "when-do-keynote-speakers-speak",
+      "question": "when do keynote speakers speak",
+      "keywordId": "keynote-speaker-av-requirements",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "seeds": [
+            "keynote-speaker-av-requirements"
+          ]
+        }
+      }
+    },
+    {
       "id": "when-do-lighting-designers-usually-work",
       "question": "when do lighting designers usually work",
       "keywordId": "stage-lighting-for-weddings",
@@ -101175,7 +101337,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "av-equipment-consultations"
           ]
@@ -101250,6 +101412,24 @@
           "lastSeen": "2026-11-06",
           "urls": [
             "/blog/weather-considerations-for-outdoor-rentals/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "who-is-a-keynote-speaker",
+      "question": "who is a keynote speaker",
+      "keywordId": "keynote-speaker-av-requirements",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "seeds": [
+            "keynote-speaker-av-requirements"
           ]
         }
       }
@@ -101363,6 +101543,24 @@
           "lastSeen": "2026-10-28",
           "seeds": [
             "stage-uplighting"
+          ]
+        }
+      }
+    },
+    {
+      "id": "why-are-keynote-speakers-so-expensive",
+      "question": "why are keynote speakers so expensive",
+      "keywordId": "keynote-speaker-av-requirements",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-06",
+          "lastSeen": "2026-11-06",
+          "seeds": [
+            "keynote-speaker-av-requirements"
           ]
         }
       }
@@ -101749,7 +101947,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-28",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-06",
           "seeds": [
             "av-system-troubleshooting"
           ]
