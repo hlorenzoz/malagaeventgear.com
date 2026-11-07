@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "tasks": [
     {
       "id": "#T0085",
@@ -1487,6 +1487,25 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0191",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-11-07",
+      "anotada": "2026-11-07",
+      "hecha": "2026-11-07",
+      "origen": "content-strategist (plan 2026-11-07, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "wedding rental packages (Misma intencion de paquetes de boda con AV. Ya cubierta por /blog/all-in-one-wedding-rental-packages/ (heading Our All Inclusive Wedding Pack in Malaga, What's Included, at 650 Euros) y por el pilar /blog/wedding-rentals/ (What's Included in the Wedding Pack). Una pagina nueva seria canibalizacion. Ofertas y descuentos genericos no se pueden respaldar con precios reales de MEG. Senal de 1 impresion cada una.)",
+        "wedding chair hire (Mobiliario, decoracion, carpas, recintos y planificacion de bodas no son el negocio AV de MEG (CLAUDE.md, posicionamiento y honestidad). Una pagina por estos terminos seria contenido primero para buscadores sin nada propio que aportar (creating-helpful-content.md). Ademas la frase de event planner es una consulta con operadores de busqueda, no una intencion real.)",
+        "speaker rentals near me (Variantes near me de paginas existentes. El sitio ya tiene posts near me y no se crean mas (spam-policies.md, Doorway abuse). Senal de 1 impresion.)",
+        "speaker rentals (Intenciones genericas de alquiler de altavoces, equipo de escenario y focos, ya servidas por los pilares de audio visual rental y stage lighting rental. Con 1 impresion y sin volumen no justifican una seccion nueva ni un post, y un heading nuevo solo repetiria lo existente.)",
+        "video conference rental (La intencion de videoconferencia y eventos virtuales ya la sirve /blog/audio-visual-rental-for-virtual-events/. Senal de 1 impresion, una pagina nueva seria canibalizacion.)"
+      ]
     },
     {
       "id": "#T0188",
