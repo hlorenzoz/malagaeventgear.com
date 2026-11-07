@@ -86057,7 +86057,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "gooseneck-microphone-rental"
           ]
@@ -86219,7 +86219,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-29",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "smoke-machine-rental"
           ]
@@ -86237,7 +86237,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-29",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "smoke-machine-rental"
           ]
@@ -86255,7 +86255,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-monitor-rental"
           ]
@@ -86309,7 +86309,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "wedding-rentals"
           ]
@@ -86327,7 +86327,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "wedding-rentals"
           ]
@@ -86558,7 +86558,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "wedding-rentals"
           ]
@@ -86579,6 +86579,24 @@
           "lastSeen": "2026-10-31",
           "seeds": [
             "wireless-handheld-microphone-rental"
+          ]
+        }
+      }
+    },
+    {
+      "id": "can-hotels-in-spain-use-air-conditioning",
+      "question": "can hotels in spain use air conditioning",
+      "keywordId": "hotel-in-house-av-vs-independent-av-supplier",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "seeds": [
+            "hotel-in-house-av-vs-independent-av-supplier"
           ]
         }
       }
@@ -87473,7 +87491,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-uplighting"
           ]
@@ -87653,7 +87671,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "wedding-rentals"
           ]
@@ -87902,7 +87920,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "wedding-rentals"
           ]
@@ -87920,7 +87938,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "wedding-rentals"
           ]
@@ -87938,7 +87956,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "wedding-rentals"
           ]
@@ -87956,7 +87974,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-29",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-riser-rental"
           ]
@@ -87974,7 +87992,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-29",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "smoke-machine-rental"
           ]
@@ -88733,6 +88751,24 @@
           "lastSeen": "2026-11-07",
           "urls": [
             "/blog/audio-visual-rental-for-trade-shows/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "do-you-have-a-favourite-small-independent-hotel",
+      "question": "do you have a favourite small independent hotel",
+      "keywordId": "hotel-in-house-av-vs-independent-av-supplier",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "seeds": [
+            "hotel-in-house-av-vs-independent-av-supplier"
           ]
         }
       }
@@ -91054,7 +91090,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-monitor-rental"
           ]
@@ -91183,7 +91219,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-29",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "smoke-machine-rental"
           ]
@@ -91273,7 +91309,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-30",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-lighting-for-weddings",
             "stage-uplighting"
@@ -92484,6 +92520,24 @@
       }
     },
     {
+      "id": "how-many-hotel-properties-are-represented-in-avh",
+      "question": "how many hotel properties are represented in avh",
+      "keywordId": "hotel-in-house-av-vs-independent-av-supplier",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "seeds": [
+            "hotel-in-house-av-vs-independent-av-supplier"
+          ]
+        }
+      }
+    },
+    {
       "id": "how-many-hours-to-book-wedding-venue",
       "question": "how many hours to book wedding venue",
       "keywordId": "timing-your-wedding-rental-bookings",
@@ -93141,7 +93195,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-monitor-rental"
           ]
@@ -93303,7 +93357,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-20",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "wedding-rentals"
           ]
@@ -93321,7 +93375,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "wedding-rentals"
           ]
@@ -93357,7 +93411,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-31",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "wedding-rentals",
             "wedding-rentals-near-me"
@@ -93539,7 +93593,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-monitor-rental"
           ]
@@ -93557,7 +93611,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-monitor-rental"
           ]
@@ -94079,7 +94133,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "sound-system-rental"
           ]
@@ -94115,7 +94169,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-31",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "wedding-rentals",
             "wedding-rentals-near-me"
@@ -94358,7 +94412,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-monitor-rental"
           ]
@@ -94466,7 +94520,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-29",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "sound-system-rental"
           ]
@@ -94484,7 +94538,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "sound-system-rental"
           ]
@@ -94502,7 +94556,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-29",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "smoke-machine-rental"
           ]
@@ -94538,7 +94592,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "sound-system-rental"
           ]
@@ -94574,7 +94628,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "sound-system-rental"
           ]
@@ -94592,7 +94646,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "sound-system-rental"
           ]
@@ -94610,7 +94664,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "sound-system-rental"
           ]
@@ -94682,7 +94736,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "sound-system-rental"
           ]
@@ -94736,7 +94790,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "sound-system-rental"
           ]
@@ -94828,7 +94882,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "smoke-machine-rental"
           ]
@@ -95088,7 +95142,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-monitor-rental"
           ]
@@ -95502,7 +95556,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "sound-system-rental"
           ]
@@ -96689,7 +96743,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "sound-system-rental"
           ]
@@ -97425,7 +97479,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-29",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-riser-rental"
           ]
@@ -97602,7 +97656,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "wedding-rentals"
           ]
@@ -97620,7 +97674,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "wedding-rentals"
           ]
@@ -98159,7 +98213,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-monitor-rental"
           ]
@@ -99597,7 +99651,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-uplighting"
           ]
@@ -99615,7 +99669,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-uplighting"
           ]
@@ -99651,7 +99705,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-uplighting"
           ]
@@ -99708,6 +99762,42 @@
           "lastSeen": "2026-11-07",
           "urls": [
             "/blog/headset-lavalier-microphone-rental/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-is-the-difference-between-a-hotel-and-a-hostel-in-spain",
+      "question": "what is the difference between a hotel and a hostel in spain",
+      "keywordId": "hotel-in-house-av-vs-independent-av-supplier",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "seeds": [
+            "hotel-in-house-av-vs-independent-av-supplier"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-is-the-difference-between-a-hotel-and-a-hotel-apartment",
+      "question": "what is the difference between a hotel and a hotel apartment",
+      "keywordId": "hotel-in-house-av-vs-independent-av-supplier",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "seeds": [
+            "hotel-in-house-av-vs-independent-av-supplier"
           ]
         }
       }
@@ -100161,6 +100251,42 @@
       }
     },
     {
+      "id": "what-makes-a-hotel-4-star-spain",
+      "question": "what makes a hotel 4 star spain",
+      "keywordId": "hotel-in-house-av-vs-independent-av-supplier",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "seeds": [
+            "hotel-in-house-av-vs-independent-av-supplier"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-makes-a-hotel-5-star-in-spain",
+      "question": "what makes a hotel 5 star in spain",
+      "keywordId": "hotel-in-house-av-vs-independent-av-supplier",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "seeds": [
+            "hotel-in-house-av-vs-independent-av-supplier"
+          ]
+        }
+      }
+    },
+    {
       "id": "what-makes-malaga-event-gear-meg-unique-compared-to-other-audiovisual-rental-companies",
       "question": "What makes Malaga Event Gear (MEG) unique compared to other audiovisual rental companies?",
       "keywordId": "faq-services",
@@ -100204,7 +100330,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-uplighting"
           ]
@@ -100312,7 +100438,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "wedding-rentals"
           ]
@@ -100767,7 +100893,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-uplighting"
           ]
@@ -101144,7 +101270,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-30",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-lighting-for-weddings",
             "stage-uplighting"
@@ -101181,7 +101307,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-uplighting"
           ]
@@ -101217,7 +101343,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-uplighting"
           ]
@@ -101235,7 +101361,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-12",
-          "lastSeen": "2026-10-29",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "smoke-machine-rental"
           ]
@@ -101582,6 +101708,24 @@
       }
     },
     {
+      "id": "who-classifies-hotels",
+      "question": "who classifies hotels",
+      "keywordId": "hotel-in-house-av-vs-independent-av-supplier",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "seeds": [
+            "hotel-in-house-av-vs-independent-av-supplier"
+          ]
+        }
+      }
+    },
+    {
       "id": "who-do-i-call-if-equipment-stops-working-during-my-event",
       "question": "Who do I call if equipment stops working during my event?",
       "keywordId": "av-system-troubleshooting",
@@ -101790,9 +101934,45 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-uplighting"
+          ]
+        }
+      }
+    },
+    {
+      "id": "who-owns-best-hotels-spain",
+      "question": "who owns best hotels spain",
+      "keywordId": "hotel-in-house-av-vs-independent-av-supplier",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "seeds": [
+            "hotel-in-house-av-vs-independent-av-supplier"
+          ]
+        }
+      }
+    },
+    {
+      "id": "who-owns-hospes-hotels",
+      "question": "who owns hospes hotels",
+      "keywordId": "hotel-in-house-av-vs-independent-av-supplier",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "seeds": [
+            "hotel-in-house-av-vs-independent-av-supplier"
           ]
         }
       }
@@ -101849,9 +102029,27 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-uplighting"
+          ]
+        }
+      }
+    },
+    {
+      "id": "why-are-hotels-so-expensive-in-madrid",
+      "question": "why are hotels so expensive in madrid",
+      "keywordId": "hotel-in-house-av-vs-independent-av-supplier",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "google-autocomplete": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "seeds": [
+            "hotel-in-house-av-vs-independent-av-supplier"
           ]
         }
       }
@@ -101885,7 +102083,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-uplighting"
           ]
@@ -101903,7 +102101,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-uplighting"
           ]
@@ -102274,7 +102472,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "stage-uplighting"
           ]
@@ -102402,7 +102600,7 @@
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-10-11",
-          "lastSeen": "2026-10-28",
+          "lastSeen": "2026-11-07",
           "seeds": [
             "wedding-rentals"
           ]
