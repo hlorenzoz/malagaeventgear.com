@@ -73975,6 +73975,16 @@
             "ctr": 0,
             "position": 63
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -74057,6 +74067,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 7
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -74805,6 +74825,16 @@
             "ctr": 0,
             "position": 5
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -75358,6 +75388,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 42
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -76148,6 +76188,16 @@
             "ctr": 0,
             "position": 48
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -76904,6 +76954,16 @@
             "ctr": 0,
             "position": 91
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -77220,6 +77280,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 81
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -79393,6 +79463,16 @@
             "ctr": 0,
             "position": 31
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -80024,6 +80104,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 7
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -80980,6 +81070,16 @@
             "ctr": 0,
             "position": 6
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -81122,6 +81222,16 @@
             "ctr": 0,
             "position": 68
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -81150,6 +81260,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 53
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -81447,6 +81567,34 @@
       "firstSeen": "2026-09-29",
       "lastResearched": null,
       "notes": "Covered per the Google Ads / Ubersuggest keyword audit closed 2026-08-06 (engram: google_ads_keyword_audit_2026-08-06): already served by existing content, no new post needed."
+    },
+    {
+      "id": "wedding-event-planner-malaga-spain",
+      "keyword": "wedding event planner malaga spain",
+      "locale": "en",
+      "cluster": "unassigned",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-11-07",
+      "lastResearched": null,
+      "notes": ""
     },
     {
       "id": "wedding-event-planner-málaga-spain-sitepixabaycom-sitepexelscom-siteunsplashcom-sitepatreoncom-siterenderositycom-siteoyponl",
@@ -82150,6 +82298,16 @@
             "ctr": 0,
             "position": 58
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -82308,6 +82466,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 46
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -82853,6 +83021,16 @@
             "ctr": 0,
             "position": 256
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -82996,6 +83174,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 51
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -83207,6 +83395,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 7
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },
@@ -84085,6 +84283,16 @@
             "ctr": 0,
             "position": 82
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -84152,6 +84360,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 63
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-07",
+          "lastSeen": "2026-11-07",
+          "stats": {
+            "asOf": "2026-11-07",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
           }
         }
       },

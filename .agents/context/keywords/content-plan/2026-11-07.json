@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-07",
+  "run": {
+    "status": "ok",
+    "reason": "Los 20 candidatos son frases de Search Console con 1 impresion y sin volumen medido, todas unknown. Ninguna supera las comprobaciones de ajuste, cobertura y senal, por eso el plan solo contiene skips.",
+    "candidatesReviewed": 20,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "items": [
+    {
+      "keywords": ["wedding rental packages", "wedding package deals", "wedding reception packages", "wedding av hire", "wedding deals", "wedding offers"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 7 1 impr; gsc pos 46 1 impr; gsc pos 51 1 impr; gsc pos 6 1 impr; gsc pos 53 1 impr; gsc pos 58 1 impr",
+      "reason": "Misma intencion de paquetes de boda con AV. Ya cubierta por /blog/all-in-one-wedding-rental-packages/ (heading Our All Inclusive Wedding Pack in Malaga, What's Included, at 650 Euros) y por el pilar /blog/wedding-rentals/ (What's Included in the Wedding Pack). Una pagina nueva seria canibalizacion. Ofertas y descuentos genericos no se pueden respaldar con precios reales de MEG. Senal de 1 impresion cada una."
+    },
+    {
+      "keywords": ["wedding chair hire", "wedding tables for rent", "tent and light decoration near me", "vintage wedding decor rental companies 2026", "wedding venue offers", "wedding planning equipment for renters", "wedding event planner malaga spain"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 68 1 impr; gsc pos 82 1 impr; gsc pos 81 1 impr; gsc pos 7 1 impr; gsc pos 63 1 impr; gsc pos 256 1 impr; gsc pos 36 1 impr",
+      "reason": "Mobiliario, decoracion, carpas, recintos y planificacion de bodas no son el negocio AV de MEG (CLAUDE.md, posicionamiento y honestidad). Una pagina por estos terminos seria contenido primero para buscadores sin nada propio que aportar (creating-helpful-content.md). Ademas la frase de event planner es una consulta con operadores de busqueda, no una intencion real."
+    },
+    {
+      "keywords": ["speaker rentals near me", "stage rent near me", "system on rent near me"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 7 1 impr; gsc pos 48 1 impr; gsc pos 91 1 impr",
+      "reason": "Variantes near me de paginas existentes. El sitio ya tiene posts near me y no se crean mas (spam-policies.md, Doorway abuse). Senal de 1 impresion."
+    },
+    {
+      "keywords": ["speaker rentals", "stage gear rentals", "spotlights for rent"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 63 1 impr; gsc pos 42 1 impr; gsc pos 5 1 impr",
+      "reason": "Intenciones genericas de alquiler de altavoces, equipo de escenario y focos, ya servidas por los pilares de audio visual rental y stage lighting rental. Con 1 impresion y sin volumen no justifican una seccion nueva ni un post, y un heading nuevo solo repetiria lo existente."
+    },
+    {
+      "keywords": ["video conference rental"],
+      "cluster": "event technology service",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "gsc pos 31 1 impr",
+      "reason": "La intencion de videoconferencia y eventos virtuales ya la sirve /blog/audio-visual-rental-for-virtual-events/. Senal de 1 impresion, una pagina nueva seria canibalizacion."
+    }
+  ]
+}
