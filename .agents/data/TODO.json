@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "tasks": [
     {
       "id": "#T0085",
@@ -1487,6 +1487,29 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0192",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-11-08",
+      "anotada": "2026-11-08",
+      "hecha": "2026-11-08",
+      "origen": "content-strategist (plan 2026-11-08, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "wedding event planner \"málaga\" \"spain\" (Intención de wedding planner, un negocio distinto: MEG alquila audio, luces y video y no organiza bodas. Contenido sin respaldo real, ver creating-helpful-content.md (no escribir solo por tráfico). Lo que sí cubre el intent de paquete todo en uno ya está en /blog/all-in-one-wedding-rental-packages/.)",
+        "wedding venue packages (Paquetes de lugar, hotel o boda completa en el extranjero: MEG no ofrece sede, catering ni bodas fuera de su zona. Fuera de mercado. El post /blog/all-in-one-wedding-rental-packages/ ya aclara en sus FAQs que el paquete no incluye sede ni catering.)",
+        "weddings malaga (Término genérico de ciudad y boda, cubierto por el pilar /blog/wedding-rentals/ (secciones Booking and Service Area). Una página nueva sería una variante de ubicación, ver Doorway abuse en spam-policies.md.)",
+        "when to book vendors for wedding (Mismo intent que /blog/timeline-for-booking-wedding-rentals/ (sección Why There's No Fixed Booking Window y FAQ de antelación) y /blog/how-to-choose-wedding-rentals/ (Step 7: When to Book). Una sección nueva repetiría lo existente y crearía canibalización.)",
+        "where can i rent a microphone (Cubierto por /blog/wireless-handheld-microphone-rental/ (Our Six Wireless Handheld Microphones y FAQ Can I rent a wireless handheld microphone on its own?) y por el pilar /blog/audiovisual-equipment-rental-service/. Sin hueco nuevo.)",
+        "who benefits more from buying versus renting, frequent wedding-goers or one-time guests? (Trata de invitados que compran o alquilan ropa de boda, no de equipo audiovisual. Fuera de negocio. La comparación de comprar o alquilar equipo ya está en /blog/pros-and-cons-of-wedding-rentals/ (Renting vs Buying Your Own Rig for One Wedding).)",
+        "all included wedding packages (Cubierto por /blog/all-in-one-wedding-rental-packages/ (heading Our All Inclusive Wedding Pack in Malaga y FAQ Do you offer all inclusive wedding packages in Malaga?). Segunda página sería canibalización.)",
+        "alquiler de equipo audiovisual (Frases en español de la misma intención que los pilares en inglés. El contenido base es inglés y se traduce a 13 idiomas, así que el español se cubre con la traducción de /blog/audio-visual-rental/ y no con páginas nuevas. Páginas por variante lingüística serían contenido casi duplicado.)",
+        "audio and visual rental near me (Variantes near me: el sitio ya las atiende en posts existentes y en las secciones Booking and Service Area. Otra página sería Doorway abuse (spam-policies.md). Los técnicos sueltos o instalación fija no son un servicio de MEG.)"
+      ]
     },
     {
       "id": "#T0191",
