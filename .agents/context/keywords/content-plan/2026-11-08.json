@@ -1,0 +1,107 @@
+{
+	"date": "2026-11-08",
+	"run": {
+		"status": "ok",
+		"candidatesReviewed": 20,
+		"tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+	},
+	"items": [
+		{
+			"keywords": ["wedding event planner \"málaga\" \"spain\"", "all in one wedding planner"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 36 1 impr",
+			"reason": "Intención de wedding planner, un negocio distinto: MEG alquila audio, luces y video y no organiza bodas. Contenido sin respaldo real, ver creating-helpful-content.md (no escribir solo por tráfico). Lo que sí cubre el intent de paquete todo en uno ya está en /blog/all-in-one-wedding-rental-packages/."
+		},
+		{
+			"keywords": [
+				"wedding venue packages",
+				"all inclusive hotel wedding packages",
+				"all inclusive wedding packages abroad prices",
+				"all inclusive wedding packages under $5000"
+			],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 60 1 impr",
+			"reason": "Paquetes de lugar, hotel o boda completa en el extranjero: MEG no ofrece sede, catering ni bodas fuera de su zona. Fuera de mercado. El post /blog/all-in-one-wedding-rental-packages/ ya aclara en sus FAQs que el paquete no incluye sede ni catering."
+		},
+		{
+			"keywords": ["weddings malaga"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 61 1 impr",
+			"reason": "Término genérico de ciudad y boda, cubierto por el pilar /blog/wedding-rentals/ (secciones Booking and Service Area). Una página nueva sería una variante de ubicación, ver Doorway abuse en spam-policies.md."
+		},
+		{
+			"keywords": ["when to book vendors for wedding"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 35 1 impr",
+			"reason": "Mismo intent que /blog/timeline-for-booking-wedding-rentals/ (sección Why There's No Fixed Booking Window y FAQ de antelación) y /blog/how-to-choose-wedding-rentals/ (Step 7: When to Book). Una sección nueva repetiría lo existente y crearía canibalización."
+		},
+		{
+			"keywords": ["where can i rent a microphone"],
+			"cluster": "audiovisual equipment rental service",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 55 1 impr",
+			"reason": "Cubierto por /blog/wireless-handheld-microphone-rental/ (Our Six Wireless Handheld Microphones y FAQ Can I rent a wireless handheld microphone on its own?) y por el pilar /blog/audiovisual-equipment-rental-service/. Sin hueco nuevo."
+		},
+		{
+			"keywords": ["who benefits more from buying versus renting, frequent wedding-goers or one-time guests?"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "gsc pos 7 1 impr",
+			"reason": "Trata de invitados que compran o alquilan ropa de boda, no de equipo audiovisual. Fuera de negocio. La comparación de comprar o alquilar equipo ya está en /blog/pros-and-cons-of-wedding-rentals/ (Renting vs Buying Your Own Rig for One Wedding)."
+		},
+		{
+			"keywords": ["all included wedding packages"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "no measured data",
+			"reason": "Cubierto por /blog/all-in-one-wedding-rental-packages/ (heading Our All Inclusive Wedding Pack in Malaga y FAQ Do you offer all inclusive wedding packages in Malaga?). Segunda página sería canibalización."
+		},
+		{
+			"keywords": [
+				"alquiler de equipo audiovisual",
+				"alquiler equipo audiovisual",
+				"alquiler sonido audiovisual",
+				"alquiler de equipos de sonido",
+				"alquiler de equipos de musica"
+			],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "no measured data",
+			"reason": "Frases en español de la misma intención que los pilares en inglés. El contenido base es inglés y se traduce a 13 idiomas, así que el español se cubre con la traducción de /blog/audio-visual-rental/ y no con páginas nuevas. Páginas por variante lingüística serían contenido casi duplicado."
+		},
+		{
+			"keywords": [
+				"audio and visual rental near me",
+				"audio system technician near me",
+				"audio video solutions near me",
+				"audio video specialist near me"
+			],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "medium",
+			"avalancheFit": "unknown",
+			"evidence": "no measured data",
+			"reason": "Variantes near me: el sitio ya las atiende en posts existentes y en las secciones Booking and Service Area. Otra página sería Doorway abuse (spam-policies.md). Los técnicos sueltos o instalación fija no son un servicio de MEG."
+		}
+	]
+}
