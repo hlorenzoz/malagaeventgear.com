@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-08",
+  "run": {
+    "status": "ok",
+    "calls": [
+      { "tool": "google_suggestions", "args": "TV screen rental, video switcher rental", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "wedding rentals online, audiovisual equipment rental service", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "common av rental mistakes, conference table microphone rental", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "headset lavalier microphone rental, indoor wedding rental essentials", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "outdoor movie screen rental, outdoor wedding rental considerations", "outcome": "ok" }
+    ]
+  },
+  "seeds": [
+    "tv-screen-rental",
+    "video-switcher-rental",
+    "wedding-rentals-online",
+    "audiovisual-equipment-rental-service",
+    "common-av-rental-mistakes",
+    "conference-table-microphone-rental",
+    "headset-lavalier-microphone-rental",
+    "indoor-wedding-rental-essentials",
+    "outdoor-movie-screen-rental",
+    "outdoor-wedding-rental-considerations"
+  ],
+  "suggestions": [
+    { "seed": "video-switcher-rental", "phrase": "how do video switchers work" },
+    { "seed": "video-switcher-rental", "phrase": "what do video switchers do" },
+    { "seed": "wedding-rentals-online", "phrase": "why have a wedding" },
+    { "seed": "wedding-rentals-online", "phrase": "why have a wedding reddit" },
+    { "seed": "wedding-rentals-online", "phrase": "how much does it cost a wedding in spain" },
+    { "seed": "audiovisual-equipment-rental-service", "phrase": "how much does it cost to rent sound equipment" },
+    { "seed": "audiovisual-equipment-rental-service", "phrase": "where to rent sound equipment" },
+    { "seed": "common-av-rental-mistakes", "phrase": "why my renters are unrecoverable" },
+    { "seed": "common-av-rental-mistakes", "phrase": "how to return my car avis" },
+    { "seed": "common-av-rental-mistakes", "phrase": "what is an avalista" },
+    { "seed": "indoor-wedding-rental-essentials", "phrase": "why have a wedding" },
+    { "seed": "indoor-wedding-rental-essentials", "phrase": "how do wedding rentals work" },
+    { "seed": "indoor-wedding-rental-essentials", "phrase": "what do you need to rent for a wedding" },
+    { "seed": "indoor-wedding-rental-essentials", "phrase": "what rentals do you need for a wedding" },
+    { "seed": "indoor-wedding-rental-essentials", "phrase": "is renting wedding items worth it" },
+    { "seed": "indoor-wedding-rental-essentials", "phrase": "are wedding rental companies profitable" },
+    { "seed": "indoor-wedding-rental-essentials", "phrase": "how much does it cost a wedding in spain" },
+    { "seed": "outdoor-movie-screen-rental", "phrase": "how much to rent outdoor movie screen" },
+    { "seed": "outdoor-movie-screen-rental", "phrase": "how much does it cost to rent an outdoor movie screen" },
+    { "seed": "outdoor-movie-screen-rental", "phrase": "how much to rent a movie screen" },
+    { "seed": "outdoor-wedding-rental-considerations", "phrase": "are outdoor weddings a bad idea" },
+    { "seed": "outdoor-wedding-rental-considerations", "phrase": "are outdoor weddings popular" },
+    { "seed": "outdoor-wedding-rental-considerations", "phrase": "are outdoor wedding venues profitable" },
+    { "seed": "outdoor-wedding-rental-considerations", "phrase": "why have a wedding" },
+    { "seed": "outdoor-wedding-rental-considerations", "phrase": "are outdoor weddings more casual" },
+    { "seed": "outdoor-wedding-rental-considerations", "phrase": "what do you do if you have an outdoor wedding and it rains" },
+    { "seed": "outdoor-wedding-rental-considerations", "phrase": "who pays for a wedding in spain" },
+    { "seed": "outdoor-wedding-rental-considerations", "phrase": "are outdoor weddings legal" },
+    { "seed": "outdoor-wedding-rental-considerations", "phrase": "will your wedding be indoors or outdoors" },
+    { "seed": "outdoor-wedding-rental-considerations", "phrase": "are outdoor weddings more expensive" },
+    { "seed": "outdoor-wedding-rental-considerations", "phrase": "what do you need for outdoor wedding" },
+    { "seed": "outdoor-wedding-rental-considerations", "phrase": "are outdoor weddings legal in the uk" },
+    { "seed": "outdoor-wedding-rental-considerations", "phrase": "how do wedding rentals work" },
+    { "seed": "outdoor-wedding-rental-considerations", "phrase": "how much does it cost a wedding in spain" },
+    { "seed": "outdoor-wedding-rental-considerations", "phrase": "how much do weddings cost" }
+  ]
+}
