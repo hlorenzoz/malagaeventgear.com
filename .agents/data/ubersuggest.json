@@ -1,7 +1,105 @@
 {
 	"version": 1,
-	"updated": "2026-11-08",
+	"updated": "2026-11-09",
 	"reports": [
+		{
+			"date": "2026-11-09",
+			"kind": "rank-tracking",
+			"status": "ok",
+			"calls": [
+				{
+					"tool": "user_limits",
+					"outcome": "ok"
+				},
+				{
+					"tool": "list_projects",
+					"outcome": "ok"
+				},
+				{
+					"tool": "project_position_info",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "ok"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				},
+				{
+					"tool": "user_limits",
+					"outcome": "ok"
+				}
+			],
+			"summary": [
+				"20 tracked keywords, Spain, English, desktop. Up 10, down 5, unchanged 5.",
+				"Latest bins: top 3: 3, top 10: 8, top 100: 4, not ranking: 5 (before: 3, 3, 3, 11).",
+				"Cost: 1 report."
+			],
+			"findings": [
+				{
+					"key": "rank/speaker-and-microphone-rental",
+					"title": "Recuperar \"speaker and microphone rental\": cayo de 1 a 9"
+				},
+				{
+					"key": "rank/sound-system-rental-for-events",
+					"title": "Recuperar \"sound system rental for events\": dejo de rankear (era 12)"
+				},
+				{
+					"key": "rank/av-hire",
+					"title": "Recuperar \"av hire\": cayo de 4 a 53"
+				},
+				{
+					"key": "rank/speaker-rental",
+					"title": "Recuperar \"speaker rental\": cayo de 6 a 52"
+				},
+				{
+					"key": "rank/audiovisual-rental",
+					"title": "Recuperar \"audiovisual rental\": cayo de 6 a 10"
+				},
+				{
+					"key": "rank/event-av-spain",
+					"title": "Recuperar \"event av spain\": dejo de rankear (era 7)"
+				},
+				{
+					"key": "rank/malaga-wedding-packages-all-inclusive",
+					"title": "Recuperar \"malaga wedding packages all inclusive\": dejo de rankear (era 28)"
+				},
+				{
+					"key": "rank/sound-equipment-rental",
+					"title": "Recuperar \"sound equipment rental\": cayo de 8 a 14"
+				},
+				{
+					"key": "rank/rent-tv-screen",
+					"title": "Recuperar \"rent tv screen\": cayo de 3 a 6"
+				}
+			],
+			"discovered": {
+				"keywords": 20,
+				"aiPrompts": 48
+			}
+		},
 		{
 			"date": "2026-11-08",
 			"kind": "competitor-keywords",
