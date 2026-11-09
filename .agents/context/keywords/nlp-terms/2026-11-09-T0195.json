@@ -1,0 +1,55 @@
+{
+	"date": "2026-11-09",
+	"taskId": "#T0195",
+	"slug": "event-technology-service",
+	"searchTerm": "event logistics malaga",
+	"status": "partial",
+	"reason": "Read Google positions 2, 6 and 7. Skipped 1 (ground transport only), 3 (redirect), 4 (seating chart listing), 5 (redirect loop). Results are mostly vendor and software pages, few cover AV logistics. Search not localized to Spain.",
+	"serp": {
+		"query": "event logistics for meetings and conventions",
+		"localized": false,
+		"results": [
+			{ "rank": 1, "url": "https://confex.com/products/events.html", "title": "confex.com" },
+			{ "rank": 2, "url": "https://themeetingmagazines.com/acf/convention-center-checklist", "title": "Convention Center Checklist" },
+			{ "rank": 3, "url": "https://www.bizzabo.com/blog/event-logistics", "title": "event logistics" }
+		]
+	},
+	"terms": [
+		{ "term": "AV vendor", "kind": "entity", "seenIn": 3 },
+		{ "term": "AV equipment", "kind": "entity", "seenIn": 3 },
+		{ "term": "contingency plans", "kind": "related", "seenIn": 2 },
+		{ "term": "Wi-Fi", "kind": "related", "seenIn": 2 },
+		{ "term": "digital signage", "kind": "entity", "seenIn": 2 },
+		{ "term": "event logistics", "kind": "related", "seenIn": 2 },
+		{ "term": "convention center", "kind": "entity", "seenIn": 2 },
+		{ "term": "virtual events", "kind": "entity", "seenIn": 2 },
+		{ "term": "registration", "kind": "related", "seenIn": 3 },
+		{ "term": "run of show document", "kind": "related", "seenIn": 1 },
+		{ "term": "production schedule", "kind": "related", "seenIn": 1 },
+		{ "term": "shared responsibility matrix", "kind": "related", "seenIn": 1 },
+		{ "term": "escalation paths", "kind": "related", "seenIn": 1 },
+		{ "term": "Plan B", "kind": "related", "seenIn": 1 },
+		{ "term": "teardown", "kind": "related", "seenIn": 1 },
+		{ "term": "venue handoffs", "kind": "related", "seenIn": 1 },
+		{ "term": "room configuration", "kind": "related", "seenIn": 1 },
+		{ "term": "electrical and rigging services", "kind": "related", "seenIn": 1 },
+		{ "term": "breakout rooms", "kind": "entity", "seenIn": 1 },
+		{ "term": "keynotes", "kind": "entity", "seenIn": 1 },
+		{ "term": "onsite services", "kind": "related", "seenIn": 1 },
+		{ "term": "What does event logistics cover?", "kind": "question", "seenIn": 1 },
+		{ "term": "How should roles and responsibilities be defined?", "kind": "question", "seenIn": 1 },
+		{ "term": "How should external partners be coordinated?", "kind": "question", "seenIn": 1 },
+		{ "term": "How can teams prepare for unexpected problems?", "kind": "question", "seenIn": 1 }
+	],
+	"discarded": [
+		{ "term": "Klik SmartBadges", "reason": "software product brand" },
+		{ "term": "Cvent and Stova", "reason": "competitor platforms" },
+		{ "term": "Miami Beach Convention Center", "reason": "place outside Spain" },
+		{ "term": "Blue Plaza Events", "reason": "agency name" },
+		{ "term": "MCI USA", "reason": "agency name" },
+		{ "term": "Union regulations", "reason": "US market term" },
+		{ "term": "Sponsor ROI", "reason": "marketing term" },
+		{ "term": "Single source of truth", "reason": "marketing slogan" },
+		{ "term": "Citywide shuttle service", "reason": "page skipped, ground transport" }
+	]
+}

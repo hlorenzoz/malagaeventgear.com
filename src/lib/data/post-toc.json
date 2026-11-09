@@ -3041,6 +3041,11 @@
       "level": 2
     },
     {
+      "id": "event-logistics-meeting-and-convention-services-in-malaga",
+      "text": "Event Logistics, Meeting and Convention Services in Malaga",
+      "level": 2
+    },
+    {
       "id": "what-we-dont-stock",
       "text": "What We Don't Stock",
       "level": 2
@@ -3113,6 +3118,11 @@
     {
       "id": "how-far-in-advance-should-i-book-event-technology-for-my-event",
       "text": "How Far in Advance Should I Book Event Technology for My Event?",
+      "level": 3
+    },
+    {
+      "id": "do-you-provide-event-logistics-meeting-or-convention-services-in-malaga",
+      "text": "Do You Provide Event Logistics, Meeting or Convention Services in Malaga?",
       "level": 3
     }
   ],
