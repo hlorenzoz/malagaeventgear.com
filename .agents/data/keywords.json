@@ -11189,13 +11189,17 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audio-visual-rental-planning-timeline/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
           "lastSeen": "2026-09-30"
+        },
+        "blog": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09"
         },
         "content-plan": {
           "firstSeen": "2026-11-09",
@@ -11221,13 +11225,17 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audio-visual-rental-planning-timeline/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
           "lastSeen": "2026-09-30"
+        },
+        "blog": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09"
         },
         "content-plan": {
           "firstSeen": "2026-11-09",
@@ -11376,13 +11384,17 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audio-visual-rental-planning-timeline/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
           "lastSeen": "2026-09-30"
+        },
+        "blog": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09"
         },
         "content-plan": {
           "firstSeen": "2026-11-09",
@@ -11658,13 +11670,17 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audio-visual-rental-planning-timeline/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
           "lastSeen": "2026-09-30"
+        },
+        "blog": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09"
         },
         "content-plan": {
           "firstSeen": "2026-11-09",
@@ -11809,13 +11825,17 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/audio-visual-rental-planning-timeline/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
           "lastSeen": "2026-09-30"
+        },
+        "blog": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09"
         },
         "content-plan": {
           "firstSeen": "2026-11-09",
