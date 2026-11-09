@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-09",
+  "taskId": "#T0193",
+  "slug": "audio-visual-rental-planning-timeline",
+  "searchTerm": "audio visual rental planning timeline AV Checklist for Events: What to Settle Before You Book",
+  "status": "partial",
+  "reason": "Google position 1 (heritagecenter.mn) returned 404 and was skipped, so the pages read are Google positions 2, 3 and 4. Search tool did not report localization.",
+  "serp": {
+    "query": "av checklist for events",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://www.barlens.com.au/the-ultimate-audio-visual-checklist-for-event-planners/", "title": "The Ultimate Audio Visual Checklist for Event Planners" },
+      { "rank": 2, "url": "https://stageengage.squarespace.com/blog/av-equipment-checklist-for-events", "title": "AV Equipment Checklist for Events" },
+      { "rank": 3, "url": "https://www.mangoapps.com/templates/tasks/av-and-tech-pre-event-setup-checklist", "title": "av and tech pre event setup checklist" }
+    ]
+  },
+  "terms": [
+    { "term": "microphones", "kind": "entity", "seenIn": 3 },
+    { "term": "lighting", "kind": "entity", "seenIn": 3 },
+    { "term": "adapters and cables", "kind": "entity", "seenIn": 3 },
+    { "term": "laptops", "kind": "entity", "seenIn": 3 },
+    { "term": "power requirements", "kind": "related", "seenIn": 3 },
+    { "term": "wireless microphone", "kind": "entity", "seenIn": 2 },
+    { "term": "lapel microphones", "kind": "entity", "seenIn": 2 },
+    { "term": "handheld microphones", "kind": "entity", "seenIn": 2 },
+    { "term": "sound system", "kind": "entity", "seenIn": 2 },
+    { "term": "speakers", "kind": "entity", "seenIn": 2 },
+    { "term": "mixers", "kind": "entity", "seenIn": 2 },
+    { "term": "projector", "kind": "entity", "seenIn": 2 },
+    { "term": "screen", "kind": "entity", "seenIn": 2 },
+    { "term": "backup cables and batteries", "kind": "related", "seenIn": 2 },
+    { "term": "live streaming", "kind": "related", "seenIn": 2 },
+    { "term": "hybrid events", "kind": "entity", "seenIn": 2 },
+    { "term": "AV technicians", "kind": "related", "seenIn": 2 },
+    { "term": "internet connection", "kind": "related", "seenIn": 2 },
+    { "term": "conference", "kind": "entity", "seenIn": 2 },
+    { "term": "bump-in and bump-out times", "kind": "related", "seenIn": 1 },
+    { "term": "run of show", "kind": "related", "seenIn": 1 },
+    { "term": "confidence monitor", "kind": "entity", "seenIn": 1 },
+    { "term": "Which AV equipment does an event need?", "kind": "question", "seenIn": 1 },
+    { "term": "What sound system do I need?", "kind": "question", "seenIn": 1 },
+    { "term": "Who should own the checklist?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Barlens", "reason": "competitor name" },
+    { "term": "Canberra and Albury", "reason": "places other than Spain" },
+    { "term": "marquee hire", "reason": "off topic for AV" },
+    { "term": "Kanban WIP limits", "reason": "software jargon, not AV vocabulary" },
+    { "term": "DRI", "reason": "project management jargon" }
+  ]
+}
