@@ -89978,6 +89978,24 @@
       }
     },
     {
+      "id": "do-you-provide-event-logistics-meeting-or-convention-services-in-malaga",
+      "question": "Do You Provide Event Logistics, Meeting or Convention Services in Malaga?",
+      "keywordId": "event-technology-service",
+      "cluster": "event technology service",
+      "url": "/blog/event-technology-service/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "urls": [
+            "/blog/event-technology-service/"
+          ]
+        }
+      }
+    },
+    {
       "id": "do-you-provide-interactive-screens-or-multilingual-interpretation-technology",
       "question": "Do you provide interactive screens or multilingual interpretation technology?",
       "keywordId": "audio-visual-rental-for-religious-events",
