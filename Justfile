@@ -111,6 +111,11 @@ post-touch slug:
 post-images *ARGS:
     bun scripts/post-images.ts {{ARGS}}
 
+# Genera el AVIF de las variantes WebP migradas que no lo tienen y lo sube a R2 con la misma clave
+# (.avif), escribiendo avifUrl en el manifest. Idempotente y reanudable. --dry-run, --limit N, --id N.
+avif-backfill *ARGS:
+    bun scripts/avif-backfill.ts {{ARGS}}
+
 # Tras editar un post en ingles: post-touch, regenera post-faqs.json y post-toc.json y lista las traducciones por actualizar
 post-sync slug:
     bun scripts/translate/sync.ts {{slug}}

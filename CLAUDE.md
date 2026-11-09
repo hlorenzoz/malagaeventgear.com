@@ -1162,12 +1162,12 @@ y `updatedDate` la de modificación (el campo se llamó `updated` hasta que se r
    formato que soporta) y el `<img>` WebP como fallback. Referencia completa: `infra.txt` §15.8.
 
    **Pendiente (anotado el 2026-09-24, sin fecha de ejecución):**
-   - **AVIF para las imágenes migradas de WordPress.** Hoy solo 13 imágenes (la galería del
-     post de ECOC 2026, subidas con `post-images`) tienen `avifUrl`. Las ~1.585 variantes
-     migradas son solo WebP. Hace falta un script puntual e idempotente que genere el AVIF de
-     cada variante, lo suba a R2 con la misma clave y extensión `.avif`, y escriba `avifUrl`
-     en la entrada WebP del manifest (nunca una entrada AVIF aparte). El plugin ya emite el
-     `<picture>` solo, sin cambios de código. Después, purgar el CDN si se pisa alguna clave.
+   - **AVIF para las imágenes migradas de WordPress: HECHO (2026-11-09).** `just avif-backfill`
+     (`scripts/avif-backfill.ts`, idempotente y reanudable, con `--dry-run`, `--limit N` y `--id N`)
+     genera el AVIF de cada variante WebP sin `avifUrl`, lo sube a R2 con la misma clave y extensión
+     `.avif`, comprueba que el CDN lo sirve como `image/avif` y escribe `avifUrl` en la entrada WebP
+     del manifest. Descarta un AVIF que pese igual o más que el WebP. No pisa claves, así que no hace
+     falta purgar el CDN. Una imagen nueva sigue el camino de `just post-images`, que ya genera el AVIF.
    - **`<picture>` en las portadas** (hero del post, que es el LCP, y tarjetas de listado).
      Pasan por `cover-thumbs.json`, que hoy solo tiene `srcset` WebP: agregar el AVIF ahí y
      el `<picture>` en `BlogPost.svelte` y `BlogPostCard.svelte`.
