@@ -769,26 +769,6 @@
       ]
     },
     {
-      "id": "#T0193",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Nueva sección H2 en /blog/audio-visual-rental-planning-timeline/: \"AV Checklist for Events: What to Settle Before You Book\"",
-      "anotada": "2026-11-09",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-11-09, ítem 1)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/audio-visual-rental-planning-timeline.svx",
-        "Ubicación: después de \"What We Need From You to Build an Accurate Quote\"",
-        "Keywords: av checklist for events, av equipment checklist, av checklist template, av equipment list, av equipment required (no measured data), sin volumen",
-        "Qué cubrir: Responder qué debe tener decidido el cliente y qué equipo AV suele hacer falta según el tipo de evento: sonido, micrófonos, proyección o pantallas, iluminación y técnico, ligado a los paquetes de src/lib/data/packages.ts y al inventario CSV más reciente en .agents/context/inventario/. Si algo no está en el inventario propio (por ejemplo una pared LED), decir que nos cuente qué necesita y buscamos una solución con nuestros proveedores, sin marca, modelo, cantidad, precio ni plazo. No enlazar al pilar más allá de lo que ya hace el post, no copiar listas genéricas ni prometer equipo que MEG no tiene.",
-        "Por qué: Cinco frases con la misma intención: qué hay que decidir y qué equipo AV hace falta antes de reservar un evento. Ningún post tiene un checklist general de eventos (el de conferencias vive en /blog/audio-visual-rental-for-conferences/, que es otra intención). El post de planificación es el sitio natural y no tiene sección equivalente. Es una pregunta que los clientes de MEG hacen al pedir presupuesto (creating-helpful-content.md, people first).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0175",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1507,6 +1487,28 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0193",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Nueva sección H2 en /blog/audio-visual-rental-planning-timeline/: \"AV Checklist for Events: What to Settle Before You Book\"",
+      "anotada": "2026-11-09",
+      "hecha": "2026-11-09",
+      "origen": "content-strategist (plan 2026-11-09, ítem 1)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/audio-visual-rental-planning-timeline.svx",
+        "Ubicación: después de \"What We Need From You to Build an Accurate Quote\"",
+        "Keywords: av checklist for events, av equipment checklist, av checklist template, av equipment list, av equipment required (no measured data), sin volumen",
+        "Qué cubrir: Responder qué debe tener decidido el cliente y qué equipo AV suele hacer falta según el tipo de evento: sonido, micrófonos, proyección o pantallas, iluminación y técnico, ligado a los paquetes de src/lib/data/packages.ts y al inventario CSV más reciente en .agents/context/inventario/. Si algo no está en el inventario propio (por ejemplo una pared LED), decir que nos cuente qué necesita y buscamos una solución con nuestros proveedores, sin marca, modelo, cantidad, precio ni plazo. No enlazar al pilar más allá de lo que ya hace el post, no copiar listas genéricas ni prometer equipo que MEG no tiene.",
+        "Por qué: Cinco frases con la misma intención: qué hay que decidir y qué equipo AV hace falta antes de reservar un evento. Ningún post tiene un checklist general de eventos (el de conferencias vive en /blog/audio-visual-rental-for-conferences/, que es otra intención). El post de planificación es el sitio natural y no tiene sección equivalente. Es una pregunta que los clientes de MEG hacen al pedir presupuesto (creating-helpful-content.md, people first).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
     },
     {
       "id": "#T0194",
