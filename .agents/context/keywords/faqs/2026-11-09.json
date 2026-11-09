@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-09",
+  "run": {
+    "status": "ok",
+    "calls": [
+      { "tool": "google_suggestions", "args": "stage lighting for weddings, technical support for events (en, es)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "trending wedding rental ideas, audio visual rental for weddings (en, es)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "audio visual rental planning timeline, audio visual rental safety guidelines (en, es)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "av equipment checklist for conference, benefits of audio visual rental (en, es)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "eco friendly wedding rental options, essential items for wedding rentals (en, es)", "outcome": "ok" }
+    ]
+  },
+  "seeds": [
+    "stage-lighting-for-weddings",
+    "technical-support-for-events",
+    "trending-wedding-rental-ideas",
+    "audio-visual-rental-for-weddings",
+    "audio-visual-rental-planning-timeline",
+    "audio-visual-rental-safety-guidelines",
+    "av-equipment-checklist-for-conference",
+    "benefits-of-audio-visual-rental",
+    "eco-friendly-wedding-rental-options",
+    "essential-items-for-wedding-rentals"
+  ],
+  "suggestions": [
+    { "seed": "stage-lighting-for-weddings", "phrase": "why is lighting important in theatre" },
+    { "seed": "stage-lighting-for-weddings", "phrase": "why is lighting important in concerts" },
+    { "seed": "stage-lighting-for-weddings", "phrase": "why do we light the stage and what do we use to light the stage" },
+    { "seed": "stage-lighting-for-weddings", "phrase": "how much do stage lights cost" },
+    { "seed": "stage-lighting-for-weddings", "phrase": "who do lighting designers work with" },
+    { "seed": "stage-lighting-for-weddings", "phrase": "who event lights" },
+    { "seed": "stage-lighting-for-weddings", "phrase": "who do lighting designers report to" },
+    { "seed": "stage-lighting-for-weddings", "phrase": "when do lighting designers usually work" },
+    { "seed": "stage-lighting-for-weddings", "phrase": "when lighting a stage what is most important" },
+    { "seed": "stage-lighting-for-weddings", "phrase": "what are the lights on a stage called" },
+    { "seed": "stage-lighting-for-weddings", "phrase": "what lighting do you need for wedding" },
+    { "seed": "stage-lighting-for-weddings", "phrase": "how much are stage lights" },
+    { "seed": "stage-lighting-for-weddings", "phrase": "how much does lighting cost for a wedding" },
+    { "seed": "stage-lighting-for-weddings", "phrase": "how does stage lighting work" },
+    { "seed": "technical-support-for-events", "phrase": "why technical support" },
+    { "seed": "technical-support-for-events", "phrase": "what is a support team" },
+    { "seed": "trending-wedding-rental-ideas", "phrase": "why have a wedding" },
+    { "seed": "audio-visual-rental-for-weddings", "phrase": "how much to rent sound system for wedding" },
+    { "seed": "audio-visual-rental-for-weddings", "phrase": "how much to rent speakers for wedding" },
+    { "seed": "audio-visual-rental-for-weddings", "phrase": "how much is wedding car rental" },
+    { "seed": "audio-visual-rental-planning-timeline", "phrase": "what is an audiovisual platform" },
+    { "seed": "audio-visual-rental-planning-timeline", "phrase": "what is a physical audio guide" },
+    { "seed": "audio-visual-rental-planning-timeline", "phrase": "how many audio tracks are there in the kids stage" },
+    { "seed": "audio-visual-rental-safety-guidelines", "phrase": "are vehicles allowed to make use of acoustic warnings within city limits" },
+    { "seed": "audio-visual-rental-safety-guidelines", "phrase": "what is a physical audio guide" },
+    { "seed": "audio-visual-rental-safety-guidelines", "phrase": "who global standard for safe listening venues & events" },
+    { "seed": "audio-visual-rental-safety-guidelines", "phrase": "who acoustic version" },
+    { "seed": "audio-visual-rental-safety-guidelines", "phrase": "are you allowed to use acoustic signals within a town" },
+    { "seed": "benefits-of-audio-visual-rental", "phrase": "what is an audiovisual platform" },
+    { "seed": "eco-friendly-wedding-rental-options", "phrase": "how much wedding gift spain" },
+    { "seed": "eco-friendly-wedding-rental-options", "phrase": "how much does it cost a wedding in spain" }
+  ]
+}
