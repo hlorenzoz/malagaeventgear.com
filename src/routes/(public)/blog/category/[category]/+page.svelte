@@ -1,4 +1,5 @@
 <script lang="ts">
+	import CoverImage from '$lib/components/blog/CoverImage.svelte';
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
 	import { i18n } from '$lib/i18n.svelte';
 	import { LOCALE_META } from '$lib/i18n/locales';
@@ -14,7 +15,10 @@
 	// Display name from categoryMeta if available, otherwise prettify the slug
 	let categoryName = $derived(
 		data.categoryMeta?.name ??
-		categorySlug.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
+			categorySlug
+				.split('-')
+				.map((w: string) => w.charAt(0).toUpperCase() + w.slice(1))
+				.join(' ')
 	);
 
 	// Short introduction, only for the thin listing pages that have one (English slug).
@@ -29,16 +33,16 @@
 		'@context': 'https://schema.org',
 		'@type': 'CollectionPage',
 		'@id': `${i18n.absolute(`/blog/category/${categorySlug}/`)}#webpage`,
-		'url': i18n.absolute(`/blog/category/${categorySlug}/`),
-		'inLanguage': LOCALE_META[i18n.lang].htmlLang,
-		'name': title,
-		'isPartOf': {
+		url: i18n.absolute(`/blog/category/${categorySlug}/`),
+		inLanguage: LOCALE_META[i18n.lang].htmlLang,
+		name: title,
+		isPartOf: {
 			'@type': 'WebSite',
 			'@id': 'https://malagaeventgear.com/#website',
-			'url': 'https://malagaeventgear.com/',
-			'name': 'Malaga Event Gear'
+			url: 'https://malagaeventgear.com/',
+			name: 'Malaga Event Gear'
 		},
-		'numberOfItems': posts.length
+		numberOfItems: posts.length
 	});
 
 	function formatDate(dateStr: string): string {
@@ -54,12 +58,7 @@
 	}
 </script>
 
-<SeoHead
-	{title}
-	{description}
-	{canonicalUrl}
-	jsonLdSchema={collectionSchema}
-/>
+<SeoHead {title} {description} {canonicalUrl} jsonLdSchema={collectionSchema} />
 
 <!-- Category Heading -->
 <section class="px-margin-mobile md:px-margin-desktop py-16 max-w-container-max mx-auto">
@@ -67,7 +66,9 @@
 		<a href={i18n.href('/blog/')} class="text-sm text-electric-blue hover:underline">
 			← {copy.backLink}
 		</a>
-		<h1 class="font-headline-lg-mobile md:font-display-lg text-headline-lg-mobile md:text-display-lg text-on-surface mt-4 leading-tight">
+		<h1
+			class="font-headline-lg-mobile md:font-display-lg text-headline-lg-mobile md:text-display-lg text-on-surface mt-4 leading-tight"
+		>
 			{categoryName}
 		</h1>
 		<p class="text-on-surface-variant font-body-md mt-2">
@@ -82,12 +83,14 @@
 	<!-- Posts Grid -->
 	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 		{#each posts as post, i}
-			<article data-testid="post-card" class="relative bg-surface-container-low border border-border-glass rounded-[20px] overflow-hidden hover:border-electric-blue/40 transition-colors duration-300 flex flex-col">
+			<article
+				data-testid="post-card"
+				class="relative bg-surface-container-low border border-border-glass rounded-[20px] overflow-hidden hover:border-electric-blue/40 transition-colors duration-300 flex flex-col"
+			>
 				{#if post.coverImage}
 					<a href={i18n.href(`/blog/${post.slug}/`)} class="block aspect-video overflow-hidden">
-						<img
-							src={post.coverImageThumb ?? post.coverImage}
-							srcset={post.coverImageSrcset}
+						<CoverImage
+							{post}
 							sizes="(min-width: 1024px) 370px, (min-width: 768px) 45vw, calc(100vw - 2rem)"
 							alt={post.title}
 							width="370"
@@ -102,7 +105,9 @@
 				<div class="p-6 flex flex-col flex-1">
 					<div class="flex flex-wrap items-center gap-2 mb-3">
 						{#if post.isNews}
-							<span class="px-2 py-0.5 rounded-full text-xs font-label-sm bg-electric-blue text-white uppercase tracking-wider">
+							<span
+								class="px-2 py-0.5 rounded-full text-xs font-label-sm bg-electric-blue text-white uppercase tracking-wider"
+							>
 								{copy.newsBadge}
 							</span>
 						{/if}
@@ -117,7 +122,10 @@
 					</div>
 
 					<h2 class="font-headline-sm text-headline-sm text-on-surface mb-3 leading-tight">
-						<a href={i18n.href(`/blog/${post.slug}/`)} class="hover:text-electric-blue transition-colors">
+						<a
+							href={i18n.href(`/blog/${post.slug}/`)}
+							class="hover:text-electric-blue transition-colors"
+						>
 							{post.title}
 						</a>
 					</h2>

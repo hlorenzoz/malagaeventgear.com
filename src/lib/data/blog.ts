@@ -27,7 +27,7 @@ import extrasLoaders from 'virtual:blog-extras';
 
 const coverThumbs = coverThumbsRaw as Record<
 	string,
-	{ thumb: string; srcset?: string; width?: number; height?: number }
+	{ thumb: string; srcset?: string; avifSrcset?: string; width?: number; height?: number }
 >;
 
 // ─── Build-time data load ─────────────────────────────────────────────────────
@@ -60,6 +60,7 @@ for (const post of _allPosts) {
 	const info = coverThumbs[post.coverImage];
 	post.coverImageThumb = info?.thumb ?? post.coverImage;
 	post.coverImageSrcset = info?.srcset;
+	post.coverImageAvifSrcset = info?.avifSrcset;
 	post.coverImageWidth = info?.width;
 	post.coverImageHeight = info?.height;
 }
@@ -172,7 +173,11 @@ export async function getPostExtras(locale: Locale, slug: string): Promise<PostE
  */
 export function getPostComponentLoader(slug: string): (() => Promise<unknown>) | undefined {
 	const entry = Object.entries(componentLoaders).find(
-		([path]) => path.split('/').pop()?.replace(/\.svx$/, '') === slug
+		([path]) =>
+			path
+				.split('/')
+				.pop()
+				?.replace(/\.svx$/, '') === slug
 	);
 	return entry?.[1];
 }
@@ -199,7 +204,8 @@ export interface LocaleBlog {
 const localeBlogs = new Map<Locale, Promise<LocaleBlog>>();
 
 function loadLocaleBlog(locale: Locale): Promise<LocaleBlog> {
-	if (locale === 'en') return Promise.resolve({ posts: _allPosts, categories: _categories, authors: _authors });
+	if (locale === 'en')
+		return Promise.resolve({ posts: _allPosts, categories: _categories, authors: _authors });
 	let cached = localeBlogs.get(locale);
 	if (!cached) {
 		const loader = translationLoaders[locale];
@@ -231,7 +237,10 @@ export async function getPostsForLocale(locale: Locale): Promise<BlogPost[]> {
 }
 
 /** A locale's version of a post, by ENGLISH slug, or undefined when not published there. */
-export async function getLocalizedPost(locale: Locale, enSlug: string): Promise<BlogPost | undefined> {
+export async function getLocalizedPost(
+	locale: Locale,
+	enSlug: string
+): Promise<BlogPost | undefined> {
 	return (await loadLocaleBlog(locale)).posts.find((p) => p.slug === enSlug);
 }
 
@@ -245,11 +254,17 @@ export async function getAuthorsForLocale(locale: Locale): Promise<Author[]> {
 	return (await loadLocaleBlog(locale)).authors;
 }
 
-export async function getPostsByCategoryForLocale(locale: Locale, categorySlug: string): Promise<BlogPost[]> {
+export async function getPostsByCategoryForLocale(
+	locale: Locale,
+	categorySlug: string
+): Promise<BlogPost[]> {
 	return getPostsByCategoryFromPosts(await getPostsForLocale(locale), categorySlug);
 }
 
-export async function getPostsByAuthorForLocale(locale: Locale, authorSlug: string): Promise<BlogPost[]> {
+export async function getPostsByAuthorForLocale(
+	locale: Locale,
+	authorSlug: string
+): Promise<BlogPost[]> {
 	return getPostsByAuthorFromPosts(await getPostsForLocale(locale), authorSlug);
 }
 

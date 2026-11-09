@@ -1,4 +1,5 @@
 <script lang="ts">
+	import CoverImage from '$lib/components/blog/CoverImage.svelte';
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
 	import Icon from '$lib/components/navigation/Icon.svelte';
 	import Testimonials from '$lib/components/testimonials/Testimonials.svelte';
@@ -111,9 +112,8 @@
 					<!-- Cover Image -->
 					{#if post.coverImage}
 						<a href={i18n.href(`/blog/${post.slug}/`)} class="block aspect-video overflow-hidden">
-							<img
-								src={post.coverImageThumb ?? post.coverImage}
-								srcset={post.coverImageSrcset}
+							<CoverImage
+								{post}
 								sizes="(min-width: 1024px) 370px, (min-width: 768px) 45vw, calc(100vw - 2rem)"
 								alt={post.title}
 								width="370"
@@ -121,7 +121,7 @@
 								class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
 								loading={i === 0 ? 'eager' : 'lazy'}
 								fetchpriority={i === 0 ? 'high' : undefined}
-							>
+							/>
 						</a>
 					{/if}
 

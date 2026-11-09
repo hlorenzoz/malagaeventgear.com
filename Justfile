@@ -116,6 +116,11 @@ post-images *ARGS:
 avif-backfill *ARGS:
     bun scripts/avif-backfill.ts {{ARGS}}
 
+# Anade tamanos intermedios (768, 1024, 1536 px) a las portadas sin ningun rung de 600 a 1100 px y los sube a R2
+# (WebP y AVIF, claves nuevas). Despues: bun scripts/gen-cover-thumbs.ts. --dry-run lista lo que haria.
+cover-ladder-fill *ARGS:
+    bun scripts/cover-ladder-fill.ts {{ARGS}}
+
 # Tras editar un post en ingles: post-touch, regenera post-faqs.json y post-toc.json y lista las traducciones por actualizar
 post-sync slug:
     bun scripts/translate/sync.ts {{slug}}

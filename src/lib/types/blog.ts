@@ -13,10 +13,7 @@ export const BlogPostSchema = z.object({
 	// slug is derived from filename — injected by the data layer, not from frontmatter
 	slug: z.string().min(1).optional(),
 	// publishDate: plain YYYY-MM-DD or ISO 8601 with offset
-	publishDate: z
-		.string()
-		.datetime({ offset: true })
-		.or(z.string().date()),
+	publishDate: z.string().datetime({ offset: true }).or(z.string().date()),
 	// updatedDate: last significant modification. Same validation as publishDate
 	// (plain YYYY-MM-DD or ISO 8601 with offset), but optional.
 	// Written by `just post-touch <slug>` (scripts/post-touch.ts). Consumed by:
@@ -26,11 +23,7 @@ export const BlogPostSchema = z.object({
 	//   - category / author page lastmod           (maxLastmod in src/lib/data/blog-pipeline.ts)
 	//   - the live site map at /map                 (src/lib/data/site-map.ts)
 	// Bump only on a real content change, never on a build (CLAUDE.md 11).
-	updatedDate: z
-		.string()
-		.datetime({ offset: true })
-		.or(z.string().date())
-		.optional(),
+	updatedDate: z.string().datetime({ offset: true }).or(z.string().date()).optional(),
 	excerpt: z.string().min(10),
 	coverImage: z.string().url(),
 	categories: z.array(z.string()).default([]),
@@ -111,6 +104,8 @@ export type BlogPost = BlogPostFrontmatter & {
 	// srcset = all R2 variants so the browser picks the right size per DPR/viewport.
 	coverImageThumb?: string;
 	coverImageSrcset?: string;
+	// Same ladder as coverImageSrcset with the AVIF siblings, only when every variant has one.
+	coverImageAvifSrcset?: string;
 	// Full-size coverImage's own pixel dimensions (NOT a variant's), attached from
 	// cover-thumbs.json. Feeds og:image:width/height in BlogPost.svelte so social
 	// crawlers don't have to fetch the image to know its aspect ratio.
@@ -138,9 +133,9 @@ export type BlogPost = BlogPostFrontmatter & {
  * A blog category derived from published posts.
  */
 export interface Category {
-	name: string;   // display name (e.g. "Event Planning")
-	slug: string;   // URL-safe (e.g. "event-planning")
-	count: number;  // number of published posts in this category
+	name: string; // display name (e.g. "Event Planning")
+	slug: string; // URL-safe (e.g. "event-planning")
+	count: number; // number of published posts in this category
 	lastmod: string; // max(updated ?? publishDate) across posts in category
 }
 
@@ -148,8 +143,8 @@ export interface Category {
  * A blog author derived from published posts.
  */
 export interface Author {
-	name: string;   // display name (e.g. "Hector Lorenzo")
-	slug: string;   // URL-safe (e.g. "hector-lorenzo")
-	count: number;  // number of published posts by this author
+	name: string; // display name (e.g. "Hector Lorenzo")
+	slug: string; // URL-safe (e.g. "hector-lorenzo")
+	count: number; // number of published posts by this author
 	lastmod: string; // max(updated ?? publishDate) across posts by author
 }

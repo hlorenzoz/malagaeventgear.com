@@ -10,6 +10,9 @@
  *   - width/height: the FULL-SIZE image's own pixel dimensions (not a variant's) — used
  *     for og:image:width/height so social crawlers don't have to fetch the image to know
  *     its aspect ratio. Sourced from the manifest entry that matches coverUrl exactly.
+ *   - avifSrcset: the same ladder with the AVIF siblings (`avifUrl` of each variant), ONLY when
+ *     every variant of the srcset has one. A partial ladder would make the AVIF <source> pick a
+ *     larger file than the WebP one would, so the cover then stays WebP only.
  * Cloudflare Transformations is not enabled, so we use the variants already on R2.
  *
  * Run after a migration (one-off), or after adding/changing a post's coverImage:
@@ -35,7 +38,7 @@ const manifest = JSON.parse(readFileSync(MANIFEST, 'utf8')) as {
 // Group variants by base (URL without the -WxH suffix and extension).
 // The manifest can hold two entries for the same variant (WP-keyed + r2Key-keyed after a
 // FORCE re-encode), so dedupe by width per base — a srcset must not repeat a width.
-const byBase = new Map<string, { url: string; width: number }[]>();
+const byBase = new Map<string, { url: string; width: number; avif?: string }[]>();
 // Exact r2Url -> full-size pixel dimensions, for og:image:width/height (not a variant).
 const dimsByUrl = new Map<string, { width: number; height: number }>();
 for (const e of Object.values(manifest.media)) {
@@ -44,7 +47,9 @@ for (const e of Object.values(manifest.media)) {
 	if (!byBase.has(base)) byBase.set(base, []);
 	const list = byBase.get(base)!;
 	const width = e.width ?? 0;
-	if (!list.some((v) => v.width === width)) list.push({ url: e.r2Url, width });
+	const twin = list.find((v) => v.width === width);
+	if (!twin) list.push({ url: e.r2Url, width, avif: e.avifUrl });
+	else if (!twin.avif && e.avifUrl) twin.avif = e.avifUrl;
 	if (e.width && e.height && !dimsByUrl.has(e.r2Url)) {
 		dimsByUrl.set(e.r2Url, { width: e.width, height: e.height });
 	}
@@ -54,6 +59,7 @@ for (const list of byBase.values()) list.sort((a, b) => a.width - b.width);
 interface CoverInfo {
 	thumb: string;
 	srcset?: string;
+	avifSrcset?: string;
 	width?: number;
 	height?: number;
 }
@@ -63,9 +69,15 @@ function coverInfo(coverUrl: string): CoverInfo {
 	const variants = (byBase.get(base) ?? []).filter((v) => v.width > 0);
 	const dims = dimsByUrl.get(coverUrl);
 	if (variants.length === 0) return { thumb: coverUrl, ...dims };
-	const thumb = (variants.find((v) => v.width >= TARGET_WIDTH) ?? variants[variants.length - 1]).url;
-	const srcset = variants.length > 1 ? variants.map((v) => `${v.url} ${v.width}w`).join(', ') : undefined;
-	return { thumb, srcset, ...dims };
+	const thumb = (variants.find((v) => v.width >= TARGET_WIDTH) ?? variants[variants.length - 1])
+		.url;
+	const srcset =
+		variants.length > 1 ? variants.map((v) => `${v.url} ${v.width}w`).join(', ') : undefined;
+	const avifSrcset =
+		srcset && variants.every((v) => v.avif)
+			? variants.map((v) => `${v.avif} ${v.width}w`).join(', ')
+			: undefined;
+	return { thumb, srcset, avifSrcset, ...dims };
 }
 
 const covers: Record<string, CoverInfo> = {};

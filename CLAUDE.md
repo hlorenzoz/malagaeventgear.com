@@ -1168,9 +1168,17 @@ y `updatedDate` la de modificación (el campo se llamó `updated` hasta que se r
      `.avif`, comprueba que el CDN lo sirve como `image/avif` y escribe `avifUrl` en la entrada WebP
      del manifest. Descarta un AVIF que pese igual o más que el WebP. No pisa claves, así que no hace
      falta purgar el CDN. Una imagen nueva sigue el camino de `just post-images`, que ya genera el AVIF.
-   - **`<picture>` en las portadas** (hero del post, que es el LCP, y tarjetas de listado).
-     Pasan por `cover-thumbs.json`, que hoy solo tiene `srcset` WebP: agregar el AVIF ahí y
-     el `<picture>` en `BlogPost.svelte` y `BlogPostCard.svelte`.
+   - **`<picture>` AVIF en las portadas: HECHO (2026-11-09).** `scripts/gen-cover-thumbs.ts` emite
+     `avifSrcset` en `cover-thumbs.json` (solo si TODA la escalera del `srcset` tiene AVIF, para que el
+     `<source>` AVIF nunca elija un archivo mayor que el WebP) y `src/lib/components/blog/CoverImage.svelte`
+     pinta `<picture class="contents">` con `<source type="image/avif">` y el `<img>` WebP de respaldo en
+     las 5 plantillas (hero del post, tarjeta de la home, listado, categoria y autor).
+     `scripts/cover-ladder-fill.ts` (`just cover-ladder-fill`) completa las portadas sin ningun rung de 600
+     a 1100 px (7 con original de 2560 px): sin el, un movil descargaba el original (Lighthouse "Improve
+     image delivery"). Una portada nueva: `just post-images`, luego `bun scripts/gen-cover-thumbs.ts`.
+     Medido el 2026-11-09 (Lighthouse movil, 3 corridas, build local): `/blog/audio-visual-rental-for-conferences/`
+     579 a 446 KiB, bytes de imagen sobrantes 140 KB a 0, LCP 4,7 s a unos 3,9 s (ruido de 3,4 a 4,3 s),
+     puntuacion 78 a 83. El listado `/blog/` baja de 574 a 486 KiB.
 
 ### Campos requeridos del frontmatter
 

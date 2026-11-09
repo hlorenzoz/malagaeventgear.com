@@ -1,4 +1,5 @@
 <script lang="ts">
+	import CoverImage from '$lib/components/blog/CoverImage.svelte';
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
 	import { buildArticleSchema, buildFAQSchema, toIso8601WithOffset } from '$lib/utils/schema';
 	import { i18n } from '$lib/i18n.svelte';
@@ -179,9 +180,8 @@
 			<!-- Cover Image -->
 			{#if post.coverImage}
 				<div class="mb-8 rounded-2xl overflow-hidden aspect-video">
-					<img
-						src={post.coverImageThumb ?? post.coverImage}
-						srcset={post.coverImageSrcset}
+					<CoverImage
+						{post}
 						sizes={PROSE_SIZES}
 						alt={post.title}
 						width="768"
@@ -189,7 +189,7 @@
 						class="w-full h-full object-cover"
 						loading="eager"
 						fetchpriority="high"
-					>
+					/>
 				</div>
 			{/if}
 

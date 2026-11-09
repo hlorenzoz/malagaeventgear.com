@@ -1,4 +1,5 @@
 <script lang="ts">
+	import CoverImage from '$lib/components/blog/CoverImage.svelte';
 	import { i18n } from '$lib/i18n.svelte';
 	import { slugify } from '$lib/utils/slugify';
 	import { LOCALE_META } from '$lib/i18n/locales';
@@ -29,9 +30,8 @@
 >
 	{#if post.coverImage}
 		<a href={post.url} class="block aspect-video overflow-hidden" aria-label={post.title}>
-			<img
-				src={post.coverImageThumb ?? post.coverImage}
-				srcset={post.coverImageSrcset}
+			<CoverImage
+				{post}
 				sizes="280px"
 				alt={post.title}
 				width="280"
@@ -47,7 +47,9 @@
 		<!-- Badge: News, else first category -->
 		<div class="mb-2">
 			{#if post.isNews}
-				<span class="px-2 py-0.5 rounded-full text-xs font-label-sm bg-electric-blue-strong text-white uppercase tracking-wider">
+				<span
+					class="px-2 py-0.5 rounded-full text-xs font-label-sm bg-electric-blue-strong text-white uppercase tracking-wider"
+				>
 					{i18n.t.blog.newsBadge}
 				</span>
 			{:else if post.categories && post.categories.length > 0}
