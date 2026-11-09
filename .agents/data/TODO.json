@@ -1534,6 +1534,23 @@
       ]
     },
     {
+      "id": "#T0195",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Nueva seccion H2 en /blog/event-technology-service/: logistica, servicios de reuniones y convenciones en Malaga (decision del usuario 2026-11-09)",
+      "anotada": "2026-11-09",
+      "hecha": "2026-11-09",
+      "origen": "usuario",
+      "notas": [
+        "implementada 2026-11-09",
+        "commit ba3b5030"
+      ],
+      "descripcion": [
+        "Las tres busquedas con demanda medida (meeting services malaga 108 impr, convention services malaga 91, event logistics malaga 87, unas 290 al ano, posicion 36, 0 clics). El usuario eligio la seccion en el pilar y no un post nuevo. Decir con claridad que MEG no organiza el evento: resuelve la parte tecnica (entrega, instalacion, prueba, soporte, recogida) y busca proveedores para el resto. Sin enlaces nuevos al silo (el pilar solo enlaza a awards-ceremony-production)."
+      ]
+    },
+    {
       "id": "#T0192",
       "estado": "hecha",
       "prioridad": "baja",
