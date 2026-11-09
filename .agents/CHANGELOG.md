@@ -7,6 +7,16 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Added (imagenes): AVIF para las variantes WebP migradas de WordPress, `just avif-backfill` (2026-11-09)
+- Pedido del usuario (2026-11-06): las imagenes se procesan (WebP, AVIF, etiquetas, R2) antes de crear los posts. Comprobado ese dia: las imagenes nuevas pasan por `just post-images` y tienen AVIF, pero las ~1.480 variantes migradas de WordPress eran solo WebP (pendiente anotado en CLAUDE.md desde 2026-09-24).
+- `scripts/avif-backfill.ts` (+ `scripts/avif-backfill.test.ts`, 6 tests de la logica pura, escritos primero en rojo): por cada variante WebP del manifest sin `avifUrl` descarga el WebP del CDN, lo codifica con sharp (calidad 50), lo sube a R2 con la MISMA clave y extension `.avif` (claves nuevas, no pisa nada, sin purga de CDN), comprueba que el CDN responde `image/avif` y escribe `avifUrl` en la entrada WebP (nunca una entrada aparte). Descarta un AVIF que pese igual o mas que el WebP. Idempotente, reanudable, guarda el manifest cada 25.
+- Lote piloto de 3 variantes antes del lote completo: AVIF 124 KB frente a 190 KB del WebP (35% menos), `content-type: image/avif`. `rehype-blog-images` emite el `<picture>` con `<source type="image/avif">` solo, sin cambios de codigo.
+- Recipe `just avif-backfill` y nota de CLAUDE.md actualizada. Sigue pendiente la otra mitad del item: `<picture>` AVIF en las portadas (`cover-thumbs.json`, `BlogPost.svelte`, `BlogPostCard.svelte`).
+
+### Fixed (blog): frase de bodas del #T0188 y glosario de los posts de ponentes (2026-11-09)
+- `audio-visual-rental-for-weddings`: la frase "one booking covers the ceremony, the banquet and the dancefloor" daba a entender un alcance que los paquetes no nombran. Ahora pide al cliente que diga que momentos necesitan sonido y confirmamos que cubre el paquete. `updatedDate` a 2026-11-09 y los 12 idiomas.
+- `keynote-speaker-av-requirements`: los 12 idiomas muestran "(confidence monitor)" una vez tras el termino nativo del "monitor de confianza", como los posts hermanos de monitores de escenario. Solo traducciones, sin cambio de fechas.
+
 ### Changed (blog): audio-visual-rental-planning-timeline, seccion H2 de checklist AV antes de reservar (#T0193) (2026-11-09)
 - Origen: plan de contenido 2026-11-09, item "av checklist for events / av equipment checklist" (sin datos medidos).
 - Anadido `## AV Checklist for Events: What to Settle Before You Book` despues de `What We Need From You to Build an Accurate Quote`, con su bullet en el Table of Contents en linea. Solo hechos de `packages.ts` y del CSV del 2026-09-26. Pared LED, streaming e hibrido van con la formula de proveedores, sin marca, cantidad ni plazo. Enlaces solo a Eco Pack y MICE Pack, sin precios nuevos.
