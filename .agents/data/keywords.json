@@ -7812,6 +7812,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-29"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -8033,6 +8043,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-29"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -9911,6 +9931,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-09"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -10122,6 +10152,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-09"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -10479,6 +10519,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-29"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -10672,6 +10722,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-29"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -10922,6 +10982,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-29"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -11094,6 +11164,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -11116,6 +11196,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "add-section",
+            "targetUrl": "/blog/audio-visual-rental-planning-timeline/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -11138,6 +11228,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "add-section",
+            "targetUrl": "/blog/audio-visual-rental-planning-timeline/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -11283,6 +11383,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "add-section",
+            "targetUrl": "/blog/audio-visual-rental-planning-timeline/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -11327,6 +11437,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -11375,6 +11495,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -11535,6 +11665,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "add-section",
+            "targetUrl": "/blog/audio-visual-rental-planning-timeline/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -11622,6 +11762,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-29"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -11666,6 +11816,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "add-section",
+            "targetUrl": "/blog/audio-visual-rental-planning-timeline/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -14369,6 +14529,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-09"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -14430,6 +14600,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-09"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -14589,6 +14769,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-09"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -81786,6 +81976,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 36
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-09",
+          "lastSeen": "2026-11-09",
+          "stats": {
+            "asOf": "2026-11-09",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
           }
         }
       },
