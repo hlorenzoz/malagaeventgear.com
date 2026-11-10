@@ -1,7 +1,65 @@
 {
 	"version": 1,
-	"updated": "2026-11-09",
+	"updated": "2026-11-10",
 	"reports": [
+		{
+			"date": "2026-11-10",
+			"kind": "backlinks",
+			"status": "partial",
+			"reason": "backlink_opportunity returned no rows (done false, nextKey null)",
+			"calls": [
+				{
+					"tool": "backlinks_overview",
+					"outcome": "ok"
+				},
+				{
+					"tool": "backlink_opportunity",
+					"outcome": "empty"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "empty"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				},
+				{
+					"tool": "keyword_overview",
+					"outcome": "ok"
+				}
+			],
+			"summary": [
+				"Backlinks 192, referring domains 147, domain authority 2, follow 182, nofollow 10.",
+				"backlink_opportunity for avhirespain.com and sonidomalaga.com returned 0 rows.",
+				"Reports used went from 0 to 1 after these two calls, so they cost 1 report in total."
+			],
+			"findings": [],
+			"discovered": {
+				"keywords": 1,
+				"aiPrompts": 32
+			}
+		},
 		{
 			"date": "2026-11-09",
 			"kind": "rank-tracking",

@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-10",
+  "run": {
+    "status": "partial",
+    "reason": "backlink_opportunity returned no rows, keyword_suggestions, serp_analysis and content_ideas returned nothing for the first seed",
+    "calls": [
+      {"tool": "backlinks_overview", "args": "malagaeventgear.com", "outcome": "ok"},
+      {"tool": "backlink_opportunity", "args": "positive avhirespain.com and sonidomalaga.com, negative malagaeventgear.com, limit 20", "outcome": "empty"},
+      {"tool": "industry_prompts", "args": "seed audio visual rental for corporate meetings", "outcome": "ok"},
+      {"tool": "industry_prompts", "args": "seed av equipment checklist for conference", "outcome": "ok"},
+      {"tool": "industry_prompts", "args": "seed destination wedding av costa del sol", "outcome": "ok"},
+      {"tool": "article_title_suggestions", "args": "first seed, project id", "outcome": "ok"},
+      {"tool": "keyword_suggestions", "args": "first seed, locId 2724", "outcome": "empty"},
+      {"tool": "serp_analysis", "args": "first seed, limit 10, locId 2724", "outcome": "empty"},
+      {"tool": "content_ideas", "args": "first seed, limit 5, locId 2724", "outcome": "empty"},
+      {"tool": "keyword_overview", "args": "first seed, locId 2724", "outcome": "ok"}
+    ],
+    "skipped": [
+      {"step": "keyword_suggestions for seeds 2 and 3", "reason": "first seed returned no results and reports are limited, so the call was not repeated"},
+      {"step": "keyword_metrics", "reason": "monthlyDue is false"},
+      {"step": "faqs", "reason": "Google autocomplete is the faq-researcher's job"}
+    ],
+    "quotaBefore": {"reports": 0, "monthly_keyword_metrics_updates": 0, "brand_operations": 0},
+    "quotaAfter": {"reports": 2, "monthly_keyword_metrics_updates": 0, "brand_operations": 0}
+  },
+  "keywords": [
+    {
+      "keyword": "audio visual rental for corporate meetings",
+      "source": "ubersuggest-suggestions",
+      "metrics": {
+        "volume": {"value": 0, "source": "ubersuggest", "asOf": "2026-11-10"},
+        "difficulty": {"value": 4, "source": "ubersuggest", "asOf": "2026-11-10"},
+        "cpc": {"value": 0, "source": "ubersuggest", "asOf": "2026-11-10"}
+      }
+    }
+  ],
+  "faqs": [],
+  "aiPrompts": [
+    {"prompt": "What is the best audio visual rental service for corporate meetings in Spain?", "keyword": "audio visual rental for corporate meetings", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which AV rental company offers the best value for corporate events near me?", "keyword": "audio visual rental for corporate meetings", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Malaga Event Gear vs other audio visual rental providers in Spain: which is better?", "keyword": "audio visual rental for corporate meetings", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Top-rated audio visual rental companies for business conferences in Spain", "keyword": "audio visual rental for corporate meetings", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best budget-friendly audio visual rental options for corporate meetings in Spain", "keyword": "audio visual rental for corporate meetings", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Recommendations for audio visual rental that includes on-site technical support in Spain", "keyword": "audio visual rental for corporate meetings", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Audio visual rental with simultaneous translation equipment for corporate meetings in Spain", "keyword": "audio visual rental for corporate meetings", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which AV rental company offers customizable packages for corporate meetings in Spain?", "keyword": "audio visual rental for corporate meetings", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where to rent audio visual equipment for corporate training sessions in Spain?", "keyword": "audio visual rental for corporate meetings", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Malaga Event Gear vs local competitors for corporate AV rental in Spain", "keyword": "audio visual rental for corporate meetings", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "What’s the best AV equipment checklist for a mid-sized conference in Spain?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which AV gear should I prioritize for a corporate conference setup?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "AV equipment checklist vs rental package: What’s more cost-effective for a conference?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where can I rent AV equipment for conferences with a complete checklist included?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Recommendations for AV equipment checklists that cover sound, lighting, and video for conferences", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which AV equipment checklist is ideal for a conference with breakout sessions and multiple rooms?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best AV equipment checklist for a small conference budget under €1000 in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best AV equipment checklist for conferences with high attendee capacity and Q&A sessions", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best AV equipment checklist for conferences focusing on clear audio and audience interaction", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "What is the best destination wedding AV service in Costa del Sol for a medium-sized event?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which destination wedding AV providers in Costa del Sol offer the best sound and lighting packages?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Costa del Sol destination wedding AV rental vs full-service AV production: which is better for my wedding?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Top-rated destination wedding AV companies near Marbella, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where can I hire affordable destination wedding AV equipment in Costa del Sol?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best destination wedding AV services in Costa del Sol for outdoor beach ceremonies", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Comparing Malaga Event Gear vs other destination wedding AV suppliers in Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which destination wedding AV company in Costa del Sol offers bilingual technical support?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best value destination wedding AV packages in Costa del Sol for intimate weddings under 50 guests", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Most reliable destination wedding AV providers in Costa del Sol with onsite technicians", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best destination wedding AV setups in Costa del Sol for evening receptions with dance floors", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Top destination wedding AV gear rental shops near Fuengirola, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Affordable destination wedding AV hire near Malaga airport, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"}
+  ],
+  "research": {
+    "audio visual rental for corporate meetings": {
+      "titleIdeas": [
+        "Must-have AV gear for corporate meetings: ranked priorities for planners",
+        "Onsite hotel AV vs local rental partners in Malaga: which is better for your corporate meeting?",
+        "How to choose audio visual rental for corporate meetings: a practical checklist and timeline"
+      ]
+    }
+  },
+  "rank": [],
+  "discarded": [
+    {"text": "Where can I rent high-quality audio visual equipment for corporate meetings in Madrid?", "reason": "another market (Madrid)"},
+    {"text": "Where to hire audio visual equipment for a corporate presentation in Barcelona?", "reason": "another market (Barcelona)"},
+    {"text": "Best audio visual rental for formal business meetings in Valencia", "reason": "another market (Valencia)"},
+    {"text": "Where to buy AV equipment checklist templates for professional conference planning?", "reason": "buying templates, not hiring gear"},
+    {"text": "Where to find comprehensive AV equipment checklists for conferences in Madrid and nearby areas?", "reason": "another market (Madrid)"},
+    {"text": "Costa del Sol destination wedding AV companies specializing in drone videography and audio", "reason": "drone videography is not a MEG service"},
+    {"text": "Where to buy or rent high-end destination wedding AV equipment in Costa del Sol?", "reason": "includes buying equipment"}
+  ],
+  "report": {
+    "kind": "backlinks",
+    "status": "partial",
+    "reason": "backlink_opportunity returned no rows (done false, nextKey null)",
+    "summary": [
+      "Backlinks 192, referring domains 147, domain authority 2, follow 182, nofollow 10.",
+      "backlink_opportunity for avhirespain.com and sonidomalaga.com returned 0 rows.",
+      "Reports used went from 0 to 1 after these two calls, so they cost 1 report in total."
+    ],
+    "metrics": {"domainAuthority": 2, "backlinks": 192, "refDomains": 147, "refDomainsGovEdu": 0, "follow": 182, "noFollow": 10},
+    "seoCounts": {},
+    "seo": [],
+    "rows": []
+  }
+}
