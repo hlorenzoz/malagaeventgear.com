@@ -1,0 +1,40 @@
+{
+	"date": "2026-11-10",
+	"run": {
+		"status": "ok",
+		"calls": [
+			{ "tool": "google_suggestions", "args": "unique wedding ceremony rentals, wedding rentals near me", "outcome": "ok" },
+			{ "tool": "google_suggestions", "args": "wireless handheld microphone rental, audio visual rental for small businesses", "outcome": "ok" },
+			{ "tool": "google_suggestions", "args": "audio visual rental for sports events, audio visual rental for trade shows", "outcome": "ok" },
+			{ "tool": "google_suggestions", "args": "audio visual rental for training sessions, audio visual rental for virtual events", "outcome": "ok" },
+			{ "tool": "google_suggestions", "args": "av equipment needed for a conference, destination wedding av costa del sol", "outcome": "ok" }
+		]
+	},
+	"seeds": [
+		"unique-wedding-ceremony-rentals",
+		"wedding-rentals-near-me",
+		"wireless-handheld-microphone-rental",
+		"audio-visual-rental-for-small-businesses",
+		"audio-visual-rental-for-sports-events",
+		"audio-visual-rental-for-trade-shows",
+		"audio-visual-rental-for-training-sessions",
+		"audio-visual-rental-for-virtual-events",
+		"av-equipment-needed-for-a-conference",
+		"destination-wedding-av-costa-del-sol"
+	],
+	"suggestions": [
+		{ "seed": "wedding-rentals-near-me", "phrase": "how much does it cost to rent a wedding venue" },
+		{ "seed": "wedding-rentals-near-me", "phrase": "how much do rentals cost for a wedding" },
+		{ "seed": "wedding-rentals-near-me", "phrase": "why have a wedding" },
+		{ "seed": "wedding-rentals-near-me", "phrase": "how much does it cost to rent a barn for a wedding" },
+		{ "seed": "wedding-rentals-near-me", "phrase": "how much are party bus rentals near me" },
+		{ "seed": "wedding-rentals-near-me", "phrase": "how much does it cost a wedding in spain" },
+		{ "seed": "wireless-handheld-microphone-rental", "phrase": "can cell phones interfere with wireless microphones" },
+		{ "seed": "wireless-handheld-microphone-rental", "phrase": "can i use my phone as a wireless microphone" },
+		{ "seed": "wireless-handheld-microphone-rental", "phrase": "what is the best wireless microphone" },
+		{ "seed": "audio-visual-rental-for-trade-shows", "phrase": "is audio visual a trade" },
+		{ "seed": "audio-visual-rental-for-training-sessions", "phrase": "how much does it cost to rent a studio for music" },
+		{ "seed": "av-equipment-needed-for-a-conference", "phrase": "what av equipment do i need for a conference" },
+		{ "seed": "av-equipment-needed-for-a-conference", "phrase": "what equipment is needed" }
+	]
+}
