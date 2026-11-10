@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "tasks": [
     {
       "id": "#T0085",
@@ -1487,6 +1487,29 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0196",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-11-10",
+      "anotada": "2026-11-10",
+      "hecha": "2026-11-10",
+      "origen": "content-strategist (plan 2026-11-10, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "best practices for av rental logistics (Cubierto por /blog/audio-visual-rental-planning-timeline/ (H2 AV Checklist for Events: What to Settle Before You Book) y /blog/how-audio-visual-rental-works/. Una pagina nueva seria canibalizacion.)",
+        "budgeting for wedding rentals (Cubierto por /blog/tips-for-reducing-wedding-rental-costs/ (H2 Right Sizing Your Package Is the Biggest Real Lever) y /blog/how-to-compare-wedding-rental-quotes/.)",
+        "centerpiece ideas with wedding rentals (Decoracion, vajilla, sillas y carpas no estan en el inventario de MEG ni en su posicionamiento audiovisual (CLAUDE.md, Inventario real de equipamiento). Solo se escribiria por tráfico, lo que creating-helpful-content.md desaconseja. El clima y exterior ya lo cubre /blog/outdoor-wedding-rental-considerations/.)",
+        "common mistakes with wedding rentals (Cubierto por /blog/protecting-your-wedding-rental-items/, /blog/common-av-rental-mistakes/ y /blog/managing-last-minute-wedding-rental-changes/. Mismo intento, seria silo overlap.)",
+        "choosing audio visual equipment rental (Cubierto por /blog/av-equipment-consultations/ (H2 The Package to Event Decision Table) y /blog/how-to-customize-av-rental-packages/. Una pagina nueva canibalizaria.)",
+        "choosing microphones for av rental (Cubierto por /blog/wireless-handheld-microphone-rental/ (H2 How to Choose a Wireless Handheld Microphone Rental), /blog/headset-lavalier-microphone-rental/ y /blog/conference-table-microphone-rental/.)",
+        "company offsite av (Intencion servida por /blog/audio-visual-rental-for-corporate-events/ y /blog/audio-visual-rental-for-corporate-meetings/. Sin volumen ni impresiones, una seccion nueva solo repetiria lo que ya hay.)",
+        "conference hall equipment list (Cubierto por /blog/audio-visual-rental-for-conferences/ (H2 AV Equipment Checklist for a Conference) y /blog/how-to-organize-a-congress-in-malaga/ (H2 What to Check With the Venue).)",
+        "congress malaga (Cubierto por /blog/how-to-organize-a-congress-in-malaga/ y /blog/mice-events-in-malaga/ (H2 Where We Deliver and How to Book). Una pagina por zona seria doorway abuse (spam-policies.md).)"
+      ]
     },
     {
       "id": "#T0193",
