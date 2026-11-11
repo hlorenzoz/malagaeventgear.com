@@ -20763,6 +20763,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-11"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -22200,6 +22210,16 @@
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-11"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -23148,6 +23168,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-29"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -29585,6 +29615,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-29"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -29671,6 +29711,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -30521,6 +30571,16 @@
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-11"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -30949,6 +31009,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-11"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -34681,6 +34751,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-11"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -34729,6 +34809,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-11"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -34858,6 +34948,34 @@
       "notes": ""
     },
     {
+      "id": "how-to-return-wedding-rental-items",
+      "keyword": "how to return wedding rental items",
+      "locale": "en",
+      "cluster": "wedding rentals",
+      "topic": null,
+      "intent": null,
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "sources": {
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
+        }
+      },
+      "opportunity": null,
+      "opportunityReason": null,
+      "firstSeen": "2026-11-11",
+      "lastResearched": null,
+      "notes": ""
+    },
+    {
       "id": "how-to-return-wedding-rentals",
       "keyword": "how to return wedding rentals",
       "locale": "en",
@@ -34871,6 +34989,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-11"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -34960,6 +35088,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-11"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -34982,6 +35120,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-11"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -35275,6 +35423,16 @@
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-11"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -41894,6 +42052,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-30",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -42207,6 +42375,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-11"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -42896,6 +43074,16 @@
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-11"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "add-faq",
+            "targetUrl": "/blog/how-to-organize-a-congress-in-malaga/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -45556,6 +45744,16 @@
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-11"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "add-section",
+            "targetUrl": "/blog/event-technology-service/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -49795,6 +49993,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-11"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -61189,6 +61397,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -61211,6 +61429,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-11",
+          "lastSeen": "2026-11-11",
+          "stats": {
+            "asOf": "2026-11-11",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,

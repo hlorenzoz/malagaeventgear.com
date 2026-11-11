@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-11",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 20,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "items": [
+    {
+      "keywords": ["multi day conference technical support"],
+      "cluster": "event technology service",
+      "action": "add-section",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Es un aspecto del H2 On Site Technical Support del pilar y ningun post lo cubre con ese enfoque (revisados congress, mice, keynote). Cumple creating-helpful-content.md: lo responde MEG con su servicio de tecnico en sitio. Solo H3, sin enlaces nuevos desde el pilar.",
+      "targetUrl": "/blog/event-technology-service/",
+      "file": "src/content/blog/event-technology-service.svx",
+      "headingLevel": 3,
+      "heading": "Technical Support for Multi Day Conferences",
+      "after": "On Site Technical Support",
+      "brief": "Responder que cambia en un congreso de varios dias: tecnico presente o de guardia, montaje la vvispera, revision diaria de microfonos y pantallas, cambios de sala entre sesiones. Usar solo el servicio de tecnico descrito en la propia pagina y packages.ts (paquete MICE). No inventar cifras de personal, turnos ni precios, y no anadir enlaces a posts de apoyo."
+    },
+    {
+      "keywords": ["medical congress malaga"],
+      "cluster": "event technology service",
+      "action": "add-faq",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Intencion de congreso medico en Malaga: encaja como pregunta en el post de como organizar un congreso, que ya cubre venues y brief audiovisual. No es una pagina nueva ni una variante de ciudad (spam-policies.md, doorway abuse).",
+      "targetUrl": "/blog/how-to-organize-a-congress-in-malaga/",
+      "file": "src/content/blog/how-to-organize-a-congress-in-malaga.svx",
+      "question": "What audiovisual setup does a medical congress in Malaga usually need?",
+      "brief": "Responder con lo que MEG puede respaldar: sonido, microfonos, pantallas o proyector y tecnico (paquete MICE en packages.ts). Interpretacion simultanea y votacion interactiva solo como servicios coordinados con proveedores: no es inventario propio, decirnos lo que necesita y buscamos una solucion con nuestros proveedores, sin marca, modelo, precio ni plazo. No dar consejos medicos ni normativa."
+    },
+    {
+      "keywords": ["dmc malaga"],
+      "cluster": "event technology service",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Cubierto por /blog/how-to-organize-a-congress-in-malaga/, FAQ Do I need a destination management company? MEG no es una DMC."
+    },
+    {
+      "keywords": ["fycma malaga congress center"],
+      "cluster": "event technology service",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Cubierto por /blog/mice-events-in-malaga/ (seccion Main Venues for Meetings and Congresses, FYCMA y el trabajo de ECOC 2026). Una pagina por venue seria doorway abuse."
+    },
+    {
+      "keywords": ["incentive trip event planning"],
+      "cluster": "event technology service",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Planificar un viaje incentive no es lo que vende MEG (solo la parte audiovisual). La parte audiovisual de incentives ya esta en /blog/mice-events-in-malaga/. Respuesta generica segun creating-helpful-content.md."
+    },
+    {
+      "keywords": ["diy wedding decoration vs rentals", "luxury wedding decor rental services", "guide to wedding table rentals", "outdoor wedding tent rental care"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Decoracion, mesas y carpas no son inventario de MEG (solo AV). Lo que MEG si puede decir ya esta en /blog/pros-and-cons-of-wedding-rentals/ y /blog/weather-considerations-for-outdoor-rentals/ (What MEG Does Not Stock)."
+    },
+    {
+      "keywords": ["how to clean wedding rental items", "how to store wedding rental items", "how to return wedding rental items", "how to return wedding rentals"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Misma intencion de cuidado y devolucion del material alquilado, cubierta por /blog/protecting-your-wedding-rental-items/. MEG monta y recoge el equipo con su equipo, el cliente no lo limpia ni lo guarda."
+    },
+    {
+      "keywords": ["how to coordinate wedding rentals", "how wedding rentals save money"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Cubierto por /blog/making-the-most-of-wedding-rentals/ (What to Send Us Before Your Event) y /blog/tips-for-reducing-wedding-rental-costs/. Un post nuevo seria canibalizacion."
+    },
+    {
+      "keywords": ["equipment rental services near me", "live sound rental near me"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Variantes near me de paginas existentes (audio video rental near me, wedding rentals near me). Doorway abuse en spam-policies.md, y equipment rental generico no es el negocio de MEG."
+    },
+    {
+      "keywords": ["rent audiovisual", "rent audiovisual sevilla"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Termino amplio ya servido por los pilares de la silo audiovisual. La variante Sevilla es una pagina por ciudad (doorway abuse), la zona de servicio ya se cubre en Booking and Service Area."
+    },
+    {
+      "keywords": ["examples of audio visual equipment", "exclusive rent for events"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Examples of audio visual equipment esta cubierto por /blog/audio-visual-rental/, FAQ What is audio visual equipment? Exclusive rent for events es ambiguo (alquiler de venue) y no se puede respaldar."
+    }
+  ]
+}
