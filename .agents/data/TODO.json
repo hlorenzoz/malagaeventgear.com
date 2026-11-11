@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "tasks": [
     {
       "id": "#T0085",
@@ -769,6 +769,45 @@
       ]
     },
     {
+      "id": "#T0197",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Nueva sección H3 en /blog/event-technology-service/: \"Technical Support for Multi Day Conferences\"",
+      "anotada": "2026-11-11",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-11-11, ítem 1)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/event-technology-service.svx",
+        "Ubicación: dentro de \"On Site Technical Support\"",
+        "Keywords: multi day conference technical support (no measured data), sin volumen",
+        "Qué cubrir: Responder que cambia en un congreso de varios dias: tecnico presente o de guardia, montaje la vvispera, revision diaria de microfonos y pantallas, cambios de sala entre sesiones. Usar solo el servicio de tecnico descrito en la propia pagina y packages.ts (paquete MICE). No inventar cifras de personal, turnos ni precios, y no anadir enlaces a posts de apoyo.",
+        "Por qué: Es un aspecto del H2 On Site Technical Support del pilar y ningun post lo cubre con ese enfoque (revisados congress, mice, keynote). Cumple creating-helpful-content.md: lo responde MEG con su servicio de tecnico en sitio. Solo H3, sin enlaces nuevos desde el pilar.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0198",
+      "estado": "pendiente",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/how-to-organize-a-congress-in-malaga/: \"What audiovisual setup does a medical congress in Malaga usually need?\"",
+      "anotada": "2026-11-11",
+      "hecha": null,
+      "origen": "content-strategist (plan 2026-11-11, ítem 2)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/how-to-organize-a-congress-in-malaga.svx",
+        "Keywords: medical congress malaga (no measured data), sin volumen",
+        "Qué cubrir: Responder con lo que MEG puede respaldar: sonido, microfonos, pantallas o proyector y tecnico (paquete MICE en packages.ts). Interpretacion simultanea y votacion interactiva solo como servicios coordinados con proveedores: no es inventario propio, decirnos lo que necesita y buscamos una solucion con nuestros proveedores, sin marca, modelo, precio ni plazo. No dar consejos medicos ni normativa.",
+        "Por qué: Intencion de congreso medico en Malaga: encaja como pregunta en el post de como organizar un congreso, que ya cubre venues y brief audiovisual. No es una pagina nueva ni una variante de ciudad (spam-policies.md, doorway abuse).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
       "id": "#T0175",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1487,6 +1526,29 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0199",
+      "estado": "hecha",
+      "prioridad": "baja",
+      "tipo": "contenido",
+      "titulo": "Descartadas por content-strategist el 2026-11-11",
+      "anotada": "2026-11-11",
+      "hecha": "2026-11-11",
+      "origen": "content-strategist (plan 2026-11-11, descartes)",
+      "notas": [],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "dmc malaga (Cubierto por /blog/how-to-organize-a-congress-in-malaga/, FAQ Do I need a destination management company? MEG no es una DMC.)",
+        "fycma malaga congress center (Cubierto por /blog/mice-events-in-malaga/ (seccion Main Venues for Meetings and Congresses, FYCMA y el trabajo de ECOC 2026). Una pagina por venue seria doorway abuse.)",
+        "incentive trip event planning (Planificar un viaje incentive no es lo que vende MEG (solo la parte audiovisual). La parte audiovisual de incentives ya esta en /blog/mice-events-in-malaga/. Respuesta generica segun creating-helpful-content.md.)",
+        "diy wedding decoration vs rentals (Decoracion, mesas y carpas no son inventario de MEG (solo AV). Lo que MEG si puede decir ya esta en /blog/pros-and-cons-of-wedding-rentals/ y /blog/weather-considerations-for-outdoor-rentals/ (What MEG Does Not Stock).)",
+        "how to clean wedding rental items (Misma intencion de cuidado y devolucion del material alquilado, cubierta por /blog/protecting-your-wedding-rental-items/. MEG monta y recoge el equipo con su equipo, el cliente no lo limpia ni lo guarda.)",
+        "how to coordinate wedding rentals (Cubierto por /blog/making-the-most-of-wedding-rentals/ (What to Send Us Before Your Event) y /blog/tips-for-reducing-wedding-rental-costs/. Un post nuevo seria canibalizacion.)",
+        "equipment rental services near me (Variantes near me de paginas existentes (audio video rental near me, wedding rentals near me). Doorway abuse en spam-policies.md, y equipment rental generico no es el negocio de MEG.)",
+        "rent audiovisual (Termino amplio ya servido por los pilares de la silo audiovisual. La variante Sevilla es una pagina por ciudad (doorway abuse), la zona de servicio ya se cubre en Booking and Service Area.)",
+        "examples of audio visual equipment (Examples of audio visual equipment esta cubierto por /blog/audio-visual-rental/, FAQ What is audio visual equipment? Exclusive rent for events es ambiguo (alquiler de venue) y no se puede respaldar.)"
+      ]
     },
     {
       "id": "#T0196",
