@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-11",
+  "run": {
+    "status": "partial",
+    "calls": [
+      {"tool": "user_limits", "args": "none", "outcome": "ok"},
+      {"tool": "list_projects", "args": "none", "outcome": "ok"},
+      {"tool": "domain_top_pages", "args": "malagaeventgear.com locId 2724 limit 10", "outcome": "ok"},
+      {"tool": "domain_overview", "args": "malagaeventgear.com locId 2724", "outcome": "ok"},
+      {"tool": "traffic_value", "args": "malagaeventgear.com with project_id", "outcome": "failed"},
+      {"tool": "industry_prompts", "args": "seed gala dinners", "outcome": "ok"},
+      {"tool": "industry_prompts", "args": "seed conference checklist", "outcome": "ok"},
+      {"tool": "industry_prompts", "args": "seed destination wedding", "outcome": "ok"},
+      {"tool": "article_title_suggestions", "args": "gala dinners seed", "outcome": "ok"},
+      {"tool": "keyword_suggestions", "args": "gala dinners seed locId 2724", "outcome": "empty"},
+      {"tool": "serp_analysis", "args": "gala dinners seed limit 10 locId 2724", "outcome": "ok"},
+      {"tool": "content_ideas", "args": "gala dinners seed limit 5 locId 2724", "outcome": "empty"},
+      {"tool": "keyword_overview", "args": "gala dinners seed locId 2724", "outcome": "ok"}
+    ],
+    "skipped": [
+      {"step": "traffic_value", "reason": "HTTP 403 Insufficient scope for this endpoint"},
+      {"step": "keyword_suggestions and content_ideas for seeds 2 and 3", "reason": "keyword_suggestions and content_ideas returned no results for seed 1, and reports quota is nearly spent, so only seed 1 was researched"},
+      {"step": "keyword_metrics", "reason": "monthlyDue is false"},
+      {"step": "AI prompt ideas brand_operations", "reason": "brand_operations_used stayed 0 after 3 industry_prompts calls"}
+    ],
+    "quotaBefore": {"reports": 0, "monthly_keyword_metrics_updates": 0, "brand_operations_used": 0},
+    "quotaAfter": {"reports": 2, "monthly_keyword_metrics_updates": 0, "brand_operations_used": 0}
+  },
+  "keywords": [
+    {
+      "keyword": "audio visual rental companies",
+      "source": "ubersuggest-domain",
+      "metrics": {
+        "volume": {"value": 10, "source": "ubersuggest", "asOf": "2026-11-11"},
+        "difficulty": {"value": 5, "source": "ubersuggest", "asOf": "2026-11-11"},
+        "cpc": {"value": 0, "source": "ubersuggest", "asOf": "2026-11-11"}
+      }
+    },
+    {
+      "keyword": "audio visual rental for gala dinners",
+      "source": "ubersuggest-suggestions",
+      "metrics": {
+        "volume": {"value": 0, "source": "ubersuggest", "asOf": "2026-11-11"},
+        "difficulty": {"value": 4, "source": "ubersuggest", "asOf": "2026-11-11"},
+        "cpc": {"value": 0, "source": "ubersuggest", "asOf": "2026-11-11"}
+      }
+    }
+  ],
+  "faqs": [],
+  "aiPrompts": [
+    {"prompt": "What is the best audio visual rental service for gala dinners in Spain?", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which audio visual rental company offers the best value for gala dinner events near me?", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Malaga Event Gear vs local AV rental companies for gala dinners in Spain - which is better?", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where can I hire high-quality audio visual equipment for a gala dinner in Spain?", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Top-rated audio visual rental services for gala dinners in Spain with lighting and sound included", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best budget-friendly audio visual rental options for gala dinners in Spain", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Recommendations for audio visual rental companies that provide full setup for gala dinners in Spain", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which audio visual rental should I choose for an elegant gala dinner with live performances?", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where to find the best deals on audio visual rental for gala dinners in Spain?", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Audio visual rental companies near me specializing in gala dinners with projector and sound system", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Is Malaga Event Gear worth choosing for gala dinner AV rental compared to other providers in Spain?", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best audio visual rental services for gala dinners that include microphones and speakers in Spain", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where to hire professional audio visual technicians for gala dinner events in Spain?", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which AV rental company offers the latest technology for gala dinners in Spain?", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best places to rent LED screens and sound systems for gala dinners in Spain", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Audio visual rental for gala dinners with customizable lighting options - recommendations in Spain", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where can I rent wireless microphone systems for gala dinners in Spain?", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best audio visual rental services with quick setup and teardown for gala dinners in Spain", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "How does Malaga Event Gear compare to other AV rental providers for gala dinner events in Spain?", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Audio visual rental for gala dinners near me with 4K projector and surround sound options", "keyword": "audio visual rental for gala dinners", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "What's the best AV equipment checklist for a mid-sized conference in Spain?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which AV gear should I prioritize for a corporate conference setup?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "AV equipment checklist vs rental package: What's more cost-effective for a conference?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best value AV equipment bundles for conference presentations near me in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where can I rent AV equipment for conferences with a complete checklist included?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Recommendations for AV equipment checklists that cover sound, lighting, and video for conferences", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Top-rated AV equipment checklists tailored for conference organizers in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "What's the difference between Malaga Event Gear and other AV providers for conference setups?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best AV equipment checklist for a conference with remote streaming capabilities", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which AV equipment checklist is ideal for a conference with breakout sessions and multiple rooms?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best AV equipment checklist for a small conference budget under EUR 1000 in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Malaga Event Gear vs local AV rental companies: Which offers a better conference checklist?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which AV setup checklist includes all essential gear for hybrid conferences?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Recommendations for portable AV equipment checklists perfect for pop-up conferences in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best AV equipment checklist for conferences with high attendee capacity and Q&A sessions", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best deals on AV equipment checklists and rental combos for conferences in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "What AV equipment checklist should I use for a tech conference requiring advanced video displays?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best AV equipment checklist for conferences focusing on clear audio and audience interaction", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "What is the best destination wedding AV service in Costa del Sol for a medium-sized event?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which destination wedding AV providers in Costa del Sol offer the best sound and lighting packages?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Costa del Sol destination wedding AV rental vs full-service AV production: which is better for my wedding?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Top-rated destination wedding AV companies near Marbella, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where can I hire affordable destination wedding AV equipment in Costa del Sol?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best destination wedding AV services in Costa del Sol for outdoor beach ceremonies", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Comparing Malaga Event Gear vs other destination wedding AV suppliers in Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Recommendations for destination wedding AV providers in Costa del Sol that support live streaming", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which destination wedding AV company in Costa del Sol offers bilingual technical support?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best value destination wedding AV packages in Costa del Sol for intimate weddings under 50 guests", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where to find last-minute destination wedding AV rentals in Costa del Sol?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Costa del Sol destination wedding AV companies specializing in drone videography and audio", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Most reliable destination wedding AV providers in Costa del Sol with onsite technicians", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best destination wedding AV setups in Costa del Sol for evening receptions with dance floors", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Comparing wired vs wireless AV solutions for destination weddings in Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Top destination wedding AV gear rental shops near Fuengirola, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which destination wedding AV company in Costa del Sol offers custom lighting design?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best destination wedding AV companies in Costa del Sol for multilingual events", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Affordable destination wedding AV hire near Malaga airport, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where to buy or rent high-end destination wedding AV equipment in Costa del Sol?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"}
+  ],
+  "research": {
+    "audio visual rental for gala dinners": {
+      "serp": {
+        "localPack": true,
+        "aiOverview": true,
+        "top": [
+          "http://www.ineventos.com/es-en/av-rental/madrid",
+          "http://velvetproductions.es/en/event-equipment-rentals"
+        ],
+        "asOf": "2026-11-11"
+      },
+      "titleIdeas": [
+        "Best audio visual setups for gala dinners on the Costa del Sol",
+        "Choosing AV hire or in-house AV for your gala dinner: pros and cons",
+        "How to plan seamless audio visual production for a gala dinner in Malaga"
+      ]
+    }
+  },
+  "rank": [
+    {
+      "keyword": "audio visual rental companies",
+      "position": 54,
+      "rankingUrl": "http://malagaeventgear.com/blog/audio-visual-rental-companies/",
+      "asOf": "2026-11-11"
+    }
+  ],
+  "discarded": [
+    {"text": "Where to find comprehensive AV equipment checklists for conferences in Madrid and nearby areas?", "reason": "another market (Madrid)"}
+  ],
+  "report": {
+    "kind": "top-pages",
+    "status": "ok",
+    "summary": [
+      "domain_top_pages returned 1 page: /blog/audio-visual-rental-companies/ with traffic 0, backlinks 0.",
+      "domain_overview: organic keywords 7, traffic 55, domain authority 2, backlinks 192, referring domains 147.",
+      "traffic_value failed with HTTP 403. Cost: reports 0 to 2 across domain_top_pages and domain_overview."
+    ],
+    "metrics": {
+      "organicKeywords": 7,
+      "traffic": 55,
+      "domainAuthority": 2,
+      "backlinks": 192,
+      "refDomains": 147
+    },
+    "seoCounts": {},
+    "seo": [],
+    "rows": [
+      {
+        "label": "http://malagaeventgear.com/blog/audio-visual-rental-companies/",
+        "values": {"traffic": 0, "backlinks": 0, "refdomains": 0}
+      }
+    ]
+  }
+}

@@ -1,7 +1,76 @@
 {
 	"version": 1,
-	"updated": "2026-11-10",
+	"updated": "2026-11-11",
 	"reports": [
+		{
+			"date": "2026-11-11",
+			"kind": "top-pages",
+			"status": "ok",
+			"calls": [
+				{
+					"tool": "user_limits",
+					"outcome": "ok"
+				},
+				{
+					"tool": "list_projects",
+					"outcome": "ok"
+				},
+				{
+					"tool": "domain_top_pages",
+					"outcome": "ok"
+				},
+				{
+					"tool": "domain_overview",
+					"outcome": "ok"
+				},
+				{
+					"tool": "traffic_value",
+					"outcome": "failed"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "ok"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				},
+				{
+					"tool": "keyword_overview",
+					"outcome": "ok"
+				}
+			],
+			"summary": [
+				"domain_top_pages returned 1 page: /blog/audio-visual-rental-companies/ with traffic 0, backlinks 0.",
+				"domain_overview: organic keywords 7, traffic 55, domain authority 2, backlinks 192, referring domains 147.",
+				"traffic_value failed with HTTP 403. Cost: reports 0 to 2 across domain_top_pages and domain_overview."
+			],
+			"findings": [],
+			"discovered": {
+				"keywords": 2,
+				"aiPrompts": 58
+			}
+		},
 		{
 			"date": "2026-11-10",
 			"kind": "backlinks",
