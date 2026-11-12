@@ -9000,7 +9000,7 @@
         },
         "ubersuggest": {
           "firstSeen": "2026-10-08",
-          "lastSeen": "2026-11-11",
+          "lastSeen": "2026-11-12",
           "via": [
             "content-ideas",
             "domain",
@@ -9030,7 +9030,7 @@
       "opportunity": "low",
       "opportunityReason": "volume 10 with difficulty 5",
       "firstSeen": "2026-09-29",
-      "lastResearched": "2026-11-11",
+      "lastResearched": "2026-11-12",
       "notes": ""
     },
     {
@@ -9175,13 +9175,13 @@
         },
         "ubersuggest": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-11-09",
+          "lastSeen": "2026-11-12",
           "via": [
             "project",
             "seo-opportunities"
           ],
           "stats": {
-            "asOf": "2026-10-29",
+            "asOf": "2026-11-12",
             "volume": 10,
             "difficulty": 5,
             "cpc": 0
@@ -9199,7 +9199,7 @@
       "opportunity": "medium",
       "opportunityReason": "gsc: position 23.16 with 32 impressions",
       "firstSeen": "2026-09-29",
-      "lastResearched": "2026-11-09",
+      "lastResearched": "2026-11-12",
       "notes": ""
     },
     {
@@ -72362,7 +72362,7 @@
         },
         "ubersuggest": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-11-09",
+          "lastSeen": "2026-11-12",
           "via": [
             "project",
             "seo-opportunities"
@@ -72379,7 +72379,7 @@
       "opportunity": "medium",
       "opportunityReason": "gsc: position 18.12 with 24 impressions",
       "firstSeen": "2026-09-29",
-      "lastResearched": "2026-11-09",
+      "lastResearched": "2026-11-12",
       "notes": "Covered per the Google Ads / Ubersuggest keyword audit closed 2026-08-06 (engram: google_ads_keyword_audit_2026-08-06): already served by existing content, no new post needed."
     },
     {
@@ -74454,13 +74454,13 @@
         },
         "ubersuggest": {
           "firstSeen": "2026-09-30",
-          "lastSeen": "2026-11-09",
+          "lastSeen": "2026-11-12",
           "via": [
             "project",
             "seo-opportunities"
           ],
           "stats": {
-            "asOf": "2026-10-29",
+            "asOf": "2026-11-12",
             "volume": 20,
             "difficulty": 27,
             "cpc": 1.305
@@ -74474,7 +74474,7 @@
       "opportunity": "low",
       "opportunityReason": "volume 20 with difficulty 27",
       "firstSeen": "2026-09-29",
-      "lastResearched": "2026-11-09",
+      "lastResearched": "2026-11-12",
       "notes": ""
     },
     {
@@ -103878,6 +103878,18 @@
       "firstSeen": "2026-10-02"
     },
     {
+      "id": "ubersuggest--affordable-audio-visual-rental-options-for-acoustic-music-shows-in-spain",
+      "prompt": "Affordable audio visual rental options for acoustic music shows in Spain?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-11-12"
+    },
+    {
       "id": "ubersuggest--affordable-audiovisual-equipment-rental-service-in-spain-with-professional-support",
       "prompt": "Affordable audiovisual equipment rental service in Spain with professional support?",
       "keywordId": "audiovisual-equipment-rental-service",
@@ -104164,6 +104176,18 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-10-24"
+    },
+    {
+      "id": "ubersuggest--audio-visual-rental-services-near-me-that-specialize-in-music-concerts",
+      "prompt": "Audio visual rental services near me that specialize in music concerts?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-11-12"
     },
     {
       "id": "ubersuggest--audio-visual-rental-services-offering-wireless-microphone-systems-for-conferences-in-spain",
@@ -104526,6 +104550,18 @@
       "firstSeen": "2026-10-09"
     },
     {
+      "id": "ubersuggest--best-audio-visual-rental-for-touring-musicians-performing-in-spain",
+      "prompt": "Best audio visual rental for touring musicians performing in Spain?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-11-12"
+    },
+    {
       "id": "ubersuggest--best-audio-visual-rental-packages-for-large-corporate-presentations-in-spain",
       "prompt": "Best audio visual rental packages for large corporate presentations in Spain",
       "keywordId": "audio-visual-rental-for-corporate-events",
@@ -104740,6 +104776,18 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-09-30"
+    },
+    {
+      "id": "ubersuggest--best-budget-friendly-audio-visual-rental-for-small-music-venues-in-spain",
+      "prompt": "Best budget-friendly audio visual rental for small music venues in Spain?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-11-12"
     },
     {
       "id": "ubersuggest--best-budget-friendly-audio-visual-rental-options-for-charity-fundraisers-near-me",
@@ -105006,6 +105054,18 @@
       "firstSeen": "2026-09-30"
     },
     {
+      "id": "ubersuggest--best-value-audio-visual-rental-deals-for-live-band-performances-in-spain",
+      "prompt": "Best value audio visual rental deals for live band performances in Spain?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-11-12"
+    },
+    {
       "id": "ubersuggest--best-value-audio-visual-rental-deals-for-nonprofit-fundraiser-events",
       "prompt": "Best value audio visual rental deals for nonprofit fundraiser events.",
       "keywordId": "audio-visual-rental-for-charity-fundraisers",
@@ -105112,6 +105172,18 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-10-05"
+    },
+    {
+      "id": "ubersuggest--comparing-audio-visual-rental-prices-for-music-events-in-spain-what-are-my-options",
+      "prompt": "Comparing audio visual rental prices for music events in Spain - what are my options?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-11-12"
     },
     {
       "id": "ubersuggest--comparing-malaga-event-gear-and-competitors-for-conference-av-rentals-in-spain",
@@ -105384,6 +105456,18 @@
       "firstSeen": "2026-09-30"
     },
     {
+      "id": "ubersuggest--is-malaga-event-gear-the-best-choice-for-renting-audio-visual-equipment-for-music-performances-in-spain",
+      "prompt": "Is Malaga Event Gear the best choice for renting audio visual equipment for music performances in Spain?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-11-12"
+    },
+    {
       "id": "ubersuggest--is-malaga-event-gear-worth-choosing-for-gala-dinner-av-rental-compared-to-other-providers-in-spain",
       "prompt": "Is Malaga Event Gear worth choosing for gala dinner AV rental compared to other providers in Spain?",
       "keywordId": "audio-visual-rental-for-gala-dinners",
@@ -105490,6 +105574,18 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-10-02"
+    },
+    {
+      "id": "ubersuggest--malaga-event-gear-vs-other-audio-visual-rental-options-for-music-concerts-in-spain",
+      "prompt": "Malaga Event Gear vs other audio visual rental options for music concerts in Spain?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-11-12"
     },
     {
       "id": "ubersuggest--malaga-event-gear-vs-other-audio-visual-rental-providers-in-spain-which-is-better",
@@ -105694,6 +105790,18 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-09-30"
+    },
+    {
+      "id": "ubersuggest--recommendations-for-audio-visual-rental-that-includes-lighting-and-sound-for-music-shows",
+      "prompt": "Recommendations for audio visual rental that includes lighting and sound for music shows?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-11-12"
     },
     {
       "id": "ubersuggest--recommendations-for-audio-visual-rental-that-includes-on-site-technical-staff-for-conferences",
@@ -106020,6 +106128,18 @@
       "firstSeen": "2026-09-30"
     },
     {
+      "id": "ubersuggest--top-rated-av-rental-companies-for-music-events-in-spain",
+      "prompt": "Top-rated AV rental companies for music events in Spain?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-11-12"
+    },
+    {
       "id": "ubersuggest--top-rated-conference-table-microphone-rentals-for-boardroom-use",
       "prompt": "Top-rated conference table microphone rentals for boardroom use",
       "keywordId": "conference-table-microphone-rental",
@@ -106054,6 +106174,18 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "ubersuggest--top-recommended-av-rental-companies-for-electronic-music-events-in-spain",
+      "prompt": "Top recommended AV rental companies for electronic music events in Spain?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-11-12"
     },
     {
       "id": "ubersuggest--top-reviewed-audio-visual-rental-companies-for-nonprofit-events-in-spain",
@@ -106306,6 +106438,18 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-09-29"
+    },
+    {
+      "id": "ubersuggest--whats-the-best-audio-visual-rental-service-for-live-music-performances-in-spain",
+      "prompt": "What's the best audio visual rental service for live music performances in Spain?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-11-12"
     },
     {
       "id": "ubersuggest--whats-the-best-av-equipment-checklist-for-a-mid-sized-conference-in-spain",
@@ -106630,6 +106774,18 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-10-05"
+    },
+    {
+      "id": "ubersuggest--where-can-i-rent-professional-audio-visual-equipment-for-a-music-gig-near-me-in-spain",
+      "prompt": "Where can I rent professional audio visual equipment for a music gig near me in Spain?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-11-12"
     },
     {
       "id": "ubersuggest--where-can-i-rent-wireless-microphone-systems-for-gala-dinners-in-spain",
@@ -106980,6 +107136,18 @@
       "firstSeen": "2026-11-09"
     },
     {
+      "id": "ubersuggest--where-to-rent-audio-visual-equipment-with-technical-support-for-music-performances-in-spain",
+      "prompt": "Where to rent audio visual equipment with technical support for music performances in Spain?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-11-12"
+    },
+    {
       "id": "ubersuggest--where-to-rent-high-quality-speakers-and-screens-for-charity-fundraisers-in-spain",
       "prompt": "Where to rent high-quality speakers and screens for charity fundraisers in Spain?",
       "keywordId": "audio-visual-rental-for-charity-fundraisers",
@@ -107280,6 +107448,30 @@
       "firstSeen": "2026-10-09"
     },
     {
+      "id": "ubersuggest--which-audio-visual-rental-service-offers-quick-setup-for-live-music-performances-in-spain",
+      "prompt": "Which audio visual rental service offers quick setup for live music performances in Spain?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "id": "ubersuggest--which-audio-visual-rental-service-offers-the-best-packages-for-outdoor-music-festivals-in-spain",
+      "prompt": "Which audio visual rental service offers the best packages for outdoor music festivals in Spain?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-11-12"
+    },
+    {
       "id": "ubersuggest--which-audio-visual-rental-service-provides-event-technicians-for-corporate-events-in-spain",
       "prompt": "Which audio visual rental service provides event technicians for corporate events in Spain?",
       "keywordId": "audio-visual-rental-for-corporate-events",
@@ -107416,6 +107608,18 @@
         "asOf": "2026-11-06"
       },
       "firstSeen": "2026-09-30"
+    },
+    {
+      "id": "ubersuggest--which-av-rental-company-in-spain-provides-sound-and-video-gear-suitable-for-dj-events",
+      "prompt": "Which AV rental company in Spain provides sound and video gear suitable for DJ events?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-11-12"
     },
     {
       "id": "ubersuggest--which-av-rental-company-in-spain-specializes-in-corporate-event-services",
@@ -107620,6 +107824,18 @@
       "source": "ubersuggest-ai-prompt-ideas",
       "visibility": null,
       "firstSeen": "2026-09-30"
+    },
+    {
+      "id": "ubersuggest--which-is-better-for-concert-av-rentals-malaga-event-gear-or-local-competitors",
+      "prompt": "Which is better for concert AV rentals, Malaga Event Gear or local competitors?",
+      "keywordId": "audio-visual-rental-for-music-performances",
+      "cluster": "unassigned",
+      "url": null,
+      "status": "idea",
+      "reason": null,
+      "source": "ubersuggest-ai-prompt-ideas",
+      "visibility": null,
+      "firstSeen": "2026-11-12"
     },
     {
       "id": "ubersuggest--who-provides-audiovisual-equipment-and-a-technician-for-a-hotel-meeting-in-torremolinos",
