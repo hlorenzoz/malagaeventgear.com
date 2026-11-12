@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "tasks": [
     {
       "id": "#T0085",
@@ -769,45 +769,6 @@
       ]
     },
     {
-      "id": "#T0197",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Nueva sección H3 en /blog/event-technology-service/: \"Technical Support for Multi Day Conferences\"",
-      "anotada": "2026-11-11",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-11-11, ítem 1)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/event-technology-service.svx",
-        "Ubicación: dentro de \"On Site Technical Support\"",
-        "Keywords: multi day conference technical support (no measured data), sin volumen",
-        "Qué cubrir: Responder que cambia en un congreso de varios dias: tecnico presente o de guardia, montaje la vvispera, revision diaria de microfonos y pantallas, cambios de sala entre sesiones. Usar solo el servicio de tecnico descrito en la propia pagina y packages.ts (paquete MICE). No inventar cifras de personal, turnos ni precios, y no anadir enlaces a posts de apoyo.",
-        "Por qué: Es un aspecto del H2 On Site Technical Support del pilar y ningun post lo cubre con ese enfoque (revisados congress, mice, keynote). Cumple creating-helpful-content.md: lo responde MEG con su servicio de tecnico en sitio. Solo H3, sin enlaces nuevos desde el pilar.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
-      "id": "#T0198",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/how-to-organize-a-congress-in-malaga/: \"What audiovisual setup does a medical congress in Malaga usually need?\"",
-      "anotada": "2026-11-11",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-11-11, ítem 2)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/how-to-organize-a-congress-in-malaga.svx",
-        "Keywords: medical congress malaga (no measured data), sin volumen",
-        "Qué cubrir: Responder con lo que MEG puede respaldar: sonido, microfonos, pantallas o proyector y tecnico (paquete MICE en packages.ts). Interpretacion simultanea y votacion interactiva solo como servicios coordinados con proveedores: no es inventario propio, decirnos lo que necesita y buscamos una solucion con nuestros proveedores, sin marca, modelo, precio ni plazo. No dar consejos medicos ni normativa.",
-        "Por qué: Intencion de congreso medico en Malaga: encaja como pregunta en el post de como organizar un congreso, que ya cubre venues y brief audiovisual. No es una pagina nueva ni una variante de ciudad (spam-policies.md, doorway abuse).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0175",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1526,6 +1487,49 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0197",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Nueva sección H3 en /blog/event-technology-service/: \"Technical Support for Multi Day Conferences\"",
+      "anotada": "2026-11-11",
+      "hecha": "2026-11-12",
+      "origen": "content-strategist (plan 2026-11-11, ítem 1)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/event-technology-service.svx",
+        "Ubicación: dentro de \"On Site Technical Support\"",
+        "Keywords: multi day conference technical support (no measured data), sin volumen",
+        "Qué cubrir: Responder que cambia en un congreso de varios dias: tecnico presente o de guardia, montaje la vvispera, revision diaria de microfonos y pantallas, cambios de sala entre sesiones. Usar solo el servicio de tecnico descrito en la propia pagina y packages.ts (paquete MICE). No inventar cifras de personal, turnos ni precios, y no anadir enlaces a posts de apoyo.",
+        "Por qué: Es un aspecto del H2 On Site Technical Support del pilar y ningun post lo cubre con ese enfoque (revisados congress, mice, keynote). Cumple creating-helpful-content.md: lo responde MEG con su servicio de tecnico en sitio. Solo H3, sin enlaces nuevos desde el pilar.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0198",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/how-to-organize-a-congress-in-malaga/: \"What audiovisual setup does a medical congress in Malaga usually need?\"",
+      "anotada": "2026-11-11",
+      "hecha": "2026-11-12",
+      "origen": "content-strategist (plan 2026-11-11, ítem 2)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/how-to-organize-a-congress-in-malaga.svx",
+        "Keywords: medical congress malaga (no measured data), sin volumen",
+        "Qué cubrir: Responder con lo que MEG puede respaldar: sonido, microfonos, pantallas o proyector y tecnico (paquete MICE en packages.ts). Interpretacion simultanea y votacion interactiva solo como servicios coordinados con proveedores: no es inventario propio, decirnos lo que necesita y buscamos una solucion con nuestros proveedores, sin marca, modelo, precio ni plazo. No dar consejos medicos ni normativa.",
+        "Por qué: Intencion de congreso medico en Malaga: encaja como pregunta en el post de como organizar un congreso, que ya cubre venues y brief audiovisual. No es una pagina nueva ni una variante de ciudad (spam-policies.md, doorway abuse).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
     },
     {
       "id": "#T0199",
