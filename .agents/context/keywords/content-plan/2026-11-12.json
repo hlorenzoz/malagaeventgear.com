@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-12",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 20,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "items": [
+    {
+      "keywords": ["run of show for corporate events"],
+      "cluster": "event technology service",
+      "action": "add-section",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Intención distinta de la guía de boda (making-the-most-of-wedding-rentals) y no cubierta en el silo event technology service. Encaja en mice-events-in-malaga, que ya cubre reuniones corporativas. Sin volumen medido, por eso solo sección y no post nuevo (creating-helpful-content.md: no contenido solo para buscadores). Awards-ceremony-production ya tiene 'Planning the Running Order' pero es de ceremonias.",
+      "targetUrl": "/blog/mice-events-in-malaga/",
+      "file": "src/content/blog/mice-events-in-malaga.svx",
+      "headingLevel": 2,
+      "heading": "Run of Show for Corporate Events",
+      "after": "What We Supply at a MICE Event",
+      "brief": "Explicar cómo el cliente corporativo debe compartir su run of show con el técnico de MEG: horarios de ponentes, cambios de micrófono, pases de diapositivas y pausas. Usar solo los paquetes y el equipo de packages.ts y del CSV de inventario más reciente, y las secciones News ya publicadas para la experiencia. No inventar plazos, precios ni equipos. No añadir enlaces del pilar a posts de soporte."
+    },
+    {
+      "keywords": ["technical rehearsal for corporate events"],
+      "cluster": "event technology service",
+      "action": "add-section",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Subtema concreto de la preparación de un congreso o evento corporativo. Se coloca como H3 en how-to-organize-a-congress-in-malaga, bajo 'What to Check With the Venue'. Distinto del run of show (calendario) aunque cercano. Revisados mice-events, keynote-speaker-av-requirements (sound check solo para ponentes) y el pilar, sin colisión.",
+      "targetUrl": "/blog/how-to-organize-a-congress-in-malaga/",
+      "file": "src/content/blog/how-to-organize-a-congress-in-malaga.svx",
+      "headingLevel": 3,
+      "heading": "Technical Rehearsal Before a Corporate Event",
+      "after": "What to Check With the Venue",
+      "brief": "Responder qué se prueba en un ensayo técnico (micrófonos, pantalla, música, cambios de ponente), cuándo conviene hacerlo y qué necesita MEG del recinto para ello. Basar la sección en el equipo real del CSV de inventario y en los congresos de las News ya publicadas. No prometer horas de ensayo, técnicos ni plazos concretos que no estén en packages.ts."
+    },
+    {
+      "keywords": ["sales kickoff event av"],
+      "cluster": "event technology service",
+      "action": "add-faq",
+      "priority": "medium",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Necesidad AV de un evento corporativo que MEG resuelve con paquetes propios. Demasiado estrecha para post propio y sin volumen medido, así que va como FAQ en mice-events-in-malaga (cubre reuniones corporativas). Revisado que no existe pregunta equivalente en sus FAQs.",
+      "targetUrl": "/blog/mice-events-in-malaga/",
+      "file": "src/content/blog/mice-events-in-malaga.svx",
+      "question": "What AV Does a Sales Kickoff Event Need?"
+    },
+    {
+      "keywords": ["rental of audio visual equipment"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Variante léxica del término principal del pilar /blog/audio-visual-rental/, que ya lo sirve. Un post o sección nuevos serían canibalización y solapamiento de silo."
+    },
+    {
+      "keywords": ["simultaneous interpretation for congresses in malaga"],
+      "cluster": "event technology service",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Cubierto por /blog/mice-events-in-malaga/: FAQ 'Can you provide simultaneous interpretation for a congress?' y sección 'What We Source With Partners'. Una página nueva repetiría lo mismo."
+    },
+    {
+      "keywords": ["team building malaga"],
+      "cluster": "unassigned",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Actividades de team building son otro negocio, no AV ni solución técnica de evento de MEG. Escribirlo solo por búsquedas iría contra creating-helpful-content.md."
+    },
+    {
+      "keywords": ["vintage wedding decor rentals", "vintage style wedding rental pieces", "rustic wedding decor rental", "wedding decor rental for outdoor weddings", "wedding arch rental inspiration"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Decoración y arcos no están en el inventario de MEG y el silo de bodas es solo audiovisual. Cubierto por el FAQ 'Does the Wedding Pack include a ceremony arch, altar or backdrop?' de /blog/unique-wedding-ceremony-rentals/ y por las FAQs del pilar sobre mobiliario y decoración."
+    },
+    {
+      "keywords": ["wedding linen rental services", "rental linens versus buying linens", "wedding glassware and flatware rental", "wedding bar and cocktail table rental"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Mantelería, cristalería y mobiliario de barra no son inventario de MEG ni servicio de AV. El tema ya se aclara en /blog/essential-items-for-wedding-rentals/ (FAQ 'Does the Wedding Pack include chairs, tables or linens?')."
+    },
+    {
+      "keywords": ["wedding all in one", "wedding all in one package", "wedding all in one place"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Cubierto por /blog/all-in-one-wedding-rental-packages/, cuyo keyword y cuyos H2 'What \"All in One\" Means for the Wedding Pack' sirven esta intención. Segundo post sería canibalización."
+    },
+    {
+      "keywords": ["wedding centerpiece rentals near me", "wedding location malaga"],
+      "cluster": "wedding rentals",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "unknown",
+      "evidence": "no measured data",
+      "reason": "Centros de mesa no son inventario de MEG y la variante near me ya existe en /blog/wedding-rentals-near-me/ (Doorway abuse, spam-policies.md). Buscar fincas o recintos no es un servicio de MEG."
+    }
+  ]
+}

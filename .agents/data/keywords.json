@@ -65141,6 +65141,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-12"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -65202,6 +65212,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-29"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -66150,6 +66170,16 @@
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-12"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "add-section",
+            "targetUrl": "/blog/mice-events-in-malaga/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -66172,6 +66202,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-12"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -66194,6 +66234,16 @@
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-12"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "add-faq",
+            "targetUrl": "/blog/mice-events-in-malaga/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -67433,6 +67483,16 @@
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-12"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -77866,6 +77926,16 @@
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-12"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -77964,6 +78034,16 @@
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-12"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "add-section",
+            "targetUrl": "/blog/how-to-organize-a-congress-in-malaga/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": null,
@@ -80912,6 +80992,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-12"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -80973,6 +81063,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-12"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -81627,6 +81727,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -81649,6 +81759,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -81671,6 +81791,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -81769,6 +81899,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-12"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -81961,6 +82101,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-12"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -82006,6 +82156,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-12"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -82129,6 +82289,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-12"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -82712,6 +82882,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-12"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -83077,6 +83257,16 @@
         "pop": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-12"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
@@ -83099,6 +83289,16 @@
         "google-autocomplete": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-09-30"
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-12",
+          "lastSeen": "2026-11-12",
+          "stats": {
+            "asOf": "2026-11-12",
+            "action": "skip",
+            "targetUrl": null,
+            "priority": "low"
+          }
         }
       },
       "opportunity": null,
