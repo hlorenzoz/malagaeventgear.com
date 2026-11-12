@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-12",
+  "taskId": "#T0198",
+  "slug": "how-to-organize-a-congress-in-malaga",
+  "searchTerm": "how to organize a congress in malaga What audiovisual setup does a medical congress in Malaga usually need?",
+  "status": "partial",
+  "reason": "Google position 1 (EPA 2024 AV PDF) was unreadable, so it was skipped. Positions 4, 5 skipped (duplicate article, PDF). Read positions 2, 3 and 6. Not localized to Spain.",
+  "serp": {
+    "query": "What audiovisual setup does a medical congress need",
+    "localized": false,
+    "results": [
+      {
+        "rank": 1,
+        "url": "https://www.sportsvideo.org/?p=300146",
+        "title": "Riedel connects live surgery and medical professionals at VISAR 2025"
+      },
+      {
+        "rank": 2,
+        "url": "https://citiviewav.com/?p=1158",
+        "title": "citiviewav.com"
+      },
+      {
+        "rank": 3,
+        "url": "https://cmebg.com/en/2024/05/30/%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE-%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%B2%D0%B0%D0%BD%D0%B5-%D0%B7%D0%B0-%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D0%B8-%D0%B8-%D0%BA/",
+        "title": "The Essential Guide to Technical Equipment for Congresses"
+      }
+    ]
+  },
+  "terms": [
+    { "term": "simultaneous interpretation", "kind": "entity", "seenIn": 2 },
+    { "term": "conference WiFi", "kind": "related", "seenIn": 2 },
+    { "term": "PA system", "kind": "entity", "seenIn": 1 },
+    { "term": "intercom system", "kind": "entity", "seenIn": 1 },
+    { "term": "live surgical video transmission", "kind": "related", "seenIn": 1 },
+    { "term": "multi-site operating room feeds", "kind": "related", "seenIn": 1 },
+    { "term": "session recording", "kind": "related", "seenIn": 1 },
+    { "term": "audience response system", "kind": "entity", "seenIn": 1 },
+    { "term": "hybrid streaming", "kind": "related", "seenIn": 1 },
+    { "term": "lavalier microphones", "kind": "entity", "seenIn": 1 },
+    { "term": "push-to-talk table microphones", "kind": "entity", "seenIn": 1 },
+    { "term": "LED video wall", "kind": "entity", "seenIn": 1 },
+    { "term": "conferencing display system", "kind": "entity", "seenIn": 1 },
+    { "term": "interpretation booths", "kind": "entity", "seenIn": 1 },
+    { "term": "interpreter consoles", "kind": "entity", "seenIn": 1 },
+    { "term": "remote simultaneous interpretation", "kind": "related", "seenIn": 1 },
+    { "term": "projectors", "kind": "entity", "seenIn": 1 },
+    { "term": "lighting and stage design", "kind": "related", "seenIn": 1 },
+    { "term": "technical project manager", "kind": "related", "seenIn": 1 },
+    { "term": "medical congress", "kind": "entity", "seenIn": 1 },
+    { "term": "CME symposium", "kind": "entity", "seenIn": 1 },
+    { "term": "What audiovisual equipment does a congress need?", "kind": "question", "seenIn": 1 },
+    { "term": "Do I need audience response technology?", "kind": "question", "seenIn": 1 },
+    { "term": "How is multilingual interpretation delivered?", "kind": "question", "seenIn": 1 },
+    { "term": "Why does a congress need reliable Wi-Fi?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Riedel Artist intercom system", "reason": "vendor product line, not generic vocabulary" },
+    { "term": "MediorNet video infrastructure", "reason": "vendor product line, not generic vocabulary" },
+    { "term": "SimplyLive Production Suite", "reason": "vendor product line" },
+    { "term": "Congress Engineering", "reason": "competitor company name" },
+    { "term": "Medical Legal Regulatory review", "reason": "US pharma compliance term, other market" },
+    { "term": "Fair balance display", "reason": "US pharma regulation term" },
+    { "term": "Off-label content prohibition", "reason": "US pharma regulation term" },
+    { "term": "Union jurisdiction rules", "reason": "US venue labour term" },
+    { "term": "HCP product launch", "reason": "pharma marketing jargon, not AV vocabulary" },
+    { "term": "typical budget per AV element", "reason": "price question" },
+    { "term": "advisory board and CME costs", "reason": "price question" }
+  ]
+}

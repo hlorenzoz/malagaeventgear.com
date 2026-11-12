@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-12",
+  "taskId": "#T0197",
+  "slug": "event-technology-service",
+  "searchTerm": "event technology service multi day conference technical support",
+  "status": "partial",
+  "reason": "Skipped Google positions 1 (ucsf.edu, HTTP 403), 3 to 6 (forums, game FAQ) and 8 (yorku.ca, virtual only). Read positions 2, 7 and 9. Two of three pages are about virtual events.",
+  "serp": {
+    "query": "multi day conference technical support",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://www.eventbuilder.rocks/services/virtual-conference-services?hsLang=en", "title": "Virtual Conferences" },
+      { "rank": 2, "url": "https://conferenceservices.cornell.edu/planning-services/virtual-and-hybrid-events", "title": "Virtual and Hybrid Events" },
+      { "rank": 3, "url": "https://www.venuecrew.com/?p=45917", "title": "How to organise a multi-day conference without losing your mind" }
+    ]
+  },
+  "terms": [
+    { "term": "tech checks", "kind": "related", "seenIn": 2 },
+    { "term": "breakout rooms", "kind": "related", "seenIn": 2 },
+    { "term": "hybrid events", "kind": "entity", "seenIn": 2 },
+    { "term": "virtual events", "kind": "entity", "seenIn": 2 },
+    { "term": "recorded event content", "kind": "related", "seenIn": 2 },
+    { "term": "multi day conference", "kind": "entity", "seenIn": 1 },
+    { "term": "speaker ready room", "kind": "related", "seenIn": 1 },
+    { "term": "mic check", "kind": "related", "seenIn": 1 },
+    { "term": "lapel microphone", "kind": "entity", "seenIn": 1 },
+    { "term": "AV team", "kind": "related", "seenIn": 1 },
+    { "term": "master slide deck", "kind": "related", "seenIn": 1 },
+    { "term": "video file formats", "kind": "related", "seenIn": 1 },
+    { "term": "run sheet", "kind": "related", "seenIn": 1 },
+    { "term": "bump in day", "kind": "related", "seenIn": 1 },
+    { "term": "vendor load ins", "kind": "related", "seenIn": 1 },
+    { "term": "plenary space", "kind": "related", "seenIn": 1 },
+    { "term": "general session", "kind": "related", "seenIn": 1 },
+    { "term": "technical support for presenters", "kind": "related", "seenIn": 1 },
+    { "term": "dress rehearsals", "kind": "related", "seenIn": 1 },
+    { "term": "closed captioning", "kind": "related", "seenIn": 1 },
+    { "term": "live event moderation", "kind": "related", "seenIn": 1 },
+    { "term": "presenter training", "kind": "related", "seenIn": 1 },
+    { "term": "How can you prevent presentation and tech glitches?", "kind": "question", "seenIn": 1 },
+    { "term": "How do you protect breaks in the agenda?", "kind": "question", "seenIn": 1 },
+    { "term": "How do you organise a multi day conference?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Microsoft Teams", "reason": "virtual platform product, off sense" },
+    { "term": "EventBuilder API", "reason": "vendor product name" },
+    { "term": "AIBuilder", "reason": "vendor product name" },
+    { "term": "Teams Pro Training", "reason": "vendor product name" },
+    { "term": "Paid versus unpaid admission", "reason": "ticketing, not technical support" },
+    { "term": "Sponsorships and monetization", "reason": "marketing vocabulary, off topic" },
+    { "term": "Gala dinner", "reason": "catering, off topic" },
+    { "term": "Buffet catering", "reason": "catering, off topic" },
+    { "term": "Experiential dining", "reason": "catering, off topic" },
+    { "term": "Shuttle bus", "reason": "transport logistics, off topic" },
+    { "term": "Media production packages and rates", "reason": "pricing wording, not vocabulary" },
+    { "term": "Buffer day before the event", "reason": "planning advice, not tech support" }
+  ]
+}
