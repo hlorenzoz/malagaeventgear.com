@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-13",
+  "taskId": "#T0202",
+  "slug": "mice-events-in-malaga",
+  "searchTerm": "sales kickoff event av What AV Does a Sales Kickoff Event Need?",
+  "status": "partial",
+  "reason": "Google position 2 (solutionzinc.com) skipped: it reports on an AV company's own sales kickoff, not on what AV a kickoff needs. Search results were mostly US vendor marketing pages, so vocabulary is thin on detail.",
+  "serp": {
+    "query": "what AV does a sales kickoff event need",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://www.avfx.com/?p=33095", "title": "www.avfx.com" },
+      { "rank": 2, "url": "https://centric.events/blog/corporate-av-partner-in-tempe-genesys-conference-case-study/", "title": "skip to content link" },
+      { "rank": 3, "url": "https://citiviewav.com/?p=933", "title": "citiviewav.com" }
+    ]
+  },
+  "terms": [
+    { "term": "breakout room AV", "kind": "related", "seenIn": 3 },
+    { "term": "sales kickoff SKO", "kind": "entity", "seenIn": 3 },
+    { "term": "lighting design", "kind": "related", "seenIn": 3 },
+    { "term": "general session", "kind": "entity", "seenIn": 2 },
+    { "term": "LED video wall", "kind": "entity", "seenIn": 2 },
+    { "term": "moving head lights", "kind": "entity", "seenIn": 2 },
+    { "term": "video playback", "kind": "related", "seenIn": 2 },
+    { "term": "awards and recognition", "kind": "entity", "seenIn": 2 },
+    { "term": "load-in", "kind": "related", "seenIn": 2 },
+    { "term": "keynote", "kind": "entity", "seenIn": 1 },
+    { "term": "audio engineering", "kind": "related", "seenIn": 1 },
+    { "term": "line array audio", "kind": "entity", "seenIn": 1 },
+    { "term": "wireless microphone frequency coordination", "kind": "related", "seenIn": 1 },
+    { "term": "IMAG speaker magnification", "kind": "related", "seenIn": 1 },
+    { "term": "technical run of show", "kind": "related", "seenIn": 1 },
+    { "term": "cue sheet", "kind": "related", "seenIn": 1 },
+    { "term": "show caller", "kind": "related", "seenIn": 1 },
+    { "term": "presentation management", "kind": "related", "seenIn": 1 },
+    { "term": "hybrid event production", "kind": "entity", "seenIn": 1 },
+    { "term": "streaming infrastructure", "kind": "related", "seenIn": 1 },
+    { "term": "haze atmospherics", "kind": "related", "seenIn": 1 },
+    { "term": "name and title lower thirds", "kind": "related", "seenIn": 1 },
+    { "term": "hotel ballrooms and conference centers", "kind": "entity", "seenIn": 1 },
+    { "term": "What AV is needed for a sales kickoff?", "kind": "question", "seenIn": 1 },
+    { "term": "How do you manage AV across many breakout rooms?", "kind": "question", "seenIn": 2 }
+  ],
+  "discarded": [
+    { "term": "Marriott resort in Tempe", "reason": "place outside Spain" },
+    { "term": "Boston Seaport properties", "reason": "place outside Spain" },
+    { "term": "350000 square feet venue", "reason": "US unit and venue specific" },
+    { "term": "Conference AV in Tempe", "reason": "place outside Spain" },
+    { "term": "Genesys", "reason": "client name of a competitor case study" },
+    { "term": "AVFX", "reason": "competitor name" },
+    { "term": "Concert-style walk-on", "reason": "marketing wording" }
+  ]
+}
