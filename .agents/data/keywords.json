@@ -66293,10 +66293,14 @@
       "cluster": "event technology service",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/mice-events-in-malaga/",
+      "status": "covered",
       "reason": null,
       "sources": {
+        "blog": {
+          "firstSeen": "2026-11-13",
+          "lastSeen": "2026-11-13"
+        },
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-13"
