@@ -1,0 +1,99 @@
+{
+	"date": "2026-11-13",
+	"run": {
+		"status": "ok",
+		"candidatesReviewed": 20,
+		"tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+	},
+	"items": [
+		{
+			"keywords": ["wedding locations marbella"],
+			"cluster": "unassigned",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "no measured data",
+			"reason": "Busca lugares para celebrar bodas en Marbella. MEG no vende ni gestiona recintos y es una variante de ciudad. Doorway abuse en spam-policies.md y people-first en creating-helpful-content.md."
+		},
+		{
+			"keywords": [
+				"wedding lounge furniture rental",
+				"wedding rentals chairs",
+				"wedding table decor rental"
+			],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "no measured data",
+			"reason": "Mobiliario, sillas y decoración no son inventario de MEG (el silo de bodas es solo audiovisual, ver CLAUDE.md) y no hay ningún dato medido. Escribirlo sería contenido genérico sin nada propio de MEG (creating-helpful-content.md)."
+		},
+		{
+			"keywords": ["wedding package"],
+			"cluster": "wedding rentals",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "unknown",
+			"evidence": "no measured data",
+			"reason": "Cubierto por /blog/all-in-one-wedding-rental-packages/, heading Our All Inclusive Wedding Pack in Malaga. Una página nueva sería canibalización."
+		},
+		{
+			"keywords": [
+				"rent loudspeakers",
+				"audio gear rental",
+				"rental stereo equipment",
+				"sound gear",
+				"audio rental"
+			],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "above",
+			"evidence": "google-ads 1000/mo (above tier 100), gsc pos 26.48 23 impr",
+			"reason": "Misma intención que /blog/sound-system-rental/, que ya tiene los headings Equipment We Use: Active PA Speakers, Column Array and Audix Microphones y la FAQ Can I rent just speakers, without a microphone or technician?. Un heading nuevo solo repetiría lo existente."
+		},
+		{
+			"keywords": ["speaker rental near me"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "above",
+			"evidence": "google-ads 480/mo (above tier 100)",
+			"reason": "Variante near me de un tema ya cubierto. Ya existen /blog/audio-video-rental-near-me-in-malaga-spain/ y la FAQ Do you deliver sound system rental near me outside Malaga city? en sound-system-rental. Doorway abuse en spam-policies.md."
+		},
+		{
+			"keywords": ["audio visual equipment rental services", "rental av equipment"],
+			"cluster": "audiovisual equipment rental service",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "above",
+			"evidence": "google-ads 260/mo (above tier 100), gsc pos 11.05 22 impr",
+			"reason": "Misma intención que el pilar /blog/audiovisual-equipment-rental-service/ y que /blog/audio-visual-rental-company/ (What We Stock, and What We Source). Sin hueco para otra sección ni página sin canibalizar."
+		},
+		{
+			"keywords": [
+				"projector and screen rental",
+				"projector and screen on rent",
+				"projector screen and projector rental",
+				"projector screen on rent",
+				"projector screen rental",
+				"rent screen for projector"
+			],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "above",
+			"evidence": "google-ads 480/mo (above tier 100)",
+			"reason": "Cubierto por /blog/projector-rental/, headings Projector and Screen Pricing by Package y Why the Screen Is Always Bundled With the Projector, con las FAQ sobre alquilar solo la pantalla. Los prompts de IA sobre conferencias y stands se atienden ahí y en /blog/tv-screen-rental/."
+		},
+		{
+			"keywords": ["inflatable movie screens"],
+			"cluster": "audio visual rental",
+			"action": "skip",
+			"priority": "low",
+			"avalancheFit": "above",
+			"evidence": "google-ads 1000/mo (above tier 100)",
+			"reason": "Cubierto por /blog/outdoor-movie-screen-and-projector-rental/, FAQ Do you rent an inflatable outdoor movie screen?."
+		}
+	]
+}
