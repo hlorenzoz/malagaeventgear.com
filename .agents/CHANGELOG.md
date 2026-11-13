@@ -7,6 +7,11 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (blog): revision de las traducciones de #T0200, #T0201 y #T0202 (2026-11-13)
+- Dos revisores de solo lectura leyeron las 36 traducciones (run of show y FAQ de convencion comercial en `mice-events-in-malaga`, ensayo tecnico en `how-to-organize-a-congress-in-malaga`). Ningun hecho, cifra ni negacion estaba mal. Sin cambio de fechas: son correcciones de redaccion de traducciones ya commiteadas el mismo dia.
+- Errores corregidos: sv `svanhalsmikrofonen` por `gåshalsmikrofonen` (termino fijado en los posts hermanos) y `vem som bläddrar dem` por `vem som byter bild` (bläddra es intransitivo), nb `hver trådløse håndmikrofon` por `hver trådløs håndmikrofon`.
+- Consistencia con los posts hermanos (41 cambios en 12 idiomas): soundcheck (nl, sv, da, nb lydprøve, zh 音響檢查/音响检查, it prova audio, pt-pt teste de som, fr test son), palmare wireless, pescoço de ganso y gooseneck en pt, Rednerpult y kabellos en de, 司儀 en zh-hk, 日程 y 時程 en vez de 節目 en zh.
+
 ### Changed (blog): mice-events-in-malaga, FAQ "What AV Does a Sales Kickoff Event Need?" (#T0202) (2026-11-13)
 - Origen: plan de contenido 2026-11-13, item `sales kickoff event av` (`add-faq`). Pregunta nueva al final de "FAQs" (despues de "Can you deliver to any venue in Malaga, Marbella or Torremolinos?") y su entrada anidada en el indice. Dos parrafos cortos: sesion general con sonido, pantalla o proyector, microfonos y tecnico, MICE Pack (490 euros sin IVA, hasta 120 invitados, pantalla LED de 60 pulgadas, cuello de ganso y mano inalambrico, tecnico hasta 6 horas), run of show para los cambios de microfono, el ponente maneja sus diapositivas, y streaming, hibrido y video wall como "buscamos una solucion con nuestros proveedores, si la hay".
 - Hechos del propio post y de `packages.ts`. Sin cifras ni enlaces nuevos. Terminos SERP: "general session", "keynote", "run of show". Descartados lighting design, wireless frequency coordination, cue sheet y breakout rooms (no respaldados como servicio propio).
