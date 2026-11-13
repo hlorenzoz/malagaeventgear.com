@@ -66361,10 +66361,14 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/mice-events-in-malaga/",
+      "status": "covered",
       "reason": null,
       "sources": {
+        "blog": {
+          "firstSeen": "2026-11-13",
+          "lastSeen": "2026-11-13"
+        },
         "research": {
           "firstSeen": "2026-09-29",
           "lastSeen": "2026-11-13"
@@ -99372,6 +99376,24 @@
           "lastSeen": "2026-11-13",
           "urls": [
             "/blog/keynote-speaker-av-requirements/"
+          ]
+        }
+      }
+    },
+    {
+      "id": "what-av-does-a-sales-kickoff-event-need",
+      "question": "What AV Does a Sales Kickoff Event Need?",
+      "keywordId": "mice-events-in-malaga",
+      "cluster": "event technology service",
+      "url": "/blog/mice-events-in-malaga/",
+      "status": "answered",
+      "reason": null,
+      "sources": {
+        "post": {
+          "firstSeen": "2026-11-13",
+          "lastSeen": "2026-11-13",
+          "urls": [
+            "/blog/mice-events-in-malaga/"
           ]
         }
       }
