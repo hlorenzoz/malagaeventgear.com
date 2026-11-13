@@ -769,26 +769,6 @@
       ]
     },
     {
-      "id": "#T0200",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Nueva sección H2 en /blog/mice-events-in-malaga/: \"Run of Show for Corporate Events\"",
-      "anotada": "2026-11-12",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-11-12, ítem 1)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/mice-events-in-malaga.svx",
-        "Ubicación: después de \"What We Supply at a MICE Event\"",
-        "Keywords: run of show for corporate events (no measured data), sin volumen",
-        "Qué cubrir: Explicar cómo el cliente corporativo debe compartir su run of show con el técnico de MEG: horarios de ponentes, cambios de micrófono, pases de diapositivas y pausas. Usar solo los paquetes y el equipo de packages.ts y del CSV de inventario más reciente, y las secciones News ya publicadas para la experiencia. No inventar plazos, precios ni equipos. No añadir enlaces del pilar a posts de soporte.",
-        "Por qué: Intención distinta de la guía de boda (making-the-most-of-wedding-rentals) y no cubierta en el silo event technology service. Encaja en mice-events-in-malaga, que ya cubre reuniones corporativas. Sin volumen medido, por eso solo sección y no post nuevo (creating-helpful-content.md: no contenido solo para buscadores). Awards-ceremony-production ya tiene 'Planning the Running Order' pero es de ceremonias.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0201",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1566,6 +1546,28 @@
         "audio visual equipment rental services (Misma intención que el pilar /blog/audiovisual-equipment-rental-service/ y que /blog/audio-visual-rental-company/ (What We Stock, and What We Source). Sin hueco para otra sección ni página sin canibalizar.)",
         "projector and screen rental (Cubierto por /blog/projector-rental/, headings Projector and Screen Pricing by Package y Why the Screen Is Always Bundled With the Projector, con las FAQ sobre alquilar solo la pantalla. Los prompts de IA sobre conferencias y stands se atienden ahí y en /blog/tv-screen-rental/.)",
         "inflatable movie screens (Cubierto por /blog/outdoor-movie-screen-and-projector-rental/, FAQ Do you rent an inflatable outdoor movie screen?.)"
+      ]
+    },
+    {
+      "id": "#T0200",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Nueva sección H2 en /blog/mice-events-in-malaga/: \"Run of Show for Corporate Events\"",
+      "anotada": "2026-11-12",
+      "hecha": "2026-11-13",
+      "origen": "content-strategist (plan 2026-11-12, ítem 1)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/mice-events-in-malaga.svx",
+        "Ubicación: después de \"What We Supply at a MICE Event\"",
+        "Keywords: run of show for corporate events (no measured data), sin volumen",
+        "Qué cubrir: Explicar cómo el cliente corporativo debe compartir su run of show con el técnico de MEG: horarios de ponentes, cambios de micrófono, pases de diapositivas y pausas. Usar solo los paquetes y el equipo de packages.ts y del CSV de inventario más reciente, y las secciones News ya publicadas para la experiencia. No inventar plazos, precios ni equipos. No añadir enlaces del pilar a posts de soporte.",
+        "Por qué: Intención distinta de la guía de boda (making-the-most-of-wedding-rentals) y no cubierta en el silo event technology service. Encaja en mice-events-in-malaga, que ya cubre reuniones corporativas. Sin volumen medido, por eso solo sección y no post nuevo (creating-helpful-content.md: no contenido solo para buscadores). Awards-ceremony-production ya tiene 'Planning the Running Order' pero es de ceremonias.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
     {
