@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-13",
+  "run": {
+    "status": "ok",
+    "calls": [
+      { "tool": "google_suggestions", "args": "pros and cons of wedding rentals, questions for reviewing wedding rental agreements (en, es)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "questions to ask wedding rental companies, audio system calibration (en, es)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "audio video rental near me, audio visual hire near me (en, es)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "audio visual rental companies, audio visual rental company (en, es)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "audio visual rental for charity fundraisers, audio visual rental for conferences (en, es)", "outcome": "ok" }
+    ]
+  },
+  "seeds": [
+    "pros-and-cons-of-wedding-rentals",
+    "questions-for-reviewing-wedding-rental-agreements",
+    "questions-to-ask-wedding-rental-companies",
+    "audio-system-calibration",
+    "audio-video-rental-near-me",
+    "audio-visual-hire-near-me",
+    "audio-visual-rental-companies",
+    "audio-visual-rental-company",
+    "audio-visual-rental-for-charity-fundraisers",
+    "audio-visual-rental-for-conferences"
+  ],
+  "suggestions": [
+    { "seed": "pros-and-cons-of-wedding-rentals", "phrase": "why have a wedding" },
+    { "seed": "pros-and-cons-of-wedding-rentals", "phrase": "who pays for a wedding in spain" },
+    { "seed": "pros-and-cons-of-wedding-rentals", "phrase": "is wedding pro worth it" },
+    { "seed": "questions-for-reviewing-wedding-rental-agreements", "phrase": "what questions to ask when planning a wedding" },
+    { "seed": "questions-to-ask-wedding-rental-companies", "phrase": "how much does it cost a wedding in spain" },
+    { "seed": "audio-system-calibration", "phrase": "why is calibration necessary" },
+    { "seed": "audio-system-calibration", "phrase": "why calibration is important" },
+    { "seed": "audio-system-calibration", "phrase": "when to calibrate" },
+    { "seed": "audio-system-calibration", "phrase": "how to use adaptiq audio calibration system" },
+    { "seed": "audio-system-calibration", "phrase": "how to calibrate sound system" },
+    { "seed": "audio-system-calibration", "phrase": "how to calibrate speakers" },
+    { "seed": "audio-system-calibration", "phrase": "why do audiometers need to be calibrated" },
+    { "seed": "audio-system-calibration", "phrase": "how often calibrate ph meter" },
+    { "seed": "audio-system-calibration", "phrase": "how often do audiometers need to be calibrated" },
+    { "seed": "audio-system-calibration", "phrase": "how often should we calibrate" },
+    { "seed": "audio-system-calibration", "phrase": "how often should audiological equipment be calibrated" },
+    { "seed": "audio-video-rental-near-me", "phrase": "what were the video rental stores" },
+    { "seed": "audio-video-rental-near-me", "phrase": "how much does it cost to rent a video camera" },
+    { "seed": "audio-video-rental-near-me", "phrase": "where to rent video equipment" },
+    { "seed": "audio-video-rental-near-me", "phrase": "is there a video rental store near me" },
+    { "seed": "audio-visual-hire-near-me", "phrase": "how much does it cost to hire a sound technician" },
+    { "seed": "audio-visual-hire-near-me", "phrase": "how much does it cost to hire a videographer" },
+    { "seed": "audio-visual-hire-near-me", "phrase": "how much is it to hire a videographer" },
+    { "seed": "audio-visual-rental-companies", "phrase": "what is an audiovisual platform" },
+    { "seed": "audio-visual-rental-companies", "phrase": "what is the largest audio visual rental company" },
+    { "seed": "audio-visual-rental-company", "phrase": "do rental cars have microphones" },
+    { "seed": "audio-visual-rental-company", "phrase": "what is the largest audio visual rental company" },
+    { "seed": "audio-visual-rental-company", "phrase": "do enterprise rentals have cameras" },
+    { "seed": "audio-visual-rental-company", "phrase": "how to start an audio visual company" },
+    { "seed": "audio-visual-rental-for-charity-fundraisers", "phrase": "how to fundraise for a short film" }
+  ]
+}
