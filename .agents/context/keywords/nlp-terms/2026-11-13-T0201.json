@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-13",
+  "taskId": "#T0201",
+  "slug": "how-to-organize-a-congress-in-malaga",
+  "searchTerm": "technical rehearsal for corporate events",
+  "status": "partial",
+  "reason": "Google position 1 was a podcast episode listing, skipped as a media page. Read positions 2, 3 and 9. The tool did not confirm localization. Pages are vendor marketing, one is a UK company.",
+  "serp": {
+    "query": "technical rehearsal corporate event AV",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://www.ems-events.co.uk/prevent-event-technical-failures", "title": "How to prevent technical failure at corporate events through better planning?" },
+      { "rank": 2, "url": "https://westwaveav.com/?p=3169", "title": "Tech Rehearsals: When They're Essential for a Flawless Event" },
+      { "rank": 3, "url": "https://static-financialeventplanning-com.pages.dev/planning-logistics/av-tech-rehearsals-the-dry-run-that-keeps-your-event-from-falling-apart/", "title": "AV Tech Rehearsals: The Dry Run That Keeps Your Event From Falling Apart" }
+    ]
+  },
+  "terms": [
+    { "term": "tech rehearsal", "kind": "related", "seenIn": 3 },
+    { "term": "run of show", "kind": "related", "seenIn": 3 },
+    { "term": "backup laptop", "kind": "entity", "seenIn": 3 },
+    { "term": "microphone batteries", "kind": "entity", "seenIn": 3 },
+    { "term": "lighting cues", "kind": "related", "seenIn": 3 },
+    { "term": "aspect ratios", "kind": "related", "seenIn": 3 },
+    { "term": "live streaming", "kind": "related", "seenIn": 3 },
+    { "term": "hybrid events", "kind": "entity", "seenIn": 3 },
+    { "term": "handheld microphones", "kind": "entity", "seenIn": 2 },
+    { "term": "confidence monitors", "kind": "entity", "seenIn": 2 },
+    { "term": "HDMI cables", "kind": "entity", "seenIn": 2 },
+    { "term": "LED video wall", "kind": "entity", "seenIn": 2 },
+    { "term": "presenter clicker", "kind": "entity", "seenIn": 2 },
+    { "term": "backup playback", "kind": "related", "seenIn": 2 },
+    { "term": "walk-on music", "kind": "related", "seenIn": 2 },
+    { "term": "load-in", "kind": "related", "seenIn": 2 },
+    { "term": "room acoustics", "kind": "related", "seenIn": 2 },
+    { "term": "Does every corporate event need a technical rehearsal?", "kind": "question", "seenIn": 2 },
+    { "term": "sound check", "kind": "related", "seenIn": 1 },
+    { "term": "full dress rehearsal", "kind": "related", "seenIn": 1 },
+    { "term": "cue-to-cue rehearsal", "kind": "related", "seenIn": 1 },
+    { "term": "site survey", "kind": "related", "seenIn": 1 },
+    { "term": "RF interference", "kind": "related", "seenIn": 1 },
+    { "term": "intercoms and talkback", "kind": "entity", "seenIn": 1 },
+    { "term": "What is an AV tech rehearsal?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "WhatsApp Teams Slack", "reason": "communication app brands, not AV vocabulary" },
+    { "term": "Financial industry events", "reason": "other market niche" },
+    { "term": "Backyard weddings", "reason": "off-topic event type" },
+    { "term": "Are tech rehearsals worth the investment?", "reason": "cost framing, marketing" },
+    { "term": "Pyrotechnics", "reason": "not relevant to a congress rehearsal" }
+  ]
+}

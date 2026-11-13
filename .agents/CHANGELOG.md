@@ -7,6 +7,11 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): how-to-organize-a-congress-in-malaga, H3 "Technical Rehearsal Before a Corporate Event" (#T0201) (2026-11-13)
+- Origen: plan de contenido 2026-11-13, item `technical rehearsal for corporate events` (`add-section`). H3 nuevo al final de "What to Check With the Venue", antes de "Who Does What in Malaga", con su entrada anidada en el indice. Un parrafo y cuatro puntos: pedir acceso a la sala con el equipo ya montado, probar microfonos (mano inalambrico, cuello de ganso, corbata), pantalla o proyector con el portatil del ponente, musica y audio, y cambios de ponente. Sin promesa de horas de ensayo: "lo pides en el brief y confirmamos lo que podamos".
+- Hechos del CSV de inventario 2026.09.26 y del propio post. Un enlace nuevo, a `/blog/mice-events-in-malaga/` con ancla "run of show" (ya enlazado en el post). Terminos SERP: "tech rehearsal", "run of show", "handheld microphones", "walk on music", "sound check" en espiritu. Descartados confidence monitors, presenter clicker, backup laptop, HDMI cables, site survey y cue to cue (no son inventario propio o no estan respaldados).
+- `updatedDate` a 2026-11-13, `post-faqs.json` y `post-toc.json` regenerados. Las 12 traducciones quedan desactualizadas y se actualizan en el mismo cambio.
+
 ### Changed (blog): mice-events-in-malaga, seccion "Run of Show for Corporate Events" (#T0200) (2026-11-13)
 - Origen: plan de contenido 2026-11-13, item `run of show for corporate events` (`add-section`). H2 nuevo despues de "What We Supply at a MICE Event" y antes de "What We Source With Partners", con su entrada en el indice. Tres parrafos cortos: que mandar al tecnico (bloques de tiempo por sesion, quien habla, que microfono), cambios de microfono segun el MICE Pack (un cuello de ganso y uno de mano inalambrico, mas microfonos "los buscamos en nuestro inventario propio"), diapositivas a cargo del ponente, pausas para prueba de sonido, quien da las entradas y que pasa si el programa se alarga (tecnico hasta 6 horas, hora extra 40 euros).
 - Hechos de `packages.ts` y del propio post. Sin cifras ni enlaces nuevos. Terminos SERP: "time block", "cue", "sound check", "microphones". Descartados LED screens, backup equipment, emcee, AV lead y los demas (no son inventario propio o no aportan).
