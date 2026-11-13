@@ -769,24 +769,6 @@
       ]
     },
     {
-      "id": "#T0202",
-      "estado": "pendiente",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Pregunta FAQ en /blog/mice-events-in-malaga/: \"What AV Does a Sales Kickoff Event Need?\"",
-      "anotada": "2026-11-12",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-11-12, ítem 3)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/mice-events-in-malaga.svx",
-        "Keywords: sales kickoff event av (no measured data), sin volumen",
-        "Por qué: Necesidad AV de un evento corporativo que MEG resuelve con paquetes propios. Demasiado estrecha para post propio y sin volumen medido, así que va como FAQ en mice-events-in-malaga (cubre reuniones corporativas). Revisado que no existe pregunta equivalente en sus FAQs.",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0175",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1569,6 +1551,26 @@
         "Keywords: technical rehearsal for corporate events (no measured data), sin volumen",
         "Qué cubrir: Responder qué se prueba en un ensayo técnico (micrófonos, pantalla, música, cambios de ponente), cuándo conviene hacerlo y qué necesita MEG del recinto para ello. Basar la sección en el equipo real del CSV de inventario y en los congresos de las News ya publicadas. No prometer horas de ensayo, técnicos ni plazos concretos que no estén en packages.ts.",
         "Por qué: Subtema concreto de la preparación de un congreso o evento corporativo. Se coloca como H3 en how-to-organize-a-congress-in-malaga, bajo 'What to Check With the Venue'. Distinto del run of show (calendario) aunque cercano. Revisados mice-events, keynote-speaker-av-requirements (sound check solo para ponentes) y el pilar, sin colisión.",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
+    },
+    {
+      "id": "#T0202",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Pregunta FAQ en /blog/mice-events-in-malaga/: \"What AV Does a Sales Kickoff Event Need?\"",
+      "anotada": "2026-11-12",
+      "hecha": "2026-11-13",
+      "origen": "content-strategist (plan 2026-11-12, ítem 3)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/mice-events-in-malaga.svx",
+        "Keywords: sales kickoff event av (no measured data), sin volumen",
+        "Por qué: Necesidad AV de un evento corporativo que MEG resuelve con paquetes propios. Demasiado estrecha para post propio y sin volumen medido, así que va como FAQ en mice-events-in-malaga (cubre reuniones corporativas). Revisado que no existe pregunta equivalente en sus FAQs.",
         "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
       ]
     },
