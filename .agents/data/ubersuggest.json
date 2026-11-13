@@ -1,7 +1,76 @@
 {
 	"version": 1,
-	"updated": "2026-11-12",
+	"updated": "2026-11-13",
 	"reports": [
+		{
+			"date": "2026-11-13",
+			"kind": "ai-visibility",
+			"status": "ok",
+			"calls": [
+				{
+					"tool": "user_limits",
+					"outcome": "ok"
+				},
+				{
+					"tool": "list_projects",
+					"outcome": "ok"
+				},
+				{
+					"tool": "brand_config",
+					"outcome": "ok"
+				},
+				{
+					"tool": "brand_visibility_overview",
+					"outcome": "ok"
+				},
+				{
+					"tool": "brand_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "industry_prompts",
+					"outcome": "ok"
+				},
+				{
+					"tool": "article_title_suggestions",
+					"outcome": "ok"
+				},
+				{
+					"tool": "keyword_suggestions",
+					"outcome": "empty"
+				},
+				{
+					"tool": "serp_analysis",
+					"outcome": "ok"
+				},
+				{
+					"tool": "content_ideas",
+					"outcome": "empty"
+				},
+				{
+					"tool": "user_limits",
+					"outcome": "ok"
+				}
+			],
+			"summary": [
+				"AI Search Visibility: 10 tracked prompts, total_answers 0, visibility 0 percent, 0 mentions, no competitors tracked.",
+				"No prompt has been evaluated yet, so this is not evaluated, not a lack of presence.",
+				"10 prompts sin evaluar (sin datos)"
+			],
+			"findings": [],
+			"discovered": {
+				"keywords": 0,
+				"aiPrompts": 30
+			}
+		},
 		{
 			"date": "2026-11-12",
 			"kind": "seo-opportunities",
