@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-13",
+  "taskId": "#T0200",
+  "slug": "mice-events-in-malaga",
+  "searchTerm": "run of show for corporate events",
+  "status": "ok",
+  "serp": {
+    "query": "run of show corporate events",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://eventsolutions.com/?p=9159", "title": "RUN OF SHOW & AGENDA SERVICES FOR CORPORATE EVENTS" },
+      { "rank": 2, "url": "https://djwillgill.com/?p=35879", "title": "How to Plan Music and MC Flow for a Corporate Gala: The Step-by-Step Run of Show (2026)" },
+      { "rank": 3, "url": "https://djwillgill.com/?p=27031", "title": "How I Turn Run-of-Show Into Audience Energy" }
+    ]
+  },
+  "terms": [
+    { "term": "run of show", "kind": "related", "seenIn": 3 },
+    { "term": "What is a run of show?", "kind": "question", "seenIn": 3 },
+    { "term": "breakout sessions", "kind": "entity", "seenIn": 2 },
+    { "term": "keynote speaker", "kind": "entity", "seenIn": 2 },
+    { "term": "emcee", "kind": "entity", "seenIn": 2 },
+    { "term": "walk-up music", "kind": "related", "seenIn": 2 },
+    { "term": "sales meetings", "kind": "entity", "seenIn": 2 },
+    { "term": "awards dinner", "kind": "entity", "seenIn": 2 },
+    { "term": "AV lead", "kind": "related", "seenIn": 1 },
+    { "term": "production lead", "kind": "related", "seenIn": 1 },
+    { "term": "LED screens", "kind": "entity", "seenIn": 1 },
+    { "term": "stage and branded backdrop", "kind": "entity", "seenIn": 1 },
+    { "term": "general sessions", "kind": "entity", "seenIn": 1 },
+    { "term": "ballroom sound system", "kind": "entity", "seenIn": 1 },
+    { "term": "microphones and headsets", "kind": "entity", "seenIn": 1 },
+    { "term": "sound checks", "kind": "related", "seenIn": 1 },
+    { "term": "backup equipment", "kind": "related", "seenIn": 1 },
+    { "term": "time block", "kind": "related", "seenIn": 1 },
+    { "term": "cue", "kind": "related", "seenIn": 1 },
+    { "term": "dead air", "kind": "related", "seenIn": 1 },
+    { "term": "compression plan", "kind": "related", "seenIn": 1 },
+    { "term": "printed run-of-show notes", "kind": "related", "seenIn": 1 },
+    { "term": "corporate gala", "kind": "entity", "seenIn": 1 },
+    { "term": "Who should call the cues at a gala?", "kind": "question", "seenIn": 1 },
+    { "term": "What happens when the program runs long?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "Behr", "reason": "client brand of a competitor page, US market" },
+    { "term": "Home Depot", "reason": "US retailer, other market" },
+    { "term": "Behr Las Vegas conference", "reason": "place outside Spain" },
+    { "term": "Corporate DJ pricing", "reason": "price topic" },
+    { "term": "Google five-star reviews", "reason": "marketing, not vocabulary" },
+    { "term": "3-in-1 DJ emcee model", "reason": "competitor service slogan" },
+    { "term": "Exclusive event app", "reason": "marketing slogan" }
+  ]
+}
