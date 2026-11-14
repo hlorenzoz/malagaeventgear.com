@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-14",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 4,
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "todo": [],
+  "items": [
+    {
+      "keywords": ["audio equipment rental", "audio system rental"],
+      "cluster": "audio visual rental",
+      "action": "add-section",
+      "priority": "medium",
+      "avalancheFit": "above",
+      "evidence": "google-ads 320/mo (above tier 100), gsc pos 19 4 impr",
+      "reason": "Misma intencion que sound system rental. /blog/sound-system-rental/ no tiene un encabezado con audio equipment o audio system. Se anade un H3 bajo el H2 de lo que incluye el alquiler. Sube de baja a media por la posicion 19 en GSC. Revisados audio-visual-rental (pilar) y audio-system-calibration (otra intencion).",
+      "targetUrl": "/blog/sound-system-rental/",
+      "file": "src/content/blog/sound-system-rental.svx",
+      "headingLevel": 3,
+      "heading": "Audio Equipment Rental: Speakers, Mixers and Microphones",
+      "after": "What's Included in a Sound System Rental",
+      "brief": "Explicar que equipo de audio se puede alquilar (altavoces activos, mesa de mezclas, microfonos) y que se contrata dentro de los packs o a medida. Usar solo hechos de src/lib/data/packages.ts y del CSV de inventario mas reciente en .agents/context/inventario/. No inventar marcas, cantidades ni precios. Lo que no este en inventario propio se plantea como: dinos que necesitas y buscamos una solucion con nuestros proveedores. No anadir enlaces nuevos a otros posts mas alla de los naturales."
+    },
+    {
+      "keywords": ["stereo rental"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "above",
+      "evidence": "google-ads 210/mo (above tier 100)",
+      "reason": "Intencion ambigua (equipo hifi domestico). Para eventos la necesidad real, musica de fiesta, ya la cubre /blog/sound-system-rental/ (secciones PA o DJ y FAQ de sistema DJ completo). Un encabezado nuevo repetiria lo existente (creating-helpful-content.md).",
+      "targetUrl": "/blog/sound-system-rental/"
+    },
+    {
+      "keywords": ["audio visual rentals"],
+      "cluster": "audio visual rental",
+      "action": "skip",
+      "priority": "low",
+      "avalancheFit": "above",
+      "evidence": "google-ads 480/mo (above tier 100), gsc pos 11 1 impr",
+      "reason": "Plural de la palabra clave de la pagina pilar /blog/audio-visual-rental/ (titulo y H2 Discover Premium Audio Visual Rental Services). Misma intencion: cubierta por el pilar, una pagina nueva seria canibalizacion.",
+      "targetUrl": "/blog/audio-visual-rental/"
+    }
+  ]
+}

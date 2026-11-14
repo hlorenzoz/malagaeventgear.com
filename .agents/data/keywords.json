@@ -4534,6 +4534,16 @@
             "ctr": 0,
             "position": 19
           }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14",
+          "stats": {
+            "asOf": "2026-11-14",
+            "action": "add-section",
+            "targetUrl": "/blog/sound-system-rental/",
+            "priority": "medium"
+          }
         }
       },
       "opportunity": "low",
@@ -6276,6 +6286,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 9
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14",
+          "stats": {
+            "asOf": "2026-11-14",
+            "action": "add-section",
+            "targetUrl": "/blog/sound-system-rental/",
+            "priority": "medium"
           }
         }
       },
@@ -10304,6 +10324,16 @@
             "clicks": 0,
             "ctr": 0,
             "position": 11
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14",
+          "stats": {
+            "asOf": "2026-11-14",
+            "action": "skip",
+            "targetUrl": "/blog/audio-visual-rental/",
+            "priority": "low"
           }
         }
       },
@@ -77764,6 +77794,16 @@
               "2026-07": 320,
               "2026-08": 110
             }
+          }
+        },
+        "content-plan": {
+          "firstSeen": "2026-11-14",
+          "lastSeen": "2026-11-14",
+          "stats": {
+            "asOf": "2026-11-14",
+            "action": "skip",
+            "targetUrl": "/blog/sound-system-rental/",
+            "priority": "low"
           }
         }
       },
