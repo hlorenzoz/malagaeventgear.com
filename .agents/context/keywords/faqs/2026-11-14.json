@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-14",
+  "run": {
+    "status": "ok",
+    "calls": [
+      { "tool": "google_suggestions", "args": "audio visual rental for gala dinners, audio visual rental for music performances (en, es)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "tips for reducing wedding rental costs, audio visual rental (en, es)", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "audio visual rental for art exhibitions, audio visual rental for corporate events (en, es)", "outcome": "empty" },
+      { "tool": "google_suggestions", "args": "audio visual rental for corporate meetings, audio visual rental for outdoor events (en, es)", "outcome": "empty" },
+      { "tool": "google_suggestions", "args": "audio visual rental for press conferences, audio visual rental for private parties (en, es)", "outcome": "empty" }
+    ]
+  },
+  "seeds": [
+    "audio-visual-rental-for-gala-dinners",
+    "audio-visual-rental-for-music-performances",
+    "tips-for-reducing-wedding-rental-costs",
+    "audio-visual-rental",
+    "audio-visual-rental-for-art-exhibitions",
+    "audio-visual-rental-for-corporate-events",
+    "audio-visual-rental-for-corporate-meetings",
+    "audio-visual-rental-for-outdoor-events",
+    "audio-visual-rental-for-press-conferences",
+    "audio-visual-rental-for-private-parties"
+  ],
+  "suggestions": [
+    { "seed": "audio-visual-rental-for-gala-dinners", "phrase": "what is gala food theme" },
+    { "seed": "audio-visual-rental-for-gala-dinners", "phrase": "what is a gala dinner in spain" },
+    { "seed": "audio-visual-rental-for-gala-dinners", "phrase": "what cuisine is gala" },
+    { "seed": "audio-visual-rental-for-gala-dinners", "phrase": "what food is served at a gala dinner" },
+    { "seed": "audio-visual-rental-for-music-performances", "phrase": "how to record live music performance" },
+    { "seed": "tips-for-reducing-wedding-rental-costs", "phrase": "why have a wedding" },
+    { "seed": "tips-for-reducing-wedding-rental-costs", "phrase": "how to reduce costs for a wedding" },
+    { "seed": "tips-for-reducing-wedding-rental-costs", "phrase": "who pays for a wedding in spain" },
+    { "seed": "tips-for-reducing-wedding-rental-costs", "phrase": "how to reduce wedding costs in india" },
+    { "seed": "tips-for-reducing-wedding-rental-costs", "phrase": "how much does it cost a wedding in spain" },
+    { "seed": "tips-for-reducing-wedding-rental-costs", "phrase": "how much to give for a spanish wedding" }
+  ]
+}
