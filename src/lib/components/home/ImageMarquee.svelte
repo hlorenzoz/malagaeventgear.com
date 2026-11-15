@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { getContext, onMount } from 'svelte';
+	import { browser } from '$app/environment';
 	import { galleryAlt } from '$lib/i18n/gallery-alt.svelte';
 
 	interface Props {
@@ -26,9 +27,7 @@
 	let doubleImages = $derived([...images, ...images]);
 
 	// Map human-readable speed options to CSS duration values
-	let speedVal = $derived(
-		speed === 'slow' ? '70s' : speed === 'normal' ? '45s' : '25s'
-	);
+	let speedVal = $derived(speed === 'slow' ? '70s' : speed === 'normal' ? '45s' : '25s');
 
 	// Select correct animation CSS class based on the direction prop
 	let animationClass = $derived(
@@ -49,6 +48,11 @@
 	// later change to deferMount would be silently ignored.
 	let hasIntersected = $state(false);
 	let inView = $derived(!deferMount || hasIntersected);
+
+	// A blog post is not hydrated (csr = false): on its server render the deferred track goes into
+	// an inert <template> that src/lib/no-csr/post-enhance.js mounts near the viewport. Hydrated
+	// pages and client side renders never emit it.
+	const inNoCsrPost = getContext<boolean | undefined>('no-csr-post') === true;
 
 	onMount(() => {
 		if (!deferMount) return;
@@ -71,26 +75,33 @@
 	});
 </script>
 
+{#snippet track()}
+	<div class="marquee-track {animationClass}">
+		{#each doubleImages as img, i (img.src + '-' + i)}
+			<div class="marquee-item">
+				<img
+					src={img.src}
+					alt={galleryAlt(img)}
+					loading="lazy"
+					decoding="async"
+					width="320"
+					height="220"
+				>
+			</div>
+		{/each}
+	</div>
+{/snippet}
+
 <div
 	bind:this={container}
 	class="marquee-container {pauseOnHover ? 'pause-on-hover' : ''}"
 	style:--speed={speedVal}
+	data-marquee
 >
 	{#if inView}
-		<div class="marquee-track {animationClass}">
-			{#each doubleImages as img, i (img.src + '-' + i)}
-				<div class="marquee-item">
-					<img
-						src={img.src}
-						alt={galleryAlt(img)}
-						loading="lazy"
-						decoding="async"
-						width="320"
-						height="220"
-					/>
-				</div>
-			{/each}
-		</div>
+		{@render track()}
+	{:else if inNoCsrPost && !browser}
+		<template data-marquee-track>{@render track()}</template>
 	{/if}
 </div>
 
@@ -104,20 +115,8 @@
 		   doesn't shift layout: 220px item + 1.5rem top/bottom padding. */
 		min-height: calc(220px + 3rem);
 		/* Gradient mask to fade out the edges for a highly premium glass look */
-		mask-image: linear-gradient(
-			to right,
-			transparent,
-			white 15%,
-			white 85%,
-			transparent
-		);
-		-webkit-mask-image: linear-gradient(
-			to right,
-			transparent,
-			white 15%,
-			white 85%,
-			transparent
-		);
+		mask-image: linear-gradient(to right, transparent, white 15%, white 85%, transparent);
+		-webkit-mask-image: linear-gradient(to right, transparent, white 15%, white 85%, transparent);
 	}
 
 	.marquee-track {

@@ -79,6 +79,10 @@
 	// PostCTA below. A getter (not the raw value) keeps it reactive through the closure.
 	setContext('post-package', () => resolvedPackage);
 
+	// A post is not hydrated (blog/[slug]/+page.ts csr = false): components below render the extra
+	// SSR markup that src/lib/no-csr/post-enhance.js needs (e.g. ImageMarquee's <template> track).
+	setContext('no-csr-post', true);
+
 	// Packages ordered by relevance to this post (resolved first → matches the CTA)
 	let railPackages = $derived(getPackagesForPost(post));
 
@@ -246,7 +250,7 @@
 			</div>
 
 			<!-- Share Widget (Top, inline) -->
-			<div bind:this={topShareEl}>
+			<div bind:this={topShareEl} data-share-top>
 				<ShareThis
 					mode="inline"
 					url={canonicalUrl}

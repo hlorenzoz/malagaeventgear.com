@@ -29,9 +29,10 @@
 		try {
 			const range = selection.getRangeAt(0);
 			const commonAncestor = range.commonAncestorContainer;
-			const ancestorElement = commonAncestor.nodeType === Node.ELEMENT_NODE
-				? (commonAncestor as HTMLElement)
-				: commonAncestor.parentElement;
+			const ancestorElement =
+				commonAncestor.nodeType === Node.ELEMENT_NODE
+					? (commonAncestor as HTMLElement)
+					: commonAncestor.parentElement;
 
 			if (!ancestorElement || !ancestorElement.closest('.prose')) {
 				show = false;
@@ -39,7 +40,7 @@
 			}
 
 			const rect = range.getBoundingClientRect();
-			
+
 			// Position the bubble relative to the page viewport scroll
 			x = rect.left + window.scrollX + rect.width / 2;
 			y = rect.top + window.scrollY;
@@ -62,9 +63,9 @@
 		// Formulate the tweet URL
 		const tweetText = `“${selectedText}”`;
 		const shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}&url=${encodeURIComponent(url)}`;
-		
+
 		window.open(shareUrl, '_blank', 'noopener,noreferrer');
-		
+
 		// Clear selection after sharing
 		const selection = window.getSelection();
 		if (selection) {
@@ -79,32 +80,36 @@
 	}
 </script>
 
-{#if show}
-	<!-- svelte-ignore a11y_click_events_have_key_events -->
-	<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
-	<div
-		class="click-to-tweet-bubble"
-		style="left: {x}px; top: {y}px;"
-		onmousedown={handleMouseDown}
-		role="tooltip"
-		data-testid="click-to-tweet-tooltip"
+<!-- Always in the HTML (hidden) so the no-csr post script can show it on a post that is not hydrated. -->
+<!-- svelte-ignore a11y_click_events_have_key_events -->
+<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+<div
+	class="click-to-tweet-bubble"
+	style="left: {x}px; top: {y}px;"
+	onmousedown={handleMouseDown}
+	role="tooltip"
+	data-testid="click-to-tweet-tooltip"
+	data-tweet-url={url}
+	hidden={!show}
+>
+	<button
+		onclick={handleTweet}
+		class="tweet-share-btn"
+		aria-label={i18n.t.blog.tweetAria}
+		data-testid="click-to-tweet-button"
+		data-tweet-button
 	>
-		<button
-			onclick={handleTweet}
-			class="tweet-share-btn"
-			aria-label={i18n.t.blog.tweetAria}
-			data-testid="click-to-tweet-button"
-		>
-			<!-- X Logo SVG -->
-			<svg viewBox="0 0 24 24" class="w-4 h-4 fill-current">
-				<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-			</svg>
-			<span class="btn-text">
-				{i18n.t.blog.tweetLabel}
-			</span>
-		</button>
-	</div>
-{/if}
+		<!-- X Logo SVG -->
+		<svg viewBox="0 0 24 24" class="w-4 h-4 fill-current">
+			<path
+				d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+			/>
+		</svg>
+		<span class="btn-text">
+			{i18n.t.blog.tweetLabel}
+		</span>
+	</button>
+</div>
 
 <style>
 	.click-to-tweet-bubble {
@@ -122,7 +127,7 @@
 		padding: 0.5rem 0.875rem;
 		height: 38px;
 		border-radius: 9999px;
-		font-family: 'Plus Jakarta Sans', sans-serif;
+		font-family: "Plus Jakarta Sans", sans-serif;
 		font-size: 0.8125rem;
 		font-weight: 600;
 		color: #ffffff;
@@ -138,7 +143,7 @@
 
 	.tweet-share-btn:hover {
 		transform: scale(1.05);
-		background-color: var(--color-electric-blue, #4D8CFF);
+		background-color: var(--color-electric-blue, #4d8cff);
 		border-color: rgba(77, 140, 255, 0.4);
 		box-shadow: 0 4px 15px rgba(77, 140, 255, 0.3);
 	}

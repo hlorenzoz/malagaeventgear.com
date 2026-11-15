@@ -55,7 +55,8 @@
 			try {
 				saved = localStorage.getItem('theme');
 			} catch (_) {}
-			const theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+			const theme =
+				saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
 			document.documentElement.setAttribute('data-theme', theme);
 			currentTheme = theme;
 		};
@@ -106,7 +107,10 @@
 		// publishing an empty localized blog index (one language per page, no thin pages).
 		{
 			href: i18n.href('/blog/'),
-			label: i18n.lang !== 'en' && i18n.href('/blog/') === '/blog/' ? i18n.t.nav.blogInEnglish : i18n.t.nav.blog
+			label:
+				i18n.lang !== 'en' && i18n.href('/blog/') === '/blog/'
+					? i18n.t.nav.blogInEnglish
+					: i18n.t.nav.blog
 		},
 		{ href: i18n.href('/contact/'), label: i18n.t.nav.contact }
 	]);
@@ -115,20 +119,32 @@
 </script>
 
 <!-- TopNavBar Shared Component -->
+<!-- data-* hooks, aria-expanded and the always rendered icons and panel let the no-csr post
+     script (src/lib/no-csr/post-enhance.js) drive this header on a post that is not hydrated. -->
 <header
+	data-site-header
 	class="fixed top-0 w-full z-50 bg-surface-glass backdrop-blur-xl border-b border-border-glass shadow-md shadow-primary/10 transition duration-300 will-change-transform"
 	style:transform={hidden ? 'translateY(-100%)' : 'translateY(0)'}
 >
-	<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+	<div
+		class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto"
+	>
 		<!-- Brand Logo (theme-aware: light logo on dark theme, dark logo on light theme) -->
-		<a class="transition-transform active:scale-95 duration-200" href={homeHref} onclick={closeMobileMenu} aria-label={i18n.t.nav.brand}>
+		<a
+			class="transition-transform active:scale-95 duration-200"
+			href={homeHref}
+			onclick={closeMobileMenu}
+			aria-label={i18n.t.nav.brand}
+		>
 			<img
 				src={currentTheme === 'dark' ? LOGO_LIGHT : LOGO_DARK}
+				data-logo-light={LOGO_LIGHT}
+				data-logo-dark={LOGO_DARK}
 				alt={i18n.t.nav.brand}
 				width="250"
 				height="75"
 				class="h-8 md:h-9 w-auto"
-			/>
+			>
 		</a>
 
 		<!-- Navigation Links (Desktop) -->
@@ -137,7 +153,9 @@
 				{@const isActive = $page.url.pathname === link.href}
 				<a
 					href={link.href}
-					class="transition-all duration-300 pb-1 active:scale-95 hover:text-electric-blue {isActive ? 'text-electric-blue font-bold border-b-2 border-electric-blue' : 'text-on-surface hover:bg-white/5 px-2 py-0.5 rounded'}"
+					class="transition-all duration-300 pb-1 active:scale-95 hover:text-electric-blue {isActive
+						? 'text-electric-blue font-bold border-b-2 border-electric-blue'
+						: 'text-on-surface hover:bg-white/5 px-2 py-0.5 rounded'}"
 				>
 					{link.label}
 				</a>
@@ -152,14 +170,13 @@
 			<!-- Theme Toggle Button -->
 			<button
 				onclick={toggleTheme}
+				data-theme-toggle
 				class="flex items-center justify-center w-10 h-10 rounded-full glass-panel hover:bg-white/10 text-primary hover:text-electric-blue transition-colors duration-300"
 				aria-label={i18n.t.nav.toggleTheme}
 			>
-				{#if currentTheme === 'dark'}
-					<Icon name="light_mode" size="22" />
-				{:else}
-					<Icon name="dark_mode" size="22" />
-				{/if}
+				<!-- Both icons in the HTML, CSS shows the one for the current data-theme. -->
+				<Icon name="light_mode" size="22" className="theme-icon-light" />
+				<Icon name="dark_mode" size="22" className="theme-icon-dark" />
 			</button>
 
 			<!-- Phone Call Button (Icon + explicit phone number on all screens) -->
@@ -183,48 +200,62 @@
 			<!-- Mobile Menu Button -->
 			<button
 				onclick={toggleMobileMenu}
+				data-menu-toggle
+				aria-expanded={mobileMenuOpen}
+				aria-controls="mobile-nav-panel"
 				class="md:hidden flex items-center justify-center w-10 h-10 rounded-full glass-panel text-primary hover:text-electric-blue transition-colors duration-300"
 				aria-label={i18n.t.nav.openMenu}
 			>
-				{#if mobileMenuOpen}
-					<Icon name="close" size="28" />
-				{:else}
-					<Icon name="menu" size="28" />
-				{/if}
+				<Icon name="close" size="28" className="menu-icon-close" />
+				<Icon name="menu" size="28" className="menu-icon-open" />
 			</button>
 		</div>
 	</div>
 
 	<!-- Mobile Dropdown Navigation Menu -->
-	{#if mobileMenuOpen}
-		<div class="md:hidden w-full bg-background/95 backdrop-blur-2xl border-b border-border-glass py-6 px-margin-mobile flex flex-col gap-6 animate-fade-in absolute left-0 top-[73px] shadow-2xl">
-			<nav class="flex flex-col gap-4">
-				{#each navLinks as link}
-					{@const isActive = $page.url.pathname === link.href}
-					<a
-						href={link.href}
-						onclick={closeMobileMenu}
-						class="font-body-lg text-lg py-2 px-4 rounded-lg transition-colors {isActive ? 'bg-primary-container/20 text-electric-blue font-bold' : 'text-on-surface hover:bg-white/5'}"
-					>
-						{link.label}
-					</a>
-				{/each}
+	<div
+		id="mobile-nav-panel"
+		hidden={!mobileMenuOpen}
+		class="md:hidden w-full bg-background/95 backdrop-blur-2xl border-b border-border-glass py-6 px-margin-mobile flex flex-col gap-6 animate-fade-in absolute left-0 top-[73px] shadow-2xl"
+	>
+		<nav class="flex flex-col gap-4">
+			{#each navLinks as link}
+				{@const isActive = $page.url.pathname === link.href}
 				<a
-					href={siteConfig.phoneCallUrl}
+					href={link.href}
 					onclick={closeMobileMenu}
-					class="flex items-center gap-3 font-body-lg text-lg py-2 px-4 rounded-lg text-on-surface hover:bg-white/5 transition-colors"
+					class="font-body-lg text-lg py-2 px-4 rounded-lg transition-colors {isActive
+						? 'bg-primary-container/20 text-electric-blue font-bold'
+						: 'text-on-surface hover:bg-white/5'}"
 				>
-					<Icon name="call" size="20" className="text-electric-blue shrink-0" />
-					<span class="font-semibold">{siteConfig.contactPhone}</span>
+					{link.label}
 				</a>
-			</nav>
+			{/each}
 			<a
+				href={siteConfig.phoneCallUrl}
 				onclick={closeMobileMenu}
-				class="w-full text-center py-3 rounded-full bg-electric-blue-strong text-white font-label-lg uppercase tracking-wider hover:shadow-lg active:scale-98 transition-all"
-				href={packagesHref}
+				class="flex items-center gap-3 font-body-lg text-lg py-2 px-4 rounded-lg text-on-surface hover:bg-white/5 transition-colors"
 			>
-				{i18n.t.nav.bookNow}
+				<Icon name="call" size="20" className="text-electric-blue shrink-0" />
+				<span class="font-semibold">{siteConfig.contactPhone}</span>
 			</a>
-		</div>
-	{/if}
+		</nav>
+		<a
+			onclick={closeMobileMenu}
+			class="w-full text-center py-3 rounded-full bg-electric-blue-strong text-white font-label-lg uppercase tracking-wider hover:shadow-lg active:scale-98 transition-all"
+			href={packagesHref}
+		>
+			{i18n.t.nav.bookNow}
+		</a>
+	</div>
 </header>
+
+<style>
+	/* Icons follow the DOM state, so a hydrated page and the no-csr post script share them. */
+	:global(html[data-theme="light"] .theme-icon-light),
+	:global(html:not([data-theme="light"]) .theme-icon-dark),
+	:global([aria-expanded="true"] > .menu-icon-open),
+	:global([aria-expanded="false"] > .menu-icon-close) {
+		display: none;
+	}
+</style>

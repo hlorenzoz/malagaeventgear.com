@@ -60,18 +60,20 @@
 
 {#if toc && toc.length > 0}
 	<!-- Same words as the mobile ToC the build puts in the body (blogStructure, page language) -->
-	<nav aria-label={i18n.t.blogStructure.tocAria} class="toc-desktop">
+	<!-- data-toc: the no-csr post script highlights the active section on a post that is not hydrated. -->
+	<nav aria-label={i18n.t.blogStructure.tocAria} class="toc-desktop" data-toc>
 		<p class="toc-desktop-title">{i18n.t.blogStructure.inThisArticle}</p>
 		<ol class="toc-desktop-list">
 			{#each toc as entry (entry.id)}
-				<li class={entry.level === 3 ? 'toc-desktop-item toc-desktop-item--h3' : 'toc-desktop-item'}>
+				<li
+					class={entry.level === 3 ? 'toc-desktop-item toc-desktop-item--h3' : 'toc-desktop-item'}
+				>
 					<a
 						href="#{entry.id}"
 						onclick={() => handleClick(entry.id)}
-						class={[
-							'toc-desktop-link',
-							activeId === entry.id ? 'toc-desktop-link--active' : ''
-						].join(' ').trim()}
+						class={['toc-desktop-link', activeId === entry.id ? 'toc-desktop-link--active' : '']
+							.join(' ')
+							.trim()}
 						aria-current={activeId === entry.id ? 'true' : undefined}
 					>
 						{entry.text}

@@ -7,6 +7,13 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (perf): los posts del blog ya no se hidratan (csr = false) (2026-11-15)
+- Origen: el usuario pidio el rendimiento de su demo en Astro (PageSpeed movil 99) para MEG. Astro no puede alojar SvelteKit (solo renderiza componentes Svelte como islas), y la medicion mostro que la diferencia era el JS de hidratacion: 189 KiB en 32 archivos en cada post. Documento de la feature: `odd/tasks/post-no-csr.md`.
+- `export const csr = false` en `src/routes/(public)/blog/[slug]/+page.ts`: los 1.157 posts (89 x 13 idiomas) se sirven sin JS de SvelteKit. El `<head>` SEO no cambia (canonical, hreflang, Open Graph, JSON-LD).
+- Lo interactivo de un post lo hace un script plano, `src/lib/no-csr/post-enhance.js` (unos 8 KB, 3 KB gzip), importado con `?url&no-inline` e inyectado con `{@html}` en `+page.svelte` (con `csr = false` SvelteKit quita los `<script>` de los componentes). Cubre tema, menu movil, esconder el header al bajar, copiar enlace, cajon de compartir, barra flotante, click to tweet, indice activo, carruseles diferidos (`<template>`). No registra service worker: ninguna pagina del sitio lo hace hoy.
+- Al navegar desde una pagina hidratada (por ejemplo `/blog/`) SvelteKit sigue armando el post en el cliente y los handlers de Svelte funcionan: el script queda inerte en ese camino. Los componentes (`TopNavBar`, `ShareThis`, `ClickToTweet`, `TableOfContents`, `ImageMarquee`, `BlogPost`) ahora dibujan en el HTML los paneles, iconos y botones que antes eran `{#if}` de estado del cliente, con `data-*` para el script.
+- Medido (Lighthouse movil, preview local, 3 corridas): `/blog/audio-visual-rental-for-conferences/` de 81 a 97, FCP 2,9 s a 1,0 s, LCP 4,2 s a 2,6 s, JS 189 KiB a 3 KiB. El post aleman: 97. Tests nuevos en `tests/post-no-csr.spec.ts` (17).
+
 ### Fixed (blog): revision de las traducciones de #T0200, #T0201 y #T0202 (2026-11-13)
 - Dos revisores de solo lectura leyeron las 36 traducciones (run of show y FAQ de convencion comercial en `mice-events-in-malaga`, ensayo tecnico en `how-to-organize-a-congress-in-malaga`). Ningun hecho, cifra ni negacion estaba mal. Sin cambio de fechas: son correcciones de redaccion de traducciones ya commiteadas el mismo dia.
 - Errores corregidos: sv `svanhalsmikrofonen` por `gåshalsmikrofonen` (termino fijado en los posts hermanos) y `vem som bläddrar dem` por `vem som byter bild` (bläddra es intransitivo), nb `hver trådløse håndmikrofon` por `hver trådløs håndmikrofon`.

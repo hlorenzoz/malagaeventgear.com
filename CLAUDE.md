@@ -591,6 +591,16 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
   - **Runtime solo Web APIs**: `wrangler.toml` no habilita `nodejs_compat`. Un built-in de Node
     falla en el edge en runtime, no en el build, y por eso pasa la revisión. Usar la API HTTP de un
     tercero antes que su SDK de Node.
+  - **Los posts del blog no se hidratan** (`export const csr = false` en
+    `src/routes/(public)/blog/[slug]/+page.ts`, desde el 2026-11-15, ver `odd/tasks/post-no-csr.md`):
+    un post cargado directo no trae JS de SvelteKit. Por eso: (1) todo lo interactivo de un post va
+    en `src/lib/no-csr/post-enhance.js` (JS plano, sin imports) y en el HTML del servidor (nada que el
+    usuario necesite puede quedar detrás de un `{#if}` que depende de estado del cliente: se dibuja
+    siempre, con `hidden` o CSS, y un `data-*` para el script), (2) un `<script>` dentro de un
+    componente no llega al HTML de un post, solo `{@html}`, (3) un post al que se llega navegando
+    desde una página hidratada (`/blog/`, la home) SÍ lo arma Svelte en el cliente, así que cada
+    pieza se prueba en los dos caminos (`tests/post-no-csr.spec.ts`). Un componente nuevo con
+    interacción en un post sin su parte en el script queda roto para quien llega desde Google.
 - **Fuentes únicas de verdad**:
 
   | Qué | Dónde |
