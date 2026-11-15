@@ -157,3 +157,42 @@ test.describe('Testimonials Section (Google Reviews) E2E Tests', () => {
 		expect(after).toBeGreaterThan(before);
 	});
 });
+
+// A scroll snap track whose first snap point is not 0 is scrolled by the browser on first
+// layout, before the first paint. That early scroll stops Chrome from recording Largest
+// Contentful Paint, and Lighthouse reports NO_LCP (it took /blog/ out of PageSpeed on
+// 2026-11-15). The reviews track must rest at 0 on load.
+test.describe('Testimonials track on load', () => {
+	for (const width of [390, 1280]) {
+		for (const path of ['/blog/', '/packages/']) {
+			test(`${path} at ${width} px: the reviews track does not scroll itself`, async ({ page }) => {
+				await page.setViewportSize({ width, height: 844 });
+				await page.addInitScript(() => {
+					(window as unknown as { __trackScrolls: number }).__trackScrolls = 0;
+					document.addEventListener(
+						'scroll',
+						(event) => {
+							const target = event.target as Element;
+							if (
+								target instanceof Element &&
+								target.closest('[data-testid="testimonial-card"]')?.parentElement === target
+							) {
+								(window as unknown as { __trackScrolls: number }).__trackScrolls++;
+							}
+						},
+						true
+					);
+				});
+				await page.goto(path, { waitUntil: 'load' });
+				await page.waitForTimeout(500);
+				const track = page.locator('[data-testid="testimonial-card"]').first().locator('xpath=..');
+				expect(await track.evaluate((el) => el.scrollLeft)).toBe(0);
+				expect(
+					await page.evaluate(
+						() => (window as unknown as { __trackScrolls: number }).__trackScrolls
+					)
+				).toBe(0);
+			});
+		}
+	}
+});

@@ -7,6 +7,11 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (perf): NO_LCP en /blog/ por el carrusel de resenas (2026-11-15)
+- PageSpeed daba `NO_LCP` en `https://malagaeventgear.com/blog/` (sin puntuacion). Causa, encontrada con un bisect de builds locales y los traces de Chrome: `de940557` cambio el carrusel de `Testimonials.svelte` de `justify-center` a margenes automaticos. Con `px-2` y tarjetas `snap-start` en una fila `snap-mandatory`, el primer punto de snap quedo en 8 px y el navegador desplazaba la fila al cargar, antes del primer pintado. Ese scroll temprano corta el registro del LCP: el trace no tenia ningun candidato. La home no lo sufria porque ahi las resenas estan dentro de `content-visibility: auto`.
+- Arreglo: `scroll-px-2` en la fila (el `scroll-padding` iguala al `padding`, el primer snap queda en 0). Test nuevo en `tests/testimonials.spec.ts`: la fila no se desplaza sola al cargar, en `/blog/` y `/packages/`, a 390 y 1280 px (rojo antes, 8 px).
+- Medido (Lighthouse movil, preview local, 2 corridas): `/blog/` de NO_LCP a 90 (LCP 3,1 s), `/packages/` 92, `/equipment/` 93, `/meet-the-team/` 95.
+
 ### Fixed (perf, dev): aviso de Vite, favicon de 96 px y un solo logo en el header (2026-11-15)
 - `just dev` mostraba el aviso `configLoader: 'native'` por `import "./en"` sin extension en los 12 diccionarios de `src/lib/i18n/messages/`. Ahora importan `./en.ts` (el `tsconfig` ya tenia `rewriteRelativeImportExtensions`). El aviso no sale ni en dev ni en el build.
 - `static/favicon.png` pasa de 32x32 a 96x96 (Google recomienda mas de 48x48), generado del PNG original de 512 px. Misma URL, `sizes` actualizado en `src/app.html`. `favicon.ico` queda en 32x32.

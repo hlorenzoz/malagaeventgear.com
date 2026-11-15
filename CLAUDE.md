@@ -603,7 +603,11 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
     pieza se prueba en los dos caminos (`tests/post-no-csr.spec.ts`, `tests/home-no-csr.spec.ts`).
     Un componente nuevo con interacción en un post o en la home sin su parte en el script queda roto
     para quien llega desde Google. (4) En una fila que desborda, `justify-center` deja la primera
-    tarjeta fuera de alcance: se centra con márgenes automáticos en la primera y la última.
+    tarjeta fuera de alcance: se centra con márgenes automáticos en la primera y la última. Si la
+    fila es `snap-mandatory`, su `scroll-padding` tiene que igualar su `padding` (`px-2` con
+    `scroll-px-2`): si el primer punto de snap no queda en 0, el navegador desplaza la fila antes
+    del primer pintado y Chrome deja de registrar el LCP (Lighthouse da `NO_LCP`, le pasó a
+    `/blog/` el 2026-11-15). Lo vigila `tests/testimonials.spec.ts`.
 - **Fuentes únicas de verdad**:
 
   | Qué | Dónde |

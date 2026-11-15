@@ -146,7 +146,7 @@
 					bind:this={track}
 					data-testid="carousel-track"
 					data-carousel-track
-					class="flex gap-6 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4 -mx-2 px-2 scrollbar-none [&::-webkit-scrollbar]:hidden [&>:first-child]:ms-auto [&>:last-child]:me-auto"
+					class="flex gap-6 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4 -mx-2 px-2 scroll-px-2 scrollbar-none [&::-webkit-scrollbar]:hidden [&>:first-child]:ms-auto [&>:last-child]:me-auto"
 				>
 					{#each items as testimonial (testimonial.id)}
 						<TestimonialCard {testimonial} />
