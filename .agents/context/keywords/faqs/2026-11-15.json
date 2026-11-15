@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-15",
+  "run": {
+    "status": "ok",
+    "calls": [
+      { "tool": "google_suggestions", "args": "audio visual rental for product launches, audio visual rental for religious events, language en, country es", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "audio visual rental for remote presentations, audio visual rental for seminars, language en, country es", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "AV cable management, AV equipment consultations, language en, country es", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "AV system troubleshooting, AV technician hire, language en, country es", "outcome": "ok" },
+      { "tool": "google_suggestions", "args": "awards ceremony production, event technology service, language en, country es", "outcome": "ok" }
+    ]
+  },
+  "seeds": [
+    "audio-visual-rental-for-product-launches",
+    "audio-visual-rental-for-religious-events",
+    "audio-visual-rental-for-remote-presentations",
+    "audio-visual-rental-for-seminars",
+    "av-cable-management",
+    "av-equipment-consultations",
+    "av-system-troubleshooting",
+    "av-technician-hire",
+    "awards-ceremony-production",
+    "event-technology-service"
+  ],
+  "suggestions": [
+    { "seed": "audio-visual-rental-for-product-launches", "phrase": "what is an audiovisual platform" },
+    { "seed": "av-cable-management", "phrase": "how much does cable cost" },
+    { "seed": "av-cable-management", "phrase": "how much does a av cost" },
+    { "seed": "av-cable-management", "phrase": "how much does a cable cost per month" },
+    { "seed": "av-equipment-consultations", "phrase": "who equipment" },
+    { "seed": "av-equipment-consultations", "phrase": "what are av equipments" },
+    { "seed": "av-equipment-consultations", "phrase": "what counts as av equipment" },
+    { "seed": "av-equipment-consultations", "phrase": "how much does a av cost" },
+    { "seed": "av-system-troubleshooting", "phrase": "what is av system troubleshooting" },
+    { "seed": "av-system-troubleshooting", "phrase": "why is my av not working" },
+    { "seed": "av-system-troubleshooting", "phrase": "what is av reset" },
+    { "seed": "av-system-troubleshooting", "phrase": "how to troubleshoot system" },
+    { "seed": "av-system-troubleshooting", "phrase": "what does av reset mean" },
+    { "seed": "av-system-troubleshooting", "phrase": "what are the 7 steps of troubleshooting" },
+    { "seed": "av-system-troubleshooting", "phrase": "how do you approach basic troubleshooting on an av issue" },
+    { "seed": "av-system-troubleshooting", "phrase": "how does troubleshooting work" },
+    { "seed": "av-technician-hire", "phrase": "how much does a aircraft technician make" },
+    { "seed": "event-technology-service", "phrase": "what is event technology services" },
+    { "seed": "event-technology-service", "phrase": "what happened to event electronics" },
+    { "seed": "event-technology-service", "phrase": "what is event technology" },
+    { "seed": "event-technology-service", "phrase": "what is event technology space" },
+    { "seed": "event-technology-service", "phrase": "what event catering" }
+  ]
+}
