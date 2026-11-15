@@ -4,7 +4,7 @@ import deMap from '../src/lib/i18n/content-map/locales/de';
 
 /**
  * Blog posts are not hydrated (`csr = false` in blog/[slug]/+page.ts): a direct load ships no
- * SvelteKit JS and one small script (src/lib/no-csr/post-enhance.js) drives the interactive
+ * SvelteKit JS and one small script (src/lib/no-csr/enhance.js) drives the interactive
  * pieces from the server rendered markup. A post reached by client side navigation from a
  * hydrated page is rendered by Svelte instead, and there the script must not run.
  */
@@ -13,7 +13,7 @@ const POST = '/blog/audio-visual-rental-for-conferences/';
 
 declare global {
 	interface Window {
-		__megPostEnhanced?: boolean;
+		__megEnhanced?: boolean;
 		__navMarker?: number;
 		__swRegistrations?: unknown[][];
 	}
@@ -62,7 +62,7 @@ test.describe('post without hydration (S1, S2)', () => {
 			}
 		});
 		await page.goto(POST);
-		await page.waitForFunction(() => window.__megPostEnhanced === true);
+		await page.waitForFunction(() => window.__megEnhanced === true);
 		await page.waitForLoadState('load');
 		expect(await page.evaluate(() => window.__swRegistrations)).toEqual([]);
 	});
@@ -70,8 +70,8 @@ test.describe('post without hydration (S1, S2)', () => {
 	test('the enhancement script does not run after client side navigation', async ({ page }) => {
 		await clientNavigateToPost(page);
 		// The script tag reaches the page through {@html}, which never executes scripts.
-		await expect(page.locator('head script[src*="post-enhance"]')).toHaveCount(1);
-		expect(await page.evaluate(() => window.__megPostEnhanced)).toBeUndefined();
+		await expect(page.locator('head script[src*="enhance"]')).toHaveCount(1);
+		expect(await page.evaluate(() => window.__megEnhanced)).toBeUndefined();
 	});
 });
 
@@ -136,7 +136,7 @@ async function expectHideOnScroll(page: Page): Promise<void> {
 test.describe('header on a post (S3)', () => {
 	test('direct load: theme toggle', async ({ page }) => {
 		await page.goto(POST);
-		await page.waitForFunction(() => window.__megPostEnhanced === true);
+		await page.waitForFunction(() => window.__megEnhanced === true);
 		await expectThemeToggle(page);
 	});
 
@@ -146,7 +146,7 @@ test.describe('header on a post (S3)', () => {
 		const html = page.locator('html');
 		await page.emulateMedia({ colorScheme: 'dark' });
 		await page.goto(POST);
-		await page.waitForFunction(() => window.__megPostEnhanced === true);
+		await page.waitForFunction(() => window.__megEnhanced === true);
 		expect(await page.evaluate(() => localStorage.getItem('theme'))).toBeNull();
 		await expect(html).toHaveAttribute('data-theme', 'dark');
 		await page.emulateMedia({ colorScheme: 'light' });
@@ -166,13 +166,13 @@ test.describe('header on a post (S3)', () => {
 	test('direct load: mobile menu', async ({ page }) => {
 		await page.setViewportSize({ width: 375, height: 740 });
 		await page.goto(POST);
-		await page.waitForFunction(() => window.__megPostEnhanced === true);
+		await page.waitForFunction(() => window.__megEnhanced === true);
 		await expectMobileMenu(page);
 	});
 
 	test('direct load: header hides on scroll down and shows on scroll up', async ({ page }) => {
 		await page.goto(POST);
-		await page.waitForFunction(() => window.__megPostEnhanced === true);
+		await page.waitForFunction(() => window.__megEnhanced === true);
 		await expectHideOnScroll(page);
 	});
 
@@ -300,7 +300,7 @@ test.describe('post interactions (S4)', () => {
 	}) => {
 		await page.setViewportSize({ width: 1280, height: 800 });
 		await page.goto(POST);
-		await page.waitForFunction(() => window.__megPostEnhanced === true);
+		await page.waitForFunction(() => window.__megEnhanced === true);
 		await expectStickyShareBar(page);
 		await expectCopyLink(page, 'copy-link-button', '.copy-tooltip');
 		await page.locator('[data-testid="testimonial-card"]').first().scrollIntoViewIfNeeded();
@@ -313,7 +313,7 @@ test.describe('post interactions (S4)', () => {
 	test('direct load, mobile: sharing options drawer', async ({ page }) => {
 		await page.setViewportSize({ width: 375, height: 667 });
 		await page.goto(POST);
-		await page.waitForFunction(() => window.__megPostEnhanced === true);
+		await page.waitForFunction(() => window.__megEnhanced === true);
 		await expectShareDrawer(page);
 	});
 
@@ -355,7 +355,7 @@ test.describe('reviews on a post (S5)', () => {
 test.describe('gallery carousel on a post (S6)', () => {
 	test('direct load: a deferred carousel mounts when it nears the viewport', async ({ page }) => {
 		await page.goto(POST);
-		await page.waitForFunction(() => window.__megPostEnhanced === true);
+		await page.waitForFunction(() => window.__megEnhanced === true);
 		const images = await expectDeferredMarquee(page);
 		expect(images.length).toBeGreaterThan(0);
 	});
@@ -365,7 +365,7 @@ test.describe('gallery carousel on a post (S6)', () => {
 	}) => {
 		const slug = deMap.posts['audio-visual-rental-for-conferences']?.slug;
 		await page.goto(`/de/blog/${slug}/`);
-		await page.waitForFunction(() => window.__megPostEnhanced === true);
+		await page.waitForFunction(() => window.__megEnhanced === true);
 		const images = await expectDeferredMarquee(page);
 		for (const { src, alt } of images)
 			expect(alt, src).toBe(de.gallery[src as keyof typeof de.gallery]);

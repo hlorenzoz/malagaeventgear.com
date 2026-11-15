@@ -10,7 +10,7 @@ import type { Component } from 'svelte';
 
 export const prerender = true;
 // Posts are not hydrated: no SvelteKit JS on a direct load. Their interactive pieces run from
-// src/lib/no-csr/post-enhance.js, injected by +page.svelte.
+// src/lib/no-csr/enhance.js, injected by +page.svelte.
 export const csr = false;
 
 // Uses getPostSlugs() — the dedicated slug-list accessor (S-03 consistency).

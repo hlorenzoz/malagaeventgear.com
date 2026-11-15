@@ -49,9 +49,10 @@
 	let hasIntersected = $state(false);
 	let inView = $derived(!deferMount || hasIntersected);
 
-	// A blog post is not hydrated (csr = false): on its server render the deferred track goes into
-	// an inert <template> that src/lib/no-csr/post-enhance.js mounts near the viewport. Hydrated
-	// pages and client side renders never emit it.
+	// Blog posts and the home are not hydrated (csr = false, both set the 'no-csr-post' context): on
+	// their server render the deferred track goes into an inert <template> that
+	// src/lib/no-csr/enhance.js mounts near the viewport. Hydrated pages and client side renders
+	// never emit it.
 	const inNoCsrPost = getContext<boolean | undefined>('no-csr-post') === true;
 
 	onMount(() => {

@@ -119,8 +119,8 @@
 </script>
 
 <!-- TopNavBar Shared Component -->
-<!-- data-* hooks, aria-expanded and the always rendered icons and panel let the no-csr post
-     script (src/lib/no-csr/post-enhance.js) drive this header on a post that is not hydrated. -->
+<!-- data-* hooks, aria-expanded and the always rendered icons and panel let the no-csr script
+     (src/lib/no-csr/enhance.js) drive this header on a page that is not hydrated (posts, home). -->
 <header
 	data-site-header
 	class="fixed top-0 w-full z-50 bg-surface-glass backdrop-blur-xl border-b border-border-glass shadow-md shadow-primary/10 transition duration-300 will-change-transform"

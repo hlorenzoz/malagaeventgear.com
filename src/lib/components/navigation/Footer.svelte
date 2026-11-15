@@ -12,14 +12,33 @@
 </script>
 
 <!-- Footer Shared Component -->
-<footer class="w-full py-16 px-margin-mobile md:px-margin-desktop border-t border-border-glass bg-surface-container-low transition-colors duration-300">
+<footer
+	class="w-full py-16 px-margin-mobile md:px-margin-desktop border-t border-border-glass bg-surface-container-low transition-colors duration-300"
+>
 	<div class="max-w-container-max mx-auto">
 		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-gutter mb-12">
 			<!-- Col 1: Brand Info -->
-			<div class="sm:col-span-2 lg:col-span-12 flex flex-col items-center gap-4 text-center mb-8 lg:mb-12">
-				<!-- Brand logo (theme-aware via data-theme CSS swap) -->
-				<img src={LOGO_LIGHT} alt={i18n.t.nav.brand} width="250" height="75" class="brand-logo brand-logo--light h-9 w-auto" />
-				<img src={LOGO_DARK} alt={i18n.t.nav.brand} width="250" height="75" class="brand-logo brand-logo--dark h-9 w-auto" />
+			<div
+				class="sm:col-span-2 lg:col-span-12 flex flex-col items-center gap-4 text-center mb-8 lg:mb-12"
+			>
+				<!-- Brand logo (theme-aware via data-theme CSS swap). Lazy, so the browser never fetches the
+				     one hidden with display: none (no layout box, never near the viewport). -->
+				<img
+					src={LOGO_LIGHT}
+					alt={i18n.t.nav.brand}
+					width="250"
+					height="75"
+					loading="lazy"
+					class="brand-logo brand-logo--light h-9 w-auto"
+				>
+				<img
+					src={LOGO_DARK}
+					alt={i18n.t.nav.brand}
+					width="250"
+					height="75"
+					loading="lazy"
+					class="brand-logo brand-logo--dark h-9 w-auto"
+				>
 				<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl mt-2">
 					{i18n.t.footer.brandSubtitle}
 				</p>
@@ -31,51 +50,93 @@
 					{i18n.t.footer.usefulLinks}
 				</span>
 				<nav class="flex flex-col gap-2">
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/')}>
+					<a
+						class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+						href={i18n.href('/')}
+					>
 						{i18n.t.footer.home}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/packages/')}>
+					<a
+						class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+						href={i18n.href('/packages/')}
+					>
 						{i18n.t.footer.packages}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/blog/')}>
+					<a
+						class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+						href={i18n.href('/blog/')}
+					>
 						{i18n.postsPublished ? i18n.t.footer.blog : i18n.t.nav.blogInEnglish}
 					</a>
 					<!-- Blog sections only where this language has posts: no English titles on a translated page -->
 					{#if i18n.postsPublished}
-					{#if categories.some((c) => c.slug === 'news')}
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/blog/category/news/')}>
-						{i18n.t.footer.news}
-					</a>
+						{#if categories.some((c) => c.slug === 'news')}
+							<a
+								class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+								href={i18n.href('/blog/category/news/')}
+							>
+								{i18n.t.footer.news}
+							</a>
+						{/if}
+						<a
+							class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+							href={i18n.href('/blog/categories/')}
+						>
+							{i18n.t.footer.categories}
+						</a>
 					{/if}
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/blog/categories/')}>
-						{i18n.t.footer.categories}
-					</a>
-					{/if}
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/about-us/')}>
+					<a
+						class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+						href={i18n.href('/about-us/')}
+					>
 						{i18n.t.footer.aboutUs}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/meet-the-team/')}>
+					<a
+						class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+						href={i18n.href('/meet-the-team/')}
+					>
 						{i18n.t.footer.meetTheTeam}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/contact/')}>
+					<a
+						class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+						href={i18n.href('/contact/')}
+					>
 						{i18n.t.footer.contactUs}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/terms-of-service/')}>
+					<a
+						class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+						href={i18n.href('/terms-of-service/')}
+					>
 						{i18n.t.footer.termsOfService}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/privacy-policy/')}>
+					<a
+						class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+						href={i18n.href('/privacy-policy/')}
+					>
 						{i18n.t.footer.privacyPolicy}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/cookie-policy/')}>
+					<a
+						class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+						href={i18n.href('/cookie-policy/')}
+					>
 						{i18n.t.footer.cookiePolicy}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/gdpr/')}>
+					<a
+						class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+						href={i18n.href('/gdpr/')}
+					>
 						{i18n.t.footer.gdpr}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/faq/')}>
+					<a
+						class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+						href={i18n.href('/faq/')}
+					>
 						{i18n.t.footer.faq}
 					</a>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href('/sitemap/')}>
+					<a
+						class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+						href={i18n.href('/sitemap/')}
+					>
 						{i18n.t.footer.sitemap}
 					</a>
 				</nav>
@@ -88,22 +149,31 @@
 				</span>
 				<nav class="flex flex-col gap-2">
 					{#each packages as pkg (pkg.id)}
-						<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href(pkg.route)}>
+						<a
+							class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+							href={i18n.href(pkg.route)}
+						>
 							{pkg.name}
 						</a>
 					{/each}
 				</nav>
 				{#if i18n.postsPublished}
-				<a href={i18n.href('/blog/categories/')} class="font-label-lg text-on-surface uppercase tracking-wider mb-2 mt-4 hover:text-electric-blue transition-colors duration-200">
-					{i18n.t.footer.categories}
-				</a>
-				<nav class="flex flex-col gap-2">
-					{#each categories as cat (cat.slug)}
-						<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={i18n.href(`/blog/category/${cat.slug}/`)}>
-							{cat.name}
-						</a>
-					{/each}
-				</nav>
+					<a
+						href={i18n.href('/blog/categories/')}
+						class="font-label-lg text-on-surface uppercase tracking-wider mb-2 mt-4 hover:text-electric-blue transition-colors duration-200"
+					>
+						{i18n.t.footer.categories}
+					</a>
+					<nav class="flex flex-col gap-2">
+						{#each categories as cat (cat.slug)}
+							<a
+								class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+								href={i18n.href(`/blog/category/${cat.slug}/`)}
+							>
+								{cat.name}
+							</a>
+						{/each}
+					</nav>
 				{/if}
 			</div>
 
@@ -113,7 +183,12 @@
 					<span class="font-label-lg text-on-surface uppercase tracking-wider mb-2">
 						{i18n.t.footer.localAddress}
 					</span>
-					<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue transition-colors duration-200" href={siteConfig.googleBusinessProfile} target="_blank" rel="noopener noreferrer">
+					<a
+						class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue transition-colors duration-200"
+						href={siteConfig.googleBusinessProfile}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						{siteConfig.displayAddress}
 					</a>
 				</div>
@@ -123,10 +198,20 @@
 						{i18n.t.footer.listings}
 					</span>
 					<nav class="flex flex-col gap-2">
-						<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={siteConfig.googleBusinessProfile} target="_blank" rel="noopener noreferrer">
+						<a
+							class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+							href={siteConfig.googleBusinessProfile}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							Google My Business
 						</a>
-						<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={siteConfig.listings.bingPlaces} target="_blank" rel="noopener noreferrer">
+						<a
+							class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+							href={siteConfig.listings.bingPlaces}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							Bing Places
 						</a>
 					</nav>
@@ -137,10 +222,20 @@
 						{i18n.t.footer.onlinePresence}
 					</span>
 					<nav class="flex flex-col gap-2">
-						<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={siteConfig.onlinePresence.medium} target="_blank" rel="noopener noreferrer">
+						<a
+							class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+							href={siteConfig.onlinePresence.medium}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							Medium
 						</a>
-						<a class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200" href={siteConfig.onlinePresence.pinterest} target="_blank" rel="noopener noreferrer">
+						<a
+							class="font-body-md text-body-md text-on-surface-variant hover:text-electric-blue hover:translate-x-1 transition-all duration-200"
+							href={siteConfig.onlinePresence.pinterest}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							Pinterest
 						</a>
 					</nav>
@@ -158,13 +253,21 @@
 					</p>
 					<p class="font-body-md text-body-md text-on-surface-variant">
 						<span class="text-on-surface font-medium">{i18n.t.footer.tel}:</span>
-						<a class="hover:text-electric-blue transition-colors duration-200" href={siteConfig.phoneCallUrl}>
+						<a
+							class="hover:text-electric-blue transition-colors duration-200"
+							href={siteConfig.phoneCallUrl}
+						>
 							{siteConfig.contactPhone}
 						</a>
 					</p>
 					<p class="font-body-md text-body-md text-on-surface-variant">
 						<span class="text-on-surface font-medium">WhatsApp:</span>
-						<a class="hover:text-electric-blue transition-colors duration-200" href={siteConfig.whatsappUrl} target="_blank" rel="noopener noreferrer">
+						<a
+							class="hover:text-electric-blue transition-colors duration-200"
+							href={siteConfig.whatsappUrl}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							{i18n.t.footer.clickToChat}
 						</a>
 					</p>
@@ -176,20 +279,29 @@
 					</span>
 					<div class="flex flex-col gap-3">
 						<p class="font-body-md text-body-md text-on-surface-variant">
-							<span class="text-on-surface font-medium">{i18n.t.footer.forHire}:</span><br />
-							<a class="hover:text-electric-blue transition-colors duration-200 break-all" href="mailto:{siteConfig.emails.hire}">
+							<span class="text-on-surface font-medium">{i18n.t.footer.forHire}:</span><br>
+							<a
+								class="hover:text-electric-blue transition-colors duration-200 break-all"
+								href="mailto:{siteConfig.emails.hire}"
+							>
 								{siteConfig.emails.hire}
 							</a>
 						</p>
 						<p class="font-body-md text-body-md text-on-surface-variant">
-							<span class="text-on-surface font-medium">{i18n.t.footer.forContact}:</span><br />
-							<a class="hover:text-electric-blue transition-colors duration-200 break-all" href="mailto:{siteConfig.emails.contact}">
+							<span class="text-on-surface font-medium">{i18n.t.footer.forContact}:</span><br>
+							<a
+								class="hover:text-electric-blue transition-colors duration-200 break-all"
+								href="mailto:{siteConfig.emails.contact}"
+							>
 								{siteConfig.emails.contact}
 							</a>
 						</p>
 						<p class="font-body-md text-body-md text-on-surface-variant">
-							<span class="text-on-surface font-medium">{i18n.t.footer.forLegal}:</span><br />
-							<a class="hover:text-electric-blue transition-colors duration-200 break-all" href="mailto:{siteConfig.emails.legal}">
+							<span class="text-on-surface font-medium">{i18n.t.footer.forLegal}:</span><br>
+							<a
+								class="hover:text-electric-blue transition-colors duration-200 break-all"
+								href="mailto:{siteConfig.emails.legal}"
+							>
 								{siteConfig.emails.legal}
 							</a>
 						</p>
@@ -246,10 +358,10 @@
 	.brand-logo--dark {
 		display: none;
 	}
-	:global([data-theme='light']) .brand-logo--light {
+	:global([data-theme="light"]) .brand-logo--light {
 		display: none;
 	}
-	:global([data-theme='light']) .brand-logo--dark {
+	:global([data-theme="light"]) .brand-logo--dark {
 		display: block;
 	}
 </style>

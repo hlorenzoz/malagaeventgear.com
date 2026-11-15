@@ -7,6 +7,14 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (perf): la home sin hidratacion y favicon y logos livianos (2026-11-15)
+- Documento de la feature: `odd/tasks/home-no-csr.md`. Sigue el mismo patron que los posts (entrada siguiente).
+- `export const csr = false` en `src/routes/(public)/+page.ts`: la home en los 13 idiomas se sirve sin JS de SvelteKit.
+- El script de los posts pasa a ser compartido: `src/lib/no-csr/enhance.js` (antes `post-enhance.js`, 12,8 KB, 4,4 KB gzip). Suma FAQ (uno abierto a la vez, `aria-expanded` y `hidden`), flechas de los carruseles (`[data-carousel]`), filas que pasan a desplazables despues del LCP (`[data-scroll-after-lcp]`), "Read more" de las resenas y las galerias diferidas de la home. Esconder el header al bajar sigue solo en los posts (`data-hide-header-on-scroll`).
+- Carrusel de paquetes y `Testimonials`: `justify-center` reemplazado por margenes automaticos en la primera y la ultima tarjeta. Con `justify-center` y la fila desbordada, la primera tarjeta quedaba fuera de alcance a la izquierda (sin hidratacion se veia).
+- `static/favicon.svg` y los dos logos eran un PNG de 512 px en base64 dentro de un SVG y se descargaban antes del LCP. Ahora llevan un WebP sin perdida a 2x de su tamano en pantalla (favicon 96 px): 89.257 B a 5.198 B, y 31.063 B y 29.974 B a unos 6.000 B cada logo, con paridad visual medida. Los logos del footer van con `loading="lazy"`, asi el que oculta el CSS no se descarga. `siteConfig.logoUrl` (JSON-LD) no cambia.
+- Medido (Lighthouse movil, preview local, 3 corridas): home de 83/87/84 a 100/100/100 (FCP 2,6 s a 0,8 s, LCP 3,4 a 4,0 s a 1,8 s, JS 177 KiB a 5 KiB), `/de/` 100/99/99, un post de 97 a 99. Tests nuevos en `tests/home-no-csr.spec.ts` (35).
+
 ### Changed (perf): los posts del blog ya no se hidratan (csr = false) (2026-11-15)
 - Origen: el usuario pidio el rendimiento de su demo en Astro (PageSpeed movil 99) para MEG. Astro no puede alojar SvelteKit (solo renderiza componentes Svelte como islas), y la medicion mostro que la diferencia era el JS de hidratacion: 189 KiB en 32 archivos en cada post. Documento de la feature: `odd/tasks/post-no-csr.md`.
 - `export const csr = false` en `src/routes/(public)/blog/[slug]/+page.ts`: los 1.157 posts (89 x 13 idiomas) se sirven sin JS de SvelteKit. El `<head>` SEO no cambia (canonical, hreflang, Open Graph, JSON-LD).

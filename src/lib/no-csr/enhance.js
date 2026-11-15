@@ -1,10 +1,15 @@
 // @ts-nocheck: a plain browser script (no imports, no types). tsconfig is set to Workers types,
-// and tests/post-no-csr.spec.ts checks its behaviour in a real browser.
-// Interactive behaviour of a blog post loaded directly. Posts are not hydrated (csr = false), so
-// this plain script drives the server rendered markup through its data-* hooks. It never runs
-// after a client side navigation, where Svelte renders the post and owns these handlers.
+// and tests/post-no-csr.spec.ts and tests/home-no-csr.spec.ts check its behaviour in a real browser.
+// Interactive behaviour of a page that is not hydrated (csr = false: blog posts and the home),
+// loaded directly. This plain script drives the server rendered markup through its data-* hooks,
+// and every part acts only where its hooks exist. It never runs after a client side navigation,
+// where Svelte renders the page and owns these handlers.
 (function () {
-	window.__megPostEnhanced = true;
+	window.__megEnhanced = true;
+	// Only posts hide the header on scroll (as TopNavBar.svelte): they tag the script tag.
+	var hideHeaderOnScroll = !!(
+		document.currentScript && document.currentScript.hasAttribute('data-hide-header-on-scroll')
+	);
 
 	function onAll(selector, event, handler) {
 		document.querySelectorAll(selector).forEach(function (el) {
@@ -62,7 +67,7 @@
 	}
 
 	// Hide the header while scrolling down a post, show it again on the way up.
-	if (header) {
+	if (header && hideHeaderOnScroll) {
 		var lastY = window.scrollY;
 		var ticking = false;
 		window.addEventListener(
@@ -237,5 +242,104 @@
 	);
 	document.querySelectorAll('[data-marquee]').forEach(function (marquee) {
 		if (marquee.querySelector('template[data-marquee-track]')) marqueeObserver.observe(marquee);
+	});
+
+	// Carousels (home packages, Testimonials.svelte): arrows show while the track overflows, scroll
+	// one card, and disable at each edge. The cards are centered with auto margins in CSS.
+	document.querySelectorAll('[data-carousel]').forEach(function (carousel) {
+		var track = carousel.querySelector('[data-carousel-track]');
+		var nav = carousel.querySelector('[data-carousel-nav]');
+		var prev = carousel.querySelector('[data-carousel-prev]');
+		var next = carousel.querySelector('[data-carousel-next]');
+		if (!track || !nav || !prev || !next) return;
+		var raf = 0;
+		var update = function () {
+			raf = 0;
+			var max = track.scrollWidth - track.clientWidth;
+			nav.hidden = max <= 1;
+			prev.disabled = track.scrollLeft <= 1;
+			next.disabled = track.scrollLeft >= max - 1;
+		};
+		var scrollByCard = function (direction) {
+			var card = track.firstElementChild;
+			var amount = card ? card.offsetWidth + 24 : track.clientWidth * 0.8;
+			track.scrollBy({ left: amount * direction, behavior: 'smooth' });
+		};
+		prev.addEventListener('click', function () {
+			scrollByCard(-1);
+		});
+		next.addEventListener('click', function () {
+			scrollByCard(1);
+		});
+		track.addEventListener(
+			'scroll',
+			function () {
+				if (!raf) raf = requestAnimationFrame(update);
+			},
+			{ passive: true }
+		);
+		new ResizeObserver(update).observe(track);
+	});
+
+	// Rows that become scrollable only after the LCP (src/lib/utils/after-lcp.ts explains why: a
+	// snap container scroll before the first LCP candidate stops LCP recording).
+	var lateScroll = document.querySelectorAll('[data-scroll-after-lcp]');
+	if (lateScroll.length) {
+		var enabled = false;
+		var lcpSeen = false;
+		var enableScroll = function () {
+			if (enabled) return;
+			enabled = true;
+			lateScroll.forEach(function (el) {
+				el.classList.replace('overflow-x-hidden', 'overflow-x-auto');
+			});
+		};
+		var lcpSupported =
+			window.PerformanceObserver &&
+			(PerformanceObserver.supportedEntryTypes || []).indexOf('largest-contentful-paint') !== -1;
+		var checkLcp = function () {
+			if (document.readyState !== 'complete' || (lcpSupported && !lcpSeen)) return;
+			// One more frame, so the paint of the candidate is committed.
+			requestAnimationFrame(enableScroll);
+		};
+		if (lcpSupported) {
+			new PerformanceObserver(function () {
+				lcpSeen = true;
+				checkLcp();
+			}).observe({ type: 'largest-contentful-paint', buffered: true });
+		}
+		window.addEventListener('load', checkLcp);
+		// Input stops LCP recording on its own, so there is nothing left to protect.
+		['pointerdown', 'keydown', 'wheel', 'touchstart'].forEach(function (type) {
+			window.addEventListener(type, enableScroll, { passive: true, once: true });
+		});
+		setTimeout(enableScroll, 10000);
+		checkLcp();
+	}
+
+	// Long reviews (TestimonialCard.svelte): Read more / Read less, labels from the server render.
+	onAll('[data-read-more]', 'click', function (event) {
+		var button = event.currentTarget;
+		var card = button.closest('[data-testid="testimonial-card"]');
+		var expanded = card.getAttribute('data-expanded') !== 'true';
+		card.setAttribute('data-expanded', String(expanded));
+		card
+			.querySelector('[data-testid="testimonial-text"]')
+			.classList.toggle('line-clamp-4', !expanded);
+		button.textContent = expanded ? button.dataset.less : button.dataset.more;
+	});
+
+	// FAQ accordion (home): one answer open at a time. CSS picks the icon from aria-expanded.
+	var faqToggles = document.querySelectorAll('[data-faq-toggle]');
+	faqToggles.forEach(function (button) {
+		button.addEventListener('click', function () {
+			var open = button.getAttribute('aria-expanded') !== 'true';
+			faqToggles.forEach(function (other) {
+				var isThis = other === button;
+				other.setAttribute('aria-expanded', String(isThis && open));
+				var answer = document.getElementById(other.getAttribute('aria-controls'));
+				if (answer) answer.hidden = !(isThis && open);
+			});
+		});
 	});
 })();

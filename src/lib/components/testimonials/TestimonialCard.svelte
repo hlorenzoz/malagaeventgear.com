@@ -102,8 +102,12 @@
 	</p>
 
 	{#if isLong}
+		<!-- data-read-more and both labels let src/lib/no-csr/enhance.js toggle it without hydration. -->
 		<button
 			data-testid="read-more"
+			data-read-more
+			data-more={i18n.t.testimonials.readMore}
+			data-less={i18n.t.testimonials.readLess}
 			type="button"
 			onclick={() => (expanded = !expanded)}
 			class="self-start mt-3 font-label-sm text-electric-blue hover:underline focus-visible:outline-2 focus-visible:outline-electric-blue rounded"

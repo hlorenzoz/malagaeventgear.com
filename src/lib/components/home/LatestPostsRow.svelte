@@ -49,8 +49,13 @@
 			     forced snap-scroll on initial layout (the first card's snap point sits 8px in due to
 			     the px-2 padding), and that early container scroll suppressed Largest Contentful Paint
 			     recording on the home -> NO_LCP. proximity keeps the snap UX without the load scroll. -->
+			<!-- data-scroll-after-lcp: on a page that is not hydrated, src/lib/no-csr/enhance.js makes the
+			     row scrollable after the LCP, as afterLcp does here. -->
 			<div
-				class="flex gap-5 {scrollable ? 'overflow-x-auto' : 'overflow-x-hidden'} snap-x snap-proximity scroll-smooth pb-4 -mx-2 px-2 scrollbar-none [&::-webkit-scrollbar]:hidden"
+				data-scroll-after-lcp
+				class="flex gap-5 {scrollable
+					? 'overflow-x-auto'
+					: 'overflow-x-hidden'} snap-x snap-proximity scroll-smooth pb-4 -mx-2 px-2 scrollbar-none [&::-webkit-scrollbar]:hidden"
 			>
 				{#each posts as post (post.slug)}
 					<BlogPostCard {post} />

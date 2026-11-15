@@ -29,9 +29,7 @@
 
 	let items = $derived(typeof limit === 'number' ? testimonials.slice(0, limit) : testimonials);
 
-	let basedOn = $derived(
-		i18n.t.testimonials.basedOn.replace('{n}', String(meta.totalCount))
-	);
+	let basedOn = $derived(i18n.t.testimonials.basedOn.replace('{n}', String(meta.totalCount)));
 
 	let track = $state<HTMLDivElement | null>(null);
 
@@ -78,12 +76,16 @@
 <section
 	id="testimonials"
 	data-testid="testimonials"
-	class="{compact ? 'py-12' : 'py-32'} px-margin-mobile md:px-margin-desktop bg-surface-container-low border-y border-border-glass transition-colors duration-300"
+	class="{compact
+		? 'py-12'
+		: 'py-32'} px-margin-mobile md:px-margin-desktop bg-surface-container-low border-y border-border-glass transition-colors duration-300"
 >
 	<div class="max-w-container-max mx-auto">
 		{#if heading}
 			<div class="text-center mb-12">
-				<span class="inline-block px-4 py-2 rounded-full glass-panel font-label-sm text-electric-blue uppercase tracking-widest mb-4">
+				<span
+					class="inline-block px-4 py-2 rounded-full glass-panel font-label-sm text-electric-blue uppercase tracking-widest mb-4"
+				>
 					{i18n.t.testimonials.badge}
 				</span>
 				<h2 class="font-headline-lg text-[32px] md:text-headline-lg text-on-background mb-4">
@@ -96,10 +98,7 @@
 		{/if}
 
 		<!-- Aggregate rating block -->
-		<div
-			data-testid="reviews-meta"
-			class="flex flex-col items-center gap-2 mb-10"
-		>
+		<div data-testid="reviews-meta" class="flex flex-col items-center gap-2 mb-10">
 			<span class="font-label-lg uppercase tracking-widest text-on-surface font-bold">
 				{i18n.t.testimonials.ratingLabel}
 			</span>
@@ -111,10 +110,22 @@
 			<p class="font-body-md text-sm text-on-surface-variant">{basedOn}</p>
 			<div class="flex items-center gap-1.5 text-on-surface-variant">
 				<svg class="w-4 h-4" viewBox="0 0 24 24" aria-hidden="true">
-					<path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.27-4.74 3.27-8.1Z"/>
-					<path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.99.66-2.26 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84A11 11 0 0 0 12 23Z"/>
-					<path fill="#FBBC05" d="M5.84 14.1a6.6 6.6 0 0 1 0-4.2V7.06H2.18a11 11 0 0 0 0 9.88l3.66-2.84Z"/>
-					<path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1A11 11 0 0 0 2.18 7.06l3.66 2.84C6.71 7.3 9.14 5.38 12 5.38Z"/>
+					<path
+						fill="#4285F4"
+						d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.27-4.74 3.27-8.1Z"
+					/>
+					<path
+						fill="#34A853"
+						d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.99.66-2.26 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84A11 11 0 0 0 12 23Z"
+					/>
+					<path
+						fill="#FBBC05"
+						d="M5.84 14.1a6.6 6.6 0 0 1 0-4.2V7.06H2.18a11 11 0 0 0 0 9.88l3.66-2.84Z"
+					/>
+					<path
+						fill="#EA4335"
+						d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1A11 11 0 0 0 2.18 7.06l3.66 2.84C6.71 7.3 9.14 5.38 12 5.38Z"
+					/>
 				</svg>
 				<span class="font-body-sm text-xs">{i18n.t.testimonials.poweredBy}</span>
 			</div>
@@ -127,42 +138,46 @@
 				{/each}
 			</div>
 		{:else}
-			<div class="relative">
+			<!-- data-carousel* hooks let src/lib/no-csr/enhance.js drive the arrows on a page that is not
+			     hydrated. Auto margins on the first and last card center the row when it fits and drop
+			     to 0 when it overflows, so no card is ever pushed out of reach (justify-center did). -->
+			<div class="relative" data-carousel>
 				<div
 					bind:this={track}
 					data-testid="carousel-track"
-					class="flex gap-6 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4 -mx-2 px-2 scrollbar-none [&::-webkit-scrollbar]:hidden {scrollable ? '' : 'justify-center'}"
+					data-carousel-track
+					class="flex gap-6 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4 -mx-2 px-2 scrollbar-none [&::-webkit-scrollbar]:hidden [&>:first-child]:ms-auto [&>:last-child]:me-auto"
 				>
 					{#each items as testimonial (testimonial.id)}
 						<TestimonialCard {testimonial} />
 					{/each}
 				</div>
 
-				<!-- Nav arrows only appear when the track actually overflows -->
-				{#if scrollable}
-					<div class="flex justify-center gap-3 mt-6">
-						<button
-							data-testid="carousel-prev"
-							type="button"
-							aria-label={i18n.t.testimonials.prevAria}
-							disabled={atStart}
-							onclick={() => scrollByCard(-1)}
-							class="w-11 h-11 rounded-full glass-panel border border-border-glass flex items-center justify-center text-on-surface hover:bg-on-surface/10 active:scale-90 transition-all duration-200 focus-visible:outline-2 focus-visible:outline-electric-blue disabled:opacity-30 disabled:pointer-events-none"
-						>
-							<Icon name="chevron_left" />
-						</button>
-						<button
-							data-testid="carousel-next"
-							type="button"
-							aria-label={i18n.t.testimonials.nextAria}
-							disabled={atEnd}
-							onclick={() => scrollByCard(1)}
-							class="w-11 h-11 rounded-full glass-panel border border-border-glass flex items-center justify-center text-on-surface hover:bg-on-surface/10 active:scale-90 transition-all duration-200 focus-visible:outline-2 focus-visible:outline-electric-blue disabled:opacity-30 disabled:pointer-events-none"
-						>
-							<Icon name="chevron_right" />
-						</button>
-					</div>
-				{/if}
+				<!-- Nav arrows only appear when the track actually overflows (always in the HTML, hidden) -->
+				<div class="flex justify-center gap-3 mt-6" hidden={!scrollable} data-carousel-nav>
+					<button
+						data-testid="carousel-prev"
+						data-carousel-prev
+						type="button"
+						aria-label={i18n.t.testimonials.prevAria}
+						disabled={atStart}
+						onclick={() => scrollByCard(-1)}
+						class="w-11 h-11 rounded-full glass-panel border border-border-glass flex items-center justify-center text-on-surface hover:bg-on-surface/10 active:scale-90 transition-all duration-200 focus-visible:outline-2 focus-visible:outline-electric-blue disabled:opacity-30 disabled:pointer-events-none"
+					>
+						<Icon name="chevron_left" />
+					</button>
+					<button
+						data-testid="carousel-next"
+						data-carousel-next
+						type="button"
+						aria-label={i18n.t.testimonials.nextAria}
+						disabled={atEnd}
+						onclick={() => scrollByCard(1)}
+						class="w-11 h-11 rounded-full glass-panel border border-border-glass flex items-center justify-center text-on-surface hover:bg-on-surface/10 active:scale-90 transition-all duration-200 focus-visible:outline-2 focus-visible:outline-electric-blue disabled:opacity-30 disabled:pointer-events-none"
+					>
+						<Icon name="chevron_right" />
+					</button>
+				</div>
 			</div>
 		{/if}
 
@@ -176,10 +191,22 @@
 				class="inline-flex items-center gap-2 glass-panel text-on-surface px-8 py-3 rounded-full font-label-lg hover:bg-on-surface/10 hover:-translate-y-0.5 transition-all active:scale-95 duration-200"
 			>
 				<svg class="w-4 h-4" viewBox="0 0 24 24" aria-hidden="true">
-					<path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.27-4.74 3.27-8.1Z"/>
-					<path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.99.66-2.26 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84A11 11 0 0 0 12 23Z"/>
-					<path fill="#FBBC05" d="M5.84 14.1a6.6 6.6 0 0 1 0-4.2V7.06H2.18a11 11 0 0 0 0 9.88l3.66-2.84Z"/>
-					<path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1A11 11 0 0 0 2.18 7.06l3.66 2.84C6.71 7.3 9.14 5.38 12 5.38Z"/>
+					<path
+						fill="#4285F4"
+						d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.27-4.74 3.27-8.1Z"
+					/>
+					<path
+						fill="#34A853"
+						d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.99.66-2.26 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84A11 11 0 0 0 12 23Z"
+					/>
+					<path
+						fill="#FBBC05"
+						d="M5.84 14.1a6.6 6.6 0 0 1 0-4.2V7.06H2.18a11 11 0 0 0 0 9.88l3.66-2.84Z"
+					/>
+					<path
+						fill="#EA4335"
+						d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1A11 11 0 0 0 2.18 7.06l3.66 2.84C6.71 7.3 9.14 5.38 12 5.38Z"
+					/>
 				</svg>
 				{i18n.t.testimonials.seeAll}
 				<Icon name="arrow_outward" size="20" />

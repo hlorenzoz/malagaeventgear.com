@@ -19,6 +19,13 @@
 	import { siteConfig } from '$lib/data/site';
 	import { getReviewsMeta } from '$lib/data/testimonials';
 	import { formatNumber, formatRating } from '$lib/i18n/format';
+	import { setContext } from 'svelte';
+	// no-inline: Vite would inline a small ?url asset as a data: URL, this keeps a hashed file.
+	import enhanceUrl from '$lib/no-csr/enhance.js?url&no-inline';
+
+	// The home is not hydrated (csr = false). Same flag as BlogPost.svelte: components emit the
+	// server markup the enhancement script needs (ImageMarquee's <template> track).
+	setContext('no-csr-post', true);
 
 	let { data } = $props();
 	// Copy in the page language (./i18n/<locale>.ts, loaded by +page.ts)
@@ -258,6 +265,9 @@
 		imagesizes={HERO_SIZES}
 		fetchpriority="high"
 	>
+	<!-- With csr = false SvelteKit strips component <script> tags, {@html} keeps this one. After a
+	     client side navigation it is inserted as inert HTML, so it only runs on a direct load. -->
+	{@html `<script src="${enhanceUrl}" defer><\/script>`}
 </svelte:head>
 
 <!-- Hero Section -->
@@ -668,17 +678,19 @@
 			</p>
 		</div>
 
-		<div class="relative mb-12">
+		<div class="relative mb-12" data-carousel>
 			<!-- snap-proximity (not mandatory): mandatory triggers a forced snap-scroll on initial
 			     layout that suppressed Largest Contentful Paint on the home (NO_LCP). See LatestPostsRow. -->
+			<!-- Auto margins on the first and last card center the row when it fits and drop to 0 when
+			     it overflows, so no card is ever pushed out of reach (justify-center did that). -->
 			<div
 				bind:this={track}
 				data-testid="packages-carousel-track"
+				data-carousel-track
+				data-scroll-after-lcp
 				class="flex gap-6 {canScroll
 					? 'overflow-x-auto'
-					: 'overflow-x-hidden'} snap-x snap-proximity scroll-smooth pb-4 -mx-2 px-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden {scrollable
-					? ''
-					: 'justify-center'}"
+					: 'overflow-x-hidden'} snap-x snap-proximity scroll-smooth pb-4 -mx-2 px-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden [&>:first-child]:ms-auto [&>:last-child]:me-auto"
 			>
 				{#each homepagePacks as pack (pack.id)}
 					<div
@@ -763,31 +775,32 @@
 				{/each}
 			</div>
 
-			<!-- Nav arrows only appear when the track actually overflows -->
-			{#if scrollable}
-				<div class="flex justify-center gap-3 mt-6">
-					<button
-						data-testid="packages-carousel-prev"
-						type="button"
-						aria-label={i18n.t.testimonials.prevAria}
-						disabled={atStart}
-						onclick={() => scrollByCard(-1)}
-						class="w-11 h-11 rounded-full glass-panel border border-border-glass flex items-center justify-center text-on-surface hover:bg-on-surface/10 active:scale-90 transition-all duration-200 focus-visible:outline-2 focus-visible:outline-electric-blue disabled:opacity-30 disabled:pointer-events-none"
-					>
-						<Icon name="chevron_left" />
-					</button>
-					<button
-						data-testid="packages-carousel-next"
-						type="button"
-						aria-label={i18n.t.testimonials.nextAria}
-						disabled={atEnd}
-						onclick={() => scrollByCard(1)}
-						class="w-11 h-11 rounded-full glass-panel border border-border-glass flex items-center justify-center text-on-surface hover:bg-on-surface/10 active:scale-90 transition-all duration-200 focus-visible:outline-2 focus-visible:outline-electric-blue disabled:opacity-30 disabled:pointer-events-none"
-					>
-						<Icon name="chevron_right" />
-					</button>
-				</div>
-			{/if}
+			<!-- Nav arrows only appear when the track actually overflows. Always in the HTML (hidden) so
+			     the enhancement script can show them on a direct load. -->
+			<div class="flex justify-center gap-3 mt-6" hidden={!scrollable} data-carousel-nav>
+				<button
+					data-testid="packages-carousel-prev"
+					data-carousel-prev
+					type="button"
+					aria-label={i18n.t.testimonials.prevAria}
+					disabled={atStart}
+					onclick={() => scrollByCard(-1)}
+					class="w-11 h-11 rounded-full glass-panel border border-border-glass flex items-center justify-center text-on-surface hover:bg-on-surface/10 active:scale-90 transition-all duration-200 focus-visible:outline-2 focus-visible:outline-electric-blue disabled:opacity-30 disabled:pointer-events-none"
+				>
+					<Icon name="chevron_left" />
+				</button>
+				<button
+					data-testid="packages-carousel-next"
+					data-carousel-next
+					type="button"
+					aria-label={i18n.t.testimonials.nextAria}
+					disabled={atEnd}
+					onclick={() => scrollByCard(1)}
+					class="w-11 h-11 rounded-full glass-panel border border-border-glass flex items-center justify-center text-on-surface hover:bg-on-surface/10 active:scale-90 transition-all duration-200 focus-visible:outline-2 focus-visible:outline-electric-blue disabled:opacity-30 disabled:pointer-events-none"
+				>
+					<Icon name="chevron_right" />
+				</button>
+			</div>
 		</div>
 
 		<div class="text-center">
@@ -840,25 +853,24 @@
 						onclick={() => (openFaqIndex = openFaqIndex === i ? null : i)}
 						class="w-full px-6 py-5 flex justify-between items-center text-left hover:bg-white/5 transition-colors group"
 						aria-expanded={isOpen}
+						aria-controls="faq-answer-{i}"
+						data-faq-toggle
 					>
 						<span
 							class="font-body-lg text-body-lg font-semibold group-hover:text-electric-blue transition-colors text-on-surface"
 						>
 							{faq.q}
 						</span>
+						<!-- Both icons in the HTML, CSS picks one from aria-expanded (works without hydration). -->
 						<span
-							class="text-on-surface-variant transition-transform duration-300 {isOpen
-								? 'rotate-180'
-								: ''}"
+							class="text-on-surface-variant transition-transform duration-300 group-aria-expanded:rotate-180"
 						>
-							{#if isOpen}
-								<Icon name="remove" />
-							{:else}
-								<Icon name="add" />
-							{/if}
+							<Icon name="remove" className="faq-icon-open" />
+							<Icon name="add" className="faq-icon-closed" />
 						</span>
 					</button>
 					<div
+						id="faq-answer-{i}"
 						hidden={!isOpen}
 						class="px-6 pb-5 text-on-surface-variant font-body-md text-body-md border-t border-border-glass/30 pt-3"
 					>
@@ -912,3 +924,10 @@
 		viewAllLabel={copy.posts.newsViewAll}
 	/>
 {/if}
+
+<style>
+	:global([aria-expanded="true"] .faq-icon-closed),
+	:global([aria-expanded="false"] .faq-icon-open) {
+		display: none;
+	}
+</style>
