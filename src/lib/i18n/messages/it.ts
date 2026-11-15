@@ -1,4 +1,4 @@
-import type { Messages } from './en';
+import type { Messages } from './en.ts';
 
 /** Italian UI dictionary. Same shape as en.ts (`satisfies Messages`). */
 const t = {

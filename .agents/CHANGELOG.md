@@ -7,6 +7,11 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Fixed (perf, dev): aviso de Vite, favicon de 96 px y un solo logo en el header (2026-11-15)
+- `just dev` mostraba el aviso `configLoader: 'native'` por `import "./en"` sin extension en los 12 diccionarios de `src/lib/i18n/messages/`. Ahora importan `./en.ts` (el `tsconfig` ya tenia `rewriteRelativeImportExtensions`). El aviso no sale ni en dev ni en el build.
+- `static/favicon.png` pasa de 32x32 a 96x96 (Google recomienda mas de 48x48), generado del PNG original de 512 px. Misma URL, `sizes` actualizado en `src/app.html`. `favicon.ico` queda en 32x32.
+- El header descargaba los dos logos en tema claro (el claro fijo en el HTML y despues el oscuro). Ahora usa el mismo patron que el footer: los dos logos con `loading="lazy"` y el CSS muestra uno segun `html[data-theme]`, asi que solo se descarga el visible. `enhance.js` ya no cambia el `src` del logo. Tests nuevos: `tests/favicon.spec.ts` y `tests/header-logo.spec.ts`.
+
 ### Changed (perf): la home sin hidratacion y favicon y logos livianos (2026-11-15)
 - Documento de la feature: `odd/tasks/home-no-csr.md`. Sigue el mismo patron que los posts (entrada siguiente).
 - `export const csr = false` en `src/routes/(public)/+page.ts`: la home en los 13 idiomas se sirve sin JS de SvelteKit.

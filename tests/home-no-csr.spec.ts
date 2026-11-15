@@ -119,16 +119,17 @@ test.describe('header on the home (S3)', () => {
 			await load.open(page);
 			const html = page.locator('html');
 			const toggle = page.locator('header [data-theme-toggle]');
-			const logo = page.locator('header img[data-logo-light]');
+			// Both header logos are in the HTML, CSS shows the one for the current theme.
+			const logo = page.locator('header a[href] img:visible');
 			for (let i = 0; i < 2; i++) {
 				const next = (await html.getAttribute('data-theme')) === 'light' ? 'dark' : 'light';
 				await toggle.click();
 				await expect(html).toHaveAttribute('data-theme', next);
 				expect(await page.evaluate(() => localStorage.getItem('theme'))).toBe(next);
-				const expectedLogo = await logo.getAttribute(
-					next === 'dark' ? 'data-logo-light' : 'data-logo-dark'
+				await expect(logo).toHaveCount(1);
+				await expect(logo).toHaveClass(
+					next === 'dark' ? /header-logo--light/ : /header-logo--dark/
 				);
-				await expect(logo).toHaveAttribute('src', expectedLogo!);
 			}
 			const button = page.locator('header [data-menu-toggle]');
 			const panel = page.locator('#mobile-nav-panel');

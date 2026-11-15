@@ -17,20 +17,14 @@
 		});
 	}
 
-	// Header (TopNavBar.svelte). CSS picks the theme and menu icons from data-theme and aria-expanded.
+	// Header (TopNavBar.svelte). CSS picks the logo, theme and menu icons from data-theme and aria-expanded.
 	var root = document.documentElement;
 	var header = document.querySelector('[data-site-header]');
-	var logo = document.querySelector('[data-logo-light]');
 	var menuButton = document.querySelector('[data-menu-toggle]');
 
 	function isDark() {
 		return root.getAttribute('data-theme') !== 'light';
 	}
-
-	function syncLogo() {
-		if (logo) logo.src = isDark() ? logo.dataset.logoLight : logo.dataset.logoDark;
-	}
-	syncLogo();
 
 	onAll('[data-theme-toggle]', 'click', function () {
 		var next = isDark() ? 'light' : 'dark';
@@ -38,7 +32,6 @@
 		try {
 			localStorage.setItem('theme', next);
 		} catch (_) {}
-		syncLogo();
 	});
 
 	// Follow a live system theme change until the user saves a theme (same as TopNavBar.svelte).
@@ -50,7 +43,6 @@
 		} catch (_) {}
 		if (saved) return;
 		root.setAttribute('data-theme', lightQuery.matches ? 'light' : 'dark');
-		syncLogo();
 	});
 
 	function menuOpen() {

@@ -79,7 +79,8 @@ test.describe('post without hydration (S1, S2)', () => {
 async function expectThemeToggle(page: Page): Promise<void> {
 	const html = page.locator('html');
 	const toggle = page.locator('header [data-theme-toggle]');
-	const logo = page.locator('header img[data-logo-light]');
+	// Both header logos are in the HTML, CSS shows the one for the current theme.
+	const logo = page.locator('header a[href] img:visible');
 	for (let i = 0; i < 2; i++) {
 		const next = (await html.getAttribute('data-theme')) === 'light' ? 'dark' : 'light';
 		await toggle.click();
@@ -92,10 +93,8 @@ async function expectThemeToggle(page: Page): Promise<void> {
 		await expect(
 			toggle.locator(next === 'dark' ? '.theme-icon-dark' : '.theme-icon-light')
 		).toBeHidden();
-		const expectedLogo = await logo.getAttribute(
-			next === 'dark' ? 'data-logo-light' : 'data-logo-dark'
-		);
-		await expect(logo).toHaveAttribute('src', expectedLogo!);
+		await expect(logo).toHaveCount(1);
+		await expect(logo).toHaveClass(next === 'dark' ? /header-logo--light/ : /header-logo--dark/);
 	}
 }
 

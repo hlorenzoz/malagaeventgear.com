@@ -129,7 +129,8 @@
 	<div
 		class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto"
 	>
-		<!-- Brand Logo (theme-aware: light logo on dark theme, dark logo on light theme) -->
+		<!-- Brand logo (theme-aware via data-theme CSS swap, as in Footer.svelte). Lazy, so the browser
+		     never fetches the one hidden with display: none, and the visible one still loads at once. -->
 		<a
 			class="transition-transform active:scale-95 duration-200"
 			href={homeHref}
@@ -137,13 +138,20 @@
 			aria-label={i18n.t.nav.brand}
 		>
 			<img
-				src={currentTheme === 'dark' ? LOGO_LIGHT : LOGO_DARK}
-				data-logo-light={LOGO_LIGHT}
-				data-logo-dark={LOGO_DARK}
+				src={LOGO_LIGHT}
 				alt={i18n.t.nav.brand}
 				width="250"
 				height="75"
-				class="h-8 md:h-9 w-auto"
+				loading="lazy"
+				class="header-logo--light h-8 md:h-9 w-auto"
+			>
+			<img
+				src={LOGO_DARK}
+				alt={i18n.t.nav.brand}
+				width="250"
+				height="75"
+				loading="lazy"
+				class="header-logo--dark h-8 md:h-9 w-auto"
 			>
 		</a>
 
@@ -251,6 +259,15 @@
 </header>
 
 <style>
+	/* Default theme is dark: show the light (white) logo. */
+	.header-logo--dark,
+	:global(html[data-theme="light"]) .header-logo--light {
+		display: none;
+	}
+	:global(html[data-theme="light"]) .header-logo--dark {
+		display: block;
+	}
+
 	/* Icons follow the DOM state, so a hydrated page and the no-csr post script share them. */
 	:global(html[data-theme="light"] .theme-icon-light),
 	:global(html:not([data-theme="light"]) .theme-icon-dark),
