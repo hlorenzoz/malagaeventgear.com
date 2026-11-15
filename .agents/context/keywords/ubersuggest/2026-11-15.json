@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-15",
+  "run": {
+    "status": "partial",
+    "calls": [
+      {"tool": "user_limits", "args": "start", "outcome": "ok"},
+      {"tool": "list_projects", "outcome": "ok"},
+      {"tool": "domain_keywords", "args": "avhirespain.com limit 30 locId 2724", "outcome": "empty"},
+      {"tool": "domain_keywords", "args": "sonidomalaga.com limit 30 locId 2724", "outcome": "empty"},
+      {"tool": "industry_prompts", "args": "3 seeds, en, 2724", "outcome": "ok"},
+      {"tool": "article_title_suggestions", "args": "seed 1", "outcome": "ok"},
+      {"tool": "keyword_suggestions", "args": "seed 1 locId 2724", "outcome": "empty"},
+      {"tool": "serp_analysis", "args": "seed 1 limit 10 locId 2724", "outcome": "ok"},
+      {"tool": "content_ideas", "args": "seed 1 limit 5 locId 2724", "outcome": "empty"},
+      {"tool": "user_limits", "args": "end", "outcome": "ok"}
+    ],
+    "skipped": [
+      {"step": "keyword_overview for new keywords", "reason": "no new keywords without metrics, and reports quota 3 of 3 spent"},
+      {"step": "faqs", "reason": "faq-researcher job, no google_suggestions tool"},
+      {"step": "keyword_metrics", "reason": "monthlyDue is false"},
+      {"step": "retry competitor domain_keywords without locId", "reason": "rule: never retry an empty result without locId"}
+    ],
+    "quotaBefore": {"reports": 0, "monthly_keyword_metrics_updates": 0, "brand_operations": 0},
+    "quotaAfter": {"reports": 3, "monthly_keyword_metrics_updates": 0, "brand_operations": 0}
+  },
+  "keywords": [],
+  "faqs": [],
+  "aiPrompts": [
+    {"prompt": "What’s the best AV equipment checklist for a mid-sized conference in Spain?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which AV gear should I prioritize for a corporate conference setup?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "AV equipment checklist vs rental package: What’s more cost-effective for a conference?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best value AV equipment bundles for conference presentations near me in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where can I rent AV equipment for conferences with a complete checklist included?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Recommendations for AV equipment checklists that cover sound, lighting, and video for conferences", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Top-rated AV equipment checklists tailored for conference organizers in Spain", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "What’s the best audio visual rental service for live music performances in Spain?", "keyword": "audio visual rental for music performances", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which is better for concert AV rentals, Malaga Event Gear or local competitors?", "keyword": "audio visual rental for music performances", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where can I rent professional audio visual equipment for a music gig near me in Spain?", "keyword": "audio visual rental for music performances", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best budget-friendly audio visual rental for small music venues in Spain?", "keyword": "audio visual rental for music performances", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Top-rated AV rental companies for music events in Spain?", "keyword": "audio visual rental for music performances", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Recommendations for audio visual rental that includes lighting and sound for music shows?", "keyword": "audio visual rental for music performances", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Malaga Event Gear vs other audio visual rental options for music concerts in Spain?", "keyword": "audio visual rental for music performances", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "What is the best destination wedding AV service in Costa del Sol for a medium-sized event?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which destination wedding AV providers in Costa del Sol offer the best sound and lighting packages?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Costa del Sol destination wedding AV rental vs full-service AV production: which is better for my wedding?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Top-rated destination wedding AV companies near Marbella, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where can I hire affordable destination wedding AV equipment in Costa del Sol?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best destination wedding AV services in Costa del Sol for outdoor beach ceremonies", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Comparing Malaga Event Gear vs other destination wedding AV suppliers in Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"}
+  ],
+  "research": {
+    "audio visual rental for music performances": {
+      "serp": {
+        "localPack": true,
+        "aiOverview": true,
+        "top": [
+          "http://dimaraudiovisual.es/en/rental-of-events-audiovisual-equipment-madrid/",
+          "http://alquilarsonido.es/en/",
+          "http://www.velvetproductions.es/en/audiovisual-rentals"
+        ],
+        "asOf": "2026-11-15"
+      },
+      "titleIdeas": [
+        "How to choose audio visual rental for music performances on the Costa del Sol",
+        "What bands and DJs need: an AV rental checklist for weddings and small concerts in Malaga",
+        "PA and lighting rental comparison: packages for intimate ceremonies, corporate gigs and club shows"
+      ]
+    }
+  },
+  "rank": [],
+  "discarded": [],
+  "report": {
+    "kind": "competitor-keywords",
+    "status": "failed",
+    "reason": "domain_keywords returned no organic ranking data for either competitor in locId 2724 (Spain). Not retried without locId.",
+    "summary": [
+      "avhirespain.com: no organic ranking data in locId 2724",
+      "sonidomalaga.com: no organic ranking data in locId 2724"
+    ],
+    "metrics": {},
+    "seoCounts": {},
+    "seo": [],
+    "rows": []
+  }
+}
