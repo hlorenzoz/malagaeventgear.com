@@ -1,5 +1,6 @@
 <script lang="ts">
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
+	import enhanceUrl from '$lib/no-csr/enhance.js?url&no-inline';
 	import Icon from '$lib/components/navigation/Icon.svelte';
 	import { i18n } from '$lib/i18n.svelte';
 	import { LOCALE_META } from '$lib/i18n/locales';
@@ -19,16 +20,16 @@
 		'@context': 'https://schema.org',
 		'@type': 'CollectionPage',
 		'@id': `${i18n.absolute('/blog/categories/')}#webpage`,
-		'url': i18n.absolute('/blog/categories/'),
-		'inLanguage': LOCALE_META[i18n.lang].htmlLang,
-		'name': copy.schemaName,
-		'isPartOf': {
+		url: i18n.absolute('/blog/categories/'),
+		inLanguage: LOCALE_META[i18n.lang].htmlLang,
+		name: copy.schemaName,
+		isPartOf: {
 			'@type': 'WebSite',
 			'@id': 'https://malagaeventgear.com/#website',
-			'url': 'https://malagaeventgear.com/',
-			'name': 'Malaga Event Gear'
+			url: 'https://malagaeventgear.com/',
+			name: 'Malaga Event Gear'
 		},
-		'numberOfItems': categories.length
+		numberOfItems: categories.length
 	});
 
 	let itemListSchema = $derived(
@@ -43,6 +44,12 @@
 	}
 </script>
 
+<svelte:head>
+	<!-- Not hydrated (csr = false): SvelteKit strips component <script> tags, {@html} keeps this one.
+	     After a client side navigation it is inserted as inert HTML, so it only runs on a direct load. -->
+	{@html `<script src="${enhanceUrl}" defer><\/script>`}
+</svelte:head>
+
 <SeoHead
 	title={copy.seo.title}
 	description={copy.seo.description}
@@ -56,7 +63,9 @@
 		<a href={i18n.href('/blog/')} class="text-sm text-electric-blue hover:underline">
 			← {copy.backLink}
 		</a>
-		<h1 class="font-headline-lg-mobile md:font-display-lg text-headline-lg-mobile md:text-display-lg text-on-surface mt-4 leading-tight">
+		<h1
+			class="font-headline-lg-mobile md:font-display-lg text-headline-lg-mobile md:text-display-lg text-on-surface mt-4 leading-tight"
+		>
 			{copy.heading}
 		</h1>
 		<p class="text-on-surface-variant font-body-md mt-2">
@@ -76,7 +85,9 @@
 				<Icon name="rss_feed" size="28" />
 			</span>
 			<span class="flex flex-col">
-				<span class="font-headline-sm text-headline-sm text-on-surface group-hover:text-electric-blue transition-colors leading-tight">
+				<span
+					class="font-headline-sm text-headline-sm text-on-surface group-hover:text-electric-blue transition-colors leading-tight"
+				>
 					{copy.allPosts}
 				</span>
 				<span class="font-body-sm text-body-sm text-on-surface-variant mt-1">
@@ -94,7 +105,9 @@
 					<Icon name="folder" size="28" />
 				</span>
 				<span class="flex flex-col">
-					<span class="font-headline-sm text-headline-sm text-on-surface group-hover:text-electric-blue transition-colors leading-tight">
+					<span
+						class="font-headline-sm text-headline-sm text-on-surface group-hover:text-electric-blue transition-colors leading-tight"
+					>
 						{cat.name}
 					</span>
 					<span class="font-body-sm text-body-sm text-on-surface-variant mt-1">

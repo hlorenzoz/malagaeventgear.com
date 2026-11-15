@@ -1,6 +1,7 @@
 <script lang="ts">
 	import CoverImage from '$lib/components/blog/CoverImage.svelte';
 	import SeoHead from '$lib/components/seo/SeoHead.svelte';
+	import enhanceUrl from '$lib/no-csr/enhance.js?url&no-inline';
 	import Icon from '$lib/components/navigation/Icon.svelte';
 	import Testimonials from '$lib/components/testimonials/Testimonials.svelte';
 	import { i18n } from '$lib/i18n.svelte';
@@ -48,6 +49,12 @@
 		}
 	}
 </script>
+
+<svelte:head>
+	<!-- Not hydrated (csr = false): SvelteKit strips component <script> tags, {@html} keeps this one.
+	     After a client side navigation it is inserted as inert HTML, so it only runs on a direct load. -->
+	{@html `<script src="${enhanceUrl}" defer><\/script>`}
+</svelte:head>
 
 <SeoHead
 	title={copy.seo.title}

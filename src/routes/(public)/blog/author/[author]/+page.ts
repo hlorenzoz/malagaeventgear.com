@@ -5,9 +5,11 @@ import type { Copy } from './i18n/en';
 import type { EntryGenerator, PageLoad } from './$types';
 
 export const prerender = true;
+// Not hydrated: no SvelteKit JS on a direct load. Its interactive pieces run from
+// src/lib/no-csr/enhance.js, injected by +page.svelte.
+export const csr = false;
 
-export const entries: EntryGenerator = () =>
-	getAuthors().map((a) => ({ author: a.slug }));
+export const entries: EntryGenerator = () => getAuthors().map((a) => ({ author: a.slug }));
 
 // An author with no published post in the locale 404s, as in English.
 export const load: PageLoad = async ({ params, parent }) => {

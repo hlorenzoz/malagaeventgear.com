@@ -591,10 +591,13 @@ del build produce auditorías que suenan seguras y son falsas. Estos son los hec
   - **Runtime solo Web APIs**: `wrangler.toml` no habilita `nodejs_compat`. Un built-in de Node
     falla en el edge en runtime, no en el build, y por eso pasa la revisión. Usar la API HTTP de un
     tercero antes que su SDK de Node.
-  - **Los posts del blog y la home no se hidratan** (`export const csr = false` en
-    `src/routes/(public)/blog/[slug]/+page.ts` y en `src/routes/(public)/+page.ts`, desde el
-    2026-11-15, ver `odd/tasks/post-no-csr.md` y `odd/tasks/home-no-csr.md`): cargados directo no
-    traen JS de SvelteKit. Por eso: (1) todo lo interactivo de esas páginas va en
+  - **Los posts del blog, la home y los listados del blog no se hidratan** (`export const csr =
+    false` en `src/routes/(public)/blog/[slug]/+page.ts`, en `src/routes/(public)/+page.ts` y en los
+    `+page.ts` de `blog/`, `blog/category/[category]/`, `blog/author/[author]/` y `blog/categories/`,
+    desde el 2026-11-15, ver `odd/tasks/post-no-csr.md`, `odd/tasks/home-no-csr.md` y
+    `odd/tasks/blog-listing-no-csr.md`): cargados directo no traen JS de SvelteKit, y un clic desde
+    una de esas páginas es una navegación completa (un test que necesite empezar en una página
+    hidratada parte de `/packages/`). Por eso: (1) todo lo interactivo de esas páginas va en
     `src/lib/no-csr/enhance.js` (JS plano, sin imports, compartido) y en el HTML del servidor (nada
     que el usuario necesite puede quedar detrás de un `{#if}` que depende de estado del cliente: se
     dibuja siempre, con `hidden` o CSS, y un `data-*` para el script), (2) un `<script>` dentro de

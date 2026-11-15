@@ -20,11 +20,12 @@ declare global {
 }
 
 /**
- * Opens /blog/ (hydrated) and follows a link to `path` without a document reload: SvelteKit's
- * router intercepts clicks on any same origin anchor, so an injected link is a real client nav.
+ * Opens /packages/ (hydrated, unlike /blog/) and follows a link to `path` without a document
+ * reload: SvelteKit's router intercepts clicks on any same origin anchor, so an injected link is a
+ * real client nav.
  */
 async function clientNavigateToPost(page: Page, path = POST): Promise<void> {
-	await page.goto('/blog/');
+	await page.goto('/packages/');
 	await page.waitForLoadState('networkidle');
 	await page.evaluate((href) => {
 		window.__navMarker = 1;

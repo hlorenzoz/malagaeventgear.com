@@ -4,6 +4,9 @@ import type { Copy } from './i18n/en';
 import type { PageLoad } from './$types';
 
 export const prerender = true;
+// Not hydrated: no SvelteKit JS on a direct load. Its interactive pieces run from
+// src/lib/no-csr/enhance.js, injected by +page.svelte.
+export const csr = false;
 
 // A localized blog index only exists (reroute) when its locale has published posts, and it
 // lists only those: never English titles on a translated page.

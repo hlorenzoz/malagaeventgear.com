@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (perf): los listados del blog sin hidratacion (2026-11-15)
+- Documento de la feature: `odd/tasks/blog-listing-no-csr.md`. Mismo patron que los posts y la home.
+- `export const csr = false` en `blog/+page.ts`, `blog/category/[category]/+page.ts`, `blog/author/[author]/+page.ts` y `blog/categories/+page.ts`: los 117 listados (13 idiomas x 9 paginas) se sirven sin JS de SvelteKit, con `src/lib/no-csr/enhance.js` inyectado igual que en la home. El cliente ya no vuelve a correr el `load` ni descarga el chunk con el frontmatter de todos los posts (46 KiB gzip). El `<head>` SEO es identico en los 117 (6.110 etiquetas comparadas, 0 diferencias).
+- Al no estar hidratado `/blog/`, un clic desde ahi a un post es una navegacion completa. `tests/post-no-csr.spec.ts` ahora empieza la navegacion de cliente en `/packages/`.
+- Medido (Lighthouse movil, preview local, 2 corridas): `/blog/` de 90 a 98/99 (LCP 2,2 s), categoria `events` 99/99, autor 99/99, `/blog/categories/` 100/100. Tests nuevos en `tests/blog-listing-no-csr.spec.ts` (19).
+
 ### Fixed (perf): NO_LCP en /blog/ por el carrusel de resenas (2026-11-15)
 - PageSpeed daba `NO_LCP` en `https://malagaeventgear.com/blog/` (sin puntuacion). Causa, encontrada con un bisect de builds locales y los traces de Chrome: `de940557` cambio el carrusel de `Testimonials.svelte` de `justify-center` a margenes automaticos. Con `px-2` y tarjetas `snap-start` en una fila `snap-mandatory`, el primer punto de snap quedo en 8 px y el navegador desplazaba la fila al cargar, antes del primer pintado. Ese scroll temprano corta el registro del LCP: el trace no tenia ningun candidato. La home no lo sufria porque ahi las resenas estan dentro de `content-visibility: auto`.
 - Arreglo: `scroll-px-2` en la fila (el `scroll-padding` iguala al `padding`, el primer snap queda en 0). Test nuevo en `tests/testimonials.spec.ts`: la fila no se desplaza sola al cargar, en `/blog/` y `/packages/`, a 390 y 1280 px (rojo antes, 8 px).
