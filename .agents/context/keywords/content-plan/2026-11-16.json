@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-16",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 0,
+    "reason": "content-candidates devolvio 0 candidatos (solo newFaqs sin cluster). Tier Level 100 (export 2026-09-29).",
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "todo": [],
+  "items": []
+}
