@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-16",
+  "run": {
+    "status": "partial",
+    "reason": "keyword_suggestions, serp_analysis and content_ideas returned no data for the seeds",
+    "quotaBefore": {"reports": 0, "brand_operations": 0, "monthly_keyword_metrics_updates": 0},
+    "quotaAfter": {"reports": 1, "brand_operations": 0, "monthly_keyword_metrics_updates": 0},
+    "calls": [
+      {"tool": "project_position_info", "args": "project 4224..., 2026-10-17 to 2026-11-16, en, loc 2724", "outcome": "ok"},
+      {"tool": "industry_prompts", "args": "seed audio visual rental for music performances", "outcome": "ok"},
+      {"tool": "industry_prompts", "args": "seed av equipment checklist for conference", "outcome": "ok"},
+      {"tool": "industry_prompts", "args": "seed destination wedding av costa del sol", "outcome": "ok"},
+      {"tool": "article_title_suggestions", "args": "seed audio visual rental for music performances", "outcome": "ok"},
+      {"tool": "keyword_suggestions", "args": "seed audio visual rental for music performances, loc 2724", "outcome": "empty"},
+      {"tool": "keyword_suggestions", "args": "destination wedding av, loc 2724", "outcome": "empty"},
+      {"tool": "serp_analysis", "args": "seed audio visual rental for music performances, limit 10, loc 2724", "outcome": "empty"},
+      {"tool": "content_ideas", "args": "av equipment checklist for conference, limit 5, loc 2724", "outcome": "empty"}
+    ],
+    "skipped": [
+      {"step": "keyword_overview for new keywords", "reason": "no new keywords came back from suggestions"},
+      {"step": "faqs", "reason": "Google autocomplete is the faq-researcher job"},
+      {"step": "keyword_metrics", "reason": "monthlyDue is false"}
+    ]
+  },
+  "keywords": [
+    {"keyword": "mice events malaga", "source": "ubersuggest-project", "metrics": {"volume": {"value": 0, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 12, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "speaker and microphone rental", "source": "ubersuggest-project", "metrics": {"volume": {"value": 10, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 27, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "sound and light rental", "source": "ubersuggest-project", "metrics": {"volume": {"value": 10, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 5, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "sound system rental for events", "source": "ubersuggest-project", "metrics": {"volume": {"value": 10, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 5, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "projector hire", "source": "ubersuggest-project", "metrics": {"volume": {"value": 10, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 18, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "av hire", "source": "ubersuggest-project", "metrics": {"volume": {"value": 20, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 18, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "lighting rental", "source": "ubersuggest-project", "metrics": {"volume": {"value": 10, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 25, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "speaker rental", "source": "ubersuggest-project", "metrics": {"volume": {"value": 20, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 27, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "audiovisual equipment rental service", "source": "ubersuggest-project", "metrics": {"volume": {"value": 20, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 7, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "audio visual equipment hire", "source": "ubersuggest-project", "metrics": {"volume": {"value": 10, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 5, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "audiovisual rental", "source": "ubersuggest-project", "metrics": {"volume": {"value": 30, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 25, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "event av spain", "source": "ubersuggest-project", "metrics": {"volume": {"value": 0, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 12, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "malaga wedding packages all inclusive", "source": "ubersuggest-project", "metrics": {"volume": {"value": 0, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 4, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "audiovisual events spain", "source": "ubersuggest-project", "metrics": {"volume": {"value": 0, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 12, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "screen rental for events", "source": "ubersuggest-project", "metrics": {"volume": {"value": 10, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 5, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "hire av equipment", "source": "ubersuggest-project", "metrics": {"volume": {"value": 20, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 13, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "audio visual rental company", "source": "ubersuggest-project", "metrics": {"volume": {"value": 10, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 5, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "sound equipment rental", "source": "ubersuggest-project", "metrics": {"volume": {"value": 40, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 13, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "rent tv screen", "source": "ubersuggest-project", "metrics": {"volume": {"value": 10, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 13, "source": "ubersuggest", "asOf": "2026-11-16"}}},
+    {"keyword": "screen rental", "source": "ubersuggest-project", "metrics": {"volume": {"value": 10, "source": "ubersuggest", "asOf": "2026-11-16"}, "difficulty": {"value": 24, "source": "ubersuggest", "asOf": "2026-11-16"}}}
+  ],
+  "faqs": [],
+  "aiPrompts": [
+    {"prompt": "What's the best audio visual rental service for live music performances in Spain?", "keyword": "audio visual rental for music performances", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where can I rent professional audio visual equipment for a music gig near me in Spain?", "keyword": "audio visual rental for music performances", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best budget-friendly audio visual rental for small music venues in Spain?", "keyword": "audio visual rental for music performances", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Recommendations for audio visual rental that includes lighting and sound for music shows?", "keyword": "audio visual rental for music performances", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which audio visual rental service offers the best packages for outdoor music festivals in Spain?", "keyword": "audio visual rental for music performances", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which AV rental company in Spain provides sound and video gear suitable for DJ events?", "keyword": "audio visual rental for music performances", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where to rent audio visual equipment with technical support for music performances in Spain?", "keyword": "audio visual rental for music performances", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Affordable audio visual rental options for acoustic music shows in Spain?", "keyword": "audio visual rental for music performances", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "What's the best AV equipment checklist for a mid-sized conference in Spain?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which AV gear should I prioritize for a corporate conference setup?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "AV equipment checklist vs rental package: What's more cost-effective for a conference?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where can I rent AV equipment for conferences with a complete checklist included?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which AV equipment checklist is ideal for a conference with breakout sessions and multiple rooms?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which AV setup checklist includes all essential gear for hybrid conferences?", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best AV equipment checklist for conferences focusing on clear audio and audience interaction", "keyword": "av equipment checklist for conference", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "What is the best destination wedding AV service in Costa del Sol for a medium-sized event?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which destination wedding AV providers in Costa del Sol offer the best sound and lighting packages?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Top-rated destination wedding AV companies near Marbella, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Where can I hire affordable destination wedding AV equipment in Costa del Sol?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best destination wedding AV services in Costa del Sol for outdoor beach ceremonies", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Which destination wedding AV company in Costa del Sol offers bilingual technical support?", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best value destination wedding AV packages in Costa del Sol for intimate weddings under 50 guests", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Most reliable destination wedding AV providers in Costa del Sol with onsite technicians", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Best destination wedding AV setups in Costa del Sol for evening receptions with dance floors", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"},
+    {"prompt": "Affordable destination wedding AV hire near Malaga airport, Costa del Sol", "keyword": "destination wedding av costa del sol", "source": "ubersuggest-ai-prompt-ideas"}
+  ],
+  "research": {
+    "audio visual rental for music performances": {
+      "titleIdeas": [
+        "How to choose audio visual rental for music performances on the Costa del Sol",
+        "7 sound and lighting setups for different music performance types",
+        "Renting audio visual for music performances versus buying: costs, logistics and when to hire a local technician"
+      ]
+    }
+  },
+  "rank": [
+    {"keyword": "speaker and microphone rental", "position": 9, "previousPosition": 4, "rankingUrl": "https://malagaeventgear.com/blog/audio-visual-rental-companies/", "asOf": "2026-11-02"},
+    {"keyword": "sound and light rental", "position": 4, "previousPosition": 7, "rankingUrl": "https://malagaeventgear.com/blog/audio-visual-rental/", "asOf": "2026-11-02"},
+    {"keyword": "sound system rental for events", "position": null, "previousPosition": null, "rankingUrl": null, "asOf": "2026-11-02"},
+    {"keyword": "projector hire", "position": 7, "previousPosition": 7, "rankingUrl": "https://malagaeventgear.com/blog/audio-visual-rental-for-outdoor-events/", "asOf": "2026-11-02"},
+    {"keyword": "av hire", "position": 53, "previousPosition": 12, "rankingUrl": "https://malagaeventgear.com/blog/audio-visual-rental-companies/", "asOf": "2026-11-02"},
+    {"keyword": "lighting rental", "position": 8, "previousPosition": 16, "rankingUrl": "https://malagaeventgear.com/blog/audio-visual-rental/", "asOf": "2026-11-02"},
+    {"keyword": "speaker rental", "position": 52, "previousPosition": 52, "rankingUrl": "https://malagaeventgear.com/", "asOf": "2026-10-19"},
+    {"keyword": "audiovisual equipment rental service", "position": 3, "previousPosition": 8, "rankingUrl": "https://malagaeventgear.com/blog/audio-visual-rental/", "asOf": "2026-11-02"},
+    {"keyword": "audio visual equipment hire", "position": 2, "previousPosition": 7, "rankingUrl": "https://malagaeventgear.com/blog/audio-visual-rental/", "asOf": "2026-11-02"},
+    {"keyword": "audiovisual rental", "position": 10, "previousPosition": 7, "rankingUrl": "https://malagaeventgear.com/blog/audio-visual-rental-companies/", "asOf": "2026-11-02"},
+    {"keyword": "event av spain", "position": null, "previousPosition": 60, "rankingUrl": null, "asOf": "2026-11-02"},
+    {"keyword": "malaga wedding packages all inclusive", "position": null, "previousPosition": 6, "rankingUrl": null, "asOf": "2026-11-02"},
+    {"keyword": "screen rental for events", "position": 4, "previousPosition": 14, "rankingUrl": "https://malagaeventgear.com/blog/audio-visual-rental-for-outdoor-events/", "asOf": "2026-11-02"},
+    {"keyword": "hire av equipment", "position": 2, "previousPosition": 6, "rankingUrl": "https://malagaeventgear.com/blog/audio-visual-rental-for-outdoor-events/", "asOf": "2026-11-02"},
+    {"keyword": "audio visual rental company", "position": 60, "previousPosition": 60, "rankingUrl": "https://malagaeventgear.com/blog/audio-visual-rental-companies/", "asOf": "2026-10-19"},
+    {"keyword": "sound equipment rental", "position": 14, "previousPosition": 7, "rankingUrl": "https://malagaeventgear.com/blog/sound-system-rental/", "asOf": "2026-11-02"},
+    {"keyword": "rent tv screen", "position": 6, "previousPosition": 6, "rankingUrl": "https://malagaeventgear.com/blog/tv-screen-rental/", "asOf": "2026-11-02"},
+    {"keyword": "screen rental", "position": 6, "previousPosition": 45, "rankingUrl": "https://malagaeventgear.com/blog/tv-screen-rental/", "asOf": "2026-11-02"}
+  ],
+  "discarded": [
+    {"text": "Which is better for concert AV rentals, Malaga Event Gear or local competitors?", "reason": "brand comparison prompt, not a customer query"},
+    {"text": "Where to find reliable audio visual equipment rental for music performances in Madrid area?", "reason": "another market (Madrid)"},
+    {"text": "Where can I hire high-quality audio visual gear for a music show in Barcelona?", "reason": "another market (Barcelona)"},
+    {"text": "Where to find comprehensive AV equipment checklists for conferences in Madrid and nearby areas?", "reason": "another market (Madrid)"},
+    {"text": "Where to buy AV equipment checklist template for professional conference planning?", "reason": "buying templates, no hire intent"},
+    {"text": "Costa del Sol destination wedding AV companies specializing in drone videography and audio", "reason": "drone videography is not a MEG service"},
+    {"text": "Where to buy or rent high-end destination wedding AV equipment in Costa del Sol?", "reason": "buying intent mixed in"}
+  ],
+  "report": {
+    "kind": "rank-tracking",
+    "status": "ok",
+    "summary": [
+      "20 tracked keywords: up 7, down 6, unchanged 7. Top 3: 3, top 10: 8, top 100: 4, not ranking: 5.",
+      "Average position 19.81 (2026-10-19), 8 (2026-10-26), 9.85 (2026-11-02). Next update 2026-11-09."
+    ],
+    "metrics": {"up": 7, "down": 6, "unchanged": 7, "top_3": 3, "top_10": 8, "top_100": 4, "not_ranking": 5},
+    "seoCounts": {},
+    "seo": [],
+    "rows": []
+  }
+}
