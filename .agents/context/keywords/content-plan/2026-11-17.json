@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-17",
+  "run": {
+    "status": "ok",
+    "candidatesReviewed": 0,
+    "reason": "content-candidates devolvio 0 candidatos (solo newFaqs sin cluster). Tier Level 100 (export 2026-09-29). La tarea #T0002 Comments no tiene descripcion, se deja sin prioridad.",
+    "tier": { "level": 100, "value": 149.5, "export": "2026-09-29" }
+  },
+  "todo": [],
+  "items": []
+}
