@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-14",
+  "updated": "2026-11-17",
   "tasks": [
     {
       "id": "#T0085",
@@ -770,7 +770,7 @@
     },
     {
       "id": "#T0205",
-      "estado": "pendiente",
+      "estado": "en curso",
       "prioridad": "media",
       "tipo": "contenido",
       "titulo": "Nueva sección H3 en /blog/sound-system-rental/: \"Audio Equipment Rental: Speakers, Mixers and Microphones\"",
@@ -1432,7 +1432,15 @@
       "anotada": "2026-10-07",
       "hecha": null,
       "origen": "usuario",
-      "notas": [],
+      "notas": [
+        "2026-11-17",
+        "reporte backlinks de Ubersuggest: autoridad de dominio 2",
+        "195 backlinks",
+        "148 dominios de referencia",
+        "0 gov o edu",
+        "184 follow y 11 nofollow. backlink_opportunity no devolvio filas para los dos competidores. Punto de partida medido",
+        "sin datos de competidores."
+      ],
       "descripcion": [
         "Origen: sugerencia de Local Dominator (AI Visibility Game Plan, 2026-10-07). Estado: pendiente, sin fecha.",
         "Buscar directorios del sector (produccion de eventos y alquiler audiovisual en Espana) donde figuran competidores como Alquilavisual u Objetivo 50, y crear fichas gratuitas.",
