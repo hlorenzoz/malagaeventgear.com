@@ -769,26 +769,6 @@
       ]
     },
     {
-      "id": "#T0205",
-      "estado": "en curso",
-      "prioridad": "media",
-      "tipo": "contenido",
-      "titulo": "Nueva sección H3 en /blog/sound-system-rental/: \"Audio Equipment Rental: Speakers, Mixers and Microphones\"",
-      "anotada": "2026-11-14",
-      "hecha": null,
-      "origen": "content-strategist (plan 2026-11-14, ítem 1)",
-      "notas": [],
-      "descripcion": [
-        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
-        "Archivo: src/content/blog/sound-system-rental.svx",
-        "Ubicación: dentro de \"What's Included in a Sound System Rental\"",
-        "Keywords: audio equipment rental, audio system rental (google-ads 320/mo (above tier 100), gsc pos 19 4 impr), encima del tier",
-        "Qué cubrir: Explicar que equipo de audio se puede alquilar (altavoces activos, mesa de mezclas, microfonos) y que se contrata dentro de los packs o a medida. Usar solo hechos de src/lib/data/packages.ts y del CSV de inventario mas reciente en .agents/context/inventario/. No inventar marcas, cantidades ni precios. Lo que no este en inventario propio se plantea como: dinos que necesitas y buscamos una solucion con nuestros proveedores. No anadir enlaces nuevos a otros posts mas alla de los naturales.",
-        "Por qué: Misma intencion que sound system rental. /blog/sound-system-rental/ no tiene un encabezado con audio equipment o audio system. Se anade un H3 bajo el H2 de lo que incluye el alquiler. Sube de baja a media por la posicion 19 en GSC. Revisados audio-visual-rental (pilar) y audio-system-calibration (otra intencion).",
-        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
-      ]
-    },
-    {
       "id": "#T0175",
       "estado": "pendiente",
       "prioridad": "media",
@@ -1515,6 +1495,28 @@
         "aclarada por el usuario el 2026-10-08: es un sistema de comentarios como el de WordPress. Necesita base de datos integrada y NO se hace por el momento"
       ],
       "descripcion": []
+    },
+    {
+      "id": "#T0205",
+      "estado": "hecha",
+      "prioridad": "media",
+      "tipo": "contenido",
+      "titulo": "Nueva sección H3 en /blog/sound-system-rental/: \"Audio Equipment Rental: Speakers, Mixers and Microphones\"",
+      "anotada": "2026-11-14",
+      "hecha": "2026-11-17",
+      "origen": "content-strategist (plan 2026-11-14, ítem 1)",
+      "notas": [
+        "marcada hecha por plan-coverage"
+      ],
+      "descripcion": [
+        "Tier de tráfico (Avalanche, POP): Level 100 (149.5 impresiones diarias de media, export 2026-09-29).",
+        "Archivo: src/content/blog/sound-system-rental.svx",
+        "Ubicación: dentro de \"What's Included in a Sound System Rental\"",
+        "Keywords: audio equipment rental, audio system rental (google-ads 320/mo (above tier 100), gsc pos 19 4 impr), encima del tier",
+        "Qué cubrir: Explicar que equipo de audio se puede alquilar (altavoces activos, mesa de mezclas, microfonos) y que se contrata dentro de los packs o a medida. Usar solo hechos de src/lib/data/packages.ts y del CSV de inventario mas reciente en .agents/context/inventario/. No inventar marcas, cantidades ni precios. Lo que no este en inventario propio se plantea como: dinos que necesitas y buscamos una solucion con nuestros proveedores. No anadir enlaces nuevos a otros posts mas alla de los naturales.",
+        "Por qué: Misma intencion que sound system rental. /blog/sound-system-rental/ no tiene un encabezado con audio equipment o audio system. Se anade un H3 bajo el H2 de lo que incluye el alquiler. Sube de baja a media por la posicion 19 en GSC. Revisados audio-visual-rental (pilar) y audio-system-calibration (otra intencion).",
+        "Cada cambio va en los 13 idiomas en el mismo cambio y mueve updatedDate."
+      ]
     },
     {
       "id": "#T0206",
