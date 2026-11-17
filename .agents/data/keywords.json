@@ -4484,8 +4484,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/sound-system-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -4534,6 +4534,10 @@
             "ctr": 0,
             "position": 19
           }
+        },
+        "blog": {
+          "firstSeen": "2026-11-17",
+          "lastSeen": "2026-11-17"
         },
         "content-plan": {
           "firstSeen": "2026-11-14",
@@ -6237,8 +6241,8 @@
       "cluster": "unassigned",
       "topic": null,
       "intent": null,
-      "url": null,
-      "status": "idea",
+      "url": "/blog/sound-system-rental/",
+      "status": "covered",
       "reason": null,
       "sources": {
         "google-ads": {
@@ -6287,6 +6291,10 @@
             "ctr": 0,
             "position": 9
           }
+        },
+        "blog": {
+          "firstSeen": "2026-11-17",
+          "lastSeen": "2026-11-17"
         },
         "content-plan": {
           "firstSeen": "2026-11-14",
