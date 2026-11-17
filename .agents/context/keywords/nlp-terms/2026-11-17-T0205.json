@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-17",
+  "taskId": "#T0205",
+  "slug": "sound-system-rental",
+  "searchTerm": "sound system rental Audio Equipment Rental: Speakers, Mixers and Microphones",
+  "status": "partial",
+  "reason": "Google positions 1 (redirected to another host, not followed), 4 (HTTP 503) and 5 (HTTP 404) were skipped and position 6 was not tried. Pages read were positions 2, 3 and 7. Search tool did not confirm localization.",
+  "serp": {
+    "query": "audio equipment rental speakers mixers microphones",
+    "localized": false,
+    "results": [
+      { "rank": 1, "url": "https://intheevent.com/product-category/audio-video/audio/", "title": "Audio Equipment" },
+      { "rank": 2, "url": "https://4wall.com/rentals/audio-equipment", "title": "Audiovisual Production Equipment Rentals" },
+      { "rank": 3, "url": "https://rentforevent.com/audio-sound-rentals/", "title": "Sound Equipment Rental" }
+    ]
+  },
+  "terms": [
+    { "term": "speakers", "kind": "entity", "seenIn": 3 },
+    { "term": "mixers", "kind": "entity", "seenIn": 3 },
+    { "term": "wireless microphones", "kind": "entity", "seenIn": 3 },
+    { "term": "subwoofers", "kind": "entity", "seenIn": 3 },
+    { "term": "corporate events", "kind": "entity", "seenIn": 3 },
+    { "term": "conferences", "kind": "entity", "seenIn": 3 },
+    { "term": "trade shows", "kind": "entity", "seenIn": 3 },
+    { "term": "lavalier microphones", "kind": "entity", "seenIn": 2 },
+    { "term": "digital mixers", "kind": "entity", "seenIn": 2 },
+    { "term": "JBL", "kind": "entity", "seenIn": 2 },
+    { "term": "Sennheiser", "kind": "entity", "seenIn": 2 },
+    { "term": "concerts and festivals", "kind": "entity", "seenIn": 2 },
+    { "term": "livestream audio", "kind": "related", "seenIn": 2 },
+    { "term": "How do I rent audio equipment?", "kind": "question", "seenIn": 2 },
+    { "term": "powered speakers", "kind": "entity", "seenIn": 1 },
+    { "term": "passive speakers", "kind": "entity", "seenIn": 1 },
+    { "term": "handheld microphones", "kind": "entity", "seenIn": 1 },
+    { "term": "headset microphones", "kind": "entity", "seenIn": 1 },
+    { "term": "stage monitors", "kind": "entity", "seenIn": 1 },
+    { "term": "in-ear monitors", "kind": "entity", "seenIn": 1 },
+    { "term": "feedback prevention", "kind": "related", "seenIn": 1 },
+    { "term": "soundcheck", "kind": "related", "seenIn": 1 },
+    { "term": "How many microphones do I need?", "kind": "question", "seenIn": 1 },
+    { "term": "What size sound system do I need?", "kind": "question", "seenIn": 1 },
+    { "term": "What is the difference between wired and wireless mics?", "kind": "question", "seenIn": 1 }
+  ],
+  "discarded": [
+    { "term": "bar and bat mitzvahs", "reason": "US market event type" },
+    { "term": "Theatre and Broadway", "reason": "place outside Spain" },
+    { "term": "sq ft", "reason": "US unit" },
+    { "term": "Why rent from this company?", "reason": "marketing question of one provider" },
+    { "term": "What areas do they service?", "reason": "provider specific, other market" },
+    { "term": "Do I need a deposit?", "reason": "commercial terms of one provider" }
+  ]
+}

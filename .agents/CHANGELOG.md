@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows [
 
 ## [Unreleased]
 
+### Changed (blog): sound-system-rental, H3 "Audio Equipment Rental: Speakers, Mixers and Microphones" (2026-11-17)
+- Tarea T0205, origen: plan de contenido diario 2026-11-17 (keywords audio equipment rental / audio system rental, google-ads 320/mes, GSC pos 19).
+- Nuevo H3 bajo "What's Included in a Sound System Rental", antes de "Sound and Light Rental in One Package", con su bullet en el Table of Contents. Solo hechos del CSV 2026.09.26 y del propio post, sin enlaces nuevos salvo /contact/.
+- `updatedDate` movido a 2026-11-17 con `just post-sync`; post-faqs.json y post-toc.json regenerados.
+- Las 12 traducciones quedan desfasadas y siguen en el mismo cambio.
+
 ### Changed (perf): los listados del blog sin hidratacion (2026-11-15)
 - Documento de la feature: `odd/tasks/blog-listing-no-csr.md`. Mismo patron que los posts y la home.
 - `export const csr = false` en `blog/+page.ts`, `blog/category/[category]/+page.ts`, `blog/author/[author]/+page.ts` y `blog/categories/+page.ts`: los 117 listados (13 idiomas x 9 paginas) se sirven sin JS de SvelteKit, con `src/lib/no-csr/enhance.js` inyectado igual que en la home. El cliente ya no vuelve a correr el `load` ni descarga el chunk con el frontmatter de todos los posts (46 KiB gzip). El `<head>` SEO es identico en los 117 (6.110 etiquetas comparadas, 0 diferencias).
